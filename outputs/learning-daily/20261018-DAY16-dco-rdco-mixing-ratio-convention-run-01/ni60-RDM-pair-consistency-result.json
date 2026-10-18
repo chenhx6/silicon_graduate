@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-19T05:51:27.583526+08:00",
+  "formula": ".9988*100/(100+.0076+.000002)/(1+.0001722)/(1+.0001625)",
+  "p_pair": 0.9983898879627207,
+  "fixed_source_files": [
+    {
+      "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata",
+      "sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a"
+    },
+    {
+      "path": "tmp/day16-ni60-reference/installed-z27.a60",
+      "sha256": "bc2f5dbd7da0e6d5db44c62ff12da7ef85772c16631c8809eb72f044566faa28"
+    }
+  ],
+  "rows_corr_then_iso": [
+    {
+      "N": 100000,
+      "k": 99840,
+      "expected_pairs": 99838.98879627207,
+      "expected_missing": 161.01120372793432,
+      "prediction_standard_error": 0.0001267879953507725,
+      "z_fixed_p": 0.07975547883158257,
+      "two_sided_exact_binomial_conditional_pvalue": 0.9685498981206073
+    },
+    {
+      "N": 100000,
+      "k": 99845,
+      "expected_pairs": 99838.98879627207,
+      "expected_missing": 161.01120372793432,
+      "prediction_standard_error": 0.0001267879953507725,
+      "z_fixed_p": 0.4741145809032271,
+      "two_sided_exact_binomial_conditional_pvalue": 0.6644741850778856
+    }
+  ],
+  "independent_experimental_validation": false,
+  "scope": "Same installed model cascade, restenergy windows intruthselector; no publishedQ/geometry/transportcertification",
+  "input_parameter_covariance_recovered": false,
+  "status": "invalidated-before-canonical-writeback",
+  "reason": "v11.4.2 G4LevelReader normalizes total branch weight (1+CC)*Ig before photon probability; initial expression normalized Ig alone. Source lines358-362 now read."
+}

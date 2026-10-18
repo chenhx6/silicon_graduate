@@ -1,0 +1,7 @@
+{
+  "source": "/opt/geant4/11.4.2/share/Geant4/data/RadioactiveDecay6.1.2/z27.a60",
+  "copied_path": "tmp/day16-ni60-reference/installed-z27.a60",
+  "sha256": "bc2f5dbd7da0e6d5db44c62ff12da7ef85772c16631c8809eb72f044566faa28",
+  "source_unchanged": true,
+  "scope": "modelRadioactiveDecay6.1.2 input, notnewevaluatedexperiment"
+}

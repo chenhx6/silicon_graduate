@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[nndc-2013-ni60-co60-reference-records]] - Co60参考MR误差/同源评价、反冲、共同Cov与actualSDK分支；primaryphase仍缺。
+
 - [[riley-2021-ucgretina-energy-response]] - 原读十二quad/单晶有效层、能区退化、continuum反证与polarimetry迁移边界；不替公开七quad原producer。
 
 - [[ucgretina-2024-geant4-11-source-replay]] - G411实际编译/源模拟：truth双失败、有效CRYS同种子对照与sourceFrame前后导航；不代偏振Q或历史producer。

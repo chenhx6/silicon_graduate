@@ -1,0 +1,385 @@
+{
+  "identity": "NI60-REFERENCE-QUANTITATIVE-02",
+  "contract_sha256": "28a5187b5d06c4fd416d27aaf764e4a46b376b6d482717d29984fb0755a739b5",
+  "script_sha256": "c2ba3317a2796b0f346ebf148008c1891c2941007530eec1cd13a15a15490f54",
+  "selected_records": {
+    "adopted": {
+      "low": {
+        "line": 277,
+        "E": "1332.514",
+        "DE": "4",
+        "Jpi": "2+"
+      },
+      "high": {
+        "line": 320,
+        "E": "2505.753",
+        "DE": "4",
+        "Jpi": "4+"
+      },
+      "first": {
+        "line": 335,
+        "parent": {
+          "line": 320,
+          "E": "2505.753",
+          "DE": "4",
+          "Jpi": "4+"
+        },
+        "E": "1173.228",
+        "DE": "3",
+        "RI": "100.00",
+        "DRI": "3",
+        "M": "E2(+M3)",
+        "MR": "-0.0025",
+        "DMR": "22",
+        "attached": [
+          {
+            "line": 336,
+            "raw": " 60NIS G CC=0.0001722 25$KC=0.0001500 21$LC=1.465E-5 21$MC=2.06E-6 3            "
+          },
+          {
+            "line": 337,
+            "raw": " 60NIS G NC=8.88E-8 13$IPC=5.42E-6 8                                            "
+          },
+          {
+            "line": 338,
+            "raw": " 60NI DG           BE2W RECALCULATED BY B. SINGH WITH NEW T VALUE 1/96          "
+          },
+          {
+            "line": 339,
+            "raw": " 60NI cG MR        from {+60}Co |b{+-} decay (1925.28 d). Others: -0.09         "
+          },
+          {
+            "line": 340,
+            "raw": " 60NI2cG {I+50-30} from {+58}Ni(|a,2p|g), +0.02 {I+18-2} from                   "
+          },
+          {
+            "line": 341,
+            "raw": " 60NIxcG {+56}Fe({+7}Li,2np|g)                                                  "
+          },
+          {
+            "line": 342,
+            "raw": " 60NIB G BE2W=(5.5 17)$BM3W=(1.8E+2 +32-18)                                     "
+          }
+        ],
+        "raw": " 60NI  G 1173.228  3 100.00  3 E2(+M3)   -0.0025 22                         C   "
+      },
+      "last": {
+        "line": 290,
+        "parent": {
+          "line": 277,
+          "E": "1332.514",
+          "DE": "4",
+          "Jpi": "2+"
+        },
+        "E": "1332.501",
+        "DE": "5",
+        "RI": "100",
+        "DRI": "",
+        "M": "E2",
+        "MR": "",
+        "DMR": "",
+        "attached": [
+          {
+            "line": 291,
+            "raw": " 60NIS G CC=0.0001625 23$KC=0.0001137 16$LC=1.108E-5 16$MC=1.560E-6 22          "
+          },
+          {
+            "line": 292,
+            "raw": " 60NIS G NC=6.73E-8 10$IPC=3.61E-5 5                                            "
+          },
+          {
+            "line": 293,
+            "raw": " 60NIB G BE2W=13.1 4                                                            "
+          }
+        ],
+        "raw": " 60NI  G 1332.501  5 100        E2                                          C   "
+      },
+      "quoted_delta": -0.0025,
+      "quoted_sigma_delta": 0.0022,
+      "CC_first_S_record": 0.0001722,
+      "CC_last_S_record": 0.0001625
+    },
+    "co60beta": {
+      "low": {
+        "line": 70,
+        "E": "1332.508",
+        "DE": "4",
+        "Jpi": "2+"
+      },
+      "high": {
+        "line": 109,
+        "E": "2505.748",
+        "DE": "4",
+        "Jpi": "4+"
+      },
+      "first": {
+        "line": 120,
+        "parent": {
+          "line": 109,
+          "E": "2505.748",
+          "DE": "4",
+          "Jpi": "4+"
+        },
+        "E": "1173.228",
+        "DE": "3",
+        "RI": "99.85",
+        "DRI": "3",
+        "M": "E2(+M3)",
+        "MR": "-0.0025",
+        "DMR": "22",
+        "attached": [
+          {
+            "line": 121,
+            "raw": " 60NIS G CC=0.0001722 25$KC=0.0001500 21$LC=1.465E-5 21$MC=2.06E-6 3            "
+          },
+          {
+            "line": 122,
+            "raw": " 60NIS G NC=8.88E-8 13$IPC=5.42E-6 8                                            "
+          },
+          {
+            "line": 123,
+            "raw": " 60NI cG RI        from I{-|g}(1173)=(I{-|b-}(2505) - I{-|g}(347)[1.0+|a(347)]  "
+          },
+          {
+            "line": 124,
+            "raw": " 60NI2cG - I{-|g}(2505)[1.0+|a(2505)]) / [1.00+|a(1173)+|a{-|p}(1173)]=         "
+          },
+          {
+            "line": 125,
+            "raw": " 60NI3cG 99.87 {i3} / 1.000174 {i4}.                                            "
+          },
+          {
+            "line": 126,
+            "raw": " 60NI cG MR        from 1980Kr05.                                               "
+          },
+          {
+            "line": 127,
+            "raw": " 60NI cG CC        from 1985HaZA evaluation of measured values; from theory     "
+          },
+          {
+            "line": 128,
+            "raw": " 60NI2cG (1976Ba63) |a=1.65x10{+-4}, |a{-K}=1.50x10{+-4}, and                   "
+          },
+          {
+            "line": 129,
+            "raw": " 60NI3cG |a{-L}=1.48x10{+-5} {i4}                                               "
+          },
+          {
+            "line": 130,
+            "raw": " 60NI cG CC        |a{-|p}=6.2*10{+-6} {i7} interpolated from theoretical       "
+          },
+          {
+            "line": 131,
+            "raw": " 60NI2cG values of 1979Sc31; this value is negligible since it is only          "
+          },
+          {
+            "line": 132,
+            "raw": " 60NI3cG about 5% of the corresponding |a.                                      "
+          }
+        ],
+        "raw": " 60NI  G 1173.228  3  99.85  3  E2(+M3)  -0.0025  22                            "
+      },
+      "last": {
+        "line": 76,
+        "parent": {
+          "line": 70,
+          "E": "1332.508",
+          "DE": "4",
+          "Jpi": "2+"
+        },
+        "E": "1332.492",
+        "DE": "4",
+        "RI": "99.9826",
+        "DRI": "6",
+        "M": "E2",
+        "MR": "",
+        "DMR": "",
+        "attached": [
+          {
+            "line": 77,
+            "raw": " 60NIS G CC=0.0001625 23$KC=0.0001137 16$LC=1.108E-5 16$MC=1.560E-6 22          "
+          },
+          {
+            "line": 78,
+            "raw": " 60NIS G NC=6.73E-8 10$IPC=3.61E-5 5                                            "
+          },
+          {
+            "line": 79,
+            "raw": " 60NI cG RI        from I{-|g}(1332)=(100.00 - I{-|g}(2158)[1.0+|a(2158)] -     "
+          },
+          {
+            "line": 80,
+            "raw": " 60NI2cG I{-|g}(2505)[1.0+|a(2505)]) / [1.00+|a(1332)+|a{-|p}(1332)]=           "
+          },
+          {
+            "line": 81,
+            "raw": " 60NI3cG 99.9988 {i2} / 1.000162 {i6}. In the evaluation 1991BaZS, this         "
+          },
+          {
+            "line": 82,
+            "raw": " 60NI4cG is computed in the same fashion, but is given as 99.983% {i6};         "
+          },
+          {
+            "line": 83,
+            "raw": " 60NI5cG the origin of the larger uncertainty is not clear.                     "
+          },
+          {
+            "line": 84,
+            "raw": " 60NI cG CC        |a and |a{-K} from 1985HaZA evaluation of measured values;   "
+          },
+          {
+            "line": 85,
+            "raw": " 60NI2cG from theory (1976Ba63) |a=1.25x10{+-4}, |a{-K}=1.14x10{+-4},           "
+          },
+          {
+            "line": 86,
+            "raw": " 60NI3cG and |a{-L}=1.13x10{+-5}.                                               "
+          },
+          {
+            "line": 87,
+            "raw": " 60NI cG CC        |a{-|p}=3.4*10{+-5} {i4} interpolated from theoretical       "
+          },
+          {
+            "line": 88,
+            "raw": " 60NI2cG values of 1979Sc31; 3.0|*10{+-5} {I3} (1994GrZW)                       "
+          }
+        ],
+        "raw": " 60NI  G 1332.492  4 99.9826 6  E2                                              "
+      },
+      "quoted_delta": -0.0025,
+      "quoted_sigma_delta": 0.0022,
+      "CC_first_S_record": 0.0001722,
+      "CC_last_S_record": 0.0001625
+    }
+  },
+  "SDK_nuclear_mass_keV": 55810902.779622644,
+  "rest_frame_energy_crosschecks": [
+    {
+      "dataset": "adopted",
+      "role": "first",
+      "level_gap_keV": 1173.2390000000003,
+      "recorded_gamma_E_keV": 1173.228,
+      "rest_model_photon_E_keV": 1173.2266688255809,
+      "rest_recoil_correction_keV": 0.012331174419387025,
+      "model_minus_recorded_keV": -0.0013311744191923935,
+      "E_gamma_sigma_keV": 0.003,
+      "level_gamma_joint_covariance_known": false
+    },
+    {
+      "dataset": "adopted",
+      "role": "last",
+      "level_gap_keV": 1332.514,
+      "recorded_gamma_E_keV": 1332.501,
+      "rest_model_photon_E_keV": 1332.4980931513414,
+      "rest_recoil_correction_keV": 0.01590684865846015,
+      "model_minus_recorded_keV": -0.0029068486585401843,
+      "E_gamma_sigma_keV": 0.005,
+      "level_gamma_joint_covariance_known": false
+    },
+    {
+      "dataset": "co60beta",
+      "role": "first",
+      "level_gap_keV": 1173.24,
+      "recorded_gamma_E_keV": 1173.228,
+      "rest_model_photon_E_keV": 1173.2276688045586,
+      "rest_recoil_correction_keV": 0.012331195441447562,
+      "model_minus_recorded_keV": -0.00033119544150395086,
+      "E_gamma_sigma_keV": 0.003,
+      "level_gamma_joint_covariance_known": false
+    },
+    {
+      "dataset": "co60beta",
+      "role": "last",
+      "level_gap_keV": 1332.508,
+      "recorded_gamma_E_keV": 1332.492,
+      "rest_model_photon_E_keV": 1332.4920932945893,
+      "rest_recoil_correction_keV": 0.015906705410770883,
+      "model_minus_recorded_keV": 9.329458930551482e-05,
+      "E_gamma_sigma_keV": 0.004,
+      "level_gamma_joint_covariance_known": false
+    }
+  ],
+  "actual_source_crosswalk": {
+    "level1_E": 1332.514,
+    "level4_E": 2505.753,
+    "first_transition": {
+      "daughter": 1,
+      "nominal_gap_keV": 1173.239,
+      "relative_intensity": 100.0,
+      "MP": 407,
+      "mixing_ratio": -0.0025,
+      "CC": 0.0001722
+    },
+    "last_transition": {
+      "daughter": 0,
+      "nominal_gap_keV": 1332.514,
+      "relative_intensity": 100.0,
+      "MP": 4,
+      "mixing_ratio": 0.0,
+      "CC": 0.0001625
+    },
+    "levels_match_adopted": true,
+    "source_MR_has_uncertainty": false
+  },
+  "pointP_shared_delta_component": {
+    "conditional_phase_assumption": "conditional d_native = quotedSteffenMR, appropriateadjacentlowL2/highL3 basis underMA87/KS70 bridge; primary1980operatorbody notyetread, do notcertifyoriginalproducer",
+    "delta": -0.0025,
+    "quoted_delta_error": 0.0022,
+    "central_Pfirst_Plast": [
+      0.16528240086511434,
+      0.1643540933390345
+    ],
+    "derivative_steps": [
+      1e-05,
+      1e-06
+    ],
+    "derivatives": [
+      [
+        0.5527768640919972,
+        0.9256636489707314
+      ],
+      [
+        0.552776864212734,
+        0.9256636490651005
+      ]
+    ],
+    "covariance": [
+      [
+        1.4789213461868987e-06,
+        2.4765575743502665e-06
+      ],
+      [
+        2.4765575743502665e-06,
+        4.147169445410505e-06
+      ]
+    ],
+    "eigenvalues": [
+      4.235164736271502e-22,
+      5.626090791597403e-06
+    ],
+    "difference_central": 0.0009283075260798357,
+    "difference_sigma_shared_input_only": 0.0008203509266752069,
+    "difference_sigma_if_wrongly_independent": 0.0023719381930390605,
+    "endpoint_input_range_not_CI": [
+      {
+        "delta": -0.0047,
+        "Pfirst_Plast": [
+          0.16406810312455594,
+          0.16231643272388627
+        ]
+      },
+      {
+        "delta": -0.0002999999999999999,
+        "Pfirst_Plast": [
+          0.1665003101597496,
+          0.16638932708054788
+        ]
+      }
+    ],
+    "primary_phase_or_full_calibration_CI_recovered": false
+  },
+  "evaluated_pair_probability_central_conditional": 0.9983377701123566,
+  "pair_probability_scope": "RI_first per100decays times conditional last radiative branch; intensity/CC joint errors not recovered",
+  "datasets_are_independent_experiments": false,
+  "original_files_after_run_unchanged": true
+}

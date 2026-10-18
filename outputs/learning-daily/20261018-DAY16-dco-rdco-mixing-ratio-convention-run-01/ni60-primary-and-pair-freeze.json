@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-19T05:51:13.403478+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ni60-primary-and-pair-before.md",
+  "sha256": "cb33ede2ace6fa325d8a12dc72dde3a9a2dc18f2733e679ec5a6ba904ad41c8c",
+  "status": "primed-not-blind",
+  "primary_metadata_and_body_not_read": true,
+  "RDM_pair_control_formula": "0.9988 * 100/(100+0.0076+0.000002) / (1+0.0001722) / (1+0.0001625)",
+  "MC_pair_N_known_before": {
+    "corr": [
+      99840,
+      100000
+    ],
+    "iso": [
+      99845,
+      100000
+    ]
+  }
+}

@@ -66,6 +66,15 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### Checkpoint027：60Ni/60Co官方reference与原引用链
+
+新增canonical [[nndc-2013-ni60-co60-reference-records]] N60-1–11（[文件](../../knowledge/sources/nndc-2013-ni60-co60-reference-records.md)）；NNDC60028001/002精确对象/hash、β−完整140行与Adopted定向阅读范围已记录。MR−.0025(22)误差为.0022；Adopted→β−→1980Kr05是共享谱系，不计两次独立实验。NSR正式接口/Crossref核原题名、作者、NIM169573–576、DOI10.1016/0029-554X(80)90959-3；低温Co60/Feγ角分布的评价/metadata与原正文分开。publisher403/API仅coredata、HAL0/ADS拒绝/Scholar超时保留，不补原operator/phase或Cov。
+
+[固定列/反冲/共享误差结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ni60-reference-audit-result.json)：实际SDK质量、同对象Ex→restEγ扣recoil、两对象差异/RI归一和理论CC分层；conditional pointP差的δ-onlyσ=.0008203509，对比错误独立.0023719382。不是实验P/CI或新的δ测量。
+
+[实际SDK分支读取](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ni60-RDM-pair-consistency-corrected-result.json)：Ig(1+CC)总分支归一，pair .9983894029与同模型100k99840/99845相容。初gamma-only归一试算已invalidated、未入canonical数值；source/模型相容性不认证真实Q、历史producer或primaryphase。脚本编译/执行实际0，原输入不变。
+
+
 ### Co60 point-reference conditional Stokes：相同极限与轴平均
 
 UG24-30–34及[canonical benchmark](../../knowledge/research-notes/co60-gate-role-response-benchmark.md)保存新joint两光子密度模型、先冻结的源/轴/相位/门假设和失败控制。pureE2 4→2→0在理想point gate且不观测reference helicity时，first/last P_parallel在90°同为1/6；actual小M3输入给.1652824009/.1643540933，不把角色不同概括成physicalP必不同。
@@ -437,6 +446,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批新增[Ni60官方reference源页](../../knowledge/sources/nndc-2013-ni60-co60-reference-records.md)及[Co60笔记](../../knowledge/research-notes/co60-gate-role-response-benchmark.md)的“评价reference、共同δ误差与实际分支权重”锚点；N60-3/9/11分别支持MR误差/依赖、共享误差分量及actualSDK内部控制。原phase正文缺口仍保留；outputs仅为执行证据。
+
 UG24-30–34、Co60 benchmark与Compton方法页写入joint模型/明确pureE2角色相同极限、actual小M3差别、KN单点能量依赖、130fullPSD/12spin2控制及19/189标量平均反例；知识层有完整公式、定义、边界及代码回链，非只outputs数字。
 
 Co60 UG24-28/29及benchmark新增各100k实际moment/conditionalCov/图像和detector统计边界；source/选择/相位与counter例已在knowledge正文，不只outputs图/receipt。
@@ -736,7 +747,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -810,6 +821,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-27"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-1"
         }
       ]
     },
@@ -1214,7 +1229,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1460,6 +1475,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-34"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-11"
         }
       ]
     },
@@ -2438,7 +2465,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
-      "summary": "新建固定G411源能谱软件source，核原truth双失败/source-only追加、nativeABI、同种子有效core不变和源框顺序实际导航边界。 新1000history统计控制核跨区Cov正负、PSD/双算法与zero-hit概率界。 各100k实际运行/四区/有限Σ及三个高区history的能量闭合已写回，未做实验Q/δ/旧fit。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60例native开关/几何/混合/1k/坐标/missing与prefixback、F3双路线已记录。 两组100k实际source moment/cov与detectorstatistics通过，控制图/CSV/PDF及QA已交付；不拟Q或实验δ。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。",
+      "summary": "新建固定G411源能谱软件source，核原truth双失败/source-only追加、nativeABI、同种子有效core不变和源框顺序实际导航边界。 新1000history统计控制核跨区Cov正负、PSD/双算法与zero-hit概率界。 各100k实际运行/四区/有限Σ及三个高区history的能量闭合已写回，未做实验Q/δ/旧fit。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60例native开关/几何/混合/1k/坐标/missing与prefixback、F3双路线已记录。 两组100k实际source moment/cov与detectorstatistics通过，控制图/CSV/PDF及QA已交付；不拟Q或实验δ。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
       "anchor": "G411源模拟：程序退出、有效记录和实验响应分别核验",
       "sources": [
         {
@@ -2580,6 +2607,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-34"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-11"
         }
       ]
     },
@@ -2775,7 +2814,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/research-notes/co60-gate-role-response-benchmark.md",
-      "summary": "新建Co60同源不同target/gate/响应对象表、实际小样本门/缺失/坐标/backflag控制、声明混合级联相位与有限MC设计；100k实际结果已写回。 两组100k实际source moment/cov与detectorstatistics通过，控制图/CSV/PDF及QA已交付；不拟Q或实验δ。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。",
+      "summary": "新建Co60同源不同target/gate/响应对象表、实际小样本门/缺失/坐标/backflag控制、声明混合级联相位与有限MC设计；100k实际结果已写回。 两组100k实际source moment/cov与detectorstatistics通过，控制图/CSV/PDF及QA已交付；不拟Q或实验δ。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
       "anchor": "同一个60Co源需要分别保存γ角色和响应对象",
       "sources": [
         {
@@ -2849,6 +2888,69 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-34"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+      "summary": "新增2013Ni60/Co60两官方对象的固定列/版本/共同MR/RI/CC谱系、静止反冲、条件误差与actualSDK分支审计；原phase正文未取得。",
+      "anchor": "评价输入与实际观测要分开",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+          "locator": "N60-11"
         }
       ]
     }
@@ -3025,3 +3127,10 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 [verification-reopened-011](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-011.json)实际boundary/lint/diff均exit0，report/card/writeback通过；35 changed knowledge页/35 items，lint0errors162warnings（123key/36raw/3parser）。旧两source人审prefix逐字节/protected hash保持，source/coverage/script哈希与numericcontrols通过。图形axis不是拟合误差，literalapprox未闭合与jointkernel/实际Qcov缺口保持，不造新实验结果。
 
 [timegate/pool012](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-012.json)余966.38min，检查恰好下一卡后继续同案例official25Na/25Mg targetreferenceidentity。source-before回忆已冻，NNDC lists实际2025-08ENSDF与2026-02postcutoffXUNDL发现，未授独立实验/课程credit；selecteddata下载后按实际scope/原字段审计。prepared17prompt补Fig4priming，未启动session。沿用[续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)/原deadline；发布稳定指针main / `Trace DAY16 polarization averaging and calibration transfer`，actualhash/H3/结果仅receipt。
+
+
+### Checkpoint027实际验收与持续研究
+
+[verification-reopened-021](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-021.json)实际通过report/card/唯一writeback（43 changed knowledge pages/43 items）、新script/inputhash、旧人审prefix/PLAN/Bib保护；boundary/lint/diff各exit0。Lint为0errors174warnings：129citation-key、42raw归档槽、3reaction-parser。SDKhelper编译/执行0、原输入不变；共同δ误差仍只为模型分量。
+
+CSU真实REST已由其官方hashedconfig修正主机，exacttitle查询200/0对象，区别于UI同host/server404；没有取得1980正文。发布稳定指针main / `Audit DAY16 Ni60 reference uncertainties and source branches`，actualhash/H3/push仅publication027/runreceipt。当前06:02上海距原15:00仍约538分钟，goalactive/学分16一次partial17保持；继续有价值新来源或matching response输入，不以本checkpoint收束。

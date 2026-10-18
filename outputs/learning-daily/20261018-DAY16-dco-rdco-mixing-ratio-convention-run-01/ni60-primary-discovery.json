@@ -1,0 +1,154 @@
+{
+  "at": "2026-10-19T05:52:43.455352+08:00",
+  "doi": "10.1016/0029-554X(80)90959-3",
+  "rows": [
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works/10.1016/0029-554X(80)90959-3",
+      "final_url": "https://api.crossref.org/works/10.1016/0029-554X(80)90959-3",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/primary-discovery/crossref.txt",
+      "sha256": "eea4790b651f10b52005e39d09747b1b96ffc9ebbaa99b77e02fc823f6e3bcd0",
+      "bytes": 6288,
+      "metadata": {
+        "title": [
+          "Measurement of the M3/E2 mixing ratio of the 1173 keV \u03b3-transition in 60Ni"
+        ],
+        "author": [
+          {
+            "given": "K.S.",
+            "family": "Krane",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "James R.",
+            "family": "Sites",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "H.A.",
+            "family": "Smith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "W.A.",
+            "family": "Steyert",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Nuclear Instruments and Methods"
+        ],
+        "volume": "169",
+        "issue": "3",
+        "page": "573-576",
+        "DOI": "10.1016/0029-554x(80)90959-3",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0029554X80909593?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:0029554X80909593?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "relation": {}
+      }
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0029-554X(80)90959-3",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1016/0029-554X(80)90959-3",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/primary-discovery/openalex.txt",
+      "sha256": "eca891c0a44508495828b35d70cab284bd7d270672089857c8757971cc5ae888",
+      "bytes": 12348,
+      "locations": [
+        {
+          "id": "doi:10.1016/0029-554x(80)90959-3",
+          "doi": "https://doi.org/10.1016/0029-554x(80)90959-3",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/0029-554x(80)90959-3",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S44816201",
+            "display_name": "Nuclear Instruments and Methods",
+            "issn_l": "0029-554X",
+            "issn": [
+              "0029-554X",
+              "1878-3759"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nuclear Instruments and Methods",
+          "raw_type": "journal-article"
+        }
+      ]
+    },
+    {
+      "name": "publisher",
+      "url": "https://www.sciencedirect.com/science/article/pii/0029554X80909593",
+      "final_url": "https://www.sciencedirect.com/science/article/pii/0029554X80909593",
+      "status": 403,
+      "path": "tmp/day16-ni60-reference/primary-discovery/publisher.txt",
+      "sha256": "817188849ce8b7d3ed6eefc088985c3171eac288c87d2bc1a85292b2ecc9c60e",
+      "bytes": 832803
+    },
+    {
+      "name": "osti",
+      "url": "https://www.osti.gov/api/v1/records?search=10.1016%2F0029-554X%2880%2990959-3",
+      "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=10.1016%2F0029-554X%2880%2990959-3 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    }
+  ],
+  "body_read": false
+}

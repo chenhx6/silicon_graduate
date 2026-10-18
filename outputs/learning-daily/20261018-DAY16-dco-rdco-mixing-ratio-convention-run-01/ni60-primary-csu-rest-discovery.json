@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-19T06:01:24.144288+08:00",
+  "url": "https://api.mountainscholar.org/server/api/discover/search/objects?query=%22Measurement+of+the+M3%2FE2%22&size=5",
+  "status": 200,
+  "path": "tmp/day16-ni60-reference/primary-discovery/csu-rest-search.json",
+  "sha256": "648ad5ce96a82820e809a4c7394c3f022a6021eabecc0e2dc07eb922845d4d84",
+  "endpoint_basis": "officialhashedconfig rest.baseUrl, correctednewhost frominitialUI404",
+  "page": {
+    "number": 0,
+    "size": 5,
+    "totalPages": 0,
+    "totalElements": 0
+  },
+  "objects": []
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T05:53:33.585359+08:00",
+  "url": "https://api.elsevier.com/content/article/PII:0029554X80909593?httpAccept=text/xml",
+  "status": 200,
+  "path": "tmp/day16-ni60-reference/primary-discovery/publisher-api-public.xml",
+  "sha256": "8ec9fea496752778edd0b10a94c2cf5dafb2f391d6573d6668f64046a6989ae3",
+  "bytes": 1829,
+  "body_ce_sections_present": false,
+  "not_credentials_request": true
+}

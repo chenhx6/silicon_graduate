@@ -1925,3 +1925,8 @@ Fullq/Jones finiteIQUV实际18cases/540points与12新PSD事前输入验证通过
 ## 2026-10-19 DAY16 checkpoint026：理想门的joint偏振与轴平均
 
 actualjoint/闭式、fullPSD/spin2/相位/纯极限控制写回UG24-30–34/Co60note/Compton及唯一42writeback。pureE2 firstlast同P90=1/6，actual小M3稍异，KN单点能量不同；错误局部P平均19/189与共同轴无gateStokes0分开，不推实验Q/P/δ或实际response。内容指针main / `Trace DAY16 conditional calibration polarization and averaging`，hash/push只publication026/runreceipt；原formal16一次partial17/15:00窗口/goalactive保持，下一Ni60官方reference输入已冻，metadata200未当物理结果。
+
+
+## 2026-10-19 — Day16 checkpoint027：Ni60正式reference与源分支
+
+同run/session持续学习至原19日15:00上海，formal16一次/partial17不变。新增N60-1–11，MR误差.0022与共享谱系、理论CC/RI归一/静止recoil分层；primary1980Kr05 identity已核、原phase/Cov正文未取。SDK实际level对象按Ig(1+CC)归一并核pair .9983894029；初gamma-only试算先隔离，不以同模型MC相容认证实验Q。verification021实际43pages/items、required0、0errors174warnings；原raw/PLAN/Bib、人审prefix/继承dirty保持。发布指针main / Audit DAY16 Ni60 reference uncertainties and source branches，exacthash/outcome仅receipt。

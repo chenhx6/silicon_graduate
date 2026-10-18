@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-19T05:57:49.039820+08:00",
+  "ads_bibcode_is_discovery_candidate_from_verified_bib_fields": true,
+  "rows": [
+    {
+      "name": "adslanding",
+      "url": "https://ui.adsabs.harvard.edu/abs/1980NIM...169..573K/abstract",
+      "final_url": "https://ui.adsabs.harvard.edu/abs/1980NIM...169..573K/abstract",
+      "status": 405,
+      "path": "tmp/day16-ni60-reference/primary-discovery/adslanding.txt",
+      "sha256": "c2a3bf50270366ffbd29d6111f05be15aa6d0b5f3864944982c025e3e76764e7",
+      "bytes": 2203,
+      "is_pdf": false
+    },
+    {
+      "name": "adsscan",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1980NIM...169..573K",
+      "final_url": "https://articles.adsabs.harvard.edu/pdf/1980NIM...169..573K",
+      "status": 403,
+      "path": "tmp/day16-ni60-reference/primary-discovery/adsscan.txt",
+      "sha256": "d212b85d7fef736a303b64cd5e682885679afdc768f78a145456581573ca21ac",
+      "bytes": 243,
+      "is_pdf": false
+    },
+    {
+      "name": "csu-config",
+      "url": "https://mountainscholar.org/assets/config.a697847b63b1bd4e7605f7a1cf53913a.json",
+      "final_url": "https://mountainscholar.org/assets/config.a697847b63b1bd4e7605f7a1cf53913a.json",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/primary-discovery/csu-config.txt",
+      "sha256": "aaafad6db7924204586a9d53ffdc19e824f411a96d7ab59157b645f1b963bb36",
+      "bytes": 9529,
+      "is_pdf": false,
+      "rest": {
+        "ssl": true,
+        "host": "api.mountainscholar.org",
+        "port": 443,
+        "nameSpace": "/server",
+        "ssrBaseUrl": "http://localhost:8080/server",
+        "baseUrl": "https://api.mountainscholar.org/server"
+      }
+    }
+  ]
+}

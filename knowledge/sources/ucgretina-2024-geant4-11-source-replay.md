@@ -83,6 +83,8 @@ README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nim
 | UG24-33 | pureE2模型对x=cosθγγ给W=5(24+3x²+x⁴)/126、P_parallel=(1−x²)(4−x²)/(24+3x²+x⁴)，与joint两角色/13角到3.34×10^-16相符。若直接平均局部W P得19/189，正确在共同目标轴积分全部reference方向却给Stokes≈0；不能用局部偏振幅度均值代全局observable。 | closed-form-and-axis-average-control | analytic-and-joint-density-calculation | 本页pure闭式；closedform-script-result；ungated controls | true |
 | UG24-34 | 130个完整joint-density配置显式Hermitian/PSD/trace检查通过；native/RB、pureM3全局号、Rz、独立intermediate-density路线残差≤8.89×10^-16。固定target轴时参考面旋转使Q_J+iU_J按e^(2iφ)变换，12控制残差≤9.74×10^-17；Q_J是Stokes分量，不是polarimeterQ。 | mathematical-failure-controls | explicit-density-and-symmetry-validation | conditional-stokes-v2 jointPSD/spin2/control_residuals | true |
 
+| UG24-35 | 官方Ni60两对象/MR误差已由N60source隔离；SDK11.4.2实际加载privatelevel的CDF/光子概率与Ig(1+CC)权重相符，ground Co60 pair probability .9983894029，100k99840/99845条件相容。错误gamma-only归一试算已隔离，不以同输入MC或typed数相同认证独立实验/primaryphase。 | actual-input-and-probability-check | executable-SDK-object-and-source-model | G4LevelReader-v11.4.2 lines358–362；branch-replay actual_level_object | true |
+
 ## Summary
 
 真实源码、SDK和二进制已把“不能运行”推进为一个有明确版本、原失败和几何对照的源能谱模型。它也暴露了程序exit0会掩盖的记录/几何问题。这个结果没有恢复历史MC模板、原拟合Cov、Compton Q或实验δ。
@@ -171,6 +173,8 @@ pureE2在这组明确假设下对first/last确有相同P；actual小M3给轻微�
 `supports`用实际可用版本建立源能谱/finite-MC分析输入；`revises`以宏含sourceFrame或程序exit0代替有效geometry/truth核验的做法；`limits`将源能谱重放提升为偏振response认证。仍是Day16下partial17知识预习，不给Day17正式学分，所有新claims保留needs_review。
 
 ## Extracted Pages
+
+- [[nndc-2013-ni60-co60-reference-records]]：正式评价身份/误差、phase原件缺口、静止反冲和共同输入Cov。
 
 - [[co60-gate-role-response-benchmark]]：实际target/gate、δ多极子顺序、角关联/偏振响应及有限MC比较对象。
 - [[gretina-eu152-source-response-replay]]：source event单位、geometry、truth、finite-MC与实验response的分层合同。

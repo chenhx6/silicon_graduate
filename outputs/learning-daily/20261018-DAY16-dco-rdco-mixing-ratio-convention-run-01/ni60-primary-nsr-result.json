@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T05:51:14.661629+08:00",
+  "method": "GET",
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=1980Kr05&page=1&size=100",
+  "status": 200,
+  "path": "tmp/day16-ni60-reference/1980kr05-nsr-response.json",
+  "sha256": "1864a6573efd6a413c0788319b83355d91a4ba58f84fc4b06cf337865a475cdc",
+  "content_type": "application/json;charset=UTF-8",
+  "endpoint_basis": "officialentry-table AJAX_URL ./servlet +keynumber.getParameters, HTTP.encode"
+}

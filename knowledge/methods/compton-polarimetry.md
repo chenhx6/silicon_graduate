@@ -336,3 +336,7 @@ UG24-30–34另给可核的相同极限：unpolarized4→2→0 pureE2、point re
 [[co60-gate-role-response-benchmark]]将R21的1173target＋LaBr1332gate、L25的1333target＋1173gate和公开两GRETINA-crystal pair例分别保存。原生nuclear angular correlation可在photon polarized EM关闭时运行；这约束方向分布，不认证target的polarized response。矩阵数值一致也不认证实际post-processing或Q。
 
 UG24-21/27的实际记录控制显示，缺失γ占位和跨晶体prefix back标记会改变相应输入对象。逐晶体back、整event back和prefix不是同一个选择；没有原producer时，不据公开hist名字替原校准分母。
+
+### 60Co参考输入的共同误差分量
+
+[[nndc-2013-ni60-co60-reference-records]] N60-3/5/9/11：1173 MR−.0025(22)的σ=.0022、两评价对象同源；S CC为理论更新而旧comment另含实测评价。pointgate模型在明确phase假设下给Covδ=Jσδ²Jᵀ；角色差的σ≈.0008204，误当独立会得.0023719。此项共享误差并非完整reference/arrayQ calibrationCov，不能用小central差重测δ。真实response还须同target/reference/选择/角/归一匹配，原1980phase正文未取。[[co60-gate-role-response-benchmark]]保留实际branch抽样与同输入MC的内部核验，不能把pair相容性变成实验Q验证。

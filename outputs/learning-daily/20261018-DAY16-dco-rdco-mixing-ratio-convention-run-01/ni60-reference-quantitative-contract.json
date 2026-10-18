@@ -1,0 +1,22 @@
+{
+  "identity": "NI60-REFERENCE-QUANTITATIVE-02",
+  "at": "2026-10-19T05:43:18.708701+08:00",
+  "before_recoil_pairprob_and_Perror_calculations": true,
+  "primed": "officialfieldcentralandDMRread; SDKmassqueried butrecoilvaluesnotcomputed; pointPcentralalreadyknown",
+  "base_contract": "ni60-reference-audit-contract.json",
+  "base_contract_sha256": "0b66ccd1ad2a6f29d18cd68fd5eed8c20791a71b6f44ffce59cd8371746591be",
+  "model_mass_result": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ni60-SDK-mass-helper-result.json",
+  "model_mass_result_sha256": "08eb66ffb40aeb1bad277d0c6f90f2c33f733965079922d3c2ed68f3b646714a",
+  "fixed_field_rules": "ENSDFE10\u201319/DE20\u201321/RI22\u201329/DRI30\u201331/M32\u201341/MR42\u201349/DMR50\u201355, firstsecondtransition identity requiresparent-level E",
+  "sigma_delta_from_field": 0.0022,
+  "phase_assumption_for_uncertainty": "conditional d_native = quotedSteffenMR, appropriateadjacentlowL2/highL3 basis underMA87/KS70 bridge; primary1980operatorbody notyetread, do notcertifyoriginalproducer",
+  "Presponse_geometry": "point\u03b8gamma-gamma90/identitytag asfrozen026; covarianceonly\u03b4component notfullreference/detectorSigma",
+  "derivative_steps": [
+    1e-05,
+    1e-06
+  ],
+  "shared_cov_rule": "J\u03b4 \u03c3\u03b4\u00b2 J\u03b4^T forPfirst/Plast; compareaverageanddifference vsnaiveindependence withoutclaimallcorrelationsincreaseerrors",
+  "recoil_rule": "exact two-bodyrest usingactualSDKmodelmass; keepdatasetlevelcovunknown; no independentZ scorebetweenAdoptedanddecay",
+  "pairprobability_rule": "p_pair=RI1173/100 *1/(1+CC1332) forconditionalradiativecascade. CC/provenanceandintensityerrors notnewindependentmeasurements; usecentral/conditionalMCbinomial, keepmissingreferenceCov",
+  "not_lifetime_or_strength_analysis": true
+}

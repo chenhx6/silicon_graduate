@@ -1,0 +1,143 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Browne+Tuli+Nuclear+Data+Sheets+A+60+114+1849+2013&rows=3",
+  "status": 200,
+  "path": "tmp/day16-ni60-reference/evaluation-crossref.json",
+  "sha256": "5ad42aa1702f8b68435040b402bb5bf58ddcfe62abc67779211682222a1230c2",
+  "items": [
+    {
+      "title": [
+        "Nuclear Data Sheets for A = 60"
+      ],
+      "author": [
+        {
+          "given": "E.",
+          "family": "Browne",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.K.",
+          "family": "Tuli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Data Sheets"
+      ],
+      "volume": "114",
+      "page": "1849-2022",
+      "DOI": "10.1016/j.nds.2013.11.002",
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "title": [
+        "Nuclear Data Sheets for A = 231"
+      ],
+      "author": [
+        {
+          "given": "E.",
+          "family": "Browne",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.K.",
+          "family": "Tuli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Data Sheets"
+      ],
+      "volume": "114",
+      "page": "751-840",
+      "DOI": "10.1016/j.nds.2013.05.002",
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "title": [
+        "Nuclear Data Sheets for A = 251\u2013259 (odd)"
+      ],
+      "author": [
+        {
+          "given": "E.",
+          "family": "Browne",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.K.",
+          "family": "Tuli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Data Sheets"
+      ],
+      "volume": "114",
+      "page": "1041-1185",
+      "DOI": "10.1016/j.nds.2013.08.002",
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            8
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -8,17 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究硬截止/15–16收束不改。goalactive/pursuing，formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究硬截止、15–16收束不改。goalactive/pursuing，formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint026：UG24-30–34/Co60note/Compton写回pointreference jointdensity，42pages/items。pureE2 unpolarized4→2→0/identity tag在90°两角色P=1/6，actual小M3 source给.1652824/.1643541；native/RB IQUV0差，Rz/scalarrole/独立daughter路线≤8.89e−16、130 fulljointPSD/12spin2控制过。KN单点即使同P也因E不同Apoint.064118/.057773，不是arrayQ。
+Checkpoint027 verification021实际通过（report/card/writeback43/43、boundary/lint/diff0、0errors174warnings＝129key42raw3parser），发布门进行中，稳定指针main / `Audit DAY16 Ni60 reference uncertainties and source branches`：新nndc-2013-ni60-co60-reference-records N60-1–11、Co60note/Compton/UG24-35。MR−.0025(22)σ=.0022，Adopted→longβ−→1980Kr05同源。原题名/作者/NIM169573–576/DOI1980已NSR/Crossref核，低温Co60/Feγ角分布；primaryphase/operator/fitCov正文未取。两评价Ex/光子能/RI归一和S理论CC与旧comment分层；静止recoil非labtransport。
 
-pure闭式P=(1−x²)(4−x²)/(24+3x²+x⁴)、P60=45/397；错误平均局部P得19/189，而共同目标轴全reference方向积分无偏振。point/restframe/忽略recoil、polarization-blindtag/no actual response限制保留，realcasesV0不认证任意V。v1/v2与源码snapshot/依赖hash保存，非MC photonStokes/实验P/δ。verification020 actualreport/card/唯一writeback42/42、boundary/diff/lint0，0errors172warnings(128key41raw3parser)，prefix/PLAN/Bib保持；内容指针main / `Trace DAY16 conditional calibration polarization and averaging`，hash/H3/push仅publication026/runreceipt。
+条件native bridge下pointP差的δ-onlyσ=.0008203509、错独立.0023719382；非实验PCov/CI。actualSDK11.4.2加载level对象按Ig(1+CC)抽总分支再抽光子，pair .9983894029，与同模型100k99840/99845相容，非独立实验/Q验证。初gamma-only归一试算已invalidated且未进canonical数值，typed/loadedfloat差7.56e−8。两脚本实跑/SDKhelper编译执行0、原输入不变；symbolic依赖用既有repo tmp/day16-jt74/python-deps，不改global。
 
-前025actualGitee/HEADorigin已receipt：firstgitadd1/whitespace2及误提前localcommit从未push，sameunpublished amend一次后fullcommit/cached/checks/H3全0；generatedPDF精确一份、CSVcells/PNG不变、raw/ignore未改，不再amend旧批。Co60各100k nativeangle/Q边界及R21原件全读成果保持。
+最新实际published026为main / `Trace DAY16 conditional calibration polarization and averaging`；exacthash/H3/push只publication026/runreceipt。先完成027精确发布，再继续primary合法新入口或有价值current/恰好Day17preview；不以checkpoint提前结束。原Co60无POL/100k统计、UG24joint/closedform、R21全文成果及失败边界保持。
 
-下一actualsource route已冻primed回忆：NNDC60NI index200，精确60028001 Adopted和60028002长寿命Co60β−对象；未混60028003 10.467min isomer。下载metadata/对象工作tmp/day16-ni60-reference，读取新正文/physics rows需按当前receipt；先结束026门再核MR/uncert/phase/energyrecoil与谱系，不把G4input当新实验δ。
-
-详continuation-current.md，仍约9h+至原15:00，继续高信息路线。保护raw/PLAN/Bib/credentials/L26L25prefix/继承dirty/log，explicitmanifest/HEAD+ownlog/H3freshfetch非force，无GUI/scheduler新对象。
+详continuation-current.md；保护raw/PLAN/Bib/credentials/L26L25旧人审prefix/继承receipts/daemon/log。exactmanifest、log仅HEAD+ownentry、观察cached检查实际通过后才commit、freshfetch/ancestor/dryrun/nonforceH3，无GUI/scheduler新对象。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

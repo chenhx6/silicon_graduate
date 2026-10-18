@@ -1,0 +1,95 @@
+{
+  "identity": "NI60-REFERENCE-CROSSWALK-01",
+  "at": "2026-10-19T05:34:11.339535+08:00",
+  "before_quantitative_audit": true,
+  "primed": "beta140lines/adopted1\u2013250 and selectedlowbranch277\u2013351 read; notblind",
+  "datasets": {
+    "adopted": {
+      "path": "tmp/day16-ni60-reference/adopted.ens",
+      "sha256": "1acde766a8eec3f2ca12927a39b4f1e13319e9bd5a740eb8366cf0f4ce459c58",
+      "id": "60028001,60NI",
+      "version": "201312/updatecut1Dec2013; fullcut31Dec2012"
+    },
+    "co60beta": {
+      "path": "tmp/day16-ni60-reference/co60beta.ens",
+      "sha256": "45eac223f06bab10a1884307e886d7f5db3c5987f6240046c41a3efc56461a06",
+      "id": "60028002,60NI",
+      "version": "201312/fullcut31Dec2012; olderHelmer1998 lineagestated"
+    }
+  },
+  "source_g4file": {
+    "path": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata",
+    "sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a"
+  },
+  "typed_rows": {
+    "adopted": {
+      "E2_level": [
+        "1332.514",
+        "4"
+      ],
+      "E4_level": [
+        "2505.753",
+        "4"
+      ],
+      "last_gamma": [
+        "1332.501",
+        "5"
+      ],
+      "first_gamma": [
+        "1173.228",
+        "3"
+      ],
+      "first_MR": [
+        "-0.0025",
+        "22"
+      ],
+      "first_RI": [
+        "100.00",
+        "3"
+      ]
+    },
+    "co60beta": {
+      "E2_level": [
+        "1332.508",
+        "4"
+      ],
+      "E4_level": [
+        "2505.748",
+        "4"
+      ],
+      "last_gamma": [
+        "1332.492",
+        "4"
+      ],
+      "first_gamma": [
+        "1173.228",
+        "3"
+      ],
+      "first_MR": [
+        "-0.0025",
+        "22"
+      ],
+      "first_RI": [
+        "99.85",
+        "3"
+      ],
+      "last_RI": [
+        "99.9826",
+        "6"
+      ]
+    }
+  },
+  "quantitative_questions": [
+    "parsefixedcolumnsE/Jpi/RI/multipole/MR/DMR independentlychecktyped; DMR22 is.0022 not.00022",
+    "samefirstMR reusedadoptedfromdecayfrom1980Kr05, do notcounttwoindependentmeasurements",
+    "G4fileuseslevelseparationsnotphotonE; mass/recoil neededforthatcomparison; adoptedanddecaylinephotonvaluesnot averaged",
+    "conditionalphotonPdelta sensitivities usingquoted\u03c3onlyifoperatorbridgeexplicit; positiveinputcov rankone, notexperimentalPcov/CI",
+    "photonRI vsperlevelbranch vscoincidencepair probability notinterchangeable; includeCC/theoreticalS vslegacycommentseparately"
+  ],
+  "not_claiming": "actualprimary1980Kr05operatorphase notyetread; no unique\u03b4/newexperiment or ensemblefitcov",
+  "data_source_urls": "NNDCServlet exactpayloads receipt; preserveoriginalrawresponseandextractedhash",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

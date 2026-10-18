@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T05:40:02.588621+08:00",
+  "before_helper_compile_and_nuclear_mass_query": true,
+  "SDK": "11.4.2",
+  "source": "tmp/day16-ni60-reference/mass-helper/ni60-mass.cc",
+  "source_sha256": "faed2b2078dd8e0e7496ac9a0a22a2f83b2e7760db6ded3b1dc108c68d71aa81",
+  "mass_rule": "G4NucleiProperties::GetNuclearMass(A60,Z28),actualinstalledSDK MeVtokeV; notsubstitute60u",
+  "kinematic_rule": "restframeEgamma=(Mi\u2212Mf)*(Mi+Mf)/(2Mi), Mi=Mgs+Ei/Mf=Mgs+Ef; no initialionboost/transport orsourceuncertfit",
+  "actual_RDM_parent_data_candidate": "/opt/geant4/11.4.2/share/Geant4/data/RadioactiveDecay6.1.2/z27.a60",
+  "RDMfile_exists": true,
+  "before_parent_RDMfile_physics_read": true,
+  "next_source_probability_test": "unique1173photon impliesNi1332state; p_both=p_1173/(1+CC_last) ifcompletecascadeandgivenquotednorm; do notmultiplymarginalphoton probabilities orassume independenterrors",
+  "scope": "sourcecalibrationinput/branch/recoil not lifetime-strengthcourse; partial17only"
+}

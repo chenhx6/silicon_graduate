@@ -710,16 +710,57 @@
         "rawPDFs_or_ignore_config_changed": false,
         "final_full_gates_passed": true
       }
+    },
+    {
+      "publication_index": 26,
+      "at": "2026-10-19T05:32:55.653873+08:00",
+      "branch": "main",
+      "subject": "Trace DAY16 conditional calibration polarization and averaging",
+      "commit": "db296c41532e71d69d8177a358f94ceaf01876ff",
+      "origin_main": "db296c41532e71d69d8177a358f94ceaf01876ff",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "push_observation": {
+        "exec_session_id": 32437,
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 7a4ce8af        \nTo gitee.com:chx6/silicon_graduate.git\n   445fc36..db296c4  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "inherited_dirty_preserved": {
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": true,
+        "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": true,
+        "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": true,
+        "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": true,
+        "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": true,
+        "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": true,
+        "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": true,
+        "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": true,
+        "system/scripts/run_daily_learning_daemon.py": true
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "Conditionalpointreference026 canonical andverified; actualpublication onlyreceipt",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-020.json",
-  "knowledge_writeback_items": 42,
-  "last_learning_summary": "pointjointphotonroles/pureE2equalP, smallM3, KNenergydependence and19/189wrongscalaraverage vscommonaxeszero; noexperimentQdelta",
-  "knowledge_changed_pages": 42,
+  "last_checkpoint": "checkpoint027-Ni60-input-and-branch-verified",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-021.json",
+  "knowledge_writeback_items": 43,
+  "last_learning_summary": "N60referenceidentity/MRsigma/sharedCov and actualSDK totalbranch weights verified; primary1980phase body stillmissing; 0errors174warnings; publication027 pending",
+  "knowledge_changed_pages": 43,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "NextprimedNi60officialreference input audit after020/pub026; datasetdiscovery200 onlynotphysicsread",
+  "current_research_route": "Ni60 official reference crosswalk and primary1980Kr05 access boundary; actualSDK branch probability / shared MR error verified, canonical written, pending verification021/publication027",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -757,7 +798,7 @@
     "push_outcome": "pushed"
   },
   "post_commit_reconciliation": {
-    "publication": 25,
+    "publication": 26,
     "manifest_matches_actual_commit": true,
     "HEAD_origin_main_equal": true,
     "knowledge_diff_exit": 0,
@@ -829,11 +870,10 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-19T05:22:32.392494+08:00",
+    "now_local": "2026-10-19T06:00:14.850930+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "minutes_to_deadline": 577.4601251,
-    "closeout_decision": "continue-or-advance",
-    "basis": "freshclock/originalreceipt; legitimateofficialNi60referenceobjectsnowavailable"
+    "decision": "continue-current-or-Day17-uncredited-preview",
+    "formal_credit_unchanged": true
   },
   "goal_resumed_by_user_at": "2026-10-18T16:34:00+08:00 (approximate; exact server timestamp held by native goal)",
   "goal_continuation_decision": {
@@ -845,6 +885,6 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-025.json",
+  "last_publication": "publication-026.json",
   "publication025_local_reconciliation": "first ignoredgeneratedPDF/stagedSVGCSVformat gate andprematurelocalcommit isolated; exacttaskPDF/LF/ownlog correction; sameunpublishedamendonce + fresh019/H3"
 }

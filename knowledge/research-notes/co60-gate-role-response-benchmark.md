@@ -7,7 +7,7 @@ updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [ucgretina-2024-geant4-11-source-replay, riley-2021-ucgretina-energy-response, lauritsen-2025-gamma-angular-formalism-tracking-arrays]
+evidence_sources: [ucgretina-2024-geant4-11-source-replay, riley-2021-ucgretina-energy-response, lauritsen-2025-gamma-angular-formalism-tracking-arrays, nndc-2013-ni60-co60-reference-records]
 created_from: Day16 current response problem with uncredited Day17 preview
 promotion_target: angular-correlation
 tags: [gamma-gamma-correlation, reference-gate, mixing-convention, finite-MC, calibration]
@@ -73,6 +73,16 @@ detector rawcore pairs507/549，全部10bin有iso支撑（最小39），ratioSE�
 
 图a使用完整truth pair条件N，图b以全部generated history为分母；误差棒分别为multinomial bin SE和有限MC ratio的一阶SE，非实验CI。曲线是配置理论，图b仅有unity参考。完整source CSV/可编辑SVG/PDF与中文caption在同图目录。Python导出实际180×86mm、最小字7pt、alignment与collision PASS；source静态检查仅保留“有PNG无TIFF”的warning；本研究笔记交付PDF/SVG/600dpiPNG，不声称投稿raster合规。
 
+### 评价reference、共同δ误差与实际分支权重
+
+[[nndc-2013-ni60-co60-reference-records]] N60-1–11补齐官方201312两对象。1173的MR−.0025(22)误差是.0022；Adopted取自长寿命β−，后者MR注指1980Kr05，不能计两个独立实验。原Krane/Sites/Smith/Steyert NIM169,573–576(1980)、DOI10.1016/0029-554X(80)90959-3已核；评价/NSR说明低温Co60/Fe取向γ角分布，原phase/operator/fitCov正文尚未取得。
+
+source level1/4匹配Adopted Ex，名义1173.239为level差。真实静止两体检查须扣约.01233/.01591keV反冲，不能把Ex差与光子能强制相等。Adopted/β−能量及RI对象仍分开；理论S CC与旧实测评价comment也不合并。
+
+条件假设quotedδ映为本run native basis，point90°/identitytag的Jδ=(.5527768642,.9256636491)，σδ=.0022，Covδ=σδ²JδJδᵀ。Pfirst−Plast=.0009283075，其共同δ-only σ=.0008203509；错当独立为.0023719382。这不是实验P Cov/完整CI，亦不证明角色差已测得。共享误差在差值中会抵消。
+
+实际SDK11.4.2 privatelevel对象按Ig(1+CC)抽总分支后以1/(1+CC)抽光子；Co60ground RDM馈入.9988给pair probability .9983894029。与同输入corr/iso100k的99840/99845pairs条件相容，非独立实验验证。初只归一Ig的试算已invalidated，正确typed/SDK float差约7.56×10^-8；固定N/源输入Cov与真实arrayresponse仍分层。
+
 ## Failure Conditions
 
 缺光子却用−1向量、单位/索引不匹配、把whole-history总能当单γFEP、将cosθ当ξ、将native nuclear correlation开关当polarized EM，都阻止相应结论。新未知warning、ABI/能量/容量失败或矩阵不支持时，不扩大到detector/Q分析。
@@ -107,7 +117,7 @@ pureE2控制、native/RB同步转换和源码F3/独立trace提供不变性检查
 
 ## Open Questions
 
-100k角关联和point first/last joint Stokes均已实际交付，detector统计/readiness边界保持。下一输入可核当前Ni60评价的spin/MR/phase与source配置版本；在新原件前先冻回忆，不将G4配置值变成新实测δ。原Weisshaar2017 DOI10.1016/j.nima.2016.12.001正确正文未取得：出版商XML仅coredata、仓储403/连接失败、配置provider缺credentials；不重试终态或从metadata补原back-fraction分母。
+100k角关联和point first/last joint Stokes均已实际交付，detector统计/readiness边界保持。官方Ni60对象、误差/谱系和实际SDK分支现已核；1980Kr05原相位/fitCov正文仍缺，不将G4配置或评价同号当认证。原Weisshaar2017 DOI10.1016/j.nima.2016.12.001正确正文未取得：出版商XML仅coredata、仓储403/连接失败、配置provider缺credentials；不重试终态或从metadata补原back-fraction分母。
 
 ## Human Review
 

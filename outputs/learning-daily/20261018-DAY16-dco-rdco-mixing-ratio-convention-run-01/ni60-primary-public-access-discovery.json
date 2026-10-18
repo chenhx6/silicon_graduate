@@ -1,0 +1,22 @@
+{
+  "publisher": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1016/0029-554X(80)90959-3\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0029554X80909593\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-18T21:52:46.267Z\"\n  }\n}"
+      }
+    ]
+  },
+  "scholar": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+      }
+    ],
+    "isError": true
+  },
+  "scope": "Discovery only; neither result is paper evidence.",
+  "recorded_at": "2026-10-19T05:55:05.266452+08:00",
+  "at_source": "provider fetchedAt retained in nested result; this record timestamp represents persistence"
+}

@@ -1,0 +1,167 @@
+{
+  "at": "2026-10-19T05:56:01.069750+08:00",
+  "script_sha256": "464f417ff5cc45679642948527f7b09c680228578c09d5df394e574bfd0e4779",
+  "source_sha256": "ba3adf4390fb57de00341f19f0d42976083f13f82d2864c8382ddefb6d65268a",
+  "RDM_sha256": "bc2f5dbd7da0e6d5db44c62ff12da7ef85772c16631c8809eb72f044566faa28",
+  "helper_source_sha256": "551cf50db17625af66dbcb748ca22487ec86f5d95c4f3ef1be21149582876974",
+  "helper_binary_sha256": "a256e5d61a07886b2419a2b3fd82f4e43c5beaaefb27768c5caf1feeae05117e",
+  "compile": {
+    "command": [
+      "g++",
+      "-DG4VIS_USE_OPENGL",
+      "-DG4UI_USE_TCSH",
+      "-DG4VIS_USE_OPENGLX",
+      "-DG4VIS_USE_TOOLSSG_X11_GLES",
+      "-W",
+      "-Wall",
+      "-pedantic",
+      "-Wno-non-virtual-dtor",
+      "-Wno-long-long",
+      "-Wwrite-strings",
+      "-Wpointer-arith",
+      "-Woverloaded-virtual",
+      "-Wno-variadic-macros",
+      "-Wshadow",
+      "-pipe",
+      "-pthread",
+      "-ftls-model=initial-exec",
+      "-std=c++17",
+      "-I/opt/geant4/11.4.2/include/Geant4",
+      "tmp/day16-ni60-reference/branch-helper/ni60-level-object.cc",
+      "-o",
+      "tmp/day16-ni60-reference/branch-helper/ni60-level-object",
+      "-L/opt/geant4/11.4.2/lib",
+      "-lG4OpenGL",
+      "-lG4Tree",
+      "-lG4FR",
+      "-lG4GMocren",
+      "-lG4RayTracer",
+      "-lG4VRML",
+      "-lG4ToolsSG",
+      "-lG4vis_management",
+      "-lG4modeling",
+      "-lG4gdml",
+      "-lG4interfaces",
+      "-lG4geomtext",
+      "-lG4mctruth",
+      "-lG4analysis",
+      "-lG4error_propagation",
+      "-lG4readout",
+      "-lG4physicslists",
+      "-lG4run",
+      "-lG4event",
+      "-lG4tracking",
+      "-lG4parmodels",
+      "-lG4processes_hadronic",
+      "-lG4processes_core",
+      "-lG4digits_hits",
+      "-lG4track",
+      "-lG4particles",
+      "-lG4geometry",
+      "-lG4materials",
+      "-lG4graphics_reps",
+      "-lG4intercoms",
+      "-lG4global",
+      "-lG4clhep",
+      "-lG4ptl",
+      "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "execute": {
+    "command": [
+      "/workspace/wiki/tmp/day16-ni60-reference/branch-helper/ni60-level-object",
+      "/workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata"
+    ],
+    "exit_code": 0,
+    "stdout": "G4NuclearLevelData::AddPrivateData for Z= 28 A= 60 from </workspace/wiki/tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/examples/sources/co60/z28.a60.lvldata> is done\n{\"SDK\":1142,\"levels\":[{\"level\":1,\"transitions\":[{\"daughter\":0,\"cdf\":1,\"gamma_probability\":0.99983751773834229}]},{\"level\":4,\"transitions\":[{\"daughter\":2,\"cdf\":7.6404321589507163e-05,\"gamma_probability\":0.9944608211517334},{\"daughter\":1,\"cdf\":1,\"gamma_probability\":0.99982774257659912},{\"daughter\":0,\"cdf\":1,\"gamma_probability\":0.99991369247436523}]}]}\n",
+    "stderr": ""
+  },
+  "actual_level_object": {
+    "SDK": 1142,
+    "levels": [
+      {
+        "level": 1,
+        "transitions": [
+          {
+            "daughter": 0,
+            "cdf": 1,
+            "gamma_probability": 0.9998375177383423
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "transitions": [
+          {
+            "daughter": 2,
+            "cdf": 7.640432158950716e-05,
+            "gamma_probability": 0.9944608211517334
+          },
+          {
+            "daughter": 1,
+            "cdf": 1,
+            "gamma_probability": 0.9998277425765991
+          },
+          {
+            "daughter": 0,
+            "cdf": 1,
+            "gamma_probability": 0.9999136924743652
+          }
+        ]
+      }
+    ]
+  },
+  "branch_checks": [
+    {
+      "daughter": 2,
+      "total_branch_weight": 7.640432257544062e-05,
+      "calculated_cdf": 7.640432257544062e-05,
+      "SDK_max_abs_difference": 3.1896786323315496e-08
+    },
+    {
+      "daughter": 1,
+      "total_branch_weight": 0.9999235756806706,
+      "calculated_cdf": 0.999999980003246,
+      "SDK_max_abs_difference": 8.707113563488633e-08
+    },
+    {
+      "daughter": 0,
+      "total_branch_weight": 1.9996753940676454e-08,
+      "calculated_cdf": 0.9999999999999999,
+      "SDK_max_abs_difference": 1.4972682094160916e-08
+    }
+  ],
+  "ground_beta_fraction": 0.9987999999999999,
+  "sum_Igamma_times_one_plus_CC": 100.0248643321726,
+  "pair_probability_typed_model": 0.9983894784939682,
+  "pair_probability_actual_SDK_object": 0.998389402864081,
+  "wrong_gamma_only_normalization_control": 0.9983898879627204,
+  "wrong_minus_correct_probability": 4.094687522382401e-07,
+  "MC_comparisons_same_model_only": [
+    {
+      "label": "corr",
+      "N": 100000,
+      "pairs": 99840,
+      "expected_pairs": 99838.94028640809,
+      "fixed_p_SE": 0.00012680706261028265,
+      "z_fixed_p": 0.08356897242835468,
+      "exact_binomial_two_sided_pvalue": 0.9685502345823094
+    },
+    {
+      "label": "iso",
+      "N": 100000,
+      "pairs": 99845,
+      "expected_pairs": 99838.94028640809,
+      "fixed_p_SE": 0.00012680706261028265,
+      "z_fixed_p": 0.4778687769562773,
+      "exact_binomial_two_sided_pvalue": 0.664480505700036
+    }
+  ],
+  "independent_experimental_validation": false,
+  "input_joint_covariance_known": false,
+  "boundary": "Ground-state Co60 only; same source model and selected truth windows. No actual array Q/phase/transport certification.",
+  "original_inputs_unchanged": true
+}
