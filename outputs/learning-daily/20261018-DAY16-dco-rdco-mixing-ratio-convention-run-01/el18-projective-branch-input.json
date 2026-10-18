@@ -1,0 +1,140 @@
+{
+  "identity": "DAY16-EL18-MO104-PROJECTIVE-BRANCH-01",
+  "frozen_at": "2026-10-18T17:54:57.713813+08:00",
+  "source": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+  "raw_sha256": "a244b7e49fb513f057119bce603c0790a5cf381bd7a909f9c2996d033e1439b7",
+  "target": {
+    "nucleus": "104Mo",
+    "identity": "Table2 104Mo 3gamma+ -> 2+ -> 0+ row",
+    "spins": [
+      3,
+      2,
+      0
+    ],
+    "target_radiation": "3gamma+ ->2+ M1/E2",
+    "reference": "2+->0+ assumed pureE2",
+    "target_energy_keV_not_printed_in_row": null,
+    "additional_gates_keV": [
+      556,
+      200,
+      478,
+      331
+    ],
+    "fission_partner_gate_flags": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "raw_A2": [
+      -0.146,
+      0.009
+    ],
+    "raw_A4": [
+      -0.07,
+      0.01
+    ],
+    "corrected_A2": [
+      -0.19,
+      0.02
+    ],
+    "corrected_A4": [
+      -0.12,
+      0.04
+    ],
+    "source_delta_candidates": [
+      {
+        "central": 50,
+        "lower_margin": 27,
+        "upper": "infinity",
+        "opposite_sign_allowed_in_text": "delta<-159 within1sigma in A2A4space"
+      },
+      {
+        "central": -0.15,
+        "quoted_error": 0.02,
+        "bracket": "beyond1.5sigma but within3sigma"
+      }
+    ],
+    "source_theory_A2A4": [
+      -0.189,
+      -0.082
+    ],
+    "unrounded_source_or_covariance_available": false
+  },
+  "attenuation": {
+    "source_domain": "Eq7-9, G2 obtained from4+->2+->0+ measuredcalibration and G4 derivedviaanglephi; groupaveragesfor104-108Mo",
+    "G2": [
+      0.78,
+      0.06
+    ],
+    "G4": [
+      0.6,
+      0.2
+    ],
+    "G2_half_printing_step": 0.005,
+    "G4_half_printing_step": 0.05,
+    "shared_Cov_known": false,
+    "reference_A2A4_theory": [
+      0.10204,
+      0.00907
+    ]
+  },
+  "printed_correction_control": {
+    "identity": "Table2 106Mo 2gamma+->2+ row",
+    "raw_A2": [
+      -0.18,
+      0.02
+    ],
+    "raw_A4": [
+      0.27,
+      0.08
+    ],
+    "corrected_A2": [
+      -0.18,
+      0.02
+    ],
+    "corrected_A4": [
+      0.27,
+      0.08
+    ],
+    "G2G4_rule_same_group": true,
+    "central_half_printing_step_A2A4": [
+      0.005,
+      0.005
+    ],
+    "scope": "test literalcentral and lastdigitrounding only; not a CI or experiment contradiction"
+  },
+  "pure_interval_controls": [
+    {
+      "identity": "Table3 110Ru3gamma+->2+",
+      "table_opposite_bound": -41,
+      "prose_opposite_bound": -46,
+      "positive_bound": 55,
+      "table_central": "pureE2"
+    }
+  ],
+  "calibration_G2_above_unity": [
+    {
+      "identity": "Table1 102Mo",
+      "G2": [
+        1.03,
+        0.08
+      ]
+    },
+    {
+      "identity": "Table1 114Pd",
+      "G2": [
+        1.06,
+        0.04
+      ]
+    }
+  ],
+  "analysis_contract": {
+    "delta": "Krane-Steffen=D96 sameEMamplitude basis previouslychecked",
+    "inverse": "all realprojectiveroots, source corrected margins treated as rectangles at1/1.5/3 times scales, no fabricatedjointCov/confidence",
+    "wrap": "alpha=atan(delta), alpha+-pi/2 physicallysamepureE2 projectivepoint",
+    "calibration": "arithmetic raw/G and exactEq9 monotonicrange; not refit or newg/lifetime",
+    "uncertainty": "Jacobianledger symbolic raw/G crossCov; sourceG4 not independentpuremeasurement",
+    "independence": "one252Cf acquisition, dependenceonGoodin2010 thesis/Daniel2007 producer not recovered; 37lines not37experiments"
+  }
+}

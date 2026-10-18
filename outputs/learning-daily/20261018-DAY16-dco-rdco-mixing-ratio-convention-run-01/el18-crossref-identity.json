@@ -1,0 +1,182 @@
+{
+  "url": "https://api.crossref.org/works/10.1140/epja/i2018-12426-5",
+  "sha256": "121402ca9acef3f7b2efc4af81769153d1778f8193485d41bc4421cc5b86fa56",
+  "metadata": {
+    "DOI": "10.1140/epja/i2018-12426-5",
+    "title": [
+      "E2/M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational bands of 102, 104, 106, 108Mo, 108, 110, 112Ru, and 112, 114, 116Pd"
+    ],
+    "author": [
+      {
+        "given": "J. M.",
+        "family": "Eldridge",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Fenker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "J. H.",
+        "family": "Hamilton",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Goodin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C. J.",
+        "family": "Zachary",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "E.",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A. V.",
+        "family": "Ramayya",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A. V.",
+        "family": "Daniel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "G. M.",
+        "family": "Ter-Akopian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yu. Ts.",
+        "family": "Oganessian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Y. X.",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "J. O.",
+        "family": "Rasmussen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S. J.",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          2
+        ]
+      ]
+    },
+    "volume": "54",
+    "page": null,
+    "article-number": "15",
+    "relation": {},
+    "update-to": null
+  },
+  "not_figure_formula_evidence": true
+}

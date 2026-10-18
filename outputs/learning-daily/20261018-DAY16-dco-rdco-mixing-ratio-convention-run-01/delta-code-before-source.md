@@ -1,0 +1,7 @@
+# NNDC DELTA原producer：来源前问题冻结
+
+已受EL18Ref9的P.Ekstrom/DELTA以及本session所有相位、printedmargin/ratioCov发现priming。新问题是公开DELTA程序本身采用哪套F/δ坐标、spin/γ顺序、A2/A4和误差，怎样给多根/±infinity/区间、是否只用一个系数；能否在不改源程序/不伪造EL18actualinput的前提下核公开producer数学接口。
+
+优先从NNDC首页链接的IAEA官方ENSDFanalysiscode目录与EL18所列老URL发现。不把当前下载版本自动认成2018实际用的版本。先核version/source/docs/license/build入口后再决定是否compile，第三方代码/二进制只在repo tmp不纳Git；若无Fortrancompiler/合法来源，写readiness边界或只读实现，不补造执行。不运行未检查安装器，不改系统/配置/凭据。
+
+所需新quantvalue是实际code的输入对象/多branch规则验证；不为了给出更多toy重复当前104Mo两根，也不以旧文的DELTA名字证明旧实验producer已恢复。实际source/compiledobject/output与EL18给的少精度表仍有unroundedΣ/response缺口。

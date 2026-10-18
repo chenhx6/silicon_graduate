@@ -319,3 +319,11 @@ R180和R55共享W90。一般`Σ_R=JΣ_WJᵀ`；即使三角净yield真独立，�
 ### 核结构推断仍要自己的companion
 
 KO01的2+_3→2+_1有91.7%radiativeM1、4+_3→4+_1有97.8%，但作者明确要求absoluteM1才能给unambiguous mixedsymmetry赋值。finiteδ/relativeM1不是absoluteB(M1)、波函数结构或γsoft模式的直接证明。TableI的1918.3keV3-到4+/2+两δ还属M2/E1，不能把genericδ²份额全叫E2。这些是真实实验使用门，与同一理论曲线的多种处理不增加独立证据。
+
+## IPAC校准、额外OR门与共享衰减
+
+[[eldridge-2018-gamma-band-mixing-ratios]] EL18-5/6/8的252Cf数据将64pairanglebins合成9个effectivebins；额外多门要求至少一个成立，可含fissionpartner，不能把OR读成AND或无条件source。一般W=1+G2A2P2+G4A4P4的G应区别于geometry Q和反应Gaussianρ。
+
+其G2以pure4→2→0的A2ratio校准，再用同一phi/g模型给G4并按组平均；G4不是新增独立观测。更正a=Y/G的Jacobian须保留raw/G及calibration crossCov和各line共用G造成的相关；仅对角quotederrors无法重建完整Σ。Eq9对phi/g是偶函数，所以衰减本身不认证g符号；centralG2>1没有realphi，边界处理必须显式，不剪裁成1再声称精确fit。
+
+EL18-7的真实104Mo大δ支跨同一pureE2点，EL18-9的部分打印更正未闭合则说明：publishedcorrected列/原producer/本任务重算是不同验证层。可用新增[projective脚本](../../system/scripts/day16_el18_projective_branch_audit.py)核所声明输入，但缺actual门/response/Σ时不替代原δ或形变结论。

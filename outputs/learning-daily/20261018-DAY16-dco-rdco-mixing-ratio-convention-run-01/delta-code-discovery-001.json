@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-18T18:03:35.389282+08:00",
+  "results": [
+    {
+      "name": "iaea-code-index",
+      "url": "https://www-nds.iaea.org/public/ensdf_pgm/",
+      "final_url": "https://www-nds.iaea.org/public/ensdf_pgm/",
+      "status": 403,
+      "bytes": 5468,
+      "sha256": "14cc201e5c1ac1e22d380955c9fa29bb01dfc35e4052e3843f3022187f8bffb4",
+      "text_excerpt": "Just a moment... Enable JavaScript and cookies to continue",
+      "links": []
+    },
+    {
+      "name": "old-nndc-delta",
+      "url": "https://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/delta/",
+      "final_url": "https://www.nndc.bnl.gov/nndcscr/ensdf_pgm/analysis/delta/",
+      "status": 404,
+      "bytes": 771,
+      "sha256": "af515593f0b65b527b274fcf1466453ff7444d2e0643e6d00e8b54d872b4f778",
+      "text_excerpt": "NNDC - 404 404 - Not Found The page you were looking for does not exist.",
+      "links": []
+    }
+  ]
+}

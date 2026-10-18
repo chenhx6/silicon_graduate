@@ -180,16 +180,36 @@
       "goal_status": "active",
       "study_window": "active until2026-10-19T15:00:00+08:00",
       "credit_unchanged_once": true
+    },
+    {
+      "publication_index": 10,
+      "at": "2026-10-18T17:57:49.343328+08:00",
+      "branch": "main",
+      "subject": "Audit DAY16 ICC probability measures and pure-limit tails",
+      "commit": "96277eb909c2abd30a805fce59cc5507e0a69fec",
+      "origin_main": "96277eb909c2abd30a805fce59cc5507e0a69fec",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "cached_check": 0,
+        "post_commit_eol": 0
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "curriculum_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-004",
-  "last_verification": "verification-reopened-004.json",
-  "knowledge_writeback_items": 26,
-  "last_learning_summary": "RZ17真实参数的图解/mean可复算，literalconvolution/interval仍producer边界；boundedphysics/probability/tailcanonical，旧人审不动。",
-  "knowledge_changed_pages": 26,
+  "last_checkpoint": "reopened-005",
+  "last_verification": "verification-reopened-005.json",
+  "knowledge_writeback_items": 27,
+  "last_learning_summary": "EL18独立fission真实104Mo两branch/±infinity、共享G/OR门和printingcontrols canonical；旧数据/未得Σ/response保持。",
+  "knowledge_changed_pages": 27,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "EL18 252Cf/Mo-Ru-Pd实际mixing分支、±infinity/Gk/sharedcalibration与signtrend；primedfreeze已存、原11页开读，不是Day18卡",
+  "current_research_route": "NNDC/IAEA官方DELTA code/docs/phase-input/branchinterval producer审计；sourcebefore已冻，当前version不自动是EL18actualproducer",
   "research_status": "active-user-resumed-original-window",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -309,5 +329,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-009.json"
+  "last_publication": "publication-010.json"
 }

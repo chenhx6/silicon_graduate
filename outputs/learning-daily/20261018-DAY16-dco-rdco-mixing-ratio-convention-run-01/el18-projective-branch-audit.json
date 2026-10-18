@@ -1,0 +1,459 @@
+{
+  "identity": "DAY16-EL18-MO104-PROJECTIVE-BRANCH-01",
+  "input_sha256": "6b65310268da67d2f6b66adbdc3a201592f71e191160b4e080685cc0aeb95a1d",
+  "script_sha256": "568e2333b2cb3583ca24f84558bfcc07dfe22a7e6d7d9162fef166c545b59eb3",
+  "target_identity": {
+    "nucleus": "104Mo",
+    "identity": "Table2 104Mo 3gamma+ -> 2+ -> 0+ row",
+    "spins": [
+      3,
+      2,
+      0
+    ],
+    "target_radiation": "3gamma+ ->2+ M1/E2",
+    "reference": "2+->0+ assumed pureE2",
+    "target_energy_keV_not_printed_in_row": null,
+    "additional_gates_keV": [
+      556,
+      200,
+      478,
+      331
+    ],
+    "fission_partner_gate_flags": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "raw_A2": [
+      -0.146,
+      0.009
+    ],
+    "raw_A4": [
+      -0.07,
+      0.01
+    ],
+    "corrected_A2": [
+      -0.19,
+      0.02
+    ],
+    "corrected_A4": [
+      -0.12,
+      0.04
+    ],
+    "source_delta_candidates": [
+      {
+        "central": 50,
+        "lower_margin": 27,
+        "upper": "infinity",
+        "opposite_sign_allowed_in_text": "delta<-159 within1sigma in A2A4space"
+      },
+      {
+        "central": -0.15,
+        "quoted_error": 0.02,
+        "bracket": "beyond1.5sigma but within3sigma"
+      }
+    ],
+    "source_theory_A2A4": [
+      -0.189,
+      -0.082
+    ],
+    "unrounded_source_or_covariance_available": false
+  },
+  "normalized_A0_A2_A4_matrices": {
+    "0": [
+      [
+        0.9999999999999994,
+        0.0
+      ],
+      [
+        0.0,
+        0.9999999999999996
+      ]
+    ],
+    "2": [
+      [
+        -0.07142857142857141,
+        0.3912303982179757
+      ],
+      [
+        0.3912303982179757,
+        -0.20408163265306115
+      ]
+    ],
+    "4": [
+      [
+        -0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.08163265306122443
+      ]
+    ]
+  },
+  "source_candidate_forward_checks": {
+    "None": {
+      "0": 0.9999999999999996,
+      "2": -0.2040816326530611,
+      "4": -0.08163265306122443
+    },
+    "50.0": {
+      "0": 0.9999999999999996,
+      "2": -0.18838563389935375,
+      "4": -0.08160001305600204
+    },
+    "-0.15": {
+      "0": 0.9999999999999994,
+      "2": -0.18913401235076577,
+      "4": -0.0017963175490244988
+    }
+  },
+  "all_central_A2_roots": [
+    {
+      "delta": -0.15112555115407073,
+      "atan_delta_deg": -8.59382542232808,
+      "predicted_A4": -0.0018227724530282105
+    },
+    {
+      "delta": 55.71718210964967,
+      "atan_delta_deg": 88.97177806850856,
+      "predicted_A4": -0.08160636577525032
+    }
+  ],
+  "printed_margin_boxes": [
+    {
+      "margin_multiplier": 1.0,
+      "A2_preimage": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -89.56605311128304
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -132.03155836810402
+        },
+        {
+          "atan_delta_deg": [
+            -10.05599424253907,
+            -7.14151255936235
+          ],
+          "delta_lower": -0.17733482352984714,
+          "delta_upper": -0.1252924223622916
+        },
+        {
+          "atan_delta_deg": [
+            87.51946520554064,
+            90.0000000000002
+          ],
+          "delta_lower": 23.0837229764479,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "A4_preimage": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -81.86989764584214
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -6.99999999999836
+        },
+        {
+          "atan_delta_deg": [
+            81.86989764584214,
+            90.0000000000002
+          ],
+          "delta_lower": 6.99999999999836,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "intersection": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -89.56605311128304
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -132.03155836810402
+        },
+        {
+          "atan_delta_deg": [
+            87.51946520554064,
+            90.0000000000002
+          ],
+          "delta_lower": 23.0837229764479,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "first_and_last_segments_join_at_same_pure_E2_point": true,
+      "confidence_level": null,
+      "scope": "literal printed marginal rectangle, not recovered source ellipse or DELTA recipe"
+    },
+    {
+      "margin_multiplier": 1.5,
+      "A2_preimage": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -88.83000065462359
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -48.96397215058767
+        },
+        {
+          "atan_delta_deg": [
+            -10.792046699198506,
+            -6.417835673126271
+          ],
+          "delta_lower": -0.19061634347459863,
+          "delta_upper": -0.1124831908713191
+        },
+        {
+          "atan_delta_deg": [
+            86.79578831930456,
+            90.0000000000002
+          ],
+          "delta_lower": 17.862751258159555,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "A4_preimage": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -59.017148267440284
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -1.6654083300080793
+        },
+        {
+          "atan_delta_deg": [
+            59.017148267440284,
+            90.0000000000002
+          ],
+          "delta_lower": 1.6654083300080793,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "intersection": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -88.83000065462359
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -48.96397215058767
+        },
+        {
+          "atan_delta_deg": [
+            86.79578831930456,
+            90.0000000000002
+          ],
+          "delta_lower": 17.862751258159555,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "first_and_last_segments_join_at_same_pure_E2_point": true,
+      "confidence_level": null,
+      "scope": "literal printed marginal rectangle, not recovered source ellipse or DELTA recipe"
+    },
+    {
+      "margin_multiplier": 3.0,
+      "A2_preimage": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -86.59535532767833
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -16.80889840633096
+        },
+        {
+          "atan_delta_deg": [
+            -13.026692026143769,
+            -4.251108702333322
+          ],
+          "delta_lower": -0.23135893827672713,
+          "delta_upper": -0.07433229413648329
+        },
+        {
+          "atan_delta_deg": [
+            84.62906134851161,
+            90.0000000000002
+          ],
+          "delta_lower": 10.636475276327007,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "A4_preimage": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            0.0
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": 0.0
+        },
+        {
+          "atan_delta_deg": [
+            0.0,
+            90.0000000000002
+          ],
+          "delta_lower": 0.0,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "intersection": [
+        {
+          "atan_delta_deg": [
+            -90.0000000000002,
+            -86.59535532767833
+          ],
+          "delta_lower": "-infinity",
+          "delta_upper": -16.80889840633096
+        },
+        {
+          "atan_delta_deg": [
+            -13.026692026143769,
+            -4.251108702333322
+          ],
+          "delta_lower": -0.23135893827672713,
+          "delta_upper": -0.07433229413648329
+        },
+        {
+          "atan_delta_deg": [
+            84.62906134851161,
+            90.0000000000002
+          ],
+          "delta_lower": 10.636475276327007,
+          "delta_upper": "+infinity"
+        }
+      ],
+      "first_and_last_segments_join_at_same_pure_E2_point": true,
+      "confidence_level": null,
+      "scope": "literal printed marginal rectangle, not recovered source ellipse or DELTA recipe"
+    }
+  ],
+  "nominal_raw_over_G": [
+    -0.18717948717948715,
+    -0.11666666666666668
+  ],
+  "correction_Jacobian_order_Y2_Y4_G2_G4": [
+    [
+      1.282051282051282,
+      0.0,
+      0.23997370151216302,
+      0.0
+    ],
+    [
+      0.0,
+      1.6666666666666667,
+      0.0,
+      0.19444444444444448
+    ]
+  ],
+  "only_if_inputs_independent_corrected_standard_errors": [
+    0.018451304923429442,
+    0.04230985058813283
+  ],
+  "actual_corrected_covariance_known": false,
+  "Eq9_same_phi_calibration": {
+    "phi_magnitude": 0.4122760923720846,
+    "G4_at_same_phi": 0.5809215462280138,
+    "dG4_dG2": 1.218408058535547,
+    "g_sign_identified": false,
+    "physical_G2_range": [
+      0.2,
+      1
+    ],
+    "physical_G4_range": [
+      0.1111111111111111,
+      1
+    ],
+    "source_above_unity_centrals": [
+      {
+        "identity": "Table1 102Mo",
+        "G2": [
+          1.03,
+          0.08
+        ]
+      },
+      {
+        "identity": "Table1 114Pd",
+        "G2": [
+          1.06,
+          0.04
+        ]
+      }
+    ],
+    "interpretation": "Gk is even in phi/g. Printed central G2 above1 has no real phi; uncertainty/other recipe is needed, no g is refit or clipped here."
+  },
+  "Mo106_literal_correction_printing_check": [
+    {
+      "rank": 2,
+      "raw_divided_by_group_G_central": -0.23076923076923075,
+      "source_printed_corrected_central": -0.18,
+      "all_last_digit_rounding_image": [
+        -0.23870967741935484,
+        -0.22292993630573246
+      ],
+      "source_corrected_last_digit_box": [
+        -0.185,
+        -0.175
+      ],
+      "printing_boxes_overlap": false,
+      "statistical_confidence_or_experimental_contradiction": null
+    },
+    {
+      "rank": 4,
+      "raw_divided_by_group_G_central": 0.45000000000000007,
+      "source_printed_corrected_central": 0.27,
+      "all_last_digit_rounding_image": [
+        0.4076923076923077,
+        0.5000000000000001
+      ],
+      "source_corrected_last_digit_box": [
+        0.265,
+        0.275
+      ],
+      "printing_boxes_overlap": false,
+      "statistical_confidence_or_experimental_contradiction": null
+    }
+  ],
+  "pure_endpoint_bound_printing_discrepancy": [
+    {
+      "identity": "Table3 110Ru3gamma+->2+",
+      "table_opposite_bound": -41,
+      "prose_opposite_bound": -46,
+      "positive_bound": 55,
+      "table_central": "pureE2"
+    }
+  ],
+  "fixed_E2_M1_zero_crossing_algebraic_control": [
+    {
+      "M1_over_E2": -0.01,
+      "E2_amplitude": 1.0,
+      "delta_E2_over_M1": -100.0,
+      "A2": -0.21189219425513803,
+      "A4": -0.08162449061216322
+    },
+    {
+      "M1_over_E2": 0.0,
+      "E2_amplitude": 1.0,
+      "delta_E2_over_M1": "pureE2",
+      "A2": -0.2040816326530611,
+      "A4": -0.08163265306122443
+    },
+    {
+      "M1_over_E2": 0.01,
+      "E2_amplitude": 1.0,
+      "delta_E2_over_M1": 100.0,
+      "A2": -0.19624454309153544,
+      "A4": -0.08162449061216322
+    }
+  ],
+  "source_DELTA_producer_recovered": false,
+  "new_spin_delta_g_or_shape_measurement": false,
+  "all_internal_checks_passed": true
+}

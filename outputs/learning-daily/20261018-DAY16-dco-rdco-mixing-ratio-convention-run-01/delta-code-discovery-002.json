@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T18:05:44.169570+08:00",
+  "url": "https://api.github.com/search/repositories?q=ensdf+in%3Aname&per_page=20",
+  "status": 403,
+  "sha256": "34b2bb2793eeff640ab96d34a7533e692cac9613d5ba8adb32b933cb4d172cd2",
+  "repos": [],
+  "role": "independent public-source discovery, not bypass of IAEA browser challenge; provenance not certified until files checked",
+  "fortran_compilers": {
+    "gfortran": "/usr/bin/gfortran",
+    "gfortran-13": "/usr/bin/gfortran-13",
+    "flang": null,
+    "f95": "/usr/bin/f95",
+    "f77": "/usr/bin/f77"
+  }
+}

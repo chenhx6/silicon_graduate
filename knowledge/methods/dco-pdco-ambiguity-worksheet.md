@@ -261,3 +261,11 @@ KS70-17进一步提醒：例如764/658包含三条中间路径，公式应为`Ck
 [[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3提供此前纯photontrace没有覆盖的条件：若中间mixedbranch的γ和conversionelectron都未观测，U必须按qtot=δgamma²(1+alpha_Lprime)/(1+alpha_L)混合。旧[[alpaca-2023-v105-angular-correlation-code]] AC23-5的764–687–818比较是声明的**光子**全角marginal；ALPACA这份输入没有ICC参数，不能因此把相同输出当all-decayselect下的U重放。
 
 [[internal-conversion-analysis]]保存168.71W实际nominaltheory的qgamma/qtot和11→10→9→7新gate设计，作用只为量化selection条件；原KF89两项数据中的169/306gate不被替换。未观测U还需所有可能branch的conditionalweights、timing/finiteacceptance/电子或γ额外trigger；更多相同photon模型agreement不能填该缺口。
+
+## 大混合比分支跨过pureE2点：104Mo实际相关行
+
+[[eldridge-2018-gamma-band-mixing-ratios]] EL18-7/8提供与W178/130Ba不同的252CfIPAC样本。104Mo Table2的3gamma+→2+→0+，额外门556/200*/478/331*至少其一成立；中间pureE2reference和G2/G4group校准是条件的一部分。Corrected(A2,A4)=(−.19(.02),−.12(.04))，作者δ50^(+∞/−27)并保留bracketed−.15(.02)，大支另允许负δ<−159。
+
+只用printedcentralA2的相同KS模型给−.151126/+55.7172，不擅改成作者50；unrounded/DELTArecipe未得。一倍printedmarginalrectangle约给δ≤−132.0316或δ≥23.0837，经±∞为同一连通projectivebranch，三倍矩形再纳入小负支。该矩形不是jointCI，不替代作者的δ界。把v=(cosα,sinα)、α=atanδ写全，α=−90/+90只是同pureE2点；平均δ端点或在大值截断会损坏原允许域。
+
+EL18-6的G2来自参考A2、G4由samephi模型推得并组平均，不能把二者或受它们更正的不同line当独立校准。EL18-9保存106Mo raw/corrected打印更正规则不闭合与110Ru−41/−46边界，不调G或扩大容差掩盖。EL18-10说明ratio跨∞的signchange并不只对应E2numerator变化：固定E2=1而M1穿零也可给负∞→正∞，角系数仍连续；这只是代数的非唯一性控制，不是实际shape替代模型。

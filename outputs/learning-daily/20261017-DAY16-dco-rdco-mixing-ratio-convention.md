@@ -191,6 +191,14 @@ MA87-3原Eq9新增有意义的sample条件：完全未观测mixedbranch用Delta�
 
 Literal普通positivePi卷积mean2.55349，在theoryerror→0时也会多平移2delta0；Eq14缺实际centering/FFT/supportrecipe，未将此failure归给实际RooFit。Declaredpushforward尾p~.083207/d³：mean有限、secondmoment无限，flatdelta likelihood又不能在0∞归一。新[canonical概率方法](../../knowledge/methods/icc-mixing-probability-domain.md)与[ICC方法](../../knowledge/methods/internal-conversion-analysis.md)保存proof、同数据sharedCov与物理域边界，不生成新实验δ。
 
+### EL18独立裂变样本：大delta的连通分支与共享IPAC校准
+
+[来源前primed冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/el18-before-source-freeze.json)后完整重读11页/Eqs1–9/四表/11图，[EL18-5至11](../../knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md)保存64→17→9bin、多extra门OR、Goodin/Daniel谱系、samephi/G4非独立校准及实际printingboundary。既有四claim/review保留，不称同37条来自37independent实验。
+
+[冻结104Mo行](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/el18-projective-branch-input.json)绑定Table2 3gamma+→2+→0+/extra556/200*/478/331*；能量行未给不补。原δ50^(+∞/−27)和bracketed−.15(.02)均保留，negative<-159亦allowed。[新计算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/el18-projective-branch-audit.json)的printedA2central根−.151126/+55.7172不改成source50；一倍字面矩形允许大正/大负并经pureE2点连接，非jointCI/原DELTA区间重放。[canonical双解单](../../knowledge/methods/dco-pdco-ambiguity-worksheet.md)已固化。
+
+另原图核106Mo2gamma→2的raw/corrected同印−.18/.27而groupG=.78/.6：中央相除−.230769/.45、lastdigitbox不交，保留未闭合；110RuTablebound−41/正文−46同样不擅改。共享G/raw校正Cov未知，g符号不能从evenphi衰减单独得到；代数constantE2/M1穿零说明δsigntrend不是唯一shape证明，而非实际替代模型。[angular-correlation](../../knowledge/methods/angular-correlation.md)与source保存这些实际控制和限制。下一原DELTA/producer说明仍值得追，研究继续原deadline。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -348,7 +356,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -386,6 +394,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
           "locator": "MA87-3"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-6"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-7"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-8"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-9"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-10"
         }
       ]
     },
@@ -437,7 +465,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。",
+      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。",
       "anchor": "高自旋factorization的使用边界",
       "sources": [
         {
@@ -475,6 +503,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
           "locator": "KO01-11"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-5"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-6"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-8"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-9"
         }
       ]
     },
@@ -1034,6 +1078,41 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "RZ17-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+      "summary": "EL18实际104Mo分支/共享G校准/打印重放边界，原δ/review保持。",
+      "anchor": "2026-10-18 Day16独立复读：projective分支与共享衰减",
+      "sources": [
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-5"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-6"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-7"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-8"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-9"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-10"
+        },
+        {
+          "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+          "locator": "EL18-11"
+        }
+      ]
     }
   ]
 }
@@ -1088,3 +1167,8 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 ### 恢复checkpoint010（研究继续）
 
 2026-10-18T17:49:31.347570+08:00：actual RZ17/Table1 probabilitymeasure/tail exercise已canonical；累计26changed/26items，boundary/diff0，method栏目缺项造成的首次lint1已补齐、fixed lint实际0/0errors156warnings。验收004保留initialexit/history纠正。[候选刷新](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-004.json)在原截止前仍约1272min，下一独立EL18实测branch/Gk问题已冻结/开读，window/goal继续active。稳定指针main / `Audit DAY16 ICC probability measures and pure-limit tails`，exacthash/actualH3/push只回执，不重计Day16或开Day18。
+
+
+### 恢复checkpoint011（研究继续）
+
+2026-10-18T18:05:06.303600+08:00：EL18实际branch/G校准/printing边界已canonical；[验收005](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-005.json)通过27changed/27items、单卡coverage、actualboundary/lint/diff0，0errors156warnings。稳定指针main / `Trace DAY16 projective mixing branches and shared IPAC calibration`，exacthash/actualH3/push只回执。继续官方DELTA原程序route，window/goal保持active至原15:00，不重计卡。

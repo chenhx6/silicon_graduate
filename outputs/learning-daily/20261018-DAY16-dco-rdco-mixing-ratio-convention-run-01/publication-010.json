@@ -1,0 +1,20 @@
+{
+  "publication_index": 10,
+  "at": "2026-10-18T17:57:49.343328+08:00",
+  "branch": "main",
+  "subject": "Audit DAY16 ICC probability measures and pure-limit tails",
+  "commit": "96277eb909c2abd30a805fce59cc5507e0a69fec",
+  "origin_main": "96277eb909c2abd30a805fce59cc5507e0a69fec",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "cached_check": 0,
+    "post_commit_eol": 0
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "curriculum_retained_once": true
+}
