@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-18T15:24:14.841316+00:00",
+  "results": [
+    {
+      "label": "current2025-escholarship",
+      "url": "https://escholarship.org/content/qt5h00677q/qt5h00677q.pdf",
+      "status": 202,
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "response_title": ""
+    },
+    {
+      "label": "old2009-publisher-pdf",
+      "url": "https://www.sciencedirect.com/science/article/pii/S009037520900057X/pdf",
+      "status": 403,
+      "bytes": 832804,
+      "content_type": "text/html; charset=UTF-8",
+      "response_title": "<!DOCTYPE html>\n<html lang='en-us'>\n<head>\n  <meta content=\"text/html; charset=UTF-8\" http-equiv=\"Co"
+    }
+  ]
+}

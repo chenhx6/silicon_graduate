@@ -21,7 +21,7 @@ updated: 2026-10-18
 - partial_day_indices: [17]
 - Day 16 card audit: complete
 
-原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程已依据本session独立交付与实际publication005对账为next17/count16，只计Day16一次。Day15 partial16、旧分数、旧程序检查不计本session学分；13:00上海按原时间门开始恰好Day17知识预习，只列partial17，不正式计17，未打开Day18。首个科学checkpoint已发布到Gitee，原run/goal继续active，学分仍未授予。
+原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程已依据本session独立交付与实际publication005对账为next17/count16，只计Day16一次。Day15 partial16、旧分数、旧程序检查不计本session学分；13:00上海按原时间门开始恰好Day17知识预习，只列partial17，不正式计17，未打开Day18。首个科学checkpoint时尚未授分；随后已正式计16一次，用户恢复后原run/goal继续active。
 
 启动已核README/index/profile/PLAN/active handoff、学习workflow、三份计划与矩阵Day16。入口工作树存在旧Day8/9/13/14/15回执、log和daemon脚本修改；[entry-baseline.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/entry-baseline.json)保存完整状态、620份knowledge快照与保护文件hash。首写前boundary exit0；EOL清理在首批回执/回忆写入之后、科学写入之前执行，恢复0份、index为空，明确这一执行顺序，不伪称所有H1步骤均在第一次输出写入前完成。
 
@@ -64,6 +64,11 @@ updated: 2026-10-18
 
 ## Sources and evidence
 
+### A=25官方当前对象与2009存档
+
+新增[官方source](../../knowledge/sources/nndc-2025-a25-mixing-reference-records.md) N25-1–10。九个当前对象与旧200908 Adopted子对象均实际核hash/字段；完整读Na BeO142行、Na/MgXUNDL23/25行、MgNRF15行，其余仅定向header/target/MR/reference，不称整188页评价精读。NaXUNDL官方PDF一页已视觉核；2009从官方archive真实目录取得，不再原样重试publisher403。当前评价base202508/cut31-May-2025、期刊2025-10，与202602XUNDL/19-Jan-2026编译分开。XUNDL来自同2026Lo01，不计独立实验。
+
+
 | 来源/链接 | 本session实际覆盖 | evidence与独立性 |
 | --- | --- | --- |
 | [D96](../../knowledge/sources/droste-1996-pdco-formalism.md) | 8页全文主线；原图printed519/520/521/524及geometry/σ/结论；DR96-4/5/6 | formalism/作者模型，不是新实验；FORTRAN未得 |
@@ -82,6 +87,13 @@ updated: 2026-10-18
 实测摘要新写KF89-15–18，均needs_review:true。原KF89 page human-reviewed及所有旧claim flags保留；这次self-audit不冒充人审。
 
 ## Theory/analysis exercise
+
+### A=25真实字段、参考谱系与条件加权重放
+
+[冻结v2](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/a25-reference-input-v2-freeze.json)在数值执行前保存十对象/hash和field-flag合同；[实际审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/a25-reference-audit.json)由system/scripts/day16_a25_reference_audit.py执行exit0。旧2009三个MR依次−.189(.012)/−.13(.03)/−.02(.03)，按已核单emitter KS/RB合同转换后与L26旧reference逐项闭合。2025的1612四分量独立误差条件重放给−.206805±.013098，与采用−.207(.013)相容；1793重放−.13±.012792，采用误差.02尚未由该简单公式闭合，保留原值及未知evaluator程序。
+
+Na1041在Adopted、FSU和XUNDL三层的Ei/Ef/Egamma、MR空栏与comment、A2/POL、不同array/beamenergy分别保存。3970 MR(F)追到1972Ke13覆盖默认1975Bu14；失败控制拒绝空MR数值化0、忽略flag归primary和将XUNDL3971静默改成3970。level-gap残差及M=25u recoil仅标尺度，未强配能量/置信度，未分析寿命或B值。
+
 
 新输入[kf89-w178-921-input.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/kf89-w178-921-input.json)在数值前冻结（identity `DAY16-KF89-W178-921-GATE-CROSSWALK-01`；SHA-256 `d686f653ee6a67d20beba402c7f679a00674cb4e500a446b2cb927c86e6e0690`）。[新脚本](../../system/scripts/day16_kf89_w178_gate_audit.py)和[结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/kf89-w178-921-audit.json)属于本session；底层CG/Wigner/photon primitives复用Day15代码，明确依赖。
 
@@ -269,15 +281,30 @@ Canonical [25Na ledger](../../knowledge/research-notes/gretina-25na1041-polariza
 
 ## Counter-evidence and missing companion observables
 
+### 官方转录不能代替独立偏振companion
+
+N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚度1.152µg/cm²与L26 Sec3的1.152mg/cm²相差1000；MgXUNDL G3971与当前Adopted3970.3不按nearest-keV闭合。旧M1标签/同paper XUNDL δcomment不增加选支证据；FSU35MeV的A2=.28(.09)也不能无matching布居/response/Cov直接与55MeV联合。1041两候选的A0预测仍同号，实际jointresponse与另一支误差仍缺。
+
+
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
 
 作者的强度比1.2±.2相对预期2.3只支持其branch偏好；模型预期和Cov缺失，不能变成独立、无假设的排除。182-keV E1/ICC结论不是921-keV target的独立companion。下一有判别力测量需同921/306、90°/38°/φ18°及matched cuts的P幅值、Q921、净计数/背景、与DCO共同事件Cov；没有这些输入不计算实验显著性或束流时间。
 
 ## Knowledge Impact and Learning Decision
 
+### A=25版本核验的更新判断
+
+`revises`target Ei/Ef与Firestone旧参考未直接核的缺口，`supports`L26旧reference在完整相位桥下的引用一致性，`limits`POL当P、空MR当0和默认primary覆盖字段flag。当前/旧评价共享旧数据且Cov未知，不把版本差异称独立实验冲突；Na1041未获得新的唯一δ或实验CI。
+
+
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+### A=25可复用身份与版本矩阵
+
+新增canonical [nndc-2025-a25-mixing-reference-records](../../knowledge/sources/nndc-2025-a25-mixing-reference-records.md) N25-1–10，重写[1041 ledger](../../knowledge/research-notes/gretina-25na1041-polarization-response-contract.md)中的缺口并补官方identity/旧新MR矩阵；[multipole-mixing-ratio](../../knowledge/observables/multipole-mixing-ratio.md)与[Compton方法](../../knowledge/methods/compton-polarimetry.md)保存phase→version→field-provenance/POL语义顺序，索引加入口。原humanreview prefix/flags、raw/PLAN/Bib均保留；本日继续仅partial17，无新课程学分。
+
 
 canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)保存实测身份表、作者双候选、role reciprocal/Cov Jacobian、矩阵/新两根、phase交叉表、未复现结果和下一companion。KF89 source新增15–18；dco-ratio与旧worksheet有反链，index有最小导航。程序与outputs输入/结果用于复算，本节不是唯一知识副本。新增GRETINA cal/branch ledger与Morse primary也已写入knowledge，见本节机器映射。
 
@@ -543,7 +570,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -577,6 +604,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
           "locator": "L26-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-1"
         }
       ]
     },
@@ -973,7 +1004,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1067,6 +1098,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
           "locator": "L26-29"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-10"
         }
       ]
     },
@@ -1245,7 +1288,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -1271,6 +1314,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
           "locator": "RZ17-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-8"
         }
       ]
     },
@@ -1686,7 +1737,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
       "anchor": "25Na1041：同号偏振如何参与分支判别",
-      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。",
+      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。 补22Ne参考图平均边界，不迁sourceC到1041或据cut图给实际最优/新CI。 官方Ei/Ef和2009/2025 MR版本已直接补齐，不增加独立δ证据。",
       "sources": [
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
@@ -1751,6 +1802,77 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
           "locator": "L26-29"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+      "anchor": "A=25：评价字段与原实验的观测对象",
+      "summary": "新增十对象身份、旧新MR/phase/fieldprimary矩阵、XUNDL POL和单位转录边界与条件加权重放；不是新实验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+          "locator": "N25-10"
         }
       ]
     }
@@ -1759,6 +1881,11 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
 ```
 
 ## Open questions and belief revision
+
+### A=25剩余高信息缺口
+
+已解决旧2009三reference数字与当前target身份；未解决FSU原paper角分组35/145与评价概述45/135的原始口径、实际alignment/feeding/fitCov，以及L26所用Q/联合response。下一有界路线为已定位2015Vo12的合法primary与其同跃迁AD论证；先冻结问题，不能把metadata当正文或重复无信息失败访问。
+
 
 GRETINA新增belief revision：Pbar并非脱离selection/kernel的通用一个数；Q本来按特定平均/归一校准，改变target平均而固定旧Q不能当响应修正。Fig4 literal曲线积分未闭合prose about值，下一须核实际≥2hit/θψ/source normalization/未舍入producer，而非调坐标或sigma追目标。当前publiccurve可复算不等于rawresponse恢复，作者1041选支保留adopted-response条件。精确target Ei/Ef与knownδ reference谱系尚可用官方数据再核。
 
@@ -1773,6 +1900,12 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3调查已由用户恢复至原15:00截止，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
+
+### A=25 checkpoint018检查与持续窗口
+
+[verification-reopened-012](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-012.json)实际report/card/writeback通过，36 changed knowledge pages/36 items，唯一writeback；boundary/lint/diff均exit0。Lint为0errors/164warnings（124 citation-key、37 raw槽、3 reaction-parser），新source未改raw/Bib，warning明确保留。初次缺两个source固定标题、表格竖线解析和末尾空行已纠正，原失败见a25-first-execution.json；未改科学输入追过检查。L26/L25人审prefix、PLAN/Bib hash保持。
+
+上海23:45仍距原次日15:00约915分钟，goal active/pursuing，本checkpoint不是整窗停止。2015Vo12原文前回忆已冻并明示priming；publisher accepted403/harvest401、Scholar timeout与泛匹配arXiv身份拒绝均有记录。只沿合法新入口继续，不把失败当正文或原样重试终态；next17/count16保持，partial17不授正式信用。
 
 ### 历史提前收束时间门与候选池（已由用户恢复）
 

@@ -1,9 +1,11 @@
-# Day16 checkpoint017之后持续研究
+# Day16 checkpoint018后的持续学习
 
-同原run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，goal active/pursuing，原研究截止2026-10-19 15:00上海，15–16收束。正式16一次next17/count16、partial17，不正式17/不开18。Checkpoint/source局部完成不结束整窗。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，goal active/pursuing；原截止2026-10-19 15:00上海不变，15–16收束。正式16一次next17/count16，partial17，不正式17/不开18。Farmer42019保留，无新daemon/session。
 
-最新35changed/35items：L26原Fig4C218点/P2908点已从actualvector冻轴/模型后积分；literalCP/C=.377923/.543870对proseabout.35/.53未按字面闭合，approx无精度声明，actualselection/producer未知不判实验错。两个publishedmodels事前固定；含Wlabeventaverage与Caverage/Q重标/jointkernel、cutcounts不是sourceC等边界canonicalL26-27–29/方法/note。verification-reopened011 actualrequired0/lint0errors162warnings(123key36raw3parser)；旧humanprefix/raw/protected保留。plot积分≠rawresponse，不能改average固定Q强配A0或用22NeC补1041。
+A25新source nndc-2025-a25-mixing-reference-records N25-1–10与25Na ledger/Compton/MR/index已canonical；十官方对象hash/fixed-column检查、old2009MR三条经phase桥和L26全匹配。1612当前四分量条件平均−.206805±.013098，1793−.13±.012792但采用σ.02不替；不认证独立性/误差producer。3970MR(F)指Kean1972非默认Bu14。XUNDL POL=A0非P，NaMRcomment0±.2而numeric空；官方PDF targetµg与primarymg千倍转录边界；MgG3971原样保留。旧Adopted200908从官方200910archive成员取，不声称2009journalPDF已读。
 
-下一route已经source-before冻：na25-mg25-reference-before-source.md/其freeze，candidate-refresh-reopened012余966min时继续。NNDC25NA/25MG索引2025-08ENSDF与postcutoff2026-02XUNDL5/6。五selectedobjects已下载HTTP200/pre，先读a25-selected-object-downloads.json核hash/linecount；XUNDL5/6全23/25行已读，其余目前仅header/target邻域，输入specs25011001 adoptedNa、25011012 NaBeO、25011015 NaXUNDL5、25012001 adoptedMg、25012036 MgXUNDL6；具体objecttext在tmp/day16-a25-reference。目标25Na1041 9/2→9/2的Ei/Ef/δfields及25Mg1612/1793/3970knownMR来源/KSsign/原primary谱系；不可从索引/metadata假body、空MR设0或把XUNDL同paper当新独立采集。adoptedMg可能大，只定向selectedparent/ref/header不冒充全读；不研究其寿命/B/Day18。
+verification-reopened012：report/card/writeback36changed/36items、required全部0，lint0errors164warnings(124key37raw3parser)，原humanprefix/raw/protected保持。firstfailures文件保留缺requiredsourceheadings/EOF/claimtablepipe修正；input冻后未动。新code system/scripts/day16_a25_reference_audit.py实际exit0，无实验refit/jointCov。
 
-Pub017 exactmanifest/HEAD+ownlog/H3/Gitee，actualhash/outcome仅receipt；pub016actualpushed已runreceipt。原fixed17日报、18run-dir/session/resume/deadline不变。L26旧humanprefix/1–16和L25旧prefix/1–29仍bytepreserved，新claims另true；Morseactual13pagepreprint不是VoRbody。Alikhani2012body与旧终态failedroutes不原样重试。SymPy1.14/mpmath1.3仅tmp，PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps，旧helpers/raw/PLAN/Bib/credentials/继承dirty不动。
+下一已冻结vonmoss2015-before-source.md/hash：FSU35MeV同Na1041 A2/M1与角分组/parentJ。原评价142行已读故primed；primary未得。DOI10.1103/PhysRevC.92.034301，Crossref/OpenAlex onlymetadata；accepted403、harvest401终态不原样重试；Scholar timeout；arXiv泛匹配皆身份不符已拒绝，不读19O替身。inspire/S2发现请求可能在exec31012待poll。若取得body沿fullmainline/figtables核AD/geometry，寿命部分仅识别来源不做B/tau研究。
+
+publication018本批内容指针main / Trace DAY16 A25 reference identities and evaluated mixing versions；实际hash/H3/push只记receipt。保留17日报/18run-dir/session/resume/deadline及原学分；exactmanifest/HEAD+ownlog/H3非force，保护raw/PLAN/Bib/credentials/继承dirty。SymPy仅tmp；L26/L25旧humanprefix逐字节保留，source旧失败不原样重试；下一formal17prompt仅priming准备。

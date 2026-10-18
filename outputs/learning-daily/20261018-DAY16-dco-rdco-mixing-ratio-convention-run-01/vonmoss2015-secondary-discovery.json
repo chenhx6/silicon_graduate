@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-18T15:45:35.497962+00:00",
+  "results": [
+    {
+      "name": "inspire",
+      "url": "https://inspirehep.net/api/literature?q=doi:10.1103/PhysRevC.92.034301",
+      "status": 200,
+      "result": {
+        "total": 1,
+        "hits": [
+          {
+            "titles": [
+              {
+                "title": "Higher-spin structures in F21 and Na25"
+              }
+            ],
+            "arxiv_eprints": null,
+            "documents": null,
+            "urls": null,
+            "dois": [
+              {
+                "source": "APS",
+                "value": "10.1103/PhysRevC.92.034301"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "semantic-scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/PhysRevC.92.034301?fields=title,openAccessPdf,externalIds,url",
+      "status": 200,
+      "result": {
+        "paperId": "6af1afb516d66e47f9091b7f251dd07ede6563ed",
+        "externalIds": {
+          "MAG": "2563704511",
+          "DOI": "10.1103/PHYSREVC.92.034301",
+          "CorpusId": 126382809
+        },
+        "url": "https://www.semanticscholar.org/paper/6af1afb516d66e47f9091b7f251dd07ede6563ed",
+        "title": "Higher-spin structures in 21 F and 25 Na",
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      }
+    }
+  ]
+}

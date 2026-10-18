@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-18T15:27:39.472932+00:00",
+  "status": 200,
+  "content_type": "application/pdf",
+  "bytes": 35943,
+  "payload": {
+    "dbclass": "xundl",
+    "page-source": "coupled-xun",
+    "postButton": "PDF Version",
+    "xunpostcheck": "25011015,25NA"
+  },
+  "path": "tmp/day16-a25-reference/Na-XUNDL-rendered.pdf",
+  "sha256": "79a5d5ea28a1b41d83b811614ae754e81aaf994ba4dd75d448c1b9b4d84be87f",
+  "pdftotext_exit": 0,
+  "text_head": "25 Na                                                                                                                      25 Na\n11    14                                                      From XUNDL                                                   11    14\n\n\n                                                      9 Be(18 O,Xγ):XUNDL-5                2026Lo01\n\nCompiled (unevaluated) dataset from 2026Lo01:\nNucl.Instrum.Methods Phys.Res. A1082, 170932.\nCompiled by E.A. McCutchan (NNDC,BNL) January 19, 2026.\n18 O beam at 55 MeV incident on 1.152 µg/cm2 9 Be target. Measured Eγ, Iγ, γγ, γ(θ), linear polarization using the GRETINA\n\n    array consisting of 12 modules each with four, 36-fold segmented HPGe detectors. Employed recoil-γ using the Fragment Mass\n    Analyzer (FMA).\n\n                                                                         25 Na Levels\n\n\n\n E(level)†        Jπ\n    0           5/2+\n 2419           9/2+\n 3459           9/2+\n\n    † Rounded values from the Adopted Levels of 25 Na in ENSDF.\n\n\n\n                                                                            γ(25 Na)\n\n\n   Eγ †      Ei (level)    Jπi   Ef      Jπf   Mult.‡                                                     Comments\n 1041        3459         9/2+   2419 9/2+     M1(+E2)     A2 =+0.20 2; A4 =+0.00 4; POL=+0.043 8 (2026Lo01)\n                                                           δ: 0.0 2 is determined by 2026Lo01.\n 2419        2419         9/2+        0 5/2+   E2          A2 =+0.40 3; A4 =−0.10 2; POL=+0.024 5 (2026Lo01)\n\n    † Rounded values from the Adopted Gammas of 25 Na in ENSDF.\n    ‡ From γ(θ) and linear polarization measurements (2026Lo01).\n\n\n\n\n                                                     9 Be(18 O,Xγ ):XUNDL-5                2026Lo01\n\n                                                                   Level Scheme\n                                                                       2)\n                                                                   (+E\n                                                                  M1\n                                                             41\n                                                             10\n\n\n\n\n                                                    9/2+                                        3459\n                                                                                      E2\n                                                                                  19\n                                                                                 24\n\n\n\n\n                                                    9/2+                                        2419\n\n\n\n\n                                                    5/2+                                              0\n\n                          "
+}

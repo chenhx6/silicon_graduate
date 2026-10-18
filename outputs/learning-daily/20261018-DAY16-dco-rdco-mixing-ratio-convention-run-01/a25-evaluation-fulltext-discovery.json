@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-18T15:20:16.769038+00:00",
+  "results": [
+    {
+      "label": "old2009",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nds.2009.06.001",
+      "status": 200,
+      "title": "Nuclear Data Sheets for A = 25",
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/j.nds.2009.06.001",
+          "pdf_url": null,
+          "source": "Nuclear Data Sheets"
+        }
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      }
+    },
+    {
+      "label": "current2025",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nds.2025.08.001",
+      "status": 200,
+      "title": "Nuclear Structure and Decay Data for A=25 Isobar",
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/j.nds.2025.08.001",
+          "pdf_url": null,
+          "source": "Nuclear Data Sheets"
+        },
+        {
+          "landing_page_url": "https://escholarship.org/uc/item/5h00677q",
+          "pdf_url": "https://escholarship.org/content/qt5h00677q/qt5h00677q.pdf",
+          "source": "eScholarship (California Digital Library)"
+        }
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://escholarship.org/content/qt5h00677q/qt5h00677q.pdf",
+        "any_repository_has_fulltext": true
+      }
+    }
+  ]
+}

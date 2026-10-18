@@ -1,0 +1,211 @@
+{
+  "identity": "A25-GRETINA-TARGET-AND-MR-CROSSWALK-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal17": false,
+  "object_snapshots": [
+    {
+      "label": "25Na-adopted",
+      "key": "25011001,25NA",
+      "path": "tmp/day16-a25-reference/25Na-adopted.ens",
+      "sha256": "48559d5bc395ad41db7b29dc19384ce45955e5c0a285ead4d362c6c690c86186",
+      "lines": 392
+    },
+    {
+      "label": "25Na-BeO",
+      "key": "25011012,25NA",
+      "path": "tmp/day16-a25-reference/25Na-BeO.ens",
+      "sha256": "dc765c3a15be3f3ac7737f213c6234304445a9895a8168c8db55370281c23f0d",
+      "lines": 142
+    },
+    {
+      "label": "25Na-new-XUNDL",
+      "key": "25011015,25NA",
+      "path": "tmp/day16-a25-reference/25Na-new-XUNDL.ens",
+      "sha256": "f26740d6bd99d308b30c4496320276c0a54f6ee573d178b8d50b5bccd292a076",
+      "lines": 23
+    },
+    {
+      "label": "25Mg-adopted",
+      "key": "25012001,25MG",
+      "path": "tmp/day16-a25-reference/25Mg-adopted.ens",
+      "sha256": "18d5f7ec5728299cacefc78d9c1f9a49748dd105a7176a18a3a5164afec70a80",
+      "lines": 1291
+    },
+    {
+      "label": "25Mg-new-XUNDL",
+      "key": "25012036,25MG",
+      "path": "tmp/day16-a25-reference/25Mg-new-XUNDL.ens",
+      "sha256": "5aec3b8a43f94570fec2cc1e21d0c8b3965397f5806c54f51ea45fb32f4730ae",
+      "lines": 25
+    },
+    {
+      "label": "Mg-alpha-ngamma",
+      "key": "25012005,25MG",
+      "path": "tmp/day16-a25-reference/Mg-alpha-ngamma.ens",
+      "sha256": "cc3d498111de713808adbe2e029955cccab354c9f04cbfc971d132379322a5c2",
+      "lines": 281
+    },
+    {
+      "label": "Mg-ppgamma",
+      "key": "25012011,25MG",
+      "path": "tmp/day16-a25-reference/Mg-ppgamma.ens",
+      "sha256": "20d80a6b62ec2a6e43bea9e0b9cd6abaeae8a2041259b723afcfa054f3989437",
+      "lines": 203
+    },
+    {
+      "label": "Mg-ggprime",
+      "key": "25012009,25MG",
+      "path": "tmp/day16-a25-reference/Mg-ggprime.ens",
+      "sha256": "315efc6d2dcb543eb01dfd06e25807557f2849810a1f6ee3de5dbedc470492d2",
+      "lines": 15
+    },
+    {
+      "label": "Mg-Npgamma",
+      "key": "25012023,25MG",
+      "path": "tmp/day16-a25-reference/Mg-Npgamma.ens",
+      "sha256": "7a4a5c8a771112515e83b1b7304a8539ed26ca718ca37ce71b8b90aa5522952e",
+      "lines": 260
+    }
+  ],
+  "evaluation_version": "base202508,CUT31May2025,NDS205,1(2025),DOI10.1016/j.nds.2025.08.001",
+  "new_XUNDL_version": "202602 header,compiled19Jan2026 from2026Lo01;unevaluated/notindependentexperiment",
+  "selected_target_cases": [
+    {
+      "label": "Na1041-adopted",
+      "object": "25Na-adopted",
+      "parent_E": "3459.4",
+      "parent_Jpi": "(9/2+)",
+      "gamma_E": "1041.3",
+      "M": "(M1)",
+      "MR": "",
+      "candidate_child_E": "2418.3"
+    },
+    {
+      "label": "Na1041-FSU",
+      "object": "25Na-BeO",
+      "parent_E": "3458.6",
+      "gamma_E": "1041",
+      "M": "M1",
+      "MR": "",
+      "A2_token": "+0.28 9",
+      "candidate_child_E": "2418.5"
+    },
+    {
+      "label": "Na1041-L26XUNDL",
+      "object": "25Na-new-XUNDL",
+      "parent_E": "3459",
+      "gamma_E": "1041",
+      "M": "M1(+E2)",
+      "MR": "",
+      "MR_comment": "0.0 {I2} is determined by2026Lo01",
+      "POL_token": "+0.043 8",
+      "candidate_child_E": "2419"
+    },
+    {
+      "label": "Mg1612-adopted",
+      "object": "25Mg-adopted",
+      "parent_E": "1611.767",
+      "gamma_E": "1611.712",
+      "M": "M1+E2",
+      "MR": "-0.207",
+      "DMR": "13",
+      "candidate_child_E": "0"
+    },
+    {
+      "label": "Mg1793-adopted",
+      "object": "25Mg-adopted",
+      "parent_E": "3404.59",
+      "gamma_E": "1793.1",
+      "M": "M1+E2",
+      "MR": "-0.13",
+      "DMR": "2",
+      "candidate_child_E": "1611.767"
+    },
+    {
+      "label": "Mg3970-adopted",
+      "object": "25Mg-adopted",
+      "parent_E": "3970.59",
+      "gamma_E": "3970.3",
+      "M": "E1(+M2)",
+      "MR": "-0.02",
+      "DMR": "3",
+      "candidate_child_E": "0"
+    }
+  ],
+  "L26_old2009_RB_knownMR": [
+    {
+      "E_keV": 1612,
+      "d_RB": 0.189,
+      "sigma": 0.012
+    },
+    {
+      "E_keV": 1793,
+      "d_RB": 0.13,
+      "sigma": 0.03
+    },
+    {
+      "E_keV": 3970,
+      "d_RB": 0.02,
+      "sigma": 0.03
+    }
+  ],
+  "current1612_adopted_weighted_components": [
+    {
+      "reaction": "alpha,n gamma",
+      "MR": -0.22,
+      "sigma": 0.02,
+      "object": "Mg-alpha-ngamma",
+      "primary_default_reference": "1975Bu14"
+    },
+    {
+      "reaction": "p,pprime gamma",
+      "MR": -0.23,
+      "sigma": 0.04,
+      "object": "Mg-ppgamma",
+      "primary_references": [
+        "1967Mc11",
+        "1968So03"
+      ]
+    },
+    {
+      "reaction": "gamma,gammaprime",
+      "MR": -0.19,
+      "sigma": 0.02,
+      "object": "Mg-ggprime",
+      "primary_reference": "1961Ra05"
+    },
+    {
+      "reaction": "14N,p gamma",
+      "MR": -0.18,
+      "sigma": 0.07,
+      "object": "Mg-Npgamma",
+      "primary_reference_from_header": "1988He15"
+    }
+  ],
+  "current1793_adopted_weighted_components": [
+    {
+      "MR": -0.14,
+      "sigma": 0.02
+    },
+    {
+      "MR": -0.13,
+      "sigma": 0.03
+    },
+    {
+      "MR": -0.12,
+      "sigma": 0.02
+    }
+  ],
+  "quantitative_contract": {
+    "arithmetic": "weightedmeansassumeindependentquotedcomponentsonlytoreplayevaluatorarithmetic;noindependencecertificationfromreactiontitles",
+    "energy_residual": "ELparent-Egamma-ELcandidatechild;noforcedclosure/identificationfromenergyalone,LSlevelCovunknown",
+    "phase": "useprevioussourceRB/nativeKSfullcontract;currentMRsignsemanticsfromENSDFmanual,source2009bodyunavailableyet. Do nottreatsignflipsasnewphysics.",
+    "POL": "actualXUNDLPOLtokenwillbecomparedtoL26A0explicitdefinition—notautomaticallyphysicalP",
+    "newMRcomment": "NaXUNDLhasMRcommentbutblankfixedMR;do notexpectgenericgammafieldparsertofindnumericMR0",
+    "target_thickness": "XUNDLrawtoken1.152 |mg/cm{+2} differsprimary1.152mg/cm2;decode/renderbeforenumericalunitclaim",
+    "no_Day18": "ignoreB/T/Qfieldsforresearch;metadata maycontainthem,no strength/lifetimeexercise"
+  }
+}

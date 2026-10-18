@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-18T23:34:16.976702+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "input_sha256": "755d4f7efd9ca77c13d9128f97c01168f1bf47067dbd1dfbab4fc67e70db7175",
+  "frozen_before_numeric_audit": true,
+  "primed": true,
+  "reference_scope_amendment": "read MR(F)before arithmetic; retain original freeze"
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-18T15:43:12.893851+00:00",
+  "results": [
+    {
+      "label": "accepted",
+      "url": "https://link.aps.org/accepted/10.1103/PhysRevC.92.034301",
+      "status": 403,
+      "final_url": "https://link.aps.org/accepted/10.1103/PhysRevC.92.034301",
+      "content_type": "text/html; charset=UTF-8",
+      "path": "tmp/day16-vonmoss2015/accepted.response",
+      "bytes": 5561,
+      "sha256": "95ce2b2b9e6399d89f2e511fa0f24f1f85972334b89cadfd97df7a2e40e66b99",
+      "is_pdf": false
+    },
+    {
+      "label": "harvest",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.92.034301/fulltext",
+      "status": 401,
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.92.034301/fulltext",
+      "content_type": "application/json",
+      "path": "tmp/day16-vonmoss2015/harvest.response",
+      "bytes": 66,
+      "sha256": "99db86ce7115099c88916b3e5453a8314ccdc60c163cfc075ead2cd5e1a120f3",
+      "is_pdf": false
+    }
+  ]
+}

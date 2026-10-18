@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T23:21:26.902156+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "8791b209aff8bc630eb56ff3b352f8eead4ff31d7ff7d9f11ac9f90ffe505d8c",
+  "frozen_before_fixedcolumn_and_numeric_audit": true,
+  "primed": true,
+  "reading_scope_sofar": {
+    "NaXUNDL": "23lineswhole",
+    "MgXUNDL": "25lineswhole",
+    "NaBeO": "142lineswhole",
+    "MgNRF": "15lineswhole",
+    "adoptedNa/Mg": "selectedheader/targetneighborhoodonly",
+    "Mgotherreactions": "target/headerselected,notwholemainline"
+  }
+}

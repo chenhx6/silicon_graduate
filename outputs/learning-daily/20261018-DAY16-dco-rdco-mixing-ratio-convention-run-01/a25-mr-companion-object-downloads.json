@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-18T15:15:19.561659+00:00",
+  "results": [
+    {
+      "label": "Mg-alpha-ngamma",
+      "key": "25012005,25MG",
+      "actual_index_label": "22NE(A,NG) 2025-08 All references",
+      "status": 200,
+      "pre": true,
+      "path": "tmp/day16-a25-reference/Mg-alpha-ngamma.ens",
+      "sha256": "cc3d498111de713808adbe2e029955cccab354c9f04cbfc971d132379322a5c2",
+      "lines": 281,
+      "header": [
+        " 25MG    22NE(A,NG)                    1976CH29,1975BU14,1974RO1025NDS    202508",
+        " 25MG  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$                ",
+        " 25MG2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$                                 ",
+        " 25MG c  1976Ch29: {+22}Ne(|a,n|g), E=10 MeV. Measured |a|g-,n|g-,|g|g-coin.    ",
+        " 25MG2c  Ge(Li) detector.                                                       ",
+        " 25MG c  1975Bu14: {+22}Ne(|a,n|g), E=8.00, 9.15 MeV. Measured |s(E|g,|q),      ",
+        " 25MG2c  linear polarization.                                                   "
+      ]
+    },
+    {
+      "label": "Mg-ppgamma",
+      "key": "25012011,25MG",
+      "actual_index_label": "25MG(P,P'G) 2025-08 All references",
+      "status": 200,
+      "pre": true,
+      "path": "tmp/day16-a25-reference/Mg-ppgamma.ens",
+      "sha256": "20d80a6b62ec2a6e43bea9e0b9cd6abaeae8a2041259b723afcfa054f3989437",
+      "lines": 203,
+      "header": [
+        " 25MG    25MG(P,P'G)                   1975OL02,1974OL07         25NDS    202508",
+        " 25MG  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$                ",
+        " 25MG2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$                                 ",
+        " 25MG c  1975Ol02, 1974Ol07: {+25}Mg(p,p'|g) E=5.2-6.1 MeV. Ge(Li); measured Ep,",
+        " 25MG2c  |g|g-coincidences, DSA.                                                ",
+        " 25MG c  Others: 1960Fe05, 1962Sc12, 1963Mc07, 1960Fe05, 1966Ga17, 1968Cr03,    ",
+        " 25MG2c  1968So03, 1970Ch04, 1976He22, 1979KoZB, 1986En04, 1988Bo37, 1969So09,  "
+      ]
+    },
+    {
+      "label": "Mg-ggprime",
+      "key": "25012009,25MG",
+      "actual_index_label": "25MG(G,G') 2025-08 All references",
+      "status": 200,
+      "pre": true,
+      "path": "tmp/day16-a25-reference/Mg-ggprime.ens",
+      "sha256": "315efc6d2dcb543eb01dfd06e25807557f2849810a1f6ee3de5dbedc470492d2",
+      "lines": 15,
+      "header": [
+        " 25MG    25MG(G,G')                    1964BO22                  25NDS    202508",
+        " 25MG  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$                ",
+        " 25MG2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$                                 ",
+        " 25MG c  1964Bo22: {+25}Mg(|g,|g') resonance fluorescence, E|g=0.5 to 3.0 MeV,  ",
+        " 25MG2c  deduced level width, mean lifetime.                                    ",
+        " 25MG c  Others: 1961Ra05, 1961Ra02                                             ",
+        " 25MG  L 0                                                                      "
+      ]
+    },
+    {
+      "label": "Mg-Npgamma",
+      "key": "25012023,25MG",
+      "actual_index_label": "12C(14N,PG),(15N,PNG) 2025-08 All references",
+      "status": 200,
+      "pre": true,
+      "path": "tmp/day16-a25-reference/Mg-Npgamma.ens",
+      "sha256": "7a4a5c8a771112515e83b1b7304a8539ed26ca718ca37ce71b8b90aa5522952e",
+      "lines": 260,
+      "header": [
+        " 25MG    12C(14N,PG),(15N,PNG)         1988HE15,1991TI02         25NDS    202508",
+        " 25MG  H TYP=FUL$AUT=M. Shamsuzzoha Basunia, Anagha Chakraborty$                ",
+        " 25MG2 H CIT=NDS 205, 1 (2025)$CUT=31-May-2025$                                 ",
+        " 25MG c  1988He15,1987He26: {+12}C({+14}N,p|g) E=23.5 MeV. Measured E|g, I|g,   ",
+        " 25MG2c  p|g(|q). E-|DE Si telescope, Ge(Li) detectors.                         ",
+        " 25MG c  1991Ti02: {+12}C({+15}N,pn|g) E=1.2-1.8 MeV. Measured DSA. Ge(Li),     ",
+        " 25MG2c  HPGe detectors.                                                        "
+      ]
+    }
+  ],
+  "scope": "retrieveactualobjects byIDs,labelsandreadingdepthcheckedbeforeevidenceuse"
+}

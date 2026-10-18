@@ -1880,3 +1880,8 @@ Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeb
 ## 2026-10-18 — DAY16公开角覆盖平均与Q迁移增量
 
 同原run/session继续；L26原vector C/P冻结积分，proseapprox未闭合、Ctheta与event平均/Q一致重标/jointkernel及cut边界写回，35页/35items。required0/lint0errors162warnings；稳定指针main / `Trace DAY16 polarization averaging and calibration transfer`，实际结果仅receipt。下一官方25Na/25Mg目标/knownMR谱系，已冻priming回忆；原次日15:00截止、formal16一次/partial17，无Day18。
+
+
+### 2026-10-18 Day16 A25 reference版本与字段谱系
+
+新增A25官方source/1041ledger：十对象hash和固定栏审计、2009MR三项相位转换与L26引用闭合、2025四分量条件平均及1793误差边界；MR(F)primary覆盖、POL=A0和µg/mg转录差保留。36knowledge changes/items，requiredchecks0，lint0errors164warnings；无实验δrefit/无新课程信用，goal持续至原次日15:00。内容指针main / Trace DAY16 A25 reference identities and evaluated mixing versions；实际hash/push只记receipt。

@@ -381,3 +381,9 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 ## ICC反演的P(delta)与pure端点
 
 [[icc-mixing-probability-domain]]依据[[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]] RZ17-8–12区分direct逆算、概率变量pushforward、likelihood/prior、图解界与原producer。ICC只给absdelta，物理域/绝对Jacobian、theory共同Cov和delta→∞端点都需保存；有限MC或68%massinterval不能无条件当作delta的有限Gaussian方差。使用有界f=delta²/(1+delta²)可避免坐标尾部不便，但不增加sign或独立实验信息。
+
+## 评价版本、字段参考与相位转换的顺序
+
+[[nndc-2025-a25-mixing-reference-records]] N25-6/7/8给真实对照：2009官方25Mg1612 MR−.189(.012)经声明KS→RB桥成为L26引用的+.189(.012)，而2025采用值−.207(.013)是另一评价版本。先同multipole/role/算符转换，再比较数值与版本，不能将负转正当物理解的变化，也不能用旧/新采用值作独立z检验。1793与3970的2009值也在转换后逐项对应L26旧引用。
+
+同一反应对象的默认primary还会被字段flag覆盖：25Mg alpha,nγ的3970 MR(F)指Kean1972，1612/1793默认指Butler1975。numeric MR空与comment另列δ0.0(.2)也须同时保存；XUNDL Na1041就是此例。引用次数、对象数量与评价版本数不提供实验独立性，原target/门/response和共享Cov仍需另核。

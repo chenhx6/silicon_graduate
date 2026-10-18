@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T15:42:49.973896+00:00",
+  "audit_exit_code": 0,
+  "input_unchanged_after_freeze": true,
+  "initial_diff_exit_code": 2,
+  "initial_diff_reason": "new blank line atEOF in two task-owned method/observable pages",
+  "correction": "trim only final blank lines, no scientific values changed",
+  "boundary_exit_code": 0,
+  "initial_lint": {
+    "exit_code": 1,
+    "errors": 2,
+    "warnings": 164,
+    "causes": [
+      "source missing requiredSummary andCompetingInterpretations headings"
+    ],
+    "correction": "added requiredsections; removedescapedtablepipefromN25-5so claimrowparserseesall10claims",
+    "original_log": "lint-reopened-012.txt"
+  }
+}

@@ -281,3 +281,9 @@ Morse的6-quad tracking与L26的12-quad energy-order/noaddback不同；L26 Eq19�
 经验Q本来由A/(κPbar)校准，换平均定义须同时换Q。若true A=κq Pbar_event，则Q_C=q Pbar_event/Pbar_C；校准核与目标核只有相同weighting-ratio才会在transfer时抵消。把target换成更合A的平均却固定旧Q不是独立response修正。
 
 真实cut .044/.028的gain1.5714在声明knownresponse/uniformξ/无背景且固定角形状的共同偏振幅度模型中需retained fraction>.40496才提高counting information。sourceC图积分约.19669不是实际Compton-selected count retention，不能拿图形就判原cut优劣或给束流时间。此例的完整identity/readiness保留在[[gretina-25na1041-polarization-response-contract]]，不将22Ne的C迁给25Na1041。
+
+### 数据库POL字段要回到原文A0/P定义
+
+[[nndc-2025-a25-mixing-reference-records]] N25-4/5/10实际核了2026Lo01的Na/Mg XUNDL。Na1041的POL=.043(.008)转录L26的A0；该实验定义A0=Q Pbar/2，所以不能直接把POL放进physical-P栏。XUNDL的编译、原paper表与多种处理仍是同一采集，不是三次独立偏振证据。
+
+target/gamma identity还要保留版本：25Na1041在当前Adopted为3459.4→2418.3，XUNDL用3459→2419；Mg XUNDL原G3971不能静默改成Adopted3970.3。官方PDF的靶厚度µg与primary mg相差1000，也限制从转录对象直接构建response。可复用的身份与MR谱系写在[[gretina-25na1041-polarization-response-contract]]；尚未取得actualresponse、jointCov或新的独立选根证据。

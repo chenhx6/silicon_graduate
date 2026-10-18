@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-18T15:33:14.966348+00:00",
+  "url": "https://www.nndc.bnl.gov/ensdfarchivals/distributions/dist09/ensdf_0910_099.zip",
+  "status": 200,
+  "path": "tmp/day16-a25-reference/ensdf_0910_099.zip",
+  "bytes": 8496799,
+  "sha256": "060f8b7c291c3f5a9193f3918f7cf959220be767b8a7e2d3b232ae0e11cd084b",
+  "is_zip": true,
+  "extracted": [
+    {
+      "member": "ensdf.025",
+      "path": "tmp/day16-a25-reference/archival200910-ensdf.025",
+      "bytes": 309015,
+      "sha256": "ba804aacea3a87f4f020f7e91204fb53d2e2c0f0db6d299bbdff1e7b97e0da66",
+      "lines": 3815
+    }
+  ],
+  "archive_members_count": 99
+}

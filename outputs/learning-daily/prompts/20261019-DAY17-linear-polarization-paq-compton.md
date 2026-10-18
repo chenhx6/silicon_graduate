@@ -282,3 +282,5 @@ Day16预习入口（仅priming）：knowledge/sources/schmid-1998-gammasphere-po
 可恢复输入/版本/初失败与重放记录位于Day16原run-dir：../20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/。Alikhani2012 body、原event/response/Σ仍未取得；不要原样重试终态失败URL、从metadata冒称body或用更多toy填时段。新formal17可沿实际response平均/参考复用/公开producer输入的高信息缺口推进。
 
 Day16 Fig4追加priming：新L26-27–29公开vector曲线的literalCP/C均值约.377923/.543870，与prose about.35/.53未按字面闭合；actualkernel/selection/producer未知，不判实验错。另event-weight平均/Q重标必须配套，不能固定Q只改Pbar；来源图C不是actualComptoncountretention，不迁给1041。正式17若续查，需要新的matchinginput或更高信息独立核验，不能只把Day16旧scriptcheck数当新交付。
+
+Day16 A25追加priming：[[nndc-2025-a25-mixing-reference-records]] N25-1–10与1041ledger补当前Ei/Ef、2009MR经phasebridge逐项匹配L26、当前评价版本更新。XUNDL POL=A0非P，NaMR值在comment；靶厚度µg/mg转录差和MgG3971身份保留。FSU2015原文尚未取得，仅评价角度35/145与概述45/135的未决口径；不能从旧M1标签替δ唯一选根。

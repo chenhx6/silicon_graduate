@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-18T15:31:29.127232+00:00",
+  "url": "https://www.nndc.bnl.gov/ensdfarchivals/",
+  "status": 200,
+  "bytes": 12080,
+  "sha256": "9514d7aafb2f17cf591b387583a24eca4a6abf09b9ca0630e50eaa54554d4204",
+  "path": "tmp/day16-a25-reference/ensdfarchivals-index.html",
+  "links": [
+    {
+      "text": "Search ENSDF Data",
+      "href": "/ensdf/"
+    },
+    {
+      "text": "View ENSDF Schema",
+      "href": "/ensdf/schema/"
+    },
+    {
+      "text": "www.nndc.bnl.gov/nds/",
+      "href": "https://www.nndc.bnl.gov/nds/"
+    }
+  ]
+}

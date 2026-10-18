@@ -8,17 +8,15 @@ updated: 2026-10-18
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16收束。用户恢复覆盖旧completed/closeout-only；goal active/pursuing，next17/count16、completed16/partial17不重计，不开Day18。Farmer PID42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止不变，15–16收束；goal active/pursuing。正式16仅一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-恢复checkpoint017（verification-reopened-011）：L26Fig4top原vector C218/P2908点，原ticks/affine锁axis，literalCP/C=.377923/.543870对sourceabout.35/.53未闭合；publishedsigma模型近redcurve但不推断producer。source/event平均、Q随定义重标、jointkernel/Cov和cutcount不等sourceC边界已canonicalL26-27–29/Compton/note，35changed/35items。actualrequired0，lint0errors162warnings(123key/36raw/3parser)，原humanprefix/raw/protected保持。
+Checkpoint018：A25十官方对象/旧2009archive已核hash与field；新source N25-1–10、1041ledger/Compton/MR/index写回，36changed/36items。Na1041 Ei/Ef版本补齐；2009三个MgMR经完整KS/RB桥与L26引用全闭合，1612当前−.207(.013)是更新；条件均值−.206805±.013098。1793采用σ.02不由简单独立公式重现，保留未知producer；3970MR(F)指Kean1972覆盖默认Bu14。XUNDL POL转录A0非P；官方PDFµg对primarymg千倍差、MgG3971不静默更正；同paper转录不是独立实验，未恢复response/Σ/新δ。
 
-稳定指针main / `Trace DAY16 polarization averaging and calibration transfer`，actualhash/H3/push仅publication017/runreceipt。上一016actualGitee/HEAD对账已存。新coverage代码两坐标Jacobian/16v32Gauss/Cscale/零和constantP检查通过，无调轴追目标；negativeC corners拒绝非clip。图C不是rawjointresponse，A0cut增大不证明信息最优，也不迁22NeC到1041。详source L26append及l26-coverage-average-audit.json。
+verification-reopened012 required0、lint0errors164warnings(124key37raw3parser)，report/card/writeback通过，原humanprefix/raw/PLAN/Bib保持。初标题/表格pipe/EOF失败记录已保留。此前017公开Fig4literal平均与about未闭合、eventweight/Q重标/实际counts边界仍有效，不迁22NeC到Na1041。
 
-当前route：25Na/25Mg official targetidentity/knownMR provenance。na25-mg25-reference-before-source.md/hash与timegatepool012已冻；NNDC lists为2025-08ENSDF，另2026-02 postcutoff XUNDL5/6已发现，尚不算新实验。五selectedobjects已HTTP200/pre取回，hash/lines在a25-selected-object-downloads.json；XUNDL5/6为2026Lo01的23/25行已全读，adopted与NaBeO目前仅header/target邻域定向读。选25011001 adoptedNa、25011012 BeO、25011015 XUNDL5、25012001 adoptedMg、25012036 XUNDL6。目标1041两level/原MR与1612/1793/3970 reference来源；adoptedMg可能大，只读selected不称全文。以原header/cutoff/claim/fields为准，空MR不设0、旧label不裁决分支，无Day18寿命任务。
+本批内容指针main / `Trace DAY16 A25 reference identities and evaluated mixing versions`；精确hash/H3/push只记publication018/runreceipt。下一FSU2015Vo12 primed回忆已冻，目标1041 AD/angle/Jpi论证；primarybody未得。accepted403/harvest401、Scholar timeout与arXiv错误身份拒绝有记录；inspire/S2发现请求待核。禁止由metadata冒称正文/旧M1唯一选根；不开展寿命/强度课。详continuation-current.md与A25新source。
 
-L26旧全humanprefix/1–16与L25旧全prefix/1–29每字节保持，新L26-17–29/L25-30均true；Morse新sourceauthorpreprint13页，VoRbody未得。Sourcep7 E1/M2正号例与Table3负号冲突，L26-15须带新19。Qhalf/Π/RB角色合同仍完整，不能固定Q删half或裸换.33/.196。Alikhani2012未得body；旧Gu96/Daniel/Jül/Goodin/Krane终态不原样重试。
-
-SymPy1.14/mpmath1.3仅repo tmp，PYTHONPATH=tmp/day16-jt74/python-deps；第三方不stage、旧helperhash不改。沿用17日报/18run-dir/session/resume/deadline，持续至原15:00；exactmanifest/HEAD+ownlog/H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/reviews。准备17prompt仅priming，未启动/授学分。
+L26旧humanprefix/1–16、L25旧prefix/1–29每字节保留，新claims true；Morseactual13pageauthorpreprint、VoR未得。L26p7sign例与Table3冲突须同时说明；Qhalf/Π/RB角色不混。旧终态Alikhani/Gu96/Daniel/Jül/Goodin/Krane不原样重试。SymPy仅repo tmp，旧helperhash/原raw/PLAN/Bib/credentials/继承dirty/log保持。exactmanifest、HEAD+ownlog、H3/Gitee HEAD:main非force；准备17prompt不启动/授信用。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

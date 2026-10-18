@@ -1,0 +1,179 @@
+{
+  "at": "2026-10-18T15:12:58.850479+00:00",
+  "url": "https://api.crossref.org/works?query.bibliographic=Nuclear+Data+Sheets+A+25+Basunia+Chakraborty+2025&filter=from-pub-date%3A2025-01-01%2Cuntil-pub-date%3A2025-12-31&rows=5",
+  "status": 200,
+  "results": [
+    {
+      "DOI": "10.1016/j.nds.2025.08.001",
+      "title": [
+        "Nuclear Structure and Decay Data for A=25 Isobar"
+      ],
+      "author": [
+        {
+          "given": "M.",
+          "family": "Shamsuzzoha Basunia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anagha",
+          "family": "Chakraborty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "205",
+      "page": "1-188",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/j.nds.2025.01.002",
+      "title": [
+        "Nuclear Data Sheets for A=81"
+      ],
+      "author": [
+        {
+          "given": "M.",
+          "family": "Shamsuzzoha Basunia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "199",
+      "page": "271-612",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/j.nds.2025.02.001",
+      "title": [
+        "In Memory of Dr. Richard B. Firestone"
+      ],
+      "author": [
+        {
+          "given": "Jagdish",
+          "family": "Tuli",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lee",
+          "family": "Bernstein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aaron",
+          "family": "Hurst",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shamsuzzoha",
+          "family": "Basunia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "200",
+      "page": "1",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/s0090-3752(25)00042-0",
+      "title": [
+        "Nuclear Data Sheets Symbols and Abbreviations"
+      ],
+      "author": null,
+      "volume": "202",
+      "page": "IBC",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/s0090-3752(25)00061-4",
+      "title": [
+        "Nuclear Data Sheets Symbols and Abbreviations"
+      ],
+      "author": null,
+      "volume": "204",
+      "page": "IBC",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      }
+    }
+  ]
+}

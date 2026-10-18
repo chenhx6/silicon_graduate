@@ -1,0 +1,285 @@
+{
+  "at": "2026-10-18T15:42:32.927515+00:00",
+  "metadata_only": true,
+  "results": [
+    {
+      "name": "Crossref",
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.92.034301",
+      "status": 200,
+      "result": {
+        "DOI": "10.1103/physrevc.92.034301",
+        "title": [
+          "Higher-spin structures in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">F</mml:mi><mml:mprescripts/><mml:none/><mml:mn>21</mml:mn></mml:mmultiscripts></mml:math>and<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi>Na</mml:mi><mml:mprescripts/><mml:none/><mml:mn>25</mml:mn></mml:mmultiscripts></mml:math>"
+        ],
+        "author": [
+          {
+            "given": "J. M.",
+            "family": "VonMoss",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S. L.",
+            "family": "Tabor",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Vandana",
+            "family": "Tripathi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Volya",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "B.",
+            "family": "Abromeit",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P. C.",
+            "family": "Bender",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D. D.",
+            "family": "Caussyn",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Dungan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "K.",
+            "family": "Kravvaris",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M. P.",
+            "family": "Kuchera",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Lubna",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Miller",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J. J.",
+            "family": "Parker",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P.-L.",
+            "family": "Tai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "volume": "92",
+        "page": null,
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              3
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.aps.org/accepted/10.1103/PhysRevC.92.034301",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "unspecified"
+          },
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRevC.92.034301",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.92.034301/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.92.034301",
+      "status": 200,
+      "result": {
+        "id": "https://openalex.org/W2563704511",
+        "title": "Higher-spin structures in F21 and Na25",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1103/physrevc.92.034301",
+            "doi": "https://doi.org/10.1103/physrevc.92.034301",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1103/physrevc.92.034301",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210168441",
+              "display_name": "Physical Review C",
+              "issn_l": "0556-2813",
+              "issn": [
+                "0556-2813",
+                "1089-490X",
+                "1538-4497",
+                "2469-9985",
+                "2469-9993",
+                "2470-0002"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "dongbi-a",
+                "jufo-2",
+                "ki-jl-1",
+                "norway-1",
+                "poland-140",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320261",
+              "host_organization_name": "American Physical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320261"
+              ],
+              "host_organization_lineage_names": [
+                "American Physical Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Physical Review C",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    }
+  ]
+}

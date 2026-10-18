@@ -1,0 +1,82 @@
+{
+  "identity": "A25-GRETINA-TARGET-AND-MR-CROSSWALK-02",
+  "base_input": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/a25-reference-input.json",
+  "base_input_sha256": "8791b209aff8bc630eb56ff3b352f8eead4ff31d7ff7d9f11ac9f90ffe505d8c",
+  "archive_object": {
+    "at": "2026-10-18T15:33:30.654480+00:00",
+    "archive_member": "tmp/day16-a25-reference/archival200910-ensdf.025",
+    "archive_sha256": "ba804aacea3a87f4f020f7e91204fb53d2e2c0f0db6d299bbdff1e7b97e0da66",
+    "start_line": 726,
+    "end_line_before_next_header": 1518,
+    "path": "tmp/day16-a25-reference/25Mg-adopted-archive200910.ens",
+    "sha256": "0ae9e923ed4ca2b25e6accd94db109071d5724023ac583203697c5f94231eeae",
+    "lines": 793,
+    "read_scope": "header/selected targets and MR comments only"
+  },
+  "old_target_cases": [
+    {
+      "parent_E": "1611.768",
+      "gamma_E": "1611.712",
+      "M": "M1+E2",
+      "MR": "-0.189",
+      "DMR": "12",
+      "candidate_child_E": "0"
+    },
+    {
+      "parent_E": "3405.06",
+      "gamma_E": "1793.1",
+      "M": "M1+E2",
+      "MR": "-0.13",
+      "DMR": "3",
+      "candidate_child_E": "1611.768"
+    },
+    {
+      "parent_E": "3970.73",
+      "gamma_E": "3970.3",
+      "M": "E1(+M2)",
+      "MR": "-0.02",
+      "DMR": "3",
+      "candidate_child_E": "0"
+    }
+  ],
+  "reference_flag_expectations": [
+    {
+      "object": "Mg-alpha-ngamma",
+      "parent_E": "1611.8",
+      "gamma_E": "1611.7",
+      "MR": "-0.22",
+      "DMR": "2",
+      "provenance": "default1975Bu14",
+      "energy_flag": "D",
+      "MR_flag": ""
+    },
+    {
+      "object": "Mg-alpha-ngamma",
+      "parent_E": "3404.9",
+      "gamma_E": "1793.1",
+      "MR": "-0.14",
+      "DMR": "2",
+      "provenance": "default1975Bu14",
+      "energy_flag": "D",
+      "MR_flag": ""
+    },
+    {
+      "object": "Mg-alpha-ngamma",
+      "parent_E": "3970.6",
+      "gamma_E": "3970.3",
+      "MR": "-0.02",
+      "DMR": "3",
+      "provenance": "MR(F)1972Ke13",
+      "energy_flag": "",
+      "MR_flag": "F"
+    }
+  ],
+  "extra_contract": {
+    "energy": "calculate residuals without covariance/forcedclosure; gammaenergy differslevelgap by recoil; optional scale estimate M=25u withuc2=931494.10242keV notprecisionmassinput",
+    "old_new_MR": "phasebridge first; updatedevaluation is notnewindependentmeasurement; no z/pvalue from correlated versions",
+    "provenance": "3970 MR FLAG=F overrides alpha,n defaultBu14; earlierbaseinput didnotmap this flaggedcase",
+    "XUNDL": "each actualPOL tokenmatchesA0; blankfixedMR notzero; gamma3971 preserved not silently3970; nearestkeV comparison is snapshot diagnostic only",
+    "response": "Noeventcounts/response/Sigma/producer recovered",
+    "no_Day18": "No strength/lifetimework"
+  }
+}

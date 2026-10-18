@@ -350,16 +350,41 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": true
+    },
+    {
+      "publication_index": 17,
+      "at": "2026-10-18T23:15:11.898062+08:00",
+      "branch": "main",
+      "subject": "Trace DAY16 polarization averaging and calibration transfer",
+      "commit": "9a6d4557fd1c57d377d50affaca522252ad9d5f7",
+      "origin_main": "9a6d4557fd1c57d377d50affaca522252ad9d5f7",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "push_observation": {
+        "exec_session_id": 46872,
+        "exit_code": 0,
+        "result": "fbc310c..9a6d455 HEAD -> main"
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-011",
-  "last_verification": "verification-reopened-011.json",
-  "knowledge_writeback_items": 35,
-  "last_learning_summary": "L26actualFig4 218C/2908P vectorarithmetic vsproseapproxunclosed;2publishedmodels/kernelfactorization/CthetaJacobian/consistentQtransfer andcutinformationboundary canonical;notrawresponse/newP/Q.",
-  "knowledge_changed_pages": 35,
+  "last_checkpoint": "reopened-012",
+  "last_verification": "verification-reopened-012.json",
+  "knowledge_writeback_items": 36,
+  "last_learning_summary": "A25 identity/old2009phase/new2025version/fieldprimary/POLunit audit; no newexperimentalfit",
+  "knowledge_changed_pages": 36,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "OfficialA25 fiveobjects fetchedHTTP200/pre; XUNDL23/25lines from2026Lo01 fullyread,adopted/reaction directedheader/targetneighborhoodonly. Need exactparent/ref/MRfield/provenanceaudit;noindependentexperimentcredit.",
+  "current_research_route": "FSU2015 target1041 primarybody/ADgeometry after canonicalA25 audit",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -461,16 +486,10 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-18T22:58:30.109752+08:00",
+    "now_local": "2026-10-18T23:47:06.717961+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "source": "candidate-refresh-reopened-012.json",
-    "decision": "continue-with-current-case-official-reference-route",
-    "completed_day_indices": [
-      16
-    ],
-    "partial_day_indices": [
-      17
-    ]
+    "minutes_to_deadline": 912.8880339833333,
+    "decision": "continue-or-advance"
   },
   "goal_resumed_by_user_at": "2026-10-18T16:34:00+08:00 (approximate; exact server timestamp held by native goal)",
   "goal_continuation_decision": {
@@ -482,5 +501,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-016.json"
+  "last_publication": "publication-017.json"
 }

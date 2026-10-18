@@ -1,0 +1,25 @@
+{
+  "publication_index": 17,
+  "at": "2026-10-18T23:15:11.898062+08:00",
+  "branch": "main",
+  "subject": "Trace DAY16 polarization averaging and calibration transfer",
+  "commit": "9a6d4557fd1c57d377d50affaca522252ad9d5f7",
+  "origin_main": "9a6d4557fd1c57d377d50affaca522252ad9d5f7",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "exec_session_id": 46872,
+    "exit_code": 0,
+    "result": "fbc310c..9a6d455 HEAD -> main"
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": true
+}

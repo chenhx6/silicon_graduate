@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-18T15:33:30.654480+00:00",
+  "archive_member": "tmp/day16-a25-reference/archival200910-ensdf.025",
+  "archive_sha256": "ba804aacea3a87f4f020f7e91204fb53d2e2c0f0db6d299bbdff1e7b97e0da66",
+  "start_line": 726,
+  "end_line_before_next_header": 1518,
+  "path": "tmp/day16-a25-reference/25Mg-adopted-archive200910.ens",
+  "sha256": "0ae9e923ed4ca2b25e6accd94db109071d5724023ac583203697c5f94231eeae",
+  "lines": 793,
+  "read_scope": "header/selected targets and MR comments only"
+}

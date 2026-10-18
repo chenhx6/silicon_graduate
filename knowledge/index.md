@@ -9,6 +9,8 @@ updated: 2026-10-18
 
 ## Sources
 
+- [[nndc-2025-a25-mixing-reference-records]] - Na1041能级身份、2009/2025 Mg混合比和相位谱系；XUNDL的POL/靶厚度/字段标记边界。
+
 - [[morse-2022-gretina-polarization-sensitivity]] - 6-quad实测标定、tracking cut/位置tuning反证与模拟GRETA曲线的实际版本/归一边界。
 
 - [[nndc-2007-mo104-selected-gamma-reference-records]] - 104Mo三旧ENSDF对象：gamma-bandidentity/空MR/旧M1标签、reference与2007cutoff；不替2018mixedbranch裁决。

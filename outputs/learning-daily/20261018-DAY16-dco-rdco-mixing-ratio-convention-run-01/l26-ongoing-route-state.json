@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-18T21:49:48.640523+08:00",
+  "at": "2026-10-18T23:41:46.034199+08:00",
   "published_checkpoint": 15,
   "branch_subject": "main / Trace DAY16 profile thresholds and conditional identifiability",
   "original_deadline": "2026-10-19T15:00:00+08:00",
@@ -25,9 +25,9 @@
   "L25_targeted_companion_scope": "manuscript Sec5.1-5.5,Eq27-38/sourcecalTable2; oldsource/prefixhashfrozen; sourceQ.33=measuredamp.016/.048, gate/polarizingphotonandnormalizationdifferent. Not currentfull25pageread.",
   "Alikhani2012_body_status": "not obtained; exactDOIrecordclosed,ChalmersDNSfail,configuredpublisherMarkdownproviderunavailable attemptedfalse; OpenAIRErelatedURLsnotallsamepaper, useexactDOIinstancesonly",
   "next_actions": [
-    "complete requiredchecks/verification-reopened010",
-    "handoff/continuation/exactmanifest/H3/publication16",
-    "continue current bounded response-averaging issue using publishedFig4 coverage, not rawresponse reconstruction"
+    "requiredchecks/verification-reopened012",
+    "exactmanifest/H3/publication018",
+    "freeze2015Vo12 primaryquestionandseeklawfulbody"
   ],
   "M22_input": "morse2022-calibration-input.json",
   "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
@@ -35,7 +35,28 @@
   "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
   "new_experimental_refit": false,
   "averaging_stage": "completed actualplot integration/declaredkernels,sourceproseapproxnotliterallyclosed;newcanonicalwritebackpending",
-  "latest_publication": "publication-016.json,pushed",
+  "latest_publication": "publication-017.json,pushedandHEADoriginmatched",
   "averaging_result": "l26-coverage-average-audit.json",
-  "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored"
+  "source_figure_vs_actual_events": "218Cpoints/2908redPpoints;no rawresponse restored",
+  "current_route": "A25 official crosswalk arithmetic/canonical complete, requiredchecks then publication018, next2015Vo12 primary bounded route",
+  "current_source_scope": {
+    "current9objects": "NaBeO142/XUNDL23,25/NRF15whole;othersselected",
+    "oldMgAdopted793": "header/targetsselected"
+  },
+  "A25working_boundaries": [
+    "XUNDL2026Lo01POLtokensmatchpaperA0,notphysicalP;MRNa0±.2iscommentwithblankfixedfield",
+    "XUNDLheaderthicknessliteral|mg vsprimarymg,decoderenderbeforeunitclaim",
+    "NaadoptedLS3459.4/2418.3,G1041.3 versusroundedXUNDL3459/2419/G1041;keepversionlayers",
+    "currentMg1612adoptedMR-.207(.013)vsL26RB+.189(.012);signbridgefirstandoldFirestone2009primarybodymissing;donotcallnewmeasurementorpreciseconflict",
+    "currentadoptedweightedcomponentsfrozen-.22/.23/.19/.18anduncertainties,sourceindependenceuncertified",
+    "officialreferencesprovideButler1975doi10.1088/0305-4616/1/6/014,Sowerby1968doi10.1016/0375-9474(68)90213-3,Rasmussen1961doi10.1103/PhysRev.123.1386;metadatanotbody",
+    "officialNSR1975Bu14keywordhas22Na(alpha,n)whileobject22Ne;donotcopyreactionmetadatablindly",
+    "new2025evaluationDOI10.1016/j.nds.2025.08.001,base202508/cut31May2025 vsjournalOct2025;newpubliceScholarshiproutefetchpending"
+  ],
+  "A25_result": "a25-reference-audit.json",
+  "A25_old_archive_recovered": true,
+  "A25_flags": "3970 MR(F)->1972Ke13, defaultBu14doesnotapply",
+  "A25_XUNDL_render": "actualPDFp1 visuallyread µg versusprimarymg",
+  "A25_reference_matches_L26": "all3old2009MRafterphasebridge",
+  "A25_covariance_or_experimental_refit_recovered": false
 }

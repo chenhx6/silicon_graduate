@@ -7,7 +7,7 @@ updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [longfellow-2026-gretina-energy-ordering-polarization, morse-2022-gretina-polarization-sensitivity, lauritsen-2025-gamma-angular-formalism-tracking-arrays]
+evidence_sources: [longfellow-2026-gretina-energy-ordering-polarization, morse-2022-gretina-polarization-sensitivity, lauritsen-2025-gamma-angular-formalism-tracking-arrays, nndc-2025-a25-mixing-reference-records]
 created_from: Day16 independent daily-learning run with uncredited Day17 preview
 promotion_target: compton-polarimetry
 tags: [mixing-ratio, polarization, GRETINA, response-calibration, phase-convention]
@@ -25,7 +25,19 @@ Day16的DCO多解需要matching偏振companion；本note追踪一个真实AD/偏
 
 [[longfellow-2026-gretina-energy-ordering-polarization]] L26-17/18给18O(55MeV)+9Be fusion-evaporation、FMA species selection下的25Na1041-keV、9/2+→9/2+跃迁。阵列为12quads、47个working crystals、无addback；最高deposit为first、第二高为second。Fig.1给25Na β=.046，polarimetry要求至少两点且sum位于Doppler-corrected photopeak。
 
-这是angular-distribution/Compton数据，**没有该文R_DCO测量或γγ reference gate**。paper没有本任务可用的target Ei/Ef细表，不能凭1041与spin label补出唯一level记录。无偏振source归一用56Co/152Eu近能量线；它与Q的外部标定角色不同。
+这是angular-distribution/Compton数据，**没有该文R_DCO测量或γγ reference gate**。paper未给本任务可用的target Ei/Ef细表；本run随后取得官方对象，补得下述版本限定的level identity，未从1041与spin label猜值。无偏振source归一用56Co/152Eu近能量线；它与Q的外部标定角色不同。
+
+### 官方对象补齐的身份与reference版本
+
+[[nndc-2025-a25-mixing-reference-records]] N25-1–10给当前/旧对象的直接核验：Na2025 Adopted1041.3(.4)连3459.4(.7)(9/2+)→2418.3(.7)(9/2+)；2015FSU对象为3458.6(.8)→2418.5(.8)、1041(1)，XUNDL为3459→2419、1041。各自原值/括号保留，不强配能量闭合。旧FSU为35MeV反应与不同阵列，评价A2=+.28(.09)不直接替代55MeV的a2=.20(.02)。XUNDL把L26同采集编为unevaluated记录，未增加独立实验。
+
+| Mg reference | 2009官方MR，经δRB=−δKS转换 | L26 Table1已用δRB | 2025当前MR | 本run结论 |
+| --- | --- | --- | --- | --- |
+| 1612 | +.189(.012) | +.189(.012) | −.207(.013) | 旧引用逐项闭合；当前更新不是新测量 |
+| 1793 | +.13(.03) | +.13(.03) | −.13(.02) | 当前误差不能由简单独立平均完整重现 |
+| 3970 | +.02(.03) | +.02(.03) | −.02(.03) | field MR(F)追到Kean1972，非默认Butler1975 |
+
+NaXUNDL的δ0.0(.2)在comment，numeric MR仍空；POL=.043(.008)是L26 A0，非P。官方PDF把靶厚度排为1.152µg/cm²，primary为1.152mg/cm²，保留千倍单位转录差异。MgXUNDL gamma3971与当前Adopted3970.3不能按nearest-keV同值替换。上述校对提高数据身份可追踪性，没有补到actualjointCov、response或另一支prediction误差，也不独立选δ支。
 
 | 层次 | source实际报告 | 当前解释边界 |
 | --- | --- | --- |

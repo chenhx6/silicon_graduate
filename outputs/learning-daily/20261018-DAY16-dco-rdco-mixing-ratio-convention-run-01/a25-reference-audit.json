@@ -1,0 +1,433 @@
+{
+  "identity": "A25-GRETINA-TARGET-AND-MR-CROSSWALK-02",
+  "input_sha256": "755d4f7efd9ca77c13d9128f97c01168f1bf47067dbd1dfbab4fc67e70db7175",
+  "script_sha256": "552b1adfd6bebedf7c2ef697e9f94f885cefd22254750a8267e3aadd59392d4c",
+  "objects_verified": 10,
+  "current_targets": [
+    {
+      "label": "Na1041-adopted",
+      "gamma": {
+        "line": 162,
+        "parent": {
+          "line": 149,
+          "E": "3459.4",
+          "DE": "7",
+          "Jpi": "(9/2+)"
+        },
+        "E": "1041.3",
+        "DE": "4",
+        "M": "(M1)",
+        "MR": "",
+        "DMR": "",
+        "flags": "C",
+        "raw": " 25NA  G     1041.3 4  100.0 26  (M1)                                       C   ",
+        "attached": [
+          {
+            "line": 163,
+            "raw": " 25NA cG M$M1 in ({+18}O,pn|g). RUL allows both M1 or E1.                       "
+          }
+        ]
+      },
+      "candidate_child": {
+        "line": 104,
+        "E": "2418.3",
+        "DE": "7",
+        "Jpi": "(9/2+)"
+      },
+      "gap_minus_Egamma_keV": -0.20000000000004547,
+      "recoil_scale_M25u_keV": 0.023280999572257065,
+      "gap_minus_Egamma_minus_recoil_keV": -0.22328099957230255,
+      "energy_covariance_known": false
+    },
+    {
+      "label": "Na1041-FSU",
+      "gamma": {
+        "line": 90,
+        "parent": {
+          "line": 83,
+          "E": "3458.6",
+          "DE": "8",
+          "Jpi": "(9/2+)"
+        },
+        "E": "1041",
+        "DE": "1",
+        "M": "M1",
+        "MR": "",
+        "DMR": "",
+        "flags": "",
+        "raw": " 25NA  G 1041      1   50    3  M1                                              ",
+        "attached": [
+          {
+            "line": 91,
+            "raw": " 25NA2 G A2=+0.28 9                                                             "
+          }
+        ]
+      },
+      "candidate_child": {
+        "line": 57,
+        "E": "2418.5",
+        "DE": "8",
+        "Jpi": "(9/2)+"
+      },
+      "gap_minus_Egamma_keV": -0.900000000000091,
+      "recoil_scale_M25u_keV": 0.023267586926951484,
+      "gap_minus_Egamma_minus_recoil_keV": -0.9232675869270425,
+      "energy_covariance_known": false
+    },
+    {
+      "label": "Na1041-L26XUNDL",
+      "gamma": {
+        "line": 19,
+        "parent": {
+          "line": 18,
+          "E": "3459",
+          "DE": "",
+          "Jpi": "9/2+"
+        },
+        "E": "1041",
+        "DE": "",
+        "M": "M1(+E2)",
+        "MR": "",
+        "DMR": "",
+        "flags": "",
+        "raw": " 25NA  G 1041                    M1(+E2)                                        ",
+        "attached": [
+          {
+            "line": 20,
+            "raw": " 25NA2 G A2=+0.20 2$A4=+0.00 4$POL=+0.043 8 (2026Lo01)                          "
+          },
+          {
+            "line": 21,
+            "raw": " 25NA cG MR$0.0 {I2} is determined by 2026Lo01                                  "
+          }
+        ]
+      },
+      "candidate_child": {
+        "line": 15,
+        "E": "2419",
+        "DE": "",
+        "Jpi": "9/2+"
+      },
+      "gap_minus_Egamma_keV": -1.0,
+      "recoil_scale_M25u_keV": 0.023267586926951484,
+      "gap_minus_Egamma_minus_recoil_keV": -1.0232675869269514,
+      "energy_covariance_known": false
+    },
+    {
+      "label": "Mg1612-adopted",
+      "gamma": {
+        "line": 119,
+        "parent": {
+          "line": 113,
+          "E": "1611.767",
+          "DE": "11",
+          "Jpi": "7/2+"
+        },
+        "E": "1611.712",
+        "DE": "11",
+        "M": "M1+E2",
+        "MR": "-0.207",
+        "DMR": "13",
+        "flags": "",
+        "raw": " 25MG  G  1611.712 11 100       M1+E2    -0.207  13    1.05E-4 2                ",
+        "attached": [
+          {
+            "line": 123,
+            "raw": " 25MG cG E$weighted average of 1611.716 {I11} from {+25}Na |b{+-} decay and     "
+          },
+          {
+            "line": 125,
+            "raw": " 25MG cG MR$weighted average of -0.22 {I2} from (|a,n|g), -0.23 {I4} from       "
+          }
+        ]
+      },
+      "candidate_child": {
+        "line": 75,
+        "E": "0",
+        "DE": "",
+        "Jpi": "5/2+"
+      },
+      "gap_minus_Egamma_keV": 0.055000000000063665,
+      "recoil_scale_M25u_keV": 0.055773097525694586,
+      "gap_minus_Egamma_minus_recoil_keV": -0.0007730975256309211,
+      "energy_covariance_known": false
+    },
+    {
+      "label": "Mg1793-adopted",
+      "gamma": {
+        "line": 230,
+        "parent": {
+          "line": 224,
+          "E": "3404.59",
+          "DE": "20",
+          "Jpi": "9/2+"
+        },
+        "E": "1793.1",
+        "DE": "3",
+        "M": "M1+E2",
+        "MR": "-0.13",
+        "DMR": "2",
+        "flags": "DI",
+        "raw": " 25MG  G     1793.1 3 100.0  12 M1+E2    -0.13   2     1.68E-4 2            D   ",
+        "attached": [
+          {
+            "line": 231,
+            "raw": " 25MG2 G FLAG=I                                                                 "
+          },
+          {
+            "line": 235,
+            "raw": " 25MG cG MR$weighted average of -0.14 {I2} from (|a,n|g), -0.13 {I3} from       "
+          }
+        ]
+      },
+      "candidate_child": {
+        "line": 113,
+        "E": "1611.767",
+        "DE": "11",
+        "Jpi": "7/2+"
+      },
+      "gap_minus_Egamma_keV": -0.2769999999998163,
+      "recoil_scale_M25u_keV": 0.06903334334907683,
+      "gap_minus_Egamma_minus_recoil_keV": -0.34603334334889313,
+      "energy_covariance_known": false
+    },
+    {
+      "label": "Mg3970-adopted",
+      "gamma": {
+        "line": 317,
+        "parent": {
+          "line": 297,
+          "E": "3970.59",
+          "DE": "22",
+          "Jpi": "7/2-"
+        },
+        "E": "3970.3",
+        "DE": "",
+        "M": "E1(+M2)",
+        "MR": "-0.02",
+        "DMR": "3",
+        "flags": "MI",
+        "raw": " 25MG  G     3970.3   100.0  13 E1(+M2)  -0.02   3     1.67E-3 2                ",
+        "attached": [
+          {
+            "line": 318,
+            "raw": " 25MG2 G FLAG=MI                                                                "
+          }
+        ]
+      },
+      "candidate_child": {
+        "line": 75,
+        "E": "0",
+        "DE": "",
+        "Jpi": "5/2+"
+      },
+      "gap_minus_Egamma_keV": 0.2899999999999636,
+      "recoil_scale_M25u_keV": 0.3384515704189079,
+      "gap_minus_Egamma_minus_recoil_keV": -0.04845157041894427,
+      "energy_covariance_known": false
+    }
+  ],
+  "old_targets": [
+    {
+      "gamma": {
+        "line": 47,
+        "parent": {
+          "line": 43,
+          "E": "1611.768",
+          "DE": "11",
+          "Jpi": "7/2+"
+        },
+        "E": "1611.712",
+        "DE": "11",
+        "M": "M1+E2",
+        "MR": "-0.189",
+        "DMR": "12",
+        "flags": "",
+        "raw": " 25MG  G  1611.712 11 100       M1+E2    -0.189  12                             ",
+        "attached": []
+      },
+      "delta_RB_after_declared_KS_bridge": 0.189,
+      "matches_L26_cited_value_and_error": true
+    },
+    {
+      "gamma": {
+        "line": 89,
+        "parent": {
+          "line": 85,
+          "E": "3405.06",
+          "DE": "17",
+          "Jpi": "9/2+"
+        },
+        "E": "1793.1",
+        "DE": "3",
+        "M": "M1+E2",
+        "MR": "-0.13",
+        "DMR": "3",
+        "flags": "",
+        "raw": " 25MG  G     1793.1 3 100.0  20 M1+E2    -0.13   3                              ",
+        "attached": []
+      },
+      "delta_RB_after_declared_KS_bridge": 0.13,
+      "matches_L26_cited_value_and_error": true
+    },
+    {
+      "gamma": {
+        "line": 122,
+        "parent": {
+          "line": 114,
+          "E": "3970.73",
+          "DE": "19",
+          "Jpi": "7/2-"
+        },
+        "E": "3970.3",
+        "DE": "7",
+        "M": "E1(+M2)",
+        "MR": "-0.02",
+        "DMR": "3",
+        "flags": "",
+        "raw": " 25MG  G     3970.3 7 100.0  25 E1(+M2)  -0.02   3                              ",
+        "attached": []
+      },
+      "delta_RB_after_declared_KS_bridge": 0.02,
+      "matches_L26_cited_value_and_error": true
+    }
+  ],
+  "reference_flag_audit": [
+    {
+      "gamma": {
+        "line": 43,
+        "parent": {
+          "line": 42,
+          "E": "1611.8",
+          "DE": "1",
+          "Jpi": ""
+        },
+        "E": "1611.7",
+        "DE": "1",
+        "M": "D+Q",
+        "MR": "-0.22",
+        "DMR": "2",
+        "flags": "D",
+        "raw": " 25MG  G 1611.7     1  100       D+Q      -0.22  2                              ",
+        "attached": [
+          {
+            "line": 44,
+            "raw": " 25MGF G FLAG=D                                                                 "
+          }
+        ]
+      },
+      "provenance_after_field_override": "default1975Bu14"
+    },
+    {
+      "gamma": {
+        "line": 73,
+        "parent": {
+          "line": 71,
+          "E": "3404.9",
+          "DE": "4",
+          "Jpi": "9/2+"
+        },
+        "E": "1793.1",
+        "DE": "3",
+        "M": "D+Q",
+        "MR": "-0.14",
+        "DMR": "2",
+        "flags": "D",
+        "raw": " 25MG  G 1793.1     3  79     2  D+Q       -0.14 2                              ",
+        "attached": [
+          {
+            "line": 74,
+            "raw": " 25MGF G FLAG=D                                                                 "
+          },
+          {
+            "line": 75,
+            "raw": " 25MG cG MR$other value: -0.15 {I2} (1972Ke13)                                  "
+          }
+        ]
+      },
+      "provenance_after_field_override": "default1975Bu14"
+    },
+    {
+      "gamma": {
+        "line": 98,
+        "parent": {
+          "line": 93,
+          "E": "3970.6",
+          "DE": "4",
+          "Jpi": "7/2-"
+        },
+        "E": "3970.3",
+        "DE": "",
+        "M": "D+Q",
+        "MR": "-0.02",
+        "DMR": "3",
+        "flags": "F",
+        "raw": " 25MG  G 3970.3        77     2  D+Q       -0.02 3                              ",
+        "attached": [
+          {
+            "line": 99,
+            "raw": " 25MGF G FLAG=F                                                                 "
+          }
+        ]
+      },
+      "provenance_after_field_override": "MR(F)1972Ke13"
+    }
+  ],
+  "conditional_weighted_means": {
+    "1612": {
+      "central": -0.20680525164113786,
+      "sigma_if_independent": 0.013097847552299664,
+      "weights_normalized": [
+        0.4288840262582057,
+        0.10722100656455143,
+        0.4288840262582057,
+        0.0350109409190372
+      ],
+      "sum_squared_residuals": 1.6241794310722104,
+      "independence_established": false,
+      "evaluator_error_algorithm_recovered": false
+    },
+    "1793": {
+      "central": -0.13,
+      "sigma_if_independent": 0.012792042981336627,
+      "weights_normalized": [
+        0.40909090909090906,
+        0.1818181818181818,
+        0.40909090909090906
+      ],
+      "sum_squared_residuals": 0.5000000000000009,
+      "independence_established": false,
+      "evaluator_error_algorithm_recovered": false
+    }
+  },
+  "adopted_1793_sigma": 0.02,
+  "adopted_1793_sigma_is_not_literal_independent_formula": true,
+  "XUNDL_Na1041_MR_stored_in_comment_not_numeric_field": true,
+  "XUNDL_POL_matches_source_A0_object_not_physical_P": true,
+  "XUNDL_Mg3971_gamma": {
+    "line": 22,
+    "parent": {
+      "line": 21,
+      "E": "3971",
+      "DE": "",
+      "Jpi": "7/2-"
+    },
+    "E": "3971",
+    "DE": "",
+    "M": "E1(+M2)",
+    "MR": "",
+    "DMR": "",
+    "flags": "",
+    "raw": " 25MG  G 3971                    E1(+M2)                                        ",
+    "attached": [
+      {
+        "line": 23,
+        "raw": " 25MG2 G A2=-0.26 4$A4=-0.03 6$POL=+0.025 8 (2026Lo01)                          "
+      }
+    ]
+  },
+  "XUNDL3971_not_nearest_keV_of_current_adopted3970p3": true,
+  "independent_new_XUNDL_experiment": false,
+  "joint_covariance_or_experimental_refit_recovered": false,
+  "all_identity_and_failure_controls_passed": true
+}
