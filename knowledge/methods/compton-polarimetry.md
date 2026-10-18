@@ -3,7 +3,7 @@ type: method
 title: "Gamma-Ray Compton Polarimetry"
 aliases: [Compton polarimetry, gamma-ray Compton polarimeter]
 created: 2026-07-13
-updated: 2026-10-17
+updated: 2026-10-18
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -184,3 +184,54 @@ S83 Table2的known P由Ref6（4430keV由Ref1）采用，未在本次取得这些
 - [[jones-1995-clover-compton-calibration]] JO95-5/6/7/8/9/10。
 - [[starosta-1999-pdco-experimental-test]] ST99-6/7/8/13。
 - [[droste-1996-pdco-formalism]] DR96-8/9；pureE2的H与分析轴约定。
+
+
+## Gammasphere双分段的P/A/Q与actual峰面积
+
+[[schmid-1998-gammasphere-polarization]] SG98-4–12在不可旋转的两分段Ge中定义confined C/shared S，并以unpolarized source的eta=Su/Cu修正：
+
+\[
+A(C,S,\eta)=\frac{\eta C-S}{\sqrt\eta(C+S)}=Q P.
+\]
+
+它不是genericclover平行/垂直的同一计数公式。C包括两侧confined总和，其中一侧在sideADC的zerochannel；该zero是已触发fullphotopeak但sidechannel未过threshold，不是无效事件。按原定义改变cut后需重定eta/Q。
+
+| 层 | 本篇实际对象 | 必要独立输入/条件 |
+| --- | --- | --- |
+| physical P | 反应平面内/外electricfield分量差和比；给定gamma方向、spin/purity/population与gate | calibration的P由已知pureE2和a2/a4推得，不是从同一A除已校Q作独立验证 |
+| measured A | 上式的C/S及eta，不是(C−S)/(C+S) | 真实peakfit/背景、energy/threshold、两侧zero与同detectorselection |
+| response eta | unpolarized152Eu的S/C，可能需energy interpolation | 同cut/threshold/arrayweights；不能借Fig9的130keV实例认证Fig10的60keV样本 |
+| sensitivity Q | calibration A/P；actual约.043/.047/.052于1368/847/415keV | 与A共享校准依赖，实际fitCov；geometry/threshold不变才可迁移 |
+| efficiency/F | 双分段epsilon是photopeak；传统四方向epsilon_c为coincidence | nearA0、knowneta/Q、统计主导时F≈epsilonQ²；高背景拟峰系统项需另核 |
+
+### 真实432-keV行：同名asymmetry不能互换
+
+SG98 Table3给197Pb432 line：C=30934±402、S=4449±125、eta=.163±.003。依原Eq15中央值A=.04152823。直接(C−S)/(C+S)约.7485，另一个balanced-denominator `(etaC−S)/(etaC+S)`约.06250，都不是这篇Q所校准的A，不能沿用原Q换算P。source列A=.041(.011)、P=.75(.20)；其Q取normalizedMC/calibrationcurve，未给精确curve coefficients，不从圆整A/P造出新的独立Q。
+
+源Table3的误差来自DAMM多peak/background拟合，不能令Var(C)=C、Var(S)=S来覆盖这些误差。对n=C+S，A的梯度为
+
+\[
+\partial_C A=\frac{(1+\eta)S}{\sqrt\eta n^2},\quad
+\partial_S A=-\frac{(1+\eta)C}{\sqrt\eta n^2},\quad
+\partial_\eta A=\frac{\eta C+S}{2\eta^{3/2}n}.
+\]
+
+完整P=A/Q传播用`gPᵀΣ(C,S,eta,Q)gP`。若只为诊断把quoted C/S errors当独立，432行σA≈.00980；eta error另给敏感性.00611；换sqrt(area)仅得.00508。这些不是作者full error budget的重建，不能擅自把两项quadrature称新实验error。C/S拟合与eta/Q校准可有共同Cov；Q从Acal/Pcal得，Acal–Q的依赖尤其不能忽略。
+
+对无背景、固定n、knowneta的**声明二项模型**，`pC=(1+sqrteta A)/(1+eta)`，exactconditional
+
+\[
+\mathrm{Var}(A\mid n)=\frac{1+(\eta-1)A/\sqrt\eta-A^2}{n}.
+\]
+
+nearA0才回到1/n及F形式；sourceEq17是独立Poisson层的相应误差式，不是对任意净peakareas与systematics的保证。这个推导不生成新counts或替换源fiterrors。
+
+### 原表closure与高背景反证
+
+实际七行Table3重算中，六行按C/S整数、eta/A最后位舍入盒相容；294-keV的eta.061/C16622/S1226给A=−.0481061，而印−.045，当前printingbox未闭合。要强求印刷中央值需eta≈.0617505，这个target反推值不被当独立标定，更没有修改输入。缺unrounded producer、原逐detectoraggregation/threshold/peakledger；原因未决，未宣称原文错误或重新拟合P。 反推eta仍落在reported .061±.001的测量边界内，A差也远小于quoted .019；这是printcentral复现边界，不是实验数据矛盾或新的校准结果。
+
+源作者本身指出inband P的离散和部分>约36%的幅值受高背景peakfitting限制，并用AD的相近形状反查。约36%属于其purehighspin-dipole/maximumalignment比较，不是任何conditionalgamma的通用上限；不能把超界中央值夹到.36，也不能拿这些P精度去做无Cov的δ强拟合。其符号pattern对E1link/负宇称的支持保留为作者有条件解释。
+
+两种calibration反应、同197Pb数据的不同处理、alternate44pagepreprint/16page期刊版都不自动增加独立实验。实际197Pb为12台80–100度、60keV side threshold、约270/271-keV bandgate；精确energy/gate选择应回原谱，不能仅凭近似label匹配其它measurement。
+
+复算[day16_sg98_polarimetry_preview.py](../../system/scripts/day16_sg98_polarimetry_preview.py)的冻结input/actualtableaudit保存七行、原errors、梯度与printingfailures；这是本日恰好Day17无学分知识preview，不重记formal17。下一高信息输入是matchingeta/Q与background/fitCov和event/cut ledger，而非任意加counts或Q插值调参。

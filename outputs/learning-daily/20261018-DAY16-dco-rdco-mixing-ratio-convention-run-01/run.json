@@ -20,14 +20,16 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "closing-out",
   "started_at": "2026-10-18T10:45:14.763821+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
-  "completed_day_indices": [],
-  "partial_day_indices": [
+  "completed_day_indices": [
     16
   ],
-  "curriculum_cards_completed": 0,
+  "partial_day_indices": [
+    17
+  ],
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-19T16:00:00+08:00",
   "last_closeout_snapshot": {
     "now_local": "2026-10-18T10:45:14.763821+08:00",
@@ -50,7 +52,7 @@
   "report_path_reason": "Preserve user exact Required persisted output path; actual run_date remains 2026-10-18",
   "continuation_prompt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
   "goal_status": "active",
-  "card_audit": "partial",
+  "card_audit": "complete",
   "publications": [
     {
       "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-001.json",
@@ -69,11 +71,29 @@
       "subject": "Trace DAY16 W178 conversion measurements and revised DCO assignments",
       "commit_hash": "56e1d74c7f0ff4daf9fdb779d0cddc620c8451ac",
       "outcome": "pushed"
+    },
+    {
+      "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-004.json",
+      "subject": "Compare DAY16 DCO ambiguities with the independent Ba130 experiment",
+      "commit_hash": "3e344404efe5b8c8a0209a912a109767e5454b7c",
+      "outcome": "pushed"
     }
   ],
-  "last_checkpoint": "004-content",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-007.json",
-  "knowledge_writeback_items": 13,
+  "last_checkpoint": "005-content",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-008.json",
+  "knowledge_writeback_items": 16,
   "last_learning_summary": "Independent130Ba three-angle source confirms conditional branch selection, shared90 covariance and40rows/18finite scope; W178 primary/calibration and true counter-evidence preserved.",
-  "knowledge_changed_pages": 13
+  "knowledge_changed_pages": 16,
+  "uncredited_day17_preview_started": true,
+  "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
+  "current_research_route": "New public repository discovery for NRF reviewfootnote/corrigendum, not publisherrepeat",
+  "research_status": "stopped-source-data-boundary-after-schedule-pool-and-next-card-audit",
+  "research_stopped_at": "2026-10-18T13:36:07+08:00",
+  "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
+  "early_stop_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-007-closeout.json",
+  "next_prompt": "outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md",
+  "next_prompt_session_started": false,
+  "final_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-verification.json",
+  "runner_exit_observed": false,
+  "completion_mode": "manual-reconciliation; actual runner final exit not observed"
 }

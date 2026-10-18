@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-18T13:19:46.321713+08:00",
+  "routes": [
+    {
+      "doi": "10.1016/j.ppnp.2021.103903",
+      "url": "https://api.openaire.eu/search/publications",
+      "parameters": {
+        "doi": "10.1016/j.ppnp.2021.103903",
+        "format": "json",
+        "size": 5
+      },
+      "route": "NewOpenAIREinstitutional discovery; not retry ofterminalpublisherbodyroute",
+      "status_code": 200,
+      "sha256": "33b03a4edda2dbb722698b286b981428c76fda490b161ac2aa8858ae4c27fece",
+      "candidate_urls": [
+        "http://www.eli-np.ro/",
+        "http://www.nipne.ro/",
+        "http://www.portal.uni-koeln.de/uoc_home.html?&L=1",
+        "http://www.tu-darmstadt.de/",
+        "https://doi.org/10.1016/j.ppnp.2021.103903"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ppnp.2023.104059",
+      "url": "https://api.openaire.eu/search/publications",
+      "parameters": {
+        "doi": "10.1016/j.ppnp.2023.104059",
+        "format": "json",
+        "size": 5
+      },
+      "route": "NewOpenAIREinstitutional discovery; not retry ofterminalpublisherbodyroute",
+      "status_code": 200,
+      "sha256": "28e9b804e17df8aa2acfcbdf75bc511caf1d66b8b090465bed54b6310ee47950",
+      "candidate_urls": [
+        "http://www.eli-np.ro/",
+        "http://www.nipne.ro/",
+        "http://www.portal.uni-koeln.de/uoc_home.html?&L=1",
+        "http://www.tu-darmstadt.de/",
+        "https://doi.org/10.1016/j.ppnp.2023.104059"
+      ]
+    }
+  ]
+}

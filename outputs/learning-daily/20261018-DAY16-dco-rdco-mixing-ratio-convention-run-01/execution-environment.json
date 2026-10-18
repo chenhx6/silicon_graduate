@@ -1,0 +1,12 @@
+{
+  "python": "3.12.3",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "PyMuPDF": "1.28.2",
+    "requests": "2.33.0",
+    "beautifulsoup4": "4.15.0"
+  },
+  "root": "/workspace/wiki",
+  "new_dependencies_installed": false
+}

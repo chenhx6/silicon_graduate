@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-18T13:18:50.005222+08:00",
+  "question": "KS70twoangle885 estimator identity",
+  "actual_direct_source_check": "sourceKS70-12 andoriginalprinted730/732 already explicitlycarry sameboundary",
+  "decision": "verified-no-op atthisboundedquestion; donotduplicatefacts oraddconditionaltoys",
+  "knowledge_checked": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+  "atomic_locator": "KS70-12",
+  "no_scientific_page_changed_for_this_question": true,
+  "schedule_decision": "rebuildpool; currentphasecorrigendum missingbody mayhaveanuntriedOpenAIRE/authorrepositoryroute",
+  "day17preview": "Onlyonecardalreadyopen; no18"
+}

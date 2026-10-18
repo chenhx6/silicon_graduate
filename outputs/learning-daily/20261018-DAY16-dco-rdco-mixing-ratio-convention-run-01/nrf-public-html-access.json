@@ -1,0 +1,30 @@
+[
+  {
+    "name": "review-public-html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0146641021000624",
+    "route": "New ordinarypublicHTML read; oldpdfftandXMLmetadatafailures not repeated",
+    "status_code": 403,
+    "sha256": "fe6ea52a70b287f8fd90f697f5fe71596484f7861695dfc59d4e841995d35e14",
+    "bytes": 832803,
+    "page_title": "ScienceDirect",
+    "human_text_chars": 253,
+    "has_footnote_marker": false,
+    "has_article_body_section": false,
+    "text_excerpt": "Publisher public HTML returned content-unavailable HTTP403; no article or corrigendum body available.",
+    "scientific_body_used": false
+  },
+  {
+    "name": "corrigendum-public-html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0146641023000406",
+    "route": "New ordinarypublicHTML read; oldpdfftandXMLmetadatafailures not repeated",
+    "status_code": 403,
+    "sha256": "3b7c7a80c5d911f9ddc430b590f46dd5ae49f060e53b3987e542542a724bf20f",
+    "bytes": 832803,
+    "page_title": "ScienceDirect",
+    "human_text_chars": 253,
+    "has_footnote_marker": false,
+    "has_article_body_section": false,
+    "text_excerpt": "Publisher public HTML returned content-unavailable HTTP403; no article or corrigendum body available.",
+    "scientific_body_used": false
+  }
+]

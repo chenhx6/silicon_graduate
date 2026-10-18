@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/code-snapshot-003/day16_ko01_three_angle_audit.py",
+      "sha256": "273b3794ea2f358f0230236744cabdffd670c294bc40f71c70589822db91bd11",
+      "output": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ko01-three-angle-audit-initial.json",
+      "replayed_exactly": true,
+      "exit_code": 0
+    },
+    {
+      "snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/code-snapshot-004/day16_sg98_polarimetry_preview.py",
+      "sha256": "8216f86ee4709e2abe00e433c00072f4d0aa1c815afe75c52bb78b002926d55b",
+      "output": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-sg98-table-audit-initial.json",
+      "replayed_exactly": true,
+      "exit_code": 0
+    }
+  ],
+  "boundary": "Exact old-code recovery and replay of preserved initial audit outputs; no new scientific input or external program executed."
+}

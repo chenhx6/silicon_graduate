@@ -1,0 +1,254 @@
+{
+  "identity": "DAY16-UNCredited-D17-SG98-TABLE3-01",
+  "frozen_at": "2026-10-18T13:04:52.703123+08:00",
+  "day_index": 16,
+  "preview_day_index": 17,
+  "formal_Day17_credit": false,
+  "source": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+  "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+  "locators": [
+    "printed101Eq15/17",
+    "printed103Table1",
+    "printed108Table3",
+    "printed109Fig15/conclusion"
+  ],
+  "Table3": [
+    {
+      "E_keV": 353,
+      "eta": [
+        0.105,
+        0.002
+      ],
+      "C": [
+        20583,
+        412
+      ],
+      "S": [
+        2450,
+        98
+      ],
+      "A_printed": [
+        -0.039,
+        0.015
+      ],
+      "P_printed": [
+        -0.7,
+        0.27
+      ]
+    },
+    {
+      "E_keV": 294,
+      "eta": [
+        0.061,
+        0.001
+      ],
+      "C": [
+        16622,
+        266
+      ],
+      "S": [
+        1226,
+        82
+      ],
+      "A_printed": [
+        -0.045,
+        0.019
+      ],
+      "P_printed": [
+        -0.82,
+        0.34
+      ]
+    },
+    {
+      "E_keV": 365,
+      "eta": [
+        0.116,
+        0.002
+      ],
+      "C": [
+        19691,
+        394
+      ],
+      "S": [
+        2320,
+        93
+      ],
+      "A_printed": [
+        -0.005,
+        0.014
+      ],
+      "P_printed": [
+        -0.1,
+        0.25
+      ]
+    },
+    {
+      "E_keV": 384,
+      "eta": [
+        0.13,
+        0.002
+      ],
+      "C": [
+        20601,
+        618
+      ],
+      "S": [
+        2747,
+        137
+      ],
+      "A_printed": [
+        -0.007,
+        0.02
+      ],
+      "P_printed": [
+        -0.13,
+        0.36
+      ]
+    },
+    {
+      "E_keV": 369,
+      "eta": [
+        0.12,
+        0.002
+      ],
+      "C": [
+        23513,
+        470
+      ],
+      "S": [
+        2840,
+        114
+      ],
+      "A_printed": [
+        -0.003,
+        0.014
+      ],
+      "P_printed": [
+        -0.05,
+        0.25
+      ]
+    },
+    {
+      "E_keV": 358,
+      "eta": [
+        0.112,
+        0.002
+      ],
+      "C": [
+        28817,
+        576
+      ],
+      "S": [
+        3425,
+        103
+      ],
+      "A_printed": [
+        -0.018,
+        0.012
+      ],
+      "P_printed": [
+        -0.32,
+        0.22
+      ]
+    },
+    {
+      "E_keV": 432,
+      "eta": [
+        0.163,
+        0.003
+      ],
+      "C": [
+        30934,
+        402
+      ],
+      "S": [
+        4449,
+        125
+      ],
+      "A_printed": [
+        0.041,
+        0.011
+      ],
+      "P_printed": [
+        0.75,
+        0.2
+      ]
+    }
+  ],
+  "Table1": [
+    {
+      "isotope": "24Mg",
+      "E_keV": 1368,
+      "P": [
+        0.931,
+        0.007
+      ],
+      "A": [
+        0.04,
+        0.002
+      ],
+      "Q": [
+        0.043,
+        0.002
+      ]
+    },
+    {
+      "isotope": "56Fe",
+      "E_keV": 847,
+      "P": [
+        0.52,
+        0.006
+      ],
+      "A": [
+        0.025,
+        0.003
+      ],
+      "Q": [
+        0.047,
+        0.005
+      ]
+    },
+    {
+      "isotope": "109Ag",
+      "E_keV": 415,
+      "P": [
+        0.317,
+        0.005
+      ],
+      "A": [
+        0.017,
+        0.002
+      ],
+      "Q": [
+        0.052,
+        0.007
+      ]
+    }
+  ],
+  "formula": "A=(eta*C-S)/(sqrt(eta)*(C+S)); eta=Su/Cu, sumofbothconfinedsides C; P=A/Q inthisspecificdefinition",
+  "reported_uncertainty_origin": "SourceSec6.3 sayserrorsderivedfrompeakfitparameters; full C/S/eta/Q covariance not supplied",
+  "rounding_controls": {
+    "C_S_half_unit": 0.5,
+    "eta_half_last_digit": 0.0005,
+    "A_half_last_digit": 0.0005,
+    "preserve_failures": true
+  },
+  "selections": {
+    "array_actual": "12segmentedGe80to100deg",
+    "side_threshold_keV": 60,
+    "photopeak_C_definition": "within2FWHM ofsidepeak plusADCzerochannel",
+    "S_definition": "betweenpeakCcutandjustabovezerochannel",
+    "gate_line_keV": "270 intext /271 inFig13caption; keepversionlabeldifference",
+    "eta_Fig9_threshold_keV": 130,
+    "Q_Fig10_threshold_keV": 60
+  },
+  "forbidden_inference": [
+    "noactualproductionfit/MC/eventreplay",
+    "do notreplacequotedpeakfiterrorsbysqrtareas",
+    "noarbitraryQfitfromA/Pcentrals",
+    "printingboxnotphysicalCI",
+    "onepossibleprintedclosurefailuredoesnotprovepaperwrong",
+    "Pgreater.36ispurehighspindipolehypothesisissue,notPgenericphysicalbound",
+    "noformal17creditorDay18"
+  ]
+}

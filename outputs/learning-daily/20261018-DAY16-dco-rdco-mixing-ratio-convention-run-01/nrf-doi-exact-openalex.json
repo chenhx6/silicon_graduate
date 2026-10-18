@@ -1,0 +1,64 @@
+[
+  {
+    "doi": "10.1016/j.ppnp.2021.103903",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.ppnp.2021.103903",
+    "route": "DOIexact metadata, no fuzzysearch",
+    "status_code": 200,
+    "sha256": "a41c722d8c201a28579fa3335de9c9b088704589be4255a6aa679819b6739793",
+    "title": "Photonuclear reactions—From basic research to applications",
+    "doi_returned": "https://doi.org/10.1016/j.ppnp.2021.103903",
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      {
+        "landing_page_url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+        "pdf_url": null,
+        "is_oa": true,
+        "license": null,
+        "version": "acceptedVersion"
+      },
+      {
+        "landing_page_url": "https://kups.ub.uni-koeln.de/57972/",
+        "pdf_url": null,
+        "is_oa": false,
+        "license": null,
+        "version": "publishedVersion"
+      },
+      {
+        "landing_page_url": "http://tubiblio.ulb.tu-darmstadt.de/141016/",
+        "pdf_url": null,
+        "is_oa": false,
+        "license": null,
+        "version": "submittedVersion"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.ppnp.2023.104059",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.ppnp.2023.104059",
+    "route": "DOIexact metadata, no fuzzysearch",
+    "status_code": 200,
+    "sha256": "d3630a7c57e3ef697f3acbf251b4160933dd431246f1b404e9f2ea6247a48fcc",
+    "title": "Corrigendum to “Photonuclear reactions—From basic research to applications” [Prog. Part. Nucl. Phys. 122 (2022) 1-96/103903]",
+    "doi_returned": "https://doi.org/10.1016/j.ppnp.2023.104059",
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "locations": [
+      {
+        "landing_page_url": "https://doi.org/10.1016/j.ppnp.2023.104059",
+        "pdf_url": null,
+        "is_oa": false,
+        "license": null,
+        "version": "publishedVersion"
+      }
+    ]
+  }
+]

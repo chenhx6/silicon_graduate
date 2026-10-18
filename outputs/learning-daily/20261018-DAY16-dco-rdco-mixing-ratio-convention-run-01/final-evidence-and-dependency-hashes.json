@@ -1,0 +1,72 @@
+{
+  "original_raws": [
+    {
+      "source": "knowledge/sources/droste-1996-pdco-formalism.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
+      "matches": true
+    },
+    {
+      "source": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "sha256": "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1",
+      "matches": true
+    },
+    {
+      "source": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "raw": "raw/papers/1989_Krämer-Flecken et al_Use of DCO ratios for spin determination in γ-γ coincidence measurements.pdf",
+      "sha256": "30cdf474db5fbfaa6a27f6d2e0d11ea39bbb61a05c8153e740f2f3dcca52220f",
+      "matches": true
+    },
+    {
+      "source": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
+      "sha256": "1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17",
+      "matches": true
+    },
+    {
+      "source": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "raw": "raw/papers/2008_Kibédi et al_Evaluation of theoretical conversion coefficients using BrIcc.pdf",
+      "sha256": "5a7b25491864acd4d2fea7a599136657da336a03f902009b423c6c450926cc34",
+      "matches": true
+    },
+    {
+      "source": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf",
+      "sha256": "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755",
+      "matches": true
+    },
+    {
+      "source": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf",
+      "sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+      "matches": true
+    },
+    {
+      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf",
+      "sha256": "bdb397650e5b8cc92f358e386f52703604dd0962184364004eb8985f76998558",
+      "matches": true,
+      "scope": "targetedalternateonly"
+    }
+  ],
+  "shared_helpers": [
+    {
+      "path": "system/scripts/day16_pdco_ambiguity_preview.py",
+      "sha256": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+      "same_as_run_entry_commit": true
+    },
+    {
+      "path": "system/scripts/day16_d96_eq4_erratum_audit.py",
+      "sha256": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d",
+      "same_as_run_entry_commit": true
+    },
+    {
+      "path": "system/scripts/day14_ensdf_crosswalk.py",
+      "sha256": "1c71793190971430f479c4b4d07588a637ee21924499180321408b5d822d2899",
+      "same_as_run_entry_commit": true
+    }
+  ],
+  "new_raw_archive_files_written": false,
+  "protected_scope": "Onlymappedoriginalschecked; no exhaustivehashscanclaim or sourcepromotion",
+  "new_primary_and_public_object_hashes": "See Purryidentity, n178publicmanifest, briccquery/capture actualsnapshots; allretained inside repo tmp."
+}

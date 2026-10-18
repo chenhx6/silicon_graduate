@@ -1,0 +1,47 @@
+[
+  {
+    "name": "kups57972",
+    "url": "https://kups.ub.uni-koeln.de/57972/",
+    "discovered_by": "DOI-exact OpenAlex location, not guessed article identity",
+    "status_code": 404,
+    "sha256": "8baec4b766b09ea6d2eecb19e83eca5963a92f02bc2e788039251290f345bd6d",
+    "page_title": "404 File not Found - Kölner UniversitätsPublikationsServer",
+    "candidate_links": [],
+    "citation_meta": []
+  },
+  {
+    "name": "darmstadt141016",
+    "url": "https://tubiblio.ulb.tu-darmstadt.de/141016/",
+    "discovered_by": "DOI-exact OpenAlex location, not guessed article identity",
+    "status_code": 200,
+    "sha256": "fc2ec6f87b3226ecf6fea448af4d43a10475d36b9392d48198b36c1a9f0a9195",
+    "page_title": "Photonuclear reactions - From basic research to applications  - TUbiblio",
+    "candidate_links": [
+      {
+        "text": "10.1016/j.ppnp.2021.103903",
+        "url": "https://doi.org/10.1016/j.ppnp.2021.103903"
+      },
+      {
+        "text": "10.1016/j.ppnp.2021.103903",
+        "url": "https://doi.org/10.1016/j.ppnp.2021.103903"
+      },
+      {
+        "text": "",
+        "url": "https://tubiblio.ulb.tu-darmstadt.de/cgi/users/home?screen=EPrint%3A%3ARequestEmail&eprintid=141016"
+      },
+      {
+        "text": "",
+        "url": "https://tubiblio.ulb.tu-darmstadt.de/cgi/users/home?screen=EPrint%3A%3AView&eprintid=141016"
+      },
+      {
+        "text": "EPrints 3",
+        "url": "http://eprints.org/software/"
+      },
+      {
+        "text": "APW Themes",
+        "url": "https://bazaar.eprints.org/552/"
+      }
+    ],
+    "citation_meta": []
+  }
+]

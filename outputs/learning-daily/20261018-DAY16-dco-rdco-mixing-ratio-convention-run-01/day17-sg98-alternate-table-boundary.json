@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-18T13:08:41.197488+08:00",
+  "alternate_raw_sha256": "bdb397650e5b8cc92f358e386f52703604dd0962184364004eb8985f76998558",
+  "alternate_PDF_pages": 44,
+  "actual_scope": "Text search and pageimage locator sheets targeted at same Table3; no new full44page mainline read claimed.",
+  "result": "No independently checkable294 counttable found by this targeted pass; do not use alternate version to confirm or repair published table.",
+  "published_table_actual_values": {
+    "eta": 0.061,
+    "C": 16622,
+    "S": 1226,
+    "A": -0.045
+  },
+  "published_formula_replay_A": -0.04810610405229734,
+  "boundary": "Published16page original row checked visually. Printing-scale mismatch remains unresolved; not a new independent measurement or proof of a source error, and no parameter/data edited."
+}

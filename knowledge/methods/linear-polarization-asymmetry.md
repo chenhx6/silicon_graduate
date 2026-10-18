@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-10-17
+updated: 2026-10-18
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -141,3 +141,10 @@ Self-audit：`supports`shared observable对joint假设的条件约束；`limits`
 - 2026-07-12：加入 Rusev 2009 的 polarized-photon asymmetry 技术与双解边界。
 - 2026-07-13：加入 Liu 2016 AFRODITE ADO+polarization linking-transition 案例。
 - 2026-08-11：记录 Bark 2024 Eq.(5) 的 algebraic source error；禁止传播为 polarimeter formula。
+
+
+## 双分段Gammasphere的A须随定义携带Q
+
+[[schmid-1998-gammasphere-polarization]] SG98-4/5/6/7定义A=(etaC−S)/(sqrteta(C+S))，C包括sideADCzero所代表的另一侧photopeak，eta来自unpolarizedS/C。它不是本页genericclover平行/垂直计数式；改分母、丢zero或改threshold后不能沿用原Q。[[compton-polarimetry]]保存actual197Pb峰面积、PAQ分层、梯度/fullCov、294打印closure失败及高背景限制。
+
+432-keV中央A符号支持源的E1link解释，但sourceP幅值和带内scatter的系统边界保留；不能把同data的TableA/P/curve当多份独立实证，或用Q=Acal/Pcal的同calibrationroundtrip当P的独立验证。原197Pb结果、userreview和未解Cov不被本preview重新认证；Day17仅无学分预习。

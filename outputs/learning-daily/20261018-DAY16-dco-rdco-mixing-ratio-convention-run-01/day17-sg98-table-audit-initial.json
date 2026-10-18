@@ -1,0 +1,400 @@
+{
+  "identity": "DAY16-UNCredited-D17-SG98-TABLE3-01",
+  "input_sha256": "6d9458c770d301e67af6b52f8eee71d87500a82270c1ed3791c97863a48bbfa3",
+  "script_sha256": "8216f86ee4709e2abe00e433c00072f4d0aa1c815afe75c52bb78b002926d55b",
+  "table3_replay": [
+    {
+      "E_keV": 353,
+      "eta": [
+        0.105,
+        0.002
+      ],
+      "C": [
+        20583,
+        412
+      ],
+      "S": [
+        2450,
+        98
+      ],
+      "A_printed": [
+        -0.039,
+        0.015
+      ],
+      "P_printed": [
+        -0.7,
+        0.27
+      ],
+      "A_recomputed": -0.03869273904294073,
+      "A_minus_printed": 0.0003072609570592688,
+      "derivatives_C_S_eta": [
+        1.5748264401655615e-05,
+        -0.00013230470456297044,
+        2.942055898660711
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.014498668700008285,
+      "eta_quoted_error_sensitivity": 0.0058841117973214225,
+      "peak_plus_eta_independent_diagnostic": 0.01564717756389238,
+      "Poisson_area_diagnostic": 0.006927543257202508,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 2.8717251986019283,
+        "S": 1.979898987322333
+      },
+      "printing_box_A_image": [
+        -0.040241561990065046,
+        -0.037151425960548684
+      ],
+      "printing_boxes_overlap": true,
+      "eta_needed_for_exact_printed_A": 0.10489561605279582,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.055714285714285716
+    },
+    {
+      "E_keV": 294,
+      "eta": [
+        0.061,
+        0.001
+      ],
+      "C": [
+        16622,
+        266
+      ],
+      "S": [
+        1226,
+        82
+      ],
+      "A_printed": [
+        -0.045,
+        0.019
+      ],
+      "P_printed": [
+        -0.82,
+        0.34
+      ],
+      "A_recomputed": -0.04810610405229734,
+      "A_minus_printed": -0.0031061040522973385,
+      "derivatives_C_S_eta": [
+        1.653338664034439e-05,
+        -0.00022415819962137397,
+        4.165071561890622
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.018899775161803693,
+      "eta_quoted_error_sensitivity": 0.004165071561890622,
+      "peak_plus_eta_independent_diagnostic": 0.019353276784110793,
+      "Poisson_area_diagnostic": 0.008133041803481568,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 2.063193674527789,
+        "S": 2.341901459707913
+      },
+      "printing_box_A_image": [
+        -0.05031842011111207,
+        -0.04591253979642661
+      ],
+      "printing_boxes_overlap": false,
+      "eta_needed_for_exact_printed_A": 0.061750541509299144,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.054878048780487805
+    },
+    {
+      "E_keV": 365,
+      "eta": [
+        0.116,
+        0.002
+      ],
+      "C": [
+        19691,
+        394
+      ],
+      "S": [
+        2320,
+        93
+      ],
+      "A_printed": [
+        -0.005,
+        0.014
+      ],
+      "P_printed": [
+        -0.1,
+        0.25
+      ],
+      "A_recomputed": -0.004781318783400359,
+      "A_minus_printed": 0.00021868121659964108,
+      "derivatives_C_S_eta": [
+        1.56907476308177e-05,
+        -0.00013317522051656524,
+        2.647239758843089
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.013842491824310684,
+      "eta_quoted_error_sensitivity": 0.005294479517686178,
+      "peak_plus_eta_independent_diagnostic": 0.01482046197894339,
+      "Poisson_area_diagnostic": 0.006781931795161324,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 2.807775212765752,
+        "S": 1.9308074065994543
+      },
+      "printing_box_A_image": [
+        -0.0061823721993266145,
+        -0.003386247039195355
+      ],
+      "printing_boxes_overlap": true,
+      "eta_needed_for_exact_printed_A": 0.11591742226522578,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.049999999999999996
+    },
+    {
+      "E_keV": 384,
+      "eta": [
+        0.13,
+        0.002
+      ],
+      "C": [
+        20601,
+        618
+      ],
+      "S": [
+        2747,
+        137
+      ],
+      "A_printed": [
+        -0.007,
+        0.02
+      ],
+      "P_printed": [
+        -0.13,
+        0.36
+      ],
+      "A_recomputed": -0.008181043882566272,
+      "A_minus_printed": -0.0011810438825662723,
+      "derivatives_C_S_eta": [
+        1.5793051714449423e-05,
+        -0.00011843926405874503,
+        2.4786513385657947
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.01893537850148404,
+      "eta_quoted_error_sensitivity": 0.00495730267713159,
+      "peak_plus_eta_independent_diagnostic": 0.01957353848508644,
+      "Poisson_area_diagnostic": 0.006608543014605101,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 4.305705522174874,
+        "S": 2.6139136546761943
+      },
+      "printing_box_A_image": [
+        -0.009489990799818373,
+        -0.006877092648629852
+      ],
+      "printing_boxes_overlap": true,
+      "eta_needed_for_exact_printed_A": 0.1304773660842032,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.05384615384615384
+    },
+    {
+      "E_keV": 369,
+      "eta": [
+        0.12,
+        0.002
+      ],
+      "C": [
+        23513,
+        470
+      ],
+      "S": [
+        2840,
+        114
+      ],
+      "A_printed": [
+        -0.003,
+        0.014
+      ],
+      "P_printed": [
+        -0.05,
+        0.25
+      ],
+      "A_recomputed": -0.002019948196383093,
+      "A_minus_printed": 0.000980051803616907,
+      "derivatives_C_S_eta": [
+        1.322164875764272e-05,
+        -0.00010946500959100466,
+        2.5840694845251786
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.013940648756652347,
+      "eta_quoted_error_sensitivity": 0.005168138969050357,
+      "peak_plus_eta_independent_diagnostic": 0.014867795672518825,
+      "Poisson_area_diagnostic": 0.006175832356955402,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 3.0650942685348714,
+        "S": 2.1391718813662846
+      },
+      "printing_box_A_image": [
+        -0.00337613160648783,
+        -0.0006693579188574789
+      ],
+      "printing_boxes_overlap": true,
+      "eta_needed_for_exact_printed_A": 0.11962133303136642,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.06
+    },
+    {
+      "E_keV": 358,
+      "eta": [
+        0.112,
+        0.002
+      ],
+      "C": [
+        28817,
+        576
+      ],
+      "S": [
+        3425,
+        103
+      ],
+      "A_printed": [
+        -0.018,
+        0.012
+      ],
+      "P_printed": [
+        -0.32,
+        0.22
+      ],
+      "A_recomputed": -0.018303212380521176,
+      "A_minus_printed": -0.0003032123805211777,
+      "derivatives_C_S_eta": [
+        1.0947435735815131e-05,
+        -9.210868776612691e-05,
+        2.7523657254510985
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.011391620090190468,
+      "eta_quoted_error_sensitivity": 0.005504731450902197,
+      "peak_plus_eta_independent_diagnostic": 0.01265191987904535,
+      "Poisson_area_diagnostic": 0.005701872300783769,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 3.3931112583469725,
+        "S": 1.7599767748965276
+      },
+      "printing_box_A_image": [
+        -0.01973414345082457,
+        -0.016878699957323096
+      ],
+      "printing_boxes_overlap": true,
+      "eta_needed_for_exact_printed_A": 0.11211021927479309,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.056249999999999994
+    },
+    {
+      "E_keV": 432,
+      "eta": [
+        0.163,
+        0.003
+      ],
+      "C": [
+        30934,
+        402
+      ],
+      "S": [
+        4449,
+        125
+      ],
+      "A_printed": [
+        0.041,
+        0.011
+      ],
+      "P_printed": [
+        0.75,
+        0.2
+      ],
+      "A_recomputed": 0.0415282313922552,
+      "A_minus_printed": 0.0005282313922551976,
+      "derivatives_C_S_eta": [
+        1.0236677313158066e-05,
+        -7.117585435046788e-05,
+        2.0380601254744612
+      ],
+      "quoted_peak_error_independent_C_S_diagnostic": 0.009802586265045937,
+      "eta_quoted_error_sensitivity": 0.006114180376423384,
+      "peak_plus_eta_independent_diagnostic": 0.01155309045922813,
+      "Poisson_area_diagnostic": 0.005077421028501898,
+      "quoted_fit_error_over_sqrtarea": {
+        "C": 2.2856409717712447,
+        "S": 1.8740398005902779
+      },
+      "printing_box_A_image": [
+        0.04046693247480427,
+        0.04258641225730859
+      ],
+      "printing_boxes_overlap": true,
+      "eta_needed_for_exact_printed_A": 0.1627410161302442,
+      "eta_needed_is_not_independent_calibration": true,
+      "source_A_over_P_implied_Q_not_new_calibration": 0.05466666666666667
+    }
+  ],
+  "table1_identity_checks": [
+    {
+      "isotope": "24Mg",
+      "E_keV": 1368,
+      "P": [
+        0.931,
+        0.007
+      ],
+      "A": [
+        0.04,
+        0.002
+      ],
+      "Q": [
+        0.043,
+        0.002
+      ],
+      "central_A_over_P": 0.04296455424274973,
+      "local_Q_error_if_A_P_independent": 0.002172380786761372,
+      "not_independent_measurements": true
+    },
+    {
+      "isotope": "56Fe",
+      "E_keV": 847,
+      "P": [
+        0.52,
+        0.006
+      ],
+      "A": [
+        0.025,
+        0.003
+      ],
+      "Q": [
+        0.047,
+        0.005
+      ],
+      "central_A_over_P": 0.04807692307692308,
+      "local_Q_error_if_A_P_independent": 0.0057958392987909665,
+      "not_independent_measurements": true
+    },
+    {
+      "isotope": "109Ag",
+      "E_keV": 415,
+      "P": [
+        0.317,
+        0.005
+      ],
+      "A": [
+        0.017,
+        0.002
+      ],
+      "Q": [
+        0.052,
+        0.007
+      ],
+      "central_A_over_P": 0.05362776025236594,
+      "local_Q_error_if_A_P_independent": 0.006365597950951315,
+      "not_independent_measurements": true
+    }
+  ],
+  "printing_closure_failures_keV": [
+    294
+  ],
+  "derivative_max_absolute_error": 1.7435741739291188e-10,
+  "binomial_identity_max_error": 6.661338147750939e-16,
+  "full_covariance_relation": "P=A(C,S,eta)/Q; VarP=gP^T Sigma(C,S,eta,Q) gP. In particular keep C-S covariance and A-Q covariance from common calibration.",
+  "error_origin_boundary": "Source Table3 errors derive from peak-fit parameters; adding eta and Q as independent terms is only a diagnostic, not reconstruction of the reported full error budget.",
+  "all_internal_checks_passed": true,
+  "all_printed_rows_reproduced": false,
+  "day_index": 16,
+  "uncredited_preview_day": 17,
+  "formal_Day17_credit": false
+}

@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-18T13:31:29.084409+08:00",
+  "question": "2022reviewfootnote2/2023corrigendumbody and modifiedKSWroledefinition",
+  "new_routes": [
+    "OpenAIRE DOIexactdiscovery",
+    "OpenAlex DOIexactlocations",
+    "ordinarypublisherHTML (notoldPDF/XML paths)"
+  ],
+  "actual_results": "Noscientificbodyobtained: repositoriesmetadata/404, publisherHTML403, no arXivexacttitlematch. DOIyear2021 versusjournal2022 separated.",
+  "duplicates_acknowledged": "KUPS57972/Darmstadt141016 GETs repeatedbeforefullroute dedup; same404/metadatahash asDay15, zero gain; nowstop.",
+  "existing_knowledge_checked": [
+    "knowledge/methods/polarized-photon-branch-audit.md",
+    "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md"
+  ],
+  "source_claim_boundary_unchanged": "2023corrigendumcontentunknown, reviewfootnoteunread; modifiedKSWREADME isnotprimarybody orRU09producerproof.",
+  "decision": "verified-no-op in science; accessreceipts only. No newclaimthatcorrigenduminvolvesphase orresolvesRU09error.",
+  "no_body_no_new_scientific_page": true
+}

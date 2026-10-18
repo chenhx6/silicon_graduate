@@ -1,0 +1,7 @@
+# KS70 885门：追加问题前回忆/假设
+
+本session已全文读KS70，Day15也已有预习；新问题受到这些知识以及Day17SG98 estimator/Cov预习启发，不称来源盲测。此处尚未进行新的885两角代数/原表重放，目标不是重算25个globalδ或凑新toy。
+
+记得KS70称885门只测90/180，故只能得correlationanisotropy；TableI该门给A22而无A44。对rank≤4的W，只有一个W180/W90比一般不能同时分A2/A4。若knownpure reference/spin/δnetwork固定了A4，可有条件推A2；但这个先验/derivedcov不能被静默当另一份独立A22测量。
+
+接下来重查原Eq18/19、TableI/II、结果段及twoangle原话，区分真正可见输入、源可能采用但未给的recipe和本任务conditional推导。用真实pureE2对照控制推公式，不从TableA22反造measuredR、counts或Σ；原误差尺度不作为完整likelihood。若缺recipe，明确readiness并保留作者结论，不声称paper错误或重新测δ。

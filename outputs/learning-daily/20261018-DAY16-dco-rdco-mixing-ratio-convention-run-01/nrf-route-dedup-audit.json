@@ -1,0 +1,83 @@
+{
+  "old_review_access_routes": [
+    {
+      "file": "day16-review22-corrigendum-access.json",
+      "url": "https://api.crossref.org/works/10.1016/j.ppnp.2023.104059",
+      "status": 200
+    },
+    {
+      "file": "day16-review22-corrigendum-access.json",
+      "url": "https://inspirehep.net/api/literature/1980458",
+      "status": 200
+    },
+    {
+      "file": "day16-review22-corrigendum-access.json",
+      "url": "https://api.elsevier.com/content/article/pii/S0146641021000624",
+      "status": 200
+    },
+    {
+      "file": "day16-review22-counterview-access.json",
+      "url": "https://kups.ub.uni-koeln.de/57972/",
+      "status": 404
+    },
+    {
+      "file": "day16-review22-footnote-discovery.json",
+      "url": "https://inspirehep.net/api/literature",
+      "status": 200
+    },
+    {
+      "file": "day16-review22-footnote-discovery.json",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0146641021000624/pdfft",
+      "status": 403
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "https://tubiblio.ulb.tu-darmstadt.de/141016/",
+      "status": 200
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+      "status": null
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "https://doi.org/10.1016/j.ppnp.2021.103903",
+      "status": null
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "https://kups.ub.uni-koeln.de/cgi/search/simple",
+      "status": 200
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "http://kups.ub.uni-koeln.de/80133/1/PhD_Thesis_Svenja_Wilden_reworked.pdf",
+      "status": null
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "http://kups.ub.uni-koeln.de/80995/1/s10050-025-01634-1.pdf",
+      "status": null
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "http://kups.ub.uni-koeln.de/1989/1/Dissertation_Spahn.pdf",
+      "status": null
+    },
+    {
+      "file": "day16-review22-institutional-followup.json",
+      "url": "https://api.elsevier.com/content/article/PII:S0146641023000406",
+      "status": 200
+    }
+  ],
+  "new_discovery_result": "NewOpenAIRE/DOIexactOpenAlex nofulltext; bothKUPS57972andDarmstadt141016wereredundantlyread before full dedup. Theyrepeat prior404andidenticalmetadatapage, no scientificinformationgain.",
+  "duplicate_access_acknowledged": true,
+  "old_terminal_publisher_pdf_xml_not_retried": true,
+  "untried_route_candidate": "OrdinarypublicpublisherHTML onlyifnotalreadyread; noaccesscontrolbypass ornewcredentials.",
+  "duplicate_GETs": [
+    "https://kups.ub.uni-koeln.de/57972/",
+    "https://tubiblio.ulb.tu-darmstadt.de/141016/"
+  ],
+  "correction": "Bothpathsclassifiedalreadychecked, nofurtherretry. Do notclaimKUPSrecordwasnew."
+}

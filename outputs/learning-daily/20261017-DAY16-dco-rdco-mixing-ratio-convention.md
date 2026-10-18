@@ -16,12 +16,12 @@ updated: 2026-10-18
 - session_id: `01a14ce6-425e-77c1-a127-2ac980bd76b5`
 - resume_command: `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`
 - original overnight_until: `2026-10-19T15:00:00+08:00`；15:00–16:00仅收束。
-- status: `running`，本页为可续接checkpoint，未结束研究或授学分。
-- completed_day_indices: []
-- partial_day_indices: [16]
-- Day 16 card audit: partial
+- status: `closing-out`；科学研究按下述来源/数据边界提前收束，原deadline未到、未改；仅继续验收/回执/课程对账与发布。
+- completed_day_indices: [16]
+- partial_day_indices: [17]
+- Day 16 card audit: complete
 
-原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程仍next16/count15。Day15 partial16、旧分数、旧程序检查不计本session学分；没有开展Day17科学预习或Day18。首个科学checkpoint已发布到Gitee，原run/goal继续active，学分仍未授予。
+原始回执为[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)，本次按用户指定固定日报路径保留文件名中的20261017；实际run_date与截止按runner注入的20261018回执，不从旧预备段落延长或缩短。课程进入最终对账前仍next16/count15；仅Day16具备本session正式credit，state在最终发布门后更新next17/count16。Day15 partial16、旧分数、旧程序检查不计本session学分；13:00上海按原时间门开始恰好Day17知识预习，只列partial17，不正式计17，未打开Day18。首个科学checkpoint已发布到Gitee，原run/goal继续active，学分仍未授予。
 
 启动已核README/index/profile/PLAN/active handoff、学习workflow、三份计划与矩阵Day16。入口工作树存在旧Day8/9/13/14/15回执、log和daemon脚本修改；[entry-baseline.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/entry-baseline.json)保存完整状态、620份knowledge快照与保护文件hash。首写前boundary exit0；EOL清理在首批回执/回忆写入之后、科学写入之前执行，恢复0份、index为空，明确这一执行顺序，不伪称所有H1步骤均在第一次输出写入前完成。
 
@@ -33,14 +33,17 @@ updated: 2026-10-18
 
 ### Day 16 card completion audit
 
-| 课程交付 | 当前状态 | 本session artifact与exact locator | 仍待的运行门 |
-| --- | --- | --- | --- |
-| 带priming声明的来源前回忆 | complete | 上述冻结文件/时间hash；8项回答 | 不称独立盲测 |
-| 原件完整主线与相位约定 | complete | D96 printed518–525，Eq1–21/Fig1–7；KS70 printed724–734，Eq3–19/TableI–III；本轮原图核Eq4b负号 | 未取得作者producer |
-| 明确实测身份的delta-double-solution-sheet | complete | [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)，KF89-15、printed338 Fig7c/d；冻结input与新audit.json | 条件模型不冒充原实验重拟合 |
-| 两phase来源、pure limits与错误转换 | complete | 178W知识单“相位表与失败控制”；DR96-5、KS70-5/6/7/13；新脚本F及完整tensor检查 | KF89自身operator坐标未认证 |
-| companion与source independence | complete | KF89-16/17/18，printed338末–339首、Refs2/3；同target P幅值/Q/门合同 | Dors primary/实际Σ待追源 |
-| knowledge/report/checks/续接/发布 | partial | 唯一writeback块、当前continuation；首轮lint缺6栏目已修正 | fresh检查与显式Gitee发布完成后才能计卡 |
+| 课程交付 | 本session实际证据、artifact与locator；适用边界保留 | 状态 |
+| --- | --- | --- |
+| 来源前主动回忆/priming冻结 | [冻结回答与时间hash](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/active-recall-freeze.json)，新session16；不是盲测、不用Day15旧分数 | complete |
+| 主来源完整主线/关键原件 | [source-reading-audit](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/source-reading-audit-001.json)：D96 518–525 Eq1–21/Figs，KS70 724–734 Eq3–19/三表；KF89/BT87及独立KO01原件实际覆盖 | complete |
+| 明确数据身份的delta-double-solution-sheet | [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)；KF89-15/16/17/18、printed338 Fig7c/d，冻结input与新allroots audit；actualdata/authorbranch/conditionalmodel分层 | complete |
+| 两相位约定与pure/错误控制 | DR96-5、KS70-5/6/7/13；原图Eq4b负号/先后B-A角色/BR与RB身份；新F/fulltensor、同步S变换/pure端点盲区核验见kf89-w178-921-audit.json | complete |
+| 反证、matchedcompanion与sourceindependence | P97-2/3/5/8，实际primary电子装置/50–400ns与K表、290KICC/timing后续修订；N178-12与KB08-D16-4，缺actualΣ/response时不新测δ；KO01-11未解支保留 | complete |
+| 理论/定量练习与来源后复述 | 角色倒数/CovJacobian、两相位变换、actualfull-rank/approximationinvariants、KO01独立双ratio；[口试复述](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day16-post-source-oral-recall.md)不造盲测成绩 | complete |
+| canonical写回/报告/检查/续接/显式发布 | 本session科学001–004均实际H3/Gitee发布，唯一writeback按entrysnapshot验证；[verification008](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-008.json)lint/boundary/diff0；当前续接与准备的下一正式Day17prompt存在；预习/收束余项继续按同门发布 | complete |
+
+正式学分只属于16；表中完成依据是本session已完成并发布的Day16交付，非Day15partial16。Day17仅知识预习，既不列completed，也不跨过它推进课程。课程state以最终回执/发布后对账为准。
 
 ## Candidate pool and selection
 
@@ -51,9 +54,9 @@ updated: 2026-10-18
 | KF89原表point结果与producer差异 | 新计算暴露部分纯跃迁表值未复现；查exact/high-spin approximation有潜在信息增益 | 下一条当前问题路线，暂不归因 |
 | Dors1979的169/137参考输入 | 原文Dors[3]/Refs2/3冲突；可独立追准确身份、定义和误差 | 当前追源，未因缺全文停止其它路线 |
 | 135Pr/129Ba真实response/Σ | 核心影响高，但Day15已记录缺口；重复toy或原样重试终态失败不增加信息 | 保留候选，需新可用primary/数据才提升 |
-| Day17 P/A/Q与真实polarimeter response | 下一张卡已在矩阵中看见；目前未开展科学预习 | 当前问题饱和后才按时间门考虑恰好一张无学分预习 |
+| Day17 P/A/Q与真实polarimeter response | 13:00上海按timegate开启唯一下一卡知识preview，SG98actual表/响应已核 | 仅partial17；其原producer/fit-calibrationCov仍缺，正式17需新session独立逐卡 |
 
-本轮没有再开第二个独立核素研究槽位。当前问题尚有Dors原件及BT87 approximation路线，不满足提前关闭条件。最新checkpoint时钟为2026-10-18T12:00:09+08:00，距原硬截止约1619.85分钟；原截止不改，当前K-shell/primary路线仍有信息增益，继续研究。
+本轮初始continuity为W178/相位，novelty后来选独立130Ba三角度实验；仍只是一项continuity与一项novelty问题。后续恰好Day17知识preview单列，不授正式学分。最新checkpoint时钟为2026-10-18T12:00:09+08:00，距原硬截止约1619.85分钟；原截止不改，当前K-shell/primary路线仍有信息增益，继续研究。
 
 ## Sources and evidence
 
@@ -67,6 +70,7 @@ updated: 2026-10-18
 | [KB08](../../knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md) | 13页正文主线+AppendixA/selected W row与实际两次新FO查询 | 理论数据与reported Kexp分层；旧人审prefix完整保留，新claims true |
 | [Purry1997](../../knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md) | Surrey112页实际PDF；定向实验/分析主线、原表、目标与反证/summary | primary；与1998paper/评价重复数值按依赖，wholethesis仅skimmed |
 | [KO01](../../knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md) | 3页全文主线/原图/TableI40行标签与Fig2例 | 独立offbeam130Ba实验；两个ratios并非两次独立实验，calculatedcoefs不当实测 |
+| [SG98](../../knowledge/sources/schmid-1998-gammasphere-polarization.md) | 16页完整主线/原式/三表；44页版仅定向table定位 | 恰好Day17无学分知识preview；版本/同data处理不是独立experiment，fullCov缺口保留 |
 | Dors1979 | Crossref核六作者、NPA314(1)61–79、DOI10.1016/0375-9474(79)90555-4；全文未取得 | 元数据可定位177Hf(α,3nγ)，不据题名补写δ定义或当新增实证 |
 
 四份实际raw的SHA-256分别与source页匹配；KF89存大写hex，首个提取器因case-sensitive比较退出1，归一hex大小写后确认同一hash，raw未改。渲染与OCR均在`tmp/day16-source-reading/`；无raw/PLAN/Bib写入。Crossref题名/作者/年份/卷页是外部元数据核对，不替代原件数值和locator。
@@ -133,6 +137,20 @@ W178当前primary/producer路线到达输入边界后，[candidate-refresh-004](
 
 两R可线性恢复normalized A2/A4，rank4约束magnitude、rank2interference选sign；但两者共享W90，原Σ未知。图中横线没有数值表/likelihood，computedwitness/舍入preimage不是experimentalmeasuredcounts或新δCI。这个真实成功例不抹去4+_3→3+_1失败例，也不令relativeM1自动成为absoluteB或mixedsymmetry证明。canonical angular-correlation保存公式、输入、全根、Cov条件和核结构companion缺口。
 
+### 恰好Day17知识预习：P/A/Q与真实Compton响应（无学分）
+
+[time gate](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json)在上海13:00按原day19/15:00截止刷新，仍约1559分钟；重建current候选/复核matrix17后，只开启恰好下一卡知识preview。保持day_index16，partial[16,17]，不正式计17、不打开18。来源前[回忆/hash](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-recall-freeze.json)说明Day15/ST99/本run priming，不称独立盲测。
+
+完整读Schmid1998 published16页主线与Figs1–15/Table1–3、rawhash匹配；新SG98-4–12与[compton方法页](../../knowledge/methods/compton-polarimetry.md)保存PAQ分层。twofold定义A=(etaC−S)/(sqrteta(C+S))，C包括sideADCzero所代表的另一侧photopeak；eta=Su/Cu、Q=Acal/Pcal不等于genericclover的同名校正。Fig9eta示例threshold130、Fig10Q/197Pb样本threshold60，迁移需matchedselection。F中的epsilon此处为photopeak，传统polarimeter为coincidence，高背景不能只比裸F。
+
+[实际Table3冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-sg98-table-input.json)与[新代码](../../system/scripts/day16_sg98_polarimetry_preview.py)/[核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-sg98-table-audit.json)使用197Pb七行C/S/fiterrors/eta；432行C30934(402)、S4449(125)、eta.163(.003)得A=.0415282，不能代成(C−S)/(C+S)=.7485或balanceddenominator=.06250再沿原Q。source A/P/curve共享依赖，不重复计实证。
+
+actualfiterrors条件传播的432 σA诊断.00980、etaerror敏感性.00611；sqrt(area)Poisson仅.00508。sourceerrors来自多peak/backgroundfit，fullC/S/eta/Q Cov未得；不能把这些diagnostics称完整实验budget。knowneta/无背景固定n时VarA=[1+(eta−1)A/sqrteta−A²]/n是声明二项层的恒等式，nearA0才回F近似，不填造counts。
+
+printingclosure保存失败：294行按原eta.061/C16622/S1226得−.048106，未在C/S整数、eta/A最后位box内复现−.045。所需eta.0617505属于target反推，未当独立标定/未改输入；它仍在原quoted .061±.001内，A差远小于.019，不是实验证据矛盾。[44页alternate边界](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-sg98-alternate-table-boundary.json)仅targeted搜索/图像定位、未找到可独立核的该表；不假称本次完整重读44页或用其修表。
+
+source原197Pb正link/负inband pattern对E1/负宇称的支持保留为作者解释；过高幅值、带内散布及AD形状反查支持其高背景拟峰系统边界。约36%是specificpurehighspindipole/maximumalignment比较，不是通用physicalP上限。缺的是matchedeta/Q、actualpeak/cut/efficiency/Σ，不能以更多同data处理或任意Q插值取代。该preview不计正式Day17、不给其day-index前进。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -141,7 +159,7 @@ W178当前primary/producer路线到达输入边界后，[candidate-refresh-004](
 
 ## Knowledge Impact and Learning Decision
 
-`supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。当前问题仍有高价值追源路线，继续研究。
+`supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮已按当前池/唯一Day17预习重查公开来源和必要输入；在原始response/producer/Σ及特定未得正文边界收束，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
 
@@ -557,6 +575,107 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "KO01-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "summary": "Day16内恰好Day17无学分预习重读16页主线，核twofoldA/zerochannel/threshold、实际Table3峰面积与294打印closure失败及fullCov/高背景界，旧flags保留。",
+      "anchor": "2026-10-18 Day16内恰好Day17知识预习：实际覆盖",
+      "sources": [
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-4"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-5"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-6"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-7"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-8"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-9"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-10"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-11"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。",
+      "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
+      "sources": [
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-4"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-5"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-6"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-7"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-9"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-10"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-11"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。",
+      "anchor": "双分段Gammasphere的A须随定义携带Q",
+      "sources": [
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-4"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-6"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-9"
+        }
+      ]
     }
   ]
 }
@@ -568,22 +687,24 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 
 ## L0–L4 state
 
-L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3当前调查169参考的定义及producer差异。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
+L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3的本轮调查阶段按source/response边界收束，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
 
-- boundary exit0；automation preflight exit0，保护Bib匹配；EOL cleanup exit0、restored0、staged-empty。
-- 新计算脚本exit0，模型内部/F/tensor/phase/全部根检查通过；原表复现未通过的诊断明确保留。
-- 首轮wiki_lint exit1：6个SECTION_REQUIRED，全在新research-note；已补六栏目。fresh lint exit0（0 errors、146 warnings：115 citation-key missing、28 raw missing、3 reaction parser）；不抹去首轮失败。
-- [verification-checkpoint-001.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-001.json)：git diff --check exit0、boundary exit0、writeback valid（5 changed knowledge pages）、PLAN/Bib保护与14条旧KF89 rows保留通过。
-- 已发布checkpoint001的稳定提交指针为main / `Audit DAY16 W178 DCO gate roles and conditional double solutions`；实际commit hash、staged清单与H3/push outcome只记run receipt，尚不据此授Day16学分。
-- 最新[verification-checkpoint-004.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-004.json)：8 changed知识页/writeback有效；boundary/diff/lint exit0，0errors/148warnings（116 citation-key missing、29 raw missing、3 reaction parser）。新source曾缺Extracted Pages导致exit1，已补且留失败回执；四public text hash与v1 code/output精确重放通过。
-- 本扩展checkpoint稳定指针main / `Audit DAY16 evaluated W178 references and correlation approximation limits`；实际hash/H3/push只在本run publication receipt。原run仍active，不授正式学分。
-- QMD status exit0：562 indexed/2459 vectors、349 orphan chunks、38 pending，更新停于11天前；本轮直接查canonical与原件，外部cache刷新deferred，不称索引已包含新页。
-- 最新[verification-checkpoint-006.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-006.json)：12 changed知识页/writeback有效，boundary/diff/lint exit0；0 errors/150 warnings（117 citation-key missing、30 raw missing、3 reaction parser）；primary PDF hash、保护文件及KB08既有人审prefix保持通过。新增Purry archive/Bib缺口显式保留。
-- 新科学checkpoint稳定指针main / `Trace DAY16 W178 conversion measurements and revised DCO assignments`；actualhash/H3/push outcome只记receipt。研究与goal继续active，无formal16或Day17credit。
-- 最新[verification-checkpoint-007.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-007.json)：13 changed知识页/writeback有效，boundary/diff/lint exit0、0 errors/150 warnings，KB08 prefix与保护文件通过。独立130Ba原件/case复算不用于重记Day15成果。
-- 当前扩展稳定指针main / `Compare DAY16 DCO ambiguities with the independent Ba130 experiment`，exacthash/H3/push仅receipt；仍active/partial16，没有Day17科学preview或credit。
-- 当前续接：[continuation-current.md](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)。原run/goal仍active，不能以本页完成提前结束学习窗口。
+### 提前收束时间门与候选池
 
-下一步围绕新取得thesis的Ki90磁透镜方法与实际校准/峰分解边界继续当前问题；thesis定向主线已核，1998paper仍未取得，不重复终态失败。本次K-shell理论batch已完成，不再任意query强配。169/137 primary/producer仍缺。四个NNDC对象已取得并canonical；BT87固定检查已完成，不再扩大同网格。Dors的OA-only/public discovery无PDF、S2无OA URL、Scholar一次timeout，均留证；不把TDM许可标签当OA或全文证据。只有当前问题饱和才按原时间门检查恰好Day17知识预习；不授Day17学分、不打开Day18。
+[最终候选/clock审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-007-closeout.json)记录科学研究停于 **2026-10-18T13:36:07+08:00**，距原研究硬截止仍 **1523.88 min**。截止不是停止原因，也未被改写。已再次查原receipt与matrixDay17，重建W178/相位continuity、独立130Ba novelty及恰好Day17preview候选池；新NRF公开路线仍无body，源/数据缺口构成本轮继续高价值判断的边界。
+
+剩余输入具体为actualDCOMAP及Dorsreference定义、Purry逐line校准曲线/peak-gate ledger/联合Σ、SG98 unroundedproducer/perdetectorfit-calibrationCov，以及NRF2022footnote2/2023corrigendumbody。更多同toy重跑、adopted标签、自由调σ/η/Q或终态访问重试不能替代这些输入。这是已重建当前池内的停止判断，不宣称世界上全部合法来源穷尽；下一真实input可重新触发具体claim研究。
+
+KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加公开检索没有产生新科学claim。[NRF去重审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/nrf-route-dedup-audit.json)承认去重前重复GET两旧机构页，零增益、后续停止；未重复旧terminalPDF/XML，也未由metadata猜勘误内容。新增science均已canonical；这些访问回执只是过程证据。
+
+### 实际检查与交付
+
+- [verification008](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-008.json)：16 changed知识页/16writeback items有效；boundary/diff/lint exit0，0errors/150warnings（117 citation-key missing、30 raw missing、3 reaction parser）。新source的archive/Bib槽缺口保留；不冒称raw已归档或paperready。原件/temporaryprimary hash、PLAN/Bib与KB08人审prefix核通过。
+- 首轮6个research-note栏目、后来N178缺ExtractedPages的lint exit1都已修复并留原回执；SG98 294printingclosure仍是**隔离的科学边界**，不伪报7行全复现。代码initial snapshot的精确hash/replay见[initial-code-replay-proof](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/initial-code-replay-proof.json)，不改变物理输入。
+- 科学publication001–004实际fetch/ancestry/dry-run/non-forcepush均成功、各自originHEAD匹配；新preview/收束修改使用精确manifest继续同一门。actualhash/最终remoteoutcome只记run receipt，不写在所属commit正文；当前分支/主题稳定指针见handoff与最终回执。
+- QMD status exit0：562indexed/2459vectors、349orphanchunks、38pending，外部cache更新deferred；直接原件/知识检查不冒称新页已被旧索引收录。Farmer watcher PID42019实际运行，无Git角色；没有新daemon/session/hosttask或GUI Scheduled。
+- [下一正式Day17prompt](prompts/20261019-DAY17-linear-polarization-paq-compton.md)只准备2026-10-19的独立run，未启动、未授学分。[本日续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)与[run.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json)保存session/resume。原runner成功退出未观察，使用manual reconciliation，不伪造normalrunner/clock/scheduler事件。
+
+[final-verification.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-verification.json)已实际验证报告/card/writeback有效（只completed16/partial17）、preflight/boundary/lint/diff均exit0、0errors/150warnings；8份mappedoriginalraw与3份共享helper的freshhash另核通过。发布与课程最终结果只在run.json按实际命令更新；课程只计Day16一次、保留partial17，不开Day18。科学收束后仅继续必要验收/回执/课程对账和发布。

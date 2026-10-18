@@ -1,0 +1,25 @@
+# Day16来源后口试式复述（primed，不作盲测成绩）
+
+## 作者声称了什么，直接测了什么
+
+KF89直接报告178W几组带门/角组的DCO和强度，921在其模型中仍有两支；13/14/isomer及branch偏好要看其它观测，不能将abstract采用值改成DCO独证。后来的Purry原件以290KICC、时间与低能符合修订另一处3525/3654spin/35ns归属；不是直接给了新921δ。
+
+KO01独立offbeam130Ba测两openingangle比，并在fixedspin/pureE2gate下给18个finiteδ；40表行中仍有未解/估计项。作者Fig2的A2/A4叫calculated，不能重复当独立原始观测。M1强度份额校正E2branch很有用，但absoluteM1缺失时MSS解释仍有边界。
+
+SG98在本run仅作无学分Day17知识preview：实际C/S峰面积经twofoldeta公式得A，已知pureE2/AD得P以校Q；低Q+高背景使精确幅值受拟峰系统限制。zerochannel与threshold是响应定义，不是可任意删的垃圾events。source正link/负inband支持其E1/负宇称解释，但不能把七行P当独立高精度几何证明。
+
+## 哪些量不可互换
+
+Gate/observed标签不等于物理γ先后；同cells换角色需倒数和JacobianCov。KS/D96/RB的同名δ须逐operator/state/归一映射，纯端点检验不了interference错号。CC、MR、Kexp、radiativefraction、整态branch、fullA2与truncateda2、physicalP与measuredA、polarimeterQ与angularQk均需保留对象。
+
+## 还缺什么，下一条输入为何有价值
+
+实际DCOMAP、Dors169reference定义、detectorpairresponse、Purry校准曲线/逐line/门/峰ledger和联合Σ决定是否能重拟合178W；reviewfootnote/corrigendum未读不能猜内容。SG98实际perdetectoraggregation/producer与fit/calibrationCov决定294打印失败及幅值误差如何解释，不能target反推eta再称独立校准。只有这些真实输入能改变本次残余branch/uncertainty判断，同一toy重复或多份评价标签不能增加实证。
+
+## 什么会推翻本轮判断
+
+Matched真实response和jointlikelihood若在同一约定下排除某branch，可改候选排序；新的primary若给不同spin/reference/purity或修正相位定义，需重算原conditionalmodel。若fullK-shelldata与same-gateP既不匹配任何现有fixedpoint，应重新核model/input，而非强制二选一或调σ/efficiency。若SG98原producer证明另一aggregation/ηrecipe，294printing边界可被解释，但本run未擅自补它。
+
+## 本轮可迁移的研究判断
+
+先认证input identity与response对象，再问observable能否区分候选；有额外functionalinformation不等于独立实验，足够方程数不等于校准/Cov已恢复。真实反证、未解支和失败控制都是学习产物，不因已publish就变成人审或论文ready。当前正式学分只可属于Day16，Day17preview不算，Day18未开。

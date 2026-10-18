@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-18T13:00:35.002610+08:00",
+  "original_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 1559.4166231666668,
+  "candidate_pool_rebuilt": true,
+  "current_day16_status": "Substantive card evidence complete and publications001–003 succeeded;004 postcommit H3 pending. Run credit remains withheld until final reconciliation.",
+  "current_routes": [
+    {
+      "problem": "W178actualoriginalproducer/response",
+      "decision": "availableprimary/4evaluationobjects/theorybatch exhausted current bounded questions; missingevent/calibrationcurves/Σ requiresnewinput",
+      "negative_or_falsification": "BT87near-approximationsnotwholeproducer;Kfixedpointsnotwholebranch;realP97spin/timecounterevidence retained"
+    },
+    {
+      "problem": "130Baindependentthreeanglecase",
+      "decision": "3pages/40rowscope/phase/allroots/rounding/Covready; missingoriginalcounts/response/Σ boundary",
+      "next": "Do not redigitize figure or repeat exact model to fill time"
+    }
+  ],
+  "next_uncompleted_card_inspected": "Day17 P/A/Q and Comptonresponse, matrix154–161 reread",
+  "permitted_action": "Start exactlyone next-card knowledgepreview, withprimingfreeze; noformal17 credit orDay18",
+  "partial_day_indices": [
+    16,
+    17
+  ],
+  "completed_day_indices": [],
+  "course_next_day_index_unchanged": 16,
+  "decision": "continue-with-uncredited-Day17-knowledge-preview"
+}

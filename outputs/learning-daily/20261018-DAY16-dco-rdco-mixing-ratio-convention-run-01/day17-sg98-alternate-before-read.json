@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-10-18T13:05:57.592596+08:00",
+  "problem": "SG98 printedTable3 294-keV asymmetry closure versus alternatepreprint",
+  "priming": "Published16pageoriginal andTable3typedinput/audit already read; sourcepage saysalternate44pages exists",
+  "not_independent_evidence": true,
+  "hypothesis": "Alternatepreprint may resolve a table transcription/version difference. Do not change actual publishednumbers orforceeta, and nochange ifbothversionssame.",
+  "scope": "Locate actualTable3/definition/author/version only, no full44page reading claim."
+}
