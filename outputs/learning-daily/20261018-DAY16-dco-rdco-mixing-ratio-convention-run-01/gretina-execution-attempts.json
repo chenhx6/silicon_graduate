@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T13:19:50.244967+00:00",
+  "attempt1": {
+    "exit_code": 1,
+    "location": "symbolic plane-identity guard",
+    "cause": "SymPy Matrix == is structural; algebraically equivalent cross-products were not simplified",
+    "fix": "simplify each component of the difference and compare to zero vector",
+    "scientific_inputs_or_old_helpers_changed": false
+  },
+  "next_attempt": "same frozen inputs, corrected algebraic guard; no parameter/data changes",
+  "attempt2": {
+    "exit_code": 0,
+    "all_internal_checks_passed": true,
+    "source_input_or_helper_changes": false,
+    "result": "gretina-convention-audit.json"
+  },
+  "attempt3": {
+    "exit_code": 0,
+    "reason": "added explicit photon-parity labels,physical-modelPbound and Pi-pure/mixed working-contract controls",
+    "data_or_old_helper_changes": false,
+    "result_script_hash_matches_current": true
+  }
+}

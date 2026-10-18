@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-18T21:51:31.026238+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_remaining": 1028.4828960333334,
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_card_checked": "Day17 matrix154–160; permitted samecard knowledgepreview only",
+  "current_bounded_results": "L26/M22 fullprimaryandL25targetedcompanion;actualtables/phase/Pi/Q/cut/physicaldomainchecks canonical35items,requiredverification inprogress",
+  "continuity_problem": "mixingbranch/convention/companion responseidentity; actualW178producer/Gu96body gaps remain",
+  "novelty_problem": "actualGRETINAcalibration/25Na1041 and source/model transfer; sourcebatch closed as readingcheckpoint, not fullwindow saturation",
+  "next_current_issue": "publishedL26Fig4Ctheta average: reproduce sourcecoverage-weightedPbar and compare declaredevent-weighted kernel withoutinventingactual2Dresponse ornewQ",
+  "candidate_inputs": [
+    {
+      "path": "L26PDF5Fig4top",
+      "value": "actualpublishedsourcecoveragecurve;rawprimaryprovided;digitizationpossible",
+      "selected": true
+    },
+    {
+      "path": "official25Na/25MgNSR/ENSDF targetidentityandMR",
+      "value": "could resolveEi/Ef/knownδreference lineage;deferwhilecurrentfoldingissueactive",
+      "selected": false
+    },
+    {
+      "path": "Alikhani2012body",
+      "value": "stillmissingonattemptedlegalroutes;terminalURLsnotretried",
+      "selected": false
+    }
+  ],
+  "decision": "continue-current-bounded-analysis",
+  "why_not_closeout": "morethan120minutesremainandavailableactualpublishedfigure+unresolvedresponseaverage provide highinformation",
+  "formal17credit": false,
+  "Day18opened": false
+}

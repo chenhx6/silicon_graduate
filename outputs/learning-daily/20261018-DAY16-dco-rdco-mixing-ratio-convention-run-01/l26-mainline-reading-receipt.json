@@ -1,0 +1,49 @@
+{
+  "at": "2026-10-18T20:33:30.944197+08:00",
+  "raw_sha256": "fb3b4f5e4dce6a436bb569b64af1914c6b673561374d7867a3d906aef7090df1",
+  "pdf_total_pages": 10,
+  "mainline_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "references_pages": [
+    9,
+    10
+  ],
+  "figures_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "tables_visually_checked": [
+    1,
+    2,
+    3
+  ],
+  "source_prefix_unchanged": true,
+  "working_questions_path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-mainline-questions.md",
+  "working_questions_sha256": "ecd393ba734d5bcf4e717b3d0b7fa512c0cf595b2022936fdd9d0977efb51254",
+  "new_claims_not_yet_written": true,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal17": false,
+  "working_questions_sha256_before_beta_visual_update": "d0096f3e6a1d707b7b971490fb93332785bd7b41e2844b357abcaf3ecb869cf0",
+  "Fig1_beta_labels": {
+    "25Mg": 0.048,
+    "25Na": 0.046,
+    "22Ne": 0.044
+  },
+  "beta_locator": "p3 Fig1 labels; omitted by text extraction, verified visually"
+}

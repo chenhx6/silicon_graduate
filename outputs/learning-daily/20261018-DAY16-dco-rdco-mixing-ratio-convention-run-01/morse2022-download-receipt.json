@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-18T12:40:52.219209+00:00",
+  "url": "https://cdr.lib.unc.edu/downloads/9s161h65x?locale=en",
+  "status": 200,
+  "content_type": "application/pdf",
+  "bytes": 941004,
+  "institutional_landing": "https://cdr.lib.unc.edu/concern/articles/2f75rj951",
+  "institutional_doi": "10.17615/4vxa-4h20",
+  "declared_version_on_landing": "Preprint",
+  "article_doi_expected": "10.1016/j.nima.2021.166155",
+  "pdf_sha256": "f76cf7073fb5c5240d638b332802730614f9f81d8aa2f971c6957acfddbfc241",
+  "pdftotext_exit": 0,
+  "pdfinfo": [
+    "CreationDate:    Sat Dec 11 04:18:33 2021 CST",
+    "Pages:           13"
+  ]
+}

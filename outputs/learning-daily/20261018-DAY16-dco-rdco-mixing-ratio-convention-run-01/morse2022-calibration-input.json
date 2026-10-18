@@ -1,0 +1,155 @@
+{
+  "identity": "M22-GRETINA-ACTUAL-CALIBRATION-CUTS-AND-MODEL-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal17": false,
+  "article_doi": "10.1016/j.nima.2021.166155",
+  "actually_read_version": "UNC institutional authorpreprint,13pages,dated2Dec2021; VoRbody notobtained",
+  "pdf_path": "tmp/day16-l26-preview/morse-2022-unc-preprint.pdf",
+  "pdf_sha256": "f76cf7073fb5c5240d638b332802730614f9f81d8aa2f971c6957acfddbfc241",
+  "scope": "all13pages textualmainline/references,allFigs1–12 andTables1/2 visuallychecked where relevant",
+  "setup": {
+    "reaction": "24Mg(p,pprime) at2.45MeV,naturalMg3.3mg/cm2",
+    "array": "6quads/24crystals,onehemisphere,about40-140deg",
+    "tracking": "clustering20deg,noFtcutbaseline;atleast2interactionpointsforpolarization",
+    "data_source": "60Co1332 unpolarized reference for24Mg1368",
+    "source_efficiency_difference": "1332/1368 neglected pertext",
+    "actual_events_and_full_covariance": null
+  },
+  "calibration_data": {
+    "a2": "0.545(5)",
+    "a4": "-0.351(5)",
+    "P90_reported": "1.00(2)",
+    "Pbar_whole_array": "0.824(8)",
+    "Q_whole_array": "0.196(2)",
+    "A0_Fig6_80_to100deg": "0.1024(9)",
+    "A0_whole_array_explicit_in_text": null,
+    "efficiency_untracked": "3.71(7)percent",
+    "efficiency_tracked_Compton": "5.3(1)percent",
+    "F_whole_array": [
+      0.00204,
+      6e-05
+    ]
+  },
+  "Table2_cuts": [
+    {
+      "cut": "None",
+      "Q": [
+        0.196,
+        0.002
+      ],
+      "F": [
+        0.00204,
+        6e-05
+      ]
+    },
+    {
+      "cut": "Ft<=0.6",
+      "Q": [
+        0.21,
+        0.002
+      ],
+      "F": [
+        0.002,
+        6e-05
+      ]
+    },
+    {
+      "cut": "Ft<=0.1",
+      "Q": [
+        0.314,
+        0.005
+      ],
+      "F": [
+        0.00051,
+        2e-05
+      ]
+    },
+    {
+      "cut": "60<=psi<=80deg",
+      "Q": [
+        0.267,
+        0.003
+      ],
+      "F": [
+        0.0008,
+        3e-05
+      ]
+    }
+  ],
+  "model_inputs": {
+    "p_m0": 0.52,
+    "p_mplus1_each": 0.24,
+    "p_mminus1_each": 0.24,
+    "p_mplusminus2_each": 0.0,
+    "rho_k0_definition": "B_k/sqrt(2k+1),Eq11",
+    "source_statistical_tensor_implementation": "separatepublicationpromised,noactualcodecertification",
+    "beam_spot_diameter_mm": 1.0,
+    "beam_divergence": "assumed0,notmeasured",
+    "sim_events_as_reported": "40sets*10000000 each forsourceandinbeam; authorssimulationnotthisrun"
+  },
+  "model_results": {
+    "unblurred_fit_a2": "0.540(5)",
+    "unblurred_fit_a4": "-0.354(5)",
+    "unblurred_P90": "0.99(2)",
+    "unblurred_A0_text": "0.196(1)",
+    "unblurred_A0_Fig9_caption": "0.196(2)",
+    "unblurred_Q_whole_array": "0.392(4)",
+    "unblurred_eff_Compton_percent": "4.48(2)",
+    "unblurred_F": [
+      0.0069,
+      0.0001
+    ],
+    "tuned_sigma100_mm": 7.0,
+    "anchor_sigma1779_mm": 1.2,
+    "tuned_Q": "0.207(2)",
+    "tuned_F": [
+      0.0019,
+      0.0005
+    ],
+    "tuned_P90_approx": 0.85,
+    "sigma7_scope": "authorstatesnotmeasuredresolution;parameterapproximationonly;P90mismatchandenergyorder/trackingbehaviorboundaryretained"
+  },
+  "GRETA_energy_fit": {
+    "range_keV": [
+      500,
+      2000
+    ],
+    "simulation_energies_keV": [
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "geometry_quads": 30,
+    "P0": [
+      0.131,
+      0.006
+    ],
+    "P1_per_keV": [
+      0.000325,
+      7e-06
+    ],
+    "P0_P1_covariance": null,
+    "fit_form": "Q=(P0+P1E)/(E/511+511/(E+511))",
+    "condition": "samepositiontuningandnuclearsubstateinputs;hypotheticalgammaenergies;notnewmeasuredGRETINAenergycalibration",
+    "theta_independence": "authortransferassumptionbasedonQ(theta)approximatelyflat,notallresponse/selectionidentity"
+  },
+  "normalization": {
+    "source_relation": "A0=.5 Q Pbar",
+    "P_definition": "puremultipoleEq2/3,photonparityPi;notmixedformula",
+    "Q_F_uncertainty_covariance": null,
+    "classical_Q_conversion": "Table1footnoteexplicitlycorrectsLitherlandQbyfactor2;donotassumeallsourcesidenticalQ/epsilon/estimator"
+  },
+  "locators": {
+    "Q_relation": "preprintPDF3 Eq8",
+    "cut_A0": "PDF6 Fig6/textlines282-299",
+    "wholearray_PQ": "PDF6 Fig7/textlines304-320",
+    "cut_table": "PDF7 Table2",
+    "populations": "PDF8 Sec4.2/lines434-436",
+    "model_failure": "PDF10 Sec4.3",
+    "GRETA_curve": "PDF10 Fig12/Sec4.4;PDF11 Eq12-13"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-18T13:49:45.650071+00:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 17,
+    "error": null
+  },
+  "writeback": {
+    "valid": false,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "knowledge/methods/dco-ratio.md"
+    ],
+    "changed_paths": [],
+    "change_check": "run-snapshot",
+    "error": "knowledge page does not link to source longfellow-2026-gretina-energy-ordering-polarization"
+  },
+  "human_prefix_guards": {
+    "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md": true,
+    "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md": true
+  },
+  "protected_hashes_unchanged": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "analysis_source_hash_matches_current_script": true
+}

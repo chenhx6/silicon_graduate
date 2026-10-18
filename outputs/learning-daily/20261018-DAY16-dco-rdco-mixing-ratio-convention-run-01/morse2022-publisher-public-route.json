@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-18T12:53:28.740091+00:00",
+  "url": "https://api.elsevier.com/content/article/PII:S0168900221010408?httpAccept=text/xml",
+  "status": 200,
+  "bytes": 1893,
+  "content_type": "text/xml;charset=UTF-8",
+  "has_full_body_marker": false,
+  "no_credentials_added": true,
+  "method": "public TDM link from Crossref; not assumed institutional entitlement"
+}

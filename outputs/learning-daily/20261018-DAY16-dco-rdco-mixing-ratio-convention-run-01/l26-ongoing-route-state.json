@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-18T21:49:48.640523+08:00",
+  "published_checkpoint": 15,
+  "branch_subject": "main / Trace DAY16 profile thresholds and conditional identifiability",
+  "original_deadline": "2026-10-19T15:00:00+08:00",
+  "goal": "active/pursuing",
+  "formal_credit_retained_once": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "knowledge_clean_at_publication15": true,
+  "current_anchor": "L26 raw10pages full mainline/text+all7figures3tables read; primaryinput8rows/3speciesbeta frozen; sourceprefix stillbyte-unchanged",
+  "current_companion": "Morse2022 UNC13page authorpreprint fullytext+Figs1–12/Tables1–2 visually read; actualinput/freeze exists; publisherpublicXML200 butcoremetadataonly, VoRbodyunread",
+  "companion_calibration_findings_pending_canonical": [
+    "Morse Eq8 explicitly useshalfQ Pbar too; cannot removehalf unilaterally. UnderlyingKN/Stokes interpretation/Alikhani2012 primary still needs separate audit.",
+    "Morse Fig6 A0=.1024(.0009) has80-100degcut, final Pbar=.824(.008)/Q=.196(.002) refers wholearray; do not cross-combine mismatchedangularselection to claim sourceerror.",
+    "Morse6quadhemisphere/24Mg(p,pprime)2.45MeV tracked/clustering20deg differsL26 12quad energyorder/noaddback/FMAinbeam.",
+    "Morse Eq13 P0=.131(.006),P1=3.25(.07)e-4 is fit tosimulatedGRETA500-2000keV; same1368GRETINApoint andpositionresolutiontuning notindependentfullenergycalibration. L26 has2419/3970 above thatsimulation range.",
+    "Morseexplicitly says7mm@100keV tuning isnot measuredpositionresolution; apparentP90dropssim,butuntrackedenergyorder changesbehavior; do not declareproducerreplay.",
+    "L26p7E1+M2DeltaJ0positive sentence contradictsp8Table3negative; oldL26-15 inheritedsentence, appendnewneedsReviewannotation onlyafterchecks, preservefulloldhumanprefix.",
+    "L26 Π×(-1)^Lprime vsMorseΠphysicalphoton/ L25P±E+/M- requireconventionmapping before pure/mixed limits; no prematureclaimEq13bug.",
+    "L26CGoddzero statement needs exactcountercheck, Bodd cancellation fromsymmetricdensity distinct.",
+    "Need actualresponse-weightedPbar vscoverage-only andsameComptoneventselection; sourcehist/2DresponseCov notprovided. No experimentalδrefitornewCI."
+  ],
+  "L25_targeted_companion_scope": "manuscript Sec5.1-5.5,Eq27-38/sourcecalTable2; oldsource/prefixhashfrozen; sourceQ.33=measuredamp.016/.048, gate/polarizingphotonandnormalizationdifferent. Not currentfull25pageread.",
+  "Alikhani2012_body_status": "not obtained; exactDOIrecordclosed,ChalmersDNSfail,configuredpublisherMarkdownproviderunavailable attemptedfalse; OpenAIRErelatedURLsnotallsamepaper, useexactDOIinstancesonly",
+  "next_actions": [
+    "complete requiredchecks/verification-reopened010",
+    "handoff/continuation/exactmanifest/H3/publication16",
+    "continue current bounded response-averaging issue using publishedFig4 coverage, not rawresponse reconstruction"
+  ],
+  "M22_input": "morse2022-calibration-input.json",
+  "pending_executable_replay": "M22cuts/physicaldensity/calibrationselection andL26primaryRcoefficients/Qnormalization; first sourceRacah exploration may require trianglezero guard, no data changed",
+  "additional_working_convention": "Operational mapping tocheck: L26Π mayactasuppermultipoleE/Msign, whileMorseΠstatesphotonparity; withΠ_L26*(-1)^Lprime=photonparity, pure/mixedlimitscontinuous. Do not prematurelycallEq13wrong; sourceambiguity/crosswalkpending. L26p7vsTable3specificsignconflict remainsdirect.",
+  "scientific_annotation_status": "canonical35pages/items in report; newM22source/L26append17–26/L25append30/new25Na note; fulloldhumanprefixbytepreserved",
+  "new_experimental_refit": false
+}

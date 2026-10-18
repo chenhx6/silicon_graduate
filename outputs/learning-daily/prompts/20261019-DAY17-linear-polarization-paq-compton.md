@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-22
-updated: 2026-10-06
+updated: 2026-10-18
 ---
 
 # Daily nuclear-structure apprenticeship run
@@ -13,8 +13,9 @@ new Codex session; the run receipt records the session ID and a command that can
 that day's discussion. The schedule is local to the Docker Wiki project, not a GUI
 Scheduled task, so the receipt and scheduler event are the canonical session index.
 
-The runner has injected a context block below. Treat it as execution metadata, not as
-scientific evidence.
+This file prepares the next independent run. The runner replaces the context fields
+at launch; preparation starts no session and grants no credit. Treat runtime metadata
+as execution metadata, not as scientific evidence.
 
 ## Run context
 
@@ -267,3 +268,15 @@ and the highest-information next route. Do not fill the gap with memory or inven
 5. 本日新知识写回knowledge，日报有唯一knowledge-writeback、至少四项且状态最后一栏均complete的Day17cardaudit；通过报告/checks/续接/receipt/显式发布后只completed[17]。有时间且本题饱和才可恰好partial18知识预习，不授18、不将next越过18、不打开19。
 
 Day16预习入口（仅priming）：knowledge/sources/schmid-1998-gammasphere-polarization.md的SG98-4–12；knowledge/methods/compton-polarimetry.md“Gammasphere双分段的P/A/Q与actual峰面积”；knowledge/methods/linear-polarization-asymmetry.md相关使用门。原Day16报告outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md和18日run-dir用于恢复identity/hash/actualfailures，不作为独立科学事实源。
+
+## Day16恢复窗口的知识priming补充（未授Day17学分）
+
+2026-10-18 Day16的同session继续窗口已经对本卡作知识预习；本文件只准备下一次独立runner调用，不启动session/调度，不提前授17学分。正式17仍需先冻本session主动回忆并明确以下priming，再按课程卡完成独立交付/审计；旧程序/输入/检查数不能换本session学分。
+
+- [Morse2022 source](../../../knowledge/sources/morse-2022-gretina-polarization-sensitivity.md)：UNC13页authorpreprint已读，6quad tracking实际Q标定、四cut/FOM、7mm仅tuning且P90 companion未闭合；GRETA500–2000四点model curve不是多能GRETINA实测。
+- [L26新自审](../../../knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md)：L26-17–26全是新增needs_review，旧human prefix/1–16 flags原样保留；p7 E1/M2正号例与Table3负号冲突，L26-15须带新对照。Π/upper multipole、RB/nativeδ、A0半因子都需完整合同；不要固定Q删half。
+- [25Na1041 ledger](../../../knowledge/research-notes/gretina-25na1041-polarization-response-contract.md)：作者δ0/−.85的A0同号，需幅度及matching response；无该文R_DCO。AD–A0/sharedsource/Q/另支sigmaCov仍缺，不重造实验CI。
+- [L25 targetedcompanion](../../../knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md)：新L25-30仅定向source Q/gate角色；1173-gated1333与未加γγ条件source singles不同，.33不是裸替.196的常数。
+- [JT74源与原表/物理模型](../../../knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md)：profile/fittedrank、historicF表与DELTA函数分开；positive-density pureM1的非regular控制是条件理论，不是任意DCO误差修正。
+
+可恢复输入/版本/初失败与重放记录位于Day16原run-dir：../20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/。Alikhani2012 body、原event/response/Σ仍未取得；不要原样重试终态失败URL、从metadata冒称body或用更多toy填时段。新formal17可沿实际response平均/参考复用/公开producer输入的高信息缺口推进。

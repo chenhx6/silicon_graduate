@@ -1,0 +1,593 @@
+{
+  "identity": "GRETINA-L26-M22-DECLARED-REPLAY-CONTRACT-01",
+  "script_sha256": "700bc906fd6a8c90f09140a8a24087330f9b4afd8bba696bb08ea56603b262b0",
+  "input_sha256": {
+    "l26-primary-input.json": "82131565e3336c624a46050960110e1be12c6711fb2b627df883c8dd2dec7ec3",
+    "morse2022-calibration-input.json": "aa03ef1f90efb386fe25b71ce38f0f460d1316f9bca88d413fc6d15a1b03e3ac"
+  },
+  "L26_printed_table_replay": [
+    {
+      "nucleus": "25Mg",
+      "E_keV": 1612,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 0.9999999999999999,
+        "a2": -0.29309308881615226,
+        "a4": 0.0018871350054958048,
+        "H90_parity_plus": -0.13133689032316975,
+        "W90": 1.1472542200351372,
+        "P90_parity_plus": -0.11447932640347774,
+        "P90_with_declared_photon_parity": -0.11447932640347774
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          -0.2973175283351458,
+          -0.2889374532526277
+        ],
+        "a4": [
+          0.0018228820561819663,
+          0.0019539150156659534
+        ]
+      },
+      "Q_adopted_curve": 0.19288451114555394,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": -0.08295119138895568,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": -0.11405788815981406,
+      "A0fit_minus_pred": -0.002999999999999999,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": false
+    },
+    {
+      "nucleus": "25Mg",
+      "E_keV": 1793,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0000000000000002,
+        "a2": -0.2353413417823304,
+        "a4": 0.0008536400523590865,
+        "H90_parity_plus": -0.1426816252353452,
+        "W90": 1.1179907859107998,
+        "P90_parity_plus": -0.12762325685815554,
+        "P90_with_declared_photon_parity": -0.12762325685815554
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          -0.24225405050859075,
+          -0.2285556848269571
+        ],
+        "a4": [
+          0.0007672137720762931,
+          0.0009470871477130915
+        ]
+      },
+      "Q_adopted_curve": 0.1913166945077322,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": -0.09408483690518976,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": -0.1254464492069197,
+      "A0fit_minus_pred": -0.003000000000000001,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": false
+    },
+    {
+      "nucleus": "25Mg",
+      "E_keV": 3970,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0,
+        "a2": -0.26737720325529524,
+        "a4": 7.338082704057741e-05,
+        "H90_parity_plus": -0.34565907192499956,
+        "W90": 1.1337161194377878,
+        "P90_parity_plus": -0.3048903213058421,
+        "P90_with_declared_photon_parity": 0.3048903213058421
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          -0.27755463197375113,
+          -0.2573549805215226
+        ],
+        "a4": [
+          3.994809763292031e-05,
+          0.00011845815871348914
+        ]
+      },
+      "Q_adopted_curve": 0.18029035335821766,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": 0.22186433857902688,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": 0.2773304232237836,
+      "A0fit_minus_pred": 0.005000000000000001,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": true
+    },
+    {
+      "nucleus": "25Na",
+      "E_keV": 1041,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0000000000000002,
+        "a2": 0.20374746039462743,
+        "a4": 0.0,
+        "H90_parity_plus": 0.30562119059194115,
+        "W90": 0.8981262698026863,
+        "P90_parity_plus": 0.34028755295074997,
+        "P90_with_declared_photon_parity": 0.34028755295074997
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          0.1864920692803061,
+          0.21976685842168917
+        ],
+        "a4": [
+          -0.00013021288554355918,
+          -0.00012257949981826752
+        ]
+      },
+      "Q_adopted_curve": 0.19832578735720685,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": 0.21177276318763993,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": 0.43362994366992935,
+      "A0fit_minus_pred": 0.021999999999999995,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": false
+    },
+    {
+      "nucleus": "25Na",
+      "E_keV": 2419,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0,
+        "a2": 0.38285163950323947,
+        "a4": -0.13765181331186588,
+        "H90_parity_plus": 0.48824507593494304,
+        "W90": 0.7569547502564306,
+        "P90_parity_plus": 0.6450122358959267,
+        "P90_with_declared_photon_parity": 0.6450122358959267
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          0.37928241785803396,
+          0.38637539398256926
+        ],
+        "a4": [
+          -0.14162022395335447,
+          -0.13374414174813828
+        ]
+      },
+      "Q_adopted_curve": 0.18686365216400902,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": 0.40671366057479863,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": 0.2568717856261886,
+      "A0fit_minus_pred": -0.013999999999999999,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": true
+    },
+    {
+      "nucleus": "22Ne",
+      "E_keV": 1275,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0,
+        "a2": 0.33748151125870723,
+        "a4": -0.11517951670058801,
+        "H90_parity_plus": 0.4342350689501933,
+        "W90": 0.7880669256079258,
+        "P90_parity_plus": 0.5510129341048267,
+        "P90_with_declared_photon_parity": 0.5510129341048267
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          0.33310814361161856,
+          0.3419107850116417
+        ],
+        "a4": [
+          -0.11915404290561157,
+          -0.11136010802271108
+        ]
+      },
+      "Q_adopted_curve": 0.19609187208536832,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": 0.3569755301715188,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": 0.285580424137215,
+      "A0fit_minus_pred": -0.007000000000000003,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": false
+    },
+    {
+      "nucleus": "22Ne",
+      "E_keV": 2083,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0,
+        "a2": 0.36207398997024304,
+        "a4": -0.1179533871144355,
+        "H90_parity_plus": 0.4693901180088424,
+        "W90": 0.7747304848469652,
+        "P90_parity_plus": 0.6058753685180756,
+        "P90_with_declared_photon_parity": 0.6058753685180756
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          0.35810295899320504,
+          0.36602610931174895
+        ],
+        "a4": [
+          -0.1217113314495041,
+          -0.1142878233462615
+        ]
+      },
+      "Q_adopted_curve": 0.1890745683452666,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": 0.38080213870181495,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": 0.2644459296540382,
+      "A0fit_minus_pred": -0.010999999999999996,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": true
+    },
+    {
+      "nucleus": "22Ne",
+      "E_keV": 2166,
+      "recomputed_from_printed_delta_sigma_Qgeometry1": {
+        "a0": 1.0,
+        "a2": 0.3918359999051631,
+        "a4": -0.0003490456071908633,
+        "H90_parity_plus": 0.5423294056781734,
+        "W90": 0.8039511079447219,
+        "P90_parity_plus": 0.6745800836877047,
+        "P90_with_declared_photon_parity": 0.6745800836877047
+      },
+      "source_printing_box_coefficient_images": {
+        "a2": [
+          0.3852465964560831,
+          0.3984120602690648
+        ],
+        "a4": [
+          -0.0004551838032239727,
+          -0.00025927232211606213
+        ]
+      },
+      "Q_adopted_curve": 0.18849191883393734,
+      "Pbar_implied_by_source_A0pred_not_independent_calibration": 0.37136870605933237,
+      "Pbar_diagnostic_if_using_A0fit_and_same_adoptedQ_not_remeasurement": 0.31831603376514195,
+      "A0fit_minus_pred": -0.0050000000000000044,
+      "no_independent_residual_chi2": true,
+      "outside_Morse_GRETA_simulated_energy_range": true
+    }
+  ],
+  "emission_basis_bridge": {
+    "delta_D96_native": "-delta_L26_RB",
+    "max_observable_error": 3.885780586188048e-16,
+    "wrong_sign_max_error": 1.5336231610144653,
+    "pure_M1_E2_controls_passed": true,
+    "scope": "Specified single-emitter spin/state ordering and Jones-axis convention; not every cascade-role delta."
+  },
+  "L26_sign_example": {
+    "M1_E2_delta0_P90": 0.7262742954793745,
+    "E1_M2_delta0_P90": -0.7262742954793745,
+    "Table3_agrees_with_these_signs": true,
+    "Appendix_prose_positive_E1_M2_example_conflicts": true
+  },
+  "A2zero_controls": [
+    {
+      "Ji2": 9,
+      "Jf2": 9,
+      "delta_RB_at_A2zero": -2.7687651680784833,
+      "physical_P90_by_undivided_products": -0.5328148719189426,
+      "ratio_A2prime_over_A2_times_a2_is_naive_0over0": true
+    },
+    {
+      "Ji2": 9,
+      "Jf2": 9,
+      "delta_RB_at_A2zero": 0.5778749380578189,
+      "physical_P90_by_undivided_products": 0.43201160319080445,
+      "ratio_A2prime_over_A2_times_a2_is_naive_0over0": true
+    },
+    {
+      "Ji2": 7,
+      "Jf2": 5,
+      "delta_RB_at_A2zero": 24.420696572133657,
+      "physical_P90_by_undivided_products": 0.3135669206025519,
+      "ratio_A2prime_over_A2_times_a2_is_naive_0over0": true
+    },
+    {
+      "Ji2": 7,
+      "Jf2": 5,
+      "delta_RB_at_A2zero": -0.17198526616937698,
+      "physical_P90_by_undivided_products": -0.5633973995806355,
+      "ratio_A2prime_over_A2_times_a2_is_naive_0over0": true
+    }
+  ],
+  "Pi_working_contract_control": {
+    "mixed_M1_limit": 0.7262742954793745,
+    "Morse_pure_with_photon_parity": 0.7262742954793745,
+    "L26_pure_with_EM_type_sign": 0.7262742954793745,
+    "holding_photon_parity_in_L26_pure_formula_would_flip_sign": true,
+    "author_Pi_definition_not_authenticated": true
+  },
+  "odd_CG_counterexample": "sqrt(2)/2",
+  "odd_B_for_symmetric_source_Gaussian": {
+    "1": -2.0816681711721685e-17,
+    "3": -6.938893903907228e-18,
+    "5": 0.0,
+    "7": -4.336808689942018e-18,
+    "9": -4.174178364069192e-18
+  },
+  "M22_physical_density_check": {
+    "basis_group_a2_a4": [
+      {
+        "a2": 0.7142857142857141,
+        "a4": -1.7142857142857137,
+        "P90_parity_plus": null
+      },
+      {
+        "a2": 0.35714285714285693,
+        "a4": 1.142857142857143,
+        "P90_parity_plus": 1.0
+      },
+      {
+        "a2": -0.7142857142857143,
+        "a4": -0.2857142857142858,
+        "P90_parity_plus": -1.0
+      }
+    ],
+    "central_group_populations_not_physical_measurement": [
+      0.5233000000000003,
+      0.4776,
+      -0.0009000000000001674
+    ],
+    "P90_from_printed_a2_a4": 1.0037759597230964,
+    "physical_pabs2zero_feasibility_from_literal_marginal_boxes_not_CI": [
+      0.5211,
+      0.5246000000000001
+    ],
+    "source_rounded_MC_population_intrinsic_coefficients": {
+      "a2": 0.5428571428571427,
+      "a4": -0.3428571428571427,
+      "P90_parity_plus": 1.0
+    },
+    "zero_intensity_m0_P90": null,
+    "note": "A slightly unphysical central fit is not a negative nuclear population. Source detector-fit coefficients and intrinsic moments are different replay objects; no original response/fit covariance is supplied."
+  },
+  "M22_selection_identity_control": {
+    "Q_if_mixing_Fig6_cut_A0_with_array_Pbar": 0.24854368932038837,
+    "A0_implied_by_array_Q_Pbar_identity_not_new_measurement": 0.080752,
+    "conclusion": "Do not combine these selections as a source-error test; matching full-array xi fit not explicitly supplied."
+  },
+  "M22_cut_tradeoffs": [
+    {
+      "cut": "None",
+      "Q": [
+        0.196,
+        0.002
+      ],
+      "F": [
+        0.00204,
+        6e-05
+      ],
+      "efficiency_implied_central": 0.05310287380258225,
+      "relative_efficiency_to_None": 1.0,
+      "relative_F_to_None": 1.0,
+      "relative_statistical_error_if_common_model": 1.0,
+      "epsilon_error_not_inferred_without_Q_F_covariance": true
+    },
+    {
+      "cut": "Ft<=0.6",
+      "Q": [
+        0.21,
+        0.002
+      ],
+      "F": [
+        0.002,
+        6e-05
+      ],
+      "efficiency_implied_central": 0.0453514739229025,
+      "relative_efficiency_to_None": 0.8540305010893248,
+      "relative_F_to_None": 0.9803921568627451,
+      "relative_statistical_error_if_common_model": 1.0099504938362078,
+      "epsilon_error_not_inferred_without_Q_F_covariance": true
+    },
+    {
+      "cut": "Ft<=0.1",
+      "Q": [
+        0.314,
+        0.005
+      ],
+      "F": [
+        0.00051,
+        2e-05
+      ],
+      "efficiency_implied_central": 0.005172623635847296,
+      "relative_efficiency_to_None": 0.09740760274250478,
+      "relative_F_to_None": 0.25,
+      "relative_statistical_error_if_common_model": 2.0,
+      "epsilon_error_not_inferred_without_Q_F_covariance": true
+    },
+    {
+      "cut": "60<=psi<=80deg",
+      "Q": [
+        0.267,
+        0.003
+      ],
+      "F": [
+        0.0008,
+        3e-05
+      ],
+      "efficiency_implied_central": 0.011221927646621499,
+      "relative_efficiency_to_None": 0.2113243002316723,
+      "relative_F_to_None": 0.39215686274509803,
+      "relative_statistical_error_if_common_model": 1.5968719422671314,
+      "epsilon_error_not_inferred_without_Q_F_covariance": true
+    }
+  ],
+  "normalization_translation": {
+    "source_kappa": 0.5,
+    "source_Q": 0.196,
+    "sameP_kappa1_Q": 0.098,
+    "observable_invariant": true,
+    "information_per_emitted_photon_at_P0": 0.000255,
+    "information_contract": "For declared p(xi|P)=(1-kappa Q P cos2xi)/(2pi), knownQ/backgroundfree and uniformreference, I_P(0)/yield=kappa^2 Q^2 epsilon/2. Not measured beam-time precision."
+  },
+  "two_hit_kinematic_design": [
+    {
+      "nucleus": "25Mg",
+      "rest_energy_keV": 1612,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 1610.141905120167,
+          "true_first_deposit_is_larger_if_psi_above_deg": 46.9499732478277
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 1570.202049998596,
+          "true_first_deposit_is_larger_if_psi_above_deg": 47.579684991182084
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 1547.1626257961293,
+          "true_first_deposit_is_larger_if_psi_above_deg": 47.95469803819436
+        }
+      ]
+    },
+    {
+      "nucleus": "25Mg",
+      "rest_energy_keV": 1793,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 1790.9332728786967,
+          "true_first_deposit_is_larger_if_psi_above_deg": 44.38351926379088
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 1746.5088558607213,
+          "true_first_deposit_is_larger_if_psi_above_deg": 44.97491359873939
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 1720.8824987918485,
+          "true_first_deposit_is_larger_if_psi_above_deg": 45.327027159624144
+        }
+      ]
+    },
+    {
+      "nucleus": "25Mg",
+      "rest_energy_keV": 3970,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 3965.4239226594677,
+          "true_first_deposit_is_larger_if_psi_above_deg": 29.40906901195228
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 3867.0608799593215,
+          "true_first_deposit_is_larger_if_psi_above_deg": 29.789294069769767
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 3810.319866259698,
+          "true_first_deposit_is_larger_if_psi_above_deg": 30.015452456090127
+        }
+      ]
+    },
+    {
+      "nucleus": "25Na",
+      "rest_energy_keV": 1041,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 1039.8980387538002,
+          "true_first_deposit_is_larger_if_psi_above_deg": 59.42900132126826
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 1015.1523935187311,
+          "true_first_deposit_is_larger_if_psi_above_deg": 60.22288622213436
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 1000.8544924005452,
+          "true_first_deposit_is_larger_if_psi_above_deg": 60.69646384294649
+        }
+      ]
+    },
+    {
+      "nucleus": "25Na",
+      "rest_energy_keV": 2419,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 2416.4393426949496,
+          "true_first_deposit_is_larger_if_psi_above_deg": 37.9514801439209
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 2358.937214141989,
+          "true_first_deposit_is_larger_if_psi_above_deg": 38.429179020085485
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 2325.7127926195185,
+          "true_first_deposit_is_larger_if_psi_above_deg": 38.71355974123583
+        }
+      ]
+    },
+    {
+      "nucleus": "22Ne",
+      "rest_energy_keV": 1275,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 1273.7652020682617,
+          "true_first_deposit_is_larger_if_psi_above_deg": 53.21405453011334
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 1244.7422349391088,
+          "true_first_deposit_is_larger_if_psi_above_deg": 53.880363565871455
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 1227.9455009216806,
+          "true_first_deposit_is_larger_if_psi_above_deg": 54.27766357981467
+        }
+      ]
+    },
+    {
+      "nucleus": "22Ne",
+      "rest_energy_keV": 2083,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 2080.982679143678,
+          "true_first_deposit_is_larger_if_psi_above_deg": 41.02328159985865
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 2033.567117943658,
+          "true_first_deposit_is_larger_if_psi_above_deg": 41.52060167237824
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 2006.125865427342,
+          "true_first_deposit_is_larger_if_psi_above_deg": 41.816829257674904
+        }
+      ]
+    },
+    {
+      "nucleus": "22Ne",
+      "rest_energy_keV": 2166,
+      "conditional_quad_center_examples": [
+        {
+          "quad_center_deg": 90.0,
+          "lab_incident_energy_keV": 2163.902296219494,
+          "true_first_deposit_is_larger_if_psi_above_deg": 40.1949820881131
+        },
+        {
+          "quad_center_deg": 122.0,
+          "lab_incident_energy_keV": 2114.597396767145,
+          "true_first_deposit_is_larger_if_psi_above_deg": 40.68136071105693
+        },
+        {
+          "quad_center_deg": 148.0,
+          "lab_incident_energy_keV": 2086.062709801067,
+          "true_first_deposit_is_larger_if_psi_above_deg": 40.97105450923747
+        }
+      ]
+    }
+  ],
+  "two_hit_plane_identity": "x1 cross(x2-x1)=x1 cross x2; reversal changes only normal sign. Reaction-plane beam cross x_first generally changes, so xi/Doppler angles need not remain equal.",
+  "scope": "Actual printed summaries and declared physical/theoretical checks. No event data, actual response/selection covariance, original producer fit, new delta or confidence interval.",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false,
+  "all_internal_checks_passed": true
+}

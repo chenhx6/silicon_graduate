@@ -245,6 +245,18 @@ Z13-13、原正文044328-5的1368比较句/等式(8)–(9)，另核arxiv v1 p.10
 
 同transition/density/选择的P90幅度可补局部rank，但未知Q会加一个nuisance使三参数仍rank2；独立matching Qcal才到rank3。Q=0/完整isotropy为失败控制；全局branch/实验Cov仍未解决。JT74-11及canonical angular-correlation/worksheet保存条件/公式/代码，不把数值当作者原结论。初次缺SymPy exit1，PyPI1.14.0及依赖隔离装repo tmp后actual analysis exit0，旧helper/raw不变，第三方包不发布。
 
+### 恰好Day17预习延续：GRETINA真实双支、calibration谱系与约定
+
+先[冻结primed回忆/旧人审prefix](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-preview-before-freeze.json)，后沿L26原10页全文/三表七图/Eqs1–19阅读；Fig1的β=.048/.046/.044由视觉补出（text提取遗漏），[8行原表冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/l26-primary-input.json)保留multipole顺序/pureE2特殊0与RB ratio单位。新[L26-17–26](../../knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md)另列needs_review，整个旧1–16/humanprefix不改。
+
+真实25Na1041 AD=.20(.02)/.00(.04)，作者δRB≈0/−.85；两支A0pred+.021(.007)/+.002，实测+.043(.008)，故符号同正不能选支。作者的0偏好有σ/Q条件，第二支误差/联合Cov缺失，未新拟合δ或给新CI。p7 positive E1/M2 ΔJ0例句与Table3 negative直接冲突，exact source-model检查支持Table3；旧L26-15须连新L26-19读，不由旧humanflag掩盖冲突。
+
+合法取得并读完[Morse2022 UNC13页authorpreprint](../../knowledge/sources/morse-2022-gretina-polarization-sensitivity.md)，全部12图/两表视觉核，VoR公开API只有metadata。M22-5确认也用A0=Q Pbar/2；6quad tracking与当前12quad energyorder不同。Eq19参数实为tuned模拟GRETA500–2000四点fit，未误称多能实测。σ100≈7mm并非测量，作者同时保留P90模拟约.85/实验约1的companion失败。定向L25 source校准另明Q=.016/.048=.33及1173 coincidence reference，newL25-30/旧全prefix保持。
+
+[事前双source合同](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gretina-replay-contract.json)、[程序](../../system/scripts/day16_gretina_convention_audit.py)/[完整结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gretina-convention-audit.json)：Racah/RB与D96 native emission的δnative=−δRB使mixed/pure AD/P最大差3.89×10^-16，错误同号达1.5336；Pi纯/混合工作桥与Q半因子转换保留定义范围，不冒称作者intent。A2zero仍可有Pfinite，I90zero则Pundefined。Morse印刷AD中央给P90=1.003776/极小negative pabs2，但physical边界与literal误差盒相容，不夹值/不当负布居测量。Ft≤.1 Q虽增，F仅余.25且implied效率.0974，未在缺Cov时新算误差或beamtime。source能量/β/quadcenter的twohit排序条件是design，不是误排序率。
+
+Canonical [25Na ledger](../../knowledge/research-notes/gretina-25na1041-polarization-response-contract.md)与三source/方法页保存全部复用内容、角色/单位及独立性。Alikhani2012 body仍未得，未据两篇转述认证其原式；source MD tool provider unavailable/attemptedfalse与closed目录边界保留。所有新增均self-audit/needs_review，仍只formal16/partial17。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -257,7 +269,7 @@ Z13-13、原正文044328-5的1368比较句/等式(8)–(9)，另核arxiv v1 p.10
 
 ## Durable knowledge delta
 
-canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)保存实测身份表、作者双候选、role reciprocal/Cov Jacobian、矩阵/新两根、phase交叉表、未复现结果和下一companion。KF89 source新增15–18；dco-ratio与旧worksheet有反链，index有最小导航。程序与outputs输入/结果用于复算，本节不是唯一知识副本。
+canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)保存实测身份表、作者双候选、role reciprocal/Cov Jacobian、矩阵/新两根、phase交叉表、未复现结果和下一companion。KF89 source新增15–18；dco-ratio与旧worksheet有反链，index有最小导航。程序与outputs输入/结果用于复算，本节不是唯一知识副本。新增GRETINA cal/branch ledger与Morse primary也已写入knowledge，见本节机器映射。
 
 ```knowledge-writeback
 {
@@ -402,7 +414,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 补误差阈值自身的来源/适用域审计。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 补误差阈值自身的来源/适用域审计。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。 用真实AD/P案例补matched reference角色，不造R_DCO数据。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -500,12 +512,28 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
           "locator": "JT74-11"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-18"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-21"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-24"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-30"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -531,6 +559,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
           "locator": "N104-1"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-1"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-18"
         }
       ]
     },
@@ -927,7 +963,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -981,12 +1017,40 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
           "locator": "Z13-13"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-5"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-6"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-8"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-9"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-11"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-30"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-24"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -1008,6 +1072,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
           "locator": "Z13-8"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-18"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-19"
         }
       ]
     },
@@ -1467,6 +1539,174 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "JT74-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+      "anchor": "Morse2022：实测标定与模拟曲线分开",
+      "summary": "新取得并读完UNC13页authorpreprint；6quad实测/角门/Q半因子、四cut与tuning反证/GRETA模型范围，真实表与physical-domain复算。",
+      "sources": [
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-1"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-2"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-3"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-4"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-5"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-6"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-7"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-8"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-9"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-10"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "anchor": "DAY16无学分预习增量：数据身份与新约定自审",
+      "summary": "完整10页三表七图重核，8行实测/作者分支与符号冲突、RB/native单emitter桥、Pi/Q/排序合同；旧人审fullprefix不动。",
+      "sources": [
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-17"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-18"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-19"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-20"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-21"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-22"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-23"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-24"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-25"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-26"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "anchor": "DAY16必要companion：Q的观测与参考角色",
+      "summary": "定向Sec5/参考校准的实际Q定义和1173-gated1333对象；保持整个旧humanreview prefix与1–29 flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-30"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
+      "anchor": "25Na1041：同号偏振如何参与分支判别",
+      "summary": "真实AD/偏振双候选与matched response/calibration谱系，明确无RDCO与无新实验CI；保存phase/pure/physical/选择失败控制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-18"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-19"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-21"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-23"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-24"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-25"
+        },
+        {
+          "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+          "locator": "L26-26"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-4"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-8"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-9"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-10"
+        },
+        {
+          "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+          "locator": "M22-11"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-30"
+        }
+      ]
     }
   ]
 }
@@ -1552,3 +1792,9 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 [verification-reopened-009](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-009.json)实际boundary/lint/diff均exit0，report/card/writeback通过，31 changed knowledge页/31 items；lint0errors160warnings（122key/35raw/3parser）。新source/code/method旧flags及raw/protected保留，JT74只修旧摘要correlation措辞，旧claim flags未动。F unit compile/run0、非regular符号/trace/physical/response失败控制通过；缺SymPy首exit1及isolated安装/analysis0的过程回执保留。
 
 [刷新候选池010](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-010.json)余1126.49min，原deadline不改；JT74/Mo104当下边界已核，继续恰好Day17的L26 GRETINA response知识preview。source-before及完整旧人审prefix已冻结，raw hash已核，仅前两页已读，未做新claim；后续完整主线再判。正式16只计一次，partial17不授学分，未开18。更新[续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)，稳定发布指针main / `Trace DAY16 profile thresholds and conditional identifiability`，实际hash/结果仅receipt。
+
+### 恢复checkpoint016（研究继续）
+
+[verification-reopened-010](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-010.json)最终boundary/lint/diff均exit0、report/card/writeback通过，35 changed knowledge页/35 items；lint0errors162warnings（123key/36raw/3parser）。首次新research-note缺schema及M22缺ExtractedPages共17error、writeback缺directsource link均已修，保留初exit1/false日志；fixed actual0/true。两旧human source全prefix bytehash通过，protected raw/PLAN/Bib不变。代码首symbolic == guard exit1，component simplification后0；新增parity标签/pure-contract控制后再跑0，frozeninputs/旧helpers不变。
+
+[timegate/pool011](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-011.json)余1028.48min，继续原goal。下一L26Fig4公开C(theta)平均问题先冻回忆/边界；PDF5的vectorSVG已提取，尚未digitize/计算，不称rawresponse或新P/Q测量。prepared17 prompt补完整priming，未启动session/授学分。沿用[续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)和原deadline；稳定发布指针main / `Audit DAY16 GRETINA calibration conventions and branch evidence`，实际hash/结果仅receipt。

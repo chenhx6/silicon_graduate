@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-18T12:41:38.710363+00:00",
+  "source": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+  "prefix_sha256": "da7afb5469add18c93551e413da9bd19a35f885f7fc93b60f3f94af6c6f3e2fd",
+  "prefix_bytes": 23163,
+  "existing_humanreview_and_all_old_claim_flags_preserved": true,
+  "raw_sha256": "5ee6a654905be64113229d6f10567308e3995580906527af896eb9b92e478ae0",
+  "scope_intended": "targeted Sec5 linear polarization/calibration and response definitions; do not call full25page thissession read"
+}

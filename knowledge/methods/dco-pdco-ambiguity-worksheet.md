@@ -289,3 +289,8 @@ knownpure4→2→0的exactgridχ²0，默认2度局部抛物线却报告.199，�
 
 
 JT74-11另给真正的二次近似失败控制：受限positive-density的3→2 pureM1附近，alignment可吸收一阶δ，profile首项δ^4。matched偏振的幅度只有在Q/geometry/选样已约束时才补信息；Q自由或用同A回代校Q不能自动选支。该结论是任务条件模型，不改W178/EL18原实验区间。
+
+
+## 伴随偏振的response同样要带reference角色
+
+[[gretina-25na1041-polarization-response-contract]]给真实AD/偏振补充例，**没有把它当R_DCO数据**：25Na1041两δ候选的A0都为正，作者靠adopted response下的幅度偏好0。source-normalization γ、外部Q标定和polarizing γγ reference分别承担不同角色；[[morse-2022-gretina-polarization-sensitivity]]无γγ条件的60Co1332与[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]]的gated1173→1333不能因相近能量就当同reference。[[longfellow-2026-gretina-energy-ordering-polarization]] L26-21的单emitter δnative=−δRB闭合与L26-24的半因子Q转换都要连同spin/EM/分析轴和selection，不直接替代本页其它cascade角色的桥。

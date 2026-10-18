@@ -257,3 +257,16 @@ nearA0才回到1/n及F形式；sourceEq17是独立Poisson层的相应误差式�
 ### FOM比较要与同能量同response的Q配对
 
 [[zheng-2013-linear-polarization-91ru]] Z13-13的1368-keV文字点给F比4.4、Q=.135(.005)对.121(.005)。在同对象F=Q²epsilon_c假设下，Q²比仅1.244792，条件epsilon比3.534727；这不是独立效率测量，更不等于物理偏振P提高。该能量超出Table I列到1264-keV的校准点，印刷curve外推给.160078而文字另报.135；缺selection/parameter及cross-Cov，保留中央差，不用外推替换原比较点或判实验冲突。原F未给误差，不从同数据反推epsilon再当独立companion证明F。
+
+
+## GRETINA：半因子、reference角色与真实cut tradeoff
+
+[[morse-2022-gretina-polarization-sensitivity]] M22-4/5/6/8/9/11与[[longfellow-2026-gretina-energy-ordering-polarization]] L26-23/24给实际calibration链。两篇都用A0=Q Pbar/2；同P/同响应下改成A0=Qnew Pbar须同时Qnew=Q/2，不能固定Q删半因子。若声明uniform reference、无background、knownQ的连续p(ξ|P)=[1−κQP cos2ξ]/(2π)，则P=0的Fisher information/yield为κ²Q²epsilon/2。因此同observable可在Q²epsilon数值改变四倍时保持同一information；跨instrument比较还需epsilon/estimator合同。这是条件统计推导，不是原实验beamtime测量。
+
+Morse的6-quad tracking与L26的12-quad energy-order/noaddback不同；L26 Eq19曲线来自同一tuning后的模拟GRETA500–2000四点，不是本run实测多能Q。作者说调到σ100≈7mm可匹配A0，却使sim apparentP90降至约.85、实验约1，并明确7mm不是实测分辨率。这个必要companion不闭合应与曲线一起保存，不用一个matched A0认证整套response。
+
+原cut表真实中央值：Ft≤.1使Q提高到.314，但F只余baseline的.25、F/Q² impliedepsilon仅余.0974。ψ60–80°的相应比例.3922/.2113。没有Q–F Cov，不再造epsilon error；更高Q是否有利必须连同选择损失和目标likelihood检查。
+
+[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-30的Q=.33(.04)来自1173 coincidence polarizing 60Co1333，measured/ideal amplitudes .016/.048。未加γγ条件的source singles可为unpolarized reference；同源γ在coincidence条件下却能polarize，不能只按能量或核素名当同一reference。其Q也不能未经gates/角响应/归一转换直接替代Morse .196。
+
+详细matched transition/plane/phase/数据独立性账见[[gretina-25na1041-polarization-response-contract]]。源A2=0可用未相除系数连续计算P，actual intensity=0则P undefined；两种0/0边界须分开。两点energy-ordering的Compton plane换序不变不代表reaction plane/Doppler方向不变，≥3hit与其它拓扑也需实际response。

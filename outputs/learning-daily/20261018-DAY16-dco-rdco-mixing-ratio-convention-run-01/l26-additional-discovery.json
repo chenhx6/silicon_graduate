@@ -1,0 +1,124 @@
+{
+  "at": "2026-10-18T12:38:53.256097+00:00",
+  "results": [
+    {
+      "label": "alikhani-openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1016/j.nima.2012.02.016&format=json",
+      "status": 200,
+      "bytes": 28470,
+      "discovery_urls": [
+        "http://hdl.handle.net/11577/3032665",
+        "http://hdl.handle.net/1942/28451",
+        "http://namespace.openaire.eu/oaf",
+        "http://www.chalmers.se/en/Pages/default.aspx",
+        "http://www.sciencedirect.com/science/article/pii/S016890021200174X",
+        "http://www.tu-darmstadt.de/",
+        "http://www.unipd.it",
+        "https://doi.org/10.1016/j.apradiso.2013.11.071",
+        "https://doi.org/10.1016/j.apradiso.2019.02.019",
+        "https://doi.org/10.1016/j.nima.2012.02.016",
+        "https://dx.doi.org/10.1016/j.apradiso.2013.11.071",
+        "https://dx.doi.org/10.1016/j.apradiso.2019.02.019",
+        "https://hdl.handle.net/11577/3032665",
+        "https://pubmed.ncbi.nlm.nih.gov/24360858",
+        "https://pubmed.ncbi.nlm.nih.gov/30878781",
+        "https://www.openaire.eu/schema/1.0/oaf-1.0.xsd"
+      ]
+    },
+    {
+      "label": "l26-correction-search",
+      "url": "https://api.crossref.org/works?query.bibliographic=Corrigendum%20In-beam%20angular%20distribution%20linear%20polarization%20GRETINA%20energy-ordering&rows=5",
+      "status": 200,
+      "bytes": 52673,
+      "candidates": [
+        {
+          "DOI": "10.1016/j.nima.2025.170932",
+          "title": [
+            "In-beam angular distribution and linear polarization measurements with GRETINA using a simple energy-ordering approach"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2
+              ]
+            ]
+          },
+          "score": 36.326347,
+          "relation": null,
+          "update-to": null
+        },
+        {
+          "DOI": "10.1016/0168-583x(91)96037-l",
+          "title": [
+            "Angular distribution and linear polarization of photons in dielectronic recombination of heliumlike ions"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1991,
+                5
+              ]
+            ]
+          },
+          "score": 27.681986,
+          "relation": null,
+          "update-to": null
+        },
+        {
+          "DOI": "10.1016/0168-583x(88)90573-3",
+          "title": [
+            "Angular distribution and linear-polarization of X-rays induced by radiative electron capture process"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1988,
+                6
+              ]
+            ]
+          },
+          "score": 27.580643,
+          "relation": null,
+          "update-to": null
+        },
+        {
+          "DOI": "10.1063/5.0335703",
+          "title": [
+            "Photoelectron angular distribution as a linear polarization analyzer for soft and tender x rays"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                1
+              ]
+            ]
+          },
+          "score": 27.10088,
+          "relation": null,
+          "update-to": null
+        },
+        {
+          "DOI": "10.1016/s0031-8914(59)97064-8",
+          "title": [
+            "Angular distribution and linear polarization of gamma rays from aligned 166mHo nuclei"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1959,
+                1
+              ]
+            ]
+          },
+          "score": 26.786303,
+          "relation": null,
+          "update-to": null
+        }
+      ]
+    }
+  ],
+  "no_correction_conclusion_from_metadata_only": true
+}

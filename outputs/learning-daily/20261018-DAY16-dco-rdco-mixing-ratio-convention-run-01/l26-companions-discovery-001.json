@@ -1,0 +1,227 @@
+{
+  "at": "2026-10-18T12:35:00.461149+00:00",
+  "results": [
+    {
+      "label": "morse",
+      "doi": "10.1016/j.nima.2021.166155",
+      "crossref": {
+        "http_status": 200,
+        "url": "https://api.crossref.org/works/10.1016/j.nima.2021.166155",
+        "DOI": "10.1016/j.nima.2021.166155",
+        "title": [
+          "The polarization sensitivity of GRETINA"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              2
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0168900221010408?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0168900221010408?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "relation": {},
+        "update-to": null
+      },
+      "openalex": {
+        "http_status": 200,
+        "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nima.2021.166155",
+        "id": "https://openalex.org/W4206637211",
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.nima.2021.166155",
+          "any_repository_has_fulltext": true
+        },
+        "locations": [
+          {
+            "landing_page_url": "https://doi.org/10.1016/j.nima.2021.166155",
+            "pdf_url": null,
+            "source": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment"
+          },
+          {
+            "landing_page_url": "https://doi.org/10.17615/4vxa-4h20",
+            "pdf_url": "https://doi.org/10.17615/4vxa-4h20",
+            "source": "Carolina Digital Repository (University of North Carolina at Chapel Hill)"
+          },
+          {
+            "landing_page_url": "https://escholarship.org/uc/item/3cg7176d",
+            "pdf_url": null,
+            "source": "eScholarship (California Digital Library)"
+          },
+          {
+            "landing_page_url": "https://www.osti.gov/servlets/purl/1835119",
+            "pdf_url": null,
+            "source": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)"
+          },
+          {
+            "landing_page_url": "https://www.osti.gov/biblio/1838656",
+            "pdf_url": null,
+            "source": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)"
+          },
+          {
+            "landing_page_url": "https://www.osti.gov/biblio/1869175",
+            "pdf_url": null,
+            "source": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)"
+          },
+          {
+            "landing_page_url": "https://www.osti.gov/biblio/1896473",
+            "pdf_url": null,
+            "source": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)"
+          },
+          {
+            "landing_page_url": "https://doi.org/10.17615/4vxa-4h20",
+            "pdf_url": null,
+            "source": "UNC Libraries"
+          }
+        ]
+      }
+    },
+    {
+      "label": "alikhani",
+      "doi": "10.1016/j.nima.2012.02.016",
+      "crossref": {
+        "http_status": 200,
+        "url": "https://api.crossref.org/works/10.1016/j.nima.2012.02.016",
+        "DOI": "10.1016/j.nima.2012.02.016",
+        "title": [
+          "Compton polarimetry with a 36-fold segmented HPGe-detector of the AGATA-type"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S016890021200174X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S016890021200174X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "relation": {},
+        "update-to": null
+      },
+      "openalex": {
+        "http_status": 200,
+        "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nima.2012.02.016",
+        "id": "https://openalex.org/W2055880693",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "landing_page_url": "https://doi.org/10.1016/j.nima.2012.02.016",
+            "pdf_url": null,
+            "source": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment"
+          },
+          {
+            "landing_page_url": "http://publications.lib.chalmers.se/publication/157798-compton-polarimetry-with-a-36-fold-segmented-hpge-detector-of-the-agata-type",
+            "pdf_url": null,
+            "source": "Chalmers Publication Library (Chalmers University of Technology)"
+          },
+          {
+            "landing_page_url": "https://research.chalmers.se/en/publication/157798",
+            "pdf_url": null,
+            "source": "Chalmers Research (Chalmers University of Technology)"
+          },
+          {
+            "landing_page_url": "http://hdl.handle.net/11577/3032665",
+            "pdf_url": null,
+            "source": "Padua Research Archive (University of Padova)"
+          }
+        ]
+      }
+    },
+    {
+      "label": "longfellow",
+      "doi": "10.1016/j.nima.2025.170932",
+      "crossref": {
+        "http_status": 200,
+        "url": "https://api.crossref.org/works/10.1016/j.nima.2025.170932",
+        "DOI": "10.1016/j.nima.2025.170932",
+        "title": [
+          "In-beam angular distribution and linear polarization measurements with GRETINA using a simple energy-ordering approach"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S016890022500734X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S016890022500734X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "relation": {},
+        "update-to": null
+      },
+      "openalex": {
+        "http_status": 200,
+        "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.nima.2025.170932",
+        "id": "https://openalex.org/W7077059174",
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.nima.2025.170932",
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "landing_page_url": "https://doi.org/10.1016/j.nima.2025.170932",
+            "pdf_url": null,
+            "source": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment"
+          },
+          {
+            "landing_page_url": "https://hal.science/hal-05222489",
+            "pdf_url": null,
+            "source": "HAL (Le Centre pour la Communication Scientifique Directe)"
+          },
+          {
+            "landing_page_url": "https://lirias.kuleuven.be/handle/20.500.12942/784449",
+            "pdf_url": null,
+            "source": "Lirias"
+          }
+        ]
+      }
+    }
+  ]
+}

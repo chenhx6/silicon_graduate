@@ -1,0 +1,25 @@
+{
+  "publication_index": 15,
+  "at": "2026-10-18T20:30:11.027621+08:00",
+  "branch": "main",
+  "subject": "Trace DAY16 profile thresholds and conditional identifiability",
+  "commit": "d8818319486e083bb9fb2b10c3a7aca1b296e049",
+  "origin_main": "d8818319486e083bb9fb2b10c3a7aca1b296e049",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "exec_session_id": 51082,
+    "exit_code": 0,
+    "result": "c1388f8..d881831 HEAD -> main"
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": true
+}

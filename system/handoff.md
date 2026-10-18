@@ -10,13 +10,13 @@ updated: 2026-10-18
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16收束。用户恢复覆盖旧completed/closeout-only；goal active/pursuing，next17/count16、completed16/partial17不重计，不开Day18。Farmer PID42019保留，无新session/daemon。
 
-恢复checkpoint015（verification-reopened-009）：Z13另核1368文字Q=.135对curve外推.160，FOM只作同对象条件因子化；Gu96正文未得，但官方NSR1996GU04和200207XUNDL110行已核，targetM/MR空/缺DCO，明确混Cfcompanion且T误差purestatistical。JT74原9页三表六图、真实12项F与实际未改DELTAFunit核；两表不同、legacy/default与精确概率分开。源Fig2动机的positive-density3→2模型exactSymPy/trace给pureM1局部rank1/profileδ^4和条件LR边界；matchedP要独立Q校准，非实验新CI。31changed/31writeback，actualrequired均0、lint0errors160warnings(122key/35raw/3parser)，旧flags保护。
+恢复checkpoint016（verification-reopened-010）：L26原10页/三表七图、Morse UNC13页authorpreprint/12图两表和L25定向Sec5已核。真实25Na1041两支A0同正；p7 E1/M2正号例与Table3冲突，旧L26-15须带新19。Morse半因子Q与GRETINA6quadtracking/GRETA500–2000模拟曲线、7mm仅tuning/P90companion失败已写回；RB/native单emitter桥、Pi工作定义、cut/positive-density/zero-intensity/2hit控制通过。35changed/35items，required最终全0、lint0errors162warnings(123key/36raw/3parser)。首17个新note-schema/M22ExtractedPages错误与writeback缺directlink已修，初失败保留，scienceinputs/旧prefix不改。
 
-稳定指针main / `Trace DAY16 profile thresholds and conditional identifiability`，actualhash/H3/远端结果仅publication015/runreceipt。上一014实际Gitee push/HEAD对账已存；postcommit EOL首次误传--root exit2，正确调用复核0后才push，失败保留。SymPy初缺包exit1，只装repo tmp的1.14.0/mpmath1.3.0，PYTHONPATH=tmp/day16-jt74/python-deps后actualanalysis0，旧helpers未改/第三方不stage。
+稳定指针main / `Audit DAY16 GRETINA calibration conventions and branch evidence`，actualhash/H3/远端结果仅publication016/runreceipt。上一015实际push/HEAD对账已存。L26旧全humanprefix/1–16与L25旧全prefix/1–29每字节保持，新L26-17–26/L25-30 needs_review true；Morse新source unreviewed，VoR公开API只有metadata，勿称VoR逐字核。源码初SymPy矩阵结构== guard失败，component simplify后0；当前result/scriptSHA相符。SymPy1.14/mpmath1.3只在repo tmp，PYTHONPATH同前，第三方不stage。
 
-当前恰好partial17的L26 GRETINA preview：before-source回忆及完整原human-reviewed prefix hash/bytes已冻，rawSHA核正确，tmp/day16-l26-preview/layout.txt已提取。仅已读前两页，需续读3–8完整主线/图表/appendix后才新增claim；关注Pbar/acceptance、Q与A0半因子/energy-order selection身份，不凭前两页下结论。原source全prefix/旧humanreview/flags须byte-preserve，新claims另needs_review true不由旧人审批注背书；不正式17。
+当前同一partial17 bounded问题：L26Fig4top的C(theta)平均。before-analysis/原截止clock/pool011已冻，PDF5确认无embedded raster，tmp/day16-l26-preview/l26-page5.svg已提取/hash存l26-coverage-vector-extraction.json；尚未digitize/算平均。下一按真实ticks锁axis/zero，复算coverage-weightedPbar与声明event-weighted模型；C是1238Co图示coverage非rawjointresponse，theta counts/bin不重复乘sin，不能为目标.35调曲线或据差异判producer错误。原a2=.34/a4=-.12/beta=.044在frozeninputs；不将该C迁给1041。所有科研input/定位见l26-ongoing-route-state.json。
 
-Gu96body APS403/Harvest401/无OA/Scholar超时，NSR初误Gu02只返frontend后已按原Gu04纠正；XUNDL不当primarybody。Daniel2007仅metadata、Jül仅目录、Goodin身份/正文和Krane1973缺口保留，终态不原样重试。沿用17日报/18run-dir/session/resume/deadline，持续至原15:00；exactmanifest/HEAD+ownlog/H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/reviews。
+准备17日prompt仅补priming，不启动/授学分。Alikhani2012body未得，publisherMD providerunavailable未attempt；旧Gu96/Daniel/Jül/Goodin/Krane终态不原样重试。沿用17日报/18run-dir/session/resume，持续至原15:00；exactmanifest/HEAD+ownlog/H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/reviews，不把更多toy当学习量。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

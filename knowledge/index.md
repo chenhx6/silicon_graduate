@@ -9,6 +9,8 @@ updated: 2026-10-18
 
 ## Sources
 
+- [[morse-2022-gretina-polarization-sensitivity]] - 6-quad实测标定、tracking cut/位置tuning反证与模拟GRETA曲线的实际版本/归一边界。
+
 - [[nndc-2007-mo104-selected-gamma-reference-records]] - 104Mo三旧ENSDF对象：gamma-bandidentity/空MR/旧M1标签、reference与2007cutoff；不替2018mixedbranch裁决。
 
 - [[ekstrom-1993-delta101-angular-correlation-code]] - PyNE公开DELTA1.01内容对象实际Fortran执行；KS/RB、独立误差、SIGMA/1000和pure插值边界，不等于2018exactproducer。
@@ -580,6 +582,7 @@ updated: 2026-10-18
 
 ## Research Notes
 
+- [[gretina-25na1041-polarization-response-contract]] - 真实25Na AD双支/同号偏振、matched Q/Π/phase与calibration谱系；无新实验CI。
 - [[w178-921-dco-gate-double-solutions]] - 178W921实测两支、门角色与相同target比的倒数；新条件反演/相位控制保留原producer、response及Cov缺口。
 
 - [[se21-alignment-calibration-consistency]] - 135Pr854.3参考的alpha参数层、positive-population条件证书、Gaussian与pureE2核验；保持实际响应/归一边界。

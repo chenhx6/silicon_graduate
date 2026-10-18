@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T20:36:53.200986+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "82131565e3336c624a46050960110e1be12c6711fb2b627df883c8dd2dec7ec3",
+  "frozen_before_quantitative_replay": true,
+  "visually_checked_tables": [
+    1,
+    2,
+    3
+  ],
+  "old_source_prefix_still_unchanged": true
+}

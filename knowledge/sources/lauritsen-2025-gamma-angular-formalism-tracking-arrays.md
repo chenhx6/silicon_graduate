@@ -145,3 +145,14 @@ Agent self-audit：metadata81→76已由直接publisher与Crossref/Bib处置；�
 可执行路线转为明确的L2独立解释。视觉/文本同号的publisher PDF19 Eq42提供Legendre输入；用经典固定长度sqrt(S)投影z，字面q2/q4与P2/P4参考归一形式相同。另以量子m离散等占据的迹矩正交化四次式，得到精确T4的+25m²−6S修正。[[angular-distribution]]“经典方向权重与量子迹：四阶修正从何而来”保存推导及22项符号恒等核验；这不是声称Ref39/作者程序采用了本推导，也不恢复实验σ/δ或真实三维角动量分布。
 
 新L25-29 true，旧1–28和legacy人审保持。Decision: **supports** 用连续/离散测度解释公式形状并从定义重建低rank正交；**limits** 同题metadata、搜索片段或公式相像充当原书/actualcode证据。原书对应近似声明仍待直接原文，网络边界没有结束整个DAY14窗口。
+
+
+## DAY16必要companion：Q的观测与参考角色
+
+本session仅定向重读本地manuscript Secs.5.1–5.5、Eqs.(27)–(38)和source-calibration Table2/相关图；不冒称重新全文读25页。上方所有旧文本/1–29 flags及既有人审prefix逐字节保留，新增自审不由旧review背书。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| L25-30 | 本文Q由实测ξ曲线/其calculated ideal曲线的amplitude ratio定义；60Co1333在1173 coincidence下measured+.016(.002)、calculated+.048得Q=.33(.04)，Table2另报1442 .31(.05)。这是条件γγ polarizing-reference，不等同Morse无γγ条件的source singles或L26 beam-defined reaction plane；同符号Q的迁移还需gates/response/归一合同。 | calibration-observable-and-reference-role | direct-and-boundary | manuscript printed13对Q的定义；printed16–18 Sec.5.4/Fig.17/Table2；Eq.(34) | true |
+
+Secs.5.1/5.2的P±明取Electric +、Magnetic −，与混合跃迁还需higher-multipole/K系数相位一起用。此处Q是自己folded ideal calculation的经验缩放，不把它未经转换当另一篇的mean KN Sigma；.33与Morse .196不是自动可替换常数。新增与[[longfellow-2026-gretina-energy-ordering-polarization]] L26-22/24及[[morse-2022-gretina-polarization-sensitivity]] M22-5构成定义对照，不增加独立source event数量。

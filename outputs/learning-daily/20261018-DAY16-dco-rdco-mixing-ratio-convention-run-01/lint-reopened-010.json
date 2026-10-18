@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-18T13:50:08.319474+00:00",
+  "exit_code": 1,
+  "summary": "SUMMARY pages=628 wikilinks=6544 hashes=286 errors=17 warnings=162 info=2289",
+  "warning_classes": {
+    "REACTION_PARSE": 3,
+    "CITATION_KEY_MISSING": 123,
+    "RAW_MISSING": 36
+  }
+}

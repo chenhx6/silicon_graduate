@@ -1,0 +1,229 @@
+{
+  "identity": "L26-PARTIAL17-GRETINA-PRINTED-TABLES-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false,
+  "doi": "10.1016/j.nima.2025.170932",
+  "raw_sha256": "fb3b4f5e4dce6a436bb569b64af1914c6b673561374d7867a3d906aef7090df1",
+  "source_page": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+  "rows": [
+    {
+      "nucleus": "25Mg",
+      "E_keV": 1612,
+      "Ji2": 7,
+      "Jf2": 5,
+      "parity_product": 1,
+      "lower": "M1",
+      "upper": "E2",
+      "delta_RB": "0.189(12)",
+      "sigma_over_J": "0.59(3)",
+      "a2_fit": "-0.29(1)",
+      "a4_fit": "-0.05(5)",
+      "a2_theo": "-0.29(3)",
+      "a4_theo": "0.0020(5)",
+      "A0_fit": "-0.011(3)",
+      "A0_pred": "-0.008(3)"
+    },
+    {
+      "nucleus": "25Mg",
+      "E_keV": 1793,
+      "Ji2": 9,
+      "Jf2": 7,
+      "parity_product": 1,
+      "lower": "M1",
+      "upper": "E2",
+      "delta_RB": "0.13(3)",
+      "sigma_over_J": "0.58(4)",
+      "a2_fit": "-0.23(2)",
+      "a4_fit": "-0.04(5)",
+      "a2_theo": "-0.23(4)",
+      "a4_theo": "0.0009(5)",
+      "A0_fit": "-0.012(3)",
+      "A0_pred": "-0.009(3)"
+    },
+    {
+      "nucleus": "25Mg",
+      "E_keV": 3970,
+      "Ji2": 7,
+      "Jf2": 5,
+      "parity_product": -1,
+      "lower": "E1",
+      "upper": "M2",
+      "delta_RB": "0.02(3)",
+      "sigma_over_J": "0.40(10)",
+      "a2_fit": "-0.26(4)",
+      "a4_fit": "-0.03(6)",
+      "a2_theo": "-0.27(7)",
+      "a4_theo_asymmetric": {
+        "central": 0.0001,
+        "lower_error": 0.0001,
+        "upper_error": 0.0004
+      },
+      "A0_fit": "+0.025(8)",
+      "A0_pred": "+0.020(8)"
+    },
+    {
+      "nucleus": "25Na",
+      "E_keV": 1041,
+      "Ji2": 9,
+      "Jf2": 9,
+      "parity_product": 1,
+      "lower": "M1",
+      "upper": "E2",
+      "delta_RB": "0.0(2)",
+      "alternative_delta_RB": -0.85,
+      "sigma_over_J": "0.56(7)",
+      "a2_fit": "0.20(2)",
+      "a4_fit": "0.00(4)",
+      "a2_theo": "0.20(4)",
+      "a4_theo_asymmetric": {
+        "central": 0.0,
+        "lower_error": 0.04,
+        "upper_error": 0.0
+      },
+      "A0_fit": "+0.043(8)",
+      "A0_pred": "+0.021(7)",
+      "alternative_A0_pred": 0.002,
+      "alternative_prediction_error": null
+    },
+    {
+      "nucleus": "25Na",
+      "E_keV": 2419,
+      "Ji2": 9,
+      "Jf2": 5,
+      "parity_product": 1,
+      "lower": "E2",
+      "upper": null,
+      "delta_table": "0",
+      "delta_semantics": "pureE2, not M1/E2delta=0",
+      "sigma_over_J": "0.30(3)",
+      "a2_fit": "0.40(3)",
+      "a4_fit": "-0.10(2)",
+      "a2_theo": "0.38(2)",
+      "a4_theo": "-0.14(2)",
+      "A0_fit": "+0.024(5)",
+      "A0_pred": "+0.038(7)"
+    },
+    {
+      "nucleus": "22Ne",
+      "E_keV": 1275,
+      "Ji2": 4,
+      "Jf2": 0,
+      "parity_product": 1,
+      "lower": "E2",
+      "upper": null,
+      "delta_table": "0",
+      "delta_semantics": "pureE2, not M1/E2delta=0",
+      "sigma_over_J": "0.55(3)",
+      "a2_fit": "0.34(2)",
+      "a4_fit": "-0.12(2)",
+      "a2_theo": "0.34(2)",
+      "a4_theo": "-0.12(2)",
+      "A0_fit": "+0.028(4)",
+      "A0_pred": "+0.035(4)"
+    },
+    {
+      "nucleus": "22Ne",
+      "E_keV": 2083,
+      "Ji2": 8,
+      "Jf2": 4,
+      "parity_product": 1,
+      "lower": "E2",
+      "upper": null,
+      "delta_table": "0",
+      "delta_semantics": "pureE2, not M1/E2delta=0",
+      "sigma_over_J": "0.35(2)",
+      "a2_fit": "0.36(2)",
+      "a4_fit": "-0.12(2)",
+      "a2_theo": "0.36(2)",
+      "a4_theo": "-0.12(2)",
+      "A0_fit": "+0.025(5)",
+      "A0_pred": "+0.036(5)"
+    },
+    {
+      "nucleus": "22Ne",
+      "E_keV": 2166,
+      "Ji2": 8,
+      "Jf2": 8,
+      "parity_product": 1,
+      "lower": "M1",
+      "upper": "E2",
+      "delta_RB": "-0.04(3)",
+      "sigma_over_J": "0.33(7)",
+      "a2_fit": "0.39(5)",
+      "a4_fit": "-0.05(6)",
+      "a2_theo": "0.39(6)",
+      "a4_theo_asymmetric": {
+        "central": -0.0003,
+        "lower_error": 0.0007,
+        "upper_error": 0.0003
+      },
+      "A0_fit": "+0.030(7)",
+      "A0_pred": "+0.035(8)"
+    }
+  ],
+  "locators": {
+    "Table1": "PDF/printed5",
+    "Table2": "PDF/printed7",
+    "AD_physical_formulas": "p2 Eq1-13",
+    "response": "p2 Eq14-16; p3 Eq17; p6 Eq19",
+    "beta": "p3 Fig1 labels",
+    "sign_conflict": "p7 Appendix example sentence vs p8 Table3 E1+M2DeltaJ0",
+    "Fig7_delta": "p8 x-axis dimensionlessdelta(-8..8), caption callsmixingangle, not atan/degreeinput"
+  },
+  "beta_Fig1": {
+    "25Mg": 0.048,
+    "25Na": 0.046,
+    "22Ne": 0.044
+  },
+  "beta_error": null,
+  "response": {
+    "Q_Eq19_p0": 0.131,
+    "Q_Eq19_p1_per_keV": 0.000325,
+    "electron_rest_energy_keV": 511.0,
+    "Q1368_Morse22": [
+      0.196,
+      0.002
+    ],
+    "Q1368_definition_pending_companion": true,
+    "Q1333_Lauritsen25": [
+      0.33,
+      0.04
+    ],
+    "Q1442_Lauritsen25": [
+      0.31,
+      0.05
+    ],
+    "Nxi_model": "N(1-A0 cos2xi)",
+    "source_A0_relation": ".5 Q Pbar",
+    "Q_parameter_covariance": null,
+    "AD_A0_covariance": null,
+    "event_response_matrix": null
+  },
+  "Fig4_1275": {
+    "source_energy_keV": 1238,
+    "source_isotope": "56Co",
+    "theta_cut_rad": [
+      1.4,
+      1.75
+    ],
+    "Pbar_full_approx": 0.35,
+    "Pbar_cut_approx": 0.53,
+    "A0_full": 0.028,
+    "A0_cut": 0.044,
+    "acceptance_curve_available": "publishedFig4top only; no raw histogram/response matrix",
+    "counts_loss_exact": null
+  },
+  "setup": {
+    "reaction": "18O on9Be fusion-evaporation,55MeV",
+    "array": "12quads,47/48crystals used,4quadseach90/122/148degrees",
+    "order": "highest depositedenergy first,second-highest second; noaddback,independentcrystals",
+    "polarization_selection": "atleast2points,sumDoppler-correctedfullenergypeak; source sortedsameway atsimilarenergy",
+    "minimum_number_of_points": 2,
+    "actual_point_ledger": null
+  },
+  "data_availability": "on request; no messages authorized/sent",
+  "error_contract": "quotederrors preserved; figures2/5 statistical bars, table uncertainties recipe/crossCov not fully reconstructable; no independent-row chi2 or newexperimentalCI"
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-18T13:59:20.455477+00:00",
+  "source": "L26 PDF5 Fig4top,alreadyreadprimary",
+  "input_raw_sha256": "fb3b4f5e4dce6a436bb569b64af1914c6b673561374d7867a3d906aef7090df1",
+  "pdfimages_page5_image_count": 0,
+  "pdftocairo_svg_exit": 0,
+  "path": "tmp/day16-l26-preview/l26-page5.svg",
+  "scope": "vector extraction only; Ctheta notyetdigitized,noaveragescomputed",
+  "not_raw_detector_response": true,
+  "svg_sha256": "5ea9cb6c89efd7209dea36a36917b7863afb032f0c3ea517b80cc78183ca244b",
+  "bytes": 1247704
+}

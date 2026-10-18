@@ -164,3 +164,10 @@ Self-audit：`supports`shared observable对joint假设的条件约束；`limits`
 前两项A与σ相同，不能仅用负号把两者都判成磁跃迁。spin path、geometry与DCO支持不同ΔJ，再同偏振一起限制性质；本例绝对Jπ仍依赖作者采用的(9/2+)基态。这里各门是原表DCO门，论文未给逐线Compton gate ledger，不能声称偏振选样已与它完全匹配或与R统计独立。
 
 同target也须保留门身份：898.5在Table II用974门得1.01(.01)，Fig.2的497门由两角净面积得.96426并印.96(.02)。二者不是同一观测。436-keV doublet也需parent/child，不能将upper435.9的E2偏振移给436→0弱线。Q(E)>0只允许从该约定的A得到P的符号，不能取消这些谱学/选择条件。参见[[compton-polarimetry]]的校准Cov与同数据回代边界（Z13-7/9/10/11）。
+
+
+## 25Na1041：同号A0与source具体例句的复核
+
+[[longfellow-2026-gretina-energy-ordering-polarization]] L26-18的9/2+→9/2+真实AD数据允许作者δRB约0/−.85，两支predicted A0分别+.021/.002，同为正；实测+.043(.008)。作者在adopted response/布居下偏好0，不能只由符号作同一选择。AD与ξ共享当前事件，Q又借上游model calibration，完整Cov和另一支sigma/error未给；不把quoted margins当独立联合显著性。
+
+L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fig7条件下，δ0的M1/E2 P90=.726274而E1/M2为−.726274。旧L26-15须连同新对照使用，不把p7单句当普遍规则；旧人审prefix/flags保留，新自审needs_review。[[gretina-25na1041-polarization-response-contract]]另将Pi、upper multipole、RB/nativeδ及A0=Q Pbar/2定义分开，避免从同名符号推断同一observable。

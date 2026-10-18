@@ -299,16 +299,41 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": true
+    },
+    {
+      "publication_index": 15,
+      "at": "2026-10-18T20:30:11.027621+08:00",
+      "branch": "main",
+      "subject": "Trace DAY16 profile thresholds and conditional identifiability",
+      "commit": "d8818319486e083bb9fb2b10c3a7aca1b296e049",
+      "origin_main": "d8818319486e083bb9fb2b10c3a7aca1b296e049",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "push_observation": {
+        "exec_session_id": 51082,
+        "exit_code": 0,
+        "result": "c1388f8..d881831 HEAD -> main"
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-009",
-  "last_verification": "verification-reopened-009.json",
-  "knowledge_writeback_items": 31,
-  "last_learning_summary": "Z13 FOM1368point/curve boundary; actualNSR/110lineXUNDLobject; JT74whole9pages/Ftables/actualDELTAFunit and source-motivated positive-density pureM1 nonregularprofile, matchedP/Qrank; no actualexperimentalCI.",
-  "knowledge_changed_pages": 31,
+  "last_checkpoint": "reopened-010",
+  "last_verification": "verification-reopened-010.json",
+  "knowledge_writeback_items": 35,
+  "last_learning_summary": "L26 full10pages/MorseUNCpreprint13/L25targetedscope; actual25Na1041same-positivebranchA0, sourceproseTable3conflict; explicitRB/nativePi/Qnormalization, fourcut/density/2hitfailurecontrols. New35items preservealloldhumanprefixbytes.",
+  "knowledge_changed_pages": 35,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "L26 GRETINA energy-ordering same uncreditedDay17preview; before-source recall/fullhumanreviewprefixhash frozen, rawhash verified; first2pages theory read, remainingmainline/figures/tables/appendix to read before newclaims.",
+  "current_research_route": "Same permittedDay17preview, current L26Fig4 coverage-averaging issue. Before-analysis/clock/pool011 frozen, page5 vectorSVG extracted(noembeddedimages); no averages/digitization yet. Finish publication16 of existing35itemscanonical, then conditional source-curve folding notrawresponse reconstruction.",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -410,10 +435,10 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-18T20:18:29.623914+08:00",
+    "now_local": "2026-10-18T22:03:12.072178+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "source": "candidate-refresh-reopened-010.json",
-    "decision": "continue-with-one-bounded-Day17-preview",
+    "source": "candidate-refresh-reopened-011.json",
+    "decision": "continue-current-bounded-analysis",
     "completed_day_indices": [
       16
     ],
@@ -431,5 +456,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-014.json"
+  "last_publication": "publication-015.json"
 }

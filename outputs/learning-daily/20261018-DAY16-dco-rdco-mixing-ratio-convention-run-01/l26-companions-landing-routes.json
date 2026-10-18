@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-18T12:38:17.243041+00:00",
+  "results": [
+    {
+      "label": "morse-escholarship",
+      "url": "https://escholarship.org/uc/item/3cg7176d",
+      "final_url": "https://escholarship.org/uc/item/3cg7176d",
+      "status": 202,
+      "bytes": 0,
+      "content_type": "text/html; charset=UTF-8",
+      "links": [],
+      "text_tail": ""
+    },
+    {
+      "label": "morse-unc",
+      "url": "https://doi.org/10.17615/4vxa-4h20",
+      "final_url": "https://cdr.lib.unc.edu/concern/articles/2f75rj951",
+      "status": 200,
+      "bytes": 35020,
+      "content_type": "text/html; charset=utf-8",
+      "links": [
+        "https://cdr.lib.unc.edu/downloads/9s161h65x?file=thumbnail",
+        "https://cdr.lib.unc.edu/concern/articles/2f75rj951?locale=en",
+        "http://cdr.lib.unc.edu/downloads/9s161h65x",
+        "/concern/articles/2f75rj951?locale=en",
+        "/downloads/9s161h65x?locale=en",
+        "/concern/articles/2f75rj951.endnote?locale=en",
+        "/concern/articles/2f75rj951.ris?locale=en",
+        "/concern/file_sets/9s161h65x?locale=en",
+        "/concern/parent/2f75rj951/file_sets/9s161h65x",
+        "/downloads/9s161h65x?locale=en"
+      ],
+      "text_tail": "4π solid angle coverage and the ability to identify the location of Compton-scattering events to within a few millimeters, this limitation can be overcome. Here we present a characterization of the performance of the Gamma Ray Energy Tracking In-beam Nuclear Array (GRETINA) as a Compton polarimeter using the 24Mg(p,p′) reaction at 2.45 MeV proton energy. We also discuss a new capability added to the simulation package UCGretina to simulate the emission of polarized photons, and compare it to the measured data. Finally, we use these simulations to predict the performance of the Gamma Ray Energy Tracking Array (GRETA). Date of publication 2022 Keyword Polarization Tracking detectors DOI https://doi.org/10.17615/4vxa-4h20 Identifier https://dx.doi.org/10.1016/j.nima.2021.166155 Resource type Article Rights statement In Copyright Journal title Nuclear Instruments and Methods in Physics Research, Section A: Accelerators, Spectrometers, Detectors and Associated Equipment Journal volume 1025 Language English Version Preprint ISSN 0168-9002 Publisher Elsevier B.V. Relations Parents: This work has no parents. Items Thumbnail Title Date Uploaded Visibility Actions 1835119.pdf 2023-02-16 Public Download Home Collections About Us Help Contact Us Library Home Privacy Policy Accessibility Hy-C v4.1.1 Deployed on October 12, 2026 Hyrax version 5.3.0 Select type of work × Master's Papers Deposit your masters paper, project or other capstone work.  Theses will be sent to the CDR automatically via ProQuest and do not need to be deposited. Scholarly Articles and Book Chapters Deposit a peer-reviewed article or book chapter.  If you would like to deposit a poster, presentation, conference paper or white paper, use the “Scholarly Works” deposit form. Undergraduate Honors Theses Deposit your senior honors thesis. Scholarly Journal, Newsletter or Book Deposit a complete issue of a scholarly journal, newsletter or book.  If you would like to deposit an article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option. Datasets Deposit your dataset.  Datasets may be associated with an article or deposited separately. Multimedia Deposit your 3D objects, audio, images or video. Poster, Presentation, Protocol or Paper Deposit scholarly works such as posters, presentations, research protocols, conference papers or white papers. If you would like to deposit a peer-reviewed article or book chapter, use the “Scholarly Articles and Book Chapters” deposit option. Close"
+    },
+    {
+      "label": "alikhani-chalmers",
+      "url": "https://research.chalmers.se/en/publication/157798",
+      "error": "ConnectionError: HTTPSConnectionPool(host='research.chalmers.se', port=443): Max retries exceeded with url: /en/publication/157798 (Caused by NameResolutionError(\"HTTPSConnection(host='re"
+    }
+  ]
+}
