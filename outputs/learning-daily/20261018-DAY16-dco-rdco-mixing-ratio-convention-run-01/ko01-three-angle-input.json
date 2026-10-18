@@ -1,0 +1,42 @@
+{
+  "identity": "DAY16-KO01-THREE-ANGLE-1003-01",
+  "frozen_at": "2026-10-18T12:52:24.334131+08:00",
+  "source": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+  "raw_sha256": "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755",
+  "spins": [
+    3,
+    2,
+    0
+  ],
+  "target_energy_keV": 1003.3,
+  "target_parent_energy_keV": 1360.5,
+  "reference_energy_keV_derived_from_level_scheme": 357.2,
+  "reference": "2+_1 to0+_1 pureE2; level/energy approx, not responsecalibration claimed",
+  "phase": "source TableI RoseBrink δRB=-4.5(.4); D96/KS commonBM coordinate is opposite sign only after normalizedphasebridge",
+  "source_delta_RB": [
+    -4.5,
+    0.4
+  ],
+  "source_example_coefficients_calculated": {
+    "A2": -0.0321,
+    "A4": -0.0778,
+    "kind": "authors calculated coefficients at example, not independent measurements, not exactdatarefit"
+  },
+  "angles_opening_deg": [
+    180,
+    90,
+    55
+  ],
+  "geometry_model": "unoriented rhoI/7, point response, nofeedingorfinitegeometry; first at0,secondatopeningangle, noexperimentalreferencecode/run",
+  "inverse_witness": "Derive ratios from frozen authors calculatedcoefficients; label them computed shape witness, not digitized experimentalhorizontalband or original counts",
+  "requested_checks": [
+    "sourceFtensor versus photonLegendre",
+    "literalpurelimits",
+    "allprojectiveroots ofoneR",
+    "companionratio secondroot distinction",
+    "two ratios invertfullcoefficients",
+    "rank4magnitudeandrank2signidentifiability underfixedpath",
+    "shared90denominatorCov formula, no inventedΣ",
+    "18numericdelta table rows comparedtononunique andasteriskrows, no automaticallcasesunique"
+  ]
+}

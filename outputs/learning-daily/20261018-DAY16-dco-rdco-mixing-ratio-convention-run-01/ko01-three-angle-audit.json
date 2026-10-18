@@ -1,0 +1,139 @@
+{
+  "identity": "DAY16-KO01-THREE-ANGLE-1003-01",
+  "input_sha256": "3b26c10c5f2a06b5ac331e0466cc584b7bbfd68189b7d00602cb8b9fa6a88062",
+  "script_sha256": "7943f379ed54e6dfd2460de635cdd4f1c322b02243ccbc7f3334116100dad82b",
+  "A0_A2_A4_quadratic_matrices_D96": [
+    [
+      [
+        1.0,
+        -3.0531133177191805e-16
+      ],
+      [
+        -3.0531133177191805e-16,
+        1.0
+      ]
+    ],
+    [
+      [
+        -0.07142857142857151,
+        0.39123039821797584
+      ],
+      [
+        0.39123039821797584,
+        -0.20408163265306134
+      ]
+    ],
+    [
+      [
+        2.7755575615628914e-16,
+        1.3877787807814457e-16
+      ],
+      [
+        1.3877787807814457e-16,
+        -0.08163265306122436
+      ]
+    ]
+  ],
+  "sourceF_vs_photon_max_coefficient_error": 8.881784197001252e-16,
+  "source_RB_delta_central": -4.5,
+  "point_model_coefficients_at_source_mapped_central": [
+    0.9999999999999998,
+    -0.03214155523253086,
+    -0.07779111644657843
+  ],
+  "authors_printed_calculated_coefficients": [
+    1.0,
+    -0.0321,
+    -0.0778
+  ],
+  "point_minus_printed_coefficients": [
+    -2.220446049250313e-16,
+    -4.15552325308613e-05,
+    8.883553421559776e-06
+  ],
+  "computed_shape_witness": {
+    "W180_W90_W55": [
+      0.8901,
+      0.986875,
+      1.0301766718509986
+    ],
+    "R180": 0.9019379354021533,
+    "R55": 1.0438775648901824,
+    "measured_counts_or_fitbands": false
+  },
+  "single_ratio_all_roots": [
+    {
+      "d_D96": 0.004919004498349859,
+      "d_RB": -0.004919004498349859,
+      "R180_from_printed_coefficient_witness": 0.9019379354021534,
+      "R55_model_prediction": 0.9677404136865438,
+      "R55_witness_difference": -0.07613715120363851
+    },
+    {
+      "d_D96": 4.498979484658692,
+      "d_RB": -4.498979484658692,
+      "R180_from_printed_coefficient_witness": 0.9019379354021534,
+      "R55_model_prediction": 1.0438667550244503,
+      "R55_witness_difference": -1.0809865732097634e-05
+    }
+  ],
+  "two_ratio_linear_inversion": {
+    "H": [
+      [
+        1.4509689677010766,
+        0.661773274224193
+      ],
+      [
+        0.5154236749508398,
+        -0.776640936453781
+      ]
+    ],
+    "determinant": -1.4679755108256236,
+    "recovered_A2_A4": [
+      -0.03209999999999991,
+      -0.07780000000000012
+    ]
+  },
+  "rank4_then_rank2_sign_check": [
+    {
+      "d_D96": -4.505469401304627,
+      "d_RB": 4.505469401304627,
+      "A2_prediction": -0.3633689030447068,
+      "A2_witness_difference": -0.3312689030447068
+    },
+    {
+      "d_D96": 4.505469401304627,
+      "d_RB": -4.505469401304627,
+      "A2_prediction": -0.032338239812436664,
+      "A2_witness_difference": -0.00023823981243666775
+    }
+  ],
+  "printed_calculation_rounding_box": {
+    "half_last_digit": 5e-05,
+    "atan_d_D96_degrees_preimage": [
+      [
+        77.46433490195078,
+        77.47182477205699
+      ]
+    ],
+    "mapped_source_central_d_inside": true,
+    "confidence_level": null,
+    "kind": "printing precision, not experimental uncertainty"
+  },
+  "ratio_jacobian_at_computed_witness": [
+    [
+      1.013299556681444,
+      -0.9139333100971788,
+      0.0
+    ],
+    [
+      0.0,
+      -1.057760673732927,
+      1.013299556681444
+    ]
+  ],
+  "independent_count_only_crosscov_formula": "Cov(R180,R55) = R180*R55*Var(X90)/X90^2 if all three raw yields independent; actual background/efficiency/event covariance must be added via J Sigma J^T.",
+  "experimental_covariance_known": false,
+  "boundary": "Fixed-path unoriented point calculation with printed author-calculated coefficients. Approximate published coefficients are not independent measured angular coefficients; no new delta, confidence or array-response replay.",
+  "all_internal_checks_passed": true
+}

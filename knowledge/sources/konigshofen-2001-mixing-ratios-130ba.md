@@ -3,7 +3,7 @@ type: source
 title: "Königshofen et al. 2001 - Multipole mixing ratios in 130Ba"
 aliases: [Königshofen 2001 130Ba mixing ratios]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-18
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -71,8 +71,22 @@ The paper asks whether multi-angle γγ directional correlations can determine u
 | KO01-3 | M1 corrections reconcile earlier `B(E2)` ratios for `2+_3` and `4+_3` branches with consistent-Q calculations. | model-data-comparison | mixed | PDF p.037302-2, Table I | true |
 | KO01-4 | `4+_3→3+_1` has no unique mixing ratio; only pure M1 is excluded. | ambiguity/limitation | direct | PDF p.037302-2 | false |
 | KO01-5 | Strong M1 admixtures near 1.7 MeV are consistent with mixed-symmetry states, but absolute M1 strengths are needed. | author-interpretation | indirect | PDF p.037302-3 | true |
+| KO01-6 | 原文TableI共40条跃迁行，18行给finite delta/error；其余pure/unknown/parenthesized标签及污染asterisk条目不同层。旧Scope的all18transitionrows措辞不准确，以本条及原表优先；“18个唯一numeric值”不等于全表40行都唯一。 | table-scope-correction | direct-and-self-audit | 037302-2 TableI与caption；037302-1 abstract/body | true |
+| KO01-7 | Fig2实例为1003.3-keV的3+_1→2+_1→0+_1、第二条pureE2，TableI/Fig2报告RoseBrink delta=−4.5(.4)。正文−.0321/−.0778明确是作者calculated P2/P4系数，不是两份新实测独立coefficients。 | experimental-example-and-calculation-identity | direct | 037302-1右栏；037302-2 Fig2/caption/TableI | true |
+| KO01-8 | 三个角是两个gamma的openingangles180/90/55度，不是beam-angle DCO交换式。两correctedW ratios共享W90与数据/efficiency条件，不能因函数形式不同就当统计独立；原文未提供完整Cov或pair效率/finite-response文件。 | observable-and-covariance-boundary | direct-and-self-audit | 037302-1实验/分析段、Fig1；037302-2 Fig2 | true |
+| KO01-9 | 在本任务unoriented3→2→0 point模型、normalizedRB→KS/D96换号后，deltaRB−4.5给A2−.03214156/A4−.07779112，与作者四小数计算值按舍入相容。从这些印刷计算系数构造的R180 witness仍有两根，R55可区分；不是重提取原实验delta或原response重放。 | bounded-formula-reconstruction | task-calculation | KO01 Fig2/TableI；D96 Eq3/7；day16_ko01_three_angle_audit.py | true |
+| KO01-10 | 1918.3-keV3-到正宇称4+/2+的delta.06(.05)/.03(.08)若按最低mixedmultipoles解释是M2/E1，不是E2/M1。TableI的RoseBrink sign仍需按operator定义用；generic delta平方份额不能全部叫E2 fraction。 | parity-and-multipole-pair-boundary | direct-and-self-audit | 037302-2新3-赋值段、TableI末两行；037302-3 Fig3 | true |
+| KO01-11 | 4+_3→3+_1的483.5线仍没有unique delta、只排pureM1；其branch92*与BE2<130*来自污染估计无error，不能当普通Gaussian data。强M1支持mixedsymmetry解释但作者仍要求absoluteM1，不由relative fraction直接确认模式。 | unresolved-case-and-structure-boundary | direct | 037302-2正文/TableIcaption及483.5行；037302-3结论 | true |
 
 ## Summary
+
+### 2026-10-18独立Day16原件重核
+
+已先冻结受旧source摘要priming的回忆，再完整读3页原件/所有Fig1–3和TableI关键列，原hash匹配；Crossref重新核六作者、2001/PRC64/DOI，metadata页码空白不补造。所有40行的parent/gammaenergy/delta标签已typed核数，18行finite值；branching/BE2列只在当前问题必要行核原图，没有将全部派生列作为本session新重算。
+
+旧Scope中“all18transitionrows”按KO01-6更正使用，但原KO01-1–5的review flags保持。新6–11及本段是Codex self-audit、needs_review:true，未产生人审。主线是offbeam130Laβ+/EC→三openingangle组→效率修正的两个形状比→pureE2-gatedδ→修正M1对BE2的影响→IBA比较和absoluteM1缺口；不外推为所有case的唯一模式。
+
+[[angular-correlation]]“130Ba的两个opening-angle比值”保存本session的新fixedpath核验、单ratio两根、第二shape区分和shared-denominatorΣ门。作者calculated四小数与本任务精确point结果在舍入范围相容，不能把calculatedcoefs又作为独立experiment叠加。Fig2未给rawcounts/数表/联合likelihood，本任务未从图的横线伪造experimentalCov或重新测δ。
 
 Königshofen *et al.* provide a direct three-angle angular-correlation determination of 18 `130Ba` mixing ratios. The results correct B(E2) systematics and expose strong M1 components in higher collective states, while preserving a concrete no-unique-solution case.
 

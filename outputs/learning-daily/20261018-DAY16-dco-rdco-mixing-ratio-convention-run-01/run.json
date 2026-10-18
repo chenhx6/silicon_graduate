@@ -63,11 +63,17 @@
       "subject": "Audit DAY16 evaluated W178 references and correlation approximation limits",
       "commit_hash": "f301ca9a97fe0d378d30cbbe1d6954af73ab3f71",
       "outcome": "pushed"
+    },
+    {
+      "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-003.json",
+      "subject": "Trace DAY16 W178 conversion measurements and revised DCO assignments",
+      "commit_hash": "56e1d74c7f0ff4daf9fdb779d0cddc620c8451ac",
+      "outcome": "pushed"
     }
   ],
-  "last_checkpoint": "003-content",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-006.json",
-  "knowledge_writeback_items": 12,
-  "last_learning_summary": "Actual1997primary retrieved; matched delayed electron/gamma contract, truncateda2 estimator and later3525 spin/time counter-evidence; K theory fixed comparison retained as conditional.",
-  "knowledge_changed_pages": 12
+  "last_checkpoint": "004-content",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-007.json",
+  "knowledge_writeback_items": 13,
+  "last_learning_summary": "Independent130Ba three-angle source confirms conditional branch selection, shared90 covariance and40rows/18finite scope; W178 primary/calibration and true counter-evidence preserved.",
+  "knowledge_changed_pages": 13
 }

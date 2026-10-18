@@ -66,6 +66,7 @@ updated: 2026-10-18
 | [NNDC178W](../../knowledge/sources/nndc-2009-178w-dco-reference-records.md) | 四个官方选定对象/固定栏与所选AD/Kexp记录 | 评价转述旧采集，不计新实验；raw归档/Bib缺口保留 |
 | [KB08](../../knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md) | 13页正文主线+AppendixA/selected W row与实际两次新FO查询 | 理论数据与reported Kexp分层；旧人审prefix完整保留，新claims true |
 | [Purry1997](../../knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md) | Surrey112页实际PDF；定向实验/分析主线、原表、目标与反证/summary | primary；与1998paper/评价重复数值按依赖，wholethesis仅skimmed |
+| [KO01](../../knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md) | 3页全文主线/原图/TableI40行标签与Fig2例 | 独立offbeam130Ba实验；两个ratios并非两次独立实验，calculatedcoefs不当实测 |
 | Dors1979 | Crossref核六作者、NPA314(1)61–79、DOI10.1016/0375-9474(79)90555-4；全文未取得 | 元数据可定位177Hf(α,3nγ)，不据题名补写δ定义或当新增实证 |
 
 四份实际raw的SHA-256分别与source页匹配；KF89存大写hex，首个提取器因case-sensitive比较退出1，归一hex大小写后确认同一hash，raw未改。渲染与OCR均在`tmp/day16-source-reading/`；无raw/PLAN/Bib写入。Crossref题名/作者/年份/卷页是外部元数据核对，不替代原件数值和locator。
@@ -121,6 +122,16 @@ OpenAIRE定向thesis检索返回Surrey公开delivery，nature-downloader实际�
 P97-4原AD采用另一prompt/earlydelayedselection、拟合W0(1+a2P2)；它不直接等于fullA2，也不自动与delayedK共用ρ。[冻结estimator input](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-estimator-input.json)、[target ledger](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-thesis-target-input.json)、[程序](../../system/scripts/day16_purry_observable_ledger.py)/[核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/purry-observable-ledger-audit.json)核实际47/97/148三角full设计秩3；equalweight point诊断c0=−.00954915/c2=−.44481479，reported a2=(A2+c2A4)/(1+c0A4)。实际weights未知，不能用此反解原A4；任意positive diagonalweights的c2界跨零[−1.100076,.954230]，原geometry本身不恢复estimator。
 
 P97-8是比条件toy更直接的反证：作者用290KICC=.027(+.004/−.007)、prompttiming和68/61低能符合，把旧3525态I14/35ns改为13-/T1/2<1ns，30±1ns改归3654态。旧KF89历史结论保留，新KF89-20链接此后续原件；不能仅凭原abstractestablished14忽略修订，也不能把另一态spin改变误贴到921的11→10路径或量化原δ变化。原producer/response不足仍有真实适用边界。
+
+### 后续：130Ba独立三角度实验的真实选支条件
+
+W178当前primary/producer路线到达输入边界后，[candidate-refresh-004](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-004.json)选择一个仍属Day16的novelty问题；Day17科学预习尚未开始。来源前[primed recall冻结](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ko01-recall-freeze.json)后，完整读KO01三页/所有Fig1–3/TableI关键列，原hash匹配。实际offbeamβ实验与此前W178采集独立，puregate/phase等理论定义仍共享谱系。
+
+[TableI typed scope](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ko01-table-scope.json)核40条跃迁、18行finiteδ，并非“全表只有18行”或所有都unique；483.5keV未解/星号无误差保留，负宇称末两行是E1/M2。原KO01-1–5 flags不变，新6–11为selfaudit。
+
+[冻结input](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ko01-three-angle-input.json)/[新程序](../../system/scripts/day16_ko01_three_angle_audit.py)/[结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/ko01-three-angle-audit.json)复算Fig2的3→2→0 pureE2gate，normalized相位桥d_D96=−δRB=4.5给A2−.03214156/A4−.07779112，与作者calculated−.0321/−.0778按尾位舍入相容；两计算路径差<9e−16。印刷coefs构造的shapewitness R180=.90193794单独仍给d≈.004919/4.498979，R55预测约.9677404/1.0438668；第二比可在这个固定模型下挑branch。
+
+两R可线性恢复normalized A2/A4，rank4约束magnitude、rank2interference选sign；但两者共享W90，原Σ未知。图中横线没有数值表/likelihood，computedwitness/舍入preimage不是experimentalmeasuredcounts或新δCI。这个真实成功例不抹去4+_3→3+_1失败例，也不令relativeM1自动成为absoluteB或mixedsymmetry证明。canonical angular-correlation保存公式、输入、全根、Cov条件和核结构companion缺口。
 
 ## Counter-evidence and missing companion observables
 
@@ -316,7 +327,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。",
+      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。",
       "anchor": "高自旋factorization的使用边界",
       "sources": [
         {
@@ -334,6 +345,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
           "locator": "BT87-7"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-7"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-8"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-9"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-10"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-11"
         }
       ]
     },
@@ -495,6 +526,37 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "P97-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "summary": "本session完整核3页原图，TableI40行/18finiteδ与未解/星号范围分开；1003例按原phase/计算coefs作有界双比复算，不重造实验counts/CI。",
+      "anchor": "2026-10-18独立Day16原件重核",
+      "sources": [
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-6"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-7"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-8"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-9"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-10"
+        },
+        {
+          "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+          "locator": "KO01-11"
+        }
+      ]
     }
   ]
 }
@@ -520,6 +582,8 @@ L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3当前�
 - QMD status exit0：562 indexed/2459 vectors、349 orphan chunks、38 pending，更新停于11天前；本轮直接查canonical与原件，外部cache刷新deferred，不称索引已包含新页。
 - 最新[verification-checkpoint-006.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-006.json)：12 changed知识页/writeback有效，boundary/diff/lint exit0；0 errors/150 warnings（117 citation-key missing、30 raw missing、3 reaction parser）；primary PDF hash、保护文件及KB08既有人审prefix保持通过。新增Purry archive/Bib缺口显式保留。
 - 新科学checkpoint稳定指针main / `Trace DAY16 W178 conversion measurements and revised DCO assignments`；actualhash/H3/push outcome只记receipt。研究与goal继续active，无formal16或Day17credit。
+- 最新[verification-checkpoint-007.json](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-007.json)：13 changed知识页/writeback有效，boundary/diff/lint exit0、0 errors/150 warnings，KB08 prefix与保护文件通过。独立130Ba原件/case复算不用于重记Day15成果。
+- 当前扩展稳定指针main / `Compare DAY16 DCO ambiguities with the independent Ba130 experiment`，exacthash/H3/push仅receipt；仍active/partial16，没有Day17科学preview或credit。
 - 当前续接：[continuation-current.md](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)。原run/goal仍active，不能以本页完成提前结束学习窗口。
 
 下一步围绕新取得thesis的Ki90磁透镜方法与实际校准/峰分解边界继续当前问题；thesis定向主线已核，1998paper仍未取得，不重复终态失败。本次K-shell理论batch已完成，不再任意query强配。169/137 primary/producer仍缺。四个NNDC对象已取得并canonical；BT87固定检查已完成，不再扩大同网格。Dors的OA-only/public discovery无PDF、S2无OA URL、Scholar一次timeout，均留证；不把TDM许可标签当OA或全文证据。只有当前问题饱和才按原时间门检查恰好Day17知识预习；不授Day17学分、不打开Day18。

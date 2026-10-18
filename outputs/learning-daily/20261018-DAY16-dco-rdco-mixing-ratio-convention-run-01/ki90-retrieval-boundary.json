@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-18T12:57:10.901866+08:00",
+  "doi": "10.1016/0168-9002(90)90294-G",
+  "metadata_verified": {
+    "title": "Lens-mode operation of a superconducting electron spectrometer in (HI,xn) reactions",
+    "authors": [
+      "T.Kibedi",
+      "G.D.Dracoulis",
+      "A.P.Byrne"
+    ],
+    "year": 1990,
+    "volume": 294,
+    "pages": "523–533"
+  },
+  "body_obtained": false,
+  "routes": {
+    "OA_only_downloader": {
+      "status": "oa_not_found",
+      "PDFs": 0,
+      "manifest_sha256": "4e14afb2bc407277374cad78f8c0022404353e20a3869c19894c185c5d7519f8"
+    },
+    "publisher_public_discovery": "HTTP200 landing, no_candidate",
+    "OpenAIRE": "Only UQmetadata record; UQdomain previous403 not retried",
+    "ANU_exact_title": "Returned unrelated2020/2018papers, no titlematch; not downloaded as substitute"
+  },
+  "boundary": "This is a source-access readiness boundary, not evidence of actual1997W178 response or proof that all lawful access routes are exhausted. Do not retry unchanged terminal routes."
+}

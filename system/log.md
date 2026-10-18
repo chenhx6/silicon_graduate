@@ -1814,3 +1814,8 @@ Run2026-10-16-day-15-01/session01a14510-aec7-7e00-aa23-f7c77a5124bc：07:28:56�
 ## 2026-10-18T12:46:32.280990+08:00 — DAY16 checkpoint003: actual Purry primary and K-shell contract
 
 同run/session持续active、原2026-10-19 15:00上海截止不改。两新W74FO理论K与reportedKcompanion比较未自动选现有两点；KB08旧prefix全字节保留。公开Surrey1997thesis实际下载112页、May1997/作者/hash核准，实验/analysis/目标表与summary定向读，整体skimmed不假称全书。原K装置/50–400ns与AD prompt/P2only合同、actualgeometryestimator及后续3525 I14/35ns→13-/<1ns、3654~30ns反证canonical；不改KF89历史/新测921δ或模式。writeback12changed/12items、lint0errors/150warnings、boundary/diff/primaryhash/保护/prefix均通过；raw/PLAN/Bib/旧review不动。Ki90原装置方法body未得，仍可评估当前高信息route后再partial17。课程next16/count15、partial16无formal16/17。稳定指针main / Trace DAY16 W178 conversion measurements and revised DCO assignments；actualhash/H3/push只receipt。
+
+
+## 2026-10-18T12:59:05.059898+08:00 — DAY16 checkpoint004: independent130Ba three-angle comparison
+
+同run/session持续active，原2026-10-19 15:00上海截止不改。primedfreeze后完整读KO01 3页/全Fig关键表，TableI40row/18finiteδ/未解star及E1M2界分开。新3→2→0 point/F按RB换号吻合作者calculatedcoefs舍入；单R双根由第二shape区分，sharedW90Cov不假独立、calculated值不作实验CI。canonical13changed/13writeback，lint0errors/150warnings、boundary/diff/prefix/protected通过。W178actualprimary/290KICC旧赋值反证仍保留，Ki90body未得不假读/原样重试；接下来refresh候选与clock后仅可partial17知识preview，无formal17/Day18。课程next16/count15、partial16。稳定指针main / Compare DAY16 DCO ambiguities with the independent Ba130 experiment；actualhash/H3/push只receipt。

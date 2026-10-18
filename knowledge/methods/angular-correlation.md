@@ -280,3 +280,42 @@ Fig2的I20、M0、theta2=45°/phi相同控制下，本任务13点采样的finite
 \]
 
 若把finite B直接按无限spin Eq15当作正的unit-axis概率的Legendre矩，就要求`⟨P2(cosθs)⟩<−1/2`；但P2在实单位球面上的最小值就是−1/2，不可能。J20/M0的任务核验仍给约−.500447，而非严格经典下界。这个有限J量子修正不否定positive核density；它限制把finite moment substitution解释成实测的正经典P(Ωs)。Eq10的形式替换和真正的classical probability必须分开，不能据此采样伪布居或认证全部joint响应。
+
+
+## 130Ba的两个opening-angle比值：何时确实能消去单比双解
+
+[[konigshofen-2001-mixing-ratios-130ba]] KO01-6–11提供与beam-oriented DCO不同的独立实验：130Laβ+/EC后的offbeam130Ba，47million doubleγ events，180°/90°/55°是两gamma的openingangles。Fig2实例是1003.3keV的3+_1→2+_1，再经pureE2至0+_1；作者按Rose–Brink报告deltaRB=−4.5(.4)。TableI共40条跃迁，18行finiteδ；483.5keV的4+_3→3+_1仍未解。不能以abstract的18unique扩写成全表都唯一。
+
+### 先分开作者计算、实验比值和本任务复算
+
+正文A2=−.0321、A4=−.0778称为**calculated**。本任务固定unorientedρ=I/7、3→2→0、point响应、M1/E2 target、E2 reference；仅按已核normalized相位桥用d_D96=−deltaRB=+4.5，不拟合σ/响应或改原数据。直接photon trace与generalizedF两路得到
+
+\[
+A_2(d)=\frac{-.07142857143+.78246079644d-.20408163265d^2}{1+d^2},\qquad
+A_4(d)=-.08163265306\frac{d^2}{1+d^2}.
+\]
+
+两路系数差<9e−16；d4.5给A2−.03214156/A4−.07779112，与作者四小数按±.00005舍入相容。这个换号结果依赖具体operator/state/归一映射；没有以sourceFig2符号相似反推转换，也不是原作者response代码。
+
+从作者印刷**计算系数**生成的形状witness为R180=.90193794、R55=1.04387756，未当作图中实验横线的精确测量。仅R180时，本point模型有d≈.004919和4.498979两根，即RB坐标−.004919/−4.498979；对应R55≈.9677404/1.0438668。第二个形状比在此条件下能区分单比候选。
+
+用A4中央值反解abs(d)≈4.50547，而A2中央值又略偏，这来自把两个四小数calculated值误当完全精确的联合输入。按实际尾位舍入同时作preimage后，d4.5相容。该窄舍入区间不是实验delta精度或CI；sourcequotedδ误差.4和图中测量band不能被这套计算值替换。
+
+### 两个形状参数为何有用，统计又为何仍需Σ
+
+若W(θ)=1+A2P2+A4P4，Ri=W(θi)/W(90°)，则两比给线性方程
+
+\[
+[P_2(\theta_i)-R_iP_2(90^\circ)]A_2+
+[P_4(\theta_i)-R_iP_4(90^\circ)]A_4=R_i-1.
+\]
+
+在本witness两行矩阵det≈−1.46798，能恢复两个normalized coefficients。固定该spin/puregate下A4先约束d²/(1+d²)，A2的非零interference再约束sign；只要这些系数/响应未失去rank，确有额外functional信息。其它spin路径、puregate不成立、geometry/混合变化时需重做检验，不能保证全局Jπ唯一。
+
+R180和R55共享W90。一般`Σ_R=JΣ_WJᵀ`；即使三角净yield真独立，其crossCov也有`R180 R55 Var(W90)/W90²`。actualevent重叠、background、efficiency和finite-response仍可增加cross项。原文的两个ratio functions不是两次独立实验，也不自动统计独立；本run没有原Σ，未算新的显著性/置信区间。
+
+新[day16_ko01_three_angle_audit.py](../../system/scripts/day16_ko01_three_angle_audit.py)与本日冻结input保存全部roots、two-ratio inversion、相位/纯极限/舍入控制及Cov Jacobian。[[dco-pdco-ambiguity-worksheet]]的W178和D96例与本例各有数据/模型身份，不能把ratio数值迁移到beamDCO阈值。
+
+### 核结构推断仍要自己的companion
+
+KO01的2+_3→2+_1有91.7%radiativeM1、4+_3→4+_1有97.8%，但作者明确要求absoluteM1才能给unambiguous mixedsymmetry赋值。finiteδ/relativeM1不是absoluteB(M1)、波函数结构或γsoft模式的直接证明。TableI的1918.3keV3-到4+/2+两δ还属M2/E1，不能把genericδ²份额全叫E2。这些是真实实验使用门，与同一理论曲线的多种处理不增加独立证据。

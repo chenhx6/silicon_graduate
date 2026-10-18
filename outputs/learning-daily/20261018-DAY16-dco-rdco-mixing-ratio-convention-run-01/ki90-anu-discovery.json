@@ -1,0 +1,143 @@
+{
+  "url": "https://openresearch-repository.anu.edu.au/server/api/discover/search/objects",
+  "params": {
+    "query": "\"Lens-mode operation of a superconducting electron spectrometer\"",
+    "dsoType": "item",
+    "size": 3
+  },
+  "scope": "One exact-title ANU public discovery; no UQ403 retry and no identical publisher retry",
+  "status_code": 200,
+  "sha256": "e2e8ffebe3ad2835b51200d0231c03fc4bbc1df51fa07c609990b596e410609c",
+  "candidate_items": [
+    {
+      "name": "Solenogam: A new detector array for γ-ray and conversion-electron spectroscopy of long-lived states in fusion-evaporation products",
+      "uuid": "9fc3ab9b-9672-4d01-af4b-12985c8cfb7a",
+      "metadata": {
+        "dc.date.issued": [
+          {
+            "value": "2020",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.identifier.uri": [
+          {
+            "value": "http://hdl.handle.net/1885/282796",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.title": [
+          {
+            "value": "Solenogam: A new detector array for γ-ray and conversion-electron spectroscopy of long-lived states in fusion-evaporation products",
+            "language": "en_AU",
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ]
+      },
+      "links": {
+        "accessStatus": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/accessStatus"
+        },
+        "bundles": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/bundles"
+        },
+        "identifiers": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/identifiers"
+        },
+        "mappedCollections": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/mappedCollections"
+        },
+        "owningCollection": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/owningCollection"
+        },
+        "relationships": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/relationships"
+        },
+        "version": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/version"
+        },
+        "templateItemOf": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/templateItemOf"
+        },
+        "thumbnail": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a/thumbnail"
+        },
+        "self": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/9fc3ab9b-9672-4d01-af4b-12985c8cfb7a"
+        }
+      }
+    },
+    {
+      "name": "Identification of significant E 0 strength in the 2₂⁺→2₁⁺ transitions of  ⁵⁸,⁶⁰,⁶²Ni",
+      "uuid": "3c04cd5a-52de-45fa-8d89-4f142da5d335",
+      "metadata": {
+        "dc.date.issued": [
+          {
+            "value": "2018-02-28",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.identifier.uri": [
+          {
+            "value": "http://hdl.handle.net/1885/142141",
+            "language": null,
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ],
+        "dc.title": [
+          {
+            "value": "Identification of significant E 0 strength in the 2₂⁺→2₁⁺ transitions of  ⁵⁸,⁶⁰,⁶²Ni",
+            "language": "en_AU",
+            "authority": null,
+            "confidence": -1,
+            "place": 0
+          }
+        ]
+      },
+      "links": {
+        "accessStatus": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/accessStatus"
+        },
+        "bundles": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/bundles"
+        },
+        "identifiers": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/identifiers"
+        },
+        "mappedCollections": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/mappedCollections"
+        },
+        "owningCollection": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/owningCollection"
+        },
+        "relationships": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/relationships"
+        },
+        "version": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/version"
+        },
+        "templateItemOf": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/templateItemOf"
+        },
+        "thumbnail": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335/thumbnail"
+        },
+        "self": {
+          "href": "https://openresearch-repository.anu.edu.au/server/api/core/items/3c04cd5a-52de-45fa-8d89-4f142da5d335"
+        }
+      }
+    }
+  ]
+}
