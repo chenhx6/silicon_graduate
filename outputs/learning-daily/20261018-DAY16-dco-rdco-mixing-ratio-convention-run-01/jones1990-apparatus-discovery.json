@@ -1,0 +1,108 @@
+{
+  "at": "2026-10-19T06:27:00.407017+08:00",
+  "url": "https://api.crossref.org/works?query.bibliographic=G+D+Jones+T+H+Hoare+P+A+Butler+C+A+White+J+Phys+G+17+713+1990&rows=2",
+  "status": 200,
+  "path": "tmp/day16-ni60-reference/jones1990-crossref.json",
+  "sha256": "a35f4e1561e9b07bb1f62fb58180c6c3d106ed6625590aebf9b212162b41dcbe",
+  "items": [
+    {
+      "title": [
+        "A compact apparatus for alpha - gamma , alpha -e<sub>K,L,M</sub>angular correlation and internal conversion coefficient measurements"
+      ],
+      "author": [
+        {
+          "given": "G D",
+          "family": "Jones",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T H",
+          "family": "Hoare",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P A",
+          "family": "Butler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C A",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Physics G: Nuclear and Particle Physics"
+      ],
+      "volume": "17",
+      "page": "713-718",
+      "DOI": "10.1088/0954-3899/17/5/017",
+      "link": null
+    },
+    {
+      "title": [
+        "BAXTERIZATION"
+      ],
+      "author": [
+        {
+          "given": "V.F.R.",
+          "family": "Jones",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Mathematics Department, University of California, Berkeley, Berkeley CA 94720, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "International Journal of Modern Physics B"
+      ],
+      "volume": "04",
+      "page": "701-713",
+      "DOI": "10.1142/s021797929000036x",
+      "link": [
+        {
+          "URL": "https://www.worldscientific.com/doi/pdf/10.1142/S021797929000036X",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  ]
+}

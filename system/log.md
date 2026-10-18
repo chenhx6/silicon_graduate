@@ -1935,3 +1935,8 @@ actualjoint/闭式、fullPSD/spin2/相位/纯极限控制写回UG24-30–34/Co60
 ## 2026-10-19 — Day16 checkpoint028：校准态、节点与交换响应
 
 同run/goal持续原15:00截止，formal16一次partial17。Jones2002八页原件/visual追加J02-14–21，原humanprefix不变：m0 E2零强度节点、0→2→0 printedpopulation与系数不闭合、crossratio稳定性/Cov及同314.78异母态reference。新独立计算/设计实际0，未测新Q/P/污染。verification022实际44/44、required0、0errors174warnings。1998primary已合法取得、读到p137部分继续，未预报全文完成。发布指针main / Audit DAY16 calibration nodes reference states and rotation controls，exacthash/actualpush只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint029：原α–γ相位与转换companion
+
+同run/session/goal至原15:00截止，formal16一次partial17。新Jones1998完整13页9图3表原读，47行point/RB+operator重放及原表/2002同源版本界限，113.159实际电子companion和gamma/total/subshell分母分开，不做新δ/Jπ/Q实验。verification023实际45/45、required0、0errors176warnings；J02/L25/L26旧humanprefix/raw/PLAN/Bib保持。初wrapper错路径1已恢复缺失tail，科学输入不变。下一1990apparatus原件路线继续。稳定指针main / Trace DAY16 alpha gamma reference identities and conversion companions，actualhash/push只receipt。

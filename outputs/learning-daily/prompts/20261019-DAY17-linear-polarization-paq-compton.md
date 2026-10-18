@@ -313,3 +313,8 @@ Day16的[[nndc-2013-ni60-co60-reference-records]]已核201312 Adopted/longβ−�
 ### Jones2002追加priming
 
 Day16已独立读原八页并追加J02-14–21：m0 pureE2在90°零强度、0→2→0的printedw±2与a2/a4不闭合而pointCG给w±1、cross-ratio稳定性/Cov条件、223Ra两314.78母态/理论P异号。原全人审prefix保持，新追加均needs_review。1998Ref12出版商PDF已得，后续原读范围以本日source/回执为准，正式17需声明priming且重新逐卡，不授preview信用。
+
+
+### Jones1998原实验priming
+
+Day16已原读13页/9图3表，canonical `knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md`：2002 calibration表的AD上游、两314.78异母态、113.159 E1/E2γ重叠与L/M电子companion，photon/total/subshell权重不同；47行point/phase重放不认证原fitCov/Qk。342.84 spin与Table2大部分δ号附条件，新追加全needs_review。正式17回忆需承认priming，独立逐卡，preview不计信用。

@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T06:25:06.207069+08:00",
+  "before_newroundingintervalanalysis": true,
+  "primed": "47rowcentralresultknown; eightliteral1998centralnonclosures andzero2002; notblind",
+  "question": "whichnonclosurescanbereconciledbyfiniteprinted\u03b4centralroundingcells, preservingbotha2/a4 simultaneousconstraints? no using quotedmeasurement\u03c3 asrounding",
+  "planned_rule": "\u03b4cell half last printed digit: .005for2decimal/.05for1decimal; solve a2/a4 coefficient quadratic inequalities against \u00b1.005. zero/a4printedformatasdiagnosticnotsourceerror",
+  "originalfitQkCovmissing": true,
+  "mode": "refineconditionalcentraldiagnostic, notnew\u03b4experimentorproducerfit"
+}

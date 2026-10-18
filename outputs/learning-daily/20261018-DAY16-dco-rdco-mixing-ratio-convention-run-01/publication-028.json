@@ -1,0 +1,31 @@
+{
+  "publication_index": 28,
+  "at": "2026-10-19T06:18:11.906274+08:00",
+  "branch": "main",
+  "subject": "Audit DAY16 calibration nodes reference states and rotation controls",
+  "commit": "6db988bd7e9b4a6951ebe7f83a80f9dce9a1114c",
+  "origin_main": "6db988bd7e9b4a6951ebe7f83a80f9dce9a1114c",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 894e9dac        \nTo gitee.com:chx6/silicon_graduate.git\n   faf6f2a..6db988b  HEAD -> main\n"
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

@@ -387,3 +387,9 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 [[nndc-2025-a25-mixing-reference-records]] N25-6/7/8给真实对照：2009官方25Mg1612 MR−.189(.012)经声明KS→RB桥成为L26引用的+.189(.012)，而2025采用值−.207(.013)是另一评价版本。先同multipole/role/算符转换，再比较数值与版本，不能将负转正当物理解的变化，也不能用旧/新采用值作独立z检验。1793与3970的2009值也在转换后逐项对应L26旧引用。
 
 同一反应对象的默认primary还会被字段flag覆盖：25Mg alpha,nγ的3970 MR(F)指Kean1972，1612/1793默认指Butler1975。numeric MR空与comment另列δ0.0(.2)也须同时保存；XUNDL Na1041就是此例。引用次数、对象数量与评价版本数不提供实验独立性，原target/门/response和共享Cov仍需另核。
+
+### 223Ra：δ相位与附条件spin/sign不能合并
+
+[[jones-1998-ra223-alpha-gamma-correlations]] J98-4/5/10–12：原α–γ用RB整体合同，转native相邻M1/E2同时改δ/算符，47行的两数学路线闭合而非原实验重拟。342.84的J9/2+来自band系统学favoured、并非原angular唯一解；Table2只有29.858/31.58符号由本α–γ工作支持，其余正号含gR物理选择。不能把表中符号全当独立直接测得。
+
+原1998一行342.84/G62.45的δRB+.29/theorya2+.24与同point模型不闭合（预测−.8568）；反号控制给+.2452，但不得据此局部换号修原文或宣布实际δ。原spin/未舍入fit/phaseproducer与表版本缺口保留。[[jones-2002-calibration-compton-polarimeters]]新增P表与同源AD不增加实验样本；其它行2002theory更新需和原δ/系数定义一并追溯。

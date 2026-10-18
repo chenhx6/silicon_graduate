@@ -348,3 +348,11 @@ UG24-21/27的实际记录控制显示，缺失γ占位和跨晶体prefix back标
 p456 onlym0/±1 family在p0<1时P90=1，而W90=5(1−p0)/4；p0=1正好无光子，p0=.4在60°仅P=.6。它与[[co60-gate-role-response-benchmark]]的4→2→0 unpolarized/identitypointtag P90=1/6是不同source preparation，不能借高P校准数填Co60。
 
 J02 Table1两条314.78的母态376.28/445.00与理论P−.94/+.96不同；需同alpha门/母态/response。假定同响应、接受后光子份额f时Peff=.96−1.90f，f=48/95时零，目标−.94含声明5%错分量得到−.845；这些仅污染设计，未测真实分量或Q。P列为2002理论，实验角系数转录1998原数据，不计两个独立实验。
+
+### 223Ra原α–γ/α–electron校准证据的匹配层
+
+[[jones-1998-ra223-alpha-gamma-correlations]] J98-1–13现已原读。2002Table1的AD源于1998同实验，P为2002理论，不能计独立polarimetry。两314.78原Fig8分别属于376.278 E1与445.00 M1母态，必须保留alpha门/父态/response；本runpointP为−15/16/+.96，非新测P。
+
+113.159是174.58/174.62 E1/E2未分开的γ峰；同correctedcoefficient层的E2光子份额f与总分支份额F相差(1+CC)权重，原L/M电子companion又是subshell响应。固定印刷纯系数的条件mixing可同时容纳a2/a4的marginal误差，不能把centralf差叫冲突或恢复实际jointCI。原PIN单component的uniformcap衰减估计也不能替actualsource/Ge/门完整Qk，Qk不等于polarimeterQ。
+
+新original读取支持reference与companion的身份；原逐峰窗口/面积、响应、完整Cov仍缺。2002理论列与1998局部theory差别须source版本核，不以自设舍入cell否定原采集。

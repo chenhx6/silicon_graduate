@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-19T06:17:01.199001+08:00",
+  "command": [
+    "pdftoppm",
+    "-scale-to",
+    "1800",
+    "-png",
+    "tmp/day16-ni60-reference/jones1998-discovery/publisher-pdf.pdf",
+    "tmp/day16-ni60-reference/jones1998-figures/p"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "pages": [
+    "tmp/day16-ni60-reference/jones1998-figures/p-01.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-02.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-03.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-04.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-05.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-06.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-07.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-08.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-09.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-10.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-11.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-12.png",
+    "tmp/day16-ni60-reference/jones1998-figures/p-13.png"
+  ],
+  "visual_read": "pending"
+}

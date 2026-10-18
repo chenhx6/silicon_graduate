@@ -179,3 +179,9 @@ $$U_k^{\rm all}-U_k^\gamma=\frac{q(c-1)[U_k(L')-U_k(L)]}{(1+q)(1+cq)},\quad c=\f
 [[rezynkina-2017-graphical-extraction-multipole-mixing-ratios]]新RZ17-8–12重核原Table1/Eqs7–17。原图解交点可复算，但印刷convolution缺居中/范围/producerrecipe；本任务显式jointGaussianphysicalpushforward mean≈.92439与source.92相容，区间口径尚未复现，不能拿mean相合说完整truePDF已认证。
 
 [[icc-mixing-probability-domain]]给Jacobian/物理域归一、共享差值Cov、独立积分/MC与pure端点尾部。其δ^-3尾使declared无限域模型的secondmoment发散，68%概率区间不自动等于sqrtVar；flatdelta likelihood另有非proper边界。这些是source参数下的统计选择与解析结果，不是新251Fm/W178δ或频率覆盖率，也未改source旧review。
+
+### 113.159-keV重叠峰：photon、total与L/M份额
+
+[[jones-1998-ra223-alpha-gamma-correlations]] J98-7–9给实际反例：174.58 E1与174.62 E2母态仅差.04keV，原α分辨约25keV，γ峰composite。旧总CC分别.362/5.78，等total时E1光子强约4.98倍；若同corrected photon coefficient层E2 A0份额为f，则Ftotal=f(1+α2)/[f(1+α2)+(1−f)(1+α1)]。原电子L/M选择可使E2贡献更强，不能以γ份额当电子份额。
+
+由印刷a2/a4分别推得的条件f .1923/.1458只是固定theory/同layer设计；实际subshell系数/效率、α门、电子峰面积与Cov仍缺。不能用αT替αL/αM，也不由此重做原Jπ或给新branching。[[compton-polarimetry]]把此companion用于reference纯度边界。

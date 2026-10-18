@@ -1,0 +1,46 @@
+{
+  "at": "2026-10-19T06:18:48.429641+08:00",
+  "raw_path": "tmp/day16-ni60-reference/jones1998-discovery/publisher-pdf.pdf",
+  "raw_sha256": "19d50c6b0b8bf558839253cedb766a758fed89102bd95f9a9420484092dc164d",
+  "fulltext_pages_read": 13,
+  "sections": "1-6 andReferences",
+  "figures_visual": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "tables_visual": [
+    1,
+    2,
+    3
+  ],
+  "visual_pages_printed": [
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140
+  ],
+  "mainline": "oldspinproblem -> alpha/gamma/e apparatus -> finiteQk/RBfit -> selectedlevels/doublets -> magneticobservables/rotormodel -> WoodsSaxon/limits -> conclusions",
+  "new_research_scope": "calibrationreference/phase/sourceindependence; notDay18lifetime/strengthcard",
+  "still_missing": [
+    "event/peak-gate ledger",
+    "Qk numerical response",
+    "fit jointCov",
+    "exact producer",
+    "angle-dependent contamination counts"
+  ],
+  "claims_not_yet_written": true
+}

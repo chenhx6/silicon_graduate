@@ -147,3 +147,13 @@ Ref12书目已外核为G.D.Jones/P.A.Butler/T.H.Hoare/P.M.Jones，*EPJ A*2,129�
 `supports`source中的高P校准/旋转法思想；`revises`其实际使用中的节点与布居文字合同；`limits`跨父态/响应裸迁reference和宣称所有系统项消除。新结论只为Codex self-audit，未清needs_review或更改原human-reviewed前缀。
 
 [新审计脚本](../../system/scripts/day16_jones2002_calibration_audit.py)、[冻结合同/数值结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones2002-calibration-audit-result.json)；[双314.78设计](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones2002-ra223-doublet-design-result.json)。原件与依赖hash、主动回忆/完整八页阅读和视觉记录在同run回执。[[compton-polarimetry]]、[[linear-polarization-asymmetry]]和[[co60-gate-role-response-benchmark]]保存可复用边界；这些outputs是执行证据，知识判断在本source。
+
+
+### 1998原实验已读后的版本与companion补充
+
+| ID | 新核查陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| J02-22 | Ref12原件现已完整读13页/9图3表。1998 Table1与本Table1的experimental列同源，本篇36行对应theory/P以point/RB模型闭合；原1998部分theory列不同。不能把2002理论P列称独立测P，也不以重放新拟原δ。 | upstream-primary-and-version-crosswalk | original-source-comparison-and-Codex-model | Ref12；本Table1；J98p132Table1 | true |
+| J02-23 | 原113.159γ峰含174.58/174.62 E1/E2重叠，作者另用α–eL/eM选择赋11/2+；γ/total/subshell权重不同。342.84 J9/2+及Table2多数δ符号另附模型/系统学条件，不能由本校准表标签抹掉。 | companion-and-assignment-boundary | direct-upstream-primary | J98Sec4.2/4.5；Fig3；Table2符号说明 | true |
+
+[[jones-1998-ra223-alpha-gamma-correlations]] J98-1–13保存原装置/phase/Qk/误差/两314.78、113.159companion与47行复算。比对只做同层：1998实验角系数、1998theory、2002theory/P、当前point计算分别保留。原文件/旧人审prefix均不改；新增J02-22/23仍needs_review。

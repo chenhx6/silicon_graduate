@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-19T06:27:00.333329+08:00",
+  "executions": [
+    {
+      "script": "system/scripts/day16_jones1998_reference_audit.py",
+      "exec_session": 66974,
+      "exit_code": 0,
+      "result": "jones1998-reference-audit-result.json",
+      "script_sha256": "5069d23b2aa47271efd992f0e2036663673e2eea230896988a9deeecf0cb5b29"
+    },
+    {
+      "script": "system/scripts/day16_jones1998_rounding_audit.py",
+      "exec_session": 94449,
+      "exit_code": 0,
+      "result": "jones1998-rounding-audit-result.json",
+      "script_sha256": "cb1d9126cfea4a9d99bb8dc43b239587b47a21bff0c951d0ac730cedf902db0e"
+    }
+  ],
+  "environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps",
+  "initialcontract46rows": true,
+  "v2contract47rows": "v1 frozenretained; row300from329.86andJ02firstcounterpartaddedbeforefullanalysis",
+  "newactualexperimentfit": false
+}

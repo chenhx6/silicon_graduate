@@ -1,0 +1,663 @@
+{
+  "at": "2026-10-19T06:26:38.707503+08:00",
+  "script_sha256": "cb1d9126cfea4a9d99bb8dc43b239587b47a21bff0c951d0ac730cedf902db0e",
+  "contract_sha256": "d6a7019b48857520c6e9f550433114834ef4ca6e42a2e73dd7cd1256b1bb5172",
+  "coefficient_cell_rule": "Declared \u00b1.005 for both columns, including displayed zero. Not original error bars or certified unrounded production.",
+  "rows": [
+    {
+      "identity": {
+        "parent_keV": 61.43,
+        "gamma_keV": 31.58,
+        "Ji2": 7,
+        "Jf2": 5
+      },
+      "delta_RB_printed": 0.28,
+      "delta_rounding_cell": [
+        0.275,
+        0.28500000000000003
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.3571428571428571,
+          -2.0619652471058063,
+          0.08503401360544217
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.6530612244897958
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              0.2762351276842794,
+              0.2832678834118403
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 234.8,
+        "gamma_keV": 234.81,
+        "Ji2": 5,
+        "Jf2": 3
+      },
+      "delta_RB_printed": -0.07,
+      "delta_rounding_cell": [
+        -0.07500000000000001,
+        -0.065
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.39999999999999997,
+          -2.02837021134844,
+          0.20408163265306126
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.6530612244897959
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.07036533915609855,
+              -0.06556185790793201
+            ]
+          ]
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.07036533915609855,
+              -0.06556185790793201
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 234.8,
+        "gamma_keV": 205.03,
+        "Ji2": 5,
+        "Jf2": 5
+      },
+      "delta_RB_printed": -0.12,
+      "delta_rounding_cell": [
+        -0.125,
+        -0.11499999999999999
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          0.4571428571428572,
+          -1.0842094834863014,
+          -0.20408163265306126
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          -0.3673469387755102
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": false,
+          "delta_rounding_subintervals": []
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.125,
+              -0.11885403224103896
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 329.86,
+        "gamma_keV": 279.72,
+        "Ji2": 3,
+        "Jf2": 3
+      },
+      "delta_RB_printed": 0.12,
+      "delta_rounding_cell": [
+        0.11499999999999999,
+        0.125
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          0.4,
+          -1.5491933384829668,
+          -0.0
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              0.1175008995196487,
+              0.12384246637036966
+            ]
+          ]
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              0.1175008995196487,
+              0.12384246637036966
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 329.86,
+        "gamma_keV": 250.35,
+        "Ji2": 3,
+        "Jf2": 5
+      },
+      "delta_RB_printed": -4.1,
+      "delta_rounding_cell": [
+        -4.1499999999999995,
+        -4.05
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.1,
+          1.183215956619923,
+          -0.35714285714285715
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -4.1499999999999995,
+              -4.10172472284841
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 334.38,
+        "gamma_keV": 334.38,
+        "Ji2": 5,
+        "Jf2": 3
+      },
+      "delta_RB_printed": -0.62,
+      "delta_rounding_cell": [
+        -0.625,
+        -0.615
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.39999999999999997,
+          -2.02837021134844,
+          0.20408163265306126
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.6530612244897959
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.625,
+              -0.6189144824163679
+            ]
+          ]
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.625,
+              -0.6189144824163679
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 334.38,
+        "gamma_keV": 304.52,
+        "Ji2": 5,
+        "Jf2": 5
+      },
+      "delta_RB_printed": -0.07,
+      "delta_rounding_cell": [
+        -0.07500000000000001,
+        -0.065
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          0.4571428571428572,
+          -1.0842094834863014,
+          -0.20408163265306126
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          -0.3673469387755102
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.07500000000000001,
+              -0.06546901472311428
+            ]
+          ]
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.07500000000000001,
+              -0.06546901472311428
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 334.38,
+        "gamma_keV": 272.93,
+        "Ji2": 5,
+        "Jf2": 7
+      },
+      "delta_RB_printed": 8.5,
+      "delta_rounding_cell": [
+        8.45,
+        8.55
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.14285714285714288,
+          1.4846149779161806,
+          -0.3469387755102041
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.10884353741496598
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": false,
+          "delta_rounding_subintervals": []
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              8.45,
+              8.55
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 342.62,
+        "gamma_keV": 342.5,
+        "Ji2": 3,
+        "Jf2": 3
+      },
+      "delta_RB_printed": 1.3,
+      "delta_rounding_cell": [
+        1.2950000000000002,
+        1.305
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          0.4,
+          -1.5491933384829668,
+          -0.0
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              1.2950000000000002,
+              1.305
+            ]
+          ]
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              1.2950000000000002,
+              1.305
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 342.62,
+        "gamma_keV": 312.69,
+        "Ji2": 3,
+        "Jf2": 5
+      },
+      "delta_RB_printed": 0.2,
+      "delta_rounding_cell": [
+        0.195,
+        0.20500000000000002
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.1,
+          1.183215956619923,
+          -0.35714285714285715
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              0.19723052115767992,
+              0.20500000000000002
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 342.84,
+        "gamma_keV": 212.65,
+        "Ji2": 9,
+        "Jf2": 9
+      },
+      "delta_RB_printed": -0.35,
+      "delta_rounding_cell": [
+        -0.355,
+        -0.345
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          0.4848484848484848,
+          -0.6639061303092924,
+          -0.30303030303030304
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          -0.5454545454545455
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": false,
+          "delta_rounding_subintervals": []
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.355,
+              -0.345
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 342.84,
+        "gamma_keV": 62.45,
+        "Ji2": 9,
+        "Jf2": 7
+      },
+      "delta_RB_printed": 0.29,
+      "delta_rounding_cell": [
+        0.285,
+        0.295
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.33333333333333337,
+          -2.0597146021777486,
+          0.021645021645021644
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.6233766233766234
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": false,
+          "delta_rounding_subintervals": []
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 376.28,
+        "gamma_keV": 296.51,
+        "Ji2": 7,
+        "Jf2": 5
+      },
+      "delta_RB_printed": -0.16,
+      "delta_rounding_cell": [
+        -0.165,
+        -0.155
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.3571428571428571,
+          -2.0619652471058063,
+          0.08503401360544217
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.6530612244897958
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": false,
+          "delta_rounding_subintervals": []
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.16461581935385894,
+              -0.1597194027735469
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 376.28,
+        "gamma_keV": 201.6,
+        "Ji2": 7,
+        "Jf2": 9
+      },
+      "delta_RB_printed": 1.5,
+      "delta_rounding_cell": [
+        1.45,
+        1.55
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.16666666666666666,
+          1.6183471874253743,
+          -0.32312925170068024
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.17810760667903525
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              1.45,
+              1.4870224301888793
+            ]
+          ]
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              1.4870224301888793,
+              1.529334974241715
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "identity": {
+        "parent_keV": 445.0,
+        "gamma_keV": 383.52,
+        "Ji2": 9,
+        "Jf2": 7
+      },
+      "delta_RB_printed": -0.46,
+      "delta_rounding_cell": [
+        -0.465,
+        -0.455
+      ],
+      "coefficient_numerator_polynomials_ascending": {
+        "a2": [
+          -0.33333333333333337,
+          -2.0597146021777486,
+          0.021645021645021644
+        ],
+        "a4": [
+          0.0,
+          0.0,
+          0.6233766233766234
+        ]
+      },
+      "years": {
+        "1998": {
+          "simultaneous_2dp_cells_feasible": false,
+          "delta_rounding_subintervals": []
+        },
+        "2002": {
+          "simultaneous_2dp_cells_feasible": true,
+          "delta_rounding_subintervals": [
+            [
+              -0.4632779542831216,
+              -0.45575934416987174
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "opposite_delta_for_342p84_62p45_control": {
+    "delta_RB": -0.29,
+    "a2": 0.2451842520233928,
+    "a4": 0.04835898351256713,
+    "source_measurement_or_row_repaired": false
+  },
+  "remaining_1998_simultaneous_nonclosures": [
+    {
+      "parent_keV": 234.8,
+      "gamma_keV": 205.03,
+      "Ji2": 5,
+      "Jf2": 5
+    },
+    {
+      "parent_keV": 334.38,
+      "gamma_keV": 272.93,
+      "Ji2": 5,
+      "Jf2": 7
+    },
+    {
+      "parent_keV": 342.84,
+      "gamma_keV": 212.65,
+      "Ji2": 9,
+      "Jf2": 9
+    },
+    {
+      "parent_keV": 342.84,
+      "gamma_keV": 62.45,
+      "Ji2": 9,
+      "Jf2": 7
+    },
+    {
+      "parent_keV": 376.28,
+      "gamma_keV": 296.51,
+      "Ji2": 7,
+      "Jf2": 5
+    },
+    {
+      "parent_keV": 445.0,
+      "gamma_keV": 383.52,
+      "Ji2": 9,
+      "Jf2": 7
+    }
+  ],
+  "all_present_2002_simultaneous_cells_feasible": true,
+  "actual_delta_or_joint_fit_recovered": false
+}

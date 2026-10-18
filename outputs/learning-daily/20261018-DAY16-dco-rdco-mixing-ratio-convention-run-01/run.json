@@ -783,16 +783,47 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 28,
+      "at": "2026-10-19T06:18:11.906274+08:00",
+      "branch": "main",
+      "subject": "Audit DAY16 calibration nodes reference states and rotation controls",
+      "commit": "6db988bd7e9b4a6951ebe7f83a80f9dce9a1114c",
+      "origin_main": "6db988bd7e9b4a6951ebe7f83a80f9dce9a1114c",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 894e9dac        \nTo gitee.com:chx6/silicon_graduate.git\n   faf6f2a..6db988b  HEAD -> main\n"
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "checkpoint028-verified-continuing-J98",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-022.json",
-  "knowledge_writeback_items": 44,
+  "last_checkpoint": "checkpoint029-verified-continuing",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-023.json",
+  "knowledge_writeback_items": 45,
   "last_learning_summary": "N60referenceidentity/MRsigma/sharedCov and actualSDK totalbranch weights verified; primary1980phase body stillmissing; 0errors174warnings; publication027 pending",
-  "knowledge_changed_pages": 44,
+  "knowledge_changed_pages": 45,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "Jones2002 calibration original complete; canonicalupdated withnewneedsreview append; verify022/pub028 next thenJones1998 alpha-gamma primary",
+  "current_research_route": "J98original and47row/companioncrosswalkcanonical; verify023/pub029 next; new1990apparatusroute identifiedmetadataonly",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -918,12 +949,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 27,
-    "at": "2026-10-19T06:04:38.168247+08:00",
+    "publication_index": 28,
+    "at": "2026-10-19T06:18:11.906274+08:00",
     "branch": "main",
-    "subject": "Audit DAY16 Ni60 reference uncertainties and source branches",
-    "commit": "faf6f2afba231b56e9e1271b6fc57d446f45ac5a",
-    "origin_main": "faf6f2afba231b56e9e1271b6fc57d446f45ac5a",
+    "subject": "Audit DAY16 calibration nodes reference states and rotation controls",
+    "commit": "6db988bd7e9b4a6951ebe7f83a80f9dce9a1114c",
+    "origin_main": "6db988bd7e9b4a6951ebe7f83a80f9dce9a1114c",
     "status": "published",
     "required_exit_codes": {
       "fresh_fetch": 0,
@@ -942,9 +973,8 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 714b8794        \nTo gitee.com:chx6/silicon_graduate.git\n   db296c4..faf6f2a  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 894e9dac        \nTo gitee.com:chx6/silicon_graduate.git\n   faf6f2a..6db988b  HEAD -> main\n"
     },
-    "manifest_matches_actual_commit": true,
     "goal_status": "active",
     "research_deadline": "2026-10-19T15:00:00+08:00",
     "credit_retained_once": "formal16/next17/count16,partial17"

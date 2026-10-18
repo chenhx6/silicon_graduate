@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[jones-1998-ra223-alpha-gamma-correlations]] - 原13页α–γ/electron、同能标母态与δ/coef版本；保留实际Qk/Cov及附条件spin/sign。
+
 - [[nndc-2013-ni60-co60-reference-records]] - Co60参考MR误差/同源评价、反冲、共同Cov与actualSDK分支；primaryphase仍缺。
 
 - [[riley-2021-ucgretina-energy-response]] - 原读十二quad/单晶有效层、能区退化、continuum反证与polarimetry迁移边界；不替公开七quad原producer。

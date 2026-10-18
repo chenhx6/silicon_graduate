@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T06:31:27.288783+08:00",
+  "exit_code": 1,
+  "cause": "guessed internalconversionmethod pathmissing; source/J02/Compton/MR edits already applied, subsequentindex/report notexecuted",
+  "recovery": "locate actualfilewithrg, resume onlymissingtail toavoidduplicateappend",
+  "scientific_inputs_or_results_changed": false
+}

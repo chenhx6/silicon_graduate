@@ -66,6 +66,17 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### Checkpoint029：223Ra原实验与matching companion
+
+新增[Jones1998原source](../../knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md) J98-1–13，出版商真实13页PDF/hash/identity核后完整主线、9图3表视觉读。原227Ac/Th源、α–γ/α–eL,M选择、Qk/fit/phase和两314.78原Fig8已定位；2002转录AD/新增理论P与1998是同谱系。
+
+[47行point/RB→native实际复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones1998-reference-audit-result.json)exit0，Racah–helicity误差≤7.92e−15、同步phase桥0差、5项J1/2 null控制过。36行2002theory/P在声明2dp cells内；原1998中央8项不闭合，[δ舍入交集](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jones1998-rounding-audit-result.json)后剩6项，属于特定representation合同、非原实验拒绝或新δ。原342.84/G62.45 sign-sensitive不闭合保留，不改原号/文件。
+
+实际113.159含174.58/174.62 E1/E2，原L/M电子companion是另一响应选择。固定theory的mixturef从a2/a4得.1923/.1458，marginal区间重叠，法向残差小于任意给定marginalCov下σ下界；不称实际联合fit/CI。photon、total(1+CC)、subshell份额分开。原J342.84及Table2多数δ号附systematics/model条件；gK/β3为作者模型链，未升实验形状事实。
+
+下一更完整装置/逐门入口为Ref15 Jones1990 JPhysG17,713–718，精确DOI10.1088/0954-3899/17/5/017已Crossref核、正文尚未取得/读；不能把metadata补成alpha门/峰ledger。仍按原15:00上海截止继续，formal16一次/partial17，不开18。
+
+
 ### Checkpoint027：60Ni/60Co官方reference与原引用链
 
 新增canonical [[nndc-2013-ni60-co60-reference-records]] N60-1–11（[文件](../../knowledge/sources/nndc-2013-ni60-co60-reference-records.md)）；NNDC60028001/002精确对象/hash、β−完整140行与Adopted定向阅读范围已记录。MR−.0025(22)误差为.0022；Adopted→β−→1980Kr05是共享谱系，不计两次独立实验。NSR正式接口/Crossref核原题名、作者、NIM169573–576、DOI10.1016/0029-554X(80)90959-3；低温Co60/Feγ角分布的评价/metadata与原正文分开。publisher403/API仅coredata、HAL0/ADS拒绝/Scholar超时保留，不补原operator/phase或Cov。
@@ -457,6 +468,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批新增[Jones1998 source](../../knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md)的“先识别α门、母态与粒子通道，再谈偏振reference”锚点；J98-4/6/8/10–12分别把phase/sourcepreparation、真实companion、分母、附条件sign与版本核验写入[混合比](../../knowledge/observables/multipole-mixing-ratio.md)、[转换系数方法](../../knowledge/methods/internal-conversion-analysis.md)及Compton/J02源页。输出回执不是唯一知识副本。
+
 本批在[Jones2002 source](../../knowledge/sources/jones-2002-calibration-compton-polarimeters.md)“2026-10-19 Codex追加：校准态、零强度与相对效率边界”追加J02-14–21，并写入[不对称方法](../../knowledge/methods/linear-polarization-asymmetry.md)的cross-ratio公式及[Compton方法](../../knowledge/methods/compton-polarimetry.md)的node/reference界限；均为新self-audit，不改旧人审prefix。
 
 本批新增[Ni60官方reference源页](../../knowledge/sources/nndc-2013-ni60-co60-reference-records.md)及[Co60笔记](../../knowledge/research-notes/co60-gate-role-response-benchmark.md)的“评价reference、共同δ误差与实际分支权重”锚点；N60-3/9/11分别支持MR误差/依赖、共享误差分量及actualSDK内部控制。原phase正文缺口仍保留；outputs仅为执行证据。
@@ -760,7 +773,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -838,6 +851,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
           "locator": "N60-1"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-1"
         }
       ]
     },
@@ -1063,7 +1080,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/internal-conversion-analysis.md",
-      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。 新增RZ17实际参数的概率测度/producer和尾部边界。",
+      "summary": "保存实际W178 Kexp与shell匹配理论、两固定DCO点均在literal box外的反向检验；名义abs(delta)映射不当实验新测量。 新增原ENSDF章/total-decay和MR字段边界。 新增RZ17实际参数的概率测度/producer和尾部边界。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
       "anchor": "178W 921-keV：真实K-shell companion不能自动替两个DCO点选支",
       "sources": [
         {
@@ -1101,6 +1118,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
           "locator": "RZ17-12"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-4"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-10"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-11"
         }
       ]
     },
@@ -1242,7 +1279,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1520,6 +1557,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
           "locator": "J02-21"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-4"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-10"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-11"
         }
       ]
     },
@@ -1718,7 +1775,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -1752,6 +1809,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
           "locator": "N25-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-4"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-10"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-11"
         }
       ]
     },
@@ -3021,7 +3098,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
-      "summary": "保留完整旧人审前缀，追加八页原读/独立CG与WQ核验：m0零强度节点、0→2→0布居文字不闭合、旋转crossratio条件/误差、223Ra同能标异母态校准边界，新增均needs_review。",
+      "summary": "保留完整旧人审前缀，追加八页原读/独立CG与WQ核验：m0零强度节点、0→2→0布居文字不闭合、旋转crossratio条件/误差、223Ra同能标异母态校准边界，新增均needs_review。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。",
       "anchor": "2026-10-19 Codex追加：校准态、零强度与相对效率边界",
       "sources": [
         {
@@ -3055,6 +3132,85 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
           "locator": "J02-21"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-4"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-10"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+      "summary": "新原读13页/9图3表：源/门/phase/实际electroncompanion、附条件spin/sign、2002同源版本及47行point/舍入核验；不恢复实际response/Σ/δfit。",
+      "anchor": "先识别α门、母态与粒子通道，再谈偏振reference",
+      "sources": [
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-1"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-2"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-3"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-4"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-5"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-6"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-7"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-8"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-9"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-10"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-11"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-12"
+        },
+        {
+          "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+          "locator": "J98-13"
         }
       ]
     }
@@ -3245,3 +3401,10 @@ CSU真实REST已由其官方hashedconfig修正主机，exacttitle查询200/0对�
 [verification-reopened-022](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-022.json)实际report/card/唯一writeback通过（44 changed knowledge pages/44 items）；boundary/lint/diff exit0，0errors174warnings(129key42raw3parser)。J02完整旧人审prefix、L25/L26prefix、原PDF/PLAN/Bib及script-resulthash通过；新J02-14–21全部needs_review。稳定发布指针main / `Audit DAY16 calibration nodes reference states and rotation controls`，actualhash/H3/push仅publication028/runreceipt。
 
 1998原实验当前已读前段至p137的一部分，仍在主线阅读；装置/角correction、α门、两314.78和113.159重叠例需完整原读/视觉/数值核完再写下一批canonical，不把已下载或摘要当完成。原15:00上海deadline/goalactive及formal16一次/partial17保持。
+
+
+### Checkpoint029实际验收与后续装置输入
+
+[verification-reopened-023](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-023.json)实际通过report/card/唯一writeback（45 changed knowledge pages/45 items）；boundary/lint/diff exit0，0errors176warnings(130citation-key43raw槽3reaction-parser)。原J02全人审prefix、L25/L26prefix、PLAN/Bib、两原PDF与两新script-resulthash保持。初writeback wrapper猜错internal-conversion方法路径造成exit1，已按rg实际路径续写缺失尾部，未重复append/改物理输入；失败回执保留。
+
+稳定发布指针main / `Trace DAY16 alpha gamma reference identities and conversion companions`，actualhash/H3/push仅publication029/runreceipt。1990装置原件前回忆已冻，新的合法检索进行中；尚未取得或读正文。研究/goal保持active至原15:00上海，formal16只计一次、partial17，不开18。

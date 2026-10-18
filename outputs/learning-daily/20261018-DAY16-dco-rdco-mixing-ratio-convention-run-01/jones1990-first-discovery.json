@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-19T06:33:13.820938+08:00",
+  "rows": [
+    {
+      "name": "doi-landing",
+      "url": "https://doi.org/10.1088/0954-3899/17/5/017",
+      "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/jones1990-discovery/doi-landing.txt",
+      "sha256": "2ce0d8b0ed13ae632f3f860d7143e0df00bad35eafedb06c0e1610d66aab5281",
+      "bytes": 14371,
+      "pdf_links": [],
+      "final_query_redacted": "publisher runtimechallenge parameters omitted; no article evidence",
+      "outcome": "publisher-verification-challenge",
+      "article_body_received": false
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1088/0954-3899/17/5/017",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1088/0954-3899/17/5/017",
+      "status": 200,
+      "path": "tmp/day16-ni60-reference/jones1990-discovery/openalex.txt",
+      "sha256": "7b55ea1c8bf5d783c9e9a8e83a913687ce43ae6762b09b9d3975a8ec1cac0afd",
+      "bytes": 13192,
+      "locations": [
+        {
+          "id": "doi:10.1088/0954-3899/17/5/017",
+          "doi": "https://doi.org/10.1088/0954-3899/17/5/017",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1088/0954-3899/17/5/017",
+          "pdf_url": "https://iopscience.iop.org/article/10.1088/0954-3899/17/5/017/pdf",
+          "source": {
+            "id": "https://openalex.org/S78376336",
+            "display_name": "Journal of Physics G Nuclear and Particle Physics",
+            "issn_l": "0954-3899",
+            "issn": [
+              "0954-3899",
+              "1361-6471"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-c",
+              "jufo-2",
+              "ki-jl-1",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320083",
+            "host_organization_name": "IOP Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320083",
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "IOP Publishing",
+              "Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Physics G: Nuclear and Particle Physics",
+          "raw_type": "journal-article"
+        }
+      ]
+    }
+  ]
+}

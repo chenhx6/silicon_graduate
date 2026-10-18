@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY16 original study window pursuing
+## Active handoff — DAY16 original window pursuing
 
-原run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究硬截止/15–16收束不改。goalactive，formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改，goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint028实际verification022通过44pages/items、boundary/lint/diff0、0errors174warnings(129key42raw3parser)。J02原8页全文/visual读并保留旧humanprefix/rawhash，新追加14–21全部needs_review。m0 pureE2 W/Q在90°同零、P未定义；point0→2→0给w±1，与原系数一致，原w±2文字不闭合。Crossratio实际稳定性/Σ条件、原假设counts与新design分层；223Ra两314.78母态376.28/445及理论P−.94/+.96异号，非同条reference。
+Checkpoint029 verification023实际通过45pages/items、boundary/lint/diff0、0errors176warnings(130key43raw3parser)，J02/L25/L26旧humanprefix与PLAN/Bib/raw/scriptresultguards过。Jones1998新source1–13完整13页/9图3表：source/α门/Qk/RB/fit与两314.78、113.159电子companion；47行point/Racah–helicity≤7.92e−15，phase桥0，36行J02theory/P舍入闭合，原1998central8项/δrounding后6项不闭合仅representation边界。342.84/G62.45符号敏感不改原号，spin/actualproducer未解。
 
-028内容稳定指针main / `Audit DAY16 calibration nodes reference states and rotation controls`，待本批actualH3/push，以publication028/runreceipt为准。027已actualGitee：main / `Audit DAY16 Ni60 reference uncertainties and source branches`。N60原phasebody仍缺/同模型pair核验不是实验Q，既有成果保持。
+113.159的E1/E2gamma与total/subshell分母分开，条件f.1923/.1458有marginal重叠，非actualfit/CI；原L/M选择是实际不同particlecompanion。J342.84和Table2多数δ号有model/systematics条件，gK/β3保持作者解释/模型层。新claims全部needs_review。初wrapper路径错exit1已按rg恢复缺失尾部，不重复append，原科学输入不变。
 
-下一Jones1998 Ref12真实出版商PDF已合法200/%PDF/hash核，原回忆先冻；当前text读至p137部分，完整mainline/全部相关fig/table与定量尚待。可见原source/finiteangle/phase约定、α门和两314.78、113.159E1/E2重叠有价值，先核完再canonical。新raw/数据不stage，所有原件留repo tmp。
+029待本批actualH3，稳定指针main / `Trace DAY16 alpha gamma reference identities and conversion companions`；精确hash/outcome只publication029/runreceipt。028已actualGitee，main / `Audit DAY16 calibration nodes reference states and rotation controls`。下一1990Ref15 apparatus DOI10.1088/0954-3899/17/5/017，回忆已冻、当前合法检索进行中，未读正文，需核原peak/gate/normalization而不猜。
 
-详continuation-current.md；保持raw/PLAN/Bib/credentials/旧人审prefix/继承dirty与log。精确manifest、log仅HEAD+ownentry，cached实际过再commit、freshfetch/ancestor/dryrun/nonforceH3。继续原窗口，不因checkpoint结束goal。
+详continuation-current.md。保护raw/PLAN/Bib/credentials/旧prefix/继承receipts/daemon/log，exactmanifest/HEAD+ownlog，cached实际通过后commit，freshfetch/ancestor/dryrun/nonforceH3。当前仍约8h+窗口，继续而不提前结束goal。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 
