@@ -1,0 +1,20 @@
+{
+  "subject": "Complete DAY16 card and reconcile course state",
+  "paths": [
+    "outputs/learning-milestones/2026-09-one-month-state.json",
+    "system/handoff.md",
+    "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-005.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/course-reconciliation.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/completion-verification.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/inherited-dirty-preservation-proof.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/task-log-entry-006.md"
+  ],
+  "isolated_log_path": "system/log.md",
+  "log_entry": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/task-log-entry-006.md",
+  "final_state": "completed onlyDay16, partial17, next17/count16; sciencepub005actualsuccess",
+  "required_record_publication": "Explicit per-run completion/course/receipt deliverable, not an unrelated governance/statuschange",
+  "excluded": "raw/PLAN/Bib/credentials/tmp; inheritedreceipts/daemon/oldlog"
+}

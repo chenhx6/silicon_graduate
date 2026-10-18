@@ -15,12 +15,12 @@
   "continuation_count": 0,
   "continuation_batch_count": 0,
   "continuation_batches": 1,
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "closing-out",
+  "status": "completed",
   "started_at": "2026-10-18T10:45:14.763821+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
   "completed_day_indices": [
@@ -32,16 +32,14 @@
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-19T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-18T10:45:14.763821+08:00",
+    "now_local": "2026-10-18T13:36:07+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
     "next_scheduled_start": "2026-10-19T16:00:00+08:00",
-    "minutes_to_deadline": 1694,
-    "minutes_to_next_start": 1754,
-    "minimum_current_block_minutes": 90,
-    "minimum_forward_card_block_minutes": 120,
-    "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "minutes_to_deadline": 1523.8833333333334,
+    "decision": "early-closeout-for-bounded-source-and-data-saturation",
+    "source": "manual clocktoolrefresh and rebuiltpool atresearchstop; not a forgedrunnerinjection",
+    "next_card_checked": 17,
+    "next_card_credited": false
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/prompt.md",
   "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
@@ -77,9 +75,15 @@
       "subject": "Compare DAY16 DCO ambiguities with the independent Ba130 experiment",
       "commit_hash": "3e344404efe5b8c8a0209a912a109767e5454b7c",
       "outcome": "pushed"
+    },
+    {
+      "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-005.json",
+      "subject": "Finalize DAY16 evidence and uncredited Day17 polarimetry preview",
+      "commit_hash": "82167f9dc37a73a596775fd6eb7e28f13f79ab29",
+      "outcome": "pushed"
     }
   ],
-  "last_checkpoint": "005-content",
+  "last_checkpoint": "final",
   "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-008.json",
   "knowledge_writeback_items": 16,
   "last_learning_summary": "Independent130Ba three-angle source confirms conditional branch selection, shared90 covariance and40rows/18finite scope; W178 primary/calibration and true counter-evidence preserved.",
@@ -95,5 +99,51 @@
   "next_prompt_session_started": false,
   "final_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-verification.json",
   "runner_exit_observed": false,
-  "completion_mode": "manual-reconciliation; actual runner final exit not observed"
+  "completion_mode": "manual-reconciliation-after-verified-science-publication; runner final exit not observed",
+  "finished_at": "2026-10-18T13:47:41.079850+08:00",
+  "deliverables_passed": true,
+  "curriculum_coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 17,
+    "error": null
+  },
+  "course_state_after": {
+    "next_day_index": 17,
+    "completed_day_count": 16
+  },
+  "course_state_counted_once": true,
+  "early_closeout": true,
+  "deadline_reached": false,
+  "final_release": {
+    "branch": "main",
+    "subject": "Finalize DAY16 evidence and uncredited Day17 polarimetry preview",
+    "commit_hash": "82167f9dc37a73a596775fd6eb7e28f13f79ab29",
+    "push_outcome": "pushed"
+  },
+  "post_commit_reconciliation": "Actualsciencepublication005verified; courseadvancedonlyDay16, finalcourseandreceiptmatchreportandpreparedprompt. ExactfinalstatecommitH3/hash/outcome retainedonlyinthe corresponding publicationreceipt.",
+  "final_receipt_commit_pointer": {
+    "branch": "main",
+    "subject": "Complete DAY16 card and reconcile course state"
+  },
+  "original_start_schedule_snapshot": {
+    "now_local": "2026-10-18T10:45:14.763821+08:00",
+    "hard_deadline": "2026-10-19T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-19T16:00:00+08:00",
+    "minutes_to_deadline": 1694,
+    "minutes_to_next_start": 1754,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": true,
+    "can_complete_forward_card": true,
+    "decision": "continue-or-advance"
+  },
+  "closeout_window_used": "Earlysource/data-boundarycloseout, not claimednormal15–16 execution",
+  "schedule_session_index_event": "manual-run-completed-after-publication"
 }

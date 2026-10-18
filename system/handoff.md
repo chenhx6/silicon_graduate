@@ -6,13 +6,13 @@ updated: 2026-10-18
 
 # 跨会话交接
 
-## Active handoff — DAY16 scientific closeout, only Day16 credit
+## Active handoff — DAY16 completed; Day17 is next
 
 Run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5。科学研究于2026-10-18T13:36:07+08:00提前收束，距原2026-10-19 15:00上海deadline仍1523.88min；原截止不改、不是userstop/截止已到。candidate-refresh007重建continuityW178/相位、novelty独立130Ba与恰好partial17知识池，matrix17再次检查后按source/data-boundary停止；不声称全部合法路线穷尽。之后closeout-only，不自动重开研究。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`供本日讨论。
 
-本session Day16独立primedrecall/原件主线/actualDCO双候选/phasecrosswalk/quantitative与反证均交付，报告Day16audit七行complete。正式仅completed[16]、partial[17]，不得formal17/Day18。课程final发布后从next16/count15对账next17/count16，只计16一次。Day15旧partial16/分数/检查不兑换credit。日报按用户固定17日文件名，actualrun_date18；receipt在18日run-dir。
+本session Day16独立primedrecall/原件主线/actualDCO双候选/phasecrosswalk/quantitative与反证均交付，报告Day16audit七行complete。正式仅completed[16]、partial[17]，不得formal17/Day18。科学publication005成功后已从next16/count15对账next17/count16，只计16一次。Day15旧partial16/分数/检查不兑换credit。日报按用户固定17日文件名，actualrun_date18；receipt在18日run-dir。
 
-科学001–004均actualH3/Gitee push；本次最终science/preview稳定指针main / `Finalize DAY16 evidence and uncredited Day17 polarimetry preview`，actualhash/H3/push仅publication005/runreceipt。Final-verification实际report/card/writeback通过16changed/16items，preflight/boundary/lint/diff均0、0errors/150warnings（117key/30raw/3parser），8mappedoriginalraw/3sharedhelperhash、KB08全人审prefix/PLAN/Bib保护通过。SG98 294印刷closure未解决而非全表复现，真实source/fitCov边界保留。
+科学001–004均actualH3/Gitee push；最终science/preview main / `Finalize DAY16 evidence and uncredited Day17 polarimetry preview`已actualH3/Gitee push；课程/完成回执稳定指针main / `Complete DAY16 card and reconcile course state`，actualhash/H3/push仅publication receipts/runreceipt。Final-verification实际report/card/writeback通过16changed/16items，preflight/boundary/lint/diff均0、0errors/150warnings（117key/30raw/3parser），8mappedoriginalraw/3sharedhelperhash、KB08全人审prefix/PLAN/Bib保护通过。SG98 294印刷closure未解决而非全表复现，真实source/fitCov边界保留。
 
 Canonical主成果W178 research-note、dco/angulardistribution/angularcorrelation/internalconversion/compton/linearpolarization方法页及KF89/BT87/KO01/KB08/NNDC/Purry/SG98 source。真实W178DCO两行gate角色/倒数/Cov、phase/F/fulltensor、BT87失败/invariants、4ENSDF空MR/CC/RI与sameparent、实际PurryMay1997primary电子50–400ns/ADP2only和旧3525/35ns反证；独立130Ba真实two-shape-success与40rows/18finite/未解star；Day17previewactualSG98峰面积/eta/Q阈值与fullCov。皆非新实验δ/Jpi/B/collectivemode或experimentalL4fit。
 
@@ -20,7 +20,7 @@ Canonical主成果W178 research-note、dco/angulardistribution/angularcorrelatio
 
 下张formalprompt `outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md`仅准备，未启动session/调度/credit，正式17必须新session带Day16priming独立逐卡。原runner成功退出未观察，收束用manualreconciliation不伪造normalrunner/clock事件。Farmer旧PID42019 running保留，无新daemon/session/hosttask/GUI Scheduled。
 
-保护raw/PLAN/Bib/credentials/review与继承receipts/daemon/旧log；log仅ownentries，unique raw新原件/对象只在repo tmp、source有hash/原行/scope、archive/Bib缺口明确。QMD旧cache未刷新。课程/最终receipt发布是收束余项，不重开科学；完整goal只有这些门真实完成后才markcomplete。
+保护raw/PLAN/Bib/credentials/review与继承receipts/daemon/旧log；log仅ownentries，unique raw新原件/对象只在repo tmp、source有hash/原行/scope、archive/Bib缺口明确。QMD旧cache未刷新。完成状态只交付/讨论Day16旧成果，不自动重开科学或重计卡；新formal17由既有runner另开session。本run最后的精确hash/实际远端结果只在完成回执记录。
 
 ## Previous active handoff — DAY15 complete; final content publication
 
