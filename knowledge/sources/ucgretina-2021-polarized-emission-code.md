@@ -32,7 +32,7 @@ tags: [software-validation, pure-limit, polarization, response-readiness]
 
 ## Bibliographic Record
 
-[Riley公开仓库](https://github.com/rileyle/UCGretina)的README把主体程序关联Riley等*NIM A*1003,165305(2021)，DOI10.1016/j.nima.2021.165305，把POL实现明确关联[[morse-2022-gretina-polarization-sensitivity]]的DOI10.1016/j.nima.2021.166155。本页证据对象是固定代码，并未把Riley2021论文当全文已读。
+[Riley公开仓库](https://github.com/rileyle/UCGretina)的README把主体程序关联Riley等*NIM A*1003,165305(2021)，DOI10.1016/j.nima.2021.165305，把POL实现明确关联[[morse-2022-gretina-polarization-sensitivity]]的DOI10.1016/j.nima.2021.166155。本页证据对象是固定代码；Riley2021原件现已另读于[[riley-2021-ucgretina-energy-response]]，其能谱/有效层验证范围与本页mixed Stokes内核验证分别保存。
 
 默认`geant4.10`分支本次固定到[1271388e03ec9b3f8e055a988aeb4c2e4d2efedf](https://github.com/rileyle/UCGretina/tree/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf)，commit date2026-08-04；按2021-12-02 author-preprint日期查得较早固定[1cd773473028ee4d2a30b848187471a06089fc99](https://github.com/rileyle/UCGretina/tree/1cd773473028ee4d2a30b848187471a06089fc99)，date2021-05-19。两者`src/ITDecay.cc`逐字节相同，SHA256如frontmatter；相关文件历史有2019新增、2020transition lookup修订、2021POL编译门。历史接近及README关联仍不足以认证作者实际binary、数据包、macro、geometry和后处理版本。
 

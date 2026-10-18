@@ -34,7 +34,7 @@ tags: [software-validation, calibration-identity, geometry, response-readiness]
 
 直接对象为UCGretina公开`geant4.11`分支的[固定2024-01-21版本](https://github.com/rileyle/UCGretina/tree/02e5a9241322f661c6918f6705cab813c691cd21)。归档16,909,304bytes，SHA256如frontmatter；724个blob（含symlink本身）全部对实际Git tree核准，构建与运行后保持。第三方源码、编译目录、几何副本和MC二进制仅在本repo的`tmp/`，raw归档槽尚未填，不改原始raw/Bib。
 
-README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nima.2021.166155；本页不是两篇论文全文摄入，也未认证任一实验的actual binary。前一公开七quad数据对象另见[[ucgretina-2012-eu152-public-calibration-data]]。
+README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nima.2021.166155；本页不是两篇论文全文摄入，也未认证任一实验的actual binary。前一公开七quad数据对象另见[[ucgretina-2012-eu152-public-calibration-data]]；Riley2021原件已随后另读于[[riley-2021-ucgretina-energy-response]]，该文十二quad/有效层验证不直接认证本页SDK/七quad模型。
 
 ## Scope and Reading Depth
 
@@ -65,6 +65,7 @@ README关联Riley2021 DOI10.1016/j.nima.2021.165305及Morse2022 DOI10.1016/j.nim
 | UG24-15 | 新种子各100000history实际run/native/history检查均exit0；γ/decay有20431/32976条CRYS、17576/26257个探测history，低区singles为2364/555与3611/850，H12=0/38、fixedN总数Cov12=−13.120331/+7.306573counts²。 | finite-MC-source-result | actual-model-histories | source-cov-100k gamma/decay regional statistics | true |
 | UG24-16 | 100k模型γ的1540–1800/1800–3000计数0/0，decay为3/0；后一高区零观测给history-hit概率单侧95%上限2.9956874×10^-5，仅限该模型。它没有证明真实数据高区无source或恢复旧alpha/fitCov。 | source-window-counterexample | actual-model-counts-and-binomial-bound | source-cov-100k regional highcounts/zero-hit bound | true |
 | UG24-17 | 三个decay高区history为52586/60023/81372，coreE1647.3406/1643.4116/1608.4141keV；中间history的两记录γ1299.1331+344.2786与core在3.06×10^-5keV内闭合，core大于任一单γ。支持保留sum-in竞争解释，未以能量相符替代逐track归属。 | identified-history-energy-closure | direct-valid-binary-fields | highregion-history-audit history60023；GEB timestamp600230000 | true |
+| UG24-18 | 当前两shape的asolid行按holeL/thickB/thickC/capS/capT/thickO解析，得到coax1.5/back2.5/outer.9mm，usePassive默认true；与Riley2021 Table2 II数值相同。仅这个tuple相同不能认证十二quad原实验/材料/producer，100k输入未被改写。 | actual-geometry-input-crosswalk | fixed-file-parser-and-source-table | G120C4solid.list9/21；geometry_description34–37；Gretina_Array.cc359–365 | true |
 
 ## Summary
 

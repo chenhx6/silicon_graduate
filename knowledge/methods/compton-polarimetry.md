@@ -310,6 +310,10 @@ Morse spin2→0 pureE2控制确实通过，这限制对其原标定的归因；�
 
 ### 源能谱实际运行后的三层检查
 
+[[riley-2021-ucgretina-energy-response]] R21-7/13/14给能谱响应本身的必要反证：同一NSCL十二quad数据按能区取不同有效层参数，.4/.9mm outer分别改善不同低能方面，近photopeak的partial charge collection仍未建模。作者明确今后polarimetry/tracking还需现实segmentation与partial collection；能谱吻合给出的是该source/选区下的约束，Q还须匹配的偏振observable。
+
+本run七quad源MC默认coax/back/outer=1.5/2.5/.9mm虽与其Table2 II相同，阵列、SDK、周边材料与源/门身份仍各自核查。R21 continuum的1172/1173target＋LaBr1332gate，与L25的1333target/1173gate角色相反；Compton continuum不是偏振角分布本身，不能从一个common source名迁Q。约210keV背散射检查只验证机制尺度。
+
 [[ucgretina-2024-geant4-11-source-replay]] UG24-3–11实际构建G411/11.4.2无POL源程序，保留all-empty decay truth和仅process-name兼容后的空槽失败；另名source-only记录副本的有效core/IP在同种子1000history下逐位不变，beta/boost未认证。程序exit0不足以确认truth，整个binary文件SHA不同也不足以判定物理记录改变。
 
 实际geometry companion进一步区分宏语句与有效volume：原decay的preinitialize源框命令下Eu152从Target出发；仅移到initialize后，primary从euTape出发并有有效POLYETHYLENE。新几何recipe的探测记录可以改变，不能和仅记录层改动混作同一不变性要求。源能谱/finite-MC合同见[[gretina-eu152-source-response-replay]]；全阵列几何warning、历史模板与matching Compton Q仍缺。

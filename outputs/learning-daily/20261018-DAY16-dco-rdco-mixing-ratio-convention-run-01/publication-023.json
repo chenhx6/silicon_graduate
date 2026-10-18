@@ -1,0 +1,42 @@
+{
+  "publication_index": 23,
+  "at": "2026-10-19T02:56:51.037359+08:00",
+  "branch": "main",
+  "subject": "Validate DAY16 source replay and geometry order controls",
+  "commit": "df8acfb34bf22f0b4e4a3af23be8545811d8804a",
+  "origin_main": "df8acfb34bf22f0b4e4a3af23be8545811d8804a",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "exec_session_id": 94161,
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag a642ccb5        \nTo gitee.com:chx6/silicon_graduate.git\n   2821974..df8acfb  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "inherited_dirty_preserved": {
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": true,
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": true,
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": true,
+    "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": true,
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": true,
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": true,
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": true,
+    "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": true,
+    "system/scripts/run_daily_learning_daemon.py": true
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17",
+  "known_wrapper_failure_isolated": "h3-publication-023-first-wrapper.json / h3-023-wrapper-correction.json; actualrerunpassed"
+}

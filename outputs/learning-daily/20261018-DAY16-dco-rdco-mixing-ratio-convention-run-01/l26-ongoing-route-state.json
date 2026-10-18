@@ -213,5 +213,18 @@
     "next_route": "Riley2021 source response fullmainline after publication023",
     "original_deadline": "2026-10-19T15:00:00+08:00",
     "goal_status": "active"
+  },
+  "Riley2021_primary": {
+    "source": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+    "actual_scope": "v1 26pages/12figs/Tables1-2/Eq1",
+    "crosscheck_exit": 0,
+    "current_asolid_tuple_II": [
+      1.5,
+      2.5,
+      0.9
+    ],
+    "array_SDK_exactproducer_matched": false,
+    "fit_Q_delta_or_CI": false,
+    "status": "canonical pendingverification018/publication024"
   }
 }

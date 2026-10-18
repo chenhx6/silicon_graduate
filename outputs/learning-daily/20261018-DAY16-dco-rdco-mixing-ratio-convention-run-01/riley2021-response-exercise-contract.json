@@ -1,0 +1,59 @@
+{
+  "identity": "RILEY2021-SOURCE-RESPONSE-CROSSCHECK-01",
+  "primed": true,
+  "before_table_numeric_exercise": true,
+  "PDF": "tmp/day16-ucgretina/riley2021/download/PDFs/article.pdf",
+  "PDF_sha256": "68644a73a5bb0ecb66ee504d162e0acdefa6a1e5b7c8dc44e846c322264364d1",
+  "table1": {
+    "back": {
+      "min": "1.0",
+      "max": "6.0",
+      "step": "0.25"
+    },
+    "coaxial": {
+      "min": "0.0",
+      "max": "5.0",
+      "step": "0.25"
+    },
+    "outer": {
+      "min": "0.0",
+      "max": "1.2",
+      "step": "0.1"
+    }
+  },
+  "paper_reported_grid_points": 5733,
+  "energies_per_grid_point": 36,
+  "table2_coaxial_back_outer_mm": {
+    "single_typeA": [
+      "2.09",
+      "2.8",
+      "0.40"
+    ],
+    "array_I": [
+      "3.0",
+      "2.0",
+      "0.40"
+    ],
+    "array_II": [
+      "1.5",
+      "2.5",
+      "0.90"
+    ]
+  },
+  "source_asolid": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/Slot0/G120C4solid.list",
+  "source_asolid_sha256": "bf5518bf42628a8c7caf812285f998863a93658a790bfef15ff9e9705bb794dd",
+  "source_parser": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/src/Gretina_Array.cc",
+  "source_parser_sha256": "d12575de977350d50eadce10b64bbfa4ea058af06ebe9f2ab5a21ee758b12e51",
+  "geometry_doc": "tmp/day16-ucgretina/g411-original/rileyle-UCGretina-02e5a92/GretinaGeometry/geometry_description",
+  "geometry_doc_sha256": "7045226162c616098d436860f04a02714c2a5fd3e1d4807668a898646d7083f4",
+  "mapping": "recordShape,0,1 has holeL,thickB,thickC,capS,capT,thickO; parser359-365/constructorusePassive true; reordercoax/back/outer for Table2",
+  "reported_gamma_labels_keV": [
+    1172,
+    1173
+  ],
+  "electron_rest_energy_keV": "510.99895",
+  "kinematic_assumptions": "free stationary electron, singleCompton 180deg; compare qualitativebackscatterfeature only, no digitizedcounts/Q",
+  "range_identity_boundary": "I53vs58 and3548vs3549 literal preserved; no chosenfitwindow orCIreplay",
+  "reference_gate_identity": "R21 GRETINA1172/1173 target, upstreamLaBr1332gate; not L25 reversedtarget1333/gate1173",
+  "no_experimental_fit_or_response_transfer": true
+}

@@ -1,0 +1,67 @@
+{
+  "identity": "RILEY2021-SOURCE-RESPONSE-CROSSCHECK-01",
+  "contract_sha256": "9fecc4995e3c3f07cd89a05bc230c879f04dd0c3fbb5fa237900045086bfde94",
+  "script_sha256": "dc5776b4f4eb6272160593dd98d9da1d6a63fe37e3bc64dee8c6b6b455c4bede",
+  "inclusive_grid_axis_counts": {
+    "back": 21,
+    "coaxial": 21,
+    "outer": 13
+  },
+  "inclusive_grid_total": 5733,
+  "paper_count_matches": true,
+  "nominal_energy_grid_combinations": 206388,
+  "number_of_independent_experiments_from_grid": null,
+  "table2_II_over_I_ratios_coaxial_back_outer": [
+    0.5,
+    1.25,
+    2.25
+  ],
+  "actual_asolid_shapes": [
+    {
+      "shape": 0,
+      "source_line": 9,
+      "coaxial_back_outer_mm": [
+        1.5,
+        2.5,
+        0.9
+      ],
+      "matches_paper_array_II_tuple": true,
+      "hole_front_depth_mm": 15.0,
+      "capsule_spacing_mm": 0.5,
+      "capsule_thickness_mm": 0.8
+    },
+    {
+      "shape": 1,
+      "source_line": 21,
+      "coaxial_back_outer_mm": [
+        1.5,
+        2.5,
+        0.9
+      ],
+      "matches_paper_array_II_tuple": true,
+      "hole_front_depth_mm": 15.0,
+      "capsule_spacing_mm": 0.5,
+      "capsule_thickness_mm": 0.8
+    }
+  ],
+  "current_default_passive_layers_enabled": true,
+  "current_array_is_paper_12quad_or_original_producer": false,
+  "free_electron_Compton_kinematics": [
+    {
+      "incident_gamma_keV": 1172,
+      "backscattered_photon_180deg_keV": 209.76917326011625,
+      "Compton_edge_recoil_electron_keV": 962.2308267398837,
+      "d_backscatter_d_incident": 0.03203524942794373
+    },
+    {
+      "incident_gamma_keV": 1173,
+      "backscattered_photon_180deg_keV": 209.80118608374008,
+      "Compton_edge_recoil_electron_keV": 963.19881391626,
+      "d_backscatter_d_incident": 0.03199041351853484
+    }
+  ],
+  "backscatter_difference_for_paper_1172_1173_labels_keV": 0.0320128236238304,
+  "source_inputs_after_analysis_unchanged": true,
+  "figure_counts_digitized": false,
+  "new_experimental_fit_Q_or_CI": false
+}

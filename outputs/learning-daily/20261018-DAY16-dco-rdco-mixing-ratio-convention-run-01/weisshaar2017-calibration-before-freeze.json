@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T03:17:03.647180+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "d3abfff73ffa5520de6533e64068c5939bff5d9b69c3bec1584697c06adfea40",
+  "primed": true,
+  "before_newmetadata_body": true,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

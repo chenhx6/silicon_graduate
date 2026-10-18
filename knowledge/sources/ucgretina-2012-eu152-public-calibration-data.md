@@ -34,7 +34,7 @@ tags: [public-data, calibration-identity, sorting, response-readiness, not-polar
 
 ## Bibliographic Record
 
-本页直接来源是[固定UCGretina example](https://github.com/rileyle/UCGretina/tree/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/examples/sources/eu152)的README、宏、拟合代码及公开ROOT对象，另读同commit的`util/GRUTinizer/MakeHistosSourcesSim.cxx`、`MakeHistosInBeam.cxx`、`MakeHistos60CoSim.cxx`。项目主体论文DOI10.1016/j.nima.2021.165305只是README给的引用关系，本run未读该论文全文，也不以它替代这些对象。
+本页直接来源是[固定UCGretina example](https://github.com/rileyle/UCGretina/tree/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/examples/sources/eu152)的README、宏、拟合代码及公开ROOT对象，另读同commit的`util/GRUTinizer/MakeHistosSourcesSim.cxx`、`MakeHistosInBeam.cxx`、`MakeHistos60CoSim.cxx`。项目主体论文DOI10.1016/j.nima.2021.165305现已另读为[[riley-2021-ucgretina-energy-response]]；其NSCL十二quad主线与本页2012七quad数据不同，本页证据仍为这些固定对象。
 
 README指明2012-09 NSCL七quad GRETINA的Eu152源/room-background校准；当前数据树实际有run020源及run007背景。ROOT对象的保存时间是2013-04 metadata，既不改写README采集日期，也不是独立实验证据。此数据不同于[[morse-2022-gretina-polarization-sensitivity]]六quad反应偏振标定和L26十二quad/FMA采集。
 

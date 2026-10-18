@@ -51,6 +51,8 @@ updated: 2026-10-19
 
 ## Candidate pool and selection
 
+恢复窗口当前选择仍为GRETINA source/偏振response的continuity问题，Riley2021是必要companion原件；没有新增第二novelty或课程卡。它纠正“仓库公开七quad例就是主体论文数据”的预期，并提供新的物理反证与可核表格。更多MC/终态URL重试不能替原producer或统计ledger；研究窗尚有>11h，下一候选将从实际校准分母/选择/原数据缺口重建，保持partial17、不开18。
+
 | 候选 | 与近期知识重叠/信息增益 | 当前决定 |
 | --- | --- | --- |
 | 178W921真实DCO两支、921(G)与921 observed角色 | 既有KF89有定义/一般限制，但未保存此数据点的双支和两个门；可查原件并作新反向检验 | continuity主问题 |
@@ -63,6 +65,14 @@ updated: 2026-10-19
 本轮初始continuity为W178/相位，novelty后来选独立130Ba三角度实验；仍只是一项continuity与一项novelty问题。后续恰好Day17知识preview单列，不授正式学分。最新checkpoint时钟为2026-10-18T12:00:09+08:00，距原硬截止约1619.85分钟；原截止不改，当前K-shell/primary路线仍有信息增益，继续研究。
 
 ## Sources and evidence
+
+### Riley2021原件主线：有效响应与Q迁移的边界
+
+新canonical [Riley2021](../../knowledge/sources/riley-2021-ucgretina-energy-response.md) R21-1–18：实际arxiv2104.09986v1全26页主线/参考索引、12图逐一视读、两表和Eq1核。读取前[riley2021-response-before](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/riley2021-response-before.md)已冻并说明公开code/Eu2012/Morse/MC priming，绝非盲测。Crossref/实际PDF身份匹配，VoR body未取得。
+
+原件全阵列为NSCL12quad，公开2012七quad与当前11.4.2/7quad MC分别保留。作者的I/II有效层tuple按同组flood数据不同能区取值；低能效率/continuum没有被一组参数同时解释，quoted stat interval不代表真实被动层精度。fullmodel邻接/后方材料修复最小模型的低能continuum，polarimetry/tracking仍需现实segmentation/partial charge collection。
+
+actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰等Table2 II；文件hash不动，不据此认证原12quad或exactproducer。R21 continuum target1172/1173、LaBr gate1332；L25-30 target1333/gate1173，保留γ角色区别。I53/58及3548/3549、Fig7/8(d)caption与实际轴、backfraction归一producer缺口均如实留source。
 
 ### G411源模拟checkpoint023：记录兼容与实际源框
 
@@ -105,6 +115,12 @@ updated: 2026-10-19
 实测摘要新写KF89-15–18，均needs_review:true。原KF89 page human-reviewed及所有旧claim flags保留；这次self-audit不冒充人审。
 
 ## Theory/analysis exercise
+
+### Riley2021实际表格、输入参数与Compton机制核验
+
+[response crosscheck](../../system/scripts/day16_riley2021_response_crosscheck.py)在冻结typed原表/版本/hash/单位后实际exit0：Table1 inclusive21×21×13=5733与原文相符，36能量对应nominal206388个网格组合而非独立实验；Table2 II/I的coax/back/outer比为.5/1.25/2.25。当前asolid9/21行经format/parser/usePassive核，coax1.5/back2.5/outer.9mm对应II数值，未改输入去追旧fit。
+
+free stationary electron的Eback=Eγ/(1+2Eγ/m_ec²)给1172/1173keV时209.769/209.801keV、electron edge962.231/963.199keV；背散射差.032keV远小于Fig11的4keV bin，只作约210keV结构/邻接材料机制核验，没有digitize图counts、重拟χ²/CI或标Q。结果[exercise-result](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/riley2021-response-exercise-result.json)，canonical R21-11/18与UG24-18。
 
 ### 真实可执行源模型的有限MC设计
 
@@ -333,6 +349,8 @@ Canonical [25Na ledger](../../knowledge/research-notes/gretina-25na1041-polariza
 
 ## Counter-evidence and missing companion observables
 
+R21-8/12–17的独立反证/边界：极小单晶quoted stat interval明确不反映真实层精度；I/II reuse同flood数据，改变fit范围不新增实验。能谱photopeak与门控continuum的companion不能代偏振harmonic/Q；1173target/1332gate也不能当L25反向角色的同reference。原raw计数、backfractionproducer/联合Cov及χ²grid未得，保留readiness，不补写新的实验CI。
+
 ### 实际能谱不替Compton校准
 
 UE12-3/8/9表明两ROOT无TTree/实际Comptonξ，labθφ不是散射平面ξ；MC模板与fullfitCov未取得，p0中央接近不认证整response。README run022/1540/p2p3fixed与实际宏run020/1800/release的字面差别保留。sourceprimary一γ/event与radioactive一decay/event分母不同，不能将两种simulation当独立Q验证。selector的normal降序反证限制原担忧；actualtie率/原binary仍缺。
@@ -353,6 +371,8 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 作者的强度比1.2±.2相对预期2.3只支持其branch偏好；模型预期和Cov缺失，不能变成独立、无假设的排除。182-keV E1/ICC结论不是921-keV target的独立companion。下一有判别力测量需同921/306、90°/38°/φ18°及matched cuts的P幅值、Q921、净计数/背景、与DCO共同事件Cov；没有这些输入不计算实验显著性或束流时间。
 
 ## Knowledge Impact and Learning Decision
+
+本批R21 `supports`多observable约束有效能谱响应；`revises`同仓库代码例等同原论文配置的预期；`limits`把参数一致/能谱吻合/极小stat interval提升为真实层测量或Q认证。原DCO/δ多解与same-transition companion边界保持。
 
 ### publicsource batch的判断
 
@@ -382,6 +402,8 @@ N25-4/5/10给三项实际边界：POL=.043(.008)是A0而非P；官方PDF靶厚�
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+新增canonical [Riley2021 source](../../knowledge/sources/riley-2021-ucgretina-energy-response.md) R21-1–18，保存完整主线、12图/表/Eq1、data与model/CI/能区限制。UG24新增18 actualasolid对应II数值；Eu152note/Compton/index/UE12/UC21关联原件并保持不同数据/版本身份。重算5733点与Compton背散射、source参数crosswalk均有knowledge副本。
 
 新增canonical [G411 source](../../knowledge/sources/ucgretina-2024-geant4-11-source-replay.md) UG24-1–17和[Eu152 response note](../../knowledge/research-notes/gretina-eu152-source-response-replay.md)，保存actualbuild/nativeABI、truth失败与有限修正、同种子core对照、Target/euTape导航反证和finite-MC推导。Compton方法、原UE12关联与index同步；这些可复用结果有knowledge正文副本，不只在outputs。
 
@@ -674,7 +696,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -732,6 +754,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-10"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-13"
         }
       ]
     },
@@ -1128,7 +1158,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1334,6 +1364,18 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-10"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-5"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-7"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-14"
         }
       ]
     },
@@ -2171,7 +2213,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     {
       "knowledge": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
       "anchor": "UCGretina：发射代数、软件实现与阵列响应分开",
-      "summary": "固定公开2021/2026 Stokes代码和Geant4原函数，实际core/独立trace/phase/purelimit核验；保存mixed高rank浮点失败、反证与producer边界。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。",
+      "summary": "固定公开2021/2026 Stokes代码和Geant4原函数，实际core/独立trace/phase/purelimit核验；保存mixed高rank浮点失败、反证与producer边界。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。",
       "sources": [
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
@@ -2236,13 +2278,17 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
           "locator": "UC21-16"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-14"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
       "anchor": "Eu152公开能谱：实际数据能支持哪一层校准",
-      "summary": "真实ROOT源/背景counts和window/Cov传播，sourceevent分母及truthsorting、GRUT降序counterevidence；不代原ComptonQ/arrayresponse。 G411新批补入truth/geometry实际控制与历史源response边界。",
+      "summary": "真实ROOT源/背景counts和window/Cov传播，sourceevent分母及truthsorting、GRUT降序counterevidence；不代原ComptonQ/arrayresponse。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。",
       "sources": [
         {
           "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
@@ -2299,12 +2345,16 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-10"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-1"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
-      "summary": "新建固定G411源能谱软件source，核原truth双失败/source-only追加、nativeABI、同种子有效core不变和源框顺序实际导航边界。 新1000history统计控制核跨区Cov正负、PSD/双算法与zero-hit概率界。 各100k实际运行/四区/有限Σ及三个高区history的能量闭合已写回，未做实验Q/δ/旧fit。",
+      "summary": "新建固定G411源能谱软件source，核原truth双失败/source-only追加、nativeABI、同种子有效core不变和源框顺序实际导航边界。 新1000history统计控制核跨区Cov正负、PSD/双算法与zero-hit概率界。 各100k实际运行/四区/有限Σ及三个高区history的能量闭合已写回，未做实验Q/δ/旧fit。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。",
       "anchor": "G411源模拟：程序退出、有效记录和实验响应分别核验",
       "sources": [
         {
@@ -2374,12 +2424,20 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-17"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-7"
+        },
+        {
+          "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
+          "locator": "UG24-18"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/gretina-eu152-source-response-replay.md",
-      "summary": "新建source-response合同，保存已执行模型边界及fixedN/compound-Poisson有限MC推导，未报未完成100k结果。 新1000history统计控制核跨区Cov正负、PSD/双算法与zero-hit概率界。 各100k实际运行/四区/有限Σ及三个高区history的能量闭合已写回，未做实验Q/δ/旧fit。",
+      "summary": "新建source-response合同，保存已执行模型边界及fixedN/compound-Poisson有限MC推导，未报未完成100k结果。 新1000history统计控制核跨区Cov正负、PSD/双算法与zero-hit概率界。 各100k实际运行/四区/有限Σ及三个高区history的能量闭合已写回，未做实验Q/δ/旧fit。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。",
       "anchor": "source-calibration可复用关口",
       "sources": [
         {
@@ -2453,6 +2511,109 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-17"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-7"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-13"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-14"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+      "summary": "新建Riley2021 arxivv1实际全主线/12图/两表/Eq1 source，核12quad身份、有效层/模型CI、低能与continuum反证、5733点/Compton机制及Q迁移边界。",
+      "anchor": "能谱匹配的有效参数与偏振响应需要分别验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-1"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-2"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-3"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-4"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-5"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-6"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-7"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-8"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-9"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-10"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-11"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-12"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-13"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-14"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-15"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-16"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-17"
+        },
+        {
+          "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+          "locator": "R21-18"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-30"
         }
       ]
     }
@@ -2490,6 +2651,12 @@ Dors[3]身份冲突已经定位到准确DOI，尚待全文给169/137的约定与
 L0为三篇主线/原图回核；L1/L2为新证据单和反向验证；L3调查已由用户恢复至原15:00截止，169参考定义/producer与新原件缺口保持开放。尚未进行experimental L4 refit；已有条件设计不冒充实际数据分析，也未取得完整input/response/Σ。新增真实可执行的source-only MC与history统计子任务，版本/输入/单位/模型Cov/失败检查均存档；它不补齐experimental L4 refit的原事件、matching偏振response与联合Σ。未新增人审或修改旧needs_review。
 
 ## Verification and continuation
+
+### Riley2021 checkpoint024验收
+
+[verification-reopened-018](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-018.json)实际report/card/唯一writeback通过：41changed/41items；boundary/diff/lint均exit0，0errors172warnings（128citation-key、41raw槽、3reaction-parser）。原L26/L25人审prefix和PLAN/Bib hash保持。paper26页/12图及typedtable/parser/Compton交叉核验均有实际artifact，保留新primary为arxivv1、原fit/producer/Cov未复现的边界。
+
+publication023已actualGitee/HEADorigin核准；本批内容指针main / `Read DAY16 primary energy response and calibration boundaries`，精确hash/实际push仅后续publication024/runreceipt。03:15上海仍距原15:00约705min，goalactive，继续原校准分母/选择companion候选；本checkpoint不结束窗口、不给Day17正式学分。
 
 ### Source-MC checkpoint023实际检查与后续原件
 

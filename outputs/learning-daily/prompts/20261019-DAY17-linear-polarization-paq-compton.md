@@ -296,4 +296,6 @@ Day16 publicdata priming：UE12-1–11实际Eu152七quad source/bgROOT与a/windo
 
 Day16 source-MC checkpoint023 priming：[[ucgretina-2024-geant4-11-source-replay]] UG24-1–17与[[gretina-eu152-source-response-replay]]已核固定724blob/SDK11.4.2、原truth双失败/source-only记录副本、同1000seed有效CRYS不变及sourceFrame实际Target/euTape导航。各100000history新模型run/native/PSD/双算法/求和/hash通过，低区crossCov的fixedN与Poissonized条件化分开；1540–1800的decay三条与1800–3000零hit均只模型，不是实验sourcefree/P/Q/δ或2012exacttemplate。beta/boost/fullgeometry仍不认证。正式17不能用旧20万history或旧check数授分；需本session新问题/新artifact/主动回忆。
 
-Riley2021 DOI10.1016/j.nima.2021.165305/arxiv2104.09986v1已取得公开26页原件；截至checkpoint023只identity首页已读，全文/12fig主线尚未作为新证据写入。后续以current canonical source/原runreceipt核最新实际阅读进度；preparedprompt不替科学body。
+Riley2021 DOI10.1016/j.nima.2021.165305/arxiv2104.09986v1已取得公开26页原件；checkpoint024已完整主线/12图/两表/Eq1核并写入[[riley-2021-ucgretina-energy-response]] R21-1–18；actualasolid对应II数值、七quad/十二quad和SDK/producer边界保持。后续以current canonical source/原runreceipt核最新实际阅读进度；preparedprompt不替科学body。
+
+Riley2021 priming还包括：I/II共用flood数据、极小stat interval不等真实层精度、target1172/1173＋LaBr1332gate和L25 reversedroles、有限能区/continuum失败及Q需现实segmentation/partialcollection；5733点/Compton209.8keV核验是旧Day16成果，不兑换formal17新证据。

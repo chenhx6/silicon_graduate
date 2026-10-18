@@ -7,7 +7,7 @@ updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [ucgretina-2024-geant4-11-source-replay, ucgretina-2012-eu152-public-calibration-data]
+evidence_sources: [ucgretina-2024-geant4-11-source-replay, ucgretina-2012-eu152-public-calibration-data, riley-2021-ucgretina-energy-response]
 created_from: Day16 independent run, uncredited Day17 response preview
 promotion_target: compton-polarimetry
 tags: [source-calibration, covariance, GRETINA, simulation-readiness, geometry]
@@ -26,6 +26,14 @@ tags: [source-calibration, covariance, GRETINA, simulation-readiness, geometry]
 [[ucgretina-2024-geant4-11-source-replay]] UG24-1–12：固定G411/11.4.2已实际编译、运行并native解码。原all-empty decay truth、仅改process名后的26空槽、新source-only append和逐位CRYS对照分别保留，不能将第三个版本的通过覆盖前两个失败。仅记录层改动的相同种子183/349条core/IP不变；sourceframe改动则物理history会变。
 
 源框对照的必要companion是**实际导航volume和有效材料**。原decay宏虽含命令且exit0，单event Eu152实际从Target出发；另名postinitialize recipe从euTape出发。不能用参数报告中的“including frame”替代这个检查。1000event新recipe为367条CRYS/287探测history，仍不是实验效率。
+
+### Riley2021原件补齐的实际参数身份
+
+[[riley-2021-ucgretina-energy-response]] R21-1/7/11–18完整原读26页及12图后，限定其主线为十二quad/flood和单晶pencil数据。当前100k模拟的asolid两shape，经format doc、parser及usePassive核，实际coax/back/outer=1.5/2.5/.9mm，数值对应论文Table2 II；输入hash保持，不将此数值相同写成七quad2012与十二quad2019–2020的响应一致。
+
+Table2 I/II只改变采用的同组效率能区，outer optimum由.4变.9mm，coax/back也随之变；图7/8有参数valley。作者指出一组有效参数无法同时复现低能效率和continuum，模型stat intervals不代表真实层厚度精度。当前源MC已具输入身份和模型Σ，仍缺原实验的matched response与联合Σ。
+
+R21的continuum为1172/1173target、upstream LaBr1332gate；[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-30为1333target/1173gate，不能只以60Co或约1.3MeV叫同一个reference。约210keV背散射的Compton公式检查解释了邻接/后方材料为何影响continuum，不能从能谱0阶响应推出偏振cos2 harmonic灵敏度Q。
 
 ## Assumptions
 
@@ -105,7 +113,7 @@ Morse pureE2偏振校准的成功控制仍保留于[[ucgretina-2021-polarized-em
 
 ## Open Questions
 
-各100000history能谱/native/PSD/求和/上界检查已通过。下一高信息路线是已冻结回忆并取得的Riley2021原件：核作者实际passive-layer/源能谱标定、tuning与独立性，再决定哪些模型比较可作、哪些需要新的实验/response输入。不靠调source geometry、α或Q追历史印刷值。此路线仍是Day16下partial17，不开Day18。
+各100000history检查及Riley2021原件主线/图表、5733点网格、实际II参数和Compton机制核验已通过。原back-fraction计数分母/归一ledger、联合误差与exact response仍缺；需要新的原producer/实验方法输入来决定可重放的空间子类或门控校准，而非盲加统计或调source geometry、α/Q追印刷值。此路线仍是Day16下partial17，不开Day18。
 
 ## Human Review
 

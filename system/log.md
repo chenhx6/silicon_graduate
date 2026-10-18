@@ -1910,3 +1910,8 @@ Fullq/Jones finiteIQUV实际18cases/540points与12新PSD事前输入验证通过
 ## 2026-10-19 DAY16 checkpoint023：源能谱记录与几何对照
 
 固定G411/Geant4 11.4.2实际headless构建、原truth双失败和source-only记录副本，同种子有效CRYS不变及Target/euTape源框顺序对照已canonical；各100000history run/native/有限MC矩阵/求和/hash通过，3条1540–1800源模型计数与零高区边界保留。非实验Q/δ/原fullfit。新source/note、Compton/UE12/index与唯一40项writeback；formal16一次/partial17，原15:00上海截止及goalactive不改。内容指针main / `Validate DAY16 source replay and geometry order controls`，实际hash/push仅publication023/runreceipt；下一已冻Riley2021原件主线，未以metadata授科学结论。
+
+
+## 2026-10-19 DAY16 checkpoint024：Riley2021原件与能谱响应边界
+
+实际全26页/12图/两表/Eq1与sourcecode参数crosswalk，新增R21-1–18并同步UG24/Eu152note/Compton/index/UE12/UC21；5733点/当前II参数/Compton背散射练习0。保留能区退化、95%stat条件、同flood数据/不同七十二quad、reference角色与polarimetry未建partialcharge边界，不造实验Q/δ或CI。唯一41项writeback；内容指针main / `Read DAY16 primary energy response and calibration boundaries`，actualhash/push仅publication024/runreceipt；原formal16一次/partial17与15:00窗口/goalactive保持。

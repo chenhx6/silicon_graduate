@@ -1,0 +1,79 @@
+{
+  "PDF_sha256": "68644a73a5bb0ecb66ee504d162e0acdefa6a1e5b7c8dc44e846c322264364d1",
+  "rows": [
+    {
+      "figure": 1,
+      "PDF_page": 4,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-01-page-04.png",
+      "sha256": "820f93919ba15190b7a9a91227002eeb0ff0477efe392354b7be45285a213dc8"
+    },
+    {
+      "figure": 2,
+      "PDF_page": 6,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-02-page-06.png",
+      "sha256": "ccb5dbc016d361eca7953d0fc7279c41f9f2d8e0e33ae347b2a9e0f2410e03a2"
+    },
+    {
+      "figure": 3,
+      "PDF_page": 7,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-03-page-07.png",
+      "sha256": "d6f390dce338a881ba12b64c56a8452d3007f9f17e996fee1cca93591638994d"
+    },
+    {
+      "figure": 4,
+      "PDF_page": 10,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-04-page-10.png",
+      "sha256": "ca4cecb289a2b1551287b5c40fdb24b9216caec29ca4681f8fe2f2f96374f827"
+    },
+    {
+      "figure": 5,
+      "PDF_page": 11,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-05-page-11.png",
+      "sha256": "656df58562e8b93d9fab64b3fd023bda87b86083d5e50160c09f6537a7ee2ec9"
+    },
+    {
+      "figure": 6,
+      "PDF_page": 12,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-06-page-12.png",
+      "sha256": "e0eed1cc32a614d516c238a891e4a27bdbf04b65ffe3197adf19cf70f4144fa3"
+    },
+    {
+      "figure": 7,
+      "PDF_page": 16,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-07-page-16.png",
+      "sha256": "c9b4299b29980d100e89e4db568dd6c8b482af9f86875824b5b21e4ff1cc8f0f"
+    },
+    {
+      "figure": 8,
+      "PDF_page": 17,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-08-page-17.png",
+      "sha256": "7c2a4fe2e32910da97141e09ac07dada2e453620d1d8dfd80d6173a4e05b62b3"
+    },
+    {
+      "figure": 9,
+      "PDF_page": 18,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-09-page-18.png",
+      "sha256": "e7f325431bef876e1e8b67abb38dc908062da17ba1ad85d30b6c7b45ad3714c4"
+    },
+    {
+      "figure": 10,
+      "PDF_page": 19,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-10-page-19.png",
+      "sha256": "3f707a7a31b4a97fc3a41dd5f0773aa6d4c1f9c05a16c7415996bc1429833202"
+    },
+    {
+      "figure": 11,
+      "PDF_page": 20,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-11-page-20.png",
+      "sha256": "0e3ea6a29900fa66d12bfd7bb2f5666ebca9d7d0bbbec474a8a47178da64f39a"
+    },
+    {
+      "figure": 12,
+      "PDF_page": 21,
+      "image": "tmp/day16-ucgretina/riley2021/figures/fig-12-page-21.png",
+      "sha256": "10f1bb1f2c0c549a13ebe6d2b46d13dc02be3b142e76fc234c9a6b93c08487fc"
+    }
+  ],
+  "images_inspected_yet": true,
+  "inspection_at": "2026-10-19T03:06:21.318617+08:00"
+}

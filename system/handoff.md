@@ -8,15 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止/15–16收束不改；goal active/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海截止/15–16收束不改；goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
 
-Checkpoint023：新G411 source UG24-1–17/Eu152response note与Compton/index/UE12联接，40changed/40items。固定source724blob与官方SDKheader核准；无POL。原truth全0、nameonly26空槽失败保留，source-onlyappend另名+40槽，beta/boost不认证；同种子183/349有效CRYS逐位不变。实际sourceFrame前/后init使primary Target/euTape不同，另名postinitdecay1k367/287、native0；几何warning未闭合。
+Checkpoint024：Riley2021 actual arxivv1全26页/12fig/两表/Eq1，新sourceR21-1–18与Eu152note/Compton/index/UE12/UC21关联；UG24新增18实参crosswalk，41changed/41items。12quad论文与公开7quad/data/SDK分开；I/II同flood数据不同能区、quotedstat非真实层precision，低能/continuum反证及polarimetry partialcharge/segmentation边界保留。1172/1173target＋LaBr1332gate不迁为L25 reversedreference。
 
-各100k run/native/history实际0：CRYS20431/32976、detect17576/26257，四区counts(2364,555,0,0)/(3611,850,3,0)，fixedN Cov12−13.120331/+7.306573，PoissonizedH12=0/38；PSD/双算法/求和/hash过。1800–3000零只modelhistory概率界2.9956874e−5，非实验sourcefree/Q/δ/旧fullfit。3高区history中60023两γsum/core闭合，不造逐track归属。
+实际typedtable/parser/doc/hash练习0：5733点inclusive闭合、currentasolid两shape1.5/2.5/.9mm/usePassive对应Table2 II但不认证paperproducer；Eback≈210keV只机制核，不digitizecounts或fitQ/CI。I53/58、3548/3549、Fig7/8d轴/图注和backfractionledger未决，不补确定解释。verification018 actualreport/card/唯一writeback41/41、boundary/diff/lint0，0errors172warnings(128key41raw3parser)，旧人审prefix/PLAN/Bib保持；显式manifest发布；内容指针main / `Read DAY16 primary energy response and calibration boundaries`，hash/H3/push仅publication024/runreceipt。
 
-required017初三检查0，wrappertextlint误按JSON的exit1与correction保留；最终以verification-reopened017。内容稳定指针main / `Validate DAY16 source replay and geometry order controls`；精确hash/H3/实际push只publication023/runreceipt，前022actualpush已记录。
+上批023 actualGitee/HEADorigin已通过，原truth双失败、sourceframe Target/euTape控制、各100k finiteMC/PSD/双算法/求和/hash与高区model边界保持；不是实验Σ/Q/δ/旧fullfit。H3/验收wrapper的text/JSON错误已隔离修正并留receipt，原检查实际0，不隐去失败。
 
-下一Riley2021 primary回忆已冻并标priming，DOI/arXiv身份与OA26页PDF核，仅首identity页读过，12fig/全文主线待读。见continuation-current.md和acquisition；先核passivelayers/source/efficiency/continuum/tuning与同数据谱系，未读不造科学claim。所有source/build/MC/ROOT在tmp、无全局安装/SDK改动；exactmanifest/HEAD+ownlog/H3非force，保护继承dirty/log/raw/PLAN/Bib/L26L25旧人审prefix。
+下一沿真实校准分母/选择/原producer缺口重建continuity候选，不盲加MC或重试终态；详continuation-current.md。全部source/PDF/build/MC/ROOT只tmp，不动raw/PLAN/Bib/凭据；保护L26/L25人审prefix/继承dirty/log，exactmanifest/HEAD+ownlog/H3 freshfetch非force。仍余11h+继续至原15:00窗口。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

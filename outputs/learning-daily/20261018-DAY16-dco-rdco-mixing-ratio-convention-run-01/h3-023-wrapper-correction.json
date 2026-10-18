@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T02:55:23.602817+08:00",
+  "failure": "H3 wrapper assumed clean_knowledge_eol_dirty stdout JSON but it is text",
+  "clean_script_actual_exit": 0,
+  "wrapper_exit": 1,
+  "Git_push_not_yet_executed": true,
+  "fix": "match exact Restored: 0 text line; rerun completeH3 from firstcommand",
+  "commit_content_changed": false
+}

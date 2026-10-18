@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-19T03:09:21.504705+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "PDF_sha256": "68644a73a5bb0ecb66ee504d162e0acdefa6a1e5b7c8dc44e846c322264364d1",
+  "actual_reading": "arxivv1 26pages, fullmainline1\u201323 andbibliography24\u201326; all12figures visuallyinspected via repo-localrasterrender; Tables1/2 andEq1 checked",
+  "figures": {
+    "1": "A/B crystal shapes; centralcontact/back/outer distinct effectivevolumes",
+    "2": "minimal lineofsight vs full adjacent/back passive model; 12quad",
+    "3": "LBNL scanningtable x/y axes and apparatus, not beam/Compton axes",
+    "4": "five measuredfilled/simopen pencilscans; common scale and geometryoffset tuning",
+    "5": "singlecrystal backfraction(%) and residual; denominator ledger not recovered",
+    "6": "singlecrystal photopeak efficiency(%) and residual, restricted fittedmodel",
+    "7": "I valley and fixedback2.0mm surface; paneld axisBackvsCoax butcaptionOuter",
+    "8": "II valley and fixedback2.5mm surface; broader coax/outertradeoff, samecaptiondissue",
+    "9": "I/II fullarray efficiency/residual differentlowE tradeoffs; samedata subset",
+    "10": "fullarray backfraction(%) and residual; no rawnormalization ledger",
+    "11": "minimalmaterial deficit below300keV/backscatterfeature around210keV, counts4keV",
+    "12": "fullmaterial I/II continuum; below150keV Ioverpredicts, >1000 residual notallresolved"
+  },
+  "original_version_not_acquired": "publisherVoRbody not fetched, do not claimv1VoRidentity",
+  "literal_boundaries": [
+    "rangeI53vs58keV; upper3548vs3549; quoted1172vs1173",
+    "Fig7/8(d)captionouterbutaxisandproseback",
+    "backfractionprose/percentaxes do not provideactualcounts/normalizationproducer; do not silentlyredefine"
+  ],
+  "source_independence": "samefloodobservations reusedforI/II fits andmultiplefigures; LBNLsinglecrystal separateapparatus butnojointcov; sharedUCGcode/calibration dependencieswith latermodels",
+  "recall_revision": "beforepaperquestionmentioned7quad; paperSec4 actually12quad, public2012exampledifferentdata/config",
+  "counterevidence": "authorscannotmatchallaspects withonepassivelayertuple; partialcharge/segmentation futureforpolarimetry",
+  "no_new_experimental_Q_delta_fit": true,
+  "initial_local_reader_error": "escapedformfeed splitproducedIndexError beforebodyread; correctedchr12, bothbodybatches0"
+}
