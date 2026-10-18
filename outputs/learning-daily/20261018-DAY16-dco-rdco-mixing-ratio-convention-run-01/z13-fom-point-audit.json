@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-18T11:36:35.671812+00:00",
+  "identity": "Z13-FOM1368-POINT-AND-CURVE-01",
+  "input_sha256": "05120b9a824238f60432cec03c921ba52a31439950cd14cc9a2057ffad6211b7",
+  "calculation_code": "x=E/mec2; Qpoint=(1+x)/(1+x+x*x); Qcurve=Qpoint*(p0+p1*E); sigma_curve(rho)=Qpoint*sqrt(s0*s0+E*E*s1*s1+2*E*rho*s0*s1); epsilon_X_conditional=F_X/Q_X**2; epsilon_X/epsilon_U=(F_X/F_U)*(Q_U/Q_X)**2",
+  "Qpoint1368": 0.3390914584122789,
+  "source_curve_central_at1368": 0.1600782956872686,
+  "comparison_sentence_Q": 0.135,
+  "central_difference_curve_minus_sentence": 0.025078295687268604,
+  "curve_local_sigma_any_p0_p1_correlation": [
+    0.007134484284994348,
+    0.020698142621485505
+  ],
+  "source_curve_point_is_outside_listed_calibration_energy_range": true,
+  "conditional_epsilon_EXOGAM_using_sentence_Q": 0.0008285322359396432,
+  "conditional_epsilon_EUROGAM_from_stated_F_ratio_and_Q": 0.00023439779945483107,
+  "conditional_efficiency_ratio": 3.5347270233196157,
+  "sensitivity_squared_ratio_from_sentences": 1.2447920224028415,
+  "conditional_epsilon_EXOGAM_if_incorrectly_substituting_curve_Q": 0.0005892668956859799,
+  "F_gain_if_same_efficiency": 1.2447920224028415,
+  "error_budget_boundary": "No source F error, p0-p1 covariance, or Qcomparison-Qcurve covariance; no significance or original response re-fit. Quantities named epsilon are algebraic implications of same-object F=Q^2 epsilon, not independent efficiency measurements.",
+  "wording_boundary": "Input question independent textual point means separately quoted sentence only; no statistical independence is asserted.",
+  "independent_statistical_calibration_added": false,
+  "formal_day17_credit": false
+}

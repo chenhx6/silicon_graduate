@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-18T20:13:30.677342+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "d2f3e5097261754fa1dba322721bcc9b80bbb9a7392a96025d2ab066f6da8d04",
+  "source_prefix_sha256": "b7595185556a1a775d6859804eae5b6d95390c7fb63312b602d59654a48225d4",
+  "source_prefix_bytes": 13294,
+  "primed": true,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal17": false
+}

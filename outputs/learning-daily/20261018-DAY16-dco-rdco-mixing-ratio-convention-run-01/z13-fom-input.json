@@ -1,0 +1,40 @@
+{
+  "identity": "Z13-FOM1368-POINT-AND-CURVE-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false,
+  "primed": true,
+  "question": "论文1368-keV独立文字点Q/F与316–1264已知E2 calibrationcurve是否同对象/可直接替代？先记录印刷点，再只检条件中央值与Cov边界，不能反推真实response或修改源误差。",
+  "source_locator": "正文044328-5左/右栏Eq8/9后的1368比较句、Fig5；arxiv v1 p10同句",
+  "E_keV": 1368.0,
+  "mec2_keV": 511.0,
+  "fit_calibration_energy_range_keV": [
+    316,
+    1264
+  ],
+  "source_p0": [
+    0.39,
+    0.02
+  ],
+  "source_p1_keV_inv": [
+    6e-05,
+    3e-05
+  ],
+  "source_Q_EXOGAM": [
+    0.135,
+    0.005
+  ],
+  "source_Q_EUROGAM": [
+    0.121,
+    0.005
+  ],
+  "source_F_EXOGAM": 1.51e-05,
+  "source_F_EXOGAM_over_EUROGAM": 4.4,
+  "source_p0_p1_covariance": null,
+  "Q_point_vs_curve_covariance": null,
+  "F_errors": null,
+  "response_selection_identity": "1368比较句未给逐项Compton/gate/cut；不假设与TableI/拟合相同对象。",
+  "raw_sha256": "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef"
+}

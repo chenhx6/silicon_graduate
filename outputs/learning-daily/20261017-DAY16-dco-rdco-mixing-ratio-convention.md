@@ -225,6 +225,26 @@ Z13-7/9/10/11：[实际程序](../../system/scripts/day16_z13_calibration_audit.
 
 `supports`联合判据，`limits`单独符号和误差独立假设；canonical为source新增Z13-6–11、[Compton方法](../../knowledge/methods/compton-polarimetry.md)的“EXOGAM已知E2校准：比值误差与回代依赖”、[偏振方法](../../knowledge/methods/linear-polarization-asymmetry.md)的真实nonstretched E1反例。缺逐线polarization gate/净counts/背景、A2/A4与a/Q的实际联合Cov；Table II只列DCO门，未擅自等同选样。没有新实验δ/Jπ/显著性，没有正式17或Day18。Z13-12另定向核arXiv v1的两表/Eqs/Fig.5，Table I十一行token均相同，upper435.9的A在v1为.17(.07)、期刊为.17(.05)，[版本核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-arxiv-table-crosscheck.json)保留；未混σ或增计独立实验。
 
+### 1368-keV响应比较延续：FOM不是Q的同义词
+
+Z13-13、原正文044328-5的1368比较句/等式(8)–(9)，另核arxiv v1 p.10同句：[冻结点输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-fom-input.json)与[代码式/结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-fom-point-audit.json)。表中pure-E2 calibration点止于1264；印刷curve外推1368得Q=.1600783，文字另报.135(.005)，中央差保留。未知p0/p1相关已使curve一阶σ在.00713–.02070间，另缺cross-Cov/选样，未判显著冲突或替换原Q。原F比4.4在同响应假设下分成Q²比1.244792及条件epsilon比3.534727；反推epsilon不是独立效率测量，没有F误差不制造新beamtime收益。复用结论已写入同一canonical source及Compton方法，仍partial17。
+
+### 104Mo续追：官方NSR与更早XUNDL对象
+
+[Gu96前回忆](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gu96-before-source.md)后，DOI题名和官方NSR key1996GU04已核。期刊body仍403/401/无OA，未虚构“已读Gu96”。但NSR列出200207的[104042007 XUNDL-1](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gu96-xundl-download.json)，本session读110行全部主线并[冻/核固定栏](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-xundl-audit.json)：27 level/55 gamma，L1028.0的467.4/835.8两支M/MR/DMR空，全文无DCO/gate/angle字段。原注释显式混入2002Sm10的252Cf寿命，且T不确定度纯统计；不把对象标题当另一Cm采集/完整Σ，不开展Day18。canonical[N104-8](../../knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md)保存原行/hash/版本及独立性边界。首次旧NSR URL误给Gu02只返通用frontend，未使用那篇数据；按原Gu04纠正后才获得真实官方record，访问过程保留。
+
+### JT74原9页：F临界值与profile误差的出处
+
+本session明确已受旧Wiki/DELTA/EL18 priming，先[冻结回忆](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-before-source.md)，后沿[JT74原件](../../knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md)完整105–113主线，视觉三表/六图；Crossref DOI、作者、年卷页核实，raw hash不变。JT74-5/6/7/10：固定atanδ后须profile其它参数，区分增量Ecrit与绝对R+Ecrit，ν=n−rank且alignment估计进入data；参数相关不自动等于秩亏。Sec7.1的“忽略相关”是单参数marginal同独立于nuisance理论的比较语境，随后的jointδ约束明确要Cov，不能用短句删Σ。
+
+[冻结真实Table3/actual代码输入](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-statistics-input.json)后，[程序](../../system/scripts/day16_jt74_statistics_audit.py)/[结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-statistics-audit.json)核全部12项：原表标32%上尾，但按标准F实际约.30405–.30807；末位±.005仍不覆盖.32。Student-t密度积分及ν1/2闭式与F库最大差1.45×10^-15，保留数学对应未闭合，不猜原表/勘误原因。另抽相同hash代码的未改F unit实际GNU Fortran编译/运行exit0，DELTA引Gill1975的表与JT74不同（ν1 3.38对3.69），ν>16默认1，不能把结构同max当同一coverage。新JT74-5–10、D101-9与方法页写回，未给新实验δ/CI或宣称EL18实际producer已认证。
+
+### 同一JT74问题的有界推导：纯M1点的regularity失败控制
+
+不是实验新数据：先[冻结问题/priming](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-nonregular-before-analysis.md)与helperhash，再按原Fig2的3→2 spin path**声明**p0=1−u、p±1=u/2正density族，未认证原caption的group口径/δ phase，故不称原curve重放。[SymPy独立CG/Wigner-d程序](../../system/scripts/day16_jt74_nonregular_profile.py)与已核photon trace在mixed/pure/角度上最大差1.78×10^-15；[完整exact结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-nonregular-profile.json)给pureM1的AD Jacobian rank1、profile首项δ^4。对known正定Σ/interior u的声明高统计局部模型，LR为半质量0+半χ1²，ΔS=1在该点覆盖.84134475；只作regularity失败控制，不给真实DCO新CI。
+
+同transition/density/选择的P90幅度可补局部rank，但未知Q会加一个nuisance使三参数仍rank2；独立matching Qcal才到rank3。Q=0/完整isotropy为失败控制；全局branch/实验Cov仍未解决。JT74-11及canonical angular-correlation/worksheet保存条件/公式/代码，不把数值当作者原结论。初次缺SymPy exit1，PyPI1.14.0及依赖隔离装repo tmp后actual analysis exit0，旧helper/raw不变，第三方包不发布。
+
 ## Counter-evidence and missing companion observables
 
 最直接反例是一个已知pure参考也无法验证混合项相位：两纯端点通过，错误换号仍改R。另一个反例是本点模型部分Table1不吻合（例如.637341对印值.66；1.188657对1.12），且两比值rectangle没有复现作者>85支；原因未裁决，不能报告原文错误或实验新δ。
@@ -382,7 +402,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
-      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。",
+      "summary": "将本session178W新交付与Day15预习分开，增加canonical反链。 恢复批次新增：同一mixed跃迁的上游与下游参考：1505-keV真实表值。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 补误差阈值自身的来源/适用域审计。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。",
       "anchor": "独立正式Day16的新实测对象",
       "sources": [
         {
@@ -464,6 +484,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
           "locator": "N104-3"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-5"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-9"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-9"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-11"
         }
       ]
     },
@@ -523,7 +559,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。",
+      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增profile/数据秩/Cov语境与临界表分层，不能认证未匹配实验CI。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。",
       "anchor": "高自旋factorization的使用边界",
       "sources": [
         {
@@ -593,6 +629,34 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
           "locator": "D101-8"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-5"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-6"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-7"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-8"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-9"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-9"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-11"
         }
       ]
     },
@@ -863,7 +927,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -913,6 +977,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
           "locator": "Z13-11"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-13"
         }
       ]
     },
@@ -1246,7 +1314,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
-      "summary": "固定内容的公开DELTA实际执行和phase/error/limit/pure数值边界。",
+      "summary": "固定内容的公开DELTA实际执行和phase/error/limit/pure数值边界。 实际抽未改F unit编译/运行，Gill表与JT74表不同、finiteν/default边界。",
       "anchor": "DELTA1.01：generic producer与实际实验分析要分开",
       "sources": [
         {
@@ -1280,12 +1348,16 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
           "locator": "D101-8"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+          "locator": "D101-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
-      "summary": "实际104Mo对象target/ref/空MR/旧标签与评价时层、companion谱系核验。",
+      "summary": "实际104Mo对象target/ref/空MR/旧标签与评价时层、companion谱系核验。 新增官方NSR/2002XUNDL110行：混合谱系、target空M/MR/缺DCO与纯统计T注释；不当primary正文。",
       "anchor": "104Mo：旧评价标签不替后来混合比分支选根",
       "sources": [
         {
@@ -1315,12 +1387,16 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
           "locator": "N104-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+          "locator": "N104-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
-      "summary": "本session原11页主线/两表八图重核；真实DCO门/峰面积、nonstretched E1负偏振、Q误差条件边界与共享校准回代，恰好partial17不授学分。",
+      "summary": "本session原11页主线/两表八图重核；真实DCO门/峰面积、nonstretched E1负偏振、Q误差条件边界与共享校准回代，恰好partial17不授学分。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。",
       "anchor": "DAY16延续：EXOGAM原表、门身份与校准误差边界",
       "sources": [
         {
@@ -1350,6 +1426,45 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
           "locator": "Z13-12"
+        },
+        {
+          "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+          "locator": "Z13-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+      "summary": "原9页三表六图重读；profile/F处方、rank与Cov语境、真实Table3概率核验及实际DELTA F unit对照，纠正旧摘要笼统correlation措辞。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。",
+      "anchor": "DAY16原文重核：profile阈值、F表与相关性的语境",
+      "sources": [
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-5"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-6"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-7"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-8"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-9"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-10"
+        },
+        {
+          "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+          "locator": "JT74-11"
         }
       ]
     }
@@ -1431,3 +1546,9 @@ KS70追加twoangle问题因旧KS70-12已经覆盖而verified-no-op；NRF追加�
 [verification-reopened-008](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-008.json)实际boundary/lint/diff均exit0，report/card/writeback通过，30 changed knowledge页/30 writeback items；lint为0 errors、160 warnings（122 citation key、35 raw归档槽、3 reaction parser）。Z13旧正文/claim flags除updated日期外完整保留，原PDF/PLAN/Bib/protected hashes未变。arxiv表初次逐行text检查因871换行exit1，改按完整行段后11项通过，输入未改；失败在版本核验回执保留。
 
 [最新时间门/候选池](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-009.json)余1172.5分钟，原次日15:00截止不变。下一Gu96 primary前回忆已冻，追104Mo旧DCO/reference与谱系；本checkpoint继续原goal，不重授16或正式17。续接[continuation-current.md](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)已更新；发布稳定指针main / `Audit DAY16 EXOGAM gate identities and calibration uncertainties`，实际hash及结果仅回执。
+
+### 恢复checkpoint015（研究继续）
+
+[verification-reopened-009](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-009.json)实际boundary/lint/diff均exit0，report/card/writeback通过，31 changed knowledge页/31 items；lint0errors160warnings（122key/35raw/3parser）。新source/code/method旧flags及raw/protected保留，JT74只修旧摘要correlation措辞，旧claim flags未动。F unit compile/run0、非regular符号/trace/physical/response失败控制通过；缺SymPy首exit1及isolated安装/analysis0的过程回执保留。
+
+[刷新候选池010](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-reopened-010.json)余1126.49min，原deadline不改；JT74/Mo104当下边界已核，继续恰好Day17的L26 GRETINA response知识preview。source-before及完整旧人审prefix已冻结，raw hash已核，仅前两页已读，未做新claim；后续完整主线再判。正式16只计一次，partial17不授学分，未开18。更新[续接](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md)，稳定发布指针main / `Trace DAY16 profile thresholds and conditional identifiability`，实际hash/结果仅receipt。

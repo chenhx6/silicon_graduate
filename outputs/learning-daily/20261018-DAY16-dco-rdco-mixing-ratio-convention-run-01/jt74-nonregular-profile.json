@@ -1,0 +1,215 @@
+{
+  "identity": "JT74-FIG2-3TO2-NONREGULAR-PROFILE-01",
+  "input_sha256": "e7dc48c8f13f07f64cbb011f14fb039fe9b9504a789fe1104a71948fa783bc7e",
+  "script_sha256": "8d7200e0cb31cd7731f657427e022789ddba8d4101ef773d6e2256a2b82b6dc0",
+  "helper_hashes": {
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+    "system/scripts/day16_d96_eq4_erratum_audit.py": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d"
+  },
+  "sympy_version": "1.14.0",
+  "symbolic": {
+    "a0": "1",
+    "a2": "-(u - 4)*(5*delta**2 + 14*sqrt(30)*delta - 14)/(140*(delta**2 + 1))",
+    "a4": "-delta**2*(5*u - 6)/(7*(delta**2 + 1))",
+    "H90": "-(10*delta**2*u - 15*delta**2 - sqrt(30)*delta*u + 4*sqrt(30)*delta - 3*u + 12)/(20*(delta**2 + 1))",
+    "P90": "(10*delta**2*u - 15*delta**2 - sqrt(30)*delta*u + 4*sqrt(30)*delta - 3*u + 12)/(5*delta**2*u - 25*delta**2 - sqrt(30)*delta*u + 4*sqrt(30)*delta + u - 24)",
+    "J_a2_a4_at_delta0": "Matrix([[sqrt(30)*(4 - u)/10, 1/10], [0, 0]])",
+    "det_J_a2_P_at_delta0": "2*sqrt(30)*(u - 4)/(5*(u - 24))",
+    "profile_leading_S_over_delta4": "(5*u0 - 6)**2/(49*Sigma44)"
+  },
+  "ranks_at_pure_M1": {
+    "a2_a4_unknown_u": 1,
+    "a2_a4_P_known_response": 2,
+    "a2_a4_A_known_nonzero_Q": 2,
+    "a2_a4_A_known_Qzero": 1,
+    "a2_a4_A_free_Q_three_parameters": 2,
+    "a2_a4_A_plus_independent_Qcal_three_parameters": 3
+  },
+  "trace_vs_independent_symbolic_max_error": 1.7763568394002505e-15,
+  "polarization_numerator_max_error": 3.3306690738754696e-16,
+  "isotropic_failure_control_max_error": 5.551115123125783e-16,
+  "centered_profile_power_checks": [
+    {
+      "u0": 0.5,
+      "delta": -0.001,
+      "profiled_u": 0.5190611441684562,
+      "centered_unit_norm_profile": 2.3656979492373067e-13,
+      "profile_over_delta4": 0.23656979492373062,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": 0.001,
+      "profiled_u": 0.48071934916441245,
+      "centered_unit_norm_profile": 2.639610305945902e-13,
+      "profile_over_delta4": 0.26396103059459014,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": -0.0005,
+      "profiled_u": 0.5095577830450423,
+      "centered_unit_norm_profile": 1.5201218641583243e-14,
+      "profile_over_delta4": 0.24321949826533185,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": 0.0005,
+      "profiled_u": 0.49038734153827035,
+      "centered_unit_norm_profile": 1.6057075040681433e-14,
+      "profile_over_delta4": 0.2569132006509029,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": -0.0001,
+      "profiled_u": 0.5019159320589076,
+      "centered_unit_norm_profile": 2.4863334498304034e-17,
+      "profile_over_delta4": 0.2486333449830403,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": 0.0001,
+      "profiled_u": 0.4980818729404268,
+      "centered_unit_norm_profile": 2.5137196287808208e-17,
+      "profile_over_delta4": 0.251371962878082,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": -5e-05,
+      "profiled_u": 0.5009582401766098,
+      "centered_unit_norm_profile": 1.5582250622885376e-18,
+      "profile_over_delta4": 0.24931600996616596,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": 5e-05,
+      "profiled_u": 0.4990412110733484,
+      "centered_unit_norm_profile": 1.5667832312398023e-18,
+      "profile_over_delta4": 0.2506853169983683,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": -1e-05,
+      "profiled_u": 0.500191691920735,
+      "centered_unit_norm_profile": 2.4986309589736063e-21,
+      "profile_over_delta4": 0.24986309589736053,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.5,
+      "delta": 1e-05,
+      "profiled_u": 0.4998082861292652,
+      "centered_unit_norm_profile": 2.5013695718122088e-21,
+      "profile_over_delta4": 0.25013695718122075,
+      "expected_limit": 0.25
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": -0.001,
+      "profiled_u": 0.6848201372965622,
+      "centered_unit_norm_profile": 1.354131429228272e-13,
+      "profile_over_delta4": 0.1354131429228272,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": 0.001,
+      "profiled_u": 0.6483041420544667,
+      "centered_unit_norm_profile": 1.552896484460368e-13,
+      "profile_over_delta4": 0.15528964844603677,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": -0.0005,
+      "profiled_u": 0.6757693171853312,
+      "centered_unit_norm_profile": 8.763318603200012e-15,
+      "profile_over_delta4": 0.14021309765120016,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": 0.0005,
+      "profiled_u": 0.6575117538455437,
+      "centered_unit_norm_profile": 9.384354275190943e-15,
+      "profile_over_delta4": 0.15014966840305508,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": -0.0001,
+      "profiled_u": 0.6684913638656251,
+      "centered_unit_norm_profile": 1.441333799160186e-17,
+      "profile_over_delta4": 0.14413337991601857,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": 0.0001,
+      "profiled_u": 0.6648398789908814,
+      "centered_unit_norm_profile": 1.461205864237597e-17,
+      "profile_over_delta4": 0.14612058642375966,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": -5e-05,
+      "profiled_u": 0.6675792763586754,
+      "centered_unit_norm_profile": 9.039280151319916e-19,
+      "profile_over_delta4": 0.14462848242111861,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": 5e-05,
+      "profiled_u": 0.6657535343555693,
+      "centered_unit_norm_profile": 9.101380249568539e-19,
+      "profile_over_delta4": 0.1456220839930966,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": -1e-05,
+      "profiled_u": 0.6668492304006994,
+      "centered_unit_norm_profile": 1.450253791160595e-21,
+      "profile_over_delta4": 0.14502537911605945,
+      "expected_limit": 0.145124716553288
+    },
+    {
+      "u0": 0.6666666666666666,
+      "delta": 1e-05,
+      "profiled_u": 0.666484082027871,
+      "centered_unit_norm_profile": 1.4522409932281416e-21,
+      "profile_over_delta4": 0.1452240993228141,
+      "expected_limit": 0.145124716553288
+    }
+  ],
+  "conditional_nonregular_limit": {
+    "LR_distribution": "0.5 pointmass0 + 0.5 chi2_1; LR=max(Z,0)^2",
+    "coverage_if_critical_increment_1": 0.8413447460685429,
+    "local_critical_increment_for_68percent": 0.21874216669315324,
+    "unconstrained_u_delta_scale": "N^(-1/4) if harmonic errors scale N^(-1/2)",
+    "scope": "Known positive-definite Sigma, interior u0, pure M1 and specified density family; not a general DCO confidence calibration or source-author result."
+  },
+  "assumptions": [
+    "Gaussian estimated(a2,a4) with known positive-definite Sigma",
+    "true delta0=0 and interior u0",
+    "profile u, keep physical probability constraints inactive locally",
+    "nonzero rank4 E2 coefficient and independent known response",
+    "asymptotic expansion only; not an actual DCO coverage calibration"
+  ],
+  "phase_boundary": "JT74's signed-delta operator convention was not authenticated; coordinate sign reversal leaves these rank/order/coverage statements invariant.",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false,
+  "experimental_data_created_or_refit": false,
+  "all_internal_checks_passed": true
+}

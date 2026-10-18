@@ -85,3 +85,22 @@ raw_file是未填归档槽；源码、原license、binary与运行目录都只�
 - [[eldridge-2018-gamma-band-mixing-ratios]]：source实际用名与currentgenericcopy边界。
 - [[dco-pdco-ambiguity-worksheet]]、[[angular-correlation]]：allroots/纯极限/误差与producer对象。
 - [[martin-1987-ensdf-mixing-ratio-phase-conventions]]、[[internal-conversion-analysis]]：被忽略的conversion权重条件。
+
+
+## 原F表函数的实际执行与JT74处方比较
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| D101-9 | 代码F unit19明确引Gill1975 AppendixA Table7，16项FF与JT74 Table3不同；抽取未改F unit实际编译运行，ν1返回3.38000011、ν16返回1.07000005、ν17/20/30及ν≤0均返回1。DIPS的max绝对阈值结构可与JT74处方代数对应，但不能混其F值、把注释.683当所有ν的精确coverage，或据此认证EL18实际CI。 | source-code-and-statistics-contract | direct-code-and-execution | source lines1713–1733，unit19 F；1333–1336，DIPS；JT74-5/8/9 | true |
+
+[[james-twin-butler-1974-angular-correlation-statistics]] JT74-5/8/9把R=minS、固定θ仍profile其它参数的S_h、增量E与绝对Scrit分开。源代码实际
+
+```fortran
+      SIGMA=SQ+1.0
+      SIGMA1=SQ*(1.0+F(NFREE)/NFREE)
+      IF(SIGMA1.GT.SIGMA) SIGMA=SIGMA1
+```
+
+等于`Scrit=R+max(1,R*F/ν)`。这个结构对应不表示作者采用相同F表：JT74印ν1=3.69、ν20=1.11；此代码按Gill引文表给ν1=3.38、ν>16默认1。精确标准F计算下，程序ν17/20/30的上尾约.33133/.32926/.32531，不能不经检查统一叫精确31.7%上尾。ν≤0的孤立函数返回1只是fallback，完整程序的zero-DOF警告与统计无意义边界仍保留。
+
+[原unit实际编译/概率核验](../../system/scripts/day16_jt74_statistics_audit.py)读取本页同hash的公开代码对象、逐字节抽出F unit，无上游修改，compile/run均exit0；[完整结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/jt74-statistics-audit.json)与冻输入保留原表、代码表和现代quantile三层。不从这些差异修正2018结果、取得新实验学分或宣称wholeproducer已认证。

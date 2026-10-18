@@ -1,0 +1,326 @@
+{
+  "identity": "JT74-ACTUAL-TABLE3-F-AND-RANK-01",
+  "input_sha256": "2dab851e7bd22c5e3b73f60c09412a7ab5e891151968c96563c14072bd84cdef",
+  "delta_input_sha256": "f9c2fe783671e75c0d07e9f487ac79bbda40c0dbd91b67ba411c7c5a2b9c3f15",
+  "script_sha256": "07857585b4dc1831044d81cd00e4be57ec3008012f4bdacc99dcdc0828ff89e5",
+  "original_F_unit_sha256": "7ecc8f7619562bc81db4aded46f3ac89bd55b1b6692c80b438273a8f35294309",
+  "F_unit_compiled_unmodified": true,
+  "compile_exit": 0,
+  "run_exit": 0,
+  "JT74_Table3_exact_probability_audit": [
+    {
+      "nu": 1,
+      "JT74_printed_F": 3.69,
+      "F_exact_upper_tail_32percent": 3.3087364336541176,
+      "JT74_actual_upper_tail": 0.3055616441541052,
+      "tail_with_printed_half_last_digit": [
+        0.30538513969141684,
+        0.30573845663941357
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.2710027100271003,
+      "exact32_recipe_takeover_R_over_nu": 0.30223017760759363
+    },
+    {
+      "nu": 2,
+      "JT74_printed_F": 1.84,
+      "F_exact_upper_tail_32percent": 1.7202380952380945,
+      "JT74_actual_upper_tail": 0.3077813447568271,
+      "tail_with_printed_half_last_digit": [
+        0.3072923032144397,
+        0.3082720086039351
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.5434782608695652,
+      "exact32_recipe_takeover_R_over_nu": 0.5813148788927338
+    },
+    {
+      "nu": 3,
+      "JT74_printed_F": 1.5,
+      "F_exact_upper_tail_32percent": 1.4135513026350972,
+      "JT74_actual_upper_tail": 0.3080680092503572,
+      "tail_with_printed_half_last_digit": [
+        0.30740240245980666,
+        0.30873620955553427
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.6666666666666666,
+      "exact32_recipe_takeover_R_over_nu": 0.7074380661924558
+    },
+    {
+      "nu": 4,
+      "JT74_printed_F": 1.38,
+      "F_exact_upper_tail_32percent": 1.2868557322468197,
+      "JT74_actual_upper_tail": 0.30525970052093504,
+      "tail_with_printed_half_last_digit": [
+        0.30450049553724035,
+        0.3060220513331739
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.7246376811594204,
+      "exact32_recipe_takeover_R_over_nu": 0.7770878855658696
+    },
+    {
+      "nu": 5,
+      "JT74_printed_F": 1.31,
+      "F_exact_upper_tail_32percent": 1.218083656729818,
+      "JT74_actual_upper_tail": 0.30421049774753356,
+      "tail_with_printed_half_last_digit": [
+        0.30338719314675205,
+        0.3050373382608039
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.7633587786259541,
+      "exact32_recipe_takeover_R_over_nu": 0.8209616757232373
+    },
+    {
+      "nu": 6,
+      "JT74_printed_F": 1.26,
+      "F_exact_upper_tail_32percent": 1.175003272940931,
+      "JT74_actual_upper_tail": 0.3045511511234598,
+      "tail_with_printed_half_last_digit": [
+        0.30367822327196353,
+        0.3054279235889434
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.7936507936507936,
+      "exact32_recipe_takeover_R_over_nu": 0.8510614591711622
+    },
+    {
+      "nu": 7,
+      "JT74_printed_F": 1.23,
+      "F_exact_upper_tail_32percent": 1.1455151106235957,
+      "JT74_actual_upper_tail": 0.3040500670828019,
+      "tail_with_printed_half_last_digit": [
+        0.3031437224574783,
+        0.30496046545760097
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.8130081300813008,
+      "exact32_recipe_takeover_R_over_nu": 0.8729697153061734
+    },
+    {
+      "nu": 8,
+      "JT74_printed_F": 1.2,
+      "F_exact_upper_tail_32percent": 1.1240749355405246,
+      "JT74_actual_upper_tail": 0.30520136520623,
+      "tail_with_printed_half_last_digit": [
+        0.3042624425708127,
+        0.30614454986202627
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.8333333333333334,
+      "exact32_recipe_takeover_R_over_nu": 0.8896204055285142
+    },
+    {
+      "nu": 9,
+      "JT74_printed_F": 1.18,
+      "F_exact_upper_tail_32percent": 1.1077888547865997,
+      "JT74_actual_upper_tail": 0.3055923454452548,
+      "tail_with_printed_half_last_digit": [
+        0.30462988865175467,
+        0.30655921503466
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.8474576271186441,
+      "exact32_recipe_takeover_R_over_nu": 0.9026990980087413
+    },
+    {
+      "nu": 10,
+      "JT74_printed_F": 1.17,
+      "F_exact_upper_tail_32percent": 1.095000279761375,
+      "JT74_actual_upper_tail": 0.3047950665409693,
+      "tail_with_printed_half_last_digit": [
+        0.3038185991714657,
+        0.3057760347460255
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.8547008547008548,
+      "exact32_recipe_takeover_R_over_nu": 0.9132417758084248
+    },
+    {
+      "nu": 14,
+      "JT74_printed_F": 1.13,
+      "F_exact_upper_tail_32percent": 1.0630705896449772,
+      "JT74_actual_upper_tail": 0.3057682712173514,
+      "tail_with_printed_half_last_digit": [
+        0.30474086308806997,
+        0.30680051015788945
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.8849557522123894,
+      "exact32_recipe_takeover_R_over_nu": 0.940671306064407
+    },
+    {
+      "nu": 20,
+      "JT74_printed_F": 1.11,
+      "F_exact_upper_tail_32percent": 1.0399992889862264,
+      "JT74_actual_upper_tail": 0.3046446358592729,
+      "tail_with_printed_half_last_digit": [
+        0.3035867160948527,
+        0.3057075812557459
+      ],
+      "nominal_32percent_inside_rounding_box": false,
+      "source_recipe_takeover_R_over_nu": 0.9009009009009008,
+      "exact32_recipe_takeover_R_over_nu": 0.9615391189111129
+    }
+  ],
+  "DELTA_F_unit_actual_runs": [
+    {
+      "nu": 1,
+      "DELTA_actual_F": 3.3800001144,
+      "DELTA_actual_upper_tail": 0.31714466595992113,
+      "F_exact_CDF_0_683": 3.3836623626583,
+      "F_exact_upper_tail_32percent": 3.3087364336541176,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 2,
+      "DELTA_actual_F": 1.75,
+      "DELTA_actual_upper_tail": 0.31686994893602677,
+      "F_exact_CDF_0_683": 1.748751197257414,
+      "F_exact_upper_tail_32percent": 1.7202380952380945,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 3,
+      "DELTA_actual_F": 1.4299999475,
+      "DELTA_actual_upper_tail": 0.31766606868695046,
+      "F_exact_CDF_0_683": 1.4347342414994093,
+      "F_exact_upper_tail_32percent": 1.4135513026350972,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 4,
+      "DELTA_actual_F": 1.2999999523,
+      "DELTA_actual_upper_tail": 0.31784867516529974,
+      "F_exact_CDF_0_683": 1.305226227376396,
+      "F_exact_upper_tail_32percent": 1.2868557322468197,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 5,
+      "DELTA_actual_F": 1.2300000191,
+      "DELTA_actual_upper_tail": 0.3178802969494454,
+      "F_exact_CDF_0_683": 1.234986135908379,
+      "F_exact_upper_tail_32percent": 1.218083656729818,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 6,
+      "DELTA_actual_F": 1.1900000572,
+      "DELTA_actual_upper_tail": 0.31718769564267313,
+      "F_exact_CDF_0_683": 1.1910082702091658,
+      "F_exact_upper_tail_32percent": 1.175003272940931,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 7,
+      "DELTA_actual_F": 1.1599999666,
+      "DELTA_actual_upper_tail": 0.31717723167164685,
+      "F_exact_CDF_0_683": 1.1609159147588026,
+      "F_exact_upper_tail_32percent": 1.1455151106235957,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 8,
+      "DELTA_actual_F": 1.1399999857,
+      "DELTA_actual_upper_tail": 0.31680934468833655,
+      "F_exact_CDF_0_683": 1.1390417167027185,
+      "F_exact_upper_tail_32percent": 1.1240749355405246,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 9,
+      "DELTA_actual_F": 1.1200000048,
+      "DELTA_actual_upper_tail": 0.31749487480400496,
+      "F_exact_CDF_0_683": 1.1224289591132626,
+      "F_exact_upper_tail_32percent": 1.1077888547865997,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 10,
+      "DELTA_actual_F": 1.1100000143,
+      "DELTA_actual_upper_tail": 0.31687279735941254,
+      "F_exact_CDF_0_683": 1.1093857034108499,
+      "F_exact_upper_tail_32percent": 1.095000279761375,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 14,
+      "DELTA_actual_F": 1.0800000429,
+      "DELTA_actual_upper_tail": 0.31631372820837755,
+      "F_exact_CDF_0_683": 1.0768273037823077,
+      "F_exact_upper_tail_32percent": 1.0630705896449772,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 16,
+      "DELTA_actual_F": 1.0700000525,
+      "DELTA_actual_upper_tail": 0.31632786812986247,
+      "F_exact_CDF_0_683": 1.0669356902659355,
+      "F_exact_upper_tail_32percent": 1.0533679758389263,
+      "beyond_16_default": false
+    },
+    {
+      "nu": 17,
+      "DELTA_actual_F": 1.0,
+      "DELTA_actual_upper_tail": 0.33133276203867884,
+      "F_exact_CDF_0_683": 1.062901030900664,
+      "F_exact_upper_tail_32percent": 1.0494101354167145,
+      "beyond_16_default": true
+    },
+    {
+      "nu": 20,
+      "DELTA_actual_F": 1.0,
+      "DELTA_actual_upper_tail": 0.32925657717170936,
+      "F_exact_CDF_0_683": 1.0533081737432655,
+      "F_exact_upper_tail_32percent": 1.0399992889862264,
+      "beyond_16_default": true
+    },
+    {
+      "nu": 30,
+      "DELTA_actual_F": 1.0,
+      "DELTA_actual_upper_tail": 0.3253086154260302,
+      "F_exact_CDF_0_683": 1.035531255876305,
+      "F_exact_upper_tail_32percent": 1.022557283729573,
+      "beyond_16_default": true
+    }
+  ],
+  "independent_quadrature_max_abs_difference": 1.4432899320127035e-15,
+  "invalid_nu_F_unit_returns": {
+    "0": 1.0,
+    "-1": 1.0
+  },
+  "invalid_nu_boundary": "The isolated F unit defaults to1; this is not a meaningful statistical threshold for nu<=0. Full DELTA's separate degree-of-freedom warning remains necessary.",
+  "threshold_identity": "Scrit=R+max(1,R*F/nu)=max(R+1,R*(1+F/nu)); SIGMA is an absolute S threshold, not the increment or parameter sigma.",
+  "rank_cases_from_source": {
+    "source_TableI": {
+      "n": "d+p",
+      "rank": "p+2",
+      "nu": "d-2"
+    },
+    "source_TableII_with_alignment_constraint": {
+      "n": "d+1",
+      "rank": 3,
+      "nu": "d-2"
+    },
+    "source_no_alignment_data_near_compensation": {
+      "n": "d",
+      "rank": 2,
+      "nu": "d-2"
+    },
+    "source_no_alignment_data_away_from_compensation": {
+      "n": "d",
+      "rank": 3,
+      "nu": "d-3"
+    }
+  },
+  "scope": "Source-table and code-function audit. No original experiment, coverage calibration, nuisance covariance or EL18 producer is reconstructed.",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false,
+  "all_internal_checks_passed": true
+}

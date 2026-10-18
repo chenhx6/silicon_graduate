@@ -1,0 +1,85 @@
+{
+  "identity": "JT74-ACTUAL-TABLE3-F-AND-RANK-01",
+  "day_index": 16,
+  "source": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+  "raw_sha256": "c629c42b34570b1a03f450d63feed892f22df864732a47ab02bfa2d9e2a8101a",
+  "reading_scope": "all9pages105–113 mainline; visualTables1/2/3 andFigs2/3/4/5/6; Fig1/remaining prescriptions to finish",
+  "Table3_locator": "printed111, PDF7 Table3, caption rejects true hypothesis in32% cases",
+  "Table3_nu_F_printed": [
+    [
+      1,
+      3.69
+    ],
+    [
+      2,
+      1.84
+    ],
+    [
+      3,
+      1.5
+    ],
+    [
+      4,
+      1.38
+    ],
+    [
+      5,
+      1.31
+    ],
+    [
+      6,
+      1.26
+    ],
+    [
+      7,
+      1.23
+    ],
+    [
+      8,
+      1.2
+    ],
+    [
+      9,
+      1.18
+    ],
+    [
+      10,
+      1.17
+    ],
+    [
+      14,
+      1.13
+    ],
+    [
+      20,
+      1.11
+    ]
+  ],
+  "source_tail_probability": 0.32,
+  "single_scalar_recipe": "E32=max(1,R/nu*F32(1,nu)); Scrit=R+E32, not E32 itself",
+  "rank_cases": {
+    "source_TableI": {
+      "n": "d+p",
+      "rank": "p+2",
+      "nu": "d-2"
+    },
+    "source_TableII_with_alignment_constraint": {
+      "n": "d+1",
+      "rank": 3,
+      "nu": "d-2"
+    },
+    "source_no_alignment_data_near_compensation": {
+      "n": "d",
+      "rank": 2,
+      "nu": "d-2"
+    },
+    "source_no_alignment_data_away_from_compensation": {
+      "n": "d",
+      "rank": 3,
+      "nu": "d-3"
+    }
+  },
+  "conditional_check": "Compute exact F(1,nu) upper-tail .32 quantiles and tails at printedTable3; table vs exact values compared without overwriting source or classifying actual experimental CI. Check same table against actual DELTA source only after code identity/hash.",
+  "covariance_interpretation": "Sec7.1/Fig4 marginal uncertainty of one delta is independent of nuisance for particular theory comparison; not a licence to discard data/cross-delta covariance.",
+  "no_actual_experimental_refit": true
+}

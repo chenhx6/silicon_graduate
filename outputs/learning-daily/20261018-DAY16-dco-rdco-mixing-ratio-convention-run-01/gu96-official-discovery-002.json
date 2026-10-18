@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-18T11:34:40.257214+00:00",
+  "results": [
+    {
+      "label": "nsr",
+      "url": "https://www.nndc.bnl.gov/nsr/nsrlink.jsp?1996GU02",
+      "status": 200,
+      "bytes": 13699,
+      "local_path": "tmp/day16-mo104-evaluation/gu96-nsr.txt",
+      "content_type": "text/html"
+    },
+    {
+      "label": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=au%3AGuessous+AND+submittedDate%3A%5B199501010000+TO+199612312359%5D&start=0&max_results=20",
+      "status": 200,
+      "bytes": 798,
+      "local_path": "tmp/day16-mo104-evaluation/gu96-arxiv.txt",
+      "content_type": "application/atom+xml; charset=utf-8"
+    }
+  ],
+  "local_inventory": "rg --files --no-ignore raw/papers found no Guessous/Mo104/fission candidate; no PDF moved or written to raw.",
+  "identity_correction": {
+    "NSR_key_from_actual_ENSDF_reference": "1996Gu04",
+    "initial_query": "1996GU02",
+    "initial_response": "generic NSR application HTML only, no reference data obtained",
+    "scientific_claims_derived_from_initial_response": false,
+    "next": "use actual Gu04 key through official current API if exposed"
+  },
+  "arxiv_author_window_results": 0
+}

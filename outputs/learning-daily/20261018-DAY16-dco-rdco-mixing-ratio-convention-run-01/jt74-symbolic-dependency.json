@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-18T12:07:21.613759+00:00",
+  "initial_analysis_exit": 1,
+  "cause": "ModuleNotFoundError: sympy in current Python environment",
+  "installation_target": "tmp/day16-jt74/python-deps",
+  "temp_location": "tmp/day16-jt74/pip-tmp",
+  "command": [
+    "python3",
+    "-m",
+    "pip",
+    "install",
+    "--index-url",
+    "https://pypi.org/simple",
+    "--only-binary=:all:",
+    "--no-cache-dir",
+    "--disable-pip-version-check",
+    "--no-input",
+    "--target",
+    "/workspace/wiki/tmp/day16-jt74/python-deps",
+    "sympy==1.14.0"
+  ],
+  "exit_code": 0,
+  "global_packages_modified": false,
+  "third_party_files_staged": false,
+  "actual_analysis_after_install_exit": 0,
+  "sympy_actual_version": "1.14.0",
+  "mpmath_actual_version": "1.3.0",
+  "analysis_output": "jt74-nonregular-profile.json",
+  "replay_environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps",
+  "distribution_metadata_sha256": {
+    "tmp/day16-jt74/python-deps/sympy-1.14.0.dist-info/METADATA": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595",
+    "tmp/day16-jt74/python-deps/sympy-1.14.0.dist-info/RECORD": "88636766208ac3aec584ad5697853c239d5e676a6354af3ffe6db254d67e8677",
+    "tmp/day16-jt74/python-deps/mpmath-1.3.0.dist-info/METADATA": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406",
+    "tmp/day16-jt74/python-deps/mpmath-1.3.0.dist-info/RECORD": "89869bb99d259b6078aa20ebadb44d921aa20595ffa58ab929e3082d7f3f5529"
+  }
+}

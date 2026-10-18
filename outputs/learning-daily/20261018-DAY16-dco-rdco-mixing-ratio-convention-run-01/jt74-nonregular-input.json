@@ -1,0 +1,38 @@
+{
+  "identity": "JT74-FIG2-3TO2-NONREGULAR-PROFILE-01",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "formal_day17_credit": false,
+  "source_model": "JT74 Fig2, J=3 -> Jf=2, M1/E2; actual isotope/experiment not specified",
+  "ji": 3,
+  "jf": 2,
+  "density_family": "p(m=0)=1-u; p(m=+/-1)=u/2 each; all other p=0, u in (0,1)",
+  "interior_checks_u": [
+    0.5,
+    0.6666666666666666
+  ],
+  "source_caption_boundary": "equal m0/m1 can mean equal group or per-substate populations; both .5 and2/3 checked, neither called a uniquely reproduced source curve",
+  "amplitude_convention": "D96 native real amplitudes M1=1,E2=delta, direct_operators applies (-1)^L. Sympy independent Wigner-d uses opposite sign of angle to match this explicitly tested operator basis. JT74 delta convention unverified; rank/order results are invariant under coordinate delta->-delta.",
+  "calculation_scope": "Exact physical density and photon traces, symbolic coefficients/Jacobian/profile leading order, conditional asymptotic LR model. No fake counts/experimental data or refit.",
+  "statistical_assumptions": [
+    "Gaussian estimated(a2,a4) with known positive-definite Sigma",
+    "true delta0=0 and interior u0",
+    "profile u, keep physical probability constraints inactive locally",
+    "nonzero rank4 E2 coefficient and independent known response",
+    "asymptotic expansion only; not an actual DCO coverage calibration"
+  ],
+  "unknown_Q_control": "A90=Q P90; compare known nonzero Q with Q free/zero; no Q chosen from desired delta",
+  "small_delta_checks": [
+    0.001,
+    0.0005,
+    0.0001,
+    5e-05,
+    1e-05
+  ],
+  "helper_hashes": {
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+    "system/scripts/day16_d96_eq4_erratum_audit.py": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d"
+  }
+}

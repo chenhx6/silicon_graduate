@@ -252,3 +252,8 @@ nearA0才回到1/n及F形式；sourceEq17是独立Poisson层的相应误差式�
 以printed11个Q为独立输入的声明拟合是p0=.38616115、p1=7.39668×10^-5/keV、χ²=9.98029；作者.39(.02)、.00006(.00003)及Fig.5标签11不改。这些数并非原协方差/拟合配方的认证。Q_i本就来自A_i/P_i，以相同A_i/Qfit(E_i)回到P_i只检查样本内残差；应保留Cov(A_i,Qfit)与跨点calibration Cov。更多反应道或更多回代处理不自动增加独立标定。
 
 复核原件和[冻结input/计算](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-audit.json)的目的是定位缺哪一层误差。应取得matching Compton净计数/门/背景、a与Q拟合Cov、A2/A4联合Cov/未舍入参数后才作实验error-budget或δ联合拟合；当前仍是Day16下的partial17知识预习，无正式17学分。
+
+
+### FOM比较要与同能量同response的Q配对
+
+[[zheng-2013-linear-polarization-91ru]] Z13-13的1368-keV文字点给F比4.4、Q=.135(.005)对.121(.005)。在同对象F=Q²epsilon_c假设下，Q²比仅1.244792，条件epsilon比3.534727；这不是独立效率测量，更不等于物理偏振P提高。该能量超出Table I列到1264-keV的校准点，印刷curve外推给.160078而文字另报.135；缺selection/parameter及cross-Cov，保留中央差，不用外推替换原比较点或判实验冲突。原F未给误差，不从同数据反推epsilon再当独立companion证明F。

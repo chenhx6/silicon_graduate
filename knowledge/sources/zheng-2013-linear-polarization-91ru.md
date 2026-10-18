@@ -236,3 +236,18 @@ tags: [91Ru, 91Tc, EXOGAM, clover-polarimeter, linear-polarization, neutron-alig
 复算材料：[冻结输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-input.json)，SHA-256 `7a540d762c971e7ade8eeb739a85a7f226a4af1d42dc30a6b0c9edfc53a0aeea`；[程序](../../system/scripts/day16_z13_calibration_audit.py)；[完整11行结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-calibration-audit.json)。actual原件hash仍为本页raw_sha256，未改raw。
 
 同版本控制另核[arXiv:1304.3287v1](https://arxiv.org/pdf/1304.3287v1)，19页，SHA-256 `a757073de7473e2fec971d8b2f2c65b4247354e6907c326dcda6c355e8a97961`；本次只定向Table I（p.18）、Table II（p.19）、Eqs.(4)–(7)/Fig.5，不称此副本全文精读。Z13-12说明Table I所有括号误差相同，因此版本差异未消除该表误差语义缺口；upper435.9的版本差异则保留，未选取较小σ反推显著性。新PDF只在repo tmp，原raw未覆盖。
+
+
+### 1368-keV文字点、外推曲线与FOM对象
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| Z13-13 | 正文另报1368 keV的Q_EXOGAM=.135(.005)、Q_EUROGAM=.121(.005)、F_EXOGAM=1.51×10^-5及F比4.4；已列pure-E2校准点只到1264 keV。以印刷p0/p1外推同能量给Q=.1600783。该差值尚无matching选样/原拟合及Cov说明，不能当已认证的实验冲突。 | direct-and-Codex-calculation | conditional | 正文044328-5，Eq.(8)–(9)后1368比较句、Fig.5、Table I；arXiv v1 p.10同句 | true |
+
+这里的两项Q是作者在文字中分别给出的比较点，**没有证据证明它们统计独立，或证明1368点与Table I拟合拥有完全相同的selection**。原curve输入p0=.39(.02)、p1=.00006(.00003)/keV、m_ec²=511 keV给Qpoint=.33909146，因而Qcurve=.16007830；与另报.135的中央差.02507830保持，不反向调p0/p1。1368在列明的316–1264-keV校准范围外，不把外推当新calibration。
+
+若括号σ是参数marginals，仅未知ρ_p0,p1就使一阶σ_Qcurve在.00713448–.02069814之间；比较点与曲线的cross-Cov也未给，因此没有报告差异显著性、χ²或新的误差。两个版本都保留同一1368比较句，版本不同未解释这个中央差。
+
+在**假定同一响应对象且F=Q²epsilon_c适用**时，仅由原文字点可代数推得epsilon_EXOGAM≈8.28532×10^-4、epsilon_EUROGAM≈2.34398×10^-4；这不是两项独立效率测量。原F比4.4可分成Q²比1.244792及条件效率比3.534727，说明F改善不能只叫Q提高4.4倍。若擅用外推curve Q替换文字Q，反推epsilon_EXOGAM会变成5.89267×10^-4；这个变化来自输入对象替换，不是新测量或response修正。
+
+重放[冻结1368输入](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-fom-input.json)及[逐式计算](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/z13-fom-point-audit.json)保留精确代码式/hash和因子化检查；没有F误差或actual coincidence counts/NClo，故不造完整FOM误差或beamtime收益。

@@ -1,0 +1,20 @@
+{
+  "identity": "NNDC-XUNDL104042007-TARGET-REFERENCE-01",
+  "path": "tmp/day16-mo104-evaluation/mo104-xundl-104042007.ens",
+  "sha256": "ebbb997219f7d49de6b70195e2d6ed1a1a67a85d8dfe977d73db12a4d21240b0",
+  "lines": 110,
+  "data_version": "200207; compiled from1996Gu04 and2002Sm10; edited1999/updated4July2002",
+  "locator": "104042007,104MO XUNDL-1",
+  "target_parent_keV": "1028.0",
+  "target_gamma_keV": "835.8",
+  "target_reference_child_candidate_keV": "192.1",
+  "fields_to_check": [
+    "M gamma col32-41",
+    "MR gamma col42-49",
+    "DMR gamma col50-55"
+  ],
+  "question": "新unevaluated对象是否恢复原target DCO/gate/angles/MR；只读编译对象，不当primary body。",
+  "scope": "110lines wholemainline; only target/reference/feeder/lineage analysis, noDay18physics",
+  "no_credit_day17": true,
+  "day_index": 16
+}

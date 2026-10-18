@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-18T11:30:06.766021+00:00",
+  "results": [
+    {
+      "label": "publisher-pdf",
+      "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.53.1191",
+      "status": 403,
+      "bytes": 5556,
+      "content_type": "text/html; charset=UTF-8",
+      "pdf": false,
+      "local_path": "tmp/day16-mo104-evaluation/gu96-publisher-pdf.txt"
+    },
+    {
+      "label": "publisher-harvest",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.53.1191/fulltext",
+      "status": 401,
+      "bytes": 64,
+      "content_type": "application/json",
+      "pdf": false,
+      "local_path": "tmp/day16-mo104-evaluation/gu96-publisher-harvest.txt"
+    },
+    {
+      "label": "openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1103/PhysRevC.53.1191&format=json",
+      "status": 200,
+      "bytes": 12611,
+      "content_type": "application/json;charset=UTF-8",
+      "pdf": false,
+      "local_path": "tmp/day16-mo104-evaluation/gu96-openaire.txt",
+      "links": [
+        "http://namespace.openaire.eu/oaf",
+        "http://www.cnrs.fr/index.php",
+        "http://www.in2p3.fr/",
+        "http://www.w3.org/1998/Math/MathML",
+        "https://doi.org/10.1103/physrevc.53.1191",
+        "https://www.openaire.eu/schema/1.0/oaf-1.0.xsd",
+        "https://www.univ-fcomte.fr/"
+      ]
+    }
+  ],
+  "scholar_search": {
+    "tool": "mcp__paper_search_nodejs__search_google_scholar",
+    "query": "\"Prompt gamma-ray spectroscopy\" \"fission fragments\" \"1191\"",
+    "yearLow": 1995,
+    "yearHigh": 1997,
+    "result": "tool returned search failed / timeout; no snippets used as evidence",
+    "retried": false
+  },
+  "current_body_status": "not obtained; primary scientific claims cannot be written from metadata",
+  "configured_publisher_tool": {
+    "tool": "mcp__paper_search_nodejs__download_public_paper",
+    "platform": "publisher",
+    "savePath": "/workspace/wiki/tmp/day16-mo104-evaluation",
+    "result": "isError: tool download-root policy rejected Wiki path as outside its allowed download directory; no download attempted into external directories",
+    "boundary_decision": "respect work-only-inside-Wiki; no default external download path or tool config changes"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "at": "2026-10-18T11:40:07.368180+00:00",
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=1996Gu04&page=1&size=10",
+  "status": 200,
+  "bytes": 2376,
+  "sha256": "046b5c42b1c5feccea8aec15e7eba4140dbc3d3239a85446d6e832ae3067b014",
+  "params": {
+    "search-type": "keynumber",
+    "key": "1996Gu04",
+    "page": 1,
+    "size": 10
+  },
+  "locator": "NSR KeyNumberSearchServlet key=1996Gu04",
+  "body_not_obtained_from_this_query": true,
+  "record_count": 1,
+  "record": [
+    {
+      "keyNumber": "1996GU04",
+      "publicationYear": 1996,
+      "isPrimary": true,
+      "entryDate": "1996-06-05",
+      "codenText": "JOUR PRVCA 53 1191",
+      "referenceType": "JOURNAL",
+      "journalCode": "PRVCA",
+      "indexInformation": "53 1191",
+      "referenceText": "Phys.Rev. C53, 1191 (1996)",
+      "authors": [
+        {
+          "initials": [
+            "A"
+          ],
+          "lastName": "Guessous"
+        },
+        {
+          "initials": [
+            "N"
+          ],
+          "lastName": "Schulz"
+        },
+        {
+          "initials": [
+            "M"
+          ],
+          "lastName": "Bentaleb"
+        },
+        {
+          "initials": [
+            "E"
+          ],
+          "lastName": "Lubkiewicz"
+        },
+        {
+          "initials": [
+            "J",
+            "L"
+          ],
+          "lastName": "Durell"
+        },
+        {
+          "initials": [
+            "C",
+            "J"
+          ],
+          "lastName": "Pearson"
+        },
+        {
+          "initials": [
+            "W",
+            "R"
+          ],
+          "lastName": "Phillips"
+        },
+        {
+          "initials": [
+            "J",
+            "A"
+          ],
+          "lastName": "Shannon"
+        },
+        {
+          "initials": [
+            "W"
+          ],
+          "lastName": "Urban"
+        },
+        {
+          "initials": [
+            "B",
+            "J"
+          ],
+          "lastName": "Varley"
+        },
+        {
+          "initials": [
+            "I"
+          ],
+          "lastName": "Ahmad"
+        },
+        {
+          "initials": [
+            "C",
+            "J"
+          ],
+          "lastName": "Lister"
+        },
+        {
+          "initials": [
+            "L",
+            "R"
+          ],
+          "lastName": "Morss"
+        },
+        {
+          "initials": [
+            "K",
+            "L"
+          ],
+          "lastName": "Nash"
+        },
+        {
+          "initials": [
+            "C",
+            "W"
+          ],
+          "lastName": "Williams"
+        },
+        {
+          "initials": [
+            "S"
+          ],
+          "lastName": "Khazrouni"
+        }
+      ],
+      "collaborations": [],
+      "title": "Prompt |g-Ray Spectroscopy of the {+104}Mo and {+108}Mo Fission Fragments",
+      "doi": "10.1103/PhysRevC.53.1191",
+      "sentenceGroups": [
+        {
+          "topic": "RADIOACTIVITY",
+          "textFormat": "EXCHANGE",
+          "sentences": [
+            {
+              "indexed": true,
+              "phrases": [
+                {
+                  "primaryType": "DECAY",
+                  "text": "{+248}Cm(SF)"
+                },
+                {
+                  "primaryType": "MEASURED",
+                  "text": "measured E|g,multi-fold |g|g-coin"
+                }
+              ]
+            },
+            {
+              "indexed": true,
+              "phrases": [
+                {
+                  "primaryType": "NUCLIDE",
+                  "secondaryType": "DEDUCED",
+                  "text": "{+104},{+108}Mo deduced levels,J,|p,|g-branching"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "selectorGroups": [
+        {
+          "selectors": [
+            "P:248CM;A.",
+            "S:SF-DECAY;A.",
+            "M:G-SPECTRA;A.",
+            "N:104MO;B.",
+            "N:108MO;B.",
+            "D:LEVEL-PROP;B.",
+            "D:G-SPECTRA;B."
+          ]
+        }
+      ],
+      "atomicMassSelectors": [],
+      "atomicNumberSelectors": [],
+      "nuclideSelectors": [
+        {
+          "nuclideSubType": "PARENT",
+          "z": 96,
+          "n": 152,
+          "a": 248,
+          "elementName": "Curium",
+          "elementSymbol": "Cm",
+          "selectorFlag": "A"
+        },
+        {
+          "z": 42,
+          "n": 62,
+          "a": 104,
+          "elementName": "Molybdenum",
+          "elementSymbol": "Mo",
+          "selectorFlag": "B"
+        },
+        {
+          "z": 42,
+          "n": 66,
+          "a": 108,
+          "elementName": "Molybdenum",
+          "elementSymbol": "Mo",
+          "selectorFlag": "B"
+        }
+      ],
+      "reactionSelectors": [],
+      "subjectSelectors": [
+        {
+          "subjectCode": "SF-DECAY",
+          "selectorFlag": "A"
+        },
+        {
+          "subjectSubType": "MEASURED",
+          "subjectCode": "G-SPECTRA",
+          "selectorFlag": "A"
+        },
+        {
+          "subjectSubType": "DEDUCED",
+          "subjectCode": "LEVEL-PROP",
+          "selectorFlag": "B"
+        },
+        {
+          "subjectSubType": "DEDUCED",
+          "subjectCode": "G-SPECTRA",
+          "selectorFlag": "B"
+        }
+      ],
+      "errataEntries": [],
+      "pdfAvailable": false,
+      "xundlAvailable": true,
+      "exforKeys": []
+    }
+  ]
+}

@@ -110,3 +110,37 @@ GammaMR在42–49列/DMR50–55、CC56–62按[[tuli-2001-ensdf-format-manual]]�
 - [[eldridge-2018-gamma-band-mixing-ratios]]：表行identity候选与旧M1/新mixed解释边界。
 - [[dco-pdco-ambiguity-worksheet]]、[[angular-correlation]]：旧标签/门/field/version与actualproducer区别。
 - [[tuli-2001-ensdf-format-manual]]：MR/CC/unknown字段原规则。
+
+
+## 新增XUNDL与NSR：同一标题不等于同一采集
+
+### 官方索引与实际编译对象
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| N104-8 | 官方NSR的1996GU04记录对应Gu96 DOI、248Cm(SF)、measured Eγ/multifoldγγ及deduced104/108Mo levels/Jπ/branching；它另列104042007的200207 XUNDL-1。实际110行compiled unevaluated对象显式混入2002Sm10的252Cf寿命数据；L1028.0两G467.4/835.8的M/MR/DMR都空，全文无DCO/gate/angle token，没有补出target原DCO。T字段另声明误差纯统计，不能当第二份Cm独立companion或新校准总Σ。 | official-metadata-and-compiled-object | direct-object-and-boundary | NSR KeyNumberSearchServlet key=1996Gu04；104042007 header/cL T/L1028.0/G835.8 | true |
+
+2026-10-18取得[官方NSR key查询](https://www.nndc.bnl.gov/nsr/?search-type=keynumber&key=1996GU04)，实际JSON的keyNumber=1996GU04、referenceText=Phys.Rev.C53,1191(1996)、DOI10.1103/PhysRevC.53.1191。NSR关键词是bibliographic indexing，不等于读过Gu96正文；没有从关键词缺DCO推断论文未测DCO。首次旧URL误给Gu02时只返回通用frontend，没有获得/使用那篇记录；按原ENSDF的Gu04改正后才取到上述JSON。
+
+NSR的`xundlAvailable=true`导向[关联对象目录](https://www.nndc.bnl.gov/ensdf/dsbykn.jsp?db=xundl&nav=off&kn=1996GU04)。以目录真实form POST `dbclass=xundl,page-source=coupled-xun,choosexundl=ENSDF text format,checkxundl=104042007,104MO`，取得**110行**XUNDL-1，版本200207。SHA-256 `ebbb997219f7d49de6b70195e2d6ed1a1a67a85d8dfe977d73db12a4d21240b0`。本session读其全部主线，固定栏核27个level/55个gamma记录与目标；这不是Gu96论文全文。
+
+关键原行：
+
+```text
+104MO    248CM SF DECAY:XUNDL-1        1996GU04,2002SM10                  200207
+104MO c  Includes {+252}Cf SF decay from 2002Sm10
+104MO c  Compiled (unevaluated) dataset from 1996Gu04:
+104MO2c  Phys Rev C53, 1191(1996), and 2002Sm10: J Phys G28, 2307 (2002)
+104MO3c  Updated by: M. Lee and B. Singh (McMaster) July 4, 2002 to include
+104MO4c  lifetime data from 2002Sm10
+104MO cL T$From 2002Sm10. Uncertainties are purely statistical in origin
+104MO  L     1028.0  3+                                                     B
+104MO  G      467.4        11 1
+104MO  G      835.8        89 1
+```
+
+M32–41、MR42–49、DMR50–55各栏为空，不令δ=0；注释说compiled unevaluated，不能把对象标题或XUNDL索引宣传成新的实验确认。寿命只核来源/误差层次，不开展寿命到强度的下一卡研究；没有从所列Q(transition)反推新B或形变。
+
+Gu96合法正文路线本次仍未成功：出版社PDF403、Harvest401，OpenAlex无OA，OpenAIRE只有引用/机构metadata，Scholar工具超时；arXiv作者/1995–1996检索返回0，非证明论文不存在。配置的publisher downloader拒绝Wiki内savePath，不采用其仓库外默认路径或改配置。保留body/readiness边界，未新建虚构“已读Gu96”source。
+
+复核[官方NSR回执](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gu96-nsr-official-record.json)、[XUNDL下载/110行hash](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/gu96-xundl-download.json)、[冻结对象](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-xundl-input.json)及[固定栏结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/mo104-xundl-audit.json)。新对象仅存repo tmp，raw归档未写；N104-1–7及review状态保持。

@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-18T19:55:29.354150+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "sha256": "bdd3fc822bb2d5c64cafb014463233a7675b429c77a5504f3e0e6cd5454f3b34",
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ],
+  "route": "same Day16 JT74 bounded statistical identifiability issue, not extra card",
+  "helper_hashes": {
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+    "system/scripts/day16_d96_eq4_erratum_audit.py": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d"
+  },
+  "no_experiment_data_claim": true
+}

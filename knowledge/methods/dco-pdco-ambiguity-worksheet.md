@@ -281,3 +281,11 @@ knownpure4→2→0的exactgridχ²0，默认2度局部抛物线却报告.199，�
 [[nndc-2007-mo104-selected-gamma-reference-records]] N104-2/3的新104Mo对照保留旧adoptedM1与EL18大E2支的冲突信号。adopted本行MR空、globalM来源只指CmDCO；实际选定Cm对象并无该target的R/gate/角度或MR。不能以M1标签自动填δ0，再用它“证实”smallbranch；也不能只因EL18年份较新便抹旧记录。应回原primary/具体conditionalresponse与全部可接受分支。
 
 跨对象的836.3/835.5/835.8与1028.35/1027.9/1028.0保留LS/实验层，结构相配不等于已恢复2018peakledger。time/companion、不同sourcearray与旧评价cutoff分别核，不能把online检索日期或标题当实验年份/独立性。
+
+
+### profile阈值也有来源与适用域
+
+[[james-twin-butler-1974-angular-correlation-statistics]] JT74-5–9与[[ekstrom-1993-delta101-angular-correlation-code]] D101-9进一步核原F表：固定θ=atanδ时其它参数须重新最小化，Ecrit和绝对Scrit不同。JT74与公开DELTA只有max结构代数对应，实际F表/finite-ν处理不同；不能称同一F表，不能据泛用程序的SIGMA/1000输出给未匹配事件/Cov的实验68% CI。ν依据真实design秩和alignment约束，不从“参数强相关”或打印数据条数机械决定；细节见[[angular-correlation]]的profile/数据秩段。
+
+
+JT74-11另给真正的二次近似失败控制：受限positive-density的3→2 pureM1附近，alignment可吸收一阶δ，profile首项δ^4。matched偏振的幅度只有在Q/geometry/选样已约束时才补信息；Q自由或用同A回代校Q不能自动选支。该结论是任务条件模型，不改W178/EL18原实验区间。

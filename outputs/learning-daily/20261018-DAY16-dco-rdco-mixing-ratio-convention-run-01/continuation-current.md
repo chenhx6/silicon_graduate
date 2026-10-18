@@ -1,11 +1,11 @@
-# Day16 checkpoint014之后持续研究
+# Day16 checkpoint015之后持续研究
 
-Goal active/pursuing，同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原研究截止2026-10-19 15:00上海，15–16收束。next17/count16、正式仅16一次、partial17，不开Day18；checkpoint不是全窗完成。
+同原run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，goal active/pursuing，原研究截止2026-10-19 15:00上海，15–16收束。正式16一次next17/count16、partial17，不正式17/不开18；checkpoint不代表全窗结束。
 
-Z13原11页主线/两表八图已读，冻结11行TableI、3行Fig2counts、9项TableII身份。真实898不同门、nonstretchedE1负A、Q校准回代依赖已canonical。全部中央P/Q舍入相容；一阶marginalσ条件四项宽松舍入仍不闭合，不判实验错。arxivv1定向两表同TableI但435.9σ不同。30changed/30writeback；verification-reopened008实际required0，0errors160warnings(122key35raw3parser)，旧flags保留。
+新canonical31changed/31items：Z13 FOM1368点/curve与效率因子条件；officialNSRGu04/XUNDL110lines仍缺targetDCO，混Cfcompanion；JT74原9页、12Fvalues/actualFortranFunit分层；positive-density3→2 pureM1 Jacobian rank1、profileδ^4及条件LR边界，matchedP需要独立matchingQ。不是实验新CI；verification-reopened009 actualrequired0，lint0errors160warnings(122key35raw3parser)。旧review/flags与raw/protected保留。
 
-当前Gu96新primary route：doi10.1103/PhysRevC.53.1191，gu96-before-source.md/gu96-before-freeze.json已冻primed回忆。Crossref/OpenAlex元数据已核title Prompt gamma-ray spectroscopy of the104Mo and108Mo fission fragments；OpenAlex无OA、OSTI连接失败。PublisherPDF/Harvest/OpenAIRE过程session38486执行中，先取fulltext-routes001结果；按合法body完整主线查104Mo旧M1label实际DCO/gate/reference/误差及数据谱系，不从evaluation补正文，不强配EL18δ。source未读则不编claim。
+当前L26 same permittedDay17preview：l26-preview-before-source.md/fullprefixhash freeze已存，rawhashverified，tmp/day16-l26-preview/layout.txt仅前2页已读；下一从p3续完整mainline/全部fig/table/appendix，先不据早期式子判错误。首要核Pbar积分权重、Q/A0=half QPbar的定义及response/selection、energyordering failure bounds与真实校准数据/独立性。若发现数学/物理定义疑问，先companion/极限控制，旧human-reviewedsource整prefix每字节保留，新claims另needs_review true。只partial17无formal17/18。
 
-已终态：Daniel2007 ORA/publisher仅metadata无body；Goodin2010机构403/身份未认证；Krane1973 APS401/403、OSUchallenge/ADSdeny且OpenAIRE合1974不同文已拆；Jül-Spez458仅目录。原样失败route不重试。
+JT74符号重放：SymPy1.14/mpmath1.3隔离tmp/day16-jt74/python-deps；用PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps执行day16_jt74_nonregular_profile.py。首次ModuleNotFound1已保存，依赖安装/后续分析0；新包不stage。原helpers及其hash不变，σ/Σ/Q没有伪造成实测。
 
-Farmer42019保留，无新session/daemon。原raw/PLAN/Bib/credentials/继承dirty与review不动。Publication014精确manifest、log仅HEAD+ownentry、H3/Gitee非force；实际hash/结果仅publication/runreceipt。下一仍在原时间门内选高信息路线，不能因来源/候选局部饱和提前结束。
+Gu96body仅metadata，publisher403/401，actualNSR1996GU04正确（初错Gu02只frontend无数据），XUNDLcompiledunevaluated2002不同对象不补primary。Daniel2007/Jül/Goodin/Krane旧终态不原样重试。Farmer42019保留，不开session/daemon。固定17日报/18run-dir；exactmanifest/HEAD+ownlog/H3，actualpublication015结果仅receipt，下一继续原时间门。

@@ -1,0 +1,134 @@
+{
+  "at": "2026-10-18T11:48:55.507997+00:00",
+  "identity": "NNDC-XUNDL104042007-TARGET-REFERENCE-01",
+  "input_sha256": "d40f9615f427d093a0e18a615eab6bdd572cdae259fc5f59dcf2623c5a638db8",
+  "object_sha256": "ebbb997219f7d49de6b70195e2d6ed1a1a67a85d8dfe977d73db12a4d21240b0",
+  "whole_object_lines": 110,
+  "n_levels": 27,
+  "n_gamma_records": 55,
+  "target_branches": [
+    {
+      "line": 33,
+      "parent": {
+        "line": 32,
+        "E": "1028.0",
+        "Jpi": "3+",
+        "T_field": "",
+        "band": "B"
+      },
+      "E": "467.4",
+      "RI": "11",
+      "M": "",
+      "MR": "",
+      "DMR": "",
+      "CC": "",
+      "raw": "104MO  G      467.4        11 1"
+    },
+    {
+      "line": 34,
+      "parent": {
+        "line": 32,
+        "E": "1028.0",
+        "Jpi": "3+",
+        "T_field": "",
+        "band": "B"
+      },
+      "E": "835.8",
+      "RI": "89",
+      "M": "",
+      "MR": "",
+      "DMR": "",
+      "CC": "",
+      "raw": "104MO  G      835.8        89 1"
+    }
+  ],
+  "header_and_lineage_lines": [
+    {
+      "line": 1,
+      "text": ""
+    },
+    {
+      "line": 2,
+      "text": "104MO    248CM SF DECAY:XUNDL-1        1996GU04,2002SM10                  200207"
+    },
+    {
+      "line": 3,
+      "text": "104MO c  Includes {+252}Cf SF decay from 2002Sm10"
+    },
+    {
+      "line": 4,
+      "text": "104MO c  Compiled (unevaluated) dataset from 1996Gu04:"
+    },
+    {
+      "line": 5,
+      "text": "104MO2c  Phys Rev C53, 1191(1996), and 2002Sm10: J Phys G28, 2307 (2002)"
+    },
+    {
+      "line": 6,
+      "text": "104MO c  Compiled by: J. Zipkin and R.B. Firestone (LBNL);"
+    },
+    {
+      "line": 7,
+      "text": "104MO2c  Edited by: B. Singh  (McMaster) Jan 22, 1999."
+    },
+    {
+      "line": 8,
+      "text": "104MO3c  Updated by: M. Lee and B. Singh (McMaster) July 4, 2002 to include"
+    },
+    {
+      "line": 9,
+      "text": "104MO4c  lifetime data from 2002Sm10"
+    },
+    {
+      "line": 10,
+      "text": "104MO c  1996Gu04: Measured E|g, I|g, |g|g with EUROGAM array of 45"
+    },
+    {
+      "line": 11,
+      "text": "104MO2c  Compton-suppressed Ge detectors"
+    },
+    {
+      "line": 12,
+      "text": "104MO c  2002Sm10: Measured lifetimes by differential-plunger method"
+    },
+    {
+      "line": 13,
+      "text": "104MO2c  using the EUROBALL and SAPHIR array consisting of 48 square solar"
+    },
+    {
+      "line": 14,
+      "text": "104MO3c  cells."
+    },
+    {
+      "line": 15,
+      "text": "104MO cL T$From 2002Sm10. Uncertainties are purely statistical in origin"
+    },
+    {
+      "line": 16,
+      "text": "104MO CL BAND(A)$ GS band"
+    },
+    {
+      "line": 17,
+      "text": "104MO CL BAND(B)$ |g band"
+    },
+    {
+      "line": 18,
+      "text": "104MO CL BAND(C)$ 4+ band"
+    },
+    {
+      "line": 19,
+      "text": "104MO CL BAND(D)$ Band"
+    },
+    {
+      "line": 20,
+      "text": "248CM  P 0            0+               3.48E+5 Y 6"
+    }
+  ],
+  "DCO_tokens_present": [],
+  "fixed_column_contract": "M32-41 MR42-49 DMR50-55, positions1based; blank means absent, notzero",
+  "primary_body_read": false,
+  "claim_boundary": "XUNDL-1 is a compiled unevaluated1996Gu04/2002Sm10 object; 2002Cf lifetime info is not an independent248Cm companion; no target DCO/angles/gates/MR recovered.",
+  "new_experiment_count": 0,
+  "day_index": 16,
+  "no_Day18_topic_opened": true
+}

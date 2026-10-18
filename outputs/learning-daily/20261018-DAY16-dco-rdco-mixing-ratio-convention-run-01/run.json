@@ -265,16 +265,50 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": true
+    },
+    {
+      "publication_index": 14,
+      "at": "2026-10-18T19:35:53.095498+08:00",
+      "branch": "main",
+      "subject": "Audit DAY16 EXOGAM gate identities and calibration uncertainties",
+      "commit": "c1388f8043b55839b6d8e91c56c0300745bd4392",
+      "origin_main": "c1388f8043b55839b6d8e91c56c0300745bd4392",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "initial_postcommit_eol_failure": {
+        "exit_code": 2,
+        "cause": "unsupported --root argument, no source change",
+        "failure_record": "eol-postcommit-014.txt",
+        "corrected_invocation": [
+          "python3",
+          "system/scripts/clean_knowledge_eol_dirty.py"
+        ]
+      },
+      "push_observation": {
+        "exec_session_id": 10217,
+        "exit_code": 0,
+        "output": "d91cc42..c1388f8 HEAD -> main"
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": true
     }
   ],
-  "last_checkpoint": "reopened-008",
-  "last_verification": "verification-reopened-008.json",
-  "knowledge_writeback_items": 30,
-  "last_learning_summary": "Z13 actual11rows/threeDCOcounts/gateidentity/nonstretchedE1 and calibrationerrorconditions; four rounding-robust local error exclusions, not original experiment fault; arxivversion sameTableI/435.9sigma different.",
-  "knowledge_changed_pages": 30,
+  "last_checkpoint": "reopened-009",
+  "last_verification": "verification-reopened-009.json",
+  "knowledge_writeback_items": 31,
+  "last_learning_summary": "Z13 FOM1368point/curve boundary; actualNSR/110lineXUNDLobject; JT74whole9pages/Ftables/actualDELTAFunit and source-motivated positive-density pureM1 nonregularprofile, matchedP/Qrank; no actualexperimentalCI.",
+  "knowledge_changed_pages": 31,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "Gu96 primary DOI10.1103/PhysRevC.53.1191; before-source recall/hash frozen. Verify actual DCO/reference/label origin and data lineage; metadata not body.",
+  "current_research_route": "L26 GRETINA energy-ordering same uncreditedDay17preview; before-source recall/fullhumanreviewprefixhash frozen, rawhash verified; first2pages theory read, remainingmainline/figures/tables/appendix to read before newclaims.",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -376,10 +410,10 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-18T19:29:05.312751+08:00",
+    "now_local": "2026-10-18T20:18:29.623914+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "decision": "continue-current-high-information-primary-route",
-    "source": "current clock compared with original receipt",
+    "source": "candidate-refresh-reopened-010.json",
+    "decision": "continue-with-one-bounded-Day17-preview",
     "completed_day_indices": [
       16
     ],
@@ -397,5 +431,5 @@
     "deadline": "2026-10-19T15:00:00+08:00",
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
-  "last_publication": "publication-013.json"
+  "last_publication": "publication-014.json"
 }

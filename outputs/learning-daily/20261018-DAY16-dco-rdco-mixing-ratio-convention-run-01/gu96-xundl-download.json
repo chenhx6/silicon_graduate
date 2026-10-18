@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-18T11:44:41.325574+00:00",
+  "index_status": 200,
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "payload": {
+    "dbclass": "xundl",
+    "page-source": "coupled-xun",
+    "choosexundl": "ENSDF text format",
+    "checkxundl": "104042007,104MO"
+  },
+  "status": 200,
+  "content_type": "text/html;charset=UTF-8",
+  "bytes": 9371,
+  "pre_found": true,
+  "path": "tmp/day16-mo104-evaluation/mo104-xundl-104042007.ens",
+  "sha256": "ebbb997219f7d49de6b70195e2d6ed1a1a67a85d8dfe977d73db12a4d21240b0",
+  "lines": 110
+}

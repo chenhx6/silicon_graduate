@@ -1,0 +1,25 @@
+{
+  "compiler": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "flags": [
+    "-std=legacy",
+    "-O0",
+    "-ffixed-form"
+  ],
+  "Funit_source": "unmodified byte slice of fixed source; no third-party file is staged",
+  "mainline_reading_complete": true,
+  "printed_pages": "105–113",
+  "tables_visual": [
+    1,
+    2,
+    3
+  ],
+  "figures_visual": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "raw_hash_unchanged": true
+}

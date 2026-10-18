@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-18T20:13:30.677342+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_remaining": 1126.4887109666668,
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_card_checked": "Day17 matrix154-160; preview knowledge only",
+  "continuity_issue": {
+    "issue": "JT74 scalar profile/F/rank and pure-dipole compensation",
+    "new_evidence": "whole9pages/12Fvalues/actualFortranFunit/exactSymPy-vs-trace physical-model derivation",
+    "bounded_status": "derived and canonical; no additional toy/counts used; actual experimental covariance not supplied"
+  },
+  "novelty_issue": {
+    "issue": "104Mo old multipole label/actualDCO provenance",
+    "new_evidence": "officialNSR1996GU04 +200207 XUNDL110lines; targetM/MRblank, mixed252Cf companion",
+    "bounded_status": "target DCO and originalGu96 body still unavailable on attempted legalroutes; no same terminal retry"
+  },
+  "permitted_preview_candidates": [
+    {
+      "source": "Longfellow2026 GRETINA energy-ordering",
+      "information_gain": "high: actual response/Q/Pbar/angular-selection matching and independence; modern tracking vs clover normalization",
+      "overlap": "new experiment/array/light mass region; same permittedDay17 knowledge card",
+      "selected": true
+    },
+    {
+      "source": "Garcia-Raffi1997 transport / Miller2007 SeGA",
+      "information_gain": "potential detector-response companion",
+      "selected": false,
+      "reason": "defer while one selected anchor source is unread in thissession"
+    }
+  ],
+  "decision": "continue-with-one-bounded-Day17-preview",
+  "formal_day17_credit": false,
+  "Day18_opened": false,
+  "why_not_closeout": "original deadline more than120minutes away and selected high-information legal primary PDF is already available"
+}

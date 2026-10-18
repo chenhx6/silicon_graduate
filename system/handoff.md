@@ -8,15 +8,15 @@ updated: 2026-10-18
 
 ## Active handoff — DAY16 user-resumed original study window
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16点收束。用户恢复覆盖旧completed/closeout-only；goal active/pursuing，next17/count16、completed16/partial17不重计，不开Day18。Farmer PID42019 running保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16收束。用户恢复覆盖旧completed/closeout-only；goal active/pursuing，next17/count16、completed16/partial17不重计，不开Day18。Farmer PID42019保留，无新session/daemon。
 
-恢复checkpoint014（verification-reopened-008）：Z13原11页全文主线/两表八图复核，三项Fig2真实DCOcounts及898不同门、nonstretched E1与M1同A负号反例；11项P/Q中央值舍入相容，条件一阶误差四项在宽松舍入下仍不闭合，原error semantics/producer未知，不判实验错。arXiv v1两表定向核：TableI同值，upper435.9 A误差.07对期刊.05，保留版本边界。30changed/30writeback，actualboundary/diff/lint均0，0errors160warnings(122key/35raw/3parser)，旧review/继承dirty保护。
+恢复checkpoint015（verification-reopened-009）：Z13另核1368文字Q=.135对curve外推.160，FOM只作同对象条件因子化；Gu96正文未得，但官方NSR1996GU04和200207XUNDL110行已核，targetM/MR空/缺DCO，明确混Cfcompanion且T误差purestatistical。JT74原9页三表六图、真实12项F与实际未改DELTAFunit核；两表不同、legacy/default与精确概率分开。源Fig2动机的positive-density3→2模型exactSymPy/trace给pureM1局部rank1/profileδ^4和条件LR边界；matchedP要独立Q校准，非实验新CI。31changed/31writeback，actualrequired均0、lint0errors160warnings(122key/35raw/3parser)，旧flags保护。
 
-稳定指针main / `Audit DAY16 EXOGAM gate identities and calibration uncertainties`，actualhash/H3/远端结果仅publication014/runreceipt。上一013实际push已观察exit0及HEAD=origin/main，已补receipt。当前Gu96（PRC53,1191，doi10.1103/PhysRevC.53.1191）primary前回忆已冻；Crossref/OpenAlex元数据已核题名Prompt gamma-ray spectroscopy of the104Mo and108Mo fission fragments；OpenAlex无OA、OSTI连接失败，合法publisher/OpenAIRE body查询继续。查104Mo旧M1label实际DCO/gate/reference与事件谱系，不从adopted空MR造δ0或代EL18选根。
+稳定指针main / `Trace DAY16 profile thresholds and conditional identifiability`，actualhash/H3/远端结果仅publication015/runreceipt。上一014实际Gitee push/HEAD对账已存；postcommit EOL首次误传--root exit2，正确调用复核0后才push，失败保留。SymPy初缺包exit1，只装repo tmp的1.14.0/mpmath1.3.0，PYTHONPATH=tmp/day16-jt74/python-deps后actualanalysis0，旧helpers未改/第三方不stage。
 
-Daniel2007 ORA只有metadata/abstract、AccessDocument空，publisherXML无body；Jül原thesis仅目录，无DCOMAP正文。Goodin2010机构403/身份未认证，Krane1973 body未得；终态不原样重试。Z13缺逐线Compton gate/counts/背景及AD/a/Q全Cov，未把DCO门当polarization门。
+当前恰好partial17的L26 GRETINA preview：before-source回忆及完整原human-reviewed prefix hash/bytes已冻，rawSHA核正确，tmp/day16-l26-preview/layout.txt已提取。仅已读前两页，需续读3–8完整主线/图表/appendix后才新增claim；关注Pbar/acceptance、Q与A0半因子/energy-order selection身份，不凭前两页下结论。原source全prefix/旧humanreview/flags须byte-preserve，新claims另needs_review true不由旧人审批注背书；不正式17。
 
-沿用17日固定日报/18日run-dir/session/resume及原deadline，持续高信息学习；exactmanifest/HEAD+ownlog/H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/旧flags。恰好partial17不授正式17学分。
+Gu96body APS403/Harvest401/无OA/Scholar超时，NSR初误Gu02只返frontend后已按原Gu04纠正；XUNDL不当primarybody。Daniel2007仅metadata、Jül仅目录、Goodin身份/正文和Krane1973缺口保留，终态不原样重试。沿用17日报/18run-dir/session/resume/deadline，持续至原15:00；exactmanifest/HEAD+ownlog/H3/Gitee非force，保护raw/PLAN/Bib/credentials/继承dirty/reviews。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

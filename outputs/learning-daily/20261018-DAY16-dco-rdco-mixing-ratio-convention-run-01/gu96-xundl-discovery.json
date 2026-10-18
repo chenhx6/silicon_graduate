@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-18T11:42:20.692920+00:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/dsbykn.jsp?db=xundl&nav=off&kn=1996GU04",
+  "status": 200,
+  "bytes": 6660,
+  "forms": [
+    {
+      "action": "/ensdf/EnsdfDispatcherServlet",
+      "method": "post",
+      "inputs": [
+        {
+          "type": "submit",
+          "name": "choosensdf",
+          "value": "PDF Version"
+        },
+        {
+          "type": "submit",
+          "name": "choosensdf",
+          "value": "ENSDF text format"
+        },
+        {
+          "type": "hidden",
+          "name": "page-source",
+          "value": "coupled-ensdf"
+        },
+        {
+          "type": "hidden",
+          "name": "dbclass",
+          "value": "ensdf"
+        },
+        {
+          "type": "checkbox",
+          "name": "checkallensdf",
+          "value": null
+        },
+        {
+          "type": "checkbox",
+          "name": "checkensdf",
+          "value": "104042004,104MO"
+        },
+        {
+          "type": "checkbox",
+          "name": "checkensdf",
+          "value": "108042002,108MO"
+        },
+        {
+          "type": "checkbox",
+          "name": "checkensdf",
+          "value": "108042003,108MO"
+        },
+        {
+          "type": "submit",
+          "name": "choosensdf",
+          "value": "PDF Version"
+        },
+        {
+          "type": "submit",
+          "name": "choosensdf",
+          "value": "ENSDF text format"
+        },
+        {
+          "type": "hidden",
+          "name": "page-source",
+          "value": "coupled-ensdf"
+        },
+        {
+          "type": "hidden",
+          "name": "dbclass",
+          "value": "ensdf"
+        }
+      ]
+    },
+    {
+      "action": "/ensdf/EnsdfDispatcherServlet",
+      "method": "post",
+      "inputs": [
+        {
+          "type": "hidden",
+          "name": "page-source",
+          "value": "coupled-xun"
+        },
+        {
+          "type": "hidden",
+          "name": "dbclass",
+          "value": "xundl"
+        },
+        {
+          "type": "checkbox",
+          "name": "checkxundl",
+          "value": "104042007,104MO"
+        },
+        {
+          "type": "submit",
+          "name": "choosexundl",
+          "value": "PDF Version"
+        },
+        {
+          "type": "submit",
+          "name": "choosexundl",
+          "value": "ENSDF text format"
+        }
+      ]
+    }
+  ],
+  "page_text": "Dataset referencing 1996GU04 Phys.Rev. C53, 1191 (1996) A.Guessous, N.Schulz, M.Bentaleb, E.Lubkiewicz, J.L.Durell, C.J.Pearson, W.R.Phillips, J.A.Shannon, W.Urban, B.J.Varley, I.Ahmad, C.J.Lister, L.R.Morss, K.L.Nash, C.W.Williams, S.Khazrouni Prompt γ-Ray Spectroscopy of the 104 Mo and 108 Mo Fission Fragments RADIOACTIVITY 248 Cm(SF); measured Eγ, multi-fold γγ-coin. 104,108 Mo deduced levels, J, π, γ-branching. doi: 10.1103/PhysRevC.53.1191 Matching datasets\n\n\nin ENSDF Retrieve selected ENSDF datasets: Nuclide Dataset Last Revised References Select All 104 Mo 248CM SF DECAY 2007-09 All references 108 Mo 108NB B- DECAY 2008-10 All references 248CM SF DECAY 2008-10 All references Retrieve selected ENSDF datasets: Matching dataset\n\nin XUNDL Nuclide Dataset Last Revised References 104 Mo 248CM SF DECAY:XUNDL-1 2002-07 All references Retrieve selected XUNDL datasets:"
+}

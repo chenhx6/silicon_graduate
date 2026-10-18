@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-18T11:38:19.877498+00:00",
+  "results": [
+    {
+      "url": "https://www.nndc.bnl.gov/nsr/js/http.js?v=1.016",
+      "status": 200,
+      "path": "tmp/day16-mo104-evaluation/nsr-http.js",
+      "bytes": 820
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nsr/js/entry-search.js?v=1.016",
+      "status": 200,
+      "path": "tmp/day16-mo104-evaluation/nsr-entry-search.js",
+      "bytes": 5368
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nsr/js/search/keynumber.js?v=1.016",
+      "status": 200,
+      "path": "tmp/day16-mo104-evaluation/nsr-keynumber.js",
+      "bytes": 1510
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nsr/js/query.js?v=1.016",
+      "status": 200,
+      "path": "tmp/day16-mo104-evaluation/nsr-query.js",
+      "bytes": 1058
+    }
+  ]
+}

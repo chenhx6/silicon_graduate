@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-18T20:00:50.265009+08:00",
+  "sha256": "e7dc48c8f13f07f64cbb011f14fb039fe9b9504a789fe1104a71948fa783bc7e",
+  "frozen_before_symbolic_profile_and_coverage_computation": true,
+  "prior_exploration": "operator values for u0/.5/2/3/1 and delta0/+/-1 examined after before-analysis freeze; no experimental data or target inference"
+}

@@ -1868,3 +1868,7 @@ Sciencepublication005 actualGitee成功后，依据validDay16audit/report/writeb
 ## 2026-10-18 — DAY16 EXOGAM校准与门身份增量
 
 同原run/session继续至2026-10-19 15:00上海；Z13原表/真实DCOcounts、nonstretchedE1反例与校准误差条件界写回，30页/30items。arXiv同数据版本差异保留；无新实验δ或formal17。required实际0、lint0errors160warnings；稳定指针main / `Audit DAY16 EXOGAM gate identities and calibration uncertainties`，实际结果仅runreceipt。下一Gu96 primary查旧104Mo DCO/reference，goal active。
+
+## 2026-10-18 — DAY16 profile统计与条件识别增量
+
+原run/session继续，goal active至原次日15:00。Z13 FOM点/curve、官方NSR/2002XUNDL、JT74原F/rank/profile及实际DELTAFunit和源Fig2动机非regular模型写回，31页/31items；无实验新CI。required0/lint0errors160warnings，稳定指针main / `Trace DAY16 profile thresholds and conditional identifiability`，实际结果仅receipt。下一仅partial17 L26原文完整主线；旧humanreviewprefix冻/保护，不正式17/18。
