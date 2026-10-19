@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-10-18
+updated: 2026-10-19
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -11,6 +11,12 @@ tags: [multipolarity, electric-magnetic-character]
 ---
 
 # 线偏振不对称分析（Linear Polarization Asymmetry）
+
+## 同参考校准的计数与误差门
+
+[[polarimetry-shared-calibration-count-design]]保存本session重新核ST99/SG98后的P/A/Q分层表、两种Jacobian和新声明计数练习。若reference/target共用a或η，P_t=P_ref A_t/A_ref的primitive计数传播应保留Cov(A_t,Q)；同一reference的A/Q回代是恒等式，不是独立验证。该设计不补原实验Σ或δ置信区间（ST99-14；SG98-13）。
+
+SG98若把分母√η(C+S)改为ηC+S，则B=(1+η)QP/[2√η+(η−1)QP]；一般已不是线性A=QP，重标一条reference也不足以使单一Q对所有P通用。旧Q及source/Table3的判断不能跟着名称裸迁。最小独立检查需一条未参与Q拟合、且P/门/response可追溯匹配的支路，另带背景和共同校准信息。
 
 ## Purpose
 

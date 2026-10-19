@@ -1,0 +1,6 @@
+{
+  "frozen_at": "2026-10-19T08:13:56.638141+00:00",
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/paq-design-input.json",
+  "sha256": "659850d210c3ef5f4c7b82081c3ba68ee09c74c0016cc36b0909e1d40b4d2ae9",
+  "note": "Design input persisted before first execution; hash sealed after launch of dependency-corrected execution, before inspecting its output. Only active-recall-freeze is a pre-source freeze."
+}

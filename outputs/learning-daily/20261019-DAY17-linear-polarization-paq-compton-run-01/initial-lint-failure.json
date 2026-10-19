@@ -1,0 +1,7 @@
+{
+  "command": "python3 system/scripts/wiki_lint.py --fail-on error",
+  "exit_code": 1,
+  "error_count": 11,
+  "errors": "new research note missing 11 required template headings",
+  "resolution": "added required sections; lint-001 and lint-002 exit0; no scientific input changed to pass checks"
+}

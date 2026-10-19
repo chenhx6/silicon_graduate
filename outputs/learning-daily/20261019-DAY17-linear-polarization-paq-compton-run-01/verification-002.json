@@ -1,0 +1,99 @@
+{
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 190,
+      "info": 2584
+    },
+    "warning_codes": {
+      "REACTION_PARSE": 3,
+      "CITATION_KEY_MISSING": 137,
+      "RAW_MISSING": 50
+    }
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 17,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "recall_hash": true,
+  "knowledge/sources/starosta-1999-pdco-experimental-test.md": {
+    "old_claim_rows_unchanged": true,
+    "old_review_status_unchanged": true,
+    "old_count": 13,
+    "new_count": 14
+  },
+  "knowledge/sources/schmid-1998-gammasphere-polarization.md": {
+    "old_claim_rows_unchanged": true,
+    "old_review_status_unchanged": true,
+    "old_count": 12,
+    "new_count": 14
+  },
+  "exercise": {
+    "ok": true,
+    "failed": [],
+    "script_hash_matches": true,
+    "input_hash_matches": true
+  },
+  "ok": true
+}

@@ -1,0 +1,14 @@
+{
+  "exit_code": 1,
+  "classification": "expected substantive task-owned edits, not a cleaner safety failure",
+  "retained": [
+    "knowledge/index.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/methods/linear-polarization-asymmetry.md",
+    "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+    "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+  ],
+  "unsafe_mixed": 0,
+  "initial_wrapper_assertion": "incorrectly required exit0; no staging/commit occurred",
+  "resolution": "apply check.md H1 classification, preserve every substantive change"
+}

@@ -3,7 +3,7 @@ type: source
 title: "Schmid et al. 1998 - Gamma-ray polarization sensitivity of the Gammasphere segmented germanium detectors"
 aliases: [Schmid 1998 Gammasphere polarization]
 created: 2026-09-20
-updated: 2026-10-18
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper-and-application
@@ -66,6 +66,8 @@ tags: [Gammasphere, segmented-Ge, polarization, detector-response, 197Pb]
 | SG98-10 | 本任务按Eq15重算Table3七行，六行与所列A按最后位舍入盒相容；294行得到−.048106而表为−.045，当前尾位盒不闭合。原图eta.061/C16622/S1226已核，未调eta或修改表，unrounded producer/cuts/aggregation原因未决。 | bounded-printed-table-replay | task-calculation | printed101 Eq15；printed108 Table3；day16_sg98_polarimetry_preview.py | true |
 | SG98-11 | 432行按quotedC/S fiterrors独立传播的A尺度约.00980、eta误差敏感性.00611，sqrt(area)Poisson诊断仅.00508；都是指定Cov假设下诊断，非恢复原fullΣ/新P误差或显著性。完整传播须保留C/S/eta/Q与A-Q共享校准Cov。 | uncertainty-layer-audit | task-calculation | printed101 Eq17；printed107 error来源说明；printed108 Table3 | true |
 | SG98-12 | 作者的约36%是其purehighspin-dipole/maximumalignment比较条件，不是任意conditionalgamma的通用physicalP上限；通用|P|≤1和具体spin/mixing/selection界分开。Table3中央值越过36%不能自行夹值或改误差，也不能无条件据符号给唯一Jpi。 | physics-versus-analysis-boundary | direct-and-self-audit | printed106 Sec6.2；printed108 Fig14与正文；printed109讨论 | true |
+| SG98-13 | 在Eq13条件下，原A=(ηC−S)/(√η(C+S))线性于P；若改成B=(ηC−S)/(ηC+S)，代数给B=(1+η)QP/[2√η+(η−1)QP]。除特殊/局部极限，重标一条reference仍不能取得对任意P通用的线性Q；这是本任务推导，不是源实验更正。 | observable-normalization-counterexample | task-derivation | printed100 Eq13；printed101 Eq15/Eq16 | true |
+| SG98-14 | Eq13邻文将N称source总发射γ数，Eq18邻文将Ni称incidentγ数；传统εc为coincidence、双分段ε为photopeak。做F比较需明确source/incident/接受角的归一字典，而不能把relativeNaI、本征或条件效率裸替；本任务未认证实际photon ledger。 | efficiency-normalization-boundary | direct-and-self-audit | printed100 Eq10/Eq11/Eq13；printed101 Eq18；printed104 Table2 | true |
 
 ## Summary
 
@@ -108,3 +110,11 @@ Detector segmentation, energy thresholds, geometry, response Monte Carlo and bac
 ## Extracted Pages
 
 - Methods: [[compton-polarimetry]], [[linear-polarization-asymmetry]]。
+
+## 2026-10-19 Day17独立session的实际复核
+
+本session在打开source/raw前冻结承认强priming的回忆，核published原PDF SHA-256 `66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c`；完整重读16页printed95–110/Sections1–7，视觉核全部页面及Figs1–15、Tables1–3、Eq1–19、Fig12实际能级链和Fig13/15的门/AD限制。44页alternate本session未打开，不继承旧alternate阅读信用。Crossref exactDOI实际HTTP200核12作者/417/95–110/1998，只校身份。
+
+新SG98-13/14和[[polarimetry-shared-calibration-count-design]]是在本session独立推导/核验的新交付；原SG98-1–12与flags保持。新design C/S包含两侧confined/sideADCzero，参考和目标均按原Eq15；新120000次Poisson设计MC与Fisher并不重放原DAMM fit，也不是原197Pb数据/原geometry producer。
+
+294-keV printcentral closure失败及actual η仍在quoted error内的边界继续保留，未调η、未把printingfailure称实验矛盾。Fig9的130-keV门与Fig10/197Pb的60-keV门分开；源negative-parity/M1解释不升级成偏振符号独断Jπ。原文Table3的fit parameter errors不被本设计独立Poisson模型覆盖。判断`supports`匹配response与统计分层，`revises`只改分母/一点标Q的合法性，`limits`高背景下裸F与精确P主张；所有新增claims为needs_review，无human-review事件。

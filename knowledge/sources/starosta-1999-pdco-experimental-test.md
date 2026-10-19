@@ -3,7 +3,7 @@ type: source
 title: "Starosta et al. 1999 - Experimental test of the polarization direction correlation method"
 aliases: [Starosta 1999 PDCO]
 created: 2026-09-20
-updated: 2026-10-17
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper-and-application
@@ -68,6 +68,7 @@ tags: [PDCO, CLOVER, EUROGAM-II, polarization, DCO, multipolarity]
 | ST99-11 | Table4的11−→10+和9−→10+分别报score.6/1.2及sigma/I .27/.11；支持的共同类别为|ΔI|=1 E1，非仅凭该表唯一固定初态11−。.26(5)先前从已知647路径校准，不能作独立prior再次计数。 | assignment-and-calibration-boundary | direct-and-self-audit | printed25 Table4；printed20 Fig4 Sec4 | true |
 | ST99-12 | 原文为490keV两候选预测写alpha_κ=.012/.033（保留其下标，不补成总ICC或在未核定义前指定壳层），不是测得转换系数。E1/M2排除还用Weisskopf/强度上限推得≥4ns、无预期Doppler偏移/展宽及约400ps飞行比较；不是独立直接寿命测量。 | companion-observable-and-model-boundary | direct | printed20–21 Sec4；printed26 conclusion (PDF11) | true |
 | ST99-13 | integrated PDCO缺失立体角/效率修正时作者只主张定性使用；它与四组PDCO、RDCO复用同一主采集而非新增独立实验。Q标定另采集但仍与核polarization模型输入相依；full event/correction covariance未给。 | evidence-independence-boundary | direct-and-self-audit | printed21 Sec5；printed25 conclusion | true |
+| ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |
 
 ## Summary
 
@@ -111,3 +112,11 @@ Starosta *et al.* provide a practical validation of PDCO for modern CLOVER array
 ## Extracted Pages
 
 - Methods: [[compton-polarimetry]], [[linear-polarization-asymmetry]], [[angular-correlation]]。
+
+## 2026-10-19 Day17独立session的实际复核
+
+本session先冻结明确承认Day15/16与启动prompt强priming的主动回忆，随后核原PDF SHA-256 `883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b`。完整重读printed16–26的研究问题、实验/校准/DCO/integrated与四几何PDCO/647分析/结论；全部11页图像亦核Fig1–7、Table1–4、Eq1–7及printed17脚注、printed26 ακ。不是重跑旧13行脚本；旧ST99-1–13及其flags原样保留，新ST99-14为needs_review。Crossref exactDOI本次实际HTTP200再核11作者/1999/423/16–26，仅作身份佐证。
+
+本轮新设计保存于[[polarimetry-shared-calibration-count-design]]：在matching energy/geometry/gate且同一Q的明确条件下，从六primitive counts和独立P_ref传播P_t=P_ref A_t/A_ref，用另一条件binomial Fisher及新MC核验共同校准cross-Cov；不是原164Yb或NORDBALL数据重分析。无unrounded producer、原始峰/门/Σ时不补实验CI，不能用设计count errors取代Table2–4。
+
+判断`supports`P/A/Q与共享校准分层，`limits`从单clover代理、符号或同参考回代取得独立验证；旧10⁻5指数、D96脚注更正及490双候选均保留，不算本session新科学发现。

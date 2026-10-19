@@ -1,0 +1,13 @@
+{
+  "command": "python3 system/scripts/day17_paq_shared_calibration.py",
+  "exit_code": 1,
+  "error": "ModuleNotFoundError: No module named 'sympy'",
+  "classification": "interpreter dependency missing; no scientific result produced",
+  "next": "use existing /opt/venv/bin/python3 if dependencies available; do not alter system configuration",
+  "second_attempt": {
+    "command": "/opt/venv/bin/python3 system/scripts/day17_paq_shared_calibration.py",
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: No module named 'sympy'"
+  },
+  "resolution": "Use existing repo-local tmp/day16-jt74/python-deps through a per-command PYTHONPATH; no installation/configuration edit."
+}

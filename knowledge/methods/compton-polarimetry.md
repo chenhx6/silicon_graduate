@@ -12,6 +12,12 @@ tags: [compton-scattering, linear-polarization, detector-response, parity]
 
 # Gamma-Ray Compton Polarimetry
 
+## 共同校准与估计量归一的联合设计
+
+[[polarimetry-shared-calibration-count-design]]依据ST99-14、SG98-13/14保存P/A/Q分层表与本session新设计：两原估计量必须各用自己的Jacobian；同a/η进入reference与target时，需保留Cov(A_t,Q)。六primitive Poisson均值加独立P_ref的声明模型给P=.300，clover localσ=.0194486、SG98 localσ=.0627474，条件binomial Fisher与新MC只核该设计，不认证真实峰拟合或旧实验。
+
+SG98改用balanced-denominator会令响应非线性于P，重标一条线仍不等于修复线性Q合同。F比较需同时给出发射/入射/接受角与photopeak/coincidence效率字典；原Eq13/18邻文不同N措辞不能默认为同一个用户数据分母。必要的独立检查支路应留在Q拟合之外，并核P来源、门、能量/阈值、arrayselection及Σ。
+
 ## Purpose
 
 Compton polarimetry infers the linear polarization of gamma rays from the azimuthal dependence of Compton-scattering events. The scattering plane is correlated with the incident electric-field direction through the Klein-Nishina cross section.

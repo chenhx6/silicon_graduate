@@ -6,7 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY16 completed at original deadline; Day17 next
+## Active handoff — DAY17 active; first P/A/Q checkpoint
+
+Run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止不变；native goal active，用户暂停后已明确恢复，持续学习/auto授权有效。Farmer42019实际存活且ensure复用，无新daemon/session。原runner正常exit未观察；继续以实际receipt/当前clock审计，不伪造scheduler成功退出。
+
+来源前primed回忆已冻结session/time/hash；ST99十一页/SG98十六页主线/所有关键图表式已原读。canonical新note knowledge/research-notes/polarimetry-shared-calibration-count-design.md保存P/A/Q表、共同a/η–Q Cov、两新设计/Fisher/Poisson MC、改分母后非线性反例和holdout校准输入；两个method/source与index共六页增量。原25claim行/flags逐字保持，无新实验P/Q/δ/Jπ；294印刷边界/actualη quoted范围、threshold/zero/fiterrors与原producer/Σ缺口未抹去。
+
+当前报告outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md为substantive checkpoint、partial17/未正式计卡，课程next17/count16不改；未开18/19。verification-002实际report/唯一writeback六页/coverage/boundary/lint/diff通过，0errors190warnings，原25claim/PLAN/Bib/recall保护通过；实际H3/发布只本runpublication。初依赖/模板失败和旧结果均留档，raw/PLAN/Bib/继承dirty保护。
+
+本检查点稳定指针main / `Establish DAY17 polarization calibration evidence and count design`；精确hash/实际H3与push结果只本runreceipt/publication。下一从同问题的detector合并权重/a/η/Q迁移条件继续，先冻结假设再实际artifact；不得用同toy或旧预习加分，也不因局部饱和提前结束研究。QMD/overview deferred。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+
+## Previous active handoff — DAY16 completed at original deadline; Day17 next
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5已完成原2026-10-19 15:00上海截止收束；内容047实际H3/Gitee push成功。formal16只计一次、partial17、next17/count16字节保持。13:30后仅既有问题，15点后无新研究。原早停/用户恢复为历史，以此原截止完成为最新。
 

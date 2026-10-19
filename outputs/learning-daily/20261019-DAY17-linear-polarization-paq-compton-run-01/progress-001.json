@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-10-19T16:13:56.632279+08:00",
+  "run_id": "2026-10-19-day-17-01",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "current_progress": {
+    "startup_baseline_recall": "completed",
+    "ST99_mainline_and_visual_Fig1-7_Table1-4_Eq1-7": "completed",
+    "SG98_mainline_and_visual_Fig1-15_Table1-3_Eq1-19": "completed",
+    "new_design_exercise": "in_progress",
+    "canonical_writeback": "pending",
+    "report_acceptance_publication": "pending"
+  },
+  "effective_skills": {
+    "farmer": "existing PID42019 ensure returned running; not a study scheduler",
+    "go-on": "same thread inherited; user explicit continuation is confirmation",
+    "all": "one issue per iteration; course acceptance fixed by user; local saturation does not terminate study window",
+    "auto": "native goal active; existing L1-L4/commit-push authorization; no repeated permission request",
+    "fast_context.active": false,
+    "effective_rounds_max": "no global cap under user continuous-learning instruction and auto; change direction on 3 no-progress rounds",
+    "stopping_policy": "original time gate and evidence/data boundaries; never final goal at a local checkpoint"
+  },
+  "network_verified": [
+    {
+      "url": "https://api.crossref.org/works/10.1016/S0168-9002(98)01220-0",
+      "http_status": 200,
+      "doi": "10.1016/S0168-9002(98)01220-0",
+      "year": 1999,
+      "volume": "423",
+      "pages": "16-26",
+      "authors": 11
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/S0168-9002(98)00624-X",
+      "http_status": 200,
+      "doi": "10.1016/S0168-9002(98)00624-X",
+      "year": 1998,
+      "volume": "417",
+      "pages": "95-110",
+      "authors": 12
+    }
+  ],
+  "actual_read_scope": {
+    "ST99": "11 published pages printed16-26; text complete and four rendered page sheets all visually inspected",
+    "SG98": "16 published pages printed95-110; text complete and four rendered page sheets all visually inspected",
+    "alternate_SG98_44pages": "not opened this session",
+    "older_code_checks": "not counted as new delivery"
+  },
+  "source_pdf_sha256": {
+    "ST99": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+    "SG98": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c"
+  }
+}

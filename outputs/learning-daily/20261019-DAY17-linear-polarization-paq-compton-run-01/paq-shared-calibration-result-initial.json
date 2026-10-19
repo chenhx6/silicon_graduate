@@ -1,0 +1,445 @@
+{
+  "run_id": "2026-10-19-day-17-01",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "generated_at": "2026-10-19T08:14:07.749875+00:00",
+  "script_sha256": "8f19470abdbb517d89b6be8987019070c407121e0ed5a00660693a37ee31e9d4",
+  "input_sha256": "659850d210c3ef5f4c7b82081c3ba68ee09c74c0016cc36b0909e1d40b4d2ae9",
+  "input_kind": "declared-design-expectations-not-experimental-data",
+  "assumptions": [
+    "Each case uses one fixed energy, geometry, threshold, gates and array selection for unpolarized, polarized-reference and target samples.",
+    "Reference and target have one common linear Q for their explicitly matched physical P; this transfer is an assumption, not an experimental finding.",
+    "All six primitive category yields are independent Poisson variables; no background, event reuse or peak-fit covariance is asserted.",
+    "Reference P has an independent Gaussian local uncertainty; no real calibration transition is represented by its design value.",
+    "C in the SG98 design includes both confined categories including the side-ADC-zero category.",
+    "Monte Carlo is a finite-sample design validation, not a confidence interval for any experimental transition."
+  ],
+  "source_provenance": [
+    {
+      "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+      "locator": "printed18 Eq3",
+      "actual_raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b"
+    },
+    {
+      "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+      "locator": "printed18 Eq4",
+      "actual_raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b"
+    },
+    {
+      "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+      "locator": "printed101 Eq15",
+      "actual_raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c"
+    },
+    {
+      "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+      "locator": "printed103 Fig8",
+      "actual_raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c"
+    }
+  ],
+  "cases": [
+    {
+      "kind": "clover",
+      "input_kind": "declared-design-expectations-not-experimental-data",
+      "geometry": 1.0,
+      "At": 0.06,
+      "Ar": 0.1,
+      "Q": 0.2,
+      "Pt": 0.3,
+      "symbolic_target_P": "pref*(r1*u2 + r2*u1)*(t1*u2 - t2*u1)/((r1*u2 - r2*u1)*(t1*u2 + t2*u1))",
+      "primitive_order": [
+        "t1",
+        "t2",
+        "r1",
+        "r2",
+        "u1",
+        "u2",
+        "pref"
+      ],
+      "jacobian": [
+        4.7000000000000004e-05,
+        -5.3e-05,
+        -2.7e-05,
+        3.3e-05,
+        -2.012e-06,
+        2.0119999999999995e-06,
+        0.6
+      ],
+      "covariance_order": [
+        "At",
+        "Ar",
+        "Q",
+        "Pt"
+      ],
+      "derived_covariance": [
+        [
+          1.0956812960000003e-05,
+          9.864360000000001e-07,
+          1.9728720000000003e-06,
+          5.182475680000001e-05
+        ],
+        [
+          9.864360000000001e-07,
+          1.0880100000000003e-05,
+          2.1760200000000006e-05,
+          -2.770812e-05
+        ],
+        [
+          1.9728720000000003e-06,
+          2.1760200000000006e-05,
+          5.9520400000000014e-05,
+          -7.941624e-05
+        ],
+        [
+          5.182475680000001e-05,
+          -2.770812e-05,
+          -7.941624e-05,
+          0.000378248144
+        ]
+      ],
+      "sigma_P_joint": 0.019448602623324894,
+      "sigma_P_if_At_Q_incorrectly_independent": 0.020195079202617653,
+      "variance_components_target_reference_unpolarized_Pref": [
+        0.00024910000000000004,
+        8.91e-05,
+        4.048143999999999e-06,
+        3.6e-05
+      ],
+      "fisher_parameter_order": [
+        "ln_geometry",
+        "ln_Q",
+        "Pt",
+        "Pref"
+      ],
+      "fisher_matrix": [
+        [
+          299660.0,
+          -8000.000000000002,
+          -10000.0,
+          -10000.000000000002
+        ],
+        [
+          -8000.000000000002,
+          1371.401692557855,
+          1204.3356081894824,
+          2020.2020202020208
+        ],
+        [
+          -10000.0,
+          1204.3356081894824,
+          4014.4520272982745,
+          0.0
+        ],
+        [
+          -10000.000000000002,
+          2020.2020202020208,
+          0.0,
+          14040.404040404042
+        ]
+      ],
+      "monte_carlo": {
+        "replicates": 120000,
+        "mean": 0.30028850576091815,
+        "sigma": 0.019564614295181363,
+        "bias_in_local_sigma": 0.014834266836844544
+      },
+      "checks": [
+        {
+          "name": "symbolic Jacobian versus complex-step on primitive counts",
+          "passed": true,
+          "evidence": 6.776263578034403e-21
+        },
+        {
+          "name": "covariance positive semidefinite",
+          "passed": true,
+          "evidence": [
+            -5.019960420379438e-21,
+            2.5721527780040117e-06,
+            5.119753238278854e-05,
+            0.00040583577179920734
+          ]
+        },
+        {
+          "name": "common Poisson exposure cancels in each sample",
+          "passed": true,
+          "evidence": [
+            0.0,
+            2.220446049250313e-16,
+            -2.220446049250313e-16
+          ]
+        },
+        {
+          "name": "declared P recovered",
+          "passed": true,
+          "evidence": 0.3
+        },
+        {
+          "name": "declared Q recovered",
+          "passed": true,
+          "evidence": 0.2
+        },
+        {
+          "name": "unpolarized expected first-category proportion",
+          "passed": true,
+          "evidence": 0.5
+        },
+        {
+          "name": "reference expected first-category proportion",
+          "passed": true,
+          "evidence": 0.55
+        },
+        {
+          "name": "target expected first-category proportion",
+          "passed": true,
+          "evidence": 0.53
+        },
+        {
+          "name": "full joint likelihood Fisher agrees with delta variance",
+          "passed": true,
+          "evidence": {
+            "fisher": 0.00037824814399999994,
+            "delta": 0.000378248144
+          }
+        },
+        {
+          "name": "expanded At-Q covariance agrees with primitive variance",
+          "passed": true,
+          "evidence": 0.000378248144
+        },
+        {
+          "name": "reference roundtrip is an identity, not validation",
+          "passed": true,
+          "evidence": "P_ref * A_ref/A_ref == P_ref"
+        },
+        {
+          "name": "finite design replicates",
+          "passed": true,
+          "evidence": 120000
+        },
+        {
+          "name": "Monte Carlo local-sigma agreement under declared tolerance",
+          "passed": true,
+          "evidence": {
+            "relative_difference": 0.005965038933817057,
+            "tolerance": 0.03
+          }
+        },
+        {
+          "name": "Monte Carlo finite-sample bias under declared tolerance",
+          "passed": true,
+          "evidence": {
+            "bias_in_sigma": 0.014834266836844544,
+            "tolerance": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "kind": "sg98",
+      "input_kind": "declared-design-expectations-not-experimental-data",
+      "geometry": 0.16,
+      "At": 0.015,
+      "Ar": 0.04,
+      "Q": 0.05,
+      "Pt": 0.3,
+      "symbolic_target_P": "pref*(r1 + r2)*(t1*u2 - t2*u1)/((t1 + t2)*(r1*u2 - r2*u1))",
+      "primitive_order": [
+        "t1",
+        "t2",
+        "r1",
+        "r2",
+        "u1",
+        "u2",
+        "pref"
+      ],
+      "jacobian": [
+        6.637931034482759e-05,
+        -0.0004336206896551724,
+        -2.3275862068965515e-05,
+        0.0001642241379310345,
+        -4.310344827586207e-06,
+        2.693965517241379e-05,
+        0.375
+      ],
+      "covariance_order": [
+        "At",
+        "Ar",
+        "Q",
+        "Pt"
+      ],
+      "derived_covariance": [
+        [
+          9.182325915948275e-06,
+          8.128547413793103e-07,
+          1.016068426724138e-06,
+          0.00017755010775862064
+        ],
+        [
+          8.128547413793103e-07,
+          8.673934482758618e-06,
+          1.0842418103448275e-05,
+          -4.879741379310345e-05
+        ],
+        [
+          1.016068426724138e-06,
+          1.0842418103448273e-05,
+          1.4115522629310346e-05,
+          -6.437176724137931e-05
+        ],
+        [
+          0.00017755010775862066,
+          -4.879741379310345e-05,
+          -6.437176724137931e-05,
+          0.003937232758620689
+        ]
+      ],
+      "sigma_P_joint": 0.06274737252364189,
+      "sigma_P_if_At_Q_incorrectly_independent": 0.06466134224584641,
+      "variance_components_target_reference_unpolarized_Pref": [
+        0.0033388793103448274,
+        0.0004434051724137931,
+        0.00013469827586206894,
+        2.025e-05
+      ],
+      "fisher_parameter_order": [
+        "ln_geometry",
+        "ln_Q",
+        "Pt",
+        "Pref"
+      ],
+      "fisher_matrix": [
+        [
+          165574.72382440415,
+          -2286.1895109668326,
+          -2032.996824249309,
+          -2095.363079615049
+        ],
+        [
+          -2286.1895109668326,
+          229.92978037513993,
+          89.85050734553718,
+          253.7182852143484
+        ],
+        [
+          -2032.996824249309,
+          89.85050734553718,
+          299.5016911517905,
+          0.0
+        ],
+        [
+          -2095.363079615049,
+          253.7182852143484,
+          0.0,
+          7261.59230096238
+        ]
+      ],
+      "monte_carlo": {
+        "replicates": 120000,
+        "mean": 0.30078305462329996,
+        "sigma": 0.06343023648600153,
+        "bias_in_local_sigma": 0.01247948068271598
+      },
+      "checks": [
+        {
+          "name": "symbolic Jacobian versus complex-step on primitive counts",
+          "passed": true,
+          "evidence": 5.551115123125783e-17
+        },
+        {
+          "name": "covariance positive semidefinite",
+          "passed": true,
+          "evidence": [
+            9.209046173358593e-21,
+            2.2276101521426524e-07,
+            2.208308782909776e-05,
+            0.003946898692804398
+          ]
+        },
+        {
+          "name": "common Poisson exposure cancels in each sample",
+          "passed": true,
+          "evidence": [
+            8.881784197001252e-16,
+            4.440892098500626e-16,
+            -8.881784197001252e-16
+          ]
+        },
+        {
+          "name": "declared P recovered",
+          "passed": true,
+          "evidence": 0.3
+        },
+        {
+          "name": "declared Q recovered",
+          "passed": true,
+          "evidence": 0.05
+        },
+        {
+          "name": "unpolarized expected first-category proportion",
+          "passed": true,
+          "evidence": 0.8620689655172414
+        },
+        {
+          "name": "reference expected first-category proportion",
+          "passed": true,
+          "evidence": 0.8758620689655173
+        },
+        {
+          "name": "target expected first-category proportion",
+          "passed": true,
+          "evidence": 0.8672413793103448
+        },
+        {
+          "name": "full joint likelihood Fisher agrees with delta variance",
+          "passed": true,
+          "evidence": {
+            "fisher": 0.00393723275862069,
+            "delta": 0.003937232758620689
+          }
+        },
+        {
+          "name": "expanded At-Q covariance agrees with primitive variance",
+          "passed": true,
+          "evidence": 0.0039372327586206885
+        },
+        {
+          "name": "reference roundtrip is an identity, not validation",
+          "passed": true,
+          "evidence": "P_ref * A_ref/A_ref == P_ref"
+        },
+        {
+          "name": "finite design replicates",
+          "passed": true,
+          "evidence": 120000
+        },
+        {
+          "name": "Monte Carlo local-sigma agreement under declared tolerance",
+          "passed": true,
+          "evidence": {
+            "relative_difference": 0.010882749904824296,
+            "tolerance": 0.03
+          }
+        },
+        {
+          "name": "Monte Carlo finite-sample bias under declared tolerance",
+          "passed": true,
+          "evidence": {
+            "bias_in_sigma": 0.01247948068271598,
+            "tolerance": 0.1
+          }
+        }
+      ],
+      "wrong_balanced_denominator": {
+        "B_target": 0.022098044196088393,
+        "B_reference": 0.060542797494780795,
+        "P_using_original_Q": 0.44196088392176786,
+        "P_recalibrating_one_reference_only": 0.29199898399796803,
+        "boundary": "A_bal is nonlinear in P; fitting its reference Q does not make a single scalar Q valid for all target P."
+      }
+    }
+  ],
+  "failed_checks": [],
+  "ok": true
+}

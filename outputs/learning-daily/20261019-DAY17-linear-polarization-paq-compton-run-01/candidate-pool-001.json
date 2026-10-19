@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-10-19T16:31:40.246247+08:00",
+  "run_id": "2026-10-19-day-17-01",
+  "previous_turn_classification": "progress: canonical six-page delta and new shared-calibration design; interrupted publication/report still incomplete",
+  "recent_eight_records": [
+    {
+      "report": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n本日问题是“选律允许什么，以及测量究竟能排除什么”。优先使用用户指定的两篇已摄入来源；与 Day7 预习 source fingerprint 重叠是正式课程要求，不能据此继承预习学分。没有为合成题搜索新文献批次，也没有转入新的核素案例。\n\n| Candidate / coverage | 选择与信息增益 | 状态 |\n|---|---|---|\n| 一般角动量/宇称与 E1/M1/E2 口诀的边界 | 完整 triangle 避免漏掉 `Ji+Jf`；检查高 L 是否被误删 | 本轮已完成 |\n| KS/RB/BR 的 δ 相位、归一化和级联顺序 | 裸 RME 简写、positive-root 和第一/第二 γ 的符号会影响结果比较 | 本轮已完成；继续保留跨 convention 的应用条件 |\n| angular rank K 与 photon rank L；polarization/alignment 条件 | 原知识页把 polarized 初态误作 odd K 的充分条件，原文可直接纠正 | 本轮已完成，产生实质知识修订 |\n| E0、K-shell ICC 和未观测寿命分支 | `2+→2+` 可有无 gamma 的转换通道；普通两成分 ICC 式需要条件 | 本轮已完成，下一轮复述检查 |\n| 三题的观测可识别性和循环赋值 | 每题列出允许高阶、测量需求与共享假设，不造实验结果 | 本轮已完成；后续检查点继续用负例检验 |\n| 已有争议核素、独立实验或 event-level L4 | 可改变具体机制判断，但本题没有事件、response/covariance 数据，且无需扩展批次 | deferred；不作为本日模拟结果 |\n| Day8 模型零值、同阶展开与自由反例的迁移 | 27项检查已闭合generator-only零值与通用rank1的区别；原图纠正历史比较 | 有界L2完成，新的条件已写回 |\n| Day8 单γ多解的cascade companion | 指定一个合成2+→2+→0+、末支pureE2，检验未追踪的final-state信息是否可辨 | 有界路线完成；RB67-17–20/23，保留 geometry 与选样条件 |\n| Day8 penetration/ICC baseline | 重读Eq4.1检验固定κ下的E0排除如何随未知penetration变化 | 有界路线完成；LKH82-12，不补原文未给的数值界 |\n| 下一未完成卡 Day9：B(E2)/B(M1)、寿命/分支输入链 | 已产生MU08转录纠正和有条件B/RME重算，62-check单位核验通过 | 无学分预习已写回；branch/IC/covariance边界保留 |\n| Day8 B：四gamma成分与未知布居的完整单γ偏振识别性 | 43-check实际rank4、fraction-changing tangent与IFT给出连续联合解；独立表示论及calibration通过 | 有界路线完成；等待下轮候选池/clock重建 |\n| Day8 完整高阶截断与测量误差 | 95/329/54/72 parent 及独立审计确认条件性误差预算；缺实际先验 | 有界路线与替代floor均完成；实际priors未给 |\n| Day8 独立参考布居与高自旋盲区 | J2 inverse/spectral floor 已核验；J3 reference nullspace/node 控制待复现 | 有界分析完成；不由参考拟合自身认证 purity 或 fullρ |\n| Day8 parity-null 逆命题与 source helicity 归一 | 60-chec",
+      "candidate_page_links": [],
+      "sha256": "0ed403f4aa7cadd4c0535c4750fce91179a37f706fbec359975e3ed9b8cd6bdd"
+    },
+    {
+      "report": "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n| Candidate | Information value | Decision |\n|---|---|---|\n| MU08 Band 1 I18: lifetime → three branches → B/RME | 可直接核验一条完整数值链，并辨别 printed branching ratio 是否等于每次母态衰变的 photon probability | 已完成有条件 L2 重构；原文没有给出 branch denominator 或完整 IC ledger，保留多个 forward case |\n| LKH82 p.121 rate/operator normalization | 可排除 mean/half-life、`2Ji+1` 与单位换算混淆 | 已回原图核验 Eqs.2.2–2.3a，并由物理常数重新算单位系数 |\n| MU08 Ref.[16] branching extraction procedure | 可能限制 branch/IC basis 解释 | 已从 APS 官方 endpoint 获取并定向阅读 Chiara 全文；其 partial τ 使用 fitted level τ、observed branch ratios 与 IC，但未给 MU08 的绝对 photon-per-parent ledger；纯 M1 与未观测 E2 crossover 处理仍是 Chiara 文章自己的假设 |\n| Day10: 电磁比值与集体模式判别 | 选定预习时距截止超过 120 分钟；MU07 有可量化 interband 点，Suzuki 提供寿命分解 comparison，LV19 可区分候选 E2 line class | 已核对 MU07 五个同自旋 quotient、四个图估点；以 `105Ag` configuration mixing 和 `103,104Rh` 的 E2-driven ratio staggering补充竞争解释；发现并撤回 E2-rate 单能量换算，改列两条 conditional forward paths。Qt 仍无 source-supported 唯一数值；Day10 仍 partial、不计学分、不打开 Day11 |\n\n没有检索无关核素或扩大文献批次。Day9 branch/radiative fraction 的来源定义已到 L2 source boundary；当前 Day10 只记在 `partial_day_indices`，课程 state 不越过 Day10。\n\n### Day10 uncredited preview (partial)\n\n- **状态：** 仅预习一张下一日卡；`day_index` 仍为 9，Day10 不计分，也没有打开 Day11。\n- `135Nd` MU07 原文 PDF 的 SHA-256 `9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425` 与 source page 匹配；直接重读/渲染了 printed 172501-2 / PDF p.2 Table I。该页明确说 B(M1)/B(E2) 由寿命推得，并报告 Band A/B 共同自旋 31/2−–39/2− 的 B 中心值。预览只重算这五个匹配点，没有重建整条实验线形或作者的拟合。\n\n| Spin | Band A B(M1) / B(E2) | Band A derived quotient | Band B B(M1) / B(E2) | Band B derived quotient |\n|---|---",
+      "candidate_page_links": [],
+      "sha256": "926b88cdbba3d7ab916542f2b81d137d23705294267f4c3e7d418317074c3e82"
+    },
+    {
+      "report": "outputs/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n后续检视已把 128Cs 标签候选推进到带级：Koike 2003 图1/4标出 yrast Y、side S、linking L；Chen 2017 能级图在重叠自旋处 A 低于 B，支持 A≈yrast、B≈side。Koike Table VII 的五条 linking transition 也有逐线自旋和 DCO，但这些 2003 link 不能自动绑定 2006 DSAM Fig.4 的每个 B 值点。当前剩余信息增益是跨 campaign 的 2006 branch/B 点逐线 crosswalk；若原文没有逐线 strength 表，将保留为有界缺口。\n\ncheckpoint-012 候选池刷新（2026-10-10 14:37:39+08:00；距硬截止约22分钟；closeout-only）：\n\n| 槽位 | 最新状态与 locator | 剩余信息增益 |\n|---|---|---|\n| continuity：135Nd MU07 | MU07/ZH03/LV19 的公开能级与 transition crosswalk 已交叉；仍缺能把图点绑定到事件门和分支账本的门条件、响应与联合 covariance（MU07-5/6/8/10/11/13/15/16；ZH03-3/4；LV19-9）。 | 只有逐事件谱、branch ledger 或 response/covariance 能消除带间 B 点身份歧义；本轮没有这些输入。 |\n| novelty：128Cs | Koike04/Hamamoto11 的 A 规则属同一模型链，规则相容不要求手征几何；Koike03 五条 link 可逐线定位，但 GR06 Fig.4 strength marker 只有部分图级对应，A 标签未测（KOIKE04-4/5；HM11-8；KOIKE03-6；GR06-9/10）。 | 需完整逐线绝对 B、混合比和态映射；再次拟合同一数据或增读衍生模型的边际信息低。 |\n| counter-check：126Cs | Wang05/Wang06 共用 Komatsubara NORDBALL 数据；Grodner11 是独立 Warsaw/OSIRIS II DSA，但其 pure-M1 假设引用 Wang06。两表 I=14–17 的分带线能匹配最大差 0.9 keV；Wang05 的 M1-A 方向转述冲突仍在（WS06-4/7/8；GR126-4/5/10；WS05-7；KOIKE04-4；HM11-8）。 | 当前量化问题已包括差分 δ 敏感性和 DSA Table 1/2 B 值商复算；剩余缺口是逐线 δ、branch covariance 与 16+ yrast 253-keV 分支末态。 |\n| 134Pr counter | PE06-2 是 branch-derived `Q0,1/Q0,2=2.0(4)`；Tonev07 公共机构 PDF 端点仍返回 HTTP 418，未用摘要作证据（PE06-2）。 | 需合法可读全文及可核验的独立 acquisition/line-level 数据。 |\n| Day11 preview | 只复核现有方法页与 Herzáň 2015 source card：反应 `165Ho(32S,4n)`、152 MeV、JUROGAM-II/RITU/GREAT 及 prompt γ/recoil/isomer tagging（HE15-1）。Day11 保持 partial/uncredited。 | 已得到“反应/探测/门控影响观测强度归属”的方法边界；没有产额或 side-feeding 数值可更新 DAY10 比值。 |\n",
+      "candidate_page_links": [],
+      "sha256": "57a9e2b8ac3fcd28d4f2790eb41ac16318a6392e4904a70390e775a9e76d993a"
+    },
+    {
+      "report": "outputs/learning-daily/20261012-DAY11-reaction-population-evaporation-high-spin.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n从 `knowledge/questions.md`、Day 10/9 近期记录、A≈130 证据矩阵、source index 和方法覆盖重建候选池。近期 source fingerprint 主要落在 `135Nd` partner strengths/transition identity、`128Cs` chiral selection rules、`126Cs` band/branch 映射；本轮回到 `127/128I` 是为了完成 Day 11 的反应布居卡，不把既有电子强度分析重复当新证据。\n\n| 槽位 | 候选 | 信息增益与取舍 |\n|---|---|---|\n| continuity | `127/128I` reaction channel → high-spin gamma scheme；关联开放的 alignment/feeding 条件问题 | 可检验两种 beam energy 是否代表纯蒸发道、K x-ray 与 γγ gates 各自能确认什么。选择此题，用直接读 Ding thesis 原文和原有方法页完成。 |\n| novelty | `193Bi` RDT/isomer tagging 的门控与污染控制 | 与近期 A≈130 source fingerprint 不重叠，独立 A≈190 experimental setup 可作方法比较。只作为实验设计对照，不把它算成 `127/128I` 的物理重复测量。 |\n| 延后 | `135Nd` 图点逐线映射、`131Ce` partner-resolved lifetime/`δ`、`126Cs` selection-rule provenance | 最近记录已经深入这些源链，当前日卡中的反应/门控证据不能补齐其 missing transition identity、响应或绝对强度。 |\n\nDay 11 的两个选题槽完成后，按运行时规则完成唯一紧邻下一卡 Day 12。Continuation 1 读取 [Wang Haixia 2012 `128I/173W` thesis source page](../../knowledge/sources/wang-haixia-2012-173w-128i-high-spin-thesis.md) 与原始 PDF，发现它和 Ding thesis 的 `128I` 章节报告相同的束流/靶、阵列和事件数；两者的符合时间窗分别写为 100 ns 与 200 ns，且 scheme-count 口径未对齐。2010/2011 文章和 2009 先行报告的 publisher PDF 探测未返回可读全文，不能据元数据判定方案修改或独立采集。\n\n来源访问路线在 IOP 2009/2010 返回 restricted、Science China 2011 无 PDF 后局部饱和；课程时间池仍有合法的紧邻下一卡。Continuation 1 检查 Day 13 卡与 prompt，先写来源前回忆，再读 Doppler 方法、Mavela 2019 和 Klemme 1999 的实验/方法证据，完成一个带假设的速度/角度误差传播练习；正式卡交付和课程学分仍留给 Day 13 自己的运行。\n\n当前 checkpoint 时间为 `2026-10-12 23:08:41+08:00`；距硬截止 `2026-10-13 15:00:00+08:00` 约 `951.3` 分钟。继续同一 session；Day 11/12 完整卡不变，Day 13 仅部分预习，无 Day 14 内容。\n\n### Continuation 1 pool rebuild and ",
+      "candidate_page_links": [],
+      "sha256": "4d7fb996f389848ecf88503b880f2011d412b2036cb9b78c133bdee479d88134"
+    },
+    {
+      "report": "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n本轮延续问题为“校正后的峰能否验证速度/方向，并分开停止和多条跃迁”；主来源是必读的 Mavela `32S` thesis。独立 in-beam 对照选择 Klemme `134Nd` coincidence-RDDS：它将速度历史保留为寿命信息，直接检验“校正之后就不需 stopping”的说法。Longfellow 的已审核 GRETINA 方法仅作 first-interaction/角度与能量转换分离的支持性核验。唯一下一日预习选择 Herzáň `193Bi`，用原图和表把谱峰身份接到能级放置。\n\n| 候选 | 本轮处理及信息增益 | 剩余判别输入 |\n|---|---|---|\n| Mavela β20/24、9%/7%与 S3 printed transform | 复核 printed input 和精确式；修正 `196Pt` 冲突句的 locator；不把排印列表等同执行版。 | production sorter hash、target/coordinate metadata、ring/sector spectra。 |\n| β/角度/response 的峰宽识别 | 精确协方差传播及低速 rank-2 多解，改变对 angle-width diagnostics 的充分性判断。 | 至少一项独立 calibration，实际 joint covariance 和 response。 |\n| Klemme stopping 与近邻线 | 全文主线、Fig.1和 Table I/II 回读；相同跃迁随 stopper distance 改变分量。 | 原始 distance/feeding/response 包才能重拟合。 |\n| GRETINA frame/first-point | raw Eq.(18) 支持能量反演；最高能量点的排序是本装置的方法选择。 | 不移植阵列 response 或 sorting performance。 |\n| Day 14 唯一知识预习 | Fig.2/Table I 三层重建、共用门和 quadruplet 反例；Table II 的 X/linking 与弱线缺失边界。 | 正式 Day 14 自己的来源前回忆、周考、weekly REFLECT 与逐卡验收。 |\n\n开始快照为17:12、距原截止1307分钟；17:33刷新后1286分钟，按 AGENTS/continuous-learning 的新规则只预习 Day14，不按旧 advance wording 给学分。最终研究候选池在17:51:03刷新，剩1268.94分钟，见 [research-closeout.json](20261013-DAY13-doppler-correction-recoil-velocity-run-01/research-closeout.json)。\n\n**历史收束决定（后被用户持续学习指令撤销）：**这次提前收束不是因为两个来源读完：已重新检查生产数据、独立 calibration、stopping 对照、tracking frame、下一张卡与具体可复算路径。当前诊断问题和唯一预习的可得证据已固化；仍会改变判断的输入是缺失的 acquisition/code/response 包，官方库新核验也没有这些附件。其它一般来源不能代替本次执行身份。未打开 Day15 的科学来源或课程；未解决输入列为 readiness boundary，不列成用户待办。\n",
+      "candidate_page_links": [],
+      "sha256": "aa5791a28ff32443e9ee09ec2d2b796f3004f799f11520dedd6fe2eb0f20932c"
+    },
+    {
+      "report": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n连续性问题是“能量闭合和共同门能否唯一指定跃迁身份、顺序与Jπ”。Day14课程明确指定Herzáň或Ding；选择Herzáň193Bi既便于正式复核昨日预习，又与近期A≈130/C/O Doppler工作的核素及采集不同。正式卡要求覆盖同一source，所以这是记录在案的cooldown exception，不能继承Day13预习19/24或其学分。\n\n| 候选 / coverage | 信息增益与选择 | 当前边界 |\n| --- | --- | --- |\n| 193Bi一图一表、Band1五level七边 | continuity selected；将单三层closure扩为相关cycle审计，查到319.8-keV表尾行 | 没有逐对事件/Σ，不重新评价实验能级精度 |\n| 393.4/394.0双线顺序与shared R/A | 同一continuity问题的直接反证；能量和和允许ΔI均不解除未定顺序 | 需要独立endpoint、branch、time或tag |\n| a(E)/Q(E)、isomer assignment与parent lifetime | 同一证据链必要companion；明确source实际DCO定义及条件性spin | 无原counts，反事实不重估作者误差或δ |\n| SD floating X、1836-keV tentative link与46/87-keV非观测 | 检查原论文结论边界；保留model/作者解释 | 无confirmed link/absolute strengths，不能确定X或形变 |\n| Ding127/128I再做同类闭合 | deferred；近期已作反应/谱系，当前未定双线更能检验方法 | 不是用重复来源充填novelty |\n| Day15 ADO知识预习 | 当前shared-POL必要域已固化，转向相邻卡的geometry/gate修正与误差可识别性 | partial15；不计卡，实际matched-gate/response/covariance仍缺 |\n\n最近学习覆盖：Day8选律/δ约定，Day9寿命/branch→strength，Day10双带电磁指纹与谱系，Day11–12反应布居/符合背景，Day13 Doppler/速度/停止/统计，均以既有日报与canonical知识页定位。当前不把这些日报用作新的实验来源，也不从数量推学习饱和。另一个非重叠novelty问题未强行选择。\n\n### 延期候选池：从模型转回实际寿命提取\n\nMatev2007局部算符/表检验完成后，选择Riley2001公开作者实验报告补actual extraction，而非继续变换同一toy。它回答恒定Qt、gate/侧馈、systematics与数据谱系，预期增益高于重复J^(2)或同一overlap计算。Laird2002最终全文、Ce/Sm外源原实验仍缺；已失败获取路线不原样重试。193Bi当前static/time/recoil问题局部饱和，实际events/τ/response/Σ未得；Day15的下一卡只作已记录的无学分预习，不开Day16。\n\n### Active recall 与 priming\n\n来源前答案完整保存在[冻结回忆](20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/active-recall-before-sources.md)。已读运行prompt/handoff中的昨日预习摘要，所以明确为primed recall；未凭记忆填Herzáň具体能量、R/A或误差。原答正确指出共同门、相对能量自由度、阵列特定",
+      "candidate_page_links": [],
+      "sha256": "3abdb9d495861cfff2181b953270e913b57dabe5ab7afc15f28ea42989ba3a8c"
+    },
+    {
+      "report": "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n启动按顺序读README、index、profile/memory/active handoff、PLAN和三份课程/论文轨道计划；矩阵[Day15卡](../plans/2026-09-22-one-month-daily-task-matrix.md#day-15--ado角分布系数与几何修正)存在。最近学习记录和source fingerprints表明，Zheng定义、toy joint response、Gaussian/feeding与系数约定已有大量预习，需正式核原件并产生本session交付。[候选检查点](20261016-DAY15-ado-angular-distribution-geometry-run-01/research-checkpoint.json)记录选择与排除。\n\n| 槽位/候选 | 问题与预期信息增益 | 本次处理 |\n| --- | --- | --- |\n| continuity | 两条独立额外输入路线如何识别f？共享背景/效率校准Cov怎样影响r误差？ | 完成新输入、解析传播、独立pair核算及MC；均为自设L2 |\n| novelty | 独立GRIFFIN方法怎样验证event mixing与finite geometry，什么不能迁移到in-beam ADO？ | 已冻结primed回忆，读完28页arXiv1807.07570v1及相关图表；响应/Cov/版本边界已canonical |\n| anchor内审计 | Zheng Fig1(a)与正文偶极门3.2%是否一致？ | 放大图/原文保留不一致边界；不补造精确图值 |\n| 既有Zobel/Ionescu/193Bi等 | 避免重复旧练习；真实event/response/Σ缺口未补 | 必要时调取明确locator；不重算加分 |\n| Day16 | 本run随后完成允许的知识预习与多分支核验，最终输入缺口见收束审计 | 只记partial16，不授学分，不打开Day17 |\n",
+      "candidate_page_links": [],
+      "sha256": "4384361a3cb382cc158f3cfbeabc0ca18f8aafb5c72855ef98fc8b88198cecb2"
+    },
+    {
+      "report": "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+      "candidate_scope_excerpt": "## Candidate pool and selection\n\n恢复窗口当前选择仍为GRETINA source/偏振response的continuity问题，Riley2021是必要companion原件；没有新增第二novelty或课程卡。它纠正“仓库公开七quad例就是主体论文数据”的预期，并提供新的物理反证与可核表格。更多MC/终态URL重试不能替原producer或统计ledger；研究窗尚有>11h，下一候选将从实际校准分母/选择/原数据缺口重建，保持partial17、不开18。\n\n| 候选 | 与近期知识重叠/信息增益 | 当前决定 |\n| --- | --- | --- |\n| 178W921真实DCO两支、921(G)与921 observed角色 | 既有KF89有定义/一般限制，但未保存此数据点的双支和两个门；可查原件并作新反向检验 | continuity主问题 |\n| D96/KS70共同BM算符、state ordering与干涉 | Day15已预习，因此本日必须重新核原件，不能只复述旧bridge | 必修约定核查，与实测门角色整合 |\n| KF89原表point结果与producer差异 | 新计算暴露部分纯跃迁表值未复现；查exact/high-spin approximation有潜在信息增益 | 下一条当前问题路线，暂不归因 |\n| Dors1979的169/137参考输入 | 原文Dors[3]/Refs2/3冲突；可独立追准确身份、定义和误差 | 当前追源，未因缺全文停止其它路线 |\n| 135Pr/129Ba真实response/Σ | 核心影响高，但Day15已记录缺口；重复toy或原样重试终态失败不增加信息 | 保留候选，需新可用primary/数据才提升 |\n| Day17 P/A/Q与真实polarimeter response | 13:00上海按timegate开启唯一下一卡知识preview，SG98actual表/响应已核 | 仅partial17；其原producer/fit-calibrationCov仍缺，正式17需新session独立逐卡 |\n\n本轮初始continuity为W178/相位，novelty后来选独立130Ba三角度实验；仍只是一项continuity与一项novelty问题。后续恰好Day17知识preview单列，不授正式学分。最新checkpoint时钟为2026-10-18T12:00:09+08:00，距原硬截止约1619.85分钟；原截止不改，当前K-shell/primary路线仍有信息增益，继续研究。\n",
+      "candidate_page_links": [],
+      "sha256": "0d451c117c98f1c1957fe491a7f0f7b427bba31b954a294d072e7adbf7fdafca"
+    }
+  ],
+  "continuity": {
+    "question": "matching P/A/Q计数、共享a/η与Q依赖，及合并detector时参考和target权重迁移",
+    "sources": [
+      "starosta-1999-pdco-experimental-test",
+      "schmid-1998-gammasphere-polarization"
+    ],
+    "importance": "可改变target P幅度/误差与EM/δ判据，当前课程卡强制主线",
+    "source_independence": "不同装置与采集不混合；每篇内calibration/derived columns依赖；本设计不是新独立实验",
+    "status": "active; first scalar-count design complete, array aggregation question next"
+  },
+  "novelty": {
+    "selection": null,
+    "reason": "先完成必修Day17主线及有信息增益的response合同；不拿Day16预习同sources计novelty，不为占槽重复toy"
+  },
+  "deferred": [
+    {
+      "question": "真实P/δ重拟合",
+      "boundary": "原events/fitΣ/matching response/producer未得；设计不替实际输入"
+    },
+    {
+      "question": "SG98 294-keV printcentral closure",
+      "boundary": "保留；不调η或重跑旧JSON冒作新交付"
+    },
+    {
+      "question": "Day18无学分知识预习",
+      "boundary": "当前问题未饱和，尚未打开Day18；绝不打开19"
+    }
+  ],
+  "hard_deadline": "2026-10-20T15:00:00+08:00",
+  "decision": "continue current high-information route; no early schedule-level saturation"
+}

@@ -2040,3 +2040,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day16原生goal与最终发布回执
 
 原定15点研究停止和15–16收束完成；047科学/048完成状态都actualH3/Gitee push，nativeupdate_goal实返complete并get_goal同thread再确认，原objective未变。同步实际工具返回与postpublication receipts，保持科学树/69writeback/next17count16及原raw/review/继承dirty；不新增研究或授分。稳定指针main / Reconcile DAY16 completed goal and final publication receipts；自身精确hash只任务receipt。
+
+
+## 2026-10-19 — Day17检查点001：原件与共同校准计数设计
+
+同session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17正式17来源前回忆已冻并声明强priming；ST99十一页/SG98十六页完整主线/关键图表式原读。新PAQ表、共同a/η–Q Cov/Fisher/两120000次designMC及改分母非线性反例canonical六页，非实验P/Q/δ或旧检查信用。旧25claim/flags、294打印/threshold/zero/fiterrors边界保留。verification002实际report/唯一writeback六页/coverage/boundary/lint/diff通过，0errors190warnings，PLAN/Bib/recall保护通过；首依赖/模板错误留档。仍active/partial17、next17count16不改，原20日15点截止继续合并权重问题，未开18/19。稳定指针main / Establish DAY17 polarization calibration evidence and count design，精确hash/actualH3/push只本runreceipt；原runnerexit未观察，Farmer42019复用。

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-19-day-17-01",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "input_kind": "declared-design-expectations-not-experimental-data",
+  "assumptions": [
+    "Each case uses one fixed energy, geometry, threshold, gates and array selection for unpolarized, polarized-reference and target samples.",
+    "Reference and target have one common linear Q for their explicitly matched physical P; this transfer is an assumption, not an experimental finding.",
+    "All six primitive category yields are independent Poisson variables; no background, event reuse or peak-fit covariance is asserted.",
+    "Reference P has an independent Gaussian local uncertainty; no real calibration transition is represented by its design value.",
+    "C in the SG98 design includes both confined categories including the side-ADC-zero category.",
+    "Monte Carlo is a finite-sample design validation, not a confidence interval for any experimental transition."
+  ],
+  "sources": [
+    {"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b", "locator": "printed18 Eq3"},
+    {"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b", "locator": "printed18 Eq4"},
+    {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c", "locator": "printed101 Eq15"},
+    {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c", "locator": "printed103 Fig8"}
+  ],
+  "cases": [
+    {"name": "clover", "category_order": ["perpendicular-scatter", "parallel-scatter"], "unpolarized": [500000, 500000], "reference": [55000, 45000], "target": [53000, 47000], "reference_P": 0.5, "reference_P_sigma": 0.01},
+    {"name": "sg98", "category_order": ["confined-both-sides", "shared"], "unpolarized": [1000000, 160000], "reference": [101600, 14400], "target": [100600, 15400], "reference_P": 0.8, "reference_P_sigma": 0.012}
+  ],
+  "monte_carlo_seed": 20261019017,
+  "monte_carlo_replicates": 120000,
+  "validation_contract": {"jacobian_rtol": 0.000001, "fisher_variance_rtol": 0.000001, "monte_carlo_sigma_relative_tolerance": 0.03, "monte_carlo_bias_in_sigma_tolerance": 0.1}
+}

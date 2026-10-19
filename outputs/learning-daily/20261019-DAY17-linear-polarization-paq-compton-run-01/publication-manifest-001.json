@@ -1,0 +1,38 @@
+{
+  "subject": "Establish DAY17 polarization calibration evidence and count design",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/methods/linear-polarization-asymmetry.md",
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+    "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+    "system/handoff.md",
+    "system/scripts/day17_paq_shared_calibration.py",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/active-recall-before-sources.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/active-recall-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/baseline.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/paq-design-input.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/paq-design-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result-initial.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/first-execution-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/initial-lint-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/progress-001.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-001.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/acceptance-001-initial.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-002.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/boundary-002.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/lint-002.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/diff-002.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-001.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/eol-classification-001.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inherited dirty/daemon/legacy receipts; current events/stderr/prompt copy; raw/PLAN/Bib/credentials/tmp"
+}
