@@ -1,0 +1,41 @@
+{
+  "url": "https://api.github.com/repos/root-project/root/git/trees/a365d2fa4cdc4fea91420c400280dc9fc7c64214?recursive=1",
+  "status": 200,
+  "sha256": "e71e41f8dad7548b84c500a0ce54e28ff956af4eaf930ae53f0addbd8127ec2f",
+  "truncated": false,
+  "commit": "a365d2fa4cdc4fea91420c400280dc9fc7c64214",
+  "selected": {
+    "hist/hist/src/TH1.cxx": {
+      "path": "hist/hist/src/TH1.cxx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62c38a3a5fc182550aabe06df4604464ff9b56b",
+      "size": 314108,
+      "url": "https://api.github.com/repos/root-project/root/git/blobs/c62c38a3a5fc182550aabe06df4604464ff9b56b"
+    },
+    "hist/spectrum/src/TSpectrum.cxx": {
+      "path": "hist/spectrum/src/TSpectrum.cxx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "894d8d89d298fdd6480cb15463c2a838b54b24c8",
+      "size": 220260,
+      "url": "https://api.github.com/repos/root-project/root/git/blobs/894d8d89d298fdd6480cb15463c2a838b54b24c8"
+    },
+    "hist/hist/inc/TH1.h": {
+      "path": "hist/hist/inc/TH1.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6777b4c78f456d9667078f2554a7d85518c9daa9",
+      "size": 29324,
+      "url": "https://api.github.com/repos/root-project/root/git/blobs/6777b4c78f456d9667078f2554a7d85518c9daa9"
+    },
+    "hist/spectrum/inc/TSpectrum.h": {
+      "path": "hist/spectrum/inc/TSpectrum.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "516b59ee65c4156c3753adce24f6d1af5d5b1683",
+      "size": 4166,
+      "url": "https://api.github.com/repos/root-project/root/git/blobs/516b59ee65c4156c3753adce24f6d1af5d5b1683"
+    }
+  }
+}

@@ -93,3 +93,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint026 priming：作者thesis分母/背景
 
 [[saastamoinen-2011-thesis-al23-proton-response]]112页仅定向Al23/response/AppendixA，原PRC未得。perβp.14%不同于daughterBp≈.03774，旧τ/J条件给omega1.366非新CI；7/2有势垒/IMME解释，30keVresolution不排小IAS。ROOT5.22平滑误差自动传播主张待实际code，A3打印域保边界。正式18仍需声明priming/独立卡audit，不拿本preview换信用。
+
+
+### Day17 checkpoint027 priming：ROOT5.22实际误差API
+
+[[root-2008-v522-background-error-contract]]真实tag/hash与原方法表达式组件：Smooth不更新stored errors，Background cloneReset只写content，Add固定a只diagonal。estimated a匹配的Cov不同，不能Sumw2工具名保证fullΣ。currentROOT6.40helpers≠完整旧二进制/exactthesisjob；不据组件重报16%/Bp/τCI。仅本preview知识，不授18。

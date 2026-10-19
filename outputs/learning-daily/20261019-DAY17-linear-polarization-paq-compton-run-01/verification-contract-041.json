@@ -1,0 +1,30 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/root-2008-v522-background-error-contract.md": 11,
+    "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md": 15
+  },
+  "artifacts": [
+    {
+      "file": "root522-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "source_API_does_not_propagate_smoothing_or_matching_covariance",
+        "not_full_ROOT522_binary_or_original_job",
+        "no_experimental_Bp_tau_or_CI_recomputed"
+      ]
+    },
+    {
+      "file": "root522-delivery-build.json",
+      "zero_fields": [
+        "exit_code"
+      ]
+    },
+    {
+      "file": "root522-delivery-run.json",
+      "zero_fields": [
+        "exit_code"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

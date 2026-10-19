@@ -62,6 +62,7 @@ Table5.4低能行的0.32(6)是相对每100条451γ的质子强度；乘外部绝
 | SA11-12 | EqA.2给data+bkg方差，prose称各ROOT步骤传播errors、最后约16%而裸Poissonfit约2%/另一估计13%。该断言需要版本代码/实际scale和smoothingCov核，不把Sumw2对角buffer等同完整Cov；尚未读代码不先判实现错误。 | statistical-contract-to-verify | direct-and-readiness | PDF100 EqA.2/footnote2 | true |
 | SA11-13 | EqA.3字面exp(−λ/2+exp(−λ))在λ→−∞增长，不能作为全轴归一的Moyal/Landau密度；作者称近似fit相关能域。实际fitcode未得，不猜其实现或把印刷边界叫实验失效。 | literal-formula-and-domain-boundary | direct-formula-and-asymptote | PDF101 EqA.3；FigA.3 | true |
 | SA11-14 | 声明共同I451-only误差的12×12外积Cov为ri rj sigmaI²，总和贡献.0281个百分点；它不是原fit全Cov，也不能由打印sum误差.05反推不存在背景/eff/ratio相关。 | conditional-common-calibration-covariance | task-derivation | exercise common_I451_only_covariance_percent_squared | true |
+| SA11-15 | 后续真实v5-22-00代码审计显示Smooth不改stored errors、ShowBackground clone/reset后只写content；原表达式/当前ROOThelper组件核两buffer分支。故“所有步骤自动传播”不能保证完整Cov，但exactpatch/原script未得，不据此断言本16%用零背景error或重报实验BpCI。 | actual-software-companion-and-revision | direct-code-and-component | R522-1/2/3/4/5/8/11 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -82,3 +83,7 @@ Jtarget3、sp1/2给channel spin5/2或7/2；L0只产生相同J，L2允许J3/2。�
 ## Extracted Pages
 
 [[kirsebom-2016-23mg-dsam-lifetimes]]、[[nndc-2021-mg23-lifetime-strength-reference]]、[[sallaska-2011-na22-absolute-resonance-strength]]、[[lifetime-strength-audit-165tm-136nd]]、[[linear-polarization-asymmetry]]。
+
+## ROOT5.22公开API反证：内容改变不代表误差闭合
+
+[[root-2008-v522-background-error-contract]] R522-1–11以真实tag/blob及原方法表达式组件核验：Smooth不修改stored errors；ShowBackground返回对象有buffer时可zeroerrors，无buffer则fallbacksqrtcontent。Add按固定系数传播diagonal，不含估计matching/平滑Cov。这里修订自动传播的一般保证，保留本页SA11-12的原报告/当时未读代码状态；仍不认证原exactpatch/job或重新计算16%/BpCI。

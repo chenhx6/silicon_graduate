@@ -1,0 +1,5 @@
+# ROOT5.22归一减背景合同：native后分析前
+
+已执行公开原Smooth/Background表达式的hybrid组件，当前ROOT6.40.04 helpers，非oldfullbinary/exactthesisjob。21bin声明design非实验。storedbuffer时Smootherror不变，BackgroundcloneReset后23cellbuffer存在但binerrors全0；无buffer分支fallbacksqrtcontent。这与source读到的原5.22逻辑一致，不是bootstrap/实际背景统计测量。
+
+另作纯符号D_i−aB_i、a=D_k/B_k的Jacobian：matchingbin残差恒0、对应jointvariance0；固定a的Add对角式给VarD_k+a²VarB_k>0。旨在说明estimatedscale/shareddata信息缺失，不产生新的实验Cov或声称原作者按单点实际实现。原文试120–190 matching点/原脚本仍未得。

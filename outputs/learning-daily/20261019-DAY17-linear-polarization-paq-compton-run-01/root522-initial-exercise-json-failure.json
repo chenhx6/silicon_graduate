@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-19T19:36:41.336614+00:00",
+  "error": "numpy bool value in checks failed json.dumps; native compile/run/arrays already persisted",
+  "script_sha256_before": "b6a462c44b859bd1dc2f657bf6686533a1a6b6ad81a3f0406bcbeb93fd342638",
+  "repair": "convert checks values to builtinbool; no component/physicsdata change"
+}

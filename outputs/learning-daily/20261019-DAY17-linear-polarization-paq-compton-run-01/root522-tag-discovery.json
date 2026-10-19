@@ -1,0 +1,15 @@
+{
+  "url": "https://api.github.com/repos/root-project/root/git/ref/tags/v5-22-00",
+  "status": 200,
+  "sha256": "ff63a561a6fa67112dd551254d56c18e1cf40a4149b2bdd6613e2bd2baba6518",
+  "json": {
+    "ref": "refs/tags/v5-22-00",
+    "node_id": "MDM6UmVmMTA5OTQzNDU6cmVmcy90YWdzL3Y1LTIyLTAw",
+    "url": "https://api.github.com/repos/root-project/root/git/refs/tags/v5-22-00",
+    "object": {
+      "sha": "3daefae5e7d71a628f103f62802ba283c97b352b",
+      "type": "tag",
+      "url": "https://api.github.com/repos/root-project/root/git/tags/3daefae5e7d71a628f103f62802ba283c97b352b"
+    }
+  }
+}

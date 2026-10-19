@@ -1,0 +1,5 @@
+{
+  "at": "2026-10-19T19:32:08.592368+00:00",
+  "error": "TSpectrum.cxx UTF8 decode failed byte0x95 offset19655 in historic source",
+  "repair": "decodeLatin1 reversible; preserve originalbytes/hashes; no source edit"
+}

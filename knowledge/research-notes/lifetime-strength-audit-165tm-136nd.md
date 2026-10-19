@@ -270,3 +270,9 @@ M23-2/10另保留靶厚160vs40和7852/5138在2013缺失的评价注释；2013正
 作者排3/2借L2势垒、排5/2借IAS/IMME混合推断；角动量允许集合仍含J3/2 L2，同spin也不强制大混合。新source不反向推唯一J；30keVFWHM对16keVdoublet仍不能排小IAS。原gamma来自Zhai2007/Iacob2006、τ来自J04，同源输入与当下measurement分列。
 
 AppendixA明确ROOT5.22/Rebin/ShowBackground/Smooth/150keV数据匹配与Add减背景，并称errors自动传播、fit约16%；这些是待actualcode核验的工具合同，Sumw2本身不保证fullCov。真实events/原analysis/模板Cov未得，不以更多toy重造实验CI。
+
+## 实际ROOT5.22：自动误差传播的范围收窄
+
+[[root-2008-v522-background-error-contract]] R522-1–11读真实v5-22-00 TH1/TSpectrum调用链，另名原Smooth/Background表达式配当前ROOT6.40helpers执行。Smooth保留stored errors；Background cloneReset后非零content/零stored errors，无buffer则sqrtcontentfallback，不能当估计背景的fullCov。Add/Rebin/Scale只按给定系数合并diagonal，未含数据估计scale与跨bin相关。
+
+声明D−(Dk/Bk)B的Jacobian使matchingbinvariance0，而固定aAdd给正variance，说明共享归一信息丢失；这个四bin设计不是原hist/原匹配实现。旧thesis16%/2%/13%保持作者结果，actualpatch/job/events/模板Σ未得，不能据API反证重报实验CI或判τ/Bp无效。下一输入需actualproducer/data或独立reference，不加更多toy填缺。

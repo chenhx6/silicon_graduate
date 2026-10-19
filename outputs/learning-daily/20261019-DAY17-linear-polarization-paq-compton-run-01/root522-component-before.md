@@ -1,0 +1,7 @@
+# ROOT5.22公开方法组件执行前合同
+
+actualcode已读：TH1Smooth文档与实现只回写内容、stored errors不改；TSpectrumBackground clone→Reset→SetBinContent，未写SetBinError；Add/Rebin/Scale只按给定系数合并对角buffer。v5-22-00解析commit a365d2fa4cdc4fea91420c400280dc9fc7c64214且treeblobhash匹配，原thesis只写5.22不知patch，不能认证exactjob。
+
+新组件将原SmoothArray/TH1Smooth/TSpectrum Background两重载原表达式另名编译，用当前ROOT6.40.04容器/TSRing/TMath/TH1D helpers。只适配class/method名字与hist helper，不称旧完整ROOT二进制或原脚本重放。原下载不改。声明21bin确定性design，非实验计数。
+
+验证stored Sumw2前置/无buffer两分支：Smooth内容变化/旧stored error原样；Background clone Reset保buffer但zeroerror vs无bufferfallbacksqrtcontent。需要核实际返回对象和source defaults与TH1文字差异。Add固定系数允许diag传播，不含estimatedscaleuncertainty或shareddataCov。之后如做Jacobian仅局部algorithm设计，不重报16%/原BpCI。

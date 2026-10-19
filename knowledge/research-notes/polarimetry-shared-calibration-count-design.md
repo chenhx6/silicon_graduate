@@ -274,3 +274,7 @@ GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target�
 ### 另一种P不能混入本表
 
 [[schuermann-2008-15o-6792-dsam]] SCH08-5的P=.987是有限Ge尺寸的Doppler修正，乘在β0Fcosθ前；它不是本表physicallinearP、a/η或ComptonQ。SCH08-11的actualcenter映射P×F=.97713只检验其F分母，不能当polarimetry校准或从DSAM曲线给γ的linearP。
+
+## 真实工具合同补充：平滑与匹配不自动进入Cov
+
+[[root-2008-v522-background-error-contract]] R522-2/3/5/10是本note计数设计的实际软件反证：ROOT5.22 Smooth只改content，Background未写估计误差，Add按固定系数diagonal合并。声明matching a=Dk/Bk给不同jointCov；原Compton/Si实验脚本未得时不把本design或工具名升级为实验置信区间。

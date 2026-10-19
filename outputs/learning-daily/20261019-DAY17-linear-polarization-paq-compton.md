@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint027：真实ROOT5.22代码输入
+
+[[root-2008-v522-background-error-contract]] R522-1–11：v5-22-00 tag→a365d2fa4cdc4fea91420c400280dc9fc7c64214，公开tree/blob/hash核；TH1/TSpectrum/TArrayD相关方法实际读。原thesis只指5.22，不认证exactpatch/job。
+
+
 ### checkpoint026：实际作者thesis与原期刊边界
 
 [[saastamoinen-2011-thesis-al23-proton-response]] SA11-1–14，实际JYX112页作者primary，只定向4.2/5.3/AppendixA与refs，不称全文或期刊reprint。PRC83045808body当前未得；原计数/analysis/Σ未得。
@@ -100,6 +105,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint027：原方法组件与匹配Jacobian
+
+[复算程序](../../system/scripts/day17_root522_background_contract.py)/[实际结果](20261019-DAY17-linear-polarization-paq-compton-run-01/root522-exercise-result.json)用原Smooth/Background表达式另名组件+当前ROOT6.40helpers。声明21bin：storedSmootherror不改，Background非零content/零stored errors，无bufferfallbacksqrtcontent。另四bin estimated a=Dk/Bk的matchingvariance0，固定aAdd式75.7778；非原hist/原CI。
+
 
 ### checkpoint026：perβ与daughterbranch分开
 
@@ -173,6 +183,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint027：不是所有API都会传播分析误差
+
+R522-2/3/4/5/11实际反证“每步自动传播”保证；原16%/2%/13%仍按作者报告。原patch/script/返回对象使用/数据与fullCov缺，不据zero-buffer组件宣称实际fit误差错或重报Bp/τCI。
+
 
 ### checkpoint026：背景与自旋解释仍是输入
 
@@ -377,6 +392,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[ROOT5.22源](../../knowledge/sources/root-2008-v522-background-error-contract.md)R522-2/3/5/8/10/11；canonical [[polarimetry-shared-calibration-count-design]]“真实工具合同补充：平滑与匹配不自动进入Cov”和lifetimeledger同步实际反证/统计合同。
+
 
 新增[作者thesis源](../../knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md) SA11-5/6/7/9/11/12/14及[[lifetime-strength-audit-165tm-136nd]]“低能质子companion：两层分母与作者自旋解释”；真实分母表、来源矩阵、条件复算和新可证伪ROOT输入均canonical。
 
@@ -4209,6 +4227,144 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "SA11-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/root-2008-v522-background-error-contract.md",
+      "anchor": "自动处理对角误差不等于传播完整分析协方差",
+      "summary": "新增真实旧API/hash、组件与归一Jacobian审计。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-1"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-2"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-3"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-5"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-8"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "anchor": "ROOT5.22公开API反证：内容改变不代表误差闭合",
+      "summary": "收窄原自动传播保证，不改作者结果/原claims。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-2"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-3"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-8"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "实际ROOT5.22：自动误差传播的范围收窄",
+      "summary": "记录actualcode/producer边界/归一Cov。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-2"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-3"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-5"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-10"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "平滑后的背景不是新增Poisson计数",
+      "summary": "计数误差分层与estimatedscale合同。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-2"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-3"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-5"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "真实工具合同补充：平滑与匹配不自动进入Cov",
+      "summary": "给Day17 design增加实际工具反证/使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-2"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-3"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-5"
+        },
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[root-2008-v522-background-error-contract]]",
+      "summary": "新增actualcode source入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+          "locator": "R522-1"
+        }
+      ]
     }
   ]
 }
@@ -4367,3 +4523,7 @@ verification039为report/coverage/唯一writeback/boundary/lint/diff/旧claim与
 ### checkpoint026作者thesis/分母验收
 
 verification040核报告/coverage/唯一writeback/boundary/lint/diff/protected/旧rowsreview；通过后manifest026/commitguard/H3发布。仍同原窗口，formal17once、18partial，不授18/no19。
+
+### checkpoint027actualAPI/组件验收
+
+verification041核report/course/唯一writeback/boundary/lint/diff与旧claim/review/保护；通过后manifest027/commitguard/H3。初decode/NumPybool失败已留档；发布fixture仅注释/尾空格规范且tokens不变，原源字节不改。同原窗口继续，formal17once/18partial/no19。

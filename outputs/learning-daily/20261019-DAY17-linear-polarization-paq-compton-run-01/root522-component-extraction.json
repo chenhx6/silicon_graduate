@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T19:33:09.539707+00:00",
+  "source_commit": "a365d2fa4cdc4fea91420c400280dc9fc7c64214",
+  "generated_cpp": "tmp/day17-root522/legacy-background-component.cc",
+  "generated_sha256": "2882ee33de3ae76b688f90894869b3bf1833af3ad1d2c8a922c7ba6f2aca6074",
+  "chunks": {
+    "SmoothArray": "68ee30e49d60e14c0ec6a58c06f4611a037f1ea39405a949c876480bc2d7be3d",
+    "Smooth": "f80eaa9dc5327f3ceece31bfe352df87f80ec0f3248d889b96a4e7765556e629",
+    "Background_hist": "2e38a3b8ceec2db519eaf58dd591cd8925940a39f46457372859bd7bac9e5b1b",
+    "Background_array": "7106a85261374d551fa43bef8a311b9763e730616a3a7903ff79fab1a81e72b2"
+  },
+  "adaptation": "class/method name only; original bodies, current ROOT6.40 helpers not old fullbinary",
+  "input": "21bin declared deterministic design; no experiment hist"
+}

@@ -1,0 +1,5 @@
+
+
+## 2026-10-20 Day17 checkpoint027 — 实际ROOT5.22误差合同
+
+核v5-22-00真实tag/commit/blob/TH1/TSpectrum/TArrayD，Smooth不改stored errors、Background只写content、Add固定系数diagonal。原方法另名组件/currentROOT6.40helpers及matchingJacobian验收，不冒oldfullbinary/exactjob/原histCI。canonical修订自动传播一般保证，旧16%/Bp/τ仍保来源。verification041通过（0error/227warnings，35changed37mapped）；初decode/NumPybool失败留档，发布fixture注释/去尾空格tokens同，原source不改。main / Audit ROOT522 background error buffers and matched normalization；actualhash/H3见publication027。原窗口继续独立matchedlifetime输入，17once/18partial/no19。

@@ -1,0 +1,19 @@
+{
+  "commit": "a365d2fa4cdc4fea91420c400280dc9fc7c64214",
+  "rows": [
+    {
+      "url": "https://raw.githubusercontent.com/root-project/root/a365d2fa4cdc4fea91420c400280dc9fc7c64214/core/cont/inc/TArrayD.h",
+      "path": "core/cont/inc/TArrayD.h",
+      "status": 200,
+      "sha256": "45aa4f298d58a2eff67bf48635ab19ffc0483aa5c4ead083afa5eb464c474359",
+      "git_blob_computed": "ab5fadbab80046ab3bdc51234a6548de578b0924"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/root-project/root/a365d2fa4cdc4fea91420c400280dc9fc7c64214/core/cont/src/TArrayD.cxx",
+      "path": "core/cont/src/TArrayD.cxx",
+      "status": 200,
+      "sha256": "1059e079f56fd816972ea5b7ef39ab7b27c841da5d6ab4c1336eac5bff06a593",
+      "git_blob_computed": "9b8e0e5a8e0d35ae0545223071460941096dd935"
+    }
+  ]
+}

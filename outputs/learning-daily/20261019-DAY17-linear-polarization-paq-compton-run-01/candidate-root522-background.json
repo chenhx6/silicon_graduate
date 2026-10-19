@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T19:25:57.669212+00:00",
+  "selected": "actual publicROOT5.22 API variance and smoothing contract",
+  "why": "directcounterevidence to automaticerror propagation; ties Day17counts/sharedcalibration and Day18companion",
+  "not_selected": "moreGaussian/toy/MC histories;unavailableexperimentaldata",
+  "scope": "5.22major does not exactpatch/job;noCI;17once/18partial/no19"
+}

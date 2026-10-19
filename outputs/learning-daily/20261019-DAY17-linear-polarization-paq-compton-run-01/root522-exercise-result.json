@@ -1,0 +1,117 @@
+{
+  "at": "2026-10-19T19:39:01.680659+00:00",
+  "script_sha256": "7e7f0b3facb8db90dc26c722634d931e0fcea821944347b354c044f76e4e4370",
+  "contract_sha256": "2ac09e6084a99a8bd54426d95b3aae47dd9bb83e81464df396bd2fb420e6f624",
+  "source_commit": "a365d2fa4cdc4fea91420c400280dc9fc7c64214",
+  "component_helper_ROOT": "6.40.04",
+  "checks": {
+    "stored_smooth_content_changes": true,
+    "stored_smooth_errors_unchanged": true,
+    "stored_background_errors_zero": true,
+    "stored_background_content_nonzero": true,
+    "no_stored_background_fallback_sqrt": true,
+    "same_background_content_across_error_buffer_cases": true,
+    "matched_bin_joint_variance_zero_but_fixed_scale_diagonal_positive": true
+  },
+  "matching_algebra_declared_design": {
+    "D": [
+      14.0,
+      22.0,
+      18.0,
+      30.0
+    ],
+    "B": [
+      7.0,
+      9.0,
+      6.0,
+      11.0
+    ],
+    "k": 1,
+    "estimated_a": 2.4444444444444446,
+    "residual": [
+      -3.1111111111111143,
+      0.0,
+      3.333333333333332,
+      3.111111111111107
+    ],
+    "Jacobian": [
+      [
+        1.0,
+        -0.7777777777777778,
+        0.0,
+        0.0,
+        -2.4444444444444446,
+        1.901234567901235,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        -0.6666666666666666,
+        1.0,
+        0.0,
+        -0.0,
+        1.6296296296296298,
+        -2.4444444444444446,
+        -0.0
+      ],
+      [
+        0.0,
+        -1.2222222222222223,
+        0.0,
+        1.0,
+        -0.0,
+        2.9876543209876547,
+        -0.0,
+        -2.4444444444444446
+      ]
+    ],
+    "conditional_joint_covariance": [
+      [
+        101.66803840877917,
+        0.0,
+        39.29218106995886,
+        72.03566529492457
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        39.29218106995886,
+        0.0,
+        87.53086419753087,
+        61.7448559670782
+      ],
+      [
+        72.03566529492457,
+        0.0,
+        61.7448559670782,
+        208.92729766803845
+      ]
+    ],
+    "fixed_a_Add_diagonal_variance": [
+      55.827160493827165,
+      75.77777777777779,
+      53.851851851851855,
+      95.7283950617284
+    ],
+    "boundary": "independent primitive Poisson design, unsmoothed B, single-bin matching; no source histogram or CI"
+  },
+  "source_API_does_not_propagate_smoothing_or_matching_covariance": true,
+  "not_full_ROOT522_binary_or_original_job": true,
+  "no_experimental_Bp_tau_or_CI_recomputed": true,
+  "ok": true
+}

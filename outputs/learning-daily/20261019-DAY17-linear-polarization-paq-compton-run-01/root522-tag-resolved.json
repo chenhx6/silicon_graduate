@@ -1,0 +1,29 @@
+{
+  "url": "https://api.github.com/repos/root-project/root/git/tags/3daefae5e7d71a628f103f62802ba283c97b352b",
+  "status": 200,
+  "sha256": "cc1188b3a6e2d915a8f728b7ff53dab15d3bcf39ddae57779274ad1c5e0f6eaf",
+  "json": {
+    "node_id": "MDM6VGFnMTA5OTQzNDU6M2RhZWZhZTVlN2Q3MWE2MjhmMTAzZjYyODAyYmEyODNjOTdiMzUyYg==",
+    "sha": "3daefae5e7d71a628f103f62802ba283c97b352b",
+    "url": "https://api.github.com/repos/root-project/root/git/tags/3daefae5e7d71a628f103f62802ba283c97b352b",
+    "tagger": {
+      "name": "Rene Brun",
+      "email": "Rene.Brun@cern.ch",
+      "date": "2008-12-18T09:21:10Z"
+    },
+    "object": {
+      "sha": "a365d2fa4cdc4fea91420c400280dc9fc7c64214",
+      "type": "commit",
+      "url": "https://api.github.com/repos/root-project/root/git/commits/a365d2fa4cdc4fea91420c400280dc9fc7c64214"
+    },
+    "tag": "v5-22-00",
+    "message": "Stamp version v5-22-00\n",
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  }
+}

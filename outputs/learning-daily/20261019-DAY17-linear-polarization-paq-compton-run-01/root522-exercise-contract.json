@@ -1,0 +1,23 @@
+{
+  "identity": "ROOT522-BACKGROUND-ERROR-CONTRACT-01",
+  "source_manifest": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root522-source-downloads.json",
+  "source_manifest_sha256": "0be3c9c4f77f059903937191f3e259c61da6b7122ea6cd725cb3255b67286075",
+  "component": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root522-legacy-component.cc",
+  "component_sha256": "dacbb873e14fe7dc6ba7b5c7f13112c02ef13bb640c8e1cc07fa0153dd8caec3",
+  "original_cpp_sha256": "2882ee33de3ae76b688f90894869b3bf1833af3ad1d2c8a922c7ba6f2aca6074",
+  "delivery_comment_only_tokens_equal": true,
+  "declared_matching_data": [
+    14,
+    22,
+    18,
+    30
+  ],
+  "declared_matching_background": [
+    7,
+    9,
+    6,
+    11
+  ],
+  "matching_index": 1,
+  "boundary": "declaredalgebra/oldsourceexpressioncomponent/currentROOT6.40helpers; not experimental counts or oldfullbinary"
+}

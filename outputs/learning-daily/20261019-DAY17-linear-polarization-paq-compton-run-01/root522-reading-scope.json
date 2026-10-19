@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T19:37:38.724870+00:00",
+  "pinned_commit": "a365d2fa4cdc4fea91420c400280dc9fc7c64214",
+  "actual_code_read": {
+    "TH1.cxx": [
+      "Add constTH1 both overloads L815–1050",
+      "Rebin L4986–5168",
+      "Scale L5279–5316",
+      "SmoothArray/Smooth L5395–5596",
+      "Reset L5770–5808",
+      "Sumw2/GetBinError L7169–7227",
+      "ShowBackground L7351–7390",
+      "TH1D SetBinContent L8630–8655"
+    ],
+    "TSpectrum.cxx": [
+      "Background histogram L133–229",
+      "Background float full core L365–2031 incl fullalgorithm/optionroles",
+      "StaticBackground L5569–5577"
+    ],
+    "TH1.h": [
+      "ShowBackground declaration default20/same"
+    ],
+    "TArrayD.h": [
+      "Reset no resize zero fill"
+    ],
+    "TArrayD.cxx": [
+      "Set allocation/init L102–139"
+    ]
+  },
+  "not_read": "wholeROOTrepo/files/ROOT5.22patchfamily/history/originalthesiscodeorhist",
+  "component_scope": "originaloldSmoothArray/Smooth/Background overloadbodies renamed,currentROOT6.40.04helpers;notoldfullbinary/exactjob",
+  "result": "native errors unchanged/zero/fallback observations; no experimentfit or CI"
+}

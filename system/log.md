@@ -2139,3 +2139,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint026 — Al23两层分母/背景合同
 
 取得作者JYX2011 thesis112页，定向4.2/5.3/AppendixA而非全文/原PRCbody。canonical区分perβp.14%和daughterBp.03774，旧τ/J条件重构宽度/omega非新CI；作者spin解释与近IAS/背景/同源输入分开。verification040通过（0error/225warnings，34changed36mapped），旧claims/review/保护文件保持。main / Separate Al23 beta proton intensity from daughter branching；actualhash/H3见publication026。继续原窗口ROOT5.22真实代码输入，不授18/no19。
+
+
+## 2026-10-20 Day17 checkpoint027 — 实际ROOT5.22误差合同
+
+核v5-22-00真实tag/commit/blob/TH1/TSpectrum/TArrayD，Smooth不改stored errors、Background只写content、Add固定系数diagonal。原方法另名组件/currentROOT6.40helpers及matchingJacobian验收，不冒oldfullbinary/exactjob/原histCI。canonical修订自动传播一般保证，旧16%/Bp/τ仍保来源。verification041通过（0error/227warnings，35changed37mapped）；初decode/NumPybool失败留档，发布fixture注释/去尾空格tokens同，原source不改。main / Audit ROOT522 background error buffers and matched normalization；actualhash/H3见publication027。原窗口继续独立matchedlifetime输入，17once/18partial/no19。

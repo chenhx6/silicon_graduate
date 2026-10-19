@@ -259,3 +259,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 共享归一与净计数：低p伴随观测的实际例子
 
 [[saastamoinen-2011-thesis-al23-proton-response]] SA11-5/6/11/12/14：perβ强度与daughterfraction分母不同；共同reference可在归一比消去，却让多行absolute强度相关。平滑/缩放/减背景后的误差须实际版本与Cov，不用净counts平方根或Sumw2名义buffer替全联合误差。这个原则同样用于Compton侧带/校准，但不得迁用本Si响应作为polarimeterQ。
+
+## 平滑后的背景不是新增Poisson计数
+
+[[root-2008-v522-background-error-contract]] R522-2/3/4/5/10给实际API例：content、stored error和fullCov是三层。Smooth不更新stored errors，ShowBackground没有估计背景variance；Add固定a的diagonal不等a由data matching估计后的联合协方差。Compton侧带/校准若经类似处理也需匹配版本/实际脚本，不能直接迁用Si结果或把Sumw2当完整统计证明。
