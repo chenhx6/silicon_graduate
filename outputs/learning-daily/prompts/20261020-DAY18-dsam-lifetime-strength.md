@@ -123,3 +123,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint032 priming：官方23AlEC归一caution
 
 [[nndc-2021-mg23-lifetime-strength-reference]]新299行exact对象M23-17–26：NR空/纲图不完整，I451abs43.3来源程序/γinventory官方caution，TI4.89不等throughγ3.95；两1.53comments不闭合保原。共同scale可能在Bp比值消，不自动否定/认证；βp emittedlab→CM乘r与capturebeam→CM除r分角色。原fullCov/3.95表未得，不造CI；仅preview不授18。
+
+
+### Day17 checkpoint033 priming：作者Ch4反证/响应
+
+[[fougeres-2022-thesis-evasions-response-contract]]HAL201页只Ch4完整13页+front/TOC。实测19(1)mm支持public19000µm，不能再将其当geometry故障；原loader/scalar问题另保。σ/FWHM/bin、SNR共享数据与28Si benchmarknormalization/fit域分开，longcase不认证fs/BR/coverage。未读Ch5/6不能预填；仅preview不授18。

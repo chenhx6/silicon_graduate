@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Recover Al23 gamma reference run lineage from original lab reports",
-    "commit": "9ce81975bf2de0e4ed066fff7ed0320220a612cb",
+    "subject": "Audit official Al23 decay normalization and reference cautions",
+    "commit": "8ec74bc365248398c43f5655ffb6d3d3edd94997",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow;officialAl23ECreferencecautioncanonical;Fougeres2022thesisresponsechapter4next;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-046.json",
-  "last_observed_at": "2026-10-19T21:00:57.509677+00:00",
+  "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
+  "last_observed_at": "2026-10-19T21:16:17.364553+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 39,
+  "canonical_knowledge_changed_pages": 40,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

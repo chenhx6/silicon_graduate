@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T21:10:49.920901+00:00",
+  "actual_full_selected_read": "Chapter4 PDF74–86/printed71–83 complete mainline/Figs4.1–4.8/Table4.1/Eqs4.1–4.3",
+  "not_full_thesis201": true,
+  "prior_scope": "front/contents,firstpagechapter1generalintro only",
+  "visual_actual": "PDF75–86 allflow/profile/inputs/formulas/table/output/benchmark/conclusion keyviews; PDF74intro readtext",
+  "unread": "chapters3/5/6/7/appendices beyondcontents; noactualpaperfitconfig/fullCov",
+  "new_material": "19(1)mmgap explicit, step0–1000A/response sigma/SNR normalization/28Si benchmarkfitwindow",
+  "no_new_experiment_credit": "sameGANILE710 researchchain; Day18partialonly"
+}

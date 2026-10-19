@@ -2169,3 +2169,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint032 — 官方EC字段/absolute参考caution
 
 新exact23AlEC299行全文，NR空/不完整/TI与γroles、43.3absolute参考caution和两1.53comment边界canonical。核共scale条件相消及βp emittedlab/capturebeam两种CM转换，未补3.95表/Cov/新CI。verification046通过（0error/235warnings，39changed41mapped），旧16M23rows/review和保护文件保持。main / Audit official Al23 decay normalization and reference cautions；actualhash/H3见publication032。原窗口继续作者thesis实际response输入，formal17once/18partial/no19。
+
+
+## 2026-10-20 Day17 checkpoint033 — 作者Ch4响应/geometry反证
+
+完整原读Fougères2022thesisCh4 13页/Fig4.1–4.8/Table4.1/Eq4.1–4.3，非全201页。实测19(1)mm支持public19000µm，修订旧back-to-back比较的解释；原native故障独立保留。σ/SNR/longbenchmark窗口与真实SP表量级canonical，不认证fullpaperfit/新CI。verification047通过（0error/237warnings，40changed42mapped），旧rows/review/保护文件不改。main / Read thesis response inputs and revise EVASIONS geometry concern；actualhash/H3见publication033。原窗口继续Ch5真实重建，17once/18partial/no19。

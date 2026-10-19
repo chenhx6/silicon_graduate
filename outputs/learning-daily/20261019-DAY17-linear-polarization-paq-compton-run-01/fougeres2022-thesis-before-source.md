@@ -1,0 +1,5 @@
+# Fougères作者thesis原件前回忆
+
+已完整读F23正文/SI/真实图数据与publicEVASIONSrelease，strongpriming非独立盲测。README明指HALtel-03768524v1/ch4，但body未读，不预填它含实际calibrationcoefficients或fullfit脚本。literalfrozenrelease table/scalar/no-opfit阻点不证明paper实际代码相同，需新的matchinginput。
+
+只查thesisidentity/目录，优先与F23实际门、v(t)/SRIM/γ角能响应、τ/Eγ0 jointfit与实际χ²window/normalization/dataexport/BRp有关的chapter4。遇其它课题/课程卡只保目录不读新卡。分actualexperiment/author/model与derivedcode，旧source/run依赖不增加独立数据。若chapter未给所需输入就readiness，不大量patch原源生成假paperCI。反证是finiteExgate含邻态/topfeeding，companion为independentknownτ/calibration/BR；不联系作者。

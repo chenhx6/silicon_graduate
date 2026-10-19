@@ -1,0 +1,5 @@
+# Fougères2022 ch4精确范围冻结
+
+实际HAL201页已取，front/TOC读，自动前13页输出曾含chapter1第一页概述(非主线科学结果)，记录priming不称全thesis。HALcover2022提交/答辩3Mar2022，metadata2026生成不当新版本/实验。
+
+现在精确选PDF74–85=printed71–82完整Chapter4 EVASIONS主线/表图式，PDF86仅blank/conclusion页边界如需。后续Chapter5/6和appendix未读，若需将另冻bounded问题；其他chapters不打开。目的核genericpublicrelease与actualpaperresponse/fit的桥、inputs与labframe/calibration/MCvalidation范围，不认证原CI。

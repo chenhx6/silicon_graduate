@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint033：作者thesisChapter4新primary
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-1–15，HAL201页只完整读Ch4/PDF74–86、图4.1–4.8/Table4.1/Eq4.1–4.3及front/TOC；HAL再生日期不当新实验。
+
+
 ### checkpoint032：官方exact23AlEC新对象
 
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-17–26：23012026,23MG/202101共299行全文新读/hash核。官方本身对absoluteI451推导/γidentification保caution，NR空/纲图不完整，不当primarybody/新实验。
@@ -130,6 +135,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint033：实际geometry与输入量级
+
+[程序](../../system/scripts/day17_fougeres2022_ch4_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch4-exercise-result.json)核19mm=19000µm、原SRIM表正确逗号/energyunitlookup.63074MeV对thesis.662保残差，.28‰×6750=1.89keV。固定β/propermean路径控制仅解释量级，不冒实验τ/CI。
+
 
 ### checkpoint032：字段与两种lab角色
 
@@ -462,6 +472,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[作者Ch4源](../../knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md)F22-2/6/10/11/12/15；EVASIONS/F23及lifetimeledger明确19mm反证和response/benchmark域，科学beliefrevision写入knowledge而非仅outputs。
+
 
 canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md)“新23AlEC对象：编译也未认证absoluteγ参考”新增M23-17–26；lifetimeledger及method同步NR/字段/参考警示/共同尺度矩阵。
 
@@ -5073,12 +5086,163 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "M23-25"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "作者输入说明修订几何疑点，却不认证完整paperjob",
+      "summary": "新增作者Ch4完整13页/真实geometry/σ/SNR/验证域与算术。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-1"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-2"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-6"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-11"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-12"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "作者thesis反证：19mm不是已证几何故障",
+      "summary": "primary反证支持公开geometry，原native问题另保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-2"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "anchor": "Chapter4实际输入：geometry与验证域",
+      "summary": "增加同研究primary实际输入/使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-2"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-11"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-12"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "作者Chapter4修订geometry疑点与response范围",
+      "summary": "写实质beliefrevision与benchmarkdomain矩阵。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-2"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-5"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-6"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-11"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-12"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "同作者primary也能修订代码审计的解释",
+      "summary": "nativefault与装置description分开核。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-2"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-12"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[fougeres-2022-thesis-evasions-response-contract]]",
+      "summary": "新增thesisCh4 source入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-1"
+        }
+      ]
     }
   ]
 }
 ```
 
 ## Open questions and belief revision
+
+### checkpoint033：geometry解释已修订
+
+F22-2/15给实测19(1)mm支持publicinput，先前back-to-back字面对照不得计为已证geometry错；EV23-10旧row保历史、追加反证。原loader/scalar问题独立，Ch4σ/SNR和longbenchmark窗口还不能关闭F23fsfit/Σ。下一高信息是事件重建与fit章节，未读不预填。
+
 
 合并权重的代数条件已由新Rational推导/直接逐台求和闭合，见canonical新段；原ST99/SG98实际逐台ledger仍缺。下一高信息路线转公开sorting/producer：检查其是否保留原始hit类别、逐detector几何/门、背景与response，和能否构造匹配参考/target的真实输入；泛用代码不能自动视为原1998/1999 producer。
 
@@ -5260,3 +5424,7 @@ verification045核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint032official对象/字段验收
 
 verification046核report/course/唯一writeback/boundary/lint/diff/旧16M23rowsreview/保护与artifact。通过后manifest032/commitguard/H3；原source未修，未造实验CI，formal17once/18partial/no19。
+
+### checkpoint033thesis输入/反证验收
+
+verification047核report/course/唯一writeback/boundary/lint/diff/旧rowsreview/protected/artifact；通过后manifest033/commitguard/H3。原source/数据未改、未新fitCI，formal17once/18partial/no19。

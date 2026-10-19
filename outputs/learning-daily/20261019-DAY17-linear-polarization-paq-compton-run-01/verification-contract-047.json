@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 15,
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 15,
+    "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 23
+  },
+  "artifacts": [
+    {
+      "file": "fougeres2022-thesis-ch4-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "public_gap_is_supported_by_actual_thesis",
+        "geometry_mm_to_micron_matches_public_input",
+        "no_new_experimental_lifetime_response_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

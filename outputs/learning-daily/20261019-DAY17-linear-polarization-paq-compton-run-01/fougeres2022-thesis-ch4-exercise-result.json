@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-19T21:10:48.901881+00:00",
+  "script_sha256": "eb0f020b98d42e2d4469f3818b9f661bbfc1a640b7476600eb47679c4bbe60c5",
+  "contract_sha256": "ee287be22f0cc8582dff5358a1723e239c631a2c449f6d1969503c27c83b1a3f",
+  "geometry_mm_to_micron_matches_public_input": true,
+  "public_gap_is_supported_by_actual_thesis": true,
+  "table_query": {
+    "bracket": [
+      {
+        "line": 155,
+        "E_keV": 110000.0,
+        "Se_keV_per_micron": 6319.0,
+        "Sn_keV_per_micron": 5.127
+      },
+      {
+        "line": 156,
+        "E_keV": 120000.0,
+        "Se_keV_per_micron": 6118.0,
+        "Sn_keV_per_micron": 4.762
+      }
+    ],
+    "linear_Se_plus_Sn_keV_per_micron": 6307.413705,
+    "constant_SP_loss_over_active_depth_MeV": 0.6307413705
+  },
+  "thesis_reported_beam_loss_MeV": 0.662,
+  "nominal_lookup_minus_thesis_loss_MeV": -0.031258629500000024,
+  "Table4p1_printing_control_keV": 1.89,
+  "declared_constant_beta_proper_mean_control": {
+    "beta": 0.075,
+    "proper_tau_fs": 10,
+    "gamma": 1.0028244211278003,
+    "mean_lab_path_micron": 0.2254793986142478,
+    "time_to_remaining_foil_fs": 217.92854219612605,
+    "survival_to_exit_firstfoil_if_beta_fixed": 3.6487168160364434e-10,
+    "log_survival_to_traverse_gap_if_beta_fixed": -84264.9045401499,
+    "boundary": "fixed hypothetical kinematics/mean only; no experimental CI, full slowing/long-lived benchmark not replayed"
+  },
+  "no_new_experimental_lifetime_response_or_CI": true,
+  "ok": true
+}

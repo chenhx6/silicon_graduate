@@ -1,0 +1,30 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:tel-03768524&fl=title_s,authFullName_s,producedDate_s,fileMain_s,uri_s,version_i&wt=json",
+  "status": 200,
+  "final_url": "https://api.archives-ouvertes.fr/search/?q=halId_s:tel-03768524&fl=title_s,authFullName_s,producedDate_s,fileMain_s,uri_s,version_i&wt=json",
+  "bytes": 544,
+  "sha256": "0d5c8c5ed2e6ff57b85f441f4428bc7af929c9372d9b45279396942de81dbd82",
+  "json": {
+    "response": {
+      "numFound": 1,
+      "start": 0,
+      "maxScore": 5.9478545,
+      "numFoundExact": true,
+      "docs": [
+        {
+          "title_s": [
+            "Understanding the cosmic abundance of 22Na : lifetime measurements in 23Mg",
+            "De la compréhension de l'abondance cosmique de 22Na par mesure de temps de vie en 23Mg"
+          ],
+          "authFullName_s": [
+            "Chloe Fougeres"
+          ],
+          "uri_s": "https://theses.hal.science/tel-03768524v1",
+          "version_i": 1,
+          "producedDate_s": "2022-03-03",
+          "fileMain_s": "https://theses.hal.science/tel-03768524/document"
+        }
+      ]
+    }
+  }
+}

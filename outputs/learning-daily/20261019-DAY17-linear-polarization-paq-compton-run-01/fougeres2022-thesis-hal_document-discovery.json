@@ -1,0 +1,22 @@
+{
+  "url": "https://theses.hal.science/tel-03768524v1/document",
+  "status": 200,
+  "final_url": "https://theses.hal.science/tel-03768524v1/document",
+  "bytes": 70228097,
+  "sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "file": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pages": 201,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg",
+    "author": "Chloe Fougeres",
+    "subject": "Physics [physics]/Astrophysics [astro-ph], Physics [physics]/Nuclear Experiment [nucl-ex]",
+    "keywords": "Proton branching ratios, NUSHELLX, MESA, EVASIONS code, SPIDER, AGATA, Nuclear astrophysics, Novae, Gamma-ray astronomy, 22Na, Resonance strength, 23Mg, Femtosecondes lifetimes, Doppler y-ray transitions, GANIL, VAMOSRapports d'embranchement proton, Emissions de raies y décalées Doppler, Durées de vie à la femtoseconde, Force de résonance",
+    "creator": "HAL",
+    "producer": "PDFLaTeX",
+    "creationDate": "D:20261012195416-00'00'",
+    "modDate": "D:20220329095227+02'00'",
+    "trapped": "",
+    "encryption": null
+  }
+}

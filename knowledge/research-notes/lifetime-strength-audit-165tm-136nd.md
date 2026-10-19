@@ -310,3 +310,9 @@ F23推荐又复用本新branch/J04tau，故两篇≈.24不计独立强度确认�
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-17–26新增exact299行对象：NR空、RI451100只相对，EC TI总87.7483%不完整；评价明确I451abs43.3(1)%由旧source推导程序/γinventory不清需caution。7788TI4.89(.25)%不是throughγ3.95，两个gamma1.53comment与base20/100/原SA11图不同时闭合，不修raw或判实验矛盾。
 
 这给FR20旧absolute参考使用门，却不自动否定daughter比：若p和γ共用同一physicalI451scale可相消，relativebranch/eff/feeding/Cov仍需原源。另beta-p detectorlab kinetic→totalCM乘r，capturebeam lab→CM除r，原两行558.2/828.8近闭583.8/866.8；必须先识别particle角色。3.95原表/Σ仍readiness未闭，不能以官方转载补新CI。
+
+## 作者Chapter4修订geometry疑点与response范围
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-1–15原13页完整主线/图表式读(未读全201页)。作者实测target/catcher间19(1)mm，确支持public19000µm；此前与Nature“back-to-back”的比较只能当描述/版本桥，不能当geometry已错。原publicloader/scalar故障另保，逐项证据不混加。
+
+Chapter4给σ=FWHM/2.35、data-derivedSNR/noise与28Si benchmark：归一6.81–6.91、fit6.84–6.90MeV，τ2.0(.4)ps/90%CL只该longlived条件；caption角窗与prose/legend不同需job核，不移作F23fsfit。Table4.1 .28‰×6750=1.89keV，binwidth不等仪器σ或零profileeffect统计定理。正确只读publicbeamSPlookup约.63074MeV对thesis.662保残差，未修source/重报实验CI。

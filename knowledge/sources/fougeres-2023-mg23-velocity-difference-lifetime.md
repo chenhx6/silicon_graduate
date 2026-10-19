@@ -75,6 +75,7 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 | F23-20 | MESA/SHIVA ejecta、最大探测距离和未来γobservatories预测为作者模型，不是22Na天文检出或新核寿命数据；meanmassfraction与totalejectedmass不同，模型/figure数据与实验输入分列。 | model-result-and-scope | direct-author-model | main PDF4/Table2/Fig3；SI6–7 | true |
 | F23-21 | 后续原34file/native核给真实409303-entry可读快照与publicrelease readiness边界：补lib后原build0，原loader数长/逗号解析及VAMOS scalar输出不回传，fitwidth分支未实现。仅限制publicrelease论文fit复现，不判实际paperproducer/τ/BR错或重算CI；原34hash保留。 | actual-public-producer-companion | native-and-input-audit | EV23-1/2/5/6/8/13/14 | true |
 | F23-22 | 后续完整原读Friedman2020作者稿，.65(.08)%含新gas相对p强度及旧I866abs/旧gammafeed；本推荐Bp又合此值，推荐tau也合J04。因此两个omega≈.24不是两次完全独立强度确认，source/responsecounter价值与共享reference分开。 | actual-branch-primary-and-dependence | direct-original-companion | FR20-7/10/12/14/15 | true |
+| F23-23 | 作者thesisChapter4完整原读补实测19(1)mmgap、responseσ/SNR与28Si benchmarknormalization/fit窗口；支持publicgeometry而限制backtoback简写的外推。longbenchmark不替本fsfitcoverage，未取得完整原job/Cov。 | same-study-primary-companion-and-scope | direct-thesis | F22-2/10/11/12/13/15 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -103,3 +104,7 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 ## Friedman2020原件补充：推荐组合的共享源
 
 [[friedman-2020-gadget-al23-proton-branch]] FR20-1–16实际完整读作者稿，确认引用.65(.08)%并非全新绝对pγ重测。newgasratio配旧I866abs及gammafeed，再用J04tau给omega≈.24；本论文推荐组合复用这些输入，数值相近不增加两次独立omega确认。
+
+## Chapter4实际输入：geometry与验证域
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-1–15在本session完整读作者thesisChapter4(非全201页)，实测19(1)mmgap与responseσ/SNR定义比本paper简写更具体。28Si测试用独立归一/fit窗口且只验证其条件longlivedcase，不能移作本τ/Eγ0grid或zeroCov保证。

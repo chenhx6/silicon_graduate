@@ -59,6 +59,7 @@ tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
 | EV23-12 | Tools对arrayparameter使用sizeof，当前64bit推size1，random-angle函数另缺return；原编译warnings确认。TH1 weighted/data fit helper/LL注释与论文Pearson须匹配实际job，不能从一段comment重建论文χ²。 | source-and-compiler-counter-evidence | direct-code-and-build | Tools.C L85–120；native-original-build002 | true |
 | EV23-13 | release extract_width分支空/“to be added”，旧CodeA fit段在blockcomment；因此公开release不含可直接调用的完整原τ/Eχ²grid与BR量化工作流。不能codeavailable就认原grid/Cov复现，也不据缺代码认论文实验错。 | inference-producer-readiness | direct-code | main.cpp extract_width；CodeA_gamma.C/CodeB_particle.C | true |
 | EV23-14 | 新脚本在fresh隔离copy复现missinglib→build成功、原noanalysisreturn1、loader/VAMOSsentinel及真实409303/7/7933query，全部hash保留；没有全MC/原fit或修公开源。 | reproducible-actual-audit | direct-native-and-public-data | exercise result/commands | true |
+| EV23-15 | 后续原读作者2022thesisChapter4，明确target/catcher实测19(1)mm支持public19000µm；EV23-10与Naturebacktoback字面对照不应升级成geometry错误。原loader/scalar/native阻点仍独立保持，未因此认证exactjob/修source或重报CI。 | new-primary-revision | direct-thesis-companion | F22-2/15 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -79,3 +80,7 @@ L4当前可做真实publicderivedevent查询、独立物理变量/响应合同�
 ## Extracted Pages
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]]、[[lifetime-strength-audit-165tm-136nd]]、[[doppler-shift-attenuation-method]]、[[polarimetry-shared-calibration-count-design]]。
+
+## 作者thesis反证：19mm不是已证几何故障
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-2/15原Chapter4明确实测19(1)mmgap，和public19000µm一致。因此EV23-10仍保“Natureback-to-back与input描述不同”的历史比较，但不能把它归为已证错误或与loader/scalar问题混加。新primary纠正了这一风险；不改原rows/review/source，也不因此认为完整paperjob已认证。

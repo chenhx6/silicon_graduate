@@ -1,0 +1,19 @@
+{
+  "identity": "F22-THESIS-CH4-GEOMETRY-INPUTS-01",
+  "pdf": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "SRIM_beam_table": "tmp/day17-fougeres2023/producer-source/src/functions/SP_SRIM/beam_in_matter.dat",
+  "table_sha256": "a7506471ea6667f5f10dceaf8da4d8dceb89d71ede8623643add5223d986c67c",
+  "beam_energy_MeV": 110.83,
+  "active_depth_micron": 0.1,
+  "reported_loss_MeV": 0.662,
+  "reported_gap_mm": 19,
+  "input_gap_micron": 19000,
+  "beta_declared": 0.075,
+  "tau_mean_fs_declared": 10,
+  "remaining_foil_micron_declared": 4.9,
+  "c_micron_per_fs": 0.299792458,
+  "Doppler_E_keV_declared": 6750,
+  "Table4p1_fraction": 0.00028,
+  "boundary": "actualinputs/printinganddeclaredanalyticcontrols; noMCfit/CI or newstoppingmeasurement"
+}

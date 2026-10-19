@@ -197,3 +197,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 已公开producer仍需原输入和调用合同
 
 [[evasions-2023-public-release-native-readiness]] EV23-5/6/7/8/13/14把build、原方法返回、实际停止表与paperfit四层分开：build0不等physics/CI通过，status1也未必表示表已正确加载。实际原输入/native失败可定位readiness，不能直接外推作者实验无效；原source/数据不改，修正版必须另名。
+
+## 同作者primary也能修订代码审计的解释
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-2/10/11/12/13/15表明：genericpublicinput的19mm有实际装置依据，不能仅凭paper简写判geometry错；responseσ/FWHM/bin和SNR来源须明确，benchmark归一/fit窗口不可替论文其它case。source/code/实验结果逐项核而不把故障数量当证据权重。
