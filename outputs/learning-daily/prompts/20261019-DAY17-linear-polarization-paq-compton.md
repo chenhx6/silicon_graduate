@@ -377,3 +377,6 @@ Rh99新增priming入口：knowledge/sources/nndc-2017-99rh-matched-reference-rec
 
 
 新的Day16 priming：knowledge/research-notes/unobserved-feeding-alignment-sign.md。完整trace高spin低L的rank2保号域不是任意蒸发/方向门定理；C96 signedU、旧人审与本日反例分列，原Fig1两链的Gaussian根是模型replay而非实验σ。正式17须在本日这些预暴露之后另作独立卡交付，不能复用旧分数计学分。
+
+
+D66三线AD的新增priming：knowledge/research-notes/199tl-three-ad-reference-feasibility.md。sharedparent/freeq与额外lowm条件的8/3只是找到的网格witness，不是完整允许数或源19→5重现；centralA4必要失配不排quoted-error对象，当前无新Jπ/δ。

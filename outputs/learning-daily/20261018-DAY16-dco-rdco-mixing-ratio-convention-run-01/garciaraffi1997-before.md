@@ -1,0 +1,9 @@
+# GR97原件前回忆：Day17无学分preview（已primed）
+
+已读WikiGR97页，知道GCOMP→GCOMPOL/POLAR/GDROT3、Table1 M=εQ²及fourcrystal只记firstscatter会低估Q约40%；sourceclaimGR97-2/4已有false，不清字段或伪装本日审核。尚未打开原PDF。
+
+当前要核actualStokes/Mueller传播、KN能量prefactor、坐标旋转/出射极化、几何/threshold/anglecut和Table1输入。P00 Eq5literalprefactor的固定角Q可cancel，但finiteangle/二次scatter权重不能靠这一cancel认证；GR97代码/材料response缺时不宣称重现其40%/10%验证。
+
+预期Compton散射可从unpolarized光子产生conditionalpolarization，故不能重置每个散射后Stokes；brems/annihilationsecondaries与Compton子光子不是同类。P、countA、Q、coincidenceε和FOM都要带sample/domain。旋转入/出scatterplane必须用同一Stokes约定。
+
+只把本source内容记partial17，Day16formalcredit一次/next17/count16不动，不开18。新数值只能来自原Table/公式的条件重算或可复算设计，不能捏造MC材料/实验事件/Σ。

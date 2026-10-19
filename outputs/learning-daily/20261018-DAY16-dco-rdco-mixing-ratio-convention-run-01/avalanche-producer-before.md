@@ -1,0 +1,7 @@
+# Avalanche producer可用性：来源前回忆（已primed）
+
+已读C96全文。AvalancheI的Ref8为Cejnar/Kern,NPA561(1993)317，II在I上新增orientationflows；原Eq6signedcounter不能证明实际code路径有错。尚未打开Ref8 body/authorcodearchive。
+
+缺输入包括modelcode版本、离散能级分界、partialtransmissioncoefficients、gamma-strength选择、spinleveldensity、compoundentry和实际dataset。即便找到代码，也不能用自己选的q/σ补作作者Cd或P00实验重放。公开code若无inputs，只做可复算kernel/语义审计与readiness。
+
+本轮只作bounded合法metadata/authorrepository/programcatalog discovery。来源身份、license/版本、输入hash和数据谱系必须先核；不联系作者，不读写凭据，不执行未经审查的脚本，不重试IOP/Garg等旧终态。拿不到producer则精确记录什么缺，而非自行复刻一个程序冒充AvalancheII。

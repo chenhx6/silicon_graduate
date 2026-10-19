@@ -121,3 +121,13 @@ Review note: C96-4/C96-5/C96-10 were the source's most important P0 items for NS
 | C96-D16-7 | 原低能模型限制含0.5MeV中子传输网格、起点.25MeV已有pwave，故近s-wave极限不能正确复现；约σ.8是作者讨论的反应极限，不等于Fig1任意单链的精确σ。 | computation-resolution-boundary | direct-original | p239 footnote4/Fig6；p240 Discussion | true |
 
 `limits/revises`：保留本文反应特定的side-feeding结论，同时收紧一般positiveU、signedflow和Gaussian的迁移。`lnU4/lnU2`关系只在相同且正的U、分母非零等原条件下使用；当前未恢复AvalancheII实际routes/strength/transmission输入，也未拟新的851.2δ。新增结论只属Codex核验，不清旧/新needs_review或伪造人审。
+
+
+### 原producer的限定可用性与旧知识重叠
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| C96-D16-8 | Ref8已核为Cejnar/Kern,NPA561,317–342(1993)，DOI10.1016/0375-9474(93)90015-P。当前仅取得metadata，公开producer/input包未得；API full401、publisherPDF403、authorpage证书失败及限定GitHub/Zenodo无匹配分开留档，不声称全球不存在代码。 | producer-readiness | metadata-and-bounded-access | p242 Ref8；本页可用性记录 | true |
+| C96-D16-9 | [[yamazaki-1967-aligned-angular-coefficients]]原p3明确α可负，p7 2→2/L2给U2=−.21429。Day14的YA67-7已保存该反例；本session定向复核只新增与本文literal范围的对照，不把旧反例/旧49checks计新credit或独立实验。 | overlap-and-definition-crosscheck | primary-reinspection-and-provenance | YA67printedpp3/7；本页Eq6 | true |
+
+2026-10-19限定路线未得AvalancheI/II版本化代码、粒子transmission/grid、gamma-strength/leveldensity、discrete分界和compoundentry/各levelinput；本日自有CG程序不是原producer重放。元数据与正文/代码访问、数学定义核验与实测σ分别保留。不会修复/更换凭据、关闭SSL验证或联系作者来绕过这一边界。

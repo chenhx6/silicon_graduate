@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T11:47:36.167937+08:00",
+  "identity": "D66-THREEAD-POSTGRID-RANK4-CERTIFICATE-01",
+  "base_contract": "diamond1966-threeAD-contract.json",
+  "base_contract_sha256": "ce56f5ef004d37651a711f0276fde0a9f8b45592ada7a00b283c37e026020300",
+  "grid_result": "diamond1966-threeAD-result.json",
+  "grid_result_sha256": "16e0b62ef8978f461853710394ea88133ba6229ae9d1e51f197201f8c003e45a",
+  "post_grid": true,
+  "question": "Can exactrank4 coefficients show why centralmeans differ fromquotedmarginalfeasibility withoutclaimingexperimentalexclusion?",
+  "pairs2": [
+    [
+      13,
+      11
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      9,
+      7
+    ]
+  ],
+  "tests": [
+    "exactindependent6jpureE2rank4ratiosvskernelcommonparent",
+    "pureL1andcrossA4zero establishes A4_331=r4f331/f701A4_701",
+    "sourcecentralA4productpositivebutr4negative, excludes exactnonzeromeansonly",
+    "sourceA4marginalboxcontainszero for331/701 so doesnotexcludeprinteduncertainobservations",
+    "forr=A331+kA701 k>=0, PSDσmax=.03+.04k; residual ratio(.02+.03k)/(.03+.04k) liesbetween2/3and3/4,not actualz orjointCI",
+    "recomputeeverygridwitnessfromoriginalkernelandq,notjuststoredLPflag"
+  ],
+  "forbidden": "sourceAD-only5countreproduction orgrid0physicalexclusion; no newδ/spin/CI"
+}

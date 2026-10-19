@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T12:04:36.695969+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "recall_path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/garciaraffi1997-before.md",
+  "recall_sha256": "8e05759063b7903454f4eddcaddee9b05e25df5ac9f92aadb5c98e635ec967c4",
+  "source": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+  "prefix_bytes": 9611,
+  "prefix_sha256": "1b21c766829ca3725ac78cf1ca51c9bcf05e2a7feb12604f036e873bca7bde8d",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf",
+  "raw_sha256": "2b860327fa3d8e0aeeab31e89b8e337ff8278b24f452b4fb456b6bbda4871e31",
+  "primed": "WikiGR97 and previousP00/GRETINA source/bodymethods already known; no blindscore",
+  "preview_only_day": 17
+}

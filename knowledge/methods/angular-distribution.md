@@ -3,7 +3,7 @@ type: method
 title: γ 射线角分布分析
 aliases: [angular distribution, gamma-ray angular distribution, gamma angular distribution, in-beam angular distribution, ADO]
 created: 2026-07-08
-updated: 2026-10-18
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 method_type: gamma-ray-angular-distribution
@@ -636,3 +636,8 @@ Decision: **supports** 从内积/测度与极限理解公式、用正交化构�
 更一般地，`P4=(35P2²−10P2−7)/18`，weighted regression的slope是三组角对secant slopes的正加权平均（权∝wiwj(xi−xj)²）。因此任意正diagonalweights时c2在[−1.1000761,.9542297]内；不能只凭角度就认定实际leakage符号，更不能将equalweight数值当作者response。这个界没有包括off-diagonal共同误差、finite angles或额外ranks。
 
 代码[day16_purry_observable_ledger.py](../../system/scripts/day16_purry_observable_ledger.py)核actualPDF hash/target rows、满秩、独立lstsq/投影与pureP4zero控制；不是新实验a2/A4拟合。[[w178-921-dco-gate-double-solutions]]把这项原测量合同与旧DCO/K-shell比较分开。此结论限制的是无定义的coefficient层迁移，不能据此重新给178W δ、Jpi或模式。
+
+
+## 同母态三线：中央值与误差域分别检验
+
+[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2的实际331/370/701 AD在[[199tl-three-ad-reference-feasibility]]中作条件核验：331/701共享density，370的totalpopulation独立保留。正q网格witness与额外u2≤0域分列；零命中不排连续解，中央A4的符号失配不代带误差数据的拒绝。原response/Cov未恢复，native δ不当原作者测量。

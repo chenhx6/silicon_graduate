@@ -409,3 +409,8 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 直接输入来自[[palit-2000-rh99-clover-polarimetry]] P00-4/5/14；模型过程见下方note。
 
 [[rh99-1117-population-feasibility]]用实际原文摘要说明：exactcentral可行δ可能是有限个孤立根，有限arctanδ网格零命中不能排除；边际box可行域又不是联合CI。应先保留完整observable/phase/popu-lation合同，再以解析根和PSD/凸包检查判断条件解，不把native根当新reportedδ。
+
+
+## 数据存在解与“唯一δ”是两级结论
+
+[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2的三线实际AD经[[199tl-three-ad-reference-feasibility]]保留共同上态的严格正q条件解与取向域差别。原作者的probable spin、数值网格witness、δphase和完整允许域不能互换；同parent纯度/取向与联合误差仍是选根输入。

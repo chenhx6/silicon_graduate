@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-19T11:41:22.431097+08:00",
+  "identity": "D66-FIG2-THREE-AD-CONDITIONAL-FEASIBILITY-01",
+  "source": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+  "locator": "D66-D16-2",
+  "raw": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+  "raw_sha256": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614",
+  "source_current_sha256": "9595b1796798fe712976965f3aa0a1332c63236364a3a81f297c8e71f3b8d797",
+  "data_identity": "D66 original197Au(4He,2n)199Tl Fig2 AD; not newmeasurement",
+  "observations": {
+    "331": {
+      "a2": [
+        -0.58,
+        0.03
+      ],
+      "a4": [
+        -0.02,
+        0.03
+      ]
+    },
+    "370": {
+      "a2": [
+        -0.36,
+        0.02
+      ],
+      "a4": [
+        -0.03,
+        0.02
+      ]
+    },
+    "701": {
+      "a2": [
+        0.26,
+        0.04
+      ],
+      "a4": [
+        -0.03,
+        0.04
+      ]
+    }
+  },
+  "known_bottom_spin2": 9,
+  "top_and_middle_spin2_candidates": [
+    5,
+    7,
+    9,
+    11,
+    13
+  ],
+  "source_probable_pairs2": [
+    [
+      13,
+      11
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      9,
+      7
+    ]
+  ],
+  "unknown_author_AD_only_five_not_reconstructed": true,
+  "model": "point4piLegendre; diagonalP(m)=P(-m)nonnegative; sameqtopfor331/701; independenttotalqmidfor370; L1/L2adjacent realnativeamplitudes fordeltaJ0/1, pureL2fordeltaJ2; allsameparitynegative isoneADallowed realization",
+  "population_modes": [
+    "freepositiveq",
+    "extra_lowm_u2nonpositive"
+  ],
+  "error_domain": "separatequoted1sigmaA2/A4marginalbox,notjointCIorlikelihood",
+  "quadrature_nodes": 12,
+  "grid": {
+    "beta_step_deg": 5,
+    "beta_domain": "[-90,90) withduplicatepureupperexcluded",
+    "order": "increasingabsbeta, negativebeforepositive ties; pureL2forbiddenL1onlybeta-90",
+    "early_stop": "firststrictpositiveq witnesspermode/sequence; notprobabilityormapboundary"
+  },
+  "LP": {
+    "method": "highs",
+    "primal_tolerance": 1e-09,
+    "dual_tolerance": 1e-09,
+    "witness_tolerance": 1e-08,
+    "strict_pair_probability": 1e-07,
+    "objective": "maximizeuniformminimumqforgivenamplitudes; nogaussianfit"
+  },
+  "controls": [
+    "19spintrianglecombinations",
+    "allactivepureintegral1/cross0/rank6-8zero",
+    "EMdualADsame",
+    "sourcecentralA4signnecessarycertificatesfromsameparentproportionalrank4vectors,nonzeroexactmeansonly",
+    "do notusegrid0hitforexclusion",
+    "verifyallwitnessobs/normalization/nonnegativeq andoptionalmeancondition",
+    "source/oldhelpersunaltered",
+    "allprintederrorsremainfixed; noresponseorCovinvented"
+  ],
+  "fixed_helpers": {
+    "system/scripts/day16_co60_conditional_stokes.py": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
+    "system/scripts/day16_rh99_population_feasibility.py": "bf45dd6ea55402cbd51a493da7a2e8ac07c98db8c709c383ad2a1504b54a406a"
+  },
+  "no_new_experimental_delta_spin_parity_or_CI": true
+}

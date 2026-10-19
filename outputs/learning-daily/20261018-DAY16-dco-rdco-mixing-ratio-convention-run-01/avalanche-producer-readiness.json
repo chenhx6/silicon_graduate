@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-19T11:58:50.766622+08:00",
+  "identity": "AVALANCHE-1993-1996-READINESS-01",
+  "ref8": {
+    "title": "Monte Carlo analysis of (α,xnγ)-feeding intensities in Cd nuclei",
+    "authors": [
+      "P. Cejnar",
+      "J. Kern"
+    ],
+    "doi": "10.1016/0375-9474(93)90015-P",
+    "year": 1993,
+    "volume": 561,
+    "pages": "317–342",
+    "Crossref_and_OpenAlex_exact_verified": true,
+    "publisher_standard_response": "HTTP200 metadata1808bytes only; notbody",
+    "publisher_FULL_response": "HTTP401 AUTHENTICATION_ERROR InvalidAPIKey; no furtherauthattempt/credentialschange",
+    "publisher_PDF": "403 nonPDF",
+    "OpenAlex": "closed,onlyDOIlocation,noPDF/contentURLs"
+  },
+  "producer_routes": {
+    "authorinstitutionalhomepage": "HTTPS certificateverifyfailure;HTTPredirectsamefailure; no SSLbypass",
+    "GitHub_exact_Avalanche_Cejnar": "0 repositories",
+    "GitHub_Avalanche_nuclear": "1 unrelated neuronalproject,identityrejected,nocodeopened",
+    "Zenodo_exact_AND": "0records",
+    "firstZenodo_query": "broadunrelatedavalanchehits identityrejected, no downloads",
+    "local_filename_search": "only1996Cejnarbodyfound, noRef8/code bynames; notopaque/allpageexhaustiveness"
+  },
+  "missing": [
+    "AvalancheI/IIversionedproducerandlicense",
+    "discretelevelboundaries/leveldensity",
+    "particletransmissioncoefficients andgrids",
+    "gamma-strength inputs/weights",
+    "compoundspinentry andperlevelsidefeeding/totalpopulation",
+    "actualexperimentalAD/response/jointSigma"
+  ],
+  "scope": "boundedaccessfailure,noproofcodegloballyabsent; noAvalancheorCdexperimentalreplay claimed; no authorcontact,credentialorSSLconfigurationchange"
+}

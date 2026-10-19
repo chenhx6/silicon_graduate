@@ -66,6 +66,19 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### Checkpoint042：实际三线AD与同母态约束
+
+新[199Tl计算单](../../knowledge/research-notes/199tl-three-ad-reference-feasibility.md)使用D66-D16-2实际331/370/701 AD，331/701共享非负对称density，中态370不假定只受331 feeding。三个spin差≤2给19对，point/native模型与真实response/Cov/作者phase分层。
+
+[源box网格LP](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-threeAD-result.json)actual0、5845次LP找到freeq至少8对、额外u2≤0找到作者列的3个probable序列；只给存在witness，既不宣称完整8/3，也不声称复现作者AD-only5。所有q严格正不等于所有observable都在box内部，部分值落在边界；无新δ/Jπ/置信度。
+
+[post-grid独立rank4/误差证书](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-threeAD-certificate-result.json)actual0：三probable对的pureE2rank4系数比精确−8/3、−16/39、−8/7；中央两A4同负不闭合，但quoted-margin盒仍允许物理解。若条件性地将quoted误差作标准差，残差除最大PSDσ在2/3至3/4之间，不当实际z/联合CI；不从精确中央数失配排实验。全部11个witness从原核重构，observable差0、box残差≤1.6e−15，原输入不改。
+
+本批`supports/limits`同母态与取向前提的判别力，限制用网格计数或central失配作唯一赋值。继续保留actualresponse/feeding/Σ与producer缺口，正式16一次/partial17不变。
+
+
+原producer补查见[readiness](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/avalanche-producer-readiness.json)：C96 Ref8身份DOI10.1016/0375-9474(93)90015-P已核，body/code/input未得；API full401、publisher403、authorpage证书与限定repo/catalog0或无关结果均留档，不改凭据/SSL或声称代码全球不存在。YA67-4/7原p3/7定向复核后verifiedno-op；负U反例已属Day14旧知识，本日贡献是C96对照、全域条件证明及原Fig1新重放，不重复授分或算独立实验。
+
 ### Checkpoint041：完整未观测feeding与取向符号
 
 [新知识单](../../knowledge/research-notes/unobserved-feeding-alignment-sign.md)用本session重新完整读的D66三页/两图与C96十九页/Eq1–9/七图建立取向前提核验。D66-1/2及Gaussian偏差是预期/实测边界；新D66-D16-1/2精确保留Fig1范围、Fig2三线系数和作者19→5→3选择，不把它们移作Rh99数据。D66原1207下半其它文章已排除。旧source人审前缀/claims/字段保持，新追加均needs_review。
@@ -1007,7 +1020,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -1385,6 +1398,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2017-99rh-matched-reference-records.md",
           "locator": "N099-14"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
         }
       ]
     },
@@ -1776,7 +1793,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-distribution.md",
-      "summary": "从Purry原P2-only estimator和实际三极角导出omittedP4的投影/正weight界，保留原weights未知，不重造测量A4。",
+      "summary": "从Purry原P2-only estimator和实际三极角导出omittedP4的投影/正weight界，保留原weights未知，不重造测量A4。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
       "anchor": "原文a2拟合系数与完整A2不是同一个自动可移植对象",
       "sources": [
         {
@@ -1786,6 +1803,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
           "locator": "P97-10"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
         }
       ]
     },
@@ -2989,7 +3010,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -3111,6 +3132,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-14"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
         }
       ]
     },
@@ -5071,7 +5096,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -5277,6 +5302,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2017-99rh-matched-reference-records.md",
           "locator": "N099-14"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
         }
       ]
     },
@@ -6013,7 +6042,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/research-notes/unobserved-feeding-alignment-sign.md",
-      "summary": "完整CG/6j/Casimir二阶转移、八个全域保号证书、低spin/大j/方向门反例、C96原模型链及Gaussian多项式根；无新实验u2/δ。",
+      "summary": "完整CG/6j/Casimir二阶转移、八个全域保号证书、低spin/大j/方向门反例、C96原模型链及Gaussian多项式根；无新实验u2/δ。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 补Ref8producer/input限定缺口及YA67旧负U反例重叠，不重复计新发现。",
       "anchor": "完整未观测通道的精确矩转移",
       "sources": [
         {
@@ -6043,6 +6072,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
           "locator": "MA87-3"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
+        },
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-8"
+        },
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-9"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-7"
         }
       ]
     },
@@ -6067,7 +6112,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
-      "summary": "原Eq6 literal与signedU定义域、flow符号、Fig1两链/全根、Fig7多极小及低能网格边界分层；旧人审prefix保持。",
+      "summary": "原Eq6 literal与signedU定义域、flow符号、Fig1两链/全根、Fig7多极小及低能网格边界分层；旧人审prefix保持。 补Ref8producer/input限定缺口及YA67旧负U反例重叠，不重复计新发现。",
       "anchor": "2026-10-19 Codex续核：signed U、原Fig1与定义域",
       "sources": [
         {
@@ -6097,6 +6142,33 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
           "locator": "C96-D16-7"
+        },
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-8"
+        },
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-9"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
+      "summary": "19组合实际三线AD的正q存在、lowm域、精确rank4关系及未知Cov边界；有限网格不作完整排除。",
+      "anchor": "中央A4的必要关系不是带误差数据的排除",
+      "sources": [
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-3"
         }
       ]
     }
@@ -6380,3 +6452,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification035](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-035.json)实际report/card/唯一writeback65changed/65items，boundary/lint/diff均exit0，0errors188warnings（136citation-key/49raw槽/3reactionparser）；新两程序实际0、原D66/C96人审前缀与旧raw/PLAN/Bib/其它受保护前缀/hash保持。初research-note缺CompetingExplanations的lint1留档，补正确标题后fresh通过，未改物理结果。
 
 稳定指针main / `Audit DAY16 signed orientation transfer and source Gaussian limits`，actualhash/H3/push仅publication041/runreceipt。下一仍只当前alignment/reference/convention问题与恰好Day17无学分知识；原2026-10-19 15:00上海截止不改，formal16一次/partial17、next17-count16保持。科学pursuing/nativegoalblocked差异保留，不因一个模型或checkpoint饱和结束原学习窗口。
+
+
+### Checkpoint042实际验收与偏振输运续接
+
+[verification036](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-036.json)实际report/card/唯一writeback66changed/66items，boundary/lint/diff均exit0、0errors188warnings（136citation-key/49raw槽/3reactionparser）。新D66两脚本实际0，D66source合同hash与原raw/人审prefix、PLAN/Bib和其它helpers保护通过。原producer限定readiness及YA67重叠已canonical，不把旧负U算新独立证据。
+
+稳定指针main / `Test DAY16 shared-parent angular distributions against population assumptions`，actualhash/H3/push仅publication042/runreceipt。新[candidate046](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-046-day17-preview.json)选恰好Day17的GR97原7页输运/响应preview，原件前primed回忆已冻；当前只读前3页，不预报Table/appendix结论。formal16一次/partial17、next17count16与原15:00上海截止不改，科学pursuing/nativegoalblocked差异保持。

@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-19T11:48:54.558646+08:00",
+  "script_sha256": "2312f6eb4de4c53137cfd08037cdf9eb89f7cd2777adbca8f9666ad498dce8a7",
+  "contract_sha256": "21bfec1e4c9aadf45738b5e0bd54893b5d86801090eb79ed4f74688d86929c1b",
+  "base_and_grid_and_script_unchanged": true,
+  "exact_rank4_controls": [
+    {
+      "top_spin2": 13,
+      "middle_spin2": 11,
+      "exact_pureE2_rank4_ratio": "-8/3",
+      "kernel_ratio_residual": 7.549516567451064e-15,
+      "central_nonzero_A4_pair_sign_incompatible": true,
+      "source_marginal_boxes_still_include_A4331_A4701_zero": true
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 11,
+      "exact_pureE2_rank4_ratio": "-16/39",
+      "kernel_ratio_residual": 3.4139358007223564e-15,
+      "central_nonzero_A4_pair_sign_incompatible": true,
+      "source_marginal_boxes_still_include_A4331_A4701_zero": true
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 7,
+      "exact_pureE2_rank4_ratio": "-8/7",
+      "kernel_ratio_residual": 3.6637359812630166e-15,
+      "central_nonzero_A4_pair_sign_incompatible": true,
+      "source_marginal_boxes_still_include_A4331_A4701_zero": true
+    }
+  ],
+  "uncertainty_bound": {
+    "residual_definition": "r=A4331+k*A4701, k>=0 from negative rank4 ratio timesnonnegativephotonfractions",
+    "central_residual_abs": ".02+.03k",
+    "maximum_sigma_over_PSD_marginal_covariance": ".03+.04k",
+    "residual_over_sigma_max_expression": "(3*k/100 + 1/50)/(k/25 + 3/100)",
+    "derivative": "(4*k + 3)**(-2)",
+    "range_lower_inclusive": "2/3",
+    "range_upper_supremum": "3/4",
+    "not_actual_z_or_jointCI": true,
+    "no_covariance_independent_one_sigma_rejection_from_this_pair": true
+  },
+  "reconstructed_strict_witnesses": 11,
+  "max_observable_reconstruction_error": 0.0,
+  "max_marginal_box_residual": 1.5785983631388945e-15,
+  "scope": {
+    "no_claim_only_eight_or_only_three_solutions": true,
+    "no_gridzero_exclusion_or_source_five_count_reproduction": true,
+    "point_model_native_delta_not_new_experimental_spin_or_delta": true
+  }
+}

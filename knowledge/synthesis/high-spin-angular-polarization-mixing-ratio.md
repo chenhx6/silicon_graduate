@@ -126,3 +126,8 @@ P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若
 ### 取向输入的物理支持不能省略完整选择
 
 [[unobserved-feeding-alignment-sign]]串联[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-1/2与[[cejnar-1996-spin-deorientation-alpha-2n-gamma]] C96-D16-1–7：入口低m预期、signedtransfer/保号域、source两链近Gaussian与实际reference是不同证据层。高spin低L的全域条件证明不包含任意蒸发或方向门；C96原range/flow文句须带定义域，原Fig7也保留prior下多极小。此为新self-audit，不改旧人审或把Rh99 u2升为已测。
+
+
+### 实际三线AD中的条件存在与实验排除
+
+[[199tl-three-ad-reference-feasibility]]针对[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2保存freeq至少8个、额外lowm找到3个源probable序列的witness；不宣称完整8/3或复现原19→5。共同上态rank4负比例使精确中央数不闭合，但误差box仍有解；这把“prior/companion影响选择”的判断落在实际输入上，未新增核赋值。

@@ -617,6 +617,8 @@ updated: 2026-10-19
 
 ## Research Notes
 
+- [[199tl-three-ad-reference-feasibility]] - 三条实际AD的同母态正布居witness、取向前提和中央/误差域差别；非新Jπ/δ。
+
 - [[unobserved-feeding-alignment-sign]] - 完整CG/6j的rank2保号域、signedU反例、方向门及原C96模型链Gaussian边界。
 
 - [[rh99-1117-population-feasibility]] - 实际AD/P摘要的严格正布居witness、孤立根与convex证书；非实验δ/CI。

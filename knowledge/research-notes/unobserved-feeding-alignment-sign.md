@@ -167,3 +167,11 @@ P00实际入口/蒸发/γfeeding是否能在不强加Gaussian的情况下独立�
 | Date | event | previous state | new state | reason / triggering evidence | target or successor |
 | --- | --- | --- | --- | --- | --- |
 |2026-10-19 |created |none |provisional |实际source、精确CG/6j/多项式与反例，真实反应输入仍缺 |暂不晋升实验结论 |
+
+
+进一步的实际AD检查见[[199tl-three-ad-reference-feasibility]]：[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2数据在freeq与额外lowm条件下给不同存在witness；它没有恢复真实reactionprior，也不把源19→5→3化为本run的新完整允许数。
+
+
+## 原producer可用性与已知反例的重叠核验
+
+C96-D16-8的1993Ref8身份已核，但限定公开route只得metadata、未得原代码/反应输入，缺口不能用本run自有程序替代。C96-D16-9与[[yamazaki-1967-aligned-angular-coefficients]] YA67-4/7的定向原p3/7复核说明：negativeU例此前Day14已持久化；本session新增的是C96 literal/domain crosswalk、八类保号证明与原Fig1精确PM/Gaussian重放，不声称第一次发现负U，不重计旧脚本数或独立实验证据。YA67知识页核后无需改写。

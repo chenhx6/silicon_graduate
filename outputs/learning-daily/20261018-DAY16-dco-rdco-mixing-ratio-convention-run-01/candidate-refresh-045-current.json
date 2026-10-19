@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T11:54:39.498726+08:00",
+  "minutes_to_original_deadline": 185.3416879,
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "selected": "current C96 producer/input availability boundary",
+  "information_gain": "actualcode/particleinputs could replace conditionalforwardmodels; absence establishes scopedreadiness",
+  "max_routes": "Crossref/OpenAlex exactRef8, publicauthorarchive, exactpubliccodecatalog/reposearch; no unboundedpaperhunt",
+  "next_card_checked": 17,
+  "new_card_started": false,
+  "no_day18": true
+}

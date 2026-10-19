@@ -1146,16 +1146,42 @@
       "scientific_work_status": "pursuing",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 41,
+      "at": "2026-10-19T11:39:32.018800+08:00",
+      "branch": "main",
+      "subject": "Audit DAY16 signed orientation transfer and source Gaussian limits",
+      "commit": "2b51bc44daf1a3eb2d75a55288e6c12409e39298",
+      "origin_main": "2b51bc44daf1a3eb2d75a55288e6c12409e39298",
+      "status": "published",
+      "commands_actual_all_exit0": true,
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 904583b1        \nTo gitee.com:chx6/silicon_graduate.git\n   9154b06..2b51bc4  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "native_goal_status_observed": "blocked",
+      "scientific_work_status": "pursuing",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "checkpoint041-signed-transfer-and-source-model-replay",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-035.json",
-  "knowledge_writeback_items": 65,
-  "last_learning_summary": "Exact signedorientation transfer domain and failures; originalD66/C96 reread and sourceFig1Gaussian/Sturm replay; no experimental preparation claim",
-  "knowledge_changed_pages": 65,
+  "last_checkpoint": "checkpoint042-actual-threeAD-and-producer-boundary",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-036.json",
+  "knowledge_writeback_items": 66,
+  "last_learning_summary": "D66 sharedparent positiveq/lowm witnesses and rank4 uncertainty boundary; C96producer readiness/YA67overlap; GR97preview begun",
+  "knowledge_changed_pages": 66,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "after publication041 refresh actualdata/producer pool for current alignmentreferenceissue",
+  "current_research_route": "GR97uncreditedDay17preview; actual7page mainline inprogress",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -1193,7 +1219,7 @@
     "push_outcome": "pushed"
   },
   "post_commit_reconciliation": {
-    "publication": 40,
+    "publication": 41,
     "manifest_matches_actual_commit": true,
     "HEAD_origin_main_equal": true,
     "knowledge_diff_exit": 0,
@@ -1265,7 +1291,7 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-19T11:35:52.329962+08:00",
+    "now_local": "2026-10-19T12:06:06.550464+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
     "decision": "continue-current-or-Day17-uncredited-preview",
     "formal_credit_unchanged": true
@@ -1281,12 +1307,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 40,
-    "at": "2026-10-19T11:09:24.121395+08:00",
+    "publication_index": 41,
+    "at": "2026-10-19T11:39:32.018800+08:00",
     "branch": "main",
-    "subject": "Trace DAY16 Rh99 same-parent references and purity conditions",
-    "commit": "9154b06073cc671c08043a8d63d72330a59986e9",
-    "origin_main": "9154b06073cc671c08043a8d63d72330a59986e9",
+    "subject": "Audit DAY16 signed orientation transfer and source Gaussian limits",
+    "commit": "2b51bc44daf1a3eb2d75a55288e6c12409e39298",
+    "origin_main": "2b51bc44daf1a3eb2d75a55288e6c12409e39298",
     "status": "published",
     "commands_actual_all_exit0": true,
     "push_observation": {
@@ -1298,7 +1324,7 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 61497ca0        \nTo gitee.com:chx6/silicon_graduate.git\n   cec1caf..9154b06  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 904583b1        \nTo gitee.com:chx6/silicon_graduate.git\n   9154b06..2b51bc4  HEAD -> main\n"
     },
     "manifest_matches_actual_commit": true,
     "native_goal_status_observed": "blocked",
