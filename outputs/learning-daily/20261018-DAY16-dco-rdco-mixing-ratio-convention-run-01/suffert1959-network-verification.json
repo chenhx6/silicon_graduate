@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-19T08:33:31.187172+08:00",
+  "requests": [
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works?query.bibliographic=Polarization%20measurements%20of%20proton%20capture%20gamma%20rays%20Suffert%201959&rows=2",
+      "error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works?query.bibliographic=Polarization%20measurements%20of%20proton%20capture%20gamma%20rays%20Suffert%201959&rows=2 (Caused by NameResolutionError(\"HTTPSConnection(host='api.crossref.org', port=443): Failed to resolve 'api.crossref.org' ([Errno -5] No address associated with hostname)\"))"
+    },
+    {
+      "name": "publisher",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031891459969770",
+      "status": 403,
+      "bytes": 832804,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.sciencedirect.com/science/article/pii/S0031891459969770"
+    }
+  ],
+  "source_body_evidence": "actual local original with hash; publisher access status not substituted for body",
+  "mcp_crossref_verified": {
+    "DOI": "10.1016/s0031-8914(59)96977-0",
+    "title": "Polarization measurements of proton capture gamma rays",
+    "authors": [
+      "M. Suffert",
+      "P. M. Endt",
+      "A. M. Hoogenboom"
+    ],
+    "journal": "Physica",
+    "volume": "25",
+    "pages": "659-670",
+    "year": 1959,
+    "note": "MCP Crossref actual response after direct API DNS failure; not source body replacement"
+  }
+}

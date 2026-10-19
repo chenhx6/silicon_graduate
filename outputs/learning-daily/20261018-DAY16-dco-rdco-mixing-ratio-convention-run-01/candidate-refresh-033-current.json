@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-19T08:32:26.677510+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 387.5553748333333,
+  "completed": [
+    16
+  ],
+  "partial": [
+    17
+  ],
+  "next_card_inspected": 17,
+  "day18_not_researched": true,
+  "pool": [
+    {
+      "route": "B15 literal sign upstream Suffert1959",
+      "status": "select continuation problem",
+      "gain": "B15 explicitly cites Eq2 P convention; inspect original P/R/analyzer sign and actual calibration transition before deciding whether angle rephasing explains literal mismatch",
+      "entry": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+      "independence": "historical proton-capture experiment; not independent B15 Pd/Cs replication"
+    },
+    {
+      "route": "B15 actual GOSIA/Pd ME/Cs events producer covariance",
+      "status": "missing actual inputs; no invented refit"
+    },
+    {
+      "route": "Alikhani2012/Collins2019/Jones1990 primary fulltext",
+      "status": "terminal bounded access failures; unchanged routes not retried"
+    },
+    {
+      "route": "T21/Go/M22 ordering domains and normalization",
+      "status": "current original/calculations saturated; do not make duplicate toy"
+    }
+  ],
+  "novelty_slot": "no new overlapping experiment selected in this batch",
+  "selection_scope": "current convention issue, within Day17 uncredited preview only",
+  "decision": "continue source-defined sign chain while substantive window remains"
+}

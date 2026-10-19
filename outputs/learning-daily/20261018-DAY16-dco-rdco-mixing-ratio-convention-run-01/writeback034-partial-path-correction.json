@@ -1,0 +1,9 @@
+{
+  "initial_exit": 1,
+  "reason": "Guessed methods path for existing mixing-ratio observable; real canonical path found by rg --files knowledge",
+  "canonical": "knowledge/observables/multipole-mixing-ratio.md",
+  "already_written_four_pages_preserved": true,
+  "resumed_unexecuted_tail_only": true,
+  "scientific_inputs_changed": false,
+  "first_tail_resumption_shell_syntax_error_before_any_write": true
+}

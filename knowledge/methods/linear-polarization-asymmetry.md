@@ -187,3 +187,8 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 ### AGATA源文的literal符号边界
 
 [[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-7/8的同zero计数式给As_end=−a2/a0，而源文表按As_fit=+a2/a0；同时对As/P反号不改A=As/P，不能只改一端。electricaxis/beamplane/scatteringplane的π/2桥应明写；pureprobe与AppendixB几何不闭合并未证明actualproducer用了这些字面式，原data/table保持。未知代码/ME/Cov下不据P号重分核跃迁。
+
+
+### 1959 normal轴与现代plane轴的明确桥
+
+[[suffert-1959-proton-capture-polarization]] SEH59-4/5：其P_SU按electricnormal减electricplane定义。若以同一beam–γ plane定义P_plane，则P_SU=−P_plane；同计数分布1+pP_SUcos2χ=1−pP_planecos2χ。原Fig3交叉比为Nscatter,plane/Nscatter,normal，须按此角色翻译R。它补上[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-16的上游坐标桥，未认证真实producer或消除所有literal差异。

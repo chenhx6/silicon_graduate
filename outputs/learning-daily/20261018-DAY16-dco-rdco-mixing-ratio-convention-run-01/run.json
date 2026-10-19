@@ -938,16 +938,42 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 33,
+      "at": "2026-10-19T08:33:09.380198+08:00",
+      "branch": "main",
+      "subject": "Audit DAY16 AGATA reference weights and literal convention boundaries",
+      "commit": "e3397a143c4a4c9683619a36a31cd91c7854b39f",
+      "origin_main": "e3397a143c4a4c9683619a36a31cd91c7854b39f",
+      "status": "published",
+      "commands_actual_all_exit0": true,
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 7a4c7480        \nTo gitee.com:chx6/silicon_graduate.git\n   2d9b630..e3397a1  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "native_goal_status_observed": "blocked",
+      "scientific_work_status": "pursuing",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "checkpoint033-B15-verified",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-027.json",
-  "knowledge_writeback_items": 50,
-  "last_learning_summary": "B15 original full mainline, printed tables, literal conventions and nonclosures recorded; 0 errors/182 warnings; native goal blocked metadata reconciled; science pursuing",
-  "knowledge_changed_pages": 50,
+  "last_checkpoint": "checkpoint034-SU59-verified",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-028.json",
+  "knowledge_writeback_items": 51,
+  "last_learning_summary": "SU59 original normal-axis and count-role bridge; actual alternative AD retains double candidates; eight printed rows and shared eccentricity component; required0/182warnings",
+  "knowledge_changed_pages": 51,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "checkpoint033 publication then rebuild current convention/response candidate pool",
+  "current_research_route": "checkpoint034 publication then original BR1953/Sharp phase definitions if accessible",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -1073,21 +1099,14 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 32,
-    "at": "2026-10-19T07:49:36.130524+08:00",
+    "publication_index": 33,
+    "at": "2026-10-19T08:33:09.380198+08:00",
     "branch": "main",
-    "subject": "Trace DAY16 template regions null controls and event ordering domains",
-    "commit": "2d9b630dfd5278baf623c583105222c664a16787",
-    "origin_main": "2d9b630dfd5278baf623c583105222c664a16787",
+    "subject": "Audit DAY16 AGATA reference weights and literal convention boundaries",
+    "commit": "e3397a143c4a4c9683619a36a31cd91c7854b39f",
+    "origin_main": "e3397a143c4a4c9683619a36a31cd91c7854b39f",
     "status": "published",
-    "required_exit_codes": {
-      "fresh_fetch": 0,
-      "ancestry": 0,
-      "dry_run_HEAD_main": 0,
-      "push_HEAD_main": 0,
-      "post_commit_eol": 0,
-      "cached_check": 0
-    },
+    "commands_actual_all_exit0": true,
     "push_observation": {
       "cmd": [
         "git",
@@ -1097,9 +1116,11 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag d842dcad        \nTo gitee.com:chx6/silicon_graduate.git\n   aa7cfdb..2d9b630  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 7a4c7480        \nTo gitee.com:chx6/silicon_graduate.git\n   2d9b630..e3397a1  HEAD -> main\n"
     },
-    "goal_status": "active",
+    "manifest_matches_actual_commit": true,
+    "native_goal_status_observed": "blocked",
+    "scientific_work_status": "pursuing",
     "research_deadline": "2026-10-19T15:00:00+08:00",
     "credit_retained_once": "formal16/next17/count16,partial17"
   },

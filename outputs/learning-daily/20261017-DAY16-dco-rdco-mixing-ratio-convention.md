@@ -163,6 +163,15 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint034：原作者保留的双解与上游坐标桥
+
+重新完整读[Suffert1959](../../knowledge/sources/suffert-1959-proton-capture-polarization.md)12页Sections1–5/refs、Eqs1–9、Figs1–4/TableI；原PDFhash未变，SEH59-4–12为本session新原读与[实际复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/suffert1959-convention-audit-result.json)，不是Day15旧预习兑换。normal轴P_SU与B15文字plane轴P相差π/2/反号，同计数kernel保持不变；B15-16明确这一桥而不认证actualproducer。
+
+原Fig3的B1/A1及位置交换给R=Nscatter,plane/Nscatter,normal；固定效率/曝光可约去，效率漂移、background/eccentricity不能自动消失。八行roundedR/p重算P最大差.01560，原最终θ修正未逐行给出，不报exactclosure；两null权重R=1.029978(.013134)相容reported1.030(.013)，共同Re分量仅条件传播、不重复加入quotedσ。
+
+本日所需真正companion反证来自同一25Al2.69MeV线：TableI用一套AD预测x=.35/11与P=.01/.39，实测P=.11(.14)；原p669另一AD给x=.72/2.3、P0/.19，作者明确后者不能裁决。固定point预测/σobs的likelihood比5.73与.865仅条件诊断，非新δ或排除概率；不同AD不合并为四根，历史x的KS/RB相位桥仍缺。正式16一次、partial17保持。
+
+
 ### Checkpoint033：AGATA CE/Cs原校准与literal边界
 
 新增[Bizzeti2015 source](../../knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md) B15-1–15，publisher实际11页/hash/identity核后全文Sec1–7/AppendicesA–D、10图5表视觉读。104Pd555.8/108Pd433.9配Cs661.6，P为GOSIA计算、As为CE/Cs调制，averageP/centerP与F分母均分开；不从前候选Alikhani摘要补原formula。
@@ -454,6 +463,8 @@ Canonical [25Na ledger](../../knowledge/research-notes/gretina-25na1041-polariza
 
 ## Counter-evidence and missing companion observables
 
+原1959作者在p669直接限制其摘要：若采用Varma–Jack AD，25Al2.69MeV的两个候选均与同一P观测相容（SEH59-10）。这不是新的null实验或B15复测。原rawcounter/各背景修正、逐行θ接受与ADproducer/Σ未得；四计数比的效率取消也不认证跨位置响应稳定。
+
 Co60当前finiteMC的source开关通过不解决Q：507/549detectorpairs相对10bin仍宽误差。R21/LaBr gate与本rawGRETINA双门不同；backprefix实际对照也未映射原实验producer。Weisshaar2017 body各合法入口的具体失败/credentials_missing已记录，不询问/改密钥，也不从元数据补科学缺口。
 
 R21-8/12–17的独立反证/边界：极小单晶quoted stat interval明确不反映真实层精度；I/II reuse同flood数据，改变fit范围不新增实验。能谱photopeak与门控continuum的companion不能代偏振harmonic/Q；1173target/1332gate也不能当L25反向角色的同reference。原raw计数、backfractionproducer/联合Cov及χ²grid未得，保留readiness，不补写新的实验CI。
@@ -511,6 +522,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+本批canonical为[SU59 source](../../knowledge/sources/suffert-1959-proton-capture-polarization.md)“1959 原件复核：normal 轴与 plane 轴不是同一个 P”，保存SEH59-4–12、八行原表重算和保留多解；B15-16与Compton/asymmetry/mixing方法页保存实际坐标桥和companion适用边界。
 
 本批新[B15 source](../../knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md)“先核同一角度零点和参考权重，再比较分析能力”保存B15-1–15；Compton/modulation/asymmetry/T21保存anglezero、参考权重/分母、finitegeometry与unknownCov使用合同。报告/输出不作唯一知识副本。
 
@@ -825,7 +838,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -919,6 +932,38 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
           "locator": "B15-1"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-4"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-5"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-6"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-7"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-8"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-9"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-12"
         }
       ]
     },
@@ -1359,7 +1404,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1769,12 +1814,44 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
           "locator": "B15-15"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-4"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-5"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-6"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-7"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-8"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-9"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -1880,6 +1957,38 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
           "locator": "B15-15"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-4"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-5"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-6"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-7"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-8"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-9"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-12"
         }
       ]
     },
@@ -2043,7 +2152,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -2113,6 +2222,38 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
           "locator": "N223-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-4"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-5"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-6"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-7"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-8"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-9"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-12"
         }
       ]
     },
@@ -3824,7 +3965,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
-      "summary": "新publisher11页/10图5表及AppendicesA-D原读，CE/Cs与GOSIA/calibration/response分层，literal轴符号/几何/单位、有限退化、原表重放/108σ非闭合与F分母；保留初失败/原数据/producer缺口。",
+      "summary": "新publisher11页/10图5表及AppendicesA-D原读，CE/Cs与GOSIA/calibration/response分层，literal轴符号/几何/单位、有限退化、原表重放/108σ非闭合与F分母；保留初失败/原数据/producer缺口。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
       "anchor": "先核同一角度零点和参考权重，再比较分析能力",
       "sources": [
         {
@@ -3886,6 +4027,85 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
           "locator": "B15-15"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-4"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-5"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-6"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-7"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-8"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-9"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-12"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-16"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+      "summary": "原件完整重读，新增SEH59-4–12：normal轴与B15文字plane轴桥、四计数角色/效率取消与失败、八行表值/共同eccentricity控制、25Al2.69MeV在另一AD输入下保留双解；不冒称新δ或producer认证。",
+      "anchor": "1959 原件复核：normal 轴与 plane 轴不是同一个 P",
+      "sources": [
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-4"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-5"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-6"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-7"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-8"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-9"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-11"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-12"
         }
       ]
     }
@@ -4113,3 +4333,10 @@ Collins2019 NPL/8371明确“Full text not available from this repository”，p
 B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P和derivedA分层。保留同φ下Eq9/10符号、pure/axis条件probe、AppendixB sine、Fig5单位与108Pd独立加权σ .03096/原报.034、Table5 average .100712/.102的非闭合；未认证actualproducer或重拟实验。Alikhani2012停在合法全文readiness边界，不以摘要补公式。
 
 发布稳定指针main / `Audit DAY16 AGATA reference weights and literal convention boundaries`，actualhash/H3/push仅publication033/runreceipt。原2026-10-19 15:00上海研究截止不改，formal16一次、partial17、next17/count16；继续当前convention/response与恰好Day17知识preview，不开18。原goal目标仍适用；本次get_goal实际返回blocked，接口无active/resume状态写法，故[如实对账](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-status-reconciliation-033.json)，科学工作继续pursuing，不伪称原生active、不重建goal。
+
+
+### Checkpoint034实际验收与持续窗口
+
+[verification-reopened-028](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-028.json)实际通过report/card/唯一writeback（51changed/51items），boundary/lint/diff各exit0；lint0errors182warnings（133key46raw槽3parser）。SU59旧正文除updated保留、原PDF/contract/scriptresult与旧humanprefix/PLAN/Bibguards通过。没有新实验δ、原actualproducer或完整Cov认证。
+
+发布稳定指针main / `Trace DAY16 polarization axes and unresolved companion branches`，actualhash/H3/push仅publication034/runreceipt。原15:00上海截止尚约6h，研究pursuing；nativegoalblocked状态差异继续如实记录，formal16一次/partial17/next17-count16不改。下一只围绕上游phase定义与当前companion问题，不开18。

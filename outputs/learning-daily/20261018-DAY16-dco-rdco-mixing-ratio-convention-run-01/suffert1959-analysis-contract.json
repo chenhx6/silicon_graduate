@@ -1,0 +1,134 @@
+{
+  "at": "2026-10-19T08:34:59.832266+08:00",
+  "session": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "source_path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+  "raw_sha256": "ea2742bd196d30497fc919839fb249dfd7e50a88411411831d981604b2016669",
+  "reading": "post original full-mainline; not blind or independently preregistered",
+  "rows": [
+    {
+      "run": 1,
+      "E_MeV": 2.69,
+      "R_corrected": 1.045,
+      "dR": 0.06,
+      "p": 0.209,
+      "P_reported": 0.11,
+      "dP_reported": 0.14
+    },
+    {
+      "run": 2,
+      "E_MeV": 2.24,
+      "R_corrected": 1.4,
+      "dR": 0.12,
+      "p": 0.239,
+      "P_reported": 0.71,
+      "dP_reported": 0.17
+    },
+    {
+      "run": 3,
+      "E_MeV": 2.63,
+      "R_corrected": 0.774,
+      "dR": 0.046,
+      "p": 0.215,
+      "P_reported": -0.6,
+      "dP_reported": 0.14
+    },
+    {
+      "run": 4,
+      "E_MeV": 8.04,
+      "R_corrected": 0.94,
+      "dR": 0.028,
+      "p": 0.082,
+      "P_reported": -0.38,
+      "dP_reported": 0.18
+    },
+    {
+      "run": 5,
+      "E_MeV": 2.85,
+      "R_corrected": 1.24,
+      "dR": 0.11,
+      "p": 0.198,
+      "P_reported": 0.55,
+      "dP_reported": 0.22
+    },
+    {
+      "run": 6,
+      "E_MeV": 2.86,
+      "R_corrected": 1.46,
+      "dR": 0.15,
+      "p": 0.198,
+      "P_reported": 0.96,
+      "dP_reported": 0.25
+    },
+    {
+      "run": 7,
+      "E_MeV": 2.05,
+      "R_corrected": 0.74,
+      "dR": 0.1,
+      "p": 0.252,
+      "P_reported": -0.59,
+      "dP_reported": 0.26
+    },
+    {
+      "run": 8,
+      "E_MeV": 0.81,
+      "R_corrected": 0.96,
+      "dR": 0.1,
+      "p": 0.5,
+      "P_reported": -0.04,
+      "dP_reported": 0.1
+    }
+  ],
+  "null_control_R": [
+    {
+      "value": 1.032,
+      "sigma": 0.023,
+      "energy_MeV": 2.37
+    },
+    {
+      "value": 1.029,
+      "sigma": 0.016,
+      "energy_MeV": 7.89
+    }
+  ],
+  "reported_eccentricity_R": 1.03,
+  "reported_eccentricity_sigma": 0.013,
+  "row1_original_AD_candidates": [
+    {
+      "x": 0.35,
+      "dx": 0.1,
+      "P": 0.01,
+      "dP": 0.02
+    },
+    {
+      "x": 11,
+      "dx": 6,
+      "P": 0.39,
+      "dP": 0.05
+    }
+  ],
+  "row1_alternative_AD_candidates": [
+    {
+      "x": 0.72,
+      "P": 0.0
+    },
+    {
+      "x": 2.3,
+      "P": 0.19
+    }
+  ],
+  "comparisons": "Each AD dataset is a separate conditional problem; no simultaneous pooled candidates or sign x translation without reduced-ME phase bridge",
+  "exercises": [
+    "exact four-count ratio cancellation under fixed efficiencies/exposures and position exchange; failure if efficiencies drift between positions",
+    "P and dP/dR replay from TableI rounded R,p before unavailable final theta correction; report residuals no fabricated exact closure",
+    "two quoted unpolarized-control weighted R_e mean/sigma",
+    "shared eccentricity covariance component conditional on same R_net/Re and fixed p; may already be included in quoted errors, no double-count sum",
+    "Gaussian pointlikelihood conditional diagnostic for row1 branch discrimination in each alternative AD set, no exclusion/posterior claim",
+    "symbolic plane-normal/electric-axis rephasing P_S=-P_B, matched Compton observable invariant"
+  ],
+  "failure_controls": [
+    "R>0,p>0; retain physical P boundary and no clipping",
+    "normal versus meridional 90-degree axes must flip harmonic and Stokes together",
+    "changing x sign or reciprocal not licensed without multipole/operator phase source",
+    "source TableI printed P unrounded inputs/final theta correction and full Sigma unavailable"
+  ]
+}

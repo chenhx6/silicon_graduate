@@ -338,3 +338,8 @@ Day16已读arXiv2105.14236v1完整11页/15图，T21-1–13保存16xy空间ν、�
 ### Bizzeti2015 CE/Cs校准priming
 
 Day16已原读publisher11页/10图5表，B15-1–15保存modelP/eventweights、Cs跨能量response/残差、finitegeometry排序退化、literalendpoint/fit符号及axis/单位/公式边界、108平均误差非闭合与F分母。原data未修，程序初failure保留，所有新claims needs_review；不把同MC/500积分grid计独立实验。正式17声明priming，preview不授信用。
+
+
+### DAY16 checkpoint034额外priming
+
+Suffert1959完整原读已暴露normal轴P_SU与plane轴反号、Fig3交叉比角色/固定效率取消条件、两null共同eccentricity和25Al2.69MeV的AD版本反证。正式Day17主动回忆须注明这些priming；原p669在替代AD下保留x=.72/2.3两解，不自动换成现代δ、不声称偏振保证唯一选择。入口knowledge/sources/suffert-1959-proton-capture-polarization.md SEH59-4–12及B15-16。

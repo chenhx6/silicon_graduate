@@ -397,3 +397,8 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 ### Unsigned MR的具体reference反例
 
 [[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-2/3：342.654(9/2)+的62.45 MR token为`0.29`，不能由正float推成已知+δ。按TU01保留unsigned/signunknown，conditionalδRB±.29各有不同W/P；每个候选的phase/算符同步转换仍不改observable。数据库同源转录既非原δ号修复，也非新的独立选根。J98原表不闭合、附条件spin与actualproducer缺口保持。
+
+
+### 偏振伴随观测仍可能保留两个mixing候选
+
+[[suffert-1959-proton-capture-polarization]] SEH59-9/10的25Al2.69MeV案例：原表AD选项x=.35/11配P=.01/.39，但另一外部AD给x=.72/2.3配P=0/.19；同一实测P=.11(.14)对后一对不能裁决，作者在p669明确承认。两套AD是替代输入对象，不合并成一次四根拟合；未核上游reduced-ME/phase前，也不将该历史x直接改名KS/RB δ。

@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[suffert-1959-proton-capture-polarization]] - 原件normal轴/位置交换计数桥、25Al同跃迁companion仍留多解及共同eccentricity Cov。
+
 - [[bizzeti-2015-agata-triple-cluster-polarimetry]] - Pd/Cs真实校准、modelP/eventweights、有限geometry退化与literal符号/单位/平均误差边界。
 
 - [[tsuzuki-2021-sicdte-template-polarimetry]] - 已读arXiv11页/15图：16空间区归一、Ba null、共享Kr误差与低能排序的847迁移界限。

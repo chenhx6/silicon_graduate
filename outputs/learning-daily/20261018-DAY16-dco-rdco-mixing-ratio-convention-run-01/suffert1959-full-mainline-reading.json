@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T08:36:41.278105+08:00",
+  "scope": "12-page mainline Sections1-5/refs, Eqs1-9, Figs1-4/TableI read; original visual pages3-9 and rotated TableI inspected",
+  "source_sha256": "ea2742bd196d30497fc919839fb249dfd7e50a88411411831d981604b2016669",
+  "key_findings": [
+    "SU electric angle relative to normal vs B15 plane (90deg); different P signs for same radiation",
+    "Fig3 B1/A1 and detector-position exchange implement Nplane/Nnormal ratio",
+    "TableI row1 resolves only given chosen AD data; alternative VarmaJack explicitly leaves no decision in author discussion",
+    "repeated unpolarized nulls only eccentricity calibration, not full Q or independent Pd replication",
+    "printed correctedR,p/tableP before unknown final theta correction only approximate arithmetic closure"
+  ],
+  "producer_or_raw_counts_recovered": false,
+  "new_experimental_delta_claim": false
+}

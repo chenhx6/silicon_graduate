@@ -388,3 +388,10 @@ T21reported.962±.008stat±.015sys合成.023保留；不擅用独立quadrature .
 source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号，pureE2/axis及AppendixB sine公式亦有已隔离边界；不按P/As符号直接判EM或修改原table。pairedsign/axis转换须一起做，A=As/P可在成对变换下不变。本文F的ε按impingingγ而非emitted4πγ，不能裸比Go绝对ε或其它F。
 
 完整geometry退化还需sinθcr=m/E−sin(α/2)，不同于只检查两energyorders的physicalcos；source555.8/α3.4°cosback−.48268支持其角cut考虑。source实验均值/χ²可重放，108平均误差独立权重仅.03096 vs报.034未闭合；保留未知weight/Cov，不用更多toy重构原误差或把成功数当新实验信用。
+
+
+### 位置交换与真正的多解反证
+
+[[suffert-1959-proton-capture-polarization]] SEH59-4–12原件使用normal轴P，Fig3四计数比为scatterplane/normal，不与现代plane轴同号。位置交换能约去固定detector效率/曝光，跨位置相对效率漂移与eccentricity/background仍须控制。两条unpolarized线只校eccentricity，不提供所有能量的p。共同校准Cov不能重复计入quotederrors。
+
+同原件25Al2.69MeV实测P=.11(.14)对TableI一套AD候选有判别力，但作者用另一套已报AD得x=.72/2.3、P0/.19，明确保留两解。偏振companion必须绑定同一跃迁和所采用的AD数据/phase/response，不能将“增加偏振”当作唯一赋值的保证。

@@ -62,6 +62,7 @@ P.G. Bizzeti等，*European Physical Journal A* **51**,49(2015)，DOI[10.1140/ep
 | B15-13 | .013为作者由四个δcos子区spread后验估计、称fixedstatisticalcomponent并与Poisson项quadrature合成；相同数值不自动给跨counter Cov。不能以mean/χ²重现证明全误差预算重放。 | reported-error-procedure-boundary | direct | Sec5Tables3–4前后 | true |
 | B15-14 | Table5是同MC的segmentcenter/no-tracking处理，6行3decimalbins的unweightedcos2fit重放相应A≈.09–.125；averagebins得.100712而表报.102，原fitweights/Cov未给。36°grouping sinc=.935489已在作者定义中计入，不作无说明的二次修正。 | same-model-processing-and-binning | source-and-conditional-bin-replay | Sec6/Table5；本页sinc公式 | true |
 | B15-15 | 本文F=A²ε中的ε为accepted/impinginggamma，脚注明确常见定义另乘ω=Ω/4π；与Go绝对ε/F不能裸比。Table5与tracking的A比.102/.484≈.211只对这些处理对象成立，不是独立实验或等efficiency的信息比。 | FOM-denominator-and-independence | direct-and-central-arithmetic | PDF8Sec5footnote3；Sec6/Table5 | true |
+| B15-16 | 追加核Ref16的Suffert原件：其electric angle从beam–γ plane normal量起，而本文Sec3文字从plane量起；同物理辐射P_SU=−P_plane。该原件桥可解释literalEq1/2与normal轴相容，不能认证本文actualproducer或将operational表符号静默改成另一合同。 | upstream-axis-crosswalk | two-original-sources-and-algebra | B15Sec3Eq1–2；SEH59-4/5 | true |
 
 ## Reference与response分层
 
@@ -137,3 +138,8 @@ Fig5标r12单位µm，同正文15mm cut/2mm voxel不同；不要从图轴刻度�
 ## Reproducibility
 
 [source原表/符号/有限几何脚本](../../system/scripts/day16_bizzeti2015_reference_audit.py)最终实际exit0；[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bizzeti2015-reference-audit-result.json)、初exit1源码/失败与冻结contract均保留。只使用实际printedinputs及明确pure/axis probes，无fakeeventhist、未重跑实际GOSIA/实验拟合。PDF/原render与第三方软件只tmp不stage。
+
+
+### 上游原件补核：Suffert的normal轴
+
+[[suffert-1959-proton-capture-polarization]] SEH59-4–12重新原读，明确其Eq2的electric-anglezero在beam–γ plane的normal，Eq3的P为normal减plane；这与本source文字Stokesaxis相差π/2。同一scatter-plane零点，SU59给N∝1+pP_SUcos2χ，plane-axis则N∝1−pP_planecos2χ，P_SU=−P_plane使observable一致。B15Eq1的pureprobe可与normal-axis合同相容；本追加缩小符号歧义，仍未找到actualproducer或解释所有literal差异，原表/As/P不改。
