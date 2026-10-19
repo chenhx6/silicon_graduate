@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-19T22:57:52.938290+00:00",
+  "script_sha256": "2e1ed42caa564a794a6c7513fb3ea348b3ac7421091c47d4ad445ee49a8864b3",
+  "contract_sha256": "6310f188a9c9131346fa89dabfe69936858a846cdd2141b87552cecb8b1da59b",
+  "base_events": 363176,
+  "convention_comparisons": {
+    "Eq3p5_out_of_horizontal_plane": {
+      "mean_signed_degrees": 2.0446766226182813e-10,
+      "rms_degrees": 1.5192067999463646e-07,
+      "absolute_quantiles_degrees": {
+        "0": 1.1386447340555605e-12,
+        "50": 8.237436732727588e-08,
+        "90": 2.343744260890901e-07,
+        "99": 4.514144422707034e-07,
+        "100": 4.768334829208243e-07
+      },
+      "fraction_within_predeclared_tolerance": 1.0
+    },
+    "two_projected_slopes": {
+      "mean_signed_degrees": 0.004230350354970544,
+      "rms_degrees": 0.008721233499100842,
+      "absolute_quantiles_degrees": {
+        "0": 3.972986436368009e-12,
+        "50": 0.0005520603609934227,
+        "90": 0.013953579182688358,
+        "99": 0.03571873964511241,
+        "100": 0.05897798815052013
+      },
+      "fraction_within_predeclared_tolerance": 0.3401160869660991
+    }
+  },
+  "source_two_theta_conventions_difference": {
+    "mean_signed_degrees": 0.004230350150502883,
+    "rms_degrees": 0.008721233274352255,
+    "absolute_quantiles_degrees": {
+      "0": 0.0,
+      "50": 0.0005521174707086018,
+      "90": 0.013953543052743989,
+      "99": 0.035718773982929886,
+      "100": 0.058978008485192746
+    }
+  },
+  "two_x_reflected_direction_controls": {
+    "max_unit_norm_residual": 4.440892098500626e-16,
+    "theta_is_exactly_unchanged_by_reflection": true,
+    "azimuth_wrapped_difference": {
+      "mean_signed_degrees": -13.48777221684616,
+      "rms_degrees": 124.08585631997727,
+      "absolute_quantiles_degrees": {
+        "0": 0.002265511992957057,
+        "50": 104.19783833215584,
+        "90": 180.0,
+        "99": 180.0,
+        "100": 180.0
+      }
+    },
+    "boundary": "mathematical candidate frames on actual fields; theta cannot choose correct relative handedness"
+  },
+  "no_angle_scale_offset_fit_or_extra_formula_search": true,
+  "not_original_phi_or_recoil_response_certification": true,
+  "source34_and_data_hashes_preserved": true,
+  "no_new_experimental_tau_branch_or_CI": true,
+  "ok": true
+}

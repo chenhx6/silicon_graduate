@@ -2210,3 +2210,7 @@ F22-75–86/B完整原读、canonical7线/64cal字面值与条件Cov/时间角�
 ### Day17 checkpoint042：actual生成recipe指纹
 
 EV23-24–28/F22-87与ledger保16角/occupancy、recipe与independentgeometry分层；旧sourcepriming/初JIT失败留档，不新实验τCI。verification056/manifest042/commitguard/H3后发布，main / `Match public silicon angle data to its archived generation recipe`；原windowactive/17once/partial18/no19。
+
+### Day17 checkpoint043：actual极角合同与方位边界
+
+EV23-29–33/F22-88+ledger实际mrad角约定与θ不定φ反射，原τ/geometrytruth不新裁。verification057/manifest043/commitguard/H3后发布，main / `Verify stored polar-angle convention while retaining azimuth frame limits`；原windowactive/17once/partial18/no19。

@@ -1,0 +1,11 @@
+{
+  "identity": "EV23-ACTUAL-OPTICAL-ANGLE-CONTRACT-01",
+  "data": "tmp/day17-fougeres2023/producer-source/data/data.root",
+  "data_sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+  "source_manifest": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-producer-source-manifest.json",
+  "base_events": 363176,
+  "tolerance_degrees": 1e-05,
+  "Theta_Phi_mrad_factor": 0.001,
+  "scope": "stored polar scalar vs two predeclared conventions; reflected vector controls only",
+  "boundary": "not original relative azimuth calibration, DCT combined directions, vertex-energy correction, recoil response or paper fit"
+}

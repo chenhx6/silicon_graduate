@@ -1,0 +1,29 @@
+{
+  "subject": "Verify stored polar-angle convention while retaining azimuth frame limits",
+  "verification_number": 57,
+  "paths": [
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "system/scripts/day17_evasions_optical_angle_contract.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-042.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-042.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-057.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-057.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-043.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint043.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-result.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/XLSX/ZIP/binaries/credentials/inheriteddirty/daemon;logHEAD+own043;Chiara new freeze/identity/progress excluded until next checkpoint"
+}

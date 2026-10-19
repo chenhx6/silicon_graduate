@@ -164,3 +164,7 @@ F22-75–86完整B/7图2表，canonical保7线σ/64cal(62numeric/1missing/1ambig
 ### Day17 checkpoint042 priming：生成recipe指纹
 
 EV23-24–28/F22-87旧Backup早已读，新actualSiθ16值与119.8mm stripcenter recipe match至float8.47e−7deg，只生成规则非独立geometry。index可恢复但quad/rawcal/Σ缺；sourceγ条件selfassignment不veto，原6867–6883窗26tracks只descriptor。初JIT接口错误保档；正式18独立session不换旧checks。
+
+### Day17 checkpoint043 priming：极角不定方位frame
+
+EV23-29–33/F22-88实际ThetaLdeg matchmrad Eq3.5至float，另一projected-slopes式最大差.058978°；相同θ/norm的反射φ候选不能由θ选正确handedness。不是原φ实验失配或τCI重放；原vertex-loss/DCT/完整frame/Cov缺口保。正式18仍独立session。

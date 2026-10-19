@@ -1,0 +1,4 @@
+
+### Day17 checkpoint043：actual极角合同与方位边界
+
+EV23-29–33/F22-88+ledger实际mrad角约定与θ不定φ反射，原τ/geometrytruth不新裁。verification057/manifest043/commitguard/H3后发布，main / `Verify stored polar-angle convention while retaining azimuth frame limits`；原windowactive/17once/partial18/no19。

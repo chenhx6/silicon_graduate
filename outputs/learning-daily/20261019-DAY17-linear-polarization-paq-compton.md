@@ -58,6 +58,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint043：actual角约定及φ不可识别边界
+
+[[evasions-2023-public-release-native-readiness]] EV23-29–33/F22-88新actualThetaLdeg与mrad原式吻合；两投影斜率约定不同。原source已读/同dataset不计独立测量，θ吻合不能定相对φ。
+
+
 ### checkpoint042：旧producer的新actualdata指纹问题
 
 [[evasions-2023-public-release-native-readiness]] EV23-24–28/F22-87。旧scope确认Backup早已读，本轮不计新source；新查询恢复16个Siθ与119.8mm recipe的一致性、index信息与仍缺quadrant/原cal的边界。
@@ -185,6 +190,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint043：两角约定与候选反射
+
+[程序](../../system/scripts/day17_evasions_optical_angle_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-result.json)：Eq3.5 max4.7683e−7deg/RMS1.5192e−7deg；projectedslopes max.058978deg/RMS.008721deg，无fit/extraformulasearch。两X反射候选保同θ/norm却改变φ，不能借极角闭合认证原recoilresponse/τ。
+
 
 ### checkpoint042：实际16角指纹与source-veto边界
 
@@ -6169,6 +6179,71 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EV23-28"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "optical角的字段约定与φ缺口",
+      "summary": "EV23-29–33新增actual极角函数/单位指纹与φ反射不可由θ消除的边界，不做原recoil/τfit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-29"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-30"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-31"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-32"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-33"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "Ch3实际校准与Bρ原表达式边界",
+      "summary": "F22-88补原Eq3.5在actual字段的支持及不认证φ/DCT的边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-88"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "极角吻合不能认证相对方位frame",
+      "summary": "整合极角吻合与完整frame/核物理response分层，并收束此局部变量问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-29"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-30"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-31"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-32"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-33"
+        }
+      ]
     }
   ]
 }
@@ -6409,3 +6484,7 @@ verification055核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 verification056核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及新actualdataartifact。通过后manifest042/commitguard/H3；初JIT失败/floatprecision/旧sourcepriming均不冒实验精度或独立证据，原windowactive/17once/partial18/no19。
 
 042cachedcheck发现初JIT stderr两行尾空格(exit2)，guard在commit前拒绝、未生成失败commit；保原tmpstderr/hash与initialfailure，交付文本只去行尾空格后重过cached门。
+
+### checkpoint043实际角合同验收
+
+verification057核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与新actualartifact；通过后manifest043/commitguard/H3。局部变量问题readiness边界明确，原window仍active/formal17once/partial18/no19，无新τ/BR/CI。

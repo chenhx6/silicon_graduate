@@ -73,6 +73,11 @@ tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
 | EV23-26 | Si_theta可恢复recipeindex但不能恢复Q1–Q4/rawamplitude/完整calCov；同index四象限collapsed，不能用它补TableB.2 missingQ1strip14或唯一选gain。 | information-loss-and-calibration-readiness | direct-schema-and-recipe | Backup/extractionData.C outputbranches/Si_theta；F22-81/84 | true |
 | EV23-27 | Backup源链target1–5、activeGATCONF1和Brho>0；QPL/time额外门只comment。abs(trackE−6875)>8循环只有selfassignment，不删track/改nbTrack，不能当实际γveto或原2Dcontaminationmask。该body在旧scope已读，本轮是新primary下定向复核非新来源。 | actual-archived-extraction-contract | direct-code | Backup/extractionData.C L8–15/L66–109；producer-reading-scope | true |
 | EV23-28 | 原data.root实际rawtrackE在[6867,6883]keV inclusive内有26tracks/26events；仅观察能窗占用，不把它们全归28Si或从此一刀切原photopeak。原raw/code34hash不改、fullPID/θDS/mask/CI仍缺。 | actual-counter-evidence-and-boundary | direct-derived-data-query | recipe-fingerprint-result raw_track_energy_6867_to_6883_keV_inclusive | true |
+| EV23-29 | actualThetaLdeg在预定Bρ>0且0≤θlab<12的363176条中，与mradΘ/Φ的Eq3.5 acos(cosΘcosΦ)全在1e−5deg内，max4.7683e−7deg、RMS1.5192e−7deg。支持存储量的单位/函数合同，不是独立角cal测量。 | actual-optical-angle-fingerprint | direct-data-and-source-equation | optical-angle-result convention_comparisons Eq3p5 | true |
+| EV23-30 | 把同两字段当水平/垂直投影斜率以atan(hypot(tanΘ,tanΦ))求θ，max差.058978deg、RMS.008721deg，仅34.0116%在1e−5内；两定义不等价。未fit scale/offset或另选函数强配，也不把这个差直接换成τ偏差。 | alternative-convention-countercheck | direct-data-and-declared-convention | optical-angle-result two_projected_slopes | true |
+| EV23-31 | 源方向[±cosΦsinΘ,sinΦ,cosΦcosΘ]都unitnorm且θ完全相同；在actualfields上的两φ候选wrappedabsolute差median104.198°、max180°。这是同θ不定φ/handedness的条件反证，不认哪套是已知trueframe。 | azimuth-information-boundary | exact-vector-control-on-actual-fields | optical-angle-result two_x_reflected_direction_controls | true |
+| EV23-32 | paperEq3.5的phi正x表达与CodeA转lab的负x/γtracking−π/2须完整相对frame桥；θ的浮点吻合不能认证DCTcombined方向、recoilθDS、原position/calCov或全部phase。 | actual-frame-readiness | direct-source-and-use-boundary | F22-57/60/72；CodeA_gamma.C angular conversion | true |
+| EV23-33 | 本轮新actualanglequery仅supports mrad/out-of-horizontal-plane字段语义；limits由θ/norm/同计数自证完整response。无新geometrytruth、sourcebody独立性、原τ/BR/CI，原34files/data保持。 | knowledge-impact-and-limit | synthesis-with-data | optical-angle-contract/result；EV23-29/31/32 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -134,3 +139,9 @@ L4当前可做真实publicderivedevent查询、独立物理变量/响应合同�
 | 13 | 20.272495270 | 564 |
 | 14 | 20.901180267 | 301 |
 | 15 | 21.524641037 | 322 |
+
+## optical角的字段约定与φ缺口
+
+[新问题前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-before.md)、[固定两约定/容差](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-contract.json)、[程序](../../system/scripts/day17_evasions_optical_angle_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-result.json)。原deriveddata/34source只读；相同base人数只是queryguard，不计新的独立统计样本。
+
+θ原文公式的吻合确实补了输入角色，不能反过来用它证明φ相对frame已对。反射两个候选保相同极角/单位norm而改变方位，数学控制及其在实际fields上的数值都不是实验测得的frame失配。尚缺matchingDCT/坐标cal/生产recoil和vertex-energy输入；不在此做fullMC或原τ拟合。

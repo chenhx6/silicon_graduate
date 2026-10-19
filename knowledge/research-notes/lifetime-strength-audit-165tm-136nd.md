@@ -395,3 +395,11 @@ B.4是coreE，Ch3效率图TrackE；同source不等同observable/selection。Eu�
 可恢复recipeindex0..15，仍缺quadrant/rawamplitude/完整calCov，不能由此补Q1strip14或唯一选TableB2 gain。Backup的GATCONF1/Brho>0/target1–5链与QPL/time只comment、γ条件只selfassignment应分层；原data里6867–6883keV inclusive确有26tracks/26events，不把它们全叫某核素污染或直接作一维veto。
 
 [新query结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-result.json)与34hash保；初ROOT RVecOps Abs接口名称编译失败已保，freshprocess逐track std::abs成功，原fixedquestion/selection不改。下一可用actualopticalangles核mrad/θlab生成合同，但θ一致也不能独定φ handedness/相对frame；不以缺原job/Σ填MODELhistory。
+
+### 极角吻合不能认证相对方位frame
+
+[[evasions-2023-public-release-native-readiness]] EV23-29–33/F22-88新actualdata核：既定363176条base中storedThetaLdeg全matchEq3.5 acos(cosΘcosΦ)及mrad输入，max4.7683e−7deg；two-projected-slope式max.058978deg、RMS.008721deg，不是同一个角约定。未fit scale/offset或另搜公式强配。
+
+[实际字段/数学控制](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-result.json)还显示[±cosΦsinΘ,sinΦ,cosΦcosΘ]均unitnorm/同θ，但φ候选绝对差median104.198°、max180°。这个候选反射不是实验测得frame失配；θ一致不决定正确相对handedness，更不认证γ−π/2/光学xsign/DCT组合/原θDS。当前不做缺matchingvertex-loss/完整坐标cal的recoil/fullτ重fit。
+
+输入角色获得直接支持，原源/δ/Jπ/τ/BR/CI无新裁决；同dataset函数关系不计独立geometry测量。该局部变量问题已达到明确readiness边界，回到Day18的τ→B→Qt和bandmixing核结构问题重建候选，避免只按更多代码检查数推进。

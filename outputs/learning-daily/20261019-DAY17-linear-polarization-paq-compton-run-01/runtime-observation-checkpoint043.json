@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T23:07:28.159753+00:00",
+  "hard_deadline": "2026-10-20T15:00:00+08:00",
+  "minutes_to_deadline": 472.53067078333333,
+  "decision": "rebuild-current-physics-candidates-and-continue",
+  "goal": "active"
+}

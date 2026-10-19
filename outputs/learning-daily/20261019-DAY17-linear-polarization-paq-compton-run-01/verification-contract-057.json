@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 88,
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 33
+  },
+  "artifacts": [
+    {
+      "file": "evasions2023-optical-angle-result.json",
+      "true_fields": [
+        "ok",
+        "no_angle_scale_offset_fit_or_extra_formula_search",
+        "not_original_phi_or_recoil_response_certification",
+        "source34_and_data_hashes_preserved",
+        "no_new_experimental_tau_branch_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -141,6 +141,7 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-85 | TableB.1的unshifted近7MeV响应为σ4.4±2.1keV，不是FWHM4.4；作者因子2.35换10.34keV。源profile/core/TrackE/cal/inbeam核/完整Cov应分层，不由一个打印精度补全原response。 | width-and-selection-contract | direct-thesis-and-arithmetic | TableB.1；Bexercise TableB1_resolution_crosschecks | true |
 | F22-86 | B补可复用七线表与64通道输入/缺口、source时间角色控制，未得独立Eu半衰body/原calCov/精确producer。当前只supports合同可复核，limits完整实验eff/BR/τCI复现；新cal/核模型不冒实验。 | knowledge-delta-and-readiness | synthesis-with-primary | F22-77/78/79/81/83/84/85 | true |
 | F22-87 | actualpublicSi_theta的16值逐项matchBackup119.8mm/stripcenterrecipe，收窄publicdefault119.8与dataset无关的疑虑；它是生成规则指纹，不是独立survey/geometry精度或原paperproducer认证，Table3.5/图/对象桥仍保。 | new-actual-data-companion | direct-public-data-and-code | EV23-24/25/26 | true |
+| F22-88 | 原Eq3.5 mrad/out-of-horizontal-plane θ公式得到publicThetaLdeg actual363176条的浮点级支持；two-projected-slope式不同，θ一致仍不定φ reflection/relativeframe或DCTcombined/recoilcalibration。新actualquery补变量合同，非独立geometry/τ/BR测量。 | actual-data-convention-companion | direct-data-and-equation | EV23-29/30/31/32/33 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
