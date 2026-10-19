@@ -32,7 +32,7 @@ updated: 2026-10-19
 | SG98原件主线与关键图/表/式 | [[../../knowledge/sources/schmid-1998-gammasphere-polarization]]末段actualreadscope；printed95–110、Figs1–15、Tables1–3、Eq1–19；SG98-13/14 | complete |
 | P/A/Q分层与新计数/误差练习 | [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]“P/A/Q分层与原件输入”及“声明设计的计数与定量结果”；[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json) | complete |
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
-| 本日报、唯一writeback与checks | 当前十八页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
+| 本日报、唯一writeback与checks | 当前二十一页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
 
 Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
 
@@ -176,6 +176,20 @@ SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；63
 [新rate合同](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-contract.json)/[程序](../../system/scripts/day17_sun2023_rate_boundary.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-result.json)用真实reportedτ1.120(.180)ps与**USDB模型**E2partial6.9ps：τM1≈1.337024ps，固定model的local尺度.256516ps，现代单位/rounded1248给B(M1)≈.021883µN²、RME≈.295858µN。模型E2centralrate占约16.232%，不因dominantM1就删除；这不是新测δ、原posterior或completeCI。20fs仅条件单位核≈32.9106meV，未认证6390统计上限。可复用链已补[[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]与DSAM方法；原reviewWC23flags保持。
 
 正式17已在007实际发布后仅一次对账为next18/count17；见[creditreceipt](20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json)。**run/nativegoal仍active至原研究截止**，此段只18无学分方法preview，不启动formal18/不打开19。
+
+### MADAI公开核：原样组件与两API反证
+
+[[../../knowledge/sources/madai-2015-distribution-sampling-likelihood]]固定2015commit9f9ee0da、所选tree/Gitblob/SHA256和actualreadscope，fullprojectCMake先因缺Boost头/iostreams exit1，未改系统；随后以实际Eigen3.3.7编译**原样四个source文件**与声明fixture，编译/运行actualexit0。不是fullGP/MCMC或paperproducer复现。[合同](20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-contract.json)/[原fixture](20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-fixture.cpp)/[新程序](../../system/scripts/day17_madai_likelihood_component.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-result.json)保存初只ordinary组件版本与后来两API补核，不覆盖首次记录。
+
+MDA15-2–4：同residual1、totalvariance1→4，原quadratic的logratio+.375(比1.45499)，完整Gaussian的variableΣnormalizer后−.318147(比.727496)，排序反转；fixedΣ只改mean时normalizer是常数，不影响relativefit，是必要反证。MDA15-5/6的实际flag/consumer查证：base/defaultappcovflagfalse可由settings打开；ordinary的自给log_likelihood分支**不在另一API中**，公开MH下一步调用另一API。nativecustomfixture返回−.818147/−.0836706，不能仅凭ordinaryescape就认证完整MCMC。
+
+原样uniformprior正控制和刻意negativeCov失败域控制分列，behaviourchecks通过只验证观测行为，非Gaussian统计合同/原实验“全通过”。[[../../knowledge/sources/sun-2023-bayesian-dsam-31s]] SUN23-16明确actualtailoredpapercommit/config/Σ/data仍缺，不从2015publickernel归因其CI错误。此段仍恰好无学分18方法preview，不给新学分或打开19。
+
+### 新publisherSI输入：同一Sun方法companion
+
+新的公开CDN精确PII入口HTTP200取得五页SI（非此前arxivmaintex，非已得2023VoRmainbody），[hash/identity](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-cdn-attempt.json)、[primed全读前冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-before-full-si-freeze.json)、[完整五页十三图/全部视觉scope](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-reading-scope.json)均保存。SUN23-17–22已canonical；原008“SI未得”保留为当时状态，不把source后续获得说成原URL成功。
+
+SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISortunpacking角色和六个αgatecenters；同hardware名称仍不补ComptonQ或Bayesiantailoredproducer。Fig13可直接看6390posterior，但未给90th数值/训练support/config或draws，不升级20fs为90%limit、不把图轴认hardcut。Fig9/12明确1/2+3076/5156仍列A2，是下一物理对象/帧/phenomenologicalresponse的高信息问题，当前不判fit错。主文/SI/同data/posterior图均不重复计实验或授18信用。
 
 ## Durable knowledge delta
 
@@ -408,6 +422,18 @@ SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；63
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-13"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-3"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-4"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-6"
         }
       ]
     },
@@ -766,6 +792,18 @@ SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；63
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-13"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-3"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-4"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-6"
         }
       ]
     },
@@ -805,6 +843,34 @@ SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；63
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-13"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-3"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-4"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-6"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-17"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-20"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-21"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-22"
         }
       ]
     },
@@ -855,6 +921,34 @@ SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；63
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-15"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-3"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-4"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-6"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-17"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-20"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-21"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-22"
         }
       ]
     },
@@ -870,6 +964,41 @@ SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；63
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "summary": "固定2015publickernel四文件实际原样编译/两API执行，variableCov/normalizer、fixedCov与custom分支callpath反证，原fullprojectBoost失败/初版本保留，不代Sunpaperproducer。",
+      "anchor": "MADAI公开likelihood核与paperproducer是两个对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-2"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-3"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-4"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-5"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-6"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-7"
+        },
+        {
+          "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+          "locator": "MDA15-8"
         }
       ]
     }
@@ -934,3 +1063,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 007已实际H3/Gitee push，之后[card-credit-007](20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json)才把course从next17/count16推进到next18/count17，且append-only保存同session索引；只formal17，18preview无学分，原runner正常exit未观察，不伪造成功收束。research/nativegoal仍active。
 
 [verification-016](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-016.json)实际report/唯一writeback20changed/21mapped/coverage/boundary/lint/diff均exit0，0errors199warnings＝141key54raw4parser；旧WC23十四claim/review/PLAN/Bib保持。初newsource缺rawhash已修且真实failure保留，reservedrawslot仍缺不写raw。稳定指针main / `Ingest Bayesian DSAM primary and audit model-assisted strengths`，actualhash/H3/push只publication008。下一actualMADAIcomponent/配置待核；源码已读部分不冒称编译通过或paperexactproducer，原15:00窗口不结束。
+
+### checkpoint009原样软件与正式SI验收
+
+008已实际H3/Gitee push；新[verification-018](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-018.json)实际report/21changed/22mapped唯一writeback/coverage/boundary/lint/diff均exit0，0errors201warnings＝142key55raw4parser；原Sun十五行/review/PLAN/Bib保持。原fullprojectBoost依赖失败exit1隔离为readiness，原样四文件两API组件的compile/run0与scientificcounterexample都保留，未将observedbehaviourchecks称Gaussian合同通过或原实验CI错误。
+
+正式版主文的新imageAPI400/ScienceDirect403不当body，当前仍2022v2+publisherSI；只有SI新入口成功/已读。稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/H3/push仅publication009。研究/nativegoal仍active至原15:00窗口，formal17仅一次/18无学分/未开19；下一SI的spin1/2–A2对象仅待限定核验。

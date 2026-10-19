@@ -1,0 +1,39 @@
+{
+  "identity": "MADAI2015-ORIGINAL-MODEL-COMPONENT-01",
+  "source_pin": "9f9ee0dac704d77492d9905b4d90a57746201912",
+  "source_hashes": {
+    "tmp/day17-madai/original/src/Model.cxx": "1784476b861fd4d74cd0d747d41c57541cac897965947b1e89aa116e8642882f",
+    "tmp/day17-madai/original/src/Model.h": "b61e38ba530f046f5e0fe46dcded87deab0a5598fe8f580f2ec4a0533ab20a80",
+    "tmp/day17-madai/original/src/Parameter.cxx": "45fd117a3c0b4a859f4ec180b530e0d9dfa9423d91cf68da37c166d07520f697",
+    "tmp/day17-madai/original/src/Parameter.h": "1281d4ef8fd01d5ce5c19ea5734b778cc4fc2d12c25b00773477ad61db351060",
+    "tmp/day17-madai/original/src/Distribution.cxx": "e72c8e803b9f0d0e460e25f2bf0a9884b04a48cfde6760500d63593d87e645c8",
+    "tmp/day17-madai/original/src/Distribution.h": "82d6cd443e8e5c7a591cab3a2b3e46d0d01acf58b2a6169973807c8e711a2a02",
+    "tmp/day17-madai/original/src/UniformDistribution.cxx": "b2aae69688660ebdf98ae6af2e97fadbb941c452a16e1a53bbfb77e9a887ff00",
+    "tmp/day17-madai/original/src/UniformDistribution.h": "240d7eeb3743e7481158376845ad98819c6b4bae11b0f4bfb0b386c41d932242",
+    "tmp/day17-madai/original/src/Random.h": "fca176e1ae5f57619d13431ce4ed5439b5d230994c170244ee3aeaa9c842ada9",
+    "tmp/day17-madai/eigen/Eigen/Dense": "5325c9d4d693e504ee012c5275ad4b10b135a701cbd87c14466d2ea21ea22ee5",
+    "tmp/day17-madai/eigen/Eigen/src/Core/util/Macros.h": "d2f503cce73828374700610d46395d56723d27ceaa5c465058304dfbd230033c",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-fixture.cpp": "88602b3342875aacf72d51c53031e43c01567adf5b945c87f52ff21a6154498b"
+  },
+  "fixture": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-fixture.cpp",
+  "original_sources": [
+    "tmp/day17-madai/original/src/Model.cxx",
+    "tmp/day17-madai/original/src/Parameter.cxx",
+    "tmp/day17-madai/original/src/Distribution.cxx",
+    "tmp/day17-madai/original/src/UniformDistribution.cxx"
+  ],
+  "include_dirs": [
+    "tmp/day17-madai/original/src",
+    "tmp/day17-madai/eigen"
+  ],
+  "binary": "tmp/day17-madai/component/frozen-audit",
+  "assumptions": [
+    "declaredoneoutputfixtures, prior0 except explicitUniformcontrol; not actual31S observeddata",
+    "samepredictedmean/residual variedtotalvariance tests xdependentGaussian normalization contract; no2pi fixedconstant needed in likelihoodratios",
+    "originalfourfilesunchanged; separatefixture only, fullprojectCMake failedBoostdependency; Random/sampler/GP/paper-tailoredpipeline notbuilt",
+    "publiccode2015 not identified2022paperproducer, fixedSigma/override/modifiedcode can alterapplication",
+    "negativecov is explicitinvalid-domain failurecontrol, not assertedpaperinput",
+    "formal17creditedonce, uncredited18methodpreview, noexperimentalposterior/CI",
+    "bothactualbaseAPIs executed; MetropolisInitialize usesordinary API, NextSample sourceusesgradient-output API; ordinarycustomloglikeescape notassumedvalidforNextSample"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "cmake",
+    "-S",
+    "tmp/day17-madai/original",
+    "-B",
+    "tmp/day17-madai/build-original",
+    "-DEIGEN3_INCLUDE_DIR=/workspace/wiki/tmp/day17-madai/eigen",
+    "-DBUILD_TESTING=OFF",
+    "-DCMAKE_BUILD_TYPE=Release"
+  ],
+  "actual_exit_code": 1,
+  "failure": "Could NOT find Boost (missing: Boost_INCLUDE_DIR iostreams)",
+  "classification": "dependencyboundary; original fullprojectnotbuilt; sourcebytesnotchanged; separate actualfourfilecomponent chosen",
+  "cmake_version": "3.28.3",
+  "system_install_or_configuration_changed": false
+}

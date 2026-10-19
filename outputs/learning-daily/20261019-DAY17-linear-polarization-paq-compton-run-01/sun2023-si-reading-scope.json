@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T12:51:58.025515+00:00",
+  "identity": "publisherofficialexactPIIS0370269323001351 mmc1",
+  "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0370269323001351-mmc1.pdf",
+  "file": "tmp/day17-sun2023/publisher-SI-mmc1.pdf",
+  "sha256": "630d45a82229a3e45cc1a712b88a0c00c8fd6512398ac9d01843a9aed5c0d0aa",
+  "actualreadscope": "all5pages, completeSections1.1–1.4 and13Figures+references, all5pageimages visuallyread",
+  "relation": "officialpublisherSI and2022v2body samepaper/datasetlineage; notobtained2023VoRbody or independentexperiment",
+  "actual_counts_training_response_posterior_draws_obtained": false,
+  "Fig9_Fig12": "caption states1/2+ emitters3076/5156 withA2 included; object/physicalpriorrole requiresnextaudit, notnewlifetimeconclusion",
+  "Fig13": "6390 prior/posteriorpanel seen; no numeric90percentquantile/fullsupportconfig supplied bythisSI",
+  "formalday": 17,
+  "uncreditedpreviewday": 18
+}

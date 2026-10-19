@@ -2068,3 +2068,5 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 - 2026-10-19 DAY17 checkpoint007：正式17逐卡证据/报告audit/知识/检查/续接及Day18准备prompt齐，001–006实际发布；本批只completed17/partial18且发布后对账一次。18changed/19mapped、015检查全0/0errors197warnings。卡完成不结束原15:00窗口/nativegoal；下一Sun2023仅取得2022v2十页并读首identity/abstract，余主线待实际读。稳定指针main / `Complete DAY17 card and preserve uncredited DSAM preview`，actualhash/push/credit仅runreceipt。
 
 - 2026-10-19 DAY17 checkpoint008：007发布后正式17只计一次/course18count17，原研究窗/goalactive、18preview无学分。Sun2023原2022v2主线/图式、priors/6390/model辅助M1提取已canonical；20changed/21mapped、016检查全0/0errors199warnings。下一publicMADAI原样component尚未编译，不冒paperproducer。稳定指针main / `Ingest Bayesian DSAM primary and audit model-assisted strengths`，actualhash/push仅runreceipt。
+
+- 2026-10-19 DAY17 checkpoint009：MADAI2015原样四文件两API组件及normalizer/callpath反证、Sun官方SI五页十三图已canonical；非paperproducer/新实验CI。018全部检查0，21changed/22mapped，0errors201warnings；旧Sun15行/flags保持。formal17仅一次/course18count17、原窗口/goalactive、18preview无学分；下一SI spin1/2–A2对象待限定核验。稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/push仅runreceipt。

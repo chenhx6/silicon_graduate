@@ -1,0 +1,23 @@
+{
+  "identity_url": "https://api.github.com/repos/eigenteam/eigen-git-mirror/git/ref/tags/3.3.7",
+  "status": 200,
+  "ref": {
+    "ref": "refs/tags/3.3.7",
+    "node_id": "MDM6UmVmMTEyMjQ0NDQ3OnJlZnMvdGFncy8zLjMuNw==",
+    "url": "https://api.github.com/repos/eigenteam/eigen-git-mirror/git/refs/tags/3.3.7",
+    "object": {
+      "sha": "cf794d3b741a6278df169e58461f8529f43bce5d",
+      "type": "commit",
+      "url": "https://api.github.com/repos/eigenteam/eigen-git-mirror/git/commits/cf794d3b741a6278df169e58461f8529f43bce5d"
+    }
+  },
+  "scope": "declaredactualcomponentdependency only; not historicalpaperSDK",
+  "archive": {
+    "url": "https://codeload.github.com/eigenteam/eigen-git-mirror/tar.gz/cf794d3b741a6278df169e58461f8529f43bce5d",
+    "status": 200,
+    "bytes": 2136353,
+    "sha256": "c7f57546eaacf7aab2c7471285119a5456f7ccdc86c86530a047eed6ca96aa9c"
+  },
+  "regular_files_extracted": 305,
+  "EigenDense_exists": true
+}

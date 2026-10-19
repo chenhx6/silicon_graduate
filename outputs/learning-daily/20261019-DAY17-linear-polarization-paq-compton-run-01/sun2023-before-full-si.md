@@ -1,0 +1,5 @@
+# Sun2023补充材料全读前问题冻结
+
+已读2022arxivv2主文10页/所有图式，已暴露publisherSI第一页的identity/DSL/DAQ文字；非独立盲测。新的正式CDN对象5页hash630d45...，余4页/13图尚未读；当前不预填figure范围/先验支持或6390的quantile。
+
+问题：SI是否给actualτprior/trainingdomain、A2各状态处理、posteriorconvergence/6390上限状态，何处与2022v2一致/不同；是否有actualinput而非仅图？GRIFFIN单cloverDAQ/GRSISortunpacking不等既有全阵列Comptonselection/校准Q。codecomponent2015两API问题不等paper实际实现；不从SI图反解原Σ/独立posteriorCI。与主文同data/版本依赖保留，只formal17/无学分18、不打开19。

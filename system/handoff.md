@@ -6,19 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 credited once; Bayesian primary checkpoint008, window active
+## Active handoff — DAY17 credited once; original window active checkpoint009
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止不改，15–16收束，nativegoal/runactive/Farmer42019沿用。001–007实际H3/Gitee已push；007后才actual只授17一次，course next18/count17，partial18、未开19，card-credit-007和canonical append-only scheduler event可核。原runner16:06中断，不伪造normalexit/新session。008稳定指针main / `Ingest Bayesian DSAM primary and audit model-assisted strengths`，actualhash/push仅本runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–008实际H3/Gitee push；007后只formal17一次对账course next18/count17，partial18，未开19。原runner16:06中断不伪造normalexit/新session。009稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/push仅本runreceipt。
 
-Day17课卡原件/PAQ/countCov/公开producer/officialreference/条件Pb207核全齐；卡完成不结束原窗口。Day18恰好无学分知识preview的Jensen/MU08原读scope和11/9行条件表已canonical，formal18仍须未来独立session。verification016当前report/唯一writeback20changed/21mapped(含未改LKH82)/coverage/boundary/lint/diff均0，0errors199warnings(141key54raw4parser)；旧Wang14claim/flags/PLAN/Bib保护，初新source漏rawhash已修并保留真实failure，不写raw消warning。
+Day17课卡已complete不结束整日窗口；当前exactly18无学分方法preview。新MADAI source固定2015commit9f9ee0da、实际Eigen3.3.7/原样四sourcefile与两API fixture，编译/执行0。variableΣ例nativequadratic排序与完整Gaussian相反；fixedΣ反证、defaultflag/settings、prior已在返回值、刻意negativeCov失败域分列。ordinarycustomloglike分支不在另一API，公开MH Next调用另一API；只测ordinary不能当完整MCMCescape。fullprojectCMake缺Boost为exit1保留，不等fullGP/MCMC/实际paperproducer已构建；所有结果仅declarednativecomponent，不归因Sun实验CI。
 
-新knowledge/sources/sun-2023-bayesian-dsam-31s.md：原读arxiv2203.10336v2/9Nov2022十页完整主线/5图1表3式及关键视觉核，2023metadata不当VoR。官方src仅maintex/六EPS无SI；publisherFULL401/discovery无candidate，actualcounts/training/response/draws/tailoredproducer未得。restrictivepriors/τ–sp、GaussianEq3/GP/quantile与6390无finiteconstraint保持；20fs仅条件应用链，非TableI第五项90%limit。
+新公开CDN精确PII的Sun SI实际HTTP200/五页十三图全文与全部视觉核，hash630d45...0d0aa，补植入靶/DAQ/GRSISortunpacking、六αgate与posteriorpanels。它不是已得VoRmainbody/新数据集或actualGP/config/drawfiles。早先v2/src未含SI、API401均历史保留；sourceSUN23-17–22明确supersede旧readiness。Fig13无quantile数字/完整support，不将轴端或20fs读成90%limit；Fig9/12的1/2+3076/5156含A2，下一要核physicalrank/frame或phenomenologicalresponse对象，不预填fitwrong。
 
-新rateexercise：总τ1.120(.180)ps与USDB E2partial6.9ps给M1τ≈1.337024、fixedmodel local.256516，B≈.021883/RME≈.295858；模型E2占centralrate约16.232%，不把“experimentalB”标签当无模型δ/纯M1测量。现代常数/roundedenergy/原posterior与modelΣ缺口明确，旧reviewWC23flags原样保留。
+verification018实际report/唯一writeback21changed/22mapped(未改LKH82)/coverage/boundary/lint/diff全部0，0errors201warnings(142key55raw4parser)，原Sun15claimrows/flags与PLAN/Bib保持；17为此前code批验收。正式版新尝试仍未得：imageAPI main400明确不可用、ScienceDirect精确landing403、FULL401，不原样重试/不关TLS/不造2023字面。当前body仍2022v2+publisherSI，版本依赖分开。
 
-下一具体路线为MADAI公开内核，pin2015-03-25 commit9f9ee0dac704d77492d9905b4d90a57746201912，cache tmp/day17-madai；首Model.cxx/GPEmulatedModel.cxx/README完整读及选定header/callpathtargeted，未编译执行，不能称组件已通过或paperproducer。literalModel只quadratic、defaultUseModelCov=false，可有自带log_likelihoodoverride；actualpaper设置/改动未知。待用实际原样component/declaredcovfixture核normalizer/callpath，先核固定源码/依赖hash，不直接判Sun实验错误。系统Eigenheader路径未有，依赖下载/组件尚待实际完成；不改凭据/TLS/系统配置。源码SI缺口与初网络失败保留。
-
-先核clock/receipt/verification016/状态；同goal继续高信息18方法preview或有新matchinginput则回17，禁止重复授17/授18/开19，不扫同toy或终态URL。原deadline到才stop新研究并做整日收束/发布/receipt，之后goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+下一先核clock/receipt/verification018/实际publication009。当前公开kernel局部闭合，matchingpaperimplementation/Σ仍缺；新SI的spin1/2–A2对象是有新输入的限定问题，可冻结回忆后按明确restframe/rank/实际模块语义核，不直接推实际τbias。仍只exactlypartial18，不授18/不重复授17/不开19。原deadline到stop新研究，再整日收束/检查/receipt/发布，之后goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

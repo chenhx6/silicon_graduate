@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[madai-2015-distribution-sampling-likelihood]] - 固定2015内核两API实际组件：variableCov/normalizer与callpath边界，不代Sun paperproducer。
+
 - [[sun-2023-bayesian-dsam-31s]] - 原读2022v2：jointpriors/GP/quantile、6390条件上限与modelE2扣除的实际边界。
 
 - [[nndc-2011-pb207-bi207-polarization-reference]] - 207Pb source参考的官方母态/MR/ICC/RI依赖、photonpair/β+伴随与原primaryphase缺口。

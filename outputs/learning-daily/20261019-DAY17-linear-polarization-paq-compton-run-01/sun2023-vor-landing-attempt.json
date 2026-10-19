@@ -1,0 +1,12 @@
+{
+  "url": "https://www.sciencedirect.com/science/article/pii/S0370269323001351",
+  "scope": "one exactpublicpublisherlanding verification, no mainbody claimed",
+  "status": 403,
+  "final_url": "https://www.sciencedirect.com/science/article/pii/S0370269323001351",
+  "bytes": 832804,
+  "sha256": "c44777d783ed317a735d1c2b2c368e743aa916e80353f2e98f976873a5ad3af9",
+  "content_type": "text/html; charset=UTF-8",
+  "text_prefix": "ScienceDirect ScienceDirect Help There was a problem providing the content you requested Please contact our support team for more information and provide the details below. Reference number: a4cff0299802e2f9 IP Address: [server-supplied IP omitted] CPE00001 ::CLOUDFLARE_ERROR_1000S_BOX:: About ScienceDirect Remote access Contact and support Terms and conditions Privacy policy Cookie settings All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.",
+  "public_pdf_links": [],
+  "redaction": "server-supplied networkIP omitted; actual responsehash/status retained"
+}

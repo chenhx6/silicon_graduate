@@ -1,0 +1,2 @@
+
+- 2026-10-19 DAY17 checkpoint009：MADAI2015原样四文件两API组件及normalizer/callpath反证、Sun官方SI五页十三图已canonical；非paperproducer/新实验CI。018全部检查0，21changed/22mapped，0errors201warnings；旧Sun15行/flags保持。formal17仅一次/course18count17、原窗口/goalactive、18preview无学分；下一SI spin1/2–A2对象待限定核验。稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/push仅runreceipt。

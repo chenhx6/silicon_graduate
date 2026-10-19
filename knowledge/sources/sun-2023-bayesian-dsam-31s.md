@@ -35,7 +35,7 @@ L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023
 
 ## Scope and Reading Depth
 
-本session先冻承认Wang2023二级review/metadata priming的主动回忆，再取得原件。实际读十页全部主线/参考，五图(Figs1–5)、一表(TableI)、三式(Eqs1–3)，PDF2/4/5/6/7关键原图视觉核；maintex相关literalpriors/likelihood补核。未读SupplementalMaterial，也未取得原counts/训练网格/response/posteriordraws或作者tailoredMADAI。网络/下载/正文scope见本run[sun2023-download-identity](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-download-identity.json)及后续readingscope；不从review的赞许替代原件。
+本session先冻承认Wang2023二级review/metadata priming的主动回忆，再取得原件。实际读十页全部主线/参考，五图(Figs1–5)、一表(TableI)、三式(Eqs1–3)，PDF2/4/5/6/7关键原图视觉核；maintex相关literalpriors/likelihood补核。初始v2摄入时未读SupplementalMaterial；后续新入口已取得并完整原读publisherSI五页/十三图，见本页SUN23-17–22。仍未取得原counts/训练网格/response/posteriordraws或作者tailoredMADAI。网络/下载/正文scope见本run[sun2023-download-identity](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-download-identity.json)及后续readingscope；不从review的赞许替代原件。
 
 ## Summary
 
@@ -64,6 +64,15 @@ L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023
 | SUN23-13 | 本任务用1/τM1=1/τ−1/τE2复算约1.33702ps，固定model时local误差.25652ps，现代单位/roundedE给B≈.021883、RME≈.295858。同输入/同model算术不是新测量、原posterior或completeCI。 | conditional-rate-reconstruction | derived | PDF6 SecV；sun2023-rate-result | true |
 | SUN23-14 | 作者另报同data标准frequentist提取相合，非第二实验；本次1248寿命1120(180)与既往624(32)的差异仍保留，未重审其primary或合并为新worldaverage。五Hamiltonian共享sdspace/有效算符/能量缩放，不算五次测量。 | independence-and-counter-input | direct-and-boundary | PDF5–6 SecV；PDF7 TableI | true |
 | SUN23-15 | 所取v2/src未给actualcountfiles/training/PCA/GPstates/posteriordraws或tailoredMADAIcommit；项目公开repo2015对象只是下一待核上游软件，不能把它冒作paperexactproducer。publisherFULL401、discovery无candidate，未绕过或原样重试。 | reproducibility-and-access-readiness | direct-provenance-boundary | PDF5/10 Ref76；sun2023-source-si-discovery；sun2023-publisher-full-attempt | true |
+
+| SUN23-16 | 公开MADAI2015的原样四文件组件已实际执行两API，variableCov的quadratic-only与customoutput分支差异见MDA15-2–8；这些是公开上游的条件反例。Sun实际tailoredcode/config/Σ仍未知，不把它归因为本文实验CI错误或声称paper已重放。 | upstream-component-and-attribution-boundary | indirect-code-companion | MDA15-2；MDA15-6；MDA15-8 | true |
+
+| SUN23-17 | 之后经官方publisherCDN精确PII取得mmc1.pdf，五页/十三图/technicaltext完整原读与视觉核，sha630d45a82229a3e45cc1a712b88a0c00c8fd6512398ac9d01843a9aed5c0d0aa。旧未得SI为008历史；v2源码包确实不含它，API401未被改写。publisherSI不是已得VoRmainbody或独立实验。 | new-primary-SI-identity-and-scope | direct-publisher-SI | SI PDF1 title；SI Fig1–13；si-reading-scope | true |
+| SUN23-18 | SI给35keV3He implanted入25µmAu、arealdensity6×10^17cm−2和冷却/beamcollimator；DAQ为GRIFFIN Ge/GRIF16、GRIFC/GRIFClk、modifiedMIDAS及GRSISortunpacking。它不提供polarimetryselector/calibrationQ或Sun tailoredbayesianproducer。 | experimental-input-and-software-role | direct-SI-and-boundary | SI PDF1 Sec1.2/1.3；SI PDF2 Fig1 | true |
+| SUN23-19 | SI Fig2–7的αgate中心依次47/46/45/42/42/39MeV，对2234/3076/3435/4971/5156/6390态；3435经2186支、6390经4156支。图中addbackprior/posterior曲线仍为原data/model，不是新增actualbinfiles或独立数据。 | state-gate-role-ledger | direct-SI | SI PDF2–3 Fig2–7 | true |
+| SUN23-20 | SI Fig8的2234长态为4参数无A2，Fig9–13短态为5参数含A2；Fig9/12caption明确3076/5156为1/2+。A2的物理spin-density/帧或phenomenologicalresponse角色仍须核，不能将这些posterior视为已测核alignment/δ。 | angular-nuisance-and-state-boundary | direct-SI-and-open-interpretation | SI PDF4 Fig8/9；SI PDF5 Fig12/13 | true |
+| SUN23-21 | Fig13确有6390的τ先验/后验和nuisancepanels；它不另给90thpercentile数值、完整τsupport/训练config或posterior draws。不能只按图轴范围认证hardpriorcut，或凭posterior高于prior处就给90%probability。 | posterior-figure-and-quantile-boundary | direct-SI-and-statistical-boundary | SI PDF5 Fig13；v2 PDF6 SecV | true |
+| SUN23-22 | 此SI只技术说明/图及refs，没有原histogram/GRIFTevents、GP训练/PCAstate/likelihoodpatch/config或drawfiles；actualinputreadiness仍缺。获得SI消除的是来源读取缺口，不认证2015publickernel为本文producer。 | data-and-producer-readiness | direct-SI-scope-boundary | SI PDF1–5；MDA15-1 | true |
 
 ## Nuclear Structure Information
 
@@ -101,3 +110,11 @@ P1：若用于正式31S寿命/反应率或DSAM精度裁决，先定向核SI/实�
 ## Extracted Pages
 
 [[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[high-spin-lifetime-strength-deformation]]；上游二级入口[[wang-2023-experimental-studies-nuclear-chirality-china]]与本primary谱系明确，不重复计source。
+
+固定公开软件的实际执行/版本与调用边界见[[madai-2015-distribution-sampling-likelihood]]；它补充SUN23-7的下一输入问题，不替本source actualpaperproducer。
+
+## 后续正式SI原读与状态修订
+
+[新下载/identity](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-cdn-attempt.json)、[全读前问题冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-before-full-si-freeze.json)与[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-reading-scope.json)保存新入口，不重复原失败URL或关闭TLS。SUN23-1–16的“未读/未得SI”属于008/原公开代码摄入阶段的历史readiness，最新为17–22；oldclaimflags原样保留，不从新scope清掉needs_review。
+
+下一高信息问题是Fig9/12的1/2+状态与A2 nuisance对象：需把明确帧/条件密度的核rank允许域和emulatorphenomenologicalresponse区分；目前只冻结为开放问题，不输出原fit错误或τbias。

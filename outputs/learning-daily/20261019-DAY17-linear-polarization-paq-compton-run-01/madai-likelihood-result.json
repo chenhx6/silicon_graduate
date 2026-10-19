@@ -1,0 +1,137 @@
+{
+  "identity": "MADAI2015-ORIGINAL-MODEL-COMPONENT-01",
+  "script_sha256": "6792b9786da1275bb4667ec70ce7a5d8b9fb03bbfe7d27d3a94e5609fc64e4eb",
+  "contract_sha256": "7cd5227ab333598303feb3f1ed6b0cdcbaee3edd70648ab1bb2d24ff4e4c9f31",
+  "compile": {
+    "command": [
+      "g++",
+      "-std=c++11",
+      "-O1",
+      "-Itmp/day17-madai/original/src",
+      "-Itmp/day17-madai/eigen",
+      "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-fixture.cpp",
+      "tmp/day17-madai/original/src/Model.cxx",
+      "tmp/day17-madai/original/src/Parameter.cxx",
+      "tmp/day17-madai/original/src/Distribution.cxx",
+      "tmp/day17-madai/original/src/UniformDistribution.cxx",
+      "-o",
+      "tmp/day17-madai/component/frozen-audit"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "scope": [
+    "declaredoneoutputfixtures, prior0 except explicitUniformcontrol; not actual31S observeddata",
+    "samepredictedmean/residual variedtotalvariance tests xdependentGaussian normalization contract; no2pi fixedconstant needed in likelihoodratios",
+    "originalfourfilesunchanged; separatefixture only, fullprojectCMake failedBoostdependency; Random/sampler/GP/paper-tailoredpipeline notbuilt",
+    "publiccode2015 not identified2022paperproducer, fixedSigma/override/modifiedcode can alterapplication",
+    "negativecov is explicitinvalid-domain failurecontrol, not assertedpaperinput",
+    "formal17creditedonce, uncredited18methodpreview, noexperimentalposterior/CI",
+    "bothactualbaseAPIs executed; MetropolisInitialize usesordinary API, NextSample sourceusesgradient-output API; ordinarycustomloglikeescape notassumedvalidforNextSample"
+  ],
+  "source_pin": "9f9ee0dac704d77492d9905b4d90a57746201912",
+  "run": {
+    "exit_code": 0,
+    "stdout": "default_modelcov_off,0,-0.5,0,0,-0.5\nzerores_totalvar1,0,0,2,0,0\nzerores_totalvar4,0,0,2,0,0\nres1_totalvar1,0,-0.5,2,0,-0.5\nres1_totalvar4,0,-0.125,2,0,-0.125\nres2_totalvar4,0,-0.5,2,0,-0.5\ncustom_log_likelihood,0,-0.81814718055994529,2,0,-0.083670601132273467\nfinite_uniform_prior,0,-1.1931471805599454,2,0,-1.1931471805599454\nout_of_prior,0,-inf,2,0,-inf\ninvalid_negative_totalcov,0,0.5,2,0,0.5\n",
+    "stderr": ""
+  },
+  "rows": {
+    "default_modelcov_off": {
+      "native_status": 0,
+      "log_value": -0.5,
+      "covariance_calls_total_two_APIs": 0,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": -0.5
+    },
+    "zerores_totalvar1": {
+      "native_status": 0,
+      "log_value": 0.0,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": 0.0
+    },
+    "zerores_totalvar4": {
+      "native_status": 0,
+      "log_value": 0.0,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": 0.0
+    },
+    "res1_totalvar1": {
+      "native_status": 0,
+      "log_value": -0.5,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": -0.5
+    },
+    "res1_totalvar4": {
+      "native_status": 0,
+      "log_value": -0.125,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": -0.125
+    },
+    "res2_totalvar4": {
+      "native_status": 0,
+      "log_value": -0.5,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": -0.5
+    },
+    "custom_log_likelihood": {
+      "native_status": 0,
+      "log_value": -0.8181471805599453,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": -0.08367060113227347
+    },
+    "finite_uniform_prior": {
+      "native_status": 0,
+      "log_value": -1.1931471805599454,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": -1.1931471805599454
+    },
+    "out_of_prior": {
+      "native_status": 0,
+      "log_value": "-inf",
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": "-inf"
+    },
+    "invalid_negative_totalcov": {
+      "native_status": 0,
+      "log_value": 0.5,
+      "covariance_calls_total_two_APIs": 2,
+      "gradient_api_status": 0,
+      "gradient_api_log_value": 0.5
+    }
+  },
+  "checks": {
+    "native_success_statuses": true,
+    "default_modelcov_not_consumed": true,
+    "equal_zero_residual_different_cov_equal_native": true,
+    "nonzero_residual_quadratic_only": true,
+    "custom_loglike_escape": true,
+    "prior_already_in_returned_value": true,
+    "invalid_negative_cov_is_finite_in_native": true,
+    "constant_cov_mean_ratio_control": true,
+    "two_APIs_match_without_custom": true,
+    "ordinary_custom_escape_not_preserved_in_gradient_api": true
+  },
+  "observed_behaviour_checks_ok": true,
+  "varying_covariance_contrast": {
+    "native_log_ratio_var4_over_var1": 0.375,
+    "normalizedGaussian_log_ratio_omitting_only_fixed2pi_constant": -0.3181471805599453,
+    "native_ratio": 1.4549914146182013,
+    "normalizedGaussian_ratio": 0.7274957073091007,
+    "ranking_reversed": true
+  },
+  "scientific_contract": "nativebasequadratic lacks variable logdet normalizer; constantSigma and ordinaryAPIexplicitloglikelihood are countercontrols; latterescape notpreservedbygradientAPI usedbypublicMetropolisNext",
+  "paper_application_unknown": true,
+  "experimental_CI_or_refit": false,
+  "original_source_hashes_unchanged": true,
+  "binary_sha256": "92ae9b26a19bc7015868a31cf1317d699eb2d500f54c7257fb8922f1a44ea48c",
+  "generated_at": "2026-10-19T12:40:43.026561+00:00"
+}

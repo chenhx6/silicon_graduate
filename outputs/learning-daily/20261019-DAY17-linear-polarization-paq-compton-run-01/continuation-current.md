@@ -1,11 +1,11 @@
-# Day17同session持续：checkpoint008之后
+# Day17原窗口继续：checkpoint009之后
 
-run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不变，nativegoal/runactive/Farmer42019不新建。001–007actualpush；007后formal17只对账一次，card-credit007/course next18/count17已核，partial18、未开19。008以publication008实际结果为准。先核clock/receipt/handoff/verification016，不能重复授卡。
+run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止/15–16收束不变。nativegoal/runactive/Farmer42019不新建；001–008actualpush，009以publication009实际结果为准。17已007后只授一次/course18count17，partial18、未开19，不能重复授分。先核clock/receipt/handoff/verification018。
 
-Day17课程完成但窗口继续；exactly18preview的Jensen定向/MU08六页与11/9行条件表已写knowledge。新Sunprimary实际arxivv2/9Nov2022十页主线/5图1表3式全读、not2023VoR；SI未得，officialsrc只有maintex/sixEPS。sourceSun/DSAM/lifetimeaudit/Wang最小sync，20changed/21mapped唯一writeback，016report/coverage/boundary/lint/diff均0，0errors199warnings；初rawhash缺项失败已留档/修复，原review/PLAN/Bib/raw/继承dirty保持。
+Day17课程交付complete但窗口继续；exactly18preview的新MADAI2015公开核原样四文件/Eigen3.3.7实际两API组件均compile/run0，variableCov/normalizer/fixedCov/defaultflags及ordinarycustom分支未被MH下一API保留的控制已canonical。不是fullGP/MCMC/paperproducer；完整旧项目Boost缺失exit1已留初失败，未装系统包/改TLS。源码/fixture/初版本/hash/compiled结果有receipt。
 
-SUN23-6–15核priors/GP/Gaussianlikelihood/quantiles、6390无finiteconstraint与modelE2辅助M1提取；rateexercise1.337024/.256516/B.021883/RME.295858不是原posterior/新CI。20fs仅条件width≈32.9106meV，不转成第五项90%limit。
+SunpublisherSI新CDN入口200五页十三图已全文/视觉核，rawhash630d45...0d0aa；sourceSUN23-17–22补target/DAQ/六αgates与posteriorpanels。仍无actualbins/training/config/draws。Fig13不补90th数值/真实hardpriorcut，20fs不能自动转formal90%bound。source原先“SI未得”为008历史，最新scope已更新。VoR主文新imageAPI400、ScienceDirect403、API401，勿同URL重试或从metadata当body；目前2022v2+publisherSI版本分开。
 
-下一明确高信息问题MADAI/DistributionSampling公开2015commit9f9ee0dac704d77492d9905b4d90a57746201912，tmp/day17-madai。sourcebeforecode回忆已冻、Model.cxx与GPEmulatedModel.cxx/README已完整原读；Modelliteralquadratic无logdet、defaultcovfalse且log_likelihoodoutput可override；这些不是paperactualconfig/修改。准备actualoriginalcomponent核cov/norm/callpath，编译/测试未执行，系统Eigenheader缺；选定dependency下载有handle/receipt，以actualresult为准，不编造通过、不改系统/TLS/credentials。未得actual31Sevents/training/SI/posterior，不能造原L4fit或判实验错。
+018实际report/唯一writeback21changed/22mapped/coverage/boundary/lint/diff0，0errors201warnings；原Sun15行/flags、PLAN/Bib/raw/继承dirty保持。下一高信息限定问题SI Fig9/12中1/2+态与A2物理对象：先冻承认priming的新问题，区分核restframe spin-density rank允许域、boost/gates与phenomenologicalresponse，不直接判原fit错或算实际τbias。若需原producer而无input，保存readiness并重建候选池，不堆同toy。
 
-保持day17与原窗口研究直到deadline/严格整体饱和门；只无学分18知识，不能开19。15点stop新研究，整日报告/知识/checks/续接/receipt/显式发布完整后才goalcomplete，原runner中断不伪造正常exit。
+只有原deadline或严格整体饱和门后才整日收束/goalcomplete；不能开19/授18，不新建daemon/session。

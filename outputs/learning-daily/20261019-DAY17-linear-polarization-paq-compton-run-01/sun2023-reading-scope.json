@@ -16,5 +16,7 @@
   "actual_counts_training_response_posterior_draws_acquired": false,
   "next_code": "MADAI public2015commit9f9ee0... obtained; Model.cxx/GPEmulatedModel.cxx/README fullread; remaining callpath/config/componentexecution pending; notpaperexactproducer",
   "uncredited_preview_day": 18,
-  "formal_day": 17
+  "formal_day": 17,
+  "subsequent_publisher_SI_reading": "actual5pages/all13figures nowread; separate sun2023-si-reading-scope.json supersedes earliernotacquired state",
+  "native_component_scope": "pinned2015publicfourfileModelcomponent nowbothAPIs compiled/executed; not paperexactproducer/fullGP/MCMC"
 }

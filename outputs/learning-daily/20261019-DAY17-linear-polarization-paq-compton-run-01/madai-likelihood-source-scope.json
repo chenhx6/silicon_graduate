@@ -1,0 +1,80 @@
+{
+  "pin": "9f9ee0dac704d77492d9905b4d90a57746201912",
+  "fullread": [
+    "src/Model.cxx",
+    "src/GaussianProcessEmulatedModel.cxx",
+    "src/MetropolisHastingsSampler.cxx",
+    "README.txt",
+    "LICENSE"
+  ],
+  "targetedread": [
+    "Model.h API",
+    "Sampler.cxx SetModel/Initialize/ParameterSetExternally",
+    "SamplerCSVWriter GenerateSamplesAndSaveToFile",
+    "madai_generate_trace application flag/sampler/CSV callpath",
+    "test GP flag controls",
+    "Defaults.cxx MCMC_USE_MODEL_ERROR=false and madai_generate_trace readssetting then passesCSVsetter"
+  ],
+  "notread": "entireGP/PCA implementation and allrepo notfullread; no Sunprivatecode/actualinput",
+  "blobchecks": [
+    {
+      "file": "src/Model.cxx",
+      "lines": 585,
+      "sha256": "1784476b861fd4d74cd0d747d41c57541cac897965947b1e89aa116e8642882f",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "src/Model.h",
+      "lines": 331,
+      "sha256": "b61e38ba530f046f5e0fe46dcded87deab0a5598fe8f580f2ec4a0533ab20a80",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "src/GaussianProcessEmulatedModel.cxx",
+      "lines": 288,
+      "sha256": "878a33c6a75b2f72dcbaee58e2c37c83a22c1c623403d7cad8fc5e091b7fcee7",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "src/MetropolisHastingsSampler.cxx",
+      "lines": 135,
+      "sha256": "b39c64a1600a105399c31d81476f0f918c91a366e77a3d354bfd78a55f833af4",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "src/Sampler.cxx",
+      "lines": 367,
+      "sha256": "fe3c87ef652d85ec5c06308e02e537546fcba5ea5d3500b9835f5d135910f843",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "src/SamplerCSVWriter.cxx",
+      "lines": 188,
+      "sha256": "b245575c1fbbd0bb3098d253e4bf91130539afabae25d2a737e0df8fc061192d",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "applications/madai_generate_trace.cxx",
+      "lines": 282,
+      "sha256": "e5186214210df253a5e9aac73f213607d11ccf75ee3e14d1f2aeb41f30b4e1d3",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "README.txt",
+      "lines": 110,
+      "sha256": "5cbb0c64ddf3920d6f0a84cb6484402194617faf1ab7bb9a547754a3470a4aee",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "LICENSE",
+      "lines": 35,
+      "sha256": "2c545f9cefdcd1eff3f20c6c35a866667540f79e46ad49de082c595902c689f5",
+      "blob_sha1_match": true
+    },
+    {
+      "file": "applications/Defaults.cxx",
+      "sha256": "c4cdf70eb2ee2132cac070dd841fb9c413144b8bb96928506c0e956200444579",
+      "scope": "targetedMCMCflag declaration/printing only"
+    }
+  ]
+}

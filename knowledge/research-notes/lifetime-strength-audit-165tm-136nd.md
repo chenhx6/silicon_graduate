@@ -133,3 +133,5 @@ MU08原Qt公式/轴的直接出处或实际code仍待新原件/producer；candid
 ## Promotion or Rejection History
 
 2026-10-19 Day17内无学分Day18知识preview建立；L2表/单位/CG控制完成，L3输入/反证矩阵已写回，L4原始谱重拟未ready。不给Day18正式学分、不将next_day_index越18、不打开Day19；formalDay18仍需其独立run逐卡审计。
+
+公开方法软件companion [[madai-2015-distribution-sampling-likelihood]] MDA15-3/4/6保存一项新nativecontrol：variableCov可令缺normalizer的quadratic排序反转，fixedCov不受该常数影响，ordinarycustomloglike不自动覆盖MH下一API。此处只L2/L3合同，非三核素原data重拟/CI或实验归因。

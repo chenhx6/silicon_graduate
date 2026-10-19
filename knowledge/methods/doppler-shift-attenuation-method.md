@@ -105,3 +105,7 @@ FITFTAU以带内恒定Qt拟合F曲线；默认`Qt(sf)=Qt(band)`，不等于τ相
 [[sun-2023-bayesian-dsam-31s]] SUN23-6–10：positivelifetimeprior、Eγ/bkg/sppriors和PCA/GP+Gaussianbinlikelihood是实际分析选择，restrictivenuisancepriors会强烈影响后验。τ–sp的负相关是原两long-lived态的报告，不裸迁给其它能区/体系。若emulatorΣ随参数变，完整Gaussian的normalizer也相关；原Eq3approx与actualtailoredcode需分开，未凭print判实验失败。
 
 SUN23-11的6390态无finiteconstraint；20fs及Γ>33meV是条件应用链，不能当TableI第五项90%upperlimit。SUN23-12/13显示由总τ得到的B(M1)另含USDB E2partialrate扣除；它不是独立测得纯M1或δ。当前[[lifetime-strength-audit-165tm-136nd]]增加该链作方法对照，不修改两原实验数值或宣称L4原谱已重拟。
+
+[[madai-2015-distribution-sampling-likelihood]] MDA15-2–8原样组件对variableΣ/normalizer、默认flag与ordinary/gradient-output两API作条件反例；fixedΣ是必要反证。它不认证[[sun-2023-bayesian-dsam-31s]] actualtailoredcode或原CI失效；需papercommit/config/实际response与数据。
+
+SUN23-17–22的publisherSI已原读：见[[sun-2023-bayesian-dsam-31s]]。它补target/DAQ/逐态αgates与posterior图，不给actualGP/config/draws；Fig13不是额外90%limit表，图轴也不自动给priorhardcut。1/2+态的A2需先核其物理对象/帧，不能直接叫已测alignment。

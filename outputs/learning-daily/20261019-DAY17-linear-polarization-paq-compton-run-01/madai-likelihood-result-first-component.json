@@ -1,0 +1,114 @@
+{
+  "identity": "MADAI2015-ORIGINAL-MODEL-COMPONENT-01",
+  "script_sha256": "6e279ed8bb7b4a4a20d366943b5003efb044385326f5d477263963ed358c75f9",
+  "contract_sha256": "801deb6879b33e0c8a61c6c1329bef5e04d9b0a114a9919f615291300db33d52",
+  "compile": {
+    "command": [
+      "g++",
+      "-std=c++11",
+      "-O1",
+      "-Itmp/day17-madai/original/src",
+      "-Itmp/day17-madai/eigen",
+      "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-fixture.cpp",
+      "tmp/day17-madai/original/src/Model.cxx",
+      "tmp/day17-madai/original/src/Parameter.cxx",
+      "tmp/day17-madai/original/src/Distribution.cxx",
+      "tmp/day17-madai/original/src/UniformDistribution.cxx",
+      "-o",
+      "tmp/day17-madai/component/frozen-audit"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "scope": [
+    "declaredoneoutputfixtures, prior0 except explicitUniformcontrol; not actual31S observeddata",
+    "samepredictedmean/residual variedtotalvariance tests xdependentGaussian normalization contract; no2pi fixedconstant needed in likelihoodratios",
+    "originalfourfilesunchanged; separatefixture only, fullprojectCMake failedBoostdependency; Random/sampler/GP/paper-tailoredpipeline notbuilt",
+    "publiccode2015 not identified2022paperproducer, fixedSigma/override/modifiedcode can alterapplication",
+    "negativecov is explicitinvalid-domain failurecontrol, not assertedpaperinput",
+    "formal17creditedonce, uncredited18methodpreview, noexperimentalposterior/CI"
+  ],
+  "source_pin": "9f9ee0dac704d77492d9905b4d90a57746201912",
+  "run": {
+    "exit_code": 0,
+    "stdout": "default_modelcov_off,0,-0.5,0\nzerores_totalvar1,0,0,1\nzerores_totalvar4,0,0,1\nres1_totalvar1,0,-0.5,1\nres1_totalvar4,0,-0.125,1\nres2_totalvar4,0,-0.5,1\ncustom_log_likelihood,0,-0.81814718055994529,1\nfinite_uniform_prior,0,-1.1931471805599454,1\nout_of_prior,0,-inf,1\ninvalid_negative_totalcov,0,0.5,1\n",
+    "stderr": ""
+  },
+  "rows": {
+    "default_modelcov_off": {
+      "native_status": 0,
+      "log_value": -0.5,
+      "covariance_calls": 0
+    },
+    "zerores_totalvar1": {
+      "native_status": 0,
+      "log_value": 0.0,
+      "covariance_calls": 1
+    },
+    "zerores_totalvar4": {
+      "native_status": 0,
+      "log_value": 0.0,
+      "covariance_calls": 1
+    },
+    "res1_totalvar1": {
+      "native_status": 0,
+      "log_value": -0.5,
+      "covariance_calls": 1
+    },
+    "res1_totalvar4": {
+      "native_status": 0,
+      "log_value": -0.125,
+      "covariance_calls": 1
+    },
+    "res2_totalvar4": {
+      "native_status": 0,
+      "log_value": -0.5,
+      "covariance_calls": 1
+    },
+    "custom_log_likelihood": {
+      "native_status": 0,
+      "log_value": -0.8181471805599453,
+      "covariance_calls": 1
+    },
+    "finite_uniform_prior": {
+      "native_status": 0,
+      "log_value": -1.1931471805599454,
+      "covariance_calls": 1
+    },
+    "out_of_prior": {
+      "native_status": 0,
+      "log_value": "-inf",
+      "covariance_calls": 1
+    },
+    "invalid_negative_totalcov": {
+      "native_status": 0,
+      "log_value": 0.5,
+      "covariance_calls": 1
+    }
+  },
+  "checks": {
+    "native_success_statuses": true,
+    "default_modelcov_not_consumed": true,
+    "equal_zero_residual_different_cov_equal_native": true,
+    "nonzero_residual_quadratic_only": true,
+    "custom_loglike_escape": true,
+    "prior_already_in_returned_value": true,
+    "invalid_negative_cov_is_finite_in_native": true,
+    "constant_cov_mean_ratio_control": true
+  },
+  "observed_behaviour_checks_ok": true,
+  "varying_covariance_contrast": {
+    "native_log_ratio_var4_over_var1": 0.375,
+    "normalizedGaussian_log_ratio_omitting_only_fixed2pi_constant": -0.3181471805599453,
+    "native_ratio": 1.4549914146182013,
+    "normalizedGaussian_ratio": 0.7274957073091007,
+    "ranking_reversed": true
+  },
+  "scientific_contract": "nativebasequadratic lacks variable logdet normalizer; constantSigma and explicitloglikelihood override are necessarycountercontrols",
+  "paper_application_unknown": true,
+  "experimental_CI_or_refit": false,
+  "original_source_hashes_unchanged": true,
+  "binary_sha256": "d140e609fdb39319f18f88e683a62a45d8d1f36b2dbe76e63049661b1061c1ae",
+  "generated_at": "2026-10-19T12:39:10.434019+00:00"
+}

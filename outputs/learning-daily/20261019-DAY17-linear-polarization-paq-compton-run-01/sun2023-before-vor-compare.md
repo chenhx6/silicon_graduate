@@ -1,0 +1,5 @@
+# Sun正式版比较前回忆/假设冻结
+
+已原读2022v2十页、publisherSI五页/13图、MADAI2015公开核两API实际组件，强priming，非独立盲测。2023Crossrefmetadata已核但VoRmainbody尚未得。
+
+如存在新公开正式版，需要比较作者/版本、Eq3normalizer/σ、τprior/support、6390的20fs/confidence语义和TableI，不能把2022v2片段直接称2023最终字面。SI/公开code同名不补paperexactimplementation，不把主文版本变更计独立实验。

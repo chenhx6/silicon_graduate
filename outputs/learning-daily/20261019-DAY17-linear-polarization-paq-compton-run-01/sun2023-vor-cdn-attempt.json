@@ -1,0 +1,10 @@
+{
+  "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0370269323001351-main.pdf",
+  "scope": "single bounded publicCDN exactPII maincandidate, no assumption validbody",
+  "status": 400,
+  "content_type": "text/xml",
+  "bytes": 219,
+  "sha256": "49425dc0ea547dc39d219dfee3a4c14132eb7026d027f3bf0453f76814ff2029",
+  "valid_pdf": false,
+  "response_prefix": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><service-error><status><statusCode>INVALID REQUEST</statusCode><statusText>Bad Request : Requested for Main PDF from IMAGE API</statusText></status></service-error>"
+}
