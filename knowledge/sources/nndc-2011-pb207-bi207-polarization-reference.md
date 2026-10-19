@@ -71,6 +71,9 @@ NSR1976Av01实际单record及Crossref核primary题名/作者/DOI，尚未取得�
 | N207-12 | Adoptedheader虽201102，所取Qrecord引用2012WA38且comment另列evaluation用2003Au03旧Q；currentselected object不是2011出版物字节不变的保证。本文reference的QP/Eg/MR保持各自字段来源，不用fetch日期或一项mass更新抹成全dataset新测量。 | record-level-version-boundary | direct-evaluation | Adopted L2–8；EC L3–8 | true |
 | N207-13 | 用EC Precord QEC2397.5keV和standard2m_ec²≈1021.998keV，β+到1633.358 level的名义预算约−257.856keV、到569.6988 level约805.803keV；上支β+直接馈入在该source条件下不开放。因此全source少量β+不等于1064/570选中cascade本身有β+，实际随机/污染背景仍需events。 | energy-accessibility-companion-boundary | direct-input-and-kinematic-inference | EC L8/L24/L79/L81；TU01-7 | true |
 
+| N207-14 | 用本页真实13/2→5/2→1/2与pureM4/E2条件，双角色共享I但P90分别−24/101与183/505；directtrace/exactCG/F–F3核闭合。该P不是source测量、原phase或真实arrayQ。 | task-conditional-role-calculation | derived-model | N207-2；N207-3；pb207-stokes-result exact_formulas | true |
+| N207-15 | 声明native±.02时P1064约−.250149/−.225222、P570约.374204/.350118；tinyE5强度不保证P同阶小误差。下支pure、无扰动/实际接受与primaryphase桥接是条件，未重标实验Q或造CI。 | task-interference-and-response-boundary | derived-model | pb207-stokes-result rows theta90；N207-10 | true |
+
 ## Summary
 
 这组官方记录提供实际reference的signedMR、ICC/光子归一与旧数据谱系，收窄[[triumf-griffin-compton-source-calibration]]的输入缺口。已知reference数值不等同于已知matching gate/response/Σ；不能把同一评价的两个对象、GF19派生Q和现在代码默认值算多次独立验证。
@@ -111,3 +114,5 @@ P1：若以后用207Pb作为真实P/Q/δ裁决，先核原primaryphase/gates/res
 ## Extracted Pages
 
 - [[triumf-griffin-compton-source-calibration]]、[[compton-polarimetry]]、[[linear-polarization-asymmetry]]；[[garnsworthy-2019-griffin-facility]]/[[grsisort-2026-compton-polarimetry-code]]保持跨source/版本回链。
+
+本日新的条件参考核保存于[[pb207-gated-polarization-reference]]，实际sourcehash/母态来自N207-2/3；N207-14/15是本任务推导，不变成官方评价直接报告。

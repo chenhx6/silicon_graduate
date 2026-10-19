@@ -445,3 +445,5 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 ## 软件字段存在不认证偏振响应
 
 [[geant3-vmc-2026-compton-baseline]] G3-2/3/5/7/8：当前标准G3COMP不消费POLAR，uniformphi和同RNG偏振对照明确其unpolarizedbaseline身份。真实代码组件的KN/守恒通过不验证polarimeterQ；transportcuts还需与GR97电子学threshold/geometry分开。
+
+[[pb207-gated-polarization-reference]]以N207-2/3/14/15保存一个实际序列的条件反例：交换target/gate保持同W却改变P；smallupperintensity不保证同阶P变化。nativephase/finiteacceptance未得时不将理论pointP乘入原实验Q。

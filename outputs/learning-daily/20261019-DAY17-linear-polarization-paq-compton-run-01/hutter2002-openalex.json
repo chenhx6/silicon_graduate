@@ -1,0 +1,962 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/S0168-9002(02)00578-8",
+  "status": 200,
+  "metadata": {
+    "id": "https://openalex.org/W1876249805",
+    "doi": "https://doi.org/10.1016/s0168-9002(02)00578-8",
+    "title": "Polarization sensitivity of a segmented HPGe detector up to 10",
+    "display_name": "Polarization sensitivity of a segmented HPGe detector up to 10",
+    "publication_year": 2002,
+    "publication_date": "2002-08-01",
+    "ids": {
+      "openalex": "https://openalex.org/W1876249805",
+      "doi": "https://doi.org/10.1016/s0168-9002(02)00578-8",
+      "mag": "1876249805"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/s0168-9002(02)00578-8",
+      "doi": "https://doi.org/10.1016/s0168-9002(02)00578-8",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s0168-9002(02)00578-8",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S145630073",
+        "display_name": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment",
+        "issn_l": "0168-9002",
+        "issn": [
+          "0168-9002",
+          "1872-9576"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5109500017",
+          "display_name": "Carsten Hutter",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "C. Hutter",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049599694",
+          "display_name": "M. Babilon",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "M. Babilon",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113702182",
+          "display_name": "Wolfgang Bayer",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "W. Bayer",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028529621",
+          "display_name": "Daniel Galaviz",
+          "orcid": "https://orcid.org/0000-0003-2992-4496",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2992-4496"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "D. Galaviz",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "T. Hartmann",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "T. Hartmann",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033300728",
+          "display_name": "P. Mohr",
+          "orcid": "https://orcid.org/0000-0002-6695-9359",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6695-9359"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "P. Mohr",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5027083412",
+          "display_name": "S. Müller",
+          "orcid": "https://orcid.org/0000-0001-8071-8853",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8071-8853",
+            "https://orcid.org/0000-0002-2676-8267",
+            "https://orcid.org/0000-0003-2404-5919"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "S. Müller",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5088434261",
+          "display_name": "W. Rochow",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8087733",
+            "display_name": "University of Tübingen",
+            "ror": "https://ror.org/03a1kwz48",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8087733"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "W. Rochow",
+        "raw_affiliation_strings": [
+          "Physikalisches Institut, Universität Tübingen, Auf der Morgenstelle 14, D-72076 Tübingen, Germany",
+          "Physikalisches Institut, Universität Tübingen, Auf der Morgenstelle 14, D-72076, Tübingen, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Physikalisches Institut, Universität Tübingen, Auf der Morgenstelle 14, D-72076 Tübingen, Germany",
+            "institution_ids": [
+              "https://openalex.org/I8087733"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Physikalisches Institut, Universität Tübingen, Auf der Morgenstelle 14, D-72076, Tübingen, Germany",
+            "institution_ids": [
+              "https://openalex.org/I8087733"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086165217",
+          "display_name": "D. Savran",
+          "orcid": "https://orcid.org/0000-0002-2685-5600",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2685-5600"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "D. Savran",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058764179",
+          "display_name": "K. Sonnabend",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "K. Sonnabend",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108245729",
+          "display_name": "K. Vogt",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "K. Vogt",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108190436",
+          "display_name": "S. Volz",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "S. Volz",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5106918503",
+          "display_name": "Andreas Zilges",
+          "orcid": "https://orcid.org/0000-0002-9328-799X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9328-799X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31512782",
+            "display_name": "Technische Universität Darmstadt",
+            "ror": "https://ror.org/05n911h24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "A. Zilges",
+        "raw_affiliation_strings": [
+          "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstrasse 9, D-64289 Darmstadt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I31512782"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5106918503"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I31512782"
+    ],
+    "apc_list": {
+      "value": 2620,
+      "currency": "USD",
+      "value_usd": 2620
+    },
+    "apc_paid": null,
+    "fwci": 1.4138,
+    "has_fulltext": false,
+    "cited_by_count": 19,
+    "citation_normalized_percentile": {
+      "value": 0.78923271,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 88,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "489",
+      "issue": "1-3",
+      "first_page": "247",
+      "last_page": "256"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11216",
+      "display_name": "Radiation Detection and Scintillator Technologies",
+      "score": 0.41769999265670776,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3108",
+        "display_name": "Radiation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11216",
+        "display_name": "Radiation Detection and Scintillator Technologies",
+        "score": 0.41769999265670776,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3108",
+          "display_name": "Radiation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11044",
+        "display_name": "Particle Detector Development and Performance",
+        "score": 0.37229999899864197,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3106",
+          "display_name": "Nuclear and High Energy Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13414",
+        "display_name": "Radioactive Decay and Measurement Techniques",
+        "score": 0.08420000225305557,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3108",
+          "display_name": "Radiation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/compton-polarimeter",
+        "display_name": "Compton polarimeter",
+        "score": 0.7369999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/polarization-sensitivity",
+        "display_name": "polarization sensitivity",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/parity-assignment",
+        "display_name": "parity assignment",
+        "score": 0.7170000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/high-energy-gamma-rays",
+        "display_name": "high-energy gamma rays",
+        "score": 0.75
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C77530849",
+        "wikidata": "https://www.wikidata.org/wiki/Q693545",
+        "display_name": "Polarimeter",
+        "level": 4,
+        "score": 0.8549591302871704
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.831993579864502
+      },
+      {
+        "id": "https://openalex.org/C61203554",
+        "wikidata": "https://www.wikidata.org/wiki/Q171516",
+        "display_name": "Compton scattering",
+        "level": 3,
+        "score": 0.7517223358154297
+      },
+      {
+        "id": "https://openalex.org/C94915269",
+        "wikidata": "https://www.wikidata.org/wiki/Q1834857",
+        "display_name": "Detector",
+        "level": 2,
+        "score": 0.7391345500946045
+      },
+      {
+        "id": "https://openalex.org/C148704626",
+        "wikidata": "https://www.wikidata.org/wiki/Q257415",
+        "display_name": "Semiconductor detector",
+        "level": 3,
+        "score": 0.676666259765625
+      },
+      {
+        "id": "https://openalex.org/C205049153",
+        "wikidata": "https://www.wikidata.org/wiki/Q2698605",
+        "display_name": "Polarization (electrochemistry)",
+        "level": 2,
+        "score": 0.6721213459968567
+      },
+      {
+        "id": "https://openalex.org/C550623735",
+        "wikidata": "https://www.wikidata.org/wiki/Q867",
+        "display_name": "Germanium",
+        "level": 3,
+        "score": 0.6435268521308899
+      },
+      {
+        "id": "https://openalex.org/C159317903",
+        "wikidata": "https://www.wikidata.org/wiki/Q3198",
+        "display_name": "Photon",
+        "level": 2,
+        "score": 0.6131537556648254
+      },
+      {
+        "id": "https://openalex.org/C120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "level": 1,
+        "score": 0.6017839312553406
+      },
+      {
+        "id": "https://openalex.org/C191486275",
+        "wikidata": "https://www.wikidata.org/wiki/Q210028",
+        "display_name": "Scattering",
+        "level": 2,
+        "score": 0.4908526539802551
+      },
+      {
+        "id": "https://openalex.org/C28493345",
+        "wikidata": "https://www.wikidata.org/wiki/Q899381",
+        "display_name": "Polarimetry",
+        "level": 3,
+        "score": 0.40085312724113464
+      },
+      {
+        "id": "https://openalex.org/C49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "level": 1,
+        "score": 0.15327295660972595
+      },
+      {
+        "id": "https://openalex.org/C544956773",
+        "wikidata": "https://www.wikidata.org/wiki/Q670",
+        "display_name": "Silicon",
+        "level": 2,
+        "score": 0.12171328067779541
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.05929252505302429
+      },
+      {
+        "id": "https://openalex.org/C147789679",
+        "wikidata": "https://www.wikidata.org/wiki/Q11372",
+        "display_name": "Physical chemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/s0168-9002(02)00578-8",
+        "doi": "https://doi.org/10.1016/s0168-9002(02)00578-8",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/s0168-9002(02)00578-8",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S145630073",
+          "display_name": "Nuclear Instruments and Methods in Physics Research Section A Accelerators Spectrometers Detectors and Associated Equipment",
+          "issn_l": "0168-9002",
+          "issn": [
+            "0168-9002",
+            "1872-9576"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.699999988079071,
+        "display_name": "Affordable and clean energy",
+        "id": "https://metadata.un.org/sdg/7"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 22,
+    "referenced_works": [
+      "https://openalex.org/W1963923300",
+      "https://openalex.org/W1967770296",
+      "https://openalex.org/W1971619379",
+      "https://openalex.org/W1974681958",
+      "https://openalex.org/W2002987110",
+      "https://openalex.org/W2003641371",
+      "https://openalex.org/W2022543740",
+      "https://openalex.org/W2022773244",
+      "https://openalex.org/W2029130944",
+      "https://openalex.org/W2034077607",
+      "https://openalex.org/W2037620620",
+      "https://openalex.org/W2054297011",
+      "https://openalex.org/W2059424225",
+      "https://openalex.org/W2061227909",
+      "https://openalex.org/W2061558337",
+      "https://openalex.org/W2064706315",
+      "https://openalex.org/W2075904190",
+      "https://openalex.org/W2086540125",
+      "https://openalex.org/W2090923797",
+      "https://openalex.org/W2095426959",
+      "https://openalex.org/W2154990266",
+      "https://openalex.org/W2332172998"
+    ],
+    "related_works": [
+      "https://openalex.org/W1997736011",
+      "https://openalex.org/W1974144587",
+      "https://openalex.org/W2972477316",
+      "https://openalex.org/W2998924905",
+      "https://openalex.org/W2028282247",
+      "https://openalex.org/W2023578023",
+      "https://openalex.org/W2015726155",
+      "https://openalex.org/W1970032469",
+      "https://openalex.org/W1982511220",
+      "https://openalex.org/W1987041484"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2015,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2014,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2013,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2012,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-10-17T09:40:24.721904",
+    "created_date": "2025-10-10T00:00:00"
+  }
+}

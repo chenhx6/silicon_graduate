@@ -1,0 +1,53 @@
+{
+  "lint_exit_code": 1,
+  "counts": {
+    "error": 7,
+    "warning": 197,
+    "info": 2635
+  },
+  "errors": [
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Competing Explanations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Transfer Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Failure Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "message": "missing ## Promotion or Rejection History"
+    }
+  ],
+  "classification": "newnote schema missing seven required headings; science calculation passed; actual initial failure preserved"
+}

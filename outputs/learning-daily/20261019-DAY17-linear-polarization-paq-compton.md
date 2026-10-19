@@ -147,6 +147,14 @@ NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/Ph
 
 本session的数学交叉核验为同一design的内部证据；两原件不同采集可以比较合同，但不能组合成一个新的实际计数实验。任何真实反演仍需matchingresponse/完整Σ。
 
+### 207Pb双门角色的新条件核
+
+新canonical [[../../knowledge/research-notes/pb207-gated-polarization-reference]]以实际N207-2/3输入作本session独立练习；非重跑旧Co60结果。[新合同](20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-contract.json)/[新程序](../../system/scripts/day17_pb207_conditional_stokes.py)/[实际结果](20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-result.json)给pureM4/E2的P1064(90°)=−24/101与P570(90°)=183/505，共享W=1+(221/1001)P2−(18/1001)P4；角色互换不只换能量。native±.02的pointP分别约−.25015/−.22522与.37420/.35012，小E5强度并不保证同阶P精度。原primaryphase未知，未将评价正号指定native或重标paperQ。
+
+直接光子迹与独立exactCG/阶乘d最大差8.88×10⁻16，独立F/F3三rank符号残差0；PSD/nativeRB/EMduality及directfullsphere4controls通过。68–113°均匀cos接受仅是声明设计，pure平均−.21603/.34124不是实际GRIFFINP；unobservedgate共同轴Stokes0与eventplane标量平均分开。N207-14/15为新derivedmodel claims，非官方测量。
+
+Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、downloadercredentials_missing、OpenAlex/Semantic无OA、机构验证页/403、Scholar/Googletimeout及Bingofftopic留[boundary](20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-body-boundary.json)。不算阅读credit，不绕过访问限制或从题名补高能结果。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -614,6 +622,25 @@ NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/Ph
           "locator": "TU01-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "summary": "以本session官方13/2→5/2→1/2实际输入导出双门角色I/Q_J/P，exactCG与独立F/F3/directsphere控制；下支pure与nativephase/实际接受缺口明确，不重拟实验Q。",
+      "anchor": "交换门角色不能只交换能量",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-15"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-10"
+        }
+      ]
     }
   ]
 }
@@ -658,3 +685,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 ### checkpoint005官方reference验收
 
 官方207Pb两对象/P–N–E格式scope与1976primaryaccess边界见本run对应receipt；[verification-012](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-012.json)为本批当前验收。稳定指针main / `Audit DAY17 official Pb207 reference and normalization covariance`，精确hash与actualH3/push只publication-005。report/唯一writeback十二页、partial17coverage、boundary/lint/diff均须actual通过才发布；本checkpoint不授卡或结束原窗口。下一Hutter2002目前仅metadata，不算已读原件。
+
+### checkpoint006条件参考与访问边界
+
+[verification-013](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-013.json)实际report/唯一writeback十三页/partial17coverage/boundary/lint/diff通过，均exit0、0errors197warnings；新note初lint缺七schemaheading为exit1，修正并保留initialreceipt。旧N20713行/TU017行与reviewflags保持。新高L/半整数条件核、独立F/F3残差0和spherecontrols不代实验CI。
+
+1977Ku09已核NSR/Crossref identity为Kumar等PRC15,1852、DOI10.1103/PhysRevC.15.1852；正文下载因CDP不可达为do_not_auto_retry，未读原扰动/phase/fit。1976/1977两对象新增OSTI查询connecttimeout，均未取得body，不原样重试。稳定指针main / `Derive DAY17 Pb207 gated Stokes with explicit phase and response limits`，精确hash/actualH3/push只publication-006。原研究窗与课程状态保持active/partial17，不因本批局部闭合结束。

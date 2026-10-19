@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-19T11:54:35.357031+00:00",
+  "records": [
+    {
+      "doi": "10.1103/PhysRevC.13.2067",
+      "route": "https://www.osti.gov/api/v1/records?search=10.1103%2FPhysRevC.13.2067",
+      "result": "connecttimeout20s; no body/metadata response acquired"
+    },
+    {
+      "doi": "10.1103/PhysRevC.15.1852",
+      "route": "https://www.osti.gov/api/v1/records?search=10.1103%2FPhysRevC.15.1852",
+      "result": "connecttimeout20s; no body/metadata response acquired"
+    }
+  ],
+  "scope": "new lawful metadata discovery; actual tool stdout timeout retained here; no identical retry"
+}

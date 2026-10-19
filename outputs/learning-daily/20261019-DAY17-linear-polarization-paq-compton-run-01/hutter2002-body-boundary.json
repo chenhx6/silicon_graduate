@@ -1,0 +1,12 @@
+{
+  "candidate": "Hutter2002",
+  "doi": "10.1016/S0168-9002(02)00578-8",
+  "at": "2026-10-19T11:47:14.448064+00:00",
+  "body_obtained": false,
+  "reading_credit": false,
+  "downloader_manifest": "tmp/day17-hutter2002/manifest.json",
+  "status": "credentials_missing; no OA location in OpenAlex/Semantic; publisherdiscovery no candidate",
+  "institution": "Koeln403/500; TUprints botchallenge; no bypass",
+  "search": "Scholar tool timeout; Google timeout; Bing200 off-topic ignored",
+  "next": "only a genuinely new lawful body/input route; current study moves to official207Pb conditional reference"
+}

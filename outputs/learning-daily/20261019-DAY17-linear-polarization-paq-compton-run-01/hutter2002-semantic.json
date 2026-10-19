@@ -1,0 +1,19 @@
+{
+  "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/S0168-9002(02)00578-8?fields=title,openAccessPdf,url,externalIds",
+  "status": 200,
+  "metadata": {
+    "paperId": "f1b2ba85e74c44ffe77d594700b80900bc438bf6",
+    "externalIds": {
+      "MAG": "1876249805",
+      "DOI": "10.1016/S0168-9002(02)00578-8",
+      "CorpusId": 119791392
+    },
+    "url": "https://www.semanticscholar.org/paper/f1b2ba85e74c44ffe77d594700b80900bc438bf6",
+    "title": "Polarization sensitivity of a segmented HPGe detector up to 10 MeV",
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null
+    }
+  }
+}

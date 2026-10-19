@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-10-19T11:55:45.538522+00:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 17,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 197,
+      "info": 2635
+    },
+    "errors": []
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "nndc-2011-pb207-bi207-polarization-reference": {
+    "old_rows_unchanged": true,
+    "old_count": 13,
+    "old_review_unchanged": true
+  },
+  "tuli-2001-ensdf-format-manual": {
+    "old_rows_unchanged": true,
+    "old_count": 7,
+    "old_review_unchanged": true
+  },
+  "model": {
+    "ok": true,
+    "script_hash_match": true,
+    "independent_rank_residuals": [
+      "0",
+      "0",
+      "0"
+    ],
+    "not_experimental": true
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "ok": true,
+  "report_sha256": "2fc32edb2066c6aff20ccf4643d95ff435a552b1b63fed5f6373b6d616c1ed60"
+}

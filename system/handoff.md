@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 active; official reference checkpoint005
+## Active handoff — DAY17 active; conditional reference checkpoint006
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止不改，nativegoalactive/Farmer42019沿用，原runner16:06中断不伪造正常exit。001–004已actualH3/Gitee push；005稳定指针main / `Audit DAY17 official Pb207 reference and normalization covariance`，实际hash/push仅本runpublicationreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止不改，nativegoalactive/Farmer42019沿用。原runner16:06中断不伪造normalexit。001–005实际H3/Gitee已push；006稳定指针main / `Derive DAY17 Pb207 gated Stokes with explicit phase and response limits`，actualhash/push只本runreceipt。
 
-本session ST99/SG98完整原读、PAQ/sharedCov/arrayweights与publicGRSISort原样ROOT组件/fullScalePlot/Lean schema正负控制已canonical；GF19完整36页/28fig8table12eq的actualQ/half-factor/reference已核。Table2 native45mmdepth/26mmoffset两距离128位置相合；Table8仍partial，不调inputs或称sourceerratum。v1只targetedtables，VoR metadata不等body。旧ST99/SG98/Smith claim flags、PLAN/Bib/raw/继承dirty保持。
+ST99/SG98原件与本session独立PAQ/sharedCov/arrayweight、原样ROOTcode/fullconsumer正负控制、GF19v2完整36页主线与official207Pb字段已canonical。Table8几何仍partial；实际events/response/Σ/historicalproducer未得，不调inputs消差。
 
-新官方207Pb Adopted定向/EC154行完整原读、P/N/E manual三页text+视觉核：1064 MR+.02(.01)、570空MR、实验/理论ICC不同来源；RI570与ICC派生Cov、photonpair非singles独立乘积。β+到1633预算为负，whole-source小branch不等selectedcascade污染；upper.806s不等两γ间隔。NSR1976Av01 identity/DOI已核，primarybody未得（APS403/harvest401），无phase/fitΣ补写。源/程序/条件result已写knowledge；不是新P/Q/δ实验CI。
+本批新knowledge/research-notes/pb207-gated-polarization-reference.md：actual13/2→5/2→1/2在pureM4/E2条件下共享I而两角色P90=−24/101、183/505；小E5振幅对P有一阶影响，不能按强度纯度估误差。native±.02只是phase未桥接前的两声明输入，不把评价+.02指定native。directtrace/exactCG及独立F/F3全闭合、fullsphere共同轴Stokes0、finiteangle仅design。不是实验Q/P/δ或CI，不重标GF19。
 
-当前唯一writeback十二knowledge页、report仍partial17；课程next17/count16不动，Day18仅检查卡未研究、未开19。verification012核当前report/writeback/coverage/boundary/lint/diff；此前011均0、0errors197warnings（140key53raw4parser）。本批P/N/E旧claim行/flags保持。
+Hutter2002 body未得：metadata/OA无fulltext，机构challenge/403，终态不重试；1977Ku09 NSR/DOI identity已核但downloaderCDP不可达do_not_auto_retry、未读body；1976/1977新OSTI连接超时。actualsourcebeforefreezes及accessreceipts保存。原phase/perturbation/fitCov缺口保持，别以title/abstract补科学事实。
 
-下一先核clock/原receipt，再沿高信息实际reference/calibration原件；Hutter2002 DOI10.1016/S0168-9002(02)00578-8目前只metadata，未body/read。新source前另冻回忆。当前问题如饱和才按时间门恰好无学分Day18preview；不因checkpoint结束整日，不再重复toy/终态失败URL。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+verification013当前十三knowledge页唯一writeback/report/coverage/boundary/lint/diff均0，0errors197warnings；新note初7schemaerrors已修并留initialfailure。旧N20713/TU017行与review保持。formal17仍partial，next17/count16不动；18只检查卡未研究、未开19。下一核clock/候选池，现207Pb理论局部闭合、primary/response输入受限；若无新实际source路线，按时间门可恰好无学分Day18知识preview，不能开19或提前停止整日。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

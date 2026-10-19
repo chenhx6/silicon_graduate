@@ -1,0 +1,43 @@
+{
+  "subject": "Derive DAY17 Pb207 gated Stokes with explicit phase and response limits",
+  "paths": [
+    "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+    "knowledge/index.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+    "knowledge/research-notes/pb207-gated-polarization-reference.md",
+    "system/scripts/day17_pb207_conditional_stokes.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-005.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-013.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-013-initial-lint.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-006.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-result-first-pass.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-script-first-pass.py",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-author-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-before-body-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-before-body.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-body-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-crossref.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-institution-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-openalex.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-semantic.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kumar1977-before-body-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kumar1977-before-body.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kumar1977-body-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kumar1977-crossref.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-1977ku09-nsr.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-osti-discovery-boundary.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inherited dirty, PLAN/raw/Bib/credentials/tmp/daemon; log HEAD+own006 only"
+}

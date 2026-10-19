@@ -1,0 +1,46 @@
+{
+  "identity": "PB207-CONDITIONAL-STOKES-01",
+  "source_hashes": {
+    "tmp/day17-pb207-reference/adopted.ens": "81eeda5ce5045342b86f2f89a2612470cd50f707434d710fa670e9f5a5c850de",
+    "tmp/day17-pb207-reference/bi207ec.ens": "407ab95256d74a0db2be414f91315d13361ce80a9baef3fe36b8744436a47e4d"
+  },
+  "dependencies_sha256": {
+    "system/scripts/day16_co60_conditional_stokes.py": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
+    "system/scripts/day16_ucgretina_stokes_oracle.py": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598",
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+    "system/scripts/day16_co60_g4f3_crosscheck.py": "0fc1d4e8810dd6fb5547b662f68c47717c3696b6acbd7384554d536eda7ea6f5"
+  },
+  "delta_native_design_values": [
+    0,
+    0.01,
+    -0.01,
+    0.02,
+    -0.02,
+    0.03,
+    -0.03,
+    0.12,
+    -0.12
+  ],
+  "theta_deg": [
+    0,
+    30,
+    60,
+    68,
+    90,
+    113,
+    120,
+    150,
+    180
+  ],
+  "uniform_cos_design_interval_deg": [
+    68,
+    113
+  ],
+  "assumptions": [
+    "upper13/2 isotropic; M4/E5 first ->5/2; pureE2 second ->1/2 as model assumption",
+    "gate polarization/finalm traced; no hyperfine/deorientation; photonemission normalized not detection efficiency",
+    "native +/-magnitudes only, no primaryphase identification or experimental deltaCI",
+    "pointP and uniformcos design not actualGF19 finitearrayresponse/Q or CI",
+    "IQUV plane parallel uses local target/gateplane axes; StokesQ_J distinct from polarimeterQ"
+  ]
+}

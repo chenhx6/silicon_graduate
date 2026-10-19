@@ -627,6 +627,7 @@ updated: 2026-10-19
 
 ## Research Notes
 
+- [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。
 
 - [[gr97-stokes-response-and-merit]] - 原TableI/线性Stokes输运、不同response与merit统计合同；无学分Day17preview。

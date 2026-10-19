@@ -1,0 +1,2 @@
+
+- 2026-10-19 DAY17 checkpoint006：实际207Pb序列的conditional双门角色IQUV、exactCG/独立F–F3与sphere控制已canonical，phase/response/CI边界保持；Hutter2002/Kumar1977正文不可得不计阅读credit。十三knowledge页/partial17，原截止与next17/count16保持。稳定指针main / `Derive DAY17 Pb207 gated Stokes with explicit phase and response limits`，actualhash/push只runreceipt。

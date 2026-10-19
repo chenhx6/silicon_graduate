@@ -1,0 +1,12 @@
+{
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "frozen_at": "2026-10-19T11:47:14.440157+00:00",
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-before.md",
+  "sha256": "78fba653b6e9ee5391b0889f21a904da82b1fb9b97c01c1f8460804b7e8f6b72",
+  "inputs": [
+    "N207-2",
+    "N207-3",
+    "GF19-10"
+  ],
+  "new_task": "actual207Pb reference high-L/half-integer role and mixing sensitivity; no experimental refit"
+}

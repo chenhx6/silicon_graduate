@@ -1,0 +1,11 @@
+{
+  "doi": "10.1103/PhysRevC.15.1852",
+  "NSR": "1977KU09; actualidentity only, no scientificbody",
+  "body_obtained": false,
+  "read_scope": "Crossref/NSR metadata only",
+  "downloader_status": "do_not_auto_retry",
+  "reason": "CDP proxy not reachable; no institutional session available; not started/configured externally",
+  "manifest": "tmp/day17-kumar1977/manifest.json",
+  "observed_at": "2026-10-19T11:55:16.417603+00:00",
+  "boundary": "no originalphase/perturbation fit or CI certified"
+}

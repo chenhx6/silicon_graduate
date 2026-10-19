@@ -73,3 +73,5 @@ GF19-10的Fig20a为1064 M4(+E5)散射/570门，b为570 E2散射/1064门；不得
 ## Evolution Log
 
 - 2026-10-19：本session完整原件读取后建立source标定账本；Codex self-audit、unreviewed，无新experiment/CI或human-review。
+
+207Pb真实输入下的条件角色核另见[[pb207-gated-polarization-reference]]（N207-14/15）：purepointP90为−24/101与183/505；混合phase与实际接受未知，不用该设计重新标本实验Q。

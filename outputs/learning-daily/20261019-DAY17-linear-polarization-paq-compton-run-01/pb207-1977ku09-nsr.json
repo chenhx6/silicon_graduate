@@ -1,0 +1,138 @@
+{
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=1977Ku09&page=1&size=100",
+  "status": 200,
+  "response": {
+    "totalResults": 1,
+    "data": [
+      {
+        "keyNumber": "1977KU09",
+        "publicationYear": 1977,
+        "isPrimary": true,
+        "entryDate": "1980-06-25",
+        "codenText": "JOUR PRVCA C15 1852",
+        "referenceType": "JOURNAL",
+        "journalCode": "PRVCA",
+        "indexInformation": "C15 1852",
+        "referenceText": "Phys.Rev. C15, 1852 (1977)",
+        "authors": [
+          {
+            "initials": [
+              "A"
+            ],
+            "lastName": "Kumar"
+          },
+          {
+            "initials": [
+              "S",
+              "K"
+            ],
+            "lastName": "Soni"
+          },
+          {
+            "initials": [
+              "S",
+              "C"
+            ],
+            "lastName": "Pancholi"
+          },
+          {
+            "initials": [
+              "S",
+              "L"
+            ],
+            "lastName": "Gupta"
+          }
+        ],
+        "collaborations": [],
+        "title": "Perturbation of the (1063.62-569.67) keV Gamma-Gamma Directional Correlation in {+207}Pb",
+        "doi": "10.1103/PhysRevC.15.1852",
+        "sentenceGroups": [
+          {
+            "topic": "RADIOACTIVITY",
+            "textFormat": "EXCHANGE",
+            "sentences": [
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "text": "{+207}Bi"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured |g|g(|q,H,t)"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "secondaryType": "DEDUCED",
+                    "text": "{+207}Pb level deduced |d,B(|l),T{-1/2}"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectorGroups": [
+          {
+            "selectors": [
+              "P:207BI;A.",
+              "M:OTHER;A.",
+              "N:207PB;B.",
+              "D:G-MULTIPOLARITY;B.",
+              "D:T1/2;B."
+            ]
+          }
+        ],
+        "atomicMassSelectors": [],
+        "atomicNumberSelectors": [],
+        "nuclideSelectors": [
+          {
+            "nuclideSubType": "PARENT",
+            "z": 83,
+            "n": 124,
+            "a": 207,
+            "elementName": "Bismuth",
+            "elementSymbol": "Bi",
+            "selectorFlag": "A"
+          },
+          {
+            "z": 82,
+            "n": 125,
+            "a": 207,
+            "elementName": "Lead",
+            "elementSymbol": "Pb",
+            "selectorFlag": "B"
+          }
+        ],
+        "reactionSelectors": [],
+        "subjectSelectors": [
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "OTHER",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "G-MULTIPOLARITY",
+            "selectorFlag": "B"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "T1/2",
+            "selectorFlag": "B"
+          }
+        ],
+        "errataEntries": [],
+        "pdfAvailable": false,
+        "xundlAvailable": false,
+        "exforKeys": []
+      }
+    ],
+    "last_page": 1
+  }
+}
