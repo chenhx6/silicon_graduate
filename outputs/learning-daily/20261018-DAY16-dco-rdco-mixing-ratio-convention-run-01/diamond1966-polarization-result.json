@@ -1,0 +1,405 @@
+{
+  "at": "2026-10-19T13:33:27.028980+08:00",
+  "script_sha256": "09fb7db843f82f9cf2a33e4a1a818deea6512fcb8eb5218abbb593ecfe384fe9",
+  "contract_sha256": "853d31dde3efdce78b760915f1859ce3bd4045054b604f904c47633810974d9e",
+  "all_input_hashes_unchanged": true,
+  "pure_rank_and_EMdual_controls": {
+    "max_pure_relation_error": 4.884981308350689e-15,
+    "max_EMdual_error": 0.0,
+    "max_I90_reconstruction_error": 1.7763568394002505e-15,
+    "EMdual_AD_same_P_opposite": true
+  },
+  "cases": [
+    {
+      "top_spin2": 13,
+      "middle_spin2": 11,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "beta331_native_deg": -20.0,
+      "beta701_native_deg": -90.0,
+      "witness_observables": {
+        "331": {
+          "a2": -0.55,
+          "a4": 0.009999999999999998,
+          "I90": 1.27875,
+          "P90_plane_axis_native_EM": -0.03535598408643878,
+          "E2_fraction_of_radiative_amplitude_norm": 0.11697777844051097,
+          "pureE2_formula_from_same_AD_counterfactual": -0.6402737047898339,
+          "not_measured_polarization_or_source_delta": true
+        },
+        "701": {
+          "a2": 0.25917319273698913,
+          "a4": -0.03205737063905207,
+          "I90": 0.8583918896418613,
+          "P90_plane_axis_native_EM": 0.4295519760909141,
+          "E2_fraction_of_radiative_amplitude_norm": 1.0,
+          "pureE2_formula_from_same_AD_counterfactual": 0.429551976090915,
+          "not_measured_polarization_or_source_delta": true
+        }
+      },
+      "individual_fixed_beta_P_projections": {
+        "331": {
+          "P_min": -0.04513633380859316,
+          "P_max": -0.035355984086438745,
+          "endpoint_witnesses": [
+            {
+              "P": -0.04513633380859316,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8948026315789573,
+                0.10519736842104185,
+                0.0
+              ],
+              "I90": 1.3025981045008905,
+              "max_constraint_residual": 7.771561172376096e-16
+            },
+            {
+              "P": -0.035355984086438745,
+              "q_pair": [
+                0.0,
+                0.09633566426122196,
+                0.0,
+                0.0,
+                0.6126709760894966,
+                0.0,
+                0.29099335964928147
+              ],
+              "I90": 1.2787500000000012,
+              "max_constraint_residual": 5.204170427930421e-18
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        },
+        "701": {
+          "P_min": 0.4295519760909137,
+          "P_max": 0.5078012669351252,
+          "endpoint_witnesses": [
+            {
+              "P": 0.4295519760909137,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.2477202795288557,
+                0.0,
+                0.2686150322994207,
+                0.0,
+                0.4836646881717234
+              ],
+              "I90": 0.8583918896418619,
+              "max_constraint_residual": 2.220446049250313e-16
+            },
+            {
+              "P": 0.5078012669351252,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8842356493036,
+                0.11576435069640002,
+                0.0
+              ],
+              "I90": 0.8594249677542489,
+              "max_constraint_residual": 0.0
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        }
+      },
+      "same_parent_population_shared": true,
+      "not_joint_projection_rectangle": true
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 11,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "beta331_native_deg": 15.0,
+      "beta701_native_deg": -15.0,
+      "witness_observables": {
+        "331": {
+          "a2": -0.5499999999999998,
+          "a4": 0.009999999999999998,
+          "I90": 1.278750000000001,
+          "P90_plane_axis_native_EM": -0.046553996073210986,
+          "E2_fraction_of_radiative_amplitude_norm": 0.06698729810778066,
+          "pureE2_formula_from_same_AD_counterfactual": -0.6402737047898331,
+          "not_measured_polarization_or_source_delta": true
+        },
+        "701": {
+          "a2": 0.2387090944236066,
+          "a4": -0.02437500000000245,
+          "I90": 0.8715048277881972,
+          "P90_plane_axis_native_EM": 0.7350727943465165,
+          "E2_fraction_of_radiative_amplitude_norm": 0.06698729810778066,
+          "pureE2_formula_from_same_AD_counterfactual": 0.39337621055465527,
+          "not_measured_polarization_or_source_delta": true
+        }
+      },
+      "individual_fixed_beta_P_projections": {
+        "331": {
+          "P_min": -0.04669456192911093,
+          "P_max": -0.046553996073211,
+          "endpoint_witnesses": [
+            {
+              "P": -0.04669456192911093,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.0,
+                0.3994751017764529,
+                0.600524898223547
+              ],
+              "I90": 1.2796837162519272,
+              "max_constraint_residual": 0.0
+            },
+            {
+              "P": -0.046553996073211,
+              "q_pair": [
+                0.0012183609377651788,
+                0.0,
+                0.0,
+                0.3994751017764524,
+                0.5993065372857823
+              ],
+              "I90": 1.2787500000000007,
+              "max_constraint_residual": 1.1102230246251565e-16
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        },
+        "701": {
+          "P_min": 0.7350727943465168,
+          "P_max": 0.7379711179728531,
+          "endpoint_witnesses": [
+            {
+              "P": 0.7350727943465168,
+              "q_pair": [
+                0.0,
+                0.0036550828132954935,
+                0.0,
+                0.3897282142743312,
+                0.6066167029123731
+              ],
+              "I90": 0.8715048277881968,
+              "max_constraint_residual": 2.220446049250313e-16
+            },
+            {
+              "P": 0.7379711179728531,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.0,
+                0.399475101776453,
+                0.600524898223547
+              ],
+              "I90": 0.871099579495568,
+              "max_constraint_residual": 0.0
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        }
+      },
+      "same_parent_population_shared": true,
+      "not_joint_projection_rectangle": true
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 7,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "beta331_native_deg": -10.0,
+      "beta701_native_deg": -10.0,
+      "witness_observables": {
+        "331": {
+          "a2": -0.5499999999999998,
+          "a4": 0.009999999999999995,
+          "I90": 1.2787500000000005,
+          "P90_plane_axis_native_EM": -0.19129968866102068,
+          "E2_fraction_of_radiative_amplitude_norm": 0.030153689607045803,
+          "pureE2_formula_from_same_AD_counterfactual": -0.6402737047898334,
+          "not_measured_polarization_or_source_delta": true
+        },
+        "701": {
+          "a2": 0.28325227626860405,
+          "a4": -0.008750000000002188,
+          "I90": 0.8550926118656983,
+          "P90_plane_axis_native_EM": 0.7069024668460548,
+          "E2_fraction_of_radiative_amplitude_norm": 0.030153689607045803,
+          "pureE2_formula_from_same_AD_counterfactual": 0.4904844908995397,
+          "not_measured_polarization_or_source_delta": true
+        }
+      },
+      "individual_fixed_beta_P_projections": {
+        "331": {
+          "P_min": -0.19968911883247853,
+          "P_max": -0.19129968866102065,
+          "endpoint_witnesses": [
+            {
+              "P": -0.19968911883247853,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.0,
+                0.5616038285575973,
+                0.43839617144240256
+              ],
+              "I90": 1.2938050929653175,
+              "max_constraint_residual": 2.220446049250313e-16
+            },
+            {
+              "P": -0.19129968866102065,
+              "q_pair": [
+                0.0018009148494064523,
+                0.0,
+                0.24068735509611053,
+                0.0,
+                0.757511730054483
+              ],
+              "I90": 1.2787500000000005,
+              "max_constraint_residual": 0.0
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        },
+        "701": {
+          "P_min": 0.706902466846055,
+          "P_max": 0.7527782433919923,
+          "endpoint_witnesses": [
+            {
+              "P": 0.706902466846055,
+              "q_pair": [
+                0.0,
+                0.05354021556744107,
+                0.0,
+                0.41882992037774935,
+                0.5276298640548096
+              ],
+              "I90": 0.8550926118656983,
+              "max_constraint_residual": 1.734723475976807e-18
+            },
+            {
+              "P": 0.7527782433919923,
+              "q_pair": [
+                0.0,
+                0.0,
+                0.0,
+                0.5616038285575974,
+                0.4383961714424026
+              ],
+              "I90": 0.8473391766804956,
+              "max_constraint_residual": 0.0
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        }
+      },
+      "same_parent_population_shared": true,
+      "not_joint_projection_rectangle": true
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 11,
+      "population_mode": "freepositiveq",
+      "beta331_native_deg": 5.625,
+      "beta701_native_deg": -84.375,
+      "witness_observables": {
+        "331": {
+          "a2": -0.5667885340570795,
+          "a4": 2.918149101633682e-05,
+          "I90": 1.2834052100876716,
+          "P90_plane_axis_native_EM": -0.573188604086924,
+          "E2_fraction_of_radiative_amplitude_norm": 0.009607359798384776,
+          "pureE2_formula_from_same_AD_counterfactual": -0.6624287917575602,
+          "not_measured_polarization_or_source_delta": true
+        },
+        "701": {
+          "a2": 0.2331196444111519,
+          "a4": -0.0031196444111518825,
+          "I90": 0.8822703111402433,
+          "P90_plane_axis_native_EM": -0.08548022047428126,
+          "E2_fraction_of_radiative_amplitude_norm": 0.9903926402016153,
+          "pureE2_formula_from_same_AD_counterfactual": 0.39413055666619135,
+          "not_measured_polarization_or_source_delta": true
+        }
+      },
+      "individual_fixed_beta_P_projections": {
+        "331": {
+          "P_min": -0.5937873652614254,
+          "P_max": -0.5594623783593549,
+          "endpoint_witnesses": [
+            {
+              "P": -0.5937873652614254,
+              "q_pair": [
+                0.45789617388353104,
+                0.5421038261164689,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "I90": 1.2965118317975,
+              "max_constraint_residual": 6.938893903907228e-18
+            },
+            {
+              "P": -0.5594623783593549,
+              "q_pair": [
+                0.39034813666660356,
+                0.5908862369818686,
+                0.0,
+                0.018765626351527773,
+                0.0,
+                0.0
+              ],
+              "I90": 1.2752455453372995,
+              "max_constraint_residual": 1.1102230246251565e-16
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        },
+        "701": {
+          "P_min": -0.13624710960991088,
+          "P_max": -0.07302676830390237,
+          "endpoint_witnesses": [
+            {
+              "P": -0.13624710960991088,
+              "q_pair": [
+                0.39472678281529344,
+                0.6052732171847066,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "I90": 0.8577474854108842,
+              "max_constraint_residual": 5.551115123125783e-17
+            },
+            {
+              "P": -0.07302676830390237,
+              "q_pair": [
+                0.47129901875625474,
+                0.39467253251650747,
+                0.13402844872723743,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "I90": 0.8906427327195894,
+              "max_constraint_residual": 4.440892098500626e-16
+            }
+          ],
+          "fixed_betas_only_not_fullprofile_or_jointCI": true
+        }
+      },
+      "same_parent_population_shared": true,
+      "not_joint_projection_rectangle": true
+    }
+  ],
+  "scope": {
+    "no_measured_P_Q_or_covariance": true,
+    "fixed_beta_projection_not_full_mixing_profile": true,
+    "no_unique_spin_or_parity_identification": true,
+    "photon_emission90_not_Compton90": true,
+    "not_relabeling_inferred_P_as_independent_observation": true
+  }
+}

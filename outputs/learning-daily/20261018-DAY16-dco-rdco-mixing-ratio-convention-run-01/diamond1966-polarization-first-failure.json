@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T13:33:14.019947+08:00",
+  "session_id": 4804,
+  "exit_code": 1,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-polarization-first-script.py",
+  "script_sha256": "2f904f3cc76dcd8acfa19b3d861f1397f882eceffbfb284bdb973d4a06d3ad8f",
+  "failure": "pair_kernel importedfromwrongmodule; originalhelperlivesinrh99_population_feasibility",
+  "repair": "correctimportonly; no sourceorinputorLPconditionchange"
+}

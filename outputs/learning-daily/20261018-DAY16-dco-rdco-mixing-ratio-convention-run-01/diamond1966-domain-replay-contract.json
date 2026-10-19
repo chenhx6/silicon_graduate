@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-19T13:20:34.860307+08:00",
+  "identity": "D66-DOMAIN-INDEPENDENT-CERTIFICATE-REPLAY-01",
+  "domain_contract": "diamond1966-domain-contract.json",
+  "domain_contract_sha256": "918627fa7b0b4dd88fab864cfd14c089e748ce9873af734c04d8f85d42e31dcf",
+  "domain_result": "diamond1966-domain-result.json",
+  "domain_result_sha256": "d87796cf4d6c70bb59ece9d937ec0e4122decff61570a317e52773520889676a",
+  "post_newwitness_design": true,
+  "precision_decimal_digits": 80,
+  "tests": [
+    "rebuildexactRacah/CGcoefficientsindependently, noimport intervalboundorLPseparator functions",
+    "mpmath80endpointsandplusminusamplitudeextrema independentlygiveintervalbounds",
+    "allnonnegdualweights checkminvertexgapagainstexactcoeffbounds; originalouterpaddingmarginnotcalledformalproof",
+    "negativeleafbinarypathsreconstructlongestaxisdyadicpartition, prefixfreeandKraftsum1exactFraction",
+    "allmiddlepropagatedexclusionsreferencefullycoverednegative middlecase",
+    "newpointandrequiredmiddleoriginalkernel/highprecisionobservablepositiveq/boxreplay",
+    "tryinteriorboxslackatfixednewbeta withqfloorhalftheexistingqmin; usesameoriginalboxandnoamplitude/source retuning",
+    "sourceconvention/response/Covunknown; noexperimentalspinorCIororiginal5reproduction"
+  ],
+  "scope": "independentvalidationofexistingboundedanalysis; no newsource/card"
+}

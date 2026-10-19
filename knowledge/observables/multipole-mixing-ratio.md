@@ -414,3 +414,9 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 ## 数据存在解与“唯一δ”是两级结论
 
 [[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2的三线实际AD经[[199tl-three-ad-reference-feasibility]]保留共同上态的严格正q条件解与取向域差别。原作者的probable spin、数值网格witness、δphase和完整允许域不能互换；同parent纯度/取向与联合误差仍是选根输入。
+
+
+[[199tl-three-ad-reference-feasibility]]的新增条件witness显示：约99.04%的upperE2辐射份额仍不自动等pureE2偏振，剩余低多极振幅可保留显著干涉。固定β的P投影也不是完整δprofile；percent、相位和observable误差域须成套保留。
+
+
+该D66单还逐项核`Q90_mix−(1.5A2+.625A4)=−2A2_int`，说明相干修正可按低阶振幅而非强度份额变化。全βP符号仍可重叠，不能拿几个β点或相似E2百分比代替分支profile与约定合同。

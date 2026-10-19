@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-19T13:09:35.228333+08:00",
+  "identity": "D66-POSTGRID-CONSERVATIVE-CONTINUOUS-DOMAIN-01",
+  "base_contract": "diamond1966-threeAD-contract.json",
+  "base_contract_sha256": "ce56f5ef004d37651a711f0276fde0a9f8b45592ada7a00b283c37e026020300",
+  "grid_result": "diamond1966-threeAD-result.json",
+  "grid_result_sha256": "16e0b62ef8978f461853710394ea88133ba6229ae9d1e51f197201f8c003e45a",
+  "existing_source_and_error_domain_unchanged": true,
+  "outer_coefficient_padding": 1e-10,
+  "certificate_min_margin": 1e-08,
+  "min_beta_width_deg": 0.02,
+  "max_cells_per_problem": 5000,
+  "total_runtime_budget_seconds": 240,
+  "hard_stop_original": "2026-10-19T15:00:00+08:00",
+  "strict_witness_min_probability": 1e-07,
+  "method": "exactCG/6jradiationkernelcrosscheck; analytictrigextremawithoutwardpadding; simplexdualminvertex separation; centrepointwitnessotherwisebisectlongestamplitudeaxis",
+  "negative_certificate": "lambda>=0; min_i(lambda*A_i)-lambda*b>margin fornecessaryAq<=b,sumq1; allleavescoveredonlywithin declaredfloating/paddingassumptions",
+  "tests": [
+    "old19/sourcebox/helpers unchanged",
+    "exactRacah/CGpureandcrossnativephase matcheshelicitycoeff; nofittoobservations",
+    "intervaltrigbounds checkedagainstendpoints/midpoints; paddingfaraboveobservedcoefficienterror",
+    "everynegativecertificate dualnonnegative/sum1/marginrecomputed",
+    "everynewexistencewitness reconstructedoriginalkernelpositiveq/box/optionalmean",
+    "no formalexactprooforactualexperimentalexclusionclaimed; budgetleavesundecided",
+    "do notrerunoldfound11points asnewindependentcredit"
+  ],
+  "scope": "existingcurrentD66analysis only; no newsource/daycard; partial17retained"
+}

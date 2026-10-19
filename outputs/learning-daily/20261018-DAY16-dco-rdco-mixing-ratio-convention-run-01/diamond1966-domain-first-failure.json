@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T13:16:48.149810+08:00",
+  "session_id": 1978,
+  "exit_code": 1,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-domain-first-script.py",
+  "script_sha256": "131df024d4e92104e85fdc665daa070e36f364d2f6f3e90b4b5bd915f49c9ce3",
+  "failure": "numpy.column_stack called with two arguments instead of tuple",
+  "repair": "matrix-construction API only; no change source,boxes,coefficients,grid,LPmargins/budgets",
+  "first19_exactRacah_vs_helicity_crosschecks_completed_before_failure": true
+}

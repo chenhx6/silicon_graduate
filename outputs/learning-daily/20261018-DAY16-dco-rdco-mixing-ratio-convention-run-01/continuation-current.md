@@ -1,3 +1,19 @@
+# 最新checkpoint045
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked/工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+
+045 verification040实际report/card/唯一writeback69changed/69items、boundary/lint/diff0，0errors190warnings(137key50raw3parser)。原raw/PLAN/Bib/人审prefix、旧helpers/新5脚本/首失败快照保持。追加现有199tl-three-ad-reference-feasibility：粗5°网格漏了free11/11，解析trig外包/非负dual连续域找到beta3315.625/beta701−84.375；独立MP80重建Racah/极值/dual，16negative子问题23叶有理覆盖，mingap.00170146。固定新β后strictinterior余量约.328/.335quoted半宽。9free/3lowm仅声明point/对称q/边际盒数值分类，非formalexactproof/实验允许数/原19→5重现。
+
+固定β四组P投影先给差异，再做全βsign audit并独立MP80：三混合族各可正负P701，固定点分离不能外推全族；pureE2(13/2→9/2)才有原ADbox StokesQ≥.28625。未知EMduality/实际P/Q/response/Σ仍缺，不新定Jπ/δ。近99.04%E2新witness P≈−.08548而sameADpureE2反事实+.39413，精确Qmix−(1.5A2+.625A4)=−2A2int，强度dominant不自动抹干涉。
+
+五段最终脚本均actual0；domain首numpyAPI/companion首import两个actual1已留快照，修正没改任何source/errorbox/LP条件。13:30后仅完成这个已选issue，没有新source/card。
+
+本批稳定指针main / `Resolve DAY16 angular-distribution grid gaps and test polarization companions`，actualhash/H3/push仅publication045/runreceipt。044已actualGitee main / `Validate DAY16 pinned Compton code component and transport boundaries`。13:30禁止新source/fullcard门继续；15点严格stopresearch，15–16只报告/知识/检查/receipt/续接/发布收束。仍有约1h，不把本checkpoint当全run完成；下一仅已有知识的综合回忆/证据和运行一致性核验，不追加toy或新路线。
+
+保护raw/PLAN/Bib/credentials/原review/继承dirty/log；exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+
+# 先前checkpoint（历史）
+
 # 最新checkpoint044
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。

@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-19T13:40:28.696269+08:00",
+  "identity": "D66-CURRENT-FULLBETA-P701-SIGN-DOMAIN-01",
+  "base_contract": "diamond1966-threeAD-contract.json",
+  "base_contract_sha256": "ce56f5ef004d37651a711f0276fde0a9f8b45592ada7a00b283c37e026020300",
+  "fixed_projection_result": "diamond1966-polarization-result.json",
+  "fixed_projection_result_sha256": "b21fa32d749ef3a1a8bbd0b555af3f3268cb7547b1b12ea7247291a28df5d028",
+  "previous_domain_result": "diamond1966-domain-result.json",
+  "previous_domain_result_sha256": "d87796cf4d6c70bb59ece9d937ec0e4122decff61570a317e52773520889676a",
+  "cases": [
+    {
+      "top2": 13,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive"
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive"
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "mode": "extra_lowm_u2nonpositive"
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "mode": "freepositiveq"
+    }
+  ],
+  "polarization_sign_constraints": [
+    "P701_nonpositive",
+    "P701_nonnegative"
+  ],
+  "theta_emission_deg": 90,
+  "EM_family": "nativeM1E2sameparityonly; dualalternativesnotclaimedexcluded",
+  "initial_beta_domain_deg": [
+    -90,
+    90
+  ],
+  "outer_padding": 1e-10,
+  "certificate_min_margin": 1e-08,
+  "strict_q_floor": 1e-07,
+  "min_beta_width_deg": 0.02,
+  "max_cells_per_case": 8000,
+  "total_runtime_budget_seconds": 180,
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "tests": [
+    "StokesQpure/crossvectorscheckedagainstpreviouspurecontrols",
+    "fulltrigboundsanddualnecessarycells + P701signrow",
+    "everypointreconstructoriginalcoeff/positiveq/ADbox/sign/optionalmoment",
+    "nonpositivepureE2case independentQminimumfromADbox",
+    "no numericaltinygap classifiedexclusion; budgetleavesundecided",
+    "negativecelltreepartition/Kraft plusdual replayseparate",
+    "fixedwitness3E2fractioninterferencedefect exactQmix-pureE2formulafromcrossonly"
+  ],
+  "scope": "completecurrentD66boundedanalysis after13:30; no newsource/card,notexperimentalP/profileCI"
+}

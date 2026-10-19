@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T13:52:02.249648+08:00",
+  "session_id": 44679,
+  "exit_code": 0,
+  "script": "system/scripts/day16_diamond1966_fullbeta_Psign_replay.py",
+  "script_sha256": "64c591f53bc920b25a8c713a1a98b03915d238fd059a674eb302e50e84114bd8",
+  "MP80_8cases_and_analytic_purelimit_passed": true,
+  "notactualPmeasurement": true
+}

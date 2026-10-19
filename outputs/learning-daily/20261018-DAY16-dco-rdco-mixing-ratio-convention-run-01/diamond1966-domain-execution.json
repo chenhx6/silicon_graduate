@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T13:20:34.860307+08:00",
+  "session_id": 45247,
+  "exit_code": 0,
+  "script": "system/scripts/day16_diamond1966_continuous_domain.py",
+  "script_sha256": "372d1e463648663f396f2d8f34a9e773d727300a8f30f29cd997d9576557fc83",
+  "initial_actual1": "diamond1966-domain-first-failure.json",
+  "source_boxes_and_fixed_helpers_unchanged": true,
+  "numerical_certificates_need_independent_replay": true
+}

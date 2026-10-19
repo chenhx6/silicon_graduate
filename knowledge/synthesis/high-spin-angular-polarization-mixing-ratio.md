@@ -141,3 +141,9 @@ P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若
 ### Producer身份与字段的物理作用
 
 [[geant3-vmc-2026-compton-baseline]] G3-1–10补真实codecomponent：三核原样编译/600000事件通过只验证unpolarizedKN、单位/守恒/旋转/cut语义。POLAR字段、同软件名和版本年不是GR97原modifiedproducer或新的独立实验；计算可复现层与核实验response/Cov层继续分开。
+
+
+D66实际三线案例的连续域续核找到旧粗网格漏解，数值全域覆盖与独立MP80证书详[[199tl-three-ad-reference-feasibility]]。9free/3lowm是声明模型分类而非D66实验结论；偏振固定β投影差异不当完整family分离，近pure强度百分比也不消除相干干涉。
+
+
+同D66既有候选在完整β域检查后，两个lowm混合族与新free族均可正/负P701；已撤销从固定点差异推全族可分的任何可能暗示。[[199tl-three-ad-reference-feasibility]]保留pureE2解析正界、七个signwitness和MP80复核，未新测偏振或裁决核赋值。

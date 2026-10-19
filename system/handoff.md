@@ -8,17 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked/工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
 
-044 verification038实际report/card/唯一writeback69changed/69items、boundary/lint/diff0，0errors190warnings(137key50raw3parser)；原raw/PLAN/Bib/人审prefix、GR97旧2/4false及新旧源码/hash保护过。新source geant3-vmc-2026-compton-baseline G3-1–10固定public pin347fc6804dd116c66c2695df5d2c03d166a0364c/version4.5/Geant3.21+VMC，tree1846未截断；只读selectedfunctions/headers/targetedinit，不称全repo。10实际compileinputs双hash，vendor只tmp，不发布。
+045 verification040实际report/card/唯一writeback69changed/69items、boundary/lint/diff0，0errors190warnings(137key50raw3parser)。原raw/PLAN/Bib/人审prefix、旧helpers/新5脚本/首失败快照保持。追加现有199tl-three-ad-reference-feasibility：粗5°网格漏了free11/11，解析trig外包/非负dual连续域找到beta3315.625/beta701−84.375；独立MP80重建Racah/极值/dual，16negative子问题23叶有理覆盖，mingap.00170146。固定新β后strictinterior余量约.328/.335quoted半宽。9free/3lowm仅声明point/对称q/边际盒数值分类，非formalexactproof/实验允许数/原19→5重现。
 
-真实三核G3COMP/G3FANG/G3DROT原样+原headers，显式ParkMillerGRNDM/G3EKBINbookkeeping shims actualcompile0/run0，0.5/1.5/4MeV各200000组件事件。KN和phiCDFmax.00229<预设.006384，最大守恒/质量壳/norm约4.64e−7；同RNG改POLAR输出diff0、转轴cosdiff1.07e−7。字段有不认证偏振物理，所读G3TGAMA→G3COMP仍unpolarized，没找到相关文件名不证明全局code不存在。
+固定β四组P投影先给差异，再做全βsign audit并独立MP80：三混合族各可正负P701，固定点分离不能外推全族；pureE2(13/2→9/2)才有原ADbox StokesQ≥.28625。未知EMduality/实际P/Q/response/Σ仍缺，不新定Jπ/δ。近99.04%E2新witness P≈−.08548而sameADpureE2反事实+.39413，精确Qmix−(1.5A2+.625A4)=−2A2int，强度dominant不自动抹干涉。
 
-EMASS源码.0005109990615GeV，所读init默认CUTGAM/CUTELE .001GeV=1MeV，transportcuts不等GR97电子学threshold。高cut让光子localdeposit但能量仍闭合；点kernel通过不认证coincidence/真实geometry/modified1997producer/response/Σ或Q。fetcher缓存10hash只读actual0，下载分支未冒称本次执行。初gckmax rawConnectionError/未readyattempt1留档，exactblobAPI取真header300，无猜输入或vendor改动。
+五段最终脚本均actual0；domain首numpyAPI/companion首import两个actual1已留快照，修正没改任何source/errorbox/LP条件。13:30后仅完成这个已选issue，没有新source/card。
 
-本批稳定指针main / `Validate DAY16 pinned Compton code component and transport boundaries`，actualhash/H3/push仅publication044/runreceipt。043已actualGitee main / `Audit DAY16 Compton Stokes transport and matched response comparisons`。GR97 Eq13全部正确Eprime/E²，初漏撇号假设已否决，不复活为sourceerratum；P00另一原literal边界单列。
-
-原15:00尚近2h。下一只继续已有D66实际三线AD/同parent/positivepopulation的有限网格未完成域，考虑有界连续参数必要域/数值证书；源/输入已读，不开新source/卡。先clock/pool/合同冻结，有限grid0不能直接排除。13:30后不新开source，15点stopresearch收束。
+本批稳定指针main / `Resolve DAY16 angular-distribution grid gaps and test polarization companions`，actualhash/H3/push仅publication045/runreceipt。044已actualGitee main / `Validate DAY16 pinned Compton code component and transport boundaries`。13:30禁止新source/fullcard门继续；15点严格stopresearch，15–16只报告/知识/检查/receipt/续接/发布收束。仍有约1h，不把本checkpoint当全run完成；下一仅已有知识的综合回忆/证据和运行一致性核验，不追加toy或新路线。
 
 保护raw/PLAN/Bib/credentials/原review/继承dirty/log；exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
 

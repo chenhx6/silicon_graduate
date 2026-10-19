@@ -641,3 +641,9 @@ Decision: **supports** 从内积/测度与极限理解公式、用正交化构�
 ## 同母态三线：中央值与误差域分别检验
 
 [[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2的实际331/370/701 AD在[[199tl-three-ad-reference-feasibility]]中作条件核验：331/701共享density，370的totalpopulation独立保留。正q网格witness与额外u2≤0域分列；零命中不排连续解，中央A4的符号失配不代带误差数据的拒绝。原response/Cov未恢复，native δ不当原作者测量。
+
+
+D66后网格域检查在[[199tl-three-ad-reference-feasibility]]中找到被5°网格漏掉的新11/11严格内部解；带dual证书和80位/完整覆盖核验的9/3只属于声明point/marginalbox，不是实验spin允许数。source原19→5流程仍未恢复，不能凭数值接近或网格零命中代替。
+
+
+同一D66案例后续全β符号检查又保留companion限制：固定点P投影分离不代表整个混合族分离，两个lowm混合族与新free族都容许P701正负。只有指定pureE2路径有解析正下界；见[[199tl-three-ad-reference-feasibility]]。

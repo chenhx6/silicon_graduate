@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T13:09:35.228333+08:00",
+  "minutes_to_original_deadline": 110.41286111666666,
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "selected": "returnexistingD66continuousparametergap; boundednumericalnecessarydomain",
+  "information_gain": "couldfindmissedstrictwitness orscopeexclusionbeyondfinitegrid, whileactualsourceuncertaintyunchanged",
+  "new_source_opened": false,
+  "new_card_opened": false,
+  "no_day18": true
+}

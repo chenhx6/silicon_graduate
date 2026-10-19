@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T13:36:47.670616+08:00",
+  "session_id": 84701,
+  "exit_code": 0,
+  "script": "system/scripts/day16_diamond1966_polarization_companion.py",
+  "script_sha256": "09fb7db843f82f9cf2a33e4a1a818deea6512fcb8eb5218abbb593ecfe384fe9",
+  "first_import_failure": "diamond1966-polarization-first-failure.json",
+  "no_data_or_modelconditionchange": true,
+  "fixed_amplitude_projections_only": true
+}

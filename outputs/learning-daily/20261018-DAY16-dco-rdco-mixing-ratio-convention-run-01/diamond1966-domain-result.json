@@ -1,0 +1,1296 @@
+{
+  "at": "2026-10-19T13:17:05.752836+08:00",
+  "script_sha256": "372d1e463648663f396f2d8f34a9e773d727300a8f30f29cd997d9576557fc83",
+  "contract_sha256": "918627fa7b0b4dd88fab864cfd14c089e748ce9873af734c04d8f85d42e31dcf",
+  "source_and_input_hashes_unchanged": true,
+  "middle_audits": {
+    "5:freepositiveq": {
+      "status": "numerically-separated-all-cells",
+      "processed_cells": 1,
+      "initial_box": [
+        [
+          -90.0,
+          -90.0
+        ]
+      ],
+      "negative_cells": [
+        {
+          "path": "",
+          "box": [
+            [
+              -90.0,
+              -90.0
+            ]
+          ],
+          "lambda": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "verified_min_vertex_minus_bound": 0.08489795908367342
+        }
+      ],
+      "undecided_cells": [],
+      "numerical_outerbounds_not_formal_exact_arithmetic": true
+    },
+    "5:extra_lowm_u2nonpositive": {
+      "status": "numerically-separated-all-cells",
+      "processed_cells": 1,
+      "initial_box": [
+        [
+          -90.0,
+          -90.0
+        ]
+      ],
+      "negative_cells": [
+        {
+          "path": "",
+          "box": [
+            [
+              -90.0,
+              -90.0
+            ]
+          ],
+          "lambda": [
+            0.6621621621621622,
+            0.0,
+            0.0,
+            0.0,
+            0.33783783783783783
+          ],
+          "verified_min_vertex_minus_bound": 0.22513513506891888
+        }
+      ],
+      "undecided_cells": [],
+      "numerical_outerbounds_not_formal_exact_arithmetic": true
+    },
+    "7:freepositiveq": {
+      "status": "existing-grid-strict-point"
+    },
+    "7:extra_lowm_u2nonpositive": {
+      "status": "existing-grid-strict-point"
+    },
+    "9:freepositiveq": {
+      "status": "existing-grid-strict-point"
+    },
+    "9:extra_lowm_u2nonpositive": {
+      "status": "numerically-separated-all-cells",
+      "processed_cells": 11,
+      "initial_box": [
+        [
+          -90.0,
+          90.0
+        ]
+      ],
+      "negative_cells": [
+        {
+          "path": "00",
+          "box": [
+            [
+              -90.0,
+              -45.0
+            ]
+          ],
+          "lambda": [
+            0.7123287671232876,
+            0.0,
+            0.0,
+            0.2876712328767123,
+            0.0
+          ],
+          "verified_min_vertex_minus_bound": 0.004063926840639248
+        },
+        {
+          "path": "10",
+          "box": [
+            [
+              0.0,
+              45.0
+            ]
+          ],
+          "lambda": [
+            0.38486055882272685,
+            0.0,
+            0.0,
+            0.0,
+            0.6151394411772731
+          ],
+          "verified_min_vertex_minus_bound": 0.08854907525648956
+        },
+        {
+          "path": "010",
+          "box": [
+            [
+              -45.0,
+              -22.5
+            ]
+          ],
+          "lambda": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "verified_min_vertex_minus_bound": 0.09895602565444478
+        },
+        {
+          "path": "011",
+          "box": [
+            [
+              -22.5,
+              0.0
+            ]
+          ],
+          "lambda": [
+            0.49154171582148437,
+            0.0,
+            0.0,
+            0.0,
+            0.5084582841785155
+          ],
+          "verified_min_vertex_minus_bound": 0.06386844118560142
+        },
+        {
+          "path": "110",
+          "box": [
+            [
+              45.0,
+              67.5
+            ]
+          ],
+          "lambda": [
+            0.5009478783993238,
+            0.0,
+            0.0,
+            0.08945427000654489,
+            0.40959785159413153
+          ],
+          "verified_min_vertex_minus_bound": 0.07729726008292306
+        },
+        {
+          "path": "111",
+          "box": [
+            [
+              67.5,
+              90.0
+            ]
+          ],
+          "lambda": [
+            0.8366365516138821,
+            0.0,
+            0.0,
+            0.16336344838611794,
+            0.0
+          ],
+          "verified_min_vertex_minus_bound": 0.09881989559616625
+        }
+      ],
+      "undecided_cells": [],
+      "numerical_outerbounds_not_formal_exact_arithmetic": true
+    },
+    "11:freepositiveq": {
+      "status": "existing-grid-strict-point"
+    },
+    "11:extra_lowm_u2nonpositive": {
+      "status": "existing-grid-strict-point"
+    },
+    "13:freepositiveq": {
+      "status": "existing-grid-strict-point"
+    },
+    "13:extra_lowm_u2nonpositive": {
+      "status": "numerically-separated-all-cells",
+      "processed_cells": 1,
+      "initial_box": [
+        [
+          -90.0,
+          -90.0
+        ]
+      ],
+      "negative_cells": [
+        {
+          "path": "",
+          "box": [
+            [
+              -90.0,
+              -90.0
+            ]
+          ],
+          "lambda": [
+            0.4117647058823529,
+            0.0,
+            0.0,
+            0.0,
+            0.5882352941176471
+          ],
+          "verified_min_vertex_minus_bound": 0.13999999995882348
+        }
+      ],
+      "undecided_cells": [],
+      "numerical_outerbounds_not_formal_exact_arithmetic": true
+    }
+  },
+  "sequence_audits": [
+    {
+      "top_spin2": 5,
+      "middle_spin2": 5,
+      "population_mode": "freepositiveq",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "5:freepositiveq"
+      }
+    },
+    {
+      "top_spin2": 5,
+      "middle_spin2": 5,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "5:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 5,
+      "middle_spin2": 7,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            90.0
+          ],
+          [
+            -90.0,
+            -90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                90.0
+              ],
+              [
+                -90.0,
+                -90.0
+              ]
+            ],
+            "lambda": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.015918367246938764
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 5,
+      "middle_spin2": 7,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            90.0
+          ],
+          [
+            -90.0,
+            -90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                90.0
+              ],
+              [
+                -90.0,
+                -90.0
+              ]
+            ],
+            "lambda": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.015918367246938764
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 5,
+      "middle_spin2": 9,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            -90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                -90.0
+              ]
+            ],
+            "lambda": [
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.5,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.38499999989999995
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 5,
+      "middle_spin2": 9,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "9:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 5,
+      "population_mode": "freepositiveq",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "5:freepositiveq"
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 5,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "5:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 7,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 7,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 3,
+        "initial_box": [
+          [
+            -90.0,
+            90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "0",
+            "box": [
+              [
+                -90.0,
+                0.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.8017997360734473,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.19820026392655254
+            ],
+            "verified_min_vertex_minus_bound": 0.005556829341194169
+          },
+          {
+            "path": "1",
+            "box": [
+              [
+                0.0,
+                90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.5686050443155091,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.4313949556844909
+            ],
+            "verified_min_vertex_minus_bound": 0.003940686248260383
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 9,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 9,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "9:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 11,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.2166666665666666
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 7,
+      "middle_spin2": 11,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.6,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.4
+            ],
+            "verified_min_vertex_minus_bound": 0.32999999993999996
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 5,
+      "population_mode": "freepositiveq",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "5:freepositiveq"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 5,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "5:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 7,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 7,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 9,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 9,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "9:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 11,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 11,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 13,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.1603896102896103
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 9,
+      "middle_spin2": 13,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "13:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 7,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.5714285714285715,
+              0.0,
+              0.0,
+              0.4285714285714287,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.007142857042857054
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 7,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.4117647058823529,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.5882352941176471
+            ],
+            "verified_min_vertex_minus_bound": 0.2264705881941176
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 9,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 9,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "9:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 11,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "new-strict-positive-point",
+        "betas_native_deg": [
+          5.625,
+          -84.375
+        ],
+        "witness": {
+          "q_pair": [
+            0.4371826863529579,
+            0.5140796959280466,
+            0.012184404429748857,
+            0.012184404429748857,
+            0.012184404429748857,
+            0.012184404429748857
+          ],
+          "pair_abs_m": [
+            5.5,
+            4.5,
+            3.5,
+            2.5,
+            1.5,
+            0.5
+          ],
+          "minimum_pair_probability": 0.012184404429748857,
+          "max_constraint_residual": 0.0,
+          "u2_population": 0.3265662526657631,
+          "observations": {
+            "331": {
+              "a2": -0.55,
+              "a4": -9.35410808761655e-05
+            },
+            "701": {
+              "a2": 0.2262145345608233,
+              "a4": 0.009999999999999924
+            }
+          }
+        },
+        "processed_cells": 86,
+        "negative_cells_before_point": 27,
+        "all_parameter_exclusion_claimed": false
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 11,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 3,
+        "initial_box": [
+          [
+            -90.0,
+            90.0
+          ],
+          [
+            -90.0,
+            90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "0",
+            "box": [
+              [
+                -90.0,
+                0.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.6923786077452648,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.30762139225473517
+            ],
+            "verified_min_vertex_minus_bound": 0.002020001283206063
+          },
+          {
+            "path": "1",
+            "box": [
+              [
+                0.0,
+                90.0
+              ],
+              [
+                -90.0,
+                90.0
+              ]
+            ],
+            "lambda": [
+              0.5831949029063576,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.4168050970936426
+            ],
+            "verified_min_vertex_minus_bound": 0.0017014599224352556
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 13,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 11,
+      "middle_spin2": 13,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "13:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 13,
+      "middle_spin2": 9,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            -90.0
+          ],
+          [
+            -90.0,
+            -90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                -90.0
+              ],
+              [
+                -90.0,
+                -90.0
+              ]
+            ],
+            "lambda": [
+              0.5,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.5,
+              0.0,
+              0.0
+            ],
+            "verified_min_vertex_minus_bound": 0.38499999989999995
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 13,
+      "middle_spin2": 9,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "9:extra_lowm_u2nonpositive"
+      }
+    },
+    {
+      "top_spin2": 13,
+      "middle_spin2": 11,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 13,
+      "middle_spin2": 11,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "existing-grid-strict-point"
+      }
+    },
+    {
+      "top_spin2": 13,
+      "middle_spin2": 13,
+      "population_mode": "freepositiveq",
+      "middle_status": "existing-grid-strict-point",
+      "upper_domain": {
+        "status": "numerically-separated-all-cells",
+        "processed_cells": 1,
+        "initial_box": [
+          [
+            -90.0,
+            90.0
+          ],
+          [
+            -90.0,
+            -90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                90.0
+              ],
+              [
+                -90.0,
+                -90.0
+              ]
+            ],
+            "lambda": [
+              0.48776541885346775,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.1966326934244893,
+              0.0,
+              0.3156018877220428
+            ],
+            "verified_min_vertex_minus_bound": 0.07903678220088992
+          }
+        ],
+        "undecided_cells": [],
+        "numerical_outerbounds_not_formal_exact_arithmetic": true
+      }
+    },
+    {
+      "top_spin2": 13,
+      "middle_spin2": 13,
+      "population_mode": "extra_lowm_u2nonpositive",
+      "middle_status": "numerically-separated-all-cells",
+      "upper_domain": {
+        "status": "numerically-excluded-by-middle",
+        "middle_key": "13:extra_lowm_u2nonpositive"
+      }
+    }
+  ],
+  "coefficient_crosschecks": [
+    {
+      "Ji2": 5,
+      "Jf2": 5,
+      "max_error": 2.886579864025407e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 5,
+      "Jf2": 7,
+      "max_error": 2.213507155346406e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 5,
+      "Jf2": 9,
+      "max_error": 1.788499903732088e-15,
+      "native_cross_sign_relative_to_Racah_F12": 0,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 7,
+      "Jf2": 5,
+      "max_error": 3.3306690738754696e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 7,
+      "Jf2": 7,
+      "max_error": 3.3306690738754696e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 7,
+      "Jf2": 9,
+      "max_error": 2.3037127760972e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 7,
+      "Jf2": 11,
+      "max_error": 1.609823385706477e-15,
+      "native_cross_sign_relative_to_Racah_F12": 0,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 9,
+      "Jf2": 5,
+      "max_error": 2.275957200481571e-15,
+      "native_cross_sign_relative_to_Racah_F12": 0,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 9,
+      "Jf2": 7,
+      "max_error": 2.9976021664879227e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 9,
+      "Jf2": 9,
+      "max_error": 3.219646771412954e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 9,
+      "Jf2": 11,
+      "max_error": 3.164135620181696e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 9,
+      "Jf2": 13,
+      "max_error": 1.9637069748057456e-15,
+      "native_cross_sign_relative_to_Racah_F12": 0,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 11,
+      "Jf2": 7,
+      "max_error": 2.1094237467877974e-15,
+      "native_cross_sign_relative_to_Racah_F12": 0,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 11,
+      "Jf2": 9,
+      "max_error": 3.3306690738754696e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 11,
+      "Jf2": 11,
+      "max_error": 3.3306690738754696e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 11,
+      "Jf2": 13,
+      "max_error": 2.9976021664879227e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 13,
+      "Jf2": 9,
+      "max_error": 2.1094237467877974e-15,
+      "native_cross_sign_relative_to_Racah_F12": 0,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 13,
+      "Jf2": 11,
+      "max_error": 3.3306690738754696e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    },
+    {
+      "Ji2": 13,
+      "Jf2": 13,
+      "max_error": 2.9976021664879227e-15,
+      "native_cross_sign_relative_to_Racah_F12": -1,
+      "not_a_map_to_D66_author_delta": true
+    }
+  ],
+  "elapsed_seconds": 2.390931645000819,
+  "scope": {
+    "only_declared_point_positive_population_marginal_domain": true,
+    "no_new_experimental_spin_delta_or_CI": true,
+    "undecided_not_excluded": true,
+    "floating_padding_and_margin_assumptions_explicit": true,
+    "no_new_source_or_daycard": true
+  }
+}

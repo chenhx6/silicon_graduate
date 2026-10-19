@@ -1,0 +1,142 @@
+{
+  "at": "2026-10-19T13:49:34.725044+08:00",
+  "script_sha256": "64c591f53bc920b25a8c713a1a98b03915d238fd059a674eb302e50e84114bd8",
+  "contract_sha256": "1b839c90428936aa9dfdf5f8db33df74b4cfbfd548e8247f5eb741346ea471f8",
+  "precision_decimal_digits": 80,
+  "all8_cases_replayed": [
+    {
+      "top2": 13,
+      "mid2": 11,
+      "constraint": "P701_nonpositive",
+      "MP80_negative_dual_gap": "0.091599999999999991371428571428571428571428571428571428571428571428571428571428571",
+      "analytic_Stokes_Q_lower": "0.28625"
+    },
+    {
+      "top2": 13,
+      "mid2": 11,
+      "constraint": "P701_nonnegative",
+      "P701_MP80": 0.38404216671651115,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.6100000000000017,
+          "a4": -0.013333333333335296
+        },
+        "701": {
+          "a2": 0.2241297868989979,
+          "a4": 0.010000000000001473
+        }
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "constraint": "P701_nonpositive",
+      "P701_MP80": -0.03648088511407415,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.6100000000000017,
+          "a4": 0.010000000000000247
+        },
+        "701": {
+          "a2": 0.23692110495137778,
+          "a4": -0.0243750000000006
+        }
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "constraint": "P701_nonnegative",
+      "P701_MP80": 0.471520665704863,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.6100000000000017,
+          "a4": -0.028523986469894062
+        },
+        "701": {
+          "a2": 0.2716507900200702,
+          "a4": 0.0
+        }
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "constraint": "P701_nonpositive",
+      "P701_MP80": -0.04246480700070399,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.6100000000000014,
+          "a4": 0.010000000000000233
+        },
+        "701": {
+          "a2": 0.25550152240241336,
+          "a4": -0.029874368670765275
+        }
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "constraint": "P701_nonnegative",
+      "P701_MP80": 0.4274683689850852,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.6100000000000015,
+          "a4": -0.04999999999999994
+        },
+        "701": {
+          "a2": 0.24943679880649855,
+          "a4": 0.0
+        }
+      }
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "constraint": "P701_nonpositive",
+      "P701_MP80": -0.13624704460979897,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.5640781936853415,
+          "a4": 0.0006547875661302802
+        },
+        "701": {
+          "a2": 0.2320048837098881,
+          "a4": -0.06999999999999845
+        }
+      }
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "constraint": "P701_nonnegative",
+      "P701_MP80": 0.8569984763326999,
+      "min_q_pair": 1e-07,
+      "AD_MP80": {
+        "331": {
+          "a2": -0.5668678078563782,
+          "a4": -0.010049115090762818
+        },
+        "701": {
+          "a2": 0.299999999999999,
+          "a4": 0.0016744587323333873
+        }
+      }
+    }
+  ],
+  "conclusion": "three mixedspin/populationfamilies allowbothP701signs in declaredsameparitynativepointmodel; pureE2pathpositive",
+  "interference_identity_from_pure_and_cross_rank_coefficients": true,
+  "scope": {
+    "no_unique_family_identification_from_fixed_points": true,
+    "unknown_EMduality_and_actual_response_cov_remain": true,
+    "no_new_experimental_P_delta_spin_or_CI": true,
+    "only_existing_bounded_analysis": true
+  }
+}

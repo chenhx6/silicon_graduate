@@ -1,0 +1,377 @@
+{
+  "at": "2026-10-19T13:45:01.445046+08:00",
+  "script_sha256": "1ffa09fea735cc15602dc6de6e777fac375df0782b4f948d3c9757d1dc0e0878",
+  "contract_sha256": "aa8e86af787b794c76de70e0eb6db18ee4334069259c3bd6d8989936b77191c5",
+  "all_frozen_inputs_unchanged": true,
+  "results": [
+    {
+      "top2": 13,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive",
+      "sign_constraint": "P701_nonpositive",
+      "audit": {
+        "status": "numerically-separated-all-cells",
+        "initial_box": [
+          [
+            -90.0,
+            90.0
+          ],
+          [
+            -90.0,
+            -90.0
+          ]
+        ],
+        "negative_cells": [
+          {
+            "path": "",
+            "box": [
+              [
+                -90.0,
+                90.0
+              ],
+              [
+                -90.0,
+                -90.0
+              ]
+            ],
+            "lambda": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.48,
+              0.0,
+              0.19999999999999996,
+              0.0,
+              0.32
+            ],
+            "verified_min_vertex_minus_bound": 0.09159999989999994
+          }
+        ],
+        "undecided_cells": [],
+        "processed_cells": 1
+      }
+    },
+    {
+      "top2": 13,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive",
+      "sign_constraint": "P701_nonnegative",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            0.0511747396198242,
+            1e-07,
+            1e-07,
+            1e-07,
+            0.9486701930208773,
+            0.00015466735929852717,
+            1e-07
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": -0.15689085082929854,
+          "betas_native_deg": [
+            -45.0,
+            -90.0
+          ],
+          "P701": 0.38404216671651176,
+          "observations": {
+            "331": {
+              "a2": -0.6099999999999999,
+              "a4": -0.013333333333335619
+            },
+            "701": {
+              "a2": 0.2241297868989991,
+              "a4": 0.009999999999999992
+            }
+          },
+          "max_constraint_residual": 1.1102230246251565e-16,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 2
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive",
+      "sign_constraint": "P701_nonpositive",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            0.05902435069851666,
+            1e-07,
+            0.1138307130238855,
+            0.8271447362775978,
+            1e-07
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": -0.18675991813879825,
+          "betas_native_deg": [
+            45.0,
+            45.0
+          ],
+          "P701": -0.036480885114074116,
+          "observations": {
+            "331": {
+              "a2": -0.61,
+              "a4": 0.01
+            },
+            "701": {
+              "a2": 0.23692110495137897,
+              "a4": -0.024375000000002305
+            }
+          },
+          "max_constraint_residual": 1.1102230246251565e-16,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 7
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive",
+      "sign_constraint": "P701_nonnegative",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            1e-07,
+            1e-07,
+            0.37943984116721036,
+            0.6205598588327896,
+            1e-07
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": -0.18675991813879828,
+          "betas_native_deg": [
+            45.0,
+            0.0
+          ],
+          "P701": 0.4715206657048636,
+          "observations": {
+            "331": {
+              "a2": -0.6100000000000001,
+              "a4": -0.02852398646989413
+            },
+            "701": {
+              "a2": 0.2716507900200713,
+              "a4": -1.853015037874917e-15
+            }
+          },
+          "max_constraint_residual": 1.1102230246251565e-16,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 3
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "mode": "extra_lowm_u2nonpositive",
+      "sign_constraint": "P701_nonpositive",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            0.04574218034855005,
+            1e-07,
+            0.08572116864788712,
+            0.8685364510035628,
+            1e-07
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": -0.2014064699639396,
+          "betas_native_deg": [
+            -22.5,
+            45.0
+          ],
+          "P701": -0.042464807000703965,
+          "observations": {
+            "331": {
+              "a2": -0.6099999999999999,
+              "a4": 0.010000000000000005
+            },
+            "701": {
+              "a2": 0.2555015224024146,
+              "a4": -0.029874368670767003
+            }
+          },
+          "max_constraint_residual": 1.1102230246251565e-16,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 9
+      }
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "mode": "extra_lowm_u2nonpositive",
+      "sign_constraint": "P701_nonnegative",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            1e-07,
+            0.14135812393855482,
+            0.1176774950768063,
+            0.7409641809846388,
+            1e-07
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": -0.17148779917946777,
+          "betas_native_deg": [
+            -45.0,
+            0.0
+          ],
+          "P701": 0.4274683689850858,
+          "observations": {
+            "331": {
+              "a2": -0.61,
+              "a4": -0.05000000000000001
+            },
+            "701": {
+              "a2": 0.24943679880649974,
+              "a4": -1.782226466882913e-15
+            }
+          },
+          "max_constraint_residual": 1.1102230246251565e-16,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 2
+      }
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "mode": "freepositiveq",
+      "sign_constraint": "P701_nonpositive",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            0.39472661281529353,
+            0.6052729871847066,
+            1e-07,
+            1e-07,
+            1e-07,
+            1e-07
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": 0.3349252762223528,
+          "betas_native_deg": [
+            5.625,
+            -84.375
+          ],
+          "P701": -0.13624704460979906,
+          "observations": {
+            "331": {
+              "a2": -0.5640781936853403,
+              "a4": 0.0006547875661299017
+            },
+            "701": {
+              "a2": 0.23200488370988945,
+              "a4": -0.06999999999999998
+            }
+          },
+          "max_constraint_residual": 1.1102230246251565e-16,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 56
+      }
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "mode": "freepositiveq",
+      "sign_constraint": "P701_nonnegative",
+      "audit": {
+        "status": "strict-nonzero-sign-witness",
+        "witness": {
+          "q_pair": [
+            0.9266313776763815,
+            1e-07,
+            1e-07,
+            1e-07,
+            1e-07,
+            0.07336822232361873
+          ],
+          "minimum_pair_probability": 1e-07,
+          "u2_population": 0.43997123628067564,
+          "betas_native_deg": [
+            -7.03125,
+            2.8125
+          ],
+          "P701": 0.856998476332701,
+          "observations": {
+            "331": {
+              "a2": -0.5668678078563768,
+              "a4": -0.010049115090763073
+            },
+            "701": {
+              "a2": 0.3,
+              "a4": 0.001674458732331549
+            }
+          },
+          "max_constraint_residual": 0.0,
+          "strict_sign_threshold": 1e-06
+        },
+        "processed_cells": 140
+      }
+    }
+  ],
+  "elapsed_seconds": 1.2997117519844323,
+  "interference_identity_controls": [
+    {
+      "top2": 13,
+      "mid2": 11,
+      "beta701": -90.0,
+      "E2_fraction": 1.0,
+      "A2_interference_contribution": -0.0,
+      "Q90_minus_pureformula": -7.216449660063518e-16,
+      "equals_minus2_A2interference": true
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "beta701": -15.0,
+      "E2_fraction": 0.06698729810778066,
+      "A2_interference_contribution": -0.14889511120667093,
+      "Q90_minus_pureformula": 0.29779022241334135,
+      "equals_minus2_A2interference": true
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "beta701": -10.0,
+      "E2_fraction": 0.030153689607045803,
+      "A2_interference_contribution": -0.092528706153397,
+      "Q90_minus_pureformula": 0.18505741230679368,
+      "equals_minus2_A2interference": true
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "beta701": -84.375,
+      "E2_fraction": 0.9903926402016153,
+      "A2_interference_contribution": 0.21056157971487605,
+      "Q90_minus_pureformula": -0.4211231594297534,
+      "equals_minus2_A2interference": true
+    }
+  ],
+  "independent_pureE2_sign_bound": {
+    "Q90_lower_from_sourcebox": 0.28625,
+    "applies_top13half_to_bottom9half_pureE2": true,
+    "not_instrument_Q": true
+  },
+  "scope": {
+    "same_native_M1E2_family_only": true,
+    "not_experimental_P_or_spin_or_profileCI": true,
+    "unknown_EMduality_alternatives_remain": true,
+    "no_new_source_or_card": true
+  }
+}

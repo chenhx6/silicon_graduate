@@ -2015,3 +2015,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day16 checkpoint044：真实Compton代码组件
 
 固定publicGeant3+VMC pin/selectedsource双hash；三原样核+原headers/显式shims actualcompile0/run0，3×200000组件事件KN/守恒/旋转/cuts通过。POLAR字段未被该Compton路径使用，改变它同RNG输出相同；transport1MeV默认与实验electronics门不同，能量闭合也可失去coincidence。不是GR97原modifiedproducer/材料response或新Q。gckmax网络1与exactblob恢复留档无猜输入；vendor只tmp不发布。verification038实际69/69、required0、0errors190warnings，旧prefix/raw/PLAN/Bib保持。同run原15:00仍pursuing/formal16一次partial17；下一仅既有D66连续域问题。稳定指针main / Validate DAY16 pinned Compton code component and transport boundaries，hash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint045：漏解与完整伴随符号域
+
+既有D66source/errorbox不改，连续外包/dual找到粗网格漏解free11/11，MP80独立核16negative子问题23叶完整覆盖/新strictinterior。9/3只声明模型数值分类非实验spin或原19→5。固定P投影差异经全β+MP80收紧：三混合族均可正负P701，pureE2指定路径才有解析正界，未知EM/response/Cov保持。精确interference defect解释99.04%E2不等pureP；五脚本最终0/两个初技术1快照保留。verification040实际69/69、required0、0errors190warnings，原prefix/raw/PLAN/Bib保持。13:30后无新source/card；原15:00仍pursuing/formal16一次partial17。稳定指针main / Resolve DAY16 angular-distribution grid gaps and test polarization companions，hash/push只receipt。

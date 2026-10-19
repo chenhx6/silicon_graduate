@@ -1224,16 +1224,42 @@
       "scientific_work_status": "pursuing",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 44,
+      "at": "2026-10-19T13:16:48.237707+08:00",
+      "branch": "main",
+      "subject": "Validate DAY16 pinned Compton code component and transport boundaries",
+      "commit": "156ead21e2f8e0d3c1490f2c9893ee3f8e32a9f7",
+      "origin_main": "156ead21e2f8e0d3c1490f2c9893ee3f8e32a9f7",
+      "status": "published",
+      "commands_actual_all_exit0": true,
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag fc486080        \nTo gitee.com:chx6/silicon_graduate.git\n   60b3ae0..156ead2  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "native_goal_status_observed": "blocked",
+      "scientific_work_status": "pursuing",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "checkpoint044-pinned-code-component-and-cuts",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-038.json",
+  "last_checkpoint": "checkpoint045-continuous-domain-and-fullbeta-companion",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-040.json",
   "knowledge_writeback_items": 69,
-  "last_learning_summary": "PinnedunmodifiedG3COMPcomponent600kevents actual0 andunits/cuts/POLAR scope; originaldetectorproducerstillnotready",
+  "last_learning_summary": "D66gridmissed11/11,conservativecontinuousclassification/MP80; fullbetaPsigncounterchecks prevent falsecompanionuniqueness",
   "knowledge_changed_pages": 69,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "return existingD66threeAD continuousparameter necessarydomain, no newsource/card",
+  "current_research_route": "existingevidenceintegrationrecall andreadiness reconciliation untiloriginal15:00, no newsource/card",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -1271,7 +1297,7 @@
     "push_outcome": "pushed"
   },
   "post_commit_reconciliation": {
-    "publication": 43,
+    "publication": 44,
     "manifest_matches_actual_commit": true,
     "HEAD_origin_main_equal": true,
     "knowledge_diff_exit": 0,
@@ -1343,9 +1369,9 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-19T13:04:31.581517+08:00",
+    "now_local": "2026-10-19T13:57:30.990979+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
-    "decision": "continue-existing-bounded-analysis-no-new-card",
+    "decision": "finish-existing-bounded-analysis-no-new-source-or-card",
     "formal_credit_unchanged": true
   },
   "goal_resumed_by_user_at": "2026-10-18T16:34:00+08:00 (approximate; exact server timestamp held by native goal)",
@@ -1359,12 +1385,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 43,
-    "at": "2026-10-19T12:39:22.023857+08:00",
+    "publication_index": 44,
+    "at": "2026-10-19T13:16:48.237707+08:00",
     "branch": "main",
-    "subject": "Audit DAY16 Compton Stokes transport and matched response comparisons",
-    "commit": "60b3ae059c563c37b9a492d252e0cdc52c6b571a",
-    "origin_main": "60b3ae059c563c37b9a492d252e0cdc52c6b571a",
+    "subject": "Validate DAY16 pinned Compton code component and transport boundaries",
+    "commit": "156ead21e2f8e0d3c1490f2c9893ee3f8e32a9f7",
+    "origin_main": "156ead21e2f8e0d3c1490f2c9893ee3f8e32a9f7",
     "status": "published",
     "commands_actual_all_exit0": true,
     "push_observation": {
@@ -1376,7 +1402,7 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag b548bcbc        \nTo gitee.com:chx6/silicon_graduate.git\n   83bb3f2..60b3ae0  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag fc486080        \nTo gitee.com:chx6/silicon_graduate.git\n   60b3ae0..156ead2  HEAD -> main\n"
     },
     "manifest_matches_actual_commit": true,
     "native_goal_status_observed": "blocked",

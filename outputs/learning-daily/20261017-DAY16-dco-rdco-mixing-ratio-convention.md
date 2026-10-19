@@ -66,6 +66,19 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### Checkpoint045：粗网格漏解、连续域与偏振companion
+
+对已读D66实际三线/既有合同继续有界分析，未开新source/card。新[连续域结果](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-domain-result.json)修numpy API初1后actual0：解析trig外包+非负dual证明的numericalcells找到旧5°网格漏掉的free(11/2,11/2)正q点。源box/角核/容差未调，不能继续说原free仅8个。
+
+[独立80位复核](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-domain-replay-result.json)actual0：不复用原interval/dual函数，核原Racah/CG、23分离叶/16子问题与有理覆盖，最小gap≈.00170146；新point固定β后有真实内部余量约.328/.335quoted半宽。结果9free/3lowm仅是声明point/轴对称/矩形误差域的数值覆盖分类，不是formalexactproof、实验Jπ允许数或原19→5重现。
+
+[既有四组β偏振投影](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-polarization-result.json)修helper import初1后actual0：同上态q的分式LP给P331/P701单量投影，source三probable固定点P701正、新11/11固定点负；不能用这组点差宣布完整family可分。新点701E2份额≈99.04%仍显著不同pureP，干涉项不因强度dominant自动消失。源未测P/Q/Cov，不把derivedpureP算独立伴随观测；结果已追加[canonical知识单](../../knowledge/research-notes/199tl-three-ad-reference-feasibility.md)。
+
+13:30后遵门不新开source/卡，只完成此有界issue。formal16一次/partial17与原15:00上海研究截止不改。
+
+
+最后的[全βP701符号检查](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-fullbeta-Psign-result.json)/[独立MP80复核](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-fullbeta-Psign-replay-result.json)均actual0：除指定pureE2 path负号有解析下界排除外，其余三个混合族都找到正负P701解，固定点投影不能用来宣称全族可分。精确干涉defect关系−2A2_int解释近pure强度与偏振差异，未知EMduality/真实P/response/Σ继续保留。13:30以后只有这一既有issue分析，无新source/card。
+
 ### Checkpoint044：固定公开代码的无偏振组件（partial17）
 
 新增[软件source](../../knowledge/sources/geant3-vmc-2026-compton-baseline.md) G3-1–10：vmc-project/geant3固定commit347fc6804dd116c66c2695df5d2c03d166a0364c、2026version4.5/Geant3.21+VMC；10个实际依赖逐一核Gitblob/SHA256。只读selectedfunctions/headers和targeted初始化，非1846file全repo审计。G3TGAMA→G3COMP的phi均匀、不消费POLAR，字段有而物理未实现不能认证GR97原producer。
@@ -1851,7 +1864,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-distribution.md",
-      "summary": "从Purry原P2-only estimator和实际三极角导出omittedP4的投影/正weight界，保留原weights未知，不重造测量A4。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
+      "summary": "从Purry原P2-only estimator和实际三极角导出omittedP4的投影/正weight界，保留原weights未知，不重造测量A4。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。",
       "anchor": "原文a2拟合系数与完整A2不是同一个自动可移植对象",
       "sources": [
         {
@@ -3140,7 +3153,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -5226,7 +5239,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。 追加固定Geant3真实unpolarized组件核验与POLAR/cuts/历史producer边界，不赋实验Q或正式17。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。 追加固定Geant3真实unpolarized组件核验与POLAR/cuts/历史producer边界，不赋实验Q或正式17。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -6329,7 +6342,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
-      "summary": "19组合实际三线AD的正q存在、lowm域、精确rank4关系及未知Cov边界；有限网格不作完整排除。",
+      "summary": "19组合实际三线AD的正q存在、lowm域、精确rank4关系及未知Cov边界；有限网格不作完整排除。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。",
       "anchor": "中央A4的必要关系不是带误差数据的排除",
       "sources": [
         {
@@ -6812,3 +6825,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification038](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-038.json)实际report/card/唯一writeback69changed/69items，boundary/lint/diff均exit0，0errors190warnings（137citation-key/50raw槽/3reactionparser）；十原件hash、新helper/benchmark hash、真实compile0/run0与600000组件事件、旧人审prefix/GR97false/PLAN/Bib保护过。新增两个warnings是软件source未入本地Bib与raw归档槽，不是新科学失败。
 
 稳定指针main / `Validate DAY16 pinned Compton code component and transport boundaries`，actualhash/H3/push仅publication044/runreceipt。下一只继续D66已读实际数据的连续域未完成核验，有限grid0不足以排除的边界仍保留；不新开source/完整卡。原15:00上海截止、formal16一次/partial17/next17count16不变，科学pursuing/nativegoalblocked差异保持。
+
+
+### Checkpoint045实际验收与13:30后范围
+
+[verification040](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-040.json)实际report/card/唯一writeback69changed/69items、boundary/lint/diff均exit0，0errors190warnings（137citation-key/50raw槽/3reactionparser）。domain/replay/fixedP/fullbetaP/MP80P五脚本最终actual0，新旧合同/hash/首numpy和import失败快照、原source/errorbox、raw/PLAN/Bib/旧人审prefix均保留。固定点companion暗示已由全β两符号witness收紧，未升级为核赋值。
+
+稳定指针main / `Resolve DAY16 angular-distribution grid gaps and test polarization companions`，actualhash/H3/push仅publication045/runreceipt。13:30后仅完成已选D66连续域/companion问题，未开新source/fullcard；下一只对已有证据作综合回忆和可恢复性核验，15:00严格停研究后用原收束小时。formal16一次/partial17、next17count16与科学pursuing/nativegoalblocked差异保持，不以本checkpoint提前完成原run。

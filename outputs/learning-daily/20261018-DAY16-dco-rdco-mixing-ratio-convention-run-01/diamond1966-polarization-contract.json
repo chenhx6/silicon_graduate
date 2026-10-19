@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-19T13:29:43.640139+08:00",
+  "identity": "D66-FIXED-AMPLITUDE-POLARIZATION-COMPANION-01",
+  "base_contract": "diamond1966-threeAD-contract.json",
+  "base_contract_sha256": "ce56f5ef004d37651a711f0276fde0a9f8b45592ada7a00b283c37e026020300",
+  "grid_result": "diamond1966-threeAD-result.json",
+  "grid_result_sha256": "16e0b62ef8978f461853710394ea88133ba6229ae9d1e51f197201f8c003e45a",
+  "domain_result": "diamond1966-domain-result.json",
+  "domain_result_sha256": "d87796cf4d6c70bb59ece9d937ec0e4122decff61570a317e52773520889676a",
+  "replay_result": "diamond1966-domain-replay-result.json",
+  "replay_result_sha256": "1eda38fffe85d2a64faa0c3e85b2ed574d17866809c87f1a9660efa758f61256",
+  "cases": [
+    {
+      "top2": 13,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive"
+    },
+    {
+      "top2": 9,
+      "mid2": 11,
+      "mode": "extra_lowm_u2nonpositive"
+    },
+    {
+      "top2": 9,
+      "mid2": 7,
+      "mode": "extra_lowm_u2nonpositive"
+    },
+    {
+      "top2": 11,
+      "mid2": 11,
+      "mode": "freepositiveq"
+    }
+  ],
+  "fixed_betas_source": "oldgrid threeprobablepairs; new11/11 postdomain point; no amplitudeoptimization orsourceboxchange",
+  "theta_emission_deg": 90,
+  "tests": [
+    "all19spinpaths/pairvertices pureM1 Q90=1.5A2, pureE2 Q90=1.5A2+.625A4; EMdualsign; photonintensityreconstruction",
+    "6jfactorcancelsinpuremultipolepolarization, notagnosticaboutEMtype/axis",
+    "pointnew/oldwitnessP vs pureE2sameADprediction andE2fraction; do nottreatwitnessdifferenceasfamilyseparation",
+    "CharnesCooperfractionalLP forP331/P701 atfixedbetas/sharedq/ADbox/optionalmean; recoverqverifyphysical/observables",
+    "noactualP/detectorQ/Covorfullβprofile/newJpi claimed",
+    "individualPprojectionsnotjointrectangularregion"
+  ],
+  "scope": "continueexistingboundedD66analysis only, no newsource/card, preserveformal16oncepartial17"
+}

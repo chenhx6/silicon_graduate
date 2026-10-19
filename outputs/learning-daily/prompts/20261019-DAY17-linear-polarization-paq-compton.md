@@ -386,3 +386,9 @@ GR97新增priming：knowledge/research-notes/gr97-stokes-response-and-merit.md�
 
 
 Geant3新增priming：knowledge/sources/geant3-vmc-2026-compton-baseline.md。当前public标准callpath未消费POLAR，三原样核/600000事件组件通过不等原1997GCOMPOL/探测器Q；GeV/transportcuts与每晶体电子学门分开。正式17仍需新session带此priming重新逐卡，预习不授分。
+
+
+D66后网格priming：同knowledge单已追加连续域漏解11/11及MP80数值覆盖，原“至少8”不能当完整8；9/3仅声明point/误差box分类。固定β的P投影分离不证明完整候选族可分，99.04%upperE2份额不自动忽略interference。无新P/Jπ/δ测量，正式17仍独立run。
+
+
+D66已有问题的最终companion priming：全β域中三个混合族均允许P701正负，固定点投影分离不可外推成全族分离。pureE2指定路径才有原ADbox的Q90正下界；近pureE2强度不消除幅度干涉。无新P/Jπ/δ，正式17需完整matchedresponse/phase/统计合同。

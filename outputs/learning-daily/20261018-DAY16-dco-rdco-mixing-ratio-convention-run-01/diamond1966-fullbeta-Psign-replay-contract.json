@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T13:48:28.862977+08:00",
+  "identity": "D66-FULLBETA-P-SIGN-INDEPENDENT-REPLAY-01",
+  "result": "diamond1966-fullbeta-Psign-result.json",
+  "result_sha256": "0781e605a81fbdf7c979f80579012da644dcee871f2ada25b412bfc4f4d0b151",
+  "sign_contract": "diamond1966-fullbeta-Psign-contract.json",
+  "sign_contract_sha256": "aa8e86af787b794c76de70e0eb6db18ee4334069259c3bd6d8989936b77191c5",
+  "precision_decimal_digits": 80,
+  "post_result": true,
+  "tests": [
+    "seven strictsign witnesses directexactRacah/Stokes reconstructionADbox/normalization/lowm",
+    "negativepureE2celldualMP80anddyadiccoverage plusanalyticQlower.28625",
+    "sourceM1E2EMfamilyonly; noEMdualsoractualPmeasurementclaimedexcluded",
+    "verifyQmix-pureADformula=minus2a2interference acrossfixedcases andsourceunitdefinitions",
+    "no fullP intervals/σPpower/globalJunique claim"
+  ],
+  "scope": "final boundedcompanionvalidation, no newsource/card"
+}
