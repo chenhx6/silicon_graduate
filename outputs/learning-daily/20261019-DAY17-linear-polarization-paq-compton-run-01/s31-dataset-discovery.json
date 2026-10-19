@@ -1,0 +1,230 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "payload": {
+    "nuc": "31S",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "bytes": 14710,
+  "sha256": "cd8247bb07d6aa76b529fb8a1671b4310bcdc5416715e8f72cf85c4c49a695da",
+  "dataset_rows": [
+    {
+      "text": "ADOPTED LEVELS, GAMMAS 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016001,31S"
+        }
+      ]
+    },
+    {
+      "text": "31CL EC DECAY (190 MS) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016047,31S"
+        }
+      ]
+    },
+    {
+      "text": "32AR ECP DECAY (98 MS) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016048,31S"
+        }
+      ]
+    },
+    {
+      "text": "2H(30P,31SG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016031,31S"
+        }
+      ]
+    },
+    {
+      "text": "9BE(32S,31SG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016049,31S"
+        }
+      ]
+    },
+    {
+      "text": "12C(20NE,NG),16O(16O,NG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016050,31S"
+        }
+      ]
+    },
+    {
+      "text": "24MG(12C,ANG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016066,31S"
+        }
+      ]
+    },
+    {
+      "text": "24MG(16O,N2AG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016051,31S"
+        }
+      ]
+    },
+    {
+      "text": "28SI(A,N) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016052,31S"
+        }
+      ]
+    },
+    {
+      "text": "28SI(A,NG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016053,31S"
+        }
+      ]
+    },
+    {
+      "text": "28SI(6LI,T) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016054,31S"
+        }
+      ]
+    },
+    {
+      "text": "28SI(12C,9BE) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016055,31S"
+        }
+      ]
+    },
+    {
+      "text": "29SI(3HE,N),(3HE,NG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016056,31S"
+        }
+      ]
+    },
+    {
+      "text": "30SI(POL P,PI-) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016057,31S"
+        }
+      ]
+    },
+    {
+      "text": "30P(P,G):RESONANCES 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016067,31S"
+        }
+      ]
+    },
+    {
+      "text": "31P(P,N) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016059,31S"
+        }
+      ]
+    },
+    {
+      "text": "31P(3HE,T) E=20 MEV 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016060,31S"
+        }
+      ]
+    },
+    {
+      "text": "31P(3HE,T) E=25 MEV 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016061,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(G,NG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016062,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(P,D),(POL P,D) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016005,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(D,T) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016006,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(3HE,A),(POL 3HE,A) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016063,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(3HE,AG) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016064,31S"
+        }
+      ]
+    },
+    {
+      "text": "33S(P,T) 2022-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016065,31S"
+        }
+      ]
+    }
+  ],
+  "scope": "datasetidentity/discovery only; no physicsrow reading yet"
+}

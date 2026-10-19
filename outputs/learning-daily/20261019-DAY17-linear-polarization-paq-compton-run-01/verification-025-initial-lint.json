@@ -1,0 +1,23 @@
+{
+  "exit_code": 1,
+  "counts": {
+    "error": 2,
+    "warning": 205,
+    "info": 2681
+  },
+  "errors": [
+    {
+      "severity": "error",
+      "code": "SOURCE_DUPLICATE",
+      "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md, knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "message": "duplicate canonical_source: https://www.nndc.bnl.gov/ensdf/"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "message": "missing title_original"
+    }
+  ],
+  "classification": "newsource sharedgenericcanonicalURL + missingtitle_original; scopedexactdatasetidentity/titleadded, no scienceinput changed"
+}

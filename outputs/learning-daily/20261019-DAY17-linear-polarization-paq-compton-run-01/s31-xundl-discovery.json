@@ -1,0 +1,229 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "payload": {
+    "nuc": "31S",
+    "searchType": "quick",
+    "datasource": "xundl"
+  },
+  "status": 200,
+  "scope": "metadata/discovery only, no physicsbody or preferredlatestversion claimed",
+  "dataset_rows": [
+    {
+      "text": "12C(20NE,NG):XUNDL-1 2006-08 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016009,31S"
+        }
+      ]
+    },
+    {
+      "text": "31CL EC DECAY:150 MS:XUNDL-2 2006-03 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016010,31S"
+        }
+      ]
+    },
+    {
+      "text": "24MG(16O,N2AG):XUNDL-3 2006-06 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016011,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(P,D):XUNDL-4 2007-11 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016012,31S"
+        }
+      ]
+    },
+    {
+      "text": "31P(3HE,T):XUNDL-5 2007-11 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016013,31S"
+        }
+      ]
+    },
+    {
+      "text": "32AR ECP DECAY:100 MS:XUNDL-6 2008-07 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016014,31S"
+        }
+      ]
+    },
+    {
+      "text": "16O(16O,NG):XUNDL-7 2008-08 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016015,31S"
+        }
+      ]
+    },
+    {
+      "text": "31P(3HE,T):XUNDL-8 2009-05 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016016,31S"
+        }
+      ]
+    },
+    {
+      "text": "9BE(37CA,XG):XUNDL-9 2010-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016017,31S"
+        }
+      ]
+    },
+    {
+      "text": "31P(3HE,T):XUNDL-10 2011-05 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016037,31S"
+        }
+      ]
+    },
+    {
+      "text": "28SI(4HE,NG):XUNDL-11 2012-07 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016038,31S"
+        }
+      ]
+    },
+    {
+      "text": "3HE(32S,AG):XUNDL-11 2024-01 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016069,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(D,T):XUNDL-12 2013-12 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016002,31S"
+        }
+      ]
+    },
+    {
+      "text": "28SI(A,NG):XUNDL-13 2014-05 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016003,31S"
+        }
+      ]
+    },
+    {
+      "text": "31CL EC DECAY:190 MS:XUNDL-14 2016-04 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016004,31S"
+        }
+      ]
+    },
+    {
+      "text": "31CL EC DECAY:190 MS:XUNDL-15 2018-11 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016007,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(P,D):XUNDL-16 2021-01 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016008,31S"
+        }
+      ]
+    },
+    {
+      "text": "24MG(12C,ANG):XUNDL-17 2021-09 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016019,31S"
+        }
+      ]
+    },
+    {
+      "text": "12C(20NE,NG):XUNDL-18 2021-11 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016021,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(P,D),(P,DG):XUNDL-19 2022-05 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016027,31S"
+        }
+      ]
+    },
+    {
+      "text": "32S(D,T):XUNDL-20 2022-07 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016030,31S"
+        }
+      ]
+    },
+    {
+      "text": "30P(D,NG):XUNDL-21 2024-03 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016071,31S"
+        }
+      ]
+    },
+    {
+      "text": "32AR ECP DECAY:XUNDL-21 2024-01 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016068,31S"
+        }
+      ]
+    },
+    {
+      "text": "31CL EC DECAY:XUNDL-21 2024-03 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "31016070,31S"
+        }
+      ]
+    }
+  ],
+  "text_prefix": ""
+}

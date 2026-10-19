@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Read DSAM experimental counter-evidence and audit attenuation contracts",
-    "commit": "0d1fe656dae522b2a67768f45975ec11d71dfa0d",
+    "subject": "Audit full Tm165 band-mixing and quadrupole-reference dependencies",
+    "commit": "0c49d2f172af59908dab6247d927e624df0a08bc",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow; fullJensen/mainline/newreferencealgebra closed; nextactualinput candidate rebuild; formal17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-024.json",
-  "last_observed_at": "2026-10-19T13:46:43.267764+00:00",
+  "research_status": "active originalwindow; officialS31companion/XUNDL closed, Mossprimaryacquisition next; formal17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-027.json",
+  "last_observed_at": "2026-10-19T14:17:49.837918+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 23,
+  "canonical_knowledge_changed_pages": 24,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

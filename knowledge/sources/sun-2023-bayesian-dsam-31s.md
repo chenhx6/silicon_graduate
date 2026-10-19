@@ -77,6 +77,10 @@ L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023
 | SUN23-23 | 针对SI Fig9/12的Ji1/2前提，本任务证明isolatedparityconservingEM、末态全求迹的rest单光子I各向同性且linearQ/U=0，但circularV可非零；exactCG/新native迹闭合。它不识别本文A2frame或生成新τ/CI。 | task-conditional-spin-density-theorem | derived-model | SI Fig9/12；YA67-13；spinhalf-angular-result | true |
 | SUN23-24 | 本任务的后续γgate级联控制可有1+¼P2，boostlab也可有P2，故不能只由Ji1/2将所有A2nuisance置0。只有核rest发射项/末态identity合同才有该零值；actualmodule/response语义仍缺。 | task-countercontrols-and-attribution-boundary | derived-model | spinhalf-angular-result finalgate/boost controls；SUN23-20 | true |
 
+| SUN23-25 | 新官方31S输入为1248MR+.35(.02)并保留+5.3(.4)alternate/RUL选根条件。固定本文τ与γ-only模型时，smallMR与USDBE2扣除给不同partialrates；这提供有源companion但不替actualpaperfit、原phase/Σ或生成新显著性。旧720(180)fscomparison与官方.50(.12)psT字段同1971数据，非两测量。 | official-companion-and-shared-lifetime-boundary | indirect-evaluation-and-task-comparison | S31-2/3/4/5/9/10 | true |
+
+| SUN23-26 | exactXUNDL202401明确unevaluated同2023Su03编译，保存两finite/四upperlimit与3435branch，6390T空；它支持当前结果地位/字段对照，但不提供独立data或2023VoRbody、actualprior/producer。名义ln2残差不拿来改原打印结果。 | later-samepaper-compilation-boundary | indirect-XUNDL | S31-12/13/14/15 | true |
+
 ## Nuclear Structure Information
 
 31S低位与31P mirrorlifetimes作核结构benchmark；4971负宇称态未在sd-only计算匹配，因模型不含crossshellexcitation。六项DSAM结果和6390的弱线/条件应用分列，未给新的Jπ/δ或三轴性判断。
@@ -123,3 +127,5 @@ P1：若用于正式31S寿命/反应率或DSAM精度裁决，先定向核SI/实�
 下一高信息问题是Fig9/12的1/2+状态与A2 nuisance对象：需把明确帧/条件密度的核rank允许域和emulatorphenomenologicalresponse区分；目前只冻结为开放问题，不输出原fit错误或τbias。
 
 SI的spin-half对象问题之条件证明/必要反例已写[[spinhalf-angular-nuisance-response-contract]]；actualA2frame/模块尚未识别，不把此理论边界写成原paperfit错误。
+
+官方MR/half-life/母态身份的新输入与selectedscope见[[nndc-2022-s31-mixing-lifetime-reference]]；SUN23-25仅补companion，不把旧MR替换成本文实际使用的prior或认定新fit/τbias。

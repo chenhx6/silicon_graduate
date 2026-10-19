@@ -125,3 +125,5 @@ x=\cos\theta_{\rm lab},\quad\frac12\int_{-1}^1I_{\rm lab}dx=1.
 2026-10-19 Day17内恰好无学分Day18方法preview。L2 theorem/native/反控制闭合，L3 module/frame输入问题已收窄；L4原DSAM重拟仍未ready。不授18、不重授17、不打开19。
 
 符号z矩阵和旋转光子迹采用不同收缩，但共享SymPyCG后端和既有d/helper；它们是互补代数/数值控制，不是完全独立软件验证或独立实验。
+
+后续[[nndc-2022-s31-mixing-lifetime-reference]] S31-6用官方Adopted/transferL0再核3076/5156的1/2+身份；它补levelpremise，不识别SunA2frame，也不恢复actualdata/τCI。同核4971附近channel-dependent可能双态是另一个identity边界，不能按能量join。

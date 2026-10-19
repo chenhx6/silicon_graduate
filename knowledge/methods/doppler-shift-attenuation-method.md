@@ -119,3 +119,7 @@ SUN23-17–22的publisherSI已原读：见[[sun-2023-bayesian-dsam-31s]]。它�
 SCH08-11/12的条件算术表明省P可造成apparentF.97713，以及两个reported中心的独立SDcontrast并非作者>5σtest。原centroidΣ/MCcurve未得，不从summary造重拟。TableII复用旧F检验analysis，非新增两态测量；5181同runcompanion也共享systematics。
 
 J01-12–18的[[jensen-2001-165tm-h9-2-configuration]]主线将直接DSAM两band、mixing派生两band与E1绝对提取同标尺关联；详[[lifetime-strength-audit-165tm-136nd]]。constantQt跨spin是带条件迁移，有模型支持不等独立全spin测量；crossingmodel的evenbaseline/增益反证不因Qt较大消失。
+
+[[nndc-2022-s31-mixing-lifetime-reference]] S31-2–5/9/10给Sun1248模型E2扣除之外的旧MRcompanion，含真实双根/RUL选择及half-life/mean同源字段。官方数据可收窄输入，不能自动替代新DSAMactualresponse/priors/Σ，或用adoptedpreferred值重造唯一δ。
+
+S31-11的旧RISINGcluster/Miniball两预算还提示：meanτ/half-life及stat/sys组合必须同口径再比较，不能把同paper的两个detector和其单位换算重复当独立lifetime证据。

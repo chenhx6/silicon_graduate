@@ -32,7 +32,7 @@ updated: 2026-10-19
 | SG98原件主线与关键图/表/式 | [[../../knowledge/sources/schmid-1998-gammasphere-polarization]]末段actualreadscope；printed95–110、Figs1–15、Tables1–3、Eq1–19；SG98-13/14 | complete |
 | P/A/Q分层与新计数/误差练习 | [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]“P/A/Q分层与原件输入”及“声明设计的计数与定量结果”；[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json) | complete |
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
-| 本日报、唯一writeback与checks | 当前二十三页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
+| 本日报、唯一writeback与checks | 当前二十四页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
 
 Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
 
@@ -216,6 +216,22 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
 Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共享标尺不会在给每输出独立误差时自动保留。独立primitiveSD只是额外design，得到Q523/Q541尺度.0668847而原Table6.87(.10)保持，不反解actualCov/概率或叠已计5%。新matchedN96 observed/modelTm–Er双差44keV、Tm–Yb48keV只centraldiagnostic，不把100keV总模型残差全叫新pninteraction；Tmgain>5.3保持limit非点。
 
 主线counter：band4spin/两bandδ多解及无3↔4link保持；Qt跨spin近constant有模型支持不等逐spin实测，E1绝对强度沿用同Qt/mixing链不计独立验证。Octupoleb未fit、examples残差与body/caption单位边界保留，较大Qt不能单独闭合crossing物理。Jensen/Lifetimeaudit/Qt/DSAM页持久化新解释与artifact，仍恰好18无学分、formal17仅一次/未开19。
+
+### 官方31S：MRcompanion、原双根和同源寿命字段
+
+[[../../knowledge/sources/nndc-2022-s31-mixing-lifetime-reference]]由本session[primed回忆冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-reference-before-freeze.json)后selected官方对象取得，actual[identity/hash/payload](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-selected-downloads.json)和[readingscope](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-reference-reading-scope.json)保存。Adopted913行仅targetedcontexts，reaction71行全读，不冒整评价全文；headerJun2022cut/Novrecordupdate不等包揽所有laterexperiment。
+
+S31-2–5：1248同母态MR显式+.35(.02)回1970Moss α–γ，另+5.3(.4)根仍在comment，smallroot偏好含RUL/旧寿命条件，非角数据独断唯一δ。1971Engmann的meanτ720(180)fs与T1/2.50(.12)ps同源，转换约.72135/.17312ps不增加第三次测量。2010Do03两个detector预算再按额外quadrature/ln2转换，与Sun打印1.2+1.5−1.1和3.2±7.0ps大致相合；不把同paper两detector/不同单位当独立实验或恢复actualΣ。NSR两primary准确title/DOI已核，body/phase/fit未得。
+
+[新合同](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-mixing-contract.json)/[程序](../../system/scripts/day17_s31_mixing_reference_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-mixing-result.json)以fixedSunmean1.12ps作γ-only诊断：smallMR的fE2=.109131、τM1=1.2572ps、BM1≈.0232725，而USDBτE2=6.9ps对应fE2=.162319、rate-equivalent|δ|≈.440195、BM1≈.021883；不将差/.02当model排除显著性或nativephase已桥接。largealternate也保留条件结果，不用newτ再做RUL选根。理论CC/IPC组件printingclosure非独立ICC测量，不迁给其它δ。
+
+S31-6/7另核3076/5156的1/2+premise，并保留4971附近channel-dependent可能双态；这补identity而非SunactualA2/响应模块。原BM1W(W.u.)栏也不裸比SunµN²。newsource/Sun/lifetimeaudit/DSAM/spinhalfnote均已canonical；没有新实验τ/δ/B或CI，formal17只一次、18无学分/未开19。
+
+### exactXUNDL：同Sun论文编译及未给6390寿命
+
+官方XUNDL目录新对象31016069,31S经[新beforebody冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-xundl-before-body-freeze.json)、[exactpayload/hash](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-xundl-selected-download.json)、[45行完整原读scope](20261019-DAY17-linear-polarization-paq-compton-run-01/s31-xundl-reading-scope.json)核为202401/27Dec2023compiled、explicitunevaluated2023Su03/PLB839137801。同目录两个XUNDL-11不按suffix选identity。
+
+S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6390T空，仅两个γ，支持当前结果地位的边界，不添第五项20fs/90%寿命。nominal250ln2=173.2868fs与compiled172等末位不完全闭合保留，不补原unroundedquantile/roundingrule、不改源结果。3435两γ62(12)/38(11)同Sunbranchsummary，不能与oldAdopted83/100归一直接混；unequalquotederrors不强推严格normalizedCov。新对象不是独立experiment/data或已得VoRbody，原prior/GP/config仍未得，canonicalS31/Sun页已持久化。
 
 ## Durable knowledge delta
 
@@ -500,6 +516,22 @@ Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共�
         {
           "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
           "locator": "SCH08-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-11"
         }
       ]
     },
@@ -950,6 +982,22 @@ Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共�
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-11"
         }
       ]
     },
@@ -1073,6 +1121,22 @@ Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共�
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-11"
         }
       ]
     },
@@ -1191,6 +1255,38 @@ Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共�
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-24"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-15"
         }
       ]
     },
@@ -1260,6 +1356,10 @@ Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共�
         {
           "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
           "locator": "YA67-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-6"
         }
       ]
     },
@@ -1311,6 +1411,73 @@ Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共�
         {
           "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
           "locator": "SCH08-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "summary": "实际官方Adopted定向/旧reaction71行全读，1248MR双根/RUL选根、半衰期/mean同源、1/2身份与channel双态及model-rate对照；未得oldprimarybody/phase/actualCov。",
+      "anchor": "31S1248：官方MR输入有真实来源，也有选根条件",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+          "locator": "S31-15"
         }
       ]
     }
@@ -1399,3 +1566,9 @@ Fry2018机构检索429验证页、OpenAlex无关结果均未接受为body；下�
 011已actualH3/Gitee push；[verification-024](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-024.json)实际report/23changed/25mapped唯一writeback/coverage/boundary/lint/diff全部exit0，0errors203warnings。原J01十行/所有review及PLAN/Bib保持，扩展本sessionmainline不重写历史targetedscope。新组态mixing/四Qtreference/同Nmodelbaseline算术只支持限定合同，未恢复原VMI/DCO/DSAMfit/Σ或新CI。Bertone精确OSTI索引请求最终connecttimeout，body仍未得；未将新失败冒称原科学反证。
 
 稳定指针main / `Audit full Tm165 band-mixing and quadrupole-reference dependencies`，actualhash/H3/push仅publication012。formal17已一次/course18count17，18仍无学分知识preview，未开19；原研究窗口/nativegoal继续，下一用新的actualinput或source合同推进，不堆同代数/终态URL。
+
+### checkpoint013官方MRcompanion与同文XUNDL验收
+
+012已actualH3/Gitee push；[verification-027](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-027.json)实际report/24changed/26mapped唯一writeback/coverage/boundary/lint/diff全部exit0，0errors205warnings＝144key57raw4parser，原Sun二十四行/review与PLAN/Bib保持。初newsourcegenericcanonicalURL重复及缺title_original的schemafailure已修并留initialreceipt，没改科学输入或raw。
+
+原记录/本计算的half-life/mean/δ双根/RUL和model-rate层分列；XUNDL是同2023Su03的unevaluatedcompilation，6390T空不造第五项寿命，nominalprintingresidual不指认实验错。下一Moss1970exactDOI/NSRmetadata和beforebodyfreeze已留，Caltecholdpath404/新API无匹配/OpenAlex无publicPDF候选，不当primarybody；合法download尝试结果以actualreceipt为准。稳定指针main / `Verify S31 mixing references and same-paper lifetime compilation`，actualhash/H3/push仅publication013。formal17一次/course18count17、18preview无学分/未开19，原研究window/nativegoal仍active。

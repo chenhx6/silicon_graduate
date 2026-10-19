@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-19T14:23:56.792936+00:00",
+  "selectedobjects": [
+    {
+      "dataset": "31016001,31S",
+      "version": "ENSDF202209 fullcut24Jun2022/update23Nov2022 (p,d)/(d,t)",
+      "hash": "672a9eb7db91f0cae5042e75fa08a3156d95fe70d7405ccb18ca0aafa5563c8a",
+      "actualscope": "Adopted913lines targetedheader1–45, reference/definitions62–102, lowlevels103–164, 3435/4971/5156 relevantcontexts; notfull913line/evaluationread"
+    },
+    {
+      "dataset": "31016064,31S",
+      "version": "ENSDF202209 fullcut24Jun2022",
+      "hash": "315a14aace3b1299c7eb80a2dc7910e3567f0d6af0dd13396596434da193766c",
+      "actualscope": "all71lines read, includingfullsetup/MRroot/RUL/gammaintensitycomments"
+    }
+  ],
+  "phase_boundary": "evaluationMRsign and oldangularfitnotidentifiedwithSunprivateoperator/frame; largealternate retained",
+  "not_actualSunresponse": "noA2frame/GP/actualdatafromrecords",
+  "new_question": "independentlineage ofMRcompanion andmodelE2 deduction; totalhalf-life vsmeanτ"
+}

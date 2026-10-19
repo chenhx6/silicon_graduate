@@ -1,0 +1,46 @@
+{
+  "downloaded_at": "2026-10-19T14:17:51.924688+00:00",
+  "rows": [
+    {
+      "name": "adopted",
+      "datasetcheck": "31016001,31S",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "31016001,31S",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "da0ef2c5fd91a898d3ceef763e6838e8daf1e392e0191bab19651219c8700dae",
+      "response_bytes": 74414,
+      "ensdf_path": "tmp/day17-s31-reference/adopted.ens",
+      "ensdf_sha256": "672a9eb7db91f0cae5042e75fa08a3156d95fe70d7405ccb18ca0aafa5563c8a",
+      "lines": 913,
+      "identity_line": "",
+      "identity_line_first_nonblank": " 31S     ADOPTED LEVELS, GAMMAS                                  22NDS    202209",
+      "leading_blank_line_preserved": true
+    },
+    {
+      "name": "he3ag",
+      "datasetcheck": "31016064,31S",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "31016064,31S",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "2bf4776734ebb75b7b8d509c6a30b2677c802addbfc434f53210d12549599810",
+      "response_bytes": 6212,
+      "ensdf_path": "tmp/day17-s31-reference/he3ag.ens",
+      "ensdf_sha256": "315a14aace3b1299c7eb80a2dc7910e3567f0d6af0dd13396596434da193766c",
+      "lines": 71,
+      "identity_line": "",
+      "identity_line_first_nonblank": " 31S     32S(3HE,AG)                   1970MO08,1971EN02         22NDS    202209",
+      "leading_blank_line_preserved": true
+    }
+  ],
+  "scope": "selectedobjectidentity/hash only; scientificrows readnext"
+}

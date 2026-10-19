@@ -155,3 +155,11 @@ Table5六个**源模型**eigenpair给|ab(Ecalc404−Ecalc411)|≈4.97keV，符�
 实际counterinput：N96时Table7 modelTm/Er/Yb crossing255/225/217keV，对应Table3/8 observed355/281/269。Tm的100keV总残差包含evenbaseline问题；中心double-difference分别44/48keV不是新pninteraction实测或精确误差排除。作者还核crossinggain，但Tm>5.3只lowerlimit不可当5.3点；deformation/pairing/Coriolis与pn解释必须共同面对数据。
 
 Fig19的absoluteB(E1)也取同Table6 Qt、λ和mixing修正，故不是独立验证DSAMQt的绝对companion；octupolecoupling只是examples未fit，spin/signature残差与b单位字面边界保持。需要独立lifetime/feeding/stopping/原modelinput才会提高绝对shape裁决信息，重复当下代数不会补它。
+
+## 31S的有源MRcompanion与原双根
+
+[[nndc-2022-s31-mixing-lifetime-reference]] S31-2–10实际核2022Adopted/旧reaction两对象：1248MR+.35(.02)来自1970Moss，另+5.3(.4)根仍在comment，小根偏好用了RUL；1971DSAM的T1/2.50(.12)ps与meanτ720(180)fs为同测量/不同字段。不能将两个evaluation或单位表示重复计权。
+
+固定Sun总mean1.12ps作γ-only诊断时smallMR给τM1=1.2572ps、BM1≈.0232725，USDBτE2=6.9ps则给τM1≈1.33702、BM1≈.021883；后一输入的rate-equivalent|δ|≈.440195不是新测MR。原largealternate也保存条件rate，不用newτ/RUL再选根。primaryphase/fit与modelσ/actualbranchCov缺，不能把差/.02当显著性或把本重算叫新experimentalCI。
+
+S31-11另把2010Do03两detector的quotedstat/sys半衰期预算与Sunmeanτ转引做条件单位核；同paper/不同detector不自动独立，quadrature只是额外算术假设，不从summary重建旧jointΣ或physical-limitCI。

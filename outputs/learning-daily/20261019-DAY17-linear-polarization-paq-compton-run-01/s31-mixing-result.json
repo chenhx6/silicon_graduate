@@ -1,0 +1,382 @@
+{
+  "identity": "S31-OFFICIAL-MIXING-COMPANION-01",
+  "script_sha256": "cc70114c56d4ed1a117a73fbe446a04392e056463060372e3436adc9d40d6c36",
+  "contract_sha256": "558a62f5c4b95aa5b6bb0010989bba51faf4f473ae258d92c1d595e00facd4ca",
+  "selected_same_parent_records": {
+    "adopted": {
+      "gamma": {
+        "line": 128,
+        "raw": " 31S   G 1248.68   10 100       M1+E2     +0.35  2                              ",
+        "parent": {
+          "line": 120,
+          "raw": " 31S   L 1248.60   8  3/2+             0.50 PS   12                         X   ",
+          "energy": {
+            "text": "1248.60",
+            "value": 1248.6,
+            "sigma": 0.08,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "3/2+",
+          "half_life_field": "0.50 PS",
+          "half_life_uncertainty_field": "12"
+        },
+        "energy": {
+          "text": "1248.68",
+          "value": 1248.68,
+          "sigma": 0.1,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "100",
+          "value": 100.0,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "M": "M1+E2",
+        "MR": {
+          "text": "+0.35",
+          "value": 0.35,
+          "sigma": 0.02,
+          "sign_marker": "+"
+        },
+        "CC": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "placement_tail": "                "
+      },
+      "level_field_half_life": "0.50 PS",
+      "parsed_half_life_ps": {
+        "text": "0.50",
+        "value": 0.5,
+        "sigma": 0.12,
+        "sign_marker": "unspecified"
+      },
+      "mean_tau_from_printed_half_life_ps": 0.7213475204444817,
+      "mean_tau_sigma_from_printed_half_life_scale_ps": 0.1731234049066756
+    },
+    "he3ag": {
+      "gamma": {
+        "line": 29,
+        "raw": " 31S   G 1249.0    10 100       M1+E2    +0.35   2                              ",
+        "parent": {
+          "line": 26,
+          "raw": " 31S   L 1249.0    10 (3/2+)           0.50 PS   12                             ",
+          "energy": {
+            "text": "1249.0",
+            "value": 1249.0,
+            "sigma": 1.0,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "(3/2+)",
+          "half_life_field": "0.50 PS",
+          "half_life_uncertainty_field": "12"
+        },
+        "energy": {
+          "text": "1249.0",
+          "value": 1249.0,
+          "sigma": 1.0,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "100",
+          "value": 100.0,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "M": "M1+E2",
+        "MR": {
+          "text": "+0.35",
+          "value": 0.35,
+          "sigma": 0.02,
+          "sign_marker": "+"
+        },
+        "CC": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "placement_tail": "                "
+      },
+      "level_field_half_life": "0.50 PS",
+      "parsed_half_life_ps": {
+        "text": "0.50",
+        "value": 0.5,
+        "sigma": 0.12,
+        "sign_marker": "unspecified"
+      },
+      "mean_tau_from_printed_half_life_ps": 0.7213475204444817,
+      "mean_tau_sigma_from_printed_half_life_scale_ps": 0.1731234049066756
+    }
+  },
+  "conditional_rate_comparison": [
+    {
+      "input": "official_small_MR",
+      "absdelta_for_rates": 0.35,
+      "E2_photon_rate_fraction": 0.10913140311804007,
+      "M1_partial_tau_ps_conditional": 1.2572,
+      "E2_partial_tau_ps_conditional": 10.262857142857145,
+      "B_M1_muN2_conditional": 0.02327247380204027,
+      "B_E2_e2b2_conditional": 0.002626978437668999,
+      "not_a_new_measured_MR_or_posterior_CI": true
+    },
+    {
+      "input": "official_large_alternative_comment",
+      "absdelta_for_rates": 5.3,
+      "E2_photon_rate_fraction": 0.9656239257476796,
+      "M1_partial_tau_ps_conditional": 32.5808,
+      "E2_partial_tau_ps_conditional": 1.159871840512638,
+      "B_M1_muN2_conditional": 0.0008980182826672465,
+      "B_E2_e2b2_conditional": 0.023244209818256405,
+      "not_a_new_measured_MR_or_posterior_CI": true
+    },
+    {
+      "input": "Sun_model_rate_equivalent_absdelta",
+      "absdelta_for_rates": 0.44019498667928725,
+      "E2_photon_rate_fraction": 0.16231884057971016,
+      "M1_partial_tau_ps_conditional": 1.3370242214532875,
+      "E2_partial_tau_ps_conditional": 6.9,
+      "B_M1_muN2_conditional": 0.02188303965961266,
+      "B_E2_e2b2_conditional": 0.003907290496110578,
+      "not_a_new_measured_MR_or_posterior_CI": true
+    }
+  ],
+  "officialMR_to_model_bridge": {
+    "source_MR_small": 0.35,
+    "source_MR_sigma": 0.02,
+    "model_subtracted_E2_fraction": 0.16231884057971016,
+    "model_rate_equivalent_absdelta": 0.44019498667928725,
+    "native_sign_or_phase_identified": false,
+    "fraction_sigma_local_if_only_MR_varies": 0.011111055996746045,
+    "not_difference_over_SD_significance": true
+  },
+  "mean_vs_half_life": {
+    "official_half_life_ps": 0.5,
+    "official_scale_ps": 0.12,
+    "converted_mean_tau_ps": 0.7213475204444817,
+    "converted_scale_ps": 0.1731234049066756,
+    "quoted_reaction_comment_mean_fs": 720,
+    "Sun_mean_tau_ps": 1.12,
+    "same_1971En02_as_Sun_literature_comparison": true,
+    "no_new_measurement_from_unit_conversion": true
+  },
+  "2010_same_paper_detector_summaries_conditional_conversion": [
+    {
+      "detector": "RISING clusterHPGe",
+      "T_half_ps": 0.8,
+      "stat_ps": 0.5,
+      "syst_plus_ps": 0.9,
+      "syst_minus_ps": 0.6,
+      "mean_tau_ps_from_half_life": 1.1541560327111708,
+      "plus_scale_if_stat_syst_quadrature": 1.4853454547228884,
+      "minus_scale_if_stat_syst_quadrature": 1.1267808475535164,
+      "not_new_independent_measurement_or_original_Cov": true
+    },
+    {
+      "detector": "RISING MiniballHPGe",
+      "T_half_ps": 2.2,
+      "stat_ps": 3.3,
+      "syst_plus_ps": 3.6,
+      "syst_minus_ps": 3.6,
+      "mean_tau_ps_from_half_life": 3.17392908995572,
+      "plus_scale_if_stat_syst_quadrature": 7.04561212365425,
+      "minus_scale_if_stat_syst_quadrature": 7.04561212365425,
+      "not_new_independent_measurement_or_original_Cov": true
+    }
+  ],
+  "selected_smallroot_CC_arithmetic": {
+    "source": {
+      "CC": 3.58e-05,
+      "KC": 2.122e-05,
+      "LC": 1.637e-06,
+      "MC": 1.381e-07,
+      "IPC": 1.28e-05,
+      "locator": "AdoptedL135–136; theorycontinuationfields forselected+.35root, notindependentdata"
+    },
+    "K_L_M_IPC_sum": 3.57951e-05,
+    "CC_minus_components": 4.900000000003968e-09,
+    "fixed_CC_M1_scaling_1_over_1plusCC": 0.9999642012815941,
+    "not_reused_for_alternative_delta_or_as_new_measured_Cov": true
+  },
+  "XUNDL_samepaper_compilation": {
+    "source_hash": "56ad828fdacf39ebf44ad8a2a2bc6226a05f46ed084fbcc07550bf07c11d1ab7",
+    "compiled_lifetime_rows": [
+      {
+        "energy": 1248.0,
+        "level_line": 15,
+        "T_field": "0.78 PS",
+        "DT_field": "12",
+        "nominal_source_mean_tau_fs": 1120.0,
+        "converted_mean_tau_ln2_fs": 776.3248422271387,
+        "compiled_half_life_fs": 780.0,
+        "central_residual_fs": 3.6751577728613256,
+        "not_new_lifetime_or_original_rounding_rule": true
+      },
+      {
+        "energy": 2234.0,
+        "level_line": 19,
+        "T_field": "172 FS",
+        "DT_field": "55",
+        "nominal_source_mean_tau_fs": 250.0,
+        "converted_mean_tau_ln2_fs": 173.2867951399863,
+        "compiled_half_life_fs": 172.0,
+        "central_residual_fs": -1.2867951399863102,
+        "not_new_lifetime_or_original_rounding_rule": true
+      },
+      {
+        "energy": 3076.0,
+        "level_line": 23,
+        "T_field": "7.6 FS",
+        "DT_field": "LT",
+        "nominal_source_mean_tau_fs": 11.0,
+        "converted_mean_tau_ln2_fs": 7.6246189861593985,
+        "compiled_half_life_fs": 7.6,
+        "central_residual_fs": -0.024618986159398837,
+        "not_new_lifetime_or_original_rounding_rule": true
+      },
+      {
+        "energy": 3435.0,
+        "level_line": 27,
+        "T_field": "11 FS",
+        "DT_field": "LT",
+        "nominal_source_mean_tau_fs": 16.0,
+        "converted_mean_tau_ln2_fs": 11.090354888959125,
+        "compiled_half_life_fs": 11.0,
+        "central_residual_fs": -0.09035488895912458,
+        "not_new_lifetime_or_original_rounding_rule": true
+      },
+      {
+        "energy": 4971.0,
+        "level_line": 32,
+        "T_field": "4.8 FS",
+        "DT_field": "LT",
+        "nominal_source_mean_tau_fs": 7.0,
+        "converted_mean_tau_ln2_fs": 4.852030263919617,
+        "compiled_half_life_fs": 4.8,
+        "central_residual_fs": -0.05203026391961707,
+        "not_new_lifetime_or_original_rounding_rule": true
+      },
+      {
+        "energy": 5156.0,
+        "level_line": 36,
+        "T_field": "10 FS",
+        "DT_field": "LT",
+        "nominal_source_mean_tau_fs": 15.0,
+        "converted_mean_tau_ln2_fs": 10.39720770839918,
+        "compiled_half_life_fs": 10.0,
+        "central_residual_fs": -0.3972077083991792,
+        "not_new_lifetime_or_original_rounding_rule": true
+      }
+    ],
+    "6390_lifetime_field_is_blank": true,
+    "3435_gamma_branch_rows": [
+      {
+        "line": 30,
+        "raw": " 31S   G 2186        62      12                                                 ",
+        "parent": {
+          "line": 27,
+          "raw": " 31S   L 3435         3/2+             11 FS     LT                             ",
+          "energy": {
+            "text": "3435",
+            "value": 3435.0,
+            "sigma": null,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "3/2+",
+          "half_life_field": "11 FS",
+          "half_life_uncertainty_field": "LT"
+        },
+        "energy": {
+          "text": "2186",
+          "value": 2186.0,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "62",
+          "value": 62.0,
+          "sigma": 12.0,
+          "sign_marker": "unspecified"
+        },
+        "M": "",
+        "MR": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "CC": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "placement_tail": "                "
+      },
+      {
+        "line": 31,
+        "raw": " 31S   G 3435        38      11                                                 ",
+        "parent": {
+          "line": 27,
+          "raw": " 31S   L 3435         3/2+             11 FS     LT                             ",
+          "energy": {
+            "text": "3435",
+            "value": 3435.0,
+            "sigma": null,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "3/2+",
+          "half_life_field": "11 FS",
+          "half_life_uncertainty_field": "LT"
+        },
+        "energy": {
+          "text": "3435",
+          "value": 3435.0,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "38",
+          "value": 38.0,
+          "sigma": 11.0,
+          "sign_marker": "unspecified"
+        },
+        "M": "",
+        "MR": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "CC": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "placement_tail": "                "
+      }
+    ],
+    "not_independent_of_Sun_experiment": true,
+    "not_attestation_of_finalVORbody": true
+  },
+  "input_layer_boundaries": [
+    "sameparent1248.60level/1248.68gamma vsoldreaction1249 approximateidentityverified, notgenericenergyjoin",
+    "MRsmall+.35(.02) andlarge+5.3(.4) from1970Mo08 ascompiled; smallselectedwithRUL notpureindependentangularuniqueness",
+    "source1970phase/actualfitbody notobtained; onlydelta²usedforrates, notnativeSunphaseidentification",
+    "compare atSun1.12psonlyconditionalgamma-onlyM1/E2 diagnostics; noactualinventory/CC/IPCerror/branchCov restored",
+    "modernconstants/roundedE1.248fixed as samepreviousrateexercise, notoriginalSunexactEprior or historicalconstants",
+    "officiallevelTfieldhalf-life.50(.12)ps vsreactioncommenttau720(180)fs; conversionnotindependentlifetime; originalreference sharedSuncomparison",
+    "officialRI100 isrelativephotonintensity notabsoluteparentbranch byitself; onlyoneprintedline not exhaustiveinventorycertificate",
+    "same2022evaluationtwoobjects/1970measurement countedoncelineage; fullcutJun2022 andrecordupdateNov2022 do notcertifyalllatermeasurementsincluded",
+    "formal17once,next18count17,exactlyuncredited18preview,no19",
+    "2010summaryconversionusesadditionalstat/systquadratureonlyasanarithmeticbridge toSunprintedliterature, not actualmodel/sharedcov recovered or twoindependentexperiments"
+  ],
+  "ok": true,
+  "new_experimental_strength_CI_or_delta_fit": false,
+  "actual_Sun_response_producer_or_A2_frame_recovered": false,
+  "generated_at": "2026-10-19T14:46:35.358585+00:00"
+}

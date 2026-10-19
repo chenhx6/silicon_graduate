@@ -1,0 +1,47 @@
+{
+  "url": "https://api.crossref.org/works/10.1016%2F0375-9474%2870%2990434-3",
+  "status": 200,
+  "scope": "metadata/repository candidate only; no primarybodyread",
+  "data": {
+    "title": [
+      "Nuclear energy levels of 31S and 33C1"
+    ],
+    "DOI": "10.1016/0375-9474(70)90434-3",
+    "author": [
+      {
+        "given": "C.E.",
+        "family": "Moss",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1970,
+          4
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:0375947470904343?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:0375947470904343?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  }
+}

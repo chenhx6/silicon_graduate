@@ -1,0 +1,59 @@
+{
+  "identity": "S31-OFFICIAL-MIXING-COMPANION-01",
+  "source_paths": {
+    "adopted": "tmp/day17-s31-reference/adopted.ens",
+    "he3ag": "tmp/day17-s31-reference/he3ag.ens"
+  },
+  "source_hashes": {
+    "adopted": "672a9eb7db91f0cae5042e75fa08a3156d95fe70d7405ccb18ca0aafa5563c8a",
+    "he3ag": "315a14aace3b1299c7eb80a2dc7910e3567f0d6af0dd13396596434da193766c"
+  },
+  "Sun_total_mean_tau_ps": 1.12,
+  "Sun_USDB_E2_partial_tau_ps": 6.9,
+  "MR_small": 0.35,
+  "sigma_MR_small": 0.02,
+  "MR_large_comment": 5.3,
+  "rounded_E_MeV": 1.248,
+  "modern_C_M1": 0.0568709756,
+  "modern_C_E2": 0.081620212,
+  "assumptions": [
+    "sameparent1248.60level/1248.68gamma vsoldreaction1249 approximateidentityverified, notgenericenergyjoin",
+    "MRsmall+.35(.02) andlarge+5.3(.4) from1970Mo08 ascompiled; smallselectedwithRUL notpureindependentangularuniqueness",
+    "source1970phase/actualfitbody notobtained; onlydelta²usedforrates, notnativeSunphaseidentification",
+    "compare atSun1.12psonlyconditionalgamma-onlyM1/E2 diagnostics; noactualinventory/CC/IPCerror/branchCov restored",
+    "modernconstants/roundedE1.248fixed as samepreviousrateexercise, notoriginalSunexactEprior or historicalconstants",
+    "officiallevelTfieldhalf-life.50(.12)ps vsreactioncommenttau720(180)fs; conversionnotindependentlifetime; originalreference sharedSuncomparison",
+    "officialRI100 isrelativephotonintensity notabsoluteparentbranch byitself; onlyoneprintedline not exhaustiveinventorycertificate",
+    "same2022evaluationtwoobjects/1970measurement countedoncelineage; fullcutJun2022 andrecordupdateNov2022 do notcertifyalllatermeasurementsincluded",
+    "formal17once,next18count17,exactlyuncredited18preview,no19",
+    "2010summaryconversionusesadditionalstat/systquadratureonlyasanarithmeticbridge toSunprintedliterature, not actualmodel/sharedcov recovered or twoindependentexperiments"
+  ],
+  "parser_helper": "system/scripts/day17_pb207_reference_audit.py",
+  "parser_helper_sha256": "f36bbc38d20088d3486758b85321789512d7371266037e1dcc572351a1d04ab8",
+  "selected_CC_smallroot": {
+    "CC": 3.58e-05,
+    "KC": 2.122e-05,
+    "LC": 1.637e-06,
+    "MC": 1.381e-07,
+    "IPC": 1.28e-05,
+    "locator": "AdoptedL135–136; theorycontinuationfields forselected+.35root, notindependentdata"
+  },
+  "Doornenbal2010_printed_half_life_summaries": [
+    {
+      "detector": "RISING clusterHPGe",
+      "T_half_ps": 0.8,
+      "stat_ps": 0.5,
+      "syst_plus_ps": 0.9,
+      "syst_minus_ps": 0.6
+    },
+    {
+      "detector": "RISING MiniballHPGe",
+      "T_half_ps": 2.2,
+      "stat_ps": 3.3,
+      "syst_plus_ps": 3.6,
+      "syst_minus_ps": 3.6
+    }
+  ],
+  "xundl_path": "tmp/day17-s31-reference/sun2023-xundl.ens",
+  "xundl_sha256": "56ad828fdacf39ebf44ad8a2a2bc6226a05f46ed084fbcc07550bf07c11d1ab7"
+}

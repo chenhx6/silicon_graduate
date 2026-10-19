@@ -1,0 +1,272 @@
+{
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=1971En02&page=1&size=100",
+  "status": 200,
+  "scope": "primarybibliographicidentity only, nobodyread",
+  "data": {
+    "totalResults": 1,
+    "data": [
+      {
+        "keyNumber": "1971EN02",
+        "publicationYear": 1971,
+        "isPrimary": true,
+        "entryDate": "1980-07-01",
+        "codenText": "JOUR NUPAB A162 295",
+        "referenceType": "JOURNAL",
+        "journalCode": "NUPAB",
+        "indexInformation": "A162 295",
+        "referenceText": "Nucl.Phys. A162, 295 (1971)",
+        "authors": [
+          {
+            "initials": [
+              "R"
+            ],
+            "lastName": "Engmann"
+          },
+          {
+            "initials": [
+              "E"
+            ],
+            "lastName": "Ehrmann"
+          },
+          {
+            "initials": [
+              "F"
+            ],
+            "lastName": "Brandolini"
+          },
+          {
+            "initials": [
+              "C"
+            ],
+            "lastName": "Signorini"
+          }
+        ],
+        "collaborations": [],
+        "title": "Lifetime Measurements in sd Shell Nuclei (V). Mean Lives of {+31}S and {+38}K Levels",
+        "doi": "10.1016/0375-9474(71)90986-9",
+        "sentenceGroups": [
+          {
+            "topic": "NUCLEAR_REACTIONS",
+            "textFormat": "EXCHANGE",
+            "sentences": [
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "REACTION",
+                    "text": "{+32}S({+3}He,|a|g),E=7.0 MeV"
+                  },
+                  {
+                    "primaryType": "REACTION",
+                    "text": "{+39}K({+3}He,|a|g),E=9.0 MeV"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured Doppler shift attenuation"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "secondaryType": "DEDUCED",
+                    "text": "{+31}S,{+38}K deduced levels,T{-1/2}"
+                  }
+                ]
+              },
+              {
+                "indexed": false,
+                "phrases": [
+                  {
+                    "text": "Natural targets"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "REACTION",
+                    "text": "{+35}Cl(|a,n|g),E=7.5 MeV"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured Doppler shift,recoil distance"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "secondaryType": "DEDUCED",
+                    "text": "{+38}K levels deduced T{-1/2}"
+                  }
+                ]
+              },
+              {
+                "indexed": false,
+                "phrases": [
+                  {
+                    "text": "Enriched target"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectorGroups": [
+          {
+            "selectors": [
+              "T:32S;A.",
+              "R:(3HE,A);A.",
+              "N:31S;A.",
+              "T:39K;B.",
+              "R:(3HE,A);B.",
+              "N:38K;B.",
+              "M:DOPPLER;A.",
+              "M:DOPPLER;B.",
+              "N:31S;C.",
+              "N:38K;C.",
+              "D:T1/2;C.",
+              "T:35CL;D.",
+              "R:(A,N);D.",
+              "N:38K;D.",
+              "M:DOPPLER;D.",
+              "N:38K;E.",
+              "D:T1/2;E."
+            ]
+          }
+        ],
+        "atomicMassSelectors": [],
+        "atomicNumberSelectors": [],
+        "nuclideSelectors": [
+          {
+            "nuclideSubType": "TARGET",
+            "z": 16,
+            "n": 16,
+            "a": 32,
+            "elementName": "Sulfur",
+            "elementSymbol": "S",
+            "selectorFlag": "A"
+          },
+          {
+            "z": 16,
+            "n": 15,
+            "a": 31,
+            "elementName": "Sulfur",
+            "elementSymbol": "S",
+            "selectorFlag": "A"
+          },
+          {
+            "nuclideSubType": "TARGET",
+            "z": 19,
+            "n": 20,
+            "a": 39,
+            "elementName": "Potassium",
+            "elementSymbol": "K",
+            "selectorFlag": "B"
+          },
+          {
+            "z": 19,
+            "n": 19,
+            "a": 38,
+            "elementName": "Potassium",
+            "elementSymbol": "K",
+            "selectorFlag": "B"
+          },
+          {
+            "z": 16,
+            "n": 15,
+            "a": 31,
+            "elementName": "Sulfur",
+            "elementSymbol": "S",
+            "selectorFlag": "C"
+          },
+          {
+            "z": 19,
+            "n": 19,
+            "a": 38,
+            "elementName": "Potassium",
+            "elementSymbol": "K",
+            "selectorFlag": "C"
+          },
+          {
+            "nuclideSubType": "TARGET",
+            "z": 17,
+            "n": 18,
+            "a": 35,
+            "elementName": "Chlorine",
+            "elementSymbol": "Cl",
+            "selectorFlag": "D"
+          },
+          {
+            "z": 19,
+            "n": 19,
+            "a": 38,
+            "elementName": "Potassium",
+            "elementSymbol": "K",
+            "selectorFlag": "D"
+          },
+          {
+            "z": 19,
+            "n": 19,
+            "a": 38,
+            "elementName": "Potassium",
+            "elementSymbol": "K",
+            "selectorFlag": "E"
+          }
+        ],
+        "reactionSelectors": [
+          {
+            "reactionCode": "(3HE,A)",
+            "selectorFlag": "A"
+          },
+          {
+            "reactionCode": "(3HE,A)",
+            "selectorFlag": "B"
+          },
+          {
+            "reactionCode": "(A,N)",
+            "selectorFlag": "D"
+          }
+        ],
+        "subjectSelectors": [
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "DOPPLER",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "DOPPLER",
+            "selectorFlag": "B"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "T1/2",
+            "selectorFlag": "C"
+          },
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "DOPPLER",
+            "selectorFlag": "D"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "T1/2",
+            "selectorFlag": "E"
+          }
+        ],
+        "errataEntries": [],
+        "pdfAvailable": false,
+        "xundlAvailable": false,
+        "exforKeys": []
+      }
+    ],
+    "last_page": 1
+  }
+}

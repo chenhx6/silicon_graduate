@@ -1,0 +1,230 @@
+{
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=1970Mo08&page=1&size=100",
+  "status": 200,
+  "scope": "primarybibliographicidentity only, nobodyread",
+  "data": {
+    "totalResults": 1,
+    "data": [
+      {
+        "keyNumber": "1970MO08",
+        "publicationYear": 1970,
+        "isPrimary": true,
+        "entryDate": "1980-07-01",
+        "codenText": "JOUR NUPAB A145 423",
+        "referenceType": "JOURNAL",
+        "journalCode": "NUPAB",
+        "indexInformation": "A145 423",
+        "referenceText": "Nucl.Phys. A145, 423 (1970)",
+        "authors": [
+          {
+            "initials": [
+              "C",
+              "E"
+            ],
+            "lastName": "Moss"
+          }
+        ],
+        "collaborations": [],
+        "title": "Nuclear Energy Levels of {+31}S and {+33}Cl",
+        "doi": "10.1016/0375-9474(70)90434-3",
+        "sentenceGroups": [
+          {
+            "topic": "NUCLEAR_REACTIONS",
+            "textFormat": "EXCHANGE",
+            "sentences": [
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "REACTION",
+                    "text": "{+32}S({+3}He,|a),({+3}He,|a|g),({+3}He,d), E=8.0-12.2 MeV"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured |s(E|a,|q), |s(E|a,E|g,|q(|a|g)), |s(Ed,|q)"
+                  },
+                  {
+                    "primaryType": "DEDUCED",
+                    "text": "deduced Q"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "REACTION",
+                    "text": "{+36}Ar(p,|a), E=12.0 MeV"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured |s(E|a)"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "secondaryType": "DEDUCED",
+                    "text": "{+31}S,{+33}Cl deduced levels,L(n),L(p),J,|p, |g-branching ratios, |g-mixing ratios"
+                  }
+                ]
+              },
+              {
+                "indexed": false,
+                "phrases": [
+                  {
+                    "text": "Natural, enriched targets"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectorGroups": [
+          {
+            "selectors": [
+              "T:32S;A.",
+              "R:(3HE,A);A.",
+              "N:31S;A.",
+              "R:(3HE,D);A.",
+              "N:33CL;A.",
+              "M:G-SPECTRA;A.",
+              "M:DSIGMA;A.",
+              "D:Q;A.",
+              "T:36AR;B.",
+              "R:(P,A);B.",
+              "N:33CL;B.",
+              "M:DSIGMA;B.",
+              "N:31S;C.",
+              "N:33CL;C.",
+              "D:LEVEL-PROP;C.",
+              "D:G-SPECTRA;C.",
+              "D:G-MULTIPOLARITY;C."
+            ]
+          }
+        ],
+        "atomicMassSelectors": [],
+        "atomicNumberSelectors": [],
+        "nuclideSelectors": [
+          {
+            "nuclideSubType": "TARGET",
+            "z": 16,
+            "n": 16,
+            "a": 32,
+            "elementName": "Sulfur",
+            "elementSymbol": "S",
+            "selectorFlag": "A"
+          },
+          {
+            "z": 16,
+            "n": 15,
+            "a": 31,
+            "elementName": "Sulfur",
+            "elementSymbol": "S",
+            "selectorFlag": "A"
+          },
+          {
+            "z": 17,
+            "n": 16,
+            "a": 33,
+            "elementName": "Chlorine",
+            "elementSymbol": "Cl",
+            "selectorFlag": "A"
+          },
+          {
+            "nuclideSubType": "TARGET",
+            "z": 18,
+            "n": 18,
+            "a": 36,
+            "elementName": "Argon",
+            "elementSymbol": "Ar",
+            "selectorFlag": "B"
+          },
+          {
+            "z": 17,
+            "n": 16,
+            "a": 33,
+            "elementName": "Chlorine",
+            "elementSymbol": "Cl",
+            "selectorFlag": "B"
+          },
+          {
+            "z": 16,
+            "n": 15,
+            "a": 31,
+            "elementName": "Sulfur",
+            "elementSymbol": "S",
+            "selectorFlag": "C"
+          },
+          {
+            "z": 17,
+            "n": 16,
+            "a": 33,
+            "elementName": "Chlorine",
+            "elementSymbol": "Cl",
+            "selectorFlag": "C"
+          }
+        ],
+        "reactionSelectors": [
+          {
+            "reactionCode": "(3HE,A)",
+            "selectorFlag": "A"
+          },
+          {
+            "reactionCode": "(3HE,D)",
+            "selectorFlag": "A"
+          },
+          {
+            "reactionCode": "(P,A)",
+            "selectorFlag": "B"
+          }
+        ],
+        "subjectSelectors": [
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "G-SPECTRA",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "DSIGMA",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "Q",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "DSIGMA",
+            "selectorFlag": "B"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "LEVEL-PROP",
+            "selectorFlag": "C"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "G-SPECTRA",
+            "selectorFlag": "C"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "G-MULTIPOLARITY",
+            "selectorFlag": "C"
+          }
+        ],
+        "errataEntries": [],
+        "pdfAvailable": false,
+        "xundlAvailable": false,
+        "exforKeys": []
+      }
+    ],
+    "last_page": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://authors.library.caltech.edu/api/records?q=%220375-9474%2870%2990434-3%22&size=5",
+  "status": 200,
+  "scope": "publicInvenioAPI metadata afterlegacypath404, no body",
+  "metadata": {
+    "hits": {
+      "hits": [],
+      "total": 0
+    },
+    "aggregations": {
+      "resource_type": {
+        "buckets": [],
+        "label": "Resource types"
+      },
+      "subject": {
+        "buckets": [],
+        "label": "Subjects"
+      },
+      "access_status": {
+        "buckets": [],
+        "label": "Access status"
+      },
+      "file_type": {
+        "buckets": [],
+        "label": "File type"
+      }
+    },
+    "sortBy": "bestmatch",
+    "page": 1,
+    "links": {
+      "self": "https://authors.library.caltech.edu/api/records?page=1&q=%220375-9474(70)90434-3%22&size=5&sort=bestmatch"
+    }
+  }
+}

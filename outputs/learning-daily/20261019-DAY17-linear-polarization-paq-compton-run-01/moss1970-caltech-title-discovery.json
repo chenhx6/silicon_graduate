@@ -1,0 +1,1031 @@
+[
+  {
+    "url": "https://authors.library.caltech.edu/api/records?q=%22Nuclear+energy+levels%22&size=5",
+    "status": 200,
+    "query": "\"Nuclear energy levels\"",
+    "metadata": {
+      "hits": {
+        "hits": [
+          {
+            "id": "dx5xy-p1g23",
+            "created": "2023-08-19T02:05:27.121925+00:00",
+            "updated": "2026-04-21T18:30:08.719709+00:00",
+            "links": {
+              "self": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23",
+              "self_html": "https://authors.library.caltech.edu/records/dx5xy-p1g23",
+              "preview_html": "https://authors.library.caltech.edu/records/dx5xy-p1g23?preview=1",
+              "doi": "https://doi.org/10.1063/1.3067390",
+              "self_doi": "https://doi.org/10.1063/1.3067390",
+              "self_doi_html": "https://authors.library.caltech.edu/doi/10.1063/1.3067390",
+              "reserve_doi": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/draft/pids/doi",
+              "parent": "https://authors.library.caltech.edu/api/records/k1k42-0ye85",
+              "parent_html": "https://authors.library.caltech.edu/records/k1k42-0ye85",
+              "self_iiif_manifest": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23/manifest",
+              "self_iiif_sequence": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23/sequence/default",
+              "files": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/files",
+              "media_files": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/media-files",
+              "thumbnails": {
+                "10": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23:1.3067390.pdf/full/%5E10,/0/default.jpg",
+                "50": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23:1.3067390.pdf/full/%5E50,/0/default.jpg",
+                "100": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23:1.3067390.pdf/full/%5E100,/0/default.jpg",
+                "250": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23:1.3067390.pdf/full/%5E250,/0/default.jpg",
+                "750": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23:1.3067390.pdf/full/%5E750,/0/default.jpg",
+                "1200": "https://authors.library.caltech.edu/api/iiif/record:dx5xy-p1g23:1.3067390.pdf/full/%5E1200,/0/default.jpg"
+              },
+              "latest": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/versions/latest",
+              "latest_html": "https://authors.library.caltech.edu/records/dx5xy-p1g23/latest",
+              "versions": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/versions",
+              "draft": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/draft",
+              "access_links": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/access/links",
+              "access_grants": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/access/grants",
+              "access_users": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/access/users",
+              "access_request": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/access/request",
+              "access": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/access",
+              "communities": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/communities",
+              "communities-suggestions": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/communities-suggestions",
+              "requests": "https://authors.library.caltech.edu/api/records/dx5xy-p1g23/requests"
+            },
+            "revision_id": 8,
+            "parent": {
+              "id": "k1k42-0ye85",
+              "access": {
+                "owned_by": {
+                  "user": "13"
+                },
+                "settings": {
+                  "allow_user_requests": false,
+                  "allow_guest_requests": false,
+                  "accept_conditions_text": null,
+                  "secret_link_expiration": 0
+                }
+              },
+              "communities": {
+                "ids": [
+                  "aedd135f-227e-4fdf-9476-5b3fd011bac6"
+                ],
+                "default": "aedd135f-227e-4fdf-9476-5b3fd011bac6",
+                "entries": [
+                  {
+                    "id": "aedd135f-227e-4fdf-9476-5b3fd011bac6",
+                    "created": "2023-08-18T22:58:03.731607+00:00",
+                    "updated": "2025-10-07T17:50:38.400491+00:00",
+                    "links": {},
+                    "revision_id": 7,
+                    "slug": "caltechauthors",
+                    "metadata": {
+                      "title": "CaltechAUTHORS"
+                    },
+                    "access": {
+                      "visibility": "public",
+                      "members_visibility": "public",
+                      "member_policy": "open",
+                      "record_submission_policy": "open",
+                      "review_policy": "closed"
+                    },
+                    "deletion_status": {
+                      "is_deleted": false,
+                      "status": "P"
+                    },
+                    "children": {
+                      "allow": false
+                    }
+                  }
+                ]
+              },
+              "pids": {}
+            },
+            "versions": {
+              "is_latest": true,
+              "index": 1
+            },
+            "is_published": true,
+            "is_draft": false,
+            "pids": {
+              "doi": {
+                "identifier": "10.1063/1.3067390",
+                "provider": "external"
+              },
+              "oai": {
+                "identifier": "oai:authors.library.caltech.edu:dx5xy-p1g23",
+                "provider": "oai"
+              }
+            },
+            "metadata": {
+              "resource_type": {
+                "id": "publication-article",
+                "title": {
+                  "de": "Zeitschriftenartikel",
+                  "en": "Journal Article"
+                }
+              },
+              "creators": [
+                {
+                  "person_or_org": {
+                    "type": "personal",
+                    "name": "DuMond, Jesse W. M.",
+                    "given_name": "Jesse W. M.",
+                    "family_name": "DuMond",
+                    "identifiers": [
+                      {
+                        "identifier": "DuMond-J-W-M",
+                        "scheme": "clpid"
+                      }
+                    ]
+                  },
+                  "affiliations": [
+                    {
+                      "id": "05dxps055",
+                      "name": "California Institute of Technology",
+                      "identifiers": [
+                        {
+                          "identifier": "05dxps055",
+                          "scheme": "ror"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "title": "Higher precision in nuclear spectroscopy",
+              "publisher": "American Institute of Physics",
+              "publication_date": "1952-11",
+              "dates": [
+                {
+                  "date": "2014-06-23",
+                  "type": {
+                    "id": "created",
+                    "title": {
+                      "de": "Erstellt",
+                      "en": "Created"
+                    }
+                  },
+                  "description": "Created from EPrint's datestamp field"
+                },
+                {
+                  "date": "2021-11-10",
+                  "type": {
+                    "id": "updated",
+                    "title": {
+                      "de": "Aktualisiert",
+                      "en": "Updated"
+                    }
+                  },
+                  "description": "Created from EPrint's last_modified field"
+                }
+              ],
+              "identifiers": [
+                {
+                  "identifier": "46420",
+                  "scheme": "eprintid"
+                },
+                {
+                  "identifier": "CaltechAUTHORS:20140621-164025966",
+                  "scheme": "resolverid"
+                }
+              ],
+              "version": "Published",
+              "rights": [
+                {
+                  "title": {
+                    "en": "Other"
+                  },
+                  "description": {
+                    "en": "No commercial reproduction, distribution, display or performance rights in this work are provided."
+                  }
+                }
+              ],
+              "description": "For nearly six years there has been in existence\nat the California Institute of Technology a\nprogram of research work directed at increasing the\nprecision of all measurements in nuclear spectroscopy\nand especially the precision with which nuclear energy\nlevels may be determined. This trend toward higher\nprecision of measurement is to be observed at present\nin nearly every area of nuclear physics (except possibly\nin the still new very high energy field) for it is\ngenerally realized that, while much primary qualitative\ninformation has been acquired, a real understanding and\ninterpretation of the problems of nuclear structure and\nthe internal mechanics of nuclei must wait for a sufficient\nfund of accurate and reliable quantitative numerical\ndata to furnish a foundation for theory to\nbuild upon.",
+              "additional_descriptions": [
+                {
+                  "description": "© 1952 American Institute of Physics.",
+                  "type": {
+                    "id": "additional",
+                    "title": {
+                      "de": "Sonstige",
+                      "en": "Additional Information"
+                    }
+                  }
+                },
+                {
+                  "description": "<p>Published - <a href=\"/records/dx5xy-p1g23/files/1.3067390.pdf?download=1\">1.3067390.pdf</a></p>",
+                  "type": {
+                    "id": "attached-files",
+                    "title": {
+                      "de": "Sonstige",
+                      "en": "Attached Files"
+                    }
+                  }
+                }
+              ]
+            },
+            "custom_fields": {
+              "journal:journal": {
+                "title": "Physics Today",
+                "issue": "11",
+                "volume": "5",
+                "pages": "13-20",
+                "issn": "0031-9228"
+              }
+            },
+            "access": {
+              "record": "public",
+              "files": "public",
+              "embargo": {
+                "active": false,
+                "reason": null
+              },
+              "status": "open"
+            },
+            "files": {
+              "enabled": true,
+              "order": [],
+              "count": 1,
+              "total_bytes": 1992315,
+              "entries": {
+                "1.3067390.pdf": {
+                  "id": "d785c355-e9eb-4531-93d4-4334bfe3f57a",
+                  "checksum": "md5:b36f2a2a7a8ef7f7a72f92c4c34b0210",
+                  "ext": "pdf",
+                  "size": 1992315,
+                  "mimetype": "application/pdf",
+                  "key": "1.3067390.pdf",
+                  "metadata": {},
+                  "access": {
+                    "hidden": false
+                  }
+                }
+              }
+            },
+            "media_files": {
+              "enabled": false,
+              "order": [],
+              "count": 0,
+              "total_bytes": 0,
+              "entries": {}
+            },
+            "status": "published",
+            "deletion_status": {
+              "is_deleted": false,
+              "status": "P"
+            },
+            "stats": {
+              "this_version": {
+                "views": 76,
+                "unique_views": 76,
+                "downloads": 85,
+                "unique_downloads": 85,
+                "data_volume": 169346775.0
+              },
+              "all_versions": {
+                "views": 76,
+                "unique_views": 76,
+                "downloads": 85,
+                "unique_downloads": 85,
+                "data_volume": 169346775.0
+              }
+            }
+          },
+          {
+            "id": "2x798-adj18",
+            "created": "2023-08-19T02:06:10.480950+00:00",
+            "updated": "2026-04-23T17:15:45.179101+00:00",
+            "links": {
+              "self": "https://authors.library.caltech.edu/api/records/2x798-adj18",
+              "self_html": "https://authors.library.caltech.edu/records/2x798-adj18",
+              "preview_html": "https://authors.library.caltech.edu/records/2x798-adj18?preview=1",
+              "doi": "https://doi.org/10.1063/1.3067417",
+              "self_doi": "https://doi.org/10.1063/1.3067417",
+              "self_doi_html": "https://authors.library.caltech.edu/doi/10.1063/1.3067417",
+              "reserve_doi": "https://authors.library.caltech.edu/api/records/2x798-adj18/draft/pids/doi",
+              "parent": "https://authors.library.caltech.edu/api/records/nx02j-t8j30",
+              "parent_html": "https://authors.library.caltech.edu/records/nx02j-t8j30",
+              "self_iiif_manifest": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18/manifest",
+              "self_iiif_sequence": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18/sequence/default",
+              "files": "https://authors.library.caltech.edu/api/records/2x798-adj18/files",
+              "media_files": "https://authors.library.caltech.edu/api/records/2x798-adj18/media-files",
+              "thumbnails": {
+                "10": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18:1.3067417.pdf/full/%5E10,/0/default.jpg",
+                "50": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18:1.3067417.pdf/full/%5E50,/0/default.jpg",
+                "100": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18:1.3067417.pdf/full/%5E100,/0/default.jpg",
+                "250": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18:1.3067417.pdf/full/%5E250,/0/default.jpg",
+                "750": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18:1.3067417.pdf/full/%5E750,/0/default.jpg",
+                "1200": "https://authors.library.caltech.edu/api/iiif/record:2x798-adj18:1.3067417.pdf/full/%5E1200,/0/default.jpg"
+              },
+              "latest": "https://authors.library.caltech.edu/api/records/2x798-adj18/versions/latest",
+              "latest_html": "https://authors.library.caltech.edu/records/2x798-adj18/latest",
+              "versions": "https://authors.library.caltech.edu/api/records/2x798-adj18/versions",
+              "draft": "https://authors.library.caltech.edu/api/records/2x798-adj18/draft",
+              "access_links": "https://authors.library.caltech.edu/api/records/2x798-adj18/access/links",
+              "access_grants": "https://authors.library.caltech.edu/api/records/2x798-adj18/access/grants",
+              "access_users": "https://authors.library.caltech.edu/api/records/2x798-adj18/access/users",
+              "access_request": "https://authors.library.caltech.edu/api/records/2x798-adj18/access/request",
+              "access": "https://authors.library.caltech.edu/api/records/2x798-adj18/access",
+              "communities": "https://authors.library.caltech.edu/api/records/2x798-adj18/communities",
+              "communities-suggestions": "https://authors.library.caltech.edu/api/records/2x798-adj18/communities-suggestions",
+              "requests": "https://authors.library.caltech.edu/api/records/2x798-adj18/requests"
+            },
+            "revision_id": 8,
+            "parent": {
+              "id": "nx02j-t8j30",
+              "access": {
+                "owned_by": {
+                  "user": "13"
+                },
+                "settings": {
+                  "allow_user_requests": false,
+                  "allow_guest_requests": false,
+                  "accept_conditions_text": null,
+                  "secret_link_expiration": 0
+                }
+              },
+              "communities": {
+                "ids": [
+                  "aedd135f-227e-4fdf-9476-5b3fd011bac6"
+                ],
+                "default": "aedd135f-227e-4fdf-9476-5b3fd011bac6",
+                "entries": [
+                  {
+                    "id": "aedd135f-227e-4fdf-9476-5b3fd011bac6",
+                    "created": "2023-08-18T22:58:03.731607+00:00",
+                    "updated": "2025-10-07T17:50:38.400491+00:00",
+                    "links": {},
+                    "revision_id": 7,
+                    "slug": "caltechauthors",
+                    "metadata": {
+                      "title": "CaltechAUTHORS"
+                    },
+                    "access": {
+                      "visibility": "public",
+                      "members_visibility": "public",
+                      "member_policy": "open",
+                      "record_submission_policy": "open",
+                      "review_policy": "closed"
+                    },
+                    "deletion_status": {
+                      "is_deleted": false,
+                      "status": "P"
+                    },
+                    "children": {
+                      "allow": false
+                    }
+                  }
+                ]
+              },
+              "pids": {}
+            },
+            "versions": {
+              "is_latest": true,
+              "index": 1
+            },
+            "is_published": true,
+            "is_draft": false,
+            "pids": {
+              "doi": {
+                "identifier": "10.1063/1.3067417",
+                "provider": "external"
+              },
+              "oai": {
+                "identifier": "oai:authors.library.caltech.edu:2x798-adj18",
+                "provider": "oai"
+              }
+            },
+            "metadata": {
+              "resource_type": {
+                "id": "publication-article",
+                "title": {
+                  "de": "Zeitschriftenartikel",
+                  "en": "Journal Article"
+                }
+              },
+              "creators": [
+                {
+                  "person_or_org": {
+                    "type": "personal",
+                    "name": "DuMond, Jesse W. M.",
+                    "given_name": "Jesse W. M.",
+                    "family_name": "DuMond",
+                    "identifiers": [
+                      {
+                        "identifier": "DuMond-J-W-M",
+                        "scheme": "clpid"
+                      }
+                    ]
+                  },
+                  "affiliations": [
+                    {
+                      "id": "05dxps055",
+                      "name": "California Institute of Technology",
+                      "identifiers": [
+                        {
+                          "identifier": "05dxps055",
+                          "scheme": "ror"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "title": "Improvements in the precision of beta-ray spectroscopy",
+              "publisher": "American Institute of Physics",
+              "publication_date": "1952-12",
+              "dates": [
+                {
+                  "date": "2014-06-23",
+                  "type": {
+                    "id": "created",
+                    "title": {
+                      "de": "Erstellt",
+                      "en": "Created"
+                    }
+                  },
+                  "description": "Created from EPrint's datestamp field"
+                },
+                {
+                  "date": "2021-11-10",
+                  "type": {
+                    "id": "updated",
+                    "title": {
+                      "de": "Aktualisiert",
+                      "en": "Updated"
+                    }
+                  },
+                  "description": "Created from EPrint's last_modified field"
+                }
+              ],
+              "identifiers": [
+                {
+                  "identifier": "46421",
+                  "scheme": "eprintid"
+                },
+                {
+                  "identifier": "CaltechAUTHORS:20140621-164718597",
+                  "scheme": "resolverid"
+                }
+              ],
+              "version": "Published",
+              "rights": [
+                {
+                  "title": {
+                    "en": "Other"
+                  },
+                  "description": {
+                    "en": "No commercial reproduction, distribution, display or performance rights in this work are provided."
+                  }
+                }
+              ],
+              "description": "The direct measurement of gamma‐rays only yields about half the picture in the study of nuclear energy levels. The other, and indeed to most physicists more familiar, half concerns the β‐rays, including in this term both the continuous β‐ray spectrum and the line spectrum by \"conversion\", either internal or external. Ever since 1948, therefore, we have been much occupied with the design and construction along rather novel lines of a high precision helical focusing magnetic β‐ray spectrometer planned as a companion instrument to the crystal diffraction spectrometer as regards absolute precision and accuracy. We have only very recently completed this instrument and made the first tests on it which indicate that it will meet all our expectations both as to high absolute accuracy and high luminosity and sensitivity to weak sources.\n\nThe beta‐ray spectrometer discussed in the following pages has recently been completed at the California Institute of Technology. It is shown in cross section on the cover.",
+              "additional_descriptions": [
+                {
+                  "description": "© 1952 American Institute of Physics. \n\nThis is the second of two articles\nbased on an invited paper presented before the American Physical\nSociety last May. The first, under the title Higher Precision in\nNuclear Spectroscopy, appeared on page 13 of last month's issue.",
+                  "type": {
+                    "id": "additional",
+                    "title": {
+                      "de": "Sonstige",
+                      "en": "Additional Information"
+                    }
+                  }
+                },
+                {
+                  "description": "<p>Published - <a href=\"/records/2x798-adj18/files/1.3067417.pdf?download=1\">1.3067417.pdf</a></p>",
+                  "type": {
+                    "id": "attached-files",
+                    "title": {
+                      "de": "Sonstige",
+                      "en": "Attached Files"
+                    }
+                  }
+                }
+              ]
+            },
+            "custom_fields": {
+              "journal:journal": {
+                "title": "Physics Today",
+                "issue": "12",
+                "volume": "5",
+                "pages": "10-13",
+                "issn": "0031-9228"
+              }
+            },
+            "access": {
+              "record": "public",
+              "files": "public",
+              "embargo": {
+                "active": false,
+                "reason": null
+              },
+              "status": "open"
+            },
+            "files": {
+              "enabled": true,
+              "order": [],
+              "count": 1,
+              "total_bytes": 1024212,
+              "entries": {
+                "1.3067417.pdf": {
+                  "id": "a6a00338-12ae-463c-bdd6-9d3114387bd3",
+                  "checksum": "md5:0ebc5aded9fc0cd6cb7ed59bde39e690",
+                  "ext": "pdf",
+                  "size": 1024212,
+                  "mimetype": "application/pdf",
+                  "key": "1.3067417.pdf",
+                  "metadata": {},
+                  "access": {
+                    "hidden": false
+                  }
+                }
+              }
+            },
+            "media_files": {
+              "enabled": false,
+              "order": [],
+              "count": 0,
+              "total_bytes": 0,
+              "entries": {}
+            },
+            "status": "published",
+            "deletion_status": {
+              "is_deleted": false,
+              "status": "P"
+            },
+            "stats": {
+              "this_version": {
+                "views": 85,
+                "unique_views": 85,
+                "downloads": 85,
+                "unique_downloads": 85,
+                "data_volume": 87058020.0
+              },
+              "all_versions": {
+                "views": 85,
+                "unique_views": 85,
+                "downloads": 85,
+                "unique_downloads": 85,
+                "data_volume": 87058020.0
+              }
+            }
+          }
+        ],
+        "total": 2
+      },
+      "aggregations": {
+        "resource_type": {
+          "buckets": [
+            {
+              "key": "publication",
+              "doc_count": 2,
+              "label": "Publication",
+              "is_selected": false,
+              "inner": {
+                "buckets": [
+                  {
+                    "key": "publication-article",
+                    "doc_count": 2,
+                    "label": "Journal Article",
+                    "is_selected": false
+                  }
+                ]
+              }
+            }
+          ],
+          "label": "Resource types"
+        },
+        "subject": {
+          "buckets": [],
+          "label": "Subjects"
+        },
+        "access_status": {
+          "buckets": [
+            {
+              "key": "open",
+              "doc_count": 2,
+              "label": "Open",
+              "is_selected": false
+            }
+          ],
+          "label": "Access status"
+        },
+        "file_type": {
+          "buckets": [
+            {
+              "key": "pdf",
+              "doc_count": 2,
+              "label": "PDF",
+              "is_selected": false
+            }
+          ],
+          "label": "File type"
+        }
+      },
+      "sortBy": "bestmatch",
+      "page": 1,
+      "links": {
+        "self": "https://authors.library.caltech.edu/api/records?page=1&q=%22Nuclear+energy+levels%22&size=5&sort=bestmatch"
+      }
+    },
+    "scope": "repositorymetadata only no body"
+  },
+  {
+    "url": "https://authors.library.caltech.edu/api/records?q=Moss+AND+1970&size=5",
+    "status": 200,
+    "query": "Moss AND 1970",
+    "metadata": {
+      "hits": {
+        "hits": [
+          {
+            "id": "abtxd-fxc51",
+            "created": "2023-08-22T01:00:46.807498+00:00",
+            "updated": "2026-04-21T18:52:03.152930+00:00",
+            "links": {
+              "self": "https://authors.library.caltech.edu/api/records/abtxd-fxc51",
+              "self_html": "https://authors.library.caltech.edu/records/abtxd-fxc51",
+              "preview_html": "https://authors.library.caltech.edu/records/abtxd-fxc51?preview=1",
+              "doi": "https://doi.org/10.1063/1.431248",
+              "self_doi": "https://doi.org/10.1063/1.431248",
+              "self_doi_html": "https://authors.library.caltech.edu/doi/10.1063/1.431248",
+              "reserve_doi": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/draft/pids/doi",
+              "parent": "https://authors.library.caltech.edu/api/records/x1rf2-fzz95",
+              "parent_html": "https://authors.library.caltech.edu/records/x1rf2-fzz95",
+              "self_iiif_manifest": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51/manifest",
+              "self_iiif_sequence": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51/sequence/default",
+              "files": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/files",
+              "media_files": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/media-files",
+              "thumbnails": {
+                "10": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51:MOSjcp75.pdf/full/%5E10,/0/default.jpg",
+                "50": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51:MOSjcp75.pdf/full/%5E50,/0/default.jpg",
+                "100": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51:MOSjcp75.pdf/full/%5E100,/0/default.jpg",
+                "250": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51:MOSjcp75.pdf/full/%5E250,/0/default.jpg",
+                "750": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51:MOSjcp75.pdf/full/%5E750,/0/default.jpg",
+                "1200": "https://authors.library.caltech.edu/api/iiif/record:abtxd-fxc51:MOSjcp75.pdf/full/%5E1200,/0/default.jpg"
+              },
+              "latest": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/versions/latest",
+              "latest_html": "https://authors.library.caltech.edu/records/abtxd-fxc51/latest",
+              "versions": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/versions",
+              "draft": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/draft",
+              "access_links": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/access/links",
+              "access_grants": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/access/grants",
+              "access_users": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/access/users",
+              "access_request": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/access/request",
+              "access": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/access",
+              "communities": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/communities",
+              "communities-suggestions": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/communities-suggestions",
+              "requests": "https://authors.library.caltech.edu/api/records/abtxd-fxc51/requests"
+            },
+            "revision_id": 10,
+            "parent": {
+              "id": "x1rf2-fzz95",
+              "access": {
+                "owned_by": {
+                  "user": "13"
+                },
+                "settings": {
+                  "allow_user_requests": false,
+                  "allow_guest_requests": false,
+                  "accept_conditions_text": null,
+                  "secret_link_expiration": 0
+                }
+              },
+              "communities": {
+                "ids": [
+                  "aedd135f-227e-4fdf-9476-5b3fd011bac6"
+                ],
+                "default": "aedd135f-227e-4fdf-9476-5b3fd011bac6",
+                "entries": [
+                  {
+                    "id": "aedd135f-227e-4fdf-9476-5b3fd011bac6",
+                    "created": "2023-08-18T22:58:03.731607+00:00",
+                    "updated": "2025-10-07T17:50:38.400491+00:00",
+                    "links": {},
+                    "revision_id": 7,
+                    "slug": "caltechauthors",
+                    "metadata": {
+                      "title": "CaltechAUTHORS"
+                    },
+                    "access": {
+                      "visibility": "public",
+                      "members_visibility": "public",
+                      "member_policy": "open",
+                      "record_submission_policy": "open",
+                      "review_policy": "closed"
+                    },
+                    "deletion_status": {
+                      "is_deleted": false,
+                      "status": "P"
+                    },
+                    "children": {
+                      "allow": false
+                    }
+                  }
+                ]
+              },
+              "pids": {}
+            },
+            "versions": {
+              "is_latest": true,
+              "index": 1
+            },
+            "is_published": true,
+            "is_draft": false,
+            "pids": {
+              "doi": {
+                "identifier": "10.1063/1.431248",
+                "provider": "external"
+              },
+              "oai": {
+                "identifier": "oai:authors.library.caltech.edu:abtxd-fxc51",
+                "provider": "oai"
+              }
+            },
+            "metadata": {
+              "resource_type": {
+                "id": "publication-article",
+                "title": {
+                  "de": "Zeitschriftenartikel",
+                  "en": "Journal Article"
+                }
+              },
+              "creators": [
+                {
+                  "person_or_org": {
+                    "type": "personal",
+                    "name": "Moss, B. J.",
+                    "given_name": "B. J.",
+                    "family_name": "Moss",
+                    "identifiers": [
+                      {
+                        "identifier": "Moss-B-J",
+                        "scheme": "clpid"
+                      }
+                    ]
+                  },
+                  "affiliations": [
+                    {
+                      "id": "05dxps055",
+                      "name": "California Institute of Technology",
+                      "identifiers": [
+                        {
+                          "identifier": "05dxps055",
+                          "scheme": "ror"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "person_or_org": {
+                    "type": "personal",
+                    "name": "Bobrowicz, F. W.",
+                    "given_name": "F. W.",
+                    "family_name": "Bobrowicz",
+                    "identifiers": [
+                      {
+                        "identifier": "Bobrowicz-F-W",
+                        "scheme": "clpid"
+                      }
+                    ]
+                  },
+                  "affiliations": [
+                    {
+                      "id": "05dxps055",
+                      "name": "California Institute of Technology",
+                      "identifiers": [
+                        {
+                          "identifier": "05dxps055",
+                          "scheme": "ror"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "person_or_org": {
+                    "type": "personal",
+                    "name": "Goddard, W. A., III",
+                    "given_name": "W. A., III",
+                    "family_name": "Goddard",
+                    "identifiers": [
+                      {
+                        "identifier": "Goddard-W-A-III",
+                        "scheme": "clpid"
+                      },
+                      {
+                        "identifier": "0000-0003-0097-5716",
+                        "scheme": "orcid"
+                      }
+                    ]
+                  },
+                  "affiliations": [
+                    {
+                      "id": "05dxps055",
+                      "name": "California Institute of Technology",
+                      "identifiers": [
+                        {
+                          "identifier": "05dxps055",
+                          "scheme": "ror"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "title": "The generalized valence bond description of O2",
+              "publisher": "American Institute of Physics",
+              "publication_date": "1975-12-01",
+              "dates": [
+                {
+                  "date": "2008-06-10",
+                  "type": {
+                    "id": "created",
+                    "title": {
+                      "de": "Erstellt",
+                      "en": "Created"
+                    }
+                  },
+                  "description": "Created from EPrint's datestamp field"
+                },
+                {
+                  "date": "2021-11-08",
+                  "type": {
+                    "id": "updated",
+                    "title": {
+                      "de": "Aktualisiert",
+                      "en": "Updated"
+                    }
+                  },
+                  "description": "Created from EPrint's last_modified field"
+                }
+              ],
+              "identifiers": [
+                {
+                  "identifier": "10792",
+                  "scheme": "eprintid"
+                },
+                {
+                  "identifier": "CaltechAUTHORS:MOSjcp75c",
+                  "scheme": "resolverid"
+                }
+              ],
+              "version": "Published",
+              "rights": [
+                {
+                  "title": {
+                    "en": "Other"
+                  },
+                  "description": {
+                    "en": "No commercial reproduction, distribution, display or performance rights in this work are provided."
+                  }
+                }
+              ],
+              "description": "Ab initio calculations using the generalized valence bond (GVB) method have been carried out for the lowest triplet and singlet states of O2 at internuclear distances (R) between 2a0 and 6a0. In contrast to other orbital descriptions, GVB leads correctly to ground state oxygen atoms as the bond length is increased to infinity. This proper behavior requires optimization of the spatial orbitals themselves and of the permutational coupling between them as well. Analysis of the results as a function of R is straightforward. Constructing a simple configuration interaction (CI) wavefunction using the GVB orbitals leads to excellent potential curves, accounting for 94% of the bond dissociation energy. The calculated adiabatic separation of the singlet and triplet states is 1.09 eV, which is 0.11 eV above the experimental Te.",
+              "additional_descriptions": [
+                {
+                  "description": "Copyright © 1975 American Institute of Physics. \n\nPartially supported by a grant (GP-40783X) from the National\nScience Foundation. \n\n[F.W.B. was a]National Science Foundation Trainee, 1970-71; ARCS Foundation Fellow, 1971-73; Woodrow Wilson Fellow, 1972; National Science Foundation Fellow, 1972-73. \n\nArthur Amos Noyes Laboratory of Chemical Physics, Contribution No. 5046.",
+                  "type": {
+                    "id": "additional",
+                    "title": {
+                      "de": "Sonstige",
+                      "en": "Additional Information"
+                    }
+                  }
+                },
+                {
+                  "description": "<p>Published - <a href=\"/records/abtxd-fxc51/files/MOSjcp75.pdf?download=1\">MOSjcp75.pdf</a></p>",
+                  "type": {
+                    "id": "attached-files",
+                    "title": {
+                      "de": "Sonstige",
+                      "en": "Attached Files"
+                    }
+                  }
+                }
+              ]
+            },
+            "custom_fields": {
+              "journal:journal": {
+                "title": "Journal of Chemical Physics",
+                "issue": "11",
+                "volume": "63",
+                "pages": "4632-4639",
+                "issn": "0021-9606"
+              },
+              "caltech:other_num_name": "WAG",
+              "caltech:other_num_id": "0079"
+            },
+            "access": {
+              "record": "public",
+              "files": "public",
+              "embargo": {
+                "active": false,
+                "reason": null
+              },
+              "status": "open"
+            },
+            "files": {
+              "enabled": true,
+              "order": [],
+              "count": 1,
+              "total_bytes": 612784,
+              "entries": {
+                "MOSjcp75.pdf": {
+                  "id": "07d5fe7b-aec8-40d5-b433-cc830cc12fe5",
+                  "checksum": "md5:74f5869b1e15a3bfe732a82d53d92759",
+                  "ext": "pdf",
+                  "size": 612784,
+                  "mimetype": "application/pdf",
+                  "key": "MOSjcp75.pdf",
+                  "metadata": {},
+                  "access": {
+                    "hidden": false
+                  }
+                }
+              }
+            },
+            "media_files": {
+              "enabled": false,
+              "order": [],
+              "count": 0,
+              "total_bytes": 0,
+              "entries": {}
+            },
+            "status": "published",
+            "deletion_status": {
+              "is_deleted": false,
+              "status": "P"
+            },
+            "stats": {
+              "this_version": {
+                "views": 159,
+                "unique_views": 159,
+                "downloads": 94,
+                "unique_downloads": 94,
+                "data_volume": 57601696.0
+              },
+              "all_versions": {
+                "views": 159,
+                "unique_views": 159,
+                "downloads": 94,
+                "unique_downloads": 94,
+                "data_volume": 57601696.0
+              }
+            }
+          }
+        ],
+        "total": 1
+      },
+      "aggregations": {
+        "resource_type": {
+          "buckets": [
+            {
+              "key": "publication",
+              "doc_count": 1,
+              "label": "Publication",
+              "is_selected": false,
+              "inner": {
+                "buckets": [
+                  {
+                    "key": "publication-article",
+                    "doc_count": 1,
+                    "label": "Journal Article",
+                    "is_selected": false
+                  }
+                ]
+              }
+            }
+          ],
+          "label": "Resource types"
+        },
+        "subject": {
+          "buckets": [],
+          "label": "Subjects"
+        },
+        "access_status": {
+          "buckets": [
+            {
+              "key": "open",
+              "doc_count": 1,
+              "label": "Open",
+              "is_selected": false
+            }
+          ],
+          "label": "Access status"
+        },
+        "file_type": {
+          "buckets": [
+            {
+              "key": "pdf",
+              "doc_count": 1,
+              "label": "PDF",
+              "is_selected": false
+            }
+          ],
+          "label": "File type"
+        }
+      },
+      "sortBy": "bestmatch",
+      "page": 1,
+      "links": {
+        "self": "https://authors.library.caltech.edu/api/records?page=1&q=Moss+AND+1970&size=5&sort=bestmatch"
+      }
+    },
+    "scope": "repositorymetadata only no body"
+  }
+]

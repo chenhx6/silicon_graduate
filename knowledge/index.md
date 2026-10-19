@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[nndc-2022-s31-mixing-lifetime-reference]] - 官方1248 MR双根/RUL、mean-vs-half-life与Sun模型扣除的有源companion。
+
 - [[schuermann-2008-15o-6792-dsam]] - 原读15O有限寿命到上限的直接反证：密角/共同几何/增益、F分母与统计对象。
 
 - [[madai-2015-distribution-sampling-likelihood]] - 固定2015内核两API实际组件：variableCov/normalizer与callpath边界，不代Sun paperproducer。

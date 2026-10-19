@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T14:46:35.393277+00:00",
+  "identity": "XUNDL31016069,31S/202401 compiled27Dec2023 unevaluated 2023Su03 PLB839137801",
+  "actualscope": "all45lines text/fields/comments read; no paperbody/fitdata supplied",
+  "hash": "56ad828fdacf39ebf44ad8a2a2bc6226a05f46ed084fbcc07550bf07c11d1ab7",
+  "same_experiment_as_Sun": true,
+  "6390_T_is_blank": true,
+  "field_bridge": "half-life/mean nominalarithmetic keptwithprintingresidual; noclaimrawunroundedroundingrule",
+  "branch_errors": "3435gamma38(11)/2186gamma62(12) unchanged; unequalquotederrors notforcedintostrictnormalizedcov",
+  "no_new_CI_or_credit": true,
+  "fresh_source_identity_note": "directoryduplicateXUNDL-11 label resolvedbyexact31016069, not suffix/date alone"
+}

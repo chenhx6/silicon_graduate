@@ -1,0 +1,2 @@
+
+- 2026-10-19 DAY17 checkpoint013：官方S31旧MR双根/RUL与mean半衰期/同paper预算、Sun2023同文XUNDL六T及6390T空已canonical；条件rates非新fit/CI，实际producer/phase仍缺。027全检查0/24changed26mapped/0errors205warnings；旧Sun24行/flags保持。formal17仅一次/18无学分/原windowactive。稳定指针main / `Verify S31 mixing references and same-paper lifetime compilation`，actualhash/push仅runreceipt。
