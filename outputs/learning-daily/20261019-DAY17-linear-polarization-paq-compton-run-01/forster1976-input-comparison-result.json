@@ -1,0 +1,177 @@
+{
+  "same_Forster_input_not_new_independent_measurement": true,
+  "unit_conversion": "S_MeV_per_um=S_MeV_per_mg_cm2*rho_g_cm3*0.1",
+  "rho_Au_source_g_cm3": 19.3,
+  "Forster_1p6MeV_u_linear_MeV_per_um": 8.4341,
+  "beta_energy_proxy": [
+    {
+      "beta": 0.059,
+      "massnumber_proxy_E_A_MeV": 1.625510520055753
+    },
+    {
+      "beta": 0.065,
+      "massnumber_proxy_E_A_MeV": 1.9740387336284348
+    },
+    {
+      "beta": 0.082,
+      "massnumber_proxy_E_A_MeV": 3.1475652682800193
+    }
+  ],
+  "native_modes": [
+    {
+      "mode": "GEANT",
+      "values": [
+        {
+          "E_A_MeV": 0.2,
+          "code_linear_MeV_per_um": 6.5139816,
+          "code_mass_MeV_per_mg_cm2": 3.37512,
+          "Forster_compiled_mass": 2.7,
+          "compiled_over_code": 0.7999715565668777
+        },
+        {
+          "E_A_MeV": 0.32,
+          "code_linear_MeV_per_um": 7.392034212248018,
+          "code_mass_MeV_per_mg_cm2": 3.8300695400248794,
+          "Forster_compiled_mass": 3.4,
+          "compiled_over_code": 0.8877123416349025
+        },
+        {
+          "E_A_MeV": 0.5,
+          "code_linear_MeV_per_um": 7.9099892,
+          "code_mass_MeV_per_mg_cm2": 4.09844,
+          "Forster_compiled_mass": 4.17,
+          "compiled_over_code": 1.0174603019685537
+        },
+        {
+          "E_A_MeV": 0.7,
+          "code_linear_MeV_per_um": 8.2559031,
+          "code_mass_MeV_per_mg_cm2": 4.27767,
+          "Forster_compiled_mass": 4.55,
+          "compiled_over_code": 1.063663162422534
+        },
+        {
+          "E_A_MeV": 1.0,
+          "code_linear_MeV_per_um": 8.457337200000003,
+          "code_mass_MeV_per_mg_cm2": 4.382040000000001,
+          "Forster_compiled_mass": 4.57,
+          "compiled_over_code": 1.0428932643243785
+        },
+        {
+          "E_A_MeV": 1.25,
+          "code_linear_MeV_per_um": 8.453674784198009,
+          "code_mass_MeV_per_mg_cm2": 4.380142375232129,
+          "Forster_compiled_mass": 4.52,
+          "compiled_over_code": 1.0319299266523176
+        },
+        {
+          "E_A_MeV": 1.6,
+          "code_linear_MeV_per_um": 8.283588063300297,
+          "code_mass_MeV_per_mg_cm2": 4.292014540570102,
+          "Forster_compiled_mass": 4.37,
+          "compiled_over_code": 1.018169896372145
+        },
+        {
+          "E_A_MeV": 2.0,
+          "code_linear_MeV_per_um": 8.0557428,
+          "code_mass_MeV_per_mg_cm2": 4.17396,
+          "Forster_compiled_mass": 4.2,
+          "compiled_over_code": 1.0062386798148522
+        },
+        {
+          "E_A_MeV": 2.5,
+          "code_linear_MeV_per_um": 7.7660691,
+          "code_mass_MeV_per_mg_cm2": 4.02387,
+          "Forster_compiled_mass": 4.0,
+          "compiled_over_code": 0.9940678998078964
+        },
+        {
+          "E_A_MeV": 3.2,
+          "code_linear_MeV_per_um": 7.3868611732605824,
+          "code_mass_MeV_per_mg_cm2": 3.827389208943307,
+          "Forster_compiled_mass": 3.8,
+          "compiled_over_code": 0.9928438924164525
+        }
+      ],
+      "ratio_min": 0.7999715565668777,
+      "ratio_max": 1.063663162422534
+    },
+    {
+      "mode": "PASS",
+      "values": [
+        {
+          "E_A_MeV": 0.2,
+          "code_linear_MeV_per_um": 7.451390320000001,
+          "code_mass_MeV_per_mg_cm2": 3.860824,
+          "Forster_compiled_mass": 2.7,
+          "compiled_over_code": 0.6993325777088
+        },
+        {
+          "E_A_MeV": 0.32,
+          "code_linear_MeV_per_um": 8.680955298927415,
+          "code_mass_MeV_per_mg_cm2": 4.497904299962391,
+          "Forster_compiled_mass": 3.4,
+          "compiled_over_code": 0.7559075901255677
+        },
+        {
+          "E_A_MeV": 0.5,
+          "code_linear_MeV_per_um": 9.45442924,
+          "code_mass_MeV_per_mg_cm2": 4.898668,
+          "Forster_compiled_mass": 4.17,
+          "compiled_over_code": 0.8512518096756098
+        },
+        {
+          "E_A_MeV": 0.7,
+          "code_linear_MeV_per_um": 9.8083565,
+          "code_mass_MeV_per_mg_cm2": 5.08205,
+          "Forster_compiled_mass": 4.55,
+          "compiled_over_code": 0.8953079957891009
+        },
+        {
+          "E_A_MeV": 1.0,
+          "code_linear_MeV_per_um": 9.919711710000001,
+          "code_mass_MeV_per_mg_cm2": 5.139747000000001,
+          "Forster_compiled_mass": 4.57,
+          "compiled_over_code": 0.8891488238623418
+        },
+        {
+          "E_A_MeV": 1.25,
+          "code_linear_MeV_per_um": 9.815946282021716,
+          "code_mass_MeV_per_mg_cm2": 5.08598252954493,
+          "Forster_compiled_mass": 4.52,
+          "compiled_over_code": 0.8887171699357819
+        },
+        {
+          "E_A_MeV": 1.6,
+          "code_linear_MeV_per_um": 9.543164431920259,
+          "code_mass_MeV_per_mg_cm2": 4.944644783378372,
+          "Forster_compiled_mass": 4.37,
+          "compiled_over_code": 0.8837844155539617
+        },
+        {
+          "E_A_MeV": 2.0,
+          "code_linear_MeV_per_um": 9.17284803,
+          "code_mass_MeV_per_mg_cm2": 4.752771,
+          "Forster_compiled_mass": 4.2,
+          "compiled_over_code": 0.8836950065551233
+        },
+        {
+          "E_A_MeV": 2.5,
+          "code_linear_MeV_per_um": 8.71330152,
+          "code_mass_MeV_per_mg_cm2": 4.514664,
+          "Forster_compiled_mass": 4.0,
+          "compiled_over_code": 0.8860017046672798
+        },
+        {
+          "E_A_MeV": 3.2,
+          "code_linear_MeV_per_um": 8.124044292042814,
+          "code_mass_MeV_per_mg_cm2": 4.2093493741154475,
+          "Forster_compiled_mass": 3.8,
+          "compiled_over_code": 0.9027523406271145
+        }
+      ],
+      "ratio_min": 0.6993325777088,
+      "ratio_max": 0.9027523406271145
+    }
+  ],
+  "no_fittedscale_or_original_Sigma": true
+}

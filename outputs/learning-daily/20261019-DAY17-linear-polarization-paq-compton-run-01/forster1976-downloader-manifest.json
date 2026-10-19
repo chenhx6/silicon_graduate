@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "generated_at": "2026-10-19T17:12:43.971Z",
+  "request": {
+    "topic": "",
+    "title": "",
+    "dois": [
+      "10.1016/0029-554x(76)90218-4"
+    ],
+    "pdf_url": "",
+    "si_requested": true,
+    "language_override": "",
+    "route_override": "open_access",
+    "source_url": "",
+    "api_fallback_web": null,
+    "api_fallback_web_for": [],
+    "no_api_fallback_web_for": []
+  },
+  "summary": {
+    "total": 1,
+    "downloaded": 0,
+    "seconds": 3.4
+  },
+  "results": [
+    {
+      "doi": "10.1016/0029-554x(76)90218-4",
+      "title": "Stopping power measurement for 19F, 24Mg, 27Al, 32S and 35Cl at energies ∼0.2 to ∼3.5 MeV/nucleon in Ti, Fe, Ni, Cu, Ag and Au",
+      "language": "en",
+      "publisher": "Elsevier BV",
+      "route": "open_access",
+      "route_reason": "explicit_override",
+      "si_requested": true,
+      "status": "oa_not_found",
+      "provider": "open_access",
+      "oaAssessment": "confirmed_oa",
+      "oaChecks": {
+        "pmc": {
+          "checked": true,
+          "pmcid": "",
+          "error": ""
+        },
+        "unpaywall": {
+          "checked": true,
+          "error": "",
+          "is_oa": false
+        },
+        "crossref_license": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      "oaAttempts": []
+    }
+  ]
+}

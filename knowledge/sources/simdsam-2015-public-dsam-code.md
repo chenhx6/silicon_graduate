@@ -64,6 +64,7 @@ tags: [lifetime, stopping, public-code, proper-time, calibration]
 | SD15-13 | 32MeValpha/1°/Si噪声off控制给measuredEnergy≈31986.389keV、internalresidual≈27989.812keV，三deadloss之和满足原total变量恒等式；没有恢复实验ROOTanal或Sungate表达式。 | actual-detector-variable-control | native-model | ALPHA_DETECTION/ALPHA_LAYERS；component summary | true |
 | SD15-14 | publicGEANT表下E/A1/1.7/2MeV、c1.05/A.75的native mix/pure约.61181/.60493/.60299，c0还原pure。这是当前表/模型的local值，不是实测targetdensity、Sun额外40%误差或Forster exactjob复现。 | actual-mixture-component-control | native-model | MIXTURE；component summary | true |
 | SD15-15 | 独立重编译/运行的组件physics输出逐行一致、全部52文件hash仍同；成功表示重放既有行为及物理边界，非已验证原fit/CI。此MC用预导出表，不能将GSI26当前Geant4runtime首状态问题直接套到它。 | reproducibility-and-version-boundary | native-replay | native-component-replay；GSI26-7/14 | true |
+| SD15-16 | 后续用原reader与真实Forster编译十点同E/A比较，GEANT邻近1.6/2.0点与compiled值约2%内相容，PASS则不相同；限定“默认表身份差”是provenance问题，不自动构成正文/代码数值矛盾。当前ROOT/语法适配和原job缺口不变。 | actual-data-companion-and-belief-revision | native-and-compiled-input | ISP26-14/16；forster1976-source-role-conclusion | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -87,3 +88,8 @@ alpha组件中measured total与internalresidual差约3996.58keV，反映activeDE
 ## Extracted Pages
 
 [[kirsebom-2016-23mg-dsam-lifetimes]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[geant4-2026-ion-stopping-component-contract]]。Day17原窗口中仅Day18无学分知识预习。
+
+
+## Forster真实输入对照补充
+
+[[iaea-2026-stopping-s-au-o-ta-records]] ISP26-14–17以actualref CSV与原reader比较；没有替换原表或拟scale。邻近K16初始recoil域的GEANT值与Forster约2%内相容，故本页SD15-3只维持输入身份/配置边界，不将其扩大为已证明的实验或数值矛盾。Forster原body/Σ、原job与experimentalROOT仍未得。

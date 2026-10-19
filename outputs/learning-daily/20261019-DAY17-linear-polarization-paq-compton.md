@@ -291,6 +291,16 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
 
 `supports`实际公开输入可推进组件与原方法核验；`revises`代码可取得即原实验完全可复现、变量同名即响应相同；`limits`同设施/共享Forster/SRIM与新SDK问题的迁移。原代码MC使用导出表，不能直接套GSI26 runtime首状态问题。canonical两新source、Sun/method/auditledger/index已同步；formal17once，18仍无学分，不研究19课程卡。
 
+### Day18无学分预习：Forster真实Mg/Au输入的反证
+
+ISP26-14–17核实际Mg/Au pair/wholeCSV与exactFs1976ref CSV的十行逐字段相等：全24Mg/.2–3.2MeV/u、质量阻止单位、literalerror4。新[冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-before-freeze.json)、[真实CSV](20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-Mg-Au-frozen.csv)、[原reader回执](20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-public-table-component-result.json)与[对照](20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-input-comparison-result.json)保存真实输入/模型角色；不是新独立标定。
+
+ρ19.30把1.6MeV/u质量阻止4.37转为8.4341MeV/µm，支持K16 about8.5；sourcebeta .059–.065的质量数proxy约1.626–1.974MeV/u。整十点compiled/GEANT约.800–1.064、compiled/PASS约.699–.903，不能只拟一constant scale；邻近1.6/2.0点GEANT比1.01817/1.00624，限制“default表身份不同就证明论文/代码数值矛盾”的过强解释（K16-17/SD15-16）。没有σtest/拟scale/原Cov或24Mg→23Mg混合靶完整transfer。
+
+Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly downloader status oa_not_found、NRC exactquery无结果；manifest的TDMlicense→confirmed_oa标签不认证body或授权，按实际0downloads记录。初CLI误用--doi exit1未发正文请求，改actual--dois后完成发现流程，不重试终态URL/从metadata补方法。canonical IAEA/K16/SD15/auditledger/index已同步，[reader重放](20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-reader-replay.json)compile/run0、52hash保持。
+
+`supports`source约8.5的实际输入量级；`revises`仅凭模型label差就判数值冲突；`limits`literal4%对jointΣ/实验CI的保证。formal17once/18无学分，不研究19课程卡，原窗口继续。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -500,7 +510,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。 索引23Mg原方法与公开代码页。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。 索引23Mg原方法与公开代码页。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 索引描述纳入Mg/Au。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -830,6 +840,30 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-14"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-16"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-17"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-16"
         }
       ]
     },
@@ -1178,7 +1212,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1580,6 +1614,30 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-14"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-16"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-17"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-16"
         }
       ]
     },
@@ -2497,7 +2555,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
-      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。 补新primary读取状态与原计量误差解释，保持旧未读历史。 补同位素匹配组件对照，不称新独立数据或prior。",
+      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。 补新primary读取状态与原计量误差解释，保持旧未读历史。 补同位素匹配组件对照，不称新独立数据或prior。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
       "anchor": "电子阻止数据能约束什么，尚缺什么",
       "sources": [
         {
@@ -2615,6 +2673,30 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-10"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-14"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-16"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-17"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-16"
         }
       ]
     },
@@ -2758,7 +2840,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
-      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。",
+      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
       "anchor": "先传播粒子到探测器，再解释能量门",
       "sources": [
         {
@@ -2884,12 +2966,36 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-14"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-16"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-17"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-16"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/simdsam-2015-public-dsam-code.md",
-      "summary": "新增真实2015代码/52blob/data与原表达式native控制及exactjob边界。",
+      "summary": "新增真实2015代码/52blob/data与原表达式native控制及exactjob边界。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
       "anchor": "公开程序的行为与原实验job分别核对",
       "sources": [
         {
@@ -3015,6 +3121,30 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-14"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-15"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-16"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-17"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-16"
         }
       ]
     }
@@ -3139,3 +3269,8 @@ Source/SDK/条件vertex/Jacobian与actualgate缺口已canonical。旧26SUN/15GSI
 ### checkpoint019 K16/SimDSAM验收（编号不是Day19卡）
 
 K16完整原读/publicsource与原表达式nativecontrol/重放、52hash/失败/警告已canonical；未重fit实验τ/CI。唯一writeback29changed31mapped，旧Sun31rows/flags保持，新增SUN32与16K16/15SD15indexed且true；verification033记录report/coverage/boundary/lint/diff/protected/native实际exit，0error215warnings。K16exercise freeze初sessionID手误已保原/按runreceipt改执行元数据，时间/questionhash不变。stablemain / `Read original Mg23 DSAM and audit the public SimDSAM producer`，actualhash/H3/push仅publication019。原window/goalactive，formal17once/18partial不变，下一真实ForsterMgAu数据与primary核查，不研究19课程卡。
+
+
+### checkpoint020真实输入反证验收
+
+Forster compiled真实十点/units与原reader两tablemode/strictreplay已canonical，近邻约2%相容性限制过强的label冲突判断；原body/Σ/job缺口保持。旧ISP13/K16_16/SD15_15rows/flags保持，新ISP14–17/K16-17/SD15-16indexed true。verification034记录report/29changed31mapped/coverage/boundary/lint/diff/protected/native实际exit，0error215warnings。stablemain / `Cross-check real MgAu stopping inputs against public model tables`，actualhash/H3/push仅publication020。原window/goalactive，formal17once/18partial不变；下一有界MODEL joint packet先冻设计，不冒原实验data/τfit。

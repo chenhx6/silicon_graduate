@@ -1,0 +1,157 @@
+{
+  "url": "https://www-nds.iaea.org/stopping/tuples/Mg-Au",
+  "status": 200,
+  "bytes": 3672645,
+  "sha256": "0aa94e32d1f95262ce5e9ec47238862e2fe54e972174daeced10d820c72a126b",
+  "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact Data for Mg in Au Energy unit: MeV MeV/u Stopping unit: MeV/(mg/cm2) E-15eV cm2/atom Reload graph Solid Gas Liquid * Data has been converted to the same units for plotting purposes. Data last updated: Nov. 27, 2023, 12:18 p.m. Experimental Data 5 Download all Zha2002b Yanwen Zhang, Nucl.Instrum.Methods Phys.Res. B 196, 1-15 [csv] [txt] At1990 K.Arstila,J.Keinonen and P.Tikkanen, Phys.Rev. B41,6117 (1990) (Ge data superseded by At91) [csv] [txt] Wr1979 D.Ward,H.R.Andrews,I.R.Mitchell,W.N.Lennard,R.B.Walker and N.Rud Can.J.Phys. 57,645 (1979) [csv] [txt] Fs1976 J.S.Forster,D.Ward,H.R.Andrews,G.C.Ball,G.J.Costa,W.G.Davies and I.V.Mitchell Nucl.Instrum.Methods Phys.Res. 136,349 (1976) [csv] [txt] Tp1962 Y.A.Teplova,V.S.Nikolaev,I.S.Dmitriev and L.N.Fateeva Sov.Phys.-JETP 15,31 [csv] [txt] Theoretical Data 1 SRIM2013 The stopping and range of ions in matter, J.F. Ziegler, M.D. Ziegler, J.P. Biersack, Nucl. Instr. and Meth. B 268 (2010) 1818–1823 [csv] [txt] © 2026 IAEA. Terms of Use | Contact",
+  "links": [
+    {
+      "text": "Stopping Power",
+      "href": "/stopping/"
+    },
+    {
+      "text": "Home",
+      "href": "/stopping/"
+    },
+    {
+      "text": "Search",
+      "href": "#"
+    },
+    {
+      "text": "Ion-Target",
+      "href": "/stopping/tuples"
+    },
+    {
+      "text": "Author",
+      "href": "/stopping/publications"
+    },
+    {
+      "text": "Data",
+      "href": "#"
+    },
+    {
+      "text": "Versions",
+      "href": "/stopping/versions"
+    },
+    {
+      "text": "API",
+      "href": "/stopping/api"
+    },
+    {
+      "text": "Target Glossary",
+      "href": "/stopping/target_glossary"
+    },
+    {
+      "text": "About",
+      "href": "#"
+    },
+    {
+      "text": "Description",
+      "href": "/stopping/description"
+    },
+    {
+      "text": "Literature",
+      "href": "/stopping/literature"
+    },
+    {
+      "text": "Computer Programs",
+      "href": "/stopping/software"
+    },
+    {
+      "text": "Oscillations (legacy)",
+      "href": "/stopping/oscillations"
+    },
+    {
+      "text": "Statistical Analyses (legacy)",
+      "href": "/stopping/statisticalAnalyses"
+    },
+    {
+      "text": "Contact",
+      "href": "/stopping/contact"
+    },
+    {
+      "text": "Download all",
+      "href": "/stopping/download/tuple/Mg-Au"
+    },
+    {
+      "text": "Zha2002b",
+      "href": "https://doi.org/10.1016/s0168-583x(02)01246-6"
+    },
+    {
+      "text": "[csv]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Zha2002b?format=csv"
+    },
+    {
+      "text": "[txt]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Zha2002b?format=txt"
+    },
+    {
+      "text": "At1990",
+      "href": "https://doi.org/10.1103/physrevb.41.6117"
+    },
+    {
+      "text": "[csv]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/At1990?format=csv"
+    },
+    {
+      "text": "[txt]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/At1990?format=txt"
+    },
+    {
+      "text": "Wr1979",
+      "href": "https://doi.org/10.1139/p79-092"
+    },
+    {
+      "text": "[csv]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Wr1979?format=csv"
+    },
+    {
+      "text": "[txt]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Wr1979?format=txt"
+    },
+    {
+      "text": "Fs1976",
+      "href": "https://doi.org/10.1016/0029-554x(76)90218-4"
+    },
+    {
+      "text": "[csv]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Fs1976?format=csv"
+    },
+    {
+      "text": "[txt]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Fs1976?format=txt"
+    },
+    {
+      "text": "Tp1962",
+      "href": "https://doi.org/nan"
+    },
+    {
+      "text": "[csv]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Tp1962?format=csv"
+    },
+    {
+      "text": "[txt]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/Tp1962?format=txt"
+    },
+    {
+      "text": "SRIM2013",
+      "href": "https://doi.org/10.1016/j.nimb.2010.02.091"
+    },
+    {
+      "text": "[csv]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/SRIM2013?format=csv"
+    },
+    {
+      "text": "[txt]",
+      "href": "/stopping/download/tuple/Mg-Au/refs/SRIM2013?format=txt"
+    },
+    {
+      "text": "Terms of Use",
+      "href": "https://www.iaea.org/about/terms-of-use"
+    },
+    {
+      "text": "Contact",
+      "href": "/stopping/contact"
+    }
+  ]
+}

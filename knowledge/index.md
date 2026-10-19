@@ -637,7 +637,7 @@ updated: 2026-10-20
 
 - [[spinhalf-angular-nuisance-response-contract]] - SI实际spin1/2前提的核rest域、末态门/boost反例与A2模块readiness。
 - [[lifetime-strength-audit-165tm-136nd]] - DSAM寿命/强度/Qt几何及feeding/stopping预算分层；Day17内无学分Day18知识。
-- [[iaea-2026-stopping-s-au-o-ta-records]] - 官方电子阻止表的同位素/能区/误差语义；S/Au、O/Ta与DSAM实际响应的边界。
+- [[iaea-2026-stopping-s-au-o-ta-records]] - 官方电子阻止表的同位素/能区/误差语义；S/Au、O/Ta、Mg/Au与DSAM实际响应的边界。
 - [[bethge-1966-heavy-ion-stopping-charge-states]] - 厚靶反向散射与电荷态原实验；束流共同尺度、方法适用条件和阻止输入边界。
 - [[geant4-2026-ion-stopping-component-contract]] - SDK离子阻止的实际模型/表/API合同与首次范围建表诊断，非论文producer复现。
 - [[kirsebom-2016-23mg-dsam-lifetimes]] - 23Mg原13页DSAM方法、alpha出靶、混合靶与寿命上限边界。

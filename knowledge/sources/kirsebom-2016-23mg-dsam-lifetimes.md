@@ -69,6 +69,7 @@ O. S. Kirsebom等，*Phys. Rev. C*93，025802(2016)，DOI [10.1103/PhysRevC.93.0
 | K16-14 | Fig21模拟把alpha8→16°/gamma32→16°，理想cone Ω乘积比≈1.01479，仅近似保统计；更宽alpha门会损Ex分辨/增背景/角分布敏感。不能仅以gamma线变窄认定完整实验FOM改善。 | design-model-and-countertradeoff | direct-and-task-geometry | PDF11 Fig21/discussion；exercise-result geometry | true |
 | K16-15 | PDF/source均写t=∫γds/v，公开代码也用gamma/v；通常properclock为∫ds/(γv)，恒β下两者比γ²，在源β范围约1.00349–1.00677。当前是公式/软件合同边界，不给原τ简单重标或判实验CI偏差。 | literal-clock-and-conditional-control | direct-code-companion-and-task-derivation | PDF6–7 SecV/Fig7；SD15-5；exercise-result clocks | true |
 | K16-16 | 本文、公开代码/响应表与Sun同设施有共享方法/设备/Forster/SRIM依赖，反应和采集对象不同；未得原experimentalhistograms/fitCov/完整job。公开代码输入的GEANT表/束斑等与正文有差别，README used-for-analysis不是exactjob认证。 | independence-and-readiness | primary-and-code-boundary | SD15-1/3/4/6/8；PDF5 SecV | true |
+| K16-17 | 实际IAEA Forster24Mg/Au十点使原about8.5MeV/µm可核：1.6MeV/u给8.4341；publicGEANT reader在1.6/2.0邻点与compiled值约2%内相容。defaultlabel与正文不同并不等已证数值冲突，actualjob/Cov与primary误差定义仍缺。 | actual-reference-companion-and-revision | direct-compilation-and-native | ISP26-14/15/16/17 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -110,3 +111,8 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 ## Extracted Pages
 
 [[simdsam-2015-public-dsam-code]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[iaea-2026-stopping-s-au-o-ta-records]]。当前只为Day17窗口内Day18无学分预习，不计新课程卡。
+
+
+## Forster实际编译输入补充
+
+[[iaea-2026-stopping-s-au-o-ta-records]] ISP26-14–17补24Mg/Au十个真实编译点和原publictable reader对照。物理输入身份没有因此闭合成paperexactjob，但邻近recoil能量的数值并未显示label差异所暗示的必然冲突。Forster原件未读、quoted4%置信定义/Cov和24Mg到23Mg的速度/同位素/混合靶合同仍保持。

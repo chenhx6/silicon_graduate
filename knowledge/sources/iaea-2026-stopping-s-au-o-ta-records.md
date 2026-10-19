@@ -1,6 +1,6 @@
 ---
 type: source
-title: "IAEA阻止数据库：S/Au、O/Ta的实验覆盖与DSAM输入边界"
+title: "IAEA阻止数据库：S/Au、O/Ta及Mg/Au的DSAM输入边界"
 title_original: "Electronic Stopping Power of Matter for Ions — selected S/Au and O/Ta records"
 aliases: [IAEA stopping S Au O Ta, 阻止截面覆盖核查]
 created: 2026-10-19
@@ -18,7 +18,7 @@ data_version: website-version-2026-09-selected-pairs-last-modified-2023-11-27
 raw_file: raw/nuclear-data/day17-20261019/StoppingPower_tuple_S-Au.csv
 raw_sha256: f5c169296c7d129cf74011e89a7772448a9f6da51c681c4cd651965fee85f43f
 raw_storage_status: public-staging-verified-raw-archive-deferred
-nuclei: [31S, 32S, 15O, 16O, 17O, 18O]
+nuclei: [31S, 32S, 15O, 16O, 17O, 18O, 23Mg, 24Mg]
 methods: [stopping-power, DSAM, unit-conversion, data-coverage]
 tags: [DSAM, stopping, calibration, covariance, source-independence]
 ---
@@ -62,6 +62,10 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 | ISP26-11 | 原Fig3的断轴/归一/多符号到全部16行的bridge仍partial；新localSeff与N0scale推导不修编译或生成先验，先前比值不升级为错误认定。Bister1977正文仍未得。 | bridge-and-readiness-update | direct-and-task-boundary | B66-8 | true |
 | ISP26-12 | 后续实际Geant4SDK三模型按各行同位素查询，Wr编译/组件比standard约.922–.935、option4约.496–.546、external约.498–.548；不是SRIM2013或Sunactualproducer。比值仅指定模型/数据对照，未给新prior/独立σ。 | new-native-component-comparison | task-model | GSI26-6 | true |
 | ISP26-13 | nativeexternal低能15O首次querytransient已源码诊断定位/严格重放，首次值保留不静默warmup。源码/模型/编译/experiment四层分开，IAEA仍不补完整DSAM response/Σ。 | component-failure-boundary | task-model-and-readiness | GSI26-7 | true |
+| ISP26-14 | 后续实际Mg/Au pair含五实验ref/59行与165SRIM模型行；Forster Fs1976十行全24Mg、E/A.2–3.2MeV/u、质量阻止单位MeV/(mg/cm²)、literalerror4。exactref CSV与全库selected逐字段相等，非新增独立实验。 | new-selected-Mg-input | direct-compilation | Mg-Au pair Experimental/Theoretical Data；Fs1976 CSV | true |
+| ISP26-15 | ρAu19.30时Smass到MeV/µm因子.1ρ=1.93，Forster1.6MeV/u4.37给8.4341MeV/µm，支持K16 about8.5量级。sourcebeta .059–.065用质量数近似映EA约1.626–1.974；未认证24Mg→23Mg exacttransfer/完整tail覆盖。 | unit-and-energy-coverage-control | derived-from-real-input | Fs1976 CSV E1.6；K16-7；input-comparison-result | true |
+| ISP26-16 | 原SimDSAM表reader native对十点：compiled/GEANT约.800–1.064，compiled/PASS约.699–.903；邻近recoil域的1.6/2.0点GEANT约1.01817/1.00624。未做scale fit/σtest，不能由default表身份差异就断言正文与程序数值矛盾。 | native-real-input-comparison-and-counter | native-model-and-compilation | forster1976-input-comparison-result native_modes | true |
+| ISP26-17 | Forsterprimary仍未得：OpenAlex closed、合法OAonly downloader无正文、NRC exactquery无结果。TDMlicense导致manifest confirmed_oa标签不认证已取得body/OA授权，实际oa_not_found保留；4%置信/共同Σ/核扣除/actualK16job未恢复。 | access-and-error-readiness | actual-provenance-boundary | forster1976-primary-readiness；downloader manifest | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -106,3 +110,28 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 ## 实际Geant4组件补充
 
 [[geant4-2026-ion-stopping-component-contract]]提供当前已存在SDK的模型/数据/API输入；当前SRIM2013和Geant4不是同一producer。该组件没有生成事件，缺actualSunmodel/target/轨迹/Σ的边界不因数值运行成功解除。
+
+
+## Mg/Au：把Forster输入身份与数值相容性分开
+
+[来源前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-before-freeze.json)、[exactref下载](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-exact-selected-download.json)、[十行CSV](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-Mg-Au-frozen.csv)与[实际reader对照](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-input-comparison-result.json)保存新pair。Forster DOI10.1016/0029-554x(76)90218-4，仍只是编译值/metadata而非已读primary。
+
+| E/A MeV/u | 编译Forster Smass MeV/(mg/cm²) | literal error % |
+| --- | --- | --- |
+| .2 | 2.70 | 4 |
+| .32 | 3.40 | 4 |
+| .5 | 4.17 | 4 |
+| .7 | 4.55 | 4 |
+| 1.0 | 4.57 | 4 |
+| 1.25 | 4.52 | 4 |
+| 1.6 | 4.37 | 4 |
+| 2.0 | 4.20 | 4 |
+| 2.5 | 4.00 | 4 |
+| 3.2 | 3.80 | 4 |
+
+[[simdsam-2015-public-dsam-code]]的GEANT/PASS读取是两个指定模型，不等两个独立实验。GEANT邻近源recoil能区两点与Forster约2%内相容，限制了只凭输入label差异就断言物理矛盾的说法；低能区及PASS差别、actualjob/误差定义/模型训练谱系仍需原输入。literal4不转换成十个独立Gaussianσ，也不凭这些点给新τ或Sun sp先验。
+
+上述recoil能区及about8.5的原文对象为[[kirsebom-2016-23mg-dsam-lifetimes]] K16-7/17；这项编译回证与其原Forster引用共享同一测量谱系。
+
+
+Mg/Au原reader的[重放程序](../../system/scripts/day17_forster_mg_au_input.py)按实际CSV/fixture和52源/data hash检查后重编译，逐值比较GEANT/PASS各十点；全部数值同原记录，不改源表。这是输入/模型对照的再现，不增加独立实验或建立新的误差分布。

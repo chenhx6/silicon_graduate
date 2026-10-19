@@ -1,0 +1,16 @@
+{
+  "DOI": "10.1016/0029-554x(76)90218-4",
+  "primarybody_obtained": false,
+  "scope": "metadata/discovery plus IAEAcompiled10rows; notoriginalpaperbody",
+  "OpenAlex": "closed/noPDF",
+  "downloader": "oa_not_found,0downloaded; explicitOAonlynoinstitutionauth",
+  "manifest": "tmp/day17-forster1976/manifest.json",
+  "assessment_boundary": "manifestoaAssessmentconfirmed_oa fromTDMlicense doesnotmeanarticlebody/OApermissionorPDFobtained; actualstatusoa_not_found retained",
+  "NRCquery": "noexactresults",
+  "do_not_auto_retry_terminal_urls": true,
+  "missing": [
+    "primaryexperimentalsetup/nuclear-subtraction",
+    "errorconfidenceandjointCov",
+    "actualK16Forstertable/job"
+  ]
+}

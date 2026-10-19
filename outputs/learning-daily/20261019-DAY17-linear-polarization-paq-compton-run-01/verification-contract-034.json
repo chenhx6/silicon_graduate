@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md": 17,
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 17,
+    "knowledge/sources/simdsam-2015-public-dsam-code.md": 16
+  },
+  "artifacts": [
+    {
+      "file": "forster1976-reader-replay.json",
+      "true_fields": [
+        "reader_values_exactly_replayed",
+        "all52hashes_preserved"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": true
+}

@@ -1,0 +1,6 @@
+{
+  "command": "node nature-downloader/scripts/batch_download.mjs --doi DOI --route open_access --si --out tmp/day17-forster1976",
+  "exit_code": 1,
+  "error": "unknown arg --doi",
+  "fix": "readactualparseArgs; no networkbodyattempt occurred"
+}

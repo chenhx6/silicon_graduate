@@ -58,3 +58,8 @@ SUN23-27–31/GSI26-16核E(1mm residual)/DeltaE(87µm)与actualgate表达式未�
 ### Day17 K16/SimDSAM追加priming（无18学分）
 
 K16完整原读13页/21图/2表/4式与公开SimDSAM52blob/2015code/实际原表达式组件已核。alpha出Au约4MeV、植入层swelling/Forster/SRIM/角接受不迁Sun；原Bp±.07/.007差、TableII4finite9limits与τ<12未裁决rate争议保留。publicdefaultCARD/表/束斑/插值与paperjob不同，properclock gamma/v、uniformradius与报告距离问题只作条件自审，原τ/CI不修。totalalpha与internalresidual已native区分。正式18仍新session/新交付，不用旧source/52files/20000样本换学分。
+
+
+### Day17 Forster/MgAu追加priming（无18学分）
+
+ISP26-14–17/K16-17/SD15-16实际Forster24Mg/Au十点/.2–3.2MeV/u/literal4与nativeGEANT/PASS对照已核；1.6/2.0邻点GEANT约2%内相容，defaultlabel差不自动等数值冲突。Forster原body/σ定义/Cov与actualK16job仍未得；OAonly0download/TDMlabel不当正文。正式18须承认priming，旧点数/reader重放不换学分。

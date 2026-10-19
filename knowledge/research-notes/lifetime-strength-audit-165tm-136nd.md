@@ -215,3 +215,10 @@ SUN23-27–31/GSI26-16的新输入审计保留实际Si角色和原Q：E为1mmSi�
 该实验的alpha出靶约4MeV、He植入层swelling及有限束斑/散射，使门到vertex/响应的映射具体化：不能裸迁给Sun；density部分peak约.55944，He项仍需一起算，不将它当额外固定系统σ。Fig21理想cone乘积近恒并不消除门更宽/背景/角分布的代价。
 
 [[simdsam-2015-public-dsam-code]] SD15-1–15给真实52文件/2015代码与原表达式组件，但defaultGEANT表/半径/插值与正文有差别，原ROOTanal/data/Σ/job未给。原native uniform-radius矩约.331814、不是uniform-area .5；原gamma/v时钟与properclock不同；报告xOutput未同步最后position修正；measuredalpha32MeV控制约31.9864而internalresidual27.9898，说明变量角色不能混。同表模型peak mix/pure约.603–.612非新测量或Sun40%误差。原源hash/失败/警告保留，未改physics或重fitτ。
+
+
+## Forster输入：新的真实点限制过强的模型冲突判断
+
+ISP26-14–17/K16-17/SD15-16核actual24Mg/Au十个Forster编译点、exactref与全库相同；0.2–3.2MeV/u/literal4%。ρ19.30把1.6MeV/u的4.37质量阻止转换为8.4341MeV/µm，支持K16 about8.5。原publicGEANT reader在1.6/2.0邻点与compiled值约2%内相容；所以defaultGEANT label与正文Forster的差别需保留为输入谱系/actualjob缺口，不能直接叫数值矛盾。
+
+整十点compiled/GEANT约.800–1.064、compiled/PASS约.699–.903说明全能区/不同模型并非同一constant scale；未拟合/无Σ。Forster原文仍OA未得，NRC exactquery无结果，downloaderTDMlicense标签不是正文/OA取得；不从metadata补测量方法/σ或把24Mg相近速度迁到23Mg混合靶认独立校准。

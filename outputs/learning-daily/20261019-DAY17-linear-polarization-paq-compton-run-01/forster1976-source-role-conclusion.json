@@ -1,0 +1,52 @@
+{
+  "all10compiledrows": "24Mg/Au,0.2\u20133.2MeV/u,literal4percent",
+  "primary_body_read": false,
+  "neighbor_comparison": [
+    {
+      "mode": "GEANT",
+      "source_recoil_neighbor_points": [
+        {
+          "E_A_MeV": 1.6,
+          "code_linear_MeV_per_um": 8.283588063300297,
+          "code_mass_MeV_per_mg_cm2": 4.292014540570102,
+          "Forster_compiled_mass": 4.37,
+          "compiled_over_code": 1.018169896372145
+        },
+        {
+          "E_A_MeV": 2.0,
+          "code_linear_MeV_per_um": 8.0557428,
+          "code_mass_MeV_per_mg_cm2": 4.17396,
+          "Forster_compiled_mass": 4.2,
+          "compiled_over_code": 1.0062386798148522
+        }
+      ],
+      "not_a_CI_or_actual_23Mg_response": true
+    },
+    {
+      "mode": "PASS",
+      "source_recoil_neighbor_points": [
+        {
+          "E_A_MeV": 1.6,
+          "code_linear_MeV_per_um": 9.543164431920259,
+          "code_mass_MeV_per_mg_cm2": 4.944644783378372,
+          "Forster_compiled_mass": 4.37,
+          "compiled_over_code": 0.8837844155539617
+        },
+        {
+          "E_A_MeV": 2.0,
+          "code_linear_MeV_per_um": 9.17284803,
+          "code_mass_MeV_per_mg_cm2": 4.752771,
+          "Forster_compiled_mass": 4.2,
+          "compiled_over_code": 0.8836950065551233
+        }
+      ],
+      "not_a_CI_or_actual_23Mg_response": true
+    }
+  ],
+  "belief_revision": "publicGEANTinputidentitydiffersfromForster butnearstatedrecoilenergiesnumericagreementwithinrough2percentatneighborpoints limitsclaimof demonstratedpaper/code numericalconflict",
+  "K16_dE_dx_approx": "Forster1.6MeV/u 4.37MeV/(mg/cm2)*19.30*.1=8.4341MeV/um, consistentwithauthorabout8.5",
+  "source_independence": "sameForsterexperimenttranscribedIAEA, no new calibration; G4fittraining provenanceunknown",
+  "source_uncertainty_boundary": "4literalnotknownindependentSD/Cov; measured24Mg to23Mg transfer requiresvelocity/isotope/materialcontract",
+  "highest_missing": "primarymethods/errorcov and actualK16job/Forsterinputdataset",
+  "no_new_taufit_or_Sun_prior": true
+}

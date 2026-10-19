@@ -1,0 +1,6 @@
+{
+  "writeback_valid": false,
+  "error": "knowledge page does not link to source kirsebom-2016-23mg-dsam-lifetimes",
+  "fix": "addedexactcanonicalK16link inIAEA Forsterparagraph; science/flagsunchanged",
+  "initial_full_verifier_exit_code": 1
+}

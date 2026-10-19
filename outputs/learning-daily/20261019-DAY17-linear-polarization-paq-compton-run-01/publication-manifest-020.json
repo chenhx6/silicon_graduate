@@ -1,0 +1,42 @@
+{
+  "subject": "Cross-check real MgAu stopping inputs against public model tables",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+    "knowledge/sources/simdsam-2015-public-dsam-code.md",
+    "system/scripts/day17_forster_mg_au_input.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-019.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-034.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-034.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-034-initial-writeback-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-020.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-forster1976-data.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-Mg-Au-frozen.csv",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-Mg-Au-pair-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-Mg-Au-selected-rows.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-before-source.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-downloader-initial-cli-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-downloader-manifest.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-exact-selected-download.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-input-comparison-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-nrc-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-openalex-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-primary-readiness.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-public-table-component-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-public-table-component.cc",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-reader-replay.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-source-role-conclusion.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inheriteddirty,raw/PLAN/Bib/credentials/tmp/binaries/daemon;logHEAD+own020only;nexteventpacketexcluded"
+}

@@ -1,0 +1,65 @@
+{
+  "script_sha256": "4a68a2a60ac925501c38f87841d1f77059082357c4e2916386e4d2d3e85f32f9",
+  "compile": {
+    "command": [
+      "c++",
+      "-pthread",
+      "-std=c++17",
+      "-m64",
+      "-fsized-deallocation",
+      "-I/opt/root/include",
+      "-std=gnu++17",
+      "-O2",
+      "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-public-table-component.cc",
+      "-o",
+      "/workspace/wiki/tmp/day17-kirsebom2016/native-component/forster-reader-replay",
+      "-L/opt/root/lib",
+      "-lCore",
+      "-lImt",
+      "-lRIO",
+      "-lNet",
+      "-lHist",
+      "-lGraf",
+      "-lGraf3d",
+      "-lGpad",
+      "-lROOTVecOps",
+      "-lTree",
+      "-lTreePlayer",
+      "-lRint",
+      "-lPostscript",
+      "-lMatrix",
+      "-lPhysics",
+      "-lMathCore",
+      "-lThread",
+      "-lROOTNTuple",
+      "-lROOTNTupleUtil",
+      "-lMultiProc",
+      "-lROOTDataFrame",
+      "-Wl,-rpath,/opt/root/lib",
+      "-pthread",
+      "-lm",
+      "-ldl",
+      "-rdynamic",
+      "-lMathMore"
+    ],
+    "exit_code": 0,
+    "stderr": "In file included from /workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/sim_dsam.cpp:44,\n                 from /workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/forster1976-public-table-component.cc:5:\n/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/detectionEfficiency.cpp: In member function \u2018double detectionEfficiency::getEff(double, double)\u2019:\n/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/detectionEfficiency.cpp:127:1: warning: control reaches end of non-void function [-Wreturn-type]\n  127 | };\n      | ^\n"
+  },
+  "runs": [
+    {
+      "mode": "GEANT",
+      "exit_code": 0,
+      "stdout": "TABLE_VALUE,GEANT,0.20000000000000001,6.5139816000000001,3.3751199999999999\nTABLE_VALUE,GEANT,0.32000000000000001,7.392034212248018,3.8300695400248794\nTABLE_VALUE,GEANT,0.5,7.9099892000000001,4.0984400000000001\nTABLE_VALUE,GEANT,0.69999999999999996,8.2559030999999994,4.2776699999999996\nTABLE_VALUE,GEANT,1,8.4573372000000031,4.3820400000000008\nTABLE_VALUE,GEANT,1.25,8.4536747841980091,4.3801423752321291\nTABLE_VALUE,GEANT,1.6000000000000001,8.2835880633002965,4.2920145405701016\nTABLE_VALUE,GEANT,2,8.0557428000000009,4.1739600000000001\nTABLE_VALUE,GEANT,2.5,7.7660691000000002,4.0238699999999996\nTABLE_VALUE,GEANT,3.2000000000000002,7.3868611732605824,3.8273892089433068\n",
+      "stderr": ""
+    },
+    {
+      "mode": "PASS",
+      "exit_code": 0,
+      "stdout": "TABLE_VALUE,PASS,0.20000000000000001,7.4513903200000007,3.860824\nTABLE_VALUE,PASS,0.32000000000000001,8.6809552989274152,4.4979042999623911\nTABLE_VALUE,PASS,0.5,9.4544292399999996,4.8986679999999998\nTABLE_VALUE,PASS,0.69999999999999996,9.8083565000000004,5.0820499999999997\nTABLE_VALUE,PASS,1,9.9197117100000014,5.1397470000000007\nTABLE_VALUE,PASS,1.25,9.8159462820217165,5.0859825295449301\nTABLE_VALUE,PASS,1.6000000000000001,9.5431644319202587,4.9446447833783722\nTABLE_VALUE,PASS,2,9.1728480300000008,4.7527710000000001\nTABLE_VALUE,PASS,2.5,8.7133015199999999,4.5146639999999998\nTABLE_VALUE,PASS,3.2000000000000002,8.1240442920428144,4.2093493741154475\n",
+      "stderr": ""
+    }
+  ],
+  "all52hashes_preserved": true,
+  "reader_values_exactly_replayed": true,
+  "new_independent_calibration_or_fit": false
+}

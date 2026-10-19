@@ -2102,3 +2102,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint019 — 23Mg primary and public SimDSAM
 
 同19日Day17原窗口继续，formal17once/18uncredited，不研究19课程卡。K16原13页/21图/2表/4式、TableII13rows/response/植入靶/alpha门边界及public2015SimDSAM52blob/原表达式native控制/重放已canonical；默认输入不认原paperjob、物理差异/失败/警告保留，不修实验τ/CI。verification033 report/29changed31mapped/coverage/boundary/lint/diff/protected0，0errors215warnings，旧SUN31rows/flags与newSUN32/16K16/15SD15索引通过。稳定指针main / Read original Mg23 DSAM and audit the public SimDSAM producer；hash/push仅runreceipt，原15:00截止/goalactive不变。
+
+## 2026-10-20 Day17 checkpoint020 — real Forster input countercheck
+
+同19日Day17原窗口继续，formal17once/18uncredited。IAEA Mg/Au actualFs1976十点/单位与原publicreader GEANT/PASS对照/重放已canonical；1.6/2.0邻点约2%相容性限制过强label冲突解释，primarybody/Cov/job仍缺。不把TDMlicense的OA标签当已得正文。verification034 report/29changed31mapped/coverage/boundary/lint/diff/protected0，0errors215warnings，新ISP/K16/SD15rows true且旧flags保持。初writeback缺K16link已修/留档。stablemain / Cross-check real MgAu stopping inputs against public model tables；hash/push仅runreceipt，原15:00截止/goalactive不变。

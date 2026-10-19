@@ -1,0 +1,8 @@
+{
+  "url": "https://www-nds.iaea.org/stopping/download/tuple/Mg-Au/refs/Fs1976?format=csv",
+  "status": 200,
+  "bytes": 2796,
+  "sha256": "4523ee7dbd8ae98603143dd62530631c64fe3d8123d46c2b6388be1a6ef629e3",
+  "type": "text/csv",
+  "prefix": "projectile_name,ion_isotope,target_name,phase,energy,energy_unit,stopping_power,stopping_unit,percentage_error,target_mass_atom_ratio,dataset_last_modification,publication_year,ref_id,citation_reference,doi,comments,facility,technique,stopping_power_"
+}
