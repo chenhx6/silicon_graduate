@@ -1,0 +1,253 @@
+{
+  "at": "2026-10-19T08:59:30.243045+08:00",
+  "script_sha256": "9fb0f8e31ff83711349ad744e7935040250ee677fed6ea3cbb4061a0b37870e5",
+  "contract_sha256": "8ddaa4ac423c54481e79b7c0159f23f278c896cbacf1622932a0feb796c7232f",
+  "source_sha256": "bb3571150d4c552dc5acdbd148546acc7eea4f07dce907eaf0d82377191cb2ee",
+  "linear_ratio_map": {
+    "N0_N90": "(R + p)/(R*p + 1)",
+    "P_plane": "(p - 1)/(p + 1)",
+    "Q_response": "(R - 1)/(R + 1)",
+    "A_N90minusN0": "(R - 1)*(p - 1)/((R + 1)*(p + 1))",
+    "A_equals_PQ": true,
+    "counter_swap_flips_A": true,
+    "p1_or_R1_nulls_passed": true,
+    "pure_parallel_limit_N0_N90": "1/R"
+  },
+  "kappa_TableIIb_exact_replay": [
+    {
+      "L": 1,
+      "Lprime": 1,
+      "rank": 2,
+      "kappa": "-1/2",
+      "printed": "-1/2"
+    },
+    {
+      "L": 1,
+      "Lprime": 2,
+      "rank": 2,
+      "kappa": "-1/6",
+      "printed": "-1/6"
+    },
+    {
+      "L": 1,
+      "Lprime": 2,
+      "rank": 3,
+      "kappa": "-1/6",
+      "printed": "-1/6"
+    },
+    {
+      "L": 1,
+      "Lprime": 3,
+      "rank": 2,
+      "kappa": "-1/12",
+      "printed": "-1/12"
+    },
+    {
+      "L": 1,
+      "Lprime": 3,
+      "rank": 3,
+      "kappa": "-1/12",
+      "printed": "-1/12"
+    },
+    {
+      "L": 1,
+      "Lprime": 3,
+      "rank": 4,
+      "kappa": "-1/12",
+      "printed": "-1/12"
+    },
+    {
+      "L": 2,
+      "Lprime": 2,
+      "rank": 2,
+      "kappa": "1/2",
+      "printed": "1/2"
+    },
+    {
+      "L": 2,
+      "Lprime": 2,
+      "rank": 3,
+      "kappa": "0",
+      "printed": "0"
+    },
+    {
+      "L": 2,
+      "Lprime": 2,
+      "rank": 4,
+      "kappa": "-1/12",
+      "printed": "-1/12"
+    },
+    {
+      "L": 2,
+      "Lprime": 3,
+      "rank": 2,
+      "kappa": "-1/4",
+      "printed": "-1/4"
+    },
+    {
+      "L": 2,
+      "Lprime": 3,
+      "rank": 3,
+      "kappa": "1/4",
+      "printed": "1/4"
+    },
+    {
+      "L": 2,
+      "Lprime": 3,
+      "rank": 4,
+      "kappa": "-1/60",
+      "printed": "-1/60"
+    },
+    {
+      "L": 2,
+      "Lprime": 3,
+      "rank": 5,
+      "kappa": "-1/20",
+      "printed": "-1/20"
+    },
+    {
+      "L": 3,
+      "Lprime": 3,
+      "rank": 2,
+      "kappa": "1/3",
+      "printed": "1/3"
+    },
+    {
+      "L": 3,
+      "Lprime": 3,
+      "rank": 3,
+      "kappa": "0",
+      "printed": "0"
+    },
+    {
+      "L": 3,
+      "Lprime": 3,
+      "rank": 4,
+      "kappa": "1/3",
+      "printed": "1/3"
+    },
+    {
+      "L": 3,
+      "Lprime": 3,
+      "rank": 5,
+      "kappa": "0",
+      "printed": "0"
+    },
+    {
+      "L": 3,
+      "Lprime": 3,
+      "rank": 6,
+      "kappa": "-1/30",
+      "printed": "-1/30"
+    }
+  ],
+  "printed_E3": {
+    "W": "225*t**3 - 305*t**2 + 111*t + 1",
+    "G": "225*t**3 - 355*t**2 + 131*t - 1",
+    "J0_declared_plus": "t*(15*t - 11)**2",
+    "J90_declared_plus": "(5*t - 1)**2",
+    "intensities_have_no_common_zero": true,
+    "exact_complete_polarization": [
+      {
+        "cos2theta": "0",
+        "G_over_W": "-1",
+        "theta_deg": [
+          90.0
+        ]
+      },
+      {
+        "cos2theta": "1/5",
+        "G_over_W": "1",
+        "theta_deg": [
+          63.43494882292201,
+          116.56505117707799
+        ]
+      },
+      {
+        "cos2theta": "11/15",
+        "G_over_W": "-1",
+        "theta_deg": [
+          31.09093035767304,
+          148.90906964232695
+        ]
+      }
+    ],
+    "electric_vector_spherical_harmonic_control": true,
+    "physicality_grid_points": 10001,
+    "samples": [
+      {
+        "theta_deg": 0,
+        "W_printed_unscaled": 32.0,
+        "G_over_W_in_declared_plus_convention": 0.0
+      },
+      {
+        "theta_deg": 30,
+        "W_printed_unscaled": 7.609375,
+        "G_over_W_in_declared_plus_convention": -0.9876796714579092
+      },
+      {
+        "theta_deg": 60,
+        "W_printed_unscaled": 13.203124999999998,
+        "G_over_W_in_declared_plus_convention": 0.9905325443786982
+      },
+      {
+        "theta_deg": 62,
+        "W_printed_unscaled": 13.057596130639542,
+        "G_over_W_in_declared_plus_convention": 0.9984058904195616
+      },
+      {
+        "theta_deg": 90,
+        "W_printed_unscaled": 1.0,
+        "G_over_W_in_declared_plus_convention": -1.0
+      },
+      {
+        "theta_deg": 118,
+        "W_printed_unscaled": 13.057596130639542,
+        "G_over_W_in_declared_plus_convention": 0.9984058904195616
+      },
+      {
+        "theta_deg": 150,
+        "W_printed_unscaled": 7.609375,
+        "G_over_W_in_declared_plus_convention": -0.9876796714579092
+      },
+      {
+        "theta_deg": 180,
+        "W_printed_unscaled": 32.0,
+        "G_over_W_in_declared_plus_convention": 0.0
+      }
+    ],
+    "source_approx_angles_not_replaced": [
+      62,
+      118
+    ]
+  },
+  "source_4_2_0": {
+    "Pplane90_pureE2": "1/6",
+    "p_FH_pureE2": "7/5",
+    "new_experimental_Co60_calibration": false
+  },
+  "review_FrenchNewton_E3_comparison": {
+    "observed_named_ratio": 1.14,
+    "sigma": 0.06,
+    "printed_M3_E3_predictions": [
+      0.84,
+      1.19
+    ],
+    "standardized_residual_M3_E3_if_predictions_fixed": [
+      4.999999999999999,
+      -0.8333333333333341
+    ],
+    "original_FrenchNewton_count_roles_or_fit_replayed": false,
+    "sign_not_transferred_without_primary_angle_count_contract": true
+  },
+  "circular_R_boundary": {
+    "source_definition": "2*(Nplus-Nminus)/(Nplus+Nminus)",
+    "not_linear_response_R": true,
+    "factor2_not_deleted": true
+  },
+  "readiness": {
+    "historical_delta_to_KS_RB_bridge_established": false,
+    "new_experiment_fit_or_events_generated": false,
+    "whole_Ferentz_tables_or_primary_historical_experiments_replayed": false
+  }
+}

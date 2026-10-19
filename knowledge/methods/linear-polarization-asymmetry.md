@@ -192,3 +192,8 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 ### 1959 normal轴与现代plane轴的明确桥
 
 [[suffert-1959-proton-capture-polarization]] SEH59-4/5：其P_SU按electricnormal减electricplane定义。若以同一beam–γ plane定义P_plane，则P_SU=−P_plane；同计数分布1+pP_SUcos2χ=1−pP_planecos2χ。原Fig3交叉比为Nscatter,plane/Nscatter,normal，须按此角色翻译R。它补上[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-16的上游坐标桥，未认证真实producer或消除所有literal差异。
+
+
+### Electric的P号依角/布居而变化
+
+[[fagg-hanna-1959-polarization-measurements]] FH59-5/10–12的plane-axis E3/m1原式可写两非负平方强度，literalPplus在90°为−1、118°约+.9984；不是electricpositive的普遍规则。SU59normal轴还需额外反号；source的约62/118角、realacceptance与actualproducer分别保留。FH59-16另隔离同综述Ap58正文/表的数对交换，不据review表任意选符号。

@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T08:45:13.632341+08:00",
+  "response": {
+    "url": "https://www.osti.gov/api/v1/records",
+    "params": {
+      "title": "Theory of Angular Correlation of Nuclear Radiations",
+      "rows": 5
+    },
+    "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?title=Theory+of+Angular+Correlation+of+Nuclear+Radiations&rows=5 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  }
+}

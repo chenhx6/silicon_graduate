@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-19T08:56:57.407168+08:00",
+  "raw_sha256": "bb3571150d4c552dc5acdbd148546acc7eea4f07dce907eaf0d82377191cb2ee",
+  "physical_pages_read": 48,
+  "printed_pages": "711–758",
+  "mainline": "I A–C, II A–D, III A–E, TableXIII addenda, acknowledgments and complete bibliography",
+  "table_scope": "TablesI–XIII mainline read; II–VI/XII and XIII selected source/calibration/Ap58 entries deep checked; no independent recompile of all historical datasets",
+  "figures_visual": [
+    1,
+    2,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    26,
+    37
+  ],
+  "additional_visual_pages": [
+    713,
+    714,
+    715,
+    716,
+    718,
+    719,
+    728,
+    729,
+    730,
+    733,
+    738,
+    743,
+    746,
+    751
+  ],
+  "remaining_scope": "No raw producer or original of every cited experiment; remaining non-selected figures considered through text/captions, not all digitized",
+  "original_BR1953_obtained": false,
+  "original_Ap58_obtained": false,
+  "recall_error_separate_correction": "fagghanna1959-recall-attribution-correction.json"
+}

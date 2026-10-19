@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T08:52:43.287958+08:00",
+  "frozen_before_preserved": "fagghanna1959-before.md",
+  "correction": "Before note incorrectly said SU59 also cites this FH59 review. SU59 Ref6 is Fagg&Hanna1953 PhysRev92,372 (Fa53), while B15 Ref23 is FH59 RMP31,711. Same authors are not same article/source fingerprint.",
+  "evidence": "SU59 p670 Ref6; B15 p11 Ref23; FH59 pp736-737 Fa53/pp757 bibliography Fa53",
+  "effect": "No change to correctly source-located normal-axis SU59 vs FH59-plane comparison; do not claim direct SU59→FH59 citation lineage",
+  "scientific_results_altered": false
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T09:00:37.644860+08:00",
+  "session_id": 98684,
+  "exit_code": 0,
+  "script": "system/scripts/day16_fagghanna1959_convention_audit.py",
+  "script_sha256": "9fb0f8e31ff83711349ad744e7935040250ee677fed6ea3cbb4061a0b37870e5",
+  "result_script_matches": true,
+  "initial_script_failure_preserved": "fagghanna1959-first-quantitative-failure.json",
+  "source_contract_unchanged": true,
+  "environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps",
+  "raw_experiment_refit": false
+}

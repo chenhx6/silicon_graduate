@@ -1,0 +1,26 @@
+{
+  "publication_index": 34,
+  "at": "2026-10-19T08:42:01.750625+08:00",
+  "branch": "main",
+  "subject": "Trace DAY16 polarization axes and unresolved companion branches",
+  "commit": "8a5bd1f288aed97fa29c3d10f5c6fc827f3fd2dd",
+  "origin_main": "8a5bd1f288aed97fa29c3d10f5c6fc827f3fd2dd",
+  "status": "published",
+  "commands_actual_all_exit0": true,
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 3944c59e        \nTo gitee.com:chx6/silicon_graduate.git\n   e3397a1..8a5bd1f  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "native_goal_status_observed": "blocked",
+  "scientific_work_status": "pursuing",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

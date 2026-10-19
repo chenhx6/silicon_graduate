@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-19T08:45:58.463971+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 374.02560048333333,
+  "day_index": 16,
+  "completed": [
+    16
+  ],
+  "partial": [
+    17
+  ],
+  "next_card_checked": 17,
+  "selected_continuity": "FH59 actual original historical polarization convention/response and empirical sign controls",
+  "selected_novelty": null,
+  "candidates": [
+    {
+      "entry": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+      "gain": "Available primary review can map positive P definition, helicity/analyzer sign, mixed-multipole amplitude and independent calibration/control examples; serious counterarguments to electric/magnetic sign shortcut",
+      "scope": "full article mainline and relevant tables/figures; reviews not independent experimental replications"
+    },
+    {
+      "entry": "BR1953 original convention",
+      "status": "readiness; bounded legal access currently no body; no metadata-to-science substitution"
+    },
+    {
+      "entry": "SU59 actual arrays/covariance and B15 producer",
+      "status": "no actual input; preserve rather than invent more fits"
+    }
+  ],
+  "decision": "continue current phase issue and same allowed Day17 preview; do not open Day18"
+}

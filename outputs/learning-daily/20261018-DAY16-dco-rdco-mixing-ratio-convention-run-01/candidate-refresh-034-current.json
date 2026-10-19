@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-19T08:41:47.619347+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 378.20634421666665,
+  "formal_completed": [
+    16
+  ],
+  "uncredited_partial": [
+    17
+  ],
+  "next_card": 17,
+  "pool": [
+    {
+      "route": "SU59 Ref8 Biedenharn-Rose1953 RMP25p729 primary convention",
+      "selected": true,
+      "gain": "Historical x, gamma1/gamma2 phase and electric-normal sign may be defined in upstream theory; do not guess modern KS equivalence",
+      "source_independence": "theory upstream of many methods; not independent experiment"
+    },
+    {
+      "route": "SU59 Ref9 SharpKennedySearsHoyle AECL97",
+      "selected": false,
+      "status": "reserve if BR53 lacks explicit definition; do not open both at once"
+    },
+    {
+      "route": "SU59 actual raw counts/AD covariance and B15 producer",
+      "selected": false,
+      "status": "missing actual input; no further toy refit"
+    },
+    {
+      "route": "uncredited Day17 response",
+      "selected": false,
+      "status": "bounded preview already extensive; current convention route has higher gain"
+    }
+  ],
+  "decision": "continue original Day16 phase problem; do not open later course card"
+}

@@ -1,3 +1,18 @@
+# 最新checkpoint035
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked/无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+
+035 verification029实际report/card/唯一writeback53changed/53items，boundary/lint/diff0，0errors182warnings(133key46raw3parser)。FH59原48页printed711–758完整读，keyfig/table视觉；旧末页756按Crossref/原件纠正，旧FHflags和原raw/PLAN/Bib/G24-J02-L25-L26prefix保持。首κscript漏I7leadingminus导致1，按原图改后actual0，18项exact；失败/合同保留。
+
+FH59 planeP与SU59normalP相反，p=J0/J90、responseR和r=N0/N90的Mobius map给A=PQ；circularR另含2。同E3/m1原poly两强度为t(15t−11)²/(5t−1)²，pureP随角可换号。综述同O166.13E3在不同Ep/reference布居下P不同，不互借calibration。Ap58正文p743与TableXIII p746/p751数对交换保持literal边界，未读primary不任选一组。完整phase/axis/count/response/companion矩阵已写synthesis并self-audit，非新δ或actualproducer认证。
+
+当前发布指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`，actualhash/H3/push仅publication035/runreceipt。034已actualGitee指针main / `Trace DAY16 polarization axes and unresolved companion branches`。BR1953所有当前bounded合法route未得正文，readiness已存；不重复terminal请求、不从metadata补原式。下一原Fe55 ANL5324系数/phase定义或另可访问primary，须刷新候选/冻结回忆；09:04上海仍约6h，不能以本checkpoint结束研究。
+
+详runcontinuation；保护raw/PLAN/Bib/credentials/原review/继承dirty与log。exactmanifest、HEAD+ownlog、cached实际0后commit、freshfetch/ancestor/dryrun/nonforceH3。QMD/overview阶段同步尚deferred，未写外部cache。
+
+
+FH59quant exec98684已实际exit0/18κexact，source/readiness/REFLECT均canonical；旧脚本漏minus失败有snapshot。verify029实际0/53items/182warnings，publication035精确manifest/H3待按实际收结果。不要重做SU59/FH59或moretoys；下一有价值的是上游phase定义source实际可得性。
+
 # 最新checkpoint034
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing，nativegoal最近实返blocked而无active写法，objective保留、不新建；formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
@@ -42,3 +57,20 @@ SU59原12页全部主线/公式1–9、fig1–4/TableI原视觉完成；固定�
 八表行R/p实际重算0、最大P残差.01560，未提供逐行theta修正/全Cov；两null的加权Re1.029978(.013134)与原1.030(.013)相容。sharedRe分量推导不重复加入quotedσ。SU59script/contract/result/exec在本run，环境同SympyPYTHONPATH。writeback由50增51items，新增源旧完整正文除updated日期保持；methods/asymmetry/mixing/index与B15补链。首次写回猜methods/multipole路径失败，已rg核observables真实路径并续未执行尾部，失败回执留存、不重复前四页append。
 
 verify028 execsession45744已actualexit0，report/card/writeback51/51及required0/0errors182warnings；通过后更新034handoff/log/manifest，exactstage/H3发布。033actualGitee成功，hash仅publication033/runreceipt。原15:00上海仍约6h，nativegoalblocked/科学pursuing差异保持，不提前final。下一高价值是SU59引用BR1953/Sharp原系数的phase定义边界；尚未新source原读，须先clock/pool/回忆。
+
+
+034已actualH3/Gitee发布，precisehash仅publication034/runreceipt。下一BR1953 metadataCrossref已核实际49页RMP25,729–777，原件before/freezes/pool034在08:41余378min；directAPS harvest401/publisher403/link403，OpenAlexexactDOI200仅closedpublisherlocation。MCPdiscovery有citationPDFcandidate但probeinconclusive，publicdownload tool拒绝Wiki绝对savePath未写文件，不改外部下载目录；markdownprovider unavailable、Scholar timeout。OSTIexacttitle合法route当前execsession待结果，未得BRbody，未写科学source。不得由综述或metadata补BR公式；同session/currentphase仍继续，不earlyfinal。
+
+
+## 下一FH59原件阅读checkpoint（尚未canonical/量化）
+
+BR1953 boundedlegalroutes未得body，readiness已保存，不原样重试。FH59before/pool035/originalfreeze已先存；原PDF实际48页=printed711–758，旧metadata711–756须改，最后两页同articlebibliography。Crossref实际核711–758，不改raw/Bib。完整text已读SectionsI–III与TableXIII/Addenda/Bibliography，keyequation/formula图像已核若干，实际reading/quantcontract尚未final。重要：原before误称SU59也引用FH59，现已单独纠正：SU59引用Fa53 PR92,372；B15 Ref23才FH59，frozenbefore保留。
+
+FH59 original在tmp/day16-fh1959/mainline.txt，physicalpage1→printed711，48→758；source knowledge/sources/fagg-hanna-1959-polarization-measurements.md旧flagsfalse/true全保持。已视觉3/4/5/6/9/18/19/20/23/41等，待核8的Fig1/28circR及36Ne22Ap58与33p743text。原text p743 A_Co=-.340(.035)/A_Na=+.295(.054)，TableXIII p746Ne22给-.340、p751Ni60给+.295，似交换，未取Ap58primary不要静默选数。
+
+最有价值新练习：FH59 p729 p=J0/J90、R=responsecrosssectionratio、rN=(p+R)/(pR+1)，可明确映射P_plane=(p-1)/(p+1)、Q=(R-1)/(R+1)和同scatterzero计数harmonic，不把FH p当SU p。同papercircR=2(N+-N-)/(sum)是另量，非统一asymmetry。Ppp713plane轴与SU59normal相反，B15literal桥继续保留。
+
+FH59 EqI15–17 E3/m1实poly W=1+111t−305t²+225t³、G=-1+131t−355t²+225t³(t=cos²theta)；可解析W±G检查physicality/purelimits，与文本约62/118角比较但不预判error。真实review报道同O166.13 E3在FrenchNewton1952 Ep.33/alphagate118有大P，而Fa53 Ep.874/beam90未polarized；同gamma/EM不等samealignment/gate，不把review复述当独立rawexperiment。量化前先contract冻结，旧Co60P1/6不重复新toy。原15:00不改/仍pursuing，formal16一次partial17。
+
+
+FH59 full-mainline reading + analysiscontract/freezes已落盘，48p/printed711–758，18κentries/fourratio map/原E3poly/真实reviewdata诊断预先冻结。sourcequant脚本system/scripts/day16_fagghanna1959_convention_audit.py首run66180 actualexit1：κ11,rank2给+1/2而表−1/2；放大原EqI7确认显式leadingminus被抄漏，已存初script/失败，不改table/contract，仅恢复原负号。修正run execsession98684待收实际结果；不能预报0。全文未canonical，下一确认quant/原轴/ratio及tabletext冲突后写back/verify/publish035。原deadline15:00上海仍5h+。

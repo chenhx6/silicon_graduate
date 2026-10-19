@@ -3,7 +3,7 @@ type: synthesis
 title: "High-spin angular distributions, polarization and mixing-ratio evidence"
 aliases: [高自旋角分布偏振混合比证据综合]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 scope: high-spin-angular-polarization-mixing-ratio
@@ -13,6 +13,11 @@ tags: [high-spin, angular-distribution, polarization, mixing-ratio, evidence-map
 ---
 
 # High-spin angular distributions, polarization and mixing-ratio evidence
+
+
+## Agent active summary
+
+Day16原件复核把δ的operator phase、P的坐标轴、detectorcount角色与response权重分成四个必要合同。FH59的plane-axis与SU59normal-axis相差π/2；B15的literal桥须连同As/P一起处理，未知actualproducer保持。SU59同跃迁在替代AD下仍双解，FH59同E3线在不同布居下P不同；都限制只靠多一个偏振数就唯一赋值。新增全为self-audit，不改变review状态或取得Day17学分。
 
 ## Question and Scope
 
@@ -66,3 +71,30 @@ Unresolved cascades, finite solid angle, background and multiple δ branches can
 - Evidence is separated into formalism, population model, detector response and nuclear assignment.
 - Historical conventions are not silently converted; each source retains its own sign and state-order locator.
 - This synthesis is a Codex self-audit and remains unreviewed.
+
+
+## Day16 REFLECT：从同符号到同一个observable
+
+| 必要对象 | 这轮原件能够闭合的内容 | 仍不能据此推出 |
+| --- | --- | --- |
+| 辐射振幅δ | [[krane-steffen-1970-cd110-mixing-ratios]]与[[droste-1996-pdco-formalism]]有本run已核的operator/state-order桥 | FH59δ/SU59x只因都是amplitude ratio就自动同KS/RB号；其上游原件仍缺 |
+| electric-axis P | [[suffert-1959-proton-capture-polarization]] SEH59-4与[[fagg-hanna-1959-polarization-measurements]] FH59-5给P_SU=−P_plane | 这个坐标重写是新的物理解，或能认证B15 actualproducer |
+| 计数与响应 | FH59-8/9的p/R/r三层给A=QP，circular R另含2；[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-7/16区分fit与endpoint符号 | 同字母R/Q/As或数值近似即同零点/同分析核 |
+| 布居与权重 | B15-2的event-P不同于center-P；FH59-12同E3不同Ep/reference仍不同P | 同能量/EM便能跨selection给定P或直接迁移Q |
+| companion与多解 | SEH59-9/10同25Al线在另一AD下仍两解；FH59-14/15保留未分辨cascade与外部赋值条件 | 添加偏振必唯一选根，或把不同AD对象合并为四根数据 |
+| 证据独立性 | FH59-14的review原图/表是同Me50数据的复述，B15 modelgrid也非独立实验 | 用同一采集的多种处理/多篇转述增加实验票数 |
+
+因此可复用单元应保存transition identity、source/gate/reference方向、δ完整phase、P轴和counterroles、response/averaging、误差与共有Cov。若其中一个对象未对齐，结果只能作为有条件候选；直接改P或δ的号不能补齐缺失响应。这个判断由已读原件及具体反例支持，不把review表中的数对冲突或模型purelimit当作新实验裁决。
+
+已核源：[[suffert-1959-proton-capture-polarization]] SEH59-4/9/10；[[fagg-hanna-1959-polarization-measurements]] FH59-5/8/9/12/14/15；[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-2/7/16。仍未得BR1953/Fe55、Me50原producer和联合Cov；新FH59转述不替primary实验。
+
+
+### Day16 self-audit triage
+
+P0：本批未识别未隔离的来源身份/权限/raw/路径技术问题；历史operator phase与actualresponse缺口已显式保留，不能据此作新δ或实验结论。
+
+| 优先级 | 实际判断及证据 | 后续使用需核的内容 |
+| --- | --- | --- |
+| P1 | phase/axis/count/response矩阵为Codex跨来源综合；SU59-4、FH59-5/8和B15-16支持同observable的合同，不能归为任何一篇原作者完整结论 | 用于论文前逐项回原轴、原countroles和producer；未对齐时有误翻号/混合数据对象风险 |
+| P1 | FH59-12只为review转述的同E3不同布居反例；SEH59-10是原作者对替代AD保留双解的直接限制 | 不把两者合成同dataset或据此判当代array calibration；原实验/response/Cov缺口保持 |
+| P2 | 末页、索引和preparedprompt更新只纠正导航/priming；未改reviewflags、raw或Bib | 后续formal17仍独立计卡，不能将本runpreview作学分 |

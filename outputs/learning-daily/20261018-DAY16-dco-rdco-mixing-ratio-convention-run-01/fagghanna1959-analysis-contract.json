@@ -1,0 +1,168 @@
+{
+  "at": "2026-10-19T08:56:57.407168+08:00",
+  "identity": "FH59-ORIGINAL-RATIO-POLYNOMIAL-01",
+  "source": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+  "raw_sha256": "bb3571150d4c552dc5acdbd148546acc7eea4f07dce907eaf0d82377191cb2ee",
+  "scope": "post full original mainline and relevant visuals; conditional arithmetic not raw data refit",
+  "source_equations": {
+    "p_FH": "J0/J90; electric angle relative reaction plane",
+    "R_response_FH": "d_sigma90/d_sigma0 or calibrated finite-geometry equivalent",
+    "N0_over_N90": "(p+R)/(p*R+1)",
+    "W_E3_coeff_t": [
+      1,
+      111,
+      -305,
+      225
+    ],
+    "G_E3_coeff_t": [
+      -1,
+      131,
+      -355,
+      225
+    ],
+    "t": "cos(theta)^2",
+    "source_approx_complete_angles_deg": [
+      62,
+      118
+    ],
+    "gamma_E_MeV": 6.13,
+    "French_Newton_quoted": [
+      1.14,
+      0.06
+    ],
+    "French_Newton_predictions_M3_E3": [
+      0.84,
+      1.19
+    ],
+    "source_ideal_R_at_6MeV": 1.27,
+    "Co60_pure_quadrupole_intensity_coeff_cos2_cos4": [
+      "1/8",
+      "1/24"
+    ]
+  },
+  "kappa_TableIIb_entries": [
+    [
+      1,
+      1,
+      2,
+      "-1/2"
+    ],
+    [
+      1,
+      2,
+      2,
+      "-1/6"
+    ],
+    [
+      1,
+      2,
+      3,
+      "-1/6"
+    ],
+    [
+      1,
+      3,
+      2,
+      "-1/12"
+    ],
+    [
+      1,
+      3,
+      3,
+      "-1/12"
+    ],
+    [
+      1,
+      3,
+      4,
+      "-1/12"
+    ],
+    [
+      2,
+      2,
+      2,
+      "1/2"
+    ],
+    [
+      2,
+      2,
+      3,
+      "0"
+    ],
+    [
+      2,
+      2,
+      4,
+      "-1/12"
+    ],
+    [
+      2,
+      3,
+      2,
+      "-1/4"
+    ],
+    [
+      2,
+      3,
+      3,
+      "1/4"
+    ],
+    [
+      2,
+      3,
+      4,
+      "-1/60"
+    ],
+    [
+      2,
+      3,
+      5,
+      "-1/20"
+    ],
+    [
+      3,
+      3,
+      2,
+      "1/3"
+    ],
+    [
+      3,
+      3,
+      3,
+      "0"
+    ],
+    [
+      3,
+      3,
+      4,
+      "1/3"
+    ],
+    [
+      3,
+      3,
+      5,
+      "0"
+    ],
+    [
+      3,
+      3,
+      6,
+      "-1/30"
+    ]
+  ],
+  "planned_checks": [
+    "symbolic response/polarization/count ratio map and pure/unpolarized limits",
+    "18 source kappa entries from exact CG, no denominator-zero evaluation",
+    "E3 printed W±G factorization, P physicality over t∈[0,1] and exact full-polarization angles versus source approximate angles",
+    "source P0=1/6 for pure4-2-0 follows printedcos coefficients, not new calibration",
+    "quoted E3 alternative central values uncertainty-only residuals, not independent fit",
+    "distinguish circular R with explicit factor2 from linear response R"
+  ],
+  "failure_boundaries": [
+    "No actual-Metzger angular-cut/energyresponse refit",
+    "p ratio tends∞ at completeparallel; use P if necessary, do not divide by zero",
+    "no automatic mapping FHdelta/SUx→KS/RB without full RME/operator source",
+    "original Ap58 not read; literal FHtext/table swap only",
+    "48pages original711–758; do not repeat old711–756 bibliography"
+  ]
+}

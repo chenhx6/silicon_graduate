@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-19T08:44:35.129394+08:00",
+  "response": {
+    "url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FRevModPhys.25.729&size=1",
+    "status": 200,
+    "bytes": 14794,
+    "hits_total": 1,
+    "records": [
+      {
+        "dois": [
+          {
+            "value": "10.1103/RevModPhys.25.729"
+          }
+        ],
+        "titles": [
+          {
+            "title": "Theory of angular correlation of nuclear radiations"
+          },
+          {
+            "source": "arXiv",
+            "title": "Theory of angular correlation of nuclear radiations"
+          }
+        ]
+      }
+    ]
+  }
+}

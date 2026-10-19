@@ -343,3 +343,8 @@ Day16已原读publisher11页/10图5表，B15-1–15保存modelP/eventweights、C
 ### DAY16 checkpoint034额外priming
 
 Suffert1959完整原读已暴露normal轴P_SU与plane轴反号、Fig3交叉比角色/固定效率取消条件、两null共同eccentricity和25Al2.69MeV的AD版本反证。正式Day17主动回忆须注明这些priming；原p669在替代AD下保留x=.72/2.3两解，不自动换成现代δ、不声称偏振保证唯一选择。入口knowledge/sources/suffert-1959-proton-capture-polarization.md SEH59-4–12及B15-16。
+
+
+### DAY16 checkpoint035额外priming
+
+FH59原48页711–758及cross-source REFLECT已暴露plane轴/p-R-count精确字典、E3同能同EM但不同布居/reference仍不同P、review表Ap58数对交换。正式Day17回忆需注明；原FH59 p不是SU59 p，circularR的2不省。BR1953/Fe55 primary/原实验responseCov仍缺，旧FH claim flags保持。入口knowledge/sources/fagg-hanna-1959-polarization-measurements.md FH59-4–18与knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md。

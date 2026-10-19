@@ -1,0 +1,87 @@
+{
+  "mcp_access": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"doi\": \"10.1103/RevModPhys.25.729\",\n  \"accessDiscovery\": {\n    \"status\": \"oa_candidate\",\n    \"landingUrl\": \"https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.25.729\",\n    \"landingHost\": \"journals.aps.org\",\n    \"candidateUrl\": \"http://link.aps.org/pdf/10.1103/RevModPhys.25.729\",\n    \"candidateUrls\": [\n      \"http://link.aps.org/pdf/10.1103/RevModPhys.25.729\"\n    ],\n    \"method\": \"citation_pdf_url\",\n    \"evidence\": {\n      \"url\": \"http://link.aps.org/pdf/10.1103/RevModPhys.25.729\",\n      \"method\": \"citation_pdf_url\",\n      \"source\": {\n        \"provenance\": \"trusted_direct\",\n        \"finalUrl\": \"https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.25.729\"\n      }\n    },\n    \"candidatesTruncated\": false,\n    \"candidateCount\": 1,\n    \"provider\": \"direct\",\n    \"strategy\": \"direct\",\n    \"proxyType\": \"datacenter\",\n    \"creditsCost\": 0,\n    \"targetStatus\": 200,\n    \"fetchedAt\": \"2026-10-19T00:42:21.921Z\",\n    \"verification\": {\n      \"status\": \"inconclusive\",\n      \"reason\": \"pdf_mime_missing\"\n    }\n  },\n  \"pdfUrl\": \"http://link.aps.org/pdf/10.1103/RevModPhys.25.729\"\n}"
+        }
+      ]
+    }
+  },
+  "mcp_download": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'download_public_paper': Path traversal detected: \"/workspace/wiki/tmp/day16-br1953\" escapes the download directory"
+      }
+    ],
+    "isError": true
+  },
+  "mcp_markdown": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"platform\": \"publisher\",\n  \"normalizedPaperId\": \"10.1103/RevModPhys.25.729\",\n  \"status\": \"provider_unavailable\",\n  \"diagnostics\": {\n    \"phase\": \"markdown\",\n    \"reason\": \"provider_unavailable\",\n    \"apiStatus\": null,\n    \"targetStatus\": null,\n    \"strategy\": null,\n    \"candidateCount\": 0\n  },\n  \"cost\": {\n    \"attempted\": false,\n    \"known\": true,\n    \"credits\": 0\n  }\n}"
+        }
+      ]
+    }
+  },
+  "mcp_openalex": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"source\": \"openalex\",\n  \"total\": 136,\n  \"results\": [\n    {\n      \"title\": \"Angular Distributions and Correlations of Nuclear Radiations in Nuclear Spectroscopy\",\n      \"doi\": \"https://doi.org/10.1007/978-94-011-7731-3_1\",\n      \"year\": 1971,\n      \"authors\": [\n        \"Rolf M. Steffen\"\n      ],\n      \"journal\": \"Springer eBooks\",\n      \"cited_by_count\": 3,\n      \"open_access_url\": null,\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"The Theory of Angular Correlations with Polarization\",\n      \"doi\": \"https://doi.org/10.1088/0370-1328/71/2/305\",\n      \"year\": 1958,\n      \"authors\": [\n        \"Florian Mandl\"\n      ],\n      \"journal\": \"Proceedings of the Physical Society\",\n      \"cited_by_count\": 4,\n      \"open_access_url\": \"https://iopscience.iop.org/article/10.1088/0370-1328/71/2/305/pdf\",\n      \"source\": \"openalex\"\n    }\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "source": "openalex",
+        "total": 136,
+        "results": [
+          {
+            "title": "Angular Distributions and Correlations of Nuclear Radiations in Nuclear Spectroscopy",
+            "doi": "https://doi.org/10.1007/978-94-011-7731-3_1",
+            "year": 1971,
+            "authors": [
+              "Rolf M. Steffen"
+            ],
+            "journal": "Springer eBooks",
+            "cited_by_count": 3,
+            "open_access_url": null,
+            "source": "openalex"
+          },
+          {
+            "title": "The Theory of Angular Correlations with Polarization",
+            "doi": "https://doi.org/10.1088/0370-1328/71/2/305",
+            "year": 1958,
+            "authors": [
+              "Florian Mandl"
+            ],
+            "journal": "Proceedings of the Physical Society",
+            "cited_by_count": 4,
+            "open_access_url": "https://iopscience.iop.org/article/10.1088/0370-1328/71/2/305/pdf",
+            "source": "openalex"
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "mcp_scholar": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+        }
+      ],
+      "isError": true
+    }
+  }
+}

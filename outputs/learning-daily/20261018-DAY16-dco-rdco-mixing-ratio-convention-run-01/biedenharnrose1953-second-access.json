@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-19T08:43:21.926339+08:00",
+  "requests": [
+    {
+      "name": "apslink",
+      "url": "https://link.aps.org/pdf/10.1103/RevModPhys.25.729",
+      "final_url": "https://link.aps.org/pdf/10.1103/RevModPhys.25.729",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5522,
+      "is_pdf": false,
+      "path": "tmp/day16-br1953/apslink.txt",
+      "sha256": "0c805b90a57caeac06edd7a0f4ceefd6ca1f1c34d1b374efad3f106576905dbc"
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/RevModPhys.25.729",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1103/RevModPhys.25.729",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 11576,
+      "is_pdf": false,
+      "path": "tmp/day16-br1953/openalex.txt",
+      "sha256": "f2cff2579746b6ea914c5a5db98c296477ebe7163986be2931bda1ed0fc733d3",
+      "locations": [
+        {
+          "id": "doi:10.1103/revmodphys.25.729",
+          "doi": "https://doi.org/10.1103/revmodphys.25.729",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1103/revmodphys.25.729",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S73260565",
+            "display_name": "Reviews of Modern Physics",
+            "issn_l": "0034-6861",
+            "issn": [
+              "0034-6861",
+              "1538-4527",
+              "1539-0756"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320261",
+            "host_organization_name": "American Physical Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320261"
+            ],
+            "host_organization_lineage_names": [
+              "American Physical Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Reviews of Modern Physics",
+          "raw_type": "journal-article"
+        }
+      ]
+    }
+  ],
+  "public_download_tool_error": "absolute savePath /workspace/wiki/tmp/day16-br1953 rejected by configured download-dir guard before any write; no external download folder used"
+}

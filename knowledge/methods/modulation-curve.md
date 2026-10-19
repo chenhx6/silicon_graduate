@@ -70,3 +70,18 @@ M22这里的原式来自已核UNC author-preprint，VoR未取得，跨版本实�
 [[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-7–9：若N(φ)=a0+a2cos2φ、φ0/90正好为parallel/perp，则(N90−N0)/(N90+N0)=−a2/a0。源文操作以+a2/a0，需保留两namedquantity/anglezero的边界，不能只因都叫As就复制。Eq1/2与Jones pureE2 probe可用ψ旋转π/2映射，实际producer/beamplane与E-fieldplane仍未核。
 
 对R(φ)及R(φ+π)取平均会消oddharmonics，cos2保留；regionwise不同P/效率不能只靠该对称化消除。sourceTables3/4的分析能力是modelP与实验As之比；同MC no-tracking/Table5不计新独立实验，bin-integrated sinc与unknownfitweights各自保存。
+
+
+### 三种旧记号的同一计数映射
+
+[[fagg-hanna-1959-polarization-measurements]] FH59-5/8/9原件分开：
+
+| source中的量 | 原定义/对象 | 在同一plane-axis和response对象下的映射 |
+| --- | --- | --- |
+| FH59 p | J0/J90，光子electric强度比 | P_plane=(p−1)/(p+1)，不是SU59的p |
+| FH59 linear R | dσ90/dσ0或相应finitegeometryresponse ratio | Q=(R−1)/(R+1) |
+| FH59 r=N0/N90 | EqIII1 (p+R)/(pR+1) | r=(1−QP)/(1+QP)，A=(1−r)/(1+r)=QP |
+| SU59 P | electricnormal减plane，见SEH59-4 | P_SU=−P_plane；先按Fig3读counterroles |
+| FH59 circular R | EqIII3 2(N+−N−)/(N++N−) | 另一个observable；2及磁化方向不可省 |
+
+这些恒等式只给匹配轴/两方向response的重参数化，不将原p当成现代Q，也不认证两实验角平均一致。unpolarized或R=1的r=1、pureparallel的r→1/R均有解析控制。

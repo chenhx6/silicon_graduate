@@ -395,3 +395,8 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 [[suffert-1959-proton-capture-polarization]] SEH59-4–12原件使用normal轴P，Fig3四计数比为scatterplane/normal，不与现代plane轴同号。位置交换能约去固定detector效率/曝光，跨位置相对效率漂移与eccentricity/background仍须控制。两条unpolarized线只校eccentricity，不提供所有能量的p。共同校准Cov不能重复计入quotederrors。
 
 同原件25Al2.69MeV实测P=.11(.14)对TableI一套AD候选有判别力，但作者用另一套已报AD得x=.72/2.3、P0/.19，明确保留两解。偏振companion必须绑定同一跃迁和所采用的AD数据/phase/response，不能将“增加偏振”当作唯一赋值的保证。
+
+
+### 同一E3线仍需相同布居与参考方向
+
+[[fagg-hanna-1959-polarization-measurements]] FH59-12/15/17：综述的O166.13MeVE3例在不同Ep/alpha-reference或beam-reference下有近完全偏振与近无偏振报告。能量/EM相同不足以复用calibrationP；未分辨gamma-role还要混合各自response。FH59原p/R/r的确切映射见[[modulation-curve]]，原Me50响应producer、完整接受角和Cov未恢复。综述复述/原图不增加独立实验。

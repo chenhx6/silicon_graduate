@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[fagg-hanna-1959-polarization-measurements]] - 原48页711–758复核：plane轴/p-R-count字典、E3布居反例和原表版本边界。
+
 - [[suffert-1959-proton-capture-polarization]] - 原件normal轴/位置交换计数桥、25Al同跃迁companion仍留多解及共同eccentricity Cov。
 
 - [[bizzeti-2015-agata-triple-cluster-polarimetry]] - Pd/Cs真实校准、modelP/eventweights、有限geometry退化与literal符号/单位/平均误差边界。

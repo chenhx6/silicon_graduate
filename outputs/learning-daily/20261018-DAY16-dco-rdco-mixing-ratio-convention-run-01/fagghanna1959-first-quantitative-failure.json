@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T08:59:17.763939+08:00",
+  "exit_code": 1,
+  "session_id": 66180,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-script-initial-missingminus.py",
+  "script_sha256": "2d2d66ce6b15ab59064df18915bcf180adc2182974362797e8d8860b65db7702",
+  "failure": "First kappa entry (L1,Lprime1,nu2): computed +1/2 vs printed -1/2",
+  "root_cause": "Source EqI7 has explicit leading minus. Script transcription omitted it; cropped original equation verifies the minus.",
+  "correction": "Restore original leading minus in script only; no source table input, contract, tolerance or operator phase changed"
+}

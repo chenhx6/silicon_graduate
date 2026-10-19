@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-19T08:42:15.931622+08:00",
+  "doi": "10.1103/RevModPhys.25.729",
+  "metadata_actual_crossref": {
+    "title": "Theory of Angular Correlation of Nuclear Radiations",
+    "authors": [
+      "L. C. Biedenharn",
+      "M. E. Rose"
+    ],
+    "journal": "Rev. Mod. Phys.",
+    "volume": 25,
+    "year": 1953,
+    "pages": "729-777"
+  },
+  "requests": [
+    {
+      "name": "harvest",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/RevModPhys.25.729/fulltext",
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/RevModPhys.25.729/fulltext",
+      "status": 401,
+      "content_type": "application/json",
+      "bytes": 65,
+      "is_pdf": false,
+      "path": "tmp/day16-br1953/harvest.html",
+      "sha256": "b01314de0e11813b43d8a0c57361e53eb2b3ddc6c58d99d17ffec80dd18a6ae5"
+    },
+    {
+      "name": "publisher",
+      "url": "https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.25.729",
+      "final_url": "https://journals.aps.org/rmp/pdf/10.1103/RevModPhys.25.729",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5559,
+      "is_pdf": false,
+      "path": "tmp/day16-br1953/publisher.html",
+      "sha256": "a055476fbbe5e93d60980252c1f990c2d6402b349b0811746e3411e13c8c8fa1"
+    }
+  ]
+}

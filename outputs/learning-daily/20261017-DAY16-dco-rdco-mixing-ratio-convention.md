@@ -163,6 +163,15 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint035：历史记号与同跃迁布居的原件REFLECT
+
+[FH59 source](../../knowledge/sources/fagg-hanna-1959-polarization-measurements.md)本session完整48页/printed711–758已读，补FH59-4–18；旧末页756按原件/Crossref纠正，最后两页为bibliography。EqI7的18κ表项精确重放，首脚本漏leadingminus触发[exit1](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-first-quantitative-failure.json)，按原图修后[actual0](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-quantitative-execution.json)，未改冻结原输入。
+
+source的p=J0/J90、R=response ratio、r=N0/N90满足(P,Q映射后)A=PQ；circular R定义另含2。原E3多项式两强度因子t(15t−11)²与(5t−1)²保证physicality，sameelectricP随角可换号；精确63.435/116.565与源约62/118保留区别，118代入.998406不认证finiteacceptance。综述同O166.13E3的不同Ep/alpha-reference/beam-reference有不同P，不能只凭同E/EM复用calibrationP。
+
+[跨来源REFLECT](../../knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md)明确δoperatorphase、P坐标、counterroles、response权重和companion/Cov的不同合同；SU59反证仍双解，review原图/表不增实验。FH59 Ap58正文/表数对互换保留、不任选一组作核calibration；原Ap58未读。BR1953受限访问/readiness留档，没有从metadata补公式。开读前误记SU59引用FH59已[单独纠正](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-recall-attribution-correction.json)，SU59实际引Fa53，冻结回忆未改。
+
+
 ### Checkpoint034：原作者保留的双解与上游坐标桥
 
 重新完整读[Suffert1959](../../knowledge/sources/suffert-1959-proton-capture-polarization.md)12页Sections1–5/refs、Eqs1–9、Figs1–4/TableI；原PDFhash未变，SEH59-4–12为本session新原读与[实际复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/suffert1959-convention-audit-result.json)，不是Day15旧预习兑换。normal轴P_SU与B15文字plane轴P相差π/2/反号，同计数kernel保持不变；B15-16明确这一桥而不认证actualproducer。
@@ -523,6 +532,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+FH59原式/字典与边界写入[原source](../../knowledge/sources/fagg-hanna-1959-polarization-measurements.md)“原件再核：ratio 字典、同跃迁布居边界与表值版本”；[synthesis](../../knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md)新增“Day16 REFLECT：从同符号到同一个observable”，同步三个方法页和index。不是outputs中的唯一副本。
+
 本批canonical为[SU59 source](../../knowledge/sources/suffert-1959-proton-capture-polarization.md)“1959 原件复核：normal 轴与 plane 轴不是同一个 P”，保存SEH59-4–12、八行原表重算和保留多解；B15-16与Compton/asymmetry/mixing方法页保存实际坐标桥和companion适用边界。
 
 本批新[B15 source](../../knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md)“先核同一角度零点和参考权重，再比较分析能力”保存B15-1–15；Compton/modulation/asymmetry/T21保存anglezero、参考权重/分母、finitegeometry与unknownCov使用合同。报告/输出不作唯一知识副本。
@@ -838,7 +849,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -964,6 +975,42 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
           "locator": "SEH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-5"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-8"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-9"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-10"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-11"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-14"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-16"
         }
       ]
     },
@@ -1404,7 +1451,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1846,12 +1893,48 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
           "locator": "SEH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-5"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-8"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-9"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-10"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-11"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-14"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-16"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -1989,6 +2072,42 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
           "locator": "SEH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-5"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-8"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-9"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-10"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-11"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-14"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-16"
         }
       ]
     },
@@ -3795,7 +3914,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/modulation-curve.md",
-      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
+      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
       "anchor": "模板归一应保留统计对象",
       "sources": [
         {
@@ -3873,6 +3992,42 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
           "locator": "B15-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-5"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-8"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-9"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-10"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-11"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-14"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-16"
         }
       ]
     },
@@ -4108,6 +4263,148 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "SEH59-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。",
+      "anchor": "原件再核：ratio 字典、同跃迁布居边界与表值版本",
+      "sources": [
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-4"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-5"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-6"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-7"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-8"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-9"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-10"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-11"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-13"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-14"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-16"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-17"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。",
+      "anchor": "Day16 REFLECT：从同符号到同一个observable",
+      "sources": [
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-4"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-5"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-6"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-7"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-8"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-9"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-10"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-11"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-12"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-13"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-14"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-15"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-16"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-17"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-18"
+        },
+        {
+          "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+          "locator": "SEH59-10"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-16"
+        }
+      ]
     }
   ]
 }
@@ -4340,3 +4637,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification-reopened-028](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-028.json)实际通过report/card/唯一writeback（51changed/51items），boundary/lint/diff各exit0；lint0errors182warnings（133key46raw槽3parser）。SU59旧正文除updated保留、原PDF/contract/scriptresult与旧humanprefix/PLAN/Bibguards通过。没有新实验δ、原actualproducer或完整Cov认证。
 
 发布稳定指针main / `Trace DAY16 polarization axes and unresolved companion branches`，actualhash/H3/push仅publication034/runreceipt。原15:00上海截止尚约6h，研究pursuing；nativegoalblocked状态差异继续如实记录，formal16一次/partial17/next17-count16不改。下一只围绕上游phase定义与当前companion问题，不开18。
+
+
+### Checkpoint035实际验收与原窗口续接
+
+[verification-reopened-029](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-029.json)实际report/card/唯一writeback53changed/53items通过，boundary/lint/diff均exit0；0errors182warnings（133key46raw槽3parser）。FH59旧内容只作显式metadata修正后原prefix保持、原flags/raw/PLAN/Bib/旧humanprefix与script/contract/初失败hash均过。
+
+原deadline仍为2026-10-19 15:00上海，此checkpoint距其尚近6h，继续原问题与恰好partial17知识；formal16一次、next17/count16保持。发布稳定指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`，actualhash/H3/push仅publication035/runreceipt。Nativegoalblocked差异如实记录，科学工作pursuing；未重建goal、session或调度器。
