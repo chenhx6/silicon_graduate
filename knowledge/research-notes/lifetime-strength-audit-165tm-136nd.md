@@ -187,3 +187,22 @@ S31-11另把2010Do03两detector的quotedstat/sys半衰期预算与Sunmeanτ转�
 ### native前两步控制与实验影响之间的界限
 
 GSI26-11–15的实际Geant4 native控制补API→AlongStep的必要检验：同起点external首event首步/后续event约.0959881，option4为1；.1nm短步无需range积分即可由首次transitioncache触发，两个事件各两步后人为kill。源码诊断/原生step相同、局部能量账本闭合并不等完整transport或实验response通过。没有Sun所用版本/配置、材料、全轨迹、衰变/feeding和Σ，不外推τ/CI偏差或用它替原stoppingprior。
+
+
+## 31S alpha门：沉积能量到vertex的必要映射
+
+SUN23-27–31/GSI26-16的新输入审计保留实际Si角色和原Q：E为1mmSi残余沉积，DeltaE为87µmSi；门变量的exactsorter表达式仍缺。下表仅为128MeVvertex/靶静止/sourceQ5.533/无任何损失/0–13°的声明模型，Ex与gate中心沿原打印；原两MeV门宽不是σ。单位均MeV，列出的vertex−gate差不是测得targetloss。
+
+| Ex | printed alpha gate center | 高root vertex alpha范围 | vertex−gate |
+| --- | --- | --- | --- |
+| 1.248 | 49 | 51.2407–53.9719 | 2.2407–4.9719 |
+| 2.234 | 47 | 49.4806–52.2116 | 2.4806–5.2116 |
+| 3.076 | 46 | 47.9518–50.6840 | 1.9518–4.6840 |
+| 3.435 | 45 | 47.2922–50.0254 | 2.2922–5.0254 |
+| 4.971 | 42 | 44.4108–47.1521 | 2.4108–5.1521 |
+| 5.156 | 42 | 44.0567–46.7995 | 2.0567–4.7995 |
+| 6.390 | 39 | 41.6503–44.4063 | 2.6503–5.4063 |
+
+所有positivephysicalroots仍保留；低root与被探测tensMeV支分开。actualSDK核质量和sourceQ分别计算，高rootQ选择差至多约.000578MeV；不以多位质量调gate。2234无损Jacobian约−.555、2MeV窗映约1.11MeVEx只是量级控制，未恢复实际beamdepthloss、posttarget/Si响应、calibrationCov或gate平均。
+
+`supports`原约1MeVEx窗口的量级；`revises`把αgate中心直接当vertex动能或把残差拟成targetloss；`limits`当前数据对实际recoil history/τ/CI的保证。原Sunmain/SI/SDK条件算术不增加独立实验。下一应找actualgate/同设施source response来核角色，不能拿这张表宣称原实验矛盾。

@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-19T16:19:26.137169+00:00",
+  "main_v2_scope": [
+    "PDF2 Fig1 caption/axes and telescope/calibration paragraphs",
+    "PDF2 last/3 first reactionkinematic/gatewidth paragraphs",
+    "officialarxivsource S31arXiv.tex 183–199/210"
+  ],
+  "SI_scope": [
+    "PDF1Sec1.2 implantedtarget/geometry",
+    "PDF2Fig2 47MeValphagate2234"
+  ],
+  "original_tex_sha256": "7d6a97fbdd67a838299532221cd3890a3bf81410a4dbb9e087f41519a5351648",
+  "verified_direct_inputs": [
+    "Fig1 E isresidualin1mm Si,DeltaE in87umSi",
+    "gatewordingenergydeposited,2MeVwide~1MeVEx",
+    "sourceQ0=5.533MeV, Q=Q0-Ex",
+    "Si calibration5.155/5.486/5.805MeV extrapolatedwithpunchthroughSRIMcontrol",
+    "beam0.2percentFWHM, depthlossmodeled, labalphaangleisotropicwithinaperture"
+  ],
+  "not_recovered": [
+    "sortinggateexpression E vsDeltaE+E versuscorrectedenergy",
+    "originaleventangle/deadlayer/calibrationCov",
+    "actualimplantationprofile/trainingproducer"
+  ],
+  "boundary": "Fig1 axesdirectknown, assigningSI47toexactsortvariable remainsunconfirmed"
+}

@@ -3,7 +3,7 @@ type: source
 title: "Sun2023：31S的MCMC Bayesian DSAM与输入边界"
 aliases: [Sun 2023 Bayesian DSAM, Sun 2022 arxiv2203.10336v2]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-method
@@ -64,26 +64,28 @@ L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023
 | SUN23-13 | 本任务用1/τM1=1/τ−1/τE2复算约1.33702ps，固定model时local误差.25652ps，现代单位/roundedE给B≈.021883、RME≈.295858。同输入/同model算术不是新测量、原posterior或completeCI。 | conditional-rate-reconstruction | derived | PDF6 SecV；sun2023-rate-result | true |
 | SUN23-14 | 作者另报同data标准frequentist提取相合，非第二实验；本次1248寿命1120(180)与既往624(32)的差异仍保留，未重审其primary或合并为新worldaverage。五Hamiltonian共享sdspace/有效算符/能量缩放，不算五次测量。 | independence-and-counter-input | direct-and-boundary | PDF5–6 SecV；PDF7 TableI | true |
 | SUN23-15 | 所取v2/src未给actualcountfiles/training/PCA/GPstates/posteriordraws或tailoredMADAIcommit；项目公开repo2015对象只是下一待核上游软件，不能把它冒作paperexactproducer。publisherFULL401、discovery无candidate，未绕过或原样重试。 | reproducibility-and-access-readiness | direct-provenance-boundary | PDF5/10 Ref76；sun2023-source-si-discovery；sun2023-publisher-full-attempt | true |
-
 | SUN23-16 | 公开MADAI2015的原样四文件组件已实际执行两API，variableCov的quadratic-only与customoutput分支差异见MDA15-2–8；这些是公开上游的条件反例。Sun实际tailoredcode/config/Σ仍未知，不把它归因为本文实验CI错误或声称paper已重放。 | upstream-component-and-attribution-boundary | indirect-code-companion | MDA15-2；MDA15-6；MDA15-8 | true |
-
 | SUN23-17 | 之后经官方publisherCDN精确PII取得mmc1.pdf，五页/十三图/technicaltext完整原读与视觉核，sha630d45a82229a3e45cc1a712b88a0c00c8fd6512398ac9d01843a9aed5c0d0aa。旧未得SI为008历史；v2源码包确实不含它，API401未被改写。publisherSI不是已得VoRmainbody或独立实验。 | new-primary-SI-identity-and-scope | direct-publisher-SI | SI PDF1 title；SI Fig1–13；si-reading-scope | true |
 | SUN23-18 | SI给35keV3He implanted入25µmAu、arealdensity6×10^17cm−2和冷却/beamcollimator；DAQ为GRIFFIN Ge/GRIF16、GRIFC/GRIFClk、modifiedMIDAS及GRSISortunpacking。它不提供polarimetryselector/calibrationQ或Sun tailoredbayesianproducer。 | experimental-input-and-software-role | direct-SI-and-boundary | SI PDF1 Sec1.2/1.3；SI PDF2 Fig1 | true |
 | SUN23-19 | SI Fig2–7的αgate中心依次47/46/45/42/42/39MeV，对2234/3076/3435/4971/5156/6390态；3435经2186支、6390经4156支。图中addbackprior/posterior曲线仍为原data/model，不是新增actualbinfiles或独立数据。 | state-gate-role-ledger | direct-SI | SI PDF2–3 Fig2–7 | true |
 | SUN23-20 | SI Fig8的2234长态为4参数无A2，Fig9–13短态为5参数含A2；Fig9/12caption明确3076/5156为1/2+。A2的物理spin-density/帧或phenomenologicalresponse角色仍须核，不能将这些posterior视为已测核alignment/δ。 | angular-nuisance-and-state-boundary | direct-SI-and-open-interpretation | SI PDF4 Fig8/9；SI PDF5 Fig12/13 | true |
 | SUN23-21 | Fig13确有6390的τ先验/后验和nuisancepanels；它不另给90thpercentile数值、完整τsupport/训练config或posterior draws。不能只按图轴范围认证hardpriorcut，或凭posterior高于prior处就给90%probability。 | posterior-figure-and-quantile-boundary | direct-SI-and-statistical-boundary | SI PDF5 Fig13；v2 PDF6 SecV | true |
 | SUN23-22 | 此SI只技术说明/图及refs，没有原histogram/GRIFTevents、GP训练/PCAstate/likelihoodpatch/config或drawfiles；actualinputreadiness仍缺。获得SI消除的是来源读取缺口，不认证2015publickernel为本文producer。 | data-and-producer-readiness | direct-SI-scope-boundary | SI PDF1–5；MDA15-1 | true |
-
 | SUN23-23 | 针对SI Fig9/12的Ji1/2前提，本任务证明isolatedparityconservingEM、末态全求迹的rest单光子I各向同性且linearQ/U=0，但circularV可非零；exactCG/新native迹闭合。它不识别本文A2frame或生成新τ/CI。 | task-conditional-spin-density-theorem | derived-model | SI Fig9/12；YA67-13；spinhalf-angular-result | true |
 | SUN23-24 | 本任务的后续γgate级联控制可有1+¼P2，boostlab也可有P2，故不能只由Ji1/2将所有A2nuisance置0。只有核rest发射项/末态identity合同才有该零值；actualmodule/response语义仍缺。 | task-countercontrols-and-attribution-boundary | derived-model | spinhalf-angular-result finalgate/boost controls；SUN23-20 | true |
-
 | SUN23-25 | 新官方31S输入为1248MR+.35(.02)并保留+5.3(.4)alternate/RUL选根条件。固定本文τ与γ-only模型时，smallMR与USDBE2扣除给不同partialrates；这提供有源companion但不替actualpaperfit、原phase/Σ或生成新显著性。旧720(180)fscomparison与官方.50(.12)psT字段同1971数据，非两测量。 | official-companion-and-shared-lifetime-boundary | indirect-evaluation-and-task-comparison | S31-2/3/4/5/9/10 | true |
-
 | SUN23-26 | exactXUNDL202401明确unevaluated同2023Su03编译，保存两finite/四upperlimit与3435branch，6390T空；它支持当前结果地位/字段对照，但不提供独立data或2023VoRbody、actualprior/producer。名义ln2残差不拿来改原打印结果。 | later-samepaper-compilation-boundary | indirect-XUNDL | S31-12/13/14/15 | true |
+| SUN23-27 | Fig1横轴E是1mmSi残余沉积、纵轴DeltaE是87µmSi能损；正文称gateonenergydeposited且宽2MeV，SI2234为47MeVgate。actualsorter中E、DeltaE+E或经loss校正的精确变量未得，不能把47直接当vertex动能。 | detector-observable-and-gate-boundary | direct-source | v2PDF2Fig1/caption；v2PDF3SecIII；SI Fig2；tex183–199 | true |
+| SUN23-28 | Si线性标定来自5.155/5.486/5.805MeV源，向高能外推以punchthrough/SRIM控制；vertexbeam能量按depthloss和.2%FWHM建模。源Q=5.533−Ex而非只用alpha读数定recoil，原calibrationCov/profile/排序映射未得。 | original-input-chain-and-readiness | direct-source | v2PDF2SecII；v2PDF3SecIII | true |
+| SUN23-29 | 本任务固定vertexbeam128MeV/targetrest/sourceQ5.533/roundedEx2.234、无所有target/Si损失、theta0–13°，解精确4动量得高rootalpha约49.4806–52.2116MeV，不含printed47±1。只是拒绝“沉积gate=无损vertex”的条件等式，非实验矛盾/新loss测量。 | conditional-kinematic-exercise | task-model | sun-alpha-kinematic-result state2234 | true |
+| SUN23-30 | 七态均保存所有positivephysicalroots，高root的vertex−printedgate约1.95–5.41MeV（各态角度域不同），未把差值拟为实际targetloss。SDK质量自洽Q5.53329137与sourceQ打印差只令高root至多约.000578MeV变化，非新质量评价或用更多位修原Q。 | conditional-version-and-root-control | task-model | sun-alpha-kinematic-result states/SDK_Q | true |
+| SUN23-31 | 同fixedangle/无损模型2234的dEx/dTalpha约−.5552至−.5554，2MeValpha窗口映约1.1104–1.1108MeVEx；源“约1MeV”是实验response量级，不能反用此斜率认证actualgate或把门宽当σ。CM/Lab与能动量控制通过，仍无actualresponse/Σ/τCI。 | conditional-Jacobian-and-response-boundary | task-model | sun-alpha-kinematic-result angle_roots | true |
 
 ## Nuclear Structure Information
 
 31S低位与31P mirrorlifetimes作核结构benchmark；4971负宇称态未在sd-only计算匹配，因模型不含crossshellexcitation。六项DSAM结果和6390的弱线/条件应用分列，未给新的Jπ/δ或三轴性判断。
+
+
 
 ## Authors' Interpretation
 
@@ -129,3 +131,14 @@ P1：若用于正式31S寿命/反应率或DSAM精度裁决，先定向核SI/实�
 SI的spin-half对象问题之条件证明/必要反例已写[[spinhalf-angular-nuisance-response-contract]]；actualA2frame/模块尚未识别，不把此理论边界写成原paperfit错误。
 
 官方MR/half-life/母态身份的新输入与selectedscope见[[nndc-2022-s31-mixing-lifetime-reference]]；SUN23-25仅补companion，不把旧MR替换成本文实际使用的prior或认定新fit/τbias。
+
+
+## Alpha gate的测量能量与vertex合同
+
+[新问题冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-before-freeze.json)、[原件定向scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-targeted-scope.json)、[练习合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-contract.json)与[可复算程序](../../system/scripts/day17_sun_alpha_gate_kinematics.py)分开source直接变量、声明的无损vertex模型与未得的actualsorter。Fig1 E/DeltaE角色已清楚，47MeV精确表达式仍不能由caption推定；低能alpha source标定外推与同SRIM punchthrough控制不等完整高能calibrationCov。
+
+程序使用actualSDK ground-state nuclear mass输入，主计算另按原Q5.533约束recoilmass保证4动量一致；SDK自洽Q只作敏感性控制，不认证原paper使用相同massversion。正根全部保存，tensMeV高root与低root分开，CM/Lab转换控制通过。七态无损vertex窗口与实际printedgate不相等，说明前/后靶、Si沉积变量/响应与acceptance必须进入合同，不是实验被否定。
+
+实际SDK masslookup角色与初始化边界另见[[geant4-2026-ion-stopping-component-contract]] GSI26-16；该模型输入不是独立测量或Sun的质量producer认证。
+
+2234角度域的无损Jacobian约−.555，2MeV窗对应约1.11MeVEx，仅支撑作者“约1MeV”的量级；它不是实际角度平均/材料门响应或新的分辨率测量。原事件、实际depth/beamloss、alpha后靶/Si/deadlayer、gate变量和共同Σ缺口保持。

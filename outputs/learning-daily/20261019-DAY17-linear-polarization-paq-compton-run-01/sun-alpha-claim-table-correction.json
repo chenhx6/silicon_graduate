@@ -1,0 +1,7 @@
+{
+  "initial_lint_exit_code": 0,
+  "issue": "newSUN27\u201331insertedbelowinterveningSummaryparagraphs,outsideclaimheader; lintwouldnotindexnewrows",
+  "fix": "movednewrowsimmediatelyafterSUN26,allrowtexts/flagsunchanged",
+  "old26claimtextunchanged": true,
+  "required_postcheck": "31SUN/16GSI machineindexed"
+}

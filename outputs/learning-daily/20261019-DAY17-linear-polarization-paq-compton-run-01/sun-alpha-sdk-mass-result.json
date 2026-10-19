@@ -1,0 +1,63 @@
+{
+  "fixture_sha256": "4544afde7a041d56c03d6b41edadf788c7454a5bff2e8de37f4e04a9a6293482",
+  "commands": [
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-mass-input.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/sun-alpha-masses",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/sun-alpha-masses"
+      ],
+      "exit_code": 0,
+      "stdout": "SDK,1142\nMASS,32,16,29773.628282463073\nMASS,3,2,2808.3913773684271\nMASS,4,2,3727.379105468427\nMASS,31,16,28849.107262993071\n",
+      "stderr": ""
+    }
+  ]
+}

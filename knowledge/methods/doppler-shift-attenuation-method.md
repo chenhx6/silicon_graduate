@@ -149,3 +149,10 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 [[geant4-2026-ion-stopping-component-contract]] GSI26-11–15进一步核实际AlongStep当前couple、track charge和step/cut。指定15O/Ta、nuclear/fluctuationoff、仅前两步的人为控制中，external首event首步deposit约为次event同起点的.0959881倍，option4对照为1；步骤能量账本仍闭合。短步.1nm未建range也出现，源trace定位首次高能transitioncache覆盖q²，不把所有首次状态问题只归于range积分。
 
 这些native控制只扩大软件条件证据，不等完整slowing、F(τ)、任意geometry或Sun真实事件验证。不能从局部ratio直接计算实验τbias；rawStepPoint charge与model有效q²也分别保存。原SDK未patch，重放保留首次与后续状态。
+
+
+### 粒子门能量须映射回反应顶点
+
+[[sun-2023-bayesian-dsam-31s]] SUN23-27–31区分Si的residual E、DeltaE、实际gate表达式与vertex动能。原Fig1 E位于1mmSi，DeltaE位于87µmSi；caption“47MeVgate”不能替排序代码。反应depth前beamloss、alpha出靶/死层/两Si沉积与实际角接受都需fold。以无损128MeVvertex模型算2234高root49.48–52.21而不是47±1，只反证省掉这些层的等式，不给新loss或τ偏差。
+
+固定角无损dEx/dTalpha约−.555，2MeV窗映约1.11MeVEx；真实gate/角平均/材料响应与σ不同。SDK质量或源Q的打印细节并不能补这个实验映射合同，source/SI/compiledrecord也不是三次独立校准。

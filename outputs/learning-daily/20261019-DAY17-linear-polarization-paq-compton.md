@@ -271,6 +271,14 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
 
 [严格重放](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-replay.json)重新编译native/两个diagnostic副本，步骤和trace一致，未patch SDK/publicsource。原stepcharge字段未当effectiveq²；只有声明模型与人为边界，未估Sun原τ/CI或任意实验bias。source/method/auditledger已canonical；`supports`native适用域控制，`revises`过宽或过窄的软件归因，`limits`局部step到真实response迁移。正式17一次、18无学分，不研究19。
 
+### Day18无学分预习：alpha gate与vertex运动学合同
+
+SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直接确定E为1mmSi残余沉积、DeltaE为87µmSi能损，而实际gate表达式是E/DeltaE+E/校正量仍未得。[冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-before-freeze.json)、[actualscope](20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-targeted-scope.json)、[合同](20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-contract.json)、[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-result.json)保存source/SDK质量/声明无损模型分层。
+
+固定vertexbeam128MeV、targetrest/sourceQ5.533、无所有target/Si损失、theta0–13°，七态全部positivephysicalroots保留。2234高rootalpha49.4806–52.2116MeV，不含printed47±1；差值只否定“沉积gate直接等无损vertex”假设，不是实测loss、实验矛盾或原fit重做。SDK自洽Q5.53329137仅敏感性控制，高root差至多.000578MeV，不能用mass最后位强配gate。actualSDK masslookup在无particledefinition时可用AME12fallback，不认原Sun配置/新质量评价（GSI26-16）。
+
+4动量与CM/Lab控制通过；2234 fixedangle dEx/dTalpha约−.5552至−.5554，2MeVvertex窗映约1.1104–1.1108MeVEx，支持源“约1MeV”的量级而非认证actualsorter/σ。角接受、前靶beamloss、出靶/Si/deadlayer和calibrationCov仍需实际producer。canonical Sun/GSI/method/auditledger已同步，formal17once/18无学分、不研究19。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -1034,7 +1042,7 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1288,12 +1296,36 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-15"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-27"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-28"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-29"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-30"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-31"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-16"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -1563,6 +1595,30 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-15"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-27"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-28"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-29"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-30"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-31"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-16"
         }
       ]
     },
@@ -1611,7 +1667,7 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
     },
     {
       "knowledge": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
-      "summary": "原读2022v2十页/5图1表3式，actualprior/likelihood/GP与quantile、6390conditional应用及USDB辅助M1提取分层；未得SI/actualinput/paperproducer。",
+      "summary": "原读2022v2十页/5图1表3式，actualprior/likelihood/GP与quantile、6390conditional应用及USDB辅助M1提取分层；未得SI/actualinput/paperproducer。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
       "anchor": "Bayesian DSAM首先要问likelihood与prior合同",
       "sources": [
         {
@@ -1713,6 +1769,30 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
         {
           "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
           "locator": "S31-15"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-27"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-28"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-29"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-30"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-31"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-16"
         }
       ]
     },
@@ -2079,7 +2159,7 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
     },
     {
       "knowledge": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
-      "summary": "新增真实SDK组件/模型/表/API与首次范围构建诊断，保留producer/实验边界。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。",
+      "summary": "新增真实SDK组件/模型/表/API与首次范围构建诊断，保留producer/实验边界。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
       "anchor": "同一个Geant4版本也须记录实际模型与查询合同",
       "sources": [
         {
@@ -2141,6 +2221,30 @@ GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-p
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-15"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-27"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-28"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-29"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-30"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-31"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-16"
         }
       ]
     }
@@ -2255,3 +2359,8 @@ GSI26实际targetedcode/原表/nativecomponent/firstquerytrace及失败记录can
 ### checkpoint017 native控制与claim索引验收
 
 GSI26-11–15实际source/native/diagnostic/strictreplay已canonical；无原producer/experiment偏差外推。初lint虽然0，但新增claim与表header间空行令工具漏索引，本次连表保全部row文本/flags并显式核15GSI/13ISP。verification031记录report/27changed29mapped/coverage/boundary/lint/diff/protected/review及nativecontrols实际exit，当前0error211warnings。stablemain / `Bound native ion stopping state effects with controlled steps`，actualhash/H3/push仅publication017。原窗口/goalactive，formal17once/18partial不变；下一先核Sunαgate测量能量与vertex/后靶损失合同。
+
+
+### checkpoint018 alpha gate合同验收
+
+Source/SDK/条件vertex/Jacobian与actualgate缺口已canonical。旧26SUN/15GSIrows/flags保持；新SUN27–31最初插在NuclearStructure段未被claimheader索引，本次已只移动完整rows、显式核31SUN/16GSI，初lint0不当完整claimcoverage。verification032保存report/27changed29mapped/coverage/boundary/lint/diff/protected/review实际exit，0error211warnings。stablemain / `Separate detected alpha gates from vertex recoil kinematics`，actualhash/H3/push只publication018。原研究window/goalactive、formal17once/partial18不变，下一同设施Kirsebom2016需新freeze/实际body后才判迁移。

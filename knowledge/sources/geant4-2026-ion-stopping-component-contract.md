@@ -66,6 +66,7 @@ tags: [DSAM-input, stopping, model-selection, reproducibility]
 | GSI26-13 | external两步长均首event首stepdeposit/次event同起点首step≈.09598809169；option4两者均1。原native与仅插诊断的副本NATIVE_STEP逐值相同，证实此声明控制中的first-state差异，不认普遍实验bias或统计置信度。 | native-first-state-countercontrol | native-and-diagnostic-model | geant4-alongstep-native-summary；trace/qtrace | true |
 | GSI26-14 | .1nm未触发range积分，native first UpdateDEDXCache却在15000MeV过渡计算调用GetChargeSquareRatio，把先前local6.14324改64，末尾q2/denominator抑制能损；1nm另含range路径。此前API的range归因仍有效，但不能当全部首次状态问题的唯一原因。 | expanded-source-mechanism-and-revision | traced-code-and-model | UpdateDEDXCache；CorrectionsAlongStep；geant4-alongstep-qtrace | true |
 | GSI26-15 | strict-context/hash脚本重建native与两诊断副本、完整步骤及trace一致；未patch安装SDK/原publicfile。rawpre/postcharge字段保留，不把它直接平方当model有效q²。缺真实Sun配置、target/track/Σ，所以仍不计算原τ/CI偏差。 | reproducibility-and-inference-boundary | native-replay-and-readiness | geant4-alongstep-replay；reading-scope/inference-boundary | true |
+| GSI26-16 | 新GetNuclearMass fixture在无particledefinition时取得32S/3He/4He/31S ground核质量；源码此时lightmass可走AME12fallback，而实际IonTable初始化可走粒子定义，不能把这组数当新质量评价或Sunactualproducer。其自洽Q与sourceprintedQ分列。 | actual-mass-component-and-initialization-boundary | native-code-and-model-input | G4NucleiProperties::GetNuclearMass；sun-alpha-sdk-mass-result | true |
 
 ## Analytical Reconstruction and Self-Audit
 

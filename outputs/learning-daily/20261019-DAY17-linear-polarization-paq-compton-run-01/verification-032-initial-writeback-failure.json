@@ -1,0 +1,8 @@
+{
+  "report": true,
+  "coverage": true,
+  "writeback_valid": false,
+  "writeback_error": "knowledge page does not link to source geant4-2026-ion-stopping-component-contract",
+  "verifier_exit_code": 1,
+  "fix": "added exact canonicalwikilink inSunmass-inputparagraph; no scientificrow/flagchange"
+}

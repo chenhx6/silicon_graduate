@@ -1,0 +1,653 @@
+{
+  "identity": "SUN23-ALPHA-GATE-VERTEX-KINEMATIC-01",
+  "script_sha256": "916cbe8bc5fb38b7c6b339b935dc7fb7bb9c4191001e4dbd1ff2830c1bc3f516",
+  "contract_sha256": "bdfb6625bf85887ca3240f998be0553657e135d04ba4cc87055c5e561a99b049",
+  "SDK_ground_state_Q_MeV": 5.533291370004008,
+  "source_printed_Q0_MeV": 5.533,
+  "max_high_root_shift_if_SDK_Q_used_MeV": 0.0005780135775239614,
+  "states": [
+    {
+      "source_state": {
+        "Ex_MeV": 1.248,
+        "gate_center_MeV": 49,
+        "locator": "mainFig2"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 636.6004776621157,
+              "alpha_vertex_T_MeV": 53.971865288221125,
+              "recoil_T_MeV": 78.31313471177418,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07353159018965258
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 53.972381207405306,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5647576692726086,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.129467296479561
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 632.4780589034775,
+              "alpha_vertex_T_MeV": 53.28002897849137,
+              "recoil_T_MeV": 79.00497102150257,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07385434944880619
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 53.280544827428,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5648345597639026,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.1296198177878978
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 620.1716065001278,
+              "alpha_vertex_T_MeV": 51.24072423018424,
+              "recoil_T_MeV": 81.04427576981107,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07479750152066406
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 51.241239868524644,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5650651953070129,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.1300770743146131
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        51.24072423018424,
+        53.971865288221125
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        2.2407242301842416,
+        4.9718652882211245
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        48.0,
+        50.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    },
+    {
+      "source_state": {
+        "Ex_MeV": 2.234,
+        "gate_center_MeV": 47,
+        "locator": "SI Fig2"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 8.228428678807367,
+              "alpha_vertex_T_MeV": 0.009082381227926817,
+              "recoil_T_MeV": 131.2899176187675,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.09507566841970298
+            },
+            {
+              "alpha_p_MeV_c": 626.0596073917866,
+              "alpha_vertex_T_MeV": 52.21156388852978,
+              "recoil_T_MeV": 79.08743611146565,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07389146845183199
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 52.21208847414891,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5554274606833959,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.1108027166301326
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 8.283107018277672,
+              "alpha_vertex_T_MeV": 0.009203487923969078,
+              "recoil_T_MeV": 131.28979651207192,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09507562486676542
+            },
+            {
+              "alpha_p_MeV_c": 621.8695685983888,
+              "alpha_vertex_T_MeV": 51.51977598253825,
+              "recoil_T_MeV": 79.77922401745673,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07421260356048151
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 51.52030061362666,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5553793028709109,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.110704973612883
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 8.45091667632612,
+              "alpha_vertex_T_MeV": 0.009580176696545095,
+              "recoil_T_MeV": 131.28941982329707,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09507548940011544
+            },
+            {
+              "alpha_p_MeV_c": 609.3555651307576,
+              "alpha_vertex_T_MeV": 49.48059547870207,
+              "recoil_T_MeV": 81.81840452129472,
+              "fourmomentum_energy_residual_MeV": 0.0,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07515109634485395
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 49.48112025919045,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5552211293744616,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.1103840620962728
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        49.48059547870207,
+        52.21156388852978
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        2.480595478702071,
+        5.211563888529781
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        46.0,
+        48.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    },
+    {
+      "source_state": {
+        "Ex_MeV": 3.076,
+        "gate_center_MeV": 46,
+        "locator": "SI Fig3"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 17.390967948088054,
+              "alpha_vertex_T_MeV": 0.0405706143160387,
+              "recoil_T_MeV": 130.41642938567747,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -9.094947017729282e-13,
+              "recoil_beta": 0.09475963240120885
+            },
+            {
+              "alpha_p_MeV_c": 616.7706624555011,
+              "alpha_vertex_T_MeV": 50.68402872459592,
+              "recoil_T_MeV": 79.77297127539714,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -9.094947017729282e-13,
+              "recoil_beta": 0.07420862892840671
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 50.68456145168739,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5469389533330316,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0938216694012226
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 17.510128110540762,
+              "alpha_vertex_T_MeV": 0.041128482805106614,
+              "recoil_T_MeV": 130.41587151719068,
+              "fourmomentum_energy_residual_MeV": 0.0,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09475943109633851
+            },
+            {
+              "alpha_p_MeV_c": 612.5169659647024,
+              "alpha_vertex_T_MeV": 49.991941897348624,
+              "recoil_T_MeV": 80.46505810264716,
+              "fourmomentum_energy_residual_MeV": 0.0,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07452850337927655
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 49.992474789388325,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5467696340730944,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.093481433847046
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 17.876311116568598,
+              "alpha_vertex_T_MeV": 0.042866670191415324,
+              "recoil_T_MeV": 130.414133329803,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09475880387475383
+            },
+            {
+              "alpha_p_MeV_c": 599.8070495909963,
+              "alpha_vertex_T_MeV": 47.951806202981516,
+              "recoil_T_MeV": 82.50519379701291,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07546340963908661
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 47.952339618077076,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.54623341158703,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.09240386545207
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        47.951806202981516,
+        50.68402872459592
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        1.9518062029815155,
+        4.684028724595919
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        45.0,
+        47.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    },
+    {
+      "source_state": {
+        "Ex_MeV": 3.435,
+        "gate_center_MeV": 45,
+        "locator": "SI Fig4"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 21.38459130948614,
+              "alpha_vertex_T_MeV": 0.06134296640811954,
+              "recoil_T_MeV": 130.03665703358638,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.0946219063916693
+            },
+            {
+              "alpha_p_MeV_c": 612.7231429195735,
+              "alpha_vertex_T_MeV": 50.02537985636445,
+              "recoil_T_MeV": 80.07262014363005,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07434683427494566
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 50.02591629068411,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5431590776070351,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.086260044172377
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 21.533130173963066,
+              "alpha_vertex_T_MeV": 0.06219810399807102,
+              "recoil_T_MeV": 130.03580189599597,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09462159736061881
+            },
+            {
+              "alpha_p_MeV_c": 608.440419113023,
+              "alpha_vertex_T_MeV": 49.333054531728976,
+              "recoil_T_MeV": 80.76494546826507,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07466621260028958
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 49.33359118895578,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5429334454927011,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0858071017246402
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 21.989870229433322,
+              "alpha_vertex_T_MeV": 0.06486463700139211,
+              "recoil_T_MeV": 130.03313536299174,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.0946206337178124
+            },
+            {
+              "alpha_p_MeV_c": 595.6409947599791,
+              "alpha_vertex_T_MeV": 47.29216373121926,
+              "recoil_T_MeV": 82.80583626877342,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.0755997188268764
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 47.29270109343133,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5422210757649356,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.084376970462472
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        47.29216373121926,
+        50.02537985636445
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        2.2921637312192615,
+        5.025379856364452
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        44.0,
+        46.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    },
+    {
+      "source_state": {
+        "Ex_MeV": 4.971,
+        "gate_center_MeV": 42,
+        "locator": "SI Fig5"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 39.124270604355594,
+              "alpha_vertex_T_MeV": 0.2053274362033335,
+              "recoil_T_MeV": 128.3566725637902,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09401029266525
+            },
+            {
+              "alpha_p_MeV_c": 594.752858491868,
+              "alpha_vertex_T_MeV": 47.152118215761675,
+              "recoil_T_MeV": 81.4098817842314,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07496049823848536
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 47.152672411689764,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5257509404631291,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.051434486380458
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 39.413716048121245,
+              "alpha_vertex_T_MeV": 0.20837665661792926,
+              "recoil_T_MeV": 128.35362334337697,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -9.094947017729282e-13,
+              "recoil_beta": 0.09400918342443161
+            },
+            {
+              "alpha_p_MeV_c": 590.3307315796758,
+              "alpha_vertex_T_MeV": 46.4578502743625,
+              "recoil_T_MeV": 82.10414972563012,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -9.094947017729282e-13,
+              "recoil_beta": 0.07527809928350712
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 46.458405002939344,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5252460843270162,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0504226719749568
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 40.30638268428619,
+              "alpha_vertex_T_MeV": 0.2179221577757744,
+              "recoil_T_MeV": 128.34407784221912,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -9.094947017729282e-13,
+              "recoil_beta": 0.09400571088948638
+            },
+            {
+              "alpha_p_MeV_c": 577.0998692938409,
+              "alpha_vertex_T_MeV": 44.410821744060286,
+              "recoil_T_MeV": 84.15117825593552,
+              "fourmomentum_energy_residual_MeV": 0.0,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07620670094357797
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 44.41137815673255,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5236562209910709,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.047236143178452
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        44.410821744060286,
+        47.152118215761675
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        2.4108217440602857,
+        5.152118215761675
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        41.0,
+        43.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    },
+    {
+      "source_state": {
+        "Ex_MeV": 5.156,
+        "gate_center_MeV": 42,
+        "locator": "SI Fig6"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 41.33854019617278,
+              "alpha_vertex_T_MeV": 0.22922572573997968,
+              "recoil_T_MeV": 128.14777427425724,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09393396972298197
+            },
+            {
+              "alpha_p_MeV_c": 592.5108133649642,
+              "alpha_vertex_T_MeV": 46.79948858843363,
+              "recoil_T_MeV": 81.57751141156405,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07503706804785462
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 46.80004516260806,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5235043690344829,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.046940064014052
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 41.64687217062127,
+              "alpha_vertex_T_MeV": 0.23265782509042765,
+              "recoil_T_MeV": 128.14434217490634,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09393272016451486
+            },
+            {
+              "alpha_p_MeV_c": 588.0699810099276,
+              "alpha_vertex_T_MeV": 46.10486805625578,
+              "recoil_T_MeV": 82.27213194374053,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.07535449963841769
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 46.105425208701945,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5229609879456101,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0458511384895246
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 42.59817607188875,
+              "alpha_vertex_T_MeV": 0.24340767413423237,
+              "recoil_T_MeV": 128.133592325863,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": 0.0,
+              "recoil_beta": 0.0939288062498577
+            },
+            {
+              "alpha_p_MeV_c": 574.7810221000236,
+              "alpha_vertex_T_MeV": 44.05672445748587,
+              "recoil_T_MeV": 84.32027554251181,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07628265153308506
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 44.057283439166895,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.521249525466603,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0424212065554457
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        44.05672445748587,
+        46.79948858843363
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        2.0567244574858705,
+        4.799488588433633
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        41.0,
+        43.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    },
+    {
+      "source_state": {
+        "Ex_MeV": 6.39,
+        "gate_center_MeV": 39,
+        "locator": "SI Fig7"
+      },
+      "angle_roots": [
+        {
+          "angle_deg": 0,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 56.5936224380487,
+              "alpha_vertex_T_MeV": 0.4296119932496367,
+              "recoil_T_MeV": 126.71338800674494,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09340825899668206
+            },
+            {
+              "alpha_p_MeV_c": 577.0704562415148,
+              "alpha_vertex_T_MeV": 44.40632153420165,
+              "recoil_T_MeV": 82.73667846579337,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07556442506492647
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 44.40689559767907,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5075551273835684,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0150319290733023
+        },
+        {
+          "angle_deg": 6.5,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 57.040989332404735,
+              "alpha_vertex_T_MeV": 0.43643051865183224,
+              "recoil_T_MeV": 126.70656948134274,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.0934057622542736
+            },
+            {
+              "alpha_p_MeV_c": 572.4917969010968,
+              "alpha_vertex_T_MeV": 43.70851661113147,
+              "recoil_T_MeV": 83.43448338886446,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07588104123509706
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 43.70909161990676,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5067206796656062,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.0133603871508967
+        },
+        {
+          "angle_deg": 13,
+          "all_physical_roots": [
+            {
+              "alpha_p_MeV_c": 58.425546044669176,
+              "alpha_vertex_T_MeV": 0.45787330535358706,
+              "recoil_T_MeV": 126.68512669464326,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.09339791009328255
+            },
+            {
+              "alpha_p_MeV_c": 558.7731914906825,
+              "alpha_vertex_T_MeV": 41.65027560719591,
+              "recoil_T_MeV": 85.49272439279957,
+              "fourmomentum_energy_residual_MeV": 3.637978807091713e-12,
+              "CM_energy_residual_MeV": -4.547473508864641e-13,
+              "recoil_beta": 0.07680719680282258
+            }
+          ],
+          "SDK_Q_high_root_alpha_T_MeV": 41.65085362077343,
+          "dEx_dTalpha_at_fixed_angle_no_losses": -0.5040863611740619,
+          "Ex_full_width_from_2MeV_Talpha_window_no_losses": 1.008083116477792
+        }
+      ],
+      "declared_high_root_vertex_envelope_MeV": [
+        41.65027560719591,
+        44.40632153420165
+      ],
+      "vertex_minus_printed_gate_center_MeV": [
+        2.6502756071959084,
+        5.406321534201652
+      ],
+      "printed_gate_interval_if_direct_vertex_assumption": [
+        38.0,
+        40.0
+      ],
+      "gate_interval_overlaps_declared_vertex_envelope": false,
+      "not_an_inferred_target_loss_or_experiment_disagreement": true
+    }
+  ],
+  "no_actual_sorter_or_loss_response_recovered": true,
+  "ok": true
+}

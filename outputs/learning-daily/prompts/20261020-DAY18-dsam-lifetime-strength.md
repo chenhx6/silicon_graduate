@@ -48,3 +48,8 @@ Day17新officialS31priming：nndc-2022-s31-mixing-lifetime-reference保存1248MR
 ### Day17 native AlongStep追加priming（无18学分）
 
 GSI26-11–15已实际native前两步控制：external首次event能损差异也可在.1nm无range积分时由首次transitioncache触发，option4对照无该差异。纯Ta/15O/nuclear与fluctuationoff/人为kill后2step等边界明确，非Sun真实producer/响应/τCI。rawtrackcharge不当effectiveq²，源码诊断副本与native/严格重放一致，SDK未patch。正式18仍新session/新交付，旧8events/检查数不兑换学分。
+
+
+### Day17 alpha gate追加priming（无18学分）
+
+SUN23-27–31/GSI26-16核E(1mm residual)/DeltaE(87µm)与actualgate表达式未得；sourceQ固定无损vertex模型2234 alpha49.48–52.21≠printed47±1，不当targetloss测量或实验矛盾。全部roots/CM-Lab/Jacobian/SKD-Q control已存，2MeVvertex窗≈1.11MeVEx不替actualresponse/σ；masslookup初始化/AME12与Sunproducer分开。正式18承认priming，旧七态/程序成功数不换学分。

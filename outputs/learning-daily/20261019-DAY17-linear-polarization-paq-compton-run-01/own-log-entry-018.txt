@@ -1,0 +1,4 @@
+
+## 2026-10-20 Day17 checkpoint018 — alpha detector-to-vertex contract
+
+同19日Day17原窗口继续；新核Sun E/DeltaE沉积与exactgate缺口，actualSDK质量/sourceQ条件vertex七态allroots/4momentum/CM-Lab/Jacobian练习已canonical。2234vertex49.48–52.21与47±1不等只反证无损映射，不当targetloss/experiment矛盾/τbias。旧26SUN/15GSIrow/flags保持、新全needs_review，claimindex31/16显式核。verification032 report/27changed29mapped/coverage/boundary/lint/diff/protected0，0errors211warnings，初writeback缺canonicallink已修/留档。稳定指针main / Separate detected alpha gates from vertex recoil kinematics；hash/push仅runreceipt，formal17once/18uncredited/原15:00截止/goalactive不变。

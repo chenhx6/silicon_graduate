@@ -2094,3 +2094,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint017 — native AlongStep scope
 
 同19日Day17原窗口继续，formal17once/18uncredited。GSI26-11–15核native调用链与指定纯Ta/15O四个前两步控制，external首次event差异由native/trace/严格重放确认；短步无range也可由transitioncache触发，未外推Sunτbias。原source/SDK未改，旧claimrow/flags保持。修复GSI/ISP表空行导致漏索引并显式核15/13claims。verification031报告/27changed29mapped/coverage/boundary/lint/diff/protected0，0errors211warnings。稳定指针main / Bound native ion stopping state effects with controlled steps；hash/push仅runreceipt，原15:00截止/goalactive不变。
+
+## 2026-10-20 Day17 checkpoint018 — alpha detector-to-vertex contract
+
+同19日Day17原窗口继续；新核Sun E/DeltaE沉积与exactgate缺口，actualSDK质量/sourceQ条件vertex七态allroots/4momentum/CM-Lab/Jacobian练习已canonical。2234vertex49.48–52.21与47±1不等只反证无损映射，不当targetloss/experiment矛盾/τbias。旧26SUN/15GSIrow/flags保持、新全needs_review，claimindex31/16显式核。verification032 report/27changed29mapped/coverage/boundary/lint/diff/protected0，0errors211warnings，初writeback缺canonicallink已修/留档。稳定指针main / Separate detected alpha gates from vertex recoil kinematics；hash/push仅runreceipt，formal17once/18uncredited/原15:00截止/goalactive不变。

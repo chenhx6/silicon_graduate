@@ -1,0 +1,35 @@
+{
+  "subject": "Separate detected alpha gates from vertex recoil kinematics",
+  "paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+    "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+    "system/scripts/day17_sun_alpha_gate_kinematics.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-017.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-032.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-032-initial-writeback-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-018.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-018.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-claim-table-correction.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-before-source.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-claim-preservation.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-gate-targeted-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-before-exercise.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-mass-input.cc",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-sdk-mass-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-sdk-mass-source-identity.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inheriteddirty,raw/PLAN/Bib/credentials/tmp/binaries/daemon;logHEAD+own018only;nextKirsebomfreezeexcluded"
+}

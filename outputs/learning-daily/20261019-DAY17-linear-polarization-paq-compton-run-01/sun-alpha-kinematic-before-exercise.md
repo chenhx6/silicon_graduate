@@ -1,0 +1,5 @@
+# α门运动学练习合同冻结
+
+实际massfixture给SDK nuclear masses；无particledefinitions时lightmass走AME12fallback，与原Sun Q0=5.533MeV分层，不能冒称Sun实际producer。主算使用sourceQ0通过recoilmass约束保持精确4动量；SDK selfconsistentQ仅敏感性control。源roundedEx与αgate中心逐项列，gate2MeV宽不是σ。
+
+声明入射beam在vertex仍128MeV、θlab0–13°、靶3He静止、无前/后靶/Si/deadlayer损失，算所有允许momentumroots并保留低/高branch。高energyroot只是与tensMeV detection相联系的选择，不删数学根。若vertex α范围不含47门，不当实验矛盾，只说明不能把沉积gate直接当vertex动能；sorting实际E/DeltaE+E/correction尚未得。计算不解actualdepth/loss、无τ/CI或modelprior校准。

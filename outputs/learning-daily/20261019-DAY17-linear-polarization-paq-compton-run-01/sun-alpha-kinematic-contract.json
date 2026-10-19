@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-19T16:21:11.057595+00:00",
+  "identity": "SUN23-ALPHA-GATE-VERTEX-KINEMATIC-01",
+  "question_sha256": "ed28452760210c2b308377eb5f12d453b0a22f53eadcc528965cafbf95e5b31d",
+  "input_mass_fixture_receipt": "sun-alpha-sdk-mass-result.json",
+  "input_receipt_sha256": "c84de40ebee21edff929264824384ea54f0537940ac531c297ce19c71edcefca",
+  "masses_MeV": {
+    "32_16": 29773.628282463073,
+    "3_2": 2808.391377368427,
+    "4_2": 3727.379105468427,
+    "31_16": 28849.10726299307
+  },
+  "beam_vertex_kinetic_MeV": 128.0,
+  "source_Q0_MeV": 5.533,
+  "angles_deg": [
+    0,
+    6.5,
+    13
+  ],
+  "source_states": [
+    {
+      "Ex_MeV": 1.248,
+      "gate_center_MeV": 49,
+      "locator": "mainFig2"
+    },
+    {
+      "Ex_MeV": 2.234,
+      "gate_center_MeV": 47,
+      "locator": "SI Fig2"
+    },
+    {
+      "Ex_MeV": 3.076,
+      "gate_center_MeV": 46,
+      "locator": "SI Fig3"
+    },
+    {
+      "Ex_MeV": 3.435,
+      "gate_center_MeV": 45,
+      "locator": "SI Fig4"
+    },
+    {
+      "Ex_MeV": 4.971,
+      "gate_center_MeV": 42,
+      "locator": "SI Fig5"
+    },
+    {
+      "Ex_MeV": 5.156,
+      "gate_center_MeV": 42,
+      "locator": "SI Fig6"
+    },
+    {
+      "Ex_MeV": 6.39,
+      "gate_center_MeV": 39,
+      "locator": "SI Fig7"
+    }
+  ],
+  "gate_full_width_MeV": 2.0,
+  "assumptions": [
+    "roundedEx asdeclared",
+    "sourceQfixedmain",
+    "beamvertex128 no targetloss",
+    "targetatrest",
+    "noalphaenergy loss aftervertex",
+    "acceptance theta0through13 designenvelope"
+  ],
+  "not_recovered": [
+    "actualgateexpression/calibration/angle",
+    "implantprofile/beamvertexloss",
+    "posttarget/deadlayer/DESi/E response",
+    "producer/Σ/tau posterior"
+  ]
+}
