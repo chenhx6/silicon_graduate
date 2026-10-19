@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-19T22:11:40.922223+00:00",
+  "script_sha256": "94af7c63aa04e476333fd3b7677082f0e820610cb3c4f1d5901a78a116f106db",
+  "contract_sha256": "b57ead3da53b9c80900a1e86cf4e65cbfde04b503ca3bb88eefc340f51beb1ff",
+  "ROOT_helper": "6.40.04",
+  "efficiency_coefficient_crosscheck": [
+    {
+      "energy_keV": 1300,
+      "Eq3p9_fraction": 0.04299690919769827,
+      "Fig3p19_fraction": 0.040845217698356105,
+      "rounded_over_full_minus_one": 0.05267915365839171
+    },
+    {
+      "energy_keV": 7333,
+      "Eq3p9_fraction": 0.010590756164596551,
+      "Fig3p19_fraction": 0.00987088092926038,
+      "rounded_over_full_minus_one": 0.07292917830689616
+    }
+  ],
+  "energy_role_control": [
+    {
+      "theta_DS_degrees": 120,
+      "declared_beta": 0.077,
+      "observed_energy_keV": 7040.181996596789,
+      "Eq3p9_efficiency_observed_over_rest": 1.0395485403667657,
+      "boundary": "declared point kinematics; original efficiency evaluation role unknown"
+    },
+    {
+      "theta_DS_degrees": 145,
+      "declared_beta": 0.077,
+      "observed_energy_keV": 6877.436696125139,
+      "Eq3p9_efficiency_observed_over_rest": 1.0628152009846406,
+      "boundary": "declared point kinematics; original efficiency evaluation role unknown"
+    },
+    {
+      "theta_DS_degrees": 176,
+      "declared_beta": 0.077,
+      "observed_energy_keV": 6789.69594618163,
+      "Eq3p9_efficiency_observed_over_rest": 1.0757670705029745,
+      "boundary": "declared point kinematics; original efficiency evaluation role unknown"
+    }
+  ],
+  "literal_Eq3p6": {
+    "r_p_over_mc": 0.15193102331541478,
+    "printed_energy_MeV": 43.78629450286819,
+    "momentum_consistent_energy_MeV": 42.78130668625968,
+    "nominal_difference_MeV": 1.0049878166085051
+  },
+  "original_native_conversion": {
+    "energy_MeV": 43.93834673574292,
+    "inverse_B_Tm": 0.9499999999999982,
+    "same_constant_momentum_consistent_energy_MeV": 42.926447387837754,
+    "nominal_difference_MeV": 1.011899347905164,
+    "boundary": "literal source component and reciprocal closure; original paper producer/Brho calibration unknown"
+  },
+  "single_face_geometry_crosschecks": [
+    {
+      "label": "front",
+      "inner_mm": 24,
+      "outer_mm": 48,
+      "Z_mm": 95,
+      "point_target_front_face_angles_degrees": [
+        14.178064414706903,
+        26.805788329799796
+      ],
+      "boundary": "single face geometric descriptor; not measured efficiency or joint telescope aperture"
+    },
+    {
+      "label": "back",
+      "inner_mm": 23,
+      "outer_mm": 48,
+      "Z_mm": 110,
+      "point_target_front_face_angles_degrees": [
+        11.809882957028254,
+        23.574706201912615
+      ],
+      "boundary": "single face geometric descriptor; not measured efficiency or joint telescope aperture"
+    },
+    {
+      "label": "public generic default",
+      "inner_mm": 23,
+      "outer_mm": 48,
+      "Z_mm": 119.8,
+      "point_target_front_face_angles_degrees": [
+        10.867787325362112,
+        21.83438547091973
+      ],
+      "boundary": "single face geometric descriptor; not measured efficiency or joint telescope aperture"
+    }
+  ],
+  "Table3p7_FWHM_divided_by_2p35_sigma_keV": [
+    31.574468085106382,
+    31.78723404255319,
+    38.0,
+    40.0,
+    21.106382978723403
+  ],
+  "source_and_native_literal_momentum_beta_boundary_demonstrated": true,
+  "raw_source_unchanged": true,
+  "no_new_experimental_energy_tau_branch_or_CI": true,
+  "ok": true
+}

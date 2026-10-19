@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 73,
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "fougeres2022-thesis-ch3-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "source_and_native_literal_momentum_beta_boundary_demonstrated",
+        "raw_source_unchanged",
+        "no_new_experimental_energy_tau_branch_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

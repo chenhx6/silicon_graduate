@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-19T22:13:21.817383+00:00",
+  "hard_deadline": "2026-10-20T15:00:00+08:00",
+  "minutes_to_deadline": 526.63637695,
+  "decision": "continue-current-real-data-or-calibration-inputs",
+  "goal": "active"
+}

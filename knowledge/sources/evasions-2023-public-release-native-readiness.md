@@ -61,6 +61,7 @@ tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
 | EV23-14 | 新脚本在fresh隔离copy复现missinglib→build成功、原noanalysisreturn1、loader/VAMOSsentinel及真实409303/7/7933query，全部hash保留；没有全MC/原fit或修公开源。 | reproducible-actual-audit | direct-native-and-public-data | exercise result/commands | true |
 | EV23-15 | 后续原读作者2022thesisChapter4，明确target/catcher实测19(1)mm支持public19000µm；EV23-10与Naturebacktoback字面对照不应升级成geometry错误。原loader/scalar/native阻点仍独立保持，未因此认证exactjob/修source或重报CI。 | new-primary-revision | direct-thesis-companion | F22-2/15 | true |
 | EV23-16 | 后续新ROOT固定双版本源码/native确认Chi2Test不消费LL；CodeA L42–141的LL/manual调用全在blockcomment，保EV23-13原结论，不能推paper实际调用；Tools.C原log_likelihood的o0/s0及FindBin端点边界已另组件核。 | actual-API-companion-and-boundary | direct-code-and-native | RCT26-2/8/9/11 | true |
+| EV23-17 | 后续原Chapter3 Eq3.6与publicTools.C Brho_Ekin_conv原body/native同见momentum/β合同：.95Tm/M3728/A4/Z2给43.93835vs同r physicalmomentum42.92645MeV，inverse回.95仍不认证物理。paper原cal/job未知，未改release或新报能量/τ/CI。 | new-primary-and-native-physics-boundary | direct-thesis-code-native | F22-58/59/73；Tools.C L176–181 | true |
 
 ## Analytical Reconstruction and Self-Audit
 

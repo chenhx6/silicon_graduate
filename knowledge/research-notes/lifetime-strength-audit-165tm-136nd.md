@@ -361,3 +361,13 @@ CodeA L42–141整段示例inactive，这是对grep候选的明确限制，也�
 | 假定原variance=M后actualScaleα，强制UW | 47.939784 | α²variance配套缩放前后一致，不估实际MCstats |
 
 α=1.095013423；重新只填αM而让fallbacksqrt(αM)给UU43.206006，改变了数值误差合同。actualScale保存α²sumM=437.019908，不能把只内容归一和完整统计对象缩放混同。所有接口p/ndf24/lowcountwarnings都不解读为实验检验、没有原τ/E0profile/Cov。下一matchinginput仍是原job/mask/模板误差历史，当前都不能与SI17.1982作同一统计量闭合。
+
+### Ch3实际校准：高能效率、角核与Bρ物理合同
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-54–73完整Ch3/PDF44–72/31图8表11式。真实输入补充薄靶无keyγ、事后3He面密度/beamintensity缺口、Eu152低能绝对eff与Geant100–8000keV同geometry归一、547Au门/4mmPSA尺度导出的σθ.667，并非独立knowntrueposition分辨测量。source/inputcalibration与原job/Σ仍分层。
+
+[实际输入/native练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-result.json)：Eq3.9 fractionε1300=.0429969/7333=.0105908，图fullcoeff给.0408452/.00987088，相差5.268/7.293%；不猜实际job采用哪组。声明β/角的ε(Eobs)/ε(Erest)约1.04–1.076是角色控制，不是实验eff用错裁决。
+
+Eq3.6按p=qBρ定义把p/(mc)作为β；publicBrho_Ekin_conv原body/native在.95Tm给43.93835vs同常数momentum42.92645MeV，反向仍回.95。互逆不证明物理关系，原code/data不改、原papercal/job未知，不重报能量/τ/BR。[[evasions-2023-public-release-native-readiness]] EV23-17只追加原表达式边界，旧rows/flags保留。
+
+SPIDER图/表/default几何与宽度须matching：σθ与∆φ分割宽不同；strip/sector一致性门、PID/Alcover/响应不可从public12branch完整重建；DCT气压未记，位置标定借SPIDER孔且两DCT均值/分位差不是独立absoluteangle真值。下一高信息可用真实publicderivedevents作条件选择descriptor，保持事件/track分母，不能在原reconstruction/contaminationmask缺时冒paperfit。

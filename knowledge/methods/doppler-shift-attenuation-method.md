@@ -205,3 +205,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 直方图比较的接口名不能替代统计合同
 
 [[root-2026-chi2test-option-contract]] RCT26-2/3/4/5/8/9：Chi2Test的LL静默未消费、自动UU/UW/WW依误差状态，属于两hist同质性比较；Chisquare(TF1,L)另有Poissonratio接口。matchingproducer必须记录范围/bin/normalizer、Sumw2与MCstats、零bin、自由参数与sharedCov。EVASIONS示例调用inactive，native组件不是原paperjob或τCI认证。
+
+## 原校准与互逆计算的物理边界
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-58/59/62/63/64/68/71/72：Bρ↔E两个错误物理表达式仍可互逆，不能用roundtrip单独认证动量/速度合同；source/模拟校准、PSA尺度派生角核及实际particlecleaning也不能合称一个测得response。高能eff的source+MC角色与精确coeff/自然log单位需match原job。当前native只组件，未知papercal/Σ不从数值差直接重报τ/BR。

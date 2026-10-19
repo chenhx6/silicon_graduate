@@ -1,0 +1,6 @@
+double Brho_Ekin_conv(double input, double Mnuc, double Anuc, double Znuc, int conv){
+    double resultat;
+    if(conv==1){resultat = Mnuc * (1 / sqrt(1 - (input* input * 0.3204 * 0.3204 * Znuc* Znuc ) / ( Anuc * Anuc )) - 1);}
+    if(conv==0){resultat = Anuc * (sqrt(1-pow(1+input/Mnuc,-2))/(0.3204*Znuc));}
+    return resultat;
+}

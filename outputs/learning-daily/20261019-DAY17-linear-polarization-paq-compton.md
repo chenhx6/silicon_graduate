@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint039：Ch3实际校准与负结果
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-54–73完整29页/31图8表11式文本/视觉核：真实source/MC校准来源、薄靶keyγ缺失、PSA派生角核与PID/几何/strip选择。[[evasions-2023-public-release-native-readiness]] EV23-17补原Bρ转换组件，非原paperjob认证。
+
+
 ### checkpoint038：真实公开25图点的新接口问题
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]] F23-24–28/[[root-2026-chi2test-option-contract]] RCT26-14从原XLSX全25点逐行核旧表，新增actualROOT/interface/errorhistory查询。仍同源同数据，不当新独立实验或旧Pearson重跑授分。
@@ -160,6 +165,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint039：实际coeff/单位与原转换组件
+
+[程序](../../system/scripts/day17_fougeres2022_ch3_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-result.json)核真实εcoeff在1300/7333keV的fraction与5–7%打印coeff差、声明energyrole敏感性及geometry/宽度合同。原Brho_Ekin_conv native43.93835vs同r momentum42.92645MeV，inverse仍回.95；互逆不认证physicalrigidity，未新报实验能量/τ/BR/CI。
+
 
 ### checkpoint038：实际图点的统计与配套variance
 
@@ -5736,6 +5746,158 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "F23-28"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "Ch3实际校准与Bρ原表达式边界",
+      "summary": "F22-54–73新增完整Ch3真实校准与原Bρ/efficiency/angle/particle合同，未认证原job/CI。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-54"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-56"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-58"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-59"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-61"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-62"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-63"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-64"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-68"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-70"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-71"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-72"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-73"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "统计API与inactive示例的边界",
+      "summary": "EV23-17追加原转换函数native物理合同边界，旧review/claim rows保持。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Ch3实际校准：高能效率、角核与Bρ物理合同",
+      "summary": "整合source/MC效率、角核来源及互逆不能认证物理的实际输入证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-56"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-59"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-62"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-63"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-64"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-68"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-71"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-72"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-73"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "原校准与互逆计算的物理边界",
+      "summary": "补校准与roundtrip物理边界的使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-58"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-59"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-62"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-63"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-64"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-68"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-71"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-72"
+        }
+      ]
     }
   ]
 }
@@ -5958,3 +6120,7 @@ verification051核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint038真实图数据/native验收
 
 verification052核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及新真实data/nativeartifact。通过后manifest038/commitguard/H3，原window/goalactive、formal17once/partial18/no19，无新原paperfit/CI。
+
+### checkpoint039真实校准/物理合同验收
+
+verification053核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及新原表达式nativeartifact。通过后manifest039/commitguard/H3；同window/goalactive、formal17once/partial18/no19，raw/source未改且未新实验CI。

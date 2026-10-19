@@ -1,0 +1,76 @@
+{
+  "identity": "F22-CH3-ACTUAL-CALIBRATION-01",
+  "pdf": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "tools_source": "tmp/day17-fougeres2023/producer-source/src/functions/Tools.C",
+  "tools_sha256": "77379e900f79da65b3f7045860e54afd372e4c8b27a921c4eaf96d6740694c0b",
+  "native_fragment": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-conversion-exact.ccfrag",
+  "fragment_sha256": "8a5d3746c205f289333816a1903fbd097831de045bfe4a390555405a1c05f2c1",
+  "native_source_lines": [
+    176,
+    181
+  ],
+  "literal_Eq3p9_coeff": [
+    -2.7,
+    0.54,
+    -0.084
+  ],
+  "Fig3p19_full_coeff": [
+    -2.703,
+    0.5367,
+    -0.08448
+  ],
+  "efficiency_probe_keV": [
+    1300,
+    7333
+  ],
+  "declared_beta": 0.077,
+  "declared_theta_DS_degrees": [
+    120,
+    145,
+    176
+  ],
+  "rest_gamma_keV": 7333,
+  "literal_Eq3p6": {
+    "B_Tm": 0.95,
+    "mass_rest_MeV": 3728,
+    "mass_kg": 6.692e-27,
+    "charge_C": 3.2e-19,
+    "c_m_s": 299000000.0
+  },
+  "native_conversion_inputs": {
+    "B_Tm": 0.95,
+    "Mnuc_MeV": 3728,
+    "A": 4,
+    "Z": 2,
+    "factor": 0.3204
+  },
+  "Table3p5_rings": [
+    {
+      "label": "front",
+      "inner_mm": 24,
+      "outer_mm": 48,
+      "Z_mm": 95
+    },
+    {
+      "label": "back",
+      "inner_mm": 23,
+      "outer_mm": 48,
+      "Z_mm": 110
+    }
+  ],
+  "public_default_geometry": {
+    "inner_mm": 23,
+    "outer_mm": 48,
+    "Z_mm": 119.8
+  },
+  "Table3p7_FWHM_keV": [
+    74.2,
+    74.7,
+    89.3,
+    94,
+    49.6
+  ],
+  "boundary": "literal actual inputs plus declared kinematic controls; no original paper job or experimental CI",
+  "Fig3p14_position_annotation_mm": 105
+}

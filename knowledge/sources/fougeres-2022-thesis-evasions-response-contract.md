@@ -1,6 +1,6 @@
 ---
 type: source
-title: "Fougères2022学位论文第4–6章：响应、重建、寿命统计合同"
+title: "Fougères2022学位论文第3–6章：真实校准、重建与寿命合同"
 title_original: "Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg"
 aliases: [Fougeres2022 thesis Ch4, F22 EVASIONS response]
 created: 2026-10-20
@@ -13,7 +13,7 @@ authors: [Chloé Fougères]
 year: 2022
 institution: Normandie Université, Université de Caen Normandie
 citation_key: ""
-canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapter4 printed71–83/PDF74–86"
+canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapters3–6 and AppendixA.2; scoped reading receipts"
 source_url: https://theses.hal.science/tel-03768524v1
 raw_file: raw/theses/day17-20261020/fougeres-2022-thesis.pdf
 raw_sha256: 4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1
@@ -41,6 +41,8 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 后续又独立冻结后完整读Chapter6/PDF105–126/printed102–123，17图9表4式全部文本/视觉核，包括粒子分支/自旋失败的章节结论；该次仍未读Chapter3/7/附录；后续A.2增量另记。[Ch6actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-reading-scope.json)。
 
 后续定向完整读AppendixA.2/PDF168/printed165文本与FigA.2，实际等30keV三窗。相邻页读取命令额外输出A.3/PDF168tail–170全文，记为priming，未视觉核其全部图、不称完整附录阅读。Chapter3/7与其它附录未读。[A2scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-reading-scope.json)。
+
+后续又新冻Ch3问题并完整读Chapter3/PDF44–72/printed41–69，31图8表11式全部文本/视觉核；Ch3–6各章主线已完整，仍非201页全读，Chapter7与AppendixB未读。[Ch3scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-reading-scope.json)。
 
 ## Summary
 
@@ -103,6 +105,26 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-51 | signal也以Acenter−(Alower+Aupper)/2进入；若线形尾漏到side，须matchingresponse评估，不能从±15keV自动称总γyield或无泄漏。source没有给该泄漏fraction。 | response-leakage-readiness | task-inference-from-actual-operator | FigA.2；exercise signal_contribution | true |
 | F22-52 | closed区间打印共享边界不等实际digital重复计数，原bin/halfopen实现未知；多个track可共享event，窗口不重叠也不能无条件称所有counts独立。原job/Σ未补。 | digital-boundary-and-source-dependence | inference-with-readiness | printed165 FigA.2；EV23-3 | true |
 | F22-53 | A.2只补实际背景operator/window，不提供原lifetimefulljob/CI；Ch6pureAu2D减与A.2局部side估计层次不同，不以新符号式给实验误差。额外A.3文字暴露已记，非新卡/完整附录读。 | scope-and-statistical-use-boundary | synthesis-with-primary | A2reading-scope；F22-43/44/48/49 | true |
+| F22-54 | 新增完整Ch3/PDF44–72/printed41–69、31图8表11式文本/视觉核；连此前Ch4–6+A.2均独立scope记录，不称201页全文读、未知Ch7/B及原producer。 | actual-reading-scope | direct-thesis | Chapter3；Ch3reading-scope | true |
+| F22-55 | 实测beam110.83±.443MeV/spotradius1.6(.2)mm，而MC XYσ用radius/4；intensity10–30enA且未准确量化。catcher19(1)mm/20(.5)µm再次支持gap，不等beamprofile/absoluteyield/Cov已知。 | actual-beam-and-model-contract | direct-thesis | printed42 Table3.1/Fig3.2 | true |
+| F22-56 | Table3.2/3.3区分producerimplanted与Demokritos事后测得3He面密度；两reference截面带10%systematic、depth未测、target10online损坏。薄靶keyγ不足，不能当独立thin/thickτ对照或将implant数代实际密度。 | actual-target-and-negative-companion | direct-thesis | printed43–44 Tables3.2/3.3/Fig3.4 | true |
+| F22-57 | VAMOS轻粒子IC信号低于threshold未用；PLcharge未校准，PID经DC/PL/HF与Bρ/t*。HF7.8456MHz/127.46ns、TPL1175ns处分支减一周期是实际alias处理，不是仅singleTOF测量。 | actual-PID-and-RF-contract | direct-thesis | printed46–49 Figs3.7–3.10/Eqs3.1–3.5 | true |
+| F22-58 | Eq3.6在Bρ=p/q定义下以r=Bρq/(mc)作1/sqrt(1−r²)−1，与momentum关系sqrt(1+r²)−1不同；原constants/Bρ.95给43.7863vs42.7813MeV。为字面物理关系边界，不认原calibration/job已使用错能量。 | literal-momentum-versus-beta-boundary | direct-thesis-and-arithmetic | printed50 Eq3.6 | true |
+| F22-59 | publicTools.C Brho_Ekin_conv同一形式r=.3204ZB/A；原body native.95/M3728/A4/Z2给43.93835，而同r momentum式42.92645，差1.01190。反向返回.95只证明两式互逆，不证明physicalrigidity合同；未修source/重报实验。 | native-public-companion-and-limit | direct-code-and-native | Tools.C L176–181；Ch3exercise original_native_conversion | true |
+| F22-60 | AGATA31晶体、θγ120–176°，trackingframe到lab有−π/2绕beam旋转且Ylab=−Xtrack；trackedcoords不是未经合同可直接与VAMOSphi组合。DAQ/replay/PSA/crosstalk/trigger链同研究输入，不新独立data。 | actual-geometry-frame-and-producer | direct-thesis | printed52–56 Figs3.14–3.16/Eq3.8 | true |
+| F22-61 | Co60用于preprocess，Eu152在靶点给efficiency/低能resolution；AmBeFe受空间限制不在靶点、只高能energycal到8MeV。高能cal源不能直接叫绝对inbeam/靶点eff测量，F22-28的150Eu文字由此限为版本/打印边界。 | actual-calibrator-roles | direct-thesis | printed56–57 Fig3.17 | true |
+| F22-62 | 在线七个unshiftedγ峰测FWHM，能量函数fit差后实际MC用测得σ；角σ.667(.001)来自547Au门trackedcoords加引用4mmPSA尺度的扰动/拟Gaussian(打印χ²约10100/31)，不是独立已知trueposition的localization测量或完整σθ系统误差。 | response-origin-and-uncertainty-boundary | direct-thesis | printed57–58 Fig3.18 | true |
+| F22-63 | Eu152已知activity/age给低能绝对eff，Geant4同geometry曲线跨100–8000keV，经1.80(.06)归一；Fig3.19红高蓝低，归一因子角色需matchjob。7333效率为normalizedmodel/interpolation，非该能量新实测或独立MCcal。 | actual-efficiency-calibration-and-domain | direct-thesis | printed58–59 Fig3.19/Eq3.9 | true |
+| F22-64 | Eq3.9自然log且E用keV，ε是fraction：1300给.0429969、7333给.0105908。Fig3.19更精细打印coeff在两能量给.0408452/.00987088，rounded/full差5.268/7.293%；保各表达式，不把舍入差当独立统计矛盾或推原CI。 | literal-coefficient-and-unit-contract | direct-thesis-and-arithmetic | printed58 Eq3.9；printed59 Fig3.19 | true |
+| F22-65 | 声明β.077/θDS120/145/176时Eobs7040.18/6877.44/6789.70keV，Eq3.9 εobs/εrest1.0395/1.0628/1.0758；仅能量role敏感性控制，未得job不认实际eff用错E或修BR。 | conditional-energy-role-control | task-arithmetic-with-actual-curve | Ch3exercise energy_role_control | true |
+| F22-66 | 三个实测background能窗1.5–1.6/4.2–4.3/6.65–6.75MeV的角形相似，作者称mostlikely比例于geometryeff。它不是任意source角分布/γ门下已测绝对angularresponse或polarimeterQ。 | angular-acceptance-companion-boundary | direct-thesis-and-use-gate | printed59–60 Fig3.20 | true |
+| F22-67 | Au547/Si6878随time的energy与31coretiming未见明显漂移为实际monitor；其resolution范围/fit统计限不提供所有eventenergy/angle跨参数Cov。 | actual-stability-companion | direct-thesis | printed60–61 Fig3.21 | true |
+| F22-68 | Table3.5 front300(1)/back640(5)µm、frontAl.3µm及r24/48,Z95、backr23/48,Z110；Fig3.14另298/580并有105mm位置标注，publicdefaultZ119.8/r23。保对象/版本桥，不硬配17mm shift或选一个默认冒exactgeometry。 | geometry-version-readiness | direct-thesis-and-code-input | printed53 Fig3.14；printed62 Table3.5；publicinputs L39–44 | true |
+| F22-69 | Table3.5单面point角front14.178–26.806°、back11.810–23.575°，与表列12.8–24.5°需原定义/位置match；这些不等双ring联合接受/实测ε，也不由裸solidangle重算BR。 | conditional-geometry-crosscheck | actual-input-arithmetic | Ch3exercise single_face_geometry_crosschecks | true |
+| F22-70 | SPIDER三alpha源5.1566/5.4856/5.8048MeV用Gaussian+低能exponentialtail校准；FWHM四象限74.2/74.7/89.3/94keV与back49.6keV，Table3.7 σθ.35但∆φ22.5是分割宽，不能全当Gaussianσ。 | actual-particle-calibration-and-width-contract | direct-thesis | printed62–64 Tables3.6/3.7/Figs3.23–3.25 | true |
+| F22-71 | SPIDER选strip/sector能量相符剔drift，并用SRIMΔE/Eres识别同位素和检验厚度；source校准与cleaning/threshold/deadlayer/inbeam效率不是同输入。publicderivedtree缺原strip/sector完整字段，不能认证这一选择。 | actual-particle-selection-and-readiness | direct-thesis | printed64–65 Figs3.26/3.27 | true |
+| F22-72 | DCT实验gaspressure未记，故以SPIDER孔投影/线影位置校准电子drift约50mm/µs；两DCT independently从target点构角，再均值，90%theta差<.7°/75%phi差<5°是分位范围，不自动Gaussian1σ或独立绝对角真值。 | actual-position-calibration-and-dependence | direct-thesis | printed66–69 Table3.8/Figs3.28–3.31/Eqs3.10/3.11 | true |
+| F22-73 | Ch3补source/MC/highE/angleorigin和PID/strip/geometry链；仍无fullpaperjob/calΣ/actualsourcefitcoeffCov，不能以更多模型history填空。Bρ原表达式native边界保留，原data34source未改、不新实验τ/BR/CI。 | updated-input-readiness | synthesis-with-primary | F22-56/59/62/63/68/71/72 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -112,7 +134,7 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 
 ## Competing Interpretations and Limitations
 
-Chapter5/6现已读；Chapter3的实际resolution/target表与附录更完整背景算法尚未读，Ch6全部numericjob/ROOT版本/Σ尚未取得。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
+Chapter3–6与A.2现已读；AppendixB更完整校准正文及Ch7尚未读，全部numericjob/ROOT版本/Σ尚未取得。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
 
 ## Knowledge Impact and Learning Decision
 
@@ -141,3 +163,9 @@ Chapter5/6现已读；Chapter3的实际resolution/target表与附录更完整背
 [量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-before.md)、[实际三窗](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-contract.json)、[标准库Fraction程序](../../system/scripts/day17_fougeres2022_a2_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-result.json)。初系统Python无sympy失败exit1已保存，改用标准库精确有理数积分，没有装包或改原输入。
 
 通用协方差与背景曲率只为原operator的数学合同；没有抄图造逐bincounts、给actualcurvature或将减后负值裁0再当rawPoisson。源actualnormalization/事件依赖/response仍决定实验CI，不把本任务符号推导升级实验测量。
+
+## Ch3实际校准与Bρ原表达式边界
+
+[量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-before.md)、[实际输入及hash](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-contract.json)、[原转换函数](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-conversion-exact.ccfrag)、[程序](../../system/scripts/day17_fougeres2022_ch3_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-result.json)。native只摘取确定输入的转换函数，不执行原未初始化全MC。原bytehash保持，互逆通过不充物理oracle。
+
+三类响应需分别保存：低能source绝对eff→模型高能外推；测得/引用PSA尺度导出的angularkernel；粒子strip校准与实际cleaning/geometry。公式/图coeff、geometry版本/原calibration桥未闭，不把5–7%字面曲线差或1.01MeV条件转换差换算实验τ/BR偏差。新primary限制旧“测得σθ”的简称，并不清原needs_review或给humanreview。

@@ -148,3 +148,7 @@ F22-48–53实际三30keVγ窗投影Ealpha，D=S−(L+U)/2及完整Cov；独立P
 ### Day17 checkpoint038 priming：真实图数据的新统计合同
 
 F23-24–28/RCT26-14保持原25点/全部displaydomain/原error与XLSXhash，nativefallbackUU41.6546、zero-template UW110.1959、同域deviance95.7484；α1.095配varianceα²时forcedUW47.9398不变。实际MCvariance/job/mask未知，未复现SI17.1982，不扫描强配、不重报τ/CI；正式18不能换旧checks授分。
+
+### Day17 checkpoint039 priming：Ch3真实校准
+
+F22-54–73完整Ch3/31图8表11式，Eu152低能绝对+MC高能eff、4mmPSA派生σθ、thin无keyγ与strip/PID/geometry/DCT共享校准。Eq3.9两组coeff差5–7%保原；Eq3.6/publicnative p/(mc)当β，.95Tm相差1.0119MeV而roundtrip仍过，不推原papercal/τ偏差或改source。EV23-17新增needs_review；正式18仍新session独立交付。

@@ -2194,3 +2194,7 @@ F22-48–53/A.2原件与精确Fraction误差operator写回canonical。verificati
 ### Day17 checkpoint038：真实公开图数据的ROOT合同
 
 F23-24–28/RCT26-14+ledger保持25点原输入，新增actualnative/errorhistory与variance配套缩放；原fit未鉴定/不新CI。verification052/manifest038/commitguard/H3后发布，main / `Query ROOT on published lifetime graph with explicit variance contracts`；原windowactive/17once/partial18/no19。
+
+### Day17 checkpoint039：实际校准与Bρ物理合同
+
+F22-54–73/EV23-17/ledger/method/index原件与原表达式native已canonical；互逆不认证物理，未改原code/data/实验CI。verification053/manifest039/commitguard/H3后发布，main / `Read actual detector calibrations and audit rigidity conversion physics`，原windowactive/17once/partial18/no19。
