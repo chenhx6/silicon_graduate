@@ -55,6 +55,7 @@ Chi2Test的LL不是likelihood开关。它比较两个histogram是否同形，按
 | RCT26-11 | manual循环i<FindBin(high)排high所在bin；axisrange到high则含该bin。high2.5在第三bin时manual只bin1/2，而Chi2Test所选含bin3；两函数即使同range数字也不一定同domain。 | exact-endpoint-control | direct-code-and-native | EVASIONS Tools.C L71–73；exercise endpoint | true |
 | RCT26-12 | 原helper chi2_ndf_1D也有不同合同：i<Nbins排最后bin、只o>0、分母ero²+ers²及nbins−1−numberfitparam。与Chi2Test/rawdeviance不能混称同χ²；原job缺不代选。 | alternative-statistic-contract | direct-release-code | EVASIONS Tools.C L48–64 | true |
 | RCT26-13 | API/test输入、Sumw2/scale、mask/bin、MCstats/共享Cov和fit参数rank必须整套匹配；本轮只建立新接口边界，未修producer/重fitτ/BR/CI或判实验错误。 | readiness-and-use-gate | synthesis-with-code | RCT26-2/3/5/8/9 | true |
+| RCT26-14 | 后续用F23原公开25display点做native查询，展示Sumw2/normalizer/配套variance合同改变结果；fallback41.6546、zero模板110.1959及一致UW缩放47.9398均条件合同，不鉴定原paperMC/fitstatistic。 | actual-public-graph-companion | direct-data-and-native | F23-24/25/26/27/28 | true |
 
 ## Analytical Reconstruction and Self-Audit
 

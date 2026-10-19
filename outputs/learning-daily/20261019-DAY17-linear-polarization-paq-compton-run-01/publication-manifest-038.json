@@ -1,0 +1,32 @@
+{
+  "subject": "Query ROOT on published lifetime graph with explicit variance contracts",
+  "verification_number": 52,
+  "paths": [
+    "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+    "knowledge/sources/root-2026-chi2test-option-contract.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "system/scripts/day17_fougeres2023_graph_root_contract.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-037.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-037.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-052.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-052.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-038.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint038.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-rescale-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-rescale-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-stderr.txt"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/XLSX/ZIP/binaries/credentials/inheriteddirty/daemon;logHEAD+own038;Ch3beforefreezeexcluded"
+}

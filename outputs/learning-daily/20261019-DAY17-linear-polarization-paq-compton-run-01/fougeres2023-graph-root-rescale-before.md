@@ -1,0 +1,3 @@
+# 真实图第一轮之后的variance配套控制
+
+四个声明合同已native通过，全25点未删：fallbackUU41.6546→重新按normalizedcontents取sqrt的43.2060；zero-template UW110.19594归一前后相同。新的明确未决点是rescale是否同时带variance。现在新增一项控制：先对原model存variance=M，再用实际TH1.Scale(alpha)一起缩放，检查variance=alpha²M，强制UW统计与原UW相同；不称初始variance=M是已知真实MC统计，亦不把auto分支变化当同一个统计量不变量失败。无新数据或原fit识别。

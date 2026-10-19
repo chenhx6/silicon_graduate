@@ -1,0 +1,18 @@
+{
+  "identity": "F23-PUBLISHED-GRAPH-ROOT-CONTRACT-01",
+  "xlsx": "tmp/day17-fougeres2023/data_figures_article.xlsx",
+  "xlsx_sha256": "896b291752c1ef94fd6f48841ce6bd22924a1c2768f077888869c5dc4024c1a8",
+  "sheet": "figure 2 right",
+  "state": "key7785",
+  "columns_1based": [
+    11,
+    12,
+    15,
+    16
+  ],
+  "SI_minimum": 17.1982,
+  "all_display_domain_only": true,
+  "ROOT_version": "6.40.04",
+  "boundary": "same source graph values, new actual API/variance contract query; not unmodified raw events or matching original job",
+  "additional_control": "original hypothetical variance=M, then actual TH1.Scale(alpha) preserving alpha^2 variance; not inferred MC history"
+}

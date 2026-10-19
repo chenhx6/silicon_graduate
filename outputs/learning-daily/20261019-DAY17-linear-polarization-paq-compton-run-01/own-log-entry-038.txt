@@ -1,0 +1,4 @@
+
+### Day17 checkpoint038：真实公开图数据的ROOT合同
+
+F23-24–28/RCT26-14+ledger保持25点原输入，新增actualnative/errorhistory与variance配套缩放；原fit未鉴定/不新CI。verification052/manifest038/commitguard/H3后发布，main / `Query ROOT on published lifetime graph with explicit variance contracts`；原windowactive/17once/partial18/no19。

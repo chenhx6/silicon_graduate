@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint038：真实公开25图点的新接口问题
+
+[[fougeres-2023-mg23-velocity-difference-lifetime]] F23-24–28/[[root-2026-chi2test-option-contract]] RCT26-14从原XLSX全25点逐行核旧表，新增actualROOT/interface/errorhistory查询。仍同源同数据，不当新独立实验或旧Pearson重跑授分。
+
+
 ### checkpoint037：原AppendixA.2实际背景门
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-48–53完整A.2/PDF168/printed165及FigA.2视觉核；额外A.3文本输出已如实记录scope，非整个附录读。源给真实三30keV窗，但没有逐bin/Cov。
@@ -155,6 +160,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint038：实际图点的统计与配套variance
+
+[程序](../../system/scripts/day17_fougeres2023_graph_root_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-result.json)：fallbackautoUU41.654553、zero-template UW110.195944；α1.095013423同域归一后fixeddeviance95.748411。原variance=M再actualScale使α²variance/forcedUW47.939784一致；不声称该variance是原MCstats。全点/无windowsearch，原SI17.1982未复现、不选近数值冒原fit。
+
 
 ### checkpoint037：真实三窗的精确符号合同
 
@@ -5661,6 +5671,71 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "F22-53"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "anchor": "真实显示数据的ROOT统计合同查询",
+      "summary": "新增F23-24–28，真实原图25点与actualROOT/statistic/errorhistory合同和一致缩放，原fit仍未鉴定。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-24"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-25"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-26"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-27"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-28"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/root-2026-chi2test-option-contract.md",
+      "anchor": "统计量由实际接口、误差状态与分析域共同定义",
+      "summary": "新增RCT26-14原公开图数据companion，非独立实验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "真实25图点：统计合同查询仍未识别原fit",
+      "summary": "保存全25点各统计合同对照与normalizer/errorhistory配套缩放边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-24"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-25"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-26"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-27"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-28"
+        }
+      ]
     }
   ]
 }
@@ -5879,3 +5954,7 @@ verification050核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint037原背景算符验收
 
 verification051核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及实际门/精确有理数artifact。通过后manifest037/commitguard/H3；原windowactive、formal17once/18partial/no19，原τ/BR/CI未重报。
+
+### checkpoint038真实图数据/native验收
+
+verification052核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及新真实data/nativeartifact。通过后manifest038/commitguard/H3，原window/goalactive、formal17once/partial18/no19，无新原paperfit/CI。

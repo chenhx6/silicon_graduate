@@ -1,0 +1,353 @@
+{
+  "at": "2026-10-19T21:54:41.014109+00:00",
+  "script_sha256": "df4fd4defa1b1ea8816434c0a23545575c589ca7281f97071ec78811e4f23a08",
+  "contract_sha256": "3620a888603bfc5d53528cefb373de33fc0a7547e4fc6fa7f5fceeec4e576ab2",
+  "actual_rows": [
+    {
+      "excel_row": 3,
+      "values": [
+        -0.00495495,
+        7.0714,
+        1e-05,
+        0.00316228
+      ]
+    },
+    {
+      "excel_row": 4,
+      "values": [
+        -0.00405405,
+        8.27519,
+        9.25,
+        3.04138
+      ]
+    },
+    {
+      "excel_row": 5,
+      "values": [
+        -0.00315315,
+        10.1378,
+        13.1,
+        3.61939
+      ]
+    },
+    {
+      "excel_row": 6,
+      "values": [
+        -0.00225225,
+        13.3693,
+        13.1,
+        3.61939
+      ]
+    },
+    {
+      "excel_row": 7,
+      "values": [
+        -0.00135135,
+        19.8507,
+        22.0833,
+        4.69929
+      ]
+    },
+    {
+      "excel_row": 8,
+      "values": [
+        -0.00045045,
+        33.0394,
+        27.2167,
+        5.21696
+      ]
+    },
+    {
+      "excel_row": 9,
+      "values": [
+        0.00045045,
+        45.0,
+        43.9,
+        6.62571
+      ]
+    },
+    {
+      "excel_row": 10,
+      "values": [
+        0.00135135,
+        44.9081,
+        43.9,
+        6.62571
+      ]
+    },
+    {
+      "excel_row": 11,
+      "values": [
+        0.00225225,
+        38.4738,
+        25.9333,
+        5.09248
+      ]
+    },
+    {
+      "excel_row": 12,
+      "values": [
+        0.00315315,
+        28.8954,
+        36.2,
+        6.01664
+      ]
+    },
+    {
+      "excel_row": 13,
+      "values": [
+        0.00405405,
+        21.3125,
+        28.5,
+        5.33854
+      ]
+    },
+    {
+      "excel_row": 14,
+      "values": [
+        0.00495495,
+        15.4277,
+        19.5167,
+        4.41777
+      ]
+    },
+    {
+      "excel_row": 15,
+      "values": [
+        0.00585586,
+        11.1932,
+        15.6667,
+        3.95811
+      ]
+    },
+    {
+      "excel_row": 16,
+      "values": [
+        0.00675676,
+        8.743,
+        1.55,
+        1.24499
+      ]
+    },
+    {
+      "excel_row": 17,
+      "values": [
+        0.00765766,
+        7.29936,
+        15.6667,
+        3.95811
+      ]
+    },
+    {
+      "excel_row": 18,
+      "values": [
+        0.00855856,
+        6.4122,
+        6.68333,
+        2.58521
+      ]
+    },
+    {
+      "excel_row": 19,
+      "values": [
+        0.00945946,
+        5.90317,
+        9.25,
+        3.04138
+      ]
+    },
+    {
+      "excel_row": 20,
+      "values": [
+        0.0103604,
+        5.5108,
+        7.96667,
+        2.82253
+      ]
+    },
+    {
+      "excel_row": 21,
+      "values": [
+        0.0112613,
+        5.1961,
+        9.25,
+        3.04138
+      ]
+    },
+    {
+      "excel_row": 22,
+      "values": [
+        0.0121622,
+        5.00107,
+        0.266666,
+        0.516398
+      ]
+    },
+    {
+      "excel_row": 23,
+      "values": [
+        0.0130631,
+        4.94063,
+        5.4,
+        2.32379
+      ]
+    },
+    {
+      "excel_row": 24,
+      "values": [
+        0.013964,
+        4.76951,
+        4.11667,
+        2.02896
+      ]
+    },
+    {
+      "excel_row": 25,
+      "values": [
+        0.0148649,
+        4.66381,
+        9.25,
+        3.04138
+      ]
+    },
+    {
+      "excel_row": 26,
+      "values": [
+        0.0157658,
+        4.54745,
+        22.0833,
+        4.69929
+      ]
+    },
+    {
+      "excel_row": 27,
+      "values": [
+        0.0166667,
+        4.52887,
+        9.25,
+        3.04138
+      ]
+    }
+  ],
+  "n": 25,
+  "source_model_display_sum": 364.47046,
+  "source_data_display_sum": 399.100046,
+  "same_display_domain_integral_multiplier": 1.0950134230357105,
+  "fixed_model_Pearson_original_display": 123.95631287311211,
+  "fixed_model_Pearson_normalized_display": 110.19594356607941,
+  "fixed_model_deviance_original_display": 98.93916437627443,
+  "fixed_model_deviance_normalized_display": 95.748410606013,
+  "native_cases": [
+    {
+      "mode": "fallback error, original display model",
+      "model_multiplier": 1.0,
+      "options": {
+        "LL CHI2": 41.654552694256175,
+        "CHI2": 41.654552694256175,
+        "UU CHI2": 41.654552694256175,
+        "UW CHI2": 47.93978359166912,
+        "WW CHI2": 40.916243480971744,
+        "LL CHI2/NDF": 1.7356063622606739
+      },
+      "Chi2TestX": {
+        "chi2": 41.654552694256175,
+        "ndf": 24,
+        "igood": 1,
+        "returned_p_value_not_interpreted_as_experimental": 0.014102476939577967
+      },
+      "model_sumw2_buffer_length": 0,
+      "model_error_squared_sum": 364.47046,
+      "boundary": "declared numerical contract on graph values; actual template variance unknown"
+    },
+    {
+      "mode": "zero model variance, original display model",
+      "model_multiplier": 1.0,
+      "options": {
+        "LL CHI2": 110.19594356607942,
+        "CHI2": 110.19594356607942,
+        "UU CHI2": 41.654552694256175,
+        "UW CHI2": 110.19594356607942,
+        "WW CHI2": 5995995.545109755,
+        "LL CHI2/NDF": 4.5914976485866426
+      },
+      "Chi2TestX": {
+        "chi2": 110.19594356607942,
+        "ndf": 24,
+        "igood": 1,
+        "returned_p_value_not_interpreted_as_experimental": 5.211765448420759e-13
+      },
+      "model_sumw2_buffer_length": 27,
+      "model_error_squared_sum": 0.0,
+      "boundary": "declared numerical contract on graph values; actual template variance unknown"
+    },
+    {
+      "mode": "fallback error, normalized display model",
+      "model_multiplier": 1.0950134230357105,
+      "options": {
+        "LL CHI2": 43.20600618252843,
+        "CHI2": 43.20600618252843,
+        "UU CHI2": 43.20600618252843,
+        "UW CHI2": 50.55512305393506,
+        "WW CHI2": 43.20600212537819,
+        "LL CHI2/NDF": 1.8002502576053512
+      },
+      "Chi2TestX": {
+        "chi2": 43.20600618252843,
+        "ndf": 24,
+        "igood": 1,
+        "returned_p_value_not_interpreted_as_experimental": 0.009421960787723492
+      },
+      "model_sumw2_buffer_length": 0,
+      "model_error_squared_sum": 399.10004599999996,
+      "boundary": "declared numerical contract on graph values; actual template variance unknown"
+    },
+    {
+      "mode": "zero model variance, normalized display model",
+      "model_multiplier": 1.0950134230357105,
+      "options": {
+        "LL CHI2": 110.19594356607941,
+        "CHI2": 110.19594356607941,
+        "UU CHI2": 43.20600618252843,
+        "UW CHI2": 110.19594356607941,
+        "WW CHI2": 5995995.545109758,
+        "LL CHI2/NDF": 4.591497648586642
+      },
+      "Chi2TestX": {
+        "chi2": 110.19594356607941,
+        "ndf": 24,
+        "igood": 1,
+        "returned_p_value_not_interpreted_as_experimental": 5.2117654484208e-13
+      },
+      "model_sumw2_buffer_length": 27,
+      "model_error_squared_sum": 0.0,
+      "boundary": "declared numerical contract on graph values; actual template variance unknown"
+    },
+    {
+      "mode": "stored original variance, then actual Scale",
+      "model_multiplier": 1.0950134230357105,
+      "options": {
+        "LL CHI2": 47.93978359166912,
+        "CHI2": 47.93978359166912,
+        "UU CHI2": 43.20600618252843,
+        "UW CHI2": 47.93978359166912,
+        "WW CHI2": 40.916243480971744,
+        "LL CHI2/NDF": 1.9974909829862133
+      },
+      "Chi2TestX": {
+        "chi2": 47.93978359166912,
+        "ndf": 24,
+        "igood": 3,
+        "returned_p_value_not_interpreted_as_experimental": 0.0025678144866386485
+      },
+      "model_sumw2_buffer_length": 27,
+      "model_error_squared_sum": 437.01990750416945,
+      "boundary": "declared numerical contract on graph values; actual template variance unknown"
+    }
+  ],
+  "published_SI_grid_minimum_for_reference_only": 17.1982,
+  "all_25_display_points_preserved_no_window_search": true,
+  "consistent_scale_variance_control_passed": true,
+  "error_contract_does_not_identify_actual_MC_variance": true,
+  "original_paper_statistic_fit_tau_or_CI_not_replayed": true,
+  "ok": true
+}

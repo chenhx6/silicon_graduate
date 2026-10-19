@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 28,
+    "knowledge/sources/root-2026-chi2test-option-contract.md": 14
+  },
+  "artifacts": [
+    {
+      "file": "fougeres2023-graph-root-result.json",
+      "true_fields": [
+        "ok",
+        "all_25_display_points_preserved_no_window_search",
+        "consistent_scale_variance_control_passed",
+        "error_contract_does_not_identify_actual_MC_variance",
+        "original_paper_statistic_fit_tau_or_CI_not_replayed"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

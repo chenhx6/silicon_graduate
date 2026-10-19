@@ -6,19 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; A.2 checkpoint037
+## Active handoff — DAY17 original window active; real graph ROOT checkpoint038
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–036actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察不伪造。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–037actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察。
 
-thesisCh4–6完整原读与F22-1–47已有canonical；本批F22-48–53新增完整A.2/PDF168/printed165与FigA.2视觉。实际DCγ三窗center7318–7348、sides7288–7318/7348–7378keV各30，投影Ealpha后减side平均。读取命令还额外输出A.3文本PDF168tail–170，已记priming未全视觉/未称整个附录读；Ch3/7/其它appendix仍未读。
+本批F23-24–28/RCT26-14真实公开XLSX key25点重新query+旧actualrows逐行相同、hash不改，全displaydomain未扫门删bin。actualROOT6.40.04/TH1D按index只作逐点和载体，不猜原bin：fallbackautoUU/LL41.654553，zero-modelvarianceautoUW/LL110.195944，fixednormalizeddeviance95.748411；声明合同均不等原SI17.1982，未鉴定paperfit/MCvariance/CI。
 
-新精确Fractionartifact不造counts：VarD=VS+VL/4+VU/4−CSL−CSU+CLU/2，仅独立primitivePoisson才S+(L+U)/4。背景densityb0+b1x+b2x²残余−b2h³，h30给−27000b2；actualb2/Cov/side信号泄漏未知，不修原yield/CI。初sympy缺失exit1记录，最终标准库无装包。actual图减后负值不能当rawPoisson。
+α=399.100046/364.47046=1.095013423；只填归一content让fallbacksqrt(αM)给UU43.206006，改变error合同。另先假定variance=M再actualScaleα，sumvarianceα²M=437.019908、forcedUW47.939784前后同；auto换UW是分支选择不等同一统计量失不变量。保lowcount/forcedUUwarnings，p/ndf24不解读实验检验。新scriptday17_fougeres2023_graph_root_contract.py与input/result/两次freeze/stderr齐，不新toycounts或原τfit。
 
-上一批RCT26双ROOT/sourceblob/native、LL不消费与inactiveCodeA42–141已actualpush；低count/forcedUUwarnings保留。036cachedstderrEOF空行被guard拒绝，未commit失败，规范deliveryEOF后actualcached0再commit/push；失败receipt与原tmpstderr保。raw/source/34hash未改。
+canonicalF23/RCT26/lifetimeledger/report单writeback，verification052actualreceipt通过后main / `Query ROOT on published lifetime graph with explicit variance contracts`稳定指针，hash/push只publication038/run.json。旧F22-1–53 Ch4–6+A.2/source原rows/flags保。
 
-canonicalthesis/lifetimeledger/report单writeback与输入/结果/冻结/scope齐。verification051actualreceipt通过后main / `Recover actual background windows and exact subtraction covariance contract`稳定指针，hash/push只publication037/run.json。
+当前下一Ch3已先冻并完整文本读PDF44–72/printed41–69，29页，31图8表11式尚未视觉核，不能预填complete。缓存ch3.txt与p44..p72.png，render进程session79128需核completion；未persistCh3scope/claims/exercise。新信息候选：thin无keyγ、posttargetdensity/beam强度不准、AGATA152Eu低能绝对+MCnormal1.80(6)外推/εEq3.9分母、4mmPSA扰动派生σθ.667而非独立localization测、trackingframe−π/2、SPIDER几何版本/Alcover/strip-sector门、DCTgaspressure未记/孔径校准。Eq3.6 Bρ字面potential动量-β合同需视觉/新exercise，不能预判实验错误。Ch7未读/未开其它卡。
 
-下一当前有界高信息：对F23真实公开Fig2right key25点，用刚核实际ROOT接口和完整显示domain判statistic/normalizer/errorhistory合同，先新freeze；不是重跑旧Pearson为新交付，不扫描删bin强配SI17.1982，不造原MCvariance或paperCI。已查看旧actualrows JSON为priming，原XLSXsha需核。若无新匹配输入，另一候选Ch3实际calibration/response。约05:53上海仍>9h，继续window/不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/log。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+约06:06上海仍近9h，继续原window不日终/goalcomplete；保护raw/PLAN/Bib/credentials/继承dirty/daemon/oldlog。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

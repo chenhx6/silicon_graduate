@@ -2190,3 +2190,7 @@ RCT26-1–13/sourceblob/native与EV23-16/method/ledger/indexcanonical；LL未消
 ### Day17 checkpoint037：真实背景三窗
 
 F22-48–53/A.2原件与精确Fraction误差operator写回canonical。verification051/manifest037/commitguard/H3后发布，main / `Recover actual background windows and exact subtraction covariance contract`；新假设计数/实验CI均无。原windowactive、17once/partial18/no19。
+
+### Day17 checkpoint038：真实公开图数据的ROOT合同
+
+F23-24–28/RCT26-14+ledger保持25点原输入，新增actualnative/errorhistory与variance配套缩放；原fit未鉴定/不新CI。verification052/manifest038/commitguard/H3后发布，main / `Query ROOT on published lifetime graph with explicit variance contracts`；原windowactive/17once/partial18/no19。

@@ -76,6 +76,11 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 | F23-21 | 后续原34file/native核给真实409303-entry可读快照与publicrelease readiness边界：补lib后原build0，原loader数长/逗号解析及VAMOS scalar输出不回传，fitwidth分支未实现。仅限制publicrelease论文fit复现，不判实际paperproducer/τ/BR错或重算CI；原34hash保留。 | actual-public-producer-companion | native-and-input-audit | EV23-1/2/5/6/8/13/14 | true |
 | F23-22 | 后续完整原读Friedman2020作者稿，.65(.08)%含新gas相对p强度及旧I866abs/旧gammafeed；本推荐Bp又合此值，推荐tau也合J04。因此两个omega≈.24不是两次完全独立强度确认，source/responsecounter价值与共享reference分开。 | actual-branch-primary-and-dependence | direct-original-companion | FR20-7/10/12/14/15 | true |
 | F23-23 | 作者thesisChapter4完整原读补实测19(1)mmgap、responseσ/SNR与28Si benchmarknormalization/fit窗口；支持publicgeometry而限制backtoback简写的外推。longbenchmark不替本fsfitcoverage，未取得完整原job/Cov。 | same-study-primary-companion-and-scope | direct-thesis | F22-2/10/11/12/13/15 | true |
+| F23-24 | 后续新实际ROOT接口查询直接从原XLSX重新取Fig2right key25点，与旧actualrows逐行相同；保持全部displaydomain、未扫描删bin/调门。新问题是统计/误差合同，不把同图重算计独立实验。 | actual-graph-new-interface-query | direct-source-data-and-native | figure2right K/L/O/P rows3–27；graph-root-result | true |
+| F23-25 | 同25display值建indexedTH1D，仅求和载体：原model无Sumw2 fallback时autoUU/LL41.654553；显式zero模板variance时autoUW/LL110.195944。各合同均未恢复真实MCvariance/原job，LL不是新likelihood开关。 | actual-interface-contract-sensitivity | native-ROOT-on-graph-values | graph-root-result native_cases0/1；RCT26-2/3 | true |
+| F23-26 | 同displaydomain归一α=399.100046/364.47046=1.095013423；fixedmodelPearson110.195944、Poissondeviance95.748411。重新把归一内容当sqrtvariance的fallback给UU43.206006；这是声明误差合同变化，不是只normalizer的物理效果。 | normalization-and-variance-contract | actual-graph-arithmetic-and-native | graph-root-result native_cases2/3 | true |
+| F23-27 | 以假定原variance=M再actualTH1.Scale(α)，sumvariance=α²sumM=437.019908，强制UW保持原47.939784；auto换UW不等同一检验不变量失败。原模板error未知，此仅配套缩放控制，非MCstat估计。 | consistent-error-rescaling-control | native-on-actual-graph-values | graph-root-result native_case4 | true |
+| F23-28 | 上述完整display合同均未复现SI17.1982，returnedp/ndf24及lowcountigood不解释为实验检验或两物理fit自由度。fractionaldisplay/1e−5点与未知MC/原mask阻止选择最接近的统计量冒原τfit/CI。 | original-fit-readiness-boundary | synthesis-with-actual-input | graph-root-result；F23-18/19；RCT26-5 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -108,3 +113,11 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 ## Chapter4实际输入：geometry与验证域
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-1–15在本session完整读作者thesisChapter4(非全201页)，实测19(1)mmgap与responseσ/SNR定义比本paper简写更具体。28Si测试用独立归一/fit窗口且只验证其条件longlivedcase，不能移作本τ/Eγ0grid或zeroCov保证。
+
+## 真实显示数据的ROOT统计合同查询
+
+[新问题前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-before.md)、[配套variance控制前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-rescale-before.md)、[输入合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-contract.json)、[程序](../../system/scripts/day17_fougeres2023_graph_root_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-result.json)。
+
+原XLSX全25点/作者displayerrors逐字节hash与旧表逐行对齐。TH1D横轴为点index，只是逐点和的接口载体，不推原bin边界。source没有modelerrors，fallback与zero均声明假设，不能称其中一种是原MC统计。source输入/curve未改，ROOT的低count/forcedUU告警保在[stderr](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-stderr.txt)。无窗口搜索、原τ重fit或CI。
+
+只改content而让GetBinError重新取sqrt，会改变effectiveMCstat；另actualScale一起缩variance的对照说明为什么normalizer与errorhistory要共同保存。该新native查询不提供额外独立实验或原paperfit吻合，不把某个结果接近图中χ²/ndf当作job已识别。

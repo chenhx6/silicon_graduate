@@ -348,3 +348,16 @@ CodeA L42–141整段示例inactive，这是对grep候选的明确限制，也�
 [符号练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-result.json)以真实门而无假造counts推Var=VS+VL/4+VU/4−CSL−CSU+CLU/2；仅独立primitivePoisson时S+(L+U)/4。多track/sharedevent或其它weights需实际Cov。减后D不能直接当Poisson计数，原bin/闭开边界也待job。背景曲率模型b0+b1x+b2x²残余−b2h³，h30给−27000b2，不给actualb2/实验偏差；signal到side泄漏另需response。
 
 只补原operator，不补Ch6pureAu全流程/τfit/Σ。初sympy缺失已记，最终只标准库Fraction精确有理数；读取时额外A.3文字作为priming记录，不称整个附录原读或新课程卡。
+
+### 真实25图点：统计合同查询仍未识别原fit
+
+[[fougeres-2023-mg23-velocity-difference-lifetime]] F23-24–28与[[root-2026-chi2test-option-contract]] RCT26-14使用原公开25图点作新native接口查询，不重复旧Pearson当新实验。全点/原error/原XLSXhash保，未扫描门或删bin匹配17.1982。
+
+| 明确声明的数值合同 | 全25点结果 | 边界 |
+| --- | --- | --- |
+| ROOTautoUU、modelerror取fallbacksqrt(M) | 41.654553 | 不知道真实MC误差；非固定模板deviance |
+| zero-modelvariance的UW、same-domain归一 | 110.195944 | 等normalizedPearson；zero只是条件 |
+| same-domainfixedmodeldeviance | 95.748411 | fractionaldisplay不认证rawPoisson |
+| 假定原variance=M后actualScaleα，强制UW | 47.939784 | α²variance配套缩放前后一致，不估实际MCstats |
+
+α=1.095013423；重新只填αM而让fallbacksqrt(αM)给UU43.206006，改变了数值误差合同。actualScale保存α²sumM=437.019908，不能把只内容归一和完整统计对象缩放混同。所有接口p/ndf24/lowcountwarnings都不解读为实验检验、没有原τ/E0profile/Cov。下一matchinginput仍是原job/mask/模板误差历史，当前都不能与SI17.1982作同一统计量闭合。

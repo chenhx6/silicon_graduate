@@ -144,3 +144,7 @@ RCT26-1–13固定6.24.06/6.40.04原TH1函数与native，LL未消费、errorstat
 ### Day17 checkpoint037 priming：原A.2背景三窗
 
 F22-48–53实际三30keVγ窗投影Ealpha，D=S−(L+U)/2及完整Cov；独立Poisson特例不是减后D。曲率残余与signal泄漏需actualinput，不给实验修正。A.3额外文字输出已记priming，未读全附录。正式18不复用旧检查授分。
+
+### Day17 checkpoint038 priming：真实图数据的新统计合同
+
+F23-24–28/RCT26-14保持原25点/全部displaydomain/原error与XLSXhash，nativefallbackUU41.6546、zero-template UW110.1959、同域deviance95.7484；α1.095配varianceα²时forcedUW47.9398不变。实际MCvariance/job/mask未知，未复现SI17.1982，不扫描强配、不重报τ/CI；正式18不能换旧checks授分。

@@ -1,0 +1,5 @@
+# 真实公开图数值的ROOT合同核验前冻结
+
+已primed：F23原文/SI与原XLSX25个key图点已读，旧JSON显示fullPearson123.956不等SIgrid17.1982，数据display含1e−5且有非整数，不能称raw独立Poisson。现在新问题是刚核ROOT实际API/Sumw2与同域归一如何改变这个真实图对象的统计量，不是重复旧算式计交付。
+
+只保全25显示点，从原XLSX按原columns取x/m/y/e并与旧actualrows交叉核；不删/扫bins或调normalizer/variance强配原grid。构建indexedTH1D仅作原数字求和的接口载体，真实x仍存/对应行，不猜producerbin边界。dataerrors按作者图e；model未给error，分别明确未存Sumw2的ROOTfallback、显式zero-variance确定模板两种合同，均不是已知实际MCvariance。算原display与同25点integral归一的Pearson/Poissondeviance、actualROOT LL/auto/UW/UUndf/igood；不知道原fitstatistic，不能选最接近17.1982者当重放。禁止新τ/CI/p值实验结论。
