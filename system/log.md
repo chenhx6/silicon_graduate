@@ -2110,3 +2110,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint021 — bounded MODEL packet/readiness
 
 同19日Day17原窗口继续，formal17once/18uncredited。原eventmain64MODEL联合packet/schema/keV/6820proposal与freshprocessstrictreplay已canonical，52hash不变，物理/依赖警告与原data/job/Cov保持。A1981只metadata/body未得，有界publicrefs/releases/DataCite未获新实验包，不宣称全球穷尽。verification035 report/29changed31mapped/coverage/boundary/lint/diff/protected0，0errors215warnings，新K16/SD15rows true且旧flags保持。stablemain / Record bounded MODEL alpha gamma packet and producer readiness；hash/push仅runreceipt，原15:00截止/goalactive不变。
+
+## 2026-10-20 Day17 checkpoint021 format-gate correction
+
+内容localcommit在确认cachedcheck失败前被启动；尚未push。失败为derivedCSV CRLF和公开卡注释尾空格，原runtimecard/ROOT/ASCII/52source不变，48tokens/64rows一致；仅analysis交付副本规范LF/尾空格。保原失败/版本/hash，不改历史，用follow-up修复。current/cumulative/requiredverification已复核，H3只在修复HEAD与显式文件门全通过后执行。稳定指针main / Normalize MODEL packet delivery without changing physics data；actualhash/push仅publication021receipt。

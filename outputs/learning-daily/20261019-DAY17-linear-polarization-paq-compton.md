@@ -3417,3 +3417,8 @@ Forster compiled真实十点/units与原reader两tablemode/strictreplay已canoni
 ### checkpoint021 MODEL接口/readiness验收（不是新课程卡）
 
 原eventmain64MODELpacket/schema/条件6820分母/RNG/新目录strictreplay与52hash已canonical，物理/依赖警告及原experimentaldata/job/Cov缺口保持；A-primary只metadata。旧K16_17/SD15_16rowsflags保持，新K16-18/19及SD15-17–22 true且indexed。verification035记录report/29changed31mapped/coverage/boundary/lint/diff/protected/packet实际exit，0error215warnings。stablemain / `Record bounded MODEL alpha gamma packet and producer readiness`，actualhash/H3/push仅publication021。原window/goalactive、formal17once/18partial不变；下一独立Jenkinsprimary需actualbody/新artifact，不再增加MODELhistory填缺口。
+
+
+### checkpoint021 Git门失败与补偿修复
+
+暂存check发现derivedMODEL CSV的CRLF与卡comment尾空格；在确认失败前已启动本地内容commit，是本session流程失误，尚未push。原runtime卡/ROOT/ASCII/52source均不改，只规范公开analysis副本行尾；48cardtokens/64CSV解析行逐项相同，初失败与原始卡文本/hash在publication-021-preflight-failure-and-correction.json保存。不重写历史，以 `Normalize MODEL packet delivery without changing physics data` 补偿提交，重跑current/cumulative/staged checks及H3通过后才推送。格式命令最后print变量名误用的exit1也保留，写入与hash复查独立确认。没有因此改变物理结果、needs_review或课程状态。

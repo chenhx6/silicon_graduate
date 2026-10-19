@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "origin/main",
+    "--check"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "scope": "currentworktreecumulativesincelastpushedcontent;notinitialfailingcommitcheck"
+}

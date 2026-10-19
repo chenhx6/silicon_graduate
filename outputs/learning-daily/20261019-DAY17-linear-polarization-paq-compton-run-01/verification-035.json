@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T18:03:37.411071+00:00",
+  "checked_at": "2026-10-19T18:11:19.689999+00:00",
   "valid": true,
   "report": {
     "valid": true,
@@ -130,10 +130,7 @@
     "raw/zotero/wiki-inbox.bib": true
   },
   "review_checks": {
-    "old_claim_rows_flags_preserved": {
-      "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 17,
-      "knowledge/sources/simdsam-2015-public-dsam-code.md": 16
-    },
+    "old_claim_rows_flags_preserved": {},
     "review_metadata_preserved": true,
     "indexed_counts": {
       "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 19,

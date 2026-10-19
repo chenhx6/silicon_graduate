@@ -1,0 +1,22 @@
+{
+  "subject": "Normalize MODEL packet delivery without changing physics data",
+  "paths": [
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-MODEL-job.CARD",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-MODEL-joint.csv",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-source-versions.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-021-preflight-failure-and-correction.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-021-cumulative-format-check.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-035.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-035-before-format-repair.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-021-format.txt"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "publication_content_manifest": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-manifest-021.json",
+  "history_preserved": true,
+  "only_delivery_format_and_recovery_records": true
+}

@@ -28,7 +28,7 @@ ON  # 3He implantation distribution (ON/OFF); if OFF, the 3He ions are assumed t
 60.0  # maximum emission angle of alpha in decay frame (deg)
 GEANT  # source of stopping-power data for ions with Z>=3 (PASS/GEANT)
 OFF  # Alpha angular distribution; isotropic if OFF
-OFF  # Gamma angular correlation; isotropic if OFF 
+OFF  # Gamma angular correlation; isotropic if OFF
 10000  #  size of monte carlo samples
 ON  # energy straggling (ON/OFF)
 ON  # angular straggling (ON/OFF)

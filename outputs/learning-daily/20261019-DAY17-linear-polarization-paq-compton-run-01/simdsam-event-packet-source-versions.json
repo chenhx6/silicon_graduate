@@ -5,5 +5,10 @@
   "final_diagnostic_fixture": "simdsam-event-packet-main.cc",
   "final_fixture_sha256": "b958c990921cbf227727576063298f4009bee5461ce4b4496871ffba03da4103",
   "only_changes": "readonlyRNG andpostmainbookkeepingstdout; originalmainphysicsunchanged",
-  "evidence": "ASCIIexactandROOTvaluesreproduced"
+  "evidence": "ASCIIexactandROOTvaluesreproduced",
+  "initial_runtime_card_sha256": "1d263a491a4afaac6e67b15e0141ab24b21b2d45b3304040e3a90dbe4d380029",
+  "published_normalized_card_sha256": "8c34ea7ca5bbed331dd5b82ddf361a67e87eaf53f88b33b4584c4617463c5a87",
+  "published_card48tokens_unchanged": true,
+  "CSV64parsedrows_unchanged": true,
+  "format_correction_receipt": "publication-021-preflight-failure-and-correction.json"
 }

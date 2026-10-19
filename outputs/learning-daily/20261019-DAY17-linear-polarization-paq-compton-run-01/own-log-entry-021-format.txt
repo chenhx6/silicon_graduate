@@ -1,0 +1,4 @@
+
+## 2026-10-20 Day17 checkpoint021 format-gate correction
+
+内容localcommit在确认cachedcheck失败前被启动；尚未push。失败为derivedCSV CRLF和公开卡注释尾空格，原runtimecard/ROOT/ASCII/52source不变，48tokens/64rows一致；仅analysis交付副本规范LF/尾空格。保原失败/版本/hash，不改历史，用follow-up修复。current/cumulative/requiredverification已复核，H3只在修复HEAD与显式文件门全通过后执行。稳定指针main / Normalize MODEL packet delivery without changing physics data；actualhash/push仅publication021receipt。

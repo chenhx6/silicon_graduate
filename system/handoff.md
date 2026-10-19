@@ -8,7 +8,7 @@ updated: 2026-10-19
 
 ## Active handoff — DAY17 original window active; MODEL packet checkpoint021
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–020actualH3/Giteepush；formal17仅007后一次/course next18/count17、partial18，不授18/研究19课程卡。原runner16:06中断不伪造normalexit。021稳定指针main / `Record bounded MODEL alpha gamma packet and producer readiness`，actualhash/push仅publication021/runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–020actualH3/Giteepush；021本地内容提交后发现cachedcheck失败（derivedCSV CRLF/卡comment尾空格），尚未push；已normalize语义不变，保原runtimecard/52source，准备非rewrite follow-up修复及重检后一次H3；formal17仅007后一次/course next18/count17、partial18，不授18/研究19课程卡。原runner16:06中断不伪造normalexit。021稳定指针main / `Record bounded MODEL alpha gamma packet and producer readiness`，actualhash/push仅publication021/runreceipt。
 
 新原publiceventmain在独立tmp目录复制publicdata、显式MODEL卡只改64detected/array10000/输出路径，其余defaultphysics保留；三freshprocess执行/重编译0、52hash不变。dsamTree64rows EPART/EGAMMA Float_t/keV，ASCII另有observedangles；MODELCSV与ROOT校验最大舍入差.04961/.00490keV。freshgRandom TRandom3/4357，局部原seed1/2/3/4保持；只读RNG/bookkeeping诊断不改stream，ASCII逐字同、ROOTbranch逐值同，ROOTbinarymeta哈希不要求相等。
 
@@ -583,3 +583,5 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
 最新稳定Git指针：main + Add global multipole pair and independent ICC input audit，16-file非force Gitee发布/H3通过，full hash仅run.json；七页writeback/card、lint0error/91warning、diff/原review/protected文件验收通过。原学习硬截止明日2026-10-08 15:00不变，state8/7，[8]completed、[9]partial，无Day10。Native goal继续，不因该segment/checkpoint结束而final课程。
 
 下一步按research-checkpoint.json.handover_pending：C global29-check parent已复现，尚未canonical/report写回；collect E0/ICC/tau补充与LKH82 model重读回执。LKH82 printed179有真实旧source错误：原文IBM更合magnitudes、PPQ更合signs，旧LKH82-2与段落将PPQ同时概括为两者更佳；需原图parent确认后修正，needs_review保留，不继承这条旧概括。BrIcc新dated supplement已有全部25shell行/5FO Tot/K与coverage/version和1.4%含interp条件，旧human-review记录未改、新claims true。No daemon/new main session；clock110255/Farmer87927保持监督，accepted/executed分开。Day9计划/prompt与状态推进仍留15:00收束。
+
+格式修复稳定指针 main / `Normalize MODEL packet delivery without changing physics data`，原内容subject仍保留，actualhash/push只publication021receipt。
