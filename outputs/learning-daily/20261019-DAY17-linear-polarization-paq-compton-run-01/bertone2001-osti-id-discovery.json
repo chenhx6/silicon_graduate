@@ -1,0 +1,5 @@
+{
+  "url": "https://www.osti.gov/api/v1/records/40277695",
+  "scope": "newexactOSTIid fromINSPIRE, metadata/publicbodylink only, no body assumed",
+  "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records/40277695 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.osti.gov', port=443) at 0x7ff4c958d5b0>, 'Connection to www.osti.gov timed out. (connect timeout=20)'))"
+}

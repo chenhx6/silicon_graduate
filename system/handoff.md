@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; spin-half checkpoint010
+## Active handoff — DAY17 original window active; DSAM counterprimary checkpoint011
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–009实际H3/Gitee push；007后formal17只授一次/course next18/count17，partial18、未开19。原runner16:06中断不伪造normalexit/新session。010稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/push仅本runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–010实际H3/Gitee push；formal17仅007后计一次/course next18/count17、partial18，未开19。原runner16:06中断不伪造normalexit/新session。011稳定指针main / `Read DSAM experimental counter-evidence and audit attenuation contracts`，actualhash/push仅本runreceipt。
 
-Day17卡complete但原窗口继续。新的knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md针对SI Fig9/12的真实Ji1/2前提，证明末态全求迹的parityconserving核rest singles I=1/linearQ/U0、orientation可circularV≠0；symbolicδ效应矩阵与新旋转迹相合，后者共享SymPyCG/旧d helper不计独立实现/实验。原YA67 PDF1 Eq1/2定向+视觉核，未重新23页。
+新Schuermann2008 source实际arxiv0804.1934v1七页/九图两表两式完整读、全部mainfigures视觉核；2008metadata/边栏与PDFdated2018字面分开，官方tex date today不当2018新测量。单Ge密角/gain/共a-b/primaryF限制后6792/6172 F.99(.01)、τ<.77fs；作者保留旧data点相容却finiteτ结论未confirm。Eq1 P.987是finiteDopplercorrection，不是linearP，PAQnote同步辨字；F分母映射.97713/−.01287只条件算术，不原τbias。
 
-必要反例均保留：downstreamγgate的1/2→3/2→1/2 pureM1/M1 jointW=1+¼P2；Ji3/2 lowm pureM1给1−½P2；declaredboostβ.1 lab a2≈.0200862。actualSunA2究竟restemission还是phenomenologicallab/response尚未知，不能机械置0、叫已测alignment、判原fitwrong或估原τbias。script/contract/firstsubset与补gate版本/结果已留新artifact，不换旧程序分数。
+新TableI/II/width/statcontrast脚本是实际输入诊断非Fτ重拟：6792独立quotedSDcontrast1.897与固定旧central/新scale6不是同test，不冒重现/否定作者>5sigma；τ.77fs→.85482eV与Γγ数值相合但total/radiative/1sigmalimit分开，不升90%CI。5181companion共享系统误差，TableII只用Bister旧F再分析、非另测两态；原Refs12/18 primary未读。SRIMpoly/centroids/Σ/P误差未得，未造producer。
 
-verification020实际report/22changed/24mapped(另未改LKH82/YA67)/coverage/boundary/lint/diff0，0errors201warnings(142key55raw4parser)，原Sun22行/review/PLAN/Bib保持。旧MADAI两API组件/Boostfullbuild失败、Sun2022v2+正式SI/未得VoRmainbody的范围全部继承，未改raw/credentials/系统配置/继承dirty。
+verification022实际report/23changed/25mapped(未改LKH82/YA67)/coverage/boundary/lint/diff0，0errors203warnings(143key56raw4parser)，原Sun自010未改与PLAN/Bib保护。旧Sun/SI/MADAI/spinhalfproof边界继承，raw/旧review/继承dirty保持，卡完成不结束原窗口。
 
-下一新input路线：SunSI Ref13 Fry2018 thesis机构search429验证页，OpenAlex结果无关，不接受body/不绕过。准确新primary Galinski2014 DOI10.1103/PhysRevC.90.035803、题名Lifetime measurements of states in15O（Sun旧fsMC Ref45）metadata已核；sourcebeforebody回忆已冻，downloader95338实际CDP不可达do_not_auto_retry，body未得；正查不同publicPDF/arxivmetadata路径，不预填frame/prior/同data。若能原读优先找A2角色/boost旧定义，但旧pipeline也不自动等2022actualproducer。继续exactly无学分18方法preview，不开19/授18/重授17；原deadline后整日收束/检查/receipt/发布齐才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+Galinski2014 DOI90.035803 exactmetadata有但body未得：原downloaderCDP不可达do_not_auto_retry、trustedcitationPDF HTTPS实际login/errorpage、INSPIRE无arxiv/doc，arxiv纠正query只otherpapers；终态不原样重试。Fry2018机构429不绕过。新boundedcounterrouteBertone2001 PRL87.152501/题名6793metadata核，来源前primed回忆已冻，publicPDFdownload1474实际pdf_fetch_failed/login_or_error_page，body未得；只新OSTI索引路线待有效input，不预填原校准。INSPIRE只metadata ID580918/OSTI40277695，不当body。下一先核clock/publication011/receipt再选择有效newinput，仍exactlypartial18、不授18/重授17/开19。原15点后stop研究并整日收束/检查/receipt/发布，之后goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

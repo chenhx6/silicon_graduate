@@ -1,11 +1,11 @@
-# Day17同session继续：checkpoint010之后
+# Day17同session继续：checkpoint011之后
 
-继承run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不变。nativegoal/runactive/Farmer42019不新建。001–009actualpush；010以publication010结果为准。正式17只007后计一次/course next18/count17，18preview无学分，未开19，不能重复授分。先核clock/receipt/handoff/verification020。
+继承run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不变。nativegoal/runactive/Farmer42019不新建；001–010actualpush，011以publication011为准。formal17已只计一次/course next18/count17，18preview无学分、未开19，不能重授。先核clock/receipt/handoff/verification022。
 
-新spinhalf-angular-nuisance-response-contract对应SunSI Fig9/12 actualJi1/2输入：核restframe、末态identity的parityconservingEM singles I1/Q/U0而circularV可非0。symbolic与旋转迹共享SymPyCG旧d helper，不计独立实现/实验。finalγgate jointW1+¼P2、Ji3/2rank2与declaredboostβ.1是必要反例，actualSunA2 frame/module未知，不机械置0或算τbias。oldhelperspriming与新contract/firstsubset/补gate版本保留，不兑换旧分数。
+本批Schuermann2008(arxiv0804.1934v1/PRC77.055803)七页/9fig2table2eq与所有关键视觉原读、来源前priming冻/版本hash保存。密角/单Ge/gain/共geometry与primaryF限制使6792/6172 finiteτ不confirm，旧data点仍相容；P.987是finiteDoppler而非linearP。newTableI/II/PF/Γ/统计对象算术不恢复原centroids/Σ/SRIMpoly，不把quotedSDcontrast当作者>5σtest或造90%CI。5181同runcompanion与Bister旧F再分析不计独立测量。
 
-020actualreport/22changed/24mapped唯一writeback/coverage/boundary/lint/diff0，0errors201warnings；Sun旧22行/flags、PLAN/Bib/raw/继承dirty保持。旧MADAI2015组件非paperproducer，Sunv2+publisherSI非已得VoRbody，actualcounts/GP/config/draws仍缺。
+022report/23changed25mapped唯一writeback/coverage/boundary/lint/diff0，0errors203warnings；原Sun自010未改、PLAN/Bib/raw/review/继承dirty保持。原窗口继续，17卡complete不代表goalcomplete。
 
-下一Galinski2014准确DOI10.1103/PhysRevC.90.035803(15O旧DSAMmethod/SunRef45)，metadata与beforebodyprimedfreeze已留；downloader95338实际CDP不可达do_not_auto_retry，当前只metadata未body，新publicPDF/arxiv路径以实际discoveryreceipt为准，查frame/角关联/boost/priors是高信息route。Fry2018 MSUsearch429验证页、OpenAlex无关结果留boundary，不绕过/原样重试。旧方法不能裸当Sun2022producer或同实验。
+Galinski2014body终态未得、Fry2018机构429验证不可绕过，失败receipt留档不重试同URL。下一Bertone2001旧实验DOI10.1103/PhysRevLett.87.152501(metadata题名6793)，beforebodyprimedfreeze已留；publicPDFdownload1474实际pdf_fetch_failed/login_or_error_page，仍只metadata，原body校准/fit/field未读；只新OSTI40277695索引路线可待有效input，不原样重试APS。INSPIRE ID580918/OSTI40277695只索引，不当body。如得到原件读主线/图表/实际误差，不从2008转引替它。
 
-持续同goal原窗口，只exactly18无学分preview；若新matchingP/Qinput出现可回17，不开19。原15点stop新研究，整日report/knowledge/checks/nextprompt/receipt/actualpublication齐后才goalcomplete。
+仍只exactly无学分18methodpreview，不开19；有matchingP/Qinput可回17。原15点stop新研究，整日报告/知识/checks/续接/receipt/actualpublication完整后goalcomplete。

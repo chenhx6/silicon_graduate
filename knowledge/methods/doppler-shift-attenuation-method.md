@@ -111,3 +111,9 @@ SUN23-11的6390态无finiteconstraint；20fs及Γ>33meV是条件应用链，不�
 SUN23-17–22的publisherSI已原读：见[[sun-2023-bayesian-dsam-31s]]。它补target/DAQ/逐态αgates与posterior图，不给actualGP/config/draws；Fig13不是额外90%limit表，图轴也不自动给priorhardcut。1/2+态的A2需先核其物理对象/帧，不能直接叫已测alignment。
 
 [[spinhalf-angular-nuisance-response-contract]]按SUN23-20/23/24区别核rest发射prior与lab/responseA2：Ji1/2在末态全求迹的parityconservingEM singles核内无P2/linearP，但后续γgate/boost是必要反例。未定Sunactualframe前不机械置零或推τbias；alpha初态tag与末态postselection分开。
+
+## finite寿命与upperlimit的实验反证：15O6792
+
+[[schuermann-2008-15o-6792-dsam]] SCH08-3–10给实际同Ge密角扫描、gain/geometrycombinedfit与primaryF限制的反证：旧data点可相容，但原finiteτ提取未获新数据支持。Eq1的P=.987为Doppler有限尺寸修正，非偏振P。F.99(.01)与τ<.77fs的上限需source的SRIM/density/σ语义，不能自动转90%limit或与Sunposteriorquantile同口径。
+
+SCH08-11/12的条件算术表明省P可造成apparentF.97713，以及两个reported中心的独立SDcontrast并非作者>5σtest。原centroidΣ/MCcurve未得，不从summary造重拟。TableII复用旧F检验analysis，非新增两态测量；5181同runcompanion也共享systematics。

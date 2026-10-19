@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T21:23:13.288319+08:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-before-body.md",
+  "sha256": "5de6e4297178d27747ac39f4d3e1fa88832da2cbf72190935e995ff32809d8db",
+  "priming": "otherDSAMsources + thiscandidate metadata/abstractexposed; notblind",
+  "body_read": false
+}

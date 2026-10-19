@@ -1,0 +1,42 @@
+{
+  "subject": "Read DSAM experimental counter-evidence and audit attenuation contracts",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+    "system/scripts/day17_schuermann2008_attenuation_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-010.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-022.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-011.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-011.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-attenuation-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-attenuation-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-before-body-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-before-body.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-crossref.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-download-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-source-version.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-body-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-arxiv-plain-query.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-inspire-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-before-body-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-before-body.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-body-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-crossref.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-inspire.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-osti-id-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bertone2001-public-access-discovery.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inherited dirty, PLAN/raw/Bib/credentials/tmp/binaries/daemon; log HEAD+own011 only"
+}

@@ -22,3 +22,5 @@ Day17仍在其原2026-10-20 15:00窗口持续；本prompt不会缩短该截止�
 本日输出按runner实际report/run-dir/statefile；日报有固定Runstate等十标题、唯一knowledge-writeback（exactanchor/每atomiclocator一reference）和≥4complete行的Day18cardaudit，formalcompleted[18]；若时间门允许只下一卡无学分preview，不跨更多课卡、不提早终止有用窗口。研究15点停止新路，收束完成report/canonicalknowledge/checks/continuation/nextprompt/actualsessionreceipt/发布后才推进一次学分。普通发布沿Gitee origin精确manifest/H3/fetch/ancestry/dry-run/nonforce HEAD:main；实际hash只receipt，不写本commit自身hash。科学partial不阻普通安全发布，failedrequiredcheck或未隔离hardP0则留本地如实。
 
 Day17后续priming还包括spinhalf-angular-nuisance-response-contract：1/2 rest singles定理有末态identity/frame条件，finalγgate/boost反例都保留，actualSunA2角色未知。它不认证原τbias、不是formal18交付或独立盲测；Galinski2014当下只metadata/正在尝试取body，最新进度必须核后续canonical/receipt，不预填结果。
+
+Day17再追加priming：schuermann-2008-15o-6792-dsam原七页完整已读，singleGe/gain/denseangle/commongeometry/primaryF约束与finite转limit反证；P=.987是finiteDoppler，不是linearP。新summarycontrast/width算术不重现原profiletest或Σ，不把1sigmalimit升90%。TableII复用BisterF非另测；Bertone2001/Galinski2014原body当前scope只认后续actualreceipt，不能从转引预填。

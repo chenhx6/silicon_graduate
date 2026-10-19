@@ -1,0 +1,121 @@
+{
+  "identity": "SCH08-ATTENUATION-GEOMETRY-COMPARISON-01",
+  "script_sha256": "025de7fa1fde301ff1dda764c600728657917af7487faf85cf3e8430bd61fef1",
+  "contract_sha256": "026aa4cbde789689bdc67d656e75e46029ee8c8a6d4b1e3aacbe506fe1b8b420",
+  "source_tableI": [
+    {
+      "E_keV": 1384,
+      "role": "primary",
+      "F": 1.0,
+      "sigma_F": 0.01,
+      "reported_chi2": 0.6
+    },
+    {
+      "E_keV": 2375,
+      "role": "primary",
+      "F": 0.99,
+      "sigma_F": 0.01,
+      "reported_chi2": 1.0
+    },
+    {
+      "E_keV": 5181,
+      "role": "secondary",
+      "F": 0.78,
+      "sigma_F": 0.02,
+      "reported_chi2": 0.4,
+      "tau_fs": 8.4,
+      "sigma_tau_fs": 1.0
+    },
+    {
+      "E_keV": 6172,
+      "role": "secondary",
+      "F": 0.99,
+      "sigma_F": 0.01,
+      "reported_chi2": 1.1,
+      "tau_upper_fs": 0.77
+    },
+    {
+      "E_keV": 6792,
+      "role": "secondary",
+      "F": 0.99,
+      "sigma_F": 0.01,
+      "reported_chi2": 0.7,
+      "tau_upper_fs": 0.77
+    }
+  ],
+  "source_tableII_reused_F": [
+    {
+      "Ex14N_keV": 3948,
+      "old_experimental_F": 0.894,
+      "old_sigma_F": 0.005,
+      "old_tau_fs": 8.4,
+      "old_sigma_tau": 0.4,
+      "newanalysis_tau_fs": 8.1,
+      "newanalysis_sigma_tau": 0.4
+    },
+    {
+      "Ex14N_keV": 5690,
+      "old_experimental_F": 0.82,
+      "old_sigma_F": 0.08,
+      "old_tau_fs": 16.0,
+      "old_sigma_tau": 8.0,
+      "newanalysis_tau_fs": 14.0,
+      "newanalysis_sigma_tau": 8.0
+    }
+  ],
+  "geometry_mapping": {
+    "source_equation": "F=Delta/(Delta_full*P)",
+    "P_role": "finite-detector Doppler correction, not linear polarization",
+    "Delta_over_Delta_full_if_source_centers": 0.9771299999999999,
+    "apparent_F_if_P_incorrectly_set_one": 0.9771299999999999,
+    "apparent_minus_source_F": -0.012870000000000048,
+    "relative_factor_if_P_omitted": -0.013000000000000012,
+    "correction_ratio_1_over_P": 1.0131712259371835,
+    "scope": "conditionalmappingofsourcecenters; nooriginalDeltaCov or lifetimebias recovered"
+  },
+  "conditional_summary_contrasts": [
+    {
+      "E_keV": 5181,
+      "difference": 0.09999999999999998,
+      "Z_if_independent_reported_scales_are_SD": 2.773500981126145,
+      "Z_if_old_central_is_fixed_new_only_scale": 4.999999999999999,
+      "not_original_profile_significance_or_CI": true,
+      "lifetime_center_difference": -1.2699999999999996,
+      "lifetime_Z_if_independent_SD": -0.7743326662791091
+    },
+    {
+      "E_keV": 6172,
+      "difference": 0.07999999999999996,
+      "Z_if_independent_reported_scales_are_SD": 1.5689290811054712,
+      "Z_if_old_central_is_fixed_new_only_scale": 7.999999999999996,
+      "not_original_profile_significance_or_CI": true
+    },
+    {
+      "E_keV": 6792,
+      "difference": 0.05999999999999994,
+      "Z_if_independent_reported_scales_are_SD": 1.897366596101026,
+      "Z_if_old_central_is_fixed_new_only_scale": 5.999999999999994,
+      "not_original_profile_significance_or_CI": true
+    }
+  ],
+  "width_conversion": {
+    "source_tau_upper_fs": 0.77,
+    "hbar_over_tau_lower_eV": 0.8548207232467532,
+    "author_calls_Gamma_gamma_lower_eV": 0.85,
+    "boundary": "formula gives totalwidth; authorradiative interpretation/inventory separate; doesnotupgrade source1sigma-limitlanguage to90percentCI"
+  },
+  "assumptions": [
+    "allnumbers typedfromactualarxivv1 PDF4–6 Eq1/TableI/II; not rawdata",
+    "geometryP=.987 heldfixed onlyfornominalmap; P uncertainty/crossCov not given, not silentlytreatedzero fororiginalexperiment",
+    "Zcontrasts explicitly assumeindependentquotedSD andmatching scalarobject; not actualprofilecomparison/author>5sigma significance, no pvalue/newCI",
+    "oldandnewF->tau modelcurves differ, TableII reusesoldexperimentalF notnewmeasurements",
+    "Gamma=hbar/tau totalmeanwidth; authorGamma_gamma interpretation separate, no newnon-gamma inventory inference",
+    "no actualMCcollisionhistories/sixthordercoefficients/centroids/jointSigma recovered, noF(tau) or lifetimefit fabricated",
+    "sourceuses1sigma-upperlimitwording inN:Ta sensitivityparagraph; not turnedinto90percentconfidence",
+    "formal17creditedonce; exactlyuncredited18preview; no19"
+  ],
+  "original_centroids_cov_or_stopping_polynomial_recovered": false,
+  "experimental_refit_or_new_CI": false,
+  "ok": true,
+  "generated_at": "2026-10-19T13:32:34.226612+00:00"
+}

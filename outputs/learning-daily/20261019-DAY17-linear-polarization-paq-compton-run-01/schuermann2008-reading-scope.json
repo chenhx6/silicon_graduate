@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T13:29:34.032858+00:00",
+  "actualbody": "arxiv0804.1934v1/11Apr2008 label, PDFprintsDatedNov11,2018 literal; journalmetadata2008 not rewritten",
+  "pdf_sha256": "e052b2ab382b9982522d009612cb1362f4ecb981a8724ad7b3829ff492671f61",
+  "actualreadscope": "all7pages mainline+references,9figures/2tables/2equations; PDF1–6 allmainfigures visuallyread",
+  "Vor_mainbody_acquired": false,
+  "sourceclaim_layers": "publishedF/centroids fit; SRIM/polynomial andGEANTPmodel; authors finite-to-limit interpretation; taskarithmetic separately",
+  "raw_events_counts_centroidCov_Srim_collisionhistory_polynomial_coefficients_acquired": false,
+  "formalday": 17,
+  "uncreditedpreviewday": 18
+}

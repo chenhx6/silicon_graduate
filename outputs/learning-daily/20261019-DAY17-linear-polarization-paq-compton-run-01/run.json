@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit MADAI likelihood paths and read official DSAM supplement",
-    "commit": "5874c51cb151c9da143d21e9f25290a1685aa95d",
+    "subject": "Separate spin-half emission from gated and lab angular response",
+    "commit": "b98ead2c9a34f7168e81bd30926ffbe11ac21635",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow; spinhalf conditionalkernel closed, Galinski2014 primaryacquisition next; formal17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-020.json",
-  "last_observed_at": "2026-10-19T12:59:44.137093+00:00",
+  "research_status": "active originalwindow; Schuermanncounterprimary read/conditionalaudit; Bertoneprimaryacquisitionnext; formal17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-022.json",
+  "last_observed_at": "2026-10-19T13:21:32.333412+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 22,
+  "canonical_knowledge_changed_pages": 23,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

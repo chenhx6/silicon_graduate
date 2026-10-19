@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"doi\": \"10.1103/PhysRevLett.87.152501\",\n  \"accessDiscovery\": {\n    \"status\": \"oa_candidate\",\n    \"landingUrl\": \"https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.87.152501\",\n    \"landingHost\": \"journals.aps.org\",\n    \"candidateUrl\": \"http://link.aps.org/pdf/10.1103/PhysRevLett.87.152501\",\n    \"candidateUrls\": [\n      \"http://link.aps.org/pdf/10.1103/PhysRevLett.87.152501\"\n    ],\n    \"method\": \"citation_pdf_url\",\n    \"evidence\": {\n      \"url\": \"http://link.aps.org/pdf/10.1103/PhysRevLett.87.152501\",\n      \"method\": \"citation_pdf_url\",\n      \"source\": {\n        \"provenance\": \"trusted_direct\",\n        \"finalUrl\": \"https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.87.152501\"\n      }\n    },\n    \"candidatesTruncated\": false,\n    \"candidateCount\": 1,\n    \"provider\": \"direct\",\n    \"strategy\": \"direct\",\n    \"proxyType\": \"datacenter\",\n    \"creditsCost\": 0,\n    \"targetStatus\": 200,\n    \"fetchedAt\": \"2026-10-19T13:39:12.424Z\",\n    \"verification\": {\n      \"status\": \"inconclusive\",\n      \"reason\": \"pdf_mime_missing\"\n    }\n  },\n  \"pdfUrl\": \"http://link.aps.org/pdf/10.1103/PhysRevLett.87.152501\"\n}"
+    }
+  ]
+}

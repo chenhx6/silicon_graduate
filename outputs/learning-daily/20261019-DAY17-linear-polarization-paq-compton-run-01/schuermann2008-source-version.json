@@ -1,0 +1,57 @@
+{
+  "url": "https://arxiv.org/src/0804.1934v1",
+  "scope": "sourceversion/date-provenance only, no sourcecode execution",
+  "status": 200,
+  "bytes": 142130,
+  "sha256": "8fe6218d63ce3a340e1dc237fca327c161d8fe78786cea2ae07e4770219a28d1",
+  "content_type": "application/gzip",
+  "members": [
+    {
+      "name": "doppler.bbl",
+      "bytes": 6441
+    },
+    {
+      "name": "doppler.tex",
+      "bytes": 30209
+    },
+    {
+      "name": "figure1.ps",
+      "bytes": 11910
+    },
+    {
+      "name": "figure2.ps",
+      "bytes": 61717
+    },
+    {
+      "name": "figure3.ps",
+      "bytes": 42621
+    },
+    {
+      "name": "figure4.ps",
+      "bytes": 10588
+    },
+    {
+      "name": "figure5.ps",
+      "bytes": 108879
+    },
+    {
+      "name": "figure6.ps",
+      "bytes": 54470
+    },
+    {
+      "name": "figure7.ps",
+      "bytes": 45716
+    },
+    {
+      "name": "figure8.ps",
+      "bytes": 93256
+    },
+    {
+      "name": "figure9.ps",
+      "bytes": 39667
+    }
+  ],
+  "tex_date_lines": [
+    "\\date{\\today}% It is always \\today, today,"
+  ]
+}

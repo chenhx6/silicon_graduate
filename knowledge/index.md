@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[schuermann-2008-15o-6792-dsam]] - 原读15O有限寿命到上限的直接反证：密角/共同几何/增益、F分母与统计对象。
+
 - [[madai-2015-distribution-sampling-likelihood]] - 固定2015内核两API实际组件：variableCov/normalizer与callpath边界，不代Sun paperproducer。
 
 - [[sun-2023-bayesian-dsam-31s]] - 原读2022v2：jointpriors/GP/quantile、6390条件上限与modelE2扣除的实际边界。

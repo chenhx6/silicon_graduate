@@ -1,0 +1,9 @@
+{
+  "body_obtained": false,
+  "identity_only": "Crossref/OpenAlex/INSPIREexactDOI 10.1103/PhysRevC.90.035803",
+  "direct_download": "trustedcitationPDFcandidate metadatafound, actualHTTPSprovidedURL login_or_error_page, pdf_fetch_failed",
+  "institutional_downloader": "CDPproxy missing do_not_auto_retry; no newbrowser/daemon",
+  "arxiv": "firstfieldedquery400; correctedplainqueryreturnsotherpapers, noneacceptedGalinski",
+  "INSPIRE": "exactrecord no arxiv_eprints/documents; notglobalproofnoOA",
+  "next": "stopthese terminalroutes, readinessretained; boundedaccessibleexperimentalcounterprimaryselected"
+}

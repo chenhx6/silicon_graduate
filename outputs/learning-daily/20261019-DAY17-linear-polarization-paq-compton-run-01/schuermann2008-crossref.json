@@ -1,0 +1,111 @@
+{
+  "url": "https://api.crossref.org/works/10.1103%2FPhysRevC.77.055803",
+  "status": 200,
+  "scope": "exact metadata only",
+  "metadata": {
+    "title": [
+      "Lifetime measurement of the 6792 keV state in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>15</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>, important for the astrophysical<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>S</mml:mi></mml:mrow></mml:math>factor extrapolation in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">N</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>14</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>(<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>γ</mml:mi></mml:mrow></mml:math>)<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>15</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>"
+    ],
+    "DOI": "10.1103/physrevc.77.055803",
+    "author": [
+      {
+        "given": "D.",
+        "family": "Schürmann",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Kunz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "I.",
+        "family": "Lingner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Rolfs",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Schümann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Strieder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.-P.",
+        "family": "Trautvetter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "volume": "77",
+    "page": null,
+    "article-number": "055803",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          13
+        ]
+      ]
+    },
+    "relation": {},
+    "update-to": null
+  }
+}

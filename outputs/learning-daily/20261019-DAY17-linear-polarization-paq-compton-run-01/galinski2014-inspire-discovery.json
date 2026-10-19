@@ -1,0 +1,1930 @@
+{
+  "url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2",
+  "status": 200,
+  "scope": "DOI/arxiv/publicdocument metadata only",
+  "data": {
+    "hits": {
+      "hits": [
+        {
+          "metadata": {
+            "citation_count": 13,
+            "publication_info": [
+              {
+                "journal_volume": "90",
+                "artid": "035803",
+                "year": 2014,
+                "journal_issue": "3",
+                "journal_title": "Phys.Rev.C"
+              }
+            ],
+            "authors": [
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  },
+                  {
+                    "value": "Department of Physics, Simon Fraser University , Burnaby, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "galinski, n.",
+                "full_name": "Galinski, N.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2440535"
+                },
+                "last_name": "Galinski",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "N.Galinski.3"
+                  }
+                ],
+                "signature_block": "GALANSCn",
+                "first_name": "N.",
+                "uuid": "f7205faa-1697-46d3-9dcd-e815b9834acf",
+                "recid": 2440535
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "sjue, s.k.l.",
+                "full_name": "Sjue, S.K.L.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2263056"
+                },
+                "last_name": "Sjue",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "S.K.L.Sjue.3"
+                  }
+                ],
+                "signature_block": "SJs",
+                "first_name": "S.K.L.",
+                "uuid": "0842c3a5-6fe3-4788-8737-2135d8d37dee",
+                "recid": 2263056
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "ball, g.c.",
+                "full_name": "Ball, G.C.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1064633"
+                },
+                "last_name": "Ball",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "G.C.Ball.1"
+                  }
+                ],
+                "signature_block": "BALg",
+                "first_name": "G.C.",
+                "uuid": "05b8fa70-49d6-44c3-b47b-b73498371968",
+                "recid": 1064633
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "cross, d.s.",
+                "full_name": "Cross, D.S.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2027138"
+                },
+                "last_name": "Cross",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "D.S.Cross.3"
+                  }
+                ],
+                "signature_block": "CRd",
+                "first_name": "D.S.",
+                "uuid": "a097870a-5c90-480a-90b1-968f47dae104",
+                "recid": 2027138
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "davids, b.",
+                "full_name": "Davids, B.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1041593"
+                },
+                "last_name": "Davids",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "Barry.Davids.1"
+                  }
+                ],
+                "signature_block": "DAVADb",
+                "first_name": "B.",
+                "uuid": "6cf4c437-4812-4a55-902c-38e7ff81f729",
+                "recid": 1041593
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Astronomy and Physics, Saint Mary's University , Halifax, Nova Scotia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "al falou, h.",
+                "full_name": "Al Falou, H.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2263035"
+                },
+                "last_name": "Al Falou",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "H.AlFalou.2"
+                  }
+                ],
+                "signature_block": "FALh",
+                "first_name": "H.",
+                "uuid": "e39d1bf4-3aef-4371-83c4-e91b73db2e57",
+                "recid": 2263035
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "garnsworthy, a.b.",
+                "full_name": "Garnsworthy, A.B.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1920102"
+                },
+                "last_name": "Garnsworthy",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "A.B.Garnsworthy.4"
+                  }
+                ],
+                "signature_block": "GARNSWARTHYa",
+                "first_name": "A.B.",
+                "uuid": "c926441b-9042-4457-8ca3-cd8f26c3299f",
+                "recid": 1920102
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "hackman, g.",
+                "full_name": "Hackman, G.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1041596"
+                },
+                "last_name": "Hackman",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "G.Hackman.1"
+                  }
+                ],
+                "signature_block": "HACNANg",
+                "first_name": "G.",
+                "uuid": "7dc93711-d75b-4b35-9538-7f30492b94b8",
+                "recid": 1041596
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "hager, u.",
+                "full_name": "Hager, U.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2503846"
+                },
+                "last_name": "Hager",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "U.Hager.15"
+                  }
+                ],
+                "signature_block": "HAGARu",
+                "first_name": "U.",
+                "uuid": "1ca30bed-abee-4fcd-aab9-81b8f312dd99",
+                "recid": 2503846
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  },
+                  {
+                    "value": "Department of Physics, Simon Fraser University , Burnaby, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "howell, d.a.",
+                "full_name": "Howell, D.A.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1005473"
+                },
+                "last_name": "Howell",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "D.F.Howell.1"
+                  }
+                ],
+                "signature_block": "HALd",
+                "first_name": "D.A.",
+                "uuid": "0258f551-23db-40e5-9a22-392666fabc5e",
+                "recid": 1005473
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Physics, University of Liverpool , Liverpool, United Kingdom"
+                  }
+                ],
+                "full_name_unicode_normalized": "jones, m.",
+                "full_name": "Jones, M.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1004162"
+                },
+                "last_name": "Jones",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "M.Jones.1"
+                  }
+                ],
+                "signature_block": "JANm",
+                "first_name": "M.",
+                "uuid": "25959faa-a27e-4877-91a6-f6d19cd1950e",
+                "recid": 1004162
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Astronomy and Physics, Saint Mary's University , Halifax, Nova Scotia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "kanungo, r.",
+                "full_name": "Kanungo, R.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1003706"
+                },
+                "last_name": "Kanungo",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "R.Kanungo.1"
+                  }
+                ],
+                "signature_block": "CANANGr",
+                "first_name": "R.",
+                "uuid": "a5cb387f-3365-42d8-bac0-bb1168878f3c",
+                "recid": 1003706
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "kshetri, r.",
+                "full_name": "Kshetri, R.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1060350"
+                },
+                "last_name": "Kshetri",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "R.Kshetri.1"
+                  }
+                ],
+                "signature_block": "CSATRr",
+                "first_name": "R.",
+                "uuid": "e02d3040-3f76-46ce-b8b5-486ee0a4c1bb",
+                "recid": 1060350
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Physics, University of Guelph , Guelph, Ontario, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "leach, k.g.",
+                "full_name": "Leach, K.G.",
+                "curated_relation": true,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2052379"
+                },
+                "last_name": "Leach",
+                "ids": [
+                  {
+                    "schema": "ORCID",
+                    "value": "0000-0002-4751-1698"
+                  },
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "Kyle.G.Leach.1"
+                  }
+                ],
+                "signature_block": "LACHk",
+                "first_name": "K.G.",
+                "uuid": "4df321e6-65c6-41ff-91f9-5daa50d0f3ee",
+                "recid": 2052379
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Physics, Queens University , Kingston, Ontario, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "leslie, j.r.",
+                "full_name": "Leslie, J.R.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1022132"
+                },
+                "last_name": "Leslie",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "J.Leslie.1"
+                  }
+                ],
+                "signature_block": "LASLYj",
+                "first_name": "J.R.",
+                "uuid": "aeb4c771-d6bd-4ccd-bbaf-ec943dee0c0a",
+                "recid": 1022132
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "moukaddam, m.",
+                "full_name": "Moukaddam, M.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1905601"
+                },
+                "last_name": "Moukaddam",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "M.Moukaddam.1"
+                  }
+                ],
+                "signature_block": "MACADANm",
+                "first_name": "M.",
+                "uuid": "22205cfd-15fd-4d4b-837b-937e5e7697a6",
+                "recid": 1905601
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  },
+                  {
+                    "value": "Department of Physics, University of the Western Cape , South Africa"
+                  }
+                ],
+                "full_name_unicode_normalized": "orce, j.n.",
+                "full_name": "Orce, J.N.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1039956"
+                },
+                "last_name": "Orce",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "J.N.Orce.1"
+                  }
+                ],
+                "signature_block": "ORCj",
+                "first_name": "J.N.",
+                "uuid": "7360cf0b-a918-48b2-a83d-8b67832e9321",
+                "recid": 1039956
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Physics, University of Guelph , Guelph, Ontario, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "rand, e.t.",
+                "full_name": "Rand, E.T.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1272573"
+                },
+                "last_name": "Rand",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "E.T.Rand.1"
+                  }
+                ],
+                "signature_block": "RADe",
+                "first_name": "E.T.",
+                "uuid": "317651fa-dbfd-4932-bcb9-13a496ee5e87",
+                "recid": 1272573
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "ruiz, c.",
+                "full_name": "Ruiz, C.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2021165"
+                },
+                "last_name": "Ruiz",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "C.Ruiz.1"
+                  }
+                ],
+                "signature_block": "Rc",
+                "first_name": "C.",
+                "uuid": "d46ff2e5-5af6-4c6c-9d54-10d72fd359fb",
+                "recid": 2021165
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "ruprecht, g.",
+                "full_name": "Ruprecht, G.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2357684"
+                },
+                "last_name": "Ruprecht",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "G.Ruprecht.5"
+                  }
+                ],
+                "signature_block": "RAPRACHTg",
+                "first_name": "G.",
+                "uuid": "ce70f60d-1f6e-4e1e-bdfa-7cde169e7ce0",
+                "recid": 2357684
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Physics, University of Guelph , Guelph, Ontario, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "schumaker, m.a.",
+                "full_name": "Schumaker, M.A.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1912703"
+                },
+                "last_name": "Schumaker",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "M.A.Schumaker.2"
+                  }
+                ],
+                "signature_block": "SANACARm",
+                "first_name": "M.A.",
+                "uuid": "309f6673-8593-4dd8-9cdd-ce6975bf688d",
+                "recid": 1912703
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "Department of Physics, University of Guelph , Guelph, Ontario, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "svensson, c.e.",
+                "full_name": "Svensson, C.E.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1944563"
+                },
+                "last_name": "Svensson",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "C.E.Svensson.3"
+                  }
+                ],
+                "signature_block": "SVANSANc",
+                "first_name": "C.E.",
+                "uuid": "e7a8aa6b-93ee-4ffd-abfd-6d8e1f4837bb",
+                "recid": 1944563
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  },
+                  {
+                    "value": "Department of Physics, University of the Western Cape , South Africa"
+                  },
+                  {
+                    "value": "iThemba Laboratory for Accelerator Based Sciences , Somerset West 7129, South Africa"
+                  }
+                ],
+                "full_name_unicode_normalized": "triambak, s.",
+                "full_name": "Triambak, S.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1049846"
+                },
+                "last_name": "Triambak",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "S.Triambak.1"
+                  }
+                ],
+                "signature_block": "TRANBACs",
+                "first_name": "S.",
+                "uuid": "c90a769d-4a95-4c79-bedf-8ce7af93f2cb",
+                "recid": 1049846
+              },
+              {
+                "raw_affiliations": [
+                  {
+                    "value": "TRIUMF , Vancouver, British Columbia, Canada"
+                  }
+                ],
+                "full_name_unicode_normalized": "unsworth, c.d.",
+                "full_name": "Unsworth, C.D.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1284349"
+                },
+                "last_name": "Unsworth",
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "C.D.Unsworth.1"
+                  }
+                ],
+                "signature_block": "UNSWARTHc",
+                "first_name": "C.D.",
+                "uuid": "b467c45f-91f7-49ba-ba68-09c453058bd7",
+                "recid": 1284349
+              }
+            ],
+            "citation_count_without_self_citations": 9,
+            "citeable": true,
+            "copyright": [
+              {
+                "material": "publication",
+                "year": 2014,
+                "holder": "American Physical Society"
+              }
+            ],
+            "$schema": "https://inspirehep.net/schemas/records/hep.json",
+            "keywords": [
+              {
+                "schema": "PACS",
+                "value": "21.10.Tg"
+              },
+              {
+                "schema": "PACS",
+                "value": "26.20.-f"
+              }
+            ],
+            "references": [
+              {
+                "reference": {
+                  "imprint": {
+                    "publisher": "Chicago: University of Chicago Press"
+                  },
+                  "label": "1",
+                  "publication_info": {
+                    "year": 1988
+                  },
+                  "title": {
+                    "title": "Cosmos in the Cauldron"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Rolfs, C.E."
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.physletb.2004.04.003"
+                  ],
+                  "label": "2",
+                  "publication_info": {
+                    "journal_volume": "590",
+                    "artid": "13",
+                    "year": 2004,
+                    "page_start": "13",
+                    "journal_title": "Phys.Lett.B"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "degl'Innocenti, S."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/636176"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1086/305201"
+                  ],
+                  "label": "3",
+                  "publication_info": {
+                    "journal_volume": "494",
+                    "artid": "96",
+                    "year": 1998,
+                    "page_start": "96",
+                    "journal_title": "Astrophys.J."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Chaboyer, B."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/447196"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1146/annurev-astro-081811-125539"
+                  ],
+                  "label": "4",
+                  "publication_info": {
+                    "journal_volume": "51",
+                    "artid": "21",
+                    "year": 2013,
+                    "page_start": "21",
+                    "journal_title": "Ann.Rev.Astron.Astrophys."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Haxton, W.C."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1182195"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/RevModPhys.83.195"
+                  ],
+                  "label": "5",
+                  "publication_info": {
+                    "journal_volume": "83",
+                    "artid": "195",
+                    "year": 2011,
+                    "page_start": "195",
+                    "journal_title": "Rev.Mod.Phys."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Adelberger, E.G."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/851966"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/0375-9474(87)90528-8"
+                  ],
+                  "label": "6",
+                  "publication_info": {
+                    "journal_volume": "467",
+                    "artid": "240",
+                    "year": 1987,
+                    "page_start": "240",
+                    "journal_title": "Nucl.Phys.A"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Schröder, U."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1453368"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/0375-9474(91)90446-D"
+                  ],
+                  "label": "7",
+                  "publication_info": {
+                    "journal_volume": "523",
+                    "artid": "1",
+                    "year": 1991,
+                    "page_start": "1",
+                    "journal_title": "Nucl.Phys.A"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Ajzenberg-Selove, F."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/331808"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/S0375-9474(00)00696-5"
+                  ],
+                  "label": "8",
+                  "publication_info": {
+                    "journal_volume": "690",
+                    "artid": "755",
+                    "year": 2001,
+                    "page_start": "755",
+                    "journal_title": "Nucl.Phys.A"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Angulo, C."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1461822"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.physletb.2004.03.092"
+                  ],
+                  "label": "9",
+                  "publication_info": {
+                    "journal_volume": "591",
+                    "artid": "61",
+                    "year": 2004,
+                    "page_start": "61",
+                    "journal_title": "Phys.Lett.B"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Formicola, A."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/635481"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1140/epja/i2005-10138-7"
+                  ],
+                  "label": "10",
+                  "publication_info": {
+                    "journal_volume": "25",
+                    "artid": "455",
+                    "year": 2005,
+                    "page_start": "455",
+                    "journal_title": "Eur.Phys.J.A"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Imbriani, G."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/691244"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevLett.94.082503"
+                  ],
+                  "label": "11",
+                  "publication_info": {
+                    "journal_volume": "94",
+                    "artid": "082503",
+                    "year": 2005,
+                    "journal_title": "Phys.Rev.Lett."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Runkle, R.C."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/656716"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevC.78.022802"
+                  ],
+                  "label": "12",
+                  "publication_info": {
+                    "journal_volume": "78",
+                    "artid": "022802",
+                    "year": 2008,
+                    "journal_title": "Phys.Rev.C"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Marta, M."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/791846"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevLett.87.152501"
+                  ],
+                  "label": "13",
+                  "publication_info": {
+                    "journal_volume": "87",
+                    "artid": "152501",
+                    "year": 2001,
+                    "journal_title": "Phys.Rev.Lett."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Bertone, P.F."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/580918"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevC.77.055803"
+                  ],
+                  "label": "14",
+                  "publication_info": {
+                    "journal_volume": "77",
+                    "artid": "055803",
+                    "year": 2008,
+                    "journal_title": "Phys.Rev.C"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Schürmann, D."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/783271"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.physletb.2003.11.024"
+                  ],
+                  "label": "15",
+                  "publication_info": {
+                    "journal_volume": "579",
+                    "artid": "265",
+                    "year": 2004,
+                    "page_start": "265",
+                    "journal_title": "Phys.Lett.B"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Yamada, K."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/636664"
+                }
+              },
+              {
+                "reference": {
+                  "imprint": {
+                    "publisher": "New York: Plenum"
+                  },
+                  "label": "16",
+                  "publication_info": {
+                    "year": 1968
+                  },
+                  "title": {
+                    "title": "Adv.Nucl.Phys."
+                  },
+                  "misc": [
+                    "Vol 10, pp 197–320"
+                  ],
+                  "authors": [
+                    {
+                      "full_name": "Alexander, T.K."
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.nima.2004.11.031"
+                  ],
+                  "label": "17",
+                  "publication_info": {
+                    "journal_volume": "Sect.",
+                    "artid": "A540",
+                    "year": 2005,
+                    "page_start": "A540",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Svensson, C.E."
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "collaborations": [
+                    "geant4 Collaboration"
+                  ],
+                  "dois": [
+                    "10.1016/S0168-9002(03)01368-8"
+                  ],
+                  "label": "18",
+                  "publication_info": {
+                    "journal_volume": "Sect.",
+                    "artid": "A506",
+                    "year": 2003,
+                    "page_start": "A506",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Agostinelli, S."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/593382"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.nima.2006.10.185"
+                  ],
+                  "label": "19",
+                  "publication_info": {
+                    "journal_volume": "Sect.",
+                    "artid": "A570",
+                    "year": 2007,
+                    "page_start": "A570",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Schumaker, M.A."
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.nima.2005.09.050"
+                  ],
+                  "label": "20",
+                  "publication_info": {
+                    "journal_volume": " Sect.",
+                    "artid": "A556",
+                    "year": 2006,
+                    "page_start": "A556",
+                    "journal_title": "Nuc.Instrum.Methods Phys.Res."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Sarkar, M. Saha"
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevC.74.045803"
+                  ],
+                  "label": "21",
+                  "publication_info": {
+                    "journal_volume": "74",
+                    "artid": "045803",
+                    "year": 2006,
+                    "journal_title": "Phys.Rev.C"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Kanungo, R."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/717806"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevC.77.035803"
+                  ],
+                  "label": "22",
+                  "publication_info": {
+                    "journal_volume": "77",
+                    "artid": "035803",
+                    "year": 2008,
+                    "journal_title": "Phys.Rev.C"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Mythili, S."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/766809"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1109/TNS.2007.910853"
+                  ],
+                  "label": "23",
+                  "publication_info": {
+                    "journal_volume": "55",
+                    "artid": "84",
+                    "year": 2008,
+                    "page_start": "84",
+                    "journal_title": "IEEE Trans.Nucl.Sci."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Martin, J.P."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/754468"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/j.nimb.2010.02.091"
+                  ],
+                  "label": "24",
+                  "publication_info": {
+                    "journal_volume": "Sect.",
+                    "artid": "B268",
+                    "year": 2010,
+                    "page_start": "B268",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Ziegler, J.F."
+                    }
+                  ]
+                },
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/2725693"
+                }
+              },
+              {
+                "reference": {
+                  "collaborations": [
+                    "Particle Data Group"
+                  ],
+                  "dois": [
+                    "10.1016/j.physletb.2008.07.018"
+                  ],
+                  "label": "25",
+                  "publication_info": {
+                    "journal_volume": "667",
+                    "artid": "1",
+                    "year": 2008,
+                    "page_start": "1",
+                    "journal_title": "Phys.Lett.B"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Amsler, C."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/792295"
+                }
+              },
+              {
+                "reference": {
+                  "imprint": {
+                    "publisher": "Oxford: Oxford University Press"
+                  },
+                  "label": "26",
+                  "publication_info": {
+                    "year": 1998
+                  },
+                  "title": {
+                    "title": "Statistical Data Analysis"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Cowan, G."
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/0022-3115(81)90217-8"
+                  ],
+                  "label": "27",
+                  "publication_info": {
+                    "journal_volume": "96",
+                    "artid": "51",
+                    "year": 1981,
+                    "page_start": "51",
+                    "journal_title": "J.Nucl.Mater."
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Alexander, T.K."
+                    }
+                  ]
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/0375-9474(77)90599-1"
+                  ],
+                  "label": "28",
+                  "publication_info": {
+                    "journal_volume": "286",
+                    "artid": "505",
+                    "year": 1977,
+                    "page_start": "505",
+                    "journal_title": "Nucl.Phys.A"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Keinonen, J."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1446677"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1016/0375-9474(68)90509-5"
+                  ],
+                  "label": "29",
+                  "publication_info": {
+                    "journal_volume": "121",
+                    "artid": "209",
+                    "year": 1968,
+                    "page_start": "209",
+                    "journal_title": "Nucl.Phys.A"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "Gill, R.D."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1433621"
+                }
+              },
+              {
+                "reference": {
+                  "dois": [
+                    "10.1103/PhysRevC.86.014312"
+                  ],
+                  "label": "30",
+                  "publication_info": {
+                    "journal_volume": "86",
+                    "artid": "014312",
+                    "year": 2012,
+                    "journal_title": "Phys.Rev.C"
+                  },
+                  "authors": [
+                    {
+                      "full_name": "McCutchan, E.A."
+                    }
+                  ]
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1084728"
+                }
+              }
+            ],
+            "number_of_pages": 11,
+            "legacy_creation_date": "2014-12-03",
+            "author_count": 24,
+            "earliest_date": "2014-09-05",
+            "refereed": true,
+            "external_system_identifiers": [
+              {
+                "schema": "NSR",
+                "value": "2014GA24"
+              }
+            ],
+            "facet_author_name": [
+              "1905601_M. Moukaddam",
+              "1912703_M.A. Schumaker",
+              "1920102_A.B. Garnsworthy",
+              "1944563_C.E. Svensson",
+              "2052379_Kyle Leach",
+              "2027138_D.S. Cross",
+              "2021165_C. Ruiz",
+              "2263035_H. Al-Falou",
+              "2263056_S.K.L. Sjue",
+              "2357684_G. Ruprecht",
+              "1003706_Rituparna Kanungo",
+              "1004162_Mark Andrew Jones",
+              "1005473_David F. Howell",
+              "1022132_Judy Leslie",
+              "1039956_José Nicolás Orce",
+              "1041593_Barry Davids",
+              "1041596_Greg Hackman",
+              "1049846_S. Triambak",
+              "1060350_Ritesh Kshetri",
+              "1064633_Gordon Ball",
+              "1272573_Evan Thomas Rand",
+              "1284349_Carl D. Unsworth",
+              "2440535_N. Galinski",
+              "2503846_U. Hager"
+            ],
+            "_oai": {
+              "sets": [
+                "Literature"
+              ],
+              "id": "oai:inspirehep.net:1332344",
+              "updated": "2024-05-07T09:09:41.971398"
+            },
+            "journal_title_variants": [
+              "Phys.Rev.C",
+              "Phys. Rev. C"
+            ],
+            "referenced_authors_bais": [
+              "R.Y.Zhu.2",
+              "M.Antonelli.1",
+              "Zohreh.Parsa.1",
+              "S.B.Lugovsky.1",
+              "I.Lingner.2",
+              "D.C.Williams.108",
+              "J.F.Grivaz.1",
+              "C.Rolfs.1",
+              "M.Tanabashi.3",
+              "A.de.Gouvea.1",
+              "J.Terning.1",
+              "Henrique.M.Araujo.1",
+              "A.Lemut.2",
+              "Z.Fulop.3",
+              "Youngil.Kwon.1",
+              "J.G.Smith.1",
+              "Blair.N.Ratcliff.1",
+              "Barry.Davids.1",
+              "Lawrence.M.Krauss.1",
+              "S.Blusk.1",
+              "J.Boudreau.1",
+              "J.Keinonen.1",
+              "R.N.Cahn.1",
+              "R.Nartallo.2",
+              "H.Iwasaki.1",
+              "K.Nakamura.6",
+              "A.Vomiero.2",
+              "Susanna.Guatelli.1",
+              "M.Nagamatu.1",
+              "Petr.Vogel.1",
+              "Carlo.Broggini.1",
+              "V.S.Lugovsky.1",
+              "J.Sulkimo.1",
+              "S.J.Freedman.1",
+              "W.J.Womersley.1",
+              "U.Schroder.2",
+              "Y.Higurashi.1",
+              "A.R.Junghans.1",
+              "V.Roca.1",
+              "N.Kanaya.2",
+              "I.Tanihata.9",
+              "N.Starinski.1",
+              "T.Lampen.1",
+              "A.C.Morton.2",
+              "S.Eidelman.1",
+              "R.S.Chivukula.1",
+              "Sandra.Zavatarelli.1",
+              "K.Yoshida.46",
+              "F.Ranjard.1",
+              "Jonathan.L.Feng.1",
+              "D.R.Tovey.1",
+              "Z.Elekes.1",
+              "A.Masoni.1",
+              "P.A.Kreitz.1",
+              "F.M.Nunes.1",
+              "G.Bogaert.1",
+              "Akira.Yamamoto.1",
+              "T.M.Liss.1",
+              "M.A.Heikkinen.1",
+              "C.Angulo.1",
+              "R.Churchman.1",
+              "Torben.Lauritsen.1",
+              "E.Di.Salvo.3",
+              "John.David.Jackson.1",
+              "W.S.Lockman.1",
+              "R.G.H.Robertson.1",
+              "P.Corvisiero.1",
+              "G.Bernardi.1",
+              "Y.Yanagisawa.3",
+              "M.Tropeano.1",
+              "I.CruzGonzalez.3",
+              "T.Gherghetta.1",
+              "S.Agostinelli.1",
+              "M.Kawaguti.1",
+              "G.Ruprecht.5",
+              "R.M.Barnett.1",
+              "K.G.Hayes.5",
+              "B.A.Dobrescu.1",
+              "S.Takeuchi.5",
+              "M.A.Schumaker.2",
+              "Z.Ligeti.1",
+              "Ramon.Miquel.1",
+              "G.H.Trilling.1",
+              "Y.V.Kuyanov.1",
+              "C.Rossi.Alvarez.1",
+              "C.J.Pearson.3",
+              "J.Perl.1",
+              "K.M.Nollett.1",
+              "G.Punzi.1",
+              "B.Chaboyer.1",
+              "T.Damour.1",
+              "A.C.Forti.1",
+              "E.Tcherniaev.1",
+              "Francesco.Longo.1",
+              "A.Lemut.3",
+              "T.Mannel.1",
+              "M.Drees.1",
+              "M.Bister.1",
+              "T.R.Junk.1",
+              "L.S.Littenberg.1",
+              "A.M.Serenelli.1",
+              "N.I.Starkov.1",
+              "P.Descouvemont.1",
+              "V.Lefebure.9",
+              "L.Broglia.1",
+              "P.R.Truscott.1",
+              "Kaoru.Hagiwara.1",
+              "Jiunn.Wei.Chen.1",
+              "C.Fox.1",
+              "E.Lamanna.1",
+              "F.Strieder.2",
+              "T.Minemura.8",
+              "C.Patrignani.1",
+              "C.A.Hagmann.1",
+              "Aaron.D.Johnson.1",
+              "R.Hamatsu.1",
+              "Donald.A.Edwards.1",
+              "C.Campbell.1",
+              "S.W.O.Neale.1",
+              "S.DeglInnocenti.4",
+              "R.B.Wiringa.1",
+              "V.Y.Hansper.1",
+              "R.Menegazzo.1",
+              "John.Apostolakis.1",
+              "C.Ferguson.1",
+              "T.S.Park.1",
+              "P.Urban.6",
+              "P.J.Kernan.1",
+              "H.W.Becker.1",
+              "M.Couder.3",
+              "Masahiro.Kawabata.1",
+              "Y.Oohata.1",
+              "Hitoshi.Murayama.1",
+              "P.E.Kent.1",
+              "H.Yoshida.7",
+              "A.Formicola.1",
+              "Douglas.Scott.1",
+              "V.Lara.1",
+              "H.E.Haber.1",
+              "M.Kurokawa.1",
+              "R.S.Chakrawarthy.4",
+              "J.A.Wheeler.1",
+              "John.A.Peacock.1",
+              "M.Chicoine.2",
+              "G.Imbriani.1",
+              "G.Fiorentini.1",
+              "D.Bemmerer.1",
+              "V.D.Elvira.1",
+              "J.P.Biersack.1",
+              "H.P.Trautvetter.2",
+              "Takuro.Nishimura.1",
+              "N.P.Tkachenko.1",
+              "A.Gurtu.1",
+              "Michael.J.Ramsey.Musolf.1",
+              "A.N.Andreyev.2",
+              "N.Iwasa.1",
+              "K.F.Johnson.1",
+              "M.Ishihara.2",
+              "F.Lei.2",
+              "David.R.Ward.1",
+              "G.F.Harper.2",
+              "B.Ricci.1",
+              "C.Ruiz.1",
+              "Andreas.Piepke.1",
+              "Akif.Baha.Balantekin.1",
+              "S.R.Klein.1",
+              "D.A.Howell.1",
+              "G.Santin.1",
+              "Georg.G.Raffelt.1",
+              "R.E.Tribble.1",
+              "Leslie.J.Rosenberg.1",
+              "J.Gorres.2",
+              "S.Ozawa.4",
+              "J.Beringer.1",
+              "Boris.Kayser.1",
+              "J.Huston.1",
+              "P.F.Bertone.2",
+              "H.J.Gerber.1",
+              "Brian.Foster.1",
+              "S.Typel.1",
+              "N.Imai.2",
+              "M.Takahata.2",
+              "E.Blucher.1",
+              "D.R.Gill.2",
+              "Marcela.Carena.1",
+              "Olivier.Schneider.1",
+              "K.Kubodera.1",
+              "S.Chauvie.1",
+              "R.C.Runkle.1",
+              "M.D.Ziegler.1",
+              "S.Banerjee.3",
+              "M.R.Whalley.1",
+              "M.Marta.1",
+              "G.D.Ambrosio.1",
+              "G.Cosmo.1",
+              "R.Giannitrapani.1",
+              "E.Padilla.9",
+              "K.Ohtsubo.1",
+              "G.Gervino.1",
+              "P.A.Vetter.2",
+              "A.Rybin.2",
+              "G.D.Cowan.1",
+              "Thomas.K.Gaisser.1",
+              "T.A.DeGrand.1",
+              "S.Sei.1",
+              "C.Caso.1",
+              "H.Akiyoshi.6",
+              "G.Cooperman.1",
+              "P.Schaffner.1",
+              "W.Fetscher.1",
+              "R.Enami.1",
+              "G.O.Depaola.1",
+              "H.G.Spieler.1",
+              "A.Walkden.1",
+              "M.Kossov.1",
+              "D.Karlen.1",
+              "Z.Fulop.8",
+              "D.D.Smith.1",
+              "O.I.Dahl.1",
+              "Z.Fulop.7",
+              "H.A.Baer.1",
+              "T.J.Wenaus.1",
+              "L.Wolfenstein.1",
+              "F.Behner.1",
+              "M.Leitner.5",
+              "S.Zhu.6",
+              "B.R.Webber.1",
+              "D.P.Kirkby.1",
+              "U.Greife.2",
+              "R.Kanungo.1",
+              "J.Pearson.1",
+              "V.V.Ezhela.1",
+              "Wei.Ming.Yao.1",
+              "S.Garelli.1",
+              "A.Ceccucci.1",
+              "Takeshi.Kodama.1",
+              "K.Amako.1",
+              "D.Milstead.1",
+              "R.L.Workman.1",
+              "S.Roesler.1",
+              "C.J.Lister.1",
+              "O.Hausser.12",
+              "S.Yen.1",
+              "D.H.Wright.1",
+              "K.Langanke.1",
+              "J.S.Forster.3",
+              "V.Grichine.1",
+              "J.Erler.7",
+              "Helmut.Burkhardt.1",
+              "J.Liu.3",
+              "E.Bergren.2",
+              "S.A.Raby.1",
+              "M.Liendl.1",
+              "S.Scherer.1",
+              "E.Uberseder.1",
+              "S.Mythili.2",
+              "R.E.Azuma.1",
+              "I.Hinchliffe.1",
+              "K.Minamimoto.1",
+              "G.C.Ball.1",
+              "M.P.Carpenter.1",
+              "E.Somorjai.4",
+              "I.Tanihata.2",
+              "K.A.Olive.1",
+              "G.Barrand.1",
+              "S.S.Sadilov.1",
+              "C.M.Hoffman.1",
+              "P.Demarque.9",
+              "Mu-Chun.Chen.1",
+              "K.I.Hikasa.1",
+              "F.Terrasi.1",
+              "Zhong.Zhu.Liu.1",
+              "V.N.Ivanchenko.1",
+              "Wick.C.Haxton.1",
+              "S.Shimomura.1",
+              "Y.Kawabata.1",
+              "G.Valencia.1",
+              "G.Gyurky.2",
+              "T.Gutsche.1",
+              "P.Gumplinger.1",
+              "N.Serata.1",
+              "M.Romano.1",
+              "Y.Sakai.1",
+              "M.Verderi.1",
+              "P.Mora.de.Freitas.4",
+              "R.Longland.1",
+              "B.Renk.1",
+              "A.Kimura.1",
+              "Hideyuki.Kobayashi.1",
+              "N.Savvas.1",
+              "J.D.Wells.1",
+              "D.Axen.1",
+              "J.N.Klug.1",
+              "J.Leslie.1",
+              "K.A.van.Bibber.1",
+              "A.E.Champagne.1",
+              "J.J.Gomez.Cadenas.1",
+              "H.Stoecker.1",
+              "Tohru.Motobayashi.1",
+              "K.Murakami.1",
+              "A.Anttila.2",
+              "L.Garren.1",
+              "W.J.Marciano.1",
+              "H.Hasui.1",
+              "J.Kallenbach.1",
+              "David.M.Asner.1",
+              "R.P.Kokoulin.1",
+              "E.Somorjai.28",
+              "Ofer.Lahav.1",
+              "T.L.Khoo.1",
+              "T.Gomi.1",
+              "T.Sasaki.2",
+              "R.Chytracek.1",
+              "Donald.E.Groom.1",
+              "T.Alexander.1",
+              "Jonathan.L.Rosner.1",
+              "F.W.Jones.2",
+              "R.V.Kowalewski.1",
+              "F.Confortola.2",
+              "J.P.Greene.3",
+              "E.A.McCutchan.1",
+              "A.Guglielmetti.1",
+              "H.Fesefeldt.1",
+              "Youhei.Morita.1",
+              "F.Sauli.1",
+              "R.Schiavilla.1",
+              "P.Degtyarenko.2",
+              "Andrew.R.Liddle.1",
+              "S.Giani.1",
+              "P.A.Zyla.1",
+              "Heide.Costantini.1",
+              "K.S.Babu.1",
+              "Christoph.Grab.1",
+              "G.F.Smoot.1",
+              "P.Nieminen.19",
+              "C.Amsler.1",
+              "C.Iliadis.2",
+              "G.Hackman.1",
+              "L.E.Marcucci.1",
+              "C.Spitaleri.1",
+              "D.C.Powell.1",
+              "T.Teranishi.1",
+              "N.A.Tornqvist.1",
+              "H.Bichsel.1",
+              "G.GraciaAbril.1",
+              "R.V.F.Janssens.4",
+              "G.Folger.1",
+              "S.Tanaka.5",
+              "W.H.Bertl.1",
+              "A.Caciolli.1",
+              "G.Gerbier.1",
+              "A.Feliciello.1",
+              "H.J.Weber.1",
+              "Kerstin.Paech.1",
+              "T.G.Trippe.1",
+              "Subir.Sarkar.1",
+              "D.Gibin.1",
+              "G.F.Giudice.1",
+              "T.Sjostrand.1",
+              "A.Mukhamedzhanov.3",
+              "R.Bonetti.1",
+              "A.Dell.Acqua.1",
+              "K.Yamada.23",
+              "Y.Iwata.1",
+              "K.Suemmerer.1",
+              "I.G.Knowles.1",
+              "E.C.Simpson.1",
+              "A.P.Jesus.7",
+              "C.G.Wohl.1",
+              "S.R.Kelner.1",
+              "G.Gurdal.3",
+              "C.Gustavino.1",
+              "C.J.Pearson.2",
+              "K.A.Snover.1",
+              "P.Richardson.1",
+              "F.L.Villante.1",
+              "O.Straniero.1",
+              "Alissa.Howard.1",
+              "O.Zenin.1",
+              "D.Schurmann.1",
+              "J.P.Wellisch.4",
+              "T.Watari.1",
+              "L.Gialanella.1",
+              "Moshe.Gai.1",
+              "R.Kunz.5",
+              "C.A.Bertulani.1",
+              "L.Urban.1",
+              "M.Asai.1",
+              "M.Hass.2",
+              "F.Foppiano.1",
+              "A.Grossheim.1",
+              "P.Nevski.1",
+              "J.Vise.1",
+              "J.J.Hernandez.Rey.1",
+              "Karsten.M.Heeger.1",
+              "P.Prati.1",
+              "G.Weiglein.1",
+              "P.Amaudruz.1",
+              "B.Limata.3",
+              "A.Pfeiffer.1",
+              "P.G.Langacker.1",
+              "J.Pollanen.1",
+              "M.Wiescher.1",
+              "E.Medernach.1",
+              "Sergio.Navas.1",
+              "Todor.Stanev.1",
+              "A.Quadt.1",
+              "D.D.Dietrich.1",
+              "B.Krusche.1",
+              "Michael.H.Shaevitz.1",
+              "H.Mahlke.1",
+              "S.Magni.1",
+              "D.Gazit.1",
+              "T.Sumiyoshi.1",
+              "D.Zschiesche.1",
+              "M.Vincter.1",
+              "Cheng.Jian.Lin.1",
+              "P.Nason.1",
+              "C.Mazzocchi.4",
+              "Maury.C.Goodman.1",
+              "C.T.Sachrajda.1",
+              "S.Rolli.1",
+              "S.M.Spanier.1",
+              "G.G.Greeniaus.1",
+              "M.W.Gruenewald.1",
+              "K.Hashimoto.1",
+              "J.J.Ressler.5",
+              "A.Garcia.2",
+              "H.R.Band.1",
+              "A.V.Gritsan.1",
+              "P.Bloch.1",
+              "S.E.Hale.1",
+              "C.Vockenhuber.3",
+              "D.Seweryniak.1",
+              "J.P.Martin.1",
+              "Y.Sawada.2",
+              "A.Brunengo.1",
+              "James.R.Allison.1",
+              "M.Doser.1",
+              "J.J.Zhang.2",
+              "W.Wander.2",
+              "M.P.Titov.1",
+              "C.F.Kolda.1",
+              "P.IgoKemenes.15",
+              "P.Arce.2",
+              "S.L.Stone.1",
+              "Masahiro.Okamura.1",
+              "Dhiman.Chakraborty.1",
+              "J.S.Lopes.1",
+              "A.Romaniouk.1",
+              "H.Kurashige.1",
+              "V.Sirotenko.1",
+              "Alan.D.Martin.1",
+              "Eric.G.Adelberger.1",
+              "C.L.Woody.1",
+              "M.L.Mangano.1",
+              "Joao.Cruz.1",
+              "Andreas.Hoecker.1",
+              "H.Savajols.3",
+              "William.G.Seligman.1",
+              "K.Moenig.1",
+              "E.Safai.Tehrani.1",
+              "H.Joachim.Rose.1",
+              "R.H.Cyburt.1",
+              "S.C.Pieper.1",
+              "P.D.Parker.7",
+              "Lorenzo.Bellagamba.1",
+              "H.Sakurai.1",
+              "Achim.Stahl.1",
+              "J.D.King.8",
+              "S.C.Gujrathi.1",
+              "M.G.Pia.1",
+              "Lindley.A.Winslow.1",
+              "Brian.D.Fields.1",
+              "M.Junker.1",
+              "M.Maire.1",
+              "D.Leitner.1",
+              "C.Mercier.1",
+              "J.L.Chuma.1",
+              "T.Itahashi.1",
+              "F.Schumann.3",
+              "W.Greiner.1",
+              "J.Ziegler.1",
+              "T.Yamada.7",
+              "M.Narain.1",
+              "K.S.Lugovsky.1",
+              "N.Aoi.1",
+              "P.Walden.6",
+              "G.Gyurky.5",
+              "L.Pape.1",
+              "Aneesh.V.Manohar.1",
+              "F.Ajzenberg.Selove.1",
+              "Y.Nir.1",
+              "H.Uno.2",
+              "Otmar.Biebel.1",
+              "C.J.Chiara.1"
+            ],
+            "legacy_version": "20170216152726.0",
+            "inspire_categories": [
+              {
+                "term": "Other"
+              },
+              {
+                "term": "Experiment-Nucl"
+              }
+            ],
+            "first_author": {
+              "emails": [
+                "naomi.galinski@gmail.com"
+              ],
+              "full_name": "Galinski, N.",
+              "last_name": "Galinski",
+              "first_name": "N.",
+              "recid": 2440535
+            },
+            "control_number": 1332344,
+            "dois": [
+              {
+                "source": "APS",
+                "value": "10.1103/PhysRevC.90.035803"
+              }
+            ],
+            "document_type": [
+              "article"
+            ],
+            "texkeys": [
+              "Galinski:2014aya"
+            ],
+            "abstracts": [
+              {
+                "source": "APS",
+                "value": "<p>At low stellar temperatures the energy release due to the CN cycle is regulated by its slowest reaction <inline-formula><mml:math><mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mn>14</mml:mn></mml:msup><mml:mi mathvariant=\"normal\">N</mml:mi></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>γ</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mn>15</mml:mn></mml:msup><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula>, the rate of which strongly depends on the subthreshold resonance at <inline-formula><mml:math><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi mathvariant=\"normal\">c</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi mathvariant=\"normal\">m</mml:mi><mml:mo>.</mml:mo><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mn>504</mml:mn><mml:mspace width=\"0.28em\"/><mml:mi>keV</mml:mi></mml:mrow></mml:math></inline-formula>, which corresponds to the 6.79 MeV state in <inline-formula><mml:math><mml:mrow><mml:msup><mml:mrow/><mml:mn>15</mml:mn></mml:msup><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow></mml:math></inline-formula>. By using the Doppler-shift attenuation method and the <inline-formula><mml:math><mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mn>3</mml:mn></mml:msup><mml:mi>He</mml:mi></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mrow/><mml:mn>16</mml:mn></mml:msup><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow><mml:mo>,</mml:mo><mml:mi>α</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mn>15</mml:mn></mml:msup><mml:mi mathvariant=\"normal\">O</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula> reaction to populate the state, we obtained an upper limit on the lifetime of this state of <inline-formula><mml:math><mml:mrow><mml:mi>τ</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>1.8</mml:mn><mml:mspace width=\"0.28em\"/><mml:mi>fs</mml:mi></mml:mrow></mml:math></inline-formula> [68.3% confidence level (C.L.)]. In addition we measured the lifetimes of the 6.18 and 6.86 MeV states to be <inline-formula><mml:math><mml:mrow><mml:mi>τ</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>2.5</mml:mn></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math><mml:mrow><mml:mi>τ</mml:mi><mml:mo>=</mml:mo><mml:mn>13</mml:mn><mml:mo>.</mml:mo><mml:msubsup><mml:mn>3</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>1.2</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.9</mml:mn></mml:mrow></mml:msubsup><mml:mspace width=\"0.28em\"/><mml:mi>fs</mml:mi></mml:mrow></mml:math></inline-formula>, respectively (68.3% C.L.), in good agreement with the literature.</p>",
+                "abstract_source_suggest": {
+                  "input": "APS"
+                }
+              }
+            ],
+            "titles": [
+              {
+                "title": "Lifetime measurements of states in O15"
+              }
+            ],
+            "imprints": [
+              {
+                "date": "2014-09-05"
+              }
+            ],
+            "curated": false
+          },
+          "updated": "2024-05-07T09:09:41.971398+00:00",
+          "links": {
+            "bibtex": "https://inspirehep.net/api/literature/1332344?format=bibtex",
+            "latex-eu": "https://inspirehep.net/api/literature/1332344?format=latex-eu",
+            "latex-us": "https://inspirehep.net/api/literature/1332344?format=latex-us",
+            "json": "https://inspirehep.net/api/literature/1332344?format=json",
+            "json-expanded": "https://inspirehep.net/api/literature/1332344?format=json-expanded",
+            "cv": "https://inspirehep.net/api/literature/1332344?format=cv",
+            "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1332344"
+          },
+          "created": "2014-12-03T00:00:00+00:00",
+          "id": "1332344"
+        }
+      ],
+      "total": 1
+    },
+    "links": {
+      "self": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1",
+      "bibtex": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1&format=bibtex",
+      "latex-eu": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1&format=latex-eu",
+      "latex-us": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1&format=latex-us",
+      "json": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1&format=json",
+      "json-expanded": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1&format=json-expanded",
+      "cv": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevC.90.035803&size=2&page=1&format=cv"
+    }
+  }
+}

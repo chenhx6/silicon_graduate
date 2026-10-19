@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-19T13:44:05.893222+00:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      17
+    ],
+    "partial_day_indices": [
+      18
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 18,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md",
+      "knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 203,
+      "info": 2671
+    },
+    "errors": [],
+    "warning_codes": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 143,
+      "RAW_MISSING": 56
+    }
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "new_analysis": {
+    "ok": true,
+    "script_hash_match": true,
+    "sourcehashes_match": true,
+    "no_experimental_refit_or_CI": true,
+    "no_original_kernel_claim": true
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "old_SourceSun_unchanged_since010": true,
+  "ok": true,
+  "report_sha256": "98fe539cbcb22e232b5ac089c502074b776e10ca8b1feac40f43e5c2cddcdb11"
+}

@@ -1,0 +1,9 @@
+{
+  "doi": "10.1103/PhysRevLett.87.152501",
+  "public_citation_PDF_candidate": "http://link.aps.org/pdf/10.1103/PhysRevLett.87.152501",
+  "actual_HTTPS_download_status": "pdf_fetch_failed/login_or_error_page",
+  "manifest": "tmp/day17-bertone2001-public/manifest.json",
+  "body_obtained": false,
+  "no_metadata_as_body": true,
+  "only_possible_new_route": "exactOSTI40277695 index/publicdocument ifreturned; no identicalAPSretry or accessbypass"
+}

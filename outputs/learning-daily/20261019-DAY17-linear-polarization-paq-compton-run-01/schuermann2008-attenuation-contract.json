@@ -1,0 +1,108 @@
+{
+  "identity": "SCH08-ATTENUATION-GEOMETRY-COMPARISON-01",
+  "source_hashes": {
+    "tmp/day17-schuermann2008/PDFs/Schuermann_2008_Lifetime_measurement_6792_keV_15O.pdf": "e052b2ab382b9982522d009612cb1362f4ecb981a8724ad7b3829ff492671f61"
+  },
+  "finite_detector_Doppler_P": 0.987,
+  "F6792": 0.99,
+  "tau_upper_fs": 0.77,
+  "hbar_eV_s": 6.582119569e-16,
+  "tableI_all": [
+    {
+      "E_keV": 1384,
+      "role": "primary",
+      "F": 1.0,
+      "sigma_F": 0.01,
+      "reported_chi2": 0.6
+    },
+    {
+      "E_keV": 2375,
+      "role": "primary",
+      "F": 0.99,
+      "sigma_F": 0.01,
+      "reported_chi2": 1.0
+    },
+    {
+      "E_keV": 5181,
+      "role": "secondary",
+      "F": 0.78,
+      "sigma_F": 0.02,
+      "reported_chi2": 0.4,
+      "tau_fs": 8.4,
+      "sigma_tau_fs": 1.0
+    },
+    {
+      "E_keV": 6172,
+      "role": "secondary",
+      "F": 0.99,
+      "sigma_F": 0.01,
+      "reported_chi2": 1.1,
+      "tau_upper_fs": 0.77
+    },
+    {
+      "E_keV": 6792,
+      "role": "secondary",
+      "F": 0.99,
+      "sigma_F": 0.01,
+      "reported_chi2": 0.7,
+      "tau_upper_fs": 0.77
+    }
+  ],
+  "tableI_secondaries": [
+    {
+      "E_keV": 5181,
+      "F_new": 0.78,
+      "sigma_F_new": 0.02,
+      "F_old": 0.68,
+      "sigma_F_old": 0.03,
+      "tau_new": 8.4,
+      "sigma_tau_new": 1.0,
+      "tau_old": 9.67,
+      "sigma_tau_old": 1.3
+    },
+    {
+      "E_keV": 6172,
+      "F_new": 0.99,
+      "sigma_F_new": 0.01,
+      "F_old": 0.91,
+      "sigma_F_old": 0.05
+    },
+    {
+      "E_keV": 6792,
+      "F_new": 0.99,
+      "sigma_F_new": 0.01,
+      "F_old": 0.93,
+      "sigma_F_old": 0.03
+    }
+  ],
+  "tableII": [
+    {
+      "Ex14N_keV": 3948,
+      "old_experimental_F": 0.894,
+      "old_sigma_F": 0.005,
+      "old_tau_fs": 8.4,
+      "old_sigma_tau": 0.4,
+      "newanalysis_tau_fs": 8.1,
+      "newanalysis_sigma_tau": 0.4
+    },
+    {
+      "Ex14N_keV": 5690,
+      "old_experimental_F": 0.82,
+      "old_sigma_F": 0.08,
+      "old_tau_fs": 16.0,
+      "old_sigma_tau": 8.0,
+      "newanalysis_tau_fs": 14.0,
+      "newanalysis_sigma_tau": 8.0
+    }
+  ],
+  "assumptions": [
+    "allnumbers typedfromactualarxivv1 PDF4–6 Eq1/TableI/II; not rawdata",
+    "geometryP=.987 heldfixed onlyfornominalmap; P uncertainty/crossCov not given, not silentlytreatedzero fororiginalexperiment",
+    "Zcontrasts explicitly assumeindependentquotedSD andmatching scalarobject; not actualprofilecomparison/author>5sigma significance, no pvalue/newCI",
+    "oldandnewF->tau modelcurves differ, TableII reusesoldexperimentalF notnewmeasurements",
+    "Gamma=hbar/tau totalmeanwidth; authorGamma_gamma interpretation separate, no newnon-gamma inventory inference",
+    "no actualMCcollisionhistories/sixthordercoefficients/centroids/jointSigma recovered, noF(tau) or lifetimefit fabricated",
+    "sourceuses1sigma-upperlimitwording inN:Ta sensitivityparagraph; not turnedinto90percentconfidence",
+    "formal17creditedonce; exactlyuncredited18preview; no19"
+  ]
+}

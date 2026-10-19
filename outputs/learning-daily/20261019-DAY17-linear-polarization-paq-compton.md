@@ -32,7 +32,7 @@ updated: 2026-10-19
 | SG98原件主线与关键图/表/式 | [[../../knowledge/sources/schmid-1998-gammasphere-polarization]]末段actualreadscope；printed95–110、Figs1–15、Tables1–3、Eq1–19；SG98-13/14 | complete |
 | P/A/Q分层与新计数/误差练习 | [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]“P/A/Q分层与原件输入”及“声明设计的计数与定量结果”；[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json) | complete |
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
-| 本日报、唯一writeback与checks | 当前二十二页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
+| 本日报、唯一writeback与checks | 当前二十三页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
 
 Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
 
@@ -197,6 +197,16 @@ SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISort
 
 isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸核I=1、linearQ/U=0，但orientation可有circularV；四组symbolicδ CG效应矩阵为I2/0，新旋转光子迹相合；两者共享SymPyCG后端/既有d helper，不计完全独立程序或实验。必要反例同样保留：后续γgate的1/2→3/2→1/2 pureM1/M1 jointW=1+¼P2；Ji3/2rank2控制1−½P2；声明boostβ=.1 labJacobian的a2≈.0200862不是Sun实际速度/A2。因此实际paperA2究竟是rest发射项还是lab/response现象自由度未定前，不能机械置零、称已测alignment或推τbias。物理域/linear-vs-circular与frame/gate限制已写linearpolarization/DSAM方法，正式17只一次，18仅知识preview。
 
+### 实验反证原件：15O的finiteτ转upperlimit
+
+[timegate/candidate011](20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-011.json)重建后仍在原窗口，明确只恰好18无学分methodpreview；Galinski2014原body未得，[terminalboundary](20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-body-boundary.json)保留。另选实际可得的独立DSAMcounterprimary [[../../knowledge/sources/schuermann-2008-15o-6792-dsam]]，[primed回忆](20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-before-body-freeze.json)先冻再开source，实际arxiv0804.1934v1七页/9图/2表/2式完整原读、PDF1–6所有mainfigures视觉核。[identity/scope](20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-reading-scope.json)和Crossref核2008身份；PDFdated2018与官方tex date today仅版本/编译边界，不造2018新实验。
+
+SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792与6172 F=.99(.01)、τ<.77fs；作者同时说旧data点不矛盾而旧finite结论未获支持。Eq1的P=.987是GEANT4有限Ge尺寸Doppler修正，**不是线偏振P**；reference实际为6129keV的angle-dependenttail/background，不能当无误差stoppedline。5181companion共享本run系统误差，TableII的两个14N点复用Bister旧F作conversioncheck，不计新实验。
+
+[真实TableI/II新合同](20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-attenuation-contract.json)/[程序](../../system/scripts/day17_schuermann2008_attenuation_audit.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-attenuation-result.json)给P×F=.97713；错省P使apparentF低.01287，只是条件映射非原作者错误/τbias。额外独立SD假设下6792旧新F contrast≈1.897，与把旧central固定/只用新scale的≈6是不同问题；未复现作者>5σ的profiletest，也不据此否定其判断。τ<.77fs的ℏ/τ≈.85482eV与authorΓγ>.85数值相合但radiativeinventory/1σlimit语义分列，不升级90%CI。
+
+源Eq2的SRIMprojectedvelocity/6thpoly原coefficients、centroidΣ和GEANT4P误差未得，不发明F(τ)fit。新知识写入DSAM/lifetimeaudit/原P-A-Qnote，原scope/frame问题不靠重复toy填补，formal17仍一次、18无学分、未开19。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -257,6 +267,22 @@ isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸�
         {
           "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
           "locator": "N207-6"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-5"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-8"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-10"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-11"
         }
       ]
     },
@@ -456,6 +482,22 @@ isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸�
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-24"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-5"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-8"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-10"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-11"
         }
       ]
     },
@@ -826,6 +868,22 @@ isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸�
         {
           "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
           "locator": "MDA15-6"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-5"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-8"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-10"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-11"
         }
       ]
     },
@@ -901,6 +959,22 @@ isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸�
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-24"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-5"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-8"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-10"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-11"
         }
       ]
     },
@@ -1058,6 +1132,57 @@ isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸�
           "locator": "YA67-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+      "summary": "实际arxivv1七页/9图2表2式完整原读；同Ge密角/共几何与gain、P有限尺寸F分母、finite-to-limit反证、同数据再分析/统计对象和上限width边界；不造原MC/Σ。",
+      "anchor": "15O6792：数据点相容不等于寿命提取结论相同",
+      "sources": [
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-3"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-4"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-5"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-6"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-7"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-8"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-9"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-10"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-11"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-12"
+        },
+        {
+          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+          "locator": "SCH08-13"
+        }
+      ]
     }
   ]
 }
@@ -1132,3 +1257,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 [verification-020](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-020.json)实际report/22changed/24mapped唯一writeback（含未改LKH82/YA67）/coverage/boundary/lint/diff全部exit0，0errors201warnings；原Sun二十二行/review及PLAN/Bib保持。新的restframe/末态gate/boost控制只给物理合同，不识别SunprivateA2模块或产生原τ/CI。符号与旋转迹共享SymPyCG后端/既有d helper，不计完全独立软件或实验。
 
 Fry2018机构检索429验证页、OpenAlex无关结果均未接受为body；下一Galinski2014准确DOI已核为15O旧fsDSAMmethod，来源前回忆已冻，当前只metadata/下载尝试，不预填实际frame/prior。稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/H3/push仅publication010。正式17仅一次、18无学分/未开19，原研究窗口/nativegoal持续active。
+
+### checkpoint011实验反证与原表算术验收
+
+010已actualH3/Gitee push；[verification-022](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-022.json)实际report/23changed/25mapped唯一writeback/coverage/boundary/lint/diff全部exit0，0errors203warnings＝143key56raw4parser；原Sunsource自010逐字未变、PLAN/Bib保持。Schürmann actualsevenpages/Fig1–9/TableI–II/Eq1–2读毕，newF/P/统计对象算术不称原datafit。Galinskibody终态未得、Fry机构challenge边界保留，不当科学证据。
+
+下一Bertone2001旧原实验准确DOI10.1103/PhysRevLett.87.152501只metadata与beforebodyfreeze，publiccandidate发现不等PDF已取；其body读取以actualreceipt为准，不能从2008转引补原实验细节。稳定指针main / `Read DSAM experimental counter-evidence and audit attenuation contracts`，actualhash/H3/push仅publication011；formal17只一次、18无学分/未开19，原研究窗口/nativegoal仍active。

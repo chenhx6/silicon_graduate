@@ -1,0 +1,741 @@
+{
+  "url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2",
+  "status": 200,
+  "scope": "candidateidentity/arxivpublicdocument metadata only, notbody",
+  "data": {
+    "hits": {
+      "hits": [
+        {
+          "updated": "2024-05-07T09:52:07.198008+00:00",
+          "created": "2007-05-19T00:00:00+00:00",
+          "links": {
+            "bibtex": "https://inspirehep.net/api/literature/580918?format=bibtex",
+            "latex-eu": "https://inspirehep.net/api/literature/580918?format=latex-eu",
+            "latex-us": "https://inspirehep.net/api/literature/580918?format=latex-us",
+            "json": "https://inspirehep.net/api/literature/580918?format=json",
+            "json-expanded": "https://inspirehep.net/api/literature/580918?format=json-expanded",
+            "cv": "https://inspirehep.net/api/literature/580918?format=cv",
+            "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A580918"
+          },
+          "id": "580918",
+          "metadata": {
+            "citation_count_without_self_citations": 57,
+            "publication_info": [
+              {
+                "journal_volume": "87",
+                "artid": "152501",
+                "year": 2001,
+                "journal_record": {
+                  "$ref": "https://inspirehep.net/api/journals/1214495"
+                },
+                "journal_title": "Phys.Rev.Lett."
+              }
+            ],
+            "authors": [
+              {
+                "affiliations_identifiers": [
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/0566a8c54"
+                  },
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/00ax83b61"
+                  }
+                ],
+                "full_name_unicode_normalized": "bertone, p.f.",
+                "full_name": "Bertone, P.F.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2021808"
+                },
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "P.F.Bertone.2"
+                  }
+                ],
+                "last_name": "Bertone",
+                "affiliations": [
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/903078"
+                    },
+                    "value": "North Carolina U."
+                  },
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/905688"
+                    },
+                    "value": "TUNL, Durham"
+                  }
+                ],
+                "signature_block": "BARTANp",
+                "uuid": "4f99c47a-2d76-4ac3-86ae-10ad86966da3",
+                "first_name": "P.F.",
+                "recid": 2021808
+              },
+              {
+                "affiliations_identifiers": [
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/0566a8c54"
+                  },
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/00ax83b61"
+                  }
+                ],
+                "full_name_unicode_normalized": "champagne, a.e.",
+                "full_name": "Champagne, A.E.",
+                "curated_relation": true,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1023621"
+                },
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "A.E.Champagne.1"
+                  }
+                ],
+                "last_name": "Champagne",
+                "affiliations": [
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/903078"
+                    },
+                    "value": "North Carolina U."
+                  },
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/905688"
+                    },
+                    "value": "TUNL, Durham"
+                  }
+                ],
+                "signature_block": "CANPAGNa",
+                "uuid": "29cad84a-3ff5-4566-93a4-8290cbe8ddc2",
+                "first_name": "A.E.",
+                "recid": 1023621
+              },
+              {
+                "affiliations_identifiers": [
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/0566a8c54"
+                  },
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/00ax83b61"
+                  }
+                ],
+                "full_name_unicode_normalized": "powell, d.c.",
+                "full_name": "Powell, D.C.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2228182"
+                },
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "D.C.Powell.1"
+                  }
+                ],
+                "last_name": "Powell",
+                "affiliations": [
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/903078"
+                    },
+                    "value": "North Carolina U."
+                  },
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/905688"
+                    },
+                    "value": "TUNL, Durham"
+                  }
+                ],
+                "signature_block": "PALd",
+                "uuid": "f9ee9bfa-d951-45a8-8592-ed04761e7fad",
+                "first_name": "D.C.",
+                "recid": 2228182
+              },
+              {
+                "affiliations_identifiers": [
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/0566a8c54"
+                  },
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/00ax83b61"
+                  }
+                ],
+                "full_name_unicode_normalized": "iliadis, c.",
+                "full_name": "Iliadis, C.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/1914567"
+                },
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "C.Iliadis.2"
+                  }
+                ],
+                "last_name": "Iliadis",
+                "affiliations": [
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/903078"
+                    },
+                    "value": "North Carolina U."
+                  },
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/905688"
+                    },
+                    "value": "TUNL, Durham"
+                  }
+                ],
+                "signature_block": "ILADc",
+                "uuid": "1fbdd5a8-d13f-481f-a34c-6f4f5ed1f200",
+                "first_name": "C.",
+                "recid": 1914567
+              },
+              {
+                "affiliations_identifiers": [
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/0566a8c54"
+                  },
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/00ax83b61"
+                  }
+                ],
+                "full_name_unicode_normalized": "hale, s.e.",
+                "full_name": "Hale, S.E.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2228170"
+                },
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "S.E.Hale.1"
+                  }
+                ],
+                "last_name": "Hale",
+                "affiliations": [
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/903078"
+                    },
+                    "value": "North Carolina U."
+                  },
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/905688"
+                    },
+                    "value": "TUNL, Durham"
+                  }
+                ],
+                "signature_block": "HALs",
+                "uuid": "d64882de-49c5-4557-8738-daf91db58dea",
+                "first_name": "S.E.",
+                "recid": 2228170
+              },
+              {
+                "affiliations_identifiers": [
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/0566a8c54"
+                  },
+                  {
+                    "schema": "ROR",
+                    "value": "https://ror.org/00ax83b61"
+                  }
+                ],
+                "full_name_unicode_normalized": "hansper, v.y.",
+                "full_name": "Hansper, V.Y.",
+                "record": {
+                  "$ref": "https://inspirehep.net/api/authors/2228153"
+                },
+                "ids": [
+                  {
+                    "schema": "INSPIRE BAI",
+                    "value": "V.Y.Hansper.1"
+                  }
+                ],
+                "last_name": "Hansper",
+                "affiliations": [
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/903078"
+                    },
+                    "value": "North Carolina U."
+                  },
+                  {
+                    "record": {
+                      "$ref": "https://inspirehep.net/api/institutions/905688"
+                    },
+                    "value": "TUNL, Durham"
+                  }
+                ],
+                "signature_block": "HANSPARv",
+                "uuid": "5686f670-335b-4d85-97fb-8454353998f6",
+                "first_name": "V.Y.",
+                "recid": 2228153
+              }
+            ],
+            "citation_count": 65,
+            "citeable": true,
+            "$schema": "https://inspirehep.net/schemas/records/hep.json",
+            "references": [
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "100",
+                    "artid": "445",
+                    "page_start": "445",
+                    "journal_title": "Astron.J."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "arxiv_eprint": "astro-ph/9509115",
+                  "publication_info": {
+                    "journal_volume": "271",
+                    "artid": "957",
+                    "page_start": "957",
+                    "journal_title": "Science"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/399814"
+                }
+              },
+              {
+                "reference": {
+                  "arxiv_eprint": "astro-ph/9706128",
+                  "publication_info": {
+                    "journal_volume": "494",
+                    "artid": "96",
+                    "page_start": "96",
+                    "journal_title": "Astrophys.J."
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/447196"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "232",
+                    "artid": "831",
+                    "page_start": "831",
+                    "journal_title": "Astrophys.J."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "467",
+                    "artid": "240",
+                    "page_start": "240",
+                    "journal_title": "Nucl.Phys.A"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1453368"
+                }
+              },
+              {
+                "reference": {
+                  "arxiv_eprint": "astro-ph/9805121",
+                  "publication_info": {
+                    "journal_volume": "70",
+                    "artid": "1265",
+                    "page_start": "1265",
+                    "journal_title": "Rev.Mod.Phys."
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/473296"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "690",
+                    "artid": "775",
+                    "page_start": "775",
+                    "journal_title": "Nucl.Phys.A"
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "286",
+                    "artid": "505",
+                    "page_start": "505",
+                    "journal_title": "Nucl.Phys.A"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1446677"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "333",
+                    "artid": "239",
+                    "page_start": "239",
+                    "journal_title": "Nucl.Instrum.Meth.A"
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "523",
+                    "artid": "1",
+                    "page_start": "1",
+                    "journal_title": "Nucl.Phys.A"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/331808"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "160",
+                    "artid": "211",
+                    "page_start": "211",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "260",
+                    "artid": "33",
+                    "page_start": "33",
+                    "journal_title": "Nucl.Instrum.Meth.A"
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "88",
+                    "artid": "501",
+                    "page_start": "501",
+                    "journal_title": "Nucl.Phys."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "73",
+                    "artid": "173",
+                    "page_start": "173",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "68",
+                    "artid": "469",
+                    "page_start": "469",
+                    "journal_title": "Phys.Lett.A"
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "216",
+                    "artid": "249",
+                    "page_start": "249",
+                    "journal_title": "Nucl.Instrum.Meth."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "16",
+                    "artid": "1303",
+                    "page_start": "1303",
+                    "journal_title": "Phys.Rev.C"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/128802"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "60",
+                    "artid": "1816",
+                    "page_start": "1816",
+                    "journal_title": "Bull.Russ.Acad.Sci.Phys."
+                  }
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "637",
+                    "artid": "576",
+                    "page_start": "576",
+                    "journal_title": "Nucl.Phys.A"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/1462355"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "30",
+                    "artid": "257",
+                    "page_start": "257",
+                    "journal_title": "Rev.Mod.Phys."
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/42453"
+                }
+              },
+              {
+                "reference": {
+                  "publication_info": {
+                    "journal_volume": "656",
+                    "artid": "3",
+                    "page_start": "3",
+                    "journal_title": "Nucl.Phys.A"
+                  }
+                },
+                "curated_relation": false,
+                "record": {
+                  "$ref": "https://inspirehep.net/api/literature/522312"
+                }
+              }
+            ],
+            "number_of_pages": 4,
+            "referenced_authors_bais": [
+              "A.M.Lane.2",
+              "R.E.Tribble.1",
+              "F.E.Cecil.3",
+              "J.Gorres.2",
+              "G.Goldring.9",
+              "J.M.Soares.1",
+              "A.E.Champagne.1",
+              "G.Bogaert.1",
+              "N.K.Spyrou.2",
+              "C.LeclercqWillain.2",
+              "Tohru.Motobayashi.1",
+              "K.A.Snover.1",
+              "C.A.Duba.1",
+              "M.Rayet.1",
+              "A.Anttila.2",
+              "P.D.Parker.12",
+              "T.D.Shoppa.1",
+              "C.Angulo.1",
+              "E.S.Swanson.1",
+              "K.Langanke.1",
+              "C.Rolfs.1",
+              "R.W.Kavanagh.6",
+              "Moshe.Gai.1",
+              "R.Kunz.5",
+              "C.Campbell.1",
+              "S.DeglInnocenti.4",
+              "A.Mayer.1",
+              "M.P.Kamionkowski.1",
+              "S.Kossionides.2",
+              "N.J.Shaviv.1",
+              "D.Baye.1",
+              "Eric.G.Adelberger.1",
+              "P.J.Kernan.1",
+              "H.W.Becker.1",
+              "A.V.Gruzinov.1",
+              "E.M.Henley.1",
+              "J.Vise.1",
+              "M.LamehiRachti.1",
+              "Karsten.M.Heeger.1",
+              "K.Kubodera.1",
+              "Lawrence.M.Krauss.1",
+              "R.G.H.Robertson.1",
+              "R.G.Thomas.10",
+              "F.C.Barker.3",
+              "J.Keinonen.1",
+              "C.R.Gould.1",
+              "J.Rahighi.1",
+              "R.E.Azuma.1",
+              "C.W.Johnson.1",
+              "S.M.Austin.9",
+              "J.Hammer.2",
+              "J.D.King.8",
+              "C.Chronidou.1",
+              "J.F.Wilkerson.1",
+              "T.Paradellis.5",
+              "P.Demarque.9",
+              "V.R.Pandharipande.1",
+              "Steven.R.Elliott.1",
+              "S.J.Freedman.1",
+              "G.Fiorentini.1",
+              "U.Schroder.2",
+              "H.P.Trautvetter.2",
+              "B.Chaboyer.1",
+              "C.Grama.1",
+              "S.E.Koonin.1",
+              "Wick.C.Haxton.1",
+              "S.Barhoumi.1",
+              "Sandra.Zavatarelli.1",
+              "R.F.Sawyer.1",
+              "L.De.Braeckeleer.1",
+              "S.Turck.Chieze.2",
+              "M.Arnould.10",
+              "A.Coc.2",
+              "J.N.Bahcall.1",
+              "B.Ricci.1",
+              "Akif.Baha.Balantekin.1",
+              "P.Aguer.2",
+              "A.Shotter.2",
+              "L.S.Brown.1",
+              "M.Bister.1",
+              "C.Providencia.1",
+              "H.Wolters.1",
+              "Lothar.Buchmann.1",
+              "P.Descouvemont.1",
+              "F.Ajzenberg.Selove.1"
+            ],
+            "legacy_version": "20170206155008.0",
+            "inspire_categories": [
+              {
+                "term": "Experiment-Nucl"
+              }
+            ],
+            "legacy_creation_date": "2007-05-19",
+            "preprint_date": "2001-09",
+            "author_count": 6,
+            "first_author": {
+              "affiliations_identifiers": [
+                {
+                  "schema": "ROR",
+                  "value": "https://ror.org/0566a8c54"
+                },
+                {
+                  "schema": "ROR",
+                  "value": "https://ror.org/00ax83b61"
+                }
+              ],
+              "full_name": "Bertone, P.F.",
+              "last_name": "Bertone",
+              "first_name": "P.F.",
+              "recid": 2021808
+            },
+            "control_number": 580918,
+            "dois": [
+              {
+                "value": "10.1103/PhysRevLett.87.152501"
+              }
+            ],
+            "earliest_date": "2001-09",
+            "document_type": [
+              "article"
+            ],
+            "texkeys": [
+              "Bertone:2001zx"
+            ],
+            "abstracts": [
+              {
+                "source": "APS",
+                "value": "The energy derived from the CN cycle at low stellar temperatures is regulated by the 14N(p,γ)15O reaction. A previous direct measurement of this reaction has been interpreted as showing evidence for a subthreshold resonance which makes a major contribution to the reaction rate at low temperatures. This resonance, at Ec.m.=−504keV would correspond to the known Ex=6793−keV state in 15O. We have measured a mean lifetime of 1.60−0.72+0.75fs (90%C.L.) for this state using the Doppler-shift attenuation method. This lifetime is a factor of 15 longer than that inferred from the (p,γ) data and implies that the contribution of the subthreshold resonance is negligible.",
+                "abstract_source_suggest": {
+                  "input": "APS"
+                }
+              }
+            ],
+            "refereed": true,
+            "titles": [
+              {
+                "title": "Lifetime of the 6793-keV state in 15O"
+              },
+              {
+                "source": "arXiv",
+                "title": "Lifetime of the 6793-keV state in $^{15}$O"
+              }
+            ],
+            "external_system_identifiers": [
+              {
+                "schema": "OSTI",
+                "value": "40277695"
+              },
+              {
+                "schema": "SPIRES",
+                "value": "SPIRES-7188463"
+              },
+              {
+                "schema": "NSR",
+                "value": "2001BE57"
+              }
+            ],
+            "facet_author_name": [
+              "1914567_Christian Iliadis",
+              "2021808_P.F. Bertone",
+              "2228153_V.Y. Hansper",
+              "2228170_S.E. Hale",
+              "2228182_D.C. Powell",
+              "1023621_Arthur E. Champagne"
+            ],
+            "_oai": {
+              "sets": [
+                "Literature"
+              ],
+              "id": "oai:inspirehep.net:580918",
+              "updated": "2024-05-07T09:52:07.198008"
+            },
+            "curated": true,
+            "journal_title_variants": [
+              "Phys. Rev. Lett.",
+              "Phys.Rev.Lett."
+            ]
+          }
+        }
+      ],
+      "total": 1
+    },
+    "links": {
+      "self": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1",
+      "bibtex": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1&format=bibtex",
+      "latex-eu": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1&format=latex-eu",
+      "latex-us": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1&format=latex-us",
+      "json": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1&format=json",
+      "json-expanded": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1&format=json-expanded",
+      "cv": "https://inspirehep.net/api/literature/?q=doi%3A10.1103%2FPhysRevLett.87.152501&size=2&page=1&format=cv"
+    }
+  }
+}

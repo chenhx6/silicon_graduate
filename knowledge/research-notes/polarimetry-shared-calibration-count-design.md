@@ -270,3 +270,7 @@ GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target�
 ### 官方207Pb参考的派生归一与概率门
 
 [[nndc-2011-pb207-bi207-polarization-reference]] N207-1–11用真实selected官方对象核1064/570 roles：MR+.02(.01)/blank不同，EC photonRI/experimentalICC与Adopted theoreticalICC不同。RI570=(100−.131)/(1+α570)直接暴露RI–α依赖；在明确独立bypass/α的设计极限，totalσ的α项抵消而不是重复相加。条件pair emission≈.72918不等marginalRI乘积或detectorε，MR强度份额.0004也不等实际P误差界。这一来源相邻的真实输入审计收紧calibration readiness，原primaryphase/完整Σ仍缺，未造新实验P或CI。
+
+### 另一种P不能混入本表
+
+[[schuermann-2008-15o-6792-dsam]] SCH08-5的P=.987是有限Ge尺寸的Doppler修正，乘在β0Fcosθ前；它不是本表physicallinearP、a/η或ComptonQ。SCH08-11的actualcenter映射P×F=.97713只检验其F分母，不能当polarimetry校准或从DSAM曲线给γ的linearP。
