@@ -117,3 +117,5 @@ SUN23-17–22的publisherSI已原读：见[[sun-2023-bayesian-dsam-31s]]。它�
 [[schuermann-2008-15o-6792-dsam]] SCH08-3–10给实际同Ge密角扫描、gain/geometrycombinedfit与primaryF限制的反证：旧data点可相容，但原finiteτ提取未获新数据支持。Eq1的P=.987为Doppler有限尺寸修正，非偏振P。F.99(.01)与τ<.77fs的上限需source的SRIM/density/σ语义，不能自动转90%limit或与Sunposteriorquantile同口径。
 
 SCH08-11/12的条件算术表明省P可造成apparentF.97713，以及两个reported中心的独立SDcontrast并非作者>5σtest。原centroidΣ/MCcurve未得，不从summary造重拟。TableII复用旧F检验analysis，非新增两态测量；5181同runcompanion也共享systematics。
+
+J01-12–18的[[jensen-2001-165tm-h9-2-configuration]]主线将直接DSAM两band、mixing派生两band与E1绝对提取同标尺关联；详[[lifetime-strength-audit-165tm-136nd]]。constantQt跨spin是带条件迁移，有模型支持不等独立全spin测量；crossingmodel的evenbaseline/增益反证不因Qt较大消失。

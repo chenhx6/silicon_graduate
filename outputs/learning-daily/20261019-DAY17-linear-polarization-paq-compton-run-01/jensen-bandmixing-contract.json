@@ -1,0 +1,129 @@
+{
+  "identity": "J01-BANDMIXING-REFERENCE-CHAIN-01",
+  "source_hashes": {
+    "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770"
+  },
+  "negative_pair": {
+    "I_1639": 37.25,
+    "I_1775": 0.8,
+    "E_1639_keV": 163.9,
+    "E_1775_keV": 177.5,
+    "observed_gap_keV": 13.8,
+    "I_2587": 8.26,
+    "I_1422": 25.64,
+    "I_2040": 84.68,
+    "I_1284": 3.39,
+    "E_2587_keV": 258.7,
+    "E_1422_keV": 142.2,
+    "E_2040_keV": 204.0,
+    "E_1284_keV": 128.4,
+    "author_abs_V_keV": 1.75,
+    "author_Qratio": 1.16,
+    "locators": [
+      "PDF8/13 Table1",
+      "PDF31 Table4",
+      "PDF32–33 Eqs4–5/Fig14"
+    ]
+  },
+  "positive_pair_table5": [
+    {
+      "I": 3.5,
+      "a": 0.9979,
+      "b": -0.0643,
+      "Ecalc404": 80.16,
+      "Ecalc411": 157.75
+    },
+    {
+      "I": 5.5,
+      "a": 0.995,
+      "b": -0.1003,
+      "Ecalc404": 365.82,
+      "Ecalc411": 415.68
+    },
+    {
+      "I": 7.5,
+      "a": 0.9773,
+      "b": -0.2118,
+      "Ecalc404": 744.78,
+      "Ecalc411": 768.81
+    },
+    {
+      "I": 9.5,
+      "a": 0.746,
+      "b": -0.666,
+      "Ecalc404": 1203.13,
+      "Ecalc411": 1213.14
+    },
+    {
+      "I": 11.5,
+      "a": 0.9274,
+      "b": 0.3741,
+      "Ecalc404": 1743.98,
+      "Ecalc411": 1729.64
+    },
+    {
+      "I": 13.5,
+      "a": 0.9323,
+      "b": 0.3618,
+      "Ecalc404": 2343.32,
+      "Ecalc411": 2328.57
+    }
+  ],
+  "reference_primitives": {
+    "Q541": 8.3,
+    "Q411": 7.4,
+    "r404_over411": 0.96,
+    "r541_over523": 1.16
+  },
+  "conditional_primitive_SD_design": [
+    0.5,
+    0.5,
+    0.05,
+    0.09
+  ],
+  "assumptions": [
+    "negativepairusesauthorszerooffdiagonal/M1andfixedKhalf radiative model, reportedcorrectedphotonintensities; notmeasurednewdelta/Kpurity",
+    "configurationmixingtheta/amplitudes and photonmultipolemixingdelta are differentphysicalobjects; rateinputfixessquares/branch undernamedbasis, notphysicalVsign",
+    "Table5 Ecalc/amplitudes are source-modeloutputs rounded.01keV/.0001, notexperimentaldatacovariance; necessaryroundingchecks not fullVMIfitcertification",
+    "referenceSigma numericalexampleextraassumesquotedscales areindependentprimitiveSD, notactualSigma/probabilityerrors; source5percentalreadyadded so noextraterm",
+    "sourceTable6R.87(.10) preserved; conditionalratioerror.09/1.16² doesnotdeclareauthorerror or recoveredCOV",
+    "nooriginalVMI/DCO/DSAMproducer, fitweight/cov/gates/rawspectra orhalfKmixingprescription obtained",
+    "formal17alreadycreditedonce, exactlyuncredited18preview, no19",
+    "N96 observedTable3/Table8 andmodelTable7 matchingcolumns; differencesonlycentralarithmetic, nofit/probability or subtractingtheoryasmeasuredcalibration; Tmgain>5.3 keptlimit notpoint"
+  ],
+  "matched_N96_crossing_rows": [
+    {
+      "nucleus": "165Tm",
+      "Z": 69,
+      "N": 96,
+      "measured_keV": 355,
+      "measured_error_plus": 15,
+      "measured_error_minus": 5,
+      "calculated_keV": 255,
+      "measured_gain_field": ">5.3",
+      "calculated_gain": 9.5
+    },
+    {
+      "nucleus": "164Er",
+      "Z": 68,
+      "N": 96,
+      "measured_keV": 281,
+      "measured_error_plus": 2,
+      "measured_error_minus": 2,
+      "calculated_keV": 225,
+      "measured_gain_field": "7.0+0.5-0.5",
+      "calculated_gain": 9.4
+    },
+    {
+      "nucleus": "166Yb",
+      "Z": 70,
+      "N": 96,
+      "measured_keV": 269,
+      "measured_error_plus": 2,
+      "measured_error_minus": 2,
+      "calculated_keV": 217,
+      "measured_gain_field": "7.9+0.5-0.5",
+      "calculated_gain": 9.8
+    }
+  ]
+}

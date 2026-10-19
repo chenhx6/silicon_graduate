@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T21:45:50.930797+08:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-fullmainline-before.md",
+  "sha256": "e897a759b6ce8a68860308c963cf8d207fff6b10c9546124e6d890b797d8b044",
+  "priming": "oldfullsourceingest + thissessiontargetedDSAM and publishedtables; notblind",
+  "scope": "before remainingmainline/newproblem, notbeforefirstsourceexposure",
+  "formalday": 17,
+  "previewday": 18
+}

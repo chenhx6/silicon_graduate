@@ -2074,3 +2074,5 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 - 2026-10-19 DAY17 checkpoint010：新spinhalf rest/linear-circular定理及末态gate/boost必要反例已canonical，未识别SunactualA2或造原CI。020全部检查0/22changed24mapped/0errors201warnings；Sun旧22行/flags保持。正式17仅一次/18preview无学分/原窗口active。Fry2018 accessboundary、Galinski2014仅metadata+beforebodyfreeze作为下一输入。稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/push仅runreceipt。
 
 - 2026-10-19 DAY17 checkpoint011：新15O DSAM反证primary七页/图表式实际完整原读与条件F/P/width/统计对象审计已canonical；非原centroid/MC重拟。022检查全0，23changed25mapped/0errors203warnings；formal17仅一次/18preview无学分/原窗口active。Galinski/Fry accessboundary与Bertone2001beforebody作为下一输入，未预填科学结果。稳定指针main / `Read DSAM experimental counter-evidence and audit attenuation contracts`，actualhash/push仅runreceipt。
+
+- 2026-10-19 DAY17 checkpoint012：Jensen2001本session剩余全mainline与actualmixing/reference/baseline合同已canonical，原J01十行/flags保持；新条件算术不认证原fit/Σ或新CI。024检查全0/23changed25mapped/0errors203warnings。BertoneexactOSTI终态未得body；formal17仅一次/18无学分/原窗口active。稳定指针main / `Audit full Tm165 band-mixing and quadrupole-reference dependencies`，actualhash/push仅runreceipt。

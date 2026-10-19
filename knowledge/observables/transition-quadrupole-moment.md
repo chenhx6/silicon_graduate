@@ -154,3 +154,7 @@ Riley Eq3的`Qt=Q20+sqrt(2/3)Q22_R`与紧接的`Q22_code=−sqrt2 Q22_R`合用�
 [[lifetime-strength-audit-165tm-136nd]]以J01-10/MU08-17核真实打印表：固定K的CG(I K20|I−2 K)²与候选CG(I I2−2|I−2 I−2)²=(2I−3)/(2I+1)是不同几何。同B在MU08的九行上用fixedK0可给约1.58倍不同Qt；candidate与原表打印相合不唯一识别作者actualformula/producer或证明内禀轴。先固定G再用Qt=√[16πB/(5G)]，不能只按符号或核素类型替换。
 
 该表核验的直接输入见[[mukhopadhyay-2008-136nd-transition-rates]] MU08-17及[[jensen-2001-165tm-h9-2-configuration]] J01-10，不凭candidategeometry匹配给出新内禀形变。
+
+## 同一DSAM标尺派生的多个band矩
+
+[[jensen-2001-165tm-h9-2-configuration]] J01-12–16和[[lifetime-strength-audit-165tm-136nd]]保存Q404=rplusQ411、Q523=Q541/rminus的实际引用链。四个输出不等四个独立寿命；ratio可消共同标尺但一般不会消影响mixing/branch的系统误差。原5%预算不再盲加，conditionalSigma设计不反解sourcecovariance。较大Qt和crossingdelay是必要companion，却未使deformation-only解释闭合。

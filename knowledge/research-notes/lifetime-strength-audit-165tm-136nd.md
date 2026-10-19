@@ -141,3 +141,17 @@ MU08原Qt公式/轴的直接出处或实际code仍待新原件/producer；candid
 [[schuermann-2008-15o-6792-dsam]] SCH08-5/7/8/9/10以新实际primary补充：单Ge/密角/共geometry与primaryF约束把6792/6172推到fullshiftcompatible，而旧数据点仍非矛盾。P.987是finite-detectorDoppler，不能按字母当physicalpolarization。5181与旧评价相合是必要companion，TableII再算旧F则非新测量；1σlimit/Γ条件链不升级90%CI。
 
 新F分母映射和reportedscalarcontrast是[[schuermann-2008-15o-6792-dsam]] SCH08-11–13的条件exercise，未得actualcentroids/Σ/SRIMpoly所以不造lifetimefit。与Sun的GP/posterior或165Tm/136Nd的feeding假设只按方法边界比较，不转其数值。
+
+## 165Tm主线再核：组态混合不是光子δ，四Qt不是四份寿命
+
+[[jensen-2001-165tm-h9-2-configuration]] J01-11–18补完本session48页主线、19图/8表角色与Eq1–9；密表只selectedrows核算不冒全inventory重建。原Table5/6和Sec5–6显示绝对DSAM两个标尺怎样进入另外两band，同时有明确modelconditions。
+
+令A=Q541=8.3、B=Q411=7.4、rplus=Q404/Q411=.96、rminus=Q541/Q523=1.16，则输出为Q=(A,B,rplus B,A/rminus)=(8.3,7.4,7.104,7.15517)eb，与source四舍五入7.1/7.2分列。第三/四个值不是新独立lifetime；positivepair在Table5还明确固定Q411=7.4。用一个完整primitiveΣ经Jacobian传播，而非给每输出各自添独立DSAM标尺误差。即使另让四primitive独立，Cov(B,rplusB)=rplusVar(B)、Cov(A,A/rminus)=Var(A)/rminus仍非0。Q523/Q541=1/rminus，A与其crossCov精确取消；原stop/feeding若还影响rminus则不能取消。声明primitiveSD=(.5,.5,.05,.09)仅作局部设计，得到ratio尺度.0668847；原Table6.87(.10)保持，不从不匹配反推真实Σ/判作者错，不重复加已经在原Table2提及的5%。
+
+本session[新合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-bandmixing-contract.json)/[程序](../../system/scripts/day17_jensen_bandmixing_reference_chain.py)/[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-bandmixing-result.json)沿原negativepair的Eq4/5，用Table1实际37.25/.80及branchratio/CG(3/7)给α²≈.0166274、β²≈.9833726、|V|≈1.764615keV、Q541/Q523≈1.164763。源α/β是configurationamplitudes，原photonδ是不同对象；sinθ的principalasin14.818°不是由原rate选的165.182°分支，不能不看branchroles就取主值。强度只给当前basis下平方/|V|，不测signedinteraction。原possibly50%Ω3/2混合贡献ratio误差未有完整合同，未恢复其CI。
+
+Table5六个**源模型**eigenpair给|ab(Ecalc404−Ecalc411)|≈4.97keV，符合sourceV5.0的额外nearestdecimalbox，norm必要检查也过；它不替原VMI/branchfit的GOF或uncertainty。positivepair要求跨spinQ411近constant，作者用modelQt频段变化通常<.2eb支持，而非另有逐低spin测量；转移到别的体系/转轴不能自动用同数值。
+
+实际counterinput：N96时Table7 modelTm/Er/Yb crossing255/225/217keV，对应Table3/8 observed355/281/269。Tm的100keV总残差包含evenbaseline问题；中心double-difference分别44/48keV不是新pninteraction实测或精确误差排除。作者还核crossinggain，但Tm>5.3只lowerlimit不可当5.3点；deformation/pairing/Coriolis与pn解释必须共同面对数据。
+
+Fig19的absoluteB(E1)也取同Table6 Qt、λ和mixing修正，故不是独立验证DSAMQt的绝对companion；octupolecoupling只是examples未fit，spin/signature残差与b单位字面边界保持。需要独立lifetime/feeding/stopping/原modelinput才会提高绝对shape裁决信息，重复当下代数不会补它。

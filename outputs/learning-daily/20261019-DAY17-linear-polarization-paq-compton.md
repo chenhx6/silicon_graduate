@@ -207,6 +207,16 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
 
 源Eq2的SRIMprojectedvelocity/6thpoly原coefficients、centroidΣ和GEANT4P误差未得，不发明F(τ)fit。新知识写入DSAM/lifetimeaudit/原P-A-Qnote，原scope/frame问题不靠重复toy填补，formal17仍一次、18无学分、未开19。
 
+### Jensen剩余主线：实际带混合与Qt标尺链
+
+[重建候选/时间门012](20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-012.json)选择现成matchingDay18原件中本session尚未通读的剩余主线；不是新课卡。[新问题priming冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-fullmainline-freeze.json)承认历史fullingest及本session早期DSAM/表格暴露，随后完成48页主线、19图/8表角色/Eq1–9，[actualscope](20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-fullmainline-reading-scope.json)将密Table1/7/8overview与selectedrows核分开，不冒每格独立重建。原J01-1–10/flags保持，新11–18已canonical。
+
+[实际Table1/5/6/7/8新合同](20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-bandmixing-contract.json)/[程序](../../system/scripts/day17_jensen_bandmixing_reference_chain.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-bandmixing-result.json)：M1rate37.25/.80和原Eq4/5给α²≈.0166274/β²≈.9833726、|V|≈1.764615keV、Q541/Q523≈1.164763；sinθ主值14.818°会错配原rate，namedbasis下选165.182°，它不是光子δ或signedV测量。Table5六model eigenpairs仅必要printingclosure，不cert原VMIfit。
+
+Qt四输出=(A,B,rplusB,A/rminus)，两个来自DSAM、另两个依mixing；共享标尺不会在给每输出独立误差时自动保留。独立primitiveSD只是额外design，得到Q523/Q541尺度.0668847而原Table6.87(.10)保持，不反解actualCov/概率或叠已计5%。新matchedN96 observed/modelTm–Er双差44keV、Tm–Yb48keV只centraldiagnostic，不把100keV总模型残差全叫新pninteraction；Tmgain>5.3保持limit非点。
+
+主线counter：band4spin/两bandδ多解及无3↔4link保持；Qt跨spin近constant有模型支持不等逐spin实测，E1绝对强度沿用同Qt/mixing链不计独立验证。Octupoleb未fit、examples残差与body/caption单位边界保留，较大Qt不能单独闭合crossing物理。Jensen/Lifetimeaudit/Qt/DSAM页持久化新解释与artifact，仍恰好18无学分、formal17仅一次/未开19。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -271,14 +281,6 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
         {
           "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
           "locator": "SCH08-5"
-        },
-        {
-          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
-          "locator": "SCH08-8"
-        },
-        {
-          "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
-          "locator": "SCH08-10"
         },
         {
           "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
@@ -768,7 +770,7 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
     },
     {
       "knowledge": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
-      "summary": "本sessionDSAM/必要context定向原读；三步5fs/实际belowgates/stopping预算、同源Qt标尺与11行条件换算，旧五claim/flags保持。",
+      "summary": "本session先DSAM定向，后新问题冻结并完成48页主线/19图8表/9式角色核；actualbandmixing链/同标尺/模型baseline与E1单位边界，新11–18自审，旧1–10行/flags保持。",
       "anchor": "2026-10-19 Day17内无学分Day18定向自审",
       "sources": [
         {
@@ -790,6 +792,38 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-10"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-12"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-13"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-14"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-15"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-16"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-17"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-18"
         }
       ]
     },
@@ -884,6 +918,38 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
         {
           "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
           "locator": "SCH08-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-12"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-13"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-14"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-15"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-16"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-17"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-18"
         }
       ]
     },
@@ -975,6 +1041,38 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
         {
           "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
           "locator": "SCH08-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-12"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-13"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-14"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-15"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-16"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-17"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-18"
         }
       ]
     },
@@ -986,6 +1084,38 @@ SCH08-3–10：同Ge密角/gain监控、五线共享a/b/primaryF限制后，6792
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
           "locator": "MU08-17"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-12"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-13"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-14"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-15"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-16"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-17"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-18"
         }
       ]
     },
@@ -1263,3 +1393,9 @@ Fry2018机构检索429验证页、OpenAlex无关结果均未接受为body；下�
 010已actualH3/Gitee push；[verification-022](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-022.json)实际report/23changed/25mapped唯一writeback/coverage/boundary/lint/diff全部exit0，0errors203warnings＝143key56raw4parser；原Sunsource自010逐字未变、PLAN/Bib保持。Schürmann actualsevenpages/Fig1–9/TableI–II/Eq1–2读毕，newF/P/统计对象算术不称原datafit。Galinskibody终态未得、Fry机构challenge边界保留，不当科学证据。
 
 下一Bertone2001旧原实验准确DOI10.1103/PhysRevLett.87.152501只metadata与beforebodyfreeze，publiccandidate发现不等PDF已取；其body读取以actualreceipt为准，不能从2008转引补原实验细节。稳定指针main / `Read DSAM experimental counter-evidence and audit attenuation contracts`，actualhash/H3/push仅publication011；formal17只一次、18无学分/未开19，原研究窗口/nativegoal仍active。
+
+### checkpoint012 Jensen完整主线与依赖矩阵验收
+
+011已actualH3/Gitee push；[verification-024](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-024.json)实际report/23changed/25mapped唯一writeback/coverage/boundary/lint/diff全部exit0，0errors203warnings。原J01十行/所有review及PLAN/Bib保持，扩展本sessionmainline不重写历史targetedscope。新组态mixing/四Qtreference/同Nmodelbaseline算术只支持限定合同，未恢复原VMI/DCO/DSAMfit/Σ或新CI。Bertone精确OSTI索引请求最终connecttimeout，body仍未得；未将新失败冒称原科学反证。
+
+稳定指针main / `Audit full Tm165 band-mixing and quadrupole-reference dependencies`，actualhash/H3/push仅publication012。formal17已一次/course18count17，18仍无学分知识preview，未开19；原研究窗口/nativegoal继续，下一用新的actualinput或source合同推进，不堆同代数/终态URL。

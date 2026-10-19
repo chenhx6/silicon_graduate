@@ -1,0 +1,284 @@
+{
+  "identity": "J01-BANDMIXING-REFERENCE-CHAIN-01",
+  "script_sha256": "bdb38c92eeda3b2edd4add758e6dbfc4138b7c19bd913771460d622b6a6ca075",
+  "contract_sha256": "f23926d4b29133b3dc661627de4585d1caaf570f7b9621881ec47db2728fbf72",
+  "negative_pair_from_actual_printed_inputs": {
+    "M1_photon_ratio": 46.5625,
+    "beta_squared_over_alpha_squared": 59.14179499794768,
+    "alpha_squared": 0.016627372030284842,
+    "beta_squared": 0.9833726279697151,
+    "theta_selected_deg": 165.18248519055743,
+    "principal_asin_deg": 14.817514809442574,
+    "M1_ratio_from_wrong_principal_branch": 0.013312121935408533,
+    "abs_V_keV": 1.7646149375279587,
+    "author_V_keV": 1.75,
+    "CG_squared_exact": [
+      "135/1001",
+      "45/143"
+    ],
+    "CG_ratio_squared_exact": "3/7",
+    "lambda523": 0.3221528861154446,
+    "lambda541": 24.979351032448378,
+    "Q541_over_Q523_from_Eq5": 1.1647633937348612,
+    "author_Q541_over_Q523": 1.16,
+    "not_new_signed_V_or_multipole_delta": true
+  },
+  "positive_pair_table5_model_closure": [
+    {
+      "I": 3.5,
+      "a": 0.9979,
+      "b": -0.0643,
+      "Ecalc404": 80.16,
+      "Ecalc411": 157.75,
+      "norm_squared_minus1": -6.110000000003613e-05,
+      "normalization_outer_rounding_bound": 0.00010622500000000001,
+      "norm_necessary_rounding_check": true,
+      "abs_interaction_from_printed_model_values_keV": 4.9785600223,
+      "fits_printed5point0_rounding_box": true
+    },
+    {
+      "I": 5.5,
+      "a": 0.995,
+      "b": -0.1003,
+      "Ecalc404": 365.82,
+      "Ecalc411": 415.68,
+      "norm_squared_minus1": 8.509000000000988e-05,
+      "normalization_outer_rounding_bound": 0.000109535,
+      "norm_necessary_rounding_check": true,
+      "abs_interaction_from_printed_model_values_keV": 4.975953210000001,
+      "fits_printed5point0_rounding_box": true
+    },
+    {
+      "I": 7.5,
+      "a": 0.9773,
+      "b": -0.2118,
+      "Ecalc404": 744.78,
+      "Ecalc411": 768.81,
+      "norm_squared_minus1": -2.5470000000082926e-05,
+      "normalization_outer_rounding_bound": 0.00011891499999999998,
+      "norm_necessary_rounding_check": true,
+      "abs_interaction_from_printed_model_values_keV": 4.974021124199994,
+      "fits_printed5point0_rounding_box": true
+    },
+    {
+      "I": 9.5,
+      "a": 0.746,
+      "b": -0.666,
+      "Ecalc404": 1203.13,
+      "Ecalc411": 1213.14,
+      "norm_squared_minus1": 7.2000000000072e-05,
+      "normalization_outer_rounding_bound": 0.000141205,
+      "norm_necessary_rounding_check": true,
+      "abs_interaction_from_printed_model_values_keV": 4.973328359999996,
+      "fits_printed5point0_rounding_box": true
+    },
+    {
+      "I": 11.5,
+      "a": 0.9274,
+      "b": 0.3741,
+      "Ecalc404": 1743.98,
+      "Ecalc411": 1729.64,
+      "norm_squared_minus1": 2.1569999999915268e-05,
+      "normalization_outer_rounding_bound": 0.000130155,
+      "norm_necessary_rounding_check": true,
+      "abs_interaction_from_printed_model_values_keV": 4.975124475599972,
+      "fits_printed5point0_rounding_box": true
+    },
+    {
+      "I": 13.5,
+      "a": 0.9323,
+      "b": 0.3618,
+      "Ecalc404": 2343.32,
+      "Ecalc411": 2328.57,
+      "norm_squared_minus1": 8.253000000002508e-05,
+      "normalization_outer_rounding_bound": 0.000129415,
+      "norm_necessary_rounding_check": true,
+      "abs_interaction_from_printed_model_values_keV": 4.975265565000001,
+      "fits_printed5point0_rounding_box": true
+    }
+  ],
+  "reference_dependency": {
+    "order_Q": [
+      "Q541",
+      "Q411",
+      "Q404",
+      "Q523"
+    ],
+    "order_primitives": [
+      "Q541",
+      "Q411",
+      "r404_over411",
+      "r541_over523"
+    ],
+    "Q_from_author_printed_primitives": [
+      8.3,
+      7.4,
+      7.104,
+      7.155172413793105
+    ],
+    "Jacobian": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.96,
+        7.4,
+        0.0
+      ],
+      [
+        0.8620689655172414,
+        0.0,
+        0.0,
+        -6.168252080856124
+      ]
+    ],
+    "conditional_independent_SD_design": [
+      0.5,
+      0.5,
+      0.05,
+      0.09
+    ],
+    "conditional_Sigma_Q": [
+      [
+        0.25,
+        0.0,
+        0.0,
+        0.21551724137931036
+      ],
+      [
+        0.0,
+        0.25,
+        0.24,
+        0.0
+      ],
+      [
+        0.0,
+        0.24,
+        0.36730000000000007,
+        0.0
+      ],
+      [
+        0.21551724137931036,
+        0.0,
+        0.0,
+        0.49397412856417755
+      ]
+    ],
+    "conditional_ratio_Q_over_Q541": [
+      1.0,
+      0.891566265060241,
+      0.8559036144578313,
+      0.8620689655172414
+    ],
+    "conditional_Sigma_ratios": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0065136101211840155,
+        0.006253065716336654,
+        -5.512150005885695e-20
+      ],
+      [
+        0.0,
+        0.006253065716336654,
+        0.00799016910016686,
+        -6.336678147804968e-20
+      ],
+      [
+        0.0,
+        5.837152589652052e-20,
+        5.60366648606597e-20,
+        0.0044735578928318444
+      ]
+    ],
+    "conditional_sigma_Q523_over_Q541": 0.066884661117717,
+    "source_Table6_R523_printed": [
+      0.87,
+      0.1
+    ],
+    "do_not_infer_actual_Cov_from_matching_summary_errors": true,
+    "no_extra_5percent_added": true
+  },
+  "matched_N96_crossing_rows": [
+    {
+      "nucleus": "165Tm",
+      "Z": 69,
+      "N": 96,
+      "measured_keV": 355,
+      "measured_error_plus": 15,
+      "measured_error_minus": 5,
+      "calculated_keV": 255,
+      "measured_gain_field": ">5.3",
+      "calculated_gain": 9.5
+    },
+    {
+      "nucleus": "164Er",
+      "Z": 68,
+      "N": 96,
+      "measured_keV": 281,
+      "measured_error_plus": 2,
+      "measured_error_minus": 2,
+      "calculated_keV": 225,
+      "measured_gain_field": "7.0+0.5-0.5",
+      "calculated_gain": 9.4
+    },
+    {
+      "nucleus": "166Yb",
+      "Z": 70,
+      "N": 96,
+      "measured_keV": 269,
+      "measured_error_plus": 2,
+      "measured_error_minus": 2,
+      "calculated_keV": 217,
+      "measured_gain_field": "7.9+0.5-0.5",
+      "calculated_gain": 9.8
+    }
+  ],
+  "crossing_central_double_differences": [
+    {
+      "reference": "164Er",
+      "same_N": 96,
+      "observed_Tm_minus_reference_keV": 74,
+      "model_Tm_minus_reference_keV": 30,
+      "double_difference_keV": 44,
+      "not_new_proton_neutron_interaction_measurement": true
+    },
+    {
+      "reference": "166Yb",
+      "same_N": 96,
+      "observed_Tm_minus_reference_keV": 86,
+      "model_Tm_minus_reference_keV": 38,
+      "double_difference_keV": 48,
+      "not_new_proton_neutron_interaction_measurement": true
+    }
+  ],
+  "assumptions": [
+    "negativepairusesauthorszerooffdiagonal/M1andfixedKhalf radiative model, reportedcorrectedphotonintensities; notmeasurednewdelta/Kpurity",
+    "configurationmixingtheta/amplitudes and photonmultipolemixingdelta are differentphysicalobjects; rateinputfixessquares/branch undernamedbasis, notphysicalVsign",
+    "Table5 Ecalc/amplitudes are source-modeloutputs rounded.01keV/.0001, notexperimentaldatacovariance; necessaryroundingchecks not fullVMIfitcertification",
+    "referenceSigma numericalexampleextraassumesquotedscales areindependentprimitiveSD, notactualSigma/probabilityerrors; source5percentalreadyadded so noextraterm",
+    "sourceTable6R.87(.10) preserved; conditionalratioerror.09/1.16² doesnotdeclareauthorerror or recoveredCOV",
+    "nooriginalVMI/DCO/DSAMproducer, fitweight/cov/gates/rawspectra orhalfKmixingprescription obtained",
+    "formal17alreadycreditedonce, exactlyuncredited18preview, no19",
+    "N96 observedTable3/Table8 andmodelTable7 matchingcolumns; differencesonlycentralarithmetic, nofit/probability or subtractingtheoryasmeasuredcalibration; Tmgain>5.3 keptlimit notpoint"
+  ],
+  "original_VMI_DCO_or_Dsam_fit_reproduced": false,
+  "new_experimental_CI": false,
+  "ok": true,
+  "generated_at": "2026-10-19T14:03:27.733590+00:00"
+}

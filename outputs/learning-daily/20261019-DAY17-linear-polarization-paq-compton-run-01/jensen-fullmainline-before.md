@@ -1,0 +1,7 @@
+# Jensen2001剩余主线前回忆：Day17内18preview
+
+本session已经定向读过DSAM/必要context与matchingTable1/2/6、J01-6–10/11行条件Qt，旧source还具有历史全文deep-read，强priming非盲测。现在在新问题前冻结回忆，再完成尚未本session通读的其余48页主线；不把旧claim/分数当新正式18信用。
+
+回忆：两个bandQt来自本DSAM，另外两个由mixing相对矩乘标尺。r_plus≈.96、r_minus≈1.16与7.4/8.3的共同标尺可能产生Cov；不能把四Qt当四独立寿命。rigidrotor/固定K或Omega混合影响换算，平均Qt用于别的spin/oneqp-Sbranch需要稳定性依据。较大h9/2Qt支持corepolarization，却不唯一解释ABcrossing延迟，因为pairing、Coriolis与residualpn也影响frequency；同Qt不直接确定signedgamma。
+
+待核完整原件：levelscheme与DCO双根/新band赋值的条件、所有主要fig/table/eq中的角色与关键误差，two-bandmixing的零offdiagonal/constantmatrixelement/参考与K混合假设，PES/diabatic/pairedmodel如何用Q和crossinggain两观测约束，哪里fails。只作matchingpublishedinput的规范化链算术/矩阵，不反解原Σ、不重复旧参数网格填时段；source全文/密表视觉scope如实，不虚称逐line全部独立重建。只formal17一次、18知识无学分、不开19，原15点截止不改。

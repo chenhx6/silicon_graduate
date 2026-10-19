@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; DSAM counterprimary checkpoint011
+## Active handoff — DAY17 original window active; Jensen full mainline checkpoint012
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–010实际H3/Gitee push；formal17仅007后计一次/course next18/count17、partial18，未开19。原runner16:06中断不伪造normalexit/新session。011稳定指针main / `Read DSAM experimental counter-evidence and audit attenuation contracts`，actualhash/push仅本runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–011实际H3/Gitee push；007后formal17仅一次/course next18/count17、partial18，未开19。原runner16:06中断不伪造normalexit/新session。012稳定指针main / `Audit full Tm165 band-mixing and quadrupole-reference dependencies`，actualhash/push仅本runreceipt。
 
-新Schuermann2008 source实际arxiv0804.1934v1七页/九图两表两式完整读、全部mainfigures视觉核；2008metadata/边栏与PDFdated2018字面分开，官方tex date today不当2018新测量。单Ge密角/gain/共a-b/primaryF限制后6792/6172 F.99(.01)、τ<.77fs；作者保留旧data点相容却finiteτ结论未confirm。Eq1 P.987是finiteDopplercorrection，不是linearP，PAQnote同步辨字；F分母映射.97713/−.01287只条件算术，不原τbias。
+当前仍exactly18无学分DSAMpreview；Jensen在先前targetedDSAM后另冻新问题/强priming，已完成48页mainline/19fig/8table角色/Eq1–9/关键视觉；密Table1/7/8selectedrows定量核，不冒每格inventory重建。新J01-11–18保存VMI固定K/Q411、跨spinconstantQt的模型支持、negativepair zerooffdiagonal与Ωmixing条件、band4spin/δ多根及E1同Qt标尺/未fitb边界。旧J01-1–10/flags保持。
 
-新TableI/II/width/statcontrast脚本是实际输入诊断非Fτ重拟：6792独立quotedSDcontrast1.897与固定旧central/新scale6不是同test，不冒重现/否定作者>5sigma；τ.77fs→.85482eV与Γγ数值相合但total/radiative/1sigmalimit分开，不升90%CI。5181companion共享系统误差，TableII只用Bister旧F再分析、非另测两态；原Refs12/18 primary未读。SRIMpoly/centroids/Σ/P误差未得，未造producer。
+actualTable1/5/6/7/8新script给α².0166274/β².9833726、|V|1.764615、Q541/Q5231.164763；principalasin14.818°会错namedbranch，原rate选165.182°，不是multipoleδ/physicalsignedV。sourceTable5 sixmodel eigenpairs只printingclosure非VMI拟合优度。四Qt=(A,B,rplusB,A/rminus)共享标尺，ratio可消A但不消影响rminus的系统误差；independentprimitiveSD只是design、原Table6errors保持、不重复加已计5%。同N96crossingmodelbaseline中心双差44/48keV不是新pn测量，Tm gain>5.3仍limit。E1B用同Qt/mixing不算独立绝对验证。
 
-verification022实际report/23changed/25mapped(未改LKH82/YA67)/coverage/boundary/lint/diff0，0errors203warnings(143key56raw4parser)，原Sun自010未改与PLAN/Bib保护。旧Sun/SI/MADAI/spinhalfproof边界继承，raw/旧review/继承dirty保持，卡完成不结束原窗口。
+verification024实际report/23changed25mapped(未改LKH82/YA67)/coverage/boundary/lint/diff0，0errors203warnings(143key56raw4parser)，旧J01十行/review/PLAN/Bib保持。原P/A/Q、SG98printing、GRSISort/native/MADAI/Sunv2+SI/Schuermann原件与实际input缺口均继承，raw/credentials/系统配置/继承dirty未动。
 
-Galinski2014 DOI90.035803 exactmetadata有但body未得：原downloaderCDP不可达do_not_auto_retry、trustedcitationPDF HTTPS实际login/errorpage、INSPIRE无arxiv/doc，arxiv纠正query只otherpapers；终态不原样重试。Fry2018机构429不绕过。新boundedcounterrouteBertone2001 PRL87.152501/题名6793metadata核，来源前primed回忆已冻，publicPDFdownload1474实际pdf_fetch_failed/login_or_error_page，body未得；只新OSTI索引路线待有效input，不预填原校准。INSPIRE只metadata ID580918/OSTI40277695，不当body。下一先核clock/publication011/receipt再选择有效newinput，仍exactlypartial18、不授18/重授17/开19。原15点后stop研究并整日收束/检查/receipt/发布，之后goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+Bertone2001 publicAPS候选实际download为login/errorpage，exactOSTI40277695新增查询connecttimeout，原body未得；Galinski2014body/Fry2018record未得边界也终态，不原样重试/不绕访问限制。当前Jensen代数局部闭合，真正新info需独立reference/库存/实际fitinput。下一先clock/receipt/当前候选池与publication012；可在sameDay18方法内核官方level/decaybranch/width合同等实际输入，但不能开19、不能用更多toy代缺失Σ、不能因checkpoint结束原窗口。原deadline后整日收束/必要检查/receipt/显式发布齐才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

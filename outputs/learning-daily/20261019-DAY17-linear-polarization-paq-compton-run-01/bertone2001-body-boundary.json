@@ -5,5 +5,7 @@
   "manifest": "tmp/day17-bertone2001-public/manifest.json",
   "body_obtained": false,
   "no_metadata_as_body": true,
-  "only_possible_new_route": "exactOSTI40277695 index/publicdocument ifreturned; no identicalAPSretry or accessbypass"
+  "only_possible_new_route": "exactOSTI40277695 index/publicdocument ifreturned; no identicalAPSretry or accessbypass",
+  "exactOSTI40277695": "connecttimeout20s, nobody/metadatareturned; terminalnewrouteattemptretained",
+  "next": "newactualaccess/data wouldberequired; no identicalretry; source-levelcomparisonlimitedtoSchuermannactualbody/citedoldnumbers"
 }

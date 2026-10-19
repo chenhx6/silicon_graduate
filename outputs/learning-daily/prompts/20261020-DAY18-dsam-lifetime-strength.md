@@ -24,3 +24,5 @@ Day17仍在其原2026-10-20 15:00窗口持续；本prompt不会缩短该截止�
 Day17后续priming还包括spinhalf-angular-nuisance-response-contract：1/2 rest singles定理有末态identity/frame条件，finalγgate/boost反例都保留，actualSunA2角色未知。它不认证原τbias、不是formal18交付或独立盲测；Galinski2014当下只metadata/正在尝试取body，最新进度必须核后续canonical/receipt，不预填结果。
 
 Day17再追加priming：schuermann-2008-15o-6792-dsam原七页完整已读，singleGe/gain/denseangle/commongeometry/primaryF约束与finite转limit反证；P=.987是finiteDoppler，不是linearP。新summarycontrast/width算术不重现原profiletest或Σ，不把1sigmalimit升90%。TableII复用BisterF非另测；Bertone2001/Galinski2014原body当前scope只认后续actualreceipt，不能从转引预填。
+
+Day17最后Jensenpriming进展：在先前targetedDSAM后另冻问题，现本session48页完整mainline/19fig8table9eq角色已读（密表selectedrows不冒逐格重建），J01-11–18与jensen-bandmixing-reference-chain新artifact保存negativepairbranch/四Qt同标尺/同Nmodelbaseline/E1依赖。它们仍知识preview，正式18必须新session冻结承认priming回忆并做新实际交付，不重跑旧JSON换学分。

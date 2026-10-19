@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T14:02:32.585182+00:00",
+  "formalday": 17,
+  "uncreditedpreviewday": 18,
+  "source": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+  "raw_sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+  "stage": "after earlier targetedDSAM reading, remaining mainline completed",
+  "actualscope": "48page mainline/refs, all19figures/8tables roles and9equations covered; allpageimages overview, key8/13/23/24/25/31/32/33/36/37/39/41/42/43 details; textmainline acrosssource read",
+  "dense_table_boundary": "Table1/7/8 overview/schema/allmainline implications read; selected actualrows used/checked, no claimalltransition/modelgridcells independently reconstructed or historicalfit certified",
+  "new_problem": "directvsbandmixingderivedQt, configurationamplitudebranch vs multipoleδ, modelbaseline/crossing/E1 dependencies",
+  "new_artifact": "jensen-bandmixing-contract/result; sourceTable1 andTable5/6 actualprintedinputs, extraSDdesignnotoriginalΣ",
+  "priming": "oldfullingest + same-session targetedDSAM/printedtables; no blindedscore orformal18credit"
+}
