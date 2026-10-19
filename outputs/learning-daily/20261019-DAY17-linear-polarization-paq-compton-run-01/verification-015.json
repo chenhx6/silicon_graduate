@@ -1,0 +1,134 @@
+{
+  "checked_at": "2026-10-19T12:16:21.927536+00:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      17
+    ],
+    "partial_day_indices": [
+      18
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 18,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/observables/transition-quadrupole-moment.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 197,
+      "info": 2635
+    },
+    "errors": []
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "jensen-2001-165tm-h9-2-configuration": {
+    "old_rows_unchanged": true,
+    "old_count": 5,
+    "old_review_unchanged": true
+  },
+  "mukhopadhyay-2008-136nd-transition-rates": {
+    "old_rows_unchanged": true,
+    "old_count": 19,
+    "old_review_unchanged": true
+  },
+  "new_calculation": {
+    "ok": true,
+    "script_hash_match": true,
+    "no_experimental_refit": true,
+    "no_credit18": true
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "required_artifacts": {
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md": true,
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json": true,
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md": true
+  },
+  "prior_publications": {
+    "publication-001": "pushed",
+    "publication-002": "pushed",
+    "publication-003": "pushed",
+    "publication-004": "pushed",
+    "publication-005": "pushed",
+    "publication-006": "pushed"
+  },
+  "ok": true,
+  "report_sha256": "0b5268f03e4acbf7cba48e788f631cc8f0e14f4b6986f4cd208da46ce482b221"
+}

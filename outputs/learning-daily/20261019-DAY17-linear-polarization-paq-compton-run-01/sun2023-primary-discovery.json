@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"total\": 2409647,\n  \"sources_queried\": [\n    \"crossref\",\n    \"arxiv\"\n  ],\n  \"result_count\": 2,\n  \"results\": [\n    {\n      \"title\": \"Markov Chain Monte Carlo\",\n      \"authors\": [\n        \"John K. Kruschke\"\n      ],\n      \"year\": 2015,\n      \"doi\": \"10.1016/b978-0-12-405888-0.00007-6\",\n      \"journal\": \"Doing Bayesian Data Analysis\",\n      \"source\": \"crossref\",\n      \"citation_count\": 16\n    },\n    {\n      \"title\": \"Markov Chain Monte Carlo\",\n      \"authors\": [\n        \"N. Thompson Hobbs\",\n        \"Mevin B. Hooten\"\n      ],\n      \"year\": 2015,\n      \"doi\": \"10.23943/princeton/9780691159287.003.0007\",\n      \"journal\": \"Bayesian Models\",\n      \"source\": \"crossref\",\n      \"citation_count\": 0\n    }\n  ],\n  \"errors\": [\n    {\n      \"source\": \"arxiv\",\n      \"error\": \"[arxiv] Rate limited or unavailable (HTTP 429)\"\n    }\n  ]\n}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\n  \"total\": 2409647,\n  \"sources_queried\": [\n    \"crossref\",\n    \"arxiv\"\n  ],\n  \"result_count\": 2,\n  \"results\": [\n    {\n      \"title\": \"Markov Chain Monte Carlo\",\n      \"authors\": [\n        \"John K. Kruschke\"\n      ],\n      \"year\": 2015,\n      \"doi\": \"10.1016/b978-0-12-405888-0.00007-6\",\n      \"journal\": \"Doing Bayesian Data Analysis\",\n      \"source\": \"crossref\",\n      \"citation_count\": 16\n    },\n    {\n      \"title\": \"Markov Chain Monte Carlo\",\n      \"authors\": [\n        \"N. Thompson Hobbs\",\n        \"Mevin B. Hooten\"\n      ],\n      \"year\": 2015,\n      \"doi\": \"10.23943/princeton/9780691159287.003.0007\",\n      \"journal\": \"Bayesian Models\",\n      \"source\": \"crossref\",\n      \"citation_count\": 0\n    }\n  ],\n  \"errors\": [\n    {\n      \"source\": \"arxiv\",\n      \"error\": \"[arxiv] Rate limited or unavailable (HTTP 429)\"\n    }\n  ]\n}"
+  },
+  "isError": false
+}

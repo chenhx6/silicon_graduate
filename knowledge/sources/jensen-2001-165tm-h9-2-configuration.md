@@ -3,7 +3,7 @@ type: source
 title: "General properties of the πh9/2[541]1/2− configuration and level scheme of 165Tm"
 aliases: ["Jensen 2001 165Tm", "NPA695 Jensen 165Tm", "HS-006 HS-007 canonical duplicate group"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -91,6 +91,12 @@ Jensen 等人的 `165Tm` 工作把高统计 γγ/γγγ 谱学、DCO、DSAM 寿�
 | J01-4 | CSM/PES explains only part of the delayed crossing; residual proton-neutron interactions are proposed as an additional contribution. | author-interpretation/model-result | direct | PDF pp.36-43 | true |
 | J01-5 | E1 strengths between `[411]1/2+` and `[541]1/2−` are enhanced by orders of magnitude over single-particle estimates; octupole-vibrational coupling improves qualitative agreement. | experimental-result/model-result | direct | PDF pp.44-46，Fig.19 | true |
 
+| J01-6 | 实际DSAM用Au/Pb各四角矩阵，37/79/101/143度对allsum；由于统计不足不能在任何目标跃迁之上开门，采用[411]两signature的483/527和516/467门、[541]favoured474门，均below。不是用abovegate直接消sidefeeding。 | direct-experimental-selection | direct | PDF22–23 / printed24–25 Sec3.2 | true |
+| J01-7 | 电子阻停empirical并shellcorrected、核阻停differentialLindhardt；Currie/Bacelar MC按5fs构造timeslicedshapes，Batemanyield加权后least-squares。sidefeeding为三步同Qs、固定J(2)=65.0，非MU08的五步/2fs/SRIM链。 | direct-analysis-model | direct | PDF21–23 / printed23–25 Sec3.2 | true |
+| J01-8 | Table2报告Pb-backed十一组levelτ/Qt，Au统计不足Pb三分之一但Qt在uncertainty内相合；原文称additional5%电子阻停systematic has been added to tableuncertainties，没有给联合Σ或概率合同。不无条件再叠5%、或断言相对ratio完全取消。 | direct-uncertainty-and-lineage | direct-and-boundary | PDF23 / printed25 Table2及其上段 | true |
+| J01-9 | Table6四bandQt中[541]/[411]两值来自本DSAM，另外[404]/[523]由mixing分析相对矩再用它们标尺得到；同链派生不是四套独立寿命。normalization reference及oneqp/Sband比较分开。 | direct-derivation-dependence | direct | PDF33/printed35 Eq5后；PDF36/printed38 Table6 | true |
+| J01-10 | 本session按实际Table2十一行、声明p_gamma=1/ICC0/fixedK1/2条件，从levelτ算B再转Qt，最大central差约1.772%；全部在额外nearest-decimal打印box中有交集。不恢复原ICC/branch/Kmixing/fitCov、不判原表错或把算术相合计独立实验。 | task-conditional-table-audit | derived | PDF23 Table2；day18-lifetime-strength-result jensen_conditional_rows | true |
+
 ## Nuclear Structure Information
 
 - `165Tm` bands: `[523]7/2−`, `[541]1/2−`, `[411]1/2+`, `[404]7/2+`, `[402]5/2+`, new bands 1-4, and candidate `[514]9/2−`, `[411]3/2+`.
@@ -169,3 +175,9 @@ Jensen 等人的 `165Tm` 工作把高统计 γγ/γγγ 谱学、DCO、DSAM 寿�
 
 - HS-006 is the canonical copy; HS-007 is duplicate and must be marked `audited-reused` in the execution ledger.
 - Later direct sources can test whether the h9/2 deformation/crossing pattern is universal across the rare-earth region or specific to this lineage.
+
+## 2026-10-19 Day17内无学分Day18定向自审
+
+本session只新读DSAM主链与必要context/匹配Table1/2/6，具体scope见[readingreceipt](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/day18-preview-reading-scope.json)，不冒称重新全文48页。原J01-1–5及falseflags逐字保持，新J01-6–10全needs_review。Fig7右列图头[411]1/2+与Table2的729.4/51/2+一致；caption字面另写[541]1/2−，保留printedlabel边界，不据此另造母态、修原件或判实验失败。
+
+新的[[lifetime-strength-audit-165tm-136nd]]分层实际spectra、fitτ、rate/B换算与Qt/形变解释；previews不授Day18信用。

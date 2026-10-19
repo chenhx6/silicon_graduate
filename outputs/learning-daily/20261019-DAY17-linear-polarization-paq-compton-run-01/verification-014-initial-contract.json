@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-10-19T12:08:44.698810+00:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": false,
+    "error": "at most the first incomplete day card may be marked partial"
+  },
+  "writeback": {
+    "valid": false,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md"
+    ],
+    "changed_paths": [],
+    "change_check": "run-snapshot",
+    "error": "knowledge page does not link to source mukhopadhyay-2008-136nd-transition-rates"
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 197,
+      "info": 2635
+    },
+    "errors": []
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "jensen-2001-165tm-h9-2-configuration": {
+    "old_rows_unchanged": true,
+    "old_count": 5,
+    "old_review_unchanged": true
+  },
+  "mukhopadhyay-2008-136nd-transition-rates": {
+    "old_rows_unchanged": true,
+    "old_count": 19,
+    "old_review_unchanged": true
+  },
+  "new_calculation": {
+    "ok": true,
+    "script_hash_match": true,
+    "no_experimental_refit": true,
+    "no_credit18": true
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "ok": false
+}

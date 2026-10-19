@@ -23,11 +23,13 @@
   "status": "running",
   "started_at": "2026-10-19T16:01:17.507247+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
-  "completed_day_indices": [],
-  "partial_day_indices": [
+  "completed_day_indices": [
     17
   ],
-  "curriculum_cards_completed": 0,
+  "partial_day_indices": [
+    18
+  ],
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-20T16:00:00+08:00",
   "last_closeout_snapshot": {
     "now_local": "2026-10-19T16:01:17.507247+08:00",
@@ -66,19 +68,20 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit DAY17 official Pb207 reference and normalization covariance",
-    "commit": "6ae50e1d752ec2cd68b16ed7775dd7fc60b0923c",
+    "subject": "Derive DAY17 Pb207 gated Stokes with explicit phase and response limits",
+    "commit": "c6173d092098deb1174689fe4ab8d055f93d5867",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active; checkpoint006 conditional207Pb reference, no day credit",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-013.json",
-  "last_observed_at": "2026-10-19T11:55:16.531349+00:00",
+  "research_status": "active; Day17 card evidence complete, exact uncredited Day18 preview continues original window",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-015.json",
+  "last_observed_at": "2026-10-19T12:15:37.132343+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 13
+  "canonical_knowledge_changed_pages": 18,
+  "course_credit_reconciliation": "only once after checkpoint007 actualpublication; see card-credit-007.json"
 }

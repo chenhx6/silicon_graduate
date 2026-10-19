@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T12:10:44.847020+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-before-body.md",
+  "sha256": "87c317a156616259d6e09ff78836e06f2051e328d5102e0753d58d32a4ed9dce",
+  "formal_day_index": 17,
+  "uncredited_preview_day_index": 18,
+  "body_read": false,
+  "priming": "Wang2023 secondary + exactmetadata; no independent blindtest"
+}

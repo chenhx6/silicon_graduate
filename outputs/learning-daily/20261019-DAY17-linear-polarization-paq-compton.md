@@ -16,10 +16,10 @@ updated: 2026-10-19
 - schedule_id: `wiki-daily-learning`；Docker-local，非GUI Scheduled对象。
 - hard_deadline: `2026-10-20T15:00:00+08:00`；15:00–16:00仅收束。
 - status: `running / substantive checkpoint`；原生goal为active，未提前关闭研究窗口。
-- completed_day_indices: []
-- partial_day_indices: [17]
-- Day 17 card audit: partial
-- 当前课程文件仍为next17/count16；Day16预习、旧程序检查与旧分数不兑换正式17。本session只允许正式17，最多无学分partial18，不开19；目前未开18。
+- completed_day_indices: [17]
+- partial_day_indices: [18]
+- Day 17 card audit: complete
+- 启动课程文件为next17/count16；正式17只在本卡验收/发布后对账一次，原整日研究窗口继续；Day16预习、旧程序检查与旧分数不兑换正式17。本session只允许正式17，最多无学分partial18，不开19；现按时间门仅预习18，未授18/未开19。
 
 实际runner回执位于[run.json](20261019-DAY17-linear-polarization-paq-compton-run-01/run.json)，其run-01/session与原deadline覆盖准备prompt的run-17/output_dir示例。`events.jsonl`实际thread.started与CODEX_THREAD_ID相符。用户打断后明确要求farmer/go-on/all/auto继续；后来暂停并恢复goal，仍是同一session，不新建daemon/session或调度。现已从canonical scheduler的16:06 manual-waiter-interrupted及原PID缺失核实原waiter/runner中断；当前研究通过同session用户恢复的nativegoal继续，正常runnerexit code仍未观察。已append-only补同session索引，见[session-index](20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json)，未启动新session/调度器。
 
@@ -32,9 +32,9 @@ updated: 2026-10-19
 | SG98原件主线与关键图/表/式 | [[../../knowledge/sources/schmid-1998-gammasphere-polarization]]末段actualreadscope；printed95–110、Figs1–15、Tables1–3、Eq1–19；SG98-13/14 | complete |
 | P/A/Q分层与新计数/误差练习 | [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]“P/A/Q分层与原件输入”及“声明设计的计数与定量结果”；[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json) | complete |
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
-| 本日报、唯一writeback与checks | 六页canonical已变更；首轮模板缺项已修、lint-001 exit0/0errors190warnings；报告/映射/发布的完整验收尚待检查点记录 | partial |
+| 本日报、唯一writeback与checks | 当前十八页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
 
-这是研究中检查点的实况表，未预填formal17完成或提前计卡。最终完成时再按所有门更新completed[17]及逐卡审计。
+Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
 
 ## Candidate pool and selection
 
@@ -154,6 +154,16 @@ NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/Ph
 直接光子迹与独立exactCG/阶乘d最大差8.88×10⁻16，独立F/F3三rank符号残差0；PSD/nativeRB/EMduality及directfullsphere4controls通过。68–113°均匀cos接受仅是声明设计，pure平均−.21603/.34124不是实际GRIFFINP；unobservedgate共同轴Stokes0与eventplane标量平均分开。N207-14/15为新derivedmodel claims，非官方测量。
 
 Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、downloadercredentials_missing、OpenAlex/Semantic无OA、机构验证页/403、Scholar/Googletimeout及Bingofftopic留[boundary](20261019-DAY17-linear-polarization-paq-compton-run-01/hutter2002-body-boundary.json)。不算阅读credit，不绕过访问限制或从题名补高能结果。
+
+### 恰好Day18无学分知识预习：lifetime-strength-audit
+
+[候选池/时间门007](20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-007.json)在上海19:56、距原deadline约1144min确认当前PAQ理论局部闭合且primary/events/response/Σ仍输入受限；检查下一卡后选择恰好18，无19。先冻结承认旧DSAM/Day9/13priming的[回忆](20261019-DAY17-linear-polarization-paq-compton-run-01/day18-preview-before-sources.md)/[sessionhash](20261019-DAY17-linear-polarization-paq-compton-run-01/day18-preview-recall-freeze.json)，再开source/raw；不是盲测。
+
+[[../../knowledge/sources/jensen-2001-165tm-h9-2-configuration]]原48页PDF/hash核匹配，本session只定向读DSAM PDF21–25/printed23–27与必要实验、matchingTable1/2/6/mixing/结论context，不冒称新48页全文；J01-6–10保存belowgates、三步/5fs、stopping5%原句和同标尺依赖。[[../../knowledge/sources/mukhopadhyay-2008-136nd-transition-rates]]本session六页全文主线/五图/两表/三式与关键视觉核，MU08-15–17区分fulltailgate、five-step/2fs/globalfit与candidategeometry。旧claim/reviewflags保持，原raw未改。[实际scope](20261019-DAY17-linear-polarization-paq-compton-run-01/day18-preview-reading-scope.json)/[identity](20261019-DAY17-linear-polarization-paq-compton-run-01/day18-preview-original-identity.json)/Crossref保存对象与日期层。
+
+新[[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]和[输入](20261019-DAY17-linear-polarization-paq-compton-run-01/day18-lifetime-strength-contract.json)/[程序](../../system/scripts/day17_day18_lifetime_strength_audit.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/day18-lifetime-strength-result.json)对Jensen十一行作声明pγ1/ICC0/fixedK1/2的τ→B→Qt，最大central差1.772%、额外nearestdecimalbox全部有交集；不反解ICC/branch或称原表错。MU08九组B/Qt与候选G=CG(I I2−2|I−2 I−2)²=(2I−3)/(2I+1)的额外打印box相容；fixedK0给约1.58倍不同Qt，**数值匹配不等于作者实际公式已认证**。LKH82仅PDF3/printed121 Eq2.2/2.3原图复核，现代常数不称原文直接数字。
+
+反证：fulltailbelowgate仅免去截快tail的一类selectionbias，不消sidefeeding；5%与最高15%预算不同、未给Σ不拼独立Gaussian；B/Qt/其它band标尺同链派生不计独立测量。实际lineshape/events/response/feeding/Σ仍缺，没有新L4τ/B/Qt或实验CI。今日formal17不变，partial18仅知识预习，课程next17/count16暂保持，最终也只允许17信用。
 
 ## Durable knowledge delta
 
@@ -641,6 +651,125 @@ Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、dow
           "locator": "GF19-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "summary": "本sessionDSAM/必要context定向原读；三步5fs/实际belowgates/stopping预算、同源Qt标尺与11行条件换算，旧五claim/flags保持。",
+      "anchor": "2026-10-19 Day17内无学分Day18定向自审",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-6"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-7"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-8"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-9"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "summary": "六页主线/五图两表三式原读；movinggatefulltail/globalfit边界及九行候选Qt几何，原14+CORRclaims/flags保持。",
+      "anchor": "2026-10-19 Day17内无学分Day18重新原读",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-15"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-16"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。",
+      "anchor": "B到Qt要另给几何",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-7"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-8"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-10"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-15"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-16"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-17"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。",
+      "anchor": "fulltailbelowgate只控制一类selectionbias",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-15"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-16"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-6"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-7"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/transition-quadrupole-moment.md",
+      "summary": "固定K和候选stretchedaxisCG是不同几何；9行算术匹配不唯一认证producer/内禀轴。",
+      "anchor": "固定K与候选stretched-axis几何",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-17"
+        }
+      ]
     }
   ]
 }
@@ -691,3 +820,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 [verification-013](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-013.json)实际report/唯一writeback十三页/partial17coverage/boundary/lint/diff通过，均exit0、0errors197warnings；新note初lint缺七schemaheading为exit1，修正并保留initialreceipt。旧N20713行/TU017行与reviewflags保持。新高L/半整数条件核、独立F/F3残差0和spherecontrols不代实验CI。
 
 1977Ku09已核NSR/Crossref identity为Kumar等PRC15,1852、DOI10.1103/PhysRevC.15.1852；正文下载因CDP不可达为do_not_auto_retry，未读原扰动/phase/fit。1976/1977两对象新增OSTI查询connecttimeout，均未取得body，不原样重试。稳定指针main / `Derive DAY17 Pb207 gated Stokes with explicit phase and response limits`，精确hash/actualH3/push只publication-006。原研究窗与课程状态保持active/partial17，不因本批局部闭合结束。
+
+### checkpoint007逐卡完成与持续窗口
+
+[verification-015](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-015.json)实际report/coverage/唯一writeback18changed与19mapped(另含未改LKH82source)、boundary/lint/diff全部exit0，0errors197warnings；旧J01五行/MU08十九匹配行与review保持。014初contract验收的双partial和直接source链接缺口、初schema缺Assumptions均保留；现在17实际卡交付齐且001–006已发布、[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在，按证据完成17卡、只18partial，未放宽解析器或授18。
+
+本批稳定指针main / `Complete DAY17 card and preserve uncredited DSAM preview`，actualhash/H3/push与仅一次课程对账只本runreceipt。**原研究窗口/nativegoal继续active**，不以完成课程卡结束整日。下一Sun2023已合法下载arxiv2203.10336v2/9Nov2022十页（不是2023VoR），当前仅PDF1/abstract/introstart；完整主线、方法/图式和actual公开input核验待续，不能把二级review或download当primary方法验证。

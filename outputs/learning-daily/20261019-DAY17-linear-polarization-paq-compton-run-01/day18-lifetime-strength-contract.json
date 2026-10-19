@@ -1,0 +1,173 @@
+{
+  "identity": "DAY17-UNCREDITED18-LIFETIME-STRENGTH-AUDIT-01",
+  "source_hashes": {
+    "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+    "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
+  },
+  "modern_E2_ps_MeV_e2b2_constant": 0.081620212,
+  "constant_origin": "existing Wiki modern-units reconstruction of LKH82 Eq2.2; not a numeric constant printed by LKH82 or Jensen",
+  "jensen_table2": [
+    {
+      "band": "541",
+      "Ji2": 33,
+      "E_keV": 618.3,
+      "tau_ps": 0.27,
+      "Qt_eb": 9.8,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "541",
+      "Ji2": 37,
+      "E_keV": 674.3,
+      "tau_ps": 0.26,
+      "Qt_eb": 7.9,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "541",
+      "Ji2": 41,
+      "E_keV": 717.3,
+      "tau_ps": 0.22,
+      "Qt_eb": 7.3,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "541",
+      "Ji2": 45,
+      "E_keV": 741.9,
+      "tau_ps": 0.15,
+      "Qt_eb": 8.1,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "541",
+      "Ji2": 49,
+      "E_keV": 762.8,
+      "tau_ps": 0.1,
+      "Qt_eb": 9.3,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "411",
+      "Ji2": 45,
+      "E_keV": 634.8,
+      "tau_ps": 0.27,
+      "Qt_eb": 9,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "411",
+      "Ji2": 47,
+      "E_keV": 660.8,
+      "tau_ps": 0.29,
+      "Qt_eb": 8,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "411",
+      "Ji2": 49,
+      "E_keV": 708.4,
+      "tau_ps": 0.2,
+      "Qt_eb": 8.1,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "411",
+      "Ji2": 51,
+      "E_keV": 729.4,
+      "tau_ps": 0.18,
+      "Qt_eb": 7.9,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "411",
+      "Ji2": 53,
+      "E_keV": 779.9,
+      "tau_ps": 0.2,
+      "Qt_eb": 6.2,
+      "source_locator": "PDF23 printed25 Table2"
+    },
+    {
+      "band": "411",
+      "Ji2": 55,
+      "E_keV": 793.9,
+      "tau_ps": 0.21,
+      "Qt_eb": 5.8,
+      "source_locator": "PDF23 printed25 Table2"
+    }
+  ],
+  "mu08_tableII": [
+    {
+      "band": 1,
+      "I": 16,
+      "BE2": 0.26,
+      "Qt": 1.73,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 1,
+      "I": 17,
+      "BE2": 0.08,
+      "Qt": 0.95,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 1,
+      "I": 18,
+      "BE2": 0.14,
+      "Qt": 1.26,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 1,
+      "I": 19,
+      "BE2": 0.11,
+      "Qt": 1.11,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 2,
+      "I": 15,
+      "BE2": 0.54,
+      "Qt": 2.5,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 2,
+      "I": 16,
+      "BE2": 0.51,
+      "Qt": 2.42,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 2,
+      "I": 17,
+      "BE2": 0.44,
+      "Qt": 2.24,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 2,
+      "I": 18,
+      "BE2": 0.04,
+      "Qt": 0.67,
+      "source_locator": "PDF4 TableII"
+    },
+    {
+      "band": 2,
+      "I": 19,
+      "BE2": 0.05,
+      "Qt": 0.75,
+      "source_locator": "PDF4 TableII"
+    }
+  ],
+  "assumptions": [
+    "Jensen selectedE2 photonfraction1 and ICC0 is a declared arithmetic diagnostic, not actual full inventory or original extraction",
+    "Jensen fixedKhalf and rigidrotor conversion is candidate geometry; no code/actualKmixing recovered",
+    "decimalclosure uses only hypothetical central nearest .1keV/.01ps/.1eb printing boxes; not quoted uncertainty, probability or CI",
+    "MU08 stretched-axis candidate G=CG(I I 2 -2|I-2 I-2)^2 compared with fixedK0; matching does not uniquely identify historical formula/producer or intrinsicgeometry",
+    "original lifetimes/branch/stopping/feeding covariance not acquired; no errorbar fit or real data analysis",
+    "formalday17 only; preview18 uncredited, no19 opened"
+  ]
+}

@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2008 - Electromagnetic transition rates in high-spin bands in 136Nd"
 aliases: [Mukhopadhyay 2008 136Nd transition rates]
 created: 2026-09-21
-updated: 2026-10-09
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -160,6 +160,10 @@ The different `B(E2)` patterns contradict treating the two near-degenerate bands
 | MU08-CORR-1 | The 2026-10-09 Crossref record has no correction/update relation, and the official APS article page shows no correction/erratum link. No correction was found on these endpoints; separately indexed notices are not ruled out. | evidence-boundary | direct | Crossref `https://api.crossref.org/works/10.1103/PhysRevC.78.034311`; APS article `https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311` | true |
 | MU08-14 | Across the ten printed parent-level branch groups in Table I, the central values sum to 1. If each group is additionally modeled as the same complete finite-variance random vector normalized exactly to 1 on every trial, then the printed parentheses interpreted as marginal SDs violate necessary L2 constraints in eight groups (two-component groups require equal marginal SDs; three-component groups require each SD ≤ the sum of the other SDs). The count eight treats the displayed errors as exact SDs. Under an additional hypothetical nearest-0.01 rounding model (closed ±0.005 SD intervals), seven violations remain; B2-I17 is rounding-sensitive (0.036 ≤ 0.024+0.014 can satisfy the necessary inequality). The paper does not establish these joint-distribution or rounding assumptions; this reductio rules out only that added statistical interpretation and does not imply author error, omitted decay channels, or actual covariance. | our-inference + limitation | indirect | printed 034311-3 / PDF p.3, Table I, all ten parent-level branch groups | true |
 
+| MU08-15 | 全部gates位于目标以下；未完全停止的gate按每ring包括完整stopped+shifted峰形，针对的是遗漏fasttail的特定selectionbias。它不消除sidefeeding/contamination/response全部依赖。 | direct-gate-selection-boundary | direct | PDF2 / printed034311-2 gating段 | true |
+| MU08-16 | 实际5000 recoilvelocity histories、2fs、SRIM，五步sidefeeding的Qs可调；逐级起始inband/sidefeeding/background/contaminant自由，后固定最佳background与stoppedcontaminant，再加入下级直到globalfit中各inband/sidefeeding寿命独立可调。原χ²minimum附近误差不等于已提供所有nuisance的jointprofileΣ。 | direct-fit-sequence-and-error-boundary | direct | PDF2–3 / printed034311-2–3 | true |
+| MU08-17 | 本任务在TableII九组非空B(E2)/Qt打印输入上，用候选G=CG(I I 2 −2|I−2 I−2)²=(2I−3)/(2I+1)转Qt，均在额外nearest.01打印box内相容；fixedK0会给约1.58倍不同值。本文未印该公式，不从匹配反认唯一historicalproducer或真实内禀geometry。 | task-candidate-geometry-table-audit | derived-and-boundary | PDF4 TableII；day18-lifetime-strength-result mu08_candidate_geometry_rows | true |
+
 ## Summary
 
 The `136Nd` lifetime study is a direct electromagnetic-strength counterexample that forces partner-resolved transition probabilities into the chirality evidence gate.
@@ -227,3 +231,7 @@ Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的
 2026-10-07追加vacancy敏感性：相同五能量/mode已从officialANU认证NH/v2.3(2011)，原FO不改。相同printedbranch数字分别作g/β时，B1 nominal变化0（打印精度），B2 photon两branch约+0.000588%、total β的382.0branch约+0.009756%。这是[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D8-5的理论forward假设对照，非本文作者采用NH/FO的证据；未补N6、radius/136Nd、energy/branch covariance和feeding/stopping。没有反解quotedB或改变mode ranking，Day9仅无学分。
 
 2026-10-07的五个现代official FO lookup和条件forward ledger见[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]的dated supplement、[[high-spin-lifetime-strength-deformation]]。它们不识别本文实际使用的表/branch定义；两点N6缺项、defaultNd144/actual136Nd radius、模型与shared covariance边界保留。2026-10-09正式Day9续查 Ref.[16]：Unpaywall仍报closed/no repository copy，arXiv exact DOI query返回0；新核验的APS官方页面直接给出PDF URL，HTTPS publisher PDF endpoint返回200/application-pdf，原件SHA-256保存于[[chiara-2001-108-110in-shears-band-lifetimes]]。全文的partial-lifetime/branch/IC与pure-M1/crossover assumptions见CHI01-2/3。它解释被引用的方法类别，但未补MU08逐线分支、完整非γ/漏枝账本或branch covariance；原B、Qt、Jπ和review flags保持原样。
+
+## 2026-10-19 Day17内无学分Day18重新原读
+
+本session在新primed回忆冻结后实际重新读六页全部主线、五图/两表/三式及reference；PDF2–5关键原图视觉核。Rawhash与[[lifetime-strength-audit-165tm-136nd]]的新几何换算/selectionledger有回执；旧MU08-1–14、CORR与所有reviewflags保持。原2008两band不是后续136Nd其它band的统一身份；本页不从新编译或重复原读计独立实验、也不授formal18。

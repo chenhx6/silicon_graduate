@@ -1,0 +1,7 @@
+# Sun2023来源前主动回忆：仅Day18无学分preview
+
+已暴露Wang2023 reviewWC23-14对Bayesian/MCMC的二级赞许和Ref59 metadata；本session原review只为定位targetp12/13开头及p16Ref59，未新全文读review。Crossref精确定位Sun等PLB839137801，DOI10.1016/j.physletb.2023.137801，尚未下载/读primarybody。初broadMCPquery返回无关书和arxiv429，未采用。
+
+主动回忆：posterior∝likelihood×priors；把多个nuisance一起采样能保留所建模型下correlations，但不自动修错误response、feedingmodel或unknownbranch。停止/速度时间scale与tau可退化，jointposterior的窄度可能取决校准prior。MCMC诊断Rhat/ESS/autocorrelation/multimodality、posteriorpredictive与prior敏感性应分开；credibleinterval不是frequentistcoverage保证。用MCtemplates时finiteMC与emulator误差、bin积分/background/归一/门事件复用必须进入合同。
+
+待核原件：真实nucleus/reaction/target/array/gates，哪些参数/priors/likelihood、实际counts/response/cov/code是否公开；MC或surrogate训练输入、likelihoodnormalizer/finiteMC处理；作者reported lifetime/CI怎样定义、独立benchmark/counterevidence是否真独立；source/data共享。不能从标题或review赞词推演成功/具体数字。若输入未公开只写readiness，不造原data posterior或实验CI。正式日仍17、preview恰好18，不开19/不授18。

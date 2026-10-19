@@ -3,7 +3,7 @@ type: observable
 title: 跃迁四极矩
 aliases: [transition quadrupole moment, quadrupole moment, Qt, Q_t, QSD, QND]
 created: 2026-07-03
-updated: 2026-10-15
+updated: 2026-10-19
 status: active
 review_status: unreviewed
 observable_kind: electromagnetic-collectivity
@@ -148,3 +148,9 @@ Riley Eq3的`Qt=Q20+sqrt(2/3)Q22_R`与紧接的`Q22_code=−sqrt2 Q22_R`合用�
 
 - 2026-07-03：建立超形变判据、两带混合和 γ 判别限制。
 - 2026-07-05：加入 `136Sm` DSAM 寿命、`Q_t` 下降与形变解释边界。
+
+## 固定K与候选stretched-axis几何
+
+[[lifetime-strength-audit-165tm-136nd]]以J01-10/MU08-17核真实打印表：固定K的CG(I K20|I−2 K)²与候选CG(I I2−2|I−2 I−2)²=(2I−3)/(2I+1)是不同几何。同B在MU08的九行上用fixedK0可给约1.58倍不同Qt；candidate与原表打印相合不唯一识别作者actualformula/producer或证明内禀轴。先固定G再用Qt=√[16πB/(5G)]，不能只按符号或核素类型替换。
+
+该表核验的直接输入见[[mukhopadhyay-2008-136nd-transition-rates]] MU08-17及[[jensen-2001-165tm-h9-2-configuration]] J01-10，不凭candidategeometry匹配给出新内禀形变。

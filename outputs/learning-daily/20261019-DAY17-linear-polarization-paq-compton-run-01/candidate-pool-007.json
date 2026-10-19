@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T19:56:18.483468+08:00",
+  "original_deadline": "2026-10-20T15:00:00+08:00",
+  "minutes_remaining": 1143.6919421999999,
+  "continuity": "Day17 PAQ calibration: original anchors and actualreference/conditionalkernels done; actualphase/events/response/fitSigma remain unavailable",
+  "current_route_saturation": "Pb207 conditional kernel exact and independent recoupling closed; no more samegrid/toy/terminalURL retries",
+  "allowed_next_card_inspected": 18,
+  "card": "### Day 18 — DSAM：寿命到跃迁强度\n\n- **回忆：** 说明 line-shape、stopping power、feeding、side feeding、`τ` 和 `Q_t` 的关系。\n- **主线：** 阅读 [`doppler-shift-attenuation-method`](../../knowledge/methods/doppler-shift-attenuation-method.md)、[`jensen-2001-165tm-h9-2-configuration`](../../knowledge/sources/jensen-2001-165tm-h9-2-configuration.md) 和 [`mukhopadhyay-2008-136nd-transition-rates`](../../knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md)。\n- **练习：** 写出 `τ → B(Eλ) → Q_t` 的假设链，给每一项加入一个系统误差来源。\n- **反证：** 检查不同 stopping model、feeding 假设或 band mixing 是否能改变形变结论。\n- **交付：** `lifetime-strength-audit`，区分测量、拟合、换算和解释。\n\n",
+  "selection": "exactly uncredited Day18 knowledge preview; no Day19 opened",
+  "new_information_target": "actual165Tm/136Nd lifetime source assumptions, stopping/feeding/B(E2)/Qt conversion and counterevidence",
+  "formal_credit": "Day17 only at final acceptance; currentcompleted empty; no credit18/nextpast18"
+}

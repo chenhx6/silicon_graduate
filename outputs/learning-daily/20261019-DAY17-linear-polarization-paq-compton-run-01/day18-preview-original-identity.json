@@ -1,0 +1,20 @@
+[
+  {
+    "source": "jensen-2001-165tm-h9-2-configuration",
+    "path": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+    "exists": true,
+    "canonical_sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+    "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+    "matches": true,
+    "pdfinfo": "Title:           PII: S0375-9474(01)01111-3\nCreator:         dvitpsk 5.78 Copyright 1998 Radical Eye Software (www.radicaleye.com)\nProducer:        Acrobat Distiller 4.05 for Windows\nCreationDate:    Tue Oct  9 19:20:26 2001 CST\nModDate:         Tue Oct  9 17:20:31 2001 CST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           48\nEncrypted:       no\nPage size:       476 x 706 pts\nPage rot:        0\nFile size:       727017 bytes\nOptimized:       yes\nPDF version:     1.2\n"
+  },
+  {
+    "source": "mukhopadhyay-2008-136nd-transition-rates",
+    "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "exists": true,
+    "canonical_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "matches": true,
+    "pdfinfo": "Title:           \nSubject:         \nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref package\nProducer:        dvips + Distiller\nCreationDate:    Wed Sep 17 21:48:11 2008 CST\nModDate:         Wed Sep 17 21:48:11 2008 CST\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           6\nEncrypted:       no\nPage size:       594 x 792 pts\nPage rot:        0\nFile size:       171233 bytes\nOptimized:       yes\nPDF version:     1.2\n"
+  }
+]

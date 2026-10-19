@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T19:56:18.483468+08:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "formal_day_index": 17,
+  "preview_day_index": 18,
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/day18-preview-before-sources.md",
+  "sha256": "8bbcb4ce8b23be44a4d08731bd6eac8737de0144ae1c16d15a177a13ec8543d0",
+  "priming": "explicit priorDSAM/day9/day13 and cardmetadata; not blind",
+  "source_raw_opened_before_this_freeze": false
+}

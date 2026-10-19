@@ -3,7 +3,7 @@ type: method
 title: Doppler-shift attenuation method
 aliases: [DSAM, Doppler-shifted attenuation method, Doppler-broadened line-shape analysis]
 created: 2026-08-11
-updated: 2026-10-15
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 method_type: nuclear-lifetime-doppler-attenuation
@@ -95,3 +95,7 @@ FITFTAU以带内恒定Qt拟合F曲线；默认`Qt(sf)=Qt(band)`，不等于τ相
 - 2026-08-11: added Bark 2024's AFRODITE simulation-chain overview and original-source boundary.
 
 - 2026-10-15：方法定义扩展为包含centroid shift；新增Riley2001的恒定Qt、门与误差预算，不改旧source/review状态。
+
+[[lifetime-strength-audit-165tm-136nd]]按J01-6/7/8与MU08-15/16分开三步/五步feeding、5fs/2fs与两种stopping预算；fulltailbelowgate只控制一类selectionbias，不消sidefeeding。新11行/9行换算为条件审计，不是原谱重拟。
+
+本次原件链：[[jensen-2001-165tm-h9-2-configuration]] J01-6–10与[[mukhopadhyay-2008-136nd-transition-rates]] MU08-15–17；实际逐角谱/response/Σ仍需匹配原producer。
