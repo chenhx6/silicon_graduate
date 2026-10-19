@@ -1,0 +1,4 @@
+
+### Day17 checkpoint040：真实条件eventquery
+
+EV23-18–23/F22-74与ledgercanonical，frame先验误认计数前纠正/冻结保；固定51entry/trackmoments与samecount不同membership，不冒paperkeyyield/CI。verification054/manifest040/commitguard/H3后发布，main / `Query actual public events with explicit frame and selection boundaries`；原windowactive/17once/partial18/no19。

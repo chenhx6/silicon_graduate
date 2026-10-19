@@ -1,0 +1,91 @@
+{
+  "identity": "EV23-ACTUAL-CONDITIONAL-EVENT-01",
+  "data": "tmp/day17-fougeres2023/producer-source/data/data.root",
+  "data_sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+  "source_manifest": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-producer-source-manifest.json",
+  "source34_unchanged_at_contract": true,
+  "tree": "TreeMaster",
+  "input_entries": 409303,
+  "max_nbTrack": 7,
+  "relative_Z_shift_mm": -17,
+  "basis": [
+    "inputs.dat parameter32",
+    "main.cpp L248–250",
+    "CodeA_gamma.C coordinate addition",
+    "actual coordinate ranges"
+  ],
+  "beta_mean": 0.077,
+  "thetaAlpha_range_deg": [
+    0,
+    12
+  ],
+  "thetaGamma_lab_range_deg": [
+    120,
+    176
+  ],
+  "DC_windows_keV": [
+    [
+      7288,
+      7318
+    ],
+    [
+      7318,
+      7348
+    ],
+    [
+      7348,
+      7378
+    ]
+  ],
+  "window_convention": "half-open [low,high), eventcluster grouping by Tree entry",
+  "B_hist_edges_Tm": [
+    0.5,
+    0.525,
+    0.55,
+    0.575,
+    0.6,
+    0.625,
+    0.65,
+    0.675,
+    0.7,
+    0.725,
+    0.75,
+    0.775,
+    0.8,
+    0.825,
+    0.8500000000000001,
+    0.875,
+    0.9,
+    0.925,
+    0.95,
+    0.9750000000000001,
+    1.0,
+    1.025,
+    1.05,
+    1.0750000000000002,
+    1.1,
+    1.125,
+    1.15,
+    1.175,
+    1.2000000000000002,
+    1.225,
+    1.25,
+    1.275,
+    1.3,
+    1.3250000000000002,
+    1.35,
+    1.375,
+    1.4,
+    1.425,
+    1.4500000000000002,
+    1.475,
+    1.5
+  ],
+  "native_energy_MeV_mass": 3728,
+  "native_reduced_momentum_coefficient": 0.1602,
+  "alpha_energy_gate_MeV": [
+    37.5,
+    39.5
+  ],
+  "boundary": "beam-axis mean-beta engineering query only; not actual recoil-based source selection, exact target subset, raw independent events or paper fit"
+}

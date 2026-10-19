@@ -371,3 +371,11 @@ CodeA L42–141整段示例inactive，这是对grep候选的明确限制，也�
 Eq3.6按p=qBρ定义把p/(mc)作为β；publicBrho_Ekin_conv原body/native在.95Tm给43.93835vs同常数momentum42.92645MeV，反向仍回.95。互逆不证明物理关系，原code/data不改、原papercal/job未知，不重报能量/τ/BR。[[evasions-2023-public-release-native-readiness]] EV23-17只追加原表达式边界，旧rows/flags保留。
 
 SPIDER图/表/default几何与宽度须matching：σθ与∆φ分割宽不同；strip/sector一致性门、PID/Alcover/响应不可从public12branch完整重建；DCT气压未记，位置标定借SPIDER孔且两DCT均值/分位差不是独立absoluteangle真值。下一高信息可用真实publicderivedevents作条件选择descriptor，保持事件/track分母，不能在原reconstruction/contaminationmask缺时冒paperfit。
+
+### 真实event/track分母：相同门数也可能换事件
+
+[[evasions-2023-public-release-native-readiness]] EV23-18–23与[[fougeres-2022-thesis-evasions-response-contract]] F22-74。actualpreflight已存trackZ≈−324…−108mm；public−17是relative nominalshift，不是thesis绝对−252.3。初冻结混同在计数前依直接code/metadata修订、原冻结保，未扫描offset调出结果。
+
+[固定条件query及51entryledger](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-result.json)只用beamaxis/meanβ近似，base363176、angulartracks382017，真实三窗L/S/U18/20/13、51event且无窗内多track。D4.5，Poissonizedrecordcluster二阶矩/trackdiag均27.75，fixedN中心化27.749944是另一条件模型，不附实验CI或通用独立性结论。
+
+同S集合的α37.5–39.5MeV门：两个Bρ表达式都3events，却只2个共同entry；literal独11896、momentum独124638、共同132983/205708，均0-based。原θDS/PID/target/contaminantmask不完整，不能从同count或这51条query裁物理keyyield/原τ偏差。原34source/datahash保、无新原paperfit。

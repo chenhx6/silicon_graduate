@@ -125,6 +125,7 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-71 | SPIDER选strip/sector能量相符剔drift，并用SRIMΔE/Eres识别同位素和检验厚度；source校准与cleaning/threshold/deadlayer/inbeam效率不是同输入。publicderivedtree缺原strip/sector完整字段，不能认证这一选择。 | actual-particle-selection-and-readiness | direct-thesis | printed64–65 Figs3.26/3.27 | true |
 | F22-72 | DCT实验gaspressure未记，故以SPIDER孔投影/线影位置校准电子drift约50mm/µs；两DCT independently从target点构角，再均值，90%theta差<.7°/75%phi差<5°是分位范围，不自动Gaussian1σ或独立绝对角真值。 | actual-position-calibration-and-dependence | direct-thesis | printed66–69 Table3.8/Figs3.28–3.31/Eqs3.10/3.11 | true |
 | F22-73 | Ch3补source/MC/highE/angleorigin和PID/strip/geometry链；仍无fullpaperjob/calΣ/actualsourcefitcoeffCov，不能以更多模型history填空。Bρ原表达式native边界保留，原data34source未改、不新实验τ/BR/CI。 | updated-input-readiness | synthesis-with-primary | F22-56/59/62/63/68/71/72 | true |
+| F22-74 | publicTree实际trackZ已为约−324至−108mm的坐标，代码−17为relative nominal修正；thesisAGATA绝对−252.3位置不是另一次eventoffset。新预检在计数前纠正此混同，原calibration/target/θDS/gate仍须matching，不由query替生产合同。 | coordinate-role-companion | direct-public-data-and-code | EV23-18/19/23 | true |
 
 ## Analytical Reconstruction and Self-Audit
 

@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-19T22:17:01.149141+00:00",
+  "data_path": "tmp/day17-fougeres2023/producer-source/data/data.root",
+  "data_sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+  "entries": 409303,
+  "branches": [
+    {
+      "name": "nbTrack",
+      "title": "nbTrack/I"
+    },
+    {
+      "name": "trackE",
+      "title": "trackE[nbTrack]/F"
+    },
+    {
+      "name": "trackX1",
+      "title": "trackX1[nbTrack]/F"
+    },
+    {
+      "name": "trackY1",
+      "title": "trackY1[nbTrack]/F"
+    },
+    {
+      "name": "trackZ1",
+      "title": "trackZ1[nbTrack]/F"
+    },
+    {
+      "name": "Brho",
+      "title": "Brho/F"
+    },
+    {
+      "name": "Theta",
+      "title": "Theta/F"
+    },
+    {
+      "name": "Phi",
+      "title": "Phi/F"
+    },
+    {
+      "name": "ThetaLdeg",
+      "title": "ThetaLdeg/F"
+    },
+    {
+      "name": "Si_dE",
+      "title": "Si_dE/F"
+    },
+    {
+      "name": "Si_theta",
+      "title": "Si_theta/F"
+    },
+    {
+      "name": "Si_Eres",
+      "title": "Si_Eres/F"
+    }
+  ],
+  "nbTrack_max": 7.0,
+  "coordinate_energy_ranges": {
+    "trackX1": [
+      -275.5586853027344,
+      222.4394073486328
+    ],
+    "trackY1": [
+      -279.8424377441406,
+      210.53146362304688
+    ],
+    "trackZ1": [
+      -323.5780029296875,
+      -108.34077453613281
+    ],
+    "trackE": [
+      14.312902450561523,
+      24083.083984375
+    ]
+  },
+  "boundary": "actual schema/ranges only; coordinate physical roles follow a declared public-code contract, not independently authenticated experiment calibration"
+}

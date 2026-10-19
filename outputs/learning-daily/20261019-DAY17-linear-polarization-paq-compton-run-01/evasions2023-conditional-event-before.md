@@ -1,0 +1,7 @@
+# 实际publicderivedevents的条件计数query前冻结
+
+强priming：公开409303-entry/12branch/maxnbTrack7与Si_dE7933旧query已完成，不重跑它们当新credit。当前新问题是A.2三窗下实际event/track分母与窗口crossmoments，以及Bρ两种表达式在同一条件photopeakquery的descriptor；不作原paperfit/CI。
+
+原derivedtree没有fullPID、target/run、stripsector或实际contaminationmask，不能认证论文物理selection。预先声明工程query：Bρ>0、0≤ThetaLdeg<12°；track finite/positiveE；按publiccode坐标Ztrack−252.3mm求labthetaγ∈[120,176]°，meanβ.077/beamaxis近似DC(不用未知recoilbeta输出)，A.2三个30keV窗。这个近似明确不是Ch5实际thetaDS或原mask，所得只叫conditionaldescriptor，不称key实际yield。sourcecoords单位/语义由publiccode来，不从假设产生新实验输入。
+
+以事件ID归组计每窗track数，存sum n、sum n_i*n_j与D=S−(L+U)/2。比较Poissonized eventcluster二阶矩sum(eventweight²)与独立trackdiag近似；固定N的中心化矩另标条件，均非实验置信区间。先只读查原filehash/metadata/coords范围与sourcecoordsinput；若不可闭合，保失败/readiness而不换gate强配。Bρ能量比较只给sameconditionalS集合下literal与sameconstantmomentum表达式的门数/描述，不修数据或称哪个是实际已测Ex。

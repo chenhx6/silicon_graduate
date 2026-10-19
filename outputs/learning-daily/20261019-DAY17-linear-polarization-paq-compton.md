@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint040：真实publicevents的固定条件query
+
+[[evasions-2023-public-release-native-readiness]] EV23-18–23/F22-74新读取actualcoords/相对shift并在计数前修订绝对位置误认；原冻结保。真实L/S/U18/20/13与51entryledger仅engineeringdescriptor，非paperkeyyield/原selection。
+
+
 ### checkpoint039：Ch3实际校准与负结果
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-54–73完整29页/31图8表11式文本/视觉核：真实source/MC校准来源、薄靶keyγ缺失、PSA派生角核与PID/几何/strip选择。[[evasions-2023-public-release-native-readiness]] EV23-17补原Bρ转换组件，非原paperjob认证。
@@ -165,6 +170,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint040：真实event/track分母与membership
+
+[程序](../../system/scripts/day17_evasions_conditional_events.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-result.json)固定meanβ/beamaxis近似三窗，D4.5、Poissonizedcluster/trackdiag均27.75，未推实验CI。两种Bρ表达式各3门内S-events却只2共同entry，samecount不保samesample。原34hash/actualTree/branch/finiteguard通过，未跑未初始化fullMC。
+
 
 ### checkpoint039：实际coeff/单位与原转换组件
 
@@ -5898,6 +5908,75 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "F22-72"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "真实事件的条件选择与track分母",
+      "summary": "新增EV23-18–23，真实坐标/relative shift、固定条件51entry与event-track二阶矩及samecount不同membership边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-18"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-19"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-20"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-21"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-22"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-23"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "Ch3实际校准与Bρ原表达式边界",
+      "summary": "F22-74明确absoluteAGATAposition与tree relative shift不同，不能重复加offset。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-74"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "真实event/track分母：相同门数也可能换事件",
+      "summary": "整合真实query与计数/样本/置信区间分层；初坐标假设在计数前纠正。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-18"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-20"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-21"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-22"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-23"
+        }
+      ]
     }
   ]
 }
@@ -6124,3 +6203,7 @@ verification052核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint039真实校准/物理合同验收
 
 verification053核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及新原表达式nativeartifact。通过后manifest039/commitguard/H3；同window/goalactive、formal17once/partial18/no19，raw/source未改且未新实验CI。
+
+### checkpoint040实际eventquery验收
+
+verification054核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与真实queryartifact；通过后manifest040/commitguard/H3。原绝对/相对frame误认在selection前纠正且保freeze；无原paperyield/新τCI，同windowactive/formal17once/18partial/no19。

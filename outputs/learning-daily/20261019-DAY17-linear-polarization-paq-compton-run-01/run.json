@@ -68,14 +68,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Query ROOT on published lifetime graph with explicit variance contracts",
-    "commit": "a12c317ce7aad1450a77bc9362e77a7449ef9fac",
+    "subject": "Read actual detector calibrations and audit rigidity conversion physics",
+    "commit": "fae69f5f2685a6636df78d68ff4d017bf4855e35",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-19T22:03:20.335222+00:00",
+  "last_observed_at": "2026-10-19T22:18:01.732746+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",

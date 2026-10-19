@@ -2198,3 +2198,7 @@ F23-24–28/RCT26-14+ledger保持25点原输入，新增actualnative/errorhistor
 ### Day17 checkpoint039：实际校准与Bρ物理合同
 
 F22-54–73/EV23-17/ledger/method/index原件与原表达式native已canonical；互逆不认证物理，未改原code/data/实验CI。verification053/manifest039/commitguard/H3后发布，main / `Read actual detector calibrations and audit rigidity conversion physics`，原windowactive/17once/partial18/no19。
+
+### Day17 checkpoint040：真实条件eventquery
+
+EV23-18–23/F22-74与ledgercanonical，frame先验误认计数前纠正/冻结保；固定51entry/trackmoments与samecount不同membership，不冒paperkeyyield/CI。verification054/manifest040/commitguard/H3后发布，main / `Query actual public events with explicit frame and selection boundaries`；原windowactive/17once/partial18/no19。

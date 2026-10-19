@@ -152,3 +152,7 @@ F23-24–28/RCT26-14保持原25点/全部displaydomain/原error与XLSXhash，nat
 ### Day17 checkpoint039 priming：Ch3真实校准
 
 F22-54–73完整Ch3/31图8表11式，Eu152低能绝对+MC高能eff、4mmPSA派生σθ、thin无keyγ与strip/PID/geometry/DCT共享校准。Eq3.9两组coeff差5–7%保原；Eq3.6/publicnative p/(mc)当β，.95Tm相差1.0119MeV而roundtrip仍过，不推原papercal/τ偏差或改source。EV23-17新增needs_review；正式18仍新session独立交付。
+
+### Day17 checkpoint040 priming：真实条件query
+
+EV23-18–23/F22-74明确treecoords已global量级，public−17相对修正不等绝对−252.3；初假设在计数前纠正/原freeze保。固定meanβ/beamaxisquery真实三窗18/20/13、51events无windowmultitrack，二阶矩27.75非实验CI；两Bρ式同3门数却一entry不同。原PID/recoilθDS/target/mask未知不冒paperyield；正式18独立session。

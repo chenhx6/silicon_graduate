@@ -62,6 +62,12 @@ tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
 | EV23-15 | 后续原读作者2022thesisChapter4，明确target/catcher实测19(1)mm支持public19000µm；EV23-10与Naturebacktoback字面对照不应升级成geometry错误。原loader/scalar/native阻点仍独立保持，未因此认证exactjob/修source或重报CI。 | new-primary-revision | direct-thesis-companion | F22-2/15 | true |
 | EV23-16 | 后续新ROOT固定双版本源码/native确认Chi2Test不消费LL；CodeA L42–141的LL/manual调用全在blockcomment，保EV23-13原结论，不能推paper实际调用；Tools.C原log_likelihood的o0/s0及FindBin端点边界已另组件核。 | actual-API-companion-and-boundary | direct-code-and-native | RCT26-2/8/9/11 | true |
 | EV23-17 | 后续原Chapter3 Eq3.6与publicTools.C Brho_Ekin_conv原body/native同见momentum/β合同：.95Tm/M3728/A4/Z2给43.93835vs同r physicalmomentum42.92645MeV，inverse回.95仍不认证物理。paper原cal/job未知，未改release或新报能量/τ/CI。 | new-primary-and-native-physics-boundary | direct-thesis-code-native | F22-58/59/73；Tools.C L176–181 | true |
+| EV23-18 | 新actualpreflight确认trackZ1范围−323.578至−108.341mm，publicinputs AGATA_shift_z=−17且main明确relative nominal shift；不把thesis绝对阵列位置−252.3再次加到已存坐标。原34source/datahash保持。 | actual-frame-contract | direct-code-and-public-data | inputs.dat parameter32；main.cpp L248–250；conditional-event-preflight | true |
+| EV23-19 | 本次条件query初冻结曾把绝对位置与相对shift混同，实际selection前由preflight纠正为−17并另冻，原记录不改；这次纠正不等扫描offset强配结果，也不认证原calibration版本。 | task-failure-and-prequery-revision | execution-audit-not-physical-evidence | conditional-event-frame-revision-freeze | true |
+| EV23-20 | 预定engineeringquery(Bρ>0,0≤ThetaLdeg<12°,labγ120–176°,meanβ.077/beamaxisDC)在409303条中base363176、angulartracks382017；A.2三窗L/S/U18/20/13，51不同events、无窗内多track。只为该approxquerydescriptor，不叫原keyyield。 | actual-bounded-public-data-query | direct-derived-data-query | conditional-event-result selected_records | true |
+| EV23-21 | 同固定query的D=S−(L+U)/2=4.5，eventcluster二阶矩与独立trackdiag均27.75，因为51条各只一个windowtrack；fixedN中心化为27.749944。未提供实际fullCov/CI，不能由此宣称任何gate多track都无Cov或实验τ误差通过。 | actual-moments-and-statistical-boundary | data-query-and-conditional-algebra | conditional-event-result sum_event_outer_products | true |
+| EV23-22 | 同queryS集合/同37.5–39.5MeV门，两Bρ表达式各3events但entry集合不同：共同132983/205708，literal独11896、momentum独124638(0-basedentry)。同计数不保证同sample；未裁哪条是物理key或改源事件。 | actual-membership-counterexample | direct-data-and-declared-kinematics | conditional-event-result same_count_gate_membership_comparison | true |
+| EV23-23 | 原recoilθDS/PID/targetid/contaminationmask未match，meanβ/beamaxisquery不能当原论文selection/BR分母；51entryledger及34hash给可复现边界，未重fitτ/新实验yield/CI。 | original-selection-readiness | synthesis-with-data-contract | conditional-event-contract；F22-20/24/25/71 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -90,3 +96,11 @@ L4当前可做真实publicderivedevent查询、独立物理变量/响应合同�
 ## 统计API与inactive示例的边界
 
 [[root-2026-chi2test-option-contract]] RCT26-1–13固定6.24.06/6.40.04、原表达式native与原code34hash。LL本身静默忽略，自动UU/UW/WW依Sumw2状态；手写函数跳过o0/s0而且高端bin排除。整段示例inactive，原paperROOT/job未知，不能由当前组件推实验τ偏差或声称已经运行示例fit。
+
+## 真实事件的条件选择与track分母
+
+[初冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-before.md)、[原坐标预检](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-preflight.json)、[计数前frame修订](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-frame-revision-before.md)、[实际query合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-contract.json)、[membership前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-membership-before.md)、[程序](../../system/scripts/day17_evasions_conditional_events.py)、[真实结果/51entryledger](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-result.json)。
+
+程序先核34原文件hash，再只读Tree，array上限/GetEntry/binding与finite控制实际通过，未运行原未初始化fullMC。window采用半开[lo,hi)，原paperbin边界未知；实际datafield所代表的target/run/PID/history不从12branch补造。初绝对/相对shift误认在selection前已修并保留，不算科学观测，也不能把后来固定工程选择的20个S当paperphotoline实际计数。
+
+此query支持计数、samplemembership与响应合同分开保存：不同表达式可给同3但换一entry，有限实际样本中cluster/track二阶矩恰同并非通用独立性定理。signed4.5只是操作结果，不附实验显著性/置信区间或跨版本keyyield裁决。

@@ -1,17 +1,15 @@
-# Day17同session继续：checkpoint039之后
+# Day17同session继续：checkpoint040之后
 
-## Active handoff — DAY17 original window active; Ch3 calibration checkpoint039
+## Active handoff — DAY17 original window active; actual events checkpoint040
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–038actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–039actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察。
 
-Ch3已完整文本/视觉读PDF44–72/printed41–69，31图8表11式与scope/新exercise齐。F22现在1–73，新增54–73全needs_review。现完整Ch3–6+A.2，非201页全文；A.3额外文字暴露记priming，Ch7/B未读。
+本批EV23-18–23/F22-74 actualpublicTree新query，原34files及data.rootsha7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4保持。初freeze把absolute−252.3当treeoffset，是先验错误；preflighttrackZ−323.578…−108.341与inputs/mainrelative−17直接证据在任何windowcount前纠正，另冻保原，不扫offset/门强配。
 
-真实calibration新输入：thin无keyγ、3He事后密度/beamintensity不准、31AGATA/track→lab−π/2、Eu152靶点低能绝对eff+Geant100–8000keV归一1.80(.06)、AmBeFe不在靶点只energycal；σθ.667(.001)由547Au门coords加引用4mmPSA尺度扰动/fit(打印chi²10100/31)，不是独立trueposition测或全systematic。Eq3.9 roundedcoeff vsFig3.19 fullcoeff1300/7333差5.268/7.293%，actualjobcoeffCov未知不修BR。声明β.077角控制εobs/εrest1.04–1.076非实际bias。
+固定engineeringqueryBρ>0/0≤ThetaLdeg<12、labγ120–176、relativeZ−17/meanβ.077/beamaxisDC与A.2半开三窗：input409303/base363176/angulartracks382017，L/S/U18/20/13，51不同entry无windowmultitrack。D4.5，Poissonizedrecordcluster二阶矩=trackdiag27.75，fixedN中心化27.749944；均非实验CI/原keyyield，不能推广零Cov。两Bρ表达式同37.5–39.5门各3个S-events，但common132983/205708、literalonly11896、momentumonly124638(0-based)，samecount不保membership。完整51entryledger在result，别贴成实验keyraw数据。
 
-重要原物理表达式边界：Eq3.6 p=qBrho却r=p/(mc)入1/sqrt(1−r²)，publicTools.C Brho_Ekin_conv原body同式。nativeMnuc3728/A4/Z2/B.95给43.93835vs同r momentum式42.92645MeV，inverse0.95通过只是互逆。EV23-17追加，不改原34source/data/实验τCI或认paper实际cal相同错误。原source/fragment/hash/actualnative齐。
+原θDS/recoilangle/PID/target/run/contaminantmask与原cal/Cov未match，工程query不能冒paperselection/BR分母；未初始化fullMC未执行。先freeze/actualframe纠正/新membershipbeforefreeze与scriptday17_evasions_conditional_events.py/contract/results齐。
 
-SPIDER表300/640µm/Al.3与图298/580/105mm标注、publicdefaultZ119.8/r23版本不强配；Table3.5单面Z95/r24角14.18–26.81不等列12.8–24.5，需要坐标/对象桥，非双ringeff。FWHM→sigma与thetaσ/phi分割宽分开；strip-sectorcleaning/PID缺原字段。DCTgaspressure未记，用SPIDER孔校准，两个DCT分位差非Gaussian1σ/独立absolute真值。
+canonicalthesis/EVA/ledger/report单writeback，verification054actualreceipt通过后main / `Query actual public events with explicit frame and selection boundaries`稳定指针，hash/push只publication040/run.json。source现在F22-1–74/EV23-1–23全新claims needs_review、旧flags保。
 
-canonicalthesis/EVA17/lifetimeledger/method/index/report单writeback，verification053实际receipt通过后main / `Read actual detector calibrations and audit rigidity conversion physics`稳定指针，hash/push只publication039/run.json。
-
-下一有价值路线可在真实publicderivedTree作条件event/track选择descriptor，先新freeze：用meanbeta/beamaxis近似只是工程query，不能冒Ch5实际recoiltheta/contaminationmask/原PID。可用A.2真实三窗比较同event多track分母/clusterPoisson算符，但不新实验CI/τfit、不回避未初始化fullMC边界。另AppendixB actualcalibration原件是候选，不同时开Ch7/其它卡。当前约06:15上海仍8h45min，继续window不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/oldlog。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+Ch3–6/A.2原件完整，A.3仅额外文字，Ch7/B仍未读。下一候选最高信息是AppendixB实际calibration/response原件(预计PDF171–178/printed168–175)，先冻结/查TOC后只本方法单元，不用更多gate scans或modelhistory填缺口。原publicdata条件query已局部饱和，别为paper统计17.1982去扫window/variance。当前约06:27上海仍8h33，继续window不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/log。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

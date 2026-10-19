@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 74,
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 23
+  },
+  "artifacts": [
+    {
+      "file": "evasions2023-conditional-event-result.json",
+      "true_fields": [
+        "ok",
+        "source34_and_original_data_hashes_verified",
+        "not_original_recoil_PiD_contamination_selection",
+        "no_new_experimental_yield_tau_branch_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}
