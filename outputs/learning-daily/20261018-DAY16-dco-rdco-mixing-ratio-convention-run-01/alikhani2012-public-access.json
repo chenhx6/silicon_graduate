@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-19T07:45:25.012828+08:00",
+  "rows": [
+    {
+      "name": "chalmers",
+      "url": "https://research.chalmers.se/en/publication/157798",
+      "status": 200,
+      "path": "tmp/day16-alikhani2012/chalmers.txt",
+      "sha256": "41cbc206b3a0b5b227b36f61e96fc08b21529202c58792b20a2f3d1a11301a00",
+      "bytes": 34944,
+      "text": "Compton polarimetry with a 36-fold segmented HPGe-detector of the AGATA-type Skip to main content research .chalmers.se P\u00e5 svenska Login Compton polarimetry with a 36-fold segmented HPGe-detector of the AGATA-type Journal article, 2012 The calibration of a highly-segmented AGATA-type HPGe-detector as a gamma-ray Compton polarimeter and a method for (quasi-)continuous angle Compton polarimetry are presented. The high granularity, combined with the large detection efficiency of the AGATA-type HPGe-crystals, offers a significant advantage for polarization measurements of gamma-radiation. A polarization-directional correlation experiment with gamma-rays from a Co-60 source with an activity of about 680 kBq was used to determine the polarization sensitivity of a single AGATA-type HPGe-crystal at 1173 and 1332 key and to demonstrate the method. The polarization measurement was based on segment information. In our set-up a polarization sensitivity of 19% at 1332 keV has been achieved. polarization sensitivity parity assignments polarization scattering Compton-tracking polarimetry Compton polarimeter Segmented HPGe-detectors array Author B. Alikhani Technische Universit\u00e4t Darmstadt A. Givechev Technische Universit\u00e4t Darmstadt Andreas Martin Heinz Chalmers, Applied Physics, Subatomic Physics Other publications Research P. R. John Technische Universit\u00e4t Darmstadt J. Leske Technische Universit\u00e4t Darmstadt M. Lettmann Technische Universit\u00e4t Darmstadt O. Moller Technische Universit\u00e4t Darmstadt N. Pietralla Technische Universit\u00e4t Darmstadt C. Roder Technische Universit\u00e4t Darmstadt Nuclear Instruments and Methods in Physics Research, Section A: Accelerators, Spectrometers, Detectors and Associated Equipment 0168-9002 (ISSN) Vol. 675 144-154 Subject Categories (SSIF 2011) Physical Sciences DOI 10.1016/j.nima.2012.02.016 Publication data connected to DOI More information Latest update 2/28/2018 Feedback and support If you have questions, need help, find a bug or just want to give us feedback you can contact us per e-mail research.lib@chalmers.se. About Research.chalmers.se contains research information from Chalmers University of Technology, Sweden. It includes information on projects, publications, research funders and collaborations. More about coverage period and what is publicly available Privacy and cookies Accessibility Bibliography processing Citation Style Language citeproc-js (Frank Bennett) Links Chalmers Library Chalmers Research Chalmers Student Theses Chalmers University of Technology SE-412 96 GOTHENBURG, SWEDEN PHONE: +46 (0)31-772 10 00 WWW.CHALMERS.SE",
+      "filelinks": []
+    },
+    {
+      "name": "padova",
+      "url": "https://www.research.unipd.it/handle/11577/3032665",
+      "status": 403,
+      "path": "tmp/day16-alikhani2012/padova.txt",
+      "sha256": "13cc18721362baecd25c49db6bfe80728d66eef395876c16c8b8d8ac18304753",
+      "bytes": 5504
+    },
+    {
+      "name": "publisher-api-public",
+      "url": "https://api.elsevier.com/content/article/PII:S016890021200174X?httpAccept=text/xml",
+      "error": "HTTPSConnectionPool(host='api.elsevier.com', port=443): Max retries exceeded with url: /content/article/PII:S016890021200174X?httpAccept=text/xml (Caused by NameResolutionError(\"HTTPSConnection(host='api.elsevier.com', port=443): Failed to resolve 'api.elsevier.com' ([Errno -3] Temporary failure in name resolution)\"))"
+    }
+  ]
+}

@@ -1955,3 +1955,8 @@ actualjoint/闭式、fullPSD/spin2/相位/纯极限控制写回UG24-30–34/Co60
 ## 2026-10-19 — Day16 checkpoint032：空间归一/零控制与排序域
 
 同run/session/goal至原15:00，formal16一次partial17。Tsuzuki2021 arXivv1完整11页15图，actual16xyν/独立Ba/共享Kr误差与Q命名分开；低能ordering域255.5keV、847反序cos/同平面法向与cos2控制实际0，无fakecounts或错序率。新source/方法与Go26均needs_review，旧humanprefix保持。verification026实际49/49、required0、0errors180warnings，原rawPLANBib保护过。下一Alikhani2012上游Co60Q定义前回忆/metadata路由已开。发布指针main / Trace DAY16 template regions null controls and event ordering domains，actualhash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint033：AGATA原件与literal合同
+
+同run/session科学pursuing至原15:00、formal16一次partial17。Bizzeti2015完整11页10图5表/附录，真实Pd/Cs/modelP/eventweights分层，literal符号/axis/sine/单位与108σ/Table5Av非闭合保留；最终script0、初closureassert1/验收年份路径错误均留档，未改原输入/认证producer。verification027实际50/50、required0、0errors182warnings，旧prefix/raw/PLAN/Bib保持。nativegoal实返blocked、接口无resume写法，objective保持且继续授权工作。发布指针main / Audit DAY16 AGATA reference weights and literal convention boundaries，actualhash/push只receipt。

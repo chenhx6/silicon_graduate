@@ -1,19 +1,23 @@
-# Day16 checkpoint032继续
+# Day16 checkpoint033继续
 
-原run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；goalactive/pursuing。原2026-10-19 15:00上海硬截止/15–16收束不改；formal16一次next17/count16、partial17，不正式17/不开18，Farmer42019保留，无新session/daemon。最新actualpublished031 main / Audit DAY16 CdTe normalization likelihood and sensitivity conventions，hash只publication031/runreceipt。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学工作pursuing；本次nativegoal实返blocked且工具无resume写法，objective不改/不新建，详goal-status-reconciliation-033.json。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019 running保留，无新session/daemon。
 
-032 canonical/verification026实际通过49changed/49items、requiredboundary/lint/diff0、0errors180warnings(132key45raw3parser)，G24/J02/L25/L26全部旧humanprefix、raw/PLANBib/T21scriptresulthash过。待exactmanifest032 commit/H3，稳定指针main / Trace DAY16 template regions null controls and event ordering domains。观察cached检查0后commit，H3helper python3 tmp/day16-ucgretina/h3_publish.py 32，actualhash仅receipt。
+Checkpoint033 verification027实际50changed/50items、boundary/lint/diff0，0errors182warnings(133key46raw3parser)，旧G24/J02/L25/L26人审prefix、原raw/PLAN/Bib及B15script/result/inputhash均过。Bizzeti2015已完整11页10图5表/附录A–D；真实104Pd555.8/108Pd433.9与Cs661.6、modelP/eventweights/As/derivedA分层。独立权重108σ=.03096未闭合原.034、Table5Av.100712/.102、literal符号/axis/sine/单位边界保持，未认证actualproducer或新增实验P/δ。
 
-新T21 source knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md1–13，arxiv2105.14236v1 actual200，SHAf2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d，11页SecI–VI/refs/data全部读、15fig视觉核；AIPVoR403未得。原PDF/text/renderpages2–10在tmp/day16-tsuzuki2021。T21before/quantbefore/contract/reading/exec/result在run目录；raw不动不stage。
+当前发布指针main / `Audit DAY16 AGATA reference weights and literal convention boundaries`；actualhash/outcome仅publication033/runreceipt。032已actualH3/Gitee，稳定指针main / `Trace DAY16 template regions null controls and event ordering domains`。Alikhani2012合法route未得body，terminal失败不原样重试。下一重建候选池，继续匹配的phase/response输入或同Day17知识preview；仍约6h窗口，不能因本checkpoint结束研究。
 
-T21ν是firsthitxy16×12.8mm²空间区，不是16phi bins；实测background按time归一、energyfitν后innerPoisson固定νiterP，Fig12flow；未得原events/templates/nuCov/codeversion，不能认证jointprofile。独立Ba81keV null residualQ=.010/(assumedQ100.7)≈.015sys，Ge谱两Krlineidentity是能谱companion，KrMLE.962(.953–.9701σ)/modulation.968±.010同data不独立；最后stat.008/sys.015 reportedlinearsum.023保留，不改成独立quad.017。Q_T是modulation、Q100是sensitivity；Go用Qprime/Q_G，M22读UNCpreprint A0=.5Q_MPbar；sameletter不互换。
+详本run continuation-current.md；保护raw/PLAN/Bib/credentials/原review/继承dirty与log。精确manifest/HEAD+ownlogentry，cached实际过再commit，freshfetch/ancestor/dryrun/nonforceH3；不写自身hash进commit。原生goal状态差异不阻止已授权的科学工作与安全发布。
 
-排序控制script day16_tsuzuki2021_ordering_audit.py actual0（PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps），无fakehist：E<255.5keV全角ES<EA；T21窗73–77.5都合法，8keVthreshold/E75 givesθ79.253°。847equalEAES66.628°、反序也physicalcos从35.114°，Go40–120跨domain。90真ES/EA528.284/318.716，reverseθK50.504；不能将lowEminenergy法裸迁或估actualGo错序率。pointsource反序plane n→−n、同共同轴cos2(φ+π)=cos2φ控制过，不写错序必翻Psign。实际incomingaxis/θ/ARM/cuts依response仍会变。T21preprintcriterion3词叫Geometrical却符号θK，Eq2/Fig4明确定kinematic，versionboundary保留不静默换cut。
+## 当前科学成果与下一步
 
-已写source/index/Compton/modulation/asymmetry/Go新26+日报唯一49writeback+prepared17priming；旧GOhumanprefix不改。Datareasonable request未联系作者，experimentalL4notready，不借原子近满Π给核gamma校准；~50%作用概率、4.3e4/3.8e7selected fraction.113%与absoluteeff分开。
+B15 source `knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md` B15-1–15；原件tmp/day16-bizzeti2015/publisher.pdf，SHA46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c。Sec1–7/AppendixA–D/refs完整，10图5表视觉核。analysiscontract、before/freeze、reading/exec/result、初exit1snapshot均在本run。脚本system/scripts/day16_bizzeti2015_reference_audit.py，环境PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps，最终actual0但非全误差预算认证。源码literal与realproducer分开。
 
-下一candidate/pool032在07:41余438min：选M22Ref16/GoRef27 Alikhani2012 Comptonpolarimetrywitha36foldsegmentedHPGeAGATA,NIMA675144–154 DOI10.1016/j.nima.2012.02.016。before/freezes已写，当前metadataqueryexecsession13823待看实际结果。尚未originalbody/不预判half-factor。目的核真实Co60gate/photonroles/P/A/Q/finitegeometry/phase与sourceindependence，回到根问题；已有Co60pointmodelP1/6不是硬配target。Bizzeti2015仅reserve，未打开新源；不跨Day18。
+Eq9/10 endpointAs=-a2/a0 vsoperational+a2/a0；pairedAs/Psign可保持A。pure2→0/m0是条件axisprobe，不等Pd实际ρ。AppendixB投outgoing的sine一般多cosθ；若代码从cos算cos2不必影响data。Fig5µm/正文15mm不同，b/√E单位只literalmodel。fullgeometry退化sinθcr=m/E-sin(α/2)，555.8α3.4°cosback-.48268268；433.9α≤16°无该fullgeometry解；不等T21较弱energy-only条件。
 
-Go24已有49前成果：九页/6fig/currentHTML/Table1已读，νenergyfit/selectionsys/dataonrequest、Qprime.009text/.008caption、b/cfootnoteswap和Table1GRETINA847实引GRETA模拟curve边界保持；M22source是UNCpreprint没VoR。signal-onlyprofile/Schur是另解析设计，不判authors actualproducer或VoR。N223unsignedMR/&/@/NR与回忆62.45终态误认已energyguard纠正280.182candidate，J98old47rows正确Ji/Jf不变；sourcebefore保持。Collins2019NPL8371明确nofulltext/publisher403API429MCPno_candidate，J90验证页/HAL0/Liverpool403，不原样重试terminal/凭metadata补门/Σ。
+真实P是GOSIA/eventweighted，中心P不能替；50×10是integrationgrid非独立测量。原五ME/代码/raw/Σ未得。104/108加权mean/χ²能重放，108σ.03096非.034；四cutspread.013不指定跨counterCov。Table5六行MC roundedbins可近似重放，Av.100712非.102且fitweights未知。F的εaccepted/impinging不含ω，不能裸比Goabsoluteε/F。所有新claimsneeds_review。
 
-保护raw/PLAN/Bib/credentials/旧humanprefix/继承receipts/daemon/log。logstage=HEAD+own032entry，精确paths，cached实际0才commit，freshfetch/ancestor/dryrun/nonforce。actualhash只publication032/runreceipt，不能写自身commitsha进commit。研究至原15:00，不以source/quantcheckpoint或local饱和提前finish；formal16只计一次/partial17，无formal17/Day18。
+先收033实际H3/push（若未完成）：exactpublication-manifest-033.json，cachedcheck/name-status实际0再commit，python3 tmp/day16-ucgretina/h3_publish.py 33；log仅HEAD+task-log-entry033。最后已published032，原hash只receipts。验收027实际0/50items，182warnings；首次verify全局编号误换年份失败已留档，不重跑旧失败、不改物理输入。
+
+后续仍围绕当前δ/convention/响应与恰好Day17preview；先clock/候选池/回忆冻结再新来源。Alikhani2012 Padova403/Chalmersmetadata/MCPno_candidate/TUprintsbot/Scholar timeout等终态已存readiness；不重复无变化route、不靠metadata补formula。Collins2019/Jones1990同理。原deadline15:00，<90min不开新source；15点后只收束。正式16已有一次，partial17不授credit/不推next18，不创建新session/daemon/scheduler。
+
+preparedformal17prompt仅准备未启动；完整本runpriming已补。旧D96/KS70/W178正式card、N223/J98/J02/N60/T21/Go/M22成果保持，勿重复计卡/把shareddata算独立实验。原生goalblocked无可用active写法已如实记录，科学工作继续；勿以blocked元数据伪造hardstop或改数据库。

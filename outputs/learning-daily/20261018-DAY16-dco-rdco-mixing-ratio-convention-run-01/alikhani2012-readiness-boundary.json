@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-19T07:51:20.764401+08:00",
+  "doi": "10.1016/j.nima.2012.02.016",
+  "scientific_status": "body-not-obtained, no newsourceclaim or calibrationnumberfromabstract",
+  "routes": {
+    "CrossrefOpenAlex": "identityverified",
+    "Chalmers": "metadata/abstract200,nofiles",
+    "Padova": "403",
+    "publisher_discovery": "200landingno_candidate",
+    "publisherpublicAPI": "transientDNS, notbody",
+    "GoogleScholar": "timeout",
+    "TUprints": "Anubisbotpage200_notrepositorybody",
+    "arxiv": "broadunrelatedmath/electronbeamresults rejectedidentity, noPDFdownload"
+  },
+  "no_identical_terminal_retry": true,
+  "missing_inputs": [
+    "primaryformulas/gate/response/phase definitions",
+    "actualCo60photonrole andfiniteangleP",
+    "raw/calibrationCov/producer"
+  ],
+  "next_high_information_route": "specificpublishedBizzeti2015AGATA analyzing-power calibration original fromM22Ref15/GoRef28, newbefore first",
+  "independent_experimental_confirmation_claimed": false
+}

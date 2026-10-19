@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T08:25:27.873572+08:00",
+  "exit_code": 1,
+  "cause": "bulk string replacement026to027 also matchedyear2026, run root became20271018 andwritefailed beforeanywrongdircreation",
+  "initial_script": "tmp/day16-ucgretina/verify-checkpoint027-initial-year-error.py",
+  "initial_script_sha256": "7c8dd02a9375f5132999e93c9a97c04b7bb202fd680b239fde03ffe3f7dac3e6",
+  "corrected_script": "tmp/day16-ucgretina/verify-checkpoint027.py",
+  "corrected_script_sha256": "42bccb250daad7b75b5935ee10ca03c83f1fba44c164365d85391821eb0b775c",
+  "original_run_date_and_deadline_unchanged": true,
+  "science_inputs_and_canonical_numbers_unchanged": true,
+  "correction": "restoreyear2026; verificationfilenameskeep027; rerunactualchecks",
+  "no_new_run_or_session": true
+}

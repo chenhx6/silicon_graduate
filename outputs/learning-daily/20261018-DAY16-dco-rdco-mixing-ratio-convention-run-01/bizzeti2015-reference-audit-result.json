@@ -1,0 +1,288 @@
+{
+  "at": "2026-10-19T08:13:00.607261+08:00",
+  "script_sha256": "7fe75b34e0ebac9114db4751288572167be34fd6e84e44111b7fc32c05a7d102",
+  "contract_sha256": "e218cef2e9ac3a73369679df3b817c6492d773732f2dd6495c35fdb9f3974691",
+  "source_sha256": "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c",
+  "literal_Eq9_Eq10_endpoint_asymmetry": "-a2/a0",
+  "literal_operational_plus_fit_sign_does_not_match_same_zero_endpoint_definition": true,
+  "conditional_pure_E2_axis_probe": {
+    "intensity_W": "-15*x**2*(x - 1)*(x + 1)/2",
+    "B15_literal_cos2coefficient": "15*x**2*(x - 1)*(x + 1)/2",
+    "Jones_meridional_cos2coefficient": "-15*x**2*(x - 1)*(x + 1)/2",
+    "axis_rotation_pi_over2_reconciles_formulas": true,
+    "classical_quadrupole_transverse_field_squared": "-9*(cos(4*theta) - 1)/32",
+    "helicity_controls": [
+      {
+        "theta_deg": 30.0,
+        "helicity_E2_m0_Pparallel": 1.0,
+        "literal_B15_Eq1_2_P_if_same_axes": -1.0
+      },
+      {
+        "theta_deg": 60.0,
+        "helicity_E2_m0_Pparallel": 1.0,
+        "literal_B15_Eq1_2_P_if_same_axes": -1.0
+      },
+      {
+        "theta_deg": 120.0,
+        "helicity_E2_m0_Pparallel": 1.0,
+        "literal_B15_Eq1_2_P_if_same_axes": -1.0
+      }
+    ],
+    "actual_Pd_P_or_source_producer_repaired": false
+  },
+  "AppendixB_literal_sine_probe": {
+    "outgoing_projection": "sin(phi)*cos(theta)",
+    "cos_sin_pair_norm_defect": "-sin(phi)**2*sin(theta)**2",
+    "cos_only_harmonic_can_still_use_cos2_equals2cos_squared_minus1": true,
+    "actual_angle_producer_certified_or_repaired": false
+  },
+  "full_geometry_critical_angle_rows": [
+    {
+      "isotope_or_source": "104Pd",
+      "E_keV": 555.8,
+      "alpha_deg": 0.0,
+      "real_solution": true,
+      "critical_angles_deg": [
+        66.83786259780454,
+        113.16213740219546
+      ],
+      "critical_cosines": [
+        0.3933344341751764,
+        -0.3933344341751765
+      ]
+    },
+    {
+      "isotope_or_source": "104Pd",
+      "E_keV": 555.8,
+      "alpha_deg": 3.4,
+      "real_solution": true,
+      "critical_angles_deg": [
+        64.53924073470684,
+        118.86075926529317
+      ],
+      "critical_cosines": [
+        0.42989283325973543,
+        -0.48268268179340224
+      ]
+    },
+    {
+      "isotope_or_source": "104Pd",
+      "E_keV": 555.8,
+      "alpha_deg": 16.0,
+      "real_solution": true,
+      "critical_angles_deg": [
+        59.28093944527869,
+        136.7190605547213
+      ],
+      "critical_cosines": [
+        0.5108289362269232,
+        -0.7280008681875283
+      ]
+    },
+    {
+      "isotope_or_source": "108Pd",
+      "E_keV": 433.9,
+      "alpha_deg": 0.0,
+      "real_solution": false,
+      "critical_angles_deg": [],
+      "critical_cosines": []
+    },
+    {
+      "isotope_or_source": "108Pd",
+      "E_keV": 433.9,
+      "alpha_deg": 3.4,
+      "real_solution": false,
+      "critical_angles_deg": [],
+      "critical_cosines": []
+    },
+    {
+      "isotope_or_source": "108Pd",
+      "E_keV": 433.9,
+      "alpha_deg": 16.0,
+      "real_solution": false,
+      "critical_angles_deg": [],
+      "critical_cosines": []
+    },
+    {
+      "isotope_or_source": "137Cs",
+      "E_keV": 661.6,
+      "alpha_deg": 0.0,
+      "real_solution": true,
+      "critical_angles_deg": [
+        50.56719351414207,
+        129.43280648585792
+      ],
+      "critical_cosines": [
+        0.6351728618424757,
+        -0.6351728618424757
+      ]
+    },
+    {
+      "isotope_or_source": "137Cs",
+      "E_keV": 661.6,
+      "alpha_deg": 3.4,
+      "real_solution": true,
+      "critical_angles_deg": [
+        49.66224729508556,
+        133.73775270491444
+      ],
+      "critical_cosines": [
+        0.6472921680968277,
+        -0.6913586306260694
+      ]
+    },
+    {
+      "isotope_or_source": "137Cs",
+      "E_keV": 661.6,
+      "alpha_deg": 16.0,
+      "real_solution": true,
+      "critical_angles_deg": [
+        47.28638066098525,
+        148.71361933901474
+      ],
+      "critical_cosines": [
+        0.6783343416028738,
+        -0.854582296883978
+      ]
+    }
+  ],
+  "Tables3_4_replays": {
+    "104Pd": {
+      "As_over_eventweighted_P": [
+        0.5190839694656488,
+        0.4835164835164835,
+        0.548951048951049,
+        0.33653846153846156,
+        0.5031847133757962,
+        0.4493392070484581
+      ],
+      "reported_A_minus_replayed_ratio": [
+        0.0009160305343511865,
+        -0.0005164835164835346,
+        -0.001951048951048917,
+        0.0014615384615384586,
+        0.0028152866242038277,
+        0.000660792951541922
+      ],
+      "quoted_A_weightedmean_if_independent": {
+        "mean": 0.4840535091211755,
+        "standard_error_if_independent": 0.02389451594128341,
+        "chi2": 7.2251283149070415,
+        "reduced_chi2_df5": 1.4450256629814082
+      },
+      "rounded_As_P_replay_if_P_fixed_and_rows_independent": {
+        "mean": 0.48397699260476573,
+        "standard_error_if_independent": 0.02385555521522021,
+        "chi2": 7.353709355558161,
+        "reduced_chi2_df5": 1.4707418711116322
+      },
+      "wrong_centerP_instead_of_eventweightedP_control": [
+        0.521072796934866,
+        0.5,
+        0.5528169014084507,
+        0.3381642512077295,
+        0.5266666666666667,
+        0.4493392070484581
+      ],
+      "source_average": 0.484,
+      "source_error": 0.024,
+      "independent_sigma_minus_source": -0.00010548405871659006,
+      "independent_mean_minus_source": 5.35091211755212e-05,
+      "independent_sigma_within_declared_point001_diagnostic": true,
+      "shared_Pmodel_reference_Cov_or_cut_component_recovered": false
+    },
+    "108Pd": {
+      "As_over_eventweighted_P": [
+        0.4805825242718447,
+        0.5277777777777778,
+        0.4780701754385965,
+        0.3924050632911392,
+        0.3652173913043478,
+        0.33142857142857146
+      ],
+      "reported_A_minus_replayed_ratio": [
+        0.0014174757281552597,
+        0.00022222222222223476,
+        -7.017543859649811e-05,
+        -0.002405063291139209,
+        0.0027826086956521667,
+        0.001571428571428557
+      ],
+      "quoted_A_weightedmean_if_independent": {
+        "mean": 0.451122482022906,
+        "standard_error_if_independent": 0.030957335607597482,
+        "chi2": 4.792627293053721,
+        "reduced_chi2_df5": 0.9585254586107442
+      },
+      "rounded_As_P_replay_if_P_fixed_and_rows_independent": {
+        "mean": 0.45093144027824095,
+        "standard_error_if_independent": 0.030558509100430405,
+        "chi2": 4.954810731763285,
+        "reduced_chi2_df5": 0.990962146352657
+      },
+      "wrong_centerP_instead_of_eventweightedP_control": [
+        0.4829268292682927,
+        0.5480769230769231,
+        0.4823008849557522,
+        0.3924050632911392,
+        0.3853211009174312,
+        0.3295454545454546
+      ],
+      "source_average": 0.451,
+      "source_error": 0.034,
+      "independent_sigma_minus_source": -0.0030426643924025207,
+      "independent_mean_minus_source": 0.00012248202290598975,
+      "independent_sigma_within_declared_point001_diagnostic": false,
+      "shared_Pmodel_reference_Cov_or_cut_component_recovered": false
+    }
+  },
+  "Table5_unweighted_MC_bin_diagnostics": [
+    {
+      "counter": 3,
+      "unweighted_rounded_bin_A": 0.09386835744593913,
+      "source_A": 0.094,
+      "original_bin_counts_Cov_or_fitweights_known": false
+    },
+    {
+      "counter": 4,
+      "unweighted_rounded_bin_A": 0.10494760024262502,
+      "source_A": 0.105,
+      "original_bin_counts_Cov_or_fitweights_known": false
+    },
+    {
+      "counter": 5,
+      "unweighted_rounded_bin_A": 0.09275286303354546,
+      "source_A": 0.093,
+      "original_bin_counts_Cov_or_fitweights_known": false
+    },
+    {
+      "counter": 6,
+      "unweighted_rounded_bin_A": 0.09797751766902213,
+      "source_A": 0.098,
+      "original_bin_counts_Cov_or_fitweights_known": false
+    },
+    {
+      "counter": 7,
+      "unweighted_rounded_bin_A": 0.12464312424352203,
+      "source_A": 0.125,
+      "original_bin_counts_Cov_or_fitweights_known": false
+    },
+    {
+      "counter": 8,
+      "unweighted_rounded_bin_A": 0.08988983905588628,
+      "source_A": 0.09,
+      "original_bin_counts_Cov_or_fitweights_known": false
+    }
+  ],
+  "Table5_average_bins_unweighted_A": 0.10071208983362588,
+  "Table5_average_A_source": 0.102,
+  "bin36deg_cos2_attenuation": 0.935489283788639,
+  "no_tracking_over_tracking_A_ratio_from_source": 0.21074380165289255,
+  "literal_smearing_units_100keV": {
+    "FWHM_mm": 0.735,
+    "sigma_mm": 0.312125761605847,
+    "actual_producer_units_or_measured_resolution_certified": false
+  },
+  "figure5_axis_micrometers_vs_text15millimeters_boundary": true,
+  "full_new_GOSIA_response_or_experimental_fit": false
+}

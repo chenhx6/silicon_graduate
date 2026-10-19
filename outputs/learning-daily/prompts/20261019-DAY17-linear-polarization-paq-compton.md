@@ -333,3 +333,8 @@ Day16已本session原读九页/6图1表与currentHTML，G24-16–25新self-audit
 ### Tsuzuki2021方法priming
 
 Day16已读arXiv2105.14236v1完整11页/15图，T21-1–13保存16xy空间ν、独立Ba null/共享Kr、三篇Q命名、低能minenergy排序255.5keV域与847失败控制、法向反号不必翻cos2、stat/sys线性合成及datareadiness。不是原子P到核P的校准迁移；未得原events/templates/Σ，不授17credit或开其它课卡。
+
+
+### Bizzeti2015 CE/Cs校准priming
+
+Day16已原读publisher11页/10图5表，B15-1–15保存modelP/eventweights、Cs跨能量response/残差、finitegeometry排序退化、literalendpoint/fit符号及axis/单位/公式边界、108平均误差非闭合与F分母。原data未修，程序初failure保留，所有新claims needs_review；不把同MC/500积分grid计独立实验。正式17声明priming，preview不授信用。

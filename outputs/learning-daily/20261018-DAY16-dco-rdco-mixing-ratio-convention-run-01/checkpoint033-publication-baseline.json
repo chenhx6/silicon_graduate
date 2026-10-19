@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-19T08:30:08.458595+08:00",
+  "HEAD": "2d9b630dfd5278baf623c583105222c664a16787",
+  "tracked_dirty_sha256": {
+    "knowledge/index.md": "995c1b411ba7760728f9f905f0106d7b6e655152286c539a71c4156b88ad4189",
+    "knowledge/methods/compton-polarimetry.md": "0fb398b3d79fe76e556632f8d07a7b7e18e6e786ed039f884d30a10608d284da",
+    "knowledge/methods/linear-polarization-asymmetry.md": "89ab50b7dcc62d80ad9769b4594b3c354992a27d3996c286894665ba9baf3d6f",
+    "knowledge/methods/modulation-curve.md": "f4fbfc3a3721e53e6320a3f3f28ab6cfe41bd8230b33744085a5e7d0fff27441",
+    "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md": "6c218d2f7a4687185d53948e33961bd943af5a7e0dfc79880bd3948c75ca40cd",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json": "2c611d1b271757b0f8b80a6b26677781f90d3fd3dca282cd1a0833b6c7939d12",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl": "ed26d5ed660840121f8d68b299a218525d419ab56376d9754f0dbd0acd384ed5",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json": "333a8ff1bf6466b7ef179803bbd9d11fcdd8cbc7caf59908383a96c3caa6a35b",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json": "98805fdc23d70082c77101a94771ea5b59de50d7f2ad9cf79d7be016b442fe9b",
+    "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log": "86f8fe545dfb6f034ed9365dec25fcff7f4e19a33cbae824ea89188de91cdaa2",
+    "outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json": "fe83ec86cb4cc422b8c6c6aa6f34ee94a38e9dccc3ce32d02980b320c1f358d5",
+    "outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json": "fc599c390c65a9993a0a4bcf9550c7305ff2992eb338edec243d3c4616fbb5d2",
+    "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json": "94ac37b43bd426d09c7d46898f605bc4645d8a52346c9c4c12c160c82f6fbde7",
+    "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json": "c6ee661fbc0839dedb40377ac6fe22cde5be8c15acc684378a48c7770576df16",
+    "outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json": "8bc756e117844523b150cea4a006e67e2f90d2919595c0e8d5c9c676affdb72d",
+    "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md": "64f406d8371c4359d24201ded22409ed3cd75aa6c0fa2d5cdda4e5258bb2ec68",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md": "bc113c1ed3d89f4548798e78922a0c96924adcece713c962546bc2599e72e230",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json": "0a6526acc9c82a3b04fe543487d65e57426409577ad48ef51dea332e93bf12e0",
+    "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json": "cfb3410565f73866798d91ac824e47235df68a13acf54ff8a96a60c6bd1f7816",
+    "outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md": "40a50271a1d1339b26ff6e4da3cca9e502b1380fd495f4fa1dc707d5c5b21337",
+    "system/log.md": "b6912224de4ecd9d4c25c9e79d37c7f107bd18e306da524ee71a3b1f8795cb69",
+    "system/scripts/run_daily_learning_daemon.py": "3445149ca85077489aefb40d600214c9c4ef54a71668f82ab8be02fb94d390b2"
+  },
+  "status": " M knowledge/index.md\n M knowledge/methods/compton-polarimetry.md\n M knowledge/methods/linear-polarization-asymmetry.md\n M knowledge/methods/modulation-curve.md\n M knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json\n M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log\n M outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json\n M outputs/learning-daily/20261008-clock-reminder-delivery-fix-run-01/repair-receipt.json\n M outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json\n M outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json\n M outputs/learning-daily/20261016-DAY15-ado-angular-distribution-geometry-run-01/run.json\n M outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md\n M outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md\n M outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json\n M outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json\n M outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md\n M system/log.md\n M system/scripts/run_daily_learning_daemon.py\n",
+  "scope": "pre checkpoint033 runtime write; scientific B15 edits inherited from same run"
+}

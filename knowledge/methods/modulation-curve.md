@@ -64,3 +64,9 @@ M22这里的原式来自已核UNC author-preprint，VoR未取得，跨版本实�
 [[tsuzuki-2021-sicdte-template-polarimetry]] T21-5/8/9/10：空间16区ν与φbin是两个索引维度；独立Ba null不同于同Krdata的MLE/modulationfit回代。T21 Eq8以Q为modulation、Π=Q/Q100；Go以Q′为modulation、P=Q′/Q_G；Morse已读UNCpreprint又是A0=Q_M Pbar/2。先比同一harmonic/P/response对象，再谈factor/效率/Σ，不能按Q名字对齐。
 
 同pointsource的plane normal反号不改共同轴cos2φ（T21-12）；错误order仍可改incomingaxis、θ/ARM与selection，所以符号控制与全response控制不能互相替代。原T21统计/系统及作者线性合成值分开，两个同data的P不作独立平均。
+
+### Endpoint计数差与cos2拟合系数要显式换号
+
+[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-7–9：若N(φ)=a0+a2cos2φ、φ0/90正好为parallel/perp，则(N90−N0)/(N90+N0)=−a2/a0。源文操作以+a2/a0，需保留两namedquantity/anglezero的边界，不能只因都叫As就复制。Eq1/2与Jones pureE2 probe可用ψ旋转π/2映射，实际producer/beamplane与E-fieldplane仍未核。
+
+对R(φ)及R(φ+π)取平均会消oddharmonics，cos2保留；regionwise不同P/效率不能只靠该对称化消除。sourceTables3/4的分析能力是modelP与实验As之比；同MC no-tracking/Table5不计新独立实验，bin-integrated sinc与unknownfitweights各自保存。

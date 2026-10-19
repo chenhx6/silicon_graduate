@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-19T08:11:34.879270+08:00",
+  "full_text_pages_read": 11,
+  "sections": "1-7,AppendicesA-D,References",
+  "figures_visual": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "tables_visual": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "source": "publisherPDF DOI10.1140/epja/i2015-15049-4",
+  "raw_sha256": "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c",
+  "publicationdate": "28Apr2015",
+  "literal_boundaries_seen": [
+    "Eq1/2electricaxis vsEq7normaltext",
+    "Eq9/10andoperationalAs sign",
+    "Sec4.2Pdlabel/Eidentityswap",
+    "Fig5\u00b5mvs15mmtext",
+    "AppendixBsinphi projection"
+  ],
+  "noRawDataProducerOrFullGOSIAInputObtained": true
+}

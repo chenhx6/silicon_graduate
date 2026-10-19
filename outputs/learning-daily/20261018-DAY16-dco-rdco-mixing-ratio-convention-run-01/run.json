@@ -49,7 +49,7 @@
   "runner_initial_report": "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention.md",
   "report_path_reason": "Preserve user exact Required persisted output path; actual run_date remains 2026-10-18",
   "continuation_prompt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
-  "goal_status": "active",
+  "goal_status": "blocked",
   "card_audit": "complete",
   "publications": [
     {
@@ -907,16 +907,47 @@
       "goal_status": "active",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 32,
+      "at": "2026-10-19T07:49:36.130524+08:00",
+      "branch": "main",
+      "subject": "Trace DAY16 template regions null controls and event ordering domains",
+      "commit": "2d9b630dfd5278baf623c583105222c664a16787",
+      "origin_main": "2d9b630dfd5278baf623c583105222c664a16787",
+      "status": "published",
+      "required_exit_codes": {
+        "fresh_fetch": 0,
+        "ancestry": 0,
+        "dry_run_HEAD_main": 0,
+        "push_HEAD_main": 0,
+        "post_commit_eol": 0,
+        "cached_check": 0
+      },
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag d842dcad        \nTo gitee.com:chx6/silicon_graduate.git\n   aa7cfdb..2d9b630  HEAD -> main\n"
+      },
+      "goal_status": "active",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "checkpoint032-verified-continuing",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-026.json",
-  "knowledge_writeback_items": 49,
-  "last_learning_summary": "N60referenceidentity/MRsigma/sharedCov and actualSDK totalbranch weights verified; primary1980phase body stillmissing; 0errors174warnings; publication027 pending",
-  "knowledge_changed_pages": 49,
+  "last_checkpoint": "checkpoint033-B15-verified",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-027.json",
+  "knowledge_writeback_items": 50,
+  "last_learning_summary": "B15 original full mainline, printed tables, literal conventions and nonclosures recorded; 0 errors/182 warnings; native goal blocked metadata reconciled; science pursuing",
+  "knowledge_changed_pages": 50,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "T21upstreamnormalization/orderingmethodcanonical; verification026/pub032 next; experimentaldata stillnotready",
+  "current_research_route": "checkpoint033 publication then rebuild current convention/response candidate pool",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -1026,7 +1057,7 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-19T06:00:14.850930+08:00",
+    "now_local": "2026-10-19T08:30:55.660233+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
     "decision": "continue-current-or-Day17-uncredited-preview",
     "formal_credit_unchanged": true
@@ -1042,12 +1073,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 31,
-    "at": "2026-10-19T07:23:52.769135+08:00",
+    "publication_index": 32,
+    "at": "2026-10-19T07:49:36.130524+08:00",
     "branch": "main",
-    "subject": "Audit DAY16 CdTe normalization likelihood and sensitivity conventions",
-    "commit": "aa7cfdbf1ea3c4d493c02711f07195e374c3f086",
-    "origin_main": "aa7cfdbf1ea3c4d493c02711f07195e374c3f086",
+    "subject": "Trace DAY16 template regions null controls and event ordering domains",
+    "commit": "2d9b630dfd5278baf623c583105222c664a16787",
+    "origin_main": "2d9b630dfd5278baf623c583105222c664a16787",
     "status": "published",
     "required_exit_codes": {
       "fresh_fetch": 0,
@@ -1066,11 +1097,13 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 7c43b488        \nTo gitee.com:chx6/silicon_graduate.git\n   d99484e..aa7cfdb  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag d842dcad        \nTo gitee.com:chx6/silicon_graduate.git\n   aa7cfdb..2d9b630  HEAD -> main\n"
     },
     "goal_status": "active",
     "research_deadline": "2026-10-19T15:00:00+08:00",
     "credit_retained_once": "formal16/next17/count16,partial17"
   },
-  "publication025_local_reconciliation": "first ignoredgeneratedPDF/stagedSVGCSVformat gate andprematurelocalcommit isolated; exacttaskPDF/LF/ownlog correction; sameunpublishedamendonce + fresh019/H3"
+  "publication025_local_reconciliation": "first ignoredgeneratedPDF/stagedSVGCSVformat gate andprematurelocalcommit isolated; exacttaskPDF/LF/ownlog correction; sameunpublishedamendonce + fresh019/H3",
+  "scientific_work_status": "pursuing",
+  "goal_runtime_reconciliation": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-status-reconciliation-033.json"
 }

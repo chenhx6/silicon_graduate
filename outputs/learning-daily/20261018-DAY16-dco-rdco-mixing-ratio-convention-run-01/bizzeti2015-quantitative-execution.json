@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T08:16:08.903028+08:00",
+  "exec_session_id": 89558,
+  "exit_code": 0,
+  "script": "system/scripts/day16_bizzeti2015_reference_audit.py",
+  "script_sha256": "7fe75b34e0ebac9114db4751288572167be34fd6e84e44111b7fc32c05a7d102",
+  "result_matches_script": true,
+  "source_sha256_matches": true,
+  "first_exit1_preserved": "bizzeti2015-first-analysis-failure.json",
+  "scientific_nonclosure_retained": "108Pdsimpleindependentweightederror.03096vsreported.034; inputsnotchanged; unweightedTable5Av.100712vs.102unknownsourcefitweights",
+  "environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps",
+  "experimental_eventfit_executed": false
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T08:01:22.898910+08:00",
+  "command": [
+    "pdftoppm",
+    "-f",
+    "2",
+    "-l",
+    "11",
+    "-scale-to",
+    "1800",
+    "-png",
+    "tmp/day16-bizzeti2015/publisher.pdf",
+    "tmp/day16-bizzeti2015/figures/p"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "visualpending": true
+}

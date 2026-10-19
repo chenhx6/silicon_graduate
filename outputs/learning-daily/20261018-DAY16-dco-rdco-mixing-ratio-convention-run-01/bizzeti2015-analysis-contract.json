@@ -1,0 +1,202 @@
+{
+  "identity": "B15-SIGN-FINITEANGLE-REFERENCE-AUDIT-01",
+  "at": "2026-10-19T08:07:06.575175+08:00",
+  "raw": "tmp/day16-bizzeti2015/publisher.pdf",
+  "raw_sha256": "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c",
+  "energies_keV": {
+    "104Pd": 555.8,
+    "108Pd": 433.9,
+    "137Cs": 661.6
+  },
+  "angles_alpha_deg": [
+    0.0,
+    3.4,
+    16.0
+  ],
+  "coscut_abs_max": 0.35,
+  "selected_r12_min_mm": 15.0,
+  "tables": {
+    "104Pd": {
+      "As_P_A_sigmaA": [
+        [
+          -0.136,
+          -0.262,
+          0.52,
+          0.053
+        ],
+        [
+          -0.132,
+          -0.273,
+          0.483,
+          0.052
+        ],
+        [
+          -0.157,
+          -0.286,
+          0.547,
+          0.049
+        ],
+        [
+          -0.07,
+          -0.208,
+          0.338,
+          0.067
+        ],
+        [
+          -0.079,
+          -0.157,
+          0.506,
+          0.089
+        ],
+        [
+          -0.102,
+          -0.227,
+          0.45,
+          0.062
+        ]
+      ],
+      "sigma_As_printed": 0.014,
+      "source_mean": 0.484,
+      "source_error": 0.024,
+      "source_reducedchi2": 1.44,
+      "P_center_Table2": [
+        -0.261,
+        -0.264,
+        -0.284,
+        -0.207,
+        -0.15,
+        -0.227
+      ]
+    },
+    "108Pd": {
+      "As_P_A_sigmaA": [
+        [
+          -0.099,
+          -0.206,
+          0.482,
+          0.069
+        ],
+        [
+          -0.114,
+          -0.216,
+          0.528,
+          0.066
+        ],
+        [
+          -0.109,
+          -0.228,
+          0.478,
+          0.062
+        ],
+        [
+          -0.062,
+          -0.158,
+          0.39,
+          0.089
+        ],
+        [
+          -0.042,
+          -0.115,
+          0.368,
+          0.124
+        ],
+        [
+          -0.058,
+          -0.175,
+          0.333,
+          0.081
+        ]
+      ],
+      "sigma_As_printed": 0.014,
+      "source_mean": 0.451,
+      "source_error": 0.034,
+      "source_reducedchi2": 0.96,
+      "P_center_Table2": [
+        -0.205,
+        -0.208,
+        -0.226,
+        -0.158,
+        -0.109,
+        -0.176
+      ]
+    }
+  },
+  "table5_raw_MCratios": [
+    [
+      1.075,
+      0.983,
+      0.903,
+      0.992,
+      1.088
+    ],
+    [
+      1.086,
+      0.971,
+      0.893,
+      1.004,
+      1.1
+    ],
+    [
+      1.059,
+      0.965,
+      0.874,
+      0.996,
+      1.054
+    ],
+    [
+      1.096,
+      0.959,
+      0.902,
+      0.99,
+      1.067
+    ],
+    [
+      1.087,
+      0.971,
+      0.928,
+      0.985,
+      1.206
+    ],
+    [
+      1.093,
+      0.978,
+      0.918,
+      0.994,
+      1.076
+    ]
+  ],
+  "table5_A_printed": [
+    0.094,
+    0.105,
+    0.093,
+    0.098,
+    0.125,
+    0.09
+  ],
+  "table5_average_bins": [
+    1.083,
+    0.971,
+    0.903,
+    0.994,
+    1.098
+  ],
+  "table5_average_A_printed": 0.102,
+  "table5_fit_scope": "conditionalunweightedbincentral, sourceMCcountweights/Covnotprovided, noforcedexactclosure",
+  "symbolic_checks": [
+    "Eq9andEq10samephizero givesAs=-a2/a0 versusoperationalplus",
+    "pureE2m0domain Eq1/2 versus JonesEq9/helicity andclassicalquadrupole; framebridgeunresolved, notexperimentalP",
+    "AppendixB sinphi expression withr12 insteadr1 yieldsabs(sinphi*cos\u03b8), notsinphigenerally"
+  ],
+  "smearing": {
+    "printed_b_mm_sqrt_keV": 7.35,
+    "probe_E_keV": 100.0,
+    "FWHM_to_sigma": 2.3548200450309493,
+    "model_tuning_not_measured_PSA_resolution": true
+  },
+  "fixed_cutspread_As": 0.013,
+  "newexperiment_delta_P_or_response_recovered": false,
+  "day_index": 16,
+  "partial_day_indices": [
+    17
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "at": "2026-10-19T07:51:22.090575+08:00",
+  "rows": [
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works/10.1140/epja/i2015-15049-4",
+      "status": 200,
+      "path": "tmp/day16-bizzeti2015/crossref.json",
+      "sha256": "6499f0bab0143d597663d12a07392952038b0f0b6a0b8b9795eaa9538b870df4",
+      "metadata": {
+        "title": [
+          "Analyzing power of AGATA triple clusters for gamma-ray linear polarization"
+        ],
+        "author": [
+          {
+            "given": "P. G.",
+            "family": "Bizzeti",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Sona",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "C.",
+            "family": "Michelagnoli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "B.",
+            "family": "Melon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Bazzacco",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "E.",
+            "family": "Farnea",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A. M.",
+            "family": "Bizzeti-Sona",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "G.",
+            "family": "de Angelis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Gadea",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Gottardo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Lunardi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Menegazzo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Mengoni",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Nannini",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D. R.",
+            "family": "Napoli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Perego",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "F.",
+            "family": "Recchia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "E.",
+            "family": "Sahin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J. J.",
+            "family": "Valiente-Dob\u00f3n",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "C. A.",
+            "family": "Ur",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "The European Physical Journal A"
+        ],
+        "volume": "51",
+        "page": null,
+        "article-number": "49",
+        "DOI": "10.1140/epja/i2015-15049-4",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1140/epja/i2015-15049-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1140/epja/i2015-15049-4/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1140/epja/i2015-15049-4",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "relation": {}
+      }
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1140/epja/i2015-15049-4",
+      "status": 200,
+      "path": "tmp/day16-bizzeti2015/openalex.json",
+      "sha256": "ba42aaa2bba1b732c15cc5fe18f8102a25307e0fc82178b345c5aaba72a60d69",
+      "locations": [
+        {
+          "id": "doi:10.1140/epja/i2015-15049-4",
+          "doi": "https://doi.org/10.1140/epja/i2015-15049-4",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1140/epja/i2015-15049-4",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210173186",
+            "display_name": "The European Physical Journal A",
+            "issn_l": "1434-6001",
+            "issn": [
+              "1434-6001",
+              "1434-601X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-b",
+              "jufo-2",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The European Physical Journal A",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:edpsciences.org:dkey/10.1140/epja/i2015-15049-4",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://www.springerlink.com/content/fulltext.pdf?id=doi:10.1140/epja/i2015-15049-4",
+          "pdf_url": "http://www.springerlink.com/content/fulltext.pdf?id=doi:10.1140/epja/i2015-15049-4",
+          "source": {
+            "id": "https://openalex.org/S4306400744",
+            "display_name": "Springer Link (Chiba Institute of Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I8488066",
+            "host_organization_name": "Chiba Institute of Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I8488066"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "https://doi.org/10.1140/epja/i2015-15049-4",
+          "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:www.research.unipd.it:11577/3169159",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "http://hdl.handle.net/11577/3169159",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402547",
+            "display_name": "Padua Research Archive (University of Padova)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I138689650",
+            "host_organization_name": "University of Padua",
+            "host_organization_lineage": [
+              "https://openalex.org/I138689650"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ]
+    }
+  ]
+}

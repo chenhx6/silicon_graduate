@@ -1,0 +1,31 @@
+{
+  "publication_index": 32,
+  "at": "2026-10-19T07:49:36.130524+08:00",
+  "branch": "main",
+  "subject": "Trace DAY16 template regions null controls and event ordering domains",
+  "commit": "2d9b630dfd5278baf623c583105222c664a16787",
+  "origin_main": "2d9b630dfd5278baf623c583105222c664a16787",
+  "status": "published",
+  "required_exit_codes": {
+    "fresh_fetch": 0,
+    "ancestry": 0,
+    "dry_run_HEAD_main": 0,
+    "push_HEAD_main": 0,
+    "post_commit_eol": 0,
+    "cached_check": 0
+  },
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag d842dcad        \nTo gitee.com:chx6/silicon_graduate.git\n   aa7cfdb..2d9b630  HEAD -> main\n"
+  },
+  "goal_status": "active",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

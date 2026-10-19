@@ -8,17 +8,13 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改，goalactive/pursuing。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学工作pursuing；本次nativegoal实返blocked且工具无resume写法，objective不改/不新建，详goal-status-reconciliation-033.json。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019 running保留，无新session/daemon。
 
-Checkpoint032 verification026实际通过49changed/items、boundary/lint/diff0、0errors180warnings(132key45raw3parser)，G24/J02/L25/L26原humanprefix/raw/PLAN/Bib/T21resultscriptguard过。T21新source1–13已完整arXivv1的11页/15图；VoR403未得。ν16firsthitxy空间区/独立Ba null/Ge谱lineidentity/共享Kr MLE与modulation/linearsys合成.023均分层，不借原子P或作用概率作核calibration。
+Checkpoint033 verification027实际50changed/50items、boundary/lint/diff0，0errors182warnings(133key46raw3parser)，旧G24/J02/L25/L26人审prefix、原raw/PLAN/Bib及B15script/result/inputhash均过。Bizzeti2015已完整11页10图5表/附录A–D；真实104Pd555.8/108Pd433.9与Cs661.6、modelP/eventweights/As/derivedA分层。独立权重108σ=.03096未闭合原.034、Table5Av.100712/.102、literal符号/axis/sine/单位边界保持，未认证actualproducer或新增实验P/δ。
 
-实际解析排序：E<255.5keV全角ES<EA，75窗合法；847equaldeposit66.628°/反序physicalcos阈35.114°，actualGo算法/错序率未得不归罪。pointsource反序只normal负号时commonaxis cos2不变；实际incomingaxis/ARM/cut仍需response。reportedstat/sys和Dataonrequest边界保持，不造实验hist。G24仅新追加26，其原humanprefix保持。
+当前发布指针main / `Audit DAY16 AGATA reference weights and literal convention boundaries`；actualhash/outcome仅publication033/runreceipt。032已actualH3/Gitee，稳定指针main / `Trace DAY16 template regions null controls and event ordering domains`。Alikhani2012合法route未得body，terminal失败不原样重试。下一重建候选池，继续匹配的phase/response输入或同Day17知识preview；仍约6h窗口，不能因本checkpoint结束研究。
 
-032待actualH3，稳定指针main / `Trace DAY16 template regions null controls and event ordering domains`，actualhash/outcome只publication032/runreceipt。031已actualGitee，main / `Audit DAY16 CdTe normalization likelihood and sensitivity conventions`；G24脚注/curve/preprint版Q合同与旧N223/J98成果保持。
-
-下一Alikhani2012 NIMA675144–154 DOI10.1016/j.nima.2012.02.016，是M22Ref16/GoRef27，上游Co60AGATA真实Q/P定义/finitegate校准价值高。before/freeze及pool032已保存，metadataquery进行中，未读body，不预猜其half-factor。只在exactDay17preview内继续，原截止尚约7h20。
-
-详continuation-current.md；保护raw/PLAN/Bib/credentials/旧prefix/继承dirty/log。exactmanifest/HEADownentry，cached实际过再commit，freshfetch/ancestor/dryrun/nonforceH3。不得因checkpoint完成而final/completegoal。
+详本run continuation-current.md；保护raw/PLAN/Bib/credentials/原review/继承dirty与log。精确manifest/HEAD+ownlogentry，cached实际过再commit，freshfetch/ancestor/dryrun/nonforceH3；不写自身hash进commit。原生goal状态差异不阻止已授权的科学工作与安全发布。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T07:48:24.623525+08:00",
+  "url": "https://tuprints.ulb.tu-darmstadt.de/",
+  "final_url": "https://tuprints.ulb.tu-darmstadt.de/",
+  "status": 200,
+  "path": "tmp/day16-alikhani2012/tuprints-home.html",
+  "sha256": "ffbdc06957b04665d2af55b0b3528767aa7f4548c5bbcd35cf159789982172ca",
+  "title": "Making sure you're not a bot!",
+  "forms": [],
+  "scripts": [
+    "/.within.website/x/cmd/anubis/static/js/main.mjs?cacheBuster=v1.26.2"
+  ]
+}

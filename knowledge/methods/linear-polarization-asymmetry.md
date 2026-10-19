@@ -183,3 +183,7 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 ### 反序不等于cos2符号必翻
 
 [[tsuzuki-2021-sicdte-template-polarimetry]] T21-11/12：同pointsource两hit反序使scatterplane normal乘−1、在共同轴下φ→φ+π，cos2φ不变。实际错误incomingdirection/referenceplane、kinematicθ、ARM和cut仍可改变观测；不能将一个π反向当成δ/EM符号翻转。75keV的minenergy-order域亦不能迁到847，实际错序率须真实response/事件，未由本设计估计。
+
+### AGATA源文的literal符号边界
+
+[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-7/8的同zero计数式给As_end=−a2/a0，而源文表按As_fit=+a2/a0；同时对As/P反号不改A=As/P，不能只改一端。electricaxis/beamplane/scatteringplane的π/2桥应明写；pureprobe与AppendixB几何不闭合并未证明actualproducer用了这些字面式，原data/table保持。未知代码/ME/Cov下不据P号重分核跃迁。

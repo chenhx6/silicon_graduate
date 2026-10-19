@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-19T08:12:49.240116+08:00",
+  "exit_code": 1,
+  "exec_session_id": 1430,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bizzeti2015-reference-script-initial.py",
+  "script_sha256": "76a14e41275eb676a3a291650a9343c33b671772fe24297c69f681f87198f2f4",
+  "cause": "Assumed reportedweightedmeanerrorwouldclose <.001; independentformula doesnotreproducethe108Pdquotederror. Preserve scientificnonclosure, do notchangeinputerrors.",
+  "rows": {
+    "104Pd": {
+      "weighted_mean": 0.4840535091211755,
+      "weighted_sigma_independent": 0.02389451594128341,
+      "source_mean": 0.484,
+      "source_sigma": 0.024,
+      "reducedchi2": 1.4450256629814082
+    },
+    "108Pd": {
+      "weighted_mean": 0.451122482022906,
+      "weighted_sigma_independent": 0.030957335607597482,
+      "source_mean": 0.451,
+      "source_sigma": 0.034,
+      "reducedchi2": 0.9585254586107442
+    }
+  },
+  "recovery": "replace unsubstantiatedscientificclosureassertwith explicitdiagnosticflags; preserveallphysical/algebra/hashguards; no change tosourceinput"
+}

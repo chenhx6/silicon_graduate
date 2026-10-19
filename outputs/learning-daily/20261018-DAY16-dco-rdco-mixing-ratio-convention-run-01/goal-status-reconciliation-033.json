@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T08:30:55.660233+08:00",
+  "native_goal_objective_retained": true,
+  "native_goal_status_observed": "blocked",
+  "observed_clock_UTC": "2026-10-19 00:28:10 UTC",
+  "available_status_mutations": [
+    "complete",
+    "blocked",
+    "paused"
+  ],
+  "active_or_resume_mutation_available": false,
+  "decision": "Continue the same authorized scientific task operationally; do not recreate goal, falsely claim native active, or modify runtime databases.",
+  "scientific_work_status": "pursuing",
+  "user_stop": false,
+  "new_session": false,
+  "hard_deadline": "2026-10-19T15:00:00+08:00"
+}

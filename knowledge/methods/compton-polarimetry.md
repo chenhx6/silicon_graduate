@@ -380,3 +380,11 @@ Go/Morse这个公式比较以上游实际读到的UNC preprint为限，VoR未得
 原75keV twohit ES=min(E1,E2)规则只在一次scatter+completeabsorption、E<255.5keV时对全角成立。847在66.628°跨ES/EA大小，存在两种energyorder都给physicalθK的情况；须实际position/ARM/cut算法，不以此估Go错序率。pointsource两hit互换仅使plane normal反号时，共同轴cos2φ不变，不能泛称错序必翻polarizationsign。真实incomingaxis/response仍会变，需完整角合同。
 
 T21reported.962±.008stat±.015sys合成.023保留；不擅用独立quadrature .017替换。原子Kr高P及约50%作用概率都不能当核847的calibrationP或selectedabsoluteε。数据同为作者reasonable request，experimentalL4输入未齐。
+
+### AGATA CE/Cs校准：modelP与reference响应的同层要求
+
+[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-1–15原11页/10图5表已读。真实104Pd555.8/108Pd433.9的As来自CE/Cs ratio，P来自GOSIA/靶中能损/ME模型，Tables3/4用eventweightedP，Table2仅countercenterP。其50×10积分点不计独立实验；Cs不同能量即使重加权仍有约.013 residualcutspread，Pmodel与共享referenceCov未给。
+
+source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号，pureE2/axis及AppendixB sine公式亦有已隔离边界；不按P/As符号直接判EM或修改原table。pairedsign/axis转换须一起做，A=As/P可在成对变换下不变。本文F的ε按impingingγ而非emitted4πγ，不能裸比Go绝对ε或其它F。
+
+完整geometry退化还需sinθcr=m/E−sin(α/2)，不同于只检查两energyorders的physicalcos；source555.8/α3.4°cosback−.48268支持其角cut考虑。source实验均值/χ²可重放，108平均误差独立权重仅.03096 vs报.034未闭合；保留未知weight/Cov，不用更多toy重构原误差或把成功数当新实验信用。

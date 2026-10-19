@@ -163,6 +163,17 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint033：AGATA CE/Cs原校准与literal边界
+
+新增[Bizzeti2015 source](../../knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md) B15-1–15，publisher实际11页/hash/identity核后全文Sec1–7/AppendicesA–D、10图5表视觉读。104Pd555.8/108Pd433.9配Cs661.6，P为GOSIA计算、As为CE/Cs调制，averageP/centerP与F分母均分开；不从前候选Alikhani摘要补原formula。
+
+[运动学/符号/原表程序](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bizzeti2015-reference-audit-result.json)最终actual0；初独立weightedσclosure假设触发[exit1](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bizzeti2015-first-analysis-failure.json)，原输入未改。均值/χ².484054/1.445与.451122/.959闭合，108σ .03096 vs报.034保留；Table5Av的条件无权fit也未伪报完全重现。
+
+同φzero下Eq9/10给−a2/a0，而操作table用+a2/a0；pureE2/π/2axis桥和AppendixBsinφ等literal probes、Fig5µm/正文15mm、Pdlabel/E局部错配逐项隔离。未据这些字面问题修作者data或判actualproducer错误。有限几何退化sinθcr=m/E−sin(α/2)比TS21仅energyphysical条件多一层，555.8/α3.4°backwardcos−.48268重放原约−.483。
+
+原MC/五ME/Cs权重/共享Cov仍缺，experimentalL4notready；同MC多处理与500积分grid不计独立实验。研究/goal继续原15:00上海截止、formal16一次/partial17，不开18。
+
+
 ### Checkpoint032：上游Si/CdTe原方法与能区迁移
 
 新增[Tsuzuki2021 source](../../knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md) T21-1–13：arXiv2105.14236v1实际200/hash/identity核，完整11页主线/15图/Eq1–8；VoR403未得。16个ν区是firsthitxy空间分区、独立Ba source作零偏振response控制、Ge作两线能谱身份，KrMLE/modulationfit共享采集；不把原子P或作用概率借作核calibrationP/eff。
@@ -501,6 +512,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批新[B15 source](../../knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md)“先核同一角度零点和参考权重，再比较分析能力”保存B15-1–15；Compton/modulation/asymmetry/T21保存anglezero、参考权重/分母、finitegeometry与unknownCov使用合同。报告/输出不作唯一知识副本。
+
 本批新增[T21 source](../../knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md)“空间归一和能区排序都需要实际响应身份”及T21-1–13，写入Compton/modulation/asymmetry方法，Go旧humanprefix只追加G24-26新needs_review。输出只为执行证据，physicaldomain/independence保存在knowledge。
 
 本批[Go2024 source](../../knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md)“2026-10-19 Codex追加：归一、似然与跨探测器Q定义”保存G24-16–25；[modulation方法](../../knowledge/methods/modulation-curve.md)“模板归一应保留统计对象”保存profile/共有Cov与归一转换。均非原实验重拟，旧人审prefix保持，新条目待复核。
@@ -812,7 +825,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -902,6 +915,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
           "locator": "T21-1"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-1"
         }
       ]
     },
@@ -1342,7 +1359,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1724,12 +1741,40 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
           "locator": "T21-13"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-2"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-5"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-7"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-8"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-11"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-12"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-15"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -1807,6 +1852,34 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
           "locator": "T21-13"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-2"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-5"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-7"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-8"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-11"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-12"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-15"
         }
       ]
     },
@@ -3581,7 +3654,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/modulation-curve.md",
-      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。",
+      "summary": "新增signal-only scaleprofile/multinomial和FisherSchur边界、sameeventenergy/phi共有Cov与Q定义迁移；不是原实验fit或CI。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
       "anchor": "模板归一应保留统计对象",
       "sources": [
         {
@@ -3631,12 +3704,40 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
           "locator": "T21-13"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-2"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-5"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-7"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-8"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-11"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-12"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-15"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
-      "summary": "新arXivv1完整11页/15图原读：actual16xy空间ν、Ba independentnull与Kr共享分析/误差，75→847排序domain/法向反号控制、误差线性合成与数据readiness；无原实验refit/核P迁移。",
+      "summary": "新arXivv1完整11页/15图原读：actual16xy空间ν、Ba independentnull与Kr共享分析/误差，75→847排序domain/法向反号控制、误差线性合成与数据readiness；无原实验refit/核P迁移。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。",
       "anchor": "空间归一和能区排序都需要实际响应身份",
       "sources": [
         {
@@ -3690,6 +3791,101 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
           "locator": "T21-13"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-2"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-5"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-7"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-8"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-11"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-12"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+      "summary": "新publisher11页/10图5表及AppendicesA-D原读，CE/Cs与GOSIA/calibration/response分层，literal轴符号/几何/单位、有限退化、原表重放/108σ非闭合与F分母；保留初失败/原数据/producer缺口。",
+      "anchor": "先核同一角度零点和参考权重，再比较分析能力",
+      "sources": [
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-1"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-2"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-3"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-4"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-5"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-6"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-7"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-8"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-9"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-10"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-11"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-12"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-13"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-14"
+        },
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "B15-15"
         }
       ]
     }
@@ -3908,3 +4104,12 @@ Collins2019 NPL/8371明确“Full text not available from this repository”，p
 [verification-reopened-026](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-026.json)实际report/card/唯一writeback通过（49 changed knowledge pages/49 items），boundary/lint/diff exit0，0errors180warnings(132key45raw3parser)。G24/J02/L25/L26原humanprefix、原raw/PLAN/Bib及T21脚本/结果/sourcehash通过；新claims全needs_review，无原实验重拟。
 
 [候选刷新032](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-032-current.json)在原截止前仍438分钟，下一选Morse Ref16/Go Ref27 Alikhani2012原Co60AGATA calibration，原件前回忆已冻；metadata查找进行中，未读正文、不预判半因子。稳定发布指针main / `Trace DAY16 template regions null controls and event ordering domains`，actualhash/H3/push仅publication032/runreceipt。formal16一次/partial17与原15:00上海截止保持。
+
+
+### Checkpoint033实际验收与Pd/Cs校准边界
+
+[verification-reopened-027](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-027.json)实际通过report/card/唯一writeback（50 changed knowledge pages/50 items），boundary/lint/diff均exit0；0errors182warnings（133citation-key、46raw槽、3reaction-parser）。B15原PDF/脚本/结果hash、旧G24/J02/L25/L26人审prefix及PLAN/Bib保护通过。验收脚本首次全局编号替换误动2026年份而失败，已保留异常回执、仅修验收路径后实际exit0；没有改科学输入。
+
+B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P和derivedA分层。保留同φ下Eq9/10符号、pure/axis条件probe、AppendixB sine、Fig5单位与108Pd独立加权σ .03096/原报.034、Table5 average .100712/.102的非闭合；未认证actualproducer或重拟实验。Alikhani2012停在合法全文readiness边界，不以摘要补公式。
+
+发布稳定指针main / `Audit DAY16 AGATA reference weights and literal convention boundaries`，actualhash/H3/push仅publication033/runreceipt。原2026-10-19 15:00上海研究截止不改，formal16一次、partial17、next17/count16；继续当前convention/response与恰好Day17知识preview，不开18。原goal目标仍适用；本次get_goal实际返回blocked，接口无active/resume状态写法，故[如实对账](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-status-reconciliation-033.json)，科学工作继续pursuing，不伪称原生active、不重建goal。

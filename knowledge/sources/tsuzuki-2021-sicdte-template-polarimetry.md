@@ -117,3 +117,7 @@ Ba残差`.010/.7=.01429`与作者sys≈.015保留原舍入。最终`.008+.015=.0
 ## Reproducibility
 
 [运动学/几何程序](../../system/scripts/day16_tsuzuki2021_ordering_audit.py)实际exit0，输入为原文窗/阈及Go847/40–120°，只用解析式与符号控制，未造eventhist。[合同/结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/tsuzuki2021-ordering-audit-result.json)、11页/15图阅读与sourcehash在同run回执。下载PDF/原图/第三方代码仅在tmp，不stage原件。
+
+### 后续finitegeometry companion
+
+[[bizzeti-2015-agata-triple-cluster-polarimetry]] B15-5/15原读给两hit/source同时退化的更强条件sinθcr=m/E−sin(α/2)。本T21的两个energyorders有physicalcos并未使用这个额外几何约束，故不能把energy规则的域外直接等同actualtracking不可解。新增来源还明确ε分母/角cut/packedhit响应，未改变本source原输入或reportedΠ。

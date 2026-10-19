@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T07:53:57.189763+08:00",
+  "url": "https://link.springer.com/content/pdf/10.1140/epja/i2015-15049-4.pdf",
+  "status": 200,
+  "path": "tmp/day16-bizzeti2015/publisher.pdf",
+  "sha256": "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c",
+  "bytes": 1373940,
+  "is_pdf": true,
+  "bodyread": false,
+  "extract_exit": 0,
+  "pdfinfo": "Title:           \nCreator:         dvips(k) 5.95a Copyright 2005 Radical Eye Software\nProducer:        Acrobat Distiller 10.1.13 (Windows)\nCreationDate:    Thu Apr 23 16:04:16 2015 CST\nModDate:         Mon Apr 27 15:54:51 2015 CST\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           11\nEncrypted:       no\nPage size:       595.276 x 841.89 pts (A4)\nPage rot:        0\nFile size:       1373940 bytes\nOptimized:       yes\nPDF version:     1.4\n"
+}
