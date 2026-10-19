@@ -60,7 +60,7 @@
   "runner_initial_report": "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention.md",
   "report_path_reason": "Preserve user exact Required persisted output path; actual run_date remains 2026-10-18",
   "continuation_prompt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
-  "goal_status": "blocked",
+  "goal_status": "complete",
   "card_audit": "complete",
   "publications": [
     {
@@ -1338,6 +1338,31 @@
       "scientific_work_status": "completed after originaldeadline",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 48,
+      "at": "2026-10-19T15:10:40.840430+08:00",
+      "branch": "main",
+      "subject": "Record DAY16 original-deadline completion and session index",
+      "commit": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+      "origin_main": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+      "status": "published",
+      "commands_actual_all_exit0": true,
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 194c5fa8        \nTo gitee.com:chx6/silicon_graduate.git\n   622b120..a6d7508  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "original_deadline_closed": true,
+      "credit_retained_once": "formal16/next17/count16,partial17",
+      "runtime_receipt_only": "this exact self hash remains in task receipt outside its own commit"
     }
   ],
   "last_checkpoint": "original-deadline-completed-after-actualpublication047",
@@ -1385,7 +1410,7 @@
     "push_outcome": "pushed"
   },
   "post_commit_reconciliation": {
-    "publication": 47,
+    "publication": 48,
     "manifest_matches_actual_commit": true,
     "HEAD_origin_main_equal": true,
     "knowledge_diff_exit": 0,
@@ -1413,16 +1438,17 @@
   "schedule_session_index_event": "manual-resumed-window-completed-after-original-deadline",
   "final_receipt_publication": {
     "branch": "main",
-    "subject": "Complete DAY16 card and reconcile course state",
-    "commit_hash": "48c938e3618eaa8c2a074504fa68c017ce3b8f9d",
+    "subject": "Record DAY16 original-deadline completion and session index",
+    "commit_hash": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
     "outcome": "pushed",
     "origin_tracking_matches_HEAD": true
   },
   "goal_final_usage": {
-    "tokens_used": 2248168,
-    "elapsed_seconds": 11186,
+    "tokens_used": 13200453,
+    "elapsed_seconds": 68192,
     "token_budget": null,
-    "basis": "Actual nativeupdate_goal completion result; executionmetadata, notscientific evidence"
+    "basis": "Actual native update_goal complete and subsequent get_goal confirmation; executionmetadata only, not scientific evidence",
+    "recorded_at": "2026-10-19T15:11:55.268546+08:00"
   },
   "resumption_history": [
     {
@@ -1488,12 +1514,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 47,
-    "at": "2026-10-19T15:06:04.939377+08:00",
+    "publication_index": 48,
+    "at": "2026-10-19T15:10:40.840430+08:00",
     "branch": "main",
-    "subject": "Close DAY16 at the original deadline with verified evidence boundaries",
-    "commit": "622b120d41629523b76765de2e468c9207e7860f",
-    "origin_main": "622b120d41629523b76765de2e468c9207e7860f",
+    "subject": "Record DAY16 original-deadline completion and session index",
+    "commit": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+    "origin_main": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
     "status": "published",
     "commands_actual_all_exit0": true,
     "push_observation": {
@@ -1505,12 +1531,12 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 6c434ebb        \nTo gitee.com:chx6/silicon_graduate.git\n   ea5f2ca..622b120  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 194c5fa8        \nTo gitee.com:chx6/silicon_graduate.git\n   622b120..a6d7508  HEAD -> main\n"
     },
     "manifest_matches_actual_commit": true,
-    "scientific_work_status": "completed after originaldeadline",
-    "research_deadline": "2026-10-19T15:00:00+08:00",
-    "credit_retained_once": "formal16/next17/count16,partial17"
+    "original_deadline_closed": true,
+    "credit_retained_once": "formal16/next17/count16,partial17",
+    "runtime_receipt_only": "this exact self hash remains in task receipt outside its own commit"
   },
   "publication025_local_reconciliation": "first ignoredgeneratedPDF/stagedSVGCSVformat gate andprematurelocalcommit isolated; exacttaskPDF/LF/ownlog correction; sameunpublishedamendonce + fresh019/H3",
   "scientific_work_status": "completed",
@@ -1560,5 +1586,7 @@
     "closeout_window_used": "Earlysource/data-boundarycloseout, not claimednormal15–16 execution"
   },
   "final_closeout_course_state_sha256": "7bf0448bd7b14d59fd3503b38b4b354f0e5eb9c0ccf04e3b5fb5f65bb355e961",
-  "study_window_closed": true
+  "study_window_closed": true,
+  "completion_publication_finished_at": "2026-10-19T15:10:40.840430+08:00",
+  "goal_runtime_reconciliation_final": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-original-deadline-completion.json"
 }

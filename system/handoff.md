@@ -12,11 +12,13 @@ updated: 2026-10-19
 
 report/card/唯一writeback69changed/69items、boundary/lint/diff045实际0；0errors190warnings(137key50raw3parser)。205旧匹配claim flags及既有review元数据保持，435新增匹配claim均true；32新页unreviewed。末段12项回忆为强priming无分数，source/模型/producer/实验Σ边界未抹去。D66/C96历史输入视图actual0、结果一致；D66量词/独立性和D96完整trace/有限门推导已canonical。
 
-内容稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`，完成回执main / `Record DAY16 original-deadline completion and session index`；实际hash/H3/push仅原runreceipt。原runner正常退出未观察，手动完成事件只作同session scheduler索引，不伪造queue/returncode。nativegoal最终结果见实际工具回执；早先blocked是历史。Farmer42019保留，无新daemon/session/调度。
+内容稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`，完成回执main / `Record DAY16 original-deadline completion and session index`；实际hash/H3/push仅原runreceipt。原runner正常退出未观察，手动完成事件只作同session scheduler索引，不伪造queue/returncode。nativegoal已由update_goal实际返回complete，get_goal再次确认同thread/原objective不变；早先blocked是历史。Farmer42019保留，无新daemon/session/调度。
 
 完成后只讨论既有Day16成果或定向处理缺口，不因旧continuation/farmer消息自动重开研究/重授学分。新正式17由既有runner独立session先冻结承认priming的回忆；准备入口outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md。不要自行启动17或打开18。主要canonical为knowledge/research-notes/w178-921-dco-gate-double-solutions.md和knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md；原producer/匹配response/Σ缺口依然开放。
 
 保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/log；QMD和overview刷新deferred。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+
+最终原生goal/发布回执稳定指针main / `Reconcile DAY16 completed goal and final publication receipts`；精确hash/push只原runreceipt，所有科学与完成状态已通过实际门。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

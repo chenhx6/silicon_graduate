@@ -1,0 +1,25 @@
+{
+  "publication_index": 48,
+  "at": "2026-10-19T15:10:40.840430+08:00",
+  "branch": "main",
+  "subject": "Record DAY16 original-deadline completion and session index",
+  "commit": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+  "origin_main": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+  "status": "published",
+  "commands_actual_all_exit0": true,
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 194c5fa8        \nTo gitee.com:chx6/silicon_graduate.git\n   622b120..a6d7508  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "original_deadline_closed": true,
+  "credit_retained_once": "formal16/next17/count16,partial17",
+  "runtime_receipt_only": "this exact self hash remains in task receipt outside its own commit"
+}

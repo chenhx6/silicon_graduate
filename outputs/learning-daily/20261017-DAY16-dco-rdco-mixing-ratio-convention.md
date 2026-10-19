@@ -6914,3 +6914,6 @@ Day16正式卡完成一次，completed[16]/partial[17]、next17/count16保持；
 
 
 原截止最终内容047已实际H3/Gitee push，HEAD与origin/main一致；稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`。同session手动完成事件已追加到本地scheduler索引，只有本次真实元数据，未冒称runner terminal event；[索引对账](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-deadline-session-index-reconciliation.json)可复核。月度state字节保持next17/count16。完成回执稳定指针main / `Record DAY16 original-deadline completion and session index`；其实际hash/远端结果只进run receipt。原生goal最后状态将按实际工具完成结果记录，科学结论不依赖该执行元数据。
+
+
+原生goal最终已由update_goal实际返回complete，并由get_goal再次确认同thread/原objective未改；[实际工具回执](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-original-deadline-completion.json)只作执行元数据。完成回执048也实际H3/Gitee成功，知识树保持已发布版本、index为空、课程state字节不变。最终原生goal/发布回执稳定指针main / `Reconcile DAY16 completed goal and final publication receipts`，精确hash/实际远端结果只见run.json；它不增加科学证据或学分。

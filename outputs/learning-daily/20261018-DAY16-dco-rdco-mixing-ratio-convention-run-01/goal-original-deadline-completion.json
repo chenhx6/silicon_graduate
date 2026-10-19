@@ -1,0 +1,13 @@
+{
+  "goal": {
+    "threadId": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+    "objective": "在 /workspace/wiki 持续完成 wiki-daily-learning 的 2026-10-18-day-16-01（Day16 DCO/RDCO、混合比与相位约定）独立正式课程：恢复原session/receipt与截止；先冻结说明Day15 priming的主动回忆；核D96/KS70原件、完成明确数据身份的delta双解计算单及相位转换/纯极限/失败控制，检验同跃迁伴随观测与独立性；按原时间门继续高信息研究，仅可无学分预习Day17；knowledge写回、中文日报逐卡审计、检查、续接、回执及Gitee显式发布均通过后才计Day16学分。保持raw/PLAN/凭据/已有修改与review状态；使用farmer监督已有会话，不另启学习session或daemon。",
+    "status": "complete",
+    "tokensUsed": 13200453,
+    "timeUsedSeconds": 68192,
+    "createdAt": 1792291607,
+    "updatedAt": 1792393842
+  },
+  "remainingTokens": null,
+  "completionBudgetReport": null
+}

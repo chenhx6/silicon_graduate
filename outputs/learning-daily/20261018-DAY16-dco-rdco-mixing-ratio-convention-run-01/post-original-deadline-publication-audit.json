@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T15:11:59.593575+08:00",
+  "checks": {
+    "knowledge_clean": true,
+    "index_empty": true,
+    "HEAD_equals_origin_main": true,
+    "course_bytes_unchanged": true,
+    "diff_check_actual_exit": 0,
+    "goal_complete": true
+  },
+  "published_content_commit": "622b120d41629523b76765de2e468c9207e7860f",
+  "published_completion_commit": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+  "runtime_receipts_after_commit": "Ownexacthash and nativegoal completion retained only in task receipts outside their own commits; no scientific tree changes or extra state advance"
+}

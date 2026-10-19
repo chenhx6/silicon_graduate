@@ -47,5 +47,14 @@
   },
   "runner_exit_observed": false,
   "scheduler_index_reconciliation": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-deadline-session-index-reconciliation.json",
-  "goal_completion": "not-yet-observed; native tool response is required, execution metadata only"
+  "goal_completion": "actualupdate_goal complete followedby get_goal same thread; originalobjectiveunchanged",
+  "native_goal_final_status": "complete",
+  "completion_publication": {
+    "branch": "main",
+    "subject": "Record DAY16 original-deadline completion and session index",
+    "commit_hash": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+    "outcome": "pushed",
+    "origin_tracking_matches_HEAD": true
+  },
+  "scientific_content_already_published": true
 }
