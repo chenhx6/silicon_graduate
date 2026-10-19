@@ -400,3 +400,8 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 ### 同一E3线仍需相同布居与参考方向
 
 [[fagg-hanna-1959-polarization-measurements]] FH59-12/15/17：综述的O166.13MeVE3例在不同Ep/alpha-reference或beam-reference下有近完全偏振与近无偏振报告。能量/EM相同不足以复用calibrationP；未分辨gamma-role还要混合各自response。FH59原p/R/r的确切映射见[[modulation-curve]]，原Me50响应producer、完整接受角和Cov未恢复。综述复述/原图不增加独立实验。
+
+
+### Overall coincidence效率取消并未认证分析器response
+
+[[hamilton-1948-successive-quanta-polarization]] HAM48-7–9的两个α是两个photonrole的coincidence效率积；不是任意φ依赖的Compton响应。原pure分类中一半的P与这两个scalarweight无关，另一半在等权时完全抵消；不能把两种情况都写成无需校Q，或从null推unpolarizedreference。原源的角度/效率次序及纯序列假设需随结果保存。

@@ -163,6 +163,15 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint036：未分辨gamma-role的原式可识别性
+
+[Hamilton1948](../../knowledge/sources/hamilton-1948-successive-quanta-polarization.md) HAM48-4–13本session完整读782–787/788上半，Crossref核782–788，纠正旧scope排整788的矛盾；下半Corben邻文不摄入。原polarization式的cos(2θ)与W的cos²θ已视觉核，错误OCR负面控制不冒作sourceerratum。
+
+[实际符号复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/hamilton1948-role-audit-result.json)exit0：16个pure E1/M1/E2/M2组合8依roleweights/8不依，dependent8个等权全部null；sum→W、collinear、roles/weights同步互换和EMdual均过。两个α是overallcoincidence效率，不能省现代φresponse/Q；相消null也不提供独立unpolarized校准。
+
+另作明确选律推断：pureE2的allowed2→1→2中间态没有rank4，6j为0，限制“QQ必α4非0”口诀；不是观察新核态、产生新counts或δfit。原partial-role辨relativeparity还要求nondegeneratecoefficients/已知weightordering。BR1953/Fe55原定义与actualresponse/Cov缺口保持，Fe55只核metadata/真实UNTitem并留readiness。
+
+
 ### Checkpoint035：历史记号与同跃迁布居的原件REFLECT
 
 [FH59 source](../../knowledge/sources/fagg-hanna-1959-polarization-measurements.md)本session完整48页/printed711–758已读，补FH59-4–18；旧末页756按原件/Crossref纠正，最后两页为bibliography。EqI7的18κ表项精确重放，首脚本漏leadingminus触发[exit1](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-first-quantitative-failure.json)，按原图修后[actual0](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/fagghanna1959-quantitative-execution.json)，未改冻结原输入。
@@ -532,6 +541,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批[Hamilton source](../../knowledge/sources/hamilton-1948-successive-quanta-polarization.md)“Day16 原件与光子角色复核”保存HAM48-4–13；angular-correlation/Compton/asymmetry与synthesis保存roleweightnull和rank4必要条件。原式、推断和缺失实际response分层。
+
 FH59原式/字典与边界写入[原source](../../knowledge/sources/fagg-hanna-1959-polarization-measurements.md)“原件再核：ratio 字典、同跃迁布居边界与表值版本”；[synthesis](../../knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md)新增“Day16 REFLECT：从同符号到同一个observable”，同步三个方法页和index。不是outputs中的唯一副本。
 
 本批canonical为[SU59 source](../../knowledge/sources/suffert-1959-proton-capture-polarization.md)“1959 原件复核：normal 轴与 plane 轴不是同一个 P”，保存SEH59-4–12、八行原表重算和保留多解；B15-16与Compton/asymmetry/mixing方法页保存实际坐标桥和companion适用边界。
@@ -849,7 +860,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -1011,6 +1022,46 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
           "locator": "FH59-16"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-4"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-5"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-6"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-7"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-8"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-9"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-10"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-11"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-12"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-13"
         }
       ]
     },
@@ -1039,7 +1090,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/angular-correlation.md",
-      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增profile/数据秩/Cov语境与临界表分层，不能认证未匹配实验CI。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。 Co60 gate/source与选择对象控制和原producer缺口已关联。",
+      "summary": "保存高自旋factorization公式、十行反向检验和finite系数替换失去exact交换R=1的条件控制，分开absolute/relative误差。 同页保存独立130Ba真实三角度实验的两个shape信息与shared-denominator门。 新增EL18独立裂变样本projectivebranch/校准边界。 新增公开DELTAactualrun/误差与数值failure边界。 新增profile/数据秩/Cov语境与临界表分层，不能认证未匹配实验CI。 增加源Fig2动机的positive-density exact Jacobian/四次profile及条件LR边界；matched P与独立Q校准的rank要求。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
       "anchor": "高自旋factorization的使用边界",
       "sources": [
         {
@@ -1145,6 +1196,46 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
           "locator": "UG24-27"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-4"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-5"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-6"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-7"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-8"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-9"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-10"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-11"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-12"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-13"
         }
       ]
     },
@@ -1451,7 +1542,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -1929,12 +2020,52 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
           "locator": "FH59-16"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-4"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-5"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-6"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-7"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-8"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-9"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-10"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-11"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-12"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-13"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -2108,6 +2239,46 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
           "locator": "FH59-16"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-4"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-5"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-6"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-7"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-8"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-9"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-10"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-11"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-12"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-13"
         }
       ]
     },
@@ -4333,7 +4504,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -4403,6 +4574,93 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
           "locator": "B15-16"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-4"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-5"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-6"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-7"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-8"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-9"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-10"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-11"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-12"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+      "summary": "完整原件782–788scope修正，16purecase权重/取消/null及角函数守恒符号重放，保留relativeparity条件和rank4选律反例，非新实验或mixedphase桥。",
+      "anchor": "Day16 原件与光子角色复核",
+      "sources": [
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-4"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-5"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-6"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-7"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-8"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-9"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-10"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-11"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-12"
+        },
+        {
+          "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+          "locator": "HAM48-13"
         }
       ]
     }
@@ -4644,3 +4902,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification-reopened-029](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-029.json)实际report/card/唯一writeback53changed/53items通过，boundary/lint/diff均exit0；0errors182warnings（133key46raw槽3parser）。FH59旧内容只作显式metadata修正后原prefix保持、原flags/raw/PLAN/Bib/旧humanprefix与script/contract/初失败hash均过。
 
 原deadline仍为2026-10-19 15:00上海，此checkpoint距其尚近6h，继续原问题与恰好partial17知识；formal16一次、next17/count16保持。发布稳定指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`，actualhash/H3/push仅publication035/runreceipt。Nativegoalblocked差异如实记录，科学工作pursuing；未重建goal、session或调度器。
+
+
+### Checkpoint036实际验收与原窗口续接
+
+[verification-reopened-030](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-030.json)实际report/card/唯一writeback54changed/54items通过，boundary/lint/diff exit0；0errors182warnings（133citation-key46raw槽3parser）。旧HAMclaim行/review、原PDF/PLAN/Bib/旧humanprefix及脚本/冻结输入hash均通过。
+
+原15:00上海研究截止不改，科学pursuing、nativegoalblocked状态差异继续如实保留，formal16一次/partial17、next17-count16不改。发布稳定指针main / `Validate DAY16 photon role cancellation and rank conditions`，actualhash/H3/push仅publication036/runreceipt。下一重建当前A130/reference-calibration候选池，原source/producer缺失不由更多toy补齐。

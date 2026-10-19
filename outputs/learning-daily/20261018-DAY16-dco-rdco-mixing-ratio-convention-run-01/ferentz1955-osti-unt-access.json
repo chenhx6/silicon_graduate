@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-19T09:08:01.503398+08:00",
+  "verified_doi": "10.2172/4371445",
+  "requests": [
+    {
+      "name": "osti-fulltext",
+      "url": "https://www.osti.gov/servlets/purl/4371445",
+      "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /servlets/purl/4371445 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "unt-arksearch",
+      "url": "https://digital.library.unt.edu/search/?q=%22TABLE+OF+F+COEFFICIENTS%22&t=fulltext",
+      "final_url": "https://digital.library.unt.edu/dam/?next=%2Fsearch%2F%3Fq%3D%2522TABLE%2BOF%2BF%2BCOEFFICIENTS%2522%26t%3Dfulltext",
+      "status": 200,
+      "bytes": 3704,
+      "is_pdf": false,
+      "path": "tmp/day16-fe1955/unt-arksearch.txt",
+      "sha256": "c727d3db75d5bd716e643193461b8752a850b07e8431fa24668dba9318947770",
+      "links": []
+    }
+  ]
+}

@@ -197,3 +197,8 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 ### Electric的P号依角/布居而变化
 
 [[fagg-hanna-1959-polarization-measurements]] FH59-5/10–12的plane-axis E3/m1原式可写两非负平方强度，literalPplus在90°为−1、118°约+.9984；不是electricpositive的普遍规则。SU59normal轴还需额外反号；source的约62/118角、realacceptance与actualproducer分别保留。FH59-16另隔离同综述Ap58正文/表的数对交换，不据review表任意选符号。
+
+
+### 零偏振可由未区分gamma-role抵消
+
+[[hamilton-1948-successive-quanta-polarization]] HAM48-7–11的原14/15有8个weight-dependent pure序列；αAB=αBC时P为0，已核symboliclimits。它们的role效率不能靠一个近零asymmetry独立辨认；finitegeometry/ComptonQ和未知feeding还需另核。原pure模型的relativeparity结论保留nondegeneracy与已知weightordering，不裸迁混合δ。

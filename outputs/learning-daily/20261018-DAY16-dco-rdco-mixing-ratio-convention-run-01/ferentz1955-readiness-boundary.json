@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T09:10:54.486781+08:00",
+  "status": "metadata-only-original-not-obtained",
+  "report": "Fe55/ANL5324",
+  "verified_crossref_DOI": "10.2172/4371445",
+  "verified_metadata_title": "TABLE OF F COEFFICIENTS",
+  "verified_metadata_authors": [
+    "M. Ferentz",
+    "N. Rosenzweig"
+  ],
+  "verified_metadata_year": 1955,
+  "official_location_found": "https://digital.library.unt.edu/ark:/67531/metadc1022386/",
+  "access": [
+    "OSTI connection refused",
+    "UNTsearch DAM page, no fulltext",
+    "new actual UNT record and metadata both502/zero bytes",
+    "INSPIRE exact reportquery200/0"
+  ],
+  "scientific_source_page_created": false,
+  "missing_input": "Original definitions/tables/operator phases of Fe55, not substituted from FH59 or modern calculation",
+  "stop_this_route_only": true,
+  "research_window_continues": true,
+  "new_inputs_required_to_retry": true
+}

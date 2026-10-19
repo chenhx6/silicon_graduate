@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T09:17:30.005985+08:00",
+  "session_id": 16190,
+  "exit_code": 0,
+  "script": "system/scripts/day16_hamilton1948_role_audit.py",
+  "script_sha256": "6e0f7be5e7690e0d83c5b6d0253468d5b04e3dfa2a4abf7d45b6777e0bb27f55",
+  "result_matches_script": true,
+  "source_hash_matches": true,
+  "source16cases": "symbolic pure-radiation sequences, not sixteen experiments",
+  "toy_counts_or_delta_fit": false,
+  "environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps"
+}

@@ -1,0 +1,96 @@
+{
+  "at": "2026-10-19T09:08:39.541446+08:00",
+  "requests": [
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.2172/4371445",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.2172/4371445",
+      "status": 200,
+      "bytes": 7836,
+      "locations": [
+        {
+          "id": "doi:10.2172/4371445",
+          "doi": "https://doi.org/10.2172/4371445",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2172/4371445",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Argonne National Laboratory (ANL)",
+          "raw_type": "report"
+        },
+        {
+          "id": "pmh:info:ark/67531/metadc1022386",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://digital.library.unt.edu/ark:/67531/metadc1022386/",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400792",
+            "display_name": "University of North Texas Digital Library (University of North Texas)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I123534392",
+            "host_organization_name": "University of North Texas",
+            "host_organization_lineage": [
+              "https://openalex.org/I123534392"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Report"
+        },
+        {
+          "id": "pmh:oai:osti.gov:4371445",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.osti.gov/biblio/4371445",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402487",
+            "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I139351228",
+            "host_organization_name": "Office of Scientific and Technical Information",
+            "host_organization_lineage": [
+              "https://openalex.org/I139351228"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": null
+        }
+      ]
+    },
+    {
+      "name": "doiresolver",
+      "url": "https://doi.org/10.2172/4371445",
+      "error": "HTTPConnectionPool(host='www.osti.gov', port=80): Max retries exceeded with url: /servlets/purl/4371445/ (Caused by NewConnectionError(\"HTTPConnection(host='www.osti.gov', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    }
+  ]
+}

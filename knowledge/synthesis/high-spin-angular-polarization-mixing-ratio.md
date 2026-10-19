@@ -17,7 +17,7 @@ tags: [high-spin, angular-distribution, polarization, mixing-ratio, evidence-map
 
 ## Agent active summary
 
-Day16原件复核把δ的operator phase、P的坐标轴、detectorcount角色与response权重分成四个必要合同。FH59的plane-axis与SU59normal-axis相差π/2；B15的literal桥须连同As/P一起处理，未知actualproducer保持。SU59同跃迁在替代AD下仍双解，FH59同E3线在不同布居下P不同；都限制只靠多一个偏振数就唯一赋值。新增全为self-audit，不改变review状态或取得Day17学分。
+Day16原件复核把δ的operator phase、P的坐标轴、detectorcount角色与response权重分成四个必要合同。FH59的plane-axis与SU59normal-axis相差π/2；B15的literal桥须连同As/P一起处理，未知actualproducer保持。SU59同跃迁在替代AD下仍双解，FH59同E3线在不同布居下P不同；都限制只靠多一个偏振数就唯一赋值。Hamilton原16purecase又给等权role抵消的null及rank4分类必要条件，进一步限定reference/selection对象。新增全为self-audit，不改变review状态或取得Day17学分。
 
 ## Question and Scope
 
@@ -98,3 +98,8 @@ P0：本批未识别未隔离的来源身份/权限/raw/路径技术问题；历
 | P1 | phase/axis/count/response矩阵为Codex跨来源综合；SU59-4、FH59-5/8和B15-16支持同observable的合同，不能归为任何一篇原作者完整结论 | 用于论文前逐项回原轴、原countroles和producer；未对齐时有误翻号/混合数据对象风险 |
 | P1 | FH59-12只为review转述的同E3不同布居反例；SEH59-10是原作者对替代AD保留双解的直接限制 | 不把两者合成同dataset或据此判当代array calibration；原实验/response/Cov缺口保持 |
 | P2 | 末页、索引和preparedprompt更新只纠正导航/priming；未改reviewflags、raw或Bib | 后续formal17仍独立计卡，不能将本runpreview作学分 |
+
+
+### Hamilton原件追加的null与分类边界
+
+[[hamilton-1948-successive-quanta-polarization]] HAM48-7–12将前述“同一个observable”进一步限定到两个overallrole权重：8个purecase在等权下给null，故unresolvedsignal的P≈0不独立证明源完全不polarized。识别需要gate/能量/效率次序真正分开角色；Q/finiteacceptance仍另校。另有中间J=1的pureQQ rank4被禁止，所以按α4分类也要有可用rank的前提。新项是直接原式复算和明确选律推断，未作实际核赋值、未解决历史mixedδ operatorphase。

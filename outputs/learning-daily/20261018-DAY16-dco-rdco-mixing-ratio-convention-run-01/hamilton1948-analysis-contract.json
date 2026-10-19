@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-19T09:14:33.266270+08:00",
+  "identity": "HAM48-PHOTON-ROLE-WEIGHT-01",
+  "source_sha256": "f569db64c7e402558fd574839ba5c3da56bc8ecf1b37dab330be706118dc0879",
+  "original_scope": "782-787 and upper788 before Corben title; actualCrossref782-788",
+  "source_coefficients": "a,b label Hamilton alpha2/alpha4 in W=1+a cos(theta)^2+b cos(theta)^4; no mixing-ratio delta involved",
+  "critical_transcription": "Polarization functions use cos(2theta), not cos(theta)^2; Qtheta has sin(2theta)^2; verified original p784,785,786",
+  "source_shapes": {
+    "dtheta": "1+a*cos(2theta)",
+    "dphi": "1+a",
+    "qtheta": "1+a+b-b/2*sin(2theta)^2",
+    "qphi": "1+(a+b)*cos(2theta)"
+  },
+  "role_weights": {
+    "wFirst": "alphaAB: first photon in polarization-sensitive detector, second in unpolarized detector",
+    "wLast": "alphaBC: second photon in polarization-sensitive detector, first in unpolarized detector",
+    "wFirst_wLast": "positive over-all coincidence efficiencies, factorizable constants in original formalism; no full modern analyzerresponse assumed"
+  },
+  "multipoles": [
+    "E1",
+    "M1",
+    "E2",
+    "M2"
+  ],
+  "checks": [
+    "all16 original puresequence symbolicpolarization shapes; E/M singlemultipole swap exchanges orthogonal fields",
+    "sum Iθ+Iφ=constant*W for every sequence; b=0 if anydipole",
+    "eight class12/13 independent of roleefficiency and eightclass14/15 depend",
+    "all eight class14/15 give Iθ=Iφ with equalroleefficiency; no parity decision from that null",
+    "collinearlimits Iθ=Iφ for all16",
+    "roleorder exchange with wFirst/wLast swap leaves same named source intensity",
+    "negativewrong OCR cos(theta)^2 kernel fails Wsum identity; not authorerratum",
+    "regularclassification explicitly requires relevant nonzero alpha2/alpha4; intermediateJ1 has rank4 prohibited even for pureE2",
+    "scalar first/last roleweights do not substitute actualphi response or experimentally determined calibration"
+  ],
+  "numeric_input": "none; source polynomial/rational identities only. No extra toy counts, arbitrary alignment or isotope experiment created",
+  "scope_exclusions": [
+    "Corben neighboring article",
+    "no original1940/CGtable or experimentalCov complete replay",
+    "no SUx/FHdelta/KSWphase bridge implied by puremultipole theory"
+  ]
+}

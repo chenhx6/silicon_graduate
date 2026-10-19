@@ -1,3 +1,17 @@
+# 最新checkpoint036
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing，nativegoal实返blocked/工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+
+036 verification030实际report/card/唯一writeback54changed/54items、boundary/lint/diff0，0errors182warnings(133key46raw3parser)。Hamilton原件782–787及788上半完整读，Crossref782–788；旧scope把整788排除的矛盾已修，Corben标题之后不摄入。旧claims/review原raw/PLAN/Bib/旧humanprefix与新scriptcontracthash保持。
+
+原16pure E1/M1/E2/M2符号分类actual0：8P依roleweights/8不依，dependent等权全null，sum→W/collinear/roleweight交换/EMdual都过。两个α是overallrolecoincidence效率，不代modernφresponse/Q；partialparity识别需已知weightordering及nondegeneratecoefficients。原polcos(2θ)不同Wcos²θ，OCR负面控制不当sourceerratum。allowedpureE2 2→1→2的rank4因中间J=1禁戒，限制QQ必α4非0；这是选律推断，非新核赋值。
+
+当前发布指针main / `Validate DAY16 photon role cancellation and rank conditions`，actualhash/H3/push只publication036/runreceipt；035已actualGitee指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`。Fe55仅metadata：DOI10.2172/4371445/真实UNTarkmetadc1022386，当前body获取全失败，readiness留档；BR1953亦未得，不重复terminal，不用其它纯理论补mixedδoperator桥。下一可重建A130当前争议的actualprimary/calibration输入池，先核旧失败指纹再新route；原15:00仍约5h40，不能以本checkpoint提前结束。
+
+详runcontinuation。保护raw/PLAN/Bib/credentials/原flags/继承dirty与log；exactmanifest、HEAD+ownlog、cached实际0后commit、freshfetch/ancestor/dryrun/nonforceH3，exacthash只receipt。
+
+HAM48analysis exec16190实际0、canonical/verify030实际54/54/182warnings；036manifest/发布按实际收结果。原source原式不是新增实验，equalrole null与rank4只是方法边界，不重做同Co60/randomPSD toys。
+
 # 最新checkpoint035
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked/无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
@@ -74,3 +88,15 @@ FH59 EqI15–17 E3/m1实poly W=1+111t−305t²+225t³、G=-1+131t−355t²+225t�
 
 
 FH59 full-mainline reading + analysiscontract/freezes已落盘，48p/printed711–758，18κentries/fourratio map/原E3poly/真实reviewdata诊断预先冻结。sourcequant脚本system/scripts/day16_fagghanna1959_convention_audit.py首run66180 actualexit1：κ11,rank2给+1/2而表−1/2；放大原EqI7确认显式leadingminus被抄漏，已存初script/失败，不改table/contract，仅恢复原负号。修正run execsession98684待收实际结果；不能预报0。全文未canonical，下一确认quant/原轴/ratio及tabletext冲突后写back/verify/publish035。原deadline15:00上海仍5h+。
+
+
+035actualH3/freshfetch/ancestor/dryrun/nonforcepush全0，HEAD=originmain，precisehash仅publication035/runreceipt。Fe55before/freeze/pool036在09:06余353min已存；Crossref实际精确身份M.Ferentz/N.Rosenzweig TABLE OF F COEFFICIENTS1955 DOI10.2172/4371445；inspireANL-5324查询200/0，OSTIpurl/refused、UNTsearch进入dam无body。OpenAlexexactDOI200发现真实UNT itemark:/67531/metadc1022386，itempage+metadata.dc.xml是新发现合法route，execsession51133待收，不重复旧search。尚未Fe55body/新科学claim。raw命名搜索改用rg--no-ignore后确认这些题名未命中；Hamilton1948原件存在，可作下一原件fallback但须先pool/回忆，不预读body。
+
+
+## HAM48当前读取/冻结checkpoint（036后续）
+
+Fe55actualmetadata/UNTitemroute均无body、readiness已保存，未科学source。Hamilton1948本地原7页SHAf569db64...0879已核，mainline782–787及788上半到Corben标题前完整读，Eq1–15关键视觉已核。Crossref实际DOI10.1103/PhysRev.74.782页782–788，旧canonical782–787/6页矛盾须修，不改raw；788顶runningheaderH.C.Corben并非真正文章边界，下半Corben正文excluded不摄入。
+
+原式polarization的cos2θ是cos(2θ)，不是cos²θ（后者是W的powerbasis），已放大Eq8b核，未误判authorerror。HAM48analysiscontract/freezes已存，拟对原16pureE1/M1/E2/M2序列符号重放roleweightsαAB/αBC、sum→W/equalweightwashout/collinearlimits和错误OCRfailcontrols，不造新toycounts/δfit。脚本尚未写/执行，不能称量化完成。原1940/BR/Fe55phase仍未得，不用puretheory替mixedRMEbridge。
+
+35actualpublication已远端成功；当前全树knowledge应clean（35之后尚未HAMcanonical），日报/continuation/runreceipt少量dirty属本run；继承Day8等receipts/daemon/log保护。原15:00上海约5h40仍pursuing，nativegoalblocked差异保持，formal16一次partial17不变。

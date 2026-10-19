@@ -1,0 +1,9 @@
+{
+  "initial_stage_exit": 1,
+  "stage_started": false,
+  "reason": "Entry033 hash for already task-owned modulation page predates its published035 change; false positive when current036 manifest correctly omits unchanged page",
+  "path": "knowledge/methods/modulation-curve.md",
+  "current_worktree_equals_HEAD": true,
+  "belongs_to_published_manifest": "publication-manifest-035.json",
+  "protected_inherited_files_not_relaxed": true
+}

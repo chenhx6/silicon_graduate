@@ -1,0 +1,213 @@
+{
+  "at": "2026-10-19T09:16:22.375554+08:00",
+  "script_sha256": "6e0f7be5e7690e0d83c5b6d0253468d5b04e3dfa2a4abf7d45b6777e0bb27f55",
+  "contract_sha256": "39e3baa3c5e443cda54d11bb2101e2e2bfc344e5ab25617376a59bed36340fad",
+  "source_sha256": "f569db64c7e402558fd574839ba5c3da56bc8ecf1b37dab330be706118dc0879",
+  "rows": [
+    {
+      "first": "E1",
+      "last": "E1",
+      "polarization_theta": "3*(2*alpha2*cos_theta_squared - alpha2 + 1)/(alpha2 + 3)",
+      "polarization_phi": "3*(alpha2 + 1)/(alpha2 + 3)",
+      "P_plane": "alpha2*(cos_theta_squared - 1)/(alpha2*cos_theta_squared + 1)",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "E1",
+      "last": "M1",
+      "polarization_theta": "3*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "polarization_phi": "3*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "P_plane": "alpha2*(alphaAB - alphaBC)*(cos_theta_squared - 1)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + 1))",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "E1",
+      "last": "E2",
+      "polarization_theta": "3*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "polarization_phi": "3*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "P_plane": "alpha2*(alphaAB - alphaBC)*(cos_theta_squared - 1)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + 1))",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "E1",
+      "last": "M2",
+      "polarization_theta": "3*(2*alpha2*cos_theta_squared - alpha2 + 1)/(alpha2 + 3)",
+      "polarization_phi": "3*(alpha2 + 1)/(alpha2 + 3)",
+      "P_plane": "alpha2*(cos_theta_squared - 1)/(alpha2*cos_theta_squared + 1)",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "M1",
+      "last": "E1",
+      "polarization_theta": "3*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "polarization_phi": "3*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "P_plane": "-alpha2*(alphaAB - alphaBC)*(cos_theta_squared - 1)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + 1))",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "M1",
+      "last": "M1",
+      "polarization_theta": "3*(alpha2 + 1)/(alpha2 + 3)",
+      "polarization_phi": "3*(2*alpha2*cos_theta_squared - alpha2 + 1)/(alpha2 + 3)",
+      "P_plane": "-alpha2*(cos_theta_squared - 1)/(alpha2*cos_theta_squared + 1)",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "M1",
+      "last": "E2",
+      "polarization_theta": "3*(alpha2 + 1)/(alpha2 + 3)",
+      "polarization_phi": "3*(2*alpha2*cos_theta_squared - alpha2 + 1)/(alpha2 + 3)",
+      "P_plane": "-alpha2*(cos_theta_squared - 1)/(alpha2*cos_theta_squared + 1)",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "M1",
+      "last": "M2",
+      "polarization_theta": "3*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "polarization_phi": "3*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "P_plane": "-alpha2*(alphaAB - alphaBC)*(cos_theta_squared - 1)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + 1))",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "E2",
+      "last": "E1",
+      "polarization_theta": "3*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "polarization_phi": "3*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "P_plane": "-alpha2*(alphaAB - alphaBC)*(cos_theta_squared - 1)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + 1))",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "E2",
+      "last": "M1",
+      "polarization_theta": "3*(alpha2 + 1)/(alpha2 + 3)",
+      "polarization_phi": "3*(2*alpha2*cos_theta_squared - alpha2 + 1)/(alpha2 + 3)",
+      "P_plane": "-alpha2*(cos_theta_squared - 1)/(alpha2*cos_theta_squared + 1)",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "E2",
+      "last": "E2",
+      "polarization_theta": "15*(alpha2 + 2*alpha4*cos_theta_squared**2 - 2*alpha4*cos_theta_squared + alpha4 + 1)/(5*alpha2 + 3*alpha4 + 15)",
+      "polarization_phi": "15*(2*alpha2*cos_theta_squared - alpha2 + 2*alpha4*cos_theta_squared - alpha4 + 1)/(5*alpha2 + 3*alpha4 + 15)",
+      "P_plane": "-(cos_theta_squared - 1)*(alpha2 - alpha4*cos_theta_squared + alpha4)/(alpha2*cos_theta_squared + alpha4*cos_theta_squared**2 + 1)",
+      "rank4_available_in_formula": true,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "30/(5*alpha2 + 3*alpha4 + 15)"
+    },
+    {
+      "first": "E2",
+      "last": "M2",
+      "polarization_theta": "15*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + 2*alpha4*alphaAB*cos_theta_squared**2 - 2*alpha4*alphaAB*cos_theta_squared + alpha4*alphaAB + 2*alpha4*alphaBC*cos_theta_squared - alpha4*alphaBC + alphaAB + alphaBC)/((alphaAB + alphaBC)*(5*alpha2 + 3*alpha4 + 15))",
+      "polarization_phi": "15*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + 2*alpha4*alphaAB*cos_theta_squared - alpha4*alphaAB + 2*alpha4*alphaBC*cos_theta_squared**2 - 2*alpha4*alphaBC*cos_theta_squared + alpha4*alphaBC + alphaAB + alphaBC)/((alphaAB + alphaBC)*(5*alpha2 + 3*alpha4 + 15))",
+      "P_plane": "-(alphaAB - alphaBC)*(cos_theta_squared - 1)*(alpha2 - alpha4*cos_theta_squared + alpha4)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + alpha4*cos_theta_squared**2 + 1))",
+      "rank4_available_in_formula": true,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "30/(5*alpha2 + 3*alpha4 + 15)"
+    },
+    {
+      "first": "M2",
+      "last": "E1",
+      "polarization_theta": "3*(2*alpha2*cos_theta_squared - alpha2 + 1)/(alpha2 + 3)",
+      "polarization_phi": "3*(alpha2 + 1)/(alpha2 + 3)",
+      "P_plane": "alpha2*(cos_theta_squared - 1)/(alpha2*cos_theta_squared + 1)",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "M2",
+      "last": "M1",
+      "polarization_theta": "3*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "polarization_phi": "3*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + alphaAB + alphaBC)/((alpha2 + 3)*(alphaAB + alphaBC))",
+      "P_plane": "alpha2*(alphaAB - alphaBC)*(cos_theta_squared - 1)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + 1))",
+      "rank4_available_in_formula": false,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "6/(alpha2 + 3)"
+    },
+    {
+      "first": "M2",
+      "last": "E2",
+      "polarization_theta": "15*(2*alpha2*alphaAB*cos_theta_squared - alpha2*alphaAB + alpha2*alphaBC + 2*alpha4*alphaAB*cos_theta_squared - alpha4*alphaAB + 2*alpha4*alphaBC*cos_theta_squared**2 - 2*alpha4*alphaBC*cos_theta_squared + alpha4*alphaBC + alphaAB + alphaBC)/((alphaAB + alphaBC)*(5*alpha2 + 3*alpha4 + 15))",
+      "polarization_phi": "15*(alpha2*alphaAB + 2*alpha2*alphaBC*cos_theta_squared - alpha2*alphaBC + 2*alpha4*alphaAB*cos_theta_squared**2 - 2*alpha4*alphaAB*cos_theta_squared + alpha4*alphaAB + 2*alpha4*alphaBC*cos_theta_squared - alpha4*alphaBC + alphaAB + alphaBC)/((alphaAB + alphaBC)*(5*alpha2 + 3*alpha4 + 15))",
+      "P_plane": "(alphaAB - alphaBC)*(cos_theta_squared - 1)*(alpha2 - alpha4*cos_theta_squared + alpha4)/((alphaAB + alphaBC)*(alpha2*cos_theta_squared + alpha4*cos_theta_squared**2 + 1))",
+      "rank4_available_in_formula": true,
+      "role_weights_cancel_from_polarization": false,
+      "equal_weights_P_if_dependent": 0,
+      "normalized_sum_over_W": "30/(5*alpha2 + 3*alpha4 + 15)"
+    },
+    {
+      "first": "M2",
+      "last": "M2",
+      "polarization_theta": "15*(2*alpha2*cos_theta_squared - alpha2 + 2*alpha4*cos_theta_squared - alpha4 + 1)/(5*alpha2 + 3*alpha4 + 15)",
+      "polarization_phi": "15*(alpha2 + 2*alpha4*cos_theta_squared**2 - 2*alpha4*cos_theta_squared + alpha4 + 1)/(5*alpha2 + 3*alpha4 + 15)",
+      "P_plane": "(cos_theta_squared - 1)*(alpha2 - alpha4*cos_theta_squared + alpha4)/(alpha2*cos_theta_squared + alpha4*cos_theta_squared**2 + 1)",
+      "rank4_available_in_formula": true,
+      "role_weights_cancel_from_polarization": true,
+      "equal_weights_P_if_dependent": null,
+      "normalized_sum_over_W": "30/(5*alpha2 + 3*alpha4 + 15)"
+    }
+  ],
+  "exact_control_summary": {
+    "sixteen_sequences": 16,
+    "weight_independent_cases": 8,
+    "weight_dependent_cases": 8,
+    "equal_weight_washout_dependent_cases": 8,
+    "collinear_nulls": 16,
+    "role_exchange_with_weight_exchange": 16,
+    "global_EM_dual_swaps_fields": 16,
+    "all_normalized_sums_recover_source_W": true
+  },
+  "wrong_OCR_control": {
+    "wrong_use": "qphi cos(theta)^2 instead of cos(2theta)",
+    "sum_minus_correct_W": "-15*(alpha2 + alpha4)*(cos_theta_squared - 1)/(5*alpha2 + 3*alpha4 + 15)",
+    "failure_observed_symbolically": true,
+    "not_source_erratum": true
+  },
+  "rank4_classifier_boundary": {
+    "declaration": "allowed pureE2 path2→1→2",
+    "max_intermediate_density_rank": 2,
+    "F4_geometric_6j": "0",
+    "all_pure_QQ_have_nonzero_alpha4_not_guaranteed": true,
+    "claim_kind": "selection-rule inference; not experimental band or state assignment"
+  },
+  "scope": {
+    "original_shapes_replayed": true,
+    "any_new_toy_counts_or_delta_fit": false,
+    "actual_array_phi_response_or_joint_cov_recovered": false,
+    "mixed_transition_amplitude_phase_bridge_established": false
+  }
+}

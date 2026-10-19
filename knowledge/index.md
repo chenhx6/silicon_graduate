@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[hamilton-1948-successive-quanta-polarization]] - 原782–788真正边界、16pure序列角色权重/null与rank4必要条件复核。
+
 - [[fagg-hanna-1959-polarization-measurements]] - 原48页711–758复核：plane轴/p-R-count字典、E3布居反例和原表版本边界。
 
 - [[suffert-1959-proton-capture-polarization]] - 原件normal轴/位置交换计数桥、25Al同跃迁companion仍留多解及共同eccentricity Cov。

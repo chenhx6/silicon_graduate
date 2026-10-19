@@ -8,15 +8,15 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked/无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing，nativegoal实返blocked/工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
 
-035 verification029实际report/card/唯一writeback53changed/53items，boundary/lint/diff0，0errors182warnings(133key46raw3parser)。FH59原48页printed711–758完整读，keyfig/table视觉；旧末页756按Crossref/原件纠正，旧FHflags和原raw/PLAN/Bib/G24-J02-L25-L26prefix保持。首κscript漏I7leadingminus导致1，按原图改后actual0，18项exact；失败/合同保留。
+036 verification030实际report/card/唯一writeback54changed/54items、boundary/lint/diff0，0errors182warnings(133key46raw3parser)。Hamilton原件782–787及788上半完整读，Crossref782–788；旧scope把整788排除的矛盾已修，Corben标题之后不摄入。旧claims/review原raw/PLAN/Bib/旧humanprefix与新scriptcontracthash保持。
 
-FH59 planeP与SU59normalP相反，p=J0/J90、responseR和r=N0/N90的Mobius map给A=PQ；circularR另含2。同E3/m1原poly两强度为t(15t−11)²/(5t−1)²，pureP随角可换号。综述同O166.13E3在不同Ep/reference布居下P不同，不互借calibration。Ap58正文p743与TableXIII p746/p751数对交换保持literal边界，未读primary不任选一组。完整phase/axis/count/response/companion矩阵已写synthesis并self-audit，非新δ或actualproducer认证。
+原16pure E1/M1/E2/M2符号分类actual0：8P依roleweights/8不依，dependent等权全null，sum→W/collinear/roleweight交换/EMdual都过。两个α是overallrolecoincidence效率，不代modernφresponse/Q；partialparity识别需已知weightordering及nondegeneratecoefficients。原polcos(2θ)不同Wcos²θ，OCR负面控制不当sourceerratum。allowedpureE2 2→1→2的rank4因中间J=1禁戒，限制QQ必α4非0；这是选律推断，非新核赋值。
 
-当前发布指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`，actualhash/H3/push仅publication035/runreceipt。034已actualGitee指针main / `Trace DAY16 polarization axes and unresolved companion branches`。BR1953所有当前bounded合法route未得正文，readiness已存；不重复terminal请求、不从metadata补原式。下一原Fe55 ANL5324系数/phase定义或另可访问primary，须刷新候选/冻结回忆；09:04上海仍约6h，不能以本checkpoint结束研究。
+当前发布指针main / `Validate DAY16 photon role cancellation and rank conditions`，actualhash/H3/push只publication036/runreceipt；035已actualGitee指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`。Fe55仅metadata：DOI10.2172/4371445/真实UNTarkmetadc1022386，当前body获取全失败，readiness留档；BR1953亦未得，不重复terminal，不用其它纯理论补mixedδoperator桥。下一可重建A130当前争议的actualprimary/calibration输入池，先核旧失败指纹再新route；原15:00仍约5h40，不能以本checkpoint提前结束。
 
-详runcontinuation；保护raw/PLAN/Bib/credentials/原review/继承dirty与log。exactmanifest、HEAD+ownlog、cached实际0后commit、freshfetch/ancestor/dryrun/nonforceH3。QMD/overview阶段同步尚deferred，未写外部cache。
+详runcontinuation。保护raw/PLAN/Bib/credentials/原flags/继承dirty与log；exactmanifest、HEAD+ownlog、cached实际0后commit、freshfetch/ancestor/dryrun/nonforceH3，exacthash只receipt。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

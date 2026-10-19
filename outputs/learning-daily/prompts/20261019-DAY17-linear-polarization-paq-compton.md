@@ -348,3 +348,8 @@ Suffert1959完整原读已暴露normal轴P_SU与plane轴反号、Fig3交叉比�
 ### DAY16 checkpoint035额外priming
 
 FH59原48页711–758及cross-source REFLECT已暴露plane轴/p-R-count精确字典、E3同能同EM但不同布居/reference仍不同P、review表Ap58数对交换。正式Day17回忆需注明；原FH59 p不是SU59 p，circularR的2不省。BR1953/Fe55 primary/原实验responseCov仍缺，旧FH claim flags保持。入口knowledge/sources/fagg-hanna-1959-polarization-measurements.md FH59-4–18与knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md。
+
+
+### DAY16 checkpoint036额外priming
+
+Hamilton1948原782–788、16pure序列roleweights/null与rank4必要条件已暴露。正式17回忆需注明：αAB/αBC为两个overallphotonrole效率，等权可抵消P；不是完整arrayφresponse。polarization里的cos(2θ)不能读成cos²θ，源sum→W给检查。入口knowledge/sources/hamilton-1948-successive-quanta-polarization.md HAM48-4–13。没有mixedδ/RMEphase或实验response/Cov闭合。

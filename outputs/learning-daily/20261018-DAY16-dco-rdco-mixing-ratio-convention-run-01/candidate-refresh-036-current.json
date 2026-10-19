@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-19T09:06:22.952949+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 353.61745085,
+  "day_index": 16,
+  "completed": [
+    16
+  ],
+  "partial": [
+    17
+  ],
+  "next_card": 17,
+  "selected_continuity": "Fe55 Ferentz/Rosenzweig ANL5324 upstream F coefficients, signs, state roles and normalization",
+  "why": "FH59 I2/3 and empirical δ are still missing original coefficient/operator definitions; ANL public report may supply exact table object and calculation conventions",
+  "selected_novelty": null,
+  "other_candidates": [
+    {
+      "route": "FrenchNewton1952 E3 true namedcounter ratio",
+      "status": "reserve; FH review only currently, original response needed"
+    },
+    {
+      "route": "BR1953 original",
+      "status": "bounded access terminal; no repeat without new lawful route"
+    },
+    {
+      "route": "sameSU59/FH59toy or morePcode",
+      "status": "saturated printed input/algebra; no duplicate exercise"
+    }
+  ],
+  "decision": "continue original phase issue and response companion within uncredited Day17 only; no later card"
+}

@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-19T09:09:28.797689+08:00",
+  "discovery_basis": "Exact OpenAlex DOI location pmh:info:ark/67531/metadc1022386; new direct item route, not repeated search page",
+  "requests": [
+    {
+      "name": "untrecord",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc1022386/",
+      "final_url": "https://digital.library.unt.edu/ark:/67531/metadc1022386/",
+      "status": 502,
+      "bytes": 0,
+      "content_type": null
+    },
+    {
+      "name": "untmetadata",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc1022386/metadata.dc.xml",
+      "final_url": "https://digital.library.unt.edu/ark:/67531/metadc1022386/metadata.dc.xml",
+      "status": 502,
+      "bytes": 0,
+      "content_type": null
+    }
+  ]
+}

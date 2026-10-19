@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T09:13:06.406637+08:00",
+  "source": "Hamilton1948 PhysRev74,782–788",
+  "doi_metadata_Crossref": "10.1103/physrev.74.782; vol74issue7/1948;782-788",
+  "pdfphysicalpages": 7,
+  "covered": "pp782–787 full and p788 above Corben title only, all Hamilton footnotes including final magneticfield paragraph",
+  "excluded": "Corben title and following text on lower p788; its runningheader applies page, not Hamilton top paragraphs",
+  "original_visual": [
+    784,
+    785,
+    786,
+    788
+  ],
+  "transcription_guard": "Eq8b/12b/15 quadrupole Iphi has cos(2theta), not cos(theta)^2; Iθ contains sin(2theta)^2. This is verified by image and polarization-sum identity, not corrected source equation.",
+  "no_mixed_transition_delta_definition_recovered": true,
+  "actual_experiment_or_response_replayed": false
+}

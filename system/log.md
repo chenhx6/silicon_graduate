@@ -1970,3 +1970,8 @@ SU59完整12页原读补normal轴/四计数交换角色、固定效率取消与�
 ## 2026-10-19 — Day16 checkpoint035：历史字典与布居合同
 
 FH59原48页711–758完整重读/相关图表核，修末页metadata，Pplane与SU59normal、p-R-count Mobius及circularR的2分层；18κ精确重放，首漏minus1按原式修后0，input未改。E3原polyphysicality/pure-angle及同6.13不同Ep/referenceP边界已canonical，reviewtext/tableAp58数对不任选作primary。synthesis新增phase-axis-count-response-companion矩阵及self-audit。verification029实际53/53、required0、0errors182warnings，旧prefix/flags/raw/PLAN/Bib保持。同run科学pursuing至原15:00、formal16一次partial17；发布指针main / Reconcile DAY16 historical polarization dictionaries and preparation limits，actualhash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint036：光子role与rank条件
+
+Hamilton原782–788真正边界完整读，修scope不摄Corben；polcos(2θ)/Wcos²θ逐式核。16purecase符号重放actual0，8依roleweight/8不依，dependent等权null及sum/collinear/交换过；overallα不代Comptonresponse，QQrank4非必有的选律边界不作实际核赋值。Fe55仅核DOI/UNT正式item，body未得/readiness不补式。verification030实际54/54、required0、0errors182warnings；旧flags/raw/PLAN/Bib保持。同run科学pursuing至原15:00，formal16一次partial17；发布指针main / Validate DAY16 photon role cancellation and rank conditions，actualhash/push只receipt。

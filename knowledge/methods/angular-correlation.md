@@ -358,3 +358,10 @@ JT74-11是由原Fig.2路径出发的本任务推导，非新实验。对3→2的
 [[ucgretina-2024-geant4-11-source-replay]] UG24-19–27实际原生gamma-correlation/noPOL控制与[[co60-gate-role-response-benchmark]]保存各source/gate角色。当前Ni60文件的1173为E2/M3小混合，1332为E2；不是仅因Co60常作标定就把first/last或相位约定省略。
 
 源级cosθ只在两条能窗光子唯一存在时有效；缺失占位向量仍可产生有限数，需显式排除。detector角还依赖原矩阵单位/索引、interaction排序、门/能量处理与iso response；cosθ不是Comptonξ，corr/iso ratio及其finite-MC Cov不提供Q。actual小样本的空denominator与统计不足应保留，不能填平后唯一指定多极性。
+
+
+### 未区分两光子时的角色权重与rank4必要条件
+
+[[hamilton-1948-successive-quanta-polarization]] HAM48-7–12区分αBC(first作direction、second作polarization)与αAB(反向)。原16pure序列有8组P依权重、8组不依；dependent组在等权时相消成null。该overall效率合同不代现代完整φresponse。摘要的relativeparity可识别仍要求已知directionalcoefficients、合适nonzero项及已知哪个role被偏重。
+
+α4=0不普遍排纯QQ：allowed pureE2的2→1→2路径因中间J=1没有rank4，6j严格0；这只是必要条件推断，非实测能级。α2/α4是W的cos²θ/cos⁴θ系数，不能与原polarization式中的cos(2θ)混读。

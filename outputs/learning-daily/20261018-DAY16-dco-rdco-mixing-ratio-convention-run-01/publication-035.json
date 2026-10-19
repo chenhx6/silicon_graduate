@@ -1,0 +1,26 @@
+{
+  "publication_index": 35,
+  "at": "2026-10-19T09:06:26.456269+08:00",
+  "branch": "main",
+  "subject": "Reconcile DAY16 historical polarization dictionaries and preparation limits",
+  "commit": "249245777b510a5725a4c472fcb479f12985262d",
+  "origin_main": "249245777b510a5725a4c472fcb479f12985262d",
+  "status": "published",
+  "commands_actual_all_exit0": true,
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 744c3eb3        \nTo gitee.com:chx6/silicon_graduate.git\n   8a5bd1f..2492457  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "native_goal_status_observed": "blocked",
+  "scientific_work_status": "pursuing",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-19T09:06:52.438811+08:00",
+  "requests": [
+    {
+      "name": "inspire",
+      "url": "https://inspirehep.net/api/literature?q=reportnumber%3AANL-5324&size=2",
+      "status": 200,
+      "bytes": 762,
+      "total": 0,
+      "results": []
+    },
+    {
+      "name": "unt",
+      "url": "https://digital.library.unt.edu/dam/?next=%2Fsearch%2F%3Fq%3DANL-5324%26t%3Dfulltext",
+      "status": 200,
+      "bytes": 3688,
+      "links": []
+    }
+  ]
+}
