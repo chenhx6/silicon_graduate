@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/src/astro-ph/0312404v1",
+  "status": 200,
+  "bytes": 35593,
+  "sha256": "d756a890c05522a1bac364e65f27577dcb46aa650ea96c191bde7faff30df22d",
+  "type": "application/gzip",
+  "selected_tex": [
+    {
+      "name": "novaletter.tex",
+      "path": "tmp/day17-jenkins2004/source-novaletter.tex",
+      "sha256": "a5a8a2b46ef9f1e3cf3ee5e37bbea6dba09971feeb80fb27bae8c1534fc3016e",
+      "date_lines": [
+        "\\date{\\today}"
+      ]
+    }
+  ]
+}

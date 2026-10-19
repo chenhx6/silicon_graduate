@@ -1,0 +1,9 @@
+{
+  "command": "requests.get https://doi.org/10.17615/pbey-vw42",
+  "exit_code": 1,
+  "redirect_resource": "https://cdr.lib.unc.edu/concern/articles/vt150v00g",
+  "failure": "SSLEOFError UNEXPECTED_EOF_WHILE_READING",
+  "PDF_or_body_obtained": false,
+  "no_TLS_verification_disabled_or_configuration_changed": true,
+  "next": "independentlawfulHAL exactDOI discovery/OAprovider, notmetadataasbody"
+}

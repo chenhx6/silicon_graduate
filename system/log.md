@@ -2114,3 +2114,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint021 format-gate correction
 
 内容localcommit在确认cachedcheck失败前被启动；尚未push。失败为derivedCSV CRLF和公开卡注释尾空格，原runtimecard/ROOT/ASCII/52source不变，48tokens/64rows一致；仅analysis交付副本规范LF/尾空格。保原失败/版本/hash，不改历史，用follow-up修复。current/cumulative/requiredverification已复核，H3只在修复HEAD与显式文件门全通过后执行。稳定指针main / Normalize MODEL packet delivery without changing physics data；actualhash/push仅publication021receipt。
+
+
+## 2026-10-20 Day17 checkpoint022 — 独立23Mg fractional Doppler
+
+本session原读Jenkins2004四页/表图，区分新tau10(3)fs与adoptedomega1.8(.7)meV，冻结九Ep及共同Q-only控制、两通道Bp多根和声明阈值练习。canonical J04十四claims/K16第二十项、methods/ledger/index与report/prompt/handoff同步；verification036通过（0error/217warnings），旧review/继承修改不变。主线Day17正式学分只计一次，Day18仅partial；原15点研究截止不改。main / Audit independent Mg23 fractional Doppler and adopted strength inputs；具体hash/H3结果见publication022，后续继续2013详细文readiness，不从metadata补body。

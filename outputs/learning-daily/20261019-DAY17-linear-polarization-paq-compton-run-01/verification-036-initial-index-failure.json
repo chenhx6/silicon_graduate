@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_lint.py",
+    "--fail-on",
+    "error",
+    "--format",
+    "json"
+  ],
+  "exit_code": 1,
+  "errors": [
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "message": "not linked from knowledge/index.md"
+    }
+  ],
+  "fix": "addedJ04indexentry; oldreviewflagsunchanged"
+}

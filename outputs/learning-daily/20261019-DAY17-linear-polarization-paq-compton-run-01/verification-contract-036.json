@@ -1,0 +1,16 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 20,
+    "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md": 14
+  },
+  "artifacts": [
+    {
+      "file": "jenkins2004-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "Bp_roots_are_not_a_measurement_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

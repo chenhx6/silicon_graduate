@@ -1,0 +1,9 @@
+{
+  "url": "https://arxiv.org/pdf/astro-ph/0312404v1",
+  "status": 200,
+  "bytes": 154496,
+  "sha256": "d4c407ff4736dd9804498132fe526716726840ab818267a59793b203cfccbadd",
+  "is_pdf": true,
+  "path": "tmp/day17-jenkins2004/jenkins2004-arxiv-v1.pdf",
+  "body_read": false
+}

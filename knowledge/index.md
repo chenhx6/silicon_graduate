@@ -641,6 +641,7 @@ updated: 2026-10-20
 - [[bethge-1966-heavy-ion-stopping-charge-states]] - 厚靶反向散射与电荷态原实验；束流共同尺度、方法适用条件和阻止输入边界。
 - [[geant4-2026-ion-stopping-component-contract]] - SDK离子阻止的实际模型/表/API合同与首次范围建表诊断，非论文producer复现。
 - [[kirsebom-2016-23mg-dsam-lifetimes]] - 23Mg原13页DSAM方法、alpha出靶、混合靶与寿命上限边界。
+- [[jenkins-2004-23mg-fractional-doppler-rate]] - 独立融合蒸发的分数Doppler/七角与DCO；新寿命、旧强度及threshold/cov边界。
 - [[simdsam-2015-public-dsam-code]] - 原公开2015代码/响应表及原表达式组件；变量、时钟、束斑与exactjob限制。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。

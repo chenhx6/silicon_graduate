@@ -1,0 +1,186 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.87.064301",
+  "status": 200,
+  "sha256": "1d09487f9500378e9e4d68c130e03a5d8b38e3333e448f5cca85482d3e5826cf",
+  "title": "γ -ray spectroscopy of the A=23 , T=1/2 nuclei 23 Na and 23 Mg: High-spin states, mirror symmetry, and applications to nuclear astrophysical reaction rates",
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevc.87.064301",
+      "doi": "https://doi.org/10.1103/physrevc.87.064301",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physrevc.87.064301",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210168441",
+        "display_name": "Physical Review C",
+        "issn_l": "0556-2813",
+        "issn": [
+          "0556-2813",
+          "1089-490X",
+          "1538-4497",
+          "2469-9985",
+          "2469-9993",
+          "2470-0002"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:cdr.lib.unc.edu:vt150v00g",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.17615/pbey-vw42",
+      "pdf_url": "https://doi.org/10.17615/pbey-vw42",
+      "source": {
+        "id": "https://openalex.org/S4306401075",
+        "display_name": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I114027177",
+        "host_organization_name": "University of North Carolina at Chapel Hill",
+        "host_organization_lineage": [
+          "https://openalex.org/I114027177"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physical Review C - Nuclear Physics, 87(6)",
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/00fe6c0f-b3ec-4fe7-9790-1028b849487e",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://research.birmingham.ac.uk/en/publications/00fe6c0f-b3ec-4fe7-9790-1028b849487e",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402634",
+        "display_name": "University of Birmingham Research Portal (University of Birmingham)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I79619799",
+        "host_organization_name": "University of Birmingham",
+        "host_organization_lineage": [
+          "https://openalex.org/I79619799"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Jenkins, D G, Fulton, B R, Bouhelal, M, Courtin, S, Haas, F, Freer, M, Janssens, R V F, Khoo, T L, Lister, C J, Moore, E F, Truett, B, Wuosmaa, A H & Richter, W A 2013, 'γ-ray spectroscopy of the A=23, T=1/2 nuclei 23Na and 23Mg : High-spin states, mirror symmetry, and applications to nuclear astrophysical reaction rates', Physical Review C, vol. 87, no. 6. https://doi.org/10.1103/PhysRevC.87.064301",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:pure.atira.dk:publications/00fe6c0f-b3ec-4fe7-9790-1028b849487e",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://birmingham.elsevierpure.com/en/publications/00fe6c0f-b3ec-4fe7-9790-1028b849487e",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402634",
+        "display_name": "University of Birmingham Research Portal (University of Birmingham)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I79619799",
+        "host_organization_name": "University of Birmingham",
+        "host_organization_lineage": [
+          "https://openalex.org/I79619799"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Jenkins, D G, Fulton, B R, Bouhelal, M, Courtin, S, Haas, F, Freer, M, Janssens, R V F, Khoo, T L, Lister, C J, Moore, E F, Truett, B, Wuosmaa, A H & Richter, W A 2013, 'γ-ray spectroscopy of the A=23, T=1/2 nuclei 23Na and 23Mg : High-spin states, mirror symmetry, and applications to nuclear astrophysical reaction rates', Physical Review C, vol. 87, no. 6. https://doi.org/10.1103/PhysRevC.87.064301",
+      "raw_type": "article"
+    },
+    {
+      "id": "doi:10.17615/pbey-vw42",
+      "doi": "https://doi.org/10.17615/pbey-vw42",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.17615/pbey-vw42",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407051488",
+        "display_name": "UNC Libraries",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article-journal"
+    }
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.17615/pbey-vw42",
+    "any_repository_has_fulltext": true
+  }
+}

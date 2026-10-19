@@ -1,0 +1,98 @@
+{
+  "identity": "J04-PRINTED-ENERGY-THRESHOLD-STRENGTH-01",
+  "at": "2026-10-19T18:05:11.104999+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "question_sha256": "be06f4f7dc5f21125920aa6ab557f04e2529a384fd17c40bf9bf2055961723ef",
+  "source_pdf": "tmp/day17-jenkins2004/jenkins2004-arxiv-v1.pdf",
+  "source_sha256": "d4c407ff4736dd9804498132fe526716726840ab818267a59793b203cfccbadd",
+  "Qp_keV": 7579.6,
+  "Qp_sigma_keV": 1.4,
+  "lab_factor_massnumber": 1.0454545454545454,
+  "parents": [
+    {
+      "Ex": 7623.4,
+      "sigma_Ex": 0.9,
+      "Ep": 45.8,
+      "sigma_Ep": 1.6,
+      "observed": true
+    },
+    {
+      "Ex": 7646.9,
+      "sigma_Ex": 2.6,
+      "Ep": 70.4,
+      "sigma_Ep": 3.0,
+      "observed": true
+    },
+    {
+      "Ex": 7769.2,
+      "sigma_Ex": 1.0,
+      "Ep": 198.2,
+      "sigma_Ep": 1.9,
+      "observed": true
+    },
+    {
+      "Ex": 7779.9,
+      "sigma_Ex": 0.9,
+      "Ep": 209.4,
+      "sigma_Ep": 1.7,
+      "observed": true
+    },
+    {
+      "Ex": 7784.6,
+      "sigma_Ex": 1.1,
+      "Ep": 214.3,
+      "sigma_Ep": 1.8,
+      "observed": true
+    },
+    {
+      "Ex": 7801.0,
+      "sigma_Ex": 2.0,
+      "Ep": 231.5,
+      "sigma_Ep": 2.4,
+      "observed": false,
+      "Ex_role": "Endt notpresentobserved"
+    },
+    {
+      "Ex": 7851.5,
+      "sigma_Ex": 1.4,
+      "Ep": 284.3,
+      "sigma_Ep": 2.0,
+      "observed": true
+    },
+    {
+      "Ex": 8015.3,
+      "sigma_Ex": 1.7,
+      "Ep": 455.5,
+      "sigma_Ep": 2.3,
+      "observed": true
+    },
+    {
+      "Ex": 8159.7,
+      "sigma_Ex": 2.0,
+      "Ep": 606.5,
+      "sigma_Ep": 2.5,
+      "observed": true
+    }
+  ],
+  "tau_fs": 10,
+  "tau_quoted_scale_fs": 3,
+  "adopted_omega_gamma_meV": 1.8,
+  "J": 3.5,
+  "Jp": 0.5,
+  "Jtarget": 3,
+  "hbar_eV_s": 6.582119569e-16,
+  "branches_7769": [
+    {
+      "Eg_keV": 5054.8,
+      "percent": 58,
+      "quoted_scale": 8
+    },
+    {
+      "Eg_keV": 2316.9,
+      "percent": 42,
+      "quoted_scale": 7
+    }
+  ],
+  "ideal_threshold_keV": 3000,
+  "scope": "actualprintedinputs/conditionalNR/commonQ/2channel/designthreshold; no originalfit/Sigma/CI, nornewBp"
+}

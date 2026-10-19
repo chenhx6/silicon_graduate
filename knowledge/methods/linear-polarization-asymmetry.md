@@ -3,7 +3,7 @@ type: method
 title: 线偏振不对称分析
 aliases: [linear polarization asymmetry, polarization asymmetry, Delta asym]
 created: 2026-07-01
-updated: 2026-10-19
+updated: 2026-10-20
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -242,3 +242,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## spin1/2的linear与circular对象
 
 [[spinhalf-angular-nuisance-response-contract]]根据[[sun-2023-bayesian-dsam-31s]] SUN23-23/24的条件核与必要反例分开singles、γgate及frame：末态全求迹的parityconservingEM、Ji1/2核rest发射可强度各向同性/linearP0而circularV非0；这不是“光子完全无偏振”。下游γgate与boost会改变条件/lab观测，不能把该定理直接套任意experimentalA2或迁用polarimeterQ。
+
+
+## 与寿命companion结合仍需保留DCO合同
+
+[[jenkins-2004-23mg-fractional-doppler-rate]] J04-4/10给实际反例式使用门：all-axis gate比较90与32/37组，pureD约.9、pureQ约1.7，不能迁到另一array/gate或补未明分子分母。作者spin判断结合旧transferL、branch/mirror和angular诊断；“E2”这个EM标签本身不等于只允许DeltaJ2。没有matchingstretched/nonstretched响应与ρ，不能把裸比值/寿命变成唯一δ或Jπ，也不能假装此文测过linearP。

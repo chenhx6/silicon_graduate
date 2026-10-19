@@ -1,0 +1,119 @@
+{
+  "identity": "J04-PRINTED-ENERGY-THRESHOLD-STRENGTH-01",
+  "script_sha256": "e106f69ddc3bdb609e400dbf5d53b01f3bddcea8a5d337efa8804c5141c7ea97",
+  "contract_sha256": "a28c419618a7c89dd48f70277ba7f263475eefd3c318a0025fbabf2e3fe597eb",
+  "parent_rows": [
+    {
+      "Ex": 7623.4,
+      "sigma_Ex": 0.9,
+      "Ep": 45.8,
+      "sigma_Ep": 1.6,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 45.79090909090833,
+      "central_residual_keV": -0.009090909091668209,
+      "sigma_if_Ex_and_Q_independent": 1.7399831385142928
+    },
+    {
+      "Ex": 7646.9,
+      "sigma_Ex": 2.6,
+      "Ep": 70.4,
+      "sigma_Ep": 3.0,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 70.35909090909014,
+      "central_residual_keV": -0.04090909090986372,
+      "sigma_if_Ex_and_Q_independent": 3.0871902762306203
+    },
+    {
+      "Ex": 7769.2,
+      "sigma_Ex": 1.0,
+      "Ep": 198.2,
+      "sigma_Ep": 1.9,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 198.21818181818125,
+      "central_residual_keV": 0.018181818181261633,
+      "sigma_if_Ex_and_Q_independent": 1.79866801038164
+    },
+    {
+      "Ex": 7779.9,
+      "sigma_Ex": 0.9,
+      "Ep": 209.4,
+      "sigma_Ep": 1.7,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 209.4045454545447,
+      "central_residual_keV": 0.004545454544683025,
+      "sigma_if_Ex_and_Q_independent": 1.7399831385142928
+    },
+    {
+      "Ex": 7784.6,
+      "sigma_Ex": 1.1,
+      "Ep": 214.3,
+      "sigma_Ep": 1.8,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 214.3181818181818,
+      "central_residual_keV": 0.018181818181801646,
+      "sigma_if_Ex_and_Q_independent": 1.8613788988163256
+    },
+    {
+      "Ex": 7801.0,
+      "sigma_Ex": 2.0,
+      "Ep": 231.5,
+      "sigma_Ep": 2.4,
+      "observed": false,
+      "Ex_role": "Endt notpresentobserved",
+      "Ep_massnumber_NR_keV": 231.46363636363597,
+      "central_residual_keV": -0.03636363636402962,
+      "sigma_if_Ex_and_Q_independent": 2.5522798105625015
+    },
+    {
+      "Ex": 7851.5,
+      "sigma_Ex": 1.4,
+      "Ep": 284.3,
+      "sigma_Ep": 2.0,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 284.2590909090905,
+      "central_residual_keV": -0.04090909090950845,
+      "sigma_if_Ex_and_Q_independent": 2.069894395836984
+    },
+    {
+      "Ex": 8015.3,
+      "sigma_Ex": 1.7,
+      "Ep": 455.5,
+      "sigma_Ep": 2.3,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 455.5045454545452,
+      "central_residual_keV": 0.004545454545223038,
+      "sigma_if_Ex_and_Q_independent": 2.3023748070342753
+    },
+    {
+      "Ex": 8159.7,
+      "sigma_Ex": 2.0,
+      "Ep": 606.5,
+      "sigma_Ep": 2.5,
+      "observed": true,
+      "Ep_massnumber_NR_keV": 606.4681818181813,
+      "central_residual_keV": -0.031818181818721314,
+      "sigma_if_Ex_and_Q_independent": 2.5522798105625015
+    }
+  ],
+  "common_Q_only_covariance_component_keV2": 2.142231404958677,
+  "common_Q_scope": "f^2 sigmaQ^2 11^T if Q independent of Ex; notactualjointSigma",
+  "actual_sigma_Ep_closure_claimed": false,
+  "tau_width_conditional": {
+    "tau_fs": 10,
+    "total_width_meV": 65.82119568999998,
+    "local_scale_if_tau_scale_is_SD_meV": 19.746358706999995
+  },
+  "adopted_rate_plus_new_tau_conditional_Bp_roots": [
+    0.05039675780959724,
+    0.9496032421904028
+  ],
+  "Bp_roots_are_not_a_measurement_or_CI": true,
+  "threshold_inventory_design": {
+    "visible_fraction": 0.58,
+    "total_over_visible": 1.7241379310344829,
+    "not_original_efficiency_or_4meVlimit_replay": true
+  },
+  "strength_table_footnote_preserved": "omega_gamma1.8(.7) adoptedAngulo, notnewtauderivation",
+  "new_experimental_fit_or_95percent_interval": false,
+  "ok": true
+}

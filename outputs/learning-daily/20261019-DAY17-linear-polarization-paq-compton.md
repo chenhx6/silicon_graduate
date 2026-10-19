@@ -311,6 +311,16 @@ SD15-17–21/K16-18按[冻结设计](20261019-DAY17-linear-polarization-paq-comp
 
 K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNuclearMaterials96,51–56。当前[readiness](20261019-DAY17-linear-polarization-paq-compton-run-01/alexander1981-primary-readiness-boundary.json)只有metadata，OpenAlexclosed/NRC无结果/OAonly0body；题名含DSAM不作A的独立性/循环性事实推断。实际calibrator寿命/停止输入/误差/适用温度dose仍需body。公开refs/releases/DataCite exactDOI审计（SD15-22）只回同master/noassets/既有arxivpaper，没有新实验包；未声称所有合法路线穷尽或联系作者。canonical SD15/K16/method/auditledger已更新；`supports`producer格式readiness，`limits`MODEL到实验/物性的迁移，formal17once/18无学分/no19课程。
 
+### Day18无学分预习：独立Jenkins fractional-Doppler与混合来源TableI
+
+[J04 source](../../knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md) J04-1–14实际原读arxiv astro-ph/0312404v1四页/一表/一图两panel及两insets，全页视觉核；源码date-today解释PDF2018，不增实验/版本。[冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/jenkins2004-before-freeze.json)、[scope](20261019-DAY17-linear-polarization-paq-compton-run-01/jenkins2004-reading-scope.json)、[练习输入](20261019-DAY17-linear-polarization-paq-compton-run-01/jenkins2004-exercise-contract.json)与[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/jenkins2004-exercise-result.json)保持source与条件推导。
+
+22MeV12C/薄C/Gammasphere采集独立于K16，七角centroids→fractionalshift→modelτ，feedingdirect是假设。TableI τ10(3)为本次，omega_gamma1.8(.7)adoptedAngulo；其余表项也混新γ/旧direct/spectroscopicfactor输入（原s_l命名保留）与模型估计，不当九个新强度测量。附近态用不同branch-gates辨认，100列是观测/归一角色，非完整inventory已精确闭合。
+
+原Q7579.6(1.4)及23/22近似回算九Ep中心均.05keV内，独立quadrature名义errors不完全闭合；commonQ-only2.14223keV²外积是显式条件，不是actualΣ。τ10给总宽65.8212meV，固定J/adoptedomega/仅两通道有Bp互补根.05040/.94960，展示branchcompanion必要，不是新Bp/CI。实际58/42两γ在声明3MeV理想step下visible.58/totalfactor1.724，不能重放作者含energy/yield/response的保守4meV界或自行给CL。
+
+J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -418,7 +428,7 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "新增共享校准传播与reference独立验证门。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。",
+      "summary": "新增共享校准传播与reference独立验证门。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 补真实.9/1.7 sourcegate与spin/E2条件，不迁linearP。",
       "anchor": "同参考校准的计数与误差门",
       "sources": [
         {
@@ -448,6 +458,62 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-24"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-1"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-2"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-3"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-4"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-5"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-6"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-7"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-8"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-9"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-10"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-11"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-12"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-13"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-14"
         }
       ]
     },
@@ -520,7 +586,7 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。 索引23Mg原方法与公开代码页。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 索引描述纳入Mg/Au。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。 索引23Mg原方法与公开代码页。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 索引描述纳入Mg/Au。 索引新的独立fractional-Doppler source。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -874,6 +940,62 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-16"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-1"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-2"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-3"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-4"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-5"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-6"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-7"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-8"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-9"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-10"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-11"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-12"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-13"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-14"
         }
       ]
     },
@@ -1222,7 +1344,7 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。 补actual独立primary的混合输入/共享Q/阈值与Γ分支练习。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1680,12 +1802,68 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-22"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-1"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-2"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-3"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-4"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-5"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-6"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-7"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-8"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-9"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-10"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-11"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-12"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-13"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-14"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补mixture/energy/properclock/software与实际response的分层门。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补mixture/energy/properclock/software与实际response的分层门。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。 补centroid/model/feeding链、总τ到branch/强度的必要合同。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -2135,6 +2313,62 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-22"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-1"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-2"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-3"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-4"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-5"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-6"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-7"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-8"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-9"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-10"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-11"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-12"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-13"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-14"
         }
       ]
     },
@@ -2914,7 +3148,7 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
     },
     {
       "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
-      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
+      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。 补独立J04原source与K16转引/energy定义边界。",
       "anchor": "先传播粒子到探测器，再解释能量门",
       "sources": [
         {
@@ -3096,6 +3330,62 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-22"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-1"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-2"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-3"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-4"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-5"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-6"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-7"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-8"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-9"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-10"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-11"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-12"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-13"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-14"
         }
       ]
     },
@@ -3285,6 +3575,69 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
           "locator": "SD15-22"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "summary": "新增独立J04原件/真实TableI、fractional-Doppler与adopted强度/阈值/条件Σ分层。",
+      "anchor": "一张表中的新能谱、新寿命和旧强度不是同一类证据",
+      "sources": [
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-1"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-2"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-3"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-4"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-5"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-6"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-7"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-8"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-9"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-10"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-11"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-12"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-13"
+        },
+        {
+          "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+          "locator": "J04-14"
+        }
+      ]
     }
   ]
 }
@@ -3422,3 +3775,8 @@ Forster compiled真实十点/units与原reader两tablemode/strictreplay已canoni
 ### checkpoint021 Git门失败与补偿修复
 
 暂存check发现derivedMODEL CSV的CRLF与卡comment尾空格；在确认失败前已启动本地内容commit，是本session流程失误，尚未push。原runtime卡/ROOT/ASCII/52source均不改，只规范公开analysis副本行尾；48cardtokens/64CSV解析行逐项相同，初失败与原始卡文本/hash在publication-021-preflight-failure-and-correction.json保存。不重写历史，以 `Normalize MODEL packet delivery without changing physics data` 补偿提交，重跑current/cumulative/staged checks及H3通过后才推送。格式命令最后print变量名误用的exit1也保留，写入与hash复查独立确认。没有因此改变物理结果、needs_review或课程状态。
+
+
+### checkpoint022独立J04与input谱系验收
+
+J04四页/表图/源tex与真实TableI/条件ΓQthreshold练习canonical；不以newτ/adoptedω作两个新独立测量。旧K16_19rows/flags保持，新14J04/K16-20indexed true；verification036记录report/30changed32mapped/coverage/boundary/lint/diff/protected/exercise实际exit，0error217warnings，initialindex错误已修/留档。stablemain / `Audit independent Mg23 fractional Doppler and adopted strength inputs`，actualhash/H3/push仅publication022。021格式失误已非rewrite补偿、累计门0后actualpush，物理data/原runtime卡不改；本段commit增加guard避免失败门后提交。原window/goalactive、formal17once/18partial不变；下一J13actualbody/数据依赖桥继续，不从metadata补。

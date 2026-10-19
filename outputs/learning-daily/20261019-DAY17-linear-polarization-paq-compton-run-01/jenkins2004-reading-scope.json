@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T18:03:37.067697+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "PDF_sha256": "d4c407ff4736dd9804498132fe526716726840ab818267a59793b203cfccbadd",
+  "scope": "full4pages mainline/references; TableI andFig1ratepanels/twoinset spectra; all4pagesvisuallyinspected",
+  "numbered_equations": 0,
+  "version": "arxivastro-ph0312404v1 16Dec2003, journalmetadata2004; VoRnotobtained",
+  "actual_roles": [
+    "independentC12C12GammasphereacquisitionvsK16",
+    "all-axisgateDCO90vs32/37calibration",
+    "sevenanglefractionalDoppleranddirectfeedingassumption",
+    "TableIfootnotesnewgamma/tauvsadoptedomegagamma/modelGammap",
+    "ratebounds/hydrodynamicmodelnotdirectnovagammaobservation"
+  ],
+  "boundaries": [
+    "absoluteF/response/stopping/feeding/cov/errorconstructionnotgiveninLetter",
+    "finite-recoilprose vsK16secondarycorrectioncomment unresolvedenergydefinition",
+    "literalalpharesidual20NalabeldoesnotmatchsimpleA/Zconservation; no silentcorrection",
+    "2004vs2013datarelationnotyetcheckedin2013body"
+  ],
+  "source_tex_sha256": "a5a8a2b46ef9f1e3cf3ee5e37bbea6dba09971feeb80fb27bae8c1534fc3016e",
+  "PDF_date_boundary": "source novaletter.tex date-today verified; PDF2018 notnewexperiment",
+  "literal_alpha_label": "originalsource20Na retained; simplealphaevaporationA/Z controlwouldgiveA20Z10, notadoptedexperimentalassignment"
+}

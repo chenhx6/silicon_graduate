@@ -72,6 +72,7 @@ O. S. Kirsebom等，*Phys. Rev. C*93，025802(2016)，DOI [10.1103/PhysRevC.93.0
 | K16-17 | 实际IAEA Forster24Mg/Au十点使原about8.5MeV/µm可核：1.6MeV/u给8.4341；publicGEANT reader在1.6/2.0邻点与compiled值约2%内相容。defaultlabel与正文不同并不等已证数值冲突，actualjob/Cov与primary误差定义仍缺。 | actual-reference-companion-and-revision | direct-compilation-and-native | ISP26-14/15/16/17 | true |
 | K16-18 | 公开原eventmain已生成并严格重放有界64条MODEL联合alpha-gamma包，schema/条件proposal分母可核；没有取得本实验ROOTanal/experimentalhistograms/Cov或exactjob，模型流不能冒称原数据/置信区间。 | public-producer-data-readiness | native-companion-and-boundary | SD15-17/18/19/20/21 | true |
 | K16-19 | Ref29准确身份为Alexander等J.Nucl.Mater96,51–56(1981)，DOI10.1016/0022-3115(81)90217-8；实际只metadata/OA发现，primarybody未得。其题名提DSAM，不据此断言A独立性/循环校准或补原calibrator/误差语义。 | property-input-identity-and-readiness | metadata-only-companion | PDF13 Ref29；alexander1981-crossref-discovery/primary-readiness | true |
+| K16-20 | 新本session原读Jenkins2004四页，核其10(3)fs为七角fractional-Doppler加模型、feedingdirect假设；其Tableomega1.8(.7)adoptedAngulo而非新τ推出。原J04prose说finite-recoil已校，K16二级评论旧Ex似未校须定义/版本桥，不据此直接改数据。 | independent-primary-companion-and-revision | direct-original-companion | J04-3/5/7 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -120,3 +121,8 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 [[iaea-2026-stopping-s-au-o-ta-records]] ISP26-14–17补24Mg/Au十个真实编译点和原publictable reader对照。物理输入身份没有因此闭合成paperexactjob，但邻近recoil能量的数值并未显示label差异所暗示的必然冲突。Forster原件未读、quoted4%置信定义/Cov和24Mg到23Mg的速度/同位素/混合靶合同仍保持。
 
 公开MODEL packet及其限制见[[simdsam-2015-public-dsam-code]] SD15-17–21。Ref29植入物性原源的[当前readiness](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/alexander1981-primary-readiness-boundary.json)只核身份：OpenAlexclosed、NRC无结果、OAonly0正文；未读其方法/校准寿命/停止模型/共享Cov，仍不能认证A=.75(.25)是可独立迁移的Gaussian物性先验。
+
+
+## 独立融合蒸发primary：τ与旧强度分列
+
+[[jenkins-2004-23mg-fractional-doppler-rate]] J04-1–14实际原读，确认旧10(3)fs的具体centroid/model/feeding链，也确认omega1.8(.7)是adopted输入。这里的K16重测、J04原采集与对J04的转载须分别计证据。K16对旧energy recoil的解释还需与J04原文明确说已校正的prose匹配photon/levelgap语义，不能把二级评论直接升级成原source实验错误。

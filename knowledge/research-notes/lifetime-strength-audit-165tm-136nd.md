@@ -231,3 +231,12 @@ SD15-17–21/K16-18给64对实际原publiceventmain输出：dsamTree/EPART/EGAMM
 这个MODEL stream是条件反应/角域/相对效率的输出，64/6820不认实验absoluteefficiency，也不补原ROOTanal/experimentalROOT/Cov。原properclock/radial/默认输入问题和libUnuran Load警告保留，52源hash未改；sourcepacket说明接口能运行，不宣称物理/原τCI通过。
 
 K16-19另核A物性原源Alexander1981的准确DOI10.1016/0022-3115(81)90217-8及metadata，正文仍未得。题名含DSAM不能替原方法/校准寿命/共享停止数据的读取，A=.75(.25)独立性/置信语义/迁移到Sun仍是开放输入。
+
+
+## 23Mg独立fractional-Doppler：新τ与adoptedωγ不能混读
+
+[[jenkins-2004-23mg-fractional-doppler-rate]] J04-1–14四页主线/表图实际读：22MeV12C/薄C/Gammasphere采集独立于K16；七角centroid→fractionalshift→模型τ，feedingdirect为假设，原Σ/stopmodel配置不齐。τ10(3)fs与tableomega1.8(.7)meV分别是本次结果/Angulo adopted；附近新态靠不同branch gates识别，不只按energy合并。
+
+原Q7579.6(1.4)、质量数NR因子回算九Ep中心均.05keV内；独立quadrature名义误差未完整闭合，共同Q-only的2.14223keV²外积仅为条件模型。τ10给Γtotal65.8212meV而非已测Γgamma；固定adoptedω/J/两通道可得互补Bp根.0504/.9496，展示独立branch输入的必要，不是新Bp或CI。7769的58/42两γ在3MeV理想阈值下visible.58，但实际作者4meV保守界另含yield/energy/response，无此Letter明确CL。
+
+K16对旧Ex未校recoil的评论和J04原文说已校正同时保留，需actualenergy定义/详细文/原谱才能判；不以此改raw或ωγ。DCO约.9/1.7的gate合同、transfer/mirror/stretched条件和gamma threshold是必要companion，不替P/A/Q/δ。后续2013详细文是否同data尚未原读，不计新独立实验。

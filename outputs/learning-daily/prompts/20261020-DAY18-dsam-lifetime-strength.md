@@ -68,3 +68,8 @@ ISP26-14–17/K16-17/SD15-16实际Forster24Mg/Au十点/.2–3.2MeV/u/literal4与
 ### Day17 boundedMODELpacket/A-primary追加priming（无18学分）
 
 SD15-17–22/K16-18/19实际64MODEL联合事件入口/schema/6820proposal/strictreplay已核，原data/job/Cov未得；比例不是实验绝对效率，oldphysics/runtimewarning保留。A1981只metadata/原body未得，不由题名推A的独立/循环。原publicdata位置查refs/releases/DataCite仅同code/原paper，不等穷尽全部合法输入。正式18不以旧64事件或重放换学分。
+
+
+### Day17 independentJ04追加priming（无18学分）
+
+J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设、真实DCO.9/1.7gate、tau新结果与omegaadopted分列；共享Q/threshold/总Γ与Bp两根只条件练习。K16 recoil评论与J04原校正prose需定义桥，不修raw。Jenkins2013当前仅metadata/UNC TLS/OA/HAL失败，body未读，以后以actualsource/receipt更新为准。正式18新session声明priming，不用旧九点/程序checks换credit。

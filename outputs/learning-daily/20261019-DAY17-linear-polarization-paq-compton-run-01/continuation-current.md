@@ -1,19 +1,17 @@
-# Day17同session继续：checkpoint021之后
+# Day17同session继续：checkpoint022之后
 
-## Active handoff — DAY17 original window active; MODEL packet checkpoint021
+## Active handoff — DAY17 original window active; independent J04 checkpoint022
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–020actualH3/Giteepush；021本地内容提交后发现cachedcheck失败（derivedCSV CRLF/卡comment尾空格），尚未push；已normalize语义不变，保原runtimecard/52source，准备非rewrite follow-up修复及重检后一次H3；formal17仅007后一次/course next18/count17、partial18，不授18/研究19课程卡。原runner16:06中断不伪造normalexit。021稳定指针main / `Record bounded MODEL alpha gamma packet and producer readiness`，actualhash/push仅publication021/runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–021actualH3/Giteepush，021含非rewrite格式补偿提交/current+cumulative+staged门0后才push，初cachedcheck失误/原卡/物理不变已完整留档。formal17仅007后一次/course next18/count17、partial18，不授18/研究19课程卡。原runner16:06中断不伪造normalexit。022稳定指针main / `Audit independent Mg23 fractional Doppler and adopted strength inputs`，actualhash/push仅publication022/runreceipt。
 
-新原publiceventmain在独立tmp目录复制publicdata、显式MODEL卡只改64detected/array10000/输出路径，其余defaultphysics保留；三freshprocess执行/重编译0、52hash不变。dsamTree64rows EPART/EGAMMA Float_t/keV，ASCII另有observedangles；MODELCSV与ROOT校验最大舍入差.04961/.00490keV。freshgRandom TRandom3/4357，局部原seed1/2/3/4保持；只读RNG/bookkeeping诊断不改stream，ASCII逐字同、ROOTbranch逐值同，ROOTbinarymeta哈希不要求相等。
+新Jenkins2004 source实际原读arxivastro-ph0312404v1四页/一表/一图两个ratepanel+两insets，全页视觉核。rawPDF/tex/sourcehash与date-today核，2003v1/journal2004/PDF2018非新实验分开。22MeV12C/40µgcm−2C/Gammasphere采集独立于K16，七角centroids→fractionalshift→modelτ；feedingdirect是假设，stopmodel/原Σ未得。新tau10(3)与tableomega1.8(.7)adoptedAngulo分开，混合input表不是九个新强度测量。
 
-EQa每trial一次Fill，GetEntries/含underflowoverflow总和=6820、defaultIntegral5427；64detected。64/6820=.00938416仅截断角域/相对efficiency的条件proposal接受，非绝对实验效率；info1entry/积分15是τpayload非15events。6820<array10000/20k剪角阈，此case无wrap/prune，不外推其它job。原missingreturn、unusedZ14缺表与runtime libunuran.so.16 Load失败都留，源仅Load无UnuranAPI；exit0不认证全部依赖/物理/原CI，oldclock/radius/job问题不修。
+原Q7579.6(1.4)/NR23/22回算九Ep中心.05keV内，unobs7801仍Endt旧输入不填present。独立quotedscalequadrature不全闭合，Q-only2.14223keV²外积是条件非actualΣ。固定tau10给Γtotal65.8212meV；加固定J/adoptedomega/两通道有Bp互补根.05040/.94960，不是Bp测量/CI。原58/42γbranch在声明3MeVidealstep下visible.58/totalfactor1.724，不复现含yield/energy/response的作者4meV保守界/CL。
 
-A1981准确DOI10.1016/0022-3115(81)90217-8/J.Nucl.Mater96,51–56身份核，primarybody未得（OpenAlexclosed/NRC0/OAonly0）。题名含DSAM不拿来断言A独立/循环，原calibrator/stopping/Σ/domain仍缺。另publicdata有界查refs仅master/no tags，releasepage无assets，DataCiteexactrelatedDOI只回已有arxivpaper；没找到新原experimentalROOT/ROOTanal/Cov/job，不声称全球路线穷尽/联系作者。
+J04 calibrationprose明确说finite-recoil已校，与K16旧Ex似未校的二级解释需photon/gap定义/详细文匹配，不自动修raw。DCO all-axisgate比较90vs32/37，pureD.9/pureQ1.7，Letterratio顺序/response不齐；E2本身不只允许DeltaJ2，作者J判定含transfer/mirror/angular条件，不从裸ratio推δ/J。原s_l命名保留，不擅转C²S。v1α残核20Na标签守恒问题只作文字边界，不改23Mg数据。
 
-SD15-17–22/K16-18/19及method/auditledger已canonical，machinewriteback29changed31mapped，verification035以actualreceipt为准；report/coverage/boundary/lint/diff/protected/旧K16_17/SD15_16rowsflags、原52hash与strictpacket，0error215warnings(149key62raw4parser)。MODELpacket只关闭入口/格式/条件分母readiness，不能自拟合冒原τ/CI；本case已局部饱和，不加history填时段。
+Canonical新J04/K16/methods/auditledger/index，machinewriteback30changed32mapped；verification036以actualreceipt为准，report/coverage/boundary/lint/diff/protected/旧K16_19rowsflags/new14J04+K16_20true，0error217warnings(150key63raw4parser)。initialINDEX_MISSING已修/留档；Root/PLA/Bib保护，旧review状态保持，未重fit实验CI。commit增加guard，stage失败或文件集不合即不commit。
 
-下一选独立Jenkins2004 PRL92 031101/DOI10.1103/PhysRevLett.92.031101，K16Ref11转引C12(C12,n)23Mg τ10±3/J7/2已primed非盲测；beforefreeze/candidate已冻。exactmetadata/OpenAlex定位arxiv astro-ph/0312404v1(16Dec2003)；actualv1 PDF下载154496bytes/hash已核，四页主线/表/图含两insets已实际完整读，量化与canonical写回待做；source并非课程卡credit；Wiki查重无existing source。之后核独立实验DSAM/gates/feeding/stopping/误差与2004/2013same-data边界，不从metadata补science、不授18/no19。原窗口仍约13h，15点stop新研究并整日收束齐才goalcomplete。
+下一Jenkins2013详细文DOI10.1103/PhysRevC.87.064301 sourcebeforefreeze已冻，metadata exacttitle/A23NaMg/highspin/mirror明确、未读body。OpenAlex给UNC DOI10.17615/pbey-vw42→vt150v00g，requests TLS EOF/合法OAprovider fetchfailed无PDF；HALexactDOI0，不改TLS/credentials/不从metadata补science。OSTI与Birmingham新publicroute正在查，actualreceipts为准。需核明确same-data、DCO式、recoilenergy/σ/feeding/stopping与2004relation，不把2013再引用算独立实验。原window仍>12h，15点stop研究整日收束齐才goalcomplete。
 
 保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/oldlog；explicitindex，log只HEAD+ownentry。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
-
-格式修复稳定指针 main / `Normalize MODEL packet delivery without changing physics data`，原内容subject仍保留，actualhash/push只publication021receipt。

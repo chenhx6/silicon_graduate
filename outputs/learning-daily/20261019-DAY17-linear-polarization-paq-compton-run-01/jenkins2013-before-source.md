@@ -1,0 +1,5 @@
+# Jenkins2013详细文来源前回忆
+
+已本session原读J04四页/表图与K16/23Mg，J04Ref17 says full spectroscopytobereported，K16Ref12为Jenkins2013PRC87064301。exactmetadata已核title A23T1/2Na23Mg23 highspin/mirror/rates/authors2013；未读2013body。strongpriming非blind。待核明确same-data/新增数据边界、DCO分子分母/geometry/δ条件、fractionalDoppler/stopping/feeding/uncertainty、recoil correction/energy定义和23Mg778xnearbybranches，不从同作者/近能就判同一实验或新独立replication。
+
+这是exactDay18无学分DSAM/strength同issuecompanion，不开19卡。actualrawcentroids/Cov/producer未得时保持readiness，不重算原τCI/用更多toy强配。

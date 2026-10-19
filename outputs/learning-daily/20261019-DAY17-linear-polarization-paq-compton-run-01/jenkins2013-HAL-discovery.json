@@ -1,0 +1,15 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s%3A%2210.1103%2FPhysRevC.87.064301%22&fl=title_s%2Curi_s%2CfileMain_s%2Cdocid%2Cversion_i%2CproducedDate_s&wt=json",
+  "status": 200,
+  "bytes": 116,
+  "sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+  "json": {
+    "response": {
+      "numFound": 0,
+      "start": 0,
+      "maxScore": 0.0,
+      "numFoundExact": true,
+      "docs": []
+    }
+  }
+}

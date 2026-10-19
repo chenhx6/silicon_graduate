@@ -170,3 +170,10 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 [[simdsam-2015-public-dsam-code]] SD15-17–21实际从原eventmain生成64个MODEL已检测alpha-gamma对，并在新目录重放ASCII/ROOT Float32流；这为后续输入合同提供可检查接口，不提供原experimentalhistogram/fitCov或实际job。诊断TH2全bins计数能恢复6820次模型proposal，default积分仅5427；info积分15是τpayload，不是事件数。
 
 64/6820不是实验绝对效率：当前角提议域被截断、gamma效率逐能量归一，且反应channel已预设。旧clock/radius/输入物理问题及runtime libUnuran加载警告仍保留，不能以输出完整来宣称原实验τ/CI已验证。下一真实输入应是原analysis/data或对应材料/校准primary，不能靠更多模拟history代替。
+
+
+## Fractional Doppler与line-shape是不同观测链
+
+[[jenkins-2004-23mg-fractional-doppler-rate]] J04-1–14以七角centroids/最大位移构造fractionalshift，再经模型得到τ；高unboundfeeding直接为作者假设。它与K16alpha-tagged line-shape是不同采集/响应，不能以同叫DSAM互补缺少的stopping/feeding/Σ。J04表中τ10(3)与omega1.8(.7)分别是本次寿命和旧评价强度，不能算两项新独立结果。
+
+旧directgamma阈值漏掉2316.9keV分支的例子还说明：由总τ到Γgamma/强度需要particle/radiativebranch及实际ε/gate。理想3MeVstep下58%visible→1.724total/visible只是声明的inventory控制，不是原4meV上限或置信区间重放。共同Q、gamma校准及能量definition的Σ未得时，不强配quotederrors或按近能量合并母态。
