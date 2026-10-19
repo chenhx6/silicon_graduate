@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint036：ROOT统计API与inactive示例
+
+[[root-2026-chi2test-option-contract]] RCT26-1–13新联网双版本固定commit/blob；Chi2Test/Chi2TestX主线全读并native原表达式核。publicLL示例L42–141实际inactive，未认证paper调用；[[evasions-2023-public-release-native-readiness]] EV23-16补具体边界。
+
+
 ### checkpoint035：Ch6同数据三方法与失败companion
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-31–47，完整PDF105–126/printed102–123、17图9表4式文本/视觉核；同data组合、targetshift与BRfitdomain明确，spin未定。原ROOTstatistic/job/Σ缺口继续保。
@@ -145,6 +150,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint036：实际接口/原表达式native
+
+[程序](../../system/scripts/day17_root_chi2_ll_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-exercise-result.json)：LL=无LL；同designcounts错误buffer改变autoUU6.199134→UW8.783184，原manual6.410432少o0项6，positiveo/s0应∞但原finite；highendpoint排bin不同。明确声明design组件、低counts警告及inactivecaller，不外推实验τ/CI。
+
 
 ### checkpoint035：实际τ/Γ表与条件Cov
 
@@ -5409,6 +5419,180 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "F22-47"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/root-2026-chi2test-option-contract.md",
+      "anchor": "统计量由实际接口、误差状态与分析域共同定义",
+      "summary": "固定双ROOT/sourceblob/native与原表达式，建立实际统计API/zero/bin/errorstate边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-1"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-2"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-3"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-4"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-5"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-6"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-7"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-8"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-9"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-10"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-11"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-12"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "统计API与inactive示例的边界",
+      "summary": "保持旧inactive结论并补新实际API/原表达式。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-8"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-9"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-11"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "ROOT接口与inactive示例：不能由LL名字指定统计量",
+      "summary": "整合同数据寿命统计的API、inactivecallpath与原job缺口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-2"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-3"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-5"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-8"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-9"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-10"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-11"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "直方图比较的接口名不能替代统计合同",
+      "summary": "增加直方图统计合同使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-2"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-3"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-4"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-5"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-8"
+        },
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "ROOT统计API入口",
+      "summary": "新固定版本source入口索引。",
+      "sources": [
+        {
+          "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+          "locator": "RCT26-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "统计API与inactive示例的边界",
+      "summary": "新增EV23-16，旧rows/review保持。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-16"
+        }
+      ]
     }
   ]
 }
@@ -5615,3 +5799,11 @@ verification048核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint035同数据统计合同验收
 
 verification049核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与新实际artifact；通过后manifest035/commitguard/H3发布。formal17once/18partial/no19，原window继续，未重报实验CI。
+
+### checkpoint036实际API验收
+
+verification050核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及native/sourcehash；通过后manifest036/commitguard/H3。ROOT低count/forcedUUwarnings有意保，非coverage验证；原windowactive、formal17once/18partial/no19。
+
+050实际boundary/lint/diff均exit0；lint0errors/239warnings(4reactionparse/161citationkey/74rawmissing)，41changed/43mapped；旧claims/review/protected与native检查通过，warnings未清除。
+
+036cachedcheck因新stderr末端空行exit2，commitguard在commit前拒绝，未生成失败提交。保initialfailure与原tmpstderr，只规范交付文本EOF、warnings内容/科学源/结果不改，再通过cached门才提交。

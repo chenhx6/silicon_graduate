@@ -60,6 +60,7 @@ tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
 | EV23-13 | release extract_width分支空/“to be added”，旧CodeA fit段在blockcomment；因此公开release不含可直接调用的完整原τ/Eχ²grid与BR量化工作流。不能codeavailable就认原grid/Cov复现，也不据缺代码认论文实验错。 | inference-producer-readiness | direct-code | main.cpp extract_width；CodeA_gamma.C/CodeB_particle.C | true |
 | EV23-14 | 新脚本在fresh隔离copy复现missinglib→build成功、原noanalysisreturn1、loader/VAMOSsentinel及真实409303/7/7933query，全部hash保留；没有全MC/原fit或修公开源。 | reproducible-actual-audit | direct-native-and-public-data | exercise result/commands | true |
 | EV23-15 | 后续原读作者2022thesisChapter4，明确target/catcher实测19(1)mm支持public19000µm；EV23-10与Naturebacktoback字面对照不应升级成geometry错误。原loader/scalar/native阻点仍独立保持，未因此认证exactjob/修source或重报CI。 | new-primary-revision | direct-thesis-companion | F22-2/15 | true |
+| EV23-16 | 后续新ROOT固定双版本源码/native确认Chi2Test不消费LL；CodeA L42–141的LL/manual调用全在blockcomment，保EV23-13原结论，不能推paper实际调用；Tools.C原log_likelihood的o0/s0及FindBin端点边界已另组件核。 | actual-API-companion-and-boundary | direct-code-and-native | RCT26-2/8/9/11 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -84,3 +85,7 @@ L4当前可做真实publicderivedevent查询、独立物理变量/响应合同�
 ## 作者thesis反证：19mm不是已证几何故障
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-2/15原Chapter4明确实测19(1)mmgap，和public19000µm一致。因此EV23-10仍保“Natureback-to-back与input描述不同”的历史比较，但不能把它归为已证错误或与loader/scalar问题混加。新primary纠正了这一风险；不改原rows/review/source，也不因此认为完整paperjob已认证。
+
+## 统计API与inactive示例的边界
+
+[[root-2026-chi2test-option-contract]] RCT26-1–13固定6.24.06/6.40.04、原表达式native与原code34hash。LL本身静默忽略，自动UU/UW/WW依Sumw2状态；手写函数跳过o0/s0而且高端bin排除。整段示例inactive，原paperROOT/job未知，不能由当前组件推实验τ偏差或声称已经运行示例fit。

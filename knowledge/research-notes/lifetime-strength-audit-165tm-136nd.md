@@ -332,3 +332,11 @@ Eq5.5厚靶打印系数与图量级不闭合，Table5.2的7.785标签与only7.33
 [新实际输入练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-result.json)以11(+6,−4)、9.5(+4.5,−2)的声明对称化σ5/3.25，weighted9.9455；固定weights时ρ>.4623125则σ>min3.25，条件反证minσ通用保守性，actualρ/联合asymmetriclikelihood仍缺。Table6.4 τ9.5与Γ60中心打印不闭合，Table6.7 τ9.9/Γ66闭合量级，保原值不修CI。
 
 BR模板仅7.65–7.85MeV算χ²，7770有BR<.2%约束，Ex差门/pureAu背景/SPIDER100%intrinsic假设明确。thesis.68(.06)%与F23.68(.17)%是同实验版本差，非独立BR确认；另一alphaγ方法15(+16,−15)%不能当精密确认。TALYS截面不能定keyspin，源levelscheme的7/2标签不变实验J证据。ROOTmaximumlikelihood/LL接口与手写likelihood需新API核，原job/Σ未认证。
+
+### ROOT接口与inactive示例：不能由LL名字指定统计量
+
+[[root-2026-chi2test-option-contract]] RCT26-1–13新增固定ROOT6.24.06/6.40.04原函数全读及actualnative；LL不被Chi2Test消费，默认自动UU/UW/WW由Sumw2/有效entries决定。内部MLE共同bin概率不等fixedmodelPoissondeviance。Chisquare(TF1,L)是另一个接口。ndf为selectedbins−1再去jointempty，不自动扣τ/E0物理fit。
+
+同contents的声明组件从6.199134(UU)变8.783184(UW)，LL/无LL一致；Tools.C原表达式摘取原样编译，base6.410432对properdeviance12.410432，o>0/s0时原finite而proper∞；FindBin高端排除也改变domain。全为design组件，不是实验data/新CI。ROOT低counts/forcedUUwarnings原样留档。
+
+CodeA L42–141整段示例inactive，这是对grep候选的明确限制，也吻合旧EV23-13；不能说原paper跑了这些调用。源本身、实际job、Sumw2历史/模板Σ及fitmask仍需匹配，代码有用但不认证原实验统计。

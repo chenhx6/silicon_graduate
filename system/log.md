@@ -2182,3 +2182,7 @@ F22-16–30完整Ch5原读/22门与印刷式/污染交叉新artifact写回canoni
 ### Day17 checkpoint035：同data寿命与BR边界
 
 F22-31–47完整Ch6/实际表/条件Cov新artifact写回canonical。verification049/显式manifest035/commitguard/H3后发布，main / `Audit shared-data lifetime combination and proton-fit boundaries in thesis`，hash仅receipt。原windowactive、17once/partial18/no19，不新报CI或定spin。
+
+### Day17 checkpoint036：ROOT实际统计API
+
+RCT26-1–13/sourceblob/native与EV23-16/method/ledger/indexcanonical；LL未消费且示例inactive，原表达式边界非paperCI。verification050/manifest036/commitguard/H3后发布，main / `Pin ROOT histogram test semantics and inactive EVASIONS likelihood examples`。原window继续，17once/partial18/no19。

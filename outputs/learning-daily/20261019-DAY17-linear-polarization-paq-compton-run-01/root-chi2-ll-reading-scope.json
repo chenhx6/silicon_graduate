@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-19T21:39:27.611517+00:00",
+  "CodeA_sha256": "f46bcbebb86438885eb2d4d91b32dc429b8e61ae8434f3422d0c285f9a1e1ed9",
+  "CodeA_read_scope": "entire file plus Tools.C chi2_ndf_1D/log_likelihood function bodies",
+  "commented_demo_lines": [
+    42,
+    141
+  ],
+  "LL_calls_all_inside_block_comment": true,
+  "ROOT_read_scope": {
+    "v6-40-04": "TH1.cxx documentation/mainline lines1760–2551; Chi2Test/Chi2TestX complete; Chisquare L companion",
+    "v6-24-06": "same two function bodies through full diff; changes only residual indexes/doc at boundary; no LL parser"
+  },
+  "original_paper_job_not_identified": true
+}

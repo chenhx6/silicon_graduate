@@ -1,0 +1,188 @@
+{
+  "at": "2026-10-19T21:40:24.565389+00:00",
+  "ROOT_version": "6.40.04",
+  "ROOT_git_commit": "v6-40-04",
+  "script_sha256": "dd961e9e046f5ad799a14e6d43fe40481504cc40a45c03e93d600ddb4f710b0a",
+  "contract_sha256": "56f59e6ea0dd9137937627bf70e2ce551a7aceea2082961e8ad1437ae16226b4",
+  "source_checks": [
+    {
+      "tag": "v6-40-04",
+      "LL_not_consumed_in_test_functions": true
+    },
+    {
+      "tag": "v6-24-06",
+      "LL_not_consumed_in_test_functions": true
+    }
+  ],
+  "native_cases": [
+    {
+      "label": "base no stored errors",
+      "D": [
+        0,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        3,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "stored_model_variance_scale": null,
+      "options": {
+        "LL CHI2": 6.1991341991342,
+        "CHI2": 6.1991341991342,
+        "UU CHI2": 6.1991341991342,
+        "UW CHI2": 3.9462371918825,
+        "WW CHI2": 6.1991341991342,
+        "LL CHI2/NDF": 2.0663780663780664,
+        "CHI2/NDF": 2.0663780663780664
+      },
+      "inferred_ndf_without_physics_fit_subtraction": 3.0,
+      "Chi2TestX": {
+        "chi2": 6.1991341991342,
+        "ndf": 3,
+        "igood": 1,
+        "p_value": 0.10231377816806954
+      },
+      "original_manual_log_likelihood": 6.4104321235676975,
+      "manual_first_bin_inclusive": 1,
+      "manual_end_bin_exclusive": 7,
+      "proper_fixed_model_deviance_on_same_manual_bins": 12.410432123567697,
+      "boundary": "declared component fixture; not original spectrum or inferred paper statistic"
+    },
+    {
+      "label": "same contents stored MC variance",
+      "D": [
+        0,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        3,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "stored_model_variance_scale": 0.1,
+      "options": {
+        "LL CHI2": 8.78318395622072,
+        "CHI2": 8.78318395622072,
+        "UU CHI2": 6.1991341991342,
+        "UW CHI2": 8.78318395622072,
+        "WW CHI2": 36.54567358055729,
+        "LL CHI2/NDF": 2.9277279854069067,
+        "CHI2/NDF": 2.9277279854069067
+      },
+      "inferred_ndf_without_physics_fit_subtraction": 3.0,
+      "Chi2TestX": {
+        "chi2": 8.78318395622072,
+        "ndf": 3,
+        "igood": 1,
+        "p_value": 0.032316884992578794
+      },
+      "original_manual_log_likelihood": 6.4104321235676975,
+      "manual_first_bin_inclusive": 1,
+      "manual_end_bin_exclusive": 7,
+      "proper_fixed_model_deviance_on_same_manual_bins": 12.410432123567697,
+      "boundary": "declared component fixture; not original spectrum or inferred paper statistic"
+    },
+    {
+      "label": "positive data zero model",
+      "D": [
+        2,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        0,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "stored_model_variance_scale": null,
+      "options": {
+        "LL CHI2": 4.8327494007007195,
+        "CHI2": 4.8327494007007195,
+        "UU CHI2": 4.8327494007007195,
+        "UW CHI2": 4.375287699410004,
+        "WW CHI2": 4.982507601409796,
+        "LL CHI2/NDF": 1.6109164669002398,
+        "CHI2/NDF": 1.6109164669002398
+      },
+      "inferred_ndf_without_physics_fit_subtraction": 3.0,
+      "Chi2TestX": {
+        "chi2": 4.8327494007007195,
+        "ndf": 3,
+        "igood": 2,
+        "p_value": 0.18446178454543022
+      },
+      "original_manual_log_likelihood": 6.4104321235676975,
+      "manual_first_bin_inclusive": 1,
+      "manual_end_bin_exclusive": 7,
+      "proper_fixed_model_deviance_on_same_manual_bins": "infinity",
+      "boundary": "declared component fixture; not original spectrum or inferred paper statistic"
+    },
+    {
+      "label": "upper endpoint lies inside third bin",
+      "D": [
+        0,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        3,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "stored_model_variance_scale": null,
+      "options": {
+        "LL CHI2": 5.227891156462585,
+        "CHI2": 5.227891156462585,
+        "UU CHI2": 5.227891156462585,
+        "UW CHI2": 5.273074663866,
+        "WW CHI2": 5.555768656055988,
+        "LL CHI2/NDF": 2.6139455782312924,
+        "CHI2/NDF": 2.6139455782312924
+      },
+      "inferred_ndf_without_physics_fit_subtraction": 2.0,
+      "Chi2TestX": {
+        "chi2": 5.227891156462585,
+        "ndf": 2,
+        "igood": 1,
+        "p_value": 0.07324497909361755
+      },
+      "original_manual_log_likelihood": 3.068528194400547,
+      "manual_first_bin_inclusive": 1,
+      "manual_end_bin_exclusive": 3,
+      "proper_fixed_model_deviance_on_same_manual_bins": 9.068528194400546,
+      "boundary": "declared component fixture; not original spectrum or inferred paper statistic"
+    }
+  ],
+  "LL_is_ignored_in_test_not_likelihood_switch": true,
+  "manual_zero_bin_and_endpoint_boundaries_demonstrated": true,
+  "not_original_thesis_ROOT_binary_or_paper_job": true,
+  "no_new_experimental_tau_branch_or_CI": true,
+  "ok": true
+}

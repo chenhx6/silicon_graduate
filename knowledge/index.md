@@ -651,7 +651,8 @@ updated: 2026-10-20
 - [[evasions-2023-public-release-native-readiness]] - 原公开34文件/真实derivedevent/native边界，区分可读data与完整paperfit。
 - [[friedman-2020-gadget-al23-proton-branch]] - 新gas低p ratio、旧I866/γ馈入与两估计共享误差，强度仍依τ/J。
 - [[tamu-2006-2007-al23-gamma-reference-reports]] - 原三报告的2005/2006run谱系、γ相对比与未闭absolute馈入。
-- [[fougeres-2022-thesis-evasions-response-contract]] - 作者Ch4实际19mm/响应σ/SNR/benchmark域，修订publicgeometry疑点。
+- [[fougeres-2022-thesis-evasions-response-contract]] - 作者Ch4–6真实响应/重建、同data寿命组合/BRfitdomain；19mm修订与原统计合同。
+- [[root-2026-chi2test-option-contract]] - 固定双ROOT版本与native：LL未消费、自动权重/零bin/范围及inactiveproducer示例边界。
 - [[simdsam-2015-public-dsam-code]] - 原公开2015代码/响应表及原表达式组件；变量、时钟、束斑与exactjob限制。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。
@@ -754,3 +755,7 @@ updated: 2026-10-20
 本批次按 raw 目录建立 55-file 阅读台账；source 页记录实际阅读范围、SHA-256、关键 claims、P0/P1 和未完成边界。共享 thesis/journal lineage 不计为独立实验。
 
 - [[doppler-forward-inverse-convention-check]] - provisional：linear forward/exact inverse混用的counterfactual与source约2-keVcentroid问题；缺code不宣布来源错误。
+
+### ROOT统计API入口
+
+[[root-2026-chi2test-option-contract]]记录固定双版本/actualnative的接口与readiness，不冒原实验CI。

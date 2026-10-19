@@ -1,0 +1,40 @@
+{
+  "subject": "Pin ROOT histogram test semantics and inactive EVASIONS likelihood examples",
+  "verification_number": 50,
+  "paths": [
+    "knowledge/sources/root-2026-chi2test-option-contract.md",
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day17_root_chi2_ll_contract.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-035.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-035.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-050.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-050.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-036.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint036.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-before-source.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-before-source-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-native-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-native-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-source-manifest.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-exact-tag-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-expression-manifest.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-exercise-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-exercise-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-native-stderr.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-036-initial-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-036-preflight-correction.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/XLSX/ZIP/binaries/credentials/inheriteddirty/daemon;logHEAD+own036"
+}

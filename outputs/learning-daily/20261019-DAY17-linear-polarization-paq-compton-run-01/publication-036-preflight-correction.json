@@ -1,0 +1,8 @@
+{
+  "initial_cached_diff_exit": 2,
+  "commit_created_on_failure": false,
+  "guard_rejected_before_commit": true,
+  "change": "stderr delivery EOF blank lines normalized only; original native stderr retained under tmp",
+  "original_stderr_sha256": "0e4488a390c3dd60053f93b5b02d8167bc9064a48a862ae0ac2cb7dd94f37c1d",
+  "delivery_stderr_sha256": "e52c54f7635071a32c6d84a7464d57ec43f1448f672f1431ed8cad71052324a9"
+}

@@ -136,3 +136,7 @@ F22-16–30完整原读Ch5/15图3表11式，22行alpha门/Eq5.8与literalEq5.5�
 ### Day17 checkpoint035 priming：Ch6组合与BRfitdomain
 
 F22-31–47完整Ch6；同data三方法/minσpolicy、τ依赖DCLM坐标、17mm实际targetshift、BR7.65–7.85MeVfitdomain/7770prior与.68(.06)vsF23.68(.17)版本差。声明对称化Cov反证非新CI，9.5/60打印不闭合保原；TALYS未定J。正式18需独立session，不用旧checks换学分。
+
+### Day17 checkpoint036 priming：ROOT实际API
+
+RCT26-1–13固定6.24.06/6.40.04原TH1函数与native，LL未消费、errorstate自动换UU/UW/WW；原Tools手写似然漏o0/s0与highendpoint合同不同。CodeALL调用整段inactive，不能推paper调用/CI。组件自设counts/低countwarnings保留；正式18仍新session独立卡。

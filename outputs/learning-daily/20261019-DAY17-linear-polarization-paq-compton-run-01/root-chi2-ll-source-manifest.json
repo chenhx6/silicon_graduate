@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T21:35:45.988912+00:00",
+  "rows": [
+    {
+      "url": "https://raw.githubusercontent.com/root-project/root/v6-40-04/hist/hist/src/TH1.cxx",
+      "tag": "v6-40-04",
+      "path": "tmp/day17-root-chi2/v6-40-04-TH1.cxx",
+      "bytes": 391113,
+      "sha256": "5c354dc674055d4c246942af5e51b4a89be7f7edab03da7a063ccd6d4de2c79d",
+      "status_code": 200
+    },
+    {
+      "url": "https://raw.githubusercontent.com/root-project/root/v6-24-06/hist/hist/src/TH1.cxx",
+      "tag": "v6-24-06",
+      "path": "tmp/day17-root-chi2/v6-24-06-TH1.cxx",
+      "bytes": 366108,
+      "sha256": "88b7ee394a342f2ac7e4a576f99ef67797a9eb1766db91b72b64387c07d41091",
+      "status_code": 200
+    }
+  ],
+  "installed_version": "6.40.04",
+  "installed_git_commit": "v6-40-04",
+  "original_thesis_ROOT_version_unknown": true
+}

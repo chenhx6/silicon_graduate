@@ -1,0 +1,10 @@
+{
+  "source": "tmp/day17-fougeres2023/producer-source/src/functions/Tools.C",
+  "sha256": "77379e900f79da65b3f7045860e54afd372e4c8b27a921c4eaf96d6740694c0b",
+  "function": "log_likelihood",
+  "first_source_line": 65,
+  "last_source_line": 83,
+  "extracted_path": "tmp/day17-root-chi2/producer-log-likelihood-exact.ccfrag",
+  "extracted_normalized_line_endings_sha256": "9aa15b061250f261941973e56dd5bc475f8f0fb3ff88105618d5364c88541d54",
+  "body_literal_except_line_endings": true
+}

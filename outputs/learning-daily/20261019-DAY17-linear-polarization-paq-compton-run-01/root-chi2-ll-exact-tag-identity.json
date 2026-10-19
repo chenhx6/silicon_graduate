@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-19T21:40:03.378035+00:00",
+  "rows": [
+    {
+      "tag": "v6-40-04",
+      "resolved_commit": "1211eda93010f26710eafd527d1e66921bffdf8e",
+      "steps": [
+        {
+          "url": "https://api.github.com/repos/root-project/root/git/ref/tags/v6-40-04",
+          "object": {
+            "sha": "a1e95fd36ab56211d131ab989d576857b84161d8",
+            "type": "tag",
+            "url": "https://api.github.com/repos/root-project/root/git/tags/a1e95fd36ab56211d131ab989d576857b84161d8"
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/root-project/root/git/tags/a1e95fd36ab56211d131ab989d576857b84161d8",
+          "tagger": {
+            "name": "Danilo Piparo",
+            "email": "danilo.piparo@cern.ch",
+            "date": "2026-08-27T08:19:16Z"
+          },
+          "object": {
+            "sha": "1211eda93010f26710eafd527d1e66921bffdf8e",
+            "type": "commit",
+            "url": "https://api.github.com/repos/root-project/root/git/commits/1211eda93010f26710eafd527d1e66921bffdf8e"
+          }
+        }
+      ],
+      "file_blob": "d23135539e4190bb9e6bbaf81e8bc67b09e322bf",
+      "file_url": "https://api.github.com/repos/root-project/root/contents/hist/hist/src/TH1.cxx?ref=1211eda93010f26710eafd527d1e66921bffdf8e",
+      "computed_blob_matches_public": true
+    },
+    {
+      "tag": "v6-24-06",
+      "resolved_commit": "3b796f86a30e274053669931a24d77a3d36c8f18",
+      "steps": [
+        {
+          "url": "https://api.github.com/repos/root-project/root/git/ref/tags/v6-24-06",
+          "object": {
+            "sha": "d518697bebf3081a912017fc8f7df220131856b3",
+            "type": "tag",
+            "url": "https://api.github.com/repos/root-project/root/git/tags/d518697bebf3081a912017fc8f7df220131856b3"
+          }
+        },
+        {
+          "url": "https://api.github.com/repos/root-project/root/git/tags/d518697bebf3081a912017fc8f7df220131856b3",
+          "tagger": {
+            "name": "Axel Naumann",
+            "email": "Axel.Naumann@cern.ch",
+            "date": "2021-09-02T14:16:58Z"
+          },
+          "object": {
+            "sha": "3b796f86a30e274053669931a24d77a3d36c8f18",
+            "type": "commit",
+            "url": "https://api.github.com/repos/root-project/root/git/commits/3b796f86a30e274053669931a24d77a3d36c8f18"
+          }
+        }
+      ],
+      "file_blob": "803c7fafc57e52f0d91ecc6b6a57afb665af861d",
+      "file_url": "https://api.github.com/repos/root-project/root/contents/hist/hist/src/TH1.cxx?ref=3b796f86a30e274053669931a24d77a3d36c8f18",
+      "computed_blob_matches_public": true
+    }
+  ]
+}

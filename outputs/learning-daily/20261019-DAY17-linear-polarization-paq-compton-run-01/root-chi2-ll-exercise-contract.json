@@ -1,0 +1,103 @@
+{
+  "identity": "ROOT-CHI2-LL-NATIVE-01",
+  "fixtures": [
+    {
+      "label": "base no stored errors",
+      "D": [
+        0,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        3,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "manual_range": [
+        0,
+        6
+      ]
+    },
+    {
+      "label": "same contents stored MC variance",
+      "D": [
+        0,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        3,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "stored_model_variance_scale": 0.1,
+      "manual_range": [
+        0,
+        6
+      ]
+    },
+    {
+      "label": "positive data zero model",
+      "D": [
+        2,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        0,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "manual_range": [
+        0,
+        6
+      ]
+    },
+    {
+      "label": "upper endpoint lies inside third bin",
+      "D": [
+        0,
+        5,
+        20,
+        0,
+        7,
+        0
+      ],
+      "M": [
+        3,
+        10,
+        15,
+        0,
+        4,
+        0
+      ],
+      "manual_range": [
+        0,
+        2.5
+      ],
+      "axis_range": [
+        0,
+        2.5
+      ]
+    }
+  ],
+  "boundary": "self-declared histograms for exact API/expression component, not measured events or template error estimate"
+}

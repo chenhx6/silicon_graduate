@@ -201,3 +201,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 同作者primary也能修订代码审计的解释
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-2/10/11/12/13/15表明：genericpublicinput的19mm有实际装置依据，不能仅凭paper简写判geometry错；responseσ/FWHM/bin和SNR来源须明确，benchmark归一/fit窗口不可替论文其它case。source/code/实验结果逐项核而不把故障数量当证据权重。
+
+## 直方图比较的接口名不能替代统计合同
+
+[[root-2026-chi2test-option-contract]] RCT26-2/3/4/5/8/9：Chi2Test的LL静默未消费、自动UU/UW/WW依误差状态，属于两hist同质性比较；Chisquare(TF1,L)另有Poissonratio接口。matchingproducer必须记录范围/bin/normalizer、Sumw2与MCstats、零bin、自由参数与sharedCov。EVASIONS示例调用inactive，native组件不是原paperjob或τCI认证。

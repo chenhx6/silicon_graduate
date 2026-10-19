@@ -1,0 +1,26 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/root-2026-chi2test-option-contract.md": 13,
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 16
+  },
+  "artifacts": [
+    {
+      "file": "root-chi2-ll-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "LL_is_ignored_in_test_not_likelihood_switch",
+        "manual_zero_bin_and_endpoint_boundaries_demonstrated",
+        "not_original_thesis_ROOT_binary_or_paper_job",
+        "no_new_experimental_tau_branch_or_CI"
+      ]
+    },
+    {
+      "file": "root-chi2-ll-reading-scope.json",
+      "true_fields": [
+        "LL_calls_all_inside_block_comment",
+        "original_paper_job_not_identified"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

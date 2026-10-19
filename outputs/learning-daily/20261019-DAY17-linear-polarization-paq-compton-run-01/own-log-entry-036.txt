@@ -1,0 +1,4 @@
+
+### Day17 checkpoint036：ROOT实际统计API
+
+RCT26-1–13/sourceblob/native与EV23-16/method/ledger/indexcanonical；LL未消费且示例inactive，原表达式边界非paperCI。verification050/manifest036/commitguard/H3后发布，main / `Pin ROOT histogram test semantics and inactive EVASIONS likelihood examples`。原window继续，17once/partial18/no19。

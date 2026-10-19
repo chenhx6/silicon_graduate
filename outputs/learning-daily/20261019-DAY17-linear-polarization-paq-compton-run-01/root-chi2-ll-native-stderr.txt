@@ -1,0 +1,74 @@
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+TH1F::Chi2TestX:0: RuntimeWarning: Both histograms are not unweighted and option UU has been requested
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
+
+Info in <TH1F::Chi2TestX>: There is a bin in h1 with less than 1 event.
