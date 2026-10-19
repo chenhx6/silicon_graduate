@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T15:08:26.154049+08:00",
+  "stage048_first_actual_exit_code": 1,
+  "failed_before_staging": true,
+  "path": "outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md",
+  "reason": "baseline guard previously reconciled only published knowledge pages; already-published task-owned prompt also changed since033baseline",
+  "current_bytes_equal_actual_HEAD": true,
+  "current_sha256": "453839fa194cc204e507849381d2ec43d54e78c9887f608431780d092cd9dfdc",
+  "published_in": "publication-manifest-047.json",
+  "repair": "allow only this exact known prompt path when old-owned and currentbytes==HEAD; all other inherited protections unchanged",
+  "no_scientific_or_data_change": true
+}

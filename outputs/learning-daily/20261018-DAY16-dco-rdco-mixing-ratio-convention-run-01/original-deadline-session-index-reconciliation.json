@@ -1,0 +1,33 @@
+{
+  "event_path": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
+  "append_only": true,
+  "previous_bytes": 74269,
+  "previous_sha256": "b733d014ba9fb9fad0485248a844268cb939d5f364ca7e78a9f10f5e6ffbfebb",
+  "new_line_sha256": "9ed5b83ee9c0461e83ea499407f2fffeb8a49a342202cb024ca686bdf2d2302d",
+  "actual_event": {
+    "timestamp": "2026-10-19T15:06:04.939377+08:00",
+    "event": "manual-resumed-window-completed-after-original-deadline",
+    "schedule_id": "wiki-daily-learning",
+    "project_root": "/workspace/wiki",
+    "run_id": "2026-10-18-day-16-01",
+    "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+    "resume_command": "codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never",
+    "receipt": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json",
+    "research_stopped_at": "2026-10-19T15:00:44.038976+08:00",
+    "hard_deadline": "2026-10-19T15:00:00+08:00",
+    "publication_commit": "622b120d41629523b76765de2e468c9207e7860f",
+    "completion_mode": "same-session manual original-deadline reconciliation after actual H3/push; runner terminal exit not observed",
+    "completed_day_indices": [
+      16
+    ],
+    "partial_day_indices": [
+      17
+    ],
+    "next_day_index": 17,
+    "completed_day_count": 16,
+    "runner_exit_observed": false,
+    "new_session_or_schedule_started": false
+  },
+  "inherited_scheduler_state_not_modified": true,
+  "not_a_runner_terminal_or_queue_event": true
+}

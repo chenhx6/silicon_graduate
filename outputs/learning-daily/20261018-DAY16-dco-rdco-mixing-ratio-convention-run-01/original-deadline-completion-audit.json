@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-19T15:06:04.939377+08:00",
+  "run_id": "2026-10-18-day-16-01",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "status": "completed",
+  "research_stopped_at": "2026-10-19T15:00:44.038976+08:00",
+  "final_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-045.json",
+  "required_actual_exit_codes": {
+    "boundary": 0,
+    "diff": 0,
+    "lint": 0
+  },
+  "lint_warnings": 190,
+  "knowledge_writeback_items": 69,
+  "knowledge_changed_pages": 69,
+  "formal_completed_day_indices": [
+    16
+  ],
+  "uncredited_partial_day_indices": [
+    17
+  ],
+  "course_state_unchanged": true,
+  "content_publication": {
+    "publication_index": 47,
+    "at": "2026-10-19T15:06:04.939377+08:00",
+    "branch": "main",
+    "subject": "Close DAY16 at the original deadline with verified evidence boundaries",
+    "commit": "622b120d41629523b76765de2e468c9207e7860f",
+    "origin_main": "622b120d41629523b76765de2e468c9207e7860f",
+    "status": "published",
+    "commands_actual_all_exit0": true,
+    "push_observation": {
+      "cmd": [
+        "git",
+        "push",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 6c434ebb        \nTo gitee.com:chx6/silicon_graduate.git\n   ea5f2ca..622b120  HEAD -> main\n"
+    },
+    "manifest_matches_actual_commit": true,
+    "scientific_work_status": "completed after originaldeadline",
+    "research_deadline": "2026-10-19T15:00:00+08:00",
+    "credit_retained_once": "formal16/next17/count16,partial17"
+  },
+  "runner_exit_observed": false,
+  "scheduler_index_reconciliation": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-deadline-session-index-reconciliation.json",
+  "goal_completion": "not-yet-observed; native tool response is required, execution metadata only"
+}

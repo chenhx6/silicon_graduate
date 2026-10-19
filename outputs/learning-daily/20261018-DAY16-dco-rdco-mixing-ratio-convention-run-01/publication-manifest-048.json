@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T15:06:04.939377+08:00",
+  "subject": "Record DAY16 original-deadline completion and session index",
+  "paths": [
+    "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-047.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/h3-publication-047.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-deadline-session-index-reconciliation.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-deadline-completion-audit.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/task-log-entry-048.md",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/publication-manifest-048.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/completion-status-content-validation.json",
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/completion-staging-baseline-reconciliation.json"
+  ],
+  "required_verification": "verification-reopened-045.json",
+  "log_staging": "HEAD plus exact task-log-entry-048.md",
+  "excluded": "raw/PLAN/Bib/tmp/vendor/credentials/inherited dirty and full local scheduler log",
+  "scientific_work_status": "completed",
+  "credit": "formal16once/partial17"
+}

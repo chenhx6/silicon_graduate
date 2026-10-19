@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY16 original deadline closeout
+## Active handoff — DAY16 completed at original deadline; Day17 next
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，已到原2026-10-19 15:00上海研究硬截止，研究停止，15–16只收束。formal16一次、partial17、next17/count16；不重计、不正式17/不开18。原提前收束/用户恢复为历史，以本次原截止收束为最新。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5已完成原2026-10-19 15:00上海截止收束；内容047实际H3/Gitee push成功。formal16只计一次、partial17、next17/count16字节保持。13:30后仅既有问题，15点后无新研究。原早停/用户恢复为历史，以此原截止完成为最新。
 
-最后science046已actualGitee；末段12项强priming回证、原prefix视图两模型actual0、D66存在量词/MP80共享输入边界及D96完整积分解释已落canonical。69changed/69writeback；43门全部0/0errors190warnings，最终45门和实际发布见原runreceipt。旧205claim flags、reviewmetadata、raw/PLAN/Bib/冻结hash和继承dirty保持。末段整合没有新增source、模型扫描或学分。
+report/card/唯一writeback69changed/69items、boundary/lint/diff045实际0；0errors190warnings(137key50raw3parser)。205旧匹配claim flags及既有review元数据保持，435新增匹配claim均true；32新页unreviewed。末段12项回忆为强priming无分数，source/模型/producer/实验Σ边界未抹去。D66/C96历史输入视图actual0、结果一致；D66量词/独立性和D96完整trace/有限门推导已canonical。
 
-本次收束稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`，精确hash/H3/push只任务receipt。完成后只讨论Day16既有成果，不因旧continuation/farmer消息重开研究或授分。Day17prompt仅准备，新正式卡由既有runner另开session，先冻结承认Day16priming的主动回忆；不自行新建daemon/scheduler。
+内容稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`，完成回执main / `Record DAY16 original-deadline completion and session index`；实际hash/H3/push仅原runreceipt。原runner正常退出未观察，手动完成事件只作同session scheduler索引，不伪造queue/returncode。nativegoal最终结果见实际工具回执；早先blocked是历史。Farmer42019保留，无新daemon/session/调度。
 
-原runner正常退出未观察，采用同session手动reconciliation；不伪造clock队列/returncode，不调用会重计的runnerfinalizer。nativegoal收束结果只据实际工具返回，早先blocked为历史；Farmer42019保留。保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/log；QMD与overview统计刷新仍deferred，不写外部cache。
+完成后只讨论既有Day16成果或定向处理缺口，不因旧continuation/farmer消息自动重开研究/重授学分。新正式17由既有runner独立session先冻结承认priming的回忆；准备入口outputs/learning-daily/prompts/20261019-DAY17-linear-polarization-paq-compton.md。不要自行启动17或打开18。主要canonical为knowledge/research-notes/w178-921-dco-gate-double-solutions.md和knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md；原producer/匹配response/Σ缺口依然开放。
 
-Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。主入口knowledge/research-notes/w178-921-dco-gate-double-solutions.md；综合knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md；日报outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md。
+保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/log；QMD和overview刷新deferred。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 
