@@ -380,3 +380,6 @@ Rh99新增priming入口：knowledge/sources/nndc-2017-99rh-matched-reference-rec
 
 
 D66三线AD的新增priming：knowledge/research-notes/199tl-three-ad-reference-feasibility.md。sharedparent/freeq与额外lowm条件的8/3只是找到的网格witness，不是完整允许数或源19→5重现；centralA4必要失配不排quoted-error对象，当前无新Jπ/δ。
+
+
+GR97新增priming：knowledge/research-notes/gr97-stokes-response-and-merit.md。原Eq13漏撇号假设已否决，Eq3/11/13均Eprime/E²；不要把初假设当sourceerratum。九项TableQ/M/派生ε同一模拟，60/150/60与50keV不同response，sqrtdegree不代signedP，实际GCOMPOL/Σ仍缺。正式17仍须新session逐卡，不用本preview授分。

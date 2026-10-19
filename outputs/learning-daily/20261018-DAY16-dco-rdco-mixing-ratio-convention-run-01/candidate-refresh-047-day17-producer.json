@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T12:30:37.567692+08:00",
+  "minutes_to_original_deadline": 149.3738718,
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "selected": "sameDay17preview GR97 modifiedproducer/readiness, exactpublicGeant3 metadata/tree",
+  "information_gain": "check actualcallpath andversion ratherthan inferfullMCfrompaper/ownmatrix",
+  "bounded_scope": "one official/publicvmc-projectgeant3 repository metadata/tree and matchingfunctionfiles only",
+  "no_day18": true
+}

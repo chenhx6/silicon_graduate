@@ -220,3 +220,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 同母态参考还需阶次混合与条件布居
 
 [[nndc-2017-99rh-matched-reference-records]] N099-2/7/13列实际Rh99同母态weakΔJ0与strongerΔJ1支路。pure极限的AD比例可消去未知u2，但保证符号所需的纯度条件不同；a4=0/EM标签/理论CC均不能独立验证pure。原u2≤0仍额外未测条件，实际分辨需samegate/feeding/response及共同Σ。
+
+
+## 非负偏振度不替相对物理平面的signedP
+
+[[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-14的sqrt(P1²+P2²)/P0是degree幅度；source/反应平面上的signed分量、photon参考轴、Compton散射平面与detectorcount角色须同时携带。[[gr97-stokes-response-and-merit]]的点核与TableI只核相应合同，不把M=εQ²当符号校准或未知阵列的实验Q。

@@ -131,3 +131,8 @@ P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若
 ### 实际三线AD中的条件存在与实验排除
 
 [[199tl-three-ad-reference-feasibility]]针对[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2保存freeq至少8个、额外lowm找到3个源probable序列的witness；不宣称完整8/3或复现原19→5。共同上态rank4负比例使精确中央数不闭合，但误差box仍有解；这把“prior/companion影响选择”的判断落在实际输入上，未新增核赋值。
+
+
+### 从Stokes输运到实际校准的对象合同
+
+[[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-5–14与[[gr97-stokes-response-and-merit]]把线性Stokes的reference/degree、不同threshold和absolute/activeΩ归一分开。正确normalizedP与PSD不独立认证能量权重；Q/M/派生ε也不是三组独立证据。原Eq13的误读已按原图纠正，不虚构sourceerratum；实际modifiedproducer/Σ缺口保持。

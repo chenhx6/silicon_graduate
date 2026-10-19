@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T12:17:14.186286+08:00",
+  "actual_exit_code": 1,
+  "session_id": 39203,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/garciaraffi1997-first-audit-script.py",
+  "script_sha256": "7bdbaf55062767ff8a79c8a600c5e3b08916a820233a8fb9df11502403315fc3",
+  "failure": "SymPy structuralmatrix equality at Jones identity; needs expandedalgebra comparison, notphysical model change",
+  "concurrent_source_correction": "high-resolutionoriginalcrop shows Eq13 Eprime/E sameasEq11; initialinverse-prefactorreading rejected, not attributed as source typo",
+  "source_and_TableI_inputs_unchanged": true
+}

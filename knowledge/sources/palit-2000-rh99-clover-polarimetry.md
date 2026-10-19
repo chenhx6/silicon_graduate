@@ -107,3 +107,8 @@ Garg2015引用本method并不把这里的a≈1或C/D继承为其真实15clover�
 ### 同母态参考的后续记录
 
 [[nndc-2017-99rh-matched-reference-records]] N099-2/7/13给另一采集版本的同母态支路与条件纯度设计。其2014DCO/IPDCO不移作本paper的P/a2/Q；未测u2条件继续保留。[[99rh]]为对应核素入口。
+
+
+### KN前因子的跨源对照
+
+[[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-7的原Eq3/11/13一致使用(Eprime/E)²，高分辨复核否决本run先前漏撇号的猜测。它与本页P00-10的原Eq5字面分列；固定角归一的cancel、有限角权重和实际code是否使用相同式子仍是三件事，不能据印刷式宣布实验数据错。

@@ -116,3 +116,26 @@ The reported agreement is conditional on known detector geometry, thresholds, so
 
 - L3 question: can a common response-simulation protocol reconcile `Q`, efficiency and merit rankings across historical Ge(Li), CLUSTER and CLOVER designs using identical thresholds and angular windows? Required counter-checks are multiple-scatter propagation, background and geometry sensitivity.
 - No L4 run is started: the PDF contains no code or machine-readable raw spectra; it is a method-validation source only.
+
+
+## 2026-10-19 Day17无学分预习：原件与响应合同续核
+
+本session重读原7页461–467、Eq1–16、3图/TableI/29refs，Crossref核题名/六作者/391/461–467/1997。旧source完整前缀及GR97-2/4的needs_review=false保留；本节是新self-audit，新增claims均true，未发生本日人审。[[gr97-stokes-response-and-merit]]给完整数据/条件/计算。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GR97-5 | TableI九项Q/M是source计算，统一距源25cm、每晶体50keV、对称ε=εparallel+εperp；不是九次新实验。M/Q²推回ε仍是同一计算的派生量。 | simulation-and-normalization | direct-table-and-arithmetic | p465 TableI/Eq7 | true |
+| GR97-6 | 验证五coax用60keV与70°–110°角窗，四coax150keV、CLOVER60keV；TableI改50keV且未重申同角窗。不同样本的Q/efficiency不能裸合并。 | response-object-boundary | direct-original | pp463–465 validation/TableI | true |
+| GR97-7 | 原Eq3/11/13均为(Eprime/E)²前因子；Eq11乘Eq12与Eq13分量、Eq14/15相合。本run先漏读Eq13撇号的假设已由高分辨原图否决，不当source勘误；P00-10的反向字面属于另一paper。 | equation-and-reinspection | direct-plus-algebra | pp462/466 Eqs3/11–15 | true |
+| GR97-8 | 原GCOMPOL/POLAR/GDROT3跟踪primary Compton链的偏振；brems/annihilation secondary photons被假定unpolarized并调用原GCOMP。此近似不等于所有光子通道完整偏振输运。 | transport-model-domain | direct-original | p463 firstcolumn/codeparagraphs | true |
+| GR97-9 | 几何敏感性并非永远几percent：五coax scatterer长度+5mm给Q降7%，四coax长度+5mm降9%；其它±5mm/±3mm测试有其局部样本条件。 | geometry-counter-control | direct-original | p464 firstcolumn | true |
+| GR97-10 | 本run以原TableI推ε和未知Cov(M,Q)局部误差范围；absoluteε比不能与正文active-solid-angle归一的50%/4倍比较，M也不是独立于Q的校准。 | derived-statistics-and-object-boundary | printed-input-calculation | TableI；p464 active-solid-angleparagraph | true |
+| GR97-11 | 按印刷中央数/理想独立count/no背景/已知Q条件，M比与有限P时间修正仍偏好紧凑配置；不把此条件设计移作新阵列推荐、实际曝光或误差预算。 | conditional-count-design | Codex-analysis | Eq7/TableI；gr97-stokes-response-and-merit | true |
+| GR97-12 | Fig1/2/3图注给Refs24/25/27，而相应正文给22/23/25；保留两者，不静默改号。正文对应von_der_Werth/Bass/Jones的历史数据，本文不增三套独立核结构测量。 | citation-lineage-boundary | direct-original | pp463–465 Figs1–3；pp466–467 refs | true |
+| GR97-13 | 五coax Eq6拟合在.3–1.8MeV给a=.79(.17)、b=.0780(.0011)MeV^-1，Cov未给；不同于TableI50keV样本，4MeV也非该fit域。不能调Cov或外推强闭合TableQ。 | calibration-domain | direct-plus-arithmetic | p463 Eq6；p465 TableI | true |
+| GR97-14 | Eq9是非负偏振度，线性Stokes分量与参考轴仍带方向/符号；P=A/Q的核实验signedP不能裸换为sqrt(P1²+P2²)/P0。T的正性、2φ旋转与条件出射态混合由本run核验，未重放全GEANT3/原40%MC差。 | magnitude-versus-signed-polarization | original-and-Codex-control | pp465–466 Eqs8–15；p464 Fig2 | true |
+
+原fourcoax1.4/2.1MeV点与quotedband的例外及作者“by only30%”字面保持，不从图补完整z。约10%是作者针对所测几何的估计，非其它阵列或Table4MeV的通用σ。当前缺原修改版producer、事件histograms/材料response与fullCov，L4experimentalreplay仍not-ready；不授正式Day17学分。
+
+
+前因子跨源比较另见[[palit-2000-rh99-clover-polarimetry]] P00-10；GR97已高分辨核正确，不能把本session被否决的猜测传给后续引用。

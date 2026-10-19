@@ -2005,3 +2005,8 @@ D66原3p/2fig及C96原19p/Eq1–9/7fig主线重读，旧humanprefix保持；新C
 ## 2026-10-19 — Day16 checkpoint042：实际三线AD的共同母态条件
 
 D66 actual三线AD/sharedparent sourcebox 5845LP actual0，freeq至少8/额外lowm找到源3probable的strictq witness，不作完整spin数/原19→5或新δ。独立rank4比例/未知Cov界与全部11witness重构actual0，centralA4失配不排带误差对象。C96原producer限定缺口/YA67旧例重叠canonical，不新计旧counter或49checks。verification036实际66/66、required0、0errors188warnings，原prefix/raw/PLAN/Bib保持。原15:00仍科学pursuing/formal16一次partial17；下一GR97无学分preview已冻回忆只读前三页。稳定指针main / Test DAY16 shared-parent angular distributions against population assumptions，hash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint043：Stokes输运与实际响应比较
+
+GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov、不同阈值/anglewindow、理想merit-time合同canonical。GR97 Eq13漏撇号误读被高分辨原图否决，Eq3/11/13均正确；v1/firstactual1 retained，v2输运/PSD/2φ/混合核actual0，未改原Table/geometry。P00另一literal边界、source40%/10%和secondary近似/refs不一致不移作新实测或producer认证。verification037实际68/68、required0、0errors188warnings，原prefix/GR97false/raw/PLAN/Bib保持。科学原15:00仍pursuing，formal16一次partial17；稳定指针main / Audit DAY16 Compton Stokes transport and matched response comparisons，hash/push只receipt。

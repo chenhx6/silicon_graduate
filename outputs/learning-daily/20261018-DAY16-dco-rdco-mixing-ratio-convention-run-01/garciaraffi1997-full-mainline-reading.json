@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-19T12:21:17.632984+08:00",
+  "full_mainline_pages": "461–467 sevenpages",
+  "visual_figures": [
+    1,
+    2,
+    3
+  ],
+  "table": "TableI all9Q/M rows, includingclover4MeV4.2(8)e-7",
+  "equations": "1–16, Eq11/12/13 sameprefactor Eprime/E confirmedbyhighresolution; firstinversehypothesisrejected",
+  "references": "29refsreadbutnoupstreamfullbodyclaims",
+  "calibrationcaption_vs_body_references": {
+    "Fig1": [
+      24,
+      22
+    ],
+    "Fig2": [
+      25,
+      23
+    ],
+    "Fig3": [
+      27,
+      25
+    ]
+  },
+  "body_lineage": "von_der_Werth1995/Bass1979/Jones1995; bodyandcaptionsretained, no silentrenumbering",
+  "code_data_scope": "nooriginalGCOMPOL/POLAR/GDROT3runfiles, nohistograms/eventresponse/fullCov; ownpointalgebraonly"
+}

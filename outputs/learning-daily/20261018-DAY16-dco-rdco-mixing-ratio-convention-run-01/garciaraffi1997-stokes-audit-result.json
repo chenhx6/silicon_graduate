@@ -1,0 +1,1270 @@
+{
+  "at": "2026-10-19T12:18:28.601594+08:00",
+  "script_sha256": "b17733c984449783d0c285bb91644c664e8f0a1d24a88a9f2277b67d2588200f",
+  "contract_sha256": "8485ad3391310f7a8d725aea03e94d51db2da0c4b1503cb496132000fc43f7e0",
+  "raw_and_old_prefix_unchanged": true,
+  "symbolic_controls": {
+    "T_times_rotation_components_match": true,
+    "positive_map_Jones_plus_unpolarized_term": true,
+    "Eq14_linear_degree_identity": true,
+    "Eq13_prefactor_same_r_squared_as_Eq11_high_resolution_confirmed": true,
+    "initial_Eq13_inverse_reading_rejected_not_source_erratum": true,
+    "general_numerical_positivity_does_not_detect_positive_scalar_error": true
+  },
+  "TableI_derived_rows": [
+    {
+      "E_MeV": 0.5,
+      "geometry": "5coax",
+      "Q": 0.516,
+      "sigma_Q": 0.005,
+      "M": 7.4e-06,
+      "sigma_M": 2e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 2.7792800913406648e-05,
+      "sigma_epsilon_PSD_range": [
+        2.1253660870298398e-07,
+        1.2897769541838616e-06
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 0.5,
+      "geometry": "4coax",
+      "Q": 0.286,
+      "sigma_Q": 0.005,
+      "M": 2.3e-05,
+      "sigma_M": 1e-06,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 0.00028118734412440716,
+      "sigma_epsilon_PSD_range": [
+        2.3938113820259665e-06,
+        2.205726202009639e-05
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 0.5,
+      "geometry": "clover",
+      "Q": 0.209,
+      "sigma_Q": 0.005,
+      "M": 3.1e-05,
+      "sigma_M": 1e-06,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 0.0007096907122089697,
+      "sigma_epsilon_PSD_range": [
+        1.1063244626193233e-05,
+        5.684974218806224e-05
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 1.5,
+      "geometry": "5coax",
+      "Q": 0.263,
+      "sigma_Q": 0.008,
+      "M": 1e-06,
+      "sigma_M": 1e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 1.4457343607685522e-05,
+      "sigma_epsilon_PSD_range": [
+        5.662001488941477e-07,
+        2.3252685726429564e-06
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 1.5,
+      "geometry": "4coax",
+      "Q": 0.155,
+      "sigma_Q": 0.007,
+      "M": 3.9e-06,
+      "sigma_M": 4e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 0.00016233090530697188,
+      "sigma_epsilon_PSD_range": [
+        1.987177335436874e-06,
+        3.1311469907018894e-05
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 1.5,
+      "geometry": "clover",
+      "Q": 0.101,
+      "sigma_Q": 0.006,
+      "M": 5.1e-06,
+      "sigma_M": 6e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 0.0004999509851975296,
+      "sigma_epsilon_PSD_range": [
+        5.823540887565953e-07,
+        0.00011821788001758708
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 4.0,
+      "geometry": "5coax",
+      "Q": 0.088,
+      "sigma_Q": 0.006,
+      "M": 4.9e-08,
+      "sigma_M": 7e-09,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 6.327479338842976e-06,
+      "sigma_epsilon_PSD_range": [
+        4.1087528174304967e-08,
+        1.7667637114951167e-06
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 4.0,
+      "geometry": "4coax",
+      "Q": 0.068,
+      "sigma_Q": 0.005,
+      "M": 3.4e-07,
+      "sigma_M": 5e-08,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 7.352941176470586e-05,
+      "sigma_epsilon_PSD_range": [
+        0.0,
+        2.1626297577854667e-05
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    },
+    {
+      "E_MeV": 4.0,
+      "geometry": "clover",
+      "Q": 0.04,
+      "sigma_Q": 0.004,
+      "M": 4.2e-07,
+      "sigma_M": 8e-08,
+      "kind": "sourcecalculatedTableI,notindependentexperiment",
+      "inferred_epsilon": 0.0002625,
+      "sigma_epsilon_PSD_range": [
+        2.499999999999993e-06,
+        0.00010249999999999998
+      ],
+      "epsilon_is_algebraic_derived_not_independent_MC_measurement": true
+    }
+  ],
+  "ideal_count_time_ratio_bounds": [
+    {
+      "E_MeV": 0.5,
+      "comparison": "5coax time / 4coax time",
+      "at_P0": 3.108108108108108,
+      "at_absP1": 2.483713505577928,
+      "monotone_decreasing_in_Psquared": true,
+      "valid_only_fixed_flux_ideal_independent_counts_symmetric_no_background_no_calibrationerror": true,
+      "absolute_epsilon_ratio": 10.117272634755155
+    },
+    {
+      "E_MeV": 0.5,
+      "comparison": "5coax time / clover time",
+      "at_P0": 4.1891891891891895,
+      "at_absP1": 3.2141915327756037,
+      "monotone_decreasing_in_Psquared": true,
+      "valid_only_fixed_flux_ideal_independent_counts_symmetric_no_background_no_calibrationerror": true,
+      "absolute_epsilon_ratio": 25.53505544187992
+    },
+    {
+      "E_MeV": 1.5,
+      "comparison": "5coax time / 4coax time",
+      "at_P0": 3.9,
+      "at_absP1": 3.7196043956043954,
+      "monotone_decreasing_in_Psquared": true,
+      "valid_only_fixed_flux_ideal_independent_counts_symmetric_no_background_no_calibrationerror": true,
+      "absolute_epsilon_ratio": 11.22826638917794
+    },
+    {
+      "E_MeV": 1.5,
+      "comparison": "5coax time / clover time",
+      "at_P0": 5.1000000000000005,
+      "at_absP1": 4.796163766582913,
+      "monotone_decreasing_in_Psquared": true,
+      "valid_only_fixed_flux_ideal_independent_counts_symmetric_no_background_no_calibrationerror": true,
+      "absolute_epsilon_ratio": 34.58110969512793
+    },
+    {
+      "E_MeV": 4.0,
+      "comparison": "5coax time / 4coax time",
+      "at_P0": 6.9387755102040805,
+      "at_absP1": 6.917025960695315,
+      "monotone_decreasing_in_Psquared": true,
+      "valid_only_fixed_flux_ideal_independent_counts_symmetric_no_background_no_calibrationerror": true,
+      "absolute_epsilon_ratio": 11.620648259303717
+    },
+    {
+      "E_MeV": 4.0,
+      "comparison": "5coax time / clover time",
+      "at_P0": 8.571428571428571,
+      "at_absP1": 8.518681318681319,
+      "monotone_decreasing_in_Psquared": true,
+      "valid_only_fixed_flux_ideal_independent_counts_symmetric_no_background_no_calibrationerror": true,
+      "absolute_epsilon_ratio": 41.48571428571428
+    }
+  ],
+  "max_binary_eigenmixture_density_error": 3.3306690738754696e-16,
+  "max_degree_formula_error": 2.220446049250313e-16,
+  "max_reference_rotation_error": 2.5920855775097204e-16,
+  "literal_prefactor_controls": [
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 90,
+      "deliberate_inverse_prefactor_over_correct_intensity": 15.322258577083357,
+      "P00_10_style_counterfactual_not_GR97_Eq13": true,
+      "normalized_polarization_cannot_detect_common_factor": true
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 90,
+      "deliberate_inverse_prefactor_over_correct_intensity": 239.86525518509245,
+      "P00_10_style_counterfactual_not_GR97_Eq13": true,
+      "normalized_polarization_cannot_detect_common_factor": true
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 90,
+      "deliberate_inverse_prefactor_over_correct_intensity": 6073.106163345742,
+      "P00_10_style_counterfactual_not_GR97_Eq13": true,
+      "normalized_polarization_cannot_detect_common_factor": true
+    }
+  ],
+  "unpolarized_two_scatter_point_controls": [
+    {
+      "initial_E_MeV": 0.5,
+      "E_after_first90_MeV": 0.2527198223103991,
+      "induced_first_linear_degree": 0.6738929390776741,
+      "conditional_second90_orthogonal_asymmetry": 0.5791182454043994,
+      "if_polarization_reset_second_asymmetry": 0.0,
+      "point_control_not_GR97_40percent_or_detector_Q_reproduction": true
+    },
+    {
+      "initial_E_MeV": 1.5,
+      "E_after_first90_MeV": 0.3811530707164218,
+      "induced_first_linear_degree": 0.3135259330315433,
+      "conditional_second90_orthogonal_asymmetry": 0.2377593661588266,
+      "if_polarization_reset_second_asymmetry": 0.0,
+      "point_control_not_GR97_40percent_or_detector_Q_reproduction": true
+    },
+    {
+      "initial_E_MeV": 4.0,
+      "E_after_first90_MeV": 0.4531137831455271,
+      "induced_first_linear_degree": 0.12592740528340485,
+      "conditional_second90_orthogonal_asymmetry": 0.08888523976737076,
+      "if_polarization_reset_second_asymmetry": 0.0,
+      "point_control_not_GR97_40percent_or_detector_Q_reproduction": true
+    }
+  ],
+  "fivecoax_calibration_object_checks": [
+    {
+      "E_MeV": 0.5,
+      "Q0_point90": 0.6738929390776739,
+      "Qfit60keV70to110": 0.5586572464953917,
+      "calibration_sigma_PSD_range": [
+        0.11419115852671184,
+        0.11493244075969729
+      ],
+      "TableI_Q50keV": 0.516,
+      "different_threshold_and_unspecified_TableIwindow_not_a_closure_test": true
+    },
+    {
+      "E_MeV": 1.5,
+      "Q0_point90": 0.3135259330315433,
+      "Qfit60keV70to110": 0.2843680212596098,
+      "calibration_sigma_PSD_range": [
+        0.05278209082586032,
+        0.05381672640486441
+      ],
+      "TableI_Q50keV": 0.263,
+      "different_threshold_and_unspecified_TableIwindow_not_a_closure_test": true
+    }
+  ],
+  "point_matrix_checks": [
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 0,
+      "phi_deg": 0,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 0,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 0,
+      "phi_deg": 45,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 0,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 0,
+      "phi_deg": 135,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 30,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.75,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 30,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.7866116523516815,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 30,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.875,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 30,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 30,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.875,
+      "linear_degree": 1.0000000000000002
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 70,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.1169777784405111,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 70,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.24629338881869323,
+      "linear_degree": 0.9999999999999998
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 70,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.5584888892202555,
+      "linear_degree": 0.9999999999999998
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 70,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 70,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.5584888892202556,
+      "linear_degree": 0.9999999999999998
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 90,
+      "phi_deg": 0,
+      "zero_intensity_Thomson_node_degree_undefined": true
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 90,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.1464466094067262,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 90,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.49999999999999994,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 90,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 90,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.5000000000000001,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 110,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.116977778440511,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 110,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.24629338881869312,
+      "linear_degree": 0.9999999999999999
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 110,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.5584888892202555,
+      "linear_degree": 0.9999999999999998
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 110,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 110,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.5584888892202556,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 150,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.75,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 150,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.7866116523516815,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 150,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.875,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 150,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 150,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.875,
+      "linear_degree": 1.0000000000000002
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 180,
+      "phi_deg": 0,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 180,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 180,
+      "phi_deg": 45,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 180,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.0,
+      "theta_deg": 180,
+      "phi_deg": 135,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 0,
+      "phi_deg": 0,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 0,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 0,
+      "phi_deg": 45,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 0,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 0,
+      "phi_deg": 135,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 30,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.5921653656978728,
+      "linear_degree": 0.9899728060583669
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 30,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.6207823809109377,
+      "linear_degree": 0.9904350426978008
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 30,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.6898699671529565,
+      "linear_degree": 0.9913929330887162
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 30,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.7875745686080401,
+      "linear_degree": 0.992460705050615
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 30,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.6898699671529565,
+      "linear_degree": 0.9913929330887162
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 70,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.0899497821404378,
+      "linear_degree": 0.48127820754292394
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 70,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.13780660881133777,
+      "linear_degree": 0.6614174557702881
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 70,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.253343208812363,
+      "linear_degree": 0.8158272627802349
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 70,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.4167366354842882,
+      "linear_degree": 0.8880374120005331
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 70,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.25334320881236305,
+      "linear_degree": 0.8158272627802348
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 90,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.061812727467817685,
+      "linear_degree": 0.0
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 90,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.09922533064675172,
+      "linear_degree": 0.3770468985598567
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 90,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.18954734464501705,
+      "linear_degree": 0.6738929390776741
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 90,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.3172819618222164,
+      "linear_degree": 0.8051804549088946
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 90,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.18954734464501707,
+      "linear_degree": 0.6738929390776741
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 110,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.09152295987392466,
+      "linear_degree": 0.23887557492338896
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 110,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.11569144261477354,
+      "linear_degree": 0.3978780224281241
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 110,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.174039321429711,
+      "linear_degree": 0.5997435542548684
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 110,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.25655568298549736,
+      "linear_degree": 0.7284785922310346
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 110,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.17403932142971104,
+      "linear_degree": 0.5997435542548684
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 150,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.16778782641563736,
+      "linear_degree": 0.5597568740127159
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 150,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.17237260060038034,
+      "linear_degree": 0.5714664804815331
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 150,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.18344122461760493,
+      "linear_degree": 0.5973236803351404
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 150,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.1990946228195725,
+      "linear_degree": 0.6289832635471344
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 150,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.18344122461760493,
+      "linear_degree": 0.5973236803351404
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 180,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.1884322427727968,
+      "linear_degree": 0.606954971678428
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 180,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.1884322427727968,
+      "linear_degree": 0.606954971678428
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 180,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.1884322427727968,
+      "linear_degree": 0.606954971678428
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 180,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.1884322427727968,
+      "linear_degree": 0.606954971678428
+    },
+    {
+      "E_MeV": 0.5,
+      "theta_deg": 180,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.1884322427727968,
+      "linear_degree": 0.606954971678428
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 0,
+      "phi_deg": 0,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 0,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 0,
+      "phi_deg": 45,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 0,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 0,
+      "phi_deg": 135,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 30,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.4149495460780105,
+      "linear_degree": 0.9310945105897744
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 30,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.4338097822381455,
+      "linear_degree": 0.934090233268737
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 30,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.4793424201655028,
+      "linear_degree": 0.9403509884579294
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 30,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.5437352942529952,
+      "linear_degree": 0.9474150347508021
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 30,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.4793424201655028,
+      "linear_degree": 0.9403509884579294
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 70,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.08765643292102557,
+      "linear_degree": 0.15529379141281674
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 70,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.10270466468926717,
+      "linear_degree": 0.2790596869673243
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 70,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.13903430991388974,
+      "linear_degree": 0.4674412872847354
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 70,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.1904121869067539,
+      "linear_degree": 0.6111386864788436
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 70,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.13903430991388974,
+      "linear_degree": 0.46744128728473544
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 90,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.07068658468768721,
+      "linear_degree": 0.0
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 90,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.08014232745001688,
+      "linear_degree": 0.1179868748911371
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 90,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.10297050986914445,
+      "linear_degree": 0.3135259330315433
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 90,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.1352544350506017,
+      "linear_degree": 0.477380651797172
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 90,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.10297050986914445,
+      "linear_degree": 0.31352593303154336
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 110,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.06918300416159014,
+      "linear_degree": 0.0693035099482941
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 110,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.07448332588846057,
+      "linear_degree": 0.13553297497957245
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 110,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.08727943448641196,
+      "linear_degree": 0.2622731858505709
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 110,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.10537586481123377,
+      "linear_degree": 0.3889646432817672
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 110,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.08727943448641196,
+      "linear_degree": 0.26227318585057097
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 150,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.07307075420282255,
+      "linear_degree": 0.24462000883461713
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 150,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.07394331085518686,
+      "linear_degree": 0.25353375409069684
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 150,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.07604984895926364,
+      "linear_degree": 0.27421044986240567
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 150,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.07902894371570474,
+      "linear_degree": 0.3015699936122607
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 150,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.07604984895926364,
+      "linear_degree": 0.27421044986240567
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 180,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.07431264258605229,
+      "linear_degree": 0.28504663013011855
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 180,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.07431264258605229,
+      "linear_degree": 0.28504663013011855
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 180,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.07431264258605229,
+      "linear_degree": 0.28504663013011855
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 180,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.07431264258605229,
+      "linear_degree": 0.28504663013011855
+    },
+    {
+      "E_MeV": 1.5,
+      "theta_deg": 180,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.07431264258605229,
+      "linear_degree": 0.28504663013011855
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 0,
+      "phi_deg": 0,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 0,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 0,
+      "phi_deg": 45,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 0,
+      "phi_deg": 90,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 0,
+      "phi_deg": 135,
+      "intensity_without_re2": 1.0,
+      "linear_degree": 1.0
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 30,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.24263736055847537,
+      "linear_degree": 0.7364366902045701
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 30,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.2513600649951528,
+      "linear_degree": 0.7455828720045404
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 30,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.27241853634675145,
+      "linear_degree": 0.7652498002286493
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 30,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.3021997121350275,
+      "linear_degree": 0.7883839617946266
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 30,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.27241853634675145,
+      "linear_degree": 0.7652498002286494
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 70,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.06010027883016954,
+      "linear_degree": 0.05145181427573482
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 70,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.06351869366842826,
+      "linear_degree": 0.10250026955111326
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 70,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.07177147713276992,
+      "linear_degree": 0.20570102883042568
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 70,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.0834426754353703,
+      "linear_degree": 0.3168003045391952
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 70,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.07177147713276992,
+      "linear_degree": 0.20570102883042574
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 90,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.044534011477259834,
+      "linear_degree": 0.0
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 90,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.04641321528881918,
+      "linear_degree": 0.040488550510139644
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 90,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.05095001461714895,
+      "linear_degree": 0.12592740528340485
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 90,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.05736601775703807,
+      "linear_degree": 0.22368654442993668
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 90,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.05095001461714895,
+      "linear_degree": 0.12592740528340485
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 110,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.037116387143927766,
+      "linear_degree": 0.023809979384084932
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 110,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.03809333706047454,
+      "linear_degree": 0.048845558641961224
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 110,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.040451902798761014,
+      "linear_degree": 0.10430303089898428
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 110,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.04378741845359426,
+      "linear_degree": 0.17253293272773415
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 110,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.040451902798761014,
+      "linear_degree": 0.1043030308989843
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 150,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.031142297900672387,
+      "linear_degree": 0.09887313115556126
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 150,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.03129260760101611,
+      "linear_degree": 0.1032015690842461
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 150,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.031655487318142175,
+      "linear_degree": 0.11348193399094263
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 150,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.03216867673561197,
+      "linear_degree": 0.12762462607650124
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 150,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.031655487318142175,
+      "linear_degree": 0.11348193399094263
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 180,
+      "phi_deg": 0,
+      "intensity_without_re2": 0.030128131407230432,
+      "linear_degree": 0.11964835849378132
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 180,
+      "phi_deg": 22.5,
+      "intensity_without_re2": 0.030128131407230432,
+      "linear_degree": 0.11964835849378132
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 180,
+      "phi_deg": 45,
+      "intensity_without_re2": 0.030128131407230432,
+      "linear_degree": 0.11964835849378132
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 180,
+      "phi_deg": 90,
+      "intensity_without_re2": 0.030128131407230432,
+      "linear_degree": 0.11964835849378132
+    },
+    {
+      "E_MeV": 4.0,
+      "theta_deg": 180,
+      "phi_deg": 135,
+      "intensity_without_re2": 0.030128131407230432,
+      "linear_degree": 0.11964835849378132
+    }
+  ],
+  "scope": {
+    "no_original_GCOMPOL_execution_or_full_detector_MC": true,
+    "not_new_experimental_Q_delta_or_parity": true,
+    "no_total_10percent_budget_or_FOM_recommendation_for_userarray": true,
+    "Day17_preview_uncredited": true
+  }
+}

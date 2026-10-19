@@ -8,17 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且无active写法，objective保留，不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且无active写法，objective保留不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
 
-042 verification036实际report/card/唯一writeback66changed/66items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)。旧raw/PLAN/Bib/人审prefix与新旧脚本hash保持。新knowledge/research-notes/199tl-three-ad-reference-feasibility.md保存D66实际三线331/370/701、共享上态/独立中态：5845LP actual0，freeq至少8严格正q网格序列、额外lowm找到源3probable；不证明完整8/3或复现原19→5，nativeδ不当实验δ。全11witness重新核重构0差/box残差1.6e−15；strict指q，observables可在box边。
+043 verification037实际report/card/唯一writeback68changed/68items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)。原raw/PLAN/Bib、GR97完整旧prefix/旧GR97-2/4false及D66/C96/Pr135/L25/L26等prefix和helpers过。新knowledge/research-notes/gr97-stokes-response-and-merit.md与GR97-5–14：原7页461–467/Eq1–16/3fig/TableI/29refs完整主线/Crossref；partial17无学分。
 
-postgrid exact6j rank4 ratio−8/3、−16/39、−8/7；central同负A4失配仅排精确均值/model，不排quotederrors。条件性把quotederror当σ时，残差/最大PSDσ在2/3…3/4，不当实际z/CI。原response、Cov、sourcephase和作者5候选名单未恢复。D66source全文保持合同输入hash，不因新case回链而改写。
+务必保留纠正：GR97 Eq3/11/13全部正确Eprime/E²；本run初漏撇号的Eq13inverse假设已由高分辨原图否决，v1/firstactual1 snapshot保留但不是sourceerratum。首次Jones结构等式1改为展开代数比较后v2 actual0，原Table/geometry/errors不改。P00 p349 Eq5的另一literal inverse是真的且旧P00-10保持；固定角normalizedP/PSD不能认证finiteangleweight，未判actualcode错。
 
-C96 Ref8 DOI10.1016/0375-9474(93)90015-P身份已核，原body/AVALANCHEproducer/input未得：APIstandard200metadata/FULL401、publisher403、authorSSL失败、限定repo/Zenodo0或无关结果拒收；不改凭据或SSL。C96-D16-8/9与transfernote已写readiness和YA67重叠：原YA67p3/7定向再核、YA67页verifiedno-op，负U旧例不算Day16新发现/旧49checks不计新credit。本日新贡献是C96literal对照、rank2全域和原Fig1新replay。
+GR97九表格Q/M推绝对ε与Cov未知误差界；Table50keV/d25cm不同于validation60/150/60keV及fivecoax70–110窗，不补Table未知角窗或外推fit到4MeV。Merit/time比较仅idealcount中央设计非array推荐。Jones+非负unpol项保证linearStokes正性，2φ/原Eq14/15与纯态混合闭合；两90点核不假充源40%MC。degree非负不代signedP，M平方不校符号。源码对brems/annihilsecondary无偏振近似与历史dataset/图注refs不一致保持，未得actualmodifiedproducer/response/Σ。
 
-本批稳定指针main / `Test DAY16 shared-parent angular distributions against population assumptions`，actualhash/H3/push仅publication042/runreceipt。041已actualGitee main / `Audit DAY16 signed orientation transfer and source Gaussian limits`。
+本批稳定指针main / `Audit DAY16 Compton Stokes transport and matched response comparisons`，actualhash/H3/push仅publication043/runreceipt。042已actualGitee main / `Test DAY16 shared-parent angular distributions against population assumptions`。
 
-下一允许的partial17 GR97 existingraw：garciaraffi-1997-monte-carlo-compton-polarimeters；primedbefore/hash/candidate046已冻结，7p原件已核rawhash，刚读pp461–463主线，尚未完成其余4p/Table1/appendix。要核Stokes输运/KNprefactor/finitegeometry/实际Q-ε-M；不重演原40%MC或10%误差为实测，source旧GR97-2/4false不清。原15:00还近3h，不能提前final。
+下一当前partial17producer route已冻recall/candidate047：publicvmc-project/geant3 metadata200/defaultmaster，当前commit/tree查询进行中，尚未打开源文件；moderncode不自动是1997GCOMPOL。只选匹配GCOMPOL/POLAR/GDROT3/GTGAMA函数与版本/输入合同，不执行未读build，不替原detectorMC。原15:00仍约2h半，13:30后不新开source，15点stopresearch收束。
 
 保护raw/PLAN/Bib/credentials/原review/继承dirty/log；exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
 

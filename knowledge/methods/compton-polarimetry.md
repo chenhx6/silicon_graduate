@@ -415,3 +415,8 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 ### Palit2000原件：a与Q两层校准，数值不随引用迁移
 
 [[palit-2000-rh99-clover-polarimetry]] P00-1–12实际8页原读。Eu152给a≈1.00(.03)，knownpolarizedlines再定Q=(CE+D)Q0，C=−.000099keV^-1/D=.446；与Garg2015reported a≈.93(.06)及其真实Q是不同对象。1117原式重算Q=.134178、P=.37264与reported.37相容，rounded误差和Cov(C,D)/referenceledger仍缺。Na241368 reference的实际方向tag/接受未完整给出，不能自行代P=1/6。原Eq5字面KNprefactor的倒数边界不影响固定角Q0比值，但不认证finitegeometryproducer。
+
+
+## 偏振输运与merit：GR97原件补核
+
+[[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-5–14与[[gr97-stokes-response-and-merit]]保留完整Stokes正性/2φ旋转、出射部分偏振的纯态混合、原TableI绝对ε与M的派生关系。验证60/150/60keV样本不与统一50keV表裸合并；历史校准与同程序模拟也不增独立实验。Eq9非负degree不能代核谱学signedP；原producer/response/Cov未得时，不迁移40%/10%或hardware排名。

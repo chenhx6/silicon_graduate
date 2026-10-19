@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T12:21:17.632984+08:00",
+  "session_id": 94973,
+  "exit_code": 0,
+  "script": "system/scripts/day16_garciaraffi1997_stokes_audit.py",
+  "script_sha256": "b17733c984449783d0c285bb91644c664e8f0a1d24a88a9f2277b67d2588200f",
+  "contract": "garciaraffi1997-analysis-contract-v2.json",
+  "PYTHONPATH": "tmp/day16-jt74/python-deps",
+  "initial_actual1_and_rejected_prefactor_reading_retained": "garciaraffi1997-first-audit-failure.json",
+  "source_TableI_conditions_unchanged": true,
+  "no_original_GCOMPOL_detector_execution": true
+}

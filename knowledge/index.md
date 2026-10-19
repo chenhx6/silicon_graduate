@@ -617,6 +617,8 @@ updated: 2026-10-19
 
 ## Research Notes
 
+- [[gr97-stokes-response-and-merit]] - 原TableI/线性Stokes输运、不同response与merit统计合同；无学分Day17preview。
+
 - [[199tl-three-ad-reference-feasibility]] - 三条实际AD的同母态正布居witness、取向前提和中央/误差域差别；非新Jπ/δ。
 
 - [[unobserved-feeding-alignment-sign]] - 完整CG/6j的rank2保号域、signedU反例、方向门及原C96模型链Gaussian边界。

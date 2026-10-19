@@ -66,6 +66,17 @@ updated: 2026-10-19
 
 ## Sources and evidence
 
+### Checkpoint043：GR97偏振输运与merit合同（partial17）
+
+[[garciaraffi-1997-monte-carlo-compton-polarimeters]]原7页461–467/Eq1–16/3fig/TableI/29refs完整主线重读，Crossref身份核。新增[GR97知识单](../../knowledge/research-notes/gr97-stokes-response-and-merit.md)与GR97-5–14，旧prefix/GR97-2/4reviewfalse保持，不将历史校准/同程序九格表算独立实验，不授正式Day17学分。
+
+[实际表/输运核验](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/garciaraffi1997-stokes-audit-result.json)最终actual0：TableI九项Q/M推ε，Cov未知边界与理想time比较分列；源Table50keV/d25cm不同于校准60/150/60keV，五coax fit.3–1.8MeV也不移给4MeV。线性Stokes正性由Jones+非负unpolarized项证明，2φ旋转/Eq14/15闭合，点两散射控制不假充原40%GEANT3重放；非负degree也不代核signedP。
+
+本run初漏读Eq13撇号提出inverse假设，高分辨原p466否决；原Eq3/11/13同为(Eprime/E)²。v1合同/首次SymPy结构断言actual1与v2纠正保留，Table/几何/误差未改，不把误读发布成source勘误。P00-10的另一原式字面仍单列，反事实倒置可保持normalizedP/PSD却改angleweights，未判actualcode或原实验错。
+
+Fig1/2/3图注Refs24/25/27与正文22/23/25不一致已留原locator，不静默修号。约10%源估计不作通用σ；原modifiedGCOMPOL/材料response/统计ledger未得。`supports/limits/revises`现有P/A/Q与响应对象判断，正式16一次、partial17、next17count16保持。
+
+
 ### Checkpoint042：实际三线AD与同母态约束
 
 新[199Tl计算单](../../knowledge/research-notes/199tl-three-ad-reference-feasibility.md)使用D66-D16-2实际331/370/701 AD，331/701共享非负对称density，中态370不假定只受331 feeding。三个spin差≤2给19对，point/native模型与真实response/Cov/作者phase分层。
@@ -1020,7 +1031,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -1402,6 +1413,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
           "locator": "D66-D16-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
         }
       ]
     },
@@ -1886,7 +1913,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -2540,12 +2567,28 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-13"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -2831,6 +2874,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2017-99rh-matched-reference-records.md",
           "locator": "N099-13"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
         }
       ]
     },
@@ -5096,7 +5155,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -5306,6 +5365,22 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
           "locator": "D66-D16-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
         }
       ]
     },
@@ -5826,7 +5901,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
-      "summary": "完整8页原读，新增P00-1–13与实际校准/正P双EM候选及companion；Q/单位/Cov和literalKN边界实际复算，不替Gargactualresponse/2019body。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 按原p351区分P00的31P+74Ge与Ref8的16O+89Y。",
+      "summary": "完整8页原读，新增P00-1–13与实际校准/正P双EM候选及companion；Q/单位/Cov和literalKN边界实际复算，不替Gargactualresponse/2019body。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 按原p351区分P00的31P+74Ge与Ref8的16O+89Y。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。",
       "anchor": "先区分几何a与偏振Q，再解释同跃迁的伴随观测",
       "sources": [
         {
@@ -5904,6 +5979,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-16"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
         }
       ]
     },
@@ -6169,6 +6248,88 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
           "locator": "D66-D16-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+      "summary": "完整原七页/九格表/secondary近似/引用号与response对象；保持旧review值，纠正本run误读而不虚构erratum。",
+      "anchor": "2026-10-19 Day17无学分预习：原件与响应合同续核",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-6"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-8"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-9"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-11"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-12"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-13"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/gr97-stokes-response-and-merit.md",
+      "summary": "实际TableI九项推ε、未知Cov/理想merit-time与Stokes正性/出射混合/坐标控制；不重放原detectorMC或测Q。",
+      "anchor": "校准曲线与Table I不是同一response对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-6"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
         }
       ]
     }
@@ -6459,3 +6620,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification036](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-036.json)实际report/card/唯一writeback66changed/66items，boundary/lint/diff均exit0、0errors188warnings（136citation-key/49raw槽/3reactionparser）。新D66两脚本实际0，D66source合同hash与原raw/人审prefix、PLAN/Bib和其它helpers保护通过。原producer限定readiness及YA67重叠已canonical，不把旧负U算新独立证据。
 
 稳定指针main / `Test DAY16 shared-parent angular distributions against population assumptions`，actualhash/H3/push仅publication042/runreceipt。新[candidate046](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-046-day17-preview.json)选恰好Day17的GR97原7页输运/响应preview，原件前primed回忆已冻；当前只读前3页，不预报Table/appendix结论。formal16一次/partial17、next17count16与原15:00上海截止不改，科学pursuing/nativegoalblocked差异保持。
+
+
+### Checkpoint043实际验收与source误读纠正
+
+[verification037](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-037.json)实际report/card/唯一writeback68changed/68items，boundary/lint/diff均exit0，0errors188warnings（136citation-key/49raw槽/3reactionparser）。GR97旧prefix/两旧false值、原raw/PLAN/Bib/其它人审prefix及最终源码/v2合同/hash/首次actual1快照均过。原Table与geometry/cuts未调；GR97 Eq13inverse初假设已经原图否决，最终canonical明确其Eprime/E²与Eq11/3一致，不虚构source勘误。
+
+稳定指针main / `Audit DAY16 Compton Stokes transport and matched response comparisons`，actualhash/H3/push仅publication043/runreceipt。下一[candidate047](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/candidate-refresh-047-day17-producer.json)只核同一partial17的公开Geant3相关函数/版本可用性；metadata不充原1997producer。原15:00上海截止、formal16一次/partial17/next17count16不变，科学pursuing/nativegoalblocked差异保持。

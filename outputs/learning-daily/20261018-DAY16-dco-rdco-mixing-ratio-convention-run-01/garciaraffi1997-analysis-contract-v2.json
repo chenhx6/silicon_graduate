@@ -1,0 +1,172 @@
+{
+  "at": "2026-10-19T12:18:17.679358+08:00",
+  "identity": "GR97-STOKES-TABLE-AND-RESPONSE-CONTRACT-02",
+  "source": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+  "source_prefix_bytes": 9611,
+  "source_prefix_sha256": "1b21c766829ca3725ac78cf1ca51c9bcf05e2a7feb12604f036e873bca7bde8d",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf",
+  "raw_sha256": "2b860327fa3d8e0aeeab31e89b8e337ff8278b24f452b4fb456b6bbda4871e31",
+  "actual_reading": "full7pages461–467/Eq1–16/3fig/TableI; keyEq11vs13prefactorsvisual; referencecaptions/bodymismatchrecorded",
+  "electron_rest_MeV": 0.51099895,
+  "TableI": [
+    {
+      "E_MeV": 0.5,
+      "geometry": "5coax",
+      "Q": 0.516,
+      "sigma_Q": 0.005,
+      "M": 7.4e-06,
+      "sigma_M": 2e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 0.5,
+      "geometry": "4coax",
+      "Q": 0.286,
+      "sigma_Q": 0.005,
+      "M": 2.3e-05,
+      "sigma_M": 1e-06,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 0.5,
+      "geometry": "clover",
+      "Q": 0.209,
+      "sigma_Q": 0.005,
+      "M": 3.1e-05,
+      "sigma_M": 1e-06,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 1.5,
+      "geometry": "5coax",
+      "Q": 0.263,
+      "sigma_Q": 0.008,
+      "M": 1e-06,
+      "sigma_M": 1e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 1.5,
+      "geometry": "4coax",
+      "Q": 0.155,
+      "sigma_Q": 0.007,
+      "M": 3.9e-06,
+      "sigma_M": 4e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 1.5,
+      "geometry": "clover",
+      "Q": 0.101,
+      "sigma_Q": 0.006,
+      "M": 5.1e-06,
+      "sigma_M": 6e-07,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 4.0,
+      "geometry": "5coax",
+      "Q": 0.088,
+      "sigma_Q": 0.006,
+      "M": 4.9e-08,
+      "sigma_M": 7e-09,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 4.0,
+      "geometry": "4coax",
+      "Q": 0.068,
+      "sigma_Q": 0.005,
+      "M": 3.4e-07,
+      "sigma_M": 5e-08,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    },
+    {
+      "E_MeV": 4.0,
+      "geometry": "clover",
+      "Q": 0.04,
+      "sigma_Q": 0.004,
+      "M": 4.2e-07,
+      "sigma_M": 8e-08,
+      "kind": "sourcecalculatedTableI,notindependentexperiment"
+    }
+  ],
+  "TableI_conditions": {
+    "source_distance_cm": 25,
+    "threshold_keV": 50,
+    "coincidenceefficiency": "epsilon=eps_parallel+eps_perp absolute; symmetric polarimeter",
+    "scatterwindow": "TableIdoesnotexplicitlyrestatetheFig1[70,110]window; do notinventgate"
+  },
+  "calibration5coax": {
+    "a": 0.79,
+    "sigma_a": 0.17,
+    "b_perMeV": 0.078,
+    "sigma_b_perMeV": 0.0011,
+    "fit_domain_MeV": [
+      0.3,
+      1.8
+    ],
+    "threshold_keV": 60,
+    "scattertheta_deg": [
+      70,
+      110
+    ],
+    "fit_covariance_unknown": true
+  },
+  "sourcevalidation_conditions": {
+    "4coax_threshold_keV": 150,
+    "clover_threshold_keV": 60,
+    "caption_reference_numbers": [
+      24,
+      25,
+      27
+    ],
+    "body_reference_numbers": [
+      22,
+      23,
+      25
+    ],
+    "no_silent_caption_repair_or_new_independentexperiment": true
+  },
+  "model": "freeelectronlinearStokesMueller; sourceEq3/Eq11/Eq13 allcorrectscalar r²; initialinverseEq13reading rejectedbyhighresolutionprime; inversefactorcase is explicitP00-10-stylecontrol,notGR97claim",
+  "tests": [
+    "symbolicTtimesMmatchesEq13includingr²; highresolutionoriginalconfirmsEprimein numerator; P00-10-styleinversefactorcontrolleavesdegreeunchanged",
+    "PSDallinputStokesdisk viaThomsonJonesplus(Sminus2)unpolarizedterm; pure/electronThomson/forward/zero-intensitycontrols",
+    "Eq14degreeandEq15binaryeigenstateweightsmatch3DprojectedincidentE; flagundefinedprojectionwhenunpolarizedout",
+    "unpolarizedinputinducesconditionalpolarizationand90degreepointtwoscattercorrelation; not40percentMC reproduction",
+    "nineTableIeps=M/Q²andCovunknownerrorbounds; compareabsolutenormalizationseparatelyfromactive-solid-angletext",
+    "MratiosandidealcounttimecomparisonforPfrom0to1 endpoints/monotonic; no sourcefluxoractualexposureinvented",
+    "calibrationcurvevsTableIobjectseparate; outsideenergyfitnotused",
+    "oldGR97prefix/raw/reviewflagsunchanged; nofullGEANT3/MCdatasetreplay"
+  ],
+  "angles_deg": [
+    0,
+    30,
+    70,
+    90,
+    110,
+    150,
+    180
+  ],
+  "azimuth_deg": [
+    0,
+    22.5,
+    45,
+    90,
+    135
+  ],
+  "forbidden": [
+    "newexperimentalQ/parity/delta",
+    "declareactualGCOMPOLwrongfromEq13typo",
+    "assign10percentuncertaintytonewarray",
+    "ignoresecondaryphotonapproxorgeometrythresholdsourceindependence"
+  ],
+  "scope": "Day17uncreditedpreviewwithinDay16run; sourceprintedinputs/modelcontrols only",
+  "correction_history": {
+    "original_contract": "garciaraffi1997-analysis-contract.json",
+    "sha256": "164f88863327da97935241807c60852e9613082b6e2c2fda7c7a5175f9cb1dcb",
+    "rejected_initial_hypothesis": "GR97Eq13inverseprefactor; sourceactuallyEprime/E",
+    "evidence": "originalp466 highresolutionappendix-prefactor-detail.png; P00p349 Eq5hasliteralinversebutGR97not",
+    "TableI_geometry_calibration_unchanged": true
+  }
+}
