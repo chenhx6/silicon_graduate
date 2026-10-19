@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T14:21:37.605660+08:00",
+  "check": "tmp/day16-ucgretina/verify-checkpoint041.py",
+  "actual_exit_code": 1,
+  "required_commands_actual": {
+    "boundary": 0,
+    "lint": 0,
+    "diff": 0
+  },
+  "failed_gate": "knowledge-writeback source link: synthesis new KF89 references needed canonical wikilink",
+  "repair": "added exact source wikilinks and clarified existential positive-population wording; preserved original recall/hash and model inputs",
+  "failure_verification": "verification-reopened-041.json"
+}

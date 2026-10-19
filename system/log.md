@@ -2020,3 +2020,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day16 checkpoint045：漏解与完整伴随符号域
 
 既有D66source/errorbox不改，连续外包/dual找到粗网格漏解free11/11，MP80独立核16negative子问题23叶完整覆盖/新strictinterior。9/3只声明模型数值分类非实验spin或原19→5。固定P投影差异经全β+MP80收紧：三混合族均可正负P701，pureE2指定路径才有解析正界，未知EM/response/Cov保持。精确interference defect解释99.04%E2不等pureP；五脚本最终0/两个初技术1快照保留。verification040实际69/69、required0、0errors190warnings，原prefix/raw/PLAN/Bib保持。13:30后无新source/card；原15:00仍pursuing/formal16一次partial17。稳定指针main / Resolve DAY16 angular-distribution grid gaps and test polarization companions，hash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint046：末段回证与历史视图复算
+
+同run/session原15点前继续已有证据；强priming12项冻结/逐locator回证，无新分数或credit。修D66/C96写回后整页hash入口：历史prefix镜像原guard两模型actual0、除timestamp外结果一致，canonical复算入口与综合矩阵写回。041写回wikilink门actual1留档，补链接042全部通过69/69、required0、0errors190warnings。原raw/PLAN/Bib/review/hash与继承dirty保持。正式16一次partial17/next17count16不改；准备17单卡信用规则，不启动session。稳定指针main / Integrate DAY16 evidence and restore frozen-model reproducibility，精确hash和push仅receipt。

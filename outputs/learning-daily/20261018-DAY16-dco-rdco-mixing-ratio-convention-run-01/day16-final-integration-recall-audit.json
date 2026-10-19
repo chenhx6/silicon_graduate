@@ -1,0 +1,297 @@
+{
+  "at": "2026-10-19T14:18:20.019354+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "frozen_recall_sha256_unchanged": "9acdeb584bd309d1b713f90e20818a292f0e66727229d042db2fadd51e93f6f2",
+  "kind": "strongly primed integration; lookup permitted after freeze; no new credit",
+  "items": [
+    {
+      "number": 1,
+      "topic": "δ份额与干涉",
+      "knowledge": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
+      "anchor": "全β伴随符号检查：固定点分离并不延伸到候选族",
+      "sources": [
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-5"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
+        }
+      ],
+      "assessment": "条件点99.04%E2不是实验结果；强度主导不取消振幅干涉。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 2,
+      "topic": "DCO身份与原数值回查",
+      "knowledge": "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "anchor": "delta-double-solution-sheet：先固定实测对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-15"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-18"
+        }
+      ],
+      "assessment": "冻结中明确留空，回查后补90°/38°/φ18°；R=.66(.10)/.47(.15)，不同gate角色。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 3,
+      "topic": "phase桥与pure盲区",
+      "knowledge": "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "anchor": "相位表与失败控制",
+      "sources": [
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-6"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-7"
+        },
+        {
+          "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+          "locator": "KS70-13"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-5"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-6"
+        }
+      ],
+      "assessment": "BR1953与RB1967分开；KS/RB相邻L桥只在指定定义下成立，不给所有δ普适翻号。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 4,
+      "topic": "signedP、degree、A/Q/a",
+      "knowledge": "knowledge/research-notes/gr97-stokes-response-and-merit.md",
+      "anchor": null,
+      "sources": [
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-14"
+        }
+      ],
+      "assessment": "Stokes轴、发射θγ和ComptonθC分开；M平方不能校符号。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 5,
+      "topic": "signedU与保号域",
+      "knowledge": "knowledge/research-notes/unobserved-feeding-alignment-sign.md",
+      "anchor": "可以证明的高自旋低L保号域",
+      "sources": [
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-1"
+        },
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-2"
+        },
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-3"
+        }
+      ],
+      "assessment": "高spin低L、完整trace有明确定义域，不含任意粒子j/方向门/外场。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 6,
+      "topic": "Rh99实验前提与反应",
+      "knowledge": "knowledge/research-notes/rh99-1117-population-feasibility.md",
+      "anchor": null,
+      "sources": [
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-15"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-16"
+        }
+      ],
+      "assessment": "lowm未测；P00采集110MeV31P+74Ge，1994Ref8才16O+89Y。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 7,
+      "topic": "网格与完整域",
+      "knowledge": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
+      "anchor": "后网格连续域审计与漏解",
+      "sources": [
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
+        }
+      ],
+      "assessment": "新11/11为真实网格漏点；16negative子问题23叶/MP80为所声明数值域证书，不是formal exact证明/实验spin计数。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 8,
+      "topic": "伴随偏振的全候选域",
+      "knowledge": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
+      "anchor": "全β伴随符号检查：固定点分离并不延伸到候选族",
+      "sources": [
+        {
+          "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+          "locator": "D66-D16-2"
+        }
+      ],
+      "assessment": "三个混合族均有P701正负witness；pureE2指定路径才有StokesQ≥.28625，不是polarimeterQ。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 9,
+      "topic": "代码组件与实验response",
+      "knowledge": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+      "anchor": "Component Benchmark",
+      "sources": [
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-2"
+        },
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-3"
+        },
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-4"
+        },
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-5"
+        },
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-7"
+        },
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-9"
+        }
+      ],
+      "assessment": "600000组件事件不是1997全阵列MC；transport1MeV不等electronics50keV，守恒可与coincidence损失共存。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 10,
+      "topic": "原件纠正与notation",
+      "knowledge": "knowledge/research-notes/gr97-stokes-response-and-merit.md",
+      "anchor": null,
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        }
+      ],
+      "assessment": "冻结Eprime/E²简写有歧义，规范为(E′/E)²；不改冻结原文。GR97不是erratum，P00另文literal inverse单列。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 11,
+      "topic": "证据独立性与旧发现",
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "anchor": "Day16末段整合：哪些输入真正改变候选",
+      "sources": [
+        {
+          "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+          "locator": "C96-D16-9"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        }
+      ],
+      "assessment": "旧YA67反例和检查数不重计；derivedP、ε与编译版本不增加独立采集。",
+      "kind": "post-source primed crosscheck, unscored"
+    },
+    {
+      "number": 12,
+      "topic": "下一输入与课程边界",
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "anchor": "Day16末段整合：哪些输入真正改变候选",
+      "sources": [
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-17"
+        },
+        {
+          "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+          "locator": "KF89-18"
+        },
+        {
+          "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+          "locator": "G3-10"
+        }
+      ],
+      "assessment": "实际reference/phase/response/Σ缺口继续readiness；正式17要新session逐卡，不跨18。",
+      "kind": "post-source primed crosscheck, unscored"
+    }
+  ],
+  "lookup_W178": {
+    "angles_deg": [
+      90,
+      38
+    ],
+    "phi_deg": 18,
+    "gate921_observed306_R": [
+      0.66,
+      0.1
+    ],
+    "observed921_gate169_R": [
+      0.47,
+      0.15
+    ],
+    "only_first_row_reciprocal_for_common_target": true,
+    "conditional_d_candidates": [
+      0.091860035,
+      46.26909199
+    ],
+    "conditional_P_both_negative": true,
+    "not_replacement_of_author_branches": true
+  },
+  "notation_clarification": "Frozen item10 Eprime/E² is clarified as (E′/E)². Frozen text remains unchanged.",
+  "no_new_source_or_course_card": true,
+  "no_new_score_or_credit": true
+}

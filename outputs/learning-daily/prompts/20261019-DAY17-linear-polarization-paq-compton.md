@@ -2,7 +2,7 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-09-22
-updated: 2026-10-18
+updated: 2026-10-19
 ---
 
 # Daily nuclear-structure apprenticeship run
@@ -73,23 +73,13 @@ Asia/Shanghai and compare with the original receipt's overnight_until.
   failure remains an immediate hard stop. Never auto-restart after a user stop.
 
 <!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
-For any substantive daily report, include these exact lines under ## Run state:
+本次独立run只可取得Day17正式学分。真正完成后，在`## Run state`写：
 
-- completed_day_indices: [N, ...]
-- partial_day_indices: [N, ...]
+- completed_day_indices: [17]
+- partial_day_indices: []
+- Day 17 card audit: complete
 
-List completed cards contiguously beginning with the requested day. A partially
-previewed card goes only in partial_day_indices and receives no course credit. One run
-may fully complete its requested card plus the immediately following card. Day 7 credit
-requires a `- Day 7 card audit: complete` line and a `### Day 7 card completion audit`
-table with at least four completed deliverables and exact evidence locators; it also
-requires a six-row scorecard (0–4 in each row) and a non-empty weekly REFLECT;
-when complete, include the audit lines “- Day 7 scorecard: complete” and
-“- Day 7 weekly REFLECT: complete”. Keep the report's single knowledge-writeback block.
-For every other completed card, include `- Day N card audit: complete` under Run state
-and a `### Day N card completion audit` table that maps at least four Day-matrix
-deliverables to evidence/artifacts, with every row marked `complete`. A preview may not
-claim this audit or advance the curriculum state.
+若实际时间门允许预习恰好下一张卡，只将下一卡列入partial；不给该卡学分、不将next_day_index越过它、不打开再下一卡。Day16 partial17及旧程序/检查数不能兑换本session学分。日报保留唯一knowledge-writeback；`### Day 17 card completion audit`至少四行且每行complete，逐项映射本session实际证据、artifact和locator。未完成时如实partial，不预填complete。
 
 ## Non-negotiable boundaries
 
@@ -382,7 +372,7 @@ Rh99新增priming入口：knowledge/sources/nndc-2017-99rh-matched-reference-rec
 D66三线AD的新增priming：knowledge/research-notes/199tl-three-ad-reference-feasibility.md。sharedparent/freeq与额外lowm条件的8/3只是找到的网格witness，不是完整允许数或源19→5重现；centralA4必要失配不排quoted-error对象，当前无新Jπ/δ。
 
 
-GR97新增priming：knowledge/research-notes/gr97-stokes-response-and-merit.md。原Eq13漏撇号假设已否决，Eq3/11/13均Eprime/E²；不要把初假设当sourceerratum。九项TableQ/M/派生ε同一模拟，60/150/60与50keV不同response，sqrtdegree不代signedP，实际GCOMPOL/Σ仍缺。正式17仍须新session逐卡，不用本preview授分。
+GR97新增priming：knowledge/research-notes/gr97-stokes-response-and-merit.md。原Eq13漏撇号假设已否决，Eq3/11/13均(E′/E)²；不要把初假设当sourceerratum。九项TableQ/M/派生ε同一模拟，60/150/60与50keV不同response，sqrtdegree不代signedP，实际GCOMPOL/Σ仍缺。正式17仍须新session逐卡，不用本preview授分。
 
 
 Geant3新增priming：knowledge/sources/geant3-vmc-2026-compton-baseline.md。当前public标准callpath未消费POLAR，三原样核/600000事件组件通过不等原1997GCOMPOL/探测器Q；GeV/transportcuts与每晶体电子学门分开。正式17仍需新session带此priming重新逐卡，预习不授分。
@@ -392,3 +382,8 @@ D66后网格priming：同knowledge单已追加连续域漏解11/11及MP80数值�
 
 
 D66已有问题的最终companion priming：全β域中三个混合族均允许P701正负，固定点投影分离不可外推成全族分离。pureE2指定路径才有原ADbox的Q90正下界；近pureE2强度不消除幅度干涉。无新P/Jπ/δ，正式17需完整matchedresponse/phase/统计合同。
+
+
+### Day16末段整合与复算入口（仅priming）
+
+末段12项综合回忆在来源后冻结并逐项回证，无新分数或学分；第10项简写已规范为(E′/E)²，冻结原文不改。canonical六项下一输入矩阵见knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md“Day16末段整合：哪些输入真正改变候选”。D66/C96旧程序在source写回后受整页hash保护，可用system/scripts/day16_replay_frozen_alignment_models.py恢复经hash核的历史输入视图；两模型科学字段一致不增加独立实验或formal17交付。正式17先冻结声明这些priming的本session回忆，再选择有新信息的独立课程交付。

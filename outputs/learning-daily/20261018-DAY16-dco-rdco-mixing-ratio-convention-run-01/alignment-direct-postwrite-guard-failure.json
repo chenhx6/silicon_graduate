@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T14:10:19.363947+08:00",
+  "session_id": 73245,
+  "exit_code": 1,
+  "guard": "old_human_source_sha256 comparedwholeknowledgepageafterownappend",
+  "raw_or_scientific_input_changed": false,
+  "diagnosis": "replay requires prewriteknowledgeprefix state; directentryguardisintentionalbutneedsreproduciblewrapper",
+  "repair_plan": "constructverifiedhistoricalprefixonlyunderrepo tmpmirror; copyoriginalcodebytes; symlinkunchangedprimaryraw insideWiki; keepalloriginalcontracts/scripts/results unchanged"
+}

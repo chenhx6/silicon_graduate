@@ -1,3 +1,19 @@
+# 最新checkpoint046
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16收束。科学pursuing；nativegoal实返blocked且无active写法，原objective保留。formal16一次、partial17、next17/count16不改；Farmer42019保留。
+
+046 verification042实际report/card/唯一writeback69changed/69items、boundary/lint/diff0，0errors190warnings(137key50raw3parser)。末段post-source强priming12题已冻原文/hash并逐项回证，W178数值冻结后查表；Eprime/E²简写规范成(E′/E)²，不改冻结原文、不评分或授分。canonical综合页更新六项下一输入矩阵，明确存在解/域而非任意q或每个β都成立。
+
+旧D66/C96入口写回后整页hash guard实际1保留；新day16_replay_frozen_alignment_models在Wiki tmp恢复核hash的历史前缀，原脚本/合同/PDF/guard不改。两模型实际0且除timestamp外全部科学字段一致；依赖仍须本地原PDF/固定python-deps，非空环境保证。verification041首写回sourcewikilink缺失actual1保留，补精确链接后042全部通过，无物理输入变动。
+
+本批稳定指针main / `Integrate DAY16 evidence and restore frozen-model reproducibility`；实际hash/H3/push只publication046/runreceipt。045 actualGitee成功，D66网格漏解/MP80与全βcompanion边界见现有note。不把此checkpoint当整段完成。
+
+13:30后没有新source/card；至15:00仅核已有定量结果/原证据/可复算性和综合，不新增toy或研究路线；15点读clock后停研究，按原小时完成最终报告/检查/receipt/续接/发布。保护raw/PLAN/Bib/review/继承dirty和log；exactmanifest/HEAD+ownlog/H3。
+
+Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+
+# 先前checkpoint（历史）
+
 # 最新checkpoint045
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked/工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。

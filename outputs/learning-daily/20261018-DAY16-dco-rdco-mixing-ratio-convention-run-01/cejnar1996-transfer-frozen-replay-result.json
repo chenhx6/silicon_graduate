@@ -1,0 +1,362 @@
+{
+  "at": "2026-10-19T14:10:54.969166+08:00",
+  "script_sha256": "1dfa8f1a4089377f20127fd87b5ee449250cded7a3c2faa6ffbe2f6d43f22385",
+  "contract_sha256": "bf69e1d157e80b299eb617055403cb954b795bf8f04537e2c51b8c67e2414841",
+  "original_pdf_and_old_human_prefix_unchanged": true,
+  "Eq6_signed_counterexamples": [
+    {
+      "Ji": "1",
+      "Jf": "1",
+      "j": "1",
+      "rank": 2,
+      "Eq6_exact_U": "-1/2",
+      "literal_0to1_not_general_identity": true
+    },
+    {
+      "Ji": "2",
+      "Jf": "2",
+      "j": "2",
+      "rank": 2,
+      "Eq6_exact_U": "-3/14",
+      "literal_0to1_not_general_identity": true
+    },
+    {
+      "Ji": "23/2",
+      "Jf": "23/2",
+      "j": "11",
+      "rank": 2,
+      "Eq6_exact_U": "-37/575",
+      "literal_0to1_not_general_identity": true
+    },
+    {
+      "Ji": "5/2",
+      "Jf": "5/2",
+      "j": "2",
+      "rank": 4,
+      "Eq6_exact_U": "-1/2",
+      "literal_0to1_not_general_identity": true
+    }
+  ],
+  "source_Fig1_paths": [
+    {
+      "name": "Fig1-two-swave-neutrons",
+      "steps": [
+        {
+          "Ji": "5",
+          "Jf": "11/2",
+          "j": "1/2",
+          "signed_Uk": {
+            "0": "1",
+            "2": "sqrt(462)/22",
+            "4": "2*sqrt(231)/33",
+            "6": "sqrt(330)/22",
+            "8": "sqrt(55)/11",
+            "10": "sqrt(6)/6"
+          },
+          "B2_after_exact": "-5*sqrt(1001)/143",
+          "B4_after_exact": "2*sqrt(6006)/143"
+        },
+        {
+          "Ji": "11/2",
+          "Jf": "5",
+          "j": "1/2",
+          "signed_Uk": {
+            "0": "1",
+            "2": "sqrt(462)/22",
+            "4": "2*sqrt(231)/33",
+            "6": "sqrt(330)/22",
+            "8": "sqrt(55)/11",
+            "10": "sqrt(6)/6"
+          },
+          "B2_after_exact": "-35*sqrt(78)/286",
+          "B4_after_exact": "28*sqrt(26)/143"
+        }
+      ],
+      "final_J": "5",
+      "m_values": [
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "exact_final_p_m": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "5/22",
+        "6/11",
+        "5/22",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "exact_Bk": {
+        "0": "1",
+        "2": "-35*sqrt(78)/286",
+        "4": "28*sqrt(26)/143",
+        "6": "-10*sqrt(255)/187",
+        "8": "35*sqrt(2470)/2717",
+        "10": "-21*sqrt(4199)/4199"
+      },
+      "gaussian_moment_inversions": [
+        {
+          "rank": 2,
+          "polynomial_in_r": "-54*r**25/11 - 171*r**16/55 - 94*r**9/55 - 39*r**4/55 - 6*r/55 + 1/22",
+          "r_definition": "exp(-1/(2sigma²)) with integer m, final J=5",
+          "exact_physical_root_count_by_Sturm": 1,
+          "roots": [
+            {
+              "r_interval": [
+                "4381364418/13098871391",
+                "3037781843/9081991334"
+              ],
+              "multiplicity": 1,
+              "sigma": 0.6756861990213564,
+              "B_target_exact": "-35*sqrt(78)/286",
+              "total_variation_distance_to_exact_path": 0.05966593647181343,
+              "gaussian_p_m": [
+                7.593580194254502e-13,
+                1.4489956927433047e-08,
+                3.0934179611121216e-05,
+                0.007388582190277961,
+                0.19743975903682054,
+                0.5902814202051481,
+                0.19743975903682054,
+                0.007388582190277961,
+                3.0934179611121216e-05,
+                1.4489956927433047e-08,
+                7.593580194254502e-13
+              ]
+            }
+          ],
+          "not_an_experimental_width_fit_or_confidence_interval": true
+        },
+        {
+          "rank": 4,
+          "polynomial_in_r": "10*r**25/33 - 122*r**16/33 - 122*r**9/33 - 67*r**4/33 - 4*r/11 + 5/33",
+          "r_definition": "exp(-1/(2sigma²)) with integer m, final J=5",
+          "exact_physical_root_count_by_Sturm": 1,
+          "roots": [
+            {
+              "r_interval": [
+                "7145556773/20969630557",
+                "6642666371/19493828702"
+              ],
+              "multiplicity": 1,
+              "sigma": 0.6814922823807958,
+              "B_target_exact": "28*sqrt(26)/143",
+              "total_variation_distance_to_exact_path": 0.055673258277846485,
+              "gaussian_p_m": [
+                1.198093877864757e-12,
+                1.9341190117290222e-08,
+                3.625485135645868e-05,
+                0.007891138281041076,
+                0.19943609813380406,
+                0.5852729787828205,
+                0.19943609813380406,
+                0.007891138281041076,
+                3.625485135645868e-05,
+                1.9341190117290222e-08,
+                1.198093877864757e-12
+              ]
+            }
+          ],
+          "not_an_experimental_width_fit_or_confidence_interval": true
+        }
+      ],
+      "source_author_model_not_experimental_population": true
+    },
+    {
+      "name": "Fig1-two-pwave-neutrons-two-dipoles",
+      "steps": [
+        {
+          "Ji": "5",
+          "Jf": "11/2",
+          "j": "3/2",
+          "signed_Uk": {
+            "0": "1",
+            "2": "28*sqrt(462)/715",
+            "4": "14*sqrt(231)/429",
+            "6": "sqrt(330)/715",
+            "8": "-43*sqrt(55)/715",
+            "10": "-10*sqrt(6)/39"
+          },
+          "B2_after_exact": "-56*sqrt(1001)/1859",
+          "B4_after_exact": "14*sqrt(6006)/1859"
+        },
+        {
+          "Ji": "11/2",
+          "Jf": "5",
+          "j": "3/2",
+          "signed_Uk": {
+            "0": "1",
+            "2": "28*sqrt(462)/715",
+            "4": "14*sqrt(231)/429",
+            "6": "sqrt(330)/715",
+            "8": "-43*sqrt(55)/715",
+            "10": "-10*sqrt(6)/39"
+          },
+          "B2_after_exact": "-10976*sqrt(78)/120835",
+          "B4_after_exact": "1372*sqrt(26)/24167"
+        },
+        {
+          "Ji": "5",
+          "Jf": "5",
+          "j": "1",
+          "signed_Uk": {
+            "0": "1",
+            "2": "9/10",
+            "4": "2/3",
+            "6": "3/10",
+            "8": "-1/5",
+            "10": "-5/6"
+          },
+          "B2_after_exact": "-49392*sqrt(78)/604175",
+          "B4_after_exact": "2744*sqrt(26)/72501"
+        },
+        {
+          "Ji": "5",
+          "Jf": "5",
+          "j": "1",
+          "signed_Uk": {
+            "0": "1",
+            "2": "9/10",
+            "4": "2/3",
+            "6": "3/10",
+            "8": "-1/5",
+            "10": "-5/6"
+          },
+          "B2_after_exact": "-222264*sqrt(78)/3020875",
+          "B4_after_exact": "5488*sqrt(26)/217503"
+        }
+      ],
+      "final_J": "5",
+      "m_values": [
+        "-5",
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "exact_final_p_m": [
+        "189/46475",
+        "9324/232375",
+        "47761/697125",
+        "360101/2091375",
+        "34103/418275",
+        "37249/139425",
+        "34103/418275",
+        "360101/2091375",
+        "47761/697125",
+        "9324/232375",
+        "189/46475"
+      ],
+      "exact_Bk": {
+        "0": "1",
+        "2": "-222264*sqrt(78)/3020875",
+        "4": "5488*sqrt(26)/217503",
+        "6": "-18*sqrt(255)/3950375",
+        "8": "12943*sqrt(2470)/57396625",
+        "10": "-17500*sqrt(4199)/2128893"
+      },
+      "gaussian_moment_inversions": [
+        {
+          "rank": 2,
+          "polynomial_in_r": "-4819209*r**25/1161875 - 2727834*r**16/1161875 - 1101209*r**9/1161875 + 60666*r**4/1161875 + 757791*r/1161875 + 495083/1161875",
+          "r_definition": "exp(-1/(2sigma²)) with integer m, final J=5",
+          "exact_physical_root_count_by_Sturm": 1,
+          "roots": [
+            {
+              "r_interval": [
+                "11147136387/12425352241",
+                "12074355037/13458892868"
+              ],
+              "multiplicity": 1,
+              "sigma": 2.1461373918646816,
+              "B_target_exact": "-222264*sqrt(78)/3020875",
+              "total_variation_distance_to_exact_path": 0.19478416491884082,
+              "gaussian_p_m": [
+                0.012440966599065836,
+                0.0330493310653532,
+                0.07066110656429557,
+                0.12159267312216133,
+                0.1684005824835553,
+                0.1877106803311376,
+                0.1684005824835553,
+                0.12159267312216133,
+                0.07066110656429557,
+                0.0330493310653532,
+                0.012440966599065836
+              ]
+            }
+          ],
+          "not_an_experimental_width_fit_or_confidence_interval": true
+        },
+        {
+          "rank": 4,
+          "polynomial_in_r": "89410*r**25/50193 - 111362*r**16/50193 - 111362*r**9/50193 - 27707*r**4/50193 + 55948*r/50193 + 44705/50193",
+          "r_definition": "exp(-1/(2sigma²)) with integer m, final J=5",
+          "exact_physical_root_count_by_Sturm": 1,
+          "roots": [
+            {
+              "r_interval": [
+                "7051906453/7605767929",
+                "13231084080/14270262323"
+              ],
+              "multiplicity": 1,
+              "sigma": 2.571571163151748,
+              "B_target_exact": "5488*sqrt(26)/217503",
+              "total_variation_distance_to_exact_path": 0.21464798968033685,
+              "gaussian_p_m": [
+                0.024190256742237102,
+                0.047771538016895106,
+                0.08110075832263107,
+                0.1183607072858842,
+                0.14849681322454586,
+                0.16015985281561335,
+                0.14849681322454586,
+                0.1183607072858842,
+                0.08110075832263107,
+                0.047771538016895106,
+                0.024190256742237102
+              ]
+            }
+          ],
+          "not_an_experimental_width_fit_or_confidence_interval": true
+        }
+      ],
+      "source_author_model_not_experimental_population": true
+    }
+  ],
+  "signed_flow_vs_magnitude": {
+    "unit_feeding_normalization_only": true,
+    "B2_in": "-5*sqrt(78)/39",
+    "U2": "9/10",
+    "B2_out": "-3*sqrt(78)/26",
+    "signed_out_greater_than_signed_in": true,
+    "magnitude_out_smaller_than_magnitude_in": true
+  },
+  "CauchySchwarz_absU_bound_verified": true,
+  "scope": {
+    "not_AvalancheII_producer_or_112Cd_data_replay": true,
+    "not_a_new_delta_or_experimental_sigma": true,
+    "original_source_literal_positive_range_preserved_as_source_statement": true,
+    "physical_subset_or_code_paths_not_proven_wrong": true,
+    "higher_rank_transfer_does_not_follow_from_rank2_sign_theorem": true
+  }
+}

@@ -12,7 +12,7 @@ question: "何时可由入口取向与退激路径支持u2符号，而不假设�
 evidence_sources: [diamond-1966-nuclear-alignment-heavy-ion-reactions, cejnar-1996-spin-deorientation-alpha-2n-gamma, nndc-2017-99rh-matched-reference-records, martin-1987-ensdf-mixing-ratio-phase-conventions]
 created_from: daily-learning-phys-model
 promotion_target:
-reproducibility_entry: system/scripts/day16_alignment_transfer_sign.py
+reproducibility_entry: system/scripts/day16_replay_frozen_alignment_models.py
 nuclei: [99Rh, 110Cd, 112Cd]
 tags: [alignment, feeding, deorientation, Gaussian-assumption, conditional-model]
 ---
@@ -145,6 +145,18 @@ P1：所有新系数、保号域、反例和Gaussian重算均为Codex条件模�
 ## Reproducibility
 
 [rank2程序](../../system/scripts/day16_alignment_transfer_sign.py)及[原Fig1重放程序](../../system/scripts/day16_cejnar1996_transfer_replay.py)均actualexit0。合同、原件/前缀hash、实际执行与完整结果在本run的`alignment-transfer-*`和`cejnar1996-transfer-*`回执。现有photon helpers只读，未安装依赖；沿用固定PYTHONPATH与SymPy版本。
+
+### 写回后的历史输入视图复算
+
+原程序把写回前的整个source页SHA作为保护输入。因此在本日source追加后直接复跑旧入口，会在整页hash检查处退出1；原PDF、模型参数和原结果未变。这次失败保留在`alignment-direct-postwrite-guard-failure.json`，不能把它解释为物理计算不闭合。
+
+[历史视图入口](../../system/scripts/day16_replay_frozen_alignment_models.py)只在Wiki的`tmp/day16-frozen-alignment-replay/`恢复冻结的旧source前缀，兼容Git的LF/原CRLF后核对原SHA；原脚本及依赖按原字节复制，原PDF在Wiki内只读链接。旧guard原样执行，没有跳过检查，没有改canonical页面、raw、模型、合同或旧结果。
+
+```bash
+python3 system/scripts/day16_replay_frozen_alignment_models.py --run-dir outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01 --output outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alignment-frozen-models-replay-receipt.json
+```
+
+两模型实际exit0，除执行时间外全部科学result字段与原结果完全一致。回执`alignment-frozen-models-replay-receipt.json`列出每个前缀、代码hash、命令、实际exit和结果对照；此复算修复只恢复可执行入口，不增加独立证据或学分。需要原合同所列本地PDF及既有`tmp/day16-jt74/python-deps`；未得这些输入时不宣称可在空环境复现。科学定位仍是[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-3与[[cejnar-1996-spin-deorientation-alpha-2n-gamma]] C96-D16-4/5。
 
 ## Transfer Conditions
 

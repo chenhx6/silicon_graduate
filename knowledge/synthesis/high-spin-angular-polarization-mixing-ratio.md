@@ -17,7 +17,9 @@ tags: [high-spin, angular-distribution, polarization, mixing-ratio, evidence-map
 
 ## Agent active summary
 
-Day16原件复核把δ的operator phase、P的坐标轴、detectorcount角色与response权重分成四个必要合同。FH59的plane-axis与SU59normal-axis相差π/2；B15的literal桥须连同As/P一起处理，未知actualproducer保持。SU59同跃迁在替代AD下仍双解，FH59同E3线在不同布居下P不同；都限制只靠多一个偏振数就唯一赋值。Hamilton原16purecase又给等权role抵消的null及rank4分类必要条件，进一步限定reference/selection对象。Palit实际AD/P案例补有条件的选根支持，标定a与Q仍分层、数值不迁移给Garg。实际Rh99摘要的freepositivepopulation可行性另保留边际box与孤立根/联合CI的区别。新增全为self-audit，不改变review状态或取得Day17学分。
+Day16把DCO/δ判断落实为同一个跃迁、门、相位、取向、响应和联合误差对象。178W实际双候选与本run条件反演分层；两条件根的偏振同号，符号不足以选根。Rh99实际AD/P在允许任意非负对称布居的模型域内仍有两种EM族条件解，独立取向条件才改变可识别性。199Tl的粗网格漏解及完整混合比域的偏振重叠，又限制了局部扫描和固定点companion的排除能力。
+
+保号的完整未观测feeding、指定布居prior、已测reference是三个层次。历史相位/轴/计数合同和本日软件组件核验均保留各自范围；正确Stokes与能量守恒不认证真实detector response。新增内容都是Codex self-audit或条件模型，没有新实验δ/Jπ、人审状态或正式Day17学分。快速复用见本页“Day16末段整合：哪些输入真正改变候选”。
 
 ## Question and Scope
 
@@ -130,7 +132,7 @@ P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若
 
 ### 实际三线AD中的条件存在与实验排除
 
-[[199tl-three-ad-reference-feasibility]]针对[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2保存freeq至少8个、额外lowm找到3个源probable序列的witness；不宣称完整8/3或复现原19→5。共同上态rank4负比例使精确中央数不闭合，但误差box仍有解；这把“prior/companion影响选择”的判断落在实际输入上，未新增核赋值。
+[[199tl-three-ad-reference-feasibility]]针对[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2最初粗网格保存freeq至少8个、额外lowm找到3个源probable序列的witness；后续连续域找到第9个freeq，详下节。前后均不复现原19→5。共同上态rank4负比例使精确中央数不闭合，但误差box仍有解；这把“prior/companion影响选择”的判断落在实际输入上，未新增核赋值。
 
 
 ### 从Stokes输运到实际校准的对象合同
@@ -147,3 +149,19 @@ D66实际三线案例的连续域续核找到旧粗网格漏解，数值全域�
 
 
 同D66既有候选在完整β域检查后，两个lowm混合族与新free族均可正/负P701；已撤销从固定点差异推全族可分的任何可能暗示。[[199tl-three-ad-reference-feasibility]]保留pureE2解析正界、七个signwitness和MP80复核，未新测偏振或裁决核赋值。
+
+
+## Day16末段整合：哪些输入真正改变候选
+
+这是本日已读证据的跨来源综合，不是新的实验分析或通用选根规则。
+
+| 已有对象 | 本run可以复用的判断 | 能改变候选排序的下一输入 |
+| --- | --- | --- |
+| 178W921，两组实际DCO | [[kramer-flecken-1989-use-dco-ratios]] KF89-15/18的gate/observed角色不同；统一target方向时仅第一行倒数。原作者两支与本runpoint模型两根分开，后者P均负 | 同target/gate/角组的校准P幅值和误差、169参考完整phase与真实response/联合Cov；单个P号不足 |
+| E2/M1符号 | [[krane-steffen-1970-cd110-mixing-ratios]] KS70-6/13、[[droste-1996-pdco-formalism]] DR96-5区分first-B/last-A及operator/state-order；相邻L的坐标翻号须同步变换核 | 明确每一multipole的辐射振幅定义和同一kernel对照；纯限无干涉，不能单独认证phase |
+| Rh99实际AD/P | [[palit-2000-rh99-clover-polarimetry]] P00-4/14/15：free正布居边际box允许两EM族；额外未测lowm条件才排其中一族。P00-16另固定真实反应谱系 | 同发射态、同选择的独立取向约束与reference纯度；更多同dataset处理不增加独立实验 |
+| 199Tl实际三线AD | [[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2与条件note保留19→5→3作者判断、9free/3lowm自有数值域。完整β域中三个混合族各有P701正、负解，近99.04%E2也保留干涉 | 实际P幅值/误差、已知EM类型/参考与联合响应；不能从几个存在点或固定β投影宣称全族分离 |
+| 未观测feeding | [[cejnar-1996-spin-deorientation-alpha-2n-gamma]] C96-D16-1/2/4/5与D66-D16-3给signedU、完整trace保号域和两链Gaussian边界；不测Rh99实际u2 | 实际入口/蒸发/feeding链及选择。方向门不满足完整trace，不能沿用未观测U |
+| Stokes与软件 | [[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-7的前因子是(E′/E)²；G3-2/3/5/7验证当前unpolarized组件而非原modified producer | 原polarized producer、geometry/cuts、校准ledger与Σ。POLAR字段、M平方或守恒检查不提供校准符号/真实Q |
+
+边际box只用于条件可行性；没有联合Cov便不给CI。完整物理输入仍缺时，保留多解和readiness，比调σ、Q或参考号去强配预设分支更能检验下一步。强度份额δ²/(1+δ²)、有符号δ和相干项须分列；未观测trace中的强度混合与有方向的AD/P干涉也不能互换。

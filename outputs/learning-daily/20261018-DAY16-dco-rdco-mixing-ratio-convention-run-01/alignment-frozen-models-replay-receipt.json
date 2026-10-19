@@ -1,0 +1,111 @@
+{
+  "at": "2026-10-19T14:10:55.122770+08:00",
+  "script_sha256": "57e01a1068d9124ab800ad87626b27c234f7fb6418cd0b7a232374373ccb5ec9",
+  "kind": "historical prewrite prefix view only; no change to canonical pages/raw/code/contracts",
+  "prefixes": [
+    {
+      "source": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+      "historical_prefix_sha256": "b78015cfce7f5d08ade31bdfd45e79b68ea02202fd87389afebd6262f2613caf",
+      "matches_original_freeze": true,
+      "original_raw_unchanged": true,
+      "canonical_current_page_not_modified": true
+    },
+    {
+      "source": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+      "historical_prefix_sha256": "d64b0346cff0cac0dd466cce5ef3cb4109f2ff36a548fed4ac804bd9bac222d1",
+      "matches_original_freeze": true,
+      "original_raw_unchanged": true,
+      "canonical_current_page_not_modified": true
+    }
+  ],
+  "copied_code": {
+    "day16_cejnar1996_transfer_replay": {
+      "path": "system/scripts/day16_cejnar1996_transfer_replay.py",
+      "sha256": "1dfa8f1a4089377f20127fd87b5ee449250cded7a3c2faa6ffbe2f6d43f22385",
+      "mirror_same_bytes": true
+    },
+    "day16_alignment_transfer_sign": {
+      "path": "system/scripts/day16_alignment_transfer_sign.py",
+      "sha256": "f566d22c661992ef19489327630dd0e92be0ef2fa7e8be6310edfc8bff13c212",
+      "mirror_same_bytes": true
+    },
+    "day16_co60_conditional_stokes": {
+      "path": "system/scripts/day16_co60_conditional_stokes.py",
+      "sha256": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
+      "mirror_same_bytes": true
+    },
+    "day16_co60_cascade_theory": {
+      "path": "system/scripts/day16_co60_cascade_theory.py",
+      "sha256": "9d8a8e885dc2c2e539c594313d102e8411421b5e4c844f95de5ce3202147dece",
+      "mirror_same_bytes": true
+    },
+    "day16_ucgretina_stokes_oracle": {
+      "path": "system/scripts/day16_ucgretina_stokes_oracle.py",
+      "sha256": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598",
+      "mirror_same_bytes": true
+    },
+    "day16_ucgretina_stokes_audit": {
+      "path": "system/scripts/day16_ucgretina_stokes_audit.py",
+      "sha256": "818eabd499a70b6c921904c23efe534a54c1ea7cd7516a665486b0549be5e695",
+      "mirror_same_bytes": true
+    },
+    "day16_gretina_convention_audit": {
+      "path": "system/scripts/day16_gretina_convention_audit.py",
+      "sha256": "700bc906fd6a8c90f09140a8a24087330f9b4afd8bba696bb08ea56603b262b0",
+      "mirror_same_bytes": true
+    },
+    "day16_d96_eq4_erratum_audit": {
+      "path": "system/scripts/day16_d96_eq4_erratum_audit.py",
+      "sha256": "4bbdd27058914ae6b27c20ac6f1dd46c52f77e0ddae543a22d2a087c88f3fa2d",
+      "mirror_same_bytes": true
+    },
+    "day16_pdco_ambiguity_preview": {
+      "path": "system/scripts/day16_pdco_ambiguity_preview.py",
+      "sha256": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+      "mirror_same_bytes": true
+    }
+  },
+  "actions": [
+    {
+      "original_script": "day16_alignment_transfer_sign.py",
+      "command": [
+        "/opt/venv/bin/python3",
+        "/workspace/wiki/tmp/day16-frozen-alignment-replay/system/scripts/day16_alignment_transfer_sign.py",
+        "--contract",
+        "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alignment-transfer-contract.json",
+        "--output",
+        "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/alignment-transfer-frozen-replay-result.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "new_result": "alignment-transfer-frozen-replay-result.json",
+      "original_result": "alignment-transfer-result.json",
+      "all_scientific_result_fields_identical_excluding_execution_timestamp": true,
+      "new_result_sha256": "d1cee9428828299f78b774c1082aec97a69dd55fed1793fc29de5b621301c53e"
+    },
+    {
+      "original_script": "day16_cejnar1996_transfer_replay.py",
+      "command": [
+        "/opt/venv/bin/python3",
+        "/workspace/wiki/tmp/day16-frozen-alignment-replay/system/scripts/day16_cejnar1996_transfer_replay.py",
+        "--contract",
+        "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/cejnar1996-transfer-contract.json",
+        "--output",
+        "/workspace/wiki/outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/cejnar1996-transfer-frozen-replay-result.json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "new_result": "cejnar1996-transfer-frozen-replay-result.json",
+      "original_result": "cejnar1996-transfer-result.json",
+      "all_scientific_result_fields_identical_excluding_execution_timestamp": true,
+      "new_result_sha256": "04e510a3107cbb1945e8a34861eb3f1d17583d7baf9f73e08e3b17106efa2e98"
+    }
+  ],
+  "scope": {
+    "original_model_algorithms_and_coefficients_unchanged": true,
+    "no_new_independent_experiment_or_credit": true,
+    "replay_guard_not_bypassed": true,
+    "source_prefix_state_reconstructed_and_hash_verified": true,
+    "all_paths_within_Wiki_and_no_vendor_redistribution": true
+  }
+}

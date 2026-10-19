@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T14:04:11.751957+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day16-final-integration-recall-frozen.md",
+  "sha256": "9acdeb584bd309d1b713f90e20818a292f0e66727229d042db2fadd51e93f6f2",
+  "kind": "post-source stronglyprimed integration, unscored and no additionalcredit",
+  "unknown_numeric_items_left_for_lookup": [
+    "W178921 actualR/gates/angles"
+  ],
+  "no_new_source_or_card": true
+}
