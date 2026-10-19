@@ -20,6 +20,8 @@ SG98若把分母√η(C+S)改为ηC+S，则B=(1+η)QP/[2√η+(η−1)QP]；一�
 
 实际consumer也须核归一统计：[[grsisort-2026-compton-polarimetry-code]] GRS26-7/8在固定newAnalyze/ROOT组件中复现A_CE=1−normalizedratio的null零误差、分组重复边界bin；真实mixed复用/共同norm仍需Σ。不能用软件字段或同nominalQ替代对实际执行path的验证；默认Lean与newAnalyze版本差别见GRS26-6。
 
+[[garnsworthy-2019-griffin-facility]] GF19-6/8/9/10的GRIFFIN source-reference使用两γ方向定义的coincidence plane和.5QPcos2ξ，1332-keV Q=.240(.012)由nominalP90=1/6标定。Fig18分组是同data，570/1064的scatter/gate双角色亦共享cascade；[[triumf-griffin-compton-source-calibration]]保存实际值和missingledger。它不提供可裸搬到ST99/SG98或in-beam target的通用A/Q。
+
 ## Purpose
 
 利用分段 HPGe/Clover 的 Compton 散射方位分布判断跃迁的电或磁性质。

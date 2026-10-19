@@ -1,0 +1,72 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 17,
+    "error": null
+  },
+  "boundary": {
+    "exit_code": 0
+  },
+  "lint": {
+    "exit_code": 1,
+    "counts": {
+      "error": 1,
+      "warning": 195,
+      "info": 2613
+    },
+    "errors": [
+      {
+        "severity": "error",
+        "code": "FIELD_REQUIRED",
+        "path": "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+        "message": "missing reaction"
+      }
+    ],
+    "warning_codes": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 139,
+      "RAW_MISSING": 52
+    }
+  },
+  "diff": {
+    "exit_code": 0
+  },
+  "checked_at": "2026-10-19T10:19:11.640536+00:00"
+}

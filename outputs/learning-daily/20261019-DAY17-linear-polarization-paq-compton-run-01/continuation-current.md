@@ -1,11 +1,11 @@
-# Day17同session继续：checkpoint003之后
+# Day17同session继续：checkpoint004之后
 
-run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止、15–16收束不改。nativegoalactive/用户持续学习，Farmer42019沿用，无新daemon/session。先核最新clock、run/progress/verification/publication；不把本checkpoint当整日结束或正式学分。
+run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止、15–16收束不改。nativegoalactive/用户已恢复并要求持续，Farmer42019复用，不新开session/daemon。先核当前clock/原runreceipt、publication004/verification010与handoff；001–003已actualpush，004以其真实回执为准。
 
-001/002已actualH3/Gitee发布；003是否成功看publication-003.json。七页canonical/唯一writeback，PAQ表、共同Cov/arrayweights/Qenergy、fixedGRSISort原样组件与fullLean schema正负控制均已交付。nativeLean newhelperkeys exit139、legacykeys exit0；这是声明ROOTfixture，不是actualdata/Σ/CI。初failures/旧review/raw/PLAN/Bib/继承dirty保留。
+完成状态：本session primed来源前回忆、ST99/SG98完整主线及PAQ/sharedCov/arrayweight/Qenergy、publicGRSISort实际组件/fullScalePlot/fullLean native schema正负控制已canonical。新Garnsworthy2019实际arxivv2完整36页/所有28图8表12式和关键视觉核已完成，actualQ/half-factor/Θvsϑvsξ/参考及共享source数据写入新source/experimentledger，summary currentScaleQ与Table7实际0。当前十knowledge页/唯一writeback，不是新experimentalP/δ/CI。
 
-下一主线原件：tmp/day17-griffin-facility/PDFs/The_GRIFFIN_Facility_for_Decay-Spectroscopy_Studies_at_TRIUMF-ISAC.pdf；arxiv1809.07183v2，36页，SHA256 b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed。合法nature-downloader OA --no-si已成功，griffin-facility-before-body.md/hash在body前冻结；nature-academic-search已读manifest/core/wf1，metadata/selection回执在本run。
+geometry原source45mmdepth/26mmoffset+Table2两距离128position/256angle rounding相合；Table8仍partial三行/近86caption未闭合。初失败与源typedinputs保持，native执行/结构check0不等Table8全复现；不同点/historicalproducer/未舍入输入缺。v1只targeted33p中的identity/Table2/8两图，条目同v2，不冒称全文/独立实验；publisher默认TDM200无body/FULL401，勿原样重试。Smith原v1仅PDF3–4/Table1/2/两图定向核共享表，旧17claim行/flags保持。
 
-当前actualscope只identity page1与关键词页定位，未完成全文主线或物理表图式；不能从keywordscan写Q的科学claim。按requiredloop完整读36页主线，关键Figs/Tables/Eqs/levelscheme/uncertainty/limitations视觉核；尤其p22–24 Compton polarimetry，但不截断其它主线。区分source calibration、eventmixing、θdet/θcrystal、.5QP、能量role、原Q实测/模型缩放及actualproducer依赖。新source/canonical写回前先去重，与Smith2019角关联/当前code不重复计独立实验；新claims全部needs_review，raw归档deferred。
+下一从当前candidatepool/actualinput gap继续高信息路线：historical/publicresponse与实际data、参考role/normalizer的直接来源，不再扫同toy/freegeometry或以adoptedlabel选δ。当前问题如饱和，刷新timegate后可检查恰好下一Day18无学分知识preview；今日仍partial17/next17count16，未开18/19，不授18/不打开19。
 
-完成后刷新clock和候选池继续高信息问题；当前partial17/next17count16，未开18/19。只有当前问题饱和才按时间门看恰好partial18无学分预习，不开19；15点停新研究，fullreport/card/checks/nextprompt/receipt/H3齐才formal17一次、goalcomplete。
+研究窗尚约20h；checkpoint不是整日停止。15点stop新研究，完整report/card/knowledge/checks/nextprompt/receipt/H3齐才formal17一次、goalcomplete。raw/PLAN/Bib/credentials/旧review/继承dirty保留，所有sciencepartial边界不抹去。

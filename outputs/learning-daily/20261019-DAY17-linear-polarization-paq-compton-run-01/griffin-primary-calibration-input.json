@@ -1,0 +1,19 @@
+{
+  "input_kind": "published-calibration-summary-and-declared-comparison",
+  "arxiv_version": "1809.07183v2",
+  "pdf_sha256": "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed",
+  "pdf_path": "tmp/day17-griffin-facility/PDFs/The_GRIFFIN_Facility_for_Decay-Spectroscopy_Studies_at_TRIUMF-ISAC.pdf",
+  "locator": "PDF23 Sec4.1.6/Fig18 and PDF24 Fig19",
+  "quality_factor_rows": [
+    {"energy_keV": 570, "Q": 0.390, "sigma_Q": 0.024, "emitter": "207Pb", "role": "reported other-energy validation"},
+    {"energy_keV": 1173, "Q": 0.258, "sigma_Q": 0.012, "emitter": "60Ni", "role": "reported other-energy validation; same isotope/source family as anchor"},
+    {"energy_keV": 1332, "Q": 0.240, "sigma_Q": 0.012, "emitter": "60Ni", "role": "source calibration anchor"},
+    {"energy_keV": 1771, "Q": 0.201, "sigma_Q": 0.045, "emitter": "56Fe", "role": "reported other-energy validation; detailed gate not supplied in this source text"}
+  ],
+  "source_nominal_reference_P": "1/6",
+  "source_asymmetry_formula": "A(xi)=0.5*Q(E)*P(Theta)*cos(2*xi)",
+  "clover_pair_selection": "90 degrees; source text gives crystal coincidence angles 68–113 degrees",
+  "source_code_comparison": {"path": "tmp/day17-grsisort/util/Compton_Scale_Plot.cxx", "sha256": "ef011abde04415030bec5dd5534ae2766cfa8f36d1ce27bcce8d45d4f7cce090", "role": "current pinned generic uniform-theta ScaleQ; not attested 2018 experiment producer"},
+  "covariance_contract": "For a conditional comparison only, propagate a single anchor Q error as rank-one covariance sigma_ref^2*s*s^T. Actual validation errors, Q_ref dependence, source sharing, geometry/model/fit covariances are not supplied; no experimental chi-square significance or new confidence region.",
+  "table7_companion": {"locator": "PDF18 Table7 and adjacent equation", "area_245": 1303200, "sigma_area_245": 5400, "array_efficiency_122": 0.270, "sigma_efficiency_122": 0.003, "clovers": 16, "alpha_121": 1.155, "reported_expected_sum": 10201, "sigma_reported_expected_sum": 121, "reported_180deg_sum": 9904, "sigma_reported_180deg_sum": 164, "boundary": "published summary replay of photon versus total-decay probability; actual shared covariance/unrounded values unavailable"}
+}

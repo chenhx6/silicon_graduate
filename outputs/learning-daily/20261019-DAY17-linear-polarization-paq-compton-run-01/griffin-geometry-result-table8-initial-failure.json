@@ -1,0 +1,2839 @@
+{
+  "input_sha256": "1b087d31bfa2971338150a31388b684a2f936a6997c4d36eb79375acde4eb628",
+  "script_sha256": "adff4c95bf0d29974cc33cb2e8d6695e603576984bbd6671362bf270923b8a97",
+  "paper_pdf_sha256": "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed",
+  "source_code_sha256": "40b00f70e393a4df9e2c5f97fafeaa475295f0f2e7790a2ad8beca7549452f78",
+  "extracted_array_sha256": "6d5623a69d4b4fc19e1b46d6844525de9fe6309f30c3b3399251c45752a33a48",
+  "extracted_function_sha256": "2ef192a1f2db53c9a3700cdbc00081385fd087884d03803baa1b8c3eaed5bbde",
+  "compile": {
+    "command": [
+      "g++",
+      "-O1",
+      "/workspace/wiki/tmp/day17-griffin-facility/geometry-build/geometry.cxx",
+      "-o",
+      "/workspace/wiki/tmp/day17-griffin-facility/geometry-build/geometry",
+      "-pthread",
+      "-std=c++17",
+      "-m64",
+      "-fsized-deallocation",
+      "-I/opt/root/include",
+      "-L/opt/root/lib",
+      "-lCore",
+      "-lImt",
+      "-lRIO",
+      "-lNet",
+      "-lHist",
+      "-lGraf",
+      "-lGraf3d",
+      "-lGpad",
+      "-lROOTVecOps",
+      "-lTree",
+      "-lTreePlayer",
+      "-lRint",
+      "-lPostscript",
+      "-lMatrix",
+      "-lPhysics",
+      "-lMathCore",
+      "-lThread",
+      "-lROOTNTuple",
+      "-lROOTNTupleUtil",
+      "-lMultiProc",
+      "-lROOTDataFrame",
+      "-Wl,-rpath,/opt/root/lib",
+      "-pthread",
+      "-lm",
+      "-ldl",
+      "-rdynamic"
+    ],
+    "exit_code": 0,
+    "stderr": ""
+  },
+  "execution": {
+    "exit_code": 0,
+    "stderr": ""
+  },
+  "binary_sha256": "6df948ff439ec382b8b6b3d8c45d0a91a6dab883e819fe16e24e8a663f38884d",
+  "generated_cpp_sha256": "081853a328359ee7967c52a5984ca24a13075761bb326f7f23f8c39b71c51c2c",
+  "comparison_summary": {
+    "positions": 128,
+    "native_max_absolute_angle_residual_degrees": 0.041917202997979075,
+    "front_control_max_absolute_angle_residual_degrees": 7.740570855413807,
+    "native_all_rounding_boxes": true
+  },
+  "table8_comparison": {
+    "printed_table8_rounded_angle_multiplicity_multiset_matches": false,
+    "table8_expected_rows": 52,
+    "native_near86_degree_classes": [
+      86.22840193703507,
+      86.23761029146222
+    ],
+    "native_near86_class_separation_degrees": 0.009208354427144627,
+    "footnote_boundary": "Source Table8 says the two geometries have angles same to four decimal places; current pinned native point model gives distinct values separated about0.0092deg. Printed tenth-degree table and all Table2 rounding match, but the stricter footnote is not certified by this different-version producer. No source erratum or experiment conflict inferred."
+  },
+  "rows": [
+    {
+      "distance_mm": 110,
+      "detector": 1,
+      "crystal_code": 0,
+      "printed_theta": 36.5,
+      "printed_phi": 83.4,
+      "native_theta": 36.54191720299796,
+      "native_phi": 83.40942207159333,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": 0.009422071593320425,
+      "front_control_theta_difference": -2.511007786543182,
+      "front_control_phi_difference": 7.740570855413779,
+      "native_vector": [
+        10.88628061413625,
+        94.22308047601861,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 1,
+      "crystal_code": 1,
+      "printed_theta": 55.1,
+      "printed_phi": 79.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 78.98318537799526,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": -0.016814622004744706,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        24.957379217937376,
+        128.1937175628044,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 1,
+      "crystal_code": 2,
+      "printed_theta": 55.1,
+      "printed_phi": 56.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 56.016814622004745,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        72.99911490852429,
+        108.29417907981974,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 1,
+      "crystal_code": 3,
+      "printed_theta": 36.5,
+      "printed_phi": 51.6,
+      "native_theta": 36.54191720299796,
+      "native_phi": 51.590577928406674,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": -0.009422071593320425,
+      "front_control_theta_difference": -2.511007786543182,
+      "front_control_phi_difference": -7.740570855413779,
+      "native_vector": [
+        58.92801630472316,
+        74.32354199303394,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 1,
+      "crystal_code": 0,
+      "printed_theta": 37.9,
+      "printed_phi": 80.1,
+      "native_theta": 37.8867847006195,
+      "native_phi": 80.13699842092933,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": 0.03699842092933636,
+      "front_control_theta_difference": -1.8315448594430421,
+      "front_control_phi_difference": 4.5705128735899905,
+      "native_vector": [
+        20.3572123666947,
+        117.08793236135519,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 1,
+      "crystal_code": 1,
+      "printed_theta": 53.2,
+      "printed_phi": 77.2,
+      "native_theta": 53.18544739918653,
+      "native_phi": 77.16081987409439,
+      "native_theta_difference": -0.01455260081347376,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": 2.570370213914707,
+      "front_control_phi_difference": 2.435338181015595,
+      "native_vector": [
+        34.42831097049583,
+        151.058569448141,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 1,
+      "crystal_code": 2,
+      "printed_theta": 53.2,
+      "printed_phi": 57.8,
+      "native_theta": 53.18544739918653,
+      "native_phi": 57.839180125905614,
+      "native_theta_difference": -0.01455260081347376,
+      "native_phi_difference": 0.03918012590560238,
+      "front_control_theta_difference": 2.570370213914707,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        82.47004666108273,
+        131.15903096515632,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 1,
+      "crystal_code": 3,
+      "printed_theta": 37.9,
+      "printed_phi": 54.9,
+      "native_theta": 37.8867847006195,
+      "native_phi": 54.86300157907067,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": -0.03699842092933636,
+      "front_control_theta_difference": -1.831544859443035,
+      "front_control_phi_difference": -4.5705128735899905,
+      "native_vector": [
+        68.39894805728161,
+        97.18839387837052,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 2,
+      "crystal_code": 0,
+      "printed_theta": 36.5,
+      "printed_phi": 173.4,
+      "native_theta": 36.54191720299796,
+      "native_phi": 173.40942207159333,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": 0.009422071593320425,
+      "front_control_theta_difference": -2.511007786543182,
+      "front_control_phi_difference": 7.7405708554137505,
+      "native_vector": [
+        -94.22308047601861,
+        10.886280614136258,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 2,
+      "crystal_code": 1,
+      "printed_theta": 55.1,
+      "printed_phi": 169.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 168.98318537799526,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": -0.016814622004744706,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        -128.1937175628044,
+        24.957379217937387,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 2,
+      "crystal_code": 2,
+      "printed_theta": 55.1,
+      "printed_phi": 146.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 146.01681462200474,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        -108.29417907981973,
+        72.99911490852429,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 2,
+      "crystal_code": 3,
+      "printed_theta": 36.5,
+      "printed_phi": 141.6,
+      "native_theta": 36.54191720299796,
+      "native_phi": 141.59057792840667,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": -0.009422071593320425,
+      "front_control_theta_difference": -2.511007786543182,
+      "front_control_phi_difference": -7.740570855413779,
+      "native_vector": [
+        -74.32354199303394,
+        58.92801630472317,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 2,
+      "crystal_code": 0,
+      "printed_theta": 37.9,
+      "printed_phi": 170.1,
+      "native_theta": 37.8867847006195,
+      "native_phi": 170.13699842092933,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": 0.03699842092933636,
+      "front_control_theta_difference": -1.8315448594430421,
+      "front_control_phi_difference": 4.570512873589934,
+      "native_vector": [
+        -117.08793236135519,
+        20.357212366694707,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 2,
+      "crystal_code": 1,
+      "printed_theta": 53.2,
+      "printed_phi": 167.2,
+      "native_theta": 53.18544739918653,
+      "native_phi": 167.1608198740944,
+      "native_theta_difference": -0.01455260081347376,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": 2.570370213914707,
+      "front_control_phi_difference": 2.435338181015652,
+      "native_vector": [
+        -151.058569448141,
+        34.428310970495836,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 2,
+      "crystal_code": 2,
+      "printed_theta": 53.2,
+      "printed_phi": 147.8,
+      "native_theta": 53.185447399186536,
+      "native_phi": 147.8391801259056,
+      "native_theta_difference": -0.014552600813466654,
+      "native_phi_difference": 0.03918012590560238,
+      "front_control_theta_difference": 2.570370213914707,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        -131.15903096515632,
+        82.47004666108275,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 2,
+      "crystal_code": 3,
+      "printed_theta": 37.9,
+      "printed_phi": 144.9,
+      "native_theta": 37.8867847006195,
+      "native_phi": 144.86300157907067,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": -0.03699842092933636,
+      "front_control_theta_difference": -1.831544859443035,
+      "front_control_phi_difference": -4.570512873589934,
+      "native_vector": [
+        -97.18839387837052,
+        68.39894805728161,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 3,
+      "crystal_code": 0,
+      "printed_theta": 36.5,
+      "printed_phi": 263.4,
+      "native_theta": 36.54191720299796,
+      "native_phi": 263.4094220715933,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": 0.009422071593348846,
+      "front_control_theta_difference": -2.511007786543175,
+      "front_control_phi_difference": 7.740570855413807,
+      "native_vector": [
+        -10.886280614136215,
+        -94.22308047601862,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 3,
+      "crystal_code": 1,
+      "printed_theta": 55.1,
+      "printed_phi": 259.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 258.9831853779953,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": -0.016814622004687862,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        -24.95737921793733,
+        -128.1937175628044,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 3,
+      "crystal_code": 2,
+      "printed_theta": 55.1,
+      "printed_phi": 236.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 236.01681462200474,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        -72.99911490852425,
+        -108.29417907981977,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 3,
+      "crystal_code": 3,
+      "printed_theta": 36.5,
+      "printed_phi": 231.6,
+      "native_theta": 36.54191720299796,
+      "native_phi": 231.5905779284067,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": -0.009422071593292003,
+      "front_control_theta_difference": -2.511007786543182,
+      "front_control_phi_difference": -7.7405708554137505,
+      "native_vector": [
+        -58.92801630472313,
+        -74.32354199303397,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 3,
+      "crystal_code": 0,
+      "printed_theta": 37.9,
+      "printed_phi": 260.1,
+      "native_theta": 37.8867847006195,
+      "native_phi": 260.13699842092933,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": 0.03699842092930794,
+      "front_control_theta_difference": -1.831544859443035,
+      "front_control_phi_difference": 4.570512873589962,
+      "native_vector": [
+        -20.357212366694654,
+        -117.0879323613552,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 3,
+      "crystal_code": 1,
+      "printed_theta": 53.2,
+      "printed_phi": 257.2,
+      "native_theta": 53.18544739918653,
+      "native_phi": 257.1608198740944,
+      "native_theta_difference": -0.01455260081347376,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": 2.5703702139146998,
+      "front_control_phi_difference": 2.435338181015652,
+      "native_vector": [
+        -34.42831097049577,
+        -151.058569448141,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 3,
+      "crystal_code": 2,
+      "printed_theta": 53.2,
+      "printed_phi": 237.8,
+      "native_theta": 53.18544739918653,
+      "native_phi": 237.83918012590564,
+      "native_theta_difference": -0.01455260081347376,
+      "native_phi_difference": 0.0391801259056308,
+      "front_control_theta_difference": 2.570370213914707,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        -82.47004666108269,
+        -131.15903096515635,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 3,
+      "crystal_code": 3,
+      "printed_theta": 37.9,
+      "printed_phi": 234.9,
+      "native_theta": 37.8867847006195,
+      "native_phi": 234.86300157907067,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": -0.03699842092933636,
+      "front_control_theta_difference": -1.8315448594430421,
+      "front_control_phi_difference": -4.570512873589962,
+      "native_vector": [
+        -68.39894805728157,
+        -97.18839387837055,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 4,
+      "crystal_code": 0,
+      "printed_theta": 36.5,
+      "printed_phi": 353.4,
+      "native_theta": 36.54191720299796,
+      "native_phi": 353.4094220715933,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": 0.009422071593348846,
+      "front_control_theta_difference": -2.511007786543175,
+      "front_control_phi_difference": 7.740570855413807,
+      "native_vector": [
+        94.22308047601862,
+        -10.886280614136226,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 4,
+      "crystal_code": 1,
+      "printed_theta": 55.1,
+      "printed_phi": 349.0,
+      "native_theta": 55.0679710778221,
+      "native_phi": 348.9831853779953,
+      "native_theta_difference": -0.032028922177900654,
+      "native_phi_difference": -0.016814622004687862,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        128.1937175628044,
+        -24.95737921793734,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 4,
+      "crystal_code": 2,
+      "printed_theta": 55.1,
+      "printed_phi": 326.0,
+      "native_theta": 55.06797107782211,
+      "native_phi": 326.01681462200474,
+      "native_theta_difference": -0.03202892217789355,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": 4.094923723210506,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        108.29417907981977,
+        -72.99911490852426,
+        91.21677477306463
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 4,
+      "crystal_code": 3,
+      "printed_theta": 36.5,
+      "printed_phi": 321.6,
+      "native_theta": 36.54191720299796,
+      "native_phi": 321.5905779284067,
+      "native_theta_difference": 0.04191720299795776,
+      "native_phi_difference": -0.009422071593348846,
+      "front_control_theta_difference": -2.511007786543182,
+      "front_control_phi_difference": -7.740570855413807,
+      "native_vector": [
+        74.32354199303396,
+        -58.928016304723144,
+        127.98632739476511
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 4,
+      "crystal_code": 0,
+      "printed_theta": 37.9,
+      "printed_phi": 350.1,
+      "native_theta": 37.8867847006195,
+      "native_phi": 350.13699842092933,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": 0.03699842092930794,
+      "front_control_theta_difference": -1.831544859443035,
+      "front_control_phi_difference": 4.570512873589962,
+      "native_vector": [
+        117.0879323613552,
+        -20.357212366694664,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 4,
+      "crystal_code": 1,
+      "printed_theta": 53.2,
+      "printed_phi": 347.2,
+      "native_theta": 53.18544739918653,
+      "native_phi": 347.1608198740944,
+      "native_theta_difference": -0.01455260081347376,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": 2.5703702139146998,
+      "front_control_phi_difference": 2.435338181015595,
+      "native_vector": [
+        151.058569448141,
+        -34.42831097049578,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 4,
+      "crystal_code": 2,
+      "printed_theta": 53.2,
+      "printed_phi": 327.8,
+      "native_theta": 53.185447399186536,
+      "native_phi": 327.8391801259056,
+      "native_theta_difference": -0.014552600813466654,
+      "native_phi_difference": 0.03918012590560238,
+      "front_control_theta_difference": 2.570370213914707,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        131.15903096515635,
+        -82.4700466610827,
+        115.96551211459379
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 4,
+      "crystal_code": 3,
+      "printed_theta": 37.9,
+      "printed_phi": 324.9,
+      "native_theta": 37.8867847006195,
+      "native_phi": 324.86300157907067,
+      "native_theta_difference": -0.013215299380497925,
+      "native_phi_difference": -0.03699842092930794,
+      "front_control_theta_difference": -1.831544859443035,
+      "front_control_phi_difference": -4.570512873589962,
+      "native_vector": [
+        97.18839387837053,
+        -68.39894805728159,
+        152.73506473629428
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 5,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 32.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 32.02225500992523,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        133.2515582977571,
+        83.33679986188238,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 5,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 32.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 32.02225500992523,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        133.2515582977571,
+        83.33679986188238,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 5,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 13.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 12.977744990074768,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        153.15109678074177,
+        35.295064171295465,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 5,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 13.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 12.977744990074768,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        153.15109678074177,
+        35.295064171295465,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 5,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 30.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 30.292078078218424,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        165.58734193565215,
+        96.73071999466052,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 5,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 30.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 30.292078078218424,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        165.58734193565215,
+        96.73071999466052,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 5,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 14.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 14.707921921781576,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        185.48688041863682,
+        48.6889843040736,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 5,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 14.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 14.707921921781576,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        185.48688041863682,
+        48.6889843040736,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 6,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 77.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 77.02225500992523,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        35.295064171295465,
+        153.15109678074177,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 6,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 77.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 77.02225500992523,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        35.295064171295465,
+        153.15109678074177,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 6,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 58.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 57.97774499007477,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        83.33679986188238,
+        133.2515582977571,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 6,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 58.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 57.97774499007477,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        83.33679986188238,
+        133.2515582977571,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 6,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 75.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 75.29207807821842,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        48.688984304073614,
+        185.48688041863682,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 6,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 75.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 75.29207807821842,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        48.688984304073614,
+        185.48688041863682,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 6,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 59.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 59.707921921781576,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        96.73071999466052,
+        165.58734193565215,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 6,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 59.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 59.707921921781576,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        96.73071999466052,
+        165.58734193565215,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 7,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 122.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 122.02225500992523,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -83.33679986188235,
+        133.2515582977571,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 7,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 122.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 122.02225500992523,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -83.33679986188235,
+        133.2515582977571,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 7,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 103.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 102.97774499007477,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        -35.29506417129545,
+        153.15109678074177,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 7,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 103.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 102.97774499007477,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        -35.29506417129545,
+        153.15109678074177,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 7,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 120.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 120.29207807821842,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -96.7307199946605,
+        165.58734193565215,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 7,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 120.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 120.29207807821842,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -96.7307199946605,
+        165.58734193565215,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 7,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 104.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 104.70792192178158,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        -48.68898430407359,
+        185.48688041863682,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 7,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 104.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 104.70792192178158,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        -48.68898430407359,
+        185.48688041863682,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 8,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 167.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 167.02225500992517,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.022255009925174818,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -153.1510967807418,
+        35.29506417129548,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 8,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 167.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 167.02225500992517,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.022255009925174818,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -153.1510967807418,
+        35.29506417129548,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 8,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 148.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 147.97774499007477,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        -133.2515582977571,
+        83.33679986188238,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 8,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 148.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 147.97774499007477,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        -133.2515582977571,
+        83.33679986188238,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 8,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 165.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 165.29207807821842,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -185.48688041863682,
+        48.68898430407362,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 8,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 165.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 165.29207807821842,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -185.48688041863682,
+        48.68898430407362,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 8,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 149.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 149.70792192178158,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        -165.58734193565215,
+        96.73071999466053,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 8,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 149.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 149.70792192178158,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        -165.58734193565215,
+        96.73071999466053,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 9,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 212.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 212.0222550099252,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992520324,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -133.25155829775713,
+        -83.33679986188235,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 9,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 212.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 212.0222550099252,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992520324,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -133.25155829775713,
+        -83.33679986188235,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 9,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 193.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 192.97774499007477,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304943,
+      "native_vector": [
+        -153.1510967807418,
+        -35.29506417129542,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 9,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 193.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 192.97774499007477,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304943,
+      "native_vector": [
+        -153.1510967807418,
+        -35.29506417129542,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 9,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 210.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 210.29207807821842,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -165.58734193565218,
+        -96.73071999466049,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 9,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 210.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 210.29207807821842,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -165.58734193565218,
+        -96.73071999466049,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 9,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 194.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 194.70792192178155,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.00792192178155915,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.3656948795427013,
+      "native_vector": [
+        -185.48688041863682,
+        -48.68898430407357,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 9,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 194.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 194.70792192178155,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.00792192178155915,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.3656948795427013,
+      "native_vector": [
+        -185.48688041863682,
+        -48.68898430407357,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 10,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 257.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 257.02225500992523,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -35.295064171295415,
+        -153.1510967807418,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 10,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 257.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 257.02225500992523,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        -35.295064171295415,
+        -153.1510967807418,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 10,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 238.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 237.97774499007477,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        -83.33679986188233,
+        -133.25155829775713,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 10,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 238.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 237.97774499007477,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        -83.33679986188233,
+        -133.25155829775713,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 10,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 255.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 255.29207807821845,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.00792192178155915,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -48.68898430407354,
+        -185.48688041863682,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 10,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 255.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 255.29207807821845,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.00792192178155915,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        -48.68898430407354,
+        -185.48688041863682,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 10,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 239.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 239.70792192178158,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        -96.73071999466046,
+        -165.58734193565218,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 10,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 239.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 239.70792192178158,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        -96.73071999466046,
+        -165.58734193565218,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 11,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 302.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 302.02225500992523,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        83.33679986188241,
+        -133.2515582977571,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 11,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 302.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 302.02225500992523,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        83.33679986188241,
+        -133.2515582977571,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 11,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 283.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 282.9777449900748,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.022255009925174818,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        35.2950641712955,
+        -153.1510967807418,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 11,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 283.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 282.9777449900748,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.022255009925174818,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        35.2950641712955,
+        -153.1510967807418,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 11,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 300.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 300.2920780782184,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        96.73071999466056,
+        -165.58734193565215,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 11,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 300.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 300.2920780782184,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        96.73071999466056,
+        -165.58734193565215,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 11,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 284.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 284.7079219217816,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        48.68898430407366,
+        -185.48688041863682,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 11,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 284.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 284.7079219217816,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        48.68898430407366,
+        -185.48688041863682,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 12,
+      "crystal_code": 0,
+      "printed_theta": 80.6,
+      "printed_phi": 347.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 347.02225500992523,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        153.1510967807418,
+        -35.29506417129542,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 12,
+      "crystal_code": 1,
+      "printed_theta": 99.4,
+      "printed_phi": 347.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 347.02225500992523,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": 0.02225500992523166,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": 3.7985703304942717,
+      "native_vector": [
+        153.1510967807418,
+        -35.29506417129542,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 12,
+      "crystal_code": 2,
+      "printed_theta": 99.4,
+      "printed_phi": 328.0,
+      "native_theta": 99.39340611268213,
+      "native_phi": 327.9777449900748,
+      "native_theta_difference": -0.006593887317876579,
+      "native_phi_difference": -0.022255009925174818,
+      "front_control_theta_difference": 3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        133.25155829775713,
+        -83.33679986188234,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 12,
+      "crystal_code": 3,
+      "printed_theta": 80.6,
+      "printed_phi": 328.0,
+      "native_theta": 80.60659388731787,
+      "native_phi": 327.9777449900748,
+      "native_theta_difference": 0.006593887317876579,
+      "native_phi_difference": -0.022255009925174818,
+      "front_control_theta_difference": -3.554149635032502,
+      "front_control_phi_difference": -3.7985703304942717,
+      "native_vector": [
+        133.25155829775713,
+        -83.33679986188234,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 12,
+      "crystal_code": 0,
+      "printed_theta": 82.3,
+      "printed_phi": 345.3,
+      "native_theta": 82.27899750709155,
+      "native_phi": 345.2920780782184,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        185.48688041863682,
+        -48.68898430407356,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 12,
+      "crystal_code": 1,
+      "printed_theta": 97.7,
+      "printed_phi": 345.3,
+      "native_theta": 97.72100249290845,
+      "native_phi": 345.2920780782184,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": -0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": 2.365694879542673,
+      "native_vector": [
+        185.48688041863682,
+        -48.68898430407356,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 12,
+      "crystal_code": 2,
+      "printed_theta": 97.7,
+      "printed_phi": 329.7,
+      "native_theta": 97.72100249290845,
+      "native_phi": 329.7079219217816,
+      "native_theta_difference": 0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": 2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        165.58734193565218,
+        -96.73071999466048,
+        -25.99999999999999
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 12,
+      "crystal_code": 3,
+      "printed_theta": 82.3,
+      "printed_phi": 329.7,
+      "native_theta": 82.27899750709155,
+      "native_phi": 329.7079219217816,
+      "native_theta_difference": -0.02100249290845113,
+      "native_phi_difference": 0.007921921781587571,
+      "front_control_theta_difference": -2.309360359144179,
+      "front_control_phi_difference": -2.365694879542673,
+      "native_vector": [
+        165.58734193565218,
+        -96.73071999466048,
+        26.00000000000001
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 13,
+      "crystal_code": 0,
+      "printed_theta": 124.9,
+      "printed_phi": 79.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 78.98318537799526,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": -0.016814622004744706,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": 3.6290310202752494,
+      "native_vector": [
+        24.957379217937383,
+        128.1937175628044,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 13,
+      "crystal_code": 1,
+      "printed_theta": 143.5,
+      "printed_phi": 83.4,
+      "native_theta": 143.45808279700205,
+      "native_phi": 83.40942207159333,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": 0.009422071593320425,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": 7.740570855413779,
+      "native_vector": [
+        10.886280614136261,
+        94.22308047601862,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 13,
+      "crystal_code": 2,
+      "printed_theta": 143.5,
+      "printed_phi": 51.6,
+      "native_theta": 143.45808279700205,
+      "native_phi": 51.590577928406674,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": -0.009422071593320425,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": -7.740570855413779,
+      "native_vector": [
+        58.92801630472317,
+        74.32354199303396,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 13,
+      "crystal_code": 3,
+      "printed_theta": 124.9,
+      "printed_phi": 56.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 56.016814622004745,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        72.99911490852429,
+        108.29417907981974,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 13,
+      "crystal_code": 0,
+      "printed_theta": 126.8,
+      "printed_phi": 77.2,
+      "native_theta": 126.81455260081349,
+      "native_phi": 77.16081987409439,
+      "native_theta_difference": 0.01455260081348797,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": 2.435338181015595,
+      "native_vector": [
+        34.42831097049583,
+        151.058569448141,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 13,
+      "crystal_code": 1,
+      "printed_theta": 142.1,
+      "printed_phi": 80.1,
+      "native_theta": 142.1132152993805,
+      "native_phi": 80.13699842092933,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": 0.03699842092933636,
+      "front_control_theta_difference": 1.8315448594430563,
+      "front_control_phi_difference": 4.5705128735899905,
+      "native_vector": [
+        20.35721236669471,
+        117.0879323613552,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 13,
+      "crystal_code": 2,
+      "printed_theta": 142.1,
+      "printed_phi": 54.9,
+      "native_theta": 142.1132152993805,
+      "native_phi": 54.86300157907067,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": -0.03699842092933636,
+      "front_control_theta_difference": 1.8315448594430563,
+      "front_control_phi_difference": -4.5705128735899905,
+      "native_vector": [
+        68.39894805728161,
+        97.18839387837053,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 13,
+      "crystal_code": 3,
+      "printed_theta": 126.8,
+      "printed_phi": 57.8,
+      "native_theta": 126.81455260081346,
+      "native_phi": 57.839180125905614,
+      "native_theta_difference": 0.014552600813459549,
+      "native_phi_difference": 0.03918012590560238,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        82.47004666108275,
+        131.15903096515632,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 14,
+      "crystal_code": 0,
+      "printed_theta": 124.9,
+      "printed_phi": 169.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 168.98318537799526,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": -0.016814622004744706,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        -128.1937175628044,
+        24.957379217937394,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 14,
+      "crystal_code": 1,
+      "printed_theta": 143.5,
+      "printed_phi": 173.4,
+      "native_theta": 143.45808279700202,
+      "native_phi": 173.40942207159333,
+      "native_theta_difference": -0.041917202997979075,
+      "native_phi_difference": 0.009422071593320425,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": 7.7405708554137505,
+      "native_vector": [
+        -94.22308047601864,
+        10.886280614136268,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 14,
+      "crystal_code": 2,
+      "printed_theta": 143.5,
+      "printed_phi": 141.6,
+      "native_theta": 143.45808279700205,
+      "native_phi": 141.59057792840667,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": -0.009422071593320425,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": -7.740570855413779,
+      "native_vector": [
+        -74.32354199303396,
+        58.92801630472318,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 14,
+      "crystal_code": 3,
+      "printed_theta": 124.9,
+      "printed_phi": 146.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 146.01681462200474,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        -108.29417907981974,
+        72.9991149085243,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 14,
+      "crystal_code": 0,
+      "printed_theta": 126.8,
+      "printed_phi": 167.2,
+      "native_theta": 126.81455260081349,
+      "native_phi": 167.1608198740944,
+      "native_theta_difference": 0.01455260081348797,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": 2.435338181015652,
+      "native_vector": [
+        -151.058569448141,
+        34.42831097049584,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 14,
+      "crystal_code": 1,
+      "printed_theta": 142.1,
+      "printed_phi": 170.1,
+      "native_theta": 142.1132152993805,
+      "native_phi": 170.13699842092933,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": 0.03699842092933636,
+      "front_control_theta_difference": 1.8315448594430563,
+      "front_control_phi_difference": 4.570512873589934,
+      "native_vector": [
+        -117.08793236135521,
+        20.357212366694718,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 14,
+      "crystal_code": 2,
+      "printed_theta": 142.1,
+      "printed_phi": 144.9,
+      "native_theta": 142.1132152993805,
+      "native_phi": 144.86300157907067,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": -0.03699842092933636,
+      "front_control_theta_difference": 1.831544859443028,
+      "front_control_phi_difference": -4.570512873589934,
+      "native_vector": [
+        -97.18839387837053,
+        68.39894805728163,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 14,
+      "crystal_code": 3,
+      "printed_theta": 126.8,
+      "printed_phi": 147.8,
+      "native_theta": 126.81455260081346,
+      "native_phi": 147.8391801259056,
+      "native_theta_difference": 0.014552600813459549,
+      "native_phi_difference": 0.03918012590560238,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        -131.15903096515632,
+        82.47004666108276,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 15,
+      "crystal_code": 0,
+      "printed_theta": 124.9,
+      "printed_phi": 259.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 258.9831853779953,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": -0.016814622004687862,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        -24.957379217937337,
+        -128.1937175628044,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 15,
+      "crystal_code": 1,
+      "printed_theta": 143.5,
+      "printed_phi": 263.4,
+      "native_theta": 143.45808279700205,
+      "native_phi": 263.4094220715933,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": 0.009422071593348846,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": 7.740570855413807,
+      "native_vector": [
+        -10.886280614136226,
+        -94.22308047601862,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 15,
+      "crystal_code": 2,
+      "printed_theta": 143.5,
+      "printed_phi": 231.6,
+      "native_theta": 143.45808279700205,
+      "native_phi": 231.5905779284067,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": -0.009422071593292003,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": -7.7405708554137505,
+      "native_vector": [
+        -58.928016304723144,
+        -74.32354199303397,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 15,
+      "crystal_code": 3,
+      "printed_theta": 124.9,
+      "printed_phi": 236.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 236.01681462200474,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        -72.99911490852426,
+        -108.29417907981977,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 15,
+      "crystal_code": 0,
+      "printed_theta": 126.8,
+      "printed_phi": 257.2,
+      "native_theta": 126.81455260081346,
+      "native_phi": 257.1608198740944,
+      "native_theta_difference": 0.014552600813459549,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": 2.435338181015652,
+      "native_vector": [
+        -34.42831097049577,
+        -151.05856944814101,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 15,
+      "crystal_code": 1,
+      "printed_theta": 142.1,
+      "printed_phi": 260.1,
+      "native_theta": 142.1132152993805,
+      "native_phi": 260.13699842092933,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": 0.03699842092930794,
+      "front_control_theta_difference": 1.831544859443028,
+      "front_control_phi_difference": 4.570512873589962,
+      "native_vector": [
+        -20.357212366694664,
+        -117.08793236135523,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 15,
+      "crystal_code": 2,
+      "printed_theta": 142.1,
+      "printed_phi": 234.9,
+      "native_theta": 142.1132152993805,
+      "native_phi": 234.86300157907067,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": -0.03699842092933636,
+      "front_control_theta_difference": 1.831544859443028,
+      "front_control_phi_difference": -4.570512873589962,
+      "native_vector": [
+        -68.39894805728159,
+        -97.18839387837058,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 15,
+      "crystal_code": 3,
+      "printed_theta": 126.8,
+      "printed_phi": 237.8,
+      "native_theta": 126.81455260081346,
+      "native_phi": 237.83918012590564,
+      "native_theta_difference": 0.014552600813459549,
+      "native_phi_difference": 0.0391801259056308,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        -82.4700466610827,
+        -131.15903096515638,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 16,
+      "crystal_code": 0,
+      "printed_theta": 124.9,
+      "printed_phi": 349.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 348.9831853779953,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": -0.016814622004687862,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": 3.629031020275306,
+      "native_vector": [
+        128.1937175628044,
+        -24.957379217937337,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 16,
+      "crystal_code": 1,
+      "printed_theta": 143.5,
+      "printed_phi": 353.4,
+      "native_theta": 143.45808279700205,
+      "native_phi": 353.4094220715933,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": 0.009422071593348846,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": 7.740570855413807,
+      "native_vector": [
+        94.22308047601862,
+        -10.886280614136226,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 16,
+      "crystal_code": 2,
+      "printed_theta": 143.5,
+      "printed_phi": 321.6,
+      "native_theta": 143.45808279700205,
+      "native_phi": 321.5905779284067,
+      "native_theta_difference": -0.04191720299795065,
+      "native_phi_difference": -0.009422071593348846,
+      "front_control_theta_difference": 2.5110077865431606,
+      "front_control_phi_difference": -7.740570855413807,
+      "native_vector": [
+        74.32354199303397,
+        -58.928016304723144,
+        -127.98632739476508
+      ]
+    },
+    {
+      "distance_mm": 110,
+      "detector": 16,
+      "crystal_code": 3,
+      "printed_theta": 124.9,
+      "printed_phi": 326.0,
+      "native_theta": 124.9320289221779,
+      "native_phi": 326.01681462200474,
+      "native_theta_difference": 0.032028922177900654,
+      "native_phi_difference": 0.016814622004744706,
+      "front_control_theta_difference": -4.094923723210513,
+      "front_control_phi_difference": -3.6290310202752494,
+      "native_vector": [
+        108.29417907981977,
+        -72.99911490852426,
+        -91.21677477306461
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 16,
+      "crystal_code": 0,
+      "printed_theta": 126.8,
+      "printed_phi": 347.2,
+      "native_theta": 126.81455260081346,
+      "native_phi": 347.1608198740944,
+      "native_theta_difference": 0.014552600813459549,
+      "native_phi_difference": -0.03918012590560238,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": 2.435338181015595,
+      "native_vector": [
+        151.05856944814101,
+        -34.42831097049577,
+        -115.96551211459378
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 16,
+      "crystal_code": 1,
+      "printed_theta": 142.1,
+      "printed_phi": 350.1,
+      "native_theta": 142.1132152993805,
+      "native_phi": 350.1369984209294,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": 0.036998420929364784,
+      "front_control_theta_difference": 1.831544859443028,
+      "front_control_phi_difference": 4.570512873589962,
+      "native_vector": [
+        117.08793236135523,
+        -20.357212366694664,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 16,
+      "crystal_code": 2,
+      "printed_theta": 142.1,
+      "printed_phi": 324.9,
+      "native_theta": 142.1132152993805,
+      "native_phi": 324.86300157907067,
+      "native_theta_difference": 0.01321529938050503,
+      "native_phi_difference": -0.03699842092930794,
+      "front_control_theta_difference": 1.831544859443028,
+      "front_control_phi_difference": -4.570512873589905,
+      "native_vector": [
+        97.18839387837058,
+        -68.39894805728159,
+        -152.73506473629425
+      ]
+    },
+    {
+      "distance_mm": 145,
+      "detector": 16,
+      "crystal_code": 3,
+      "printed_theta": 126.8,
+      "printed_phi": 327.8,
+      "native_theta": 126.81455260081346,
+      "native_phi": 327.83918012590567,
+      "native_theta_difference": 0.014552600813459549,
+      "native_phi_difference": 0.039180125905659224,
+      "front_control_theta_difference": -2.5703702139146998,
+      "front_control_phi_difference": -2.435338181015595,
+      "native_vector": [
+        131.15903096515638,
+        -82.4700466610827,
+        -115.96551211459378
+      ]
+    }
+  ],
+  "census": {
+    "110": {
+      "ordered_pairs": 4096,
+      "angle_clusters_at_1e_7_degrees": [
+        [
+          0.0,
+          64
+        ],
+        [
+          18.786812225364205,
+          128
+        ],
+        [
+          25.601500315457585,
+          64
+        ],
+        [
+          26.690379333181472,
+          64
+        ],
+        [
+          31.946274379941006,
+          64
+        ],
+        [
+          33.654102026520235,
+          48
+        ],
+        [
+          44.36426164391631,
+          128
+        ],
+        [
+          46.79371617264954,
+          96
+        ],
+        [
+          48.57551441312083,
+          128
+        ],
+        [
+          49.79787087947715,
+          96
+        ],
+        [
+          53.83359822080324,
+          48
+        ],
+        [
+          60.151073090418414,
+          96
+        ],
+        [
+          62.70488336023377,
+          48
+        ],
+        [
+          63.086024130237824,
+          64
+        ],
+        [
+          65.01567355133359,
+          96
+        ],
+        [
+          66.46084757294881,
+          64
+        ],
+        [
+          67.45619222328139,
+          64
+        ],
+        [
+          69.86405784435577,
+          64
+        ],
+        [
+          70.86011417409675,
+          96
+        ],
+        [
+          73.0838344059959,
+          64
+        ],
+        [
+          76.38137426712616,
+          96
+        ],
+        [
+          78.66895467891577,
+          64
+        ],
+        [
+          83.04250543041552,
+          64
+        ],
+        [
+          86.22840193703507,
+          64
+        ],
+        [
+          86.23761029146222,
+          48
+        ],
+        [
+          88.47355758741152,
+          128
+        ],
+        [
+          91.52644241258845,
+          128
+        ],
+        [
+          93.76238970853775,
+          48
+        ],
+        [
+          93.7715980629649,
+          64
+        ],
+        [
+          96.95749456958445,
+          64
+        ],
+        [
+          101.33104532108422,
+          64
+        ],
+        [
+          103.61862573287382,
+          96
+        ],
+        [
+          106.91616559400406,
+          64
+        ],
+        [
+          109.13988582590324,
+          96
+        ],
+        [
+          110.13594215564419,
+          64
+        ],
+        [
+          112.54380777671857,
+          64
+        ],
+        [
+          113.53915242705116,
+          64
+        ],
+        [
+          114.98432644866638,
+          96
+        ],
+        [
+          116.91397586976217,
+          64
+        ],
+        [
+          117.29511663976619,
+          48
+        ],
+        [
+          119.84892690958155,
+          96
+        ],
+        [
+          126.16640177919675,
+          48
+        ],
+        [
+          130.20212912052284,
+          96
+        ],
+        [
+          131.42448558687914,
+          128
+        ],
+        [
+          133.20628382735043,
+          96
+        ],
+        [
+          135.63573835608366,
+          128
+        ],
+        [
+          146.34589797347974,
+          48
+        ],
+        [
+          148.05372562005894,
+          64
+        ],
+        [
+          153.3096206668185,
+          64
+        ],
+        [
+          154.39849968454234,
+          64
+        ],
+        [
+          161.2131877746357,
+          128
+        ],
+        [
+          180.0,
+          64
+        ]
+      ],
+      "cluster_count": 52,
+      "boundary": "ordered crystal pairs including self are distinct from physical pair events or xi combinations. Numerical angle clusters are not automatically the 52 orbit/classes printed in Table8. No Compton probabilities or actual efficiencies are inferred.",
+      "clover90_gate": {
+        "ordered_clover_pairs": 64,
+        "crystal_pairs": 1024,
+        "crystal_theta_range_degrees": [
+          67.45619222328139,
+          112.54380777671861
+        ],
+        "boundary": "geometric point combinations only, not actual event-selection probability or literal reconstruction of the source integer-degree cut"
+      }
+    },
+    "145": {
+      "ordered_pairs": 4096,
+      "angle_clusters_at_1e_7_degrees": [
+        [
+          0.0,
+          64
+        ],
+        [
+          15.442004985816844,
+          128
+        ],
+        [
+          21.905427336507852,
+          64
+        ],
+        [
+          29.143228818904063,
+          64
+        ],
+        [
+          33.143328542532196,
+          64
+        ],
+        [
+          38.381969554633024,
+          48
+        ],
+        [
+          44.57001292581004,
+          128
+        ],
+        [
+          47.44529058113371,
+          128
+        ],
+        [
+          48.741055349412,
+          96
+        ],
+        [
+          51.473445289525515,
+          96
+        ],
+        [
+          55.17044884013615,
+          48
+        ],
+        [
+          59.97820656839358,
+          64
+        ],
+        [
+          60.10239024033052,
+          96
+        ],
+        [
+          62.33961060404639,
+          64
+        ],
+        [
+          62.49243803631535,
+          48
+        ],
+        [
+          63.42306412131226,
+          96
+        ],
+        [
+          68.95672657570508,
+          96
+        ],
+        [
+          71.43139090597383,
+          64
+        ],
+        [
+          73.35819544801572,
+          96
+        ],
+        [
+          73.62910520162693,
+          64
+        ],
+        [
+          75.77356940123899,
+          64
+        ],
+        [
+          80.94233735514796,
+          64
+        ],
+        [
+          81.54637356809513,
+          48
+        ],
+        [
+          83.89355397314337,
+          64
+        ],
+        [
+          86.86804737803786,
+          64
+        ],
+        [
+          88.96576817348655,
+          128
+        ],
+        [
+          91.03423182651342,
+          128
+        ],
+        [
+          93.13195262196211,
+          64
+        ],
+        [
+          96.10644602685662,
+          64
+        ],
+        [
+          98.45362643190484,
+          48
+        ],
+        [
+          99.05766264485202,
+          64
+        ],
+        [
+          104.22643059876098,
+          64
+        ],
+        [
+          106.37089479837304,
+          64
+        ],
+        [
+          106.64180455198425,
+          96
+        ],
+        [
+          108.56860909402616,
+          64
+        ],
+        [
+          111.04327342429491,
+          96
+        ],
+        [
+          116.5769358786877,
+          96
+        ],
+        [
+          117.50756196368462,
+          48
+        ],
+        [
+          117.66038939595359,
+          64
+        ],
+        [
+          119.89760975966946,
+          96
+        ],
+        [
+          120.02179343160638,
+          64
+        ],
+        [
+          124.82955115986381,
+          48
+        ],
+        [
+          128.52655471047444,
+          96
+        ],
+        [
+          131.25894465058798,
+          96
+        ],
+        [
+          132.55470941886625,
+          128
+        ],
+        [
+          135.4299870741899,
+          128
+        ],
+        [
+          141.61803044536694,
+          48
+        ],
+        [
+          146.85667145746777,
+          64
+        ],
+        [
+          150.85677118109592,
+          64
+        ],
+        [
+          158.0945726634921,
+          64
+        ],
+        [
+          164.55799501418306,
+          128
+        ],
+        [
+          180.0,
+          64
+        ]
+      ],
+      "cluster_count": 52,
+      "boundary": "ordered crystal pairs including self are distinct from physical pair events or xi combinations. Numerical angle clusters are not automatically the 52 orbit/classes printed in Table8. No Compton probabilities or actual efficiencies are inferred.",
+      "clover90_gate": {
+        "ordered_clover_pairs": 64,
+        "crystal_pairs": 1024,
+        "crystal_theta_range_degrees": [
+          71.43139090597383,
+          108.56860909402619
+        ],
+        "boundary": "geometric point combinations only, not actual event-selection probability or literal reconstruction of the source integer-degree cut"
+      }
+    }
+  },
+  "checks": {
+    "all128_crystal_positions_serialized": true,
+    "all256_native_angles_within_printed_rounding_boxes": true,
+    "declared_front_control_is_distinct": true,
+    "pair_census4096_each_distance": true,
+    "published_Table8_52_printed_angle_multiplicity_classes_match": false
+  },
+  "ok": false,
+  "boundary": "Native source uses constant45mm most-likely interaction depth. Rounding agreement with Table2 is geometry-point identity evidence, not actual event depth, detector response, Q or original producer certification. No coordinates/identity permutation fitted.",
+  "generated_at": "2026-10-19T10:27:40.299637+00:00"
+}

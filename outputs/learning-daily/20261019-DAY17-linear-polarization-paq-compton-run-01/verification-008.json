@@ -1,0 +1,110 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 17,
+    "error": null
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 195,
+      "info": 2617
+    },
+    "errors": [],
+    "warning_codes": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 139,
+      "RAW_MISSING": 52
+    }
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "artifact_checks": {
+    "day17_griffin_primary_calibration_replay.py": {
+      "execution_integrity_ok": true,
+      "script_hash_match": true
+    },
+    "day17_griffin_geometry_contract.py": {
+      "execution_integrity_ok": true,
+      "script_hash_match": true
+    }
+  },
+  "scientific_replay": {
+    "geometry_Table2": {
+      "positions": 128,
+      "native_max_absolute_angle_residual_degrees": 0.041917202997979075,
+      "front_control_max_absolute_angle_residual_degrees": 7.740570855413807,
+      "native_all_rounding_boxes": true
+    },
+    "Table8_status": "partial-not-all-printed-rows-reproduced",
+    "Table8_all_printed_rows_match": false,
+    "input_source_preserved": true,
+    "not_a_technical_Git_safety_P0": true
+  },
+  "ok": true,
+  "checked_at": "2026-10-19T10:36:34.247453+00:00"
+}

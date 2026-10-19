@@ -1,0 +1,13 @@
+{
+  "question": "GF19 Table8 lineage and geometry-point role",
+  "actual_scope": "Day17 targeted re-read Smitharxiv1807.07570v1 PDF3/Table1/caption/Sec2 and PDF4/Table2/data response equations; no new full28page reading credit",
+  "original_sha256": "0390bdbb6b78f035d1d49abd4ecf863a684f3a8eb3ba6c537cfbd8fb6e352f33",
+  "actual_file": "tmp/20261016-day15-ado/griffin-download/PDFs/Gamma-gamma_angular_correlation_analysis_techniques_with_the_GRIFFIN_spectrometer.pdf",
+  "observations": "same printed113.4/152.3/160.2 and same-to-four-decimals near86/94 caption; source claims simulated mean interaction angle agrees frontface geometric angle; no independent experimental check provided by table repetition",
+  "visual_scope": "Explicit PDF3/Table1/caption/Sec2 image inspected after correcting an initial keyword-loop render overwritten by PDF4/Table1 mention; PDF4 image also inspected.",
+  "priming": "old source page/Day15 fullread history plus current Table8 question, not blind",
+  "image_files": [
+    "tmp/day17-griffin-facility/smith-pdf3-table1-direct.png",
+    "tmp/day17-griffin-facility/smith-table1-direct.png"
+  ]
+}

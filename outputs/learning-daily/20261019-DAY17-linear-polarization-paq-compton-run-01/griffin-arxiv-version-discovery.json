@@ -1,0 +1,30 @@
+{
+  "requested_at": "2026-10-19T10:39:41.134069+00:00",
+  "url": "https://arxiv.org/abs/1809.07183",
+  "status": 200,
+  "metadata": {
+    "citation_title": "The GRIFFIN Facility for Decay-Spectroscopy Studies at TRIUMF-ISAC",
+    "citation_author": "Zidar, T.",
+    "citation_doi": "10.1016/j.nima.2018.11.115",
+    "citation_date": "2018/09/18",
+    "citation_online_date": "2018/12/06",
+    "citation_pdf_url": "https://arxiv.org/pdf/1809.07183",
+    "citation_arxiv_id": "1809.07183",
+    "citation_abstract": "Gamma-Ray Infrastructure For Fundamental Investigations of Nuclei, GRIFFIN, is a new high-efficiency $\\gamma$-ray spectrometer designed for use in decay spectroscopy experiments with low-energy radioactive ion beams provided by TRIUMF's Isotope Separator and Accelerator (ISAC-I) facility. GRIFFIN is composed of sixteen Compton-suppressed large-volume clover-type high-purity germanium (HPGe) $\\gamma$-ray detectors combined with a suite of ancillary detection systems and coupled to a custom digital data acquisition system. The infrastructure and detectors of the spectrometer as well as the performance characteristics and the analysis techniques applied to the experimental data are described."
+  },
+  "version_and_journal_links": [
+    {
+      "text": "v1",
+      "href": "https://arxiv.org/abs/1809.07183v1"
+    },
+    {
+      "text": "arXiv:1809.07183v2",
+      "href": "https://arxiv.org/abs/1809.07183v2"
+    },
+    {
+      "text": "[v1]",
+      "href": "/abs/1809.07183v1"
+    }
+  ],
+  "scope": "metadata/version discovery, no new body claim"
+}

@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 active; native consumer003 and next primary staged
+## Active handoff — DAY17 active; primary and coordinate checkpoint004
 
-Run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海截止不改，nativegoalactive/Farmer42019复用。001/002均actualH3/Gitee push。003稳定指针main / `Verify DAY17 native consumer schema and stage GRIFFIN primary`；精确hash/actualpush只本runpublication，不伪造原runner正常exit。
+Run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止不改，nativegoalactive，Farmer42019沿用；001/002/003均actualH3/Gitee push。004稳定指针main / `Ground DAY17 GRIFFIN calibration in primary evidence and geometry checks`；精确hash/actualpush只本runpublication，原manualwaiter/runner已从canonical16:06中断事件及原PID缺失核实；同session nativegoal继续，已append-only补scheduler session索引，不伪造正常runnerexit/自动授分。
 
-canonical七页/唯一writeback；来源前primed回忆与ST99/SG98主线、sharedCov/array/Qenergy合同保持。新GRS26-13实际fullLean body+batchentry/ROOT：同设计均值newhelperkeys exit139/graphs缺失、legacykeys exit0/原fit约.1995/0.1996；均非实验P/CI、完整GRSISortbuild或原producer认证。源newAnalyze/CMake默认Lean反证保持，old25flags/raw/PLAN/Bib保护。
+新primary Garnsworthy2019实际arxivv2完整36页/28fig/8table/12eq已读并视觉核，原Q=.240(.012)/nominalP90=1/6、.5QPcos2ξ、clover90°/crystal68–113°、其它Q与共享calibration/207Bi角色已canonical；原件hash b257eb66...f16ed/cache tmp/day17-griffin-facility，raw/Bib归档deferred。输入/actualScaleQ/Table7 summary核算及共同rank1项非新实验Σ/CI。
 
-下一新anchor已合法OA取得：arxiv1809.07183v2，36页，hash b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed；tmp/day17-griffin-facility/PDFs/原件，source前回忆另冻。当前仅首identity页＋keyword定位扫描，全文主线/图表/式尚未读，不能把扫描显示的Q/偏振摘要先写scientific claim。继续完整36页主线及相关图表/误差/limitations，核GRIFFIN实际P/Q/θgate/eventmixing与publiccode的版本/数据依赖；不把metadata、代码comment或新设计当原测量。
+原native45mmdepth/26mmoffset position与Table2两距离128位置/256角在.05°内；Table8三行未全复现，source/native各值、打印中心.25°outerbound、原首次failure全部保留为scientificpartial，不称sourceerratum或experimentalconflict。定向v1原33页仅identity/Table2/8两图，条目同v2；VoR public metadata200无body/FULL401，不重试权限终态。Smith旧source只PDF3–4/两图定向核共享Table1，旧17claim flags保持，不重计全文credit。
 
-当前仍partial17/next17count16，未开18/19；verification006实际report/唯一writeback七页/coverage/boundary/lint/diff0，0errors192warnings，native负139/正0已记录且不作为技术安全门失败。缺actualdata/response/Σ持续追踪，QMD/overview deferred；首依赖/模板/eol/SSH分类错误及原程序失败留档，继承dirty/log仅ownentry显式stage。
+当前唯一writeback十页（newprimary+experimentledger、code/source/method/note/index和Smith最小sync）；report仍partial17、课程next17count16，未开18/19。新claims needs_review，旧ST99/SG98 25rows及Smith17rows/旧review/PLAN/Bib/raw/继承dirty保护；verification010实际report/唯一writeback十页/coverage/boundary/lint/diff均0，0errors195warnings（139key52raw4parser），旧42claim行/flags与PLAN/Bib保持；scientificpartial不冒称实验成功。QMD/overview deferred。
 
-Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。研究window尚有约20h，不由003或source局部完成终止；goal仅完整closeout审计通过才complete。
+下一先核最新clock/原receipt/整体候选池；当前actualevent/原response/Σ/historicalproducer缺口仍有边界，不扫cp/id或更多toy追Table8通过。可沿真正公开geometry/eventinput、针对referencerole/normalizer的独立source或按时间门恰好Day18无学分知识preview；不得开19/授18，也不因004局部完成结束研究窗。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

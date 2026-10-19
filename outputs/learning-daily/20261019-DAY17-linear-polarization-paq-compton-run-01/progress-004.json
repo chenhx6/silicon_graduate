@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-10-19T18:44:43.508120+08:00",
+  "minutes_to_original_deadline": 1215.2748646666666,
+  "previous_goal_turn_classification": "progress: full36page primary/figures, actualcalibration replay, exactposition/Table2/8 boundary and targetedv1 read",
+  "status": "active / partial17 / noDay18or19",
+  "formal_course_state": "next17/count16 unchanged",
+  "current_canonical_pages": 9,
+  "scientific_limits": {
+    "actualevent_response_fitCov": "not acquired",
+    "Table8_replay": "partial; three rows not matched; no source inputs changed",
+    "VoRbody": "not acquired; metadata200 not fullbody, FULL401 retained",
+    "arxivv1": "targeted only; same printed values, not independent experiment"
+  },
+  "publication_003": "actual pushed77ebab802886def96a95fef06b10b430e49b6813",
+  "next_high_information_route": "precise geometry/refplane/normalizer and historicalproducer input; candidate pool refresh before more kernels or exactly uncreditedDay18 if current route saturated"
+}

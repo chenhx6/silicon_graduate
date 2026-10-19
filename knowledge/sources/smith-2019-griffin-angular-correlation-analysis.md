@@ -3,7 +3,7 @@ type: source
 title: GRIFFIN角关联分析：事件混合与有限几何响应
 aliases: [Smith 2019 GRIFFIN angular correlations, Smith 2018 arXiv 1807.07570, GRIFFIN event mixing]
 created: 2026-10-16
-updated: 2026-10-16
+updated: 2026-10-19
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-method
@@ -106,6 +106,11 @@ Method4再以两能量函数积`f(E1,E2)=g(E1)g(E2)`近似beta/gamma，Eq29的�
 | SG19-15 | v1正文给简化几何Q22=.923–.941、Q44=.761–.814，却称Table5的约.95/.84值在范围内；字面范围不覆盖，不能当独立定量一致性证明。 | source-consistency-boundary | direct-and-self-audit | PDF p.11，Eq25/26后简化几何段落 | true |
 | SG19-16 | 本session取得Ref21/22所指2017固定公开软件归档：angular extension v1.0、detectorSimulations v1.0.0；Zenodo byte/MD5及本地SHA核过，非当前版本或成功执行证明。 | software-object-identity | direct | Zenodo records1120421/1123461的version/files；本页软件对象表 | true |
 | SG19-17 | 固定detectorSimulations v1.0.0 README明确NDA/第三方IP源码被省略并需另取，要求旧Geant4/ROOT；公开源文件还说明constructor/geometry在local NDA文件。当前只做有限静态核查，未build或重放论文full response。 | software-readiness-boundary | direct-and-self-audit | archive v1.0.0 README.md L4/L10/L18/L34；src/DetectionSystemGriffin.cc L40–44 | true |
+| SG19-18 | Day17只定向重核原v1 PDF3/Table1/caption/Sec2与PDF4实际data/kernel合同；Table1含与装置论文Table8同样的113.4/152.3/160.2及近86/94四小数脚注，不增独立实证。两文与当前native/Table2的有界不闭合须保留，不能据表重复认证historicalproducer或真实角response。 | targeted-cross-source-table-boundary | direct-targeted-source-and-comparison | PDF3 Table1/Sec2；PDF4 Table2/Eq6–12；GF19-15/16/18 | true |
+
+### Day17定向角表与response合同复核
+
+本session仅针对[[garnsworthy-2019-griffin-facility]] GF19-15/16/18的角表问题重核本篇原hash/PDF3–4及两页图像；旧SG19-1–17逐字/flags保持，不重记28页全文credit。Table1与装置Table8的相同三行和caption属于共享几何谱系，不能作独立验证；[[triumf-griffin-compton-source-calibration]]记录当前paper/code与actualevent/Σ缺口。当前native位置/打印方向相合和Table8的partial边界不认证本篇实际geometry producer，也不修改原表或既有实验coef/δ。
 
 ## Nuclear Structure Information
 

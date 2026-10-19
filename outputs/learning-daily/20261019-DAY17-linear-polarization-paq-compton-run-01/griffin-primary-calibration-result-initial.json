@@ -1,0 +1,165 @@
+{
+  "input_sha256": "27b77cb2f0868b3c259c65e5f9add3898137902e9d48d625a6a8a2162bf80923",
+  "script_sha256": "fc99ce2b69b6c2245bb1bc50b47de7ddad7e95c9781366fe6fc7d76ec0d3ebad",
+  "pdf_sha256": "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed",
+  "code_sha256": "ef011abde04415030bec5dd5534ae2766cfa8f36d1ce27bcce8d45d4f7cce090",
+  "source_vs_current_code_boundary": "current pinned generic uniform-theta ScaleQ; not attested 2018 experiment producer",
+  "rows": [
+    {
+      "energy_keV": 570,
+      "Q": 0.39,
+      "sigma_Q": 0.024,
+      "emitter": "207Pb",
+      "role": "reported other-energy validation",
+      "current_code_forward_scale": 1.5758431416876093,
+      "current_code_reverse_scale": 0.6345809259474108,
+      "conditional_prediction": 0.3782023540050262,
+      "conditional_shared_anchor_sigma": 0.018910117700251312,
+      "measured_minus_conditional_prediction": 0.011797645994973793,
+      "central_fractional_difference": 0.031194004664542696,
+      "reversed_role_prediction": 0.15229942222737858
+    },
+    {
+      "energy_keV": 1173,
+      "Q": 0.258,
+      "sigma_Q": 0.012,
+      "emitter": "60Ni",
+      "role": "reported other-energy validation; same isotope/source family as anchor",
+      "current_code_forward_scale": 1.0824775328145853,
+      "current_code_reverse_scale": 0.9238067023893486,
+      "conditional_prediction": 0.25979460787550046,
+      "conditional_shared_anchor_sigma": 0.012989730393775023,
+      "measured_minus_conditional_prediction": -0.0017946078755004535,
+      "central_fractional_difference": -0.006907794931450106,
+      "reversed_role_prediction": 0.22171360857344366
+    },
+    {
+      "energy_keV": 1332,
+      "Q": 0.24,
+      "sigma_Q": 0.012,
+      "emitter": "60Ni",
+      "role": "source calibration anchor",
+      "current_code_forward_scale": 1.0,
+      "current_code_reverse_scale": 1.0,
+      "conditional_prediction": 0.24,
+      "conditional_shared_anchor_sigma": 0.012,
+      "measured_minus_conditional_prediction": 0.0,
+      "central_fractional_difference": 0.0,
+      "reversed_role_prediction": 0.24
+    },
+    {
+      "energy_keV": 1771,
+      "Q": 0.201,
+      "sigma_Q": 0.045,
+      "emitter": "56Fe",
+      "role": "reported other-energy validation; detailed gate not supplied in this source text",
+      "current_code_forward_scale": 0.8277036104241329,
+      "current_code_reverse_scale": 1.2081619403442965,
+      "conditional_prediction": 0.1986488665017919,
+      "conditional_shared_anchor_sigma": 0.009932443325089595,
+      "measured_minus_conditional_prediction": 0.002351133498208119,
+      "central_fractional_difference": 0.01183562503834823,
+      "reversed_role_prediction": 0.28995886568263113
+    }
+  ],
+  "conditional_validation_order": [
+    570,
+    1173,
+    1771
+  ],
+  "conditional_anchor_covariance": [
+    [
+      0.00035759255143735796,
+      0.0002456373306408175,
+      0.00018782367232851976
+    ],
+    [
+      0.0002456373306408175,
+      0.00016873309570296263,
+      0.00012901976094436415
+    ],
+    [
+      0.00018782367232851976,
+      0.00012901976094436415,
+      9.865343040611684e-05
+    ]
+  ],
+  "covariance_contract": "For a conditional comparison only, propagate a single anchor Q error as rank-one covariance sigma_ref^2*s*s^T. Actual validation errors, Q_ref dependence, source sharing, geometry/model/fit covariances are not supplied; no experimental chi-square significance or new confidence region.",
+  "nominal_Co60_reference": {
+    "P": 0.16666666666666666,
+    "Q": 0.24,
+    "A0": 0.019999999999999997,
+    "sigma_A0_from_Q_only": 0.001,
+    "boundary": "source adopts nominal P90=1/6; roundtrip is not an independent measurement of P"
+  },
+  "table7_replay": {
+    "conditional_central_sum": 10204.872389791182,
+    "independent_area_efficiency_only_sigma": 121.0155865183585,
+    "source_reported_expected": 10201,
+    "central_difference": 3.872389791182286,
+    "omit_ICC_prediction": 21991.5,
+    "omitting_ICC_ratio": 2.1550000000000002,
+    "boundary": "alpha and other covariance held fixed in this local diagnostic; not the source full error recipe or independent experimental confirmation"
+  },
+  "compile": {
+    "command": [
+      "g++",
+      "-O1",
+      "-I/workspace/wiki/tmp/day17-grsisort/include",
+      "/workspace/wiki/tmp/day17-griffin-facility/calibration-build/scale-source.cxx",
+      "-o",
+      "/workspace/wiki/tmp/day17-griffin-facility/calibration-build/scale-source",
+      "-pthread",
+      "-std=c++17",
+      "-m64",
+      "-fsized-deallocation",
+      "-I/opt/root/include",
+      "-L/opt/root/lib",
+      "-lCore",
+      "-lImt",
+      "-lRIO",
+      "-lNet",
+      "-lHist",
+      "-lGraf",
+      "-lGraf3d",
+      "-lGpad",
+      "-lROOTVecOps",
+      "-lTree",
+      "-lTreePlayer",
+      "-lRint",
+      "-lPostscript",
+      "-lMatrix",
+      "-lPhysics",
+      "-lMathCore",
+      "-lThread",
+      "-lROOTNTuple",
+      "-lROOTNTupleUtil",
+      "-lMultiProc",
+      "-lROOTDataFrame",
+      "-Wl,-rpath,/opt/root/lib",
+      "-pthread",
+      "-lm",
+      "-ldl",
+      "-rdynamic"
+    ],
+    "exit_code": 0,
+    "stderr": ""
+  },
+  "execution": {
+    "exit_code": 0,
+    "stdout": "570 1.5758431416876093 0.63458092594741078\n1173 1.0824775328145853 0.92380670238934859\n1332 1 1\n1771 0.82770361042413287 1.2081619403442965\n",
+    "stderr": ""
+  },
+  "binary_sha256": "9f734db4401cc9ff0c49ce8e4c2c493e1971f58c2aa8c025ac8b4a50c055dcb9",
+  "adapter_sha256": "bf262e4a778a99c797576654e1e7c855041e23373cd7a1946674819f0f481753",
+  "checks": {
+    "native_compile_and_execution": true,
+    "anchor_scale_one": true,
+    "nominal_A0_002": true,
+    "role_scales_reciprocal": true,
+    "conditional_anchor_covariance_rank_one": true,
+    "table7_central_difference_within_printed_input_rounding_scale": true
+  },
+  "ok": true,
+  "generated_at": "2026-10-19T10:07:49.660914+00:00"
+}

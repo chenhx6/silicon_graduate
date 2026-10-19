@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[garnsworthy-2019-griffin-facility]] - 原读36页v2；实际Q/P参考、角组/半因子、sum/efficiency与当前publiccode的版本/数据边界。
+
 - [[grsisort-2026-compton-polarimetry-code]] - 固定公开Compton helper/consumer：原样ROOT组件、input消费/事件混合/归一/分组边界；保留默认Lean反证与actualdata缺口。
 
 - [[geant3-vmc-2026-compton-baseline]] - 固定public代码/真实组件MC核验；无偏振callpath、GeV与transportcuts，非GR97原producer。
@@ -444,6 +446,8 @@ updated: 2026-10-19
  - [[lorentz-boost-correction]] - in-beam center-of-mass/laboratory angle aberration、solid-angle factor 与 polarization-ratio cancellation。
 
 ## Experiments
+
+- [[triumf-griffin-compton-source-calibration]] - GRIFFIN已知source的P/A/Q、scatter/gate角色、角组与actualdata/Σ输入账本。
 
 - [[tsukuba-127-128i-li7-28-32mev]] - 28 MeV/32 MeV `124Sn(7Li,3n/4n)128,127I`、日本筑波大学串列与 10-HPGe 反康谱仪阵列在束 γ 谱学数据集；实际多极性分析使用 ADO。
 - [[ithembalabs-afrodite-74as-he4-58-62mev]] - `74Ge(4He,1p3n)74As` at `58.6/62.6 MeV`；AFRODITE+LEPS coincidence/ADO/polarization dataset。

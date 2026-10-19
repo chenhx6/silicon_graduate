@@ -1,0 +1,34 @@
+{
+  "classified_at": "2026-10-19T10:30:21.957900+00:00",
+  "compilation_and_native_execution": "exit0; all256 Table2 angles within .05deg",
+  "scientific_replay": "partial: Table8 all52 rows not matched",
+  "source_only_printed_rows": [
+    [
+      113.4,
+      64
+    ],
+    [
+      152.3,
+      64
+    ],
+    [
+      160.2,
+      128
+    ]
+  ],
+  "native_only_rows": [
+    [
+      113.5,
+      64
+    ],
+    [
+      153.3,
+      64
+    ],
+    [
+      161.2,
+      128
+    ]
+  ],
+  "action": "preserve original raw/typed input; inspect high-resolution original Table8; use independent Table2 central vectors and deterministic rounding bounds. Do not tune geometry or change a source row to pass."
+}

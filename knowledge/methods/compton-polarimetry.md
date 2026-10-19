@@ -26,6 +26,10 @@ SG98改用balanced-denominator会令响应非线性于P，重标一条线仍不�
 
 GRS26-13进一步实际编译默认Lean完整source body并以ROOT设计fixture核schema：newhelper keys在该consumer中exit139且目标graphs缺失，legacy keys正控制exit0。生成output文件不等于分析成功；codepath/格式/fit输入须一并attest，设计amplitude与native fiterror不算实验P/CI。
 
+实际primary校准见[[garnsworthy-2019-griffin-facility]] GF19-6–13与[[triumf-griffin-compton-source-calibration]]：source采用A(ξ)=.5 QPγ(Θ)cos2ξ、60Co1332 nominalP90=1/6，reportedQ=.240(.012)。cloverpair90°与crystalΘ68–113°须分开；其它570/1173/1771检查点有共享anchor/source依赖，不能拿当前codecomment或uniformθ kernel冒作实验Q/Σ。原36页主线与关键图表已读，未得actualevents/producer；paper本身为当前code局部问题的必要反证/版本边界。
+
+GF19-15–17/GRS26-14进一步实际核Table2身份和native position基点：GetPosition(dist)含45mm代表interactiondepth，Table2方向相合不等actualdepth或response认证。110/145mm的相同clover90°门会给不同crystalΘ域，Table8三行未全复现；保留source版本/几何点/unroundedproducer边界，不调几何或据countcensus迁Q。
+
 ## Purpose
 
 Compton polarimetry infers the linear polarization of gamma rays from the azimuthal dependence of Compton-scattering events. The scattering plane is correlated with the incident electric-field direction through the Klein-Nishina cross section.

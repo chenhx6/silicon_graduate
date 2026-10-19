@@ -21,7 +21,7 @@ updated: 2026-10-19
 - Day 17 card audit: partial
 - 当前课程文件仍为next17/count16；Day16预习、旧程序检查与旧分数不兑换正式17。本session只允许正式17，最多无学分partial18，不开19；目前未开18。
 
-实际runner回执位于[run.json](20261019-DAY17-linear-polarization-paq-compton-run-01/run.json)，其run-01/session与原deadline覆盖准备prompt的run-17/output_dir示例。`events.jsonl`实际thread.started与CODEX_THREAD_ID相符。用户打断后明确要求farmer/go-on/all/auto继续；后来暂停并恢复goal，仍是同一session，不新建daemon/session或调度。当前未观察原runner正常exit，不把它写成已发生。
+实际runner回执位于[run.json](20261019-DAY17-linear-polarization-paq-compton-run-01/run.json)，其run-01/session与原deadline覆盖准备prompt的run-17/output_dir示例。`events.jsonl`实际thread.started与CODEX_THREAD_ID相符。用户打断后明确要求farmer/go-on/all/auto继续；后来暂停并恢复goal，仍是同一session，不新建daemon/session或调度。现已从canonical scheduler的16:06 manual-waiter-interrupted及原PID缺失核实原waiter/runner中断；当前研究通过同session用户恢复的nativegoal继续，正常runnerexit code仍未观察。已append-only补同session索引，见[session-index](20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json)，未启动新session/调度器。
 
 ### Day 17 card completion audit
 
@@ -71,6 +71,14 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 [pinned manifest](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-pinned-download.json)、[component input](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-component-input.json)、[actual result](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-component-result.json)、[script](../../system/scripts/day17_grsisort_component_audit.py)保存边界。当前tree没有ROOT文件且未得实际配套data/Σ，不宣称全部合法数据入口穷尽；source raw归档槽deferred，原件真实缓存repo tmp/固定URL可重取。
 
+### 新anchor完整主线已核：实际GRIFFIN校准
+
+[[../../knowledge/sources/garnsworthy-2019-griffin-facility]] GF19-1–14：本session来源前回忆另冻后，完整读36页arxiv1809.07183v2、Figs1–28/Tables1–8/Eq1–12，所有页面视觉核，PDF18/22/23/24另核Table7/关键式/校准曲线。DOI10.1016/j.nima.2018.11.115、104作者/NIMA918/9–29/2019由Crossref精确title核；actualbody仍是2018v2而非声称已读VoR。原hash b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed；raw归档deferred、无Bib唯一key，原件repo tmp可复取。
+
+实际calibration采用.5QPcos2ξ、1332-keV nominalP90=1/6与Q=.240(.012)，16clover；其它570/1173/1771点为.390(.024)/.258(.012)/.201(.045)。cloverpair90°与crystalΘ68–113°、Θ/ϑ/ξ、Fig18同data分组、Fig20的1064scatter/570gate与反向角色分开。当前2026code不认证当年producer，paper Q也不裸迁其它角组/array（GF19-6–12）。[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际输入账本。
+
+作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
+
 ## Theory/analysis exercise
 
 完整公式、假设与数据在[[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]；可运行[day17_paq_shared_calibration.py](../../system/scripts/day17_paq_shared_calibration.py)，输入[paq-design-input.json](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-design-input.json)，结果[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json)。这是新声明的设计计数，不是ST99/SG98实测数据。
@@ -104,6 +112,18 @@ GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compto
 
 GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-01/lean-schema-before.md)、[实际结果](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-lean-schema-result.json)、[程序](../../system/scripts/day17_grsisort_lean_schema_audit.py)记录完整旧Lean source仅附batch entry运行。相同设计TH2D均值、不同keys：newhelper格式actualexit139、四目标graphs缺失；legacy格式actualexit0并输出171/19/10/101点。原fit amplitude约.199523/.199614只说明声明cos2均值fixture的程序行为，不是实验P/Q/CI。输出文件存在或检查器exit0均不代消费成功，原失败未抹去。
 
+### 原primary摘要与当前kernel的受限核算
+
+[冻结输入](20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-primary-calibration-input.json)、[程序](../../system/scripts/day17_griffin_primary_calibration_replay.py)、[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-primary-calibration-result.json)保存published四Q和actualcurrentScaleQ执行，不能称原Fig19 producer重放。源.240锚点给570/1173/1771条件预测.378202/.259795/.198649，差+.011798/−.001795/+.002351；只传播anchorσ的curve Cov=.012² ssᵀ，不用缺失measurementCov造新χ²/CI。
+
+源nominalA0=.5×.240×1/6=.020，σ=.001仅Q项。Table7的A245ε122/[16(1+α121)]打印中央值给10204.872，独立area/eff-only localσ121.016；明确末位rounding盒10183.221–10226.535包含源10201。省ICC则21991.5。这里给实际photon/total分母反证，不恢复完整原Σ或制造新计数实验。
+
+### 实际坐标表与native position的受限核验
+
+[原表输入](20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-geometry-table-input.json)、[原样ROOT geometry脚本](../../system/scripts/day17_griffin_geometry_contract.py)与[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-geometry-result.json)固定身份不拟合：GetPosition含45mm代表interactiondepth；Table2两距离128位置/256方向与native均在.05°打印盒内，最大差.04192°，另名front-control可差7.7406°。这不是测量actualdepth/实验response。
+
+Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5/153.3/161.2未全匹配；首次全表match假设失败和原输入保留。独立原Table2打印中心最近后两角差约.958/.943°，在两表同几何点前提下超.25°保守rounding外界。不同基点/历史producer/未舍入版本未解，不能称实验矛盾或sourceerratum。另定向v1原33页的identity/Table2/Table8及两页图像，相关印刷条目与v2相同；未整读v1或计独立实证。Publisher默认TDM200仅metadata、FULL401，VoR body未得（GF19-18）。Ref38 Smith原PDF3/Table1/caption及PDF4定向核也含相同三行/脚注，仅确认共享角表谱系、不计独立证据（SG19-18），旧17claim/flags保持。clover90°的点几何110/145mm crystalΘ域约67.456–112.544/71.431–108.569°，不认证原paper literalcut/Q（GF19-15–17、GRS26-14）。
+
 ## Counter-evidence and missing companion observables
 
 - ST99-2：490-keV的P/RDCO仍保留E2与ΔI0 M1/E2；正号不保证唯一δ/Jπ。ST99-12的ακ是作者理论预测而非已测ICC，不能拿它闭合分支。
@@ -121,7 +141,7 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
 
 ## Durable knowledge delta
 
-本轮七个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存真实public producer/consumer的固定输入与实际组件结果。outputs不是唯一知识副本。
+本轮十个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
 
 ```knowledge-writeback
 {
@@ -129,7 +149,7 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
   "items": [
     {
       "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
-      "summary": "保存Day17新P/A/Q分层、联合计数/误差设计、改分母非线性与效率归一边界；均为附条件推导。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。",
+      "summary": "保存Day17新P/A/Q分层、联合计数/误差设计、改分母非线性与效率归一边界；均为附条件推导。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 新原件实际Q与版本/数据依赖已加入。",
       "anchor": "共同校准如何进入参考比值",
       "sources": [
         {
@@ -163,6 +183,14 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-12"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-12"
         }
       ]
     },
@@ -202,7 +230,7 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "新增共享校准传播与reference独立验证门。 增加公开producer/实际组件与版本反证入口。",
+      "summary": "新增共享校准传播与reference独立验证门。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。",
       "anchor": "同参考校准的计数与误差门",
       "sources": [
         {
@@ -216,12 +244,20 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-7"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。",
+      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。 新原件实际Q与版本/数据依赖已加入。 补原表/native点身份、双距离角门与Table8 partial边界。",
       "anchor": "共同校准与估计量归一的联合设计",
       "sources": [
         {
@@ -255,12 +291,32 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-13"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-12"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-15"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-16"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-17"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -270,12 +326,20 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-7"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
-      "summary": "固定公开GRSISort/GRSIData、完整selected原件读取及原样ROOT组件；保留Lean默认目标反证和无真实data/Σ边界。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。",
+      "summary": "固定公开GRSISort/GRSIData、完整selected原件读取及原样ROOT组件；保留Lean默认目标反证和无真实data/Σ边界。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。 新原件实际Q与版本/数据依赖已加入。 补原表/native点身份、双距离角门与Table8 partial边界。",
       "anchor": "条件组件的实际数值与反证",
       "sources": [
         {
@@ -313,6 +377,127 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-13"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-12"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-15"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-16"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "summary": "本session完整读36页arxivv2/图表式，核原Q/角组/half-factor/重复数据、配置与计数分母，保存实际摘要重算与currentcode比较边界。 补原表/native点身份、双距离角门与Table8 partial边界。 定向v1角表/公开VoR无body访问边界。 共享Smith角表谱系已定向核，非独立实证。",
+      "anchor": "本任务的量化、核验与认识修订",
+      "sources": [
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-6"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-9"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-13"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-14"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-15"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-16"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-17"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-18"
+        },
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "summary": "保存实际GRIFFIN source-calibration ledger、参考/target/gate、reportedQ和响应/Σ readiness；不新造实验。 补原表/native点身份、双距离角门与Table8 partial边界。",
+      "anchor": "GRIFFIN源偏振标定的可复用输入账本",
+      "sources": [
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-6"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-8"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-9"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-10"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-12"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-15"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-16"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "summary": "仅定向原PDF3/Table1/caption/Sec2与PDF4核共享角表/response合同，旧17claim行与flags不改，不重授全文credit。",
+      "anchor": "Day17定向角表与response合同复核",
+      "sources": [
+        {
+          "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+          "locator": "SG19-18"
+        },
+        {
+          "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+          "locator": "GF19-16"
         }
       ]
     }
@@ -328,7 +513,7 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
 
 ## L0–L4 state
 
-L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性、最小独立检查设计与实际producer readiness。原样软件组件为限定版本的实际代码执行，非实验L4。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
+L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性、最小独立检查设计与实际producer/primary readiness。原样软件组件为限定版本的实际代码执行，非实验L4。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
 
 ## Verification and continuation
 
@@ -349,3 +534,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 [verification-006](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-006.json)实际report/coverage/唯一writeback七页/boundary/lint/diff通过，均exit0、0errors192warnings；nativeLean的已记录负例exit139与正例exit0是研究结果，未隐藏为全过。002 main / `Audit DAY17 pooled polarimeter response and public producer contracts`已actualH3/push；003稳定指针main / `Verify DAY17 native consumer schema and stage GRIFFIN primary`，actualhash/push仅publication-003。
 
 下一anchor arxiv1809.07183v2已通过nature-academic-search定位和nature-downloader OA取得36页原件，hash/路径见[downloadreceipt](20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-download.json)，source前回忆另冻。当前只读首identity页与关键词定位，主线/图表/公式尚未读；不将检索或扫描的数字当新科学证据。研究仍active/partial17，继续完整原件，原deadline不变。
+
+### checkpoint004实际验收与持续窗口
+
+[verification-010](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-010.json)实际report/唯一writeback十页/partial17覆盖/boundary/lint/diff均通过、actualexit0，0errors195warnings（139key/52rawslot/4reactionparser；新source-calibration reaction字段对fusion parser不适用，显式保留warning）。旧ST99/SG98/Smith42条claim行与review状态、PLAN/Bib实际保护通过。Table8科学复现仍partial、原值/initialfailure不改；版本/数据边界见source，不从绿灯声称原实验或完整表成功。
+
+003 main / `Verify DAY17 native consumer schema and stage GRIFFIN primary`已actualH3/Gitee push。本批004稳定指针main / `Ground DAY17 GRIFFIN calibration in primary evidence and geometry checks`，actualhash/H3/push只publication-004。研究仍由同session activegoal继续，原20日15点截止不变；局部来源/表核查完成不是整日结束。

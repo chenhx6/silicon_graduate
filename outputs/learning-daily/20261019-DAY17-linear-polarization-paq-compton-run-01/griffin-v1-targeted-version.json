@@ -1,0 +1,15 @@
+{
+  "source_url": "https://arxiv.org/pdf/1809.07183v1",
+  "file": "tmp/day17-griffin-facility-v1/PDFs/The_GRIFFIN_Facility_for_Decay-Spectroscopy_Studies_at_TRIUMF-ISAC_v1.pdf",
+  "sha256": "fb2be20c273bc258d895e074231d61baaef37fa5f423e5f147a2a942b1b924c3",
+  "pages": 33,
+  "actual_read_scope": "identity page and complete located Table2/Table8 text/captions plus both high-resolution table page images; not full33page mainline",
+  "targeted_pages": [
+    10,
+    21
+  ],
+  "independence": "same study alternate version, not independent measurement",
+  "checked_at": "2026-10-19T10:43:08.979291+00:00",
+  "targeted_table_result": "Table2/8 printed direction/multiplicity entries at issue are unchanged across v1/v2, including113.4/152.3/160.2 and same-to-four-decimals caption",
+  "unresolved": "VoR body not acquired: public discovery no PDF candidate; public TDM default200metadataonly/FULL401. No auto-retry, credentials or bypass."
+}

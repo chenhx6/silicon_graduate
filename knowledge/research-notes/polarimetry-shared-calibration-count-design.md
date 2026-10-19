@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 created_from: daily-learning-Day17-L3-design
-evidence_sources: [starosta-1999-pdco-experimental-test, schmid-1998-gammasphere-polarization]
+evidence_sources: [starosta-1999-pdco-experimental-test, schmid-1998-gammasphere-polarization, garnsworthy-2019-griffin-facility]
 promotion_target: ""
 tags: [polarimetry, calibration, covariance, experimental-design]
 ---
@@ -260,3 +260,9 @@ A_t(P)=\frac{(1+\eta_U)c0(v_t)-1}{\sqrt{\eta_U}}
 ### Q(E)角色与接受权重不能被一个同能量点认证
 
 GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target角色与plot循环传参反向；1332→1332的回代会掩盖反转，旧Lean正向调用是版本反证。源码均匀θ的单次Σ平均与KN×dΩ加权也不同；E→0分别√2−1和1/2、point90为1。该数学/程序结果说明Q必须连同role、平均kernel与经验半因子定义保存，不将一个理想平均或代码comment Q=.2509认成matching实验response。
+
+### 原装置校准对当前推理的约束
+
+[[garnsworthy-2019-griffin-facility]] GF19-6–14在完整原件后提供实际Q(.240±.012 at1332)、明确.5QPcos2ξ/90°cloverpair与68–113°crystal角组、三其它能量检查和同207Bi双角色。[[triumf-griffin-compton-source-calibration]]是测量/来源ledger；本note的sharedCov/array反例仍是声明模型，不能称paper实际失败。
+
+源数据对当前generic正向ScaleQ作条件比较给570/1173/1771约.378202/.259795/.198649；源reported为.390/.258/.201，anchor共同误差的rank1项需保留，但actualcrossCov/fitΣ不足以报新置信度。Table7的ICC/summing真实摘要重算另显示photon/total分母的重要性；这些新summary-check不增加独立实验数或替代rawresponse。

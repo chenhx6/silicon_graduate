@@ -59,12 +59,15 @@ tags: [GRIFFIN, software-validation, polarimetry, covariance]
 | GRS26-11 | 原样完整Compton_Scale_Plot编译/运行0，固定Q=.2509/energyUsed1332时打印100keV .111820、3000keV .445044；函数角色适配器确认循环调用ScaleQ(E,1332)是ScaleQ(1332,E)的倒数。按同函数的calibration→target角色后者应给.562967/.141449；旧Lean使用正向角色。仅核参数/版本合同，不修实际实验Q(E)。 | full-program-energy-role-control | actual-unmodified-program | Compton_Scale_Plot.cxx43–59/71–90；LeanAnalyzeComptonMatrices.cxx74–77/101；grsisort-q-energy-result | true |
 | GRS26-12 | ScaleQ平均的是单次KN sensitivity的均匀θ积分，而非KN截面×dΩ事件权重或真实阵列response。本任务另积分核E→0时三者point90=1、uniformθ=√2−1、KN×dΩ=1/2；是归一/权重反例，不将任何一个当实测clover Q或随意删除.5因子。 | response-weighting-and-limit-boundary | source-code-and-task-derivation | Compton_Scale_Plot.cxx71–90；本页能量角色与平均核；grsisort-q-energy-result analytic limits | true |
 | GRS26-13 | 新helper的xiThetaDet/Cry/Mixed/Count keys与默认Lean读取的六个XiHist2D_* legacy keys不同。完整Lean源在仅追加batch entry的原样body执行中，设计new-key fixture实际exit139且无四目标graphs；同内容legacy-key正控制exit0并输出graphs。匹配schema是运行/统计合同，不可仅同repo便串联两版本。 | full-consumer-schema-failure-control | actual-original-body-and-ROOT-fixture | Helper.cxx11–28；LeanAnalyzeComptonMatrices.cxx141–184；grsisort-lean-schema-result | true |
+| GRS26-14 | targeted GRSIData GetPosition的dist加代表interaction-depth45mm及transversecp26mm；原body在110/145mm给paper Table2的128位置方向相合，但Table8三角类未全复现。当前helper默认145mm，不由同名distance或geometrycensus认证原2018实际接受/Q。 | geometry-point-and-producer-boundary | direct-code-and-source-comparison | TGriffin.cxx329–360；Helper.hh10/76；GF19-15/16/17 | true |
 
 ## Summary
 
 公开producer确实补上了“Compton双hit–第三γ–ξ/θ–event mixing–归一ratio–cos2 fit”的实际代码入口。它同时说明：有几何表、BGO对象、参考F向量或Q能量参数，不代表这些输入已被消费到目标观测。必须区分新的helper/Analyze路径、CMake默认Lean目标与历史采集。
 
 这与[[starosta-1999-pdco-experimental-test]]和[[schmid-1998-gammasphere-polarization]]的实际计数合同不同；不能将其Q、A和half-factor裸换。[[polarimetry-shared-calibration-count-design]]承接matching weight/Σ与本页公开producer的缺口，[[compton-polarimetry]]/[[linear-polarization-asymmetry]]保存使用门。
+
+本session后续完整原读[[garnsworthy-2019-griffin-facility]] GF19-6–13，取得paper实际Q=.240(.012)/三其它能量点和角组条件。该2018v2/2019paper没有认证本文2026pin的actualproducer；codecomment .2509、反向独立plot和defaultLean/schema结果不能移作paper错误。[[triumf-griffin-compton-source-calibration]]按source reference/target角色分开保留。
 
 ## 条件组件的实际数值与反证
 

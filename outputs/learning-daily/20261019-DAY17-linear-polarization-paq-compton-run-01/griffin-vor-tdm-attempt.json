@@ -1,0 +1,14 @@
+{
+  "url": "https://api.elsevier.com/content/article/PII:S0168900218317662?httpAccept=text/xml",
+  "requested_at": "2026-10-19T10:38:45.576864+00:00",
+  "route": "Crossref-deposited public TDM URL, no credentials or bypass",
+  "body_scientific_read": false,
+  "status": 200,
+  "content_type": "text/xml;charset=UTF-8",
+  "bytes": 1920,
+  "sha256": "4bc47ceb560051d56e21cab6f95b6531fc761083b9bee9a46e0f681c124d6a54",
+  "root_tag": "{http://www.elsevier.com/xml/svapi/article/dtd}full-text-retrieval-response",
+  "has_full_body_element": false,
+  "has_tables": false,
+  "xml_elements": 22
+}

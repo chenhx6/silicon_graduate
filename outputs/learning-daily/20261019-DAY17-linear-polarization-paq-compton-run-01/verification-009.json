@@ -1,0 +1,121 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 17,
+    "error": null
+  },
+  "preflight": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_automation_preflight.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 195,
+      "info": 2618
+    },
+    "errors": [],
+    "warning_codes": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 139,
+      "RAW_MISSING": 52
+    }
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "starosta-1999-pdco-experimental-test": {
+    "old_rows_unchanged": true,
+    "old_review_status_unchanged": true
+  },
+  "schmid-1998-gammasphere-polarization": {
+    "old_rows_unchanged": true,
+    "old_review_status_unchanged": true
+  },
+  "scientific_status": {
+    "primary_actual_reading_complete": true,
+    "Table8": "partial, initial replay assertion failed and retained; no actualexperiment conflict claim",
+    "VoR": "metadataonly/FULL401; not read",
+    "no_new_experimental_CI": true
+  },
+  "scripts": {
+    "day17_griffin_primary_calibration_replay.py": {
+      "integrity_checks_ok": true,
+      "script_sha256_matches": true
+    },
+    "day17_griffin_geometry_contract.py": {
+      "integrity_checks_ok": true,
+      "script_sha256_matches": true
+    }
+  },
+  "ok": true,
+  "checked_at": "2026-10-19T10:45:21.116164+00:00"
+}

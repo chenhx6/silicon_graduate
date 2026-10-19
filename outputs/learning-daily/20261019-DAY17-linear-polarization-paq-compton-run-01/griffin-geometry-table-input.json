@@ -1,0 +1,341 @@
+{
+  "input_kind": "published-table2-directions-and-pinned-code-comparison",
+  "paper_pdf_sha256": "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed",
+  "paper_locator": "PDF11 Table2; nominal source-to-detector distances 11 and 14.5cm; crystal labels1–4",
+  "table_encoding": "ring templates transcribed from the actual table and checked against all 64 printed entries; phi advances exactly by the printed ring rotation",
+  "ring_templates": [
+    {
+      "detectors": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "phi_step_degrees": 90,
+      "110": {
+        "theta": [
+          36.5,
+          55.1,
+          55.1,
+          36.5
+        ],
+        "phi": [
+          83.4,
+          79.0,
+          56.0,
+          51.6
+        ]
+      },
+      "145": {
+        "theta": [
+          37.9,
+          53.2,
+          53.2,
+          37.9
+        ],
+        "phi": [
+          80.1,
+          77.2,
+          57.8,
+          54.9
+        ]
+      }
+    },
+    {
+      "detectors": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "phi_step_degrees": 45,
+      "110": {
+        "theta": [
+          80.6,
+          99.4,
+          99.4,
+          80.6
+        ],
+        "phi": [
+          32.0,
+          32.0,
+          13.0,
+          13.0
+        ]
+      },
+      "145": {
+        "theta": [
+          82.3,
+          97.7,
+          97.7,
+          82.3
+        ],
+        "phi": [
+          30.3,
+          30.3,
+          14.7,
+          14.7
+        ]
+      }
+    },
+    {
+      "detectors": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "phi_step_degrees": 90,
+      "110": {
+        "theta": [
+          124.9,
+          143.5,
+          143.5,
+          124.9
+        ],
+        "phi": [
+          79.0,
+          83.4,
+          51.6,
+          56.0
+        ]
+      },
+      "145": {
+        "theta": [
+          126.8,
+          142.1,
+          142.1,
+          126.8
+        ],
+        "phi": [
+          77.2,
+          80.1,
+          54.9,
+          57.8
+        ]
+      }
+    }
+  ],
+  "identity_mapping": "paper crystal1–4 maps native CryNbr0–3, detector1–16 unchanged; no rotations/permutations fitted after comparison",
+  "printed_direction_half_last_digit_degrees": 0.05,
+  "code_path": "tmp/day17-grsisort/GRSIData/libraries/TGRSIAnalysis/TGriffin/TGriffin.cxx",
+  "code_sha256": "40b00f70e393a4df9e2c5f97fafeaa475295f0f2e7790a2ad8beca7549452f78",
+  "source_code_scope": "extract fCloverPosition initialization and GetPosition body unchanged; real ROOT vectors",
+  "front_face_control": "separate task-defined geometric point: native returned vector minus45mm along unit clover axis; it is not a patch to the original producer or an event-depth estimate",
+  "angular_census_boundary": "ordered crystal pairs including self are distinct from physical pair events or xi combinations. Numerical angle clusters are not automatically the 52 orbit/classes printed in Table8. No Compton probabilities or actual efficiencies are inferred.",
+  "table8_110mm_ordered_angle_multiplicity_rows": [
+    [
+      0,
+      64
+    ],
+    [
+      18.8,
+      128
+    ],
+    [
+      25.6,
+      64
+    ],
+    [
+      26.7,
+      64
+    ],
+    [
+      31.9,
+      64
+    ],
+    [
+      33.7,
+      48
+    ],
+    [
+      44.4,
+      128
+    ],
+    [
+      46.8,
+      96
+    ],
+    [
+      48.6,
+      128
+    ],
+    [
+      49.8,
+      96
+    ],
+    [
+      53.8,
+      48
+    ],
+    [
+      60.2,
+      96
+    ],
+    [
+      62.7,
+      48
+    ],
+    [
+      63.1,
+      64
+    ],
+    [
+      65,
+      96
+    ],
+    [
+      66.5,
+      64
+    ],
+    [
+      67.5,
+      64
+    ],
+    [
+      69.9,
+      64
+    ],
+    [
+      70.9,
+      96
+    ],
+    [
+      73.1,
+      64
+    ],
+    [
+      76.4,
+      96
+    ],
+    [
+      78.7,
+      64
+    ],
+    [
+      83,
+      64
+    ],
+    [
+      86.2,
+      64
+    ],
+    [
+      86.2,
+      48
+    ],
+    [
+      88.5,
+      128
+    ],
+    [
+      91.5,
+      128
+    ],
+    [
+      93.8,
+      48
+    ],
+    [
+      93.8,
+      64
+    ],
+    [
+      97,
+      64
+    ],
+    [
+      101.3,
+      64
+    ],
+    [
+      103.6,
+      96
+    ],
+    [
+      106.9,
+      64
+    ],
+    [
+      109.1,
+      96
+    ],
+    [
+      110.1,
+      64
+    ],
+    [
+      112.5,
+      64
+    ],
+    [
+      113.4,
+      64
+    ],
+    [
+      115,
+      96
+    ],
+    [
+      116.9,
+      64
+    ],
+    [
+      117.3,
+      48
+    ],
+    [
+      119.8,
+      96
+    ],
+    [
+      126.2,
+      48
+    ],
+    [
+      130.2,
+      96
+    ],
+    [
+      131.4,
+      128
+    ],
+    [
+      133.2,
+      96
+    ],
+    [
+      135.6,
+      128
+    ],
+    [
+      146.3,
+      48
+    ],
+    [
+      148.1,
+      64
+    ],
+    [
+      152.3,
+      64
+    ],
+    [
+      154.4,
+      64
+    ],
+    [
+      160.2,
+      128
+    ],
+    [
+      180,
+      64
+    ]
+  ],
+  "table8_locator": "PDF21 Table8; two86.2/two93.8 near-angle classes kept separately by multiplicity; not deduplicated by printed angle"
+}
