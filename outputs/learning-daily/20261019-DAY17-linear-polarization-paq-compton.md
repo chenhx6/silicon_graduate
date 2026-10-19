@@ -58,6 +58,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint044：Chiara原30页主线与核结构反证
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-7–24完整实际30页、21图7表3式与references文本/视觉核。旧source仅targeted，旧freeze预期29保原、actual30核；TableI纠正旧Gammasphere为SB/8π。MR/AMR必要companion、largeJ2/BE2不足、slowSF与高频未测B明确分层。
+
+
 ### checkpoint043：actual角约定及φ不可识别边界
 
 [[evasions-2023-public-release-native-readiness]] EV23-29–33/F22-88新actualThetaLdeg与mrad原式吻合；两投影斜率约定不同。原source已读/同dataset不计独立测量，θ吻合不能定相对φ。
@@ -190,6 +195,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint044：真实同parent分支来源与覆盖
+
+[程序](../../system/scripts/day17_chiara2001_branch_provenance.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-result.json)三真实parent按γ-only/α0/δ0核E1/link库存，110(18+)E2约9%中心不闭合保原不调；110(19+)错换backed/thin会BE2比1.97222、固定G Qt比1.40436，仅provenance对照。已测AMRω≤.536未覆盖预测>.70；(27-)/(29-)候选能量存在但无τ/B，形成实际必要companion。
+
 
 ### checkpoint043：两角约定与候选反射
 
@@ -397,6 +407,9 @@ M23-4/8/9/10：Adopted3/2+,5/2+与fusion7/2(+)并列，capture有另一γ和新o
 - SG98-14：Eq13称N为source发射数，而Eq18称Ni为incident；要有接受角/曝光归一字典。photopeak/coincidence、本征/绝对/relativeNaI/条件效率不能混为同一ε；高背景下裸F不是可靠仪器排名。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint044的`revises`是旧Chiara arraymetadata与rate表两列即完整库存的习惯；`supports`按实际reaction/parent分支转换；`limits`largeJ2/BE2、无shift或TAC minimum对mode/shape的保证。MU08实际Qt轴/producer识别仍`no material change`，不由methodcitation或数值吻合补填。
+
 
 `supports`直接从原始计数表达P/A/Q、共同校准和可复算Σ；`revises`“改分母再标一条线即可继续用线性Q”的预期；`limits`从同参考回代、偏振号或裸F取得独立验证。没有新增实验P/Q/δ/Jπ/模式，也没有解释原294印刷差或490剩余分支。
 
@@ -6244,6 +6257,204 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EV23-33"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "anchor": "本session完整主线与实际分支练习",
+      "summary": "CHI01-7–24新增完整原30页、实际三parent/来源与AMR频段缺口，纠正旧array metadata；保旧claims/review。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-7"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-8"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-9"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-10"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-11"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-12"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-13"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-14"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-15"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-16"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-17"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-18"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-19"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-20"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-21"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-22"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-23"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-24"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "anchor": "Ref16完整主线后的转移边界",
+      "summary": "MU08-18补完整methodancestor仍不指定本核完整branch/Qtgeometry的边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-18"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-22"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Chiara完整主线：分支来源改变强度，AMR还缺高频率寿命",
+      "summary": "整合branch来源/缺E1-link/错误来源制造Qt差与AMR真正高频率寿命companion。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-9"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-11"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-13"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-14"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-15"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-17"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-18"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-19"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-22"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-23"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "分支表与强度表不是相同的完整库存",
+      "summary": "增加partialτ分母/数据来源与无shift依SF使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-9"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-12"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-13"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-14"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-15"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-19"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "chiara-2001-108-110in-shears-band-lifetimes",
+      "summary": "更新完整原读与正确array/核结构反证入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "电磁属性的companion：DCO与旧偏振证据",
+      "summary": "由Chiara完整主线补DCO不能分E1/M1及采用旧pol不等新P/A/Q测量/response迁移的实际使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-10"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-11"
+        }
+      ]
     }
   ]
 }
@@ -6488,3 +6699,9 @@ verification056核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint043实际角合同验收
 
 verification057核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与新actualartifact；通过后manifest043/commitguard/H3。局部变量问题readiness边界明确，原window仍active/formal17once/partial18/no19，无新τ/BR/CI。
+
+### checkpoint044完整原件/真实parent验收
+
+verification058核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与新actual表/coverageartifact；通过后manifest044/commitguard/H3。本日formal17once/partial18/no19，原windowactive且原τ/B/shape/CI未重报。
+
+058初验发现MU08旧claim表在15前空行导致漏索引，已合并为连续表且旧row文本/review保持；按18个数字ID加CORR1显式验19，而非只看lint0。initial-index-failure.json保初结果。

@@ -1,0 +1,38 @@
+{
+  "subject": "Read complete indium lifetime evidence and trace parent branching inputs",
+  "verification_number": 58,
+  "paths": [
+    "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/methods/linear-polarization-asymmetry.md",
+    "knowledge/index.md",
+    "system/scripts/day17_chiara2001_branch_provenance.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-043.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-043.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-058.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-058.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-058-initial-index-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-044.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint044.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-full-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-full-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-full-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-full-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-reading-progress.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-exercise-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-result.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/XLSX/ZIP/binaries/credentials/inheriteddirty/daemon;logHEAD+own044;newF01before/identity/prefixsnapshotexcluded"
+}

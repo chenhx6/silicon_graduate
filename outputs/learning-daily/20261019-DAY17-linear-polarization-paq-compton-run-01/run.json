@@ -68,14 +68,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Match public silicon angle data to its archived generation recipe",
-    "commit": "bd44343839f010fd9b06db18bbb440ef08212f87",
+    "subject": "Verify stored polar-angle convention while retaining azimuth frame limits",
+    "commit": "86d7b107b1ab63599a67dfcf5a5a331929e6b43b",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-19T23:03:31.384518+00:00",
+  "last_observed_at": "2026-10-19T23:18:48.461776+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",

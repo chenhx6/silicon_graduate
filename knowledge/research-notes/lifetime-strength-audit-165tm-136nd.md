@@ -403,3 +403,13 @@ B.4是coreE，Ch3效率图TrackE；同source不等同observable/selection。Eu�
 [实际字段/数学控制](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-result.json)还显示[±cosΦsinΘ,sinΦ,cosΦcosΘ]均unitnorm/同θ，但φ候选绝对差median104.198°、max180°。这个候选反射不是实验测得frame失配；θ一致不决定正确相对handedness，更不认证γ−π/2/光学xsign/DCT组合/原θDS。当前不做缺matchingvertex-loss/完整坐标cal的recoil/fullτ重fit。
 
 输入角色获得直接支持，原源/δ/Jπ/τ/BR/CI无新裁决；同dataset函数关系不计独立geometry测量。该局部变量问题已达到明确readiness边界，回到Day18的τ→B→Qt和bandmixing核结构问题重建候选，避免只按更多代码检查数推进。
+
+## Chiara完整主线：分支来源改变强度，AMR还缺高频率寿命
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-7–24完整30页/21图7表3式(旧目标29保freeze，实际末页reference30)，SB六Ge/8π原TableI纠正旧metadata Gammasphere误标。review旧6row保持，所有新claim needs_review；全文仍未给bandQt轴公式，不能以MU08 methodcitation识别其candidategeometry。
+
+实际不同reaction决定intensity来源：108In用backed，110In用thin。三个parent[新ledger/结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-result.json)在声明γ-only/α0/δ0下核E1/link缺支：108B3 16+的357.3还有1220.5E1，control2.5135对原2.48；110B3(18+)还含366.9link，controlBM1 1.3633/BE2 .031633，原1.35/.029保差不强配；110(19+)作者thin给BE2 .051479，故意换backed给.101528，固定同G的Qt比1.40436。只是错误输入替换对照，不指作者用错、不给新CI。
+
+AMR反证：已测110B5四点ωmax.536，作者预测明显BE2下降>.70；已观测(27-)/(29-)E2在.70955/.8134但无τ/B，优先新测这些level的lifetime+feeding/branch身份才提高解释。largeJ2/BE2必要非充分，现postalignmentBE2近常量且crossing点可混合；无shift的其它band下限依equalQ/fastSF，slowSF是原作者保留的竞争解释，不可把无shift等同已测小形变。
+
+Day17本卡P/A/Q的实际companion同样在原文出现：DCO无法区分E1/nearM1时采用旧pol，本文不是新测P/A/Q；source引用的priorbody本轮未开，不补其校准。TAC/PAC形状/minimum是模型，g_s/配对/quantumfluctuations和alignment残差另保，不把模式标签移成experimentalshape。

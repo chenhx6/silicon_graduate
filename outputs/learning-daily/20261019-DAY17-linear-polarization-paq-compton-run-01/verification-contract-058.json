@@ -1,0 +1,25 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md": 24,
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": 19
+  },
+  "artifacts": [
+    {
+      "file": "chiara2001-branch-result.json",
+      "true_fields": [
+        "ok",
+        "no_IC_delta_covariance_or_branch_tuned_to_match",
+        "no_Qt_geometry_identification_from_method_citation",
+        "no_new_experimental_lifetime_strength_shape_or_CI"
+      ]
+    },
+    {
+      "file": "chiara2001-full-reading-scope.json",
+      "true_fields": [
+        "full_mainline_complete",
+        "primed_prior_targeted_read"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

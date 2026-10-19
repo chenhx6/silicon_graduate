@@ -159,10 +159,10 @@ The different `B(E2)` patterns contradict treating the two near-degenerate bands
 | MU08-13 | Chiara et al. treat the dipole lines as predominantly pure M1 (`δ≈0`) and assume zero crossover intensity when no E2 crossover is seen within sensitivity. This is the cited article's assumption; MU08 itself does not report line-by-line evidence that the zero-crossover treatment or detection threshold applies identically to its `136Nd` branches. | cross-source-method-boundary | indirect | CHI01-3 | true |
 | MU08-CORR-1 | The 2026-10-09 Crossref record has no correction/update relation, and the official APS article page shows no correction/erratum link. No correction was found on these endpoints; separately indexed notices are not ruled out. | evidence-boundary | direct | Crossref `https://api.crossref.org/works/10.1103/PhysRevC.78.034311`; APS article `https://journals.aps.org/prc/abstract/10.1103/PhysRevC.78.034311` | true |
 | MU08-14 | Across the ten printed parent-level branch groups in Table I, the central values sum to 1. If each group is additionally modeled as the same complete finite-variance random vector normalized exactly to 1 on every trial, then the printed parentheses interpreted as marginal SDs violate necessary L2 constraints in eight groups (two-component groups require equal marginal SDs; three-component groups require each SD ≤ the sum of the other SDs). The count eight treats the displayed errors as exact SDs. Under an additional hypothetical nearest-0.01 rounding model (closed ±0.005 SD intervals), seven violations remain; B2-I17 is rounding-sensitive (0.036 ≤ 0.024+0.014 can satisfy the necessary inequality). The paper does not establish these joint-distribution or rounding assumptions; this reductio rules out only that added statistical interpretation and does not imply author error, omitted decay channels, or actual covariance. | our-inference + limitation | indirect | printed 034311-3 / PDF p.3, Table I, all ten parent-level branch groups | true |
-
 | MU08-15 | 全部gates位于目标以下；未完全停止的gate按每ring包括完整stopped+shifted峰形，针对的是遗漏fasttail的特定selectionbias。它不消除sidefeeding/contamination/response全部依赖。 | direct-gate-selection-boundary | direct | PDF2 / printed034311-2 gating段 | true |
 | MU08-16 | 实际5000 recoilvelocity histories、2fs、SRIM，五步sidefeeding的Qs可调；逐级起始inband/sidefeeding/background/contaminant自由，后固定最佳background与stoppedcontaminant，再加入下级直到globalfit中各inband/sidefeeding寿命独立可调。原χ²minimum附近误差不等于已提供所有nuisance的jointprofileΣ。 | direct-fit-sequence-and-error-boundary | direct | PDF2–3 / printed034311-2–3 | true |
 | MU08-17 | 本任务在TableII九组非空B(E2)/Qt打印输入上，用候选G=CG(I I 2 −2|I−2 I−2)²=(2I−3)/(2I+1)转Qt，均在额外nearest.01打印box内相容；fixedK0会给约1.58倍不同值。本文未印该公式，不从匹配反认唯一historicalproducer或真实内禀geometry。 | task-candidate-geometry-table-audit | derived-and-boundary | PDF4 TableII；day18-lifetime-strength-result mu08_candidate_geometry_rows | true |
+| MU08-18 | 后续完整原读Ref16 Chiara30页/21图7表3式，方法ancestor明确108用backed/110用thin强度、另有E1/link depop，且未给bandQt直接轴公式；不能由其两列率表补本文完整branch/Qtgeometry。其SB/8π与本Gammasphere/BLUE不同响应，不计本文独立data确认。 | full-method-ancestor-boundary | direct-companion-and-limit | CHI01-9/13/14/15/22/23 | true |
 
 ## Summary
 
@@ -235,3 +235,7 @@ Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的
 ## 2026-10-19 Day17内无学分Day18重新原读
 
 本session在新primed回忆冻结后实际重新读六页全部主线、五图/两表/三式及reference；PDF2–5关键原图视觉核。Rawhash与[[lifetime-strength-audit-165tm-136nd]]的新几何换算/selectionledger有回执；旧MU08-1–14、CORR与所有reviewflags保持。原2008两band不是后续136Nd其它band的统一身份；本页不从新编译或重复原读计独立实验、也不授formal18。
+
+## Ref16完整主线后的转移边界
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-7–24本session完整30页原读，新的同parentledger显示E1/带间支也进入partiallifetime分母；thin/backed来源需逐reaction核。Ref16的“branching”方法类别依然不指定本136Nd逐lineabsolutephoton库存或actualQt轴，未见bandQt公式这个verifiednegative也保留。旧MU08-1–17/所有reviewflags不变，不重复实验授信。

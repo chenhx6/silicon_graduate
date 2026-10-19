@@ -1,0 +1,4 @@
+
+### Day17 checkpoint044：完整核结构primary与分支来源
+
+CHI01-7–24完整30页原读、真实parent/错误来源对照/AMR高频率lifetime缺口与Pcompanion写回canonical，旧claims/review保；MU08连表索引修正初failure保。verification058/manifest044/commitguard/H3后发布，main / `Read complete indium lifetime evidence and trace parent branching inputs`，原windowactive/17once/partial18/no19。

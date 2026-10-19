@@ -1,0 +1,256 @@
+{
+  "at": "2026-10-19T23:36:17.595814+00:00",
+  "script_sha256": "e6de0af14bedeff45391788ac36f4c7e268ad1a2ddd4a1e6b998bbfcdba4687d",
+  "contract_sha256": "4833c78482ec1126ae317dd5543899162d3c06b012e7b4afe7436ee80a42616c",
+  "photon_only_forward_controls": [
+    {
+      "parent": "108In:band3:16+",
+      "intensity_set": "backed",
+      "only_rate_table_columns": false,
+      "visible_photon_sum": 19.3,
+      "rows": [
+        {
+          "transition": "357.3 band3 16+->15+",
+          "energy_keV": 357.3,
+          "visible_photon_share": 0.8704663212435233,
+          "conditional_partial_tau_ps": 0.4962857142857143,
+          "kind": "M1",
+          "conditional_B": 2.5135147821741772,
+          "units": "muN^2",
+          "reported_B": 2.48,
+          "conditional_over_reported_minus_one": 0.013514025070232805
+        },
+        {
+          "transition": "1220.5 band3->2 16+->15-",
+          "energy_keV": 1220.5,
+          "visible_photon_share": 0.12953367875647667,
+          "conditional_partial_tau_ps": 3.3350400000000002
+        }
+      ],
+      "boundary": "visible photon normalization, alpha=0 and dipole delta=0; not original IC/complete inventory/Cov or experimental B/CI"
+    },
+    {
+      "parent": "108In:band3:16+",
+      "intensity_set": "backed",
+      "only_rate_table_columns": true,
+      "visible_photon_sum": 16.8,
+      "rows": [
+        {
+          "transition": "357.3 band3 16+->15+",
+          "energy_keV": 357.3,
+          "visible_photon_share": 1.0,
+          "conditional_partial_tau_ps": 0.432,
+          "kind": "M1",
+          "conditional_B": 2.8875497199977156,
+          "units": "muN^2",
+          "reported_B": 2.48,
+          "conditional_over_reported_minus_one": 0.1643345645152079
+        }
+      ],
+      "boundary": "visible photon normalization, alpha=0 and dipole delta=0; not original IC/complete inventory/Cov or experimental B/CI"
+    },
+    {
+      "parent": "110In:band3:(18+)",
+      "intensity_set": "thin",
+      "only_rate_table_columns": false,
+      "visible_photon_sum": 15.3,
+      "rows": [
+        {
+          "transition": "565.6 band3 (18+)->(17+)",
+          "energy_keV": 565.6,
+          "visible_photon_share": 0.8496732026143791,
+          "conditional_partial_tau_ps": 0.23067692307692308,
+          "kind": "M1",
+          "conditional_B": 1.3632638361582459,
+          "units": "muN^2",
+          "reported_B": 1.35,
+          "conditional_over_reported_minus_one": 0.009825063820922741
+        },
+        {
+          "transition": "1052.3 band3 (18+)->16+",
+          "energy_keV": 1052.3,
+          "visible_photon_share": 0.09803921568627451,
+          "conditional_partial_tau_ps": 1.9992,
+          "kind": "E2",
+          "conditional_B": 0.03163268551019514,
+          "units": "e^2 b^2",
+          "reported_B": 0.029,
+          "conditional_over_reported_minus_one": 0.09078225897224601
+        },
+        {
+          "transition": "366.9 band3->8 (18+)->17(+)",
+          "energy_keV": 366.9,
+          "visible_photon_share": 0.05228758169934641,
+          "conditional_partial_tau_ps": 3.7485
+        }
+      ],
+      "boundary": "visible photon normalization, alpha=0 and dipole delta=0; not original IC/complete inventory/Cov or experimental B/CI"
+    },
+    {
+      "parent": "110In:band3:(18+)",
+      "intensity_set": "thin",
+      "only_rate_table_columns": true,
+      "visible_photon_sum": 14.5,
+      "rows": [
+        {
+          "transition": "565.6 band3 (18+)->(17+)",
+          "energy_keV": 565.6,
+          "visible_photon_share": 0.896551724137931,
+          "conditional_partial_tau_ps": 0.21861538461538463,
+          "kind": "M1",
+          "conditional_B": 1.4384783926359423,
+          "units": "muN^2",
+          "reported_B": 1.35,
+          "conditional_over_reported_minus_one": 0.0655395501006979
+        },
+        {
+          "transition": "1052.3 band3 (18+)->16+",
+          "energy_keV": 1052.3,
+          "visible_photon_share": 0.10344827586206896,
+          "conditional_partial_tau_ps": 1.8946666666666667,
+          "kind": "E2",
+          "conditional_B": 0.033377937124550734,
+          "units": "e^2 b^2",
+          "reported_B": 0.029,
+          "conditional_over_reported_minus_one": 0.15096334912243914
+        }
+      ],
+      "boundary": "visible photon normalization, alpha=0 and dipole delta=0; not original IC/complete inventory/Cov or experimental B/CI"
+    },
+    {
+      "parent": "110In:band3:(19+)",
+      "intensity_set": "thin",
+      "only_rate_table_columns": false,
+      "visible_photon_sum": 7.1000000000000005,
+      "rows": [
+        {
+          "transition": "572.9 band3 (19+)->(18+)",
+          "energy_keV": 572.9,
+          "visible_photon_share": 0.8732394366197183,
+          "conditional_partial_tau_ps": 0.12024193548387097,
+          "kind": "M1",
+          "conditional_B": 2.516632734901549,
+          "units": "muN^2",
+          "reported_B": 2.51,
+          "conditional_over_reported_minus_one": 0.0026425238651590632
+        },
+        {
+          "transition": "1138.6 band3 (19+)->(17+)",
+          "energy_keV": 1138.6,
+          "visible_photon_share": 0.1267605633802817,
+          "conditional_partial_tau_ps": 0.8283333333333334,
+          "kind": "E2",
+          "conditional_B": 0.0514788839610865,
+          "units": "e^2 b^2",
+          "reported_B": 0.051,
+          "conditional_over_reported_minus_one": 0.00938988158993137
+        }
+      ],
+      "boundary": "visible photon normalization, alpha=0 and dipole delta=0; not original IC/complete inventory/Cov or experimental B/CI"
+    },
+    {
+      "parent": "110In:band3:(19+)",
+      "intensity_set": "backed",
+      "only_rate_table_columns": false,
+      "visible_photon_sum": 2.8,
+      "rows": [
+        {
+          "transition": "572.9 band3 (19+)->(18+)",
+          "energy_keV": 572.9,
+          "visible_photon_share": 0.7500000000000001,
+          "conditional_partial_tau_ps": 0.13999999999999999,
+          "kind": "M1",
+          "conditional_B": 2.1614627924759273,
+          "units": "muN^2",
+          "reported_B": 2.51,
+          "conditional_over_reported_minus_one": -0.13885944522871418
+        },
+        {
+          "transition": "1138.6 band3 (19+)->(17+)",
+          "energy_keV": 1138.6,
+          "visible_photon_share": 0.25,
+          "conditional_partial_tau_ps": 0.42,
+          "kind": "E2",
+          "conditional_B": 0.10152779892325393,
+          "units": "e^2 b^2",
+          "reported_B": 0.051,
+          "conditional_over_reported_minus_one": 0.9907411553579204
+        }
+      ],
+      "boundary": "visible photon normalization, alpha=0 and dipole delta=0; not original IC/complete inventory/Cov or experimental B/CI"
+    }
+  ],
+  "counter_input_E2_backed_over_thin": 1.9722222222222223,
+  "conditional_Qt_backed_over_thin_at_fixed_same_geometry": 1.4043582955293932,
+  "AMR_lifetime_covered_points": [
+    {
+      "spin_label": "17(-)",
+      "E_keV": 950.4,
+      "reported_B_E2_e2b2": 0.136,
+      "hbar_omega_MeV": 0.4752
+    },
+    {
+      "spin_label": "19(-)",
+      "E_keV": 889.1,
+      "reported_B_E2_e2b2": 0.265,
+      "hbar_omega_MeV": 0.44455
+    },
+    {
+      "spin_label": "21(-)",
+      "E_keV": 946.2,
+      "reported_B_E2_e2b2": 0.266,
+      "hbar_omega_MeV": 0.4731
+    },
+    {
+      "spin_label": "(23-)",
+      "E_keV": 1072,
+      "reported_B_E2_e2b2": 0.281,
+      "hbar_omega_MeV": 0.536
+    }
+  ],
+  "AMR_observed_but_not_lifetime_measured_points": [
+    {
+      "spin_label": "(25-)",
+      "E_keV": 1234.9,
+      "thin_relative_intensity": 2.5,
+      "hbar_omega_MeV": 0.61745,
+      "lifetime_or_B_not_measured_here": true
+    },
+    {
+      "spin_label": "(27-)",
+      "E_keV": 1419.1,
+      "thin_relative_intensity": 1.2,
+      "hbar_omega_MeV": 0.7095499999999999,
+      "lifetime_or_B_not_measured_here": true
+    },
+    {
+      "spin_label": "(29-)",
+      "E_keV": 1626.8,
+      "thin_relative_intensity": 0.6,
+      "hbar_omega_MeV": 0.8134,
+      "lifetime_or_B_not_measured_here": true
+    }
+  ],
+  "largest_lifetime_covered_omega_MeV": 0.536,
+  "author_predicted_decline_above_omega_MeV": 0.7,
+  "observed_candidates_above_decline_threshold": [
+    {
+      "spin_label": "(27-)",
+      "E_keV": 1419.1,
+      "thin_relative_intensity": 1.2,
+      "hbar_omega_MeV": 0.7095499999999999,
+      "lifetime_or_B_not_measured_here": true
+    },
+    {
+      "spin_label": "(29-)",
+      "E_keV": 1626.8,
+      "thin_relative_intensity": 0.6,
+      "hbar_omega_MeV": 0.8134,
+      "lifetime_or_B_not_measured_here": true
+    }
+  ],
+  "no_IC_delta_covariance_or_branch_tuned_to_match": true,
+  "no_Qt_geometry_identification_from_method_citation": true,
+  "no_new_experimental_lifetime_strength_shape_or_CI": true,
+  "ok": true
+}

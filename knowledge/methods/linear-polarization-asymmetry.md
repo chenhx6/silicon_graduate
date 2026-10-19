@@ -275,3 +275,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 参考警示要追到比值中的共同尺度
 
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-18/19/21/25官方对象给absoluteγ参考caution，但若观测两支共享同一乘法scale，其比中scale可消。需要同时核relativeinventory、energydependentresponse和Cov；不能把RI100当absolute，也不能从参考有争议就自动全盘排比值或当作已校准polarimeterQ。
+
+## 电磁属性的companion：DCO与旧偏振证据
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-10/11给出直接使用门：DCO的pure-dipole相容性仍不能区分E1与near-M1，作者对108/110In band3采用旧Ref24/25偏振来赋parity。本文这段是prior证据的采用，不能计作新的P/A/Q测量或把SB六Ge/8π与其它array的polarimeterQ迁移；prior counts/calibration body本session未核。

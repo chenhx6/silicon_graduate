@@ -320,7 +320,7 @@ updated: 2026-10-20
 - [[cejnar-1996-spin-deorientation-alpha-2n-gamma]] - `(α,2nγ)` 反应中 spin deorientation、angular-momentum routes 与 Gaussian side-feeding `σ` 的统计模型计算。
 - [[radeck-2012-deorientation-lifetime-98ru-rdds]] - inverse Coulomb excitation + RDDS 中 time-dependent deorientation、`Gk(t/d)` 与 angular-correlation correction 的方法案例。
 - [[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] - tracking arrays 中 angular correlations、angular distributions、linear polarization、`Pm(J)` 与 `σ/J` 的现代公式链。
-- [[chiara-2001-108-110in-shears-band-lifetimes]] - MU08 Ref.[16] 已核实全文；记录 observed-branch/partial-lifetime 与 IC 方法、pure-M1 / unseen-E2-cross-over 假设，以及不等于绝对 photon-per-parent ledger 的边界。
+- [[chiara-2001-108-110in-shears-band-lifetimes]] - MU08 Ref16完整30页主线；108/110分支来源、SB/8π、E1/link库存、MR/AMR反证与高频率寿命companion，不补MU08 Qt轴。
 - [[chiara-2012-cu65-cu67-core-coupled-protons]] - `65,67Cu` 高自旋实验中的角分布实践例子；目标相关之处是 assumed `sigma/I = 0.5` 与一个 `1115 keV` 跃迁的 `delta` 对 assumed alignment 的敏感性。
 - [[summary-2013-bases-spin-parity-assignments]] - Nuclear Data Sheets spin/parity assignment guide；高自旋 angular-distribution / DCO heuristic 使用典型 `σ/I = 0.3`。
 - [[gray-2020-hyperfine-fields-g-factor-measurements]] - TDPAD / `g`-factor host-field paper；作为 empirical `sigma/I` expectation 可能失效的边界案例。

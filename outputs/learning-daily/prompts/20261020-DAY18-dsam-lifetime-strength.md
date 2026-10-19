@@ -168,3 +168,7 @@ EV23-24–28/F22-87旧Backup早已读，新actualSiθ16值与119.8mm stripcenter
 ### Day17 checkpoint043 priming：极角不定方位frame
 
 EV23-29–33/F22-88实际ThetaLdeg matchmrad Eq3.5至float，另一projected-slopes式最大差.058978°；相同θ/norm的反射φ候选不能由θ选正确handedness。不是原φ实验失配或τCI重放；原vertex-loss/DCT/完整frame/Cov缺口保。正式18仍独立session。
+
+### Day17 checkpoint044 priming：Chiara完整主线
+
+CHI01-7–24实际30页/21图7表3式完整(旧targeted)，TableI纠正SB/8π；108用backed/110用thin，真实E1/link进partialτ分母。110(18+)E2中心差保，错换来源的Qt比1.404只control非实验更正。AMR已测ω≤.536与预测>.70下降域不交，(27-)/(29-)已见line而无τ/B；largeJ2/BE2不足、slowSF替代保。全文仍无bandQt轴式，MU08-18不补geometry。正式18独立session。

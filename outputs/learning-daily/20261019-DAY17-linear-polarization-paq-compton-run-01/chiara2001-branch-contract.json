@@ -1,0 +1,156 @@
+{
+  "identity": "CHI01-ACTUAL-PARENT-BRANCH-PROVENANCE-01",
+  "pdf": "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+  "pdf_sha256": "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e",
+  "declared_control": "visible photon only, alpha0/delta0, original Eq2/3 constants; no experimental CI",
+  "parents": [
+    {
+      "parent": "108In:band3:16+",
+      "tau_ps": 0.432,
+      "tau_printed": "0.432(+.039,-.035)ps",
+      "author_input_set": "backed",
+      "locator": "Fig2;TableIII357.3/1220.5;TableV16+",
+      "transitions": [
+        {
+          "id": "357.3 band3 16+->15+",
+          "E_keV": 357.3,
+          "author_multipolarity": "M1/E2",
+          "rate_control_kind": "M1",
+          "intensities": {
+            "backed": 16.8,
+            "thin": 21.2
+          },
+          "in_rate_table": true,
+          "reported_B": 2.48
+        },
+        {
+          "id": "1220.5 band3->2 16+->15-",
+          "E_keV": 1220.5,
+          "author_multipolarity": "E1",
+          "rate_control_kind": "E1",
+          "intensities": {
+            "backed": 2.5,
+            "thin": 3.1
+          },
+          "in_rate_table": false
+        }
+      ]
+    },
+    {
+      "parent": "110In:band3:(18+)",
+      "tau_ps": 0.196,
+      "tau_printed": "0.196(+.021,-.019)ps",
+      "author_input_set": "thin",
+      "locator": "Fig3;TableIV366.9/565.6/1052.3;TableVI(18+)",
+      "transitions": [
+        {
+          "id": "565.6 band3 (18+)->(17+)",
+          "E_keV": 565.6,
+          "author_multipolarity": "M1/E2",
+          "rate_control_kind": "M1",
+          "intensities": {
+            "thin": 13.0
+          },
+          "in_rate_table": true,
+          "reported_B": 1.35
+        },
+        {
+          "id": "1052.3 band3 (18+)->16+",
+          "E_keV": 1052.3,
+          "author_multipolarity": "E2",
+          "rate_control_kind": "E2",
+          "intensities": {
+            "thin": 1.5
+          },
+          "in_rate_table": true,
+          "reported_B": 0.029
+        },
+        {
+          "id": "366.9 band3->8 (18+)->17(+)",
+          "E_keV": 366.9,
+          "author_multipolarity": "M1/E2",
+          "rate_control_kind": "M1/E2-link-not-decomposed",
+          "intensities": {
+            "thin": 0.8
+          },
+          "in_rate_table": false
+        }
+      ]
+    },
+    {
+      "parent": "110In:band3:(19+)",
+      "tau_ps": 0.105,
+      "tau_printed": "0.105(+.009,-.013)ps",
+      "author_input_set": "thin",
+      "counter_input_set": "backed",
+      "locator": "TableIV572.9/1138.6;TableVI(19+)",
+      "transitions": [
+        {
+          "id": "572.9 band3 (19+)->(18+)",
+          "E_keV": 572.9,
+          "author_multipolarity": "M1/E2",
+          "rate_control_kind": "M1",
+          "intensities": {
+            "thin": 6.2,
+            "backed": 2.1
+          },
+          "in_rate_table": true,
+          "reported_B": 2.51
+        },
+        {
+          "id": "1138.6 band3 (19+)->(17+)",
+          "E_keV": 1138.6,
+          "author_multipolarity": "E2",
+          "rate_control_kind": "E2",
+          "intensities": {
+            "thin": 0.9,
+            "backed": 0.7
+          },
+          "in_rate_table": true,
+          "reported_B": 0.051
+        }
+      ]
+    }
+  ],
+  "AMR_fitted": [
+    {
+      "spin_label": "17(-)",
+      "E_keV": 950.4,
+      "reported_B_E2_e2b2": 0.136
+    },
+    {
+      "spin_label": "19(-)",
+      "E_keV": 889.1,
+      "reported_B_E2_e2b2": 0.265
+    },
+    {
+      "spin_label": "21(-)",
+      "E_keV": 946.2,
+      "reported_B_E2_e2b2": 0.266
+    },
+    {
+      "spin_label": "(23-)",
+      "E_keV": 1072,
+      "reported_B_E2_e2b2": 0.281
+    }
+  ],
+  "AMR_observed_higher": [
+    {
+      "spin_label": "(25-)",
+      "E_keV": 1234.9,
+      "thin_relative_intensity": 2.5
+    },
+    {
+      "spin_label": "(27-)",
+      "E_keV": 1419.1,
+      "thin_relative_intensity": 1.2
+    },
+    {
+      "spin_label": "(29-)",
+      "E_keV": 1626.8,
+      "thin_relative_intensity": 0.6
+    }
+  ],
+  "predicted_decline_omega_MeV": 0.7,
+  "boundary": "parent identities/assignments as author, tentative labels preserved; observed higher lines are not lifetime points"
+}

@@ -209,3 +209,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 原校准与互逆计算的物理边界
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-58/59/62/63/64/68/71/72：Bρ↔E两个错误物理表达式仍可互逆，不能用roundtrip单独认证动量/速度合同；source/模拟校准、PSA尺度派生角核及实际particlecleaning也不能合称一个测得response。高能eff的source+MC角色与精确coeff/自然log单位需match原job。当前native只组件，未知papercal/Σ不从数值差直接重报τ/BR。
+
+## 分支表与强度表不是相同的完整库存
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-9/12/13/14/15/19：同parent的E1/带间link也会改变partialτ，thin/backed强度来源由实际reaction/分析合同确定；只取rate表两列可制造B/Qt差。无shift给的roughlifetimebound仍依sidefeeding与响应，不能裸转小shape/统一CL。该文的SFQ是effectiveτ参数，不代静态Qs或bandQt。

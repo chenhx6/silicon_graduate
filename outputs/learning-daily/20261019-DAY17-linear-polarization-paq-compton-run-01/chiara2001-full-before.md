@@ -1,0 +1,9 @@
+# Chiara2001完整主线读取前回忆
+
+本source旧Day9仅targeted p1摘要/p7表说明/p18–19DSAM与公式/p29结论，已知partialτ/branch/ICC、dipole近pureM1及未见E2crossover按0处理；强priming，非盲测或独立新测量。当前Day17窗口只Day18无学分preview，formal17once/next18count17/no19。
+
+准备以已存APS原件hash5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e完整读29页主线，核actual实验/能级图/所有图表式/寿命与率/误差/limitation，不把旧partial摄入说成此前全文已读。具体反应/装置/完整band角色当前不凭记忆填。
+
+新问题：真实lifetime与B(M1)/B(E2)怎样区分shears旋转、集体转动、configurationmixing/终止等解释？Qt的直接公式和axis是否真在methodancestor给出，还是MU08相似表值仍不唯一？未观察E2按0不是完整branch或严格上限，要看actualsensitivity与selection。source的methodcitation不是MU08独立data验证。
+
+必要companion为spin/parity/ΔI/branch/ICC/feeding与E2/crossover，counter看不跟spin单调的B、crossing/shapealternative、model绝对scale和响应；独立性区分108/110数据采集、共同instrument/stopping/code、与Jensen/136Nd的method依赖。读后再选一项实际表/能级/uncertainty合同练习，不预填结果或新增实验CI。
