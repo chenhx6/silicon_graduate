@@ -1,0 +1,958 @@
+{
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "locator": "TableB.2 printed175/PDF178",
+  "rows": [
+    {
+      "strip": 1,
+      "quadrant": 1,
+      "offset_literal": "-392.5±32.71",
+      "gain_literal": "17.2±1.00",
+      "offset_keV_and_quoted_error": [
+        -392.5,
+        32.71
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.2,
+        1.0
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 1,
+      "quadrant": 2,
+      "offset_literal": "-623.6±51.87",
+      "gain_literal": "14.7±0.12",
+      "offset_keV_and_quoted_error": [
+        -623.6,
+        51.87
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.7,
+        0.12
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 1,
+      "quadrant": 3,
+      "offset_literal": "-854.8±108.70",
+      "gain_literal": "15.6±0.26",
+      "offset_keV_and_quoted_error": [
+        -854.8,
+        108.7
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        15.6,
+        0.26
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 1,
+      "quadrant": 4,
+      "offset_literal": "-686.5±52.53",
+      "gain_literal": "15.0±0.13",
+      "offset_keV_and_quoted_error": [
+        -686.5,
+        52.53
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        15.0,
+        0.13
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 2,
+      "quadrant": 1,
+      "offset_literal": "-296.1±26.86",
+      "gain_literal": "17.3±0.77",
+      "offset_keV_and_quoted_error": [
+        -296.1,
+        26.86
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.3,
+        0.77
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 2,
+      "quadrant": 2,
+      "offset_literal": "-418.7±39.81",
+      "gain_literal": "14.4±0.10",
+      "offset_keV_and_quoted_error": [
+        -418.7,
+        39.81
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.4,
+        0.1
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 2,
+      "quadrant": 3,
+      "offset_literal": "-374.4±83.57",
+      "gain_literal": "13.1±0.19",
+      "offset_keV_and_quoted_error": [
+        -374.4,
+        83.57
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.1,
+        0.19
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 2,
+      "quadrant": 4,
+      "offset_literal": "-268.5±58.68",
+      "gain_literal": "13.7±0.14",
+      "offset_keV_and_quoted_error": [
+        -268.5,
+        58.68
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.7,
+        0.14
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 3,
+      "quadrant": 1,
+      "offset_literal": "-108.9±44.63",
+      "gain_literal": "14.3±1.19",
+      "offset_keV_and_quoted_error": [
+        -108.9,
+        44.63
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.3,
+        1.19
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 3,
+      "quadrant": 2,
+      "offset_literal": "-790.2±52.80",
+      "gain_literal": "14.2±0.12",
+      "offset_keV_and_quoted_error": [
+        -790.2,
+        52.8
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.2,
+        0.12
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 3,
+      "quadrant": 3,
+      "offset_literal": "-886.3±125.50",
+      "gain_literal": "15.8±0.31",
+      "offset_keV_and_quoted_error": [
+        -886.3,
+        125.5
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        15.8,
+        0.31
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 3,
+      "quadrant": 4,
+      "offset_literal": "-879.0±54.29",
+      "gain_literal": "13.6±0.12",
+      "offset_keV_and_quoted_error": [
+        -879.0,
+        54.29
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.6,
+        0.12
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 4,
+      "quadrant": 1,
+      "offset_literal": "-457.5±32.71",
+      "gain_literal": "17.9±0.98",
+      "offset_keV_and_quoted_error": [
+        -457.5,
+        32.71
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.9,
+        0.98
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 4,
+      "quadrant": 2,
+      "offset_literal": "-368.6±43.07",
+      "gain_literal": "13.5±0.10",
+      "offset_keV_and_quoted_error": [
+        -368.6,
+        43.07
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.5,
+        0.1
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 4,
+      "quadrant": 3,
+      "offset_literal": "-288.9±144.70",
+      "gain_literal": "14.9±0.37",
+      "offset_keV_and_quoted_error": [
+        -288.9,
+        144.7
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.9,
+        0.37
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 4,
+      "quadrant": 4,
+      "offset_literal": "-457.8±60.65",
+      "gain_literal": "16.7±0.17",
+      "offset_keV_and_quoted_error": [
+        -457.8,
+        60.65
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.7,
+        0.17
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 5,
+      "quadrant": 1,
+      "offset_literal": "-737.6±70.44",
+      "gain_literal": "10.6±0.12",
+      "offset_keV_and_quoted_error": [
+        -737.6,
+        70.44
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        10.6,
+        0.12
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 5,
+      "quadrant": 2,
+      "offset_literal": "-1024.0±63.39",
+      "gain_literal": "14.7±0.14",
+      "offset_keV_and_quoted_error": [
+        -1024.0,
+        63.39
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.7,
+        0.14
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 5,
+      "quadrant": 3,
+      "offset_literal": "-1016.0±285.30",
+      "gain_literal": "14.0±0.59",
+      "offset_keV_and_quoted_error": [
+        -1016.0,
+        285.3
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.0,
+        0.59
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 5,
+      "quadrant": 4,
+      "offset_literal": "-1205.0±35.28",
+      "gain_literal": "18.0±0.09",
+      "offset_keV_and_quoted_error": [
+        -1205.0,
+        35.28
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        18.0,
+        0.09
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 6,
+      "quadrant": 1,
+      "offset_literal": "-836.5±60.34",
+      "gain_literal": "16.0±0.15",
+      "offset_keV_and_quoted_error": [
+        -836.5,
+        60.34
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.0,
+        0.15
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 6,
+      "quadrant": 2,
+      "offset_literal": "-559.2±40.46",
+      "gain_literal": "12.3±0.08",
+      "offset_keV_and_quoted_error": [
+        -559.2,
+        40.46
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        12.3,
+        0.08
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 6,
+      "quadrant": 3,
+      "offset_literal": "-485.3±109.40",
+      "gain_literal": "14.1±0.26",
+      "offset_keV_and_quoted_error": [
+        -485.3,
+        109.4
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.1,
+        0.26
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 6,
+      "quadrant": 4,
+      "offset_literal": "-833.7.q±42.29",
+      "gain_literal": "17.6±0.12",
+      "offset_keV_and_quoted_error": null,
+      "gain_keV_per_au_and_quoted_error": [
+        17.6,
+        0.12
+      ],
+      "status": "ambiguous-literal"
+    },
+    {
+      "strip": 7,
+      "quadrant": 1,
+      "offset_literal": "-931.6±51.59",
+      "gain_literal": "16.6±0.13",
+      "offset_keV_and_quoted_error": [
+        -931.6,
+        51.59
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.6,
+        0.13
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 7,
+      "quadrant": 2,
+      "offset_literal": "-812.6±35.20",
+      "gain_literal": "12.8±0.07",
+      "offset_keV_and_quoted_error": [
+        -812.6,
+        35.2
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        12.8,
+        0.07
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 7,
+      "quadrant": 3,
+      "offset_literal": "-896.5±95.89",
+      "gain_literal": "16.1±0.25",
+      "offset_keV_and_quoted_error": [
+        -896.5,
+        95.89
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.1,
+        0.25
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 7,
+      "quadrant": 4,
+      "offset_literal": "-1087.0±44.22",
+      "gain_literal": "17.7±0.12",
+      "offset_keV_and_quoted_error": [
+        -1087.0,
+        44.22
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.7,
+        0.12
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 8,
+      "quadrant": 1,
+      "offset_literal": "-984.0±19.70",
+      "gain_literal": "19.3±0.59",
+      "offset_keV_and_quoted_error": [
+        -984.0,
+        19.7
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        19.3,
+        0.59
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 8,
+      "quadrant": 2,
+      "offset_literal": "-877.5±50.04",
+      "gain_literal": "16.5±0.13",
+      "offset_keV_and_quoted_error": [
+        -877.5,
+        50.04
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.5,
+        0.13
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 8,
+      "quadrant": 3,
+      "offset_literal": "-1006.0±136.8",
+      "gain_literal": "16.7±0.39",
+      "offset_keV_and_quoted_error": [
+        -1006.0,
+        136.8
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.7,
+        0.39
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 8,
+      "quadrant": 4,
+      "offset_literal": "-972.2±48.81",
+      "gain_literal": "18.4±0.14",
+      "offset_keV_and_quoted_error": [
+        -972.2,
+        48.81
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        18.4,
+        0.14
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 9,
+      "quadrant": 1,
+      "offset_literal": "-524.8±65.73",
+      "gain_literal": "12.3±0.13",
+      "offset_keV_and_quoted_error": [
+        -524.8,
+        65.73
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        12.3,
+        0.13
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 9,
+      "quadrant": 2,
+      "offset_literal": "-602.7±38.78",
+      "gain_literal": "10.7±0.07",
+      "offset_keV_and_quoted_error": [
+        -602.7,
+        38.78
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        10.7,
+        0.07
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 9,
+      "quadrant": 3,
+      "offset_literal": "-716.3±100.40",
+      "gain_literal": "14.4±0.23",
+      "offset_keV_and_quoted_error": [
+        -716.3,
+        100.4
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.4,
+        0.23
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 9,
+      "quadrant": 4,
+      "offset_literal": "-972.9±61.13",
+      "gain_literal": "18.2±0.17",
+      "offset_keV_and_quoted_error": [
+        -972.9,
+        61.13
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        18.2,
+        0.17
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 10,
+      "quadrant": 1,
+      "offset_literal": "-723.9±63.48",
+      "gain_literal": "16.1±0.16",
+      "offset_keV_and_quoted_error": [
+        -723.9,
+        63.48
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.1,
+        0.16
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 10,
+      "quadrant": 2,
+      "offset_literal": "-467.9±54.56",
+      "gain_literal": "11.7±0.11",
+      "offset_keV_and_quoted_error": [
+        -467.9,
+        54.56
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        11.7,
+        0.11
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 10,
+      "quadrant": 3,
+      "offset_literal": "-1101.0±150.00",
+      "gain_literal": "17.5±0.40",
+      "offset_keV_and_quoted_error": [
+        -1101.0,
+        150.0
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.5,
+        0.4
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 10,
+      "quadrant": 4,
+      "offset_literal": "-808.2±53.84",
+      "gain_literal": "17.9±0.15",
+      "offset_keV_and_quoted_error": [
+        -808.2,
+        53.84
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.9,
+        0.15
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 11,
+      "quadrant": 1,
+      "offset_literal": "-222.2±28.71",
+      "gain_literal": "8.7±0.70",
+      "offset_keV_and_quoted_error": [
+        -222.2,
+        28.71
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        8.7,
+        0.7
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 11,
+      "quadrant": 2,
+      "offset_literal": "-585.2±46.53",
+      "gain_literal": "14.8±0.11",
+      "offset_keV_and_quoted_error": [
+        -585.2,
+        46.53
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.8,
+        0.11
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 11,
+      "quadrant": 3,
+      "offset_literal": "-502.5±88.60",
+      "gain_literal": "13.5±0.20",
+      "offset_keV_and_quoted_error": [
+        -502.5,
+        88.6
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.5,
+        0.2
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 11,
+      "quadrant": 4,
+      "offset_literal": "-592.9±39.93",
+      "gain_literal": "17.8±0.12",
+      "offset_keV_and_quoted_error": [
+        -592.9,
+        39.93
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.8,
+        0.12
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 12,
+      "quadrant": 1,
+      "offset_literal": "-593.4±56.93",
+      "gain_literal": "14.6±0.14",
+      "offset_keV_and_quoted_error": [
+        -593.4,
+        56.93
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.6,
+        0.14
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 12,
+      "quadrant": 2,
+      "offset_literal": "-694.9±64.90",
+      "gain_literal": "16.4±0.18",
+      "offset_keV_and_quoted_error": [
+        -694.9,
+        64.9
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.4,
+        0.18
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 12,
+      "quadrant": 3,
+      "offset_literal": "-705.8±92.64",
+      "gain_literal": "15.3±0.23",
+      "offset_keV_and_quoted_error": [
+        -705.8,
+        92.64
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        15.3,
+        0.23
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 12,
+      "quadrant": 4,
+      "offset_literal": "-695.9±63.66",
+      "gain_literal": "17.8±0.18",
+      "offset_keV_and_quoted_error": [
+        -695.9,
+        63.66
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.8,
+        0.18
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 13,
+      "quadrant": 1,
+      "offset_literal": "-468.8±87.72",
+      "gain_literal": "14.4±0.21",
+      "offset_keV_and_quoted_error": [
+        -468.8,
+        87.72
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.4,
+        0.21
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 13,
+      "quadrant": 2,
+      "offset_literal": "-519.5±59.88",
+      "gain_literal": "17.1±0.17",
+      "offset_keV_and_quoted_error": [
+        -519.5,
+        59.88
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.1,
+        0.17
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 13,
+      "quadrant": 3,
+      "offset_literal": "-496.2±128.40",
+      "gain_literal": "14.2±0.30",
+      "offset_keV_and_quoted_error": [
+        -496.2,
+        128.4
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.2,
+        0.3
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 13,
+      "quadrant": 4,
+      "offset_literal": "-292.1±64.44",
+      "gain_literal": "13.7±0.15",
+      "offset_keV_and_quoted_error": [
+        -292.1,
+        64.44
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.7,
+        0.15
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 14,
+      "quadrant": 1,
+      "offset_literal": "/",
+      "gain_literal": "/",
+      "offset_keV_and_quoted_error": null,
+      "gain_keV_per_au_and_quoted_error": null,
+      "status": "missing"
+    },
+    {
+      "strip": 14,
+      "quadrant": 2,
+      "offset_literal": "-583.8±48.55",
+      "gain_literal": "17.9±0.14",
+      "offset_keV_and_quoted_error": [
+        -583.8,
+        48.55
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        17.9,
+        0.14
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 14,
+      "quadrant": 3,
+      "offset_literal": "-364.5±87.06",
+      "gain_literal": "14.7±0.22",
+      "offset_keV_and_quoted_error": [
+        -364.5,
+        87.06
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.7,
+        0.22
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 14,
+      "quadrant": 4,
+      "offset_literal": "-435.5±59.76",
+      "gain_literal": "13.9±0.14",
+      "offset_keV_and_quoted_error": [
+        -435.5,
+        59.76
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.9,
+        0.14
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 15,
+      "quadrant": 1,
+      "offset_literal": "-859.6±96.35",
+      "gain_literal": "14.3±0.22",
+      "offset_keV_and_quoted_error": [
+        -859.6,
+        96.35
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        14.3,
+        0.22
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 15,
+      "quadrant": 2,
+      "offset_literal": "-876.7±53.02",
+      "gain_literal": "18.0±0.15",
+      "offset_keV_and_quoted_error": [
+        -876.7,
+        53.02
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        18.0,
+        0.15
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 15,
+      "quadrant": 3,
+      "offset_literal": "-741.8±121.10",
+      "gain_literal": "15.1±0.29",
+      "offset_keV_and_quoted_error": [
+        -741.8,
+        121.1
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        15.1,
+        0.29
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 15,
+      "quadrant": 4,
+      "offset_literal": "-709.5±63.43",
+      "gain_literal": "15.6±0.16",
+      "offset_keV_and_quoted_error": [
+        -709.5,
+        63.43
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        15.6,
+        0.16
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 16,
+      "quadrant": 1,
+      "offset_literal": "-867.6±66.43",
+      "gain_literal": "16.6±0.18",
+      "offset_keV_and_quoted_error": [
+        -867.6,
+        66.43
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        16.6,
+        0.18
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 16,
+      "quadrant": 2,
+      "offset_literal": "-1098.0±87.54",
+      "gain_literal": "19.1±0.26",
+      "offset_keV_and_quoted_error": [
+        -1098.0,
+        87.54
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        19.1,
+        0.26
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 16,
+      "quadrant": 3,
+      "offset_literal": "-1530.0±286.80",
+      "gain_literal": "20.4±0.81",
+      "offset_keV_and_quoted_error": [
+        -1530.0,
+        286.8
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        20.4,
+        0.81
+      ],
+      "status": "numeric"
+    },
+    {
+      "strip": 16,
+      "quadrant": 4,
+      "offset_literal": "-927.6±90.32",
+      "gain_literal": "13.7±0.19",
+      "offset_keV_and_quoted_error": [
+        -927.6,
+        90.32
+      ],
+      "gain_keV_per_au_and_quoted_error": [
+        13.7,
+        0.19
+      ],
+      "status": "numeric"
+    }
+  ],
+  "literal_transcription_no_imputation": true
+}

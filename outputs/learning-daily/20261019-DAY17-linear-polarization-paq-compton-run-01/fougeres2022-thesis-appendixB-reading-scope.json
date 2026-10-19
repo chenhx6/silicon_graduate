@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-19T22:31:35.612759+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "PDF_pages": [
+    171,
+    178
+  ],
+  "printed_pages": [
+    168,
+    175
+  ],
+  "read": "complete AppendixB text/visual eightpages",
+  "figures": [
+    "B.1",
+    "B.2",
+    "B.3",
+    "B.4",
+    "B.5",
+    "B.6",
+    "B.7"
+  ],
+  "tables": [
+    "B.1",
+    "B.2"
+  ],
+  "numbered_equations": [],
+  "full_thesis_read": false,
+  "new_official_Eu152_read_scope_separate": true
+}

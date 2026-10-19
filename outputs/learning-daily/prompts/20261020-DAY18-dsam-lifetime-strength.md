@@ -156,3 +156,7 @@ F22-54–73完整Ch3/31图8表11式，Eu152低能绝对+MC高能eff、4mmPSA派�
 ### Day17 checkpoint040 priming：真实条件query
 
 EV23-18–23/F22-74明确treecoords已global量级，public−17相对修正不等绝对−252.3；初假设在计数前纠正/原freeze保。固定meanβ/beamaxisquery真实三窗18/20/13、51events无windowmultitrack，二阶矩27.75非实验CI；两Bρ式同3门数却一entry不同。原PID/recoilθDS/target/mask未知不冒paperyield；正式18独立session。
+
+### Day17 checkpoint041 priming：AppendixB校准
+
+F22-75–86完整B/7图2表，canonical保7线σ/64cal(62numeric/1missing/1ambiguous)，coreE不等TrackEeff，quotedgain/offset误差需共同Cov不当intrinsiclineσ。Eu时间两角色activity仅条件算术，NNDC/IAEA/LNHB TLS无body不补half/mean定论或更正ε。正式18仍独立session/不换旧checks。

@@ -1,0 +1,37 @@
+{
+  "subject": "Preserve full calibration tables and shared parameter uncertainty boundaries",
+  "verification_number": 55,
+  "paths": [
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "system/scripts/day17_fougeres2022_appendixB_contract.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-040.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-040.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-055.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-055.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-041.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint041.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-appendixB-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-appendixB-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-appendixB-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-eu152-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-eu152-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-strip-table.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/eu152-official-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/eu152-iaea-ground-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/eu152-lnhb-discovery.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/XLSX/ZIP/binaries/credentials/inheriteddirty/daemon;logHEAD+own041"
+}

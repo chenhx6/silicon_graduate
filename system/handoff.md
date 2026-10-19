@@ -6,19 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; actual events checkpoint040
+## Active handoff — DAY17 original window active; AppendixB checkpoint041
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–039actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–040actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察。
 
-本批EV23-18–23/F22-74 actualpublicTree新query，原34files及data.rootsha7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4保持。初freeze把absolute−252.3当treeoffset，是先验错误；preflighttrackZ−323.578…−108.341与inputs/mainrelative−17直接证据在任何windowcount前纠正，另冻保原，不扫offset/门强配。
+本批F22-75–86完整AppendixB/PDF171–178/printed168–175文本/视觉，7图2表无编号式。现Ch3–6/A.2/B完整，A.3仅额外文字，非201页全读，Ch7/C未读。
 
-固定engineeringqueryBρ>0/0≤ThetaLdeg<12、labγ120–176、relativeZ−17/meanβ.077/beamaxisDC与A.2半开三窗：input409303/base363176/angulartracks382017，L/S/U18/20/13，51不同entry无windowmultitrack。D4.5，Poissonizedrecordcluster二阶矩=trackdiag27.75，fixedN中心化27.749944；均非实验CI/原keyyield，不能推广零Cov。两Bρ表达式同37.5–39.5门各3个S-events，但common132983/205708、literalonly11896、momentumonly124638(0-based)，samecount不保membership。完整51entryledger在result，别贴成实验keyraw数据。
+canonical源页保七线σ表与TableB2所有64cal字面值；62numeric、Q1strip14两格/ missing、Q4strip6 offset−833.7.q±42.29 ambiguous，未修q/补均值。source/跨eventgainCov/quotedCL未知；Q2strip1在5485.6keV条件参数predictionstd可1.999–101.741keV，不是intrinsiclinewidth/原CI。B1近7MeVσ4.4±2.1→FWHM10.34。Si6878 onlinecal/longbenchmark至少同line/array链，actualevents是否同unknown，不数完全独立验证。
 
-原θDS/recoilangle/PID/target/run/contaminantmask与原cal/Cov未match，工程query不能冒paperselection/BR分母；未初始化fullMC未执行。先freeze/actualframe纠正/新membershipbeforefreeze与scriptday17_evasions_conditional_events.py/contract/results齐。
+B4 coreE而Ch3Fig3.19 efficiencyTrackE，不能拿不同observable峰面积直接验ε。Eu source打印τ4.267e8s,A0 18755/s,age6.127e8s,time5029s；mean/half两角色算Astart4461.82/6932.14、ratio1.553656是conditional，不推实际label/job错或强配1.80。NuDat两URL/IAEAAPI/LNHB官方PDF都TLS握手失败无body，失败JSON齐，TLS未降/未改配置，当前不能靠memory13.5年裁half。别原样反复失败URL；未创建假officialsourcepage。
 
-canonicalthesis/EVA/ledger/report单writeback，verification054actualreceipt通过后main / `Query actual public events with explicit frame and selection boundaries`稳定指针，hash/push只publication040/run.json。source现在F22-1–74/EV23-1–23全新claims needs_review、旧flags保。
+canonicalthesis/ledger/report单writeback、64输入/七线contract/程序day17_fougeres2022_appendixB_contract.py/result/两次冻结/scope齐。verification055actualreceipt通过后main / `Preserve full calibration tables and shared parameter uncertainty boundaries`稳定指针，hash/push只publication041/run.json；原review/rows/raw/source不改。
 
-Ch3–6/A.2原件完整，A.3仅额外文字，Ch7/B仍未读。下一候选最高信息是AppendixB实际calibration/response原件(预计PDF171–178/printed168–175)，先冻结/查TOC后只本方法单元，不用更多gate scans或modelhistory填缺口。原publicdata条件query已局部饱和，别为paper统计17.1982去扫window/variance。当前约06:27上海仍8h33，继续window不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/log。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+本地actualquery已局部饱和(18/20/13、same3不同entry，EV23-18–23)，不扫描gate/offset去强配paper统计或增加MODELhistory。下一高信息候选是publicrelease的Backup/extractionData.C与新primary/actualdata作定向比较；旧producer-reading-scope已确认它早先读过，不能当新sourcebody或独立来源。新问题是Si_theta离散指纹能否match119.8mm/stripcenter recipe，及无效γveto/缺QPL门的producer边界(先新freeze，不执行其外部路径/RECREATE)；或真实event上独立vectorrecoil/beamaxis近似的有界响应对照，需要新问题/合同，不重跑旧query授分。Ch7/天体模型和其它课程卡不打开。约06:42上海仍8h18，继续window不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/log。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

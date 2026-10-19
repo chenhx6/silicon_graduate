@@ -38,6 +38,11 @@ Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分previ
 
 ## Candidate pool and selection
 
+### checkpoint041后候选重建
+
+clock2026-10-20 06:41上海距原15:00仍约499min；Day18卡仅重核寿命→B→Qt链，不授18/不开后卡。当前officialEu routes TLS无body，图statistic/approxquery局部饱和；新候选是已读Backup与实际Si_theta离散指纹的生成合同对照。旧scope明确Backup早已读，不计新sourcebody；只选择有新actualinput问题的定向复核，暂不扫描gate/增MODELhistories。
+
+
 按README/index/profile/memory/activehandoff/PLAN、三份课程计划、continuous-learning/autonomous/reflect规则和最近八次日报的候选部分重建；见[candidate-pool-001.json](20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-001.json)。日报只提供运行历史，不作为新的科学事实源。
 
 | 槽位/候选 | 信息增益、覆盖与当前决定 |
@@ -52,6 +57,11 @@ Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分previ
 Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应与符合、Doppler、谱学身份、ADO/DCO和大量偏振预习。按课程重读ST99/SG98属于有记录的课程重叠，不声称来源未暴露或实验独立。
 
 ## Sources and evidence
+
+### checkpoint041：实际AppendixB校准输入
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-75–86完整8页/7图2表视觉文本核，canonical保存七线σ与64通道原校准表。coreE/TrackE及missing/ambiguous分层；官方Eu half/mean请求TLS无body，不以记忆补证。
+
 
 ### checkpoint040：真实publicevents的固定条件query
 
@@ -170,6 +180,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint041：实际校准的参数Cov与时间角色
+
+[程序](../../system/scripts/day17_fougeres2022_appendixB_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-result.json)核64通道62numeric/1missing/1ambiguous与七线σ/FWHM。Q2strip1在5485.6keV的unknownρ尺度1.999–101.741keV是条件参数传播，非线宽/CI；Eu source时间常数两角色activity仅算术，不改原ε/BR。
+
 
 ### checkpoint040：真实event/track分母与membership
 
@@ -5977,6 +5992,108 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EV23-23"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "AppendixB实际校准台账与shared参数合同",
+      "summary": "F22-75–86与canonical七线/完整64通道literal输入，core/TrackE、缺项/歧义及sharedcalCov合同。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-75"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-76"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-77"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-78"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-79"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-80"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-81"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-82"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-83"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-84"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-85"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-86"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "AppendixB实际校准：core、TrackE与共同增益误差",
+      "summary": "整合原B校准数据、条件参数Cov与官方Eu独立timeconstant输入未得的边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-77"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-78"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-79"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-80"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-81"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-82"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-83"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-84"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-85"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-86"
+        }
+      ]
     }
   ]
 }
@@ -6207,3 +6324,7 @@ verification053核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint040实际eventquery验收
 
 verification054核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与真实queryartifact；通过后manifest040/commitguard/H3。原绝对/相对frame误认在selection前纠正且保freeze；无原paperyield/新τCI，同windowactive/formal17once/18partial/no19。
+
+### checkpoint041原校准输入验收
+
+verification055核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及实际表/Covartifact；通过后manifest041/commitguard/H3。Eu官方body缺口不冒事实，原windowactive/formal17once/partial18/no19，无新实验τ/BR/CI。

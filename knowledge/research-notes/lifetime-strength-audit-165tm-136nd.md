@@ -379,3 +379,11 @@ SPIDER图/表/default几何与宽度须matching：σθ与∆φ分割宽不同；
 [固定条件query及51entryledger](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-result.json)只用beamaxis/meanβ近似，base363176、angulartracks382017，真实三窗L/S/U18/20/13、51event且无窗内多track。D4.5，Poissonizedrecordcluster二阶矩/trackdiag均27.75，fixedN中心化27.749944是另一条件模型，不附实验CI或通用独立性结论。
 
 同S集合的α37.5–39.5MeV门：两个Bρ表达式都3events，却只2个共同entry；literal独11896、momentum独124638、共同132983/205708，均0-based。原θDS/PID/target/contaminantmask不完整，不能从同count或这51条query裁物理keyyield/原τ偏差。原34source/datahash保、无新原paperfit。
+
+### AppendixB实际校准：core、TrackE与共同增益误差
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-75–86完整AppendixB/PDF171–178，7图2表无编号式，文本/视觉核。canonical源页保存完整七线σ表与TableB.2全部64通道字面输入，62numeric/1missing/1ambiguous；Q1strip14与Q4strip6不填补，不能由表变publicraw重放。
+
+B.4是coreE，Ch3效率图TrackE；同source不等同observable/selection。Eu初activity/age/time实际数给mean/half两角色Astart4461.82/6932.14/s，ratio1.553656为条件算术，四个官方HTTPSTLS失败均无body，当前不靠记忆裁τ/eff更正。保失败、不降TLS、不强配1.80归一。
+
+[实际参数Cov练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-result.json)：Q2strip1在5485.6keV的unknownρ预测尺度1.999–101.741keV，不是intrinsicFWHM或原CI；共同gain/offset产生跨eventCov，不能作独立eventsmear。TableB1近7MeVσ4.4±2.1→FWHM10.34，quotedfituncert/truekernel分开。Si6878在线cal与longbenchmark至少共享线/装置，eventsidentity未知不数完全独立验证。

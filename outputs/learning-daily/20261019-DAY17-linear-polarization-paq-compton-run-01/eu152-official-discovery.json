@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=152EU&unc=nds",
+      "exit_code": 1,
+      "status": null,
+      "error": "requests SSLError: UNEXPECTED_EOF_WHILE_READING; no body received; TLS verification kept"
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nudat3/getdatasetClassic.jsp?nucleus=152EU&unc=nds",
+      "status": null,
+      "error": "HTTPSConnectionPool(host='www.nndc.bnl.gov', port=443): Max retries exceeded with url: /nudat3/getdatasetClassic.jsp?nucleus=152EU&unc=nds (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+    }
+  ],
+  "at": "2026-10-19T22:32:24.833944+00:00"
+}

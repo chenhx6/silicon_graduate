@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T22:38:32.694730+00:00",
+  "url": "https://www.lnhb.fr/nuclides/Eu-152_tables.pdf",
+  "command": "curl --fail --location --connect-timeout 10 --max-time 30 --output ... official-URL",
+  "exit_code": 35,
+  "error": "OpenSSL SSL_ERROR_SYSCALL in connection to www.lnhb.fr:443",
+  "body_received": false,
+  "TLS_verification_disabled": false,
+  "no_scientific_reference_body_verified": true
+}

@@ -1,0 +1,67 @@
+{
+  "identity": "F22-APPENDIX-B-ACTUAL-CALIBRATION-01",
+  "pdf": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "strip_table": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-strip-table.json",
+  "printed_tau_s": 426700000.0,
+  "initial_activity_per_s": 18755,
+  "source_age_s": 612700000.0,
+  "counting_time_s": 5029,
+  "alpha_reference_energies_keV": [
+    5156.6,
+    5485.6,
+    5804.8
+  ],
+  "TableB1": [
+    {
+      "nuclide": "197Au",
+      "reference_keV": 279,
+      "centroid_keV": 278.8,
+      "sigma_keV": 1.6,
+      "quoted_sigma_error_keV": 0.003
+    },
+    {
+      "nuclide": "197Au",
+      "reference_keV": 547,
+      "centroid_keV": 547.3,
+      "sigma_keV": 1.8,
+      "quoted_sigma_error_keV": 0.003
+    },
+    {
+      "nuclide": "24Mg",
+      "reference_keV": 1369,
+      "centroid_keV": 1368.3,
+      "sigma_keV": 2.4,
+      "quoted_sigma_error_keV": 0.1
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 1779,
+      "centroid_keV": 1778.4,
+      "sigma_keV": 2.6,
+      "quoted_sigma_error_keV": 0.2
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 4496,
+      "centroid_keV": 4496.6,
+      "sigma_keV": 2.9,
+      "quoted_sigma_error_keV": 3.7
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 5099,
+      "centroid_keV": 5099.2,
+      "sigma_keV": 3.4,
+      "quoted_sigma_error_keV": 4.4
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 6878,
+      "centroid_keV": 6877,
+      "sigma_keV": 4.4,
+      "quoted_sigma_error_keV": 2.1
+    }
+  ],
+  "boundary": "literal source marginal numbers; no independent parameter covariance or raw source-peak/MC-template fit recovered"
+}

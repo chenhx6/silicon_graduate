@@ -13,7 +13,7 @@ authors: [Chloé Fougères]
 year: 2022
 institution: Normandie Université, Université de Caen Normandie
 citation_key: ""
-canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapters3–6 and AppendixA.2; scoped reading receipts"
+canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapters3–6 and AppendicesA.2/B; scoped reading receipts"
 source_url: https://theses.hal.science/tel-03768524v1
 raw_file: raw/theses/day17-20261020/fougeres-2022-thesis.pdf
 raw_sha256: 4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1
@@ -43,6 +43,8 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 后续定向完整读AppendixA.2/PDF168/printed165文本与FigA.2，实际等30keV三窗。相邻页读取命令额外输出A.3/PDF168tail–170全文，记为priming，未视觉核其全部图、不称完整附录阅读。Chapter3/7与其它附录未读。[A2scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-reading-scope.json)。
 
 后续又新冻Ch3问题并完整读Chapter3/PDF44–72/printed41–69，31图8表11式全部文本/视觉核；Ch3–6各章主线已完整，仍非201页全读，Chapter7与AppendixB未读。[Ch3scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-reading-scope.json)。
+
+随后独立冻结并完整读AppendixB/PDF171–178/printed168–175，7图2表、无编号式，文本/视觉全核；TableB.2完整64通道字面保留，缺失/歧义不填。[Bscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-appendixB-reading-scope.json)。仍非201页全文，Ch7等未读。
 
 ## Summary
 
@@ -126,6 +128,18 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-72 | DCT实验gaspressure未记，故以SPIDER孔投影/线影位置校准电子drift约50mm/µs；两DCT independently从target点构角，再均值，90%theta差<.7°/75%phi差<5°是分位范围，不自动Gaussian1σ或独立绝对角真值。 | actual-position-calibration-and-dependence | direct-thesis | printed66–69 Table3.8/Figs3.28–3.31/Eqs3.10/3.11 | true |
 | F22-73 | Ch3补source/MC/highE/angleorigin和PID/strip/geometry链；仍无fullpaperjob/calΣ/actualsourcefitcoeffCov，不能以更多模型history填空。Bρ原表达式native边界保留，原data34source未改、不新实验τ/BR/CI。 | updated-input-readiness | synthesis-with-primary | F22-56/59/62/63/68/71/72 | true |
 | F22-74 | publicTree实际trackZ已为约−324至−108mm的坐标，代码−17为relative nominal修正；thesisAGATA绝对−252.3位置不是另一次eventoffset。新预检在计数前纠正此混同，原calibration/target/θDS/gate仍须matching，不由query替生产合同。 | coordinate-role-companion | direct-public-data-and-code | EV23-18/19/23 | true |
+| F22-75 | 新增完整AppendixB八页文本/视觉/7图2表；B.1补实际PSA/电子学/source与在线response，B.2给64通道线性cal表，非原traces/producer/coeffCov已得或全thesis读。 | actual-reading-scope | direct-thesis | printed168–175 AppendixB；Breading-scope | true |
+| F22-76 | PSA有6mm粗网格后局部2mm细网格；同segment二interaction线性组合、更高multiplicity不妥善处理；broken少数segment可借core/crosstalk恢复，postPSA强制sumsegments=core并校neutrondamage。不能以trackedTree重放未给的36×36校正矩阵/traces或认证高能selection。 | actual-electronics-and-response-limit | direct-thesis | printed169–170 SecB.1.2/FigsB.2/B.3 | true |
+| F22-77 | B.1.3 sourceEu152打印τ4.267e8s、A0 18755/s、age6.127e8s、acquisition5029s；FigB.4是coreE且SNR≥10峰Gaussian，Ch3Fig3.19效率是TrackE。不同observable/selection不能直接拿图峰面积闭合trackedε。 | actual-source-input-and-observable | direct-thesis | printed170–171 SecB.1.3/FigB.4 | true |
+| F22-78 | 把同打印时间分别声明为mean或half时，计算Astart4461.82或6932.14/s、ratio1.553656；这只是角色控制。NNDC两route/IAEA/LNHB实取TLS失败无body，当前不凭记忆裁τ标签或原activity/eff用错，不强配1.80归一。 | conditional-normalization-and-missing-input | task-arithmetic-and-readiness | Bexercise activity_role_controls；official-discovery receipts | true |
+| F22-79 | TableB.1七行在线unshifted峰明确σ：279/547/1369/1779/4496/5099/6878keV对应1.6/1.8/2.4/2.6/2.9/3.4/4.4keV；4496/5099的quotedσerror3.7/4.4大，不能当精密已知globalresolution或忽略uncertainty。 | actual-response-table-and-limit | direct-thesis | printed172 TableB.1/FigB.5 | true |
+| F22-80 | 同28Si6878线出现在onlineσ表与Ch4longlivedbenchmark，至少同仪器/线/研究链，actualevents是否完全相同未明。不能把二者当完全独立的responsecal和validation来数证据。 | shared-calibration-boundary | cross-source-within-thesis | TableB.1；F22-12 | true |
+| F22-81 | TableB.2实际64通道仅62组全numeric；Q1strip14的offset/gain均/，Q4strip6 offset打印−833.7.q±42.29而gain17.6±.12。均保字面，不修q/用相邻/均值补missing，不认blank=zero或active/dead状态已知。 | actual-calibration-readiness | direct-thesis-and-literal-transcription | printed175 TableB.2 | true |
+| F22-82 | 以Q2strip1真实offset−623.6±51.87、gain14.7±.12在5485.6keV得rawA415.5918；若quotedscales作variance，未知ρ的parameterpredictionstd可1.999–101.741keV(ρ0为71.956)。不是实际calCI或intrinsicFWHM，不能选ρ强配线宽。 | conditional-real-parameter-covariance | task-algebra-on-actual-table | Bexercise actual_parameter_covariance_controls | true |
+| F22-83 | 固定rawAi/Aj时共同calibrationCov(Ei,Ej)=Varb+AiAjVarm+(Ai+Aj)Cov(b,m)，未知fitCov/quotedCL/rawcentroids不可补；把每event独立Gaussian-smear与sharedcalibration参数误差互换会改变统计合同。 | shared-parameter-use-contract | exact-linear-algebra | Bexercise shared_calibration_cross_event_covariance | true |
+| F22-84 | B.2完整cal系数仍不提供原strip/quad/rawamplitudes/eventcuts，publicTree只有Si_dE等summary；不能凭现在有64表就重新认证原粒子selection/BR或raw→event重放。 | actual-data-readiness | direct-thesis-and-public-schema | SecB.2/TableB.2；EV23-2/23 | true |
+| F22-85 | TableB.1的unshifted近7MeV响应为σ4.4±2.1keV，不是FWHM4.4；作者因子2.35换10.34keV。源profile/core/TrackE/cal/inbeam核/完整Cov应分层，不由一个打印精度补全原response。 | width-and-selection-contract | direct-thesis-and-arithmetic | TableB.1；Bexercise TableB1_resolution_crosschecks | true |
+| F22-86 | B补可复用七线表与64通道输入/缺口、source时间角色控制，未得独立Eu半衰body/原calCov/精确producer。当前只supports合同可复核，limits完整实验eff/BR/τCI复现；新cal/核模型不冒实验。 | knowledge-delta-and-readiness | synthesis-with-primary | F22-77/78/79/81/83/84/85 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -135,7 +149,7 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 
 ## Competing Interpretations and Limitations
 
-Chapter3–6与A.2现已读；AppendixB更完整校准正文及Ch7尚未读，全部numericjob/ROOT版本/Σ尚未取得。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
+Chapter3–6与A.2/B现已读；Ch7尚未读，全部numericjob/ROOT版本/Σ尚未取得。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
 
 ## Knowledge Impact and Learning Decision
 
@@ -170,3 +184,92 @@ Chapter3–6与A.2现已读；AppendixB更完整校准正文及Ch7尚未读，�
 [量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-before.md)、[实际输入及hash](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-contract.json)、[原转换函数](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-conversion-exact.ccfrag)、[程序](../../system/scripts/day17_fougeres2022_ch3_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-result.json)。native只摘取确定输入的转换函数，不执行原未初始化全MC。原bytehash保持，互逆通过不充物理oracle。
 
 三类响应需分别保存：低能source绝对eff→模型高能外推；测得/引用PSA尺度导出的angularkernel；粒子strip校准与实际cleaning/geometry。公式/图coeff、geometry版本/原calibration桥未闭，不把5–7%字面曲线差或1.01MeV条件转换差换算实验τ/BR偏差。新primary限制旧“测得σθ”的简称，并不清原needs_review或给humanreview。
+
+## AppendixB实际校准台账与shared参数合同
+
+[量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-before.md)、[七线/时间输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-contract.json)、[64通道结构化转录](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-strip-table.json)、[程序](../../system/scripts/day17_fougeres2022_appendixB_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-result.json)。
+
+Eu152时间常数的officialgroundstate half/mean验证是当前显式missinginput：NuDat两入口、IAEA与LNHB官方URL在本次传输中TLS失败，没有body证据；保失败、不禁用TLS、不凭记忆将τ当half或推实验用错。mean/half两个条件activity不是两个测量。coreE峰与TrackEeff、quoted参数尺度与intrinsicwidth、共同cal与独立eventsmear分别保存。
+
+### TableB.1原七线响应输入
+
+| emitter | rounded Eref keV | centroid keV | σ keV | quoted σ error keV |
+| --- | --- | --- | --- | --- |
+| 197Au | 279 | 278.8 | 1.6 | 0.003 |
+| 197Au | 547 | 547.3 | 1.8 | 0.003 |
+| 24Mg | 1369 | 1368.3 | 2.4 | 0.1 |
+| 28Si | 1779 | 1778.4 | 2.6 | 0.2 |
+| 28Si | 4496 | 4496.6 | 2.9 | 3.7 |
+| 28Si | 5099 | 5099.2 | 3.4 | 4.4 |
+| 28Si | 6878 | 6877 | 4.4 | 2.1 |
+
+### TableB.2原字面校准输入（64通道）
+
+offset单位keV，gain单位keV/a.u.；仅原quoted尺度，不给covariance或置信度解释。
+
+| quadrant | strip | offset literal | gain literal | status |
+| --- | --- | --- | --- | --- |
+| Q1 | 1 | -392.5±32.71 | 17.2±1.00 | numeric |
+| Q2 | 1 | -623.6±51.87 | 14.7±0.12 | numeric |
+| Q3 | 1 | -854.8±108.70 | 15.6±0.26 | numeric |
+| Q4 | 1 | -686.5±52.53 | 15.0±0.13 | numeric |
+| Q1 | 2 | -296.1±26.86 | 17.3±0.77 | numeric |
+| Q2 | 2 | -418.7±39.81 | 14.4±0.10 | numeric |
+| Q3 | 2 | -374.4±83.57 | 13.1±0.19 | numeric |
+| Q4 | 2 | -268.5±58.68 | 13.7±0.14 | numeric |
+| Q1 | 3 | -108.9±44.63 | 14.3±1.19 | numeric |
+| Q2 | 3 | -790.2±52.80 | 14.2±0.12 | numeric |
+| Q3 | 3 | -886.3±125.50 | 15.8±0.31 | numeric |
+| Q4 | 3 | -879.0±54.29 | 13.6±0.12 | numeric |
+| Q1 | 4 | -457.5±32.71 | 17.9±0.98 | numeric |
+| Q2 | 4 | -368.6±43.07 | 13.5±0.10 | numeric |
+| Q3 | 4 | -288.9±144.70 | 14.9±0.37 | numeric |
+| Q4 | 4 | -457.8±60.65 | 16.7±0.17 | numeric |
+| Q1 | 5 | -737.6±70.44 | 10.6±0.12 | numeric |
+| Q2 | 5 | -1024.0±63.39 | 14.7±0.14 | numeric |
+| Q3 | 5 | -1016.0±285.30 | 14.0±0.59 | numeric |
+| Q4 | 5 | -1205.0±35.28 | 18.0±0.09 | numeric |
+| Q1 | 6 | -836.5±60.34 | 16.0±0.15 | numeric |
+| Q2 | 6 | -559.2±40.46 | 12.3±0.08 | numeric |
+| Q3 | 6 | -485.3±109.40 | 14.1±0.26 | numeric |
+| Q4 | 6 | -833.7.q±42.29 | 17.6±0.12 | ambiguous-literal |
+| Q1 | 7 | -931.6±51.59 | 16.6±0.13 | numeric |
+| Q2 | 7 | -812.6±35.20 | 12.8±0.07 | numeric |
+| Q3 | 7 | -896.5±95.89 | 16.1±0.25 | numeric |
+| Q4 | 7 | -1087.0±44.22 | 17.7±0.12 | numeric |
+| Q1 | 8 | -984.0±19.70 | 19.3±0.59 | numeric |
+| Q2 | 8 | -877.5±50.04 | 16.5±0.13 | numeric |
+| Q3 | 8 | -1006.0±136.8 | 16.7±0.39 | numeric |
+| Q4 | 8 | -972.2±48.81 | 18.4±0.14 | numeric |
+| Q1 | 9 | -524.8±65.73 | 12.3±0.13 | numeric |
+| Q2 | 9 | -602.7±38.78 | 10.7±0.07 | numeric |
+| Q3 | 9 | -716.3±100.40 | 14.4±0.23 | numeric |
+| Q4 | 9 | -972.9±61.13 | 18.2±0.17 | numeric |
+| Q1 | 10 | -723.9±63.48 | 16.1±0.16 | numeric |
+| Q2 | 10 | -467.9±54.56 | 11.7±0.11 | numeric |
+| Q3 | 10 | -1101.0±150.00 | 17.5±0.40 | numeric |
+| Q4 | 10 | -808.2±53.84 | 17.9±0.15 | numeric |
+| Q1 | 11 | -222.2±28.71 | 8.7±0.70 | numeric |
+| Q2 | 11 | -585.2±46.53 | 14.8±0.11 | numeric |
+| Q3 | 11 | -502.5±88.60 | 13.5±0.20 | numeric |
+| Q4 | 11 | -592.9±39.93 | 17.8±0.12 | numeric |
+| Q1 | 12 | -593.4±56.93 | 14.6±0.14 | numeric |
+| Q2 | 12 | -694.9±64.90 | 16.4±0.18 | numeric |
+| Q3 | 12 | -705.8±92.64 | 15.3±0.23 | numeric |
+| Q4 | 12 | -695.9±63.66 | 17.8±0.18 | numeric |
+| Q1 | 13 | -468.8±87.72 | 14.4±0.21 | numeric |
+| Q2 | 13 | -519.5±59.88 | 17.1±0.17 | numeric |
+| Q3 | 13 | -496.2±128.40 | 14.2±0.30 | numeric |
+| Q4 | 13 | -292.1±64.44 | 13.7±0.15 | numeric |
+| Q1 | 14 | / | / | missing |
+| Q2 | 14 | -583.8±48.55 | 17.9±0.14 | numeric |
+| Q3 | 14 | -364.5±87.06 | 14.7±0.22 | numeric |
+| Q4 | 14 | -435.5±59.76 | 13.9±0.14 | numeric |
+| Q1 | 15 | -859.6±96.35 | 14.3±0.22 | numeric |
+| Q2 | 15 | -876.7±53.02 | 18.0±0.15 | numeric |
+| Q3 | 15 | -741.8±121.10 | 15.1±0.29 | numeric |
+| Q4 | 15 | -709.5±63.43 | 15.6±0.16 | numeric |
+| Q1 | 16 | -867.6±66.43 | 16.6±0.18 | numeric |
+| Q2 | 16 | -1098.0±87.54 | 19.1±0.26 | numeric |
+| Q3 | 16 | -1530.0±286.80 | 20.4±0.81 | numeric |
+| Q4 | 16 | -927.6±90.32 | 13.7±0.19 | numeric |

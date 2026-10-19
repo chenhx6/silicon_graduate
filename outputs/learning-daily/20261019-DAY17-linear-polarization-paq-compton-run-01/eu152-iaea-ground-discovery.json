@@ -1,0 +1,5 @@
+{
+  "at": "2026-10-19T22:33:00.515338+00:00",
+  "url": "https://nds.iaea.org/relnsd/v1/data?fields=ground_states&nuclides=152eu",
+  "error": "HTTPSConnectionPool(host='nds.iaea.org', port=443): Max retries exceeded with url: /relnsd/v1/data?fields=ground_states&nuclides=152eu (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+}

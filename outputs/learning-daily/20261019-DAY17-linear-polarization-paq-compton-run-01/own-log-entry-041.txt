@@ -1,0 +1,4 @@
+
+### Day17 checkpoint041：完整校准表与shared参数
+
+F22-75–86/B完整原读、canonical7线/64cal字面值与条件Cov/时间角色，官方Eubody未得不造更正。verification055/manifest041/commitguard/H3后发布，main / `Preserve full calibration tables and shared parameter uncertainty boundaries`；原windowactive/17once/partial18/no19。

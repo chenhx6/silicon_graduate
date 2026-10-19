@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 86
+  },
+  "artifacts": [
+    {
+      "file": "fougeres2022-thesis-B-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "no_missing_calibration_imputed",
+        "source_coreE_is_not_the_same_observable_as_TrackE_efficiency",
+        "no_new_experimental_efficiency_tau_branch_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

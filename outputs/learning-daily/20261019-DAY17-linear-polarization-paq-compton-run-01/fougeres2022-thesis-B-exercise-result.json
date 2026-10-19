@@ -1,0 +1,182 @@
+{
+  "at": "2026-10-19T22:36:23.999867+00:00",
+  "script_sha256": "a735f09241bfadfffb31e4d84e48f8b01002c4af871f06dddc71a7062d4ea63b",
+  "contract_sha256": "79a092a3bbb2b3b3e35b8f4448054f66e16f3dfcfd12476d9f00250a758dab8d",
+  "strip_status_counts": {
+    "numeric": 62,
+    "missing": 1,
+    "ambiguous-literal": 1
+  },
+  "incomplete_or_ambiguous_strips": [
+    {
+      "strip": 6,
+      "quadrant": 4,
+      "offset_literal": "-833.7.q±42.29",
+      "gain_literal": "17.6±0.12",
+      "offset_keV_and_quoted_error": null,
+      "gain_keV_per_au_and_quoted_error": [
+        17.6,
+        0.12
+      ],
+      "status": "ambiguous-literal"
+    },
+    {
+      "strip": 14,
+      "quadrant": 1,
+      "offset_literal": "/",
+      "gain_literal": "/",
+      "offset_keV_and_quoted_error": null,
+      "gain_keV_per_au_and_quoted_error": null,
+      "status": "missing"
+    }
+  ],
+  "TableB1_resolution_crosschecks": [
+    {
+      "nuclide": "197Au",
+      "reference_keV": 279,
+      "centroid_keV": 278.8,
+      "sigma_keV": 1.6,
+      "quoted_sigma_error_keV": 0.003,
+      "FWHM_using_author_factor_keV": 3.7600000000000002,
+      "nominal_centroid_relative_to_rounded_reference_percent": -0.071684587813616
+    },
+    {
+      "nuclide": "197Au",
+      "reference_keV": 547,
+      "centroid_keV": 547.3,
+      "sigma_keV": 1.8,
+      "quoted_sigma_error_keV": 0.003,
+      "FWHM_using_author_factor_keV": 4.23,
+      "nominal_centroid_relative_to_rounded_reference_percent": 0.05484460694697523
+    },
+    {
+      "nuclide": "24Mg",
+      "reference_keV": 1369,
+      "centroid_keV": 1368.3,
+      "sigma_keV": 2.4,
+      "quoted_sigma_error_keV": 0.1,
+      "FWHM_using_author_factor_keV": 5.64,
+      "nominal_centroid_relative_to_rounded_reference_percent": -0.05113221329437878
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 1779,
+      "centroid_keV": 1778.4,
+      "sigma_keV": 2.6,
+      "quoted_sigma_error_keV": 0.2,
+      "FWHM_using_author_factor_keV": 6.11,
+      "nominal_centroid_relative_to_rounded_reference_percent": -0.033726812816183754
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 4496,
+      "centroid_keV": 4496.6,
+      "sigma_keV": 2.9,
+      "quoted_sigma_error_keV": 3.7,
+      "FWHM_using_author_factor_keV": 6.815,
+      "nominal_centroid_relative_to_rounded_reference_percent": 0.013345195729545458
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 5099,
+      "centroid_keV": 5099.2,
+      "sigma_keV": 3.4,
+      "quoted_sigma_error_keV": 4.4,
+      "FWHM_using_author_factor_keV": 7.99,
+      "nominal_centroid_relative_to_rounded_reference_percent": 0.003922337713273546
+    },
+    {
+      "nuclide": "28Si",
+      "reference_keV": 6878,
+      "centroid_keV": 6877,
+      "sigma_keV": 4.4,
+      "quoted_sigma_error_keV": 2.1,
+      "FWHM_using_author_factor_keV": 10.340000000000002,
+      "nominal_centroid_relative_to_rounded_reference_percent": -0.014539110206455364
+    }
+  ],
+  "activity_role_controls": [
+    {
+      "role": "if_printed_value_is_mean",
+      "decay_constant_per_s": 2.343566908835247e-09,
+      "activity_at_start_per_s": 4461.8208207441685,
+      "expected_decays_during_run_conditional": 22438364.680246077,
+      "boundary": "conditional role arithmetic, not inferred original job normalization"
+    },
+    {
+      "role": "if_printed_value_is_half",
+      "decay_constant_per_s": 1.6244367953127379e-09,
+      "activity_at_start_per_s": 6932.135779747322,
+      "expected_decays_during_run_conditional": 34861568.438978106,
+      "boundary": "conditional role arithmetic, not inferred original job normalization"
+    }
+  ],
+  "half_role_over_mean_role_activity_ratio": 1.5536562444457687,
+  "actual_parameter_covariance_controls": [
+    {
+      "quadrant": 2,
+      "strip": 1,
+      "reference_E_keV": 5156.6,
+      "implied_raw_amplitude_au": 393.21088435374156,
+      "conditional_parameter_scale_min_keV": 4.6846938775510125,
+      "conditional_parameter_scale_max_keV": 99.05530612244898,
+      "conditional_rho_zero_scale_keV": 70.12096700609042,
+      "boundary": "fixed raw amplitude, quoted marginal scales as variance inputs; actual covariance/CL unknown, not detector width"
+    },
+    {
+      "quadrant": 2,
+      "strip": 1,
+      "reference_E_keV": 5485.6,
+      "implied_raw_amplitude_au": 415.59183673469397,
+      "conditional_parameter_scale_min_keV": 1.9989795918367221,
+      "conditional_parameter_scale_max_keV": 101.74102040816328,
+      "conditional_rho_zero_scale_keV": 71.95565006690883,
+      "boundary": "fixed raw amplitude, quoted marginal scales as variance inputs; actual covariance/CL unknown, not detector width"
+    },
+    {
+      "quadrant": 2,
+      "strip": 1,
+      "reference_E_keV": 5804.8,
+      "implied_raw_amplitude_au": 437.30612244897964,
+      "conditional_parameter_scale_min_keV": 0.6067346938775557,
+      "conditional_parameter_scale_max_keV": 104.34673469387755,
+      "conditional_rho_zero_scale_keV": 73.78553099444099,
+      "boundary": "fixed raw amplitude, quoted marginal scales as variance inputs; actual covariance/CL unknown, not detector width"
+    },
+    {
+      "quadrant": 1,
+      "strip": 1,
+      "reference_E_keV": 5156.6,
+      "implied_raw_amplitude_au": 322.62209302325584,
+      "conditional_parameter_scale_min_keV": 289.91209302325586,
+      "conditional_parameter_scale_max_keV": 355.3320930232558,
+      "conditional_rho_zero_scale_keV": 324.2760537053366,
+      "boundary": "fixed raw amplitude, quoted marginal scales as variance inputs; actual covariance/CL unknown, not detector width"
+    },
+    {
+      "quadrant": 1,
+      "strip": 1,
+      "reference_E_keV": 5485.6,
+      "implied_raw_amplitude_au": 341.75000000000006,
+      "conditional_parameter_scale_min_keV": 309.0400000000001,
+      "conditional_parameter_scale_max_keV": 374.46000000000004,
+      "conditional_rho_zero_scale_keV": 343.3118212354478,
+      "boundary": "fixed raw amplitude, quoted marginal scales as variance inputs; actual covariance/CL unknown, not detector width"
+    },
+    {
+      "quadrant": 1,
+      "strip": 1,
+      "reference_E_keV": 5804.8,
+      "implied_raw_amplitude_au": 360.30813953488376,
+      "conditional_parameter_scale_min_keV": 327.5981395348838,
+      "conditional_parameter_scale_max_keV": 393.01813953488374,
+      "conditional_rho_zero_scale_keV": 361.78985546182645,
+      "boundary": "fixed raw amplitude, quoted marginal scales as variance inputs; actual covariance/CL unknown, not detector width"
+    }
+  ],
+  "shared_calibration_cross_event_covariance": "Var(b)+A_i*A_j*Var(m)+(A_i+A_j)*Cov(b,m), for fixed raw amplitudes",
+  "no_missing_calibration_imputed": true,
+  "source_coreE_is_not_the_same_observable_as_TrackE_efficiency": true,
+  "no_new_experimental_efficiency_tau_branch_or_CI": true,
+  "ok": true
+}
