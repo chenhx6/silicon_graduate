@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-19T10:51:12.992197+08:00",
+  "openalex-doi": {
+    "url": "https://api.openalex.org/works/https://doi.org/10.1088/0954-3899/20/3/005",
+    "status": 200,
+    "bytes": 17877,
+    "content_type": "application/json",
+    "is_pdf": false,
+    "error": null
+  },
+  "iop-landing": {
+    "url": "https://iopscience.iop.org/article/10.1088/0954-3899/20/3/005",
+    "status": 200,
+    "bytes": 14371,
+    "content_type": "text/html; charset=UTF-8",
+    "is_pdf": false,
+    "error": null
+  },
+  "iop-pdf": {
+    "url": "https://iopscience.iop.org/article/10.1088/0954-3899/20/3/005/pdf",
+    "status": 200,
+    "bytes": 14371,
+    "content_type": "text/html; charset=UTF-8",
+    "is_pdf": false,
+    "error": null
+  },
+  "srs-exact": {
+    "url": "http://repository.ias.ac.in/cgi/search/simple?q=High-spin+states+in+99Rh&_action_search=Search&_order=bytitle&basic_srchtype=ALL&_satisfyall=ALL",
+    "status": 404,
+    "bytes": 282,
+    "content_type": "text/html; charset=iso-8859-1",
+    "is_pdf": false,
+    "error": null
+  },
+  "mcpdiscovery": {
+    "doi": "10.1088/0954-3899/20/3/005",
+    "status": "restricted",
+    "reason": "restricted_target",
+    "verifyPdf": true
+  },
+  "identity_metadata": {
+    "title": "High-spin states in99Rh",
+    "doi": "10.1088/0954-3899/20/3/005",
+    "volume": "20",
+    "pages": "441-450",
+    "year": 1994,
+    "crossref_exactmatch": true,
+    "P00_crossref_126_CR8_sameDOI": true,
+    "NSR_key_from_officialrefs": "1994RA07",
+    "body_obtained": false
+  },
+  "other_routes": {
+    "scholar": "timeout error",
+    "MCPcrossrefandOpenAlex": "unrelatedresults rejectedidentity; not evidence",
+    "semantic": "exactDOI matches, CLOSED noPDF",
+    "IAS_http_https": "404",
+    "Bing_exactDOI": "query produced unrelated10 results; rejectidentity"
+  }
+}

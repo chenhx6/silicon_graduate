@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T10:54:57.051347+08:00",
+  "exit_code": 1,
+  "error": "ModuleNotFoundError sympy; systempython without existing run PYTHONPATH",
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-reference-purity-first-script.py",
+  "script_sha256": "2eb965630e2ca1de850a96aac1dc70343a3a12e21c4971aeccc4815e88f5bac1",
+  "repair": "Use already available tmp/day16-jt74/python-deps; no installation. Also code review corrected family argument order to contract (EMtype,L) before first model execution.",
+  "contract_and_source_unchanged": true
+}

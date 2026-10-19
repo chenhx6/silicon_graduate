@@ -371,3 +371,6 @@ P00 actual摘要在point/freepositivepopulation下有EMbox多解、centralisolat
 
 
 Rh99补充priming：P00-15表明同一sourcebox在额外且未测的low-|m|二阶矩条件下可排M1/E2，需独立sameparent/gate/feeding取向证据。不得把此条件写成已测、把代数上界当实验置信度，或删除此前自由正q的多解witness。
+
+
+Rh99新增priming入口：knowledge/sources/nndc-2017-99rh-matched-reference-records.md及knowledge/nuclei/99rh.md；同母态六支并不提供已测u2，pureΔJ0/1的−44/25与两项纯度充分界仅为条件设计。2014/1994primarybody当前缺，不能沿compiledDCO/IPDCO补gate/Q或把新编译当独立测量；正式17仍须新session独立卡审计。

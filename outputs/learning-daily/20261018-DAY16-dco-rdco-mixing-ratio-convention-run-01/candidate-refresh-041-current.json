@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T10:50:51.294560+08:00",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "minutes_to_deadline": 249.14509066666668,
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "slot": "samecurrentcontinuity; necessary primary behind N099",
+  "selected_source": "2014Ku20 Band structures in99Rh",
+  "information_gain": "actual DCO/IPDCO definitions and matchedreferencepreparation; potentially independent experiment fromP00",
+  "companion": "NNDCselectedrecords, no independentexperimentcredit",
+  "rejected": "repeatfreeq/toyGaussian or unchangedterminalroutes",
+  "new_day_card": false
+}

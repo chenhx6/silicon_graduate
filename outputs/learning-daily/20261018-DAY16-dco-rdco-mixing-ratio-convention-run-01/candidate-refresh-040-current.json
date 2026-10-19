@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-19T10:44:07.547376+08:00",
+  "minutes_to_original_deadline": 255.87421039999998,
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_card_checked": 17,
+  "day18_opened": false,
+  "slot": "current continuity, matched reference for current conditional branch issue",
+  "candidates": [
+    {
+      "candidate": "Palit Ref8 V Ravi Kumar JPhysG20,441(1994) Rh99 structure",
+      "information_gain": "sameparent level/branch/reference identity, gate/response constraints on u2",
+      "decision": "selected one bounded primary route; identity/body not yet verified"
+    },
+    {
+      "candidate": "Official A99 ENSDF exact parent and daughter records",
+      "information_gain": "independent identity compiler crosscheck, not independent experiment",
+      "decision": "companion only after source target identity is known"
+    },
+    {
+      "candidate": "Repeat Rh99 freeq grids or vary Gaussian width/Q",
+      "information_gain": "does not recover actual preparation or Cov",
+      "decision": "reject repetitions"
+    },
+    {
+      "candidate": "Garg2019/BR1953/Fe55 unchanged terminal access routes",
+      "information_gain": "no changed access/input",
+      "decision": "do not retry"
+    },
+    {
+      "candidate": "Day17 new polarimeter paper",
+      "information_gain": "preview permitted, but current sameparent issue higher priority",
+      "decision": "defer current bounded route"
+    }
+  ],
+  "decision": "continue current highinformation issue; no earlycloseout/no new credit",
+  "recall_freeze": {
+    "at": "2026-10-19T10:44:07.547376+08:00",
+    "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+    "path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-structure-before.md",
+    "sha256": "a322b5509d82abec0585ed8cb6d39195af25f7e4e6012961724b3fb2266a1a30",
+    "priming": "P00 original and checkpoint039 known; Ref8 bibliographic pointer from earlier handoff; not blind",
+    "body_opened": false
+  }
+}

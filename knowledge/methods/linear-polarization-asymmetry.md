@@ -215,3 +215,8 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 
 
 Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证同发射态u2≤0，则该point/sourcebox下sameParityM1/E2的P全域上界约.04364，低于box.16。未验证的取向符号仍是额外假设，不借其它reference核素或reaction名称代替；自由正q的原多解结果继续保留。
+
+
+### 同母态参考还需阶次混合与条件布居
+
+[[nndc-2017-99rh-matched-reference-records]] N099-2/7/13列实际Rh99同母态weakΔJ0与strongerΔJ1支路。pure极限的AD比例可消去未知u2，但保证符号所需的纯度条件不同；a4=0/EM标签/理论CC均不能独立验证pure。原u2≤0仍额外未测条件，实际分辨需samegate/feeding/response及共同Σ。

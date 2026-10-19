@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T11:01:33.612184+08:00",
+  "frozen_recall": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/kumar2014-before.md",
+  "original_frozen_hash": "ccc201690d2d96694c7f48b1dfd9329baa749c9645a1ffecd2db2c6d088dd0a4",
+  "corrected": "P00originalp351:99Rh/101Pd using110MeV31P+74Ge;1994Ra07Ref8 uses89Y+16O;2014Ku20 usesAs75+Si28 120MeV",
+  "source": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+  "locator": "P00-16",
+  "all_conditional_scripts_inputs_unchanged": true,
+  "effect": "scientificsourceindependenceobjects corrected; no exactkernel/box/roots/thresholds changed",
+  "frozen_recall_not_overwritten": true,
+  "wrong_statement_location": "unpublished draft N099-10 and nucleus99rh ProductionReactions; boundP00toRef8reaction",
+  "frozen_recall_scope": "kumar2014-before.md said differentreaction but did not write the wrong projectile/target pair; recall file is preserved, not falsely scored as the location of that explicit error"
+}

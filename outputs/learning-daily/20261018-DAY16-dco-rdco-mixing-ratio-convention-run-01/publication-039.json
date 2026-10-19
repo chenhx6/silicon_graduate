@@ -1,0 +1,26 @@
+{
+  "publication_index": 39,
+  "at": "2026-10-19T10:44:23.360669+08:00",
+  "branch": "main",
+  "subject": "Bound DAY16 Rh99 population ambiguity and conditional orientation test",
+  "commit": "cec1caf2a43209357d2c4ce0ac1a08249b8d9ef2",
+  "origin_main": "cec1caf2a43209357d2c4ce0ac1a08249b8d9ef2",
+  "status": "published",
+  "commands_actual_all_exit0": true,
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 384abf84        \nTo gitee.com:chx6/silicon_graduate.git\n   ef88064..cec1caf  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "native_goal_status_observed": "blocked",
+  "scientific_work_status": "pursuing",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

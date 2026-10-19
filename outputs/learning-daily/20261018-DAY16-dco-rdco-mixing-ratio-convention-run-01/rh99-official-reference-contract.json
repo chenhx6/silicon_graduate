@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-19T10:49:38.701334+08:00",
+  "identity": "RH99-2017-SELECTED-REFERENCE-RECORDS-01",
+  "design_timing": "post-source-inspection; exact fields/role checks, not blind experiment",
+  "files": [
+    {
+      "path": "tmp/day16-rh99-structure/adopted2017.ens",
+      "sha256": "f51058dfe9df8c3921f8f2f711cd923fc47f13dcb59166b9de2808bf76afaafb"
+    },
+    {
+      "path": "tmp/day16-rh99-structure/HI2017.ens",
+      "sha256": "2cb933aafd59b7df0eefdd6c78798d4543726c819b39c1a256c8d7ed672b914a"
+    },
+    {
+      "path": "tmp/day16-rh99-structure/HI2017.pdf",
+      "sha256": "8263a63dda7b5d02583912c29b1563ce96e1846303e2d5fd257868120c9af05d"
+    }
+  ],
+  "parent_levels": {
+    "adopted": 3711.1,
+    "HI": 3710.6
+  },
+  "target_gamma": 1117.5,
+  "selected_sameparent_gammas": [
+    163.1,
+    277.1,
+    561.3,
+    597.4,
+    820.4,
+    1117.5
+  ],
+  "sameparent_reference_criterion": "known pure multipole plus independently measured AD/alignment with matched emissionstate/gate/feeding/response; labels and CC alone do not establish it",
+  "controls": [
+    "differentparent samefinal1104.3",
+    "differentparentnearenergy1114.1",
+    "ADOPTRI100 vs HI global33.8 is normalization not independent observation",
+    "MR blanks not measured delta0 or default.10",
+    "DCO/IPDCO not Pexp or Legendrea2"
+  ],
+  "tests": [
+    "parse exact fixedcolumn tokens preserving qualifiers/missingMR",
+    "reconstruct six finallevels by energyclosure; match knownJpi without spin inference",
+    "compute six normalizedHI central RIs vsAdopted printed rounding; no covariance claim",
+    "collect target/neighbor DCO andIPDCO comments as distinct observable fields",
+    "record no sameparent pureE2 branch among these six; no claim everypossiblebranch absent",
+    "original firstsource literal metadata/boundary retained, no2014primarybody read yet"
+  ],
+  "forbidden": [
+    "newexperimental delta/parity/strength fit",
+    "combine2017compilerwith2014primaryasindependent",
+    "borrowP00Q/prepareu2fromanotherreaction"
+  ]
+}

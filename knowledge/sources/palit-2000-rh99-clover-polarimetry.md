@@ -61,6 +61,7 @@ Palit等，Pramana54(3),347–354(2000)，DOI[10.1007/s12043-000-0126-x](https:/
 | P00-13 | Rh99负宇称后对p1/2,g9/2及h11/2相关组态仅是作者解释；作者仍要求lifetimes检验更大deformation。本页方法示范不把P/δ当已测collectivity或建立完整Rh99band证据。 | structure-interpretation-boundary | direct-author | p353 Discussion | true |
 | P00-14 | 本run以本页reportedAD/P作明确point/freepositivepopulation条件分析；边际box内M1/E2及E1/M2均有strictlypositiveq witness，exactcentral还须逐二次根/凸包检查，不能由网格0命中排无解。这是Codex模型结果，不重测sourceδ或parity。 | conditional-identifiability-model | actual-LP-and-convex-certificate | 本页sourcea2/a4/P；rh99-1117-population-feasibility | true |
 | P00-15 | 在P00-14同模型/box之外，若额外独立给同发射态⟨m²⟩≤J(J+1)/3，则全δ代数界P90(M1/E2)≤.043642<box下限.16，而E1仍有正q；这个取向条件未由本run测得，不作为新parity判决。 | optional-preparation-falsifier | post-result-analytic-model | rh99-1117-population-feasibility额外条件节；P00-4 | true |
+| P00-16 | 本paper的Rh99/Pd101测量用110MeV31P+74Ge；115MeV27Al+58Ni用于Kr/Sr参考。89Y+16O是Ref8的1994Ra07结构研究，不是这里的采集。 | reaction-lineage | direct-visual | p351 calibrationparagraph/Fig2上方 | true |
 
 ## 校准与实际采集分层
 
@@ -101,3 +102,8 @@ Garg2015引用本method并不把这里的a≈1或C/D继承为其真实15clover�
 ### 实际摘要的有界可识别性续接
 
 [[rh99-1117-population-feasibility]]保存本run以实际a2/a4/P边际区间、pointgeometry、free非负对称P(m)所做可行性检查。两种EMfamily在该box都有严格正q；central的孤立根另有解析/正性证书。它限制没有alignment/response/联合Cov时的唯一性承诺，不是本paper重新测量δ或否认E1。
+
+
+### 同母态参考的后续记录
+
+[[nndc-2017-99rh-matched-reference-records]] N099-2/7/13给另一采集版本的同母态支路与条件纯度设计。其2014DCO/IPDCO不移作本paper的P/a2/Q；未测u2条件继续保留。[[99rh]]为对应核素入口。

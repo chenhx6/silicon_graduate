@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T10:55:47.121646+08:00",
+  "session_id": 7124,
+  "exit_code": 0,
+  "script": "system/scripts/day16_rh99_reference_purity_design.py",
+  "script_sha256": "97155688b1749d55de1aca1d062d25f385e085a7e18511f8a62334a7ef01fa17",
+  "PYTHONPATH": "tmp/day16-jt74/python-deps",
+  "first_environment_failure": "rh99-reference-purity-first-environment-failure.json",
+  "no_installation_or_source_change": true
+}

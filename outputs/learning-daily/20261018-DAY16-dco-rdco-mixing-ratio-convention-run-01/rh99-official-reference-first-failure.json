@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T10:50:15.688075+08:00",
+  "actual_exit_code": 1,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-official-reference-first-script.py",
+  "script_sha256": "9c838bad6f000f58dd95734be8885186caf42af4cce6248858d3d0c2314d90bc",
+  "failure": "AssertionError at uncontracted abs energyclosure <=.2 keV; printedsource values have quoted approx1keV uncertainties and residual up to.6",
+  "correction": "Report residual and each quoteduncertainty rather than assert arbitraryzero-likeclosure; require match exact published finallevel identities; source and frozencontract unchanged"
+}

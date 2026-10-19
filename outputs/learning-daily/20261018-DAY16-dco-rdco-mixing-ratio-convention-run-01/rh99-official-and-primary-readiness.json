@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-19T10:59:19.544814+08:00",
+  "official_objects": [
+    {
+      "name": "adopted2017",
+      "key": "99045001,99RH",
+      "status": 200,
+      "bytes": 89022,
+      "lines": 1102,
+      "sha256": "f51058dfe9df8c3921f8f2f711cd923fc47f13dcb59166b9de2808bf76afaafb",
+      "valid_text": true,
+      "head": "\n 99RH    ADOPTED LEVELS, GAMMAS                                  201707   201709\n 99RH  H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 145, 25 (2017)$              \n 99RH2 H CUT=1-Jul-2017$                                                        \n 99RH  Q -3399     8 10477   144645    9 -1985   8     2017WA10                 \n 99RH c  Other reactions:                                                       \n 99RH c  {+209}Bi(|g,F), E=2.5 GeV (2009Na10)                                   \n 99RH c  {+136}Xe(p,X), E=2.5 GeV/nucleon (2007Na31)                            \n 99RH c  {+103}Rh(|g,4n), E=65 MeV (2007Ng01)                                   \n 99RH c  {+103}Rh({+12}C,X), E=70-400 MeV (2004Bu09);                           \n 99RH2c  E=45-400 MeV (1997Ga09)                                                \n 99RH c  {+93}Nb({+16}O,X), E=96 MeV (2006Mu20)                                 \n 99RH c  {+93}Nb({+16}O,4p6n), E=6 MeV/nucleon (1999Sh39)                       \n 99RH c  93Nb({+12}C,X), E=55.7-77.5 MeV (2005To15)                             \n 99RH c  {+89}Y({+12}C,2n), E=30-45 MeV (2005Mu31)                              \n 99RH c  Ag(p,X), E=11-80 MeV (2005Ud01)                                        \n 99RH c  {+90}Zr({+16}O,{+7}Li), E=90 MeV (2004Jh01)                            \n 99"
+    },
+    {
+      "name": "HI2017",
+      "key": "99045019,99RH",
+      "status": 200,
+      "bytes": 61158,
+      "lines": 758,
+      "sha256": "2cb933aafd59b7df0eefdd6c78798d4543726c819b39c1a256c8d7ed672b914a",
+      "valid_text": true,
+      "head": "\n 99RH    (HI,XNG)                      2014KU20                  201707   201709\n 99RH  H TYP=FUL$AUT=E. BROWNE, J. K. TULI$CIT=NDS 145, 25 (2017)$              \n 99RH2 H CUT=1-Jul-2017$                                                        \n 99RH c  All Data are from 2014Ku20 which is extension of earlier level schemes \n 99RH2c  of 2013Su15 and 2000Si05                                               \n 99RH c  2014Ku20: {+75}As({+28}Si,2n2pg)                                       \n 99RH2c  E({+28}Si)=120 MeV beam was provided by the 15UD Pelletron facility    \n 99RH2c  at IUAC, New Delhi. Target=3 mg/cm{+2} on a 10 mg/cm{+2} thick Pb      \n 99RH3c  backing. Measured E|g, I|g, |g|g-coin, |g|g(|q)(DCO),                  \n 99RH4c  |g|g(linear polarization) from oriented nuclei using INGA array of     \n 99RH5c  18 Clover Ge detectors. Deduced high-spin levels, J, |p, multipolarity,\n 99RH6c  configurations, bands, alignments, Routhian plots. Comparison with     \n 99RH7c  cranked Nilsson Strutinsky (CNS) calculations.                         \n 99RH c                                                                         \n 99RH c  2013Su15: {+68}Zn({+37}Cl,a2ng)                                        \n 99RH2c  E({+37}Cl)=125 MeV beam provided by the tandem accelerator at JAEA.    \n 99"
+    }
+  ],
+  "HI_pdf": {
+    "path": "tmp/day16-rh99-structure/HI2017.pdf",
+    "pages": 21,
+    "sha256": "8263a63dda7b5d02583912c29b1563ce96e1846303e2d5fd257868120c9af05d",
+    "visual_read_pages": [
+      2,
+      5,
+      7,
+      9,
+      12,
+      18,
+      21
+    ],
+    "selected_locator_scope": "header,3710.6 sixbranches,2593.2,3698.1,4264.0; HItextmainline758lines; Adoptedselectedonly"
+  },
+  "primary2014": {
+    "title": [
+      "Band structures in<sup>99</sup>Rh"
+    ],
+    "doi": "10.1088/0954-3899/41/10/105110",
+    "volume": "41",
+    "article": "105110",
+    "identity_crossref_lund_inspire_semantic_verified": true,
+    "body_obtained": false,
+    "IOP": "bot html, not PDF; publisherdiscovery restricted_target",
+    "Lund": "exact record4803791 and UUID portal200 metadata/abstract only, noPDF link",
+    "OpenAlex": "exactbronzePDF metadata, contentdownload401 keyrequired; no credential access",
+    "arxiv": "exactAPI429; titlepage200 noresults",
+    "Scholar": "timeout",
+    "inspire": "exact1record, no documents/urls",
+    "local_firstpage_audit": "rh99-primary-local-firstpage-audit.json; no claims beyond scoped listing",
+    "failure_record": "body-access parser shadowing error corrected on saved responses, no repeatHTTP",
+    "local_firstpage_count": 314,
+    "local_firstpage_DOI_or_title_hit_count": 0
+  },
+  "scope": "compiledreports not primarybody; metadata not scientificclaimsource for missinggate/phase/response"
+}

@@ -1990,3 +1990,8 @@ Palit2000/GargRef32实际8页原读核a/Q分层及1117AD/P；Q=.134178/P=.372639
 ## 2026-10-19 — Day16 checkpoint039：正布居多解与额外取向条件
 
 P00实际AD/P摘要进入明示point/freepositiveq模型；central孤立根逐一LP、3凸包分离/3strictpositivewitness实际0，box两EMfamily仍可行、非jointCI/实验δ。额外未测lowm条件的CG6j/kernel桥与正平方证明给sameParity全δ上界.043642<.16，pureE1仍可行；必须独立sameparent/gate/feeding取向支持，不能当新parity。四脚本实际0/首lowm0快照保留，原输入/旧witness不改。verification033实际60/60、required0、0errors186warnings，旧prefix/raw/PLAN/Bib保持；同run原15:00仍pursuing、formal16一次partial17。稳定指针main / Bound DAY16 Rh99 population ambiguity and conditional orientation test，actualhash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint040：同母态参考与纯度条件
+
+NNDC2017两个Rh99对象/目标六支/不同parent/RI半格重归一actual0，无已测u2或pureE2；原MR空/CC理论和compiledIPDCO分层。same-density D0/D1比例−44/25与phaseindependent充分纯度界actual0，561弱但较耐混合/820强但纯度严，非实验δ或取向。P00原p351纠正31P+74Ge与Ref8的16O+89Y谱系，原输入/冻结回忆不改；1994/2014primarybody未得，不补gate/response。verification034实际62/62、required0、0errors188warnings；旧prefix/raw/PLAN/Bib保持。原run科学pursuing到15:00/formal16一次partial17；稳定指针main / Trace DAY16 Rh99 same-parent references and purity conditions，hash/push只receipt。

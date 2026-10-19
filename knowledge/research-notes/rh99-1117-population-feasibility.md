@@ -168,3 +168,8 @@ P1：严格正q只证明这个数学模型有解，不给fusionreaction布居的
 这给一个具体companion：能否独立证明同一发射态、同trigger/gate/feeding定义的u2符号？同母态且多极性已知的reference branch，或经实际数据验证的reaction/feeding取向模型，才可能提供它。当前未取得这项matching输入，记expected-but-not-established；其它核素校准线的alignment不是这个量。
 
 认识更新为：任意正布居保留两EMfamily，额外一个取向二阶矩条件可使相同box具有判别力。该条件未取得实验支撑前，不能把此数学排除写成99Rh的新宇称或作者证据已经闭合。
+
+
+## 实际同母态参考审计
+
+[[nndc-2017-99rh-matched-reference-records]] N099-2–9确认3710.6同母态六支，不含现成pureE2支路；MR空/理论CC不提供pure或u2。N099-13给实际561.3(ΔJ0)/820.4(ΔJ1)条件设计：同density pureD0的a2=−44a2(D1)/25；保证F2不翻号的充分|δ|界分别.86021/.141913。前者更耐混合但RI弱，实际AD/纯度/门/response仍缺，未把额外lowm条件升为已测。

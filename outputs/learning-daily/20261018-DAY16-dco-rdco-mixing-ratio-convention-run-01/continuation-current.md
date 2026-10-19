@@ -1,3 +1,19 @@
+# 最新checkpoint040
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+
+040 verification034实际report/card/唯一writeback62changed/62items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)，旧人审prefix/Pr135project/raw/PLAN/Bib/旧helpers保持。新NNDC2017 Rh99source N099-1–13与99rh核素入口：3710.6同母态六支/MR空/CC理论、近能differentparent、RI重归一与无取向AD边界；PDFp2/5/7/9/12/18/21视觉核。原163/277/561/597/820/1117只M1/E1标签，无现成同母态pureE2。实际字段脚本先任意.2keV阈值1，保留失败后按原误差/终态身份报残差，最终0。
+
+纯度设计actual0：same-density pureD0 a2=−44/25 pureD1；CG6j/12pair/EMduality及F2全域界给|δ|充分界.860207(D0)/.141913(D1)，非实测purity。561.3较耐混合但RI仅target1.48%，820.4约29.3%却纯度条件严；a4=0不能证pure，samegate/feeding/response与u2仍expected-not-established。原freeq多解/lowm额外条件不变。
+
+反应谱系review已修：P00原p351为110MeV31P+74Ge（新P00-16），1994Ra07才89Y+16O，2014Ku20是120MeV28Si+75As。待发布初稿曾混淆前两者，纠正回执与原冻结回忆保持；算式/输入没变。1994/2014primarybody当前都未得，metadata/official编译不充正文；IOPbot/Lundmetadata/OpenAlex401/Scholar/arxiv等记录，不原样重试。314rawPDFfirstpage0exacttargethit不证明所有opaque/laterpage穷尽。
+
+本批稳定指针main / `Trace DAY16 Rh99 same-parent references and purity conditions`，actualhash/H3/push仅publication040/runreceipt。039已actualGitee main / `Bound DAY16 Rh99 population ambiguity and conditional orientation test`。下一高信息currentroute：核低m符号在unobserved feeding/反应几何下何时可保持；Diamond1966 Wiki页已预暴露（primed），尚未开原PDF/新计算，先clock/pool/recall与旧humanprefix冻结。不给fusion名称无条件证明，不用更多随机toy补时段。
+
+保护raw/PLAN/Bib/credentials/原review与继承dirty/log；exactmanifest、HEAD+ownlog、cached实际检查再commit、freshfetch/ancestor/dryrun/nonforceH3。研究窗仍约4h，不因checkpoint结束。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+
+# 先前checkpoint（历史）
+
 # 最新checkpoint039
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。

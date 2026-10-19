@@ -1,0 +1,301 @@
+{
+  "at": "2026-10-19T10:50:15.973576+08:00",
+  "script_sha256": "a629d71ab9aeae27674ec73b256d3e32adc7cad97746fed4c4ff8d821145d762",
+  "contract_sha256": "4a075010ca98b02e512dc8c6e4f1c8de1173f1ee6c44b6d062286c6b8bbf8ffd",
+  "fixed_files_verified": true,
+  "parsed_level_counts": {
+    "Adopted": 159,
+    "HI": 102
+  },
+  "selected_parents": {
+    "Adopted": {
+      "line": 561,
+      "E": "3711.1",
+      "Jpi": "23/2-",
+      "band": "e"
+    },
+    "HI": {
+      "line": 254,
+      "E": "3710.6",
+      "Jpi": "23/2-",
+      "band": "e"
+    }
+  },
+  "sameparent_six_branches": [
+    {
+      "gamma": {
+        "line": 255,
+        "raw": " 99RH  G 163.1     10 0.30   6 M1                      0.0891 20                ",
+        "E": "163.1",
+        "DE": "10",
+        "RI": "0.30",
+        "DRI": "6",
+        "M": "M1",
+        "MR": "",
+        "DMR": "",
+        "CC": "0.0891",
+        "comments": []
+      },
+      "parent_E": "3710.6",
+      "parent_Jpi": "23/2-",
+      "energy_difference": "3547.5",
+      "selected_final_E": "3547.4",
+      "selected_final_Jpi": "21/2-",
+      "closure_residual_keV": "0.1",
+      "quoted_marginal_sigma_keV": {
+        "parent": "1.1",
+        "gamma": "1.0",
+        "final": "1.3"
+      },
+      "not_a_joint_chisquare_or_zero_residual_test": true,
+      "not_new_level_assignment": true
+    },
+    {
+      "gamma": {
+        "line": 258,
+        "raw": " 99RH  G 277.1     10 0.11   2 M1                      0.0221 4                 ",
+        "E": "277.1",
+        "DE": "10",
+        "RI": "0.11",
+        "DRI": "2",
+        "M": "M1",
+        "MR": "",
+        "DMR": "",
+        "CC": "0.0221",
+        "comments": []
+      },
+      "parent_E": "3710.6",
+      "parent_Jpi": "23/2-",
+      "energy_difference": "3433.5",
+      "selected_final_E": "3433.5",
+      "selected_final_Jpi": "21/2-",
+      "closure_residual_keV": "0.0",
+      "quoted_marginal_sigma_keV": {
+        "parent": "1.1",
+        "gamma": "1.0",
+        "final": "1.3"
+      },
+      "not_a_joint_chisquare_or_zero_residual_test": true,
+      "not_new_level_assignment": true
+    },
+    {
+      "gamma": {
+        "line": 261,
+        "raw": " 99RH  G 561.3     10 0.50   8 E1                      1.36E-3                  ",
+        "E": "561.3",
+        "DE": "10",
+        "RI": "0.50",
+        "DRI": "8",
+        "M": "E1",
+        "MR": "",
+        "DMR": "",
+        "CC": "1.36E-3",
+        "comments": []
+      },
+      "parent_E": "3710.6",
+      "parent_Jpi": "23/2-",
+      "energy_difference": "3149.3",
+      "selected_final_E": "3149.9",
+      "selected_final_Jpi": "23/2+",
+      "closure_residual_keV": "-0.6",
+      "quoted_marginal_sigma_keV": {
+        "parent": "1.1",
+        "gamma": "1.0",
+        "final": "1.1"
+      },
+      "not_a_joint_chisquare_or_zero_residual_test": true,
+      "not_new_level_assignment": true
+    },
+    {
+      "gamma": {
+        "line": 264,
+        "raw": " 99RH  G 597.4     10 0.23   4 M1                      0.00334                  ",
+        "E": "597.4",
+        "DE": "10",
+        "RI": "0.23",
+        "DRI": "4",
+        "M": "M1",
+        "MR": "",
+        "DMR": "",
+        "CC": "0.00334",
+        "comments": []
+      },
+      "parent_E": "3710.6",
+      "parent_Jpi": "23/2-",
+      "energy_difference": "3113.2",
+      "selected_final_E": "3113.2",
+      "selected_final_Jpi": "21/2-",
+      "closure_residual_keV": "0.0",
+      "quoted_marginal_sigma_keV": {
+        "parent": "1.1",
+        "gamma": "1.0",
+        "final": "1.2"
+      },
+      "not_a_joint_chisquare_or_zero_residual_test": true,
+      "not_new_level_assignment": true
+    },
+    {
+      "gamma": {
+        "line": 267,
+        "raw": " 99RH  G 820.4     5  9.9    6 E1                      5.96E-4                  ",
+        "E": "820.4",
+        "DE": "5",
+        "RI": "9.9",
+        "DRI": "6",
+        "M": "E1",
+        "MR": "",
+        "DMR": "",
+        "CC": "5.96E-4",
+        "comments": [
+          {
+            "line": 268,
+            "text": "DCO=0.51 5"
+          }
+        ]
+      },
+      "parent_E": "3710.6",
+      "parent_Jpi": "23/2-",
+      "energy_difference": "2890.2",
+      "selected_final_E": "2890.2",
+      "selected_final_Jpi": "21/2+",
+      "closure_residual_keV": "0.0",
+      "quoted_marginal_sigma_keV": {
+        "parent": "1.1",
+        "gamma": "0.5",
+        "final": "1.1"
+      },
+      "not_a_joint_chisquare_or_zero_residual_test": true,
+      "not_new_level_assignment": true
+    },
+    {
+      "gamma": {
+        "line": 271,
+        "raw": " 99RH  G 1117.5    3  33.8   20E1                      3.35E-4                  ",
+        "E": "1117.5",
+        "DE": "3",
+        "RI": "33.8",
+        "DRI": "20",
+        "M": "E1",
+        "MR": "",
+        "DMR": "",
+        "CC": "3.35E-4",
+        "comments": [
+          {
+            "line": 272,
+            "text": "DCO=0.47 4"
+          },
+          {
+            "line": 275,
+            "text": "$IPDCO=+0.02 {I1}"
+          }
+        ]
+      },
+      "parent_E": "3710.6",
+      "parent_Jpi": "23/2-",
+      "energy_difference": "2593.1",
+      "selected_final_E": "2593.2",
+      "selected_final_Jpi": "21/2+",
+      "closure_residual_keV": "-0.1",
+      "quoted_marginal_sigma_keV": {
+        "parent": "1.1",
+        "gamma": "0.3",
+        "final": "1.1"
+      },
+      "not_a_joint_chisquare_or_zero_residual_test": true,
+      "not_new_level_assignment": true
+    }
+  ],
+  "central_RI_normalization_checks": [
+    {
+      "Egamma": "163.1",
+      "HI_RI": "0.30",
+      "Adopted_RI": "0.89",
+      "HI_normalized_target100": "0.8875739644970414201183431953",
+      "within_printed_Adopted_halfcell": true
+    },
+    {
+      "Egamma": "277.1",
+      "HI_RI": "0.11",
+      "Adopted_RI": "0.33",
+      "HI_normalized_target100": "0.3254437869822485207100591716",
+      "within_printed_Adopted_halfcell": true
+    },
+    {
+      "Egamma": "561.3",
+      "HI_RI": "0.50",
+      "Adopted_RI": "1.48",
+      "HI_normalized_target100": "1.479289940828402366863905325",
+      "within_printed_Adopted_halfcell": true
+    },
+    {
+      "Egamma": "597.4",
+      "HI_RI": "0.23",
+      "Adopted_RI": "0.68",
+      "HI_normalized_target100": "0.6804733727810650887573964497",
+      "within_printed_Adopted_halfcell": true
+    },
+    {
+      "Egamma": "820.4",
+      "HI_RI": "9.9",
+      "Adopted_RI": "29.3",
+      "HI_normalized_target100": "29.28994082840236686390532544",
+      "within_printed_Adopted_halfcell": true
+    },
+    {
+      "Egamma": "1117.5",
+      "HI_RI": "33.8",
+      "Adopted_RI": "100",
+      "HI_normalized_target100": "100",
+      "within_printed_Adopted_halfcell": true
+    }
+  ],
+  "distinct_parent_controls": [
+    {
+      "parent_E": "3698.1",
+      "parent_Jpi": "23/2+",
+      "gamma": {
+        "line": 248,
+        "raw": " 99RH  G 1104.3    10 1.20   15M1                      8.37E-4                  ",
+        "E": "1104.3",
+        "DE": "10",
+        "RI": "1.20",
+        "DRI": "15",
+        "M": "M1",
+        "MR": "",
+        "DMR": "",
+        "CC": "8.37E-4",
+        "comments": []
+      }
+    },
+    {
+      "parent_E": "4264.0",
+      "parent_Jpi": "27/2+",
+      "gamma": {
+        "line": 326,
+        "raw": " 99RH  G 1114.1    3  10.2   6 E2                      7.44E-4                  ",
+        "E": "1114.1",
+        "DE": "3",
+        "RI": "10.2",
+        "DRI": "6",
+        "M": "E2",
+        "MR": "",
+        "DMR": "",
+        "CC": "7.44E-4",
+        "comments": [
+          {
+            "line": 327,
+            "text": "DCO=1.02 8"
+          }
+        ]
+      }
+    }
+  ],
+  "readiness": {
+    "no_pureE2_among_six_recorded_sameparent_branches": true,
+    "no_MR_value_for_six_is_not_delta0_measurement": true,
+    "no_sameparent_a2_a4_or_moment_measurement_recovered": true,
+    "known_class_label_is_not_independent_purity_or_alignment": true,
+    "DCO_IPDCO_not_P00_a2_P_or_sharedQ": true,
+    "no_new_experimental_fit_or_nuclear_assignment": true
+  }
+}

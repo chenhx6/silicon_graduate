@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T11:07:26.638470+08:00",
+  "prepare_exit": 1,
+  "stage_exit": 1,
+  "reason": "manifest existence assertion ran before manifest write;stage then failed missingmanifest before mutation",
+  "repair": "execute only final manifest-construction block; do not repeat prior handoff/log/report writes",
+  "source_inputs_unchanged": true
+}

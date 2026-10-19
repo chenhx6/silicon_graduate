@@ -1,0 +1,50 @@
+{
+  "at": "2026-10-19T10:55:08.182280+08:00",
+  "script_sha256": "97155688b1749d55de1aca1d062d25f385e085a7e18511f8a62334a7ef01fa17",
+  "contract_sha256": "6dd0aab0b0be517ae6645e93a7bdad59b5b77a51d1259c748c656d1549206dc0",
+  "source_and_helpers_unchanged": true,
+  "path_designs": [
+    {
+      "path": "dipole_stretched",
+      "Ji2": 23,
+      "Jf2": 21,
+      "pure_dipole_a2_over_u2": "1",
+      "F22_over_F11": "13/35",
+      "F12_over_F11_squared": "63/5",
+      "native_cross_ratio": -3.549647869859769,
+      "phase_invariant_lower_polynomial": "13*d**2/35 - 6*sqrt(35)*d/5 + 1",
+      "strict_abs_delta_threshold": "-2*sqrt(3745)/13 + 21*sqrt(35)/13",
+      "threshold_numeric": 0.14191270759523117,
+      "strict_upper_multipole_intensity_fraction_threshold": "3955/7778 - 735*sqrt(107)/15556",
+      "fraction_threshold_numeric": 0.019741635504009942,
+      "not_a_measured_reference_purity": true
+    },
+    {
+      "path": "dipole_zero",
+      "Ji2": 23,
+      "Jf2": 23,
+      "pure_dipole_a2_over_u2": "-44/25",
+      "F22_over_F11": "-100/143",
+      "F12_over_F11_squared": "45/572",
+      "native_cross_ratio": 0.28048409700253707,
+      "phase_invariant_lower_polynomial": "-100*d**2/143 - 3*sqrt(715)*d/143 + 1",
+      "strict_abs_delta_threshold": "286/(3*sqrt(715) + sqrt(63635))",
+      "threshold_numeric": 0.8602066749258165,
+      "strict_upper_multipole_intensity_fraction_threshold": "8437/14552 - 715*sqrt(89)/43656",
+      "fraction_threshold_numeric": 0.42527266562624905,
+      "not_a_measured_reference_purity": true
+    }
+  ],
+  "same_density_pure_dipole_relation": {
+    "a2_D0_over_a2_D1": "-44/25",
+    "linear_identity_valid_at_u2_zero_without_division": true,
+    "conditional_on_samegate_feeding_density_and_point_or_corrected_response": true,
+    "does_not_certify_purity_from_a4zero": true
+  },
+  "scope": {
+    "no_new_counts_or_covariance": true,
+    "no_experimental_delta_parity_or_CI": true,
+    "no_Gaussian_width_assumed": true,
+    "source_labels_and_calculatedICC_not_purity_measurements": true
+  }
+}

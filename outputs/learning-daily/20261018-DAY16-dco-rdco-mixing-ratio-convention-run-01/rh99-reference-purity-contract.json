@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-19T10:54:00.362636+08:00",
+  "identity": "RH99-MATCHED-REFERENCE-PURITY-DESIGN-01",
+  "post_source_design": true,
+  "base_contract": "rh99-1117-feasibility-contract.json",
+  "base_contract_sha256": "c814eebcb74eb495d21bf8ec32c9fdbdbd7b145f4bbc4fc1e197a812adbfbaca",
+  "official_result": "rh99-official-reference-result.json",
+  "official_result_sha256": "d6043b5c9b22dac571f5eefddd00af3ff36b36fa2c5af73efdc9f123d861fc08",
+  "fixed_helpers": {
+    "system/scripts/day16_rh99_population_feasibility.py": "bf45dd6ea55402cbd51a493da7a2e8ac07c98db8c709c383ad2a1504b54a406a"
+  },
+  "paths": {
+    "dipole_stretched": "Ji=23/2 -> Jf=21/2; actual163.1,277.1,597.4,820.4,1117.5",
+    "dipole_zero": "Ji=23/2 -> Jf=23/2; actual561.3"
+  },
+  "question": "What phaseindependent uppermultipole amplitude bound lets a measured sameparentAD sign constrainu2, without Gaussianwidth or circularEMparityassumption?",
+  "controls": [
+    "all12nonnegativebasisvertices relation",
+    "CG6j magnitudes independentofnativephase",
+    "EMduality I identical",
+    "purelimits andF=0 destroys orientation information",
+    "a4=0 not enough to certifydelta0 whenu4=0",
+    "knownlabel andtheoryCC not actualreferencepurity",
+    "responseenergy/gate/feeding must match sameconditionaldensity"
+  ],
+  "output": "exactF2ratios,robustpuritythresholds,pointpureD0/D1 relation; no syntheticcounts or newexperimental data/CI"
+}

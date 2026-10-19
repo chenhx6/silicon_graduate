@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[nndc-2017-99rh-matched-reference-records]] - 六同母态支路、MR/CC空缺与相位无关的参考纯度条件设计。
+
 - [[palit-2000-rh99-clover-polarimetry]] - GargRef32原件；Rh99同跃迁AD/P、a与Q分层/曲线单位及reference readiness。
 
 - [[nndc-2008-135pr-selected-mixing-records]] - 135Pr旧Adopted/三个XUNDL版本、POL语义/MR误差与母态身份。
@@ -312,6 +314,8 @@ updated: 2026-10-19
  - [[longfellow-2026-gretina-energy-ordering-polarization]] - GRETINA in-beam angular/polarization formalism、energy ordering、Lorentz angle correction 与 Doppler correction 分层。
 
 ## Nuclei
+
+- [[99rh]] - 1117keV/同母态reference的实际P00与NNDC2017入口，不建立新宇称或模式。
 
 - [[137pr]] - Z=59,N=78 奇质子核；2007 INGA M1 带延伸至 47/2−，含弱 E2 crossover 与 3qp/5qp TAC 解释。
 - [[136pr]] - Z=59,N=77 奇奇核；新 JUROGAM II 高自旋能级图、配置依赖 TAC-CDFT/壳模型解释与 Q1 宇称、D4/D6 竞争解释边界。

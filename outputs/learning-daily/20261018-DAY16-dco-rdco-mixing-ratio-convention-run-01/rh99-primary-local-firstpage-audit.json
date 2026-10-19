@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T10:57:42.816883+08:00",
+  "scope": "only local raw/papers PDF first-page text; read only; not allpages/opaque corpus exhaustiveness",
+  "initial_listing_exit": 1,
+  "listing_repair": "rg --files --no-ignore raw/papers; no raw changes",
+  "pdf_count": 314,
+  "targets": [
+    "10.1088/0954-3899/20/3/005",
+    "10.1088/0954-3899/41/10/105110"
+  ],
+  "hits_or_errors": []
+}
