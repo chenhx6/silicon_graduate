@@ -58,6 +58,7 @@ tags: [GRIFFIN, software-validation, polarimetry, covariance]
 | GRS26-10 | 本轮固定tree无ROOT数据；获得的是选定代码和组件运行，没有实际TTree/矩阵、逐台calibration/gate/response或Σ，也未编译完整GRSISort/GRSIData。它不能恢复ST99/SG98、A≈130或其它论文的actualproducer。 | data-readiness-and-source-independence | direct-discovery-and-audit | pinned repository tree；download manifests；本页Scope；component scope | true |
 | GRS26-11 | 原样完整Compton_Scale_Plot编译/运行0，固定Q=.2509/energyUsed1332时打印100keV .111820、3000keV .445044；函数角色适配器确认循环调用ScaleQ(E,1332)是ScaleQ(1332,E)的倒数。按同函数的calibration→target角色后者应给.562967/.141449；旧Lean使用正向角色。仅核参数/版本合同，不修实际实验Q(E)。 | full-program-energy-role-control | actual-unmodified-program | Compton_Scale_Plot.cxx43–59/71–90；LeanAnalyzeComptonMatrices.cxx74–77/101；grsisort-q-energy-result | true |
 | GRS26-12 | ScaleQ平均的是单次KN sensitivity的均匀θ积分，而非KN截面×dΩ事件权重或真实阵列response。本任务另积分核E→0时三者point90=1、uniformθ=√2−1、KN×dΩ=1/2；是归一/权重反例，不将任何一个当实测clover Q或随意删除.5因子。 | response-weighting-and-limit-boundary | source-code-and-task-derivation | Compton_Scale_Plot.cxx71–90；本页能量角色与平均核；grsisort-q-energy-result analytic limits | true |
+| GRS26-13 | 新helper的xiThetaDet/Cry/Mixed/Count keys与默认Lean读取的六个XiHist2D_* legacy keys不同。完整Lean源在仅追加batch entry的原样body执行中，设计new-key fixture实际exit139且无四目标graphs；同内容legacy-key正控制exit0并输出graphs。匹配schema是运行/统计合同，不可仅同repo便串联两版本。 | full-consumer-schema-failure-control | actual-original-body-and-ROOT-fixture | Helper.cxx11–28；LeanAnalyzeComptonMatrices.cxx141–184；grsisort-lean-schema-result | true |
 
 ## Summary
 
@@ -108,6 +109,14 @@ E→0时r=1，uniformθ为π⁻¹∫sin²θ/(1+cos²θ)dθ=√2−1，KN×dΩ平
 - 本轮没有联系作者、上报issue或改外部repo；GitHub只作为外部公开科学代码来源，不是本Wiki维护入口。
 
 ## Analytical Reconstruction and Self-Audit
+
+### 默认Lean完整消费端的ROOT schema控制
+
+[执行前合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/lean-schema-before.md)、[程序](../../system/scripts/day17_grsisort_lean_schema_audit.py)、[actual result](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-lean-schema-result.json)保存完整原Lean source/hash、batch入口与原MathMore路径。只将main改名供wrapper调用并设置gROOT batch以避免GUI；原选择、积分、fit和预测body未修改。
+
+两个设计ROOT fixture都为六个180×180 TH2D、角范围0–180.000001°，prompt均值1000(1−.2cos2ξ)、mixed1000、geometry1；只更换newhelper/legacy两套key。它们不是Poisson抽样、真实events或原实验histogram。new-helper-schema输入触发原consumer缺key后的Segmentation violation、actualexit139，生成文件存在却四目标graphs均缺失；不能因有output.root或检查程序exit0就声称消费成功。legacy输入actualexit0，给raw171点、binned19点、folded10点与theory101点。binned/folded原fit amplitude分别.1995232/.1996137，quoted程序fiterrors只记录其行为，不是实验CI/coverage或P/Q认证。
+
+这缩窄了“代码已公开即可串联”的预期：输入对象、版本和schema必须与执行路径匹配，缺key需要独立失败记录。没有以重命名实际作者data、patch程序、改template或抹去exit139来强求通过。真正的originalproducer/actualmatrix、校准/response/Σ仍未取得，不能把fixture正控制称真实GRIFFIN分析复现。
 
 | 项目 | 证据与实际结果 | 边界 |
 | --- | --- | --- |

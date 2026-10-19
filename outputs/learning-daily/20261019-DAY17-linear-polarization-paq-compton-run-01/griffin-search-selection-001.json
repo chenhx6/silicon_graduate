@@ -1,0 +1,197 @@
+{
+  "created_at": "2026-10-19T09:46:19.958030+00:00",
+  "workflow": "nature-academic-search multi-source-search",
+  "T1": [
+    "Crossref",
+    "arXiv"
+  ],
+  "rejected": "Fuzzy Crossref returned many astrophysical/optical/author-Griffin matches; arxiv GRIFFIN-polarization results were irrelevant. No relevance inferred from raw result count.",
+  "deduplication": "DOI/arXiv exact first, title/first-author when mapping the selected facility paper; preprint and journal/chapters not independent experiments",
+  "candidates": [
+    {
+      "title": "The GRIFFIN spectrometer",
+      "year": 2013,
+      "doi": "10.1007/978-94-007-7963-1_13",
+      "arxiv_id": null,
+      "authors": [
+        "C. E. Svensson",
+        "A. B. Garnsworthy"
+      ],
+      "source": "crossref",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-exact-metadata.json"
+    },
+    {
+      "title": "The GRIFFIN Facility for Decay-Spectroscopy Studies at TRIUMF-ISAC",
+      "year": 2018,
+      "doi": null,
+      "arxiv_id": "1809.07183",
+      "authors": [
+        "A. B. Garnsworthy",
+        "C. E. Svensson",
+        "M. Bowry",
+        "R. Dunlop",
+        "A. D. MacLean"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-arxiv-id-metadata.json"
+    },
+    {
+      "title": "The GRIFFIN spectrometer",
+      "year": 2014,
+      "doi": "10.1007/s10751-013-0889-3",
+      "arxiv_id": null,
+      "authors": [
+        "C. E. Svensson",
+        "A. B. Garnsworthy"
+      ],
+      "source": "crossref",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Exploring Exotic Nuclei with the GRIFFIN Spectrometer at TRIUMF-ISAC",
+      "year": 2016,
+      "doi": "10.5506/aphyspolb.47.713",
+      "arxiv_id": null,
+      "authors": [
+        "A.B. Garnsworthy"
+      ],
+      "source": "crossref",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Gamma-gamma angular correlation analysis techniques with the GRIFFIN spectrometer",
+      "year": 2018,
+      "doi": null,
+      "arxiv_id": "1807.07570",
+      "authors": [
+        "J. K. Smith",
+        "A. D. MacLean",
+        "W. Ashfield",
+        "A. Chester",
+        "A. B. Garnsworthy"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Spectroscopic studies of neutron-rich $^{129}$In and its $β$-decay daughter, $^{129}$Sn, using the GRIFFIN spectrometer",
+      "year": 2021,
+      "doi": null,
+      "arxiv_id": "2101.05468",
+      "authors": [
+        "F. H. Garcia",
+        "C. Andreoiu",
+        "G. C. Ball",
+        "N. Bernier",
+        "H. Bidaman"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Investigation of the Excited States of $^{114}\\mathrm{Sn}$ Using the GRIFFIN Spectrometer at TRIUMF",
+      "year": 2025,
+      "doi": null,
+      "arxiv_id": "2504.17174",
+      "authors": [
+        "N. K. Syeda",
+        "P. Spagnoletti",
+        "C. Andreoiu",
+        "C. M. Petrache",
+        "D. Annen"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "$β$ Decay of $^{132}$In and Spectroscopy of $^{132}$Sn and $^{131}$Sb with the GRIFFIN Spectrometer",
+      "year": 2020,
+      "doi": null,
+      "arxiv_id": "2008.00548",
+      "authors": [
+        "K. Whitmore",
+        "C. Andreoiu",
+        "F. H. Garcia",
+        "K. Ortner",
+        "J. D. Holt"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Characteristics of GRIFFIN high-purity germanium clover detectors",
+      "year": 2017,
+      "doi": null,
+      "arxiv_id": "1711.05287",
+      "authors": [
+        "U. Rizwan",
+        "A. B. Garnsworthy",
+        "C. Andreoiu",
+        "G. C. Ball",
+        "A. Chester"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Shape coexistence in the neutron-deficient lead region: A systematic study of lifetimes in the even-even $^{188-200}$Hg with GRIFFIN",
+      "year": 2019,
+      "doi": null,
+      "arxiv_id": "1907.12274",
+      "authors": [
+        "B. Olaizola",
+        "A. B. Garnsworthy",
+        "G. C. Ball",
+        "N. Bernier",
+        "M. Bowry"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "Collective 2p-2h intruder states in $^{118}$Sn studied via $β$-decay of $^{118}$In using GRIFFIN",
+      "year": 2020,
+      "doi": null,
+      "arxiv_id": "2007.16202",
+      "authors": [
+        "K. Ortner",
+        "C. Andreoiu",
+        "M. Spieker",
+        "G. C. Ball",
+        "N. Bernier"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    },
+    {
+      "title": "On the Measurability of True Coincidence Summing in the GRIFFIN Spectrometer",
+      "year": 2025,
+      "doi": null,
+      "arxiv_id": "2511.16679",
+      "authors": [
+        "Liam Schmidt"
+      ],
+      "source": "arxiv",
+      "disposition": "discovery-only; not physics evidence",
+      "metadata_file": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin_refined_0-metadata.json"
+    }
+  ],
+  "selected": {
+    "title": "The GRIFFIN Facility for Decay-Spectroscopy Studies at TRIUMF-ISAC",
+    "arxiv_id": "1809.07183v2",
+    "reason": "actual apparatus/analysis performance companion to pinned public polarimetry code; DOI/VoR identity pending body/metadata verification"
+  },
+  "overlap": "Smith2019/1807.07570 already canonical, not a new independent source delivery",
+  "download_policy": "single definite OA arxiv body via nature-downloader --no-si; daily auto authorization supplies routine choice, no new permissions/credentials/configuration"
+}

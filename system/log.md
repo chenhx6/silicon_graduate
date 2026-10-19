@@ -2050,3 +2050,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day17检查点002：合并响应与实际publicproducer
 
 同session/原20日15点deadline持续active/partial17，未开18/19/未计17。新arrayweights精确合同、条件界/反例与固定GRSISort/GRSIData selected原件、原样ROOT组件/完整ScalePlot实际compile/run0已canonical七页；CMake默认Lean/secondF/正向energyrole反证保持，不判原实验或全软件失败。四script/结果hash、旧25claim/review/PLAN/Bib/recall保护通过；verification005实际report/唯一writeback七页/coverage/preflight/boundary/lint/diff0、0errors192warnings。原actualdata/geometry/fullbuild/Σ缺口保留，不以软件comment或更多toy代实验。稳定指针main / Audit DAY17 pooled polarimeter response and public producer contracts，精确hash/actualH3/push只runreceipt/publication002；001已actual发布，Farmer42019复用。
+
+
+## 2026-10-19 — Day17检查点003：native消费端schema与下一primary
+
+同session持续active/partial17，原20日15点deadline不变，未开18/19。完整原Lean source仅batchentry在设计ROOTfixture中newhelperkeys exit139/四graphs缺失、legacykeys exit0/fitA约.1995/.1996；非实际P/CI/fullGRSISortbuild，failure原样留存。canonicalGRS26-13/method/report已写回；verification006实际report/唯一writeback七页/coverage/boundary/lint/diff0、0errors192warnings。001/002已actualpush；新GRIFFIN arxiv1809.07183v2合法OA36页已得/hash核，只identity页＋keywordscan，全文主线待读，未冒称科学body完成。稳定指针main / Verify DAY17 native consumer schema and stage GRIFFIN primary，实际hash/H3/push只runreceipt；Farmer42019复用，raw/PLAN/Bib/旧flags/继承dirty保留。

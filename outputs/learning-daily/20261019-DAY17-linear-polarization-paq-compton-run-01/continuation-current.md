@@ -1,11 +1,11 @@
-# Day17同session继续：checkpoint002之后
+# Day17同session继续：checkpoint003之后
 
-run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究硬截止、15–16收束不改。nativegoalactive，用户已明确恢复/持续学习；Farmer42019复用，无新session/daemon。先核当前clock、runreceipt、progress002与最新verification/publication，再行动。
+run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止、15–16收束不改。nativegoalactive/用户持续学习，Farmer42019沿用，无新daemon/session。先核最新clock、run/progress/verification/publication；不把本checkpoint当整日结束或正式学分。
 
-已交付：primed来源前回忆、ST99/SG98原件完整主线、PAQ表/sharedCov计数design、arrayweight精确条件/反例；public GRSISort selected7files完整读/实际组件和原样完整ScalePlot。canonical七页/唯一writeback，不是新实验P/Q/δ；partial17/next17count16，未开18/19。001已actualpush，002结果看publication-002.json，不凭预期认为成功。
+001/002已actualH3/Gitee发布；003是否成功看publication-003.json。七页canonical/唯一writeback，PAQ表、共同Cov/arrayweights/Qenergy、fixedGRSISort原样组件与fullLean schema正负控制均已交付。nativeLean newhelperkeys exit139、legacykeys exit0；这是声明ROOTfixture，不是actualdata/Σ/CI。初failures/旧review/raw/PLAN/Bib/继承dirty保留。
 
-下一同问题有界路线：CMake默认Lean standalone是否能按其真正histogram schema完成输入检查/拟合？现有ROOT6.40.04 MathMore与原Globals.h可用于不改源build。先冻结合同，再跑真实原程序的schema/fitting控制；如果使用declaredhist，标明不是actualdata，也不从默认active62Ga模板推原实验P。核新helper/旧Lean的key与gate/θ选择差别，完整producer/实际TTree/settings/Σ依然缺。不要外部上报、patch第三方或改raw/globalconfig。
+下一主线原件：tmp/day17-griffin-facility/PDFs/The_GRIFFIN_Facility_for_Decay-Spectroscopy_Studies_at_TRIUMF-ISAC.pdf；arxiv1809.07183v2，36页，SHA256 b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed。合法nature-downloader OA --no-si已成功，griffin-facility-before-body.md/hash在body前冻结；nature-academic-search已读manifest/core/wf1，metadata/selection回执在本run。
 
-局部饱和后刷新候选池与时间门，继续有信息路线；最多只允许恰好Day18无学分预习且不打开19。15点stop新研究，完整report/audit/checks/nextprompt/receipt/H3发布齐才正式17一次及goalcomplete。
+当前actualscope只identity page1与关键词页定位，未完成全文主线或物理表图式；不能从keywordscan写Q的科学claim。按requiredloop完整读36页主线，关键Figs/Tables/Eqs/levelscheme/uncertainty/limitations视觉核；尤其p22–24 Compton polarimetry，但不截断其它主线。区分source calibration、eventmixing、θdet/θcrystal、.5QP、能量role、原Q实测/模型缩放及actualproducer依赖。新source/canonical写回前先去重，与Smith2019角关联/当前code不重复计独立实验；新claims全部needs_review，raw归档deferred。
 
-Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+完成后刷新clock和候选池继续高信息问题；当前partial17/next17count16，未开18/19。只有当前问题饱和才按时间门看恰好partial18无学分预习，不开19；15点停新研究，fullreport/card/checks/nextprompt/receipt/H3齐才formal17一次、goalcomplete。

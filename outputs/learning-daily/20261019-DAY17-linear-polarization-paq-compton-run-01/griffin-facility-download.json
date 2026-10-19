@@ -1,0 +1,11 @@
+{
+  "source_url": "https://arxiv.org/pdf/1809.07183v2",
+  "file": "tmp/day17-griffin-facility/PDFs/The_GRIFFIN_Facility_for_Decay-Spectroscopy_Studies_at_TRIUMF-ISAC.pdf",
+  "sha256": "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed",
+  "bytes": 6309688,
+  "pages": 36,
+  "status": "open_access_downloaded",
+  "provider": "nature-downloader direct_url",
+  "si_requested": false,
+  "body_read_scope": "first identity page only plus keyword locator scan; full mainline pending"
+}

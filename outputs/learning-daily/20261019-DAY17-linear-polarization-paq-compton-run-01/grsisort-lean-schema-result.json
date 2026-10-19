@@ -1,0 +1,280 @@
+{
+  "input_kind": "declared-schema-and-asymmetry-expectations-not-experimental-data",
+  "original_source_sha256": "f76a79440cbe84b4b1fce1a952341b90bf481d09379b86246152b78ae2c001e6",
+  "script_sha256": "c67859848c17fbaf86dde87cac147c0f34425743d031c2019db071c1eb1d3d4e",
+  "commands": [
+    {
+      "command": [
+        "g++",
+        "-O1",
+        "-I/workspace/wiki/tmp/day17-grsisort/include",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/generate.cxx",
+        "-o",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/generate",
+        "-pthread",
+        "-std=c++17",
+        "-m64",
+        "-fsized-deallocation",
+        "-I/opt/root/include",
+        "-L/opt/root/lib",
+        "-lCore",
+        "-lImt",
+        "-lRIO",
+        "-lNet",
+        "-lHist",
+        "-lGraf",
+        "-lGraf3d",
+        "-lGpad",
+        "-lROOTVecOps",
+        "-lTree",
+        "-lTreePlayer",
+        "-lRint",
+        "-lPostscript",
+        "-lMatrix",
+        "-lPhysics",
+        "-lMathCore",
+        "-lThread",
+        "-lROOTNTuple",
+        "-lROOTNTupleUtil",
+        "-lMultiProc",
+        "-lROOTDataFrame",
+        "-Wl,-rpath,/opt/root/lib",
+        "-pthread",
+        "-lm",
+        "-ldl",
+        "-rdynamic"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "g++",
+        "-O1",
+        "-I/workspace/wiki/tmp/day17-grsisort/include",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/batch-entry.cxx",
+        "-o",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/lean",
+        "-pthread",
+        "-std=c++17",
+        "-m64",
+        "-fsized-deallocation",
+        "-I/opt/root/include",
+        "-L/opt/root/lib",
+        "-lCore",
+        "-lImt",
+        "-lRIO",
+        "-lNet",
+        "-lHist",
+        "-lGraf",
+        "-lGraf3d",
+        "-lGpad",
+        "-lROOTVecOps",
+        "-lTree",
+        "-lTreePlayer",
+        "-lRint",
+        "-lPostscript",
+        "-lMatrix",
+        "-lPhysics",
+        "-lMathCore",
+        "-lThread",
+        "-lROOTNTuple",
+        "-lROOTNTupleUtil",
+        "-lMultiProc",
+        "-lROOTDataFrame",
+        "-Wl,-rpath,/opt/root/lib",
+        "-pthread",
+        "-lm",
+        "-ldl",
+        "-rdynamic",
+        "-DHAS_MATHMORE",
+        "-lMathMore"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "g++",
+        "-O1",
+        "-I/workspace/wiki/tmp/day17-grsisort/include",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/inspect.cxx",
+        "-o",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/inspect",
+        "-pthread",
+        "-std=c++17",
+        "-m64",
+        "-fsized-deallocation",
+        "-I/opt/root/include",
+        "-L/opt/root/lib",
+        "-lCore",
+        "-lImt",
+        "-lRIO",
+        "-lNet",
+        "-lHist",
+        "-lGraf",
+        "-lGraf3d",
+        "-lGpad",
+        "-lROOTVecOps",
+        "-lTree",
+        "-lTreePlayer",
+        "-lRint",
+        "-lPostscript",
+        "-lMatrix",
+        "-lPhysics",
+        "-lMathCore",
+        "-lThread",
+        "-lROOTNTuple",
+        "-lROOTNTupleUtil",
+        "-lMultiProc",
+        "-lROOTDataFrame",
+        "-Wl,-rpath,/opt/root/lib",
+        "-pthread",
+        "-lm",
+        "-ldl",
+        "-rdynamic"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/generate",
+        "new-helper-schema",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/new-helper-schema/fixture.root"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/lean",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/new-helper-schema/fixture.root"
+      ],
+      "cwd": "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/new-helper-schema",
+      "exit_code": 139,
+      "stdout": "Analyzing file:\u001b[0;34m /workspace/wiki/tmp/day17-grsisort/lean-schema-build/new-helper-schema/fixture.root\u001b[m\n/workspace/wiki/tmp/day17-grsisort/lean-schema-build/lean: starting Analysis after 0.0453191 seconds\n",
+      "stderr": "Error in <TList::AddLast>: argument is a null pointer\nError in <TList::AddLast>: argument is a null pointer\nError in <TList::AddLast>: argument is a null pointer\nError in <TList::AddLast>: argument is a null pointer\nError in <TList::AddLast>: argument is a null pointer\nError in <TList::AddLast>: argument is a null pointer\n\n *** Break *** segmentation violation\n\n\n\n===========================================================\nThere was a crash.\nThis is the entire stack trace of all threads:\n===========================================================\n#0  0x00007d4c965ca8d7 in wait4 () from /usr/lib/x86_64-linux-gnu/libc.so.6\n#1  0x00007d4c965125bb in ?? () from /usr/lib/x86_64-linux-gnu/libc.so.6\n#2  0x00007d4c97a98ad4 in TUnixSystem::StackTrace() () from /opt/root/lib/libCore.so\n#3  0x00007d4c97a97364 in TUnixSystem::DispatchSignals(ESignals) () from /opt/root/lib/libCore.so\n#4  <signal handler called>\n#5  0x0000573e31610f5f in ComptonPol(TFile*, TStopwatch*) ()\n#6  0x0000573e3161299d in OriginalLeanMain(int, char**) ()\n#7  0x0000573e31612e0a in main ()\n===========================================================\n\n\nThe lines below might hint at the cause of the crash. If you see question\nmarks as part of the stack trace, try to recompile with debugging information\nenabled and export CLING_DEBUG=1 environment variable before running.\nYou may get help by asking at the ROOT forum https://root.cern/forum\npreferably using the command (.forum bug) in the ROOT prompt.\nOnly if you are really convinced it is a bug in ROOT then please submit a\nreport at https://root.cern/bugs or (preferably) using the command (.gh bug) in\nthe ROOT prompt. Please post the ENTIRE stack trace\nfrom above as an attachment in addition to anything else\nthat might help us fixing this issue.\n===========================================================\n#5  0x0000573e31610f5f in ComptonPol(TFile*, TStopwatch*) ()\n#6  0x0000573e3161299d in OriginalLeanMain(int, char**) ()\n#7  0x0000573e31612e0a in main ()\n===========================================================\n\n\n"
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/inspect",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/new-helper-schema/CompPlots_10577.root"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "AsymmetryNonCo missing\nAsymmetryBinnedNonCo missing\nAsymmetryBinFoldNonCo missing\nAGATATheory missing\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/generate",
+        "legacy",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/legacy/fixture.root"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/lean",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/legacy/fixture.root"
+      ],
+      "cwd": "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/legacy",
+      "exit_code": 0,
+      "stdout": "Analyzing file:\u001b[0;34m /workspace/wiki/tmp/day17-grsisort/lean-schema-build/legacy/fixture.root\u001b[m\n/workspace/wiki/tmp/day17-grsisort/lean-schema-build/lean: starting Analysis after 0.0552711 seconds\n1 0\n2 1\n3 2\n4 3\n5 4\n6 5\n7 6\n8 7\n9 8\n10 9\n11 10\n12 11\n13 12\n14 13\n15 14\n16 15\n17 16\n18 17\n19 18\n20 19\n21 20\n22 21\n23 22\n24 23\n25 24\n26 25\n27 26\n28 27\n29 28\n30 29\n31 30\n32 31\n33 32\n34 33\n35 34\n36 35\n37 36\n38 37\n39 38\n40 39\n41 40\n42 41\n43 42\n44 43\n45 44\n46 45\n47 46\n48 47\n49 48\n50 49\n51 50\n52 51\n53 52\n54 53\n55 54\n56 55\n57 56\n58 57\n59 58\n60 59\n61 60\n62 61\n63 62\n64 63\n65 64\n66 65\n67 66\n68 67\n69 68\n70 69\n71 70\n72 71\n73 72\n74 73\n75 74\n76 75\n77 76\n78 77\n79 78\n80 79\n81 80\n82 81\n83 82\n84 83\n85 84\n86 85\n87 86\n88 87\n89 88\n90 89\n91 90\n92 91\n93 92\n94 93\n95 94\n96 95\n97 96\n98 97\n99 98\n100 99\n101 100\n102 101\n103 102\n104 103\n105 104\n106 105\n107 106\n108 107\n109 108\n110 109\n111 110\n112 111\n113 112\n114 113\n115 114\n116 115\n117 116\n118 117\n119 118\n120 119\n121 120\n122 121\n123 122\n124 123\n125 124\n126 125\n127 126\n128 127\n129 128\n130 129\n131 130\n132 131\n133 132\n134 133\n135 134\n136 135\n137 136\n138 137\n139 138\n140 139\n141 140\n142 141\n143 142\n144 143\n145 144\n146 145\n147 146\n148 147\n149 148\n150 149\n151 150\n152 151\n153 152\n154 153\n155 154\n156 155\n157 156\n158 157\n159 158\n160 159\n161 160\n162 161\n163 162\n164 163\n165 164\n166 165\n167 166\n168 167\n169 168\n170 169\n171 170\n172 171\n173 172\n174 173\n175 174\n176 175\n177 176\n178 177\n179 178\n****************************************\nMinimizer is Minuit2 / Migrad\nChi2                      =    0.0302349\nNDf                       =           18\nEdm                       =  9.48999e-11\nNCalls                    =           36\np0                        =     0.199523   +/-   0.00343615   \t (limited)\n****************************************\nMinimizer is Minuit2 / Migrad\nChi2                      =    0.0176978\nNDf                       =            9\nEdm                       =  3.93149e-11\nNCalls                    =           13\np0                        =     0.199614   +/-   0.003708     \t (limited)\n\n/workspace/wiki/tmp/day17-grsisort/lean-schema-build/lean done after 0.379863 seconds\n\nScaleQ(1332,1332) = 1\nenergyMeasured = 0.2509\nenergyUsed = 0.2509\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/inspect",
+        "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/legacy/CompPlots_10577.root"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "AsymmetryNonCo points=171\nAsymmetryBinnedNonCo points=19 fitA=0.19952315140100524 fitErr=0.0034361491298817298 chi2=0.030234935861894713 ndf=18\nAsymmetryBinFoldNonCo points=10 fitA=0.19961368485526054 fitErr=0.00370800321624494 chi2=0.017697834294744603 ndf=9\nAGATATheory points=101\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "complete original Lean source included unchanged with renamed entry and gROOT batch runtime setting; real ROOT fixture files; no complete GRSISort/GRSIData build or experimental event data",
+  "cases": {
+    "new-helper-schema": {
+      "input_sha256": "4dc02a56a4a2d07f23a3da5bba977f1dbf812d27e2a5f7ae0c95db74953637f5",
+      "execution_command_index": 4,
+      "execution_exit": 139,
+      "input_keys_kind": "new-helper-schema",
+      "not_experimental_data": true,
+      "output_sha256": "5f61b793a97cea5540e318b1146a0261c0a1385e5f946b7f52ca037f50f2f873",
+      "output_inspection": {
+        "command": [
+          "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/inspect",
+          "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/new-helper-schema/CompPlots_10577.root"
+        ],
+        "cwd": "/workspace/wiki",
+        "exit_code": 0,
+        "stdout": "AsymmetryNonCo missing\nAsymmetryBinnedNonCo missing\nAsymmetryBinFoldNonCo missing\nAGATATheory missing\n",
+        "stderr": ""
+      }
+    },
+    "legacy": {
+      "input_sha256": "9df6c424cbc80f787e9381ac7d0d1f85d35fc5bdba9e882755625a27fe63ee62",
+      "execution_command_index": 7,
+      "execution_exit": 0,
+      "input_keys_kind": "legacy",
+      "not_experimental_data": true,
+      "output_sha256": "db8dc3df921d5a6bdcc6bcc1b981e4f4449f9a09653c52923bd9ce36eafa5fac",
+      "output_inspection": {
+        "command": [
+          "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/inspect",
+          "/workspace/wiki/tmp/day17-grsisort/lean-schema-build/legacy/CompPlots_10577.root"
+        ],
+        "cwd": "/workspace/wiki",
+        "exit_code": 0,
+        "stdout": "AsymmetryNonCo points=171\nAsymmetryBinnedNonCo points=19 fitA=0.19952315140100524 fitErr=0.0034361491298817298 chi2=0.030234935861894713 ndf=18\nAsymmetryBinFoldNonCo points=10 fitA=0.19961368485526054 fitErr=0.00370800321624494 chi2=0.017697834294744603 ndf=9\nAGATATheory points=101\n",
+        "stderr": ""
+      }
+    }
+  },
+  "fixture_definition": {
+    "bins": [
+      180,
+      180
+    ],
+    "angle_range": [
+      0,
+      180.000001
+    ],
+    "prompt_mean": "1000*(1-0.2*cos(2*xi))",
+    "mixed_mean": 1000,
+    "geometry_content": 1,
+    "random_sampling": false,
+    "uncertainty_boundary": "synthetic mean histograms; native fit errors are program outputs, not experimental intervals or coverage"
+  },
+  "generated_inputs": {
+    "generator_sha256": "c9cf8f5611f4995488140302f8e914e80e594431da58aa6c92f4cb3ec5fc5c94",
+    "batch_entry_sha256": "e79bec8a5e9b71d551efa91c7c3ec0724f535f5dbaab9962991fc83058e5528d",
+    "inspection_sha256": "1da55676c38cfa08180c2821d88ea01167f3c7e022de7054f9d964560e4f1941"
+  },
+  "binaries": {
+    "generate": "a943491ff3d056a6ef4a62e60a3abc97e3ce52e0b9b471f989310c2e60f5540f",
+    "lean": "bc1202f4fb8f0616cfeeb6612b72a25cd3aade752bc9340afe56facf4b69b7de",
+    "inspect": "6b2b51c0cd0ac2c92a28d29aacafad1fe97f094705cf40ad1e72a171ec18938e"
+  },
+  "root_version": "6.40.04",
+  "generated_at": "2026-10-19T09:36:28.747559+00:00",
+  "observations": {
+    "new_helper_schema_does_not_complete_in_legacy_consumer": true,
+    "legacy_schema_positive_control_completes": true
+  },
+  "ok": true
+}

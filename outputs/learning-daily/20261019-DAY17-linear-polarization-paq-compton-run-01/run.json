@@ -66,10 +66,12 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Establish DAY17 polarization calibration evidence and count design",
-    "commit": "68734c5f7ef651b3c245c9b7e4cc587f582e432a",
+    "subject": "Audit DAY17 pooled polarimeter response and public producer contracts",
+    "commit": "f82e49f8bc8e68cf9a3ac6f32accd2b48b605234",
     "status": "pushed",
-    "receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-001.json"
+    "receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-002.json"
   },
-  "research_status": "active; next matched-array-weight question"
+  "research_status": "active; native Lean schema completed; GRIFFIN primary companion selected/body-before recall frozen",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-006.json",
+  "last_observed_at": "2026-10-19T09:33:59.751689+00:00"
 }

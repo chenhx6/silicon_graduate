@@ -1,0 +1,28 @@
+{
+  "subject": "Verify DAY17 native consumer schema and stage GRIFFIN primary",
+  "paths": [
+    "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "system/handoff.md",
+    "system/scripts/day17_grsisort_lean_schema_audit.py",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-002.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/lean-schema-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-lean-schema-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-006.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-paper-search-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-paper-search-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-search-selection-001.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-arxiv-id-metadata.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-before-body.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-before-body-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-download.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-003.txt"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inherited dirty/raw/PLAN/Bib/tmp/credentials/whole third-party source; discovery metadata beyond selected record kept local"
+}

@@ -1,0 +1,7 @@
+# GRIFFIN标定文献/actual data候选前合同
+
+同Day17 continuity。既有priming已读GRSISort当前selectedcode/oldLean comments2016/17Q、旧Day16Co60条件模型；未读新GRIFFIN偏振primary。不将软件comment当测量，先Crossref/arXiv有限检索核题名/DOI/作者/可得性，再决定一篇与matchingcalibration/数据ready最有关的anchor。
+
+预期信息增益：实际P_ref获取、Q标定的half-factor/θ-gate/threshold/geometry与事件混合、fullerror/独立null，以及公开events/matrices/producer版本是否可得。没有全文只留discovery metadata，不建实验claim。Smith2019angular correlation来源与本问题共用装置但不默认同dataset或polcalibration；需去重谱系。
+
+本路线不是另开Day18/19，也不授课卡；metadata/search snippets不作物理证据，失败URL不终态原样重试，raw仍不修改。

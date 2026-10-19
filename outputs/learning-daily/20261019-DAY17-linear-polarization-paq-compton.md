@@ -100,6 +100,10 @@ GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compto
 
 原程序uniformθ KN-sensitivity平均与另一个明确声明的KN×dΩ模型不同；低能解析极限分别√2−1与1/2，point90为1。独立积分核通过，但都缺真实geometry/threshold/多散射/Σ；不能拿某个半因子裸换经验Q或把理想平均当detector response。
 
+### 默认Lean完整source的输入格式正负控制
+
+GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-01/lean-schema-before.md)、[实际结果](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-lean-schema-result.json)、[程序](../../system/scripts/day17_grsisort_lean_schema_audit.py)记录完整旧Lean source仅附batch entry运行。相同设计TH2D均值、不同keys：newhelper格式actualexit139、四目标graphs缺失；legacy格式actualexit0并输出171/19/10/101点。原fit amplitude约.199523/.199614只说明声明cos2均值fixture的程序行为，不是实验P/Q/CI。输出文件存在或检查器exit0均不代消费成功，原失败未抹去。
+
 ## Counter-evidence and missing companion observables
 
 - ST99-2：490-keV的P/RDCO仍保留E2与ΔI0 M1/E2；正号不保证唯一δ/Jπ。ST99-12的ακ是作者理论预测而非已测ICC，不能拿它闭合分支。
@@ -217,7 +221,7 @@ GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compto
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。",
+      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。",
       "anchor": "共同校准与估计量归一的联合设计",
       "sources": [
         {
@@ -247,6 +251,10 @@ GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compto
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-12"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-13"
         }
       ]
     },
@@ -267,7 +275,7 @@ GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compto
     },
     {
       "knowledge": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
-      "summary": "固定公开GRSISort/GRSIData、完整selected原件读取及原样ROOT组件；保留Lean默认目标反证和无真实data/Σ边界。 增加原样完整ScalePlot的能量role与平均kernel核验。",
+      "summary": "固定公开GRSISort/GRSIData、完整selected原件读取及原样ROOT组件；保留Lean默认目标反证和无真实data/Σ边界。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。",
       "anchor": "条件组件的实际数值与反证",
       "sources": [
         {
@@ -301,6 +309,10 @@ GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compto
         {
           "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
           "locator": "GRS26-12"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-13"
         }
       ]
     }
@@ -331,3 +343,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 [verification-005](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-005.json)实际report/唯一writeback七页/partial17 coverage/preflight/boundary/lint/diff通过，均actualexit0，0errors192warnings＝138key/51rawslot/3reactionparser。原25claim/review/PLAN/Bib/recall保护和四script/结果hash通过；新增rawslot/key仅为public软件归档/Bib边界，来源identity/cachehash已核。当前仍在原研究窗口，非Day17整日完成。
 
 本批稳定指针main / `Audit DAY17 pooled polarimeter response and public producer contracts`；精确hash及实际H3/push只本runpublication-002，原已发布001继续有效。
+
+### checkpoint003实际验收与下一anchor
+
+[verification-006](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-006.json)实际report/coverage/唯一writeback七页/boundary/lint/diff通过，均exit0、0errors192warnings；nativeLean的已记录负例exit139与正例exit0是研究结果，未隐藏为全过。002 main / `Audit DAY17 pooled polarimeter response and public producer contracts`已actualH3/push；003稳定指针main / `Verify DAY17 native consumer schema and stage GRIFFIN primary`，actualhash/push仅publication-003。
+
+下一anchor arxiv1809.07183v2已通过nature-academic-search定位和nature-downloader OA取得36页原件，hash/路径见[downloadreceipt](20261019-DAY17-linear-polarization-paq-compton-run-01/griffin-facility-download.json)，source前回忆另冻。当前只读首identity页与关键词定位，主线/图表/公式尚未读；不将检索或扫描的数字当新科学证据。研究仍active/partial17，继续完整原件，原deadline不变。

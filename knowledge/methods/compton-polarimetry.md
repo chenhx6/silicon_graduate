@@ -24,6 +24,8 @@ SG98改用balanced-denominator会令响应非线性于P，重标一条线仍不�
 
 同source GRS26-11/12实际原样完整ScalePlot与函数适配器核calibration→target能量角色；同能量回代掩盖倒数反转。原uniformθ平均、声明KN×dΩ平均与point90 response在E→0分别为√2−1、1/2、1，不可据某个2因子裸改经验Q归一；真实geometry/threshold/多散射与Cov仍须匹配输入。
 
+GRS26-13进一步实际编译默认Lean完整source body并以ROOT设计fixture核schema：newhelper keys在该consumer中exit139且目标graphs缺失，legacy keys正控制exit0。生成output文件不等于分析成功；codepath/格式/fit输入须一并attest，设计amplitude与native fiterror不算实验P/CI。
+
 ## Purpose
 
 Compton polarimetry infers the linear polarization of gamma rays from the azimuthal dependence of Compton-scattering events. The scattering plane is correlated with the incident electric-field direction through the Klein-Nishina cross section.
