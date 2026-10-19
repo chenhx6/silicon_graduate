@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-19T15:56:02.046259+00:00",
+  "binaries": [
+    {
+      "path": "tmp/day17-geant4-stopping/component/stopping-fixture",
+      "bytes": 35288,
+      "sha256": "959bf3bbbb799be2c98b168de47377e323506e2bd859e915ad0f9201cd556f55"
+    },
+    {
+      "path": "/opt/geant4/11.4.2/lib/libG4processes_core.so",
+      "bytes": 12327656,
+      "sha256": "6d730cab5fb7c5efaa29111c4075d6948d4ef8f45ff6893df5e28a4a859cb6d6"
+    },
+    {
+      "path": "/opt/geant4/11.4.2/lib/libG4materials.so",
+      "bytes": 1055080,
+      "sha256": "8ecc2280bfb8e7377952491535531854c25ba5cff3a91b8572d3672d1f5cda36"
+    },
+    {
+      "path": "/opt/geant4/11.4.2/lib/libG4physicslists.so",
+      "bytes": 1987944,
+      "sha256": "4cb2c9f628a23162f9c026464ed95b391c5a81388046805a8a6222336fb11d08"
+    },
+    {
+      "path": "/opt/geant4/11.4.2/lib/libG4run.so",
+      "bytes": 1326568,
+      "sha256": "a819ef46f3e6be502922f6f8f7d116a8e6740d4428a51a3910f6dfbf36c35dab"
+    }
+  ],
+  "compiler": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "source_binary_equivalence_not_proven": true
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "git",
+    "ls-remote",
+    "https://github.com/Geant4/geant4.git",
+    "refs/tags/v11.4.2",
+    "refs/tags/v11.4.2^{}"
+  ],
+  "exit_code": 0,
+  "tag_object": "1a99784d3bf92d3e0c86437f3609daa4d6d60059",
+  "peeled_commit": "8cc04f65977807f1848da7b958c421cd5e162f26",
+  "tree_api_failure": "403 retained, nocredentials/retry",
+  "sourcefiles": "actualv11.4.2publicresponses+sha256; installedSDKreported11.4.2,nobinarysourceequivalenceproof"
+}

@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit experimental stopping coverage for DSAM response inputs",
-    "commit": "6f09f75b3c4236c5c532dbfe123af5ebbcfa0b8c",
+    "subject": "Read original heavy-ion stopping and charge-state systematics",
+    "commit": "3a1f2555a8a080e46f7345567fae2d7dd89472b3",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow; actualBt1966primary systematics canonical; actualGeant4stoppingcomponent matchinginput next;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-029.json",
-  "last_observed_at": "2026-10-19T15:31:53.103511+00:00",
+  "research_status": "active originalwindow; actualGeant4stopping model/API/componentcanonical; AlongStepcallpathtransferofobservedtransient next;17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-030.json",
+  "last_observed_at": "2026-10-19T15:56:52.460746+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 26,
+  "canonical_knowledge_changed_pages": 27,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

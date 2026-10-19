@@ -1,0 +1,17 @@
+{
+  "command": [
+    "gdb",
+    "-batch",
+    "-ex",
+    "set debuginfod enabled off",
+    "-ex",
+    "run standard < /workspace/wiki/tmp/day17-geant4-stopping/component/debug-input.txt",
+    "-ex",
+    "bt",
+    "--args",
+    "/workspace/wiki/tmp/day17-geant4-stopping/component/stopping-fixture"
+  ],
+  "exit_code": 0,
+  "stdout": "\nThis GDB supports auto-downloading debuginfo from the following URLs:\n  <https://debuginfod.ubuntu.com>\nEnable debuginfod for this session? (y or [n]) [answered N; input not from terminal]\nDebuginfod has been disabled.\nTo make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"/usr/lib/x86_64-linux-gnu/libthread_db.so.1\".\n\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONFIG,standard,1142,0,0\n\nProgram received signal SIGSEGV, Segmentation fault.\n0x00007c5a3ed2bf43 in G4EmCalculator::FindEmModel(G4ParticleDefinition const*, G4String const&, double) () from /opt/geant4/11.4.2/lib/libG4processes_core.so\n#0  0x00007c5a3ed2bf43 in G4EmCalculator::FindEmModel(G4ParticleDefinition const*, G4String const&, double) () from /opt/geant4/11.4.2/lib/libG4processes_core.so\n#1  0x00007c5a3ed2d12c in G4EmCalculator::ComputeDEDX(double, G4ParticleDefinition const*, G4String const&, G4Material const*, double) () from /opt/geant4/11.4.2/lib/libG4processes_core.so\n#2  0x00007c5a3ed2f4b0 in G4EmCalculator::ComputeElectronicDEDX(double, G4ParticleDefinition const*, G4Material const*, double) () from /opt/geant4/11.4.2/lib/libG4processes_core.so\n#3  0x000060ac0bde4d38 in main ()\n",
+  "stderr": "warning: Error disabling address space randomization: Operation not permitted\n"
+}

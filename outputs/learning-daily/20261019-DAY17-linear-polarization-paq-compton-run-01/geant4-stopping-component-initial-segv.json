@@ -1,0 +1,115 @@
+{
+  "commands": [
+    {
+      "command": [
+        "geant4-config",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "11.4.2\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "geant4-config",
+        "--cflags"
+      ],
+      "exit_code": 0,
+      "stdout": "-DG4VIS_USE_OPENGL -DG4UI_USE_TCSH -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_X11_GLES -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++17 -I/opt/geant4/11.4.2/include/Geant4\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "geant4-config",
+        "--libs"
+      ],
+      "exit_code": 0,
+      "stdout": "-L/opt/geant4/11.4.2/lib -lG4OpenGL -lG4Tree -lG4FR -lG4GMocren -lG4RayTracer -lG4VRML -lG4ToolsSG -lG4vis_management -lG4modeling -lG4gdml -lG4interfaces -lG4geomtext -lG4mctruth -lG4analysis -lG4error_propagation -lG4readout -lG4physicslists -lG4run -lG4event -lG4tracking -lG4parmodels -lG4processes_hadronic -lG4processes_core -lG4digits_hits -lG4track -lG4particles -lG4geometry -lG4materials -lG4graphics_reps -lG4intercoms -lG4global -lG4clhep -lG4ptl\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "/workspace/wiki/system/scripts/day17_geant4_stopping_fixture.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/stopping-fixture",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "geant4-config",
+        "--datasets"
+      ],
+      "exit_code": 0,
+      "stdout": "G4NDL G4NEUTRONHPDATA /opt/geant4/11.4.2/share/Geant4/data/G4NDL4.7.1\nG4EMLOW G4LEDATA /opt/geant4/11.4.2/share/Geant4/data/G4EMLOW8.8\nPhotonEvaporation G4LEVELGAMMADATA /opt/geant4/11.4.2/share/Geant4/data/PhotonEvaporation6.1.2\nRadioactiveDecay G4RADIOACTIVEDATA /opt/geant4/11.4.2/share/Geant4/data/RadioactiveDecay6.1.2\nG4PARTICLEXS G4PARTICLEXSDATA /opt/geant4/11.4.2/share/Geant4/data/G4PARTICLEXS4.2\nG4PII G4PIIDATA /opt/geant4/11.4.2/share/Geant4/data/G4PII1.3\nRealSurface G4REALSURFACEDATA /opt/geant4/11.4.2/share/Geant4/data/RealSurface2.2\nG4SAIDDATA G4SAIDXSDATA /opt/geant4/11.4.2/share/Geant4/data/G4SAIDDATA2.0\nG4ABLA G4ABLADATA /opt/geant4/11.4.2/share/Geant4/data/G4ABLA3.3\nG4INCL G4INCLDATA /opt/geant4/11.4.2/share/Geant4/data/G4INCL1.3\nG4ENSDFSTATE G4ENSDFSTATEDATA /opt/geant4/11.4.2/share/Geant4/data/G4ENSDFSTATE3.0\nG4CHANNELING G4CHANNELINGDATA /opt/geant4/11.4.2/share/Geant4/data/G4CHANNELING2.0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/stopping-fixture",
+        "standard"
+      ],
+      "exit_code": -11,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONFIG,standard,1142,0,0\n",
+      "stderr": ""
+    }
+  ],
+  "status": "started",
+  "SDK_version": "11.4.2",
+  "datasets": [
+    "G4NDL G4NEUTRONHPDATA /opt/geant4/11.4.2/share/Geant4/data/G4NDL4.7.1",
+    "G4EMLOW G4LEDATA /opt/geant4/11.4.2/share/Geant4/data/G4EMLOW8.8",
+    "PhotonEvaporation G4LEVELGAMMADATA /opt/geant4/11.4.2/share/Geant4/data/PhotonEvaporation6.1.2",
+    "RadioactiveDecay G4RADIOACTIVEDATA /opt/geant4/11.4.2/share/Geant4/data/RadioactiveDecay6.1.2",
+    "G4PARTICLEXS G4PARTICLEXSDATA /opt/geant4/11.4.2/share/Geant4/data/G4PARTICLEXS4.2",
+    "G4PII G4PIIDATA /opt/geant4/11.4.2/share/Geant4/data/G4PII1.3",
+    "RealSurface G4REALSURFACEDATA /opt/geant4/11.4.2/share/Geant4/data/RealSurface2.2",
+    "G4SAIDDATA G4SAIDXSDATA /opt/geant4/11.4.2/share/Geant4/data/G4SAIDDATA2.0",
+    "G4ABLA G4ABLADATA /opt/geant4/11.4.2/share/Geant4/data/G4ABLA3.3",
+    "G4INCL G4INCLDATA /opt/geant4/11.4.2/share/Geant4/data/G4INCL1.3",
+    "G4ENSDFSTATE G4ENSDFSTATEDATA /opt/geant4/11.4.2/share/Geant4/data/G4ENSDFSTATE3.0",
+    "G4CHANNELING G4CHANNELINGDATA /opt/geant4/11.4.2/share/Geant4/data/G4CHANNELING2.0"
+  ]
+}

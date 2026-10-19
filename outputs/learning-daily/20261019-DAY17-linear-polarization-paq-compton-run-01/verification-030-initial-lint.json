@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_lint.py",
+    "--fail-on",
+    "error",
+    "--format",
+    "json"
+  ],
+  "exit_code": 1,
+  "counts": {
+    "error": 1,
+    "warning": 211,
+    "info": 2710
+  },
+  "errors": [
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "message": "missing ## Summary"
+    }
+  ],
+  "fix": "added requiredSummary; scienceunchanged"
+}

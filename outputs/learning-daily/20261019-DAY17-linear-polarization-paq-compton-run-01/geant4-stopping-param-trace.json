@@ -1,0 +1,69 @@
+{
+  "source_sha256": "79c7e48b02c07c616f795dfc5e21a32ed15ab0a18b73666a1fc70150c11e6640",
+  "trace_source_sha256": "fc1c5cd35b55a3a0499f771111742be18eb0a7190c3bd32773471b5ca0a90ca1",
+  "method": "diagnosticstatements-onlynewcopy;originalpublicfile/SDKunchanged",
+  "diff": "--- public-v11.4.2.cc\n+++ diagnostic-copy.cc\n@@ -949,8 +949,13 @@\n     // the range tables are used to derive a more accurate value of the\n     // energy loss\n     if (eloss > energyLossLimit * kineticEnergy) {\n+      const G4double traceBefore = chargeSquareRatio;\n+      if (particle->GetAtomicNumber() == 8 && kineticEnergy < 0.03*MeV)\n+        G4cout << \"TRACE_RANGE_BEFORE,\" << kineticEnergy << \",\" << eloss << \",\" << chargeSquareRatio << G4endl;\n       eloss = ComputeLossForStep(CurrentCouple(), particle,\n \t\t\t\t kineticEnergy,length);\n+      if (particle->GetAtomicNumber() == 8 && kineticEnergy < 0.03*MeV)\n+        G4cout << \"TRACE_RANGE_AFTER,\" << kineticEnergy << \",\" << eloss << \",\" << traceBefore << \",\" << chargeSquareRatio << G4endl;\n \n #ifdef PRINT_DEBUG\n \tG4cout << \"# Correction applied:\" << G4endl;\n@@ -977,6 +982,8 @@\n   // charge at the beginning of the step). Note: the correction is not\n   // applied for energy loss values deriving directly from parameterized\n   // ion stopping power tables\n+  if (particle->GetAtomicNumber() == 8 && kineticEnergy < 0.03*MeV)\n+    G4cout << \"TRACE_SCALE,\" << kineticEnergy << \",\" << eloss << \",\" << q2 << \",\" << chargeSquareRatio << G4endl;\n   eloss *= q2/chargeSquareRatio;\n }\n \n",
+  "commands": [
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-stopping-fixture.cc",
+        "tmp/day17-geant4-stopping/component/ParamTrace.cc",
+        "-o",
+        "tmp/day17-geant4-stopping/component/stopping-trace",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/stopping-trace",
+        "external"
+      ],
+      "input": "1 8 15 G4_Ta 0.0014236174061517356\n",
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nMODEL,external,ionIoni,ParamICRU73\nCONFIG,external,1142,1,1\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,64\nTRACE_SCALE,0.0213543,0.000250121,6.14324,64\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nSTOPPING,1,external,8,15,G4_Ta,0.0014236174061517356,0.021354261092276033,13971.180113019966,16.654,0.014416133241087445,0.15018668448652767,0.15018668448652767,0.15018668448652767,0.15018668448652767,0.15018668448652767\n",
+      "stderr": ""
+    }
+  ]
+}

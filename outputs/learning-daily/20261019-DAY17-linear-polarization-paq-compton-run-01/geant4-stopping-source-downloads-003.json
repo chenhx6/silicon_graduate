@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/lowenergy/src/G4IonParametrisedLossModel.cc",
+    "status": 200,
+    "bytes": 45554,
+    "sha256": "79c7e48b02c07c616f795dfc5e21a32ed15ab0a18b73666a1fc70150c11e6640",
+    "path": "tmp/day17-geant4-stopping/G4IonParametrisedLossModel_lowenergy.cc",
+    "path_basis": "oldv10.7.4publictree locatesclass; newv11.4.2actualresponseverifiedindependently"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/materials/src/G4IonStoppingData.cc",
+    "status": 200,
+    "bytes": 14676,
+    "sha256": "6b2bf19c3cc9b4e140b4d3106111fc0a2f78aaa05e700aedf8e0322ba855d9b9",
+    "path": "tmp/day17-geant4-stopping/G4IonStoppingData_materials.cc",
+    "path_basis": "oldv10.7.4publictree locatesclass; newv11.4.2actualresponseverifiedindependently"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/lowenergy/src/G4IonDEDXScalingICRU73.cc",
+    "status": 200,
+    "bytes": 8406,
+    "sha256": "8f6610fe111aac48539ec195087e78637b745cc59311cea390ba609d2b47045e",
+    "path": "tmp/day17-geant4-stopping/G4IonDEDXScalingICRU73.cc",
+    "path_basis": "oldv10.7.4publictree locatesclass; newv11.4.2actualresponseverifiedindependently"
+  }
+]

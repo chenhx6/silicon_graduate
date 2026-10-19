@@ -175,3 +175,10 @@ S31-11另把2010Do03两detector的quotedstat/sys半衰期预算与Sunmeanτ转�
 ### Bt1966 primary补充：比值之前先识别计量
 
 [[bethge-1966-heavy-ion-stopping-charge-states]] B66-1–10已原读五页/六图/四式。其25%误差有具体beam-charge系统背景，direct与charge-derived有共用装置/理论输入，S线也不是独立Northcliffe预测。Seff局部权重、N0共同尺度及电荷二阶矩推导可复核，但原Fig3到IAEA16行归一/符号/核扣除桥仍partial；不把.962–1.928模型比值叫实验矛盾。Bister15N/Ta原件仍缺，当前route不补它，也不产生新τ/CI。
+
+
+### 从stopping模型名称到actual组件输入
+
+[[geant4-2026-ion-stopping-component-contract]] GSI26-1–10核公开callpath与已存在SDK的三个声明模型组件，63编译行按实际稳定同位素查询，另31S/15O只是声明诊断。Wr低点相对三曲线差别显著，但error语义、模型训练谱系、Sun实际配置与材料仍缺；不能只按模型比值倒改实验τ或prior。
+
+无event的API查询也有初始化/历史条件：原fixture缺RunInitialization崩溃已修；external低能首次range构建的内部charge状态变化已trace定位且保留首次/重复值，SDK未patch。它证明单个“Geant4值”须附模型/表/能量/cut/调用合同，非原实验CI错误或完整DSAM再分析。

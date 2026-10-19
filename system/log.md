@@ -2086,3 +2086,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 Day17 checkpoint015 — original stopping experiment
 
 同session原窗口继续；Bethge1966完整原读五页/六图/四式，公开archive单成员CRC/hash/range核，非全50GB下载；束流N0共同计量、charge二阶矩与localSeff推导/原图桥partial分开。Bister1977bodyaccessfailure保留。新source/IAEA/method/auditledger/index已canonical，旧flags/PLAN/Bib保持，formal17once/18uncredited。verification029 report/26changed28mapped/coverage/boundary/lint/diff0，0errors209warnings。稳定指针main / Read original heavy-ion stopping and charge-state systematics；actualhash/push仅runreceipt，原15:00截止/goalactive不变。
+
+## 2026-10-19 Day17 checkpoint016 — native Geant4 stopping contracts
+
+同session原窗口继续，formal17once/18uncredited。新增targeted Geant4 source/实际SDK三模型、63编译行同位素匹配与三诊断点，电子量/cut/表域/初始化合同分列。首fixture缺RunInitialization的−11已定位修复，external首次range建表charge状态transient由native重复/诊断副本/严格重放定位并保留，未patch SDK或归因Sun实验CI。canonical五页/唯一writeback27changed29mapped；verification030 report/coverage/boundary/lint/diff/protected/旧claims0，0errors211warnings。稳定指针main / Audit native Geant4 ion stopping models and query initialization；actualhash/push仅runreceipt，原15:00截止/goalactive不变。

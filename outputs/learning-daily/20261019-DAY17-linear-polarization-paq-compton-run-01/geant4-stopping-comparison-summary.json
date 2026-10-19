@@ -1,0 +1,380 @@
+{
+  "modes": {
+    "standard": {
+      "MODEL_records": [
+        "MODEL,standard,ionIoni,Bragg",
+        "CONFIG,standard,1142,0,0"
+      ],
+      "ratio_summaries": {
+        "Am1968": {
+          "n": 5,
+          "measured_compilation_over_component_min": 0.954017800008952,
+          "max": 0.9759656878567432,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Bi1990": {
+          "n": 1,
+          "measured_compilation_over_component_min": 1.0227080156377675,
+          "max": 1.0227080156377675,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Bt1966": {
+          "n": 16,
+          "measured_compilation_over_component_min": 0.9468206500299036,
+          "max": 1.6982448416346414,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Fs1976": {
+          "n": 10,
+          "measured_compilation_over_component_min": 0.8538921380285932,
+          "max": 1.0339569619396214,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Ga1987": {
+          "n": 8,
+          "measured_compilation_over_component_min": 1.0253126669431294,
+          "max": 1.0661580098597427,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Hak2002": {
+          "n": 3,
+          "measured_compilation_over_component_min": 1.396542792226878,
+          "max": 1.4548197859545566,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Hu1999": {
+          "n": 12,
+          "measured_compilation_over_component_min": 0.7369159033141948,
+          "max": 0.8467970593068763,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Ou1995": {
+          "n": 3,
+          "measured_compilation_over_component_min": 0.9522810676119469,
+          "max": 0.967195908191314,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Sd1975": {
+          "n": 3,
+          "measured_compilation_over_component_min": 0.793051817844019,
+          "max": 1.1582628774251684,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Wr1979": {
+          "n": 2,
+          "measured_compilation_over_component_min": 0.9218481008946074,
+          "max": 0.9349893852872423,
+          "no_1sigma_assumption_or_fittedscale": true
+        }
+      },
+      "first_query_transients": [],
+      "controls": [
+        {
+          "row": 1000,
+          "Z": 16,
+          "A": 31,
+          "material": "G4_Au",
+          "E_A_MeV": 0.0168,
+          "E_total_MeV": 0.5207999999999999,
+          "ion_mass_MeV": 28849.10726299307,
+          "density_g_cm3": 19.32,
+          "total_first": 0.6291154079889026,
+          "total_second": 0.6291154079889026,
+          "total_third": 0.6291154079889026,
+          "restricted_first": 0.6291154079889026,
+          "restricted_second": 0.6291154079889026,
+          "restricted_third": 0.6291154079889026
+        },
+        {
+          "row": 1001,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0014236174061517356,
+          "E_total_MeV": 0.021354261092276033,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.11557696059631477,
+          "total_second": 0.11557696059631477,
+          "total_third": 0.11557696059631477,
+          "restricted_first": 0.11557696059631477,
+          "restricted_second": 0.11557696059631477,
+          "restricted_third": 0.11557696059631477
+        },
+        {
+          "row": 1002,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0025087379886612874,
+          "E_total_MeV": 0.03763106982991931,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.15342717117113297,
+          "total_second": 0.15342717117113297,
+          "total_third": 0.15342717117113297,
+          "restricted_first": 0.15342717117113297,
+          "restricted_second": 0.15342717117113297,
+          "restricted_third": 0.15342717117113297
+        }
+      ]
+    },
+    "option4": {
+      "MODEL_records": [
+        "MODEL,option4,ionIoni,LindhardSorensen",
+        "CONFIG,option4,1142,1,1"
+      ],
+      "ratio_summaries": {
+        "Am1968": {
+          "n": 5,
+          "measured_compilation_over_component_min": 0.9661750018998564,
+          "max": 0.97297656311426,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Bi1990": {
+          "n": 1,
+          "measured_compilation_over_component_min": 0.9853118499177572,
+          "max": 0.9853118499177572,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Bt1966": {
+          "n": 16,
+          "measured_compilation_over_component_min": 0.9494456496903754,
+          "max": 1.7458038665765414,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Fs1976": {
+          "n": 10,
+          "measured_compilation_over_component_min": 0.6437244747900341,
+          "max": 1.0368251986996948,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Ga1987": {
+          "n": 8,
+          "measured_compilation_over_component_min": 0.950841188180512,
+          "max": 0.995044995650348,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Hak2002": {
+          "n": 3,
+          "measured_compilation_over_component_min": 1.0618810224190636,
+          "max": 1.1055079079680872,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Hu1999": {
+          "n": 12,
+          "measured_compilation_over_component_min": 0.9477465270261912,
+          "max": 1.0992115846105566,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Ou1995": {
+          "n": 3,
+          "measured_compilation_over_component_min": 0.9667731469484916,
+          "max": 0.9814353790182067,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Sd1975": {
+          "n": 3,
+          "measured_compilation_over_component_min": 0.816939424862679,
+          "max": 1.1604903015395407,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Wr1979": {
+          "n": 2,
+          "measured_compilation_over_component_min": 0.4960606169555121,
+          "max": 0.5458403320163916,
+          "no_1sigma_assumption_or_fittedscale": true
+        }
+      },
+      "first_query_transients": [],
+      "controls": [
+        {
+          "row": 1000,
+          "Z": 16,
+          "A": 31,
+          "material": "G4_Au",
+          "E_A_MeV": 0.0168,
+          "E_total_MeV": 0.5207999999999999,
+          "ion_mass_MeV": 28849.10726299307,
+          "density_g_cm3": 19.32,
+          "total_first": 1.1690710016328836,
+          "total_second": 1.1690710016328836,
+          "total_third": 1.1690710016328836,
+          "restricted_first": 1.1690710016328836,
+          "restricted_second": 1.1690710016328836,
+          "restricted_third": 1.1690710016328836
+        },
+        {
+          "row": 1001,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0014236174061517356,
+          "E_total_MeV": 0.021354261092276033,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.15084168157635683,
+          "total_second": 0.15084168157635683,
+          "total_third": 0.15084168157635683,
+          "restricted_first": 0.15084168157635683,
+          "restricted_second": 0.15084168157635683,
+          "restricted_third": 0.15084168157635683
+        },
+        {
+          "row": 1002,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0025087379886612874,
+          "E_total_MeV": 0.03763106982991931,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.2003524990200815,
+          "total_second": 0.2003524990200815,
+          "total_third": 0.2003524990200815,
+          "restricted_first": 0.2003524990200815,
+          "restricted_second": 0.2003524990200815,
+          "restricted_third": 0.2003524990200815
+        }
+      ]
+    },
+    "external": {
+      "MODEL_records": [
+        "MODEL,external,ionIoni,ParamICRU73",
+        "CONFIG,external,1142,1,1"
+      ],
+      "ratio_summaries": {
+        "Am1968": {
+          "n": 5,
+          "measured_compilation_over_component_min": 0.9618049879694537,
+          "max": 0.9735388126257811,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Bi1990": {
+          "n": 1,
+          "measured_compilation_over_component_min": 0.9983687676068597,
+          "max": 0.9983687676068597,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Bt1966": {
+          "n": 16,
+          "measured_compilation_over_component_min": 0.9500486786664484,
+          "max": 1.7459753868356178,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Fs1976": {
+          "n": 10,
+          "measured_compilation_over_component_min": 0.8488028332511195,
+          "max": 1.0369368087591324,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Ga1987": {
+          "n": 8,
+          "measured_compilation_over_component_min": 0.9877398282165597,
+          "max": 1.0076282159607268,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Hak2002": {
+          "n": 3,
+          "measured_compilation_over_component_min": 1.1474138660638284,
+          "max": 1.1947281460446995,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Hu1999": {
+          "n": 12,
+          "measured_compilation_over_component_min": 0.9441688994070452,
+          "max": 1.0997759759141121,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Ou1995": {
+          "n": 3,
+          "measured_compilation_over_component_min": 0.9651023193390426,
+          "max": 0.9798570932074916,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Sd1975": {
+          "n": 3,
+          "measured_compilation_over_component_min": 0.816253059060762,
+          "max": 1.1612549964997962,
+          "no_1sigma_assumption_or_fittedscale": true
+        },
+        "Wr1979": {
+          "n": 2,
+          "measured_compilation_over_component_min": 0.49786615689575164,
+          "max": 0.5481489799241217,
+          "no_1sigma_assumption_or_fittedscale": true
+        }
+      },
+      "first_query_transients": [
+        {
+          "row": 1001,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0014236174061517356,
+          "E_total_MeV": 0.021354261092276033,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.014416133241087445,
+          "total_second": 0.15018668448652767,
+          "total_third": 0.15018668448652767,
+          "restricted_first": 0.15018668448652767,
+          "restricted_second": 0.15018668448652767,
+          "restricted_third": 0.15018668448652767
+        }
+      ],
+      "controls": [
+        {
+          "row": 1000,
+          "Z": 16,
+          "A": 31,
+          "material": "G4_Au",
+          "E_A_MeV": 0.0168,
+          "E_total_MeV": 0.5207999999999999,
+          "ion_mass_MeV": 28849.10726299307,
+          "density_g_cm3": 19.32,
+          "total_first": 1.1649717338016328,
+          "total_second": 1.1649717338016328,
+          "total_third": 1.1649717338016328,
+          "restricted_first": 1.1649717338016328,
+          "restricted_second": 1.1649717338016328,
+          "restricted_third": 1.1649717338016328
+        },
+        {
+          "row": 1001,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0014236174061517356,
+          "E_total_MeV": 0.021354261092276033,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.014416133241087445,
+          "total_second": 0.15018668448652767,
+          "total_third": 0.15018668448652767,
+          "restricted_first": 0.15018668448652767,
+          "restricted_second": 0.15018668448652767,
+          "restricted_third": 0.15018668448652767
+        },
+        {
+          "row": 1002,
+          "Z": 8,
+          "A": 15,
+          "material": "G4_Ta",
+          "E_A_MeV": 0.0025087379886612874,
+          "E_total_MeV": 0.03763106982991931,
+          "ion_mass_MeV": 13971.180113019966,
+          "density_g_cm3": 16.654,
+          "total_first": 0.19995845648672775,
+          "total_second": 0.19995845648672775,
+          "total_third": 0.19995845648672775,
+          "restricted_first": 0.19995845648672775,
+          "restricted_second": 0.19995845648672775,
+          "restricted_third": 0.19995845648672775
+        }
+      ]
+    }
+  },
+  "scientific_scope": "compiledexperimentalvaluesvsmatchingisotopeSDKcomponent; nodataindependence/CIorSunpriorcalibration",
+  "status": "analysis-complete-native-order-transient-kept"
+}

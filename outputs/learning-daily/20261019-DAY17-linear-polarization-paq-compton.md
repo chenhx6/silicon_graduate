@@ -253,6 +253,16 @@ B66-9/10的[新符号练习](20261019-DAY17-linear-polarization-paq-compton-run-
 
 Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，没称勘误；literal归一与IAEA16行/符号/核扣除完整桥仍partial。`supports`有源系统误差/companion，`revises`逐行独立σ假设，`limits`表到实际DSAM速度投影/先验。canonical source/IAEA/method/auditledger/index已同步，不给18信用、不重复17。
 
+### Day18无学分预习：实际Geant4停止本领组件
+
+[新source](../../knowledge/sources/geant4-2026-ion-stopping-component-contract.md) GSI26-1–10核公开v11.4.2实际callpath与已存在SDK11.4.2/G4EMLOW8.8；[source前冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-stopping-before-freeze.json)、[actualscope](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-stopping-code-scope.json)、[native完整回执](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-stopping-component-result.json)与[比较](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-stopping-comparison-summary.json)保存新输入。源码定向读非全Geant4/手册，reading_depth skimmed；初错误模块404/tree403保留，git ls-remote核实际tag/commit，未认证安装binary逐位同源或Sunprivateproducer。
+
+三配置actual MODEL分别Bragg/LindhardSorensen/ParamICRU73，option4非空name才选external；.025低表边界/平方根外推、E/A与protonscaledenergy、electroncut/productioncut/nuclear开关分开。按63真实编译行各自同位素/纯NISTAu/Ta查询，另3诊断点不是实验。Wr编译/组件比standard约.922–.935、option4约.496–.546、external约.498–.548；无数据训练独立性/联合Σ/actualSun配置，不从此给sp新prior或实验错判。
+
+首次fixture在未建modeltable时SIGSEGV−11；gdb/原kernel BuildPhysicsTables路径定位client少RunInitialization，修后原三个配置都0，未改SDK。另nativeexternal低能15O点首次total.0144161、重复.1501867，所有原始查询保留。仅加diagnostics的源码副本重现：首次rangebuild使chargeSquareRatio6.14324→64，末尾比值约.0959881；[严格context/hash重放](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-stopping-param-trace-replay.json)一致。初缺patch工具也留档、改用Python严格匹配，无系统安装。它是声明API/组件问题，不归因Sun真实posterior/transport/CI。
+
+`supports`把停止模型落到可查的实际组件；`revises`以版本名唯一指定curve及把首次查询当稳定物理量；`limits`当前模型对原实验反演的替代。新source/IAEA/method/auditledger/index已canonical。formal17一次、18仍partial/无学分、未研究19，原窗口继续。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -462,7 +472,7 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -628,6 +638,46 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
           "locator": "B66-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-1"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-2"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-3"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-4"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-5"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-6"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-7"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-8"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-9"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-10"
         }
       ]
     },
@@ -976,7 +1026,7 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1170,12 +1220,52 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
           "locator": "B66-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-1"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-2"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-3"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-4"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-5"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-6"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-7"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-8"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-9"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-10"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -1385,6 +1475,46 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
           "locator": "B66-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-1"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-2"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-3"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-4"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-5"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-6"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-7"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-8"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-9"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-10"
         }
       ]
     },
@@ -1731,7 +1861,7 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
     },
     {
       "knowledge": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
-      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。 补新primary读取状态与原计量误差解释，保持旧未读历史。",
+      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。 补新primary读取状态与原计量误差解释，保持旧未读历史。 补同位素匹配组件对照，不称新独立数据或prior。",
       "anchor": "电子阻止数据能约束什么，尚缺什么",
       "sources": [
         {
@@ -1809,6 +1939,46 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
           "locator": "B66-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-1"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-2"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-3"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-4"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-5"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-6"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-7"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-8"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-9"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-10"
         }
       ]
     },
@@ -1856,6 +2026,53 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
           "locator": "B66-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "summary": "新增真实SDK组件/模型/表/API与首次范围构建诊断，保留producer/实验边界。",
+      "anchor": "同一个Geant4版本也须记录实际模型与查询合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-1"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-2"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-3"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-4"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-5"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-6"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-7"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-8"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-9"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-10"
         }
       ]
     }
@@ -1960,3 +2177,8 @@ IAEA新source/四页canonical、真实CSV/单位/能区练习及scope已持久�
 ### checkpoint015原实验计量验收
 
 B66实际primary与公式/图role/counterevidence、真实PDF/hash/CRC/range与初failure已存；report唯一writeback26changed/28mapped，formal17once/partial18不变。verification029保存实际report/coverage/knowledge/boundary/lint/diff/protected/oldreviewchecks；当前lint0error209warnings。稳定指针main / `Read original heavy-ion stopping and charge-state systematics`，actualhash/H3/push只publication015。原研究window/nativegoal仍active，下一实际Geant4stopping对象/模型选择须新freeze与input，不把component认证成Sunproducer。
+
+
+### checkpoint016 native停止组件验收
+
+GSI26实际targetedcode/原表/nativecomponent/firstquerytrace及失败记录canonical；代码source保持skimmed，不冒称全原读或Sunproducer。唯一writeback27changed/29mapped，formal17once/partial18不变。verification030保存report/coverage/knowledge/boundary/lint/diff/protected/oldISPclaimchecks实际exit；当前0error211warnings，漏Summary的initiallint已修/留档。稳定指针main / `Audit native Geant4 ion stopping models and query initialization`，actualhash/H3/push仅publication016。原研究window/nativegoalactive，下一只核observedAPI路径能否迁到实际AlongStep合同，不无输入外推原实验bias。

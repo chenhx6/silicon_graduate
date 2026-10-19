@@ -62,6 +62,9 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 | ISP26-10 | 随后新取得Bt1966原五页/六图/四式，原作者明确direct高于charge-derived并归因于N0束电荷计量；S25%有源系统解释，不自动等16行独立σ。原件/编译同实验，不增独立证据。 | new-primary-companion | direct-original | B66-5 | true |
 | ISP26-11 | 原Fig3的断轴/归一/多符号到全部16行的bridge仍partial；新localSeff与N0scale推导不修编译或生成先验，先前比值不升级为错误认定。Bister1977正文仍未得。 | bridge-and-readiness-update | direct-and-task-boundary | B66-8 | true |
 
+| ISP26-12 | 后续实际Geant4SDK三模型按各行同位素查询，Wr编译/组件比standard约.922–.935、option4约.496–.546、external约.498–.548；不是SRIM2013或Sunactualproducer。比值仅指定模型/数据对照，未给新prior/独立σ。 | new-native-component-comparison | task-model | GSI26-6 | true |
+| ISP26-13 | nativeexternal低能15O首次querytransient已源码诊断定位/严格重放，首次值保留不静默warmup。源码/模型/编译/experiment四层分开，IAEA仍不补完整DSAM response/Σ。 | component-failure-boundary | task-model-and-readiness | GSI26-7 | true |
+
 ## Analytical Reconstruction and Self-Audit
 
 | pair / ref | 实验行数 | isotope | E/A范围 MeV/u | literal error % |
@@ -100,3 +103,8 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 ## 后续原实验：Bt1966读取状态更新
 
 [[bethge-1966-heavy-ion-stopping-charge-states]] B66-1–10为本session后续完整原读，supersedes本页初摄入“所有primary未读”的当前状态，仅Bt1966已读。Ward/Forster/Hu/Bister仍没有body，不用新source覆盖那些readiness。S25%作者systematic解释为旧比值补上下文，没有认证完整digitization/Σ或新的actualGeant4基线。
+
+
+## 实际Geant4组件补充
+
+[[geant4-2026-ion-stopping-component-contract]]提供当前已存在SDK的模型/数据/API输入；当前SRIM2013和Geant4不是同一producer。该组件没有生成事件，缺actualSunmodel/target/轨迹/Σ的边界不因数值运行成功解除。

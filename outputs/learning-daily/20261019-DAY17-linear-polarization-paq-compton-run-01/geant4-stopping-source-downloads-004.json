@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/utils/src/G4EmCalculator.cc",
+    "status": 200,
+    "bytes": 42956,
+    "sha256": "74b5d883717367e0773e777172d3bee45cffff05054a79a0ae5f2b9e8b317e03",
+    "path": "tmp/day17-geant4-stopping/G4EmCalculator.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/physics_lists/constructors/electromagnetic/include/G4EmStandardPhysics_option4.hh",
+    "status": 200,
+    "bytes": 2801,
+    "sha256": "2033e00769830009c427f7f60794a505c7b356ae478cf6697b0b7b1beefbd215",
+    "path": "tmp/day17-geant4-stopping/G4EmStandardPhysics_option4.hh"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/materials/src/G4IonICRU73Data.cc",
+    "status": 404,
+    "bytes": 14,
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "path": "tmp/day17-geant4-stopping/G4IonICRU73Data.cc"
+  }
+]

@@ -135,3 +135,10 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ### 厚靶参考的局部量与共同归一
 
 [[bethge-1966-heavy-ion-stopping-charge-states]] B66-3/5/9/10给更具体的输入门：原反向散射法Eq3要求入/出路径阻止近似相同。放开为两个局部量，在固定K与正几何g下只识别Seff=(KSi+gSo)/(K+g)，单谱bin不能拆两路径；不是任意强能变轨道的公式。作者束流计量N0偏高使直接S整体偏高，25%不当逐点独立σ。共同scale模型的Cov外积和有效电荷二阶矩只是条件推导，无原Cov恢复；这类电子表仍不替完整DSAM速度投影。
+
+
+### Geant4模型、表和查询顺序也是停止本领合同
+
+[[geant4-2026-ion-stopping-component-contract]] GSI26-1–10保存新actualSDK11.4.2/G4EMLOW8.8组件。defaultstandard/option4/default与external分别选Bragg/LindhardSorensen/ParamICRU73；只说Geant4不能唯一指定曲线。totalenergy、E/A与模型proton-mass-scaled energy要桥接；电子DBL_MAX cut查询与1keV restricted、核阻止开关及productionrange cut分列。calculator已调用step correction，不能重复加修正或只取模型裸DEDX。
+
+在声明的external低能15O/Ta API控制中，首次range建表改变chargeSquareRatio，使首次返回值只约后续值.095988倍；原生重复、源码只插诊断的副本与严格重放一致。它限制该组件如何取值，不认证Sun的版本/physicslist/callingorder或真实transport偏差。原63编译行对三模型比值只是matching-isotope组件比较；未恢复实际材料/轨迹/Σ，不从此设新10/20%先验或寿命CI。

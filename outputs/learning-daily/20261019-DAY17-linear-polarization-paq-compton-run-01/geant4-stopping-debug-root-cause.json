@@ -1,0 +1,12 @@
+{
+  "root_cause": "Client queried G4EmCalculator before RunInitialization builds model/physics tables. Initialize constructs processes but does not perform BuildPhysicsTables; FindEmModel dereferenced unbuilt selection. Initialstdout had no MODEL record.",
+  "evidence": [
+    "geant4-stopping-gdb-reproduced.json FindEmModel SIGSEGV",
+    "G4RunManager::Initialize lines622–639",
+    "G4RunManagerKernel::RunInitialization lines633–637 BuildPhysicsTables"
+  ],
+  "minimal_fix": "RunInitialization before queries and matching RunTermination; no event loop, physicslist/globalSDK unchanged",
+  "interpretation": "fixture lifecycle error, not Geant4 physics failure or Sun producer bug",
+  "first_debug_command_issue": "gdb run inputredirection omitted standard argv and exited2; corrected reproduction persisted",
+  "initial_working_hypothesis_corrected": "G4EmCalculator ComputeElectronicDEDX already calls ComputeDEDX CorrectionsAlongStep for ions. Do not claim calculator omits that correction or add it a second time."
+}

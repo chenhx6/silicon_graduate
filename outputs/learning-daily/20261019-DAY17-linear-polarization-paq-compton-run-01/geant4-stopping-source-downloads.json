@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4ionIonisation.cc",
+    "status": 200,
+    "bytes": 6779,
+    "sha256": "4b41d8e10b70ba9808d6fd6753b4685fc50a1222d73123d617d2c99f661e2f13",
+    "path": "tmp/day17-geant4-stopping/G4ionIonisation.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4IonParametrisedLossModel.cc",
+    "status": 404,
+    "bytes": 14,
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "path": "tmp/day17-geant4-stopping/G4IonParametrisedLossModel.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4BraggIonModel.cc",
+    "status": 200,
+    "bytes": 22974,
+    "sha256": "77fd6989ae2ea79fe124781a8c6d918e57763d7a4665a8fe8fe073d19c31f1dd",
+    "path": "tmp/day17-geant4-stopping/G4BraggIonModel.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4IonStoppingData.cc",
+    "status": 404,
+    "bytes": 14,
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "path": "tmp/day17-geant4-stopping/G4IonStoppingData.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/physics_lists/constructors/electromagnetic/src/G4EmStandardPhysics.cc",
+    "status": 200,
+    "bytes": 8219,
+    "sha256": "798c9a5e9372c4183f6f4c60bfa9dc92fc3e8b55e3757eba70c5eac5ce734a13",
+    "path": "tmp/day17-geant4-stopping/G4EmStandardPhysics.cc"
+  }
+]

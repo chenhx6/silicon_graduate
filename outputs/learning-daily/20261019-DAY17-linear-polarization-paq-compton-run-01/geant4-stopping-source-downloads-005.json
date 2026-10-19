@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4IonICRU73Data.cc",
+  "status": 200,
+  "bytes": 13701,
+  "sha256": "cf771a5a44ea936c56593b7dd2d67bb4157345eb316815f60880986404fe08d2",
+  "path": "tmp/day17-geant4-stopping/G4IonICRU73Data_standard.cc",
+  "path_basis": "classconsumedbyG4LindhardSorensenIonModel,standardmodulecandidate; verifyactualresponse"
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "targetedcallpathandnativecomponent, not fullGeant4/physicsreference/simulationcoverage",
+  "read_functions": [
+    "G4EmStandardPhysics::ConstructProcess genericion/nuclearselection",
+    "G4EmStandardPhysics_option4 ctor/ConstructProcessgenericion",
+    "G4ionIonisation::InitialiseEnergyLossProcess",
+    "G4LindhardSorensenIonModel::Initialise/GetChargeSquareRatio/SetupParameters/ComputeDEDXPerVolume/CorrectionsAlongStep",
+    "G4IonICRU73Data ctor/GetDEDX/Initialise/ReadElementData/FindOrBuildElementData/RetrieveVector",
+    "G4IonStoppingData units/GetDEDX/readiness interface",
+    "G4IonParametrisedLossModel::Initialise/ComputeDEDXPerVolume/UpdateDEDXCache/CorrectionsAlongStep/BuildRangeVector/ComputeLossForStep",
+    "G4EmCalculator constructor/ComputeDEDX/ComputeElectronicDEDX/UpdateParticle/FindEmModel",
+    "G4RunManager::Initialize/RunInitialization",
+    "G4RunManagerKernel::RunInitialization BuildPhysicsTables"
+  ],
+  "fetchedbut_notfullread": [
+    "G4BraggIonModel.cc",
+    "G4BraggModel.cc",
+    "G4IonDEDXScalingICRU73.cc",
+    "G4EmParameters.cc"
+  ],
+  "data_scope": [
+    "installedicru73z16_79.dat all53rows",
+    "installedicru73z8_73.dat all53rows"
+  ],
+  "native_execution": "existingSDK11.4.2,198querieswithall6repeats/nomodelpatch;tracecopyonlyinstrumentationseparate",
+  "paper_exactproducer_recovered": false
+}

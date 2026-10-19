@@ -1,0 +1,16 @@
+[
+  {
+    "sdk_dataset_path": "/opt/geant4/11.4.2/share/Geant4/data/G4EMLOW8.8/ion_stopping_data/icru73/z16_79.dat",
+    "path": "tmp/day17-geant4-stopping/z16_79.dat",
+    "bytes": 769,
+    "sha256": "01bd54fdf2ac865d228cb213349e971d698a5ee90f818fce7dc52b884a42a201",
+    "source_scope": "actualexistingSDKtable,nopaperexactdatasetclaim"
+  },
+  {
+    "sdk_dataset_path": "/opt/geant4/11.4.2/share/Geant4/data/G4EMLOW8.8/ion_stopping_data/icru73/z8_73.dat",
+    "path": "tmp/day17-geant4-stopping/z8_73.dat",
+    "bytes": 782,
+    "sha256": "6a1c3f567b07218366a0de460afb734d6d9b8dd358dcc4c429627e6a9e8b10a1",
+    "source_scope": "actualexistingSDKtable,nopaperexactdatasetclaim"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "gdb",
+    "-batch",
+    "-ex",
+    "run < /workspace/wiki/tmp/day17-geant4-stopping/component/debug-input.txt",
+    "-ex",
+    "bt",
+    "--args",
+    "/workspace/wiki/tmp/day17-geant4-stopping/component/stopping-fixture",
+    "standard"
+  ],
+  "exit_code": 1,
+  "stdout": "\nThis GDB supports auto-downloading debuginfo from the following URLs:\n  <https://debuginfod.ubuntu.com>\nEnable debuginfod for this session? (y or [n]) [answered N; input not from terminal]\nDebuginfod has been disabled.\nTo make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"/usr/lib/x86_64-linux-gnu/libthread_db.so.1\".\n[Inferior 1 (process 348044) exited with code 02]\n",
+  "stderr": "warning: Error disabling address space randomization: Operation not permitted\nNo stack.\n"
+}

@@ -1,0 +1,6 @@
+{
+  "actual_observation": "externalmode15OlowE firstDBL_MAX .014416133 vs samequeryfollowingcalls .150186684; standard/option4 repeatstable",
+  "observed_control": "sameenergy/ionrepeats demonstrate initialquerytransient, not a cutdefinedphysicaldifference; no interpretationofinitialvalueastrueS",
+  "source_candidate_mechanism": "ParamICRU73 CorrectionsAlongStep firstbuilds range when localeloss>1%kineticE; BuildRangeVector invokes ComputeDEDXPerVolume overotherenergies, potentially altering chargeSquareRatio/cache before finalq2/chargeSquareRatio. Needs actualinstrumentationorindependentcomponentcontrol, not yetprovenfullcause.",
+  "next": "retainalltriplequeriesandcapturefirstcall/stablecall; do not patchSDK or assignSunbug"
+}

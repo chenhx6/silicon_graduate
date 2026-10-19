@@ -1,0 +1,10 @@
+{
+  "observed_initial_over_steady": 0.09598809168985036,
+  "trace_charge_denominator_before": 6.14324,
+  "after_first_range_build": 64,
+  "trace_ratio_using_rounded_q2": 0.095988125,
+  "rounding_agreement_absolute": 3.3310149638587916e-08,
+  "source_mechanism": "firstComputeLossForStep buildsrange; itsComputeDEDXPerVolume calls change model chargeSquareRatio to64, then final q2/chargeSquareRatio suppresses local loss; repeated call uses cachedrange and denominator6.14324",
+  "scope": "tracecopyusingELFexecutable-symbolinterposition, diagnostics-onlypublicsourcechanges; nativeSDKnotmodified; diagnosticresultmatchesnativefirst/steadyvalues",
+  "not_Sun_producer_or_experiment_CI_bug": true
+}

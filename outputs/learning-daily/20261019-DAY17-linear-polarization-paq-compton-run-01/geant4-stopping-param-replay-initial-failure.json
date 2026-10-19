@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/day17_geant4_stopping_trace.py"
+  ],
+  "exit_code": 1,
+  "error": "FileNotFoundError: patch executable unavailable",
+  "scope": "replaytooldependency only; initialnative/diagnostictrace remains valid",
+  "fix": "apply frozenunifieddiff to hashverifiedsource with ownstrictPythonparser; no systeminstall"
+}

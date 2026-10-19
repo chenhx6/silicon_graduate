@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/physics_lists/constructors/electromagnetic/src/G4EmStandardPhysics_option4.cc",
+    "status": 200,
+    "bytes": 11966,
+    "sha256": "04337300cc119a4fd893d515059cc75cef9f042849b183848643a4c4bf104c89",
+    "path": "tmp/day17-geant4-stopping/G4EmStandardPhysics_option4.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4LindhardSorensenIonModel.cc",
+    "status": 200,
+    "bytes": 16490,
+    "sha256": "e16ed6cd1d132183684ef47948b6f8fe36526a48663a6dc1878d5bb8330eb12c",
+    "path": "tmp/day17-geant4-stopping/G4LindhardSorensenIonModel.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/standard/src/G4BraggModel.cc",
+    "status": 200,
+    "bytes": 31912,
+    "sha256": "ceb5158a646dc1d3ae3a0be345eae8f363bfcf964615b8c7c06e9623f05be858",
+    "path": "tmp/day17-geant4-stopping/G4BraggModel.cc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/utils/src/G4EmParameters.cc",
+    "status": 200,
+    "bytes": 43246,
+    "sha256": "aaa143c1cb34b544f0d67fa6a7242d2b3fbd86ebfeb1bf4bc5c9fcca2973909e",
+    "path": "tmp/day17-geant4-stopping/G4EmParameters.cc"
+  }
+]
