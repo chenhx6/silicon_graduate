@@ -267,3 +267,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 新采集与独立校准不是同一件事
 
 [[friedman-2020-gadget-al23-proton-branch]] FR20-7/8/10/14提供实际companion例：new低背景ratio仍可采用旧绝对reference与gammafeed；两pad估计共享systematic和部分event/分母，近独立stat要有原Cov依据。重复推荐/数值相合不增加独立校准。偏振的newA与复用Q/reference也应按同样来源合同核，不能直接迁本gas响应。
+
+## Compton屏蔽和reference版本：原报告的使用门
+
+[[tamu-2006-2007-al23-gamma-reference-reports]] TA07-3/4/11说明后续BGO屏蔽可改善高能谱并伴新采集/效率校准，但不提供通用polarimeterQ或零背景保证。报告“确认旧支路”要区分相对γ比例、绝对馈入、同event与共享calibration，不能按同作者/年份合并成独立偏振证据。

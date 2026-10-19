@@ -1,0 +1,8 @@
+{
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.74.045810/fulltext",
+  "status": 401,
+  "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.74.045810/fulltext",
+  "bytes": 66,
+  "sha256": "6d89a6faea29bb005ee2ddee91f0abef979c64285d7d965d1c25e1dc1ccb3bcc",
+  "preview": "{\"errors\":[{\"title\":\"10.1103/PhysRevC.74.045810 not authorized\"}]}"
+}

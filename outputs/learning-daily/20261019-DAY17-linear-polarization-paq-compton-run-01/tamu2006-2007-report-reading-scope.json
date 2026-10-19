@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T20:49:06.444589+00:00",
+  "actual_read": {
+    "progress2006": "PDF17–19 I5–7 Zhai structure/setup andPDF20–22 I8–10 Trache resonances, allmainline/figures/refs",
+    "followup2007": "twoPDFpages I27–28 full/figure/refs"
+  },
+  "fullreport205pages_notread": true,
+  "scope": "three distinctinstitutionalcontributions,2005sample/2006followups;notPRC74045810bodyorZhai2007thesis",
+  "visual": "all3resonancepages/all2followuppages;structurepagesvisual next",
+  "remaining": "absoluteI451/through7.79betaGamma3.95/rawfitCov notgiven;no newindependent calibration inferred"
+}

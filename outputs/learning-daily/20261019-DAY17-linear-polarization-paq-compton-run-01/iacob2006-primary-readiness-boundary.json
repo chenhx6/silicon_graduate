@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T20:43:33.101902+00:00",
+  "doi": "10.1103/PhysRevC.74.045810",
+  "status": "journalbody-not-obtained",
+  "actual_routes": {
+    "APS": "harvest401/pdf403",
+    "TAMUrepository": "handle403/publicAPI403",
+    "arxiv": "exactDOI0;Iacob23Alqueryonlydifferent2009conference",
+    "HAL": "TLS EOF noHTTPstatus",
+    "labdatabase/index": "TLS EOF",
+    "Scholar": "exacttitle/DOIdiscovery onlypublisher; alternateauthorreportactualbody obtained"
+  },
+  "bounded_companion": "TAMU2006–2007 report actual2pages byZhaiandIacob explicitly citesjournal andnew2006runs;notreplacementjournalbody",
+  "remaining": "actualabsolute gammafeed/error/branchinventory andpaper/thesis exactdataset bridge unclosed",
+  "not_inferred": "3.95 from paper vs thesis, sharedCov, sourceauthorspecificcalibrationmistake;noCI"
+}

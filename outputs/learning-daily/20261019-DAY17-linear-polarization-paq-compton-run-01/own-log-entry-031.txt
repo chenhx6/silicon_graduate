@@ -1,0 +1,5 @@
+
+
+## 2026-10-20 Day17 checkpoint031 — γ参考真实run谱系
+
+实际原读TAMU2005–2006 I5–10及2006–2007 I27–28三报告8页，非205页全文/PRC/thesis。核2005与2006两新run/BGO/高能标定、母态γ比、r/Bp与时间label算术；absolute3.95仍保readiness，不强配。verification045通过（0error/235warnings，39changed41mapped），旧claims/review/保护文件保持。main / Recover Al23 gamma reference run lineage from original lab reports；actualhash/H3见publication031。原窗口继续官方exactEC对象，17once/18partial/no19。

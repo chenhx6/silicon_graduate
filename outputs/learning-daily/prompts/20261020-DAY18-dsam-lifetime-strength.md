@@ -113,3 +113,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint030 priming：GADGET新ratio/旧归一
 
 [[friedman-2020-gadget-al23-proton-branch]]OSTI作者稿8页全读，新gasratio.063(.004)仍用旧I866abs/γ馈入来推Bp.0065。F23recommended再复用，两个.24不是独立强度确认；两pad估计stat近独立/共sys是待fullCov核的近似，gas仍需背景/eff模型。旧thesisgamma3.53328对FR20through3.95保分母/版本缺口，不造新CI。仅preview不授18。
+
+
+### Day17 checkpoint031 priming：TAMU真实run谱系
+
+[[tamu-2006-2007-al23-gamma-reference-reports]]三篇共8页原读(非PRC/thesis/205页年报全文)，2005与2006Sep/Nov新run/BGO/highenergycalibration分开；确认相对比不等absolute馈入。旧r=Γp/Γgamma .080→Bp.07407，labelT1/2=10与J04mean10条件算术不闭合保留；不修raw/不倒填3.95。仅preview不授18。

@@ -1,0 +1,45 @@
+{
+  "url": "https://cyclotron.tamu.edu/progress-reports/2005-2006/cyclotron_progress2006.pdf",
+  "status": 200,
+  "bytes": 6581421,
+  "sha256": "e0602d7608a5307c917eb61426e87b7987d9cf777bac7a4930bf3d43ce531f48",
+  "pages": 205,
+  "matched_pages": [
+    {
+      "pdf_page": 2,
+      "text_preview": "TABLE OF CONTENTS \n \n \nIntroduction ...............................................................................................................................................ix \nR.E. Tribble, Director \n \n \nSECTION I:  NUCLEAR STRUCTURE, FUNDAMENTAL INTERACTIONS \nAND ASTROPHYSICS \n \nDouble Folding Analysis of 6Li Elastic and Inelastic Scattering on 116Sn .......................................... I-1 \n \nX. Chen, Y.-W. Lui, H.L. Clark, Y. Toki"
+    },
+    {
+      "pdf_page": 17,
+      "text_preview": "The Structure of 23Al and the Consequences on the  \n22Mg (p, γ) 23Al Stellar Reaction Rate \n \nY. Zhai, V.E. Iacob, T. Al-Abdullah, C. Fu, J.C. Hardy, N. Nica, H.I. Park, G. Tabacaru,  \nC.A. Gagliardi, L. Trache, and R.E. Tribble \n \nThere is interest in the structure of 23Al due to its nuclear astrophysics significance [1,2]. The \nground state spin and parity for 23Al is uncertain, with assignments that include 1/2+, 3/2+ and 5/2+. \nCurrently the "
+    },
+    {
+      "pdf_page": 20,
+      "text_preview": "Decay of 23Al and Resonances in 22Na(p,γ)23Mg at Astrophysically Relevant Energies \n \nL. Trache, V.E. Iacob, Y. Zhai, T. Al-Abdullah, C. Fu, J.C. Hardy, N. Nica, \nH.I. Park, G. Tabacaru, and R.E. Tribble \n \nEfforts were made for a long time to determine the reaction rate for the proton capture reaction \n22Na(p,γ)23Mg, the most credible candidate for depleting 22Na out of the NeNa cycle [1]. Data showed \nearly on that resonant capture plays the ov"
+    },
+    {
+      "pdf_page": 22,
+      "text_preview": "Using the proton branching relative to higher energy peaks measured by [9] and the proton to gamma \nbranchings determined in [10] for the same high energy peaks, we find for this state Γp/Γγ=0.080(17). \nFrom this and the lifetime of the state measured in a recent GAMMASPHERE experiment [5] T1/2=10(3) \nfs, we determine the resonance strength ωγ=2.6(9) meV for this state. This is in reasonable agreement \nwith the value obtained from the direct meas"
+    },
+    {
+      "pdf_page": 23,
+      "text_preview": "Half-Life of 23Al \n \nV.E. Iacob, Y. Zhai, T. Al-Abdullah, C. Fu, J.C. Hardy, N. Nica, H.I. Park, G. Tabacaru,  \nL. Trache, and R.E. Tribble \n \nWe report elsewhere on the decay scheme of 23Al, and its application to nuclear astrophysics [1]. \nAs with any β decay, the spin-parity of this nucleus and of the states in its β-decay daughter, 23Mg, \ndetermine the properties of the observed β transitions between them.  In fact, these spins and parities c"
+    },
+    {
+      "pdf_page": 24,
+      "text_preview": "0\n0.46\n0.91\n1.37\n1.83\n2.29\n2.74\n3.2\n10\n100\n1 .103\n1 .104\ntime [s]\n \nFigure 1. Net versus total γ-spectra observed in the decay of 23Al. Open circles represent the net decay \nspectrum of 23Al as observed in β−γ coincidences; only the two most intense γ-rays (451 and 1600 keV) \nwere used in the selection; the spectrum contains about 1.3×105 events. The solid line represents a scaled-\ndown total γ-spectrum containing contributions from 23Al and its "
+    },
+    {
+      "pdf_page": 180,
+      "text_preview": "Lamia, A. Mukhamedzhanov, R.G. Pizzone, C. Rolfs, G. Tabacaru, and A. Tumino, Eur. Phys. J. A 27, \nSuppl. 1, 249 (2006); DOI: 10.1140/epja/i2006-08-039-0. \n \nBreakup of Loosely Bound Nuclei as Indirect Method in Nuclear Astrophysics: 8B, 9C, 23Al, L. \nTrache, F. Carstoiu, C.A. Gagliardi, and R.E. Tribble, Eur. Phys. J.ournal A, 27, Suppl. 1, 237 (2006); \nDOI: 10.1140/epja/i2006-08-037-2 \n \nStandard-Model Tests with Superallowed β-Decay: Nuclear D"
+    },
+    {
+      "pdf_page": 191,
+      "text_preview": " \nExtracting the ANCs for 23Al → 22Mg+p from the Mirror System 23Ne→ 22Ne+n, T. Al-Abdullah, X. \nChen, H.L. Clark, C. Fu, C.A. Gagliardi, Y.-W. Lui, G. Tabacaru, Y. Tokimoto, L. Trache, R.E. Tribble, \nF. Carstoiu, and S. Piskor, 2005 April Meeting of the APS, Tempa, Florida, (April 2005). \n \nBreakup of Loosely Bound Nuclei as Indirect Method in Nuclear Astrophysics: 8B, 9C, 23Al, L. Trache, \nInternational Conference on Nuclear Physics for Astroph"
+    },
+    {
+      "pdf_page": 204,
+      "text_preview": "November 15 \nMr. Yong Peng, Cyclotron Institute, \nTexas A&M University, College \nStation, Texas \n \nSystematics of Cross Sections for Target K -\nVacancy Production in Heavy Ion Collisions  \nNovember 29 \nMr. Oleksiy Pochivalov, Cyclotron \nInstitute, Texas A&M University, \nCollege Station, Texas \n \nProperties \nof \nIsoscalar \nGiant \nDipole \nResonance in Nuclei  \nNovember 29 \nMr. Tariq Ai-Abdullah, Cyclotron \nInstitute, Texas A&M University, \nCollege "
+    }
+  ]
+}

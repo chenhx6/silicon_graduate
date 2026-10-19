@@ -1,0 +1,4 @@
+{
+  "url": "https://cyclotron.tamu.edu/progress-reports/2005-2006/",
+  "error": "HTTPSConnectionPool(host='cyclotron.tamu.edu', port=443): Max retries exceeded with url: /progress-reports/2005-2006/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+}

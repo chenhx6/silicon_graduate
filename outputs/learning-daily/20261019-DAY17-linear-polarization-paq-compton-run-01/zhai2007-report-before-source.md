@@ -1,0 +1,5 @@
+# TAMU进一步研究报告：开源前角色声明
+
+Iacob2006PRCbody当前未取得（APS401/403、arxivexactDOI0/authorquery只别的会议文、TAMU403、HAL与lab子页TLS失败）；metadata/搜索不作science。新Scholar发现2006–2007 progressreport原publicURL“Further studies ofbeta decay…23Al”，snippet可能称Sep/Nov2006，但未读body，不能当已核新采集。
+
+现在只作为同一gammafeed源链的boundedcompanion读取该确切报告；若可读，核作者/年份/原采集date、与2006paper/2007Zhai thesis关系、是否真正给precisionabsoluteI451/新γbranch与母态/阈值及误差。不能把report冒PRC全文、把后续run当same-data或把报告计划当结果；主卡credit不变。其sourcefacts都回actualreport页，不回snippet。

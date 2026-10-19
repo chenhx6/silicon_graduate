@@ -67,6 +67,7 @@ NSCL150AMeV36Ar碎裂产生23Al，经A1900/RFFS约69%纯度、约2000pps；P10�
 | FR20-14 | F23推荐Bp同时用本.65(.08)%与其新.68(.17)%；本文indirectomega又用J04τ。故FR20omega≈.24和F23recommended≈.24不计两个独立强度确认；两个采集的method差异仍有counter价值。 | cross-source-dependence | direct-primary-synthesis | FR20-10/12；F23-9/11 | true |
 | FR20-15 | 旧thesisFig5.7两γ相对和×.433给3.53328%，本篇采用through-state3.95%，不是同一组printedinventory。需旧gammaoriginal/归一定义才能闭合，未把一个分母迁作另一个或补原Cov。 | denominator-version-boundary | actual-source-crosscheck | SA11-6；exercise old_thesis_gamma_denominator_boundary | true |
 | FR20-16 | 12SHIVAruns的22Na yield/探测距离不确定性为模型输出，非天文检出/另一核branch实验。旧背景更可信与模型张力都是作者解释，原事件/response/fitCov仍未得。 | model-result-and-readiness | direct-author-model | OSTI PDF7；readingscope | true |
+| FR20-17 | 后续实际TAMU三报告8页核2005采集与2006两次新run/高能标定/BGO改进，以及旧母态三γ比；它们未给本3.95(.37)%绝对馈入的完整原表。原PRC/thesis未取，不把后续run全当旧event转载，也不由相对比倒填绝对数值/Cov。 | actual-reference-lineage-and-readiness | direct-institutional-companion | TA07-1/2/3/4/6/7/12 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -87,3 +88,7 @@ NSCL150AMeV36Ar碎裂产生23Al，经A1900/RFFS约69%纯度、约2000pps；P10�
 ## Extracted Pages
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]]、[[saastamoinen-2011-thesis-al23-proton-response]]、[[kirsebom-2016-23mg-dsam-lifetimes]]、[[lifetime-strength-audit-165tm-136nd]]、[[linear-polarization-asymmetry]]。
+
+## γ参考源链的机构原报告补充
+
+[[tamu-2006-2007-al23-gamma-reference-reports]] TA07-1–12原读三个署名报告：2005实验与2006Sep/Nov新runs分开，后者BGO/高能24Al校准改进；不能统称同一批事件或完全独立标定。旧相对三γ比例可核S11转列表，却仍未给本absolute3.95的原完整分母/Σ，原IacobPRC/Zhai thesis未取，不冒source已完整闭合。

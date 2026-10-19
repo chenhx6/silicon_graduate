@@ -2159,3 +2159,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint030 — GADGET ratio/共享绝对参考
 
 完整原读FR20 OSTI作者稿8页/4图/2表，核新gasratio/旧I866abs/γfeed及F23recommended共享。真实打印复算、两估计共sys/rho敏感性和tauendpoint不冒jointCLcanonical，无新实验CI。verification044通过（0error/233warnings，38changed40mapped），旧review/claims/保护文件保持；初版本比较脚本语法失败留档修复。main / Trace GADGET proton ratios and shared absolute reference inputs；actualhash/H3见publication030。原窗口继续准确gammafeed上游，17once/18partial/no19。
+
+
+## 2026-10-20 Day17 checkpoint031 — γ参考真实run谱系
+
+实际原读TAMU2005–2006 I5–10及2006–2007 I27–28三报告8页，非205页全文/PRC/thesis。核2005与2006两新run/BGO/高能标定、母态γ比、r/Bp与时间label算术；absolute3.95仍保readiness，不强配。verification045通过（0error/235warnings，39changed41mapped），旧claims/review/保护文件保持。main / Recover Al23 gamma reference run lineage from original lab reports；actualhash/H3见publication031。原窗口继续官方exactEC对象，17once/18partial/no19。

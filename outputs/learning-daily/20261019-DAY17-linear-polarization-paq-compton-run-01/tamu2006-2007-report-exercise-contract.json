@@ -1,0 +1,20 @@
+{
+  "identity": "TAMU06-07-DOUBLETRATIO-LABEL-01",
+  "pdfs": {
+    "tmp/day17-iacob2006/progress2006.pdf": "e0602d7608a5307c917eb61426e87b7987d9cf777bac7a4930bf3d43ce531f48",
+    "tmp/day17-iacob2006/zhai2007-further-studies.pdf": "9796fab52a78e5f3304fed9d6d34469e8cd67c5e60911dd187c10df8652facbf"
+  },
+  "r_proton_over_gamma": 0.08,
+  "r_scale": 0.017,
+  "printed_time_fs": 10,
+  "printed_time_label": "T1/2",
+  "reported_omega_meV": 2.6,
+  "fixed_J": 3.5,
+  "gamma_ratios": [
+    3.8,
+    100,
+    20
+  ],
+  "hbar_meV_fs": 658.2119569,
+  "no_jointCI": true
+}

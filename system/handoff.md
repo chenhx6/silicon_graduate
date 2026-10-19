@@ -6,19 +6,21 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; GADGET branch checkpoint030
+## Active handoff — DAY17 original window active; TAMU source chain checkpoint031
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–029actualGiteeH3push；formal17仅007后一次/course next18count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
+沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–030actualGiteeH3push；formal17仅007后一次/course next18count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
 
-030实际Friedman2020 PRC101052802作者稿全8页+OSTI/LANL封面/4图/2表/refs，allvisual/表1/2放大；hash96ec0f4a...。arxiv1911.08783v2正文7页归一text同/首页仅Jan2020 vsJuly2021日期不同，非VoR/重复实验。新NSCL gasMICROMEGAS+SeGA ratio .063(.004) vs旧Si.34(.06)；仍采用旧I866abs.41(.01)%和gammafeed3.95(.37)%来推Iβp.0257(.0017)%/daughterBp.0065(.0008)。低p背景疑虑不等旧source全部高能参考失效。
+031Iacob2006PRCbody当前仍未得：APS401/403/TAMUhandleAPI403/arxivexact0/HAL和部分lab页TLS失败，metadata不作science。实际另取TAMU2005–2006年报205页hash e0602d...只读三篇中的I5–7(Zhai结构)、I8–10(Trache共振)共6页；2006–2007 Zhai后续I27–28两页hash9796fa...，8页均完整图refs视觉，不冒整205页或PRC/thesis已读。2007PDFmetadata错沿10B题名，正文23Al身份已核。
 
-两估计A–E .066、A(204/275)×AE(275/866).060，各stat.005/sys.002；作者称stat近独立，共effsys。条件rho0/.5/1合scale.004062/.004770/.005385只是敏感性不估真实rho/改CI；fixedBR/旧τ10/J7/2 omega.24289，τ12endpoint.20241不冒原Table2>.16 jointCL。旧thesisFig5.7两γsum×.433=3.53328% vs新throughstate3.95，原gamma字段/版本/Cov未闭，不强配。F23recommended复用FR20BR/J04tau，两篇.24不计独立强度确认。
+TA07-1–12：2005采集1scollect/177msmove/3.2scount与2006Sep/Nov后续2scount分开，高能counts2x/24Al校准/BGO改进。原I6是futureplan，I27/28是已做result；同组后续不全sameevents，也非全独立response。母态相对三γ3.8/100/20 normalize3.1/80.8/16.2近S11旧表，不提供absoluteI451/FR20through3.95(.37)的原完整Σ。
 
-Gas也有204exponential/linear背景、wall/beamprofile/MCeff与583/595doublet，当前rawpad counts/GEANT4 config/producer/fullCov未得。canonical FR20-1–16/F23-22/SA11-17/method/lifetimeledger/index/report唯一writeback；verification044以actualreceipt为准。main / `Trace GADGET proton ratios and shared absolute reference inputs`为030稳定指针，actualhash/push见publication030/runreceipt。
+旧报告r=Γp/Γgamma .080(.017)混Tighe/Perajarvi，不是directBp；Bp.074074。其labelT1/2=10fs引用J04mean10：mean10/J7/2 givesomega2.5797近报2.6，literalhalf10则1.7881，保打印/单位边界不修raw或叫正式erratum。原spin7/2含旧p/mixing/γpattern解释，不作纯selectionrule。后续报告confirmbranch没有全absolute表，3.95仍readiness不闭。
 
-重建pool下一continuity选实际Iacob2006 PRC74045810 DOI10.1103/PhysRevC.74.045810：FR20采用γfeed3.95(.37)%与I451参考的准确原源/近IASidentity是当前高信息缺口；原body未读，先freeze再exactmetadata/原件，查gamma分母/绝对参考/selection/同Zhai thesis关系，不能从转引补science。GADGET2019instrumentprimary/Fougères thesis仅其它候选不同时打开。publicEVASIONS literalpaperfitnotready已隔离，不大patch/更多toy重造CI。原window约628分钟，15点stop新研究、整日收束齐才goalcomplete。
+canonical新TAMU/FR20-17/method/lifetimeledger/index/report唯一writeback，verification045以actualreceipt为准（旧rowsreview/protected/boundary/lint/diff/artifact）。main / `Recover Al23 gamma reference run lineage from original lab reports`为031稳定指针，actualhash/push见publication031/runreceipt。
 
-保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex且logHEAD+own030。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+下一boundedcontinuity：官方20210123AlEC dataset23012026,23MG(从既有Mg23datasetdiscovery实际已知ID)的exacttext。先freeze，查NR/absoluteγ/βfeeding/uncertainty/sourcekeys、near7787/IAS与2006/2007/thesis版本；不是primarybody替代/新独立实验。需要明确I451与through3.95的来源角色；缺原Cov不拼实验CI。原window约607分钟，15点stop新研究、整日收束齐才goalcomplete。
+
+保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex/logHEAD+own031。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

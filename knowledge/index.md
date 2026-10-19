@@ -650,6 +650,7 @@ updated: 2026-10-20
 - [[fougeres-2023-mg23-velocity-difference-lifetime]] - 新GANIL速度差τ/BRp原件、实际图源和公开衍生event/producer；推荐强度仍假spin。
 - [[evasions-2023-public-release-native-readiness]] - 原公开34文件/真实derivedevent/native边界，区分可读data与完整paperfit。
 - [[friedman-2020-gadget-al23-proton-branch]] - 新gas低p ratio、旧I866/γ馈入与两估计共享误差，强度仍依τ/J。
+- [[tamu-2006-2007-al23-gamma-reference-reports]] - 原三报告的2005/2006run谱系、γ相对比与未闭absolute馈入。
 - [[simdsam-2015-public-dsam-code]] - 原公开2015代码/响应表及原表达式组件；变量、时钟、束斑与exactjob限制。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。

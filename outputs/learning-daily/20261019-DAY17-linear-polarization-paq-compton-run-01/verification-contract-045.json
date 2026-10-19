@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/tamu-2006-2007-al23-gamma-reference-reports.md": 12,
+    "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "tamu2006-2007-report-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "literal_time_label_not_reconciled_by_edit",
+        "absolute_gamma_feed_3p95_not_recovered",
+        "no_new_experimental_branch_tau_spin_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

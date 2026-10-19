@@ -1,0 +1,95 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.74.045810",
+  "status": 200,
+  "sha256": "a59b7e7ae199351cc4c1e76c5f4886e1a7a10ca95102b8330f2dd15c03200886",
+  "title": "β decay of proton-rich nucleus Al23 and astrophysical consequences",
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevc.74.045810",
+      "doi": "https://doi.org/10.1103/physrevc.74.045810",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/physrevc.74.045810",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevC.74.045810",
+      "source": {
+        "id": "https://openalex.org/S4210168441",
+        "display_name": "Physical Review C",
+        "issn_l": "0556-2813",
+        "issn": [
+          "0556-2813",
+          "1089-490X",
+          "1538-4497",
+          "2469-9985",
+          "2469-9993",
+          "2470-0002"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:oaktrust.library.tamu.edu:1969.1/127021",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://hdl.handle.net/1969.1/127021",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400291",
+        "display_name": "OakTrust (Texas A&M University Libraries)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I91045830",
+        "host_organization_name": "Texas A&M University",
+        "host_organization_lineage": [
+          "https://openalex.org/I91045830"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    }
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevC.74.045810",
+    "any_repository_has_fulltext": false
+  }
+}

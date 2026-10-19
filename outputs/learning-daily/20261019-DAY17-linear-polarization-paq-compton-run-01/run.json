@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit actual EVASIONS release inputs and native output contracts",
-    "commit": "6ab2f1bfc677e7222a64f2e027c7404785572dea",
+    "subject": "Trace GADGET proton ratios and shared absolute reference inputs",
+    "commit": "618290726a40ef31dc484b99312cb8627be5f07f",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow;FR20fulloriginal/sharednormalizationcanonical;Iacob2006gammafeedprimarynext;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-044.json",
-  "last_observed_at": "2026-10-19T20:31:35.001632+00:00",
+  "research_status": "active originalwindow;TAMUactualreportsrunlineagecanonical;official23AlECfieldsnext;17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-045.json",
+  "last_observed_at": "2026-10-19T20:52:52.927890+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 38,
+  "canonical_knowledge_changed_pages": 39,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

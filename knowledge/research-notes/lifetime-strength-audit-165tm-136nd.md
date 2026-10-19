@@ -298,3 +298,9 @@ AppendixA明确ROOT5.22/Rebin/ShowBackground/Smooth/150keV数据匹配与Add减�
 两方案.066/.060共享effsys且作者称stat近独立，条件rho0/.5/1合成scale.004062/.004770/.005385，只是敏感性不重报CI。固定新branch/旧τ10/J7/2得omega.24289；τ12端点.20241不复现Table2 joint下界>.16或CL。旧thesis两γprintedsum×.433=3.53328%对本through-state3.95需原gamma源/版本，不强配。
 
 F23推荐又复用本新branch/J04tau，故两篇≈.24不计独立强度确认。真实GADGETcounts/GEANT4setup/fullCov尚未取；后续最高信息是instrumentprimary或准确gammafeedreference，不用更多条件toy填原Σ。
+
+## γ参考谱系：真实后续采集与绝对分母仍有边界
+
+[[tamu-2006-2007-al23-gamma-reference-reports]] TA07-1–12核机构原三报告8页。2005sample/3.2s计数与2006Sep/Nov后续/2s计数、高能统计和24Al标定/BGO不同，后续数据不能全算旧event转载；同设施/效率知识也不自动独立。相对γ比[3.8,100,20]归一3.1/80.8/16.2%近S11旧参考，并未给absoluteI451或FR20through3.95的原表/Σ。
+
+旧报告r=Γp/Γγ .080不能当Bp；Bp=r/(1+r)=.07407。报告字面T1/2=10fs与引用J04mean10标签不闭合：固定mean10得omega2.5797近报2.6，literalhalf10则1.7881，保原文字/算术，不改raw或当正式erratum。原PRC74045810/thesis未取，当前journalreadiness边界明确；下一可查官方exact23AlEC编译的字段/来源，仍不以转载当独立实验。

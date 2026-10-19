@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-19T20:46:25.237507+00:00",
+  "script_sha256": "a05ad5383830f3868d44d22c14fb08acebb3b422cc86891d0052540c7c0e4a84",
+  "contract_sha256": "82894fc49a572dac1041b8c822f5af4f8a34771450e5178460ab98cfc232807f",
+  "proton_over_gamma_r": 0.08,
+  "daughter_Bp_from_r": 0.07407407407407407,
+  "local_scale_from_r_only": 0.014574759945130316,
+  "omega_if_mean10_meV": 2.5797058863413675,
+  "omega_if_literal_half10_meV": 1.7881158617914135,
+  "reported_omega_meV": 2.6,
+  "three_listed_photon_fractions": [
+    0.030694668820678513,
+    0.8077544426494346,
+    0.16155088852988692
+  ],
+  "matches_S11_old_reference_branch_printing": [
+    3.1,
+    80.8,
+    16.2
+  ],
+  "literal_time_label_not_reconciled_by_edit": true,
+  "absolute_gamma_feed_3p95_not_recovered": true,
+  "no_new_experimental_branch_tau_spin_or_CI": true,
+  "ok": true
+}
