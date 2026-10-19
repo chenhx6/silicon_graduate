@@ -24,7 +24,9 @@
   "started_at": "2026-10-19T16:01:17.507247+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
   "completed_day_indices": [],
-  "partial_day_indices": [],
+  "partial_day_indices": [
+    17
+  ],
   "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-20T16:00:00+08:00",
   "last_closeout_snapshot": {
@@ -62,5 +64,12 @@
     "source_pages_opened_before_freeze": [],
     "raw_opened_before_freeze": []
   },
-  "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained"
+  "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
+  "latest_publication": {
+    "subject": "Establish DAY17 polarization calibration evidence and count design",
+    "commit": "68734c5f7ef651b3c245c9b7e4cc587f582e432a",
+    "status": "pushed",
+    "receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-001.json"
+  },
+  "research_status": "active; next matched-array-weight question"
 }

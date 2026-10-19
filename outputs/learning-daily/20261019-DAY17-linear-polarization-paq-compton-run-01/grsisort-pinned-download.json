@@ -1,0 +1,115 @@
+{
+  "repository": "https://github.com/GRIFFINCollaboration/GRSISort",
+  "commit": "6bd3c617cf212158da80918594ba9623fb4137c2",
+  "files": [
+    {
+      "path": "examples/ComptonPolarimetryHelper.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/examples/ComptonPolarimetryHelper.cxx",
+      "status": 200,
+      "sha256": "feeabebf67987b60ca3a8b169feea976870a7ba2d9ec1e482999056a792301be",
+      "git_blob_sha": "72015fa7053d5511ce95b40e7b64ce3c07ac0719",
+      "expected_blob_sha": "72015fa7053d5511ce95b40e7b64ce3c07ac0719",
+      "bytes": 12440,
+      "lines": 199
+    },
+    {
+      "path": "examples/ComptonPolarimetryHelper.hh",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/examples/ComptonPolarimetryHelper.hh",
+      "status": 200,
+      "sha256": "1927d4daed268253f16cc64fc3c1488b5886c1ebd60a0b827c7369b8b390c95a",
+      "git_blob_sha": "a7ac8c43290f8b46f803b3e6e0fbf47547c9a758",
+      "expected_blob_sha": "a7ac8c43290f8b46f803b3e6e0fbf47547c9a758",
+      "bytes": 4897,
+      "lines": 114
+    },
+    {
+      "path": "util/AnalyzeComptonMatrices.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/util/AnalyzeComptonMatrices.cxx",
+      "status": 200,
+      "sha256": "eff0a4099316ccccc86202ecc2e577a5af9d86b88d4b1ff0115a6de4b7e86e4b",
+      "git_blob_sha": "bbd2b7452cef3737291ab12a5ef50d5a797803f1",
+      "expected_blob_sha": "bbd2b7452cef3737291ab12a5ef50d5a797803f1",
+      "bytes": 14948,
+      "lines": 343
+    },
+    {
+      "path": "util/Compton_Scale_Plot.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/util/Compton_Scale_Plot.cxx",
+      "status": 200,
+      "sha256": "ef011abde04415030bec5dd5534ae2766cfa8f36d1ce27bcce8d45d4f7cce090",
+      "git_blob_sha": "b228389dc1d8d2822c31edf7d95cd33bc6294a19",
+      "expected_blob_sha": "b228389dc1d8d2822c31edf7d95cd33bc6294a19",
+      "bytes": 4132,
+      "lines": 90
+    },
+    {
+      "path": "util/LeanAnalyzeComptonMatrices.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/util/LeanAnalyzeComptonMatrices.cxx",
+      "status": 200,
+      "sha256": "f76a79440cbe84b4b1fce1a952341b90bf481d09379b86246152b78ae2c001e6",
+      "git_blob_sha": "c49556313ae23a1e5a9092ff3c6b30cd56819cfc",
+      "expected_blob_sha": "c49556313ae23a1e5a9092ff3c6b30cd56819cfc",
+      "bytes": 30251,
+      "lines": 575
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/README.md",
+      "status": 200,
+      "sha256": "8d5222bac9478f58bb8c289960be96b0bcb1e7f0d4ed96f352418d74a84933fb",
+      "git_blob_sha": "86658a2fac9769802c464100d2aa88007a114468",
+      "expected_blob_sha": "86658a2fac9769802c464100d2aa88007a114468",
+      "bytes": 1629,
+      "lines": 35
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/LICENSE",
+      "status": 200,
+      "sha256": "694d20eabf1bd9383d371f0ec52ca73c1f99a053514d24595b4c336104c247c5",
+      "git_blob_sha": "b7ea7d71b7af4687d78c64767cea25bc1649a4fe",
+      "expected_blob_sha": "b7ea7d71b7af4687d78c64767cea25bc1649a4fe",
+      "bytes": 1064,
+      "lines": 21
+    }
+  ],
+  "read_scope": "Full selected 7 primary files (helper cxx/hh, Analyze/Lean/Scale utilities, README/LICENSE) read; companion TDetector API and CMake dependency lines targeted. Not full GRSISort/GRSIData or actual event/geometry build.",
+  "companion_files": [
+    {
+      "path": "include/TDetectorHit.h",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/include/TDetectorHit.h",
+      "status": 200,
+      "git_blob_sha": "eb4a9a2da16b6fbaf3c36fa3646e73d8fb7ff02a",
+      "sha256": "fed333b5ed941dce9c4a9964e10a1d26046c156dc22fbeef6d0f4450ed7d5361"
+    },
+    {
+      "path": "libraries/TFormat/TDetector.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/libraries/TFormat/TDetector.cxx",
+      "status": 200,
+      "git_blob_sha": "23e75e930577eb9bf326ff921d8df505041e28c9",
+      "sha256": "587785071f83f163d96e1fccc5ec30d3c59d1b991d3e881401ea94fbd572c16a"
+    },
+    {
+      "path": "include/Globals.h",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSISort/6bd3c617cf212158da80918594ba9623fb4137c2/include/Globals.h",
+      "status": 200,
+      "git_blob_sha": "cfa8303c180196e2216fed434b349ea1d28fa32b",
+      "sha256": "c38a0f1ac2ff2a16449a096dc4733bee2eef9c0f05d8a867ecd179c1dd69e7b6"
+    },
+    {
+      "path": "include/TDetector.h",
+      "sha256": "eb1796677c4ef316959e51760aa709082b074943a9189b8d1336959a17129b65",
+      "scope": "targeted API/build lines only"
+    },
+    {
+      "path": "thisgrsi.sh",
+      "sha256": "6469533f40295682fb4d6e22899ba17d2d4b221abe57075ccf90f5793edae9a1",
+      "scope": "targeted API/build lines only"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "837aa54eef075a2115d5067506dd421cba5b36b9f971a127d6b48232425231e6",
+      "scope": "targeted API/build lines only"
+    }
+  ]
+}

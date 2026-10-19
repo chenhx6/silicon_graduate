@@ -1,0 +1,9 @@
+{
+  "input_kind": "declared-response-expectations-not-experimental-array-data",
+  "run_id": "2026-10-19-day-17-01",
+  "clover": {"a": ["19/20", "21/20"], "Q": ["1/10", "3/10"], "reference_weights": ["1/2", "1/2"], "target_weights": ["9/10", "1/10"], "reference_P": "4/5", "target_P": "3/10", "weight_basis": "unpolarized perpendicular efficiency times illumination; not total accepted counts"},
+  "sg98": {"eta": ["9/100", "1/4"], "Q": ["1/25", "3/50"], "reference_weights": ["1/2", "1/2"], "target_weights": ["4/5", "1/5"], "reference_P": "4/5", "target_P": "3/10", "weight_basis": "polarization-independent total photopeak yield under source Eq13"},
+  "physical_polarization_probe_points": ["-1", "-1/2", "0", "3/10", "4/5", "1"],
+  "conditional_ST99_bounds": {"a_min": "19/20", "a_max": "21/20", "pooled_a_min": "99/100", "pooled_a_max": "101/100", "Q_min": "0", "Q_max": "1", "note": "a ranges are source-reported selection ranges, used only under explicitly matching target energy/selection and common P assumptions. Unknown per-detector Q is bounded here by a declared positive-axis response model; no actual Q distribution is inferred."},
+  "sources": [{"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "locator": "ST99-7", "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b"}, {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-4", "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c"}]
+}

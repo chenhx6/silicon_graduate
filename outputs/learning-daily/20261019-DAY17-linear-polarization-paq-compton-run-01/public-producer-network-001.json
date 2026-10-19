@@ -1,0 +1,21 @@
+{
+  "queried_at": "2026-10-19T08:56:07.803734+00:00",
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/GRIFFINCollaboration/GRSISort",
+      "status": 200,
+      "sha256": "ee11538de5e92774359287f6d3f0e6789855ebd0f578e9b7afd242722519df05"
+    },
+    {
+      "url": "https://api.github.com/repos/GRIFFINCollaboration/GRSISort/commits/main",
+      "status": 200,
+      "sha256": "937faa552c57ff44c5150ef5e4e874f27a85286c7136ab9d3ea88fd3adbe192f"
+    },
+    {
+      "url": "https://api.github.com/repos/GRIFFINCollaboration/GRSISort/git/trees/6bd3c617cf212158da80918594ba9623fb4137c2?recursive=1",
+      "status": 200,
+      "sha256": "46185f772f0d9a291eca9a95ffcf132ca3ae3176d5ec3c8ab8e873485eb80e17"
+    }
+  ],
+  "scope": "discovery metadata/tree only; no code/physics read claimed"
+}

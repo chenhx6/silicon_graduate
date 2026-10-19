@@ -1,11 +1,11 @@
-# 同session Day17继续，不创建新run
+# Day17同session继续：checkpoint002之后
 
-run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17。原deadline2026-10-20 15:00上海、15–16收束不改；用户明确持续学习，nativegoalactive。先读当前report与本run最新verification/publication/progress，不重启已停止的旧session/daemon。
+run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究硬截止、15–16收束不改。nativegoalactive，用户已明确恢复/持续学习；Farmer42019复用，无新session/daemon。先核当前clock、runreceipt、progress002与最新verification/publication，再行动。
 
-已冻结本session来源前primed回忆、完整重核ST99十一页/SG98十六页、新联合计数design及canonical六页写回。不是独立盲测、旧Day16 preview不换formal17。当前partial17、课程next17/count16；不因本checkpoint计卡。新结果和script/inputhash在paq-shared-calibration-result.json；首次依赖/模板错误保留。继承dirty/raw/PLAN/Bib/旧review不可动。
+已交付：primed来源前回忆、ST99/SG98原件完整主线、PAQ表/sharedCov计数design、arrayweight精确条件/反例；public GRSISort selected7files完整读/实际组件和原样完整ScalePlot。canonical七页/唯一writeback，不是新实验P/Q/δ；partial17/next17count16，未开18/19。001已actualpush，002结果看publication-002.json，不凭预期认为成功。
 
-下一先完成report/唯一writeback/coverage/保护门检查和显式H3检查点发布；随后冻结新有界问题：同detector array中reference与target权重变化是否破坏合并a/η/Q迁移？用ST99 Fig2/所选18台及SG98 Eq13/12台实际定义限定，推导条件与反例，不能声称原实验发生此偏差。先查已有canonical去重；任何新primitive counts都标design。
+下一同问题有界路线：CMake默认Lean standalone是否能按其真正histogram schema完成输入检查/拟合？现有ROOT6.40.04 MathMore与原Globals.h可用于不改源build。先冻结合同，再跑真实原程序的schema/fitting控制；如果使用declaredhist，标明不是actualdata，也不从默认active62Ga模板推原实验P。核新helper/旧Lean的key与gate/θ选择差别，完整producer/实际TTree/settings/Σ依然缺。不要外部上报、patch第三方或改raw/globalconfig。
 
-局部完成不终止整日：刷新clock、原receipt和候选池后继续高信息路线；只有当前问题饱和才按时间门检查恰好下一张Day18无学分预习，不授18/不打开19。不重复终态URL或同toy堆检查，不将producer/Σ缺口用memory补造。15点停止新研究，最终report/card/knowledge/checks/prompt/receipt/publication齐才formal17一次与goalcomplete。
+局部饱和后刷新候选池与时间门，继续有信息路线；最多只允许恰好Day18无学分预习且不打开19。15点stop新研究，完整report/audit/checks/nextprompt/receipt/H3发布齐才正式17一次及goalcomplete。
 
-Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

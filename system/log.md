@@ -2045,3 +2045,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day17检查点001：原件与共同校准计数设计
 
 同session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17正式17来源前回忆已冻并声明强priming；ST99十一页/SG98十六页完整主线/关键图表式原读。新PAQ表、共同a/η–Q Cov/Fisher/两120000次designMC及改分母非线性反例canonical六页，非实验P/Q/δ或旧检查信用。旧25claim/flags、294打印/threshold/zero/fiterrors边界保留。verification002实际report/唯一writeback六页/coverage/boundary/lint/diff通过，0errors190warnings，PLAN/Bib/recall保护通过；首依赖/模板错误留档。仍active/partial17、next17count16不改，原20日15点截止继续合并权重问题，未开18/19。稳定指针main / Establish DAY17 polarization calibration evidence and count design，精确hash/actualH3/push只本runreceipt；原runnerexit未观察，Farmer42019复用。
+
+
+## 2026-10-19 — Day17检查点002：合并响应与实际publicproducer
+
+同session/原20日15点deadline持续active/partial17，未开18/19/未计17。新arrayweights精确合同、条件界/反例与固定GRSISort/GRSIData selected原件、原样ROOT组件/完整ScalePlot实际compile/run0已canonical七页；CMake默认Lean/secondF/正向energyrole反证保持，不判原实验或全软件失败。四script/结果hash、旧25claim/review/PLAN/Bib/recall保护通过；verification005实际report/唯一writeback七页/coverage/preflight/boundary/lint/diff0、0errors192warnings。原actualdata/geometry/fullbuild/Σ缺口保留，不以软件comment或更多toy代实验。稳定指针main / Audit DAY17 pooled polarimeter response and public producer contracts，精确hash/actualH3/push只runreceipt/publication002；001已actual发布，Farmer42019复用。

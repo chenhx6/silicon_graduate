@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[grsisort-2026-compton-polarimetry-code]] - 固定公开Compton helper/consumer：原样ROOT组件、input消费/事件混合/归一/分组边界；保留默认Lean反证与actualdata缺口。
+
 - [[geant3-vmc-2026-compton-baseline]] - 固定public代码/真实组件MC核验；无偏振callpath、GeV与transportcuts，非GR97原producer。
 
 - [[nndc-2017-99rh-matched-reference-records]] - 六同母态支路、MR/CC空缺与相位无关的参考纯度条件设计。

@@ -1,0 +1,38 @@
+{
+  "repository_commit": "54dfb1d244593a48820142ee20232a12cc959d50",
+  "files": [
+    {
+      "path": "include/TGriffin.h",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSIData/54dfb1d244593a48820142ee20232a12cc959d50/include/TGriffin.h",
+      "status": 200,
+      "sha256": "24865a4512df05ca4a7155ee8a2518d2b20de294b0e76c3ede9a2cb8039d4b79",
+      "git_blob_sha": "f8fc085a0ddad4a4f8a851d6cf10ae8e882abaf5",
+      "lines": 141
+    },
+    {
+      "path": "include/TGriffinHit.h",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSIData/54dfb1d244593a48820142ee20232a12cc959d50/include/TGriffinHit.h",
+      "status": 200,
+      "sha256": "3fa91e812c923a4280660d377da612f0330ca696acbadc1d14eff24685ca9766",
+      "git_blob_sha": "f65de799eed4cb727362149ab1f7074ce858b877",
+      "lines": 92
+    },
+    {
+      "path": "libraries/TGRSIAnalysis/TGriffin/TGriffin.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSIData/54dfb1d244593a48820142ee20232a12cc959d50/libraries/TGRSIAnalysis/TGriffin/TGriffin.cxx",
+      "status": 200,
+      "sha256": "40b00f70e393a4df9e2c5f97fafeaa475295f0f2e7790a2ad8beca7549452f78",
+      "git_blob_sha": "be12a229ca5fc404e9e2cd78ce4a2f0e1ed7f0d2",
+      "lines": 602
+    },
+    {
+      "path": "libraries/TGRSIAnalysis/TGriffin/TGriffinHit.cxx",
+      "url": "https://raw.githubusercontent.com/GRIFFINCollaboration/GRSIData/54dfb1d244593a48820142ee20232a12cc959d50/libraries/TGRSIAnalysis/TGriffin/TGriffinHit.cxx",
+      "status": 200,
+      "sha256": "e3bb8662381167591246fce77806d405fd9f3206c9e3e88d42d1048d02661f42",
+      "git_blob_sha": "c7d00a766903ab13a29edc2f423227087b692ec0",
+      "lines": 169
+    }
+  ],
+  "read_scope": "download/hash only; ordering field targeted reading pending"
+}

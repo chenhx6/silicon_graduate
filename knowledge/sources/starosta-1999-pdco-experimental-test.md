@@ -69,6 +69,7 @@ tags: [PDCO, CLOVER, EUROGAM-II, polarization, DCO, multipolarity]
 | ST99-12 | 原文为490keV两候选预测写alpha_κ=.012/.033（保留其下标，不补成总ICC或在未核定义前指定壳层），不是测得转换系数。E1/M2排除还用Weisskopf/强度上限推得≥4ns、无预期Doppler偏移/展宽及约400ps飞行比较；不是独立直接寿命测量。 | companion-observable-and-model-boundary | direct | printed20–21 Sec4；printed26 conclusion (PDF11) | true |
 | ST99-13 | integrated PDCO缺失立体角/效率修正时作者只主张定性使用；它与四组PDCO、RDCO复用同一主采集而非新增独立实验。Q标定另采集但仍与核polarization模型输入相依；full event/correction covariance未给。 | evidence-independence-boundary | direct-and-self-audit | printed21 Sec5；printed25 conclusion | true |
 | ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |
+| ST99-15 | 18台合并a≈1不单独认证任意target/gate的相同零点或单一线性Q。本任务在共同P与明确perpendicular基线权重下推A_pool=kP/(1+λP)，λ=−Cov_w(a,Q)/(2〈a〉)；单a或单Q可恢复线性，权重迁移另有offset。模型未拟合原逐台响应。 | array-pooling-response-contract | task-derivation-from-source-definition | printed18 Eq3/Eq4；printed21 Fig2与Sec5 | true |
 
 ## Summary
 

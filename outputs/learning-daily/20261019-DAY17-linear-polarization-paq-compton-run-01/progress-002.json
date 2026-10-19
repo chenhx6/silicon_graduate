@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-10-19T17:27:50.397989+08:00",
+  "minutes_to_deadline": 1292.1600335166665,
+  "decision": "continue-current-high-information-route",
+  "previous_goal_turn": "progress: new canonical array-response theorem, actual pinned source/ROOT components and whole Q-scale program",
+  "goal_status": "active",
+  "study_status": "partial17; original window open; no Day18/19",
+  "canonical_paths": [
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "knowledge/sources/grsisort-2026-compton-polarimetry-code.md"
+  ],
+  "current_completed": {
+    "array_exact_contract": "actual exit0, 47 declared exact controls; not experimental measurements",
+    "GRSISort_selected_read": "seven primary files full; API/CMake targeted",
+    "native_components": "compile0/run0; explicit shims and ROOT6.40.04",
+    "whole_ScalePlot": "unmodified complete standalone compile0/run0; role adapter and independent KN-weight/low-energy limit controls0"
+  },
+  "next": "native default Lean standalone build and actual histogram schema/fit-input contract, before adding new scientific source; obtain matching settings/input if possible",
+  "publication_001": "actual pushed 68734c5f7ef651b3c245c9b7e4cc587f582e432a; receipt publication-001.json"
+}

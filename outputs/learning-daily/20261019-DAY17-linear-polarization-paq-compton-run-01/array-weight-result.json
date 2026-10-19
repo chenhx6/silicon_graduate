@@ -1,0 +1,587 @@
+{
+  "run_id": "2026-10-19-day-17-01",
+  "input_kind": "declared-response-expectations-not-experimental-array-data",
+  "generated_at": "2026-10-19T08:51:03.390446+00:00",
+  "input_sha256": "7f3ba04fba34d5fbfaf30325070818c15e0d385a02f49f963213c11ab2d4a6c2",
+  "script_sha256": "4b667eaf74c6f3311b6a20bcac0a26d827471f781d89350b50bdcb26d6177063",
+  "sympy_version": "1.14.0",
+  "source_provenance": [
+    {
+      "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "locator": "ST99-7",
+      "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+      "actual_hash_match": true
+    },
+    {
+      "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "locator": "SG98-4",
+      "raw_sha256": "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c",
+      "actual_hash_match": true
+    }
+  ],
+  "symbolic_results": {
+    "clover_response": "P*(q1*w + q2*(1 - w) + (a1*q1*w + a2*q2*(1 - w) - (a1*w + a2*(1 - w))*(q1*w + q2*(1 - w)))/(2*a1*w + 2*a2*(1 - w)))/(P*(-a1*q1*w - a2*q2*(1 - w) + (a1*w + a2*(1 - w))*(q1*w + q2*(1 - w)))/(2*a1*w + 2*a2*(1 - w)) + 1)",
+    "clover_cov": "-w*(a1 - a2)*(q1 - q2)*(w - 1)",
+    "SG98_affine_response": "((etaU + 1)*(P*dt + c0t) - 1)/sqrt(etaU)"
+  },
+  "design_results": {
+    "clover": {
+      "pooled_null_geometry": {
+        "exact": "1",
+        "decimal": 1.0
+      },
+      "cov_a_Q_perpendicular_basis": {
+        "exact": "1/200",
+        "decimal": 0.005
+      },
+      "matching_response_k": {
+        "exact": "81/400",
+        "decimal": 0.2025
+      },
+      "matching_response_lambda": {
+        "exact": "-1/400",
+        "decimal": -0.0025
+      },
+      "reference_A": {
+        "exact": "81/499",
+        "decimal": 0.1623246492985972
+      },
+      "one_reference_Q": {
+        "exact": "405/1996",
+        "decimal": 0.2029058116232465
+      },
+      "matched_target_P_estimate": {
+        "exact": "5988/19985",
+        "decimal": 0.29962471853890416
+      },
+      "mismatched_target_P_estimate": {
+        "exact": "2217556/7941645",
+        "decimal": 0.27923131794483386
+      },
+      "mismatched_unpolarized_A": {
+        "exact": "1/49",
+        "decimal": 0.02040816326530612
+      },
+      "mismatched_unpolarized_apparent_P": {
+        "exact": "1996/19845",
+        "decimal": 0.10057949105568154
+      },
+      "probe_rows": [
+        {
+          "P": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "pooled_A": {
+            "exact": "-197/1957",
+            "decimal": -0.10066428206438426
+          },
+          "one_reference_apparent_P": {
+            "exact": "-393212/792585",
+            "decimal": -0.49611335061854567
+          },
+          "perdetector_P": {
+            "exact": "-1",
+            "decimal": -1.0
+          }
+        },
+        {
+          "P": {
+            "exact": "-1/2",
+            "decimal": -0.5
+          },
+          "pooled_A": {
+            "exact": "-157/3917",
+            "decimal": -0.04008169517487874
+          },
+          "one_reference_apparent_P": {
+            "exact": "-313372/1586385",
+            "decimal": -0.19753842856557519
+          },
+          "perdetector_P": {
+            "exact": "-1/2",
+            "decimal": -0.5
+          }
+        },
+        {
+          "P": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "pooled_A": {
+            "exact": "1/49",
+            "decimal": 0.02040816326530612
+          },
+          "one_reference_apparent_P": {
+            "exact": "1996/19845",
+            "decimal": 0.10057949105568154
+          },
+          "perdetector_P": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "P": {
+            "exact": "3/10",
+            "decimal": 0.3
+          },
+          "pooled_A": {
+            "exact": "1111/19609",
+            "decimal": 0.056657657198225304
+          },
+          "one_reference_apparent_P": {
+            "exact": "2217556/7941645",
+            "decimal": 0.27923131794483386
+          },
+          "perdetector_P": {
+            "exact": "3/10",
+            "decimal": 0.3
+          }
+        },
+        {
+          "P": {
+            "exact": "4/5",
+            "decimal": 0.8
+          },
+          "pooled_A": {
+            "exact": "287/2453",
+            "decimal": 0.11699959233591521
+          },
+          "one_reference_apparent_P": {
+            "exact": "572852/993465",
+            "decimal": 0.5766202130925598
+          },
+          "perdetector_P": {
+            "exact": "4/5",
+            "decimal": 0.8
+          }
+        },
+        {
+          "P": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "pooled_A": {
+            "exact": "277/1963",
+            "decimal": 0.14111054508405502
+          },
+          "one_reference_apparent_P": {
+            "exact": "552892/795015",
+            "decimal": 0.6954485135500588
+          },
+          "perdetector_P": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        }
+      ]
+    },
+    "sg98": {
+      "pooled_null_geometry": {
+        "exact": "77/468",
+        "decimal": 0.16452991452991453
+      },
+      "arithmetic_eta_not_the_same": {
+        "exact": "17/100",
+        "decimal": 0.17
+      },
+      "matching_response_Qeff": {
+        "exact": "159*sqrt(1001)/100100",
+        "decimal": 0.05025509352866061
+      },
+      "reference_A": {
+        "exact": "159*sqrt(1001)/125125",
+        "decimal": 0.04020407482292849
+      },
+      "one_reference_Q": {
+        "exact": "159*sqrt(1001)/100100",
+        "decimal": 0.05025509352866061
+      },
+      "matched_target_P_estimate": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "mismatched_target_P_estimate": {
+        "exact": "8927/3975",
+        "decimal": 2.2457861635220127
+      },
+      "mismatched_unpolarized_A": {
+        "exact": "16*sqrt(1001)/5005",
+        "decimal": 0.10114232659856223
+      },
+      "mismatched_unpolarized_apparent_P": {
+        "exact": "320/159",
+        "decimal": 2.0125786163522013
+      },
+      "probe_rows": [
+        {
+          "P": {
+            "exact": "-1",
+            "decimal": -1.0
+          },
+          "pooled_A": {
+            "exact": "491*sqrt(1001)/250250",
+            "decimal": 0.062076102949867575
+          },
+          "one_reference_apparent_P": {
+            "exact": "982/795",
+            "decimal": 1.2352201257861635
+          },
+          "perdetector_P": {
+            "exact": "-1",
+            "decimal": -1.0
+          }
+        },
+        {
+          "P": {
+            "exact": "-1/2",
+            "decimal": -0.5
+          },
+          "pooled_A": {
+            "exact": "1291*sqrt(1001)/500500",
+            "decimal": 0.0816092147742149
+          },
+          "one_reference_apparent_P": {
+            "exact": "1291/795",
+            "decimal": 1.6238993710691825
+          },
+          "perdetector_P": {
+            "exact": "-1/2",
+            "decimal": -0.5
+          }
+        },
+        {
+          "P": {
+            "exact": "0",
+            "decimal": 0.0
+          },
+          "pooled_A": {
+            "exact": "16*sqrt(1001)/5005",
+            "decimal": 0.10114232659856223
+          },
+          "one_reference_apparent_P": {
+            "exact": "320/159",
+            "decimal": 2.0125786163522013
+          },
+          "perdetector_P": {
+            "exact": "0",
+            "decimal": 0.0
+          }
+        },
+        {
+          "P": {
+            "exact": "3/10",
+            "decimal": 0.3
+          },
+          "pooled_A": {
+            "exact": "8927*sqrt(1001)/2502500",
+            "decimal": 0.11286219369317063
+          },
+          "one_reference_apparent_P": {
+            "exact": "8927/3975",
+            "decimal": 2.2457861635220127
+          },
+          "perdetector_P": {
+            "exact": "3/10",
+            "decimal": 0.3
+          }
+        },
+        {
+          "P": {
+            "exact": "4/5",
+            "decimal": 0.8
+          },
+          "pooled_A": {
+            "exact": "34*sqrt(1001)/8125",
+            "decimal": 0.13239530551751796
+          },
+          "one_reference_apparent_P": {
+            "exact": "10472/3975",
+            "decimal": 2.6344654088050317
+          },
+          "perdetector_P": {
+            "exact": "4/5",
+            "decimal": 0.8
+          }
+        },
+        {
+          "P": {
+            "exact": "1",
+            "decimal": 1.0
+          },
+          "pooled_A": {
+            "exact": "1109*sqrt(1001)/250250",
+            "decimal": 0.1402085502472569
+          },
+          "one_reference_apparent_P": {
+            "exact": "2218/795",
+            "decimal": 2.789937106918239
+          },
+          "perdetector_P": {
+            "exact": "1",
+            "decimal": 1.0
+          }
+        }
+      ]
+    }
+  },
+  "conditional_ST99_bounds": {
+    "lambda_abs_upper": {
+      "exact": "5/396",
+      "decimal": 0.012626262626262626
+    },
+    "matching_weights_single_reference_P_absolute_bias_upper": {
+      "exact": "10/391",
+      "decimal": 0.02557544757033248
+    },
+    "mismatched_weights_null_A_positive_upper": {
+      "exact": "3/98",
+      "decimal": 0.030612244897959183
+    },
+    "mismatched_weights_null_A_negative_lower": {
+      "exact": "-1/34",
+      "decimal": -0.029411764705882353
+    },
+    "not_experimental_error_budget": true
+  },
+  "checks": [
+    {
+      "name": "clover direct summed counts equal Mobius response",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "common a restores linear response",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "common Q restores linear response",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "matched pooled null zero does not certify linear response",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover one-reference bias exact",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "SG98 direct sum gives affine response",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "SG98 matched unpolarized fraction gives zero offset",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover reference weights normalized",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover target weights normalized",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=-1 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=-1 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover explicit perdetector matched estimator recovers P=-1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=-1/2 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=-1/2 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover explicit perdetector matched estimator recovers P=-1/2",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=0 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=0 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover explicit perdetector matched estimator recovers P=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=3/10 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=3/10 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover explicit perdetector matched estimator recovers P=3/10",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=4/5 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=4/5 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover explicit perdetector matched estimator recovers P=4/5",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=1 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover perdetector correction at P=1 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "clover explicit perdetector matched estimator recovers P=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 reference weights normalized",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 target weights normalized",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=-1 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=-1 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 explicit perdetector matched estimator recovers P=-1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=-1/2 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=-1/2 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 explicit perdetector matched estimator recovers P=-1/2",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=0 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=0 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 explicit perdetector matched estimator recovers P=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=3/10 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=3/10 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 explicit perdetector matched estimator recovers P=3/10",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=4/5 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=4/5 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 explicit perdetector matched estimator recovers P=4/5",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=1 detector=0",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 perdetector correction at P=1 detector=1",
+      "passed": true,
+      "exact_residual": "0"
+    },
+    {
+      "name": "sg98 explicit perdetector matched estimator recovers P=1",
+      "passed": true,
+      "exact_residual": "0"
+    }
+  ],
+  "failed_checks": [],
+  "ok": true
+}

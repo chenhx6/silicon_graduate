@@ -61,7 +61,15 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 两原件实际SHA-256分别为`883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b`、`66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c`，与source元数据一致。raw只读；启动boundary/preflight均exit0，受保护Bib基线matched。
 
-本轮新增ST99-14是source定义与共享校准依赖的有条件推导；SG98-13是改分母的代数反例、SG98-14是原N/ε措辞字典。新claims全needs_review，原25条ST99/SG98 claim行和flags逐字核相同，未设human-reviewed。
+本轮新增ST99-14/15是共享校准/合并响应合同；SG98-13/14/15是改分母、效率字典与合并权重边界。公开GRS26-1–10另按软件对象分层。新claims全needs_review，原25条ST99/SG98 claim行和flags逐字核相同，未设human-reviewed。
+
+### 实际公开producer的证据推进
+
+[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]] GRS26-1–10：固定GRSISort commit6bd3c617cf212158da80918594ba9623fb4137c2、targeted GRSIData54dfb1d244593a48820142ee20232a12cc959d50；七份primary selected文件完整读，API/build targeted读，Gitblob/SHA256核验。原样选定函数body在声明hit/settings/sink和真实ROOT6.40.04中编译0/run0，未做完整build或实验重放。
+
+实际组件观察：newAnalyze不消费secondF（两次均P=.04439854；声明pureE2 oracle=.16662554）；normalizedratio的null点报σ0而明确独立bin设计localσ=.134164；ROOT相邻inclusive分组重叠边界bin；同historymultiset改变跨eventhit index时mixed0/0/1而prompt1/1/1。GRSIData的AddHit/GetHit/FixCrossTalk targeted路径没有自动能量排序来解除该局部条件，但真实DAQ/eventpack影响未恢复。默认CMake含Lean而不含newAnalyze、Lean的secondF消费正确，是必须保留的反证；不将这些局部代码结果判成原实验或整个GRSISort失效。
+
+[pinned manifest](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-pinned-download.json)、[component input](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-component-input.json)、[actual result](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-component-result.json)、[script](../../system/scripts/day17_grsisort_component_audit.py)保存边界。当前tree没有ROOT文件且未得实际配套data/Σ，不宣称全部合法数据入口穷尽；source raw归档槽deferred，原件真实缓存repo tmp/固定URL可重取。
 
 ## Theory/analysis exercise
 
@@ -77,6 +85,20 @@ clover用A=(aN⊥−N∥)/(aN⊥+N∥)；SG98用A=(ηC−S)/(√η(C+S))且C含s
 共同η不自动完全消去；比值中只取消√η，剩余敏感性为C_t/(ηC_t−S_t)−C_r/(ηC_r−S_r)的局部log导数。若改成B=(ηC−S)/(ηC+S)，则B=(1+η)QP/[2√η+(η−1)QP]，一般非线性；此设计沿旧Q得到P=.441961，即使以同一参考重标一点也仅.291999而非真值.300000。符号、数值和适用条件都在canonical，未修改source实验结果。
 
 脚本首次用两个interpreter均缺SymPy（actualexit1），保留[first-execution-failure.json](20261019-DAY17-linear-polarization-paq-compton-run-01/first-execution-failure.json)；随后用已有repo内依赖缓存的per-command PYTHONPATH执行exit0。未安装全局包、未改系统配置；新代码/input/hash、依赖版本与首次成功/补充代数核验结果均保留，不称首次即成功。freeze的时间说明如实区分来源前回忆与执行后查看结果前封存的inputhash。
+
+### 合并权重的新精确结果
+
+[分析前freeze](20261019-DAY17-linear-polarization-paq-compton-run-01/array-weight-freeze.json)、[Rational输入](20261019-DAY17-linear-polarization-paq-compton-run-01/array-weight-input.json)、[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/array-weight-result.json)和[脚本](../../system/scripts/day17_paq_array_weight_contract.py)来自本session下一有界问题，非旧MC重跑。
+
+在共同物理P与明确perpendicular基线权重下，clover合并A=kP/(1+λP)，λ=−Cov_w(a,Q)/(2〈a〉)；所以matched null不自动给单一线性Q。原a范围加声明0≤Q_j≤1、匹配weights时，单参考非线性P绝对偏差的保守界为10/391≈.0255754；不匹配weights的无偏振A条件域为[−1/34,3/98]。在这些额外前提下，仅权重变化不能从P=0产生原centralA=.120，但不构成实验误差预算或δ分支裁决（ST99-15）。
+
+SG98在各台totalphotopeak对P不变、匹配weights时仍严格线性；合并η=(1−c0)/c0，c0=Σv/(1+η_j)，不是η算术均值。不同targetweights可同时产生offset和新斜率，单Q不能消offset。新design targetP=.3在错误迁移时可得到apparentP≈2.24579，逐台正确forward model回到.3；这揭示合同失效，不clip、不冒称原197Pb偏差（SG98-15）。本代数局部已闭合，下一转实际producer/逐台ledger readiness，不再堆同toy。
+
+### 原样完整Q(E)程序与极限核验
+
+GRS26-11/12的[完整程序结果](20261019-DAY17-linear-polarization-paq-compton-run-01/grsisort-q-energy-result.json)与[脚本](../../system/scripts/day17_grsisort_q_energy_audit.py)记录compile/run均0。原plot在fixed1332/Q=.2509下以(E,1332)调用ScaleQ，100/3000keV输出.111820/.445044；按函数自身calibration→target字典正向(1332,E)为.562967/.141449。旧Lean正向调用保留为反证，不将plot问题扩为历史实验Q错误。
+
+原程序uniformθ KN-sensitivity平均与另一个明确声明的KN×dΩ模型不同；低能解析极限分别√2−1与1/2，point90为1。独立积分核通过，但都缺真实geometry/threshold/多散射/Σ；不能拿某个半因子裸换经验Q或把理想平均当detector response。
 
 ## Counter-evidence and missing companion observables
 
@@ -95,36 +117,217 @@ clover用A=(aN⊥−N∥)/(aN⊥+N∥)；SG98用A=(ηC−S)/(√η(C+S))且C含s
 
 ## Durable knowledge delta
 
-本轮六个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；outputs不是唯一知识副本。
+本轮七个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存真实public producer/consumer的固定输入与实际组件结果。outputs不是唯一知识副本。
 
 ```knowledge-writeback
 {
   "status": "updated",
   "items": [
-    {"knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md", "summary": "保存Day17新P/A/Q分层、联合计数/误差设计、改分母非线性与效率归一边界；均为附条件推导。", "anchor": "共同校准如何进入参考比值", "sources": [{"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "locator": "ST99-14"}, {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-13"}, {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-14"}]},
-    {"knowledge": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "summary": "本session完整主线/图表原件复核及共享a/reference/target依赖边界，原claim flags保持。", "anchor": "2026-10-19 Day17独立session的实际复核", "sources": [{"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "locator": "ST99-14"}]},
-    {"knowledge": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "summary": "本session完整原件复核，新增改分母非线性与发射/入射效率字典；原294等边界保持。", "anchor": "2026-10-19 Day17独立session的实际复核", "sources": [{"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-13"}, {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-14"}]},
-    {"knowledge": "knowledge/methods/linear-polarization-asymmetry.md", "summary": "新增共享校准传播与reference独立验证门。", "anchor": "同参考校准的计数与误差门", "sources": [{"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "locator": "ST99-14"}, {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-13"}]},
-    {"knowledge": "knowledge/methods/compton-polarimetry.md", "summary": "新增primitive计数/响应归一与效率分母使用边界。", "anchor": "共同校准与估计量归一的联合设计", "sources": [{"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "locator": "ST99-14"}, {"path": "knowledge/sources/schmid-1998-gammasphere-polarization.md", "locator": "SG98-14"}]},
-    {"knowledge": "knowledge/index.md", "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。", "anchor": "polarimetry-shared-calibration-count-design", "sources": [{"path": "knowledge/sources/starosta-1999-pdco-experimental-test.md", "locator": "ST99-14"}]}
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "保存Day17新P/A/Q分层、联合计数/误差设计、改分母非线性与效率归一边界；均为附条件推导。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。",
+      "anchor": "共同校准如何进入参考比值",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-14"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-15"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-15"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-7"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-11"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "summary": "本session完整主线/图表原件复核及共享a/reference/target依赖边界，原claim flags保持。",
+      "anchor": "2026-10-19 Day17独立session的实际复核",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "summary": "本session完整原件复核，新增改分母非线性与发射/入射效率字典；原294等边界保持。",
+      "anchor": "2026-10-19 Day17独立session的实际复核",
+      "sources": [
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-14"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "summary": "新增共享校准传播与reference独立验证门。 增加公开producer/实际组件与版本反证入口。",
+      "anchor": "同参考校准的计数与误差门",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。",
+      "anchor": "共同校准与估计量归一的联合设计",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-14"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-15"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-15"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-7"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-11"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。",
+      "anchor": "polarimetry-shared-calibration-count-design",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "summary": "固定公开GRSISort/GRSIData、完整selected原件读取及原样ROOT组件；保留Lean默认目标反证和无真实data/Σ边界。 增加原样完整ScalePlot的能量role与平均kernel核验。",
+      "anchor": "条件组件的实际数值与反证",
+      "sources": [
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-3"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-5"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-6"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-7"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-8"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-10"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-11"
+        },
+        {
+          "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+          "locator": "GRS26-12"
+        }
+      ]
+    }
   ]
 }
 ```
 
 ## Open questions and belief revision
 
-下一高信息问题是：逐detector的a/η与Q不同时，合并参考和target的权重差能否引入伪P或改变其符号/幅度？原ST99 Fig2合并a≈1并不单独证明任意target selection匹配；SG98 Eq13也要求总photopeak yield对两pure偏振相同。先冻结预期、明确forward contract，再查原件允许的条件或真实公开输入；不把自由权重toy当原实验偏差证明。
+合并权重的代数条件已由新Rational推导/直接逐台求和闭合，见canonical新段；原ST99/SG98实际逐台ledger仍缺。下一高信息路线转公开sorting/producer：检查其是否保留原始hit类别、逐detector几何/门、背景与response，和能否构造匹配参考/target的真实输入；泛用代码不能自动视为原1998/1999 producer。
 
-完整U/r/t/fit-Cov、P_ref的AD/GOSIA不确定度、逐门响应/producer仍缺。若取得matched holdout失败或target-weight不同的实测ledger，将触发Q迁移和δ幅度判断修订；当前没有这样的观测，不裁决原实验。
+完整U/r/t/逐台权重/fit-Cov、P_ref的AD/GOSIA不确定度、逐门响应/producer仍缺。若取得matched holdout失败或target-weight不同的实测ledger，将触发Q迁移和δ幅度判断修订；当前没有这样的观测，不裁决原实验。
 
 ## L0–L4 state
 
-L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性与最小独立检查设计。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
+L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性、最小独立检查设计与实际producer readiness。原样软件组件为限定版本的实际代码执行，非实验L4。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
 
 ## Verification and continuation
 
 启动boundary和automationpreflight actualexit0；首次lint因新研究笔记缺11个必需heading为exit1，随后补齐并以JSON格式重跑的[lint-001](20261019-DAY17-linear-polarization-paq-compton-run-01/lint-001.json)为exit0、0errors190warnings（137citationkey/50rawslot/3reactionparser）。source旧25claim行/flags实际逐字核相同，raw/PLAN/Bib和继承dirty保留。`git diff --check`当前actualexit0。[verification-002](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-002.json)已实际核report/coverage/唯一writeback六页、boundary/lint/diff均通过，PLAN/Bib/recall与原25claim保护通过；H3与实际push另记本runpublication，未把内容检查当远端发布成功。
 
-原研究窗口仍持续；当前[continuation-current.md](20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md)继续同一session的array-weight问题，不以本检查点终止整日。原生goal仅在原窗口收束与所有交付/验证/发布完成后才标complete；Farmer PID42019确认存活，无pending恢复事件，不承担学习调度或Git。
+原研究窗口仍持续；当前[continuation-current.md](20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md)继续同一session的array-weight问题，不以本检查点终止整日。首检查点main / `Establish DAY17 polarization calibration evidence and count design`已actualH3/Gitee push，精确hash只[publication-001](20261019-DAY17-linear-polarization-paq-compton-run-01/publication-001.json)。新增producer/array/Q(E)本批的验证与发布见后续回执。原生goal仅在原窗口收束与所有交付/验证/发布完成后才标complete；Farmer PID42019确认存活，无pending恢复事件，不承担学习调度或Git。
 
 Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。本轮正文/候选/续接尽量中文；QMD/overview批量刷新deferred。
+
+### checkpoint002实际验收
+
+[verification-005](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-005.json)实际report/唯一writeback七页/partial17 coverage/preflight/boundary/lint/diff通过，均actualexit0，0errors192warnings＝138key/51rawslot/3reactionparser。原25claim/review/PLAN/Bib/recall保护和四script/结果hash通过；新增rawslot/key仅为public软件归档/Bib边界，来源identity/cachehash已核。当前仍在原研究窗口，非Day17整日完成。
+
+本批稳定指针main / `Audit DAY17 pooled polarimeter response and public producer contracts`；精确hash及实际H3/push只本runpublication-002，原已发布001继续有效。

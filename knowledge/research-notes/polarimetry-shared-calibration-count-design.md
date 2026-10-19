@@ -171,7 +171,7 @@ SG98-14的原文字典需带到任何F比较：printed100 Eq13将N写成source�
 
 ## Open Questions
 
-当前缺真实逐detector/gate的U、reference、target净峰/背景ledger与Σ，以及Q/P_ref/AD的共同依赖。下一高信息问题是合并detector的a/η是否因参考与target权重不同而迁移失败；应先从原件允许的响应合同及真实可取得输入设计验证，不用更多同模型MC代替它。
+当前缺真实逐detector/gate的U、reference、target净峰/背景ledger与Σ，以及Q/P_ref/AD的共同依赖。合并detector的a/η/Q迁移条件已在下方新段以原合同和Rational设计明确；实际逐台/gate ledger仍缺，下一核公开producer输入，不用更多同模型MC代替它。
 
 ## Human Review
 
@@ -192,3 +192,71 @@ PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps python3 system/scripts/day
 依赖NumPy/SymPy；该路径是现有repo内依赖缓存，未修改系统配置。首次两个interpreter均缺SymPy的实际失败见同run的`first-execution-failure.json`；不能称首次执行即成功。缓存可重建，核心公式/输入/代码已在持久层；脚本不重放Day16的旧检查。
 
 P1 self-audit：`supports`直接从primitive counts保留共同校准；`revises`只要重标一点就可随便更换A归一的直觉；`limits`F或√count对高背景实际P精度的保证。新分析均为`our-inference`/声明模型、`source_independence: multiple-dependent`、`needs_review: true`；没有新增实验δ/Jπ/P/Q或human-review。晋升待实际matching-response/Σ输入。
+
+## 探测器合并：匹配零点仍不保证一个线性Q
+
+ST99-7/15原printed21/Fig2给所选18台单台a∈[.95,1.05]、合并a∈[.99,1.01]且取a=1；SG98-4/15原Eq13和printed106给12台C/S合并。下面是分析前另冻问题后完成的**声明response模型**，没有原逐台illumination、Q或Σ，不能当原阵列发生偏差的证据。共同物理P（同一偏振坐标、兼容方向和gate）是额外假设；一般array的P_j不同须逐台forward model，不适用以下单P缩写。
+
+### Clover：原始垂直效率权重下的精确合并
+
+取X_j=ℓ_j e⊥,j(1+Q_jP)、Y_j=ℓ_j e∥,j(1−Q_jP)，a_j=e∥,j/e⊥,j。定义w_j∝ℓ_j e⊥,j，归一Σw_j=1；它是**无偏振perpendicular基线权重**，不是总accepted counts或γ强度Iγ。令ā=〈a〉、q̄=〈Q〉、c=Cov_w(a,Q)。若U、reference和target均匹配这个w，合并U给a_U=ā，直接合并原始计数再校正得到
+
+\[
+A_{\rm pool}(P)=\frac{kP}{1+\lambda P},\qquad
+k=\bar Q+\frac{c}{2\bar a},\qquad
+\lambda=-\frac{c}{2\bar a}.
+\]
+
+即使A_pool(0)=0，也不保证A_pool/P为常数。若各a相同、各Q相同，或恰好c=0，则恢复线性；这是可检验的充分条件，不是原论文已测c=0。用单一P_r标Q_r=A_pool(P_r)/P_r后，
+
+\[
+\widehat P_t=P_t\frac{1+\lambda P_r}{1+\lambda P_t}.
+\]
+
+在共同w、a与Q的范围及单P假设成立时，Cauchy–Schwarz与有界变量方差给出Grüss界：c的绝对值不超过(a_max−a_min)(Q_max−Q_min)/4。**额外取0≤Q_j≤1、ā≥.99**，源a范围条件下λ绝对值≤5/396≈.0126263；对P_t、P_r∈[−1,1]且参考非零/response非零，单参考非线性引起的P绝对偏差≤10/391≈.0255754。这是保守数学界，不是实验systematic σ、置信区间或完整calibration预算；若权重不匹配，该界不约束总偏差。
+
+若target为P=0但w_t与U不同，其a_eff仍只是a_j的凸平均，原a_U∈[.99,1.01]和a_eff∈[.95,1.05]给
+
+\[
+-1/34\ \le A_{\rm false}(0)=\frac{a_U-a_{\rm eff}}{a_U+a_{\rm eff}}\le3/98.
+\]
+
+因此在这些**无背景/同a范围/同选择**前提下，单纯权重迁移不能从P=0生成ST99 printed21的A中央值+.120；它不排其它systematics，不计算实验概率，也不选490-keV的δ分支。
+
+新两台design取a=(.95,1.05)、Q=(.10,.30)、w_U=w_r=(.5,.5)，有ā=1、c=.005、k=.2025、λ=−.0025。P_r=.8、P_t=.3时，matching-w的一点标定给P̂=.2996247；若仅target改w_t=(.9,.1)，P̂=.2792313；此选择的无偏振target也会给A=.0204082，沿Q_r得apparentP=.1005795。数字不是原18台的数据或实际偏差估计。
+
+### SG98：photopeak权重下的线性与offset
+
+每台依Eq13取总photopeak均值n_j对P不变，v_j=n_j/Σn_j；
+
+\[
+\frac{C_j}{n_j}=\frac{1+\sqrt{\eta_j}Q_jP}{1+\eta_j},\qquad
+S_j=n_j-C_j.
+\]
+
+令c0(v)=Σv_j/(1+η_j)、d(v)=Σv_j√η_jQ_j/(1+η_j)。匹配U权重v_u时η_U=[1−c0(v_u)]/c0(v_u)，**不是**η_j的算术平均。用这个η_U处理target，
+
+\[
+A_t(P)=\frac{(1+\eta_U)c0(v_t)-1}{\sqrt{\eta_U}}
++\frac{(1+\eta_U)d(v_t)}{\sqrt{\eta_U}}P.
+\]
+
+若v_t=v_u，则offset为0且响应严格线性；若权重变，offset通常不为0，同时斜率也变。只校Q不能消除offset。不同物理P_j、偏振相关totalacceptance或不同threshold需要完整response，不能从该式自动认证。
+
+新design取η=(.09,.25)、Q=(.04,.06)、v_u=v_r=(.5,.5)，有η_U=77/468≈.1645299而算术均值为.17，Q_eff≈.0502551。匹配v时reference P_r=.8与target P_t=.3准确回到.3；target改v_t=(.8,.2)则P̂≈2.24579，P=0也给apparentP≈2.01258。所有逐台类别均非负；这些越界估计揭示错误迁移的设计反例，不能clip成物理P=1或称源197Pb结果失效。
+
+### 本问题的核验、复用与停止边界
+
+[array-weight-input.json](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/array-weight-input.json)、[exact script](../../system/scripts/day17_paq_array_weight_contract.py)、[result](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/array-weight-result.json)保存Rational输入、直接逐台求和与闭式恒等式、P∈{−1,−.5,0,.3,.8,1}的正计数/逐台校正恢复控制。没有额外MC或实际事件；新分析与先前计数MC不计作独立实验。
+
+此代数局部已解决“合并null接近1是否足够”的问题。真正提高原实验判断信息的下一输入是逐detector/gate的基线权重、参考/target共同坐标及Q_j/η_j、背景/Σ/producer。取得这些输入前，不继续扫同一toy或把条件上界当实测校正；可转向实际公开sorting/producer的readiness核验。
+
+### 实际公开producer的后续输入门
+
+[[grsisort-2026-compton-polarimetry-code]] GRS26-1–10已按固定commit/双hash核所选原件并执行原样组件。取得了Compton双hit/第三γ、ξ/θ、10-history mixed和归一consumer的实际路径，但没有真实ROOT/TTree、逐detector reference/targetledger与Σ。源newAnalyze/默认Lean并非同一path；已复现的index/secondF/normalizederror/bin边界需按该版本限定，不外推原ST99/SG98。
+
+当前缺口已从“是否有公开producer”收窄为“能否取得matching actualdata/执行版本和统计结构”。下一个有信息增益的动作是检验对应构建路径、实际settings与输入basis或合法公开数据入口；不是再用合并权重toy取代真实证据。
+
+### Q(E)角色与接受权重不能被一个同能量点认证
+
+GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target角色与plot循环传参反向；1332→1332的回代会掩盖反转，旧Lean正向调用是版本反证。源码均匀θ的单次Σ平均与KN×dΩ加权也不同；E→0分别√2−1和1/2、point90为1。该数学/程序结果说明Q必须连同role、平均kernel与经验半因子定义保存，不将一个理想平均或代码comment Q=.2509认成matching实验response。

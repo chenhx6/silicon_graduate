@@ -68,6 +68,7 @@ tags: [Gammasphere, segmented-Ge, polarization, detector-response, 197Pb]
 | SG98-12 | 作者的约36%是其purehighspin-dipole/maximumalignment比较条件，不是任意conditionalgamma的通用physicalP上限；通用|P|≤1和具体spin/mixing/selection界分开。Table3中央值越过36%不能自行夹值或改误差，也不能无条件据符号给唯一Jpi。 | physics-versus-analysis-boundary | direct-and-self-audit | printed106 Sec6.2；printed108 Fig14与正文；printed109讨论 | true |
 | SG98-13 | 在Eq13条件下，原A=(ηC−S)/(√η(C+S))线性于P；若改成B=(ηC−S)/(ηC+S)，代数给B=(1+η)QP/[2√η+(η−1)QP]。除特殊/局部极限，重标一条reference仍不能取得对任意P通用的线性Q；这是本任务推导，不是源实验更正。 | observable-normalization-counterexample | task-derivation | printed100 Eq13；printed101 Eq15/Eq16 | true |
 | SG98-14 | Eq13邻文将N称source总发射γ数，Eq18邻文将Ni称incidentγ数；传统εc为coincidence、双分段ε为photopeak。做F比较需明确source/incident/接受角的归一字典，而不能把relativeNaI、本征或条件效率裸替；本任务未认证实际photon ledger。 | efficiency-normalization-boundary | direct-and-self-audit | printed100 Eq10/Eq11/Eq13；printed101 Eq18；printed104 Table2 | true |
+| SG98-15 | 本任务按Eq13/15的逐台P不变总photopeak前提推合并η=(1−c0)/c0、c0=Σv/(1+η_j)，不是算术平均。U/reference/target权重匹配时仍线性；target权重变化一般给offset+斜率，单Q校准不能消offset。原12台逐门ledger未得，不认定原Pb应用有此偏差。 | array-pooling-response-contract | task-derivation-from-source-definition | printed100 Eq13；printed101 Eq15；printed106 Sec6.1 | true |
 
 ## Summary
 

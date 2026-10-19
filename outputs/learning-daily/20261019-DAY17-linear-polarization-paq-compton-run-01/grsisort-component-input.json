@@ -1,0 +1,13 @@
+{
+  "input_kind": "declared-component-controls-not-experimental-data",
+  "repository_commit": "6bd3c617cf212158da80918594ba9623fb4137c2",
+  "source_hashes": {"examples/ComptonPolarimetryHelper.cxx": "feeabebf67987b60ca3a8b169feea976870a7ba2d9ec1e482999056a792301be", "examples/ComptonPolarimetryHelper.hh": "1927d4daed268253f16cc64fc3c1488b5886c1ebd60a0b827c7369b8b390c95a", "util/AnalyzeComptonMatrices.cxx": "eff0a4099316ccccc86202ecc2e577a5af9d86b88d4b1ff0115a6de4b7e86e4b"},
+  "controls": [
+    {"name": "F.Jf.Jx dependency", "first_coefficients_from_legacy_Co60_template": [-0.1707, 0.5051, 0.4482, -0.0085, 0.0627, -0.0297, 0, 0, 0, 0, 0, 0], "second_coefficients_from_legacy_Co60_template": [-0.5976, 0, 0, -1.069, 0, 0, 0, 0, 0, 0, 0, 0], "second_control_coefficients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "mixing1": 0, "mixing2": 0, "L2": 2, "theta_degrees": 90, "boundary": "tests function input consumption and an explicit pure-E2 point-form oracle, not a physical calibration or actual Q"},
+    {"name": "normalized-histogram null uncertainty", "prompt_bin": 100, "prompt_total": 1000, "mixed_bin": 100, "mixed_total": 1000, "boundary": "independent Poisson-bin design with each total including its own bin; real mixed-event reuse covariance is unknown"},
+    {"name": "ROOT grouped bin intervals", "bins": 180, "minimum": 0, "maximum": 180.000001, "adjacent_group_edges": [0, 2, 3], "boundary": "use actual ROOT FindBin/Integral inclusion; no fit to experimental xi histogram"},
+    {"name": "mixed-event independent list-index veto", "current_hits": [[800, 1, 0, 1], [373, 1, 1, 2], [1332, 2, 0, 5]], "previous_hit_multiset": [[1332, 2, 0, 5], [100, 3, 0, 9], [200, 4, 0, 13]], "valid_history_hit_index_probes": [0, 1, 2], "boundary": "original Exec body with declared minimal hit and histogram shims plus real ROOT TVector3; these API order controls are not a complete GRSISort build or an attested event-order distribution"}
+  ],
+  "execution_scope": "exact selected function bodies and source expressions; preserve upstream code; no upstream patch or external message",
+  "validation": "compare direct component outputs with independent dependency/normalization/binning/identity expectations; a reproduced source limitation is a result, not a reason to tune inputs"
+}

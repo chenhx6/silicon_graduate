@@ -1,0 +1,114 @@
+{
+  "run_id": "2026-10-19-day-17-01",
+  "input_kind": "declared-component-controls-not-experimental-data",
+  "input_sha256": "d055a930e65a06dbd56f75ce3485c01ae32e84a2edfa6fb10da3bb090984fc51",
+  "script_sha256": "68ae8a15f93840767c7381e9ba978f701544dfcd26361eb0dadbdd9e57431b46",
+  "repository_commit": "6bd3c617cf212158da80918594ba9623fb4137c2",
+  "compile": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O1",
+      "/workspace/wiki/tmp/day17-grsisort/component-build/audit.cxx",
+      "-o",
+      "/workspace/wiki/tmp/day17-grsisort/component-build/audit",
+      "-pthread",
+      "-std=c++17",
+      "-m64",
+      "-fsized-deallocation",
+      "-I/opt/root/include",
+      "-L/opt/root/lib",
+      "-lCore",
+      "-lImt",
+      "-lRIO",
+      "-lNet",
+      "-lHist",
+      "-lGraf",
+      "-lGraf3d",
+      "-lGpad",
+      "-lROOTVecOps",
+      "-lTree",
+      "-lTreePlayer",
+      "-lRint",
+      "-lPostscript",
+      "-lMatrix",
+      "-lPhysics",
+      "-lMathCore",
+      "-lThread",
+      "-lROOTNTuple",
+      "-lROOTNTupleUtil",
+      "-lMultiProc",
+      "-lROOTDataFrame",
+      "-Wl,-rpath,/opt/root/lib",
+      "-pthread",
+      "-lm",
+      "-ldl",
+      "-rdynamic",
+      "-lMathMore"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "generated_cpp_sha256": "f849343877f6e6491db8299b5887cd76a06b9ef2536bd45fe37a32b27fe42c32",
+  "extracted_components": {
+    "Exec_sha256": "538898965f0c8dc1c1937a3dc6043688c8f27a241e3c7223c79ec40a06c0b98d",
+    "time_energy_predicates_sha256": "ea6a7427c3c786a730db32adcf5a2f74708c0dd9cc3f91e22292401ca372f1de",
+    "polarization_functions_sha256": "fd44e5789f96cf1064ebac448d92450129a2ac93e3fd6bc24de6b84f5f0ddb0c",
+    "error_expression_sha256": "8acd973652757977dbd60d0174aa64902ee87a7ae6ba8fce811386b042e35edf"
+  },
+  "scope": "unmodified selected source bodies with declared minimal hit/settings/histogram sinks; real ROOT mathematics/histogram/bin behavior; not full GRSISort build, actual geometry or experimental data",
+  "binary_sha256": "0a879717f351ba4232989d60ccb28570251cf7f0cc0e68ab9b6e2c10c3843ccc",
+  "root_version": "6.40.04",
+  "execution": {
+    "exit_code": 0,
+    "stdout": "POL 0.044398541556595401 0.044398541556595401 0.16662553865007951\nERROR 0 0 0.13416407864998739\nBINS 1 2 3 2 2\nMIX 0 1 0\nMIX 1 1 0\nMIX 2 1 1\n",
+    "stderr": ""
+  },
+  "observed": {
+    "POL": [
+      0.0443985415565954,
+      0.0443985415565954,
+      0.1666255386500795
+    ],
+    "ERROR": [
+      0.0,
+      0.0,
+      0.1341640786499874
+    ],
+    "BINS": [
+      1.0,
+      2.0,
+      3.0,
+      2.0,
+      2.0
+    ]
+  },
+  "mixed_history_index_probes": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      2.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "component_observations": {
+    "second_F_input_does_not_change_original_output": true,
+    "source_literal_differs_from_declared_pure_E2_oracle": true,
+    "null_source_literal_error_is_zero_but_design_variance_positive": true,
+    "adjacent_inclusive_groups_overlap_boundary_bin": true,
+    "mixed_selection_depends_on_distinct_event_list_index": true,
+    "same_event_prompt_control_unchanged": true
+  },
+  "ok": true,
+  "generated_at": "2026-10-19T09:07:54.060214+00:00"
+}

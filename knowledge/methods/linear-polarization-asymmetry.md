@@ -18,6 +18,8 @@ tags: [multipolarity, electric-magnetic-character]
 
 SG98若把分母√η(C+S)改为ηC+S，则B=(1+η)QP/[2√η+(η−1)QP]；一般已不是线性A=QP，重标一条reference也不足以使单一Q对所有P通用。旧Q及source/Table3的判断不能跟着名称裸迁。最小独立检查需一条未参与Q拟合、且P/门/response可追溯匹配的支路，另带背景和共同校准信息。
 
+实际consumer也须核归一统计：[[grsisort-2026-compton-polarimetry-code]] GRS26-7/8在固定newAnalyze/ROOT组件中复现A_CE=1−normalizedratio的null零误差、分组重复边界bin；真实mixed复用/共同norm仍需Σ。不能用软件字段或同nominalQ替代对实际执行path的验证；默认Lean与newAnalyze版本差别见GRS26-6。
+
 ## Purpose
 
 利用分段 HPGe/Clover 的 Compton 散射方位分布判断跃迁的电或磁性质。

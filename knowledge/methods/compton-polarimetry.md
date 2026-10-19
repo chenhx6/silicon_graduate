@@ -18,6 +18,12 @@ tags: [compton-scattering, linear-polarization, detector-response, parity]
 
 SG98改用balanced-denominator会令响应非线性于P，重标一条线仍不等于修复线性Q合同。F比较需同时给出发射/入射/接受角与photopeak/coincidence效率字典；原Eq13/18邻文不同N措辞不能默认为同一个用户数据分母。必要的独立检查支路应留在Q拟合之外，并核P来源、门、能量/阈值、arrayselection及Σ。
 
+同note“探测器合并”按ST99-15/SG98-15限定：clover在共同P和perpendicular基线权重下，a_j与Q_j相关可使合并A成为kP/(1+λP)，匹配null不够；双分段在photopeak权重匹配时仍线性，但合并η不是算术平均，target权重改变一般引入offset。新Rational反例/条件界不估原阵列偏差，真实迁移仍需逐台/gate权重、Q/η/Σ及共同坐标。
+
+[[grsisort-2026-compton-polarimetry-code]] GRS26-1–10提供实际公开helper/consumer路径：当前固定组件复现mixed跨event索引依赖、newAnalyze未消费secondF和null零误差/重叠bin。默认CMake含Lean而非newAnalyze、Lean又正确消费secondF，是必要版本反证；这些不判历史实验失效。真实ROOT6.40.04组件不等完整GRSISort/GRSIData或actualresponse，A_CE=1−normalizedratio及.5QPcos2ξ也不裸换成ST99/SG98计数式。
+
+同source GRS26-11/12实际原样完整ScalePlot与函数适配器核calibration→target能量角色；同能量回代掩盖倒数反转。原uniformθ平均、声明KN×dΩ平均与point90 response在E→0分别为√2−1、1/2、1，不可据某个2因子裸改经验Q归一；真实geometry/threshold/多散射与Cov仍须匹配输入。
+
 ## Purpose
 
 Compton polarimetry infers the linear polarization of gamma rays from the azimuthal dependence of Compton-scattering events. The scattering plane is correlated with the incident electric-field direction through the Klein-Nishina cross section.

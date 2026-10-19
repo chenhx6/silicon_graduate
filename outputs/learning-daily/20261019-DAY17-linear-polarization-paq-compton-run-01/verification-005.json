@@ -1,0 +1,124 @@
+{
+  "captured_at": "2026-10-19T09:28:58.444791+00:00",
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      17
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 17,
+    "error": null
+  },
+  "preflight": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_automation_preflight.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 192,
+      "info": 2598
+    },
+    "errors": [],
+    "warning_codes": {
+      "REACTION_PARSE": 3,
+      "CITATION_KEY_MISSING": 138,
+      "RAW_MISSING": 51
+    }
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "starosta-1999-pdco-experimental-test": {
+    "all_original_rows_unchanged": true,
+    "original_count": 13,
+    "current_count": 15,
+    "review_status_unchanged": true
+  },
+  "schmid-1998-gammasphere-polarization": {
+    "all_original_rows_unchanged": true,
+    "original_count": 12,
+    "current_count": 15,
+    "review_status_unchanged": true
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "artifact_hash_checks": {
+    "day17_paq_shared_calibration.py": {
+      "ok": true,
+      "script_hash_match": true
+    },
+    "day17_paq_array_weight_contract.py": {
+      "ok": true,
+      "script_hash_match": true
+    },
+    "day17_grsisort_component_audit.py": {
+      "ok": true,
+      "script_hash_match": true
+    },
+    "day17_grsisort_q_energy_audit.py": {
+      "ok": true,
+      "script_hash_match": true
+    }
+  },
+  "active_recall_unchanged": true,
+  "ok": true
+}
