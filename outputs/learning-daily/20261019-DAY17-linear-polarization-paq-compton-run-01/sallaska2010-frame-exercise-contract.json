@@ -1,0 +1,16 @@
+{
+  "identity": "S10-LITERAL-FRAME-BRIDGE-01",
+  "hashes": {
+    "tmp/day17-sallaska2010/v1-shortpaper_final1.tex": "c612635510161eca08677140a1d61774c8313d463168e4b5db2160aa81c4512a",
+    "tmp/day17-sallaska2010/v2-shortpaper_final1.tex": "2b47d3447e0f18f99c28528ded480277f0aa4b1f14d3671bb59e16f825354413",
+    "tmp/day17-sallaska2010/source-v1.payload": "ea63db907f093891e2a0723c43fcf062e47dfcf2b90934a446a640c869b40924",
+    "tmp/day17-sallaska2010/source-v2.payload": "6fcec3289480492014fa24e723a13f7fb0caf4ade1c2dfc0c39247ade2bb0f3d",
+    "tmp/day17-sallaska2010/sallaska2010-arxiv-v1.pdf": "dad6eb649ac090555938c5fa60cbd18c9e0e5d8877a8f3c7234de6330f8625aa",
+    "tmp/day17-sallaska2010/sallaska2010-arxiv-v2.pdf": "e004080c48c26d3de6f6b611ddb7d121b655e9fa96477f9956e1c26c5ebbe090",
+    "tmp/day17-sallaska2011/source-longpaper_accepted.tex": "01c548ae4889181a5e21a750e26877de8c2c88a355f35e12f7916c9716694543"
+  },
+  "declared_projectile_mass_units": 1,
+  "declared_target_mass_units": 22,
+  "declared_lab_energy_units": 213.4,
+  "boundary": "declaredmassnumberNR only; no actual producer/erratum content or rescale"
+}

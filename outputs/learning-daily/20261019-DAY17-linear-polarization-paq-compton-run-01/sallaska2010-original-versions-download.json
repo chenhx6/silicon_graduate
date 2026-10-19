@@ -1,0 +1,46 @@
+[
+  {
+    "version": 1,
+    "url": "https://arxiv.org/pdf/1008.4170v1",
+    "status": 200,
+    "bytes": 208371,
+    "sha256": "dad6eb649ac090555938c5fa60cbd18c9e0e5d8877a8f3c7234de6330f8625aa",
+    "pages": 4,
+    "file": "tmp/day17-sallaska2010/sallaska2010-arxiv-v1.pdf",
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "LaTeX with hyperref package",
+      "producer": "dvips + GPL Ghostscript GIT PRERELEASE 9.22",
+      "creationDate": "D:20220616201943-04'00'",
+      "modDate": "D:20220616201943-04'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "version": 2,
+    "url": "https://arxiv.org/pdf/1008.4170v2",
+    "status": 200,
+    "bytes": 208868,
+    "sha256": "e004080c48c26d3de6f6b611ddb7d121b655e9fa96477f9956e1c26c5ebbe090",
+    "pages": 4,
+    "file": "tmp/day17-sallaska2010/sallaska2010-arxiv-v2.pdf",
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "LaTeX with hyperref package",
+      "producer": "dvips + GPL Ghostscript GIT PRERELEASE 9.22",
+      "creationDate": "D:20181030084321-04'00'",
+      "modDate": "D:20181030084321-04'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  }
+]

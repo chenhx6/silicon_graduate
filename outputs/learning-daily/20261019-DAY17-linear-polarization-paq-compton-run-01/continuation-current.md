@@ -1,17 +1,15 @@
-# Day17同session继续：checkpoint024之后
+# Day17同session继续：checkpoint025之后
 
-## Active handoff — DAY17 original window active; S11 primary checkpoint024
+## Active handoff — DAY17 original window active; Letter frame checkpoint025
 
-沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–023actualGiteeH3push；formal17只007后一次，course next18/count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
+沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–024actualGiteeH3push；formal17只007后一次，course next18/count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
 
-024实际原读arxiv1009.3925v2 Sallaska2011全部20页/18图/6表/7式，全部页视觉+10/16/18高分核；PDF2022/date-today与2011v2分开，VoR未得。source/白名单texhash保持；2010PRL+erratum/学位论文自称同研究，尚未原读/不计独立采集。
+025新原读2010Letter arxiv1008.4170v2四页/1式/1表/2图全主线+视觉，v1targetedsource/text/table/figurecomparison非独立盲读。source两texdate-today，PDF2018/2019再生不当新测量。Eq1/TableI texexact同，rateEPS同；v2新增branches句/refstatus，spectraEPS不同按作者labels变化不认证原events。2011四finite强度/误差同源，不计重复实验。
 
-S11-1–20 canonical及M23-16/K16-22/methods/auditledger/index/report唯一writeback。完整积分/均匀raster照满target减少finiteabsolute-stopping依赖，但weaktemplateCu stopping ratio、TRIMenergy修20%与213tail10(5)%total仍有response。NT不能仅in-situ活动度追踪溅射仍附近；ρb coin/solid与MC约束共享；跨能eff同Co/reference不当独立。Point55°P2近0不去P4/接受/boost，作者另3%angular。
+Letter字面lambdaLab²*r、2011Eq4定义CMlambda²*r。新NR条件推导/quad核：lambdaCM²=r²lambdaLab²，Lab积分系数lambdaLab²*r³；质量数1/22控制r²1.092975，不是实际mass/producer/实验重标，也不能解释2.4–3.2倍争议。正式Erratum105209901准确9Nov2010，但body未得（APS401/403/公开发现403，ADS30s超时，Scholar0），Sepv2关联DOI不等含Nov更正，不猜勘误改frame/branch/科学数据。232footnoteg配对与2011TableIII不同保原件。
 
-真实partial预算：213−.8859/+1.5895，288−8.038/+7.970，610−73.907/+102.907，近闭打印；45420.903对22未闭合保留，不调Cov/加被排支。finitepartials×stat与TableI系统、允许upper单侧linear，6106112用旧branch估partial。2135732归213而非J04 209，weak/重叠输入仍条件；Fig12caption gate角色与Fig13/TableIII反、TableV upper16/lower84文字反于数值，保原件。
+canonical S10-1–10/S11-21/method/auditledger/index/report唯一writeback；verification039以actualreceipt为准（旧rows/review/保护/边界/lint/diff），无新τ/J/Bp/ω/CI。main / `Audit short report versions and resonance wavelength frame contract`为025稳定指针，actualhash/push仅publication025/runreceipt。原counts/Penelope/analysis/fullCov仍缺。
 
-η1275/ηHigh条件共同scale消去，五scale代数控制不证明原doublecount/实际Cov；无新实验τ/J/Bp/率/CI。verification038以actualreceipt为准，旧claims/review/raw/PLAN/Bib/继承dirty保护；公开原计数/analysis/Penelope/fullCov仍缺。main / `Read absolute Na22 capture strength and shared calibration contract`为024稳定指针，actualhash/push见publication024/runreceipt。
+当前erratum/frames路线局部饱和，重建pool后下一最高输入为Saastamoinen2011 PRC83045808/DOI10.1103/PhysRevC.83.045808的真实beta-p branch/lowthreshold主线：可能直接改变K16 fixedBp=.037条件与身份/Σ，不从转引先验补新结论。次候选Brown2009targetprimary暂不打开；只选一个continuity。先冻primed回忆后metadata/实际body，若input不足记录readiness换有新信息的路，不用更多toy填时段。原window约708分钟，15点stop新研究并整日收束齐才goalcomplete。
 
-下一高信息是2010PRL105152501与209901(E)的actualerratum内容及2011关系：先freeze，取得原件才判更正对象。不要把metadata/标题或2022再生日期当新科学；不原样重试Jenkins2013终态URL。若无法取得，换匹配的实际新输入而非加MODELhistory。原window约720分钟，15点停新研究并整日收束齐才goalcomplete。
-
-保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex且log仅HEAD+own024。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex且log仅HEAD+own025。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

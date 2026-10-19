@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/sallaska-2010-na22-letter-version-contract.md": 10,
+    "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md": 21
+  },
+  "artifacts": [
+    {
+      "file": "sallaska2010-frame-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "no_claim_that_erratum_corrects_frame",
+        "no_experimental_strengths_rescaled",
+        "official_erratum_body_not_obtained"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

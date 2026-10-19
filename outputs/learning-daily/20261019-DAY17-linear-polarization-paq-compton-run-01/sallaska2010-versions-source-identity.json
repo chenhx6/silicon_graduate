@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://arxiv.org/src/1008.4170v1",
+    "status": 200,
+    "bytes": 68374,
+    "sha256": "ea63db907f093891e2a0723c43fcf062e47dfcf2b90934a446a640c869b40924",
+    "members": [
+      {
+        "name": "data_spectra.eps",
+        "size": 146386
+      },
+      {
+        "name": "reactionrate_prl_MC.eps",
+        "size": 90992
+      },
+      {
+        "name": "shortpaper_final1.tex",
+        "size": 38720
+      }
+    ],
+    "tex": [
+      {
+        "member": "shortpaper_final1.tex",
+        "file": "tmp/day17-sallaska2010/v1-shortpaper_final1.tex",
+        "sha256": "c612635510161eca08677140a1d61774c8313d463168e4b5db2160aa81c4512a",
+        "date": [
+          "\\date{\\today}"
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://arxiv.org/src/1008.4170v2",
+    "status": 200,
+    "bytes": 68399,
+    "sha256": "6fcec3289480492014fa24e723a13f7fb0caf4ade1c2dfc0c39247ade2bb0f3d",
+    "members": [
+      {
+        "name": "data_spectra.eps",
+        "size": 146386
+      },
+      {
+        "name": "reactionrate_prl_MC.eps",
+        "size": 90992
+      },
+      {
+        "name": "shortpaper_final1.tex",
+        "size": 38822
+      }
+    ],
+    "tex": [
+      {
+        "member": "shortpaper_final1.tex",
+        "file": "tmp/day17-sallaska2010/v2-shortpaper_final1.tex",
+        "sha256": "2b47d3447e0f18f99c28528ded480277f0aa4b1f14d3671bb59e16f825354413",
+        "date": [
+          "\\date{\\today}"
+        ]
+      }
+    ]
+  }
+]

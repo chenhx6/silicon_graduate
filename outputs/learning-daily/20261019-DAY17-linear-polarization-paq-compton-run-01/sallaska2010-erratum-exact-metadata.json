@@ -1,0 +1,47 @@
+{
+  "url": "https://api.crossref.org/works/10.1103/PhysRevLett.105.209901",
+  "status": 200,
+  "sha256": "310c3c667afa1137b3e7960820d40905edee2fb15f2f1858a4cba10954b8adbf",
+  "fields": {
+    "DOI": "10.1103/physrevlett.105.209901",
+    "title": [
+      "Erratum: Direct Measurements of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi>Na</mml:mi><mml:mprescripts/><mml:none/><mml:mn>22</mml:mn></mml:mmultiscripts><mml:mo stretchy=\"false\">(</mml:mo><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>γ</mml:mi><mml:mo stretchy=\"false\">)</mml:mo><mml:mmultiscripts><mml:mi>Mg</mml:mi><mml:mprescripts/><mml:none/><mml:mn>23</mml:mn></mml:mmultiscripts></mml:math>Resonances and Consequences for<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi>Na</mml:mi><mml:mprescripts/><mml:none/><mml:mn>22</mml:mn></mml:mmultiscripts></mml:math>Production in Classical Novae [Phys. Rev. Lett.<b>105</b>, 152501 (2010)]"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          11,
+          9
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          11,
+          9
+        ]
+      ]
+    },
+    "published-print": null,
+    "relation": {},
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevLett.105.209901",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.105.209901/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "volume": "105",
+    "issue": "20"
+  }
+}

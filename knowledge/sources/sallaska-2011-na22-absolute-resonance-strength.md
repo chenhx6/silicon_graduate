@@ -71,6 +71,7 @@ UW150–700keV质子、约45µA，TRIUMF30keV植入22Na到Cu，主靶加20nm Cr�
 | S11-18 | Fig12caption把a232/b198与a5055/b7801+7350门对应，和Fig13/TableIII的物理分支相反；图轴/能级/正文另存，未静默更正PDF。SecV/TableV caption称upper16%/lower84%，而数值lower<central<upper，保留文字/数值不闭合。 | literal-label-boundary | direct-original | PDF10 Fig12/13；PDF15 SecV；PDF18 TableV | true |
 | S11-19 | R由MC对finite对称/非对称Gaussian及Fig14分布采样，median与两个版本率表另列；SHIVA 22Na质量分数/探测距离变化为作者模型，不是天文检出或新核结构实验。原MCratecode/共享calibrationCov未得。 | model-result-and-dependence | direct-author-model | PDF15/17–19；Figs17/18；TablesV/VI | true |
 | S11-20 | 作者23Na512控制得79(17)meV对旧91.3(12.5)，含约12%漏照区修正；它支持绝对方法在该条件可用，但靶错位误差大且共享标定，不证明22Na原系统误差完备或争议已独立裁决。 | counter-control-and-independence | direct | PDF13–15 SecIIIF；Fig16 | true |
+| S11-21 | 新本session原读2010Letterv2四页并比较v1：Eq1/TableI源码同、rateEPS同；LetterlambdaLab²与本文Eq4CM定义有字面frame边界，NR桥须r²。正式2010erratumbody未得，不猜其内容或重标本强度；两报告仍同采集链。 | actual-shortreport-version-companion | direct-original-and-conditional-bridge | S10-1/2/3/4/5/6/9 | true |
 
 ## Theory/analysis exercise
 
@@ -101,3 +102,7 @@ S11-13的placement争议、弱模板停止比、P4残余和NT活动度角色反�
 ## Extracted Pages
 
 [[nndc-2021-mg23-lifetime-strength-reference]]、[[jenkins-2004-23mg-fractional-doppler-rate]]、[[kirsebom-2016-23mg-dsam-lifetimes]]、[[lifetime-strength-audit-165tm-136nd]]、[[doppler-shift-attenuation-method]]、[[linear-polarization-asymmetry]]。
+
+## Letter版本补充：frame定义需要实际程序桥
+
+[[sallaska-2010-na22-letter-version-contract]] S10-1–10实际原读v2/定向比较v1，Eq1明确lambdaLab²而本文Eq4称CM。声明NR关系lambdaCM²=r²lambdaLab²，质量数控制r²≈1.093；只是打印定义/条件推导，未得producer或正式erratum，不按此重标实验。旧S11-1保留当时未读短报的范围，正式erratum仍未读。

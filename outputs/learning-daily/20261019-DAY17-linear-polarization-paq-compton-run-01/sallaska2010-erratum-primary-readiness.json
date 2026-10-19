@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T19:08:01.231987+00:00",
+  "doi": "10.1103/PhysRevLett.105.209901",
+  "status": "body-not-obtained",
+  "actual_routes": {
+    "APS": "harvest401,linkpdf403,abstract403,discovery403",
+    "ADS": "30sreadtimeout",
+    "Scholar": "exactdoi0",
+    "OpenAlex": "publisherbronzeonly no alternatefulltext"
+  },
+  "known": "exacterratummetadata only; independentarxivv1v2letterbody acquired",
+  "not_inferred": "whaterratumcorrects;whetherliteralframeorTableIbranchlabels changed; no experimental rescale"
+}

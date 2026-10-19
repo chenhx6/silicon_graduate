@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint025：2010Letter实际原读与正式erratum边界
+
+[[sallaska-2010-na22-letter-version-contract]] S10-1–10，v2四页完整主线/一式一表两图；v1定向source/text/table/figure比较非独立盲读。正式erratum DOI已核，body当前未得，不从关联metadata/标题补科学。
+
+
 ### checkpoint024：Sallaska2011实际20页主线
 
 [[sallaska-2011-na22-absolute-resonance-strength]] S11-1–20，实际arxiv1009.3925v2二十页/18图/6表/7式全读及视觉核；sourcehash/date-today/版本分开。2010报告/erratum只识别引用，body未得，不能算新采集。
@@ -90,6 +95,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint025：Lab/CM波长条件桥
+
+[程序](../../system/scripts/day17_sallaska2010_frame_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/sallaska2010-frame-exercise-result.json)锁两版source/TableI/Eq1/rateEPS。NRλCM²=r²λLab²，CM窄峰积分加lab能量Jacobian给λLab²r³，原Letter写λLab²r；质量数r²≈1.092975。正式勘误/原producer未得，不给9.3%实验重标或称历史冲突解释。
+
 
 ### checkpoint024：实际partial误差预算
 
@@ -352,6 +362,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[2010版本源](../../knowledge/sources/sallaska-2010-na22-letter-version-contract.md)S10-1/2/3/4/9和[[lifetime-strength-audit-165tm-136nd]]“短报/详细文的frame与同源版本”；可复用frame关系/同源矩阵/缺失输入均canonical。
+
 
 新增[直接capture原件](../../knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md) S11-2/8/9/11/16/17及[[lifetime-strength-audit-165tm-136nd]]“直接capture强度：停止功率与归一分别检查”，保存可重用停止角色/NT/eff矩阵及实际partial预算。
 
@@ -3956,6 +3969,113 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "S11-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+      "anchor": "版本相同表值不能代替分析程序或勘误正文",
+      "summary": "原读四页短报/版本差异和frame条件推导。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-1"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-2"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-3"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-4"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+      "anchor": "Letter版本补充：frame定义需要实际程序桥",
+      "summary": "补实际同源短报/公式frame边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-2"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-3"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-4"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "短报/详细文的frame与同源版本",
+      "summary": "同源证据/NR关系/正式erratum缺口分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-1"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-3"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-4"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-5"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "寿命companion的frame合同",
+      "summary": "公式推导与actualproducer修正分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-3"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-4"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[sallaska-2010-na22-letter-version-contract]]",
+      "summary": "新增短报版本source入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+          "locator": "S10-1"
+        }
+      ]
     }
   ]
 }
@@ -4106,3 +4226,7 @@ verification037记录本批实际report/coverage/writeback/boundary/lint/diff及
 ### checkpoint024原件/误差预算验收
 
 verification038核report/唯一writeback/course/boundary/lint/diff与旧claims/review；通过后manifest024/commitguard/H3显式发布。原窗口继续，正式17只一次、18无学分、不研究19课程卡。
+
+### checkpoint025版本/条件推导验收
+
+verification039为report/coverage/唯一writeback/boundary/lint/diff/旧claim与review门；实际通过后manifest025/commitguard/H3。当前仍同原研究窗口，不授18、不重复17、不开19。

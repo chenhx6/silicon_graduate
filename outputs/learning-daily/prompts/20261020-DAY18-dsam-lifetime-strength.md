@@ -83,3 +83,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint024 priming：Sallaska2011实际绝对capture
 
 [[sallaska-2011-na22-absolute-resonance-strength]]二十页v2完整原读，完整有限强度积分避absolute-stopping不免weaktemplate/energyloss/tail输入。NT溅射/beam/eff与partialupper单侧合成canonical；454名义20.903对22保未闭合。共同η1275/ηHigh不指控原doublecount，Fig12caption/TableV分位label边界保留。2010PRL/erratum原文未读，2011自称同研究报告；本preview不授18，正式18需声明priming/重新逐卡，不用旧检查数换信用。
+
+
+### Day17 checkpoint025 priming：短报版本与frame
+
+[[sallaska-2010-na22-letter-version-contract]]四页v2/targetedv1：Eq1/TableI同源，LetterlambdaLab/2011lambdaCM定义需NR r²桥。质量数约9.3%只条件推导，不认证producer或重标实验。正式erratum9Nov2010仅metadata，body未得；不能从arxiv关联DOI认Sepv2含更正或猜具体内容。仅知识preview不授18。

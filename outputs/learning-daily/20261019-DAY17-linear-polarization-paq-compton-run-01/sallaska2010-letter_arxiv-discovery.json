@@ -1,0 +1,20 @@
+{
+  "url": "https://arxiv.org/abs/1008.4170",
+  "status": 200,
+  "bytes": 44130,
+  "final_url": "https://arxiv.org/abs/1008.4170",
+  "sha256": "9bfa33941a0f3d3893e3d39178e80d7653db7d533c068330c0106645ee0133cf",
+  "versionhistory": [
+    "Submission history From: Anne Sallaska [ view email ] [v1] Tue, 24 Aug 2010 22:29:04 UTC (67 KB) [v2] Fri, 24 Sep 2010 22:53:24 UTC (67 KB)"
+  ],
+  "metadata": {
+    "citation_title": "Direct measurements of 22Na(p,g)23Mg resonances and consequences for 22Na production in classical novae",
+    "citation_author": "Caggiano, J. A.",
+    "citation_doi": "10.1103/PhysRevLett.105.152501 10.1103/PhysRevLett.105.209901",
+    "citation_date": "2010/08/24",
+    "citation_online_date": "2010/09/24",
+    "citation_pdf_url": "https://arxiv.org/pdf/1008.4170",
+    "citation_arxiv_id": "1008.4170",
+    "citation_abstract": "The radionuclide 22Na is a potential astronomical observable that is expected to be produced in classical novae in quantities that depend on the thermonuclear rate of the 22Na(p,g)23Mg reaction. We have measured the strengths of low-energy 22Na(p,g)23Mg resonances directly and absolutely using a radioactive 22Na target. We find the strengths of resonances at E_p = 213, 288, 454, and 610 keV to be higher than previous measurements by factors of 2.4 to 3.2, and we exclude important contributions to the rate from proposed resonances at E_p = 198, 209, and 232 keV. The 22Na abundances expected in the ejecta of classical novae are reduced by a factor of ~ 2."
+  }
+}

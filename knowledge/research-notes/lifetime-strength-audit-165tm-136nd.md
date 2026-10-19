@@ -256,3 +256,9 @@ M23-2/10另保留靶厚160vs40和7852/5138在2013缺失的评价注释；2013正
 213新5732branch约10.6%有same-strongshape约束，placement与J04的209不同；610的6112因F背景采用旧branch估partial。按作者允许upper单侧加法，名义partial预算能近复213/288/610总误差，454约20.903对原22保留未闭合。不是新原事件拟合/CI，也不从被排finalspin1/2补误差强配。
 
 共同Co/efficiency可能同时进入1275活动度和高能capture：omega条件比∝η1275/ηH，需跨能量Cov；共同乘法尺度可消掉，但实际完整Cov未得，不能指控作者doublecount或重报σ。原2010PRL/erratum与2011自称同研究详细报告，不计第二次独立采集；后续若核erratum先读原件，不从标题补更正内容。
+
+## 短报/详细文的frame与同源版本
+
+[[sallaska-2010-na22-letter-version-contract]] S10-1–10：2010v1/v2 Eq1与TableI源码同、rateEPS同；2011四有限强度也相同，不能重复计实验。LetterlambdaLab²与详细文CM定义需r²桥；NR全窄峰数学积分给Lab系数lambdaLab²r³。质量数控制只说明相差约9.3%的定义因子，不认证原producer用了错公式，也不解释2.4–3.2倍争议。
+
+正式Erratum105209901准确存在/9Nov2010，但body当前未得；Sepv2关联DOI不等包含Nov更正。232footnote门与旧branch配对、2011TableIII角色差异同样保留，不能猜更正内容或改raw/强度。后续高信息应是actualerratum/producer或匹配独立particlebranch，而不是更多条件模型history。

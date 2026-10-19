@@ -1,0 +1,3 @@
+# Sallaska2010 erratum前回忆
+
+已原读2011v2全文，Ref29有PRL105152501/209901(E)，strongpriming非盲测。2011同研究详细报告，不预设erratum更正的是全强度、单位、天文率或图；尤其不能从标题认改了213。要读2010原件与勘误唯一页，核primaryDOI/实际body定位、哪个量改/为什么/与2011是否相同数据。若无正文只readiness，保原2011数值。必要companion是originaltable/version/normalization，反证是勘误只修bibliography而未改science，必须允许此结果。

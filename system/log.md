@@ -2129,3 +2129,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint024 — 直接capture绝对归一
 
 本session完整原读Sallaska2011 arxivv2二十页/18图/6表/7式，canonical停止角色/NT/beam/eff共享与实际partial预算。213/288/610打印误差近闭，45420.903对22保未闭合，不造实验CI；Figure/quantile字面边界保存。verification038通过（0error/221warnings，32changed34mapped），初source-section/格式错误已留档修复；旧review/claims/保护文件未动。main / Read absolute Na22 capture strength and shared calibration contract；actualhash/H3见publication024。原窗口继续，正式17只一次，18仅无学分preview/no19。
+
+
+## 2026-10-20 Day17 checkpoint025 — Letter版本/NR frame合同
+
+原读2010Letterv2四页并targeted比v1，Eq1/TableI同、rateEPS同，2011同源强度不重复计。lambdaLab/CM字面差及NR r²桥canonical；无正式erratumbody/实际producer，不猜勘误内容或重标实验。verification039通过（0error/223warnings，33changed35mapped），保护旧review/claims/raw/PLAN/Bib/dirty。main / Audit short report versions and resonance wavelength frame contract；actualhash/H3见publication025。原窗口继续，下一个独立particlebranch输入；17once/18partial/no19。

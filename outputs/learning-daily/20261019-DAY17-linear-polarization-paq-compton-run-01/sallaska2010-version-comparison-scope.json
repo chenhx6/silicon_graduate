@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-19T19:06:59.713840+00:00",
+  "actual_fullread": "v2 fourpages,Eq1,TableI,Figs1/2(fullpanels),references;visualallpages/p2equationhighres",
+  "v1_scope": "targetedtext/source/figure/tablecomparison; not independentblindreading",
+  "versions": [
+    {
+      "v": 1,
+      "member_hashes": {
+        "data_spectra.eps": "96909c7b7d201d7504a072dd009e6424d9a1162df894b37e93d916f3d5401a1b",
+        "reactionrate_prl_MC.eps": "d31241d9642ac864c12ab57f6b5c8049f63c34156193308c508d9f8b18fb9bf6",
+        "shortpaper_final1.tex": "c612635510161eca08677140a1d61774c8313d463168e4b5db2160aa81c4512a"
+      }
+    },
+    {
+      "v": 2,
+      "member_hashes": {
+        "data_spectra.eps": "d6adb4acb47660770322bc94a6cbd6106a0be55902ace63bcbcf2dc1060a959f",
+        "reactionrate_prl_MC.eps": "d31241d9642ac864c12ab57f6b5c8049f63c34156193308c508d9f8b18fb9bf6",
+        "shortpaper_final1.tex": "2b47d3447e0f18f99c28528ded480277f0aa4b1f14d3671bb59e16f825354413"
+      }
+    }
+  ],
+  "erratum_body": "not obtained;APS401/403;ADStimeout;Scholar0",
+  "boundary": "arxiv lists erratumDOI butv2 predates publishedNov2010notice; no erratumcontent inferred"
+}

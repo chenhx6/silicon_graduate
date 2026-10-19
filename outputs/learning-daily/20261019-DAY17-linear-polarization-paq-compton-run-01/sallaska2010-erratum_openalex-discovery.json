@@ -1,0 +1,59 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.105.209901",
+  "status": 200,
+  "content_type": "application/json",
+  "bytes": 18015,
+  "sha256": "a26bffc14c62bf285cbfaf259871564660f16030e2cebc0268ce4b77a7715087",
+  "title": "Erratum: Direct Measurements of Na22(p,γ)Mg23 Resonances and Consequences for Na22 Production in Classical Novae [Phys. Rev. Lett.105, 152501 (2010)]",
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevlett.105.209901",
+      "doi": "https://doi.org/10.1103/physrevlett.105.209901",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/physrevlett.105.209901",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.105.209901",
+      "source": {
+        "id": "https://openalex.org/S24807848",
+        "display_name": "Physical Review Letters",
+        "issn_l": "0031-9007",
+        "issn": [
+          "0031-9007",
+          "1079-7114",
+          "1092-0145"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review Letters",
+      "raw_type": "journal-article"
+    }
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.105.209901",
+    "any_repository_has_fulltext": false
+  }
+}

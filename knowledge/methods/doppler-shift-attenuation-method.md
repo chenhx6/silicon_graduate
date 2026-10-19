@@ -185,3 +185,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 独立capture companion的“无绝对停止”也有条件
 
 [[sallaska-2011-na22-absolute-resonance-strength]] S11-2/8/9/11/12/17说明：完整积分可消除归一能移核的位移依赖，前提是扫描完备、全部活动区照射及NT/束密度稳定有据。弱模板伸缩、有限尾、energyloss仍有stopping/response；这类capture强度不能自动替DSAM的v(t)、feeding或其原协方差。强度与总τ组合前仍逐项核spin、branch和共享输入。
+
+## 寿命companion的frame合同
+
+[[sallaska-2010-na22-letter-version-contract]] S10-3/4/5示范实际公式审计：同质量因子下lambdaLab²与lambdaCM²不能凭符号互换，NR有lambdaCM²=r²lambdaLab²。即使条件推导清楚，仍要原分析程序/版本证据才能修改实验率；未读正式erratum不能给它指定更正内容。该合同与DSAM中lab/proper时钟一样，文字检查不等实际fit偏差。

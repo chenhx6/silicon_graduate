@@ -1,0 +1,8 @@
+{
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.105.209901/fulltext",
+  "status": 401,
+  "content_type": "application/json",
+  "bytes": 70,
+  "sha256": "695a583a4e7f0c69fc04eab2c8ab0f9b18600edff4d2debbab6ac921b585c990",
+  "preview": "{\"errors\":[{\"title\":\"10.1103/PhysRevLett.105.209901 not authorized\"}]}"
+}
