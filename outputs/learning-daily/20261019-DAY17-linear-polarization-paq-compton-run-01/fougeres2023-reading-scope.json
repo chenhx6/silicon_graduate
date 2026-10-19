@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T19:58:52.019162+00:00",
+  "actual_full_read": "publisher main7allpages,Eq1–4/Fig1–3/Table1–2/refs;SI8allpages/Fig1–4/Table1/refs,allpagesvisual",
+  "source_data_actual_read": "mainfigure2right37/25/37points,error/model/CLheaders+allrows;SIfigure1a1147/b1178numericgrid;otherssheetmanifest/firstrows only",
+  "public_code_scope": "34filemanifestexactmatchesreleaseGitblob;README/inputs/Makefile/main.cpp/CodeA_gamma.C/MC_sim.C read, others notyet; data.root schema only409303entries noeventvaluesyet",
+  "not_reproduced": "originalselection/normalization/Pearsonfit/CI/systematics/branchfit;noallE710DAQ/fullCov;releaseextract_width branch empty notpaperfitreplay",
+  "independence": "GANIL independent acquisition vs oldJ04/K16 setup, but recommendedtau combinesJ04 andBRcombinesFriedman2020, not independentredundantpoints",
+  "limits": "derivedpublicROOTsnapshot labeledexperiment byauthors; eventcalibration/history/producer exactjob unknown"
+}

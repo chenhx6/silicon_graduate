@@ -1,0 +1,5 @@
+
+
+## 2026-10-20 Day17 checkpoint028 — 新GANIL寿命/branch与实际数据
+
+原读Fougères2023主7/SI8和真实SourceData，新增τ近旧值/BRp更新/assumeJ7/2及推荐组合角色。实际图显示区χ²与grid不闭合/零slice保边界，未重fit实验CI。Zenodo34files逐Gitblob与真实409303entry衍生Tree schema已核，不冒原DAQ/fullCov。verification042通过（0error/229warnings，36changed38mapped），旧review/claims/保护文件保持。main / Read new Mg23 lifetime branching and real public data inputs；actualhash/H3见publication028。原窗口继续actualproducer/数据匹配，formal17once/18partial/no19。

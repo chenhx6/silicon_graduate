@@ -2144,3 +2144,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint027 — 实际ROOT5.22误差合同
 
 核v5-22-00真实tag/commit/blob/TH1/TSpectrum/TArrayD，Smooth不改stored errors、Background只写content、Add固定系数diagonal。原方法另名组件/currentROOT6.40helpers及matchingJacobian验收，不冒oldfullbinary/exactjob/原histCI。canonical修订自动传播一般保证，旧16%/Bp/τ仍保来源。verification041通过（0error/227warnings，35changed37mapped）；初decode/NumPybool失败留档，发布fixture注释/去尾空格tokens同，原source不改。main / Audit ROOT522 background error buffers and matched normalization；actualhash/H3见publication027。原窗口继续独立matchedlifetime输入，17once/18partial/no19。
+
+
+## 2026-10-20 Day17 checkpoint028 — 新GANIL寿命/branch与实际数据
+
+原读Fougères2023主7/SI8和真实SourceData，新增τ近旧值/BRp更新/assumeJ7/2及推荐组合角色。实际图显示区χ²与grid不闭合/零slice保边界，未重fit实验CI。Zenodo34files逐Gitblob与真实409303entry衍生Tree schema已核，不冒原DAQ/fullCov。verification042通过（0error/229warnings，36changed38mapped），旧review/claims/保护文件保持。main / Read new Mg23 lifetime branching and real public data inputs；actualhash/H3见publication028。原窗口继续actualproducer/数据匹配，formal17once/18partial/no19。

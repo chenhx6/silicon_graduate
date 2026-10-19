@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-19T19:51:30.331395+00:00",
+  "scope": "actualnumericdiscovery of mainfigure2right andSIfigure1grids;notrawfitreplay",
+  "main_fig2right": {
+    "5292": {
+      "n": 37,
+      "sum_model": 562.86486,
+      "sum_displayed_measurement": 530,
+      "Pearson_full_displayed_bins": 27.5373246244577
+    },
+    "7785": {
+      "n": 25,
+      "sum_model": 364.47046,
+      "sum_displayed_measurement": 399.100046,
+      "Pearson_full_displayed_bins": 123.9563128731121,
+      "Neyman_full_displayed_bins": 5000606.4486202,
+      "nearzero_first_displayed_measurement": 1e-05
+    },
+    "3796": {
+      "n": 37,
+      "sum_model": 658.55438,
+      "sum_displayed_measurement": 627.0109,
+      "Pearson_full_displayed_bins": 34.55531563256722
+    }
+  },
+  "displayed_error_squared_approx_measurement": true,
+  "SIgrid": {
+    "a": {
+      "points": 1147,
+      "grid": [
+        37,
+        31
+      ],
+      "min": [
+        11.3,
+        7.33306,
+        17.1982
+      ],
+      "zero": 0
+    },
+    "b": {
+      "points": 1178,
+      "grid": [
+        38,
+        31
+      ],
+      "zeros": 31,
+      "zero_tau_slice": 0.31875,
+      "min_positive": [
+        3.94375,
+        4.84006,
+        16.4762
+      ]
+    }
+  },
+  "boundary": "notactualfitdomain/normalization/cov;cannotinferexperimentwrong,coverageorfixzeroχ²withoutproducer. Preserve firstdiscovery andseekmatchingcode"
+}

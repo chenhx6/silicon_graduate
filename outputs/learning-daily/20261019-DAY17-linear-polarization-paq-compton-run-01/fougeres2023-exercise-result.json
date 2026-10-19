@@ -1,0 +1,1108 @@
+{
+  "at": "2026-10-19T19:56:21.224769+00:00",
+  "script_sha256": "6c4de1e93d73736e336e1dfe02335cbbf3e293eead43ba8c6fc6258cd37a9102",
+  "contract_sha256": "86327e36a6a6ed270ca53a41366a5beec9ebd1a9f803853ed7235fef2a8c1622",
+  "profiles": [
+    {
+      "state_label": "5292",
+      "sheet": "figure 2 right",
+      "excel_columns_1based": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "n": 37,
+      "sum_model_displayed": 562.86486,
+      "sum_measurement_displayed": 530.0,
+      "max_abs_error_squared_minus_measurement": 5.9193600002060975e-05,
+      "Pearson_on_all_displayed_bins_control": 27.5373246244577,
+      "Neyman_on_all_displayed_bins_control": 38.06758325443291,
+      "actual_rows": [
+        {
+          "excel_row": 3,
+          "values": [
+            -0.0048048,
+            9.29595,
+            9.0,
+            3.0
+          ]
+        },
+        {
+          "excel_row": 4,
+          "values": [
+            -0.0042042,
+            10.2986,
+            11.0,
+            3.31662
+          ]
+        },
+        {
+          "excel_row": 5,
+          "values": [
+            -0.0036036,
+            11.726,
+            7.0,
+            2.64575
+          ]
+        },
+        {
+          "excel_row": 6,
+          "values": [
+            -0.003003,
+            13.8208,
+            11.0,
+            3.31662
+          ]
+        },
+        {
+          "excel_row": 7,
+          "values": [
+            -0.0024024,
+            16.9356,
+            15.0,
+            3.87298
+          ]
+        },
+        {
+          "excel_row": 8,
+          "values": [
+            -0.0018018,
+            21.7289,
+            27.0,
+            5.19615
+          ]
+        },
+        {
+          "excel_row": 9,
+          "values": [
+            -0.0012012,
+            29.2623,
+            22.0,
+            4.69042
+          ]
+        },
+        {
+          "excel_row": 10,
+          "values": [
+            -0.000600601,
+            40.0068,
+            26.0,
+            5.09902
+          ]
+        },
+        {
+          "excel_row": 11,
+          "values": [
+            1.23599e-17,
+            50.8959,
+            55.0,
+            7.4162
+          ]
+        },
+        {
+          "excel_row": 12,
+          "values": [
+            0.000600601,
+            53.9,
+            45.0,
+            6.7082
+          ]
+        },
+        {
+          "excel_row": 13,
+          "values": [
+            0.0012012,
+            46.9871,
+            40.0,
+            6.32456
+          ]
+        },
+        {
+          "excel_row": 14,
+          "values": [
+            0.0018018,
+            36.4986,
+            38.0,
+            6.16441
+          ]
+        },
+        {
+          "excel_row": 15,
+          "values": [
+            0.0024024,
+            27.2896,
+            22.0,
+            4.69042
+          ]
+        },
+        {
+          "excel_row": 16,
+          "values": [
+            0.003003,
+            20.6416,
+            21.0,
+            4.58258
+          ]
+        },
+        {
+          "excel_row": 17,
+          "values": [
+            0.0036036,
+            16.2221,
+            18.0,
+            4.24264
+          ]
+        },
+        {
+          "excel_row": 18,
+          "values": [
+            0.0042042,
+            13.3184,
+            14.0,
+            3.74166
+          ]
+        },
+        {
+          "excel_row": 19,
+          "values": [
+            0.0048048,
+            11.3317,
+            10.0,
+            3.16228
+          ]
+        },
+        {
+          "excel_row": 20,
+          "values": [
+            0.00540541,
+            9.99208,
+            13.0,
+            3.60555
+          ]
+        },
+        {
+          "excel_row": 21,
+          "values": [
+            0.00600601,
+            9.01053,
+            12.0,
+            3.4641
+          ]
+        },
+        {
+          "excel_row": 22,
+          "values": [
+            0.00660661,
+            8.29963,
+            9.0,
+            3.0
+          ]
+        },
+        {
+          "excel_row": 23,
+          "values": [
+            0.00720721,
+            7.72709,
+            11.0,
+            3.31662
+          ]
+        },
+        {
+          "excel_row": 24,
+          "values": [
+            0.00780781,
+            7.37708,
+            9.0,
+            3.0
+          ]
+        },
+        {
+          "excel_row": 25,
+          "values": [
+            0.00840841,
+            6.98915,
+            6.0,
+            2.44949
+          ]
+        },
+        {
+          "excel_row": 26,
+          "values": [
+            0.00900901,
+            6.73257,
+            3.0,
+            1.73205
+          ]
+        },
+        {
+          "excel_row": 27,
+          "values": [
+            0.00960961,
+            6.5117,
+            6.0,
+            2.44949
+          ]
+        },
+        {
+          "excel_row": 28,
+          "values": [
+            0.0102102,
+            6.3754,
+            9.0,
+            3.0
+          ]
+        },
+        {
+          "excel_row": 29,
+          "values": [
+            0.0108108,
+            6.2001,
+            6.0,
+            2.44949
+          ]
+        },
+        {
+          "excel_row": 30,
+          "values": [
+            0.0114114,
+            6.08182,
+            4.0,
+            2.0
+          ]
+        },
+        {
+          "excel_row": 31,
+          "values": [
+            0.012012,
+            5.99379,
+            7.0,
+            2.64575
+          ]
+        },
+        {
+          "excel_row": 32,
+          "values": [
+            0.0126126,
+            5.88732,
+            5.0,
+            2.23607
+          ]
+        },
+        {
+          "excel_row": 33,
+          "values": [
+            0.0132132,
+            5.83166,
+            5.0,
+            2.23607
+          ]
+        },
+        {
+          "excel_row": 34,
+          "values": [
+            0.0138138,
+            5.75348,
+            5.0,
+            2.23607
+          ]
+        },
+        {
+          "excel_row": 35,
+          "values": [
+            0.0144144,
+            5.68195,
+            5.0,
+            2.23607
+          ]
+        },
+        {
+          "excel_row": 36,
+          "values": [
+            0.015015,
+            5.61434,
+            7.0,
+            2.64575
+          ]
+        },
+        {
+          "excel_row": 37,
+          "values": [
+            0.0156156,
+            5.58074,
+            2.0,
+            1.41421
+          ]
+        },
+        {
+          "excel_row": 38,
+          "values": [
+            0.0162162,
+            5.5444,
+            8.0,
+            2.82843
+          ]
+        },
+        {
+          "excel_row": 39,
+          "values": [
+            0.0168168,
+            5.52008,
+            7.0,
+            2.64575
+          ]
+        }
+      ],
+      "boundary": "displayed graph values only; original fit window/model normalization/covariance not recovered"
+    },
+    {
+      "state_label": "7785",
+      "sheet": "figure 2 right",
+      "excel_columns_1based": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "n": 25,
+      "sum_model_displayed": 364.47046,
+      "sum_measurement_displayed": 399.100046,
+      "max_abs_error_squared_minus_measurement": 6.522790000040857e-05,
+      "Pearson_on_all_displayed_bins_control": 123.9563128731121,
+      "Neyman_on_all_displayed_bins_control": 5000606.4486202,
+      "actual_rows": [
+        {
+          "excel_row": 3,
+          "values": [
+            -0.00495495,
+            7.0714,
+            1e-05,
+            0.00316228
+          ]
+        },
+        {
+          "excel_row": 4,
+          "values": [
+            -0.00405405,
+            8.27519,
+            9.25,
+            3.04138
+          ]
+        },
+        {
+          "excel_row": 5,
+          "values": [
+            -0.00315315,
+            10.1378,
+            13.1,
+            3.61939
+          ]
+        },
+        {
+          "excel_row": 6,
+          "values": [
+            -0.00225225,
+            13.3693,
+            13.1,
+            3.61939
+          ]
+        },
+        {
+          "excel_row": 7,
+          "values": [
+            -0.00135135,
+            19.8507,
+            22.0833,
+            4.69929
+          ]
+        },
+        {
+          "excel_row": 8,
+          "values": [
+            -0.00045045,
+            33.0394,
+            27.2167,
+            5.21696
+          ]
+        },
+        {
+          "excel_row": 9,
+          "values": [
+            0.00045045,
+            45.0,
+            43.9,
+            6.62571
+          ]
+        },
+        {
+          "excel_row": 10,
+          "values": [
+            0.00135135,
+            44.9081,
+            43.9,
+            6.62571
+          ]
+        },
+        {
+          "excel_row": 11,
+          "values": [
+            0.00225225,
+            38.4738,
+            25.9333,
+            5.09248
+          ]
+        },
+        {
+          "excel_row": 12,
+          "values": [
+            0.00315315,
+            28.8954,
+            36.2,
+            6.01664
+          ]
+        },
+        {
+          "excel_row": 13,
+          "values": [
+            0.00405405,
+            21.3125,
+            28.5,
+            5.33854
+          ]
+        },
+        {
+          "excel_row": 14,
+          "values": [
+            0.00495495,
+            15.4277,
+            19.5167,
+            4.41777
+          ]
+        },
+        {
+          "excel_row": 15,
+          "values": [
+            0.00585586,
+            11.1932,
+            15.6667,
+            3.95811
+          ]
+        },
+        {
+          "excel_row": 16,
+          "values": [
+            0.00675676,
+            8.743,
+            1.55,
+            1.24499
+          ]
+        },
+        {
+          "excel_row": 17,
+          "values": [
+            0.00765766,
+            7.29936,
+            15.6667,
+            3.95811
+          ]
+        },
+        {
+          "excel_row": 18,
+          "values": [
+            0.00855856,
+            6.4122,
+            6.68333,
+            2.58521
+          ]
+        },
+        {
+          "excel_row": 19,
+          "values": [
+            0.00945946,
+            5.90317,
+            9.25,
+            3.04138
+          ]
+        },
+        {
+          "excel_row": 20,
+          "values": [
+            0.0103604,
+            5.5108,
+            7.96667,
+            2.82253
+          ]
+        },
+        {
+          "excel_row": 21,
+          "values": [
+            0.0112613,
+            5.1961,
+            9.25,
+            3.04138
+          ]
+        },
+        {
+          "excel_row": 22,
+          "values": [
+            0.0121622,
+            5.00107,
+            0.266666,
+            0.516398
+          ]
+        },
+        {
+          "excel_row": 23,
+          "values": [
+            0.0130631,
+            4.94063,
+            5.4,
+            2.32379
+          ]
+        },
+        {
+          "excel_row": 24,
+          "values": [
+            0.013964,
+            4.76951,
+            4.11667,
+            2.02896
+          ]
+        },
+        {
+          "excel_row": 25,
+          "values": [
+            0.0148649,
+            4.66381,
+            9.25,
+            3.04138
+          ]
+        },
+        {
+          "excel_row": 26,
+          "values": [
+            0.0157658,
+            4.54745,
+            22.0833,
+            4.69929
+          ]
+        },
+        {
+          "excel_row": 27,
+          "values": [
+            0.0166667,
+            4.52887,
+            9.25,
+            3.04138
+          ]
+        }
+      ],
+      "boundary": "displayed graph values only; original fit window/model normalization/covariance not recovered"
+    },
+    {
+      "state_label": "3796",
+      "sheet": "figure 2 right",
+      "excel_columns_1based": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "n": 37,
+      "sum_model_displayed": 658.5543799999999,
+      "sum_measurement_displayed": 627.0109,
+      "max_abs_error_squared_minus_measurement": 7.80625000018631e-05,
+      "Pearson_on_all_displayed_bins_control": 34.55531563256722,
+      "Neyman_on_all_displayed_bins_control": 42.9566430264697,
+      "actual_rows": [
+        {
+          "excel_row": 3,
+          "values": [
+            -0.0048048,
+            6.84708,
+            9.76522,
+            3.12493
+          ]
+        },
+        {
+          "excel_row": 4,
+          "values": [
+            -0.0042042,
+            7.18119,
+            4.86304,
+            2.20523
+          ]
+        },
+        {
+          "excel_row": 5,
+          "values": [
+            -0.0036036,
+            7.58695,
+            9.76522,
+            3.12493
+          ]
+        },
+        {
+          "excel_row": 6,
+          "values": [
+            -0.003003,
+            8.19568,
+            5.84348,
+            2.41733
+          ]
+        },
+        {
+          "excel_row": 7,
+          "values": [
+            -0.0024024,
+            8.8761,
+            8.78478,
+            2.96391
+          ]
+        },
+        {
+          "excel_row": 8,
+          "values": [
+            -0.0018018,
+            9.91499,
+            8.78478,
+            2.96391
+          ]
+        },
+        {
+          "excel_row": 9,
+          "values": [
+            -0.0012012,
+            11.4496,
+            4.86304,
+            2.20523
+          ]
+        },
+        {
+          "excel_row": 10,
+          "values": [
+            -0.000600601,
+            13.7438,
+            18.5891,
+            4.31151
+          ]
+        },
+        {
+          "excel_row": 11,
+          "values": [
+            1.23599e-17,
+            17.3988,
+            21.5304,
+            4.64009
+          ]
+        },
+        {
+          "excel_row": 12,
+          "values": [
+            0.000600601,
+            23.2005,
+            25.4522,
+            5.04501
+          ]
+        },
+        {
+          "excel_row": 13,
+          "values": [
+            0.0012012,
+            31.2681,
+            29.3739,
+            5.41977
+          ]
+        },
+        {
+          "excel_row": 14,
+          "values": [
+            0.0018018,
+            38.194,
+            31.3348,
+            5.59775
+          ]
+        },
+        {
+          "excel_row": 15,
+          "values": [
+            0.0024024,
+            40.55,
+            43.1,
+            6.56506
+          ]
+        },
+        {
+          "excel_row": 16,
+          "values": [
+            0.003003,
+            40.4784,
+            27.413,
+            5.23575
+          ]
+        },
+        {
+          "excel_row": 17,
+          "values": [
+            0.0036036,
+            39.1006,
+            42.1196,
+            6.48996
+          ]
+        },
+        {
+          "excel_row": 18,
+          "values": [
+            0.0042042,
+            36.4773,
+            32.3152,
+            5.68465
+          ]
+        },
+        {
+          "excel_row": 19,
+          "values": [
+            0.0048048,
+            33.6427,
+            33.2957,
+            5.77024
+          ]
+        },
+        {
+          "excel_row": 20,
+          "values": [
+            0.00540541,
+            30.7808,
+            23.4913,
+            4.84678
+          ]
+        },
+        {
+          "excel_row": 21,
+          "values": [
+            0.00600601,
+            28.1613,
+            28.3935,
+            5.32855
+          ]
+        },
+        {
+          "excel_row": 22,
+          "values": [
+            0.00660661,
+            25.6511,
+            22.5109,
+            4.74456
+          ]
+        },
+        {
+          "excel_row": 23,
+          "values": [
+            0.00720721,
+            23.4103,
+            18.5891,
+            4.31151
+          ]
+        },
+        {
+          "excel_row": 24,
+          "values": [
+            0.00780781,
+            21.3185,
+            16.6283,
+            4.07778
+          ]
+        },
+        {
+          "excel_row": 25,
+          "values": [
+            0.00840841,
+            19.4748,
+            10.7457,
+            3.27806
+          ]
+        },
+        {
+          "excel_row": 26,
+          "values": [
+            0.00900901,
+            17.6937,
+            23.4913,
+            4.84678
+          ]
+        },
+        {
+          "excel_row": 27,
+          "values": [
+            0.00960961,
+            16.207,
+            14.6674,
+            3.8298
+          ]
+        },
+        {
+          "excel_row": 28,
+          "values": [
+            0.0102102,
+            14.7209,
+            12.7065,
+            3.56462
+          ]
+        },
+        {
+          "excel_row": 29,
+          "values": [
+            0.0108108,
+            13.0178,
+            12.7065,
+            3.56462
+          ]
+        },
+        {
+          "excel_row": 30,
+          "values": [
+            0.0114114,
+            11.0293,
+            9.76522,
+            3.12493
+          ]
+        },
+        {
+          "excel_row": 31,
+          "values": [
+            0.012012,
+            9.35111,
+            8.78478,
+            2.96391
+          ]
+        },
+        {
+          "excel_row": 32,
+          "values": [
+            0.0126126,
+            8.26165,
+            9.76522,
+            3.12493
+          ]
+        },
+        {
+          "excel_row": 33,
+          "values": [
+            0.0132132,
+            7.499,
+            12.7065,
+            3.56462
+          ]
+        },
+        {
+          "excel_row": 34,
+          "values": [
+            0.0138138,
+            6.97478,
+            9.76522,
+            3.12493
+          ]
+        },
+        {
+          "excel_row": 35,
+          "values": [
+            0.0144144,
+            6.60996,
+            7.80435,
+            2.79363
+          ]
+        },
+        {
+          "excel_row": 36,
+          "values": [
+            0.015015,
+            6.35361,
+            9.76522,
+            3.12493
+          ]
+        },
+        {
+          "excel_row": 37,
+          "values": [
+            0.0156156,
+            6.14289,
+            4.86304,
+            2.20523
+          ]
+        },
+        {
+          "excel_row": 38,
+          "values": [
+            0.0162162,
+            5.97178,
+            6.82391,
+            2.61226
+          ]
+        },
+        {
+          "excel_row": 39,
+          "values": [
+            0.0168168,
+            5.81831,
+            5.84348,
+            2.41733
+          ]
+        }
+      ],
+      "boundary": "displayed graph values only; original fit window/model normalization/covariance not recovered"
+    }
+  ],
+  "SI_grids": [
+    {
+      "sheet": "figure 1 (a)",
+      "n": 1147,
+      "grid_dimensions": [
+        37,
+        31
+      ],
+      "min_all_row_tau_energy_chi2": [
+        568.0,
+        11.3,
+        7.33306,
+        17.1982
+      ],
+      "min_positive_row_tau_energy_chi2": [
+        568.0,
+        11.3,
+        7.33306,
+        17.1982
+      ],
+      "zero_points": 0,
+      "zero_tau_slices": [],
+      "boundary": "zero slice retained, not interpreted as optimum; no reconstructed coverage or fit"
+    },
+    {
+      "sheet": "figure 1 (b)",
+      "n": 1178,
+      "grid_dimensions": [
+        38,
+        31
+      ],
+      "min_all_row_tau_energy_chi2": [
+        2.0,
+        0.31875,
+        4.83602,
+        0.0
+      ],
+      "min_positive_row_tau_energy_chi2": [
+        329.0,
+        3.94375,
+        4.84006,
+        16.4762
+      ],
+      "zero_points": 31,
+      "zero_tau_slices": [
+        0.31875
+      ],
+      "boundary": "zero slice retained, not interpreted as optimum; no reconstructed coverage or fit"
+    }
+  ],
+  "Table1_quadrature_from_printed_components_pct": 26.52527096939822,
+  "Table1_reported_pct": 26,
+  "conditional_rate_centers": [
+    {
+      "label": "new F23 only",
+      "tau_fs": 11,
+      "Bp": 0.0068,
+      "J": 3.5,
+      "omega_gamma_meV_conditional": 0.2309301603133997
+    },
+    {
+      "label": "F23 recommended inputs",
+      "tau_fs": 10.2,
+      "Bp": 0.0066,
+      "J": 3.5,
+      "omega_gamma_meV_conditional": 0.24176622984299362
+    },
+    {
+      "label": "old branch condition",
+      "tau_fs": 10,
+      "Bp": 0.037,
+      "J": 3.5,
+      "omega_gamma_meV_conditional": 1.3401571563602224
+    },
+    {
+      "label": "alternative J3p2 at fixed values",
+      "tau_fs": 10.2,
+      "Bp": 0.0066,
+      "J": 1.5,
+      "omega_gamma_meV_conditional": 0.12088311492149681
+    },
+    {
+      "label": "alternative J5p2 at fixed values",
+      "tau_fs": 10.2,
+      "Bp": 0.0066,
+      "J": 2.5,
+      "omega_gamma_meV_conditional": 0.1813246723822452
+    }
+  ],
+  "BR_inverse_variance_control_if_independent_printed_scales": {
+    "mean_percent": 0.6554390934844193,
+    "scale_percent": 0.07238549617607953
+  },
+  "Eq3_4_point_inversion_control": [
+    {
+      "beta": 0.03,
+      "theta_deg": 120,
+      "R": 0.9847782253245437,
+      "recovered_beta": 0.0299999999999999
+    },
+    {
+      "beta": 0.03,
+      "theta_deg": 150,
+      "R": 0.9742384415135881,
+      "recovered_beta": 0.030000000000000016
+    },
+    {
+      "beta": 0.03,
+      "theta_deg": 170,
+      "R": 0.9708663960843258,
+      "recovered_beta": 0.0300000000000001
+    },
+    {
+      "beta": 0.075,
+      "theta_deg": 120,
+      "R": 0.9611407554303194,
+      "recovered_beta": 0.07500000000000032
+    },
+    {
+      "beta": 0.075,
+      "theta_deg": 150,
+      "R": 0.9363648525453225,
+      "recovered_beta": 0.07500000000000001
+    },
+    {
+      "beta": 0.075,
+      "theta_deg": 170,
+      "R": 0.9285968318051361,
+      "recovered_beta": 0.07500000000000014
+    },
+    {
+      "beta": 0.1,
+      "theta_deg": 120,
+      "R": 0.9476070829586857,
+      "recovered_beta": 0.10000000000000007
+    },
+    {
+      "beta": 0.1,
+      "theta_deg": 150,
+      "R": 0.9156866472630222,
+      "recovered_beta": 0.09999999999999996
+    },
+    {
+      "beta": 0.1,
+      "theta_deg": 170,
+      "R": 0.9057850255356346,
+      "recovered_beta": 0.1
+    }
+  ],
+  "graph_level_Pearson_not_equal_published_grid_minimum": true,
+  "original_fit_not_replayed": true,
+  "no_new_experimental_tau_Bp_spin_or_CI": true,
+  "ok": true
+}

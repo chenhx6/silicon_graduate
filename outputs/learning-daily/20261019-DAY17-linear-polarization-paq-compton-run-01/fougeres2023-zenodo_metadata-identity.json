@@ -1,0 +1,122 @@
+{
+  "url": "https://zenodo.org/api/records/8044973",
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/8044973",
+  "bytes": 3613,
+  "sha256": "b3192a41959f679b07d566fb915fb7988dee90b51df37d1b140e62e4272f00da",
+  "json": {
+    "created": "2023-06-15T21:10:23.834375+00:00",
+    "modified": "2023-06-16T14:27:06.807909+00:00",
+    "id": 8044973,
+    "conceptrecid": "8044972",
+    "doi": "10.5281/zenodo.8044973",
+    "conceptdoi": "10.5281/zenodo.8044972",
+    "doi_url": "https://doi.org/10.5281/zenodo.8044973",
+    "metadata": {
+      "title": "CFougeres/EVASIONScode: EVASIONS",
+      "doi": "10.5281/zenodo.8044973",
+      "publication_date": "2023-06-15",
+      "description": "<p>Public release of EVASIONS code</p>",
+      "access_right": "open",
+      "creators": [
+        {
+          "name": "Chloé Fougères",
+          "affiliation": null
+        }
+      ],
+      "related_identifiers": [
+        {
+          "identifier": "https://github.com/CFougeres/EVASIONScode/tree/v1.0.0",
+          "relation": "isSupplementTo",
+          "scheme": "url"
+        }
+      ],
+      "version": "v1.0.0",
+      "resource_type": {
+        "title": "Software",
+        "type": "software"
+      },
+      "license": {
+        "id": "other-open"
+      },
+      "relations": {
+        "version": [
+          {
+            "index": 0,
+            "is_last": true,
+            "parent": {
+              "pid_type": "recid",
+              "pid_value": "8044972"
+            }
+          }
+        ]
+      }
+    },
+    "title": "CFougeres/EVASIONScode: EVASIONS",
+    "links": {
+      "self": "https://zenodo.org/api/records/8044973",
+      "self_html": "https://zenodo.org/records/8044973",
+      "preview_html": "https://zenodo.org/records/8044973?preview=1",
+      "doi": "https://doi.org/10.5281/zenodo.8044973",
+      "self_doi": "https://doi.org/10.5281/zenodo.8044973",
+      "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8044973",
+      "reserve_doi": "https://zenodo.org/api/records/8044973/draft/pids/doi",
+      "parent": "https://zenodo.org/api/records/8044972",
+      "parent_html": "https://zenodo.org/records/8044972",
+      "parent_doi": "https://doi.org/10.5281/zenodo.8044972",
+      "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8044972",
+      "self_iiif_manifest": "https://zenodo.org/api/iiif/record:8044973/manifest",
+      "self_iiif_sequence": "https://zenodo.org/api/iiif/record:8044973/sequence/default",
+      "files": "https://zenodo.org/api/records/8044973/files",
+      "media_files": "https://zenodo.org/api/records/8044973/media-files",
+      "latest": "https://zenodo.org/api/records/8044973/versions/latest",
+      "latest_html": "https://zenodo.org/records/8044973/latest",
+      "versions": "https://zenodo.org/api/records/8044973/versions",
+      "draft": "https://zenodo.org/api/records/8044973/draft",
+      "access_links": "https://zenodo.org/api/records/8044973/access/links",
+      "access_grants": "https://zenodo.org/api/records/8044973/access/grants",
+      "access_users": "https://zenodo.org/api/records/8044973/access/users",
+      "access_request": "https://zenodo.org/api/records/8044973/access/request",
+      "access": "https://zenodo.org/api/records/8044973/access",
+      "communities": "https://zenodo.org/api/records/8044973/communities",
+      "communities-suggestions": "https://zenodo.org/api/records/8044973/communities-suggestions",
+      "request_deletion": "https://zenodo.org/api/records/8044973/request-deletion",
+      "file_modification": "https://zenodo.org/api/records/8044973/file-modification",
+      "quota_increase": "https://zenodo.org/api/records/8044973/quota-increase",
+      "requests": "https://zenodo.org/api/records/8044973/requests"
+    },
+    "updated": "2023-06-16T14:27:06.807909+00:00",
+    "recid": "8044973",
+    "revision": 3,
+    "files": [
+      {
+        "id": "fd9249e1-eccb-4f9e-9c23-fb0471a50d1d",
+        "key": "CFougeres/EVASIONScode-v1.0.0.zip",
+        "size": 15494623,
+        "checksum": "md5:ee3579b86bcdf8b7d6e16d598f6b4485",
+        "links": {
+          "self": "https://zenodo.org/api/records/8044973/files/CFougeres/EVASIONScode-v1.0.0.zip/content"
+        }
+      }
+    ],
+    "swh": {},
+    "owners": [
+      {
+        "id": "569717"
+      }
+    ],
+    "status": "published",
+    "stats": {
+      "downloads": 34,
+      "unique_downloads": 33,
+      "views": 166,
+      "unique_views": 149,
+      "version_downloads": 34,
+      "version_unique_downloads": 33,
+      "version_unique_views": 149,
+      "version_views": 166
+    },
+    "state": "done",
+    "submitted": true
+  }
+}

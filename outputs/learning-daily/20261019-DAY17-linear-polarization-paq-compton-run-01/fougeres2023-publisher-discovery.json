@@ -1,0 +1,1014 @@
+{
+  "url": "https://www.nature.com/articles/s41467-023-40121-3",
+  "status": 200,
+  "bytes": 556353,
+  "sha256": "bec95adeae925de4039cdfe17948e475ee2f21a18275ee31d624e15f8397cfbf",
+  "links": [
+    {
+      "text": "Download PDF",
+      "href": "/articles/s41467-023-40121-3.pdf"
+    },
+    {
+      "text": "Download PDF",
+      "href": "/articles/s41467-023-40121-3.pdf"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1999ApJ...520..347J"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2002ApJS..142..105I"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=The%20effects%20of%20thermonuclear%20reaction-rate%20variations%20on%20nova%20nucleosynthesis%3A%20a%20sensitivity%20study&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.1086%2F341400&volume=142&pages=105-137&publication_year=2002&author=Iliadis%2CC&author=Champagne%2CA&author=Jos%C3%A9%2CJ&author=Starrfield%2CS&author=Tupper%2CP"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2003NuPhA.718..620H"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2004PhRvL..92c1101J"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010PhRvL.105o2501S"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1974ApJ...187L.101C"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1998MNRAS.296..913G"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2001ApJ...551.1065A"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1996NuPhA.601..168S"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1990NuPhA.514..471S"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2016PhRvC..93b5802K"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011NIMPA.646..184R"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2012NIMPA.668...26A"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2017NIMPA.855....1C"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2021NDS...171....1S"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Nuclear%20data%20sheets%20for%20A%E2%80%89%3D%E2%80%8923&journal=Nucl.%20Data%20Sheets&doi=10.1016%2Fj.nds.2020.12.001&volume=171&pages=1-252&publication_year=2021&author=Shamsuzzoha%20Basunia%2CM&author=Chakraborty%2CA"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2006PhRvC..74c4315B"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1989NuPhA.491....1O"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014NDS...120..115B"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=The%20shell-model%20code%20NuShellX%40MSU&journal=Nucl.%20Data%20Sheets&doi=10.1016%2Fj.nds.2014.07.022&volume=120&pages=115-118&publication_year=2014&author=Brown%2CBA&author=Rae%2CWDM"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2008PhRvC..78f4302R"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020EPJA...56..108K"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011PhRvC..83d5808S"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2020PhRvC.101e2802F"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010NuPhA.841....1L"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1996ApJ...460..489R"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2011ApJS..192....3P"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Modules%20for%20experiments%20in%20stellar%20astrophysics%20%28MESA%29&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.1088%2F0067-0049%2F192%2F1%2F3&volume=192&publication_year=2011&author=Paxton%2CB"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2013ApJS..208....4P"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Modules%20for%20experiments%20in%20stellar%20astrophysics%20%28MESA%29%3A%20planets%2C%20oscillations%2C%20rotation%2C%20and%20massive%20stars&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.1088%2F0067-0049%2F208%2F1%2F4&volume=208&publication_year=2013&author=Paxton%2CB"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2015ApJS..220...15P"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Modules%20for%20experiments%20in%20stellar%20astrophysics%20%28MESA%29%3A%20binaries%2C%20pulsations%2C%20and%20explosions&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.1088%2F0067-0049%2F220%2F1%2F15&volume=220&publication_year=2015&author=Paxton%2CB"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018ApJS..234...34P"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Modules%20for%20experiments%20in%20stellar%20astrophysics%20%28MESA%29%3A%20convective%20boundaries%2C%20element%20diffusion%2C%20and%20massive%20star%20explosions&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.3847%2F1538-4365%2Faaa5a8&volume=234&publication_year=2018&author=Paxton%2CB"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2019ApJS..243...10P"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Modules%20for%20experiments%20in%20stellar%20astrophysics%20%28MESA%29%3A%20pulsating%20variable%20stars%2C%20rotation%2C%20convective%20boundaries%2C%20and%20energy%20conservation&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.3847%2F1538-4365%2Fab2241&volume=243&publication_year=2019&author=Paxton%2CB"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2014MNRAS.442.2058D"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1998ApJ...494..680J"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2018JHEAp..19....1D"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=1993ApJS...86..657S"
+    },
+    {
+      "text": "Google Scholar",
+      "href": "http://scholar.google.com/scholar_lookup?&title=Instrument%20description%20and%20performance%20of%20the%20imaging%20gamma-ray%20telescope%20COMPTEL%20aboard%20the%20Compton%20Gamma-Ray%20Observatory&journal=Astrophys.%20J.%20Suppl.%20Ser.&doi=10.1086%2F191794&volume=86&publication_year=1993&author=Schoenfelder%2CV"
+    },
+    {
+      "text": "ADS",
+      "href": "http://adsabs.harvard.edu/cgi-bin/nph-data_query?link_type=ABSTRACT&bibcode=2010NIMPA.621..331F"
+    },
+    {
+      "text": "https://www.agata.org/acc/data_policy",
+      "href": "https://www.agata.org/acc/data_policy"
+    },
+    {
+      "text": "https://doi.org/10.6084/m9.figshare.22666537",
+      "href": "https://doi.org/10.6084/m9.figshare.22666537"
+    },
+    {
+      "text": "Supplementary Information (download PDF )",
+      "href": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40121-3/MediaObjects/41467_2023_40121_MOESM1_ESM.pdf"
+    },
+    {
+      "text": "Peer Review File (download PDF )",
+      "href": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40121-3/MediaObjects/41467_2023_40121_MOESM2_ESM.pdf"
+    },
+    {
+      "text": "Reprints and permissions",
+      "href": "https://s100.copyright.com/AppDispatchServlet?title=Search%20for%2022Na%20in%20novae%20supported%20by%20a%20novel%20method%20for%20measuring%20femtosecond%20nuclear%20lifetimes&author=Chlo%C3%A9%20Foug%C3%A8res%20et%20al&contentID=10.1038%2Fs41467-023-40121-3&copyright=This%20is%20a%20U.S.%20Government%20work%20and%20not%20under%20copyright%20protection%20in%20the%20US%3B%20foreign%20copyright%20protection%20may%20apply&publication=2041-1723&publicationDate=2023-09-05&publisherName=SpringerNature&orderBeanReset=true&oa=CC%20BY"
+    },
+    {
+      "text": "Download PDF",
+      "href": "/articles/s41467-023-40121-3.pdf"
+    },
+    {
+      "text": "Language editing services",
+      "href": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022"
+    },
+    {
+      "text": "Contact us",
+      "href": "https://support.nature.com/support/home"
+    },
+    {
+      "text": "Research data",
+      "href": "https://www.springernature.com/gp/authors/research-data"
+    }
+  ],
+  "meta": [
+    {
+      "name": "citation_pdf_url",
+      "content": "https://www.nature.com/articles/s41467-023-40121-3.pdf"
+    },
+    {
+      "name": "citation_fulltext_html_url",
+      "content": "https://www.nature.com/articles/s41467-023-40121-3"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "Nature Communications"
+    },
+    {
+      "name": "citation_journal_abbrev",
+      "content": "Nat Commun"
+    },
+    {
+      "name": "citation_publisher",
+      "content": "Nature Publishing Group"
+    },
+    {
+      "name": "citation_issn",
+      "content": "2041-1723"
+    },
+    {
+      "name": "citation_title",
+      "content": "Search for 22Na in novae supported by a novel method for measuring femtosecond nuclear lifetimes"
+    },
+    {
+      "name": "citation_volume",
+      "content": "14"
+    },
+    {
+      "name": "citation_issue",
+      "content": "1"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2023/09/05"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "4536"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": ""
+    },
+    {
+      "name": "citation_article_type",
+      "content": "Article"
+    },
+    {
+      "name": "citation_fulltext_world_readable",
+      "content": ""
+    },
+    {
+      "name": "citation_language",
+      "content": "en"
+    },
+    {
+      "name": "citation_doi",
+      "content": "10.1038/s41467-023-40121-3"
+    },
+    {
+      "name": "citation_springer_api_url",
+      "content": "http://api.springer.com/xmldata/jats?q=doi:10.1038/s41467-023-40121-3&api_key="
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J.; citation_title=Nuclear uncertainties in the NeNa–MgAl cycles and production of 22Na and 26Al during Nova outbursts; citation_author=J José, A Coc, M Hernanz; citation_volume=520; citation_publication_date=1999; citation_pages=347-360; citation_id=CR1"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=The effects of thermonuclear reaction-rate variations on nova nucleosynthesis: a sensitivity study; citation_author=C Iliadis, A Champagne, J José, S Starrfield, P Tupper; citation_volume=142; citation_publication_date=2002; citation_pages=105-137; citation_doi=10.1086/341400; citation_id=CR2"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Phys. A; citation_title=Impact of nuclear reaction rate uncertainties on Nova models; citation_author=WR Hix, MS Smith, S Starrfield, A Mezzacappa, DL Smith; citation_volume=718; citation_publication_date=2003; citation_pages=620-622; citation_doi=10.1016/S0375-9474(03)00904-7; citation_id=CR3"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phy. Rev. Lett.; citation_title=Reevaluation of the 22Na(p, γ) reaction rate: implications for the detection of 22Na gamma rays from Novae; citation_author=DG Jenkins; citation_volume=92; citation_publication_date=2004; citation_pages=031101; citation_doi=10.1103/PhysRevLett.92.031101; citation_id=CR4"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phy. Rev. Lett.; citation_title=Direct measurements of 22Na(p, γ)23Mg resonances and consequences for 22Na production in classical Novae; citation_author=AL Sallaska; citation_volume=105; citation_publication_date=2010; citation_pages=152501; citation_doi=10.1103/PhysRevLett.105.152501; citation_id=CR5"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J.; citation_title=Gamma-ray lines from novae; citation_author=DD Clayton, F Hoyle; citation_volume=187; citation_publication_date=1974; citation_pages=L101; citation_doi=10.1086/181406; citation_id=CR6"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Mon. Not. R. Astron. Soc.; citation_title=Gamma-ray emission from individual classical novae; citation_author=J Gómez-Gomar, M Hernanz, J José, J Isern; citation_volume=296; citation_publication_date=1998; citation_pages=913-920; citation_doi=10.1046/j.1365-8711.1998.01421.x; citation_id=CR7"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J.; citation_title=Presolar grains from novae; citation_author=S Amari; citation_volume=551; citation_publication_date=2001; citation_pages=1065-1072; citation_doi=10.1086/320235; citation_id=CR8"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Phys. A; citation_title=22Na(p,γ)23Mg resonant reaction at low energies; citation_author=F Stegmüller; citation_volume=601; citation_publication_date=1996; citation_pages=168-180; citation_doi=10.1016/0375-9474(96)00084-X; citation_id=CR9"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Phys. A; citation_title=Resonances in the 22Na(p,γ)23Mg reactions; citation_author=S Seuthe; citation_volume=514; citation_publication_date=1990; citation_pages=471-502; citation_doi=10.1016/0375-9474(90)90153-D; citation_id=CR10"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=EPJ Web Conf.; citation_title=Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg; citation_author=C Fougères, F Oliveira Santos, NA Smirnova, C Michelagnoli; citation_volume=279; citation_publication_date=2023; citation_pages=09001; citation_doi=10.1051/epjconf/202327909001; citation_id=CR11"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phy. Rev. C; citation_title=Measurement of lifetimes in 23Mg; citation_author=OS Kirsebom; citation_volume=93; citation_publication_date=2016; citation_pages=025802; citation_doi=10.1103/PhysRevC.93.025802; citation_id=CR12"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Instrum. Methods Phys. Res. Sect. A; citation_title=Performance of the improved larger acceptance spectrometer: Vamos++; citation_author=M Rejmund; citation_volume=646; citation_publication_date=2011; citation_pages=184-191; citation_doi=10.1016/j.nima.2011.05.007; citation_id=CR13"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Instrum. Methods Phys. Res. Sect. A; citation_title=AGATA—Advanced GAmma tracking array; citation_author=S Akkoyun; citation_volume=668; citation_publication_date=2012; citation_pages=26-58; citation_doi=10.1016/j.nima.2011.11.081; citation_id=CR14"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Instrum. Methods Phys. Res. Sect. A; citation_title=Conceptual design of the AGATA 1π array at GANIL; citation_author=E Clément; citation_volume=855; citation_publication_date=2017; citation_pages=1-12; citation_doi=10.1016/j.nima.2017.02.063; citation_id=CR15"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Data Sheets; citation_title=Nuclear data sheets for A = 23; citation_author=M Shamsuzzoha Basunia, A Chakraborty; citation_volume=171; citation_publication_date=2021; citation_pages=1-252; citation_doi=10.1016/j.nds.2020.12.001; citation_id=CR16"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phys. Rev. C; citation_title=New “USD” Hamiltonians for the sd shell; citation_author=BA Brown, WA Richter; citation_volume=74; citation_publication_date=2006; citation_pages=034315; citation_doi=10.1103/PhysRevC.74.034315; citation_id=CR17"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Phys. A; citation_title=Empirical isospin-nonconserving hamiltonians for shell-model calculations; citation_author=WE Ormand, BA Brown; citation_volume=491; citation_publication_date=1989; citation_pages=1-23; citation_doi=10.1016/0375-9474(89)90203-0; citation_id=CR18"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Data Sheets; citation_title=The shell-model code NuShellX@MSU; citation_author=BA Brown, WDM Rae; citation_volume=120; citation_publication_date=2014; citation_pages=115-118; citation_doi=10.1016/j.nds.2014.07.022; citation_id=CR19"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phys. Rev. C; citation_title=sd-shell observables for the usda and usdb hamiltonians; citation_author=WA Richter, S Mkhize, BA Brown; citation_volume=78; citation_publication_date=2008; citation_pages=064302; citation_doi=10.1103/PhysRevC.78.064302; citation_id=CR20"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Eur. Phys. J. A; citation_title=Spin assignments for 23Mg levels and the astrophysical 22Na(p,γ)23Mg reaction; citation_author=MS Kwag; citation_volume=56; citation_publication_date=2020; citation_doi=10.1140/epja/s10050-020-00106-y; citation_id=CR21"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phys. Rev. C; citation_title=Experimental study of β-delayed proton decay of 23Al for nucleosynthesis in novae; citation_author=A Saastamoinen; citation_volume=83; citation_publication_date=2011; citation_pages=045808; citation_doi=10.1103/PhysRevC.83.045808; citation_id=CR22"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Phys. Rev. C; citation_title=Low-energy 23Alβ-delayed proton decay and 22Na destruction in novae.; citation_author=M Friedman; citation_volume=101; citation_publication_date=2020; citation_pages=052802; citation_doi=10.1103/PhysRevC.101.052802; citation_id=CR23"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Phys. A; citation_title=Charged-particle thermonuclear reaction rates: I. Monte Carlo method and statistical distributions; citation_author=R Longland; citation_volume=841; citation_publication_date=2010; citation_pages=1-30; citation_doi=10.1016/j.nuclphysa.2010.04.008; citation_id=CR24"
+    },
+    {
+      "name": "citation_reference",
+      "content": "Lodders, K., Palme, H. & Gail, H. P. Abundances of the elements in the solar system. Springer-Verlag Berlin Heidelberg, Trümper, J.E. 4B, 712 (2009)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J.; citation_title=On the evolution of stars that form electron-degenerate cores processed by carbon burning. II. Isotope abundances and thermal pulses in a 10Msun model with an ONe Core and Applications to long-period variables, classical novae, and accretion-induced collapse; citation_author=C Ritossa, E Garcia-Berro, JI Iben; citation_volume=460; citation_publication_date=1996; citation_pages=489; citation_doi=10.1086/176987; citation_id=CR26"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=Modules for experiments in stellar astrophysics (MESA); citation_author=B Paxton; citation_volume=192; citation_publication_date=2011; citation_pages=3; citation_doi=10.1088/0067-0049/192/1/3; citation_id=CR27"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=Modules for experiments in stellar astrophysics (MESA): planets, oscillations, rotation, and massive stars; citation_author=B Paxton; citation_volume=208; citation_publication_date=2013; citation_pages=4; citation_doi=10.1088/0067-0049/208/1/4; citation_id=CR28"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=Modules for experiments in stellar astrophysics (MESA): binaries, pulsations, and explosions; citation_author=B Paxton; citation_volume=220; citation_publication_date=2015; citation_pages=15; citation_doi=10.1088/0067-0049/220/1/15; citation_id=CR29"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=Modules for experiments in stellar astrophysics (MESA): convective boundaries, element diffusion, and massive star explosions; citation_author=B Paxton; citation_volume=234; citation_publication_date=2018; citation_pages=34; citation_doi=10.3847/1538-4365/aaa5a8; citation_id=CR30"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=Modules for experiments in stellar astrophysics (MESA): pulsating variable stars, rotation, convective boundaries, and energy conservation; citation_author=B Paxton; citation_volume=243; citation_publication_date=2019; citation_pages=10; citation_doi=10.3847/1538-4365/ab2241; citation_id=CR31"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Mon. Not. R. Astron. Soc.; citation_title=MESA and NuGrid simulations of classical novae: CO and ONe nova nucleosynthesis; citation_author=P Denissenkov; citation_volume=442; citation_publication_date=2014; citation_pages=2058-2074; citation_doi=10.1093/mnras/stu1000; citation_id=CR32"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J.; citation_title=Nucleosynthesis in classical novae: CO versus ONe white dwarfs; citation_author=J José, M Hernanz; citation_volume=494; citation_publication_date=1998; citation_pages=680-690; citation_doi=10.1086/305244; citation_id=CR33"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=CRC, Taylor and Francis, Boca Raton, FL, USA; citation_title=Stellar explosions: hydrodynamics and nucleosynthesis; citation_author=J José; citation_volume=10; citation_publication_date=2016; citation_pages=b19165; citation_id=CR34"
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=J. High Energy Astrophys.; citation_title=Science with e-ASTROGAM. A space mission for MeV–GeV gamma-ray astrophysics; citation_author=A Angelis; citation_volume=19; citation_publication_date=2018; citation_pages=1-106; citation_id=CR35"
+    },
+    {
+      "name": "citation_reference",
+      "content": "Tomsick, J. et al. The Compton spectrometer and imager. Bull. AAS 51, 7 (2020)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "Vedrenne, G. et al. Spi: The spectrometer aboard integral. Astron. Astrophys. 411, L63-L70 (2003)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Astrophys. J. Suppl. Ser.; citation_title=Instrument description and performance of the imaging gamma-ray telescope COMPTEL aboard the Compton Gamma-Ray Observatory; citation_author=V Schoenfelder; citation_volume=86; citation_publication_date=1993; citation_pages=657; citation_doi=10.1086/191794; citation_id=CR38"
+    },
+    {
+      "name": "citation_reference",
+      "content": "Ziegler, J. F., Biersack, J. P. & Ziegler, M. D. SRIM—The Stopping and Range of Ions in Matter 6th edn (SRIM Co., USA, 2013)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "Fougères, C. et al. Search for 22Na in novae supported by a novel method for measuring femtosecond nuclear lifetimes \n                  https://doi.org/10.5281/zenodo.8044973\n                  \n                 (2023)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "Labiche, M. et al. AGATA Geant4 simulations Library \n                  http://npg.dl.ac.uk/svn/agata/\n                  \n                 (2022)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "citation_journal_title=Nucl. Instrum. Methods Phys. Res. Sect. A; citation_title=Conceptual design and Monte Carlo simulations of the AGATA array; citation_author=E Farnea; citation_volume=621; citation_publication_date=2010; citation_pages=331-343; citation_doi=10.1016/j.nima.2010.04.043; citation_id=CR42"
+    },
+    {
+      "name": "citation_reference",
+      "content": "Michelagnoli, C. et al. E710 GANIL dataset. \n                  https://u.ganil-spiral2.eu/10.26143/GANIL-2016-E710.html\n                  \n                 (2016)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "The AGATA collaboration. AGATA Data Policy \n                  https://www.agata.org/acc/data_policy\n                  \n                 (2023)."
+    },
+    {
+      "name": "citation_reference",
+      "content": "Fougères, C. et al. Search for 22Na in novae supported by a novel method for measuring femtosecond nuclear lifetimes. Figshare. Dataset. \n                  https://doi.org/10.6084/m9.figshare.22666537\n                  \n                 (2023)."
+    },
+    {
+      "name": "citation_author",
+      "content": "Fougères, Chloé"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Physics Division, Argonne National Laboratory, Lemont, USA"
+    },
+    {
+      "name": "citation_author",
+      "content": "de Oliveira Santos, François"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "José, Jordi"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Departament de Física, EEBE, Universitat Politècnica de Catalunya, Barcelona, Spain"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institut d’Estudis Espacials de Catalunya, Barcelona, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Michelagnoli, Caterina"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institut Laue-Langevin, Grenoble, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Clément, Emmanuel"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Kim, Yung Hee"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Center for Exotic Nuclear Studies, Institute for Basic Science, Daejeon, Republic of Korea"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lemasson, Antoine"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Guimarães, Valdir"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Instituto de Física, Universidade de São Paulo, São Paulo, Brazil"
+    },
+    {
+      "name": "citation_author",
+      "content": "Barrientos, Diego"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "CERN, Geneva, Switzerland"
+    },
+    {
+      "name": "citation_author",
+      "content": "Bemmerer, Daniel"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Helmholtz-Zentrum Dresden-Rossendorf, Institute of Ion Beam Physics and Materials Research, Dresden, Germany"
+    },
+    {
+      "name": "citation_author",
+      "content": "Benzoni, Giovanna"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Boston, Andrew J."
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Oliver Lodge Laboratory, University of Liverpool, Liverpool, UK"
+    },
+    {
+      "name": "citation_author",
+      "content": "Böttger, Roman"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Helmholtz-Zentrum Dresden-Rossendorf, Institute of Ion Beam Physics and Materials Research, Dresden, Germany"
+    },
+    {
+      "name": "citation_author",
+      "content": "Boulay, Florent"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Bracco, Angela"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Čeliković, Igor"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Vinca Institute of Nuclear Sciences, University of Belgrade, Belgrade, Serbia"
+    },
+    {
+      "name": "citation_author",
+      "content": "Cederwall, Bo"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Department of Physics, KTH Royal Institute of Technology, Stockholm, Sweden"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ciemala, Michał"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institute of Nuclear Physics Polish Academy of Sciences, Kraków, Poland"
+    },
+    {
+      "name": "citation_author",
+      "content": "Delafosse, Clément"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie, CNRS/IN2P3, Université Paris-Saclay, Orsay, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Domingo-Pardo, César"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Instituto de Física Corpuscular, CSIC-Universidad de Valencia, Valencia, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Dudouet, Jérémie"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Université Lyon, Université Claude Bernard Lyon 1, CNRS/IN2P3, IP2I Lyon, UMR 5822, Villeurbanne, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Eberth, Jürgen"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institut für Kernphysik, Universität zu Köln, Köln, Germany"
+    },
+    {
+      "name": "citation_author",
+      "content": "Fülöp, Zsolt"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institute for Nuclear Research (ATOMKI), Debrecen, Hungary"
+    },
+    {
+      "name": "citation_author",
+      "content": "González, Vicente"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Departamento de Ingeniería Electrónica, Universitat de Valencia, Valencia, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Gottardo, Andrea"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratori Nazionali di Legnaro INFN, Legnaro, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Goupil, Johan"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Hess, Herbert"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institut für Kernphysik, Universität zu Köln, Köln, Germany"
+    },
+    {
+      "name": "citation_author",
+      "content": "Jungclaus, Andrea"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Instituto de Estructura de la Materia, CSIC, Madrid, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Kaşkaş, Ayşe"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Department of Physics, Faculty of Science, Ankara University, Ankara, Turkey"
+    },
+    {
+      "name": "citation_author",
+      "content": "Korichi, Amel"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie, CNRS/IN2P3, Université Paris-Saclay, Orsay, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lenzi, Silvia M."
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Padova, Padova, Italy"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Dipartimento di Fisica e Astronomia, Universitá degli Studi di Padova, Padova, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Leoni, Silvia"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Dipartimento di Fisica, Università di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Li, Hongjie"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ljungvall, Joa"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie, CNRS/IN2P3, Université Paris-Saclay, Orsay, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lopez-Martens, Araceli"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie, CNRS/IN2P3, Université Paris-Saclay, Orsay, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Menegazzo, Roberto"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Padova, Padova, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mengoni, Daniele"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Padova, Padova, Italy"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Dipartimento di Fisica e Astronomia, Universitá degli Studi di Padova, Padova, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Million, Benedicte"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mrázek, Jaromír"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Nuclear Physics Institute of the Czech Academy of Sciences, Řež, Czech Republic"
+    },
+    {
+      "name": "citation_author",
+      "content": "Napoli, Daniel R."
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratori Nazionali di Legnaro INFN, Legnaro, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Navin, Alahari"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Nyberg, Johan"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden"
+    },
+    {
+      "name": "citation_author",
+      "content": "Podolyák, Zsolt"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Department of Physics, University of Surrey, Guildford, UK"
+    },
+    {
+      "name": "citation_author",
+      "content": "Pullia, Alberto"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Dipartimento di Fisica, Università di Milano, Milano, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Quintana, Begoña"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratorio de Radiaciones Ionizantes, Departamento de Física Fundamental, Universidad de Salamanca, Salamanca, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ralet, Damien"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie, CNRS/IN2P3, Université Paris-Saclay, Orsay, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Redon, Nadine"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Université Lyon, Université Claude Bernard Lyon 1, CNRS/IN2P3, IP2I Lyon, UMR 5822, Villeurbanne, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Reiter, Peter"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institut für Kernphysik, Universität zu Köln, Köln, Germany"
+    },
+    {
+      "name": "citation_author",
+      "content": "Rezynkina, Kseniia"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Istituto Nazionale di Fisica Nucleare, Sezione di Padova, Padova, Italy"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institut pluridisciplinaire Hubert Curien, Université de Strasbourg, CNRS, Strasbourg, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Saillant, Frédéric"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Grand Accélérateur National d’Ions Lourds (GANIL), CEA/DRF-CNRS/IN2P3, Caen, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Salsac, Marie-Delphine"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Irfu, CEA, Université Paris-Saclay, Gif-sur-Yvette, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sánchez-Benítez, Angel M."
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Department of Integrated Sciences, Centro de Estudios Avanzados en Fisica, Matematicas y Computacion (CEAFMC), University of Huelva, Huelva, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sanchis, Enrique"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Departamento de Ingeniería Electrónica, Universitat de Valencia, Valencia, Spain"
+    },
+    {
+      "name": "citation_author",
+      "content": "Şenyiğit, Menekşe"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Department of Physics, Faculty of Science, Ankara University, Ankara, Turkey"
+    },
+    {
+      "name": "citation_author",
+      "content": "Siciliano, Marco"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Physics Division, Argonne National Laboratory, Lemont, USA"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Irfu, CEA, Université Paris-Saclay, Gif-sur-Yvette, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Smirnova, Nadezda A."
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Université de Bordeaux, CNRS/IN2P3, LP2IB, Gradignan, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sohler, Dorottya"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Institute for Nuclear Research (ATOMKI), Debrecen, Hungary"
+    },
+    {
+      "name": "citation_author",
+      "content": "Stanoiu, Mihai"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Horia Hulubei National Institute for R&D in Physics and Nuclear Engineering, IFIN-HH Bucharest, Măgurele, Romania"
+    },
+    {
+      "name": "citation_author",
+      "content": "Theisen, Christophe"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Irfu, CEA, Université Paris-Saclay, Gif-sur-Yvette, France"
+    },
+    {
+      "name": "citation_author",
+      "content": "Valiente-Dobón, Jose J."
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Laboratori Nazionali di Legnaro INFN, Legnaro, Italy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ujić, Predrag"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Vinca Institute of Nuclear Sciences, University of Belgrade, Belgrade, Serbia"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zielińska, Magdalena"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "Irfu, CEA, Université Paris-Saclay, Gif-sur-Yvette, France"
+    }
+  ]
+}

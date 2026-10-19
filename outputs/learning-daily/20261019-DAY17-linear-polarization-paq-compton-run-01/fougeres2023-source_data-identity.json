@@ -1,0 +1,42 @@
+{
+  "url": "https://ndownloader.figshare.com/files/40233709",
+  "status": 200,
+  "final_url": "https://s3-eu-west-1.amazonaws.com/pstorage-npg-968563215/40233709/Source_Data.zip",
+  "bytes": 375909,
+  "sha256": "8bf81222253d2f28e5d2af6678c694fecd0f18563524cfc578049ad269717382",
+  "md5": "269299f50431e8b03772efed1201e5d4",
+  "members": [
+    {
+      "name": "source_data_figures/",
+      "bytes": 0,
+      "compressed": 0,
+      "CRC": 0
+    },
+    {
+      "name": "source_data_figures/data_figures_article.xlsx",
+      "bytes": 212241,
+      "compressed": 163228,
+      "CRC": 3200252704
+    },
+    {
+      "name": "__MACOSX/source_data_figures/._data_figures_article.xlsx",
+      "bytes": 344,
+      "compressed": 191,
+      "CRC": 2797883237
+    },
+    {
+      "name": "source_data_figures/data_figures_supplementary.xlsx",
+      "bytes": 299216,
+      "compressed": 211044,
+      "CRC": 3751301705
+    },
+    {
+      "name": "__MACOSX/source_data_figures/._data_figures_supplementary.xlsx",
+      "bytes": 344,
+      "compressed": 192,
+      "CRC": 3612029784
+    }
+  ],
+  "archive_CRC_ok": true,
+  "final_url_note": "temporary public signed query omitted; canonical downloadURL and payloadhash retained"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "figshare_metadata",
+  "url": "https://api.figshare.com/v2/articles/22666537",
+  "status": 200,
+  "bytes": 4009,
+  "sha256": "4ee839f9b9a48cfd886e4559ab8c658f0acfb0408039255907c3ff7ea496b5a7",
+  "title": "Search for 22Na in novae supported by a novel method for measuring femtosecond nuclear lifetimes",
+  "doi": "10.6084/m9.figshare.22666537.v1",
+  "version": 1,
+  "published_date": "2023-09-29T13:38:49Z",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "files": [
+    {
+      "id": 40233709,
+      "name": "Source_Data.zip",
+      "size": 375909,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/40233709",
+      "supplied_md5": "269299f50431e8b03772efed1201e5d4",
+      "computed_md5": "269299f50431e8b03772efed1201e5d4",
+      "mimetype": "application/zip"
+    }
+  ],
+  "description": "Source data of figures in article and supplementary information",
+  "references": [
+    "https://doi.org/10.1038/s41467-023-40121-3"
+  ]
+}

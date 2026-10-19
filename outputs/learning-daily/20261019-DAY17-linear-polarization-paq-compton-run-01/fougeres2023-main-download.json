@@ -1,0 +1,22 @@
+{
+  "name": "main",
+  "url": "https://www.nature.com/articles/s41467-023-40121-3.pdf",
+  "status": 200,
+  "bytes": 1610353,
+  "sha256": "6652343310f238d7249654411a34713985bf4be73bd7e88d45cccd96158e0be7",
+  "file": "tmp/day17-fougeres2023/main.pdf",
+  "pages": 7,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "Search for 22Na in novae supported by a novel method for measuring femtosecond nuclear lifetimes",
+    "author": "Chloé Fougères",
+    "subject": "Nature Communications, doi:10.1038/s41467-023-40121-3",
+    "keywords": "",
+    "creator": "Springer",
+    "producer": "iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)",
+    "creationDate": "D:20230725163519+05'30'",
+    "modDate": "D:20230727174319+02'00'",
+    "trapped": "",
+    "encryption": null
+  }
+}

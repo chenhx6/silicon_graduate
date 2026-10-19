@@ -1,0 +1,22 @@
+{
+  "name": "supplement",
+  "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40121-3/MediaObjects/41467_2023_40121_MOESM1_ESM.pdf",
+  "status": 200,
+  "bytes": 509477,
+  "sha256": "56a513b755521f0f1f0043d0564a94f8552c51300401282df46cd9ae74be5fb9",
+  "file": "tmp/day17-fougeres2023/supplement.pdf",
+  "pages": 8,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.24",
+    "creationDate": "D:20230710151414Z",
+    "modDate": "D:20230710151414Z",
+    "trapped": "",
+    "encryption": null
+  }
+}

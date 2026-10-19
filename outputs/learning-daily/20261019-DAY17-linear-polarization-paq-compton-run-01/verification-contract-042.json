@@ -1,0 +1,24 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 20,
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 24,
+    "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md": 16
+  },
+  "artifacts": [
+    {
+      "file": "fougeres2023-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "original_fit_not_replayed",
+        "no_new_experimental_tau_Bp_spin_or_CI"
+      ]
+    },
+    {
+      "file": "fougeres2023-producer-source-manifest.json",
+      "true_fields": [
+        "archive_exact_matches_all_Git_blobs"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

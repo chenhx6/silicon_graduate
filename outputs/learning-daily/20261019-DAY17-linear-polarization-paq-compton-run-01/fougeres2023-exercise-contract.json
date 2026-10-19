@@ -1,0 +1,10 @@
+{
+  "identity": "F23-REAL-SOURCE-DATA-CONTRACT-01",
+  "hashes": {
+    "tmp/day17-fougeres2023/main.pdf": "6652343310f238d7249654411a34713985bf4be73bd7e88d45cccd96158e0be7",
+    "tmp/day17-fougeres2023/supplement.pdf": "56a513b755521f0f1f0043d0564a94f8552c51300401282df46cd9ae74be5fb9",
+    "tmp/day17-fougeres2023/data_figures_article.xlsx": "896b291752c1ef94fd6f48841ce6bd22924a1c2768f077888869c5dc4024c1a8",
+    "tmp/day17-fougeres2023/data_figures_supplementary.xlsx": "0b70eb6595d33f723b79d443bef88fa3953527a35e2e53d5568c9731b225e7ff"
+  },
+  "scope": "actualprinted/graphdata/pointalgebra; notfitreplay/Cov/CI"
+}

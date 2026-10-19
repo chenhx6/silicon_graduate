@@ -1,0 +1,44 @@
+{
+  "url": "https://api.github.com/repos/CFougeres/EVASIONScode/commits/main",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/CFougeres/EVASIONScode/commits/main",
+  "bytes": 41378,
+  "sha256": "4466a2b3adf00b58ef2a171c0daaab5efbb2fca34d64ccb5ceaaa51d934707eb",
+  "json": {
+    "sha": "04e8fec825e6344e66430c49921bb4681d9d20f5",
+    "commit": {
+      "author": {
+        "name": "Chloé Fougères",
+        "email": "chloe.fougeres@gmail.com",
+        "date": "2023-06-15T21:19:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-06-15T21:19:22Z"
+      },
+      "message": "Delete LICENSE - GNU General Public License v3.0",
+      "tree": {
+        "sha": "c87f62c8d71ed67bc172c857837d427c55224fac",
+        "url": "https://api.github.com/repos/CFougeres/EVASIONScode/git/trees/c87f62c8d71ed67bc172c857837d427c55224fac"
+      }
+    },
+    "parents": [
+      {
+        "sha": "2c508259fe93e116b68d53f708df13f9c3827ae1",
+        "url": "https://api.github.com/repos/CFougeres/EVASIONScode/commits/2c508259fe93e116b68d53f708df13f9c3827ae1",
+        "html_url": "https://github.com/CFougeres/EVASIONScode/commit/2c508259fe93e116b68d53f708df13f9c3827ae1"
+      }
+    ],
+    "files": [
+      {
+        "filename": "LICENSE - GNU General Public License v3.0",
+        "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 674
+      }
+    ]
+  },
+  "receipt_note": "selected public identity fields; original response hashed and retained in tmp; signature/patch omitted"
+}

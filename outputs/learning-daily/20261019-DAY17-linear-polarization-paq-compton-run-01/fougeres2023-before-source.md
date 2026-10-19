@@ -1,0 +1,5 @@
+# Fougères2023新寿命原件前回忆
+
+已原读J04/K16/Seattle2011与Saastamoinen thesis，Γtotal/branch/spin/原response问题均strongpriming；从Scholar仅知道新title/DOI可能新femtosecond方法，未读任何body/具体τ或data。不是独立盲测。不预设它解决旧争议或给相同7787identity。
+
+先核论文方法是否属于本Day18寿命→强度当前issue。若是，沿实际setup、原量与response、calibration/feeding/stopping、τ置信构造、branch/spin输入和同源旧data依赖完整主线，图表/式/limitations实际读；若涉及其它课程卡不打开。反证为reference/布居/核素邻态或sharedresponse，companion为独立particlebranch、matchingreference和原counts/公开producer。数据availability只按实际取得文件/版本核，不从“available request”假定公开；不联系作者。最高价值是取得真正新输入，不用更多toy填原Σ缺口。

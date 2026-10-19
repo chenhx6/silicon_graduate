@@ -98,3 +98,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint027 priming：ROOT5.22实际误差API
 
 [[root-2008-v522-background-error-contract]]真实tag/hash与原方法表达式组件：Smooth不更新stored errors，Background cloneReset只写content，Add固定a只diagonal。estimated a匹配的Cov不同，不能Sumw2工具名保证fullΣ。currentROOT6.40helpers≠完整旧二进制/exactthesisjob；不据组件重报16%/Bp/τCI。仅本preview知识，不授18。
+
+
+### Day17 checkpoint028 priming：Fougères2023新真实输入
+
+[[fougeres-2023-mg23-velocity-difference-lifetime]]主7/SI8完整原读，新τ11+7−5近旧、BRp.68(.17)%不同旧3.7%，推荐.66(.07)%/10.2(2.6)含旧新组合并assume7/2。真实Figshare图数据与Zenodo34files/409303-entry publicderivedTree已取hash核；全显示区χ²/零grid待匹配producer，不造实验CI。release widthfit分支空、仅partialcode已读，原DAQ/Cov未闭合。仅本Day18知识preview，不兑换正式18学分；正式18需先声明priming/独立卡审计。

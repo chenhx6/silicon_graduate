@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint028：新GANIL原件/实际公开数据
+
+[[fougeres-2023-mg23-velocity-difference-lifetime]] F23-1–20，publisher7页/SI8页全主线/式图表实际读，Figshare375909byteZIP/两XLSX与Zenodo34文件逐hash/CRC/Gitblob核。actualTreeMaster409303entries，仅schema未读event值，不宣称原DAQ/fullfitCov。
+
+
 ### checkpoint027：真实ROOT5.22代码输入
 
 [[root-2008-v522-background-error-contract]] R522-1–11：v5-22-00 tag→a365d2fa4cdc4fea91420c400280dc9fc7c64214，公开tree/blob/hash核；TH1/TSpectrum/TArrayD相关方法实际读。原thesis只指5.22，不认证exactpatch/job。
@@ -105,6 +110,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint028：新branch和真实图数据交叉核
+
+[程序](../../system/scripts/day17_fougeres2023_source_data_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-exercise-result.json)核新τ11/BR.0068中心omega.23093、推荐10.2/.0066给.24177；假J不作测定。Table1名义quadrature26.525对原26保边界。actualFig2right全区Pearson不等SIgridmin，SIfigure1b有31点零切片；不拿显示数据强造原fit/CI。
+
 
 ### checkpoint027：原方法组件与匹配Jacobian
 
@@ -183,6 +193,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint028：新measurement与推荐组合分开
+
+F23-4/7/8/9/10/15/16：assume7/2、邻态/背景/ℓ0模拟和γ高能eff仍需合同；χ²ndf低非自动coverage证明。newbranch.68%对旧约3.7%更新关键，原Friedman2020/全producer参数/fitwindow/normalization/Σ待核。publishedrelease widthfit分支为空/旧fit注释，不能codeavailable就称论文CI已复现。
+
 
 ### checkpoint027：不是所有API都会传播分析误差
 
@@ -392,6 +407,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[新GANIL源](../../knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md)F23-5/8/9/10/11/15/16/18和[[lifetime-strength-audit-165tm-136nd]]“Fougères2023：新τ不变，branch更新改变omega”；保存新branch矩阵、实际图数据边界及公开event/producer可执行入口。
+
 
 新增[ROOT5.22源](../../knowledge/sources/root-2008-v522-background-error-contract.md)R522-2/3/5/8/10/11；canonical [[polarimetry-shared-calibration-count-design]]“真实工具合同补充：平滑与匹配不自动进入Cov”和lifetimeledger同步实际反证/统计合同。
 
@@ -4365,6 +4383,160 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "R522-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "anchor": "新寿命近旧值，分支输入显著改变强度链",
+      "summary": "新增新primary/真实数据/producer身份及图数据复算边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-1"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-5"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-8"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-11"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-15"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "anchor": "新GANIL输入：τ相容，BRp已另测",
+      "summary": "新独立寿命/branch和推荐组合分列，不改旧claims。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-5"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-8"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-9"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "anchor": "历史Bp不是当前唯一输入",
+      "summary": "更新旧branch使用门，保历史分母。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-8"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-9"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Fougères2023：新τ不变，branch更新改变omega",
+      "summary": "写新输入矩阵/实际图数据不闭合和L4入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-5"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-8"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-9"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-10"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-11"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-15"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-16"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "事件级速度差也保留停止和联合能量输入",
+      "summary": "方法与剩余response/cov合同分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-3"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-4"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-5"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[fougeres-2023-mg23-velocity-difference-lifetime]]",
+      "summary": "新增新原件与真实数据入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+          "locator": "F23-1"
+        }
+      ]
     }
   ]
 }
@@ -4527,3 +4699,7 @@ verification040核报告/coverage/唯一writeback/boundary/lint/diff/protected/�
 ### checkpoint027actualAPI/组件验收
 
 verification041核report/course/唯一writeback/boundary/lint/diff与旧claim/review/保护；通过后manifest027/commitguard/H3。初decode/NumPybool失败已留档；发布fixture仅注释/尾空格规范且tokens不变，原源字节不改。同原窗口继续，formal17once/18partial/no19。
+
+### checkpoint028新原件/实际数据验收
+
+verification042核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及实际numericartifact；通过后manifest028/commitguard/H3。缺uproot初失败已记录并用既有PyROOT6.40 schema读取，不安装依赖/不改raw。原窗口继续，formal17once/18partial/no19。

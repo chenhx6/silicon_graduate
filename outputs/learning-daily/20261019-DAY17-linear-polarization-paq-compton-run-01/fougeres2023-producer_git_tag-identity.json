@@ -1,0 +1,17 @@
+{
+  "url": "https://api.github.com/repos/CFougeres/EVASIONScode/git/ref/tags/v1.0.0",
+  "status": 200,
+  "final_url": "https://api.github.com/repos/CFougeres/EVASIONScode/git/ref/tags/v1.0.0",
+  "bytes": 345,
+  "sha256": "0381dabd8ae2b0546d6c82a90863464077e65709bdde668c6754d89aac7f2570",
+  "json": {
+    "ref": "refs/tags/v1.0.0",
+    "node_id": "REF_kwDOJHNlc7ByZWZzL3RhZ3MvdjEuMC4w",
+    "url": "https://api.github.com/repos/CFougeres/EVASIONScode/git/refs/tags/v1.0.0",
+    "object": {
+      "sha": "c6a4ff3756724d6becd17414851bc8140d00a311",
+      "type": "commit",
+      "url": "https://api.github.com/repos/CFougeres/EVASIONScode/git/commits/c6a4ff3756724d6becd17414851bc8140d00a311"
+    }
+  }
+}

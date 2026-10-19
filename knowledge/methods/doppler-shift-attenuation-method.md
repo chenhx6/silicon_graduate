@@ -189,3 +189,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 寿命companion的frame合同
 
 [[sallaska-2010-na22-letter-version-contract]] S10-3/4/5示范实际公式审计：同质量因子下lambdaLab²与lambdaCM²不能凭符号互换，NR有lambdaCM²=r²lambdaLab²。即使条件推导清楚，仍要原分析程序/版本证据才能修改实验率；未读正式erratum不能给它指定更正内容。该合同与DSAM中lab/proper时钟一样，文字检查不等实际fit偏差。
+
+## 事件级速度差也保留停止和联合能量输入
+
+[[fougeres-2023-mg23-velocity-difference-lifetime]] F23-3/4/5/7/8/18用α两体运动学给βreac、γ反演βems，降低未知初速度/feeding影响；仍有SRIM能损/初始剖面、角/能量校准和同Ex门下γ/particle响应。τ/Eg0共同free、profile按integral归一，公开data/source要matching才可谈CI；这个方法的优势不等任意finitegate下全部feeding/角度系统为零。

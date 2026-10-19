@@ -1,0 +1,204 @@
+{
+  "at": "2026-10-19T19:55:13.416043+00:00",
+  "reader": "PyROOT6.40.04",
+  "files": [
+    {
+      "path": "tmp/day17-fougeres2023/producer-source/data/data.root",
+      "sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+      "objects": [
+        {
+          "key": "TreeMaster",
+          "cycle": 1,
+          "classname": "TTree",
+          "num_entries": 409303,
+          "branches": [
+            {
+              "name": "nbTrack",
+              "title": "nbTrack/I",
+              "leaves": [
+                {
+                  "name": "nbTrack",
+                  "typename": "Int_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "trackE",
+              "title": "trackE[nbTrack]/F",
+              "leaves": [
+                {
+                  "name": "trackE",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": "nbTrack"
+                }
+              ]
+            },
+            {
+              "name": "trackX1",
+              "title": "trackX1[nbTrack]/F",
+              "leaves": [
+                {
+                  "name": "trackX1",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": "nbTrack"
+                }
+              ]
+            },
+            {
+              "name": "trackY1",
+              "title": "trackY1[nbTrack]/F",
+              "leaves": [
+                {
+                  "name": "trackY1",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": "nbTrack"
+                }
+              ]
+            },
+            {
+              "name": "trackZ1",
+              "title": "trackZ1[nbTrack]/F",
+              "leaves": [
+                {
+                  "name": "trackZ1",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": "nbTrack"
+                }
+              ]
+            },
+            {
+              "name": "Brho",
+              "title": "Brho/F",
+              "leaves": [
+                {
+                  "name": "Brho",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "Theta",
+              "title": "Theta/F",
+              "leaves": [
+                {
+                  "name": "Theta",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "Phi",
+              "title": "Phi/F",
+              "leaves": [
+                {
+                  "name": "Phi",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "ThetaLdeg",
+              "title": "ThetaLdeg/F",
+              "leaves": [
+                {
+                  "name": "ThetaLdeg",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "Si_dE",
+              "title": "Si_dE/F",
+              "leaves": [
+                {
+                  "name": "Si_dE",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "Si_theta",
+              "title": "Si_theta/F",
+              "leaves": [
+                {
+                  "name": "Si_theta",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            },
+            {
+              "name": "Si_Eres",
+              "title": "Si_Eres/F",
+              "leaves": [
+                {
+                  "name": "Si_Eres",
+                  "typename": "Float_t",
+                  "len": 1,
+                  "count": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "tmp/day17-fougeres2023/producer-source/tree_results/dataExp.root",
+      "sha256": "9c0c7935e7bc5a65a2f0b6415fb263badffe6c53dc4459842c32c87cd659a30f",
+      "objects": [
+        {
+          "key": "tree",
+          "cycle": 1,
+          "classname": "TTree",
+          "num_entries": 0,
+          "branches": []
+        }
+      ]
+    },
+    {
+      "path": "tmp/day17-fougeres2023/producer-source/tree_results/dataMC_events.root",
+      "sha256": "8b1baab16fd44de4c8bd9c9a46c4fff82f9f7e511baeda6265ef6eaccf5df009",
+      "objects": [
+        {
+          "key": "tree",
+          "cycle": 1,
+          "classname": "TTree",
+          "num_entries": 0,
+          "branches": []
+        }
+      ]
+    },
+    {
+      "path": "tmp/day17-fougeres2023/producer-source/tree_results/dataMC_noise.root",
+      "sha256": "ff439b25126f8b0af24d481ac48aff72f3690edbf349c2d7383533fbd95bae8f",
+      "objects": [
+        {
+          "key": "tree",
+          "cycle": 1,
+          "classname": "TTree",
+          "num_entries": 0,
+          "branches": []
+        }
+      ]
+    }
+  ],
+  "scope": "actualpublicROOTschema only; origincalibration/selection notcertified"
+}

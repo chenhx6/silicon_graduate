@@ -276,3 +276,11 @@ AppendixA明确ROOT5.22/Rebin/ShowBackground/Smooth/150keV数据匹配与Add减�
 [[root-2008-v522-background-error-contract]] R522-1–11读真实v5-22-00 TH1/TSpectrum调用链，另名原Smooth/Background表达式配当前ROOT6.40helpers执行。Smooth保留stored errors；Background cloneReset后非零content/零stored errors，无buffer则sqrtcontentfallback，不能当估计背景的fullCov。Add/Rebin/Scale只按给定系数合并diagonal，未含数据估计scale与跨bin相关。
 
 声明D−(Dk/Bk)B的Jacobian使matchingbinvariance0，而固定aAdd给正variance，说明共享归一信息丢失；这个四bin设计不是原hist/原匹配实现。旧thesis16%/2%/13%保持作者结果，actualpatch/job/events/模板Σ未得，不能据API反证重报实验CI或判τ/Bp无效。下一输入需actualproducer/data或独立reference，不加更多toy填缺。
+
+## Fougères2023：新τ不变，branch更新改变omega
+
+[[fougeres-2023-mg23-velocity-difference-lifetime]] F23-1–20主7页/SI8页全读。GANIL独立事件级βreac−βems给新τ11(+7,−5)fs；新BRp=.68(.17)%与引用Friedman2020 .65(.08)%组合推荐.66(.07)%，tau又与旧J04组合10.2(2.6)fs。假J7/2的中心omega.24177与作者.24近闭，旧BR.037同τ量级给约1.34meV，故关键更新是分支，不能由寿命相容推强度不变。
+
+Δβ拟合仍依赖SRIM/角与能量分辨、jointEg0与τ、finitegate/模板normalization；newbranch需pureAu背景与邻态模板约束。低χ²ndf不是coverage证明，7/2明确assume。Figshare实际XLSX显示区与SIgrid不可直接一键重算χ²，7785全显示区Pearson123.956对grid17.1982和一条零grid切片保留待核，不叫实验矛盾。
+
+公开Zenodo v1.0.0确有34文件、409303-entry衍生TreeMaster，不再是纯readiness缺数据；原DAQ/全calibration史/原paperfit脚本/Σ仍未闭。下一实际L4路线应核本公开producer的参数传递/门/normalization与源数据匹配，保原文件hash、不要改producer冒作者结果。

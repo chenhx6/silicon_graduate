@@ -1,0 +1,226 @@
+{
+  "url": "https://zenodo.org/api/records/8044973/files/CFougeres/EVASIONScode-v1.0.0.zip/content",
+  "status": 200,
+  "final_url": "https://zenodo.org/api/records/8044973/files/CFougeres/EVASIONScode-v1.0.0.zip/content",
+  "bytes": 15494623,
+  "sha256": "4aae83027ed68704088d9c5b90f6dff88e06ce061943ad3aae8dcaa3f1dd8503",
+  "md5": "ee3579b86bcdf8b7d6e16d598f6b4485",
+  "archive_CRC_ok": true,
+  "members": [
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/LICENSE - GNU General Public License v3.0",
+      "bytes": 35149,
+      "CRC": 2540125440
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/Makefile",
+      "bytes": 1354,
+      "CRC": 4175571347
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/README.md",
+      "bytes": 3064,
+      "CRC": 1981437460
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/data/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/data/data.root",
+      "bytes": 15877164,
+      "CRC": 665380950
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/doc/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/doc/MCalgo.pdf",
+      "bytes": 99891,
+      "CRC": 29000454
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/inputs.dat",
+      "bytes": 911,
+      "CRC": 2557875491
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/Backup/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/Backup/extractionData.C",
+      "bytes": 7275,
+      "CRC": 266333424
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/CodeA_gamma.C",
+      "bytes": 13183,
+      "CRC": 1965162272
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/CodeA_gamma.h",
+      "bytes": 737,
+      "CRC": 651009477
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/CodeB_particle.C",
+      "bytes": 4691,
+      "CRC": 4215858236
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/CodeB_particle.h",
+      "bytes": 768,
+      "CRC": 1361287870
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/Extraction_SRIM_stopping_powers.C",
+      "bytes": 3696,
+      "CRC": 3115504836
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/Extraction_SRIM_stopping_powers.h",
+      "bytes": 338,
+      "CRC": 1402597577
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/MC_sim.C",
+      "bytes": 19993,
+      "CRC": 1340604087
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/MC_sim.h",
+      "bytes": 1907,
+      "CRC": 3468558405
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/beam_in_matter.dat",
+      "bytes": 12895,
+      "CRC": 2540754655
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/ejectil_in_matter.dat",
+      "bytes": 12894,
+      "CRC": 3497848310
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/examples/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/examples/23Mg_in_gold.dat",
+      "bytes": 12905,
+      "CRC": 3338251439
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/examples/24Mg_in_gold.dat",
+      "bytes": 12895,
+      "CRC": 2540754655
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/examples/4He_in_gold.dat",
+      "bytes": 12894,
+      "CRC": 3497848310
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/examples/Proton_in_gold.dat",
+      "bytes": 12898,
+      "CRC": 2140563777
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/examples/Proton_in_silicon.dat",
+      "bytes": 12901,
+      "CRC": 447264531
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/particle_in_matter.dat",
+      "bytes": 12898,
+      "CRC": 2140563777
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/particle_in_silicon.dat",
+      "bytes": 12901,
+      "CRC": 447264531
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/SP_SRIM/recoil_in_matter.dat",
+      "bytes": 12905,
+      "CRC": 3338251439
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/Tools.C",
+      "bytes": 6060,
+      "CRC": 2479323966
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/Tools.h",
+      "bytes": 1068,
+      "CRC": 2618444392
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/kinematics.C",
+      "bytes": 10639,
+      "CRC": 2835668536
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/kinematics.h",
+      "bytes": 1149,
+      "CRC": 85626304
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/functions/main.h",
+      "bytes": 1010,
+      "CRC": 2996419846
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/src/main.cpp",
+      "bytes": 15854,
+      "CRC": 2044465501
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/tree_results/",
+      "bytes": 0,
+      "CRC": 0
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/tree_results/dataExp.root",
+      "bytes": 4720,
+      "CRC": 2556566560
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/tree_results/dataMC_events.root",
+      "bytes": 4744,
+      "CRC": 3220176665
+    },
+    {
+      "name": "CFougeres-EVASIONScode-c6a4ff3/tree_results/dataMC_noise.root",
+      "bytes": 4740,
+      "CRC": 2331850669
+    }
+  ]
+}

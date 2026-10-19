@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T19:49:34.272234+00:00",
+  "main_pdf_sha256": "6652343310f238d7249654411a34713985bf4be73bd7e88d45cccd96158e0be7",
+  "supp_pdf_sha256": "56a513b755521f0f1f0043d0564a94f8552c51300401282df46cd9ae74be5fb9",
+  "actual_read": "main7pagesallmainline/refs,Eq1–4/Fig1–3/Table1–2;SI8allpages/Fig1–4/Table1/refs; allpagesvisual",
+  "targeted_visual_more_pending": "mainPDF5 algebra; SI figure1labels/check plotdata",
+  "actual_data_scope": "twoXLSXsheetmanifest andfirstrows only untilnew exercise freeze",
+  "not_read_or_obtained": "EVASIONSproducer/files/config/actualevents/fullCov/fitreplay; Friedman2020primarybody; GANILE710eventaccess"
+}

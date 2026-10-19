@@ -647,6 +647,7 @@ updated: 2026-10-20
 - [[sallaska-2010-na22-letter-version-contract]] - 同源短报版本、Lab/CM波长桥与未得正式勘误的边界。
 - [[saastamoinen-2011-thesis-al23-proton-response]] - 作者thesis定向Al23：βp/daughterBp分母、自旋解释及ROOT5.22背景误差合同。
 - [[root-2008-v522-background-error-contract]] - 真实ROOT5.22 Smooth/Background/Add代码；误差buffer、估计归一与fullCov分层。
+- [[fougeres-2023-mg23-velocity-difference-lifetime]] - 新GANIL速度差τ/BRp原件、实际图源和公开衍生event/producer；推荐强度仍假spin。
 - [[simdsam-2015-public-dsam-code]] - 原公开2015代码/响应表及原表达式组件；变量、时钟、束斑与exactjob限制。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。
