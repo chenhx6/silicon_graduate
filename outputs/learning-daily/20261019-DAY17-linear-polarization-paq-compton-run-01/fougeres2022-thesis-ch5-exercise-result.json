@@ -1,0 +1,141 @@
+{
+  "at": "2026-10-19T21:24:12.981266+00:00",
+  "script_sha256": "b30e12ee7302d1bb7ac59029074fff965fedce5702825d77e2daa5d64fb60614",
+  "contract_sha256": "38d764b935b5c4a371bd11e3e070411f380d31a95edb215356f73ef2aa359598",
+  "Table5p1_rows": 22,
+  "key_gate_MeV": [
+    37.5,
+    39.5
+  ],
+  "nonzero_gate_intersections": [
+    {
+      "Ex_MeV": 6.984,
+      "Egamma0_MeV": 6.984,
+      "overlap_width_MeV": 0.10000000000000142,
+      "fraction_of_key_interval_length": 0.05000000000000071,
+      "boundary": "interval length only; not event contamination or probability"
+    },
+    {
+      "Ex_MeV": 7.45,
+      "Egamma0_MeV": 7.443,
+      "overlap_width_MeV": 1.3999999999999986,
+      "fraction_of_key_interval_length": 0.6999999999999993,
+      "boundary": "interval length only; not event contamination or probability"
+    },
+    {
+      "Ex_MeV": 7.584,
+      "Egamma0_MeV": 3.725,
+      "overlap_width_MeV": 1.1000000000000014,
+      "fraction_of_key_interval_length": 0.5500000000000007,
+      "boundary": "interval length only; not event contamination or probability"
+    },
+    {
+      "Ex_MeV": 7.77,
+      "Egamma0_MeV": 5.054,
+      "overlap_width_MeV": 1.2000000000000028,
+      "fraction_of_key_interval_length": 0.6000000000000014,
+      "boundary": "interval length only; not event contamination or probability"
+    },
+    {
+      "Ex_MeV": 7.782,
+      "Egamma0_MeV": 5.067,
+      "overlap_width_MeV": 1.3999999999999986,
+      "fraction_of_key_interval_length": 0.6999999999999993,
+      "boundary": "interval length only; not event contamination or probability"
+    },
+    {
+      "Ex_MeV": 7.785,
+      "Egamma0_MeV": 7.333,
+      "overlap_width_MeV": 2.0,
+      "fraction_of_key_interval_length": 1.0,
+      "boundary": "interval length only; not event contamination or probability"
+    },
+    {
+      "Ex_MeV": 7.803,
+      "Egamma0_MeV": 7.801,
+      "overlap_width_MeV": 1.5,
+      "fraction_of_key_interval_length": 0.75,
+      "boundary": "interval length only; not event contamination or probability"
+    }
+  ],
+  "Eq5p8_key_gate_mappings": {
+    "thin": {
+      "at_Ealpha_gate_edges_and_center_MeV": [
+        [
+          37.5,
+          8.514375
+        ],
+        [
+          38.5,
+          8.060335
+        ],
+        [
+          39.5,
+          7.599214999999999
+        ]
+      ],
+      "Ealpha_for_key_Ex_MeV": 39.098944620198544,
+      "boundary": "literal model polynomial, not event-level measured Ex or CI"
+    },
+    "thick": {
+      "at_Ealpha_gate_edges_and_center_MeV": [
+        [
+          37.5,
+          8.251562499999999
+        ],
+        [
+          38.5,
+          7.7978024999999995
+        ],
+        [
+          39.5,
+          7.337022499999999
+        ]
+      ],
+      "Ealpha_for_key_Ex_MeV": 38.52799166749971,
+      "boundary": "literal model polynomial, not event-level measured Ex or CI"
+    }
+  },
+  "Eq5p5_literal_probes": {
+    "thin": [
+      {
+        "Ealpha_MeV": 38,
+        "printed_loss_MeV": 2.9422319999999993
+      },
+      {
+        "Ealpha_MeV": 46,
+        "printed_loss_MeV": 2.6122479999999997
+      },
+      {
+        "Ealpha_MeV": 54,
+        "printed_loss_MeV": 2.356247999999999
+      }
+    ],
+    "thick": [
+      {
+        "Ealpha_MeV": 38,
+        "printed_loss_MeV": 5.152284
+      },
+      {
+        "Ealpha_MeV": 46,
+        "printed_loss_MeV": 4.604476
+      },
+      {
+        "Ealpha_MeV": 54,
+        "printed_loss_MeV": 3.9684759999999994
+      }
+    ]
+  },
+  "Doppler_line_crossing": {
+    "Egamma0_MeV": 7.333,
+    "stationary_contaminant_E_MeV": 6.879,
+    "mean_beta": 0.077,
+    "theta_DS_degrees": 144.68779627497167,
+    "Eq5p11_recovered_beta": 0.07699999999999994,
+    "boundary": "single mean beta; theta_DS is not lab theta_gamma; no rejection-mask inference"
+  },
+  "Eq5p11_forward_inverse_max_abs_residual": 3.8163916471489756e-16,
+  "literal_inputs_preserved": true,
+  "no_new_experimental_lifetime_response_or_CI": true,
+  "ok": true
+}

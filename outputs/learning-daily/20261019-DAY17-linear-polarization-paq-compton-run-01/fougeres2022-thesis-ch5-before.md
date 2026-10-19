@@ -1,0 +1,5 @@
+# Fougères2022 Chapter5读取前回忆
+
+已读F23/SI/publicrelease与Ch4，strongpriming非盲测；Ch5只TOC未读正文。原publicVAMOSbeta scalar按值、角φ度弧度/Brho物理量/能损table合同尚不能认证paperproducer。Ch4实测19mm反证已修订，不能故障越积越定论。
+
+现在精确读PDF87–103/printed84–100完整Ch5，核实际VAMOSmass/Brho→energy/energy-loss correction polynomial、AGATAframe/shift/Egamma0/βroot、Exgates与calibrationuncertainty、rawvariable到physicsobservable的对应。只当前Day18 lifetimecompanion/reconstruction，不开其它卡；Ch3/6/appendix如needed后另冻，不能通过一次sourcehash说全读。优先可对真实409303公开derivedevent做的无修原源核；缺job/Σ不造CI。反证至少near-state/gates、response/angularalignment/未知sourceindependence；companion为已知energy/τ与particlebranches。

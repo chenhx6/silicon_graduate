@@ -1,0 +1,304 @@
+{
+  "identity": "F22-THESIS-CH5-LITERAL-GATES-01",
+  "pdf": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "locator": "Table5.1 PDF91 printed88; Eq5.5 PDF92 printed89; Eq5.8 PDF100 printed97; Fig5.8 PDF97; Eq5.11 PDF102",
+  "Table5p1": [
+    {
+      "Ex_MeV": 0.451,
+      "Egamma0_MeV": 0.451,
+      "experiment_gate_MeV": [
+        51.3,
+        54.2
+      ],
+      "simulation_gate_MeV": [
+        52.4,
+        54.1
+      ]
+    },
+    {
+      "Ex_MeV": 2.052,
+      "Egamma0_MeV": 1.601,
+      "experiment_gate_MeV": [
+        49.5,
+        51
+      ],
+      "simulation_gate_MeV": [
+        49.3,
+        51.1
+      ]
+    },
+    {
+      "Ex_MeV": 2.906,
+      "Egamma0_MeV": 2.455,
+      "experiment_gate_MeV": [
+        47.4,
+        49.4
+      ],
+      "simulation_gate_MeV": [
+        47.8,
+        49.5
+      ]
+    },
+    {
+      "Ex_MeV": 3.794,
+      "Egamma0_MeV": 3.344,
+      "experiment_gate_MeV": [
+        45.5,
+        47.4
+      ],
+      "simulation_gate_MeV": [
+        46.2,
+        47.6
+      ]
+    },
+    {
+      "Ex_MeV": 3.861,
+      "Egamma0_MeV": 3.861,
+      "experiment_gate_MeV": [
+        45.9,
+        47.4
+      ],
+      "simulation_gate_MeV": [
+        46.2,
+        47.4
+      ]
+    },
+    {
+      "Ex_MeV": 4.356,
+      "Egamma0_MeV": 4.356,
+      "experiment_gate_MeV": [
+        45,
+        46.7
+      ],
+      "simulation_gate_MeV": [
+        45,
+        46.6
+      ]
+    },
+    {
+      "Ex_MeV": 4.681,
+      "Egamma0_MeV": 4.23,
+      "experiment_gate_MeV": [
+        44.6,
+        45.5
+      ],
+      "simulation_gate_MeV": [
+        44.5,
+        45.8
+      ]
+    },
+    {
+      "Ex_MeV": 5.287,
+      "Egamma0_MeV": 3.236,
+      "experiment_gate_MeV": [
+        43.3,
+        44.5
+      ],
+      "simulation_gate_MeV": [
+        43.3,
+        44.7
+      ]
+    },
+    {
+      "Ex_MeV": 5.691,
+      "Egamma0_MeV": 5.69,
+      "experiment_gate_MeV": [
+        42,
+        43.5
+      ],
+      "simulation_gate_MeV": [
+        42.4,
+        43.8
+      ]
+    },
+    {
+      "Ex_MeV": 6.132,
+      "Egamma0_MeV": 3.775,
+      "experiment_gate_MeV": [
+        41.6,
+        42.4
+      ],
+      "simulation_gate_MeV": [
+        41.5,
+        43
+      ]
+    },
+    {
+      "Ex_MeV": 6.195,
+      "Egamma0_MeV": 3.48,
+      "experiment_gate_MeV": [
+        41.3,
+        42.6
+      ],
+      "simulation_gate_MeV": [
+        41.3,
+        42.9
+      ]
+    },
+    {
+      "Ex_MeV": 6.24,
+      "Egamma0_MeV": 4.188,
+      "experiment_gate_MeV": [
+        40.7,
+        42.5
+      ],
+      "simulation_gate_MeV": [
+        41.3,
+        42.7
+      ]
+    },
+    {
+      "Ex_MeV": 6.775,
+      "Egamma0_MeV": 4.418,
+      "experiment_gate_MeV": [
+        39.8,
+        41.4
+      ],
+      "simulation_gate_MeV": [
+        40.1,
+        41.6
+      ]
+    },
+    {
+      "Ex_MeV": 6.908,
+      "Egamma0_MeV": 6.9,
+      "experiment_gate_MeV": [
+        40,
+        41
+      ],
+      "simulation_gate_MeV": [
+        40,
+        41.4
+      ]
+    },
+    {
+      "Ex_MeV": 6.984,
+      "Egamma0_MeV": 6.984,
+      "experiment_gate_MeV": [
+        39.4,
+        41.1
+      ],
+      "simulation_gate_MeV": [
+        39.9,
+        41.2
+      ]
+    },
+    {
+      "Ex_MeV": 7.112,
+      "Egamma0_MeV": 6.66,
+      "experiment_gate_MeV": [
+        39.6,
+        40.6
+      ],
+      "simulation_gate_MeV": [
+        39.5,
+        40.8
+      ]
+    },
+    {
+      "Ex_MeV": 7.45,
+      "Egamma0_MeV": 7.443,
+      "experiment_gate_MeV": [
+        38.1,
+        39.9
+      ],
+      "simulation_gate_MeV": [
+        38.8,
+        40.2
+      ]
+    },
+    {
+      "Ex_MeV": 7.584,
+      "Egamma0_MeV": 3.725,
+      "experiment_gate_MeV": [
+        38.4,
+        39.8
+      ],
+      "simulation_gate_MeV": [
+        38.5,
+        39.9
+      ]
+    },
+    {
+      "Ex_MeV": 7.77,
+      "Egamma0_MeV": 5.054,
+      "experiment_gate_MeV": [
+        37.8,
+        39
+      ],
+      "simulation_gate_MeV": [
+        38.1,
+        39.5
+      ]
+    },
+    {
+      "Ex_MeV": 7.782,
+      "Egamma0_MeV": 5.067,
+      "experiment_gate_MeV": [
+        37.5,
+        38.9
+      ],
+      "simulation_gate_MeV": [
+        38.1,
+        39.5
+      ]
+    },
+    {
+      "Ex_MeV": 7.785,
+      "Egamma0_MeV": 7.333,
+      "experiment_gate_MeV": [
+        37.5,
+        39.5
+      ],
+      "simulation_gate_MeV": [
+        38.1,
+        39.5
+      ]
+    },
+    {
+      "Ex_MeV": 7.803,
+      "Egamma0_MeV": 7.801,
+      "experiment_gate_MeV": [
+        37.3,
+        39
+      ],
+      "simulation_gate_MeV": [
+        38,
+        39.4
+      ]
+    }
+  ],
+  "Eq5p5_literal": {
+    "thin": [
+      5.52,
+      -0.0898,
+      0.000578
+    ],
+    "thick": [
+      6.55,
+      -0.0106,
+      -0.000689
+    ]
+  },
+  "Eq5p8": {
+    "thin": [
+      20.43,
+      -0.185,
+      -0.00354
+    ],
+    "thick": [
+      20.2,
+      -0.187,
+      -0.00351
+    ]
+  },
+  "loss_probe_Ealpha_MeV": [
+    38,
+    46,
+    54
+  ],
+  "Fig5p8_mean_beta": 0.077,
+  "contaminant_E_MeV": 6.879,
+  "boundary": "manual literal transcription visually checked; no repair/calibration fit/raw mutation"
+}

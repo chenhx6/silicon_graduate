@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-19T21:25:29.288055+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "read": "full Chapter5 text and visual all17pages",
+  "PDF_pages": [
+    87,
+    103
+  ],
+  "printed_pages": [
+    84,
+    100
+  ],
+  "figures": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10",
+    "5.11",
+    "5.12",
+    "5.13",
+    "5.14",
+    "5.15"
+  ],
+  "tables": [
+    "5.1",
+    "5.2",
+    "5.3"
+  ],
+  "equations": [
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "5.6",
+    "5.7",
+    "5.8",
+    "5.9",
+    "5.10",
+    "5.11"
+  ],
+  "not_read": [
+    "Chapter3",
+    "Chapter6",
+    "Chapter7",
+    "Appendices"
+  ],
+  "primed": true,
+  "table_transcription_crosschecked_against_original": true,
+  "literal_boundaries": [
+    "Eq5.5 thick coefficients vs Fig5.4",
+    "Table5.2 key gamma label vs prose",
+    "150Eu normalization text"
+  ],
+  "full_thesis_read": false
+}

@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint034：Ch5原事件重建与拒绝门
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-16–30完整读PDF87–103/printed84–100、15图3表11式，文本与视觉均核。关键是DCT/VAMOS合成角及7333/Si6879相交区域实际拒绝条件；numericmask/job/Σ仍缺，不能由derivedtree认证原fit。
+
+
 ### checkpoint033：作者thesisChapter4新primary
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-1–15，HAL201页只完整读Ch4/PDF74–86、图4.1–4.8/Table4.1/Eq4.1–4.3及front/TOC；HAL再生日期不当新实验。
@@ -135,6 +140,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint034：实际22门、loss印刷式与Doppler交叉
+
+[程序](../../system/scripts/day17_fougeres2022_ch5_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-result.json)对真实Table5.1与Eqs5.5/5.8/5.11核验。keyalpha门与另六行相交，非污染份额；Eq5.8映射随厚度改变，非ExCI；厚靶loss字面与图不闭合不猜修。单β.077交叉θDS144.6878°只解释污染重叠，非labtheta拒绝门。
+
 
 ### checkpoint033：实际geometry与输入量级
 
@@ -472,6 +482,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+本批新增[thesis源](../../knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md)F22-16–30及[lifetimeledger](../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md)“Ch5原选择合同：粒子门、合成角与污染拒绝”：原PID/合成角/contaminationcut/observable合同与真实22行可重放输入，canonical保存而非仅outputs。
+
 
 新增[作者Ch4源](../../knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md)F22-2/6/10/11/12/15；EVASIONS/F23及lifetimeledger明确19mm反证和response/benchmark域，科学beliefrevision写入knowledge而非仅outputs。
 
@@ -5119,6 +5132,46 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
         {
           "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
           "locator": "F22-15"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-16"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-18"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-20"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-21"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-24"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-25"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-26"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-27"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-29"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-30"
         }
       ]
     },
@@ -5230,6 +5283,37 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
         {
           "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
           "locator": "F22-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "summary": "新增Ch5原PID/粒子门、合成角、污染拒绝及β/Δβ身份合同；缺原mask/job/Cov不新fit。",
+      "anchor": "Ch5原选择合同：粒子门、合成角与污染拒绝",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-18"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-20"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-24"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-25"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-29"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-30"
         }
       ]
     }
@@ -5428,3 +5512,9 @@ verification046核report/course/唯一writeback/boundary/lint/diff/旧16M23rowsr
 ### checkpoint033thesis输入/反证验收
 
 verification047核report/course/唯一writeback/boundary/lint/diff/旧rowsreview/protected/artifact；通过后manifest033/commitguard/H3。原source/数据未改、未新fitCI，formal17once/18partial/no19。
+
+### checkpoint034原选择合同验收
+
+verification048核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与真实22行artifact；通过后manifest034/commitguard/H3发布。仍同原窗口/goalactive，formal17只一次/partial18，不授18/不开19。
+
+048初diffcheck抓到continuation末端多空行(exit2)，保initial-failure.json；只规范EOF后重跑，不改科学输入/结果。

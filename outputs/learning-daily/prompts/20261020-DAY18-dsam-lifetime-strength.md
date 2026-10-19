@@ -128,3 +128,7 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint033 priming：作者Ch4反证/响应
 
 [[fougeres-2022-thesis-evasions-response-contract]]HAL201页只Ch4完整13页+front/TOC。实测19(1)mm支持public19000µm，不能再将其当geometry故障；原loader/scalar问题另保。σ/FWHM/bin、SNR共享数据与28Si benchmarknormalization/fit域分开，longcase不认证fs/BR/coverage。未读Ch5/6不能预填；仅preview不授18。
+
+### Day17 checkpoint034 priming：Ch5原重建合同
+
+F22-16–30完整原读Ch5/15图3表11式，22行alpha门/Eq5.8与literalEq5.5核验；VAMOS/DCT合成角、7333与Si6879交叠区必须拒绝、thetaDS不等labthetaGamma。实际mask/job/Σ缺，βems不自动同F23Δβ；打印式/表标签边界不猜修。此为Day17窗口的无学分preview，正式18须新session独立交付。

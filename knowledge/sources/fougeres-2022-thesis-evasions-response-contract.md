@@ -1,6 +1,6 @@
 ---
 type: source
-title: "Fougères2022学位论文第4章：EVASIONS响应、19mm间隙与验证范围"
+title: "Fougères2022学位论文第4–5章：响应、重建与污染选择合同"
 title_original: "Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg"
 aliases: [Fougeres2022 thesis Ch4, F22 EVASIONS response]
 created: 2026-10-20
@@ -30,11 +30,13 @@ tags: [DSAM, EVASIONS, uncertainty, geometry, source-dependence]
 
 Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg*，2022博士论文，NNT2022NORMC209，3Mar2022答辩、4Sep2022存入[HAL tel-03768524v1](https://theses.hal.science/tel-03768524v1)。实际201页，70228097bytes，SHA256见frontmatter，缓存`tmp/day17-fougeres2022-thesis/hal_document.pdf`。HAL生成metadata为Oct2026、正文修改日期Mar2022，不计新实验或新的论文内容版本。[下载/metadata](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-hal_document-discovery.json)。
 
-本source只覆盖EVASIONS README明确指定的Chapter4，后续若读其它方法章节须另记actualscope；与[[fougeres-2023-mg23-velocity-difference-lifetime]]及[[evasions-2023-public-release-native-readiness]]同研究/数据链，不重复计独立实验。
+本source最初覆盖EVASIONS README明确指定的Chapter4；后续本session独立冻结后又完整读Chapter5，actualscope分次记录；与[[fougeres-2023-mg23-velocity-difference-lifetime]]及[[evasions-2023-public-release-native-readiness]]同研究/数据链，不重复计独立实验。
 
 ## Scope and Reading Depth
 
-先冻primed回忆、查目录与前页，再完整读Chapter4：PDF74–86/printed71–83，Fig4.1–4.8、Table4.1、Eq4.1–4.3及章节结论。关键输入/图式表/验证全部视觉核。front输出曾包含Chapter1第一页通用概述，明确记为额外预览；没有读全201页、Chapter3/5/6/7或附录正文。[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch4-reading-scope.json)。
+先冻primed回忆、查目录与前页，再完整读Chapter4：PDF74–86/printed71–83，Fig4.1–4.8、Table4.1、Eq4.1–4.3及章节结论。关键输入/图式表/验证全部视觉核。front输出曾包含Chapter1第一页通用概述，明确记为额外预览；该次没有读全201页、Chapter3/5/6/7或附录正文；后续Ch5增量见下。[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch4-reading-scope.json)。
+
+后续新问题前冻结后完整读Chapter5/PDF87–103/printed84–100，Figs5.1–5.15、Tables5.1–5.3、Eqs5.1–5.11全部文本/视觉核；22行门另按原text逐项核转录。[Ch5actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-reading-scope.json)。Chapter3/6/7与附录仍未读，不借sourcehash代全文阅读。
 
 ## Summary
 
@@ -59,6 +61,21 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-13 | Fig4.8caption角窗120–160与prose/legend120–170不一致，窗口身份需原job核；不同normalization/fitdomain也说明F23全显示区χ²不必等原grid。不能把benchmark窗口直接移作F23真实fit窗口。 | literal-window-boundary | direct-thesis-and-use-gate | printed81–82 Fig4.8 | true |
 | F22-14 | 声明β.075/propermeanτ10fs时meanlabpath.22548µm，到剩4.9µm firstfoil的constantβsurvival≈3.65e−10；只是条件量级解释keydecay为何少受远gap影响，不替真实v(t)/实验CI/long28Si重放。 | declared-transport-scale-control | task-design | exercise declared_constant_beta_proper_mean_control | true |
 | F22-15 | 本章补真实geometry/σ/SNR/验证域，仍无F23完整τ/Eγ0fitjob或全Cov。原publicloader/scalar问题独立保留，19mm几何疑点已被新primary限制；不以同thesis/codelabel强认证原paperproducer。 | knowledge-revision-and-readiness | synthesis-with-primary | F22-2/10/11/12；EV23-6/8/13 | true |
+| F22-16 | 本session新增完整Ch5/PDF87–103主线与全部15图3表11式文本/视觉核，非全201页；Ch4/F23/publicrelease有priming，回忆与新量化前分别冻结，不当盲测或Day18正式学分。 | actual-reading-scope | direct-thesis | Chapter5 printed84–100；reading-scope | true |
+| F22-17 | PID选Z=2、Bρ>0及wellreconstructed(Bρ,t*)，m/q约2(.2)指alpha；低Z重建差/pileup另剔。公开derived Tree缺原TOF/QPL全PID链，不由12branch认证原raw筛选。 | actual-selection-and-readiness | direct-thesis | printed85–86 Figs5.1/5.2；Eqs5.1/5.2 | true |
+| F22-18 | Table5.1 key(Ex7.785,Eγ7.333)alpha实验门37.5–39.5MeV、模拟38.1–39.5，邻7770/7782/7803门重叠；真实22行区间交集不提供污染率或独占母态，须matchingγ/response。 | actual-gates-and-identity | direct-thesis-and-arithmetic | printed88 Table5.1 | true |
+| F22-19 | Eq5.3/5.4用反应点alpha能量与角重建recoil、φrecoil=π+φα；alpha实测能量在target/catcher后，先加loss。不能把aftertarget量直接当vertex能量。 | reconstruction-variable-contract | direct-thesis | printed88 Eqs5.3/5.4 | true |
+| F22-20 | 实测alpha角由VAMOS与DCT组合：差小于3°θ及30°φ则均值，否则选DCT，因VAMOSφ较不可靠。公共Theta/Phi无原DCT与job不能认证这一步。 | actual-combined-angle-selection | direct-thesis | printed89–90 Fig5.5 | true |
+| F22-21 | Eq5.5厚靶字面loss=6.55−.0106E−.000689E²，38/46/54MeV给5.1523/4.6045/3.9685MeV，与Fig5.4蓝线约3.5→2.8MeV不按字面闭合；保打印系数与图，不猜改式或判实际producer用错。 | literal-formula-figure-boundary | direct-thesis-and-arithmetic | printed89 Eq5.5/Fig5.4 | true |
+| F22-22 | 4356例alpha门使SNR1.1(.2)→7.5(.8)，平均β.075校正有低角延迟尾偏移；平均βDoppler校正不是所有τ/angle下无偏eventresponse。 | actual-gate-gain-and-limitation | direct-thesis | printed91–92 Fig5.7 | true |
+| F22-23 | Eq5.6先校正AGATAefficiency再以两支计数和归一，非absoluteγpopulation。Table5.2 key打印7.785支>97而prose/图说仅7.333观察、ground7.785未见；保标签冲突不据此创造新branch。 | normalization-and-literal-label-boundary | direct-thesis | printed92–94 Eq5.6/Table5.2 | true |
+| F22-24 | 作者明确剔除7333Dopplershift与静止28Si6879相交的(Eγ,θγ)区，紫圈仅示意，实际numericcut/job缺。β.077的单点交叉给θDS144.6878°，非labθγcut；不猜mask或把全显示χ²当原fit。 | actual-contamination-cut-and-readiness | direct-thesis-and-design-control | printed93–95 Figs5.8/5.9 | true |
+| F22-25 | Eq5.7以γ与recoil方向点积得θDS，作者明确未采用θDS≈θγ近似。公共原角变量/坐标与合成步骤需完整match，不用beamaxis近似认证生产重建。 | actual-doppler-angle-contract | direct-thesis | printed95 Eq5.7 | true |
+| F22-26 | Eq5.8 thin[20.43,−.185,−.00354]/thick[20.20,−.187,−.00351]为模拟拟合Ex(Ealpha)；key37.5–39.5门映thin7.5992–8.5144、thick7.3370–8.2516MeV。不是真实ExCI；大门仍需gamma身份。 | actual-polynomial-gate-crosscheck | direct-model-and-arithmetic | printed96–97 Eq5.8/Fig5.11 | true |
+| F22-27 | 7333gamma门7.318–7.348MeV与局部背景减除后Fig5.13得Ex7.78(.02)、sigma.1451(.0142)MeV、χ²29.18/13；Table5.3另列sigma.15。此resolution不能单独分离几keV邻态，图fit不是τfit。 | actual-parent-resolution | direct-thesis | printed97–98 Fig5.13/Table5.3 | true |
+| F22-28 | 截面先校正γeff/两侧background/VAMOSnoise-eff，再以key7.785population/reference截面归一其它态；共享scale，不是22个独立absolute测量。printed98写150Eu，与F23的152Eu不同，需原job/Chapter3核。 | shared-normalization-and-version-boundary | direct-thesis | printed98–99 Sec5.4.2/Fig5.14 | true |
+| F22-29 | Eqs5.9–5.11对backward cosθDS≤0且R=Eγ/Eγ0≤1仅一physicalβ≥0根(R=1为0)；Ch5Fig5.15横轴βems，F23Δβ=βreac−βems须eventmatched转换，不能直接同名谱/同fit。 | observable-and-domain-contract | direct-thesis | printed99–100 Eqs5.9–5.11/Fig5.15 | true |
+| F22-30 | 新Ch5实际PID/合成角/contaminationcut/谱变量使F23fullshownχ²不闭合的解释更具体，但未得numericmask/原job/fitCov，不归因唯一原因、未重fitτ/BR/CI；下一最高信息Ch6方法与背景fitdomain。 | knowledge-update-and-readiness | synthesis-with-primary | F22-18/20/24/25/29 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -68,7 +85,7 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 
 ## Competing Interpretations and Limitations
 
-Chapter3的实际resolution/target表、Chapter5的事件重建、Chapter6的三个寿命方法/τ能量grid/背景域尚未读。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
+Chapter5现已读并明确原PID/合成角/contaminationcut合同；Chapter3的实际resolution/target表、Chapter6的三个寿命方法/τ能量grid/背景域尚未读。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
 
 ## Knowledge Impact and Learning Decision
 
@@ -77,3 +94,9 @@ Chapter3的实际resolution/target表、Chapter5的事件重建、Chapter6的三
 ## Extracted Pages
 
 [[evasions-2023-public-release-native-readiness]]、[[fougeres-2023-mg23-velocity-difference-lifetime]]、[[lifetime-strength-audit-165tm-136nd]]、[[doppler-shift-attenuation-method]]。
+
+## Chapter5实际门与反演的可复算合同
+
+[量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-before.md)、[22行原输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-contract.json)、[程序](../../system/scripts/day17_fougeres2022_ch5_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-result.json)。key门与另六行有非零区间交集，交集长度只为几何量不等污染概率。单平均β的Doppler运动学交叉在θDS≈144.6878°，说明污染可重叠；不从紫圈推数值拒绝门。Eqs5.9–5.11前逆恒等控制最大误差3.82e−16，仅验证声明表达式。
+
+`supports`完整粒子—γ身份/方向重建/response合同；`limits`从公共derivedevents或全显示曲线直接复原原fit；印刷边界保留，未造erratum/新实验CI。无原producer和Σ仍是readiness缺口，不能以本thesis与2023同研究链重复计独立验证。

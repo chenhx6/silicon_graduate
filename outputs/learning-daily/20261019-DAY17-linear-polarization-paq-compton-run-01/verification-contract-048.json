@@ -1,0 +1,16 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 30
+  },
+  "artifacts": [
+    {
+      "file": "fougeres2022-thesis-ch5-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "literal_inputs_preserved",
+        "no_new_experimental_lifetime_response_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

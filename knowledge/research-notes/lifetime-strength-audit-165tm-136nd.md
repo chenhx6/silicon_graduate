@@ -316,3 +316,11 @@ F23推荐又复用本新branch/J04tau，故两篇≈.24不计独立强度确认�
 [[fougeres-2022-thesis-evasions-response-contract]] F22-1–15原13页完整主线/图表式读(未读全201页)。作者实测target/catcher间19(1)mm，确支持public19000µm；此前与Nature“back-to-back”的比较只能当描述/版本桥，不能当geometry已错。原publicloader/scalar故障另保，逐项证据不混加。
 
 Chapter4给σ=FWHM/2.35、data-derivedSNR/noise与28Si benchmark：归一6.81–6.91、fit6.84–6.90MeV，τ2.0(.4)ps/90%CL只该longlived条件；caption角窗与prose/legend不同需job核，不移作F23fsfit。Table4.1 .28‰×6750=1.89keV，binwidth不等仪器σ或零profileeffect统计定理。正确只读publicbeamSPlookup约.63074MeV对thesis.662保残差，未修source/重报实验CI。
+
+### Ch5原选择合同：粒子门、合成角与污染拒绝
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-16–30新增完整Chapter5原读，所有15图3表11式文本/视觉核。Table5.1真实22门及Eq5.8分别核，key37.5–39.5MeV与另六行区间相交，不能以α门独占父态或把区间长度当污染概率。
+
+原PID需要Z/Bρ/t*；方向由VAMOS与DCT在3°θ/30°φ条件下组合；Eq5.7实际用recoil—γ点积角，不等beamθγ。最关键的是Figs5.8/5.9作者明确拒绝28Si6879与Mg7333相交的(Eγ,θγ)区域，实际mask/job缺。这使publicderivedtree/全显示χ²不能认证paperfit的输入差异更具体，不证明已经找到唯一差异原因。
+
+Eq5.5厚靶打印系数与图量级不闭合，Table5.2的7.785标签与only7.333文字不闭合，保原件不猜修；Fig5.13的Exsigma.1451MeV为母态分辨非寿命CI。thesisβems与F23Δβ需eventmatched转换，共享key参考归一不是新独立测量。新[实际输入练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-result.json)只作门/印刷式/Doppler交叉核验，无新τ/BR/CI。下一精确route是Ch6的实际fitdomain/背景统计；Chapter3/6及appendix尚未读。

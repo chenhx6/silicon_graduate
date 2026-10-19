@@ -2174,3 +2174,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint033 — 作者Ch4响应/geometry反证
 
 完整原读Fougères2022thesisCh4 13页/Fig4.1–4.8/Table4.1/Eq4.1–4.3，非全201页。实测19(1)mm支持public19000µm，修订旧back-to-back比较的解释；原native故障独立保留。σ/SNR/longbenchmark窗口与真实SP表量级canonical，不认证fullpaperfit/新CI。verification047通过（0error/237warnings，40changed42mapped），旧rows/review/保护文件不改。main / Read thesis response inputs and revise EVASIONS geometry concern；actualhash/H3见publication033。原窗口继续Ch5真实重建，17once/18partial/no19。
+
+### Day17 checkpoint034：Ch5实际选择合同
+
+F22-16–30完整Ch5原读/22门与印刷式/污染交叉新artifact写回canonical；不猜actualmask或新fitCI。verification048通过后显式manifest034/commitguard/H3，稳定main / `Record actual ejectile gates and contaminant rejection in thesis reconstruction`，精确hash仅receipt。原windowactive、17once/partial18/no19，继承dirty未纳入。

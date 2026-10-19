@@ -1,0 +1,4 @@
+
+### Day17 checkpoint034：Ch5实际选择合同
+
+F22-16–30完整Ch5原读/22门与印刷式/污染交叉新artifact写回canonical；不猜actualmask或新fitCI。verification048通过后显式manifest034/commitguard/H3，稳定main / `Record actual ejectile gates and contaminant rejection in thesis reconstruction`，精确hash仅receipt。原windowactive、17once/partial18/no19，继承dirty未纳入。
