@@ -405,3 +405,8 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 ### Overall coincidence效率取消并未认证分析器response
 
 [[hamilton-1948-successive-quanta-polarization]] HAM48-7–9的两个α是两个photonrole的coincidence效率积；不是任意φ依赖的Compton响应。原pure分类中一半的P与这两个scalarweight无关，另一半在等权时完全抵消；不能把两种情况都写成无需校Q，或从null推unpolarizedreference。原源的角度/效率次序及纯序列假设需随结果保存。
+
+
+### 135Pr：a(E)不是Q，oldoriginal不是correctedversion
+
+[[garg-2015-135pr-magnetic-rotation]] GA15-4–12核IUAC2015的a=N∥unpol/N⊥unpol约.93(.06)，原countΔ无Q除法；同135Pr的Matta/Lv属于其它campaign/response。固定counts的a变换/共有Cov只作条件设计，不能用单一globala去强配两条分支或重复加σ。2019erratum正文未得，原2015Δ与[[nndc-2008-135pr-selected-mixing-records]] XUNDL3旧复制都不充作最新更正。

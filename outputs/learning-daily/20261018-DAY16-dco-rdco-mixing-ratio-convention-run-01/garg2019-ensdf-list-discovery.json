@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T09:34:14.827837+08:00",
+  "response": {
+    "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet?nuc=135PR&searchType=quick&datasource=ensdf",
+    "status": 200,
+    "bytes": 1112,
+    "content_type": "text/html;charset=UTF-8",
+    "forms": []
+  }
+}

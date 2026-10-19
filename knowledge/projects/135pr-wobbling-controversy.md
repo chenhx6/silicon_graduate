@@ -228,3 +228,16 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 本run后续新增两项方法边界：[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-12–16核Fig12固定sigma/I=.2/log10chi²及public source包，保留作者分支偏好而不把它当full nuisance profile；[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9–15与[[se21-alignment-calibration-consistency]]发现854.3校准若按同nuclear rho/B直接解释则有条件失配。两者仍是方法/输入合同，不更改本project的集体模式排序或原human-review范围。
 
 同一run的有界后续（SE21-16/17）评估了参考M3和七角P6遗漏，当前point/Gaussian模型未闭合原Table4.3；另一个明确标记的物理相位scope控制证明误设pureE2 reference可制造apparent-alpha正性失败。这限制“校准失配即数据错误”的推断，实际delta/作者程序/collective-mode判断均不改。1974两原件的定义、J23/2行与negative-column例题已核，但Ref26 producer方法正文/actualresponse与Cov仍缺。
+
+
+## Day16追加：Garg原版与官方记录的实际状态
+
+### Agent active summary — 新追加材料
+
+此节为2026-10-19 Codex self-audit，不扩张前面human-reviewed范围；旧project全prefix逐字节保持。Garg2015 original现已本session完整原读，2019erratum只核metadata未得body；NNDC selectedAdopted仍旧评价、XUNDL的同名pol/编译日期不是同一观测或新实验。争议排序不改。
+
+[[garg-2015-135pr-magnetic-rotation]] GA15-4–14补实际IUAC82MeV/15clover/3e8事件、148/90RDCO和Eu152a≈.93(.06)及原2015targetΔ；原版确实覆盖747/813，但不报两线δ，755无Δ。原后续入口“Garg原文未单独核”现只对2019erratum/actualproducer仍成立，不能把旧TableI负值冒作已核更正值。
+
+[[nndc-2008-135pr-selected-mixing-records]] N135-1–10保留2008Adopted空MR、2015Ga39的XUNDL3旧Δ、2022Lv01的XUNDL6 P及2026Se03的XUNDL7 AD/MR字段。后两compiled日期不增加独立采集；大/小模差异不由单纯phase换号消除。同名pol需沿primary辨A还是P。
+
+P1 self-audit：这些是source identity/版本/可复现条件推导；原2019body、每线gate/response/background和共有Σ仍缺。原有Matta/Lv/Sensharma作者解释与human-review状态保持；具体新输入见[[135pr-mixing-branch-input-contract]]。不得由旧Δ、编译MR或附加globala合同判决wobbling/TiP/MR。

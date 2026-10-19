@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T09:37:27.044810+08:00",
+  "exit_code": 0,
+  "session_id": 86169,
+  "script": "system/scripts/day16_garg2015_calibration_audit.py",
+  "script_sha256": "176700f9a1a3e073655fa7cf489819d36aad09bc3f3d6b6313dd95131d56888a",
+  "result_matches": true,
+  "contract_unchanged": true,
+  "scientific_scope": "old2015 rounded central rows only; not actual2019erratum or experimentalrefit",
+  "environment": "PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps"
+}

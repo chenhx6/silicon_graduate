@@ -1,0 +1,461 @@
+{
+  "at": "2026-10-19T09:42:34.489501+08:00",
+  "script_sha256": "7c8a701bbd5a8fdc42d2d26f13010d3479dc570c4c8c8c77bb5c8ea632950088",
+  "contract_sha256": "a537358c60c471355edb6ec0203cf48acac095b6194c523c7acb1fd3f93abbc0",
+  "datasets": {
+    "adopted2008": {
+      "path": "tmp/day16-garg2015/adopted2008.ens",
+      "sha256": "b7f044ae3ac8eb6f2b420a539f039a92ebe2ed6c28f5470af4ad5d2f1995e698",
+      "line_count": 584,
+      "header": [
+        "",
+        "135PR    ADOPTED LEVELS, GAMMAS                                  08NDS    200803",
+        "135PR  H TYP=FUL$AUT=BALRAJ SINGH, ALEXANDER A. RODIONOV and YURI L. KHAZOV$    ",
+        "135PR2 H CIT=NDS 109, 517 (2008)$CUT=22-Jan-2008$                               ",
+        "135PR  Q -4722     2310479   243392    244.1E2   3     2012WA38                 ",
+        "135PR cQ $Note: Current evaluation has used the following Q record              ",
+        "135PR2cQ -4722     23 {I10490}  40 {I3389}   24 {I410}    30    2003Au03        ",
+        "135PR c  Mass measurement by penning trap: 1997Be63                             ",
+        "135PR c  Nuclear structure calculations: 1993We05 (levels, cranked-shell-model),",
+        "135PR2c  1992Zh10 (identical bands), 1988Go01 (levels), 1983Ch46 (yrast,near-   ",
+        "135PR3c  yrast bands, cranking model), 1975To08 (levels, transition rates, |m,  ",
+        "135PR4c  Q), 1975Me11 (levels, collective model)                                ",
+        "135PR D  OTHER REACTION: 1983Va10                                               ",
+        "135PR c  No level or |g information is available from                           ",
+        "135PR2c  {+135}Nd |e decay (5.5 min)                                            ",
+        "135PR cG E,RI$For levels populated in more than one dataset, values             ",
+        "135PR2cG represent weighted averages of available data, unless otherwise stated ",
+        "135PR cG E(A)$From (p,n|g) only                                                 ",
+        "135PR cG E(B),RI(B)$From (p,n|g). The |g ray is poorly defined in {+135}Nd |e   ",
+        "135PRxcG decay                                                                  ",
+        "135PR cG M,MR$For |g rays from low-spin (J|<9/2), the assignments are           ",
+        "135PR2cG generally from ce data in {+135}Nd |e decay. For high-spin states the  ",
+        "135PR3cG assignments are from |g(|q) and ce data in {+136}Ce(p,2n|g) and        ",
+        "135PR4cG from |g|g(|q)(DCO) data in {+120}Sn({+19}F,4n|g) reaction. The mult=Q  ",
+        "135PR5cG most likely corresponds to E2 transition.                              ",
+        "135PR cL E$From least-squares fit to E|g's.                                     ",
+        "135PR cL T$For all excited states seen in the {+136}Ce(p,2n|g) reaction, except "
+      ],
+      "MR_nonempty_gamma_count": 14,
+      "contains_2019erratum_DOI_or_code": false
+    },
+    "garg-xundl3": {
+      "path": "tmp/day16-garg2015/garg-xundl3.ens",
+      "sha256": "f1c3a52b846bfb46475673f82af86cb6c611f09b754a465f09f470d1af4bf0d6",
+      "line_count": 197,
+      "header": [
+        "",
+        "135PR    123SB(16O,4NG):XUNDL-3        2015GA39                           201601",
+        "135PR c  Compiled (unevaluated) dataset from 2015Ga39:                          ",
+        "135PR2c  Phys Rev C 92, 054325 (2015)                                           ",
+        "135PR c  Compiled by J. Chen (NSCL, MSU), December 7, 2015                      ",
+        "135PR c  2015Ga39: E=82 MeV {+16}O beam was produced from the pelletron         ",
+        "135PR2c  accelerator at the Inter University Accelerator Centre (IUAC), New     ",
+        "135PR3c  Delhi. Target was  800 |mg/cm{+2} {+123}Sb on a 10 mg/cm{+2} Au        ",
+        "135PR4c  backing. |g rays were detected with the Indian National Gamma Array    ",
+        "135PR5c  (INGA) of 15 Compton-suppressed clover HPGe detectors. Measured E|g,   ",
+        "135PR6c  I|g, |g|g-coin, |g(DCO), |g(pol). Deduced levels, J, |p, band          ",
+        "135PR7c  structures, |g-ray multipolarities. Comparisons with Tilted Axis       ",
+        "135PR8c  Cranking (TAC) calculations.                                           ",
+        "135PR cG E$For uncertainty in |g-ray energy, authors only state that it is 0.2  ",
+        "135PR2cG keV for strong transitions and 0.5 keV for weak ones. The evaluator has",
+        "135PR3cG assumed that strong transitions are those with I|g>2 and weak ones with",
+        "135PR4cG I|g<2.                                                                 ",
+        "135PR cG RI$Relative to I(372.8|g)=100.0 {I18}.                                 ",
+        "135PR cG M$Deduced by 2015Ga39 from measured |g(DCO) and |g(pol). The typical   ",
+        "135PR2cG DCO values are |?1 for stretched quadrupole and |?0.4 for dipole       ",
+        "135PR3cG transitions when gating on a stretched quadrupole transition; |?0.8 for",
+        "135PR4cG a dipole and |?2.0 for a quadrupole when gating on a dipole transition.",
+        "135PR5cG For |g-ray polarization asymmetry factor, a positive value indicates   ",
+        "135PR6cG electric character and a negative value magnetic character.            ",
+        "135PR cL E$From a least-squares fit to |g-ray energies (by compiler).           ",
+        "135PR cL J$As given in 2015Ga39 based on band structures and |g-ray             ",
+        "135PR2cL multipolarties deduced from measured |g(DCO) and |g(pol).              "
+      ],
+      "MR_nonempty_gamma_count": 0,
+      "contains_2019erratum_DOI_or_code": false
+    },
+    "lv-xundl6": {
+      "path": "tmp/day16-garg2015/lv-xundl6.ens",
+      "sha256": "ce2b463e45572ca4b8067fd7646ed10d4e458b0f5f8c25f234f463c068679990",
+      "line_count": 124,
+      "header": [
+        "",
+        "135PR    100MO(40AR,P4NG):XUNDL-6      2022LV01                           202510",
+        "135PR c  Compiled (unevaluated) dataset from 2022Lv01:                          ",
+        "135PR c  Phys Lett. B 824, 136840 (2022)                                        ",
+        "135PR c  Compiled by E.A. McCutchan (NNDC,BNL) February 10, 2025                ",
+        "135PR c  E=152 MeV {+40}Ar beam incident on a 0.5 mg/cm{+2} self-supporting     ",
+        "135PR2c  foil of enriched {+100}Mo.                                             ",
+        "135PR3c  Measured E|g, I|g, |g|g, |g|g(|q), |g(pol) using the JUROGAM II array  ",
+        "135PR4c  consisting of 24 EUROGAM clover and 15 EUROGAM phase one               ",
+        "135PR5c  Compton-suppressed detectors.                                          ",
+        "135PR6c  Deduced levels, J, |p, band                                            ",
+        "135PR7c  structures, |g-ray multipolarities. Comparisons with Tilted Axis       ",
+        "135PR8c  Cranking (TAC) calculations.                                           ",
+        "135PR cG E$For uncertainty in |g-ray energy, authors only state that it is 0.2  ",
+        "135PR2cG keV for E<1000 keV, 0.5 keV for 1000-1200 keV and 1 keV for E>1200 keV.",
+        "135PR cG RI$Relative to I(372.8|g)=100                                          ",
+        "135PR cG M$Deduced by 2022Lv01 from measured |g(DCO) and |g(pol).               ",
+        "135PR cL E$From a least-squares fit to |g-ray energies (by compiler).           ",
+        "135PR cL J$As given in 2022Lv01 based on band structures and |g-ray             ",
+        "135PR2cL multipolarties deduced from measured |g(DCO) and |g(pol).              ",
+        "135PR CL BAND(A)$Band 1, yrast band based on 11/2- isomer                       ",
+        "135PR CL BAND(B)$Band 2                                                         ",
+        "135PR CL BAND(D)$Band 3                                                         ",
+        "135PR CL BAND(E)$Band 4                                                         ",
+        "135PR PN                                                                     5  ",
+        "135PR  L 358         11/2-                105 US 10                         AM  ",
+        "135PR cL E,T$from Adopted Levels for {+135}Pr in ENSDF database                 "
+      ],
+      "MR_nonempty_gamma_count": 3,
+      "contains_2019erratum_DOI_or_code": false
+    },
+    "sensharma-xundl7": {
+      "path": "tmp/day16-garg2015/sensharma-xundl7.ens",
+      "sha256": "1b8a7196b62dd583108dfae4b9528fc5d5b60feb3039561988831eca6ba06390",
+      "line_count": 117,
+      "header": [
+        "",
+        "135PR    123SB(16O,4NG):XUNDL-7        2026SE03                           202606",
+        "135PR c  Compiled (unevaluated) dataset from 2026Se03:                          ",
+        "135PR c  Phys Rev C 113, 024313 (2026)                                          ",
+        "135PR c  Compiled by E.A. Mccutchan (NNDC,BNL) May 26, 2026                     ",
+        "135PR c  Formatting for JSON translation 6-5-2026                               ",
+        "135PR c  E=80 MeV {+16}O beams incident on a                                    ",
+        "135PR2c  using a  697 |mg/cm{+2} thick target with a front layer of 15          ",
+        "135PR3c  |mg/cm{+2} Al. Measured E|g, I|g, |g(|q)                               ",
+        "135PR4c  using the Gammasphere array consisting of 63 HPGe detectors.           ",
+        "135PR cG E,RI$From 2026Se03. Uncertainties are statistical.                     ",
+        "135PR cG M,MR$From |g(|q)                                                       ",
+        "135PR cL J$As given by 2026Se03.                                                ",
+        "135PR CL BAND(A)$|ph{-11/2} band, |a=-1/2                                       ",
+        "135PR CL BAND(C)$Wobbling band                                                  ",
+        "135PR CL BAND(D)$|ph{-11/2}{+3}~#|nh{-11/2}{+2} band                            ",
+        "135PR CL BAND(S)$Band based on 23/2(-) level                                    ",
+        "135PR  L 358.0        11/2-                                                 AM  ",
+        "135PR  L 730.7      2 15/2-                                                 A   ",
+        "135PR  G 372.7      4 100    6 E2                                               ",
+        "135PR  L 1390.3    3  19/2-                                                 A   ",
+        "135PR  G 659.6     4  62     5 E2                                               ",
+        "135PR  L 1476.8    5  17/2-                                                 C   ",
+        "135PR  G 746.3     9  8.3    9 M1+E2     -1.40   +14-12                         ",
+        "135PR  L 2203.1    5  21/2-                                                 C   ",
+        "135PR  G 726.1     10 2.8    3 E2                                               ",
+        "135PR  G 811.6     10 3.3    3 M1+E2     -1.63   +2-3                           "
+      ],
+      "MR_nonempty_gamma_count": 21,
+      "contains_2019erratum_DOI_or_code": false
+    }
+  },
+  "selected_gamma_records": [
+    {
+      "line": 320,
+      "parent": {
+        "line": 315,
+        "E": "1478.2",
+        "DE": "5",
+        "Jpi": "(17/2-)"
+      },
+      "E": "747.1",
+      "DE": "5",
+      "RI": "100",
+      "DRI": "15",
+      "M": "D",
+      "MR": "",
+      "DMR": "",
+      "attached": [],
+      "raw": "135PR  G 747.1     5  100    15  D                                              ",
+      "dataset_name": "adopted2008",
+      "MR_sigma": null,
+      "final_level_energy_difference_keV": 731.1,
+      "pol_fields": []
+    },
+    {
+      "line": 408,
+      "parent": {
+        "line": 405,
+        "E": "2204.7",
+        "DE": "7",
+        "Jpi": "(21/2-)"
+      },
+      "E": "814",
+      "DE": "1",
+      "RI": "100",
+      "DRI": "31",
+      "M": "D",
+      "MR": "",
+      "DMR": "",
+      "attached": [],
+      "raw": "135PR  G  814      1   100   31   D                                             ",
+      "dataset_name": "adopted2008",
+      "MR_sigma": null,
+      "final_level_energy_difference_keV": 1390.6999999999998,
+      "pol_fields": []
+    },
+    {
+      "line": 54,
+      "parent": {
+        "line": 52,
+        "E": "1478.31",
+        "DE": "23",
+        "Jpi": "17/2-"
+      },
+      "E": "747.5",
+      "DE": "2",
+      "RI": "9.06",
+      "DRI": "24",
+      "M": "M1+E2",
+      "MR": "",
+      "DMR": "",
+      "attached": [
+        {
+          "line": 55,
+          "raw": "135PR2 G DCO=0.25 1                                                             "
+        },
+        {
+          "line": 56,
+          "raw": "135PR cG $pol=-0.05 {I3}                                                        "
+        }
+      ],
+      "raw": "135PR  G 747.5     2 9.06    24M1+E2                                            ",
+      "dataset_name": "garg-xundl3",
+      "MR_sigma": null,
+      "final_level_energy_difference_keV": 730.81,
+      "pol_fields": [
+        {
+          "value_token": "-0.05",
+          "error_token": "3",
+          "error": {
+            "plus": 0.03,
+            "minus": 0.03
+          },
+          "line": 56
+        }
+      ]
+    },
+    {
+      "line": 70,
+      "parent": {
+        "line": 68,
+        "E": "2204.30",
+        "DE": "24",
+        "Jpi": "21/2-"
+      },
+      "E": "813.3",
+      "DE": "2",
+      "RI": "5.96",
+      "DRI": "18",
+      "M": "M1+E2",
+      "MR": "",
+      "DMR": "",
+      "attached": [
+        {
+          "line": 71,
+          "raw": "135PR2 G DCO=0.22 2                                                             "
+        },
+        {
+          "line": 72,
+          "raw": "135PR cG $pol=-0.2 {I8}                                                         "
+        }
+      ],
+      "raw": "135PR  G 813.3     2 5.96    18M1+E2                                            ",
+      "dataset_name": "garg-xundl3",
+      "MR_sigma": null,
+      "final_level_energy_difference_keV": 1391.0000000000002,
+      "pol_fields": [
+        {
+          "value_token": "-0.2",
+          "error_token": "8",
+          "error": {
+            "plus": 0.8,
+            "minus": 0.8
+          },
+          "line": 72
+        }
+      ]
+    },
+    {
+      "line": 45,
+      "parent": {
+        "line": 43,
+        "E": "1477.9",
+        "DE": "",
+        "Jpi": "17/2-"
+      },
+      "E": "747.3",
+      "DE": "2",
+      "RI": "9.4",
+      "DRI": "5",
+      "M": "M1+E2",
+      "MR": "-0.47",
+      "DMR": "+9-22",
+      "attached": [
+        {
+          "line": 46,
+          "raw": "135PR cG $R{-ac}=0.37 {I4}                                                      "
+        },
+        {
+          "line": 47,
+          "raw": "135PR cG $pol=0.04 {I+8-13}                                                     "
+        },
+        {
+          "line": 48,
+          "raw": "135PR cG $pol value from Table 1                                                "
+        }
+      ],
+      "raw": "135PR  G 747.3     2  9.4    5 M1+E2     -0.47   +9-22                          ",
+      "dataset_name": "lv-xundl6",
+      "MR_sigma": {
+        "plus": 0.09,
+        "minus": 0.22
+      },
+      "final_level_energy_difference_keV": 730.6000000000001,
+      "pol_fields": [
+        {
+          "value_token": "0.04",
+          "error_token": "+8-13",
+          "error": {
+            "plus": 0.08,
+            "minus": 0.13
+          },
+          "line": 47
+        }
+      ]
+    },
+    {
+      "line": 64,
+      "parent": {
+        "line": 61,
+        "E": "2204",
+        "DE": "",
+        "Jpi": "21/2-"
+      },
+      "E": "813.2",
+      "DE": "2",
+      "RI": "6.4",
+      "DRI": "3",
+      "M": "M1+E2",
+      "MR": "-0.37",
+      "DMR": "+10-14",
+      "attached": [
+        {
+          "line": 65,
+          "raw": "135PR cG $R{-ac}=0.48 {I6}                                                      "
+        },
+        {
+          "line": 66,
+          "raw": "135PR cG $pol=-0.03 {I+5-12}                                                    "
+        },
+        {
+          "line": 67,
+          "raw": "135PR cG $pol value from Table 1                                                "
+        }
+      ],
+      "raw": "135PR  G 813.2     2  6.4    3 M1+E2     -0.37   +10-14                         ",
+      "dataset_name": "lv-xundl6",
+      "MR_sigma": {
+        "plus": 0.1,
+        "minus": 0.14
+      },
+      "final_level_energy_difference_keV": 1390.8,
+      "pol_fields": [
+        {
+          "value_token": "-0.03",
+          "error_token": "+5-12",
+          "error": {
+            "plus": 0.05,
+            "minus": 0.12
+          },
+          "line": 66
+        }
+      ]
+    },
+    {
+      "line": 24,
+      "parent": {
+        "line": 23,
+        "E": "1476.8",
+        "DE": "5",
+        "Jpi": "17/2-"
+      },
+      "E": "746.3",
+      "DE": "9",
+      "RI": "8.3",
+      "DRI": "9",
+      "M": "M1+E2",
+      "MR": "-1.40",
+      "DMR": "+14-12",
+      "attached": [],
+      "raw": "135PR  G 746.3     9  8.3    9 M1+E2     -1.40   +14-12                         ",
+      "dataset_name": "sensharma-xundl7",
+      "MR_sigma": {
+        "plus": 0.14,
+        "minus": 0.12
+      },
+      "final_level_energy_difference_keV": 730.5,
+      "pol_fields": []
+    },
+    {
+      "line": 27,
+      "parent": {
+        "line": 25,
+        "E": "2203.1",
+        "DE": "5",
+        "Jpi": "21/2-"
+      },
+      "E": "811.6",
+      "DE": "10",
+      "RI": "3.3",
+      "DRI": "3",
+      "M": "M1+E2",
+      "MR": "-1.63",
+      "DMR": "+2-3",
+      "attached": [],
+      "raw": "135PR  G 811.6     10 3.3    3 M1+E2     -1.63   +2-3                           ",
+      "dataset_name": "sensharma-xundl7",
+      "MR_sigma": {
+        "plus": 0.02,
+        "minus": 0.03
+      },
+      "final_level_energy_difference_keV": 1391.5,
+      "pol_fields": []
+    }
+  ],
+  "energy_only_decoy": {
+    "line": 271,
+    "parent": {
+      "line": 265,
+      "E": "1289.60",
+      "DE": "21",
+      "Jpi": "(11/2-)"
+    },
+    "E": "746.1",
+    "DE": "5",
+    "RI": "88",
+    "DRI": "30",
+    "M": "",
+    "MR": "",
+    "DMR": "",
+    "attached": [
+      {
+        "line": 272,
+        "raw": "135PR cG RI$from {+135}Nd |e decay. Other: 143 {I75} in (p,2n|g)                "
+      }
+    ],
+    "raw": "135PR  G 746.1     5  88     30                                                 "
+  },
+  "semantics": {
+    "Garg_pol": "old2015 count asymmetry Delta",
+    "Lv_pol": "P from source Table1, not same asymmetry",
+    "Sensharma_MR": "angular_distribution 2026 original compilation; not a new independent2026 measurement"
+  },
+  "verification_scope": {
+    "all_four_source_hashes_passed": true,
+    "all8_parent_Egamma_exact_identities_passed": true,
+    "Garg_selected_object_is_not_2019erratum_update": true,
+    "selected_Adopted_emptyMR_not_new_constraint": true,
+    "modern_arrays_response_gates_cov_recovered": false,
+    "new_experimental_delta_or_wobbling_ranking": false
+  }
+}

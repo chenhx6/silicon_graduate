@@ -353,3 +353,8 @@ FH59原48页711–758及cross-source REFLECT已暴露plane轴/p-R-count精确字
 ### DAY16 checkpoint036额外priming
 
 Hamilton1948原782–788、16pure序列roleweights/null与rank4必要条件已暴露。正式17回忆需注明：αAB/αBC为两个overallphotonrole效率，等权可抵消P；不是完整arrayφresponse。polarization里的cos(2θ)不能读成cos²θ，源sum→W给检查。入口knowledge/sources/hamilton-1948-successive-quanta-polarization.md HAM48-4–13。没有mixedδ/RMEphase或实验response/Cov闭合。
+
+
+### DAY16 checkpoint037额外priming
+
+Garg2015original9页及2019erratum metadata已暴露；其IUAC82MeV/15clovers、a≈.93(.06)、oldΔ不与Matta/Lv共用response。四个NNDC对象已核，Gargpol=Δ/Lvpol=P、编译日期不计新experiment，旧Adopted空MR/近能串母态需警惕。正式17回忆需注明，本日不授17学分；2019body/实际Q/a(E)/gate/cov仍缺。入口garg-2015 source GA15-4–14、nndc-2008-135pr-selected-mixing-records N135-1–10与inputnote。

@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-19T09:43:37.356896+08:00",
+  "doi": "10.1103/PhysRevC.100.069901",
+  "identity_verified": "Crossref exact title/authors and INSPIRE explicit material=erratum linked to2015Ga39",
+  "body_obtained": false,
+  "routes": [
+    "APS401/403/linkDNS andMCP restrictedtarget",
+    "OpenAlex200 exactDOI/bronze/content_urls but contenthost DNSfail",
+    "INSPIRE200/1 relation record no documents",
+    "arXivdirect200/0, MCPsyntax400/plainirrelevantidentityrejectednoPDF"
+  ],
+  "no_erratum_content_inferred": true,
+  "GargXUNDL3": "selected objectbase201601still oldnegativeDelta, no2019key; not substitute erratumbody",
+  "highest_information_input": "new lawful fulltext of exacterratum or author producer/corrected count/calibration ledger; do not rawretry terminalroutes"
+}

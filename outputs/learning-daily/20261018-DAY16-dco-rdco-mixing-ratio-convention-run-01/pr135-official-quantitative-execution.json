@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T09:43:37.345972+08:00",
+  "exit_code": 0,
+  "tool_output_chunk": "12db68",
+  "script": "system/scripts/day16_pr135_official_record_audit.py",
+  "script_sha256": "7c8a701bbd5a8fdc42d2d26f13010d3479dc570c4c8c8c77bb5c8ea632950088",
+  "result_matches_script": true,
+  "records_helper": "system/scripts/day16_ni60_reference_audit.py",
+  "records_helper_sha256": "c2ba3317a2796b0f346ebf148008c1891c2941007530eec1cd13a15a15490f54",
+  "new_delta_fit": false
+}

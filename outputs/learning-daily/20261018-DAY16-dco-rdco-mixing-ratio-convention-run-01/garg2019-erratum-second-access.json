@@ -1,0 +1,58 @@
+{
+  "at": "2026-10-19T09:29:17.414089+08:00",
+  "requests": [
+    {
+      "name": "erratum-link",
+      "url": "https://link.aps.org/pdf/10.1103/PhysRevC.100.069901",
+      "error": "HTTPSConnectionPool(host='link.aps.org', port=443): Max retries exceeded with url: /pdf/10.1103/PhysRevC.100.069901 (Caused by NameResolutionError(\"HTTPSConnection(host='link.aps.org', port=443): Failed to resolve 'link.aps.org' ([Errno -5] No address associated with hostname)\"))"
+    },
+    {
+      "name": "erratum-inspire",
+      "url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FPhysRevC.100.069901&size=1",
+      "final_url": "https://inspirehep.net/api/literature?q=doi%3A10.1103%2FPhysRevC.100.069901&size=1",
+      "status": 200,
+      "bytes": 31426,
+      "is_pdf": false,
+      "path": "tmp/day16-garg2015/erratum-inspire.txt",
+      "sha256": "37d08cf4da05bdf846d27e51a5144eb293cb18d7252ae017d37103e4b3b5ae0a",
+      "total": 1,
+      "results": [
+        {
+          "publication_info": [
+            {
+              "journal_volume": "92",
+              "artid": "054325",
+              "year": 2015,
+              "journal_issue": "5",
+              "journal_title": "Phys.Rev.C"
+            },
+            {
+              "journal_volume": "100",
+              "artid": "069901",
+              "material": "erratum",
+              "year": 2019,
+              "journal_issue": "6",
+              "journal_title": "Phys.Rev.C"
+            }
+          ],
+          "dois": [
+            {
+              "source": "APS",
+              "value": "10.1103/PhysRevC.92.054325"
+            },
+            {
+              "material": "erratum",
+              "source": "bibmatch",
+              "value": "10.1103/PhysRevC.100.069901"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Negative-parity high-spin states and a possible magnetic rotation band in Pr7659135"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

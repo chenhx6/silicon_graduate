@@ -1,0 +1,174 @@
+{
+  "at": "2026-10-19T09:36:03.815443+08:00",
+  "first_GET200_was_error_not_data": true,
+  "response": {
+    "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+    "method": "POST",
+    "status": 200,
+    "bytes": 10213,
+    "title": "Datasets for 135PR",
+    "forms": [
+      {
+        "action": "/ensdf/DatasetFetchServlet",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "nuc",
+            "value": "",
+            "type": "text"
+          },
+          {
+            "name": "searchType",
+            "value": "quick",
+            "type": "hidden"
+          },
+          {
+            "name": "datasource",
+            "value": "ensdf",
+            "type": "hidden"
+          }
+        ],
+        "text": "Nuclide, Mass, or Symbol: Search"
+      },
+      {
+        "action": "/ensdf/EnsdfDispatcherServlet",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "dbclass",
+            "value": "ensdf",
+            "type": "hidden"
+          },
+          {
+            "name": "page-source",
+            "value": "singular",
+            "type": "hidden"
+          },
+          {
+            "name": "chooseit",
+            "value": "PDF Version",
+            "type": "submit"
+          },
+          {
+            "name": "chooseit",
+            "value": "ENSDF text format",
+            "type": "submit"
+          },
+          {
+            "name": "pcheckboxall",
+            "value": null,
+            "type": "checkbox"
+          },
+          {
+            "name": "datasetcheck",
+            "value": "135059001,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "datasetcheck",
+            "value": "135059002,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "datasetcheck",
+            "value": "135059003,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "datasetcheck",
+            "value": "135059004,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "datasetcheck",
+            "value": "135059005,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "datasetcheck",
+            "value": "135059006,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "chooseit",
+            "value": "PDF Version",
+            "type": "submit"
+          },
+          {
+            "name": "chooseit",
+            "value": "ENSDF text format",
+            "type": "submit"
+          }
+        ],
+        "text": "Retrieve selected ENSDF datasets: Dataset Last Revised References Select All ADOPTED LEVELS, GAMMAS 2008-03 All references 135PR IT DECAY (105 US) 2008-03 All references 135ND EC DECAY (12.4 M) 2008-03 All references 135ND EC DECAY (5.5 M):? 2008-03 All references 120SN(19F,4NG) 2008-03 All references 136CE(P,2NG) 2008-03 All references Retrieve selected ENSDF datasets:"
+      },
+      {
+        "action": "/ensdf/EnsdfDispatcherServlet",
+        "method": "post",
+        "inputs": [
+          {
+            "name": "page-source",
+            "value": "coupled-xun",
+            "type": "hidden"
+          },
+          {
+            "name": "dbclass",
+            "value": "xundl",
+            "type": "hidden"
+          },
+          {
+            "name": "xunsamall",
+            "value": null,
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059007,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059008,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059009,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059010,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059011,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059012,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "xunpostcheck",
+            "value": "135059013,135PR",
+            "type": "checkbox"
+          },
+          {
+            "name": "postButton",
+            "value": "PDF Version",
+            "type": "submit"
+          },
+          {
+            "name": "postButton",
+            "value": "ENSDF text format",
+            "type": "submit"
+          }
+        ],
+        "text": "Nuclide Dataset Last Revised References Select All 135 Pr 116CD(23NA,4NG):XUNDL-1 2011-11 All references 123SB(16O,4NG):XUNDL-2 2015-04 All references 123SB(16O,4NG):XUNDL-3 2016-01 All references TA(P,X):MOMM1:XUNDL-4 2021-12 All references 123SB(16O,4NG):XUNDL-5 2025-03 All references 100MO(40AR,P4NG):XUNDL-6 2025-10 All references 123SB(16O,4NG):XUNDL-7 2026-06 All references Retrieve selected XUNDL datasets:"
+      }
+    ]
+  }
+}

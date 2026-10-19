@@ -184,3 +184,14 @@ Matta 后续完整分析或学位论文是否给出可重放的角分布输入�
 2026-10-17：Day15 窗口内的 Day16 无学分预习创建；source 原件/标定闭合和条件敏感性已检查。完整 response/Σ 未得，保留 provisional，不给 Day16 正式学分或实验模式结论。
 
 后续alignment应用另见[[se21-alignment-calibration-consistency]]及[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-9–15：源alpha_exp与nuclear rho/B层尚未闭合。这使“直接采用同一sigma/J数值”成为需要验证的迁移假设，不直接修改本页任何已发表delta/P数值。
+
+
+## Day16：Garg原版与当前官方字段补核
+
+本段为2026-10-19本session新原读，明确区别Day15旧preview。[[garg-2015-135pr-magnetic-rotation]] GA15-4–14完整核IUAC82MeV/15clovers/3e8fold3，RDCO148/90与Eu152a≈.93(.06)；原2015targetΔ747.5=−.05(.03)、813.3=−.20(.08)，755无Δ，paper未给这两线δ数值。它与MattaTIFR80MeV、LvJUROGAM分开采集/response；不能因都叫INGA互借a/Q或将不同A/P直接比幅值。
+
+2019erratum DOI10.1103/PhysRevC.100.069901已核metadata/同篇关系，正文未取得，当前旧TableI不作为已核最新版。[[nndc-2008-135pr-selected-mixing-records]] N135-1–10说明XUNDL3仍旧2015compiledpolΔ/空MR，Lv的pol是P，2026XUNDL7的MR源自其原AD；相同字段名称/新月份不提供独立观测。Adopted近能746.1属于另一母态，禁止nearest-only串线。
+
+原表的固定counts变换可给747/813翻号a阈值1.0279/1.395；单一globalλ若同时要求六条原M1标签线仍负则central区间无解。这只是附加合同的条件失败：标签来自同数据，不是独立falsifier，也不排除误差/energygate-dependent修正或2019实际方法。没有调a/Q强配Matta或Lv，也没有恢复实验δlikelihood/模式排序。
+
+下一最高信息输入是exact2019erratum正文及其逐项更改、实际a(E)/perp-parallel净counts/背景/门和Q/Σ；旧Matta thesis terminalroute不原样重试。无足够输入时保持branch dispute与experimentalL4notready。

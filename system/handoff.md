@@ -8,15 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing，nativegoal实返blocked/工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked/工具无active写法，objective不变、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
 
-036 verification030实际report/card/唯一writeback54changed/54items、boundary/lint/diff0，0errors182warnings(133key46raw3parser)。Hamilton原件782–787及788上半完整读，Crossref782–788；旧scope把整788排除的矛盾已修，Corben标题之后不摄入。旧claims/review原raw/PLAN/Bib/旧humanprefix与新scriptcontracthash保持。
+037 verification031实际report/card/唯一writeback58changed/58items、boundary/lint/diff0，0errors184warnings(134key47raw3parser)。Garg2015完整9页/8图/TableI原读，旧raw/claims/flags、Pr135project全humanprefix以及PLAN/Bib/旧prefixguards通过。IUAC82MeV/15clover采集不同MattaTIFR80MeV，原a=.93(.06)是geometryratio不是Q；747/813的oldΔ和755无Δ、RDCO148/90/门类身份明确，但这两线原paper无δ数值。
 
-原16pure E1/M1/E2/M2符号分类actual0：8P依roleweights/8不依，dependent等权全null，sum→W/collinear/roleweight交换/EMdual都过。两个α是overallrolecoincidence效率，不代modernφresponse/Q；partialparity识别需已知weightordering及nondegeneratecoefficients。原polcos(2θ)不同Wcos²θ，OCR负面控制不当sourceerratum。allowedpureE2 2→1→2的rank4因中间J=1禁戒，限制QQ必α4非0；这是选律推断，非新核赋值。
+Garg2019 exacterratum DOI10.1103/PhysRevC.100.069901 metadata/INSPIRE relation已核，APS/contentOpenAlex/arXiv合法route无body，本地342PDFfirstpageDOI扫描亦无命中（非证明所有opaque/laterpage材料没有），readiness保留，不从二手补更正值。旧表fixedcounts/globalλ及commonCov仅条件设计actual0，不调a/Q强配/不作模式排序。
 
-当前发布指针main / `Validate DAY16 photon role cancellation and rank conditions`，actualhash/H3/push只publication036/runreceipt；035已actualGitee指针main / `Reconcile DAY16 historical polarization dictionaries and preparation limits`。Fe55仅metadata：DOI10.2172/4371445/真实UNTarkmetadc1022386，当前body获取全失败，readiness留档；BR1953亦未得，不重复terminal，不用其它纯理论补mixedδoperator桥。下一可重建A130当前争议的actualprimary/calibration输入池，先核旧失败指纹再新route；原15:00仍约5h40，不能以本checkpoint提前结束。
+NNDC135Pr四官方对象actualhash/typed8targets复算0：Adopted200803target空MR，GargXUNDL3仍2015compiled负Δ/空MR，LvXUNDL6pol=P/MR小模，SH26XUNDL7MR大模且无targetPOL。编译日期非新实验、MR误差按字符串精度、近能746.1属另一母态。新source/inputnote/project追加/方法已canonical，project旧段完整不动。
 
-详runcontinuation。保护raw/PLAN/Bib/credentials/原flags/继承dirty与log；exactmanifest、HEAD+ownlog、cached实际0后commit、freshfetch/ancestor/dryrun/nonforceH3，exacthash只receipt。
+当前发布指针main / `Trace DAY16 Pr135 original calibration and compiled record versions`，actualhash/H3/push只publication037/runreceipt；036已actualGitee指针main / `Validate DAY16 photon role cancellation and rank conditions`。下一GargRef32 Palit2000 Pramana54,347原标定方法是有价值continuity，尚未打开新body，需先clock/pool/冻结回忆。原15:00仍5h+，不因本checkpoint提前结束；旧terminalroutes不原样重试。
+
+详runcontinuation；保护raw/PLAN/Bib/credentials/原review/继承dirty与log。explicitmanifest/HEAD+ownlog/cached实际0后commit/freshfetch-ancestor-dryrun-nonforceH3。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

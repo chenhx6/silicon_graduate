@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T09:41:40.302936+08:00",
+  "discovery": "Exact DOI OpenAlex W2995469886 content_urls in fetched metadata; new host/route, no credential inspection or extra institutional login",
+  "requests": [
+    {
+      "kind": "pdf",
+      "url": "https://content.openalex.org/works/W2995469886.pdf",
+      "error": "HTTPSConnectionPool(host='content.openalex.org', port=443): Max retries exceeded with url: /works/W2995469886.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='content.openalex.org', port=443): Failed to resolve 'content.openalex.org' ([Errno -5] No address associated with hostname)\"))"
+    },
+    {
+      "kind": "grobid_xml",
+      "url": "https://content.openalex.org/works/W2995469886.grobid-xml",
+      "error": "HTTPSConnectionPool(host='content.openalex.org', port=443): Max retries exceeded with url: /works/W2995469886.grobid-xml (Caused by NameResolutionError(\"HTTPSConnection(host='content.openalex.org', port=443): Failed to resolve 'content.openalex.org' ([Errno -5] No address associated with hostname)\"))"
+    }
+  ]
+}

@@ -98,3 +98,8 @@ R_DCO 的“dipole≈0.5 / quadrupole≈1”等经验值只对特定门和几何
 - 2026-07-03：加入 Matta 2015 的“正文给出结论但未列具体 DCO 数值”案例。
 - 2026-07-04：加入 Lv 2021 JUROGAM II `135Nd` 双 gate convention 与经验值。
 - 2026-07-12：加入 Kramer-Flecken 1989 的定义、几何依赖、效率修正和多解边界。
+
+
+### 实际135Pr角组与gate上标
+
+[[garg-2015-135pr-magnetic-rotation]] GA15-5/7的RDCO是target148/gate90除target90/gate148，Q/D上标只给gate multipolarity类、未给逐target完整门表。其约1/.4/.8/2仅本setup经验；747/813 .25/.22不以阈值唯一选δ。[[nndc-2008-135pr-selected-mixing-records]] N135-2/5另保留旧Adopted空MR与同名pol的不同量，不能据compiledlabel升级观测。

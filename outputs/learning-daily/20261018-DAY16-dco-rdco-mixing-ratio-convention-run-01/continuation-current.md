@@ -1,3 +1,19 @@
+# 最新checkpoint037
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked/工具无active写法，objective不变、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+
+037 verification031实际report/card/唯一writeback58changed/58items、boundary/lint/diff0，0errors184warnings(134key47raw3parser)。Garg2015完整9页/8图/TableI原读，旧raw/claims/flags、Pr135project全humanprefix以及PLAN/Bib/旧prefixguards通过。IUAC82MeV/15clover采集不同MattaTIFR80MeV，原a=.93(.06)是geometryratio不是Q；747/813的oldΔ和755无Δ、RDCO148/90/门类身份明确，但这两线原paper无δ数值。
+
+Garg2019 exacterratum DOI10.1103/PhysRevC.100.069901 metadata/INSPIRE relation已核，APS/contentOpenAlex/arXiv合法route无body，本地342PDFfirstpageDOI扫描亦无命中（非证明所有opaque/laterpage材料没有），readiness保留，不从二手补更正值。旧表fixedcounts/globalλ及commonCov仅条件设计actual0，不调a/Q强配/不作模式排序。
+
+NNDC135Pr四官方对象actualhash/typed8targets复算0：Adopted200803target空MR，GargXUNDL3仍2015compiled负Δ/空MR，LvXUNDL6pol=P/MR小模，SH26XUNDL7MR大模且无targetPOL。编译日期非新实验、MR误差按字符串精度、近能746.1属另一母态。新source/inputnote/project追加/方法已canonical，project旧段完整不动。
+
+当前发布指针main / `Trace DAY16 Pr135 original calibration and compiled record versions`，actualhash/H3/push只publication037/runreceipt；036已actualGitee指针main / `Validate DAY16 photon role cancellation and rank conditions`。下一GargRef32 Palit2000 Pramana54,347原标定方法是有价值continuity，尚未打开新body，需先clock/pool/冻结回忆。原15:00仍5h+，不因本checkpoint提前结束；旧terminalroutes不原样重试。
+
+详runcontinuation；保护raw/PLAN/Bib/credentials/原review/继承dirty与log。explicitmanifest/HEAD+ownlog/cached实际0后commit/freshfetch-ancestor-dryrun-nonforceH3。
+
+Gargquant86169实际0，N135typed chunk12db68实际0；verify031实际58/58/184warnings。037exactmanifest/发布按实际收。garg2019body未得，不声称最新correctedDelta；新slot只本当前问题或恰好Day17preview。
+
 # 最新checkpoint036
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5；原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing，nativegoal实返blocked/工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。

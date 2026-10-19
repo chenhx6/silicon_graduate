@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T09:40:09.878994+08:00",
+  "response": {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Negative-parity+high-spin+states%22+AND+au%3AGarg&start=0&max_results=3",
+    "status": 200,
+    "bytes": 773,
+    "total": "0",
+    "entries": []
+  },
+  "previous_MCP_syntax400_and_plain_unrelated_results_identityrejected": true,
+  "no_unrelated_PDF_download": true
+}

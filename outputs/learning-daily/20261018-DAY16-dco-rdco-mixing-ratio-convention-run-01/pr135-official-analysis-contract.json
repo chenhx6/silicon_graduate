@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-19T09:40:08.487253+08:00",
+  "identity": "N135-OBJECT-MR-POL-LINEAGE-01",
+  "files": [
+    {
+      "name": "adopted2008",
+      "text_path": "tmp/day16-garg2015/adopted2008.ens",
+      "sha256": "b7f044ae3ac8eb6f2b420a539f039a92ebe2ed6c28f5470af4ad5d2f1995e698",
+      "lines": 584
+    },
+    {
+      "name": "garg-xundl3",
+      "text_path": "tmp/day16-garg2015/garg-xundl3.ens",
+      "sha256": "f1c3a52b846bfb46475673f82af86cb6c611f09b754a465f09f470d1af4bf0d6",
+      "lines": 197
+    },
+    {
+      "name": "lv-xundl6",
+      "text_path": "tmp/day16-garg2015/lv-xundl6.ens",
+      "sha256": "ce2b463e45572ca4b8067fd7646ed10d4e458b0f5f8c25f234f463c068679990",
+      "lines": 124
+    },
+    {
+      "name": "sensharma-xundl7",
+      "text_path": "tmp/day16-garg2015/sensharma-xundl7.ens",
+      "sha256": "1b8a7196b62dd583108dfae4b9528fc5d5b60feb3039561988831eca6ba06390",
+      "lines": 117
+    }
+  ],
+  "scope": "full XUNDL3,6,7; adopted header1-40 plus specific L1478.2/G747.1, L2204.7/G814, decoy L1289.60/G746.1; not completeA135 evaluation read",
+  "targets": {
+    "adopted2008": [
+      {
+        "parent": "1478.2",
+        "E": "747.1"
+      },
+      {
+        "parent": "2204.7",
+        "E": "814"
+      }
+    ],
+    "garg-xundl3": [
+      {
+        "parent": "1478.31",
+        "E": "747.5"
+      },
+      {
+        "parent": "2204.30",
+        "E": "813.3"
+      }
+    ],
+    "lv-xundl6": [
+      {
+        "parent": "1477.9",
+        "E": "747.3"
+      },
+      {
+        "parent": "2204",
+        "E": "813.2"
+      }
+    ],
+    "sensharma-xundl7": [
+      {
+        "parent": "1476.8",
+        "E": "746.3"
+      },
+      {
+        "parent": "2203.1",
+        "E": "811.6"
+      }
+    ]
+  },
+  "failure_control": "adopted746.1 belongs to1289.60/J(11/2-) and is not the17/2→15/2 linkinggamma despite nearenergy",
+  "pol_semantics": "GargXUNDL3 pol reproduces old countasymmetry Delta; LvXUNDL6 pol explicitly fromTable1 is P; sameword notsameobservable",
+  "MR_uncertainty": "retain signed precision token and asymmetric DMR atomicstring; -1.40+14-12 means+0.14/-0.12, -1.63+2-3 means+0.02/-0.03; no unweightedmerge",
+  "provenance": "Adopted200803 cutoff22Jan2008/Qpost2012; compiledGargDec2015base201601; Lv2022compiledFeb2025base202510; Sensharma2026compiledMay2026formatJun2026",
+  "experiments_newly_created": 0,
+  "absence_scope": "selectedGargobject contains no2019erratum record; not proof global NNDC/crossliterature noerratum"
+}

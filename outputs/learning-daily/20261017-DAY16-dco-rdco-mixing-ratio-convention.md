@@ -163,6 +163,17 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint037：135Pr原版/勘误与官方字段身份
+
+本session完整读[Garg2015](../../knowledge/sources/garg-2015-135pr-magnetic-rotation.md)原9页/8图/TableI，补GA15-4–14：IUAC82MeV/15clover、target148/gate90RDCO、Eu152几何a约.93(.06)，原2015target747.5/813.3的Δ−.05/−.20，755无Δ；paper不报两线δ，a≠Q。同路径别名与Matta/Lv分开，不能靠共同INGA名称并数据或信号号数。
+
+2019erratum DOI10.1103/PhysRevC.100.069901已核metadata与INSPIRE同篇关系，正文在当前合法路径未得；[readiness](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/garg2019-erratum-readiness-boundary.json)明确不从二手补内容。旧2015数据只作有版本的历史输入。
+
+[四个官方对象](../../knowledge/sources/nndc-2008-135pr-selected-mixing-records.md)全hash实际核：2008AdoptedtargetMR空，XUNDL3旧pol是Δ、XUNDL6 pol是Lv的P、XUNDL7有2026AD导出δ−1.40/−1.63。compiled年份/格式化不计新实验，−1.40+14−12解码+.14/−.12；近能746.1实际另一母态不能nearest-only匹配。[typed复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/pr135-official-record-audit-result.json)actual0，GET200错误页先识别/POST纠正后才取数据。
+
+[旧表条件calibration复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/garg2015-calibration-audit-result.json)actual0：固定counts变a，747/813central翻号a阈值1.0279/1.395。单globalλ若还要求六条sourceM1标签负，需λ>1.5且<1.061856而无解；这个附加合同不排实际energy/gate-dependent更正或误差，标签也非独立反证。共同σa只单项传播、quotedCov未知不重加；不拟合新δ或排序模式。
+
+
 ### Checkpoint036：未分辨gamma-role的原式可识别性
 
 [Hamilton1948](../../knowledge/sources/hamilton-1948-successive-quanta-polarization.md) HAM48-4–13本session完整读782–787/788上半，Crossref核782–788，纠正旧scope排整788的矛盾；下半Corben邻文不摄入。原polarization式的cos(2θ)与W的cos²θ已视觉核，错误OCR负面控制不冒作sourceerratum。
@@ -541,6 +552,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 
 ## Durable knowledge delta
 
+本批[Garg source](../../knowledge/sources/garg-2015-135pr-magnetic-rotation.md)与[官方source](../../knowledge/sources/nndc-2008-135pr-selected-mixing-records.md)保存原版/编译typed证据；[input note](../../knowledge/research-notes/135pr-mixing-branch-input-contract.md)和[project追加](../../knowledge/projects/135pr-wobbling-controversy.md)同步当前缺口，project旧humanprefix逐字节保留，新节不称人审。
+
 本批[Hamilton source](../../knowledge/sources/hamilton-1948-successive-quanta-polarization.md)“Day16 原件与光子角色复核”保存HAM48-4–13；angular-correlation/Compton/asymmetry与synthesis保存roleweightnull和rank4必要条件。原式、推断和缺失实际response分层。
 
 FH59原式/字典与边界写入[原source](../../knowledge/sources/fagg-hanna-1959-polarization-measurements.md)“原件再核：ratio 字典、同跃迁布居边界与表值版本”；[synthesis](../../knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md)新增“Day16 REFLECT：从同符号到同一个observable”，同步三个方法页和index。不是outputs中的唯一副本。
@@ -730,12 +743,96 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/dco-ratio.md",
-      "summary": "加入同一target在两数据行中的gate角色及非对称倒数误差实例。",
+      "summary": "加入同一target在两数据行中的gate角色及非对称倒数误差实例。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。",
       "anchor": "同一target在两组数据中的gate角色",
       "sources": [
         {
           "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
           "locator": "KF89-15"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
         }
       ]
     },
@@ -860,7 +957,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -1062,6 +1159,90 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
           "locator": "HAM48-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
         }
       ]
     },
@@ -1542,7 +1723,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -2060,6 +2241,90 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
           "locator": "HAM48-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
         }
       ]
     },
@@ -4663,6 +4928,370 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
           "locator": "HAM48-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。",
+      "anchor": "Day16 原表与采集身份复核",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。",
+      "anchor": "先确认记录版本，再比较同名POL和MR",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。",
+      "anchor": "Day16：Garg原版与当前官方字段补核",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
+      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。",
+      "anchor": "Day16追加：Garg原版与官方记录的实际状态",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-4"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-6"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-7"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-8"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-9"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-10"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-11"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-12"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-13"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+          "locator": "N135-10"
+        }
+      ]
     }
   ]
 }
@@ -4909,3 +5538,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification-reopened-030](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-030.json)实际report/card/唯一writeback54changed/54items通过，boundary/lint/diff exit0；0errors182warnings（133citation-key46raw槽3parser）。旧HAMclaim行/review、原PDF/PLAN/Bib/旧humanprefix及脚本/冻结输入hash均通过。
 
 原15:00上海研究截止不改，科学pursuing、nativegoalblocked状态差异继续如实保留，formal16一次/partial17、next17-count16不改。发布稳定指针main / `Validate DAY16 photon role cancellation and rank conditions`，actualhash/H3/push仅publication036/runreceipt。下一重建当前A130/reference-calibration候选池，原source/producer缺失不由更多toy补齐。
+
+
+### Checkpoint037实际验收与原窗口续接
+
+[verification-reopened-031](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-031.json)实际report/card/唯一writeback58changed/58items通过；boundary/lint/diff exit0，0errors184warnings（134key47raw槽3parser）。旧Gargprefix除updated保留、Pr135project完整humanprefix、原PDF/四官方对象/PLAN/Bib/旧人审prefix与scriptresultguards通过。
+
+发布稳定指针main / `Trace DAY16 Pr135 original calibration and compiled record versions`，actualhash/H3/push仅publication037/runreceipt。原2026-10-19 15:00上海截止不改，科学pursuing/nativegoalblocked差异如实记录，formal16一次partial17、next17/count16保持。下一只继续匹配的原标定方法和source/version缺口，不重做同toy或正式17/Day18。
