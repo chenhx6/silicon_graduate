@@ -163,6 +163,15 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint038：Garg方法原件与同跃迁伴随观测
+
+新[Palit2000](../../knowledge/sources/palit-2000-rh99-clover-polarimetry.md) P00-1–13，实际publisher200/8页/4图/Table1/Eq1–11完整原读，精确为GargRef32。a来自Eu/约1.00(.03)，Qfit来自knownpolarizedreference/386–1368keV，C=−.000099(.000007)keV^-1/D=.446(.006)；原图核C/a2/H4负号，未用OCR错值。
+
+1117keV[原式复算](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/palit2000-calibration-audit-result.json)actual0得Q=.134178、P=.372639，与报.37相容；σΔ/Q=.223584对报.21保留残差/fullCov边界。C需按能量单位换算，fitCov范围仅单项；Eq5字面反KNprefactor在固定角Q0里cancel，但finiteangleproducer未认证。
+
+Rh991117的正Δ/P在作者图中仍有largeδ M1+E2和smallE1+M2候选，作者再用同跃迁AD选后者并报δ=.015(.055)。本run只核其证据链，不重拟δ/唯一性；Na241368标定的方向tag/接受ledger仍缺。method引用补Garg定义，不把此处a/C/D搬成2015actualresponse，不替2019erratumbody。
+
+
 ### Checkpoint037：135Pr原版/勘误与官方字段身份
 
 本session完整读[Garg2015](../../knowledge/sources/garg-2015-135pr-magnetic-rotation.md)原9页/8图/TableI，补GA15-4–14：IUAC82MeV/15clover、target148/gate90RDCO、Eu152几何a约.93(.06)，原2015target747.5/813.3的Δ−.05/−.20，755无Δ；paper不报两线δ，a≠Q。同路径别名与Matta/Lv分开，不能靠共同INGA名称并数据或信号号数。
@@ -551,6 +560,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+新[Palit source](../../knowledge/sources/palit-2000-rh99-clover-polarimetry.md)“先区分几何a与偏振Q，再解释同跃迁的伴随观测”及Compton/asymmetry/Garg/inputnote/synthesis保存primary校准/companion、单位与缺口合同。
 
 本批[Garg source](../../knowledge/sources/garg-2015-135pr-magnetic-rotation.md)与[官方source](../../knowledge/sources/nndc-2008-135pr-selected-mixing-records.md)保存原版/编译typed证据；[input note](../../knowledge/research-notes/135pr-mixing-branch-input-contract.md)和[project追加](../../knowledge/projects/135pr-wobbling-controversy.md)同步当前缺口，project旧humanprefix逐字节保留，新节不称人审。
 
@@ -957,7 +968,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -1243,6 +1254,58 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
           "locator": "N135-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     },
@@ -1723,7 +1786,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。",
+      "summary": "保存PAQ分层、双分段actual432计数公式/derivatives、fiterrors与理想Poisson层区别、printingfailure和matchedeta/Q/fullCov门。 新增EXOGAM比值误差的任意Cov必要界及原表条件不闭合；回代不是独立P验证。 补1368文字Q与外推curve的未闭合、FOM因子化与同response身份条件。 新增GRETINA normalization/真实cut tradeoff与不同reference/Q谱系。 新增C(theta)测度/Jacobian、平均产品与经验Q重标的条件设计，实际jointkernel未恢复。 补XUNDL POL=A0与target/单位转录边界。 保存实际Stokes禁戒比值/pure反证及KN/Q归一合同。 补有限H解析消CG、actualsame-tensor dκ0/d0κ与literalevenκ U控制/消费端及真zeroI边界。 补另名fullq/Jones finiteIQUV设计、事前冻结12PSD/540点与rotation/pure/zero/nonPSD域控制，不认证原实验producer。 新增实际public能谱/共享Cov/event单位与sorting/decoder反证、P/Q readiness。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 新joint pointgate相位/firstlast/pure/KN/共同轴平均控制与闭式已写，非实验或arrayQ。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补CdTe真实归一/系统误差/模板likelihood门、sourcefootnote/model谱系及Q定义半因子。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
       "anchor": "Gammasphere双分段的P/A/Q与actual峰面积",
       "sources": [
         {
@@ -2325,12 +2388,64 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
           "locator": "N135-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -2544,6 +2659,58 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
           "locator": "HAM48-13"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     },
@@ -4769,7 +4936,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -4879,6 +5046,58 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
           "locator": "HAM48-13"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     },
@@ -4931,7 +5150,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
-      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。",
+      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
       "anchor": "Day16 原表与采集身份复核",
       "sources": [
         {
@@ -5017,6 +5236,58 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
           "locator": "N135-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     },
@@ -5113,7 +5384,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
-      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。",
+      "summary": "保存Garg实际原件与2019未读边界、currentENSDF/XUNDL版本/不同POL对象和条件calibration/Cov；旧review/原humanprefix保持，不裁决δ或模式。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
       "anchor": "Day16：Garg原版与当前官方字段补核",
       "sources": [
         {
@@ -5199,6 +5470,58 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
           "locator": "N135-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     },
@@ -5290,6 +5613,65 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
           "locator": "N135-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+      "summary": "完整8页原读，新增P00-1–13与实际校准/正P双EM候选及companion；Q/单位/Cov和literalKN边界实际复算，不替Gargactualresponse/2019body。",
+      "anchor": "先区分几何a与偏振Q，再解释同跃迁的伴随观测",
+      "sources": [
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-1"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-2"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-3"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-6"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-7"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-9"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-10"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-13"
         }
       ]
     }
@@ -5545,3 +5927,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification-reopened-031](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-031.json)实际report/card/唯一writeback58changed/58items通过；boundary/lint/diff exit0，0errors184warnings（134key47raw槽3parser）。旧Gargprefix除updated保留、Pr135project完整humanprefix、原PDF/四官方对象/PLAN/Bib/旧人审prefix与scriptresultguards通过。
 
 发布稳定指针main / `Trace DAY16 Pr135 original calibration and compiled record versions`，actualhash/H3/push仅publication037/runreceipt。原2026-10-19 15:00上海截止不改，科学pursuing/nativegoalblocked差异如实记录，formal16一次partial17、next17/count16保持。下一只继续匹配的原标定方法和source/version缺口，不重做同toy或正式17/Day18。
+
+
+### Checkpoint038实际验收与原窗口续接
+
+[verification-reopened-032](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-032.json)实际report/card/唯一writeback59changed/59items通过，boundary/lint/diff各exit0；0errors186warnings（135key48raw槽3parser）。P00actualPDF/contract/script/result与旧humanprefix/Pr135project旧prefix/PLAN/Bibguards均过。
+
+发布稳定指针main / `Audit DAY16 clover calibration parent and matched companion observables`，actualhash/H3/push仅publication038/runreceipt。科学继续pursuing至原2026-10-19 15:00上海，formal16一次/partial17/next17count16不改，nativegoalblocked差异如实记录。下一有界phys-model分析只检当前实际source输入的非负布居可行性，未预报解或实验置信度。

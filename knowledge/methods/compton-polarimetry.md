@@ -410,3 +410,8 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 ### 135Pr：a(E)不是Q，oldoriginal不是correctedversion
 
 [[garg-2015-135pr-magnetic-rotation]] GA15-4–12核IUAC2015的a=N∥unpol/N⊥unpol约.93(.06)，原countΔ无Q除法；同135Pr的Matta/Lv属于其它campaign/response。固定counts的a变换/共有Cov只作条件设计，不能用单一globala去强配两条分支或重复加σ。2019erratum正文未得，原2015Δ与[[nndc-2008-135pr-selected-mixing-records]] XUNDL3旧复制都不充作最新更正。
+
+
+### Palit2000原件：a与Q两层校准，数值不随引用迁移
+
+[[palit-2000-rh99-clover-polarimetry]] P00-1–12实际8页原读。Eu152给a≈1.00(.03)，knownpolarizedlines再定Q=(CE+D)Q0，C=−.000099keV^-1/D=.446；与Garg2015reported a≈.93(.06)及其真实Q是不同对象。1117原式重算Q=.134178、P=.37264与reported.37相容，rounded误差和Cov(C,D)/referenceledger仍缺。Na241368 reference的实际方向tag/接受未完整给出，不能自行代P=1/6。原Eq5字面KNprefactor的倒数边界不影响固定角Q0比值，但不认证finitegeometryproducer。

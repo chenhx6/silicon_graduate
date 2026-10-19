@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-19T09:58:57.640698+08:00",
+  "identity": "P00-CLOVER-CALIBRATION-REFERENCE-01",
+  "source_sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387",
+  "source_PDF": "tmp/day16-palit2000/springer-pdf.pdf",
+  "source_inputs": {
+    "a_geometry": 1.0,
+    "sigma_a_geometry": 0.03,
+    "a_calibration_range_keV": [
+      122,
+      1408
+    ],
+    "Q_calibration_range_keV": [
+      386,
+      1368
+    ],
+    "D": 0.446,
+    "sigma_D": 0.006,
+    "C_per_keV": -9.9e-05,
+    "sigma_C_per_keV": 7e-06,
+    "me_keV": 511.0,
+    "target_E_keV": 1117.0,
+    "target_a2": -0.16,
+    "sigma_a2": 0.01,
+    "target_a4": 0.01,
+    "sigma_a4": 0.01,
+    "target_Delta": 0.05,
+    "sigma_target_Delta": 0.03,
+    "reported_P": 0.37,
+    "reported_sigma_P": 0.21,
+    "reported_delta_E1M2": 0.015,
+    "reported_sigma_delta": 0.055,
+    "H2_puredipole": 1,
+    "H4": "-1/6"
+  },
+  "critical_visual_inputs": "C and a2 have negative signs lost by pdftotext; restored from p351 original before calculation; original Eq5 prefactor explicitly (E/Eprime)^2 though E=incident, Eprime=scattered",
+  "exercises": [
+    "fixedsource Eq8/9 Q and Delta/Q at1117, reportedcentral/range comparison not exacterrorbudgetclosure",
+    "differentiate Q(E) and propagatedCovCD allowedbound; independentzeroCov only diagnostic, no fittedresponse covariance invented",
+    "pureM1/E1 Eq3 Pcal using actuala2/a4 andH2=1/H4=-1/6; amplitudephase for mixedrootnotderived",
+    "convert C keV^-1 to MeV^-1 and deliberately wrongunits effect; do not extrapolate Qfit beyondmeasuredrange",
+    "KN point Q0 unaffected by reversedcommonprefactor atfixedangle, but angle/differentialresponse weights differ; no declaration that actualQfitwrong",
+    "sameNa24 emittedgamma singlemarginal is unpolarized under unpolarizedsource assumptions; sourceusingcascadecoeffrequires actualdirectioncondition, not provided as a fullgate/response ledger"
+  ],
+  "reference_scope": "source reported Kr/Sr/Rh/Pd inbeam calibrations and betaNa24source1368; fullperpointcounts/gates/ADcov unknown; no importedGargactualQ/a",
+  "do_not_claim": [
+    "experimentalδrecomputed or uniquelyexcludedM1E2",
+    "2019Gargerratumcontent",
+    "fullpaperproducerusesliteralEq5",
+    "sourceNa24actualtagmissingprovescalibrationbad"
+  ],
+  "no_new_toy_counts": true
+}

@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-19T09:53:04.374275+08:00",
+  "Crossref_identity": {
+    "DOI": "10.1007/s12043-000-0126-x",
+    "title": "Parity of the band head at 3710 keV in 99Rh using clover detector as compton polarimeter",
+    "authors": [
+      "R.Palit",
+      "H.C.Jain",
+      "P.K.Joshi",
+      "S.Nagaraj",
+      "B.V.T.Rao",
+      "S.N.Chintalapudi",
+      "S.S.Ghugre"
+    ],
+    "journal": "Pramana",
+    "volume": 54,
+    "issue": 3,
+    "year": 2000,
+    "pages": "347-354"
+  },
+  "requests": [
+    {
+      "name": "springer-pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12043-000-0126-x.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/s12043-000-0126-x.pdf",
+      "status": 200,
+      "bytes": 141134,
+      "content_type": "application/pdf",
+      "path": "tmp/day16-palit2000/springer-pdf.pdf",
+      "is_pdf": true,
+      "sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387"
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1007/s12043-000-0126-x",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1007/s12043-000-0126-x",
+      "status": 200,
+      "bytes": 15737,
+      "content_type": "application/json",
+      "path": "tmp/day16-palit2000/openalex.txt",
+      "is_pdf": false,
+      "sha256": "2cedbf35b1aebcba8d51af1fc61766a962db66261ec473d371a27cdf710ab46c",
+      "locations": [
+        {
+          "id": "doi:10.1007/s12043-000-0126-x",
+          "doi": "https://doi.org/10.1007/s12043-000-0126-x",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/s12043-000-0126-x",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4394736650",
+            "display_name": "Pramana",
+            "issn_l": "0304-4289",
+            "issn": [
+              "0304-4289",
+              "0973-7111"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Pramana",
+          "raw_type": "journal-article"
+        }
+      ],
+      "content_urls": null
+    }
+  ]
+}

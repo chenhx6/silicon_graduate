@@ -202,3 +202,8 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 ### 零偏振可由未区分gamma-role抵消
 
 [[hamilton-1948-successive-quanta-polarization]] HAM48-7–11的原14/15有8个weight-dependent pure序列；αAB=αBC时P为0，已核symboliclimits。它们的role效率不能靠一个近零asymmetry独立辨认；finitegeometry/ComptonQ和未知feeding还需另核。原pure模型的relativeparity结论保留nondegeneracy与已知weightordering，不裸迁混合δ。
+
+
+### 正不对称仍需同跃迁AD排竞争EM混合
+
+[[palit-2000-rh99-clover-polarimetry]] P00-4/5的Rh991117 Δ=.05(.03)、Pexp=.37(.21)在作者Fig4既可交largeδ M1+E2也可交nearlypureE1+M2，作者再用15/45/75/90°AD选后者并报δ=.015(.055)。本run不重拟其phase/ADCov或授独立唯一性；这与SU59替代AD仍留双解共同说明companion要绑定实际transition/response/模型。

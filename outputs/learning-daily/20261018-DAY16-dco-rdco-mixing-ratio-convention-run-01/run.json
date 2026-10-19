@@ -1042,16 +1042,42 @@
       "scientific_work_status": "pursuing",
       "research_deadline": "2026-10-19T15:00:00+08:00",
       "credit_retained_once": "formal16/next17/count16,partial17"
+    },
+    {
+      "publication_index": 37,
+      "at": "2026-10-19T09:51:51.096704+08:00",
+      "branch": "main",
+      "subject": "Trace DAY16 Pr135 original calibration and compiled record versions",
+      "commit": "8e7f765a4fe56143245ce0403d33ed1a473958db",
+      "origin_main": "8e7f765a4fe56143245ce0403d33ed1a473958db",
+      "status": "published",
+      "commands_actual_all_exit0": true,
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 29444cb8        \nTo gitee.com:chx6/silicon_graduate.git\n   1f1c006..8e7f765  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "native_goal_status_observed": "blocked",
+      "scientific_work_status": "pursuing",
+      "research_deadline": "2026-10-19T15:00:00+08:00",
+      "credit_retained_once": "formal16/next17/count16,partial17"
     }
   ],
-  "last_checkpoint": "checkpoint037-Garg-N135-verified",
-  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-031.json",
-  "knowledge_writeback_items": 58,
-  "last_learning_summary": "Gargoriginal/erratumreadiness +fourN135objects/typedPOLMR versions; projecthumanprefix preserved; required0/184warnings",
-  "knowledge_changed_pages": 58,
+  "last_checkpoint": "checkpoint038-Palit-verified",
+  "last_verification": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-032.json",
+  "knowledge_writeback_items": 59,
+  "last_learning_summary": "P00original8pages and owncalibration/matchedAD-P; actual0/59writeback/186warnings; referenceCov bounds preserved",
+  "knowledge_changed_pages": 59,
   "uncredited_day17_preview_started": true,
   "preview_time_gate": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/day17-preview-time-gate.json",
-  "current_research_route": "publication037 then Palit2000 original calibration method",
+  "current_research_route": "publication038 then bounded P00actualinput positivepopulation feasibility",
   "research_status": "active",
   "research_stopped_at": null,
   "original_minutes_to_deadline_at_research_stop": 1523.8833333333334,
@@ -1161,7 +1187,7 @@
     }
   ],
   "last_runtime_snapshot": {
-    "now_local": "2026-10-19T09:50:03.118682+08:00",
+    "now_local": "2026-10-19T10:08:27.020222+08:00",
     "hard_deadline": "2026-10-19T15:00:00+08:00",
     "decision": "continue-current-or-Day17-uncredited-preview",
     "formal_credit_unchanged": true
@@ -1177,12 +1203,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 36,
-    "at": "2026-10-19T09:26:02.216387+08:00",
+    "publication_index": 37,
+    "at": "2026-10-19T09:51:51.096704+08:00",
     "branch": "main",
-    "subject": "Validate DAY16 photon role cancellation and rank conditions",
-    "commit": "1f1c00632b93d27ba4dfb15899a3b554211605d3",
-    "origin_main": "1f1c00632b93d27ba4dfb15899a3b554211605d3",
+    "subject": "Trace DAY16 Pr135 original calibration and compiled record versions",
+    "commit": "8e7f765a4fe56143245ce0403d33ed1a473958db",
+    "origin_main": "8e7f765a4fe56143245ce0403d33ed1a473958db",
     "status": "published",
     "commands_actual_all_exit0": true,
     "push_observation": {
@@ -1194,7 +1220,7 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag a543b38f        \nTo gitee.com:chx6/silicon_graduate.git\n   2492457..1f1c006  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 29444cb8        \nTo gitee.com:chx6/silicon_graduate.git\n   1f1c006..8e7f765  HEAD -> main\n"
     },
     "manifest_matches_actual_commit": true,
     "native_goal_status_observed": "blocked",

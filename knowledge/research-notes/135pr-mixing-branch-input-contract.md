@@ -195,3 +195,8 @@ Matta 后续完整分析或学位论文是否给出可重放的角分布输入�
 原表的固定counts变换可给747/813翻号a阈值1.0279/1.395；单一globalλ若同时要求六条原M1标签线仍负则central区间无解。这只是附加合同的条件失败：标签来自同数据，不是独立falsifier，也不排除误差/energygate-dependent修正或2019实际方法。没有调a/Q强配Matta或Lv，也没有恢复实验δlikelihood/模式排序。
 
 下一最高信息输入是exact2019erratum正文及其逐项更改、实际a(E)/perp-parallel净counts/背景/门和Q/Σ；旧Matta thesis terminalroute不原样重试。无足够输入时保持branch dispute与experimentalL4notready。
+
+
+### Garg Ref32原件补齐后的保留边界
+
+[[palit-2000-rh99-clover-polarimetry]] P00-1–12已读实际Pramana54,347–354：a由Eu，Q由另一组knownpolarizedreference；其单clovera≈1.00(.03)、Qfit C/D不能当Garg2015或MattaINGA运行值。原source本身的Na24directiontag/接受与fitCov也未完整列出。引用method只补定义与输入要求，不补2019erratum/actualQ/gate/Cov；本projectbranch排序保持。

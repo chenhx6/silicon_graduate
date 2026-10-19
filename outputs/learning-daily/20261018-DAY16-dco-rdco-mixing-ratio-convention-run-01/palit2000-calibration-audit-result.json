@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-19T10:00:34.153198+08:00",
+  "script_sha256": "55868a21a9190471e91e035e2ee97c1f31c54c6edfe5b5759c6310d6cd28a205",
+  "source_sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387",
+  "contract_sha256": "89684d673c42133eb870c226b9f6bb2c52e11fed76b9735abe67750c01ecebaf",
+  "source1117_calibration": {
+    "Q0": 0.40003327567793184,
+    "CEplusD": 0.335417,
+    "Qfit": 0.13417796122806488,
+    "P_Delta_over_Q": 0.37263943752293294,
+    "source_P": 0.37,
+    "sigma_Delta_only": 0.22358366251375975,
+    "source_sigma_P": 0.21,
+    "sigma_residual": 0.013583662513759753,
+    "full_sigma_or_Cov_budget_recovered": false
+  },
+  "units": {
+    "C_per_keV": -9.9e-05,
+    "C_per_MeV": -0.09899999999999999,
+    "correct_keV_MeV_match": true,
+    "wrong_mixedunits_Q": 0.1783706040726333,
+    "Qfit_zero_if_invalid_global_extrapolation_keV": 4505.050505050505,
+    "fit_range_keV": [
+      386,
+      1368
+    ]
+  },
+  "fitCov_CD_conditional": {
+    "sigmaQ_ifCov0": 0.003942647296020302,
+    "sigmaQ_min_possible_given_two_marginals": 0.0007276605284581577,
+    "sigmaQ_max_possible_given_two_marginals": 0.00552805983659334,
+    "missing_Cov_CD": true,
+    "not_total_Q_error": true
+  },
+  "Eq3_pure_dipole_probe_given_printed_a2_a4": {
+    "H2": 1,
+    "H4": "-1/6",
+    "M1_Pcal": -0.2156862745098039,
+    "E1_Pcal": 0.2156862745098039,
+    "not_full_delta_branch_fit": true
+  },
+  "literal_Eq5_boundary": {
+    "common_prefactor_ratio_wrong_over_correct": "r^-4",
+    "fixed_angle_Q0_unchanged": true,
+    "Q90_expression": "(alpha + 1)/(alpha**2 + alpha + 1)",
+    "at1117_and90_ratio": 103.02295478966097,
+    "implication": "Angle-dependent weights differ; actual producer/calibration not inferred wrong"
+  },
+  "source1117_delta": {
+    "reported_E1M2_delta": 0.015,
+    "reported_sigma": 0.055,
+    "remeasured_here": false
+  },
+  "independence_and_companion": {
+    "Eu_a_not_Q": true,
+    "Na24_actual_direction_tag_acceptance_not_recovered": true,
+    "unconditional_source_single_gamma_P0_does_not_set_actual_tagged_P": true,
+    "P00_Q_coefficients_not_Garg2015_response": true,
+    "no_toy_counts_or_newexperimental_fit": true
+  }
+}

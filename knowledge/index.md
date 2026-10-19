@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[palit-2000-rh99-clover-polarimetry]] - GargRef32原件；Rh99同跃迁AD/P、a与Q分层/曲线单位及reference readiness。
+
 - [[nndc-2008-135pr-selected-mixing-records]] - 135Pr旧Adopted/三个XUNDL版本、POL语义/MR误差与母态身份。
 - [[garg-2015-135pr-magnetic-rotation]] - 原2015实际角组/a和目标Δ；2019erratum未读边界与跨campaign合同。
 

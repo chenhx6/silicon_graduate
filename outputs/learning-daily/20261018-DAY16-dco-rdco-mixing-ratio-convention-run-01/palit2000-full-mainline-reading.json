@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T09:58:57.640698+08:00",
+  "pages": 8,
+  "printed_pages": "347–354",
+  "scope": "full Sections1–4,acknowledgments,allreferences,Fig1–4/Table1/Eqs1–11 visualkeycheck",
+  "source_sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387",
+  "visual_pages": [
+    348,
+    349,
+    350,
+    351,
+    352,
+    353
+  ],
+  "inputs_signs_visual_confirmed": true,
+  "actualsource_cov_or_calibrationeventledgers_obtained": false,
+  "Gargactualproducer_or_erratum": false
+}

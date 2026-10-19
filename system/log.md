@@ -1980,3 +1980,8 @@ Hamilton原782–788真正边界完整读，修scope不摄Corben；polcos(2θ)/W
 ## 2026-10-19 — Day16 checkpoint037：135Pr旧原版与官方字段
 
 Garg2015完整9页原读核IUAC82/15clover/RDCO148-90/a≠Q和oldtargetΔ，2019erratummetadata已核但body未得；旧negative值不当已核更正。四NNDC对象/hash/typed8target复算0，旧Adopted空MR、Gargpol=Δ/Lvpol=P、SH26MR精度与不同母态近能控制保持；编译不增实验。固定counts/globalλ/commonCov仅条件设计actual0，未拟新δ或排序。verification031实际58/58、required0、0errors184warnings；原projecthumanprefix/flags/raw/PLAN/Bib保持。同run科学pursuing至原15:00/formal16一次partial17；发布指针main / Trace DAY16 Pr135 original calibration and compiled record versions，actualhash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint038：clover真实标定parent
+
+Palit2000/GargRef32实际8页原读核a/Q分层及1117AD/P；Q=.134178/P=.372639 actual0，误差残差/fitCov/referenceNa24方向tag仍缺。C负号/keV单位与域外、literalKNprefactor固定角取消/finiteweights边界均保留，不搬该Q给Garg或补2019更正。原作者以AD排largeM1E2再选smallE1M2的条件不升级。verification032实际59/59、required0、0errors186warnings，旧flags/raw/PLAN/Bib/人审prefix保持。原run科学pursuing至15:00/formal16一次partial17；发布指针main / Audit DAY16 clover calibration parent and matched companion observables，actualhash/push只receipt。

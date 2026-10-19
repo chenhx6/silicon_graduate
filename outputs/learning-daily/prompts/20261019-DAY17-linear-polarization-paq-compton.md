@@ -358,3 +358,8 @@ Hamilton1948原782–788、16pure序列roleweights/null与rank4必要条件已�
 ### DAY16 checkpoint037额外priming
 
 Garg2015original9页及2019erratum metadata已暴露；其IUAC82MeV/15clovers、a≈.93(.06)、oldΔ不与Matta/Lv共用response。四个NNDC对象已核，Gargpol=Δ/Lvpol=P、编译日期不计新experiment，旧Adopted空MR/近能串母态需警惕。正式17回忆需注明，本日不授17学分；2019body/实际Q/a(E)/gate/cov仍缺。入口garg-2015 source GA15-4–14、nndc-2008-135pr-selected-mixing-records N135-1–10与inputnote。
+
+
+### DAY16 checkpoint038额外priming
+
+Palit2000原8页已暴露GargRef32真正方法：Eu a与knownpolarized Q两层、C负号/单位、Rh991117 positiveP仍需AD排竞争EM候选；原Na24directiontag/fitCov缺口保持。正式17回忆需注明；不得将其a≈1/C/D迁作Garg2015响应或2019更正。入口knowledge/sources/palit-2000-rh99-clover-polarimetry.md P00-1–13。

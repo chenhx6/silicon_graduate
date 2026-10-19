@@ -1,0 +1,26 @@
+{
+  "publication_index": 37,
+  "at": "2026-10-19T09:51:51.096704+08:00",
+  "branch": "main",
+  "subject": "Trace DAY16 Pr135 original calibration and compiled record versions",
+  "commit": "8e7f765a4fe56143245ce0403d33ed1a473958db",
+  "origin_main": "8e7f765a4fe56143245ce0403d33ed1a473958db",
+  "status": "published",
+  "commands_actual_all_exit0": true,
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 29444cb8        \nTo gitee.com:chx6/silicon_graduate.git\n   1f1c006..8e7f765  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "native_goal_status_observed": "blocked",
+  "scientific_work_status": "pursuing",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

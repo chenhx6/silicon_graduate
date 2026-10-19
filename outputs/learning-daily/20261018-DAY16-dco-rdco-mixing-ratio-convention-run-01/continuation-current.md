@@ -1,3 +1,19 @@
+# 最新checkpoint038
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked且工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
+
+038 verification032实际report/card/唯一writeback59changed/59items、boundary/lint/diff0，0errors186warnings(135key48raw3parser)。Palit2000 Pramana54,347–354/GargRef32 actualpublisher200PDF8p，完整主线4fig/Table1/11eq原读；新P00-1–13与Garg/inputnote/方法/REFLECT已canonical。原C/a2/H4负号由图核，未用OCR错正号。旧claims/Pr135projecthumanprefix/raw/PLAN/Bib/旧humanprefix保持。
+
+单cloverEu a≈1.00(.03)，knownpolarizedreference给Q=(CE+D)Q0；C=−.000099(.000007)keV^-1,D=.446(.006)，386–1368keV。原式1117实际0重算Q=.134178/P=.372639，相容reported.37但σΔ/Q=.223584与报.21/fullCov未闭合。Eq5字面KNprefactor与standardinverse，fixedangleQ0仍cancel，不认证actualproducer。Na241368实际directiontag/接受ledger未完整给出，不能自行给P=1/6/宣判校准坏；此Q不能搬给Garg2015。
+
+source1117 positiveP对largeM1E2/smallE1M2均有作者曲线交点，作者用AD选后者并报δ=.015(.055)；本run未重拟。下一当前有界analysis（phys-model已读/告知）：用该actuala2/a4/P区间、Ji23/2→21/2、轴对称非负P(m)求可行性边界，保留phase/response/联合Cov未知，不用随机toy填时段。尚未冻结LP输入或运行。
+
+当前发布指针main / `Audit DAY16 clover calibration parent and matched companion observables`，actualhash/H3/push只publication038/runreceipt；037已actualGitee指针main / `Trace DAY16 Pr135 original calibration and compiled record versions`。Garg2019/BR/Fe55 terminalbody缺口不原样重试。原15:00仍约4h50，不因本checkpoint结束。
+
+详runcontinuation；保护raw/PLAN/Bib/credentials/原review/继承dirty/log。exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。
+
+P00quant49247 actual0/verify03259/59/186warnings；publication038精确清单待按实际收H3。下一只开展同P00actualinput的正性/可识别性分析，先冻结contract，mathematical feasibility不报新实验置信区间。
+
 # 最新checkpoint037
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked/工具无active写法，objective不变、不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
@@ -116,3 +132,14 @@ Fe55actualmetadata/UNTitemroute均无body、readiness已保存，未科学source
 原式polarization的cos2θ是cos(2θ)，不是cos²θ（后者是W的powerbasis），已放大Eq8b核，未误判authorerror。HAM48analysiscontract/freezes已存，拟对原16pureE1/M1/E2/M2序列符号重放roleweightsαAB/αBC、sum→W/equalweightwashout/collinearlimits和错误OCRfailcontrols，不造新toycounts/δfit。脚本尚未写/执行，不能称量化完成。原1940/BR/Fe55phase仍未得，不用puretheory替mixedRMEbridge。
 
 35actualpublication已远端成功；当前全树knowledge应clean（35之后尚未HAMcanonical），日报/continuation/runreceipt少量dirty属本run；继承Day8等receipts/daemon/log保护。原15:00上海约5h40仍pursuing，nativegoalblocked差异保持，formal16一次partial17不变。
+
+
+## 下一Palit2000当前checkpoint（038科学未写回）
+
+37actualGitee/H3全部0，actualhash仅publication037/runreceipt。Palitbefore/pool039已冻；Crossref核确GargRef32：Palit等Pramana54(3)347–354(2000)，题名Parityofthebandheadat3710keVin99RhusingcloverdetectorasComptonpolarimeter，DOI10.1007/s12043-000-0126-x。Publisher actual200PDF8p SHA16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387，tmp/day16-palit2000/springer-pdf.pdf。全部8页/4fig/Table1/11eq读完关键视觉，reading/identity/access回执在run。
+
+实际a=1.00(.03) Eu122–1408；Qfit386–1368：Q=(CE+D)Q0，D=.446(.006), C=−.000099(.000007)keV^-1（负号原图已核，OCR丢失）；1117a2=−.16(.01),a4=.01(.01), Delta=.05(.03), Pexp=.37(.21)，reportedE1M2delta .015(.055)。P00analysiscontract已冻，程序尚未写/执行。Q0 Eq8和纯dipolePcalc可原式重算，不用这组系数填Gargactualresponse。
+
+源Eq5字面prefactor(E/Eprime)^2、并定义Eincident/Eprimescattered，与usualKN inverse；commonfactor固定角可cancelQ0但finiteangleweights不同。仅literal边界，不认证作者producer错。Na24 1368使用4-2-0系数算P，但具体2756direction/tag/接受ledger未明，不能自行给P=1/6或假calibration坏；独立unconditionalmarginal理论为0，仅必要条件提醒。Fig4reportedmixedbranch偏好取原作者归属，完整Fphase/positivity/ADCov未重建，不重测delta。
+
+下一收contract→sourcequant actualrun→canonical新P00source/关联Garg/inputnote→verify032/pub038。原15:00上海仍近5h，nativegoalblocked差异/科学pursuing/formal16一次partial17保持，不早final。

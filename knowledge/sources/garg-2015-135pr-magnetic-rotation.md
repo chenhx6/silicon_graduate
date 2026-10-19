@@ -114,3 +114,8 @@ Garg *et al.* provide an A≈130 high-spin magnetic-rotation candidate with dire
 `supports`A≈130真实reference/gate/data-identity审计；`limits`旧Δ当最新值、a当Q及跨campaign裸比较；`revises`project中“Garg original尚未单独核”的入口状态，只补实际已完成原读。未读erratum/rawresponse/Σ的缺口保持。原GA15-1–3 flags不变，新claims全needs_review。
 
 [旧表条件程序](../../system/scripts/day16_garg2015_calibration_audit.py)actualexit0；[固定输入/结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/garg2015-calibration-audit-result.json)。参考[[135pr-mixing-branch-input-contract]]、[[135pr-wobbling-controversy]]、[[compton-polarimetry]]与[[dco-ratio]]。
+
+
+### Ref32 actualprimary续接
+
+[[palit-2000-rh99-clover-polarimetry]] P00-1–12实际原读补齐本文Ref32的方法入口：Eu a与polarizedreference Q的两层校准。原source单clovera≈1、C/D来自其特定数据/能区；本文a≈.93(.06)及未知Q/Cov仍独立保存，不以引用链搬入数值或替代2019勘误。
