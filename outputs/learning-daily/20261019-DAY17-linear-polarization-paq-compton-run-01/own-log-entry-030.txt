@@ -1,0 +1,5 @@
+
+
+## 2026-10-20 Day17 checkpoint030 — GADGET ratio/共享绝对参考
+
+完整原读FR20 OSTI作者稿8页/4图/2表，核新gasratio/旧I866abs/γfeed及F23recommended共享。真实打印复算、两估计共sys/rho敏感性和tauendpoint不冒jointCLcanonical，无新实验CI。verification044通过（0error/233warnings，38changed40mapped），旧review/claims/保护文件保持；初版本比较脚本语法失败留档修复。main / Trace GADGET proton ratios and shared absolute reference inputs；actualhash/H3见publication030。原窗口继续准确gammafeed上游，17once/18partial/no19。

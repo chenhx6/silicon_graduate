@@ -1,0 +1,104 @@
+{
+  "url": "https://arxiv.org/abs/1911.08783",
+  "status": 200,
+  "final_url": "https://arxiv.org/abs/1911.08783",
+  "bytes": 45187,
+  "sha256": "3cc1666dcaaa51212653fb9516feda4dda36470e4f68fc5f45f4c36a612b570c",
+  "versionhistory": [
+    "Submission history From: Moshe Friedman [ view email ] [v1] Wed, 20 Nov 2019 09:24:52 UTC (149 KB) [v2] Sun, 19 Jan 2020 17:02:38 UTC (147 KB)"
+  ],
+  "meta": [
+    {
+      "name": "citation_title",
+      "content": "Low-energy $^{23}$Al $\\beta$-delayed proton decay and $^{22}$Na destruction in novae"
+    },
+    {
+      "name": "citation_author",
+      "content": "Friedman, M."
+    },
+    {
+      "name": "citation_author",
+      "content": "Budner, T."
+    },
+    {
+      "name": "citation_author",
+      "content": "Pérez-Loureiro, D."
+    },
+    {
+      "name": "citation_author",
+      "content": "Pollacco, E."
+    },
+    {
+      "name": "citation_author",
+      "content": "Wrede, C."
+    },
+    {
+      "name": "citation_author",
+      "content": "José, J."
+    },
+    {
+      "name": "citation_author",
+      "content": "Brown, B. A."
+    },
+    {
+      "name": "citation_author",
+      "content": "Cortesi, M."
+    },
+    {
+      "name": "citation_author",
+      "content": "Fry, C."
+    },
+    {
+      "name": "citation_author",
+      "content": "Glassman, B."
+    },
+    {
+      "name": "citation_author",
+      "content": "Heideman, J."
+    },
+    {
+      "name": "citation_author",
+      "content": "Janasik, M."
+    },
+    {
+      "name": "citation_author",
+      "content": "Roosa, M."
+    },
+    {
+      "name": "citation_author",
+      "content": "Stomps, J."
+    },
+    {
+      "name": "citation_author",
+      "content": "Surbrook, J."
+    },
+    {
+      "name": "citation_author",
+      "content": "Tiwari, P."
+    },
+    {
+      "name": "citation_doi",
+      "content": "10.1103/PhysRevC.101.052802"
+    },
+    {
+      "name": "citation_date",
+      "content": "2019/11/20"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2020/01/19"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/1911.08783"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "1911.08783"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "The radionuclide $^{22}$Na is a target of $\\gamma$-ray astronomy searches, predicted to be produced during thermonuclear runaways driving classical novae. The $^{22}$Na(p,$\\gamma$)$^{23}$Mg reaction is the main destruction channel of $^{22}$Na during a nova, hence, its rate is needed to accurately predict the $^{22}$Na yield. However, experimental determinations of the resonance strengths have led to inconsistent results. In this work, we report a measurement of the branching ratios of the $^{23}$Al $\\beta$-delayed protons, as a probe of the key 204--keV (center-of-mass) $^{22}$Na(p,$\\gamma$)$^{23}$Mg resonance strength. We report a factor of 5 lower branching ratio compared to the most recent literature value. The variation in $^{22}$Na yield due to nuclear data inconsistencies was assessed using a series of hydrodynamic nova outburst simulations and has increased to a factor of 3.8, corresponding to a factor of $\\sim$2 uncertainty in the maximum detectability distance. This is the first reported scientific measurement using the Gaseous Detector with Germanium Tagging (GADGET) system."
+    }
+  ]
+}

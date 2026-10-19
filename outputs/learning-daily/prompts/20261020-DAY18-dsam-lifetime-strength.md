@@ -108,3 +108,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint029 priming：原publicrelease native/readiness
 
 [[evasions-2023-public-release-native-readiness]]原34hash不改，实际make缺lib2→补目录0/无analysisliteralreturn1。原loader长度/逗号解析与VAMOSscalar输出native不闭；CodeB/MC/空fit等source边界不证明paper实验错。真实public409303/maxtrack7/7933positiveSi只query，非新BR/CI；完整paperjob/Σ未得，拒用masspatch/更多history冒原fit。仍仅Day18知识preview无学分。
+
+
+### Day17 checkpoint030 priming：GADGET新ratio/旧归一
+
+[[friedman-2020-gadget-al23-proton-branch]]OSTI作者稿8页全读，新gasratio.063(.004)仍用旧I866abs/γ馈入来推Bp.0065。F23recommended再复用，两个.24不是独立强度确认；两pad估计stat近独立/共sys是待fullCov核的近似，gas仍需背景/eff模型。旧thesisgamma3.53328对FR20through3.95保分母/版本缺口，不造新CI。仅preview不授18。

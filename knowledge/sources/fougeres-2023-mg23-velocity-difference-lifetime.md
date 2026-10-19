@@ -74,6 +74,7 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 | F23-19 | 发布默认inputs为τ5fs、γ7.333MeV、Ex7.785；main的width extraction分支/CodeA对应分支为空、旧fit段在comment中。当前release不提供可直接运行的完整原τ/Egrid fit脚本；尚未完整code/native核，不以“codeavailable”宣称原CI复现。 | actual-code-readiness-boundary | targeted-code | inputs.dat；src/main.cpp extract_width；CodeA_gamma.C | true |
 | F23-20 | MESA/SHIVA ejecta、最大探测距离和未来γobservatories预测为作者模型，不是22Na天文检出或新核寿命数据；meanmassfraction与totalejectedmass不同，模型/figure数据与实验输入分列。 | model-result-and-scope | direct-author-model | main PDF4/Table2/Fig3；SI6–7 | true |
 | F23-21 | 后续原34file/native核给真实409303-entry可读快照与publicrelease readiness边界：补lib后原build0，原loader数长/逗号解析及VAMOS scalar输出不回传，fitwidth分支未实现。仅限制publicrelease论文fit复现，不判实际paperproducer/τ/BR错或重算CI；原34hash保留。 | actual-public-producer-companion | native-and-input-audit | EV23-1/2/5/6/8/13/14 | true |
+| F23-22 | 后续完整原读Friedman2020作者稿，.65(.08)%含新gas相对p强度及旧I866abs/旧gammafeed；本推荐Bp又合此值，推荐tau也合J04。因此两个omega≈.24不是两次完全独立强度确认，source/responsecounter价值与共享reference分开。 | actual-branch-primary-and-dependence | direct-original-companion | FR20-7/10/12/14/15 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -98,3 +99,7 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 ## 原publicrelease后续：真实data可读，paperfit仍需版本桥
 
 [[evasions-2023-public-release-native-readiness]] EV23-1–14已完整核主要source/native边界：原build补输出目录可成功，但loader输出/逗号解析与VAMOS scalar按值、fit分支未实现阻止完整paperfit复现。真实derivedevent查询409303条、maxtrack7、Si_dE>0的7933条只为输入/门descriptor，不是新BR或论文fit。保留本页F23-19当时partialcode状态，不把release问题直接归实验。
+
+## Friedman2020原件补充：推荐组合的共享源
+
+[[friedman-2020-gadget-al23-proton-branch]] FR20-1–16实际完整读作者稿，确认引用.65(.08)%并非全新绝对pγ重测。newgasratio配旧I866abs及gammafeed，再用J04tau给omega≈.24；本论文推荐组合复用这些输入，数值相近不增加两次独立omega确认。

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.osti.gov/servlets/purl/1726146",
+  "status": 200,
+  "final_url": "https://www.osti.gov/servlets/purl/1726146",
+  "bytes": 1001568,
+  "sha256": "96ec0f4a4a7a89667a09a226b10695910509a120bb9a0f355ff19ac3fad19e9b",
+  "file": "tmp/day17-friedman2020/osti_body.pdf",
+  "pages": 9,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "AFV CoverSheet",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "RASSTI Author Final Version Tool",
+    "producer": "PDFlib 9.0.4 (PHP5/Linux-x86_64)",
+    "creationDate": "D:20201124152451-07'00'",
+    "modDate": "D:20200122021420Z",
+    "trapped": "",
+    "encryption": null
+  }
+}

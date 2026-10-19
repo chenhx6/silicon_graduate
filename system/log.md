@@ -2154,3 +2154,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint029 — 原EVASIONS native/readiness
 
 实际原34file/hash保持；原build缺lib2→补目录0，无analysisliteralreturn1，原loader数长/逗号解析与VAMOS scalar caller输出native不闭。publicderived409303/maxtrack7/7933positiveSi真实query，不作BR/τ/CI。canonical区分release故障与paperproducer/实验结论，完整fitnot-ready已隔离。verification043通过（0error/231warnings，37changed39mapped），旧review/claims/保护文件保持。main / Audit actual EVASIONS release inputs and native output contracts；actualhash/H3见publication029。原窗口继续独立Friedman2020 branchprimary，17once/18partial/no19。
+
+
+## 2026-10-20 Day17 checkpoint030 — GADGET ratio/共享绝对参考
+
+完整原读FR20 OSTI作者稿8页/4图/2表，核新gasratio/旧I866abs/γfeed及F23recommended共享。真实打印复算、两估计共sys/rho敏感性和tauendpoint不冒jointCLcanonical，无新实验CI。verification044通过（0error/233warnings，38changed40mapped），旧review/claims/保护文件保持；初版本比较脚本语法失败留档修复。main / Trace GADGET proton ratios and shared absolute reference inputs；actualhash/H3见publication030。原窗口继续准确gammafeed上游，17once/18partial/no19。

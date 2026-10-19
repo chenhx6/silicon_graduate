@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md": 16,
+    "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 22,
+    "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "friedman2020-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "no_new_experimental_branch_tau_spin_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

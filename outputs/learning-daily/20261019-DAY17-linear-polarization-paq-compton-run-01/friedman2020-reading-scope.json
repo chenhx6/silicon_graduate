@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T20:29:09.677309+00:00",
+  "actual_read": "OSTI9pages = LANLcover+authorbody8pagesallmainline/references/4figures/2tables; allpagesvisual andTable1/2highres",
+  "versioncomparison": "arxiv1911.08783v2 body8pages,7pagesnormalizedtextsame,firstpageonlydateJan2020vsJuly2021;notVoR/independentacquisition",
+  "source_tex": "officialarxivv2tex targetedversionidentity/metadata;nooriginalfitcode",
+  "not_obtained": "rawgas/padcounts/GEANT4producer/config/beamprofileCov,fulltwoestimatorCov,gammareferencesactualbodyIacob/Zhai,exactjointCLconstruction",
+  "analysis_scope": "printednormalization/sharedsys/rhoalgebraandconditionalomega;notnewfitCI"
+}

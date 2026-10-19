@@ -263,3 +263,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 平滑后的背景不是新增Poisson计数
 
 [[root-2008-v522-background-error-contract]] R522-2/3/4/5/10给实际API例：content、stored error和fullCov是三层。Smooth不更新stored errors，ShowBackground没有估计背景variance；Add固定a的diagonal不等a由data matching估计后的联合协方差。Compton侧带/校准若经类似处理也需匹配版本/实际脚本，不能直接迁用Si结果或把Sumw2当完整统计证明。
+
+## 新采集与独立校准不是同一件事
+
+[[friedman-2020-gadget-al23-proton-branch]] FR20-7/8/10/14提供实际companion例：new低背景ratio仍可采用旧绝对reference与gammafeed；两pad估计共享systematic和部分event/分母，近独立stat要有原Cov依据。重复推荐/数值相合不增加独立校准。偏振的newA与复用Q/reference也应按同样来源合同核，不能直接迁本gas响应。

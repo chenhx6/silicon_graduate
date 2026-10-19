@@ -64,6 +64,7 @@ Table5.4低能行的0.32(6)是相对每100条451γ的质子强度；乘外部绝
 | SA11-14 | 声明共同I451-only误差的12×12外积Cov为ri rj sigmaI²，总和贡献.0281个百分点；它不是原fit全Cov，也不能由打印sum误差.05反推不存在背景/eff/ratio相关。 | conditional-common-calibration-covariance | task-derivation | exercise common_I451_only_covariance_percent_squared | true |
 | SA11-15 | 后续真实v5-22-00代码审计显示Smooth不改stored errors、ShowBackground clone/reset后只写content；原表达式/当前ROOThelper组件核两buffer分支。故“所有步骤自动传播”不能保证完整Cov，但exactpatch/原script未得，不据此断言本16%用零背景error或重报实验BpCI。 | actual-software-companion-and-revision | direct-code-and-component | R522-1/2/3/4/5/8/11 | true |
 | SA11-16 | 新Fougères2023实测BRp.68(.17)%并引Friedman2020 .65(.08)%，显著不同于本旧pγ条件约3.7%；该旧结果保持历史/同源字段，不当当前唯一branch。新论文仍assumeJ7/2，2020primary未读，不从转引猜旧背景错因。 | new-independent-primary-companion | direct-original-companion | F23-8/9/10/11/18 | true |
+| SA11-17 | 新原读Friedman2020确认newI204/I866=.063(.004)远小旧.34(.06)，却仍采用本旧I866abs=.41(.01)%和旧gammafeed。低p背景疑虑不等旧source全部失效；新ratio/旧reference与gamma分母版本/Cov仍逐项匹配。 | new-primary-and-selective-reference-reuse | direct-original-companion | FR20-9/10/11/15 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -92,3 +93,7 @@ Jtarget3、sp1/2给channel spin5/2或7/2；L0只产生相同J，L2允许J3/2。�
 ## 历史Bp不是当前唯一输入
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]] F23-8/9/10/11新directp/γ约.68%与旧条件约3.7%分列，旧branch/βp/背景记录不改。仍需原Friedman2020与实际响应/nearstate来判差异，不能从新推荐值补旧错误或将assume7/2升为自旋直接测量。
+
+## 新gasratio仍选择性采用旧高能参考
+
+[[friedman-2020-gadget-al23-proton-branch]] FR20-9/10/11/15指出旧低p强度受背景挑战，而866keVp的绝对强度被保留。旧source的各字段须按响应/能区分别审计，不能一次性全取/全弃；其原gamma绝对馈入及归一Cov还需matchingprimary，旧Fig5.7两支不能直接替新的through-state分母。

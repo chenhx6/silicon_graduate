@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint030：Friedman2020完整上游primary
+
+[[friedman-2020-gadget-al23-proton-branch]] FR20-1–16，OSTI封面+作者稿8页/4图/2表实际全读和视觉核；arxivv2正文归一文本仅首页日期不同，非VoR/独立采集。newgasratio与旧absolute/gammafeed分列。
+
+
 ### checkpoint029：真实publicrelease主要路径/native
 
 [[evasions-2023-public-release-native-readiness]] EV23-1–14主要source/headers/Backupextraction/doc/activeSRIMheader实际核。原34文件hash保，nativecopy只加lib输出目录/另名client；现有ROOT6.40，不冒paperexactjob。
@@ -115,6 +120,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint030：新ratio/旧reference的量化角色
+
+[程序](../../system/scripts/day17_friedman2020_branch_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/friedman2020-exercise-result.json)核perβp.02583对报.0257、报p/g给daughter.006464；新branch/旧τ/J中心omega.24289，τ12endpoint不当原>.16 jointCL。两ratio共sys/rho敏感性仅条件，不重报CI；旧gamma打印inventory对新through-state3.95不强配。
+
 
 ### checkpoint029：原函数native与实际eventquery
 
@@ -203,6 +213,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint030：低背景也有模型，推荐也会共享输入
+
+FR20-3/4/5/6/7/10/14：gas减少β背景仍有exponential/linear选择、wall/beam/eff校正和583/595doublet。newratio仍用旧I866abs/γfeed；F23推荐再复用，不把两篇.24当独立强度确认。原counts/producer/fitCov及gamma原件仍缺。
+
 
 ### checkpoint028：新measurement与推荐组合分开
 
@@ -417,6 +432,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[GADGET上游原件](../../knowledge/sources/friedman-2020-gadget-al23-proton-branch.md)FR20-7/8/10/11/12/14/15与[[lifetime-strength-audit-165tm-136nd]]“Friedman2020：独立相对强度与共享绝对输入”，保存新采集/旧归一/推荐组合矩阵及实际算术边界。
+
 
 新增[EVASIONS原release源](../../knowledge/sources/evasions-2023-public-release-native-readiness.md)EV23-2/5/6/8/13/14和[[lifetime-strength-audit-165tm-136nd]]“publicrelease与原paperproducer分开审计”，持久保存真实数据/原失败/版本边界，outputs非唯一知识副本。
 
@@ -4677,6 +4695,144 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "EV23-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+      "anchor": "新相对强度与旧绝对参考共同给出daughter分支",
+      "summary": "新增完整原件/真实分母与共享误差复算。",
+      "sources": [
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-1"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-7"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-10"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-11"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-12"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "anchor": "Friedman2020原件补充：推荐组合的共享源",
+      "summary": "核BR上游primary和推荐组合共享，不计独立omega。",
+      "sources": [
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-10"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-12"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "anchor": "新gasratio仍选择性采用旧高能参考",
+      "summary": "低p疑虑与旧reference有效性逐字段分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-9"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-10"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Friedman2020：独立相对强度与共享绝对输入",
+      "summary": "更新来源矩阵/两ratioCov/下界endpoint角色。",
+      "sources": [
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-7"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-8"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-10"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-11"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-12"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-14"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "新采集与独立校准不是同一件事",
+      "summary": "实际共享reference/近独立stat使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-7"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-8"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-10"
+        },
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[friedman-2020-gadget-al23-proton-branch]]",
+      "summary": "新增GADGET独立采集/旧reference源入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+          "locator": "FR20-1"
+        }
+      ]
     }
   ]
 }
@@ -4852,3 +5008,7 @@ verification042核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint029原版native/实际输入验收
 
 verification043核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与原34hash/nativeartifact；通过后manifest029/commitguard/H3。原release问题已隔离，不改raw/原data或paper结论。同原窗口继续，formal17once/18partial/no19。
+
+### checkpoint030原件/共享归一验收
+
+verification044核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及真实artifact；通过后manifest030/commitguard/H3。初一页版本比较脚本语法失败已修/留档，不改科学输入；原窗口继续，formal17once/18partial/no19。

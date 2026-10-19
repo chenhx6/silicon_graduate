@@ -1,0 +1,39 @@
+{
+  "url": "https://arxiv.org/src/1911.08783v2",
+  "status": 200,
+  "bytes": 151000,
+  "sha256": "687b9bc6e82f056494fc35d8f614a23783062d2374f0989db27642c74c2d90fc",
+  "members": [
+    {
+      "name": "23Al_decay_PLB_for_submission.bbl",
+      "size": 45683
+    },
+    {
+      "name": "23Al_decay_PLB_for_submission.tex",
+      "size": 29570
+    },
+    {
+      "name": "coincidence.pdf",
+      "size": 15830
+    },
+    {
+      "name": "decay_scheme.pdf",
+      "size": 45830
+    },
+    {
+      "name": "pad_plane_map_ranges_edited.pdf",
+      "size": 74777
+    },
+    {
+      "name": "spectrum.pdf",
+      "size": 16831
+    }
+  ],
+  "tex": [
+    {
+      "name": "23Al_decay_PLB_for_submission.tex",
+      "sha256": "a22be7d1c3c706cf92099561c859a172654d26ab7103dfdd662aafdc4a04f658",
+      "date_lines": []
+    }
+  ]
+}

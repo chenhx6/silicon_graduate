@@ -1,0 +1,5 @@
+{
+  "at": "2026-10-19T20:24:01.359284+00:00",
+  "error": "missing dictionary value in one-off comparison script; parser failed before network/write",
+  "repair": "explicit arxiv_pages field; no scientific data changed"
+}

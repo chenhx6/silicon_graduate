@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-19T20:27:12.540655+00:00",
+  "script_sha256": "bc97cf35cfaf49acc204ae68d3e8194b35d0f23488c3633060bf385d6a2d2a35",
+  "contract_sha256": "66ded15b2fdbee17207c6f0e847d4d4554a86ef3154a0ff97f8e8681e973ac7a",
+  "conditional_ratio_combination": [
+    {
+      "declared_stat_correlation": 0,
+      "combined_center": 0.063,
+      "conditional_scale": 0.00406201920231798
+    },
+    {
+      "declared_stat_correlation": 0.5,
+      "combined_center": 0.063,
+      "conditional_scale": 0.004769696007084728
+    },
+    {
+      "declared_stat_correlation": 1,
+      "combined_center": 0.063,
+      "conditional_scale": 0.005385164807134504
+    }
+  ],
+  "absolute_beta_proton": {
+    "from_rounded_ratio_and_old_reference_percent": 0.02583,
+    "conditional_independent_scale_percent": 0.001756843760839307,
+    "reported_percent": 0.0257,
+    "nominal_center_residual_percent": 0.00012999999999999817
+  },
+  "daughter_branch": {
+    "from_reported_absolute_inputs": 0.006464270442940866,
+    "conditional_independent_scale": 0.0007364820327926363,
+    "gradient_per_percent": [
+      0.24990208757126017,
+      -0.0016259452279952875
+    ],
+    "variance_with_unknown_covariance": "dp^2 Var(p)+dg^2 Var(g)+2dp dg Cov(p,g)",
+    "no_full_Cov_or_CI_recovered": true
+  },
+  "conditional_rate": {
+    "fixed_tau_J_reported_Bp_meV": 0.24288961512405569,
+    "at_tau_upper_endpoint_fixed_Bp_meV": 0.20240801260337973,
+    "endpoint_is_not_original_joint_CL_lowerlimit": true
+  },
+  "efficiency_raw_ratio_control": {
+    "corrected_ratio": 0.063,
+    "implied_raw_ratio_if_matched": 0.06638709677419354,
+    "no_new_efficiency_measured": true
+  },
+  "old_thesis_gamma_denominator_boundary": {
+    "old_Fig5p7_two_gamma_sum_absolute_percent": 3.53328,
+    "F20_adopted_gamma_through_state_percent": 3.95,
+    "boundary": "different printed source/inventory; original gamma references needed, not forced closure"
+  },
+  "checks": {
+    "combined_ratio_center_matches_printed": true,
+    "independent_stat_shared_sys_scale_rounds_to_0p004": true,
+    "daughter_fraction_near_reported": true,
+    "omega_center_near_printed_0p24": true,
+    "fullstatcorrelation_changes_combinedscale": true,
+    "old_thesis_printed_gamma_sum_not_equal_new_adopted": true
+  },
+  "no_new_experimental_branch_tau_spin_or_CI": true,
+  "ok": true
+}

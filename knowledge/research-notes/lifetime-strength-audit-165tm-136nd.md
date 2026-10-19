@@ -290,3 +290,11 @@ AppendixA明确ROOT5.22/Rebin/ShowBackground/Smooth/150keV数据匹配与Add减�
 [[evasions-2023-public-release-native-readiness]] EV23-1–14实际原source/native与publicevent核：原make先因lib输出目录缺失exit2，补目录后0；无analysispath按literalreturn1正常结束。原loader sentinel长度不回传且逗号小数解析失败仍status1；原VAMOS beta scalar也不回caller。其它停止路径/MCdepth/未绑定Si_theta/sizeofpointer/未完成fit块均原release边界，原34hash与data保留。
 
 该release提供409303真实作者标记衍生event、7933条Si_dE>0，L4从缺data推进到actualquery；没有原DAQ/完整校准史/实际paperfit配置/Σ，不能把多项release问题累加成实验τ偏差或修源后重报CI。当前停止literalfullMCfit路线，继续最高信息独立companion或原fit定义，不以更多history补输入。
+
+## Friedman2020：独立相对强度与共享绝对输入
+
+[[friedman-2020-gadget-al23-proton-branch]] FR20-1–16实际完整OSTI作者稿8页/4图/2表读，newgasratio .063(.004)不同旧Si.34(.06)，但I866abs.41(.01)%和gammafeed3.95(.37)%仍来自旧source；newIβp.0257(.0017)%→daughterBR.0065(.0008)。其中新采集/旧归一/假spin/旧tau逐层分列，不从“gas新测”假所有输入独立。
+
+两方案.066/.060共享effsys且作者称stat近独立，条件rho0/.5/1合成scale.004062/.004770/.005385，只是敏感性不重报CI。固定新branch/旧τ10/J7/2得omega.24289；τ12端点.20241不复现Table2 joint下界>.16或CL。旧thesis两γprintedsum×.433=3.53328%对本through-state3.95需原gamma源/版本，不强配。
+
+F23推荐又复用本新branch/J04tau，故两篇≈.24不计独立强度确认。真实GADGETcounts/GEANT4setup/fullCov尚未取；后续最高信息是instrumentprimary或准确gammafeedreference，不用更多条件toy填原Σ。

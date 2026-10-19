@@ -1,0 +1,285 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.101.052802",
+  "status": 200,
+  "sha256": "c7f76abe4b935a3b99fce96d657c4a7eb666ebfcb368dbfc111a9bf5b997771d",
+  "title": "Low-energy Al23β -delayed proton decay and Na22 destruction in novae",
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevc.101.052802",
+      "doi": "https://doi.org/10.1103/physrevc.101.052802",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/physrevc.101.052802",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevC.101.052802",
+      "source": {
+        "id": "https://openalex.org/S4210168441",
+        "display_name": "Physical Review C",
+        "issn_l": "0556-2813",
+        "issn": [
+          "0556-2813",
+          "1089-490X",
+          "1538-4497",
+          "2469-9985",
+          "2469-9993",
+          "2470-0002"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:upcommons.upc.edu:2117/327525",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2117/327525",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4377196262",
+        "display_name": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I9617848",
+        "host_organization_name": "Universitat Politècnica de Catalunya",
+        "host_organization_lineage": [
+          "https://openalex.org/I9617848"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:arXiv.org:1911.08783",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1911.08783",
+      "pdf_url": "https://arxiv.org/pdf/1911.08783",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:osti.gov:1726146",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://www.osti.gov/biblio/1726146",
+      "pdf_url": "https://www.osti.gov/servlets/purl/1726146",
+      "source": {
+        "id": "https://openalex.org/S4306402487",
+        "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I139351228",
+        "host_organization_name": "Office of Scientific and Technical Information",
+        "host_organization_lineage": [
+          "https://openalex.org/I139351228"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:HAL:hal-02431438v1",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://hal.science/hal-02431438",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Phys.Rev.C, 2020, 101 (5), pp.052802. &#x27E8;10.1103/PhysRevC.101.052802&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "pmh:oai:digital.csic.es:10261/237055",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/10261/237055",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400616",
+        "display_name": "DIGITAL.CSIC (Spanish National Research Council (CSIC))",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I134820265",
+        "host_organization_name": "Consejo Superior de Investigaciones Científicas",
+        "host_organization_lineage": [
+          "https://openalex.org/I134820265"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "http://purl.org/coar/resource_type/c_6501"
+    },
+    {
+      "id": "pmh:oai:dnet:upcommonspor::542bd7e4cfda9573406aec778d015c51",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2117/327525",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402641",
+        "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4383465926",
+        "host_organization_name": "LA Referencia",
+        "host_organization_lineage": [
+          "https://openalex.org/I4383465926"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "info:eu-repo/semantics/publishedVersion"
+    },
+    {
+      "id": "doi:10.48550/arxiv.1911.08783",
+      "doi": "https://doi.org/10.48550/arxiv.1911.08783",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.1911.08783",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article-journal"
+    }
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevC.101.052802",
+    "any_repository_has_fulltext": true
+  }
+}

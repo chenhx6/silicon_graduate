@@ -1,0 +1,12 @@
+--- OSTI-bodyPDF1
+
++++ arxivPDF1
+
+@@ -62,5 +62,5 @@
+
+ lar nova grains [28–31]. Usually, neon is incorpo-
+ rated in grains via implantation, since noble gases
+ Preprint submitted to Phys. Lett. B
+-January 22, 2020
++July 12, 2021
+ arXiv:1911.08783v2  [nucl-ex]  19 Jan 2020

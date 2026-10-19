@@ -1,0 +1,47 @@
+{
+  "identity": "FR20-GAS-PROTON-NORMALIZATION-01",
+  "pdf": "tmp/day17-friedman2020/osti_body.pdf",
+  "pdf_sha256": "96ec0f4a4a7a89667a09a226b10695910509a120bb9a0f355ff19ac3fad19e9b",
+  "ratios": [
+    0.066,
+    0.06
+  ],
+  "stat_scales": [
+    0.005,
+    0.005
+  ],
+  "shared_systematic_scale": 0.002,
+  "reported_combined_ratio": 0.063,
+  "reported_combined_scale": 0.004,
+  "I866_absolute_percent": 0.41,
+  "I866_scale_percent": 0.01,
+  "I204_reported_percent": 0.0257,
+  "I204_scale_percent": 0.0017,
+  "betaGamma_percent": 3.95,
+  "betaGamma_scale_percent": 0.37,
+  "Bp_reported": 0.0065,
+  "Bp_scale": 0.0008,
+  "tau_fixed_fs": 10,
+  "tau_upper_endpoint_fs": 12,
+  "hbar_meV_fs": 658.2119569,
+  "J_fixed": 3.5,
+  "efficiencies": [
+    [
+      204,
+      0.98
+    ],
+    [
+      275,
+      0.98
+    ],
+    [
+      583,
+      0.97
+    ],
+    [
+      866,
+      0.93
+    ]
+  ],
+  "no_jointcov_or_CI_reconstruction": true
+}

@@ -1,0 +1,16 @@
+{
+  "OSTI9pages_includes_cover": true,
+  "arxiv_pages": 8,
+  "same_normalized_text_by_page": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "exactbodytextsame": false,
+  "boundary": "notpublisherVoR; sourceversionsnotindependentacquisition"
+}
