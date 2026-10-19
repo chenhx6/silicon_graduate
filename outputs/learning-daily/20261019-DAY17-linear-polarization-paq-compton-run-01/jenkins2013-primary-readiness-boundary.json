@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T18:42:45.609033+00:00",
+  "status": "body-not-obtained",
+  "doi": "10.1103/PhysRevC.87.064301",
+  "actual_routes": {
+    "UNC": "TLS EOF main/json/export; no body",
+    "APS": "abstract403; harvest401 not authorized",
+    "Birmingham": "record200, no body link",
+    "OSTI": "doi XML200 emptyrecords; original JSON parse failure retained",
+    "arxiv": "exact DOI totalResults0",
+    "HAL": "exactDOI/title0",
+    "York": "403",
+    "DataCite": "metadata only,contentUrl null"
+  },
+  "scope": "no primary method or data-dependence finding asserted; no global exhaustion; no contact/access-control bypass",
+  "next": "official23Mg matched evaluation / lifetime/branch/energy source lineage; exact adoption not independent experiment"
+}

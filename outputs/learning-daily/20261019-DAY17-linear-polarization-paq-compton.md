@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint023：23Mg官方五对象与2013获取边界
+
+新canonical [[nndc-2021-mg23-lifetime-strength-reference]]，M23-1–15；四reaction557行全部、Adopted630行仅L1–48/330–465实际读。原2013body仍未得，完整readiness已落盘；不把评价转述冒作primary。原15点窗口继续，17学分只一次、18仅partial。
+
+
 | 来源与identity | 本session实际覆盖/locator | 证据分层与独立性 |
 | --- | --- | --- |
 | [[../../knowledge/sources/starosta-1999-pdco-experimental-test]]；DOI10.1016/S0168-9002(98)01220-0 | 原11页printed16–26主线与全部图像；printed17 Eq1/2、footnote1，printed18 Eq3/4，printed19 Eq5/6/Table1，printed21 integrated，printed23–25三表，printed26 ακ | 原164Yb采集与NORDBALL单clovercalibration分开；reference P来自上游AD/GOSIA，四组P/integrated/RDCO不是独立实验；旧10⁻5/脚注纠正不作新发现 |
@@ -80,6 +85,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint023：固定输入的两通道约束
+
+[新程序](../../system/scripts/day17_mg23_reference_contract.py)/[实际结果](20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-reference-exercise-result.json)核五hash与九upper/两finite转换、branch归一Jacobian及omega=g(hbar/τ)Bp(1−Bp)。固定τ10fs/omega5.7meV：J3/2无实根，J5/2与7/2各两根；tau允许上界8.248/12.372/16.497fs。没有新spin排除/Bp测量或jointCI。
+
 
 完整公式、假设与数据在[[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]；可运行[day17_paq_shared_calibration.py](../../system/scripts/day17_paq_shared_calibration.py)，输入[paq-design-input.json](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-design-input.json)，结果[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json)。这是新声明的设计计数，不是ST99/SG98实测数据。
 
@@ -133,6 +143,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint023：Adopted没有消除自旋和弱支问题
+
+M23-4/8/9/10：Adopted3/2+,5/2+与fusion7/2(+)并列，capture有另一γ和新omega；7852/5138缺失只为评价者转述的未确认沟通。M23-12散射对象不覆盖7785，不能补Γp。靶厚160vs40、原2011/2013body与原jointΣ仍缺。
+
 
 - ST99-2：490-keV的P/RDCO仍保留E2与ΔI0 M1/E2；正号不保证唯一δ/Jπ。ST99-12的ακ是作者理论预测而非已测ICC，不能拿它闭合分支。
 - SG98-5/8：zerochannel是另一侧confined，Fig9 130keV与Fig10/Pb 60keV不能混用。源Table3误差来自DAMM拟峰，不能覆盖为√面积。
@@ -322,6 +337,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增canonical [23Mg官方源](../../knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md)与[[lifetime-strength-audit-165tm-136nd]]“23Mg官方匹配：先列自旋和分支，再谈寿命换强度”；M23-4/5/8/9/13/14提供可复用输入矩阵/条件计算。outputs不作唯一知识副本。
+
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
 
@@ -3638,6 +3656,139 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "J04-14"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "anchor": "自旋和分支是寿命换强度的实际输入",
+      "summary": "新增五对象官方匹配与half/mean、分支、条件强度约束。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "anchor": "官方后续：保留不同自旋与未决身份",
+      "summary": "保留官方不同spin及未确认身份/采集边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "anchor": "官方字段补充：上限同源，自旋仍需条件化",
+      "summary": "核同源half/mean，不由编译固定原J7/2。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "23Mg官方匹配：先列自旋和分支，再谈寿命换强度",
+      "summary": "加入spin/branch/omega输入矩阵及条件两通道多根/无根边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "用总寿命推共振强度时的额外输入",
+      "summary": "总宽到强度需要spin与分支，不把central no-root当排除。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "DCO的EM字符可能已借寿命先验",
+      "summary": "记录RUL/寿命共享输入与DCO字符边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[nndc-2021-mg23-lifetime-strength-reference]]",
+      "summary": "新增canonical source入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-1"
+        }
+      ]
     }
   ]
 }
@@ -3780,3 +3931,7 @@ Forster compiled真实十点/units与原reader两tablemode/strictreplay已canoni
 ### checkpoint022独立J04与input谱系验收
 
 J04四页/表图/源tex与真实TableI/条件ΓQthreshold练习canonical；不以newτ/adoptedω作两个新独立测量。旧K16_19rows/flags保持，新14J04/K16-20indexed true；verification036记录report/30changed32mapped/coverage/boundary/lint/diff/protected/exercise实际exit，0error217warnings，initialindex错误已修/留档。stablemain / `Audit independent Mg23 fractional Doppler and adopted strength inputs`，actualhash/H3/push仅publication022。021格式失误已非rewrite补偿、累计门0后actualpush，物理data/原runtime卡不改；本段commit增加guard避免失败门后提交。原window/goalactive、formal17once/18partial不变；下一J13actualbody/数据依赖桥继续，不从metadata补。
+
+### checkpoint023官方Mg23输入验收
+
+verification037记录本批实际report/coverage/writeback/boundary/lint/diff及旧claim/review保护；完成检查后才按显式manifest023/commitguard/H3发布。当前预习不授18，不结束原研究窗口。

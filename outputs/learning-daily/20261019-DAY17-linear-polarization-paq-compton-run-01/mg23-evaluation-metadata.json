@@ -1,0 +1,133 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Basunia+Chakraborty+Nuclear+Data+Sheets+171+1+2021+A23&rows=3",
+  "status": 200,
+  "sha256": "261116d1a41ab35de48dcdc1d53f27386add616e6cae161078604fc89f3a087a",
+  "items": [
+    {
+      "DOI": "10.1016/j.nds.2020.12.001",
+      "title": [
+        "Nuclear Data Sheets for A=23"
+      ],
+      "author": [
+        {
+          "given": "M.",
+          "family": "Shamsuzzoha Basunia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anagha",
+          "family": "Chakraborty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "171",
+      "page": "1-252",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/j.nds.2024.08.001",
+      "title": [
+        "Nuclear Data Sheets for A=30"
+      ],
+      "author": [
+        {
+          "given": "M. Shamsuzzoha",
+          "family": "Basunia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anagha",
+          "family": "Chakraborty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "197",
+      "page": "1-258",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/j.nds.2022.11.002",
+      "title": [
+        "Nuclear Data Sheets for A=24"
+      ],
+      "author": [
+        {
+          "given": "M. Shamsuzzoha",
+          "family": "Basunia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anagha",
+          "family": "Chakraborty",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "186",
+      "page": "3-262",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12
+          ]
+        ]
+      }
+    }
+  ]
+}

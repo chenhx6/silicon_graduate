@@ -73,6 +73,7 @@ O. S. Kirsebom等，*Phys. Rev. C*93，025802(2016)，DOI [10.1103/PhysRevC.93.0
 | K16-18 | 公开原eventmain已生成并严格重放有界64条MODEL联合alpha-gamma包，schema/条件proposal分母可核；没有取得本实验ROOTanal/experimentalhistograms/Cov或exactjob，模型流不能冒称原数据/置信区间。 | public-producer-data-readiness | native-companion-and-boundary | SD15-17/18/19/20/21 | true |
 | K16-19 | Ref29准确身份为Alexander等J.Nucl.Mater96,51–56(1981)，DOI10.1016/0022-3115(81)90217-8；实际只metadata/OA发现，primarybody未得。其题名提DSAM，不据此断言A独立性/循环校准或补原calibrator/误差语义。 | property-input-identity-and-readiness | metadata-only-companion | PDF13 Ref29；alexander1981-crossref-discovery/primary-readiness | true |
 | K16-20 | 新本session原读Jenkins2004四页，核其10(3)fs为七角fractional-Doppler加模型、feedingdirect假设；其Tableomega1.8(.7)adoptedAngulo而非新τ推出。原J04prose说finite-recoil已校，K16二级评论旧Ex似未校须定义/版本桥，不据此直接改数据。 | independent-primary-companion-and-revision | direct-original-companion | J04-3/5/7 | true |
+| K16-21 | 新202101五official对象把K16九upper/两未平均finite按mean×ln2转half，前两finite另与旧输入合并；7787<12mean与compiled<8.3half同源。Adopted自旋3/2+,5/2+还保留fusion7/2意见，不能把本模型旧J7/2固定成无条件事实。 | official-matched-reference-and-spin-boundary | direct-evaluation-and-reconstruction | M23-4/5/6/8/9/13/14 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -126,3 +127,7 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 ## 独立融合蒸发primary：τ与旧强度分列
 
 [[jenkins-2004-23mg-fractional-doppler-rate]] J04-1–14实际原读，确认旧10(3)fs的具体centroid/model/feeding链，也确认omega1.8(.7)是adopted输入。这里的K16重测、J04原采集与对J04的转载须分别计证据。K16对旧energy recoil的解释还需与J04原文明确说已校正的prose匹配photon/levelgap语义，不能把二级评论直接升级成原source实验错误。
+
+## 官方字段补充：上限同源，自旋仍需条件化
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-4/5/6/8/9/13/14核half/mean与新强度角色。新upper不裁决旧mean10(3)；J7/2是旧fusion条件，Adopted还列3/2+,5/2+。用任一spin/omega/τ中心组合计算Bp仅是条件模型，不能借编译作本实验联合CI。

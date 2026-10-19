@@ -73,3 +73,8 @@ SD15-17–22/K16-18/19实际64MODEL联合事件入口/schema/6820proposal/strict
 ### Day17 independentJ04追加priming（无18学分）
 
 J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设、真实DCO.9/1.7gate、tau新结果与omegaadopted分列；共享Q/threshold/总Γ与Bp两根只条件练习。K16 recoil评论与J04原校正prose需定义桥，不修raw。Jenkins2013当前仅metadata/UNC TLS/OA/HAL失败，body未读，以后以actualsource/receipt更新为准。正式18新session声明priming，不用旧九点/程序checks换credit。
+
+
+### Day17 checkpoint023 priming：官方23Mg与条件强度
+
+新[[nndc-2021-mg23-lifetime-strength-reference]]五对象只为Day18无学分preview。Adopted3/2+,5/2+与fusion7/2(+)并列，half6.9/8.3对应mean10/<12；capture第二gamma及2011omega5.7不是旧J04单支/1.8的同对象独立复制。固定central两通道无根不排spin，互补Bp根不作测量/CI。靶160vs40/7852未确认缺失是评价注释，2011/2013原件仍未读；正式18须声明priming/独立卡审计，不换本previewcheck数授分。

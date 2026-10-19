@@ -177,3 +177,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 [[jenkins-2004-23mg-fractional-doppler-rate]] J04-1–14以七角centroids/最大位移构造fractionalshift，再经模型得到τ；高unboundfeeding直接为作者假设。它与K16alpha-tagged line-shape是不同采集/响应，不能以同叫DSAM互补缺少的stopping/feeding/Σ。J04表中τ10(3)与omega1.8(.7)分别是本次寿命和旧评价强度，不能算两项新独立结果。
 
 旧directgamma阈值漏掉2316.9keV分支的例子还说明：由总τ到Γgamma/强度需要particle/radiativebranch及实际ε/gate。理想3MeVstep下58%visible→1.724total/visible只是声明的inventory控制，不是原4meV上限或置信区间重放。共同Q、gamma校准及能量definition的Σ未得时，不强配quotederrors或按近能量合并母态。
+
+## 用总寿命推共振强度时的额外输入
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-4/8/9/13/14给实际反例：自旋候选、另一gamma支和更新omega必须逐源匹配。总τ只给Γtotal；两通道时omega=gΓBp(1−Bp)，同Γ/omega常有互补Bp两根，固定中心也可能无根。它说明输入条件不相容，不自动排自旋/实验或给CI。half/mean、LT与原CL、评价平均值/原measurement都要分开。

@@ -6,21 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; independent J04 checkpoint022
+## Active handoff — DAY17 original window active; official Mg23 checkpoint023
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–021actualH3/Giteepush，021含非rewrite格式补偿提交/current+cumulative+staged门0后才push，初cachedcheck失误/原卡/物理不变已完整留档。formal17仅007后一次/course next18/count17、partial18，不授18/研究19课程卡。原runner16:06中断不伪造normalexit。022稳定指针main / `Audit independent Mg23 fractional Doppler and adopted strength inputs`，actualhash/push仅publication022/runreceipt。
+沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17、Farmer42019/nativegoal active；原2026-10-20 15:00上海研究截止/15–16收束不改。001–022已实际Gitee H3 push；formal17只007后一次，course next18/count17、partial18，不授18/不研究19课程卡。原runner16:06中断、normalexit未观察保持。
 
-新Jenkins2004 source实际原读arxivastro-ph0312404v1四页/一表/一图两个ratepanel+两insets，全页视觉核。rawPDF/tex/sourcehash与date-today核，2003v1/journal2004/PDF2018非新实验分开。22MeV12C/40µgcm−2C/Gammasphere采集独立于K16，七角centroids→fractionalshift→modelτ；feedingdirect是假设，stopmodel/原Σ未得。新tau10(3)与tableomega1.8(.7)adoptedAngulo分开，混合input表不是九个新强度测量。
+023新canonical [[nndc-2021-mg23-lifetime-strength-reference]] M23-1–15：四reaction557行全读、Adopted630仅L1–48/330–465；202101/cut1Jun2020非2026新实验。reaction7785.2 J7/2(+)与Adopted7784.7 J3/2+,5/2+并列；half6.9(2.1)来自J04mean10(3)，<8.3half来自K16<12mean。九upper/两directfinite的ln2转换核；前两finite为旧/新输入平均，不把compiled数字误称K16mean。
 
-原Q7579.6(1.4)/NR23/22回算九Ep中心.05keV内，unobs7801仍Endt旧输入不填present。独立quotedscalequadrature不全闭合，Q-only2.14223keV²外积是条件非actualΣ。固定tau10给Γtotal65.8212meV；加固定J/adoptedomega/两通道有Bp互补根.05040/.94960，不是Bp测量/CI。原58/42γbranch在声明3MeVidealstep下visible.58/totalfactor1.724，不复现含yield/energy/response的作者4meV保守界/CL。
+Capture11/89γ与Adopted16/100角色/来源分开；新2011Sa12omega5.7(+1.6,-.9)仅compiled输入，primarybody未读。固定tau10fs/twochannels：J3/2中心无根、J5/2两根.2811/.7189、J7/2两根.1862/.8138；tauceil8.248/12.372/16.497，不是spin排除/Bp测量/CI。Σ、Γp、原采集/stop/feeding仍缺；same-nucleus p-res仅8611以上不填7785。
 
-J04 calibrationprose明确说finite-recoil已校，与K16旧Ex似未校的二级解释需photon/gap定义/详细文匹配，不自动修raw。DCO all-axisgate比较90vs32/37，pureD.9/pureQ1.7，Letterratio顺序/response不齐；E2本身不只允许DeltaJ2，作者J判定含transfer/mirror/angular条件，不从裸ratio推δ/J。原s_l命名保留，不擅转C²S。v1α残核20Na标签守恒问题只作文字边界，不改23Mg数据。
+J04/2013同研究链由评价转述，不认证exactsamejob；靶160vs原40µg与7852/5138 detailed缺失/未确认2019communication保留，不写正式erratum。2013body新route未得：UNC TLS EOF、APS403/harvest401、OSTI DOI空XML、arxiv exactDOI0/HAL0、York403、Birmingham元数据；不原样重试终态URL、不从metadata补科学。后续最高输入为2011Sa12原实验的spin/branch/absoluteomega合同，先freeze再查原件；不加MODELhistory替data。
 
-Canonical新J04/K16/methods/auditledger/index，machinewriteback30changed32mapped；verification036以actualreceipt为准，report/coverage/boundary/lint/diff/protected/旧K16_19rowsflags/new14J04+K16_20true，0error217warnings(150key63raw4parser)。initialINDEX_MISSING已修/留档；Root/PLA/Bib保护，旧review状态保持，未重fit实验CI。commit增加guard，stage失败或文件集不合即不commit。
+新program day17_mg23_reference_contract.py/contract/result可复算，原parser及旧claims/review/hash保持。verification037以actualreceipt为准（report/唯一writeback/course/boundary/lint/diff/protected/旧rows）；writeback初dict迭代脚本失败已保留，只执行未写report的remainder避免重复。main / `Match official Mg23 lifetime spin and strength reference inputs`为023稳定指针，actualhash/push见publication023/runreceipt。保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog；exactindex，log仅HEAD+own023。
 
-下一Jenkins2013详细文DOI10.1103/PhysRevC.87.064301 sourcebeforefreeze已冻，metadata exacttitle/A23NaMg/highspin/mirror明确、未读body。OpenAlex给UNC DOI10.17615/pbey-vw42→vt150v00g，requests TLS EOF/合法OAprovider fetchfailed无PDF；HALexactDOI0，不改TLS/credentials/不从metadata补science。OSTI与Birmingham新publicroute正在查，actualreceipts为准。需核明确same-data、DCO式、recoilenergy/σ/feeding/stopping与2004relation，不把2013再引用算独立实验。原window仍>12h，15点stop研究整日收束齐才goalcomplete。
-
-保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/oldlog；explicitindex，log只HEAD+ownentry。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。窗口仍有约731分钟，不以本局部完成结束日运行；15点停止新研究，整日收束齐才goalcomplete。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

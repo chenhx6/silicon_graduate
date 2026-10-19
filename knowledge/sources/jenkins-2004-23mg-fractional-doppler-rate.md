@@ -69,6 +69,7 @@ DCO比较all-angle gate下的90°与32°/37°分组，实测参照pure dipole约
 | J04-12 | 固定τ10fs给总宽65.8212meV；再固定adoptedomega1.8/J7/2/仅pγ两通道，Bp代数两根约.05040/.94960。只是条件中心值说明branch companion必要，不是新Bp测量/置信区间或新原data组合fit。 | conditional-strength-branch-exercise | task-model | exercise-result tau_width/Bp_roots | true |
 | J04-13 | 声明3MeV理想step detector、取原58/42中心，visiblefraction=.58、total/visible≈1.72414；它只核inventory/threshold效应，不复现真实ε或作者4meV保守界。quotedbrancherrors/联合Cov不被强制重归一。 | explicit-design-exercise | task-model-from-real-input | exercise-result threshold_inventory | true |
 | J04-14 | Fig1 rate上下界混合新谱学/旧强度/模型输入，未给可据图重建的联合CL；后续nova22Na yield与detectdistance是作者hydrodynamic model，不是天文gamma检出或新实验fact。 | model-result-and-boundary | direct-author-model | PDF3–4 rate evaluation；Fig1；hydrodynamic paragraphs | true |
+| J04-15 | 新官方202101编译将2004/2013同列研究链，但160µg靶与J04原40µg不同；7785reaction7/2(+)与Adopted3/2+,5/2+分列。7852/5138在详细版缺失的未确认沟通属于评价注释，不当正式勘误或删除本v1数据。 | evaluated-companion-and-counter-evidence | direct-evaluation-companion | M23-2/4/10 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -103,3 +104,7 @@ DCO比较all-angle gate下的90°与32°/37°分组，实测参照pure dipole约
 ## Extracted Pages
 
 [[kirsebom-2016-23mg-dsam-lifetimes]]、[[lifetime-strength-audit-165tm-136nd]]、[[doppler-shift-attenuation-method]]、[[linear-polarization-asymmetry]]。Day17原窗口内仅Day18无学分知识预习。
+
+## 官方后续：保留不同自旋与未决身份
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-2/4/8/9/10原读五对象。Adopted并未无条件沿用J04的7785 J7/2；capture第二gamma支和新强度也使本v1输入不能直接作完整现代率。7852/5138的2019未确认沟通只按评价注释保存，不补成2013原文已读/正式erratum或改写本页旧claims。

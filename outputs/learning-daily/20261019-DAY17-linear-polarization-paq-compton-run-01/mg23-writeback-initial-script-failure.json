@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-19T18:48:26.972035+00:00",
+  "error": "ValueError too many values to unpack: iterated dict not .items",
+  "effect": "knowledge changes already written once; report not written; verification contract absent",
+  "repair": "execute report/contract remainder only; do not duplicate earlier claims or prose"
+}

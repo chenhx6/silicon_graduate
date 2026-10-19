@@ -1,0 +1,72 @@
+{
+  "rows": [
+    {
+      "name": "adopted",
+      "datasetcheck": "23012001,23MG",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "23012001,23MG",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "b798ca5ea0e6f6a955c37310dba83a422afb80fadf43802b2220f739bb25600b",
+      "ensdf_path": "tmp/day17-mg23-reference/adopted.ens",
+      "ensdf_sha256": "422cbdddc20eb594d6f02697e61ff8ff8095d1514f01364a7925177a7cdd96cc",
+      "lines": 630,
+      "first_nonblank": " 23MG    ADOPTED LEVELS, GAMMAS                                  21NDS    202101"
+    },
+    {
+      "name": "c12ng",
+      "datasetcheck": "23012029,23MG",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "23012029,23MG",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "917324fade76797968c2d122645915497b87773f1f26c9dedeac472685c41bb0",
+      "ensdf_path": "tmp/day17-mg23-reference/c12ng.ens",
+      "ensdf_sha256": "87765deeef1b8249802378d40749166d2129ced43e8c2950711234fc5504ef8d",
+      "lines": 286,
+      "first_nonblank": " 23MG    12C(12C,NG)                   2013JE04,1977EV02         21NDS    202101"
+    },
+    {
+      "name": "he3ag",
+      "datasetcheck": "23012034,23MG",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "23012034,23MG",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "3e5cc7b26a625cffe12b503ef8c892ec1d88ee03b33c9ecd4eeeb43c9794f3b7",
+      "ensdf_path": "tmp/day17-mg23-reference/he3ag.ens",
+      "ensdf_sha256": "f5f175a941ca30bf51d2fa5cebe4ff1d7adc537dfc76fe2913456177af99c7ae",
+      "lines": 160,
+      "first_nonblank": " 23MG    24MG(3HE,AG)                  2016KI03,1971EN04,1970HA0221NDS    202101"
+    },
+    {
+      "name": "pg",
+      "datasetcheck": "23012005,23MG",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "23012005,23MG",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "9358941eede8b4132398be88e5c943d03dde5349c7a18de4f7aaa6daaba96c23",
+      "ensdf_path": "tmp/day17-mg23-reference/pg.ens",
+      "ensdf_sha256": "53c5ddda499dbca18d04ae5364839af400375039b565e760ba27968f46715c97",
+      "lines": 71,
+      "first_nonblank": " 23MG    22NA(P,G)                     2011SA12                  21NDS    202101"
+    }
+  ]
+}

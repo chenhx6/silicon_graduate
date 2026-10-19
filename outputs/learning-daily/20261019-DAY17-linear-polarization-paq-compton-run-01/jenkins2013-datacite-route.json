@@ -1,0 +1,199 @@
+{
+  "url": "https://api.datacite.org/dois/10.17615/pbey-vw42",
+  "status": 200,
+  "final_url": "https://api.datacite.org/dois/10.17615/pbey-vw42",
+  "content_type": "application/json; charset=utf-8",
+  "bytes": 9621,
+  "sha256": "4a4512314d7a8763f6a7fca7b9a76742b3a79491b78d4d285c464225d3311813",
+  "json": {
+    "data": {
+      "id": "10.17615/pbey-vw42",
+      "type": "dois",
+      "attributes": {
+        "doi": "10.17615/pbey-vw42",
+        "prefix": "10.17615",
+        "suffix": "pbey-vw42",
+        "identifiers": [],
+        "alternateIdentifiers": [],
+        "creators": [
+          {
+            "name": "Bouhelal, M.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Khoo, T.L.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Lister, C.J.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Janssens, R.V.F.",
+            "nameType": "Personal",
+            "affiliation": [
+              "University of North Carolina at Chapel Hill"
+            ],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Fulton, B.R.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Courtin, S.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Freer, M.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Jenkins, D.G.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Moore, E.F.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Richter, W.A.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Haas, F.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Wuosmaa, A.H.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          },
+          {
+            "name": "Truett, B.",
+            "nameType": "Personal",
+            "affiliation": [],
+            "nameIdentifiers": []
+          }
+        ],
+        "titles": [
+          {
+            "title": "γ-ray spectroscopy of the A=23, T=1/2 nuclei 23Na and 23Mg: High-spin states, mirror symmetry, and applications to nuclear astrophysical reaction rates"
+          }
+        ],
+        "publisher": "American Physical Society",
+        "container": {},
+        "publicationYear": 2013,
+        "subjects": [],
+        "contributors": [],
+        "dates": [],
+        "language": "en",
+        "types": {
+          "ris": "RPRT",
+          "bibtex": "article",
+          "citeproc": "article-journal",
+          "schemaOrg": "ScholarlyArticle",
+          "resourceType": "Article",
+          "resourceTypeGeneral": "Text"
+        },
+        "relatedIdentifiers": [],
+        "relatedItems": [],
+        "sizes": [],
+        "formats": [],
+        "version": null,
+        "rightsList": [],
+        "descriptions": [
+          {
+            "description": "Background: Obtaining reaction rates for nuclear astrophysics applications is often limited by the availability of radioactive beams. Indirect techniques to establish reaction rates often rely heavily on the properties of excited states inferred from mirror symmetry arguments. Mirror energy differences can depend sensitively on nuclear structure effects. Purpose: The present work sets out to establish a detailed comparison of mirror symmetry in the A=23, T=1/2 mirror nuclei 23Na and 23Mg both to high spin, and high excitation energy, including beyond the proton threshold. These data can be used to benchmark state-of-the-art shell-model calculations of these nuclei. Methods: Excited states in 23Na and 23Mg were populated using the 12C(12C,p) and 12C(12C,n) reactions at beam energies of 16 and 22 MeV, and their resulting γ decay was measured with Gammasphere. Results: Level schemes for 23Na and 23Mg have been considerably extended; highly excited structures have been found in 23Na, as well as their counterparts in 23Mg for previously known rotational structures in 23Na. Mirror symmetry has been investigated up to an excitation energy of 8 MeV and spin-parity of 13/2+. Excited states in the region above the proton threshold have been studied in both nuclei. Conclusions: A detailed exploration of mirror symmetry has been performed which heavily constrains expectations as to how mirror energy differences should evolve for different structures. Agreement with shell-model calculations provides confidence in using such estimations where real data are absent.",
+            "descriptionType": "Abstract"
+          }
+        ],
+        "geoLocations": [],
+        "fundingReferences": [],
+        "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTc2MTUvUEJFWS1WVzQyPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Cb3VoZWxhbCwgTS48L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPktob28sIFQuTC48L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkxpc3RlciwgQy5KLjwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+SmFuc3NlbnMsIFIuVi5GLjwvY3JlYXRvck5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbiBhZmZpbGlhdGlvbklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wMTMwZnJjMzMiIGFmZmlsaWF0aW9uSWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZyI+VW5pdmVyc2l0eSBvZiBOb3J0aCBDYXJvbGluYSBhdCBDaGFwZWwgSGlsbDwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+RnVsdG9uLCBCLlIuPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Db3VydGluLCBTLjwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+RnJlZXIsIE0uPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5KZW5raW5zLCBELkcuPC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Nb29yZSwgRS5GLjwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+UmljaHRlciwgVy5BLjwvY3JlYXRvck5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+SGFhcywgRi48L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPld1b3NtYWEsIEEuSC48L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlRydWV0dCwgQi48L2NyZWF0b3JOYW1lPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT7Osy1yYXkgc3BlY3Ryb3Njb3B5IG9mIHRoZSBBPTIzLCBUPTEvMiBudWNsZWkgMjNOYSBhbmQgMjNNZzogSGlnaC1zcGluIHN0YXRlcywgbWlycm9yIHN5bW1ldHJ5LCBhbmQgYXBwbGljYXRpb25zIHRvIG51Y2xlYXIgYXN0cm9waHlzaWNhbCByZWFjdGlvbiByYXRlczwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlcj5BbWVyaWNhbiBQaHlzaWNhbCBTb2NpZXR5PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDEzPC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJUZXh0Ij5BcnRpY2xlPC9yZXNvdXJjZVR5cGU+CiAgPGxhbmd1YWdlPmVuPC9sYW5ndWFnZT4KICA8c2l6ZXMvPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5CYWNrZ3JvdW5kOiBPYnRhaW5pbmcgcmVhY3Rpb24gcmF0ZXMgZm9yIG51Y2xlYXIgYXN0cm9waHlzaWNzIGFwcGxpY2F0aW9ucyBpcyBvZnRlbiBsaW1pdGVkIGJ5IHRoZSBhdmFpbGFiaWxpdHkgb2YgcmFkaW9hY3RpdmUgYmVhbXMuIEluZGlyZWN0IHRlY2huaXF1ZXMgdG8gZXN0YWJsaXNoIHJlYWN0aW9uIHJhdGVzIG9mdGVuIHJlbHkgaGVhdmlseSBvbiB0aGUgcHJvcGVydGllcyBvZiBleGNpdGVkIHN0YXRlcyBpbmZlcnJlZCBmcm9tIG1pcnJvciBzeW1tZXRyeSBhcmd1bWVudHMuIE1pcnJvciBlbmVyZ3kgZGlmZmVyZW5jZXMgY2FuIGRlcGVuZCBzZW5zaXRpdmVseSBvbiBudWNsZWFyIHN0cnVjdHVyZSBlZmZlY3RzLiBQdXJwb3NlOiBUaGUgcHJlc2VudCB3b3JrIHNldHMgb3V0IHRvIGVzdGFibGlzaCBhIGRldGFpbGVkIGNvbXBhcmlzb24gb2YgbWlycm9yIHN5bW1ldHJ5IGluIHRoZSBBPTIzLCBUPTEvMiBtaXJyb3IgbnVjbGVpIDIzTmEgYW5kIDIzTWcgYm90aCB0byBoaWdoIHNwaW4sIGFuZCBoaWdoIGV4Y2l0YXRpb24gZW5lcmd5LCBpbmNsdWRpbmcgYmV5b25kIHRoZSBwcm90b24gdGhyZXNob2xkLiBUaGVzZSBkYXRhIGNhbiBiZSB1c2VkIHRvIGJlbmNobWFyayBzdGF0ZS1vZi10aGUtYXJ0IHNoZWxsLW1vZGVsIGNhbGN1bGF0aW9ucyBvZiB0aGVzZSBudWNsZWkuIE1ldGhvZHM6IEV4Y2l0ZWQgc3RhdGVzIGluIDIzTmEgYW5kIDIzTWcgd2VyZSBwb3B1bGF0ZWQgdXNpbmcgdGhlIDEyQygxMkMscCkgYW5kIDEyQygxMkMsbikgcmVhY3Rpb25zIGF0IGJlYW0gZW5lcmdpZXMgb2YgMTYgYW5kIDIyIE1lViwgYW5kIHRoZWlyIHJlc3VsdGluZyDOsyBkZWNheSB3YXMgbWVhc3VyZWQgd2l0aCBHYW1tYXNwaGVyZS4gUmVzdWx0czogTGV2ZWwgc2NoZW1lcyBmb3IgMjNOYSBhbmQgMjNNZyBoYXZlIGJlZW4gY29uc2lkZXJhYmx5IGV4dGVuZGVkOyBoaWdobHkgZXhjaXRlZCBzdHJ1Y3R1cmVzIGhhdmUgYmVlbiBmb3VuZCBpbiAyM05hLCBhcyB3ZWxsIGFzIHRoZWlyIGNvdW50ZXJwYXJ0cyBpbiAyM01nIGZvciBwcmV2aW91c2x5IGtub3duIHJvdGF0aW9uYWwgc3RydWN0dXJlcyBpbiAyM05hLiBNaXJyb3Igc3ltbWV0cnkgaGFzIGJlZW4gaW52ZXN0aWdhdGVkIHVwIHRvIGFuIGV4Y2l0YXRpb24gZW5lcmd5IG9mIDggTWVWIGFuZCBzcGluLXBhcml0eSBvZiAxMy8yKy4gRXhjaXRlZCBzdGF0ZXMgaW4gdGhlIHJlZ2lvbiBhYm92ZSB0aGUgcHJvdG9uIHRocmVzaG9sZCBoYXZlIGJlZW4gc3R1ZGllZCBpbiBib3RoIG51Y2xlaS4gQ29uY2x1c2lvbnM6IEEgZGV0YWlsZWQgZXhwbG9yYXRpb24gb2YgbWlycm9yIHN5bW1ldHJ5IGhhcyBiZWVuIHBlcmZvcm1lZCB3aGljaCBoZWF2aWx5IGNvbnN0cmFpbnMgZXhwZWN0YXRpb25zIGFzIHRvIGhvdyBtaXJyb3IgZW5lcmd5IGRpZmZlcmVuY2VzIHNob3VsZCBldm9sdmUgZm9yIGRpZmZlcmVudCBzdHJ1Y3R1cmVzLiBBZ3JlZW1lbnQgd2l0aCBzaGVsbC1tb2RlbCBjYWxjdWxhdGlvbnMgcHJvdmlkZXMgY29uZmlkZW5jZSBpbiB1c2luZyBzdWNoIGVzdGltYXRpb25zIHdoZXJlIHJlYWwgZGF0YSBhcmUgYWJzZW50LjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+Cg==",
+        "url": "https://cdr.lib.unc.edu/concern/articles/vt150v00g",
+        "contentUrl": null,
+        "metadataVersion": 3,
+        "schemaVersion": "http://datacite.org/schema/kernel-4",
+        "source": "api",
+        "isActive": true,
+        "state": "findable",
+        "reason": null,
+        "viewCount": 0,
+        "viewsOverTime": [],
+        "downloadCount": 0,
+        "downloadsOverTime": [],
+        "referenceCount": 0,
+        "citationCount": 0,
+        "citationsOverTime": [],
+        "partCount": 0,
+        "partOfCount": 0,
+        "versionCount": 0,
+        "versionOfCount": 0,
+        "created": "2023-02-17T06:35:49.000Z",
+        "registered": "2023-02-17T06:35:50.000Z",
+        "published": "2013",
+        "updated": "2024-02-02T16:09:12.000Z"
+      },
+      "relationships": {
+        "client": {
+          "data": {
+            "id": "gdcc.odum-library",
+            "type": "clients"
+          }
+        },
+        "provider": {
+          "data": {
+            "id": "uncch",
+            "type": "providers"
+          }
+        },
+        "media": {
+          "data": {
+            "id": "10.17615/pbey-vw42",
+            "type": "media"
+          }
+        },
+        "references": {
+          "data": []
+        },
+        "citations": {
+          "data": []
+        },
+        "parts": {
+          "data": []
+        },
+        "partOf": {
+          "data": []
+        },
+        "versions": {
+          "data": []
+        },
+        "versionOf": {
+          "data": []
+        }
+      }
+    }
+  }
+}

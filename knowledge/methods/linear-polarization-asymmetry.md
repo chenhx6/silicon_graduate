@@ -247,3 +247,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 与寿命companion结合仍需保留DCO合同
 
 [[jenkins-2004-23mg-fractional-doppler-rate]] J04-4/10给实际反例式使用门：all-axis gate比较90与32/37组，pureD约.9、pureQ约1.7，不能迁到另一array/gate或补未明分子分母。作者spin判断结合旧transferL、branch/mirror和angular诊断；“E2”这个EM标签本身不等于只允许DeltaJ2。没有matchingstretched/nonstretched响应与ρ，不能把裸比值/寿命变成唯一δ或Jπ，也不能假装此文测过linearP。
+
+## DCO的EM字符可能已借寿命先验
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-3/4明确编译的stretchedD/Q参照与EM字符角色：后者还借RUL/寿命。若再用这个EM标签去“独立验证”同一寿命或用DCO保证唯一J，会形成共享输入；matching原门/取向/响应及独立P校准仍需另得。Adopted保留不同spin，不能把DCO、P正负和总τ三者拼成无条件唯一解释。

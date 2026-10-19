@@ -1,0 +1,80 @@
+{
+  "identity": "MG23-OFFICIAL-LIFETIME-STRENGTH-01",
+  "parser_helper": "system/scripts/day17_pb207_reference_audit.py",
+  "parser_helper_sha256": "f36bbc38d20088d3486758b85321789512d7371266037e1dcc572351a1d04ab8",
+  "source_paths": {
+    "adopted": "tmp/day17-mg23-reference/adopted.ens",
+    "c12ng": "tmp/day17-mg23-reference/c12ng.ens",
+    "he3ag": "tmp/day17-mg23-reference/he3ag.ens",
+    "p-res": "tmp/day17-mg23-reference/p-res.ens",
+    "pg": "tmp/day17-mg23-reference/pg.ens"
+  },
+  "source_hashes": {
+    "adopted": "422cbdddc20eb594d6f02697e61ff8ff8095d1514f01364a7925177a7cdd96cc",
+    "c12ng": "87765deeef1b8249802378d40749166d2129ced43e8c2950711234fc5504ef8d",
+    "he3ag": "f5f175a941ca30bf51d2fa5cebe4ff1d7adc537dfc76fe2913456177af99c7ae",
+    "p-res": "25f047ef56d619bd439530384d663973e28bbd035d816f17740ca315b4763c3b",
+    "pg": "53c5ddda499dbca18d04ae5364839af400375039b565e760ba27968f46715c97"
+  },
+  "K16_upper_mean_fs": [
+    [
+      4356.4,
+      11
+    ],
+    [
+      5288,
+      14
+    ],
+    [
+      5453.5,
+      15
+    ],
+    [
+      6239,
+      40
+    ],
+    [
+      6375,
+      45
+    ],
+    [
+      6908,
+      10
+    ],
+    [
+      7444,
+      14
+    ],
+    [
+      7495,
+      20
+    ],
+    [
+      7787.1,
+      12
+    ]
+  ],
+  "K16_direct_mean_fs": [
+    [
+      2906.6,
+      15,
+      3
+    ],
+    [
+      3795,
+      41,
+      6
+    ]
+  ],
+  "conditioned_tau_fs": 10,
+  "conditioned_omega_meV": 5.7,
+  "target_spin": 3,
+  "projectile_spin": 0.5,
+  "J_candidates": [
+    1.5,
+    2.5,
+    3.5
+  ],
+  "hbar_meV_fs": 658.2119569,
+  "all_rate_exercise_values_conditioned_not_a_joint_CI": true
+}

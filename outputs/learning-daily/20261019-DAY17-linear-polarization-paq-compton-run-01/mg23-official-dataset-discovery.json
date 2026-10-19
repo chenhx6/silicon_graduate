@@ -1,0 +1,11 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet?nuc=23MG&searchType=quick&datasource=ensdf",
+  "payload": {
+    "nuc": "23MG",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "sha256": "bdee2d08a8810d12f75283499ecff92f5c65f11b2f697e05efce566e39bf4932",
+  "rows": []
+}

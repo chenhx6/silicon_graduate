@@ -1,0 +1,8 @@
+{
+  "url": "https://www.osti.gov/api/v1/records?doi=10.1103%2FPhysRevC.87.064301",
+  "status": 200,
+  "content_type": "application/xml",
+  "bytes": 61,
+  "sha256": "7569ced36c9fa666061cad4b722d865335cd07548f964bbcbd1dd53f56d08cf3",
+  "xml_records": []
+}

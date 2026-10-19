@@ -2119,3 +2119,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint022 — 独立23Mg fractional Doppler
 
 本session原读Jenkins2004四页/表图，区分新tau10(3)fs与adoptedomega1.8(.7)meV，冻结九Ep及共同Q-only控制、两通道Bp多根和声明阈值练习。canonical J04十四claims/K16第二十项、methods/ledger/index与report/prompt/handoff同步；verification036通过（0error/217warnings），旧review/继承修改不变。主线Day17正式学分只计一次，Day18仅partial；原15点研究截止不改。main / Audit independent Mg23 fractional Doppler and adopted strength inputs；具体hash/H3结果见publication022，后续继续2013详细文readiness，不从metadata补body。
+
+
+## 2026-10-20 Day17 checkpoint023 — 23Mg官方输入匹配
+
+新增NNDC202101五对象源：四reaction557行/Adopted定向；自旋候选、half/mean、capture第二γ/新omega与未确认身份边界canonical。新程序核九upper/两finite及条件Bp多根/无根，不作实验CI。verification037全部通过（0error/219warnings，31changed/33mapped），旧claims/review/raw/PLAN/Bib保持；初schema/script失败已隔离修复。main / Match official Mg23 lifetime spin and strength reference inputs；actualhash/H3见publication023。原研究窗口继续，17once/18partial，不授18/no19。

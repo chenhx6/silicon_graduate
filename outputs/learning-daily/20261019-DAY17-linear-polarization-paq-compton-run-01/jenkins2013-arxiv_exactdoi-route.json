@@ -1,0 +1,8 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=doi:10.1103/PhysRevC.87.064301&max_results=5",
+  "status": 200,
+  "final_url": "https://export.arxiv.org/api/query?search_query=doi:10.1103/PhysRevC.87.064301&max_results=5",
+  "bytes": 731,
+  "sha256": "e55b141bdd66b53a7fd7726c5bb68cef814dc59898777c44e7fba9fdac64fbfd",
+  "preview": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns=\"http://www.w3.org/2005/Atom\">\n  <id>https://arxiv.org/api/9vSKbPg0LuRKAvLWj7YntO/Tlgw</id>\n  <title>arXiv Query: search_query=doi:10.1103/PhysRevC.87.064301&amp;id_list=&amp;start=0&amp;max_results=5</title>\n  <updated>2026-10-19T18:42:11Z</updated>\n  <link href=\"https://arxiv.org/api/query?search_query=doi:10.1103/PhysRevC.87.064301&amp;start=0&amp;max_results=5&amp;id_list=\" type=\"application/atom+xml\"/>\n  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>\n  <opensearch:totalResults>0</opensearch:totalResults>\n  <opensearch:startIndex>0</opensearch:startIndex>\n</feed>\n"
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-19T18:48:27.004159+00:00",
+  "actual_full_read": {
+    "c12ng": [
+      1,
+      286
+    ],
+    "he3ag": [
+      1,
+      160
+    ],
+    "pg": [
+      1,
+      71
+    ],
+    "p-res": [
+      1,
+      40
+    ]
+  },
+  "actual_targeted_read": {
+    "adopted": [
+      [
+        1,
+        48
+      ],
+      [
+        330,
+        465
+      ]
+    ]
+  },
+  "not_read": "all630Adopted/NDS252pages/2011and2013primaries",
+  "scope": "557reactionlines; compilation not independent experiment"
+}

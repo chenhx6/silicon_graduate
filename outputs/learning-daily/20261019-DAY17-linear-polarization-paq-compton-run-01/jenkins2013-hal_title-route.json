@@ -1,0 +1,8 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/?q=title_t:%22High-spin%20states%20mirror%20symmetry%22&fl=title_s,doiId_s,uri_s,fileMain_s&wt=json",
+  "status": 200,
+  "final_url": "https://api.archives-ouvertes.fr/search/?q=title_t:%22High-spin%20states%20mirror%20symmetry%22&fl=title_s,doiId_s,uri_s,fileMain_s&wt=json",
+  "bytes": 116,
+  "sha256": "316b596864c92e18c8f6688107ad49ecfc3fe632ebdc85efe82c65ed28ba8064",
+  "preview": "{\n  \"response\":{\n    \"numFound\":0,\n    \"start\":0,\n    \"maxScore\":0.0,\n    \"numFoundExact\":true,\n    \"docs\":[ ]\n  }\n}"
+}

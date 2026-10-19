@@ -1,0 +1,74 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "method": "POST",
+  "payload": {
+    "nuc": "23Mg",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "sha256": "d76c22c8f36b4c054798c2d8fea3e81626daa4cbef78783683ae505557d49cf0",
+  "rows": [
+    {
+      "text": "ADOPTED LEVELS, GAMMAS 2021-01 All references",
+      "datasetcheck": "23012001,23MG"
+    },
+    {
+      "text": "23AL EC DECAY 2021-01 All references",
+      "datasetcheck": "23012026,23MG"
+    },
+    {
+      "text": "24SI ECP DECAY 2021-01 All references",
+      "datasetcheck": "23012003,23MG"
+    },
+    {
+      "text": "1H(22NA,P):RES 2021-01 All references",
+      "datasetcheck": "23012027,23MG"
+    },
+    {
+      "text": "9BE(22MG,23MGG) 2021-01 All references",
+      "datasetcheck": "23012028,23MG"
+    },
+    {
+      "text": "12C(16O,ANG) 2021-01 All references",
+      "datasetcheck": "23012030,23MG"
+    },
+    {
+      "text": "12C(12C,NG) 2021-01 All references",
+      "datasetcheck": "23012029,23MG"
+    },
+    {
+      "text": "22NA(P,G) 2021-01 All references",
+      "datasetcheck": "23012005,23MG"
+    },
+    {
+      "text": "22NA(3HE,D) 2021-01 All references",
+      "datasetcheck": "23012031,23MG"
+    },
+    {
+      "text": "23NA(3HE,T) 2021-01 All references",
+      "datasetcheck": "23012032,23MG"
+    },
+    {
+      "text": "24MG(P,D),(POL P,D) 2021-01 All references",
+      "datasetcheck": "23012007,23MG"
+    },
+    {
+      "text": "24MG(D,T) 2021-01 All references",
+      "datasetcheck": "23012008,23MG"
+    },
+    {
+      "text": "24MG(3HE,A) 2021-01 All references",
+      "datasetcheck": "23012033,23MG"
+    },
+    {
+      "text": "24MG(3HE,AG) 2021-01 All references",
+      "datasetcheck": "23012034,23MG"
+    },
+    {
+      "text": "25MG(P,T) 2021-01 All references",
+      "datasetcheck": "23012010,23MG"
+    }
+  ],
+  "preview": "Datasets for 23Mg Nuclide, Mass, or Symbol: Search Datasets for 23 Mg There are 20 corresponding XUNDL (unevaluated) sets Matching datasets in\n\n\nENSDF Retrieve selected ENSDF datasets: Dataset Last Revised References Select All ADOPTED LEVELS, GAMMAS 2021-01 All references 23AL EC DECAY 2021-01 All references 24SI ECP DECAY 2021-01 All references 1H(22NA,P):RES 2021-01 All references 9BE(22MG,23MGG) 2021-01 All references 12C(16O,ANG) 2021-01 All references 12C(12C,NG) 2021-01 All references 22NA(P,G) 2021-01 All references 22NA(3HE,D) 2021-01 All references 23NA(3HE,T) 2021-01 All references 24MG(P,D),(POL P,D) 2021-01 All references 24MG(D,T) 2021-01 All references 24MG(3HE,A) 2021-01 All references 24MG(3HE,AG) 2021-01 All references 25MG(P,T) 2021-01 All references Retrieve selected ENSDF datasets: Here are the XUNDL datasets which came in after the cutoff date of the last ENSDF evaluation. Nuclide Dataset Last Revised References Select All 23 Mg 12C(16O,ANG):XUNDL-16 2021-10 All r"
+}

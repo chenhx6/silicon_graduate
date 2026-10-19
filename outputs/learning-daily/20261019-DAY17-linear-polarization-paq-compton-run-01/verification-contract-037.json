@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md": 15,
+    "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md": 15,
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 21
+  },
+  "artifacts": [
+    {
+      "file": "mg23-reference-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "no_new_experimental_lifetime_strength_spin_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

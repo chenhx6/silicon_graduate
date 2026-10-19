@@ -240,3 +240,11 @@ K16-19另核A物性原源Alexander1981的准确DOI10.1016/0022-3115(81)90217-8�
 原Q7579.6(1.4)、质量数NR因子回算九Ep中心均.05keV内；独立quadrature名义误差未完整闭合，共同Q-only的2.14223keV²外积仅为条件模型。τ10给Γtotal65.8212meV而非已测Γgamma；固定adoptedω/J/两通道可得互补Bp根.0504/.9496，展示独立branch输入的必要，不是新Bp或CI。7769的58/42两γ在3MeV理想阈值下visible.58，但实际作者4meV保守界另含yield/energy/response，无此Letter明确CL。
 
 K16对旧Ex未校recoil的评论和J04原文说已校正同时保留，需actualenergy定义/详细文/原谱才能判；不以此改raw或ωγ。DCO约.9/1.7的gate合同、transfer/mirror/stretched条件和gamma threshold是必要companion，不替P/A/Q/δ。后续2013详细文是否同data尚未原读，不计新独立实验。
+
+## 23Mg官方匹配：先列自旋和分支，再谈寿命换强度
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-1–15五对象原读确认：fusion7785.2为7/2(+)，Adopted7784.7为3/2+,5/2+且保留旧7/2意见。half6.9(2.1)fs来自J04 mean10(3)，另一<8.3half来自K16<12mean，非两次新寿命。capture支11/89和新omega5.7(+1.6,-.9)是不同年代/对象输入，原2011body/联合Σ尚未得。
+
+条件两通道omega=g(hbar/τ)Bp(1−Bp)，固定τ10fs/omega5.7meV时J3/2中心无根、J5/2和7/2各有互补两根；对应τ上界8.248/12.372/16.497fs。无根不等spin排除，旧tau误差、新limit/omega误差/共同输入未组成联合统计模型。归一RI也不提供totaldecaybranch；其Jacobian列和零，不能把两个derivedfraction误差当独立。
+
+M23-2/10另保留靶厚160vs40和7852/5138在2013缺失的评价注释；2013正文未取，不宣称版本/采集关系已完全闭合。此处新增的是可追溯输入/条件矩阵，不是实验τ、Jπ或率重测。

@@ -1,0 +1,5 @@
+
+
+## 2026-10-20 Day17 checkpoint023 — 23Mg官方输入匹配
+
+新增NNDC202101五对象源：四reaction557行/Adopted定向；自旋候选、half/mean、capture第二γ/新omega与未确认身份边界canonical。新程序核九upper/两finite及条件Bp多根/无根，不作实验CI。verification037全部通过（0error/219warnings，31changed/33mapped），旧claims/review/raw/PLAN/Bib保持；初schema/script失败已隔离修复。main / Match official Mg23 lifetime spin and strength reference inputs；actualhash/H3见publication023。原研究窗口继续，17once/18partial，不授18/no19。
