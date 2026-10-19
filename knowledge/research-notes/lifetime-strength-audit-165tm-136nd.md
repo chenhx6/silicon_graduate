@@ -222,3 +222,12 @@ SUN23-27–31/GSI26-16的新输入审计保留实际Si角色和原Q：E为1mmSi�
 ISP26-14–17/K16-17/SD15-16核actual24Mg/Au十个Forster编译点、exactref与全库相同；0.2–3.2MeV/u/literal4%。ρ19.30把1.6MeV/u的4.37质量阻止转换为8.4341MeV/µm，支持K16 about8.5。原publicGEANT reader在1.6/2.0邻点与compiled值约2%内相容；所以defaultGEANT label与正文Forster的差别需保留为输入谱系/actualjob缺口，不能直接叫数值矛盾。
 
 整十点compiled/GEANT约.800–1.064、compiled/PASS约.699–.903说明全能区/不同模型并非同一constant scale；未拟合/无Σ。Forster原文仍OA未得，NRC exactquery无结果，downloaderTDMlicense标签不是正文/OA取得；不从metadata补测量方法/σ或把24Mg相近速度迁到23Mg混合靶认独立校准。
+
+
+## 有界原eventmain MODEL packet与readiness
+
+SD15-17–21/K16-18给64对实际原publiceventmain输出：dsamTree/EPART/EGAMMA Float_t以keV存，ASCII另有observedangles；ROOT与ASCII仅有序列化舍入差。另新目录卡只改输出路径，ASCII流及ROOT分支逐值重复。诊断EQa GetEntries/全bins=6820proposal，默认积分5427，源info的1entry/积分15只是lifetimepayload。
+
+这个MODEL stream是条件反应/角域/相对效率的输出，64/6820不认实验absoluteefficiency，也不补原ROOTanal/experimentalROOT/Cov。原properclock/radial/默认输入问题和libUnuran Load警告保留，52源hash未改；sourcepacket说明接口能运行，不宣称物理/原τCI通过。
+
+K16-19另核A物性原源Alexander1981的准确DOI10.1016/0022-3115(81)90217-8及metadata，正文仍未得。题名含DSAM不能替原方法/校准寿命/共享停止数据的读取，A=.75(.25)独立性/置信语义/迁移到Sun仍是开放输入。

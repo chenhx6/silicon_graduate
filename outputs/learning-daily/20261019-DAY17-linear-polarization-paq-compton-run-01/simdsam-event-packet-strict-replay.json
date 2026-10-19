@@ -1,0 +1,73 @@
+{
+  "MODEL_only": true,
+  "script_sha256": "109b4e92e9d861137ef34a9778e8a0462de839a4526415c4fde916c78e5771e6",
+  "workdir": "/workspace/wiki/tmp/day17-kirsebom2016/packet-replay-mdkre6kx",
+  "card_sha256": "041bd7167c0dfc429b713e2bdeb33dfe7a771210f08442dc5adbb58f53e99b62",
+  "N_detected": 64,
+  "N_array": 10000,
+  "commands": [
+    {
+      "command": [
+        "c++",
+        "-pthread",
+        "-std=c++17",
+        "-m64",
+        "-fsized-deallocation",
+        "-I/opt/root/include",
+        "-std=gnu++17",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-main.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-kirsebom2016/packet-replay-mdkre6kx/simdsam-packet",
+        "-L/opt/root/lib",
+        "-lCore",
+        "-lImt",
+        "-lRIO",
+        "-lNet",
+        "-lHist",
+        "-lGraf",
+        "-lGraf3d",
+        "-lGpad",
+        "-lROOTVecOps",
+        "-lTree",
+        "-lTreePlayer",
+        "-lRint",
+        "-lPostscript",
+        "-lMatrix",
+        "-lPhysics",
+        "-lMathCore",
+        "-lThread",
+        "-lROOTNTuple",
+        "-lROOTNTupleUtil",
+        "-lMultiProc",
+        "-lROOTDataFrame",
+        "-Wl,-rpath,/opt/root/lib",
+        "-pthread",
+        "-lm",
+        "-ldl",
+        "-rdynamic",
+        "-lMathMore"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "In file included from /workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/sim_dsam.cpp:44,\n                 from /workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-main.cc:5:\n/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/detectionEfficiency.cpp: In member function \u2018double detectionEfficiency::getEff(double, double)\u2019:\n/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/detectionEfficiency.cpp:127:1: warning: control reaches end of non-void function [-Wreturn-type]\n  127 | };\n      | ^\n"
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-kirsebom2016/packet-replay-mdkre6kx/simdsam-packet",
+        "0",
+        "/workspace/wiki/tmp/day17-kirsebom2016/packet-replay-mdkre6kx/MODEL-job.CARD"
+      ],
+      "exit_code": 0,
+      "stdout": "MODEL_RNG,TRandom3,4357\n\nZ1: 14\nZ2: 2\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 79\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 6\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 13\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 14\nNo stopping data for chosen ion-target combination\nRun #0\nLifetime: 15 fs\nBegin simulation of 64 events\n\n... 1 %\n... 3 %\n... 4 %\n... 6 %\n... 7 %\n... 9 %\n... 10 %\n... 12 %\n... 14 %\n... 15 %\n... 17 %\n... 18 %\n... 20 %\n... 21 %\n... 23 %\n... 25 %\n... 26 %\n... 28 %\n... 29 %\n... 31 %\n... 32 %\n... 34 %\n... 35 %\n... 37 %\n... 39 %\n... 40 %\n... 42 %\n... 43 %\n... 45 %\n... 46 %\n... 48 %\n... 50 %\n... 51 %\n... 53 %\n... 54 %\n... 56 %\n... 57 %\n... 59 %\n... 60 %\n... 62 %\n... 64 %\n... 65 %\n... 67 %\n... 68 %\n... 70 %\n... 71 %\n... 73 %\n... 75 %\n... 76 %\n... 78 %\n... 79 %\n... 81 %\n... 82 %\n... 84 %\n... 85 %\n... 87 %\n... 89 %\n... 90 %\n... 92 %\n... 93 %\n... 95 %\n... 96 %\n... 98 %\nEnd of simulation\nMODEL_BOOKKEEP,6820,64,64\n",
+      "stderr": "cling::DynamicLibraryManager::loadLibrary(): libunuran.so.16: cannot open shared object file: No such file or directory\n"
+    }
+  ],
+  "ASCII_sha256": "8800e90c74c8d59cb1b463c2804f5989e47e0f69ba64ebf946827de00e1c5106",
+  "ROOT_values_exactly_equal": true,
+  "bookkeeping_allbins_equal": true,
+  "all52hashes_preserved": true,
+  "knownphysics_and_runtime_warning_boundaries_preserved": true,
+  "original_experimental_data_or_CI_recovered": false,
+  "ok": true
+}

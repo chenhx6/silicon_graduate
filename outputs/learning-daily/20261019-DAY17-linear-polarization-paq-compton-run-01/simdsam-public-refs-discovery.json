@@ -1,0 +1,17 @@
+{
+  "command": [
+    "git",
+    "ls-remote",
+    "--heads",
+    "--tags",
+    "https://github.com/oliskir/SimDSAM.git"
+  ],
+  "exit_code": 0,
+  "refs": [
+    {
+      "sha": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+      "ref": "refs/heads/master"
+    }
+  ],
+  "no_other_public_heads_or_tags_returned": true
+}

@@ -1,0 +1,17 @@
+{
+  "query_scope": [
+    "publicgitheads/tags",
+    "publicGitHubreleasespage",
+    "DataCiteexactrelatedDOI"
+  ],
+  "actual_results": {
+    "heads": "masteronlysamepin",
+    "tags": [],
+    "releases": "no releasespage/assetlinks0",
+    "DataCite": "oneexistingarxivpaperrecord,notnewdataset"
+  },
+  "experimentalROOT_analystcode_or_job_obtained": false,
+  "not_proof_all_possible_data_routes_exhausted": true,
+  "no_contact_with_authors_or_issue_created": true,
+  "next_high_information": "independentJenkinsprimaryDSAM evidence; originaldata/job/Covstillreadinessboundary"
+}

@@ -65,6 +65,12 @@ tags: [lifetime, stopping, public-code, proper-time, calibration]
 | SD15-14 | publicGEANT表下E/A1/1.7/2MeV、c1.05/A.75的native mix/pure约.61181/.60493/.60299，c0还原pure。这是当前表/模型的local值，不是实测targetdensity、Sun额外40%误差或Forster exactjob复现。 | actual-mixture-component-control | native-model | MIXTURE；component summary | true |
 | SD15-15 | 独立重编译/运行的组件physics输出逐行一致、全部52文件hash仍同；成功表示重放既有行为及物理边界，非已验证原fit/CI。此MC用预导出表，不能将GSI26当前Geant4runtime首状态问题直接套到它。 | reproducibility-and-version-boundary | native-replay | native-component-replay；GSI26-7/14 | true |
 | SD15-16 | 后续用原reader与真实Forster编译十点同E/A比较，GEANT邻近1.6/2.0点与compiled值约2%内相容，PASS则不相同；限定“默认表身份差”是provenance问题，不自动构成正文/代码数值矛盾。当前ROOT/语法适配和原job缺口不变。 | actual-data-companion-and-belief-revision | native-and-compiled-input | ISP26-14/16；forster1976-source-role-conclusion | true |
+| SD15-17 | 原eventmain经同一语法适配，在独立tmp工作目录/复制publicdata/显式MODEL卡生成64detectedalpha-gamma；只改Ndetected、arrayN和三输出路径，保τ15fs/Ex2908/defaultGEANT等原card physics。不是原paperjob/data或已验证物理模型。 | bounded-full-producer-execution | native-model | event-packet contract/result/MODEL-job.CARD | true |
+| SD15-18 | actualROOT dsamTree有64行EPART/EGAMMA Float_t、单位keV，ASCII另有两个observedangle；ASCII/ROOT差只至约.04961/.00490keV，对应各自序列化精度。未补原experimentalROOT或τ/CI。 | actual-packet-schema-and-units | native-I/O | event-packet schema；rootDataContainer.cpp | true |
+| SD15-19 | h2d/EQa每trial填一次，GetEntries与含under/overflow总和均6820，defaultIntegral仅5427；输出64检测事件。原记录中可找回proposalbookkeeping，但64/6820=.00938416只属截断角域/相对eff模型，非incidentbeam绝对效率。info有1entry/Integral15是lifetimepayload非15次事件。 | recovered-denominator-and-counterboundary | direct-code-and-native | main h2d Fill；event-packet schema/cross-format replay | true |
+| SD15-20 | freshprocess gRandom为TRandom3/4357，原局部RNG种子保留；只读RNG/bookkeeping日志不改物理。两次新目录运行ASCII物理流逐字相等、ROOT分支逐值相等；不要求ROOTbinaryhash等同因文件metadata不同。 | reproducible-model-packet | native-replay | event-packet replay-result/strict-replay/cross-format replay | true |
+| SD15-21 | fullmain仍有libunuran.so.16 Load失败但源中Unuran仅被Load、未调用其API，实际产生完整64条输出；missingreturn与unusedZ14缺表警告均保存。exit0不等依赖/所有物理/原fit通过，旧clock/radius/输入边界不清除。 | runtime-warning-and-scope | actual-tool-and-code | sim_dsam.cpp L191；event-packet result/schema | true |
+| SD15-22 | bounded publicdata审计只见同pin master、无tags/releaseassets；DataCite exactrelatedDOI只回已有arxiv论文。未取得originalROOTanal/histograms/job/Σ，但这些查询不证明全球所有数据路线穷尽，不联系作者或创建issue。 | bounded-data-discovery-readiness | direct-metadata | public-refs/releases/DataCite discovery；public-data-readiness-boundary | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -93,3 +99,13 @@ alpha组件中measured total与internalresidual差约3996.58keV，反映activeDE
 ## Forster真实输入对照补充
 
 [[iaea-2026-stopping-s-au-o-ta-records]] ISP26-14–17以actualref CSV与原reader比较；没有替换原表或拟scale。邻近K16初始recoil域的GEANT值与Forster约2%内相容，故本页SD15-3只维持输入身份/配置边界，不将其扩大为已证明的实验或数值矛盾。Forster原body/Σ、原job与experimentalROOT仍未得。
+
+## 有界MODEL联合事件包与数据readiness
+
+[设计冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-freeze.json)、[原eventmain入口](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-main.cc)、[显式卡](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-MODEL-job.CARD)、[schema/单位/计数回执](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-schema.json)和[MODEL CSV](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-MODEL-joint.csv)记录64个已检测alpha-gamma对。Epart范围约29717.9–32153.6keV、Egamma约3051.66–3094.56keV，只是此card的model stream。
+
+[严格重放脚本](../../system/scripts/day17_simdsam_joint_packet.py)复制已核输入到新目录、重编译并重跑原main，比较ASCII流/hash、ROOT Float32分支、6820proposal全bins计数与52源/data hash。6820小于当前10000角数组和20000缩角触发阈值，此case没有数组wrap或adaptive角剪枝；不能外推其它job。
+
+这个包关闭的是producer入口/数据格式和条件分母的readiness问题。它没有提供原experimentalhistogram、ROOTanal的fit程序、actualjob或Cov，更没有验证已知properclock/束斑物理问题。不能用MODEL包自拟合再冒称原实验CI已经复现，也不再增加history数填补这些缺口。
+
+后续[有界公开data位置审计](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-public-data-readiness-boundary.json)没有找到新的原实验包；相关DataCite记录就是已读arxiv论文，不算数据交付。这个局部停止理由不等所有合法来源已穷尽，下一改查独立实验primary，避免重复MODEL样本替输入。

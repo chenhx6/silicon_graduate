@@ -1,0 +1,54 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/0022-3115(81)90217-8",
+  "status": 200,
+  "sha256": "3a25acfbdc8326938f7fd49cb37dc7daeb608bf259eb713edf8a62889524ec9f",
+  "title": "A measurement of the local density of 3He-implanted metal foils by the doppler shift attenuation method",
+  "locations": [
+    {
+      "id": "doi:10.1016/0022-3115(81)90217-8",
+      "doi": "https://doi.org/10.1016/0022-3115(81)90217-8",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0022-3115(81)90217-8",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S149516416",
+        "display_name": "Journal of Nuclear Materials",
+        "issn_l": "0022-3115",
+        "issn": [
+          "0022-3115",
+          "1873-4820"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Nuclear Materials",
+      "raw_type": "journal-article"
+    }
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  }
+}

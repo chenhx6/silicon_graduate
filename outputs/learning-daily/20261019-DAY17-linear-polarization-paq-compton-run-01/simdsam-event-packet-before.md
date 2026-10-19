@@ -1,0 +1,5 @@
+# 有界原eventmain MODEL packet设计冻结
+
+已source/corefunctions native、Forster数据对照，原physics有已知clock/radial/xOutput/inputs边界；不是blind或validatedfit。仅用原eventmain+现有语法adapter，在新的独立tmp工作目录/完整复制publicdata+自定义CARD中运行64detectedalpha-gamma events，NMonteCarlo10000，与原default20000detected/1e6arrays分开。每项修改(cardcount/outputpath/samplesize)记录不改physics/table/geometry其余参数。读取code安全边界已核，禁止Makefileclean/install/覆盖任何原52files。
+
+目的只是交付boundedjointMODEL alpha/gamma ASCII/ROOTschema、conditionaldetected denominator/有效输出与scope，不作原实验data/置信区间/fit。一个case τ15fs/Ex2908→0，outertimeout180s；异常/超时保存不改物理求成功。若通过不能凭此宣布paperexactproducer或验证原clock。原raw/PLAN/Bib与旧ROOT不存在文件保持。

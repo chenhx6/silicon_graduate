@@ -2106,3 +2106,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint020 — real Forster input countercheck
 
 同19日Day17原窗口继续，formal17once/18uncredited。IAEA Mg/Au actualFs1976十点/单位与原publicreader GEANT/PASS对照/重放已canonical；1.6/2.0邻点约2%相容性限制过强label冲突解释，primarybody/Cov/job仍缺。不把TDMlicense的OA标签当已得正文。verification034 report/29changed31mapped/coverage/boundary/lint/diff/protected0，0errors215warnings，新ISP/K16/SD15rows true且旧flags保持。初writeback缺K16link已修/留档。stablemain / Cross-check real MgAu stopping inputs against public model tables；hash/push仅runreceipt，原15:00截止/goalactive不变。
+
+## 2026-10-20 Day17 checkpoint021 — bounded MODEL packet/readiness
+
+同19日Day17原窗口继续，formal17once/18uncredited。原eventmain64MODEL联合packet/schema/keV/6820proposal与freshprocessstrictreplay已canonical，52hash不变，物理/依赖警告与原data/job/Cov保持。A1981只metadata/body未得，有界publicrefs/releases/DataCite未获新实验包，不宣称全球穷尽。verification035 report/29changed31mapped/coverage/boundary/lint/diff/protected0，0errors215warnings，新K16/SD15rows true且旧flags保持。stablemain / Record bounded MODEL alpha gamma packet and producer readiness；hash/push仅runreceipt，原15:00截止/goalactive不变。

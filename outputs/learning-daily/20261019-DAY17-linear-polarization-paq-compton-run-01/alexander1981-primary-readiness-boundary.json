@@ -1,0 +1,22 @@
+{
+  "exact_DOI": "10.1016/0022-3115(81)90217-8",
+  "title": "A measurement of the local density of 3He-implanted metal foils by the doppler shift attenuation method",
+  "bibliography": "T.K.Alexander/G.C.Ball/W.G.Davies/I.V.Mitchell, J.Nucl.Mater96(1–2)51–56(1981)",
+  "identity_matches_K16_Ref29": true,
+  "body_obtained": false,
+  "body_read": false,
+  "actual_attempts": [
+    "Crossrefexactidentity",
+    "OpenAlexclosed/noPDF",
+    "NRC localdensity/implantedquery0results",
+    "OAonlydownload0body,oa_not_found"
+  ],
+  "do_not_promote_TDM_license_or_abstract_to_body": true,
+  "missing_inputs": [
+    "originaldensityobservable/calibratorlifetimes",
+    "A/cdefinition andcoordinate/dose/tempdomain",
+    "originalstoppingdata/sharedΣ/errorsemantics"
+  ],
+  "question_only": "title mentionsDSAM; actualcalibrationdependencies requirebody, noassertedcircularityorexperimentalerror",
+  "no_identical_terminal_retry": true
+}

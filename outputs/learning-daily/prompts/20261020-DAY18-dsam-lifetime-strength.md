@@ -63,3 +63,8 @@ K16完整原读13页/21图/2表/4式与公开SimDSAM52blob/2015code/实际原表
 ### Day17 Forster/MgAu追加priming（无18学分）
 
 ISP26-14–17/K16-17/SD15-16实际Forster24Mg/Au十点/.2–3.2MeV/u/literal4与nativeGEANT/PASS对照已核；1.6/2.0邻点GEANT约2%内相容，defaultlabel差不自动等数值冲突。Forster原body/σ定义/Cov与actualK16job仍未得；OAonly0download/TDMlabel不当正文。正式18须承认priming，旧点数/reader重放不换学分。
+
+
+### Day17 boundedMODELpacket/A-primary追加priming（无18学分）
+
+SD15-17–22/K16-18/19实际64MODEL联合事件入口/schema/6820proposal/strictreplay已核，原data/job/Cov未得；比例不是实验绝对效率，oldphysics/runtimewarning保留。A1981只metadata/原body未得，不由题名推A的独立/循环。原publicdata位置查refs/releases/DataCite仅同code/原paper，不等穷尽全部合法输入。正式18不以旧64事件或重放换学分。

@@ -1,0 +1,21 @@
+{
+  "ROOT_branch_values_exactly_equal": true,
+  "MODEL_entries": 64,
+  "histograms": [
+    {
+      "entries": 6820.0,
+      "all_bins_sum": 6820.0,
+      "default_bins_sum": 5427.0
+    },
+    {
+      "entries": 6820.0,
+      "all_bins_sum": 6820.0,
+      "default_bins_sum": 5427.0
+    }
+  ],
+  "ASCII_equal": true,
+  "root_binary_hash_equality_not_required_metadata_varies": true,
+  "source52": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+  "not_original_experimental_data_or_Cov": true,
+  "ok": true
+}

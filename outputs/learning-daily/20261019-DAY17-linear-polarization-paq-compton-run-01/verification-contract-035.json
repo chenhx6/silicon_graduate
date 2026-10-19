@@ -1,0 +1,26 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 19,
+    "knowledge/sources/simdsam-2015-public-dsam-code.md": 22
+  },
+  "artifacts": [
+    {
+      "file": "simdsam-event-packet-strict-replay.json",
+      "true_fields": [
+        "ok",
+        "ROOT_values_exactly_equal",
+        "bookkeeping_allbins_equal",
+        "all52hashes_preserved"
+      ]
+    },
+    {
+      "file": "simdsam-event-packet-cross-format-replay.json",
+      "true_fields": [
+        "ok",
+        "ROOT_branch_values_exactly_equal",
+        "ASCII_equal"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": true
+}

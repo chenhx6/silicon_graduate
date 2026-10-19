@@ -1,0 +1,32 @@
+{
+  "source_pin": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+  "workdir": "tmp/day17-kirsebom2016/event-packet-run01",
+  "fixture_sha256": "6a6b46a9d5c54adeb36b8decefce996cd7077fc2f5ee39d034c07d5f231a963f",
+  "card_sha256": "1d263a491a4afaac6e67b15e0141ab24b21b2d45b3304040e3a90dbe4d380029",
+  "changed_fields": {
+    "1": {
+      "old": "20000",
+      "new": "64"
+    },
+    "30": {
+      "old": "1000000",
+      "new": "10000"
+    },
+    "38": {
+      "old": "../SimOutput/output070.dat",
+      "new": "/workspace/wiki/tmp/day17-kirsebom2016/event-packet-run01/SimOutput/MODEL-alpha-gamma.dat"
+    },
+    "39": {
+      "old": "../SimOutput/output070.root",
+      "new": "/workspace/wiki/tmp/day17-kirsebom2016/event-packet-run01/SimOutput/MODEL-alpha-gamma.root"
+    },
+    "40": {
+      "old": "RootFiles/i070.root",
+      "new": "/workspace/wiki/tmp/day17-kirsebom2016/event-packet-run01/RootFiles/MODEL-analysis-unused.root"
+    }
+  },
+  "N_detected": 64,
+  "N_array": 10000,
+  "original_physics_expressions_and_tables_unchanged": true,
+  "MODEL_not_experimental_data": true
+}

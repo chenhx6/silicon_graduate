@@ -1,0 +1,649 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=T+K+Alexander+G+C+Ball+W+G+Davies+I+V+Mitchell+Journal+Nuclear+Materials+96+51+1981&rows=5",
+  "status": 200,
+  "sha256": "c94fa045fe5fd2bf125fc86e146867059a41a6a631c01ceef3b18c90119f285c",
+  "discovery_items": [
+    {
+      "issue": "1-2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1981,
+                1,
+                1
+              ]
+            ],
+            "date-time": "1981-01-01T00:00:00Z",
+            "timestamp": 347155200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "DOI": "10.1016/0022-3115(81)90217-8",
+      "page": "51-56",
+      "title": [
+        "A measurement of the local density of 3He-implanted metal foils by the doppler shift attenuation method"
+      ],
+      "volume": "96",
+      "author": [
+        {
+          "given": "T.K.",
+          "family": "Alexander",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "G.C.",
+          "family": "Ball",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.G.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "I.V.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Nuclear Materials"
+      ],
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0022311581902178?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0022311581902178?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1981,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "issue": "2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1982,
+                9,
+                1
+              ]
+            ],
+            "date-time": "1982-09-01T00:00:00Z",
+            "timestamp": 399686400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "DOI": "10.1016/0375-9474(82)90116-6",
+      "page": "333-345",
+      "title": [
+        "Lifetimes of low-lying levels in 18F"
+      ],
+      "volume": "386",
+      "author": [
+        {
+          "given": "G.C.",
+          "family": "Ball",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T.K.",
+          "family": "Alexander",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.G.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.S.",
+          "family": "Forster",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "I.V.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Keinonen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "H.B.",
+          "family": "Mak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947482901166?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947482901166?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1982,
+            9
+          ]
+        ]
+      }
+    },
+    {
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1979,
+                1,
+                1
+              ]
+            ],
+            "date-time": "1979-01-01T00:00:00Z",
+            "timestamp": 283996800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "DOI": "10.1016/0375-9474(79)90509-8",
+      "page": "397-424",
+      "title": [
+        "Lifetime measurements in 22Ne, 28Si and 31P relevant to the interpretation of the Z2 variation in low velocity DSAM results"
+      ],
+      "volume": "313",
+      "author": [
+        {
+          "given": "J.S.",
+          "family": "Forster",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T.K.",
+          "family": "Alexander",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "G.C.",
+          "family": "Ball",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.G.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "I.V.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.B.",
+          "family": "Winterbon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947479905098?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947479905098?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1979,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1982,
+                3,
+                1
+              ]
+            ],
+            "date-time": "1982-03-01T00:00:00Z",
+            "timestamp": 383788800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "DOI": "10.1016/0375-9474(82)90333-5",
+      "page": "268-280",
+      "title": [
+        "A DBLA measurement of the lifetime of the first excited level in 18O and a critical comparison of lifetime results by different methods"
+      ],
+      "volume": "377",
+      "author": [
+        {
+          "given": "G.C.",
+          "family": "Ball",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T.K.",
+          "family": "Alexander",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.G.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.S.",
+          "family": "Forster",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "I.V.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947482903335?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947482903335?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1982,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "issue": "1-2",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1980,
+                11,
+                1
+              ]
+            ],
+            "date-time": "1980-11-01T00:00:00Z",
+            "timestamp": 341884800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+      ],
+      "DOI": "10.1016/0375-9474(80)90454-6",
+      "page": "271-284",
+      "title": [
+        "Electric quadrupole moments of the first excited states of 28Si, 32S and 34S"
+      ],
+      "volume": "349",
+      "author": [
+        {
+          "given": "G.C.",
+          "family": "Ball",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "O.",
+          "family": "Häusser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T.K.",
+          "family": "Alexander",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.G.",
+          "family": "Davies",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.S.",
+          "family": "Forster",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "I.V.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.R.",
+          "family": "Beene",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Hörn",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "Mclatchie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480904546?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:0375947480904546?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1980,
+            11
+          ]
+        ]
+      }
+    }
+  ]
+}

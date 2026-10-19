@@ -163,3 +163,10 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 [[kirsebom-2016-23mg-dsam-lifetimes]] K16-1–16给独立reaction采集但共享设施/方法的实际例：alpha出Au约4MeV后才形成测量门，nominal8°点接受随束斑/散射扩展，植入层的He贡献与swelling同时进入Eq4。不能将其4MeV、100/500µmSi或2.4MeVgate补给Sun的32S实验。TableI粗略δE/E不当独立GaussianΣ，7787上限<12fs并未裁决rate争议。
 
 [[simdsam-2015-public-dsam-code]] SD15-1–15可实际读/运行原表达式组件，却仍无原experimentalROOT/fitCov/exactjob：default表/束斑/效率插值与正文不同；printed及code clock均γds/v，均匀半径与均匀圆盘不同。成功重放代码不等这些物理合同通过；source代码表传播也不能直接套当前Geant4 runtime的首状态问题。下一输入应优先匹配原job/response/计数，再评估任何实验τ影响。
+
+
+### MODEL联合事件包只关闭格式与producer入口缺口
+
+[[simdsam-2015-public-dsam-code]] SD15-17–21实际从原eventmain生成64个MODEL已检测alpha-gamma对，并在新目录重放ASCII/ROOT Float32流；这为后续输入合同提供可检查接口，不提供原experimentalhistogram/fitCov或实际job。诊断TH2全bins计数能恢复6820次模型proposal，default积分仅5427；info积分15是τpayload，不是事件数。
+
+64/6820不是实验绝对效率：当前角提议域被截断、gamma效率逐能量归一，且反应channel已预设。旧clock/radius/输入物理问题及runtime libUnuran加载警告仍保留，不能以输出完整来宣称原实验τ/CI已验证。下一真实输入应是原analysis/data或对应材料/校准primary，不能靠更多模拟history代替。

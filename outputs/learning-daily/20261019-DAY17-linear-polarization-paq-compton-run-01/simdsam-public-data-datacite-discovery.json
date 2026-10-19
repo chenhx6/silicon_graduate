@@ -1,0 +1,17 @@
+{
+  "url": "https://api.datacite.org/dois?query=relatedIdentifiers.relatedIdentifier%3A%2210.1103%2FPhysRevC.93.025802%22&page%5Bsize%5D=10",
+  "status": 200,
+  "sha256": "1d206fc2c83297d7b61cea6b1ad34ee0b9928a90255ab566f2268791e72ac924",
+  "total": 1,
+  "records": [
+    {
+      "id": "10.48550/arxiv.1508.07188",
+      "titles": [
+        {
+          "title": "Measurement of Lifetimes in 23Mg"
+        }
+      ],
+      "url": "https://arxiv.org/abs/1508.07188"
+    }
+  ]
+}

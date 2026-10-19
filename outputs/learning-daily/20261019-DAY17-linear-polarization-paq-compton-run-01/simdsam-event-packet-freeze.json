@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T17:27:20.821233+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "sha256": "ec6fbb46882cac09d369dc15b3a5d627a6ac2f601dcbd375d7b83187d70bc52b",
+  "scope": "MODELonlyreadiness",
+  "N_detected": 64,
+  "sample_array_size": 10000,
+  "timeout_seconds": 180,
+  "original_source_unmodified": true
+}

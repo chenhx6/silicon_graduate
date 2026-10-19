@@ -301,6 +301,16 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
 
 `supports`source约8.5的实际输入量级；`revises`仅凭模型label差就判数值冲突；`limits`literal4%对jointΣ/实验CI的保证。formal17once/18无学分，不研究19课程卡，原窗口继续。
 
+### Day18无学分预习：有界MODEL joint packet及材料原源readiness
+
+SD15-17–21/K16-18按[冻结设计](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-freeze.json)只运行原eventmain的64detected事件/array10000/新tmp目录，[显式卡](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-MODEL-job.CARD)保其余defaultphysics/table。产生[MODEL CSV](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-MODEL-joint.csv)与原ROOT，[schema](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-schema.json)核64行EPART/EGAMMA Float_t/keV，ASCII另含observedangles。不是原实验events或新拟合数据。
+
+新目录严格重放同一physics/RNG，ASCII逐字相同、ROOT分支逐值相同；[实际strictreplay](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-strict-replay.json)compile/run0、52hash保持。诊断EQa GetEntries/全bins=6820，default积分5427；64/6820=.00938416仅是截断proposal域/normalizedeff模型条件接受比，不认实验absoluteefficiency。info积分15是τpayload而非15事件。此case无角数组wrap/20k剪角，不能外推其他job。
+
+原missingreturn/unusedZ14缺表和libunuran.so.16 Load失败都保留；源Unuran只有Load而无API调用，本次仍完成64条输出，但exit0不认证全部依赖/物理/原paperfit。oldclock/radius/输入边界不被重放成功清除，不增加history代原experimentalROOT/ROOTanal/Σ。
+
+K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNuclearMaterials96,51–56。当前[readiness](20261019-DAY17-linear-polarization-paq-compton-run-01/alexander1981-primary-readiness-boundary.json)只有metadata，OpenAlexclosed/NRC无结果/OAonly0body；题名含DSAM不作A的独立性/循环性事实推断。实际calibrator寿命/停止输入/误差/适用温度dose仍需body。公开refs/releases/DataCite exactDOI审计（SD15-22）只回同master/noassets/既有arxivpaper，没有新实验包；未声称所有合法路线穷尽或联系作者。canonical SD15/K16/method/auditledger已更新；`supports`producer格式readiness，`limits`MODEL到实验/物性的迁移，formal17once/18无学分/no19课程。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -1212,7 +1222,7 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1638,12 +1648,44 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-18"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-20"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-21"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-18"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-22"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补mixture/energy/properclock/software与实际response的分层门。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补mixture/energy/properclock/software与实际response的分层门。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -2061,6 +2103,38 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-15"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-18"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-20"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-21"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-18"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-22"
         }
       ]
     },
@@ -2840,7 +2914,7 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
     },
     {
       "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
-      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
+      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
       "anchor": "先传播粒子到探测器，再解释能量门",
       "sources": [
         {
@@ -2990,12 +3064,44 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-18"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-20"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-21"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-18"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-22"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/simdsam-2015-public-dsam-code.md",
-      "summary": "新增真实2015代码/52blob/data与原表达式native控制及exactjob边界。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。",
+      "summary": "新增真实2015代码/52blob/data与原表达式native控制及exactjob边界。 补真实ForsterMgAu十点/单位/reader对照与约2%邻点反证，保原body/Σ/job缺口。 补有界MODEL64联合packet/schema/6820proposal与strictreplay，保原data/Cov和A-primary缺口。",
       "anchor": "公开程序的行为与原实验job分别核对",
       "sources": [
         {
@@ -3145,6 +3251,38 @@ Forsterprimary尝试仍body未得：OpenAlexclosed/noPDF、合法OAonly download
         {
           "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
           "locator": "SD15-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-17"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-18"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-20"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-21"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-18"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-19"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-22"
         }
       ]
     }
@@ -3274,3 +3412,8 @@ K16完整原读/publicsource与原表达式nativecontrol/重放、52hash/失败/
 ### checkpoint020真实输入反证验收
 
 Forster compiled真实十点/units与原reader两tablemode/strictreplay已canonical，近邻约2%相容性限制过强的label冲突判断；原body/Σ/job缺口保持。旧ISP13/K16_16/SD15_15rows/flags保持，新ISP14–17/K16-17/SD15-16indexed true。verification034记录report/29changed31mapped/coverage/boundary/lint/diff/protected/native实际exit，0error215warnings。stablemain / `Cross-check real MgAu stopping inputs against public model tables`，actualhash/H3/push仅publication020。原window/goalactive，formal17once/18partial不变；下一有界MODEL joint packet先冻设计，不冒原实验data/τfit。
+
+
+### checkpoint021 MODEL接口/readiness验收（不是新课程卡）
+
+原eventmain64MODELpacket/schema/条件6820分母/RNG/新目录strictreplay与52hash已canonical，物理/依赖警告及原experimentaldata/job/Cov缺口保持；A-primary只metadata。旧K16_17/SD15_16rowsflags保持，新K16-18/19及SD15-17–22 true且indexed。verification035记录report/29changed31mapped/coverage/boundary/lint/diff/protected/packet实际exit，0error215warnings。stablemain / `Record bounded MODEL alpha gamma packet and producer readiness`，actualhash/H3/push仅publication021。原window/goalactive、formal17once/18partial不变；下一独立Jenkinsprimary需actualbody/新artifact，不再增加MODELhistory填缺口。

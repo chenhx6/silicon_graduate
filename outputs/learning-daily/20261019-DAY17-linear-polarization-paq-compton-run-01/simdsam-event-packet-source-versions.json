@@ -1,0 +1,9 @@
+{
+  "initial_fixture": "simdsam-event-packet-main-initial.cc",
+  "initial_fixture_sha256": "6a6b46a9d5c54adeb36b8decefce996cd7077fc2f5ee39d034c07d5f231a963f",
+  "initial_contract_sha256": "a5cc63c0c716e7d42f01477129f5686aa59033d5165199b6c1af5be28dbded40",
+  "final_diagnostic_fixture": "simdsam-event-packet-main.cc",
+  "final_fixture_sha256": "b958c990921cbf227727576063298f4009bee5461ce4b4496871ffba03da4103",
+  "only_changes": "readonlyRNG andpostmainbookkeepingstdout; originalmainphysicsunchanged",
+  "evidence": "ASCIIexactandROOTvaluesreproduced"
+}

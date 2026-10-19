@@ -1,0 +1,26 @@
+{
+  "url": "https://api.datacite.org/dois/10.48550/arxiv.1508.07188",
+  "status": 200,
+  "id": "10.48550/arxiv.1508.07188",
+  "types": {
+    "ris": "RPRT",
+    "bibtex": "article",
+    "citeproc": "article-journal",
+    "schemaOrg": "ScholarlyArticle",
+    "resourceType": "Article",
+    "resourceTypeGeneral": "Text"
+  },
+  "titles": [
+    {
+      "title": "Measurement of Lifetimes in 23Mg"
+    }
+  ],
+  "relation": [
+    {
+      "relationType": "IsVersionOf",
+      "relatedIdentifier": "10.1103/physrevc.93.025802",
+      "relatedIdentifierType": "DOI"
+    }
+  ],
+  "interpretation": "exactrelatedDOIqueryreturnedalreadyreadarxivpaper, not newexperimentaldata"
+}

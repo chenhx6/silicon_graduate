@@ -1,0 +1,82 @@
+{
+  "ROOT_version": "6.40.04",
+  "MODEL_not_experiment": true,
+  "tree": "dsamTree",
+  "entries": 64,
+  "branches": [
+    {
+      "name": "EPART",
+      "leaf_type": "Float_t"
+    },
+    {
+      "name": "EGAMMA",
+      "leaf_type": "Float_t"
+    }
+  ],
+  "root_sha256": "868efd9240f2b8f24ef39abb2bf1127dec2d41017b5cba8f4211c0eed0083cfd",
+  "root_bytes": 12454,
+  "ASCII_sha256": "8800e90c74c8d59cb1b463c2804f5989e47e0f69ba64ebf946827de00e1c5106",
+  "ASCII_ROOT_max_rounding_differences_keV": [
+    0.049609375000727596,
+    0.00490234375001819
+  ],
+  "histograms": {
+    "Ea": {
+      "class": "TH1F",
+      "entries": 64.0,
+      "integral_default": 64.0
+    },
+    "Eg": {
+      "class": "TH1F",
+      "entries": 64.0,
+      "integral_default": 64.0
+    },
+    "Qa": {
+      "class": "TH1F",
+      "entries": 64.0,
+      "integral_default": 64.0
+    },
+    "Qg": {
+      "class": "TH1F",
+      "entries": 64.0,
+      "integral_default": 64.0
+    },
+    "EQa": {
+      "class": "TH2F",
+      "entries": 6820.0,
+      "integral_default": 5427.0
+    },
+    "info": {
+      "class": "TH1F",
+      "entries": 1.0,
+      "integral_default": 15.0
+    }
+  },
+  "EPART_range_keV": [
+    29717.859375,
+    32153.58984375
+  ],
+  "EGAMMA_range_keV": [
+    3051.6640625,
+    3094.55908203125
+  ],
+  "proposed_trial_count_EQa_GetEntries": 6820.0,
+  "trial_bookkeeping_source": "source main h2d Fill oncebeforeacceptanceselection, includesunder/overflow; notincidentphysicalbeam orabsoluteefficiency",
+  "conditional_acceptance_in_declared_proposal": 0.0093841642228739,
+  "warnings_preserved": [
+    "missinglibUnuran runtimeLoad; sourceonlyusesLoad andnoUnuranAPI",
+    "unusedZ14tablesmissing",
+    "legacygetEffmissingreturn"
+  ],
+  "no_actual_experimental_histograms_or_Cov": true,
+  "knownphysics_discrepancies_not_fixed": true,
+  "ok": true,
+  "rng_default_freshprocess_observed": {
+    "class": "TRandom3",
+    "seed": 4357
+  },
+  "trial_bookkeeping_confirmed_by_readonly_postmain_and_all_bins": true,
+  "all_histogram_bins_EQa_including_underflow_overflow": 6820,
+  "no_array_wrap_or_adaptive_angle_prune_in_this_case": true,
+  "interpretation_scope": "64 detected MODEL pairs from6820truncatedangle/relativeefficiencyproposals, notincidentbeam absolute efficiency/experimentaldata"
+}
