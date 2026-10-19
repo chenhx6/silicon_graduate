@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md": 26
+  },
+  "artifacts": [
+    {
+      "file": "mg23-al23ec-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "duplicate_1p53_comments_preserved",
+        "absolute_feed_and_fullCov_not_recovered",
+        "no_new_experimental_branch_spin_tau_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

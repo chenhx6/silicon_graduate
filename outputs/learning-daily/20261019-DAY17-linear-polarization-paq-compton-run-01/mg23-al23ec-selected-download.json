@@ -1,0 +1,15 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "payload": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "datasetcheck": "23012026,23MG",
+    "chooseit": "ENSDF text format"
+  },
+  "status": 200,
+  "response_bytes": 24683,
+  "response_sha256": "33bb029f5d6a1bad70ad1585628ecf8d4fcb0b39d99de0a8b9573267716e4c40",
+  "ensdf_path": "tmp/day17-mg23-reference/al23ec.ens",
+  "ensdf_sha256": "c26bbdf425bb81684ffb1e769233f6dfaff4794ec1d9e1d79c97dc5fcb8ea95f",
+  "lines": 299
+}

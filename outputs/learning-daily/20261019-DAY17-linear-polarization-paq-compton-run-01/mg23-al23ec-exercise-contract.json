@@ -1,0 +1,15 @@
+{
+  "identity": "M23-AL23EC-NORMALIZATION-01",
+  "data": "tmp/day17-mg23-reference/al23ec.ens",
+  "data_sha256": "c26bbdf425bb81684ffb1e769233f6dfaff4794ec1d9e1d79c97dc5fcb8ea95f",
+  "parser": "system/scripts/day17_pb207_reference_audit.py",
+  "parser_sha256": "f36bbc38d20088d3486758b85321789512d7371266037e1dcc572351a1d04ab8",
+  "atomic_masses_u": [
+    1.007825,
+    21.9944437
+  ],
+  "ratio204over866": 0.063,
+  "I866_per100I451": 0.95,
+  "declared_gamma_relative_sum": 9.122401847575059,
+  "boundary": "declaredconditionalmultiplicativescaleonly, notactualgammafeedreferenceclosureorCI"
+}

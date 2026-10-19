@@ -73,6 +73,16 @@ tags: [lifetime, branching, spin, covariance, reference-lineage]
 | M23-14 | 同条件omega固定，tau上界g hbar/(4omega)对J3/2、5/2、7/2为8.248/12.372/16.497fs。τ误差、新upper、omega误差/共享源及通道假设未组成joint likelihood，不能把中心不可行称实验矛盾。 | conditional-constraint-and-boundary | task-derivation | exercise conditional_rate_constraints | true |
 | M23-15 | 所列两γ的归一Jacobian各列和零，故p1+p2=1的Cov必有约束；Adopted16/100归一为.13793/.86207不同于capture.11/.89，未得原Σ不强行平均/独立误差叠加或制造CL。 | normalization-covariance-contract | task-derivation | exercise listed_gamma_normalization | true |
 | M23-16 | 本session另原读Sallaska2011 v2完整20页，确认213新强度/第二γ来自直接capture但弱支同形模板、upper单侧增加、610partial含旧branch。评价的简写不替此方法/共享输入，S11未提供新spin/τ或原完整Cov。 | primary-companion-and-normalization-boundary | direct-original-companion | S11-2/8/9/13/14/15/16/17 | true |
+| M23-17 | 新exact23AlEC对象23012026/299行全文已读，header202101/cut1Jun2020，非新实验；sourcekeys含2020Fr04，新source仍混合多个年代/装置，不能用合并setup摘要认证各primaryjob。 | additional-object-and-lineage | direct-evaluation | al23ec L2–47 | true |
+| M23-18 | N字段NR/NT空而BR/NB1；评价明确incomplete/notnormalized forγ，451RI100不等每β100γ或有完整globalNR。实际Σ23个EC TI=87.7483%，不把缺额12.2517%填成新branch/groundfeed。 | normalization-and-inventory-boundary | direct-fields-and-arithmetic | al23ec L69–80/L91–296；exercise normalization/sumTI | true |
+| M23-19 | 451comment载absolute43.3(1.0)%转引2011Sa15/Zhai2007，并说推导程序未给、哪些γ被用不清，datum需caution；这是评价者边界，不是本任务新测错误或自动排FR20全部输入。 | explicit-reference-caution | direct-evaluation-comment | al23ec L103–112 | true |
+| M23-20 | 评价对旧paper/thesis若干γidentification和β强度balance不完整提出注释，2019communication只作编译者记录，原primary未取得；不能把它升级成正式erratum或删除旧source观测。 | source-identity-and-review-boundary | direct-evaluation-comment | al23ec L19–28/L61–69/L94–99 | true |
+| M23-21 | 7788母态TI4.89(.25)%为EC/β馈入字段，gamma5736/7335/7786的RI20/100/3.8为该母态相对光子支，不等FR20throughγ3.95%、Γp/Γ或globalabsoluteγ。未placedγ另有9行，不纳新母态。 | distinct-field-and-parent-roles | direct-fields | al23ec L82–89/L120–139 | true |
+| M23-22 | 5736和7335两comment均写1.53相对I451100，与baseRI20/100及原SA11 Fig5.7 1.53/6.63不能按字面同时一致；原编译保留，不修raw/强配/判实验矛盾。 | literal-transcription-boundary | direct-evaluation-and-primary-comparison | al23ec L134–137；SA11-6 | true |
+| M23-23 | 编译列FR20Γp/Γ=.0065(.0008)和旧宽度比派生.038(.020)，另注明FR20旧.037(.009)；不同派生/quotedscale不能视两个新Bp测量或统一CI。omega列也都用同J04mean10(3)，同源传播需保留。 | quoted-versus-derived-and-dependence | direct-evaluation | al23ec L123–129 | true |
+| M23-24 | 本对象β-delayed-p detectorlab kinetic到totalCM decay energy乘r=(mp+M)/M；用原masses得558.2→583.7777、828.8→866.7771keV，近compiled583.8/866.8。capture beam lab到CM则除r，相同lab字不同particle角色不可机械互换。 | actual-energy-role-crosscheck | direct-fields-and-task-derivation | al23ec L48–53/L170–188；exercise two_lab_energy_roles | true |
+| M23-25 | 若p与γ馈入确共用一个物理I451乘法scale，daughterBp比值中该scale条件相消；三个scale控制同.006518。此不闭合原relativeinventory/energydependentε/Σ，不能由absolute参考caution自动称比值完全无效或完全稳健。 | conditional-common-reference-covariance | task-design | exercise conditional_common_absolute_I451_cancellation | true |
+| M23-26 | 该对象没有给FR20的3.95(.37)% throughγ绝对原表或完整推导，仍需matchingprimary/原gamma参考。官方的谨慎文字收窄校准使用门，不补缺失Cov/新实验CI。 | verified-input-readiness-boundary | direct-evaluation-and-synthesis | M23-18/19/20/21；FR20-10/15 | true |
 
 ## Theory/analysis exercise
 
@@ -102,3 +112,11 @@ tags: [lifetime, branching, spin, covariance, reference-lineage]
 ## 2011原件补充：强度输入有实际归一合同
 
 [[sallaska-2011-na22-absolute-resonance-strength]] S11-1–20完整主线另读。官方pg简写的11/89与5.7仍回同一实验；弱支受同形模板约束，610旧branch和upper单侧增加不能压成一组独立Gaussian。原2011body现已取得，原2013body/实际计数与完整Cov仍未得；本页旧M23-9保留当时阅读状态。
+
+## 新23AlEC对象：编译也未认证absoluteγ参考
+
+本session新fetch [[tuli-2001-ensdf-format-manual]]角色下的23012026,23MG，299行全文实际读；缓存`tmp/day17-mg23-reference/al23ec.ens` SHA256`c26bbdf425bb81684ffb1e769233f6dfaff4794ec1d9e1d79c97dc5fcb8ea95f`。[exactdownload](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-al23ec-selected-download.json)、[算前合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-al23ec-exercise-before.md)、[程序](../../system/scripts/day17_mg23_al23ec_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-al23ec-exercise-result.json)。此前五对象/旧claims/hash/review不改。
+
+评价明确NR空/纲图未完整归一，对I451abs43.3%推导和sourceγ识别保留caution；不能用RI100、TI4.89、或母态三γ比替FR20absolute3.95。编译的两条1.53comment字面冲突也保留待核。共同I451scale在matchingp/γ比有可能消掉，但真实relativeinventory/响应和Cov未闭，既不全盘否定也不无条件认证当前branch。
+
+能量角色控制把capturebeam的lab转换和βp detector kinetic分开：前者Ecm=Elab/r，后者totaldecayEcm=r Eplab。原masses/两行中心对照可重放，只是NR字段桥，不回改modernlevelenergy或把同label迁错对象。

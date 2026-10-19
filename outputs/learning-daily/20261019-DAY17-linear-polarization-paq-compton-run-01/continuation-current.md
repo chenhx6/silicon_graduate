@@ -1,17 +1,17 @@
-# Day17同session继续：checkpoint031之后
+# Day17同session继续：checkpoint032之后
 
-## Active handoff — DAY17 original window active; TAMU source chain checkpoint031
+## Active handoff — DAY17 original window active; official Al23EC checkpoint032
 
-沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–030actualGiteeH3push；formal17仅007后一次/course next18count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–031actualGiteeH3push；formal17仅007后一次/course next18count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
 
-031Iacob2006PRCbody当前仍未得：APS401/403/TAMUhandleAPI403/arxivexact0/HAL和部分lab页TLS失败，metadata不作science。实际另取TAMU2005–2006年报205页hash e0602d...只读三篇中的I5–7(Zhai结构)、I8–10(Trache共振)共6页；2006–2007 Zhai后续I27–28两页hash9796fa...，8页均完整图refs视觉，不冒整205页或PRC/thesis已读。2007PDFmetadata错沿10B题名，正文23Al身份已核。
+032新exact ENSDF23012026,23MG/23AlEC 202101/299行全文实际读，hashc26bbdf425bb81684ffb1e769233f6dfaff4794ec1d9e1d79c97dc5fcb8ea95f。NR/NT空而BR/NB1，评价明确incomplete/notnormalizedγ；EC TI总87.7483%不把缺额12.2517填branch/ground。451RI100不当absolute；评价对43.3(1)%来源程序/哪些γ识别存疑明说caution，2019communication只编译者注释不作正式erratum/primarybody。
 
-TA07-1–12：2005采集1scollect/177msmove/3.2scount与2006Sep/Nov后续2scount分开，高能counts2x/24Al校准/BGO改进。原I6是futureplan，I27/28是已做result；同组后续不全sameevents，也非全独立response。母态相对三γ3.8/100/20 normalize3.1/80.8/16.2近S11旧表，不提供absoluteI451/FR20through3.95(.37)的原完整Σ。
+M23-17–26：7788TI4.89(.25)%为βfeed，非FR20throughγ3.95；母态γRI20/100/3.8与两条1.53comment/SA11 1.53/6.63不同时字面闭合，原source不改、不判实验矛盾。旧Γp/Γ宽度派生.038(.020)与FR20quoted.037(.009)分开；转载.0065/omega.24都同源不加学分/独立测量。
 
-旧报告r=Γp/Γgamma .080(.017)混Tighe/Perajarvi，不是directBp；Bp.074074。其labelT1/2=10fs引用J04mean10：mean10/J7/2 givesomega2.5797近报2.6，literalhalf10则1.7881，保打印/单位边界不修raw或叫正式erratum。原spin7/2含旧p/mixing/γpattern解释，不作纯selectionrule。后续报告confirmbranch没有全absolute表，3.95仍readiness不闭。
+实际原masses r1.0458218：βp emittedlab558.2/828.8→totalCM583.7777/866.7771(乘r)近compiled；capturebeam lab→CM除r，同lab字不可迁错particle角色。共同I451scale若同时乘p/γ可消，不从absolutecaution自动否定/认证Bp；relativeinventory/ε/feeding/Σ仍缺。3.95原表和完整推导仍readiness未闭，当前γ原源路线停止在此边界，不metadata/ttoy补空。
 
-canonical新TAMU/FR20-17/method/lifetimeledger/index/report唯一writeback，verification045以actualreceipt为准（旧rowsreview/protected/boundary/lint/diff/artifact）。main / `Recover Al23 gamma reference run lineage from original lab reports`为031稳定指针，actualhash/push见publication031/runreceipt。
+canonical M23-17–26/method/lifetimeledger/report唯一writeback；verification046以actualreceipt为准(旧16M23rowsreview/hash/protected/boundary/lint/diff)。main / `Audit official Al23 decay normalization and reference cautions`为032稳定指针，actualhash/push见publication032/runreceipt。原先五official对象不改；新parser helper原hash保。
 
-下一boundedcontinuity：官方20210123AlEC dataset23012026,23MG(从既有Mg23datasetdiscovery实际已知ID)的exacttext。先freeze，查NR/absoluteγ/βfeeding/uncertainty/sourcekeys、near7787/IAS与2006/2007/thesis版本；不是primarybody替代/新独立实验。需要明确I451与through3.95的来源角色；缺原Cov不拼实验CI。原window约607分钟，15点stop新研究、整日收束齐才goalcomplete。
+pool重建：①publicEVASIONS literalpaperfitnotready已隔离，缺paperjob/config/responseCov，更多history无信息；②GADGETinstrumentprimary可能收窄geometry但无rawcounts，暂不同时开；③最高新输入选EVASIONS README明确指向作者Fougères2022 thesis HALtel-03768524v1 chapter4，可能给实际门/response/calib/τEgfit定义，尚未body。先冻结primed回忆后metadata/原件，仅定向与当前Day18 lifetime→strength/实际响应有关的chapter4，不打开新课程卡。原window约599分钟，15点stop新研究、整日收束齐才goalcomplete。
 
-保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex/logHEAD+own031。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex/logHEAD+own032。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

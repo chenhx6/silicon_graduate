@@ -304,3 +304,9 @@ F23推荐又复用本新branch/J04tau，故两篇≈.24不计独立强度确认�
 [[tamu-2006-2007-al23-gamma-reference-reports]] TA07-1–12核机构原三报告8页。2005sample/3.2s计数与2006Sep/Nov后续/2s计数、高能统计和24Al标定/BGO不同，后续数据不能全算旧event转载；同设施/效率知识也不自动独立。相对γ比[3.8,100,20]归一3.1/80.8/16.2%近S11旧参考，并未给absoluteI451或FR20through3.95的原表/Σ。
 
 旧报告r=Γp/Γγ .080不能当Bp；Bp=r/(1+r)=.07407。报告字面T1/2=10fs与引用J04mean10标签不闭合：固定mean10得omega2.5797近报2.6，literalhalf10则1.7881，保原文字/算术，不改raw或当正式erratum。原PRC74045810/thesis未取，当前journalreadiness边界明确；下一可查官方exact23AlEC编译的字段/来源，仍不以转载当独立实验。
+
+## 官方23AlEC：NR空与绝对参考警示
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-17–26新增exact299行对象：NR空、RI451100只相对，EC TI总87.7483%不完整；评价明确I451abs43.3(1)%由旧source推导程序/γinventory不清需caution。7788TI4.89(.25)%不是throughγ3.95，两个gamma1.53comment与base20/100/原SA11图不同时闭合，不修raw或判实验矛盾。
+
+这给FR20旧absolute参考使用门，却不自动否定daughter比：若p和γ共用同一physicalI451scale可相消，relativebranch/eff/feeding/Cov仍需原源。另beta-p detectorlab kinetic→totalCM乘r，capturebeam lab→CM除r，原两行558.2/828.8近闭583.8/866.8；必须先识别particle角色。3.95原表/Σ仍readiness未闭，不能以官方转载补新CI。

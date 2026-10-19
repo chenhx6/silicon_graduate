@@ -271,3 +271,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## Compton屏蔽和reference版本：原报告的使用门
 
 [[tamu-2006-2007-al23-gamma-reference-reports]] TA07-3/4/11说明后续BGO屏蔽可改善高能谱并伴新采集/效率校准，但不提供通用polarimeterQ或零背景保证。报告“确认旧支路”要区分相对γ比例、绝对馈入、同event与共享calibration，不能按同作者/年份合并成独立偏振证据。
+
+## 参考警示要追到比值中的共同尺度
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-18/19/21/25官方对象给absoluteγ参考caution，但若观测两支共享同一乘法scale，其比中scale可消。需要同时核relativeinventory、energydependentresponse和Cov；不能把RI100当absolute，也不能从参考有争议就自动全盘排比值或当作已校准polarimeterQ。

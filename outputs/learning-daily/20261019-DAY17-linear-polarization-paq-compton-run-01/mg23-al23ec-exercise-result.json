@@ -1,0 +1,288 @@
+{
+  "at": "2026-10-19T20:57:56.934376+00:00",
+  "script_sha256": "5a6c8652c7bb891ba893cd4070668178ec21d6df80f2636bb3d12f3c4217992b",
+  "contract_sha256": "bad11397f6cd363db412d79ae45a471169f189c06de471e9d410002befca9f50",
+  "data_sha256": "c26bbdf425bb81684ffb1e769233f6dfaff4794ec1d9e1d79c97dc5fcb8ea95f",
+  "normalization": {
+    "line": 78,
+    "raw": " 23MG  N                       1         1                                      ",
+    "NR": {
+      "text": "",
+      "value": null,
+      "sigma": null,
+      "sign_marker": "blank"
+    },
+    "NT": {
+      "text": "",
+      "value": null,
+      "sigma": null,
+      "sign_marker": "blank"
+    },
+    "BR": {
+      "text": "1",
+      "value": 1.0,
+      "sigma": null,
+      "sign_marker": "unspecified"
+    },
+    "NB": {
+      "text": "1",
+      "value": 1.0,
+      "sigma": null,
+      "sign_marker": "unspecified"
+    }
+  },
+  "gamma451": {
+    "line": 103,
+    "raw": " 23MG  G 451       1  100                                                       ",
+    "parent": {
+      "line": 100,
+      "raw": " 23MG  L 451        1  5/2+                                                     ",
+      "energy": {
+        "text": "451",
+        "value": 451.0,
+        "sigma": 1.0,
+        "sign_marker": "unspecified"
+      },
+      "Jpi": "5/2+",
+      "half_life_field": "",
+      "half_life_uncertainty_field": ""
+    },
+    "energy": {
+      "text": "451",
+      "value": 451.0,
+      "sigma": 1.0,
+      "sign_marker": "unspecified"
+    },
+    "intensity": {
+      "text": "100",
+      "value": 100.0,
+      "sigma": null,
+      "sign_marker": "unspecified"
+    },
+    "M": "",
+    "MR": {
+      "text": "",
+      "value": null,
+      "sigma": null,
+      "sign_marker": "blank"
+    },
+    "CC": {
+      "text": "",
+      "value": null,
+      "sigma": null,
+      "sign_marker": "blank"
+    },
+    "placement_tail": "                "
+  },
+  "three_key_parent_gamma_records": [
+    {
+      "line": 134,
+      "raw": " 23MG  G 5736          20    5                                              A   ",
+      "parent": {
+        "line": 120,
+        "raw": " 23MG  L 7788      1   3/2+,5/2+                                                ",
+        "energy": {
+          "text": "7788",
+          "value": 7788.0,
+          "sigma": 1.0,
+          "sign_marker": "unspecified"
+        },
+        "Jpi": "3/2+,5/2+",
+        "half_life_field": "",
+        "half_life_uncertainty_field": ""
+      },
+      "energy": {
+        "text": "5736",
+        "value": 5736.0,
+        "sigma": null,
+        "sign_marker": "unspecified"
+      },
+      "intensity": {
+        "text": "20",
+        "value": 20.0,
+        "sigma": 5.0,
+        "sign_marker": "unspecified"
+      },
+      "M": "",
+      "MR": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "CC": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "placement_tail": "            A   "
+    },
+    {
+      "line": 136,
+      "raw": " 23MG  G 7335          100                                                  A   ",
+      "parent": {
+        "line": 120,
+        "raw": " 23MG  L 7788      1   3/2+,5/2+                                                ",
+        "energy": {
+          "text": "7788",
+          "value": 7788.0,
+          "sigma": 1.0,
+          "sign_marker": "unspecified"
+        },
+        "Jpi": "3/2+,5/2+",
+        "half_life_field": "",
+        "half_life_uncertainty_field": ""
+      },
+      "energy": {
+        "text": "7335",
+        "value": 7335.0,
+        "sigma": null,
+        "sign_marker": "unspecified"
+      },
+      "intensity": {
+        "text": "100",
+        "value": 100.0,
+        "sigma": null,
+        "sign_marker": "unspecified"
+      },
+      "M": "",
+      "MR": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "CC": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "placement_tail": "            A   "
+    },
+    {
+      "line": 138,
+      "raw": " 23MG  G 7786          3.8   25                                                 ",
+      "parent": {
+        "line": 120,
+        "raw": " 23MG  L 7788      1   3/2+,5/2+                                                ",
+        "energy": {
+          "text": "7788",
+          "value": 7788.0,
+          "sigma": 1.0,
+          "sign_marker": "unspecified"
+        },
+        "Jpi": "3/2+,5/2+",
+        "half_life_field": "",
+        "half_life_uncertainty_field": ""
+      },
+      "energy": {
+        "text": "7786",
+        "value": 7786.0,
+        "sigma": null,
+        "sign_marker": "unspecified"
+      },
+      "intensity": {
+        "text": "3.8",
+        "value": 3.8,
+        "sigma": 2.5,
+        "sign_marker": "unspecified"
+      },
+      "M": "",
+      "MR": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "CC": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "placement_tail": "                "
+    }
+  ],
+  "listed_photon_fractions": [
+    0.16155088852988692,
+    0.8077544426494346,
+    0.030694668820678513
+  ],
+  "key_parent_EC_record": {
+    "line": 130,
+    "raw": " 23MG  E               4.89  25 0.0033618  3.759 23                  4.89 25    ",
+    "parent": {
+      "line": 120,
+      "raw": " 23MG  L 7788      1   3/2+,5/2+                                                ",
+      "energy": {
+        "text": "7788",
+        "value": 7788.0,
+        "sigma": 1.0,
+        "sign_marker": "unspecified"
+      },
+      "Jpi": "3/2+,5/2+",
+      "half_life_field": "",
+      "half_life_uncertainty_field": ""
+    },
+    "IB": {
+      "text": "4.89",
+      "value": 4.89,
+      "sigma": 0.25,
+      "sign_marker": "unspecified"
+    },
+    "IE": {
+      "text": "0.00336",
+      "value": 0.00336,
+      "sigma": 0.00018,
+      "sign_marker": "unspecified"
+    },
+    "TI": {
+      "text": "4.89",
+      "value": 4.89,
+      "sigma": 0.25,
+      "sign_marker": "unspecified"
+    }
+  },
+  "sum_listed_EC_TI_percent": 87.7483,
+  "gap_to100_not_assigned_to_any_unobserved_branch": 12.2517,
+  "duplicate_1p53_comments_preserved": true,
+  "two_lab_energy_roles": {
+    "mass_factor": 1.0458217999848753,
+    "beta_delayed_proton_decay_CM_rows": [
+      {
+        "emitted_proton_lab_keV": 558.2,
+        "compiled_CM_keV": 583.8,
+        "derived_CM_keV": 583.7777287515574,
+        "nominal_residual_keV": -0.022271248442507385
+      },
+      {
+        "emitted_proton_lab_keV": 828.8,
+        "compiled_CM_keV": 866.8,
+        "derived_CM_keV": 866.7771078274646,
+        "nominal_residual_keV": -0.02289217253530751
+      }
+    ],
+    "capture_lab_to_CM_factor": 0.9561858435294254,
+    "capture_lab_for_Ecm206keV": 215.4392907968843,
+    "emitted_proton_lab_for_total_decay206keV": 196.97428376706162,
+    "boundary": "declared NR use of exact printed masses; gamma/recoil/beta-sum measurement response not recovered"
+  },
+  "conditional_common_absolute_I451_cancellation": {
+    "scales": [
+      0.2,
+      0.433,
+      0.7
+    ],
+    "daughter_Bp": [
+      0.006518008980096291,
+      0.006518008980096291,
+      0.006518008980096292
+    ],
+    "boundary": "only a hypothetical common multiplicative physical normalization; relative inventory/efficiency/feeding uncertainties remain"
+  },
+  "absolute_feed_and_fullCov_not_recovered": true,
+  "no_new_experimental_branch_spin_tau_or_CI": true,
+  "ok": true
+}

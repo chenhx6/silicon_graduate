@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint032：官方exact23AlEC新对象
+
+[[nndc-2021-mg23-lifetime-strength-reference]] M23-17–26：23012026,23MG/202101共299行全文新读/hash核。官方本身对absoluteI451推导/γidentification保caution，NR空/纲图不完整，不当primarybody/新实验。
+
+
 ### checkpoint031：gamma源链三份机构原报告
 
 [[tamu-2006-2007-al23-gamma-reference-reports]] TA07-1–12，实际selectedI5–10与I27–28共8页完整主线/图refs视觉核；205页年报其它未读，PRC/thesisbody未取。source发现与TLS失败/readiness留档，不从metadata补science。
@@ -125,6 +130,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint032：字段与两种lab角色
+
+[程序](../../system/scripts/day17_mg23_al23ec_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-al23ec-exercise-result.json)核NRblank、ΣEC_TI87.7483(缺额不填branch)、母态TI/γroles；βp emittedlab→totalCM乘r而capturebeam→CM除r，源两行中心近闭。共同I451scale条件相消不补relativeinventory/原Σ。
+
 
 ### checkpoint031：r/Bp/时间label实际算术
 
@@ -223,6 +233,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint032：官方caution也须按层使用
+
+M23-18/19/20/21/22/25/26：RI100不等absolute100%，43.3%来源程序不清/两条1.53comment不闭合保原样；TI4.89不是FR20throughγ3.95。共有乘法scale可能在比值消，不据caution全盘否定/认证branch。原3.95表/fullCov仍未取得。
+
 
 ### checkpoint031：后续run不是一律同event
 
@@ -447,6 +462,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md)“新23AlEC对象：编译也未认证absoluteγ参考”新增M23-17–26；lifetimeledger及method同步NR/字段/参考警示/共同尺度矩阵。
+
 
 新增[TAMU报告源](../../knowledge/sources/tamu-2006-2007-al23-gamma-reference-reports.md)TA07-3/4/6/7/8/9/12和[[lifetime-strength-audit-165tm-136nd]]“γ参考谱系：真实后续采集与绝对分母仍有边界”，保存真实run/相对比/单位/缺失输入矩阵。
 
@@ -4970,6 +4988,91 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "TA07-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "anchor": "新23AlEC对象：编译也未认证absoluteγ参考",
+      "summary": "新增299行exact对象/NR/absolute参考caution/能量角色与共同scale。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-17"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-19"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-21"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-24"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-25"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-26"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "官方23AlEC：NR空与绝对参考警示",
+      "summary": "更新真实官方归一/比值相消/3.95未闭矩阵。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-19"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-21"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-24"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-25"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-26"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "参考警示要追到比值中的共同尺度",
+      "summary": "参考争议与比值Cov逐层分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-19"
+        },
+        {
+          "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+          "locator": "M23-25"
+        }
+      ]
     }
   ]
 }
@@ -5153,3 +5256,7 @@ verification044核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint031原报告/源链验收
 
 verification045核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected/artifact；通过后manifest031/commitguard/H3。科学边界保partial，原窗口继续，formal17once/18partial/no19。
+
+### checkpoint032official对象/字段验收
+
+verification046核report/course/唯一writeback/boundary/lint/diff/旧16M23rowsreview/保护与artifact。通过后manifest032/commitguard/H3；原source未修，未造实验CI，formal17once/18partial/no19。
