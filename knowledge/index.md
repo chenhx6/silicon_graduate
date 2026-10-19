@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Sources
 
+- [[geant3-vmc-2026-compton-baseline]] - 固定public代码/真实组件MC核验；无偏振callpath、GeV与transportcuts，非GR97原producer。
+
 - [[nndc-2017-99rh-matched-reference-records]] - 六同母态支路、MR/CC空缺与相位无关的参考纯度条件设计。
 
 - [[palit-2000-rh99-clover-polarimetry]] - GargRef32原件；Rh99同跃迁AD/P、a与Q分层/曲线单位及reference readiness。

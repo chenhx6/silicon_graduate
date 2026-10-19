@@ -139,3 +139,8 @@ The reported agreement is conditional on known detector geometry, thresholds, so
 
 
 前因子跨源比较另见[[palit-2000-rh99-clover-polarimetry]] P00-10；GR97已高分辨核正确，不能把本session被否决的猜测传给后续引用。
+
+
+### 当前public代码基线不是历史modifiedproducer
+
+[[geant3-vmc-2026-compton-baseline]] G3-1/2/3/5/7给标准Geant3.21+VMC固定pin的实际接口、单位/cuts和600000事件组件核验。所读callpath为G3TGAMA→G3COMP且phiuniform，POLAR字段未参与；这与本文所述改GCOMPOL/GTGAMA/POLAR的需求分层。当前代码/原modifiedproducer、核验组件/真实detectorresponse不合并，也不把文件名检索空结果说成源代码全球不存在。

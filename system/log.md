@@ -2010,3 +2010,8 @@ D66 actual三线AD/sharedparent sourcebox 5845LP actual0，freeq至少8/额外lo
 ## 2026-10-19 — Day16 checkpoint043：Stokes输运与实际响应比较
 
 GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov、不同阈值/anglewindow、理想merit-time合同canonical。GR97 Eq13漏撇号误读被高分辨原图否决，Eq3/11/13均正确；v1/firstactual1 retained，v2输运/PSD/2φ/混合核actual0，未改原Table/geometry。P00另一literal边界、source40%/10%和secondary近似/refs不一致不移作新实测或producer认证。verification037实际68/68、required0、0errors188warnings，原prefix/GR97false/raw/PLAN/Bib保持。科学原15:00仍pursuing，formal16一次partial17；稳定指针main / Audit DAY16 Compton Stokes transport and matched response comparisons，hash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint044：真实Compton代码组件
+
+固定publicGeant3+VMC pin/selectedsource双hash；三原样核+原headers/显式shims actualcompile0/run0，3×200000组件事件KN/守恒/旋转/cuts通过。POLAR字段未被该Compton路径使用，改变它同RNG输出相同；transport1MeV默认与实验electronics门不同，能量闭合也可失去coincidence。不是GR97原modifiedproducer/材料response或新Q。gckmax网络1与exactblob恢复留档无猜输入；vendor只tmp不发布。verification038实际69/69、required0、0errors190warnings，旧prefix/raw/PLAN/Bib保持。同run原15:00仍pursuing/formal16一次partial17；下一仅既有D66连续域问题。稳定指针main / Validate DAY16 pinned Compton code component and transport boundaries，hash/push只receipt。

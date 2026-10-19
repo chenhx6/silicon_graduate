@@ -143,3 +143,8 @@ P1：新表算术、Mueller正性、点散射和理想时间范围均为条件�
 | Date | event | previous state | new state | reason / triggering evidence | target or successor |
 | --- | --- | --- | --- | --- | --- |
 |2026-10-19 |created |none |provisional |原七页、表算术及Stokes核验；实际producer/response仍缺 |不晋升实验结论 |
+
+
+## 公开标准基线的实际组件核验
+
+[[geant3-vmc-2026-compton-baseline]] G3-1–10固定2026snapshot，原样编译G3COMP/G3FANG/G3DROT，三能量各200000个组件事件实际compile0/run0，KN分布和守恒/旋转通过。GCTPOL有POLAR却不用于该Compton采样；同RNG两初始偏振完全同输出，不能把它认证为GR97GCOMPOL。zero cuts与初始化默认1MeV transportcuts、原每晶体50keV电子学门是不同对象；passedunpolarizedkernel也不提供Q、材料response或MC40%验证。

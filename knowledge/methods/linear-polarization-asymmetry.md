@@ -225,3 +225,6 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 非负偏振度不替相对物理平面的signedP
 
 [[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-14的sqrt(P1²+P2²)/P0是degree幅度；source/反应平面上的signed分量、photon参考轴、Compton散射平面与detectorcount角色须同时携带。[[gr97-stokes-response-and-merit]]的点核与TableI只核相应合同，不把M=εQ²当符号校准或未知阵列的实验Q。
+
+
+软件输入字段也需绑定实际作用的物理路径：[[geant3-vmc-2026-compton-baseline]] G3-2/3/8的POLAR存在但未进入所读G3COMP。对称/正性或unpolarized分布检查通过，仍不能代替signedpolarization传递、实际Q和门响应的核验。

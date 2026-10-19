@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T12:54:04.248998+08:00",
+  "session_id": 44267,
+  "exit_code": 0,
+  "compile_exit_code": 0,
+  "execute_exit_code": 0,
+  "script": "system/scripts/day16_geant3_compton_component_benchmark.py",
+  "script_sha256": "e14d0d77d7add865884ec1d21630c9ae93910528178a50938ba2169eac1bf709",
+  "events_total": 600000,
+  "no_vendor_kernel_modified": true,
+  "standalone_shims_explicit": true,
+  "no_1997producer_or_material_detector_run": true
+}

@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T12:45:00.221153+08:00",
+  "raw_get_exit": 1,
+  "error": "RemoteDisconnected ConnectionError",
+  "dependent_contract_attempt_exit": 1,
+  "reason": "requiredidentityfile didnotexist; no modelrun or scientificinputfabricated",
+  "recovery": "one exactGitblobAPI route for samepinnedblob, beforecontract/compilation"
+}

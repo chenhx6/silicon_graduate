@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T12:54:04.248998+08:00",
+  "repository": "https://github.com/vmc-project/geant3",
+  "commit": "347fc6804dd116c66c2695df5d2c03d166a0364c",
+  "commit_date": "2026-01-06T14:57:02Z",
+  "tree_truncated": false,
+  "tree_entry_count": 1846,
+  "GCOMPOL_filename_paths": [],
+  "GDROT3_filename_paths": [],
+  "absence_scope": "filenames in thispin + actualG3TGAMA/G3COMP inspectedcallpath,notallfilecontents/globalabsence",
+  "read_scope": "G3COMP/G3FANG/G3DROT/G3COMPI/G3TGAMA fullfunctionfiles;usedheaders;targetedG3INITconstants/cuts;notwhole1846entryrepository",
+  "POLAR_declared": "geant321/gctrak.inc COMMON/GCTPOL line32",
+  "G3COMP_POLAR_identifier_count_in_ownfile": 0,
+  "code_uses_uniform_phi": true,
+  "selected_blob_identity_manifests": [
+    "files-identity.json",
+    "dependency-identity.json",
+    "gckmax-identity.json"
+  ],
+  "gckmax_initial_raw_ConnectionError_recovered_exact_blob_API": true,
+  "historical_GR97_modifiedproducer_attested": false,
+  "vendor_sources_not_published": true,
+  "license_status": "repositorymetadatafieldnull; no vendorcode redistribution"
+}

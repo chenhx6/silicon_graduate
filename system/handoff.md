@@ -8,17 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且无active写法，objective保留不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
 
-043 verification037实际report/card/唯一writeback68changed/68items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)。原raw/PLAN/Bib、GR97完整旧prefix/旧GR97-2/4false及D66/C96/Pr135/L25/L26等prefix和helpers过。新knowledge/research-notes/gr97-stokes-response-and-merit.md与GR97-5–14：原7页461–467/Eq1–16/3fig/TableI/29refs完整主线/Crossref；partial17无学分。
+044 verification038实际report/card/唯一writeback69changed/69items、boundary/lint/diff0，0errors190warnings(137key50raw3parser)；原raw/PLAN/Bib/人审prefix、GR97旧2/4false及新旧源码/hash保护过。新source geant3-vmc-2026-compton-baseline G3-1–10固定public pin347fc6804dd116c66c2695df5d2c03d166a0364c/version4.5/Geant3.21+VMC，tree1846未截断；只读selectedfunctions/headers/targetedinit，不称全repo。10实际compileinputs双hash，vendor只tmp，不发布。
 
-务必保留纠正：GR97 Eq3/11/13全部正确Eprime/E²；本run初漏撇号的Eq13inverse假设已由高分辨原图否决，v1/firstactual1 snapshot保留但不是sourceerratum。首次Jones结构等式1改为展开代数比较后v2 actual0，原Table/geometry/errors不改。P00 p349 Eq5的另一literal inverse是真的且旧P00-10保持；固定角normalizedP/PSD不能认证finiteangleweight，未判actualcode错。
+真实三核G3COMP/G3FANG/G3DROT原样+原headers，显式ParkMillerGRNDM/G3EKBINbookkeeping shims actualcompile0/run0，0.5/1.5/4MeV各200000组件事件。KN和phiCDFmax.00229<预设.006384，最大守恒/质量壳/norm约4.64e−7；同RNG改POLAR输出diff0、转轴cosdiff1.07e−7。字段有不认证偏振物理，所读G3TGAMA→G3COMP仍unpolarized，没找到相关文件名不证明全局code不存在。
 
-GR97九表格Q/M推绝对ε与Cov未知误差界；Table50keV/d25cm不同于validation60/150/60keV及fivecoax70–110窗，不补Table未知角窗或外推fit到4MeV。Merit/time比较仅idealcount中央设计非array推荐。Jones+非负unpol项保证linearStokes正性，2φ/原Eq14/15与纯态混合闭合；两90点核不假充源40%MC。degree非负不代signedP，M平方不校符号。源码对brems/annihilsecondary无偏振近似与历史dataset/图注refs不一致保持，未得actualmodifiedproducer/response/Σ。
+EMASS源码.0005109990615GeV，所读init默认CUTGAM/CUTELE .001GeV=1MeV，transportcuts不等GR97电子学threshold。高cut让光子localdeposit但能量仍闭合；点kernel通过不认证coincidence/真实geometry/modified1997producer/response/Σ或Q。fetcher缓存10hash只读actual0，下载分支未冒称本次执行。初gckmax rawConnectionError/未readyattempt1留档，exactblobAPI取真header300，无猜输入或vendor改动。
 
-本批稳定指针main / `Audit DAY16 Compton Stokes transport and matched response comparisons`，actualhash/H3/push仅publication043/runreceipt。042已actualGitee main / `Test DAY16 shared-parent angular distributions against population assumptions`。
+本批稳定指针main / `Validate DAY16 pinned Compton code component and transport boundaries`，actualhash/H3/push仅publication044/runreceipt。043已actualGitee main / `Audit DAY16 Compton Stokes transport and matched response comparisons`。GR97 Eq13全部正确Eprime/E²，初漏撇号假设已否决，不复活为sourceerratum；P00另一原literal边界单列。
 
-下一当前partial17producer route已冻recall/candidate047：publicvmc-project/geant3 metadata200/defaultmaster，当前commit/tree查询进行中，尚未打开源文件；moderncode不自动是1997GCOMPOL。只选匹配GCOMPOL/POLAR/GDROT3/GTGAMA函数与版本/输入合同，不执行未读build，不替原detectorMC。原15:00仍约2h半，13:30后不新开source，15点stopresearch收束。
+原15:00尚近2h。下一只继续已有D66实际三线AD/同parent/positivepopulation的有限网格未完成域，考虑有界连续参数必要域/数值证书；源/输入已读，不开新source/卡。先clock/pool/合同冻结，有限grid0不能直接排除。13:30后不新开source，15点stopresearch收束。
 
 保护raw/PLAN/Bib/credentials/原review/继承dirty/log；exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
 

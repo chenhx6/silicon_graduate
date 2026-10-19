@@ -1,0 +1,387 @@
+{
+  "at": "2026-10-19T12:49:18.153883+08:00",
+  "script_sha256": "e14d0d77d7add865884ec1d21630c9ae93910528178a50938ba2169eac1bf709",
+  "contract_sha256": "9878f93fe339e0b176fda5146477a3253679297e25434452edc05b981bbcf0ae",
+  "source_files": [
+    {
+      "path": "gphys/gcomp.F",
+      "sha256": "a97226dc5ae5846cb038e9d2ca38f3591e183a652ff990dceec009a838042020",
+      "unmodified": true
+    },
+    {
+      "path": "gphys/gfang.F",
+      "sha256": "b0a6ce43f90372fb2b2098094d78f283d57e2325e5954569bc844412daf3c7dc",
+      "unmodified": true
+    },
+    {
+      "path": "gphys/gdrot.F",
+      "sha256": "7410437bcc96de31c059b29ca001f7ebb6f02a923103d5ca17ad5285f28ae8ea",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/pilot.h",
+      "sha256": "08f612608232d0a8afed53e00805e9109ce998c4e9893845e0ac6dee1ed848fa",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/gcphys.inc",
+      "sha256": "625c163d97462d0adecab776d52f6c2951565aafeddf0ee9d553607fac0382ca",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/gctrak.inc",
+      "sha256": "0263ce24eee9c3be45a1777b0324d97348fa891719ffc05c839345155c3112b4",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/gcking.inc",
+      "sha256": "fc8b2d392d3e4009623276f47b5b22ed17c1a1b6deb967c346dd52c05f7b7a42",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/gckmax.inc",
+      "sha256": "31130c33ce614d57786c55b066dbe6bd74994c6adbe11d20634e1a550990836f",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/gconsp.inc",
+      "sha256": "e293b3f97481f23dc1ea4680943d573dea5a4d20fdd0d77de0757118c943f690",
+      "unmodified": true
+    },
+    {
+      "path": "geant321/gccuts.inc",
+      "sha256": "dc55fa7c1beb3e85d9163606586afa28a5acfc382a1d2df690025130de2756c7",
+      "unmodified": true
+    }
+  ],
+  "compile": {
+    "command": [
+      "/usr/bin/gfortran",
+      "-cpp",
+      "-DCERNLIB_UNIX",
+      "-std=legacy",
+      "-ffixed-line-length-none",
+      "-O2",
+      "-I",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build/component-driver.F",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build/component-shims.F",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build/gphys/gcomp.F",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build/gphys/gfang.F",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build/gphys/gdrot.F",
+      "-o",
+      "/workspace/wiki/tmp/day16-geant3-producer/component-build/component-benchmark"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "compiler_version": "GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "driver_sha256": "8ce38185b5c456e552f75db6715d05f0fb4261e74961cc5e39c6419fe3bd54cb",
+  "shims_sha256": "12731b6955d0833dd583fe9f50cb668184406283b1bda38e9e38a2274bd004f2",
+  "execute": {
+    "exit_code": 0,
+    "stdout": "ENERGY 1   5.0000000000000001E-04     200000        1324537\nMOMENTS   6.5850815741781843E-01  4.7630166744630820E-01\nERRORS   1.0224562472724297E-07  1.1763590924116922E-07  3.7901389315919687E-07  4.6358372249611125E-07  9.6839976421872533E-08  0.0000000000000000E+00\nCOSBINS       3291      3198      3261      3182      3078      3097      2990      3112      3063      3006      2982      2942      3062      2998      2902      2977      3098      3088      3227      3287      3274      3448      3473      3672      3944      4064      4305      4505      4951      5289      5528      6353      6691      7511      8601      9668     10664     12213     13870     16135\nPHIBINS      12406     12346     12614     12607     12402     12499     12287     12472     12409     12592     12433     12557     12623     12404     12656     12693\nENERGY 2   1.5000000000000000E-03     200000        1201804\nMOMENTS   5.0517758583416350E-01  3.2502024795471318E-01\nERRORS   8.5149396069951936E-08  6.4350048552241585E-08  3.4353341149540029E-07  3.1617089354917181E-07  8.2394310538445162E-08  0.0000000000000000E+00\nCOSBINS       2211      2158      2240      2276      2275      2195      2318      2325      2444      2393      2358      2480      2490      2608      2565      2697      2734      2767      2851      2945      2949      3214      3303      3435      3559      3725      3882      4205      4472      4909      5356      5926      6387      7414      8436      9779     11691     14412     18804     24812\nPHIBINS      12521     12578     12655     12557     12425     12353     12576     12526     12582     12389     12556     12566     12477     12267     12577     12395\nENERGY 3   4.0000000000000001E-03     200000        1122025\nMOMENTS   3.9282534015965209E-01  2.3582556968307211E-01\nERRORS   1.1618661263125551E-07  1.0750925328923252E-07  3.6695536898001535E-07  2.6543581350449709E-07  6.5772007910526339E-08  0.0000000000000000E+00\nCOSBINS       1536      1610      1581      1709      1812      1767      1879      1802      1838      1884      1922      1970      2048      2139      2330      2257      2368      2367      2447      2587      2731      2904      2996      3101      3246      3394      3676      3914      4190      4520      4932      5387      5982      6726      7740      9257     11489     15035     21668     37259\nPHIBINS      12493     12559     12545     12668     12504     12348     12468     12568     12443     12545     12641     12426     12473     12447     12391     12481\nPAIRED   0.0000000000000000E+00  0.0000000000000000E+00  1.0728836052908974E-07\nCUT 1   0.0000000000000000E+00  5.0000002374872565E-04    2\nCUT 2   1.9254231301601976E-04  3.0745769618079066E-04    0\nCUT 3   1.9254231301601976E-04  3.0745769618079066E-04    0\nCUTERRORS   4.7497451284572723E-08  1.8393620827839019E-08  1.8393620827839019E-08\n",
+    "stderr": ""
+  },
+  "executable_sha256": "71566d1727e455e507cf818752bbd3203a38c1b7e767ca5ed5e7fb6285857fe9",
+  "analysis": {
+    "rows": [
+      {
+        "index": 1,
+        "E_GeV": 0.0005,
+        "events": 200000,
+        "RNG_draws": 1324537,
+        "moments": [
+          0.6585081574178184,
+          0.4763016674463082
+        ],
+        "errors": [
+          1.0224562472724297e-07,
+          1.1763590924116922e-07,
+          3.7901389315919687e-07,
+          4.6358372249611125e-07,
+          9.683997642187253e-08,
+          0.0
+        ],
+        "cosbins": [
+          3291,
+          3198,
+          3261,
+          3182,
+          3078,
+          3097,
+          2990,
+          3112,
+          3063,
+          3006,
+          2982,
+          2942,
+          3062,
+          2998,
+          2902,
+          2977,
+          3098,
+          3088,
+          3227,
+          3287,
+          3274,
+          3448,
+          3473,
+          3672,
+          3944,
+          4064,
+          4305,
+          4505,
+          4951,
+          5289,
+          5528,
+          6353,
+          6691,
+          7511,
+          8601,
+          9668,
+          10664,
+          12213,
+          13870,
+          16135
+        ],
+        "phibins": [
+          12406,
+          12346,
+          12614,
+          12607,
+          12402,
+          12499,
+          12287,
+          12472,
+          12409,
+          12592,
+          12433,
+          12557,
+          12623,
+          12404,
+          12656,
+          12693
+        ],
+        "analytic_mean_energy_ratio": 0.658633440996538,
+        "measured_mean_energy_ratio": 0.6585081574178184,
+        "cosCDF_max_difference": 0.0010769678981914499,
+        "phiCDF_max_difference": 0.0022900000000000142,
+        "predeclared_DKW_diagnostic_bound": 0.006383654362462045,
+        "quadrature256_512_difference": 3.9968028886505635e-15,
+        "simulated_iid_style_diagnostic_not_experimental_confidence": true
+      },
+      {
+        "index": 2,
+        "E_GeV": 0.0015,
+        "events": 200000,
+        "RNG_draws": 1201804,
+        "moments": [
+          0.5051775858341635,
+          0.3250202479547132
+        ],
+        "errors": [
+          8.514939606995194e-08,
+          6.435004855224159e-08,
+          3.435334114954003e-07,
+          3.161708935491718e-07,
+          8.239431053844516e-08,
+          0.0
+        ],
+        "cosbins": [
+          2211,
+          2158,
+          2240,
+          2276,
+          2275,
+          2195,
+          2318,
+          2325,
+          2444,
+          2393,
+          2358,
+          2480,
+          2490,
+          2608,
+          2565,
+          2697,
+          2734,
+          2767,
+          2851,
+          2945,
+          2949,
+          3214,
+          3303,
+          3435,
+          3559,
+          3725,
+          3882,
+          4205,
+          4472,
+          4909,
+          5356,
+          5926,
+          6387,
+          7414,
+          8436,
+          9779,
+          11691,
+          14412,
+          18804,
+          24812
+        ],
+        "phibins": [
+          12521,
+          12578,
+          12655,
+          12557,
+          12425,
+          12353,
+          12576,
+          12526,
+          12582,
+          12389,
+          12556,
+          12566,
+          12477,
+          12267,
+          12577,
+          12395
+        ],
+        "analytic_mean_energy_ratio": 0.5053165348264196,
+        "measured_mean_energy_ratio": 0.5051775858341635,
+        "cosCDF_max_difference": 0.0008940615825197007,
+        "phiCDF_max_difference": 0.001554999999999973,
+        "predeclared_DKW_diagnostic_bound": 0.006383654362462045,
+        "quadrature256_512_difference": 4.9960036108132044e-15,
+        "simulated_iid_style_diagnostic_not_experimental_confidence": true
+      },
+      {
+        "index": 3,
+        "E_GeV": 0.004,
+        "events": 200000,
+        "RNG_draws": 1122025,
+        "moments": [
+          0.3928253401596521,
+          0.2358255696830721
+        ],
+        "errors": [
+          1.1618661263125551e-07,
+          1.0750925328923252e-07,
+          3.6695536898001535e-07,
+          2.654358135044971e-07,
+          6.577200791052634e-08,
+          0.0
+        ],
+        "cosbins": [
+          1536,
+          1610,
+          1581,
+          1709,
+          1812,
+          1767,
+          1879,
+          1802,
+          1838,
+          1884,
+          1922,
+          1970,
+          2048,
+          2139,
+          2330,
+          2257,
+          2368,
+          2367,
+          2447,
+          2587,
+          2731,
+          2904,
+          2996,
+          3101,
+          3246,
+          3394,
+          3676,
+          3914,
+          4190,
+          4520,
+          4932,
+          5387,
+          5982,
+          6726,
+          7740,
+          9257,
+          11489,
+          15035,
+          21668,
+          37259
+        ],
+        "phibins": [
+          12493,
+          12559,
+          12545,
+          12668,
+          12504,
+          12348,
+          12468,
+          12568,
+          12443,
+          12545,
+          12641,
+          12426,
+          12473,
+          12447,
+          12391,
+          12481
+        ],
+        "analytic_mean_energy_ratio": 0.3930643926945419,
+        "measured_mean_energy_ratio": 0.3928253401596521,
+        "cosCDF_max_difference": 0.0013077990390227834,
+        "phiCDF_max_difference": 0.0014100000000000223,
+        "predeclared_DKW_diagnostic_bound": 0.006383654362462045,
+        "quadrature256_512_difference": 6.106226635438361e-15,
+        "simulated_iid_style_diagnostic_not_experimental_confidence": true
+      }
+    ],
+    "controls": {
+      "POLAR_orthogonal_max_output_difference": 0.0,
+      "rotated_energy_max_relative_difference": 0.0,
+      "rotated_cos_max_difference": 1.0728836052908974e-07,
+      "cut_cases": [
+        {
+          "case": 1,
+          "photon_energy_GeV": 0.0,
+          "local_deposit_GeV": 0.0005000000237487257,
+          "ISTOP": 2
+        },
+        {
+          "case": 2,
+          "photon_energy_GeV": 0.00019254231301601976,
+          "local_deposit_GeV": 0.00030745769618079066,
+          "ISTOP": 0
+        },
+        {
+          "case": 3,
+          "photon_energy_GeV": 0.00019254231301601976,
+          "local_deposit_GeV": 0.00030745769618079066,
+          "ISTOP": 0
+        }
+      ],
+      "cut_energy_relative_errors": [
+        4.749745128457272e-08,
+        1.839362082783902e-08,
+        1.839362082783902e-08
+      ]
+    },
+    "all_predeclared_component_checks_passed": true,
+    "scope": {
+      "unmodified_pinned_three_kernels_only": true,
+      "standalone_RNG_and_EKBIN_shims_explicit": true,
+      "not_material_transport_or_1997_GCOMPOL": true,
+      "not_detector_Q_merit_or_nuclear_delta_fit": true,
+      "POLAR_field_does_not_make_this_Compton_callpath_polarized": true,
+      "transport_cuts_not_electronics_threshold": true,
+      "Day17_uncredited_preview": true
+    }
+  }
+}

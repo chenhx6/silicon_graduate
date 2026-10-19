@@ -383,3 +383,6 @@ D66三线AD的新增priming：knowledge/research-notes/199tl-three-ad-reference-
 
 
 GR97新增priming：knowledge/research-notes/gr97-stokes-response-and-merit.md。原Eq13漏撇号假设已否决，Eq3/11/13均Eprime/E²；不要把初假设当sourceerratum。九项TableQ/M/派生ε同一模拟，60/150/60与50keV不同response，sqrtdegree不代signedP，实际GCOMPOL/Σ仍缺。正式17仍须新session逐卡，不用本preview授分。
+
+
+Geant3新增priming：knowledge/sources/geant3-vmc-2026-compton-baseline.md。当前public标准callpath未消费POLAR，三原样核/600000事件组件通过不等原1997GCOMPOL/探测器Q；GeV/transportcuts与每晶体电子学门分开。正式17仍需新session带此priming重新逐卡，预习不授分。

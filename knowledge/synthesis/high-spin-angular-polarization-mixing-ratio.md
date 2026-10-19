@@ -136,3 +136,8 @@ P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若
 ### 从Stokes输运到实际校准的对象合同
 
 [[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-5–14与[[gr97-stokes-response-and-merit]]把线性Stokes的reference/degree、不同threshold和absolute/activeΩ归一分开。正确normalizedP与PSD不独立认证能量权重；Q/M/派生ε也不是三组独立证据。原Eq13的误读已按原图纠正，不虚构sourceerratum；实际modifiedproducer/Σ缺口保持。
+
+
+### Producer身份与字段的物理作用
+
+[[geant3-vmc-2026-compton-baseline]] G3-1–10补真实codecomponent：三核原样编译/600000事件通过只验证unpolarizedKN、单位/守恒/旋转/cut语义。POLAR字段、同软件名和版本年不是GR97原modifiedproducer或新的独立实验；计算可复现层与核实验response/Cov层继续分开。

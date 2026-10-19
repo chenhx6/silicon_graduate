@@ -420,3 +420,8 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 ## 偏振输运与merit：GR97原件补核
 
 [[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-5–14与[[gr97-stokes-response-and-merit]]保留完整Stokes正性/2φ旋转、出射部分偏振的纯态混合、原TableI绝对ε与M的派生关系。验证60/150/60keV样本不与统一50keV表裸合并；历史校准与同程序模拟也不增独立实验。Eq9非负degree不能代核谱学signedP；原producer/response/Cov未得时，不迁移40%/10%或hardware排名。
+
+
+## 软件字段存在不认证偏振响应
+
+[[geant3-vmc-2026-compton-baseline]] G3-2/3/5/7/8：当前标准G3COMP不消费POLAR，uniformphi和同RNG偏振对照明确其unpolarizedbaseline身份。真实代码组件的KN/守恒通过不验证polarimeterQ；transportcuts还需与GR97电子学threshold/geometry分开。

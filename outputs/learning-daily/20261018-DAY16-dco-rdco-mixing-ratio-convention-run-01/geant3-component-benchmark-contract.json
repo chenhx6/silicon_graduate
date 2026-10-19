@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-19T12:46:30.532913+08:00",
+  "identity": "GEANT3-G3COMP-COMPONENT-BENCHMARK-01",
+  "repository": "https://github.com/vmc-project/geant3",
+  "commit": "347fc6804dd116c66c2695df5d2c03d166a0364c",
+  "commit_date": "2026-01-06T14:57:02Z",
+  "version": "4.5 percommit;Geant3.21+VMC perREADME,not1997GCOMPOL",
+  "source_files": [
+    {
+      "source_path": "gphys/gcomp.F",
+      "local": "tmp/day16-geant3-producer/gphys_gcomp.F",
+      "sha256": "a97226dc5ae5846cb038e9d2ca38f3591e183a652ff990dceec009a838042020",
+      "git_blob_sha1": "aef13d0711c015aafccdc9ffb805d1d1f67b5199",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gphys/gcomp.F"
+    },
+    {
+      "source_path": "gphys/gfang.F",
+      "local": "tmp/day16-geant3-producer/gphys_gfang.F",
+      "sha256": "b0a6ce43f90372fb2b2098094d78f283d57e2325e5954569bc844412daf3c7dc",
+      "git_blob_sha1": "d97d097f84cd5775d18aa7332d2bac53e9504785",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gphys/gfang.F"
+    },
+    {
+      "source_path": "gphys/gdrot.F",
+      "local": "tmp/day16-geant3-producer/gphys_gdrot.F",
+      "sha256": "7410437bcc96de31c059b29ca001f7ebb6f02a923103d5ca17ad5285f28ae8ea",
+      "git_blob_sha1": "ce6be166e7530904a3bcd84fc0d20f348f1a83a6",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gphys/gdrot.F"
+    },
+    {
+      "source_path": "geant321/pilot.h",
+      "local": "tmp/day16-geant3-producer/geant321_pilot.h",
+      "sha256": "08f612608232d0a8afed53e00805e9109ce998c4e9893845e0ac6dee1ed848fa",
+      "git_blob_sha1": "7cb009f7a7d393ccbdf2ae978d92921cb7950457",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/pilot.h"
+    },
+    {
+      "source_path": "geant321/gcphys.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gcphys.inc",
+      "sha256": "625c163d97462d0adecab776d52f6c2951565aafeddf0ee9d553607fac0382ca",
+      "git_blob_sha1": "b4d199e62bc6729f2ab6f5ce996377d8f7bf1f22",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gcphys.inc"
+    },
+    {
+      "source_path": "geant321/gctrak.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gctrak.inc",
+      "sha256": "0263ce24eee9c3be45a1777b0324d97348fa891719ffc05c839345155c3112b4",
+      "git_blob_sha1": "649299b94384c3885f0c6c4acc186903a5653383",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gctrak.inc"
+    },
+    {
+      "source_path": "geant321/gcking.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gcking.inc",
+      "sha256": "fc8b2d392d3e4009623276f47b5b22ed17c1a1b6deb967c346dd52c05f7b7a42",
+      "git_blob_sha1": "87dcdbbe4366b070473816078d1858275d7d8eeb",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gcking.inc"
+    },
+    {
+      "source_path": "geant321/gckmax.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gckmax.inc",
+      "sha256": "31130c33ce614d57786c55b066dbe6bd74994c6adbe11d20634e1a550990836f",
+      "git_blob_sha1": "b84217557700269d4b6cbad9e90fdb5e8c7a8949",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gckmax.inc"
+    },
+    {
+      "source_path": "geant321/gconsp.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gconsp.inc",
+      "sha256": "e293b3f97481f23dc1ea4680943d573dea5a4d20fdd0d77de0757118c943f690",
+      "git_blob_sha1": "99a066da28109f459558e4a727fff5ba72af663a",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gconsp.inc"
+    },
+    {
+      "source_path": "geant321/gccuts.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gccuts.inc",
+      "sha256": "dc55fa7c1beb3e85d9163606586afa28a5acfc382a1d2df690025130de2756c7",
+      "git_blob_sha1": "8caee02b538eb59a288abe3822777f295a426f0d",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gccuts.inc"
+    }
+  ],
+  "scope": "compilethreeunmodifiedkernelsG3COMP/G3FANG/G3DROT andoriginalheaders,notG3TGAMA/materialtransport/GR97producer",
+  "harness_shims": {
+    "GRNDM": "deterministicParkMiller16807/mod2147483647,64bitstate; REALopeninterval endpointguardonly",
+    "G3EKBIN": "no-op bookkeepingafter photonoutput, no materialtableorfeedbacktothesampledkinematics"
+  },
+  "energies_GeV": [
+    0.0005,
+    0.0015,
+    0.004
+  ],
+  "source_table_energies_MeV": [
+    0.5,
+    1.5,
+    4.0
+  ],
+  "electron_rest_GeV": 0.0005109990615,
+  "events_per_energy": 200000,
+  "base_seed": 20261019,
+  "cos_theta_bins": 40,
+  "phi_bins": 16,
+  "initial_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "transport_cuts_GeV": [
+    0.0,
+    0.0
+  ],
+  "ICOMP": 1,
+  "precision": "defaultREAL4data/doubleconstants,CERNLIB_UNIX, GNUFortran13.3.0; nofdefaultreal8",
+  "direction_control": [
+    0.36,
+    0.48,
+    0.8
+  ],
+  "control_events": 1000,
+  "diagnostic_family_alpha": 1e-06,
+  "DKW_number_curves": 6,
+  "kinematic_relative_tolerance": 5e-06,
+  "tests": [
+    "independentKNcosCDF Gauss256vs512 andsix-cdfDKWdiagnostic; notexperimentalCIorPRNGindependenceproof",
+    "finiteenergybounds,unitnorm,energy/momentum/electronmassshellclosure",
+    "phi16binuniformCDF",
+    "sameRNGrotatedaxis3Dhelpers invariance",
+    "orthogonalPOLARvectorsidenticalsameRNGoutput demonstratesunusedfield",
+    "bothcuts>photonenergy=>localdeposit;electroncut/ICOMP2depositbranchenergyclosure",
+    "publictreefilename/callpathabsenceonly,notglobalcodeabsence",
+    "zero-cutsnotdetector50keVelectronicthreshold",
+    "no missingmaterialresponse/MCcalibrationCovinvented"
+  ],
+  "forbidden": [
+    "original1997producerorTableI40percentMCreplay",
+    "nuclearQ/delta/paritymeasurement",
+    "publishvendorcode/changecredentials/remotes",
+    "equatetransportcutstodetectorelectronicthreshold"
+  ],
+  "partial_day17_only": true
+}

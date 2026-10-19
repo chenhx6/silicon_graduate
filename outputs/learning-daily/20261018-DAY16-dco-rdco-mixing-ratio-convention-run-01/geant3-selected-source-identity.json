@@ -1,0 +1,134 @@
+{
+  "at": "2026-10-19T13:00:28.038650+08:00",
+  "commit": "347fc6804dd116c66c2695df5d2c03d166a0364c",
+  "tree_sha256": "20a9bc541342f801eee8946a41ed5252b16aef4085d2099bfa9bb3d1cb906c58",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/README.md",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/README.md",
+      "sha256": "e6b349a590c3c95c651d3c9c538a3c254a7a63e7f36c54a40b7b3ef31bcc94ba",
+      "tree_blob_sha1": "eef3ccd2159167294a80a186c4bb1031a0304a91",
+      "computed_blob_sha1": "eef3ccd2159167294a80a186c4bb1031a0304a91",
+      "matches": true
+    },
+    {
+      "path": "examples/gctrak.inc",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/examples/gctrak.inc",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/examples_gctrak.inc",
+      "sha256": "c7748223c9eb5fb62640965fdc12e22024fd9bca2f7ff20bbf5e4891ad62bbec",
+      "tree_blob_sha1": "40f72d649f5f7e7c0e812abcf5abaa6bdce9d866",
+      "computed_blob_sha1": "40f72d649f5f7e7c0e812abcf5abaa6bdce9d866",
+      "matches": true
+    },
+    {
+      "path": "geant321/gctrak.inc",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/geant321/gctrak.inc",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/geant321_gctrak.inc",
+      "sha256": "0263ce24eee9c3be45a1777b0324d97348fa891719ffc05c839345155c3112b4",
+      "tree_blob_sha1": "649299b94384c3885f0c6c4acc186903a5653383",
+      "computed_blob_sha1": "649299b94384c3885f0c6c4acc186903a5653383",
+      "matches": true
+    },
+    {
+      "path": "gphys/gcomp.F",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gphys/gcomp.F",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/gphys_gcomp.F",
+      "sha256": "a97226dc5ae5846cb038e9d2ca38f3591e183a652ff990dceec009a838042020",
+      "tree_blob_sha1": "aef13d0711c015aafccdc9ffb805d1d1f67b5199",
+      "computed_blob_sha1": "aef13d0711c015aafccdc9ffb805d1d1f67b5199",
+      "matches": true
+    },
+    {
+      "path": "gphys/gcompi.F",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gphys/gcompi.F",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/gphys_gcompi.F",
+      "sha256": "4557a502560f94ddf4b7df718f6a6d971cb3a262422bb4dddb4820ad93eb5150",
+      "tree_blob_sha1": "7ff8acae441c843429d620f0516d525e273672a0",
+      "computed_blob_sha1": "7ff8acae441c843429d620f0516d525e273672a0",
+      "matches": true
+    },
+    {
+      "path": "gphys/gdrot.F",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gphys/gdrot.F",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/gphys_gdrot.F",
+      "sha256": "7410437bcc96de31c059b29ca001f7ebb6f02a923103d5ca17ad5285f28ae8ea",
+      "tree_blob_sha1": "ce6be166e7530904a3bcd84fc0d20f348f1a83a6",
+      "computed_blob_sha1": "ce6be166e7530904a3bcd84fc0d20f348f1a83a6",
+      "matches": true
+    },
+    {
+      "path": "gtrak/gtgama.F",
+      "url": "https://raw.githubusercontent.com/vmc-project/geant3/347fc6804dd116c66c2695df5d2c03d166a0364c/gtrak/gtgama.F",
+      "status": 200,
+      "local": "tmp/day16-geant3-producer/gtrak_gtgama.F",
+      "sha256": "1d4a902c4ee9d68a6068ee54a9184186f8d2355ee595bfa49fb9cc1111350e51",
+      "tree_blob_sha1": "7d388741bd366ba08cf5e4dd78a6d84563a0bcb5",
+      "computed_blob_sha1": "7d388741bd366ba08cf5e4dd78a6d84563a0bcb5",
+      "matches": true
+    },
+    {
+      "path": "gbase/ginit.F",
+      "local": "tmp/day16-geant3-producer/gbase_ginit.F",
+      "blob_sha1": "af390b2462c33ba164902eef5be2b63723b4a841",
+      "sha256": "f10e1c11ea2fe7686cb73a6d291bd61168b92d2c5431cfa9d3c894d59963cf4d"
+    },
+    {
+      "path": "geant321/gccuts.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gccuts.inc",
+      "blob_sha1": "8caee02b538eb59a288abe3822777f295a426f0d",
+      "sha256": "dc55fa7c1beb3e85d9163606586afa28a5acfc382a1d2df690025130de2756c7"
+    },
+    {
+      "path": "geant321/gcking.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gcking.inc",
+      "blob_sha1": "87dcdbbe4366b070473816078d1858275d7d8eeb",
+      "sha256": "fc8b2d392d3e4009623276f47b5b22ed17c1a1b6deb967c346dd52c05f7b7a42"
+    },
+    {
+      "path": "geant321/gconsp.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gconsp.inc",
+      "blob_sha1": "99a066da28109f459558e4a727fff5ba72af663a",
+      "sha256": "e293b3f97481f23dc1ea4680943d573dea5a4d20fdd0d77de0757118c943f690"
+    },
+    {
+      "path": "geant321/gconst.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gconst.inc",
+      "blob_sha1": "3d4cc2cb3fa1418721e72c4181df868be96f477f",
+      "sha256": "05ce1a157912c96ed763393e1febaf1c372841123e3b44d23f7984ea7ac7bed1"
+    },
+    {
+      "path": "geant321/gcphys.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gcphys.inc",
+      "blob_sha1": "b4d199e62bc6729f2ab6f5ce996377d8f7bf1f22",
+      "sha256": "625c163d97462d0adecab776d52f6c2951565aafeddf0ee9d553607fac0382ca"
+    },
+    {
+      "path": "geant321/pilot.h",
+      "local": "tmp/day16-geant3-producer/geant321_pilot.h",
+      "blob_sha1": "7cb009f7a7d393ccbdf2ae978d92921cb7950457",
+      "sha256": "08f612608232d0a8afed53e00805e9109ce998c4e9893845e0ac6dee1ed848fa"
+    },
+    {
+      "path": "gphys/gfang.F",
+      "local": "tmp/day16-geant3-producer/gphys_gfang.F",
+      "blob_sha1": "d97d097f84cd5775d18aa7332d2bac53e9504785",
+      "sha256": "b0a6ce43f90372fb2b2098094d78f283d57e2325e5954569bc844412daf3c7dc"
+    },
+    {
+      "path": "geant321/gckmax.inc",
+      "local": "tmp/day16-geant3-producer/geant321_gckmax.inc",
+      "blob_sha1": "b84217557700269d4b6cbad9e90fdb5e8c7a8949",
+      "sha256": "31130c33ce614d57786c55b066dbe6bd74994c6adbe11d20634e1a550990836f",
+      "access_route": "https://api.github.com/repos/vmc-project/geant3/git/blobs/b84217557700269d4b6cbad9e90fdb5e8c7a8949"
+    }
+  ],
+  "vendor_contents_not_in_receipt": true
+}
