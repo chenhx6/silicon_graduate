@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Found 1 Google Scholar papers.\n\n[\n  {\n    \"paper_id\": \"gs_k97e5f_e9ft6o\",\n    \"title\": \"Doppler-shift attenuation lifetimes in derived from experimental stopping parameters\",\n    \"authors\": \"M Bister; A Anttila; J Keinonen - Physical Review C; 1977\",\n    \"abstract\": \"The lifetime values of 105±15, 8.4±0.4 16±8, and 185±15 fs for the 2313, 3948, 5690, and 6204 keV levels of N 14, respectively, were measured using the Doppler-shift attenuation method through the C 13 (p, γ) N 14 reaction at E p= 1150 keV. For the Doppler-shift attenuation analysis the correction factors of the nuclear and electronic stopping powers were determined by measuring Doppler-shift attenuation and line shape of γ rays from the 6204→ 2313 keV transition and by measuring range values of the 20, 40, 60, 80, and 100 …\",\n    \"doi\": \"\",\n    \"published_date\": \"1976-12-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://journals.aps.org/prc/abstract/10.1103/PhysRevC.16.1303\",\n    \"source\": \"googlescholar\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 34,\n    \"references\": \"\",\n    \"journal\": \"APSM Bister\",\n    \"volume\": \"\",\n    \"issue\": \"\",\n    \"pages\": \"\",\n    \"year\": 1977,\n    \"extra\": \"{\\\"scholarId\\\":\\\"gs_k97e5f_e9ft6o\\\",\\\"infoText\\\":\\\"M Bister, A Anttila, J Keinonen - Physical Review C, 1977 - APSM Bister, A Anttila, J KeinonenPhysical Review C, 1977•APS\\\"}\"\n  }\n]"
+    }
+  ]
+}

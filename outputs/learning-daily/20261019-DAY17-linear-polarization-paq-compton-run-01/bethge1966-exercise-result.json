@@ -1,0 +1,35 @@
+{
+  "source_contract": {
+    "at": "2026-10-19T15:26:48.599351+00:00",
+    "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+    "question_sha256": "36b4128c8407eaf49bb8de161e054750f4f22bec7d675e8c3b55a9eb55ed2da9",
+    "source_pdf_sha256": "1b0d51590cd0341ac4fa3a496c81252572740d13ea66ee2612f6fbb6ac0ec6d6",
+    "source_pdf": "tmp/day17-bethge1966/bethge1966-archive.pdf",
+    "source_locators": [
+      "printed1053Eq3conditiond",
+      "printed1055Sec3",
+      "printed1053Eq4"
+    ],
+    "model_scope": "localconstantstoppingandfixedkinematicgeometry; symboliconly; nosourcemodelrefit"
+  },
+  "script_sha256": "216926fc9d7756c38a27a52e09a1b3be9d3dcfa910747893e1e283cb0d824a64",
+  "effective_local_stopping": "(K*S_i + S_o*g)/(K + g)",
+  "unresolved_direction": {
+    "Delta_S_i": "t",
+    "Delta_S_o": "-K*t/g"
+  },
+  "source_N0_scale_response": "S_inferred -> b*S_inferred when N0_inferred=b*N0_true",
+  "conditional_shared_scale_covariance": "Cov(S_i,S_j)|scale = Var(b)*T_i*T_j; rank1 for fixed T",
+  "charge_second_minus_mean_squared": "-f*(f - 1)",
+  "checks": [
+    "equalpaths",
+    "incominglimit",
+    "outgoinglimit",
+    "localnull",
+    "N0scale",
+    "chargemoment"
+  ],
+  "actual_source_Sigma_or_lifetime_recovered": false,
+  "IAEA_digitization_normalization_certified": false,
+  "ok": true
+}

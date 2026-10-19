@@ -59,6 +59,9 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 | ISP26-8 | Ep.318MeV与15u质量近似给capture后、减速前起点E/A≈.00142362MeV/u；把声明的总光子能量8MeV宽松上界加到反冲的宽松三角上界也仅.00250874。最低O/Ta实验点仍高约46.55倍；仅为覆盖诊断，不是实际cascade/碰撞重放。 | conditional-kinematic-coverage-bound | task-model | SCH08-2；stopping-coverage-result O_Ta_coverage_proxy | true |
 | ISP26-9 | Sun原文的sp中心为Geant4所用database，10/20%为作者明确Gaussian1σ选择；此IAEA SRIM2013曲线不是其actualproducer。Schürmann使用SRIM2006及v(t)cosψ，当前电子表不替其多项式/Σ；N/Ta selected仅14N点也未恢复其Bister15N原输入。 | matched-response-readiness | primary-companion-and-boundary | SUN23-6；SCH08-9；N-Ta targeted CSV query | true |
 
+| ISP26-10 | 随后新取得Bt1966原五页/六图/四式，原作者明确direct高于charge-derived并归因于N0束电荷计量；S25%有源系统解释，不自动等16行独立σ。原件/编译同实验，不增独立证据。 | new-primary-companion | direct-original | B66-5 | true |
+| ISP26-11 | 原Fig3的断轴/归一/多符号到全部16行的bridge仍partial；新localSeff与N0scale推导不修编译或生成先验，先前比值不升级为错误认定。Bister1977正文仍未得。 | bridge-and-readiness-update | direct-and-task-boundary | B66-8 | true |
+
 ## Analytical Reconstruction and Self-Audit
 
 | pair / ref | 实验行数 | isotope | E/A范围 MeV/u | literal error % |
@@ -92,3 +95,8 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 ## Extracted Pages
 
 [[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[sun-2023-bayesian-dsam-31s]]、[[schuermann-2008-15o-6792-dsam]]。
+
+
+## 后续原实验：Bt1966读取状态更新
+
+[[bethge-1966-heavy-ion-stopping-charge-states]] B66-1–10为本session后续完整原读，supersedes本页初摄入“所有primary未读”的当前状态，仅Bt1966已读。Ward/Forster/Hu/Bister仍没有body，不用新source覆盖那些readiness。S25%作者systematic解释为旧比值补上下文，没有认证完整digitization/Σ或新的actualGeant4基线。

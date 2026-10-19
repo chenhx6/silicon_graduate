@@ -638,6 +638,7 @@ updated: 2026-10-19
 - [[spinhalf-angular-nuisance-response-contract]] - SI实际spin1/2前提的核rest域、末态门/boost反例与A2模块readiness。
 - [[lifetime-strength-audit-165tm-136nd]] - DSAM寿命/强度/Qt几何及feeding/stopping预算分层；Day17内无学分Day18知识。
 - [[iaea-2026-stopping-s-au-o-ta-records]] - 官方电子阻止表的同位素/能区/误差语义；S/Au、O/Ta与DSAM实际响应的边界。
+- [[bethge-1966-heavy-ion-stopping-charge-states]] - 厚靶反向散射与电荷态原实验；束流共同尺度、方法适用条件和阻止输入边界。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。
 

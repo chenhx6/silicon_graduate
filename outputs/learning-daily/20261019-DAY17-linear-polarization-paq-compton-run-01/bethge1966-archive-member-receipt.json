@@ -1,0 +1,56 @@
+{
+  "url": "https://edmond.mpg.de/api/access/datafile/200989",
+  "dataset_doi": "10.17617/3.GRUJYR",
+  "archive_size": 50086033062,
+  "full_archive_downloaded_or_MD5_verified": false,
+  "status": "downloaded-PDF-identity-pending",
+  "script_sha256": "233869bed3178603f817827b0f7c92a8eeb7f8ed275dd3242f20465283566d82",
+  "archive_entries": 26215,
+  "candidate_members": [
+    "21/ZNA-1966-21a-1052.pdf"
+  ],
+  "member": "21/ZNA-1966-21a-1052.pdf",
+  "member_bytes": 4260488,
+  "member_CRC32": "8c3faa83",
+  "member_sha256": "1b0d51590cd0341ac4fa3a496c81252572740d13ea66ee2612f6fbb6ac0ec6d6",
+  "path": "tmp/day17-bethge1966/bethge1966-archive.pdf",
+  "zip_CRC_check": "passed",
+  "ranges": [
+    {
+      "range": "bytes 50086033040-50086033061/50086033062",
+      "bytes": 22,
+      "sha256": "47d4e8461da8d50cbba19070465dcd3f2b6ec7e5aa21392ca743ddc03d55b8a8"
+    },
+    {
+      "range": "bytes 50086033020-50086033039/50086033062",
+      "bytes": 20,
+      "sha256": "b222a2f0f7debd46efdfdf4ec1fcd86c5d5b60eaac0c6f046c6c3dc9d79d574c"
+    },
+    {
+      "range": "bytes 50086032964-50086033019/50086033062",
+      "bytes": 56,
+      "sha256": "47663ea374ad015db5d3a89e3de4c9f916d6525e2791758a6068c6e494342eb8"
+    },
+    {
+      "range": "bytes 50083129571-50086032963/50086033062",
+      "bytes": 2903393,
+      "sha256": "98b21011693f819b95f4c1abc170353cb48442a988cf47183615c98c2502ada8"
+    },
+    {
+      "range": "bytes 12840852602-12840852631/50086033062",
+      "bytes": 30,
+      "sha256": "0ff399720c8d9453e961ab32feb65b04a30d16ea51db983144a8ed1ea5f4a81a"
+    },
+    {
+      "range": "bytes 12840852632-12840852655/50086033062",
+      "bytes": 24,
+      "sha256": "80f373d20dc875196b811a1f4663a55a42e36d06ceba4caef0cdedbaa7550109"
+    },
+    {
+      "range": "bytes 12840852684-12843588774/50086033062",
+      "bytes": 2736091,
+      "sha256": "c2de26a21a0044c2194c23c9402bf29a6b783e15bc37bbeaa4d791c3ca06fee0"
+    }
+  ],
+  "total_bytes_read": 5639636
+}

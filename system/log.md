@@ -2082,3 +2082,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 Day17 checkpoint014 — experimental stopping coverage
 
 同session原窗口继续，formal17只一次/partial18。新增IAEA S/Au/O/Ta电子表及63实验/329模型角色、同位素/能区/literalerror/共同来源与单位控制；不替SunGeant4或SchürmannSRIM2006，不造新τ/CI。canonical四页/真实CSV/程序/回忆/失败记录已写回。verification028报告/25changed27mapped/coverage/boundary/lint/diff0，0errors207warnings；旧review/PLAN/Bib/继承dirty保护。稳定指针main / Audit experimental stopping coverage for DSAM response inputs；hash/push仅runreceipt。原15:00截止/goalactive不变。
+
+## 2026-10-19 Day17 checkpoint015 — original stopping experiment
+
+同session原窗口继续；Bethge1966完整原读五页/六图/四式，公开archive单成员CRC/hash/range核，非全50GB下载；束流N0共同计量、charge二阶矩与localSeff推导/原图桥partial分开。Bister1977bodyaccessfailure保留。新source/IAEA/method/auditledger/index已canonical，旧flags/PLAN/Bib保持，formal17once/18uncredited。verification029 report/26changed28mapped/coverage/boundary/lint/diff0，0errors209warnings。稳定指针main / Read original heavy-ion stopping and charge-state systematics；actualhash/push仅runreceipt，原15:00截止/goalactive不变。

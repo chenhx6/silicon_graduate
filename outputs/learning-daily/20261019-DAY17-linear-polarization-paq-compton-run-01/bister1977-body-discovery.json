@@ -1,0 +1,76 @@
+[
+  {
+    "name": "openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.16.1303",
+    "final_url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.16.1303",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 12486,
+    "sha256": "5d6219b1211fb73adec753042699959bb3d69d6ad3151c594cf7b86f0a171b3d",
+    "title": "Doppler-shift attenuation lifetimes in N14 derived from experimental stopping parameters",
+    "locations": [
+      {
+        "id": "doi:10.1103/physrevc.16.1303",
+        "doi": "https://doi.org/10.1103/physrevc.16.1303",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1103/physrevc.16.1303",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210168441",
+          "display_name": "Physical Review C",
+          "issn_l": "0556-2813",
+          "issn": [
+            "0556-2813",
+            "1089-490X",
+            "1538-4497",
+            "2469-9985",
+            "2469-9993",
+            "2470-0002"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review C",
+        "raw_type": "journal-article"
+      }
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    }
+  },
+  {
+    "name": "aps-harvest",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.16.1303/fulltext",
+    "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.16.1303/fulltext",
+    "status": 401,
+    "type": "application/json",
+    "bytes": 64,
+    "sha256": "4fd1698e8542e222bd9300b8263fdd911f5fe0d088757c0f744b5f18d8ff61e5",
+    "is_pdf": false,
+    "prefix": "{\"errors\":[{\"title\":\"10.1103/PhysRevC.16.1303 not authorized\"}]}"
+  }
+]

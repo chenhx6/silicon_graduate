@@ -1,0 +1,9 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/day17_bethge_stopping_contract.py"
+  ],
+  "exit_code": 1,
+  "error": "ModuleNotFoundError: No module named sympy",
+  "response": "locate existing repository-local scientific dependencies; do not change global environment or treat as physics failure"
+}

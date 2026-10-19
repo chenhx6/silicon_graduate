@@ -1,0 +1,33 @@
+{
+  "doi": "10.1103/PhysRevC.16.1303",
+  "body_obtained": false,
+  "body_read": false,
+  "blocking_inputs": [
+    "primarymethods/figures/actual15Nstoppingandrange",
+    "jointcovariance",
+    "originalnuclear/electroniccorrection/transfercontract"
+  ],
+  "attempts": [
+    {
+      "route": "publisherdiscovery",
+      "status": 403
+    },
+    {
+      "route": "APS harvest exactDOI",
+      "status": 401
+    },
+    {
+      "route": "OpenAlex exactDOI",
+      "status": 200,
+      "OA_pdf": null
+    },
+    {
+      "route": "GoogleScholar exacttitle",
+      "exactresult": true,
+      "pdf_candidate": null,
+      "snippet_not_evidence": true
+    }
+  ],
+  "do_not_auto_retry_same_terminal_urls": true,
+  "next": "bounded publicprimaryBethge1966 within same stoppingproblem; doesnotfillmissingBisterinput"
+}

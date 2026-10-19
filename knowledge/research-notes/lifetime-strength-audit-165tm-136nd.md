@@ -170,3 +170,8 @@ S31-11另把2010Do03两detector的quotedstat/sys半衰期预算与Sunmeanτ转�
 新增[[iaea-2026-stopping-s-au-o-ta-records]] ISP26-1–9，以真实S/Au39行和O/Ta24行及模型角色表替代“已有数据库就能校准sp”的笼统假设。S/Au32S低能Wr1979仅两点，Fs1976与Wr1979作者部分重叠；独立实验/共同尺度仍需primary核查。O/Ta稳定同位素最低能区与15O低能capture recoil有大缺口，不能补Schürmann原15N surrogate。电子阻止和v(t)cosψ合同不同，也不把现今SRIM2013当Sun的Geant4或SchürmannSRIM2006。
 
 实际CSV哈希/原行/单位、同位素匹配插值比、literalerror与修正记录均持久化于source和run artifact。Wr低点.58MeV/(mg/cm²)对应189.701×10⁻¹⁵eV cm²/atom；比值只描述既有数据相对模型，不作新独立验证/fit或τCI。这一节是Day18无学分知识预习，正式17仍只一次，不开19。
+
+
+### Bt1966 primary补充：比值之前先识别计量
+
+[[bethge-1966-heavy-ion-stopping-charge-states]] B66-1–10已原读五页/六图/四式。其25%误差有具体beam-charge系统背景，direct与charge-derived有共用装置/理论输入，S线也不是独立Northcliffe预测。Seff局部权重、N0共同尺度及电荷二阶矩推导可复核，但原Fig3到IAEA16行归一/符号/核扣除桥仍partial；不把.962–1.928模型比值叫实验矛盾。Bister15N/Ta原件仍缺，当前route不补它，也不产生新τ/CI。

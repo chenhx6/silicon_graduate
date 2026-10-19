@@ -1,0 +1,11 @@
+{
+  "url": "https://zfn.mpdl.mpg.de/data/Reihe_A/21/ZNA-1966-21a-1052.pdf",
+  "route_basis": "knownpublicZfN archive path pattern; candidate until bodyidentity verified",
+  "status": 200,
+  "final_url": "https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.GRUJYR",
+  "bytes": 227330,
+  "type": "text/html;charset=UTF-8",
+  "sha256": "91430cad443d430c22290933ffef3db8aa5ce7ec1ac4eb2742f7b856888f361d",
+  "is_pdf": false,
+  "path": "tmp/day17-bethge1966/mpdl.response"
+}

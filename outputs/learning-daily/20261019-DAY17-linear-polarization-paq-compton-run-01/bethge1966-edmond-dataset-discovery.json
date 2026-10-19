@@ -1,0 +1,8 @@
+{
+  "url": "https://edmond.mpg.de/api/datasets/:persistentId/?persistentId=doi%3A10.17617%2F3.GRUJYR",
+  "status": 200,
+  "bytes": 13230,
+  "sha256": "b0d884c798fcfeb0b2a8c367a04998cddebf72d3ce867bc8c8fae37d99719220",
+  "files_count": 4,
+  "matching_files": []
+}

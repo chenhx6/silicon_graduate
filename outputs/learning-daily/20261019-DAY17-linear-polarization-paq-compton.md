@@ -243,6 +243,16 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
 
 `supports`下一原实验输入路线；`limits`用当前SRIM2013替Sun Geant4/database或SchürmannSRIM2006的v(t)cosψ；`revises`按元素/点数认匹配和独立性。Wardprimary403/OpenAlex无OA与schema403保留，N/Ta targeted仅14N编译点没有恢复Bister15N原输入。canonical method/auditledger/source/index已同步；formal17一次、18仍partial、未开19。
 
+### Day18无学分预习：Bt1966原实验的计量来源
+
+[Bethge1966 source](../../knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md) B66-1–10实际原读五页/六图/四式，原件从MPG公开档案唯一成员取得，ZIP CRC/hash核通过；[回执](20261019-DAY17-linear-polarization-paq-compton-run-01/bethge1966-archive-member-receipt.json)只读约5.64MB ranges，未下载/验整个50GB档案。publisher202空响应与原迁移页面非PDF保留，未冒称body。Bister1977精确DOI/metadata、APS403/harvest401/OpenAlex无OA/Scholar无PDF保留，其body与15N/Ta输入仍未得。
+
+B66-3/5：原法要入/出阻止近似相同、局部弱能变；作者direct值整体高于charge-derived，明确归因于N0束电荷计量，S误差25%。两个方法有共用装置/上游质子阻止与模型，不是两个独立现代校准。Fig3的O半经验线与S的charge均值连接不是同一role，S当时缺同类比较；新primary解释旧编译比值的限制，不从当前SRIM比值裁决实验。
+
+B66-9/10的[新符号练习](20261019-DAY17-linear-polarization-paq-compton-run-01/bethge1966-exercise-result.json)：固定localK/正geometryg时Seff=(KSi+gSo)/(K+g)，单bin对(t,−Kt/g)方向不辨识；N0共同scale可给条件rank1Cov，但25%未被赋为该scaleσ。Eq4要二阶电荷矩，不能取meancharge平方。首次python缺SymPy退出1已留，复用repo既有依赖后通过，非新独立软件/实验。
+
+Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，没称勘误；literal归一与IAEA16行/符号/核扣除完整桥仍partial。`supports`有源系统误差/companion，`revises`逐行独立σ假设，`limits`表到实际DSAM速度投影/先验。canonical source/IAEA/method/auditledger/index已同步，不给18信用、不重复17。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -452,7 +462,7 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -578,6 +588,46 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
           "locator": "ISP26-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-1"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-2"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-3"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-4"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-5"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-6"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-7"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-8"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-10"
         }
       ]
     },
@@ -926,7 +976,7 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1080,12 +1130,52 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
           "locator": "ISP26-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-1"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-2"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-3"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-4"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-5"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-6"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-7"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-8"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-10"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -1255,6 +1345,46 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
           "locator": "ISP26-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-1"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-2"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-3"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-4"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-5"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-6"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-7"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-8"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-10"
         }
       ]
     },
@@ -1601,7 +1731,7 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
     },
     {
       "knowledge": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
-      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。",
+      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。 补新primary读取状态与原计量误差解释，保持旧未读历史。",
       "anchor": "电子阻止数据能约束什么，尚缺什么",
       "sources": [
         {
@@ -1639,6 +1769,93 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
           "locator": "ISP26-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-1"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-2"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-3"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-4"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-5"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-6"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-7"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-8"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+      "summary": "新读Bt1966原五页/六图/四式，束流系统/方法合同/局部推导与未闭合图表桥分开。",
+      "anchor": "从原实验看阻止表的误差与对象",
+      "sources": [
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-1"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-2"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-3"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-4"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-5"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-6"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-7"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-8"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-9"
+        },
+        {
+          "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+          "locator": "B66-10"
         }
       ]
     }
@@ -1738,3 +1955,8 @@ Fry2018机构检索429验证页、OpenAlex无关结果均未接受为body；下�
 ### checkpoint014停止本领输入验收
 
 IAEA新source/四页canonical、真实CSV/单位/能区练习及scope已持久化；currentSRIM不当actualpaperproducer、literalerror不造prior或实验CI。verification028记录report/25changed27mapped/coverage/boundary/lint/diff实际exit；lint当前0error207warnings。初index缺链已修/initial留档。matrix18定位命令意外多显示19标题/条目，未读取19来源或做分析/授卡，见correctionreceipt；后续避免相邻卡context。稳定指针main / `Audit experimental stopping coverage for DSAM response inputs`，实际hash/H3/push只publication014。原研究window/goalactive、formal17一次/partial18不变。
+
+
+### checkpoint015原实验计量验收
+
+B66实际primary与公式/图role/counterevidence、真实PDF/hash/CRC/range与初failure已存；report唯一writeback26changed/28mapped，formal17once/partial18不变。verification029保存实际report/coverage/knowledge/boundary/lint/diff/protected/oldreviewchecks；当前lint0error209warnings。稳定指针main / `Read original heavy-ion stopping and charge-state systematics`，actualhash/H3/push只publication015。原研究window/nativegoal仍active，下一实际Geant4stopping对象/模型选择须新freeze与input，不把component认证成Sunproducer。

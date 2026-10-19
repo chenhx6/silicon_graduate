@@ -6,19 +6,21 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; stopping checkpoint014
+## Active handoff — DAY17 original window active; Bt1966 checkpoint015
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止/15–16收束不改。nativegoal/runactive/Farmer42019沿用；001–013actualH3/Giteepush。formal17仅007后一次/course next18/count17、partial18；不授18或研究19。原runner16:06中断不伪造normalexit。014稳定指针main / `Audit experimental stopping coverage for DSAM response inputs`，actualhash/push仅publication014/runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止/15–16收束不改。nativegoal/runactive/Farmer42019沿用；001–014actualH3/Gitee pushed。formal17仅007后一次/course next18/count17、partial18；不授18或研究19，原runner16:06中断不伪造normalexit。015稳定指针main / `Read original heavy-ion stopping and charge-state systematics`，actualhash/push仅publication015/runreceipt。
 
-IAEA新source iaea-2026-stopping-s-au-o-ta-records，home/两pair全表/392selectedCSV与references实际核；63实验+329SRIM2013，pairCSV与全库selected相等。电子阻止定义核停已扣/可忽略；S/Au全32S、低能Wr1979只有两点，O/Ta无15O且最低.1167807MeV/u。Ep.318/15u质量proxy初.001424，声明总γ8MeV宽松三角界.002509，仍有46.55倍能区缺口，非actualcascade/collision/τ。
+新Bethge1966 source完整原读五页/六图/四式/全页视觉核。publisher202空body；旧MPDLpath迁Edmond公开档案10.17617/3.GRUJYR，Range读取目录和唯一21/ZNA-1966-21a-1052.pdf约5.64MB，解压4.26MB PDF/CRC/hash/题名卷页核，不下载50GB全档案或称全MD5通过。程序/逐rangehash/actualscope存run-dir，无raw/PDF进Git。
 
-同位素匹配实验/当前SRIM比值仅描述，不是SunGeant4或SchürmannSRIM2006；literalerror不认证独立Gaussianσ，Fs/Wr作者部分重叠/模型训练依赖未核。原稿跨17/18O至16O比值已剔除，initialresult/correction保留。Wr单位.58→189.701×10⁻¹⁵eVcm²/atom，不假定density。canonical source/method/auditledger/index已写回；raw/PLAN/Bib/旧review保持。
+B66-3/5/6/7：厚靶法要求入/出阻止近似相同/局部弱能变；作者direct整体高于charge-derived，归因N0束电荷计量偏高，S误差25%。两方法有共用装置/上游质子阻止，S图实线是charge-derived均值连接，非Northcliffe独立预测。S原缺同类比较，不能用综括excellentagreement宣称现代独立校准。Fig3断轴初目视疑似factor10已反证/留档，literal归一到IAEA16行/符号/核扣除bridge仍partial，未改数据/称erratum。
 
-API schema403未读；wholedata/refs/pairCSV下载实际成功。Ward1979 DOI10.1139/p79-092 metadata/abstractonly，publisher403、OpenAlex无OA；Forster1976/Hu1999只metadata，不认primarybody。Schürmann的Bister1977 Ref18是下一实际低能15N/Ta surrogate入口，未读body；N/Ta当前compiled点仅14N，不能冒称恢复原输入。下一可查Bister精确primary或数据库方法原文，先冻结priming；不重试终态URL、不用toy填Σ。
+新局部符号练习Seff=(KSi+gSo)/(K+g)，单bin不辨识(t,−Kt/g)；N0scale导共同Cov外积与charge二阶矩只是条件模型，不把25%赋Var(b)/不造actualΣ或τ。初python缺SymPy exit1保留，复用repo既有依赖后actual0。IAEA source新增ISP26-10/11，method/auditledger/index已同步，旧review/claimflags保持。
 
-verification028应以实际receipt为准；报告唯一writeback25changed/27mapped、coverage17/partial18、旧flags/PLAN/Bib保护，lint0error207warnings(145key58raw4parser)。028initiallint在index加入前报INDEX_MISSING，后已修，initial留档。matrixDay18的rg上下文意外显示19heading/recall/routes/deliverable，未开19source/body/分析或credit，incident明记，不继续邻卡。
+Bister1977 Ref18 exactDOI10.1103/PhysRevC.16.1303身份核，publisher403/harvest401/OpenAlex无OA/Scholar仅snippet无PDF，body/原15N停止参数仍未得，不重复终态URL/从摘要补body。当前IAEA63实验/329模型scope及S/Au32S/O-Ta无15O/低能缺口沿用。SunactualGeant4阻止database/config仍缺，currentSRIM2013并非其producer。
 
-研究窗口仍有约15小时，必须clock/候选池刷新继续highinformationactualinput；到原15点停止研究并整日收束/receipt/checks/actualpublish齐后才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+verification029以actualreceipt为准：report/26changed28mapped/coverage/boundary/lint/diff，0errors209warnings(146key59raw4parser)，新B66全needs_review、ISP旧rows/PLAN/Bib保持。raw/PLAN/Bib/credentials/继承daemon/oldreceipts/旧log不进index，log只HEAD+ownentry。
+
+原窗口仍余约15h，刷新clock/候选池继续高信息input；下一可独立核实际可用Geant4 electronicstopping组件与S/Au数据对象/模型选择，先冻priming，绝不认证Sunpaperproducer/用更多toy填Σ。到原15点停止新研究，整日收束/检查/receipt/actualpublication齐才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

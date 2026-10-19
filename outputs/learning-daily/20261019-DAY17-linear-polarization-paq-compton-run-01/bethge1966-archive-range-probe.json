@@ -1,0 +1,9 @@
+{
+  "url": "https://edmond.mpg.de/api/access/datafile/200989",
+  "status": 206,
+  "content_range": "bytes 50085967505-50086033061/50086033062",
+  "content_length": "65557",
+  "accept_ranges": "bytes",
+  "type": "application/zip",
+  "bytes_read": 65557
+}

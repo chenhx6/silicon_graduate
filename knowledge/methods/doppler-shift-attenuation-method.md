@@ -130,3 +130,8 @@ S31-11的旧RISINGcluster/Miniball两预算还提示：meanτ/half-life及stat/s
 [[iaea-2026-stopping-s-au-o-ta-records]] ISP26-1–9保存实际官方S/Au、O/Ta表。电子截面−dE/dx=nS不含完整核散射/速度投影；63实验行与329SRIM模型点分列，literal百分比误差无共同Σ或统一置信定义。S/Au六组全32S，O/Ta全无15O且最低实验能量.1167807MeV/u。Ep.318MeV的15O质量近似起点约.001424MeV/u，即使声明总γ能量8MeV宽松界也仍有约46.55倍能区缺口。这是覆盖控制，不是新停止程/F/τ计算。
 
 Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013曲线认作其producer或以同源模型比值直接更新10/20%Gaussian先验（SUN23-6）。Schürmann用SRIM2006投影历史与15N/Ta上游控制；现今电子表不补原collision/多项式/材料/Σ（SCH08-9）。实际下一输入应是matching isotope/velocity/material的primary方法、核阻止扣除和共同误差，而非按表行数缩小系统预算。
+
+
+### 厚靶参考的局部量与共同归一
+
+[[bethge-1966-heavy-ion-stopping-charge-states]] B66-3/5/9/10给更具体的输入门：原反向散射法Eq3要求入/出路径阻止近似相同。放开为两个局部量，在固定K与正几何g下只识别Seff=(KSi+gSo)/(K+g)，单谱bin不能拆两路径；不是任意强能变轨道的公式。作者束流计量N0偏高使直接S整体偏高，25%不当逐点独立σ。共同scale模型的Cov外积和有效电荷二阶矩只是条件推导，无原Cov恢复；这类电子表仍不替完整DSAM速度投影。

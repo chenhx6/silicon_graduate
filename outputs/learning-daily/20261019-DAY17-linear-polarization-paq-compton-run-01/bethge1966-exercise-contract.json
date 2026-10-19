@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T15:26:48.599351+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "question_sha256": "36b4128c8407eaf49bb8de161e054750f4f22bec7d675e8c3b55a9eb55ed2da9",
+  "source_pdf_sha256": "1b0d51590cd0341ac4fa3a496c81252572740d13ea66ee2612f6fbb6ac0ec6d6",
+  "source_pdf": "tmp/day17-bethge1966/bethge1966-archive.pdf",
+  "source_locators": [
+    "printed1053Eq3conditiond",
+    "printed1055Sec3",
+    "printed1053Eq4"
+  ],
+  "model_scope": "localconstantstoppingandfixedkinematicgeometry; symboliconly; nosourcemodelrefit"
+}

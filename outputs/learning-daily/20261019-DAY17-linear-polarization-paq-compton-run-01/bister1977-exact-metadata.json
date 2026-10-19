@@ -1,0 +1,20 @@
+{
+  "doi": "10.1103/PhysRevC.16.1303",
+  "title": "Doppler-shift attenuation lifetimes in 14N derived from experimental stopping parameters",
+  "authors": [
+    "M. Bister",
+    "A. Anttila",
+    "J. Keinonen"
+  ],
+  "journal": "Physical Review C",
+  "volume": "16",
+  "pages": "1303-1308",
+  "year": 1977,
+  "metadata_source": "academic_search Crossref exactDOI actualtoolresponse",
+  "body_read": false,
+  "public_discovery": {
+    "landingUrl": "https://link.aps.org/doi/10.1103/PhysRevC.16.1303",
+    "status": 403,
+    "fetchedAt": "2026-10-19T15:18:06.790Z"
+  }
+}

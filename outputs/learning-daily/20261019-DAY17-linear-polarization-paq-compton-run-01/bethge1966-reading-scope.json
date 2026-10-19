@@ -1,0 +1,39 @@
+{
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "at": "2026-10-19T15:25:56.476400+00:00",
+  "body_sha256": "1b0d51590cd0341ac4fa3a496c81252572740d13ea66ee2612f6fbb6ac0ec6d6",
+  "body_pages": 5,
+  "printed_pages": "1052–1056",
+  "identity_verified": {
+    "title": "Energieverluste und Ladungszustände schwerer Ionen beim Durchgang durch Materie",
+    "authors": [
+      "K.Bethge",
+      "P.Sandner",
+      "H.Schmidt"
+    ],
+    "journal": "Z.Naturforschg21a1052–1056[1966]",
+    "received": "3Mar1966",
+    "Crossref_DOI": "10.1515/zna-1966-0727"
+  },
+  "actual_read_scope": [
+    "fullfivepage mainline/refs",
+    "Fig1 geometry",
+    "Fig2 B/N comparison",
+    "Fig3 O/S direct/charge/inherited comparisons",
+    "Fig4 O chargecomponents",
+    "Fig5 S chargecomponents",
+    "Fig6 effectivecharge/universalcurve",
+    "Eqs1–4",
+    "allfivepages visuallyinspected; sourceaxis/Eq3 highresolutioncrops"
+  ],
+  "tables": 0,
+  "boundaries": [
+    "nooriginalbins/beamcharge/fitCov",
+    "noindependent reconstructionofallgraphpoints",
+    "Fig3 reducedordinate literalnormalization not fully bridged to compilation",
+    "noauthentication of dataset digitization or nuclear/electronic subtractionworkflow",
+    "full46GBarchive not downloaded/MD5notverified; selectedmemberZIPCRCchecked"
+  ],
+  "working_inference": "sourceexplains uniformdirect-vschargeoffset via beamcharge; doesnotestablishCovoractualSRIMfailure",
+  "credits": "17once,18uncredited,no19"
+}

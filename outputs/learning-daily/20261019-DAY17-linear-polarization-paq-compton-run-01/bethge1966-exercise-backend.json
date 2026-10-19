@@ -1,0 +1,7 @@
+{
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "sympy": "1.14.0",
+  "sympy_location": "tmp/day16-jt74/python-deps/sympy/__init__.py",
+  "command": "PYTHONPATH=tmp/day16-jt74/python-deps python3 system/scripts/day17_bethge_stopping_contract.py",
+  "olddependency_reused_not_new_independent_software": true
+}
