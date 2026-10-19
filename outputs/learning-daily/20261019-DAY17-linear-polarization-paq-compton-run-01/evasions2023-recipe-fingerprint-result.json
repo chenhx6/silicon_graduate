@@ -1,0 +1,150 @@
+{
+  "at": "2026-10-19T22:48:44.681834+00:00",
+  "script_sha256": "e807da96ab59999a5b4d6b2831069d75dc99304126c7d44792b81271c5499815",
+  "contract_sha256": "11162a50c556da697fdf3200620292f7631de9f23cb6ae3566e2e9ff5e15bf53",
+  "positive_Si_dE_records": 7933,
+  "unique_Si_theta_values": 16,
+  "recipe_formula": "theta=atan((24+.75+1.5*index)/119.8), index 0..15",
+  "actual_angle_rows": [
+    {
+      "stored_theta_degrees": 11.672762870788574,
+      "events": 541,
+      "nearest_recipe_strip_index": 0,
+      "predicted_recipe_theta_degrees": 11.672762620437647,
+      "stored_minus_recipe_degrees": 2.503509275442184e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.79999735809893
+    },
+    {
+      "stored_theta_degrees": 12.359054565429688,
+      "events": 625,
+      "nearest_recipe_strip_index": 1,
+      "predicted_recipe_theta_degrees": 12.359054193847903,
+      "stored_minus_recipe_degrees": 3.7158178400886754e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.79999628394499
+    },
+    {
+      "stored_theta_degrees": 13.041762351989746,
+      "events": 494,
+      "nearest_recipe_strip_index": 2,
+      "predicted_recipe_theta_degrees": 13.041762304296125,
+      "stored_minus_recipe_degrees": 4.769362149659173e-08,
+      "implied_Z_mm_if_recipe_index_assumed": 119.79999954638556
+    },
+    {
+      "stored_theta_degrees": 13.720722198486328,
+      "events": 602,
+      "nearest_recipe_strip_index": 3,
+      "predicted_recipe_theta_degrees": 13.720722647915506,
+      "stored_minus_recipe_degrees": -4.494291783174731e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000407824703
+    },
+    {
+      "stored_theta_degrees": 14.395776748657227,
+      "events": 560,
+      "nearest_recipe_strip_index": 4,
+      "predicted_recipe_theta_degrees": 14.395776927955696,
+      "stored_minus_recipe_degrees": -1.7929846940489824e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000155679777
+    },
+    {
+      "stored_theta_degrees": 15.066773414611816,
+      "events": 548,
+      "nearest_recipe_strip_index": 5,
+      "predicted_recipe_theta_degrees": 15.066772999428867,
+      "stored_minus_recipe_degrees": 4.151829493537207e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.7999965415214
+    },
+    {
+      "stored_theta_degrees": 15.733565330505371,
+      "events": 373,
+      "nearest_recipe_strip_index": 6,
+      "predicted_recipe_theta_degrees": 15.733564991720531,
+      "stored_minus_recipe_degrees": 3.387848401814608e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.79999728599978
+    },
+    {
+      "stored_theta_degrees": 16.396013259887695,
+      "events": 564,
+      "nearest_recipe_strip_index": 7,
+      "predicted_recipe_theta_degrees": 16.396013409397924,
+      "stored_minus_recipe_degrees": -1.4951022819786886e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000115441901
+    },
+    {
+      "stored_theta_degrees": 17.053985595703125,
+      "events": 508,
+      "nearest_recipe_strip_index": 8,
+      "predicted_recipe_theta_degrees": 17.05398521157115,
+      "stored_minus_recipe_degrees": 3.8413197600561944e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.7999971353464
+    },
+    {
+      "stored_theta_degrees": 17.707353591918945,
+      "events": 519,
+      "nearest_recipe_strip_index": 9,
+      "predicted_recipe_theta_degrees": 17.707353870275345,
+      "stored_minus_recipe_degrees": -2.783563992636573e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000200871885
+    },
+    {
+      "stored_theta_degrees": 18.355998992919922,
+      "events": 533,
+      "nearest_recipe_strip_index": 10,
+      "predicted_recipe_theta_degrees": 18.35599940844627,
+      "stored_minus_recipe_degrees": -4.155263475524862e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000290677825
+    },
+    {
+      "stored_theta_degrees": 18.99980926513672,
+      "events": 494,
+      "nearest_recipe_strip_index": 11,
+      "predicted_recipe_theta_degrees": 18.999808418155762,
+      "stored_minus_recipe_degrees": 8.469809564815023e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.79999424693146
+    },
+    {
+      "stored_theta_degrees": 19.638673782348633,
+      "events": 385,
+      "nearest_recipe_strip_index": 12,
+      "predicted_recipe_theta_degrees": 19.638674059857223,
+      "stored_minus_recipe_degrees": -2.775085903294894e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000183309737
+    },
+    {
+      "stored_theta_degrees": 20.27249526977539,
+      "events": 564,
+      "nearest_recipe_strip_index": 13,
+      "predicted_recipe_theta_degrees": 20.272496043464894,
+      "stored_minus_recipe_degrees": -7.736895035748148e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000497722764
+    },
+    {
+      "stored_theta_degrees": 20.901180267333984,
+      "events": 301,
+      "nearest_recipe_strip_index": 14,
+      "predicted_recipe_theta_degrees": 20.901180592153253,
+      "stored_minus_recipe_degrees": -3.248192683713569e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.80000203781448
+    },
+    {
+      "stored_theta_degrees": 21.524641036987305,
+      "events": 322,
+      "nearest_recipe_strip_index": 15,
+      "predicted_recipe_theta_degrees": 21.52464038981546,
+      "stored_minus_recipe_degrees": 6.471718450029584e-07,
+      "implied_Z_mm_if_recipe_index_assumed": 119.79999603539225
+    }
+  ],
+  "max_abs_angle_residual_degrees": 8.469809564815023e-07,
+  "matches_predeclared_recipe_within_float_tolerance": true,
+  "raw_track_energy_6867_to_6883_keV_inclusive": {
+    "tracks": 26,
+    "events": 26,
+    "boundary": "raw observed energy window; no nuclide/purity/original veto attribution"
+  },
+  "cannot_recover_quadrant_raw_amplitude_or_full_PID": true,
+  "recipe_compatibility_is_not_independent_geometry_precision_or_original_producer_certification": true,
+  "source34_and_data_hashes_unchanged": true,
+  "no_new_experimental_tau_branch_or_CI": true,
+  "ok": true
+}

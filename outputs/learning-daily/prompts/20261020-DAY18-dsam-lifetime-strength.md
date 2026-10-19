@@ -160,3 +160,7 @@ EV23-18–23/F22-74明确treecoords已global量级，public−17相对修正不�
 ### Day17 checkpoint041 priming：AppendixB校准
 
 F22-75–86完整B/7图2表，canonical保7线σ/64cal(62numeric/1missing/1ambiguous)，coreE不等TrackEeff，quotedgain/offset误差需共同Cov不当intrinsiclineσ。Eu时间两角色activity仅条件算术，NNDC/IAEA/LNHB TLS无body不补half/mean定论或更正ε。正式18仍独立session/不换旧checks。
+
+### Day17 checkpoint042 priming：生成recipe指纹
+
+EV23-24–28/F22-87旧Backup早已读，新actualSiθ16值与119.8mm stripcenter recipe match至float8.47e−7deg，只生成规则非独立geometry。index可恢复但quad/rawcal/Σ缺；sourceγ条件selfassignment不veto，原6867–6883窗26tracks只descriptor。初JIT接口错误保档；正式18独立session不换旧checks。

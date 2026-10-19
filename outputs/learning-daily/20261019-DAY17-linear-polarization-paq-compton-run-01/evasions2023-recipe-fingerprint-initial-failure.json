@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "error": "ROOT::VecOps has no Abs member; RDF JIT failed before result artifact",
+  "script_sha256": "2e2cb04a20171e46f6f086f690138195c695c8f6f05f849ea32f4a82909c022a",
+  "data_unchanged": true,
+  "correction": "use explicit per-track std::abs loop in fresh process; no selection or scientific input changed"
+}

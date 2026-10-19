@@ -1,0 +1,13 @@
+{
+  "identity": "EV23-ACTUAL-RECIPE-FINGERPRINT-01",
+  "data": "tmp/day17-fougeres2023/producer-source/data/data.root",
+  "data_sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+  "source_manifest": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-producer-source-manifest.json",
+  "recipe_source": "src/functions/Backup/extractionData.C",
+  "first_strip_center_mm": 24.75,
+  "strip_pitch_mm": 1.5,
+  "Target_SPIDER_mm": 119.8,
+  "angle_tolerance_degrees": 1e-05,
+  "no_parameter_fit_or_gate_scan": true,
+  "boundary": "already-read source plus new actual data fingerprint; not independent experiment or full original extraction replay"
+}

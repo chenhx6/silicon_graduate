@@ -1,0 +1,8 @@
+{
+  "initial_cached_check_exit_code": 2,
+  "guard_rejected_before_commit": true,
+  "failed_commit_created": false,
+  "original_stderr_sha256": "d8fbd07d5fb892d857f3318bf0c2f1b038cc0e54976bc35ec39241e1dd204a69",
+  "normalized_delivery_sha256": "3fa7e8c7ce64ab43c2bb99b86a601075face2f23694a691a750f74cb5fb7b97b",
+  "change": "trim delivery stderr line-end whitespace only; original stderr retained in tmp, scientific code/data/results unchanged"
+}

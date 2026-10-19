@@ -1,0 +1,20 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md": 87,
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 28
+  },
+  "artifacts": [
+    {
+      "file": "evasions2023-recipe-fingerprint-result.json",
+      "true_fields": [
+        "ok",
+        "matches_predeclared_recipe_within_float_tolerance",
+        "cannot_recover_quadrant_raw_amplitude_or_full_PID",
+        "recipe_compatibility_is_not_independent_geometry_precision_or_original_producer_certification",
+        "source34_and_data_hashes_unchanged",
+        "no_new_experimental_tau_branch_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

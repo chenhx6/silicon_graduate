@@ -58,6 +58,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint042：旧producer的新actualdata指纹问题
+
+[[evasions-2023-public-release-native-readiness]] EV23-24–28/F22-87。旧scope确认Backup早已读，本轮不计新source；新查询恢复16个Siθ与119.8mm recipe的一致性、index信息与仍缺quadrant/原cal的边界。
+
+
 ### checkpoint041：实际AppendixB校准输入
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-75–86完整8页/7图2表视觉文本核，canonical保存七线σ与64通道原校准表。coreE/TrackE及missing/ambiguous分层；官方Eu half/mean请求TLS无body，不以记忆补证。
@@ -180,6 +185,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint042：实际16角指纹与source-veto边界
+
+[程序](../../system/scripts/day17_evasions_recipe_fingerprint.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-result.json)固定recipe，无fitZ/扫gate；最大角差8.47e−7deg只为float写入一致性。原file6867–6883keV26tracks/26events与无效selfassignmentveto分开，不指认核素/物理keyyield。初API名称JIT失败保档，actual correctedquery exit0，source34/datahash保。
+
 
 ### checkpoint041：实际校准的参数Cov与时间角色
 
@@ -6094,6 +6104,71 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "F22-86"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "存储角度的生成规则指纹",
+      "summary": "EV23-24–28与canonical16角/occupancy，actualrecipe相容但不恢复quad/rawcal或独立geometry；真实未veto能窗descriptor。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-24"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-25"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-26"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-27"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-28"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "Ch3实际校准与Bρ原表达式边界",
+      "summary": "F22-87补119.8的actualdatarecipe指纹，保持geometryphysical验证边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-87"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Si角度生成指纹：可恢复index，不能恢复原标定",
+      "summary": "整合可恢复index与不可恢复quad/参数Cov的信息边界，旧source不算新证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-24"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-25"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-26"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-27"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-28"
+        }
+      ]
     }
   ]
 }
@@ -6328,3 +6403,9 @@ verification054核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 ### checkpoint041原校准输入验收
 
 verification055核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及实际表/Covartifact；通过后manifest041/commitguard/H3。Eu官方body缺口不冒事实，原windowactive/formal17once/partial18/no19，无新实验τ/BR/CI。
+
+### checkpoint042实际指纹验收
+
+verification056核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及新actualdataartifact。通过后manifest042/commitguard/H3；初JIT失败/floatprecision/旧sourcepriming均不冒实验精度或独立证据，原windowactive/17once/partial18/no19。
+
+042cachedcheck发现初JIT stderr两行尾空格(exit2)，guard在commit前拒绝、未生成失败commit；保原tmpstderr/hash与initialfailure，交付文本只去行尾空格后重过cached门。

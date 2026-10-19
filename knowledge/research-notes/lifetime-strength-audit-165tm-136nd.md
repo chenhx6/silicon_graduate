@@ -387,3 +387,11 @@ SPIDER图/表/default几何与宽度须matching：σθ与∆φ分割宽不同；
 B.4是coreE，Ch3效率图TrackE；同source不等同observable/selection。Eu初activity/age/time实际数给mean/half两角色Astart4461.82/6932.14/s，ratio1.553656为条件算术，四个官方HTTPSTLS失败均无body，当前不靠记忆裁τ/eff更正。保失败、不降TLS、不强配1.80归一。
 
 [实际参数Cov练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-result.json)：Q2strip1在5485.6keV的unknownρ预测尺度1.999–101.741keV，不是intrinsicFWHM或原CI；共同gain/offset产生跨eventCov，不能作独立eventsmear。TableB1近7MeVσ4.4±2.1→FWHM10.34，quotedfituncert/truekernel分开。Si6878在线cal与longbenchmark至少共享线/装置，eventsidentity未知不数完全独立验证。
+
+### Si角度生成指纹：可恢复index，不能恢复原标定
+
+[[evasions-2023-public-release-native-readiness]] EV23-24–28/F22-87在已读Backup与新Ch3/B输入下作actualquery，不计新sourcebody或独立data。7933个positiveSi_dE的16个Siθ逐项match固定119.8mm/24.75+1.5i stripcenter recipe，最大残差8.47e−7deg。source页canonical保16值/occupancy，数值精度是写入规则的浮点指纹，不是survey或truepositionresolution。
+
+可恢复recipeindex0..15，仍缺quadrant/rawamplitude/完整calCov，不能由此补Q1strip14或唯一选TableB2 gain。Backup的GATCONF1/Brho>0/target1–5链与QPL/time只comment、γ条件只selfassignment应分层；原data里6867–6883keV inclusive确有26tracks/26events，不把它们全叫某核素污染或直接作一维veto。
+
+[新query结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-result.json)与34hash保；初ROOT RVecOps Abs接口名称编译失败已保，freshprocess逐track std::abs成功，原fixedquestion/selection不改。下一可用actualopticalangles核mrad/θlab生成合同，但θ一致也不能独定φ handedness/相对frame；不以缺原job/Σ填MODELhistory。

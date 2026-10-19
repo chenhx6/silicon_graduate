@@ -2206,3 +2206,7 @@ EV23-18–23/F22-74与ledgercanonical，frame先验误认计数前纠正/冻结�
 ### Day17 checkpoint041：完整校准表与shared参数
 
 F22-75–86/B完整原读、canonical7线/64cal字面值与条件Cov/时间角色，官方Eubody未得不造更正。verification055/manifest041/commitguard/H3后发布，main / `Preserve full calibration tables and shared parameter uncertainty boundaries`；原windowactive/17once/partial18/no19。
+
+### Day17 checkpoint042：actual生成recipe指纹
+
+EV23-24–28/F22-87与ledger保16角/occupancy、recipe与independentgeometry分层；旧sourcepriming/初JIT失败留档，不新实验τCI。verification056/manifest042/commitguard/H3后发布，main / `Match public silicon angle data to its archived generation recipe`；原windowactive/17once/partial18/no19。

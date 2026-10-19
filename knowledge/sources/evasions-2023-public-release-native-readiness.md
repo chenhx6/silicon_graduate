@@ -68,6 +68,11 @@ tags: [DSAM, EVASIONS, reproducibility, covariance, readiness]
 | EV23-21 | 同固定query的D=S−(L+U)/2=4.5，eventcluster二阶矩与独立trackdiag均27.75，因为51条各只一个windowtrack；fixedN中心化为27.749944。未提供实际fullCov/CI，不能由此宣称任何gate多track都无Cov或实验τ误差通过。 | actual-moments-and-statistical-boundary | data-query-and-conditional-algebra | conditional-event-result sum_event_outer_products | true |
 | EV23-22 | 同queryS集合/同37.5–39.5MeV门，两Bρ表达式各3events但entry集合不同：共同132983/205708，literal独11896、momentum独124638(0-basedentry)。同计数不保证同sample；未裁哪条是物理key或改源事件。 | actual-membership-counterexample | direct-data-and-declared-kinematics | conditional-event-result same_count_gate_membership_comparison | true |
 | EV23-23 | 原recoilθDS/PID/targetid/contaminationmask未match，meanβ/beamaxisquery不能当原论文selection/BR分母；51entryledger及34hash给可复现边界，未重fitτ/新实验yield/CI。 | original-selection-readiness | synthesis-with-data-contract | conditional-event-contract；F22-20/24/25/71 | true |
+| EV23-24 | 新actualdata指纹：Si_dE>0的7933条Si_theta仅16值，全部match预定atan((24+.75+1.5i)/119.8),i0..15，最大残差8.47e−7deg。旧7933/范围不作新独立data，新增的是逐角occupancy与generatorrecipe相容性。 | actual-producer-fingerprint | direct-public-data-and-code | recipe-fingerprint-result actual_angle_rows；Backup/extractionData.C | true |
+| EV23-25 | 反算Z集中119.8的浮点量级只反映storedrecipe，不能报独立几何survey精度/trueθresolution，也不能据此补DCT/targetshift或认证paperproducer。 | precision-and-source-dependence-boundary | inference-with-actual-fingerprint | recipe-fingerprint-result；F22-68/72 | true |
+| EV23-26 | Si_theta可恢复recipeindex但不能恢复Q1–Q4/rawamplitude/完整calCov；同index四象限collapsed，不能用它补TableB.2 missingQ1strip14或唯一选gain。 | information-loss-and-calibration-readiness | direct-schema-and-recipe | Backup/extractionData.C outputbranches/Si_theta；F22-81/84 | true |
+| EV23-27 | Backup源链target1–5、activeGATCONF1和Brho>0；QPL/time额外门只comment。abs(trackE−6875)>8循环只有selfassignment，不删track/改nbTrack，不能当实际γveto或原2Dcontaminationmask。该body在旧scope已读，本轮是新primary下定向复核非新来源。 | actual-archived-extraction-contract | direct-code | Backup/extractionData.C L8–15/L66–109；producer-reading-scope | true |
+| EV23-28 | 原data.root实际rawtrackE在[6867,6883]keV inclusive内有26tracks/26events；仅观察能窗占用，不把它们全归28Si或从此一刀切原photopeak。原raw/code34hash不改、fullPID/θDS/mask/CI仍缺。 | actual-counter-evidence-and-boundary | direct-derived-data-query | recipe-fingerprint-result raw_track_energy_6867_to_6883_keV_inclusive | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -104,3 +109,28 @@ L4当前可做真实publicderivedevent查询、独立物理变量/响应合同�
 程序先核34原文件hash，再只读Tree，array上限/GetEntry/binding与finite控制实际通过，未运行原未初始化fullMC。window采用半开[lo,hi)，原paperbin边界未知；实际datafield所代表的target/run/PID/history不从12branch补造。初绝对/相对shift误认在selection前已修并保留，不算科学观测，也不能把后来固定工程选择的20个S当paperphotoline实际计数。
 
 此query支持计数、samplemembership与响应合同分开保存：不同表达式可给同3但换一entry，有限实际样本中cluster/track二阶矩恰同并非通用独立性定理。signed4.5只是操作结果，不附实验显著性/置信区间或跨版本keyyield裁决。
+
+## 存储角度的生成规则指纹
+
+[新问题前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-before.md)、[预定recipe/float容差](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-contract.json)、[程序](../../system/scripts/day17_evasions_recipe_fingerprint.py)、[实际结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-result.json)。旧scope已读Backup，本轮只在Ch3/B新输入下对actualdata作新问题查询。初RVecOps Abs名称JIT失败exit1已留档，改用逐track std::abs，固定source/selection不变后实际exit0；无外部/Volumes路径或RECREATE执行。
+
+不能把计算公式写回tree的离散性当独立几何精度：119.8与float一致只支持生成recipe，不能用它消除物理位置/对准/响应的不确定性。所有角度对应多个象限，缺rawcalibration仍缺；原gamma循环无veto的静态发现与26窗口占用也不替原energy-anglemask。
+
+| recipe index | stored Si_theta deg | positive Si_dE records |
+| --- | --- | --- |
+| 0 | 11.672762871 | 541 |
+| 1 | 12.359054565 | 625 |
+| 2 | 13.041762352 | 494 |
+| 3 | 13.720722198 | 602 |
+| 4 | 14.395776749 | 560 |
+| 5 | 15.066773415 | 548 |
+| 6 | 15.733565331 | 373 |
+| 7 | 16.396013260 | 564 |
+| 8 | 17.053985596 | 508 |
+| 9 | 17.707353592 | 519 |
+| 10 | 18.355998993 | 533 |
+| 11 | 18.999809265 | 494 |
+| 12 | 19.638673782 | 385 |
+| 13 | 20.272495270 | 564 |
+| 14 | 20.901180267 | 301 |
+| 15 | 21.524641037 | 322 |

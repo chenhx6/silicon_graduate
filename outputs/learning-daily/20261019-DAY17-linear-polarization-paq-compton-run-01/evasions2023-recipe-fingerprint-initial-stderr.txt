@@ -1,0 +1,25 @@
+input_line_87:2:88: error: no member named 'Abs' in namespace 'ROOT::VecOps'
+auto func1(ROOT::VecOps::RVec<Float_t>& var0) { return ROOT::VecOps::Sum(ROOT::VecOps::Abs(var0-6875.f)<=8.f)
+                                                                         ~~~~~~~~~~~~~~^
+input_line_90:2:88: error: no member named 'Abs' in namespace 'ROOT::VecOps'
+auto func1(ROOT::VecOps::RVec<Float_t>& var0) { return ROOT::VecOps::Sum(ROOT::VecOps::Abs(var0-6875.f)<=8.f)
+                                                                         ~~~~~~~~~~~~~~^
+Traceback (most recent call last):
+  File "/workspace/wiki/system/scripts/day17_evasions_recipe_fingerprint.py", line 62, in <module>
+    main()
+  File "/workspace/wiki/system/scripts/day17_evasions_recipe_fingerprint.py", line 41, in main
+    q = frame.Define('day17_inside_nominal_veto',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/root/lib/ROOT/_pythonization/_rdf_pyz.py", line 483, in _PyDefine
+    return rdf._OriginalDefine(col_name, callable_or_str)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cppyy.gbl.std.runtime_error: Template method resolution failed:
+  ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager> ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager>::Define(string_view name, string_view expression) =>
+    runtime_error:
+RDataFrame: An error occurred during just-in-time compilation. The lines above might indicate the cause of the crash
+ All RDF objects that have not run an event loop yet should be considered in an invalid state.
+
+  ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager> ROOT::RDF::RInterface<ROOT::Detail::RDF::RLoopManager>::Define(string_view name, string_view expression) =>
+    runtime_error:
+RDataFrame: An error occurred during just-in-time compilation. The lines above might indicate the cause of the crash
+ All RDF objects that have not run an event loop yet should be considered in an invalid state.
