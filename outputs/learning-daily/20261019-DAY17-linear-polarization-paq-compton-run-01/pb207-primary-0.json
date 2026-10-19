@@ -1,0 +1,15 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"title\": \"Multipole mixing ratios of the single-neutron-hole transitions of<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" display=\\\"inline\\\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\\\"normal\\\">Pb</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>207</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>\",\n  \"authors\": [\n    \"F. T. Avignone\",\n    \"T. A. Girard\"\n  ],\n  \"year\": 1976,\n  \"doi\": \"10.1103/physrevc.13.2067\",\n  \"journal\": \"Physical Review C\",\n  \"source\": \"crossref\",\n  \"citation_count\": 6,\n  \"abstract\": \"\",\n  \"volume\": \"13\",\n  \"issue\": \"5\",\n  \"pages\": \"2067-2070\",\n  \"publisher\": \"American Physical Society (APS)\",\n  \"type\": \"journal-article\",\n  \"references_count\": 24,\n  \"url\": \"https://doi.org/10.1103/physrevc.13.2067\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"title\": \"Multipole mixing ratios of the single-neutron-hole transitions of<mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\" display=\\\"inline\\\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\\\"normal\\\">Pb</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>207</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>\",\n  \"authors\": [\n    \"F. T. Avignone\",\n    \"T. A. Girard\"\n  ],\n  \"year\": 1976,\n  \"doi\": \"10.1103/physrevc.13.2067\",\n  \"journal\": \"Physical Review C\",\n  \"source\": \"crossref\",\n  \"citation_count\": 6,\n  \"abstract\": \"\",\n  \"volume\": \"13\",\n  \"issue\": \"5\",\n  \"pages\": \"2067-2070\",\n  \"publisher\": \"American Physical Society (APS)\",\n  \"type\": \"journal-article\",\n  \"references_count\": 24,\n  \"url\": \"https://doi.org/10.1103/physrevc.13.2067\"\n}"
+    },
+    "isError": false
+  }
+}

@@ -266,3 +266,7 @@ GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target�
 [[garnsworthy-2019-griffin-facility]] GF19-6–14在完整原件后提供实际Q(.240±.012 at1332)、明确.5QPcos2ξ/90°cloverpair与68–113°crystal角组、三其它能量检查和同207Bi双角色。[[triumf-griffin-compton-source-calibration]]是测量/来源ledger；本note的sharedCov/array反例仍是声明模型，不能称paper实际失败。
 
 源数据对当前generic正向ScaleQ作条件比较给570/1173/1771约.378202/.259795/.198649；源reported为.390/.258/.201，anchor共同误差的rank1项需保留，但actualcrossCov/fitΣ不足以报新置信度。Table7的ICC/summing真实摘要重算另显示photon/total分母的重要性；这些新summary-check不增加独立实验数或替代rawresponse。
+
+### 官方207Pb参考的派生归一与概率门
+
+[[nndc-2011-pb207-bi207-polarization-reference]] N207-1–11用真实selected官方对象核1064/570 roles：MR+.02(.01)/blank不同，EC photonRI/experimentalICC与Adopted theoreticalICC不同。RI570=(100−.131)/(1+α570)直接暴露RI–α依赖；在明确独立bypass/α的设计极限，totalσ的α项抵消而不是重复相加。条件pair emission≈.72918不等marginalRI乘积或detectorε，MR强度份额.0004也不等实际P误差界。这一来源相邻的真实输入审计收紧calibration readiness，原primaryphase/完整Σ仍缺，未造新实验P或CI。

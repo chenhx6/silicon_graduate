@@ -2060,3 +2060,5 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day17检查点004：实际primary标定与坐标/表边界
 
 同session持续active/partial17，原20日15点deadline不改，未开18/19。完整arxivv2原36页/28fig/8table/12eq及关键视觉核、源Q/P参考/half-factor/角组/sharedcalibration、当前kernel/Table7 summary核算canonical；不造actualdata/Σ/CI。原native点与Table2两距离128position/256angle rounding相合，Table8三行/脚注仍partial，原initialfailure/typedinput保持；v1仅targeted两表/图，条目同v2，VoRmetadata200无body/FULL401。Smith只PDF3–4定向同表谱系，旧42claim/flags/review保持。verification010实际report/唯一writeback十页/coverage/boundary/lint/diff0，0errors195warnings，PLAN/Bib保护。canonical scheduler16:06中断/原waiterPID缺失已核，append-only补same-session nativegoal索引，不建daemon/session或伪造runnerexit。稳定指针main / Ground DAY17 GRIFFIN calibration in primary evidence and geometry checks，精确hash/actualH3/push只runreceipt；001–003已actual发布。
+
+- 2026-10-19 DAY17 checkpoint005：官方207Pb reference母态/MR/ICC/RI和派生Cov、β+能量及寿命companion已canonical；1976primary只有identity、body未得。十二knowledge页/partial17，原截止不变，next17/count16不动。稳定指针main / `Audit DAY17 official Pb207 reference and normalization covariance`，actualH3/hash/push只runreceipt。

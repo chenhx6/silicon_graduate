@@ -1,0 +1,2 @@
+
+- 2026-10-19 DAY17 checkpoint005：官方207Pb reference母态/MR/ICC/RI和派生Cov、β+能量及寿命companion已canonical；1976primary只有identity、body未得。十二knowledge页/partial17，原截止不变，next17/count16不动。稳定指针main / `Audit DAY17 official Pb207 reference and normalization covariance`，actualH3/hash/push只runreceipt。

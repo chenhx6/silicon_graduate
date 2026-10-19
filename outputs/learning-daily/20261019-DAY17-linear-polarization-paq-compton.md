@@ -124,6 +124,14 @@ GRS26-13的[输入前合同](20261019-DAY17-linear-polarization-paq-compton-run-
 
 Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5/153.3/161.2未全匹配；首次全表match假设失败和原输入保留。独立原Table2打印中心最近后两角差约.958/.943°，在两表同几何点前提下超.25°保守rounding外界。不同基点/历史producer/未舍入版本未解，不能称实验矛盾或sourceerratum。另定向v1原33页的identity/Table2/Table8及两页图像，相关印刷条目与v2相同；未整读v1或计独立实证。Publisher默认TDM200仅metadata、FULL401，VoR body未得（GF19-18）。Ref38 Smith原PDF3/Table1/caption及PDF4定向核也含相同三行/脚注，仅确认共享角表谱系、不计独立证据（SG19-18），旧17claim/flags保持。clover90°的点几何110/145mm crystalΘ域约67.456–112.544/71.431–108.569°，不认证原paper literalcut/Q（GF19-15–17、GRS26-14）。
 
+### 207Pb官方reference的实际输入与派生概率
+
+[[../../knowledge/sources/nndc-2011-pb207-bi207-polarization-reference]] N207-1–13：本session来源前回忆另冻，官方201102 Adopted/207Bi EC两text实际hash/字段核；完整EC154行及Adopted相关lowlevels/近能母态/comments定向读，未称整1488行/147页评价fullread。1064MR显式+.02(.01)、570MR空，Adopted理论CC与EC实测汇总分开。原P/N/E格式三页视觉核（TU01-5/6/7），NR/BR/NB=1使EC RI成为per100parent photon，source EC字段还含.0380(.0022)%β+，不把“无β”简写当严格零或据此宣告实际偏差。N207-13同时给反向限制：β+直接到1633level的预算约−257.856keV、到569level约805.803keV，whole-source小branch不等于选中1064/570cascade污染；upper.806s不等已发两γ的间隔。
+
+[真实冻结输入](20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-reference-audit-input.json)、[程序](../../system/scripts/day17_pb207_reference_audit.py)、[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-reference-audit-result.json)显示源RI570=(100−.131)/(1+α)派生关系：声明独立bypass/α时，RI≈97.74787、σ≈.02877，totalσ保留Cov为.002、错当RI/α独立为.04152；均是条件诊断，非原Σ/CI恢复。selectedcascade双光子发射名义概率≈.72918，非marginalsingles乘积.72824或detectorε。MR的upperfraction≈.00039984、interferencecoefficient≈.039984，不是实际P误差界。
+
+NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
+
 ## Counter-evidence and missing companion observables
 
 - ST99-2：490-keV的P/RDCO仍保留E2与ΔI0 M1/E2；正号不保证唯一δ/Jπ。ST99-12的ακ是作者理论预测而非已测ICC，不能拿它闭合分支。
@@ -141,7 +149,7 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 
 ## Durable knowledge delta
 
-本轮十个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
+本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
 
 ```knowledge-writeback
 {
@@ -149,7 +157,7 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
   "items": [
     {
       "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
-      "summary": "保存Day17新P/A/Q分层、联合计数/误差设计、改分母非线性与效率归一边界；均为附条件推导。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 新原件实际Q与版本/数据依赖已加入。",
+      "summary": "保存Day17新P/A/Q分层、联合计数/误差设计、改分母非线性与效率归一边界；均为附条件推导。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。",
       "anchor": "共同校准如何进入参考比值",
       "sources": [
         {
@@ -191,6 +199,14 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-6"
         }
       ]
     },
@@ -257,7 +273,7 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
     },
     {
       "knowledge": "knowledge/methods/compton-polarimetry.md",
-      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。 新原件实际Q与版本/数据依赖已加入。 补原表/native点身份、双距离角门与Table8 partial边界。",
+      "summary": "新增primitive计数/响应归一与效率分母使用边界。 新增逐探测器合并、权重迁移、条件界与Rational反例。 增加公开producer/实际组件与版本反证入口。 增加原样完整ScalePlot的能量role与平均kernel核验。 保存默认Lean完整source的ROOTschema正负控制，未得实际data。 新原件实际Q与版本/数据依赖已加入。 补原表/native点身份、双距离角门与Table8 partial边界。 207Pb真实reference/归一依赖与readiness已补。",
       "anchor": "共同校准与估计量归一的联合设计",
       "sources": [
         {
@@ -311,12 +327,20 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-17"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -334,6 +358,14 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-6"
         }
       ]
     },
@@ -402,7 +434,7 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
     },
     {
       "knowledge": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
-      "summary": "本session完整读36页arxivv2/图表式，核原Q/角组/half-factor/重复数据、配置与计数分母，保存实际摘要重算与currentcode比较边界。 补原表/native点身份、双距离角门与Table8 partial边界。 定向v1角表/公开VoR无body访问边界。 共享Smith角表谱系已定向核，非独立实证。",
+      "summary": "本session完整读36页arxivv2/图表式，核原Q/角组/half-factor/重复数据、配置与计数分母，保存实际摘要重算与currentcode比较边界。 补原表/native点身份、双距离角门与Table8 partial边界。 定向v1角表/公开VoR无body访问边界。 共享Smith角表谱系已定向核，非独立实证。 207Pb真实reference/归一依赖与readiness已补。",
       "anchor": "本任务的量化、核验与认识修订",
       "sources": [
         {
@@ -444,12 +476,20 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
         {
           "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
           "locator": "SG19-18"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
-      "summary": "保存实际GRIFFIN source-calibration ledger、参考/target/gate、reportedQ和响应/Σ readiness；不新造实验。 补原表/native点身份、双距离角门与Table8 partial边界。",
+      "summary": "保存实际GRIFFIN source-calibration ledger、参考/target/gate、reportedQ和响应/Σ readiness；不新造实验。 补原表/native点身份、双距离角门与Table8 partial边界。 207Pb真实reference/归一依赖与readiness已补。",
       "anchor": "GRIFFIN源偏振标定的可复用输入账本",
       "sources": [
         {
@@ -483,6 +523,14 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-17"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-6"
         }
       ]
     },
@@ -498,6 +546,72 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-16"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "summary": "两selectedENSDF对象实际字段/母态/MR/ICC/归一/β+及source谱系核验；派生Cov/photonpair练习明确为条件，不造P/CI。 记录Q行2012更新而header201102的row-version边界。 以Q/level预算约束whole-sourceβ+不能直接移作选中cascade污染。",
+      "anchor": "原计数定义的受限练习",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "summary": "仅新增N/EC三页原manual文本/图像定向核，定义NR/BR/NB与IB/IE/TI，旧4claims/flags保持。 补parentE/QP身份边界。",
+      "anchor": "Day17源参考的N/E字段定向应用",
+      "sources": [
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-5"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+          "locator": "N207-5"
+        },
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-7"
         }
       ]
     }
@@ -540,3 +654,7 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 [verification-010](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-010.json)实际report/唯一writeback十页/partial17覆盖/boundary/lint/diff均通过、actualexit0，0errors195warnings（139key/52rawslot/4reactionparser；新source-calibration reaction字段对fusion parser不适用，显式保留warning）。旧ST99/SG98/Smith42条claim行与review状态、PLAN/Bib实际保护通过。Table8科学复现仍partial、原值/initialfailure不改；版本/数据边界见source，不从绿灯声称原实验或完整表成功。
 
 003 main / `Verify DAY17 native consumer schema and stage GRIFFIN primary`已actualH3/Gitee push。本批004稳定指针main / `Ground DAY17 GRIFFIN calibration in primary evidence and geometry checks`，actualhash/H3/push只publication-004。研究仍由同session activegoal继续，原20日15点截止不变；局部来源/表核查完成不是整日结束。
+
+### checkpoint005官方reference验收
+
+官方207Pb两对象/P–N–E格式scope与1976primaryaccess边界见本run对应receipt；[verification-012](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-012.json)为本批当前验收。稳定指针main / `Audit DAY17 official Pb207 reference and normalization covariance`，精确hash与actualH3/push只publication-005。report/唯一writeback十二页、partial17coverage、boundary/lint/diff均须actual通过才发布；本checkpoint不授卡或结束原窗口。下一Hutter2002目前仅metadata，不算已读原件。

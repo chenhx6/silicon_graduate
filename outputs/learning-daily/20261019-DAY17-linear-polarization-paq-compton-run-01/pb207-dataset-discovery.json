@@ -1,0 +1,14 @@
+{
+  "requested_at": "2026-10-19T11:04:33.878784+00:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "payload": {
+    "datasource": "ensdf",
+    "nuc": "207PB",
+    "reaction": "*",
+    "radiation": "*"
+  },
+  "status": 200,
+  "bytes": 107399,
+  "sha256": "d6143657cad8649f70c887bd747e1f13ac139713a95508e270afda9a9735b84a",
+  "scope": "dataset selection metadata only; no nuclear rows read"
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "Day17 targeted manual reading, no full112page claim",
+  "actual_pdf_sha256": "3400f0ae84d24f252f5bed4e6f0227304df9a4608aceb1d67e609db12605a0e9",
+  "pages": [
+    23,
+    24,
+    30
+  ],
+  "printed_pages": [
+    17,
+    18,
+    24
+  ],
+  "visual_inspected": true,
+  "claims": "Parent E/QP, N NR/BR/NB and E IB/IE/TI field definitions; all three targeted original page images/text actually read; no primary207Pb physics certified by format manual",
+  "early_scope": "old sourceTU01 field/rules exposed, newN/E pages actual text+images read thissession",
+  "source": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+  "at": "2026-10-19T11:26:08.206563+00:00"
+}

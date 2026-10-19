@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "N_bypass_source_literal": 0.131,
+    "sigma_bypass_declared": 0.002,
+    "alpha570": 0.0217,
+    "sigma_alpha570": 0.0003,
+    "RI1064": 74.5,
+    "sigma_RI1064": 0.3,
+    "alpha1064": 0.128,
+    "sigma_alpha1064": 0.004,
+    "MR1064": 0.02,
+    "sigma_MR1064": 0.01
+  },
+  "input_kind": "actual official selected-summary fields with explicitly conditional covariance exercise",
+  "assumptions": "bypass primitive and alpha independent only in this diagnostic; source actual covariance/normalization sharing unknown. Pair probability uses selected cascade single lower branch, neglects delayed collection/loss/response; not observed coincidence efficiency. No P prediction or MR phase substitution into old code.",
+  "source_paths": {
+    "adopted": "tmp/day17-pb207-reference/adopted.ens",
+    "bi207ec": "tmp/day17-pb207-reference/bi207ec.ens"
+  },
+  "source_hashes": {
+    "adopted": "81eeda5ce5045342b86f2f89a2612470cd50f707434d710fa670e9f5a5c850de",
+    "bi207ec": "407ab95256d74a0db2be414f91315d13361ce80a9baef3fe36b8744436a47e4d"
+  },
+  "frozen_at": "2026-10-19T11:21:42.653502+00:00"
+}

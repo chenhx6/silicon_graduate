@@ -66,18 +66,19 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Verify DAY17 native consumer schema and stage GRIFFIN primary",
-    "commit": "77ebab802886def96a95fef06b10b430e49b6813",
+    "subject": "Ground DAY17 GRIFFIN calibration in primary evidence and geometry checks",
+    "commit": "bbba2c8cb8a5e281196d022d61cc31ad501c9fe4",
     "status": "pushed",
-    "receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-003.json"
+    "receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-004.json"
   },
-  "research_status": "active; selected GRIFFIN arxiv1809.07183v2 full mainline next",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-006.json",
-  "last_observed_at": "2026-10-19T09:33:59.751689+00:00",
+  "research_status": "active; checkpoint005 official207Pb reference, no day credit",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-012.json",
+  "last_observed_at": "2026-10-19T11:43:27.573336+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
-  "last_runtime_observation_at": "2026-10-19T18:55:28.858832+08:00"
+  "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
+  "canonical_knowledge_changed_pages": 12
 }

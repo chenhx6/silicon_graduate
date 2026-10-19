@@ -1,0 +1,125 @@
+{
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet?search-type=keynumber&key=1976Av01&page=1&size=100",
+  "status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "sha256": "107a79c7e7b1803272d028cb7be2ec0c0cfd36365871e8cd880ce9b190f5a104",
+  "bytes": 1549,
+  "scope": "specific NSR metadata endpoint from actual current JS; no primary body",
+  "json": {
+    "totalResults": 1,
+    "data": [
+      {
+        "keyNumber": "1976AV01",
+        "publicationYear": 1976,
+        "isPrimary": true,
+        "entryDate": "1980-06-25",
+        "modificationDate": "1989-07-24",
+        "codenText": "JOUR PRVCA C13 2067",
+        "referenceType": "JOURNAL",
+        "journalCode": "PRVCA",
+        "indexInformation": "C13 2067",
+        "referenceText": "Phys.Rev. C13, 2067 (1976)",
+        "authors": [
+          {
+            "initials": [
+              "F",
+              "T"
+            ],
+            "lastName": "Avignone",
+            "suffix": "III"
+          },
+          {
+            "initials": [
+              "T",
+              "A"
+            ],
+            "lastName": "Girard"
+          }
+        ],
+        "collaborations": [],
+        "title": "Multipole Mixing Ratios of the Single-Neutron-Hole Transitions of {+207}Pb",
+        "doi": "10.1103/PhysRevC.13.2067",
+        "sentenceGroups": [
+          {
+            "topic": "RADIOACTIVITY",
+            "textFormat": "EXCHANGE",
+            "sentences": [
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "text": "{+207}Bi"
+                  },
+                  {
+                    "primaryType": "MEASURED",
+                    "text": "measured |g|g(|q)"
+                  }
+                ]
+              },
+              {
+                "indexed": true,
+                "phrases": [
+                  {
+                    "primaryType": "NUCLIDE",
+                    "secondaryType": "DEDUCED",
+                    "text": "{+207}Pb transitions deduced |d"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectorGroups": [
+          {
+            "selectors": [
+              "P:207BI;A.",
+              "M:OTHER;A.",
+              "N:207PB;B.",
+              "D:G-MULTIPOLARITY;B."
+            ]
+          }
+        ],
+        "atomicMassSelectors": [],
+        "atomicNumberSelectors": [],
+        "nuclideSelectors": [
+          {
+            "nuclideSubType": "PARENT",
+            "z": 83,
+            "n": 124,
+            "a": 207,
+            "elementName": "Bismuth",
+            "elementSymbol": "Bi",
+            "selectorFlag": "A"
+          },
+          {
+            "z": 82,
+            "n": 125,
+            "a": 207,
+            "elementName": "Lead",
+            "elementSymbol": "Pb",
+            "selectorFlag": "B"
+          }
+        ],
+        "reactionSelectors": [],
+        "subjectSelectors": [
+          {
+            "subjectSubType": "MEASURED",
+            "subjectCode": "OTHER",
+            "selectorFlag": "A"
+          },
+          {
+            "subjectSubType": "DEDUCED",
+            "subjectCode": "G-MULTIPOLARITY",
+            "selectorFlag": "B"
+          }
+        ],
+        "errataEntries": [],
+        "pdfAvailable": false,
+        "xundlAvailable": false,
+        "exforKeys": []
+      }
+    ],
+    "last_page": 1
+  }
+}

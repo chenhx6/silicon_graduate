@@ -1,0 +1,11 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1103/PhysRevC.13.2067\",\n  \"accessDiscovery\": {\n    \"status\": \"failed\",\n    \"landingUrl\": \"https://link.aps.org/doi/10.1103/PhysRevC.13.2067\",\n    \"landingHost\": \"link.aps.org\",\n    \"reason\": \"direct_failed\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 403,\n    \"fetchedAt\": \"2026-10-19T11:22:30.330Z\"\n  }\n}"
+      }
+    ]
+  }
+}

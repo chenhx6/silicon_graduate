@@ -1,0 +1,547 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Hutter+Babilon+Bayer+Galaviz+Hartmann+Mohr+Moller+Rochow+Savran+Sonnabend+Nuclear+Instruments+Methods+A489+247+2002&rows=3",
+  "status": 200,
+  "scope": "candidate identity only; no nextsource body read",
+  "results": [
+    {
+      "DOI": "10.1016/s0168-9002(02)00578-8",
+      "title": [
+        "Polarization sensitivity of a segmented HPGe detector up to 10"
+      ],
+      "author": [
+        {
+          "given": "C.",
+          "family": "Hutter",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Babilon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "Bayer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Galaviz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Hartmann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Mohr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Müller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "Rochow",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Savran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Sonnabend",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Vogt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Volz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Zilges",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
+      ],
+      "volume": "489",
+      "page": "247-256",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            8
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0168900202005788?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0168900202005788?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1142/9789812777218_0021",
+      "title": [
+        "PHOTOREACTIONS IN NUCLEAR ASTROPHYSICS"
+      ],
+      "author": [
+        {
+          "given": "P.",
+          "family": "MOHR",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "BABILON",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "BAYER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "GALAVIZ",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "HARTMANN",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "HUTTER",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "SONNABEND",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "VOGT",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "VOLZ",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "ZILGES",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institut für Kernphysik, Technische Universität Darmstadt, Schlossgartenstraße 9, D-64289 Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Electromagnetic Interactions in Nuclear and Hadron Physics"
+      ],
+      "volume": null,
+      "page": "207-216",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            6
+          ]
+        ]
+      },
+      "link": null
+    },
+    {
+      "DOI": "10.1016/s0375-9474(02)00922-3",
+      "title": [
+        "Measurement of the (γ, n) cross section of the nucleus 197Au close above the reaction threshold"
+      ],
+      "author": [
+        {
+          "given": "K.",
+          "family": "Vogt",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Mohr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Babilon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "W.",
+          "family": "Bayer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D.",
+          "family": "Galaviz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Hartmann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Hutter",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "T.",
+          "family": "Rauscher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Sonnabend",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Volz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A.",
+          "family": "Zilges",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nuclear Physics A"
+      ],
+      "volume": "707",
+      "page": "241-252",
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            8
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0375947402009223?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0375947402009223?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ]
+}

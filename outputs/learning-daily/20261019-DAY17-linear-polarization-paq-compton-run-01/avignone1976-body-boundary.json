@@ -1,0 +1,12 @@
+{
+  "source": "officialAPS harvest route",
+  "doi": "10.1103/PhysRevC.13.2067",
+  "status": "pdf_fetch_failed",
+  "http_error": "401",
+  "body_obtained": false,
+  "primary_body_read": false,
+  "manifest": "tmp/day17-pb207-primary/manifest.json",
+  "no_terminal_retry": true,
+  "NSR_Crossref_identity": "verified only, not measurement/phase body",
+  "at": "2026-10-19T11:27:54.421675+00:00"
+}

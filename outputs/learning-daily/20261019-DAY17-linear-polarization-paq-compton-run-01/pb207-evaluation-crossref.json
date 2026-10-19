@@ -1,0 +1,141 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Kondev+Lalkovski+Nuclear+Data+Sheets+112+707+2011+207&rows=3",
+  "status": 200,
+  "results": [
+    {
+      "DOI": "10.1016/j.nds.2011.02.002",
+      "title": [
+        "Nuclear Data Sheets for A = 207"
+      ],
+      "author": [
+        {
+          "given": "F.G.",
+          "family": "Kondev",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Lalkovski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "112",
+      "page": "707-853",
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            3
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.nds.2014.12.046",
+      "title": [
+        "Nuclear Data Sheets for A = 112"
+      ],
+      "author": [
+        {
+          "given": "S.",
+          "family": "Lalkovski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "F.G.",
+          "family": "Kondev",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "volume": "124",
+      "page": "157-412",
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            2
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    },
+    {
+      "DOI": "10.1016/j.nds.2007.06.002",
+      "title": [
+        "Nuclear Data Sheets for A = 200"
+      ],
+      "author": [
+        {
+          "given": "F.G.",
+          "family": "Kondev",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Lalkovski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "108",
+      "page": "1471-1582",
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Nuclear Data Sheets"
+      ]
+    }
+  ]
+}

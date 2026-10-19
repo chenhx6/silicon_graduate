@@ -1,11 +1,7 @@
-# Day17同session继续：checkpoint004之后
+# Day17同session继续：checkpoint005之后
 
-run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止、15–16收束不改。nativegoalactive/用户已恢复并要求持续，Farmer42019复用，不新开session/daemon。先核当前clock/原runreceipt、publication004/verification010与handoff；001–003已actualpush，004以其真实回执为准。
+继承session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/原run2026-10-19-day-17-01，原2026-10-20 15:00上海截止、15–16收束不变，nativegoalactive/Farmer42019不新开daemon/session。001–004实际push；005以publication-005真实结果为准。先核clock/receipt/handoff/verification012。
 
-完成状态：本session primed来源前回忆、ST99/SG98完整主线及PAQ/sharedCov/arrayweight/Qenergy、publicGRSISort实际组件/fullScalePlot/fullLean native schema正负控制已canonical。新Garnsworthy2019实际arxivv2完整36页/所有28图8表12式和关键视觉核已完成，actualQ/half-factor/Θvsϑvsξ/参考及共享source数据写入新source/experimentledger，summary currentScaleQ与Table7实际0。当前十knowledge页/唯一writeback，不是新experimentalP/δ/CI。
+当前十二knowledge页/唯一writeback，formal17尚partial、next17/count16保持。已独立读ST99/SG98原件与GF19v2完整主线；条件计数/Cov/arrayweight与原样ROOTproducer控制均canonical。Table8几何partial、真实response/events/Σ缺口保留。新207Pb官方EC全154行/Adopted定向原字段核，MR+.02(.01)/空MR、RI/ICC依赖、pair概率及β+能量与寿命反证；P/N/E manual三页视觉核；1976primary只有identity，403/401终态不重试，不猜phase/fitCov。
 
-geometry原source45mmdepth/26mmoffset+Table2两距离128position/256angle rounding相合；Table8仍partial三行/近86caption未闭合。初失败与源typedinputs保持，native执行/结构check0不等Table8全复现；不同点/historicalproducer/未舍入输入缺。v1只targeted33p中的identity/Table2/8两图，条目同v2，不冒称全文/独立实验；publisher默认TDM200无body/FULL401，勿原样重试。Smith原v1仅PDF3–4/Table1/2/两图定向核共享表，旧17claim行/flags保持。
-
-下一从当前candidatepool/actualinput gap继续高信息路线：historical/publicresponse与实际data、参考role/normalizer的直接来源，不再扫同toy/freegeometry或以adoptedlabel选δ。当前问题如饱和，刷新timegate后可检查恰好下一Day18无学分知识preview；今日仍partial17/next17count16，未开18/19，不授18/不打开19。
-
-研究窗尚约20h；checkpoint不是整日停止。15点stop新研究，完整report/card/knowledge/checks/nextprompt/receipt/H3齐才formal17一次、goalcomplete。raw/PLAN/Bib/credentials/旧review/继承dirty保留，所有sciencepartial边界不抹去。
+下一候选Hutter2002 segmentedHPGe up-to10MeV DOI10.1016/S0168-9002(02)00578-8仅metadata；先冻来源前回忆再合法获取/原读，须实际body后才授阅读信用。可优先实际公开calibration/response数据而非更多toy。若本题饱和，重建候选池、按时间门最多无学分Day18preview，不开19；18目前只看卡未研究。截止前持续高信息学习，截止后完整卡audit/knowledge/checks/nextprompt/receipt/H3齐才formal17一次与goalcomplete。保护raw/PLAN/Bib/credentials/旧review/继承dirty，实际失败不抹去。

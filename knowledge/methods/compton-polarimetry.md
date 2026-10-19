@@ -30,6 +30,8 @@ GRS26-13进一步实际编译默认Lean完整source body并以ROOT设计fixture�
 
 GF19-15–17/GRS26-14进一步实际核Table2身份和native position基点：GetPosition(dist)含45mm代表interactiondepth，Table2方向相合不等actualdepth或response认证。110/145mm的相同clover90°门会给不同crystalΘ域，Table8三行未全复现；保留source版本/几何点/unroundedproducer边界，不调几何或据countcensus迁Q。
 
+[[nndc-2011-pb207-bi207-polarization-reference]] N207-3/5/6/7/10核207Pb reference的MR、ICC来源、RI–ICC派生Cov及cascade photonpair概率。source singles与totaltransition、detectorcoincidence、已知P四者分开；+.02(.01)不能裸替旧native+.03，near-pure E5强度不直接界定P误差。缺primaryphase/门/finiteacceptance/Σ时只记录reference-readiness，不重标实验Q。
+
 ## Purpose
 
 Compton polarimetry infers the linear polarization of gamma rays from the azimuthal dependence of Compton-scattering events. The scattering plane is correlated with the incident electric-field direction through the Klein-Nishina cross section.

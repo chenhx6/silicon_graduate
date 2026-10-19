@@ -62,6 +62,7 @@ GF19-10的Fig20a为1064 M4(+E5)散射/570门，b为570 E2散射/1064门；不得
 - 源作者关于减少clover不改变Q的报告只在其校准条件使用（GF19-11）；其它targetweights需核，[[polarimetry-shared-calibration-count-design]]保存条件推导与反例。
 - 15clover/PACES效率与16clover偏振calibration分开，不能把photopeak效率直接当selected Compton ε或source-supported F（GF19-1/4）。
 - GF19-15–17的Table2方向与当前带45mm代表深度的native点相合，但Table8三角类复现partial；同clover-axis90°在110/145mm给不同crystalΘ域。只保存条件/identity，不从pointgeometry转为原calibration实际event权重或Q。
+- [[nndc-2011-pb207-bi207-polarization-reference]] N207-2–11进一步核207Pb 1064/570的actual母态/终态、MR+.02(.01)/blank与ICC来源，570RI是ICC派生。约.72918的双photon条件发射概率不是detectorcoincidence效率；原primaryphase/实际Σ未得，不把旧code+.03或GF19known-P简写升级成独立测量。
 
 ## Sources
 

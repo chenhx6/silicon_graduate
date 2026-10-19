@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nndc.bnl.gov/nsr/nsrlink.jsp?1976AV01",
+  "status": 200,
+  "bytes": 13699,
+  "sha256": "ecb1bd2217b4b7c3a50e451f40765b75a34b83c73be96e8b1e80b221714bf7f9",
+  "text": "Nuclear Science References (NSR) Close Nuclear Science References (NSR) NSR Reference Paper NIM A 640 , 213 (2011) NSR Coding Manual\n\t\t\t( PDF ) The NSR database is a bibliography of nuclear physics articles, indexed according\n\t\t\tto content and spanning more than 100 years of research. Over 80 journals are checked on a regular basis for articles to be included. Contact Us Help To search recent references by entry date, click here . Archive files from previous versions of NSR\n\t\t\tcan be found here . Quick Search Text Search Indexed Search Keynumber Search DOI Search Quick Search Text Search Indexed Search Keynumber Search DOI Search Quick Search Text Search Indexed Search Keynumber Search DOI Search Quick Search Text Search Indexed Search Keynumber Search DOI Search Quick Search Text Search Indexed Search Keynumber Search DOI Search Author 'Brown', 'B.A.Brown', 'Brown,B.A.' Nuclide 31Na, 144xe, etc. Reaction n,g or (n,g) or (16O,16O) Title Keywords + Add Condition Filters Publication Year: to Entries added since: Subject / Reference: Measured / Experimental Calculated / Theory Deduced Primary Only EXFOR Data Available Search Reset Download New Tab Copy Key Numbers Only JSON CSV Text BibTex NSR Exchange Printer-Friendly",
+  "links": [
+    {
+      "text": "NIM A 640 , 213 (2011)",
+      "href": "http://dx.doi.org/10.1016/j.nima.2011.03.018"
+    },
+    {
+      "text": "NSR database",
+      "href": "http://dx.doi.org/10.1016/j.nima.2011.03.018"
+    }
+  ],
+  "scope": "Initial legacy nsrlink URL returns generic modern NSR home, not the specific1976Av01 record. No primary identity or body acquired."
+}

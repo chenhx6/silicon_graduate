@@ -115,6 +115,8 @@ Ref38的[[smith-2019-griffin-angular-correlation-analysis]]原28页v1本session�
 - Q=.240(.012)与当前代码comment的.2509不相同；源版本、采集、选择和Cov未绑定，不能仅比数值判统计冲突或历史producer错误。
 - Fig18选择8bins、舍稀疏角、Fig20折叠和Fig19多能比较的rawcounts/fitSigma未取得。对现在代码进行设计fixture测试，不能恢复这些原始分析。
 - 所读正文无真实event/response公开文件清单；这只是本次readiness，未宣称全部合法入口穷尽。Ref40/旧实验引用不因本篇summary就算直接核验。
+- [[nndc-2011-pb207-bi207-polarization-reference]] N207-3/4/5/6/9核current selected201102对象：1064 MR+.02(.01)、570 MR空、RI570/ICC派生关联，以及约.0380%β+字段。PDF26关于207Bi“noβparticles”应理解为其近似背景描述，不能当严格零IB定理；未由这条微弱branch推出实际polarimetry/PACES偏差。known-P/纯度、phase/gate/Σ仍有边界。
+- 同source N207-13亦限制上述质疑：β+直接馈入1633level在源Q下不开放，whole-source β+不等于selected1064/570cascade携带β+。保留无actualbackground影响量化的边界，不因发现小branch就反判本篇calibration。
 - 15clover效率、16clover偏振标定、11/14.5cm、PACES/SCEPTAR/absorber与suppression必须逐项核。当前完整读其它fast-timing/未来polarized-beam章节仅作主线理解，不额外计课程信用或将预期设备说成2018已测性能。
 
 ## Analytical Reconstruction and Self-Audit

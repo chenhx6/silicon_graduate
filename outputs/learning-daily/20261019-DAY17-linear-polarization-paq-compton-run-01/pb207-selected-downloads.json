@@ -1,0 +1,42 @@
+{
+  "downloaded_at": "2026-10-19T11:07:29.689254+00:00",
+  "rows": [
+    {
+      "name": "adopted",
+      "datasetcheck": "207082001,207PB",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "207082001,207PB",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "55ba543d9b50b8a8cbdc94f6253d0adacccde093390833956a4062038af9963a",
+      "response_bytes": 121073,
+      "ensdf_path": "tmp/day17-pb207-reference/adopted.ens",
+      "ensdf_sha256": "81eeda5ce5045342b86f2f89a2612470cd50f707434d710fa670e9f5a5c850de",
+      "lines": 1488,
+      "identity_line": "207PB    ADOPTED LEVELS, GAMMAS                                  11NDS    201102"
+    },
+    {
+      "name": "bi207ec",
+      "datasetcheck": "207082005,207PB",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "207082005,207PB",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_sha256": "000ab457e32e969d37e68de471d49822544af515a539568f7224b5ff2d414caf",
+      "response_bytes": 12938,
+      "ensdf_path": "tmp/day17-pb207-reference/bi207ec.ens",
+      "ensdf_sha256": "407ab95256d74a0db2be414f91315d13361ce80a9baef3fe36b8744436a47e4d",
+      "lines": 154,
+      "identity_line": "207PB    207BI EC DECAY                                          11NDS    201102"
+    }
+  ],
+  "scope": "identity only; physics rows reading follows"
+}

@@ -1,0 +1,303 @@
+{
+  "requested_at": "2026-10-19T11:05:51.025692+00:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "payload": {
+    "nuc": "207PB",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "bytes": 19660,
+  "sha256": "e380053ad506dbe61fa34612d57ec9d43e617a6f314731ab8a3cc9857c79c85d",
+  "dataset_rows": [
+    {
+      "text": "ADOPTED LEVELS, GAMMAS 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082001,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207TL B- DECAY 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082002,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB IT DECAY 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082003,207PB"
+        }
+      ]
+    },
+    {
+      "text": "MUONIC ATOM 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082004,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207BI EC DECAY 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082005,207PB"
+        }
+      ]
+    },
+    {
+      "text": "211PO A DECAY (0.516 S) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082006,207PB"
+        }
+      ]
+    },
+    {
+      "text": "211PO A DECAY (25.2 S) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082007,207PB"
+        }
+      ]
+    },
+    {
+      "text": "206PB(N,G) E=RES 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082008,207PB"
+        }
+      ]
+    },
+    {
+      "text": "206PB(D,P) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082009,207PB"
+        }
+      ]
+    },
+    {
+      "text": "206PB(D,PG) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082010,207PB"
+        }
+      ]
+    },
+    {
+      "text": "206PB(118SN,117SN) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082011,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(G,G'),(POL G,G') 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082012,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(E,E') 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082013,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(N,N') 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082015,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(N,N'G) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082014,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(P,P') 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082016,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(P,P'G) IAR 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082017,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(D,D') 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082018,207PB"
+        }
+      ]
+    },
+    {
+      "text": "207PB(A,A') 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082019,207PB"
+        }
+      ]
+    },
+    {
+      "text": "COULOMB EXCITATION 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082020,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(G,N) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082021,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(P,D),(POL P,D) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082022,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(D,T),(POL D,T) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082023,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(3HE,A) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082024,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(12C,13C) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082025,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(20NE,21NE) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082026,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(32S,33SG) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082027,207PB"
+        }
+      ]
+    },
+    {
+      "text": "208PB(136XE,XG),(208PB,XG) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082028,207PB"
+        }
+      ]
+    },
+    {
+      "text": "209BI(MU-,NU2NG) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082029,207PB"
+        }
+      ]
+    },
+    {
+      "text": "209BI(PI-,2NG) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082030,207PB"
+        }
+      ]
+    },
+    {
+      "text": "209BI(D,A),(P,3HE) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082031,207PB"
+        }
+      ]
+    },
+    {
+      "text": "238U(206PB,XG) 2011-02 All references",
+      "inputs": [
+        {
+          "name": "datasetcheck",
+          "value": "207082032,207PB"
+        }
+      ]
+    }
+  ],
+  "scope": "corrected form input: initial missing searchType returned home page, not nuclear data"
+}

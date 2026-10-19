@@ -1,0 +1,321 @@
+{
+  "script_sha256": "f36bbc38d20088d3486758b85321789512d7371266037e1dcc572351a1d04ab8",
+  "input_sha256": "78d298b1fd71237d8fa8c81057e6649e62873cdb4fa732f25b7fd729de3acb54",
+  "source_hashes": {
+    "adopted": "81eeda5ce5045342b86f2f89a2612470cd50f707434d710fa670e9f5a5c850de",
+    "bi207ec": "407ab95256d74a0db2be414f91315d13361ce80a9baef3fe36b8744436a47e4d"
+  },
+  "selected_records": {
+    "adopted": {
+      "gamma570": {
+        "line": 92,
+        "raw": "207PB  G 569.698   2  100      E2                      0.0216                   ",
+        "parent": {
+          "line": 78,
+          "raw": "207PB  L 569.6982  20 5/2-             130.5 PS  8                              ",
+          "energy": {
+            "text": "569.6982",
+            "value": 569.6982,
+            "sigma": 0.002,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "5/2-",
+          "half_life_field": "130.5 PS",
+          "half_life_uncertainty_field": "8"
+        },
+        "energy": {
+          "text": "569.698",
+          "value": 569.698,
+          "sigma": 0.002,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "100",
+          "value": 100.0,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "M": "E2",
+        "MR": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "CC": {
+          "text": "0.0216",
+          "value": 0.0216,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "placement_tail": "                "
+      },
+      "gamma1064": {
+        "line": 168,
+        "raw": "207PB  G 1063.656  3  100      M4+E5     +0.02   1     0.1257                   ",
+        "parent": {
+          "line": 155,
+          "raw": "207PB  L 1633.356   4 13/2+            0.806 S    5                          M  ",
+          "energy": {
+            "text": "1633.356",
+            "value": 1633.356,
+            "sigma": 0.004,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "13/2+",
+          "half_life_field": "0.806 S",
+          "half_life_uncertainty_field": "5"
+        },
+        "energy": {
+          "text": "1063.656",
+          "value": 1063.656,
+          "sigma": 0.003,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "100",
+          "value": 100.0,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "M": "M4+E5",
+        "MR": {
+          "text": "+0.02",
+          "value": 0.02,
+          "sigma": 0.01,
+          "sign_marker": "+"
+        },
+        "CC": {
+          "text": "0.1257",
+          "value": 0.1257,
+          "sigma": null,
+          "sign_marker": "unspecified"
+        },
+        "placement_tail": "                "
+      },
+      "normalization": []
+    },
+    "bi207ec": {
+      "gamma570": {
+        "line": 34,
+        "raw": "207PB  G 569.698   2  97.75   3 E2                     0.0217 3                 ",
+        "parent": {
+          "line": 24,
+          "raw": "207PB  L 569.6988  20 5/2-             130.5 PS  8                              ",
+          "energy": {
+            "text": "569.6988",
+            "value": 569.6988,
+            "sigma": 0.002,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "5/2-",
+          "half_life_field": "130.5 PS",
+          "half_life_uncertainty_field": "8"
+        },
+        "energy": {
+          "text": "569.698",
+          "value": 569.698,
+          "sigma": 0.002,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "97.75",
+          "value": 97.75,
+          "sigma": 0.03,
+          "sign_marker": "unspecified"
+        },
+        "M": "E2",
+        "MR": {
+          "text": "",
+          "value": null,
+          "sigma": null,
+          "sign_marker": "blank"
+        },
+        "CC": {
+          "text": "0.0217",
+          "value": 0.0217,
+          "sigma": 0.0003,
+          "sign_marker": "unspecified"
+        },
+        "placement_tail": "                "
+      },
+      "gamma1064": {
+        "line": 84,
+        "raw": "207PB  G 1063.656  3  74.5   3  M4+E5    +0.02   1      0.128 4                 ",
+        "parent": {
+          "line": 79,
+          "raw": "207PB  L 1633.358  4  13/2+             0.806 S  5                           M  ",
+          "energy": {
+            "text": "1633.358",
+            "value": 1633.358,
+            "sigma": 0.004,
+            "sign_marker": "unspecified"
+          },
+          "Jpi": "13/2+",
+          "half_life_field": "0.806 S",
+          "half_life_uncertainty_field": "5"
+        },
+        "energy": {
+          "text": "1063.656",
+          "value": 1063.656,
+          "sigma": 0.003,
+          "sign_marker": "unspecified"
+        },
+        "intensity": {
+          "text": "74.5",
+          "value": 74.5,
+          "sigma": 0.3,
+          "sign_marker": "unspecified"
+        },
+        "M": "M4+E5",
+        "MR": {
+          "text": "+0.02",
+          "value": 0.02,
+          "sigma": 0.01,
+          "sign_marker": "+"
+        },
+        "CC": {
+          "text": "0.128",
+          "value": 0.128,
+          "sigma": 0.004,
+          "sign_marker": "unspecified"
+        },
+        "placement_tail": "                "
+      },
+      "normalization": [
+        {
+          "line": 6,
+          "raw": "207PB  N 1.0                   1.0       1.0                                    ",
+          "NR": {
+            "text": "1.0",
+            "value": 1.0,
+            "sigma": null,
+            "sign_marker": "unspecified"
+          },
+          "NT": {
+            "text": "",
+            "value": null,
+            "sigma": null,
+            "sign_marker": "blank"
+          },
+          "BR": {
+            "text": "1.0",
+            "value": 1.0,
+            "sigma": null,
+            "sign_marker": "unspecified"
+          },
+          "NB": {
+            "text": "1.0",
+            "value": 1.0,
+            "sigma": null,
+            "sign_marker": "unspecified"
+          }
+        }
+      ]
+    }
+  },
+  "other_near1064_adopted_records": [
+    {
+      "line": 621,
+      "raw": "207PB  G 1063.71          52 5 [M1]                    0.01518                 ?",
+      "parent": {
+        "line": 611,
+        "raw": "207PB  L 3726.094  22 (5/2+,7/2+)       201 FS   GT                         C   ",
+        "energy": {
+          "text": "3726.094",
+          "value": 3726.094,
+          "sigma": 0.022,
+          "sign_marker": "unspecified"
+        },
+        "Jpi": "(5/2+,7/2+)",
+        "half_life_field": "201 FS",
+        "half_life_uncertainty_field": "GT"
+      },
+      "energy": {
+        "text": "1063.71",
+        "value": 1063.71,
+        "sigma": null,
+        "sign_marker": "unspecified"
+      },
+      "intensity": {
+        "text": "52",
+        "value": 52.0,
+        "sigma": 5.0,
+        "sign_marker": "unspecified"
+      },
+      "M": "[M1]",
+      "MR": {
+        "text": "",
+        "value": null,
+        "sigma": null,
+        "sign_marker": "blank"
+      },
+      "CC": {
+        "text": "0.01518",
+        "value": 0.01518,
+        "sigma": null,
+        "sign_marker": "unspecified"
+      },
+      "placement_tail": "               ?"
+    }
+  ],
+  "conditional_normalization_exercise": {
+    "source_formula": "RI570=(100-0.131)/(1+alpha570)",
+    "declared_primitive_independence": "bypass primitive and alpha independent only in this diagnostic; source actual covariance/normalization sharing unknown. Pair probability uses selected cascade single lower branch, neglects delayed collection/loss/response; not observed coincidence efficiency. No P prediction or MR phase substitution into old code.",
+    "literal_RI570": 97.74787119506703,
+    "sigma_RI570_conditional": 0.028768214650393666,
+    "cov_RI570_alpha570": -8.610461395278487e-06,
+    "total_transition_yield": 99.869,
+    "sigma_total_with_derived_covariance": 0.002,
+    "sigma_total_if_RI_alpha_incorrectly_independent": 0.0415191081090398,
+    "reported_RI570": {
+      "text": "97.75",
+      "value": 97.75,
+      "sigma": 0.03,
+      "sign_marker": "unspecified"
+    }
+  },
+  "conditional_photon_pair_exercise": {
+    "p_gamma570_given_gamma1064": 0.9787608887148869,
+    "p_both_photons_per_parent_from_EC_record": 0.7291768620925907,
+    "product_of_marginal_singles_probabilities": 0.7282375000000001,
+    "upper_total_transition_yield_per100": 84.036,
+    "source_EC_feed_upper": {
+      "text": "84.0",
+      "value": 84.0,
+      "sigma": 0.5,
+      "sign_marker": "unspecified"
+    },
+    "boundary": "emission probability in selected cascade, not actual detector coincidence efficiency or complete feed/response/covariance replay"
+  },
+  "mixing_amplitude_design_boundary": {
+    "source_delta": 0.02,
+    "source_sigma_delta": 0.01,
+    "upper_multipole_intensity_fraction": 0.0003998400639744103,
+    "fraction_at_nominal_delta_plus_minus_one_sigma": [
+      9.999000099990002e-05,
+      0.00089919072834449
+    ],
+    "bilinear_interference_coefficient": 0.03998400639744103,
+    "coefficient_at_nominal_delta_plus_minus_one_sigma": [
+      0.019998000199980003,
+      0.059946048556299335
+    ],
+    "boundary": "coefficients only; not a bound or CI on gated P. Native/operator/first-last convention and actual acceptance must be established before predicting P."
+  },
+  "checks": {
+    "exact_target_roles_unique": true,
+    "explicit_positive_MR_not_empty": true,
+    "E2_MR_is_blank_not_zero": true,
+    "source_N_NR_BR_one": true,
+    "literal_RI570_printed_last_digit_compatible": true,
+    "conditional_total_identity": true,
+    "conditional_covariance_cancels_alpha_in_total": true,
+    "derived_RI_alpha_covariance_PSD": true,
+    "conditional_pair_probability_physical": true,
+    "near_energy_other_parent_not_in_EC": true
+  },
+  "ok": true,
+  "experimental_P_or_CI_inferred": false,
+  "generated_at": "2026-10-19T11:25:28.714235+00:00"
+}

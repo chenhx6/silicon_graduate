@@ -1,0 +1,8 @@
+{
+  "url": "https://www.nndc.bnl.gov/nsr/KeyNumberServlet?search-type=keynumber&servlet=KeyNumberSearchServlet&key=1976Av01",
+  "status": 404,
+  "content_type": "text/html",
+  "sha256": "af515593f0b65b527b274fcf1466453ff7444d2e0643e6d00e8b54d872b4f778",
+  "bytes": 771,
+  "response_prefix": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>NNDC - 404</title>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<link\n\t\trel=\"icon\"\n\t\ttype=\"image/svg+xml\"\n\t\thref=\"/common/images/NNDC_Barn_Logomark_RGB.svg\"\n\t>\n\t<link rel=\"alternate icon\" href=\"/common/images/favicon.ico\">\n\t<link rel=\"stylesheet\" href=\"/common/styles/style.css\">\n\t<link rel=\"stylesheet\" href=\"/common/styles/lib/all.min.css\">\n\t<link rel=\"stylesheet\" href=\"/common/styles/error.css\">\n</head>\n<body>\n\t<header id=\"header\"></header>\n\t<main>\n\t\t<img id=\"logo\" src=\"/common/images/NNDC_Barn_Logomark_RGB.svg\">\n\t\t<h1>404 - Not Found</h1>\n\t\t<p>The page you were looking for does not exist.</p>\n\t</main>\n\t<footer id=\"footer\"></footer>\n</body>\n<script src=\"/common/js/nndcMenu.js\"></script>\n</html>\n"
+}

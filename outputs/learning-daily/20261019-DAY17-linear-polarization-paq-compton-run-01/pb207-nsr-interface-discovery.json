@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.nndc.bnl.gov/nsr/js/http.js?v=1.016",
+    "status": 200,
+    "sha256": "1a467459149430a5f5e87b3ad31b76a06b410a3992952ff653811319e51eb344"
+  },
+  {
+    "url": "https://www.nndc.bnl.gov/nsr/js/search/keynumber.js?v=1.016",
+    "status": 200,
+    "sha256": "95767dc0b0bb349c9f1f6f809c191e8589ca97af9bb7f727671a0502c76fce89"
+  },
+  {
+    "url": "https://www.nndc.bnl.gov/nsr/js/entry-search.js?v=1.016",
+    "status": 200,
+    "sha256": "661d02b932da9244aa36c4e9703bf1afa69349fd6622af51fa9083b7f4acbcbd"
+  }
+]
