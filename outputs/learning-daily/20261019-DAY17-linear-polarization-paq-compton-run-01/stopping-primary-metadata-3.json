@@ -1,0 +1,11 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1139/p79-092\",\n  \"accessDiscovery\": {\n    \"status\": \"failed\",\n    \"landingUrl\": \"https://cdnsciencepub.com/doi/10.1139/p79-092\",\n    \"landingHost\": \"cdnsciencepub.com\",\n    \"reason\": \"direct_failed\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 403,\n    \"fetchedAt\": \"2026-10-19T15:07:52.601Z\"\n  }\n}"
+      }
+    ]
+  }
+}

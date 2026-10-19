@@ -1,0 +1,299 @@
+[
+  {
+    "url": "https://www-nds.iaea.org/stopping/api",
+    "status": 200,
+    "final_url": "https://www-nds.iaea.org/stopping/api",
+    "sha256": "102b4f4695b1c56afca07cd6f448a945b7cee0f40d6e405741a36fa927a04efb",
+    "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact API for Developers © 2026 IAEA. Terms of Use | Contact",
+    "links": [
+      {
+        "text": "Stopping Power",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Home",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Search",
+        "href": "#"
+      },
+      {
+        "text": "Ion-Target",
+        "href": "/stopping/tuples"
+      },
+      {
+        "text": "Author",
+        "href": "/stopping/publications"
+      },
+      {
+        "text": "Data",
+        "href": "#"
+      },
+      {
+        "text": "Versions",
+        "href": "/stopping/versions"
+      },
+      {
+        "text": "API",
+        "href": "/stopping/api"
+      },
+      {
+        "text": "Target Glossary",
+        "href": "/stopping/target_glossary"
+      },
+      {
+        "text": "About",
+        "href": "#"
+      },
+      {
+        "text": "Description",
+        "href": "/stopping/description"
+      },
+      {
+        "text": "Literature",
+        "href": "/stopping/literature"
+      },
+      {
+        "text": "Computer Programs",
+        "href": "/stopping/software"
+      },
+      {
+        "text": "Oscillations (legacy)",
+        "href": "/stopping/oscillations"
+      },
+      {
+        "text": "Statistical Analyses (legacy)",
+        "href": "/stopping/statisticalAnalyses"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://www.iaea.org/about/terms-of-use"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      }
+    ],
+    "scripts": [
+      "https://code.jquery.com/jquery-3.6.0.min.js",
+      "https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js",
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js",
+      "https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js",
+      "https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js",
+      "https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js",
+      "/stopping-static/js/project.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-8SMEF3YN04",
+      "https://www.googletagmanager.com/gtag/js?id=G-CDWMPZ3B6Z",
+      "//unpkg.com/swagger-ui-dist@3/swagger-ui-bundle.js"
+    ]
+  },
+  {
+    "url": "https://www-nds.iaea.org/stopping/tuples",
+    "status": 200,
+    "final_url": "https://www-nds.iaea.org/stopping/tuples",
+    "sha256": "d6c5b31405c0f6d0eb82c92836d9f88709ae3b12461d76e0228dbfb8e82ba29a",
+    "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact Search the database The database can be searched only by Ion, or only by Target, or by both an Ion and a Target. Check the Target Glossary for a full list of Target names and formulas. © 2026 IAEA. Terms of Use | Contact",
+    "links": [
+      {
+        "text": "Stopping Power",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Home",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Search",
+        "href": "#"
+      },
+      {
+        "text": "Ion-Target",
+        "href": "/stopping/tuples"
+      },
+      {
+        "text": "Author",
+        "href": "/stopping/publications"
+      },
+      {
+        "text": "Data",
+        "href": "#"
+      },
+      {
+        "text": "Versions",
+        "href": "/stopping/versions"
+      },
+      {
+        "text": "API",
+        "href": "/stopping/api"
+      },
+      {
+        "text": "Target Glossary",
+        "href": "/stopping/target_glossary"
+      },
+      {
+        "text": "About",
+        "href": "#"
+      },
+      {
+        "text": "Description",
+        "href": "/stopping/description"
+      },
+      {
+        "text": "Literature",
+        "href": "/stopping/literature"
+      },
+      {
+        "text": "Computer Programs",
+        "href": "/stopping/software"
+      },
+      {
+        "text": "Oscillations (legacy)",
+        "href": "/stopping/oscillations"
+      },
+      {
+        "text": "Statistical Analyses (legacy)",
+        "href": "/stopping/statisticalAnalyses"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      },
+      {
+        "text": "Target Glossary",
+        "href": "/stopping/target_glossary"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://www.iaea.org/about/terms-of-use"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      }
+    ],
+    "scripts": [
+      "https://code.jquery.com/jquery-3.6.0.min.js",
+      "https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js",
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js",
+      "https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js",
+      "https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js",
+      "https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js",
+      "/stopping-static/js/project.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-8SMEF3YN04",
+      "https://www.googletagmanager.com/gtag/js?id=G-CDWMPZ3B6Z",
+      "/stopping-static/admin/js/vendor/select2/select2.full.js",
+      "/stopping-static/autocomplete_light/autocomplete_light.min.js",
+      "/stopping-static/autocomplete_light/select2.min.js",
+      "/stopping-static/autocomplete_light/i18n/en.js"
+    ]
+  },
+  {
+    "url": "https://www-nds.iaea.org/stopping/description",
+    "status": 200,
+    "final_url": "https://www-nds.iaea.org/stopping/description",
+    "sha256": "df1b8fe41c8623a9bb7e4d8de9aafd77826953ad2d8992868875d00d328fcea4",
+    "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact Description Database History This database was created in 1990 by Prof. Helmut Paul (1929-2015), from the University of Linz. For 25 years he collected the published stopping power data, including the first measurements performed in the 30s. He made his exhaustive collection of stopping power data, graphs, and programs available to the entire scientific community through this online database. Since then, this database has been extensively employed in theoretical and experimental research and in applied sciences. For details on Helmut Paul's work on stopping power and recent work on this database, see the literature list. In 2015, the collection was taken over by the Nuclear Data Section of the International Atomic Energy Agency. Since December 2015, Dr Claudia Montanari, from the Instituto de Astronomía y Física del Espacio, CONICET and Universidad de Buenos Aires, Argentina, is collaborating with the IAEA on the updating and development of the database. Sadly, Helmut passed away on 21 December 2015. He will be dearly missed, but he will always be remembered through his legacy: the stopping power database. A personal account of life as a physicist by Helmut Paul can be found here . © 2026 IAEA. Terms of Use | Contact",
+    "links": [
+      {
+        "text": "Stopping Power",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Home",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Search",
+        "href": "#"
+      },
+      {
+        "text": "Ion-Target",
+        "href": "/stopping/tuples"
+      },
+      {
+        "text": "Author",
+        "href": "/stopping/publications"
+      },
+      {
+        "text": "Data",
+        "href": "#"
+      },
+      {
+        "text": "Versions",
+        "href": "/stopping/versions"
+      },
+      {
+        "text": "API",
+        "href": "/stopping/api"
+      },
+      {
+        "text": "Target Glossary",
+        "href": "/stopping/target_glossary"
+      },
+      {
+        "text": "About",
+        "href": "#"
+      },
+      {
+        "text": "Description",
+        "href": "/stopping/description"
+      },
+      {
+        "text": "Literature",
+        "href": "/stopping/literature"
+      },
+      {
+        "text": "Computer Programs",
+        "href": "/stopping/software"
+      },
+      {
+        "text": "Oscillations (legacy)",
+        "href": "/stopping/oscillations"
+      },
+      {
+        "text": "Statistical Analyses (legacy)",
+        "href": "/stopping/statisticalAnalyses"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      },
+      {
+        "text": "Prof. Helmut Paul",
+        "href": "//wikipedia.org/wiki/Helmut_Paul"
+      },
+      {
+        "text": "literature",
+        "href": "/stopping/literature"
+      },
+      {
+        "text": "here",
+        "href": "/stopping-media/docs/Paul_Helmut_My_Life_as_Physicist.pdf"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://www.iaea.org/about/terms-of-use"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      }
+    ],
+    "scripts": [
+      "https://code.jquery.com/jquery-3.6.0.min.js",
+      "https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js",
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js",
+      "https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js",
+      "https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js",
+      "https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js",
+      "/stopping-static/js/project.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-8SMEF3YN04",
+      "https://www.googletagmanager.com/gtag/js?id=G-CDWMPZ3B6Z"
+    ]
+  }
+]

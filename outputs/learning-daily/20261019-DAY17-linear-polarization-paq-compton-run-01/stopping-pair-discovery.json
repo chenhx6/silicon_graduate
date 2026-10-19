@@ -1,0 +1,314 @@
+[
+  {
+    "url": "https://www-nds.iaea.org/stopping/tuples/S-Au",
+    "status": 200,
+    "sha256": "4029c087fccc1a69646d1c350abd26be7a0ce0d25d26e486806b7e97e2c7d90a",
+    "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact Data for S in Au Energy unit: MeV MeV/u Stopping unit: MeV/(mg/cm2) E-15eV cm2/atom Reload graph Solid Gas Liquid * Data has been converted to the same units for plotting purposes. Data last updated: Nov. 27, 2023, 12:18 p.m. Experimental Data 6 Download all Ou1995 S.Ouichaoui, L.Rosier, E.Hourany, R.Bimbot, N.Redjal, H.Beaumevieille Nucl.Instrum.Methods Phys.Res. B95, 463 [csv] [txt] Wr1979 D.Ward,H.R.Andrews,I.R.Mitchell,W.N.Lennard,R.B.Walker and N.Rud Can.J.Phys. 57,645 (1979) [csv] [txt] Fs1976 J.S.Forster,D.Ward,H.R.Andrews,G.C.Ball,G.J.Costa,W.G.Davies and I.V.Mitchell Nucl.Instrum.Methods Phys.Res. 136,349 (1976) [csv] [txt] Sd1975 H.Schmidt-Böcking,G.Rühle and K.Bethge Atomic collisions in solids, Vol 1,77 [csv] [txt] Am1968 B.H.Armitage and B.H.Hooton Nucl.Instrum.Methods Phys.Res. 58,29 [csv] [txt] Bt1966 K.Bethge,P.Sandner and H.Schmidt Z.Naturforschung 21a,1052 [csv] [txt] Theoretical Data 1 SRIM2013 The stopping and range of ions in matter, J.F. Ziegler, M.D. Ziegler, J.P. Biersack, Nucl. Instr. and Meth. B 268 (2010) 1818–1823 [csv] [txt] © 2026 IAEA. Terms of Use | Contact",
+    "links": [
+      {
+        "text": "Stopping Power",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Home",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Search",
+        "href": "#"
+      },
+      {
+        "text": "Ion-Target",
+        "href": "/stopping/tuples"
+      },
+      {
+        "text": "Author",
+        "href": "/stopping/publications"
+      },
+      {
+        "text": "Data",
+        "href": "#"
+      },
+      {
+        "text": "Versions",
+        "href": "/stopping/versions"
+      },
+      {
+        "text": "API",
+        "href": "/stopping/api"
+      },
+      {
+        "text": "Target Glossary",
+        "href": "/stopping/target_glossary"
+      },
+      {
+        "text": "About",
+        "href": "#"
+      },
+      {
+        "text": "Description",
+        "href": "/stopping/description"
+      },
+      {
+        "text": "Literature",
+        "href": "/stopping/literature"
+      },
+      {
+        "text": "Computer Programs",
+        "href": "/stopping/software"
+      },
+      {
+        "text": "Oscillations (legacy)",
+        "href": "/stopping/oscillations"
+      },
+      {
+        "text": "Statistical Analyses (legacy)",
+        "href": "/stopping/statisticalAnalyses"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      },
+      {
+        "text": "Download all",
+        "href": "/stopping/download/tuple/S-Au"
+      },
+      {
+        "text": "Ou1995",
+        "href": "https://doi.org/10.1016/0168-583x(94)00854-x"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/Ou1995?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/Ou1995?format=txt"
+      },
+      {
+        "text": "Wr1979",
+        "href": "https://doi.org/10.1139/p79-092"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/Wr1979?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/Wr1979?format=txt"
+      },
+      {
+        "text": "Fs1976",
+        "href": "https://doi.org/10.1016/0029-554x(76)90218-4"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/Fs1976?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/Fs1976?format=txt"
+      },
+      {
+        "text": "Sd1975",
+        "href": "https://doi.org/10.1007/978-1-4684-3117-9_9"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/Sd1975?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/Sd1975?format=txt"
+      },
+      {
+        "text": "Am1968",
+        "href": "https://doi.org/10.1016/0029-554x(68)90025-6"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/Am1968?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/Am1968?format=txt"
+      },
+      {
+        "text": "Bt1966",
+        "href": "https://doi.org/10.1515/zna-1966-0727"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/Bt1966?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/Bt1966?format=txt"
+      },
+      {
+        "text": "SRIM2013",
+        "href": "https://doi.org/10.1016/j.nimb.2010.02.091"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/S-Au/refs/SRIM2013?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/S-Au/refs/SRIM2013?format=txt"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://www.iaea.org/about/terms-of-use"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      }
+    ]
+  },
+  {
+    "url": "https://www-nds.iaea.org/stopping/tuples/O-Ta",
+    "status": 200,
+    "sha256": "e40cdbe03cc7a229cdec06b3c3867485c9b2f029e27fefdfc37c1a2ac84dd8f1",
+    "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact Data for O in Ta Energy unit: MeV MeV/u Stopping unit: MeV/(mg/cm2) E-15eV cm2/atom Reload graph Solid Gas Liquid * Data has been converted to the same units for plotting purposes. Data last updated: Nov. 27, 2023, 12:18 p.m. Experimental Data 4 Download all Hak2002 A.Hakim,A.Fahli,M.Toulemonde,D.Leliévre Nucl.Instr.Methods Phys.Res. B187, 164 (2002) [csv] [txt] Hu1999 Bitao Hu, Zhaoyuan Liu, Zhong Qi Nucl.Instr.Methods Phys.Res. B149, 395 [csv] [txt] Bi1990 R.Bimbot,H.Gauvin,J.Herault,R.Anne,G.Bastin and F.Hubert Radiat.Eff. 110,15 (1989) Similar to He88. Numerical data in Ga87 and He91 [csv] [txt] Ga1987 H.Gauvin,R.Bimbot,J.Herault,R.Anne,G.Bastin and F.Hubert Nucl.Instrum. Methods Phys.Res. B28,191 (1987) [csv] [txt] Theoretical Data 1 SRIM2013 The stopping and range of ions in matter, J.F. Ziegler, M.D. Ziegler, J.P. Biersack, Nucl. Instr. and Meth. B 268 (2010) 1818–1823 [csv] [txt] © 2026 IAEA. Terms of Use | Contact",
+    "links": [
+      {
+        "text": "Stopping Power",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Home",
+        "href": "/stopping/"
+      },
+      {
+        "text": "Search",
+        "href": "#"
+      },
+      {
+        "text": "Ion-Target",
+        "href": "/stopping/tuples"
+      },
+      {
+        "text": "Author",
+        "href": "/stopping/publications"
+      },
+      {
+        "text": "Data",
+        "href": "#"
+      },
+      {
+        "text": "Versions",
+        "href": "/stopping/versions"
+      },
+      {
+        "text": "API",
+        "href": "/stopping/api"
+      },
+      {
+        "text": "Target Glossary",
+        "href": "/stopping/target_glossary"
+      },
+      {
+        "text": "About",
+        "href": "#"
+      },
+      {
+        "text": "Description",
+        "href": "/stopping/description"
+      },
+      {
+        "text": "Literature",
+        "href": "/stopping/literature"
+      },
+      {
+        "text": "Computer Programs",
+        "href": "/stopping/software"
+      },
+      {
+        "text": "Oscillations (legacy)",
+        "href": "/stopping/oscillations"
+      },
+      {
+        "text": "Statistical Analyses (legacy)",
+        "href": "/stopping/statisticalAnalyses"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      },
+      {
+        "text": "Download all",
+        "href": "/stopping/download/tuple/O-Ta"
+      },
+      {
+        "text": "Hak2002",
+        "href": "https://doi.org/10.1016/s0168-583x(01)00930-2"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Hak2002?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Hak2002?format=txt"
+      },
+      {
+        "text": "Hu1999",
+        "href": "https://doi.org/10.1016/s0168-583x(98)00894-5"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Hu1999?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Hu1999?format=txt"
+      },
+      {
+        "text": "Bi1990",
+        "href": "https://doi.org/10.1080/10420158908214153"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Bi1990?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Bi1990?format=txt"
+      },
+      {
+        "text": "Ga1987",
+        "href": "https://doi.org/10.1016/0168-583x(87)90103-0"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Ga1987?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/O-Ta/refs/Ga1987?format=txt"
+      },
+      {
+        "text": "SRIM2013",
+        "href": "https://doi.org/10.1016/j.nimb.2010.02.091"
+      },
+      {
+        "text": "[csv]",
+        "href": "/stopping/download/tuple/O-Ta/refs/SRIM2013?format=csv"
+      },
+      {
+        "text": "[txt]",
+        "href": "/stopping/download/tuple/O-Ta/refs/SRIM2013?format=txt"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://www.iaea.org/about/terms-of-use"
+      },
+      {
+        "text": "Contact",
+        "href": "/stopping/contact"
+      }
+    ]
+  }
+]

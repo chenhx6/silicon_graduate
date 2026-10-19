@@ -233,6 +233,16 @@ S31-6/7另核3076/5156的1/2+premise，并保留4971附近channel-dependent可�
 
 S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6390T空，仅两个γ，支持当前结果地位的边界，不添第五项20fs/90%寿命。nominal250ln2=173.2868fs与compiled172等末位不完全闭合保留，不补原unroundedquantile/roundingrule、不改源结果。3435两γ62(12)/38(11)同Sunbranchsummary，不能与oldAdopted83/100归一直接混；unequalquotederrors不强推严格normalizedCov。新对象不是独立experiment/data或已得VoRbody，原prior/GP/config仍未得，canonicalS31/Sun页已持久化。
 
+### Day18无学分预习：独立电子阻止数据的覆盖
+
+[新source](../../knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md) ISP26-1–9从IAEA官网/实际CSV取得新输入；[来源前冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-data-before-freeze.json)、[actualscope](20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-reading-scope.json)与[可复算结果](20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-coverage-result.json)保存新读范围、版本/hash和失败，非旧练习换学分。
+
+官方电子截面满足−dE/dx=nS，核阻止已扣除/可忽略；两pair单独下载CSV与全库selected行相等，392行中只有63实验行，另329是SRIM2013模型。S/Au六组均32S，Wr1979仅.0168/.0251MeV/u两低能点；O/Ta没有15O，最低16O点.1167807MeV/u。Ep.318MeV与15u质量近似起点.001424MeV/u，即使用声明总γ能量8MeV宽松三角界，最低实验点仍高约46.55倍。这是能区诊断，不是原速度历史或新τ。
+
+同位素匹配插值比只描述当前模型关系：Fs1976约.977–1.044，Wr1979约1.002–1.027，Bt1966约.962–1.928；不裁决原实验/模型或直接形成先验。初版跨17/18O到16O比值已剔除、原对象留档。单位核Wr .58MeV/(mg/cm²)=189.701×10⁻¹⁵eV cm²/atom，无density假设。literalerror不认证1σ/点间独立，Fs/Wr共享部分作者，SRIM训练谱系也未得。
+
+`supports`下一原实验输入路线；`limits`用当前SRIM2013替Sun Geant4/database或SchürmannSRIM2006的v(t)cosψ；`revises`按元素/点数认匹配和独立性。Wardprimary403/OpenAlex无OA与schema403保留，N/Ta targeted仅14N编译点没有恢复Bister15N原输入。canonical method/auditledger/source/index已同步；formal17一次、18仍partial、未开19。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -442,7 +452,7 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -532,6 +542,42 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
           "locator": "S31-11"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-1"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-2"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-4"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-5"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-6"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-7"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-8"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-9"
         }
       ]
     },
@@ -880,7 +926,7 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -998,12 +1044,48 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
           "locator": "S31-11"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-1"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-2"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-4"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-5"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-6"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-7"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-8"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -1137,6 +1219,42 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
         {
           "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
           "locator": "S31-11"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-1"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-2"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-4"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-5"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-6"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-7"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-8"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-9"
         }
       ]
     },
@@ -1480,6 +1598,49 @@ S31-12–15：其T字段转写两finite/四upperlimit，comments存原meanτ；6
           "locator": "S31-15"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+      "summary": "新增官方selected电子阻止数据、同位素/能区/误差与模型边界。",
+      "anchor": "电子阻止数据能约束什么，尚缺什么",
+      "sources": [
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-1"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-2"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-3"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-4"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-5"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-6"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-7"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-8"
+        },
+        {
+          "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+          "locator": "ISP26-9"
+        }
+      ]
     }
   ]
 }
@@ -1572,3 +1733,8 @@ Fry2018机构检索429验证页、OpenAlex无关结果均未接受为body；下�
 012已actualH3/Gitee push；[verification-027](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-027.json)实际report/24changed/26mapped唯一writeback/coverage/boundary/lint/diff全部exit0，0errors205warnings＝144key57raw4parser，原Sun二十四行/review与PLAN/Bib保持。初newsourcegenericcanonicalURL重复及缺title_original的schemafailure已修并留initialreceipt，没改科学输入或raw。
 
 原记录/本计算的half-life/mean/δ双根/RUL和model-rate层分列；XUNDL是同2023Su03的unevaluatedcompilation，6390T空不造第五项寿命，nominalprintingresidual不指认实验错。下一Moss1970exactDOI/NSRmetadata和beforebodyfreeze已留，Caltecholdpath404/新API无匹配/OpenAlex无publicPDF候选，不当primarybody；合法download尝试结果以actualreceipt为准。稳定指针main / `Verify S31 mixing references and same-paper lifetime compilation`，actualhash/H3/push仅publication013。formal17一次/course18count17、18preview无学分/未开19，原研究window/nativegoal仍active。
+
+
+### checkpoint014停止本领输入验收
+
+IAEA新source/四页canonical、真实CSV/单位/能区练习及scope已持久化；currentSRIM不当actualpaperproducer、literalerror不造prior或实验CI。verification028记录report/25changed27mapped/coverage/boundary/lint/diff实际exit；lint当前0error207warnings。初index缺链已修/initial留档。matrix18定位命令意外多显示19标题/条目，未读取19来源或做分析/授卡，见correctionreceipt；后续避免相邻卡context。稳定指针main / `Audit experimental stopping coverage for DSAM response inputs`，实际hash/H3/push只publication014。原研究window/goalactive、formal17一次/partial18不变。

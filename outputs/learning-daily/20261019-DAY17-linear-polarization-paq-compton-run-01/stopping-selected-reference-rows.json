@@ -1,0 +1,82 @@
+{
+  "source_csv_sha256": "9437380d00e84089c0d8012a0f95360c5901b6626a1ae178688dd6ba5587bd89",
+  "references": [
+    {
+      "ref_id": "Am1968",
+      "doi": "10.1016/0029-554x(68)90025-6",
+      "authors": "B.H. Armitage;B.W. Hooton",
+      "citation_reference": "B.H.Armitage and B.H.Hooton Nucl.Instrum.Methods Phys.Res. 58,29",
+      "year": "1968"
+    },
+    {
+      "ref_id": "Bi1990",
+      "doi": "10.1080/10420158908214153",
+      "authors": "R. Bimbot;H. Gauvin;J. Herault;R. Anne;G. Bastin;F. Hubert",
+      "citation_reference": "R.Bimbot,H.Gauvin,J.Herault,R.Anne,G.Bastin and F.Hubert Radiat.Eff. 110,15 (1989) Similar to He88. Numerical data in Ga87 and He91",
+      "year": "1989"
+    },
+    {
+      "ref_id": "Bt1966",
+      "doi": "10.1515/zna-1966-0727",
+      "authors": "K. Bethge;P. Sandner;H. Schmidt",
+      "citation_reference": "K.Bethge,P.Sandner and H.Schmidt Z.Naturforschung 21a,1052",
+      "year": "1966"
+    },
+    {
+      "ref_id": "Fs1976",
+      "doi": "10.1016/0029-554x(76)90218-4",
+      "authors": "J.S. Forster;D. Ward;H.R. Andrews;G.C. Ball;G.J. Costa;W.G. Davies;I.V. Mitchell",
+      "citation_reference": "J.S.Forster,D.Ward,H.R.Andrews,G.C.Ball,G.J.Costa,W.G.Davies and I.V.Mitchell Nucl.Instrum.Methods Phys.Res. 136,349 (1976)",
+      "year": "1976"
+    },
+    {
+      "ref_id": "Ga1987",
+      "doi": "10.1016/0168-583x(87)90103-0",
+      "authors": "H. Gauvin;R. Bimbot;J. Herault;R. Anne;G. Bastin;F. Hubert",
+      "citation_reference": "H.Gauvin,R.Bimbot,J.Herault,R.Anne,G.Bastin and F.Hubert Nucl.Instrum. Methods Phys.Res. B28,191 (1987)",
+      "year": "1987"
+    },
+    {
+      "ref_id": "Hak2002",
+      "doi": "10.1016/s0168-583x(01)00930-2",
+      "authors": "A. Hakim;A. Fahli;M. Toulemonde;D. Leliévre",
+      "citation_reference": "A.Hakim,A.Fahli,M.Toulemonde,D.Leliévre Nucl.Instr.Methods Phys.Res. B187, 164 (2002)",
+      "year": "2002"
+    },
+    {
+      "ref_id": "Hu1999",
+      "doi": "10.1016/s0168-583x(98)00894-5",
+      "authors": "Hu Bitao;Liu Zhaoyuan;Qi Zhong",
+      "citation_reference": "Bitao Hu, Zhaoyuan Liu, Zhong Qi Nucl.Instr.Methods Phys.Res. B149, 395",
+      "year": "1999"
+    },
+    {
+      "ref_id": "Ou1995",
+      "doi": "10.1016/0168-583x(94)00854-x",
+      "authors": "S. Ouichaoui;L. Rosier;E. Hourany;R. Bimbot;N. Redjdal;H. Beaumevieille",
+      "citation_reference": "S.Ouichaoui, L.Rosier, E.Hourany, R.Bimbot, N.Redjal, H.Beaumevieille Nucl.Instrum.Methods Phys.Res. B95, 463",
+      "year": "1995"
+    },
+    {
+      "ref_id": "Sd1975",
+      "doi": "10.1007/978-1-4684-3117-9_9",
+      "authors": "Horst Schmidt-Böcking;Gerd Rühle;Klaus Bethge",
+      "citation_reference": "H.Schmidt-Böcking,G.Rühle and K.Bethge Atomic collisions in solids, Vol 1,77",
+      "year": "1975"
+    },
+    {
+      "ref_id": "SRIM2013",
+      "doi": "10.1016/j.nimb.2010.02.091",
+      "authors": "J. F. Ziegler;M. D. Ziegler;J. P. Biersack",
+      "citation_reference": "The stopping and range of ions in matter, J.F. Ziegler, M.D. Ziegler, J.P. Biersack, Nucl. Instr. and Meth. B 268 (2010) 1818–1823",
+      "year": "2013"
+    },
+    {
+      "ref_id": "Wr1979",
+      "doi": "10.1139/p79-092",
+      "authors": "D. Ward;H. R. Andrews;I. V. Mitchell;W. N. Lennard;R. B. Walker;N. Rud",
+      "citation_reference": "D.Ward,H.R.Andrews,I.R.Mitchell,W.N.Lennard,R.B.Walker and N.Rud Can.J.Phys. 57,645 (1979)",
+      "year": "1979"
+    }
+  ]
+}

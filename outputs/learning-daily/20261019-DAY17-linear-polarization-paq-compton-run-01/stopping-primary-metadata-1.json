@@ -1,0 +1,15 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"title\": \"Stopping power measurement for 19F, 24Mg, 27Al, 32S and 35Cl at energies ∼0.2 to ∼3.5 MeV/nucleon in Ti, Fe, Ni, Cu, Ag and Au\",\n  \"authors\": [\n    \"J.S. Forster\",\n    \"D. Ward\",\n    \"H.R. Andrews\",\n    \"G.C. Ball\",\n    \"G.J. Costa\",\n    \"W.G. Davies\",\n    \"I.V. Mitchell\"\n  ],\n  \"year\": 1976,\n  \"doi\": \"10.1016/0029-554x(76)90218-4\",\n  \"journal\": \"Nuclear Instruments and Methods\",\n  \"source\": \"crossref\",\n  \"citation_count\": 120,\n  \"abstract\": \"\",\n  \"volume\": \"136\",\n  \"issue\": \"2\",\n  \"pages\": \"349-359\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 20,\n  \"url\": \"https://doi.org/10.1016/0029-554x(76)90218-4\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"title\": \"Stopping power measurement for 19F, 24Mg, 27Al, 32S and 35Cl at energies ∼0.2 to ∼3.5 MeV/nucleon in Ti, Fe, Ni, Cu, Ag and Au\",\n  \"authors\": [\n    \"J.S. Forster\",\n    \"D. Ward\",\n    \"H.R. Andrews\",\n    \"G.C. Ball\",\n    \"G.J. Costa\",\n    \"W.G. Davies\",\n    \"I.V. Mitchell\"\n  ],\n  \"year\": 1976,\n  \"doi\": \"10.1016/0029-554x(76)90218-4\",\n  \"journal\": \"Nuclear Instruments and Methods\",\n  \"source\": \"crossref\",\n  \"citation_count\": 120,\n  \"abstract\": \"\",\n  \"volume\": \"136\",\n  \"issue\": \"2\",\n  \"pages\": \"349-359\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 20,\n  \"url\": \"https://doi.org/10.1016/0029-554x(76)90218-4\"\n}"
+    },
+    "isError": false
+  }
+}

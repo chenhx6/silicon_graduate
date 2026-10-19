@@ -6,19 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; official S31 checkpoint013
+## Active handoff — DAY17 original window active; stopping checkpoint014
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–012实际H3/Gitee push；formal17仅007后一次/course next18/count17、partial18，未开19。原runner16:06中断不伪造normalexit/新session。013稳定指针main / `Verify S31 mixing references and same-paper lifetime compilation`，actualhash/push仅本runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止/15–16收束不改。nativegoal/runactive/Farmer42019沿用；001–013actualH3/Giteepush。formal17仅007后一次/course next18/count17、partial18；不授18或研究19。原runner16:06中断不伪造normalexit。014稳定指针main / `Audit experimental stopping coverage for DSAM response inputs`，actualhash/push仅publication014/runreceipt。
 
-新source nndc-2022-s31-mixing-lifetime-reference实际selectedAdopted913lines定向、oldreaction71lines全读、新exactXUNDL31016069/45lines全读。源+.35(.02)MR回1970Moss α–γ，comment +5.3(.4)另根/RUL小根偏好保持；正号没直接桥Sun nativephase。fixedSunmean1.12ps gamma-only诊断smallMR fE2.109131/τM1 1.2572/BM1.0232725，USDBE2partial6.9ps则fE2.162319/equiv|δ|.440195/τM1 1.337024/BM1.021883；largealternate也留，不用newτ再选根/无modelσ不差除.02作显著性。
+IAEA新source iaea-2026-stopping-s-au-o-ta-records，home/两pair全表/392selectedCSV与references实际核；63实验+329SRIM2013，pairCSV与全库selected相等。电子阻止定义核停已扣/可忽略；S/Au全32S、低能Wr1979只有两点，O/Ta无15O且最低.1167807MeV/u。Ep.318/15u质量proxy初.001424，声明总γ8MeV宽松三角界.002509，仍有46.55倍能区缺口，非actualcascade/collision/τ。
 
-oldDSAM T1/2.50(.12)ps与mean720(180)fs同1971En02，2010两detector预算的ln2/条件quadrature与Sun转引大致相合，均非新增实验/actualCov。MR/CC/IPC/theory/RI对象分开，selectedsmallrootCC不迁给其它δ。3076/5156 official1/2+identity支持A2问题前提但不识别actualresponse/frame，4971channel双态comment保留。
+同位素匹配实验/当前SRIM比值仅描述，不是SunGeant4或SchürmannSRIM2006；literalerror不认证独立Gaussianσ，Fs/Wr作者部分重叠/模型训练依赖未核。原稿跨17/18O至16O比值已剔除，initialresult/correction保留。Wr单位.58→189.701×10⁻¹⁵eVcm²/atom，不假定density。canonical source/method/auditledger/index已写回；raw/PLAN/Bib/旧review保持。
 
-XUNDL202401 explicitunevaluated同2023Su03编译，两finite/四upperlimit/comments与3435branch62(12)/38(11)；6390T空，只有γ，非第五20fs90%limit。nominalunitconversion/printingresidual保持，不改Sun或捏unroundedquantile。2022Adopted/旧reaction/2024XUNDL非三个独立measurement，未得Sun2023VoRbody/GP/config/draws。
+API schema403未读；wholedata/refs/pairCSV下载实际成功。Ward1979 DOI10.1139/p79-092 metadata/abstractonly，publisher403、OpenAlex无OA；Forster1976/Hu1999只metadata，不认primarybody。Schürmann的Bister1977 Ref18是下一实际低能15N/Ta surrogate入口，未读body；N/Ta当前compiled点仅14N，不能冒称恢复原输入。下一可查Bister精确primary或数据库方法原文，先冻结priming；不重试终态URL、不用toy填Σ。
 
-verification027实际report/24changed26mapped(未改LKH82/YA67)/coverage/boundary/lint/diff0，0errors205warnings(144key57raw4parser)，旧Sun24行/flags/PLAN/Bib保持。025初sourcegenericcanonicalURLdup和缺title_original已修且initialfailure留档，未写raw消warnings。旧Jensen/Sun/SI/MADAI/Schuermann/P-A-Q合同与实际input缺口全部继承。
+verification028应以实际receipt为准；报告唯一writeback25changed/27mapped、coverage17/partial18、旧flags/PLAN/Bib保护，lint0error207warnings(145key58raw4parser)。028initiallint在index加入前报INDEX_MISSING，后已修，initial留档。matrixDay18的rg上下文意外显示19heading/recall/routes/deliverable，未开19source/body/分析或credit，incident明记，不继续邻卡。
 
-下一Moss1970原primary：NSR1970MO08、DOI10.1016/0375-9474(70)90434-3/NPA145423/C.E.Moss metadata核，beforebodyprimingfreeze已留。Caltech旧CGI404、新APIexactDOI0/标题search无匹配（返回其它文章不接受）、OpenAlex无OAurl不是body；downloader新尝试实际credentials_missing/OA_not_found，body未得；boundaryreceipt保存，不预填phase/fit。原仍>15h，刷新clock/候选池后继续highinformationactualinput；不重试终态URL、不更多toy代Σ、不授18/开19/重授17。原15点后stop研究并整日收束/检查/receipt/actualpublication齐才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+研究窗口仍有约15小时，必须clock/候选池刷新继续highinformationactualinput；到原15点停止研究并整日收束/receipt/checks/actualpublish齐后才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

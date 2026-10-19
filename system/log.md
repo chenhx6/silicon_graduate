@@ -2078,3 +2078,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 - 2026-10-19 DAY17 checkpoint012：Jensen2001本session剩余全mainline与actualmixing/reference/baseline合同已canonical，原J01十行/flags保持；新条件算术不认证原fit/Σ或新CI。024检查全0/23changed25mapped/0errors203warnings。BertoneexactOSTI终态未得body；formal17仅一次/18无学分/原窗口active。稳定指针main / `Audit full Tm165 band-mixing and quadrupole-reference dependencies`，actualhash/push仅runreceipt。
 
 - 2026-10-19 DAY17 checkpoint013：官方S31旧MR双根/RUL与mean半衰期/同paper预算、Sun2023同文XUNDL六T及6390T空已canonical；条件rates非新fit/CI，实际producer/phase仍缺。027全检查0/24changed26mapped/0errors205warnings；旧Sun24行/flags保持。formal17仅一次/18无学分/原windowactive。稳定指针main / `Verify S31 mixing references and same-paper lifetime compilation`，actualhash/push仅runreceipt。
+
+## 2026-10-19 Day17 checkpoint014 — experimental stopping coverage
+
+同session原窗口继续，formal17只一次/partial18。新增IAEA S/Au/O/Ta电子表及63实验/329模型角色、同位素/能区/literalerror/共同来源与单位控制；不替SunGeant4或SchürmannSRIM2006，不造新τ/CI。canonical四页/真实CSV/程序/回忆/失败记录已写回。verification028报告/25changed27mapped/coverage/boundary/lint/diff0，0errors207warnings；旧review/PLAN/Bib/继承dirty保护。稳定指针main / Audit experimental stopping coverage for DSAM response inputs；hash/push仅runreceipt。原15:00截止/goalactive不变。

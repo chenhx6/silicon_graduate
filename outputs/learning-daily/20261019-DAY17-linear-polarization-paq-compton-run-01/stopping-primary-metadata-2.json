@@ -1,0 +1,15 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"title\": \"The energy loss of 16O ions in seven metallic elements in velocity-proportional region\",\n  \"authors\": [\n    \"Hu Bitao\",\n    \"Liu Zhaoyuan\",\n    \"Qi Zhong\"\n  ],\n  \"year\": 1999,\n  \"doi\": \"10.1016/s0168-583x(98)00894-5\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms\",\n  \"source\": \"crossref\",\n  \"citation_count\": 6,\n  \"abstract\": \"\",\n  \"volume\": \"149\",\n  \"issue\": \"4\",\n  \"pages\": \"395-400\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 20,\n  \"url\": \"https://doi.org/10.1016/s0168-583x(98)00894-5\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"title\": \"The energy loss of 16O ions in seven metallic elements in velocity-proportional region\",\n  \"authors\": [\n    \"Hu Bitao\",\n    \"Liu Zhaoyuan\",\n    \"Qi Zhong\"\n  ],\n  \"year\": 1999,\n  \"doi\": \"10.1016/s0168-583x(98)00894-5\",\n  \"journal\": \"Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms\",\n  \"source\": \"crossref\",\n  \"citation_count\": 6,\n  \"abstract\": \"\",\n  \"volume\": \"149\",\n  \"issue\": \"4\",\n  \"pages\": \"395-400\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 20,\n  \"url\": \"https://doi.org/10.1016/s0168-583x(98)00894-5\"\n}"
+    },
+    "isError": false
+  }
+}

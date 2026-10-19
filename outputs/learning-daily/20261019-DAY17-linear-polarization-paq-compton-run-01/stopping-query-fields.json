@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ion-S",
+    "url": "https://www-nds.iaea.org/stopping/autocomplete/ion?q=S",
+    "status": 200,
+    "sha256": "ae0b1f3c048a002d7f2e601b0756e1acb13848624c69e16173b0a55d7b533188",
+    "body": "{\"results\": [{\"id\": \"S\", \"text\": \"S\", \"selected_text\": \"S\"}, {\"id\": \"Sb\", \"text\": \"Sb\", \"selected_text\": \"Sb\"}, {\"id\": \"Sc\", \"text\": \"Sc\", \"selected_text\": \"Sc\"}, {\"id\": \"Si\", \"text\": \"Si\", \"selected_text\": \"Si\"}, {\"id\": \"Sm\", \"text\": \"Sm\", \"selected_text\": \"Sm\"}], \"pagination\": {\"more\": false}}"
+  },
+  {
+    "name": "ion-O",
+    "url": "https://www-nds.iaea.org/stopping/autocomplete/ion?q=O",
+    "status": 200,
+    "sha256": "9725b3cf55c7964388ec0925f82c254d64936370a585bc899e760dba97cdb55f",
+    "body": "{\"results\": [{\"id\": \"O\", \"text\": \"O\", \"selected_text\": \"O\"}], \"pagination\": {\"more\": false}}"
+  },
+  {
+    "name": "target-Au",
+    "url": "https://www-nds.iaea.org/stopping/autocomplete/target?q=Au",
+    "status": 200,
+    "sha256": "7994de837205aa702bad5c00eb5bf2f3495cdfd10fb9dab927be7c2dd100fc4c",
+    "body": "{\"results\": [{\"id\": \"Au\", \"text\": \"Au\", \"selected_text\": \"Au\"}], \"pagination\": {\"more\": false}}"
+  },
+  {
+    "name": "target-Ta",
+    "url": "https://www-nds.iaea.org/stopping/autocomplete/target?q=Ta",
+    "status": 200,
+    "sha256": "dba9108e36615f160a2cb14ff07a9e34f22afc7f18131e38b9f74d05f3773492",
+    "body": "{\"results\": [{\"id\": \"1,4-butanediol\", \"text\": \"1,4-butanediol\", \"selected_text\": \"1,4-butanediol\"}, {\"id\": \"1,5-pentanediol\", \"text\": \"1,5-pentanediol\", \"selected_text\": \"1,5-pentanediol\"}, {\"id\": \"2-Butanone\", \"text\": \"2-Butanone\", \"selected_text\": \"2-Butanone\"}, {\"id\": \"2-methyl-1 3-butadiene\", \"text\": \"2-methyl-1 3-butadiene\", \"selected_text\": \"2-methyl-1 3-butadiene\"}, {\"id\": \"3-Pentanone\", \"text\": \"3-Pentanone\", \"selected_text\": \"3-Pentanone\"}, {\"id\": \"Acetaldehyde\", \"text\": \"Acetaldehyde\", \"selected_text\": \"Acetaldehyde\"}, {\"id\": \"bicycloheptadiene\", \"text\": \"bicycloheptadiene\", \"selected_text\": \"bicycloheptadiene\"}, {\"id\": \"Butadiene\", \"text\": \"Butadiene\", \"selected_text\": \"Butadiene\"}, {\"id\": \"Butane\", \"text\": \"Butane\", \"selected_text\": \"Butane\"}, {\"id\": \"Butanol\", \"text\": \"Butanol\", \"selected_text\": \"Butanol\"}], \"pagination\": {\"more\": true}}"
+  }
+]

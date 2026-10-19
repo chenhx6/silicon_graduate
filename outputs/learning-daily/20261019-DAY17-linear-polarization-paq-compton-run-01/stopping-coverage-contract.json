@@ -1,0 +1,38 @@
+{
+  "identity": "IAEA-STOPPING-SELECTED-COVERAGE-01",
+  "source_hashes": {
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-S-Au-frozen.csv": "f5c169296c7d129cf74011e89a7772448a9f6da51c681c4cd651965fee85f43f",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-O-Ta-frozen.csv": "da298960651436e2c0d7eb8f0bf1262b86d76f4b61a5f19454c18488eb68596b"
+  },
+  "experimental_refs": {
+    "S-Au": [
+      "Am1968",
+      "Bt1966",
+      "Fs1976",
+      "Ou1995",
+      "Sd1975",
+      "Wr1979"
+    ],
+    "O-Ta": [
+      "Bi1990",
+      "Ga1987",
+      "Hak2002",
+      "Hu1999"
+    ]
+  },
+  "model_ref": "SRIM2013",
+  "interpolation": "piecewise linear energy and independent sensitivity log-energy/log-stopping, no extrapolation",
+  "units": {
+    "energy": "MeV/u",
+    "stopping": "MeV/(mg/cm2)",
+    "cross_section": "1e-15 eV cm2/atom"
+  },
+  "NA": 6.02214076e+23,
+  "u_MeV_mass_proxy": 931.49410242,
+  "proton_MeV_mass_proxy": 938.27208816,
+  "Schuermann_Ep_MeV": 0.318,
+  "Schuermann_resonance_excitation_MeV_for_conservative_photon_bound": 7.556,
+  "scope": "newpubliccompilation arithmetic and massnumberproxy design; noexperimentrefit, noGaussianerrorsemantics, noactualSunGeant4base or SchuermannSRIM2006; no rawwrite",
+  "design_total_gamma_energy_upper_MeV": 8.0,
+  "photon_bound_note": "Declared generous 8MeV total laboratory photon-energy bound in massnumber proxy; excitation7.556 plus entrance-recoil kinetic proxy is below8. Not an actual cascade producer."
+}

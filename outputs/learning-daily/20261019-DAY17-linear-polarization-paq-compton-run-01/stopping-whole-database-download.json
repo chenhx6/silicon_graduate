@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www-nds.iaea.org/stopping/download/tuples",
+    "status": 200,
+    "bytes": 4627656,
+    "sha256": "0813d4137aa571eb8d8d48e96ed7ca3dd2b7ef10e510d627e7d01029379ba01b",
+    "type": "application/zip",
+    "disposition": "attachement; filename=\"StoppingPower.zip\"",
+    "prefix": "b\"PK\\x03\\x04\\x14\\x00\\x00\\x00\\x08\\x00$s8]\\xeen:\\x97D\\x9cF\\x00\\xfd\\xe6k\\x04\\x11\\x00\\x00\\x00StoppingPower.csv\\xec\\xbd\\xcb\\x92\\x9d\\xb9\\x91\\xe7\\xb9\\x9f\\xa7\\x08\\xd3J2;\\x84\\x00\\xbf\\xc1\\xb1\\xccT\\x95J\\xd5U\\xaa\\x92Qm\\xd5f\\xb3\\x91E\\x92Q\\x99\\xd1\\xcd$5\\xbch\\x94\\xb5\\x9aw\\x98'\\x98\\xd7\"",
+    "path": "tmp/day17-stopping/all-tuples.download"
+  },
+  {
+    "url": "https://www-nds.iaea.org/stopping/download/refs",
+    "status": 200,
+    "bytes": 47287,
+    "sha256": "9d5b2bfec9aa4b51ad5a5fc64e1d6b34228d38f1e5c263f23b886159e03faed4",
+    "type": "application/zip",
+    "disposition": "attachement; filename=\"StoppingPower_refs.zip\"",
+    "prefix": "b'PK\\x03\\x04\\x14\\x00\\x00\\x00\\x08\\x00\\ts8]\\xac+\\xeaZ)\\xb8\\x00\\x00\"\\x06\\x02\\x00\\x16\\x00\\x00\\x00StoppingPower_refs.csv\\xcc\\xbdKo\\xecH\\x92.\\xb8?\\xbf\\x82\\xd0\\xe2v\\x1e\\x80\\xe1\\xe2\\xfb\\x91\\xb1\\x8a\\xd0[!\\xe9\\xa8%\\x1d)O\\x0e\\x06\\x17\\x94\\x82R\\xf0\\x04#\\xa8\"\\x83RJ\\xab\\xba'",
+    "path": "tmp/day17-stopping/all-refs.download"
+  }
+]

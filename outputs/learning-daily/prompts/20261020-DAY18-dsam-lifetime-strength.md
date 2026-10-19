@@ -28,3 +28,8 @@ Day17再追加priming：schuermann-2008-15o-6792-dsam原七页完整已读，sin
 Day17最后Jensenpriming进展：在先前targetedDSAM后另冻问题，现本session48页完整mainline/19fig8table9eq角色已读（密表selectedrows不冒逐格重建），J01-11–18与jensen-bandmixing-reference-chain新artifact保存negativepairbranch/四Qt同标尺/同Nmodelbaseline/E1依赖。它们仍知识preview，正式18必须新session冻结承认priming回忆并做新实际交付，不重跑旧JSON换学分。
 
 Day17新officialS31priming：nndc-2022-s31-mixing-lifetime-reference保存1248MR双根/RUL、oldhalf-life/mean同源与Sunmodel扣除conditionalrate对照；新XUNDL202401 explicitunevaluated同2023Su03，六T/comments与6390T空、nominalprintingresidual保留。不是新独立experiment/actualΣ/VoRbody；Moss1970body进度只认最新canonical/receipt，不预填原phase或用adoptedsmallroot重新授信用。
+
+
+### Day17 stopping-data priming（仍无Day18学分）
+
+新[[iaea-2026-stopping-s-au-o-ta-records]] ISP26-1–9核官方电子表63实验/329SRIM模型、S/Au32S与O/Ta无15O/低能覆盖缺口。比值和单位只是条件复算，currentSRIM2013不替SunGeant4/SchürmannSRIM2006；literalpercentageerror非已知独立σ。Ward1979/Forster1976/Hu1999 primarybody未读，Bister15N/Ta原输入未得。正式18需声明这些priming并本session新交付，旧check/行数不换学分。

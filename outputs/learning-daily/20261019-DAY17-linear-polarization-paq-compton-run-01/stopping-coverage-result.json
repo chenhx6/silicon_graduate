@@ -1,0 +1,211 @@
+{
+  "identity": "IAEA-STOPPING-SELECTED-COVERAGE-01",
+  "script_sha256": "8678704d57070aa7487b3aaec1194d65ffcc665bec508d57aa56609db059792b",
+  "contract_sha256": "cf22bfa07f6a9e18a4405a1ec5f637345a51c19a8488cbae7fa22daeee9a0da9",
+  "pairs": {
+    "S-Au": {
+      "experimental": [
+        {
+          "ref": "Am1968",
+          "count": 5,
+          "isotopes": [
+            "32.0"
+          ],
+          "energy_min_MeV_u": 0.625,
+          "energy_max_MeV_u": 1.25,
+          "percentage_error_literal": [
+            "4"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.9288937295783413,
+          "ratio_to_IAEA_SRIM2013_linear_max": 0.9671848013816925,
+          "max_absolute_ratio_change_log_interpolation": 2.6910453102546583e-06,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Bt1966",
+          "count": 16,
+          "isotopes": [
+            "32.0"
+          ],
+          "energy_min_MeV_u": 0.15725,
+          "energy_max_MeV_u": 0.89226,
+          "percentage_error_literal": [
+            "25"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.9621183225817767,
+          "ratio_to_IAEA_SRIM2013_linear_max": 1.928469116050646,
+          "max_absolute_ratio_change_log_interpolation": 0.0008503714333045753,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Fs1976",
+          "count": 10,
+          "isotopes": [
+            "32.0"
+          ],
+          "energy_min_MeV_u": 0.15,
+          "energy_max_MeV_u": 2.5,
+          "percentage_error_literal": [
+            "4"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.9770279287007912,
+          "ratio_to_IAEA_SRIM2013_linear_max": 1.0441319782820548,
+          "max_absolute_ratio_change_log_interpolation": 0.0003101241162519752,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Ou1995",
+          "count": 3,
+          "isotopes": [
+            "32.0"
+          ],
+          "energy_min_MeV_u": 1.669,
+          "energy_max_MeV_u": 1.885,
+          "percentage_error_literal": [
+            "3"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.9432071104233944,
+          "ratio_to_IAEA_SRIM2013_linear_max": 0.9543981671549847,
+          "max_absolute_ratio_change_log_interpolation": 7.93094967824759e-05,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Sd1975",
+          "count": 3,
+          "isotopes": [
+            "32.0"
+          ],
+          "energy_min_MeV_u": 0.2848,
+          "energy_max_MeV_u": 0.98834,
+          "percentage_error_literal": [
+            "2.5-4.5"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.8921664892882138,
+          "ratio_to_IAEA_SRIM2013_linear_max": 1.123981675513035,
+          "max_absolute_ratio_change_log_interpolation": 0.0001297519698311156,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Wr1979",
+          "count": 2,
+          "isotopes": [
+            "32.0"
+          ],
+          "energy_min_MeV_u": 0.0168,
+          "energy_max_MeV_u": 0.0251,
+          "percentage_error_literal": [
+            "4"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 1.0022141222762906,
+          "ratio_to_IAEA_SRIM2013_linear_max": 1.0266286224059926,
+          "max_absolute_ratio_change_log_interpolation": 0.00015128110244289061,
+          "not_fit_CI_or_actual_paper_model": true
+        }
+      ],
+      "model_count": 164
+    },
+    "O-Ta": {
+      "experimental": [
+        {
+          "ref": "Bi1990",
+          "count": 1,
+          "isotopes": [
+            "17.0"
+          ],
+          "energy_min_MeV_u": 85.0,
+          "energy_max_MeV_u": 85.0,
+          "percentage_error_literal": [
+            "2"
+          ],
+          "isotope_matches_model": false,
+          "ratio_to_IAEA_SRIM2013_linear_min": null,
+          "ratio_to_IAEA_SRIM2013_linear_max": null,
+          "max_absolute_ratio_change_log_interpolation": null,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Ga1987",
+          "count": 8,
+          "isotopes": [
+            "16.0"
+          ],
+          "energy_min_MeV_u": 24.58,
+          "energy_max_MeV_u": 90.83,
+          "percentage_error_literal": [
+            "1.6",
+            "2.3",
+            "2.5"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.990143190547644,
+          "ratio_to_IAEA_SRIM2013_linear_max": 1.0267309199821357,
+          "max_absolute_ratio_change_log_interpolation": 0.0026173850847976965,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Hak2002",
+          "count": 3,
+          "isotopes": [
+            "18.0"
+          ],
+          "energy_min_MeV_u": 9.27,
+          "energy_max_MeV_u": 9.34,
+          "percentage_error_literal": [
+            "7"
+          ],
+          "isotope_matches_model": false,
+          "ratio_to_IAEA_SRIM2013_linear_min": null,
+          "ratio_to_IAEA_SRIM2013_linear_max": null,
+          "max_absolute_ratio_change_log_interpolation": null,
+          "not_fit_CI_or_actual_paper_model": true
+        },
+        {
+          "ref": "Hu1999",
+          "count": 12,
+          "isotopes": [
+            "16.0"
+          ],
+          "energy_min_MeV_u": 0.1167807,
+          "energy_max_MeV_u": 0.2587359,
+          "percentage_error_literal": [
+            "6"
+          ],
+          "isotope_matches_model": true,
+          "ratio_to_IAEA_SRIM2013_linear_min": 0.8545186379826251,
+          "ratio_to_IAEA_SRIM2013_linear_max": 0.9286598522103204,
+          "max_absolute_ratio_change_log_interpolation": 0.00029698211795281537,
+          "not_fit_CI_or_actual_paper_model": true
+        }
+      ],
+      "model_count": 165
+    }
+  },
+  "unit_example": {
+    "ref": "Wr1979",
+    "energy_MeV_u": 0.0168,
+    "S_MeV_per_mg_cm2": 0.58,
+    "S_in_1e_minus15_eV_cm2_per_atom": 189.70099695909462,
+    "conversion": "S_15=S_mass*A_target*1e24/N_A",
+    "no_density_or_length_conversion_assumed": true
+  },
+  "O_Ta_coverage_proxy": {
+    "initial_15O_MeV_u": 0.0014236174061517356,
+    "generous_before_stopping_photon_triangle_bound_MeV_u": 0.0025087379886612874,
+    "lowest_compiled_experimental_MeV_u": 0.1167807,
+    "minimum_energy_ratio_to_generous_proxy_bound": 46.54958011869407,
+    "massnumber_approximation_not_actual_collision_or_cascade": true
+  },
+  "experimental_rows": 63,
+  "model_rows": 329,
+  "original_experimental_covariance_recovered": false,
+  "Sun_Geant4_stopping_base_recovered": false,
+  "new_lifetime_fit_or_prior_calibration": false,
+  "generated_at": "2026-10-19T15:12:53.976494+00:00",
+  "ok": true
+}

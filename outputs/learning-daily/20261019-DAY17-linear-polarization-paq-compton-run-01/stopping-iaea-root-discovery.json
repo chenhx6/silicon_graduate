@@ -1,0 +1,126 @@
+{
+  "url": "https://www-nds.iaea.org/stopping/",
+  "status": 200,
+  "final_url": "https://www-nds.iaea.org/stopping/",
+  "sha256": "499ef249adb2d2db188389183dd322ef941591b23361695d426b4f1797aba6a1",
+  "bytes": 12883,
+  "text": "Electronic Stopping Power of Matter for Ions Stopping Power Home Search Ion-Target Author Data Versions API Target Glossary About Description Literature Computer Programs Oscillations (legacy) Statistical Analyses (legacy) Contact This is the new website for the Stopping Power Database. The legacy website is still available for a limited time here . Electronic Stopping Power of Matter for Ions This database compiles experimental electronic stopping cross section data for ions in matter, either per target atom or per unit mass.\nThe stopping cross section, S , is related to the ion's average loss of kinetic energy per unit path length (stopping power or stopping force) by −d E /d x = nS , where the minus sign defines the stopping cross section as a positive quantity (ICRU Report 73) . This collection of stopping power measurements includes data published as early as 1928 by Rosenblum, and it is continuously updated. The collection, originally created and maintained by Helmut Paul , considers any ion and target combination that is measured and published, including solids (amorphous or polycrystalline), gases, elements or compounds, new materials such as polymers, oxides, silicates, and also biological targets. It deals with the electronic stopping power, assuming that nuclear stopping has been subtracted or is negligible. Since 2015, the Stopping Power Database is maintained by the Nuclear Data Section (IAEA). Dr. Claudia Montanari (Universidad de Buenos Aires-CONICET) is responsible for data curation, compilation, and update of the database. Articles about the database can be found in Literature . Query the database The database can be queried either by Ion, or by Target, or by Ion and Target. Querying by Ion will retrieve a summary of the information available for that Ion. Querying by Target will retrieve a summary of the information available for that Target. By quering or selecting a specific Ion-Target pair you can access all the datapoints available for that specific pair, both as a plot and as downloadable files. Search by Ion or Target The database can also be queried by Author. Quering by Author will return the list of all the publications available in the database for that Author. Search by Author The database can also be queried via a programmatic API . Download the database Download the latest version of the database in compressed format (~ 4MB): Download data Version 2026-09 - released on 25th of September, 2026 4,473 Experiments | 65,269 Datapoints Download references Version 2026-09 - released on 25th of September, 2026 759 References | 3,269 Authors Previous releases of the database can be downloaded from the Versions page. Cite the database IAEA Stopping Power Database, version 2026-09, https://nds.iaea.org/stopping Reference paper: \"The IAEA electronic stopping power database: Modernization, review, and analysis of the existing experimental data\" C.C. Montanari, P. Dimitriou, L. Marian, A.M.P. Mendez, J.P. Peralta, F. Bivort-Haiek, Nucl. Instrum. Methods Phys. Res. B 551 (2024) 165336, https://doi.org/10.1016/j.nimb.2024.165336 © 2026 IAEA. Terms of Use | Contact",
+  "links": [
+    {
+      "text": "Stopping Power",
+      "href": "/stopping/"
+    },
+    {
+      "text": "Home",
+      "href": "/stopping/"
+    },
+    {
+      "text": "Search",
+      "href": "#"
+    },
+    {
+      "text": "Ion-Target",
+      "href": "/stopping/tuples"
+    },
+    {
+      "text": "Author",
+      "href": "/stopping/publications"
+    },
+    {
+      "text": "Data",
+      "href": "#"
+    },
+    {
+      "text": "Versions",
+      "href": "/stopping/versions"
+    },
+    {
+      "text": "API",
+      "href": "/stopping/api"
+    },
+    {
+      "text": "Target Glossary",
+      "href": "/stopping/target_glossary"
+    },
+    {
+      "text": "About",
+      "href": "#"
+    },
+    {
+      "text": "Description",
+      "href": "/stopping/description"
+    },
+    {
+      "text": "Literature",
+      "href": "/stopping/literature"
+    },
+    {
+      "text": "Computer Programs",
+      "href": "/stopping/software"
+    },
+    {
+      "text": "Oscillations (legacy)",
+      "href": "/stopping/oscillations"
+    },
+    {
+      "text": "Statistical Analyses (legacy)",
+      "href": "/stopping/statisticalAnalyses"
+    },
+    {
+      "text": "Contact",
+      "href": "/stopping/contact"
+    },
+    {
+      "text": "here",
+      "href": "/stopping-legacy"
+    },
+    {
+      "text": "(ICRU Report 73)",
+      "href": "https://doi.org/10.1093/jicru_ndi001"
+    },
+    {
+      "text": "Helmut Paul",
+      "href": "/stopping/description"
+    },
+    {
+      "text": "Literature",
+      "href": "/stopping/literature"
+    },
+    {
+      "text": "Search by Ion or Target",
+      "href": "/stopping/tuples"
+    },
+    {
+      "text": "Search by Author",
+      "href": "/stopping/publications"
+    },
+    {
+      "text": "API",
+      "href": "/stopping/api"
+    },
+    {
+      "text": "Download data Version 2026-09 - released on 25th of September, 2026 4,473 Experiments | 65,269 Datapoints",
+      "href": "/stopping/download/tuples"
+    },
+    {
+      "text": "Download references Version 2026-09 - released on 25th of September, 2026 759 References | 3,269 Authors",
+      "href": "/stopping/download/refs"
+    },
+    {
+      "text": "Versions",
+      "href": "/stopping/versions"
+    },
+    {
+      "text": "https://doi.org/10.1016/j.nimb.2024.165336",
+      "href": "https://doi.org/10.1016/j.nimb.2024.165336"
+    },
+    {
+      "text": "Terms of Use",
+      "href": "https://www.iaea.org/about/terms-of-use"
+    },
+    {
+      "text": "Contact",
+      "href": "/stopping/contact"
+    }
+  ]
+}

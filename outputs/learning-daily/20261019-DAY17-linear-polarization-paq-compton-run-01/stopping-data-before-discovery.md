@@ -1,0 +1,7 @@
+# 阻停独立输入来源前回忆
+
+本session已读Sun/Schuermann/Jensen/MU08，sp10/20%prior、SRIM/Northcliffe/shell corrections与核投影velocity关系已暴露，非盲测。尚未本session读IAEA stoppingdatabase或具体S/Au/O/Ta实验表。
+
+主动回忆：dE/dx_e与dE/dx_n不是同量；nuclear scattering还改v·n，不只是能损。DSAM Eq2需velocityprojectionhistory，单条energy-loss表不能补整个response。stopping单位可为massstopping或crosssection，以density换长度须材料/化学计量与uncer；Etotal和E/A、离子质量/电荷/有效电荷也需分开。Sun31S+Au初速来自transfer并随depth变，Schuermann15O+Ta初recoil由窄共振而非入口318keV质子直接设定。数据若不覆盖关键低能区/只有electronic量或无uncertainty/cov，不能强造constantGaussian spprior或新τCI。
+
+计划只查实际官方数据/文献入口，选一条高信息matchinginput；核energycoverage/observable/target/author/error。若有量化练习只作实际单位/范围/相对model的有界核，不把现今数据库或计算模型当原paperexactproducer；正式17只一次、18知识无学分、不打开19。

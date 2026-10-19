@@ -1,0 +1,7 @@
+{
+  "initial_result": "stopping-coverage-result-initial-isotope-unrestricted.json",
+  "correction": "Initial script evaluated Bi1990 O17 and Hak2002 O18 ratios against O16 SRIM table at same E/u. Those proxy comparisons were unnecessary to scope, are not matched-isotope checks and are excluded in final result; source rows remain unchanged. Unit output key renamed to explicit minus15. Initial run exited0, so arithmetic success was not a scope certificate.",
+  "final_result": "stopping-coverage-result.json",
+  "photon_bound_refinement": "After initial7.556MeV triangle proxy, final declared8MeV total labphoton energybound covers excitationplusinitialrecoil energy. Final .00250873799MeV/u, coveragefactor46.54958; no realcascadehistory.",
+  "curriculum_context_incident": "Matrix rg -A14 for Day18 also displayed Day19 heading/recall/routes/deliverable lines170–176. No Day19 source/body, quantitative exercise or card credit opened; not classified as Day19 study. Avoid further neighboring-card context."
+}

@@ -123,3 +123,10 @@ J01-12–18的[[jensen-2001-165tm-h9-2-configuration]]主线将直接DSAM两band
 [[nndc-2022-s31-mixing-lifetime-reference]] S31-2–5/9/10给Sun1248模型E2扣除之外的旧MRcompanion，含真实双根/RUL选择及half-life/mean同源字段。官方数据可收窄输入，不能自动替代新DSAMactualresponse/priors/Σ，或用adoptedpreferred值重造唯一δ。
 
 S31-11的旧RISINGcluster/Miniball两预算还提示：meanτ/half-life及stat/sys组合必须同口径再比较，不能把同paper的两个detector和其单位换算重复当独立lifetime证据。
+
+
+## 独立阻止输入先核对象与能区
+
+[[iaea-2026-stopping-s-au-o-ta-records]] ISP26-1–9保存实际官方S/Au、O/Ta表。电子截面−dE/dx=nS不含完整核散射/速度投影；63实验行与329SRIM模型点分列，literal百分比误差无共同Σ或统一置信定义。S/Au六组全32S，O/Ta全无15O且最低实验能量.1167807MeV/u。Ep.318MeV的15O质量近似起点约.001424MeV/u，即使声明总γ能量8MeV宽松界也仍有约46.55倍能区缺口。这是覆盖控制，不是新停止程/F/τ计算。
+
+Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013曲线认作其producer或以同源模型比值直接更新10/20%Gaussian先验（SUN23-6）。Schürmann用SRIM2006投影历史与15N/Ta上游控制；现今电子表不补原collision/多项式/材料/Σ（SCH08-9）。实际下一输入应是matching isotope/velocity/material的primary方法、核阻止扣除和共同误差，而非按表行数缩小系统预算。

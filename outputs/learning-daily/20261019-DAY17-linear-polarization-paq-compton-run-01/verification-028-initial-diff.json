@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--check"
+  ],
+  "exit_code": null,
+  "stdout": "continuation-current.md:16: new blank line at EOF",
+  "followup": "Removed only trailing blank line; initialverification stopped before writing receipt/staging.",
+  "failed": true,
+  "exit_note": "Initial verifier asserted nonzero; numeric returncode not persisted before assertion. Do not infer exact value."
+}

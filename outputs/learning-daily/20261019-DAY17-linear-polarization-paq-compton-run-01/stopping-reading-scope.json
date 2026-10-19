@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-19T15:14:19.428834+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "read": [
+    "homepage fullmaintext/definitions",
+    "api page endpoint identity only; schema403 not read",
+    "description maintext",
+    "S-Au pair page full experimental/theory tables",
+    "O-Ta pair page full experimental/theory tables",
+    "selected392CSV rows/all20fields",
+    "selected11reference rows"
+  ],
+  "not_read": [
+    "fullglobalCSV allrows",
+    "database2024referencepaper body",
+    "Ward1979/Forster1976/Hu1999 primarybodies",
+    "Bister1977primarybody",
+    "actualSunGeant4configuration/covariance",
+    "SchuermannSRIM2006polynomial/collisionhistory"
+  ],
+  "role_counts": {
+    "S-Au experimental": 39,
+    "S-Au model": 164,
+    "O-Ta experimental": 24,
+    "O-Ta model": 165
+  },
+  "cross_export_check": "selectedfullglobal rows exactlyequalpairCSV",
+  "initial_output_scope_correction": "see stopping-analysis-correction.json",
+  "formalcredit": "17once;18uncreditedpreview;no19"
+}
