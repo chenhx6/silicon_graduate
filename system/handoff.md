@@ -6,19 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; Ch5 checkpoint034
+## Active handoff — DAY17 original window active; Ch6 checkpoint035
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原截止2026-10-20 15:00上海、15–16收束不改。001–033已actualGiteeH3push；formal17只007后一次、next18/count17、partial18，不授18/不开19。原runner16:06中断/normalexit未观察。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止、15–16收束。001–034actualGiteeH3push；formal17once/next18count17/partial18/no19。runner16:06中断/normalexit未观察保持。
 
-Ch5已完整读PDF87–103/printed84–100，文本与所有15图3表11式视觉核；F22-16–30新claim均needs_review。Ch4原19mm实测反证仍保，publicloader/scalar故障独立；未读全thesis201页，Ch3/6/7/appendix尚未读。
+thesisCh4–6完整实际原读，非全201页；Ch6/PDF105–126/printed102–123/17图9表4式文本与视觉核，新F22-31–47全needs_review。Ch3/7/appendix仍未读。旧19mm真实gap反证、Ch5DCT合成角/contamination拒绝及publicloader/scalar边界不变。
 
-本批新实际合同：Table5.1全部22门，keyalpha37.5–39.5与另六行相交但长度非污染率；VAMOS/DCT角差<3°θ/<30°φ才均值否则DCT；θDS由recoil/γ点积不是labθγ。Figs5.8/5.9明确拒绝Mg7333与Si6879相交的(Eγ,θγ)区域，numericmask/job缺，不能由全显示χ²认证原fit。单meanβ.077交叉θDS144.6878°仅运动学说明，非实际cut。
+Ch6明确同data三τ方法，Eq6.2weightedcenter/minσ，DCLM每τ用MCmeanβ变换data/MC；Fig6.8差值对称不排共同bias。targetshift17mm/AGATA−252.3(1.7)为真实校准。Table6.4DCLM9.5fs/Γ60字面中心不闭合(算69.2855)，Table6.7final9.9/66量级闭合；不修原表/CI。实际11/9.5的声明σ5/3.25weighted9.9455，rho>.4623125使linearσ>min政策，仅条件Cov反证非实验新CI。
 
-Eq5.5厚靶literalcoeff与Fig5.4量级不闭合，Table5.2 key7.785label与prose only7.333不闭合；保原不猜修/不宣判producer错。Eq5.8两厚度实际model映keyalpha门为thin7.599–8.514/thick7.337–8.252MeV，非ExCI。Fig5.13 sigma.1451为parentresolution，非τfit。Ch5βems与F23Δβ须eventmatched转换，截面共享keyreference归一，非新独立实验。
+BRfit仅ExSPIDER7.65–7.85MeV，7770priorBR<.2%、Ex差门与pureAu减除/SPIDER100%intrinsic假设；thesis.68(.06)%与F23.68(.17)%版本分开，另一alphaγ法15(+16,−15)%失败；TALYS误差不足定J。完整numericτjob/Σ/ROOT版本缺。
 
-canonicalthesissource/lifetimeledger/report唯一writeback；新scriptday17_fougeres2022_ch5_contract.py与真实input/result/scope/冻结齐。verification048实际结果见receipt，通过后main / `Record actual ejectile gates and contaminant rejection in thesis reconstruction`为034稳定指针，actualhash/H3/push仅publication034/run.json。
+下一新问题已识别尚未核：正文maximumlikelihood与publicCodeA_gamma.C的Chi2Test LL CHI2，另Tools.C手写loglikelihood跳o0/s0，需新freeze后核实际ROOT API/native。旧ROOT5.22仅grep显示UU/UW/WW而无LL，不当新版本通过。publicCodeA还有hardcodedoldlocalfile/plotlegend，非keypaperproducer认证。不要执行未初始化完整MC，禁止用更多toy或修release冒实验fit。
 
-下一高信息：先冻Ch6 actual三个寿命方法/fitdomain/background/τenergygrid，再精确选本章完整主线，不开其它课程卡/不修原producer或加toy填缺口。约05:28上海尚>9h，不提前日终。保护raw/PLAN/Bib/credentials/继承dirty/daemon/oldlog。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+canonicalthesissource/lifetimeledger/report单writeback与真实输入/程序/结果/scope齐。verification049实际receipt通过后main / `Audit shared-data lifetime combination and proton-fit boundaries in thesis`稳定指针，actualhash/H3/push只publication035/run.json。约05:35上海仍大窗口，继续研究不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/oldlog；exactstage/logHEAD+own035。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

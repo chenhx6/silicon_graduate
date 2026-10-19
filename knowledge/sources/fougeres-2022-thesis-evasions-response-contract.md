@@ -1,6 +1,6 @@
 ---
 type: source
-title: "Fougères2022学位论文第4–5章：响应、重建与污染选择合同"
+title: "Fougères2022学位论文第4–6章：响应、重建、寿命统计合同"
 title_original: "Understanding the cosmic abundance of 22Na: lifetime measurements in 23Mg"
 aliases: [Fougeres2022 thesis Ch4, F22 EVASIONS response]
 created: 2026-10-20
@@ -36,7 +36,9 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 
 先冻primed回忆、查目录与前页，再完整读Chapter4：PDF74–86/printed71–83，Fig4.1–4.8、Table4.1、Eq4.1–4.3及章节结论。关键输入/图式表/验证全部视觉核。front输出曾包含Chapter1第一页通用概述，明确记为额外预览；该次没有读全201页、Chapter3/5/6/7或附录正文；后续Ch5增量见下。[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch4-reading-scope.json)。
 
-后续新问题前冻结后完整读Chapter5/PDF87–103/printed84–100，Figs5.1–5.15、Tables5.1–5.3、Eqs5.1–5.11全部文本/视觉核；22行门另按原text逐项核转录。[Ch5actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-reading-scope.json)。Chapter3/6/7与附录仍未读，不借sourcehash代全文阅读。
+后续新问题前冻结后完整读Chapter5/PDF87–103/printed84–100，Figs5.1–5.15、Tables5.1–5.3、Eqs5.1–5.11全部文本/视觉核；22行门另按原text逐项核转录。[Ch5actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-reading-scope.json)。该次Chapter3/6/7与附录仍未读；后续Ch6增量见下，不借sourcehash代全文阅读。
+
+后续又独立冻结后完整读Chapter6/PDF105–126/printed102–123，17图9表4式全部文本/视觉核，包括粒子分支/自旋失败的章节结论；仍未读Chapter3/7/附录。[Ch6actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-reading-scope.json)。
 
 ## Summary
 
@@ -76,6 +78,23 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-28 | 截面先校正γeff/两侧background/VAMOSnoise-eff，再以key7.785population/reference截面归一其它态；共享scale，不是22个独立absolute测量。printed98写150Eu，与F23的152Eu不同，需原job/Chapter3核。 | shared-normalization-and-version-boundary | direct-thesis | printed98–99 Sec5.4.2/Fig5.14 | true |
 | F22-29 | Eqs5.9–5.11对backward cosθDS≤0且R=Eγ/Eγ0≤1仅一physicalβ≥0根(R=1为0)；Ch5Fig5.15横轴βems，F23Δβ=βreac−βems须eventmatched转换，不能直接同名谱/同fit。 | observable-and-domain-contract | direct-thesis | printed99–100 Eqs5.9–5.11/Fig5.15 | true |
 | F22-30 | 新Ch5实际PID/合成角/contaminationcut/谱变量使F23fullshownχ²不闭合的解释更具体，但未得numericmask/原job/fitCov，不归因唯一原因、未重fitτ/BR/CI；下一最高信息Ch6方法与背景fitdomain。 | knowledge-update-and-readiness | synthesis-with-primary | F22-18/20/24/25/29 | true |
+| F22-31 | 新完整读Ch6/PDF105–126/printed102–123、17图9表4式文本/视觉核；只有Ch4–6完整，未读全thesis/Ch3/7/appendix。三次冻结及priming分开，无formal18credit。 | actual-reading-scope | direct-thesis | Chapter6；reading-scope | true |
+| F22-32 | Sec6.2.1每个τ/E0将MC按同能区积分归一到data，区间含peak和两侧noise；称ROOThistogram maximumlikelihood option，但未给完整job/所有numericfitwindows。不能从术语唯一确定统计量/零bin/MCerror。 | actual-fit-normalization-and-ambiguity | direct-thesis | printed102 Sec6.2.1 | true |
+| F22-33 | Table6.1给68/95%且m=1/2/3阈值；本章声明τ/E0两自由参数m2、systematics含forwardmodel而quotedτerrors为statonly。jointcontour与单参数projection及边界coverage仍需统计合同，不能拿fixedE0slice当已profile。 | stated-CI-contract | direct-thesis | printed102–103 Table6.1 | true |
+| F22-34 | keyDSAMθDS154–162°，作者将4keV/bin改12keV/bin以令χ²/ndf靠1，τ<17fs/95%依knownE0。此是原分析选择与upperlimit，不证明调bin到χ²≈1就获得校准coverage。 | actual-binning-and-upper-limit | direct-thesis-and-use-boundary | printed104–106 Fig6.2/Table6.2 | true |
+| F22-35 | keyβM报11(+6,−4)fs、E07333.0(+1.2,−.4)keV，Fig6.4横轴βems，集全角events但非多次独立采集；对near7770/7782复合峰用5067重建并显式模拟0/3fs与错误energy产生的高β尾。 | actual-beta-method-and-companion | direct-thesis | printed106–109 Figs6.3–6.5/Table6.3 | true |
+| F22-36 | DCLM Eq6.1对每个τ从MC算meanβDC，再把data与MC各自event变换为Doppler-corrected谱，key9.5(+4.5,−2)fs；data变换本身依τ，不能当固定观测histogram参数扫描或独立data验证。 | parameter-dependent-transform | direct-thesis | printed109–111 Eq6.1/Figs6.6/6.7 | true |
+| F22-37 | Fig6.8跨态相对差均值3.64%/SD30.4、22entries且两侧各半；作者据此称无systematic。相同data/response的共同bias可同时不出现在差值中，本图不证明绝对systematic为0。 | author-interpretation-and-counter-evidence | direct-thesis-and-inference | printed111–112 Fig6.8 | true |
+| F22-38 | 三knownlifetime态用τ/ZAGATA扫描得位置−252.3(1.7)mm，另DCT/VAMOS角法得148(+12,−8)mm；作者据此用17mm targetshift修survey值。它是不同估计路线与共享标定，非新的keylifetime独立实验。 | actual-geometry-calibration | direct-thesis | printed113–114 Fig6.9/Table6.5/Fig6.10 | true |
+| F22-39 | Table6.6灵敏度为特定Ex7785/Eγ7333/τ1fs的EVASIONS模型，energy/angle resolution占主导、作者等效约1fs。以1%stopping扰动得到的变化不等实际stopping已知1%或全responseCov。 | conditional-systematic-model | direct-author-model | printed115 Table6.6 | true |
+| F22-40 | Sec6.2.6明确三方法同data不独立，Eq6.2用逆variance中心及minσ而非独立合并误差；Table6.7 finalkey9.9(+4.5,−2)fs/Γ66(+17,−21)meV。minσ政策不是一般sharedCov定理。 | shared-data-combination-policy | direct-thesis | printed115–116 Eq6.2/Table6.7 | true |
+| F22-41 | 以实际11/9.5与声明对称化σ5/3.25算weightedcenter9.9455fs；固定weights下ρ>.4623125时真实Gaussianlinearσ大于min3.25。仅条件反证任意ρ下保守性，actualρ/原asymmetry未知，不改实验CI。 | conditional-covariance-counterexample | task-arithmetic-with-actual-inputs | exercise Eq6p2_conditional_covariance | true |
+| F22-42 | Table6.4 keyDCLMτ9.5(+4.5,−2)与Γ60(+18,−22)的中心不按hbar/τ闭合：字面应69.2855；Table6.7τ9.9则66.4861对应打印66。保各表原值，不猜修或据此否定原实验。 | literal-width-table-boundary | direct-thesis-and-arithmetic | printed112 Table6.4；printed116 Table6.7 | true |
+| F22-43 | BRp以2DExVAMOS/ExSPIDER去pureAu背景并选abs差≤.45MeV，防高态到22Na583串入；10态模板中7770被BRp<.2%先验约束，χ²仅7.65–7.85MeV。全显示域不等fitdomain。 | actual-proton-selection-and-prior | direct-thesis | printed116–119 Figs6.11–6.14/Eq6.3 | true |
+| F22-44 | SPIDERintrinsic效率假设100%、geometricMC及γeff归一；residualnoise选−1.5≤ExVAMOS−ExSPIDER≤−.5。thesisBRp.68(.06)%、Γp.45(+.16,−.17)meV与F23.68(.17)%版本不同，非两独立BR，缺完整job/Cov不重算CI。 | actual-branch-normalization-and-version | direct-thesis | printed119–121 Fig6.15/Tables6.8/6.9 | true |
+| F22-45 | 另一alpha有无γ计数法仅BR15(+16,−15)%、约1000vs设计50000counts，非第二精密.68确认；7855/8016因γ未见只下限，shellmodelτ/J用于coherence非独立实验BR。 | failed-companion-and-model-boundary | direct-thesis | printed120–121 Table6.9 | true |
+| F22-46 | TALYS截面与data低高Ex分区失配，fsim.29(.22)后点散布factor5，keyJ5/2与7/2预测.79/.66差小于实测误差；作者明确未能定J。Fig6.13示意7/2标签不能升级本实验spin确定。 | actual-negative-spin-result | direct-thesis | printed121–123 Fig6.16/Eq6.4 | true |
+| F22-47 | Ch6公开了shareddata/minerror/targetshift/branch模板与fitdomain的实质合同，仍未给原ROOT版本/actualjob/所有τfitmask与Σ。publicLL与manual似然的API语义另需新核，不由thesis文字认证paper统计实现。 | readiness-and-next-input | synthesis-with-primary | F22-32/36/40/43/44 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -85,7 +104,7 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 
 ## Competing Interpretations and Limitations
 
-Chapter5现已读并明确原PID/合成角/contaminationcut合同；Chapter3的实际resolution/target表、Chapter6的三个寿命方法/τ能量grid/背景域尚未读。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
+Chapter5/6现已读；Chapter3的实际resolution/target表与附录更完整背景算法尚未读，Ch6全部numericjob/ROOT版本/Σ尚未取得。当前不把本章结果补成它们已给的参数或原fit已复现。后续若要推进F23 χ²不闭合，最高信息是准确重建与fit章节，不是修一处公开源码后直接重报τ。
 
 ## Knowledge Impact and Learning Decision
 
@@ -100,3 +119,11 @@ Chapter5现已读并明确原PID/合成角/contaminationcut合同；Chapter3的�
 [量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-before.md)、[22行原输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-contract.json)、[程序](../../system/scripts/day17_fougeres2022_ch5_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-result.json)。key门与另六行有非零区间交集，交集长度只为几何量不等污染概率。单平均β的Doppler运动学交叉在θDS≈144.6878°，说明污染可重叠；不从紫圈推数值拒绝门。Eqs5.9–5.11前逆恒等控制最大误差3.82e−16，仅验证声明表达式。
 
 `supports`完整粒子—γ身份/方向重建/response合同；`limits`从公共derivedevents或全显示曲线直接复原原fit；印刷边界保留，未造erratum/新实验CI。无原producer和Σ仍是readiness缺口，不能以本thesis与2023同研究链重复计独立验证。
+
+## Chapter6同数据三方法与统计合同
+
+[新量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-before.md)、[实际表输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-contract.json)、[程序](../../system/scripts/day17_fougeres2022_ch6_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-result.json)。hbar/tau精确端点变换、实际数值下条件Cov范围只核合同，不新报CI。
+
+作者已经承认同data依赖，不能把βM/DCLM相符当独立采集；Fig6.8差值约对称仍容许共同bias。对θ/E响应、同数据归一和每个τ改变的DCLM坐标需联合记录。Table6.1名义68%与常用68.27%的舍入不同，不以末位阈值差发明erratum；joint2D阈值亦不等单τprofilecoverage。
+
+`supports`同数据显式分层与原fitdomain合同；`limits`minσ无条件保守、跨方法无差即无bias及示意图spin标签。下一有界高信息是publicChi2Test LL/手写likelihood实际API与零bin/范围语义；原paperjob未认证，不修producer/原表。

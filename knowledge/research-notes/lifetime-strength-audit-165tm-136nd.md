@@ -324,3 +324,11 @@ Chapter4给σ=FWHM/2.35、data-derivedSNR/noise与28Si benchmark：归一6.81–
 原PID需要Z/Bρ/t*；方向由VAMOS与DCT在3°θ/30°φ条件下组合；Eq5.7实际用recoil—γ点积角，不等beamθγ。最关键的是Figs5.8/5.9作者明确拒绝28Si6879与Mg7333相交的(Eγ,θγ)区域，实际mask/job缺。这使publicderivedtree/全显示χ²不能认证paperfit的输入差异更具体，不证明已经找到唯一差异原因。
 
 Eq5.5厚靶打印系数与图量级不闭合，Table5.2的7.785标签与only7.333文字不闭合，保原件不猜修；Fig5.13的Exsigma.1451MeV为母态分辨非寿命CI。thesisβems与F23Δβ需eventmatched转换，共享key参考归一不是新独立测量。新[实际输入练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-result.json)只作门/印刷式/Doppler交叉核验，无新τ/BR/CI。下一精确route是Ch6的实际fitdomain/背景统计；Chapter3/6及appendix尚未读。
+
+### Ch6同数据组合：minσ与未知协方差
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-31–47完整Ch6原件/17图9表4式。正文明确DSAM/βM/DCLM共用data，Eq6.2取逆variance中心及minσ；不能作为三个独立τ。DCLM每个τ以MCmeanβ改变data/MC坐标，Fig6.8方法差值约对称仍不能排共同bias。真实targetshift17mm/ZAGATA−252.3(1.7)为原校准，不是publicgeometry错误。
+
+[新实际输入练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-result.json)以11(+6,−4)、9.5(+4.5,−2)的声明对称化σ5/3.25，weighted9.9455；固定weights时ρ>.4623125则σ>min3.25，条件反证minσ通用保守性，actualρ/联合asymmetriclikelihood仍缺。Table6.4 τ9.5与Γ60中心打印不闭合，Table6.7 τ9.9/Γ66闭合量级，保原值不修CI。
+
+BR模板仅7.65–7.85MeV算χ²，7770有BR<.2%约束，Ex差门/pureAu背景/SPIDER100%intrinsic假设明确。thesis.68(.06)%与F23.68(.17)%是同实验版本差，非独立BR确认；另一alphaγ方法15(+16,−15)%不能当精密确认。TALYS截面不能定keyspin，源levelscheme的7/2标签不变实验J证据。ROOTmaximumlikelihood/LL接口与手写likelihood需新API核，原job/Σ未认证。

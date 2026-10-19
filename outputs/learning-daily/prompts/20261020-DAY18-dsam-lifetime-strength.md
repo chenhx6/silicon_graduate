@@ -132,3 +132,7 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint034 priming：Ch5原重建合同
 
 F22-16–30完整原读Ch5/15图3表11式，22行alpha门/Eq5.8与literalEq5.5核验；VAMOS/DCT合成角、7333与Si6879交叠区必须拒绝、thetaDS不等labthetaGamma。实际mask/job/Σ缺，βems不自动同F23Δβ；打印式/表标签边界不猜修。此为Day17窗口的无学分preview，正式18须新session独立交付。
+
+### Day17 checkpoint035 priming：Ch6组合与BRfitdomain
+
+F22-31–47完整Ch6；同data三方法/minσpolicy、τ依赖DCLM坐标、17mm实际targetshift、BR7.65–7.85MeVfitdomain/7770prior与.68(.06)vsF23.68(.17)版本差。声明对称化Cov反证非新CI，9.5/60打印不闭合保原；TALYS未定J。正式18需独立session，不用旧checks换学分。

@@ -1,0 +1,4 @@
+
+### Day17 checkpoint035：同data寿命与BR边界
+
+F22-31–47完整Ch6/实际表/条件Cov新artifact写回canonical。verification049/显式manifest035/commitguard/H3后发布，main / `Audit shared-data lifetime combination and proton-fit boundaries in thesis`，hash仅receipt。原windowactive、17once/partial18/no19，不新报CI或定spin。

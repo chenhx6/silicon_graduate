@@ -2178,3 +2178,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ### Day17 checkpoint034：Ch5实际选择合同
 
 F22-16–30完整Ch5原读/22门与印刷式/污染交叉新artifact写回canonical；不猜actualmask或新fitCI。verification048通过后显式manifest034/commitguard/H3，稳定main / `Record actual ejectile gates and contaminant rejection in thesis reconstruction`，精确hash仅receipt。原windowactive、17once/partial18/no19，继承dirty未纳入。
+
+### Day17 checkpoint035：同data寿命与BR边界
+
+F22-31–47完整Ch6/实际表/条件Cov新artifact写回canonical。verification049/显式manifest035/commitguard/H3后发布，main / `Audit shared-data lifetime combination and proton-fit boundaries in thesis`，hash仅receipt。原windowactive、17once/partial18/no19，不新报CI或定spin。

@@ -1,0 +1,61 @@
+{
+  "identity": "F22-THESIS-CH6-TABLE-COV-01",
+  "pdf": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "locators": [
+    "Table6.1 printed103",
+    "Table6.4 printed112",
+    "Eq6.2/Table6.7 printed116",
+    "Table6.9 printed120"
+  ],
+  "hbar_meV_fs": 658.2119569,
+  "hbar_note": "declared numerical physical constant for unit conversion, not a new measurement",
+  "lifetime_width_rows": [
+    {
+      "label": "Table6.4 betaM",
+      "tau_fs": 11,
+      "tau_plus_fs": 6,
+      "tau_minus_fs": 4,
+      "printed_Gamma_meV": 60
+    },
+    {
+      "label": "Table6.4 DCLM",
+      "tau_fs": 9.5,
+      "tau_plus_fs": 4.5,
+      "tau_minus_fs": 2,
+      "printed_Gamma_meV": 60
+    },
+    {
+      "label": "Table6.7 final",
+      "tau_fs": 9.9,
+      "tau_plus_fs": 4.5,
+      "tau_minus_fs": 2,
+      "printed_Gamma_meV": 66
+    }
+  ],
+  "betaM": {
+    "tau": 11,
+    "plus": 6,
+    "minus": 4
+  },
+  "DCLM": {
+    "tau": 9.5,
+    "plus": 4.5,
+    "minus": 2
+  },
+  "final_tau_fs": 9.9,
+  "BRp_percent": 0.68,
+  "BRp_percent_sigma": 0.06,
+  "F23_BRp_percent_sigma": 0.17,
+  "Table6p1_68": [
+    0.99,
+    2.29,
+    3.53
+  ],
+  "Table6p1_95": [
+    3.84,
+    5.99,
+    7.82
+  ],
+  "boundary": "literal source values; conditional symmetrization only; not original event likelihood or joint CI"
+}

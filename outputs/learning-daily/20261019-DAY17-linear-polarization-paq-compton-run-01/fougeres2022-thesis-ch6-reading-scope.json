@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-19T21:31:25.381387+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "read": "Chapter6 full text and all22pages visually checked",
+  "PDF_pages": [
+    105,
+    126
+  ],
+  "printed_pages": [
+    102,
+    123
+  ],
+  "figures": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.9",
+    "6.10",
+    "6.11",
+    "6.12",
+    "6.13",
+    "6.14",
+    "6.15",
+    "6.16",
+    "6.17"
+  ],
+  "tables": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.9"
+  ],
+  "equations": [
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4"
+  ],
+  "not_read": [
+    "Chapter3",
+    "Chapter7",
+    "Appendices"
+  ],
+  "primed": true,
+  "full_thesis_read": false
+}

@@ -1,0 +1,138 @@
+{
+  "at": "2026-10-19T21:32:02.174615+00:00",
+  "script_sha256": "5495919ef5457bdc6e115cef22663b26ff109d556eed30e490524ac27534354b",
+  "contract_sha256": "b2e401b4cc93aaa66c545e91ff8045171443fcc51afc530d183789d818b58c17",
+  "literal_width_crosschecks": [
+    {
+      "label": "Table6.4 betaM",
+      "tau_fs": 11,
+      "tau_plus_fs": 6,
+      "tau_minus_fs": 4,
+      "printed_Gamma_meV": 60,
+      "recalculated_Gamma_meV": 59.83745062727273,
+      "recalculated_plus_meV": 34.19282892987013,
+      "recalculated_minus_meV": 21.119100221390376,
+      "central_minus_printed_meV": -0.16254937272726977,
+      "boundary": "literal marginal endpoint mapping; not a joint confidence interval"
+    },
+    {
+      "label": "Table6.4 DCLM",
+      "tau_fs": 9.5,
+      "tau_plus_fs": 4.5,
+      "tau_minus_fs": 2,
+      "printed_Gamma_meV": 60,
+      "recalculated_Gamma_meV": 69.28546914736842,
+      "recalculated_plus_meV": 18.476125105964925,
+      "recalculated_minus_meV": 22.270329368796986,
+      "central_minus_printed_meV": 9.285469147368417,
+      "boundary": "literal marginal endpoint mapping; not a joint confidence interval"
+    },
+    {
+      "label": "Table6.7 final",
+      "tau_fs": 9.9,
+      "tau_plus_fs": 4.5,
+      "tau_minus_fs": 2,
+      "printed_Gamma_meV": 66,
+      "recalculated_Gamma_meV": 66.48605625252526,
+      "recalculated_plus_meV": 16.831912975322837,
+      "recalculated_minus_meV": 20.77689257891415,
+      "central_minus_printed_meV": 0.48605625252525897,
+      "boundary": "literal marginal endpoint mapping; not a joint confidence interval"
+    }
+  ],
+  "Eq6p2_conditional_covariance": {
+    "declared_symmetrization": "arithmetic average of printed upper/lower errors",
+    "sigma_inputs_fs": [
+      5.0,
+      3.25
+    ],
+    "fixed_weights": [
+      0.29701230228471004,
+      0.70298769771529
+    ],
+    "central_fs": 9.945518453427066,
+    "min_sigma_policy_fs": 3.25,
+    "rho_above_which_fixed_weight_sigma_exceeds_min_policy": 0.46231249999999996,
+    "scenarios": [
+      {
+        "rho": -1,
+        "variance_fs2": 0.6394377333897525,
+        "sigma_fs": 0.7996485061511417,
+        "covariance_determinant_fs4": 0.0
+      },
+      {
+        "rho": 0,
+        "variance_fs2": 7.42530755711775,
+        "sigma_fs": 2.7249417529770708,
+        "covariance_determinant_fs4": 264.0625
+      },
+      {
+        "rho": 0.5,
+        "variance_fs2": 10.81824246898175,
+        "sigma_fs": 3.2891096772503268,
+        "covariance_determinant_fs4": 198.046875
+      },
+      {
+        "rho": 0.9,
+        "variance_fs2": 13.532590398472948,
+        "sigma_fs": 3.6786669322558883,
+        "covariance_determinant_fs4": 50.171874999999986
+      },
+      {
+        "rho": 1,
+        "variance_fs2": 14.211177380845747,
+        "sigma_fs": 3.7697715289982425,
+        "covariance_determinant_fs4": 0.0
+      }
+    ],
+    "boundary": "conditional Gaussian covariance, unknown actual rho/asymmetric likelihood; no experimental CI revision"
+  },
+  "branch_scale_crosscheck": {
+    "BRp_fraction": 0.0068000000000000005,
+    "Gamma_p_meV_at_final_tau": 0.4521051825171718,
+    "tau_fixed_branch_only_sigma_meV": 0.03989163375151515,
+    "F23_branch_only_sigma_meV_with_same_Gamma": 0.11302629562929295,
+    "boundary": "arithmetic only; no unknown lifetime-branch covariance filled"
+  },
+  "Table6p1_thresholds": [
+    {
+      "CL": 0.68,
+      "parameters": 1,
+      "chi2_quantile": 0.988946481478023,
+      "printed": 0.99
+    },
+    {
+      "CL": 0.68,
+      "parameters": 2,
+      "chi2_quantile": 2.27886856637673,
+      "printed": 2.29
+    },
+    {
+      "CL": 0.68,
+      "parameters": 3,
+      "chi2_quantile": 3.505882355768179,
+      "printed": 3.53
+    },
+    {
+      "CL": 0.95,
+      "parameters": 1,
+      "chi2_quantile": 3.841458820694124,
+      "printed": 3.84
+    },
+    {
+      "CL": 0.95,
+      "parameters": 2,
+      "chi2_quantile": 5.991464547107979,
+      "printed": 5.99
+    },
+    {
+      "CL": 0.95,
+      "parameters": 3,
+      "chi2_quantile": 7.814727903251179,
+      "printed": 7.82
+    }
+  ],
+  "literal_inputs_preserved": true,
+  "no_new_experimental_lifetime_branch_or_CI": true,
+  "ok": true
+}

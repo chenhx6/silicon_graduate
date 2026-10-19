@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint035：Ch6同数据三方法与失败companion
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-31–47，完整PDF105–126/printed102–123、17图9表4式文本/视觉核；同data组合、targetshift与BRfitdomain明确，spin未定。原ROOTstatistic/job/Σ缺口继续保。
+
+
 ### checkpoint034：Ch5原事件重建与拒绝门
 
 [[fougeres-2022-thesis-evasions-response-contract]] F22-16–30完整读PDF87–103/printed84–100、15图3表11式，文本与视觉均核。关键是DCT/VAMOS合成角及7333/Si6879相交区域实际拒绝条件；numericmask/job/Σ仍缺，不能由derivedtree认证原fit。
@@ -140,6 +145,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint035：实际τ/Γ表与条件Cov
+
+[程序](../../system/scripts/day17_fougeres2022_ch6_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-result.json)核Table6.4/6.7/6.9、hbar/tau及Eq6.2：声明对称化算9.9455fs；固定weights在ρ>.4623125时σ大于min政策，非实验CI修订。DCLM打印9.5fs/60meV中心不闭合保原，final9.9/66量级闭合；BR.68(.06)与F23.68(.17)版本分开。
+
 
 ### checkpoint034：实际22门、loss印刷式与Doppler交叉
 
@@ -5172,6 +5182,54 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
         {
           "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
           "locator": "F22-30"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-31"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-32"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-34"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-36"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-38"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-40"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-41"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-42"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-43"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-44"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-46"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-47"
         }
       ]
     },
@@ -5314,6 +5372,41 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
         {
           "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
           "locator": "F22-30"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Ch6同数据组合：minσ与未知协方差",
+      "summary": "写回同data三方法/minσ的条件反证、真实BRfitdomain/先验及版本差与失败spincompanion。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-36"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-40"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-41"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-43"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-44"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-46"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-47"
         }
       ]
     }
@@ -5518,3 +5611,7 @@ verification047核report/course/唯一writeback/boundary/lint/diff/旧rowsreview
 verification048核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与真实22行artifact；通过后manifest034/commitguard/H3发布。仍同原窗口/goalactive，formal17只一次/partial18，不授18/不开19。
 
 048初diffcheck抓到continuation末端多空行(exit2)，保initial-failure.json；只规范EOF后重跑，不改科学输入/结果。
+
+### checkpoint035同数据统计合同验收
+
+verification049核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与新实际artifact；通过后manifest035/commitguard/H3发布。formal17once/18partial/no19，原window继续，未重报实验CI。
