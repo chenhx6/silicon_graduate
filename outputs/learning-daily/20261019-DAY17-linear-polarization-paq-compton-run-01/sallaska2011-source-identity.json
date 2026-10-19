@@ -1,0 +1,94 @@
+{
+  "url": "https://arxiv.org/src/1009.3925v2",
+  "status": 200,
+  "bytes": 785860,
+  "sha256": "593ae11f277ea77a5037a0adca008f414593f7695df9194e6f7c122ef99c5b18",
+  "members": [
+    {
+      "name": "23mglevels_ours.eps",
+      "size": 67256
+    },
+    {
+      "name": "ampl_pdfs_units.eps",
+      "size": 42229
+    },
+    {
+      "name": "chamber.eps",
+      "size": 4800550
+    },
+    {
+      "name": "coin_adjust.eps",
+      "size": 165164
+    },
+    {
+      "name": "data_232_198.eps",
+      "size": 65003
+    },
+    {
+      "name": "data_284_214.eps",
+      "size": 79925
+    },
+    {
+      "name": "data_512.eps",
+      "size": 123255
+    },
+    {
+      "name": "data_613_456.eps",
+      "size": 60559
+    },
+    {
+      "name": "data_spectra_232_198RB_Coul_nosp.eps",
+      "size": 45039
+    },
+    {
+      "name": "data_spectra_284_214RB_Coul_nosp.eps",
+      "size": 46554
+    },
+    {
+      "name": "data_spectra_613_456_insetRB_Coul_nosp.eps",
+      "size": 124861
+    },
+    {
+      "name": "eff_paper_referee.eps",
+      "size": 280683
+    },
+    {
+      "name": "longpaper_accepted.tex",
+      "size": 128669
+    },
+    {
+      "name": "reactionrate_absolute_comp.eps",
+      "size": 99780
+    },
+    {
+      "name": "reactionrate_comp.eps",
+      "size": 130627
+    },
+    {
+      "name": "samplespectrum_resubmit.eps",
+      "size": 294173
+    },
+    {
+      "name": "setup_for_thesis.eps",
+      "size": 247823
+    },
+    {
+      "name": "t3raster_adjust.eps",
+      "size": 45360
+    },
+    {
+      "name": "tdeg_arrow.eps",
+      "size": 256346
+    }
+  ],
+  "selected_tex": [
+    {
+      "member": "longpaper_accepted.tex",
+      "file": "tmp/day17-sallaska2011/source-longpaper_accepted.tex",
+      "sha256": "01c548ae4889181a5e21a750e26877de8c2c88a355f35e12f7916c9716694543",
+      "date_lines": [
+        "\\date{\\today}"
+      ]
+    }
+  ]
+}

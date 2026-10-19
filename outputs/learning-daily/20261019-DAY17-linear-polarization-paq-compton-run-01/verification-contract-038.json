@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md": 20,
+    "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md": 16,
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 22
+  },
+  "artifacts": [
+    {
+      "file": "sallaska2011-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "unclosed_454_nominal_error_is_preserved",
+        "no_new_experimental_strength_branch_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

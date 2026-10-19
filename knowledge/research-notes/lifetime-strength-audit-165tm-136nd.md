@@ -248,3 +248,11 @@ K16对旧Ex未校recoil的评论和J04原文说已校正同时保留，需actual
 条件两通道omega=g(hbar/τ)Bp(1−Bp)，固定τ10fs/omega5.7meV时J3/2中心无根、J5/2和7/2各有互补两根；对应τ上界8.248/12.372/16.497fs。无根不等spin排除，旧tau误差、新limit/omega误差/共同输入未组成联合统计模型。归一RI也不提供totaldecaybranch；其Jacobian列和零，不能把两个derivedfraction误差当独立。
 
 M23-2/10另保留靶厚160vs40和7852/5138在2013缺失的评价注释；2013正文未取，不宣称版本/采集关系已完全闭合。此处新增的是可追溯输入/条件矩阵，不是实验τ、Jπ或率重测。
+
+## 直接capture强度：停止功率与归一分别检查
+
+[[sallaska-2011-na22-absolute-resonance-strength]] S11-1–20原20页/18图/6表/7式全读。uniform raster照满target与完整beam-energy积分使有限强度不必显式用absolute-stopping；代价为总NT、ρb、跨能量efficiency与扫描尾部合同。198/232weaktemplate按Cu stopping比伸缩，energyloss另用TRIM并假20%，213尾为total10(5)%；不能由摘要认所有结果独立于stopping。
+
+213新5732branch约10.6%有same-strongshape约束，placement与J04的209不同；610的6112因F背景采用旧branch估partial。按作者允许upper单侧加法，名义partial预算能近复213/288/610总误差，454约20.903对原22保留未闭合。不是新原事件拟合/CI，也不从被排finalspin1/2补误差强配。
+
+共同Co/efficiency可能同时进入1275活动度和高能capture：omega条件比∝η1275/ηH，需跨能量Cov；共同乘法尺度可消掉，但实际完整Cov未得，不能指控作者doublecount或重报σ。原2010PRL/erratum与2011自称同研究详细报告，不计第二次独立采集；后续若核erratum先读原件，不从标题补更正内容。

@@ -1,0 +1,128 @@
+{
+  "at": "2026-10-19T18:54:23.936542+00:00",
+  "script_sha256": "d0b7a6cb2e52f6a86b597fad38e6770537a9d18e8630ea50bb15c701a42a7dee",
+  "contract_sha256": "a8770cb2843d7d56294d9654af9904b227472dab03a992cf7cf7950aea98746c",
+  "pdf_sha256": "19a8218ff8c0199409b785dad7ee036445db1b299b2c4b9ab2dc62d6e360efc5",
+  "rows": [
+    {
+      "Ep": 213,
+      "sum_printed_partial_meV": 5.699999999999999,
+      "conditional_stat_quadrature_meV": 0.58309518948453,
+      "conditional_lower_scale_meV": 0.8858643293416886,
+      "conditional_upper_before_one_sided_additions_meV": 0.9295327912451501,
+      "allowed_upper_additions_meV": 0.66,
+      "conditional_upper_scale_meV": 1.58953279124515,
+      "reported_total_minus_plus": [
+        5.7,
+        0.9,
+        1.6
+      ],
+      "nominal_residuals_meV": [
+        -8.881784197001252e-16,
+        -0.01413567065831145,
+        -0.010467208754850077
+      ],
+      "not_joint_CI_or_actual_covariance_recovered": true
+    },
+    {
+      "Ep": 288,
+      "sum_printed_partial_meV": 39.2,
+      "conditional_stat_quadrature_meV": 3.7775653535048206,
+      "conditional_lower_scale_meV": 8.03815047383414,
+      "conditional_upper_before_one_sided_additions_meV": 6.470077885157179,
+      "allowed_upper_additions_meV": 1.5,
+      "conditional_upper_scale_meV": 7.970077885157179,
+      "reported_total_minus_plus": [
+        39,
+        8,
+        8
+      ],
+      "nominal_residuals_meV": [
+        0.20000000000000284,
+        0.03815047383413983,
+        -0.02992211484282059
+      ],
+      "not_joint_CI_or_actual_covariance_recovered": true
+    },
+    {
+      "Ep": 454,
+      "sum_printed_partial_meV": 165.9,
+      "conditional_stat_quadrature_meV": 7.757576941287788,
+      "conditional_lower_scale_meV": 20.903103742985156,
+      "conditional_upper_before_one_sided_additions_meV": 20.903103742985156,
+      "allowed_upper_additions_meV": 0,
+      "conditional_upper_scale_meV": 20.903103742985156,
+      "reported_total_minus_plus": [
+        166,
+        22,
+        22
+      ],
+      "nominal_residuals_meV": [
+        -0.09999999999999432,
+        -1.0968962570148442,
+        -1.0968962570148442
+      ],
+      "not_joint_CI_or_actual_covariance_recovered": true
+    },
+    {
+      "Ep": 610,
+      "sum_printed_partial_meV": 591,
+      "conditional_stat_quadrature_meV": 26.095976701399778,
+      "conditional_lower_scale_meV": 73.90742593948188,
+      "conditional_upper_before_one_sided_additions_meV": 73.90742593948188,
+      "allowed_upper_additions_meV": 29,
+      "conditional_upper_scale_meV": 102.90742593948188,
+      "reported_total_minus_plus": [
+        591,
+        74,
+        103
+      ],
+      "nominal_residuals_meV": [
+        0,
+        -0.09257406051811756,
+        -0.09257406051811756
+      ],
+      "not_joint_CI_or_actual_covariance_recovered": true
+    }
+  ],
+  "213_tail_normalization": {
+    "fraction_of_total": 0.1,
+    "total_over_observed": 1.1111111111111112,
+    "tail_over_observed": 0.11111111111111112,
+    "conditional_relative_scale_from_fraction_only": 0.05555555555555556,
+    "boundary": "local derivative holding observed area fixed; reference data shared, not an independent experimental sigma"
+  },
+  "shared_efficiency_scale_control": {
+    "scales": [
+      0.25,
+      0.7,
+      1.0,
+      1.3,
+      4.0
+    ],
+    "conditional_strengths": [
+      1.4037748567576676,
+      1.4037748567576676,
+      1.4037748567576676,
+      1.4037748567576676,
+      1.4037748567576676
+    ],
+    "log_derivatives": {
+      "eta_high": -1,
+      "eta1275": 1,
+      "common_scale": 0
+    },
+    "variance_log_efficiency_ratio": "Var(log eta1275)+Var(log etaHigh)-2Cov(log eta1275,log etaHigh)",
+    "not_a_claim_of_source_double_counting": true
+  },
+  "nominal_angle_control": {
+    "source_nominal_lab_angle_deg": 55,
+    "exact_P2_zero_deg": 54.735610317245346,
+    "P2_at_literal55": -0.006515107494251382,
+    "P4_at_literal55": -0.38518684961996263,
+    "boundary": "point Legendre only; actual finite geometry/boost studied by authors, not new efficiency correction"
+  },
+  "unclosed_454_nominal_error_is_preserved": true,
+  "no_new_experimental_strength_branch_or_CI": true,
+  "ok": true
+}

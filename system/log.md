@@ -2124,3 +2124,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint023 — 23Mg官方输入匹配
 
 新增NNDC202101五对象源：四reaction557行/Adopted定向；自旋候选、half/mean、capture第二γ/新omega与未确认身份边界canonical。新程序核九upper/两finite及条件Bp多根/无根，不作实验CI。verification037全部通过（0error/219warnings，31changed/33mapped），旧claims/review/raw/PLAN/Bib保持；初schema/script失败已隔离修复。main / Match official Mg23 lifetime spin and strength reference inputs；actualhash/H3见publication023。原研究窗口继续，17once/18partial，不授18/no19。
+
+
+## 2026-10-20 Day17 checkpoint024 — 直接capture绝对归一
+
+本session完整原读Sallaska2011 arxivv2二十页/18图/6表/7式，canonical停止角色/NT/beam/eff共享与实际partial预算。213/288/610打印误差近闭，45420.903对22保未闭合，不造实验CI；Figure/quantile字面边界保存。verification038通过（0error/221warnings，32changed34mapped），初source-section/格式错误已留档修复；旧review/claims/保护文件未动。main / Read absolute Na22 capture strength and shared calibration contract；actualhash/H3见publication024。原窗口继续，正式17只一次，18仅无学分preview/no19。

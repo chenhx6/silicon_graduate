@@ -74,6 +74,7 @@ O. S. Kirsebom等，*Phys. Rev. C*93，025802(2016)，DOI [10.1103/PhysRevC.93.0
 | K16-19 | Ref29准确身份为Alexander等J.Nucl.Mater96,51–56(1981)，DOI10.1016/0022-3115(81)90217-8；实际只metadata/OA发现，primarybody未得。其题名提DSAM，不据此断言A独立性/循环校准或补原calibrator/误差语义。 | property-input-identity-and-readiness | metadata-only-companion | PDF13 Ref29；alexander1981-crossref-discovery/primary-readiness | true |
 | K16-20 | 新本session原读Jenkins2004四页，核其10(3)fs为七角fractional-Doppler加模型、feedingdirect假设；其Tableomega1.8(.7)adoptedAngulo而非新τ推出。原J04prose说finite-recoil已校，K16二级评论旧Ex似未校须定义/版本桥，不据此直接改数据。 | independent-primary-companion-and-revision | direct-original-companion | J04-3/5/7 | true |
 | K16-21 | 新202101五official对象把K16九upper/两未平均finite按mean×ln2转half，前两finite另与旧输入合并；7787<12mean与compiled<8.3half同源。Adopted自旋3/2+,5/2+还保留fusion7/2意见，不能把本模型旧J7/2固定成无条件事实。 | official-matched-reference-and-spin-boundary | direct-evaluation-and-reconstruction | M23-4/5/6/8/9/13/14 | true |
+| K16-22 | 原读Sallaska2011二十页给直接capture强度的积分/NT/beam/eff及弱模板合同；完整强度积分减少absolute-stopping但弱上限/energy/tail仍含停止/response。K16<12仍不裁决旧强度争议，不把新source中心与旧固定J/Bp拼实验τCI。 | actual-strength-companion-and-shared-boundary | direct-original-companion | S11-2/8/9/11/12/13/15/17 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -131,3 +132,7 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 ## 官方字段补充：上限同源，自旋仍需条件化
 
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-4/5/6/8/9/13/14核half/mean与新强度角色。新upper不裁决旧mean10(3)；J7/2是旧fusion条件，Adopted还列3/2+,5/2+。用任一spin/omega/τ中心组合计算Bp仅是条件模型，不能借编译作本实验联合CI。
+
+## 直接capture原件：避免绝对stopping的范围
+
+[[sallaska-2011-na22-absolute-resonance-strength]] S11-2/8/9/11/12/13/15/17核完整积分/束密度/靶原子数/效率链，弱模板和energyloss仍含stopping。它给K16寿命换强度的真实companion及共享边界，不替K16原line-shape/fitΣ或用新omega中心裁决旧τ。

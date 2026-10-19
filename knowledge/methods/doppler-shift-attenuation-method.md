@@ -181,3 +181,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 用总寿命推共振强度时的额外输入
 
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-4/8/9/13/14给实际反例：自旋候选、另一gamma支和更新omega必须逐源匹配。总τ只给Γtotal；两通道时omega=gΓBp(1−Bp)，同Γ/omega常有互补Bp两根，固定中心也可能无根。它说明输入条件不相容，不自动排自旋/实验或给CI。half/mean、LT与原CL、评价平均值/原measurement都要分开。
+
+## 独立capture companion的“无绝对停止”也有条件
+
+[[sallaska-2011-na22-absolute-resonance-strength]] S11-2/8/9/11/12/17说明：完整积分可消除归一能移核的位移依赖，前提是扫描完备、全部活动区照射及NT/束密度稳定有据。弱模板伸缩、有限尾、energyloss仍有stopping/response；这类capture强度不能自动替DSAM的v(t)、feeding或其原协方差。强度与总τ组合前仍逐项核spin、branch和共享输入。

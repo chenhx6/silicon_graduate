@@ -1,0 +1,116 @@
+{
+  "identity": "S11-ACTUAL-PARTIAL-STRENGTH-BUDGET-01",
+  "pdf": "tmp/day17-sallaska2011/sallaska2011-arxiv-v2.pdf",
+  "pdf_sha256": "19a8218ff8c0199409b785dad7ee036445db1b299b2c4b9ab2dc62d6e360efc5",
+  "rows": [
+    {
+      "Ep": 213,
+      "partials": [
+        [
+          5.1,
+          0.5
+        ],
+        [
+          0.6,
+          0.3
+        ]
+      ],
+      "systematic_minus_pct": 11.7,
+      "systematic_plus_pct": 12.7,
+      "added_upper_meV": [
+        0.09,
+        0.33,
+        0.24
+      ],
+      "reported_total": [
+        5.7,
+        0.9,
+        1.6
+      ]
+    },
+    {
+      "Ep": 288,
+      "partials": [
+        [
+          2.6,
+          1.5
+        ],
+        [
+          10.4,
+          1.9
+        ],
+        [
+          26.2,
+          2.9
+        ]
+      ],
+      "systematic_minus_pct": 18.1,
+      "systematic_plus_pct": 13.4,
+      "added_upper_meV": [
+        0.69,
+        0.81
+      ],
+      "reported_total": [
+        39,
+        8,
+        8
+      ]
+    },
+    {
+      "Ep": 454,
+      "partials": [
+        [
+          5.3,
+          1.7
+        ],
+        [
+          74.7,
+          5.2
+        ],
+        [
+          85.9,
+          5.5
+        ]
+      ],
+      "systematic_minus_pct": 11.7,
+      "systematic_plus_pct": 11.7,
+      "added_upper_meV": [],
+      "reported_total": [
+        166,
+        22,
+        22
+      ]
+    },
+    {
+      "Ep": 610,
+      "partials": [
+        [
+          376,
+          16
+        ],
+        [
+          97,
+          16
+        ],
+        [
+          118,
+          13
+        ]
+      ],
+      "systematic_minus_pct": 11.7,
+      "systematic_plus_pct": 11.7,
+      "added_upper_meV": [
+        11,
+        18
+      ],
+      "reported_total": [
+        591,
+        74,
+        103
+      ]
+    }
+  ],
+  "tail_fraction_total": 0.1,
+  "tail_fraction_scale": 0.05,
+  "boundary": "rounded-input arithmetic only; no independent errors/Cov/producer or experimental CI recovered"
+}

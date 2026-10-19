@@ -251,3 +251,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## DCO的EM字符可能已借寿命先验
 
 [[nndc-2021-mg23-lifetime-strength-reference]] M23-3/4明确编译的stretchedD/Q参照与EM字符角色：后者还借RUL/寿命。若再用这个EM标签去“独立验证”同一寿命或用DCO保证唯一J，会形成共享输入；matching原门/取向/响应及独立P校准仍需另得。Adopted保留不同spin，不能把DCO、P正负和总τ三者拼成无条件唯一解释。
+
+## 名义magic angle与共同效率的companion边界
+
+[[sallaska-2011-na22-absolute-resonance-strength]] S11-4/5/17：55°降低P2项但P4/有限接受/boost仍在；source另给angular系统尺度，不拿名义点角宣称完整response无取向依赖。活动度和高能产额共用效率时还需Cov(η1275,ηH)，共同scale在条件比可消；此推导不能冒作原实验误差重评或polarimeterQ标定。

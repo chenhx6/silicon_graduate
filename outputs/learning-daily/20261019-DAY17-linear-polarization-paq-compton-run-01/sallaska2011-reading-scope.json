@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-19T18:55:03.771591+00:00",
+  "actual_read": "arxiv1009.3925v2 PDF1–20 full mainline and references, Eqs1–7, Figs1–18, TablesI–VI; allpagecontactvisual; keypages10/16/18highres",
+  "source_sha256": "01c548ae4889181a5e21a750e26877de8c2c88a355f35e12f7916c9716694543",
+  "date_today_confirmed": true,
+  "version_boundary": "v2 Feb2011/PDF2022 regeneration not new acquisition;VoRnotread",
+  "not_obtained": "experimentalexcitationpoints/ROOT/analysiscode/fullCov/Penelopeinput/MCrateproducer;2010PRLerratumbody",
+  "post_exercise_extra_control": "nominal55deg vs exactP2zero pointdiagnostic performed aftertablecontract; not originaldetectorresponsecalibration"
+}

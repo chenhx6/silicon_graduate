@@ -78,3 +78,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint023 priming：官方23Mg与条件强度
 
 新[[nndc-2021-mg23-lifetime-strength-reference]]五对象只为Day18无学分preview。Adopted3/2+,5/2+与fusion7/2(+)并列，half6.9/8.3对应mean10/<12；capture第二gamma及2011omega5.7不是旧J04单支/1.8的同对象独立复制。固定central两通道无根不排spin，互补Bp根不作测量/CI。靶160vs40/7852未确认缺失是评价注释，2011/2013原件仍未读；正式18须声明priming/独立卡审计，不换本previewcheck数授分。
+
+
+### Day17 checkpoint024 priming：Sallaska2011实际绝对capture
+
+[[sallaska-2011-na22-absolute-resonance-strength]]二十页v2完整原读，完整有限强度积分避absolute-stopping不免weaktemplate/energyloss/tail输入。NT溅射/beam/eff与partialupper单侧合成canonical；454名义20.903对22保未闭合。共同η1275/ηHigh不指控原doublecount，Fig12caption/TableV分位label边界保留。2010PRL/erratum原文未读，2011自称同研究报告；本preview不授18，正式18需声明priming/重新逐卡，不用旧检查数换信用。

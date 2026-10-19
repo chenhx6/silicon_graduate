@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint024：Sallaska2011实际20页主线
+
+[[sallaska-2011-na22-absolute-resonance-strength]] S11-1–20，实际arxiv1009.3925v2二十页/18图/6表/7式全读及视觉核；sourcehash/date-today/版本分开。2010报告/erratum只识别引用，body未得，不能算新采集。
+
+
 ### checkpoint023：23Mg官方五对象与2013获取边界
 
 新canonical [[nndc-2021-mg23-lifetime-strength-reference]]，M23-1–15；四reaction557行全部、Adopted630行仅L1–48/330–465实际读。原2013body仍未得，完整readiness已落盘；不把评价转述冒作primary。原15点窗口继续，17学分只一次、18仅partial。
@@ -85,6 +90,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint024：实际partial误差预算
+
+[程序](../../system/scripts/day17_sallaska2011_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/sallaska2011-exercise-result.json)按TableIII finitepartials、TableI系统和允许upperlinear加法，近复213/288/610打印总误差；454为20.903对原22未闭合。213尾10%total给total/observed1.111而非1.10。NT与capture共用eff时条件比η1275/ηH、共同scale消去，非实际Cov/CI已恢复。
+
 
 ### checkpoint023：固定输入的两通道约束
 
@@ -143,6 +153,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint024：完整积分与停止输入范围
+
+S11-2/8/9/11/12/13/14：有限强度完整积分减少absolute-stopping依赖；弱模板/能量损失/有限尾仍需响应。in-situ活动度不能独自跟踪被照靶NT；5732的213/209placement不同，610partial含旧branch。Fig12caption门角色与图13/TableIII相反、TableV upper/lower分位文字与数值不闭合保留；不修raw或宣称实验矛盾。原点数据/全Cov/producer仍缺。
+
 
 ### checkpoint023：Adopted没有消除自旋和弱支问题
 
@@ -337,6 +352,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[直接capture原件](../../knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md) S11-2/8/9/11/16/17及[[lifetime-strength-audit-165tm-136nd]]“直接capture强度：停止功率与归一分别检查”，保存可重用停止角色/NT/eff矩阵及实际partial预算。
+
 
 新增canonical [23Mg官方源](../../knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md)与[[lifetime-strength-audit-165tm-136nd]]“23Mg官方匹配：先列自旋和分支，再谈寿命换强度”；M23-4/5/8/9/13/14提供可复用输入矩阵/条件计算。outputs不作唯一知识副本。
 
@@ -3789,6 +3807,155 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "M23-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+      "anchor": "完整积分减少一项依赖，绝对归一仍需要证据",
+      "summary": "新增原20页完整主线、实际预算重构与共享校准条件。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-1"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-2"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-8"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-16"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "anchor": "2011原件补充：强度输入有实际归一合同",
+      "summary": "补新primary并保留先前compiled-only时点。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-13"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-14"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "anchor": "直接capture原件：避免绝对stopping的范围",
+      "summary": "补寿命换强度的真实companion与stop/共享边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-2"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-9"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-12"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "直接capture强度：停止功率与归一分别检查",
+      "summary": "写入完整积分/有限窗/NT/eff和实际误差预算矩阵。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-2"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-8"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-11"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-16"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "独立capture companion的“无绝对停止”也有条件",
+      "summary": "停止功率角色按具体推断分开。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-2"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-8"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-9"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "名义magic angle与共同效率的companion边界",
+      "summary": "保留P4/有限接受与效率比Cov。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-4"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-5"
+        },
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[sallaska-2011-na22-absolute-resonance-strength]]",
+      "summary": "新增直接capture source入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+          "locator": "S11-1"
+        }
+      ]
     }
   ]
 }
@@ -3935,3 +4102,7 @@ J04四页/表图/源tex与真实TableI/条件ΓQthreshold练习canonical；不�
 ### checkpoint023官方Mg23输入验收
 
 verification037记录本批实际report/coverage/writeback/boundary/lint/diff及旧claim/review保护；完成检查后才按显式manifest023/commitguard/H3发布。当前预习不授18，不结束原研究窗口。
+
+### checkpoint024原件/误差预算验收
+
+verification038核report/唯一writeback/course/boundary/lint/diff与旧claims/review；通过后manifest024/commitguard/H3显式发布。原窗口继续，正式17只一次、18无学分、不研究19课程卡。

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-19T18:50:08.641375+00:00",
+  "doi": "10.1103/PhysRevC.83.034611",
+  "reason": "actual new primary for compiledomega/branch/normalization/stopping; supports bounded Day18 conversion preview",
+  "day_index": 17,
+  "partial_day_indices": [
+    18
+  ],
+  "noDay19": true
+}

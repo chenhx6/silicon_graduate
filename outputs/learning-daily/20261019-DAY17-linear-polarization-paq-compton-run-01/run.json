@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit independent Mg23 fractional Doppler and adopted strength inputs",
-    "commit": "9ebf50d29563a130a209784a077739f63aae51c8",
+    "subject": "Match official Mg23 lifetime spin and strength reference inputs",
+    "commit": "d259beb33d580583b9198b3138538a2ef5f1cdca",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow; officialMg23 matched references canonical;2011Sa12primary next;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-037.json",
-  "last_observed_at": "2026-10-19T18:48:55.347421+00:00",
+  "research_status": "active originalwindow;S11fullprimary/actualbudgetcanonical;2010erratumactualinputnext;17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-038.json",
+  "last_observed_at": "2026-10-19T19:00:22.697161+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 31,
+  "canonical_knowledge_changed_pages": 32,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

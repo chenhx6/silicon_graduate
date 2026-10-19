@@ -1,15 +1,17 @@
-# Day17同session继续：checkpoint023之后
+# Day17同session继续：checkpoint024之后
 
-## Active handoff — DAY17 original window active; official Mg23 checkpoint023
+## Active handoff — DAY17 original window active; S11 primary checkpoint024
 
-沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17、Farmer42019/nativegoal active；原2026-10-20 15:00上海研究截止/15–16收束不改。001–022已实际Gitee H3 push；formal17只007后一次，course next18/count17、partial18，不授18/不研究19课程卡。原runner16:06中断、normalexit未观察保持。
+沿用run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/Farmer42019/nativegoalactive；原2026-10-20 15:00上海研究截止/15–16收束不改。001–023actualGiteeH3push；formal17只007后一次，course next18/count17、partial18，不授18/不研究19课程卡。原runner16:06中断/normalexit未观察保持。
 
-023新canonical [[nndc-2021-mg23-lifetime-strength-reference]] M23-1–15：四reaction557行全读、Adopted630仅L1–48/330–465；202101/cut1Jun2020非2026新实验。reaction7785.2 J7/2(+)与Adopted7784.7 J3/2+,5/2+并列；half6.9(2.1)来自J04mean10(3)，<8.3half来自K16<12mean。九upper/两directfinite的ln2转换核；前两finite为旧/新输入平均，不把compiled数字误称K16mean。
+024实际原读arxiv1009.3925v2 Sallaska2011全部20页/18图/6表/7式，全部页视觉+10/16/18高分核；PDF2022/date-today与2011v2分开，VoR未得。source/白名单texhash保持；2010PRL+erratum/学位论文自称同研究，尚未原读/不计独立采集。
 
-Capture11/89γ与Adopted16/100角色/来源分开；新2011Sa12omega5.7(+1.6,-.9)仅compiled输入，primarybody未读。固定tau10fs/twochannels：J3/2中心无根、J5/2两根.2811/.7189、J7/2两根.1862/.8138；tauceil8.248/12.372/16.497，不是spin排除/Bp测量/CI。Σ、Γp、原采集/stop/feeding仍缺；same-nucleus p-res仅8611以上不填7785。
+S11-1–20 canonical及M23-16/K16-22/methods/auditledger/index/report唯一writeback。完整积分/均匀raster照满target减少finiteabsolute-stopping依赖，但weaktemplateCu stopping ratio、TRIMenergy修20%与213tail10(5)%total仍有response。NT不能仅in-situ活动度追踪溅射仍附近；ρb coin/solid与MC约束共享；跨能eff同Co/reference不当独立。Point55°P2近0不去P4/接受/boost，作者另3%angular。
 
-J04/2013同研究链由评价转述，不认证exactsamejob；靶160vs原40µg与7852/5138 detailed缺失/未确认2019communication保留，不写正式erratum。2013body新route未得：UNC TLS EOF、APS403/harvest401、OSTI DOI空XML、arxiv exactDOI0/HAL0、York403、Birmingham元数据；不原样重试终态URL、不从metadata补科学。后续最高输入为2011Sa12原实验的spin/branch/absoluteomega合同，先freeze再查原件；不加MODELhistory替data。
+真实partial预算：213−.8859/+1.5895，288−8.038/+7.970，610−73.907/+102.907，近闭打印；45420.903对22未闭合保留，不调Cov/加被排支。finitepartials×stat与TableI系统、允许upper单侧linear，6106112用旧branch估partial。2135732归213而非J04 209，weak/重叠输入仍条件；Fig12caption gate角色与Fig13/TableIII反、TableV upper16/lower84文字反于数值，保原件。
 
-新program day17_mg23_reference_contract.py/contract/result可复算，原parser及旧claims/review/hash保持。verification037以actualreceipt为准（report/唯一writeback/course/boundary/lint/diff/protected/旧rows）；writeback初dict迭代脚本失败已保留，只执行未写report的remainder避免重复。main / `Match official Mg23 lifetime spin and strength reference inputs`为023稳定指针，actualhash/push见publication023/runreceipt。保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog；exactindex，log仅HEAD+own023。
+η1275/ηHigh条件共同scale消去，五scale代数控制不证明原doublecount/实际Cov；无新实验τ/J/Bp/率/CI。verification038以actualreceipt为准，旧claims/review/raw/PLAN/Bib/继承dirty保护；公开原计数/analysis/Penelope/fullCov仍缺。main / `Read absolute Na22 capture strength and shared calibration contract`为024稳定指针，actualhash/push见publication024/runreceipt。
 
-Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。窗口仍有约731分钟，不以本局部完成结束日运行；15点停止新研究，整日收束齐才goalcomplete。
+下一高信息是2010PRL105152501与209901(E)的actualerratum内容及2011关系：先freeze，取得原件才判更正对象。不要把metadata/标题或2022再生日期当新科学；不原样重试Jenkins2013终态URL。若无法取得，换匹配的实际新输入而非加MODELhistory。原window约720分钟，15点停新研究并整日收束齐才goalcomplete。
+
+保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog，exactindex且log仅HEAD+own024。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

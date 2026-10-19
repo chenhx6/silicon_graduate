@@ -72,6 +72,7 @@ tags: [lifetime, branching, spin, covariance, reference-lineage]
 | M23-13 | 声明两通道/mean10fs/omega5.7meV及22Na spin3、p spin1/2，J3/2中心组合无实Bp根；J5/2两根.2811/.7189，J7/2两根.1862/.8138。只是固定输入约束，既非spin排除也非branch测量或jointCI。 | conditional-strength-exercise | task-model | exercise conditional_rate_constraints | true |
 | M23-14 | 同条件omega固定，tau上界g hbar/(4omega)对J3/2、5/2、7/2为8.248/12.372/16.497fs。τ误差、新upper、omega误差/共享源及通道假设未组成joint likelihood，不能把中心不可行称实验矛盾。 | conditional-constraint-and-boundary | task-derivation | exercise conditional_rate_constraints | true |
 | M23-15 | 所列两γ的归一Jacobian各列和零，故p1+p2=1的Cov必有约束；Adopted16/100归一为.13793/.86207不同于capture.11/.89，未得原Σ不强行平均/独立误差叠加或制造CL。 | normalization-covariance-contract | task-derivation | exercise listed_gamma_normalization | true |
+| M23-16 | 本session另原读Sallaska2011 v2完整20页，确认213新强度/第二γ来自直接capture但弱支同形模板、upper单侧增加、610partial含旧branch。评价的简写不替此方法/共享输入，S11未提供新spin/τ或原完整Cov。 | primary-companion-and-normalization-boundary | direct-original-companion | S11-2/8/9/13/14/15/16/17 | true |
 
 ## Theory/analysis exercise
 
@@ -97,3 +98,7 @@ tags: [lifetime, branching, spin, covariance, reference-lineage]
 ## Extracted Pages
 
 [[jenkins-2004-23mg-fractional-doppler-rate]]、[[kirsebom-2016-23mg-dsam-lifetimes]]、[[lifetime-strength-audit-165tm-136nd]]、[[doppler-shift-attenuation-method]]、[[linear-polarization-asymmetry]]。
+
+## 2011原件补充：强度输入有实际归一合同
+
+[[sallaska-2011-na22-absolute-resonance-strength]] S11-1–20完整主线另读。官方pg简写的11/89与5.7仍回同一实验；弱支受同形模板约束，610旧branch和upper单侧增加不能压成一组独立Gaussian。原2011body现已取得，原2013body/实际计数与完整Cov仍未得；本页旧M23-9保留当时阅读状态。

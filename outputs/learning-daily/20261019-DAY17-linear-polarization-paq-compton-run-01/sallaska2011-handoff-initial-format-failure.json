@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-19T19:00:21.510198+00:00",
+  "error": "ValueError unsupported percent formatting in text containing percentages",
+  "effect": "handoff/prompt/run/nextrecall not yet written",
+  "repair": "literal string with explicit placeholder replacement; no scientific values changed"
+}

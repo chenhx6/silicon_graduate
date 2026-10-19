@@ -1,0 +1,21 @@
+{
+  "url": "https://arxiv.org/pdf/1009.3925v2",
+  "status": 200,
+  "bytes": 840137,
+  "sha256": "19a8218ff8c0199409b785dad7ee036445db1b299b2c4b9ab2dc62d6e360efc5",
+  "pages": 20,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref package",
+    "producer": "dvips + GPL Ghostscript GIT PRERELEASE 9.22",
+    "creationDate": "D:20220417131941-04'00'",
+    "modDate": "D:20220417131941-04'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "file": "tmp/day17-sallaska2011/sallaska2011-arxiv-v2.pdf"
+}
