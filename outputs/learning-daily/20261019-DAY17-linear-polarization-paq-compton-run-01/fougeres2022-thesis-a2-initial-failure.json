@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "exception": "ModuleNotFoundError: No module named 'sympy'",
+  "script_sha256": "124ab480983754f9088cae74a0c7abd1b379e73f7c5da70b302ef9eae316596e",
+  "next": "use exact Python standard-library Fraction arithmetic; no dependency install or source modification"
+}

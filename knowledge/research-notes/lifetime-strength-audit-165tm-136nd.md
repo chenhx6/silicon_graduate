@@ -340,3 +340,11 @@ BR模板仅7.65–7.85MeV算χ²，7770有BR<.2%约束，Ex差门/pureAu背景/S
 同contents的声明组件从6.199134(UU)变8.783184(UW)，LL/无LL一致；Tools.C原表达式摘取原样编译，base6.410432对properdeviance12.410432，o>0/s0时原finite而proper∞；FindBin高端排除也改变domain。全为design组件，不是实验data/新CI。ROOT低counts/forcedUUwarnings原样留档。
 
 CodeA L42–141整段示例inactive，这是对grep候选的明确限制，也吻合旧EV23-13；不能说原paper跑了这些调用。源本身、实际job、Sumw2历史/模板Σ及fitmask仍需匹配，代码有用但不认证原实验统计。
+
+### A.2实际三窗：扣背景谱的误差合同
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-48–53原AppendixA.2/FigA.2：DCγ中心7318–7348keV与左右7288–7318/7348–7378各30keV，投影Ealpha后D=S−(L+U)/2，实际图有负值。
+
+[符号练习](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-result.json)以真实门而无假造counts推Var=VS+VL/4+VU/4−CSL−CSU+CLU/2；仅独立primitivePoisson时S+(L+U)/4。多track/sharedevent或其它weights需实际Cov。减后D不能直接当Poisson计数，原bin/闭开边界也待job。背景曲率模型b0+b1x+b2x²残余−b2h³，h30给−27000b2，不给actualb2/实验偏差；signal到side泄漏另需response。
+
+只补原operator，不补Ch6pureAu全流程/τfit/Σ。初sympy缺失已记，最终只标准库Fraction精确有理数；读取时额外A.3文字作为priming记录，不称整个附录原读或新课程卡。

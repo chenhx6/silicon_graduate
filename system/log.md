@@ -2186,3 +2186,7 @@ F22-31–47完整Ch6/实际表/条件Cov新artifact写回canonical。verificatio
 ### Day17 checkpoint036：ROOT实际统计API
 
 RCT26-1–13/sourceblob/native与EV23-16/method/ledger/indexcanonical；LL未消费且示例inactive，原表达式边界非paperCI。verification050/manifest036/commitguard/H3后发布，main / `Pin ROOT histogram test semantics and inactive EVASIONS likelihood examples`。原window继续，17once/partial18/no19。
+
+### Day17 checkpoint037：真实背景三窗
+
+F22-48–53/A.2原件与精确Fraction误差operator写回canonical。verification051/manifest037/commitguard/H3后发布，main / `Recover actual background windows and exact subtraction covariance contract`；新假设计数/实验CI均无。原windowactive、17once/partial18/no19。

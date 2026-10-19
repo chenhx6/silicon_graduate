@@ -1,0 +1,23 @@
+{
+  "identity": "F22-A2-ACTUAL-WINDOWS-01",
+  "pdf": "tmp/day17-fougeres2022-thesis/hal_document.pdf",
+  "pdf_sha256": "4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1",
+  "locator": "AppendixA.2 FigA.2 printed165 PDF168",
+  "windows_keV": [
+    [
+      7288,
+      7318
+    ],
+    [
+      7318,
+      7348
+    ],
+    [
+      7348,
+      7378
+    ]
+  ],
+  "center_keV": 7333,
+  "observed_axis": "Ealpha_VAMOS projection,100keV bins in displayed figure",
+  "boundary": "no measured bin yields or covariance transcribed; symbols only"
+}

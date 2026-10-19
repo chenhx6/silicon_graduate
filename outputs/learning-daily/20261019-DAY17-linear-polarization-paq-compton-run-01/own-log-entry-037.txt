@@ -1,0 +1,4 @@
+
+### Day17 checkpoint037：真实背景三窗
+
+F22-48–53/A.2原件与精确Fraction误差operator写回canonical。verification051/manifest037/commitguard/H3后发布，main / `Recover actual background windows and exact subtraction covariance contract`；新假设计数/实验CI均无。原windowactive、17once/partial18/no19。

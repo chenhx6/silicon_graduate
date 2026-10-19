@@ -140,3 +140,7 @@ F22-31–47完整Ch6；同data三方法/minσpolicy、τ依赖DCLM坐标、17mm�
 ### Day17 checkpoint036 priming：ROOT实际API
 
 RCT26-1–13固定6.24.06/6.40.04原TH1函数与native，LL未消费、errorstate自动换UU/UW/WW；原Tools手写似然漏o0/s0与highendpoint合同不同。CodeALL调用整段inactive，不能推paper调用/CI。组件自设counts/低countwarnings保留；正式18仍新session独立卡。
+
+### Day17 checkpoint037 priming：原A.2背景三窗
+
+F22-48–53实际三30keVγ窗投影Ealpha，D=S−(L+U)/2及完整Cov；独立Poisson特例不是减后D。曲率残余与signal泄漏需actualinput，不给实验修正。A.3额外文字输出已记priming，未读全附录。正式18不复用旧检查授分。

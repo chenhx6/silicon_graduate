@@ -38,7 +38,9 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 
 后续新问题前冻结后完整读Chapter5/PDF87–103/printed84–100，Figs5.1–5.15、Tables5.1–5.3、Eqs5.1–5.11全部文本/视觉核；22行门另按原text逐项核转录。[Ch5actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-reading-scope.json)。该次Chapter3/6/7与附录仍未读；后续Ch6增量见下，不借sourcehash代全文阅读。
 
-后续又独立冻结后完整读Chapter6/PDF105–126/printed102–123，17图9表4式全部文本/视觉核，包括粒子分支/自旋失败的章节结论；仍未读Chapter3/7/附录。[Ch6actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-reading-scope.json)。
+后续又独立冻结后完整读Chapter6/PDF105–126/printed102–123，17图9表4式全部文本/视觉核，包括粒子分支/自旋失败的章节结论；该次仍未读Chapter3/7/附录；后续A.2增量另记。[Ch6actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-reading-scope.json)。
+
+后续定向完整读AppendixA.2/PDF168/printed165文本与FigA.2，实际等30keV三窗。相邻页读取命令额外输出A.3/PDF168tail–170全文，记为priming，未视觉核其全部图、不称完整附录阅读。Chapter3/7与其它附录未读。[A2scope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-reading-scope.json)。
 
 ## Summary
 
@@ -95,6 +97,12 @@ Chloé Fougères，*Understanding the cosmic abundance of 22Na: lifetime measure
 | F22-45 | 另一alpha有无γ计数法仅BR15(+16,−15)%、约1000vs设计50000counts，非第二精密.68确认；7855/8016因γ未见只下限，shellmodelτ/J用于coherence非独立实验BR。 | failed-companion-and-model-boundary | direct-thesis | printed120–121 Table6.9 | true |
 | F22-46 | TALYS截面与data低高Ex分区失配，fsim.29(.22)后点散布factor5，keyJ5/2与7/2预测.79/.66差小于实测误差；作者明确未能定J。Fig6.13示意7/2标签不能升级本实验spin确定。 | actual-negative-spin-result | direct-thesis | printed121–123 Fig6.16/Eq6.4 | true |
 | F22-47 | Ch6公开了shareddata/minerror/targetshift/branch模板与fitdomain的实质合同，仍未给原ROOT版本/actualjob/所有τfitmask与Σ。publicLL与manual似然的API语义另需新核，不由thesis文字认证paper统计实现。 | readiness-and-next-input | synthesis-with-primary | F22-32/36/40/43/44 | true |
+| F22-48 | AppendixA.2实际中心DCγ7318–7348keV，左右7288–7318/7348–7378各30keV；投影到EalphaVAMOS再减两侧平均，FigA.2(c)有负值。原窗口来自primary，不是自行选择。 | actual-background-windows | direct-thesis | printed165 AppendixA.2/FigA.2 | true |
+| F22-49 | 按原均值合同D=S−(L+U)/2，完整Var=VS+VL/4+VU/4−CSL−CSU+CLU/2；只有独立primitivePoisson特例才S+(L+U)/4。源未给逐bin计数/完整Cov，不能以减后D替Poissonvariance。 | conditional-error-propagation | task-exact-algebra | exercise general_variance | true |
+| F22-50 | 对γ背景densityb0+b1x+b2x²、三连续等宽h，原中心减side平均的背景残差精确−b2h³；真实h30keV给−27000b2，constant/linear消但曲率未消。actualb2未知，不据此量化源偏差。 | conditional-background-curvature | task-exact-polynomial-integral | exercise background_residual_symbolic | true |
+| F22-51 | signal也以Acenter−(Alower+Aupper)/2进入；若线形尾漏到side，须matchingresponse评估，不能从±15keV自动称总γyield或无泄漏。source没有给该泄漏fraction。 | response-leakage-readiness | task-inference-from-actual-operator | FigA.2；exercise signal_contribution | true |
+| F22-52 | closed区间打印共享边界不等实际digital重复计数，原bin/halfopen实现未知；多个track可共享event，窗口不重叠也不能无条件称所有counts独立。原job/Σ未补。 | digital-boundary-and-source-dependence | inference-with-readiness | printed165 FigA.2；EV23-3 | true |
+| F22-53 | A.2只补实际背景operator/window，不提供原lifetimefulljob/CI；Ch6pureAu2D减与A.2局部side估计层次不同，不以新符号式给实验误差。额外A.3文字暴露已记，非新卡/完整附录读。 | scope-and-statistical-use-boundary | synthesis-with-primary | A2reading-scope；F22-43/44/48/49 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -127,3 +135,9 @@ Chapter5/6现已读；Chapter3的实际resolution/target表与附录更完整背
 作者已经承认同data依赖，不能把βM/DCLM相符当独立采集；Fig6.8差值约对称仍容许共同bias。对θ/E响应、同数据归一和每个τ改变的DCLM坐标需联合记录。Table6.1名义68%与常用68.27%的舍入不同，不以末位阈值差发明erratum；joint2D阈值亦不等单τprofilecoverage。
 
 `supports`同数据显式分层与原fitdomain合同；`limits`minσ无条件保守、跨方法无差即无bias及示意图spin标签。下一有界高信息是publicChi2Test LL/手写likelihood实际API与零bin/范围语义；原paperjob未认证，不修producer/原表。
+
+## A.2真实三窗的背景算符
+
+[量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-before.md)、[实际三窗](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-contract.json)、[标准库Fraction程序](../../system/scripts/day17_fougeres2022_a2_contract.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-result.json)。初系统Python无sympy失败exit1已保存，改用标准库精确有理数积分，没有装包或改原输入。
+
+通用协方差与背景曲率只为原operator的数学合同；没有抄图造逐bincounts、给actualcurvature或将减后负值裁0再当rawPoisson。源actualnormalization/事件依赖/response仍决定实验CI，不把本任务符号推导升级实验测量。

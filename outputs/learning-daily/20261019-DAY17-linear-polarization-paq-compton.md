@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint037：原AppendixA.2实际背景门
+
+[[fougeres-2022-thesis-evasions-response-contract]] F22-48–53完整A.2/PDF168/printed165及FigA.2视觉核；额外A.3文本输出已如实记录scope，非整个附录读。源给真实三30keV窗，但没有逐bin/Cov。
+
+
 ### checkpoint036：ROOT统计API与inactive示例
 
 [[root-2026-chi2test-option-contract]] RCT26-1–13新联网双版本固定commit/blob；Chi2Test/Chi2TestX主线全读并native原表达式核。publicLL示例L42–141实际inactive，未认证paper调用；[[evasions-2023-public-release-native-readiness]] EV23-16补具体边界。
@@ -150,6 +155,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint037：真实三窗的精确符号合同
+
+[程序](../../system/scripts/day17_fougeres2022_a2_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-result.json)仅标准库Fraction：D=S−(L+U)/2的完整Cov与Poisson特例分开，constant/linear背景消、quadratic残余−b2h³。真实h30keV不提供actualb2/CI或信号side泄漏。初无sympy失败exit1已保，未装包/改原source。
+
 
 ### checkpoint036：实际接口/原表达式native
 
@@ -5593,6 +5603,64 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EV23-16"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "anchor": "A.2真实三窗的背景算符",
+      "summary": "新增F22-48–53：真实三窗/误差算符与曲率、signalleakage/原job边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-48"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-49"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-50"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-51"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-52"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-53"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "A.2实际三窗：扣背景谱的误差合同",
+      "summary": "整合原A.2实际背景窗口与不将扣后谱当Poisson的使用门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-48"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-49"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-50"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-51"
+        },
+        {
+          "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+          "locator": "F22-53"
+        }
+      ]
     }
   ]
 }
@@ -5807,3 +5875,7 @@ verification050核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 050实际boundary/lint/diff均exit0；lint0errors/239warnings(4reactionparse/161citationkey/74rawmissing)，41changed/43mapped；旧claims/review/protected与native检查通过，warnings未清除。
 
 036cachedcheck因新stderr末端空行exit2，commitguard在commit前拒绝，未生成失败提交。保initialfailure与原tmpstderr，只规范交付文本EOF、warnings内容/科学源/结果不改，再通过cached门才提交。
+
+### checkpoint037原背景算符验收
+
+verification051核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及实际门/精确有理数artifact。通过后manifest037/commitguard/H3；原windowactive、formal17once/18partial/no19，原τ/BR/CI未重报。

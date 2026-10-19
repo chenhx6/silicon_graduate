@@ -6,19 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; ROOT API checkpoint036
+## Active handoff — DAY17 original window active; A.2 checkpoint037
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–035actualH3Giteepush；formal17once(next18/count17)/partial18/no19。runner16:06中断/normalexit未观察不改。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–036actualH3Giteepush；formal17once/next18count17/partial18/no19，runnernormalexit未观察不伪造。
 
-本批新RCT26-1–13实际联网ROOT6.24.06(3b796f86a30e274053669931a24d77a3d36c8f18)与6.40.04(1211eda93010f26710eafd527d1e66921bffdf8e)，annotatedtag/TH1Gitblob核；读完整Chi2Test文档、两methodbody及ChisquareLcompanion，逐差read。LL未消费，不是Poissonlikelihood开关；自动UU/UW/WW依Sumw2/有效entries，ndfselectedbins−1去jointempty不自动扣τ/E0。
+thesisCh4–6完整原读与F22-1–47已有canonical；本批F22-48–53新增完整A.2/PDF168/printed165与FigA.2视觉。实际DCγ三窗center7318–7348、sides7288–7318/7348–7378keV各30，投影Ealpha后减side平均。读取命令还额外输出A.3文本PDF168tail–170，已记priming未全视觉/未称整个附录读；Ch3/7/其它appendix仍未读。
 
-nativeactualROOT6.40.04+原Tools函数摘取原样Cling编译。designD0/5/20/0/7/0,M3/10/15/0/4/0：LL=无LL6.199134(UU)，模型varianceM/10后8.783184(UW)。原manual6.410432vsproper12.410432漏o0项6；positiveo2/s0原finite而proper∞；upper2.5在第三bin被manual排而axisrange含。低counts/forcedUUwarnings保留。全部design组件，无实验CI/τ重算。
+新精确Fractionartifact不造counts：VarD=VS+VL/4+VU/4−CSL−CSU+CLU/2，仅独立primitivePoisson才S+(L+U)/4。背景densityb0+b1x+b2x²残余−b2h³，h30给−27000b2；actualb2/Cov/side信号泄漏未知，不修原yield/CI。初sympy缺失exit1记录，最终标准库无装包。actual图减后负值不能当rawPoisson。
 
-关键收窄：通读CodeA文件，LL/manual/本地file/legend示例L42–141全在blockcomment，吻合旧EV23-13；EV23-16补新API。不能说paper实际跑了LL；原ROOT版/job/Sumw2history/fitmask/Σ未知。thesisCh4–6已完整原读，Ch3/7/appendix尚未读；F22-1–47保原needs_review，19mm反证/DCT角/污染拒绝/同data组合/minσ/BRfit域均canonical。
+上一批RCT26双ROOT/sourceblob/native、LL不消费与inactiveCodeA42–141已actualpush；低count/forcedUUwarnings保留。036cachedstderrEOF空行被guard拒绝，未commit失败，规范deliveryEOF后actualcached0再commit/push；失败receipt与原tmpstderr保。raw/source/34hash未改。
 
-source/method/lifetimeledger/index/report唯一writeback、双版本identity/native输入/结果/scope齐。verification050actualreceipt通过后main / `Pin ROOT histogram test semantics and inactive EVASIONS likelihood examples`稳定指针，actualhash/H3/push只publication036/run.json。
+canonicalthesis/lifetimeledger/report单writeback与输入/结果/冻结/scope齐。verification051actualreceipt通过后main / `Recover actual background windows and exact subtraction covariance contract`稳定指针，hash/push只publication037/run.json。
 
-下一最高信息是thesisAppendixA.2原背景算法(先冻再看目录定位)，而非更多designhistory；可在其后对F23已公开显示counts用新statistic接口作bounded合同核，但不冒原fit。约05:47上海还有>9h，继续原window不日终/goalcomplete；不授18/不开19。保护raw/PLAN/Bib/credentials/继承dirty/daemon/oldlog。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+下一当前有界高信息：对F23真实公开Fig2right key25点，用刚核实际ROOT接口和完整显示domain判statistic/normalizer/errorhistory合同，先新freeze；不是重跑旧Pearson为新交付，不扫描删bin强配SI17.1982，不造原MCvariance或paperCI。已查看旧actualrows JSON为priming，原XLSXsha需核。若无新匹配输入，另一候选Ch3实际calibration/response。约05:53上海仍>9h，继续window/不日终/goalcomplete。保护raw/PLAN/Bib/credentials/继承dirty/daemon/log。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

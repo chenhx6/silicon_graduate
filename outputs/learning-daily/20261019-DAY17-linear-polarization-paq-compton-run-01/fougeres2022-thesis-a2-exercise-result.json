@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-19T21:49:38.538512+00:00",
+  "script_sha256": "6997b3c4fd50a2224ce35fd568e691521de0cb994dd12932b71eb508a953f3c3",
+  "contract_sha256": "00f364ab7757efd57ea89fa6c1aee79ebd96e31d96bdd5369d2c30d4edf40adc",
+  "actual_windows_keV": [
+    [
+      7288,
+      7318
+    ],
+    [
+      7318,
+      7348
+    ],
+    [
+      7348,
+      7378
+    ]
+  ],
+  "order_for_operator": [
+    "signal",
+    "lower side",
+    "upper side"
+  ],
+  "operator": [
+    [
+      "1",
+      "-1/2",
+      "-1/2"
+    ]
+  ],
+  "general_variance_coefficients": {
+    "V_S": "1",
+    "V_L": "1/4",
+    "V_U": "1/4",
+    "C_SL": "-1",
+    "C_SU": "-1",
+    "C_LU": "1/2"
+  },
+  "general_variance": "V_S + V_L/4 + V_U/4 - C_SL - C_SU + C_LU/2",
+  "independent_primitive_Poisson_special_case": "S + L/4 + U/4",
+  "background_density_units": "counts per keV per chosen ejectile bin",
+  "density": "b0+b1*x+b2*x**2",
+  "integral_coefficient_basis": [
+    "b0*h",
+    "b1*h**2",
+    "b2*h**3"
+  ],
+  "background_integral_coefficients": [
+    [
+      "1",
+      "0",
+      "1/12"
+    ],
+    [
+      "1",
+      "-1",
+      "13/12"
+    ],
+    [
+      "1",
+      "1",
+      "13/12"
+    ]
+  ],
+  "background_residual_coefficients": [
+    "0",
+    "0",
+    "-1"
+  ],
+  "background_residual_symbolic": "-b2*h**3",
+  "at_actual_width_keV": "-27000*b2",
+  "signal_contribution": "A_signal - (A_lower + A_upper)/2; leakage is response dependent",
+  "actual_counts_covariance_and_curvature_not_provided": true,
+  "no_new_experimental_yield_tau_branch_or_CI": true,
+  "ok": true
+}
