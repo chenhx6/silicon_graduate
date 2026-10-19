@@ -1,0 +1,12 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_arxiv': arxiv search failed (400: Bad Request - Invalid parameters or syntax): Ba*******st"
+      }
+    ],
+    "isError": true
+  }
+}

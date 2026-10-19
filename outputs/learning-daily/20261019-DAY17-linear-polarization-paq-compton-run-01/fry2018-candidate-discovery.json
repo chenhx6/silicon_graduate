@@ -1,0 +1,257 @@
+[
+  {
+    "id": "msu-search",
+    "url": "https://d.lib.msu.edu/search?search_api_fulltext=Cathleen%20Fry",
+    "status": 429,
+    "final_url": "https://d.lib.msu.edu/search?__goaway_challenge=cookie&__goaway_id=91d24f718f40fe2eec1d87c536335a11&search_api_fulltext=Cathleen%20Fry",
+    "scope": "candidate metadata only, not thesisbody",
+    "text": "Verifying you are human... Verifying you are human... Loading challenge header-refresh ... Why am I seeing this? Some poorly behaved bots trying to harvest data for AI training have been trying to scan our site much faster than we can handle. We normally don't mind bots crawling our sites, but these bots have been so aggressive that it has made the site slow and unresponsive for other users. We've added these automated challenges your browser will perform when first loading the site; these challenges combat the overload coming from the bots. Please note that some challenges requires the use of modern JavaScript features and some browser plugins might cause them to fail. Disable such plugins for this site if you encounter any issues. If problems persist, please reach out to us using any of the following methods: The Reference & Discovery Services form By phone: (517) 353-8700 The Ask a Librarian form And we will work with you to resolve the issue. If you have any issues, promptly reach out to us and provide the following Request Id: a11ae65ef7e80304c5b2f2c31ad8821c Request Id a11ae65ef7e80304c5b2f2c31ad8821c :: Need help? :: (517) 353-8700",
+    "links": []
+  },
+  {
+    "id": "openalex",
+    "url": "https://api.openalex.org/works?search=Cathleen%20Fry%20dissertation%202018&per-page=4",
+    "status": 200,
+    "final_url": "https://api.openalex.org/works?search=Cathleen%20Fry%20dissertation%202018&per-page=4",
+    "scope": "candidate metadata only, not thesisbody",
+    "results": [
+      {
+        "id": "https://openalex.org/W7215505148",
+        "display_name": "Vol 24 No 2 Full Issue (Summer 2018)",
+        "doi": null,
+        "publication_year": 2018,
+        "locations": [
+          {
+            "id": "pmh:oai:reflectionsnarrativesofprofessionalhelping.org:article/1686",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://reflectionsnarrativesofprofessionalhelping.org/index.php/Reflections/article/view/1686",
+            "pdf_url": "https://reflectionsnarrativesofprofessionalhelping.org/index.php/Reflections/article/download/1686/1542",
+            "source": {
+              "id": "https://openalex.org/S7407065872",
+              "display_name": "Reflections: Narratives of Professional Helping",
+              "issn_l": "1080-0220",
+              "issn": [
+                "1080-0220"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "1080-0220",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7128062673",
+        "display_name": "Lernunterstützung in Fachkraft-Kind-Dyaden in der Kita : Differenzierte Analysen zur kognitiv anregenden Interaktionsgestaltung aus den KoAkiK-Projekten",
+        "doi": "https://doi.org/10.15488/20569",
+        "publication_year": 2023,
+        "locations": [
+          {
+            "id": "pmh:oai:repo.uni-hannover.de:123456789/20720",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://repo.uni-hannover.de/handle/123456789/20720",
+            "pdf_url": "https://repo.uni-hannover.de/bitstreams/b75e0243-0475-449d-96bd-c39025671dd8/download",
+            "source": {
+              "id": "https://openalex.org/S4306401575",
+              "display_name": "Institutional Repository of Leibniz Universität Hannover (Leibniz Universität Hannover)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I114112103",
+              "host_organization_name": "Leibniz University Hannover",
+              "host_organization_lineage": [
+                "https://openalex.org/I114112103"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Frühe Bildung",
+            "raw_type": "doc-type:Article"
+          },
+          {
+            "id": "doi:10.15488/20569",
+            "doi": "https://doi.org/10.15488/20569",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.15488/20569",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407052956",
+              "display_name": "Leibniz Universität Hannover",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": null,
+            "raw_source_name": null,
+            "raw_type": "JournalArticle"
+          }
+        ]
+      },
+      {
+        "id": "https://openalex.org/W4389801392",
+        "display_name": "Lernunterstützung in Fachkraft-Kind-Dyaden in der Kita",
+        "doi": "https://doi.org/10.1026/2191-9186/a000645",
+        "publication_year": 2023,
+        "locations": [
+          {
+            "id": "doi:10.1026/2191-9186/a000645",
+            "doi": "https://doi.org/10.1026/2191-9186/a000645",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1026/2191-9186/a000645",
+            "pdf_url": "https://econtent.hogrefe.com/doi/pdf/10.1026/2191-9186/a000645?download=true",
+            "source": {
+              "id": "https://openalex.org/S4210191719",
+              "display_name": "Frühe Bildung",
+              "issn_l": "2191-9186",
+              "issn": [
+                "2191-9186",
+                "2191-9194"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [
+                "anvur-scientific",
+                "poland-20",
+                "russia-white-list-3"
+              ],
+              "host_organization": "https://openalex.org/P4310319871",
+              "host_organization_name": "Hogrefe Verlag",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319871"
+              ],
+              "host_organization_lineage_names": [
+                "Hogrefe Verlag"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Frühe Bildung",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7167826908",
+        "display_name": "Verse Drama on the Anglophone Stage in the 20th-21st Centuries",
+        "doi": "https://doi.org/10.54563/coupdetheatre.563",
+        "publication_year": 2020,
+        "locations": [
+          {
+            "id": "doi:10.54563/coupdetheatre.563",
+            "doi": "https://doi.org/10.54563/coupdetheatre.563",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.54563/coupdetheatre.563",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407062472",
+              "display_name": "Coup de théâtre",
+              "issn_l": "0752-5494",
+              "issn": [
+                "0752-5494"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [
+                "anvur-scientific"
+              ],
+              "host_organization": "https://openalex.org/P4310311184",
+              "host_organization_name": "University of Lille",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311184"
+              ],
+              "host_organization_lineage_names": [
+                "University of Lille"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Coup de théâtre",
+            "raw_type": "journal-issue"
+          },
+          {
+            "id": "doi:10.54563/coupdetheatre563",
+            "doi": "https://doi.org/10.54563/coupdetheatre563",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.54563/coupdetheatre563",
+            "pdf_url": "https://www.peren-revues.fr/coupdetheatre/1277?file=1",
+            "source": {
+              "id": "https://openalex.org/S7407062472",
+              "display_name": "Coup de théâtre",
+              "issn_l": "0752-5494",
+              "issn": [
+                "0752-5494"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [
+                "anvur-scientific"
+              ],
+              "host_organization": "https://openalex.org/P4310311184",
+              "host_organization_name": "University of Lille",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311184"
+              ],
+              "host_organization_lineage_names": [
+                "University of Lille"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Coup de théâtre",
+            "raw_type": "journal-issue"
+          }
+        ]
+      }
+    ]
+  }
+]

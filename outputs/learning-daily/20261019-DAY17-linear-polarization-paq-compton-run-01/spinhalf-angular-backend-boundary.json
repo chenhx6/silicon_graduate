@@ -1,0 +1,6 @@
+{
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "sympy": "1.14.0",
+  "scope": "sameSymPyCGbackend for exactz and helpertrace; separatecontractions/notindependentfullsoftware or experiment; oldhelpersprimingdeclared"
+}

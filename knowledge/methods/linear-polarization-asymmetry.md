@@ -238,3 +238,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 
 
 软件输入字段也需绑定实际作用的物理路径：[[geant3-vmc-2026-compton-baseline]] G3-2/3/8的POLAR存在但未进入所读G3COMP。对称/正性或unpolarized分布检查通过，仍不能代替signedpolarization传递、实际Q和门响应的核验。
+
+## spin1/2的linear与circular对象
+
+[[spinhalf-angular-nuisance-response-contract]]根据[[sun-2023-bayesian-dsam-31s]] SUN23-23/24的条件核与必要反例分开singles、γgate及frame：末态全求迹的parityconservingEM、Ji1/2核rest发射可强度各向同性/linearP0而circularV非0；这不是“光子完全无偏振”。下游γgate与boost会改变条件/lab观测，不能把该定理直接套任意experimentalA2或迁用polarimeterQ。

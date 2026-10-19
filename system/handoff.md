@@ -6,17 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 credited once; original window active checkpoint009
+## Active handoff — DAY17 original window active; spin-half checkpoint010
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–008实际H3/Gitee push；007后只formal17一次对账course next18/count17，partial18，未开19。原runner16:06中断不伪造normalexit/新session。009稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/push仅本runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改，nativegoal/runactive/Farmer42019沿用。001–009实际H3/Gitee push；007后formal17只授一次/course next18/count17，partial18、未开19。原runner16:06中断不伪造normalexit/新session。010稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/push仅本runreceipt。
 
-Day17课卡已complete不结束整日窗口；当前exactly18无学分方法preview。新MADAI source固定2015commit9f9ee0da、实际Eigen3.3.7/原样四sourcefile与两API fixture，编译/执行0。variableΣ例nativequadratic排序与完整Gaussian相反；fixedΣ反证、defaultflag/settings、prior已在返回值、刻意negativeCov失败域分列。ordinarycustomloglike分支不在另一API，公开MH Next调用另一API；只测ordinary不能当完整MCMCescape。fullprojectCMake缺Boost为exit1保留，不等fullGP/MCMC/实际paperproducer已构建；所有结果仅declarednativecomponent，不归因Sun实验CI。
+Day17卡complete但原窗口继续。新的knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md针对SI Fig9/12的真实Ji1/2前提，证明末态全求迹的parityconserving核rest singles I=1/linearQ/U0、orientation可circularV≠0；symbolicδ效应矩阵与新旋转迹相合，后者共享SymPyCG/旧d helper不计独立实现/实验。原YA67 PDF1 Eq1/2定向+视觉核，未重新23页。
 
-新公开CDN精确PII的Sun SI实际HTTP200/五页十三图全文与全部视觉核，hash630d45...0d0aa，补植入靶/DAQ/GRSISortunpacking、六αgate与posteriorpanels。它不是已得VoRmainbody/新数据集或actualGP/config/drawfiles。早先v2/src未含SI、API401均历史保留；sourceSUN23-17–22明确supersede旧readiness。Fig13无quantile数字/完整support，不将轴端或20fs读成90%limit；Fig9/12的1/2+3076/5156含A2，下一要核physicalrank/frame或phenomenologicalresponse对象，不预填fitwrong。
+必要反例均保留：downstreamγgate的1/2→3/2→1/2 pureM1/M1 jointW=1+¼P2；Ji3/2 lowm pureM1给1−½P2；declaredboostβ.1 lab a2≈.0200862。actualSunA2究竟restemission还是phenomenologicallab/response尚未知，不能机械置0、叫已测alignment、判原fitwrong或估原τbias。script/contract/firstsubset与补gate版本/结果已留新artifact，不换旧程序分数。
 
-verification018实际report/唯一writeback21changed/22mapped(未改LKH82)/coverage/boundary/lint/diff全部0，0errors201warnings(142key55raw4parser)，原Sun15claimrows/flags与PLAN/Bib保持；17为此前code批验收。正式版新尝试仍未得：imageAPI main400明确不可用、ScienceDirect精确landing403、FULL401，不原样重试/不关TLS/不造2023字面。当前body仍2022v2+publisherSI，版本依赖分开。
+verification020实际report/22changed/24mapped(另未改LKH82/YA67)/coverage/boundary/lint/diff0，0errors201warnings(142key55raw4parser)，原Sun22行/review/PLAN/Bib保持。旧MADAI两API组件/Boostfullbuild失败、Sun2022v2+正式SI/未得VoRmainbody的范围全部继承，未改raw/credentials/系统配置/继承dirty。
 
-下一先核clock/receipt/verification018/实际publication009。当前公开kernel局部闭合，matchingpaperimplementation/Σ仍缺；新SI的spin1/2–A2对象是有新输入的限定问题，可冻结回忆后按明确restframe/rank/实际模块语义核，不直接推实际τbias。仍只exactlypartial18，不授18/不重复授17/不开19。原deadline到stop新研究，再整日收束/检查/receipt/发布，之后goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+下一新input路线：SunSI Ref13 Fry2018 thesis机构search429验证页，OpenAlex结果无关，不接受body/不绕过。准确新primary Galinski2014 DOI10.1103/PhysRevC.90.035803、题名Lifetime measurements of states in15O（Sun旧fsMC Ref45）metadata已核；sourcebeforebody回忆已冻，downloader95338实际CDP不可达do_not_auto_retry，body未得；正查不同publicPDF/arxivmetadata路径，不预填frame/prior/同data。若能原读优先找A2角色/boost旧定义，但旧pipeline也不自动等2022actualproducer。继续exactly无学分18方法preview，不开19/授18/重授17；原deadline后整日收束/检查/receipt/发布齐才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

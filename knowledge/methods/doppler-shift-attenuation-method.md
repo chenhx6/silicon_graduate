@@ -109,3 +109,5 @@ SUN23-11的6390态无finiteconstraint；20fs及Γ>33meV是条件应用链，不�
 [[madai-2015-distribution-sampling-likelihood]] MDA15-2–8原样组件对variableΣ/normalizer、默认flag与ordinary/gradient-output两API作条件反例；fixedΣ是必要反证。它不认证[[sun-2023-bayesian-dsam-31s]] actualtailoredcode或原CI失效；需papercommit/config/实际response与数据。
 
 SUN23-17–22的publisherSI已原读：见[[sun-2023-bayesian-dsam-31s]]。它补target/DAQ/逐态αgates与posterior图，不给actualGP/config/draws；Fig13不是额外90%limit表，图轴也不自动给priorhardcut。1/2+态的A2需先核其物理对象/帧，不能直接叫已测alignment。
+
+[[spinhalf-angular-nuisance-response-contract]]按SUN23-20/23/24区别核rest发射prior与lab/responseA2：Ji1/2在末态全求迹的parityconservingEM singles核内无P2/linearP，但后续γgate/boost是必要反例。未定Sunactualframe前不机械置零或推τbias；alpha初态tag与末态postselection分开。

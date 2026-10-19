@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T12:59:00.101454+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-spinhalf-before-analysis.md",
+  "sha256": "ea7c0e09685210715180900e13e588b47ed901437cc64d8f9db724eb4ee67309",
+  "newactualsourcepremise": [
+    "SUN23-20",
+    "SI Fig9",
+    "SI Fig12"
+  ],
+  "priming": "fullsource/SI/nativeCG/Jones exposure, not blind",
+  "actualpaperA2frameidentified": false
+}

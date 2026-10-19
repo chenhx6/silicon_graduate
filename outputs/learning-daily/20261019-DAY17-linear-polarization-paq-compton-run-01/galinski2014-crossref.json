@@ -1,0 +1,615 @@
+{
+  "provider": "crossref",
+  "url": "https://api.crossref.org/works/10.1103%2FPhysRevC.90.035803",
+  "status": 200,
+  "metadata": {
+    "status": "ok",
+    "message-type": "work",
+    "message-version": "1.0.0",
+    "message": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            19
+          ]
+        ],
+        "date-time": "2026-09-19T22:18:12Z",
+        "timestamp": 1789856292570,
+        "version": "4.0.1"
+      },
+      "reference-count": 30,
+      "publisher": "American Physical Society (APS)",
+      "issue": "3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2014,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2014-09-05T00:00:00Z",
+            "timestamp": 1409875200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://link.aps.org/licenses/aps-default-license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Phys. Rev. C"
+      ],
+      "DOI": "10.1103/physrevc.90.035803",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2014-09-05T21:08:52Z",
+        "timestamp": 1409951332000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 14,
+      "title": [
+        "Lifetime measurements of states in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>15</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>"
+      ],
+      "prefix": "10.1103",
+      "volume": "90",
+      "author": [
+        {
+          "given": "N.",
+          "family": "Galinski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S. K. L.",
+          "family": "Sjue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G. C.",
+          "family": "Ball",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. S.",
+          "family": "Cross",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "B.",
+          "family": "Davids",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "H.",
+          "family": "Al Falou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A. B.",
+          "family": "Garnsworthy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Hackman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "U.",
+          "family": "Hager",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. A.",
+          "family": "Howell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Jones",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Kanungo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Kshetri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K. G.",
+          "family": "Leach",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. R.",
+          "family": "Leslie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Moukaddam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. N.",
+          "family": "Orce",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E. T.",
+          "family": "Rand",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Ruiz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.",
+          "family": "Ruprecht",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M. A.",
+          "family": "Schumaker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C. E.",
+          "family": "Svensson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Triambak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C. D.",
+          "family": "Unsworth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "16",
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            9,
+            5
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "PhysRevC.90.035803Cc1R1",
+          "volume-title": "Cosmos in the Cauldron",
+          "author": "C. E. Rolfs",
+          "year": "1988"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc2R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physletb.2004.04.003"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc3R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/305201"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc4R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-astro-081811-125539"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc5R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/RevModPhys.83.195"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc6R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0375-9474(87)90528-8"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc7R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0375-9474(91)90446-D"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc8R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0375-9474(00)00696-5"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc9R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physletb.2004.03.092"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc10R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1140/epja/i2005-10138-7"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc11R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.94.082503"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc12R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevC.78.022802"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc13R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.87.152501"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc14R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevC.77.055803"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc15R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physletb.2003.11.024"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc16R1",
+          "volume-title": "Advances in Nuclear Physics",
+          "author": "T. K. Alexander",
+          "year": "1968"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc17R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nima.2004.11.031"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc18R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0168-9002(03)01368-8"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc19R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nima.2006.10.185"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc20R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nima.2005.09.050"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc21R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevC.74.045803"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc22R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevC.77.035803"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc23R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNS.2007.910853"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc24R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nimb.2010.02.091"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc25R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physletb.2008.07.018"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc26R1",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1093/oso/9780198501565.001.0001",
+          "volume-title": "Statistical Data Analysis",
+          "author": "G. Cowan",
+          "year": "1998"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc27R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-3115(81)90217-8"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc28R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0375-9474(77)90599-1"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc29R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0375-9474(68)90509-5"
+        },
+        {
+          "key": "PhysRevC.90.035803Cc30R1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevC.86.014312"
+        }
+      ],
+      "container-title": [
+        "Physical Review C"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.aps.org/article/10.1103/PhysRevC.90.035803",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.90.035803/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2024-06-02T07:53:20Z",
+        "timestamp": 1717314800000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.aps.org/doi/10.1103/PhysRevC.90.035803"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2014,
+            9,
+            5
+          ]
+        ]
+      },
+      "references-count": 30,
+      "journal-issue": {
+        "issue": "3",
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              9
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1103/physrevc.90.035803",
+      "relation": {},
+      "ISSN": [
+        "0556-2813",
+        "1089-490X"
+      ],
+      "issn-type": [
+        {
+          "value": "0556-2813",
+          "type": "print"
+        },
+        {
+          "value": "1089-490X",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            9,
+            5
+          ]
+        ]
+      },
+      "article-number": "035803"
+    }
+  }
+}

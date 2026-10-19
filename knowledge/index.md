@@ -631,6 +631,7 @@ updated: 2026-10-19
 
 ## Research Notes
 
+- [[spinhalf-angular-nuisance-response-contract]] - SI实际spin1/2前提的核rest域、末态门/boost反例与A2模块readiness。
 - [[lifetime-strength-audit-165tm-136nd]] - DSAM寿命/强度/Qt几何及feeding/stopping预算分层；Day17内无学分Day18知识。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。

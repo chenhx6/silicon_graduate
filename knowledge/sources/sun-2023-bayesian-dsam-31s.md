@@ -74,6 +74,9 @@ L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023
 | SUN23-21 | Fig13确有6390的τ先验/后验和nuisancepanels；它不另给90thpercentile数值、完整τsupport/训练config或posterior draws。不能只按图轴范围认证hardpriorcut，或凭posterior高于prior处就给90%probability。 | posterior-figure-and-quantile-boundary | direct-SI-and-statistical-boundary | SI PDF5 Fig13；v2 PDF6 SecV | true |
 | SUN23-22 | 此SI只技术说明/图及refs，没有原histogram/GRIFTevents、GP训练/PCAstate/likelihoodpatch/config或drawfiles；actualinputreadiness仍缺。获得SI消除的是来源读取缺口，不认证2015publickernel为本文producer。 | data-and-producer-readiness | direct-SI-scope-boundary | SI PDF1–5；MDA15-1 | true |
 
+| SUN23-23 | 针对SI Fig9/12的Ji1/2前提，本任务证明isolatedparityconservingEM、末态全求迹的rest单光子I各向同性且linearQ/U=0，但circularV可非零；exactCG/新native迹闭合。它不识别本文A2frame或生成新τ/CI。 | task-conditional-spin-density-theorem | derived-model | SI Fig9/12；YA67-13；spinhalf-angular-result | true |
+| SUN23-24 | 本任务的后续γgate级联控制可有1+¼P2，boostlab也可有P2，故不能只由Ji1/2将所有A2nuisance置0。只有核rest发射项/末态identity合同才有该零值；actualmodule/response语义仍缺。 | task-countercontrols-and-attribution-boundary | derived-model | spinhalf-angular-result finalgate/boost controls；SUN23-20 | true |
+
 ## Nuclear Structure Information
 
 31S低位与31P mirrorlifetimes作核结构benchmark；4971负宇称态未在sd-only计算匹配，因模型不含crossshellexcitation。六项DSAM结果和6390的弱线/条件应用分列，未给新的Jπ/δ或三轴性判断。
@@ -118,3 +121,5 @@ P1：若用于正式31S寿命/反应率或DSAM精度裁决，先定向核SI/实�
 [新下载/identity](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-cdn-attempt.json)、[全读前问题冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-before-full-si-freeze.json)与[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-reading-scope.json)保存新入口，不重复原失败URL或关闭TLS。SUN23-1–16的“未读/未得SI”属于008/原公开代码摄入阶段的历史readiness，最新为17–22；oldclaimflags原样保留，不从新scope清掉needs_review。
 
 下一高信息问题是Fig9/12的1/2+状态与A2 nuisance对象：需把明确帧/条件密度的核rank允许域和emulatorphenomenologicalresponse区分；目前只冻结为开放问题，不输出原fit错误或τbias。
+
+SI的spin-half对象问题之条件证明/必要反例已写[[spinhalf-angular-nuisance-response-contract]]；actualA2frame/模块尚未识别，不把此理论边界写成原paperfit错误。

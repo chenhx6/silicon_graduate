@@ -1,0 +1,83 @@
+{
+  "identity": "SUN23-SPINHALF-RESTFRAME-ANGULAR-CONTRACT-01",
+  "source_and_helper_hashes": {
+    "tmp/day17-sun2023/publisher-SI-mmc1.pdf": "630d45a82229a3e45cc1a712b88a0c00c8fd6512398ac9d01843a9aed5c0d0aa",
+    "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70",
+    "system/scripts/day16_co60_conditional_stokes.py": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
+    "system/scripts/day16_ucgretina_stokes_oracle.py": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598",
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198"
+  },
+  "Bloch_vectors": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0.2,
+      0.3,
+      0.4
+    ]
+  ],
+  "delta_design_values": [
+    0.0,
+    0.2,
+    -0.7,
+    3.0
+  ],
+  "theta_deg": [
+    0,
+    25,
+    60,
+    90,
+    127,
+    180
+  ],
+  "phi_rad": [
+    0.0,
+    0.37,
+    1.19,
+    2.5
+  ],
+  "boost_design_beta": 0.1,
+  "assumptions": [
+    "isolatedparityconservingEM photonemission, Ji=1/2 arbitraryconditionalPSD rho; unobservedfinalm and photonpolarization summed for intensity",
+    "restframeemission intensity andlinearStokes, not detector/lab/energygatedhistogram; alpha tagonly preparesconditionalrho underthismodel",
+    "realdeclaredmultipolemagnitudes/operators fixednative; analyticCG/density proof coversallanglesvia rotationalcovariance",
+    "Ji3/2 rank2 and explicitparityviolatingrank1 controls distinguish theoremassumptions",
+    "beta.1 is a declaredkinematiccounterexample only, not paperactualrecoilvelocity/A2; privateemissionframe/responsekernel remainsunknown",
+    "oldCG/Jones primingdeclared; new source-specificquestion/contract/artifact doesnotreuseoldcheckcountsforcredit",
+    "formal17creditedonce; exactlyuncredited18preview; no actualCI/taufit or19opened",
+    "necessary final-channel-trace condition tested: a downstream gamma gate can give 1/2->3/2->1/2 jointW rank2 even though singlesrestI isisotropic; alpha initialtag alone is not that postselection"
+  ]
+}

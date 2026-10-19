@@ -1,0 +1,7 @@
+# 新SI对象的限定问题：spin1/2与A2（分析前冻结）
+
+已暴露Sun2022v2/正式SI全部内容、旧Day16fullq/Jones/CG与本日MADAI组件，强priming，非盲测。新直接输入是SI Fig9/12 caption1/2+3076/5156且posterior列A2；还不知道actualprivateemission/boost/moduleframe与A2是否只是phenomenologicalresponse。
+
+主动回忆/待验证命题：给定isolatedparity-conserving核EMdecay、初态Ji=1/2任意positive2×2conditionalρ、final核m和photonhelicity均trace，核restframe未测偏振的I只有evenrank≤2Ji，因此I应各向同性、linearQ/U为0，vectororientation可给circularV。alpha-tag改变ρ不扩初态Hilbertspace；boost、角接受、γgate/能窗与response之后的lab分布可非各向同性。
+
+计划先以SU2 rank/CG与独立photontrace核该命题及一个Ji3/2的非零rank2反控制，再比对原source给出的A2对象。若actualA2是lab/response参数，不能把此核定理直接当需将paperA2设0；无actualevent/forwardkernel不算寿命偏差或新CI。仅保存必要条件、counterinput/producerreadiness，formal17已计一次、18无学分，不开19。

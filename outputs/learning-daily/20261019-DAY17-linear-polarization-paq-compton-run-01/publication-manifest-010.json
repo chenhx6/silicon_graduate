@@ -1,0 +1,41 @@
+{
+  "subject": "Separate spin-half emission from gated and lab angular response",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/methods/linear-polarization-asymmetry.md",
+    "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+    "knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md",
+    "system/scripts/day17_sun2023_spinhalf_angular_contract.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-009.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-020.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-010.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-backend-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-contract-before-finalgate-control.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-result-before-finalgate-control.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-script-before-finalgate-control.py",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-spinhalf-before-analysis.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-spinhalf-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-si-primary-links.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fry2018-candidate-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fry2018-discovery-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-before-body-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-before-body.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-crossref.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-downloader-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-openalex.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-public-discovery-0.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/galinski2014-public-discovery-1.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inherited dirty, PLAN/raw/Bib/credentials/tmp/binaries/daemon; log HEAD+own010 only"
+}

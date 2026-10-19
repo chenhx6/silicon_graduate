@@ -1,0 +1,2 @@
+
+- 2026-10-19 DAY17 checkpoint010：新spinhalf rest/linear-circular定理及末态gate/boost必要反例已canonical，未识别SunactualA2或造原CI。020全部检查0/22changed24mapped/0errors201warnings；Sun旧22行/flags保持。正式17仅一次/18preview无学分/原窗口active。Fry2018 accessboundary、Galinski2014仅metadata+beforebodyfreeze作为下一输入。稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/push仅runreceipt。

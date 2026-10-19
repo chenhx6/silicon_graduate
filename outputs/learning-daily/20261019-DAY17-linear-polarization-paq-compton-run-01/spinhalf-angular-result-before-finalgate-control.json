@@ -1,0 +1,91 @@
+{
+  "identity": "SUN23-SPINHALF-RESTFRAME-ANGULAR-CONTRACT-01",
+  "script_sha256": "d2cf90dbacd5a79a4e36cf156737f9b3e6644c0443984738bc18d6ac235b96f1",
+  "contract_sha256": "7a0c1591fb215adc24b56e1060f15f06733f69274ebd5052f59ba57beeae0b17",
+  "exact_spinhalf_effects": [
+    {
+      "case": "M1_to_half",
+      "fourpi_intensity_effect_exact": "Matrix([[1, 0], [0, 1]])",
+      "fourpi_helicity_coherence_effect_exact": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "case": "M1_E2_to_threehalf",
+      "fourpi_intensity_effect_exact": "Matrix([[1, 0], [0, 1]])",
+      "fourpi_helicity_coherence_effect_exact": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "case": "E2_M3_to_fivehalf",
+      "fourpi_intensity_effect_exact": "Matrix([[1, 0], [0, 1]])",
+      "fourpi_helicity_coherence_effect_exact": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "case": "E1_M2_to_threehalf",
+      "fourpi_intensity_effect_exact": "Matrix([[1, 0], [0, 1]])",
+      "fourpi_helicity_coherence_effect_exact": "Matrix([[0, 0], [0, 0]])"
+    }
+  ],
+  "native_points_declared_models_not_data": 2496,
+  "max_I_minus1_or_effect_identity_residual": 8.881784197001252e-16,
+  "max_linear_Q_U": 4.3598356225107897e-16,
+  "max_circular_abs_V_in_declared_states": 1.0,
+  "max_positive_PSD_residual": 2.220446049250313e-16,
+  "Ji_threehalf_rank2_countercontrol": [
+    {
+      "theta_deg": 0.0,
+      "I_native": 0.49999999999999994,
+      "I_1_minus_half_P2": 0.5
+    },
+    {
+      "theta_deg": 30.0,
+      "I_native": 0.6875,
+      "I_1_minus_half_P2": 0.6875
+    },
+    {
+      "theta_deg": 60.0,
+      "I_native": 1.0624999999999996,
+      "I_1_minus_half_P2": 1.0625
+    },
+    {
+      "theta_deg": 90.0,
+      "I_native": 1.25,
+      "I_1_minus_half_P2": 1.25
+    },
+    {
+      "theta_deg": 120.0,
+      "I_native": 1.0625,
+      "I_1_minus_half_P2": 1.0625000000000002
+    },
+    {
+      "theta_deg": 180.0,
+      "I_native": 0.49999999999999994,
+      "I_1_minus_half_P2": 0.5
+    }
+  ],
+  "parity_violating_rank1_assumption_control_effect": "Matrix([[(d - 1)**2/(d**2 + 1), 0], [0, (d + 1)**2/(d**2 + 1)]])",
+  "boost_design": {
+    "beta": 0.1,
+    "angular_Jacobian": "(1-beta^2)/(1-beta*cos(theta_lab))^2",
+    "Legendre_a0_to_a4": [
+      1.0000000000000004,
+      0.20040172387055546,
+      0.020086193527664102,
+      0.0016107399200406978,
+      0.0001153331346783007
+    ],
+    "small_beta_series": "1+2 beta P1+2 beta^2 P2+O(beta^3)",
+    "not_actual_Sun_velocity_or_A2": true
+  },
+  "conclusion": "rest nuclearA2=0 forJi1/2 conditionalmodel; doesnotidentifySunA2frame/phenomenologicalrole or actualtauimpact",
+  "actual_paper_A2_object_unknown": true,
+  "experimental_refit_or_new_CI": false,
+  "assumptions": [
+    "isolatedparityconservingEM photonemission, Ji=1/2 arbitraryconditionalPSD rho; unobservedfinalm and photonpolarization summed for intensity",
+    "restframeemission intensity andlinearStokes, not detector/lab/energygatedhistogram; alpha tagonly preparesconditionalrho underthismodel",
+    "realdeclaredmultipolemagnitudes/operators fixednative; analyticCG/density proof coversallanglesvia rotationalcovariance",
+    "Ji3/2 rank2 and explicitparityviolatingrank1 controls distinguish theoremassumptions",
+    "beta.1 is a declaredkinematiccounterexample only, not paperactualrecoilvelocity/A2; privateemissionframe/responsekernel remainsunknown",
+    "oldCG/Jones primingdeclared; new source-specificquestion/contract/artifact doesnotreuseoldcheckcountsforcredit",
+    "formal17creditedonce; exactlyuncredited18preview; no actualCI/taufit or19opened"
+  ],
+  "ok": true
+}

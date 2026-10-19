@@ -1,0 +1,8 @@
+{
+  "doi": "10.1103/PhysRevC.90.035803",
+  "downloader_status": "do_not_auto_retry",
+  "reason": "CDPproxy notreachable, noinstitutionalsessionconfigured; notstarted/changed",
+  "manifest": "tmp/day17-galinski2014/manifest.json",
+  "body_obtained": false,
+  "next": "onlydistinctlawfulpublicPDF/arxivdiscovery, noidenticaldownloaderretry or accessbypass"
+}

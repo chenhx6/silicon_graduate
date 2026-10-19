@@ -32,7 +32,7 @@ updated: 2026-10-19
 | SG98原件主线与关键图/表/式 | [[../../knowledge/sources/schmid-1998-gammasphere-polarization]]末段actualreadscope；printed95–110、Figs1–15、Tables1–3、Eq1–19；SG98-13/14 | complete |
 | P/A/Q分层与新计数/误差练习 | [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]“P/A/Q分层与原件输入”及“声明设计的计数与定量结果”；[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json) | complete |
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
-| 本日报、唯一writeback与checks | 当前二十一页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
+| 本日报、唯一writeback与checks | 当前二十二页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
 
 Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
 
@@ -191,6 +191,12 @@ MDA15-2–4：同residual1、totalvariance1→4，原quadratic的logratio+.375(�
 
 SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISortunpacking角色和六个αgatecenters；同hardware名称仍不补ComptonQ或Bayesiantailoredproducer。Fig13可直接看6390posterior，但未给90th数值/训练support/config或draws，不升级20fs为90%limit、不把图轴认hardcut。Fig9/12明确1/2+3076/5156仍列A2，是下一物理对象/帧/phenomenologicalresponse的高信息问题，当前不判fit错。主文/SI/同data/posterior图均不重复计实验或授18信用。
 
+### 新SI spin-half对象的必要物理域与反例
+
+[[../../knowledge/research-notes/spinhalf-angular-nuisance-response-contract]]承认旧CG/Jones/本次全文priming后先冻[新问题](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-spinhalf-before-analysis.md)/[hash](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-spinhalf-freeze.json)；YA67原PDF1 Eq1/2与视觉定向核，不冒称重新23页。根据SI Fig9/12的Ji1/2前提作[新合同](20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-contract.json)/[新程序](../../system/scripts/day17_sun2023_spinhalf_angular_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-result.json)，不是只复用旧检查数。
+
+isolatedparityconservingEM、末态全求迹、核restframe下，spin1/2的裸核I=1、linearQ/U=0，但orientation可有circularV；四组symbolicδ CG效应矩阵为I2/0，新旋转光子迹相合；两者共享SymPyCG后端/既有d helper，不计完全独立程序或实验。必要反例同样保留：后续γgate的1/2→3/2→1/2 pureM1/M1 jointW=1+¼P2；Ji3/2rank2控制1−½P2；声明boostβ=.1 labJacobian的a2≈.0200862不是Sun实际速度/A2。因此实际paperA2究竟是rest发射项还是lab/response现象自由度未定前，不能机械置零、称已测alignment或推τbias。物理域/linear-vs-circular与frame/gate限制已写linearpolarization/DSAM方法，正式17只一次，18仅知识preview。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -312,6 +318,14 @@ SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISort
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-12"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-23"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-24"
         }
       ]
     },
@@ -434,6 +448,14 @@ SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISort
         {
           "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
           "locator": "MDA15-6"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-23"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-24"
         }
       ]
     },
@@ -871,6 +893,14 @@ SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISort
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-22"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-23"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-24"
         }
       ]
     },
@@ -949,6 +979,14 @@ SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISort
         {
           "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
           "locator": "SUN23-22"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-23"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-24"
         }
       ]
     },
@@ -999,6 +1037,25 @@ SI补35keV implanted3He/25µmAu/6×10^17cm−2、实际GRIFFIN单clover/GRSISort
         {
           "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
           "locator": "MDA15-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md",
+      "summary": "实际SI spin1/2前提引出核rest singles域证明；arbitrarypositiveρ可linearP0/circular非0，后续γgate与boost反例限定A2解释，不判原fit错或造CI。",
+      "anchor": "不能省略末态求迹条件",
+      "sources": [
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-23"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-24"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-13"
         }
       ]
     }
@@ -1069,3 +1126,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 008已实际H3/Gitee push；新[verification-018](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-018.json)实际report/21changed/22mapped唯一writeback/coverage/boundary/lint/diff均exit0，0errors201warnings＝142key55raw4parser；原Sun十五行/review/PLAN/Bib保持。原fullprojectBoost依赖失败exit1隔离为readiness，原样四文件两API组件的compile/run0与scientificcounterexample都保留，未将observedbehaviourchecks称Gaussian合同通过或原实验CI错误。
 
 正式版主文的新imageAPI400/ScienceDirect403不当body，当前仍2022v2+publisherSI；只有SI新入口成功/已读。稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/H3/push仅publication009。研究/nativegoal仍active至原15:00窗口，formal17仅一次/18无学分/未开19；下一SI的spin1/2–A2对象仅待限定核验。
+
+### checkpoint010物理域与下一原方法输入
+
+[verification-020](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-020.json)实际report/22changed/24mapped唯一writeback（含未改LKH82/YA67）/coverage/boundary/lint/diff全部exit0，0errors201warnings；原Sun二十二行/review及PLAN/Bib保持。新的restframe/末态gate/boost控制只给物理合同，不识别SunprivateA2模块或产生原τ/CI。符号与旋转迹共享SymPyCG后端/既有d helper，不计完全独立软件或实验。
+
+Fry2018机构检索429验证页、OpenAlex无关结果均未接受为body；下一Galinski2014准确DOI已核为15O旧fsDSAMmethod，来源前回忆已冻，当前只metadata/下载尝试，不预填实际frame/prior。稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/H3/push仅publication010。正式17仅一次、18无学分/未开19，原研究窗口/nativegoal持续active。

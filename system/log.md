@@ -2070,3 +2070,5 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 - 2026-10-19 DAY17 checkpoint008：007发布后正式17只计一次/course18count17，原研究窗/goalactive、18preview无学分。Sun2023原2022v2主线/图式、priors/6390/model辅助M1提取已canonical；20changed/21mapped、016检查全0/0errors199warnings。下一publicMADAI原样component尚未编译，不冒paperproducer。稳定指针main / `Ingest Bayesian DSAM primary and audit model-assisted strengths`，actualhash/push仅runreceipt。
 
 - 2026-10-19 DAY17 checkpoint009：MADAI2015原样四文件两API组件及normalizer/callpath反证、Sun官方SI五页十三图已canonical；非paperproducer/新实验CI。018全部检查0，21changed/22mapped，0errors201warnings；旧Sun15行/flags保持。formal17仅一次/course18count17、原窗口/goalactive、18preview无学分；下一SI spin1/2–A2对象待限定核验。稳定指针main / `Audit MADAI likelihood paths and read official DSAM supplement`，actualhash/push仅runreceipt。
+
+- 2026-10-19 DAY17 checkpoint010：新spinhalf rest/linear-circular定理及末态gate/boost必要反例已canonical，未识别SunactualA2或造原CI。020全部检查0/22changed24mapped/0errors201warnings；Sun旧22行/flags保持。正式17仅一次/18preview无学分/原窗口active。Fry2018 accessboundary、Galinski2014仅metadata+beforebodyfreeze作为下一输入。稳定指针main / `Separate spin-half emission from gated and lab angular response`，actualhash/push仅runreceipt。
