@@ -617,6 +617,8 @@ updated: 2026-10-19
 
 ## Research Notes
 
+- [[unobserved-feeding-alignment-sign]] - 完整CG/6j的rank2保号域、signedU反例、方向门及原C96模型链Gaussian边界。
+
 - [[rh99-1117-population-feasibility]] - 实际AD/P摘要的严格正布居witness、孤立根与convex证书；非实验δ/CI。
 
 - [[co60-gate-role-response-benchmark]] - 实际Co60双γ门/角关联、E2/M3输入、有限MC与坐标/选择对象边界；不代Compton Q。

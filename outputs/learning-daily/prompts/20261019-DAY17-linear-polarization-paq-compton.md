@@ -374,3 +374,6 @@ Rh99补充priming：P00-15表明同一sourcebox在额外且未测的low-|m|二�
 
 
 Rh99新增priming入口：knowledge/sources/nndc-2017-99rh-matched-reference-records.md及knowledge/nuclei/99rh.md；同母态六支并不提供已测u2，pureΔJ0/1的−44/25与两项纯度充分界仅为条件设计。2014/1994primarybody当前缺，不能沿compiledDCO/IPDCO补gate/Q或把新编译当独立测量；正式17仍须新session独立卡审计。
+
+
+新的Day16 priming：knowledge/research-notes/unobserved-feeding-alignment-sign.md。完整trace高spin低L的rank2保号域不是任意蒸发/方向门定理；C96 signedU、旧人审与本日反例分列，原Fig1两链的Gaussian根是模型replay而非实验σ。正式17须在本日这些预暴露之后另作独立卡交付，不能复用旧分数计学分。

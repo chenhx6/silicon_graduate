@@ -104,3 +104,20 @@ For [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]], this source st
 ## Personal Notes
 
 Review note: C96-4/C96-5/C96-10 were the source's most important P0 items for NST/P-ADO writing and were user-reviewed on 2026-07-09. Recheck Eq.5--9 symbol mapping and Fig.7 when converting this source into paper text.
+
+
+## 2026-10-19 Codex续核：signed U、原Fig1与定义域
+
+本节是本run新self-audit，**不属于旧用户审核**。原19页225–243/Eq1–9/七图主线重新读，旧人审前缀、C96-1–11与review字段保持；新claims仍needs_review。[[unobserved-feeding-alignment-sign]]保存完整推导、原图序列输入、反例、适用域和代码。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| C96-D16-1 | 原Eq6是带符号的6j定义；其后原句U∈(0,1)不能迁移成任意允许Ji/Jf/L/rank的恒等式。按同式1→1/L1/k2=−1/2、2→2/L2/k2=−3/14。原literal与本run定义域核验分列，不据此判Cd实际程序/实验失效。 | literal-versus-mathematical-domain | direct-plus-exact-control | p229 Eq6及紧随段落 | true |
+| C96-D16-2 | Eq1归一的B基在均匀m下单位二阶范数，完整CGtrace使Eq6的U为两端基的内积，故一般abs(U)≤1；正号需附加路径域。rank4亦可负，如5/2→5/2/L2/k4=−1/2。 | signed-transfer-bound | Codex-CG-and-6j-model | Eqs1/6；本页新模型入口 | true |
+| C96-D16-3 | Ω=φB是signedflow；本图J5/L1给U2=.9、B2<0，signedΩout>Ωin而幅度减小。因此“entry≥exit”的迁移须保留幅度/符号含义，不能当非负粒子流不等式。 | flow-definition-boundary | original-definition-plus-model | Eqs1/2/5；p232 Fig1 | true |
+| C96-D16-4 | Fig1两条作者模型链是5→(j.5)11/2→(j.5)5，以及5→(j1.5)11/2→(j1.5)5→(L1)5→(L1)5；初m0。它们不是实验PM或完整side-feedingensemble。 | model-input-identity | direct-figure | p232 Fig1及下方说明 | true |
+| C96-D16-5 | 本run重放两链的全部PM和rank0/2/4/6/8/10，CG与Eq6逐步闭合；只匹配B2/B4的Gaussianσ分别(.675686,.681492)与(2.146137,2.571571)，四个r多项式Sturm均1物理根。这是条件modelreplay，不是Fig2实验或新的Cd/Rh99σ。 | source-authored-model-replay | actual-exact-and-numeric-calculation | Fig1；unobserved-feeding-alignment-sign原链重放 | true |
+| C96-D16-6 | Fig7的J2实线在两套σ约束下各仍有多个极小；正文以正确能量对应的σ=2.1(.4)支持小正δ，并用错误σ=1.1(.3)展示左极小变负。图不提供本run可重拟的原A2/A4/Σ/phaseproducer，未把各极小读成新δ/CI。 | branch-and-prior-boundary | direct-attributed-and-visual | pp240–241 Fig7/正文 | true |
+| C96-D16-7 | 原低能模型限制含0.5MeV中子传输网格、起点.25MeV已有pwave，故近s-wave极限不能正确复现；约σ.8是作者讨论的反应极限，不等于Fig1任意单链的精确σ。 | computation-resolution-boundary | direct-original | p239 footnote4/Fig6；p240 Discussion | true |
+
+`limits/revises`：保留本文反应特定的side-feeding结论，同时收紧一般positiveU、signedflow和Gaussian的迁移。`lnU4/lnU2`关系只在相同且正的U、分母非零等原条件下使用；当前未恢复AvalancheII实际routes/strength/transmission输入，也未拟新的851.2δ。新增结论只属Codex核验，不清旧/新needs_review或伪造人审。

@@ -121,3 +121,8 @@ P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若
 ### 同母态参考的纯度与测量代价
 
 [[nndc-2017-99rh-matched-reference-records]] N099-13把companion从笼统“加reference”收窄为实际Rh99的561.3ΔJ0/820.4ΔJ1选择：前者模型符号对混合较稳但photon强度弱，后者计数多而需更严纯度。N099-1/10同时把2014新采集、2017编译与P00不同响应分开；未得primarybody/AD纯度条件时不宣布分支已经排除。
+
+
+### 取向输入的物理支持不能省略完整选择
+
+[[unobserved-feeding-alignment-sign]]串联[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-1/2与[[cejnar-1996-spin-deorientation-alpha-2n-gamma]] C96-D16-1–7：入口低m预期、signedtransfer/保号域、source两链近Gaussian与实际reference是不同证据层。高spin低L的全域条件证明不包含任意蒸发或方向门；C96原range/flow文句须带定义域，原Fig7也保留prior下多极小。此为新self-audit，不改旧人审或把Rh99 u2升为已测。

@@ -8,17 +8,17 @@ updated: 2026-10-19
 
 ## Active handoff — DAY16 original window pursuing
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked/无active写法，objective保留，不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
 
-040 verification034实际report/card/唯一writeback62changed/62items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)，旧人审prefix/Pr135project/raw/PLAN/Bib/旧helpers保持。新NNDC2017 Rh99source N099-1–13与99rh核素入口：3710.6同母态六支/MR空/CC理论、近能differentparent、RI重归一与无取向AD边界；PDFp2/5/7/9/12/18/21视觉核。原163/277/561/597/820/1117只M1/E1标签，无现成同母态pureE2。实际字段脚本先任意.2keV阈值1，保留失败后按原误差/终态身份报残差，最终0。
+041 verification035实际report/card/唯一writeback65changed/65items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)。旧raw/PLAN/Bib/Pr135及D66/C96/L25/L26等humanprefix均过；C96原CRLF前缀逐byte保留，新增声明不属旧人审。新knowledge/research-notes/unobserved-feeding-alignment-sign.md与D66-D16/C96-D16/N099-14等已canonical。D66真实3p/2fig排1207下半它文，C96真实19p/Eq1–9/7fig完整主线重读。
 
-纯度设计actual0：same-density pureD0 a2=−44/25 pureD1；CG6j/12pair/EMduality及F2全域界给|δ|充分界.860207(D0)/.141913(D1)，非实测purity。561.3较耐混合但RI仅target1.48%，820.4约29.3%却纯度条件严；a4=0不能证pure，samegate/feeding/response与u2仍expected-not-established。原freeq多解/lowm额外条件不变。
+完整CGtrace rank2 Casimir系数/每m/独立6j actual0；Ji/Jf≥5/2、L1/2全8类正多项式证书，Jf23/2/j.5…3有限27路正。实际278.5/867.8路径pure模型c253/300、253/351及u2转移1，不等B2U2或宽度。低spin/大j/高rank负U、isotropicparent方向门u2+.05/−.025反例保持。未知混合的完整trace与含干涉的referenceAD分开；实际P00全链仍缺，未证明u2或parity。
 
-反应谱系review已修：P00原p351为110MeV31P+74Ge（新P00-16），1994Ra07才89Y+16O，2014Ku20是120MeV28Si+75As。待发布初稿曾混淆前两者，纠正回执与原冻结回忆保持；算式/输入没变。1994/2014primarybody当前都未得，metadata/official编译不充正文；IOPbot/Lundmetadata/OpenAlex401/Scholar/arxiv等记录，不原样重试。314rawPDFfirstpage0exacttargethit不证明所有opaque/laterpage穷尽。
+C96 Eq6字面与原“U∈(0,1)”并列，数学一般absU≤1，正号需域；signedΩ与幅度层纠正迁移但不判Avalanche实际code错。原Fig1两链PM/rank0…10重放actual0；σ2/σ4(.675686,.681492)/(2.146137,2.571571)均4方程Sturm1根，非实验σ/δ或Fig2ensemble。Fig7正确/错误σ均有多个J2极小，未新拟合；sourceproducer/Σ仍缺。
 
-本批稳定指针main / `Trace DAY16 Rh99 same-parent references and purity conditions`，actualhash/H3/push仅publication040/runreceipt。039已actualGitee main / `Bound DAY16 Rh99 population ambiguity and conditional orientation test`。下一高信息currentroute：核低m符号在unobserved feeding/反应几何下何时可保持；Diamond1966 Wiki页已预暴露（primed），尚未开原PDF/新计算，先clock/pool/recall与旧humanprefix冻结。不给fusion名称无条件证明，不用更多随机toy补时段。
+本批稳定指针main / `Audit DAY16 signed orientation transfer and source Gaussian limits`，actualhash/H3/push仅publication041/runreceipt。040已actualGitee main / `Trace DAY16 Rh99 same-parent references and purity conditions`。下一重建当前输入池：D66实际三线AD的sameparent/physicalpopulation与spin-sequence边界有潜在定量信息，或C96actualproducer合法availability；未冻结下个模型/未开新source。不可重复无变化的1994/2014/Garg等terminalbody访问，不用随机toy填时段。
 
-保护raw/PLAN/Bib/credentials/原review与继承dirty/log；exactmanifest、HEAD+ownlog、cached实际检查再commit、freshfetch/ancestor/dryrun/nonforceH3。研究窗仍约4h，不因checkpoint结束。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/原review/继承dirty/log；exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。原15:00尚有3h余，不能因本checkpoint结束。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

@@ -63,6 +63,7 @@ Browne/Tuli，*Nuclear Data Sheets*145,25–340(2017)，DOI[10.1016/j.nds.2017.0
 | N099-11 | HI注释指出1975Ki13曾把相关γ归99Pd并采用其spin序列，故那一分析不直接适用于99Rh；复用偏振必须先校核spin/核素身份。 | historical-counter-evidence | evaluator-attribution | 99045019 1978Lu02/1975Ki13 paragraph | true |
 | N099-12 | 1994Ra07是P00Ref8的High-spin states in99Rh，DOI10.1088/0954-3899/20/3/005，441–450；已核metadata/官方引用，未取得原正文，不能补gate或AD。 | original-source-readiness | metadata-and-access-boundary | official HIreferences 1994RA07 | true |
 | N099-13 | Codex条件设计：相同density下pureΔJ0/ΔJ1 dipole的a2满足a2(0)=−44a2(1)/25；未知相邻高多极振幅时，有相位无关的充分纯度条件，分别约|δ|<.86021与.141913才保证F2符号不翻。不是这些支路的实测界。 | reference-design-model | exact-kernel-and-CG6j | 本页参考纯度设计；rh99-reference-purity-result | true |
+| N099-14 | 编译feeding包含3988.8的25/2−经278.5M1到3710.6，以及4579.6的27/2−经867.8E2到3710.6。仅给spin路径与源标签，不把它们的2014强度/取向移回P00或证明pure。 | actual-feeding-identity | direct-table-and-diagram | 99045019 L3988.8/G278.5；L4579.6/G867.8；PDFpp5/9/21 | true |
 
 ## Same-parent branch crosswalk
 
@@ -121,3 +122,6 @@ P0：未识别未隔离的来源身份/路径/权限问题。P1：模型纯度�
 ## Extracted Pages
 
 [[99rh]]、[[palit-2000-rh99-clover-polarimetry]]、[[rh99-1117-population-feasibility]]、[[multipole-mixing-ratio]]、[[linear-polarization-asymmetry]]、[[high-spin-angular-polarization-mixing-ratio]]。
+
+
+这两条spin路径的完整未观测转移条件见[[unobserved-feeding-alignment-sign]]；高spin低L保号不代实际reaction/粒子j/方向门核验。

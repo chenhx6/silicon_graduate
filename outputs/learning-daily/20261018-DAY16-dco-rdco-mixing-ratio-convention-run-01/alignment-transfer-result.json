@@ -1,0 +1,557 @@
+{
+  "at": "2026-10-19T11:15:42.957827+08:00",
+  "script_sha256": "f566d22c661992ef19489327630dd0e92be0ef2fa7e8be6310edfc8bff13c212",
+  "contract_sha256": "cd8f32e9cfe07fce2e7c1ab07772e730ed728914f7556d5fe02db56e892713af",
+  "raw_and_old_human_source_and_helpers_unchanged": true,
+  "projection_formula": "x=(Ji(Ji+1)+Jf(Jf+1)-j(j+1))/2; c=[3x^2-3x/2-Ji(Ji+1)Jf(Jf+1)]/[2(Ji(Ji+1))^2-3Ji(Ji+1)/2]; mu2f=c mu2i; mustcheckCGbeforeuse",
+  "all_real_highspin_lowL_certificates": [
+    {
+      "L": 1,
+      "Ji_minus_Jf": -1,
+      "Jf_substitution": "s + 7/2",
+      "positive_numerator_polynomial": "2*s**4 + 28*s**3 + 281*s**2/2 + 595*s/2 + 225",
+      "positive_denominator_polynomial": "2*s**4 + 24*s**3 + 211*s**2/2 + 201*s + 140",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "5/2",
+        "Jf": "7/2",
+        "j": "1",
+        "mu2_transfer_c": "45/28",
+        "statistical_tensor_U2": "5*sqrt(6)/14",
+        "u2_transfer": "75/98",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 1,
+      "Ji_minus_Jf": 0,
+      "Jf_substitution": "s + 5/2",
+      "positive_numerator_polynomial": "2*s**4 + 24*s**3 + 199*s**2/2 + 165*s + 92",
+      "positive_denominator_polynomial": "2*s**4 + 24*s**3 + 211*s**2/2 + 201*s + 140",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "5/2",
+        "Jf": "5/2",
+        "j": "1",
+        "mu2_transfer_c": "23/35",
+        "statistical_tensor_U2": "23/35",
+        "u2_transfer": "23/35",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 1,
+      "Ji_minus_Jf": 1,
+      "Jf_substitution": "s + 5/2",
+      "positive_numerator_polynomial": "2*s**4 + 28*s**3 + 281*s**2/2 + 595*s/2 + 225",
+      "positive_denominator_polynomial": "2*s**4 + 32*s**3 + 379*s**2/2 + 492*s + 945/2",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "7/2",
+        "Jf": "5/2",
+        "j": "1",
+        "mu2_transfer_c": "10/21",
+        "statistical_tensor_U2": "5*sqrt(6)/14",
+        "u2_transfer": "1",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 2,
+      "Ji_minus_Jf": -2,
+      "Jf_substitution": "s + 9/2",
+      "positive_numerator_polynomial": "2*s**4 + 32*s**3 + 359*s**2/2 + 412*s + 330",
+      "positive_denominator_polynomial": "2*s**4 + 24*s**3 + 211*s**2/2 + 201*s + 140",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "5/2",
+        "Jf": "9/2",
+        "j": "2",
+        "mu2_transfer_c": "33/14",
+        "statistical_tensor_U2": "sqrt(1155)/42",
+        "u2_transfer": "55/84",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 2,
+      "Ji_minus_Jf": -1,
+      "Jf_substitution": "s + 7/2",
+      "positive_numerator_polynomial": "2*s**4 + 28*s**3 + 257*s**2/2 + 427*s/2 + 105",
+      "positive_denominator_polynomial": "2*s**4 + 24*s**3 + 211*s**2/2 + 201*s + 140",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "5/2",
+        "Jf": "7/2",
+        "j": "2",
+        "mu2_transfer_c": "3/4",
+        "statistical_tensor_U2": "sqrt(6)/6",
+        "u2_transfer": "5/14",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 2,
+      "Ji_minus_Jf": 0,
+      "Jf_substitution": "s + 5/2",
+      "positive_numerator_polynomial": "2*s**4 + 24*s**3 + 175*s**2/2 + 93*s + 14",
+      "positive_denominator_polynomial": "2*s**4 + 24*s**3 + 211*s**2/2 + 201*s + 140",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "5/2",
+        "Jf": "5/2",
+        "j": "2",
+        "mu2_transfer_c": "1/10",
+        "statistical_tensor_U2": "1/10",
+        "u2_transfer": "1/10",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 2,
+      "Ji_minus_Jf": 1,
+      "Jf_substitution": "s + 5/2",
+      "positive_numerator_polynomial": "2*s**4 + 28*s**3 + 257*s**2/2 + 427*s/2 + 105",
+      "positive_denominator_polynomial": "2*s**4 + 32*s**3 + 379*s**2/2 + 492*s + 945/2",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "7/2",
+        "Jf": "5/2",
+        "j": "2",
+        "mu2_transfer_c": "2/9",
+        "statistical_tensor_U2": "sqrt(6)/6",
+        "u2_transfer": "7/15",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    },
+    {
+      "L": 2,
+      "Ji_minus_Jf": 2,
+      "Jf_substitution": "s + 5/2",
+      "positive_numerator_polynomial": "2*s**4 + 32*s**3 + 359*s**2/2 + 412*s + 330",
+      "positive_denominator_polynomial": "2*s**4 + 40*s**3 + 595*s**2/2 + 975*s + 1188",
+      "all_coefficients_strictly_positive": true,
+      "boundary_CG_check": {
+        "Ji": "9/2",
+        "Jf": "5/2",
+        "j": "2",
+        "mu2_transfer_c": "5/18",
+        "statistical_tensor_U2": "sqrt(1155)/42",
+        "u2_transfer": "1",
+        "column_stochastic_isotropic_and_every_parent_m_exact": true,
+        "independent_6j_match": true,
+        "sign": 1
+      }
+    }
+  ],
+  "actual_Rh99_spinpath_models": [
+    {
+      "Ji": "25/2",
+      "Jf": "23/2",
+      "j": "1",
+      "mu2_transfer_c": "253/300",
+      "statistical_tensor_U2": "3*sqrt(46046)/650",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "27/2",
+      "Jf": "23/2",
+      "j": "2",
+      "mu2_transfer_c": "253/351",
+      "statistical_tensor_U2": "sqrt(36685)/195",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    }
+  ],
+  "Jf23half_emittedj_half_to3_all27paths": [
+    {
+      "Ji": "11",
+      "Jf": "23/2",
+      "j": "1/2",
+      "mu2_transfer_c": "13/12",
+      "statistical_tensor_U2": "sqrt(2093)/46",
+      "u2_transfer": "91/92",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "12",
+      "Jf": "23/2",
+      "j": "1/2",
+      "mu2_transfer_c": "11/12",
+      "statistical_tensor_U2": "3*sqrt(11)/10",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "21/2",
+      "Jf": "23/2",
+      "j": "1",
+      "mu2_transfer_c": "325/276",
+      "statistical_tensor_U2": "5*sqrt(10010)/506",
+      "u2_transfer": "11375/11638",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "23/2",
+      "Jf": "23/2",
+      "j": "1",
+      "mu2_transfer_c": "563/575",
+      "statistical_tensor_U2": "563/575",
+      "u2_transfer": "563/575",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "25/2",
+      "Jf": "23/2",
+      "j": "1",
+      "mu2_transfer_c": "253/300",
+      "statistical_tensor_U2": "3*sqrt(46046)/650",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "10",
+      "Jf": "23/2",
+      "j": "3/2",
+      "mu2_transfer_c": "325/253",
+      "statistical_tensor_U2": "5*sqrt(2470)/253",
+      "u2_transfer": "61750/64009",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "11",
+      "Jf": "23/2",
+      "j": "3/2",
+      "mu2_transfer_c": "1729/1650",
+      "statistical_tensor_U2": "133*sqrt(2093)/6325",
+      "u2_transfer": "12103/12650",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "12",
+      "Jf": "23/2",
+      "j": "3/2",
+      "mu2_transfer_c": "1595/1794",
+      "statistical_tensor_U2": "87*sqrt(11)/299",
+      "u2_transfer": "290/299",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "13",
+      "Jf": "23/2",
+      "j": "3/2",
+      "mu2_transfer_c": "253/325",
+      "statistical_tensor_U2": "sqrt(102718)/325",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "19/2",
+      "Jf": "23/2",
+      "j": "2",
+      "mu2_transfer_c": "325/231",
+      "statistical_tensor_U2": "5*sqrt(119301)/1771",
+      "u2_transfer": "18525/19481",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "21/2",
+      "Jf": "23/2",
+      "j": "2",
+      "mu2_transfer_c": "2171/1932",
+      "statistical_tensor_U2": "167*sqrt(10010)/17710",
+      "u2_transfer": "10855/11638",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "23/2",
+      "Jf": "23/2",
+      "j": "2",
+      "mu2_transfer_c": "77113/82225",
+      "statistical_tensor_U2": "77113/82225",
+      "u2_transfer": "77113/82225",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "25/2",
+      "Jf": "23/2",
+      "j": "2",
+      "mu2_transfer_c": "2189/2700",
+      "statistical_tensor_U2": "199*sqrt(46046)/44850",
+      "u2_transfer": "199/207",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "27/2",
+      "Jf": "23/2",
+      "j": "2",
+      "mu2_transfer_c": "253/351",
+      "statistical_tensor_U2": "sqrt(36685)/195",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "9",
+      "Jf": "23/2",
+      "j": "5/2",
+      "mu2_transfer_c": "65/42",
+      "statistical_tensor_U2": "sqrt(11741730)/3542",
+      "u2_transfer": "3315/3542",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "10",
+      "Jf": "23/2",
+      "j": "5/2",
+      "mu2_transfer_c": "611/506",
+      "statistical_tensor_U2": "47*sqrt(2470)/2530",
+      "u2_transfer": "58045/64009",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "11",
+      "Jf": "23/2",
+      "j": "5/2",
+      "mu2_transfer_c": "22861/23100",
+      "statistical_tensor_U2": "22861*sqrt(2093)/1151150",
+      "u2_transfer": "22861/25300",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "12",
+      "Jf": "23/2",
+      "j": "5/2",
+      "mu2_transfer_c": "27245/32292",
+      "statistical_tensor_U2": "5449*sqrt(11)/19734",
+      "u2_transfer": "27245/29601",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "13",
+      "Jf": "23/2",
+      "j": "5/2",
+      "mu2_transfer_c": "3377/4550",
+      "statistical_tensor_U2": "307*sqrt(102718)/104650",
+      "u2_transfer": "307/322",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "14",
+      "Jf": "23/2",
+      "j": "5/2",
+      "mu2_transfer_c": "253/378",
+      "statistical_tensor_U2": "sqrt(7137130)/2730",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "17/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "65/38",
+      "statistical_tensor_U2": "2*sqrt(5311735)/4807",
+      "u2_transfer": "4420/4807",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "19/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "5707/4389",
+      "statistical_tensor_U2": "439*sqrt(119301)/168245",
+      "u2_transfer": "17121/19481",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "21/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "1009/966",
+      "statistical_tensor_U2": "1009*sqrt(10010)/115115",
+      "u2_transfer": "5045/5819",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "23/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "72109/82225",
+      "statistical_tensor_U2": "72109/82225",
+      "u2_transfer": "72109/82225",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "25/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "7207/9450",
+      "statistical_tensor_U2": "7207*sqrt(46046)/1726725",
+      "u2_transfer": "14414/15939",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "27/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "6941/10179",
+      "statistical_tensor_U2": "631*sqrt(36685)/130065",
+      "u2_transfer": "631/667",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    },
+    {
+      "Ji": "29/2",
+      "Jf": "23/2",
+      "j": "3",
+      "mu2_transfer_c": "253/406",
+      "statistical_tensor_U2": "2*sqrt(41395354)/13195",
+      "u2_transfer": "1",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": 1
+    }
+  ],
+  "legal_signflip_counterexamples": [
+    {
+      "Ji": "1",
+      "Jf": "1",
+      "j": "1",
+      "mu2_transfer_c": "-1/2",
+      "statistical_tensor_U2": "-1/2",
+      "u2_transfer": "-1/2",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": -1
+    },
+    {
+      "Ji": "2",
+      "Jf": "2",
+      "j": "2",
+      "mu2_transfer_c": "-3/14",
+      "statistical_tensor_U2": "-3/14",
+      "u2_transfer": "-3/14",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": -1
+    },
+    {
+      "Ji": "23/2",
+      "Jf": "23/2",
+      "j": "11",
+      "mu2_transfer_c": "-37/575",
+      "statistical_tensor_U2": "-37/575",
+      "u2_transfer": "-37/575",
+      "column_stochastic_isotropic_and_every_parent_m_exact": true,
+      "independent_6j_match": true,
+      "sign": -1
+    }
+  ],
+  "no_rank2_parent_controls": [
+    {
+      "Ji": "0",
+      "Jf": "1",
+      "j": "1",
+      "rank2_parent_absent_child_moment_zero": true
+    },
+    {
+      "Ji": "1/2",
+      "Jf": "3/2",
+      "j": "1",
+      "rank2_parent_absent_child_moment_zero": true
+    }
+  ],
+  "direction_gate_failure_control": [
+    {
+      "theta_deg": 0.0,
+      "mu2_child": 25.299999999999997,
+      "u2_child": 0.049999999999999996,
+      "full_direction_trace_child_u2": 0.0,
+      "parent_isotropic_u2": 0.0,
+      "normalized_density_min_eigenvalue": 0.03250000000000001
+    },
+    {
+      "theta_deg": 90.0,
+      "mu2_child": -12.649999999999999,
+      "u2_child": -0.024999999999999998,
+      "full_direction_trace_child_u2": 0.0,
+      "parent_isotropic_u2": 0.0,
+      "normalized_density_min_eigenvalue": 0.03250000000000001
+    }
+  ],
+  "scope": {
+    "single_fulltrace_rotationally_covariant": true,
+    "no_Gaussian_or_actual_feeding_weights": true,
+    "no_newexperimental_u2_delta_parity_or_confidence": true,
+    "not_a_global_theorem_for_all_reaction_particles_or_gates": true
+  }
+}

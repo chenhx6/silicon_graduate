@@ -1,3 +1,19 @@
+# 最新checkpoint041
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked/无active写法，objective保留，不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+
+041 verification035实际report/card/唯一writeback65changed/65items、boundary/lint/diff0，0errors188warnings(136key49raw3parser)。旧raw/PLAN/Bib/Pr135及D66/C96/L25/L26等humanprefix均过；C96原CRLF前缀逐byte保留，新增声明不属旧人审。新knowledge/research-notes/unobserved-feeding-alignment-sign.md与D66-D16/C96-D16/N099-14等已canonical。D66真实3p/2fig排1207下半它文，C96真实19p/Eq1–9/7fig完整主线重读。
+
+完整CGtrace rank2 Casimir系数/每m/独立6j actual0；Ji/Jf≥5/2、L1/2全8类正多项式证书，Jf23/2/j.5…3有限27路正。实际278.5/867.8路径pure模型c253/300、253/351及u2转移1，不等B2U2或宽度。低spin/大j/高rank负U、isotropicparent方向门u2+.05/−.025反例保持。未知混合的完整trace与含干涉的referenceAD分开；实际P00全链仍缺，未证明u2或parity。
+
+C96 Eq6字面与原“U∈(0,1)”并列，数学一般absU≤1，正号需域；signedΩ与幅度层纠正迁移但不判Avalanche实际code错。原Fig1两链PM/rank0…10重放actual0；σ2/σ4(.675686,.681492)/(2.146137,2.571571)均4方程Sturm1根，非实验σ/δ或Fig2ensemble。Fig7正确/错误σ均有多个J2极小，未新拟合；sourceproducer/Σ仍缺。
+
+本批稳定指针main / `Audit DAY16 signed orientation transfer and source Gaussian limits`，actualhash/H3/push仅publication041/runreceipt。040已actualGitee main / `Trace DAY16 Rh99 same-parent references and purity conditions`。下一重建当前输入池：D66实际三线AD的sameparent/physicalpopulation与spin-sequence边界有潜在定量信息，或C96actualproducer合法availability；未冻结下个模型/未开新source。不可重复无变化的1994/2014/Garg等terminalbody访问，不用随机toy填时段。
+
+保护raw/PLAN/Bib/credentials/原review/继承dirty/log；exactmanifest、HEAD+ownlog、cached实际0再commit、freshfetch/ancestor/dryrun/nonforceH3。原15:00尚有3h余，不能因本checkpoint结束。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+
+# 先前checkpoint（历史）
+
 # 最新checkpoint040
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。

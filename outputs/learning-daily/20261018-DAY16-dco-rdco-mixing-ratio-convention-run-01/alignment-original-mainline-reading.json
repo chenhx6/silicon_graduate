@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-19T11:33:27.536489+08:00",
+  "Diamond": {
+    "raw_sha256": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614",
+    "pages": [
+      1205,
+      1206,
+      1207
+    ],
+    "scope": "fullDiamondarticlethroughreferences;otherarticlep1207bottomexcluded",
+    "figures": [
+      1,
+      2
+    ],
+    "kind": "originalsource reread, notindependentexperiment"
+  },
+  "Cejnar": {
+    "raw_sha256": "47765ae583940610cf4b19bb53e727308719bc23a949c6cc1e76084f6dc0bccd",
+    "pages": "225–243",
+    "scope": "19pagesfullmainline/Eq1–9/Fig1–7/allreferences",
+    "visual_pages": [
+      228,
+      229,
+      230,
+      232,
+      234,
+      235,
+      237,
+      238,
+      239,
+      241
+    ],
+    "no_curve_digitization": true,
+    "no_AvalancheII_original_code_or_particle_inputs_recovered": true
+  },
+  "new_models": "alignmenttransfer and sourceFig1replay only; noexperimentaldelta/parityfit",
+  "oldhuman_prefix_frozen_and_preserved": true
+}

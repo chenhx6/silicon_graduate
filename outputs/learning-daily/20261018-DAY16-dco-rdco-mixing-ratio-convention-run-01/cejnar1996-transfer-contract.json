@@ -1,0 +1,71 @@
+{
+  "at": "2026-10-19T11:20:45.156678+08:00",
+  "identity": "C96-U-RANGE-AND-FIG1-REPLAY-01",
+  "source": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+  "source_prefix_bytes": 10296,
+  "source_prefix_sha256": "d64b0346cff0cac0dd466cce5ef3cb4109f2ff36a548fed4ac804bd9bac222d1",
+  "raw": "raw/papers/1996_Cejnar et al_Calculation of the spin deorientation in (α,2nγ) reactions.pdf",
+  "raw_sha256": "47765ae583940610cf4b19bb53e727308719bc23a949c6cc1e76084f6dc0bccd",
+  "source_read_scope": "all19pages225–243 mainline; Eq1–9/7figures; figurecurveprodnotdigitized",
+  "literal_locator": "p229 Eq6 and following BecauseUin(0,1); Eq1 sameB normalization; p232 Fig1 andpowerlaw; p233 averagingboundary; pp235–236 Eq9; p240–241 Fig7",
+  "rank_parameters": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "sequences": [
+    {
+      "name": "Fig1-two-swave-neutrons",
+      "initial_J2": 10,
+      "initial_m": "0",
+      "steps": [
+        {
+          "Jf2": 11,
+          "j2": 1
+        },
+        {
+          "Jf2": 10,
+          "j2": 1
+        }
+      ]
+    },
+    {
+      "name": "Fig1-two-pwave-neutrons-two-dipoles",
+      "initial_J2": 10,
+      "initial_m": "0",
+      "steps": [
+        {
+          "Jf2": 11,
+          "j2": 3
+        },
+        {
+          "Jf2": 10,
+          "j2": 3
+        },
+        {
+          "Jf2": 10,
+          "j2": 2
+        },
+        {
+          "Jf2": 10,
+          "j2": 2
+        }
+      ]
+    }
+  ],
+  "tests": [
+    "replayeachtransitionfullCGprobabilitymapvsEq6statisticaltensorsfork0,2,4andhigherallowedrank",
+    "sourceEq6signedcounterexamplesforlowJandhighj; no claimAvalancheproducerwrong",
+    "CauchySchwarzcorrelationboundabsUk<=1; squaredBfunctionsunderuniformmarginals equal1",
+    "Fig1endstateactualpmandB2B4; independentlyinvertGaussianB2andB4usingallbracketedroots, notfitexperimentalδ",
+    "equalB2B4 notproofexactGaussian; reporttruesupportandhighermoments; no arbitraryadditionalmixtureweights",
+    "sourcepowerlawonlyvalidwithpositiveU2U4andU2not1; neverlognegative/zero",
+    "keepalloldhumanreviewprefix/flags/claimsbyteexact; newselfauditsunreviewed",
+    "Fig7onlyqualitativebranchread; no digitizedorrefittedδ/χ²/CI"
+  ],
+  "scope": "source-authoredmodelinputs replay andCodexformalchecks; no actualnewdata orAvalancheIIreconstruction",
+  "post_source": true
+}

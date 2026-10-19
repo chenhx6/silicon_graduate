@@ -66,3 +66,10 @@ Deorientation is a necessary background concept for P-ADO `sigma/I` uncertainty,
 [[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3原Eq9指出：对完全未观测的两multipolebranch，U所用qtot=δgamma²(1+alpha_Lprime)/(1+alpha_L)，alpha是totalICC。若明确postselect其光子通道，才按相应gamma条件权重传播；只检测一shellelectron又是另一对象。混合U无干涉、U0=1，但不同multipole/atomicconversion可影响强度权重。
 
 [[internal-conversion-analysis]]的新168.71W例保持qgamma与qtot分开，并保留trace、pure/equalICC和rank2/4控制。这不是hyperfineGk或任意sigma重设，也不模拟电子轨迹。不同candidate的radiativeq自由时，可抵消ICC因子而保全所有Uk，因此原manual所说paritysensitivity不能自动升级为唯一parity测量。
+
+
+## 二阶取向保号的条件域
+
+[[unobserved-feeding-alignment-sign]]以[[cejnar-1996-spin-deorientation-alpha-2n-gamma]]新C96-D16-1/2核带符号U：一般abs(U)≤1，但低spin/大j/rank4可为负；signedΩ与幅度不能同作非负flow。完整未观测且Ji/Jf≥5/2、L1/2时，rank2保号有八个正多项式证书；方向门、实际出域粒子/外场仍需单独传播。
+
+原Fig1两模型链的PM/高rank与Gaussian双宽度重放不提供新的实验σ；也不把B2/U2/μ2/u2四种归一互换。完全未观测totalICC权重与光子/壳电子条件的原边界继续保留。

@@ -1995,3 +1995,8 @@ P00实际AD/P摘要进入明示point/freepositiveq模型；central孤立根逐�
 ## 2026-10-19 — Day16 checkpoint040：同母态参考与纯度条件
 
 NNDC2017两个Rh99对象/目标六支/不同parent/RI半格重归一actual0，无已测u2或pureE2；原MR空/CC理论和compiledIPDCO分层。same-density D0/D1比例−44/25与phaseindependent充分纯度界actual0，561弱但较耐混合/820强但纯度严，非实验δ或取向。P00原p351纠正31P+74Ge与Ref8的16O+89Y谱系，原输入/冻结回忆不改；1994/2014primarybody未得，不补gate/response。verification034实际62/62、required0、0errors188warnings；旧prefix/raw/PLAN/Bib保持。原run科学pursuing到15:00/formal16一次partial17；稳定指针main / Trace DAY16 Rh99 same-parent references and purity conditions，hash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint041：signed U与Gaussian边界
+
+D66原3p/2fig及C96原19p/Eq1–9/7fig主线重读，旧humanprefix保持；新CG/6j/Casimir转移actual0，8类高spin低L正多项式/27有限粒子路径、低spin大j高rank及方向门反例canonical。C96signedU literal范围与absU界、signedΩ/幅度分层，不判原实验/code失效。原Fig1两链PM及高rank重放actual0，Gaussian四方程Sturm单根/双宽度非实验σ；实际P00全链/Σ/producer缺口保持。verification035实际65/65、required0、0errors188warnings，原raw/PLAN/Bib/旧prefix保持。同run原15:00仍pursuing/formal16一次partial17；稳定指针main / Audit DAY16 signed orientation transfer and source Gaussian limits，hash/push只receipt。

@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T11:16:55.317077+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "recall_path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/cejnar1996-transfer-before.md",
+  "recall_sha256": "1cf51ef98ceb0197698c9cc10a1881f15177dee0fd8f346217def4ca8361633d",
+  "source": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+  "prefix_bytes": 10296,
+  "prefix_sha256": "d64b0346cff0cac0dd466cce5ef3cb4109f2ff36a548fed4ac804bd9bac222d1",
+  "raw": "raw/papers/1996_Cejnar et al_Calculation of the spin deorientation in (α,2nγ) reactions.pdf",
+  "raw_sha256": "47765ae583940610cf4b19bb53e727308719bc23a949c6cc1e76084f6dc0bccd",
+  "Wiki_and_current_CG_result_already_primed": true,
+  "source_original_opened": false,
+  "human_prefix_preserve": true
+}

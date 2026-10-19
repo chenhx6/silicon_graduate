@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-19T11:16:55.317077+08:00",
+  "minutes_to_original_deadline": 223.07804871666667,
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "day_index": 16,
+  "completed_day_indices": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "current_issue": "conditionalorientation-preservation domain, no newtopic",
+  "source_selected": "Cejnar1996 original necessarycompanion to Diamond/generalCGmodel",
+  "information_gain": "resolve literal0to1U vs signedrank2counterdefinition/modeldomain; distinguish sidefeeding/total",
+  "novelty_slot_unchanged": true,
+  "day18_opened": false
+}

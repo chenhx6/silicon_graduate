@@ -173,3 +173,10 @@ P1：严格正q只证明这个数学模型有解，不给fusionreaction布居的
 ## 实际同母态参考审计
 
 [[nndc-2017-99rh-matched-reference-records]] N099-2–9确认3710.6同母态六支，不含现成pureE2支路；MR空/理论CC不提供pure或u2。N099-13给实际561.3(ΔJ0)/820.4(ΔJ1)条件设计：同density pureD0的a2=−44a2(D1)/25；保证F2不翻号的充分|δ|界分别.86021/.141913。前者更耐混合但RI弱，实际AD/纯度/门/response仍缺，未把额外lowm条件升为已测。
+
+
+## 额外取向条件的物理支持仍有前提
+
+[[unobserved-feeding-alignment-sign]]把lowm条件继续拆到入口和完整未观测feeding。所证Ji/Jf≥5/2、L1/2保号域与Rh99两条已列spin路径可支持条件设计，但未知蒸发j/全链、方向选择和环境不允许宣布P00实际u2已知；方向门可从isotropicparent产生正u2。原freeq多解与额外lowm条件层级保持。
+
+原U定义与迁移限制另回[[cejnar-1996-spin-deorientation-alpha-2n-gamma]] C96-D16-1/2/4/5；source模型与本核实际反应证据分开。

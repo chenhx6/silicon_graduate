@@ -107,3 +107,16 @@ This is an early foundational source for the sigma-over-I project: it links heav
 ## Review Status
 
 All D66 claims were reviewed by the user on 2026-07-13; `needs_review` is cleared for this source note.
+
+
+## 2026-10-19 Codex续核：取向预期与适用边界
+
+本节为Day16新self-audit，不属于上述旧用户审核；旧前缀/claims/状态逐字节保留。原三页完整主线、Fig1/2及1207上半结尾重读；1207下半Coppi等地磁文章不摄入。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| D66-D16-1 | Fig1排除2→0；正文说I>2数据落在A2=.30±.09、A4=−.09±.05的范围，并明确有significant Gaussian deviations。这不是任意核素的σ先验或一个给定统计置信水平的普适区间。 | population-domain-boundary | direct-reinspection | p1205 Fig1/两栏正文 | true |
+| D66-D16-2 | Fig2原331/370/701的(A2,A4)依次为(−.58(.03),−.02(.03))、(−.36(.02),−.03(.02))、(+.26(.04),−.03(.04))；作者称AD把19种spin序列减至5种，再以expectedalignment减至3种，仍需ICC/其它资料。 | actual-AD-and-attributed-selection | direct-original | p1206 Fig2/caption/左栏 | true |
+| D66-D16-3 | 本run的完整CGtrace条件分析给高spin低L保号域，也给低spin/大j/方向门反例；这是Codex模型，不把本文入口几何预期写成Rh99实际u2测量。 | conditional-transfer-design | Codex-exact-model | 本页续核；unobserved-feeding-alignment-sign | true |
+
+新可复用推导见[[unobserved-feeding-alignment-sign]]，同源反应/环境/参考限制继续保留；不重计本文为一次新实验。新知识支持条件分析、限制fusion名称本身的证明力。

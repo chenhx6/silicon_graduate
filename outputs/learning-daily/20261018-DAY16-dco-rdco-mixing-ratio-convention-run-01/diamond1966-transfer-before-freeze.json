@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-19T11:09:03.964059+08:00",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "recall_path": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/diamond1966-transfer-before.md",
+  "recall_sha256": "7c883e74f8ef8f5144b7fdac71c78f25e9cd9391816cd4022d9fe448df631740",
+  "source": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+  "prefix_bytes": 9350,
+  "prefix_sha256": "b78015cfce7f5d08ade31bdfd45e79b68ea02202fd87389afebd6262f2613caf",
+  "raw": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+  "raw_sha256": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614",
+  "primed": "Wiki D66 page already opened; original not yet",
+  "human_prefix_will_remain_byteexact": true
+}

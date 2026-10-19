@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-19T11:13:12.689800+08:00",
+  "identity": "D66-UNOBSERVED-RANK2-TRANSFER-01",
+  "source": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+  "raw": "raw/papers/1966_Diamond et al_Nuclear Alignment in Heavy-Ion Reactions.pdf",
+  "raw_sha256": "06fb82ecebc0f1da5441caa5fb9272d481f469b1b39f402342ad31c8e55c8614",
+  "old_human_source_sha256": "b78015cfce7f5d08ade31bdfd45e79b68ea02202fd87389afebd6262f2613caf",
+  "actual_original_reading": {
+    "scope": "Diamond pp1205-1207 top only; exclude Coppi geomagnetic-tail article onp1207 bottom",
+    "figures": [
+      1,
+      2
+    ],
+    "formulas": "W(theta)Legendre; completealignmentmhalf; no printedCGtransferformula claimed",
+    "limitations": "Gaussianreference has significantdeviations;sameparentpurecalibration;extranuclearfieldcondition;2to0excludedFig1",
+    "fig2_actual_coeffs": {
+      "331keV": [
+        -0.58,
+        0.03,
+        -0.02,
+        0.03
+      ],
+      "370keV": [
+        -0.36,
+        0.02,
+        -0.03,
+        0.02
+      ],
+      "701keV": [
+        0.26,
+        0.04,
+        -0.03,
+        0.04
+      ]
+    },
+    "author_spin_counts": "19 ->5 AD; ->3 probableexpectedalignment, thenICCneeded",
+    "not_new_independentexperiment": true
+  },
+  "model": "singlefixedJiJfemittedj rotationalcovariant fulltrace over directionandallunobservedspinprojections; axialdiagonaldensity for explicitmaps; no Gaussian",
+  "moment": "mu2(J)=<3m^2-J(J+1)>; u2=mu2/[2J(2J-1)] forJ>=1",
+  "derived_projection_candidate": "x=(Ji(Ji+1)+Jf(Jf+1)-j(j+1))/2; c=[3x^2-3x/2-Ji(Ji+1)Jf(Jf+1)]/[2(Ji(Ji+1))^2-3Ji(Ji+1)/2]; mu2f=c mu2i; mustcheckCGbeforeuse",
+  "tests": [
+    "exactCGcolumnstochastic/isotropicfixedpoint/rank2allm",
+    "independentwigner6jstatisticaltensorU2 vsCG",
+    "testproposedallreal-s>=0positivepolynomialcertificateforJi,Jf>=5/2,L1/2; ifnotcertifiedreportboundedfailure",
+    "actualN099feedpaths25/2->23/2L1/27/2->23/2L2; noexperimentalfeedingweightsassigned",
+    "finitefixedJf23/2alltriangleJi forjhalfsteps.5to3; notactualevaporationdistribution",
+    "legalcounterexampleI1->A1j1 andI2->A2j2; plushighspinlargej iffound",
+    "no-rank2parentJi0orhalf controls",
+    "unobservedfullanglekillscrossmultipoleinterference; directionalfeedgatebreaksmap test withisotropicparent actual25/2->23/2L1 path",
+    "equalparentpreparationbutdifferentunobserved/gateddaughter notsameobject",
+    "sourceP00reaction/referenceconditionsstillunknown so noactualparityassignment"
+  ],
+  "scope": "Codexconditionalmodel for currentcompanion issue; no toycounts,newexperimentalCIorGaussianfit",
+  "post_source_contract": true
+}

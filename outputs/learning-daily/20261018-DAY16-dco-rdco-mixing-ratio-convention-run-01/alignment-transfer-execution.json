@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T11:16:55.317077+08:00",
+  "session_id": 73908,
+  "exit_code": 0,
+  "script": "system/scripts/day16_alignment_transfer_sign.py",
+  "script_sha256": "f566d22c661992ef19489327630dd0e92be0ef2fa7e8be6310edfc8bff13c212",
+  "PYTHONPATH": "tmp/day16-jt74/python-deps",
+  "CG_all_m_and_independent6j": true,
+  "positive_domain_certificates": 8,
+  "finite_Jf23half_particle_paths": 27,
+  "source_humanprefix_unchanged": true
+}
