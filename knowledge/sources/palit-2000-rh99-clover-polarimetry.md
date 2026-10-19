@@ -59,6 +59,8 @@ Palit等，Pramana54(3),347–354(2000)，DOI[10.1007/s12043-000-0126-x](https:/
 | P00-11 | Na24的1368校准称用4→2→0的correlation coefficients算P，但完整2756direction/tag/接受ledger未明确给出。无条件、未取向source的singlesP=0与有方向条件的P不同；不能擅给本实验P=1/6或宣判其校准坏。 | reference-companion-readiness | source-and-conditional-physics | p351 Na24calibrationparagraph | true |
 | P00-12 | Table1的260.4/493.0Δ=−.053(.042)/−.078(.039)被作者用作M1对照；260.4在所报Q标定下限386之外，不能把fit外推P当已测该能量Q。 | control-and-range-boundary | direct | p352 Table1；abstract/Qcalibrationrange | true |
 | P00-13 | Rh99负宇称后对p1/2,g9/2及h11/2相关组态仅是作者解释；作者仍要求lifetimes检验更大deformation。本页方法示范不把P/δ当已测collectivity或建立完整Rh99band证据。 | structure-interpretation-boundary | direct-author | p353 Discussion | true |
+| P00-14 | 本run以本页reportedAD/P作明确point/freepositivepopulation条件分析；边际box内M1/E2及E1/M2均有strictlypositiveq witness，exactcentral还须逐二次根/凸包检查，不能由网格0命中排无解。这是Codex模型结果，不重测sourceδ或parity。 | conditional-identifiability-model | actual-LP-and-convex-certificate | 本页sourcea2/a4/P；rh99-1117-population-feasibility | true |
+| P00-15 | 在P00-14同模型/box之外，若额外独立给同发射态⟨m²⟩≤J(J+1)/3，则全δ代数界P90(M1/E2)≤.043642<box下限.16，而E1仍有正q；这个取向条件未由本run测得，不作为新parity判决。 | optional-preparation-falsifier | post-result-analytic-model | rh99-1117-population-feasibility额外条件节；P00-4 | true |
 
 ## 校准与实际采集分层
 
@@ -94,3 +96,8 @@ Garg2015引用本method并不把这里的a≈1或C/D继承为其真实15clover�
 ## Extracted Pages
 
 [[compton-polarimetry]]、[[linear-polarization-asymmetry]]、[[multipole-mixing-ratio]]、[[garg-2015-135pr-magnetic-rotation]]、[[135pr-mixing-branch-input-contract]]、[[high-spin-angular-polarization-mixing-ratio]]。
+
+
+### 实际摘要的有界可识别性续接
+
+[[rh99-1117-population-feasibility]]保存本run以实际a2/a4/P边际区间、pointgeometry、free非负对称P(m)所做可行性检查。两种EMfamily在该box都有严格正q；central的孤立根另有解析/正性证书。它限制没有alignment/response/联合Cov时的唯一性承诺，不是本paper重新测量δ或否认E1。

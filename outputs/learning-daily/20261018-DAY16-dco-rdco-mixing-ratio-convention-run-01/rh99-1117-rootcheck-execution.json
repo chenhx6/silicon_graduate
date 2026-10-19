@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-19T10:20:24.358548+08:00",
+  "session_id": 57990,
+  "exit_code": 0,
+  "script": "system/scripts/day16_rh99_population_rootcheck.py",
+  "script_sha256": "4917543d3360f67521b8562bfd09241f5bc02c402ba5768d700f9fb9ffad3430",
+  "result_matches_script": true,
+  "post_grid_design": true,
+  "source_data_tolerances_unchanged": true,
+  "experimental_refit": false
+}

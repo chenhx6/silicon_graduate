@@ -17,7 +17,7 @@ tags: [high-spin, angular-distribution, polarization, mixing-ratio, evidence-map
 
 ## Agent active summary
 
-Day16原件复核把δ的operator phase、P的坐标轴、detectorcount角色与response权重分成四个必要合同。FH59的plane-axis与SU59normal-axis相差π/2；B15的literal桥须连同As/P一起处理，未知actualproducer保持。SU59同跃迁在替代AD下仍双解，FH59同E3线在不同布居下P不同；都限制只靠多一个偏振数就唯一赋值。Hamilton原16purecase又给等权role抵消的null及rank4分类必要条件，进一步限定reference/selection对象。Palit实际AD/P案例补有条件的选根支持，标定a与Q仍分层、数值不迁移给Garg。新增全为self-audit，不改变review状态或取得Day17学分。
+Day16原件复核把δ的operator phase、P的坐标轴、detectorcount角色与response权重分成四个必要合同。FH59的plane-axis与SU59normal-axis相差π/2；B15的literal桥须连同As/P一起处理，未知actualproducer保持。SU59同跃迁在替代AD下仍双解，FH59同E3线在不同布居下P不同；都限制只靠多一个偏振数就唯一赋值。Hamilton原16purecase又给等权role抵消的null及rank4分类必要条件，进一步限定reference/selection对象。Palit实际AD/P案例补有条件的选根支持，标定a与Q仍分层、数值不迁移给Garg。实际Rh99摘要的freepositivepopulation可行性另保留边际box与孤立根/联合CI的区别。新增全为self-audit，不改变review状态或取得Day17学分。
 
 ## Question and Scope
 
@@ -108,3 +108,11 @@ P0：本批未识别未隔离的来源身份/权限/raw/路径技术问题；历
 ### Palit实测案例对联合观测的补强
 
 [[palit-2000-rh99-clover-polarimetry]] P00-4/5提供实际1117keV同正P与不同EM混合候选、再用同跃迁AD排largeδ的作者分析；与SEH59-10替代AD仍两解互为必要限制。联合观测有判别力仍依原reference/phase/response和误差，不能升级成“多测P必唯一”的定理。P00-1/3又明确a与Q分层，其method引用不迁移C/D给Gargactualcalibration。此为Codex跨来源综合，新source/缺口仍unreviewed，未作新的核赋值。
+
+
+### 实际Rh99摘要的条件可行性
+
+[[rh99-1117-population-feasibility]]把前述companion问题落到P00 actuala2/a4/P：在明确point/freepositivepopulation和逐marginalbox条件下，两种EMfamily均有strictlypositiveq；sourcefullCov/response/布居prior缺失，不能由此作实验概率或parity更改。centralisolatedroots与convex分离证书又限制只靠网格扫描的排除。新认识是“联合观测的判别力必须连同实际联合统计域和布居约束表述”，未裁决原paper/135Pr模式。
+
+
+P00-15的额外二阶取向条件给可检验companion：同发射态u2符号若独立成立，可改变同一AD/Pbox的EM可识别性；当前未测得，不能写成作者已给或用Gaussianσ替代。数学witness、额外准备条件与实验支持层分别保存。

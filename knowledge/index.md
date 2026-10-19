@@ -613,6 +613,8 @@ updated: 2026-10-19
 
 ## Research Notes
 
+- [[rh99-1117-population-feasibility]] - 实际AD/P摘要的严格正布居witness、孤立根与convex证书；非实验δ/CI。
+
 - [[co60-gate-role-response-benchmark]] - 实际Co60双γ门/角关联、E2/M3输入、有限MC与坐标/选择对象边界；不代Compton Q。
 
 - [[gretina-eu152-source-response-replay]] - 无偏振源的事件单位、几何、有效字段与finite-MC矩阵合同；保留实验Σ/Q缺口。

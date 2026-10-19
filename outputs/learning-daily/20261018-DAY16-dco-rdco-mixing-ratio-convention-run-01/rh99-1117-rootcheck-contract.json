@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T10:15:47.698303+08:00",
+  "identity": "RH99-1117-ROOT-AWARE-CENTRAL-01",
+  "v1_contract": "rh99-1117-feasibility-contract.json",
+  "v1_contract_sha256": "c814eebcb74eb495d21bf8ec32c9fdbdbd7b145f4bbc4fc1e197a812adbfbaca",
+  "v1_result": "rh99-1117-feasibility-result.json",
+  "v1_result_sha256": "e5424cf4825c63745380853ae517b741b770a000933adb9a01bc752d0819d83b",
+  "base_script": "system/scripts/day16_rh99_population_feasibility.py",
+  "base_script_sha256": "bf45dd6ea55402cbd51a493da7a2e8ac07c98db8c709c383ad2a1504b54a406a",
+  "design_is_post_grid_result": true,
+  "source_or_error_box_changed": false,
+  "root_method": "Rank2/4 kernelvector identity reduces Q-P I=0 atfixedcentralA2/A4 to quadratic; allrealroots then originalLPexactconstraints",
+  "root_imag_tolerance": 1e-10,
+  "rank_identity_tolerance": 1e-12,
+  "F2_pole_rejection_tolerance": 1e-10,
+  "LP_tolerances_unchanged": true,
+  "no_newexperimental_claims": true
+}

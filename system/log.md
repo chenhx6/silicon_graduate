@@ -1985,3 +1985,8 @@ Garg2015完整9页原读核IUAC82/15clover/RDCO148-90/a≠Q和oldtargetΔ，2019
 ## 2026-10-19 — Day16 checkpoint038：clover真实标定parent
 
 Palit2000/GargRef32实际8页原读核a/Q分层及1117AD/P；Q=.134178/P=.372639 actual0，误差残差/fitCov/referenceNa24方向tag仍缺。C负号/keV单位与域外、literalKNprefactor固定角取消/finiteweights边界均保留，不搬该Q给Garg或补2019更正。原作者以AD排largeM1E2再选smallE1M2的条件不升级。verification032实际59/59、required0、0errors186warnings，旧flags/raw/PLAN/Bib/人审prefix保持。原run科学pursuing至15:00/formal16一次partial17；发布指针main / Audit DAY16 clover calibration parent and matched companion observables，actualhash/push只receipt。
+
+
+## 2026-10-19 — Day16 checkpoint039：正布居多解与额外取向条件
+
+P00实际AD/P摘要进入明示point/freepositiveq模型；central孤立根逐一LP、3凸包分离/3strictpositivewitness实际0，box两EMfamily仍可行、非jointCI/实验δ。额外未测lowm条件的CG6j/kernel桥与正平方证明给sameParity全δ上界.043642<.16，pureE1仍可行；必须独立sameparent/gate/feeding取向支持，不能当新parity。四脚本实际0/首lowm0快照保留，原输入/旧witness不改。verification033实际60/60、required0、0errors186warnings，旧prefix/raw/PLAN/Bib保持；同run原15:00仍pursuing、formal16一次partial17。稳定指针main / Bound DAY16 Rh99 population ambiguity and conditional orientation test，actualhash/push只receipt。

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T10:34:55.083203+08:00",
+  "session_id": 85725,
+  "exit_code": 0,
+  "script": "system/scripts/day16_rh99_lowm_bound.py",
+  "script_sha256": "3921902f023e9942de2d60e66c61a05a328cb547c6807b215068feea487beb57",
+  "result_matches": true,
+  "first_program_actual0_retained": "rh99-1117-lowm-first-execution.json",
+  "source_and_all_prior_contracts_unchanged": true,
+  "square_proof_and_kernel_bridge_checks": true,
+  "not_measured_source_alignment": true
+}

@@ -402,3 +402,10 @@ ICC-based `delta` extraction 也可能带来明显非对称误差；当 experime
 ### 偏振伴随观测仍可能保留两个mixing候选
 
 [[suffert-1959-proton-capture-polarization]] SEH59-9/10的25Al2.69MeV案例：原表AD选项x=.35/11配P=.01/.39，但另一外部AD给x=.72/2.3配P=0/.19；同一实测P=.11(.14)对后一对不能裁决，作者在p669明确承认。两套AD是替代输入对象，不合并成一次四根拟合；未核上游reduced-ME/phase前，也不将该历史x直接改名KS/RB δ。
+
+
+### 孤立参数根与区间盒的不同问题
+
+直接输入来自[[palit-2000-rh99-clover-polarimetry]] P00-4/5/14；模型过程见下方note。
+
+[[rh99-1117-population-feasibility]]用实际原文摘要说明：exactcentral可行δ可能是有限个孤立根，有限arctanδ网格零命中不能排除；边际box可行域又不是联合CI。应先保留完整observable/phase/popu-lation合同，再以解析根和PSD/凸包检查判断条件解，不把native根当新reportedδ。

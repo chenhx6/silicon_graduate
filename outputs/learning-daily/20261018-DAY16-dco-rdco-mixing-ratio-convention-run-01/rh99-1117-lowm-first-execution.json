@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-19T10:34:02.724934+08:00",
+  "session_id": 6220,
+  "exit_code": 0,
+  "script_snapshot": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-1117-lowm-first-script.py",
+  "script_sha256": "9a4dfcfbe12f3114fefa85c751c987ec34cfec52f5cf3b6e67ca94477301563c",
+  "reason_for_followup": "Add explicit nonnegative square proof and independent kernel-to-analytic coefficient assertion. Source, model, intervals, LP tolerances and numerical target values unchanged."
+}

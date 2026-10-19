@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-19T10:34:14.517611+08:00",
+  "script_sha256": "3921902f023e9942de2d60e66c61a05a328cb547c6807b215068feea487beb57",
+  "contract_sha256": "4111952e4be1d034d18c65afd1a75377397916d9252c34480d047c1183800307",
+  "source_and_previous_results_unchanged": true,
+  "exact_independent_F2_ratios": {
+    "F22_over_F11": "13/35",
+    "F12_over_F11_squared": "63/5",
+    "native_interference_sign_not_inferred_from_this_route": true
+  },
+  "optional_mean_bound": {
+    "J": 11.5,
+    "m2_isotropic": 47.916666666666664,
+    "B2_definition": "sumq [3m²-J(J+1)]/[2J(2J-1)]",
+    "kernelvertex_max_error": 1.3877787807814457e-15,
+    "not_a_measured_source_condition": true
+  },
+  "analytic_bound": {
+    "F": "13*delta**2/35 - 6*sqrt(35)*delta/5 + 1",
+    "G": "39*delta**2/70 + 3*sqrt(35)*delta/5 + 3/2",
+    "d_ratio": "-84*sqrt(35)*(13*delta**2 - 35)/(13*delta**2 - 42*sqrt(35)*delta + 35)**2",
+    "minimum_proof_positive_square_coefficient": "819/1070 - 39*sqrt(13)/1070",
+    "minimum_proof_square_shift": "sqrt(455)/13",
+    "native_kernel_F_G_coefficients_match": true,
+    "min_G_over_F_on_Fpositive": "-60/107 + 21*sqrt(13)/214",
+    "numeric_min": -0.2069318841834403,
+    "delta_at_min": "-sqrt(455)/13",
+    "corner_bounds": [
+      {
+        "a2": -0.17,
+        "a4": 0,
+        "Pupper": 0.032422507199248704
+      },
+      {
+        "a2": -0.17,
+        "a4": 0.02,
+        "Pupper": 0.04364157465554677
+      },
+      {
+        "a2": -0.15,
+        "a4": 0,
+        "Pupper": 0.028874216397689337
+      },
+      {
+        "a2": -0.15,
+        "a4": 0.02,
+        "Pupper": 0.0402215082009386
+      }
+    ],
+    "global_Pupper_sameParity_given_lowM": 0.04364157465554677,
+    "sourcebox_Pminimum": 0.16,
+    "allreal_delta_bound_not_only_grid": true,
+    "dense_sanity_points": 100001
+  },
+  "oppositeParity_pureE1_strict_witness": {
+    "q_pair": [
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.03910256410256372,
+      0.569871794871799
+    ],
+    "minimum_q_pair": 0.03910256410256372,
+    "a2": -0.14999999999999994,
+    "a4": -1.1679459482882818e-15,
+    "I90": 1.0750000000000004,
+    "P90": 0.20930232558139694,
+    "mean_m2": 22.616666666666447,
+    "max_constraint_residual": 1.1679459482882818e-15
+  },
+  "old_central_M1E2_witness_optional_bound_violation": {
+    "mean_m2": 75.84886767949168,
+    "optional_limit": 47.916666666666664
+  },
+  "scope": {
+    "conditional_input_design_not_source_orientation_measurement": true,
+    "no_newexperimental_parity_or_delta": true,
+    "no_Gaussian_width_fitted": true,
+    "post_results_design": true
+  }
+}

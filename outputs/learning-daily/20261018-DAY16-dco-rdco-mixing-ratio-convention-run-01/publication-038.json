@@ -1,0 +1,26 @@
+{
+  "publication_index": 38,
+  "at": "2026-10-19T10:10:57.396975+08:00",
+  "branch": "main",
+  "subject": "Audit DAY16 clover calibration parent and matched companion observables",
+  "commit": "ef88064b066071188ac1fe3c61cc24ac92f31f43",
+  "origin_main": "ef88064b066071188ac1fe3c61cc24ac92f31f43",
+  "status": "published",
+  "commands_actual_all_exit0": true,
+  "push_observation": {
+    "cmd": [
+      "git",
+      "push",
+      "origin",
+      "HEAD:main"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 5a4359b9        \nTo gitee.com:chx6/silicon_graduate.git\n   8e7f765..ef88064  HEAD -> main\n"
+  },
+  "manifest_matches_actual_commit": true,
+  "native_goal_status_observed": "blocked",
+  "scientific_work_status": "pursuing",
+  "research_deadline": "2026-10-19T15:00:00+08:00",
+  "credit_retained_once": "formal16/next17/count16,partial17"
+}

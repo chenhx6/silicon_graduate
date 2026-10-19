@@ -207,3 +207,11 @@ L26-19原件p7的positive E1+M2 ΔJ0例句与p8 Table3 negative冲突；在其Fi
 ### 正不对称仍需同跃迁AD排竞争EM混合
 
 [[palit-2000-rh99-clover-polarimetry]] P00-4/5的Rh991117 Δ=.05(.03)、Pexp=.37(.21)在作者Fig4既可交largeδ M1+E2也可交nearlypureE1+M2，作者再用15/45/75/90°AD选后者并报δ=.015(.055)。本run不重拟其phase/ADCov或授独立唯一性；这与SU59替代AD仍留双解共同说明companion要绑定实际transition/response/模型。
+
+
+### 三个观测均值不等于已知联合区间
+
+[[rh99-1117-population-feasibility]]以[[palit-2000-rh99-clover-polarimetry]] P00-14的实际摘要、声明point/freepositivepopulation模型，给M1/E2与E1/M2在边际box内strictq witness。exactcentral另求全部quadratic根再作momentconvex检查，避免grid0命中误排isolatedroot。结果不充sourceδ/CI/parity；alignment/response与a2-a4-P的Cov仍是必要companion。
+
+
+Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证同发射态u2≤0，则该point/sourcebox下sameParityM1/E2的P全域上界约.04364，低于box.16。未验证的取向符号仍是额外假设，不借其它reference核素或reaction名称代替；自由正q的原多解结果继续保留。

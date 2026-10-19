@@ -1,3 +1,17 @@
+# 最新checkpoint039
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改。科学pursuing；nativegoal实返blocked且工具无active写法，objective保留、不新建。formal16一次next17/count16、partial17，不正式17/不开18；Farmer42019保留。
+
+039 verification033实际report/card/唯一writeback60changed/60items、boundary/lint/diff0，0errors186warnings(135key48raw3parser)，原人审prefix/Pr135project/raw/PLAN/Bib与旧helpers保持。新canonical rh99-1117-population-feasibility/P00-14/15：实际1117 a2−.16(.01)/a4.01(.01)/P.37(.21)的point/freepositiveq条件模型，网格0未误报无根；全central二次根逐一LP、3个凸包分离证书和3个strictpositivewitness皆actual0。central nativeM1E2根.2931401346可行；source边际box两EMfamily均可行。box非jointCI，nativephase不冒作者δ，不新定宇称。
+
+额外未测low-|m|条件⟨m²⟩≤J(J+1)/3给u2≤0；CG/6j比与kernel逐项核、正平方恒等式证明全δ P_M1E2≤.043642<box.16，pureE1仍可行。四段脚本最终actual0，lowm首版0也保留；原freeq的centralM1E2 witness违反新条件，未被删除。该条件尚无同母态/gate/feeding实验支持，只是companion/falsifier设计，不能因fusion名称认定。
+
+本批稳定指针main / `Bound DAY16 Rh99 population ambiguity and conditional orientation test`，actualhash/H3/push仅publication039/runreceipt。038已actualGitee，指针main / `Audit DAY16 clover calibration parent and matched companion observables`。下一候选为PalitRef8 RaviKumar1994 Rh99原能级结构，查3710同母态是否有真正referencebranch约束u2；尚未选择新source或读正文，先clock/pool/primedrecall冻结。Garg2019/BR/Fe55等terminalbody缺口不原样重试，不用更多toy填窗口。
+
+保护raw/PLAN/Bib/credentials/原review与继承dirty/log；exactmanifest、HEAD+ownlog、cached实际检查再commit、freshfetch/ancestor/dryrun/nonforceH3。研究窗尚有4h余，不因本checkpoint结束。Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+
+# 先前checkpoint（历史）
+
 # 最新checkpoint038
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止/15–16收束不改；科学pursuing，nativegoal实返blocked且工具无active写法，objective不变不新建。formal16一次next17/count16、partial17，不正式17/不开18。Farmer42019保留，无新session/daemon。
@@ -143,3 +157,12 @@ Fe55actualmetadata/UNTitemroute均无body、readiness已保存，未科学source
 源Eq5字面prefactor(E/Eprime)^2、并定义Eincident/Eprimescattered，与usualKN inverse；commonfactor固定角可cancelQ0但finiteangleweights不同。仅literal边界，不认证作者producer错。Na24 1368使用4-2-0系数算P，但具体2756direction/tag/接受ledger未明，不能自行给P=1/6或假calibration坏；独立unconditionalmarginal理论为0，仅必要条件提醒。Fig4reportedmixedbranch偏好取原作者归属，完整Fphase/positivity/ADCov未重建，不重测delta。
 
 下一收contract→sourcequant actualrun→canonical新P00source/关联Garg/inputnote→verify032/pub038。原15:00上海仍近5h，nativegoalblocked差异/科学pursuing/formal16一次partial17保持，不早final。
+
+
+## 当前实际observable正性分析checkpoint039（尚未canonical）
+
+38actualH3/Gitee全部0，hash只publication038/runreceipt。rh99-1117-feasibility-before/contract均冻结，固定P00actuala2=−.16/a4=.01/P=.37及marginalbox[-.17,-.15]/[0,.02]/[.16,.58]；Ji23/2→21/2，12对称m-pair非负q、pointgammaθ90、realnativeδ、无Gaussian。只mathematicalfeasibility，不是jointCI/δfit或原response重放。
+
+v1脚本system/scripts/day16_rh99_population_feasibility.py exec93845 actualexit0：721β-grid/family的sourcebox有sameParity M1E2可行204点(12.75–47.75°,67.75–83.25°)与oppositeE1M2 26点(−2.5–3.75°)，actualwitness在result；无numericLPboundary。exactcentral网格零命中，**不能推连续无解**。原kernel/pureM1/归一/rank/pointreconstruct/EMdual控制过。所有输入/helperhash未改，无toycounts。
+
+见v1后已冻结post-grid rootcheckbefore/contract，明确非事前盲注册；用rank2/4kernel分解将centralP方程变quadratic找全部realδroot，再原LP逐根PSD。新脚本system/scripts/day16_rh99_population_rootcheck.py exec57990需收实际结果（若已完成按tool输出续接），尚不能报central结论。v1原source/data/tolerance不动。只nativecoordinate、不声称与Palit/KS已桥。原deadline15:00仍4h+，scientificpursuing/nativegoalblocked差异/formal16oncepartial17保持。

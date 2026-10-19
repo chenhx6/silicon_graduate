@@ -1,0 +1,192 @@
+{
+  "at": "2026-10-19T10:16:00.609711+08:00",
+  "script_sha256": "4917543d3360f67521b8562bfd09241f5bc02c402ba5768d700f9fb9ffad3430",
+  "contract_sha256": "387923bacb29df901214fcc5f83afc627f3c4217d134885343b36abcd3ce0244",
+  "base_script_sha256": "bf45dd6ea55402cbd51a493da7a2e8ac07c98db8c709c383ad2a1504b54a406a",
+  "v1_source_and_inputs_unchanged": true,
+  "post_grid_check_not_preregistered": true,
+  "rank_decompositions": {
+    "sameParity_M1E2": {
+      "coefficients_A2": [
+        [
+          1.0000000000000002,
+          1.693720219826134e-18
+        ],
+        [
+          0.3714285714285711,
+          -1.1225216987237513e-15
+        ],
+        [
+          -3.5496478698597684,
+          2.3307680761004913e-17
+        ]
+      ],
+      "coefficients_A4": [
+        [
+          -1.931187581644578e-15,
+          1.6522302856800017e-16
+        ],
+        [
+          -7.587600126463598e-16,
+          0.9999999999999998
+        ],
+        [
+          7.0746493599291524e-15,
+          -1.8422575664497665e-17
+        ]
+      ],
+      "coefficients_Q90": [
+        [
+          1.5000000000000004,
+          1.4548574033390227e-16
+        ],
+        [
+          0.5571428571428575,
+          0.6250000000000018
+        ],
+        [
+          1.774823934929885,
+          1.0153039569045174e-17
+        ]
+      ],
+      "maximum_rank_map_error": 4.884981308350689e-15,
+      "central_root_polynomial_ascending": [
+        -0.6347375000000002,
+        2.2344145928799772,
+        -0.2357596428571428
+      ],
+      "roots_complex": [
+        [
+          0.2931401346081888,
+          0.0
+        ],
+        [
+          9.184370798990859,
+          0.0
+        ]
+      ]
+    },
+    "oppositeParity_E1M2": {
+      "coefficients_A2": [
+        [
+          1.0000000000000002,
+          1.693720219826134e-18
+        ],
+        [
+          0.3714285714285711,
+          -1.1225216987237513e-15
+        ],
+        [
+          -3.5496478698597684,
+          2.3307680761004913e-17
+        ]
+      ],
+      "coefficients_A4": [
+        [
+          -1.931187581644578e-15,
+          1.6522302856800017e-16
+        ],
+        [
+          -7.587600126463598e-16,
+          0.9999999999999998
+        ],
+        [
+          7.0746493599291524e-15,
+          -1.8422575664497665e-17
+        ]
+      ],
+      "coefficients_Q90": [
+        [
+          -1.5000000000000004,
+          -1.4548574033390227e-16
+        ],
+        [
+          -0.5571428571428575,
+          -0.6250000000000018
+        ],
+        [
+          -1.774823934929885,
+          -1.0153039569045174e-17
+        ]
+      ],
+      "maximum_rank_map_error": 4.884981308350689e-15,
+      "central_root_polynomial_ascending": [
+        -0.16723750000000007,
+        3.459043107981598,
+        -0.06211678571428554
+      ],
+      "roots_complex": [
+        [
+          0.048389958349496,
+          0.0
+        ],
+        [
+          55.637735268604935,
+          0.0
+        ]
+      ]
+    }
+  },
+  "isolated_central_roots": [
+    {
+      "family": "sameParity_M1E2",
+      "delta_native": 0.2931401346081888,
+      "beta_native_deg": 16.337978549125694,
+      "F2_scalar": -1.0491712287437147,
+      "solver_status": 0,
+      "feasible": true,
+      "q_pair": [
+        0.25706591444058896,
+        0.0,
+        0.41988407623873075,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32305000932068034,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "a2": -0.15999999999999903,
+      "a4": 0.010000000000000004,
+      "I90": 1.0837500000000007,
+      "P90": 0.37000000000000005,
+      "max_constraint_residual": 9.43689570931383e-16
+    },
+    {
+      "family": "sameParity_M1E2",
+      "delta_native": 9.184370798990859,
+      "beta_native_deg": 83.78607809915822,
+      "F2_scalar": -32.871573895176695,
+      "solver_status": 2,
+      "feasible": false,
+      "reason": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "family": "oppositeParity_E1M2",
+      "delta_native": 0.048389958349496,
+      "beta_native_deg": 2.7703793703894033,
+      "F2_scalar": 0.6573351075555849,
+      "solver_status": 2,
+      "feasible": false,
+      "reason": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "family": "oppositeParity_E1M2",
+      "delta_native": 55.637735268604935,
+      "beta_native_deg": 88.97031015453472,
+      "F2_scalar": 755.789794915713,
+      "solver_status": 2,
+      "feasible": false,
+      "reason": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  ],
+  "scope": {
+    "grid_zero_cannot_exclude_isolatedroots": true,
+    "central_roots_not_experimental_confidence_or_delta_refit": true,
+    "Palit_or_KS_phase_coordinate_not_established": true,
+    "no_source_cov_response_or_alignment_recovered": true
+  }
+}

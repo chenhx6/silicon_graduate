@@ -1,0 +1,12 @@
+{
+  "initial_verification_exit": 1,
+  "required_boundary_lint_diff_exits": [
+    0,
+    0,
+    0
+  ],
+  "report_card_valid": true,
+  "writeback_failure": "knowledge page does not directly link source palit-2000-rh99-clover-polarimetry",
+  "corrected_page": "knowledge/observables/multipole-mixing-ratio.md",
+  "change": "added exactdirectsource link alongside existingnote link; no scientificinput/output/status changed"
+}

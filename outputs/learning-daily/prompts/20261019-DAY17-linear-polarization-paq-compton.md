@@ -363,3 +363,11 @@ Garg2015original9页及2019erratum metadata已暴露；其IUAC82MeV/15clovers、
 ### DAY16 checkpoint038额外priming
 
 Palit2000原8页已暴露GargRef32真正方法：Eu a与knownpolarized Q两层、C负号/单位、Rh991117 positiveP仍需AD排竞争EM候选；原Na24directiontag/fitCov缺口保持。正式17回忆需注明；不得将其a≈1/C/D迁作Garg2015响应或2019更正。入口knowledge/sources/palit-2000-rh99-clover-polarimetry.md P00-1–13。
+
+
+### DAY16 checkpoint039额外priming
+
+P00 actual摘要在point/freepositivepopulation下有EMbox多解、centralisolatedroots与convex证书；正式17回忆须注明此priming。marginalbox不是jointCI，native根不是sourceδ/parity重新测量；原response/Cov/布居prior仍缺。入口knowledge/research-notes/rh99-1117-population-feasibility.md与P00-14。
+
+
+Rh99补充priming：P00-15表明同一sourcebox在额外且未测的low-|m|二阶矩条件下可排M1/E2，需独立sameparent/gate/feeding取向证据。不得把此条件写成已测、把代数上界当实验置信度，或删除此前自由正q的多解witness。

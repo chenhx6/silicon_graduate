@@ -163,6 +163,17 @@ actualasolid两shape/usePassive/parser/doc核得coax1.5/back2.5/outer.9mm，恰�
 
 ## Theory/analysis exercise
 
+### Checkpoint039：实际摘要、布居正性与孤立根
+
+[Rh99 note](../../knowledge/research-notes/rh99-1117-population-feasibility.md)把P00 actuala2/a4/P放入明确point/freepositivepopulation模型。冻结12个|m|pair权重q≥0、realnative相邻multipoles、逐marginalbox（非jointCI）；未生成toycounts。
+
+[网格](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-1117-feasibility-result.json)actual0在box内见两EMfamily，但exactcentral网格0命中不能排isolatedroot。因此见结果后明确冻结post-grid[逐根检查](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-1117-rootcheck-result.json)，实际0；再给[convex证书/strictq](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-1117-certificate-result.json)actual0。
+
+centralM1/E2 nativeδ=.293140有strictq；另外三central根因momentconvex分离不可行。box内pureE1 δ0和M1/E2 δ3.73205均有strictq。它们只证明所声明统计盒/模型的数学多解，不能改sourceparity或把nativeδ当reportedδ/实验CI。新note保留所有source/input/hash/tolerance与post-result设计标记，实际response/Cov/alignment仍缺。
+
+
+额外的post-result[lowm检查](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/rh99-1117-lowm-result.json)actual0：若独立给同发射态⟨m²⟩≤J(J+1)/3，则正平方恒等式证明全δ上界P_M1E2≤.043642<原box.16，pureE1仍可行。该额外条件本run未测，故只提供companion/falsifier，不作新parity；自由正q多解、旧witness与先前结果保留。
+
 ### Checkpoint038：Garg方法原件与同跃迁伴随观测
 
 新[Palit2000](../../knowledge/sources/palit-2000-rh99-clover-polarimetry.md) P00-1–13，实际publisher200/8页/4图/Table1/Eq1–11完整原读，精确为GargRef32。a来自Eu/约1.00(.03)，Qfit来自knownpolarizedreference/386–1368keV，C=−.000099(.000007)keV^-1/D=.446(.006)；原图核C/a2/H4负号，未用OCR错值。
@@ -560,6 +571,8 @@ pointgate本批 `limits`仅以角色不同就推physicalP不同的强断言：pu
 `supports` DCO多解与phase/response合同；`revises` 不分gate角色直接联合同名R的做法；`limits` 偏振符号挑根和pure reference认证全部相位。没有新Jπ、B值、wobbling/chirality结论；178W条件计算不外推A≈130。本轮按当前池/唯一Day17预习持续重查公开来源和必要输入；各问题保留原始response/producer/Σ及未得正文边界，当前原研究窗口继续，不由同一模型重复或标签复用补成确定结论。
 
 ## Durable knowledge delta
+
+[Rh99条件note](../../knowledge/research-notes/rh99-1117-population-feasibility.md)“实际观测摘要与布居正性：可行模型不是新实验δ”保存实际source输入、严格正q和convex/孤立根失败控制；P00-14与方法/synthesis存使用合同，模型结果不升实验。
 
 新[Palit source](../../knowledge/sources/palit-2000-rh99-clover-polarimetry.md)“先区分几何a与偏振Q，再解释同跃迁的伴随观测”及Compton/asymmetry/Garg/inputnote/synthesis保存primary校准/companion、单位与缺口合同。
 
@@ -968,7 +981,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
+      "summary": "最小索引新增178W921计算单导航，不添加独立科学结论。 新增固定ALPACA独立实现/观测对象边界。 新增原ENSDF章/total-decay和MR字段边界。 加入ICC概率物理域方法入口。 新增公开DELTAactualrun/误差与数值failure边界。 新增104Mo评价时层/target身份及标签使用边界。 加入Morse新primary与25Na1041 durable ledger导航。 加入A25官方对象/历史版本入口。 新增UCGretina固定公开代码入口。 加实际Eu152 sourcecalibration数据入口。 G411新批补入truth/geometry实际控制与历史源response边界。 Riley2021原件已另读并核当前模型/原论文响应迁移边界。 Co60 gate/source与选择对象控制和原producer缺口已关联。 补Ni60官方reference/共同δ误差与actualSDK总分支归一，保留primaryphase缺口。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补135Pr实测角组、a≠Q、oldoriginal/erratum和官方同名字段版本边界。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。",
       "anchor": "w178-921-dco-gate-double-solutions",
       "sources": [
         {
@@ -1306,6 +1319,10 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-13"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
         }
       ]
     },
@@ -2445,7 +2462,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
-      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
+      "summary": "区分GammasphereA与genericclover计数式，链接实际data/eta/Q共同校准与sourcebound，不扩展sourceparity结论。 新增同一A/σ的nonstretched E1与stretched M1真实反例，保留DCO门/能级/选样身份。 新增真实同号A0双支、source例句/Table3冲突与needs-review边界。 补Jones2002校准态节点、reference母态身份及有稳定性条件的cross-ratio。 补T21原11页/空间ν/独立Ba与sharedKr、能区排序和同平面cos2反序控制。 补B15真实CE/Cs参考/modelP/finitegeometry与literal计数符号、单位、平均误差和F分母的保留边界。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补FH59原件的plane轴/p-R-count字典、sameE3不同布居与review版本/独立性边界。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。",
       "anchor": "双分段Gammasphere的A须随定义携带Q",
       "sources": [
         {
@@ -2711,6 +2728,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-13"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-15"
         }
       ]
     },
@@ -2874,7 +2899,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
-      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。",
+      "summary": "新增ENSDF原相位/format与total-decay条件权重；Radiative、电子与总衰变权重：同符号不等于同对象 新增RZ17实际参数的概率测度/producer和尾部边界。 新增先相位后版本及字段参考flag的真实A25案例。 补原Jones1998 α–γ/electron主线、source版本/phase/同能标母态与共同误差边界。 补223Ra真实unsignedMR、multipletflag/NR、同源与分母合同，并显式纠正冻结回忆的终态误认。 新增SU59原normal/plane坐标桥、固定效率取消边界及同跃迁偏振未必排双解的原作者反证。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。",
       "anchor": "Radiative、电子与总衰变权重：同符号不等于同对象",
       "sources": [
         {
@@ -2976,6 +3001,26 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
           "locator": "SEH59-12"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
         }
       ]
     },
@@ -4936,7 +4981,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -5098,6 +5143,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-13"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-15"
         }
       ]
     },
@@ -5618,7 +5671,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
-      "summary": "完整8页原读，新增P00-1–13与实际校准/正P双EM候选及companion；Q/单位/Cov和literalKN边界实际复算，不替Gargactualresponse/2019body。",
+      "summary": "完整8页原读，新增P00-1–13与实际校准/正P双EM候选及companion；Q/单位/Cov和literalKN边界实际复算，不替Gargactualresponse/2019body。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。",
       "anchor": "先区分几何a与偏振Q，再解释同跃迁的伴随观测",
       "sources": [
         {
@@ -5672,6 +5725,45 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-13"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/rh99-1117-population-feasibility.md",
+      "summary": "以实际P00摘要、明确point/freepositivepopulation和边际box检验EM候选；保留strictq、centralquadratic roots与convex证书、post-grid设计及缺失真实Cov/response。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。",
+      "anchor": "实际观测摘要与布居正性：可行模型不是新实验δ",
+      "sources": [
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-4"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-5"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-8"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-11"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-14"
+        },
+        {
+          "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+          "locator": "P00-15"
         }
       ]
     }
@@ -5934,3 +6026,10 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 [verification-reopened-032](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-032.json)实际report/card/唯一writeback59changed/59items通过，boundary/lint/diff各exit0；0errors186warnings（135key48raw槽3parser）。P00actualPDF/contract/script/result与旧humanprefix/Pr135project旧prefix/PLAN/Bibguards均过。
 
 发布稳定指针main / `Audit DAY16 clover calibration parent and matched companion observables`，actualhash/H3/push仅publication038/runreceipt。科学继续pursuing至原2026-10-19 15:00上海，formal16一次/partial17/next17count16不改，nativegoalblocked差异如实记录。下一有界phys-model分析只检当前实际source输入的非负布居可行性，未预报解或实验置信度。
+
+
+### Checkpoint039实际验收与同母态取向输入
+
+[verification033](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-033.json)实际report/card/唯一writeback60changed/60items、boundary/lint/diff均exit0，0errors/186warnings（135citation-key、48raw槽、3reactionparser）。全部旧reviewprefix、Pr135project人审prefix、原raw/PLAN/Bib及四段Rh99脚本/旧helper/合同哈希保持；lowm首版0快照及最终正平方/kernel桥核验也通过。第一次writeback直接source链接遗漏已留失败回执，补链接后通过，未改物理输入。
+
+新[Rh99知识单](../../knowledge/research-notes/rh99-1117-population-feasibility.md)和P00-14/15分别保留自由正q多解与额外未测取向条件的falsifier。需要的companion已缩到同发射态、同门/feeding定义的u2符号；跨核素的Q校准不提供它。本批稳定指针main / `Bound DAY16 Rh99 population ambiguity and conditional orientation test`，actualhash/H3/push仅publication039/runreceipt。原2026-10-19 15:00上海研究截止不改，科学pursuing/nativegoalblocked差异如实记录；formal16一次、partial17、next17/count16保持。下一先刷新clock/pool，再评估原Rh99结构文中的sameparentreference，不以本checkpoint提前结束。

@@ -1,0 +1,92 @@
+{
+  "at": "2026-10-19T10:11:14.388570+08:00",
+  "identity": "RH99-1117-ACTUAL-OBSERVABLE-FEASIBILITY-01",
+  "source_primary": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+  "source_sha256": "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387",
+  "Ji2": 23,
+  "Jf2": 21,
+  "E_gamma_keV": 1117,
+  "families": {
+    "sameParity_M1E2": [
+      [
+        "M",
+        1
+      ],
+      [
+        "E",
+        2
+      ]
+    ],
+    "oppositeParity_E1M2": [
+      [
+        "E",
+        1
+      ],
+      [
+        "M",
+        2
+      ]
+    ]
+  },
+  "delta_coordinate": "beta_deg=arctan(delta_native); amplitude vector(cosbeta,sinbeta), explicit nativephase from existingphotonkernel; no Palitx/KSsignequivalence asserted",
+  "population": "12 symmetric+/-m pairs ofspin23/2, q>=0, sumq=1; no Gaussian prior, no fit to unknownsourceevents",
+  "observation_basis": "4pi normalized single-photon I(theta)=1+a2P2(cosθ)+a4P4(cosθ); P90=Q90/I90 in plane-axis Jones basis",
+  "source_central": {
+    "a2": -0.16,
+    "a4": 0.01,
+    "P90": 0.37
+  },
+  "source_margin_box": {
+    "a2": [
+      -0.17,
+      -0.15
+    ],
+    "a4": [
+      0,
+      0.02
+    ],
+    "P90": [
+      0.16,
+      0.58
+    ]
+  },
+  "box_is_not_joint_confidence_interval": true,
+  "grid": {
+    "start_deg": -90,
+    "stop_deg": 90,
+    "step_deg": 0.25,
+    "include_exact_pure_endpoints": true
+  },
+  "quadrature_nodes": 12,
+  "LP": {
+    "method": "highs",
+    "primal_tolerance": 1e-09,
+    "dual_tolerance": 1e-09,
+    "witness_residual_acceptance": 1e-08,
+    "objective": "zero feasibility, notchi2 minimization",
+    "modes": [
+      "exactcentral",
+      "marginalbox"
+    ]
+  },
+  "predeclared_controls": [
+    "pureeachmultipole integralI=1 andcrossintegral0",
+    "allbasisLegendrecoeffexactrank<=4; reconstructI90 froma2/a4",
+    "PSD via nonnegativepairq; allpointStokesphysical, no clipping",
+    "beta endpoints are samepureupper up toglobalphase",
+    "countsofgridfeasiblepoints notexperimentcredit orprobability",
+    "afterLP verifywitnessreproducesdeclared constraints; failedtolerance reported as numericalboundary"
+  ],
+  "fixed_helper_hashes": {
+    "system/scripts/day16_co60_conditional_stokes.py": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
+    "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198",
+    "system/scripts/day16_ucgretina_stokes_oracle.py": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598"
+  },
+  "forbidden_inferences": [
+    "newexperimentalδfit/CI",
+    "sourceactualQ/feeding/alignment recovered",
+    "PalitreportedE1M2δsign mappedwithoutoperatorbridge",
+    "physicalisotopeparityreassigned"
+  ],
+  "no_toy_counts_generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-19T10:20:24.358548+08:00",
+  "identity": "RH99-1117-MOMENT-CERTIFICATE-01",
+  "base_contract": "rh99-1117-feasibility-contract.json",
+  "base_contract_sha256": "c814eebcb74eb495d21bf8ec32c9fdbdbd7b145f4bbc4fc1e197a812adbfbaca",
+  "root_result": "rh99-1117-rootcheck-result.json",
+  "root_result_sha256": "2a8b745d1f2364f2fbc0721c9c128dad47361f1644b13f854996e01e38488210",
+  "design_is_after_v1_and_rootcheck": true,
+  "certificate": "Convex hull of12physicalpair(A2pureM1,A4pureE2) points. For infeasiblefixedcentral roots give an inequality satisfied by everyvertex but violatedbyrequiredmoments; validate separation margin, not only solverstatus.",
+  "strict_witness": "Maximise epsilon with every q_i>=epsilon and sameobservables; not statisticalfitting or deltaoptimization.",
+  "witness_requests": [
+    {
+      "family": "sameParity_M1E2",
+      "mode": "exactcentral",
+      "delta": "use existing feasiblecentralroot unchanged"
+    },
+    {
+      "family": "oppositeParity_E1M2",
+      "mode": "marginalbox",
+      "beta_deg": 0
+    },
+    {
+      "family": "sameParity_M1E2",
+      "mode": "marginalbox",
+      "beta_deg": 75
+    }
+  ],
+  "LP_tolerances_unchanged": true,
+  "source_or_box_changed": false,
+  "forbidden": "No confidence/exclusion probability, actualalignment or parityassignment. Positiveq is a modelwitness, not a measuredpopulation."
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T10:15:47.698303+08:00",
+  "session_id": 93845,
+  "exit_code": 0,
+  "script": "system/scripts/day16_rh99_population_feasibility.py",
+  "script_sha256": "bf45dd6ea55402cbd51a493da7a2e8ac07c98db8c709c383ad2a1504b54a406a",
+  "result_matches_script": true,
+  "v1_grid_is_not_exactcentral_root_exclusion": true,
+  "grid_exactcentral0_needs_rootcheck": true,
+  "source_inputs_unchanged": true,
+  "experiment_refit": false
+}

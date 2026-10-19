@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-19T10:29:18.387816+08:00",
+  "identity": "RH99-1117-OPTIONAL-LOWM-BOUND-01",
+  "base_contract": "rh99-1117-feasibility-contract.json",
+  "base_contract_sha256": "c814eebcb74eb495d21bf8ec32c9fdbdbd7b145f4bbc4fc1e197a812adbfbaca",
+  "root_result": "rh99-1117-rootcheck-result.json",
+  "root_result_sha256": "2a8b745d1f2364f2fbc0721c9c128dad47361f1644b13f854996e01e38488210",
+  "explicit_new_condition": "beam-axis <m^2> <=J(J+1)/3; optional low-|m| preparation condition, not established by source or covariance. Weaker than choosing Gaussian width but stronger than arbitrary positive symmetricq.",
+  "question": "Whichadditionalorientationcondition excludesalternativeEMwitnesses under the same publishedmarginalbox?",
+  "tests": [
+    "verify pureM1 A2_i = (3m_i²-J(J+1))/(2J(2J-1)) on everybasispoint",
+    "derive exactangular6j/CG F22/F11 and squaredF12/F11 magnitudes to crosscheck kernelcoef ratios; no operatorphaseassertion from sign",
+    "bound Q90 for sameParity givena2<0 andlowMcondition: F2mix mustpositive. Find global minimum of G2/F2 on F2>0, then maximizebound over sourceboxcorners",
+    "check E1pure hasstrictpositiveq withlowM and sourcebox; show arbitraryfreeM1E2witness violatesoptionalmeanbound",
+    "no re-tunederrorbox/tolerance/sourceinputs or Gaussianfit"
+  ],
+  "fixed_source_and_scope": "No actualorientationmeasurement or parityassignment; conditional analyticfalsifier/design only",
+  "post_results_design": true
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T10:24:25.154166+08:00",
+  "session_id": 63387,
+  "exit_code": 0,
+  "script": "system/scripts/day16_rh99_population_certificate.py",
+  "script_sha256": "859add2b2c798125316a0860bec67ac23404b7b7c479972dc6baabed9058c393",
+  "result_matches": true,
+  "strictlypositive_witnesses": 3,
+  "separation_certificates": 3,
+  "source_model_and_LP_tolerances_unchanged": true,
+  "not_experiment_confidence_or_refit": true
+}
