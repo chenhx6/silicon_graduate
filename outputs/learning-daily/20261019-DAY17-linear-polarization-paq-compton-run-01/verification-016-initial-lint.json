@@ -1,0 +1,23 @@
+{
+  "exit_code": 1,
+  "counts": {
+    "error": 2,
+    "warning": 199,
+    "info": 2650
+  },
+  "errors": [
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "message": "missing raw_sha256"
+    },
+    {
+      "severity": "error",
+      "code": "SHA256_FORMAT",
+      "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "message": "raw_sha256 must be 64 hex characters"
+    }
+  ],
+  "classification": "newsource missingrequired raw_sha256; addactualpublicPDFhash while reservedrawslot remainsunfilled; no rawwrite"
+}

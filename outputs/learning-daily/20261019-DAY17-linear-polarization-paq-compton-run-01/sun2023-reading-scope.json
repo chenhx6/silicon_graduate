@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-19T12:27:38.433507+00:00",
+  "actual_body": "arxiv2203.10336v2/9Nov2022, dated10Nov2022, 10pages",
+  "pdf_sha256": "f19bb23761529d355efbe83e5a8063f4e99a9c43bd65cc906604d129aad55b34",
+  "mainline_read": "all10pages includingreferences, 5figures, TableI, Eqs1–3",
+  "visual_detail_pages": [
+    2,
+    4,
+    5,
+    6,
+    7
+  ],
+  "source_tex_targeted": "literalpriors/Eq3 and Ref76; originalarchive maintex/sixEPS only",
+  "supplement_read": false,
+  "Vor_body_acquired": false,
+  "actual_counts_training_response_posterior_draws_acquired": false,
+  "next_code": "MADAI public2015commit9f9ee0... obtained; Model.cxx/GPEmulatedModel.cxx/README fullread; remaining callpath/config/componentexecution pending; notpaperexactproducer",
+  "uncredited_preview_day": 18,
+  "formal_day": 17
+}

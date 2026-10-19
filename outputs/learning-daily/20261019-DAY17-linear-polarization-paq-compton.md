@@ -165,6 +165,18 @@ Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、dow
 
 反证：fulltailbelowgate仅免去截快tail的一类selectionbias，不消sidefeeding；5%与最高15%预算不同、未给Σ不拼独立Gaussian；B/Qt/其它band标尺同链派生不计独立测量。实际lineshape/events/response/feeding/Σ仍缺，没有新L4τ/B/Qt或实验CI。今日formal17不变，partial18仅知识预习，课程next17/count16暂保持，最终也只允许17信用。
 
+### Sun2023原primary：仍为恰好Day18知识preview
+
+[[../../knowledge/sources/sun-2023-bayesian-dsam-31s]]实际原读arxiv2203.10336v2/9Nov2022十页、五图一表三式及reference；关键图/公式/表视觉核，[scope](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-reading-scope.json)明确不是已得2023VoR/SI。官方src仅maintex/六EPS，publisherFULL401/discovery无candidate，未补actualcounts/训练网格/GPstate/后验样本；原版本/共享数据依赖分开。来源前primed回忆先冻，全文不是从review赞许替代。
+
+SUN23-6–10：positiveτprior、Eγ/bkg/sp的restrictiveGaussian与A2uniform/A4zero、Gaussianbinlikelihood和PCA/GP/MCMC是实际分析合同；作者明确nuisancepriors强烈影响posterior。Eq3只印quadraticexp，若Σ随参数变完整Gaussian还需normalizer；actualtailoredcode未得，不称作者代码错。公开MADAI固定2015commit仅上游待核对象，首两个Model/GPModel文件与README已原读、原样component执行尚待，不能冒称paperproducer。
+
+SUN23-10/11：有限值来自16/50/84quantile，四上限来自90thquantile；6390的4156线低统计、作者说无finiteconstraint，20fs/Γ>33meV/strengthlowerlimit是条件影响链，非第五项正式90%bound。下一actualSI/likelihood/prior尾部输入才有信息，不能把chainstep数当独立认证。
+
+[新rate合同](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-contract.json)/[程序](../../system/scripts/day17_sun2023_rate_boundary.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-result.json)用真实reportedτ1.120(.180)ps与**USDB模型**E2partial6.9ps：τM1≈1.337024ps，固定model的local尺度.256516ps，现代单位/rounded1248给B(M1)≈.021883µN²、RME≈.295858µN。模型E2centralrate占约16.232%，不因dominantM1就删除；这不是新测δ、原posterior或completeCI。20fs仅条件单位核≈32.9106meV，未认证6390统计上限。可复用链已补[[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]与DSAM方法；原reviewWC23flags保持。
+
+正式17已在007实际发布后仅一次对账为next18/count17；见[creditreceipt](20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json)。**run/nativegoal仍active至原研究截止**，此段只18无学分方法preview，不启动formal18/不打开19。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -384,6 +396,18 @@ Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、dow
         {
           "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
           "locator": "N207-6"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-7"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-11"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-13"
         }
       ]
     },
@@ -730,6 +754,18 @@ Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、dow
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-1"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-7"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-11"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-13"
         }
       ]
     },
@@ -757,6 +793,18 @@ Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、dow
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-8"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-7"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-11"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-13"
         }
       ]
     },
@@ -768,6 +816,60 @@ Hutter2002只metadata/来源前回忆，未得body；publisher无candidate、dow
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
           "locator": "MU08-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "summary": "原读2022v2十页/5图1表3式，actualprior/likelihood/GP与quantile、6390conditional应用及USDB辅助M1提取分层；未得SI/actualinput/paperproducer。",
+      "anchor": "Bayesian DSAM首先要问likelihood与prior合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-6"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-7"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-9"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-10"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-11"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-12"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-13"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md",
+      "summary": "保留旧reviewscope/claimflags，把当时未摄入Sun的历史边界回链现在原读primary；不升原review为独立验证。",
+      "anchor": "2026-10-19 primary follow-up boundary",
+      "sources": [
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-9"
+        },
+        {
+          "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+          "locator": "SUN23-15"
         }
       ]
     }
@@ -826,3 +928,9 @@ Resume：`codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -
 [verification-015](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-015.json)实际report/coverage/唯一writeback18changed与19mapped(另含未改LKH82source)、boundary/lint/diff全部exit0，0errors197warnings；旧J01五行/MU08十九匹配行与review保持。014初contract验收的双partial和直接source链接缺口、初schema缺Assumptions均保留；现在17实际卡交付齐且001–006已发布、[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在，按证据完成17卡、只18partial，未放宽解析器或授18。
 
 本批稳定指针main / `Complete DAY17 card and preserve uncredited DSAM preview`，actualhash/H3/push与仅一次课程对账只本runreceipt。**原研究窗口/nativegoal继续active**，不以完成课程卡结束整日。下一Sun2023已合法下载arxiv2203.10336v2/9Nov2022十页（不是2023VoR），当前仅PDF1/abstract/introstart；完整主线、方法/图式和actual公开input核验待续，不能把二级review或download当primary方法验证。
+
+### checkpoint008 primary与一次学分对账
+
+007已实际H3/Gitee push，之后[card-credit-007](20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json)才把course从next17/count16推进到next18/count17，且append-only保存同session索引；只formal17，18preview无学分，原runner正常exit未观察，不伪造成功收束。research/nativegoal仍active。
+
+[verification-016](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-016.json)实际report/唯一writeback20changed/21mapped/coverage/boundary/lint/diff均exit0，0errors199warnings＝141key54raw4parser；旧WC23十四claim/review/PLAN/Bib保持。初newsource缺rawhash已修且真实failure保留，reservedrawslot仍缺不写raw。稳定指针main / `Ingest Bayesian DSAM primary and audit model-assisted strengths`，actualhash/H3/push只publication008。下一actualMADAIcomponent/配置待核；源码已读部分不冒称编译通过或paperexactproducer，原15:00窗口不结束。

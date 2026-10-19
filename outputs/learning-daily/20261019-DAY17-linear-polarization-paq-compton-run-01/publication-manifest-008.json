@@ -1,0 +1,39 @@
+{
+  "subject": "Ingest Bayesian DSAM primary and audit model-assisted strengths",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md",
+    "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+    "system/scripts/day17_sun2023_rate_boundary.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-milestones/2026-09-one-month-state.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-007.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-016.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-016-initial-lint.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-008.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-before-code-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-commit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-component-dependencies.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-selected-downloads.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-tree.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-publisher-access-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-publisher-full-attempt.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-source-si-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-madai-before-code.md"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inherited dirty, PLAN/raw/Bib/credentials/tmp/daemon; log HEAD+own008 only; canonical scheduler append keptlocal, exactcreditreceipt published"
+}

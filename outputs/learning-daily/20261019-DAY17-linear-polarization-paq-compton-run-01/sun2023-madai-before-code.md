@@ -1,0 +1,5 @@
+# MADAI公开代码前问题冻结
+
+已读Sun原v2十页主线、5图/1表/3式；Eq3仅印exp(−residual²/2σ²)，σ含emulator误差且可能随x变。正文称tailoredMADAI，只有Ref76项目站，不提供papercommit/实数据。公开repo发现MADAI/DistributionSampling，不当作已识别paperproducer。
+
+待核：原publiccode是否保留Gaussian logdet/normalizer、model/emulator和观测Cov如何加入、数据维/PCA边界、priorsphysicaldomain与finitegrid、实际nuisance变换/setting会否影响这条路径。若publiccode已有logdet，是对字面公式疑虑的必要反证；无exactpaperinput依然不能证明作者实际用了它，不能将printedapprox判sourceerratum。先固定commit/files/hash再读；不补actualcounts/templates/posteriordraws或生成原实验CI。

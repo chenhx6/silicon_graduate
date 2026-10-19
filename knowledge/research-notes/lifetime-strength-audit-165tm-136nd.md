@@ -116,6 +116,12 @@ MU08原Qt公式/轴的直接出处或实际code仍待新原件/producer；candid
 
 运行`PYTHONPATH=/workspace/wiki/tmp/day16-jt74/python-deps python3 system/scripts/day17_day18_lifetime_strength_audit.py --contract outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/day18-lifetime-strength-contract.json --output tmp/day18-strength-audit-replay.json`。原raw/hash不变，不把已有source深读状态改成新信用。
 
+## 31S的Bayesian方法companion：model扣除仍需分层
+
+[[sun-2023-bayesian-dsam-31s]] SUN23-6–13为本preview新增实际primary：restrictivepriors/GP/Gaussianlikelihood与16/50/84quantile、90th上限合同都可原件核，而actualSI/paperproducer/训练input仍缺。其αtransfer门不是165Tm/136Nd的belowγgate；不可裸搬模型。
+
+1248态的τ=1.120(.180)ps用于M1提取时，作者另用USDB E2partialτ=6.9ps作rate扣除：τM1=t e/(e−t)≈1.33702ps，固定model时local尺度≈.25652ps，现代单位/roundedE给B(M1)≈.021883µN²、RME≈.295858µN。原作者称experimentalB，但这里含modelE2条件（central约16.232%totalrate）；模型σ/Cov未给，不称completeCI。源6390的20fs仅条件width单位转换≈32.9106meV，不升级为reported90%limit。新[合同/结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-result.json)不造实验后验。
+
 ## Human Review
 
 原J01与MU08所有claimflags保持；新claims均needs_review，未设置human-reviewed。研究边界由Codex自审追踪，不自动变成用户待办。

@@ -1,0 +1,32 @@
+{
+  "identity": "SUN23-MODEL-SUBTRACTED-RATE-01",
+  "source_hashes": {
+    "tmp/day17-sun2023/PDFs/First_application_of_Markov_chain_Monte_Carlo-based_Bayesian_data_analysis_to_the_Doppler-shift_attenuation_method.pdf": "f19bb23761529d355efbe83e5a8063f4e99a9c43bd65cc906604d129aad55b34",
+    "tmp/day17-sun2023/source-selected/S31arXiv.tex": "7d6a97fbdd67a838299532221cd3890a3bf81410a4dbb9e087f41519a5351648"
+  },
+  "tau_mean_ps": 1.12,
+  "tau_reported_scale_ps": 0.18,
+  "tau_E2_USDB_model_ps": 6.9,
+  "E_gamma_rounded_MeV": 1.248,
+  "Ji2": 3,
+  "modern_C_M1": 0.0568709756,
+  "hbar_eV_s": 6.582119569e-16,
+  "illustrative_tau_fs": 20,
+  "author_reported": {
+    "tau_M1_ps": 1.33,
+    "tau_M1_sigma_ps": 0.26,
+    "B_M1_muN2": 0.022,
+    "B_M1_sigma": 0.004,
+    "RME_abs_muN": 0.3,
+    "RME_abs_sigma": 0.03,
+    "locator": "arxivv2 PDF6 SecV"
+  },
+  "assumptions": [
+    "onlyM1/E2 totalradiativewidth, dominantgammabranch as declared diagnostic; no newICC/branch inventory established",
+    "E2partialtau6.9ps is USDBmodel, heldfixed only for conditional derivative; no uncertainty supplied for model",
+    "tau1120(180) is sourceposterior16/50/84quantiles; linear sigma propagation here not originalposterior transformation",
+    "roundedE1248keV not original literature exactenergy prior; modernunitconstant separate from authors historicalconstant",
+    "20fs only conditional Eqwidth conversion; source says nofinite6390 lifetimeconstraint, not one ofTableI90percentbounds",
+    "formal17 only; uncredited18preview; not modelpromotion to experimentalfact"
+  ]
+}

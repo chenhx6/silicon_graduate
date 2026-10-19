@@ -1,0 +1,66 @@
+[
+  {
+    "path": "README.txt",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/README.txt",
+    "status": 200,
+    "bytes": 3364,
+    "sha256": "5cbb0c64ddf3920d6f0a84cb6484402194617faf1ab7bb9a547754a3470a4aee",
+    "local": "tmp/day17-madai/README.txt"
+  },
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/LICENSE",
+    "status": 200,
+    "bytes": 1608,
+    "sha256": "2c545f9cefdcd1eff3f20c6c35a866667540f79e46ad49de082c595902c689f5",
+    "local": "tmp/day17-madai/LICENSE"
+  },
+  {
+    "path": "src/Model.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Model.cxx",
+    "status": 200,
+    "bytes": 15641,
+    "sha256": "1784476b861fd4d74cd0d747d41c57541cac897965947b1e89aa116e8642882f",
+    "local": "tmp/day17-madai/src/Model.cxx"
+  },
+  {
+    "path": "src/Model.h",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Model.h",
+    "status": 200,
+    "bytes": 11924,
+    "sha256": "b61e38ba530f046f5e0fe46dcded87deab0a5598fe8f580f2ec4a0533ab20a80",
+    "local": "tmp/day17-madai/src/Model.h"
+  },
+  {
+    "path": "src/GaussianProcessEmulatedModel.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/GaussianProcessEmulatedModel.cxx",
+    "status": 200,
+    "bytes": 8895,
+    "sha256": "878a33c6a75b2f72dcbaee58e2c37c83a22c1c623403d7cad8fc5e091b7fcee7",
+    "local": "tmp/day17-madai/src/GaussianProcessEmulatedModel.cxx"
+  },
+  {
+    "path": "src/GaussianProcessEmulatedModel.h",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/GaussianProcessEmulatedModel.h",
+    "status": 200,
+    "bytes": 4543,
+    "sha256": "40c1317afb76954800c4554d6af1b76674ddd66543db188a1a38b95192b72965",
+    "local": "tmp/day17-madai/src/GaussianProcessEmulatedModel.h"
+  },
+  {
+    "path": "src/Sampler.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Sampler.cxx",
+    "status": 200,
+    "bytes": 8907,
+    "sha256": "fe3c87ef652d85ec5c06308e02e537546fcba5ea5d3500b9835f5d135910f843",
+    "local": "tmp/day17-madai/src/Sampler.cxx"
+  },
+  {
+    "path": "src/MetropolisHastingsSampler.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/MetropolisHastingsSampler.cxx",
+    "status": 200,
+    "bytes": 4126,
+    "sha256": "b39c64a1600a105399c31d81476f0f918c91a366e77a3d354bfd78a55f833af4",
+    "local": "tmp/day17-madai/src/MetropolisHastingsSampler.cxx"
+  }
+]

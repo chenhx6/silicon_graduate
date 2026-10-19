@@ -1,0 +1,88 @@
+{
+  "url": "https://api.github.com/repos/MADAI/DistributionSampling/commits?per_page=1",
+  "status": 200,
+  "metadata": [
+    {
+      "sha": "9f9ee0dac704d77492d9905b4d90a57746201912",
+      "node_id": "MDY6Q29tbWl0MTM5ODg5NzY6OWY5ZWUwZGFjNzA0ZDc3NDkyZDk5MDViNGQ5MGE1Nzc0NjIwMTkxMg==",
+      "commit": {
+        "author": {
+          "name": "Evan Sangaline",
+          "email": "esangaline@gmail.com",
+          "date": "2015-03-25T14:07:01Z"
+        },
+        "committer": {
+          "name": "Evan Sangaline",
+          "email": "esangaline@gmail.com",
+          "date": "2015-03-25T14:07:01Z"
+        },
+        "message": "Modified the resolving power template to save images as separate files. The filesize was just too large otherwise.",
+        "tree": {
+          "sha": "883f246be5119cc2ea4e7f6f38f49ff517ae2703",
+          "url": "https://api.github.com/repos/MADAI/DistributionSampling/git/trees/883f246be5119cc2ea4e7f6f38f49ff517ae2703"
+        },
+        "url": "https://api.github.com/repos/MADAI/DistributionSampling/git/commits/9f9ee0dac704d77492d9905b4d90a57746201912",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MADAI/DistributionSampling/commits/9f9ee0dac704d77492d9905b4d90a57746201912",
+      "html_url": "https://github.com/MADAI/DistributionSampling/commit/9f9ee0dac704d77492d9905b4d90a57746201912",
+      "comments_url": "https://api.github.com/repos/MADAI/DistributionSampling/commits/9f9ee0dac704d77492d9905b4d90a57746201912/comments",
+      "author": {
+        "login": "sangaline",
+        "id": 8236564,
+        "node_id": "MDQ6VXNlcjgyMzY1NjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8236564?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sangaline",
+        "html_url": "https://github.com/sangaline",
+        "followers_url": "https://api.github.com/users/sangaline/followers",
+        "following_url": "https://api.github.com/users/sangaline/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sangaline/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sangaline/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sangaline/subscriptions",
+        "organizations_url": "https://api.github.com/users/sangaline/orgs",
+        "repos_url": "https://api.github.com/users/sangaline/repos",
+        "events_url": "https://api.github.com/users/sangaline/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sangaline/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sangaline",
+        "id": 8236564,
+        "node_id": "MDQ6VXNlcjgyMzY1NjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8236564?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sangaline",
+        "html_url": "https://github.com/sangaline",
+        "followers_url": "https://api.github.com/users/sangaline/followers",
+        "following_url": "https://api.github.com/users/sangaline/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sangaline/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sangaline/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sangaline/subscriptions",
+        "organizations_url": "https://api.github.com/users/sangaline/orgs",
+        "repos_url": "https://api.github.com/users/sangaline/repos",
+        "events_url": "https://api.github.com/users/sangaline/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sangaline/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "db4f4991ce39afd5b257dd9dfddb080b65159fc7",
+          "url": "https://api.github.com/repos/MADAI/DistributionSampling/commits/db4f4991ce39afd5b257dd9dfddb080b65159fc7",
+          "html_url": "https://github.com/MADAI/DistributionSampling/commit/db4f4991ce39afd5b257dd9dfddb080b65159fc7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "path": "src/Parameter.h",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Parameter.h",
+    "status": 200,
+    "sha256": "1281d4ef8fd01d5ce5c19ea5734b778cc4fc2d12c25b00773477ad61db351060",
+    "expected_blob": "6a77af26b5ca0cd05d91d83e734a3c7f6850f6a0",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/Parameter.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Parameter.cxx",
+    "status": 200,
+    "sha256": "45fd117a3c0b4a859f4ec180b530e0d9dfa9423d91cf68da37c166d07520f697",
+    "expected_blob": "d75c190e0e178f22896080065417914bc478d10c",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/Distribution.h",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Distribution.h",
+    "status": 200,
+    "sha256": "82d6cd443e8e5c7a591cab3a2b3e46d0d01acf58b2a6169973807c8e711a2a02",
+    "expected_blob": "20c4d1abfe9e66b6b2f1cc547026283765c20d76",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/Distribution.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Distribution.cxx",
+    "status": 200,
+    "sha256": "e72c8e803b9f0d0e460e25f2bf0a9884b04a48cfde6760500d63593d87e645c8",
+    "expected_blob": "05caac5d4cf2f1963d708c6d9cfe49510cbcb076",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/Random.h",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Random.h",
+    "status": 200,
+    "sha256": "fca176e1ae5f57619d13431ce4ed5439b5d230994c170244ee3aeaa9c842ada9",
+    "expected_blob": "402d55ae491cd511f69c81dbf54c3324c2d45bd3",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/Random.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/Random.cxx",
+    "status": 200,
+    "sha256": "e0a80154140fbf8f586e1c85320bebf36a0ae5f58424d308435baa3b440fb6ec",
+    "expected_blob": "75546da76df2e30534bb47ef7cf899b93a4d80f6",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/UniformDistribution.h",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/UniformDistribution.h",
+    "status": 200,
+    "sha256": "240d7eeb3743e7481158376845ad98819c6b4bae11b0f4bfb0b386c41d932242",
+    "expected_blob": "83673265b74a1b377c6ceb182680b9f562a2c83a",
+    "git_blob_matches": true
+  },
+  {
+    "path": "src/UniformDistribution.cxx",
+    "url": "https://raw.githubusercontent.com/MADAI/DistributionSampling/9f9ee0dac704d77492d9905b4d90a57746201912/src/UniformDistribution.cxx",
+    "status": 200,
+    "sha256": "b2aae69688660ebdf98ae6af2e97fadbb941c452a16e1a53bbfb77e9a887ff00",
+    "expected_blob": "48d74f0b3b1b5c6352e05b44ddeab1b3c6e33023",
+    "git_blob_matches": true
+  }
+]

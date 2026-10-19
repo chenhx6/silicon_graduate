@@ -1,0 +1,42 @@
+{
+  "identity": "SUN23-MODEL-SUBTRACTED-RATE-01",
+  "script_sha256": "a7245bb48009c28b5afa08a90ac79f3f2c698a0e04aebbf8c839eaa3b417ca97",
+  "contract_sha256": "870fe2242babb980078b8b897c1af5f4cee74fd1112f9cc3d57986a3774a2c3b",
+  "author_reported": {
+    "tau_M1_ps": 1.33,
+    "tau_M1_sigma_ps": 0.26,
+    "B_M1_muN2": 0.022,
+    "B_M1_sigma": 0.004,
+    "RME_abs_muN": 0.3,
+    "RME_abs_sigma": 0.03,
+    "locator": "arxivv2 PDF6 SecV"
+  },
+  "conditional_model_subtracted": {
+    "tau_M1_ps": 1.3370242214532875,
+    "tau_M1_exact_from_printed": "1932/1445",
+    "rate_M1_s-1": 747929606625.2588,
+    "E2_photon_rate_fraction_at_central": 0.16231884057971016,
+    "d_tauM_d_tau": 1.4250906957531637,
+    "d_tauM_d_model_tauE2": -0.03754744315800817,
+    "conditional_linear_sigma_tauM_ps_model_fixed": 0.25651632523556944,
+    "B_M1_muN2": 0.02188303965961266,
+    "conditional_linear_sigma_B_model_fixed": 0.004198395831876994,
+    "RME_abs_muN": 0.29585834218161
+  },
+  "conditional_width_conversion": {
+    "illustrative_tau_fs": 20,
+    "Gamma_total_meV_if_tau_below_value": 32.91059784499999,
+    "not_reported_finite_90percent_bound_on6390": true
+  },
+  "jacobian_covariance_formula": "Var(tauM)=a^2 Var(t)+b^2 Var(e)+2ab Cov(t,e); model e uncertainty not supplied",
+  "scope": [
+    "onlyM1/E2 totalradiativewidth, dominantgammabranch as declared diagnostic; no newICC/branch inventory established",
+    "E2partialtau6.9ps is USDBmodel, heldfixed only for conditional derivative; no uncertainty supplied for model",
+    "tau1120(180) is sourceposterior16/50/84quantiles; linear sigma propagation here not originalposterior transformation",
+    "roundedE1248keV not original literature exactenergy prior; modernunitconstant separate from authors historicalconstant",
+    "20fs only conditional Eqwidth conversion; source says nofinite6390 lifetimeconstraint, not one ofTableI90percentbounds",
+    "formal17 only; uncredited18preview; not modelpromotion to experimentalfact"
+  ],
+  "no_experimental_refit_or_new_CI": true,
+  "ok": true
+}

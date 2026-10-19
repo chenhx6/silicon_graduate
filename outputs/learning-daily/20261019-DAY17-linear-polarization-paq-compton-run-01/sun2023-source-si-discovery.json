@@ -1,0 +1,48 @@
+{
+  "url": "https://arxiv.org/src/2203.10336v2",
+  "scope": "officialarxivv2 archive holds maintex and sixEPS figures only; no SI text or actualcounts/templates/posterior",
+  "at": "2026-10-19T12:19:18.106237+00:00",
+  "status": 200,
+  "content_type": "application/gzip",
+  "bytes": 697890,
+  "sha256": "8c1a995e1b4dc65d67e168ec1d030aaae44ccafaf697a4dfbbc6a081aec357fb",
+  "members": [
+    {
+      "name": "Fig_DSAM_workflow.eps",
+      "bytes": 270944,
+      "regular": true
+    },
+    {
+      "name": "Fig_Decay_constant_30P.eps",
+      "bytes": 218152,
+      "regular": true
+    },
+    {
+      "name": "Fig_Gamma1248posterior.eps",
+      "bytes": 41198,
+      "regular": true
+    },
+    {
+      "name": "Fig_Gamma1248prior.eps",
+      "bytes": 514328,
+      "regular": true
+    },
+    {
+      "name": "Fig_PID.eps",
+      "bytes": 175269,
+      "regular": true
+    },
+    {
+      "name": "Fig_PostPrior1248.eps",
+      "bytes": 159684,
+      "regular": true
+    },
+    {
+      "name": "S31arXiv.tex",
+      "bytes": 74424,
+      "regular": true
+    }
+  ],
+  "selected_extract": "individual regular text/PDF by basename undertmp; no execution/no pathtraversal",
+  "supplement_acquired": false
+}

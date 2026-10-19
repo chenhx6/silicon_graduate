@@ -45,7 +45,7 @@ Singh 2016 uses LINESHAPE Monte Carlo histories at `0.002-ps` time steps and fit
 
 Thick targets broaden the production-depth/velocity distribution. Stopping powers, side-feeding cascades and long feeding times can dominate the systematic budget. A line that is fully shifted or shows no significant angle-dependent shape yields only a limit or complementary RDDS bracket.
 
-[[wang-2023-experimental-studies-nuclear-chirality-china]] adds a review-level statistical caution: the common practice of varying one nuisance parameter at a time and adding lifetime shifts in quadrature does not represent correlations, asymmetric intervals or physical limits. Its cited Bayesian/MCMC alternative is a useful method lead, not yet direct Wiki evidence, because the underlying Sun et al. 2023 analysis has not been ingested.
+[[wang-2023-experimental-studies-nuclear-chirality-china]] adds a review-level statistical caution: the common practice of varying one nuisance parameter at a time and adding lifetime shifts in quadrature does not represent correlations, asymmetric intervals or physical limits. 该二级入口的历史边界保留；现在原读的[[sun-2023-bayesian-dsam-31s]] SUN23-6–11核了actual2022v2 primary的priors、Gaussianlikelihood、GP/MCMC与quantile/6390限制。完整SI/实际input仍未得，不能把review赞词当完整precision认证。
 
 [[bark-2024-investigations-nuclear-chirality-ithembalabs]] describes the AFRODITE use of forward/backward line shapes and COMPA/GAMMA/SHAPE Monte Carlo histories that include slowing, feeding and statistical/collective cascades. Its `106Ag` example is secondary to the original Lieder 2014 experiment and should not substitute for that source's fit/systematic details.
 
@@ -99,3 +99,9 @@ FITFTAU以带内恒定Qt拟合F曲线；默认`Qt(sf)=Qt(band)`，不等于τ相
 [[lifetime-strength-audit-165tm-136nd]]按J01-6/7/8与MU08-15/16分开三步/五步feeding、5fs/2fs与两种stopping预算；fulltailbelowgate只控制一类selectionbias，不消sidefeeding。新11行/9行换算为条件审计，不是原谱重拟。
 
 本次原件链：[[jensen-2001-165tm-h9-2-configuration]] J01-6–10与[[mukhopadhyay-2008-136nd-transition-rates]] MU08-15–17；实际逐角谱/response/Σ仍需匹配原producer。
+
+## Bayesian DSAM的primary合同：31S
+
+[[sun-2023-bayesian-dsam-31s]] SUN23-6–10：positivelifetimeprior、Eγ/bkg/sppriors和PCA/GP+Gaussianbinlikelihood是实际分析选择，restrictivenuisancepriors会强烈影响后验。τ–sp的负相关是原两long-lived态的报告，不裸迁给其它能区/体系。若emulatorΣ随参数变，完整Gaussian的normalizer也相关；原Eq3approx与actualtailoredcode需分开，未凭print判实验失败。
+
+SUN23-11的6390态无finiteconstraint；20fs及Γ>33meV是条件应用链，不能当TableI第五项90%upperlimit。SUN23-12/13显示由总τ得到的B(M1)另含USDB E2partialrate扣除；它不是独立测得纯M1或δ。当前[[lifetime-strength-audit-165tm-136nd]]增加该链作方法对照，不修改两原实验数值或宣称L4原谱已重拟。

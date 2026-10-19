@@ -1,0 +1,9 @@
+{
+  "url": "https://api.elsevier.com/content/article/pii/S0370269323001351?view=FULL&httpAccept=text%2Fxml",
+  "scope": "OA VoR/fulltext/SI discovery, not assumed available",
+  "status": 401,
+  "content_type": "text/xml;charset=UTF-8",
+  "bytes": 133,
+  "sha256": "a199c5505f5d84ca6206475b3a116d509aa4528f154f0d3cdbc57669ec400bb5",
+  "prefix": "<service-error><status><statusCode>AUTHENTICATION_ERROR</statusCode><statusText>Invalid API Key</statusText></status></service-error>"
+}

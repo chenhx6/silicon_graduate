@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"doi\": \"10.1016/j.physletb.2023.137801\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/S0370269323001351\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-19T12:23:52.817Z\"\n  }\n}"
+    }
+  ]
+}

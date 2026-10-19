@@ -3,7 +3,7 @@ type: source
 title: "Wang et al. 2023 - Experimental studies for nuclear chirality in China"
 aliases: [Wang 2023 China nuclear-chirality review, Experimental Studies for Nuclear Chirality in China]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-19
 status: active
 review_status: unreviewed
 source_type: journal-review
@@ -178,3 +178,7 @@ P0: none identified.
 ## Evolution Log
 
 - 2026-08-11: deep-read ingest completed; persisted the secondary-census role, lifetime/DSAM evidence boundary, `106Ag` counterexample, Br octupole-chirality hypothesis and probable Table 1 target error.
+
+## 2026-10-19 primary follow-up boundary
+
+旧WC23-14与原reviewflags保持；当时Sun2023未摄入是历史scope。现在[[sun-2023-bayesian-dsam-31s]]实际原读2022arxivv2十页并核prior/likelihood/quantile/6390及model扣除边界；2023VoR/SI/actualinput仍未得。这个primary补充不使review成为独立实验，也不把原claim的needs_review清掉。
