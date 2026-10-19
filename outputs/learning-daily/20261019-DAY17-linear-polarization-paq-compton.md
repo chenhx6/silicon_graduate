@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint029：真实publicrelease主要路径/native
+
+[[evasions-2023-public-release-native-readiness]] EV23-1–14主要source/headers/Backupextraction/doc/activeSRIMheader实际核。原34文件hash保，nativecopy只加lib输出目录/另名client；现有ROOT6.40，不冒paperexactjob。
+
+
 ### checkpoint028：新GANIL原件/实际公开数据
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]] F23-1–20，publisher7页/SI8页全主线/式图表实际读，Figshare375909byteZIP/两XLSX与Zenodo34文件逐hash/CRC/Gitblob核。actualTreeMaster409303entries，仅schema未读event值，不宣称原DAQ/fullfitCov。
@@ -110,6 +115,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint029：原函数native与实际eventquery
+
+[复算脚本](../../system/scripts/day17_evasions_release_native_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-exercise-result.json)freshcopy复现make2→补lib后0、原noanalysisreturn1，loaderstatus1但callerN保持sentinel/逗号首E999/Se0、VAMOSbeta不回传。真实data409303/maxtrack7/7933Si_dE>0核。没有运行未初始化fullMC、修source或新τ/BR/CI。
+
 
 ### checkpoint028：新branch和真实图数据交叉核
 
@@ -407,6 +417,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[EVASIONS原release源](../../knowledge/sources/evasions-2023-public-release-native-readiness.md)EV23-2/5/6/8/13/14和[[lifetime-strength-audit-165tm-136nd]]“publicrelease与原paperproducer分开审计”，持久保存真实数据/原失败/版本边界，outputs非唯一知识副本。
+
 
 新增[新GANIL源](../../knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md)F23-5/8/9/10/11/15/16/18和[[lifetime-strength-audit-165tm-136nd]]“Fougères2023：新τ不变，branch更新改变omega”；保存新branch矩阵、实际图数据边界及公开event/producer可执行入口。
 
@@ -4537,6 +4550,133 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "F23-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "anchor": "公开事件已取得，原版发布程序尚不能代替论文fit",
+      "summary": "新增原release实际build/原函数/真实eventquery与readiness边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-1"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-2"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-5"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-6"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-8"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-13"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "anchor": "原publicrelease后续：真实data可读，paperfit仍需版本桥",
+      "summary": "补actualproducer核，不把release故障外推paper实验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-5"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-6"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-8"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "publicrelease与原paperproducer分开审计",
+      "summary": "保存L4实际输入/失败与fullCInot-ready矩阵。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-2"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-4"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-5"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-6"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-8"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-13"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "已公开producer仍需原输入和调用合同",
+      "summary": "build/return/table/physicsfit分层。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-5"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-6"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-8"
+        },
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[evasions-2023-public-release-native-readiness]]",
+      "summary": "新增原release/native审计source。",
+      "sources": [
+        {
+          "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+          "locator": "EV23-1"
+        }
+      ]
     }
   ]
 }
@@ -4549,6 +4689,11 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
 完整U/r/t/逐台权重/fit-Cov、P_ref的AD/GOSIA不确定度、逐门响应/producer仍缺。若取得matched holdout失败或target-weight不同的实测ledger，将触发Q迁移和δ幅度判断修订；当前没有这样的观测，不裁决原实验。
 
 ## L0–L4 state
+
+### checkpoint029：L4实际输入进展与fullfit边界
+
+真实公开derivedevent/停止表/主要producer已取得并做native检查，属于已执行L4输入/组件审计；完整paperfit因release参数输出/格式/fit分支不齐仍not-ready。科学partial不当实验失败；下一输入必须改实际fit合同或补独立companion，不用更多toy/history填缺。
+
 
 L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性、最小独立检查设计与实际producer/primary readiness。原样软件组件为限定版本的实际代码执行，非实验L4。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
 
@@ -4703,3 +4848,7 @@ verification041核report/course/唯一writeback/boundary/lint/diff与旧claim/re
 ### checkpoint028新原件/实际数据验收
 
 verification042核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及实际numericartifact；通过后manifest028/commitguard/H3。缺uproot初失败已记录并用既有PyROOT6.40 schema读取，不安装依赖/不改raw。原窗口继续，formal17once/18partial/no19。
+
+### checkpoint029原版native/实际输入验收
+
+verification043核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与原34hash/nativeartifact；通过后manifest029/commitguard/H3。原release问题已隔离，不改raw/原data或paper结论。同原窗口继续，formal17once/18partial/no19。

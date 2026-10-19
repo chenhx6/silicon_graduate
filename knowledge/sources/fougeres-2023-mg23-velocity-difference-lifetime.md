@@ -73,6 +73,7 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 | F23-18 | Zenodo8044973 v1.0.0的34文件全与Git c6a4ff3 blob匹配，含作者标为experiment的409303-entry TreeMaster、AGATA/VAMOS/SPIDER字段，三个tree_results均空。这是已取得真实公开衍生event入口，不认证全DAQ/校准史或原paperjob。 | actual-public-producer-and-data-readiness | direct-archive-and-ROOT-schema | producer-source-manifest；public-root-schema；README | true |
 | F23-19 | 发布默认inputs为τ5fs、γ7.333MeV、Ex7.785；main的width extraction分支/CodeA对应分支为空、旧fit段在comment中。当前release不提供可直接运行的完整原τ/Egrid fit脚本；尚未完整code/native核，不以“codeavailable”宣称原CI复现。 | actual-code-readiness-boundary | targeted-code | inputs.dat；src/main.cpp extract_width；CodeA_gamma.C | true |
 | F23-20 | MESA/SHIVA ejecta、最大探测距离和未来γobservatories预测为作者模型，不是22Na天文检出或新核寿命数据；meanmassfraction与totalejectedmass不同，模型/figure数据与实验输入分列。 | model-result-and-scope | direct-author-model | main PDF4/Table2/Fig3；SI6–7 | true |
+| F23-21 | 后续原34file/native核给真实409303-entry可读快照与publicrelease readiness边界：补lib后原build0，原loader数长/逗号解析及VAMOS scalar输出不回传，fitwidth分支未实现。仅限制publicrelease论文fit复现，不判实际paperproducer/τ/BR错或重算CI；原34hash保留。 | actual-public-producer-companion | native-and-input-audit | EV23-1/2/5/6/8/13/14 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -93,3 +94,7 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 ## Extracted Pages
 
 [[kirsebom-2016-23mg-dsam-lifetimes]]、[[saastamoinen-2011-thesis-al23-proton-response]]、[[nndc-2021-mg23-lifetime-strength-reference]]、[[lifetime-strength-audit-165tm-136nd]]、[[doppler-shift-attenuation-method]]。
+
+## 原publicrelease后续：真实data可读，paperfit仍需版本桥
+
+[[evasions-2023-public-release-native-readiness]] EV23-1–14已完整核主要source/native边界：原build补输出目录可成功，但loader输出/逗号解析与VAMOS scalar按值、fit分支未实现阻止完整paperfit复现。真实derivedevent查询409303条、maxtrack7、Si_dE>0的7933条只为输入/门descriptor，不是新BR或论文fit。保留本页F23-19当时partialcode状态，不把release问题直接归实验。

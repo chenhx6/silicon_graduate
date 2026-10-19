@@ -1,0 +1,7 @@
+# EVASIONS publicrelease实际producer读取/执行前合同
+
+F23main7/SI8、真实图数据已读；release34files/hashschema已核。此前已读README/inputs/Makefile/main/CodeA/MC_sim，尚未CodeB/kinematics/Tools/SRIM/doc及eventvalues，strongpriming非盲测。公开releasefitwidth分支空，绝不称已重现paperfit。
+
+待证伪hypotheses：MCkinematics的BrhoMeas/Eloss可能按值输出而未回传、dbeam可能未在100beam循环重置；主theta_VAMOS_max也按值传而geometry后覆盖。默认19000microngap与paperbacktoback不同。需实际完整code/headers/doc检查，不能先判paperproducer错。还须核phasespace/units/stopping核/τ时钟/离散衰变及RNG/越界，不自行修公开原源。
+
+执行分阶段：先真实409303衍生event的schema+范围/nbTrack最大值等只读query；再原版make在隔离copy（原snapshot34hash不改、输出只tmp）。原参数含随机时seed不复现，不能扩大history来补σ；确定性提取或诊断另名、实际native初失败留receipt。任何算法修正/patch与原版分开，不给新τCI/BR/spin。明确这属于已授权L4公开数据/response核，不开Day19。

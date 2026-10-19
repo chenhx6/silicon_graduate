@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-19T20:05:11.979587+00:00",
+  "reader": "6.40.04",
+  "data_sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+  "entries": 409303,
+  "ranges": {
+    "nbTrack": {
+      "min": 0.0,
+      "max": 7.0,
+      "nonfinite": 0
+    },
+    "Brho": {
+      "min": 0.7228806614875793,
+      "max": 1.1692062616348267,
+      "nonfinite": 0
+    },
+    "Theta": {
+      "min": -128.43307495117188,
+      "max": 127.47637939453125,
+      "nonfinite": 0
+    },
+    "Phi": {
+      "min": -299.9996643066406,
+      "max": 299.97393798828125,
+      "nonfinite": 0
+    },
+    "ThetaLdeg": {
+      "min": 0.00022557393822353333,
+      "max": 18.55162811279297,
+      "nonfinite": 0
+    },
+    "Si_dE": {
+      "min": 0.0,
+      "max": 15.8106107711792,
+      "nonfinite": 0
+    },
+    "Si_Eres": {
+      "min": 0.7279999852180481,
+      "max": 52.0135612487793,
+      "nonfinite": 0
+    },
+    "Si_theta": {
+      "min": 0.0,
+      "max": 21.524641036987305,
+      "nonfinite": 0
+    }
+  },
+  "nbTrack_histogram": {
+    "-1": 0,
+    "0": 58621,
+    "1": 284091,
+    "2": 55409,
+    "3": 9481,
+    "4": 1463,
+    "5": 216,
+    "6": 20,
+    "7": 2,
+    "8": 0,
+    "9": 0
+  },
+  "provenance": "authorreleasedexperiment-labelledderivedTree;originalDAQ/completecalibrationhistorynotcertified",
+  "source_unmodified": true
+}

@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-19T20:10:42.944447+00:00",
+  "published_default_geometry": {
+    "target_micron": 5,
+    "foil_micron": 20,
+    "gap_micron": 19000,
+    "paper_main": "back-to-backfoils",
+    "native_main_theta_if_SPIDER_active_deg": 10.867787325362112
+  },
+  "literal_MCSrim_loader": {
+    "declared_recoil_path": "recoil_in_matter.dat",
+    "actual_slot1_load": "particle_in_matter.dat",
+    "actual_recoil_file_header_target": "Silicon (Si14), notgold",
+    "beam_eV_first_text": "999,999 eV",
+    "stream_locale_handling": "none in LoadSRIMFile",
+    "N_energy_output": "passedbyvalue"
+  },
+  "source_readiness_boundary": "release component/data contract failures do not establish actual paper producer/experimental bias; no repair/CI rerun performed"
+}

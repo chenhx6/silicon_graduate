@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-19T20:05:59.721596+00:00",
+  "command": [
+    "make",
+    "-j2"
+  ],
+  "cwd": "tmp/day17-fougeres2023/producer-native-original-01",
+  "exit_code": 2,
+  "stdout": "g++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/Tools.C -o lib/Tools.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/Extraction_SRIM_stopping_powers.C -o lib/Extraction_SRIM_stopping_powers.o\n",
+  "stderr": "src/functions/Tools.C: In function ‘int extraction_noise(TH2F*, Double_t*, Double_t*)’:\nsrc/functions/Tools.C:90:28: warning: ‘sizeof’ on array function parameter ‘angle’ will return size of ‘Double_t*’ {aka ‘double*’} [-Wsizeof-array-argument]\n   90 |     int sizeArray = sizeof(angle)/sizeof(angle[0]);\n      |                           ~^~~~~~\nsrc/functions/Tools.C:85:41: note: declared here\n   85 | int extraction_noise(TH2F* h2, Double_t angle[], Double_t ponderation_angle[]){\n      |                                ~~~~~~~~~^~~~~~~\nsrc/functions/Tools.C: In function ‘double conversion_angle_random_distribution(double, Double_t*, Double_t*)’:\nsrc/functions/Tools.C:116:28: warning: ‘sizeof’ on array function parameter ‘angle’ will return size of ‘Double_t*’ {aka ‘double*’} [-Wsizeof-array-argument]\n  116 |     int sizeArray = sizeof(angle)/sizeof(angle[0]);\n      |                           ~^~~~~~\nsrc/functions/Tools.C:114:64: note: declared here\n  114 | double conversion_angle_random_distribution(double r, Double_t angle[], Double_t ponderation_angle[]) {\n      |                                                       ~~~~~~~~~^~~~~~~\nsrc/functions/Tools.C:120:1: warning: control reaches end of non-void function [-Wreturn-type]\n  120 | }\n      | ^\nAssembler messages:\nAssembler messages:\nFatal error: Fatal error: can't create lib/Tools.o: No such file or directorycan't create lib/Extraction_SRIM_stopping_powers.o: No such file or directory\n\nmake: *** [Makefile:35: lib/Tools.o] Error 1\nmake: *** Waiting for unfinished jobs....\nmake: *** [Makefile:29: lib/Extraction_SRIM_stopping_powers.o] Error 1\n",
+  "original_snapshot_hashes_preserved": true
+}

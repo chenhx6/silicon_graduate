@@ -2149,3 +2149,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint028 — 新GANIL寿命/branch与实际数据
 
 原读Fougères2023主7/SI8和真实SourceData，新增τ近旧值/BRp更新/assumeJ7/2及推荐组合角色。实际图显示区χ²与grid不闭合/零slice保边界，未重fit实验CI。Zenodo34files逐Gitblob与真实409303entry衍生Tree schema已核，不冒原DAQ/fullCov。verification042通过（0error/229warnings，36changed38mapped），旧review/claims/保护文件保持。main / Read new Mg23 lifetime branching and real public data inputs；actualhash/H3见publication028。原窗口继续actualproducer/数据匹配，formal17once/18partial/no19。
+
+
+## 2026-10-20 Day17 checkpoint029 — 原EVASIONS native/readiness
+
+实际原34file/hash保持；原build缺lib2→补目录0，无analysisliteralreturn1，原loader数长/逗号解析与VAMOS scalar caller输出native不闭。publicderived409303/maxtrack7/7933positiveSi真实query，不作BR/τ/CI。canonical区分release故障与paperproducer/实验结论，完整fitnot-ready已隔离。verification043通过（0error/231warnings，37changed39mapped），旧review/claims/保护文件保持。main / Audit actual EVASIONS release inputs and native output contracts；actualhash/H3见publication029。原窗口继续独立Friedman2020 branchprimary，17once/18partial/no19。

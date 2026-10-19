@@ -193,3 +193,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 事件级速度差也保留停止和联合能量输入
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]] F23-3/4/5/7/8/18用α两体运动学给βreac、γ反演βems，降低未知初速度/feeding影响；仍有SRIM能损/初始剖面、角/能量校准和同Ex门下γ/particle响应。τ/Eg0共同free、profile按integral归一，公开data/source要matching才可谈CI；这个方法的优势不等任意finitegate下全部feeding/角度系统为零。
+
+## 已公开producer仍需原输入和调用合同
+
+[[evasions-2023-public-release-native-readiness]] EV23-5/6/7/8/13/14把build、原方法返回、实际停止表与paperfit四层分开：build0不等physics/CI通过，status1也未必表示表已正确加载。实际原输入/native失败可定位readiness，不能直接外推作者实验无效；原source/数据不改，修正版必须另名。

@@ -1,0 +1,13 @@
+{
+  "identity": "EVASIONS-RELEASE-NATIVE-READINESS-01",
+  "source_manifest": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-producer-source-manifest.json",
+  "source_manifest_sha256": "9912f418a6d7da1d4645b4815618136da9c00edcce2b3e73c868d31618a04bde",
+  "source_dir": "tmp/day17-fougeres2023/producer-source",
+  "native_component": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-native-component.cc",
+  "native_component_sha256": "930c723a306f07ee25a6e0e63a8e3146d8b67784ecafe7aa4f4e09e7be6c363c",
+  "public_data_sha256": "7defece09a3c91892a0e538062797eb3fa46265a8b17a18387800e8bb0849ea4",
+  "expected_entries": 409303,
+  "expected_nbTrack_max": 7,
+  "expected_positive_Si_dE": 7933,
+  "boundary": "originalrelease-only/ROOT6.40.04 read-onlypublicdata/targetednative noMCfit;noexperimentalCI"
+}

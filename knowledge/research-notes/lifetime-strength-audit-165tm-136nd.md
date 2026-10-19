@@ -284,3 +284,9 @@ AppendixA明确ROOT5.22/Rebin/ShowBackground/Smooth/150keV数据匹配与Add减�
 Δβ拟合仍依赖SRIM/角与能量分辨、jointEg0与τ、finitegate/模板normalization；newbranch需pureAu背景与邻态模板约束。低χ²ndf不是coverage证明，7/2明确assume。Figshare实际XLSX显示区与SIgrid不可直接一键重算χ²，7785全显示区Pearson123.956对grid17.1982和一条零grid切片保留待核，不叫实验矛盾。
 
 公开Zenodo v1.0.0确有34文件、409303-entry衍生TreeMaster，不再是纯readiness缺数据；原DAQ/全calibration史/原paperfit脚本/Σ仍未闭。下一实际L4路线应核本公开producer的参数传递/门/normalization与源数据匹配，保原文件hash、不要改producer冒作者结果。
+
+## publicrelease与原paperproducer分开审计
+
+[[evasions-2023-public-release-native-readiness]] EV23-1–14实际原source/native与publicevent核：原make先因lib输出目录缺失exit2，补目录后0；无analysispath按literalreturn1正常结束。原loader sentinel长度不回传且逗号小数解析失败仍status1；原VAMOS beta scalar也不回caller。其它停止路径/MCdepth/未绑定Si_theta/sizeofpointer/未完成fit块均原release边界，原34hash与data保留。
+
+该release提供409303真实作者标记衍生event、7933条Si_dE>0，L4从缺data推进到actualquery；没有原DAQ/完整校准史/实际paperfit配置/Σ，不能把多项release问题累加成实验τ偏差或修源后重报CI。当前停止literalfullMCfit路线，继续最高信息独立companion或原fit定义，不以更多history补输入。

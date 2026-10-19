@@ -1,0 +1,20 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/evasions-2023-public-release-native-readiness.md": 14,
+    "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 21
+  },
+  "artifacts": [
+    {
+      "file": "evasions2023-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "original34_hashes_preserved",
+        "copied34_hashes_preserved",
+        "literal_release_not_ready_for_paper_fit",
+        "no_original_release_source_patched",
+        "no_experimental_lifetime_branch_or_CI_recomputed"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

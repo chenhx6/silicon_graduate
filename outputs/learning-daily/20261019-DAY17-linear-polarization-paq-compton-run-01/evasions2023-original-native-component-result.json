@@ -1,0 +1,75 @@
+{
+  "at": "2026-10-19T20:09:28.983856+00:00",
+  "build": {
+    "command": [
+      "g++",
+      "tmp/day17-fougeres2023/producer-native-original-01/component-contract.cc",
+      "tmp/day17-fougeres2023/producer-native-original-01/lib/kinematics.o",
+      "tmp/day17-fougeres2023/producer-native-original-01/lib/Tools.o",
+      "tmp/day17-fougeres2023/producer-native-original-01/lib/Extraction_SRIM_stopping_powers.o",
+      "-o",
+      "tmp/day17-fougeres2023/producer-native-original-01/component-contract",
+      "-pthread",
+      "-std=c++17",
+      "-m64",
+      "-fsized-deallocation",
+      "-I/opt/root/include",
+      "-L/opt/root/lib",
+      "-lGui",
+      "-lCore",
+      "-lImt",
+      "-lRIO",
+      "-lNet",
+      "-lHist",
+      "-lGraf",
+      "-lGraf3d",
+      "-lGpad",
+      "-lROOTVecOps",
+      "-lTree",
+      "-lTreePlayer",
+      "-lRint",
+      "-lPostscript",
+      "-lMatrix",
+      "-lPhysics",
+      "-lMathCore",
+      "-lThread",
+      "-lROOTNTuple",
+      "-lROOTNTupleUtil",
+      "-lMultiProc",
+      "-lROOTDataFrame",
+      "-Wl,-rpath,/opt/root/lib",
+      "-pthread",
+      "-lm",
+      "-ldl",
+      "-rdynamic",
+      "-lGeom",
+      "-lEve",
+      "-lRGL"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "runs": [
+    {
+      "mode": "loader",
+      "command": [
+        "./component-contract",
+        "loader"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"mode\":\"loader\",\"status\":1,\"caller_n\":-123,\"first_energy\":999,\"first_electronic\":0,\"second_energy\":0}\n",
+      "stderr": ""
+    },
+    {
+      "mode": "vamos",
+      "command": [
+        "./component-contract",
+        "vamos"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"mode\":\"VAMOS scalar output\",\"status\":1,\"caller_beta\":0.123456789,\"recoil_theta\":1.2114453883294138,\"recoil_phi\":1898.8733853924698}\n",
+      "stderr": ""
+    }
+  ]
+}

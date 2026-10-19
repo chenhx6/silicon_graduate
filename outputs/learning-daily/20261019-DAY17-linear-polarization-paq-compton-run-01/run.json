@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit ROOT522 background error buffers and matched normalization",
-    "commit": "147a7a661b85d9f08f9bcfda2b0927d808e5b10b",
+    "subject": "Read new Mg23 lifetime branching and real public data inputs",
+    "commit": "6e5c4bbb4bb48fe6f5fcdb01bbf7c3776f8fdd89",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow;F23fulloriginal/publicrealdata canonical;EVASIONSactualproducerandboundedquerynext;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-042.json",
-  "last_observed_at": "2026-10-19T20:01:35.576684+00:00",
+  "research_status": "active originalwindow;EVASIONSoriginalnative/readinesscanonical;Friedman2020independentbranchprimarynext;17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-043.json",
+  "last_observed_at": "2026-10-19T20:17:55.900277+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 36,
+  "canonical_knowledge_changed_pages": 37,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

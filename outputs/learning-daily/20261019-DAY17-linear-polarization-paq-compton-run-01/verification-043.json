@@ -1,0 +1,164 @@
+{
+  "checked_at": "2026-10-19T20:16:31.219286+00:00",
+  "valid": true,
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      17
+    ],
+    "partial_day_indices": [
+      18
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 18,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/index.md",
+      "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+      "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+      "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "knowledge/sources/simdsam-2015-public-dsam-code.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md",
+      "knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+      "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+      "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "knowledge/sources/root-2008-v522-background-error-contract.md",
+      "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "knowledge/sources/evasions-2023-public-release-native-readiness.md"
+    ],
+    "changed_paths": [
+      "knowledge/experiments/triumf-griffin-compton-source-calibration.md",
+      "knowledge/index.md",
+      "knowledge/methods/compton-polarimetry.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/methods/linear-polarization-asymmetry.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/research-notes/pb207-gated-polarization-reference.md",
+      "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "knowledge/research-notes/spinhalf-angular-nuisance-response-contract.md",
+      "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+      "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+      "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "knowledge/sources/root-2008-v522-background-error-contract.md",
+      "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+      "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+      "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+      "knowledge/sources/simdsam-2015-public-dsam-code.md",
+      "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "boundary": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0
+  },
+  "lint": {
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0,
+    "counts": {
+      "warning": 231,
+      "info": 2911
+    },
+    "warning_codes": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 157,
+      "RAW_MISSING": 70
+    },
+    "errors": []
+  },
+  "diff": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "review_checks": {
+    "old_claim_rows_flags_preserved": {
+      "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 20
+    },
+    "review_metadata_preserved": true,
+    "indexed_counts": {
+      "knowledge/sources/evasions-2023-public-release-native-readiness.md": 14,
+      "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md": 21
+    }
+  },
+  "artifact_checks": [
+    {
+      "file": "evasions2023-exercise-result.json",
+      "passed": true
+    }
+  ]
+}

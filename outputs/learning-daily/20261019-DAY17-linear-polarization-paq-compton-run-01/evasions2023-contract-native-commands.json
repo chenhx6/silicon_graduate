@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-19T20:13:19.426896+00:00",
+  "workdir": "tmp/day17-fougeres2023/native-contract-r4hyk2kh",
+  "commands": [
+    {
+      "command": [
+        "make",
+        "-j2"
+      ],
+      "exit_code": 2,
+      "stdout": "g++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/Tools.C -o lib/Tools.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/Extraction_SRIM_stopping_powers.C -o lib/Extraction_SRIM_stopping_powers.o\n",
+      "stderr": "src/functions/Tools.C: In function ‘int extraction_noise(TH2F*, Double_t*, Double_t*)’:\nsrc/functions/Tools.C:90:28: warning: ‘sizeof’ on array function parameter ‘angle’ will return size of ‘Double_t*’ {aka ‘double*’} [-Wsizeof-array-argument]\n   90 |     int sizeArray = sizeof(angle)/sizeof(angle[0]);\n      |                           ~^~~~~~\nsrc/functions/Tools.C:85:41: note: declared here\n   85 | int extraction_noise(TH2F* h2, Double_t angle[], Double_t ponderation_angle[]){\n      |                                ~~~~~~~~~^~~~~~~\nsrc/functions/Tools.C: In function ‘double conversion_angle_random_distribution(double, Double_t*, Double_t*)’:\nsrc/functions/Tools.C:116:28: warning: ‘sizeof’ on array function parameter ‘angle’ will return size of ‘Double_t*’ {aka ‘double*’} [-Wsizeof-array-argument]\n  116 |     int sizeArray = sizeof(angle)/sizeof(angle[0]);\n      |                           ~^~~~~~\nsrc/functions/Tools.C:114:64: note: declared here\n  114 | double conversion_angle_random_distribution(double r, Double_t angle[], Double_t ponderation_angle[]) {\n      |                                                       ~~~~~~~~~^~~~~~~\nsrc/functions/Tools.C:120:1: warning: control reaches end of non-void function [-Wreturn-type]\n  120 | }\n      | ^\nAssembler messages:\nFatal error: can't create lib/Tools.o: No such file or directory\nmake: *** [Makefile:35: lib/Tools.o] Error 1\nmake: *** Waiting for unfinished jobs....\nAssembler messages:\nFatal error: can't create lib/Extraction_SRIM_stopping_powers.o: No such file or directory\nmake: *** [Makefile:29: lib/Extraction_SRIM_stopping_powers.o] Error 1\n"
+    },
+    {
+      "command": [
+        "make",
+        "-j2"
+      ],
+      "exit_code": 0,
+      "stdout": "g++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/Tools.C -o lib/Tools.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/Extraction_SRIM_stopping_powers.C -o lib/Extraction_SRIM_stopping_powers.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/CodeB_particle.C -o lib/CodeB_particle.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/kinematics.C -o lib/kinematics.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/MC_sim.C -o lib/MC_sim.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/functions/CodeA_gamma.C -o lib/CodeA_gamma.o\ng++ -pthread -std=c++17 -m64 -fsized-deallocation -I/opt/root/include -Isrc/ -c src/main.cpp -o lib/main.o\ng++ -o EVASIONSsim lib/main.o lib/CodeB_particle.o lib/CodeA_gamma.o lib/MC_sim.o lib/Extraction_SRIM_stopping_powers.o lib/kinematics.o lib/Tools.o -L/opt/root/lib -lGui -lCore -lImt -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lROOTVecOps -lTree -lTreePlayer -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lROOTNTuple -lROOTNTupleUtil -lMultiProc -lROOTDataFrame -Wl,-rpath,/opt/root/lib -pthread -lm -ldl -rdynamic -lGeom -lEve -lRGL\n",
+      "stderr": "src/functions/Tools.C: In function ‘int extraction_noise(TH2F*, Double_t*, Double_t*)’:\nsrc/functions/Tools.C:90:28: warning: ‘sizeof’ on array function parameter ‘angle’ will return size of ‘Double_t*’ {aka ‘double*’} [-Wsizeof-array-argument]\n   90 |     int sizeArray = sizeof(angle)/sizeof(angle[0]);\n      |                           ~^~~~~~\nsrc/functions/Tools.C:85:41: note: declared here\n   85 | int extraction_noise(TH2F* h2, Double_t angle[], Double_t ponderation_angle[]){\n      |                                ~~~~~~~~~^~~~~~~\nsrc/functions/Tools.C: In function ‘double conversion_angle_random_distribution(double, Double_t*, Double_t*)’:\nsrc/functions/Tools.C:116:28: warning: ‘sizeof’ on array function parameter ‘angle’ will return size of ‘Double_t*’ {aka ‘double*’} [-Wsizeof-array-argument]\n  116 |     int sizeArray = sizeof(angle)/sizeof(angle[0]);\n      |                           ~^~~~~~\nsrc/functions/Tools.C:114:64: note: declared here\n  114 | double conversion_angle_random_distribution(double r, Double_t angle[], Double_t ponderation_angle[]) {\n      |                                                       ~~~~~~~~~^~~~~~~\nsrc/functions/Tools.C:120:1: warning: control reaches end of non-void function [-Wreturn-type]\n  120 | }\n      | ^\nsrc/main.cpp: In function ‘int main(int, char**)’:\nsrc/main.cpp:58:49: warning: format ‘%i’ expects argument of type ‘int’, but argument 2 has type ‘Long64_t’ {aka ‘long long int’} [-Wformat=]\n   58 |         printf(\"Amount of experimental entries %i \\n\", chain->GetEntries());\n      |                                                ~^      ~~~~~~~~~~~~~~~~~~~\n      |                                                 |                       |\n      |                                                 int                     Long64_t {aka long long int}\n      |                                                %lli\n"
+    },
+    {
+      "command": [
+        "./EVASIONSsim",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "exit_code": 1,
+      "stdout": "=====================================\n===          EVASION              ===\n=====================================\nEVASION processed \n/workspace/wiki/tmp/day17-fougeres2023/native-contract-r4hyk2kh\n/workspace/wiki/tmp/day17-fougeres2023/native-contract-r4hyk2kh/inputs.dat\n/workspace/wiki/tmp/day17-fougeres2023/native-contract-r4hyk2kh/tree_results/\n/workspace/wiki/tmp/day17-fougeres2023/native-contract-r4hyk2kh/data/data.root\nAmount of experimental entries 409303 \n0 Ebeam 110.826 0.44\n1 Ex 7.785\n2 Eg 7.333 0 0\n3 Sp 7.581 1\n4 Lifetime 5 0 0\n5 ExDaughter 0\n6 SpinRecoil 3.5\n7 SpinParticle 0.5\n8 SpinDaughter 3\n9 ParticleMomentumTransfered 0\n10 Abeam 24\n11 Zbeam 12\n12 ExcessMassBeam -13.933\n13 Areactif 3\n14 Zreactif 2\n15 ExcessMassReactif 14.931\n16 Arecoil 23\n17 Zrecoil 12\n18 ExcessMassRecoil -5.473\n19 Aejectil 4\n20 Zejectil 2\n21 ExcessMassejectil 2.425\n22 Aparticle 1\n23 Zparticle 1\n24 ExcessMassparticle 7.289\n25 Adaughter 22\n26 Zdaughter 11\n27 ExcessMassdaughter -5.18139\n28 active_target 0.1\n29 total_target 5 20 19000\n30 AGATA_shift_x 0\n31 AGATA_shift_y 0\n32 AGATA_shift_z -17\n33 AGATA_angle 118 176\n34 AGATA_eg_reso 4.15\n35 AGATA_theta_reso 0.6768\n36 AGATA_E_range_noise 6860 6896\n37 theta_VAMOS_max 20\n38 Target_SPIDER 119.8\n39 SPIDER_inner_Radius 23\n40 SPIDER_outer_Radius 48\n41 SPIDER_Eres_resolution 0\n42 SPIDER_dE_resolution 0\n43 SPIDER_theta_resolution 0\n EVASIONS finished \n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "g++",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-native-component.cc",
+        "-I/workspace/wiki/tmp/day17-fougeres2023/native-contract-r4hyk2kh",
+        "lib/kinematics.o",
+        "lib/Tools.o",
+        "lib/Extraction_SRIM_stopping_powers.o",
+        "-o",
+        "component-contract",
+        "-pthread",
+        "-std=c++17",
+        "-m64",
+        "-fsized-deallocation",
+        "-I/opt/root/include",
+        "-L/opt/root/lib",
+        "-lGui",
+        "-lCore",
+        "-lImt",
+        "-lRIO",
+        "-lNet",
+        "-lHist",
+        "-lGraf",
+        "-lGraf3d",
+        "-lGpad",
+        "-lROOTVecOps",
+        "-lTree",
+        "-lTreePlayer",
+        "-lRint",
+        "-lPostscript",
+        "-lMatrix",
+        "-lPhysics",
+        "-lMathCore",
+        "-lThread",
+        "-lROOTNTuple",
+        "-lROOTNTupleUtil",
+        "-lMultiProc",
+        "-lROOTDataFrame",
+        "-Wl,-rpath,/opt/root/lib",
+        "-pthread",
+        "-lm",
+        "-ldl",
+        "-rdynamic",
+        "-lGeom",
+        "-lEve",
+        "-lRGL"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "./component-contract",
+        "loader"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"mode\":\"loader\",\"status\":1,\"caller_n\":-123,\"first_energy\":999,\"first_electronic\":0,\"second_energy\":0}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "./component-contract",
+        "vamos"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"mode\":\"VAMOS scalar output\",\"status\":1,\"caller_beta\":0.123456789,\"recoil_theta\":1.2114453883294138,\"recoil_phi\":1898.8733853924698}\n",
+      "stderr": ""
+    }
+  ]
+}

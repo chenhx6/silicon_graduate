@@ -103,3 +103,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint028 priming：Fougères2023新真实输入
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]]主7/SI8完整原读，新τ11+7−5近旧、BRp.68(.17)%不同旧3.7%，推荐.66(.07)%/10.2(2.6)含旧新组合并assume7/2。真实Figshare图数据与Zenodo34files/409303-entry publicderivedTree已取hash核；全显示区χ²/零grid待匹配producer，不造实验CI。release widthfit分支空、仅partialcode已读，原DAQ/Cov未闭合。仅本Day18知识preview，不兑换正式18学分；正式18需先声明priming/独立卡审计。
+
+
+### Day17 checkpoint029 priming：原publicrelease native/readiness
+
+[[evasions-2023-public-release-native-readiness]]原34hash不改，实际make缺lib2→补目录0/无analysisliteralreturn1。原loader长度/逗号解析与VAMOSscalar输出native不闭；CodeB/MC/空fit等source边界不证明paper实验错。真实public409303/maxtrack7/7933positiveSi只query，非新BR/CI；完整paperjob/Σ未得，拒用masspatch/更多history冒原fit。仍仅Day18知识preview无学分。

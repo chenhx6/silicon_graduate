@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-19T20:06:50.904989+00:00",
+  "entries": 409303,
+  "Si_dE_positive": 7933,
+  "Si_theta_positive_given_SidE": 7933,
+  "angle_theta_given_SidE_quantiles": [
+    11.672762870788574,
+    12.359054565429688,
+    16.396013259887695,
+    20.27249526977539,
+    21.524641036987305
+  ],
+  "Brho_given_SidE_quantiles": [
+    0.7278873920440674,
+    0.784895658493042,
+    0.8378893733024597,
+    0.9149491906166077,
+    1.1543490886688232
+  ],
+  "boundary": "publicderivedevent selection descriptors, notbranch/absoluteefficiency or originalcalibration validation"
+}

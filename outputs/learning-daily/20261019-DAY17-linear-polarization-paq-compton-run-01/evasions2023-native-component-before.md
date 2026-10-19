@@ -1,0 +1,5 @@
+# EVASIONS原公开代码的最小native边界控制
+
+原source已全主要路径/headers/Backup/doc读，独立nativecopy原make因缺lib输出目录失败(2)，仅补目录后继续build，源34hash不改。已见loader以值传N_energy且从recoil路径误用particlefile、逗号decimal与stream解析风险；需要实际boundedcomponent，不能原wholeMC不受控运行或推paper fit错。
+
+计划源原版LoadSRIMFile独立component：原五tables不改，N_energy sentinel传入检查是否回传，timeout2s避免格式循环无限。再原VAMOS_kinematics局部测试caller beta sentinel是否改变、角数组与finite输出角色；这只验证release函数实际C++合同，不修source不产τ。原metadata/初build/原cpp/hash与失败stdout留存。原CodeB Si_theta未bind和sizeofarray bug先source边界，native后若不能matchingactualdata不扩大为全paperdiagnosis。

@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-19T20:11:49.932775+00:00",
+  "original34_preserved": true,
+  "native_observed": {
+    "make_initial": 2,
+    "make_after_only_lib_directory": 0,
+    "codeA_B_disabled_return": 1,
+    "return1_literalmain": true,
+    "table_loader_component_status": 1,
+    "table_loader_caller_n": -123,
+    "table_loader_first_E": 999,
+    "table_loader_first_Se": 0,
+    "VAMOS_component_caller_beta_still_sentinel": true
+  },
+  "source_only_boundaries": [
+    "slot1recoil loads proton table",
+    "N_energy/Eloss/BrhoMeas/betaRecoil outputs byvalue",
+    "Si_theta unbound in CodeB",
+    "angleparameter sizeofpointer;missingreturn",
+    "dbeamunreset;1000vs10000Angstrom",
+    "widthfit no-op/commented"
+  ],
+  "scope": "actualpublicrelease34files/native components/currentROOT6.40.04, notpaperfit/experimentalbias",
+  "next": "preserve readinesstopforliteralpublicpipeline; actualfigdata/producerhistory/PhDmethodorindependentFriedmanprimary needed, no masspatchedexperimentCI"
+}

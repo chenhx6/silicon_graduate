@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-19T20:08:23.455108+00:00",
+  "source_commit": "c6a4ff3756724d6becd17414851bc8140d00a311",
+  "actualread": [
+    "README.md",
+    "inputs.dat",
+    "Makefile",
+    "src/main.cpp",
+    "src/functions/CodeA_gamma.C/h",
+    "src/functions/CodeB_particle.C/h",
+    "src/functions/MC_sim.C/h",
+    "src/functions/kinematics.C/h",
+    "src/functions/Tools.C/h",
+    "src/functions/Extraction_SRIM_stopping_powers.C/h",
+    "src/functions/main.h",
+    "src/functions/Backup/extractionData.C",
+    "doc/MCalgo.pdf onepage/diagram",
+    "five activeSRIMheaders/representative numericlines plus examplesmatchinghash"
+  ],
+  "remaining_not_claimed": "all numericSRIMrows independentstoppingaudit,fullGPLlicense interpretation,paperexactjob or productionfitcode",
+  "hypotheses_now_directcode": [
+    "scalar outputs passed byvalue",
+    "N_energy passed byvalue",
+    "fileSPrecoil declaredunused;slot1loadsfileSPparticle",
+    "dbeam declaredoutside Nbeam loop;1000 vs micronAngstrom10000 contract",
+    "CodeB Si_theta not SetBranchAddress",
+    "sizeof arrayparameter yields pointer length; missingreturn",
+    "widthfit blocks empty/commented"
+  ],
+  "boundary": "publicrelease-specificsourcefindings; notexperimentalτ/BRerror or actualpaperproducer"
+}

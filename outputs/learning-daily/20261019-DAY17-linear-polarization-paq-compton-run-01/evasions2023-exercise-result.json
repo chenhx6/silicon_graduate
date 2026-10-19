@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-19T20:13:23.870345+00:00",
+  "script_sha256": "8a83b1f367ec15f8699c0459c4b9f41a2a4fca6c1990decd20eb703904498e92",
+  "contract_sha256": "aab7f8892ec45a15da87d4bfd8208f29c10646ef8c930be31629a94254be4864",
+  "release_commit": "c6a4ff3756724d6becd17414851bc8140d00a311",
+  "ROOT_version": "6.40.04",
+  "workdir": "tmp/day17-fougeres2023/native-contract-r4hyk2kh",
+  "original_build_missing_lib_exit": 2,
+  "build_after_output_directory_exit": 0,
+  "original_noanalysis_return": 1,
+  "loader_native": {
+    "mode": "loader",
+    "status": 1,
+    "caller_n": -123,
+    "first_energy": 999,
+    "first_electronic": 0,
+    "second_energy": 0
+  },
+  "kinematics_native": {
+    "mode": "VAMOS scalar output",
+    "status": 1,
+    "caller_beta": 0.123456789,
+    "recoil_theta": 1.2114453883294138,
+    "recoil_phi": 1898.8733853924698
+  },
+  "actual_public_event_query": {
+    "entries": 409303,
+    "nbTrack_max": 7,
+    "positive_Si_dE": 7933
+  },
+  "original34_hashes_preserved": true,
+  "copied34_hashes_preserved": true,
+  "literal_release_not_ready_for_paper_fit": true,
+  "no_original_release_source_patched": true,
+  "no_experimental_lifetime_branch_or_CI_recomputed": true,
+  "ok": true
+}

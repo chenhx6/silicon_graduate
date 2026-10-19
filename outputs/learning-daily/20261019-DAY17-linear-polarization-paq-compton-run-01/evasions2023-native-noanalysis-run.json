@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T20:10:42.538878+00:00",
+  "command": [
+    "./EVASIONSsim",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "cwd": "tmp/day17-fougeres2023/producer-native-original-01",
+  "exit_code": 1,
+  "stdout": "=====================================\n===          EVASION              ===\n=====================================\nEVASION processed \n/workspace/wiki/tmp/day17-fougeres2023/producer-native-original-01\n/workspace/wiki/tmp/day17-fougeres2023/producer-native-original-01/inputs.dat\n/workspace/wiki/tmp/day17-fougeres2023/producer-native-original-01/tree_results/\n/workspace/wiki/tmp/day17-fougeres2023/producer-native-original-01/data/data.root\nAmount of experimental entries 409303 \n0 Ebeam 110.826 0.44\n1 Ex 7.785\n2 Eg 7.333 0 0\n3 Sp 7.581 1\n4 Lifetime 5 0 0\n5 ExDaughter 0\n6 SpinRecoil 3.5\n7 SpinParticle 0.5\n8 SpinDaughter 3\n9 ParticleMomentumTransfered 0\n10 Abeam 24\n11 Zbeam 12\n12 ExcessMassBeam -13.933\n13 Areactif 3\n14 Zreactif 2\n15 ExcessMassReactif 14.931\n16 Arecoil 23\n17 Zrecoil 12\n18 ExcessMassRecoil -5.473\n19 Aejectil 4\n20 Zejectil 2\n21 ExcessMassejectil 2.425\n22 Aparticle 1\n23 Zparticle 1\n24 ExcessMassparticle 7.289\n25 Adaughter 22\n26 Zdaughter 11\n27 ExcessMassdaughter -5.18139\n28 active_target 0.1\n29 total_target 5 20 19000\n30 AGATA_shift_x 0\n31 AGATA_shift_y 0\n32 AGATA_shift_z -17\n33 AGATA_angle 118 176\n34 AGATA_eg_reso 4.15\n35 AGATA_theta_reso 0.6768\n36 AGATA_E_range_noise 6860 6896\n37 theta_VAMOS_max 20\n38 Target_SPIDER 119.8\n39 SPIDER_inner_Radius 23\n40 SPIDER_outer_Radius 48\n41 SPIDER_Eres_resolution 0\n42 SPIDER_dE_resolution 0\n43 SPIDER_theta_resolution 0\n EVASIONS finished \n",
+  "stderr": "",
+  "scope": "originalnoanalysispath inputs/readtreemetadata only; noCodeA/BMC/fit invoked",
+  "normal_source_return_1_expected": true,
+  "original34_hashes_preserved": true
+}
