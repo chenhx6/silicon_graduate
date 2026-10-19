@@ -1,0 +1,8 @@
+{
+  "first_compile_exit_code": 1,
+  "rootcause": "legacy global class decay + usingnamespace std conflicts with modernC++std::decay; originalC++/ROOTtoolchain absent",
+  "adapter": "externalSDK/stdheaderspreincluded, preprocessonlyglobaldecaytokens->SimDSAMDecay; no physicsstatement/header/sourcefileedit",
+  "source52blobshashpreserved": true,
+  "nativeclaim_boundary": "originalexpressions underdeclaredsyntaxadapter/currentROOT6.40, not historicalbinary or exactpaperreplay",
+  "otherwarnings_preserved": "detectionEfficiency missinggenericreturn; originalunusedcompoundSi14stoppingdata absent"
+}

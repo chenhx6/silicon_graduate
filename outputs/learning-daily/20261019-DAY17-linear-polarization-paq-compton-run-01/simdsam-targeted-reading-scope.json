@@ -1,0 +1,32 @@
+{
+  "paper_primary_read": true,
+  "code_pin": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+  "source_commit_2015": "1e5763659e46d636ed90234ae0df0b6402d129a8",
+  "only_since_change": "README.md",
+  "actual_read": [
+    "README/LICENSE/inputcard",
+    "source/particle.cpp propagate/energyLoss/detection/SiDeadLayers",
+    "source/sequence.cpp all",
+    "source/stoppingDataTables.cpp all",
+    "source/decay.cpp kinematics/propagateDaughters",
+    "source/sim_dsam.cpp main/inputs/loop/output/angle-generation",
+    "source/globals.cpp all",
+    "depthProfile/multipleScattering/detectionEfficiency sources",
+    "headers/particle.hh"
+  ],
+  "not_full_read": [
+    "massTable/atomicWeights/rootDataContainer andsomeunusedangularhelpers",
+    "data allnumericrows",
+    "fulloriginalexperimentalhistograms/analysisconfig"
+  ],
+  "code_body_not_yet_compiled_or_executed": true,
+  "data_boundary": "52repo files include simulatedresponse/mass/implantation/tables but no originalRootFiles/ROOTanal/experimentalhistograms specified bycard",
+  "source_implementation_findings": [
+    "gamma/v matchesprintedclock, no automaticphysicalcorrectness guarantee",
+    "r=U*R not uniform-area disk; onefixedpublicinput R1mm differspaperdiameter2.5mm",
+    "cardGEANT selectsGeant_default_model whilepaperquotesForsterAu; actualpaperjobinputmissing",
+    "alpha measuredenergy=totalafterfoil minusdeadlayer losses+Gaussian, SiDE100um internallypropagated forback-deadlayer computation butnot subtractedfromelab0total",
+    "detEff angularcubic butnearestenergyselection differspaperprosecubicenergy",
+    "two-body/booster publiccode not Sun producer"
+  ]
+}

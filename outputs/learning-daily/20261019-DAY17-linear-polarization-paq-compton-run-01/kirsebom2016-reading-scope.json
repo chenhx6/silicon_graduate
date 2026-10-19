@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-19T16:36:42.895299+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "PDF_sha256": "9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b",
+  "actualscope": "full13pagesmainline/refs,21figures,2tables,4numberedequations; allpagesvisuallyinspected",
+  "version": "arxiv1508.07188v1 28Aug2015; journalmetadata2016; PDFdate14Aug2018 fromsource date-today, notnewexperiment",
+  "source_archive_sha256": "851542fe0d82ecbaf5db4f1e8dedd3b2367913f7be8b3a9895bc5519c1db9ae6",
+  "source_scope": "whitelistedmain.tex/body_final.tex read, noarbitraryextract",
+  "notcovered": [
+    "PRCVoRbody",
+    "originaldata/Cov/profilefit",
+    "publicSimDSAMcode yet",
+    "Forster/Alexanderprimarybody"
+  ],
+  "scientificboundaries": [
+    "Bpprinted.037±.07intro/p9 vs.037±.007conclusion/p12; no silentrepair",
+    "literalpropertime t=integralgamma ds/v needscodebridge",
+    "samefacility sharedmethod/Forster reference notSunexactproducer",
+    "source 8degreepointaperture beamspotaccepts13; Sun13degree notsamegeometry"
+  ],
+  "bibliography_boundary": "v1 PDFrightcolumnRef25/27/30/33clipped; notallfieldsverified; officialsrcdate-todaychecked",
+  "table_plot_boundary": "13TableIIstates versus11lifetimeplotsFigs10–20;6236/7444onlyTableIIlocator"
+}

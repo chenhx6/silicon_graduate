@@ -1,0 +1,123 @@
+{
+  "identity": "K16-PRINTED-INPUT-AND-CONDITIONAL-EXERCISE-01",
+  "source_pdf": "tmp/day17-kirsebom2016/kirsebom2016-arxiv-v1.pdf",
+  "source_sha256": "9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b",
+  "swelling_A": 0.75,
+  "quoted_A_scale": 0.25,
+  "peak_c": 1.05,
+  "rho_Au_g_cm3": 19.3,
+  "Bp_intro_printed": 0.037,
+  "Bp_intro_printed_scale": 0.07,
+  "Bp_conclusion_scale": 0.007,
+  "tau_upper_fs": 12,
+  "J": 3.5,
+  "J_alternative": 2.5,
+  "Jp": 0.5,
+  "JNa": 3,
+  "hbar_eV_s": 6.582119569e-16,
+  "beta_source_range": [
+    0.059,
+    0.082
+  ],
+  "shorttime_stopping_MeV_um": 8.5,
+  "A_recoil": 23,
+  "gamma_transition_approx_keV": 7336,
+  "tableII": [
+    {
+      "Ei": 2052,
+      "Ef": 451,
+      "Eg": 1601.4,
+      "Eg_scale": 1.3,
+      "tau_fs": 104,
+      "tau_scale_fs": 18
+    },
+    {
+      "Ei": 2771,
+      "Ef": 0,
+      "Eg": 2769.7,
+      "Eg_scale": 1.2,
+      "tau_fs": 98,
+      "tau_scale_fs": 15
+    },
+    {
+      "Ei": 2908,
+      "Ef": 0,
+      "Eg": 2906.4,
+      "Eg_scale": 1.1,
+      "tau_fs": 15,
+      "tau_scale_fs": 3
+    },
+    {
+      "Ei": 3798,
+      "Ef": 451,
+      "Eg": 3343.9,
+      "Eg_scale": 1.3,
+      "tau_fs": 41,
+      "tau_scale_fs": 6
+    },
+    {
+      "Ei": 4353,
+      "Ef": 0,
+      "Eg": 4356,
+      "Eg_scale": 2,
+      "tau_upper_fs": 11
+    },
+    {
+      "Ei": 5287,
+      "Ef": 451,
+      "Eg": 4837,
+      "Eg_scale": 3,
+      "tau_upper_fs": 14
+    },
+    {
+      "Ei": 5453,
+      "Ef": 2052,
+      "Eg": 3401,
+      "Eg_scale": 2,
+      "tau_upper_fs": 15
+    },
+    {
+      "Ei": 6236,
+      "Ef": 2052,
+      "Eg": 4186,
+      "Eg_scale": 3,
+      "tau_upper_fs": 40
+    },
+    {
+      "Ei": 6375,
+      "Ef": 2052,
+      "Eg": 4322,
+      "Eg_scale": 6,
+      "tau_upper_fs": 45
+    },
+    {
+      "Ei": 6899,
+      "Ef": 0,
+      "Eg": 6907,
+      "Eg_scale": 3,
+      "tau_upper_fs": 10
+    },
+    {
+      "Ei": 7444,
+      "Ef": 0,
+      "Eg": 7443,
+      "Eg_scale": 3,
+      "tau_upper_fs": 14
+    },
+    {
+      "Ei": 7493,
+      "Ef": 2052,
+      "Eg": 5442,
+      "Eg_scale": 2,
+      "tau_upper_fs": 20
+    },
+    {
+      "Ei": 7787,
+      "Ef": 451,
+      "Eg": 7335,
+      "Eg_scale": 2,
+      "tau_upper_fs": 12
+    }
+  ],
+  "scope": "printedmeanlifetimes/limits/centralconditionalstrength only; no originalfit/95CIreconstruction/Suntransfer"
+}

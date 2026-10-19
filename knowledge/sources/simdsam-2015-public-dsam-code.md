@@ -1,0 +1,89 @@
+---
+type: source
+title: "SimDSAM公开2015代码：测量能量、停止输入与可重放边界"
+title_original: "SimDSAM — Monte Carlo simulation for DSAM gamma-ray line shapes"
+aliases: [SimDSAM2015, public S1378 DSAM producer]
+created: 2026-10-20
+updated: 2026-10-20
+status: ai-draft
+review_status: unreviewed
+source_type: software-source-code
+reading_depth: skimmed
+authors: [O. S. Kirsebom]
+year: 2015
+citation_key: ""
+canonical_source: "oliskir SimDSAM 2015 code1e5763659e46d636ed90234ae0df0b6402d129a8 READMEpin21809a67"
+source_url: https://github.com/oliskir/SimDSAM/tree/21809a67ea9f3b0514cc57908659463f29b1e1ab
+data_version: code2015-08-04-README2021-10-24-pinned21809a67
+raw_file: raw/software/day17-20261020/SimDSAM/source/particle.cpp
+raw_sha256: 9bb136e6301d14ce7467199340e0357f28367bbd1b359154e3c3482689c2d501
+raw_storage_status: public-staging-verified-vendor-not-redistributed
+nuclei: [23Mg, 24Mg]
+methods: [DSAM, source-code-audit, ROOT, detector-response]
+tags: [lifetime, stopping, public-code, proper-time, calibration]
+---
+
+# 公开程序的行为与原实验job分别核对
+
+## Bibliographic Record
+
+[[kirsebom-2016-23mg-dsam-lifetimes]] K16-6给出的原作者公开[SimDSAM](https://github.com/oliskir/SimDSAM)。本次固定HEAD`21809a67ea9f3b0514cc57908659463f29b1e1ab`，24Oct2021只改README；历史代码提交`1e5763659e46d636ed90234ae0df0b6402d129a8`为4Aug2015。两者之间仅README不同，52个源码/数据文件的Git blob与SHA256已逐一核，合计579892字节。README明确称用于TRIUMF Oct2012 S1378、PRC93 025802分析；这项作者声明不能替代对应job/config/原counts。
+
+源码与数据副本在`tmp/day17-kirsebom2016/simdsam-source/`；原Git库只作读取/固定版本，无Wiki remote改动、无执行Makefile/clean/install。[52项manifest](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-full-source-manifest.json)保存完整清单、历史与文件hash，raw/vendor未重分发。
+
+## Scope and Reading Depth
+
+**Covered scope：** README/LICENSE/defaultCARD、particle的传播/能损/检测/死层、sequence初始化、stopping表与mix函数、decay动力学、main的输入/条件计数/输出/角生成、globals/depthProfile/scattering/detectionEfficiency等相关路径。读取是定向的，未读所有mass数据行/每项unusedhelper，故reading_depth为skimmed。
+
+**Not covered：** 原ROOTanal分析程序、card引用的experimentalROOT文件、原fitΣ/全部实际job、历史编译器/ROOT binary均未得。新ROOT6.40.04组件需要语法兼容适配，非历史binary复现，也非Sun的tailoredproducer。
+
+## Summary
+
+公开程序足以核清部分变量与算法，并执行原表达式的有界组件。它也保留了与论文叙述/默认输入的差别：停止表选择、束斑抽样、时间积分和效率插值等，不能以“代码公开”宣称原实验拟合或CI已重现。实际native控制只用于检验这些合同，原文件/输入与失败记录全部保留。
+
+## Experimental or Method Setup
+
+另名wrapper将原main重命名而不调用，不运行detected-event循环或写ROOTanal输入卡。使用原class/functions，显式关闭He植入、能量/角straggling、Si噪声等，测试束斑矩、固定时间传播、原停止表的mix函数和alpha测量变量。legacy全局class `decay`与现代`std::decay`冲突导致初编译失败；只用预包含外部头、预处理改类名的适配，原52文件hash保持。原表达式没有修正，当前ROOT/适配边界明确记录。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SD15-1 | 公开代码pin21809a67，代码与2015-08-04的1e57636相同，仅README在2021更新。README称S1378 Oct2012/PRC2016 used-for-analysis，52blob/hash核通过；无对应实验job认证。 | identity-and-provenance | direct-repository | Git history/diff；README.md；full-source-manifest | true |
+| SD15-2 | 包含20张ICRU/Geant导出停止表、GRIFFIN效率、SRIM植入profile、AME12质量表与NISTweights；card提到的ROOTanal/RootFiles/experimentalhistogram文件不在52文件中。数据包含模型输入，不等原实验counts/Cov已公开。 | input-inventory-and-readiness | direct-file-inventory | tree manifest；InputCards/INPUTDEF.CARD；globals::inputCardForAnalysis | true |
+| SD15-3 | defaultCARD GEANT对Z>3选Geant_default_model，PASS选ICRU73，alpha也读ICRU；源码没有Forster表选择。defaultCARD R1mm、carbon.25µm等与正文示例不同，不能裸用它复现论文的Forster/2.5mm束斑/水等效污染假设。 | configuration-paper-bridge | direct-code-and-primary | stoppingDataTables ctor；INPUTDEF.CARD；K16-2/4/7 | true |
+| SD15-4 | alpha measuredEnergy由出靶能量减三层inactive loss再加Gaussian构成，active100µmDE的损失未从该total扣除；内部elab却在穿层后为残余。旧模型变量不同于单E detector residual，也不能直接认证Sun实际sorter门。 | detector-variable-contract | direct-code | particle::detection/SiDeadLayers；sim_dsam main e0/getMeasuredEnergy | true |
+| SD15-5 | propagate先按指数抽t，energyLoss按f=gamma/v累计du=dx*f，与K16印刷相同；通常properclock需ds/(gamma v)。此源合同可核，但实际旧实验τ偏差不能由读到表达式直接重标。 | clock-source-contract | direct-code-and-physical-boundary | particle::propagate/energyLoss L138–270；K16-15 | true |
+| SD15-6 | initializeVertex使用r=U R与均匀方位，而非均匀面积盘的r=R sqrt(U)。因此E[r²]/R²为1/3而非1/2；这是代码生成模型，不是重新测得的beamprofile或论文τ修正。 | source-model-and-condition | direct-code-and-derived | sequence::initializeVertex | true |
+| SD15-7 | stopping插值在logE/logS坐标用cubic，并加低/高端人为anchor；He以同元素质量比例缩放至3He，mix以numberdensity→c与swelling处理。不是完整核碰撞/角散射模型，也非所有表点实验值。 | actual-stopping-algorithm | direct-code | stoppingDataTables ctor/GetStopping overloads | true |
+| SD15-8 | 原作者正文称效率在能量间cubic；此pin在角度上cubic、能量上取最近bin，且各能量除ymax并clip[0,1]。此conditional形状/接受概率不能直接当原绝对效率或独立Q标定。 | response-interpolation-and-normalization | direct-code-and-primary-counter | detectionEfficiency ctor/getEff；sim_dsam EFFmat loader；K16-6 | true |
+| SD15-9 | 原main循环止于Nevents个已检测alpha-gamma事件；NMonteCarlo数组循环复用，20k试验后可缩角范围。输出detected数不等incident数/绝对效率；必须保试验与接受合同，当前wrapper没有运行这个循环。 | sampling-denominator-and-scope | direct-code | sim_dsam.cpp main while(ndet<Nevents)/i%NMonteCarlo/angle reduction | true |
+| SD15-10 | 原表达式组件在ROOT6.40.04经语法适配compile/run0，初class-name编译失败保留。原missing-return警告和未使用compoundZ14的五个缺表警告保持，不认证完整程序/其它Z可用。 | execution-and-failure-boundary | native-component | compatibility-boundary；native-component-result | true |
+| SD15-11 | 原sequence native20000样本给mean(r/R)≈.499337、mean(r²/R²)≈.331814，与均匀半径源一致；不是uniform-area验证或实验统计。原式下RMS半径相对同R均匀面积盘为sqrt(2/3)。 | actual-sampler-control | native-model-and-exact-moments | BEAM_RADIAL；source-design-exercise | true |
+| SD15-12 | beta.059/.082、固定time.2/.5fs、无straggling的原energyLoss控制，实际position给出的proper-time区间均不含输入t；与gamma/v印刷合同相容。另xOutput高于校正后位置，原末步位置修正未同步总x；四点不等原实验τbias/CI。 | independent-clock-and-distance-countercontrol | native-model-and-physical-bound | native-clock-analysis；energyLoss last-step correction/xOutput | true |
+| SD15-13 | 32MeValpha/1°/Si噪声off控制给measuredEnergy≈31986.389keV、internalresidual≈27989.812keV，三deadloss之和满足原total变量恒等式；没有恢复实验ROOTanal或Sungate表达式。 | actual-detector-variable-control | native-model | ALPHA_DETECTION/ALPHA_LAYERS；component summary | true |
+| SD15-14 | publicGEANT表下E/A1/1.7/2MeV、c1.05/A.75的native mix/pure约.61181/.60493/.60299，c0还原pure。这是当前表/模型的local值，不是实测targetdensity、Sun额外40%误差或Forster exactjob复现。 | actual-mixture-component-control | native-model | MIXTURE；component summary | true |
+| SD15-15 | 独立重编译/运行的组件physics输出逐行一致、全部52文件hash仍同；成功表示重放既有行为及物理边界，非已验证原fit/CI。此MC用预导出表，不能将GSI26当前Geant4runtime首状态问题直接套到它。 | reproducibility-and-version-boundary | native-replay | native-component-replay；GSI26-7/14 | true |
+
+## Analytical Reconstruction and Self-Audit
+
+[代码前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-before-freeze.json)、[native设计冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-design-freeze.json)、[wrapper](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-component.cc)、[实际回执](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-component-result.json)、[重放程序](../../system/scripts/day17_simdsam_native_component.py)区分输入、声明控制和输出。类名适配仅为当前C++语法，未改physics statement；全部源/data hash前后核。
+
+时钟的独立检验使用单向、无straggling的减速轨迹。若输入t是proper time，应有`L/(gamma_i v_i) ≤ t ≤ L/(gamma_f v_f)`。beta.059/time.2fs的实际位置给约[.199238,.199316]fs，beta.082对应[.198616,.198666]fs，均不含.2fs；这支持代码字面时钟的适用边界，不能用恒βγ²直接修原变化轨迹/拟合。报告距离xOutput与末步校正位置也不同，需在进一步straggling/完整响应重放前另核。
+
+alpha组件中measured total与internalresidual差约3996.58keV，反映activeDE能损仍计入总测量变量；native三层loss只约13.611keV。不能把两个变量当同义，也不能从该单点证明死层模型/全能区响应已正确。没有生成paper级γ谱或拟合原histogram。
+
+## Competing Interpretations and Limitations
+
+- 程序与论文有真实谱系，但defaultCARD/附带表不提供paperexactjob；方法声明/代码路径/运行输入必须分别核对。
+- 代码的clock/束斑/插值等发现是软件/模型自审，仍需原数据、actualjob、误差和更完整控制才能判断实验影响。
+- 当前native混合靶不是Sun材料定义；Swelling已包含与否未知，不能把local40%差当其20%先验遗漏。
+- 原警告/初编译失败保留；没有为成功运行悄悄修模型或换数据。original programme、对照模型、实验事实分层。
+
+## Knowledge Impact and Learning Decision
+
+`supports`有真实公开输入可推进有界native验证；`revises`公开repo即原实验完全可复现、或软件成功即物理通过的判断；`limits`现有数据对Sun/旧实验寿命CI的归因。新claim全needs_review，没有human-reviewed或新实验τ/B/δ/强度。
+
+## Extracted Pages
+
+[[kirsebom-2016-23mg-dsam-lifetimes]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[geant4-2026-ion-stopping-component-contract]]。Day17原窗口中仅Day18无学分知识预习。

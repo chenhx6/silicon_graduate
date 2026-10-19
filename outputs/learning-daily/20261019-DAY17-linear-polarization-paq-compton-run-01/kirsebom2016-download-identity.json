@@ -1,0 +1,9 @@
+{
+  "url": "https://arxiv.org/pdf/1508.07188v1",
+  "status": 200,
+  "bytes": 874151,
+  "sha256": "9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b",
+  "is_pdf": true,
+  "path": "tmp/day17-kirsebom2016/kirsebom2016-arxiv-v1.pdf",
+  "body_read": false
+}

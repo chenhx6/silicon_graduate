@@ -1,0 +1,5 @@
+# SimDSAM原样组件执行前设计
+
+已读paper/body及原2015code核心。下面只用原样class/函数+另名wrapper，mainrename避免原detected-event while循环与写analysis卡，不运行Makefile/clean/install。保持52blob/hash。原附带INPUTDEF.CARD GEANT/半径1mm等不是paperjob，fixture显式关Heimplant/straggling/Si噪声等来核三项：原initializeVertex radial moments、原energyLoss(t)有限位置/能量/时钟路径、原alpha detection measuredEnergy与DE/backdeadlayer角色。输入路径/全部输出/tmp在repo内。不能把wrapper返回值当已replay原paper spectra/CI/原Forstertable。
+
+clock印刷与code都gamma/v，native需要独立properclock/恒速控制才能定实际误差，不改原source强修。r=U R可用native样本核其moments但不是测beamprofile；DE+E语义需原sorter/ROOTdata进一步match。所有失败/警告/异常和输出unit保存，不用default20000detected/1e6arrays填时段。

@@ -1,0 +1,75 @@
+{
+  "controls": [
+    {
+      "beta_initial": 0.059,
+      "t_input_fs": 0.2,
+      "actual_position_m": 3.5302153878125136e-09,
+      "reported_xOutput_m": 3.63984320057035e-09,
+      "xOutput_minus_position_m": 1.0962781275783642e-10,
+      "physical_proper_time_interval_fs": [
+        0.19923759047477033,
+        0.1993155427113814
+      ],
+      "input_time_outside_physical_interval": true,
+      "printed_clock_position_bound_m": [
+        3.530017014308807e-09,
+        3.5313885293076937e-09
+      ],
+      "source_noisy_or_experimental_lifetime": false
+    },
+    {
+      "beta_initial": 0.059,
+      "t_input_fs": 0.5,
+      "actual_position_m": 8.822422842208903e-09,
+      "reported_xOutput_m": 9.928753442201476e-09,
+      "xOutput_minus_position_m": 1.1063305999925732e-09,
+      "physical_proper_time_interval_fs": [
+        0.49791813703482424,
+        0.4984054542214246
+      ],
+      "input_time_outside_physical_interval": true,
+      "printed_clock_position_bound_m": [
+        8.819899271924881e-09,
+        8.828471323269234e-09
+      ],
+      "source_noisy_or_experimental_lifetime": false
+    },
+    {
+      "beta_initial": 0.082,
+      "t_input_fs": 0.2,
+      "actual_position_m": 4.89907650144939e-09,
+      "reported_xOutput_m": 5.3676211918909264e-09,
+      "xOutput_minus_position_m": 4.685446904415363e-10,
+      "physical_proper_time_interval_fs": [
+        0.19861618552708296,
+        0.19866618335952427
+      ],
+      "input_time_outside_physical_interval": true,
+      "printed_clock_position_bound_m": [
+        4.898822231160902e-09,
+        4.900038834337704e-09
+      ],
+      "source_noisy_or_experimental_lifetime": false
+    },
+    {
+      "beta_initial": 0.082,
+      "t_input_fs": 0.5,
+      "actual_position_m": 1.2244992661616685e-08,
+      "reported_xOutput_m": 1.291371180678908e-08,
+      "xOutput_minus_position_m": 6.687191451723952e-10,
+      "physical_proper_time_interval_fs": [
+        0.4964310586980845,
+        0.49674361426708735
+      ],
+      "input_time_outside_physical_interval": true,
+      "printed_clock_position_bound_m": [
+        1.2242492772631346e-08,
+        1.2250097085844261e-08
+      ],
+      "source_noisy_or_experimental_lifetime": false
+    }
+  ],
+  "proper_identity": "d_tau=ds/(gamma*v); betamonotoneconstantdirectionselectedcontrol",
+  "native_input_uses": "gamma*ds/v asprinted/verifiedsource",
+  "no_original_experiment_tau_rescaling": true
+}

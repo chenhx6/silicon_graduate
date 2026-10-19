@@ -279,6 +279,18 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
 
 4动量与CM/Lab控制通过；2234 fixedangle dEx/dTalpha约−.5552至−.5554，2MeVvertex窗映约1.1104–1.1108MeVEx，支持源“约1MeV”的量级而非认证actualsorter/σ。角接受、前靶beamloss、出靶/Si/deadlayer和calibrationCov仍需实际producer。canonical Sun/GSI/method/auditledger已同步，formal17once/18无学分、不研究19。
 
+### Day18无学分预习：23Mg原方法与公开SimDSAM
+
+[Kirsebom source](../../knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md) K16-1–16实际原读arxiv1508.07188v1十三页/21图/2表/4式，全页视觉核；源码date-today解释PDF2018日期，journal2016与v12015分开，VoR未得。原TableII13行4finite/9limits已canonical，Ref25等PDF裁切字段不补metadata，6236/7444不造图号。作者7787<12fs/95%仍兼容争议双方，Bp前文±.07/结论±.007/19%内部差异保留。
+
+该原实验明确alpha先出Au，约4MeV损失后才连接vertex与测量；nominal8°接受因束斑/散射扩展，100/500µmSi与Sun87/1000µm不同。Eq4 He contribution/swelling同时出现，peakdensity部分.55944不是总S或新σ；fixedBp/J/τ12重放omega_gamma1.11680meV并非新joint95%界。Fig21几何Ω乘积约1.01479也不消除宽门背景/角分布代价。[原式练习](20261019-DAY17-linear-polarization-paq-compton-run-01/kirsebom2016-exercise-result.json)与全部打印输入保持。
+
+[SimDSAM source](../../knowledge/sources/simdsam-2015-public-dsam-code.md) SD15-1–15核实际2015code/2021READMEpin、52blob/hash/579892bytes，公开data为表/模型响应，不含原ROOTanal/experimentalhistograms/fitCov。defaultGEANT表、R1mm、效率最近能量bin/角度cubic等与正文示例不同，不能裸认paperexactjob或Sunproducer。
+
+[原表达式组件](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-component-result.json)及[独立重编译重放](20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-component-replay.json)实际0，初std::decay类名冲突仅语法适配/保源hash，原missingreturn和unusedZ14缺表警告保留。native径向矩.331814符合r=UR而非uniform-area .5；原gamma/v固定时间轨迹不满足properclock区间，xOutput与末步位置不同。alpha32MeV控制measuredtotal31.9864/internalresidual27.9898区分active总能与单E残余；public表peakmix/pure约.603–.612非Sun新40%误差。没有改原physics、构建原posterior或重拟合实验τ/CI。
+
+`supports`实际公开输入可推进组件与原方法核验；`revises`代码可取得即原实验完全可复现、变量同名即响应相同；`limits`同设施/共享Forster/SRIM与新SDK问题的迁移。原代码MC使用导出表，不能直接套GSI26 runtime首状态问题。canonical两新source、Sun/method/auditledger/index已同步；formal17once，18仍无学分，不研究19课程卡。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -488,7 +500,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/index.md",
-      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。",
+      "summary": "加入Day17新研究笔记导航；这里只是治理入口，物理主张仍回source/note。 增加公开producer/实际组件与版本反证入口。 新原件实际Q与版本/数据依赖已加入。 207Pb真实reference/归一依赖与readiness已补。 索引新的官方停止本领证据。 索引新读Bt1966原实验。 索引新的离子阻止组件合同。 索引23Mg原方法与公开代码页。",
       "anchor": "polarimetry-shared-calibration-count-design",
       "sources": [
         {
@@ -694,6 +706,130 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-1"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-2"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-3"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-4"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-5"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-6"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-7"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-8"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-9"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-11"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-12"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-13"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-14"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-15"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-1"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-2"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-3"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-4"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-5"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-6"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-7"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-8"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-9"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-10"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-11"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-12"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-13"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-14"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-15"
         }
       ]
     },
@@ -1042,7 +1178,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补actualprimary/实际publicproducer输入与countercontrols，不造实验CI。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1320,12 +1456,136 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-16"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-1"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-2"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-3"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-4"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-5"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-6"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-7"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-8"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-9"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-11"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-12"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-13"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-14"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-15"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-1"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-2"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-3"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-4"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-5"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-6"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-7"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-8"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-9"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-10"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-11"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-12"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-13"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-14"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-15"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补mixture/energy/properclock/software与实际response的分层门。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -1619,6 +1879,130 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-16"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-1"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-2"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-3"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-4"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-5"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-6"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-7"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-8"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-9"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-11"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-12"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-13"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-14"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-15"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-1"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-2"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-3"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-4"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-5"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-6"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-7"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-8"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-9"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-10"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-11"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-12"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-13"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-14"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-15"
         }
       ]
     },
@@ -1667,7 +2051,7 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
     },
     {
       "knowledge": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
-      "summary": "原读2022v2十页/5图1表3式，actualprior/likelihood/GP与quantile、6390conditional应用及USDB辅助M1提取分层；未得SI/actualinput/paperproducer。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。",
+      "summary": "原读2022v2十页/5图1表3式，actualprior/likelihood/GP与quantile、6390conditional应用及USDB辅助M1提取分层；未得SI/actualinput/paperproducer。 补alpha门残余/沉积/vertex合同、源Q条件运动学与gate-Jacobian边界。 补真实同设施companion与Sunproducer/gate迁移界限。",
       "anchor": "Bayesian DSAM首先要问likelihood与prior合同",
       "sources": [
         {
@@ -1793,6 +2177,130 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-16"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-1"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-2"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-3"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-4"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-5"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-6"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-7"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-8"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-9"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-11"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-12"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-13"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-14"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-15"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-1"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-2"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-3"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-4"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-5"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-6"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-7"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-8"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-9"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-10"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-11"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-12"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-13"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-14"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-15"
         }
       ]
     },
@@ -2247,6 +2755,268 @@ SUN23-27–31重核原PDF2 Fig1/3SecIII、官方tex183–199/210与SI Fig2；直
           "locator": "GSI26-16"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "summary": "新增23Mg原13页主线与响应/植入靶/alpha门/limit及条件强度练习。",
+      "anchor": "先传播粒子到探测器，再解释能量门",
+      "sources": [
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-1"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-2"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-3"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-4"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-5"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-6"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-7"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-8"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-9"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-11"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-12"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-13"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-14"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-15"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-1"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-2"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-3"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-4"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-5"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-6"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-7"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-8"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-9"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-10"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-11"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-12"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-13"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-14"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+      "summary": "新增真实2015代码/52blob/data与原表达式native控制及exactjob边界。",
+      "anchor": "公开程序的行为与原实验job分别核对",
+      "sources": [
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-1"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-2"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-3"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-4"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-5"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-6"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-7"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-8"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-9"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-10"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-11"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-12"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-13"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-14"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-15"
+        },
+        {
+          "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+          "locator": "K16-16"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-1"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-2"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-3"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-4"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-5"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-6"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-7"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-8"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-9"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-10"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-11"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-12"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-13"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-14"
+        },
+        {
+          "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+          "locator": "SD15-15"
+        }
+      ]
     }
   ]
 }
@@ -2364,3 +3134,8 @@ GSI26-11–15实际source/native/diagnostic/strictreplay已canonical；无原pro
 ### checkpoint018 alpha gate合同验收
 
 Source/SDK/条件vertex/Jacobian与actualgate缺口已canonical。旧26SUN/15GSIrows/flags保持；新SUN27–31最初插在NuclearStructure段未被claimheader索引，本次已只移动完整rows、显式核31SUN/16GSI，初lint0不当完整claimcoverage。verification032保存report/27changed29mapped/coverage/boundary/lint/diff/protected/review实际exit，0error211warnings。stablemain / `Separate detected alpha gates from vertex recoil kinematics`，actualhash/H3/push只publication018。原研究window/goalactive、formal17once/partial18不变，下一同设施Kirsebom2016需新freeze/实际body后才判迁移。
+
+
+### checkpoint019 K16/SimDSAM验收（编号不是Day19卡）
+
+K16完整原读/publicsource与原表达式nativecontrol/重放、52hash/失败/警告已canonical；未重fit实验τ/CI。唯一writeback29changed31mapped，旧Sun31rows/flags保持，新增SUN32与16K16/15SD15indexed且true；verification033记录report/coverage/boundary/lint/diff/protected/native实际exit，0error215warnings。K16exercise freeze初sessionID手误已保原/按runreceipt改执行元数据，时间/questionhash不变。stablemain / `Read original Mg23 DSAM and audit the public SimDSAM producer`，actualhash/H3/push仅publication019。原window/goalactive，formal17once/18partial不变，下一真实ForsterMgAu数据与primary核查，不研究19课程卡。

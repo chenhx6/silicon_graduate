@@ -206,3 +206,12 @@ SUN23-27–31/GSI26-16的新输入审计保留实际Si角色和原Q：E为1mmSi�
 所有positivephysicalroots仍保留；低root与被探测tensMeV支分开。actualSDK核质量和sourceQ分别计算，高rootQ选择差至多约.000578MeV；不以多位质量调gate。2234无损Jacobian约−.555、2MeV窗映约1.11MeVEx只是量级控制，未恢复实际beamdepthloss、posttarget/Si响应、calibrationCov或gate平均。
 
 `supports`原约1MeVEx窗口的量级；`revises`把αgate中心直接当vertex动能或把残差拟成targetloss；`limits`当前数据对实际recoil history/τ/CI的保证。原Sunmain/SI/SDK条件算术不增加独立实验。下一应找actualgate/同设施source response来核角色，不能拿这张表宣称原实验矛盾。
+
+
+## 23Mg原DSAM与SimDSAM的独立companion
+
+[[kirsebom-2016-23mg-dsam-lifetimes]] K16-1–16完整13页/21图/2表/4式实际读。四finite/九95%upperlimit保留，7787<12fs同时允许争议的不同τ；固定Bp/J的ωγ约1.1168meV不是含输入不确定度的新joint95%界。Bp前文±.07与结论±.007/19%不一致保留，不从元数据改原测量。
+
+该实验的alpha出靶约4MeV、He植入层swelling及有限束斑/散射，使门到vertex/响应的映射具体化：不能裸迁给Sun；density部分peak约.55944，He项仍需一起算，不将它当额外固定系统σ。Fig21理想cone乘积近恒并不消除门更宽/背景/角分布的代价。
+
+[[simdsam-2015-public-dsam-code]] SD15-1–15给真实52文件/2015代码与原表达式组件，但defaultGEANT表/半径/插值与正文有差别，原ROOTanal/data/Σ/job未给。原native uniform-radius矩约.331814、不是uniform-area .5；原gamma/v时钟与properclock不同；报告xOutput未同步最后position修正；measuredalpha32MeV控制约31.9864而internalresidual27.9898，说明变量角色不能混。同表模型peak mix/pure约.603–.612非新测量或Sun40%误差。原源hash/失败/警告保留，未改physics或重fitτ。

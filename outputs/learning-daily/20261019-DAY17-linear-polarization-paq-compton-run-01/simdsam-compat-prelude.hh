@@ -1,0 +1,24 @@
+#pragma once
+// Preinclude external headers before legacy class-name compatibility macro.
+#include <Math/Interpolator.h>
+#include <TF1.h>
+#include <TFile.h>
+#include <TH1F.h>
+#include <TH2F.h>
+#include <TLorentzRotation.h>
+#include <TLorentzVector.h>
+#include <TMath.h>
+#include <TObject.h>
+#include <TROOT.h>
+#include <TRandom3.h>
+#include <TSystem.h>
+#include <TTree.h>
+#include <TVector3.h>
+#include <fstream>
+#include <iostream>
+#include <math.h>
+#include <sstream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+#include <string.h>

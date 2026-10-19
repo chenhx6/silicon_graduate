@@ -1,0 +1,64 @@
+{
+  "fixture_sha256": "ade2c9c0fc86130a5ad2d7902e44ace46f24ff2e6ff70fa9653dc5402be9443d",
+  "prelude_sha256": "1f8e8cf34fc88e2e2bfb42e1671191512bc30bd3b7b6ffc68ffdfbcac9d975ef",
+  "ROOT_version": "6.40.04",
+  "adapter": "legacydecayidentifieronly;allsourceexpressionsunchanged",
+  "commands": [
+    {
+      "command": [
+        "c++",
+        "-pthread",
+        "-std=c++17",
+        "-m64",
+        "-fsized-deallocation",
+        "-I/opt/root/include",
+        "-std=gnu++17",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-component.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-kirsebom2016/native-component/component",
+        "-L/opt/root/lib",
+        "-lCore",
+        "-lImt",
+        "-lRIO",
+        "-lNet",
+        "-lHist",
+        "-lGraf",
+        "-lGraf3d",
+        "-lGpad",
+        "-lROOTVecOps",
+        "-lTree",
+        "-lTreePlayer",
+        "-lRint",
+        "-lPostscript",
+        "-lMatrix",
+        "-lPhysics",
+        "-lMathCore",
+        "-lThread",
+        "-lROOTNTuple",
+        "-lROOTNTupleUtil",
+        "-lMultiProc",
+        "-lROOTDataFrame",
+        "-Wl,-rpath,/opt/root/lib",
+        "-pthread",
+        "-lm",
+        "-ldl",
+        "-rdynamic",
+        "-lMathMore"
+      ],
+      "cwd": "/workspace/wiki",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "In file included from /workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/sim_dsam.cpp:44,\n                 from /workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-native-component.cc:5:\n/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/detectionEfficiency.cpp: In member function \u2018double detectionEfficiency::getEff(double, double)\u2019:\n/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source/detectionEfficiency.cpp:127:1: warning: control reaches end of non-void function [-Wreturn-type]\n  127 | };\n      | ^\n"
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-kirsebom2016/native-component/component"
+      ],
+      "cwd": "/workspace/wiki/tmp/day17-kirsebom2016/simdsam-source/source",
+      "exit_code": 0,
+      "stdout": "Z1: 14\nZ2: 2\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 79\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 6\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 13\nNo stopping data for chosen ion-target combination\nZ1: 14\nZ2: 14\nNo stopping data for chosen ion-target combination\nBEAM_RADIAL,20000,0.001,0.49933724075492936,0.33181365107298777\nMIXTURE,1000,8.4573372000000031,2.5512889215467447,8.4573372000000031,5.1742749658539093\nMIXTURE,1700,8.2287799923805398,2.1562453739729563,8.2287799923805398,4.9778322009540137\nMIXTURE,2000,8.0557428000000009,2.0208298721972464,8.0557428000000009,4.8575203776290889\nCLOCK_CONTROL,0.058999999999999997,0.20000000000000001,37366.48847141127,37337.291579742094,3.5302153878125136e-09,3.63984320057035e-09,0.058977005398056143\nCLOCK_CONTROL,0.058999999999999997,0.5,37366.48847141127,37293.517327251902,8.8224228422089028e-09,9.9287534422014759e-09,0.058942513118025515\nCLOCK_CONTROL,0.082000000000000003,0.20000000000000001,72354.78322598974,72318.430390677022,4.8990765014493901e-09,5.3676211918909264e-09,0.08197950196997654\nCLOCK_CONTROL,0.082000000000000003,0.5,72354.78322598974,72263.912382338109,1.2244992661616685e-08,1.291371180678908e-08,0.081948751459883853\nALPHA_DETECTION,1,31986.38880548879,27989.812335488499,1.0000000000000002\nALPHA_LAYERS,6.3774919590869104,0.17481945196777815,7.0588831001550716,27989.812335488499,31986.38880548879\n",
+      "stderr": ""
+    }
+  ]
+}

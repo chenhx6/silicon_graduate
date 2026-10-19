@@ -1,0 +1,9 @@
+{
+  "code_uniform_radius_Er2_over_R2": 0.3333333333333333,
+  "uniform_area_disk_Er2_over_R2": 0.5,
+  "RMS_radius_ratio_code_over_uniform_area": 0.816496580927726,
+  "public_Si_intrinsic_FWHM_keV": 53.85164807134504,
+  "public_Si_intrinsic_sigma_keV_div2p35": 22.915594923976613,
+  "not_a_fit_or_exp_beam_sigma_measurement": true,
+  "response_input_scope": "directsourcealgorithm/formula arithmetic; actualpaperjobinputs/analysisCov notobtained"
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://arxiv.org/abs/1508.07188",
+  "status": 200,
+  "final_url": "https://arxiv.org/abs/1508.07188",
+  "sha256": "0416beadfe96a98846f21699076f100946f3295525b332895d09da3d8ceeb67e",
+  "metadata": {
+    "citation_title": [
+      "Measurement of Lifetimes in 23Mg"
+    ],
+    "citation_author": [
+      "Kirsebom, O. S.",
+      "Bender, P.",
+      "Cheeseman, A.",
+      "Christian, G.",
+      "Churchman, R.",
+      "Cross, D. S.",
+      "Davids, B.",
+      "Evitts, L. J.",
+      "Fallis, J.",
+      "Galinski, N.",
+      "Garnsworthy, A. B.",
+      "Hackman, G.",
+      "Lighthall, J.",
+      "Ketelhut, S.",
+      "Machule, P.",
+      "Miller, D.",
+      "Nobs, C. R.",
+      "Pearson, C. J.",
+      "Rajabali, M. M.",
+      "Radich, A. J.",
+      "Rojas, A.",
+      "Ruiz, C.",
+      "Sanetullaev, A.",
+      "Unsworth, C. D.",
+      "Wrede, C."
+    ],
+    "citation_doi": [
+      "10.1103/PhysRevC.93.025802"
+    ],
+    "citation_date": [
+      "2015/08/28"
+    ],
+    "citation_online_date": [
+      "2015/08/28"
+    ],
+    "citation_pdf_url": [
+      "https://arxiv.org/pdf/1508.07188"
+    ],
+    "citation_arxiv_id": [
+      "1508.07188"
+    ],
+    "citation_abstract": [
+      "Several lifetimes in 23Mg have been determined for the first time using the Doppler-shift attenuation method. A Monte Carlo simulation code has been written to model the gamma-ray line shape. An upper limit of 12 fs at the 95% C.L. has been obtained for the astrophysically important 7787 keV state."
+    ]
+  },
+  "submission_history": "Submission history From: Oliver Kirsebom [ view email ] [v1] Fri, 28 Aug 2015 12:52:09 UTC (991 KB)",
+  "pdf_links": [
+    "/pdf/1508.07188",
+    "/pdf/1508.07188"
+  ]
+}

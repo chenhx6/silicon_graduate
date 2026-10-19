@@ -1,0 +1,8 @@
+{
+  "url": "https://arxiv.org/src/1508.07188v1",
+  "status": 200,
+  "bytes": 1014883,
+  "sha256": "851542fe0d82ecbaf5db4f1e8dedd3b2367913f7be8b3a9895bc5519c1db9ae6",
+  "type": "application/gzip",
+  "path": "tmp/day17-kirsebom2016/arxiv-source-v1.response"
+}

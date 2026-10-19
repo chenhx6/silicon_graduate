@@ -2098,3 +2098,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint018 — alpha detector-to-vertex contract
 
 同19日Day17原窗口继续；新核Sun E/DeltaE沉积与exactgate缺口，actualSDK质量/sourceQ条件vertex七态allroots/4momentum/CM-Lab/Jacobian练习已canonical。2234vertex49.48–52.21与47±1不等只反证无损映射，不当targetloss/experiment矛盾/τbias。旧26SUN/15GSIrow/flags保持、新全needs_review，claimindex31/16显式核。verification032 report/27changed29mapped/coverage/boundary/lint/diff/protected0，0errors211warnings，初writeback缺canonicallink已修/留档。稳定指针main / Separate detected alpha gates from vertex recoil kinematics；hash/push仅runreceipt，formal17once/18uncredited/原15:00截止/goalactive不变。
+
+## 2026-10-20 Day17 checkpoint019 — 23Mg primary and public SimDSAM
+
+同19日Day17原窗口继续，formal17once/18uncredited，不研究19课程卡。K16原13页/21图/2表/4式、TableII13rows/response/植入靶/alpha门边界及public2015SimDSAM52blob/原表达式native控制/重放已canonical；默认输入不认原paperjob、物理差异/失败/警告保留，不修实验τ/CI。verification033 report/29changed31mapped/coverage/boundary/lint/diff/protected0，0errors215warnings，旧SUN31rows/flags与newSUN32/16K16/15SD15索引通过。稳定指针main / Read original Mg23 DSAM and audit the public SimDSAM producer；hash/push仅runreceipt，原15:00截止/goalactive不变。

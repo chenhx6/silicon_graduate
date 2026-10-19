@@ -68,21 +68,21 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Bound native ion stopping state effects with controlled steps",
-    "commit": "eeac2863fcf886660501c721ccecbafd8461904f",
+    "subject": "Separate detected alpha gates from vertex recoil kinematics",
+    "commit": "8237505af4d45ac2ca946660171bd41f9362fcb3",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow; alpha-gate measured/vertexcontractcanonical; Kirsebom2016samefacilitycompanion next;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-032.json",
-  "last_observed_at": "2026-10-19T16:27:55.794633+00:00",
+  "research_status": "active originalwindow; K16/SimDSAMactualprimaryandcomponentcanonical; ForsterMgAuactualdataandprimary next;17once/18uncredited",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-033.json",
+  "last_observed_at": "2026-10-19T17:08:01.084015+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
   "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 27,
+  "canonical_knowledge_changed_pages": 29,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true
 }

@@ -1,0 +1,112 @@
+---
+type: source
+title: "Kirsebom2016：23Mg的DSAM、alpha能损与植入靶响应"
+title_original: "Measurement of Lifetimes in 23Mg"
+aliases: [Kirsebom2016 DSAM, K16 23Mg lifetimes]
+created: 2026-10-20
+updated: 2026-10-20
+status: ai-draft
+review_status: unreviewed
+source_type: journal-article
+reading_depth: read
+authors: [O. S. Kirsebom, P. Bender, A. Cheeseman, et al.]
+year: 2016
+journal: Physical Review C
+volume: 93
+pages: 025802
+doi: 10.1103/PhysRevC.93.025802
+citation_key: ""
+canonical_source: "Kirsebom et al 2016 PRC93 025802 arxiv1508.07188v1"
+source_url: https://arxiv.org/abs/1508.07188v1
+raw_file: raw/papers/day17-20261020/kirsebom-2016-23mg-dsam-arxiv-v1.pdf
+raw_sha256: 9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b
+raw_storage_status: public-staging-verified-raw-archive-deferred
+nuclei: [23Mg, 22Na, 24Mg, 28Si]
+reactions: [3He(24Mg,alpha)23Mg]
+methods: [DSAM, alpha-gamma-coincidence, line-shape, stopping-power]
+tags: [lifetime, DSAM, calibration, implanted-target, response]
+---
+
+# 先传播粒子到探测器，再解释能量门
+
+## Bibliographic Record
+
+O. S. Kirsebom等，*Phys. Rev. C*93，025802(2016)，DOI [10.1103/PhysRevC.93.025802](https://doi.org/10.1103/PhysRevC.93.025802)。本次实际原件为[arXiv1508.07188v1](https://arxiv.org/abs/1508.07188v1)，提交28Aug2015，十三页；没有取得期刊VoR。PDF日期14Aug2018来自源码`main.tex`的`\date{\today}`，不当作2018新实验或新版本。元数据/原PDF/源码包均实际核，源码包SHA256`851542fe0d82ecbaf5db4f1e8dedd3b2367913f7be8b3a9895bc5519c1db9ae6`。
+
+原PDF缓存`tmp/day17-kirsebom2016/kirsebom2016-arxiv-v1.pdf`，hash见frontmatter；只读取源码包白名单main/body tex，没有任意解包。raw与Bib保持不变。[下载身份](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kirsebom2016-download-identity.json)与[实际阅读范围](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kirsebom2016-reading-scope.json)区分arXiv、期刊metadata与公开程序。
+
+## Scope and Reading Depth
+
+承认Sun/IAEA/SDK与alpha-gate练习的strongpriming后冻结回忆，实际原读十三页全部主线/参考文献、Figs1–21、TablesI–II、Eqs1–4；全部页面视觉核。TableII十三行按原标签/拟合Eγ/meanτ或limit保存，没有把低精度Ei标签反推成新精确能级。Forster1976、Alexander1981等上游primary正文未读。 v1参考文献右列部分行被裁切，未把Ref25/27/30/33缺失字段补成已核bibliography。TableII十三态中Figs10–20只展示十一幅寿命谱，6236/7444保留TableII locator，不凭空分配图号。
+
+后续取得论文公开SimDSAM项目，另在[[simdsam-2015-public-dsam-code]]记录版本/输入/组件。公开代码的读取和执行不反过来认证这份预印本对应的最终实验job、原counts/Cov或期刊最终稿。
+
+## Summary
+
+论文在24Mg+3He逆运动学中用alpha门压feeding，利用Monte Carlo描述有限几何、阻止、植入层和多重散射，测出四项有限寿命并给九项上限。核心7787态只有τ<12fs的95%上限，作者明确它不足以解决22Na(p,γ)强度争议。同设施的alpha出靶能损和响应合同可作Sun的必要companion，不能直接迁移具体门值/靶参数或producer。
+
+## Experimental or Method Setup
+
+3.125AMeV的24Mg束，30keV3He植入22.6(.2)µm Au，dose6.6×10¹⁷cm⁻²；SRIM深度峰.07µm、尾到.15µm。Si telescope为100/500µm，中心点几何alpha0–8°；有限束斑与多重散射可使更大实际发射角被接收。四晶HPGe在7.83cm处，角覆盖约32°。这些参数均与Sun的32S/87µm/1mm/35keV植入/25µm foil分开。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| K16-1 | 实际body为2015arxivv1十三页，journalmetadata2016；PDF2018日期来自date-today，不增实验/版本。完整21图/2表/4式已读，VoR未得。 | identity-and-reading-scope | direct-original | PDF1；source main.tex date；reading-scope | true |
+| K16-2 | 实验为75MeV24Mg/3He→alpha23Mg，30keV植入22.6(.2)µmAu/dose6.6×10¹⁷，depth峰.07/尾.15µm；100/500µmSi与HPGe7.83cm/约32°，不能当Sun原geometry。 | experimental-input | direct | PDF2–3 SecIII；Figs2–4 | true |
+| K16-3 | 源中心点alpha aperture8°，束斑直径约2.5mm可接收到13°实际角，再叠multiple scattering；与一个硬8°或13°角cut不是相同接受算符。 | finite-geometry-and-acceptance | direct-and-author-model | PDF3 SecIII；PDF5 beam-emittance/multiple-scattering | true |
+| K16-4 | 作者估计表面凝结约.2µm water-equivalent使beam降.25MeV并产生背景，也提供28Si6877.88keV/escape校验线。±1keV高能标定/gain<±.5keV与稳定yield是本实验控制，不迁Sun。 | calibration-and-contamination | direct-and-author-interpretation | PDF3–4 SecIII；Fig5 | true |
+| K16-5 | 高能intrinsic Gaussian、低能另加skewedGaussian/step；FWHM≈3.3keV(E/MeV)^.52。TableI δE/E是作者粗略重要性估计，非可独立quadrature的GaussianΣ；HPGe接受项6‰大于1fs效应.12‰。 | response-and-error-semantics | direct | PDF4–5 SecIV；Fig6；PDF7 TableI | true |
+| K16-6 | MC为ROOT/C++，逐样本beam/depth/CM角/指数lifetime，传播alpha到出靶、recoil到decay；Geant4用于gamma能角效率。不能将“有Geant4”理解为本文完整原生Geant4transport。 | actual-model-roles | direct | PDF5–7 SecV；Fig7 | true |
+| K16-7 | Eq4同时含He贡献和swelling降density：c_peak1.05，A=.75(.25)，Auρ19.30；Au取Forster实验表±4%、He取SRIM并cubic-spline。不是纯Au常数scale，也不自动认证两个输入独立。 | stopping-mixture-and-lineage | direct-and-author-model | PDF7 SecVI；Eq4；Refs19/23/29 | true |
+| K16-8 | alpha出靶后测量谱：2908gamma门给Ealpha≈32MeV，计入约4MeV金靶能损后才与vertex曲线相合；7787对应约21MeV。它直接反证忽略粒子输运的门映射，不能把4MeV补给Sun。 | necessary-companion-and-counter-evidence | direct | PDF7 SecVII；Figs4/9 | true |
+| K16-9 | alpha能量总分辨约1MeV FWHM→Ex约.5MeV；示例alpha门2.4MeV。fit用maximumlikelihood，自由normalization/background/energyshift，shift限±(σtab+σcal)为和而非quadrature。 | selection-and-fit-contract | direct | PDF7–8 SecVII；Figs9/12/20 | true |
+| K16-10 | 2908τ15(3)fs中角分布项±2fs与统计quadrature；其它系统误差作者称ad-hoc，变gate/background/fitrange/MC参数，数据不支持全面sensitivity。去energyshift约束使2908中心12fs、7787limit14fs，原15/<12并非无条件不变。 | systematic-and-counter-fit | direct | PDF8–9 SecVII–VIII | true |
+| K16-11 | TableII十三项为四finite104(18)/98(15)/15(3)/41(6)fs与九个95%upperlimit；7787<12同时兼容旧10(3)及作者从Seattle强度推的约2.4fs，明确未裁决rate争议。 | reported-result-and-limit | direct-and-author-interpretation | PDF9–12 SecVIII/IX；TableII；Fig20 | true |
+| K16-12 | v1前文/讨论打印Bp=.037±.07，结论为±.007且文字相对19%；该内部差异在tex也存在，不能静默修成新primarymeasurement。Eq1还依赖J与Bp，源>1.1meV/95%标签不保证本任务已恢复jointcoverage。 | printed-inconsistency-and-boundary | direct-original | PDF1/9 Bp；PDF2 relative19%；PDF12 conclusion；Eq1 | true |
+| K16-13 | 固定Bp=.037/J7/2/τ12fs时Eq1算ωγ≈1.11680meV；J5/2为.83760meV。只重放条件中心输入，不把τ单独95%界直接变成含Bp/J不确定度的新95%联合界。 | conditional-strength-reconstruction | task-derivation | exercise-result fixed_central_Bp_strength | true |
+| K16-14 | Fig21模拟把alpha8→16°/gamma32→16°，理想cone Ω乘积比≈1.01479，仅近似保统计；更宽alpha门会损Ex分辨/增背景/角分布敏感。不能仅以gamma线变窄认定完整实验FOM改善。 | design-model-and-countertradeoff | direct-and-task-geometry | PDF11 Fig21/discussion；exercise-result geometry | true |
+| K16-15 | PDF/source均写t=∫γds/v，公开代码也用gamma/v；通常properclock为∫ds/(γv)，恒β下两者比γ²，在源β范围约1.00349–1.00677。当前是公式/软件合同边界，不给原τ简单重标或判实验CI偏差。 | literal-clock-and-conditional-control | direct-code-companion-and-task-derivation | PDF6–7 SecV/Fig7；SD15-5；exercise-result clocks | true |
+| K16-16 | 本文、公开代码/响应表与Sun同设施有共享方法/设备/Forster/SRIM依赖，反应和采集对象不同；未得原experimentalhistograms/fitCov/完整job。公开代码输入的GEANT表/束斑等与正文有差别，README used-for-analysis不是exactjob认证。 | independence-and-readiness | primary-and-code-boundary | SD15-1/3/4/6/8；PDF5 SecV | true |
+
+## Analytical Reconstruction and Self-Audit
+
+[原打印输入合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kirsebom2016-exercise-contract.json)、[程序](../../system/scripts/day17_kirsebom2016_contract.py)和[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kirsebom2016-exercise-result.json)保存TableII全部十三行、constant-β时钟、Eq1/4和Fig21控制。
+
+Eq4除以纯Au线性阻止后，`R=[1+(3/197)c r]/[1+A c]`，r为He/Au质量阻止比。只取density部分，c=1.05、A=.75给.55944；A=.5/1给.65574/.48780，这些是参数端点敏感性，非新置信区间。总效应还需He项：净R=1的临界r=197A/3，central为49.25，故不能只凭swelling就断言总阻止下降固定比例。
+
+TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本次拟合报告，不能由标签差反定新精确能级。上限均为作者95%标签，本任务未复现其coverage构造。
+
+| Ei keV | Ef keV | Eγ keV | meanτ fs |
+| --- | --- | --- | --- |
+| 2052 | 451 | 1601.4±1.3 | 104±18 |
+| 2771 | 0 | 2769.7±1.2 | 98±15 |
+| 2908 | 0 | 2906.4±1.1 | 15±3 |
+| 3798 | 451 | 3343.9±1.3 | 41±6 |
+| 4353 | 0 | 4356±2 | <11 |
+| 5287 | 451 | 4837±3 | <14 |
+| 5453 | 2052 | 3401±2 | <15 |
+| 6236 | 2052 | 4186±3 | <40 |
+| 6375 | 2052 | 4322±6 | <45 |
+| 6899 | 0 | 6907±3 | <10 |
+| 7444 | 0 | 7443±3 | <14 |
+| 7493 | 2052 | 5442±2 | <20 |
+| 7787 | 451 | 7335±2 | <12 |
+
+源短时近似给1fs δβ≈1.18261×10⁻⁴，对7336keV线shift≈.8676keV；FWHM函数在7.8MeV给约9.60keV。均为作者输入的算术量级，不能用它们把TableI各项当独立σ重算CI。原properclock与publiccode的局部问题、beamspot/变量角色另见[[simdsam-2015-public-dsam-code]]，原source保持不改。
+
+## Competing Interpretations and Limitations
+
+- 7787的upperlimit兼容争议两端，不是证实某一强度；J/Bp/τ与原方法误差共同限制rate结论。
+- 有alpha门能压feeding，不代表已经知道无间接feeding、角接受/energygate正确或背景无关。
+- 4MeV是此反应/foil/energy的作者解释，不能迁Sun；同设施不等相同response/校准数据。
+- 原experimentalcounts、actualfit/Σ/置信构造细节和对应job输入未齐。只允许conditional exercise/组件，不写新τ、B、强度或95%CI。
+
+## Knowledge Impact and Learning Decision
+
+`supports`粒子门前需物理传播、植入层需要独立物性输入；`revises`将Geant4名称等同完整transport、将窄线/upperlimit视为已解决rate争议；`limits`本文对Sun实际门/response的迁移。所有新增claim保持needs_review，原件/模型/作者解释/本任务推导分开。
+
+## Extracted Pages
+
+[[simdsam-2015-public-dsam-code]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[iaea-2026-stopping-s-au-o-ta-records]]。当前只为Day17窗口内Day18无学分预习，不计新课程卡。

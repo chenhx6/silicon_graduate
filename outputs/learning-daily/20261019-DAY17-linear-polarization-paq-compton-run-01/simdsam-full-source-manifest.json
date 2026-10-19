@@ -1,0 +1,380 @@
+{
+  "commit": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+  "file_count": 52,
+  "files": [
+    {
+      "path": "InputCards/INPUTDEF.CARD",
+      "mode": "100644",
+      "git_blob": "b8bac9595e6d4b395510b3c4addf58d75e5f30d4",
+      "bytes": 2641,
+      "sha256": "a9cf31e3291df648263e71123122c46caeed7f63778690b749c87bab77a4d5a9"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_blob": "8cdb8451d9b90c1d4000c6f22eb86471a4568be6",
+      "bytes": 18047,
+      "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob": "a8357b818747f9e3a663d90c43889e30b715cf55",
+      "bytes": 608,
+      "sha256": "2b31939b316fdc83a4cb50b78cad3c2e549cfb571ce706ad1735b98499f0926b"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z12_13.dat",
+      "mode": "100644",
+      "git_blob": "d63cd14ba4e91490b47d48076c7ddccbdef335e2",
+      "bytes": 753,
+      "sha256": "62ee78aa3bf4e1992ff4958d1a2466410dc56dd1ffea33afdc9f18de754389cc"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z12_14.dat",
+      "mode": "100644",
+      "git_blob": "0b462ac863748753a6e65fbcae5e4b2790beb28e",
+      "bytes": 751,
+      "sha256": "04f4ec864867fe0d4f9c0d65fcd547b63d0def73a1cc7c558f9e9a77c05808c6"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z12_2.dat",
+      "mode": "100644",
+      "git_blob": "9a11d8da90a8510b2cd7acbe160b5f5206c9e80c",
+      "bytes": 592,
+      "sha256": "79a952e4ead8f2bb3bd4d38a3b5a9e37e7720d2bcd2ce37b6ec79d172dc82908"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z12_6.dat",
+      "mode": "100644",
+      "git_blob": "6da66585defe4b27b7c3853ea898fc226572f904",
+      "bytes": 751,
+      "sha256": "f8d76f409f0a8229a35517477698c5ac15a6033a18fe69e4934db949d5701fb4"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z12_79.dat",
+      "mode": "100644",
+      "git_blob": "8d3efb7b55f853cfc5fbe756ea770ab26f0116c7",
+      "bytes": 751,
+      "sha256": "a1788effb836fa72228f07ad71142ab420bfd49095293d36fc0894ca670665c0"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z2_13.dat",
+      "mode": "100644",
+      "git_blob": "d2964f7a71aed2333a9d71f0d576b095cc67bae1",
+      "bytes": 3838,
+      "sha256": "2e60ec2c93f716b6c48a15db98e51a7ebaf65e966a7510471972d2ffb4210b7f"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z2_14.dat",
+      "mode": "100644",
+      "git_blob": "928bb88a950ff68f8f57a8e9b10017af49bae896",
+      "bytes": 3838,
+      "sha256": "e0c249e22542763421472c17abe5ddf40e86c312d82c083440741aab88b7285f"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z2_2.dat",
+      "mode": "100644",
+      "git_blob": "633d823f4e129450862f08b741d1ef37ce3e8c46",
+      "bytes": 3838,
+      "sha256": "982dc0fce31a6563a787d98229afb760266928b851214ed1d3edc71a414808c6"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z2_6.dat",
+      "mode": "100644",
+      "git_blob": "9141ddcb879e0c26636fcc2229e53e3ee78f57d2",
+      "bytes": 3838,
+      "sha256": "56a7c38f9ba46882ecbb848818cac1c3ab2dda8fab9208ed3d4e37c57babdfc6"
+    },
+    {
+      "path": "data/G4EMLOW.6.32/icru73/z2_79.dat",
+      "mode": "100644",
+      "git_blob": "5e021d98bd4cb2dea3a1510636710a6b627b7d2c",
+      "bytes": 3838,
+      "sha256": "617d49a1ac5e9123e9af23cde040558cacc8fa4c89cadc990d58eee2f97e7bce"
+    },
+    {
+      "path": "data/GEANT4_extracted/G4IonParametrisedLossModel/z12_13_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "87a8f559132acb21a5a83bc809e8913995f7aa0a",
+      "bytes": 1286,
+      "sha256": "6f4f516d07a6c302fa302abd5a9f2781c82c3474cb8da3c1bb85631257e227a3"
+    },
+    {
+      "path": "data/GEANT4_extracted/G4IonParametrisedLossModel/z12_14_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "1f7e7cf6ad6cc4ba62d03910e43a1232383f4181",
+      "bytes": 1284,
+      "sha256": "996a6d86ba24827ac4f8556dbb9ede2f87af91723356ce0c970e0e55dd0ed2ce"
+    },
+    {
+      "path": "data/GEANT4_extracted/G4IonParametrisedLossModel/z12_2_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "9564957f52c906baa2cbd8d4c69a3d45341394d9",
+      "bytes": 1280,
+      "sha256": "c05b1a46df2ea8f6a547b20204834cef33a8ecf064802ac31f7c00f6653b10c8"
+    },
+    {
+      "path": "data/GEANT4_extracted/G4IonParametrisedLossModel/z12_6_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "7b1382063766b63edc621474b5399e8cdb8b65e4",
+      "bytes": 1281,
+      "sha256": "99dc997208a582927780975e347fe9a206640aff42af654a50815622f4e39839"
+    },
+    {
+      "path": "data/GEANT4_extracted/G4IonParametrisedLossModel/z12_79_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "c7ca4414ec8058b4522579649f87b75230be5ff9",
+      "bytes": 1288,
+      "sha256": "8f44dda142df3bdf9fc465fd7829bb9e55d10373c48eeebad1d755ebb2923115"
+    },
+    {
+      "path": "data/GEANT4_extracted/Geant_default_model/z12_13_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "6c9e150fabe1cfbb1926d69d07bf2eb85deb2162",
+      "bytes": 1276,
+      "sha256": "cc99270944668e366d0abca0393e07a6afafb5322eeae2ca6fa546850f188c8d"
+    },
+    {
+      "path": "data/GEANT4_extracted/Geant_default_model/z12_14_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "42b6c1e6e1a1be227522c9c323a5b358c7bd610c",
+      "bytes": 1281,
+      "sha256": "f5060a80feb3f9d491af1975d624cd2fe990dc45b72de47f1cdefd0df655f1cf"
+    },
+    {
+      "path": "data/GEANT4_extracted/Geant_default_model/z12_2_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "773bb957da73ad79eaf1ab207ba9662f57efa1dd",
+      "bytes": 1279,
+      "sha256": "766292aa1a922b612b052eda66a95841b5db7e4b2df4e5500b8a37ac04ecd90c"
+    },
+    {
+      "path": "data/GEANT4_extracted/Geant_default_model/z12_6_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "02f19b17980d07666861e8ac42c8213df4c550d6",
+      "bytes": 1277,
+      "sha256": "8bf3d5ef313f5aedfc04c512323c5734c733cf6f32cdf1b7482878f136924c0d"
+    },
+    {
+      "path": "data/GEANT4_extracted/Geant_default_model/z12_79_GEANT4.dat",
+      "mode": "100755",
+      "git_blob": "ed9113142543fe54dda29bfe239c44b01758f063",
+      "bytes": 1291,
+      "sha256": "91e14becbf144e74c40bc12a27fa3c319dc6a36fd97e7daeba5a2f935d3fd2a2"
+    },
+    {
+      "path": "data/GRIFFIN_efficiency.dat",
+      "mode": "100644",
+      "git_blob": "c089cac940319be9167e0467768797b1641afc0a",
+      "bytes": 8940,
+      "sha256": "02635f30caff10f3350020e7855fad04741f65602022cfda1a63f2fd5118e131"
+    },
+    {
+      "path": "data/He3profile/srim.dat",
+      "mode": "100644",
+      "git_blob": "e9ebfdce3c515fa42164fc5498e389079b906a30",
+      "bytes": 930,
+      "sha256": "1feaa457b7352a81918faa852c7a8959ecac6d1ce8a27dea1c472d05537f1870"
+    },
+    {
+      "path": "data/atomic_weights_NIST.dat",
+      "mode": "100644",
+      "git_blob": "a28520e9731e3495b04dc127085e4dd286ee1469",
+      "bytes": 1304,
+      "sha256": "389dcf937fbc99c6bdc0fa492502ef3ca9e932b12a09bc79cbd264f529de48fa"
+    },
+    {
+      "path": "data/mass.mas12",
+      "mode": "100644",
+      "git_blob": "04029367d04e34ed074ebe2f1b5b6d9d569cad25",
+      "bytes": 408663,
+      "sha256": "81e887c71c2c54c76caea36fd861b195a7f3eeb77d04b520e05fa97e0eedd7f3"
+    },
+    {
+      "path": "headers/atomicWeights.hh",
+      "mode": "100644",
+      "git_blob": "43f13941691eb89f482ba1e65ebdba3ada433b51",
+      "bytes": 311,
+      "sha256": "4e94d8182b930b11ce837eb6686fb47d680a67ae9a61aa38f2927ca4e8c36778"
+    },
+    {
+      "path": "headers/decay.hh",
+      "mode": "100644",
+      "git_blob": "ea64d0c9d6f90465e064969bfbc6235cdeb9e938",
+      "bytes": 487,
+      "sha256": "52078f427816ca50ccaf211725f10c7e0b73e5386f78dd1a648228c1ca89cb03"
+    },
+    {
+      "path": "headers/depthProfile.hh",
+      "mode": "100644",
+      "git_blob": "122dc56d08f775a9809442670c4d08237baa84cc",
+      "bytes": 559,
+      "sha256": "96e1f677008997bd356a184f5fbedbb6c610d2cf3286c99646d2ae4323bb20c3"
+    },
+    {
+      "path": "headers/detectionEfficiency.hh",
+      "mode": "100644",
+      "git_blob": "1d47f694a4352d2894fe682757633a6ed8aeae2c",
+      "bytes": 710,
+      "sha256": "4265529cefed8f8f0420ea0e1eec6561ebf8f20f21e3a586e4381e6c84b8a2f7"
+    },
+    {
+      "path": "headers/globals.hh",
+      "mode": "100644",
+      "git_blob": "dfaac29b585c82d29473007d90c4b06861d04611",
+      "bytes": 3549,
+      "sha256": "a68dfac7dd70f4b55c465ff93ffc324e003d9ee1ef4602e541c17f03187dd371"
+    },
+    {
+      "path": "headers/massTable.hh",
+      "mode": "100644",
+      "git_blob": "b7b140209d4651e1dfd000790c421bab7fbce95f",
+      "bytes": 348,
+      "sha256": "735a771d1fbe12ba54d0af3bcab5ccbf5bc1a0512bf2e3ddb0bdd8959e52cbf1"
+    },
+    {
+      "path": "headers/multipleScattering.hh",
+      "mode": "100644",
+      "git_blob": "78155028654676899ac9cf3e453424c5357ecc6a",
+      "bytes": 327,
+      "sha256": "b5897530bc344c03b6d278ad062cf8b22a3828c22e1fb9c65a57731eb4fd5b22"
+    },
+    {
+      "path": "headers/particle.hh",
+      "mode": "100644",
+      "git_blob": "da78d47de430405608d4db1dcb5aa135a373753f",
+      "bytes": 3446,
+      "sha256": "da1f88dda2896bad7fc16cb5c6d3d87d9b3b8ae8af3a1fedf31eca0938b1c295"
+    },
+    {
+      "path": "headers/rootDataContainer.hh",
+      "mode": "100644",
+      "git_blob": "6761ef911b07a47daf183b10359ce374aa272a7f",
+      "bytes": 422,
+      "sha256": "fe9317215efaf3cdf1f6a1de6dcfe29c561ada980703438f8c9c3db16249b04d"
+    },
+    {
+      "path": "headers/sequence.hh",
+      "mode": "100644",
+      "git_blob": "ca0e96f0b0544b5a7d7d6a5ffe8a10234e89470d",
+      "bytes": 679,
+      "sha256": "dcdc38bed77a9e2d43d2f01648967d23e7af2ed6a4b185dea15ff30cc3d1ce83"
+    },
+    {
+      "path": "headers/stoppingDataTables.hh",
+      "mode": "100644",
+      "git_blob": "82a11a6ccaf8fb27e00d9ab119dc3b75646af8c3",
+      "bytes": 991,
+      "sha256": "4559c0d083e5d2fda7bae2c7b31c4001505de4f8ab3f4d64b23fdd02db4d16cf"
+    },
+    {
+      "path": "source/Makefile",
+      "mode": "100755",
+      "git_blob": "81515b36ae30af33c3708efb6f79dd4d38e7c231",
+      "bytes": 2134,
+      "sha256": "7d4eb8ce44bdb6852052069a4d172fbea057c0c18b0ec6cd33967901bf1f41fe"
+    },
+    {
+      "path": "source/Makefile.arch",
+      "mode": "100755",
+      "git_blob": "5f46b950c6392f9cd92cd16d732fd270fea719f2",
+      "bytes": 13465,
+      "sha256": "9ee982c099bad1d30cef1af3163b0c6bc72a5f468b639355a1a1e11d4d5bf4d0"
+    },
+    {
+      "path": "source/atomicWeights.cpp",
+      "mode": "100644",
+      "git_blob": "f29a9cdd3a01f365fc0d05e50de38ec6a0c2ca48",
+      "bytes": 877,
+      "sha256": "21aff6a01c72bf3d4dcf89840f64847fd79779f632e8f59be338d163fa967ef0"
+    },
+    {
+      "path": "source/decay.cpp",
+      "mode": "100644",
+      "git_blob": "4a731164468b110601df3e4b20889fdc7e767b84",
+      "bytes": 6753,
+      "sha256": "c1a632baac17fe9b4bdd0f7a5b6259e776da01d1f275ab7bff8f473311336398"
+    },
+    {
+      "path": "source/depthProfile.cpp",
+      "mode": "100644",
+      "git_blob": "30f442b8f2fb53a75348e1764ae401d8741f3687",
+      "bytes": 2139,
+      "sha256": "ab064e13824991229cce87c0a1f665a39790e4af88e7455df54b533178e0513b"
+    },
+    {
+      "path": "source/detectionEfficiency.cpp",
+      "mode": "100644",
+      "git_blob": "4e24f96cdd469b3457fa75d6af293f8a19373575",
+      "bytes": 2622,
+      "sha256": "1b6633e63cd96abdb02659b1845467bb83a36326553621c8be290096082d0273"
+    },
+    {
+      "path": "source/globals.cpp",
+      "mode": "100644",
+      "git_blob": "fdf9245bd16473cc1c8a205f358e1027eef970d8",
+      "bytes": 7884,
+      "sha256": "d20fefb764eb53b7b9d6991ddbebe47c9028e078f5cd8982d250d8f12fa799de"
+    },
+    {
+      "path": "source/massTable.cpp",
+      "mode": "100644",
+      "git_blob": "0bcdd3c85c22547497e4680181940ca07e4cee55",
+      "bytes": 2014,
+      "sha256": "4f91875b2ec3f622c3c960c4dfc10a6033832c0e7abd3f3705d59f28b9920cb1"
+    },
+    {
+      "path": "source/multipleScattering.cpp",
+      "mode": "100644",
+      "git_blob": "2bbb186fe51336747d7d35491322268208575461",
+      "bytes": 1331,
+      "sha256": "e26b8c055dfabbf74ab195f7ca3a0a3e71591c0fd86719852fc2774899271feb"
+    },
+    {
+      "path": "source/particle.cpp",
+      "mode": "100644",
+      "git_blob": "d07d2d8bed477b5eae79c7b6f4aaf3f624293c3a",
+      "bytes": 21053,
+      "sha256": "9bb136e6301d14ce7467199340e0357f28367bbd1b359154e3c3482689c2d501"
+    },
+    {
+      "path": "source/rootDataContainer.cpp",
+      "mode": "100644",
+      "git_blob": "a202bc46d52443530b46a1940d06fee704a6bbce",
+      "bytes": 716,
+      "sha256": "9773b4aba10cd5d67091e864a8e4029e9279fc0d23ed5a4aec151b93a9422140"
+    },
+    {
+      "path": "source/sequence.cpp",
+      "mode": "100644",
+      "git_blob": "72fc0ee52ff7c0d305906565e39c66268384a036",
+      "bytes": 3951,
+      "sha256": "06135e335a931658c67cc42bb8bc8387cd775f837d2fa83cbf130735c296c60c"
+    },
+    {
+      "path": "source/sim_dsam.cpp",
+      "mode": "100644",
+      "git_blob": "590a8c29a1dee5f9a0eb53dfcdad6bf24552e6b9",
+      "bytes": 18809,
+      "sha256": "b5bb17f60925c495100742b66ccd11e1e469e00868c1cb2c0c3294ee663c9d3b"
+    },
+    {
+      "path": "source/stoppingDataTables.cpp",
+      "mode": "100644",
+      "git_blob": "078fe06e3f507f00d5d4597675476381fe273823",
+      "bytes": 7571,
+      "sha256": "b3ea9dcaf84ca0d8df0380723739a7c10843f543e148ca5b51ea8b4de36baa2e"
+    }
+  ],
+  "history": [
+    "21809a67ea9f3b0514cc57908659463f29b1e1ab 2021-10-24T10:16:09-03:00 Update README.md",
+    "1e5763659e46d636ed90234ae0df0b6402d129a8 2015-08-04T15:09:59+02:00 All relevant files added.",
+    "0ba7f18ea5a536dd024c11ab1bd03757ec7862b9 2015-08-04T14:51:21+02:00 Initial commit"
+  ],
+  "changes_since_2015_code_commit": [
+    "M\tREADME.md"
+  ],
+  "source_program_not_executed": true,
+  "no_root_Wiki_remote_or_config_change": true
+}

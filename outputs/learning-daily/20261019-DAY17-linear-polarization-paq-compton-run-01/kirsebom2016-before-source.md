@@ -1,0 +1,5 @@
+# Kirsebom2016原方法companion：来源前回忆
+
+本session已原读Sun main/SI、actualalpha gate/vertex练习及SDK stopping/nativestate研究，strongpriming非blind。Sun Ref49给KirsebomPRC93 025802，Crossref exactDOI已核title Measurementoflifetimesin23Mg/authors2016；尚未在本问题读body/图或取得原producer。它是同设施上游方法，不是Sun同一dataset自动认证。
+
+待核particle-energy门的实际E/DeltaE/total/correction和thickness、implantdepth/vertexbeamloss、旧MC与Geant4roles、calibrator/stopping/feeding/误差budget。若table寿命与NNDC同源不当独立replication；是否能约束Sun门变量须匹配原sorting/geometry，不能借同facility全迁。没有body便不从metadata/snippet补science；原τ/Σ/producer缺口保留。

@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "ls-remote",
+    "https://github.com/oliskir/SimDSAM.git",
+    "HEAD"
+  ],
+  "exit_code": 0,
+  "HEAD": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+  "body_read": false
+}

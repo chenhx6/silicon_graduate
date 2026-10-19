@@ -156,3 +156,10 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 [[sun-2023-bayesian-dsam-31s]] SUN23-27–31区分Si的residual E、DeltaE、实际gate表达式与vertex动能。原Fig1 E位于1mmSi，DeltaE位于87µmSi；caption“47MeVgate”不能替排序代码。反应depth前beamloss、alpha出靶/死层/两Si沉积与实际角接受都需fold。以无损128MeVvertex模型算2234高root49.48–52.21而不是47±1，只反证省掉这些层的等式，不给新loss或τ偏差。
 
 固定角无损dEx/dTalpha约−.555，2MeV窗映约1.11MeVEx；真实gate/角平均/材料响应与σ不同。SDK质量或源Q的打印细节并不能补这个实验映射合同，source/SI/compiledrecord也不是三次独立校准。
+
+
+## 同设施DSAM输入仍需逐层匹配
+
+[[kirsebom-2016-23mg-dsam-lifetimes]] K16-1–16给独立reaction采集但共享设施/方法的实际例：alpha出Au约4MeV后才形成测量门，nominal8°点接受随束斑/散射扩展，植入层的He贡献与swelling同时进入Eq4。不能将其4MeV、100/500µmSi或2.4MeVgate补给Sun的32S实验。TableI粗略δE/E不当独立GaussianΣ，7787上限<12fs并未裁决rate争议。
+
+[[simdsam-2015-public-dsam-code]] SD15-1–15可实际读/运行原表达式组件，却仍无原experimentalROOT/fitCov/exactjob：default表/束斑/效率插值与正文不同；printed及code clock均γds/v，均匀半径与均匀圆盘不同。成功重放代码不等这些物理合同通过；source代码表传播也不能直接套当前Geant4 runtime的首状态问题。下一输入应优先匹配原job/response/计数，再评估任何实验τ影响。

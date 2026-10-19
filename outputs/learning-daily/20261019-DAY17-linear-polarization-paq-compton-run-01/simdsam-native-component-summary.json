@@ -1,0 +1,41 @@
+{
+  "source_pin": "21809a67ea9f3b0514cc57908659463f29b1e1ab",
+  "all52source_and_data_files_unchanged": true,
+  "native_exit_codes": [
+    0,
+    0
+  ],
+  "beam_moment_line": "BEAM_RADIAL,20000,0.001,0.49933724075492936,0.33181365107298777",
+  "mixture_controls": [
+    {
+      "energy_per_A_keV": 1000.0,
+      "pure_keV_nm": 8.457337200000003,
+      "He3_at_density1_keV_nm": 2.5512889215467447,
+      "peak_mix_keV_nm": 5.174274965853909,
+      "peak_mix_over_pure": 0.611808994189555
+    },
+    {
+      "energy_per_A_keV": 1700.0,
+      "pure_keV_nm": 8.22877999238054,
+      "He3_at_density1_keV_nm": 2.1562453739729563,
+      "peak_mix_keV_nm": 4.977832200954014,
+      "peak_mix_over_pure": 0.6049295528089523
+    },
+    {
+      "energy_per_A_keV": 2000.0,
+      "pure_keV_nm": 8.0557428,
+      "He3_at_density1_keV_nm": 2.0208298721972464,
+      "peak_mix_keV_nm": 4.857520377629089,
+      "peak_mix_over_pure": 0.6029885136885315
+    }
+  ],
+  "alpha_detection_measured_energy_keV": 31986.38880548879,
+  "alpha_internal_residual_elab_keV": 27989.8123354885,
+  "active_DE_energy_not_subtracted_from_measured_total": true,
+  "deadlayer_identity_passed": true,
+  "warnings": [
+    "originalmissingnonvoidreturn",
+    "unusedcompoundZ14fiveabsenttables"
+  ],
+  "paper_exact_job_or_experimental_fit_recovered": false
+}

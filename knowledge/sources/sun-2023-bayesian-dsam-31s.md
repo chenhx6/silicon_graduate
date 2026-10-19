@@ -80,6 +80,7 @@ L. J. Sun等，*Physics Letters B*839,137801(2023)，DOI[10.1016/j.physletb.2023
 | SUN23-29 | 本任务固定vertexbeam128MeV/targetrest/sourceQ5.533/roundedEx2.234、无所有target/Si损失、theta0–13°，解精确4动量得高rootalpha约49.4806–52.2116MeV，不含printed47±1。只是拒绝“沉积gate=无损vertex”的条件等式，非实验矛盾/新loss测量。 | conditional-kinematic-exercise | task-model | sun-alpha-kinematic-result state2234 | true |
 | SUN23-30 | 七态均保存所有positivephysicalroots，高root的vertex−printedgate约1.95–5.41MeV（各态角度域不同），未把差值拟为实际targetloss。SDK质量自洽Q5.53329137与sourceQ打印差只令高root至多约.000578MeV变化，非新质量评价或用更多位修原Q。 | conditional-version-and-root-control | task-model | sun-alpha-kinematic-result states/SDK_Q | true |
 | SUN23-31 | 同fixedangle/无损模型2234的dEx/dTalpha约−.5552至−.5554，2MeValpha窗口映约1.1104–1.1108MeVEx；源“约1MeV”是实验response量级，不能反用此斜率认证actualgate或把门宽当σ。CM/Lab与能动量控制通过，仍无actualresponse/Σ/τCI。 | conditional-Jacobian-and-response-boundary | task-model | sun-alpha-kinematic-result angle_roots | true |
+| SUN23-32 | 后续实际原读Kirsebom2016同设施13页：其alpha出靶约4MeV损失、植入层swelling与MC/Geant4角色提供方法companion，但反应/foil/Si/角接受不同；公开SimDSAM是2015数据表MC，不能由其原代码问题归因本文actualGeant4或寿命CI。本文gate排序/producer仍未得。 | new-primary-companion-and-transfer-boundary | direct-companion-and-readiness | K16-2/6/7/8；SD15-1/3/4/15 | true |
 
 ## Nuclear Structure Information
 
@@ -142,3 +143,10 @@ SI的spin-half对象问题之条件证明/必要反例已写[[spinhalf-angular-n
 实际SDK masslookup角色与初始化边界另见[[geant4-2026-ion-stopping-component-contract]] GSI26-16；该模型输入不是独立测量或Sun的质量producer认证。
 
 2234角度域的无损Jacobian约−.555，2MeV窗对应约1.11MeVEx，仅支撑作者“约1MeV”的量级；它不是实际角度平均/材料门响应或新的分辨率测量。原事件、实际depth/beamloss、alpha后靶/Si/deadlayer、gate变量和共同Σ缺口保持。
+
+
+## 同设施原方法与公开代码companion
+
+[[kirsebom-2016-23mg-dsam-lifetimes]] K16-1–16实际原读，[[simdsam-2015-public-dsam-code]] SD15-1–15实际版本/输入/组件审计。K16明确alpha先穿出Au、其约4MeV能损才连接vertex与测量；原公开程序的measuredEnergy是deadlayer校正后的总量而非单E残余。它证明映射需要具体producer，不能由同设施、同名Ealpha或当前SDK曲线给Sun补同样参数。
+
+K16的ROOT/C++MC以表传播，Geant4只给gamma效率；这不同于Sun新psGeant4模拟，也不同于当前SDK的nativeAlongStep状态控制。其publicdefaultCARD与正文/实际job、原data/Σ仍有缺口，故没有认证本文精确gate表达式、恢复posterior或给lifetimebias。
