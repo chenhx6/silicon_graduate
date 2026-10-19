@@ -1,3 +1,23 @@
+# 原定15:00截止：最终收束与讨论入口
+
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，已到原2026-10-19 15:00上海研究硬截止，研究停止，15–16只收束。formal16一次、partial17、next17/count16；不重计、不正式17/不开18。原提前收束/用户恢复为历史，以本次原截止收束为最新。
+
+最后science046已actualGitee；末段12项强priming回证、原prefix视图两模型actual0、D66存在量词/MP80共享输入边界及D96完整积分解释已落canonical。69changed/69writeback；43门全部0/0errors190warnings，最终45门和实际发布见原runreceipt。旧205claim flags、reviewmetadata、raw/PLAN/Bib/冻结hash和继承dirty保持。末段整合没有新增source、模型扫描或学分。
+
+本次收束稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`，精确hash/H3/push只任务receipt。完成后只讨论Day16既有成果，不因旧continuation/farmer消息重开研究或授分。Day17prompt仅准备，新正式卡由既有runner另开session，先冻结承认Day16priming的主动回忆；不自行新建daemon/scheduler。
+
+原runner正常退出未观察，采用同session手动reconciliation；不伪造clock队列/returncode，不调用会重计的runnerfinalizer。nativegoal收束结果只据实际工具返回，早先blocked为历史；Farmer42019保留。保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/log；QMD与overview统计刷新仍deferred，不写外部cache。
+
+Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。主入口knowledge/research-notes/w178-921-dco-gate-double-solutions.md；综合knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md；日报outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md。
+
+# 先前checkpoint（历史，不触发自动重开）
+
+# 14:45原截止前最后可恢复状态
+
+14:45末段未发布状态：现有199Tl note追加MP80共享输入/存在量词边界；综合页追加D96完整trace/有限门接受算符推导（Codex解释），无新source/modelscan。435新增原子claim全true，205旧flag无改，source-review保护已记。043门先前0，最终044脚本待15点实际门后执行。原deadline不改；tmp/day16-ucgretina/prepare_original_deadline_closeout.py已有真实beforedeadline refusal控制，不可提早调用成功；到15点先clock，再执行该script、verify-checkpoint044.py、prepare047.py、stage047.py、commit并等实际0后h3_publish.py47。随后实际receipt/goalcomplete/manualschedulerindex，原runnerexit不伪造。正式16一次partial17/next17count16保持。
+
+# 已发布checkpoint046
+
 # 最新checkpoint046
 
 同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16收束。科学pursuing；nativegoal实返blocked且无active写法，原objective保留。formal16一次、partial17、next17/count16不改；Farmer42019保留。

@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T14:44:34.357159+08:00",
+  "kind": "before-deadline negative time-gate control; not a scientific failure or finalization",
+  "actual_exit_code": 1,
+  "expected_refusal": true,
+  "stderr": "Traceback (most recent call last):\n  File \"/workspace/wiki/tmp/day16-ucgretina/prepare_original_deadline_closeout.py\", line 13, in <module>\n    assert now>=deadline,'Original research window remains open: do not finalize early'\n           ^^^^^^^^^^^^^\nAssertionError: Original research window remains open: do not finalize early\n",
+  "protected_closeout_files_unchanged": {
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/run.json": true,
+    "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/continuation-current.md": true,
+    "system/handoff.md": true,
+    "outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md": true,
+    "outputs/learning-milestones/2026-09-one-month-state.json": true
+  },
+  "no_research_stop_receipt_written": true,
+  "final_scripts_syntax_parsed": true
+}

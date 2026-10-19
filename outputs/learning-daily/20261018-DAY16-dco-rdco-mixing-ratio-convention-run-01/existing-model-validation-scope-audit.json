@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-19T14:27:41.558104+08:00",
+  "kind": "static audit of already-completed bounded analyses, no new source/model route or experiment",
+  "reviewed_code_sha256": {
+    "system/scripts/day16_diamond1966_continuous_domain.py": "372d1e463648663f396f2d8f34a9e773d727300a8f30f29cd997d9576557fc83",
+    "system/scripts/day16_diamond1966_domain_replay.py": "2b20faa209c164769f6b3eb5afabde9184ce553cf1e6d85fe82c5d53e48f1616",
+    "system/scripts/day16_diamond1966_fullbeta_Psign.py": "1ffa09fea735cc15602dc6de6e777fac375df0782b4f948d3c9757d1dc0e0878",
+    "system/scripts/day16_diamond1966_fullbeta_Psign_replay.py": "64c591f53bc920b25a8c713a1a98b03915d238fd059a674eb302e50e84114bd8"
+  },
+  "independent_numeric_parts": [
+    "Racah/CG coefficient rebuilding",
+    "analytic trigonometric extrema at MP80",
+    "nonnegative dual vertex gap",
+    "dyadic partition prefix-free/Kraft sum using exact Fraction"
+  ],
+  "shared_inputs": [
+    "same D66 printed marginal boxes and spin graph",
+    "same chosen point/axial density/EM family",
+    "native cross-phase map from original kernel coefficient crosschecks",
+    "old physical witness and original contracts"
+  ],
+  "not_independently_validated": [
+    "D66 author operator phase and producer",
+    "actual finite detector response/selection/feeding weights",
+    "joint experimental covariance or confidence coverage",
+    "formal outward-rounded exact-real arithmetic proof"
+  ],
+  "quantifier_boundary": "Positive and negative witnesses exist somewhere within the full beta domain of each named mixed family; this does not mean both signs exist for every fixed beta, or that magnitudes/likelihoods cannot discriminate with real matched data.",
+  "only_pure_E2_negative_sign_exclusion_has_analytic_rank_relation": true,
+  "same_parity_native_family_only": true,
+  "no_new_counts_scores_credit_or_author_result": true
+}

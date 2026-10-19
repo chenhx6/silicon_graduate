@@ -6,19 +6,17 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY16 original window pursuing
+## Active handoff — DAY16 original deadline closeout
 
-同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，原2026-10-19 15:00上海研究截止不变，15–16收束。科学pursuing；nativegoal实返blocked且无active写法，原objective保留。formal16一次、partial17、next17/count16不改；Farmer42019保留。
+同run2026-10-18-day-16-01/session01a14ce6-425e-77c1-a127-2ac980bd76b5，已到原2026-10-19 15:00上海研究硬截止，研究停止，15–16只收束。formal16一次、partial17、next17/count16；不重计、不正式17/不开18。原提前收束/用户恢复为历史，以本次原截止收束为最新。
 
-046 verification042实际report/card/唯一writeback69changed/69items、boundary/lint/diff0，0errors190warnings(137key50raw3parser)。末段post-source强priming12题已冻原文/hash并逐项回证，W178数值冻结后查表；Eprime/E²简写规范成(E′/E)²，不改冻结原文、不评分或授分。canonical综合页更新六项下一输入矩阵，明确存在解/域而非任意q或每个β都成立。
+最后science046已actualGitee；末段12项强priming回证、原prefix视图两模型actual0、D66存在量词/MP80共享输入边界及D96完整积分解释已落canonical。69changed/69writeback；43门全部0/0errors190warnings，最终45门和实际发布见原runreceipt。旧205claim flags、reviewmetadata、raw/PLAN/Bib/冻结hash和继承dirty保持。末段整合没有新增source、模型扫描或学分。
 
-旧D66/C96入口写回后整页hash guard实际1保留；新day16_replay_frozen_alignment_models在Wiki tmp恢复核hash的历史前缀，原脚本/合同/PDF/guard不改。两模型实际0且除timestamp外全部科学字段一致；依赖仍须本地原PDF/固定python-deps，非空环境保证。verification041首写回sourcewikilink缺失actual1保留，补精确链接后042全部通过，无物理输入变动。
+本次收束稳定指针main / `Close DAY16 at the original deadline with verified evidence boundaries`，精确hash/H3/push只任务receipt。完成后只讨论Day16既有成果，不因旧continuation/farmer消息重开研究或授分。Day17prompt仅准备，新正式卡由既有runner另开session，先冻结承认Day16priming的主动回忆；不自行新建daemon/scheduler。
 
-本批稳定指针main / `Integrate DAY16 evidence and restore frozen-model reproducibility`；实际hash/H3/push只publication046/runreceipt。045 actualGitee成功，D66网格漏解/MP80与全βcompanion边界见现有note。不把此checkpoint当整段完成。
+原runner正常退出未观察，采用同session手动reconciliation；不伪造clock队列/returncode，不调用会重计的runnerfinalizer。nativegoal收束结果只据实际工具返回，早先blocked为历史；Farmer42019保留。保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/log；QMD与overview统计刷新仍deferred，不写外部cache。
 
-13:30后没有新source/card；至15:00仅核已有定量结果/原证据/可复算性和综合，不新增toy或研究路线；15点读clock后停研究，按原小时完成最终报告/检查/receipt/续接/发布。保护raw/PLAN/Bib/review/继承dirty和log；exactmanifest/HEAD+ownlog/H3。
-
-Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。
+Resume `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`。主入口knowledge/research-notes/w178-921-dco-gate-double-solutions.md；综合knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md；日报outputs/learning-daily/20261017-DAY16-dco-rdco-mixing-ratio-convention.md。
 
 ## Previous active handoff — DAY16 completed; Day17 is next
 

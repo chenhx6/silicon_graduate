@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-19T14:42:46.333212+08:00",
+  "initial_H3_tool_exit_code": 1,
+  "tool_chunk_id": "0da8f1",
+  "failure_before_remote_actions": true,
+  "cause": "commit exec session7495 had not completed; H3 compared priorHEAD to046manifest and intentionally stopped at initial manifest guard",
+  "correction": "waited7495 actualcommitexit0, then H3 session14577 allcommands actual0 andGitee push0",
+  "successful_receipt": "h3-publication-046.json",
+  "no_source_or_model_input_change": true
+}

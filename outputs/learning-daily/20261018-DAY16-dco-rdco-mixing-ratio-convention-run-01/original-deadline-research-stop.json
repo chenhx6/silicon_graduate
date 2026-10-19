@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-19T15:00:44.038976+08:00",
+  "run_id": "2026-10-18-day-16-01",
+  "session_id": "01a14ce6-425e-77c1-a127-2ac980bd76b5",
+  "hard_deadline": "2026-10-19T15:00:00+08:00",
+  "research_stopped_at": "2026-10-19T15:00:44.038976+08:00",
+  "decision": "original-hard-deadline-reached; closeout-only",
+  "window": "2026-10-19 15:00–16:00 Asia/Shanghai",
+  "no_new_source_or_card_after_1330": true,
+  "formal_credit_retained_once": [
+    16
+  ],
+  "partial_day_indices": [
+    17
+  ],
+  "next_day_index": 17,
+  "completed_day_count": 16,
+  "new_session_or_schedule_started": false,
+  "runner_exit_observed": false,
+  "basis": "actual clock tool refresh at deadline and this process local time; manual same-session closeout, not a forged runner event"
+}

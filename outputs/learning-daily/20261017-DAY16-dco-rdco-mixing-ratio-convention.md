@@ -16,7 +16,8 @@ updated: 2026-10-19
 - session_id: `01a14ce6-425e-77c1-a127-2ac980bd76b5`
 - resume_command: `codex resume 01a14ce6-425e-77c1-a127-2ac980bd76b5 -C /workspace/wiki -s danger-full-access -a never`
 - original overnight_until: `2026-10-19T15:00:00+08:00`；15:00–16:00仅收束。
-- status: `running`；用户明确恢复原研究窗口，Day16已获学分保留一次，研究持续到2026-10-19 15:00上海；前次提前收束记录保留为历史。
+- status: `research-complete`；原15:00上海硬截止已停研究，15:00–16:00收束交付与最终验收完成；精确Git发布结果见run receipt。Day16学分只保留一次，先前提前收束/恢复记录为历史。
+- research_stopped_at: `2026-10-19T15:00:44.038976+08:00`
 - completed_day_indices: [16]
 - partial_day_indices: [17]
 - Day 16 card audit: complete
@@ -48,6 +49,12 @@ updated: 2026-10-19
 | canonical写回/报告/检查/续接/显式发布 | 本session科学001–004均实际H3/Gitee发布，唯一writeback按entrysnapshot验证；[verification008](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-checkpoint-008.json)lint/boundary/diff0；当前续接与准备的下一正式Day17prompt存在；预习/收束余项继续按同门发布 | complete |
 
 正式学分只属于16；表中完成依据是本session已完成并发布的Day16交付，非Day15partial16。Day17仅知识预习，既不列completed，也不跨过它推进课程。课程已按science publication005与真实检查对账为next17/count16；最终精确hash和远端结果只记run receipt。
+
+### 本日可直接回访的学习结论
+
+本session独立交付了[178W921双解单](../../knowledge/research-notes/w178-921-dco-gate-double-solutions.md)、D96/KS70/RB相位crosswalk与纯限/错误转换控制。原作者两支、实际DCO和本run条件反演严格分层；两条件根的P同号，所需companion是匹配的幅值/响应与误差。综合入口为[本日方法矩阵](../../knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md)。
+
+进一步学习修正了两类排除：Rh99的额外取向条件仍未测；199Tl的粗网格确有漏解，而三个混合族在完整β域中各有P正负点。99.04%E2强度也保留相干项。实际数据身份、布居条件、相位、门/接受和联合Cov决定结论强度，计算通过不等于实验δ/Jπ已经重测。正文和canonical页保留原反证及review状态。
 
 ## Candidate pool and selection
 
@@ -5239,7 +5246,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
-      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。 追加固定Geant3真实unpolarized组件核验与POLAR/cuts/历史producer边界，不赋实验Q或正式17。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。 末段整合更新active summary与六项下一输入矩阵，明确W178同号P/相位/真实reference、D66全β重叠和软件response边界；无新实验或正式17学分。",
+      "summary": "FH59完整原读/表式复核及跨SU59/B15的phase、axis、count、response与companion合同综合；保留旧flags、raw/Cov与原producer缺口。 补Hamilton原件roleweight分类/等权null、cos2θ转录保护和rank4必要条件。 补Palit2000实际primary，a/Q两层、Rh99同跃迁AD/P候选与sourcefit单位/Cov/reference边界。 补实际Rh99摘要的freepositivepopulation条件可行性、strictq/convex与网格孤立根边界；不作新δ或CI。 另存未测lowm二阶矩条件的全域正平方界，作为companion设计，未裁决实验。 新增实际同母态支路/参考纯度与匹配条件，不把模型当已测取向。 新增完整未观测转移的signedU/保号域与原Fig1Gaussian条件重放，不测实际u2。 新增D66三线实际AD的sharedparent/正q/额外取向条件与central/误差域核验，未新定Jπ/δ。 追加GR97实际输运/表和response合同；Eq13漏撇号假设经原图否决，非新实验Q或正式17。 追加固定Geant3真实unpolarized组件核验与POLAR/cuts/历史producer边界，不赋实验Q或正式17。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。 末段整合更新active summary与六项下一输入矩阵，明确W178同号P/相位/真实reference、D66全β重叠和软件response边界；无新实验或正式17学分。 回看DR96完整积分主线，补上游边缘/下游取向与有门条件态的解释；非新计算或独立实验。 给定辐射支的channel求迹/接受算符推导属于Codex解释；totalICC权重另核，非原producer认证。",
       "anchor": "Day16 REFLECT：从同符号到同一个observable",
       "sources": [
         {
@@ -5509,6 +5516,14 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
         {
           "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
           "locator": "P00-16"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-4"
+        },
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-3"
         }
       ]
     },
@@ -6370,7 +6385,7 @@ canonical [178W知识单](../../knowledge/research-notes/w178-921-dco-gate-doubl
     },
     {
       "knowledge": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
-      "summary": "19组合实际三线AD的正q存在、lowm域、精确rank4关系及未知Cov边界；有限网格不作完整排除。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。",
+      "summary": "19组合实际三线AD的正q存在、lowm域、精确rank4关系及未知Cov边界；有限网格不作完整排除。 后网格区间/dual与MP80发现11/11漏解，9/3仅声明数值域；固定β偏振companion与近pure干涉边界保留。 全βP701符号七witness/一个pureE2解析界与MP80通过；混合族正负重叠，不以固定点判唯一。 末段限定MP80独立重建与共享nativephase/实验输入的边界；全β正负结论为各存在点，非每β均两号，不作形式化exact证明。",
       "anchor": "中央A4的必要关系不是带误差数据的排除",
       "sources": [
         {
@@ -6874,3 +6889,25 @@ B15完整11页/10图/5表及AppendicesA–D已读；CE/Cs实验As、GOSIA模型P
 046实际验收：[verification042](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-042.json) report/card/唯一writeback69changed/69items全部通过；boundary/lint/diff实际exit0，0errors190warnings（137citation-key、50raw槽、3reactionparser）。041首次写回缺少综合页到KF89精确source链接，实际1已保存；补链接后042通过，原model/source/raw没有变动。原人审prefix、PLAN/Bib、helper/合同hash以及冻结回忆保护通过。
 
 本批稳定指针main / `Integrate DAY16 evidence and restore frozen-model reproducibility`，实际hash/H3/push只publication046/runreceipt。Day17准备prompt的旧通用相邻卡授分措辞已收窄为独立正式17、下一卡仅partial，与本run约束一致；没有启动新session或调度。当前仍在原15:00前完成已有证据的核验与综合，不开新source/card。
+
+
+末段已有模型审计另存[scope audit](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/existing-model-validation-scope-audit.json)：MP80独立重建与共享nativephase/印刷输入分列；各混合族的正负是完整域中各存在点，不是每β都允许两号。已写回199Tl note，未新开模型扫描或source。[review保护审计](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/final-review-preservation-audit.json)核entryHEAD以来37既有页的205个匹配claim行（83 true/122 false）及review元数据无变；32新页保持unreviewed；435条本run新增且被同一parser识别的原子claim均为needs_review true。审计只涵盖明确解析的boolean行，不伪称新科学审核或人审。
+
+
+### 原定15:00截止的最终收束
+
+[原截止停止回执](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-deadline-research-stop.json)记录本session于上海15:00研究硬截止后进入closeout-only。13:30后只完成既有D66/相位/响应问题的有限分析、综合回忆、回证和可复算性核验，没有打开新source或课程卡；15:00后不再研究，使用原15:00–16:00收束小时。
+
+Day16正式卡完成一次，completed[16]/partial[17]、next17/count16保持；月度state只核对不重复写入或推进。Day17准备prompt存在，预暴露内容和单卡信用规则已列明；未启动新session、daemon或调度。原runner成功退出未观察，当前是同session手动续接收束；不调用会重计16的runner finalizer，不伪造clock closeout队列事件或CLI returncode。
+
+最新已有完整验收[verification043](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-043.json) report/card/唯一writeback69changed/69items、boundary/lint/diff均实际0，0errors190warnings。最后的报告/知识写回与运行门以[verification045](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/verification-reopened-045.json)及run.json所存实际结果为准；190warnings分别为137 citation-key、50 raw归档槽、3 reaction parser，不把它们写成全部已解决。
+
+最终结论保留：W178实际原分支和条件点解分层；匹配P幅值可能有判别力而单号不足；Rh99取向条件未测；D66数值域与实验赋值、MP80独立部分与共享输入分列；phase/operator/axis/response正确才能比较observable。原数据/producer/响应与联合Σ仍缺，未新增实验δ、Jπ、模式或人审。
+
+当前science已实际Gitee发布046（main / `Integrate DAY16 evidence and restore frozen-model reproducibility`）；本次原截止收束的稳定指针为main / `Close DAY16 at the original deadline with verified evidence boundaries`。实际commit/hash/远端结果只记任务回执，不在本commit文件内自引其hash。完成后的续接只用于讨论既有Day16成果或处理具体缺口；新正式Day17由既有runner另开session。
+
+
+收束首次044实际gate：report/card/writeback/boundary/lint通过，git diff --check exit2指出综合页EOF额外空行，因此verifier实际exit1；[失败与只去空行记录](20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/original-closeout-format-first-failure.json)保留。修复不改科学内容、raw、原程序或合同；原知识hash快照保留，v2仅重封这一字节差，最终发布门改用045实际结果。
+
+
+最终045门实际通过：report/card/唯一knowledge-writeback69changed/69items；boundary、lint、git diff --check均exit0，0errors190warnings。新增末段channel解释/范围审计和report变更也在这次门内；next17/count16字节保持，不重授16；原runner退出未编造，prepared17和讨论续接存在。最终精确hash/实际Gitee结果只在publication047及run receipt核对。

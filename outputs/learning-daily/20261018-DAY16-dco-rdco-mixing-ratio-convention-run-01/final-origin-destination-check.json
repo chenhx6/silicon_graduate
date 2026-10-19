@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-19T14:45:01.407353+08:00",
+  "command": [
+    "git",
+    "remote",
+    "get-url",
+    "origin"
+  ],
+  "actual_exit_code": 0,
+  "expected_destination": "gitee.com/chx6/silicon_graduate",
+  "host_and_repository_match": true,
+  "credentials_or_full_remote_url_not_recorded": true,
+  "git_configuration_changed": false
+}

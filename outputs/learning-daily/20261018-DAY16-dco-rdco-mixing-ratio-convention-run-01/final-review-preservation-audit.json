@@ -1,0 +1,443 @@
+{
+  "at": "2026-10-19T14:27:41.548504+08:00",
+  "basis": "entry HEAD and actual current page contents; no inherited knowledge dirty at entry",
+  "entry_head": "b9909c3e4248fefff4d62f818eafaaf4eff06fcd",
+  "scope": "Only rows with atomic identifier and last boolean column are compared; this is a preservation audit, not a new scientific review",
+  "existing_pages": 37,
+  "new_pages": 32,
+  "old_true_rows_checked": 83,
+  "old_false_rows_checked": 122,
+  "old_claim_boolean_changes": [],
+  "existing_review_metadata_changes": [],
+  "all_new_pages_unreviewed": true,
+  "rows": [
+    {
+      "path": "knowledge/research-notes/w178-921-dco-gate-double-solutions.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/kramer-flecken-1989-use-dco-ratios.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 6,
+      "old_false_rows_checked": 8
+    },
+    {
+      "path": "knowledge/methods/dco-ratio.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/methods/dco-pdco-ambiguity-worksheet.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/index.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 1,
+      "old_false_rows_checked": 2
+    },
+    {
+      "path": "knowledge/methods/angular-correlation.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 17,
+      "old_false_rows_checked": 8
+    },
+    {
+      "path": "knowledge/methods/internal-conversion-analysis.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/methods/angular-distribution.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 4,
+      "old_false_rows_checked": 1
+    },
+    {
+      "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 3,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/methods/compton-polarimetry.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/methods/linear-polarization-asymmetry.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 11,
+      "old_false_rows_checked": 2
+    },
+    {
+      "path": "knowledge/sources/alpaca-2023-v105-angular-correlation-code.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/iliadis-friman-gayer-2021-polarization-direction-correlations.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 11,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/concepts/deorientation.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/observables/multipole-mixing-ratio.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/methods/polarized-photon-branch-audit.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/rezynkina-2017-graphical-extraction-multipole-mixing-ratios.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 7
+    },
+    {
+      "path": "knowledge/methods/icc-mixing-probability-domain.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/eldridge-2018-gamma-band-mixing-ratios.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 3,
+      "old_false_rows_checked": 1
+    },
+    {
+      "path": "knowledge/sources/ekstrom-1993-delta101-angular-correlation-code.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/nndc-2007-mo104-selected-gamma-reference-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 1,
+      "old_false_rows_checked": 4
+    },
+    {
+      "path": "knowledge/sources/james-twin-butler-1974-angular-correlation-statistics.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 2,
+      "old_false_rows_checked": 2
+    },
+    {
+      "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/longfellow-2026-gretina-energy-ordering-polarization.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 16
+    },
+    {
+      "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 13,
+      "old_false_rows_checked": 16
+    },
+    {
+      "path": "knowledge/research-notes/gretina-25na1041-polarization-response-contract.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/nndc-2025-a25-mixing-reference-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/ucgretina-2021-polarized-emission-code.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/ucgretina-2012-eu152-public-calibration-data.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/ucgretina-2024-geant4-11-source-replay.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/research-notes/gretina-eu152-source-response-replay.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/research-notes/co60-gate-role-response-benchmark.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/nndc-2013-ni60-co60-reference-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/jones-2002-calibration-compton-polarimeters.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 13
+    },
+    {
+      "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/go-2024-demonstration-nuclear-gamma-ray-polarimetry-cdte.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 15
+    },
+    {
+      "path": "knowledge/methods/modulation-curve.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/suffert-1959-proton-capture-polarization.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 3,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 1,
+      "old_false_rows_checked": 2
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/hamilton-1948-successive-quanta-polarization.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 3,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 2,
+      "old_false_rows_checked": 1
+    },
+    {
+      "path": "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/projects/135pr-wobbling-controversy.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 0
+    },
+    {
+      "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/research-notes/rh99-1117-population-feasibility.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/nndc-2017-99rh-matched-reference-records.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/nuclei/99rh.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/research-notes/unobserved-feeding-alignment-sign.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/diamond-1966-nuclear-alignment-heavy-ion-reactions.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 11
+    },
+    {
+      "path": "knowledge/sources/cejnar-1996-spin-deorientation-alpha-2n-gamma.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 0,
+      "old_false_rows_checked": 11
+    },
+    {
+      "path": "knowledge/research-notes/199tl-three-ad-reference-feasibility.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+      "new_page": false,
+      "review_metadata_preserved": true,
+      "old_true_rows_checked": 2,
+      "old_false_rows_checked": 2
+    },
+    {
+      "path": "knowledge/research-notes/gr97-stokes-response-and-merit.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    },
+    {
+      "path": "knowledge/sources/geant3-vmc-2026-compton-baseline.md",
+      "new_page": true,
+      "review_status": "unreviewed"
+    }
+  ],
+  "new_atomic_rows_followup": {
+    "at": "2026-10-19T14:44:09.365108+08:00",
+    "actual_exit_code": 0,
+    "matched_new_rows": 435,
+    "new_true_rows": 435,
+    "new_false_rows": 0,
+    "same_parser_and_entry_HEAD": true,
+    "scope": "parser-matched source claim rows only, not scientific or human review"
+  }
+}

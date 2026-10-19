@@ -193,3 +193,12 @@ P1：所有新增native振幅、PM、网格计数和误差域均为Codex条件�
 pureL1/L2项逐一消去，差只来自干涉。因此upper强度1−ε并不使修正按ε下降；振幅交叉项可按sqrt(ε)量级保留，还受spin/取向系数影响。本模型新点99.04%E2但P701≈−.08548，而同一AD的pureE2反事实约+.39413；这不把该点说成实验测量。
 
 [全β符号程序](../../system/scripts/day16_diamond1966_fullbeta_Psign.py)和[独立MP80复核](../../system/scripts/day16_diamond1966_fullbeta_Psign_replay.py)实际exit0；七个正q/非零符号witness、一个负域dual与纯限解析界均通过。当前只完成既有四候选的符号问题，未计算全9候选的联合P331/P701 likelihood或置信区域。
+
+
+## 数值独立性与存在量词的边界
+
+这里“独立MP80复核”指重新建立Racah/CG系数、三角极值和非负dual余量，并以精确有理数检查二分叶覆盖；它仍共享同一D66印刷ADbox、spin图、point/轴对称密度假设，以及从原native核读取的交叉项相位映射。它不是对D66作者operator phase、原producer、实际response或Cov的独立认证。MP80精度及明显余量也不等于形式化向外取整的exact-real证明。
+
+三个混合族“全β域允许P701正负”的准确量词是：每个被检族的完整β域内，各存在至少一个正号点和一个负号点。它不表示每个固定β均允许两号，也不表示真实、匹配且带误差的P幅值/其它companion永远不能区分候选。当前明确的全域负号排除只属于指定same-parity pureE2路径的解析rank关系，未知EM dual和实际response仍保留。
+
+这些是已有计算的独立性与表述审计，依据仍为[[diamond-1966-nuclear-alignment-heavy-ion-reactions]] D66-D16-2与本note已有合同/结果；没有新增实验、模型扫描或学分。

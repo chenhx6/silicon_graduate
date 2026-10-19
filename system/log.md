@@ -2025,3 +2025,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 — Day16 checkpoint046：末段回证与历史视图复算
 
 同run/session原15点前继续已有证据；强priming12项冻结/逐locator回证，无新分数或credit。修D66/C96写回后整页hash入口：历史prefix镜像原guard两模型actual0、除timestamp外结果一致，canonical复算入口与综合矩阵写回。041写回wikilink门actual1留档，补链接042全部通过69/69、required0、0errors190warnings。原raw/PLAN/Bib/review/hash与继承dirty保持。正式16一次partial17/next17count16不改；准备17单卡信用规则，不启动session。稳定指针main / Integrate DAY16 evidence and restore frozen-model reproducibility，精确hash和push仅receipt。
+
+
+## 2026-10-19 — Day16原研究截止收束
+
+同run/session已到原15:00上海hard deadline并stop research，15–16仅收束。正式16一次partial17/next17count16不改，非新session/调度。69canonical/唯一writeback通过，末段205旧flag保护、数值独立性/量词及D96完整积分/有限门channel解释保持事实/模型分层；原缺口不补造。45门report/card/writeback/boundary/lint/diff实际0，0errors190warnings；原raw/PLAN/Bib/review/继承dirty保留。稳定指针main / Close DAY16 at the original deadline with verified evidence boundaries；hash/实际push仅receipt，原runner成功退出未观察。

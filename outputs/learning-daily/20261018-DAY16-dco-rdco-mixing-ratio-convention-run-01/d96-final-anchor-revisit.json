@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-19T14:51:42.842643+08:00",
+  "kind": "revisit of already-selected and already-read D96 anchor; no new source route, experiment, score or credit",
+  "source": "knowledge/sources/droste-1996-pdco-formalism.md",
+  "raw_sha256_unchanged": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
+  "this_revisit_scope": [
+    "printed519–521 Eqs1–18 existing text reread",
+    "printed522–525 discussion/Eqs19–21/model figures/conclusion/references reread",
+    "printed523/524 existing figures visually reinspected"
+  ],
+  "confirmed_existing_atomic_locators": [
+    "DR96-4",
+    "DR96-5",
+    "DR96-6",
+    "DR96-7"
+  ],
+  "source_has_no_new_actual_counts_or_Sigma": true,
+  "knowledge_decision": "verified-no-op for source facts; existing general trace/gate explanation already written to synthesis under its updated item",
+  "interpretation": "POL-DIR observes gamma1 polarization; DIR-POL observes gamma2 conditional polarization; fixed E2 final multipole does not fix the gate-conditioned nuclear density; source approximate -70 degree example is separate from exact same-R inverse point",
+  "not_new_Day16_or_Day17_credit": true
+}

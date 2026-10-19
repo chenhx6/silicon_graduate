@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-19T15:02:45.512722+08:00",
+  "actual_verifier_exit_code": 1,
+  "required_actual_exit_codes": {
+    "boundary": 0,
+    "diff": 2,
+    "lint": 0
+  },
+  "reason": "git diff --check new blank line at EOF in synthesis",
+  "repair": "removed only trailing blank line; source/raw/physics inputs unchanged",
+  "path": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+  "before_sha256": "68698506d6e3c54d3827cc7acad839c6c91dbb534d250f85541de3ec85e3b4ff",
+  "after_sha256": "fc182fecb618860e4073f009eb0cccb4cbc96e8d9f2bc86b934828119f5009cb",
+  "scientific_content_unchanged": true,
+  "original_failed_verification": "verification-reopened-044.json"
+}

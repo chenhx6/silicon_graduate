@@ -165,3 +165,30 @@ D66实际三线案例的连续域续核找到旧粗网格漏解，数值全域�
 | Stokes与软件 | [[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-7的前因子是(E′/E)²；G3-2/3/5/7验证当前unpolarized组件而非原modified producer | 原polarized producer、geometry/cuts、校准ledger与Σ。POLAR字段、M平方或守恒检查不提供校准符号/真实Q |
 
 边际box只用于条件可行性；没有联合Cov便不给CI。完整物理输入仍缺时，保留多解和readiness，比调σ、Q或参考号去强配预设分支更能检验下一步。强度份额δ²/(1+δ²)、有符号δ和相干项须分列；未观测trace中的强度混合与有方向的AD/P干涉也不能互换。
+
+
+### 用边缘分布理解未观测与有门
+
+[[droste-1996-pdco-formalism]] DR96-4的两个积分有不同的先后对象。若上游光子已发出，对下游光子的全部方向、偏振及未记录末态求和，完整测量的总概率为1，因此上游边缘分布回到其singles。若先忽略上游光子，子核态却已由发射通道改变；随后看到的下游singles仍携带这个转移后的取向。对角动量张量写出的U就是这种完整未观测通道的作用，见[[krane-steffen-1970-cd110-mixing-ratios]] KS70-6。
+
+一个方向门只选取部分发射结果，条件子态还要除以该门的概率。它保留了不同的权重与可能的coherence，不能直接使用完整方向trace的U，或给daughter重新指定原Gaussian。这也解释[[unobserved-feeding-alignment-sign]]中非负CG概率与有符号U可以共存：概率分布始终非负，rank2基函数本身有正负值；[[cejnar-1996-spin-deorientation-alpha-2n-gamma]] C96-D16-1/2的符号边界属于张量转移，不能解释成负事件数。
+
+这些是已读公式的物理解释。实际gate、feeding与detector response是否满足完整trace或共同密度前提，仍须按实验逐项核验；归一化正确本身不提供未知的联合Cov或唯一δ。
+
+下式采用本任务的通道记法，对已读积分作代数解释。固定一条已经按辐射总概率归一的级联，令第一、第二步的方向/偏振结果分别由 \(K_a,L_b\)表示；末态自旋未记录；求和也包含对连续方向的积分。完整第二步满足
+
+\[
+\sum_b L_b^\dagger L_b=\mathbf 1,\qquad
+p(a,b)=\operatorname{Tr}(L_bK_a\rho K_a^\dagger L_b^\dagger).
+\]
+
+于是循环取迹直接给\(\sum_b p(a,b)=\operatorname{Tr}(K_a\rho K_a^\dagger)\)。忽略第一步得到的中间态却是\(\Phi(\rho)=\sum_a K_a\rho K_a^\dagger\)，其取向一般不同于输入态；旋转协变完整通道的张量作用才对应U。
+
+若下游记录只保留门G及其接受\(0\le\epsilon_b\le1\)，则
+
+\[
+E_G=\sum_{b\in G}\epsilon_b L_b^\dagger L_b,\qquad
+p(a,G)=\operatorname{Tr}(E_GK_a\rho K_a^\dagger).
+\]
+
+\(E_G=c\mathbf1,\ c>0\)是保留上游singles角形状的充分条件；有限角门是否满足它须由真实响应核查。对受限态族，即使偶然给相同角形状，也只证明该族内相合。在\(p(G)>0\)时，条件谱还要除以\(p(G)\)，所以逐门归一后的谱与joint pair counts要分别记录normalizer。门后的分布描述事后选出的子样本。这里对已给定的辐射支归一；若把内部转换等未观测衰变也计入，须使用完整通道及其实际强度权重，见[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3。这里没有新增真实计数、MC或原producer认证。

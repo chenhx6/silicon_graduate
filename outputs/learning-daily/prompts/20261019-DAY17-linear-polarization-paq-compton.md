@@ -387,3 +387,6 @@ D66已有问题的最终companion priming：全β域中三个混合族均允许P
 ### Day16末段整合与复算入口（仅priming）
 
 末段12项综合回忆在来源后冻结并逐项回证，无新分数或学分；第10项简写已规范为(E′/E)²，冻结原文不改。canonical六项下一输入矩阵见knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md“Day16末段整合：哪些输入真正改变候选”。D66/C96旧程序在source写回后受整页hash保护，可用system/scripts/day16_replay_frozen_alignment_models.py恢复经hash核的历史输入视图；两模型科学字段一致不增加独立实验或formal17交付。正式17先冻结声明这些priming的本session回忆，再选择有新信息的独立课程交付。
+
+
+Day16最终整合还明确：MP80复核仍共享native phase/实际印刷输入；完整β域的正负是各存在点，不是每个β都有两号。D96完整下游求迹恢复singles，而有限门的接受算符E_G及逐门normalizer需显式记录；给定辐射支与totalICC权重不能混用。入口为上述综合页与199Tl note的末段小节，只是priming，不兑换正式17交付。
