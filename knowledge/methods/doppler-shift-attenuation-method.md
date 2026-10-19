@@ -3,7 +3,7 @@ type: method
 title: Doppler-shift attenuation method
 aliases: [DSAM, Doppler-shifted attenuation method, Doppler-broadened line-shape analysis]
 created: 2026-08-11
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 method_type: nuclear-lifetime-doppler-attenuation
@@ -142,3 +142,10 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 [[geant4-2026-ion-stopping-component-contract]] GSI26-1–10保存新actualSDK11.4.2/G4EMLOW8.8组件。defaultstandard/option4/default与external分别选Bragg/LindhardSorensen/ParamICRU73；只说Geant4不能唯一指定曲线。totalenergy、E/A与模型proton-mass-scaled energy要桥接；电子DBL_MAX cut查询与1keV restricted、核阻止开关及productionrange cut分列。calculator已调用step correction，不能重复加修正或只取模型裸DEDX。
 
 在声明的external低能15O/Ta API控制中，首次range建表改变chargeSquareRatio，使首次返回值只约后续值.095988倍；原生重复、源码只插诊断的副本与严格重放一致。它限制该组件如何取值，不认证Sun的版本/physicslist/callingorder或真实transport偏差。原63编译行对三模型比值只是matching-isotope组件比较；未恢复实际材料/轨迹/Σ，不从此设新10/20%先验或寿命CI。
+
+
+### API异常须另作native路径控制
+
+[[geant4-2026-ion-stopping-component-contract]] GSI26-11–15进一步核实际AlongStep当前couple、track charge和step/cut。指定15O/Ta、nuclear/fluctuationoff、仅前两步的人为控制中，external首event首步deposit约为次event同起点的.0959881倍，option4对照为1；步骤能量账本仍闭合。短步.1nm未建range也出现，源trace定位首次高能transitioncache覆盖q²，不把所有首次状态问题只归于range积分。
+
+这些native控制只扩大软件条件证据，不等完整slowing、F(τ)、任意geometry或Sun真实事件验证。不能从局部ratio直接计算实验τbias；rawStepPoint charge与model有效q²也分别保存。原SDK未patch，重放保留首次与后续状态。

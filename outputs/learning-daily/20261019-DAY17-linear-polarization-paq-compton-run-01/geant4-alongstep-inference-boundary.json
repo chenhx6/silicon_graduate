@@ -1,0 +1,8 @@
+{
+  "native_qtrace_steps_equal": true,
+  "new_mechanism": "native0.1nmfirstcachetransitioncallsGetCharge at15000MeV afterlocalGetCharge6.14324, stores64 and finalcorrectionusesit; noComputeLossForStep neededatthisshortstep",
+  "api_previous_case": "API1nmfirstComputeLossForStep rangebuildalsooverwritescharge; thatpriorclaimremainsvalid, not universalorigin",
+  "source_lines": "UpdateDEDXCache transition DeltaRayMeanEnergyTransferRate/GetChargeSquareRatio; CorrectionsAlongStep finalq2/chargeSquareRatio",
+  "native_transfer_boundary": "pureTa,15O21.354keV,external, nuclear/fluctuations off, step limiter, killafter2; notactualSunconfig or experiment",
+  "frozen_control_reproduction": "geant4-alongstep-replay.json"
+}

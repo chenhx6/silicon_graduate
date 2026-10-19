@@ -1,0 +1,80 @@
+{
+  "source_sha256": "79c7e48b02c07c616f795dfc5e21a32ed15ab0a18b73666a1fc70150c11e6640",
+  "trace_source_sha256": "a5c1d01651489926750260c2e1750b0b3b90693e90af53d2800e0c634e727c75",
+  "scope": "diagnosticsonlycopy/ELFinterposition;notSDKpatch;testbothfirstcacheandrangeforactualnativeDoIt",
+  "diff": "--- public-v11.4.2.cc\n+++ native-diagnostic-copy.cc\n@@ -854,8 +854,11 @@\n \n         // Computing dE/dx from Bethe-Bloch formula at transition\n         // energy\n+        G4double traceTransitionBefore = chargeSquareRatio;\n         G4double transitionChargeSquare =\n               GetChargeSquareRatio(particle, material, transitionEnergy);\n+        if (particle->GetAtomicNumber() == 8)\n+          G4cout << \"TRACE_CACHE_RATIO,\" << transitionEnergy << \",\" << traceTransitionBefore << \",\" << chargeSquareRatio << G4endl;\n \n         G4double scaledTransitionEnergy = transitionEnergy * massRatio;\n \n@@ -949,8 +952,13 @@\n     // the range tables are used to derive a more accurate value of the\n     // energy loss\n     if (eloss > energyLossLimit * kineticEnergy) {\n+      const G4double traceBefore = chargeSquareRatio;\n+      if (particle->GetAtomicNumber() == 8 && kineticEnergy < 0.03*MeV)\n+        G4cout << \"TRACE_RANGE_BEFORE,\" << kineticEnergy << \",\" << eloss << \",\" << chargeSquareRatio << G4endl;\n       eloss = ComputeLossForStep(CurrentCouple(), particle,\n \t\t\t\t kineticEnergy,length);\n+      if (particle->GetAtomicNumber() == 8 && kineticEnergy < 0.03*MeV)\n+        G4cout << \"TRACE_RANGE_AFTER,\" << kineticEnergy << \",\" << eloss << \",\" << traceBefore << \",\" << chargeSquareRatio << G4endl;\n \n #ifdef PRINT_DEBUG\n \tG4cout << \"# Correction applied:\" << G4endl;\n@@ -977,6 +985,8 @@\n   // charge at the beginning of the step). Note: the correction is not\n   // applied for energy loss values deriving directly from parameterized\n   // ion stopping power tables\n+  if (particle->GetAtomicNumber() == 8 && kineticEnergy < 0.03*MeV)\n+    G4cout << \"TRACE_SCALE,\" << kineticEnergy << \",\" << eloss << \",\" << q2 << \",\" << chargeSquareRatio << G4endl;\n   eloss *= q2/chargeSquareRatio;\n }\n \n",
+  "commands": [
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-fixture.cc",
+        "tmp/day17-geant4-stopping/component/ParamNativeTrace.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/alongstep-trace",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/alongstep-trace",
+        "external",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,0.1,seed13579,nuclearoff,fluctuationoff,killafter2\nTRACE_CACHE_RATIO,15000,64,64\nTRACE_SCALE,0.0213543,2.50858e-05,6.14324,64\nNATIVE_STEP,0,1,0.021354261092276033,0.021351853157686715,0.10000000000000001,2.4079345893178985e-06,8,1,StepLimiter\nTRACE_SCALE,0.0213519,2.50843e-05,6.14324,6.14324\nNATIVE_STEP,0,2,0.021351853157686715,0.021326768808345407,0.10000000000000001,2.508434934130698e-05,1,1,StepLimiter\nTRACE_SCALE,0.0213543,2.50858e-05,6.14324,6.14324\nNATIVE_STEP,1,1,0.021354261092276033,0.021329175328542983,0.10000000000000001,2.5085763733049704e-05,8,1,StepLimiter\nTRACE_SCALE,0.0213292,2.5071e-05,6.14324,6.14324\nNATIVE_STEP,1,2,0.021329175328542983,0.02130410430379957,0.10000000000000001,2.5071024743414766e-05,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/alongstep-trace",
+        "external",
+        "1.0"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,1,seed13579,nuclearoff,fluctuationoff,killafter2\nTRACE_CACHE_RATIO,15000,64,64\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,64\nTRACE_RANGE_AFTER,0.0213543,0.000250121,64,64\nTRACE_SCALE,0.0213543,0.000250121,6.14324,64\nNATIVE_STEP,0,1,0.021354261092276033,0.021330252463976327,1,2.4008628299707036e-05,8,1,StepLimiter\nTRACE_RANGE_BEFORE,0.0213303,0.000250717,6.14324\nTRACE_RANGE_AFTER,0.0213303,0.00024998,6.14324,6.14324\nTRACE_SCALE,0.0213303,0.00024998,6.14324,6.14324\nNATIVE_STEP,0,2,0.021330252463976327,0.021080272619103987,1,0.00024997984487233962,1,1,StepLimiter\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nNATIVE_STEP,1,1,0.021354261092276033,0.02110414018793217,1,0.00025012090434386319,8,1,StepLimiter\nTRACE_RANGE_BEFORE,0.0211041,0.000249384,6.14324\nTRACE_RANGE_AFTER,0.0211041,0.000248647,6.14324,6.14324\nTRACE_SCALE,0.0211041,0.000248647,6.14324,6.14324\nNATIVE_STEP,1,2,0.02110414018793217,0.020855492749561558,1,0.00024864743837061179,1,1,StepLimiter\n",
+      "stderr": ""
+    }
+  ],
+  "native_steps_exactly_match": true
+}

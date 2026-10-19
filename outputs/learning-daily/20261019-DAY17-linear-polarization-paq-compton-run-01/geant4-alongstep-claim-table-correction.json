@@ -1,0 +1,20 @@
+{
+  "initial_lint_exit_code": 0,
+  "initial_lint_counts": {
+    "warning": 211,
+    "info": 2710
+  },
+  "fixes": [
+    {
+      "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+      "row_texts_unchanged": true,
+      "reason": "blanklinesseparatednewclaimrowsfromtableheader; normalized contiguousclaimtable so lint indexes everyrow; previouslint0 didnotcertifymachineclaimcoverage"
+    },
+    {
+      "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "row_texts_unchanged": true,
+      "reason": "blanklinesseparatednewclaimrowsfromtableheader; normalized contiguousclaimtable so lint indexes everyrow; previouslint0 didnotcertifymachineclaimcoverage"
+    }
+  ],
+  "old_claim_flags_not_changed": true
+}

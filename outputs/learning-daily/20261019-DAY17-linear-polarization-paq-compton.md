@@ -263,6 +263,14 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
 
 `supports`把停止模型落到可查的实际组件；`revises`以版本名唯一指定curve及把首次查询当稳定物理量；`limits`当前模型对原实验反演的替代。新source/IAEA/method/auditledger/index已canonical。formal17一次、18仍partial/无学分、未研究19，原窗口继续。
 
+### Day18无学分预习：native AlongStep两步反证控制
+
+GSI26-11–15的新[来源前/设计冻结](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-design-freeze.json)先要求不能预填API迁移；随后读native callpath并运行[真实native控制](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-native-result.json)。纯NISTTa/15O21.354261keV、seed13579、nuclear/fluctuationoff、external/option4各.1/1nm，每event只前2steps后人为kill；不是完整slowing/实际DSAMresponse。四配置exit0，step由StepLimiter定，pre−post−deposit残差<10⁻¹⁶MeV。
+
+[步骤摘要](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-native-summary.json)显示external两步长首event首step/次event对应deposit均.09598809169，option4均1。只插diagnostics的副本与原native步骤逐值同；.1nm未触发range，qtrace已见首次15000MeV过渡cache在localq²6.14324之后设64，末尾比值压低首步能损。它扩展此前API1nm的range路径解释，不能将range当全部首次状态问题的唯一来源。
+
+[严格重放](20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-replay.json)重新编译native/两个diagnostic副本，步骤和trace一致，未patch SDK/publicsource。原stepcharge字段未当effectiveq²；只有声明模型与人为边界，未估Sun原τ/CI或任意实验bias。source/method/auditledger已canonical；`supports`native适用域控制，`revises`过宽或过窄的软件归因，`limits`局部step到真实response迁移。正式17一次、18无学分，不研究19。
+
 ## Durable knowledge delta
 
 本轮十二个knowledge页面实际变更。新canonical [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]保存P/A/Q表、两Jacobian、共同校准比值/误差、新计数/Fisher/MC、非线性反例和holdout设计；ST99-14及SG98-13/14给精确source锚点。两method页新增使用门、index提供入口；另新增[[../../knowledge/sources/grsisort-2026-compton-polarimetry-code]]保存public代码；[[../../knowledge/sources/garnsworthy-2019-griffin-facility]]与[[../../knowledge/experiments/triumf-griffin-compton-source-calibration]]保存实际paper/calibration证据。outputs不是唯一知识副本。
@@ -1026,7 +1034,7 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。",
+      "summary": "新lifetime-strength-audit把实际spectra、条件fitτ、rate/B/Qtgeometry与形变解释分层；只是无学分18preview。 补实际63实验行与方法模型、低能区和独立性清单。 补原实验计量/模型比较和独立性边界。 补实际停止模型配置与native failure checks，非原实验反演。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。",
       "anchor": "B到Qt要另给几何",
       "sources": [
         {
@@ -1260,12 +1268,32 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-11"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-12"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-13"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-14"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-15"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。",
+      "summary": "区分两source的三步/五步、5fs/2fs与stopping预算；fulltailgate不消feeding。 补DSAM电子阻止到投影响应的matchinginput边界。 补局部入/出路径与共同N0归一边界。 补模型/能量/cut/历史与实际电子量合同。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。",
       "anchor": "fulltailbelowgate只控制一类selectionbias",
       "sources": [
         {
@@ -1515,6 +1543,26 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-11"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-12"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-13"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-14"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-15"
         }
       ]
     },
@@ -2031,7 +2079,7 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
     },
     {
       "knowledge": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
-      "summary": "新增真实SDK组件/模型/表/API与首次范围构建诊断，保留producer/实验边界。",
+      "summary": "新增真实SDK组件/模型/表/API与首次范围构建诊断，保留producer/实验边界。 补native两步反证、transitioncache与range路径区分，保留实际实验response/Σ边界。",
       "anchor": "同一个Geant4版本也须记录实际模型与查询合同",
       "sources": [
         {
@@ -2073,6 +2121,26 @@ Fig3初目视跨断轴标记的疑似10倍差被高分辨率反证并保存，�
         {
           "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
           "locator": "GSI26-10"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-11"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-12"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-13"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-14"
+        },
+        {
+          "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+          "locator": "GSI26-15"
         }
       ]
     }
@@ -2182,3 +2250,8 @@ B66实际primary与公式/图role/counterevidence、真实PDF/hash/CRC/range与�
 ### checkpoint016 native停止组件验收
 
 GSI26实际targetedcode/原表/nativecomponent/firstquerytrace及失败记录canonical；代码source保持skimmed，不冒称全原读或Sunproducer。唯一writeback27changed/29mapped，formal17once/partial18不变。verification030保存report/coverage/knowledge/boundary/lint/diff/protected/oldISPclaimchecks实际exit；当前0error211warnings，漏Summary的initiallint已修/留档。稳定指针main / `Audit native Geant4 ion stopping models and query initialization`，actualhash/H3/push仅publication016。原研究window/nativegoalactive，下一只核observedAPI路径能否迁到实际AlongStep合同，不无输入外推原实验bias。
+
+
+### checkpoint017 native控制与claim索引验收
+
+GSI26-11–15实际source/native/diagnostic/strictreplay已canonical；无原producer/experiment偏差外推。初lint虽然0，但新增claim与表header间空行令工具漏索引，本次连表保全部row文本/flags并显式核15GSI/13ISP。verification031记录report/27changed29mapped/coverage/boundary/lint/diff/protected/review及nativecontrols实际exit，当前0error211warnings。stablemain / `Bound native ion stopping state effects with controlled steps`，actualhash/H3/push仅publication017。原窗口/goalactive，formal17once/18partial不变；下一先核Sunαgate测量能量与vertex/后靶损失合同。

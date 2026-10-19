@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/utils/src/G4VEnergyLossProcess.cc",
+  "status": 200,
+  "bytes": 52184,
+  "sha256": "2f53a58c5a0c0feb4cd3a5fef3c7464fe8220939f00cba6e6768ba2fa8f116e5",
+  "path": "tmp/day17-geant4-stopping/G4VEnergyLossProcess.cc",
+  "body_read": false
+}

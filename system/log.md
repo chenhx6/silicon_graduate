@@ -2090,3 +2090,7 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-19 Day17 checkpoint016 — native Geant4 stopping contracts
 
 同session原窗口继续，formal17once/18uncredited。新增targeted Geant4 source/实际SDK三模型、63编译行同位素匹配与三诊断点，电子量/cut/表域/初始化合同分列。首fixture缺RunInitialization的−11已定位修复，external首次range建表charge状态transient由native重复/诊断副本/严格重放定位并保留，未patch SDK或归因Sun实验CI。canonical五页/唯一writeback27changed29mapped；verification030 report/coverage/boundary/lint/diff/protected/旧claims0，0errors211warnings。稳定指针main / Audit native Geant4 ion stopping models and query initialization；actualhash/push仅runreceipt，原15:00截止/goalactive不变。
+
+## 2026-10-20 Day17 checkpoint017 — native AlongStep scope
+
+同19日Day17原窗口继续，formal17once/18uncredited。GSI26-11–15核native调用链与指定纯Ta/15O四个前两步控制，external首次event差异由native/trace/严格重放确认；短步无range也可由transitioncache触发，未外推Sunτbias。原source/SDK未改，旧claimrow/flags保持。修复GSI/ISP表空行导致漏索引并显式核15/13claims。verification031报告/27changed29mapped/coverage/boundary/lint/diff/protected0，0errors211warnings。稳定指针main / Bound native ion stopping state effects with controlled steps；hash/push仅runreceipt，原15:00截止/goalactive不变。

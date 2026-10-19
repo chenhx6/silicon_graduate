@@ -6,19 +6,19 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; ion-stopping checkpoint016
+## Active handoff — DAY17 original window active; native AlongStep checkpoint017
 
-同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17，原2026-10-20 15:00上海研究截止/15–16收束不改。nativegoal/runactive/Farmer42019沿用；001–015实际H3/Gitee pushed。formal17仅007后一次/course next18/count17、partial18；不授18/研究19，原runner16:06中断不伪造normalexit。016稳定指针main / `Audit native Geant4 ion stopping models and query initialization`，actualhash/push仅publication016/runreceipt。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；原2026-10-20 15:00上海研究截止/15–16收束不改。nativegoal/runactive/Farmer42019沿用；001–016actualH3/Giteepush。formal17仅007后一次/course next18/count17、partial18，不授18/研究19；原runner16:06中断不伪造normalexit。017稳定指针main / `Bound native ion stopping state effects with controlled steps`，actualhash/push仅publication017/runreceipt。
 
-新source geant4-2026-ion-stopping-component-contract 为targetedcode skimmed，非全Geant4原读。已核v11.4.2公开tag/commit/逐filehash、installedSDK11.4.2/G4EMLOW8.8与binaryhash，未认证binary逐位源码同构或Sunproducer。actualstandard/option4/default/external MODEL为Bragg/LindhardSorensen/ParamICRU73；external由option4非空name触发。ElectronDBL_MAX/1keVrestricted、productioncut/nuclear开关与E/A/protonscaledE分开。63实际编译行各同位素/纯NISTAu/Ta＋3声明诊断点，三配置各66inputs六次query保留，没有event/原τfit。
+GSI26-11–15新核actualAlongStep/GPIL/SetCurrentCouple/charge与localenergybalance，原前10claims文本/flags保持。freshprocess纯Ta15O初21.354261keV/seed13579，external/option4各.1/1nm，lossfluctuations/nuclearoff，每event前2steps后人为kill（非fulltrack/F/tau/experiment）。四配置exit0、StepLimiter实际限制、localpre−post−deposit residual<1e−16MeV。external首event首step/次event同起点deposit两步长均.09598809169；option4均1。
 
-Wr编译/组件比standard约.922–.935，option4约.496–.546，external约.498–.548；不由这些比值设新spprior或判原实验错。原数据error/Cov/模型训练依赖与Sunactualmodel/material/event/Σ仍缺。installedICRU73两表各53行/hash已核，Lindhard辅助表.025–2.5重采样/低域sqrt与原表域分开。
+只插diagnostics的publicsource副本与nativeNATIVE_STEP逐值同，严格context/hash脚本重新compile/run三exe也一致；未patch SDK/原source。新的.1nm未触发range，qtrace见localGetCharge6.14324后首次15000MeV transitioncache调用改64，末尾q2/ratio压首步；先前API1nm的range诊断仍有效，却不是所有首次状态的唯一来源。rawstepcharge8→1字段不当model有效q²。没有Sunactualversion/config/material/轨迹/Σ，不外推实验τ/CIbias。
 
-初fixture缺RunInitialization，在FindEmModel SIGSEGV−11；gdb/源码BuildPhysicsTables定位client生命周期，补后原三配置0。external低能15O/Ta Etotal.0213543MeV首次.0144161、重复.1501867；native重复/配置countercontrol保留。只加诊断的源副本明确首次range构建使chargeSquareRatio6.14324→64，末尾ratio≈.0959881抑制；严格context/hash重放值一致。原SDK/publicsource未改，非Sunposterior/任意transportbug认定。初gdb少argv/缺patch工具失败也保留，Pythonstrictpatch未装系统包。
+canonicalGSI/method/auditledger/IAEA表格式同步。发现GSI/ISP新增claim前空行使lint漏索引，已只连表/保row文本flags并explicit核15GSI/13ISP；初lint0不认证claimcoverage。verification031以actualreceipt为准：27changed29mapped/report/coverage/boundary/lint/diff/protected/旧flags，0error211warnings(147key60raw4parser)，全新增needs_review。updated日期按上海已20日，run/card仍19日Day17不变。
 
-四个知识页＋新source已canonical，machinewriteback27changed/29mapped；verification030以actualreceipt为准，report/coverage/boundary/lint/diff/protected/旧ISPclaimchecks，0errors211warnings(147key60raw4parser)。initiallint漏Summary已修/初failure存，新增全needs_review。保护raw/PLAN/Bib/credentials/继承receipts/daemon/oldlog；log只HEAD+ownentry。
+下一高信息route是用Sun已实际原读的128MeV32S/3He、2234态/αgate47MeV/<13°审计gate测量能量与vertex运动学/后靶能损的合同。先冻强priming，使用真实可用SDK核质量作明确模型输入，不将测得gate中心直接等顶点α能量；若kinematic不闭合先查loss/acceptance，绝不自由改源E/δ或称实验错。不是fullDSAMfit/原producer。原窗口仍>14h，继续不重授17/授18/开19；到原15点stop新研究并整日收束齐才goalcomplete。
 
-原窗口仍余约15h。下一有界问题是本API首range建表诊断在实际nativeAlongStep调用合同中的适用范围：先读G4VEnergyLossProcess实际callpath/CurrentCouple/step与低能charge条件，冻结priming后才决定最小transport控制；不拿API失败直接宣称Sun/experiment有bias，不用更多toy填Σ。P/A/Q/SG98294闭合缺口、原actualevents/responseCov不变。到原15点stop研究，整日收束/receipt/checks/actualpublication齐才goalcomplete。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/旧review/继承receipts/daemon/oldlog；explicitindex，log只HEAD+ownentry。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

@@ -43,3 +43,8 @@ Day17新officialS31priming：nndc-2022-s31-mixing-lifetime-reference保存1248MR
 ### Day17 Geant4停止组件priming（无Day18学分）
 
 [[geant4-2026-ion-stopping-component-contract]] GSI26-1–10 targetedcode/nativeSDK三模型查询、实际同位素输入与cut/能量/表域已核。初fixture缺RunInitialization崩溃已修；external低能首次range建表改变chargeSquareRatio的API transient由native重复/diagnosticcopy/严格重放定位。未patch SDK、不认证Sunproducer/actualtransport偏差或建立新spprior/τCI。正式18声明priming，旧198queries/1188calls不能换学分。
+
+
+### Day17 native AlongStep追加priming（无18学分）
+
+GSI26-11–15已实际native前两步控制：external首次event能损差异也可在.1nm无range积分时由首次transitioncache触发，option4对照无该差异。纯Ta/15O/nuclear与fluctuationoff/人为kill后2step等边界明确，非Sun真实producer/响应/τCI。rawtrackcharge不当effectiveq²，源码诊断副本与native/严格重放一致，SDK未patch。正式18仍新session/新交付，旧8events/检查数不兑换学分。

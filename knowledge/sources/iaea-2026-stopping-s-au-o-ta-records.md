@@ -4,7 +4,7 @@ title: "IAEA阻止数据库：S/Au、O/Ta的实验覆盖与DSAM输入边界"
 title_original: "Electronic Stopping Power of Matter for Ions — selected S/Au and O/Ta records"
 aliases: [IAEA stopping S Au O Ta, 阻止截面覆盖核查]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: compiled-experimental-and-model-data
@@ -58,10 +58,8 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 | ISP26-7 | 用所列Au质量/atom比196.96657与精确SI N_A，Wr1979低点.58MeV/(mg/cm²)转换约189.701×10⁻¹⁵eV cm²/atom；不假设density或变长度停止程。 | task-unit-reconstruction | derived-from-compiled-input | S-Au CSV Wr1979 E.0168；stopping-coverage-result unit_example | true |
 | ISP26-8 | Ep.318MeV与15u质量近似给capture后、减速前起点E/A≈.00142362MeV/u；把声明的总光子能量8MeV宽松上界加到反冲的宽松三角上界也仅.00250874。最低O/Ta实验点仍高约46.55倍；仅为覆盖诊断，不是实际cascade/碰撞重放。 | conditional-kinematic-coverage-bound | task-model | SCH08-2；stopping-coverage-result O_Ta_coverage_proxy | true |
 | ISP26-9 | Sun原文的sp中心为Geant4所用database，10/20%为作者明确Gaussian1σ选择；此IAEA SRIM2013曲线不是其actualproducer。Schürmann使用SRIM2006及v(t)cosψ，当前电子表不替其多项式/Σ；N/Ta selected仅14N点也未恢复其Bister15N原输入。 | matched-response-readiness | primary-companion-and-boundary | SUN23-6；SCH08-9；N-Ta targeted CSV query | true |
-
 | ISP26-10 | 随后新取得Bt1966原五页/六图/四式，原作者明确direct高于charge-derived并归因于N0束电荷计量；S25%有源系统解释，不自动等16行独立σ。原件/编译同实验，不增独立证据。 | new-primary-companion | direct-original | B66-5 | true |
 | ISP26-11 | 原Fig3的断轴/归一/多符号到全部16行的bridge仍partial；新localSeff与N0scale推导不修编译或生成先验，先前比值不升级为错误认定。Bister1977正文仍未得。 | bridge-and-readiness-update | direct-and-task-boundary | B66-8 | true |
-
 | ISP26-12 | 后续实际Geant4SDK三模型按各行同位素查询，Wr编译/组件比standard约.922–.935、option4约.496–.546、external约.498–.548；不是SRIM2013或Sunactualproducer。比值仅指定模型/数据对照，未给新prior/独立σ。 | new-native-component-comparison | task-model | GSI26-6 | true |
 | ISP26-13 | nativeexternal低能15O首次querytransient已源码诊断定位/严格重放，首次值保留不静默warmup。源码/模型/编译/experiment四层分开，IAEA仍不补完整DSAM response/Σ。 | component-failure-boundary | task-model-and-readiness | GSI26-7 | true |
 

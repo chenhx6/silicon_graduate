@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/lowenergy/include/G4IonParametrisedLossModel.hh",
+    "status": 200,
+    "bytes": 16024,
+    "sha256": "d5dc59c17004a08bc9d2dc2d25dc51b022bd3350d3c586f2ead18c2f2ebcf7af",
+    "path": "tmp/day17-geant4-stopping/G4IonParametrisedLossModel.hh"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Geant4/geant4/v11.4.2/source/processes/electromagnetic/lowenergy/include/G4IonParametrisedLossModel.icc",
+    "status": 200,
+    "bytes": 6593,
+    "sha256": "715f1c266897c9255dd586a92174902b26db119fff25983b8216389dedd9d85a",
+    "path": "tmp/day17-geant4-stopping/G4IonParametrisedLossModel.icc"
+  }
+]

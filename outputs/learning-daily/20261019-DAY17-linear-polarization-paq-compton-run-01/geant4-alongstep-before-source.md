@@ -1,0 +1,5 @@
+# nativeAlongStep适用范围来源前回忆
+
+已经本session核G4EmCalculator/ParamICRU73/native首次range缓存q²transient与stricttrace，属于primed非盲测；尚未本新问题读G4VEnergyLossProcess::AlongStepDoIt完整路径或执行nativeAlongStep transport。
+
+要核：真实Track的CurrentCouple/chargeSquareRatio如何设置、ComputeLossForStep是否首次才建range、ELoss/kinetic fraction何时触发；需要与API1nm/currentmaterial状态区分。若执行最小transport必须明确NISTpuretarget/sourceenergy/physicsmodel/step/seed，非Sun真实events/CI。先读source确定可迁与不可迁，不把已定位API transient自动称任意track偏差，也不堆history代原Σ。

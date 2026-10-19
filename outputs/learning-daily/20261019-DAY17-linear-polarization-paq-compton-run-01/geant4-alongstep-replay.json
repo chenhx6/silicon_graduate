@@ -1,0 +1,232 @@
+{
+  "fixture_sha256": "8c70f354714017dac6da5c1b52e60e521bb3af4c637d43301d520fca78bb7bd6",
+  "script_sha256": "d8fb6d8cf3c366bab9f47249d0fca2ddf8960b247b8fd00880273672c8917a66",
+  "commands": [
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-fixture.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/native",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/native",
+        "option4",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,option4,0.1,seed13579,nuclearoff,fluctuationoff,killafter2\nNATIVE_STEP,0,1,0.021354261092276033,0.021329088791927894,0.10000000000000001,2.5172300348139699e-05,8,1,StepLimiter\nNATIVE_STEP,0,2,0.021329088791927894,0.021303931335793707,0.10000000000000001,2.51574561341859e-05,1,1,StepLimiter\nNATIVE_STEP,1,1,0.021354261092276033,0.021329088791927894,0.10000000000000001,2.5172300348139699e-05,8,1,StepLimiter\nNATIVE_STEP,1,2,0.021329088791927894,0.021303931335793707,0.10000000000000001,2.51574561341859e-05,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/native",
+        "option4",
+        "1.0"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,option4,1,seed13579,nuclearoff,fluctuationoff,killafter2\nNATIVE_STEP,0,1,0.021354261092276033,0.021103049355735842,1,0.00025121173654019059,8,1,StepLimiter\nNATIVE_STEP,0,2,0.021103049355735842,0.020853322974011865,1,0.0002497263817239783,1,1,StepLimiter\nNATIVE_STEP,1,1,0.021354261092276033,0.021103049355735842,1,0.00025121173654019059,8,1,StepLimiter\nNATIVE_STEP,1,2,0.021103049355735842,0.020853322974011865,1,0.0002497263817239783,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/native",
+        "external",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,0.1,seed13579,nuclearoff,fluctuationoff,killafter2\nNATIVE_STEP,0,1,0.021354261092276033,0.021351853157686715,0.10000000000000001,2.4079345893178985e-06,8,1,StepLimiter\nNATIVE_STEP,0,2,0.021351853157686715,0.021326768808345407,0.10000000000000001,2.508434934130698e-05,1,1,StepLimiter\nNATIVE_STEP,1,1,0.021354261092276033,0.021329175328542983,0.10000000000000001,2.5085763733049704e-05,8,1,StepLimiter\nNATIVE_STEP,1,2,0.021329175328542983,0.02130410430379957,0.10000000000000001,2.5071024743414766e-05,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/native",
+        "external",
+        "1.0"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,1,seed13579,nuclearoff,fluctuationoff,killafter2\nNATIVE_STEP,0,1,0.021354261092276033,0.021330252463976327,1,2.4008628299707036e-05,8,1,StepLimiter\nNATIVE_STEP,0,2,0.021330252463976327,0.021080272619103987,1,0.00024997984487233962,1,1,StepLimiter\nNATIVE_STEP,1,1,0.021354261092276033,0.02110414018793217,1,0.00025012090434386319,8,1,StepLimiter\nNATIVE_STEP,1,2,0.02110414018793217,0.020855492749561558,1,0.00024864743837061179,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-fixture.cc",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeTrace.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeTrace",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeTrace",
+        "external",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,0.1,seed13579,nuclearoff,fluctuationoff,killafter2\nTRACE_CACHE_RATIO,15000,64,64\nTRACE_SCALE,0.0213543,2.50858e-05,6.14324,64\nNATIVE_STEP,0,1,0.021354261092276033,0.021351853157686715,0.10000000000000001,2.4079345893178985e-06,8,1,StepLimiter\nTRACE_SCALE,0.0213519,2.50843e-05,6.14324,6.14324\nNATIVE_STEP,0,2,0.021351853157686715,0.021326768808345407,0.10000000000000001,2.508434934130698e-05,1,1,StepLimiter\nTRACE_SCALE,0.0213543,2.50858e-05,6.14324,6.14324\nNATIVE_STEP,1,1,0.021354261092276033,0.021329175328542983,0.10000000000000001,2.5085763733049704e-05,8,1,StepLimiter\nTRACE_SCALE,0.0213292,2.5071e-05,6.14324,6.14324\nNATIVE_STEP,1,2,0.021329175328542983,0.02130410430379957,0.10000000000000001,2.5071024743414766e-05,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeTrace",
+        "external",
+        "1.0"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,1,seed13579,nuclearoff,fluctuationoff,killafter2\nTRACE_CACHE_RATIO,15000,64,64\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,64\nTRACE_RANGE_AFTER,0.0213543,0.000250121,64,64\nTRACE_SCALE,0.0213543,0.000250121,6.14324,64\nNATIVE_STEP,0,1,0.021354261092276033,0.021330252463976327,1,2.4008628299707036e-05,8,1,StepLimiter\nTRACE_RANGE_BEFORE,0.0213303,0.000250717,6.14324\nTRACE_RANGE_AFTER,0.0213303,0.00024998,6.14324,6.14324\nTRACE_SCALE,0.0213303,0.00024998,6.14324,6.14324\nNATIVE_STEP,0,2,0.021330252463976327,0.021080272619103987,1,0.00024997984487233962,1,1,StepLimiter\nTRACE_RANGE_BEFORE,0.0213543,0.000250858,6.14324\nTRACE_RANGE_AFTER,0.0213543,0.000250121,6.14324,6.14324\nTRACE_SCALE,0.0213543,0.000250121,6.14324,6.14324\nNATIVE_STEP,1,1,0.021354261092276033,0.02110414018793217,1,0.00025012090434386319,8,1,StepLimiter\nTRACE_RANGE_BEFORE,0.0211041,0.000249384,6.14324\nTRACE_RANGE_AFTER,0.0211041,0.000248647,6.14324,6.14324\nTRACE_SCALE,0.0211041,0.000248647,6.14324,6.14324\nNATIVE_STEP,1,2,0.02110414018793217,0.020855492749561558,1,0.00024864743837061179,1,1,StepLimiter\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "c++",
+        "-DG4VIS_USE_OPENGL",
+        "-DG4UI_USE_TCSH",
+        "-DG4VIS_USE_OPENGLX",
+        "-DG4VIS_USE_TOOLSSG_X11_GLES",
+        "-W",
+        "-Wall",
+        "-pedantic",
+        "-Wno-non-virtual-dtor",
+        "-Wno-long-long",
+        "-Wwrite-strings",
+        "-Wpointer-arith",
+        "-Woverloaded-virtual",
+        "-Wno-variadic-macros",
+        "-Wshadow",
+        "-pipe",
+        "-pthread",
+        "-ftls-model=initial-exec",
+        "-std=c++17",
+        "-I/opt/geant4/11.4.2/include/Geant4",
+        "-O2",
+        "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-fixture.cc",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeQTrace.cc",
+        "-o",
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeQTrace",
+        "-L/opt/geant4/11.4.2/lib",
+        "-lG4physicslists",
+        "-lG4run",
+        "-lG4event",
+        "-lG4tracking",
+        "-lG4parmodels",
+        "-lG4processes_hadronic",
+        "-lG4processes_core",
+        "-lG4digits_hits",
+        "-lG4track",
+        "-lG4particles",
+        "-lG4geometry",
+        "-lG4materials",
+        "-lG4graphics_reps",
+        "-lG4intercoms",
+        "-lG4global",
+        "-lG4clhep",
+        "-lG4ptl",
+        "-Wl,-rpath,/opt/geant4/11.4.2/lib"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/wiki/tmp/day17-geant4-stopping/component/native-replay-q_te9qmd/ParamNativeQTrace",
+        "external",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "\n**************************************************************\n Geant4 version Name: geant4-11-04-patch-02 [MT]   (12-June-2026)\n                       Copyright : Geant4 Collaboration\n                      References : NIM A 506 (2003), 250-303\n                                 : IEEE-TNS 53 (2006), 270-278\n                                 : NIM A 835 (2016), 186-225\n                             WWW : http://geant4.org/\n**************************************************************\n\nCONTROL,external,0.1,seed13579,nuclearoff,fluctuationoff,killafter2\nTRACE_GET_Q,0.0213543,6.14324\nTRACE_GET_Q,15000,64\nTRACE_GET_Q,15000,64\nTRACE_CACHE_RATIO,15000,64,64\nTRACE_SCALE,0.0213543,2.50858e-05,6.14324,64\nNATIVE_STEP,0,1,0.021354261092276033,0.021351853157686715,0.10000000000000001,2.4079345893178985e-06,8,1,StepLimiter\nTRACE_GET_Q,0.0213519,6.14324\nTRACE_SCALE,0.0213519,2.50843e-05,6.14324,6.14324\nNATIVE_STEP,0,2,0.021351853157686715,0.021326768808345407,0.10000000000000001,2.508434934130698e-05,1,1,StepLimiter\nTRACE_GET_Q,0.0213543,6.14324\nTRACE_SCALE,0.0213543,2.50858e-05,6.14324,6.14324\nNATIVE_STEP,1,1,0.021354261092276033,0.021329175328542983,0.10000000000000001,2.5085763733049704e-05,8,1,StepLimiter\nTRACE_GET_Q,0.0213292,6.14324\nTRACE_SCALE,0.0213292,2.5071e-05,6.14324,6.14324\nNATIVE_STEP,1,2,0.021329175328542983,0.02130410430379957,0.10000000000000001,2.5071024743414766e-05,1,1,StepLimiter\n",
+      "stderr": ""
+    }
+  ],
+  "native_steps_exactly_equal": true,
+  "diagnostic_steps_and_trace_equal": true,
+  "SDK_not_modified": true,
+  "ok": true
+}

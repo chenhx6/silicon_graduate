@@ -1,0 +1,18 @@
+{
+  "source_scope": [
+    "G4VEnergyLossProcess PreparePhysicsTable/StartTracking/PostStepGPIL/AlongStepGPIL/AlongStepDoIt/localenergybalance",
+    "G4VEmModel::ChargeSquareRatio/SetCurrentCouple",
+    "G4IonParametrisedLossModel::UpdateDEDXCache/CorrectionsAlongStep plusinlineDeltaRayMeanEnergyTransferRate"
+  ],
+  "native_scope": "fourfreshprocesscontrols external/option4 x.1/1nm;2events/2steps;lossfluctuations/nuclearoff;artificialkillafter2",
+  "diagnostic_scope": "twooriginalsourcecopieswithonlytrace;nativeSTEPexactmatch;Pythonstrictpatch/hashreplay",
+  "not_scope": [
+    "fullnativegeometry/source/response",
+    "fulltrackstoppingtimeorF(tau)",
+    "anySunversion/config/events/experimentCov",
+    "allGeant4models or species"
+  ],
+  "claim_update": "APIrangebuild diagnosisvalidforpriorcase; native.1nmshowsfirsttransitioncache alone canchange denominator evenwithout rangebuild",
+  "raw_prepost_charge": "rawG4StepPoint chargefield not assumed sameasmodelEffectiveChargeSquareRatio",
+  "course": "17once/18uncredited/no19"
+}

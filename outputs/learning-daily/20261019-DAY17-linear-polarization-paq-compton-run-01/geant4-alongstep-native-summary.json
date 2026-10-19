@@ -1,0 +1,218 @@
+{
+  "fixture_sha256": "8c70f354714017dac6da5c1b52e60e521bb3af4c637d43301d520fca78bb7bd6",
+  "controls": [
+    {
+      "mode": "option4",
+      "maxstep_nm": 0.1,
+      "rows": [
+        {
+          "event": 0,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021329088791927894,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.51723003481397e-05,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 0,
+          "step": 2,
+          "pre_MeV": 0.021329088791927894,
+          "post_MeV": 0.021303931335793707,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.51574561341859e-05,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021329088791927894,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.51723003481397e-05,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 2,
+          "pre_MeV": 0.021329088791927894,
+          "post_MeV": 0.021303931335793707,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.51574561341859e-05,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        }
+      ],
+      "max_local_energy_residual_MeV": 1.4230153513872246e-18,
+      "first_event_over_second_event_first_step_deposit": 1.0,
+      "no_fulltrack_or_experimental_tau_inference": true
+    },
+    {
+      "mode": "option4",
+      "maxstep_nm": 1.0,
+      "rows": [
+        {
+          "event": 0,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021103049355735842,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002512117365401906,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 0,
+          "step": 2,
+          "pre_MeV": 0.021103049355735842,
+          "post_MeV": 0.020853322974011865,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002497263817239783,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021103049355735842,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002512117365401906,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 2,
+          "pre_MeV": 0.021103049355735842,
+          "post_MeV": 0.020853322974011865,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002497263817239783,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        }
+      ],
+      "max_local_energy_residual_MeV": 7.589415207398531e-19,
+      "first_event_over_second_event_first_step_deposit": 1.0,
+      "no_fulltrack_or_experimental_tau_inference": true
+    },
+    {
+      "mode": "external",
+      "maxstep_nm": 0.1,
+      "rows": [
+        {
+          "event": 0,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021351853157686715,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.4079345893178985e-06,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 0,
+          "step": 2,
+          "pre_MeV": 0.021351853157686715,
+          "post_MeV": 0.021326768808345407,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.508434934130698e-05,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021329175328542983,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.5085763733049704e-05,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 2,
+          "pre_MeV": 0.021329175328542983,
+          "post_MeV": 0.02130410430379957,
+          "length_nm": 0.1,
+          "deposit_MeV": 2.5071024743414766e-05,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        }
+      ],
+      "max_local_energy_residual_MeV": 1.07742590890747e-18,
+      "first_event_over_second_event_first_step_deposit": 0.09598809168985038,
+      "no_fulltrack_or_experimental_tau_inference": true
+    },
+    {
+      "mode": "external",
+      "maxstep_nm": 1.0,
+      "rows": [
+        {
+          "event": 0,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.021330252463976327,
+          "length_nm": 1.0,
+          "deposit_MeV": 2.4008628299707036e-05,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 0,
+          "step": 2,
+          "pre_MeV": 0.021330252463976327,
+          "post_MeV": 0.021080272619103987,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002499798448723396,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 1,
+          "pre_MeV": 0.021354261092276033,
+          "post_MeV": 0.02110414018793217,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002501209043438632,
+          "raw_pre_charge_e": 8.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        },
+        {
+          "event": 1,
+          "step": 2,
+          "pre_MeV": 0.02110414018793217,
+          "post_MeV": 0.02085549274956156,
+          "length_nm": 1.0,
+          "deposit_MeV": 0.0002486474383706118,
+          "raw_pre_charge_e": 1.0,
+          "raw_post_charge_e": 1.0,
+          "process": "StepLimiter"
+        }
+      ],
+      "max_local_energy_residual_MeV": 6.606856988583543e-19,
+      "first_event_over_second_event_first_step_deposit": 0.09598809168985038,
+      "no_fulltrack_or_experimental_tau_inference": true
+    }
+  ],
+  "scope": "two-step artificialtermination per event;pureTa; nofluctuations/nuclear;notfullresponseoractualexperiment"
+}

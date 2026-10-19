@@ -1,0 +1,5 @@
+# nativeAlongStep最小控制设计冻结
+
+来源后已核G4VEnergyLossProcess StartTracking/PostStepGPIL/AlongStepDoIt及baseChargeSquareRatio。真实DoIt设CurrentCouple并由track更新charge，故不能从API自动迁移。拟用freshprocess/纯NISTTa/15O21.354261keV、EM external或option4、lossfluctuationoff/nuclearoff、显式maxstep.1或1nm/seed固定；各2events只保留primary前2steps后kill并记录remainder。这是API适用范围控制，不是实际DSAM碰撞全轨迹/experiment，不估新τ/CI。可加diagnosticsonly源副本，但必须与原生step输出逐值相同才采用内部trace。
+
+先核实际step是否受限、event0/1首步与charge/range路径，保能量ledger并保留任何0/negative/unexpectedgate；若没有异常也如实counterevidence。没有自由调sp让实验闭合。

@@ -4,7 +4,7 @@ title: "Geant4 11.4.2离子阻止：模型选择、实际组件与首次查询�
 title_original: "Geant4 v11.4.2 ion stopping call paths and native SDK component"
 aliases: [Geant4 stopping component 2026, G4 stopping contract]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: software-source-code
@@ -61,6 +61,11 @@ tags: [DSAM-input, stopping, model-selection, reproducibility]
 | GSI26-8 | 仅加诊断输出的原源副本重现native数值：首次range构建使chargeSquareRatio从≈6.14324变64，末尾q2/chargeSquareRatio给≈.0959881抑制；缓存range后的重复不变。strict-context/hash重放一致，SDK/原文件未改。只定位本API/版本/声明输入的路径，不归因为Sun实际实验CI或transport普遍失效。 | traced-source-mechanism-and-scope | diagnostic-model-and-native | ParamICRU73::CorrectionsAlongStep/BuildRangeVector；param trace conclusion/replay | true |
 | GSI26-9 | 初fixture仅Initialize后查询在FindEmModel崩溃−11，gdb与RunManagerKernel定位缺RunInitialization的BuildPhysicsTables；补client生命周期后原三配置回归0。另trace重放初缺patch工具，改严格Python上下文应用，不安装系统包；失败记录保留。 | failure-control-and-reproducibility | actual-tool-evidence | initial-segv/gdb/root-cause；param-replay-initial-failure | true |
 | GSI26-10 | 原63编译行、当前模型/源码、条件组件和诊断插桩四层分开；actualSunmodel/材料/事件/Σ仍缺，不能由成功组件或数据/模型比值建立新的spGaussianprior、F(τ)、τ/B/CI。 | readiness-and-independence | evidence-boundary | SUN23-6；ISP26-5/9；component contract | true |
+| GSI26-11 | 后续原读nativeAlongStep路径：PostStepGPIL按track更新material/model/q²，DoIt显式SetCurrentCouple、用真实step与productioncut再调用CorrectionsAlongStep，随后fluctuation/energybalance；故API1nm观测必须另核native，不能直接泛化。 | native-callpath-and-counter-boundary | direct-code | G4VEnergyLossProcess::PostStepGetPhysicalInteractionLength/AlongStepDoIt；G4VEmModel::ChargeSquareRatio | true |
+| GSI26-12 | 新native控制为纯Ta内15O初21.354261keV、seed13579，external/option4各.1/1nm步长，lossfluctuations/nuclearoff，2events各记录前2steps再人为kill。四次运行exit0，step确由StepLimiter定且逐步pre−post−deposit残差<10⁻¹⁶MeV；不是完整track/实际实验。 | actual-controlled-transport-model | native-model | geant4-alongstep-native-result/summary | true |
+| GSI26-13 | external两步长均首event首stepdeposit/次event同起点首step≈.09598809169；option4两者均1。原native与仅插诊断的副本NATIVE_STEP逐值相同，证实此声明控制中的first-state差异，不认普遍实验bias或统计置信度。 | native-first-state-countercontrol | native-and-diagnostic-model | geant4-alongstep-native-summary；trace/qtrace | true |
+| GSI26-14 | .1nm未触发range积分，native first UpdateDEDXCache却在15000MeV过渡计算调用GetChargeSquareRatio，把先前local6.14324改64，末尾q2/denominator抑制能损；1nm另含range路径。此前API的range归因仍有效，但不能当全部首次状态问题的唯一原因。 | expanded-source-mechanism-and-revision | traced-code-and-model | UpdateDEDXCache；CorrectionsAlongStep；geant4-alongstep-qtrace | true |
+| GSI26-15 | strict-context/hash脚本重建native与两诊断副本、完整步骤及trace一致；未patch安装SDK/原publicfile。rawpre/postcharge字段保留，不把它直接平方当model有效q²。缺真实Sun配置、target/track/Σ，所以仍不计算原τ/CI偏差。 | reproducibility-and-inference-boundary | native-replay-and-readiness | geant4-alongstep-replay；reading-scope/inference-boundary | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -82,3 +87,11 @@ tags: [DSAM-input, stopping, model-selection, reproducibility]
 ## Extracted Pages
 
 [[iaea-2026-stopping-s-au-o-ta-records]]、[[bethge-1966-heavy-ion-stopping-charge-states]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]。
+
+## 从API观测到native AlongStep的定向核验
+
+后续[来源前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-before-freeze.json)、[设计冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-design-freeze.json)明确不能预填API→transport迁移。实际读native调用链后才执行[原生fixture](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-fixture.cc)，[步骤摘要](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-native-summary.json)保留两种模型/步长与人为终止剩余能量边界。[重放脚本](../../system/scripts/day17_geant4_alongstep_control.py)对native和两诊断副本验证原输出一致。
+
+具体deposit：external .1nm首event首step约2.40793459×10⁻⁶MeV，次event对应2.50857637×10⁻⁵MeV；1nm分别2.40086283×10⁻⁵与2.50120904×10⁻⁴MeV。option4在对应两个事件相同。这些是声明软件模型数值，不是实测停止本领或meanlifetime。能量账本逐步闭合并不消除内部状态差异，后者由[qtrace](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-qtrace.json)定位到首次高能过渡cache的q²覆盖；短步无需range构建便能出现，收窄此前只强调range的解释。
+
+没有把这几个step积分成完整slowing轨迹、F(τ)或实验响应，没有替Sun选择版本/physicslist或估计其后验偏差。下一若要问影响范围，须分别改变声明模型的初能/材料/step/cut/history，并保留首次与稳定状态；那仍是模型适用域研究，不能兑换原实验数据与Σ。

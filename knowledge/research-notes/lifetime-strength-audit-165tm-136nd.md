@@ -3,7 +3,7 @@ type: research-note
 title: "寿命到强度与Qt：165Tm/136Nd的提取和几何审计"
 aliases: [lifetime-strength-audit, 165Tm 136Nd lifetime strength audit]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -182,3 +182,8 @@ S31-11另把2010Do03两detector的quotedstat/sys半衰期预算与Sunmeanτ转�
 [[geant4-2026-ion-stopping-component-contract]] GSI26-1–10核公开callpath与已存在SDK的三个声明模型组件，63编译行按实际稳定同位素查询，另31S/15O只是声明诊断。Wr低点相对三曲线差别显著，但error语义、模型训练谱系、Sun实际配置与材料仍缺；不能只按模型比值倒改实验τ或prior。
 
 无event的API查询也有初始化/历史条件：原fixture缺RunInitialization崩溃已修；external低能首次range构建的内部charge状态变化已trace定位且保留首次/重复值，SDK未patch。它证明单个“Geant4值”须附模型/表/能量/cut/调用合同，非原实验CI错误或完整DSAM再分析。
+
+
+### native前两步控制与实验影响之间的界限
+
+GSI26-11–15的实际Geant4 native控制补API→AlongStep的必要检验：同起点external首event首步/后续event约.0959881，option4为1；.1nm短步无需range积分即可由首次transitioncache触发，两个事件各两步后人为kill。源码诊断/原生step相同、局部能量账本闭合并不等完整transport或实验response通过。没有Sun所用版本/配置、材料、全轨迹、衰变/feeding和Σ，不外推τ/CI偏差或用它替原stoppingprior。

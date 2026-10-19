@@ -1,0 +1,4 @@
+
+## 2026-10-20 Day17 checkpoint017 — native AlongStep scope
+
+同19日Day17原窗口继续，formal17once/18uncredited。GSI26-11–15核native调用链与指定纯Ta/15O四个前两步控制，external首次event差异由native/trace/严格重放确认；短步无range也可由transitioncache触发，未外推Sunτbias。原source/SDK未改，旧claimrow/flags保持。修复GSI/ISP表空行导致漏索引并显式核15/13claims。verification031报告/27changed29mapped/coverage/boundary/lint/diff/protected0，0errors211warnings。稳定指针main / Bound native ion stopping state effects with controlled steps；hash/push仅runreceipt，原15:00截止/goalactive不变。

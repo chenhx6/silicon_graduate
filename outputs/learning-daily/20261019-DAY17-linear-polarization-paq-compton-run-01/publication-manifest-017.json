@@ -1,0 +1,40 @@
+{
+  "subject": "Bound native ion stopping state effects with controlled steps",
+  "paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+    "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+    "system/scripts/day17_geant4_alongstep_control.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-016.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-031.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-017.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/candidate-pool-017.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-base-model-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-before-source.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-claim-table-correction.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-design-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-design.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-fixture.cc",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-inference-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-model-header-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-native-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-native-summary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-param-header-identities.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-qtrace.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-replay.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-source-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/geant4-alongstep-trace.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "inheriteddirty,raw/PLAN/Bib/credentials/tmp/binaries/daemon;logHEAD+own017only;nextSungatefreezeexcluded"
+}
