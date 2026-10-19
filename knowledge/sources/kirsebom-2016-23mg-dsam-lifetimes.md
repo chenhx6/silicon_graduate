@@ -75,6 +75,7 @@ O. S. Kirsebom等，*Phys. Rev. C*93，025802(2016)，DOI [10.1103/PhysRevC.93.0
 | K16-20 | 新本session原读Jenkins2004四页，核其10(3)fs为七角fractional-Doppler加模型、feedingdirect假设；其Tableomega1.8(.7)adoptedAngulo而非新τ推出。原J04prose说finite-recoil已校，K16二级评论旧Ex似未校须定义/版本桥，不据此直接改数据。 | independent-primary-companion-and-revision | direct-original-companion | J04-3/5/7 | true |
 | K16-21 | 新202101五official对象把K16九upper/两未平均finite按mean×ln2转half，前两finite另与旧输入合并；7787<12mean与compiled<8.3half同源。Adopted自旋3/2+,5/2+还保留fusion7/2意见，不能把本模型旧J7/2固定成无条件事实。 | official-matched-reference-and-spin-boundary | direct-evaluation-and-reconstruction | M23-4/5/6/8/9/13/14 | true |
 | K16-22 | 原读Sallaska2011二十页给直接capture强度的积分/NT/beam/eff及弱模板合同；完整强度积分减少absolute-stopping但弱上限/energy/tail仍含停止/response。K16<12仍不裁决旧强度争议，不把新source中心与旧固定J/Bp拼实验τCI。 | actual-strength-companion-and-shared-boundary | direct-original-companion | S11-2/8/9/11/12/13/15/17 | true |
+| K16-23 | 作者Saastamoinen2011 thesis定向原读给低p相对451γ.32(.06)与γ6.63/1.53，daughterBp≈.03774而absoluteβp≈.14%；旧τ/J条件重构omega≈1.366meV不作新测量。spin7/2含势垒/IMME解释、30keV分辨不能排小IAS；原PRCbody/完整Cov仍缺。 | actual-branch-companion-and-boundary | direct-author-thesis-and-reconstruction | SA11-5/6/7/8/9/10 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -136,3 +137,7 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 ## 直接capture原件：避免绝对stopping的范围
 
 [[sallaska-2011-na22-absolute-resonance-strength]] S11-2/8/9/11/12/13/15/17核完整积分/束密度/靶原子数/效率链，弱模板和energyloss仍含stopping。它给K16寿命换强度的真实companion及共享边界，不替K16原line-shape/fitΣ或用新omega中心裁决旧τ。
+
+## 作者thesis中的Bp分母与自旋条件
+
+[[saastamoinen-2011-thesis-al23-proton-response]] SA11-1–14定向原读说明低p.14%是perβ强度，约3.7%是与该态两γ归一后的daughterbranch。其误差/背景、同源gamma/旧DSAM和7/2动力学解释不能省略；不是新原期刊body或独立tau/Q测量。

@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-19T19:20:36.284186+00:00",
+  "pdf_sha256": "53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c",
+  "source": "JYXauthor2011thesis112pages; not PRCarticlebody",
+  "actual_read": {
+    "front": "PDF1–12/17–18 identity/contents/abstract/paperslist",
+    "methods": "PDF52–60/ch4.2 (31Cl setup/timing paragraph encountered only for context;noDay19card)",
+    "results": "PDF69–78/section5.3Al23",
+    "appendix": "PDF97–103/AppendixA",
+    "references": "targetedPDF107–110 relevantkeys"
+  },
+  "visual_actual": [
+    "PDF57",
+    "PDF58",
+    "PDF73",
+    "PDF74",
+    "PDF77",
+    "PDF78",
+    "PDF98",
+    "PDF100",
+    "PDF101",
+    "PDF103"
+  ],
+  "notread": "full112pages/otherchapters/PRC83045808body;exactanalysiscode/events/fitCov unavailable",
+  "scope_boundary": "targetedauthorprimarycompanion after S11fullanchor, no claim fullthesisread; sameexperimentnotindependentpaper"
+}

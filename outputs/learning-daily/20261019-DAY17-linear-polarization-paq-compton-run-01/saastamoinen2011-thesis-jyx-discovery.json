@@ -1,0 +1,99 @@
+{
+  "url": "https://jyx.jyu.fi/jyx/Record/jyx_123456789_40105",
+  "final_url": "https://jyx.jyu.fi/jyx/Record/jyx_123456789_40105",
+  "status": 200,
+  "sha256": "c72e0e68d7f6e3d75f137527ceaf5e8d235e94993b99063eb03c01439788c9b0",
+  "links": [
+    {
+      "href": "https://jyx.jyu.fi/bitstreams/66f77d37-d92f-409a-bd6b-f05eb749ead1/download",
+      "text": "978-951-39-4556-5.pdf"
+    },
+    {
+      "href": "https://jyx.jyu.fi/bitstreams/66f77d37-d92f-409a-bd6b-f05eb749ead1/download",
+      "text": ""
+    }
+  ],
+  "meta": [
+    {
+      "name": "citation_author",
+      "content": "Saastamoinen, Antti"
+    },
+    {
+      "name": "citation_issn",
+      "content": "0075-465X"
+    },
+    {
+      "name": "citation_title",
+      "content": "Studies of Tz= -3/2 nuclei of astrophysical interest"
+    },
+    {
+      "name": "citation_abstract_html_url",
+      "content": "https://jyx.jyu.fi/handle/123456789/40105"
+    },
+    {
+      "name": "citation_issue",
+      "content": "no. 9/2011"
+    },
+    {
+      "name": "citation_dissertation_institution",
+      "content": "University of Jyväskylä"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://jyx.jyu.fi/bitstreams/66f77d37-d92f-409a-bd6b-f05eb749ead1/download"
+    },
+    {
+      "name": "citation_isbn",
+      "content": "978-951-39-4556-5"
+    },
+    {
+      "name": "citation_publisher",
+      "content": "University of Jyväskylä"
+    },
+    {
+      "name": "citation_language",
+      "content": "eng"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "Research report / Department of Physics, University of Jyväskylä"
+    },
+    {
+      "name": "citation_date",
+      "content": "2011"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2011"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "kääpiötähdet"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "beetahajoavat ytimet"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "23Al-ydin"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "31Cl-ydin"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "Penningin loukku"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "astrofysiikka"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "kaksoistähdet"
+    }
+  ],
+  "textpreview": "Studies of Tz= -3/2 nuclei of astrophysical interest   :: JYX Skip to content JYX OSC JYKDOK Help How to publish in JYX? Contact and feedback Language Suomi English Language Suomi English All Fields Title Author Find Advanced Search Search Studies of Tz= -3/2 nuclei of astrophysical intere… Cite this Print Export Record Export to RefWorks Export to EndNoteWeb Export to EndNote 978-951-39-4556-5.pdf Studies of Tz= -3/2 nuclei of astrophysical interest Studies of Tz= -3/2 nuclei of astrophysical interest Abstract This thesis presents a summary of experimental studies of  -decaying Tz = 􀀀3=2\r\nnuclei 23Al and 31Cl. The properties of these nuclei and the respective  -decay\r\ndaughters, 23Mg and 31S, have an in uence on the end products of ONe nova outbursts.\r\nThe experiments were carried out at the IGISOL facility in the Accelerator\r\nlaboratory of University of Jyväskylä and at the Cyclotron institute of Texas A&M\r\nUniversity.\r\nThe mass excess of 23Al was determined with Penning trap mass sp"
+}

@@ -262,3 +262,11 @@ M23-2/10另保留靶厚160vs40和7852/5138在2013缺失的评价注释；2013正
 [[sallaska-2010-na22-letter-version-contract]] S10-1–10：2010v1/v2 Eq1与TableI源码同、rateEPS同；2011四有限强度也相同，不能重复计实验。LetterlambdaLab²与详细文CM定义需r²桥；NR全窄峰数学积分给Lab系数lambdaLab²r³。质量数控制只说明相差约9.3%的定义因子，不认证原producer用了错公式，也不解释2.4–3.2倍争议。
 
 正式Erratum105209901准确存在/9Nov2010，但body当前未得；Sepv2关联DOI不等包含Nov更正。232footnote门与旧branch配对、2011TableIII角色差异同样保留，不能猜更正内容或改raw/强度。后续高信息应是actualerratum/producer或匹配独立particlebranch，而不是更多条件模型history。
+
+## 低能质子companion：两层分母与作者自旋解释
+
+[[saastamoinen-2011-thesis-al23-proton-response]] SA11-1–14来自作者2011 JYX thesis定向4.2/5.3/AppendixA，期刊PRC83045808尚未取得。Table5.4低p relative.32(.06)乘I451abs43.3(1.0)%给perβ.13856%，不能放到Γp/Γtotal公式；Fig5.7同单位p/γ .32/6.63/1.53归一为Bp.0377358。固定旧τ10/J7/2/所列两通道得Γp2.484/Γγ63.337/omega1.366meV，仅中心重构，无新CI。
+
+作者排3/2借L2势垒、排5/2借IAS/IMME混合推断；角动量允许集合仍含J3/2 L2，同spin也不强制大混合。新source不反向推唯一J；30keVFWHM对16keVdoublet仍不能排小IAS。原gamma来自Zhai2007/Iacob2006、τ来自J04，同源输入与当下measurement分列。
+
+AppendixA明确ROOT5.22/Rebin/ShowBackground/Smooth/150keV数据匹配与Add减背景，并称errors自动传播、fit约16%；这些是待actualcode核验的工具合同，Sumw2本身不保证fullCov。真实events/原analysis/模板Cov未得，不以更多toy重造实验CI。

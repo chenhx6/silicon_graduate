@@ -645,6 +645,7 @@ updated: 2026-10-20
 - [[nndc-2021-mg23-lifetime-strength-reference]] - 官方五对象的母态/自旋/half-mean及强度谱系；条件分支约束不作新实验。
 - [[sallaska-2011-na22-absolute-resonance-strength]] - 直接capture绝对强度原件；完整积分、有限尾、靶/束/效率共享与单侧上限。
 - [[sallaska-2010-na22-letter-version-contract]] - 同源短报版本、Lab/CM波长桥与未得正式勘误的边界。
+- [[saastamoinen-2011-thesis-al23-proton-response]] - 作者thesis定向Al23：βp/daughterBp分母、自旋解释及ROOT5.22背景误差合同。
 - [[simdsam-2015-public-dsam-code]] - 原公开2015代码/响应表及原表达式组件；变量、时钟、束斑与exactjob限制。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
 - [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。

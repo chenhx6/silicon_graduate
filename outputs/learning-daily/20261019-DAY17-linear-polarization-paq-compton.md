@@ -53,6 +53,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint026：实际作者thesis与原期刊边界
+
+[[saastamoinen-2011-thesis-al23-proton-response]] SA11-1–14，实际JYX112页作者primary，只定向4.2/5.3/AppendixA与refs，不称全文或期刊reprint。PRC83045808body当前未得；原计数/analysis/Σ未得。
+
+
 ### checkpoint025：2010Letter实际原读与正式erratum边界
 
 [[sallaska-2010-na22-letter-version-contract]] S10-1–10，v2四页完整主线/一式一表两图；v1定向source/text/table/figure比较非独立盲读。正式erratum DOI已核，body当前未得，不从关联metadata/标题补科学。
@@ -95,6 +100,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint026：perβ与daughterbranch分开
+
+[程序](../../system/scripts/day17_saastamoinen2011_thesis_contract.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/saastamoinen2011-thesis-exercise-result.json)核真实Table5.4和Fig5.7：perβp.13856%不同于daughterBp.0377358；固定旧τ/J给Γp2.484/Γγ63.337/omega1.366meV，非新测量/CI。十二行共同I451-only Cov给总贡献.0281个百分点，非fullfitCov。J3/2仍允许L2，仅此不裁决spin。
+
 
 ### checkpoint025：Lab/CM波长条件桥
 
@@ -163,6 +173,11 @@ Table8仍**partial**：源113.4/152.3/160.2(重数64/64/128)与当前native113.5
 NSR正确endpoint核1976Av01为Avignone/Girard PRC13,2067–2070、DOI10.1103/PhysRevC.13.2067；APSlanding403/官方harvest401，primarybody未得，无phase/fitΣ推测。初NNDC/NSR请求home/404均识别并留档，不以HTTP200或downloaderwrapper0声称得到正文。当前仍Day17continuity，Day18仅看card、未预习/授分。
 
 ## Counter-evidence and missing companion observables
+
+### checkpoint026：背景与自旋解释仍是输入
+
+SA11-8/9/10/11/12：30keVFWHM不能排16keV近IAS小贡献；作者7/2偏好还含势垒/IMME动力学，gamma/τ来自不同旧源。ROOT5.22平滑/scale/Add误差传播主张待真实code核；不把净计数Poisson或Sumw2buffer当完整Σ。
+
 
 ### checkpoint024：完整积分与停止输入范围
 
@@ -362,6 +377,9 @@ K16-19准确追到Alexander1981物性原源DOI10.1016/0022-3115(81)90217-8、JNu
 J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/gap/currentfinalenergy/详细文桥，不能自动加修正改raw。DCO all-axis/90vs32/37校准.9/1.7不可迁ST99/SG98，E2标签不只允许DeltaJ2，作者Jπ判断还含transfer/mirror/stretched条件。原centroid/stopmodel/feeding/Σ及2004/2013谱系未齐，下一详细文核依赖。canonical J04/K16/methods/auditledger/index已同步；`supports`独立寿命链，`revises`混读新τ/旧强度，`limits`裸ratio/τ到唯一Jπ/Γgamma。formal17once/18partial，无19课程。
 
 ## Durable knowledge delta
+
+新增[作者thesis源](../../knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md) SA11-5/6/7/9/11/12/14及[[lifetime-strength-audit-165tm-136nd]]“低能质子companion：两层分母与作者自旋解释”；真实分母表、来源矩阵、条件复算和新可证伪ROOT输入均canonical。
+
 
 新增[2010版本源](../../knowledge/sources/sallaska-2010-na22-letter-version-contract.md)S10-1/2/3/4/9和[[lifetime-strength-audit-165tm-136nd]]“短报/详细文的frame与同源版本”；可复用frame关系/同源矩阵/缺失输入均canonical。
 
@@ -4076,6 +4094,121 @@ J04原文说finite-recoil已校，而K16二级评论旧Ex似未校，需photon/g
           "locator": "S10-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "anchor": "每次β衰变的质子强度与激发态的质子份额不同",
+      "summary": "新增作者thesis定向数据/响应/归一与条件重构。",
+      "sources": [
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-1"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-5"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-6"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-7"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-9"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "anchor": "作者thesis中的Bp分母与自旋条件",
+      "summary": "补真实Bp分母和来源依赖，不造新CI。",
+      "sources": [
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-5"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-6"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-9"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "低能质子companion：两层分母与作者自旋解释",
+      "summary": "增加matchedbranch/相邻IAS/背景与同源矩阵。",
+      "sources": [
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-5"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-6"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-7"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-8"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-9"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "共享归一与净计数：低p伴随观测的实际例子",
+      "summary": "记录归一Cov与工具误差待核边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-11"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-12"
+        },
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "[[saastamoinen-2011-thesis-al23-proton-response]]",
+      "summary": "新增定向thesis源入口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+          "locator": "SA11-1"
+        }
+      ]
     }
   ]
 }
@@ -4230,3 +4363,7 @@ verification038核report/唯一writeback/course/boundary/lint/diff与旧claims/r
 ### checkpoint025版本/条件推导验收
 
 verification039为report/coverage/唯一writeback/boundary/lint/diff/旧claim与review门；实际通过后manifest025/commitguard/H3。当前仍同原研究窗口，不授18、不重复17、不开19。
+
+### checkpoint026作者thesis/分母验收
+
+verification040核报告/coverage/唯一writeback/boundary/lint/diff/protected/旧rowsreview；通过后manifest026/commitguard/H3发布。仍同原窗口，formal17once、18partial，不授18/no19。

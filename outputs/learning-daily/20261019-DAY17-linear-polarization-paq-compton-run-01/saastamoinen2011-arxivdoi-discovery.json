@@ -1,0 +1,10 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=doi:10.1103/PhysRevC.83.045808&max_results=5",
+  "status": 200,
+  "final_url": "https://export.arxiv.org/api/query?search_query=doi:10.1103/PhysRevC.83.045808&max_results=5",
+  "bytes": 731,
+  "sha256": "de0f3eee383ac3e93eadb5e1d3bdcadf73406832d4a56baab1dbaa7227013d51",
+  "text_preview": "https://arxiv.org/api/YE0LoLjQkhW3tsy13tGdweq/a+g arXiv Query: search_query=doi:10.1103/PhysRevC.83.045808&id_list=&start=0&max_results=5 2026-10-19T19:13:54Z 5 0 0",
+  "links": [],
+  "meta": []
+}

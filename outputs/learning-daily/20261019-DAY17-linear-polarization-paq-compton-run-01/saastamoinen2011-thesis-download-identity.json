@@ -1,0 +1,22 @@
+{
+  "url": "https://jyx.jyu.fi/bitstreams/66f77d37-d92f-409a-bd6b-f05eb749ead1/download",
+  "status": 200,
+  "bytes": 7996041,
+  "sha256": "53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c",
+  "pages": 112,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "TeX",
+    "producer": "pdfeTeX-1.21a",
+    "creationDate": "D:20111201123648+02'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "file": "tmp/day17-saastamoinen2011/saastamoinen2011-thesis.pdf",
+  "scope": "identity/frontmatter discovery only; no fullthesisread claimed"
+}

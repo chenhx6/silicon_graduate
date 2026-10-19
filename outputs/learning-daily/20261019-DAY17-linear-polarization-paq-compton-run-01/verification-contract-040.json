@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md": 14,
+    "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md": 23
+  },
+  "artifacts": [
+    {
+      "file": "saastamoinen2011-thesis-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "J3p2_evenL_is_allowed_not_forbidden",
+        "no_new_experimental_spin_branch_lifetime_width_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -88,3 +88,8 @@ J04-1–14新完整原读四页，七角fractional-Doppler/directfeeding假设�
 ### Day17 checkpoint025 priming：短报版本与frame
 
 [[sallaska-2010-na22-letter-version-contract]]四页v2/targetedv1：Eq1/TableI同源，LetterlambdaLab/2011lambdaCM定义需NR r²桥。质量数约9.3%只条件推导，不认证producer或重标实验。正式erratum9Nov2010仅metadata，body未得；不能从arxiv关联DOI认Sepv2含更正或猜具体内容。仅知识preview不授18。
+
+
+### Day17 checkpoint026 priming：作者thesis分母/背景
+
+[[saastamoinen-2011-thesis-al23-proton-response]]112页仅定向Al23/response/AppendixA，原PRC未得。perβp.14%不同于daughterBp≈.03774，旧τ/J条件给omega1.366非新CI；7/2有势垒/IMME解释，30keVresolution不排小IAS。ROOT5.22平滑误差自动传播主张待实际code，A3打印域保边界。正式18仍需声明priming/独立卡audit，不拿本preview换信用。

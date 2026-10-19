@@ -2134,3 +2134,8 @@ GR97原7p/Eq1–16/3fig/TableI完整重读；九Q/M/派生绝对ε与unknownCov�
 ## 2026-10-20 Day17 checkpoint025 — Letter版本/NR frame合同
 
 原读2010Letterv2四页并targeted比v1，Eq1/TableI同、rateEPS同，2011同源强度不重复计。lambdaLab/CM字面差及NR r²桥canonical；无正式erratumbody/实际producer，不猜勘误内容或重标实验。verification039通过（0error/223warnings，33changed35mapped），保护旧review/claims/raw/PLAN/Bib/dirty。main / Audit short report versions and resonance wavelength frame contract；actualhash/H3见publication025。原窗口继续，下一个独立particlebranch输入；17once/18partial/no19。
+
+
+## 2026-10-20 Day17 checkpoint026 — Al23两层分母/背景合同
+
+取得作者JYX2011 thesis112页，定向4.2/5.3/AppendixA而非全文/原PRCbody。canonical区分perβp.14%和daughterBp.03774，旧τ/J条件重构宽度/omega非新CI；作者spin解释与近IAS/背景/同源输入分开。verification040通过（0error/225warnings，34changed36mapped），旧claims/review/保护文件保持。main / Separate Al23 beta proton intensity from daughter branching；actualhash/H3见publication026。继续原窗口ROOT5.22真实代码输入，不授18/no19。

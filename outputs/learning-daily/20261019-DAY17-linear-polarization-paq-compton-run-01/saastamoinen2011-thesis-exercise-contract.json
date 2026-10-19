@@ -1,0 +1,105 @@
+{
+  "identity": "SA11-THESIS-PROTON-GAMMA-ROLE-01",
+  "pdf": "tmp/day17-saastamoinen2011/saastamoinen2011-thesis.pdf",
+  "pdf_sha256": "53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c",
+  "I451_absolute_percent": 43.3,
+  "I451_absolute_scale_percent": 1.0,
+  "proton_relative_per100_I451": 0.32,
+  "proton_relative_scale": 0.06,
+  "gamma_relative_per100_I451": [
+    6.63,
+    1.53
+  ],
+  "Table5p4": [
+    {
+      "Emeas": 214,
+      "relative": 0.32,
+      "relative_scale": 0.06,
+      "absolute_percent": 0.14,
+      "absolute_scale": 0.03
+    },
+    {
+      "Emeas": 273,
+      "relative": 0.42,
+      "relative_scale": 0.08,
+      "absolute_percent": 0.18,
+      "absolute_scale": 0.04
+    },
+    {
+      "Emeas": 341,
+      "relative": 0.08,
+      "relative_scale": 0.02,
+      "absolute_percent": 0.03,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 446,
+      "relative": 0.04,
+      "relative_scale": 0.02,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 579,
+      "relative": 0.65,
+      "relative_scale": 0.02,
+      "absolute_percent": 0.28,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 861,
+      "relative": 0.95,
+      "relative_scale": 0.03,
+      "absolute_percent": 0.41,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 1194,
+      "relative": 0.04,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 1326,
+      "relative": 0.06,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 1405,
+      "relative": 0.04,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 1546,
+      "relative": 0.06,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.03,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 1712,
+      "relative": 0.04,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01
+    },
+    {
+      "Emeas": 1824,
+      "relative": 0.11,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.05,
+      "absolute_scale": 0.01
+    }
+  ],
+  "tau_mean_fs_fixed": 10,
+  "hbar_meV_fs": 658.2119569,
+  "J_fixed": 3.5,
+  "target_spin": 3,
+  "projectile_spin": 0.5,
+  "no_actualfitcovavailable": true
+}

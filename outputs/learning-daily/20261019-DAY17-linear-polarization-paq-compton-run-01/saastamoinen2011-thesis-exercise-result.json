@@ -1,0 +1,381 @@
+{
+  "at": "2026-10-19T19:22:03.396537+00:00",
+  "script_sha256": "466f74fb2b5ffc4e38b9eda23c290bc219b4229c9371a6efee420d3ca3100e77",
+  "contract_sha256": "a4f82fa53a844fde40e19686fcc22d8ea81b959c9c874e0d19d9f1554f4553d0",
+  "pdf_sha256": "53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c",
+  "rows": [
+    {
+      "Emeas": 214,
+      "relative": 0.32,
+      "relative_scale": 0.06,
+      "absolute_percent": 0.14,
+      "absolute_scale": 0.03,
+      "absolute_percent_from_relative": 0.13856,
+      "conditional_scale_from_two_independent_printed_inputs": 0.026176332821845002,
+      "nominal_absolute_residual_percent": -0.0014400000000000246
+    },
+    {
+      "Emeas": 273,
+      "relative": 0.42,
+      "relative_scale": 0.08,
+      "absolute_percent": 0.18,
+      "absolute_scale": 0.04,
+      "absolute_percent_from_relative": 0.18186,
+      "conditional_scale_from_two_independent_printed_inputs": 0.03489368997397667,
+      "nominal_absolute_residual_percent": 0.0018600000000000005
+    },
+    {
+      "Emeas": 341,
+      "relative": 0.08,
+      "relative_scale": 0.02,
+      "absolute_percent": 0.03,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.03464,
+      "conditional_scale_from_two_independent_printed_inputs": 0.008696873001257405,
+      "nominal_absolute_residual_percent": 0.004639999999999998
+    },
+    {
+      "Emeas": 446,
+      "relative": 0.04,
+      "relative_scale": 0.02,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.01732,
+      "conditional_scale_from_two_independent_printed_inputs": 0.008669232953381746,
+      "nominal_absolute_residual_percent": -0.002680000000000002
+    },
+    {
+      "Emeas": 579,
+      "relative": 0.65,
+      "relative_scale": 0.02,
+      "absolute_percent": 0.28,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.28145000000000003,
+      "conditional_scale_from_two_independent_printed_inputs": 0.010828000738825243,
+      "nominal_absolute_residual_percent": 0.0014500000000000068
+    },
+    {
+      "Emeas": 861,
+      "relative": 0.95,
+      "relative_scale": 0.03,
+      "absolute_percent": 0.41,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.41135,
+      "conditional_scale_from_two_independent_printed_inputs": 0.016093169358457643,
+      "nominal_absolute_residual_percent": 0.0013500000000000179
+    },
+    {
+      "Emeas": 1194,
+      "relative": 0.04,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.01732,
+      "conditional_scale_from_two_independent_printed_inputs": 0.004348436500628702,
+      "nominal_absolute_residual_percent": -0.002680000000000002
+    },
+    {
+      "Emeas": 1326,
+      "relative": 0.06,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.02598,
+      "conditional_scale_from_two_independent_printed_inputs": 0.004371372782090312,
+      "nominal_absolute_residual_percent": 0.005979999999999999
+    },
+    {
+      "Emeas": 1405,
+      "relative": 0.04,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.01732,
+      "conditional_scale_from_two_independent_printed_inputs": 0.004348436500628702,
+      "nominal_absolute_residual_percent": -0.002680000000000002
+    },
+    {
+      "Emeas": 1546,
+      "relative": 0.06,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.03,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.02598,
+      "conditional_scale_from_two_independent_printed_inputs": 0.004371372782090312,
+      "nominal_absolute_residual_percent": -0.004019999999999999
+    },
+    {
+      "Emeas": 1712,
+      "relative": 0.04,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.02,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.01732,
+      "conditional_scale_from_two_independent_printed_inputs": 0.004348436500628702,
+      "nominal_absolute_residual_percent": -0.002680000000000002
+    },
+    {
+      "Emeas": 1824,
+      "relative": 0.11,
+      "relative_scale": 0.01,
+      "absolute_percent": 0.05,
+      "absolute_scale": 0.01,
+      "absolute_percent_from_relative": 0.04763,
+      "conditional_scale_from_two_independent_printed_inputs": 0.004467538472134291,
+      "nominal_absolute_residual_percent": -0.002370000000000004
+    }
+  ],
+  "absolute_beta_proton_percent": 0.13856,
+  "daughter_channel_fractions_from_printed_Fig5p7": [
+    0.03773584905660377,
+    0.7818396226415094,
+    0.1804245283018868
+  ],
+  "fixed_tau_J_width_control": {
+    "Gamma_total_meV": 65.82119569,
+    "Gamma_p_meV": 2.4838187052830185,
+    "Gamma_gamma_meV": 63.337376984716975,
+    "omega_gamma_meV": 1.3657655414494225,
+    "boundary": "fixed old mean tau/J and only listed p,gamma branches; no new widths or CI"
+  },
+  "Table5p4_total_printed_absolute_percent": 1.22,
+  "Table5p4_total_from_relative_percent": 1.21673,
+  "common_I451_only_covariance_percent_squared": [
+    [
+      1.024e-05,
+      1.344e-05,
+      2.56e-06,
+      1.28e-06,
+      2.0800000000000004e-05,
+      3.04e-05,
+      1.28e-06,
+      1.92e-06,
+      1.28e-06,
+      1.92e-06,
+      1.28e-06,
+      3.52e-06
+    ],
+    [
+      1.344e-05,
+      1.7639999999999997e-05,
+      3.36e-06,
+      1.68e-06,
+      2.7300000000000003e-05,
+      3.99e-05,
+      1.68e-06,
+      2.5199999999999996e-06,
+      1.68e-06,
+      2.5199999999999996e-06,
+      1.68e-06,
+      4.62e-06
+    ],
+    [
+      2.56e-06,
+      3.36e-06,
+      6.4e-07,
+      3.2e-07,
+      5.200000000000001e-06,
+      7.6e-06,
+      3.2e-07,
+      4.8e-07,
+      3.2e-07,
+      4.8e-07,
+      3.2e-07,
+      8.8e-07
+    ],
+    [
+      1.28e-06,
+      1.68e-06,
+      3.2e-07,
+      1.6e-07,
+      2.6000000000000005e-06,
+      3.8e-06,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      4.4e-07
+    ],
+    [
+      2.0800000000000004e-05,
+      2.7300000000000003e-05,
+      5.200000000000001e-06,
+      2.6000000000000005e-06,
+      4.2250000000000004e-05,
+      6.175e-05,
+      2.6000000000000005e-06,
+      3.9e-06,
+      2.6000000000000005e-06,
+      3.9e-06,
+      2.6000000000000005e-06,
+      7.150000000000001e-06
+    ],
+    [
+      3.04e-05,
+      3.99e-05,
+      7.6e-06,
+      3.8e-06,
+      6.175e-05,
+      9.025e-05,
+      3.8e-06,
+      5.7e-06,
+      3.8e-06,
+      5.7e-06,
+      3.8e-06,
+      1.045e-05
+    ],
+    [
+      1.28e-06,
+      1.68e-06,
+      3.2e-07,
+      1.6e-07,
+      2.6000000000000005e-06,
+      3.8e-06,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      4.4e-07
+    ],
+    [
+      1.92e-06,
+      2.5199999999999996e-06,
+      4.8e-07,
+      2.4e-07,
+      3.9e-06,
+      5.7e-06,
+      2.4e-07,
+      3.6e-07,
+      2.4e-07,
+      3.6e-07,
+      2.4e-07,
+      6.6e-07
+    ],
+    [
+      1.28e-06,
+      1.68e-06,
+      3.2e-07,
+      1.6e-07,
+      2.6000000000000005e-06,
+      3.8e-06,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      4.4e-07
+    ],
+    [
+      1.92e-06,
+      2.5199999999999996e-06,
+      4.8e-07,
+      2.4e-07,
+      3.9e-06,
+      5.7e-06,
+      2.4e-07,
+      3.6e-07,
+      2.4e-07,
+      3.6e-07,
+      2.4e-07,
+      6.6e-07
+    ],
+    [
+      1.28e-06,
+      1.68e-06,
+      3.2e-07,
+      1.6e-07,
+      2.6000000000000005e-06,
+      3.8e-06,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      2.4e-07,
+      1.6e-07,
+      4.4e-07
+    ],
+    [
+      3.52e-06,
+      4.62e-06,
+      8.8e-07,
+      4.4e-07,
+      7.150000000000001e-06,
+      1.045e-05,
+      4.4e-07,
+      6.6e-07,
+      4.4e-07,
+      6.6e-07,
+      4.4e-07,
+      1.21e-06
+    ]
+  ],
+  "total_common_I451_only_scale_percent": 0.0281,
+  "allowed_channel_angular_momenta": [
+    {
+      "L": 0,
+      "channel_spin": 2.5,
+      "allowed_J": [
+        2.5
+      ]
+    },
+    {
+      "L": 0,
+      "channel_spin": 3.5,
+      "allowed_J": [
+        3.5
+      ]
+    },
+    {
+      "L": 2,
+      "channel_spin": 2.5,
+      "allowed_J": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5
+      ]
+    },
+    {
+      "L": 2,
+      "channel_spin": 3.5,
+      "allowed_J": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5
+      ]
+    },
+    {
+      "L": 4,
+      "channel_spin": 2.5,
+      "allowed_J": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ]
+    },
+    {
+      "L": 4,
+      "channel_spin": 3.5,
+      "allowed_J": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5
+      ]
+    }
+  ],
+  "J3p2_evenL_is_allowed_not_forbidden": true,
+  "no_new_experimental_spin_branch_lifetime_width_or_CI": true,
+  "ok": true
+}

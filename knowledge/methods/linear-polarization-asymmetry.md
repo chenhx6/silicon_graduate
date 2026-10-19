@@ -255,3 +255,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 名义magic angle与共同效率的companion边界
 
 [[sallaska-2011-na22-absolute-resonance-strength]] S11-4/5/17：55°降低P2项但P4/有限接受/boost仍在；source另给angular系统尺度，不拿名义点角宣称完整response无取向依赖。活动度和高能产额共用效率时还需Cov(η1275,ηH)，共同scale在条件比可消；此推导不能冒作原实验误差重评或polarimeterQ标定。
+
+## 共享归一与净计数：低p伴随观测的实际例子
+
+[[saastamoinen-2011-thesis-al23-proton-response]] SA11-5/6/11/12/14：perβ强度与daughterfraction分母不同；共同reference可在归一比消去，却让多行absolute强度相关。平滑/缩放/减背景后的误差须实际版本与Cov，不用净counts平方根或Sumw2名义buffer替全联合误差。这个原则同样用于Compton侧带/校准，但不得迁用本Si响应作为polarimeterQ。
