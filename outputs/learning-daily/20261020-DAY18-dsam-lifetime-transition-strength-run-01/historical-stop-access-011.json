@@ -1,0 +1,143 @@
+{
+  "at": "2026-10-20T13:40:43.506242+00:00",
+  "attempts": [
+    {
+      "tag": "schwalm1977-openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0375-9474(77)90108-7",
+      "status": 200,
+      "bytes": 14805,
+      "mime": "application/json",
+      "locations": [
+        {
+          "id": "doi:10.1016/0375-9474(77)90108-7",
+          "doi": "https://doi.org/10.1016/0375-9474(77)90108-7",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/0375-9474(77)90108-7",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S62159105",
+            "display_name": "Nuclear Physics A",
+            "issn_l": "0375-9474",
+            "issn": [
+              "0375-9474",
+              "1873-1554"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nuclear Physics A",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:repository.gsi.de:52598",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://repository.gsi.de/search?p=id:%22GSI-2013-03598%22",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401977",
+            "display_name": "GSI Repository (German Federal Government)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Nuclear physics &amp;lt;Amsterdam&amp;gt; / A 293(3), 425 - 480 (1977). doi:10.1016/0375-9474(77)90108-7",
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "title": "Coulomb excitation of sd shell nuclei: A self-contained set of B(E2) values and lifetime measurements"
+    },
+    {
+      "tag": "schwalm1977-osti",
+      "url": "https://www.osti.gov/api/v1/records?doi=10.1016/0375-9474(77)90108-7",
+      "status": 200,
+      "bytes": 2,
+      "mime": "application/json",
+      "records": []
+    },
+    {
+      "tag": "hermans1977-discovery",
+      "url": "https://api.crossref.org/works?query.bibliographic=Hermans%20Nuclear%20Physics%20A%20284%20307%201977&filter=from-pub-date:1977-01-01,until-pub-date:1977-12-31&rows=5",
+      "status": 200,
+      "bytes": 23762,
+      "mime": "application/json",
+      "items": [
+        {
+          "title": [
+            "High-velocity DSA measurements in the 1–20 ps lifetime region: Comparison between DSA and RD"
+          ],
+          "DOI": "10.1016/0375-9474(77)90126-9",
+          "volume": "284",
+          "page": "307-328"
+        },
+        {
+          "title": [
+            "Editorial Board"
+          ],
+          "DOI": "10.1016/0375-9474(77)90680-7",
+          "volume": "284",
+          "page": "iii"
+        },
+        {
+          "title": [
+            "Subject index"
+          ],
+          "DOI": "10.1016/0375-9474(77)90402-x",
+          "volume": "284",
+          "page": "536-539"
+        },
+        {
+          "title": [
+            "Author index"
+          ],
+          "DOI": "10.1016/0375-9474(77)90401-8",
+          "volume": "284",
+          "page": "533-535"
+        },
+        {
+          "title": [
+            "Spin-parity assignments to yrast states of 42K"
+          ],
+          "DOI": "10.1016/0375-9474(77)90705-9",
+          "volume": "283",
+          "page": "157-175"
+        }
+      ]
+    }
+  ],
+  "previous_hermans_query": "JSONDecodeError; no body retrieved"
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "tag": "schwalm-gsi",
+    "url": "https://repository.gsi.de/record/52598",
+    "error": "ConnectionErrorHTTPSConnectionPool(host='repository.gsi.de', port=443): Max retries exceeded with url: /record/5259"
+  },
+  {
+    "tag": "hermans-openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/0375-9474(77)90126-9",
+    "status": 200,
+    "bytes": 14914,
+    "mime": "application/json",
+    "is_pdf": false,
+    "file": "tmp/day18-20261020/historical-stop/hermans-openalex.txt",
+    "locations": [
+      {
+        "id": "doi:10.1016/0375-9474(77)90126-9",
+        "doi": "https://doi.org/10.1016/0375-9474(77)90126-9",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/0375-9474(77)90126-9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S62159105",
+          "display_name": "Nuclear Physics A",
+          "issn_l": "0375-9474",
+          "issn": [
+            "0375-9474",
+            "1873-1554"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-c",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nuclear Physics A",
+        "raw_type": "journal-article"
+      }
+    ],
+    "title": "High-velocity DSA measurements in the 1–20 ps lifetime region: Comparison between DSA and RD"
+  },
+  {
+    "tag": "hermans-publisher",
+    "url": "https://www.sciencedirect.com/science/article/pii/0375947477901269/pdfft?isDTMRedir=true&download=true",
+    "status": 403,
+    "bytes": 832804,
+    "mime": "text/html; charset=UTF-8",
+    "is_pdf": false,
+    "file": "tmp/day18-20261020/historical-stop/hermans-publisher.txt",
+    "title": "ScienceDirect",
+    "links": []
+  }
+]

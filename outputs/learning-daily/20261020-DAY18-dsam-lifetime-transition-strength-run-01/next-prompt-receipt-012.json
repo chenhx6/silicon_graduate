@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-20T21:52:25.545796+08:00",
+  "prompt_file": "outputs/learning-daily/prompts/20261021-DAY19-rdds-fast-timing.md",
+  "starts_session": false,
+  "grants_credit": false,
+  "formal_day_index": 18,
+  "uncredited_preview": 19,
+  "historical_stop_sources": {
+    "Schwalm1977": "metadata only",
+    "Hermans1977": "metadata only"
+  }
+}
