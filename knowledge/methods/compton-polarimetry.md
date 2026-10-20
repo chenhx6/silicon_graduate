@@ -461,3 +461,10 @@ Table1 Ex2935的E1光子Eg967与Fig3同母态2935groundγ不同P，不把Ex作ca
 [[twin-1970-polarization-angular-correlation-40k]] TW70-D17-1–14新16页核纠：ψ82是Compton角而非emissionθ，R.21(.02)用于2231keV非1.5MeV。θ0yield只校relativeanalyzereff；R另由Fergusonfinitegeometry算、Ar1460校within5%、adopt10%error。原sumpeakN与P=-A_0−90/R的符号不可套相反axis；Qk核角attenuation和R/modernQ名分开。
 
 其pureM2的844 reference解770δ歧，而770–1159γγ作者称无新增信息；2261偏振单独可容多Jπ。校准/companion必须按actual观测信息增益选，不把correlation数目或旧R数值当通用保证。新pointKN82/90对照只是component，不重建原finiteacceptance/Σ。
+
+
+## 单planarGeLi的Q=2A命名
+
+[[ewan-1969-single-geli-polarimeter]] EW69-D17-1–10原letter3页/表核：Qraw=(difference)/(averagepeak)=2A、Qcorr=2A/P；同observable改通常A/P需除2，847原15.7%对应.0785，4.43MeV6.4%对应.032，不能当detector突然多2倍灵敏度或迁B73Q。这里N为单晶转动两次fullpeak，不是clover两个scatterplane。
+
+原p353P公式对本表475给>1，与TW70pureE2point式有literal不闭合，保原式/companionreport缺口，条件重算不替作者P/Q。833负Qraw也不是P测值；低能photoelectric全能峰稀释和16cmorientation接受都属于该装置，不能用曲线倒推fraction/Σ或仅凭sign指定δ/Jπ。

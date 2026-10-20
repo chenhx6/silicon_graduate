@@ -2250,3 +2250,7 @@ B73新全文/七行校准与计数Jacobian核，纠旧Wiki额外分母，旧flag
 ### Day17 checkpoint052：独立Alberta角与R对象
 
 TW70原16页核纠ψ82与R2231，θ0null/有限geometry/多观测信息增益与模型prior写回；旧flags保，新14待审。verification066/manifest052/H3发布，main / `Correct independent polarimeter angle and calibration-energy identities`，原windowactive/17once/partial18。
+
+### Day17 checkpoint053：单GeLi平均分母/百分数
+
+EW69原3页新核Qraw2A/corrected2A/P，literalP式对475不闭合保，mixed833不套pure式；旧flags保，新10待审。verification067/manifest053/H3发布，main / `Map single-crystal polarization normalization and preserve literal formula limits`，原windowactive/17once/partial18。

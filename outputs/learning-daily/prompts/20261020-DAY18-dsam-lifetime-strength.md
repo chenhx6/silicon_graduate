@@ -197,3 +197,6 @@ Day17checkpoint051 priming：Butler1973原6页/七calibrator核，Eq3a修count�
 
 
 Day17checkpoint052 priming：Twin1970原16页/9图/2表新核，旧ψ82/emissionθ及R.21@1.5误读纠为Comptonψ82/R.21@2231；θ0null相对eff与有限geometry/Ar1460检查R为两层。844reference pureM2，γγ不总新增信息、Ponly多Jπ及CNRphase/near-threshold域保；无newR/P/δ/Jπ/CI。
+
+
+Day17checkpoint053 priming：EW69原3页/两表新核Qraw2A、Qcorr2A/P，普通A/P映.0785/.052/.063/.032；rawQ不是P。literalp353E2式给Ru475P>2，与TW70pure式有边界，不自改原文/造erratum。833mixed不套pureE2，低能photoelectricfraction/transport/Σ缺，原较大detector与旧cal分开。

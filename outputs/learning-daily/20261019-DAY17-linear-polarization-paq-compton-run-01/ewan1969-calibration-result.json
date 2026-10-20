@@ -1,0 +1,106 @@
+{
+  "at": "2026-10-20T01:20:07.536582+00:00",
+  "script_sha256": "c621bf9a7a87c857ef9c7862b20e6ef233195541669cc76ef9d6bc4231d1eed0",
+  "contract_sha256": "343e502f8c8eee9ef092548abb6b4adb99736de676f294465a5e5758d385a206",
+  "actual_calibration_rows": [
+    {
+      "nucleus": "56Fe",
+      "Egamma_MeV": 0.847,
+      "author_Qraw_percent": 8.3,
+      "author_Qcorr100P_percent": 15.7,
+      "implied_P_from_Qraw_over_Qcorr": 0.5286624203821657,
+      "ordinary_count_A": 0.0415,
+      "ordinary_AoverP_sensitivity": 0.0785,
+      "sigma_sensitivity_from_same_source_scale_only": 0.005,
+      "ordinary_A_error_same_scale_only": 0.0025,
+      "no_new_experimental_P_or_independent_error": true
+    },
+    {
+      "nucleus": "24Mg",
+      "Egamma_MeV": 1.368,
+      "author_Qraw_percent": 9.7,
+      "author_Qcorr100P_percent": 10.4,
+      "implied_P_from_Qraw_over_Qcorr": 0.9326923076923076,
+      "ordinary_count_A": 0.048499999999999995,
+      "ordinary_AoverP_sensitivity": 0.052000000000000005,
+      "sigma_sensitivity_from_same_source_scale_only": 0.0075,
+      "ordinary_A_error_same_scale_only": 0.0045000000000000005,
+      "no_new_experimental_P_or_independent_error": true
+    },
+    {
+      "nucleus": "28Si",
+      "Egamma_MeV": 1.779,
+      "author_Qraw_percent": 10.2,
+      "author_Qcorr100P_percent": 12.6,
+      "implied_P_from_Qraw_over_Qcorr": 0.8095238095238095,
+      "ordinary_count_A": 0.051,
+      "ordinary_AoverP_sensitivity": 0.063,
+      "sigma_sensitivity_from_same_source_scale_only": 0.008,
+      "ordinary_A_error_same_scale_only": 0.006,
+      "no_new_experimental_P_or_independent_error": true
+    },
+    {
+      "nucleus": "12C",
+      "Egamma_MeV": 4.43,
+      "author_Qraw_percent": 6.4,
+      "author_Qcorr100P_percent": 6.4,
+      "implied_P_from_Qraw_over_Qcorr": 1.0,
+      "ordinary_count_A": 0.032,
+      "ordinary_AoverP_sensitivity": 0.032,
+      "sigma_sensitivity_from_same_source_scale_only": 0.005,
+      "ordinary_A_error_same_scale_only": 0.005,
+      "no_new_experimental_P_or_independent_error": true
+    }
+  ],
+  "actual_Ru_rows": [
+    {
+      "Egamma_MeV": 0.475,
+      "ordinary_A": 0.0275,
+      "ordinary_sigmaA_same_scale_only": 0.006,
+      "literal_printed_P90_formula_value": 2.2347417840375585,
+      "conditional_TW70_pureE2_P90_not_generic_mixed_line": 0.38171262699564584,
+      "conditional_corrected_Q_EW69_percent_using_TW70": 14.408745247148289,
+      "conditional_AoverP_sensitivity_using_TW70": 0.07204372623574144,
+      "pureE2_formula_not_applied_to_author_mixed833": false,
+      "not_a_multipolarity_fit_or_current_response": true
+    },
+    {
+      "Egamma_MeV": 0.631,
+      "ordinary_A": 0.0355,
+      "ordinary_sigmaA_same_scale_only": 0.0075,
+      "literal_printed_P90_formula_value": 2.718232044198895,
+      "conditional_TW70_pureE2_P90_not_generic_mixed_line": 0.46210995542347705,
+      "conditional_corrected_Q_EW69_percent_using_TW70": 15.364308681672023,
+      "conditional_AoverP_sensitivity_using_TW70": 0.0768215434083601,
+      "pureE2_formula_not_applied_to_author_mixed833": false,
+      "not_a_multipolarity_fit_or_current_response": true
+    },
+    {
+      "Egamma_MeV": 0.766,
+      "ordinary_A": 0.037000000000000005,
+      "ordinary_sigmaA_same_scale_only": 0.0085,
+      "literal_printed_P90_formula_value": 2.8639053254437865,
+      "conditional_TW70_pureE2_P90_not_generic_mixed_line": 0.4823889739663093,
+      "conditional_corrected_Q_EW69_percent_using_TW70": 15.340317460317461,
+      "conditional_AoverP_sensitivity_using_TW70": 0.07670158730158731,
+      "pureE2_formula_not_applied_to_author_mixed833": false,
+      "not_a_multipolarity_fit_or_current_response": true
+    },
+    {
+      "Egamma_MeV": 0.833,
+      "ordinary_A": -0.017,
+      "ordinary_sigmaA_same_scale_only": 0.006500000000000001,
+      "literal_printed_P90_formula_value": null,
+      "conditional_TW70_pureE2_P90_not_generic_mixed_line": null,
+      "conditional_corrected_Q_EW69_percent_using_TW70": null,
+      "conditional_AoverP_sensitivity_using_TW70": null,
+      "pureE2_formula_not_applied_to_author_mixed833": true,
+      "not_a_multipolarity_fit_or_current_response": true
+    }
+  ],
+  "factor2_and_percent_conversion_controls": true,
+  "literal_formula_failure_preserved_not_official_erratum": true,
+  "no_low_energy_photoelectric_fraction_or_Cov_inferred": true,
+  "no_new_experimental_P_Q_delta_Jpi_or_CI": true,
+  "ok": true
+}

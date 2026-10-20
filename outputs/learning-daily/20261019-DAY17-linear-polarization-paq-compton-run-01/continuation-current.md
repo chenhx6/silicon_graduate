@@ -1,17 +1,15 @@
-# Day17同session继续：checkpoint052之后
+# Day17同session继续：checkpoint053之后
 
-## Active handoff — DAY17 original window active; Twin full primary checkpoint052
+## Active handoff — DAY17 original window active; Ewan single-crystal convention checkpoint053
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–051actualH3Gitee已推，17once/next18count17/partial18，不开其它课程卡，runnernormalexit未观察。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–052actualH3Gitee已推，formal17once/next18count17/partial18，不开其它课程卡，runnernormalexit未观察。
 
-TW70本session新16页/9图/2表/3编号式+未编号mixed/pureP/KN/18refs全文textvisual，原hash40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11/754194bytes保；旧TW70-1–5flags保，新D17-1–14待审/unreviewed。纠旧θ≈82为Comptonψ82，emissionθ可0–90。纠旧R.21@1.5为R2231=.21(.02)，1.5仅Ar1460knownE2验证finitegeometrywithin5%，adopt10%error。θ0null只relativeeff，不是R/knownP标尺，核Qk另名。
+EW69原letter3页/1图/2表/未编号Q/P式/10refs新textvisual，hashded2493ef0e816b3ed74bc5921f61324ec71b1ae34de8be96c988c71fa3e7be5/260960bytes保持；旧EW69-1–3flagstrue true false保，新D17-1–10全待审。sourceQraw=2A(差除平均peakcount)，右列Qcorr=2A/P；四cal点映通常A/P .0785/.0520/.0630/.0320，仅同observable，不新P/Q或跨detector增益。N为单planarGeLi转动两orientationfullpeak，不是twoabsorber。
 
-实际pointKN1500R82.346537/R90.313526、2231 .245904/.219668，原R2231比point82 .853992只诊断非finitegeometry重放/不迁B73factor。pureE1limit由a2 .41给P90−.773585对印−.57(.30)，RP−.1197只是derivedA，不冒rawcount/Cov。9个Ei−Efidentity核算术；θ/ψ/φ和sourcefullpeaksumobservable明确定义。原R/Σ/producer未得，不新spin/δ/P/R/CI。
+原p353印P90=(1+a2+a4)/(1−2a2−a4/4)对Ru475(.24,−.05)给2.234742，与TW70p486pureE2point .381713不闭合；保literal/companionreport缺口，不称erratum。明确TW70合同下475/631/766 QEWcorr约14.4087/15.3643/15.3403%，只是条件diagnostic非原job/图digitize。833sourceQraw−3.4(1.3)%→A−.017(.0065)，非P；初script也给mixed833pure式，最终显式null，scope-correctionreceipt保，不用于claims。
 
-844reference为0+→2− M2，770δ由γγ排歧非AD；770–1159γγ作者明言不增信息。2261Ponly可容2−/3+/4−，先两AD得J3才3+；CNRpopulationprior/100keVthreshold/phasebridge限dipolequadrupole、2290/2291twolevelbranches及1461overlap<5%门限保。Alberta与Liverpooldataset独立但共作者/理论祖先；HS033/034duplicate不多计。
+原16cmorientationcorrection<1%仅此geometry，photoelectricfullpeak稀释<1MeV重要，actualfraction/transport/Σ未得；较大6×3.5×.65cm³新detector不混旧caldata。原p,p'不同resonances/target与B73不共享P；samecalibration与Ruapplication不独立。canonicalEW69/Compton/linearpol/sharedcalnote/report单writeback/18priming、scriptday17_ewan1969_convention_audit.py/contract/result/identity/scope/freezes齐。verification067最后实际状态为准，实际0errors/239warnings、51changed/53mapped，boundary/lint/diff exit0。main / `Map single-crystal polarization normalization and preserve literal formula limits`稳定指针，hash/push只publication053/runreceipt。
 
-canonicalTW70/Compton/linearpol/sharedcalnote/report单writeback/18priming，scriptday17_twin1970_response_audit.py/contract/result/identity/scope/freezes齐。verification066最后已validtrue/lint0errors239warnings，实际50changed/52mapped，boundary/lint/diff0。main / `Correct independent polarimeter angle and calibration-energy identities`稳定指针，精确hash/push仅publication052/runreceipt。
+下一高信息GR95非正交原4页，before/freeze/sourcebefore已冻，计划核Q1/Q2/Q3/f/merit与P相关sum的真正来源；不同B73原线性，不能把一个分母全否定/跨对象搬。Day16GR97/currentGeant3standardcallpath已有priming，不拿旧MCchecks认证GR95原modifiedproducer，不更多无inputtoy。当前约09:25上海仍335min，原windowactive，不日终/goalcomplete。
 
-下一高信息本地Ewan1969单GeLi3页：旧sourceQ=2(Nperp−Nparallel)/(sum)且敏感度15.7%@847，可能与A/P常用Q差2约定。先freezepriming/原式核，不能预断factor或把它移任意array。新slot仅这一个source，不同时开GR95；网络此前多TLS失败不原样重试。当前09:16上海还有约344min，原windowactive，不日终/goalcomplete，不造更多无inputtoy。
-
-保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；log仅HEAD+own052，显式manifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；log仅HEAD+own053，显式manifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

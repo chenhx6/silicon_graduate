@@ -7245,6 +7245,110 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "TW70-D17-14"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+      "anchor": "Day17原件自审：单晶Q的平均分母与百分数",
+      "summary": "3页原letter/表定义新核Qraw2A/corrected2A/P、百分比与literalP式边界，原flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-1"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-2"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-3"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-4"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-5"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-6"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-7"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-8"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-9"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-10"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "单planarGeLi的Q=2A命名",
+      "summary": "单晶旋转全能峰average分母/2约定与字面式/低能response边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-1"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-4"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "平均峰面积作分母时的二倍约定",
+      "summary": "rawQ不叫P，correctedQ/2才映同计数A/P，mixedline不套pure公式。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-1"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "单晶峰面积与平均分母",
+      "summary": "长期保存actualorientationcount/average分母及knownQ833/Σreadiness。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-2"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-3"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-7"
+        }
+      ]
     }
   ]
 }
@@ -7568,3 +7672,12 @@ canonicalB73/Compton/linearpol/sharedcalnote/WA77回链与reportuniquewriteback/
 实际sourcepointKN练习1500/2231的R82=.346537/.245904、R90=.313526/.219668；原R2231比point82=.853992仅诊断不迁B73factor。actuala2 .41下pureE1limitP90−.773585对印−.57(.30)，派生RP=−.1197不冒rawA或σ；9个Ei−Efidentity核算术，不重测level精度。script/contract/result/freeze/scope齐。
 
 844reference是0+→2− M2，不错成E2；770δ由γγ排歧，而770–1159γγ作者称不增信息。2261Ponly容多Jπ、需两AD先J3；CNRpopulationprior/near-threshold和phasebridge的对象/双态2290–2291/1461overlaplimit保，不授新spin/δ/P/R/CI。canonicalsource/Compton/linearpol/sharedcalnote/唯一writeback/18priming联，verification066与publication052记录实际gate；原windowactive/17once/partial18，不以此checkpoint日终。
+
+
+### Checkpoint053：单晶Q的二倍命名与literal式边界
+
+Ewan1969原3页/1图/2表/2定义式/10refs新全文textvisual，oldpriming先冻。旧EW69-1–3/flags保持，新10条待审；rawhash/260960bytes不变。Qraw=2A、Table1right Qcorr=2A/P，同定义映通常A/P为.0785/.052/.063/.032，非15.7%等裸当modernQ；四行raw/corrected隐含P不是新实验P。
+
+原printedE2P式对475(a2.24,a4−.05)给2.234742，与新读TW70pureE2point式.381713不闭合。条件三条E2重算sourceQcorr约14.41/15.36/15.34%，只诊断不替原job/曲线digitize/officialerratum。833Qraw−3.4(1.3)%→A−.017(.0065)，不给P/δ；初工具曾alsoevaluatepure式，最终mixed833显式null、scope-correction记录保。低能photoelectricfraction/transport/Cov仍未得；原16cmorientation correction<1%仅其域，新较大detector不混旧calibration。
+
+canonicalEW69/Compton/linearpol/sharedcalnote与唯一writeback/18priming联，script/contract/result/identity/scope/freezes齐。Decision`revises`Qcomparison分母习惯、`limits`letterliteralP式/单sign判δ，verification067/publication053实际gate。原windowactive/17once/partial18，不日终或开其它课程。

@@ -308,3 +308,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### θ0参照的角色与独立装置比较
 
 [[twin-1970-polarization-angular-correlation-40k]] TW70-D17-2/3/4/10在独立Alberta装置用θ0无linearP的yield校analyzereff，另算/校R；与B73unpolarizedsourcea是不同实际实现，均不把null直接作knownP/Q标尺。ψ82/R.21@2231身份已纠，核Qk另物。Ponly多Jπ与有限geometry/error合同仍需同观测companion，不能移Liverpool/cloverresponse。
+
+
+### 平均峰面积作分母时的二倍约定
+
+[[ewan-1969-single-geli-polarimeter]] EW69-D17-1/2/7的Qraw=2A，纠到100%P后的Qcorr需再除2才是通常A/P；计数/百分数转换不改physicalP，不把rawQ叫P或把correctedQ当A。833mixedline不套pureE2source公式；其AD/响应/geometry/σ合同仍需回源。

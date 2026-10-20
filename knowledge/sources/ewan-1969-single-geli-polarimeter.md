@@ -3,7 +3,7 @@ type: source
 title: "Ewan et al. 1969 - Gamma-ray polarization with a single Ge(Li) detector"
 aliases: [Ewan 1969 single GeLi polarimeter]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: method-and-application
@@ -43,7 +43,7 @@ tags: [GeLi, polarization, Compton-polarimeter, 102Ru]
 ## Key Results
 
 - A single thin planar Ge(Li) detector measures polarization from Compton events in its total-absorption peak; asymmetry `Q=2(N⊥−N∥)/(N⊥+N∥)` is calibrated with polarized γ rays from `56Fe`, `24Mg`, `28Si` and `12C` (PDF pp.352–353, Table 1, Fig.1).
-- Sensitivity is about 15.7% at 0.847 MeV, 10.4% at 1.368 MeV, 12.6% at 1.779 MeV and 6.4% at 4.43 MeV after incomplete-polarization correction; photoelectric absorption attenuates the response below 1 MeV (PDF pp.352–353, Table 1, Fig.1).
+- 原EW69命名的correctedQ=2A/P为15.7%/10.4%/12.6%/6.4%，对应0.847/1.368/1.779/4.43MeV；若改用通常A/P定义，同计数合同下依次.0785/.0520/.0630/.0320，不能裸用原百分数作modernQ。photoelectric低能削弱响应，见EW69-D17-1–4。
 - In `100Mo(α,2n)102Ru`, 475/631/766-keV transitions show positive E2 polarization, while an 833-keV line has opposite asymmetry and weak angular distribution, indicating mixed multipolarity (E1+M2 or M1+E2) (PDF pp.353–354, Table 2).
 - Detector orientation/solid-angle differences are corrected below 1% for the calibration geometry, but response remains energy/geometry dependent (PDF p.353).
 
@@ -85,3 +85,25 @@ Ewan *et al.* demonstrate that even a single planar Ge(Li) can provide useful po
 ## Extracted Pages
 
 - Methods: [[compton-polarimetry]], [[linear-polarization-asymmetry]]。
+
+
+## Day17原件自审：单晶Q的平均分母与百分数
+
+本session先冻primed回忆，再实际新读3页/1图/2表/两个未编号定义与偏振式/10refs。hashded2493ef0e816b3ed74bc5921f61324ec71b1ae34de8be96c988c71fa3e7be5/260960bytes不变；旧EW69-1–3/true true falseflags保持，reviewunreviewed，新10条待审，不称human-reviewed。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| EW69-D17-1 | 原Q=(Nperp−Nparallel)/[.5(Nperp+Nparallel)]=2A，计数是单planarGeLi两次转动的fullabsorptionpeak，不是两个Comptonabsorber的N；Table1right/图1再除knownP纠到100%。同合同的通常A/P灵敏度=Qcorr/2，物理P不因改名字变。 | observable and normalization dictionary | direct and algebraic | pp.352–353 Fig1/Table1 and Q definition | true |
+| EW69-D17-2 | Table1 rawQ百分数8.3/9.7/10.2/6.4，correctedQ15.7/10.4/12.6/6.4；隐含P=.528662/.932692/.809524/1.000，仅同链派生不是新增P测量。通常A/P=.0785/.0520/.0630/.0320，各sourceσ同样除200，不重造Cov或CI。 | Codex actual-calibration arithmetic | derived | p.353 Table1 | true |
+| EW69-D17-3 | 原planeGeLi4×2.5×.35cm³、16cm距，parallel/perp以crystalplane相对reactionplane定义；两orientation角接受不同，作者在此几何AD校正<1%inQ。不能转任意dist/array或当background/eff误差都<1%。 | geometry and count-role | direct | pp.352–353 Fig1 and orientation paragraph | true |
+| EW69-D17-4 | 全能峰同时含Comptonscatter后吸收与无偏振asymmetry的photoelectric贡献，原theorycurve只前者，<约1MeV时差大；475是Coulomb已知2+→0+reference用同reactionAD/asymmetry标低能，不是独立的MC验证。photoelectricfraction/transport输入未给。 | response-dilution and reference-dependence | direct | pp.353–354 Fig1 discussion | true |
+| EW69-D17-5 | 原p353偏振式print P90=(1+a2+a4)/(1−2a2−a4/4)，对本表475(.24,−.05)给2.234742超物理范围；与[[twin-1970-polarization-angular-correlation-40k]] p486pureE2point式给.381713不闭合。保literal/定义边界、不替原式或称officialerratum，原companionreport未得。 | source-literal and cross-source formula boundary | direct plus arithmetic | p.353 printed P90 formula; Table2 475 row | true |
+| EW69-D17-6 | 在明确用TW70pureE2point合同的条件下，475/631/766的P90=.381713/.462110/.482389，代本sourceQraw得correctedEWQ约14.4087/15.3643/15.3403%，相应A/P约.07204/.07682/.07670；不是作者原job/新实验Q，不digitize图曲线或推σ。 | conditional cross-source exercise | derived | p.353 Table2 475/631/766 rows | true |
+| EW69-D17-7 | 833的−3.4±1.3%是sourceQraw=2A，普通A=−.017±.0065而非physicalP；作者由非零偏振及weakAD提出E1+M2或M1+E2两候选。未得matchingQ833/原Cov/levelcompanion，不新定δ/Jπ或套pureE2公式。 | observable versus interpretation | direct and algebraic | pp.353–354 Table2 833 row | true |
+| EW69-D17-8 | Table1校准为p,p'四条不同resonance/target：Fe3.145MeV/thick、Mg2.40/25µg/cm²、Si3.095/30µg/cm²、C5.375/200µg/cm²。与B73同γ能量不等同布居/P或实验谱系；校准ADcoeff未在Table1给，不借后文P强配。 | calibration-input identity | direct | p.353 Table1 | true |
+| EW69-D17-9 | 文末新6×3.5×.65cm³detector只报告更高fullpeakeff、Qslightlyless并荐>1MeV，无实际该装置table/response；不能合并旧四点或据volume推FOM。Refs4/5/10是tobepublished，原producer/数据/Σ未取得。 | version and readiness | direct | p.354 conclusion/references | true |
+| EW69-D17-10 | 本sessionfactor2/percent/三条E2source算术不增加独立实验；lettercalibration/application共detector与AD链，ChalkRiver不同于B73/TW70装置仍共已知nuclearlines/方法。newsource保需要review，无新P/Q/δ/Jπ/CI。 | independence and knowledge-impact | synthesis | pp.352–354 scope and tables | true |
+
+[四校准/四Ru输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ewan1969-calibration-contract.json)与[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ewan1969-calibration-result.json)，script `system/scripts/day17_ewan1969_convention_audit.py`。初诊断曾给833也算pure式（toolstdout保），最终显式设为null；不用于新claims，见scope-correctionreceipt。
+
+本次`revises`跨文Q数值比较的分母假设，`limits`原letter偏振式字面可用性及只由Qsign定δ；[[compton-polarimetry]]/[[linear-polarization-asymmetry]]保matchingcount/knownP/energygeometry。原Qcalc和actualpolarization不是同列，物理P与方法归一分开。

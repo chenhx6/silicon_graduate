@@ -290,3 +290,8 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 ## 独立装置的null与分析能力分层
 
 [[twin-1970-polarization-angular-correlation-40k]] TW70-D17-1–5的θ0null只relativeeff，R为另一有限geometry/knownAr1460检查；Comptonψ82不能当emissionθ。原R.21(.02)归2231γ，1.5MeV只有验证对象。与B73不同独立dataset仍共理论祖先；pointKN82/90结果不替actualresponse或跨装置factor，原counts/共同Cov未得。
+
+
+## 单晶峰面积与平均分母
+
+[[ewan-1969-single-geli-polarimeter]] EW69-D17-1/2/3/7明确samecrystal旋转的peakcount差除average与常用差除sum有2倍；correctedQ和rawQ/P不同列。表四点映成A/P .0785/.052/.063/.032仅同合同，不当新校准测量；833A=−.017不是P，knownQ833/Σ未得。先核分母和orientationobservable，再讨论效率或敏感度比较。

@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/ewan-1969-single-geli-polarimeter.md": 12
+  },
+  "artifacts": [
+    {
+      "file": "ewan1969-calibration-result.json",
+      "true_fields": [
+        "ok",
+        "factor2_and_percent_conversion_controls",
+        "literal_formula_failure_preserved_not_official_erratum",
+        "no_low_energy_photoelectric_fraction_or_Cov_inferred",
+        "no_new_experimental_P_Q_delta_Jpi_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

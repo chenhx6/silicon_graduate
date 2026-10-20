@@ -1,0 +1,38 @@
+{
+  "actual_text_pages": [
+    1,
+    2,
+    3
+  ],
+  "actual_visual_pages": [
+    1,
+    2,
+    3
+  ],
+  "figures": [
+    1
+  ],
+  "tables": [
+    1,
+    2
+  ],
+  "numbered_equations": [],
+  "unnumbered_definitions": [
+    "Q=2difference/sum",
+    "printed P90 formula p353"
+  ],
+  "references": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "no_companion_transport_report_or_raw_counts": true,
+  "no_curve_digitization": true
+}

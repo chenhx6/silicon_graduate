@@ -1,0 +1,4 @@
+
+### Day17 checkpoint053：单GeLi平均分母/百分数
+
+EW69原3页新核Qraw2A/corrected2A/P，literalP式对475不闭合保，mixed833不套pure式；旧flags保，新10待审。verification067/manifest053/H3发布，main / `Map single-crystal polarization normalization and preserve literal formula limits`，原windowactive/17once/partial18。

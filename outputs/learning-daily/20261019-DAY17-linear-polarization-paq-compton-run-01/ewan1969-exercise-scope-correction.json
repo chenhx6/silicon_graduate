@@ -1,0 +1,7 @@
+{
+  "initial_diagnostic": "initial tool stdout evaluated the pureE2 polynomial also on author-mixed833 row under a generic conditional label",
+  "correction": "final script sets both pureE2 formulas and inferred sensitivity to null for833; retains only sourcecount definition A=-.017",
+  "reason": "no pureE2 assumption is appropriate for author-mixed line; not an experimental correction",
+  "initial_stdout_retained_in_session": true,
+  "new_source_claims_do_not_use_initial833_diagnostic": true
+}
