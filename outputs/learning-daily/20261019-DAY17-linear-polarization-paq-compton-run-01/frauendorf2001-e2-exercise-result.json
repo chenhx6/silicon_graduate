@@ -1,0 +1,124 @@
+{
+  "at": "2026-10-20T00:11:14.625161+00:00",
+  "script_sha256": "61aecc3ad93717c7f01a4952d5176bc97a00473984db1feddba718ff3669877a",
+  "contract_sha256": "b523e91a575186c88b2f1d08acfcf55f89ca81167e6ac4690d37558f11c631a1",
+  "sympy_version": "1.14.0",
+  "operator_normalization": "Declared charge counterpart of the Eq10 spherical normalization, consistent with Eq34/35; q_ch=<Q20 prime>=Q0 conventional/2, not potential q_mu",
+  "axial_forward_formula": "B(E2,I->I-2)=15/(128pi)*Q0^2*sin(theta)^4 within source semiclassical limit",
+  "rotation_controls": [
+    {
+      "theta_degrees": 30,
+      "normalized_intrinsic_q": 1,
+      "conventional_Q0": 2,
+      "Q20_lab": 0.625,
+      "Q21_lab_in_declared_phase": -0.5303300858899105,
+      "Q22_lab_in_declared_phase": 0.1530931089239486,
+      "tensor_norm": 0.9999999999999997,
+      "B_E2_DeltaI2_normalized": 0.009325484946790738,
+      "B_E2_DeltaI1_normalized": 0.11190581936148886,
+      "boundary": "declared axial charge tensor, not measured nucleus, PAC/TAC solution or experimental shape"
+    },
+    {
+      "theta_degrees": 60,
+      "normalized_intrinsic_q": 1,
+      "conventional_Q0": 2,
+      "Q20_lab": -0.12499999999999986,
+      "Q21_lab_in_declared_phase": -0.5303300858899107,
+      "Q22_lab_in_declared_phase": 0.4592793267718458,
+      "tensor_norm": 1.0,
+      "B_E2_DeltaI2_normalized": 0.08392936452111666,
+      "B_E2_DeltaI1_normalized": 0.11190581936148894,
+      "boundary": "declared axial charge tensor, not measured nucleus, PAC/TAC solution or experimental shape"
+    },
+    {
+      "theta_degrees": 90,
+      "normalized_intrinsic_q": 1,
+      "conventional_Q0": 2,
+      "Q20_lab": -0.5,
+      "Q21_lab_in_declared_phase": -7.499399432609231e-17,
+      "Q22_lab_in_declared_phase": 0.6123724356957945,
+      "tensor_norm": 0.9999999999999999,
+      "B_E2_DeltaI2_normalized": 0.14920775914865186,
+      "B_E2_DeltaI1_normalized": 2.2377579643224494e-33,
+      "boundary": "declared axial charge tensor, not measured nucleus, PAC/TAC solution or experimental shape"
+    }
+  ],
+  "same_B_different_intrinsic_moment_witnesses": [
+    {
+      "theta_degrees": 30,
+      "q_for_same_Q22": 4.000000000000001,
+      "Q22": 0.6123724356957945,
+      "B_E2_DeltaI2_normalized": 0.14920775914865186
+    },
+    {
+      "theta_degrees": 60,
+      "q_for_same_Q22": 1.3333333333333335,
+      "Q22": 0.6123724356957945,
+      "B_E2_DeltaI2_normalized": 0.14920775914865186
+    },
+    {
+      "theta_degrees": 90,
+      "q_for_same_Q22": 1.0,
+      "Q22": 0.6123724356957945,
+      "B_E2_DeltaI2_normalized": 0.14920775914865186
+    }
+  ],
+  "axial_charge_E2_branch_ratio": "B(E2,DeltaI1)/B(E2,DeltaI2)=4*cot(theta)^2, denominator nonzero",
+  "magnetic_transverse_normalization": "B(M1)=3/(8pi)*mu_perp^2 in the declared real-vector convention",
+  "same_photon_delta_magnitude_relation": {
+    "squared": "delta^2=(0.0569/0.0816)*Egamma_MeV^2*BE2_same_line/BM1_same_line",
+    "B_ratio_coefficient": 0.6973039215686274,
+    "delta_Q21_over_mu11_coefficient": 1.0780413733314596,
+    "boundary": "same DeltaI1 photon and declared units; not interbranch strength ratio, signed delta, or IC/branch correction of an actual measurement"
+  },
+  "finite_spin_geometry_controls": [
+    {
+      "I": "16",
+      "K": "0",
+      "J_bridge_declared": "33/2",
+      "exact_strong_coupling_G": "120/341",
+      "exact_G_float": 0.3519061583577713,
+      "high_spin_G_with_declared_J": 0.375,
+      "stretched_axis_candidate_G": 0.8787878787878788,
+      "Qt_candidate_over_Q0_if_exact_axial_B_assumed": 0.6328071892930043,
+      "boundary": "exact rotor CG versus declared high-spin bridge and separate candidate scalar convention; no MU08 geometry identification"
+    },
+    {
+      "I": "20",
+      "K": "0",
+      "J_bridge_declared": "41/2",
+      "exact_strong_coupling_G": "190/533",
+      "exact_G_float": 0.35647279549718575,
+      "high_spin_G_with_declared_J": 0.375,
+      "stretched_axis_candidate_G": 0.9024390243902439,
+      "Qt_candidate_over_Q0_if_exact_axial_B_assumed": 0.6284985242706581,
+      "boundary": "exact rotor CG versus declared high-spin bridge and separate candidate scalar convention; no MU08 geometry identification"
+    },
+    {
+      "I": "33/2",
+      "K": "1/2",
+      "J_bridge_declared": "17",
+      "exact_strong_coupling_G": "120/341",
+      "exact_G_float": 0.3519061583577713,
+      "high_spin_G_with_declared_J": 0.3743514916907125,
+      "stretched_axis_candidate_G": 0.8823529411764706,
+      "Qt_candidate_over_Q0_if_exact_axial_B_assumed": 0.6315274970040028,
+      "boundary": "exact rotor CG versus declared high-spin bridge and separate candidate scalar convention; no MU08 geometry identification"
+    },
+    {
+      "I": "16",
+      "K": "2",
+      "J_bridge_declared": "33/2",
+      "exact_strong_coupling_G": "4641/13640",
+      "exact_G_float": 0.3402492668621701,
+      "high_spin_G_with_declared_J": 0.36406166599630163,
+      "stretched_axis_candidate_G": 0.8787878787878788,
+      "Qt_candidate_over_Q0_if_exact_axial_B_assumed": 0.6222380575169518,
+      "boundary": "exact rotor CG versus declared high-spin bridge and separate candidate scalar convention; no MU08 geometry identification"
+    }
+  ],
+  "original_human_review_prefix_bytes_preserved": true,
+  "not_MU08_historical_producer_or_shape_measurement": true,
+  "no_new_experimental_tau_B_Qt_or_CI": true,
+  "ok": true
+}

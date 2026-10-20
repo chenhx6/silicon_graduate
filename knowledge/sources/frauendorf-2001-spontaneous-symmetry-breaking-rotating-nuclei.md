@@ -112,3 +112,28 @@ This review supplies theory background for the nuclear-chirality/MChiD project a
 ## Review Status
 
 All F01 claims were reviewed by the user on 2026-07-13; `needs_review` is cleared for this source note. The cited examples remain review/background rather than newly re-ingested experiments.
+
+
+## 2026-10-20 Day17定向自审增量：E2规范与转轴
+
+本段为Codex新self-audit，**不是human-reviewed内容**；上方原人审prefix、15条false flags、frontmatter和原文措辞逐byte保留。下面新增claim全部needs_review=true，不能因页面整体review_status人审而自动推广。本次只是恰好Day18无学分preview，非新实验或新的完整review阅读。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F01-D17-1 | 本session只新定向原读printed468–473/PDF6–11，Eq8–49/TableI/Figs5–8文本/视觉核，不称重新52页fullread。旧15claims/整个人审prefix与frontmatter逐byte保持，新datedclaims均needs_review，未继承人审信用。 | dated-scope-and-review-boundary | direct-source-self-audit | reading-scope；human-prefix-snapshot | true |
+| F01-D17-2 | Eq10采用sqrt(4π/5)r²Y2μ，footnoteQ0=r²P2而非2r²P2；Eqs34–36为5/(4π)∣chargeQ22/21∣²与3/(4π)∣mu11∣²，静态矩是期望值。不同规范的Qt/Q0不能裸搬相同coeff。 | operator-normalization | direct-review-formalism | printed468 Eq10/footnote1；printed469–470 Eqs34–36 | true |
+| F01-D17-3 | Eqs34–36分量相对labz=J/omega，intrinsic需Eq37旋转。source明确由highspinCG近似得到semiclassical式；不能当任意finiteI quantum矩元或仅由τ/B反识intrinsicgeometry。 | rotation-axis-and-asymptotic-domain | direct-review-formalism | printed470 paragraph below Eq36；Eq37 | true |
+| F01-D17-4 | Eq38的q0′/q2′=Kβcosγ/−Kβsinγ/sqrt2描述potential，K在此是energy尺度而非强耦合projectionK；charge<Q′>另由实际波函数和effectiveoperator算。ε≈.95β有适用域，不能与calibration/polarimeterQ或实验Qt混同。 | potential-versus-charge-and-symbol-contract | direct-review-formalism | printed470 Eqs38/41 | true |
+| F01-D17-5 | Eq46 cosθ=K/J在strongcoupling假设J3=K下，CSM是TAC近似；weakdeformation无法固定highj方向，原文明确fixedK可严重失效。它不替MU08实际转轴/phase/historicalproducer。 | approximation-and-failure-condition | direct-review-formalism | printed473 Eqs45–49 and final CSM paragraph | true |
+| F01-D17-6 | 声明axialcharge q=<Q20′>=Q0conventional/2，经Cartesianrank2旋转得Q22=sqrt(3/8)q sin²θ、Q21=−sqrt(3/2)q sinθcosθ和BΔI2=15Q0²sin⁴θ/(128π)。独立tensor-norm控制通过；这些是条件推导非某核实测或TACminima。 | source-normalization-derivation | task-analytic-control | e2-exercise rotation_controls | true |
+| F01-D17-7 | 在规范化charge q_ch=1下θ30/60/90给BΔI2 .0093255/.0839294/.1492078；保持同Q22可用q_ch=(4,4/3,1)三种组合。BΔI2单独不能选intrinsicq；需axis与其它tensor/branchcompanion，不把witness当实验多解数/CI。 | projection-identifiability-counterexample | task-deterministic-forward-control | e2-exercise same_B_different_intrinsic_moment_witnesses | true |
+| F01-D17-8 | finiteI16 K0 exactCG²120/341=.351906而highspinK/J极限.375，旧stretchedaxiscandidateGs29/33=.878788属另一scalar规范；固定sameB时Qcand/Q0=.632807。此核规范差，不证明MU08或Jensen用哪个geometry，不以匹配改原Qt/形变。 | finite-spin-and-convention-boundary | task-exact-CG-control | e2-exercise finite_spin_geometry_controls | true |
+| F01-D17-9 | 同一声明axialcharge model中BE2(ΔI1)/BE2(ΔI2)=4cot²θ，分母非0；同一ΔI1光子由rate式得δ²=(.0569/.0816)Eγ²BE2/BM1，只给幅度。不能拿另一E2crossover的BE2/BM1当该光子δ，也不由rate定号或补实际IC/branch；PACθ90等实际模型约束另保。 | companion-observable-and-mixing-contract | source-derived-forward-algebra | Eqs34–36；CHI01-2；e2-exercise companion | true |
+
+[新读取前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-geometry-before.md)、[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-reading-scope.json)、[原prefixhash](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-human-prefix-snapshot.json)、[量化前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-exercise-before.md)、[声明合同](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-exercise-contract.json)、[程序](../../system/scripts/day17_frauendorf2001_e2_geometry.py)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-exercise-result.json)。
+
+推导中的conventional Q0=∫ρe(3z′²−r′²)是另显式定义，本段另定义的charge q_ch=<Q20′>是其一半；不反过来用Eq38的potentialscale充chargeQ0。labz沿J的μ2分量与可见E2支的B，经过指定近似/几何后才可叫某一Qt。source在printed471还把更显式TAC公式/chargeoperator评价指向Frauendorf1997/2000等；本轮未读这些body，不补历史producer。
+
+固定K的exact quantumCG与J=I+.5角桥的semiclassicalcontrol各有合同，未通过“两个Qt数值近”决定真实轴。`supports`operator/axis分层，`limits`同B/同字母Q/渐近式识别形变；原needs_review/人审flags不改，所有新推导未裁核素β/γ/模式或实验CI。
+
+[companion推导前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-companion-before.md)。此处axialtensor自由取向是数学witness，不能作为Chiara实际PAC带的额外自由拟合参数；要检验具体核必须施加其configuration/rotationaxis/branch与response合同。

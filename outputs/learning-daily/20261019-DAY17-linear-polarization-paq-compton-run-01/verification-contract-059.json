@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md": 9
+  },
+  "artifacts": [
+    {
+      "file": "frauendorf2001-e2-exercise-result.json",
+      "true_fields": [
+        "ok",
+        "original_human_review_prefix_bytes_preserved",
+        "not_MU08_historical_producer_or_shape_measurement",
+        "no_new_experimental_tau_B_Qt_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

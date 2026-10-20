@@ -1,0 +1,7 @@
+# F01定向E2/Qt公式读取前回忆
+
+当前review页是旧human-reviewed，15条F01-1–15均false；本session只依据source页定位，尚未新读raw相应body。新自审须保整个旧prefix字节/metadata/flags，若写回另起dated needs_review supplement，不能把新claims当人审。原rawhashD43C7290CF5899EBC9B94324AF5E95EB40E488BACF1C70C89E0B3BD61D916172不改。
+
+已primedMU08 candidateG_s/fixedK0差、Jensen方法和Chiara30页：partialrateEq不指定Qt轴；SFQ不是静态Qs/Qt。现在只查review的semiclassicaltransitionE2/M1公式及charge/current moment/rotationaxis定义、finite-spin/large-I边界，预计printed469–473对应PDF7–11，先metadata确认。必要时只读直接公式context，不重开整篇chirality/wobbling/后卡主题。
+
+新问题：哪些quadrupoleoperator/normalization与orientation进入B(E2)，哪一种Qt只是约定下的scalar？不要先猜sourcecoeff或从TableQt拟合轴；若review不提供MU08历史producer就仍保gap。反证为同intrinsicshape不同投影/同projection多shape，必要companion为axis/对齐/branch/multipolarity/独立E2信息；review是理论背景非独立实验。读后再选解析/actualsource条件练习，不加随机toy或原paperCI。

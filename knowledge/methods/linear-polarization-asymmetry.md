@@ -279,3 +279,7 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 电磁属性的companion：DCO与旧偏振证据
 
 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-10/11给出直接使用门：DCO的pure-dipole相容性仍不能区分E1与near-M1，作者对108/110In band3采用旧Ref24/25偏振来赋parity。本文这段是prior证据的采用，不能计作新的P/A/Q测量或把SB六Ge/8π与其它array的polarimeterQ迁移；prior counts/calibration body本session未核。
+
+## 同一混合光子与不同分支强度比的区别
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D17-9与[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2：同一ΔI1 M1/E2光子的δ²才可由其同线BE2/BM1及E²rate因子连接；跨母态/不同E2crossover与M1支的B比不是这个δ。rate只含幅度，偏振/AD相位证据与samegate/response另需匹配，不能靠总τ或强度比恢复δ号。

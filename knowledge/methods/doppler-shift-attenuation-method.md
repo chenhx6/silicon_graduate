@@ -213,3 +213,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 分支表与强度表不是相同的完整库存
 
 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-9/12/13/14/15/19：同parent的E1/带间link也会改变partialτ，thin/backed强度来源由实际reaction/分析合同确定；只取rate表两列可制造B/Qt差。无shift给的roughlifetimebound仍依sidefeeding与响应，不能裸转小shape/统一CL。该文的SFQ是effectiveτ参数，不代静态Qs或bandQt。
+
+## 由B到Qt之前先固定电荷算符和转轴
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D17-2/3/4/5/6/9：τ/branch给的B只是指定transition的率强度。potentialq与chargeQ、球张量与conventionalQ0、static与transversecomponent、finiteCG与highspin近似须逐项明确。axial模型已有sin⁴θ方向因子，单B不同时决定intrinsic矩和axis；实际PAC/TAC约束要加入，不能用自由取向witness替实验模型。MU08的候选G数值相合仍不是actualQtproducer认证。

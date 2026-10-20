@@ -1,0 +1,36 @@
+{
+  "identity": "F01-E2-CHARGE-TENSOR-AXIS-CONTRACT-01",
+  "pdf": "raw/papers/2001_Frauendorf_Spontaneous symmetry breaking in rotating nuclei.pdf",
+  "pdf_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+  "source_locators": [
+    "Eq10 footnote printed468",
+    "Eq34–38 printed469–470",
+    "Eq45–46 printed473"
+  ],
+  "normalized_intrinsic_q": 1,
+  "declared_theta_degrees": [
+    30,
+    60,
+    90
+  ],
+  "finite_spin_cases": [
+    [
+      "16",
+      "0"
+    ],
+    [
+      "20",
+      "0"
+    ],
+    [
+      "33/2",
+      "1/2"
+    ],
+    [
+      "16",
+      "2"
+    ]
+  ],
+  "finite_spin_angle_bridge": "J=I+1/2 declared, not direct measurement or universally fixed source prescription",
+  "boundary": "deterministic forward witnesses and exact CG controls only; no inferred source nucleus or original data/CI"
+}

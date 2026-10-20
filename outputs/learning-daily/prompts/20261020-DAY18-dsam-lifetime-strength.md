@@ -172,3 +172,7 @@ EV23-29–33/F22-88实际ThetaLdeg matchmrad Eq3.5至float，另一projected-slo
 ### Day17 checkpoint044 priming：Chiara完整主线
 
 CHI01-7–24实际30页/21图7表3式完整(旧targeted)，TableI纠正SB/8π；108用backed/110用thin，真实E1/link进partialτ分母。110(18+)E2中心差保，错换来源的Qt比1.404只control非实验更正。AMR已测ω≤.536与预测>.70下降域不交，(27-)/(29-)已见line而无τ/B；largeJ2/BE2不足、slowSF替代保。全文仍无bandQt轴式，MU08-18不补geometry。正式18独立session。
+
+### Day17 checkpoint045 priming：E2规范与axis
+
+F01-D17-1–9新定向6页原式/前向推导，原human12906-byteprefix/15falseclaims原样，新段needs_review。charge q_ch=Q0/2、B∝Q0²sin⁴θ及finiteCG/highspin/Gs分层；sameB自由取向witness不是实际PAC/TAC解。同比光子δ²不等crossover支比/δ号，MU08actualQt轴仍缺。正式18独立session、不复用旧checks授分。

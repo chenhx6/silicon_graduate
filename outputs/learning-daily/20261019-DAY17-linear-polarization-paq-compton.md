@@ -58,6 +58,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 
 ## Sources and evidence
 
+### checkpoint045：E2算符与转轴定向原式
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] datedF01-D17-1–9新定向printed468–473/Eqs8–49/TableI/Figs5–8文本/视觉核；非新52页fullread。原12906-bytehumanprefix/15falseflags完全保，新段明确needs_review而非人审。
+
+
 ### checkpoint044：Chiara原30页主线与核结构反证
 
 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-7–24完整实际30页、21图7表3式与references文本/视觉核。旧source仅targeted，旧freeze预期29保原、actual30核；TableI纠正旧Gammasphere为SB/8π。MR/AMR必要companion、largeJ2/BE2不足、slowSF与高频未测B明确分层。
@@ -195,6 +200,11 @@ Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应�
 作者关于减少clover数不改变Q属于其校准条件，不把它与本run自由weights模型误称实测冲突。Fig19绿色band/其它Q点、207Bi两支与同known-P参考均有共享依赖；未得rawevents/实际fitΣ，experimentalL4仍not-ready。既有source25claim/review边界不因新primary清除。
 
 ## Theory/analysis exercise
+
+### checkpoint045：charge规范、方向投影及同光子companion
+
+[程序](../../system/scripts/day17_frauendorf2001_e2_geometry.py)/[结果](20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-exercise-result.json)按source规范作deterministicforward：q_ch=Q0/2、BΔI2=15Q0²sin⁴θ/(128π)及tensor-norm；sameB不同q/θ只数学witness，非具体核TAC解。finiteCG与highspin/Gs分列，同光子δ²的BE2/BM1关系不等crossover支比/δ号。未识别MU08actualQtgeometry或新测shape/CI。
+
 
 ### checkpoint044：真实同parent分支来源与覆盖
 
@@ -6455,6 +6465,134 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "CHI01-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "anchor": "2026-10-20 Day17定向自审增量：E2规范与转轴",
+      "summary": "原人审prefix逐byte保，追加9条needs_review自审：charge/potential规范、转轴/highspin/finiteCG及同光子companion。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-1"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-2"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-3"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-4"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-5"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-6"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-7"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-8"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "E2算符与转轴：同强度不唯一给内禀矩",
+      "summary": "整合τ/B/Qt转换的operator/axis识别条件与source-grounded前向反证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-2"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-3"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-4"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-5"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-6"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-7"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-8"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "由B到Qt之前先固定电荷算符和转轴",
+      "summary": "添加B到Qt前的charge/rotationaxis/finiteI合同门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-2"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-3"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-4"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-5"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-6"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "同一混合光子与不同分支强度比的区别",
+      "summary": "将同一混合光子的δ幅度关系与跨支强度比区分，保δ号/P/AD证据门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D17-9"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-2"
+        }
+      ]
     }
   ]
 }
@@ -6705,3 +6843,9 @@ verification057核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 verification058核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected与新actual表/coverageartifact；通过后manifest044/commitguard/H3。本日formal17once/partial18/no19，原windowactive且原τ/B/shape/CI未重报。
 
 058初验发现MU08旧claim表在15前空行导致漏索引，已合并为连续表且旧row文本/review保持；按18个数字ID加CORR1显式验19，而非只看lint0。initial-index-failure.json保初结果。
+
+### checkpoint045算符/方向与人审边界验收
+
+verification059核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及sourceprefix/symbolicartifact。通过后manifest045/commitguard/H3；旧人审不扩授新段、前向witness非实验shape或原Qtproducer，原windowactive/17once/partial18/no19。
+
+059初验只索引8/9新claim，因为新F01-D17-2公式绝对值ASCII竖线被当表分隔；仅新段改Unicode数学竖线、原人审prefix完整保留，显式重新验9。initial-index-failure.json保档，不以初lint0冒完整coverage。

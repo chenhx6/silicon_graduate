@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-19T23:58:46.362243+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "source_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+  "new_read_scope": "targeted complete PDF6–11/printed468–473 text+visual, Eq8–49/TableI/Figs5–8 and immediatecontext; no new full52page claim",
+  "critical_formulas": [
+    10,
+    34,
+    35,
+    36,
+    37,
+    38,
+    40,
+    41,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "primed": true,
+  "not_read_new": "remaining review body/new cited papers",
+  "old_human_review_prefix_preserved_before_write": true
+}

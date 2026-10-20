@@ -413,3 +413,13 @@ B.4是coreE，Ch3效率图TrackE；同source不等同observable/selection。Eu�
 AMR反证：已测110B5四点ωmax.536，作者预测明显BE2下降>.70；已观测(27-)/(29-)E2在.70955/.8134但无τ/B，优先新测这些level的lifetime+feeding/branch身份才提高解释。largeJ2/BE2必要非充分，现postalignmentBE2近常量且crossing点可混合；无shift的其它band下限依equalQ/fastSF，slowSF是原作者保留的竞争解释，不可把无shift等同已测小形变。
 
 Day17本卡P/A/Q的实际companion同样在原文出现：DCO无法区分E1/nearM1时采用旧pol，本文不是新测P/A/Q；source引用的priorbody本轮未开，不补其校准。TAC/PAC形状/minimum是模型，g_s/配对/quantumfluctuations和alignment残差另保，不把模式标签移成experimentalshape。
+
+## E2算符与转轴：同强度不唯一给内禀矩
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] dated F01-D17-1–9只定向printed468–473新原读，自审增量needs_review；旧15人审claims/falseflags与原12906-byteprefix完全保持。Eq10球张量规范和Eqs34–36的charge分量、potentialq/β/γ及labz沿J分别保存。
+
+[新条件推导](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-exercise-result.json)另定义q_ch=<Q20′>=Q0conventional/2。axialcharge得到Q22=sqrt(3/8)q_ch sin²θ，BΔI2=15Q0²sin⁴θ/(128π)；Cartesian张量旋转/norm作独立规范核。保持同B的q_ch/θ例(4,30°)/(4/3,60°)/(1,90°)不是TACselfconsistentminima或实验多解，只反证单projection不唯一给intrinsic矩。actualPACθ90/组态等约束不能被此自由family绕开。
+
+同axialmodel的BE2ΔI1/BE2ΔI2=4cot²θ是必要companion形式；同一ΔI1光子δ²=(.0569/.0816)E²BE2_same/BM1_same，不给符号，不可拿E2crossover比M1代同photonδ。普通IC/branch若随δ变，须共同传播。staticQ20、μperp及更多E2component/axis信息可提高识别，单τ/B转换不足。
+
+finiteI16/K0 exactCG²120/341=.351906、highspin.375、candidateGs29/33=.878788是三种有条件对象；固定同B时Qcand/Q0=.632807，不能凭近表值认historicalproducer。source直接说semiclassical式取highspinCG、fixedK在weakdeformation会失败。MU08实际Qt轴依然缺，不改原reportedQt/β/γ/模式或CI。

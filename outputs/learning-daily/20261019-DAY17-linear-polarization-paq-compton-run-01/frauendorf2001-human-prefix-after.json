@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-20T00:14:28.146395+00:00",
+  "old_prefix_bytes": 12906,
+  "old_prefix_sha256_matches": true,
+  "old_human_claim_rows_preserved_false": 15,
+  "new_unreviewed_claim_rows_true": 9,
+  "new_segment_is_not_human_reviewed": true,
+  "paper_raw_hash_unchanged": true
+}
