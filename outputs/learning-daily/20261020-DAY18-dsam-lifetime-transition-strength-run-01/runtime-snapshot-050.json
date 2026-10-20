@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-20T20:14:04.309733+00:00",
+  "now_local": "2026-10-21T04:14:04.309733+08:00",
+  "hard_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 645.9281711166666,
+  "decision": "continue-current-mixing-root-and-E5-boundary",
+  "formal_credit": false,
+  "is_runner_execution_metadata": false
+}

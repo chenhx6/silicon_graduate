@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint050：135Pr根选择、133La条件小根与133Ba E5换算边界
+
+原件复核保留Matta大根、Lv P/Rac小根和813派生比值，但将7倍中心差明确为同核分支敏感性；Biswas/Devi旧脚本输入的替代根和E5分解不自动成为原作者观测或完整producer。新source行/方法笔记均保留needs_review、无绝对寿命/response Cov/CI。
+
 ### checkpoint049：Qt回归的raw身份、非对称误差与feeding/stopping边界
 
 Babra原PDF hash为`a26149…`，旧追加段中的BCB2字符串已撤；原文明确12+后Qt下降、15% stopping systematics未计入，并以TRS/TPSM作形变解释。新回归使用打印非对称误差三种对称化方案，z在−2.693至−2.752；共同乘性scale保持z不变，逐态15%只是敏感性，不是置信区间。Singh原Table1/2与side-feed切换相符，但其三/四点回归仍无联合Cov，不能将常数Qt接受或feeding伪造写成排他实验裁决。
@@ -1323,23 +1327,31 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
-      "anchor": "Day18定量审计：跨带B(E2)提取对混合比解的依赖与后续修正对照",
-      "summary": "Table I中delta解由大于1翻转为小于1对带间B(E2)造成的7.0倍塌缩效应",
+      "anchor": "Day18 checkpoint050修订：135Pr混合比根与观测覆盖",
+      "summary": "checkpoint050分层混合比根与E5换算；条件派生不代原实验CI或普适模式裁决",
       "sources": [
         {
           "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
-          "locator": "MA15-D18-1"
+          "locator": "MA15-D18-2"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "MA15-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-      "anchor": "Day18定量审计：混合比倒转对跃迁强度的塌缩效应核验",
-      "summary": "Table 1中测定真实小解导致813 keV带间B(E2)强度比从0.843暴跌至0.12(8)",
+      "anchor": "Day18 checkpoint050修订：小根结果与TiP解释的适用范围",
+      "summary": "checkpoint050分层混合比根与E5换算；条件派生不代原实验CI或普适模式裁决",
       "sources": [
         {
           "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-          "locator": "LV22P-D18-1"
+          "locator": "LV22P-D18-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "LV22P-D18-3"
         }
       ]
     },
@@ -1375,12 +1387,16 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-      "anchor": "Day18定量审计：跨带B(E2)out/B(E2)in的五次方能量比放大代数解构",
-      "summary": "Table 1与2中跨带连接线B(E2)out/B(E2)in高达2.36-3.40及能量五次方驱动代数解构",
+      "anchor": "Day18 checkpoint050修订：能量五次方与相对强度合同",
+      "summary": "checkpoint050分层混合比根与E5换算；条件派生不代原实验CI或普适模式裁决",
       "sources": [
         {
           "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "locator": "RD21-D18-2"
+        },
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-3"
         }
       ]
     },
@@ -1417,26 +1433,30 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba",
-      "summary": "索引增加133Ba相对跃迁几率与能量五次方放大机制导航",
+      "summary": "checkpoint050分层混合比根与E5换算；条件派生不代原实验CI或普适模式裁决",
       "sources": [
         {
           "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "locator": "RD21-D18-2"
         },
         {
           "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "locator": "RD21-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-      "anchor": "Day18定量审计：纵向wobbling跨带跃迁混合比双解敏感性与多极倒转",
-      "summary": "Table 1中三条跨带连接线B(E2)out/in与B(M1)out/in对混合比大解与小解的断崖式塌缩与多极倒转核验",
+      "anchor": "Day18 checkpoint050修订：小根仅为条件敏感性",
+      "summary": "checkpoint050分层混合比根与E5换算；条件派生不代原实验CI或普适模式裁决",
       "sources": [
         {
           "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "locator": "BI19-D18-2"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-3"
         }
       ]
     },
@@ -1473,15 +1493,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "biswas-2019-longitudinal-wobbling-133la",
-      "summary": "索引增加133La纵向wobbling跃迁几率与混合比多极倒转导航",
+      "summary": "checkpoint050分层混合比根与E5换算；条件派生不代原实验CI或普适模式裁决",
       "sources": [
         {
           "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "locator": "BI19-D18-2"
         },
         {
           "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "locator": "BI19-D18-3"
         }
       ]
     },
@@ -3755,6 +3775,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint050已实际提交，稳定指针main / `Correct mixing-root and E5 kinematic boundaries in Day18 strength audits`；精确hash/H3/远端结果只publication-050回执。
+
 
 checkpoint049已实际提交，稳定指针main / `Audit DSAM Qt regression and stopping or feeding systematics boundaries`；精确hash/H3/远端结果只publication-049回执。
 

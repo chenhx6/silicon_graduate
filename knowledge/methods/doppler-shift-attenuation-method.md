@@ -425,3 +425,7 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 [[babra-2019-deformation-change-136sm]] B19-D18-2–4修正旧强断言：Babra TableI原文确实报告12+后Qt下降、15% stopping-power系统误差未计入并以TRS/TPSM作形变解释；但中心值回归对称化z≈−2.72只是条件诊断。共同乘性阻停scale会同时缩放斜率和误差，逐态独立15%包络又不是CI，故不能凭“完全覆盖”排他否定或确认形变变化。20+是Qt上限，不是有限点。
 
 [[singh-2016-lifetime-131ce-133pr]] SI16-D18-3/4保留131Ce/133Pr表值与侧馈模式：tauSF/QSF切换及长时feeding是识别性输入，三/四点对称误差回归没有联合Cov，不将z=−.602/−1.678写成论文置信度或feeding已证实伪造。新[qt-systematics-boundary-result-049](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)为9项raw/hash/条件检查，不是实验重拟合。
+
+## 135Pr/133La/133Ba混合比根与相空间因子边界（checkpoint050）
+
+[[matta-2015-transverse-wobbling-135pr]] MA15-D18-2/3与[[lv-2022-evidence-against-wobbling-135pr]] LV22P-D18-2/3保留真实大根/小根同核证据，但派生B(E2)仍依分支、in-band E2、响应和协方差；7倍中心差不是无条件CI。[[biswas-2019-longitudinal-wobbling-133la]] BI19-D18-2/3的-.35/-.40/-.38是条件替根，不是原Table1新测根。[[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]] RD21-D18-2/3确认(Ein/Eout)^5约1.54/2.29/5.43，但该乘子与强度归一、mixing和效率一起进入换算，不能单独证明本征矩阵元或模式身份。

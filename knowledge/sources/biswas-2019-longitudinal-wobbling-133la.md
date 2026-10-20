@@ -150,12 +150,11 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 
 P0: inspect Fig.4/5 branch selection and Table 1 before using transition ratios.
 
-## Day18定量审计：纵向wobbling跨带跃迁混合比双解敏感性与多极倒转
+## Day18 checkpoint050修订：小根仅为条件敏感性
 
-在Day18正式学习中对本文Table 1与Figs. 1-5中133La带间连接跃迁（758, 874, 982 keV）进行代数解构与多极分支比解敏感性定量审计，raw SHA256 `579ECFF6DAA4CD8505C25966D15B998037930770E45382CCBA90BAE809707E03`已核。原BI19-1–7各claim及`human-reviewed`状态完全保留；新BI19-D18-1待审。
+原BI19-claims/review保留；旧BI19-D18-1关于小根的句子改分层。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| BI19-D18-1 | 本文Table 1报告的三条跨带连接线（758, 874, 982 keV）的B(E2)out/B(E2)in分别高达1.127、0.716和0.545，被作为核内首个“纵向wobbling”模式的特征证据。代数解构与小解敏感性核验证实：这三条线的集体E2增强完全建立在采纳大混合比解（|delta| = 2.05-3.07，E2份额80.8%-90.4%）的基础上；若采纳角分布与DCO退化极小对应的物理小解（|delta_2| ~ 0.35-0.40，E2份额降至10.9%-13.8%），B(E2)out/B(E2)in将发生6.32至7.40倍的断崖式塌缩（暴跌至0.076-0.152），而B(M1)out/B(E2)in则反向暴增4.63至9.11倍（跃升至0.355-0.496 mu_N^2/e^2b^2）。这证明所谓纵向wobbling的集体E2增强同样存在解的非唯一性脆弱性，小解下完全退化为单准粒子M1衰变。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.5 Table 1；新biswas19-133la-wobbling-result-020 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/biswas19-133la-wobbling-contract-020.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/biswas19-133la-wobbling-result-020.json)4项检查全过。
+| BI19-D18-2 | Table1大根δ=-2.05,-2.60,-3.07与BE2out/in=1.127,.716,.545是原文派生结果；旧脚本的-.35/-.40/-.38替代根未在本文Table1中作为实验解列出，必须标为条件输入。固定强度、能量和in-band E2分母时，替根可算出6.32–7.40倍的中心敏感性；不构成重新拟合或分支概率。 | conditional-root-sensitivity | direct-and-boundary | PDF5 Table1；旧result020输入 | true |
+| BI19-D18-3 | 原作者以DCO/偏振/角分布的大根与wobbling模型解释三线；小根敏感性说明识别依赖，但不单独证明“完全退化为单粒子M1”，还需同源polarization likelihood、模型响应和必要寿命/绝对强度。 | author-model-boundary | direct-and-boundary | PDF3–6；Table1 methods | true |

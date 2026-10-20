@@ -137,12 +137,13 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 后续全文入口：[注册DOI候选](https://doi.org/10.7274/sj13902283h)、[机构旧show记录](https://curate.nd.edu/show/sj13902283h)、[DataCite元数据](https://api.datacite.org/dois/10.7274/sj13902283h)。本run的GoogleScholar检索超时、Figshare API403、机构search/home202空body、doi landing ConnectionError已记录；未得到公开file URL，不原样重试失败入口，不以登记title补写全文结论。M15-17只是一项可恢复的文献线索。
 
 
-## Day18定量审计：跨带B(E2)提取对混合比解的依赖与后续修正对照
+## Day18 checkpoint050修订：135Pr混合比根与观测覆盖
 
-在Day18正式学习中对本文Table I中135Pr带间跃迁数据进行定量提取审计，raw SHA256 `8DB644705DCCFD58016753B759D19314A65284C48EFC1758F95F1B3CE23551D6`已核。原MA15各claim及`human-reviewed`状态完全保留；新MA15-D18-1待审。
+原MA15-claims/review保留；旧MA15-D18-1中“后续已证伪/生死裁决”改为分层记录，旧artifact不作新验证。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MA15-D18-1 | 本文Table I测得747与813 keV跃迁的混合比分别为 $\delta = -1.24(13)$ 与 $-1.54(9)$，对应 $E2$ 纯度 $60.6\%$ 与 $70.3\%$，从而提取出 813 keV 的带间比值 $B(E2)_	ext{out}/B(E2)_	ext{in} = 0.843(32)$。后续高统计测量（Lv 2022）证伪了该大于1的混合比解，小解（$-0.47$ 与 $-0.37$）将 $E2$ 份额压缩至 $18.1\%$ 与 $12.0\%$，带间强度比塌缩7.0倍至 $0.12(8)$。这证明单纯依赖DCO拟合的混合比解若发生误判，可使提取出的跃迁强度产生近一个数量级的系统性假象。 | task-sensitivity-and-reinterpretation | derived-and-boundary | PDF p.4 Table I；新matta15-lv22-135pr-result-018 | true |
+| MA15-D18-2 | Table I直接报告747/813的δ=-1.24(13)/-1.54(9)、E2份额60.6/70.3%与813的BE2out/in=.843(.032)，其换算假定in-band纯E2及实验分支/能量输入；这是本文选用大根的派生输出，不是寿命绝对强度。 | source-result-and-dependence | direct-and-boundary | PDF4 Table I及caption | true |
+| MA15-D18-3 | Lv22同核新实验的P/Rac给747/813 δ=-.47/.−.37、813 BE2out/in=.12(.08)，并以这些结果质疑此前wobbling解释；它提供了对根选择的同核反证，但QTR/TiP替代解释与统计/response边界仍需分层，不能把条件比值崩塌推广成所有wobbling候选的普适定律。 | later-companion-and-interpretation-boundary | direct-and-boundary | [[lv-2022-evidence-against-wobbling-135pr]] PDF3 Table1/PDF5 summary | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/matta15-lv22-135pr-contract-018.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/matta15-lv22-135pr-result-018.json)4项检查全过。
+新检查沿用真实两原件hash，明确δ根变化对fE2和派生B的条件放大；不重拟合原P/Rac或制造CI。

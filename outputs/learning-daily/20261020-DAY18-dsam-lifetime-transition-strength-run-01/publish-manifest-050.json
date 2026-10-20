@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-20T20:14:04.309733+00:00",
+  "subject": "Correct mixing-root and E5 kinematic boundaries in Day18 strength audits",
+  "ordinary_paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+    "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-050.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-050.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-050.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-050.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-050.md"
+  ],
+  "verification": "verification-050.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-050.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old superseded JSON"
+  ],
+  "checks": "verification050 valid; lint0; boundary0; old prefixes/review preserved; no credit; original deadline"
+}
