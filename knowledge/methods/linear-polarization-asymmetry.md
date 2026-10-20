@@ -303,3 +303,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 三GeLi原式的独立a与Q
 
 [[butler-1973-three-geli-compton-polarimeter]] B73-D17-1/2/6/11：先以unpolarizedsource的a校Eq3计数比，再P=A/Q；不另加source没有的alphaA分母。a与knownEM/AD给P从而Q为不同校准输入，但P/A/Q/calibrator之间仍有sharedCov；fullerror用共同Jacobian，不能把同链列当独立实验。33S赋spin还需lowabsM/lifetime排M3等条件，见B73-D17-13。
+
+
+### θ0参照的角色与独立装置比较
+
+[[twin-1970-polarization-angular-correlation-40k]] TW70-D17-2/3/4/10在独立Alberta装置用θ0无linearP的yield校analyzereff，另算/校R；与B73unpolarizedsourcea是不同实际实现，均不把null直接作knownP/Q标尺。ψ82/R.21@2231身份已纠，核Qk另物。Ponly多Jπ与有限geometry/error合同仍需同观测companion，不能移Liverpool/cloverresponse。

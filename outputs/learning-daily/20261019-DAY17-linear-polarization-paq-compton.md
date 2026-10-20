@@ -7121,6 +7121,130 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "B73-D17-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+      "anchor": "Day17原件自审：三角角色、R能量与独立参照",
+      "summary": "完整16页/9图/2表新核，ψ/θ/R能量旧转录修正、实际null/R/companion、同理论依赖界，旧flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-1"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-3"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-4"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-5"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-6"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-7"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-8"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-9"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-10"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-11"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-12"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-13"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "Twin1970的θ0null、Comptonψ与R",
+      "summary": "独立Alberta角/计数/eff/R合同及actualcompanion的信息增益写回。",
+      "sources": [
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-1"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-4"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-8"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "θ0参照的角色与独立装置比较",
+      "summary": "null相对eff不等R、Ponly多解需companion，不迁响应。",
+      "sources": [
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-3"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "独立装置的null与分析能力分层",
+      "summary": "实际null与geometry/knownP校R不同输入，共理论与Cov边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-4"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-14"
+        }
+      ]
     }
   ]
 }
@@ -7435,3 +7559,12 @@ canonicalWA77/linearpol/ledger/report单writeback/18prompt、script/input/result
 新声明design6000/4000/a1.01/Qfixed.44给A.204771/P.465389，count/efferror.009778/.004790，独立design合.010889；JacobianfiniteDiff/null/交换/scalecontrols过，不当实际计数/CI。33S11/2−依lowabsM、lifetime排M3及RB/CL合同，Psign不独断spin。WA77实际response依旧未认证。
 
 canonicalB73/Compton/linearpol/sharedcalnote/WA77回链与reportuniquewriteback/18priming、script/input/result/freeze/scope齐。Decision`revises`Wiki公式，`limits`同链P/Q独立性与Ex/Eg迁移。verification065/publication051实际gate，原windowactive/17once/partial18，不以本源完成日终。
+
+
+### Checkpoint052：独立Alberta装置的null与R合同
+
+原Twin1970完整16页/9图/2表/3编号式+响应纯混合式/18refstextvisual，新source前primed冻结。旧TW70-1–5/flags保，新14待审；纠ψ82Compton而非emissionθ，R.21(.02)归2231非旧1.5MeV。θ0null校relativeeff，R另finitegeometry/Ar1460检查within5%/nominal10%error，与B73独立experiment但共RB/MANDY方法祖先。
+
+实际sourcepointKN练习1500/2231的R82=.346537/.245904、R90=.313526/.219668；原R2231比point82=.853992仅诊断不迁B73factor。actuala2 .41下pureE1limitP90−.773585对印−.57(.30)，派生RP=−.1197不冒rawA或σ；9个Ei−Efidentity核算术，不重测level精度。script/contract/result/freeze/scope齐。
+
+844reference是0+→2− M2，不错成E2；770δ由γγ排歧，而770–1159γγ作者称不增信息。2261Ponly容多Jπ、需两AD先J3；CNRpopulationprior/near-threshold和phasebridge的对象/双态2290–2291/1461overlaplimit保，不授新spin/δ/P/R/CI。canonicalsource/Compton/linearpol/sharedcalnote/唯一writeback/18priming联，verification066与publication052记录实际gate；原windowactive/17once/partial18，不以此checkpoint日终。

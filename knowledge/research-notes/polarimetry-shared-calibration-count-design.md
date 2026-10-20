@@ -285,3 +285,8 @@ GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target�
 [[butler-1973-three-geli-compton-polarimeter]] B73-D17-1/2/6/11/12把a相对absorbereff、A校正sumpeakarea、P核光子planeaxis、Q=A/P分层固定。旧Wiki额外1−alphaA分母是转录错已纠；source原Eq4只P=A/Q。新design6000/4000、a1.01的Jacobian/误差保自设Poisson及a独立条件；实际B73counts/背景fit与跨线Cov未取得，不能用印a1%或Qcurve方差当实验jointΣ。
 
 Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另一相对effinput，且仍需samegeometry/selection。Ex2935/Eg967别与同母态groundγ2935混用；nominalpointP>1不clip，不以失配强改authorP/Q。
+
+
+## 独立装置的null与分析能力分层
+
+[[twin-1970-polarization-angular-correlation-40k]] TW70-D17-1–5的θ0null只relativeeff，R为另一有限geometry/knownAr1460检查；Comptonψ82不能当emissionθ。原R.21(.02)归2231γ，1.5MeV只有验证对象。与B73不同独立dataset仍共理论祖先；pointKN82/90结果不替actualresponse或跨装置factor，原counts/共同Cov未得。

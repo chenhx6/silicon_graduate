@@ -1,0 +1,4 @@
+
+### Day17 checkpoint052：独立Alberta角与R对象
+
+TW70原16页核纠ψ82与R2231，θ0null/有限geometry/多观测信息增益与模型prior写回；旧flags保，新14待审。verification066/manifest052/H3发布，main / `Correct independent polarimeter angle and calibration-energy identities`，原windowactive/17once/partial18。

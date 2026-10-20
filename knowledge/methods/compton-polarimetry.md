@@ -454,3 +454,10 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 [[butler-1973-three-geli-compton-polarimeter]] B73-D17-1–14重新原6页核：Eq3 A=(aNperp−Nparallel)/(aNperp+Nparallel)、Eq4 P=A/Q，无旧Wiki误写的1−alphaA分母。a≈1/accuracy1%由unpolarized56Co/66Ga独立relativeabsorbereff标定；knownEM/AD预测P与同时测A再给Q，是另一层。原C=0±.005MeV^-1/B=.84±.04的Qprimefit无Cov，不迁Ni1977或clover/tracking。
 
 Table1 Ex2935的E1光子Eg967与Fig3同母态2935groundγ不同P，不把Ex作calibrationenergy。原七行A/P近Qcentral；印a2/a4裸point公式有P>1等不闭合，未原fit/finiteanglecontract不clip或重标Q。源门改善background比不等countretention/FOM；原counts/Σ缺，新的6000/4000计数仅声明design。
+
+
+## Twin1970的θ0null、Comptonψ与R
+
+[[twin-1970-polarization-angular-correlation-40k]] TW70-D17-1–14新16页核纠：ψ82是Compton角而非emissionθ，R.21(.02)用于2231keV非1.5MeV。θ0yield只校relativeanalyzereff；R另由Fergusonfinitegeometry算、Ar1460校within5%、adopt10%error。原sumpeakN与P=-A_0−90/R的符号不可套相反axis；Qk核角attenuation和R/modernQ名分开。
+
+其pureM2的844 reference解770δ歧，而770–1159γγ作者称无新增信息；2261偏振单独可容多Jπ。校准/companion必须按actual观测信息增益选，不把correlation数目或旧R数值当通用保证。新pointKN82/90对照只是component，不重建原finiteacceptance/Σ。

@@ -194,3 +194,6 @@ Day17checkpoint050 priming：WA77原19页/8图/4表新核，纠旧WikiintegerJ�
 
 
 Day17checkpoint051 priming：Butler1973原6页/七calibrator核，Eq3a修count、Eq4P=A/Q，无旧Wiki1−alphaA分母；新14claims待审旧falseflags保。a由unpolarizedsource独立层、P/AD/A/Q共享calibration链，Eg967不等Ex2935/另一groundγ。裸pointP>1不clip，原Σ/fit/finiteangle/WA77actualjob仍缺；33Sspin依lowabsM/τ排M3，不Psign独断。
+
+
+Day17checkpoint052 priming：Twin1970原16页/9图/2表新核，旧ψ82/emissionθ及R.21@1.5误读纠为Comptonψ82/R.21@2231；θ0null相对eff与有限geometry/Ar1460检查R为两层。844reference pureM2，γγ不总新增信息、Ponly多Jπ及CNRphase/near-threshold域保；无newR/P/δ/Jπ/CI。

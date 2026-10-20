@@ -1,0 +1,72 @@
+{
+  "source": "TW70 printed484\u2013486/492, Table2",
+  "Compton_psi_deg": 82,
+  "emission_theta_for_P_deg": [
+    45,
+    90
+  ],
+  "point_energy_keV": [
+    770,
+    1159,
+    1460,
+    1500,
+    2231
+  ],
+  "actual_R_for_2231": 0.21,
+  "actual_sigma_R_for_2231": 0.02,
+  "actual_P_for_2231": -0.57,
+  "actual_sigma_P_for_2231": 0.3,
+  "2231_AD_a2": 0.41,
+  "2231_AD_a4": -0.01,
+  "E1_limit_is_conditional": true,
+  "R_1500_validation": "within5% using1460Ar; no numericalR1500 reported",
+  "Egamma_identity_rows": [
+    [
+      1.644,
+      0.8,
+      844
+    ],
+    [
+      1.644,
+      0.03,
+      1614
+    ],
+    [
+      0.8,
+      0.03,
+      770
+    ],
+    [
+      1.959,
+      0.8,
+      1159
+    ],
+    [
+      1.959,
+      0.03,
+      1929
+    ],
+    [
+      2.261,
+      0.03,
+      2231
+    ],
+    [
+      2.29,
+      1.644,
+      646
+    ],
+    [
+      2.29,
+      0.8,
+      1490
+    ],
+    [
+      2.291,
+      0,
+      2291
+    ]
+  ],
+  "units": "Ei/Ef MeV; Eg keV",
+  "unknown_actual_Cov_R_P_and_counts": true
+}

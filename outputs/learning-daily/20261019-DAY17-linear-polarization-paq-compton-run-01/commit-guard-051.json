@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "expected_paths_exact": true,
+  "name_status": "M\tknowledge/methods/compton-polarimetry.md\nM\tknowledge/methods/linear-polarization-asymmetry.md\nM\tknowledge/research-notes/polarimetry-shared-calibration-count-design.md\nM\tknowledge/sources/butler-1973-three-geli-compton-polarimeter.md\nM\tknowledge/sources/wadsworth-1977-61ni-levels.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-before-freeze.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-before.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-calibration-contract.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-calibration-result.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-exercise-before.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-exercise-freeze.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-identity.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-reading-scope.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-source-before.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-050.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-051.txt\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-050.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-manifest-051.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint051.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-065.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-065.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md\nM\toutputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md\nM\tsystem/handoff.md\nM\tsystem/log.md\nA\tsystem/scripts/day17_butler1973_response_audit.py\n"
+}

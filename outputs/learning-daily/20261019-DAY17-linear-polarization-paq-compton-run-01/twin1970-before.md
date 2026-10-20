@@ -1,0 +1,9 @@
+# Twin1970独立装置与θ0效率reference：来源前回忆
+
+原Day17session/09:10上海仍约350分钟，不日终。当前连续槽是B73a/Q与WA77引用边界；新信息槽选独立Alberta40K原实验Twin1970，不同时开Ewan1969。旧source已priming16pagesdeepread、GeLi+2NaI、θ≈82、θ0效率、R≈.21@1.5MeV、RB对Biedenharn反号；不当本session独立盲测。
+
+新问题：θ0为何可作unpolarizedreference，source是否校效率还是校Q/R？actual角度不是90时R与P如何组合、meanξ/finitegeometry与能窗如何取？同reference/数据校准是否共享Cov？40K的770M1和1159/P/2261spin案例需完整companion而非Psign；MANDYphase、层级J/δ符号及source印式核，source旧标签不直接继承。
+
+主动回忆：沿beam轴旋转对称alignedstate linearP=0但circularorientation可另议；有限acceptance/非axisym/污染会破null，不能把beam0当所有核的unpolarized。R可能polarimeteranalyzingpower而非angularrank attenuation，应逐式定义；两absorberrawratio不等P。phase反号需同transitiontype/uppermultipole定义，RB和Biedenharn不是任意所有δ统一负号。
+
+计划完整原16页text+visual/allactualfigtablesequations，保旧TW70-1–5true/true/true/false/false和review。实际tablecrosscheck/角接受或sourcecount一项，有rawcounts则实际分析，无则readiness，不作更多同公式重复toy。旧paperduplicateHS033/034同hash不多计experiment。只能继续formal17+无学分18knowledge，不开其它课程。

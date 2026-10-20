@@ -1,0 +1,35 @@
+{
+  "subject": "Correct independent polarimeter angle and calibration-energy identities",
+  "verification_number": 66,
+  "paths": [
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/methods/linear-polarization-asymmetry.md",
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+    "system/scripts/day17_twin1970_response_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-051.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-051.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-066.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-066.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-052.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint052.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-exercise-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-response-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-response-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-source-before.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own052"
+}

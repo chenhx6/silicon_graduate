@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "twin1970-response-result.json",
+      "true_fields": [
+        "ok",
+        "null_efficiency_reference_is_not_an_R_calibration",
+        "psi82_is_Compton_not_emission_angle",
+        "R021_belongs_to_2231_not1500",
+        "no_actual_finite_geometry_or_raw_counts_reconstructed",
+        "no_new_spin_parity_delta_P_R_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

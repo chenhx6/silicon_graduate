@@ -2246,3 +2246,7 @@ WA77全19页核纠旧Wikispin/370fs/ps，原claimflags保，新14待审；实际
 ### Day17 checkpoint051：三GeLi原P/A/Q纠正
 
 B73新全文/七行校准与计数Jacobian核，纠旧Wiki额外分母，旧flags保。a独立层/同链P-Q/Ex-Eg与33Scompanion写回canonical，verification065/manifest051/H3发布，main / `Correct original three-crystal polarization response and calibration roles`，原windowactive/17once/partial18。
+
+### Day17 checkpoint052：独立Alberta角与R对象
+
+TW70原16页核纠ψ82与R2231，θ0null/有限geometry/多观测信息增益与模型prior写回；旧flags保，新14待审。verification066/manifest052/H3发布，main / `Correct independent polarimeter angle and calibration-energy identities`，原windowactive/17once/partial18。

@@ -1,0 +1,128 @@
+{
+  "at": "2026-10-20T01:12:12.481352+00:00",
+  "script_sha256": "da076b66683aa167d3f25f209d0e3506d173c0d10c9e76237baa9b9bc2261f13",
+  "contract_sha256": "161b7744e422d93ccf15944bbe7076eb830febbfbc274eae1c7a0135e0c03872",
+  "point_response_comparisons": [
+    {
+      "Egamma_keV": 770,
+      "psi82": {
+        "scattered_energy_keV": 335.1995548867528,
+        "R_point": 0.5597743726844464
+      },
+      "psi90": {
+        "scattered_energy_keV": 307.15809056674095,
+        "R_point": 0.5247253132276494
+      }
+    },
+    {
+      "Egamma_keV": 1159,
+      "psi82": {
+        "scattered_energy_keV": 392.55573192087144,
+        "R_point": 0.42442029631655587
+      },
+      "psi90": {
+        "scattered_energy_keV": 354.6396140249071,
+        "R_point": 0.388486199948693
+      }
+    },
+    {
+      "Egamma_keV": 1460,
+      "psi82": {
+        "scattered_energy_keV": 422.0250259688816,
+        "R_point": 0.3542821026039125
+      },
+      "psi90": {
+        "scattered_energy_keV": 378.5179423865244,
+        "R_point": 0.3208822884272846
+      }
+    },
+    {
+      "Egamma_keV": 1500,
+      "psi82": {
+        "scattered_energy_keV": 425.303357668695,
+        "R_point": 0.34653727345496343
+      },
+      "psi90": {
+        "scattered_energy_keV": 381.1530707164218,
+        "R_point": 0.3135259330315433
+      }
+    },
+    {
+      "Egamma_keV": 2231,
+      "psi82": {
+        "scattered_energy_keV": 468.86156434555426,
+        "R_point": 0.24590397535571043
+      },
+      "psi90": {
+        "scattered_energy_keV": 415.76918089264774,
+        "R_point": 0.21966830481929844
+      }
+    }
+  ],
+  "actual_2231_R_over_point82": 0.8539918872650439,
+  "conditional_pureE1_P90_from_a2_041": -0.7735849056603773,
+  "reported_2231_P90": -0.57,
+  "derived_corrected_count_asymmetry_R_times_P_not_raw_counts": -0.11969999999999999,
+  "photon_identity_checks": [
+    {
+      "Ei_MeV": 1.644,
+      "Ef_MeV": 0.8,
+      "Egamma_keV": 844,
+      "residual_keV": -1.1368683772161603e-13
+    },
+    {
+      "Ei_MeV": 1.644,
+      "Ef_MeV": 0.03,
+      "Egamma_keV": 1614,
+      "residual_keV": -2.2737367544323206e-13
+    },
+    {
+      "Ei_MeV": 0.8,
+      "Ef_MeV": 0.03,
+      "Egamma_keV": 770,
+      "residual_keV": 0.0
+    },
+    {
+      "Ei_MeV": 1.959,
+      "Ef_MeV": 0.8,
+      "Egamma_keV": 1159,
+      "residual_keV": 0.0
+    },
+    {
+      "Ei_MeV": 1.959,
+      "Ef_MeV": 0.03,
+      "Egamma_keV": 1929,
+      "residual_keV": 0.0
+    },
+    {
+      "Ei_MeV": 2.261,
+      "Ef_MeV": 0.03,
+      "Egamma_keV": 2231,
+      "residual_keV": 4.547473508864641e-13
+    },
+    {
+      "Ei_MeV": 2.29,
+      "Ef_MeV": 1.644,
+      "Egamma_keV": 646,
+      "residual_keV": 1.1368683772161603e-13
+    },
+    {
+      "Ei_MeV": 2.29,
+      "Ef_MeV": 0.8,
+      "Egamma_keV": 1490,
+      "residual_keV": 0.0
+    },
+    {
+      "Ei_MeV": 2.291,
+      "Ef_MeV": 0,
+      "Egamma_keV": 2291,
+      "residual_keV": 0.0
+    }
+  ],
+  "null_efficiency_reference_is_not_an_R_calibration": true,
+  "psi82_is_Compton_not_emission_angle": true,
+  "R021_belongs_to_2231_not1500": true,
+  "no_actual_finite_geometry_or_raw_counts_reconstructed": true,
+  "no_new_spin_parity_delta_P_R_CI": true,
+  "ok": true
+}
