@@ -1,0 +1,186 @@
+{
+  "kind": "raw-anchored-regression-and-systematic-boundary-design",
+  "sources": [
+    {
+      "path": "raw/papers/2019_Babra et al_Investigation of a large change in deformation for the γ -soft nucleus Sm 136.pdf",
+      "sha256": "a26149bff0e7b3bdb5459ba5897b69bc7f8ed17a646f13ed59dd5b38ae425ba6"
+    },
+    {
+      "path": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+      "sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30"
+    }
+  ],
+  "sm136": {
+    "points": [
+      {
+        "I": 8,
+        "Qt": 5.66,
+        "minus": 0.19,
+        "plus": 0.19
+      },
+      {
+        "I": 10,
+        "Qt": 5.59,
+        "minus": 0.79,
+        "plus": 0.78
+      },
+      {
+        "I": 12,
+        "Qt": 5.7,
+        "minus": 0.2,
+        "plus": 0.21
+      },
+      {
+        "I": 14,
+        "Qt": 5.38,
+        "minus": 0.33,
+        "plus": 0.34
+      },
+      {
+        "I": 16,
+        "Qt": 4.85,
+        "minus": 0.32,
+        "plus": 0.34
+      },
+      {
+        "I": 18,
+        "Qt": 5.05,
+        "minus": 0.33,
+        "plus": 0.37
+      }
+    ],
+    "fits": {
+      "avg": {
+        "slope": -0.07164839682306241,
+        "slope_sigma": 0.026328712772317554,
+        "z": -2.7213026873989348
+      },
+      "lower": {
+        "slope": -0.07238403824668253,
+        "slope_sigma": 0.026298817526006078,
+        "z": -2.7523685494644092
+      },
+      "upper": {
+        "slope": -0.07092842711974755,
+        "slope_sigma": 0.026335004643805265,
+        "z": -2.6933136363213785
+      }
+    },
+    "weighted_mean": 5.482686464896822,
+    "weighted_mean_stat_error": 0.11224224912647185,
+    "common_scale_sensitivity": [
+      {
+        "scale": 0.85,
+        "slope": -0.06090113729960305,
+        "slope_sigma": 0.02237940585646992,
+        "z": -2.7213026873989348
+      },
+      {
+        "scale": 1.0,
+        "slope": -0.07164839682306241,
+        "slope_sigma": 0.026328712772317554,
+        "z": -2.7213026873989348
+      },
+      {
+        "scale": 1.15,
+        "slope": -0.08239565634652177,
+        "slope_sigma": 0.030278019688165184,
+        "z": -2.7213026873989348
+      }
+    ],
+    "statewise_15pct_envelope": [
+      {
+        "state": 8,
+        "Qt_low": 4.811,
+        "Qt_high": 6.509
+      },
+      {
+        "state": 10,
+        "Qt_low": 4.7515,
+        "Qt_high": 6.4285
+      },
+      {
+        "state": 12,
+        "Qt_low": 4.845000000000001,
+        "Qt_high": 6.555
+      },
+      {
+        "state": 14,
+        "Qt_low": 4.573,
+        "Qt_high": 6.186999999999999
+      },
+      {
+        "state": 16,
+        "Qt_low": 4.1225,
+        "Qt_high": 5.5775
+      },
+      {
+        "state": 18,
+        "Qt_low": 4.2924999999999995,
+        "Qt_high": 5.8075
+      }
+    ],
+    "interpretation": "15 percent stopping uncertainty is unquoted/model systematic. Common multiplicative scale preserves slope z; independent per-state envelope is a sensitivity, not a confidence interval."
+  },
+  "pr133": {
+    "conditional_fit": {
+      "slope": -0.11667439837634117,
+      "slope_sigma": 0.06952424031315327,
+      "z": -1.6781830028032334
+    },
+    "sidefeeding_input_ps": [
+      1100,
+      1.9,
+      0.014
+    ],
+    "interpretation": "three-point fit and sidefeeding values are source-model conditional; no joint covariance"
+  },
+  "ce131": {
+    "conditional_fit": {
+      "slope": -0.03017498260088561,
+      "slope_sigma": 0.05012273909922802,
+      "z": -0.6020218197003994
+    },
+    "feeding_switch": "tau_SF at low spin versus Q_SF at higher spin"
+  },
+  "checks": [
+    {
+      "name": "Babra raw hash",
+      "passed": true
+    },
+    {
+      "name": "Singh raw hash",
+      "passed": true
+    },
+    {
+      "name": "Babra TableI and 15 percent text",
+      "passed": true
+    },
+    {
+      "name": "Singh Table1/Table2 and feeding text",
+      "passed": true
+    },
+    {
+      "name": "Babra slope convention spread small",
+      "passed": true
+    },
+    {
+      "name": "Babra common 15 percent is multiplicative candidate",
+      "passed": true
+    },
+    {
+      "name": "common scale leaves z invariant",
+      "passed": true
+    },
+    {
+      "name": "133Pr conditional slope below 2 sigma",
+      "passed": true
+    },
+    {
+      "name": "131Ce conditional slope below 1 sigma",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_refit_or_CI": false
+}

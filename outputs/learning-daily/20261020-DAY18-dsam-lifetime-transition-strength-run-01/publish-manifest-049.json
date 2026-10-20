@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-20T19:55:02.985498+00:00",
+  "subject": "Audit DSAM Qt regression and stopping or feeding systematics boundaries",
+  "ordinary_paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/babra-2019-deformation-change-136sm.md",
+    "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+    "system/scripts/day18_qt_boundary_controls.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-049.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-049.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-049.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-049.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-049.md"
+  ],
+  "verification": "verification-049.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-049.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inherited dirty",
+    "isolated daemon",
+    "tmp extracts",
+    "old superseded result JSONs"
+  ],
+  "checks": "verification-049 valid; lint0errors; boundary ok; Babra/Singh raw hashes; asymmetric regression and common scale controls; Day18 partial18/no credit"
+}

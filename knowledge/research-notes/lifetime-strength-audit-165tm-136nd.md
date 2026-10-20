@@ -886,3 +886,9 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需要寿命序列来检验。手征态为左右手组态的量子组合，实际有限自旋/隧穿/带混合不能由“严格等Qt”一句普遍排除。DSAM、RDDS或其它适用寿命观测必须与分支、多极混合及模型响应配套；单寿命/单Qt比不构成排他裁决。
 
 旧HE03-D18-1的强断言已撤，旧result/contract-043未覆盖；[新结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht03-geometry-correction-result-045.json)含18项实际数值/原文检查。当前缺实际转轴/波函数/响应/协方差，不给实验CI。此纠错是本session研究进展，不授课程学分。
+
+## 136Sm与131Ce DSAM Qt趋势的系统学边界
+
+[[babra-2019-deformation-change-136sm]] B19-D18-2–4修正旧强断言：Babra TableI原文确实报告12+后Qt下降、15% stopping-power系统误差未计入并以TRS/TPSM作形变解释；但中心值回归对称化z≈−2.72只是条件诊断。共同乘性阻停scale会同时缩放斜率和误差，逐态独立15%包络又不是CI，故不能凭“完全覆盖”排他否定或确认形变变化。20+是Qt上限，不是有限点。
+
+[[singh-2016-lifetime-131ce-133pr]] SI16-D18-3/4保留131Ce/133Pr表值与侧馈模式：tauSF/QSF切换及长时feeding是识别性输入，三/四点对称误差回归没有联合Cov，不将z=−.602/−1.678写成论文置信度或feeding已证实伪造。新[qt-systematics-boundary-result-049](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)为9项raw/hash/条件检查，不是实验重拟合。

@@ -419,3 +419,9 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 [[hecht-2003-chirality-shape-coexistence-140eu]] HE03-D18-2–5纠正旧“beta平方比直接判别”规则。寿命结合完整分支/内转换/多极混合可导出约化强度，进一步提取Qt必须明确转动几何与有限自旋系数。三轴形变beta/gamma本身不能决定实验B(E2)：本任务条件张量练习给同一对形变参数的三个主轴强度比1.36234/.489184/5.53710，并能选取向得到等强度；不认证实际TAC解。
 
 原Hecht2003结论是比较I≈15hbar附近B(E2)大跳变与平滑增长，寿命实验是重要检验；它未证明DSAM是唯一方法或任意等Qt就是手征。实验设计需比较同自旋的多条绝对带内/带间强度、能量与branch/mixing，检验竞争模型能否同时解释。旧本页最后一节的普适二元判决已撤，原source needs_review保留。
+
+## 136Sm与131Ce DSAM Qt趋势的系统学边界
+
+[[babra-2019-deformation-change-136sm]] B19-D18-2–4修正旧强断言：Babra TableI原文确实报告12+后Qt下降、15% stopping-power系统误差未计入并以TRS/TPSM作形变解释；但中心值回归对称化z≈−2.72只是条件诊断。共同乘性阻停scale会同时缩放斜率和误差，逐态独立15%包络又不是CI，故不能凭“完全覆盖”排他否定或确认形变变化。20+是Qt上限，不是有限点。
+
+[[singh-2016-lifetime-131ce-133pr]] SI16-D18-3/4保留131Ce/133Pr表值与侧馈模式：tauSF/QSF切换及长时feeding是识别性输入，三/四点对称误差回归没有联合Cov，不将z=−.602/−1.678写成论文置信度或feeding已证实伪造。新[qt-systematics-boundary-result-049](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)为9项raw/hash/条件检查，不是实验重拟合。

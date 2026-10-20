@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint049：完成Babra/Singh Qt回归系统学核验；继续原Day18至15:00。
+
 checkpoint048：分支/表列/样本与跨核解释边界已原件修订，待本批必要检查与H3发布；047已完成并发布，精确结果只receipt。原15:00截止保持，学习继续，不授18/19。
 
 checkpoint047已完成必要检查/H3与非force发布，见publication-047；当前继续048。
@@ -82,6 +84,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint049已实际提交，稳定指针main / `Audit DSAM Qt regression and stopping or feeding systematics boundaries`；精确hash/H3/远端结果只publication-049回执。
+
 
 checkpoint048已实际提交，稳定指针main / `Audit typed parent-branch roles and correct finite-sample Day18 strength claims`；精确hash/H3/远端结果只publication-048回执。
 

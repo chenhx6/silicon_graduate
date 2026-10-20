@@ -143,3 +143,14 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 | SI16-D18-2 | 对Table 2中133Pr yrast带三个有限态（15/2-、19/2-、23/2-）进行加权回归审计，其加权平均Qt为3.407(73) eb；线性回归斜率为dQt/dI = -0.1167(695) eb/hbar，显著性仅为-1.68sigma，在2sigma统计置信度下完全无法拒绝常数Qt假定。更为显著的是，侧馈平均寿命tau_SF在仅三个能级间发生跨越5个数量级的剧烈跃变（15/2-处为1100 ps，19/2-处降至1.9 ps，23/2-处骤降至0.014 ps）；低自旋态tau_SF是能级寿命（71 ps）的15倍，处于完全阻停前馈入区。这证实未获独立门控隔离的侧馈时延跃变能够轻易制造或扭曲高自旋形变演化的表观假象。 | task-regression-and-feeding-audit | derived-and-boundary | PDF p.8 Table 2；新babra19-singh16-qt-result-028 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-contract-028.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-result-028.json)4项检查全过。
+
+## Day18 checkpoint049修订：侧馈切换与回归可识别性
+
+原SI16-D18-1/2保留为条件审计；新行明确其误差/回归约定，不把侧馈切换升级为已证实假象。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D18-3 | 131Ce四有限点回归使用对称化误差，133Pr三点也使用对称化误差；原文MINOS不提供这些跨点回归的联合协方差。133Pr的τSF=1100/1.9/.014ps与131Ce的tauSF/QSF切换是拟合输入合同，说明形变斜率对feeding模型敏感，但不单独证明Qt下降由feeding制造。 | regression-and-feeding-boundary | derived-and-boundary | PDF5 Table1/analysis；PDF8 Table2/analysis；新qt-systematics-boundary-result-049 | true |
+| SI16-D18-4 | 新条件回归给133Pr z=−1.678、131Ce z=−.602；它们是中心值/对称误差下的诊断，不是论文CI。131Ce的15/2–27/2混合plunger/DSAM方法、stopping prescriptions和side-feed parameter switch必须保留，不能把常数Qt接受写成独立实验裁决。 | conditional-statistical-diagnostic | derived-and-boundary | PDF4–8；qt-systematics-boundary-result-049 | true |
+
+新结果不改变原Table I/II、limits、K/CG和human review状态。

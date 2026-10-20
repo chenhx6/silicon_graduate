@@ -49,6 +49,12 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint049：Qt回归的raw身份、非对称误差与feeding/stopping边界
+
+Babra原PDF hash为`a26149…`，旧追加段中的BCB2字符串已撤；原文明确12+后Qt下降、15% stopping systematics未计入，并以TRS/TPSM作形变解释。新回归使用打印非对称误差三种对称化方案，z在−2.693至−2.752；共同乘性scale保持z不变，逐态15%只是敏感性，不是置信区间。Singh原Table1/2与side-feed切换相符，但其三/四点回归仍无联合Cov，不能将常数Qt接受或feeding伪造写成排他实验裁决。
+
+[新9项结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)及[程序](../../system/scripts/day18_qt_boundary_controls.py)只做raw/hash/条件敏感性检查，不覆盖旧结果或重拟合。原review、limits、K/CG和未完成输入保持。
+
 ### checkpoint048：分支角色、表列与有限样本的有源纠错
 
 P20弱带五对不是in/in，Kuti负宇称不能借Suzuki正宇称且旧数字不合原表；78Br Fig5轴量级与D0、131Ba等Qt定理、TiP混合样本和全区外推、74Br 1.79ps列身份及多极性例外均已回源更正。原review/frontmatter/旧claim flags保持，旧artifact保档superseded。
@@ -224,12 +230,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "从两原件的停止/feeding输入角色推导声明域的完整谱概率时钟对称，propermean与绝对B/Qt缩放分层，不认证实际producer",
       "sources": [
         {
-          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
-          "locator": "J01-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -239,12 +245,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "五项新有限response/bins控制给出固定feeding/实验室时钟/位置响应/曲线形变的反证，不估原τbias",
       "sources": [
         {
-          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
-          "locator": "J01-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -254,12 +260,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "真实TableII中心D19.25与两带常数标尺不变量、自设box敏感性和literalprose范围差，非CI/唯一结构裁决",
       "sources": [
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-3"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -269,16 +275,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "两meanQt的差分clock敏感性与原Σ/producer缺口；本session不重跑旧十一/九行或冒humanreview",
       "sources": [
         {
-          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
-          "locator": "J01-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
-          "locator": "J01-D18-2"
-        },
-        {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -288,12 +290,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页连接完整谱clock变换、反例和实际spincontrast的canonical新段；共模与逐态输入分开",
       "sources": [
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
-          "locator": "J01-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -358,32 +360,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "新增实际多分量stop对clockscale的反证、Ta/组合角色、23F行/30check与模型δ条件E2强度，非新实验CI",
       "sources": [
         {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-4"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-5"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-7"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-8"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-9"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-11"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -393,24 +375,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "DSAM方法接54Cr真实modelupdate与τ/B/branch/模型依赖；整体scale和电子/核变化分开",
       "sources": [
         {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-4"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-5"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-7"
-        },
-        {
-          "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
-          "locator": "SC26-9"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -494,40 +464,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "七层独立性/actualtargetτ约束、真实E2相位图4/8类与20新checks、静态Qs/sidefeeding/Qt分离，非GosiafitCI",
       "sources": [
         {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-3"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-4"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-5"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-6"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-7"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-10"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-13"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-14"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -537,16 +479,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "DSAM companion中独立采集与最终提取/共约束边界，未反判实验无效或新counts无信息",
       "sources": [
         {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-4"
-        },
-        {
-          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
-          "locator": "WO26-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -621,32 +559,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "同B→RME/meanτ的单primitive条件rank1和13checks；不据依赖判actualGosia重复计权/CI修正",
       "sources": [
         {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-3"
-        },
-        {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-4"
-        },
-        {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-5"
-        },
-        {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-6"
-        },
-        {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-7"
-        },
-        {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-8"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -656,16 +574,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "更新reference数量与mean/half-life方法边界，不把derived字段计独立observations",
       "sources": [
         {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-4"
-        },
-        {
-          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
-          "locator": "F58-8"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -764,44 +678,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "真实12行与7.2863124contrast；不当相同形状唯一识别/新实验CI",
       "sources": [
         {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-3"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-4"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-5"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-6"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-7"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-8"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-9"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-10"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-11"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -811,32 +693,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "同母态ratio消共同τ的有限域，line-specific nuisance仍保留",
       "sources": [
         {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-3"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-4"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-6"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-7"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-8"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-9"
-        },
-        {
-          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
-          "locator": "RA14-10"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -896,20 +758,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "KL99新六行finite stopping非共scale及Qt ratio chart；不造Ag106数据",
       "sources": [
         {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-2"
-        },
-        {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-3"
-        },
-        {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-4"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -919,20 +773,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "定向Klemme六行新relative Qt response/monotonic chart；samelevel/Σ仍缺",
       "sources": [
         {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-2"
-        },
-        {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-3"
-        },
-        {
-          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
-          "locator": "KL99-D18-4"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1260,12 +1106,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "136Nd同寿命异强度与135Nd异寿命同强度的双向反例，证明总寿命与偏跃迁率的解耦",
       "sources": [
         {
-          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
-          "locator": "MU07-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
-          "locator": "MU07-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1275,12 +1121,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充135Nd/136Nd关于寿命与B(E2)非一一对应的双向对照",
       "sources": [
         {
-          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
-          "locator": "MU07-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
-          "locator": "MU07-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1301,16 +1147,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "167Lu带间B(E2)提取对混合比解的依赖，小解导致强度塌缩8.6-197.5倍",
       "sources": [
         {
-          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
-        },
-        {
-          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1320,12 +1162,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充相对B(E2)提取对DCO混合比双根的指数敏感性",
       "sources": [
         {
-          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1346,34 +1188,46 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-      "anchor": "Day18定量审计：侧馈参数转换与Qt下降显著性核验",
-      "summary": "Table 1四个有限点加权回归斜率仅-0.64sigma，侧馈模式由tau_SF转Q_SF可能制造形变演化假象",
+      "anchor": "Day18 checkpoint049修订：侧馈切换与回归可识别性",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-1"
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "侧馈模型切换对高自旋Qt演化判断的干扰：131Ce案例",
-      "summary": "131Ce案例审计：侧馈时延tau_SF转转动级联Q_SF对高自旋Qt下降趋势的潜在人为影响",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-1"
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
       "anchor": "侧馈参数模式切换对Qt自旋趋势的系统性偏差",
-      "summary": "方法页补充侧馈参数模式切换（tau_SF与Q_SF）对Qt拟合的系统偏差机制",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-1"
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1402,16 +1256,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-3"
-        },
-        {
-          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-4"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1421,16 +1271,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-3"
-        },
-        {
-          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-4"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1451,8 +1297,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "136Nd wobbling重分析审计：单点跃迁强度与PRM唯象模型定标依赖",
       "sources": [
         {
-          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
-          "locator": "LV22-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1462,8 +1312,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充模型算符二阶参数被唯一实验强度点强制配平的定标边界",
       "sources": [
         {
-          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
-          "locator": "LV22-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1495,12 +1349,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "135Pr里程碑反例：混合比双解翻转导致B(E2)强度塌缩7.0倍，彻底颠覆横向wobbling判据",
       "sources": [
         {
-          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
-          "locator": "MA15-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-          "locator": "LV22P-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1510,12 +1364,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充135Pr中delta解翻转导致B(E2)断崖式下降7倍的警示边界",
       "sources": [
         {
-          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
-          "locator": "MA15-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-          "locator": "LV22P-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1536,12 +1390,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "133Ba案例代数解构：揭示(E_in/E_out)^5因子高达5.43倍的相空间放大效应",
       "sources": [
         {
-          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1551,12 +1405,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充跨带能量差异通过五次方因子对B(E2)out/B(E2)in造成的相空间放大机制",
       "sources": [
         {
-          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
-          "locator": "RD21-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1592,12 +1446,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "133La纵向wobbling反例：小解导致B(E2)out/in塌缩6.3-7.4倍、B(M1)out/in暴增4.6-9.1倍",
       "sources": [
         {
-          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1607,12 +1461,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充纵向wobbling候选带中混合比双根引起的多极强度全面倒转规律",
       "sources": [
         {
-          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
-          "locator": "BI19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1664,24 +1518,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-3"
-        },
-        {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-4"
-        },
-        {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-5"
-        },
-        {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-6"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1691,24 +1533,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-3"
-        },
-        {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-4"
-        },
-        {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-5"
-        },
-        {
-          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-6"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1767,12 +1597,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "187Au与183Au反例：角分布大解将1-2 W.u.单粒子跃迁虚假放大至164 W.u.，及偏振不确定度低估对多极双解识别的破坏",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-          "locator": "GU22-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
-          "locator": "SE20-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1782,12 +1612,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充内转换系数与线偏振度防止单粒子跃迁被虚假误标为超集体声子跃迁的刚性物理检验准则",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-          "locator": "GU22-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
-          "locator": "SE20-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1823,12 +1653,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "127Xe多声子案例审计：跨带B(E2)小解崩塌8-10倍与二声子向yrast退激反常以Delta I = 0主导的拓扑反常",
       "sources": [
         {
-          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1838,12 +1668,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充多声子三轴旋转谐振子跃迁拓扑判据：二声子弱退激选择定则与Delta I = 0反常识别准则",
       "sources": [
         {
-          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1879,12 +1709,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "151Eu案例审计：仅凭1sigma显著性偏振挑选极大解导致高达600倍的B(E2)虚假放大与向单粒子M1的极端倒转",
       "sources": [
         {
-          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1894,12 +1724,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充线偏振不对称度低于2sigma时丧失区分多极双解能力的有效度边界识别准则",
       "sources": [
         {
-          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1935,12 +1765,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "129Ba案例审计：无新实验重标历史特征伙伴带为wobbling受制于8倍E2崩塌与1.06sigma偏振脆弱性",
       "sources": [
         {
-          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1950,12 +1780,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充纯文献重分析中重新挑选角分布极大解并依据1sigma偏振改动带属性的证据分层准则",
       "sources": [
         {
-          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -1991,12 +1821,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "163Lu二声子基准：DSAM带内807 W.u.标尺下476 keV二声子标度26.8倍小解塌缩与Table I六条Delta n=2纯伸展E2拓扑黄金基准",
       "sources": [
         {
-          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2006,12 +1836,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充多声子谐振倍增律检验中单一弱连接线无偏振混合比双解简并的证据脆弱性边界",
       "sources": [
         {
-          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2069,16 +1899,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "A~160区wobbling谱系审计：165Lu类比小解塌缩33倍、161Lu零电磁观测与167Ta复制163Lu E2纯度的循环论证链条",
       "sources": [
         {
-          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
-          "locator": "SC03-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
-          "locator": "BR05-D18-1"
-        },
-        {
-          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
-          "locator": "HA09-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2088,12 +1914,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充同位素先验类比与复制混合比纯度推翻竞争模型的循环论证证据审计准则",
       "sources": [
         {
-          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
-          "locator": "SC03-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
-          "locator": "HA09-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2118,68 +1944,104 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/babra-2019-deformation-change-136sm.md",
-      "anchor": "Day18定量审计：高自旋Qt拟合斜率显著性与15%阻停系统误差带",
-      "summary": "Table I中8+至18+态加权均值Qt=5.483 eb、斜率仅-2.72sigma与15%阻停本领系统误差包络核验",
+      "anchor": "Day18 checkpoint049修订：斜率、非对称误差与共同阻停系统学",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
-          "locator": "B19-D18-1"
+          "locator": "B19-D18-2"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-      "anchor": "133Pr部分定量审计：Qt斜率显著性与跨5量级侧馈时延跃变",
-      "summary": "Table 2中133Pr加权均值Qt=3.407 eb、斜率仅-1.68sigma及侧馈时延跨5个数量级跃变假象审计",
+      "anchor": "Day18 checkpoint049修订：侧馈切换与回归可识别性",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-2"
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "高自旋形变演化假象与侧馈/阻停系统误差带：136Sm与133Pr案例",
-      "summary": "136Sm与133Pr案例审计：DSAM四极矩自旋演化受制于加权回归3sigma判据、阻停本领包络与侧馈时延跨量级跃变反证",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
-          "locator": "B19-D18-1"
+          "locator": "B19-D18-2"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-4"
         },
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-2"
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
       "anchor": "跃迁四极矩斜率显著性与阻停/侧馈系统误差包络",
-      "summary": "方法页补充DSAM导出跃迁四极矩自旋斜率的加权回归显著度检验与阻停/侧馈系统误差包络判定准则",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
-          "locator": "B19-D18-1"
+          "locator": "B19-D18-2"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-4"
         },
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-2"
+          "locator": "SI16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "babra-2019-deformation-change-136sm",
-      "summary": "索引增加136Sm与133Pr DSAM四极矩自旋斜率显著性及阻停系统误差包络导航",
+      "summary": "checkpoint049修正raw身份、非对称误差与共同/逐态系统学，回归和侧馈结论保持条件性",
       "sources": [
         {
           "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
-          "locator": "B19-D18-1"
+          "locator": "B19-D18-2"
         },
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
-          "locator": "SI16-D18-2"
+          "locator": "SI16-D18-3"
         }
       ]
     },
@@ -2200,12 +2062,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "130Ba案例审计：74% M1主导跃迁背离wobbling集体E2声子判据与PRM全自旋区高估BM1的证据边界",
       "sources": [
         {
-          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2215,12 +2077,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "方法页补充多准粒子系统中M1主导衰变模糊特征伙伴带与wobbling界限时的绝对寿命/BE2判决准则",
       "sources": [
         {
-          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2280,32 +2142,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-3"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-4"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-5"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-6"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-7"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-8"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2315,32 +2157,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-3"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-4"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-5"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-6"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-7"
-        },
-        {
-          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-8"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2424,36 +2246,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-3"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-4"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-5"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-6"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-7"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-8"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-9"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2463,36 +2261,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-3"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-4"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-5"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-6"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-7"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-8"
-        },
-        {
-          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-9"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2595,24 +2369,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-6"
-        },
-        {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-7"
-        },
-        {
-          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-2"
-        },
-        {
-          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-3"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2622,24 +2384,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-6"
-        },
-        {
-          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-7"
-        },
-        {
-          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-2"
-        },
-        {
-          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-3"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2703,24 +2453,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-3"
-        },
-        {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-4"
-        },
-        {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-5"
-        },
-        {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-6"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2730,24 +2468,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-3"
-        },
-        {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-4"
-        },
-        {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-5"
-        },
-        {
-          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-6"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2866,72 +2592,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-3"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-4"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-5"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-6"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-7"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-8"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-9"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-10"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-11"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-12"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-2"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-3"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-4"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-5"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-6"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-7"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -2941,72 +2607,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-3"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-4"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-5"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-6"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-7"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-8"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-9"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-10"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-11"
-        },
-        {
-          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-12"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-2"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-3"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-4"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-5"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-6"
-        },
-        {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-7"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3118,48 +2724,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-3"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-4"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-5"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-6"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-7"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-8"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-9"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-10"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-11"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3169,48 +2739,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-3"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-4"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-5"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-6"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-7"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-8"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-9"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-10"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-11"
-        },
-        {
-          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3306,32 +2840,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-3"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-4"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-5"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-6"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-7"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-8"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3341,32 +2855,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-3"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-4"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-5"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-6"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-7"
-        },
-        {
-          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-8"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3458,44 +2952,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-3"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-4"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-5"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-6"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-7"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-8"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-9"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-10"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-11"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3505,44 +2967,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-3"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-4"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-5"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-6"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-7"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-8"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-9"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-10"
-        },
-        {
-          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-11"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3638,36 +3068,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-3"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-4"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-5"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-6"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-7"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-8"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-9"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3677,36 +3083,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-3"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-4"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-5"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-6"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-7"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-8"
-        },
-        {
-          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-9"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3806,48 +3188,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-3"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-4"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-5"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-6"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-7"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-8"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-9"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-10"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-11"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3857,48 +3203,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-3"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-4"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-5"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-6"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-7"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-8"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-9"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-10"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-11"
-        },
-        {
-          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -3990,28 +3300,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-3"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-4"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-5"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-6"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-7"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4021,28 +3315,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-3"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-4"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-5"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-6"
-        },
-        {
-          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-7"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4134,48 +3412,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-3"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-4"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-5"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-6"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-7"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-8"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-9"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-10"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-11"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4185,48 +3427,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-3"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-4"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-5"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-6"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-7"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-8"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-9"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-10"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-11"
-        },
-        {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-12"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4318,28 +3524,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-3"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-4"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-5"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-6"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-7"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4349,28 +3539,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-3"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-4"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-5"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-6"
-        },
-        {
-          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-7"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4434,20 +3608,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-3"
-        },
-        {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-4"
-        },
-        {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4457,20 +3623,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-3"
-        },
-        {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-4"
-        },
-        {
-          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4526,20 +3684,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "纠正beta平方比、Qt几何和DSAM唯一判决的过强断言；原文与新条件反例分列",
       "sources": [
         {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-3"
-        },
-        {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-4"
-        },
-        {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4549,20 +3699,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
       "summary": "纠正beta平方比、Qt几何和DSAM唯一判决的过强断言；原文与新条件反例分列",
       "sources": [
         {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-2"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-3"
         },
         {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-3"
-        },
-        {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-4"
-        },
-        {
-          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
-          "locator": "HE03-D18-5"
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-4"
         }
       ]
     },
@@ -4613,6 +3755,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint049已实际提交，稳定指针main / `Audit DSAM Qt regression and stopping or feeding systematics boundaries`；精确hash/H3/远端结果只publication-049回执。
+
 
 checkpoint048已实际提交，稳定指针main / `Audit typed parent-branch roles and correct finite-sample Day18 strength claims`；精确hash/H3/远端结果只publication-048回执。
 

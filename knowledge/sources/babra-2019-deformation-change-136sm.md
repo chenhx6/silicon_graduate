@@ -110,12 +110,15 @@ Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF �
 
 这是“形变背景必须随自旋重新评估”的直接案例。后续用于 `131Ce` 或其他 A≈130 高自旋数据时，应只迁移证据结构：寿命/`Q_t`、带交叉、模型势能面与替代极小；不能迁移 `136Sm` 的具体形变结论。
 
-## Day18定量审计：高自旋Qt拟合斜率显著性与15%阻停系统误差带
+## Day18 checkpoint049修订：斜率、非对称误差与共同阻停系统学
 
-在Day18正式学习中对本文Table I中136Sm yrast带8+至18+态的DSAM寿命与跃迁四极矩Qt进行加权回归与系统误差包络审计，raw SHA256 `BCB2D8534C15A7091B87EE496DAFE59DC5D1EB4ED627340D83B094CC2088FE37`已核。原B19-1–10各claim及`human-reviewed`状态完全保留；新B19-D18-1待审。
+本次重新核Babra原PDF Table I/DSAM段，实际raw SHA256为`a26149bff0e7b3bdb5459ba5897b69bc7f8ed17a646f13ed59dd5b38ae425ba6`；旧追加段中的`BCB2...`字符串撤回。原B19-1–10及review状态保留；旧B19-D18-1的“完全否定灾难性塌缩/15%包络完全覆盖”降为superseded，因为该回归把不对称误差取平均且未建模相关系统误差。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| B19-D18-1 | 本文Table I报告136Sm基态带8+至18+态的Qt从5.66(19) eb演化至5.05(37) eb。定量审计证实：(1) 六个有限态的加权平均Qt为5.483(112) eb，常数Qt模型的卡方chi2/dof仅为7.31/5 = 1.46，完全否定了早期文献宣称的形变灾难性塌缩至beta2 ~ 0.14（Qt ~ 3.2 eb）的猜想；(2) 线性回归斜率为dQt/dI = -0.0716(263) eb/hbar，显著性仅为-2.72sigma，属于温和下降；(3) 正文p.3估计未计入的阻停本领系统误差达15%（对应+/-0.822 eb包络），该系统误差带完全覆盖了高自旋Qt的微弱变动。因此，136Sm在第一与第二交叉区间总体保持了高四极集体性，未发生剧烈形状猝灭。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.2 Table I；新babra19-singh16-qt-result-028 | true |
+| B19-D18-1 | **superseded**：旧追加段的回归数字可作为特定对称误差约定下的算术，但不能据此完全否定形变变化，也不能把15%阻停系统误差自动当逐态独立包络。 | task-correction | corrected-and-boundary | 本段B19-D18-2–4；旧结果028 | true |
+| B19-D18-2 | Table I 六个有限态的中心Qt=5.66,5.59,5.70,5.38,4.85,5.05 eb；非对称误差为(+/−.19), (+.78/−.79), (+.21/−.20), (+.34/−.33), (+.34/−.32), (+.37/−.33)。在把每对误差简单平均的明确约定下，回归z=−2.721；用全lower或全upper误差得到−2.752与−2.693。这个z不是作者报告的显著性，也未含系统协方差。 | conditional-regression | derived-and-boundary | PDF2 TableI；新qt-systematics-boundary-result-049 | true |
+| B19-D18-3 | 原文称12+后Qt逐渐下降、15% stopping-power误差未计入，并用TRS/TPSM解释跨越后形变变化；“15%”是模型系统误差量级，不能简单当每点独立±15%。若是共同乘性scale，斜率与斜率误差同乘、z不变；逐态独立包络则是另一个敏感性场景，不是CI。 | source-systematic-scope | direct-and-boundary | PDF3 p.3；PDF6–9 discussion/conclusion | true |
+| B19-D18-4 | 因此本源支持“存在与自旋/带交叉相关的Qt下降及其模型解释”，但单凭这批数据与未闭合Cov不能在“真实形变变化”与“DSAM stopping/feeding systematics”之间作排他判决；20+行是上限，不能当第七有限点。 | interpretation-boundary | direct-and-boundary | PDF2 TableI；PDF6–9 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-contract-028.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-result-028.json)4项检查全过。
+[新程序](../../system/scripts/day18_qt_boundary_controls.py)核两个raw hash、TableI/15%文字与9项条件检查；[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)不重拟合lineshape、无jointCov/CI。

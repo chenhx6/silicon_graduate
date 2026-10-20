@@ -2588,3 +2588,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint048：分支角色、列身份与有限样本原件纠错
 
 修订137Nd weak ratios两out/out三in/out、Kuti/Suzuki不同宇称与假数值、78Br图轴/D0条件、131Ba组态解释、135Nd TiP样本/偏振缺项、74Br寿命列和多极性例外。原review与prefix保持。新实际39项条件检查保同母态量名、delta敏感性/曲率/有限值与上限，不给实验CI；six旧serializer停写旧结果。原15:00截止、active同session、未授18/19不变；其它原件核验路线继续。
+
+
+## 2026-10-21 DAY18 checkpoint049：Qt趋势的raw身份、非对称误差与feeding/stopping边界
+
+Babra原PDF实际hash为a26149…，旧BCB2追加字符串撤回；原文支持12+后Qt下降及15% stopping systematics，不能把共同系统误差当逐态独立包络。新条件回归三种对称化z=-2.693至-2.752，共同scale保z；Singh 131Ce/133Pr的sidefeed切换和无jointCov边界保留。9项程序/结果不生成实验CI，formal18仍未授分。原15点硬截止保持。
