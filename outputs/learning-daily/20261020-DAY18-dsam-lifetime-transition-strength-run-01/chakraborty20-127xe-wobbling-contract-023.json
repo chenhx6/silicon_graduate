@@ -1,0 +1,13 @@
+{
+  "target": "127Xe",
+  "paper": "Chakraborty 2020 Phys. Lett. B 811:135854",
+  "table": "Table 1",
+  "description": "Quantitative audit of delta root sensitivity and anomalous Delta I = 0 two-phonon decay topology in 127Xe",
+  "check_count": 4,
+  "checks": [
+    "one_phonon_BE2_collapse_evaluation",
+    "one_phonon_BM1_jump_evaluation",
+    "two_phonon_638keV_collapse_evaluation",
+    "two_phonon_delta_I_0_topology_audit"
+  ]
+}

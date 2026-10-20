@@ -1700,6 +1700,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "SE20-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "anchor": "Day18定量审计：多声子纵向wobbling混合比双解敏感性与两声子衰变拓扑异常",
+      "summary": "Table 1中五条跨带连接线B(E2)在DCO小解下发生8.2-10.0倍断崖式塌缩及二声子带反常以Delta I = 0衰变主导的拓扑核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "多声子纵向wobbling的混合比崩塌与拓扑反常：127Xe案例",
+      "summary": "127Xe多声子案例审计：跨带B(E2)小解崩塌8-10倍与二声子向yrast退激反常以Delta I = 0主导的拓扑反常",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "多声子激发态跃迁拓扑的谐振子选择定则审计",
+      "summary": "方法页补充多声子三轴旋转谐振子跃迁拓扑判据：二声子弱退激选择定则与Delta I = 0反常识别准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "chakraborty-2020-multiphonon-longitudinal-wobbling-127xe",
+      "summary": "索引增加127Xe多声子纵向wobbling混合比小解塌缩与退激拓扑反常导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1714,6 +1770,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint023已实际提交，稳定指针main / `Audit 127Xe multiphonon longitudinal wobbling delta root collapse and Delta I = 0 topology anomaly`；精确hash/H3/远端结果只publication-023回执。
+
 
 checkpoint022已实际提交，稳定指针main / `Audit 187Au B(E2_out) 88-fold collapse to single-particle Weisskopf limit and 183Au polarization error`；精确hash/H3/远端结果只publication-022回执。
 

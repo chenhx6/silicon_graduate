@@ -33,6 +33,8 @@ updated: 2026-10-20
 
 - [[sensharma-2020-longitudinal-wobbling-187au]] — 187Au 纵向 wobbling 支持方实验数据与角分布大解模型偏置审计。
 
+- [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] — 127Xe 多声子纵向 wobbling 混合比小解 10 倍塌缩与 Delta I = 0 二声子退激拓扑反常。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
