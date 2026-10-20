@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-20T15:17:07.562220+00:00",
+  "subject": "Audit 105Pd transverse wobbling delta root sensitivity and PRM M1 operator quenching",
+  "ordinary_paths": [
+    "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day18_timar19_105pd_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timar19-105pd-wobbling-contract-021.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timar19-105pd-wobbling-result-021.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-025.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-022.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-021.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-024.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-021.md only"
+  },
+  "verification": "verification-025.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification025/lint024 0 errors/boundary022/diff; 105Pd 4 checks passed"
+}

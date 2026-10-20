@@ -148,3 +148,13 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 User review should compare TI19 mixing ratios with the conflicting values summarized in Nomura 2022.
+
+## Day18定量审计：单中子横向wobbling混合比双解敏感性与PRM算符淬灭解构
+
+在Day18正式学习中对本文Table I及正文p.3/p.5中105Pd带间连接跃迁（991, 1034, 994 keV）进行代数解构与PRM唯象模型定标定量审计，raw SHA256 `3948CF32712A400AA8DF0AEE489EBEBD89DF7480508BDDC60156A359ED322909`已核。原TI19-1–7各claim及`human-reviewed`状态完全保留；新TI19-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| TI19-D18-1 | 本文Table I报告的三条带间跃迁（991, 1034, 994 keV）的B(E2)out/B(E2)in为0.66(18)、0.60(9)和0.34(7)，被作为A~100区单中子横向wobbling的首个实验证据。定量审计揭示双重模型偏置：(1) 实验提取对大解依赖极度敏感：若采纳DCO允许的小解（0.35–0.59）或早期Rickey 1977角分布值（0.46–0.62），B(E2)out/B(E2)in将发生2.96至8.06倍的断崖式塌缩（暴跌至0.042–0.223），B(M1)out/B(E2)in则反向暴增3.15至7.39倍（跃升至0.214–0.567 mu_N^2/e^2b^2）；(2) PRM理论模型对B(M1)out存在3–10倍的过高估计，正文明确承认引入了0.36的g_eff人工淬灭因子（将理论B(M1)算符人为压低7.72倍，即仅保留裸值的12.96%）强行由单一实验点delta(21/2- -> 19/2-)配平。因此，PRM对跃迁强度的“良好重现”是人工压制磁算符与强制单点定标的产物。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.5 Table I；新timar19-105pd-wobbling-result-021 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timar19-105pd-wobbling-contract-021.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timar19-105pd-wobbling-result-021.json)4项检查全过。

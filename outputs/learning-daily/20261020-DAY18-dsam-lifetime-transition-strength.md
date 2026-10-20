@@ -1577,6 +1577,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "BI19-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+      "anchor": "Day18定量审计：单中子横向wobbling混合比双解敏感性与PRM算符淬灭解构",
+      "summary": "Table I中带间跃迁对混合比小解的塌缩核验及PRM模型M1算符7.72倍人工淬灭解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "单中子横向wobbling的混合比根敏感性与算符人为淬灭：105Pd案例",
+      "summary": "105Pd案例审计：混合比小解塌缩2.96-8.06倍与PRM模型引入0.36有效g因子淬灭（压低M1算符7.72倍）的人工配平机制",
+      "sources": [
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "唯象模型算符的人工淬灭与跃迁强度匹配假象",
+      "summary": "方法页补充唯象粒子转子模型通过人工淬灭磁偶极跃迁算符强制单点配平跃迁强度的边界识别",
+      "sources": [
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "timar-2019-transverse-wobbling-105pd",
+      "summary": "索引增加105Pd单中子横向wobbling混合比敏感性与PRM算符淬灭解构导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1591,6 +1647,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint021已实际提交，稳定指针main / `Audit 105Pd transverse wobbling delta root sensitivity and PRM M1 operator quenching`；精确hash/H3/远端结果只publication-021回执。
+
 
 checkpoint020已实际提交，稳定指针main / `Audit 133La longitudinal wobbling delta root sensitivity and multipole inversion`；精确hash/H3/远端结果只publication-020回执。
 

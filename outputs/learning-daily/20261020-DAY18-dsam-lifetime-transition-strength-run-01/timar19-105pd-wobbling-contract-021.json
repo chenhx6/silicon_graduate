@@ -1,0 +1,13 @@
+{
+  "target": "105Pd",
+  "paper": "Timar 2019 Phys. Rev. Lett. 122:062501",
+  "table": "Table I",
+  "description": "Quantitative audit of delta root sensitivity, E2/M1 inversion, and PRM g_eff quenching factor in 105Pd",
+  "check_count": 4,
+  "checks": [
+    "algebraic_BE2_BM1_formula_consistency",
+    "dco_small_delta_collapse_evaluation",
+    "rickey1977_angular_distribution_contrast",
+    "prm_geff_quenching_deconstruction"
+  ]
+}

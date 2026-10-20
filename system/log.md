@@ -2453,3 +2453,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint020：133La纵向wobbling多极混合比双解敏感性与多极倒转反例
 
 审计Biswas 2019 133La带间跃迁数据（BI19-D18-1）：Table 1中报告的B(E2)out/B(E2)in高达0.55–1.13，被作为核内首个纵向wobbling模式的实验证据。代数解构证实该集体E2增强与M1抑制完全受制于大解（|delta| = 2.05–3.07）；在浅极小相容的物理小解（|delta_2| ~ 0.35–0.40）下，B(E2)out/B(E2)in发生6.32至7.40倍断崖式塌缩（跌至0.076–0.152），而B(M1)out/B(E2)in反向暴增4.63至9.11倍（跃升至0.355–0.496 mu_N^2/e^2b^2），完全退化为单粒子M1衰变。65项writeback/24mapped知识页通过verification024/lint023/boundary021。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint021：105Pd单中子横向wobbling混合比敏感性与PRM算符淬灭解构
+
+审计Timár 2019 105Pd带间跃迁数据（TI19-D18-1）：Table I报告的B(E2)out/B(E2)in在DCO小解（0.35–0.59）或早期Rickey 1977角分布解（0.46–0.62）下发生2.96至8.06倍断崖式塌缩（暴跌至0.042–0.223），伴随B(M1)out/B(E2)in反向暴增3.15至7.39倍。更关键的是，作者明确承认裸PRM模型高估B(M1)达3–10倍，通过引入0.36的g_eff人工淬灭因子（将理论M1算符压低7.72倍，即仅剩裸值的12.96%）强行由单一delta(21/2- -> 19/2-)点配平。69项writeback/25mapped知识页通过verification025/lint024/boundary022。原硬截止明日15点保持。

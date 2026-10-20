@@ -27,6 +27,8 @@ updated: 2026-10-20
 
 - [[biswas-2019-longitudinal-wobbling-133la]] — 133La 纵向 wobbling 跨带相对跃迁几率提取对混合比双根的敏感性与多极倒转。
 
+- [[timar-2019-transverse-wobbling-105pd]] — 105Pd 单中子横向 wobbling 跨带跃迁混合比双根敏感性与 PRM 算符 7.7 倍人工淬灭解构。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
