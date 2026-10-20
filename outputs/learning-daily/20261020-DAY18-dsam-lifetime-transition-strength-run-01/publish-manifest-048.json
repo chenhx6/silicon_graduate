@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-20T19:30:46.604785+00:00",
+  "subject": "Audit typed parent-branch roles and correct finite-sample Day18 strength claims",
+  "ordinary_paths": [
+    "knowledge/index.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+    "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+    "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+    "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+    "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+    "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+    "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+    "system/scripts/day18_parent_branch_identity_controls.py",
+    "system/scripts/day18_suzuki08_rh_audit.py",
+    "system/scripts/day18_petrache20_137nd_chiral_strength_audit.py",
+    "system/scripts/day18_kuti14_103rh_mxd_audit.py",
+    "system/scripts/day18_liu16_78br_octupole_chiral_audit.py",
+    "system/scripts/day18_guo20_131ba_pseudospin_chiral_audit.py",
+    "system/scripts/day18_lv21_135nd_tip_crosswalk.py",
+    "system/scripts/day18_guo24_74br_dsam_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-reading-scope-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-contract-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-result-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-048.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-048.md"
+  ],
+  "verification": "verification-048.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-048.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inherited dirty",
+    "isolated daemon",
+    "tmp primary extracts",
+    "old superseded result JSONs"
+  ],
+  "checks": "verification-048 valid; lint0errors; boundary ok; 32/39 parent branch controls; old prefixes/review rows preserved; no formal credit"
+}

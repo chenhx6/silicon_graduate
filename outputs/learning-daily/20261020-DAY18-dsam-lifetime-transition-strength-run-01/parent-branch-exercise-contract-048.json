@@ -1,0 +1,356 @@
+{
+  "kind": "new-primed-conditional-exercise-not-original-producer",
+  "created_at": "2026-10-20T19:14:05.341114+00:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "blind_test": false,
+  "sources": [
+    {
+      "source": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+      "raw_file": "raw/papers/2020_Petrache et al_Multiple chiral bands in $$^{137}$$Nd.pdf",
+      "sha256": "c3117eb0e50a4084d47af21b11060e8ce31bff85f3f382a984565b9a1d03bd16"
+    },
+    {
+      "source": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+      "raw_file": "raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf",
+      "sha256": "f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927"
+    },
+    {
+      "source": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+      "raw_file": "raw/papers/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+      "sha256": "1783b784c3843e15de39406182613757f9c3b928a2791e45a7d650f117ea4333"
+    },
+    {
+      "source": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "raw_file": "raw/papers/2021_Lv et al_Tilted precession bands in Nd 135.pdf",
+      "sha256": "e28bc232617af4d6ee83d95d267b2e7acd24eddb0d03cc1592124d31e9871150"
+    },
+    {
+      "source": "knowledge/sources/guo-2024-chiral-wobbler-74br.md supplementary",
+      "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+      "sha256": "1eb2c1af4ff7d1bf6460c154baabacb80e3ca7e63fa1832ca1d1b3d58b5ea9a0"
+    }
+  ],
+  "input_scope": "P20 PDF4/5 Table1 and Fig1 terminal-band matching, Suzuki PDF3 TableIII, Br PDF4 TableI visual column transcript; central values and limits, no joint covariance",
+  "weak_parent_pairs": [
+    {
+      "band": "D3",
+      "spin": "31/2+",
+      "parent": 4711.7,
+      "dip_E": 601.4,
+      "dip_I": 0.42,
+      "dip_dI": 0.15,
+      "dip_final": "D2 29/2+ Ex4110.3",
+      "dip_role": "out",
+      "e2_E": 1038.2,
+      "e2_I": 0.22,
+      "e2_dI": 0.07,
+      "e2_final": "D2 27/2+ Ex3673.5",
+      "dip_final_band": "D2",
+      "e2_final_band": "D2",
+      "dip_final_Ex_keV": 4110.3,
+      "e2_final_Ex_keV": 3673.5
+    },
+    {
+      "band": "D3",
+      "spin": "33/2+",
+      "parent": 5146.7,
+      "dip_E": 435,
+      "dip_I": 0.4,
+      "dip_dI": 0.1,
+      "dip_final": "D3 31/2+ Ex4711.7",
+      "dip_role": "in",
+      "e2_E": 1036.4,
+      "e2_I": 0.45,
+      "e2_dI": 0.09,
+      "e2_final": "D2 29/2+ Ex4110.3",
+      "dip_final_band": "D3",
+      "e2_final_band": "D2",
+      "dip_final_Ex_keV": 4711.7,
+      "e2_final_Ex_keV": 4110.3
+    },
+    {
+      "band": "D6",
+      "spin": "33/2-",
+      "parent": 5212.4,
+      "dip_E": 699.4,
+      "dip_I": 0.17,
+      "dip_dI": 0.04,
+      "dip_final": "D5 31/2- Ex4513.0",
+      "dip_role": "out",
+      "e2_E": 1053,
+      "e2_I": 0.14,
+      "e2_dI": 0.03,
+      "e2_final": "D5 29/2- Ex4159.4",
+      "dip_final_band": "D5",
+      "e2_final_band": "D5",
+      "dip_final_Ex_keV": 4513.0,
+      "e2_final_Ex_keV": 4159.4
+    },
+    {
+      "band": "D6",
+      "spin": "35/2-",
+      "parent": 5522.4,
+      "dip_E": 310,
+      "dip_I": 0.19,
+      "dip_dI": 0.05,
+      "dip_final": "D6 33/2- Ex5212.4",
+      "dip_role": "in",
+      "e2_E": 1009.4,
+      "e2_I": 0.22,
+      "e2_dI": 0.08,
+      "e2_final": "D5 31/2- Ex4513.0",
+      "dip_final_band": "D6",
+      "e2_final_band": "D5",
+      "dip_final_Ex_keV": 5212.4,
+      "e2_final_Ex_keV": 4513.0
+    },
+    {
+      "band": "D6",
+      "spin": "37/2-",
+      "parent": 5904.6,
+      "dip_E": 382.2,
+      "dip_I": 0.17,
+      "dip_dI": 0.04,
+      "dip_final": "D6 35/2- Ex5522.4",
+      "dip_role": "in",
+      "e2_E": 996.1,
+      "e2_I": 0.38,
+      "e2_dI": 0.07,
+      "e2_final": "D5 33/2- Ex4908.5",
+      "dip_final_band": "D6",
+      "e2_final_band": "D5",
+      "dip_final_Ex_keV": 5522.4,
+      "e2_final_Ex_keV": 4908.5
+    }
+  ],
+  "suzuki": {
+    "103Rh": {
+      "spins": [
+        "25/2+",
+        "27/2+",
+        "29/2+"
+      ],
+      "BM1": [
+        2.3,
+        1.8,
+        1.2
+      ],
+      "BE2": [
+        0.077,
+        0.14,
+        0.11
+      ]
+    },
+    "104Rh": {
+      "spins": [
+        "10-",
+        "11-",
+        "12-",
+        "13-"
+      ],
+      "BM1": [
+        0.95,
+        0.91,
+        0.44,
+        0.42
+      ],
+      "BE2": [
+        0.063,
+        0.093,
+        0.039,
+        0.067
+      ]
+    }
+  },
+  "br_this_letter_tau_matrix": [
+    {
+      "band": 1,
+      "spin": 10,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.32,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 11,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.42,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 12,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.19,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 13,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.21,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 14,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.14,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 15,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.08,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 16,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.06,
+      "upper_limit": true
+    },
+    {
+      "band": 1,
+      "spin": 17,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.23,
+      "upper_limit": true
+    },
+    {
+      "band": 2,
+      "spin": 8,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.62,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 9,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.53,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 10,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.43,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 11,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.25,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 12,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.1,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 13,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.56,
+      "upper_limit": true
+    },
+    {
+      "band": 2,
+      "spin": 14,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.29,
+      "upper_limit": true
+    },
+    {
+      "band": 3,
+      "spin": 7,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.79,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 8,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.21,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 9,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.1,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 10,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.38,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 11,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.6,
+      "upper_limit": true
+    }
+  ],
+  "rate_units": "energies keV converted MeV; conditional BM1/BE2 in muN^2/(e^2 b^2); gamma rates; delta0 unless varied",
+  "not_original_fit_or_CI": true,
+  "tip1_to_D1_known_delta_subset": [
+    {
+      "E_keV": 518.1,
+      "delta": -0.11,
+      "AP_printed": "-.024(.010)"
+    },
+    {
+      "E_keV": 566.8,
+      "delta": -0.48,
+      "AP_printed": "-.019(.006)"
+    },
+    {
+      "E_keV": 618.3,
+      "delta": -0.32,
+      "AP_printed": "-.012(.004)"
+    },
+    {
+      "E_keV": 566.0,
+      "delta": -0.33,
+      "AP_printed": "-.081(.072)"
+    },
+    {
+      "E_keV": 560.7,
+      "delta": -0.16,
+      "AP_printed": null
+    }
+  ],
+  "Br_SI_selected_delta_controls": [
+    {
+      "from_band": 2,
+      "to_band": 1,
+      "E_keV": 527.2,
+      "delta": -0.63
+    },
+    {
+      "from_band": 2,
+      "to_band": 1,
+      "E_keV": 959.5,
+      "delta": -0.7
+    },
+    {
+      "from_band": 3,
+      "to_band": 1,
+      "E_keV": 600.3,
+      "delta": -0.5
+    }
+  ]
+}

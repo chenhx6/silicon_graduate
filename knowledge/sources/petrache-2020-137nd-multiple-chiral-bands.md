@@ -107,12 +107,27 @@ European Physical Journal A 56, 208 (2020)，DOI `10.1140/epja/s10050-020-00218-
 
 该文是“候选手征带证据不对称”的好例子：新伙伴的能级与连接跃迁是直接事实，手征几何主要由与较强带的系统学和 PRM 支撑。
 
-## Day18定量审计：弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动对账
+## Day18原件复核纠正：同母态跨带条件比与对齐解释
 
-在Day18正式学习中对本文Table 1各跃迁强度开展系统性提取与自洽性核验，raw SHA256 `C3117EB0E50A4084D47AF21B11060E8CE31BFF85F3F382A984565B9A1D03BD16`已核。原P20-1–7各claim保持；新P20-D18-1待审。
+2026-10-21 的 checkpoint048 原件 self-audit 核读主raw，SHA-256 `c3117eb0e50a4084d47af21b11060e8ce31bff85f3f382a984565b9a1d03bd16`。前文P20-1–7及原有review记录保持；以下新增条目均待审，不能借用前文人工审核状态，不新增实验或课程学分。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| P20-D18-1 | 本文Table 1中实验跃迁经过定量提取与对账：(1) 对带D2提取了9个态的B(M1)/B(E2)（介于2.5至11.4 (mu_N/eb)^2），对带D5提取了10个态的B(M1)/B(E2)（高自旋介于7.0至32.3 (mu_N/eb)^2）；(2) 成功从Table 1的一级分支强度中抢救出原论文Fig. 6遗漏绘制的弱伙伴带实验值：带D3在31/2+与33/2+处的B(M1)/B(E2)分别为7.376与8.997 (mu_N/eb)^2（与D2对应态比值稳定在2.02与2.10倍），带D6在33/2-、35/2-、37/2-处的B(M1)/B(E2)分别为3.202、21.167与5.475 (mu_N/eb)^2（完全落在D5的3.2-32.3包络内，且表现出显著的0.19->1.85->0.17奇偶交错比）；(3) 准粒子对齐分析证实，两对双重带在整个转动频率区均保持严格恒定的Delta i_x = 2 hbar对齐落差，微观上确立了与135Nd同构的手征振动动力学机制，排除了理想静态手征破缺。 | task-rate-decomposition-audit | derived-and-boundary | Table 1, Table 2, Fig. 6, Fig. 7；新petrache20-137nd-chiral-result-035 | true |
+| P20-D18-1 | **superseded（2026-10-21）**：旧追加段把退激到强伙伴的E2分支当作弱带内部crossover，因而“抢救Fig.6遗漏实验比值”、与强带2倍/包络/交错比较及“严格恒定2ħ确立机制”结论撤回。五个同母态中心可重标为条件out/out或in/out强度比，见P20-D18-5–9；旧result-035/contract-035不再验证原结论。 | superseded-task-audit | corrected-and-boundary | 本段P20-D18-2–12；旧petrache20-137nd-chiral-result-035及contract-035 | true |
+| P20-D18-2 | 原文明确D3/D6因弱而未观测其带内E2 crossover，Fig.6相应面板只绘模型值。Table1虽有同母态的跨带E2，不能因此得到相同物理对象的弱带in-band B(M1)/B(E2)；“缺inE2”是该观测量的readiness边界，不表示其它同母态条件量无意义。 | reported-observable-boundary | direct | PDF p.8正文与Fig.6图注；Table1 PDF pp.4–5 | true |
+| P20-D18-3 | Table1脚注b称Iγ已作效率修正，归一到699.4-keV线，并由total projection和gated spectra组合取得。dipole多标M1/E2；p.8实验比值采用δ=0，依据DCO/Rac与pure M1相容，不是逐线测得δ。条件率比需M1分率1/(1+δ²)、纯E2分母及相同母态。 | intensity-and-mixing-contract | direct-and-boundary | PDF p.5 Table1脚注b/c；p.8 Fig.6前正文 | true |
+| P20-D18-4 | 旧脚本的9个D2、10个D5是选中配对数，不能称完整的同类带内比值清单。D5的25/2−配对675.4/877.3 keV两枝都连接D1；27/2−的138.7为D5带内、814.6连接D1。高spin另有D3/549.1强度<0.1、D6/1050.3强度≤0.05等限制，不能补成中央观测值。 | branch-role-and-limit-audit | direct-and-boundary | PDF p.2 Fig.1；Table1 PDF pp.4–5，D5/3756.4与3895.6、D3/7101.6、D6/6861.4行 | true |
+| P20-D18-5 | D3母态31/2+、Ex=4711.7 keV：601.4线Iγ=0.42(15)→D2的29/2+、Ex=4110.3；1038.2线Iγ=0.22(7)→D2的27/2+、Ex=3673.5。两枝均跨带；δ=0且分母纯E2时，旧d3_raw[0]可重标BM1_out/BE2_out=7.37623 μN²/(e²b²)，不是带内比。 | conditional-same-parent-strength-ratio | derived-and-source-boundary | PDF p.4 Table1 D3 Ei=4711.7；p.2 Fig.1；pp.5/7 decay-out正文 | true |
+| P20-D18-6 | D3母态33/2+、Ex=5146.7：435.0线Iγ=0.4(1)→D3的31/2+、Ex=4711.7；1036.4线Iγ=0.45(9)→D2的29/2+、Ex=4110.3。δ=0且分母纯E2时，旧d3_raw[1]可重标BM1_in/BE2_out=8.99725 μN²/(e²b²)；不能与强带in/in比作伙伴同一观测量比较。 | conditional-same-parent-strength-ratio | derived-and-source-boundary | PDF p.4 Table1 D3 Ei=5146.7；p.2 Fig.1；pp.5/7正文 | true |
+| P20-D18-7 | D6母态33/2−、Ex=5212.4：699.4线Iγ=0.17(4)→D5的31/2−、Ex=4513.0；1053.0线Iγ=0.14(3)→D5的29/2−、Ex=4159.4。两枝均跨带；δ=0且分母纯E2时，旧d6_raw[0]可重标BM1_out/BE2_out=3.20169 μN²/(e²b²)。 | conditional-same-parent-strength-ratio | derived-and-source-boundary | PDF p.5 Table1 D6 Ei=5212.4；p.2 Fig.1；p.7正文 | true |
+| P20-D18-8 | D6母态35/2−、Ex=5522.4：310.0线Iγ=0.19(5)→D6的33/2−、Ex=5212.4；1009.4线Iγ=0.22(8)→D5的31/2−、Ex=4513.0。δ=0且分母纯E2时，旧d6_raw[1]可重标BM1_in/BE2_out=21.16681 μN²/(e²b²)，不新增弱带内部E2观测。 | conditional-same-parent-strength-ratio | derived-and-source-boundary | PDF p.5 Table1 D6 Ei=5522.4；p.2 Fig.1；p.7正文 | true |
+| P20-D18-9 | D6母态37/2−、Ex=5904.6：382.2线Iγ=0.17(4)→D6的35/2−、Ex=5522.4；996.1线Iγ=0.38(7)→D5的33/2−、Ex=4908.5。δ=0且分母纯E2时，旧d6_raw[2]可重标BM1_in/BE2_out=5.47521 μN²/(e²b²)。本段五比均为打印中心条件计算，不给新实验CI或宣称交错显著性。 | conditional-same-parent-strength-ratio | derived-and-source-boundary | PDF p.5 Table1 D6 Ei=5904.6；p.2 Fig.1；p.7正文 | true |
+| P20-D18-10 | 原文从Fig.7讨论伙伴约2ħ的对齐差，同时列出不同Nilsson轨道占据和/或准粒子诱导惯量差的可能来源，并通过135Nd类比支持手征振动解释。本次未作曲线数字化或恒差拟合；“整个频率严格恒定”“唯一确立振动”“排除静态手征”超出这些证据。 | alignment-observation-and-author-interpretation | direct-and-boundary | PDF pp.8–9正文；p.9 Fig.7及其Harris参考说明 | true |
+| P20-D18-11 | Table2须区分CDFT形变与PRM输入：D2/D3分别为(.20,28.9°)/(.20,20.9°)，D5/D6分别为(.21,29.5°)/(.21,23.5°)。PRM角动量分量支持作者几何解释，不是独立测得的三轴几何。 | model-input-and-result-boundary | direct | PDF p.8 Table2；p.9 Fig.8与正文 | true |
+| P20-D18-12 | 本次读取十页完整正文主线、两表及全部图注；视觉核PDF2 Fig.1、PDF3–5 Table1、PDF9 Figs.7–8。未数字化Fig.6/7或获得原谱/效率协方差。旧脚本不读取declared raw，固定status=passed；本次只核源与独立中心算术，不重跑旧输出。 | current-source-scope-and-producer-boundary | direct-and-boundary | 主raw PDF pp.1–10；旧035脚本输入/输出主体 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache20-137nd-chiral-contract-035.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache20-137nd-chiral-result-035.json)4项检查全过。
+五个条件比使用 k=1.225187e13/1.758366e13 及 R=k(E_E2/MeV)^5/(E_dip/MeV)^3×I_dip/I_E2，在δ=0下计算；它们分别标明in/out，不能替代Fig.6的in/in实验值。旧[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache20-137nd-chiral-contract-035.json)与[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache20-137nd-chiral-result-035.json)在原结论用途上标为 **superseded**，保留历史文件，不覆盖或称为新验证。
+
+### Day18新的同母态物理量重标练习
+
+[新合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-contract-048.json)与[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-result-048.json)保五个同母态真实能量/强度及终态带。原数字可保为两项out/out和三项in/out的δ0条件量，不能拿作Fig6 in/in。给定δ1/δ2时M1分量只为δ0量的1/2或1/5；共同寿命抵消仍成立，但不认证实际δ或生成CI。程序检查能量闭合和角色，不把这些新条件量当独立实验。

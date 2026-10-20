@@ -4,7 +4,9 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
-checkpoint047：本批原件证据纠错与新上限/模型条件练习已写回，需完成整合检查/H3发布；随后继续Day18，原15:00截止及未授分保持。
+checkpoint048：分支/表列/样本与跨核解释边界已原件修订，待本批必要检查与H3发布；047已完成并发布，精确结果只receipt。原15:00截止保持，学习继续，不授18/19。
+
+checkpoint047已完成必要检查/H3与非force发布，见publication-047；当前继续048。
 
 checkpoint046：MU08错表值/跨论文parity与D4/D3低spin身份已修，旧032强结论撤回；45已发布，仍持续Day18至原15:00，不预授分。
 
@@ -80,6 +82,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint048已实际提交，稳定指针main / `Audit typed parent-branch roles and correct finite-sample Day18 strength claims`；精确hash/H3/远端结果只publication-048回执。
+
 
 checkpoint047已实际提交，稳定指针main / `Correct primary-source boundaries in Day18 lifetime and strength audits`；精确hash/H3/远端结果只publication-047回执。
 

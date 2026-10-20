@@ -148,12 +148,23 @@ P0: none identified.
 - Protected BibTeX record: `guo_2020_Evidencepseudospinchiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2020_Guo et al_Evidence for pseudospin-chiral quartet bands in the presence of octupole.pdf`.
 
-## Day18定量审计：四重带电磁寿命缺失、机制争论与流形波函数解耦界限
+## Day18 更正审计：相对电磁信息、131Ba 组态排除范围与 Qt 判据边界
 
-在Day18正式学习中对本文建立的131Ba正宇称四重带（D3-D6）与负宇称双重带（D7-D8）电磁比值及RAT-PRM模型计算开展定量核验，raw SHA256 `109019D2EF7338BA705462374E6CF30C0CF9D61175510DD92D63021271E8F29D`已核。原GU20-1–18各claim保持；新GU20-D18-1待审。
+批次048完整重读本文6页及全部图/caption，渲染核对Fig.1–5的连接、多极性、混合比说明与相对E1模式。raw SHA256 `109019D2EF7338BA705462374E6CF30C0CF9D61175510DD92D63021271E8F29D`匹配。原GU20-1–17、AR行、frontmatter及review标记均逐字节保持；以下仅更正Day18追加段。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GU20-D18-1 | 本文报道的131Ba四重正宇称带与八极关联定量核验揭示：(1) 全核六条候选带（D3–D8）全无任何在束能级寿命测量（DSAM或RDDS均缺），所报告的B(M1)/B(E2)比值严重依赖对弱跃迁混合比的假定，且向四重带去布居的E1强度仅为几何均值归一化比值，完全缺乏绝对跃迁矩阵元定标；(2) 理论机制上，本文明确反驳并排除了Kuti 2014用于103Rh的同组态MchiD模型，转而引入pi(g7/2, d5/2)赝自旋混合假说，暴露出四带流形在缺乏绝对跃迁强度时存在截然对立的理论解释争议；(3) 确立方法学底线：对于包含四条同宇称带的多带流形，在缺乏在束寿命测定绝对B(E2)与B(M1)的条件下，仅凭能级能量相近与分支比拟合，根本无法唯一性地判决其属于同组态MchiD、赝自旋四重态还是三轴形状振动态。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3–5, Fig. 4, Fig. 5；新guo20-131ba-pseudospin-result-041 | true |
+| GU20-D18-1 | **superseded / 更正**：撤回此前将本篇寿命缺失写成全领域穷尽、将少数弱线混合比假定扩展至全部数据、将131Ba的模型配置排除解释为反驳103Rh，以及将无寿命视为普适机制不可识别定理的复合断言。 | evidence-correction | superseded | 本节GU20-D18-2–12；旧Day18复合claim | true |
+| GU20-D18-2 | 本文未报告D3–D8的寿命或绝对B值，结论提出后续测寿命以提取绝对约化跃迁概率。此处限本文报告范围，不代表后来文献无结果；D3–D8也不是全核所有能带，Fig.1另列D1/D2。 | evidence-boundary | source-scope | PDF pp.3,5, Fig.1及Summary；全文 | true |
+| GU20-D18-3 | Fig.4比值所需的多数带内ΔI=1混合比由角分布测得；少数弱线才假定δ=−0.2(1)。没有逐态敏感性与误差传播，不能将所有比值概括为“严重依赖假定”；同初态分支比的寿命归一化可相消。 | method-boundary | direct | PDF pp.2,4, angular-distribution方法；Fig.4 caption | true |
+| GU20-D18-4 | Fig.5给出D7的25/2−与27/2−初态分别向D3–D6衰变的相对B(E1)，每组除以自己的几何均值。该归一化保留组内相对模式，不提供绝对B(E1)，也不是用几何均值代替全部分支信息。 | derived-observable | direct | PDF p.5, Fig.5及caption | true |
+| GU20-D18-5 | 作者仅因131Ba计算出的准粒子组态不同，排除将“两对同组态手征双带”用于本核的该种解释；103Rh是该机制的先例引用，不是本文被推翻的研究对象。这是配置计算范围内的结论，不是直接组态测量。 | model-boundary | direct | PDF p.5, §3.2的same-configuration alternative段；Ref.21 | true |
+| GU20-D18-6 | RAT-PRM对D3/D4给出占优的g7/2组态成分，对D5/D6给出较多d5/2混合；文中还据E1模式支持四条带均含d5/2成分，不能强制分为两组纯轨道态。 | model-result | direct | PDF p.5, §3.2及Fig.5讨论 | true |
+| GU20-D18-7 | 本文没有推导“同组态手征伙伴严格等Qt”或“赝自旋伙伴必不同Qt”。共同Q0模型输入、具体E2矩阵元与含转动几何的Qt应区分；定向核查Kuti2014所用经验Q0也只是模型输入，且其同组态两对带的角动量耦合不同。 | symmetry-boundary | source-and-targeted-companion | 本文PDF p.5；Kuti2014 PDF pp.3–4，非Qt测量定理 | true |
+| GU20-D18-8 | β2=0.22、γ=27.1°是参考组态的TAC-CDFT/PC-PK1结果；β3=0.05是“tentatively adopted”的RAT-PRM输入，不是实验八极形变。 | model-assumption | direct | PDF p.5, §3.2 | true |
+| GU20-D18-9 | 旧脚本用线性轴对称Q0与K=0高自旋B(E2)公式计算约3.464 eb和0.4475 e²b²，γ与β3未参与，并另乘自选1–3比值区间得到B(M1)。这些是额外toy假设下的算术，不是完整RAT-PRM结果、实测绝对强度或六条带统一范围。 | calculation-boundary | task-self-audit | 旧day18_guo20_131ba_pseudospin_chiral_audit.py的公式；本文Fig.4 | true |
+| GU20-D18-10 | 本文将azimuthal plots、角动量分量和完整RAT-PRM几何分析留至Ref.41；不能将该后续承诺写作本篇已完成的独立几何验证。 | source-completeness-boundary | direct | PDF p.5, §3.2；p.6, Ref.41 | true |
+| GU20-D18-11 | 模型显著低估向D5的相对E1跃迁；作者将此与混合幅度及D4/D5/D6邻近/交叉有关的敏感性联系。相对分支已能暴露该模型偏差，缺少绝对寿命不使其检验力消失。 | model-discrepancy | direct | PDF p.5, Fig.5及右栏首段 | true |
+| GU20-D18-12 | 作者称D3–D6难以仅按能量和连接容易地分为两对；这不构成“无寿命必不可能区分任一四带机制”的定理，也不意味着取得寿命便能唯一分类。绝对矩阵元应结合具体配置、波函数混合、几何与竞争模型检验。 | synthesis-boundary | source-and-inference | PDF pp.4–5, §3.1–3.2与Summary | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo20-131ba-pseudospin-contract-041.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo20-131ba-pseudospin-result-041.json)4项检查全过。
+必要companion [[kuti-2014-multiple-chiral-doublets-103rh]]仅在模型Q0输入与同组态不同耦合的pp.3–4定向重核，不宣称新完整原读或独立绝对率测量。旧分析合同与结果仅作历史运行记录，固定`passed`不验证物理适用性。本节不授课程学分，不升级review状态。

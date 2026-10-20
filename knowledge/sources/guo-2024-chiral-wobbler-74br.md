@@ -169,10 +169,27 @@ For paper use, recheck any quoted Table-I number against the stated gate, uncert
 
 ## Day18定量审计：三带DSAM寿命测定与手征-wobbling电磁多极分立基准
 
+**checkpoint048更正：旧GU24-D18-1的寿命列错位、绝对二分律及跨核判决部分已superseded。** 下列旧行原文保留作审计历史；7+的1.79 ps归Band 3而非Band 2，且补表不支持B2→B1所有线E2<10%或B3→B1所有线严格E2主导。校正输入与源内解释范围由GU24-D18-2–9承接，原GU24-1–7及review/flags不变。
+
 在Day18正式学习中对本文Table I中74Br三条带（Band 1-3）在束DSAM寿命测量及其导出的绝对B(E2)与B(M1)多极性质进行定量审计，raw SHA256 `1783B784C3843E15DE39406182613757F9C3B928A2791E45A7D650F117EA4333`已核。原GU24-1–7各claim及`human-reviewed`状态完全保留；新GU24-D18-1待审。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | GU24-D18-1 | 本文Table I通过AFRODITE反冲完全阻停DSAM测量，直接给出了74Br三条同组态pi(g9/2) x nu(g9/2)带的绝对能级寿命：Band 1为1.32至0.08 ps，Band 2为1.79至0.10 ps，Band 3为1.21至0.38 ps。定量对比确立了核物理中手征与wobbling共存时的电磁多极二分律黄金基准：(1) 手征伙伴带（Band 2向Band 1）的跨带连接线严格由M1主导（E2份额<10%），且带内与跨带B(M1)呈现清晰的反相奇偶交错；(2) wobbling声子带（Band 3向Band 1）的跨带连接线则严格由四极E2主导，其E2份额随自旋递增并达到约90%，且B(M1)呈现与Band 1反相的交错。这在同一原子核内直接以绝对寿命与跃迁几率证实：手征性以M1为主导，wobbling以E2为主导，二者多极性完全对立。此实验判据直接证明其他所谓‘偶偶核wobbling’（如130Ba中74% M1主导衰变）实质上属于手征/特征伙伴带物理范畴。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2-4 Table I, Figs. 4-6；新guo24-74br-dsam-result-031 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo24-74br-dsam-contract-031.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo24-74br-dsam-result-031.json)4项检查全过。
+旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo24-74br-dsam-contract-031.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo24-74br-dsam-result-031.json)保留用于追踪历史输入；脚本将Band 3的7+寿命误放Band 2，且参考卷页误写为PRL 133,082501（实际132,092501）。其中固定`checks_passed: true`不是DSAM拟合、强度复算或相位检验，本次未运行会覆盖旧输出的脚本。
+
+## Day18 checkpoint048更正：74Br寿命列、逐线多极性与同数据解释边界
+
+本次回读7页主文与3页SI全文，视觉核对主文p.4 Table I、p.5 Fig.6及SI pp.1–3；主文SHA256 `1783B784C3843E15DE39406182613757F9C3B928A2791E45A7D650F117EA4333`、SI SHA256 `1eb2c1af4ff7d1bf6460c154baabacb80e3ca7e63fa1832ca1d1b3d58b5ea9a0`一致。未取得实际DSAM/ADO/P producer、完整Cov或PRM作业，未拟合新的相位显著性/模式CI。新增行是Codex定向self-audit，保留`needs_review: true`，不改变原human-review范围。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU24-D18-2 | 主文Table I本工作有限寿命（ps）按列为：B1的10+–15+依次1.32(13)、0.42(4)、0.19(3)、0.21(2)、0.14(3)、0.08(1)；B2的8+–12+依次0.62(6)、0.53(11)、0.43(4)、0.25(3)、0.10(+0.06/−0.03)；B3的7+–10+依次1.79(+0.14/−0.13)、1.21(18)、1.10(+0.24/−0.18)、0.38(+0.10/−0.09)。7+的1.79 ps明确位于Band 3列。 | observed-fact | direct | 主文PDF p.4 Table I视觉列核对 | true |
+| GU24-D18-3 | 同表另给B1的16+、17+寿命<0.06、<0.23 ps，B2的13+、14+为<0.56、<0.29 ps，B3的11+为<0.60 ps；打印表未说明这些限的CL。B1低自旋6+–9+列为既有寿命，SI以星号标出使用旧寿命的强度；不能把全部强度当作此次新测。DSAM依赖下方门、阻停输入、五态侧馈/顶馈级联及背景/污染线拟合，完全阻停靶不使寿命成为无响应依赖的读数。 | experimental-method-and-boundary | direct-and-boundary | 主文PDF p.2 DSAM方法；p.4 Table I；SI p.1 Table I caption | true |
+| GU24-D18-4 | SI中B2→B1的已测ΔI=1线为527.2（8+→7+）、661.2（9+→8+）、959.5（10+→9+）、1239.5 keV（12+→11+），δ依次−0.63(+0.08/−0.10)、+0.22(+0.09/−0.08)、−0.7(+0.1/−0.2)、−0.08(+0.05/−0.06)。中央f(E2)=δ²/(1+δ²)约28.4%、4.62%、32.9%、0.636%，支持这些线M1占优，但直接否定“全部E2<10%”；956.9线未列δ，799.6/818.0是ΔI=2 E2线，须分别对待。 | observed-and-conditional-fraction | direct-and-derived | SI p.2 Table I，Band 2→Band 1部分 | true |
+| GU24-D18-5 | SI中B3→B1向低自旋的ΔI=1线600.3（6+→5+）、815.3（8+→7+）、1155.6（9+→8+）、1266.8 keV（10+→9+）δ为−0.5(1)、−1.1(+0.3/−0.4)、3.1(+1.8/−0.9)、8(+3/−2)，中央E2份额约20.0%、54.8%、90.6%、98.5%。这支持随自旋升高的趋势，不能称所有B3连接线严格E2主导；773.2 keV仅有强度上限，另有ΔI=0及向较高终态自旋的连接线。 | observed-and-conditional-fraction | direct-and-derived | SI p.2 Table I；主文p.3讨论与p.5 Fig.6(f) | true |
+| GU24-D18-6 | SI给出逐线绝对强度，例如B2→B1的527.2 keV为B(M1)=0.24(3) mu_N²、B(E2)=0.5(1) e²b²，B3→B1的1155.6 keV为约0.0003(+0.0002/−0.0003) mu_N²与0.0032(+0.0010/−0.0009) e²b²。辐射多极份额不是绝对集体强度；这些B值由寿命、分支/相对强度与δ等组合导出，SI强度以383 keV=100归一，并非直接的绝对分支概率。 | derived-strength-input-contract | direct-and-boundary | SI pp.1–2 Table I及caption；主文pp.2–4测量链 | true |
+| GU24-D18-7 | 作者以B1/B2带内及带间B(M1)的反相奇偶交错、B3带内与B1不同的交错相位作为组合指纹的一部分；本文/旧脚本未提供含完整Cov的相位拟合或统计显著性。同母态带内/带外强度共享寿命与分支归一，ADO/P、相对强度、寿命及派生B均来自同一AFRODITE采集，SI也不是独立实验，不能将这些派生量计成相互独立的重复验证。 | author-interpretation-and-lineage | direct-and-boundary | 主文p.3交错讨论；p.5 Fig.6(d)–(f)；SI Table I | true |
+| GU24-D18-8 | 作者结合多个谱学/电磁指纹与采用给定形变、拟合惯量的PRM角动量几何，提出B1/B2手征伙伴和B3一声子wobbling的同核共存解释。这没有建立“所有手征衰变必M1、所有wobbling衰变必E2”的普适二分律，也不能由74Br数据直接改判130Ba或其它核为手征/特征伙伴/TiP。 | author-interpretation-and-scope | direct-and-boundary | 主文pp.3–5，Figs.5–7及Summary | true |
+| GU24-D18-9 | SI门谱在可能B2→B1的ΔI=2连接能量1307、1443、1648 keV处给出相对Iγ<0.25、<0.6、<1.0，对应B(E2)<0.00025、<0.0011、<0.0047 e²b²；门为483、429、1244 keV。它们是在给定灵敏度/门条件下的打印上限，不是严格零；SI未给CL或可恢复的完整限构造producer，不能补写1σ排除或通用选择定则。 | observed-limit-and-boundary | direct-and-boundary | SI p.3 Fig.1及caption | true |

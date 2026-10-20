@@ -1,0 +1,14 @@
+{
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "primed": true,
+  "blind_test": false,
+  "workers": {
+    "P20_Kuti": "P20ten/Kutifive pages full text mainline; selected figure/tables; Suzuki TableIII targeted original",
+    "Liu_GuoBa": "both6pages full mainline/figs; ButlerKutiGuo74 targeted companions, not full rereads",
+    "TiP_Br": "original mainline + Br SI full text, key Tables visually checked; exact detailed scope in source claims"
+  },
+  "parent": "visual P20 PDF4/5 TableI, Suzuki PDF3 TableIII, Br PDF4 TableI + SI1/2, Nd PDF7 TableII, LiuFig5; targeted text not all sources freshly full-read",
+  "raw_untouched": true,
+  "review_prefixes_preserved": true,
+  "no_new_experimental_CI": true
+}

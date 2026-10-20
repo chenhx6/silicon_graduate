@@ -51,9 +51,9 @@ updated: 2026-10-20
 
 - [[chen-2019-transverse-wobbling-even-even]] — 130Ba 偶偶核两准粒子横向 wobbling 声称中 74% M1 主导矛盾与 PRM 高估审计。
 
-- [[lv-2021-tilted-precession-135nd]] — 135Nd 倾斜进动（TiP）电磁跃迁基准与 A≈130 区域低自旋 wobbling 假象全局归并。
+- [[lv-2021-tilted-precession-135nd]] — TiP逐线样本与跨核外推边界；见最新Day18源页修订。
 
-- [[guo-2024-chiral-wobbler-74br]] — 74Br 手征与 wobbling 共存 DSAM 寿命测定、M1/E2 多极二分律与终极基准。
+- [[guo-2024-chiral-wobbler-74br]] — 74Br列身份、有限寿命与多极性例外；见最新Day18源页修订。
 
 - [[petrache-2018-chiral-bands-even-even-136nd]] — 136Nd 跨论文带身份纠错：MU08低spin负宇称Band1/2对应D4/D3，不能映射正宇称D1/D2或假表值。
 
@@ -63,13 +63,13 @@ updated: 2026-10-20
 
 - [[grodner-2006-128cs-chiral-doublet-lifetimes]] — 128Cs与132La完全阻停DSAM寿命测量、131La侧馈参数跨核迁移敏感性与132La 20倍B(E2)塌缩解构。
 
-- [[petrache-2020-137nd-multiple-chiral-bands]] — 137Nd Table 1弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动同位素链闭环对账。
+- [[petrache-2020-137nd-multiple-chiral-bands]] — 同母态比值仍须保留带内与跨带身份；见最新Day18源页修订。
 
 - [[musangu-2021-chiral-vibrations-104mo-106mo]] — 打印强度上限、共享归一与统计定义；原文/模型/条件推导分层，见最新Day18修订。
 
-- [[kuti-2014-multiple-chiral-doublets-103rh]] — 103Rh 同组态MχD负宇称带寿命缺失、分母B(E2)驱动交错反证与PRM近似局限审计。
+- [[kuti-2014-multiple-chiral-doublets-103rh]] — 不同宇称的寿命基准不能互换；见最新Day18源页修订。
 
-- [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] — 78Br 8条E1跨带线B(E1)/B(E2)推导、内禀D0=0.71 e*fm定标与多极三元分类律。
+- [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] — 跨核多极性与D0提取的几何输入；见最新Day18源页修订。
 
 - [[pai-2012-high-spin-bands-194tl]] — 原实验与后来DSAM综述的来源归属；原文/模型/条件推导分层，见最新Day18修订。
 
@@ -79,7 +79,7 @@ updated: 2026-10-20
 
 - [[hecht-2003-chirality-shape-coexistence-140eu]] — 140Eu 原文寿命判别与转轴条件反例；beta平方比不能直接当实际B(E2)比。
 
-- [[guo-2020-pseudospin-chiral-quartet-131ba]] — 131Ba 四重带电磁寿命缺失、同组态与赝自旋MχD理论机制对立反思审计。
+- [[guo-2020-pseudospin-chiral-quartet-131ba]] — 多带组态比较与相对强度的实际约束；见最新Day18源页修订。
 
 - [[wang-2013-high-spin-104ag]] — 邻核类比不能替代本核的原始能级；原文/模型/条件推导分层，见最新Day18修订。
 

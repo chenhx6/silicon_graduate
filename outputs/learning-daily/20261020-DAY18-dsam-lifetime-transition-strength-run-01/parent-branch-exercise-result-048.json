@@ -1,0 +1,473 @@
+{
+  "kind": "same-parent-role-and-central-diagnostic-not-experimental-fit",
+  "contract_sha256": "39f214b37784f7d2cf09cbf9a0c0da20915a396039ff84ebfabdfbf992dd1304",
+  "primed": true,
+  "blind_test": false,
+  "weak_pairs": [
+    {
+      "parent_band": "D3",
+      "spin": "31/2+",
+      "quantity": "B(M1)_out/B(E2)_out",
+      "conditional_delta0_ratio": 7.376231924971592,
+      "conditional_delta1_ratio": 3.688115962485796,
+      "conditional_delta2_ratio": 1.4752463849943185,
+      "ratio_unit": "muN2/(e2 b2)",
+      "can_replace_Fig6_in_over_in": false,
+      "actual_delta_or_CI": null
+    },
+    {
+      "parent_band": "D3",
+      "spin": "33/2+",
+      "quantity": "B(M1)_in/B(E2)_out",
+      "conditional_delta0_ratio": 8.997250883090326,
+      "conditional_delta1_ratio": 4.498625441545163,
+      "conditional_delta2_ratio": 1.799450176618065,
+      "ratio_unit": "muN2/(e2 b2)",
+      "can_replace_Fig6_in_over_in": false,
+      "actual_delta_or_CI": null
+    },
+    {
+      "parent_band": "D6",
+      "spin": "33/2-",
+      "quantity": "B(M1)_out/B(E2)_out",
+      "conditional_delta0_ratio": 3.201687645315079,
+      "conditional_delta1_ratio": 1.6008438226575394,
+      "conditional_delta2_ratio": 0.6403375290630158,
+      "ratio_unit": "muN2/(e2 b2)",
+      "can_replace_Fig6_in_over_in": false,
+      "actual_delta_or_CI": null
+    },
+    {
+      "parent_band": "D6",
+      "spin": "35/2-",
+      "quantity": "B(M1)_in/B(E2)_out",
+      "conditional_delta0_ratio": 21.166811540161817,
+      "conditional_delta1_ratio": 10.583405770080908,
+      "conditional_delta2_ratio": 4.233362308032364,
+      "ratio_unit": "muN2/(e2 b2)",
+      "can_replace_Fig6_in_over_in": false,
+      "actual_delta_or_CI": null
+    },
+    {
+      "parent_band": "D6",
+      "spin": "37/2-",
+      "quantity": "B(M1)_in/B(E2)_out",
+      "conditional_delta0_ratio": 5.475213762885308,
+      "conditional_delta1_ratio": 2.737606881442654,
+      "conditional_delta2_ratio": 1.0950427525770616,
+      "ratio_unit": "muN2/(e2 b2)",
+      "can_replace_Fig6_in_over_in": false,
+      "actual_delta_or_CI": null
+    }
+  ],
+  "suzuki_central_curvature": {
+    "103Rh": {
+      "spins": [
+        "25/2+",
+        "27/2+",
+        "29/2+"
+      ],
+      "central_BM1_over_BE2": [
+        29.87012987012987,
+        12.857142857142856,
+        10.909090909090908
+      ],
+      "log_curvature_BM1": [
+        -0.16034265007517964
+      ],
+      "log_curvature_BE2": [
+        -0.8389990575725084
+      ],
+      "log_curvature_ratio": [
+        0.6786564074973298
+      ],
+      "scope": "self-chosen second-log-difference diagnostic, not unique decomposition of physical staggering or a significance test"
+    },
+    "104Rh": {
+      "spins": [
+        "10-",
+        "11-",
+        "12-",
+        "13-"
+      ],
+      "central_BM1_over_BE2": [
+        15.079365079365079,
+        9.78494623655914,
+        11.282051282051283,
+        6.26865671641791
+      ],
+      "log_curvature_BM1": [
+        -0.6836524875148982,
+        0.680149856963696
+      ],
+      "log_curvature_BE2": [
+        -1.2585026137853328,
+        1.4101688202849294
+      ],
+      "log_curvature_ratio": [
+        0.5748501262704346,
+        -0.7300189633212335
+      ],
+      "scope": "self-chosen second-log-difference diagnostic, not unique decomposition of physical staggering or a significance test"
+    }
+  },
+  "Br_this_letter_tau_matrix": [
+    {
+      "band": 1,
+      "spin": 10,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.32,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 11,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.42,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 12,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.19,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 13,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.21,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 14,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.14,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 15,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.08,
+      "upper_limit": false
+    },
+    {
+      "band": 1,
+      "spin": 16,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.06,
+      "upper_limit": true
+    },
+    {
+      "band": 1,
+      "spin": 17,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.23,
+      "upper_limit": true
+    },
+    {
+      "band": 2,
+      "spin": 8,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.62,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 9,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.53,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 10,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.43,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 11,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.25,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 12,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.1,
+      "upper_limit": false
+    },
+    {
+      "band": 2,
+      "spin": 13,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.56,
+      "upper_limit": true
+    },
+    {
+      "band": 2,
+      "spin": 14,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.29,
+      "upper_limit": true
+    },
+    {
+      "band": 3,
+      "spin": 7,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.79,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 8,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.21,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 9,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 1.1,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 10,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.38,
+      "upper_limit": false
+    },
+    {
+      "band": 3,
+      "spin": 11,
+      "parity": "+",
+      "tau_ps_or_upper_cap": 0.6,
+      "upper_limit": true
+    }
+  ],
+  "TiP_selected_subset": [
+    {
+      "E_keV": 518.1,
+      "delta": -0.11,
+      "AP_printed": "-.024(.010)",
+      "conditional_E2_fraction": 0.011955340381385238
+    },
+    {
+      "E_keV": 566.8,
+      "delta": -0.48,
+      "AP_printed": "-.019(.006)",
+      "conditional_E2_fraction": 0.18725617685305593
+    },
+    {
+      "E_keV": 618.3,
+      "delta": -0.32,
+      "AP_printed": "-.012(.004)",
+      "conditional_E2_fraction": 0.09288824383164006
+    },
+    {
+      "E_keV": 566.0,
+      "delta": -0.33,
+      "AP_printed": "-.081(.072)",
+      "conditional_E2_fraction": 0.09820542880331862
+    },
+    {
+      "E_keV": 560.7,
+      "delta": -0.16,
+      "AP_printed": null,
+      "conditional_E2_fraction": 0.0249609984399376
+    }
+  ],
+  "TiP_selected_unweighted_E2_fraction_mean": 0.08305323766186748,
+  "TiP_subset_scope": "only five listed TiP1-to-D1 links with delta; not all links or complete polarization coverage",
+  "Br_SI_selected_fraction_controls": [
+    {
+      "from_band": 2,
+      "to_band": 1,
+      "E_keV": 527.2,
+      "delta": -0.63,
+      "conditional_E2_fraction": 0.2841291431025843
+    },
+    {
+      "from_band": 2,
+      "to_band": 1,
+      "E_keV": 959.5,
+      "delta": -0.7,
+      "conditional_E2_fraction": 0.32885906040268453
+    },
+    {
+      "from_band": 3,
+      "to_band": 1,
+      "E_keV": 600.3,
+      "delta": -0.5,
+      "conditional_E2_fraction": 0.2
+    }
+  ],
+  "checks": [
+    {
+      "name": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md raw hash",
+      "passed": true
+    },
+    {
+      "name": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md raw hash",
+      "passed": true
+    },
+    {
+      "name": "knowledge/sources/guo-2024-chiral-wobbler-74br.md raw hash",
+      "passed": true
+    },
+    {
+      "name": "knowledge/sources/lv-2021-tilted-precession-135nd.md raw hash",
+      "passed": true
+    },
+    {
+      "name": "knowledge/sources/guo-2024-chiral-wobbler-74br.md supplementary raw hash",
+      "passed": true
+    },
+    {
+      "name": "D3 31/2+ dipole energy closure",
+      "passed": true
+    },
+    {
+      "name": "D3 31/2+ E2 energy closure",
+      "passed": true
+    },
+    {
+      "name": "D3 31/2+ actual denominator is out of band",
+      "passed": true
+    },
+    {
+      "name": "D3 31/2+ same-parent clock cancels",
+      "passed": true
+    },
+    {
+      "name": "D3 33/2+ dipole energy closure",
+      "passed": true
+    },
+    {
+      "name": "D3 33/2+ E2 energy closure",
+      "passed": true
+    },
+    {
+      "name": "D3 33/2+ actual denominator is out of band",
+      "passed": true
+    },
+    {
+      "name": "D3 33/2+ same-parent clock cancels",
+      "passed": true
+    },
+    {
+      "name": "D6 33/2- dipole energy closure",
+      "passed": true
+    },
+    {
+      "name": "D6 33/2- E2 energy closure",
+      "passed": true
+    },
+    {
+      "name": "D6 33/2- actual denominator is out of band",
+      "passed": true
+    },
+    {
+      "name": "D6 33/2- same-parent clock cancels",
+      "passed": true
+    },
+    {
+      "name": "D6 35/2- dipole energy closure",
+      "passed": true
+    },
+    {
+      "name": "D6 35/2- E2 energy closure",
+      "passed": true
+    },
+    {
+      "name": "D6 35/2- actual denominator is out of band",
+      "passed": true
+    },
+    {
+      "name": "D6 35/2- same-parent clock cancels",
+      "passed": true
+    },
+    {
+      "name": "D6 37/2- dipole energy closure",
+      "passed": true
+    },
+    {
+      "name": "D6 37/2- E2 energy closure",
+      "passed": true
+    },
+    {
+      "name": "D6 37/2- actual denominator is out of band",
+      "passed": true
+    },
+    {
+      "name": "D6 37/2- same-parent clock cancels",
+      "passed": true
+    },
+    {
+      "name": "two out/out and three in/out roles",
+      "passed": true
+    },
+    {
+      "name": "103Rh exact log-ratio curvature identity",
+      "passed": true
+    },
+    {
+      "name": "103Rh monotonic M1 does not imply zero curvature",
+      "passed": true
+    },
+    {
+      "name": "104Rh exact log-ratio curvature identity",
+      "passed": true
+    },
+    {
+      "name": "104Rh monotonic M1 does not imply zero curvature",
+      "passed": true
+    },
+    {
+      "name": "Br twenty printed this-Letter slots",
+      "passed": true
+    },
+    {
+      "name": "Br fifteen finite and five limits",
+      "passed": true
+    },
+    {
+      "name": "Br1.79 assigned Band3 I7",
+      "passed": true
+    },
+    {
+      "name": "Br no numerical central value substituted for limit",
+      "passed": true
+    },
+    {
+      "name": "selected TiP subset has five distinct identities",
+      "passed": true
+    },
+    {
+      "name": "selected TiP subset does not include inband410 or TiP2 518.3",
+      "passed": true
+    },
+    {
+      "name": "TiP missing AP is preserved",
+      "passed": true
+    },
+    {
+      "name": "Br Band2 printed central exceptions to universal10percent",
+      "passed": true
+    },
+    {
+      "name": "Br Band3 lowspin20percent example",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_experiment_or_CI": false
+}

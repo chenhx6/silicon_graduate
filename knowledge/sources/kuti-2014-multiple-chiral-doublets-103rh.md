@@ -154,12 +154,22 @@ P0: none identified.
 - Protected BibTeX record: `kuti_2014_MultipleChiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2014_Kuti et al_Multiple Chiral Doublet Bands of Identical Configuration in Rh 103.pdf`.
 
-## Day18定量审计：负宇称带寿命缺失、分母驱动交错与PRM近似局限对账
+## Day18原件复核纠正：负宇称候选与正宇称寿命基准分域
 
-在Day18正式学习中对本文四条负宇称带电磁比值与PRM模型计算开展定量核验，raw SHA256 `EF327AD2D7B55A71B72C356BB2789F107B1E1D464DAA59C181BEC44ABF88A0B2`已核。原KU14-1–16各claim保持；新KU14-D18-1待审。
+2026-10-21 的 checkpoint048 原件 self-audit 核读主raw，SHA-256 `ef327ad2d7b55a71b72c356bb2789f107b1e1d464daa59c181bec44abf88a0b2`；并定向核[[suzuki-2008-lifetimes-103rh-104rh]]原PDF3–4（SHA-256 `f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927`）。前文KU14-1–16与原review记录保持，不新增实验或课程学分。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| KU14-D18-1 | 本文报道的103Rh同组态多重手征双重带（Bands 3–6）定量核验揭示：(1) 四条负宇称能带全无在束能级寿命测量（DSAM或RDDS均缺），所绘制的B(M1)/B(E2)比值未能与绝对强度解耦；(2) 与同核正宇称带Suzuki 2008绝对RDDS寿命对账证实，所谓B(M1)/B(E2)交错在寿命测量下被证实100%由B(E2)分母剧烈震荡（0.18->0.35->0.20 e2b2）驱动，而B(M1)平滑单调下降（0.46->0.40->0.35 mu_N^2，零交错），证伪了仅凭比值交错即认同手征M1选择律的唯象假定；(3) 理论PRM计算将激发手征双重态（Bands 5/6）能级能量系统性高估约200 keV，且因冻结转子假定完全漏算0.45 MeV处的准粒子对齐跳变，加之Band 4与6能级能量极度接近，使得同组态MchiD归属强烈依赖模型拟合，缺乏绝对跃迁强度的判决性实验支撑。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3–5, Fig. 3, Fig. 4；新kuti14-103rh-mxd-result-037 | true |
+| KU14-D18-1 | **superseded（2026-10-21）**：旧追加段将不合Suzuki原表的数字用于解释Kuti负宇称带，并宣称“100%分母驱动”；该数据与排他因果结论撤回。本文的模型差异可保留为作者报告/解释，但不能与错误跨域寿命桥接合并裁决MχD。旧result-037/contract-037不再验证原结论，由KU14-D18-2–11替代。 | superseded-task-audit | corrected-and-boundary | 本段KU14-D18-2–11；旧kuti14-103rh-mxd-result-037及contract-037 | true |
+| KU14-D18-2 | Kuti本文以负宇称Bands3–6的相对γ强度、B(M1)/B(E2)、能量与对齐研究同组态MχD，未报告这些带的DSAM/RDDS寿命分离绝对强度。此为本文及本次已核材料的readiness边界，不能扩成“截至今日整个文献领域均无寿命”的穷尽结论。 | source-coverage-boundary | direct-and-boundary | PDF pp.1–5，尤p.2带身份、pp.3–5/Figs.3–4 | true |
+| KU14-D18-3 | 本文Bands1/2为正宇称，Bands3–6为负宇称；Suzuki测寿命的103Rh Band3为正宇称，不是Kuti的负宇称Band3。与Kuti正宇称Bands1/2的精确编号对应也仍需早期scheme核对；同核或同band数字不能代替身份crosswalk。 | parity-and-band-identity-boundary | direct-and-cross-source | Kuti PDF p.2与p.4 Fig.4；Suzuki PDF p.3 Tables I/III；本页KU14-8；SU08-4/6 | true |
+| KU14-D18-4 | Suzuki原TableIII的103Rh值为25/2+、27/2+、29/2+，对应BM1=2.3(4)、1.8(2)、1.2(4) μN²，BE2=.077(14)、.14(3)、.11(4) e²b²；对应TableI寿命为.95(17)、1.0(1)、.72(23) ps。该绝对强度基准只涉及一条正宇称候选成员，并采用pure M1及旧分支输入。 | companion-reported-data-and-assumptions | direct | [[suzuki-2008-lifetimes-103rh-104rh]] SU08-4/6/7/13；原PDF p.3 Tables I/III | true |
+| KU14-D18-5 | 旧037脚本写入的27/2+、29/2+、31/2+及BM1 .46/.40/.35、BE2 .18/.35/.20不合上述Suzuki原表，不能继续作为实验输入或正宇称benchmark。由其算出的2.56→1.14→1.75亦不保留为原实验比值。 | erroneous-input-correction | direct-and-boundary | 旧037脚本suzuki_data；Suzuki原PDF p.3 TableIII | true |
+| KU14-D18-6 | Suzuki作者把所测正宇称103Rh及104Rh的弱比值交错归因于BE2、而BM1随spin递减；其结论没有给“100%排他因果”分解，并明确称BE2交错尚待理论解释、要求伙伴及更高spin寿命。该结果可以说明比值不能定位单独矩阵元，不能直接裁决Kuti不同宇称/组态的负宇称M1选择律。 | companion-author-interpretation-and-transfer-limit | direct-and-boundary | Suzuki PDF pp.3–4正文、Tables IV/V及总结；SU08-8/11/13/14 | true |
+| KU14-D18-7 | Kuti实际PRM采用β=.29（正宇称）和.26（负宇称）、γ=20°；旧037脚本β=.20及固定K=1/2的Q0/BE2示例不是该文实际输入重构。即使算术成立，也须另标几何条件，不能称本文PRM的绝对强度输出。 | model-input-correction | direct-and-boundary | PDF p.3末段至p.4首段与Q0公式；旧037脚本beta/cg_ref | true |
+| KU14-D18-8 | 作者报告PRM给Bands5/6的能量约比实验高200 keV，可能与单j Hamiltonian未充分包含复杂关联有关。这是模型差异与作者解释，不是实验证实的唯一误差来源。 | model-discrepancy-and-author-explanation | direct | PDF p.4右栏；Fig.4 | true |
+| KU14-D18-9 | 原Fig.3及p.5指出Bands5/6在ħω约.45 MeV的对齐跳增未再现，作者称可能与frozen core有关；不能把“可能”改为确定因果或据此单独否定同组态MχD。 | model-discrepancy-and-boundary | direct | PDF p.3 Fig.3；p.5首段 | true |
+| KU14-D18-10 | Bands4/6很接近且能量排序随spin改变，是作者明确保留的配对边界。相近能量本身不抹掉其依据对齐/比值提出的3/4和6/5分组；这些分组与同组态/手征归属仍属实验加模型解释。 | pair-grouping-boundary | direct-and-interpretation | PDF p.3左栏对齐分组段；pp.4–5讨论 | true |
+| KU14-D18-11 | 本次完整核读Kuti五页正文主线及全部图注，视觉核PDF3 Fig.3/模型输入与PDF4 Fig.4；Suzuki仅定向原读PDF3–4并视觉核Tables I/III，不声称其全文新读。旧037脚本不读declared raw、status=passed为固定赋值；未取得新原谱、伙伴寿命或联合协方差，不生成实验CI。 | current-reading-and-producer-scope | direct-and-boundary | Kuti主raw PDF pp.1–5；Suzuki PDF pp.3–4；旧037脚本主体 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-contract-037.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-result-037.json)4项检查全过。
+旧[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-contract-037.json)及[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-result-037.json)在本段原结论用途上标为 **superseded**，不重跑或覆盖。后续优先区分正负宇称的真实母态/伙伴，补测或取得同一组负宇称伙伴的绝对强度与混合比，再比较具体模型和替代解释。

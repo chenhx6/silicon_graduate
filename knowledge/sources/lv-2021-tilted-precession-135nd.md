@@ -127,10 +127,26 @@ tags: [a130, tilted-precession, tip, low-spin, jurogam, in-beam-spectroscopy, qt
 
 ## Day18定量审计：倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并交叉验证
 
+**checkpoint048更正：旧LV21-D18-1的集合、覆盖和全区判决部分已superseded。** 下列旧行原文仅保留作审计历史；不再沿用“六条全为TiP1→D1”“全线AP确证”“7.4%为该组带间线均值”或“所有候选小解都唯一等于TiP/全区wobbling为假象”的断言。真实线身份、缺测及模型范围由LV21-D18-2–8承接，原LV21-1–18及review/flags不变。
+
 在Day18正式学习中对本文Table II中135Nd TiP带间跃迁数据进行严格电磁基准核验，并与A≈130区所有争议候选核进行系统性横向交叉对账，raw SHA256 `E28BC232617AF4D6EE83D95D267B2E7ACD24EDDB0D03CC1592124D31E9871150`已核。原LV21-1–12各claim及`human-reviewed`状态完全保留；新LV21-D18-1待审。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | LV21-D18-1 | 本文Table II为倾斜进动（TiP）提供了首个高统计量、全线线偏振确证的实验基准：(1) TiP1向D1带的所有6条跨带线混合比均严格处于|delta| in [0.11, 0.48]区间内（平均E2份额仅7.4%，M1份额高达92.6%），线偏振不对称度AP全部严格为负值（-0.012至-0.140），B(E2_out)/B(E2_in)在0.02-0.12之间；(2) 跨核系统性交叉对账证实：当在A≈130区其他所谓低自旋wobbling候选核中采纳DCO/角分布允许的小解时，135Pr（E2=12.0%, B(E2)=0.12）、133La（E2=11-14%, B(E2)=0.08-0.15）、105Pd（E2=11-14%, B(E2)=0.04-0.10）、127Xe（E2=8-11%, B(E2)=0.10-0.23）的跃迁几率全线崩塌并与135Nd TiP基准完全重合。这证明135Nd确立了低自旋非主轴转动的真实物理基准，A≈130声称的wobbling完全是由挑选大解制造的假象，其真实物理态均为倾斜进动或单粒子磁偶极退激。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.7 Table II；新lv21-135nd-tip-result-030 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv21-135nd-tip-contract-030.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv21-135nd-tip-result-030.json)4项检查全过。
+旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv21-135nd-tip-contract-030.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv21-135nd-tip-result-030.json)保留用于追踪历史输入和算术；脚本的`checks_passed: true`为固定输出，不构成原始数据拟合、分支选择或四项科学结论的检验。本次未运行会覆盖旧输出的脚本。
+
+## Day18 checkpoint048更正：135Nd逐线身份、偏振覆盖与TiP解释范围
+
+本次回读14页原件全文及附录，视觉核对PDF p.7 Table II与p.8 Fig.6；raw SHA256 `E28BC232617AF4D6EE83D95D267B2E7ACD24EDDB0D03CC1592124D31E9871150`一致。未取得实际AD/AP/response producer或完整Cov，未重新提取δ或建立新CI，也未对跨核候选作完整原数据重分析。新增行是Codex定向self-audit，保留`needs_review: true`，不改变原human-review范围。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV21-D18-2 | Table II中已测δ的TiP1→D1连接线为518.1（13/2−→11/2−）、566.8（15/2−→13/2−）、618.3（17/2−→15/2−）、566.0（19/2−→17/2−）、560.7 keV（21/2−→19/2−），δ分别为−0.11(5)、−0.48(14)、−0.32(5)、−0.33(9)、−0.16(7)。410.2 keV的−0.21(5)属于TiP1带内15/2−→13/2−，而518.3 keV的−0.26(8)属于TiP2→TiP1的17/2−→15/2−，不能混作同一组TiP1→D1线。 | observed-fact | direct | PDF p.6 Table I；p.7 Table II；p.8 Fig.6 caption | true |
+| LV21-D18-3 | 上述TiP1→D1线已测AP中央值为：518.1的−0.024(10)、566.8的−0.019(6)、618.3的−0.012(4)、566.0的−0.081(72)；560.7的AP为空。575.9及更弱535.1 keV线亦没有本表可用δ/AP，不能称全线偏振确证。566.0的中央值仅为所报误差的约1.13倍；TiP2→TiP1的AP=−0.14(8)也有较大误差，不能把中央负号改写成无误差的严格判决。 | observed-fact-and-boundary | direct-and-boundary | PDF pp.6–8 Tables I–II及TiP2偏振讨论 | true |
+| LV21-D18-4 | 618.3、566.0、560.7 keV三线的B(E2)out/B(E2)in为0.11(4)、0.12(7)、0.02(2)，B(M1)out/B(E2)in为0.28(10)、0.24(14)、0.18(17)。这是选定参考跃迁下的相对强度，未列数值的其它连接线不能自动赋同一区间，也不是新绝对B(E2)/B(M1)或TiP带寿命测量。 | observed-derived-ratio | direct-and-boundary | PDF p.7 Table II；pp.10–11 Fig.12及讨论 | true |
+| LV21-D18-5 | 旧脚本的7.4%来自七个印刷E2份额的未加权平均，其中混入410.2 keV带内线和518.3 keV TiP2→TiP1线。仅对五条已测δ的TiP1→D1线作同样算术得到8.3%，但这也不是强度加权或含Cov的带性质；本页不把任何这一类均值当作TiP物理常数。 | task-input-set-audit | derived-and-boundary | PDF pp.6–8线身份；旧day18_lv21_135nd_tip_crosswalk.py的固定输入集合 | true |
+| LV21-D18-6 | 作者以所测M1主导连接线、ΔI=1带结构及QTR能量/波函数/相对强度的一致性解释135Nd为TiP；QTR包含配对、Coriolis attenuation及给定形变/惯量/g因子，TiP1较高自旋存在能量高估与混合。该解释不是直接观测进动轨迹或仅靠小δ唯一确定的身份。 | author-interpretation | direct-and-boundary | PDF pp.8–11 Secs.III–IV；pp.11–14 Appendices A–B | true |
+| LV21-D18-7 | AD、DCO/Rac与AP来自同一JUROGAM采集；Fig.6给出不同目标线的门，AP还依赖采用的a(Eγ)响应校正。它们增加互补约束，但不构成多次独立采集；δ、E2份额及强度比亦有共享输入。AP是偏振不对称度，不能脱离分析能力/响应约定直接与其它来源的线偏振P数值等同。 | response-and-lineage-boundary | direct-and-boundary | PDF p.5 Eqs.(1)–(3)；p.8 Fig.6 caption；p.7 Table II | true |
+| LV21-D18-8 | 本文直接研究135Nd；其它候选核在可选小δ分支下出现部分相似的相对量，仅能作条件比较，不能由此认定其真实态均为TiP/单粒子、认定大解为人为假象或否定全区域wobbling。不同核的组态、参考跃迁、响应和候选分支需各自核验，本次也不建立“首个/全部覆盖”的优先权或穷尽结论。 | cross-source-inference-boundary | inference-and-boundary | PDF p.2争议与本工作范围；p.11 Summary；Appendices A–B | true |

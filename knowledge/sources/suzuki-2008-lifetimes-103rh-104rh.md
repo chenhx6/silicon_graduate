@@ -174,3 +174,15 @@ P0: none identified.
 | SZ08-D18-1 | 对Table III中104Rh（10−–13−）和103Rh（25/2+–29/2+）的定量分析揭示：文献中广泛观察到的 $B(M1)/B(E2)$ 奇偶自旋交错（104Rh中依次为 15.1, 9.8, 11.3, 6.3）完全是由 $B(E2)$ 自身的奇偶交错（0.063, 0.093, 0.039, 0.067 e²b²）所驱动；与此同时，两核的 $B(M1)$ 随自旋单调平滑递减（104Rh为 0.95, 0.91, 0.44, 0.42 $\mu_N^2$；103Rh为 2.3, 1.8, 1.2 $\mu_N^2$），完全不存在奇偶交错。这与教科书基于左右手征隧穿预测的“$B(M1)$ 交错而 $B(E2)$ 平滑”形成尖锐反例，证明单纯 $B(M1)/B(E2)$ 比值交错不足以诊断手征几何。 | task-staggering-origin-audit | derived-and-boundary | PDF pp.3–4 Tables I–III, Fig.3；新suzuki08-rh103-104-result-016 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/suzuki08-rh103-104-contract-016.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/suzuki08-rh103-104-result-016.json)5项检查全过，确立了绝对寿命测量在解耦 $B(M1)$ 与 $B(E2)$ 机制中的不可替代性。
+
+## Day18限定补充：单调中心、交错诊断与跨论文身份
+
+旧SZ08-D18-1所列原TableIII中心值保持，但其中“完全没有交错/完全由分母驱动”只应作为作者对有限点模式的解释，不能当已做趋势/协方差检验的百分之百因果证明；旧artifact保档，不改原SZ08-1–9及reviewflags。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SZ08-D18-2 | 原TableIII 103Rh正宇称Band3为25/2+/27/2+/29/2+，BM1=2.3/1.8/1.2、BE2=.077/.14/.11；104Rh10−–13−为BM1=.95/.91/.44/.42、BE2=.063/.093/.039/.067。原作者据BM1下降/BE2弱交错解释比值模式；B仍依纯M1及引用的能量/分支，不增加独立观测。 | reported-input-and-author-interpretation | direct | PDF3 TableIII/Fig3及其前两段 | true |
+| SZ08-D18-3 | 新条件诊断选择S[x]=ln x_next−2ln x+ln x_prev，则S[M1/E2]=S[M1]−S[E2]。上述单调BM1中心的S不为零，故“单调”不等价于任意去趋势后交错幅度零；该任意诊断不是物理交错唯一分解，不反驳作者的定性模式描述，也不是显著性或CI。 | task-conditional-central-diagnostic | derived-and-boundary | TableIII中心；parent-branch-exercise-result-048 suzuki_central_curvature | true |
+| SZ08-D18-4 | 本文正宇称103Rh Band3不能因相同编号而当作Kuti2014负宇称Bands3–6的寿命测量。后者旧脚本.46/.40/.35及.18/.35/.20也不在本TableIII，均不能用于推前者或后者的实验因果结论。 | cross-paper-identity-correction | direct-and-boundary | PDF3 TablesI/III；[[kuti-2014-multiple-chiral-doublets-103rh]] KU14-D18-2–11 | true |
+
+本次独立worker针对实际主线与TableIII核验；主代理新读PDF3和原表视觉，不声称重新全文原读。新[程序](../../system/scripts/day18_parent_branch_identity_controls.py)只把打印中心作明示诊断，不提原τ/强度误差或新CI。

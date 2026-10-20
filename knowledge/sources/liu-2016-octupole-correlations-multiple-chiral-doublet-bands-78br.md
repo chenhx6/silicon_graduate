@@ -118,12 +118,20 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 
 核心术语边界：本文支持 octupole correlations 与 octupole softness；不建立 stable octupole deformation，并以现有共存证据提出未来在单核中观测 chirality-parity quartet 的可能性。
 
-## Day18定量审计：B(E1)/B(E2)内禀偶极矩提取、八极软振动定标与多极三元分类
+## Day18 更正审计：Fig. 5 轴量级、D0 提取条件与跨核多极性边界
 
-在Day18正式学习中对本文Fig. 5中提取的B(E1)/B(E2)比值与内禀电偶极矩D0开展定量推导，raw SHA256 `460051AED9AF9D84BBFA09A51339E4D671F8ABAAF511FF6B7E0A4FBC2A836AD4`已核。原L16-1–15各claim保持；新L16-D18-1待审。
+批次048完整重读本文6页及全部图/caption，另渲染核对Fig.1–6，原raw SHA256 `460051AED9AF9D84BBFA09A51339E4D671F8ABAAF511FF6B7E0A4FBC2A836AD4`匹配。原L16-1–15、frontmatter、Human Review Record及全部旧review标记逐字节保持；本节只更正此前Day18追加结论，不扩展或重做既有人审。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| L16-D18-1 | 本文报道的78Br多重手征与八极关联定量核验揭示：(1) 由八条E1跨带连接线推导出的B(E1)/B(E2)介于(0.65-2.10)x10^-5 fm^-2之间，由此提取出的内禀电偶极矩D0平均为0.71 e*fm（取四极形变Q0=2.23 e*b），比稳定八极形变标尺224Th低整整11.8倍，定量确立了该核属于动态八极软振动，排除了静态反射不对称破缺；(2) 与同位素74Br绝对DSAM在束寿命对账确立了溴同位素区多极性三元分类律：手征伙伴跃迁表现为M1主导（E2<10%），wobbling声子跃迁表现为E2主导（E2->90%），而八极带间跨线表现为纯E1主导，三者在核辐射选择定则上界限分明；(3) 78Br四条负/正宇称带至今全无在束寿命测量，其绝对B(E1)与B(E2)完全未定，不能仅凭比值将模型外推视为绝对强度的实验证实。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3–5, Fig. 5；新liu16-78br-octupole-result-038 | true |
+| L16-D18-1 | **superseded / 更正**：撤回此前以错误比值数组提取D0≈0.71 e fm、给出精确11.8倍跨核差异、排除静态形变以及建立普适多极性三元律的复合结论。“全核至今无寿命”也超出本次来源范围。以下分列保留实际可核内容。 | evidence-correction | superseded | 本节L16-D18-2–9；旧Day18复合claim | true |
+| L16-D18-2 | Fig.5(a)纵轴单位为10^-6 fm^-2；78Br红点目视约为0.07–0.2轴单位，即约10^-7 fm^-2量级，覆盖约I=8–13。此处只核轴、量级与图示范围，未精确数字化，不认证逐点中心值/误差；旧脚本I=11–15的(0.65–2.10)×10^-5数组不是该图数据。 | source-figure-audit | visual-order-of-magnitude | PDF p.4 /112501-4, Fig.5(a) | true |
+| L16-D18-3 | Fig.5(b)能量位移δE以MeV为单位，78Br多个红点在约0.3–0.6 MeV；不能用旧脚本75–120 keV的五点序列代替该图。这里仍是读图量级，未重建精确δE数据。 | source-figure-audit | visual-order-of-magnitude | PDF p.4 /112501-4, Fig.5(b) | true |
+| L16-D18-4 | 本文观测Band1与Band3间八条E1连接；作者结合B(E1)/B(E2)、δE与125Ba/224Th的比较及CDFT的β30软性，支持octupole correlations/softness解释。该证据链不是由单个比值直接确定稳定形变或唯一振动模式。 | author-interpretation | direct | PDF pp.4–5, Figs.5–6；Summary | true |
+| L16-D18-5 | 本文没有D0的实验提取。旧脚本将正宇称组态的模型β2=0.32代入轴对称Q0公式得约2.229 eb，再用未说明K、转轴和CG条件的公式处理硬编码比值；此结果不是实测Qt或D0。本文另给负宇称组态β2=0.23、γ=26.3°，不能无说明跨组态共用四极标尺。 | calculation-boundary | task-self-audit | PDF p.3, model inputs；旧day18_liu16_78br_octupole_chiral_audit.py的输入/公式 | true |
+| L16-D18-6 | 轴对称强耦合下由B(E1)/B(E2)推D0仍需外部Q0和E1/E2的角动量几何；Coriolis耦合或三轴性需修改。比值不能单独确定D0，旧脚本的5/6系数也不是本文推导。 | method-boundary | targeted-companion | [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]], printed pp.370–371, §IV.C, Eqs.66/68；非本文实测 | true |
+| L16-D18-7 | 本文对224Th只作“almost one order of magnitude smaller”的比值比较，没有精确11.8倍结论。旧脚本11.8由自选224Th参考值与错误78Br数组相除而来；B(E1)/B(E2)的跨核比也不是D0的跨核比。 | evidence-correction | direct-and-boundary | PDF p.4, Fig.5及正文；旧脚本参考值 | true |
+| L16-D18-8 | 本文没有“M1手征/E2 wobbling/E1八极”普适三元正交律，也未给全部手征跃迁E2<10%的测定。74Br后续工作中M1主导和高自旋E2分数达90%是特定带对的经验比较；多极性、宇称选择与集体运动解释不能一一等同。 | cross-source-boundary | targeted-comparison | 本文PDF pp.2–4；Guo2024/74Br PDF pp.1,3–4，非78Br寿命数据 | true |
+| L16-D18-9 | Liu2016未报告这些四条候选带的DSAM/RDDS寿命或绝对跃迁强度。本次未完成后续文献穷尽检索，不能写“78Br全核至今无任何寿命”；本文Fig.1本身还列出既有低能异构体寿命。 | evidence-boundary | source-scope | 全文；PDF p.2, Fig.1 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/liu16-78br-octupole-contract-038.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/liu16-78br-octupole-result-038.json)4项检查全过。
+本次必要companion仅定向读取[[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]的上述公式条件，以及[[guo-2024-chiral-wobbler-74br]]的特定指纹/寿命讨论；不将其当作78Br独立绝对测量。旧分析合同与结果保留为历史运行记录，其固定`passed`不能认证输入数据、D0提取或科学结论。本节不授课程学分，不更改既有human-reviewed范围。

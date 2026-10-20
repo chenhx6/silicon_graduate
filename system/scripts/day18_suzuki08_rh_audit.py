@@ -75,22 +75,23 @@ def main():
                       (rh104_analysis[2]['BE2'] < rh104_analysis[3]['BE2']),
         },
         {
-            'name': 'bm1_decreases_monotonically_without_odd_even_staggering',
+            'name': 'printed_central_bm1_decreases_monotonically',
             'bm1_values': [x['BM1'] for x in rh104_analysis],
             'passed': all(rh104_analysis[i]['BM1'] >= rh104_analysis[i+1]['BM1'] for i in range(len(rh104_analysis)-1)),
         },
         {
-            'name': 'rh103_be2_also_staggers_while_bm1_decreases_monotonically',
+            'name': 'rh103_three_centers_have_BE2_peak_and_M1_decrease',
             'rh103_be2': [x['BE2'] for x in rh103_analysis],
             'rh103_bm1': [x['BM1'] for x in rh103_analysis],
             'passed': (rh103_analysis[0]['BE2'] < rh103_analysis[1]['BE2'] > rh103_analysis[2]['BE2']) and \
                       (rh103_analysis[0]['BM1'] > rh103_analysis[1]['BM1'] > rh103_analysis[2]['BM1']),
         },
         {
-            'name': 'recoil_transit_time_in_target_degrader_below_0_2_ps_protects_1_ps_lifetimes',
+            'name': 'raw_source_identity_matches_declared_hash',
             'target_transit_ps': '< 0.2 ps',
             'typical_lifetime_ps': '~ 1 ps',
-            'passed': True,
+            'passed': raw_sha == d['raw_sha256'],
+            'scope': 'identity only; foil transit and actual response are not validated here',
         }
     ]
 
@@ -108,13 +109,13 @@ def main():
             'In Suzuki 2008 Tables I-III, lifetimes in candidate chiral doublet bands of 103,104Rh were measured using '
             'an inverse-kinematics RDDS variant with a 3.5 mg/cm2 Nb degrader foil instead of a stopper. '
             'This slowed recoils from v/c ~ 5.1-5.7% to 3.1-3.3% while maintaining foil transit times under 0.2 ps, '
-            'avoiding the Doppler attenuation smearing that plagues classical thick-stopper DSAM below 1 ps. '
+            'The passage-time statement is an author method assumption, not a response validation by this program. '
             'Our quantitative audit of the extracted transition strengths in 104Rh reveals a striking structural result: '
             'the well-known even-odd spin staggering of the B(M1)/B(E2) ratio (15.1 at 10-, 9.8 at 11-, 11.3 at 12-, 6.3 at 13-) '
-            'is driven entirely by staggering in B(E2) (0.063, 0.093, 0.039, 0.067 e2b2), whereas B(M1) decreases monotonically '
-            '(0.95, 0.91, 0.44, 0.42 muN2) with NO odd-even staggering! Exactly the same behavior is confirmed in 103Rh: '
+            'is interpreted by the paper in terms of the B(E2) pattern; this printed-centre diagnostic does not test a unique cause (0.063, 0.093, 0.039, 0.067 e2b2), whereas B(M1) decreases monotonically '
+            '(0.95, 0.91, 0.44, 0.42 muN2) with monotonic central values; no detrended zero-amplitude or covariance test was performed. Exactly the same behavior is confirmed in 103Rh: '
             'B(E2) staggers (0.077, 0.14, 0.11 e2b2) while B(M1) decreases monotonically (2.3, 1.8, 1.2 muN2). '
-            'This contradicts the textbook chiral expectation from particle-rotor models where B(M1) staggers at high spin due to '
+            'This is a source-specific comparison; it does not universally test a chiral theorem about '
             'left/right chiral tunneling geometry, while B(E2) is smooth. '
             'This provides a critical Day 18 benchmark demonstrating that B(M1)/B(E2) staggering alone cannot diagnose chiral geometry, '
             'and that absolute lifetime measurements separating B(M1) from B(E2) are indispensable.'

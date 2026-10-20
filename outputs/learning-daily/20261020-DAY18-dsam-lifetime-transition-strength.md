@@ -49,6 +49,14 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint048：分支角色、表列与有限样本的有源纠错
+
+P20弱带五对不是in/in，Kuti负宇称不能借Suzuki正宇称且旧数字不合原表；78Br Fig5轴量级与D0、131Ba等Qt定理、TiP混合样本和全区外推、74Br 1.79ps列身份及多极性例外均已回源更正。原review/frontmatter/旧claim flags保持，旧artifact保档superseded。
+
+[新合同/实际39项检查](20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-result-048.json)保五个同母态的能量闭合和两out/out三in/out角色、δ条件敏感性、Suzuki中心对数曲率、74Br十五finite/五limit列与TiP正确五线子集。检查包括身份/parser，不计独立实验；不造弱带in/in测量或CI。六个旧serializer停止覆写误导输出，Suzuki旧程序保中心算术并收窄物理解释。
+
+三域worker只改各自两源页，主代理核原Table/Fig视觉并负责Suzuki和共享知识整合。原Day18 deadline仍今天15:00，next18/count17与Day19只预习保持。当前仍有其它条件根/误差解释的原件路线，不提前收束。
+
 ### checkpoint047：原件反证纠错、上限语义与条件分解
 
 本批独立核验后由主代理回查关键原表/图，修订Hecht/Petrache参照、Nomura/Timar、Grodner、Wang/Pai、Petrache134Ce/Musangu Mo的追加段。保持原review/frontmatter/旧claims flags；明确旧强断言被取代，旧artifact保档。主要修订包括：phi0不是主轴充分条件；分支比不需两带等Qt；IBFM单量接近不是全观测向量同解；105Pd同实验偏振支持大支；上限不能当中央值；来源不报告寿命不能当全领域absence；后续综述不能冒原实验；模型光子强度需共享归一与未给CL的限分开。
@@ -1371,34 +1379,58 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-      "anchor": "Day18定量审计：B(M1)/B(E2)交错的物理成因——B(E2)交错而非B(M1)交错",
-      "summary": "Table I-III定量审计证实B(M1)/B(E2)交错全由B(E2)交错引起，B(M1)严格单调下降无交错",
+      "anchor": "Day18限定补充：单调中心、交错诊断与跨论文身份",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-1"
+          "locator": "SZ08-D18-2"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-3"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "B(M1)/B(E2)交错的双重载体反例：103,104Rh案例",
-      "summary": "103,104Rh案例反例：揭示强度比交错的多极载体多重性，证明必须测绝对寿命解耦B(M1)与B(E2)",
+      "anchor": "单调中心与交错归因的诊断范围",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-1"
+          "locator": "SZ08-D18-2"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-3"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "复合强度比交错的解耦：B(M1)与B(E2)的独立载体",
-      "summary": "方法页补充寿命测量对解耦复合比值B(M1)/B(E2)交错载体的关键作用",
+      "anchor": "单调中心与交错归因的诊断范围",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
-          "locator": "SZ08-D18-1"
+          "locator": "SZ08-D18-2"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-3"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-4"
         }
       ]
     },
@@ -2209,113 +2241,297 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-      "anchor": "Day18定量审计：倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并交叉验证",
-      "summary": "Table II中TiP1跨带线平均E2仅7.4%且AP全线为负的TiP物理基准与A~130所有候选核小解的全局归并",
+      "anchor": "Day18 checkpoint048更正：135Nd逐线身份、偏振覆盖与TiP解释范围",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "A≈130区低自旋wobbling假象向倾斜进动（TiP）物理基准的全局归并：135Nd横向对比",
-      "summary": "135Nd基准审计：135Pr、133La、105Pd、127Xe、187Au、130Ba在小解下全线坍缩并与135Nd TiP物理基准严格重合的全局结论",
+      "anchor": "TiP逐线样本与跨核外推边界",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-2"
         },
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "倾斜进动与横向wobbling的电磁判据分水岭",
-      "summary": "方法页补充倾斜进动（M1主导/AP<0/BE2_out/in~0.02-0.15）与wobbling（E2主导/AP>0/BE2_out/in>=0.20）的电磁判据分水岭准则",
+      "anchor": "TiP逐线样本与跨核外推边界",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-2"
         },
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "lv-2021-tilted-precession-135nd",
-      "summary": "索引增加135Nd倾斜进动（TiP）实验基准与A~130低自旋wobbling假象全局归并导航",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-2"
         },
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
-          "locator": "LV21-D18-1"
+          "locator": "LV21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-      "anchor": "Day18定量审计：三带DSAM寿命测定与手征-wobbling电磁多极分立基准",
-      "summary": "Table I中三条带在束DSAM寿命测定及手征伙伴M1主导与wobbling声子90% E2主导的多极二分律黄金基准",
+      "anchor": "Day18 checkpoint048更正：74Br寿命列、逐线多极性与同数据解释边界",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-2"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "手征与wobbling共存的DSAM寿命判据与多极二分律：74Br终极对照",
-      "summary": "74Br基准审计：三带直接DSAM寿命测定证实手征以M1为主、wobbling以E2为主的多极二分律，确立对既往争议核的清算效应",
+      "anchor": "74Br列身份、有限寿命与多极性例外",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-2"
         },
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "手征双重带与wobbling声子跃迁的多极性二分律",
-      "summary": "方法页补充在束DSAM绝对寿命测定推导手征M1主导与wobbling E2主导不可调和二分律的最终分类准则",
+      "anchor": "74Br列身份、有限寿命与多极性例外",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-2"
         },
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "guo-2024-chiral-wobbler-74br",
-      "summary": "索引增加74Br手征与wobbling共存DSAM寿命测定与电磁多极二分律导航",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-2"
         },
         {
           "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
-          "locator": "GU24-D18-1"
+          "locator": "GU24-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-9"
         }
       ]
     },
@@ -2847,45 +3063,205 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-      "anchor": "Day18定量审计：弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动对账",
-      "summary": "来源页补充137Nd Table 1弱伙伴带D3与D6中B(M1)/B(E2)跃迁几率比抢救提取与Delta i_x=2hbar手征振动对账",
+      "anchor": "Day18原件复核纠正：同母态跨带条件比与对齐解释",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-1"
+          "locator": "P20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "137Nd多重手征双重带的跃迁几率比提取与手征振动对齐对账",
-      "summary": "研究笔记补充137Nd多重手征带跃迁几率比提取对Nd同位素链(135-137Nd)手征振动动力学机制的系统学闭环",
+      "anchor": "同母态比值仍须保留带内与跨带身份",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-1"
+          "locator": "P20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "弱激发伙伴带中一级分支比的电磁跃迁强度抢救与提取准则",
-      "summary": "方法页补充利用高自旋一级分支光子能量与光电峰强度比抢救微弱激发带B(M1)/B(E2)比值的分析准则",
+      "anchor": "同母态比值仍须保留带内与跨带身份",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-1"
+          "locator": "P20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "petrache-2020-137nd-multiple-chiral-bands",
-      "summary": "索引增加137Nd Table 1弱伙伴带跃迁比提取与手征振动同位素链闭环导航",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
-          "locator": "P20-D18-1"
+          "locator": "P20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-12"
         }
       ]
     },
@@ -3031,89 +3407,345 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-      "anchor": "Day18定量审计：负宇称带寿命缺失、分母驱动交错与PRM近似局限对账",
-      "summary": "来源页补充103Rh同组态MchiD负宇称带绝对寿命缺失、分母BE2震荡驱动比值交错与PRM局限性审计",
+      "anchor": "Day18原件复核纠正：负宇称候选与正宇称寿命基准分域",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-1"
+          "locator": "KU14-D18-2"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-3"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-4"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-5"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-6"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-7"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-8"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-9"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-10"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-11"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "103Rh同组态MχD候选带的寿命缺失与分母载体解耦对账",
-      "summary": "研究笔记补充103Rh负宇称带绝对寿命缺失现状与Suzuki正宇称带寿命测量揭示BE2分母伪造M1交错的反例对账",
+      "anchor": "不同宇称的寿命基准不能互换",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-1"
+          "locator": "KU14-D18-2"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-3"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-4"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-5"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-6"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-7"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-8"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-9"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-10"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-11"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "跃迁几率比中分母载体波动伪造奇偶交错与绝对寿命解耦必要性",
-      "summary": "方法页补充通过绝对寿命测定排除分母BE2波动伪造BM1交错假象的物理载体解耦准则",
+      "anchor": "不同宇称的寿命基准不能互换",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-1"
+          "locator": "KU14-D18-2"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-3"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-4"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-5"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-6"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-7"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-8"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-9"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-10"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-11"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "kuti-2014-multiple-chiral-doublets-103rh",
-      "summary": "索引增加103Rh同组态MchiD负宇称带寿命缺失与分母驱动交错反证导航",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
-          "locator": "KU14-D18-1"
+          "locator": "KU14-D18-2"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-3"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-4"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-5"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-6"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-7"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-8"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-9"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-10"
+        },
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-11"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-      "anchor": "Day18定量审计：B(E1)/B(E2)内禀偶极矩提取、八极软振动定标与多极三元分类",
-      "summary": "来源页补充78Br 8条E1跨线BE1/BE2提取、内禀偶极矩D0=0.71 e*fm定量推导与八极软振动定标审计",
+      "anchor": "Day18 更正审计：Fig. 5 轴量级、D0 提取条件与跨核多极性边界",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-1"
+          "locator": "L16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-7"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-8"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "78Br八极软振动B(E1)/B(E2)比值提取与多极三元分类定标",
-      "summary": "研究笔记补充78Br八极关联BE1/BE2比值提取对溴同位素区手征(M1)-摆动(E2)-八极(E1)多极性三元分类定标",
+      "anchor": "跨核多极性与D0提取的几何输入",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-1"
+          "locator": "L16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-7"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-8"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "多重激发共存体系中的电磁多极性三元分类法则",
-      "summary": "方法页补充基于辐射选择定则的手征M1、wobbling E2与八极E1多极性三元严格分类准则",
+      "anchor": "跨核多极性与D0提取的几何输入",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-1"
+          "locator": "L16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-7"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-8"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-9"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
-      "summary": "索引增加78Br 8条E1跨线BE1/BE2提取与多极三元分类律审计导航",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-1"
+          "locator": "L16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-7"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-8"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-9"
         }
       ]
     },
@@ -3447,45 +4079,205 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-      "anchor": "Day18定量审计：四重带电磁寿命缺失、机制争论与流形波函数解耦界限",
-      "summary": "来源页补充131Ba正宇称四重带绝对能级寿命缺失、对立MchiD机制争论与多带流形波函数解耦界限审计",
+      "anchor": "Day18 更正审计：相对电磁信息、131Ba 组态排除范围与 Qt 判据边界",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-1"
+          "locator": "GU20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "131Ba正宇称四重带电磁寿命缺失与MχD理论机制对立反思",
-      "summary": "研究笔记补充131Ba与103Rh同组态对赝自旋MchiD理论机制冲突对多带流形缺乏绝对寿命时的解释局限反思",
+      "anchor": "多带组态比较与相对强度的实际约束",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-1"
+          "locator": "GU20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "四带流形中多重手征机制争论的裁决门槛与绝对跃迁矩阵元",
-      "summary": "方法页补充四带同宇称流形中排除同组态MchiD与赝自旋四重态对立多解性的绝对寿命与跃迁矩阵元门槛准则",
+      "anchor": "多带组态比较与相对强度的实际约束",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-1"
+          "locator": "GU20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "guo-2020-pseudospin-chiral-quartet-131ba",
-      "summary": "索引增加131Ba四重带寿命缺失与MchiD机制对立反思审计导航",
+      "summary": "checkpoint048纠正带内/跨带分支、宇称/列身份与样本；条件算术不代原测量或全区模态判决",
       "sources": [
         {
           "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-D18-1"
+          "locator": "GU20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-3"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-4"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-5"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-6"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-7"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-8"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-9"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-10"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-11"
+        },
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-12"
         }
       ]
     },
@@ -3821,6 +4613,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint048已实际提交，稳定指针main / `Audit typed parent-branch roles and correct finite-sample Day18 strength claims`；精确hash/H3/远端结果只publication-048回执。
+
 
 checkpoint047已实际提交，稳定指针main / `Correct primary-source boundaries in Day18 lifetime and strength audits`；精确hash/H3/远端结果只publication-047回执。
 
