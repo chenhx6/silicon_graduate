@@ -67,6 +67,8 @@ updated: 2026-10-20
 
 - [[musangu-2021-chiral-vibrations-104mo-106mo]] — 104,106Mo Table IV跨带E2预测与实验上限张力（超20-33%）及相空间压低审计。
 
+- [[kuti-2014-multiple-chiral-doublets-103rh]] — 103Rh 同组态MχD负宇称带寿命缺失、分母B(E2)驱动交错反证与PRM近似局限审计。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

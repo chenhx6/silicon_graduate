@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "kuti14-103rh-mxd-audit",
+  "inputs": [
+    "raw/papers/2014_Kuti et al_Multiple Chiral Doublet Bands of Identical Configuration in Rh 103.pdf"
+  ],
+  "checks": [
+    "Reconstruct PRM intrinsic quadrupole moment Q0 = 2.156 eb and theoretical B(E2) = 0.160 e^2b^2",
+    "Crosswalk with Suzuki 2008 RDDS lifetimes proving B(E2) denominator driving B(M1)/B(E2) ratio staggering",
+    "Establish absolute lifetime absence in negative-parity bands 3-6",
+    "Identify PRM energy excess (~200 keV) and missed alignment jump at hbar*omega ~ 0.45 MeV"
+  ],
+  "status": "passed"
+}

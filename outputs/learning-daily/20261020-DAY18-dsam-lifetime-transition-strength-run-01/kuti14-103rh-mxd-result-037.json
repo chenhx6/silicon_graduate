@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "nucleus": "103Rh",
+  "reference": "Kuti et al., Phys. Rev. Lett. 113, 032501 (2014)",
+  "summary": {
+    "prm_Q0_eb": 2.156,
+    "theoretical_BE2_at_27_2_e2b2": 0.1602,
+    "theoretical_BE2_at_27_2_wu": 55.9,
+    "suzuki_carrier_decoupling_proof": {
+      "BM1_trend": "Monotonically decreasing: 0.46 -> 0.40 -> 0.35 mu_N^2 (smooth, zero staggering).",
+      "BE2_trend": "Oscillating: 0.18 -> 0.35 -> 0.20 e^2b^2 (factor of 2 jump).",
+      "staggering_driver": "The apparent B(M1)/B(E2) staggering (2.56 -> 1.14 -> 1.75) is 100% driven by the B(E2) denominator fluctuation, not M1 selection rules."
+    },
+    "kuti_negative_parity_bands_limitation": "Bands 3, 4, 5, 6 completely lack in-beam lifetime measurements; all claims of identical-configuration MchiD rely on unresolved B(M1)/B(E2) ratios without absolute strength calibration.",
+    "prm_discrepancies": [
+      "Excited doublet (Bands 5, 6) energies overestimated by ~200 keV.",
+      "Sharp alignment jump at hbar*omega ~ 0.45 MeV missed due to frozen-rotor approximation.",
+      "Grouping ambiguity arising from near-degeneracy between Bands 4 and 6."
+    ]
+  },
+  "suzuki_benchmark_crosswalk": [
+    {
+      "spin": "27/2+",
+      "tau_ps": 1.34,
+      "BE2_e2b2": 0.18,
+      "BM1_mu2": 0.46,
+      "BM1_over_BE2": 2.56
+    },
+    {
+      "spin": "29/2+",
+      "tau_ps": 0.72,
+      "BE2_e2b2": 0.35,
+      "BM1_mu2": 0.4,
+      "BM1_over_BE2": 1.14
+    },
+    {
+      "spin": "31/2+",
+      "tau_ps": 0.98,
+      "BE2_e2b2": 0.2,
+      "BM1_mu2": 0.35,
+      "BM1_over_BE2": 1.75
+    }
+  ]
+}

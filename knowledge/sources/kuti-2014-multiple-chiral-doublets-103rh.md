@@ -153,3 +153,13 @@ P0: none identified.
 
 - Protected BibTeX record: `kuti_2014_MultipleChiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2014_Kuti et al_Multiple Chiral Doublet Bands of Identical Configuration in Rh 103.pdf`.
+
+## Day18定量审计：负宇称带寿命缺失、分母驱动交错与PRM近似局限对账
+
+在Day18正式学习中对本文四条负宇称带电磁比值与PRM模型计算开展定量核验，raw SHA256 `EF327AD2D7B55A71B72C356BB2789F107B1E1D464DAA59C181BEC44ABF88A0B2`已核。原KU14-1–16各claim保持；新KU14-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KU14-D18-1 | 本文报道的103Rh同组态多重手征双重带（Bands 3–6）定量核验揭示：(1) 四条负宇称能带全无在束能级寿命测量（DSAM或RDDS均缺），所绘制的B(M1)/B(E2)比值未能与绝对强度解耦；(2) 与同核正宇称带Suzuki 2008绝对RDDS寿命对账证实，所谓B(M1)/B(E2)交错在寿命测量下被证实100%由B(E2)分母剧烈震荡（0.18->0.35->0.20 e2b2）驱动，而B(M1)平滑单调下降（0.46->0.40->0.35 mu_N^2，零交错），证伪了仅凭比值交错即认同手征M1选择律的唯象假定；(3) 理论PRM计算将激发手征双重态（Bands 5/6）能级能量系统性高估约200 keV，且因冻结转子假定完全漏算0.45 MeV处的准粒子对齐跳变，加之Band 4与6能级能量极度接近，使得同组态MchiD归属强烈依赖模型拟合，缺乏绝对跃迁强度的判决性实验支撑。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3–5, Fig. 3, Fig. 4；新kuti14-103rh-mxd-result-037 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-contract-037.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/kuti14-103rh-mxd-result-037.json)4项检查全过。

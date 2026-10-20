@@ -2507,6 +2507,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "MU21-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+      "anchor": "Day18定量审计：负宇称带寿命缺失、分母驱动交错与PRM近似局限对账",
+      "summary": "来源页补充103Rh同组态MchiD负宇称带绝对寿命缺失、分母BE2震荡驱动比值交错与PRM局限性审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "103Rh同组态MχD候选带的寿命缺失与分母载体解耦对账",
+      "summary": "研究笔记补充103Rh负宇称带绝对寿命缺失现状与Suzuki正宇称带寿命测量揭示BE2分母伪造M1交错的反例对账",
+      "sources": [
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "跃迁几率比中分母载体波动伪造奇偶交错与绝对寿命解耦必要性",
+      "summary": "方法页补充通过绝对寿命测定排除分母BE2波动伪造BM1交错假象的物理载体解耦准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "kuti-2014-multiple-chiral-doublets-103rh",
+      "summary": "索引增加103Rh同组态MchiD负宇称带寿命缺失与分母驱动交错反证导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+          "locator": "KU14-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2521,6 +2565,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint037已实际提交，稳定指针main / `Audit 103Rh identical-configuration MchiD lifetime absence and BE2 denominator decoupling`；精确hash/H3/远端结果只publication-037回执。
 
 checkpoint036已实际提交，稳定指针main / `Audit 104,106Mo Table IV interband E2 predictions, upper-limit tension, and phase-space suppression`；精确hash/H3/远端结果只publication-036回执。
 
