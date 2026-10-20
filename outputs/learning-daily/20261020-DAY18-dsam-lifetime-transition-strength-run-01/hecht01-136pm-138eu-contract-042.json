@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "hecht01-136pm-138eu-chiral-audit",
+  "inputs": [
+    "raw/papers/2001_Hecht et al_Evidence for chiral symmetry breaking in 136 Pm and 138 Eu.pdf"
+  ],
+  "checks": [
+    "Reconstruct Table I 3D TAC tilt angle phi collapse to 0 deg in 136Pm (0.425 MeV) and 138Eu (0.350 MeV)",
+    "Reconstruct intrinsic quadrupole moments Q0 = 3.41 eb (136Pm) and 3.70 eb (138Eu)",
+    "Crosswalk with 134Pr factor-of-2 Q0 disparity counterexample",
+    "Establish absolute lifetime absence in both 136Pm and 138Eu"
+  ],
+  "status": "passed"
+}

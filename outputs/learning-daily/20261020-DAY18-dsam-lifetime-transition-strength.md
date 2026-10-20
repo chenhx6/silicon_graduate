@@ -2771,6 +2771,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "WS13-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+      "anchor": "Day18定量审计：3D TAC倾角塌缩、在束寿命缺失与邻核134Pr形变落差警示",
+      "summary": "来源页补充136Pm与138Eu 3D TAC倾角随自旋快速塌缩为零、在束寿命缺失与134Pr形变二倍落差警示审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "N=75同中子素136Pm与138Eu倾角塌缩、寿命缺失与134Pr形变落差警示",
+      "summary": "研究笔记补充N=75链136Pm与138Eu非平面倾角狭窄窗口及邻核134Pr测得2倍形变落差对等形变假设的警示",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "同中子素链手征候选带的倾角演化约束与寿命鉴伪门槛",
+      "summary": "方法页补充微观倾角自洽性与抵御跨同中子素未测寿命等形变偏置的寿命测量鉴伪门槛准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "hecht-2001-chiral-symmetry-breaking-136pm-138eu",
+      "summary": "索引增加136Pm与138Eu倾角塌缩与寿命缺失警示审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2785,6 +2829,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint043已实际提交，稳定指针main / `Audit 136Pm and 138Eu 3D TAC tilt angle collapse and 134Pr deformation disparity warning`；精确hash/H3/远端结果只publication-043回执。
 
 checkpoint042已实际提交，稳定指针main / `Audit 104Ag 3.5 hbar alignment gain, citation lineage bias, and lifetime absence`；精确hash/H3/远端结果只publication-042回执。
 

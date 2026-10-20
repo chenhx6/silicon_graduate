@@ -75,6 +75,8 @@ updated: 2026-10-20
 
 - [[petrache-2016-134ce-triaxiality-exotic-rotations]] — 134Ce 跨带Delta I=1高E2纯度（75%-83%）与非wobbling三轴形状共存反例审计。
 
+- [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] — 136Pm与138Eu 3D TAC倾角塌缩、在束寿命缺失与134Pr形变落差警示审计。
+
 - [[guo-2020-pseudospin-chiral-quartet-131ba]] — 131Ba 四重带电磁寿命缺失、同组态与赝自旋MχD理论机制对立反思审计。
 
 - [[wang-2013-high-spin-104ag]] — 104Ag 对齐增益3.5hbar、手征指认引文谱系偏差与寿命缺失审计。

@@ -180,3 +180,13 @@ P0: none identified.
 ## Non-source Notes and Follow-up
 
 Next corpus source: Starosta 2001. Use it to audit the imported bandhead-spin/systematics dependency and to distinguish isotone-level chiral-vibration interpretation from the candidate wording of this paper.
+
+## Day18定量审计：3D TAC倾角塌缩、在束寿命缺失与邻核134Pr形变落差警示
+
+在Day18正式学习中对本文Table I中3D TAC倾角演化及手征双重带寿命证据链开展定量核验，raw SHA256 `2F9BD3DCE75EC29056EF5A59B26032A6510B7E9DC241A546A3D82A89C7EEA161`已核。原HE01-1–13各claim保持；新HE01-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HE01-D18-1 | 本文报道的N=75同中子素136Pm与138Eu手征候选带定量核验揭示：(1) Table I展示的3D TAC计算表明，非平面倾角phi随频率增加发生急剧塌缩：136Pm在0.425 MeV (I=18.5)处phi降为0度，138Eu在0.350 MeV (I=13.5)处phi降为0度，证明微观模型本身预言非主轴手征解仅存在于狭窄的低自旋窗口并迅速终止为平面转动；(2) 两核全无在束能级寿命测量（DSAM或RDDS均缺），所绘制的B(M1)/B(E2)比值基于两带内禀四极矩完全相同的假设；(3) 邻核N=75同中子素134Pr后续寿命测量（Petrache 2006, Tonev 2006）确凿证实两伙伴带内禀四极矩存在2.0倍巨大落差（Q_0,1/Q_0,2 = 2.0(4)），推翻了手征等形变假定；136Pm与138Eu缺乏绝对寿命使得相同假定面临完全相同的系统学风险。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2–4, Table I, Fig. 3；新hecht01-136pm-138eu-result-042 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht01-136pm-138eu-contract-042.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht01-136pm-138eu-result-042.json)4项检查全过。

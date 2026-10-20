@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "nuclei": [
+    "136Pm",
+    "138Eu"
+  ],
+  "reference": "Hecht et al., Phys. Rev. C 63, 051302(R) (2001)",
+  "summary": {
+    "pm136_Q0_eb": 3.411,
+    "pm136_BE2_asymp_e2b2": 0.4341,
+    "pm136_BE2_asymp_wu": 104.5,
+    "eu138_Q0_eb": 3.704,
+    "eu138_BE2_asymp_e2b2": 0.5118,
+    "eu138_BE2_asymp_wu": 120.8,
+    "tilt_angle_collapse_findings": {
+      "pm136": "phi collapses from 71.5 deg to 0.0 deg at hbar*omega = 0.425 MeV (I = 18.5 hbar).",
+      "eu138": "phi collapses from 31.0 deg to 0.0 deg at hbar*omega = 0.350 MeV (I = 13.5 hbar)."
+    },
+    "aplanar_termination": "The 3D TAC calculations show that chiral aplanar geometry exists only in a restricted frequency window and terminates rapidly into planar rotation at modest spins.",
+    "pr134_crosswalk_warning": "In neighboring N=75 isotone 134Pr, subsequent lifetime measurements (Petrache 2006) revealed a factor-of-2 disparity in quadrupole moment Q0 between the partner bands (Q_0,1 / Q_0,2 = 2.0(4)), completely disproving equal-deformation chiral symmetry.",
+    "lifetime_absence": "No DSAM or RDDS lifetimes exist for 136Pm and 138Eu; absolute B(M1) and B(E2) remain entirely uncalibrated, leaving the assumption of equal in-band Qt unverified."
+  },
+  "pm136_tac": [
+    {
+      "omega_MeV": 0.2,
+      "theta_deg": 53.43,
+      "phi_deg": 71.5,
+      "I_hbar": 9.86,
+      "BM1_over_BE2": 15.0
+    },
+    {
+      "omega_MeV": 0.25,
+      "theta_deg": 59.04,
+      "phi_deg": 50.0,
+      "I_hbar": 10.75,
+      "BM1_over_BE2": 6.0
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_deg": 62.79,
+      "phi_deg": 37.0,
+      "I_hbar": 11.75,
+      "BM1_over_BE2": 3.3
+    },
+    {
+      "omega_MeV": 0.35,
+      "theta_deg": 68.4,
+      "phi_deg": 25.0,
+      "I_hbar": 12.03,
+      "BM1_over_BE2": 2.2
+    },
+    {
+      "omega_MeV": 0.375,
+      "theta_deg": 70.28,
+      "phi_deg": 21.5,
+      "I_hbar": 13.84,
+      "BM1_over_BE2": 1.3
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_deg": 75.89,
+      "phi_deg": 8.5,
+      "I_hbar": 14.99,
+      "BM1_over_BE2": 0.8
+    },
+    {
+      "omega_MeV": 0.425,
+      "theta_deg": 89.0,
+      "phi_deg": 0.0,
+      "I_hbar": 18.51,
+      "BM1_over_BE2": null
+    }
+  ],
+  "eu138_tac": [
+    {
+      "omega_MeV": 0.2,
+      "theta_deg": 57.17,
+      "phi_deg": 31.0,
+      "I_hbar": 10.53,
+      "BM1_over_BE2": 2.9
+    },
+    {
+      "omega_MeV": 0.225,
+      "theta_deg": 59.04,
+      "phi_deg": 24.5,
+      "I_hbar": 10.95,
+      "BM1_over_BE2": 2.5
+    },
+    {
+      "omega_MeV": 0.25,
+      "theta_deg": 60.91,
+      "phi_deg": 20.5,
+      "I_hbar": 11.45,
+      "BM1_over_BE2": 2.1
+    },
+    {
+      "omega_MeV": 0.275,
+      "theta_deg": 64.66,
+      "phi_deg": 10.0,
+      "I_hbar": 12.07,
+      "BM1_over_BE2": 1.6
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_deg": 66.53,
+      "phi_deg": 4.0,
+      "I_hbar": 12.59,
+      "BM1_over_BE2": 1.3
+    },
+    {
+      "omega_MeV": 0.325,
+      "theta_deg": 66.53,
+      "phi_deg": 0.5,
+      "I_hbar": 13.0,
+      "BM1_over_BE2": 1.3
+    },
+    {
+      "omega_MeV": 0.35,
+      "theta_deg": 68.4,
+      "phi_deg": 0.0,
+      "I_hbar": 13.5,
+      "BM1_over_BE2": 1.2
+    }
+  ]
+}
