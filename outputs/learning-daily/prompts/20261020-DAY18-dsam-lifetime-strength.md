@@ -218,3 +218,6 @@ Day17checkpoint057 priming：VW95原9页/14图/3表/19式核，MINIPOLAsector仅
 
 
 Day17checkpoint058 priming：shared-calibration note新增十原件observable-response合同矩阵/六actualinput优先级，整合已读/旧priming不新实验/盲测；下次先该入口而非裸Q或旧程序数。EW69ratio修订、SG98分母/GR95nonorth/B73原式和各ε/F合同保持，actualreadout/Σ优先。
+
+
+Day17checkpoint059 priming：BA72原11页/10图/3表核N=C/(C+anti)非odds，sourceQ/R和relativemerit R sqrt(Nbar)分开。20Ge行central门无globalbest，Rσstatonly不含Pref，共partition/Cov与doubleComptonreference条件保；4crystal/数字读出/511veto是proposal。sharedcalmatrix已增Bass行，无newcounts/CI。

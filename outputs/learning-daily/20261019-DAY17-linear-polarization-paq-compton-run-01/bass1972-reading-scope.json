@@ -1,0 +1,57 @@
+{
+  "actual_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "actual_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "tables": [
+    1,
+    2,
+    3
+  ],
+  "numbered_equations": [],
+  "unnumbered_formulas": "p34 N/Q definitions; p35 P90; p41 R sqrtN merit; p42 Qprime proposal",
+  "references": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "no_raw_counts_or_actual_fourcrystal_prototype": true,
+  "source_uses_coincidence_over_total_not_coincidence_over_anticoincidence": true
+}

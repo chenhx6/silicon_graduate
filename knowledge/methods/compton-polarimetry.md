@@ -505,4 +505,11 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 
 ## 当前跨装置合同入口
 
-[[polarimetry-shared-calibration-count-design]]的“跨装置observable-response合同矩阵（Day17整合）”将十个原件对象与atomiclocator、实际N/相对零点/P–Q标尺及ε–F分母放在同表，并列最可能改变判断的六项actualinput。它整合已读原件和旧日priming，不新计实验或盲测；尤其保EW69ratio解释的修订，SG98特殊分母、GR95真实nonorthsum与B73误转项分开。使用前先匹配该行观测与读出，不按装置名/同γ能量迁Q。
+[[polarimetry-shared-calibration-count-design]]的“跨装置observable-response合同矩阵（Day17整合）”将十一个原件对象与atomiclocator、实际N/相对零点/P–Q标尺及ε–F分母放在同表，并列最可能改变判断的六项actualinput。它整合已读原件和旧日priming，不新计实验或盲测；尤其保EW69ratio解释的修订，SG98特殊分母、GR95真实nonorthsum与B73误转项分开。使用前先匹配该行观测与读出，不按装置名/同γ能量迁Q。
+
+
+## 对称两晶体的N是coincidence分数
+
+[[bass-1972-two-crystal-compton-polarimeter]] BA72-D17-1–13原11页核：N=nco/(nco+nanti)，Qsource为两转角N的差和、R才是与boundedP关联的分析能力。不能将N改C/anti后沿用R；分子/总和共享事件，σN非两个独立count比。原Rσ只stat、排TablePrefσ，不能以calibrationchain已知为由删除target/referenceCov。
+
+原relativemerit=R sqrt(Nbar)，Nbar非absoluteε；20Ge行central阈值比较无globaloptimum/CI。sameEg的Mg/C反应P不同、doubleComptonreference也有geometry/knownMg假设，proposed4crystal/511veto/数字读出未成为原两crystal数据。先matchactualobservable再比较当前矩阵。

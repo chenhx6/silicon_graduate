@@ -2274,3 +2274,7 @@ VW95原9页新核knownorder门/MINIPOLAtiming合同、Geproduct近线与eff半su
 ### Day17 checkpoint058：observable-response矩阵整合
 
 primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六actualinput优先级，no新source/experiment/credit；EW69revision保。verification073/manifest058/H3发布，main / `Consolidate polarimetry observable and response contracts across sources`，原windowactive/17once/partial18。
+
+### Day17 checkpoint059：Bass计数分数与参考误差
+
+原11页全读/20条Ge表，N=C/(C+anti)、R/P与relative merit分层，Pref排除边界与primitivepartition Cov独立核；新13claims待审、旧flags保。verification074与explicitmanifest059/H3，main / `Audit Bass two-crystal count fractions and reference uncertainty`，windowactive/17once/partial18。

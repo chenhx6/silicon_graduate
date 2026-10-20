@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md": 14
+  },
+  "artifacts": [
+    {
+      "file": "bass1972-Ge-result.json",
+      "true_fields": [
+        "ok",
+        "source_fraction_vs_odds_and_variance_controls",
+        "partial_error_budget_exclusion_not_claimed_as_source_error",
+        "no_actual_fullSigma_threshold_CI_or_new_P_R"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

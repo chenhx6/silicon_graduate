@@ -68,14 +68,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Audit actual polarimeter readout and distinguish calibration nuclei",
-    "commit": "8a02e372bcca8024fe3f6ff8dd027487d886c404",
+    "subject": "Consolidate polarimetry observable and response contracts across sources",
+    "commit": "a31ce30eec4ae7941ef8b1fb88da83d5c2af1935",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-20T02:11:38.621758+00:00",
+  "last_observed_at": "2026-10-20T02:20:26.537746+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",

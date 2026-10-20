@@ -38,7 +38,7 @@ ST99 Table1 的 Ba参考P由上游AD而来，Cd/Sn CE参考P由GOSIA而来；这
 
 ## 跨装置observable-response合同矩阵（Day17整合）
 
-这张矩阵把本session已读原件与当前canonical claim逐行对照。JO95等部分条目继承旧日原读/priming，本次只核其已有atomic页，并不重称新实验或全文阅读。所有下列核偏振P、计数、Q都按各行对象定义；“相似差和式”不等sameevent。原needs_review/human前缀不因矩阵晋升。
+这张矩阵把本session已读原件与当前canonical claim逐行对照，初版十行后续加入Bass1972。JO95等部分条目继承旧日原读/priming，本次只核其已有atomic页，并不重称新实验或全文阅读。所有下列核偏振P、计数、Q都按各行对象定义；“相似差和式”不等sameevent。原needs_review/human前缀不因矩阵晋升。
 
 | 原件与locator | 实际计数/定义 | 相对零点或效率输入 | P与分析能力输入 | 效率/merit与不可裸迁条件 |
 |---|---|---|---|---|
@@ -52,6 +52,9 @@ ST99 Table1 的 Ba参考P由上游AD而来，Cd/Sn CE参考P由GOSIA而来；这
 | [[starosta-1999-pdco-experimental-test]] ST99-6/7/9/13/14 | CloverA与四groupPDCO/RDCO复用主采集 | individuala与poola及target权重需匹配 | Q外采NORDBALL移EUROGAM有域；7(2)×10^-5/keV；known647路径取alignment非独立prior | integratedP不是第六独立点、Q不补jointresponse；旧D96勘误保持，490两candidate未独断 |
 | [[schlitt-1994-sectored-compton-polarimeter]] SC94-D17-1–8 | corefullE＋outersector两hit/另两veto给H/V | unpolCoa=.9899(.0052) | Pd622tag/512probe、actualP98%不同nominal1；部分AD/P共B73 | εrelative=(H+V)/Nscorepeak，F用absoluteεcoinc@25cm；150门4438Q7.93非总述未标门9.5 |
 | [[vonderwerth-1995-compton-polarimeters]] VW95-D17-2/4/5/6/9 | POLALI有Es/E′/knownrole；MINIPOLAsector只timing＋共同E，orderunknown | unpolarizedRa校groupa，两geometry/pairgroups另列 | Q=Aexp/Ptheor；apertureΔφ拟Q非独立验证，近287/288需Ge产品身份 | εc=(Nsum/2Ns)ε_abs_single；新algorithm不补actual未记录E，crosstalk/损伤有原run域 |
+| [[bass-1972-two-crystal-compton-polarimeter]] BA72-D17-1/2/5/6 | N=nco/(nco+nanti)，两旋转fraction再构Qsource；R是分析能力 | 同采集co/anti和四rotations平衡，仍有geometry/gain/cuts域 | Pref来自AD或双Compton，Rσ仅stat而未含Prefσ | source相对merit=R sqrt(Nbar)，不能将fraction换odds或以Nbar作absoluteε |
+
+
 
 ### 三种“能消零点”的信息仍不同
 
@@ -358,3 +361,8 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 ## actual读出与calibrator身份优先
 
 [[vonderwerth-1995-compton-polarimeters]] VW95-D17-2/4/5/6/9/10说明MINIPOLAsector只timing、共同totalE；知道两segmenthit不等能重建Es/E′和ordering。POLALI实际knownroles+70–110gate与a/Rasource校准另列，Q/P核标尺不混。69Ge287.2与70Ge288.0calibrator不同，近E不是独立身份匹配；source半sumabsoluteε合同保，actualcounts/Σ缺不造门retention/CI。
+
+
+## 同一次partition的分子与分母
+
+[[bass-1972-two-crystal-compton-polarimeter]] BA72-D17-1/5/8/9：N=C/(C+A)而非C/A，Cov(C,C+A)=VarC；在独立primitivePoisson设计下σfraction为binomial尺度，实际peakfit/rotation/sharedPref仍需fullΣ。原statonlyR不含Pref误差，阈值扫描共源/共事件，不能将每行Rσ视独立或以原Nbar回造counts。

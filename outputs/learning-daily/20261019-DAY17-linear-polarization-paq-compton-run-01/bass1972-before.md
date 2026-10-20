@@ -1,0 +1,9 @@
+# symmetric two-crystal：来源前回忆
+
+原Day17session约10:20上海/280min，formal17once/partial18。连续槽SG98alternative分母/normalizedcountresponse与十源matrix；新source只Bass1972原11页，旧metadata已priming，BA72-1/2false、3true保，非blind。
+
+主动回忆：若同采集C/anticoinc两类互补、totalP不变，则C/A比一般P相关分母，旋转后比值asym也未必原Ncountdiff的同线性Q。源N到底净count还是coincidence/anticoincratio须逐定义核，不能凭summary把Q=(N0−N90)/(sum)=RP当任意partition精确定理。knownPcalibrationR在P1不自动给所有P的响应。equalenergythreshold与knownorder也不同；twoidenticaldetectorsrotation可能消a但同background/solidangle/escape/fullpeak需actualsource定义。
+
+新问题：symmetry如何构N以抑flux/geometry，normalizationrawcount两类别及误差Cov、thresholdacceptedangle边界、多次scatter/NaIvsGe实际校准表如何对照；physicalP/光子electricratio与apparatusR/Q名分开，不能重复EW69过早failure判断。FaggHanna/referencepureE2与currentnucleartest源相关性要保。
+
+计划原11页完整textvisual/图表式/不确定性/实验谱，至少一项actualtable或精确观测量代数exercise，no原MC/实际counts未得不补CI。以source当前定义优先核，不预填线性或发现sourceerror；oldreviewflags/raw不变，不开其它课程。

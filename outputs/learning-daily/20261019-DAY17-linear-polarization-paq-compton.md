@@ -7935,6 +7935,103 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "ST99-14"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+      "anchor": "Day17原件自审：coincidence分数与参考P误差",
+      "summary": "完整11页/10图/3表新核，cofraction非odds、20Ge行threshold与statonlyR/Pref预算、proposal边界，旧flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-1"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-2"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-3"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-4"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-5"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-6"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-7"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-8"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-9"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-10"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-11"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-12"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "对称两晶体的N是coincidence分数",
+      "summary": "原N/C+anti与sourceR/Q/relativemerit定义固定，避免将partition/误差迁错。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-1"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-5"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "同一次partition的分子与分母",
+      "summary": "primitivepartition Cov与Pref预算分层，矩阵新增Bass行，不造实际counts/fullΣ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-1"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-8"
+        },
+        {
+          "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+          "locator": "BA72-D17-9"
+        }
+      ]
     }
   ]
 }
@@ -8319,3 +8416,12 @@ CJP1970伴随新metadataquery仍TLSfail/body未得，EW69ratio作者意图边界
 先冻`contract-reflect-recall-before.md`，明确来源后priming、非盲测/不新计卡；十项回忆逐atomiccanonical页核，`contract-reflect-recall-audit.json`保对应，无新sourcebody或实验信用。canonical [shared-calibration note](../../knowledge/research-notes/polarimetry-shared-calibration-count-design.md)新增十行observable-response矩阵，分实际N/plane、相对零点、P/Q标尺和ε/F；对EW69ratio修订、SG98特殊C/S、GR95nonorthsum、B73误转项区别保，不把相似字式当sameevent。
 
 六actualinput优先级覆盖samecutunpolledger、knownP/AD-tagjointCov、target/refnetcounts背景Σ、非线性两channelresponse/两knownP、absoluteeff/exposure与readout/producer/runstate。它们是本任务自主下一route的选择，不转用户待办或虚构L4。方法页和index加可查入口，source/review flags保。unique writeback增矩阵项，verification073/publication058以实际gate为准；17once/partial18、原windowactive，不因本轮REFLECT结束整日。
+
+
+### Checkpoint059：coincidencefraction与statonlyR预算
+
+Bass1972原11页/10图/3表/未编号公式/6refs新textvisual，before声明oldpriming；oldBA72-1/2false/3true保，新13待审。rawhash/820544bytes保。N明确C/(C+anti)非旧摘要co/anti，sourceQ为两rotN差和、R与boundedP相连。独立primitivePoisson符号Varfraction/Cov核与错换odds的非同R反例只是定义/统计设计，不重建原counts。
+
+20条Ge实际Table3/Pref转录，R sqrt(Nbar)为原relativemerit，central离散门最大各能量不同、无globalthresholdranking/CI；Rstatσ明确不含Pref，198P-onlyσR≈.1743大于印stat.08仅partialbudget诊断，不叫作者漏报。sameMg/Cγ的实际P各异；双Comptonreference还含geometry/knownMg近能假设。singleCompton角域/多次scatter/511不敏感及fourcrystal/数字读出proposal分层，不移实际modernresponse。
+
+canonicalBass/Compton/sharedcalnote新增Bassmatrixrow与partition段，唯一writeback/18priming、script/input/result/scope/freezes齐；verification074/publication059实际gate。17once/partial18/原windowactive，不以source完成日终。
