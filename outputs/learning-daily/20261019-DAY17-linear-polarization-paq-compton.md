@@ -6896,6 +6896,107 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EK79-D17-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+      "anchor": "Day17完整原件自审：自旋转录、fs单位与互补判据",
+      "summary": "完整19页实际主线、spin/fs旧转录修正与source内版本/response边界，新14条待审旧claims/flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-1"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-2"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-3"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-4"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-5"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-6"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-7"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-8"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-9"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-10"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-11"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-12"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-13"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "原实验AD与P仍可留下宇称候选",
+      "summary": "真实AD/P后仍需τ/强度companion，sharedmonitor/原Qcounts缺口保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-4"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-5"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "61Ni原实验的fs单位与强度companion",
+      "summary": "实际分支/τ单位rate核与τ/B不同stopbudget写回，不新测寿命。",
+      "sources": [
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-3"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-7"
+        },
+        {
+          "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+          "locator": "WA77-D17-10"
+        }
+      ]
     }
   ]
 }
@@ -7188,3 +7289,14 @@ Decision`limits`只分别约束积分AD与总timeprofile便认定jointkernel闭�
 Eq6只MANDYalpha2模型predictionerror，用同表spread挑.15再floor.04，不是独立validation或Q/σprior。原rawthresholdgroupN10/7/22的descriptive meansquare .71827/.63457/1.55606不叫pvalue；61Ni1.81 .76(.02)对model.50给−3.34961，作者feeding解释非实测fraction。sameparent2.41两支/3.44Balpha4>alpha2 central保Covunknown，未用empirical0≤alpha4≤alpha2硬裁value。Fig5的20%feed/upper7/2+/9/2+为design，alpha,p有效E仅该domain；modifiedGaussianX2对应σ=βJ/sqrt2，不裸替σ/J。
 
 canonicalEK79/source与jointnote/linearpol/ledger/reportuniquewriteback/18priming联。noactualMANDYproducer/response/Σ，不造新τ/P/Q/δ/CL。Decision`limits`把模型经验error或samecompilation当独立calibration；nextroute按新matchedinput选择。verification063/publication049实际状态为准，17once/partial18/原windowactive，不因单源完成提前日终。
+
+
+### Checkpoint050：WA77完整原实验及旧转录纠正
+
+重叠检查取消重复JO95pureE2P90代入，转EK79Ref7实际Wadsworth19页；source前声明priming，全文19页/8图/4表/未编号布居式/references文本视觉及Table3/4旋转核。原hash/889555bytes不变；原WA77-1–4行/flags保持，旧WA77-2错误标历史不再使用，新14claims全needs_review。纠旧integerJ/多个自旋、1609 37→370fs、908ns→ps；908abstract1500(400)与Table1600(500)fs不强配。
+
+实际1609四branch37/54/5/4%、τ.370ps和δ.33/.07γ-only/α0核BE2 .52029/.04674WU与BM1 6.8747/12.5953mWU，对原.5/.05和7/13，只conditional近闭合，未拟IC/Cov；37fs错输入会×10。Table4τerror不含stop，Berror用τ±25%allowance，不同budget保。
+
+AD/P实际还留1609/1997的5/2±，作者以τ推M2强度合理性排+；P不独断parity。三GeLi/AD共享monitor、各beam/target/90°或sourcebranch角色保持，actualQ/a/counts/threshold委托Butler1973，本篇不足认证其精确response。overlap/无shiftbounds/历史Williams差异与modelshellinterpretation分层。原布居式minus/abs literal边界保，不倒灌EK79error。
+
+canonicalWA77/linearpol/ledger/report单writeback/18prompt、script/input/result/scope/freeze齐。Decision`revises`Wiki转录、`limits`偏振符号与引用装置即可闭合response。verification064与publication050实际gate，原windowactive/17once/partial18；下一高信息Butler1973真实校准原件，不提前填结果或结束日程。

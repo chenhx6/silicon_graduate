@@ -2238,3 +2238,7 @@ CG可实现正ρ路径交换time-alignment耦合的解析design写回新research
 ### Day17 checkpoint049：实际39行alignment与误差域
 
 EK79完整6页新自审及39/32行输入/CG/残差核写回，12899byte人审prefix保。Eq6同data校准/feedingdesign/共享Cov边界齐，verification063/manifest049/H3发布，main / `Audit alignment prediction errors against the original 39-line compilation`，原windowactive/17once/partial18。
+
+### Day17 checkpoint050：61Ni原spin/fs转录与companion
+
+WA77全19页核纠旧Wikispin/370fs/ps，原claimflags保，新14待审；实际partialrate/τ与B不同预算/ADP后τcompanion写回canonical。verification064/manifest050/H3发布，main / `Correct original nickel spin and lifetime transcriptions with partial-rate audit`，原windowactive/17once/partial18。

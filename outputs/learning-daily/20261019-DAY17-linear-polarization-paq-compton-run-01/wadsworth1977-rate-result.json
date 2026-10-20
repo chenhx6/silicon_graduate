@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-20T00:55:44.482430+00:00",
+  "script_sha256": "2623b8dcba6c61e00f78560128378dd87ca1790e3c249751293395a56cdf538d",
+  "contract_sha256": "974df7c2408b7d44d9d52e1d64a6f5876122b319714d3e41e393c401dc199d90",
+  "tau_fs_to_ps": 0.37,
+  "declared_Weisskopf_E2_e2fm4": 14.264527839740184,
+  "declared_Weisskopf_M1_muN2": 1.7904931097838226,
+  "selected_branch_results": [
+    {
+      "Ef_keV": 0,
+      "BM1_muN2": 0.01230914512196412,
+      "BE2_e2b2": 0.0007421738873814271,
+      "BM1_milliWU_in_declared_units": 6.8747235354903315,
+      "BE2_WU_in_declared_units": 0.5202933428429168,
+      "reported_E2_WU": 0.5,
+      "reported_M1_milliWU": 7,
+      "not_tuned_to_close_reported_central_values": true
+    },
+    {
+      "Ef_keV": 67,
+      "BM1_muN2": 0.022551832577173216,
+      "BE2_e2b2": 6.667393177138145e-05,
+      "BM1_milliWU_in_declared_units": 12.595319386566105,
+      "BE2_WU_in_declared_units": 0.04674107164320684,
+      "reported_E2_WU": 0.05,
+      "reported_M1_milliWU": 13,
+      "not_tuned_to_close_reported_central_values": true
+    }
+  ],
+  "wrong_37fs_would_multiply_both_strengths_by": 10.0,
+  "Table4_908_lifetime_unit_bridge": {
+    "fs": 1600,
+    "ps": 1.6,
+    "ns": 0.0016
+  },
+  "source_abstract_908_1500pm400fs_vs_Table4_1600pm500fs_retained": true,
+  "same_photon_delta_magnitude_relation_control": true,
+  "no_IC_delta_branch_Cov_fitted_or_invented": true,
+  "no_new_experimental_Jpi_delta_tau_B_or_CI": true,
+  "ok": true
+}

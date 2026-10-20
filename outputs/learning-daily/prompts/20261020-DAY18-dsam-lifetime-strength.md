@@ -188,3 +188,6 @@ Day17checkpoint048 priming：[[feeding-time-alignment-joint-response]]解析desi
 
 
 Day17checkpoint049 priming：EK79原6页/6图/3表/6式与39/32行新核，旧人审prefix/9falseclaims保，新11待审。MANDYalpha2 max(.15alpha2,.04)同data校准不代Q/α4/σprior；Fig5二成feed是design、αp有效E有域，sigma=βJ/sqrt2是Eq5X2桥。sameparent/Cov/private/unpublished源保，无actualtimejointkernel/新τ/P/Q/δ。
+
+
+Day17checkpoint050 priming：WA77原19页/8图/4表新核，纠旧WikiintegerJ、1609 37→370fs/908ns→ps；旧claimflags保，新14待审。908abstract/Table值不同保持；τerror排stop但B用τ±25%allowance。AD/P仍留5/2±，τ/M2合理性是companion；fitteda0/90°branch/sourcebranch不同。Butler1973 actualQ/计数细节待下一原件，不能因装置引用迁response。

@@ -3,7 +3,7 @@ type: source
 title: "Wadsworth et al. 1977 - Gamma ray spectroscopy in 61Ni: levels below 2.2 MeV"
 aliases: [Wadsworth 1977 61Ni spectroscopy, 61Ni levels below 2.2 MeV]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -52,13 +52,15 @@ The paper determines the low-lying `61Ni` level scheme below 2.2 MeV, spin/parit
 
 ## Key Evidence and Reasoning Chain
 
-- Nine levels receive spin/parity assignments: 1015 (`3−`), 1454 (`3−`), 1609 (`5/2−`), 1807 (`7/2−`), 1987 (`5/2−`), 1997 (`7/2−`), 2018 (`5/2−`), 2121 (`7/2−`) and 2129 (`9/2−`, assignments as printed; Table 3/abstract).
-- The 656-keV level remains most likely `3/2−` rather than `5/2−` based on isotropic/zero-polarization branches, lifetime/E2-strength consistency and comparison with prior data.
-- 1015-keV `3−` assignment is strongly constrained by angular distribution/polarization; δ(948-keV)≈−2.46(16). 908-keV and 1454-keV levels provide strong DSAM/lifetime and E2 strengths.
-- Measured lifetimes range from ~1.5 ns for 908 keV to tens of femtoseconds for high levels; abstract values include 450(30) fs (1132), 140(20) fs (1186), 1200(290) fs (1454), 37(30) fs (1609), 99(8) fs (1729), 1600(250) fs (1807), 960(240) fs (1987), 72(6) fs (1997) and 580(60) fs (2018), with exact table locators retained in the PDF.
+- 本session原件纠正旧转录：1015/1454为7/2−、1609为5/2−、1807/1987为9/2−、1997为5/2−、2018为7/2−、2121为9/2+、2129为11/2−，均按原1977作者/Table3/Abstract，不作为新测或现代评价裁决。见WA77-D17-1。
+- 原作者对656-keV态偏好1/2−，保3/2−备选；AD/P零单独并未排3/2，另用寿命/外部B(E2)一致性，见WA77-D17-2。
+- 原1015-keV的7/2−由AD/P联合分析；948线δ=−2.46，Table3误差.15、正文/Table4误差.16分别保留。
+- 寿命按原fs单位：1609为370(30)fs（旧37误抄）；908摘要1500(400)fs、正文/Table4为1600(500)fs，是约1.5–1.6ps（旧ns误写），保来源内部差异。其余1132 450(30)、1186 140(20)、1454 1200(290)、1729 99(8)、1807 1600(250)、1987 960(240)、1997 72(6)、2018 580(60)、2124 84(6)fs，均作者结果而非本次新测。见WA77-D17-3/8。
 - `61Ni` low-lying positive-parity states and negative-parity particle-hole configurations are compared with shell-model predictions; older Williams et al. assignments/lifetimes are explicitly contrasted, including disagreement for the 1454-keV spin and many lifetimes.
 
 ## Key Results
+
+历史WA77-2含旧错误转录“3−”，**不再作为现行事实使用**；保留原行和needs_review状态以追溯，原件纠正以WA77-D17-1/2为准。WA77-4的falseflag保持，新增自审均待审。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
@@ -117,3 +119,29 @@ Spin/parity assignments depend on compound-nuclear population estimates, Rose–
 ## L3/L4 Follow-up
 
 - L3 question: reconcile `61Ni` level/lifetime/mixing-ratio lineages from Williams 1975, Wadsworth 1977, Meyer 1978 and later Samanta 2019 while preserving independent datasets. No L4 run: raw spectra/codes absent.
+
+
+## Day17完整原件自审：自旋转录、fs单位与互补判据
+
+本session已primed旧页，先冻主动回忆，再新读19页/8图/4表/1个未编号布居公式及全部p53references；Table3/4另旋转视觉核，不只信OCR。rawhash47533c460e7af3bdb01b6864790dc1f14aea69f4a1316ea4faf42eb28aec279a/889555bytes保持。旧WA77-1–4行/flags与review_status=unreviewed保；更正上述错误叙述，新增全部needs_review，不称human-reviewed。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WA77-D17-1 | 原作者1015/1454=7/2−、1609=5/2−、1807/1987=9/2−、1997=5/2−、2018=7/2−、2121=9/2+、2129=11/2−。旧Wiki整数3−与多项J错是转录问题，不是原作者或EK79彼此矛盾，原Table3/Abstract可核。 | source-transcription correction | direct | p.35 Abstract; pp.40–41 Table3 | true |
+| WA77-D17-2 | 656的三支AD/P与1/2−和3/2−都相容，作者另用粗τ<30ps、外部Andreev B(E2)↑5.9(.6)WU等取1/2−优选、保3/2−备选。RDM有实验困难仅粗关系，不能把本段当新精确时间测量或新课程卡。旧Wiki3/2vs5/2错。 | author-assignment and companion-boundary | direct | pp.37/39 Sec3.2 | true |
+| WA77-D17-3 | 原1609寿命370±30fs，非旧Wiki37fs；908摘要1500±400fs而正文/Table4 1600±500fs，不合并，均ps量级而非旧ns。Table4τ误差不含stop，而strength用τ±25%allowance计stop；不能把两个误差预算写成相同。 | units and uncertainty correction | direct | p.35 Abstract; p.42 Table4 and footnotes | true |
+| WA77-D17-4 | AD/P在7.8/11/13MeV同时测、三GeLi polarimeter在90°；AD用其scatterersingles一γ作externalmonitor，共归一依赖。7.8靶1mg/cm²/71%/厚Au，11/13靶760µg/cm²/87%；γγ8/8.5/12用不同selfsupportingtarget，不合并成同gate响应。 | actual-geometry and shared-normalization | direct | p.36 Sec2 | true |
+| WA77-D17-5 | P/A/Q校准细节委托Butler1973 NIM108497，本正文不给actualQ/a(E)/Comptoncounts/threshold合同。因此Table3“experimentalpolarization”是作者报告P，不是裸A，不能由本篇恢复Q或把1973装置名等同1977精确response。 | polarimeter-response readiness | direct and full-paper negative-check | p.36 Sec2; p.53 Butler reference | true |
+| WA77-D17-6 | 原用RoseBrink约定、CNRalignment和Gaussian-type β/x联合拟AD/P/δ/取向，以.1%CL拒spin、JT74方法给δerror；本文不展示完整Cov/actualrank或完整profile。p36印布居式缺显式minus/abs，保literal边界，不拿EK79后文补成1977producer。 | inference-contract and literal-boundary | direct | p.36 Sec2 population formula | true |
+| WA77-D17-7 | branching常用56Co/125Sb相对eff加AD fitteda0，但Table1/3图特别注明1729/2018取90°强度、2018弱支估自γγcounts、1186在Fig3取61Cuβ+source。不同角色/门/角响应不裸替，限值不作中心yield。 | actual-branch-input provenance | direct | pp.37–38 Table1; p.45 Fig3 caption | true |
+| WA77-D17-8 | DSAM由centroidchannel对cosθ直线与fullshift F=1比较，F→τ采用Blaugrund/Lindhard。Table4多F时给寿命weightedmean而非F先平均；908/1132/1454标feedingcorrected，1997/2018多beamtime。无actualstop/β0/fitCov，不给新τ/模型差原因。 | lifetime-response and aggregation | direct | p.37 Sec2; p.42 Table4; p.46 Fig4 | true |
+| WA77-D17-9 | 1609和1997的AD/P各仍允许5/2−与5/2+；作者加入τ及M2强度数百WU（1997约550±280WU）排正宇称。因此P本身/符号不独断parity，最终是强度合理性条件判据，不把作者解释标直接P观测。 | necessary-companion demonstration | direct-author inference | pp.47/49 Sec3.8/3.12; Figs5b/6 | true |
+| WA77-D17-10 | 原1609四γbranch37/54/5/4%与τ.370ps、δ.33/.07在声明γ-only/α0/标准WU下给BE2 .52029/.04674WU与BM1 6.8747/12.5953mWU，近Table4 .5/.05与7/13。只是源表单位/partialrate核，未知IC/Σ不拟合；错用37fs会都放大10倍。 | Codex actual-table exercise | derived conditional | pp.38/40/42 Tables1/3/4, 1609 rows | true |
+| WA77-D17-11 | 1454线在θ>45°受Dopplershifted1446重叠，仅partialAD误差大；2121受1099/1114近线无法测τ，仅>500fs。1015/2129无shift F<.02只作者τ>3ps模型界，不带统一CL。 | energy-overlap and null-limit counterevidence | direct | pp.45–46 Sec3.4/3.7; pp.50–51 Sec3.14/3.16 | true |
+| WA77-D17-12 | 908/1807与Williams1975寿命不同，作者提出cosθ点数3vs8等可能原因，非已证解释；1987γγ未见旧1334强支并新置四支，Table1保不同dataset。1975body未在本session核，不沿本篇复述冒称独立审完。 | historical-disagreement and source-independence | direct-author boundary | pp.39/49 Sec3.3/3.10–3.11; Table1 | true |
+| WA77-D17-13 | Fig8MSDI/ASDI为shellmodel比较，56Ni inertcore、p3/2/f5/2/p1/2价空间，参数由Ni数据拟；作者lowcollectivity为强度/模型解释，不等另一个独立测量。 | model-versus-observation | direct | pp.51–52 Fig8 and Sec4 | true |
+| WA77-D17-14 | 本session完整source不提供polarimeter原counts/response/actualΣ或stopping实现；没有re-fit δ/Jπ/τ。对EK79Ref7的同lab观测建立依赖，1979predictionerror不能倒写为1977actual误差。 | readiness and knowledge-impact | cross-source synthesis | p.36 methods; p.42 Table4; p.53 references | true |
+
+[新实际rate输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/wadsworth1977-rate-contract.json)与[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/wadsworth1977-rate-result.json)，script `system/scripts/day17_wadsworth1977_rate_audit.py`。声明WU定义只作为计算单位；原文没有给其完整WU公式，中央近似闭合不认证实际producer/IC/fitCov。
+
+本次`revises`旧Wiki整数spin/37fs/ns转录；`limits`Psign独断宇称、differentgatebranch和把先前装置校准当sameactualresponse。与[[ekstrom-1979-spin-alignment-attenuation-a61-a67]]、[[butler-1973-three-geli-compton-polarimeter]]、[[lifetime-strength-audit-165tm-136nd]]、[[linear-polarization-asymmetry]]相连。Butler是下一精确response原件入口，本段未预填其校准结果。

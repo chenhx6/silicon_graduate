@@ -1,0 +1,35 @@
+{
+  "A": 61,
+  "source": "WA77 Tables1/3/4 printed38/40/42; no IC values supplied here",
+  "parent_E_keV": 1609.3,
+  "tau_fs": 370,
+  "tau_sigma_fs_excludes_stopping": 30,
+  "all_gamma_branch_percent": [
+    37,
+    54,
+    5,
+    4
+  ],
+  "selected_branches": [
+    {
+      "Ef_keV": 0,
+      "Eg_keV": 1609.4,
+      "gamma_branch": 0.37,
+      "delta_E2_over_M1": 0.33,
+      "reported_E2_WU": 0.5,
+      "reported_M1_milliWU": 7
+    },
+    {
+      "Ef_keV": 67,
+      "Eg_keV": 1541.7,
+      "gamma_branch": 0.54,
+      "delta_E2_over_M1": 0.07,
+      "reported_E2_WU": 0.05,
+      "reported_M1_milliWU": 13
+    }
+  ],
+  "conditional_internal_conversion_alpha": 0,
+  "rate_constants": "tau_M1(ps)=.0569/(E_MeV^3 BM1_muN2); tau_E2(ps)=.0816/(E_MeV^5 BE2_e2b2)",
+  "Weisskopf_units_declared_not_source_identity": "R=1.2A^(1/3) fm; BE2=(1/4pi)(3/5)^2 R^4 e2fm4; BM1=(10/pi)(3/4)^2 muN2",
+  "not_fit_to_reported_numbers": true
+}

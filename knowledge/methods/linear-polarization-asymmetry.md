@@ -293,3 +293,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 模型取向误差不能替偏振响应校准
 
 [[ekstrom-1979-spin-alignment-attenuation-a61-a67]] EK79-D17-1/3/6/9明确alpha_k=ρ_k/ρ_kca与MANDYalpha2predictionerror对象；max(.15alpha2,.04)为同汇编校准，不能移给polarimeterQ/experimentalA/alpha4/σ/I。sameparent不同pureE2分支共享取向但fit/feeding/背景Σ未知；实际独立reference仍须samegate核，而非一条已知标签给通用误差。
+
+
+### 原实验AD与P仍可留下宇称候选
+
+[[wadsworth-1977-61ni-levels]] WA77-D17-4/5/9原19页复核：1609/1997的AD+P尚留5/2±，作者另用τ推M2数百WU排正宇称。Psign不独断parity；P为作者经校准报告量，本篇没有裸ComptonA/counts/Q。其AD与polarimeterscatterermonitor共享归一，装置委托Butler1973不能自动当1977精确response。原Wiki整数spin及寿命单位错误已定向纠正，源新claims仍待审。

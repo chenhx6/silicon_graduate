@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/wadsworth-1977-61ni-levels.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "wadsworth1977-rate-result.json",
+      "true_fields": [
+        "ok",
+        "source_abstract_908_1500pm400fs_vs_Table4_1600pm500fs_retained",
+        "same_photon_delta_magnitude_relation_control",
+        "no_IC_delta_branch_Cov_fitted_or_invented",
+        "no_new_experimental_Jpi_delta_tau_B_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

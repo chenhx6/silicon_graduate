@@ -451,3 +451,10 @@ p216原σ2=.143对A2=.225不闭合：完整CG/photon核给A2约.714；保持原�
 ### 取向误差的实际反应域
 
 [[ekstrom-1979-spin-alignment-attenuation-a61-a67]] EK79-D17-3/5/9/11的MANDY模型alpha2处方、hightreshold残差及20%feedingdesign提醒：预测误差/实验误差/实际feedingtime不是同对象。alpha,p有效能量2–3MeV差仅该域说明；不能给重离子DSAM/ComptonQ套相同floor或认定currenttimekernel已知。原α2/α4表新计算保共同parent/来源与Σ，不转实际τ/B/Qt修正。
+
+
+### 61Ni原实验的fs单位与强度companion
+
+[[wadsworth-1977-61ni-levels]] WA77-D17-1–14新19页核改旧Wiki：1609寿命370fs而非37、908为约1.5–1.6ps而非ns，9个Jπ分数/正负按原表；保WA77旧reviewflags。声明γ-only/α0与same-lineδ的1609两支给BE2约.520/.0467WU、BM1约6.87/12.60mWU，近原表而不调input；错τ37会使strength×10。
+
+Table4τ误差不含stop，strength采用τ±25%allowance；908摘要1500(400)fs与表1600(500)fs保差，不能一项预算复制所有物理量。1609/1997最终宇称依AD/P加τ/M2合理性，sourceP本身不足。1729/2018的90°branch、1186的61Cusource与其它fitteda0有不同inputrole；finitewindow/feeding/overlap使时角joint合同仍未闭合。

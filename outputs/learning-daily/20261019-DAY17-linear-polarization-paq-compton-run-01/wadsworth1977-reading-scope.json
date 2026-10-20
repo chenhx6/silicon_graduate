@@ -1,0 +1,70 @@
+{
+  "actual_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "actual_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "rotated_tables_visual_rechecked_pages": [
+    6,
+    7,
+    8
+  ],
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "tables": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "numbered_equations": [],
+  "unnumbered_population_formula_p36": "literal printed exponent lacks explicit minus/absolute sign; no producer inferred",
+  "references": "all printed p53 read, not all companion bodies acquired",
+  "original_figures_not_digitized": true,
+  "no_private_counts_or_actual_Qcalibration": true
+}
