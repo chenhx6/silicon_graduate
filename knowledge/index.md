@@ -19,6 +19,8 @@ updated: 2026-10-20
 
 ## Sources
 
+- [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
+
 - [[nndc-2010-fe58-reference-lifetime-lineage]] — exact官方811参考B/半衰期/静态Q同1981来源、旧DSAMhalf/mean与Gosia输入依赖；非重复实验。
 
 - [[woodside-2026-fe58-collectivity-coulex-dsam]] — 新Coulomb计数与带DSAM约束的Gosia输出分开；八phase/Q相关、旧data重分析与actualinput缺口。

@@ -588,3 +588,13 @@ F58-2/4给811half-life6.54(.19)ps→mean9.43523(.27411)ps，同paperadopted9.4(.
 F58-5/6还保oldreaction2076T.37ps→mean.5338ps与paperold.54的桥；Adoptedtarget.28ps是三个oldhalflife的加权，不是2026newτ。RI76.4与δ−.69属于F58-7的另一2+2支路输入，不能当全parentphotonbranch或用旧half替新mean。
 
 认识变化是原“independentreference lifetime”箭头要回到同CoulombB。actualGosia是否重复使用该primitive、normalization有何特殊处理，仍需原weights/job，不能因官方依赖就判doublecount已发生或给CI修正。下一输入优先原1981Coulomb的B/Q/矩阵元合同、Gosia可执行输入/去targetτprofile及独立静态Q，而非继续同一率换算。
+
+## Day18新106Ag原件：共同寿命消去与形状解释边界
+
+[[rather-2014-ag106-transition-rates]] RA14-1–5是本session新完整原读的arxiv1310.7731v1：12页、3图、1表，VoR未得。INGA/96Zr14N4n/68MeV与Bark review的AFRODITE叙述先按不同采集分层；1fs/5000histories/shell-correctedNorthcliffe与Jensen5fs/三步、MU08的2fs/五步/SRIM均不可混用。18/19effectivefeeding、17强度加权topfeed及12的490abovegate是实际输入，不称全部feeding已消。
+
+RA14-6的新[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rather-ag106-input-contract-005.json)、[程序](../../system/scripts/day18_ag106_published_rate_contrasts.py)/[16项结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rather-ag106-input-result-005.json)用真实12行TableI。在固定分支/ICC/多极成分条件下，同母态BM1/BE2消共同τ；再比较partner/main与spin15/17，得到S15/S17=22624/3105≈7.2863124。每态各自共同normalizer都可消，不要求两个带τ相同；线特异eff/δ/branch/response误差不消，仍无实验CI。这扩展MU08每带常数标尺contrast，但不是独立data。
+
+RA14-7仅反证额外独立SD解释：B∝1/τ且强度独立时，main12/13的寿命至少给BM1局部SD.07625/.16190，而原表为.01/.02。不能据此修表、猜真实Cov或指控作者计算错。RA14-8保正文17dip/peak与TableI/Fig2中心15minimum/maximum不一致；partner18literal0.1(2)原样保，不改为.10(.02)。
+
+RA14-9/10的同B(E2)/异B(M1)与TPSM解释分开：epsilon.15/gamma30°是模型输入，两个不同Nilsson2qp态仍同名pi g9/2 nu h11/2，不能只由B近似相等唯一测出相同形状。RA14-11/12与[[106ag]]还保二手Bark反应90+14−4=100不闭106；不改raw、不拿Rather96靶倒填Lieder。另一primary Lieder PRL112202502仍只有metadata/访问失败，故双原件比较partial，不映射main/partner到reviewBands1–3。

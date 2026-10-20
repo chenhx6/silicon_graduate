@@ -1,0 +1,366 @@
+{
+  "scope": "sourcegrounded centralrate/ratiodesign; do not refit originalτ, reconstructunprovidedbranches, or generateexperimentalCI",
+  "contract_sha256": "c9350a7623a6afc6d8625ba75e7abba84b1a4791e0b37c96cfa6f640898f76fc",
+  "script_sha256": "fda850f975e6ea5ab9f9631dddd00215f767c351664712f03c6ab3bf7747c753",
+  "source_rows_literal": [
+    {
+      "band": "main",
+      "spin": 12,
+      "tau_ps": ".32",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": "1.22",
+      "BM1_parenthesis_if_SD_muN2": ".01",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 13,
+      "tau_ps": ".21",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": "1.70",
+      "BM1_parenthesis_if_SD_muN2": ".02",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 14,
+      "tau_ps": ".25",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": ".80",
+      "BM1_parenthesis_if_SD_muN2": ".06",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 15,
+      "tau_ps": ".23",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": ".45",
+      "BM1_parenthesis_if_SD_muN2": ".07",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 16,
+      "tau_ps": ".17",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": ".67",
+      "BM1_parenthesis_if_SD_muN2": ".07",
+      "BE2_e2b2": ".09",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.09(1)"
+    },
+    {
+      "band": "main",
+      "spin": 17,
+      "tau_ps": ".12",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": "1.12",
+      "BM1_parenthesis_if_SD_muN2": ".12",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".02",
+      "BE2_printed_literal": "0.10(2)"
+    },
+    {
+      "band": "partner",
+      "spin": 14,
+      "tau_ps": "1.77",
+      "tau_parenthesis_if_SD_ps": ".10",
+      "BM1_muN2": ".68",
+      "BM1_parenthesis_if_SD_muN2": ".04",
+      "BE2_e2b2": ".13",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.13(1)"
+    },
+    {
+      "band": "partner",
+      "spin": 15,
+      "tau_ps": ".31",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": "2.02",
+      "BM1_parenthesis_if_SD_muN2": ".12",
+      "BE2_e2b2": ".12",
+      "BE2_parenthesis_if_SD_e2b2": ".02",
+      "BE2_printed_literal": "0.12(2)"
+    },
+    {
+      "band": "partner",
+      "spin": 16,
+      "tau_ps": ".42",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": ".49",
+      "BM1_parenthesis_if_SD_muN2": ".03",
+      "BE2_e2b2": ".09",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.09(1)"
+    },
+    {
+      "band": "partner",
+      "spin": 17,
+      "tau_ps": ".26",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": ".69",
+      "BM1_parenthesis_if_SD_muN2": ".06",
+      "BE2_e2b2": ".12",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.12(1)"
+    },
+    {
+      "band": "partner",
+      "spin": 18,
+      "tau_ps": ".09",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": "1.42",
+      "BM1_parenthesis_if_SD_muN2": ".16",
+      "BE2_e2b2": ".1",
+      "BE2_parenthesis_if_SD_e2b2": ".2",
+      "BE2_printed_literal": "0.1(2)"
+    },
+    {
+      "band": "partner",
+      "spin": 19,
+      "tau_ps": ".11",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": ".79",
+      "BM1_parenthesis_if_SD_muN2": ".09",
+      "BE2_e2b2": ".13",
+      "BE2_parenthesis_if_SD_e2b2": ".02",
+      "BE2_printed_literal": "0.13(2)"
+    }
+  ],
+  "spin_contrasts": [
+    {
+      "spin": 14,
+      "partner_over_main_BM1": 0.85,
+      "partner_over_main_BE2": 1.3,
+      "same_parent_M1_E2_double_ratio": 0.6538461538461539,
+      "exact_same_parent_double_ratio": "17/26"
+    },
+    {
+      "spin": 15,
+      "partner_over_main_BM1": 4.488888888888889,
+      "partner_over_main_BE2": 1.2,
+      "same_parent_M1_E2_double_ratio": 3.740740740740741,
+      "exact_same_parent_double_ratio": "101/27"
+    },
+    {
+      "spin": 16,
+      "partner_over_main_BM1": 0.7313432835820896,
+      "partner_over_main_BE2": 1.0,
+      "same_parent_M1_E2_double_ratio": 0.7313432835820896,
+      "exact_same_parent_double_ratio": "49/67"
+    },
+    {
+      "spin": 17,
+      "partner_over_main_BM1": 0.6160714285714286,
+      "partner_over_main_BE2": 1.2,
+      "same_parent_M1_E2_double_ratio": 0.5133928571428571,
+      "exact_same_parent_double_ratio": "115/224"
+    }
+  ],
+  "S15_over_S17_exact": "22624/3105",
+  "S15_over_S17": 7.286312399355878,
+  "independent_SD_reductio_rows": [
+    {
+      "band": "main",
+      "spin": 12,
+      "literal_quoted_BM1_error_if_SD": 0.01,
+      "minimum_local_BM1_SD_from_independent_tau": 0.07625,
+      "extra_independent_SD_interpretation_compatible_at_centers": false,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "main",
+      "spin": 13,
+      "literal_quoted_BM1_error_if_SD": 0.02,
+      "minimum_local_BM1_SD_from_independent_tau": 0.1619047619047619,
+      "extra_independent_SD_interpretation_compatible_at_centers": false,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "main",
+      "spin": 14,
+      "literal_quoted_BM1_error_if_SD": 0.06,
+      "minimum_local_BM1_SD_from_independent_tau": 0.064,
+      "extra_independent_SD_interpretation_compatible_at_centers": false,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "main",
+      "spin": 15,
+      "literal_quoted_BM1_error_if_SD": 0.07,
+      "minimum_local_BM1_SD_from_independent_tau": 0.0391304347826087,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "main",
+      "spin": 16,
+      "literal_quoted_BM1_error_if_SD": 0.07,
+      "minimum_local_BM1_SD_from_independent_tau": 0.039411764705882354,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "main",
+      "spin": 17,
+      "literal_quoted_BM1_error_if_SD": 0.12,
+      "minimum_local_BM1_SD_from_independent_tau": 0.09333333333333334,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "partner",
+      "spin": 14,
+      "literal_quoted_BM1_error_if_SD": 0.04,
+      "minimum_local_BM1_SD_from_independent_tau": 0.0384180790960452,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "partner",
+      "spin": 15,
+      "literal_quoted_BM1_error_if_SD": 0.12,
+      "minimum_local_BM1_SD_from_independent_tau": 0.06516129032258064,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "partner",
+      "spin": 16,
+      "literal_quoted_BM1_error_if_SD": 0.03,
+      "minimum_local_BM1_SD_from_independent_tau": 0.023333333333333334,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "partner",
+      "spin": 17,
+      "literal_quoted_BM1_error_if_SD": 0.06,
+      "minimum_local_BM1_SD_from_independent_tau": 0.02653846153846154,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "partner",
+      "spin": 18,
+      "literal_quoted_BM1_error_if_SD": 0.16,
+      "minimum_local_BM1_SD_from_independent_tau": 0.15777777777777777,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    },
+    {
+      "band": "partner",
+      "spin": 19,
+      "literal_quoted_BM1_error_if_SD": 0.09,
+      "minimum_local_BM1_SD_from_independent_tau": 0.07181818181818182,
+      "extra_independent_SD_interpretation_compatible_at_centers": true,
+      "not_an_experimental_significance_or_CI": true
+    }
+  ],
+  "literal_prose_table_boundary": {
+    "main_min_spin_from_table": 15,
+    "partner_max_spin_from_table": 15,
+    "source_prose_spin": 17,
+    "no_spin_or_band_labels_repaired": true
+  },
+  "mass_number_role_controls": [
+    {
+      "targetA": 90,
+      "beamA": 14,
+      "neutrons": 4,
+      "printedproductA": 106,
+      "mass_conserving_productA": 100,
+      "closes_to_printed_product": false
+    },
+    {
+      "targetA": 96,
+      "beamA": 14,
+      "neutrons": 4,
+      "printedproductA": 106,
+      "mass_conserving_productA": 106,
+      "closes_to_printed_product": true
+    }
+  ],
+  "actual_experimental_Cov_or_original_fit_recovered": false,
+  "Lieder_primary_body_read": false,
+  "checks": [
+    {
+      "name": "I14_per_parent_rate_scale_2_3",
+      "passed": true
+    },
+    {
+      "name": "I14_per_parent_rate_scale_3/4_11/7",
+      "passed": true
+    },
+    {
+      "name": "I15_per_parent_rate_scale_2_3",
+      "passed": true
+    },
+    {
+      "name": "I15_per_parent_rate_scale_3/4_11/7",
+      "passed": true
+    },
+    {
+      "name": "I16_per_parent_rate_scale_2_3",
+      "passed": true
+    },
+    {
+      "name": "I16_per_parent_rate_scale_3/4_11/7",
+      "passed": true
+    },
+    {
+      "name": "I17_per_parent_rate_scale_2_3",
+      "passed": true
+    },
+    {
+      "name": "I17_per_parent_rate_scale_3/4_11/7",
+      "passed": true
+    },
+    {
+      "name": "spin15_to17_contrast_exact",
+      "passed": true,
+      "exact": "22624/3105",
+      "value": 7.286312399355878
+    },
+    {
+      "name": "main12_displayed_SD_reductio",
+      "passed": true
+    },
+    {
+      "name": "main13_displayed_SD_reductio",
+      "passed": true
+    },
+    {
+      "name": "partner18_literal_preserved",
+      "passed": true
+    },
+    {
+      "name": "printed_main_min_is15",
+      "passed": true
+    },
+    {
+      "name": "printed_partner_max_is15",
+      "passed": true
+    },
+    {
+      "name": "review_literal90_does_not_close106",
+      "passed": true
+    },
+    {
+      "name": "primary_Rather96_closes106",
+      "passed": true
+    }
+  ],
+  "checks_total": 16,
+  "checks_passed": 16,
+  "all_passed": true
+}

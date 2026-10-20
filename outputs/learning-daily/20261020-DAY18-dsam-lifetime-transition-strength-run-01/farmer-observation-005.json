@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-20T09:29:23.717519+00:00",
+  "running": true,
+  "owner": {
+    "pid": 42019,
+    "root": "/workspace/wiki",
+    "started_at": "2026-10-16T01:21:37.124848+00:00"
+  },
+  "thread": {
+    "status": "running",
+    "event_key": "01a1582a-08be-7ff2-ae78-e89607140d5d:01a158a4-a730-7ff3-b319-4ced367c1095:2026-10-20T09:29:08.151Z",
+    "attempts": 0,
+    "pending": false,
+    "next_at": 0,
+    "last_event_timestamp": "2026-10-20T09:29:08.151Z"
+  },
+  "other_pending": 2
+}

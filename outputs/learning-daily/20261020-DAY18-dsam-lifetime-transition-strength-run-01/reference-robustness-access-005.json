@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "levine-osti",
+    "url": "https://www.osti.gov/api/v1/records?search=%2210.1103/PhysRevC.23.244%22",
+    "status": 200,
+    "bytes": 3975,
+    "type": "application/xml",
+    "final_url": "https://www.osti.gov/api/v1/records?search=%2210.1103/PhysRevC.23.244%22",
+    "scope": "no PDF or structuredmetadata, no bodyread"
+  },
+  {
+    "tag": "petkov-legacy",
+    "url": "https://aip.scitation.org/doi/pdf/10.1063/1.5026580",
+    "status": 403,
+    "bytes": 93,
+    "type": "text/html",
+    "final_url": "https://aip.scitation.org/doi/pdf/10.1063/1.5026580"
+  },
+  {
+    "tag": "petkov-doaj",
+    "url": "https://doaj.org/api/articles/54f89b8cde0c400ca7f0542981508e31",
+    "status": 200,
+    "bytes": 1645,
+    "type": "application/json",
+    "final_url": "https://doaj.org/api/articles/54f89b8cde0c400ca7f0542981508e31",
+    "metadata": {
+      "title": "Robustness of the analysis of Doppler-shift attenuation lifetime measurements according to the coincidence differential decay curve method with respect to class of uncertainties in the stopping powers",
+      "year": "2018",
+      "month": "7",
+      "abstract": "It is shown that the Differential decay curve method applied to analyze coincidence Doppler-shift attenuation lifetime measurements with a gate on the shifted component of a directly feeding feeding transition is characterized by stable results within scaling variations of the stopping powers of up to 15% at least. This is due to cancellation in the formula used for the lifetime determination while when using the traditional data analysis methods the imprecision in the stopping powers cannot be surrounded.",
+      "journal": {
+        "start_page": "075305",
+        "end_page": "075305-5",
+        "volume": "8",
+        "number": "7",
+        "publisher": "AIP Publishing LLC",
+        "title": "AIP Advances",
+        "country": "US",
+        "language": [
+          "EN"
+        ]
+      },
+      "identifier": [
+        {
+          "type": "pissn",
+          "id": "2158-3226"
+        },
+        {
+          "type": "doi",
+          "id": "10.1063/1.5026580"
+        }
+      ],
+      "link": [
+        {
+          "type": "fulltext",
+          "url": "http://dx.doi.org/10.1063/1.5026580"
+        }
+      ],
+      "author": [
+        {
+          "name": "P. Petkov",
+          "affiliation": "“Horia Hulubei” National Institute for Physics and Nuclear Engineering, R-76900 Bucharest-Magurele, Romania"
+        }
+      ],
+      "subject": [
+        {
+          "scheme": "LCC",
+          "term": "Physics",
+          "code": "QC1-999"
+        }
+      ]
+    }
+  }
+]

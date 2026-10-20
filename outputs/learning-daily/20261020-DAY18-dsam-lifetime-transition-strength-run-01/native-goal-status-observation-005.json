@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-20T17:13:27.884342+08:00",
+  "thread_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "get_goal_observed_status": "blocked",
+  "status_change_requested_by_this_task": false,
+  "last_assistant_goal_mutation": "create_goal initialstartup; no update_goal blocked/paused requested",
+  "current_user_instruction": "farmerresume continueexistingtask preserveobjective/context/files/model/state",
+  "research_progress_available": "Ratherprimaryfullreadingcomplete; freshquantitative/canonicaldeliverypending, thenotherhighvalueroutes",
+  "action": "continueuser-authorized same task with existingplan; preservegoalobjective; no duplicatecreate or unsupportedactive update; no finalcompletion inferred",
+  "original_deadline": "2026-10-21T15:00:00+08:00"
+}

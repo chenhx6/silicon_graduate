@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含21atomic映射项/8owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含26atomic映射项/10owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -48,6 +48,10 @@ updated: 2026-10-20
 当前首交付完成后仍有原方法/校准高价值路线，不能用两个槽位读完提前收束。最新时间快照与候选更新随checkpoint记录；硬截止次日15点保持。
 
 ## Sources and evidence
+
+### checkpoint005：106Ag实际DSAM与partial双原件
+
+[[rather-2014-ag106-transition-rates]]新完整原读arxiv1310.7731v1十二页/3fig1table，VoR未得；RA14-1–12均待审。真实12行新contrast S15/S17=7.2863124消每母态共同τ/normalizer但不消line-specific输入，16checks不替原fitΣ。原0.1(2)、prose17vs中心15及独立SD解释边界保原；TPSM同形变是模型条件，非只由相似BE2唯一实测。Lieder112202502只metadata/访问失败，无双原件结论；Bark90+14−4=100不闭106的literal记录不倒改原文/认证Lieder靶。新写回source/nucleus/method/note/index，当前合计26items/10owning页、51新claims待审。
 
 ### checkpoint004：官方reference的同源B/τ与halfmean
 
@@ -651,6 +655,193 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "F58-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+      "anchor": "Key Results",
+      "summary": "新完整12页/3图1表、DSAMfeeding和同母态contrast/uncertainty/prose界；Lieder正文缺",
+      "sources": [
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-1"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-2"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-3"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-4"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-5"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-6"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-7"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-8"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-9"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-10"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-11"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Day18新106Ag原件：共同寿命消去与形状解释边界",
+      "summary": "真实12行与7.2863124contrast；不当相同形状唯一识别/新实验CI",
+      "sources": [
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-3"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-4"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-5"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-6"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-7"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-8"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-9"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-10"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-11"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "Day18 Ag106：同母态ratio的有限抵消",
+      "summary": "同母态ratio消共同τ的有限域，line-specific nuisance仍保留",
+      "sources": [
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-3"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-4"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-6"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-7"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-8"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-9"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/106ag.md",
+      "anchor": "Rather primary: rates and model interpretation",
+      "summary": "更新primary/secondary范围与review反应质量数literal错误，Lieder/带标映射仍缺",
+      "sources": [
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-2"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-5"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-6"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-9"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-10"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-11"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "新原读106Ag的12页DSAM",
+      "summary": "新增Ag106原件及partial双primary导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-1"
+        },
+        {
+          "path": "knowledge/sources/rather-2014-ag106-transition-rates.md",
+          "locator": "RA14-12"
+        }
+      ]
     }
   ]
 }
@@ -666,7 +857,9 @@ L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原�
 
 ## Verification and continuation
 
-checkpoint004首次lint005将矩阵的双中括号误认Wiki链接而报两error；已换明确行记法、数值/claim/flags不变，失败保留。当前verification007/report/21writeback项8页/partial18coverage/lint006/boundary004/diff和13newchecks实际通过；lint0errors247warnings（4parse165key78raw槽）。Farmer42019仍running，本thread无pending、全Wiki另2pending；原window/goalactive，next18/count17保持。
+checkpoint005已实际提交，稳定指针main / `Audit Ag106 primary transition rates and bounded lifetime cancellation`；精确hash/H3/远端结果只publication005回执。verification008/report/26writeback项10页/partial18coverage/lint007/boundary005/diff实际通过；0errors249warnings，Ag106新16checks通过。原继承dirty/PLAN/Bib/41旧claim保持，isolateddaemon不入stage；Farmer42019running、本threadpendingfalse、全Wiki另2pending。nativegoal最新实际blocked，用户resume后研究继续。
+
+checkpoint004首次lint005将矩阵的双中括号误认Wiki链接而报两error；已换明确行记法、数值/claim/flags不变，失败保留。当前verification007/report/21writeback项8页/partial18coverage/lint006/boundary004/diff和13newchecks实际通过；lint0errors247warnings（4parse165key78raw槽）。Farmer42019仍running，本thread无pending、全Wiki另2pending；原研究窗口继续；nativegoal最新实际观察blocked（未由助手申请），用户明确resume后仍按原objective推进，next18/count17保持。
 
 checkpoint003的verification005/lint004/boundary003/report/16writeback项7页/diff已实际通过，0errors245warnings（4parse164key77raw槽）；新phase20checks与旧sourceflags保持。
 
@@ -675,6 +868,6 @@ checkpoint003的verification005/lint004/boundary003/report/16writeback项7页/di
 
 启动boundary/preflight实际exit0；cleanknowledgeEOL实际无refresh/restore/substantive/mixed，继承15tracked修改及858未跟踪状态按baseline保护。来源前回忆15:19:50上海带session/hash冻结，source/raw之后才开。既有FarmerPID42019保持，无newdaemon/session/调度。首轮script25/25、report/partial18coverage/唯一writeback4页、boundary/preflight/lint/diff实际通过；lint0errors241warnings（4reactionparse、162citationkey、75rawarchive槽）。verification001的整体保护曾因继承daemon脚本在基线后被外部修改而失败；[隔离记录](20261020-DAY18-dsam-lifetime-transition-strength-run-01/external-change-isolation-001.json)明确此文件未由本任务修改、无科学/提交重叠、始终排除stage，初失败保留。其余继承tracked、PLAN/Bib/recall及41条旧sourceclaim/元数据保持。Git发布结果另在实际publicationreceipt保存。
 
-本checkpoint时间2026-10-20T15:29:57.901899+08:00，距原次日15点仍有足够窗口；run/goal保持active，继续原方法/校准高价值问题。Day18课程最终只推进一次，当前next18/count17不变，不因首交付完成提前结束整段窗口。QMD/overview本次deferred，未以缓存状态作新物理证据。
+首checkpoint时间2026-10-20T15:29:57.901899+08:00，距原次日15点仍有足够窗口；研究继续；nativegoal现status见最新观察回执，继续原方法/校准高价值问题。Day18课程最终只推进一次，当前next18/count17不变，不因首交付完成提前结束整段窗口。QMD/overview本次deferred，未以缓存状态作新物理证据。
 
 Resume：`codex resume 01a1582a-08be-7ff2-ae78-e89607140d5d -C /workspace/wiki -s danger-full-access -a never`。续接见[continuation-current](20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md)。

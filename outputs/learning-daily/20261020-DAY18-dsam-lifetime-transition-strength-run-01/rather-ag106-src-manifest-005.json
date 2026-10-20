@@ -1,0 +1,24 @@
+{
+  "url": "https://arxiv.org/src/1310.7731v1",
+  "status": 200,
+  "bytes": 26486,
+  "sha256": "93e14003650d6cfb22653f5976e0589a6be8a80bd5796f3b9724b1a6f1a2c9de",
+  "members": [
+    {
+      "name": "106Ag_Final.tex",
+      "size": 26537
+    },
+    {
+      "name": "106Ag_Transition_gam-30-new.eps",
+      "size": 23700
+    },
+    {
+      "name": "106Ag_lineshape.eps",
+      "size": 30485
+    },
+    {
+      "name": "106ag_wave.eps",
+      "size": 48417
+    }
+  ]
+}

@@ -235,3 +235,7 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ### 同边际与联合响应的区别
 
 [[feeding-time-alignment-joint-response]]从[[draper-1970-gaussian-substate-side-feeding]] DR70-D17-1/2/10明确另作解析design：两个正的CG可实现路径交换time-alignment关联时，总时间密度与积分ρ相同，逐角Doppler速度矩仍可不同。actual多角line-shape/feeding标记及jointΣ才可能约束该耦合；design差不当当前核τbias，90°point不以零shift倒推F。
+
+## Day18 Ag106：同母态ratio的有限抵消
+
+[[rather-2014-ag106-transition-rates]] RA14-3/4/6给新的完整primary实例：1fs/5000histories/shell-correctedNorthcliffe、逐级feeding及12的abovegate，不可迁成其它原件的同producer。固定branch/ICC/multipole时同母态BM1/BE2消共同τ，再作跨带/跨spincontrast；不消line-specific intensity/δ/response，不生成独立实验CI。RA14-7/8的quotederror与prose/table边界保原。RA14-9/10将相似B(E2)与同meanfieldshape模型解释分列；Liederbody未得，不称两primary已一致或冲突已裁决。

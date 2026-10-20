@@ -1,0 +1,164 @@
+{
+  "frozen_at": "2026-10-20T17:13:27.884342+08:00",
+  "source": "arxiv1310.7731v1 actual12pages/3fig1table no numberedformalism equations; PRL2014metadataonly",
+  "pdf_sha256": "f2c4d8340087095ab2175bd9f319e1271c6187199c86faad0e2bf37d330ab006",
+  "rows": [
+    {
+      "band": "main",
+      "spin": 12,
+      "tau_ps": ".32",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": "1.22",
+      "BM1_parenthesis_if_SD_muN2": ".01",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 13,
+      "tau_ps": ".21",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": "1.70",
+      "BM1_parenthesis_if_SD_muN2": ".02",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 14,
+      "tau_ps": ".25",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": ".80",
+      "BM1_parenthesis_if_SD_muN2": ".06",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 15,
+      "tau_ps": ".23",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": ".45",
+      "BM1_parenthesis_if_SD_muN2": ".07",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.10(1)"
+    },
+    {
+      "band": "main",
+      "spin": 16,
+      "tau_ps": ".17",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": ".67",
+      "BM1_parenthesis_if_SD_muN2": ".07",
+      "BE2_e2b2": ".09",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.09(1)"
+    },
+    {
+      "band": "main",
+      "spin": 17,
+      "tau_ps": ".12",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": "1.12",
+      "BM1_parenthesis_if_SD_muN2": ".12",
+      "BE2_e2b2": ".10",
+      "BE2_parenthesis_if_SD_e2b2": ".02",
+      "BE2_printed_literal": "0.10(2)"
+    },
+    {
+      "band": "partner",
+      "spin": 14,
+      "tau_ps": "1.77",
+      "tau_parenthesis_if_SD_ps": ".10",
+      "BM1_muN2": ".68",
+      "BM1_parenthesis_if_SD_muN2": ".04",
+      "BE2_e2b2": ".13",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.13(1)"
+    },
+    {
+      "band": "partner",
+      "spin": 15,
+      "tau_ps": ".31",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": "2.02",
+      "BM1_parenthesis_if_SD_muN2": ".12",
+      "BE2_e2b2": ".12",
+      "BE2_parenthesis_if_SD_e2b2": ".02",
+      "BE2_printed_literal": "0.12(2)"
+    },
+    {
+      "band": "partner",
+      "spin": 16,
+      "tau_ps": ".42",
+      "tau_parenthesis_if_SD_ps": ".02",
+      "BM1_muN2": ".49",
+      "BM1_parenthesis_if_SD_muN2": ".03",
+      "BE2_e2b2": ".09",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.09(1)"
+    },
+    {
+      "band": "partner",
+      "spin": 17,
+      "tau_ps": ".26",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": ".69",
+      "BM1_parenthesis_if_SD_muN2": ".06",
+      "BE2_e2b2": ".12",
+      "BE2_parenthesis_if_SD_e2b2": ".01",
+      "BE2_printed_literal": "0.12(1)"
+    },
+    {
+      "band": "partner",
+      "spin": 18,
+      "tau_ps": ".09",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": "1.42",
+      "BM1_parenthesis_if_SD_muN2": ".16",
+      "BE2_e2b2": ".1",
+      "BE2_parenthesis_if_SD_e2b2": ".2",
+      "BE2_printed_literal": "0.1(2)"
+    },
+    {
+      "band": "partner",
+      "spin": 19,
+      "tau_ps": ".11",
+      "tau_parenthesis_if_SD_ps": ".01",
+      "BM1_muN2": ".79",
+      "BM1_parenthesis_if_SD_muN2": ".09",
+      "BE2_e2b2": ".13",
+      "BE2_parenthesis_if_SD_e2b2": ".02",
+      "BE2_printed_literal": "0.13(2)"
+    }
+  ],
+  "locator": "PDF11 TableI; PDF5 extraction/errorbudget; PDF9 Fig2; TeX318–331",
+  "question": "Which publishedratecontrasts cancel eachlevelτ, and which printeduncertainties/prose cannot be treated as a closedjointSDinventory?",
+  "analysis_scope": "sourcegrounded centralrate/ratiodesign; do not refit originalτ, reconstructunprovidedbranches, or generateexperimentalCI",
+  "same_parent_ratio_assumption": "BM1/BE2 share same totalmeanτ; fixedphotoninventory/multipolefractions; perparentcommonmultiplier cancels; line-specificeff/δ/branchbiasdoesnot",
+  "error_reductio": "only if parenthesesare independentSDs, localB∝1/τ withindependentnumerator, andτ/intensityuncertainties addedquadrature exactlyasextraassumptions; violationsare interpretationboundary notauthorerror or CI",
+  "literal_boundaries": [
+    "PDF1 dateMarch8,2021 whilearxivv1submissionOct29,2013; sourceTeXdate{today}",
+    "prosePDF5 saysmain17dip/partner17peak; TableI/Fig2centralmain15dip/partner15peak; retainoriginalroles, no spinrepair",
+    "TableIpartner18 BE2literal0.1(2) notsilentlychangedto.10(.02)",
+    "reviewBark2024Table1PDF9literal90Zr14N4n→106Ag failsAclosure; do not correctraw or assumeLiederactualtarget fromRather"
+  ],
+  "mass_checks": [
+    {
+      "targetA": 90,
+      "beamA": 14,
+      "neutrons": 4,
+      "printedproductA": 106
+    },
+    {
+      "targetA": 96,
+      "beamA": 14,
+      "neutrons": 4,
+      "printedproductA": 106
+    }
+  ]
+}

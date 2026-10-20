@@ -1,0 +1,33 @@
+[
+  {
+    "tag": "lieder-publisher",
+    "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.202502",
+    "status": 403,
+    "bytes": 5574,
+    "type": "text/html; charset=UTF-8",
+    "final_url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.202502"
+  },
+  {
+    "tag": "rather-publisher",
+    "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.202503",
+    "status": 403,
+    "bytes": 5574,
+    "type": "text/html; charset=UTF-8",
+    "final_url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.202503"
+  },
+  {
+    "tag": "lieder-fraunhofer",
+    "url": "https://publica.fraunhofer.de/handle/publica/236355",
+    "error": "ConnectionError: HTTPSConnectionPool(host='publica.fraunhofer.de', port=443): Max retries exceeded with url: /handle/publica/236355 (Caused by NewConnectionError(\"HTTPSConnectio"
+  },
+  {
+    "tag": "lieder-juelich",
+    "url": "https://juser.fz-juelich.de/search?ln=en&p=doi%3A10.1103%2FPhysRevLett.112.202502&of=recjson",
+    "status": 200,
+    "bytes": 248,
+    "type": "text/html; charset=UTF-8",
+    "final_url": "https://juser.fz-juelich.de/search?ln=en&p=doi%3A10.1103%2FPhysRevLett.112.202502&of=recjson",
+    "title": "",
+    "links": []
+  }
+]

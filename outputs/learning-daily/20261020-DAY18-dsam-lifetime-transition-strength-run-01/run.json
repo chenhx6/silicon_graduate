@@ -63,21 +63,31 @@
   },
   "manual_reconciliation": {
     "user_resumed_same_session": true,
-    "native_goal_active": true,
+    "native_goal_active": false,
     "original_waiter_interrupted_at": "2026-10-20T15:16:49.267165+08:00",
     "normal_runner_exit_observed": false,
     "runner_returncode": null,
-    "original_deadline_preserved": true
+    "original_deadline_preserved": true,
+    "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
-  "research_status": "active",
-  "last_checkpoint": "003 published; officialreferencequestionactive",
+  "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
+  "last_checkpoint": "005 committed; original Day18 research continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Trace Fe58 Coulomb input dependencies and exact relative phase classes",
-    "commit_hash": "7e17f098d9d9ae2681646b62ff41e881946e8e34",
+    "subject": "Resolve Fe58 reference lifetime and Coulomb strength source lineage",
+    "commit_hash": "3035f4f484cc430ac0d23237f33d00c8c69f067a",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-003.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-004.json"
+  },
+  "native_goal_last_observation": {
+    "status": "blocked",
+    "receipt": "native-goal-status-observation-005.json",
+    "assistant_requested_status_change": false
+  },
+  "current_checkpoint_pointer": {
+    "branch": "main",
+    "subject": "Audit Ag106 primary transition rates and bounded lifetime cancellation"
   }
 }

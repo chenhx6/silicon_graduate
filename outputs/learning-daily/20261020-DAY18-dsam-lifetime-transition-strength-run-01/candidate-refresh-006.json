@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-20T16:58:22.658342+08:00",
+  "deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 1321.6223609666667,
+  "decision": "currentday18 highvalue pool rebuilt; no nextcard",
+  "locally_blocked_routes": [
+    {
+      "route": "LeVine1981 referencebody",
+      "scope": "Crossref/OpenAlex/OSTIexactidentity, OSTIonlycitation; publisherrestricted/PDF403; no body/Cov"
+    },
+    {
+      "route": "Petkov2018 robustnessbody",
+      "scope": "goldOAmetadata/abstractconfirmed, direct/legacyPDF403/providerunavailable/Jina401; arxivquerytimeout; no bodyformulaclaims"
+    }
+  ],
+  "next_candidate": "106Ag dualDSAM currentWiki openlineage/competinginterpretations",
+  "reason": "independenthighspinprimarytransitionrates can test MU08 inference that ratecontrast selectsconfigurationvsdeformation; source-onlytoy/readiness routes cannot replace actualdata",
+  "prior_exposure": "only earlierWikisecondaryindex/queue memory and onecurrentarxivsearchabstract; must neworiginalread before deciding",
+  "next_card_opened": false
+}

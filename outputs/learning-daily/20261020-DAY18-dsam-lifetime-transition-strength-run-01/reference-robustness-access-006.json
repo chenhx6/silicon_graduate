@@ -1,0 +1,18 @@
+[
+  {
+    "tag": "petkov-public-text",
+    "url": "https://r.jina.ai/https://pubs.aip.org/adv/article/8/7/075305/968153/Robustness-of-the-analysis-of-Doppler-shift",
+    "scope": "lawfulpublicpublisherroute; Petkov goldOA confirmed fromDOAJ/OpenAlex; no authentication or paywallbypass",
+    "status": 401,
+    "bytes": 373,
+    "type": "application/json; charset=utf-8"
+  },
+  {
+    "tag": "levine-public-pdf",
+    "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.23.244",
+    "scope": "lawfulpublicpublisherroute; Petkov goldOA confirmed fromDOAJ/OpenAlex; no authentication or paywallbypass",
+    "status": 403,
+    "bytes": 5553,
+    "type": "text/html; charset=UTF-8"
+  }
+]

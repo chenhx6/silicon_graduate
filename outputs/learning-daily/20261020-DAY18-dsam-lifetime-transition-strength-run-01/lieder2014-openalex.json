@@ -1,0 +1,2030 @@
+{
+  "id": "https://openalex.org/W2576483782",
+  "doi": "https://doi.org/10.1103/physrevlett.112.202502",
+  "title": "Resolution of Chiral Conundrum in Ag106 : Doppler-Shift Lifetime Investigation",
+  "display_name": "Resolution of Chiral Conundrum in Ag106 : Doppler-Shift Lifetime Investigation",
+  "publication_year": 2014,
+  "publication_date": "2014-05-20",
+  "ids": {
+    "openalex": "https://openalex.org/W2576483782",
+    "doi": "https://doi.org/10.1103/physrevlett.112.202502",
+    "mag": "2576483782"
+  },
+  "language": "lv",
+  "primary_location": {
+    "id": "doi:10.1103/physrevlett.112.202502",
+    "doi": "https://doi.org/10.1103/physrevlett.112.202502",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1103/physrevlett.112.202502",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-a",
+        "jufo-3",
+        "ki-jl-2",
+        "medline",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Physical Review Letters",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5039336422",
+        "display_name": "E. O. Lieder",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210119566",
+          "display_name": "Fraunhofer Institute for Technological Trend Analysis",
+          "ror": "https://ror.org/02sm4kj57",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210119566",
+            "https://openalex.org/I4923324"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. O. Lieder",
+      "raw_affiliation_strings": [
+        "Fraunhofer Gesellschaft, Institut für Naturwissenschaftlich-Technische Trendanalysen, D-53881 Euskirchen, Germany",
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Fraunhofer Gesellschaft, Institut für Naturwissenschaftlich-Technische Trendanalysen, D-53881 Euskirchen, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210119566"
+          ]
+        },
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104000776",
+        "display_name": "Rainer M. Lieder",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. M. Lieder",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009622918",
+        "display_name": "R. A. Bark",
+        "orcid": "https://orcid.org/0000-0002-4023-4966",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4023-4966"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. A. Bark",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040965121",
+        "display_name": "Q. B. Chen",
+        "orcid": "https://orcid.org/0000-0001-5159-4468",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5159-4468",
+          "https://orcid.org/0009-0003-0610-8987"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20231570",
+          "display_name": "Peking University",
+          "ror": "https://ror.org/02v51f717",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767693",
+          "display_name": "State Key Laboratory of Nuclear Physics and Technology",
+          "ror": "https://ror.org/00tp8bz22",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Q. B. Chen",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China",
+          "institution_ids": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034282664",
+        "display_name": "Shuangquan Zhang",
+        "orcid": "https://orcid.org/0000-0002-9590-1818",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9590-1818"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20231570",
+          "display_name": "Peking University",
+          "ror": "https://ror.org/02v51f717",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767693",
+          "display_name": "State Key Laboratory of Nuclear Physics and Technology",
+          "ror": "https://ror.org/00tp8bz22",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Q. Zhang",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China",
+          "institution_ids": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100645804",
+        "display_name": "Jie Meng",
+        "orcid": "https://orcid.org/0000-0002-0977-5318",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0977-5318"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20231570",
+          "display_name": "Peking University",
+          "ror": "https://ror.org/02v51f717",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I26092322",
+          "display_name": "Stellenbosch University",
+          "ror": "https://ror.org/05bk57929",
+          "country_code": "ZA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I26092322"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767693",
+          "display_name": "State Key Laboratory of Nuclear Physics and Technology",
+          "ror": "https://ror.org/00tp8bz22",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I82880672",
+          "display_name": "Beihang University",
+          "ror": "https://ror.org/00wk2mp56",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I82880672"
+          ]
+        }
+      ],
+      "countries": [
+        "CN",
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Meng",
+      "raw_affiliation_strings": [
+        "Department of Physics, University of Stellenbosch, Stellenbosch 7602, South Africa",
+        "School of Physics and Nuclear Energy Engineering, Beihang University, Beijing 100191, China",
+        "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics, University of Stellenbosch, Stellenbosch 7602, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I26092322"
+          ]
+        },
+        {
+          "raw_affiliation_string": "School of Physics and Nuclear Energy Engineering, Beihang University, Beijing 100191, China",
+          "institution_ids": [
+            "https://openalex.org/I82880672"
+          ]
+        },
+        {
+          "raw_affiliation_string": "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China",
+          "institution_ids": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016290136",
+        "display_name": "E. A. Lawrie",
+        "orcid": "https://orcid.org/0000-0003-0165-5415",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0165-5415"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. A. Lawrie",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051164208",
+        "display_name": "J. J. Lawrie",
+        "orcid": "https://orcid.org/0000-0001-9567-0397",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9567-0397"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. J. Lawrie",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082807428",
+        "display_name": "Suzan Phumudzo Bvumbi",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. P. Bvumbi",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026303091",
+        "display_name": "N. Y. Kheswa",
+        "orcid": "https://orcid.org/0000-0002-7673-5519",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7673-5519"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Y. Kheswa",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053453134",
+        "display_name": "S. S. Ntshangase",
+        "orcid": "https://orcid.org/0000-0003-2646-3882",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2646-3882"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. S. Ntshangase",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003216691",
+        "display_name": "Thandinkosi E. Madiba",
+        "orcid": "https://orcid.org/0000-0002-0155-9143",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0155-9143"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "T. E. Madiba",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003156889",
+        "display_name": "Paulus L. Masiteng",
+        "orcid": "https://orcid.org/0000-0002-8894-5417",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8894-5417"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. L. Masiteng",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020187313",
+        "display_name": "S. M. Mullins",
+        "orcid": "https://orcid.org/0000-0003-4238-1537",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4238-1537"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. M. Mullins",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102746401",
+        "display_name": "S. Murray",
+        "orcid": "https://orcid.org/0000-0003-0548-588X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0548-588X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Murray",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076562968",
+        "display_name": "Paul Papka",
+        "orcid": "https://orcid.org/0000-0002-1313-1486",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1313-1486"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Papka",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060734715",
+        "display_name": "D. G. Roux",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I203238179",
+          "display_name": "Rhodes University",
+          "ror": "https://ror.org/016sewp10",
+          "country_code": "ZA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I203238179"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D. G. Roux",
+      "raw_affiliation_strings": [
+        "Department of Physics and Electronics, Rhodes University, Grahamstown 6410, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics and Electronics, Rhodes University, Grahamstown 6410, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I203238179"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033206280",
+        "display_name": "O. Shirinda",
+        "orcid": "https://orcid.org/0000-0002-3688-4878",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3688-4878"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086837",
+          "display_name": "iThemba Laboratory",
+          "ror": "https://ror.org/002kje223",
+          "country_code": "ZA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210086837",
+            "https://openalex.org/I866804994"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "O. Shirinda",
+      "raw_affiliation_strings": [
+        "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "iThemba LABS, P.O. Box 722, Somerset West 7129, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I4210086837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100379390",
+        "display_name": "Zhenhua Zhang",
+        "orcid": "https://orcid.org/0000-0001-5218-7215",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5218-7215"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20231570",
+          "display_name": "Peking University",
+          "ror": "https://ror.org/02v51f717",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767693",
+          "display_name": "State Key Laboratory of Nuclear Physics and Technology",
+          "ror": "https://ror.org/00tp8bz22",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Z. H. Zhang",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China",
+          "institution_ids": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034086449",
+        "display_name": "P. W. Zhao",
+        "orcid": "https://orcid.org/0000-0001-8243-2381",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8243-2381"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20231570",
+          "display_name": "Peking University",
+          "ror": "https://ror.org/02v51f717",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767693",
+          "display_name": "State Key Laboratory of Nuclear Physics and Technology",
+          "ror": "https://ror.org/00tp8bz22",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. W. Zhao",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China",
+          "institution_ids": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024740786",
+        "display_name": "Z. P. Li",
+        "orcid": "https://orcid.org/0000-0002-3309-2832",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3309-2832"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I142108993",
+          "display_name": "Southwest University",
+          "ror": "https://ror.org/01kj4z117",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I142108993"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Z. P. Li",
+      "raw_affiliation_strings": [
+        "School of Physical Science and Technology, Southwest University, Chongqing 400715, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Physical Science and Technology, Southwest University, Chongqing 400715, China",
+          "institution_ids": [
+            "https://openalex.org/I142108993"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069960476",
+        "display_name": "J. Peng",
+        "orcid": "https://orcid.org/0000-0001-5295-3346",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5295-3346"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25254941",
+          "display_name": "Beijing Normal University",
+          "ror": "https://ror.org/022k4wk35",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25254941"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Peng",
+      "raw_affiliation_strings": [
+        "Department of Physics, Beijing Normal University, Beijing 100875, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics, Beijing Normal University, Beijing 100875, China",
+          "institution_ids": [
+            "https://openalex.org/I25254941"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008563296",
+        "display_name": "Bin Qi",
+        "orcid": "https://orcid.org/0000-0001-7159-1897",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-7159-1897"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154099455",
+          "display_name": "Shandong University",
+          "ror": "https://ror.org/0207yh398",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154099455"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B. Qi",
+      "raw_affiliation_strings": [
+        "Shandong Provincial Key Laboratory of Optical Astronomy and Solar-Terrestrial Environment, School of Space Science and Physics, Shandong University, Weihai 264209, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shandong Provincial Key Laboratory of Optical Astronomy and Solar-Terrestrial Environment, School of Space Science and Physics, Shandong University, Weihai 264209, China",
+          "institution_ids": [
+            "https://openalex.org/I154099455"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038174252",
+        "display_name": "S. Y. Wang",
+        "orcid": "https://orcid.org/0000-0002-5634-6575",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5634-6575"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154099455",
+          "display_name": "Shandong University",
+          "ror": "https://ror.org/0207yh398",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154099455"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Y. Wang",
+      "raw_affiliation_strings": [
+        "Shandong Provincial Key Laboratory of Optical Astronomy and Solar-Terrestrial Environment, School of Space Science and Physics, Shandong University, Weihai 264209, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shandong Provincial Key Laboratory of Optical Astronomy and Solar-Terrestrial Environment, School of Space Science and Physics, Shandong University, Weihai 264209, China",
+          "institution_ids": [
+            "https://openalex.org/I154099455"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Z. G. Xiao",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210127494",
+          "display_name": "Collaborative Innovation Center of Quantum Matter",
+          "ror": "https://ror.org/03jn38r85",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4210127494",
+            "https://openalex.org/I99065089"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Z. G. Xiao",
+      "raw_affiliation_strings": [
+        "Collaborative Innovation Center of Quantum Matter, Beijing 100084, China",
+        "Department of Physics, Tsinghua University, Beijing 100084, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Collaborative Innovation Center of Quantum Matter, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I4210127494"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Physics, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5110264442",
+        "display_name": "C. Xu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20231570",
+          "display_name": "Peking University",
+          "ror": "https://ror.org/02v51f717",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20231570"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767693",
+          "display_name": "State Key Laboratory of Nuclear Physics and Technology",
+          "ror": "https://ror.org/00tp8bz22",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "C. Xu",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China",
+          "institution_ids": [
+            "https://openalex.org/I20231570",
+            "https://openalex.org/I4391767693"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 12,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3750,
+    "currency": "USD",
+    "value_usd": 3750
+  },
+  "apc_paid": null,
+  "fwci": 3.3641,
+  "has_fulltext": false,
+  "cited_by_count": 68,
+  "citation_normalized_percentile": {
+    "value": 0.92639036,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "112",
+    "issue": "20",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10093",
+    "display_name": "Nuclear physics research studies",
+    "score": 0.9965999722480774,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3106",
+      "display_name": "Nuclear and High Energy Physics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "score": 0.0005000000237487257,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13458",
+      "display_name": "Astronomical and nuclear sciences",
+      "score": 0.0003000000142492354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/chiral-bands",
+      "display_name": "chiral bands",
+      "score": 0.6359999775886536
+    },
+    {
+      "id": "https://openalex.org/keywords/doppler-shift-attenuation",
+      "display_name": "Doppler-shift attenuation",
+      "score": 0.7120000123977661
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-lifetimes",
+      "display_name": "nuclear level lifetimes",
+      "score": 0.6690000295639038
+    },
+    {
+      "id": "https://openalex.org/keywords/negative-parity-band",
+      "display_name": "negative-parity band",
+      "score": 0.9259999990463257
+    },
+    {
+      "id": "https://openalex.org/keywords/high-spin-bands",
+      "display_name": "high-spin bands",
+      "score": 0.6439999938011169
+    },
+    {
+      "id": "https://openalex.org/keywords/quasiparticle-alignment",
+      "display_name": "quasiparticle alignment",
+      "score": 0.9160000085830688
+    },
+    {
+      "id": "https://openalex.org/keywords/particle-rotor-model",
+      "display_name": "particle-rotor model",
+      "score": 0.8730000257492065
+    },
+    {
+      "id": "https://openalex.org/keywords/b-e2-transition-probabilities",
+      "display_name": "B(E2) transition probabilities",
+      "score": 0.5299999713897705
+    },
+    {
+      "id": "https://openalex.org/keywords/b-m1-transitions",
+      "display_name": "B(M1) transitions",
+      "score": 0.8460000157356262
+    },
+    {
+      "id": "https://openalex.org/keywords/quasiparticle-bands",
+      "display_name": "quasiparticle bands",
+      "score": 0.6069999933242798
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-level-scheme",
+      "display_name": "nuclear level scheme",
+      "score": 0.5090000033378601
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C136479403",
+      "wikidata": "https://www.wikidata.org/wiki/Q1047683",
+      "display_name": "Quasiparticle",
+      "level": 3,
+      "score": 0.7720986604690552
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.7087920308113098
+    },
+    {
+      "id": "https://openalex.org/C2777151079",
+      "wikidata": "https://www.wikidata.org/wiki/Q141160",
+      "display_name": "Parity (physics)",
+      "level": 2,
+      "score": 0.5519003868103027
+    },
+    {
+      "id": "https://openalex.org/C83581075",
+      "wikidata": "https://www.wikidata.org/wiki/Q1361503",
+      "display_name": "Excitation",
+      "level": 2,
+      "score": 0.5377436280250549
+    },
+    {
+      "id": "https://openalex.org/C2778870898",
+      "wikidata": "https://www.wikidata.org/wiki/Q7577658",
+      "display_name": "Spins",
+      "level": 2,
+      "score": 0.519450843334198
+    },
+    {
+      "id": "https://openalex.org/C4839761",
+      "wikidata": "https://www.wikidata.org/wiki/Q212111",
+      "display_name": "Spectral line",
+      "level": 2,
+      "score": 0.4581637978553772
+    },
+    {
+      "id": "https://openalex.org/C184779094",
+      "wikidata": "https://www.wikidata.org/wiki/Q26383",
+      "display_name": "Atomic physics",
+      "level": 1,
+      "score": 0.41613471508026123
+    },
+    {
+      "id": "https://openalex.org/C26873012",
+      "wikidata": "https://www.wikidata.org/wiki/Q214781",
+      "display_name": "Condensed matter physics",
+      "level": 1,
+      "score": 0.18847838044166565
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.16288641095161438
+    },
+    {
+      "id": "https://openalex.org/C54101563",
+      "wikidata": "https://www.wikidata.org/wiki/Q124131",
+      "display_name": "Superconductivity",
+      "level": 2,
+      "score": 0.13427600264549255
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevlett.112.202502",
+      "doi": "https://doi.org/10.1103/physrevlett.112.202502",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physrevlett.112.202502",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S24807848",
+        "display_name": "Physical Review Letters",
+        "issn_l": "0031-9007",
+        "issn": [
+          "0031-9007",
+          "1079-7114",
+          "1092-0145"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review Letters",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:publica.fraunhofer.de:publica/236355",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://publica.fraunhofer.de/handle/publica/236355",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400318",
+        "display_name": "Fraunhofer-Publica (Fraunhofer-Gesellschaft)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4923324",
+        "host_organization_name": "Fraunhofer-Gesellschaft",
+        "host_organization_lineage": [
+          "https://openalex.org/I4923324"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "journal article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 44,
+  "referenced_works": [
+    "https://openalex.org/W249103675",
+    "https://openalex.org/W1540992261",
+    "https://openalex.org/W1561295788",
+    "https://openalex.org/W1638661318",
+    "https://openalex.org/W1977402042",
+    "https://openalex.org/W1979297196",
+    "https://openalex.org/W1979842322",
+    "https://openalex.org/W1987436670",
+    "https://openalex.org/W1987779885",
+    "https://openalex.org/W1991534079",
+    "https://openalex.org/W1999455615",
+    "https://openalex.org/W2001709480",
+    "https://openalex.org/W2006798672",
+    "https://openalex.org/W2014077870",
+    "https://openalex.org/W2018234231",
+    "https://openalex.org/W2022861166",
+    "https://openalex.org/W2028344248",
+    "https://openalex.org/W2035113585",
+    "https://openalex.org/W2035333658",
+    "https://openalex.org/W2039528375",
+    "https://openalex.org/W2042626184",
+    "https://openalex.org/W2045196201",
+    "https://openalex.org/W2046680851",
+    "https://openalex.org/W2047774017",
+    "https://openalex.org/W2048480499",
+    "https://openalex.org/W2064277293",
+    "https://openalex.org/W2066310362",
+    "https://openalex.org/W2070246080",
+    "https://openalex.org/W2077362503",
+    "https://openalex.org/W2079361892",
+    "https://openalex.org/W2080646719",
+    "https://openalex.org/W2089881225",
+    "https://openalex.org/W2125712208",
+    "https://openalex.org/W2129408509",
+    "https://openalex.org/W2135297870",
+    "https://openalex.org/W2136857394",
+    "https://openalex.org/W2142691990",
+    "https://openalex.org/W2146655776",
+    "https://openalex.org/W2160574739",
+    "https://openalex.org/W2170840631",
+    "https://openalex.org/W2263034218",
+    "https://openalex.org/W2316999580",
+    "https://openalex.org/W2758143750",
+    "https://openalex.org/W2910740655"
+  ],
+  "related_works": [
+    "https://openalex.org/W2061775418",
+    "https://openalex.org/W2064084993",
+    "https://openalex.org/W2542246658",
+    "https://openalex.org/W101867543",
+    "https://openalex.org/W2903019135",
+    "https://openalex.org/W4300482274",
+    "https://openalex.org/W3166232880",
+    "https://openalex.org/W1973317471",
+    "https://openalex.org/W2027681768",
+    "https://openalex.org/W2016639748"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      44,
+      83,
+      127
+    ],
+    "nature": [
+      1
+    ],
+    "of": [
+      2,
+      10,
+      15,
+      47,
+      100,
+      124
+    ],
+    "the": [
+      3,
+      35,
+      40,
+      66,
+      105,
+      111,
+      130
+    ],
+    "chiral": [
+      4,
+      135
+    ],
+    "candidate": [
+      5
+    ],
+    "bands": [
+      6,
+      31,
+      55,
+      68,
+      115,
+      133
+    ],
+    "in": [
+      7,
+      32
+    ],
+    "$^{106}\\mathrm{Ag}$,": [
+      8
+    ],
+    "one": [
+      9
+    ],
+    "only": [
+      11
+    ],
+    "two": [
+      12,
+      131
+    ],
+    "known": [
+      13
+    ],
+    "examples": [
+      14
+    ],
+    "candidates": [
+      16
+    ],
+    "which": [
+      17
+    ],
+    "actually": [
+      18
+    ],
+    "cross,": [
+      19
+    ],
+    "is": [
+      20,
+      108
+    ],
+    "investigated": [
+      21
+    ],
+    "experimentally": [
+      22
+    ],
+    "and": [
+      23,
+      52,
+      75,
+      87,
+      121
+    ],
+    "theoretically.": [
+      24
+    ],
+    "Lifetimes": [
+      25
+    ],
+    "have": [
+      26,
+      56,
+      95
+    ],
+    "been": [
+      27,
+      50,
+      57,
+      96,
+      139
+    ],
+    "determined": [
+      28
+    ],
+    "for": [
+      29
+    ],
+    "these": [
+      30
+    ],
+    "$^{106}\\mathrm{Ag}$": [
+      33,
+      48
+    ],
+    "using": [
+      34
+    ],
+    "Doppler-shift": [
+      36
+    ],
+    "attenuation": [
+      37
+    ],
+    "method": [
+      38
+    ],
+    "with": [
+      39,
+      98
+    ],
+    "$\\ensuremath{\\gamma}$-detector": [
+      41
+    ],
+    "array": [
+      42
+    ],
+    "AFRODITE.": [
+      43
+    ],
+    "level": [
+      45
+    ],
+    "scheme": [
+      46
+    ],
+    "has": [
+      49,
+      137
+    ],
+    "extended,": [
+      51
+    ],
+    "three": [
+      53,
+      112
+    ],
+    "negative-parity": [
+      54,
+      67,
+      114
+    ],
+    "observed": [
+      58
+    ],
+    "to": [
+      59,
+      65
+    ],
+    "high": [
+      60
+    ],
+    "spins.": [
+      61
+    ],
+    "Configurations": [
+      62
+    ],
+    "were": [
+      63
+    ],
+    "assigned": [
+      64
+    ],
+    "based": [
+      69
+    ],
+    "on": [
+      70,
+      76
+    ],
+    "a": [
+      71,
+      117,
+      122
+    ],
+    "quasiparticle": [
+      72
+    ],
+    "alignment": [
+      73
+    ],
+    "analysis": [
+      74
+    ],
+    "configuration-fixed": [
+      77
+    ],
+    "constrained": [
+      78
+    ],
+    "relativistic": [
+      79
+    ],
+    "mean": [
+      80
+    ],
+    "field": [
+      81
+    ],
+    "calculations.": [
+      82,
+      103
+    ],
+    "excitation": [
+      84
+    ],
+    "energies,": [
+      85
+    ],
+    "$B(M1)$": [
+      86
+    ],
+    "$B(E2)$": [
+      88
+    ],
+    "values,": [
+      89
+    ],
+    "as": [
+      90,
+      92
+    ],
+    "well": [
+      91
+    ],
+    "$B(M1)/B(E2)$": [
+      93
+    ],
+    "ratios": [
+      94
+    ],
+    "compared": [
+      97
+    ],
+    "results": [
+      99
+    ],
+    "particle-rotor": [
+      101
+    ],
+    "model": [
+      102
+    ],
+    "From": [
+      104
+    ],
+    "investigations,": [
+      106
+    ],
+    "it": [
+      107
+    ],
+    "concluded": [
+      109
+    ],
+    "that": [
+      110,
+      129
+    ],
+    "close-lying": [
+      113
+    ],
+    "are": [
+      116,
+      134
+    ],
+    "two-quasiparticle": [
+      118
+    ],
+    "high-$K$": [
+      119
+    ],
+    "band": [
+      120
+    ],
+    "pair": [
+      123
+    ],
+    "four-quasiparticle": [
+      125
+    ],
+    "bands.": [
+      126
+    ],
+    "proposal": [
+      128
+    ],
+    "lowest-lying": [
+      132
+    ],
+    "partners": [
+      136
+    ],
+    "not": [
+      138
+    ],
+    "confirmed.": [
+      140
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-10-17T09:40:24.721904",
+  "created_date": "2025-10-10T00:00:00"
+}

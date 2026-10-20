@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-20T17:27:27.696755+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "actual_body": "arxiv1310.7731v1",
+  "pages": 12,
+  "figures": 3,
+  "tables": 1,
+  "numbered_equations": 0,
+  "read": "complete mainline/references; keyfig/table visual; selectedTeX verification",
+  "VoR_body_read": false,
+  "Lieder_body_read": false,
+  "checks": 16,
+  "boundary": "no originalfit/Cov/completebranch; no CI; sameparent rate cancellation conditional"
+}

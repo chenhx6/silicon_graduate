@@ -1,0 +1,710 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2026-10-17T00:15:21Z",
+      "timestamp": 1792196121690,
+      "version": "4.4.0"
+    },
+    "reference-count": 46,
+    "publisher": "American Physical Society (APS)",
+    "issue": "20",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              20
+            ]
+          ],
+          "date-time": "2014-05-20T00:00:00Z",
+          "timestamp": 1400544000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Phys. Rev. Lett."
+    ],
+    "DOI": "10.1103/physrevlett.112.202502",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          20
+        ]
+      ],
+      "date-time": "2014-05-20T21:21:17Z",
+      "timestamp": 1400620877000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 66,
+    "title": [
+      "Resolution of Chiral Conundrum in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi>Ag</mml:mi></mml:mrow><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>106</mml:mn></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math>: Doppler-Shift Lifetime Investigation"
+    ],
+    "prefix": "10.1103",
+    "volume": "112",
+    "author": [
+      {
+        "given": "E. O.",
+        "family": "Lieder",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. M.",
+        "family": "Lieder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. A.",
+        "family": "Bark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Q. B.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. Q.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E. A.",
+        "family": "Lawrie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. J.",
+        "family": "Lawrie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. P.",
+        "family": "Bvumbi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N. Y.",
+        "family": "Kheswa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. S.",
+        "family": "Ntshangase",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T. E.",
+        "family": "Madiba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. L.",
+        "family": "Masiteng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. M.",
+        "family": "Mullins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Papka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. G.",
+        "family": "Roux",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "O.",
+        "family": "Shirinda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Z. H.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. W.",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Z. P.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. Y.",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Z. G.",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevLett.112.202502Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(97)00004-3"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2009.02.061"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.99.172501"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2011.07.055"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.92.032501"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.86.971"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.78.021305"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2013.01.006"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(95)00416-5"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.86.971"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.93.172502"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0256-307X/24/3/021"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.96.052501"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.97.172501"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2011.07.062"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.98.102501"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.73.011301"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2004.07.050"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2004.05.066"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.76.024307"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epja/i2004-10120-y"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.88.034322"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01291817"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(94)90945-8"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.81.057301"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.23.1085"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epja/i2007-10533-0"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epja/i2003-10181-4"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epja/i2006-10006-0"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc30R1",
+        "volume-title": "Handbook for Calculations of Nuclear Reaction Data",
+        "author": "T. Belgya",
+        "year": "2006"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epja/i2011-11115-3"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc32R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.52.2448"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.65.027302"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc34R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nima.2009.06.011"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(79)90322-1"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc36R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.15.1530"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.38.1088"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(92)90532-O"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc39R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(85)90350-1"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.73.037303"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.77.024309"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.79.067302"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.83.037301"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.110.172504"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.82.054319"
+      },
+      {
+        "key": "PhysRevLett.112.202502Cc46R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.79.041302"
+      }
+    ],
+    "container-title": [
+      "Physical Review Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevLett.112.202502",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.112.202502/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2025-01-02T22:31:12Z",
+      "timestamp": 1735857072000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevLett.112.202502"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          20
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "20",
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevlett.112.202502",
+    "relation": {},
+    "ISSN": [
+      "0031-9007",
+      "1079-7114"
+    ],
+    "issn-type": [
+      {
+        "value": "0031-9007",
+        "type": "print"
+      },
+      {
+        "value": "1079-7114",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          20
+        ]
+      ]
+    },
+    "article-number": "202502"
+  }
+}

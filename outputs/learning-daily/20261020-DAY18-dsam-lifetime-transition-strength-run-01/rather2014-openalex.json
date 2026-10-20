@@ -1,0 +1,1251 @@
+{
+  "id": "https://openalex.org/W2326274181",
+  "doi": "https://doi.org/10.1103/physrevlett.112.202503",
+  "title": "Exploring the Origin of Nearly Degenerate Doublet Bands in Ag106",
+  "display_name": "Exploring the Origin of Nearly Degenerate Doublet Bands in Ag106",
+  "publication_year": 2014,
+  "publication_date": "2014-05-20",
+  "ids": {
+    "openalex": "https://openalex.org/W2326274181",
+    "doi": "https://doi.org/10.1103/physrevlett.112.202503",
+    "mag": "2326274181"
+  },
+  "language": "lv",
+  "primary_location": {
+    "id": "doi:10.1103/physrevlett.112.202503",
+    "doi": "https://doi.org/10.1103/physrevlett.112.202503",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1103/physrevlett.112.202503",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-a",
+        "jufo-3",
+        "ki-jl-2",
+        "medline",
+        "norway-2",
+        "poland-200",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Physical Review Letters",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "arxiv",
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/1310.7731",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072687947",
+        "display_name": "N. Rather",
+        "orcid": "https://orcid.org/0000-0002-9090-2889",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9090-2889"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16019930",
+          "display_name": "Saha Institute of Nuclear Physics",
+          "ror": "https://ror.org/0491yz035",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Rather",
+      "raw_affiliation_strings": [
+        "Saha Institute of Nuclear Physics, Kolkata 700064, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Saha Institute of Nuclear Physics, Kolkata 700064, India",
+          "institution_ids": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087177402",
+        "display_name": "Pradip Datta",
+        "orcid": "https://orcid.org/0000-0003-3648-0037",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3648-0037"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4405271948",
+          "display_name": "Ananda Mohan College",
+          "ror": "https://ror.org/03advac21",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4405271948"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Datta",
+      "raw_affiliation_strings": [
+        "Ananda Mohan College, Kolkata 700009, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ananda Mohan College, Kolkata 700009, India",
+          "institution_ids": [
+            "https://openalex.org/I4405271948"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "S. Chattopadhyay",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16019930",
+          "display_name": "Saha Institute of Nuclear Physics",
+          "ror": "https://ror.org/0491yz035",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Chattopadhyay",
+      "raw_affiliation_strings": [
+        "Saha Institute of Nuclear Physics, Kolkata 700064, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Saha Institute of Nuclear Physics, Kolkata 700064, India",
+          "institution_ids": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012239275",
+        "display_name": "S. Rajbanshi",
+        "orcid": "https://orcid.org/0000-0002-2001-6734",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2001-6734"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16019930",
+          "display_name": "Saha Institute of Nuclear Physics",
+          "ror": "https://ror.org/0491yz035",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Rajbanshi",
+      "raw_affiliation_strings": [
+        "Saha Institute of Nuclear Physics, Kolkata 700064, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Saha Institute of Nuclear Physics, Kolkata 700064, India",
+          "institution_ids": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5105350989",
+        "display_name": "Anil Kumar Goswami",
+        "orcid": "https://orcid.org/0000-0002-2174-1188",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2174-1188"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16019930",
+          "display_name": "Saha Institute of Nuclear Physics",
+          "ror": "https://ror.org/0491yz035",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Goswami",
+      "raw_affiliation_strings": [
+        "Saha Institute of Nuclear Physics, Kolkata 700064, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Saha Institute of Nuclear Physics, Kolkata 700064, India",
+          "institution_ids": [
+            "https://openalex.org/I16019930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065862874",
+        "display_name": "G. H. Bhat",
+        "orcid": "https://orcid.org/0000-0002-0923-2348",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0923-2348"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135388327",
+          "display_name": "University of Kashmir",
+          "ror": "https://ror.org/032xfst36",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135388327"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. H. Bhat",
+      "raw_affiliation_strings": [
+        "Department of Physics, University of Kashmir, Srinagar 190006, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics, University of Kashmir, Srinagar 190006, India",
+          "institution_ids": [
+            "https://openalex.org/I135388327"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082573655",
+        "display_name": "Javid A. Sheikh",
+        "orcid": "https://orcid.org/0000-0001-7852-0469",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-7852-0469"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135388327",
+          "display_name": "University of Kashmir",
+          "ror": "https://ror.org/032xfst36",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I135388327"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. A. Sheikh",
+      "raw_affiliation_strings": [
+        "Department of Physics, University of Kashmir, Srinagar 190006, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics, University of Kashmir, Srinagar 190006, India",
+          "institution_ids": [
+            "https://openalex.org/I135388327"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047884018",
+        "display_name": "S. Roy",
+        "orcid": "https://orcid.org/0000-0003-1999-225X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1999-225X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Roy",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000618462",
+        "display_name": "R. Palit",
+        "orcid": "https://orcid.org/0000-0001-9564-5431",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9564-5431"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. Palit",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073474810",
+        "display_name": "Sanjoy Kumar Pal",
+        "orcid": "https://orcid.org/0000-0002-4245-9325",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4245-9325"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Pal",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051176563",
+        "display_name": "Sudipta Saha",
+        "orcid": "https://orcid.org/0000-0002-0129-2098",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0129-2098",
+          "https://orcid.org/0009-0004-7892-2205"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Saha",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5105658932",
+        "display_name": "J. Sethi",
+        "orcid": "https://orcid.org/0009-0007-3361-1421",
+        "observed_orcids": [
+          "https://orcid.org/0009-0007-3361-1421"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Sethi",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013562742",
+        "display_name": "S. Biswas",
+        "orcid": "https://orcid.org/0000-0002-0385-1308",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0385-1308",
+          "https://orcid.org/0009-0004-4886-7532"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Biswas",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102947094",
+        "display_name": "P. Singh",
+        "orcid": "https://orcid.org/0000-0002-7886-0225",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7886-0225"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Singh",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5114168197",
+        "display_name": "H. C. Jain",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I11947397",
+          "display_name": "Tata Institute of Fundamental Research",
+          "ror": "https://ror.org/03ht1xw27",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I11947397",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I3149292468"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. C. Jain",
+      "raw_affiliation_strings": [
+        "Tata Institute of Fundamental Research, Mumbai 400005, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tata Institute of Fundamental Research, Mumbai 400005, India",
+          "institution_ids": [
+            "https://openalex.org/I11947397"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3750,
+    "currency": "USD",
+    "value_usd": 3750
+  },
+  "apc_paid": null,
+  "fwci": 2.9253,
+  "has_fulltext": false,
+  "cited_by_count": 50,
+  "citation_normalized_percentile": {
+    "value": 0.91207975,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "112",
+    "issue": "20",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10093",
+    "display_name": "Nuclear physics research studies",
+    "score": 0.9980000257492065,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3106",
+      "display_name": "Nuclear and High Energy Physics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13458",
+      "display_name": "Astronomical and nuclear sciences",
+      "score": 0.0003000000142492354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10523",
+      "display_name": "Atomic and Molecular Physics",
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/band-crossing",
+      "display_name": "band crossing",
+      "score": 0.5580000281333923
+    },
+    {
+      "id": "https://openalex.org/keywords/doppler-shift-attenuation",
+      "display_name": "Doppler-shift attenuation",
+      "score": 0.9160000085830688
+    },
+    {
+      "id": "https://openalex.org/keywords/moment-of-inertia",
+      "display_name": "moment of inertia",
+      "score": 0.9860000014305115
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-structure",
+      "display_name": "nuclear structure",
+      "score": 0.4300000071525574
+    },
+    {
+      "id": "https://openalex.org/keywords/spin-orbit-coupling",
+      "display_name": "spin-orbit coupling",
+      "score": 0.34299999475479126
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C72319582",
+      "wikidata": "https://www.wikidata.org/wiki/Q584304",
+      "display_name": "Degenerate energy levels",
+      "level": 2,
+      "score": 0.7924141883850098
+    },
+    {
+      "id": "https://openalex.org/C181500209",
+      "wikidata": "https://www.wikidata.org/wiki/Q215328",
+      "display_name": "Excited state",
+      "level": 2,
+      "score": 0.7000664472579956
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.6289096474647522
+    },
+    {
+      "id": "https://openalex.org/C10238366",
+      "wikidata": "https://www.wikidata.org/wiki/Q165618",
+      "display_name": "Moment of inertia",
+      "level": 2,
+      "score": 0.5105229616165161
+    },
+    {
+      "id": "https://openalex.org/C184779094",
+      "wikidata": "https://www.wikidata.org/wiki/Q26383",
+      "display_name": "Atomic physics",
+      "level": 1,
+      "score": 0.33442258834838867
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.08327805995941162
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevlett.112.202503",
+      "doi": "https://doi.org/10.1103/physrevlett.112.202503",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physrevlett.112.202503",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S24807848",
+        "display_name": "Physical Review Letters",
+        "issn_l": "0031-9007",
+        "issn": [
+          "0031-9007",
+          "1079-7114",
+          "1092-0145"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review Letters",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:arXiv.org:1310.7731",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1310.7731",
+      "pdf_url": "https://arxiv.org/pdf/1310.7731",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:1310.7731",
+    "doi": null,
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/1310.7731",
+    "pdf_url": "https://arxiv.org/pdf/1310.7731",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W249103675",
+    "https://openalex.org/W1540992261",
+    "https://openalex.org/W1561295788",
+    "https://openalex.org/W1617001949",
+    "https://openalex.org/W1971767945",
+    "https://openalex.org/W1979297196",
+    "https://openalex.org/W1979842322",
+    "https://openalex.org/W1980122313",
+    "https://openalex.org/W1989673590",
+    "https://openalex.org/W1998858302",
+    "https://openalex.org/W2001709480",
+    "https://openalex.org/W2006798672",
+    "https://openalex.org/W2007556613",
+    "https://openalex.org/W2010043250",
+    "https://openalex.org/W2018376482",
+    "https://openalex.org/W2030118254",
+    "https://openalex.org/W2034722141",
+    "https://openalex.org/W2035333658",
+    "https://openalex.org/W2037726645",
+    "https://openalex.org/W2038345322",
+    "https://openalex.org/W2048480499",
+    "https://openalex.org/W2050164140",
+    "https://openalex.org/W2061388328",
+    "https://openalex.org/W2066310362",
+    "https://openalex.org/W2070427864",
+    "https://openalex.org/W2079361892",
+    "https://openalex.org/W2082399303",
+    "https://openalex.org/W2082893749",
+    "https://openalex.org/W4244691670"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2935759653",
+    "https://openalex.org/W3105167352",
+    "https://openalex.org/W54078636",
+    "https://openalex.org/W2954470139",
+    "https://openalex.org/W2025058865",
+    "https://openalex.org/W2042564056",
+    "https://openalex.org/W2023872147",
+    "https://openalex.org/W2079634917",
+    "https://openalex.org/W2208017982"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      22
+    ],
+    "lifetimes": [
+      1
+    ],
+    "of": [
+      2,
+      12,
+      46
+    ],
+    "the": [
+      3,
+      7,
+      18,
+      29,
+      39
+    ],
+    "excited": [
+      4
+    ],
+    "levels": [
+      5
+    ],
+    "for": [
+      6,
+      56
+    ],
+    "two": [
+      8,
+      30
+    ],
+    "nearly": [
+      9,
+      58
+    ],
+    "degenerate": [
+      10,
+      59
+    ],
+    "bands": [
+      11,
+      31
+    ],
+    "$^{106}\\mathrm{Ag}$": [
+      13
+    ],
+    "have": [
+      14
+    ],
+    "been": [
+      15
+    ],
+    "measured": [
+      16
+    ],
+    "using": [
+      17
+    ],
+    "Doppler-shift": [
+      19
+    ],
+    "attenuation": [
+      20
+    ],
+    "method.": [
+      21
+    ],
+    "deduced": [
+      23
+    ],
+    "$B(E2)$": [
+      24
+    ],
+    "and": [
+      25
+    ],
+    "$B(M1)$": [
+      26
+    ],
+    "rates": [
+      27
+    ],
+    "in": [
+      28
+    ],
+    "are": [
+      32,
+      48
+    ],
+    "found": [
+      33
+    ],
+    "to": [
+      34
+    ],
+    "be": [
+      35
+    ],
+    "similar,": [
+      36
+    ],
+    "except": [
+      37
+    ],
+    "around": [
+      38
+    ],
+    "band": [
+      40
+    ],
+    "crossing": [
+      41
+    ],
+    "spin,": [
+      42
+    ],
+    "while": [
+      43
+    ],
+    "their": [
+      44
+    ],
+    "moments": [
+      45
+    ],
+    "inertia": [
+      47
+    ],
+    "quite": [
+      49
+    ],
+    "different.": [
+      50
+    ],
+    "This": [
+      51
+    ],
+    "is": [
+      52
+    ],
+    "a": [
+      53,
+      57
+    ],
+    "novel": [
+      54
+    ],
+    "observation": [
+      55
+    ],
+    "doublet": [
+      60
+    ],
+    "band.": [
+      61
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-10-17T09:40:24.721904",
+  "created_date": "2016-06-24T00:00:00"
+}
