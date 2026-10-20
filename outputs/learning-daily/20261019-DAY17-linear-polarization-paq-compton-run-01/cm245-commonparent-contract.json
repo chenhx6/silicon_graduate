@@ -1,0 +1,29 @@
+{
+  "source_Ji2": 9,
+  "branches": [
+    {
+      "Egamma_keV": 333.37,
+      "Jf2": 9,
+      "a2": [
+        -0.29,
+        0.02
+      ]
+    },
+    {
+      "Egamma_keV": 388.15,
+      "Jf2": 7,
+      "a2": [
+        0.17,
+        0.01
+      ]
+    }
+  ],
+  "assumptions": [
+    "pureE1 both",
+    "same source conditionalrho and angularattenuation unfolded",
+    "axisymmetric allowed arbitrary positive population; noGaussian prior",
+    "a2 marginalerrors only; actual covariance unknown"
+  ],
+  "known_a2_ratio_expected": "-16/11",
+  "no_new_measurement_or_Q_adjustment": true
+}

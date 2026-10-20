@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-20T05:12:20.751599+00:00",
+  "exit_code": 1,
+  "phase": "resultserialization",
+  "error": "sympyBooleanFalse notJSONserializable",
+  "correction": "convert exact inequality to builtin bool beforeJSON",
+  "scientific_assertions_had_passed_but_result_not_written": true
+}

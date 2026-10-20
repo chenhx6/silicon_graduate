@@ -2322,3 +2322,7 @@ GR97两页target/MI07fullanchor，quartic唯一最大证明、energytable与twoh
 ### Day17 checkpoint070：实际Cm245参考/转换companion
 
 新797行officialbody/NSR2record，15new待审+MI07companion，当前MR空/旧无号MR/anomalousICC/双54parent与RI分层，不重标Q。原primarybody合法取件未得/failures保；ICC路径初失败续写纠正后verification085valid/manifest070/H3，main / `Audit current Cm245 references and anomalous conversion boundaries`，windowactive/17once/partial18。
+
+### Day17 checkpoint071：sameparent pureE1必要AD关系
+
+exact−16/11与原a2残差/Covrange、1x/2x marginalbox检查，非jointtest/δ号/Q重标；初JSONboolfailure保修后actual结果。verification086valid/manifest071/H3，main / `Check the common parent E1 angular reference relation`，windowactive/17once/partial18，13:30后仅当前boundedanalysis。

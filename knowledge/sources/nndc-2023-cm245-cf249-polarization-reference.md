@@ -71,6 +71,8 @@ tags: [polarimetry, calibration-reference, actinide, anomalous-conversion, sourc
 | N245-13 | reportedexperimental分壳central之和333=.06474、388=.05566，约为modeltotalCC的1.8603/2.1913；它们是部分shellsum/未知Cov的诊断，不是新totalICC测量或转换anomaly到M2唯一反演。 | partial-ICC-arithmetic | task-calculation | Alpha L275–291 | true |
 | N245-14 | 2015AH03书目四作者/PRC91,044310/DOI已由官方NSR核；1977BA67四作者/双语刊页核。NSR pdfAvailablefalse不说明所有仓储无全文，当前publisherGET403不重试权限终态，primarybody仍未读。 | primary-identity-and-access-boundary | official-NSR-and-retrieval | NSR2015AH03; NSR1977BA67 | true |
 | N245-15 | 当前评价保anomalousconversion与旧混合评论，限制直接跨年把pureE1当无误差P参考；不因此否定MI07实验，actualγP还需α–γAD/相位/finiteacceptance和matchingQ/a/Σ。 | knowledge-impact-and-readiness | source-synthesis | N245-3; N245-4; N245-5; MI07-D17-6/7 | true |
+| N245-16 | 对已核Ji9/2→Jf9/2与7/2，若两pureE1且sharedconditionalrho/已unfold同接受，rank2系数R333=−4√330/165、R388=√330/60，故a333/a388=−16/11，不需Gaussianalignment。它是必要条件，不自动认证actualsource共同响应。 | task-common-parent-necessary-relation | exact-CG-and-Racah | Adopted L120/L132/L136; MI07-D17-6 | true |
+| N245-17 | 用原MI07 a333−.29(.02)/a388.17(.01)，条件residual−.0427273；独立误差额外假设下sigma.0247299/比1.72775，未知corr的localσ范围.0054545–.0345455。一倍marginalboxes不交/两倍交，并非jointCI、实验reject或Q重标。 | task-summary-uncertainty-boundary | derived-conditional | MI07 printed716 Fig5/Sec4.1; N245-16 | true |
 
 ## Summary
 
@@ -107,3 +109,7 @@ tags: [polarimetry, calibration-reference, actinide, anomalous-conversion, sourc
 ## Extracted Pages
 
 不建立完整245Cm/249Cf能级库；本页限定source-reference identity/转换companion。可复用事实留在本knowledge页，outputs仅执行轨迹与哈希。
+
+### 同母态pureE1的必要AD对照
+
+N245-16/17与[[polarimetry-shared-calibration-count-design]]“Cm245同母态：先检验共同P标尺的必要关系”用actualJ/a2作本session后续bounded检查。exactratio不依赖自由取向先验，但需要实际共同ρ/门/有限接受条件；marginalsummary没有jointΣ，不从残差给新sign/混合比或推原Q失败。新script初JSON序列化sympybool失败已保、改builtinbool后才写出结果，不把无artifact时算通过。

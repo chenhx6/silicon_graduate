@@ -1,0 +1,31 @@
+{
+  "subject": "Check the common parent E1 angular reference relation",
+  "verification_number": 86,
+  "paths": [
+    "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+    "knowledge/sources/miller-2007-sega-polarization.md",
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "system/scripts/day17_cm245_commonparent_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-070.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-070.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-086.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-086.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-071.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint071.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-commonparent-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-commonparent-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-commonparent-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-commonparent-initial-json-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-commonparent-result.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own071"
+}

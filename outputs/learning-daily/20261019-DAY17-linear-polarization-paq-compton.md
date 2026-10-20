@@ -9498,6 +9498,70 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "N245-15"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+      "summary": "actualcommonparentJ的pureE1必要AD ratio/exactrank与原marginal误差量级，非实验reject/Q修正。",
+      "anchor": "同母态pureE1的必要AD对照",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/miller-2007-sega-polarization.md",
+      "summary": "sameparent/sharedrho/接受前提下必要关系与actualΣ未得，保原Q。",
+      "anchor": "MI07-D17-17",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "exact−16/11、central残差/未知corrσ范围、1x/2x marginalboxes与真正下一输入；初serialization失败保。",
+      "anchor": "Cm245同母态：先检验共同P标尺的必要关系",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-17"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "必要companion检查入口，不将summary当jointtest或混合符号。",
+      "anchor": "SeGA侧入射的a和总峰计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-16"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-17"
+        }
+      ]
     }
   ]
 }
@@ -9981,3 +10045,11 @@ cm245before/exercise先冻primed问题。NNDC新245CM正确form返回5keys，按
 NSR2015AH03/1977BA67两官方record核，上游body未得：publisher candidate/工具拒Wiki路径/officialGET403/OpenAlex与Semantic无OA/OSTI200nonJSON/markdownproviderunavailable，均executionreceipt保。nature-downloader用于本轮正文/noSI合法检索，未越Wiki/绕TLS或凭据。未称primaryfullread/实验pure校准已认证。
 
 canonical新N245source15待审/MI07新16、sharedcalnote/ICC/Compton/index、唯一writeback/18priming/scripts/actualhash与scope齐。rawslot归档deferred不改原raw/Bib；verification085/publication070 actualgate。初writer将ICC路径写错在该处停、第一次verification因contract未写而退出1，随后只补剩余步骤/正确path、failure保。17once/partial18/windowactive，actualP/Q/phase/接受/Σ仍需原producer，不以reference审计日终。
+
+### Checkpoint071：Cm245同母态pureE1的AD必要关系
+
+070后新commonparentbefore先冻，只当前sourcebounded检查，无newbody/课程。actualJi9/2、Jf9/2/7/2、sameρ/已unfold接受及pureE1条件下独立CG/Racah R333−4√330/165/R388√330/60，必要a333/a388=−16/11，任意positivefoldedq的rank2均匹配。不需自由Gaussianalignment，但actualcommonrho/gates/time/acceptance不能凭同level自动认证。
+
+原a333−.29(.02)/a388.17(.01) residual−.0427273；额外独立误差假设σ.0247299/比1.72775，未知corrσ范围.0054545–.0345455。一倍marginalboxes无交、两倍交[−76/275,−1/4]只是框量级，不jointCI/实验reject/混合号/Q重标。newscript初sympyBoolean JSON失败/没结果，改builtinbool后actualartifact通过，failure保。
+
+canonicalN245新16/17、MI07新17、sharedcal/Compton及唯一writeback/18priming/artifacts齐；verification086/publication071实际门。17once/partial18/windowactive，13:30后不newsource，15点stopresearch。

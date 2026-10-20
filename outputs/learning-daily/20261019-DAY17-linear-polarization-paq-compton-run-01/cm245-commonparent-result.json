@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-20T05:12:32.526538+00:00",
+  "script_sha256": "6422a171e980ed54ee431d6d7570eefdd9b00672d50b28ad6fb1dd67e01cf093",
+  "contract_sha256": "2a0811a39704215fd0dc6c7f9a0e8815d7e449697ec7f01289740660cc4560bb",
+  "pureE1_rank2_coefficients": [
+    "-4*sqrt(330)/165",
+    "sqrt(330)/60"
+  ],
+  "a333_over_a388_exact": "-16/11",
+  "rank2_folded_vertex_controls": [
+    {
+      "folded_abs_m": "1/2",
+      "B2": "-2*sqrt(330)/33",
+      "a2_333": "16/33",
+      "a2_388": "-1/3"
+    },
+    {
+      "folded_abs_m": "3/2",
+      "B2": "-sqrt(330)/22",
+      "a2_333": "4/11",
+      "a2_388": "-1/4"
+    },
+    {
+      "folded_abs_m": "5/2",
+      "B2": "-sqrt(330)/66",
+      "a2_333": "4/33",
+      "a2_388": "-1/12"
+    },
+    {
+      "folded_abs_m": "7/2",
+      "B2": "sqrt(330)/33",
+      "a2_333": "-8/33",
+      "a2_388": "1/6"
+    },
+    {
+      "folded_abs_m": "9/2",
+      "B2": "sqrt(330)/11",
+      "a2_333": "-8/11",
+      "a2_388": "1/2"
+    }
+  ],
+  "printed_a2_summary": {
+    "a333": -0.29,
+    "a388": 0.17,
+    "necessary_relation_residual": -0.04272727272727267,
+    "conditional_sigma_residual_if_independent": 0.02472994637951899,
+    "local_sigma_residual_range_unknown_correlation": [
+      0.005454545454545455,
+      0.034545454545454546
+    ],
+    "absolute_standardized_residual_if_independent": 1.7277543619204458,
+    "no_covariance_hypothesis_test_claimed": true
+  },
+  "marginal_boxes": [
+    {
+      "sigma_multiple_marginal_not_jointCI": 1,
+      "intersection_exists": false,
+      "a333_intersection": null
+    },
+    {
+      "sigma_multiple_marginal_not_jointCI": 2,
+      "intersection_exists": true,
+      "a333_intersection": [
+        "-76/275",
+        "-1/4"
+      ]
+    }
+  ],
+  "exact_rank_and_box_controls": true,
+  "same_parent_necessary_relation_not_unconditional_Q_rejection": true,
+  "no_actual_P_Q_delta_CI_or_mixing_sign_inferred": true,
+  "ok": true
+}

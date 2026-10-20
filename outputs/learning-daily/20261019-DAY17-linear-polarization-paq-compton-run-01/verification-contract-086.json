@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md": 17,
+    "knowledge/sources/miller-2007-sega-polarization.md": 19
+  },
+  "artifacts": [
+    {
+      "file": "cm245-commonparent-result.json",
+      "true_fields": [
+        "ok",
+        "exact_rank_and_box_controls",
+        "same_parent_necessary_relation_not_unconditional_Q_rejection",
+        "no_actual_P_Q_delta_CI_or_mixing_sign_inferred"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

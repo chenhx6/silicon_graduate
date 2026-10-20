@@ -477,3 +477,23 @@ S=\frac{2\bar P(1+a_2)}{3a_2(\bar P-1)}.
 旧幅度的M2份额.0070/.0166而双线性系数.1668/.2557只是条件振幅控制，不是实际P偏移；fullprimaryphase/penetrationmodel/alpha制备/finiteacceptance和Σ缺时，不能把它们带native号重标SeGAQ。当前evaluation对象与MI07标定参考共享旧实验/方法谱系，不按两对象或新编译日期算独立Q实验。实际underlyingprimarybody访问未成功，failure/provenance保。
 
 两条54.77分别属低54.784→0与442.892→388.170，MR/ICC不同，不能按同Eγ合并；低支强转换不否定不观测下游的α–333完整trace。RI absolute/relative和αfeed不是本SeGA测得取向；新官方input缩小身份缺口，实际P/Q/Σ仍readiness。
+
+#### Cm245同母态：先检验共同P标尺的必要关系
+
+[[nndc-2023-cm245-cf249-polarization-reference]] N245-16/17与[[miller-2007-sega-polarization]] MI07-D17-17提出一个比自由重标Q更直接的检查。两reference已核同Ji9/2−，333→Jf9/2+、388→Jf7/2+；若两者pureE1、实际samealpha/time条件ρ且AD系数已正确unfold有限接受，则a2=B2R2，exactCG/Racah给
+
+\[
+R_{2,333}=-\frac{4\sqrt{330}}{165},\qquad
+R_{2,388}=\frac{\sqrt{330}}{60},\qquad
+\frac{a_{2,333}}{a_{2,388}}=-\frac{16}{11}.
+\]
+
+未知B2和共同feeding/deorientation可消，不需Gaussianprior；但这不证明两个实际selection都有共同effectiveρ，也不消不同接受展开/峰fit误差。本script另核所有foldedM=1/2…9/2的rank2系数，关系不依赖哪一种positivepopulation。B2=0时应写线性必要式，不能以0/0ratio判失败。
+
+将原a333=−.29(.02)、a388=.17(.01)代入线性residual d=a333+(16/11)a388，得d=−.04272727。仅在额外独立误差假设下σd=.02472995、abs(d)/σd=1.72775；对未知相关，固定两marginalσ可给局部范围.00545455–.03454545。当前不报告hypothesis-test pvalue/实验CI，不选择一个相关来放大或消掉张力。
+
+一倍marginal矩形下必要式无交；两倍矩形则a333交区[−76/275,−1/4]，约[−.276364,−.25]。这不是赋予jointcoverage的“1σ排除/2σ允许”实验结论，只说明原summary与严格必要式的central/误差量级。它既不证明实际M2污染，也不把分壳转换异常变成δ；原anomalousE1/phase/primarybody缺口保持。
+
+最高信息仍为原逐unit两a2联合fit、共singles/alpha gate/时间接受、finitegamma/alpha权重与fitCov。若这些证明sameρ，才能检验pureE1必要关系；若实际不相同，须先解释选择合同，不能重标Q强配。旧双幅度/分支RI都不能代替此actualinput。
+
+复算`system/scripts/day17_cm245_commonparent_audit.py`，本run `cm245-commonparent-contract/result.json`；初artifact序列化sympybool失败后改builtinbool，失败receipt保，最终结果另有hash。没有新的P/Q/δ/实验CI或formal18学分。
