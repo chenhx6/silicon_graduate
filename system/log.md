@@ -2266,3 +2266,7 @@ SC94原11页/actualcalibration/effabsolute界及附录constant候选写回；本
 ### Day17 checkpoint056：背景减法和曝光约定
 
 L74原3页/表小数/背景Var与time/ε分母新核写回，oldfalseflags保，新10待审；初writer失败已精确续写留证。verification071/manifest056/H3发布，main / `Audit background subtraction and exposure conventions in polarimeter merit`，原windowactive/17once/partial18。
+
+### Day17 checkpoint057：actual读出与校准核身份
+
+VW95原9页新核knownorder门/MINIPOLAtiming合同、Geproduct近线与eff半sum/F范围，oldflags保，新14待审。verification072/manifest057/H3发布，main / `Audit actual polarimeter readout and distinguish calibration nuclei`，原windowactive/17once/partial18。

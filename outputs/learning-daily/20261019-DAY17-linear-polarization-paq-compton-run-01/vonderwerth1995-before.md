@@ -1,0 +1,11 @@
+# POLALI/MINIPOLA：原件前回忆
+
+原Day17session10:02上海仍约298min，formal17once/partial18。已candidate池：Zheng2013/Simpson1983先前原件和误差已核、无新matchinginput，重跑低增益；continuityEW69historicalratio伴随CJP1970metadata新queryTLSfail、未得body，保意图边界。新slot只选VW95九页local原件。
+
+旧VW95sourcepriming：POLALI5detector、MINIPOLA四segmentplanar、70–110Comptongate、sourceQ/P/F/effcal、Zn66/67共calibration、原VW95-1/3true、2false保。旧标题deepread不兑换本session阅读。
+
+主动回忆：固定scatterer/absorber可以按Es/Ea取θ，未知ordering的MINIPOLA不能裸同gate；全吸收peak/partialenergy/sameeventmultiplepairs与sum信号共同Cov需保。无polarizationsourcea只效率偏置，knownPcalQ另层，source核Jπ/MR/AD识别依phase/feeding，不能只看正负A。Q(E)拟合和F ε定义及角度/源距/阈值/BeMgSiZn等cal输入不能跨装置混。图给modelMC未必actual已校tapes。
+
+新问题：actualTable各calP/A/Q的uncertainty/分母，kinematicgate选对singleCompton vs multiple/escape/background的原data证据；MINIPOLAordering与gain/threshold哪些缺口作者保留？与SC94/GR95同reference/sharedknownP和backgroundmerit要如何匹配？
+
+计划完整9页textvisual/allactualeqtablesfig/限制，保reviewfalseflag，新selfaudit待审。挑一项actualgatekinematics/uncertainty/source-tableexercise，no新MC、no arbitrarycutscan或realcounts缺则readiness，不以更多toy填时间。返归Day17P/A/Q的真实response必要input，不开其它课程卡。

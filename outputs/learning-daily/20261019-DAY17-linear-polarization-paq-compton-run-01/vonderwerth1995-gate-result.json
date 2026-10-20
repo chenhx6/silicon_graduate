@@ -1,0 +1,310 @@
+{
+  "at": "2026-10-20T02:05:16.918710+00:00",
+  "script_sha256": "a84db17c28dcb879f96c7b78e9bcfc6663c834f66e0493bb471c21e9de0aac5b",
+  "contract_sha256": "41e08111020728db4374e32d3f83bac51ea510a6b3b0fe1875bad44636d9966d",
+  "actual_line_energy_checks": [
+    {
+      "Egamma_keV": 287.2,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 209.66444203785974,
+          "central_scatter_electron_energy_keV": 77.53555796214025,
+          "recovered_theta_deg": 70.00000000000001,
+          "wrong_role_swapped_theta_deg_or_null": null,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 183.86269105487347,
+          "central_scatter_electron_energy_keV": 103.33730894512652,
+          "recovered_theta_deg": 90.0,
+          "wrong_role_swapped_theta_deg_or_null": null,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 163.71551277506157,
+          "central_scatter_electron_energy_keV": 123.48448722493842,
+          "recovered_theta_deg": 109.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": null,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.6757480158788153,
+        "MINIPOLA": 0.17315617861897054
+      }
+    },
+    {
+      "Egamma_keV": 357.4,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 244.76105699594837,
+          "central_scatter_electron_energy_keV": 112.63894300405161,
+          "recovered_theta_deg": 69.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": null,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 210.30792261630586,
+          "central_scatter_electron_energy_keV": 147.09207738369412,
+          "recovered_theta_deg": 89.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": null,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 184.35735368818055,
+          "central_scatter_electron_energy_keV": 173.04264631181942,
+          "recovered_theta_deg": 109.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": 121.55109410749876,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.6350710843709595,
+        "MINIPOLA": 0.15750077711324256
+      }
+    },
+    {
+      "Egamma_keV": 846.8,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 405.0964036869174,
+          "central_scatter_electron_energy_keV": 441.7035963130825,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 63.47656142040884,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 318.6881720430108,
+          "central_scatter_electron_energy_keV": 528.1118279569891,
+          "recovered_theta_deg": 89.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": 50.51693083502029,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 262.6616782673605,
+          "central_scatter_electron_energy_keV": 584.1383217326395,
+          "recovered_theta_deg": 110.00000000000001,
+          "wrong_role_swapped_theta_deg_or_null": 43.22620431183677,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.42097659042151386,
+        "MINIPOLA": 0.0814577150626983
+      }
+    },
+    {
+      "Egamma_keV": 952.6,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 427.827552157783,
+          "central_scatter_electron_energy_keV": 524.772447842217,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 55.75926678197554,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 332.5899152773982,
+          "central_scatter_electron_energy_keV": 620.0100847226018,
+          "recovered_theta_deg": 90.00000000000001,
+          "wrong_role_swapped_theta_deg_or_null": 44.58200974582733,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 272.0332614509179,
+          "central_scatter_electron_energy_keV": 680.5667385490822,
+          "recovered_theta_deg": 110.00000000000003,
+          "wrong_role_swapped_theta_deg_or_null": 38.225478715437454,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.39049937464379364,
+        "MINIPOLA": 0.07120610813983366
+      }
+    },
+    {
+      "Egamma_keV": 1009.5,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 438.9389378830814,
+          "central_scatter_electron_energy_keV": 570.5610621169186,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 52.368437340567866,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 339.26635975008224,
+          "central_scatter_electron_energy_keV": 670.2336402499177,
+          "recovered_theta_deg": 89.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": 41.94639863197279,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 276.48353438420446,
+          "central_scatter_electron_energy_keV": 733.0164656157956,
+          "recovered_theta_deg": 110.00000000000001,
+          "wrong_role_swapped_theta_deg_or_null": 35.9946591038421,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.37581612635589756,
+        "MINIPOLA": 0.06630784573950035
+      }
+    },
+    {
+      "Egamma_keV": 1039.5,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 444.5169944673918,
+          "central_scatter_electron_energy_keV": 594.9830055326082,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 50.74784668776636,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 342.5891647855531,
+          "central_scatter_electron_energy_keV": 696.9108352144469,
+          "recovered_theta_deg": 90.0,
+          "wrong_role_swapped_theta_deg_or_null": 40.68134144220485,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 278.6863359986361,
+          "central_scatter_electron_energy_keV": 760.8136640013639,
+          "recovered_theta_deg": 110.0,
+          "wrong_role_swapped_theta_deg_or_null": 34.92189808987702,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.3685060006279147,
+        "MINIPOLA": 0.06387886899474776
+      }
+    },
+    {
+      "Egamma_keV": 1113.6,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 457.5360098986026,
+          "central_scatter_electron_energy_keV": 656.0639901013974,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 47.157553395026106,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 350.2705896836145,
+          "central_scatter_electron_energy_keV": 763.3294103163854,
+          "recovered_theta_deg": 89.99999999999999,
+          "wrong_role_swapped_theta_deg_or_null": 37.867129299189195,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 283.74823335068476,
+          "central_scatter_electron_energy_keV": 829.8517666493151,
+          "recovered_theta_deg": 109.99999999999997,
+          "wrong_role_swapped_theta_deg_or_null": 32.53111858812261,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.35161698786246603,
+        "MINIPOLA": 0.05829123129282366
+      }
+    },
+    {
+      "Egamma_keV": 1368.6,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 495.4651328463889,
+          "central_scatter_electron_energy_keV": 873.134867153611,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 37.98920373309414,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 372.0762928282614,
+          "central_scatter_electron_energy_keV": 996.5237071717386,
+          "recovered_theta_deg": 90.0,
+          "wrong_role_swapped_theta_deg_or_null": 30.616919545056245,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 297.8906784775634,
+          "central_scatter_electron_energy_keV": 1070.7093215224365,
+          "recovered_theta_deg": 110.00000000000001,
+          "wrong_role_swapped_theta_deg_or_null": 26.34727602265657,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.30396845941461337,
+        "MINIPOLA": 0.042705166156744155
+      }
+    },
+    {
+      "Egamma_keV": 1778.9,
+      "kinematics": [
+        {
+          "theta_deg": 70,
+          "analyzer_scattered_Eprime_keV": 540.6057173306707,
+          "central_scatter_electron_energy_keV": 1238.2942826693293,
+          "recovered_theta_deg": 70.0,
+          "wrong_role_swapped_theta_deg_or_null": 29.003304681816132,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 90,
+          "analyzer_scattered_Eprime_keV": 396.96838289881657,
+          "central_scatter_electron_energy_keV": 1381.9316171011835,
+          "recovered_theta_deg": 90.0,
+          "wrong_role_swapped_theta_deg_or_null": 23.439027374059496,
+          "both_above_declared60keV": true
+        },
+        {
+          "theta_deg": 110,
+          "analyzer_scattered_Eprime_keV": 313.63618065513344,
+          "central_scatter_electron_energy_keV": 1465.2638193448665,
+          "recovered_theta_deg": 110.0,
+          "wrong_role_swapped_theta_deg_or_null": 20.196600105230907,
+          "both_above_declared60keV": true
+        }
+      ],
+      "nominal_source_fit_Q_not_actual_calibration_points": {
+        "POLALI": 0.25071872217274677,
+        "MINIPOLA": 0.02559238757614901
+      }
+    }
+  ],
+  "epsilon_identity": "source epsilon_c=Nsum/(2Phi) only if Phi=Ns/epsilon_abs_single is the same unpolarized-source normalization",
+  "Eq8_inverse_and_energy_role_controls": true,
+  "source_half_sum_absolute_efficiency_identity": true,
+  "not_MINIPOLA_order_reconstruction_or_actual_cut_retention": true,
+  "no_actual_calibration_P_counts_Cov_or_new_Q_CI": true,
+  "ok": true
+}

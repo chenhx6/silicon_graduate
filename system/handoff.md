@@ -6,21 +6,21 @@ updated: 2026-10-19
 
 # 跨会话交接
 
-## Active handoff — DAY17 original window active; background merit checkpoint056
+## Active handoff — DAY17 original window active; actual readout checkpoint057
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–055actualH3Gitee推，formal17once/next18count17/partial18，不开其它课程卡，runnernormalexit未观察。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–056actualH3Gitee已推，formal17once/next18count17/partial18，不开其它课程卡，runnernormalexit未观察。
 
-055重要最新修订保持：EW69印式严格可表示强度比r=(1+p)/(1−p)，撤回053的>1即failure判断；作者P意图/Ref9bookbody未取，不造erratum。ratio桥/currentEWsource5修文/new11–12与oldresult快照均已发布；rawQ2A/correctedQ桥不变。
+EW69最新beliefrevision保：原印式可表示r=(1+p)/(1−p)，已撤回053的>1即failure；作者意图/Ref9bookbody未取，原ratio桥/历史快照与rawQ2A字典已055发布。SC94附录Eq28不同：原缺constant不闭quoted角域，独立Eq27微分+14是内部candidate，非erratum；oldsource/review保。
 
-本056 Logan1974原3页/2图/2表/3式/13refs新读，rawhash1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364/226638bytes保持；旧L74-1–3false/review保，新D17-1–10待审。Table1高分辨小数读取ε1.6/1.0 arbitraryunits、S1.3/.2，纠旧WikiOCR16/10/13；S13 variant givesplanrelative.002217，原1.3给.00487737近印.0049。P.5/.1conv .875/.841346对印.885/.837小差保，不调Q/S强配，不称实验矛盾。
+VW95新完整9页/14图/3表/19式/12refs textvisual，hash54db57f926f99e069186e99a5b373ef5cb79f234eec43cc6ff84c82e80563021/839074bytes保；oldVW95-1–3truefalsetrueflags/review保，新D17-1–14待审。POLALIknownEs/E′实际listmode做70–110gate，MINIPOLA共同totalE/sector仅timing+orderingunknown，不让algorithm补未读energy。137Cs crosstalk1e−6只原662fullpeak/control域，inbeamneutrondamage使resolution变，fixedresponse不可静默继承。
 
-源N=T−B、t每orientation/Iincident/εunpolarizedfullenergyeff，total2t；独立符号VarN=N+2B/Jacobian重现Eq2，等价independentVarB=B，不是任意peakfit/sidebandΣ通用。generalη仅conditional说明。sourceM backgroundfreeεQ²/[2(1−Q²P²)]、smallAεQ²/2与其它F常数分开。目标σA/A、P0relativeprecisionundefined、x2normal95.5%示例不当exactCI。sameTablecomparison固定S/第二absorber潜在eff×2是作者模型，不新不同Pexperiment/现代ranking。
+actualTable66Znαn69Ge/67Znαn70Ge，p463残余Znprose与table/fig不闭；69Ge287.2/70Ge288.0近线不同parent不迁MR。九actualγ能量在70/90/110由Eq8正反核，swapenergy仅rolecontrol非实际MINIPOLA排序/retention。Eq18εc=(Nsum/(2Ns))εa同unpolRasource/absolutepeak合同；Φ=Ns/εa时εc=Nsum/(2Φ)，不自动inbeam4π或SC94relativecoinc。Qfitm/b用MeV、原apertureΔφ调fit非独立validation，rawcalA/P/Σ未给；meritSec7.3≤1/3与Summary200keVtwice/whole rangehigher literal矛盾保，不据部分句全区rank。
 
-canonicalL74/Compton/sharedcalnote/report唯一writeback/18priming/scriptday17_logan1974_merit_audit.py/actualcontract/results/freeze/scope齐。初inlinewriter漏json在report前失败，已精确续写并保failure receipt，无重复canonical；verification071actualvalidtrue/lint0errors239warnings，54changed/56mapped，boundary/lint/diff0。main / `Audit background subtraction and exposure conventions in polarimeter merit`稳定指针，hash/push仅publication056/runreceipt。
+canonicalVW95/Compton/sharedcalnote/report单writeback/18priming与scriptday17_vw95_gate_audit.py/contract/result/identity/scope/freezes齐。verification072最后实际状态为准，实际0errors/239warnings、55changed/57mapped，boundary/lint/diff exit0。main / `Audit actual polarimeter readout and distinguish calibration nuclei`稳定指针，hash/push仅publication057/runreceipt。
 
-candidate-refresh057已冻：连续槽Litherland/Ewan/Lam CJP48(1970)2320伴随文献实际P命名，metadata新OpenAlexquery又TLSfailed，body未得，不伪称意图核清；仅新对象不重试终态旧URL。novelty选本地vonDerWerth1995 POLALI/MINIPOLA9页，actualorder/gate/calibration/effmerit，before尚待冻。Zheng/Simpson旧source/旧checks无新matchedinput暂不重跑。当前约10:00上海余300min，windowactive不日终/goalcomplete，不无inputMC填时段。
+下一高价值先做已读source的跨合同REFLECT与本sessionprimed主动回忆：把B73/TW70/EW69/SC94/GR95/VW95/SG98/ST99/JO95的P/计数/eff/Q/分母/共享标尺/缺口整成canonicalmatrix，避免追加历史段而未可复用。不能用旧check数换分；新source路线可后选本地Bass1972symtwo-crystal原件，不并开多个body。候选CJP1970metadata新query仍TLSfail/body缺，保作者意图边界。当前约10:11上海余289min，原windowactive不日终/goalcomplete，无inputMC不填时段。
 
-保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；log仅HEAD+own056，显式manifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；log仅HEAD+own057，精确manifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
 
 ## Previous active handoff — DAY16 completed at original deadline; Day17 next
 

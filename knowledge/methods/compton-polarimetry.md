@@ -494,3 +494,10 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 [[logan-1974-generalized-polarimeter-merit]] L74-D17-1–10原3页核：背景扣除N=T−B、t每orientation、Iincidentrate、εunpolarizedfullenergyeff。原Eq2等价VarN=N+2B的独立背景估计噪声，不适任意峰fit/sidebandCov；sourceM无背景极限εQ²/[2(1−Q²P²)]，smallA为εQ²/2，与其它F常数约定分开。
 
 原977表ε1.6/1.0任意单位/S1.3/.2非旧OCR16/10/13，Table2replay有小差保；同source固定S/潜在第二absorber×2eff是假定，不新增不同P实验。relativeσA/A与未知Q/a/nonorthresponse是不同目标/预算，真实counts/Σ缺时不从M出新P/δ/CI。
+
+
+## 门重放先核实际读出
+
+[[vonderwerth-1995-compton-polarimeters]] VW95-D17-1–14新原9页核：POLALI独立Es/E′已知role才能按Eq8做70–110gate；MINIPOLA共同energy和sector仅timing/orderingunknown，不能让新algorithm补成actual分段energy。137Cs crosstalk10^-6只原control域，neutrondamage还使resolution漂移。
+
+原Table3 target66/67Zn→product69/70Ge，287.2/288.0近线不同parent/反应，不能迁EM/MR。εc半sum×absoluteεa与relativeeff/SC94relativecoinc不同，原F跨能区文字有反例/冲突保，不只用sourceconclusion作普适ranking。Qfit/aperture模型/knownP共享输入，不作独立三证据。

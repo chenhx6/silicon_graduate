@@ -1,0 +1,33 @@
+{
+  "source": "VW95 Table3/Eqs8/13\u201318",
+  "Eg_keV": [
+    287.2,
+    357.4,
+    846.8,
+    952.6,
+    1009.5,
+    1039.5,
+    1113.6,
+    1368.6,
+    1778.9
+  ],
+  "angles_degrees": [
+    70,
+    90,
+    110
+  ],
+  "electron_rest_keV": 511,
+  "source_Qfit_POLALI": {
+    "m_per_MeV": 0.078,
+    "b": 0.79
+  },
+  "source_Qfit_MINIPOLA": {
+    "m_per_MeV": -0.076,
+    "b": 0.23
+  },
+  "source_approx_detector_threshold_keV": 60,
+  "energy_roles_known_for_POLALI_only": true,
+  "not_actual_sectorE_readout_MINIPOLA": true,
+  "epsilon_convention": "epsilon_c=(Nsum/(2Ns))*epsilon_abs_single at unpolarized source",
+  "actual_rawcounts_and_fitCov_missing": true
+}

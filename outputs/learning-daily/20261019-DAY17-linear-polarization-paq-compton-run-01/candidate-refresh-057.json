@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-20T01:57:55.167978+00:00",
+  "hard_deadline": "2026-10-20T15:00:00+08:00",
+  "formal_day": 17,
+  "only_uncredited_preview_day": 18,
+  "continuity": {
+    "question": "EW69 ratio命名/原伴随Litherland1970实际定义",
+    "next_source_discovery": "A.E.Litherland,G.T.Ewan,S.T.Lam,CanJPhys48(1970)2320 cited L74Ref4; not yet body",
+    "expected_gain": "may distinguish authorsdegree/intensityratio intent; sameprogramsource not independent experiment"
+  },
+  "novelty": {
+    "source": "vonderwerth-1995-compton-polarimeters",
+    "reason": "actualgeometry/order/threshold/calgroups与merit比较，9页localbody可用",
+    "priming": "oldsourcepage andVW95-2falseflag; not independentblind"
+  },
+  "rejected": {
+    "Zheng2013": "Day16原主线/versions/counts/Cov边界已完整，当前无新matchinginput，只重跑旧checks收益低",
+    "Simpson1983": "已旧日actualcounts/merit分母/共享sector原件核，当前无新input",
+    "newMC": "不补实际producer/cov，不作时段填充"
+  },
+  "decision": "continue-high-information-matching-source-not-day-closeout"
+}

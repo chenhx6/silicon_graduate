@@ -317,3 +317,8 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 ## 背景估计的方差属于计数合同
 
 [[logan-1974-generalized-polarimeter-merit]] L74-D17-1/2/3/7/9的sourceEq2可独立推为VarN=N+2B；若背景估计方差ηB应改N+(1+η)B并保orientation/sharedCov，不能只把N当Poisson或把source2/S当所有fit通用项。source每orientationt与arbitraryε只给条件merit，σA/A相对精度/P0边界、fullQ/a calibration须另核；不造actualnoise/CI。
+
+
+## actual读出与calibrator身份优先
+
+[[vonderwerth-1995-compton-polarimeters]] VW95-D17-2/4/5/6/9/10说明MINIPOLAsector只timing、共同totalE；知道两segmenthit不等能重建Es/E′和ordering。POLALI实际knownroles+70–110gate与a/Rasource校准另列，Q/P核标尺不混。69Ge287.2与70Ge288.0calibrator不同，近E不是独立身份匹配；source半sumabsoluteε合同保，actualcounts/Σ缺不造门retention/CI。

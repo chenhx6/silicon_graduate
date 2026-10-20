@@ -7744,6 +7744,115 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "L74-D17-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+      "anchor": "Day17原件自审：ordering、信号通道与校准核身份",
+      "summary": "完整9页/14图/3表/19式新核，actualsignal/knownorder门/Ge产品身份与eff半sum/merit范围界，旧flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-1"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-2"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-3"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-4"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-5"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-6"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-7"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-8"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-9"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-10"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-11"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-12"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-13"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "门重放先核实际读出",
+      "summary": "新算法不补实际未记录Es/E′，原crosstalk/neutrondamage域与calibrator近线身份保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-2"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-4"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-6"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "actual读出与calibrator身份优先",
+      "summary": "实际energy/timing/order/identity与absoluteeff合同先于门/merit比较，不造countsΣ。",
+      "sources": [
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-2"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-5"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-6"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-10"
+        }
+      ]
     }
   ]
 }
@@ -8112,3 +8221,12 @@ Logan1974原3页/2图/2表/3式/13refs新textvisual，Table1高分辨crop；旧�
 独立符号VarN=N+2B/Jacobian重现原Eq2；这等价独立VarB=B，未知sideband/fitηB及共享Cov可变，非所有背景通用噪声。原t每orientation、Iincident/εunpolarizedfullenergyeff，total2t；sourceM背景freeεQ²/[2(1−Q²P²)]、smallAεQ²/2，不能裸比其它F/count/relativeeff。目标σA/A/P0/正态x2示例与actualCI区别保。
 
 原Table2固定S为unpolarized值、潜在第二absorber×2eff为作者comparisonmodel；不是不同P新experiment或modernarrayranking。canonicalsource/Compton/sharedcalnote/唯一writeback/18priming，script/input/result/identity/scope/freezes齐；初writer缺json import在report前失败，精确续写避免重复，verification071/publication056以最终实际gate为准。原windowactive/17once/partial18，不因source完成结束日程。
+
+
+### Checkpoint057：actualsignal门与calibrator核身份
+
+VW95原9页/14图/3表/19式/12refs新textvisual，candidate-refresh057排旧Z13/Simpson重跑，oldpriming/falseflag保，新14待审。rawhash/839074bytes不变。POLALIknownEs/E′可70–110gate，MINIPOLA共同totalE/sector只timing且orderingunknown，不能算法补energy；137Cs crosstalk10^-6与neutrondamage为有域control/响应漂移。
+
+Table3 actual66Znαn69Ge/67Znαn70Ge、287.2vsFig8 288.0不同product/parent；sourceprose残余Zn称呼不闭，保核身份不借近E迁MR。九actualEg在70/90/110由Eq8forward/inverse核、swapenergy只角色反证不actual排序或retention。εc=(Nsum/2Ns)εa的sameunpolsource半sum/absoluteeff单位核，不把relativeeff或SC94coinceff填F。原Qfitcentralunits/aperture调Δφ共享fit及merit全区文本矛盾保，未digitize强裁。
+
+CJP1970伴随新metadataquery仍TLSfail/body未得，EW69ratio作者意图边界不变；no新P/Q/δ/Jπ/Fexperiment或CI。canonicalVW95/Compton/sharedcalnote/report单writeback/18priming、script/input/result/scope/freezes齐；verification072/publication057实际gate，原windowactive/17once/partial18，不因本source完成日终。

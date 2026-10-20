@@ -212,3 +212,6 @@ Day17checkpoint055补核更正053 priming：EW69印式可严格表示r=(1+p)/(1�
 
 
 Day17checkpoint056 priming：Logan1974原3页含背景merit核，Tableε1.6/1.0 arbitraryunits/S1.3/.2纠旧OCR；固定S/第二absorber×2是假定、表小closure差保。原Eq2等价独立VarB=B而VarN=N+2B，actualfitCov/η未知；t每orientation/无背景M常数2与其它F分开，不造CI/P0sign能力。
+
+
+Day17checkpoint057 priming：VW95原9页/14图/3表/19式核，MINIPOLAsector仅timing+orderingunknown，actual未记录Es/E′不靠算法补；POLALIknownrole运动学门另合同。Zn66/67target→Ge69/70product，287.2/288.0近线不迁EM；εc半sumabsoluteeff/merit文字范围矛盾与response漂移保，actualΣ/原校准body缺。

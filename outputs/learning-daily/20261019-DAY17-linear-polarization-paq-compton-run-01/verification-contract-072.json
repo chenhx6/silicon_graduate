@@ -1,0 +1,18 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/vonderwerth-1995-compton-polarimeters.md": 16
+  },
+  "artifacts": [
+    {
+      "file": "vonderwerth1995-gate-result.json",
+      "true_fields": [
+        "ok",
+        "Eq8_inverse_and_energy_role_controls",
+        "source_half_sum_absolute_efficiency_identity",
+        "not_MINIPOLA_order_reconstruction_or_actual_cut_retention",
+        "no_actual_calibration_P_counts_Cov_or_new_Q_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}
