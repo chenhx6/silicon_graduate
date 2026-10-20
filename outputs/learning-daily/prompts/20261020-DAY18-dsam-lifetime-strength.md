@@ -215,3 +215,6 @@ Day17checkpoint056 priming：Logan1974原3页含背景merit核，Tableε1.6/1.0 
 
 
 Day17checkpoint057 priming：VW95原9页/14图/3表/19式核，MINIPOLAsector仅timing+orderingunknown，actual未记录Es/E′不靠算法补；POLALIknownrole运动学门另合同。Zn66/67target→Ge69/70product，287.2/288.0近线不迁EM；εc半sumabsoluteeff/merit文字范围矛盾与response漂移保，actualΣ/原校准body缺。
+
+
+Day17checkpoint058 priming：shared-calibration note新增十原件observable-response合同矩阵/六actualinput优先级，整合已读/旧priming不新实验/盲测；下次先该入口而非裸Q或旧程序数。EW69ratio修订、SG98分母/GR95nonorth/B73原式和各ε/F合同保持，actualreadout/Σ优先。

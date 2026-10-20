@@ -1,0 +1,92 @@
+{
+  "at": "2026-10-20T02:13:31.347369+00:00",
+  "recall_file": "contract-reflect-recall-before.md",
+  "recall_sha256": "fa24ebcf4fd04783a5a0209f62da802cb4aa45d36e50bcf81ad25eebf59f3117",
+  "primed_not_blind_exam": true,
+  "new_credit": false,
+  "rows": [
+    {
+      "source": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+      "atomic_locators": [
+        "EW69-D17-1",
+        "EW69-D17-11"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+      "atomic_locators": [
+        "TW70-D17-2",
+        "TW70-D17-4"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+      "atomic_locators": [
+        "B73-D17-1",
+        "B73-D17-6"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+      "atomic_locators": [
+        "L74-D17-1",
+        "L74-D17-2"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+      "atomic_locators": [
+        "JO95-6",
+        "JO95-7"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+      "atomic_locators": [
+        "GR95-D17-1",
+        "GR95-D17-6"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "atomic_locators": [
+        "SG98-4",
+        "SG98-5"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "atomic_locators": [
+        "ST99-6",
+        "ST99-14"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+      "atomic_locators": [
+        "SC94-D17-2",
+        "SC94-D17-3"
+      ],
+      "status": "mapped-with-source-boundaries"
+    },
+    {
+      "source": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+      "atomic_locators": [
+        "VW95-D17-2",
+        "VW95-D17-9"
+      ],
+      "status": "mapped-with-source-boundaries"
+    }
+  ],
+  "correction_retained": "EW69 prior degree-vs-ratio interpretation withdrawn atcheckpoint055 supplement; authorintent unverified",
+  "no_new_raw_source_read_or_experiment_from_matrix": true,
+  "ok": true
+}

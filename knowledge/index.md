@@ -659,7 +659,7 @@ updated: 2026-10-20
 - [[root-2026-chi2test-option-contract]] - 固定双ROOT版本与native：LL未消费、自动权重/零bin/范围及inactiveproducer示例边界。
 - [[simdsam-2015-public-dsam-code]] - 原公开2015代码/响应表及原表达式组件；变量、时钟、束斑与exactjob限制。
 - [[pb207-gated-polarization-reference]] - 真实参考序列的双门角色/高L混合条件Stokes与actualresponse界限。
-- [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。
+- [[polarimetry-shared-calibration-count-design]] - Day17新计数设计：P/A/Q分层、共同a/η和Q的Cov、Fisher/MC及改分母的非线性反例；非实验重分析。；新增十原件observable-response合同矩阵与六项actualinput优先级。
 
 - [[gr97-stokes-response-and-merit]] - 原TableI/线性Stokes输运、不同response与merit统计合同；无学分Day17preview。
 

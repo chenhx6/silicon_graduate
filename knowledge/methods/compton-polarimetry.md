@@ -501,3 +501,8 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 [[vonderwerth-1995-compton-polarimeters]] VW95-D17-1–14新原9页核：POLALI独立Es/E′已知role才能按Eq8做70–110gate；MINIPOLA共同energy和sector仅timing/orderingunknown，不能让新algorithm补成actual分段energy。137Cs crosstalk10^-6只原control域，neutrondamage还使resolution漂移。
 
 原Table3 target66/67Zn→product69/70Ge，287.2/288.0近线不同parent/反应，不能迁EM/MR。εc半sum×absoluteεa与relativeeff/SC94relativecoinc不同，原F跨能区文字有反例/冲突保，不只用sourceconclusion作普适ranking。Qfit/aperture模型/knownP共享输入，不作独立三证据。
+
+
+## 当前跨装置合同入口
+
+[[polarimetry-shared-calibration-count-design]]的“跨装置observable-response合同矩阵（Day17整合）”将十个原件对象与atomiclocator、实际N/相对零点/P–Q标尺及ε–F分母放在同表，并列最可能改变判断的六项actualinput。它整合已读原件和旧日priming，不新计实验或盲测；尤其保EW69ratio解释的修订，SG98特殊分母、GR95真实nonorthsum与B73误转项分开。使用前先匹配该行观测与读出，不按装置名/同γ能量迁Q。

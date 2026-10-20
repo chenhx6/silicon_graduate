@@ -2270,3 +2270,7 @@ L74原3页/表小数/背景Var与time/ε分母新核写回，oldfalseflags保，
 ### Day17 checkpoint057：actual读出与校准核身份
 
 VW95原9页新核knownorder门/MINIPOLAtiming合同、Geproduct近线与eff半sum/F范围，oldflags保，新14待审。verification072/manifest057/H3发布，main / `Audit actual polarimeter readout and distinguish calibration nuclei`，原windowactive/17once/partial18。
+
+### Day17 checkpoint058：observable-response矩阵整合
+
+primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六actualinput优先级，no新source/experiment/credit；EW69revision保。verification073/manifest058/H3发布，main / `Consolidate polarimetry observable and response contracts across sources`，原windowactive/17once/partial18。

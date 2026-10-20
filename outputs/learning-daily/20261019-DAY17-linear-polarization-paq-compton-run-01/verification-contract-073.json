@@ -1,0 +1,14 @@
+{
+  "indexed_claim_counts": {},
+  "artifacts": [
+    {
+      "file": "contract-reflect-recall-audit.json",
+      "true_fields": [
+        "ok",
+        "primed_not_blind_exam",
+        "no_new_raw_source_read_or_experiment_from_matrix"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

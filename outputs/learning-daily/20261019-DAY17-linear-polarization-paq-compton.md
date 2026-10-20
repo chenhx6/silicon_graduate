@@ -7853,6 +7853,88 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "VW95-D17-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "跨装置observable-response合同矩阵（Day17整合）",
+      "summary": "十个原件/现有atomic页的计数、P/Q、相对零点和merit分母矩阵化，并给实际输入优先级；primed整合不新实验/学分。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-1"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-2"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-6"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-4"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-5"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-3"
+        },
+        {
+          "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+          "locator": "VW95-D17-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "当前跨装置合同入口",
+      "summary": "给长期方法页一个可查的矩阵入口，保持count与response合同及EW69beliefrevision。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-1"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-4"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-5"
+        },
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        }
+      ]
     }
   ]
 }
@@ -8230,3 +8312,10 @@ VW95原9页/14图/3表/19式/12refs新textvisual，candidate-refresh057排旧Z13
 Table3 actual66Znαn69Ge/67Znαn70Ge、287.2vsFig8 288.0不同product/parent；sourceprose残余Zn称呼不闭，保核身份不借近E迁MR。九actualEg在70/90/110由Eq8forward/inverse核、swapenergy只角色反证不actual排序或retention。εc=(Nsum/2Ns)εa的sameunpolsource半sum/absoluteeff单位核，不把relativeeff或SC94coinceff填F。原Qfitcentralunits/aperture调Δφ共享fit及merit全区文本矛盾保，未digitize强裁。
 
 CJP1970伴随新metadataquery仍TLSfail/body未得，EW69ratio作者意图边界不变；no新P/Q/δ/Jπ/Fexperiment或CI。canonicalVW95/Compton/sharedcalnote/report单writeback/18priming、script/input/result/scope/freezes齐；verification072/publication057实际gate，原windowactive/17once/partial18，不因本source完成日终。
+
+
+### Checkpoint058：十原件合同矩阵与primed回忆整合
+
+先冻`contract-reflect-recall-before.md`，明确来源后priming、非盲测/不新计卡；十项回忆逐atomiccanonical页核，`contract-reflect-recall-audit.json`保对应，无新sourcebody或实验信用。canonical [shared-calibration note](../../knowledge/research-notes/polarimetry-shared-calibration-count-design.md)新增十行observable-response矩阵，分实际N/plane、相对零点、P/Q标尺和ε/F；对EW69ratio修订、SG98特殊C/S、GR95nonorthsum、B73误转项区别保，不把相似字式当sameevent。
+
+六actualinput优先级覆盖samecutunpolledger、knownP/AD-tagjointCov、target/refnetcounts背景Σ、非线性两channelresponse/两knownP、absoluteeff/exposure与readout/producer/runstate。它们是本任务自主下一route的选择，不转用户待办或虚构L4。方法页和index加可查入口，source/review flags保。unique writeback增矩阵项，verification073/publication058以实际gate为准；17once/partial18、原windowactive，不因本轮REFLECT结束整日。

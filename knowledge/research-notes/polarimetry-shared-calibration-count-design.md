@@ -3,7 +3,7 @@ type: research-note
 title: "偏振计数的共同几何校准与参考线比值设计"
 aliases: [shared geometry calibration in polarimetry, P A Q count design]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -35,6 +35,42 @@ tags: [polarimetry, calibration, covariance, experimental-design]
 | F与ε | 单次接受计数或绝对效率的分母需声明 | Eq18用photopeak ε，传统Eq11用coincidence ε | 曝光/入射或发射光子、deadtime和背景；裸F不提供beamtime排名 |
 
 ST99 Table1 的 Ba参考P由上游AD而来，Cd/Sn CE参考P由GOSIA而来；这些不是本篇独立直接测到的P。SG98同一calibration的A/P/Q三列不是三个独立实验。ST99的10⁻5指数/脚注勘误和SG98的294-keV印刷closure边界仍按原source保留，本设计没有修复它们。
+
+## 跨装置observable-response合同矩阵（Day17整合）
+
+这张矩阵把本session已读原件与当前canonical claim逐行对照。JO95等部分条目继承旧日原读/priming，本次只核其已有atomic页，并不重称新实验或全文阅读。所有下列核偏振P、计数、Q都按各行对象定义；“相似差和式”不等sameevent。原needs_review/human前缀不因矩阵晋升。
+
+| 原件与locator | 实际计数/定义 | 相对零点或效率输入 | P与分析能力输入 | 效率/merit与不可裸迁条件 |
+|---|---|---|---|---|
+| [[ewan-1969-single-geli-polarimeter]] EW69-D17-1/2/11 | 单planar晶体转两orientation的fullpeak；Qraw=2A | 16cm下两orientation角接受校正，非两个absorber | Qcorr=2A/P，通常A/P=Qcorr/2；印r可为(1+p)/(1−p)，不是boundedp | 全能峰photoelectric稀释未知；oldP>1failure解释已撤回，原作者命名/body仍边界 |
+| [[twin-1970-polarization-angular-correlation-40k]] TW70-D17-1–4 | GeLi+2NaI的sumpeak；ψ82是Compton角，θ为emission | θ0null校analyzereff | R另finitegeometry算/Ar1460检查；R.21(.02)归2231keV | Eq中的核Qk非R；不同角/几何、null与knownP不能互换 |
+| [[butler-1973-three-geli-compton-polarimeter]] B73-D17-1/2/3/6 | sumfullpeak N；A=(aN⊥−N∥)/(aN⊥+N∥) | unpolarized56Co/66Ga给a≈1、1%accuracy | 原P=A/Q，无额外alphaA；P由knownEM/AD预测、A同测 | independenta层不使P/A/Q同链独立；parentEx2935不等Eg967 |
+| [[logan-1974-generalized-polarimeter-merit]] L74-D17-1–7 | N=T−B，两orientation各t；目标σA/A | Eq2等价独立VarB=B，不是任意fitΣ | 线性knownQ，Table977 ε任意1.6/1.0、S1.3/.2 | M backgroundfree=εQ²/[2(1−Q²P²)]；εincidentfullE/time2t，P0relative目标不定义 |
+| [[jones-1995-clover-compton-calibration]] JO95-5/6/7 | Cloveradjacentcrystalcount；A/a在两配置测 | 0°Clover定a、90°测A，addback作ADmonitor | coaxialAD/STAG/finiteangle推P；Q′(B+CE)，C0±.003/MeV | 原F=Q²Nsum为countF；相对NaI效率不是N或absoluteε，thresholdscan共享事件 |
+| [[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-1–9 | 效率归一两count，pointQ3=0；0/60 A=QP/(1−QP/3) | unpol只校offset/eff比 | extendedalpha沿point为作者假设；未知Q1/Q2需两knownP或actualchannelresponse | Fig3同POLmodifiedMC非实验；MsmallP含4f/(1+f)²，不迁finiteP/含背景time |
+| [[schmid-1998-gammasphere-polarization]] SG98-4/5/7/8/14 | C含两侧confined含sideADCzero，S为shared；A=(ηC−S)/(√η(C+S)) | η=Su/Cu，必须samecut/arrayweights | pureE2AD给P再A/P校Q，Eq13前提确保linear | 双分段ε为photopeak，传统ε为coinc；Fig9eta130门不移Fig10/Pb60门，294closure不调η强配 |
+| [[starosta-1999-pdco-experimental-test]] ST99-6/7/9/13/14 | CloverA与四groupPDCO/RDCO复用主采集 | individuala与poola及target权重需匹配 | Q外采NORDBALL移EUROGAM有域；7(2)×10^-5/keV；known647路径取alignment非独立prior | integratedP不是第六独立点、Q不补jointresponse；旧D96勘误保持，490两candidate未独断 |
+| [[schlitt-1994-sectored-compton-polarimeter]] SC94-D17-1–8 | corefullE＋outersector两hit/另两veto给H/V | unpolCoa=.9899(.0052) | Pd622tag/512probe、actualP98%不同nominal1；部分AD/P共B73 | εrelative=(H+V)/Nscorepeak，F用absoluteεcoinc@25cm；150门4438Q7.93非总述未标门9.5 |
+| [[vonderwerth-1995-compton-polarimeters]] VW95-D17-2/4/5/6/9 | POLALI有Es/E′/knownrole；MINIPOLAsector只timing＋共同E，orderunknown | unpolarizedRa校groupa，两geometry/pairgroups另列 | Q=Aexp/Ptheor；apertureΔφ拟Q非独立验证，近287/288需Ge产品身份 | εc=(Nsum/2Ns)ε_abs_single；新algorithm不补actual未记录E，crosstalk/损伤有原run域 |
+
+### 三种“能消零点”的信息仍不同
+
+无偏振源或axisymmetry下θ0null可以约束探测效率比/offset；它本身不给knownnonzeroP下的分析能力。KnownEM/AD/γγtag提供的是另一层P标尺，但这个标尺也有sameparent、门、有限接受、核布居与phase依赖。若A/P/Q由同一calibrationchain派生，增加表列数不能增加独立实验。
+
+有界偏振度p与强度比r的精确转换也不是新的物理信息。EW69的可行ratio解释修订了本session的错误failure判断；保持数学字典与历史作者意图取证分开。SG98改分母产生非线性、GR95真实nonorthogonal分母、B73误转额外项，是三个不同对象，不能因为字式相近便互相取消或移用。
+
+### 哪个新输入最可能改变当前判断
+
+| 待补实际输入 | 直接改变的判断 | 现有材料为什么不能替 |
+|---|---|---|
+| 同energy/门/threshold/arrayweights的unpolarizedledger | 零点和a/η迁移是否有效 | source名或pool a≈1不认证targetgateweights |
+| reference的核P合同及AD/tag/response联合Cov | Q是否有独立标尺，targetP误差与calibration是否共享 | “knownE2”只给多极性，未必给制备取向/finitegeometry或δ/Jπ唯一性 |
+| actualtarget/reference C/S或N⊥/N∥的净面积、背景model与共享Σ | P/δ分支显著性是否能量化 | √area不是一般peakfiterror；marginal表列不能恢复fullCov |
+| 两不同knownP或逐channelStokesresponse（当alpha未独立固定） | 非线性响应Q1/Q2是否可辨 | null+一个非零P只约束一个组合，不能证明extendedpointalpha |
+| 同source曝光/absoluteε/接受角与事件唯一性 | F/merit能否转成时间、能否跨仪器比较 | relativeNaI、conditionalcoinc及countF不是同分母，sharedcuts不是independent点 |
+| 实际readout/ordering/threshold/完整producer与runstate | 公共数据是否足以重放所需选择 | 公开算法不能补未记录segmentenergy、原modifiedtransport或neutrondamage状态 |
+
+这里的nextinput不是用户待办；在本日授权范围内有公开producer/data时继续寻找，没有时保readiness而不造实验CI。Psign与Jπ/δ/形变的裁决仍需samecascade的spin/AD/DCO/寿命/转换系数等companion；多测一项correlation也可能像TW70的770–1159一样不增辨别信息。
 
 ## Provisional Reasoning
 
