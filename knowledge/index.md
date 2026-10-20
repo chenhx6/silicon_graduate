@@ -63,6 +63,8 @@ updated: 2026-10-20
 
 - [[grodner-2006-128cs-chiral-doublet-lifetimes]] — 128Cs与132La完全阻停DSAM寿命测量、131La侧馈参数跨核迁移敏感性与132La 20倍B(E2)塌缩解构。
 
+- [[petrache-2020-137nd-multiple-chiral-bands]] — 137Nd Table 1弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动同位素链闭环对账。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

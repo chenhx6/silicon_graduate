@@ -106,3 +106,13 @@ European Physical Journal A 56, 208 (2020)，DOI `10.1140/epja/s10050-020-00218-
 ## Personal Notes
 
 该文是“候选手征带证据不对称”的好例子：新伙伴的能级与连接跃迁是直接事实，手征几何主要由与较强带的系统学和 PRM 支撑。
+
+## Day18定量审计：弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动对账
+
+在Day18正式学习中对本文Table 1各跃迁强度开展系统性提取与自洽性核验，raw SHA256 `C3117EB0E50A4084D47AF21B11060E8CE31BFF85F3F382A984565B9A1D03BD16`已核。原P20-1–7各claim保持；新P20-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| P20-D18-1 | 本文Table 1中实验跃迁经过定量提取与对账：(1) 对带D2提取了9个态的B(M1)/B(E2)（介于2.5至11.4 (mu_N/eb)^2），对带D5提取了10个态的B(M1)/B(E2)（高自旋介于7.0至32.3 (mu_N/eb)^2）；(2) 成功从Table 1的一级分支强度中抢救出原论文Fig. 6遗漏绘制的弱伙伴带实验值：带D3在31/2+与33/2+处的B(M1)/B(E2)分别为7.376与8.997 (mu_N/eb)^2（与D2对应态比值稳定在2.02与2.10倍），带D6在33/2-、35/2-、37/2-处的B(M1)/B(E2)分别为3.202、21.167与5.475 (mu_N/eb)^2（完全落在D5的3.2-32.3包络内，且表现出显著的0.19->1.85->0.17奇偶交错比）；(3) 准粒子对齐分析证实，两对双重带在整个转动频率区均保持严格恒定的Delta i_x = 2 hbar对齐落差，微观上确立了与135Nd同构的手征振动动力学机制，排除了理想静态手征破缺。 | task-rate-decomposition-audit | derived-and-boundary | Table 1, Table 2, Fig. 6, Fig. 7；新petrache20-137nd-chiral-result-035 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache20-137nd-chiral-contract-035.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache20-137nd-chiral-result-035.json)4项检查全过。

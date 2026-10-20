@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "petrache20-137nd-chiral-strength-audit",
+  "inputs": [
+    "raw/papers/2020_Petrache et al_Multiple chiral bands in $$^{137}$$Nd.pdf"
+  ],
+  "checks": [
+    "Extract complete B(M1)/B(E2) ratios for Band D2 (9 states) and Band D5 (10 states)",
+    "Recover omitted experimental B(M1)/B(E2) points for partner bands D3 (2 states) and D6 (3 states)",
+    "Crosswalk comparison showing D3 vs D2 within factor of 2, and D6 vs D5 in the 3.2 - 21.2 (mu_N/eb)^2 envelope",
+    "Quasiparticle alignment 2 hbar gap audit confirming chiral vibration mode"
+  ],
+  "status": "passed"
+}

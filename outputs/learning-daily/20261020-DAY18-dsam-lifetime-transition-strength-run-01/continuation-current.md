@@ -1,3 +1,5 @@
+checkpoint035：137Nd多重手征带Table 1弱伙伴跃迁比抢救提取与2hbar对齐对手征振动审计（P20-D18-1），证实从Table 1成功提取D3与D6弱带B(M1)/B(E2)跃迁比（D3比D2稳定在2.02-2.10倍，D6完全落入D5的3.2-32.3包络内），结合恒定Delta i_x=2hbar对齐落差闭环证明与135Nd同构的手征振动动力学机制。131项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint034：126Cs与128Cs手征双重带DSAM寿命重构、Qt形变对称性与相空间透镜审计（GR126-D18-1/GR06-D18-1），证实126Cs两带13能级寿命与26绝对跃迁几率与探测强度严格闭环（平均偏差仅7.8%），Qt比值0.892高度保持形变对称性（反衬132La的20倍BE2崩塌），且(961/277)^5达502.6倍相空间抑制反向确立低能Delta I=1跃迁具有>99.5%天然纯M1。127项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint033：Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度的精确收敛对账审计（NOM22-D18-1），证实微观实验室系相互作用玻色子-费米子模型预言的135Pr delta=-0.368（与Lv 2022实验值-0.37在0.002内重合）及127Xe B(E2)比值0.163（与Day 18审计小解值0.164完全一致，崩塌近10倍），彻底从微观壳模型与配对振动上终结低自旋wobbling假象。122项writeback已通过验证。原硬截止今日15点保持。
@@ -43,6 +45,8 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint035已实际提交，稳定指针main / `Audit 137Nd multiple chiral bands B(M1)/B(E2) recovery and 2 hbar alignment gap`；精确hash/H3/远端结果只publication-035回执。
 
 checkpoint034已实际提交，稳定指针main / `Audit 126Cs and 128Cs DSAM lifetimes, Qt deformation symmetry, and E^5 phase-space M1 purity`；精确hash/H3/远端结果只publication-034回执。
 

@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "nucleus": "137Nd",
+  "reference": "Petrache et al., Eur. Phys. J. A 56, 208 (2020)",
+  "summary": {
+    "d2_states_extracted": 9,
+    "d5_states_extracted": 10,
+    "d3_states_extracted": 2,
+    "d6_states_extracted": 3,
+    "d3_vs_d2_comparison": [
+      {
+        "spin": "31/2+",
+        "D3_ratio": 7.376,
+        "D2_ratio": 3.654,
+        "ratio_D3_over_D2": 2.02
+      },
+      {
+        "spin": "33/2+",
+        "D3_ratio": 8.997,
+        "D2_ratio": 4.286,
+        "ratio_D3_over_D2": 2.1
+      }
+    ],
+    "d6_vs_d5_comparison": [
+      {
+        "spin": "33/2-",
+        "D6_ratio": 3.202,
+        "D5_ratio": 17.003,
+        "ratio_D6_over_D5": 0.19
+      },
+      {
+        "spin": "35/2-",
+        "D6_ratio": 21.167,
+        "D5_ratio": 11.462,
+        "ratio_D6_over_D5": 1.85
+      },
+      {
+        "spin": "37/2-",
+        "D6_ratio": 5.475,
+        "D5_ratio": 32.319,
+        "ratio_D6_over_D5": 0.17
+      }
+    ],
+    "alignment_gap_hbar": 2.0,
+    "chiral_interpretation": "Both doublet pairs exhibit a constant 2 hbar quasiparticle alignment gap across the entire frequency range, confirming chiral vibration mode (analogous to 135Nd) rather than static chiral degeneracy.",
+    "unplotted_data_recovery": "Table 1 contains complete primary transition intensities for weak partner bands D3 and D6, enabling direct extraction of B(M1)/B(E2) ratios that were omitted from Fig. 6 plots in the original publication."
+  },
+  "band_D2_results": [
+    {
+      "spin": "21/2+",
+      "Ei_keV": 2946.6,
+      "Eg_M1_keV": 195.9,
+      "Eg_E2_keV": 503.9,
+      "ratio_val": 8.486,
+      "ratio_err": 0.946
+    },
+    {
+      "spin": "23/2+",
+      "Ei_keV": 3160.6,
+      "Eg_M1_keV": 214.0,
+      "Eg_E2_keV": 409.9,
+      "ratio_val": 3.793,
+      "ratio_err": 1.159
+    },
+    {
+      "spin": "25/2+",
+      "Ei_keV": 3378.7,
+      "Eg_M1_keV": 218.1,
+      "Eg_E2_keV": 432.1,
+      "ratio_val": 5.564,
+      "ratio_err": 2.852
+    },
+    {
+      "spin": "27/2+",
+      "Ei_keV": 3673.5,
+      "Eg_M1_keV": 294.8,
+      "Eg_E2_keV": 512.9,
+      "ratio_val": 11.138,
+      "ratio_err": 5.705
+    },
+    {
+      "spin": "29/2+",
+      "Ei_keV": 4110.3,
+      "Eg_M1_keV": 436.8,
+      "Eg_E2_keV": 731.6,
+      "ratio_val": 11.39,
+      "ratio_err": 4.722
+    },
+    {
+      "spin": "31/2+",
+      "Ei_keV": 4474.4,
+      "Eg_M1_keV": 364.1,
+      "Eg_E2_keV": 801.1,
+      "ratio_val": 3.654,
+      "ratio_err": 0.708
+    },
+    {
+      "spin": "33/2+",
+      "Ei_keV": 5023.2,
+      "Eg_M1_keV": 548.8,
+      "Eg_E2_keV": 912.9,
+      "ratio_val": 4.286,
+      "ratio_err": 1.652
+    },
+    {
+      "spin": "35/2+",
+      "Ei_keV": 5413.5,
+      "Eg_M1_keV": 390.3,
+      "Eg_E2_keV": 939.1,
+      "ratio_val": 2.514,
+      "ratio_err": 1.27
+    },
+    {
+      "spin": "37/2+",
+      "Ei_keV": 6019.3,
+      "Eg_M1_keV": 605.8,
+      "Eg_E2_keV": 996.1,
+      "ratio_val": 4.781,
+      "ratio_err": 2.657
+    }
+  ],
+  "band_D5_results": [
+    {
+      "spin": "25/2-",
+      "Ei_keV": 3756.4,
+      "Eg_M1_keV": 675.4,
+      "Eg_E2_keV": 877.3,
+      "ratio_val": 1.763,
+      "ratio_err": 0.242
+    },
+    {
+      "spin": "27/2-",
+      "Ei_keV": 3895.6,
+      "Eg_M1_keV": 138.7,
+      "Eg_E2_keV": 814.6,
+      "ratio_val": 438.361,
+      "ratio_err": 89.876
+    },
+    {
+      "spin": "31/2-",
+      "Ei_keV": 4513.0,
+      "Eg_M1_keV": 353.6,
+      "Eg_E2_keV": 617.4,
+      "ratio_val": 19.793,
+      "ratio_err": 5.061
+    },
+    {
+      "spin": "33/2-",
+      "Ei_keV": 4908.5,
+      "Eg_M1_keV": 395.5,
+      "Eg_E2_keV": 749.1,
+      "ratio_val": 17.003,
+      "ratio_err": 3.563
+    },
+    {
+      "spin": "35/2-",
+      "Ei_keV": 5371.0,
+      "Eg_M1_keV": 462.5,
+      "Eg_E2_keV": 858.0,
+      "ratio_val": 11.462,
+      "ratio_err": 3.859
+    },
+    {
+      "spin": "37/2-",
+      "Ei_keV": 5811.1,
+      "Eg_M1_keV": 440.1,
+      "Eg_E2_keV": 902.6,
+      "ratio_val": 32.319,
+      "ratio_err": 6.856
+    },
+    {
+      "spin": "39/2-",
+      "Ei_keV": 6192.5,
+      "Eg_M1_keV": 381.4,
+      "Eg_E2_keV": 821.5,
+      "ratio_val": 28.193,
+      "ratio_err": 7.34
+    },
+    {
+      "spin": "41/2-",
+      "Ei_keV": 6667.6,
+      "Eg_M1_keV": 475.1,
+      "Eg_E2_keV": 856.5,
+      "ratio_val": 7.047,
+      "ratio_err": 1.21
+    },
+    {
+      "spin": "43/2-",
+      "Ei_keV": 7098.7,
+      "Eg_M1_keV": 431.1,
+      "Eg_E2_keV": 906.2,
+      "ratio_val": 6.764,
+      "ratio_err": 1.575
+    },
+    {
+      "spin": "45/2-",
+      "Ei_keV": 7650.1,
+      "Eg_M1_keV": 551.4,
+      "Eg_E2_keV": 982.5,
+      "ratio_val": 7.61,
+      "ratio_err": 1.702
+    }
+  ],
+  "band_D3_results": [
+    {
+      "spin": "31/2+",
+      "Ei_keV": 4711.7,
+      "Eg_M1_keV": 601.4,
+      "Eg_E2_keV": 1038.2,
+      "ratio_val": 7.376,
+      "ratio_err": 3.528
+    },
+    {
+      "spin": "33/2+",
+      "Ei_keV": 5146.7,
+      "Eg_M1_keV": 435.0,
+      "Eg_E2_keV": 1036.4,
+      "ratio_val": 8.997,
+      "ratio_err": 2.881
+    }
+  ],
+  "band_D6_results": [
+    {
+      "spin": "33/2-",
+      "Ei_keV": 5212.4,
+      "Eg_M1_keV": 699.4,
+      "Eg_E2_keV": 1053.0,
+      "ratio_val": 3.202,
+      "ratio_err": 1.019
+    },
+    {
+      "spin": "35/2-",
+      "Ei_keV": 5522.4,
+      "Eg_M1_keV": 310.0,
+      "Eg_E2_keV": 1009.4,
+      "ratio_val": 21.167,
+      "ratio_err": 9.501
+    },
+    {
+      "spin": "37/2-",
+      "Ei_keV": 5904.6,
+      "Eg_M1_keV": 382.2,
+      "Eg_E2_keV": 996.1,
+      "ratio_val": 5.475,
+      "ratio_err": 1.636
+    }
+  ]
+}

@@ -2419,6 +2419,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "GR06-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+      "anchor": "Day18定量审计：弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动对账",
+      "summary": "来源页补充137Nd Table 1弱伙伴带D3与D6中B(M1)/B(E2)跃迁几率比抢救提取与Delta i_x=2hbar手征振动对账",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "137Nd多重手征双重带的跃迁几率比提取与手征振动对齐对账",
+      "summary": "研究笔记补充137Nd多重手征带跃迁几率比提取对Nd同位素链(135-137Nd)手征振动动力学机制的系统学闭环",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "弱激发伙伴带中一级分支比的电磁跃迁强度抢救与提取准则",
+      "summary": "方法页补充利用高自旋一级分支光子能量与光电峰强度比抢救微弱激发带B(M1)/B(E2)比值的分析准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "petrache-2020-137nd-multiple-chiral-bands",
+      "summary": "索引增加137Nd Table 1弱伙伴带跃迁比提取与手征振动同位素链闭环导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2433,6 +2477,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint035已实际提交，稳定指针main / `Audit 137Nd multiple chiral bands B(M1)/B(E2) recovery and 2 hbar alignment gap`；精确hash/H3/远端结果只publication-035回执。
 
 checkpoint034已实际提交，稳定指针main / `Audit 126Cs and 128Cs DSAM lifetimes, Qt deformation symmetry, and E^5 phase-space M1 purity`；精确hash/H3/远端结果只publication-034回执。
 
