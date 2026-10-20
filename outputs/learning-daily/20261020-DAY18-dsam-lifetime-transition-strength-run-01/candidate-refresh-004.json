@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-20T15:59:40.858729+08:00",
+  "original_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 1380.3190211833332,
+  "current_card": 18,
+  "course_state_unchanged": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 18,
+    "last_success": "2026-10-19",
+    "last_run_id": "2026-10-19-day-17-01",
+    "status": "active",
+    "acceptance_runs_excluded": [
+      "2026-09-22-day-01-01",
+      "2026-09-22-day-01-02",
+      "2026-09-22-day-01-03",
+      "2026-09-22-day-01-04",
+      "2026-09-22-day-01-05",
+      "2026-09-22-day-02-06"
+    ],
+    "reset_at": "2026-09-23",
+    "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+    "completed_day_count": 17
+  },
+  "current_issue": "停止模型变更、同data重分析与独立强度companion",
+  "progress": "54Cr原件主线和30项publishedinput已完成；原data/code仍readiness",
+  "next_routes": [
+    {
+      "candidate": "Woodside2026 58Fe PRC113044306",
+      "why": "54Cr原文称有新Coulombexcitation独立验证；要原读区分新observedstrongE2/旧DSAM重分析/模型effectivecharges，不能借转引认证",
+      "body_status": "not yet obtained or read"
+    },
+    {
+      "candidate": "Petkov2018 DOI10.1063/1.5026580",
+      "why": "原题名claims DSAM CDDCM对某类stopping不确定稳健，可核其classassumptions是否反驳/补足clockdesign",
+      "body_status": "metadata only"
+    }
+  ],
+  "next_card_status": "not opened; no reason to preview while currentDay18 highvalue routes remain",
+  "decision": "continue current card; no earlycloseout"
+}

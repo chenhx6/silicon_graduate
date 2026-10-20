@@ -1,0 +1,48 @@
+[
+  {
+    "tag": "gascon1990",
+    "doi": "10.1016/0375-9474(90)90102-R",
+    "status": 404
+  },
+  {
+    "tag": "currie1969",
+    "doi": "10.1016/0029-554X(69)90203-1",
+    "status": 200,
+    "metadata": {
+      "paperId": "9e0503fe37f59bdcb5c4d5904a468a8244e546ca",
+      "externalIds": {
+        "MAG": "2062566988",
+        "DOI": "10.1016/0029-554X(69)90203-1",
+        "CorpusId": 121272849
+      },
+      "url": "https://www.semanticscholar.org/paper/9e0503fe37f59bdcb5c4d5904a468a8244e546ca",
+      "title": "A Monte Carlo programme for doppler shift analysis",
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null
+      }
+    }
+  },
+  {
+    "tag": "bacelar1987",
+    "doi": "10.1103/PhysRevC.35.1170",
+    "status": 200,
+    "metadata": {
+      "paperId": "5e4de25cbed3d120e84ebb7fb25a79f91cc1c0fb",
+      "externalIds": {
+        "MAG": "1969935101",
+        "DOI": "10.1103/PHYSREVC.35.1170",
+        "CorpusId": 40999612,
+        "PubMed": "9953883"
+      },
+      "url": "https://www.semanticscholar.org/paper/5e4de25cbed3d120e84ebb7fb25a79f91cc1c0fb",
+      "title": "Line-shape analysis of high spin states: Collectivity in 166Yb.",
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null
+      }
+    }
+  }
+]

@@ -539,3 +539,17 @@ J01-D18-2中均值Qt541/Qt411=8.3/7.4≈1.12162，共同时钟尺度不改该比
 原Jensen/MU08匹配逐角bins、slowing/branch/混合/几何producer及联合Σ仍未取得；实际实验重拟合/CI为not-ready。下一高信息输入是matchingstopping/feeding校准、原DSAM方法/实现及逐态响应，而非更多同族toy或重复旧表。原谱直观、拟合τ、转换B、Qt及结构解释各自的证据角色保留。
 
 本节Codex self-audit：解析域和反例均显式，旧review/needs_review保持；J01-D18-1/2与MU08-D18-1/2/3全为needs_review，非human-reviewed。`supports`共同尺度与spincontrast分开，`limits`把相对比较自动说成systematicsfree。真实两带组态/手征解释仍须matchedobservables/模型边界，不由本设计唯一裁决。此独立交付不兑换Day17预习学分，整段原deadline与最终课程发布门仍由本次actualreceipt控制。
+
+## Day18新54Cr原件：停止分量、组合角色与模型δ
+
+[[stuchbery-2026-cr54-dsam-reevaluation]] SC26-1–12为本session新发现且完整原读的arxivv2十一页/五图五表五式，不是Day17旧preview。期刊metadataPRC114034322/DOIgm4m-8wyn与实际arxivbody分开；官方源码九成员只有文稿/图，不认证作者OCR重建程序或logbook已经取得。
+
+SC26-2/4/5把前节clock模型的边界落到真实案例：作者重用1980观测，用更新SRIM替换LSS电子停止，核停止变化较小且影响散射；因此不等整个生成元统一timechange。七个matchedTa-only寿命中心的倍率约1.193–1.268，不能拿一项恒定乘数作精确替换；不是新独立寿命。也不把这个6.3%倍率spread迁给MU08逐态误差或推翻D19.25诊断。
+
+SC26-7特别区分旧Ta3.5ps、新Ta4.2ps和合Mo的3.8ps：20%的matchedTa变化与8.57%的mixed-role商都可从原打印中心得到，但只有清楚标对象才能解释。源“16–27%”不解释成TableIV所有新旧商的无条件界。TableI/II主误差来自ΔE，末两列为电子±5%/核±10%变化效应，TableIII另含组合；这些都不提供原jointΣ。
+
+SC26-11的新23行Eq5复算中心最大差.000769；Ta/Mo的3160同母态两条线在额外独立误差候选下得F.332181±.023122/.380722±.050897，不能据相合认定原平均程序/Cov。观测printedF1.002保持，不clip后称新数据。原Ta4+1/6+1在pγ1/pureE2条件给B227.004/230.762e²fm4，仅近原228/233，仍不认证branchinventory。
+
+SC26-9/12是另一反证：4043态候选6+及820keV支的“experimental”B88e²fm4用了模型δ=.05。固定绝对photonprobability/τ/E，换自设δ=.025/.10会把E2份额乘.250468/3.970297，条件B为22.041/349.386；不是新的实验误差或可自由选δ。作者明确新spin建议与DCO冲突，保tentative/待新spectroscopy；不能用同模型δ构造的B独立验证该模型。
+
+源对另DSAM的LSS/Ta依赖、Lieb/Kuronen同GRIDdata重分析以及2620态未闭合差异均按SC26-8保留；未读那些原件不计新独立measurement。下一高价值路线是本公开源码文稿可定位的原analysis/独立Coulomb或GRID输入，而非重复新30项算术检查。Jensen引用Gascon/Currie/Bacelar的当下合法路线只得metadata/访问失败，尚未原读；不因题名或TDMlicense补方法。所有新claims待审，原raw/PLAN/Bib/旧flags保持，整日原窗口继续。

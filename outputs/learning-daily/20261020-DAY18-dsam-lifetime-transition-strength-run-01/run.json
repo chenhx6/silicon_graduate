@@ -70,7 +70,14 @@
     "original_deadline_preserved": true
   },
   "research_status": "active",
-  "last_checkpoint": "startup-and-primed-recall-frozen",
+  "last_checkpoint": "001 published; originalstudywindowactive",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
-  "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json"
+  "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
+  "last_publication": {
+    "branch": "main",
+    "subject": "Establish independent DAY18 DSAM clock and strength contrast audit",
+    "commit_hash": "1608c47771bc4cc085dfeae51ff72ec00ea2e634",
+    "outcome": "pushed",
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-001.json"
+  }
 }

@@ -27,19 +27,25 @@
     },
     {
       "task": "new stoppingclock and realtablecontrast exercise",
-      "status": "in_progress"
+      "status": "completed"
     },
     {
       "task": "canonicalknowledge/writeback/report/selfaudit/checkpointpublication",
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "task": "continue highvalue currentcard issues through originalharddeadline; only allowednextpreview",
-      "status": "pending"
+      "status": "in_progress"
     },
     {
       "task": "15–16finalchecks/receipt/nextprompt/publication/card18once",
       "status": "pending"
+    },
+    {
+      "task": "newCr54fullmainlineand23F/30checks",
+      "status": "completed",
+      "scope": "actualstopping/modeldependencycounterexample, not experimentalrefit"
     }
-  ]
+  ],
+  "last_checkpoint": "002 newCr54source/readiness; originalresearchactive"
 }

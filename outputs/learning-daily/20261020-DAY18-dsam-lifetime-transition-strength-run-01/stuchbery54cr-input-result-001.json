@@ -1,0 +1,603 @@
+{
+  "scope": "newsource-grounded arithmetic; no originalMC/code/logbook/fitSigma or experimentalCI",
+  "contract_sha256": "b11de449759ae47f5639bb0fe6b5842c894c1af768f31f05cbd8a64a9ad4400d",
+  "script_sha256": "bf88cc3797561ed55b77107fc1a43ef8b433b591f132e82cfcd3f9ce3eef8d9c",
+  "F_rows": [
+    {
+      "medium": "Ta",
+      "Ex_MeV": "0.835",
+      "Eg_MeV": "0.835",
+      "shift_keV": ".11",
+      "shift_SD_keV": ".17",
+      "delta_beta_cos_times1000": "13.53",
+      "printed_F": ".009",
+      "printed_F_SD": ".015",
+      "F_from_printed_centers": 0.009736624312350908,
+      "F_sd_fixed_denominator_only": 0.015047510300905948,
+      "F_center_residual": 0.0007366243123509079,
+      "F_sd_residual": 4.7510300905948634e-05
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "1.824",
+      "Eg_MeV": ".989",
+      "shift_keV": ".57",
+      "shift_SD_keV": ".15",
+      "delta_beta_cos_times1000": "13.28",
+      "printed_F": ".043",
+      "printed_F_SD": ".011",
+      "F_from_printed_centers": 0.043399076589472146,
+      "F_sd_fixed_denominator_only": 0.011420809628808459,
+      "F_center_residual": 0.0003990765894721454,
+      "F_sd_residual": 0.0004208096288084593
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "2.620",
+      "Eg_MeV": "1.785",
+      "shift_keV": "12.57",
+      "shift_SD_keV": ".74",
+      "delta_beta_cos_times1000": "13.06",
+      "printed_F": ".539",
+      "printed_F_SD": ".032",
+      "F_from_printed_centers": 0.539204962229915,
+      "F_sd_fixed_denominator_only": 0.031743172000806445,
+      "F_center_residual": 0.00020496222991493688,
+      "F_sd_residual": -0.00025682799919355185
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "2.830",
+      "Eg_MeV": "1.995",
+      "shift_keV": "11.75",
+      "shift_SD_keV": "1.85",
+      "delta_beta_cos_times1000": "13.00",
+      "printed_F": ".453",
+      "printed_F_SD": ".071",
+      "F_from_printed_centers": 0.45305571621361096,
+      "F_sd_fixed_denominator_only": 0.07133217659533449,
+      "F_center_residual": 5.5716213610950454e-05,
+      "F_sd_residual": 0.0003321765953344901
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.074",
+      "Eg_MeV": "2.239",
+      "shift_keV": "28.51",
+      "shift_SD_keV": "1.20",
+      "delta_beta_cos_times1000": "12.93",
+      "printed_F": ".985",
+      "printed_F_SD": ".041",
+      "F_from_printed_centers": 0.9847921971021341,
+      "F_sd_fixed_denominator_only": 0.04145039061811859,
+      "F_center_residual": -0.0002078028978658921,
+      "F_sd_residual": 0.0004503906181185875
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.160",
+      "Eg_MeV": "1.336",
+      "shift_keV": "5.68",
+      "shift_SD_keV": ".49",
+      "delta_beta_cos_times1000": "12.91",
+      "printed_F": ".329",
+      "printed_F_SD": ".028",
+      "F_from_printed_centers": 0.3293181259479492,
+      "F_sd_fixed_denominator_only": 0.02840948621734069,
+      "F_center_residual": 0.00031812594794918296,
+      "F_sd_residual": 0.00040948621734068655
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.160",
+      "Eg_MeV": "2.325",
+      "shift_keV": "10.16",
+      "shift_SD_keV": "1.24",
+      "delta_beta_cos_times1000": "12.91",
+      "printed_F": ".339",
+      "printed_F_SD": ".041",
+      "F_from_printed_centers": 0.33848895996268624,
+      "F_sd_fixed_denominator_only": 0.041311644719855406,
+      "F_center_residual": -0.0005110400373137436,
+      "F_sd_residual": 0.00031164471985540925
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.222",
+      "Eg_MeV": "1.399",
+      "shift_keV": "4.12",
+      "shift_SD_keV": ".34",
+      "delta_beta_cos_times1000": "12.89",
+      "printed_F": ".229",
+      "printed_F_SD": ".019",
+      "F_from_printed_centers": 0.22846863353021193,
+      "F_sd_fixed_denominator_only": 0.018854207621425256,
+      "F_center_residual": -0.0005313664697880732,
+      "F_sd_residual": -0.0001457923785747439
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.393",
+      "Eg_MeV": "2.558",
+      "shift_keV": "32.19",
+      "shift_SD_keV": ".91",
+      "delta_beta_cos_times1000": "12.84",
+      "printed_F": ".980",
+      "printed_F_SD": ".028",
+      "F_from_printed_centers": 0.9800662024215764,
+      "F_sd_fixed_denominator_only": 0.02770612749933627,
+      "F_center_residual": 6.620242157643603e-05,
+      "F_sd_residual": -0.0002938725006637292
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.437",
+      "Eg_MeV": "2.602",
+      "shift_keV": "33.45",
+      "shift_SD_keV": ".88",
+      "delta_beta_cos_times1000": "12.82",
+      "printed_F": "1.002",
+      "printed_F_SD": ".026",
+      "F_from_printed_centers": 1.0027687810048913,
+      "F_sd_fixed_denominator_only": 0.026380763147512833,
+      "F_center_residual": 0.0007687810048912333,
+      "F_sd_residual": 0.00038076314751283365
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.655",
+      "Eg_MeV": "1.831",
+      "shift_keV": "23.23",
+      "shift_SD_keV": ".31",
+      "delta_beta_cos_times1000": "12.76",
+      "printed_F": ".994",
+      "printed_F_SD": ".013",
+      "F_from_printed_centers": 0.9942834054399244,
+      "F_sd_fixed_denominator_only": 0.013268525858216813,
+      "F_center_residual": 0.00028340543992439506,
+      "F_sd_residual": 0.00026852585821681286
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.720",
+      "Eg_MeV": "3.720",
+      "shift_keV": "46.00",
+      "shift_SD_keV": "2.00",
+      "delta_beta_cos_times1000": "12.74",
+      "printed_F": ".971",
+      "printed_F_SD": ".042",
+      "F_from_printed_centers": 0.9706115696899107,
+      "F_sd_fixed_denominator_only": 0.04220050302999612,
+      "F_center_residual": -0.00038843031008929625,
+      "F_sd_residual": 0.00020050302999611756
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.786",
+      "Eg_MeV": "1.962",
+      "shift_keV": "0.00",
+      "shift_SD_keV": ".60",
+      "delta_beta_cos_times1000": "12.72",
+      "printed_F": ".000",
+      "printed_F_SD": ".024",
+      "F_from_printed_centers": 0.0,
+      "F_sd_fixed_denominator_only": 0.024041697920873965,
+      "F_center_residual": 0.0,
+      "F_sd_residual": 4.1697920873963805e-05
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "3.799",
+      "Eg_MeV": "2.964",
+      "shift_keV": "28.10",
+      "shift_SD_keV": ".70",
+      "delta_beta_cos_times1000": "12.71",
+      "printed_F": ".746",
+      "printed_F_SD": ".019",
+      "F_from_printed_centers": 0.7459033712708814,
+      "F_sd_fixed_denominator_only": 0.018581222771872487,
+      "F_center_residual": -9.66287291186873e-05,
+      "F_sd_residual": -0.0004187772281275118
+    },
+    {
+      "medium": "Ta",
+      "Ex_MeV": "4.043",
+      "Eg_MeV": ".820",
+      "shift_keV": "8.90",
+      "shift_SD_keV": ".50",
+      "delta_beta_cos_times1000": "12.64",
+      "printed_F": ".858",
+      "printed_F_SD": ".048",
+      "F_from_printed_centers": 0.8586755171349182,
+      "F_sd_fixed_denominator_only": 0.04824019759184934,
+      "F_center_residual": 0.0006755171349181846,
+      "F_sd_residual": 0.00024019759184933621
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "0.835",
+      "Eg_MeV": ".835",
+      "shift_keV": ".08",
+      "shift_SD_keV": ".26",
+      "delta_beta_cos_times1000": "13.53",
+      "printed_F": ".007",
+      "printed_F_SD": ".023",
+      "F_from_printed_centers": 0.007081181318073388,
+      "F_sd_fixed_denominator_only": 0.02301383928373851,
+      "F_center_residual": 8.11813180733876e-05,
+      "F_sd_residual": 1.3839283738509677e-05
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "1.824",
+      "Eg_MeV": ".989",
+      "shift_keV": ".81",
+      "shift_SD_keV": ".26",
+      "delta_beta_cos_times1000": "13.28",
+      "printed_F": ".062",
+      "printed_F_SD": ".020",
+      "F_from_printed_centers": 0.06167237199556568,
+      "F_sd_fixed_denominator_only": 0.019796070023267998,
+      "F_center_residual": -0.00032762800443431967,
+      "F_sd_residual": -0.00020392997673200386
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "2.620",
+      "Eg_MeV": "1.785",
+      "shift_keV": "15.32",
+      "shift_SD_keV": "1.14",
+      "delta_beta_cos_times1000": "13.06",
+      "printed_F": ".657",
+      "printed_F_SD": ".049",
+      "F_from_printed_centers": 0.6571694527734524,
+      "F_sd_fixed_denominator_only": 0.04890164335259372,
+      "F_center_residual": 0.00016945277345241312,
+      "F_sd_residual": -9.835664740628257e-05
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "2.830",
+      "Eg_MeV": "1.995",
+      "shift_keV": "10.28",
+      "shift_SD_keV": "3.04",
+      "delta_beta_cos_times1000": "13.00",
+      "printed_F": ".396",
+      "printed_F_SD": ".117",
+      "F_from_printed_centers": 0.3963755542702911,
+      "F_sd_fixed_denominator_only": 0.11721611721611722,
+      "F_center_residual": 0.0003755542702911124,
+      "F_sd_residual": 0.00021611721611721613
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "3.074",
+      "Eg_MeV": "2.239",
+      "shift_keV": "27.40",
+      "shift_SD_keV": "1.40",
+      "delta_beta_cos_times1000": "12.93",
+      "printed_F": ".946",
+      "printed_F_SD": ".048",
+      "F_from_printed_centers": 0.9464505857803744,
+      "F_sd_fixed_denominator_only": 0.04835878905447168,
+      "F_center_residual": 0.0004505857803744145,
+      "F_sd_residual": 0.0003587890544716854
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "3.160",
+      "Eg_MeV": "1.336",
+      "shift_keV": "6.39",
+      "shift_SD_keV": "1.23",
+      "delta_beta_cos_times1000": "12.91",
+      "printed_F": ".371",
+      "printed_F_SD": ".071",
+      "F_from_printed_centers": 0.37048289169144283,
+      "F_sd_fixed_denominator_only": 0.0713136082598552,
+      "F_center_residual": -0.0005171083085571691,
+      "F_sd_residual": 0.0003136082598551928
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "3.160",
+      "Eg_MeV": "2.325",
+      "shift_keV": "11.73",
+      "shift_SD_keV": "2.19",
+      "delta_beta_cos_times1000": "12.91",
+      "printed_F": ".391",
+      "printed_F_SD": ".073",
+      "F_from_printed_centers": 0.3907948327128258,
+      "F_sd_fixed_denominator_only": 0.07296169511006721,
+      "F_center_residual": -0.00020516728717423353,
+      "F_sd_residual": -3.8304889932785285e-05
+    },
+    {
+      "medium": "Mo",
+      "Ex_MeV": "3.222",
+      "Eg_MeV": "1.399",
+      "shift_keV": "5.69",
+      "shift_SD_keV": "1.24",
+      "delta_beta_cos_times1000": "12.89",
+      "printed_F": ".316",
+      "printed_F_SD": ".069",
+      "F_from_printed_centers": 0.3155307098997344,
+      "F_sd_fixed_denominator_only": 0.06876240426637446,
+      "F_center_residual": -0.00046929010026556704,
+      "F_sd_residual": -0.00023759573362553657
+    }
+  ],
+  "max_F_center_residual": 0.0007687810048912333,
+  "conditional_two_line_means": [
+    {
+      "medium": "Ta",
+      "conditional_independent_weighted_F": 0.3321805273833672,
+      "conditional_sd": 0.02312242749245884,
+      "not_certification_of_original_estimator_or_covariance": true
+    },
+    {
+      "medium": "Mo",
+      "conditional_independent_weighted_F": 0.3807222757955641,
+      "conditional_sd": 0.050896958511565914,
+      "not_certification_of_original_estimator_or_covariance": true
+    }
+  ],
+  "tau_comparison_roles": [
+    {
+      "Ex_MeV": "1.824",
+      "old_Ta_tau_ps": "3.5",
+      "new_Ta_tau_ps": "4.2",
+      "new_adopted_tau_ps": "3.8",
+      "newTa_over_oldTa": 1.2,
+      "newAdopted_over_oldTa": 1.0857142857142856,
+      "fixed_branch_strength_multiplier_Ta": 0.8333333333333334
+    },
+    {
+      "Ex_MeV": "2.620",
+      "old_Ta_tau_ps": ".16",
+      "new_Ta_tau_ps": ".20",
+      "new_adopted_tau_ps": ".185",
+      "newTa_over_oldTa": 1.25,
+      "newAdopted_over_oldTa": 1.15625,
+      "fixed_branch_strength_multiplier_Ta": 0.8
+    },
+    {
+      "Ex_MeV": "2.830",
+      "old_Ta_tau_ps": ".22",
+      "new_Ta_tau_ps": ".27",
+      "new_adopted_tau_ps": ".28",
+      "newTa_over_oldTa": 1.2272727272727273,
+      "newAdopted_over_oldTa": 1.2727272727272727,
+      "fixed_branch_strength_multiplier_Ta": 0.8148148148148148
+    },
+    {
+      "Ex_MeV": "3.160",
+      "old_Ta_tau_ps": ".35",
+      "new_Ta_tau_ps": ".42",
+      "new_adopted_tau_ps": ".42",
+      "newTa_over_oldTa": 1.2,
+      "newAdopted_over_oldTa": 1.2,
+      "fixed_branch_strength_multiplier_Ta": 0.8333333333333334
+    },
+    {
+      "Ex_MeV": "3.222",
+      "old_Ta_tau_ps": ".57",
+      "new_Ta_tau_ps": ".68",
+      "new_adopted_tau_ps": ".66",
+      "newTa_over_oldTa": 1.1929824561403508,
+      "newAdopted_over_oldTa": 1.1578947368421053,
+      "fixed_branch_strength_multiplier_Ta": 0.8382352941176471
+    },
+    {
+      "Ex_MeV": "3.799",
+      "old_Ta_tau_ps": ".074",
+      "new_Ta_tau_ps": ".092",
+      "new_adopted_tau_ps": ".092",
+      "newTa_over_oldTa": 1.2432432432432432,
+      "newAdopted_over_oldTa": 1.2432432432432432,
+      "fixed_branch_strength_multiplier_Ta": 0.8043478260869565
+    },
+    {
+      "Ex_MeV": "4.043",
+      "old_Ta_tau_ps": ".041",
+      "new_Ta_tau_ps": ".052",
+      "new_adopted_tau_ps": ".052",
+      "newTa_over_oldTa": 1.2682926829268293,
+      "newAdopted_over_oldTa": 1.2682926829268293,
+      "fixed_branch_strength_multiplier_Ta": 0.7884615384615384
+    }
+  ],
+  "Ta_multiplier_spread": 1.0631276901004305,
+  "model_delta_sensitivity": [
+    {
+      "delta": 0.025,
+      "E2_fraction": 0.0006246096189881324,
+      "B_ratio_fixed_absolute_photon_chart": 0.2504684572142411,
+      "conditional_B_from_printed88_e2fm4": 22.041224234853217
+    },
+    {
+      "delta": 0.1,
+      "E2_fraction": 0.009900990099009901,
+      "B_ratio_fixed_absolute_photon_chart": 3.9702970297029703,
+      "conditional_B_from_printed88_e2fm4": 349.38613861386136
+    }
+  ],
+  "conditional_pure_E2": [
+    {
+      "Ex_MeV": "1.824",
+      "Eg_MeV": ".989",
+      "tau_ps": "3.8",
+      "source_B": "228",
+      "conditional_pgamma1_E2_e2fm4": 227.00355778850914,
+      "descriptive_center_difference_percent": -0.43703605767142495,
+      "does_not_certify_inventory": true
+    },
+    {
+      "Ex_MeV": "3.222",
+      "Eg_MeV": "1.399",
+      "tau_ps": ".66",
+      "source_B": "233",
+      "conditional_pgamma1_E2_e2fm4": 230.76248680481294,
+      "descriptive_center_difference_percent": -0.9603060923549678,
+      "does_not_certify_inventory": true
+    }
+  ],
+  "oscillator_radial_scaling": {
+    "omega_author_MeV": 10.155617542685283,
+    "omega_alternative_MeV": 10.847240521782696,
+    "conditional_B_alternative_over_author": 0.8765448329499288,
+    "not_original_shell_model_replay": true
+  },
+  "checks": [
+    {
+      "name": "row_0_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0007366243123509079
+    },
+    {
+      "name": "row_1_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0003990765894721454
+    },
+    {
+      "name": "row_2_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.00020496222991493688
+    },
+    {
+      "name": "row_3_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 5.5716213610950454e-05
+    },
+    {
+      "name": "row_4_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.0002078028978658921
+    },
+    {
+      "name": "row_5_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.00031812594794918296
+    },
+    {
+      "name": "row_6_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.0005110400373137436
+    },
+    {
+      "name": "row_7_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.0005313664697880732
+    },
+    {
+      "name": "row_8_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 6.620242157643603e-05
+    },
+    {
+      "name": "row_9_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0007687810048912333
+    },
+    {
+      "name": "row_10_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.00028340543992439506
+    },
+    {
+      "name": "row_11_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.00038843031008929625
+    },
+    {
+      "name": "row_12_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0
+    },
+    {
+      "name": "row_13_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -9.66287291186873e-05
+    },
+    {
+      "name": "row_14_Ta_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0006755171349181846
+    },
+    {
+      "name": "row_15_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 8.11813180733876e-05
+    },
+    {
+      "name": "row_16_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.00032762800443431967
+    },
+    {
+      "name": "row_17_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.00016945277345241312
+    },
+    {
+      "name": "row_18_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0003755542702911124
+    },
+    {
+      "name": "row_19_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": 0.0004505857803744145
+    },
+    {
+      "name": "row_20_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.0005171083085571691
+    },
+    {
+      "name": "row_21_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.00020516728717423353
+    },
+    {
+      "name": "row_22_Mo_F_units_arithmetic",
+      "passed": true,
+      "center_residual": -0.00046929010026556704
+    },
+    {
+      "name": "unclipped_F_above_one_is_preserved",
+      "passed": true
+    },
+    {
+      "name": "two_line_conditional_mean_Ta",
+      "passed": true,
+      "mean": 0.3321805273833672,
+      "sd": 0.02312242749245884
+    },
+    {
+      "name": "two_line_conditional_mean_Mo",
+      "passed": true,
+      "mean": 0.3807222757955641,
+      "sd": 0.050896958511565914
+    },
+    {
+      "name": "printed_ta_changes_are_not_one_exact_common_multiplier",
+      "passed": true,
+      "extrema_ratio": 1.0631276901004305
+    },
+    {
+      "name": "delta_sign_not_identified_by_component_rate",
+      "passed": true
+    },
+    {
+      "name": "model_delta_double_control",
+      "passed": true
+    },
+    {
+      "name": "oscillator_radial_scaling_direction",
+      "passed": true
+    }
+  ],
+  "checks_passed": 30,
+  "checks_total": 30,
+  "all_passed": true
+}

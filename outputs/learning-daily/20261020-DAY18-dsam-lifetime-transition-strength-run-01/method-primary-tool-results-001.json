@@ -1,0 +1,44 @@
+{
+  "Gascon access": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1016/0375-9474(90)90102-R\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/037594749090102R\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-20T07:40:00.071Z\"\n  }\n}"
+      }
+    ]
+  },
+  "Currie access": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1016/0029-554X(69)90203-1\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0029554X69902031\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-20T07:40:01.005Z\"\n  }\n}"
+      }
+    ]
+  },
+  "Bacelar exact access": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1103/PhysRevC.35.1170\",\n  \"accessDiscovery\": {\n    \"status\": \"failed\",\n    \"landingUrl\": \"https://link.aps.org/doi/10.1103/PhysRevC.35.1170\",\n    \"landingHost\": \"link.aps.org\",\n    \"reason\": \"direct_failed\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 403,\n    \"fetchedAt\": \"2026-10-20T07:40:02.794Z\"\n  }\n}"
+      }
+    ]
+  },
+  "Gascon scholar": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+      }
+    ],
+    "isError": true
+  },
+  "Currie scholar": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+      }
+    ],
+    "isError": true
+  }
+}

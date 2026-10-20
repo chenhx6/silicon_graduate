@@ -1,0 +1,35 @@
+[
+  {
+    "tag": "bacelar1987-aps",
+    "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.35.1170",
+    "requested_at": "2026-10-20T15:41:30.805987+08:00",
+    "authenticated": false,
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 5556,
+    "is_pdf": false,
+    "scope": "no original article body read from this response"
+  },
+  {
+    "tag": "gascon1990-publisher",
+    "url": "https://www.sciencedirect.com/science/article/pii/037594749090102R/pdfft",
+    "requested_at": "2026-10-20T15:41:30.806370+08:00",
+    "authenticated": false,
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 832804,
+    "is_pdf": false,
+    "scope": "no original article body read from this response"
+  },
+  {
+    "tag": "currie1969-publisher",
+    "url": "https://www.sciencedirect.com/science/article/pii/0029554X69902031/pdfft",
+    "requested_at": "2026-10-20T15:41:30.806157+08:00",
+    "authenticated": false,
+    "status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 832804,
+    "is_pdf": false,
+    "scope": "no original article body read from this response"
+  }
+]

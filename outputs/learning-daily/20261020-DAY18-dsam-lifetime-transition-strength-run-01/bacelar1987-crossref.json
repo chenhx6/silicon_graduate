@@ -1,0 +1,391 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        7
+      ]
+    ],
+    "date-time": "2026-10-07T08:58:41Z",
+    "timestamp": 1791363521984,
+    "version": "4.3.1"
+  },
+  "reference-count": 17,
+  "publisher": "American Physical Society (APS)",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            1987,
+            3,
+            1
+          ]
+        ],
+        "date-time": "1987-03-01T00:00:00Z",
+        "timestamp": 541555200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://link.aps.org/licenses/aps-default-license"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Phys. Rev. C"
+  ],
+  "DOI": "10.1103/physrevc.35.1170",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        7,
+        26
+      ]
+    ],
+    "date-time": "2002-07-26T20:40:56Z",
+    "timestamp": 1027716056000
+  },
+  "page": "1170-1173",
+  "source": "Crossref",
+  "is-referenced-by-count": 27,
+  "title": [
+    "Line-shape analysis of high spin states: Collectivity in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant=\"normal\">Yb</mml:mi></mml:mrow><mml:mprescripts/><mml:mrow/><mml:mrow><mml:mn>166</mml:mn></mml:mrow><mml:mrow/><mml:mrow/></mml:mmultiscripts></mml:mrow></mml:math>"
+  ],
+  "prefix": "10.1103",
+  "volume": "35",
+  "author": [
+    {
+      "given": "J. C.",
+      "family": "Bacelar",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R. M.",
+      "family": "Diamond",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "E. M.",
+      "family": "Beck",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M. A.",
+      "family": "Deleplanque",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "J.",
+      "family": "Draper",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "F. S.",
+      "family": "Stephens",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "16",
+  "published-online": {
+    "date-parts": [
+      [
+        1987,
+        3,
+        1
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "PhysRevC.35.1170Cc1R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "509",
+      "DOI": "10.1016/S0375-9474(85)80029-4",
+      "volume": "A442",
+      "author": "J. C. Bacelar",
+      "year": "1985",
+      "journal-title": "Nucl. Phys."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc2R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "254",
+      "DOI": "10.1016/0375-9474(81)90680-1",
+      "volume": "A362",
+      "author": "B. Haas",
+      "year": "1981",
+      "journal-title": "Nucl. Phys."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc3R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "25",
+      "DOI": "10.1103/PhysRevLett.54.2584",
+      "volume": "54",
+      "author": "F. S. Stephens",
+      "year": "1985",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc4R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2265",
+      "DOI": "10.1103/PhysRevLett.51.2265",
+      "volume": "51",
+      "author": "R. Chapman",
+      "year": "1983",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc5R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "811",
+      "DOI": "10.1103/PhysRevLett.57.811",
+      "volume": "57",
+      "author": "P. J. Twin",
+      "year": "1986",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc6R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3019",
+      "DOI": "10.1103/PhysRevLett.57.3019",
+      "volume": "57",
+      "author": "J. C. Bacelar",
+      "year": "1986",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc7R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1530",
+      "DOI": "10.1103/PhysRevLett.48.1530",
+      "volume": "48",
+      "author": "A. Pakkanen",
+      "year": "1982",
+      "journal-title": "Phys. Rev. Lett."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc8R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.1016/0370-2693(81)90980-1",
+      "volume": "98B",
+      "author": "H. Emling",
+      "year": "1981",
+      "journal-title": "Phys. Lett."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc9R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1057",
+      "DOI": "10.1103/PhysRevC.31.1057",
+      "volume": "31",
+      "author": "M. P. Fewell",
+      "year": "1985",
+      "journal-title": "Phys. Rev. C"
+    },
+    {
+      "key": "PhysRevC.35.1170Cc10R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "324",
+      "DOI": "10.1088/0031-8949/24/1B/031",
+      "volume": "24",
+      "author": "W. Walus",
+      "year": "1981",
+      "journal-title": "Phys. Scr."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc14R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "233",
+      "DOI": "10.1016/S0092-640X(70)80016-X",
+      "volume": "7",
+      "author": "L. C. Northcliffe",
+      "year": "1970",
+      "journal-title": "Nucl. Data Tables"
+    },
+    {
+      "key": "PhysRevC.35.1170Cc15R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "463",
+      "DOI": "10.1016/0092-640X(74)90009-6",
+      "volume": "13",
+      "author": "J. F. Ziegler",
+      "year": "1974",
+      "journal-title": "Nucl. Data Tables"
+    },
+    {
+      "key": "PhysRevC.35.1170Cc16R1",
+      "first-page": "14",
+      "volume": "33",
+      "author": "J. Lindhard",
+      "year": "1963",
+      "journal-title": "K. Dan. Vidensk. Selsk. Mat. Fys. Medd."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc17R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "344",
+      "DOI": "10.1016/0375-9474(76)90723-5",
+      "volume": "A267",
+      "author": "B. Bochev",
+      "year": "1976",
+      "journal-title": "Nucl. Phys."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc18R1",
+      "volume-title": "Nuclear Structure",
+      "author": "A. Bohr",
+      "year": "1975"
+    },
+    {
+      "key": "PhysRevC.35.1170Cc19R1",
+      "first-page": "314",
+      "volume": "A390",
+      "author": "Y. Zhang",
+      "year": "1982",
+      "journal-title": "Nucl. Phys."
+    },
+    {
+      "key": "PhysRevC.35.1170Cc20R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7",
+      "DOI": "10.1016/0370-2693(86)90987-1",
+      "volume": "171B",
+      "author": "Y. S. Chen",
+      "year": "1986",
+      "journal-title": "Phys. Lett."
+    }
+  ],
+  "container-title": [
+    "Physical Review C"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://link.aps.org/article/10.1103/PhysRevC.35.1170",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.35.1170/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2017,
+        6,
+        15
+      ]
+    ],
+    "date-time": "2017-06-15T03:54:53Z",
+    "timestamp": 1497498893000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.aps.org/doi/10.1103/PhysRevC.35.1170"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        1987,
+        3,
+        1
+      ]
+    ]
+  },
+  "references-count": 17,
+  "journal-issue": {
+    "issue": "3",
+    "published-print": {
+      "date-parts": [
+        [
+          1987,
+          3
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1103/physrevc.35.1170",
+  "relation": {},
+  "ISSN": [
+    "0556-2813"
+  ],
+  "issn-type": [
+    {
+      "value": "0556-2813",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1987,
+        3,
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "url": "https://arxiv.org/src/2608.28047v2",
+  "at": "2026-10-20T15:50:49.681324+08:00",
+  "status": 200,
+  "bytes": 63545,
+  "type": "application/gzip",
+  "file": "tmp/day18-20261020/stuchbery54cr/source-v2.bin",
+  "sha256": "51d117309a0b38c3c23191a23243c04089f0d6ebae7c5608579832ee5481ad26",
+  "members": [
+    {
+      "name": "00README.json",
+      "bytes": 418,
+      "type": "b'0'"
+    },
+    {
+      "name": "cr54-DSAM.bib",
+      "bytes": 29507,
+      "type": "b'0'"
+    },
+    {
+      "name": "Cr54-DSAM-final-corrected.bbl",
+      "bytes": 35713,
+      "type": "b'0'"
+    },
+    {
+      "name": "Cr54-DSAM-final-corrected.tex",
+      "bytes": 62514,
+      "type": "b'0'"
+    },
+    {
+      "name": "Fig1-DSAM-chamber.pdf",
+      "bytes": 6403,
+      "type": "b'0'"
+    },
+    {
+      "name": "Fig2-dedx-comp.pdf",
+      "bytes": 139952,
+      "type": "b'0'"
+    },
+    {
+      "name": "Fig3-Cr54-levelplot.pdf",
+      "bytes": 5944,
+      "type": "b'0'"
+    },
+    {
+      "name": "Fig4-BE2.pdf",
+      "bytes": 27937,
+      "type": "b'0'"
+    },
+    {
+      "name": "Fig5-Cr54-0plus.pdf",
+      "bytes": 7006,
+      "type": "b'0'"
+    }
+  ],
+  "scope": "archive member inventory only; no unsafe extraction or paper code execution"
+}

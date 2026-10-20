@@ -14,6 +14,8 @@ tags: [lifetime, doppler-shift, stopping-power, side-feeding, lineshape]
 
 Day18新独立分析入口：[[lifetime-strength-audit-165tm-136nd]]“Day18停止时钟与带间contrast”。均匀时钟缩放可使完整谱形不变，却不改变共同强度标尺下的ratio；固定外部时钟、位置响应、停止曲线形变和逐态feeding是必要反例。MU08-D18-2的真实表中心双比只排除每带恒定标尺这个解释域，不是原实验重拟合或CI。
 
+[[stuchbery-2026-cr54-dsam-reevaluation]] SC26-2/4/5给实际反例：1980同data重建analysis后只更新电子/核停止曲线，不等所有生成元整体scale，寿命改变可逐态不同。SC26-7另区分Ta-only与Ta/Mo组合，SC26-9保模型δ进入“experimental”B和tentativeJπ的DCO反证；不能用新code/τ/B各算一项独立观测。
+
 ## Purpose
 
 DSAM uses the attenuation of recoil Doppler shifts during slowing in target/backing material to constrain short excited-state lifetimes. Depending on the analysis, the measured observable is an angle-dependent centroid shift or the full Doppler-broadened γ-ray line shape. Forward and backward detector angles provide complementary velocity sensitivity.

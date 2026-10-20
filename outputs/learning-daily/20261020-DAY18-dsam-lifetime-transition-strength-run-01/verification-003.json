@@ -1,0 +1,85 @@
+{
+  "observed_at": "2026-10-20T15:58:57.661829+08:00",
+  "lint-002.json": {
+    "exit": 1,
+    "counts": {
+      "error": 2,
+      "warning": 243,
+      "info": 3394
+    },
+    "errors": [
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+        "message": "missing ## Summary"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+        "message": "missing ## Extracted Pages"
+      }
+    ]
+  },
+  "boundary-002.json": {
+    "exit": 0
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      18
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 18,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "oldsourceprotection": {
+    "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md": {
+      "count": 18,
+      "literal_preserved": true
+    },
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": {
+      "count": 23,
+      "literal_preserved": true
+    }
+  },
+  "newsourceallneedsreview": true,
+  "recall": true,
+  "diffcheck": {
+    "exit": 0,
+    "output": ""
+  },
+  "valid": false
+}

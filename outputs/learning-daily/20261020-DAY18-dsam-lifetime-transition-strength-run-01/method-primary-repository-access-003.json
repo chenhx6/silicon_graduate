@@ -1,0 +1,78 @@
+[
+  {
+    "tag": "bacelar-aps-harvest",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.35.1170/fulltext",
+    "at": "2026-10-20T15:44:02.389610+08:00",
+    "status": 401,
+    "type": "application/json",
+    "bytes": 64,
+    "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.35.1170/fulltext"
+  },
+  {
+    "tag": "bacelar-osti",
+    "url": "https://www.osti.gov/api/v1/records?search=%2210.1103/PhysRevC.35.1170%22",
+    "at": "2026-10-20T15:44:02.389832+08:00",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 2394,
+    "final_url": "https://www.osti.gov/api/v1/records?search=%2210.1103/PhysRevC.35.1170%22",
+    "records_count": 1,
+    "records_preview": [
+      {
+        "title": "Line-shape analysis of high spin states: Collectivity in /sup 166/Yb",
+        "doi": "10.1103/PhysRevC.35.1170",
+        "osti_id": "6836631",
+        "links": [
+          {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/6836631"
+          }
+        ],
+        "product_type": "Journal Article",
+        "publication_date": "1987-03-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "tag": "gascon-osti",
+    "url": "https://www.osti.gov/api/v1/records?search=%22Configuration-dependent%20transition%20rates%22",
+    "at": "2026-10-20T15:44:02.390060+08:00",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 8623,
+    "final_url": "https://www.osti.gov/api/v1/records?search=%22Configuration-dependent%20transition%20rates%22",
+    "records_count": 1,
+    "records_preview": [
+      {
+        "title": "Multiple valence-space and core-excited band terminations in Ho and Er isotopes",
+        "doi": "10.1103/393p-ghvk",
+        "osti_id": "3376133",
+        "links": [
+          {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/3376133"
+          },
+          {
+            "rel": "fulltext",
+            "href": "https://www.osti.gov/servlets/purl/3376133"
+          },
+          {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/3376133"
+          }
+        ],
+        "product_type": "Journal Article",
+        "publication_date": "2026-06-30T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "tag": "bacelar-escholarship",
+    "url": "https://escholarship.org/search?q=Line-shape%20analysis%20of%20high%20spin%20states",
+    "at": "2026-10-20T15:44:02.390405+08:00",
+    "status": 202,
+    "type": "text/html; charset=UTF-8",
+    "bytes": 0,
+    "final_url": "https://escholarship.org/search?q=Line-shape%20analysis%20of%20high%20spin%20states"
+  }
+]

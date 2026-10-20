@@ -1,0 +1,1039 @@
+{
+  "id": "https://openalex.org/W1969935101",
+  "doi": "https://doi.org/10.1103/physrevc.35.1170",
+  "title": "Line-shape analysis of high spin states: Collectivity in Yb166",
+  "display_name": "Line-shape analysis of high spin states: Collectivity in Yb166",
+  "publication_year": 1987,
+  "publication_date": "1987-03-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1969935101",
+    "doi": "https://doi.org/10.1103/physrevc.35.1170",
+    "mag": "1969935101",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/9953883"
+  },
+  "language": "lv",
+  "primary_location": {
+    "id": "doi:10.1103/physrevc.35.1170",
+    "doi": "https://doi.org/10.1103/physrevc.35.1170",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1103/physrevc.35.1170",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210168441",
+      "display_name": "Physical Review C",
+      "issn_l": "0556-2813",
+      "issn": [
+        "0556-2813",
+        "1089-490X",
+        "1538-4497",
+        "2469-9985",
+        "2469-9993",
+        "2470-0002"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-a",
+        "jufo-2",
+        "ki-jl-1",
+        "norway-1",
+        "poland-140",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Physical Review C",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5015126080",
+        "display_name": "Jose C. S. Bacelar",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. C. Bacelar",
+      "raw_affiliation_strings": [
+        "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036501873",
+        "display_name": "Richard M. Diamond",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. M. Diamond",
+      "raw_affiliation_strings": [
+        "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059708273",
+        "display_name": "E. M. Beck",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. M. Beck",
+      "raw_affiliation_strings": [
+        "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108089815",
+        "display_name": "M. A. Deleplanque",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. A. Deleplanque",
+      "raw_affiliation_strings": [
+        "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108545882",
+        "display_name": "J. E. Draper",
+        "orcid": "https://orcid.org/0009-0006-1767-5735",
+        "observed_orcids": [
+          "https://orcid.org/0009-0006-1767-5735"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Draper",
+      "raw_affiliation_strings": [
+        "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5021831767",
+        "display_name": "Frank S. Stephens",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "F. S. Stephens",
+      "raw_affiliation_strings": [
+        "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuclear Science Division, Lawrence Berkeley Laboratory, University of California, Berkeley, California 94720",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.2693,
+  "has_fulltext": false,
+  "cited_by_count": 29,
+  "citation_normalized_percentile": {
+    "value": 0.56963304,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "35",
+    "issue": "3",
+    "first_page": "1170",
+    "last_page": "1173"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10093",
+    "display_name": "Nuclear physics research studies",
+    "score": 0.9984999895095825,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3106",
+      "display_name": "Nuclear and High Energy Physics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13458",
+      "display_name": "Astronomical and nuclear sciences",
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/high-spin-states",
+      "display_name": "high-spin states",
+      "score": 0.8349999785423279
+    },
+    {
+      "id": "https://openalex.org/keywords/yrast-states",
+      "display_name": "yrast states",
+      "score": 0.7670000195503235
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-collectivity",
+      "display_name": "nuclear collectivity",
+      "score": 0.6190000176429749
+    },
+    {
+      "id": "https://openalex.org/keywords/doppler-shift-attenuation",
+      "display_name": "Doppler-shift attenuation",
+      "score": 0.8550000190734863
+    },
+    {
+      "id": "https://openalex.org/keywords/lifetimes",
+      "display_name": "lifetimes",
+      "score": 0.5960000157356262
+    },
+    {
+      "id": "https://openalex.org/keywords/b-e2-transition-probabilities",
+      "display_name": "B(E2) transition probabilities",
+      "score": 0.8569999933242798
+    },
+    {
+      "id": "https://openalex.org/keywords/triaxial-deformation",
+      "display_name": "triaxial deformation",
+      "score": 0.8790000081062317
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-shape",
+      "display_name": "nuclear shape",
+      "score": 0.3019999861717224
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778270267",
+      "wikidata": "https://www.wikidata.org/wiki/Q1757904",
+      "display_name": "Yrast",
+      "level": 3,
+      "score": 0.8084932565689087
+    },
+    {
+      "id": "https://openalex.org/C2778870898",
+      "wikidata": "https://www.wikidata.org/wiki/Q7577658",
+      "display_name": "Spins",
+      "level": 2,
+      "score": 0.6375796794891357
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.611063539981842
+    },
+    {
+      "id": "https://openalex.org/C42704618",
+      "wikidata": "https://www.wikidata.org/wiki/Q910917",
+      "display_name": "Spin (aerodynamics)",
+      "level": 2,
+      "score": 0.5189173221588135
+    },
+    {
+      "id": "https://openalex.org/C204323151",
+      "wikidata": "https://www.wikidata.org/wiki/Q905424",
+      "display_name": "Range (aeronautics)",
+      "level": 2,
+      "score": 0.5014641284942627
+    },
+    {
+      "id": "https://openalex.org/C184779094",
+      "wikidata": "https://www.wikidata.org/wiki/Q26383",
+      "display_name": "Atomic physics",
+      "level": 1,
+      "score": 0.46000033617019653
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.45782360434532166
+    },
+    {
+      "id": "https://openalex.org/C198352243",
+      "wikidata": "https://www.wikidata.org/wiki/Q37105",
+      "display_name": "Line (geometry)",
+      "level": 2,
+      "score": 0.4522358775138855
+    },
+    {
+      "id": "https://openalex.org/C188721877",
+      "wikidata": "https://www.wikidata.org/wiki/Q103510",
+      "display_name": "Bar (unit)",
+      "level": 2,
+      "score": 0.4116322994232178
+    },
+    {
+      "id": "https://openalex.org/C26873012",
+      "wikidata": "https://www.wikidata.org/wiki/Q214781",
+      "display_name": "Condensed matter physics",
+      "level": 1,
+      "score": 0.25765544176101685
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.18747496604919434
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.16355395317077637
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.1572767198085785
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.11071336269378662
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.07543888688087463
+    },
+    {
+      "id": "https://openalex.org/C181500209",
+      "wikidata": "https://www.wikidata.org/wiki/Q215328",
+      "display_name": "Excited state",
+      "level": 2,
+      "score": 0.06292188167572021
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevc.35.1170",
+      "doi": "https://doi.org/10.1103/physrevc.35.1170",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physrevc.35.1170",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210168441",
+        "display_name": "Physical Review C",
+        "issn_l": "0556-2813",
+        "issn": [
+          "0556-2813",
+          "1089-490X",
+          "1538-4497",
+          "2469-9985",
+          "2469-9993",
+          "2470-0002"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:9953883",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9953883",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical review. C, Nuclear physics",
+      "raw_type": "Journal Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [
+    {
+      "score": 0.44999998807907104,
+      "display_name": "Decent work and economic growth",
+      "id": "https://metadata.un.org/sdg/8"
+    }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 14,
+  "referenced_works": [
+    "https://openalex.org/W1600372201",
+    "https://openalex.org/W1615030766",
+    "https://openalex.org/W1676901196",
+    "https://openalex.org/W1965890940",
+    "https://openalex.org/W1989673590",
+    "https://openalex.org/W2004126892",
+    "https://openalex.org/W2014789319",
+    "https://openalex.org/W2055226082",
+    "https://openalex.org/W2065065973",
+    "https://openalex.org/W2072438181",
+    "https://openalex.org/W2127880178",
+    "https://openalex.org/W2281306048",
+    "https://openalex.org/W2297687919",
+    "https://openalex.org/W4230441792"
+  ],
+  "related_works": [
+    "https://openalex.org/W2254287234",
+    "https://openalex.org/W2051205519",
+    "https://openalex.org/W1965115029",
+    "https://openalex.org/W2053765519",
+    "https://openalex.org/W1966202283",
+    "https://openalex.org/W2064275187",
+    "https://openalex.org/W2085986708",
+    "https://openalex.org/W4381247934",
+    "https://openalex.org/W3098099793",
+    "https://openalex.org/W1988768797"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      45,
+      76
+    ],
+    "Doppler-shift": [
+      1
+    ],
+    "attenuation": [
+      2
+    ],
+    "method": [
+      3
+    ],
+    "was": [
+      4
+    ],
+    "used": [
+      5,
+      19
+    ],
+    "to": [
+      6,
+      40,
+      52,
+      69,
+      79
+    ],
+    "measure": [
+      7
+    ],
+    "lifetimes": [
+      8
+    ],
+    "of": [
+      9,
+      29,
+      32,
+      65
+    ],
+    "yrast": [
+      10
+    ],
+    "states": [
+      11,
+      81
+    ],
+    "in": [
+      12
+    ],
+    "$^{166}\\mathrm{Yb}$.": [
+      13
+    ],
+    "Three": [
+      14
+    ],
+    "different": [
+      15
+    ],
+    "stopping": [
+      16
+    ],
+    "materials": [
+      17
+    ],
+    "were": [
+      18,
+      23
+    ],
+    "and": [
+      20
+    ],
+    "consistent": [
+      21
+    ],
+    "results": [
+      22
+    ],
+    "obtained": [
+      24
+    ],
+    "over": [
+      25
+    ],
+    "a": [
+      26,
+      71
+    ],
+    "large": [
+      27
+    ],
+    "range": [
+      28,
+      34
+    ],
+    "spins.": [
+      30
+    ],
+    "Values": [
+      31
+    ],
+    "\\ensuremath{\\tau}": [
+      33
+    ],
+    "from": [
+      35,
+      50
+    ],
+    "1.20(10)": [
+      36
+    ],
+    "ps": [
+      37,
+      42
+    ],
+    "at": [
+      38,
+      43
+    ],
+    "${18}^{+}$": [
+      39
+    ],
+    "0.05(1)": [
+      41
+    ],
+    "${34}^{+}$.": [
+      44
+    ],
+    "B(E2)": [
+      46
+    ],
+    "values": [
+      47
+    ],
+    "steadily": [
+      48
+    ],
+    "decrease": [
+      49
+    ],
+    "200": [
+      51
+    ],
+    "120": [
+      53
+    ],
+    "single": [
+      54
+    ],
+    "particle": [
+      55
+    ],
+    "units": [
+      56
+    ],
+    "as": [
+      57
+    ],
+    "the": [
+      58,
+      85
+    ],
+    "spin": [
+      59
+    ],
+    "increases": [
+      60
+    ],
+    "above": [
+      61
+    ],
+    "24\\ensuremath{\\Elzxh}.": [
+      62
+    ],
+    "This": [
+      63
+    ],
+    "loss": [
+      64
+    ],
+    "collectivity": [
+      66
+    ],
+    "is": [
+      67
+    ],
+    "likely": [
+      68
+    ],
+    "reflect": [
+      70
+    ],
+    "change": [
+      72
+    ],
+    "toward": [
+      73
+    ],
+    "triaxial": [
+      74
+    ],
+    "shapes.": [
+      75
+    ],
+    "side-feeding": [
+      77
+    ],
+    "times": [
+      78
+    ],
+    "these": [
+      80
+    ],
+    "are": [
+      82
+    ],
+    "longer": [
+      83
+    ],
+    "than": [
+      84
+    ],
+    "inband": [
+      86
+    ],
+    "feeding": [
+      87
+    ],
+    "times.": [
+      88
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-10-17T09:40:24.721904",
+  "created_date": "2016-06-24T00:00:00"
+}

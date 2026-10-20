@@ -1,0 +1,33 @@
+{
+  "full_output_local": "lint-003.json",
+  "sha256": "11dbec56e6fcd3d168e0659e3d3f5e4cf125f3d5acb9a2aac48c89b3529f7487",
+  "counts": {
+    "warning": 243,
+    "info": 3394
+  },
+  "governance": {
+    "page_unreviewed": 606,
+    "source_unreviewed": 302,
+    "claims_total": 4074,
+    "claim_needs_review": 3394,
+    "claim_missing_locator": 0,
+    "claim_missing_kind": 0,
+    "source_missing_raw_file": 0,
+    "source_missing_citation_key": 163
+  },
+  "source_related_issues": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "RAW_MISSING",
+      "path": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+      "message": "raw/papers/2026_Stuchbery_Cr54_Dsam_reevaluation.pdf unavailable; hash check not executed"
+    }
+  ],
+  "full_info_flags_omitted_from_publication": true
+}

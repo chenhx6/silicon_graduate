@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "bacelar-ads",
+    "url": "https://articles.adsabs.harvard.edu/pdf/1987PhRvC..35.1170B",
+    "status": 403,
+    "type": "application/xml",
+    "bytes": 243,
+    "final_url": "https://articles.adsabs.harvard.edu/pdf/1987PhRvC..35.1170B"
+  },
+  {
+    "tag": "currie-ads",
+    "url": "https://articles.adsabs.harvard.edu/pdf/1969NucIM..73..173C",
+    "status": 403,
+    "type": "application/xml",
+    "bytes": 243,
+    "final_url": "https://articles.adsabs.harvard.edu/pdf/1969NucIM..73..173C"
+  },
+  {
+    "tag": "gascon-stfc",
+    "url": "https://epubs.stfc.ac.uk/work/35007",
+    "status": 200,
+    "type": "text/html;charset=utf-8",
+    "bytes": 14501,
+    "final_url": "https://epubs.stfc.ac.uk/work/35007",
+    "page_title": "ePubs",
+    "relevant_links": []
+  },
+  {
+    "tag": "gascon-ku",
+    "url": "https://researchprofiles.ku.dk/en/publications/2c8615d2-68e0-4af7-a06a-c2875e63f6e9/",
+    "status": 200,
+    "type": "text/html;charset=UTF-8",
+    "bytes": 37523,
+    "final_url": "https://researchprofiles.ku.dk/en/publications/configuration-dependent-transition-rates-in-ho-157/",
+    "page_title": "\n        CONFIGURATION-DEPENDENT TRANSITION RATES IN HO-157\n      -  University of Copenhagen Research Portal",
+    "relevant_links": []
+  }
+]

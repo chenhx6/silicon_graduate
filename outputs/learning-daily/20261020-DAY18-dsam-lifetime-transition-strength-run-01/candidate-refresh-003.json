@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-20T15:47:25.498902+08:00",
+  "deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 1392.5750182999998,
+  "continuity": "DSAM停止模型→τ→强度/结构，不是下一日卡",
+  "candidate": "Andrew E. Stuchbery, Doppler-shift attenuation method (DSAM) lifetimes in 54Cr - a re-evaluation; arXiv2608.28047v2",
+  "prior_exposure": "only live T1 searchmetadata/abstract; fullbody/code not yetread",
+  "question": "Does an actual originalanalysis rebuild constrain which stopping changes are global scale and which are leveldependent, and what is independent evidence versus reuse of olddata?",
+  "planned_reading": "verifyarXividentity/version, then completeallbodyfigtableequation/uncertainty; code/data availability as stated; no arbitraryoldDSAMproducer claim",
+  "other_candidates": [
+    {
+      "candidate": "Petkov2018 DOI10.1063/1.5026580 robustness of DSAM coincidence differential decay curve",
+      "status": "metadata only; possible latercounterpoint, no body yet"
+    },
+    {
+      "candidate": "Gascon/Currie/Bacelar",
+      "status": "bounded primaryaccess routes exhausted sofar; metadata only; no methodology or calibration inferred fromtitles"
+    }
+  ]
+}

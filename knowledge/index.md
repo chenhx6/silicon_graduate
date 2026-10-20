@@ -19,6 +19,8 @@ updated: 2026-10-20
 
 ## Sources
 
+- [[stuchbery-2026-cr54-dsam-reevaluation]] — 新原读54Cr旧DSAM重分析：电子/核停止分量、Ta/组合角色、模型δ与DCO反证，非新增实验。
+
 - [[nndc-2023-cm245-cf249-polarization-reference]] — SeGA两同parent参考的当前(E1)/MR、旧混合与anomalousconversion层、实际reference readiness。
 
 - [[nndc-2022-s31-mixing-lifetime-reference]] - 官方1248 MR双根/RUL、mean-vs-half-life与Sun模型扣除的有源companion。

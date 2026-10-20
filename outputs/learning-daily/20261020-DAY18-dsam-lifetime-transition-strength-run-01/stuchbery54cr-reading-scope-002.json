@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-20T15:58:14.234130+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "paper": "arxiv2608.28047v2",
+  "pdf_file": "tmp/day18-20261020/stuchbery54cr/stuchbery54cr-v2.pdf",
+  "sha256": "918ba5cb8a663bf57aedfef50f8106774a539f45454066079854bf425cfe1440",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_read_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "figures": [
+    "Fig1 dualtarget",
+    "Fig2 electronic/nuclearstopping",
+    "Fig3 levelenergies",
+    "Fig4 Bcomparison",
+    "Fig5 0plus/modelspace"
+  ],
+  "tables": [
+    "TableI 15Ta lineinputs",
+    "TableII 8Mo lineinputs",
+    "TableIII sixcombinedlifetimes",
+    "TableIV old/revised/otherlineage",
+    "TableV modelcharges/experimental/modeldelta"
+  ],
+  "equations": [
+    "Eq1 experimentalF",
+    "Eq2 Doppleraverage",
+    "Eq3 simplifiedFkernel",
+    "Eq4 time-energy-stopping",
+    "Eq5 shorthandF"
+  ],
+  "scope_not_read": [
+    "1980measurementbody",
+    "Nathan/Lieb/Kuronen/Devlinprimarybodies",
+    "VoRbody",
+    "actualanalysiscode/logbook",
+    "fullΣ"
+  ],
+  "new_exercise": "stuchbery54cr-input-result-001.json",
+  "source_claims": "SC26-1–12 allneeds_review",
+  "new_independent_experiment": false
+}

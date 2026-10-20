@@ -1,0 +1,112 @@
+[
+  {
+    "language": "English",
+    "entry_date": "2026-07-02T09:29:45Z",
+    "relation": "Journal Name: Physical Review. C Journal Issue: 6 Journal Volume: 113",
+    "identifier": "FG02-97ER41041; AC02-06CH11357; AC02-05CH11231; AC05-00OR22725; FG02-94ER40834; FG02-97ER41033; FG02-96ER40983",
+    "journal_issue": "6",
+    "nondoe_contract_number": "ST/P004598/1; ST/V001027/1; PP/F000677/1; PHY-0756474; PHY-2208137; PHY-0754674; PHY-2310059",
+    "country_publication": "United States",
+    "publisher": "American Physical Society (APS)",
+    "journal_type": "AM",
+    "doi": "10.1103/393p-ghvk",
+    "description": "High-spin structures of holmium (𝑍 = 67) and erbium (𝑍 = 68) isotopes are presented near mass 160, a region where collective and single-particle modes of excitation compete in the generation of angular momentum at the highest experimentally attainable spins in atomic nuclei. The level schemes of the <sup>156,157,158</sup>Ho isotopes have been significantly extended, reaching spins in the 40⁢ℏ to 55⁢ℏ range, through multiple experiments utilizing the Gammasphere spectrometer. In particular, several new noncollective band-terminating states are reported for these nuclei. The nature of these states, including both valence-space terminations and core-excited oblateconfigurations, is discussed in terms of proton particle-hole (p-h) excitations across the semimagic 𝑍 = 64 shell closure. Cranked-Nilsson–Strutinsky (CNS) calculations have been used to interpret the nature of these noncollective states. The corresponding terminating states in <sup>154–159</sup>Er are also included, providing a systematic description of band termination in this mass region. In addition, three weak rotational structures have been assigned to <sup>157</sup>Ho at the highest spins. These collective bands are proposed to be based on a triaxial strongly deformed nuclear shape, involving neutron p-h excitations across the 𝑁 = 82 shell gap.",
+    "title": "Multiple valence-space and core-excited band terminations in Ho and Er isotopes",
+    "other_number": "Journal ID: ISSN 2469-9985; Journal ID: ISSN 2469-9993",
+    "contract_number": "AC02-05CH11231; AC02-06CH11357; AC05-00OR22725; FG02-94ER40834; FG02-96ER40983; FG02-97ER41033; FG02-97ER41041",
+    "publication_date": "2026-06-30T00:00:00Z",
+    "journal_volume": "113",
+    "osti_id": "3376133",
+    "journal_name": "Physical Review. C",
+    "product_type": "Journal Article",
+    "authors": [
+      "Paul, E. S. [University of Liverpool (United Kingdom)] (ORCID:0000000336515084)",
+      "Simpson, John [Daresbury Laboratory, Warrington (United Kingdom)] (ORCID:0000000299111012)",
+      "Riley, M. A. [Florida State University, Tallahassee, FL (United States)] (ORCID:0000000337062195)",
+      "Baron, J. S. [Florida State University, Tallahassee, FL (United States)]",
+      "Hampson, P. J. T. [University of Liverpool (United Kingdom)]",
+      "Wang, X. [Florida State University, Tallahassee, FL (United States); California Polytechnic State University, San Luis Obispo, CA (United States)] (ORCID:0009000557363624)",
+      "Aguilar, A. [Florida State University, Tallahassee, FL (United States)] (ORCID:0000000328525717)",
+      "Appelbe, D. E. [Daresbury Laboratory, Warrington (United Kingdom)] (ORCID:0000000314930391)",
+      "Ayangeakaa, A. D. [University of North Carolina, Chapel Hill, NC (United States); Duke University, Durham, NC (United States)] (ORCID:0000000316793175)",
+      "Boston, A. J. [University of Liverpool (United Kingdom)]",
+      "Boston, H. C. [University of Liverpool (United Kingdom)] (ORCID:0000000307213458)",
+      "Campbell, D. B. [Florida State University, Tallahassee, FL (United States); Lawrence Livermore National Laboratory (LLNL), Livermore, CA (United States)]",
+      "Carpenter, M. P. [Argonne National Laboratory (ANL), Argonne, IL (United States)]",
+      "Chiara, C. J. [Argonne National Laboratory (ANL), Argonne, IL (United States); University of Maryland, College Park, MD (United States); U.S. Army Combat Capabilities Development Command Army Research Laboratory, Adelphi, MD (United States)] (ORCID:0000000199690248)",
+      "Clark, R. M. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+      "Cromaz, M. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+      "Darby, I. G. [University of Tennessee, Knoxville, TN (United States); United Kingdom National Nuclear Laboratory, Warrington (United Kingdom)] (ORCID:0000000320912616)",
+      "Evans, A. O. [University of Liverpool (United Kingdom)] (ORCID:0009000645754676)",
+      "Fallon, P. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0009000426872496)",
+      "Garg, U. [University of Notre Dame, IN (United States)] (ORCID:0000000187514204)",
+      "Görgen, A. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States); University of Oslo (Norway)]",
+      "Hartley, D. J. [U.S. Naval Academy, Annapolis, MD (United States)] (ORCID:0000000162956815)",
+      "Hoffman, C. R. [Argonne National Laboratory (ANL), Argonne, IL (United States)] (ORCID:0000000171419827)",
+      "Janssens, R. V. F. [University of North Carolina, Chapel Hill, NC (United States); Duke University, Durham, NC (United States)] (ORCID:0000000170951715)",
+      "Joss, D. T. [Daresbury Laboratory, Warrington (United Kingdom); University of Liverpool (United Kingdom)] (ORCID:0000000157638767)",
+      "Judson, D. S. [University of Liverpool (United Kingdom)] (ORCID:0000000313135206)",
+      "Kondev, F. G. [Argonne National Laboratory (ANL), Argonne, IL (United States)] (ORCID:0000000295675785)",
+      "Lagergren, K. [Florida State University, Tallahassee, FL (United States)] (ORCID:0009000432286282)",
+      "Lauritsen, T. [Argonne National Laboratory (ANL), Argonne, IL (United States)] (ORCID:0000000295600388)",
+      "Lee, I. Y. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)] (ORCID:0000000232804877)",
+      "Matta, J. T. [University of Notre Dame, IN (United States); Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000202448445)",
+      "Miller, S. L. [Florida State University, Tallahassee, FL (United States)]",
+      "Mustafa, M. [University of Liverpool (United Kingdom)]",
+      "Nolan, P. J. [University of Liverpool (United Kingdom)] (ORCID:0009000012877238)",
+      "Ollier, J. [Daresbury Laboratory, Warrington (United Kingdom)] (ORCID:0009000113249070)",
+      "Petri, M. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States); University of York (United Kingdom)] (ORCID:0000000237406106)",
+      "Pipidis, A. [Florida State University, Tallahassee, FL (United States)] (ORCID:0009000131699382)",
+      "Radford, D. C. [Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)] (ORCID:0000000189876962)",
+      "Rees, J. M. [University of Liverpool (United Kingdom)] (ORCID:0009000384607335)",
+      "Revill, J. P. [University of Liverpool (United Kingdom); Applied Nuclear Physics Ltd, Cockermouth (United Kingdom)]",
+      "Riedinger, L. L. [University of Tennessee, Knoxville, TN (United States)] (ORCID:0009000089156041)",
+      "Sharpey-Schafer, J. F. [University of Zululand, Kwadlangezwa (South Africa)] (ORCID:0000000199398730)",
+      "Sullivan, C. M. [University of Liverpool (United Kingdom)] (ORCID:000000018057591X)",
+      "Teal, C. [Florida State University, Tallahassee, FL (United States)] (ORCID:0009000096607920)",
+      "Thomson, J. [University of Liverpool (United Kingdom)]",
+      "Twin, P. J. [University of Liverpool (United Kingdom)]",
+      "Unsworth, C. [University of Liverpool (United Kingdom); STFC Daresbury Laboratory, Warrington (United Kingdom)] (ORCID:0000000241007466)",
+      "Ward, D. [Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)]",
+      "Zhu, S. [Argonne National Laboratory (ANL), Argonne, IL (United States)]",
+      "Gellanki, J. [Lund University (Sweden); University of Delhi (India)] (ORCID:0000000282750774)",
+      "Ragnarsson, I. [Lund University (Sweden)] (ORCID:0000000227861906)"
+    ],
+    "subjects": [
+      "150 ≤ A ≤ 189",
+      "Collective levels",
+      "Electromagnetic transitions",
+      "High spin states",
+      "Nuclear structure & decays"
+    ],
+    "article_type": "Accepted Manuscript",
+    "format": "Article No. 064322",
+    "doe_contract_number": "AC02-05CH11231; AC02-06CH11357; AC05-00OR22725; FG02-94ER40834; FG02-96ER40983; FG02-97ER41033; FG02-97ER41041",
+    "sponsor_orgs": [
+      "U.S. National Science Foundation",
+      "USDOE Office of Science (SC), Nuclear Physics (NP)",
+      "United Kingdom Science and Technology Facilities Council"
+    ],
+    "research_orgs": [
+      "University of North Carolina at Chapel Hill, NC (United States)"
+    ],
+    "journal_issn": "ISSN 2469-9993",
+    "other_identifiers": [
+      "Journal ID: ISSN 2469-9985; Journal ID: ISSN 2469-9993"
+    ],
+    "links": [
+      {
+        "rel": "citation",
+        "href": "https://www.osti.gov/biblio/3376133"
+      },
+      {
+        "rel": "fulltext",
+        "href": "https://www.osti.gov/servlets/purl/3376133"
+      },
+      {
+        "rel": "citation_doe_pages",
+        "href": "https://www.osti.gov/pages/biblio/3376133"
+      }
+    ]
+  }
+]

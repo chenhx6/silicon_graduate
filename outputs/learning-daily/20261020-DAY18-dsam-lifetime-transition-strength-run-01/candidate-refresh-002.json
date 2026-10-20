@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-20T15:38:53.875260+08:00",
+  "original_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 1401.102079,
+  "decision": "continue current Day18 high-information route; no next card opened",
+  "candidate": "JensenRef11 Gascon1990, Ref28 Currie1969, Ref33 Bacelar1987: originalmethods/calibration",
+  "question": "Which original stopping/feeding calibration data or modeling conditions constrain the absoluteclock beyond the generic scaledgenerator design?",
+  "prior_exposure": "Jensen reference metadata only in this session; no methodbody read yet; no automatic producer certification",
+  "source_scope": "bounded three-paper metadata/availability pack; read first relevant accessible original body completely before expanding",
+  "fulltext_configuration": {
+    "route": "lawfulpublicpublisher/OArepositoryonly; no credential or hostbrowserconfiguration",
+    "supporting_information": "maintext-focused method pack under user auto routine choices; no unbounded attachment batch",
+    "download_root": "tmp/day18-20261020/method-primary",
+    "protected_raw_unchanged": true
+  }
+}

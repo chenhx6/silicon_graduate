@@ -1,0 +1,1107 @@
+{
+  "id": "https://openalex.org/W4234739289",
+  "doi": "https://doi.org/10.1016/0375-9474(90)90102-r",
+  "title": "Configuration-dependent transition rates in 157Ho",
+  "display_name": "Configuration-dependent transition rates in 157Ho",
+  "publication_year": 1990,
+  "publication_date": "1990-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4234739289",
+    "doi": "https://doi.org/10.1016/0375-9474(90)90102-r"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/0375-9474(90)90102-r",
+    "doi": "https://doi.org/10.1016/0375-9474(90)90102-r",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0375-9474(90)90102-r",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S62159105",
+      "display_name": "Nuclear Physics A",
+      "issn_l": "0375-9474",
+      "issn": [
+        "0375-9474",
+        "1873-1554"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-c",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1",
+        "poland-100",
+        "russia-white-list-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Nuclear Physics A",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5025883470",
+        "display_name": "Jules Gascon",
+        "orcid": "https://orcid.org/0000-0001-6455-1168",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6455-1168"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "J. Gascon",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010917181",
+        "display_name": "C.-H. Yu",
+        "orcid": "https://orcid.org/0000-0002-9849-842X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9849-842X"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "C.-H. Yu",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015839351",
+        "display_name": "G.B. Hagemann",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "G.B. Hagemann",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041880481",
+        "display_name": "Michael P. Carpenter",
+        "orcid": "https://orcid.org/0000-0002-3237-5734",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3237-5734"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "M.C. Carpenter",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060375860",
+        "display_name": "J. M. Espino",
+        "orcid": "https://orcid.org/0000-0003-4848-5847",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4848-5847"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "J.M. Espino",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047618164",
+        "display_name": "Yohsei Iwata",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Y. Iwata",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089183768",
+        "display_name": "T. Komatsubara",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "T. Komatsubara",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016518165",
+        "display_name": "J. Nyberg",
+        "orcid": "https://orcid.org/0000-0001-6996-7605",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6996-7605"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "J. Nyberg",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088258454",
+        "display_name": "S. Ogaza",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "S. Ogaza",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107833839",
+        "display_name": "Geirr Sletten",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "G. Sletten",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030788151",
+        "display_name": "P.O. Tjøm",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "P.O. Tjøm",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107839782",
+        "display_name": "D. C. Radford",
+        "orcid": "https://orcid.org/0000-0002-1905-6579",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1905-6579",
+          "https://orcid.org/0000-0001-8987-6962"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "D.C. Radford",
+      "raw_affiliation_strings": [
+        "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tandem Accelerator Laboratory, Niels Bohr Institute, Risø, 4000 Roskilde, Denmark",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108112568",
+        "display_name": "J. Simpson",
+        "orcid": "https://orcid.org/0000-0002-9911-1012",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9911-1012",
+          "https://orcid.org/0000-0003-4731-7294",
+          "https://orcid.org/0000-0002-0083-9637"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802015276",
+          "display_name": "Daresbury Laboratory",
+          "ror": "https://ror.org/0089bg420",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I162524378",
+            "https://openalex.org/I2802015276",
+            "https://openalex.org/I4210087105"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Simpson",
+      "raw_affiliation_strings": [
+        "SERC Daresbury Laboratory, Warrington WA4 4AD, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SERC Daresbury Laboratory, Warrington WA4 4AD, UK",
+          "institution_ids": [
+            "https://openalex.org/I2802015276"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5075213509",
+        "display_name": "Andrew Alderson",
+        "orcid": "https://orcid.org/0000-0002-6281-2624",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6281-2624"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Alderson",
+      "raw_affiliation_strings": [
+        "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5019326597",
+        "display_name": "M. A. Bentley",
+        "orcid": "https://orcid.org/0000-0001-8401-3455",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8401-3455",
+          "https://orcid.org/0000-0002-2048-0019"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M.A. Bentley",
+      "raw_affiliation_strings": [
+        "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071716922",
+        "display_name": "P. Fallon",
+        "orcid": "https://orcid.org/0000-0002-4846-1741",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4846-1741",
+          "https://orcid.org/0009-0004-2687-2496"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Fallon",
+      "raw_affiliation_strings": [
+        "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012496599",
+        "display_name": "P.D. Forsyth",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P.D. Forsyth",
+      "raw_affiliation_strings": [
+        "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077097586",
+        "display_name": "Joseph W. Roberts",
+        "orcid": "https://orcid.org/0000-0002-0596-5237",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0596-5237"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J.W. Roberts",
+      "raw_affiliation_strings": [
+        "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5017414122",
+        "display_name": "John F. Sharpey-Schafer",
+        "orcid": "https://orcid.org/0000-0001-9939-8730",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9939-8730"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J.F. Sharpey-Schafer",
+      "raw_affiliation_strings": [
+        "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oliver Lodge Laboratory, University of Liverpool L69 3BX, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2590,
+    "currency": "USD",
+    "value_usd": 2590
+  },
+  "apc_paid": null,
+  "fwci": 4.1573,
+  "has_fulltext": false,
+  "cited_by_count": 77,
+  "citation_normalized_percentile": {
+    "value": 0.94713934,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "513",
+    "issue": "2",
+    "first_page": "344",
+    "last_page": "372"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10093",
+    "display_name": "Nuclear physics research studies",
+    "score": 0.9994999766349792,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3106",
+      "display_name": "Nuclear and High Energy Physics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13458",
+      "display_name": "Astronomical and nuclear sciences",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/high-spin-states",
+      "display_name": "high-spin states",
+      "score": 0.8159999847412109
+    },
+    {
+      "id": "https://openalex.org/keywords/transition-rates",
+      "display_name": "transition rates",
+      "score": 0.546999990940094
+    },
+    {
+      "id": "https://openalex.org/keywords/doppler-shift-attenuation-method",
+      "display_name": "Doppler-shift attenuation method",
+      "score": 0.800000011920929
+    },
+    {
+      "id": "https://openalex.org/keywords/transition-quadrupole-moments",
+      "display_name": "transition quadrupole moments",
+      "score": 0.8420000076293945
+    },
+    {
+      "id": "https://openalex.org/keywords/yrast-band",
+      "display_name": "yrast band",
+      "score": 0.8690000176429749
+    },
+    {
+      "id": "https://openalex.org/keywords/negative-parity-band",
+      "display_name": "negative-parity band",
+      "score": 0.7860000133514404
+    },
+    {
+      "id": "https://openalex.org/keywords/collectivity",
+      "display_name": "collectivity",
+      "score": 0.675000011920929
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778270267",
+      "wikidata": "https://www.wikidata.org/wiki/Q1757904",
+      "display_name": "Yrast",
+      "level": 3,
+      "score": 0.9887349605560303
+    },
+    {
+      "id": "https://openalex.org/C39984356",
+      "wikidata": "https://www.wikidata.org/wiki/Q2121987",
+      "display_name": "Quadrupole",
+      "level": 2,
+      "score": 0.7796984910964966
+    },
+    {
+      "id": "https://openalex.org/C184779094",
+      "wikidata": "https://www.wikidata.org/wiki/Q26383",
+      "display_name": "Atomic physics",
+      "level": 1,
+      "score": 0.7080883979797363
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.5924570560455322
+    },
+    {
+      "id": "https://openalex.org/C2984396361",
+      "wikidata": "https://www.wikidata.org/wiki/Q346704",
+      "display_name": "Beam energy",
+      "level": 3,
+      "score": 0.5494751334190369
+    },
+    {
+      "id": "https://openalex.org/C83581075",
+      "wikidata": "https://www.wikidata.org/wiki/Q1361503",
+      "display_name": "Excitation",
+      "level": 2,
+      "score": 0.5360015034675598
+    },
+    {
+      "id": "https://openalex.org/C152568617",
+      "wikidata": "https://www.wikidata.org/wiki/Q2348",
+      "display_name": "Neutron",
+      "level": 2,
+      "score": 0.5216736793518066
+    },
+    {
+      "id": "https://openalex.org/C142757262",
+      "wikidata": "https://www.wikidata.org/wiki/Q76436",
+      "display_name": "Doppler effect",
+      "level": 2,
+      "score": 0.5132765769958496
+    },
+    {
+      "id": "https://openalex.org/C35325081",
+      "wikidata": "https://www.wikidata.org/wiki/Q7577416",
+      "display_name": "Spin states",
+      "level": 2,
+      "score": 0.5079889893531799
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.4543825387954712
+    },
+    {
+      "id": "https://openalex.org/C2777151079",
+      "wikidata": "https://www.wikidata.org/wiki/Q141160",
+      "display_name": "Parity (physics)",
+      "level": 2,
+      "score": 0.43694746494293213
+    },
+    {
+      "id": "https://openalex.org/C42704618",
+      "wikidata": "https://www.wikidata.org/wiki/Q910917",
+      "display_name": "Spin (aerodynamics)",
+      "level": 2,
+      "score": 0.4117540419101715
+    },
+    {
+      "id": "https://openalex.org/C185544564",
+      "wikidata": "https://www.wikidata.org/wiki/Q81197",
+      "display_name": "Nuclear physics",
+      "level": 1,
+      "score": 0.2552216649055481
+    },
+    {
+      "id": "https://openalex.org/C168834538",
+      "wikidata": "https://www.wikidata.org/wiki/Q3705329",
+      "display_name": "Beam (structure)",
+      "level": 2,
+      "score": 0.23942211270332336
+    },
+    {
+      "id": "https://openalex.org/C181500209",
+      "wikidata": "https://www.wikidata.org/wiki/Q215328",
+      "display_name": "Excited state",
+      "level": 2,
+      "score": 0.1484595537185669
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.08287510275840759
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C1276947",
+      "wikidata": "https://www.wikidata.org/wiki/Q333",
+      "display_name": "Astronomy",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1016/0375-9474(90)90102-r",
+      "doi": "https://doi.org/10.1016/0375-9474(90)90102-r",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0375-9474(90)90102-r",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S62159105",
+        "display_name": "Nuclear Physics A",
+        "issn_l": "0375-9474",
+        "issn": [
+          "0375-9474",
+          "1873-1554"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-c",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nuclear Physics A",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:epubs.cclrc.ac.uk:work/35007",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "http://purl.org/net/epubs/work/35007",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400334",
+        "display_name": "Science and Technology Facilities Council",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I162524378",
+        "host_organization_name": "Science and Technology Facilities Council",
+        "host_organization_lineage": [
+          "https://openalex.org/I162524378"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/2c8615d2-68e0-4af7-a06a-c2875e63f6e9",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://researchprofiles.ku.dk/da/publications/2c8615d2-68e0-4af7-a06a-c2875e63f6e9",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401983",
+        "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I124055696",
+        "host_organization_name": "University of Copenhagen",
+        "host_organization_lineage": [
+          "https://openalex.org/I124055696"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "GASCON, J, YU, CH, Hagemann, G B, CARPENTER, MC, ESPINO, JM, IWATA, Y, KOMATSUBARA, T, NYBERG, J, OGAZA, S, SLETTEN, G, TJOM, PO, RADFORD, DC, SIMPSON, J, ALDERSON, A, BENTLEY, MA, FALLON, P, FORSYTH, PD, ROBERTS, JW & SHARPEYSCHAFER, JF 1990, 'CONFIGURATION-DEPENDENT TRANSITION RATES IN HO-157', Nuclear Physics A: Nuclear and Hadronic Physics, vol. 513, no. 2, pp. 344-372.",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 27,
+  "referenced_works": [
+    "https://openalex.org/W1601498800",
+    "https://openalex.org/W1676901196",
+    "https://openalex.org/W1968040764",
+    "https://openalex.org/W1979753627",
+    "https://openalex.org/W1986678448",
+    "https://openalex.org/W1988180831",
+    "https://openalex.org/W1988727678",
+    "https://openalex.org/W1989059173",
+    "https://openalex.org/W1989673590",
+    "https://openalex.org/W1992695050",
+    "https://openalex.org/W1999598500",
+    "https://openalex.org/W2009356737",
+    "https://openalex.org/W2013896031",
+    "https://openalex.org/W2025648288",
+    "https://openalex.org/W2037987202",
+    "https://openalex.org/W2048365405",
+    "https://openalex.org/W2048543392",
+    "https://openalex.org/W2062566988",
+    "https://openalex.org/W2067858199",
+    "https://openalex.org/W2069634642",
+    "https://openalex.org/W2070473273",
+    "https://openalex.org/W2073585796",
+    "https://openalex.org/W2080801542",
+    "https://openalex.org/W2088022419",
+    "https://openalex.org/W2120471272",
+    "https://openalex.org/W2172071900",
+    "https://openalex.org/W4232509996"
+  ],
+  "related_works": [
+    "https://openalex.org/W2122134822",
+    "https://openalex.org/W2102459572",
+    "https://openalex.org/W2885706683",
+    "https://openalex.org/W1965927474",
+    "https://openalex.org/W3145644419",
+    "https://openalex.org/W2127345726",
+    "https://openalex.org/W2274950100",
+    "https://openalex.org/W939375128",
+    "https://openalex.org/W157423659",
+    "https://openalex.org/W2025387911"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-10-16T09:59:22.235173",
+  "created_date": "2025-10-10T00:00:00"
+}
