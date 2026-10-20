@@ -148,3 +148,14 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 The BibTeX author field contains only H. Amro, but title/year/DOI uniquely identify the paper; raw BibTeX remains read-only.
+
+
+## Day18定量审计：混合比双解对相对B(E2)提取的决定性影响
+
+在Day18正式学习中重新核验本文Table 1数值。原AM03-1–6各claim及`human-reviewed`状态完全保留；新AM03-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AM03-D18-1 | 本文Table 1中带间相对强度比 $B(E2)_	ext{out}/B(E2)_	ext{in}$ 完全由分支比 $\lambda$ 与混合比 $\delta$ 提取；由于采用大解（$\delta \sim -3.1$ 至 $-5.1$），得到比值 $0.23	ext{--}0.27$。若采用未被测量的另一小解（$\delta \sim -0.07$ 至 $-0.35$），该比值将被压低 8.6 至 197.5 倍，导致强度比跌至 0.001–0.031。这证明相对强度提取同样面临混合比双根的极端敏感性。 | task-sensitivity-audit | derived-and-boundary | PDF p.201 Table 1；新amro03-167lu-result-014 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/amro03-167lu-contract-014.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/amro03-167lu-result-014.json)4项检查全过，定量揭示了线偏振缺失对相对强度判据的潜在系统影响。

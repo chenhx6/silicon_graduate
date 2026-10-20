@@ -1,0 +1,89 @@
+{
+  "contract_sha256": "81a439723a62b7cdd4f0afe82f27609fbdeaaee16c654a1646e94e02c577be75",
+  "script_sha256": "c95b2764c343610e976d320e6e4c8cb9bb2383f5bde40dcc9bcb966f0568d6f2",
+  "raw_sha256": "2c28c101a58d920c9cade83a2b166d9fe5d3f80d59eff8d6e1c7c9571b89ec88",
+  "results": [
+    {
+      "E_out_keV": 706.1,
+      "lambda": 0.91,
+      "lambda_err": 0.04,
+      "delta_large_preferred": -3.1,
+      "delta_small_rejected": -0.26,
+      "f_E2_large": 0.9057492931196984,
+      "f_E2_small": 0.0633195953540652,
+      "BE2out_BE2in_reported": 0.23,
+      "implied_in_band_energy_keV": 547.0183553915646,
+      "BE2out_BE2in_if_small_delta": 0.0160789603061941,
+      "suppression_ratio_large_over_small": 14.304407475363757
+    },
+    {
+      "E_out_keV": 704.2,
+      "lambda": 0.41,
+      "lambda_err": 0.06,
+      "unresolved_delta_no_BE2_extracted": true
+    },
+    {
+      "E_out_keV": 707.7,
+      "lambda": 0.39,
+      "lambda_err": 0.04,
+      "delta_large_preferred": -5.1,
+      "delta_small_rejected": -0.07,
+      "f_E2_large": 0.9629766753054424,
+      "f_E2_small": 0.00487610707533088,
+      "BE2out_BE2in_reported": 0.26,
+      "implied_in_band_energy_keV": 657.5182176554918,
+      "BE2out_BE2in_if_small_delta": 0.0013165301632917584,
+      "suppression_ratio_large_over_small": 197.4888287784569
+    },
+    {
+      "E_out_keV": 716.9,
+      "lambda": 0.3,
+      "lambda_err": 0.08,
+      "delta_large_preferred": -3.9,
+      "delta_small_rejected": -0.35,
+      "f_E2_large": 0.9383096853793953,
+      "f_E2_small": 0.10913140311804007,
+      "BE2out_BE2in_reported": 0.27,
+      "implied_in_band_energy_keV": 710.9480091864882,
+      "BE2out_BE2in_if_small_delta": 0.031402722684202904,
+      "suppression_ratio_large_over_small": 8.597980586435686
+    },
+    {
+      "E_out_keV": 730.3,
+      "lambda": 0.32,
+      "lambda_err": 0.07,
+      "unresolved_delta_no_BE2_extracted": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "three_extracted_BE2out_in_values_between_0_20_and_0_30",
+      "passed": true
+    },
+    {
+      "name": "preferred_large_delta_gives_dominant_E2_fraction_over_90_percent",
+      "passed": true
+    },
+    {
+      "name": "small_delta_alternative_reduces_BE2out_in_by_factor_of_8_to_200",
+      "factors": [
+        14.304407475363757,
+        197.4888287784569,
+        8.597980586435686
+      ],
+      "passed": true
+    },
+    {
+      "name": "two_transitions_lack_delta_and_prevent_unique_BE2out_in",
+      "spins_lacking_delta": [
+        704.2,
+        730.3
+      ],
+      "passed": true
+    }
+  ],
+  "checks_total": 4,
+  "checks_passed": 4,
+  "all_passed": true,
+  "physical_interpretation": "In 167Lu Table 1, the interband-to-intraband transition strength ratio B(E2)out / B(E2)in is extracted strictly from the intensity branching ratio lambda and the E2/M1 multipole mixing ratio delta. Because delta is measured via DCO / SpeeDCO without linear polarization, two mathematical roots exist: a large negative root (delta ~ -3 to -5) and a small root (delta ~ -0.07 to -0.35). The authors choose the large-delta solution based on analogy to 163Lu, which yields f_E2 = 90.6% - 96.3% and B(E2)out / B(E2)in ~ 0.23 - 0.27. If the alternative small-delta root were adopted, the extracted B(E2)out would be suppressed by a factor of 14.3 to 198.5 (reducing B(E2)out/B(E2)in to ~ 0.001 - 0.018), completely destroying the wobbling identification! Furthermore, two transitions (704.2 and 730.3 keV) lack delta values, preventing BE2 extraction. This establishes that in high-spin collective band classification, relative transition strength extraction is critically dependent on the resolution of mixing-ratio double roots."
+}

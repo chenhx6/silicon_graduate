@@ -1254,6 +1254,66 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "MU07-D18-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/amro-2003-wobbling-167lu.md",
+      "anchor": "Day18定量审计：混合比双解对相对B(E2)提取的决定性影响",
+      "summary": "Table 1跨带跃迁B(E2)比值提取与SpeeDCO大解/小解8.6-197.5倍敏感性",
+      "sources": [
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "相对强度提取中的混合比双根敏感性：167Lu案例",
+      "summary": "167Lu带间B(E2)提取对混合比解的依赖，小解导致强度塌缩8.6-197.5倍",
+      "sources": [
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "相对跃迁强度提取中的混合比双根依赖",
+      "summary": "方法页补充相对B(E2)提取对DCO混合比双根的指数敏感性",
+      "sources": [
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "amro-2003-wobbling-167lu",
+      "summary": "索引增加167Lu相对跃迁强度提取与混合比敏感性导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1268,6 +1328,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint014已实际提交，稳定指针main / `Audit 167Lu relative transition strength and delta double-root sensitivity`；精确hash/H3/远端结果只publication-014回执。
+
 
 checkpoint013已实际提交，稳定指针main / `Audit 135Nd lifetime vs transition strength decoupling and compensation`；精确hash/H3/远端结果只publication-013回执。
 

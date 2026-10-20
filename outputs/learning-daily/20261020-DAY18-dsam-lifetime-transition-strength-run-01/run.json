@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "013 committed; original research window continues",
+  "last_checkpoint": "014 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Prepare next uncredited Day19 prompt and preserve Day18 deadline",
-    "commit_hash": "a1f9f72bbc2b16b338c034fe478fabcfe7441017",
+    "subject": "Audit 135Nd lifetime vs transition strength decoupling and compensation",
+    "commit_hash": "37cd2cd7c6f6592b5d7213cb650f729e4b983c55",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-012.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-013.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 135Nd lifetime vs transition strength decoupling and compensation"
+    "subject": "Audit 167Lu relative transition strength and delta double-root sensitivity"
   },
   "uncredited_preview": {
     "day_index": 19,

@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-20T22:13:15.223319+08:00",
+  "subject": "Audit 167Lu relative transition strength and delta double-root sensitivity",
+  "ordinary_paths": [
+    "knowledge/sources/amro-2003-wobbling-167lu.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day18_amro03_167lu_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/amro03-167lu-contract-014.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/amro03-167lu-result-014.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-018.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-015.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-014.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-017.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-014.md only"
+  },
+  "verification": "verification-018.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification018/lint017 0 errors 249 warnings/boundary015/diff; 167Lu 4 checks passed"
+}

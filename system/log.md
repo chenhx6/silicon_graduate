@@ -2418,3 +2418,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint013：135Nd与136Nd寿命—强度双向反例
 
 深入审计Mukhopadhyay 2007 135Nd Table I实验数据（MU07-D18-1/2）：低自旋区Band B寿命约为Band A的2倍（1.46 vs 0.75 ps），但B(E2)保持相近（0.28 vs 0.32 e2b2，比值0.875）；偏率因子p_gamma/E5补偿1.70–2.00倍。与136Nd（同寿命异强度）结合形成完整双向反例。40项writeback/16mapped知识页通过verification016/lint015/boundary013。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint014：167Lu相对B(E2)与混合比双解敏感性
+
+深入审计Amro 2003 167Lu三轴超形变wobbling带间相对强度提取（AM03-D18-1）：Table 1中TSD2到TSD1跨带跃迁由于无直接线偏振测量，DCO存在大负解与小负解两个数学根；采用大负解得到B(E2)out/B(E2)in约为0.23–0.27支持wobbling，但若采用小解则带间强度将被压低8.6至197.5倍（比值跌至0.001–0.031完全失去集体特征）。44项writeback/17mapped知识页通过verification018/lint017/boundary015。原硬截止明日15点保持。

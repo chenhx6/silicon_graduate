@@ -1,0 +1,75 @@
+{
+  "at": "2026-10-20T14:06:24.281064+00:00",
+  "source": "Amro PLB 553, 197 (2003) Table 1",
+  "raw_file": "raw/papers/2003_The wobbling mode in 167Lu.pdf",
+  "raw_sha256": "2c28c101a58d920c9cade83a2b166d9fe5d3f80d59eff8d6e1c7c9571b89ec88",
+  "rows": [
+    {
+      "E_out_keV": "706.1",
+      "lambda": "0.91",
+      "lambda_err": "0.04",
+      "delta": "-3.1",
+      "delta_err_plus": "1.1",
+      "delta_err_minus": "3.4",
+      "BE2out_BE2in": "0.23",
+      "BE2out_BE2in_plus": "0.02",
+      "BE2out_BE2in_minus": "0.05",
+      "delta_small": "-0.26",
+      "delta_small_err": "0.16"
+    },
+    {
+      "E_out_keV": "704.2",
+      "lambda": "0.41",
+      "lambda_err": "0.06",
+      "delta": null,
+      "delta_err_plus": null,
+      "delta_err_minus": null,
+      "BE2out_BE2in": null,
+      "BE2out_BE2in_plus": null,
+      "BE2out_BE2in_minus": null,
+      "delta_small": null,
+      "delta_small_err": null
+    },
+    {
+      "E_out_keV": "707.7",
+      "lambda": "0.39",
+      "lambda_err": "0.04",
+      "delta": "-5.1",
+      "delta_err_plus": "1.6",
+      "delta_err_minus": "2.5",
+      "BE2out_BE2in": "0.26",
+      "BE2out_BE2in_plus": "0.03",
+      "BE2out_BE2in_minus": "0.04",
+      "delta_small": "-0.07",
+      "delta_small_err": "0.07"
+    },
+    {
+      "E_out_keV": "716.9",
+      "lambda": "0.30",
+      "lambda_err": "0.08",
+      "delta": "-3.9",
+      "delta_err_plus": "2.7",
+      "delta_err_minus": "8.4",
+      "BE2out_BE2in": "0.27",
+      "BE2out_BE2in_plus": "0.07",
+      "BE2out_BE2in_minus": "0.10",
+      "delta_small": "-0.35",
+      "delta_small_err": "0.65"
+    },
+    {
+      "E_out_keV": "730.3",
+      "lambda": "0.32",
+      "lambda_err": "0.07",
+      "delta": null,
+      "delta_err_plus": null,
+      "delta_err_minus": null,
+      "BE2out_BE2in": null,
+      "BE2out_BE2in_plus": null,
+      "BE2out_BE2in_minus": null,
+      "delta_small": null,
+      "delta_small_err": null
+    }
+  ],
+  "question": "In triaxial wobbling candidate 167Lu, how does the interband-to-intraband B(E2) ratio depend on the SpeeDCO/angular-distribution mixing ratio delta(E2/M1), and how strongly does the selection of the large-delta solution versus the small-delta solution affect the inferred wobbling collectivity?",
+  "scope": "source-grounded relative transition strength audit without lifetime input; rigorous test of delta-branching-energy sensitivity in wobble extraction"
+}

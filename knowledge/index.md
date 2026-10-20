@@ -21,6 +21,8 @@ updated: 2026-10-20
 
 - [[lifetime-method-selection-response-contract]] — Day18内恰好下一卡的无学分预习：Radeck分量响应/缺eff与坐标合同、Nolan定向方法选择表/最小校准清单；非正式19。
 
+- [[amro-2003-wobbling-167lu]] — 167Lu 三轴超形变 wobbling 带间相对跃迁强度提取与 DCO 混合比双根敏感性。
+
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
 - [[nndc-2010-fe58-reference-lifetime-lineage]] — exact官方811参考B/半衰期/静态Q同1981来源、旧DSAMhalf/mean与Gosia输入依赖；非重复实验。
