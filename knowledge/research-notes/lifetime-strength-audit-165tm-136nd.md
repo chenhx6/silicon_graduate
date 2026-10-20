@@ -819,18 +819,15 @@ DDCM距离恒定性是有用诊断，不保证所有共同速度/门/强度/有�
 
 至此，Day 18 跃迁强度审计体系完成了从单带DSAM寿命折算、多极混合比根敏感性、模型算符人工淬灭，到手征/wobbling多极二分律的全面闭环。
 
-## 136Nd核心原件B(E2)二倍差异的微观组态解释：Mukhopadhyay 2008与Petrache 2018对账
+## 136Nd原表与跨论文带身份纠错
 
-在Day 18核心主线核素$^{136}\text{Nd}$的寿命—强度审计中，[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-4 与后续微观组态研究 [[petrache-2018-chiral-bands-even-even-136nd]] PE18-D18-1 构成了至关重要的实验与微观闭环（[定量审计结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-result-032.json)）：
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-5–7与[[petrache-2018-chiral-bands-even-even-136nd]] PE18-D18-2/3修订checkpoint032：原TableII并无4.17/2.88eb与15–20spin数组；十个母态只在15−–19−，Band1 I15 E2/Qt为空。真实同spin B2/B1为51/26、11/2、2/7、5/11，17到18之间翻转。此前所谓2.06恒比来自错误输入，旧结果不是实验数据。
 
-1. **原件实验测定的带间2倍B(E2)落差**：在Mukhopadhyay 2008的原始在束DSAM寿命测量中，带1在 $I = 15\text{--}20$ 的平均四极矩为 $Q_{t1} = 4.17$ eb（带内 $B(E2) = 0.51~e^2b^2$），而带2在 $I = 16\text{--}20$ 的平均四极矩仅为 $Q_{t2} = 2.88$ eb（带内 $B(E2) = 0.25~e^2b^2$）。带1与带2的四极跃迁强度呈现出高度稳定的 **2.06倍系统性差异**（$Q_{t1}/Q_{t2} = 1.45$）。原论文在手征振动向静态手征演化的唯象图像下，难以给出带2形变减小的第一性微观解释。
-2. **M$\chi$D多准粒子组态形变差的定量对账**：Petrache 2018对$^{136}\text{Nd}$多对候选带的TAC-CDFT微观密度泛函计算确立：
-   - 带1（D1）对应组态A：$\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$，理论平衡形变 $\beta_2 = 0.18, \gamma = 31^\circ$；
-   - 带2（D2）对应组态B：$\pi h_{11/2}^2 \otimes \nu (h_{11/2}^{-1} s_{1/2}^{-1})$，理论平衡形变 $\beta_2 = 0.14, \gamma = 28^\circ$；
-   - 理论预测两组态的四极矩之比为 $\beta_1/\beta_2 = 0.18 / 0.14 = 1.29$，导出的带内四极跃迁几率比值为 $(0.18/0.14)^2 = \mathbf{1.65}$，与Mukhopadhyay 2008实测的 **2.06倍** 展现出优异的自洽性。
-3. **物理图像的彻底澄清**：带2的内禀四极矩之所以显著低于带1，是因为带2涉及中子低 $\Omega$ 的 $s_{1/2}$ 轨道破对，其对核芯形状的极化驱动弱于完整的高 $j$ $h_{11/2}$ 准粒子对。两带各自拥有专属的手征伙伴带（D1-c与D2-c），本质上属于两个不同内禀形变极小上的独立转动能级系统，完全无需引入外来的手征抑制假设。
+2018正宇称D1/D2不能替代2008负宇称Band1/2。根据Ji15–19的两串带内线，低spin谱系为Band1→D4、Band2→D3；2018新伴带分别是D4-chiral、D3-chiral，不是2008两主带互为伙伴的新证明。D3高spin有重排、2018 Fig1不印绝对Ex，后续必须逐态crosswalk。
 
-这为Day 18核心主线核素$^{136}\text{Nd}$的DSAM数据提供了最坚实的微观理论归宿，圆满闭环了解析练习中的双比不变量 $D = 19.25$ 与基带四极矩落差的微观根源。
+2018 A/B真实beta=.21/.22、gamma21°/19°；D/D*分别.22/19°、.21/22°。不能拿错误A/B输入或beta平方给2008强度差找微观因果。2008 TAC/RPA未纳入crossing混合、2018也明示相应模型边界；需要一致态身份、branch/mixing、矩阵元及数据/模型producer后比较。原Qt candidate公式与轴仍未认证，不由新读2018补齐。
+
+[新程序](../../system/scripts/day18_petrache18_mu08_136nd_crosswalk.py)从实际PDF4解析十行，而[新结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)给18项原文/数值断言；旧result/contract-032保档superseded，不新实验/CI。
 
 ## 微观IBFM模型与实验小解强度的精确收敛：否定γ-soft区低自旋wobbling的理论闭环
 

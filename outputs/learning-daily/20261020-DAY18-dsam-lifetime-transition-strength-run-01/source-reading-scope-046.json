@@ -1,0 +1,14 @@
+{
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "primed": true,
+  "blind_test": false,
+  "parent_read": "MU08六页文字主线复核（原session首checkpoint已完整原读）；新视觉PDF4 TableII，2018 PDF3 Fig1/PDF5 TableI；PE18定向PDF1/3/5/6，不声称父代理本次全读7页",
+  "independent_readonly_worker": "MU08/PE18全部文字主线，视觉MU08 PDF2/3/4与PE18 PDF3/5；仅tmp写入",
+  "old_flags_preserved": true,
+  "superseded": [
+    "MU08-D18-4 old text",
+    "PE18-D18-1 old text",
+    "petrache18-mu08-136nd-result-032.json"
+  ],
+  "no_new_experimental_fit": true
+}

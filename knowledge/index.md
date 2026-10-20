@@ -55,7 +55,7 @@ updated: 2026-10-20
 
 - [[guo-2024-chiral-wobbler-74br]] — 74Br 手征与 wobbling 共存 DSAM 寿命测定、M1/E2 多极二分律与终极基准。
 
-- [[petrache-2018-chiral-bands-even-even-136nd]] — 136Nd MχD 多准粒子微观组态形变差与 Mukhopadhyay 2008 DSAM 寿命 B(E2) 2 倍系统落差对账。
+- [[petrache-2018-chiral-bands-even-even-136nd]] — 136Nd 跨论文带身份纠错：MU08低spin负宇称Band1/2对应D4/D3，不能映射正宇称D1/D2或假表值。
 
 - [[nomura-2022-questioning-wobbling-ibfm]] — 实验室系 IBFM 微观计算对账：135Pr delta (-0.368 vs -0.37) 与 127Xe B(E2) 0.163 精确收敛于 Day 18 物理小解审计。
 

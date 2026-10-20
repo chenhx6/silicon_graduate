@@ -2573,3 +2573,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint045：Hecht2003原文、几何反例与科学纠错
 
 旧checkpoint044未提交，旧log记录是当时草稿解释，由此追加更正：1.5625仅beta平方条件算术，原p.13判别为B(E2)随自旋大跳变与平滑增长；DSAM唯一/严格等Qt及“至今全核无寿命”均撤回。原14页文字主线与PDF9/13视觉复核，新HE03-D18-2–5及张量条件设计18项实际断言，同编号主轴比1.36234/.489184/5.53710，53.12221度同强度witness非TAC解。旧result/contract-043保档被取代，needs_review不升级。原session/15点截止/未授正式18保持。
+
+
+## 2026-10-21 DAY18 checkpoint046：MU08原表与跨论文能带身份纠错
+
+追加更正checkpoint032历史结论：4.17/2.88eb、2.06倍常差与A/B=.18/.14输入均不符原表。原TableII十行15−–19−，Qt.67–2.50eb；逐spin B2/B1=51/26、11/2、2/7、5/11。2018 D1/D2正宇称，2008两负宇称带低spin指纹对应D4/D3而非D1/D2。高spin重排/Ex未闭不硬映射，beta不作微观因果证明。MU08-D18-5–7、PE18-D18-2/3与新18项原文/算术断言保存，旧固定True结果superseded。原15:00硬截止与未授18保持。

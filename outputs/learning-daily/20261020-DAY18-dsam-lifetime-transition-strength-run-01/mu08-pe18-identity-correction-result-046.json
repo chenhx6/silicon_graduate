@@ -1,0 +1,338 @@
+{
+  "kind": "raw-table-and-bounded-low-spin-identity-audit-not-fit",
+  "sources": [
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+      "locator": "PDF2 Fig1; PDF3 TableI; PDF4 TableII"
+    },
+    {
+      "path": "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "sha256": "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3",
+      "locator": "PDF3 Fig1; PDF5 TableI"
+    }
+  ],
+  "supersedes": [
+    "petrache18-mu08-136nd-result-032.json",
+    "petrache18-mu08-136nd-contract-032.json"
+  ],
+  "actual_MU08_TableII_rows": [
+    {
+      "band": 1,
+      "spin": 15,
+      "parity": "-",
+      "printed": [
+        "0.93(9)",
+        "2.7(3)",
+        "–",
+        "–"
+      ],
+      "tau_ps": 0.93,
+      "BM1_muN2": 2.7,
+      "BE2_e2b2": null,
+      "Qt_eb": null
+    },
+    {
+      "band": 1,
+      "spin": 16,
+      "parity": "-",
+      "printed": [
+        "0.88(10)",
+        "1.7(2)",
+        "0.26(3)",
+        "1.73(10)"
+      ],
+      "tau_ps": 0.88,
+      "BM1_muN2": 1.7,
+      "BE2_e2b2": 0.26,
+      "Qt_eb": 1.73
+    },
+    {
+      "band": 1,
+      "spin": 17,
+      "parity": "-",
+      "printed": [
+        "0.71(6)",
+        "1.1(1)",
+        "0.08(1)",
+        "0.95(6)"
+      ],
+      "tau_ps": 0.71,
+      "BM1_muN2": 1.1,
+      "BE2_e2b2": 0.08,
+      "Qt_eb": 0.95
+    },
+    {
+      "band": 1,
+      "spin": 18,
+      "parity": "-",
+      "printed": [
+        "0.56(8)",
+        "0.9(2)",
+        "0.14(2)",
+        "1.26(9)"
+      ],
+      "tau_ps": 0.56,
+      "BM1_muN2": 0.9,
+      "BE2_e2b2": 0.14,
+      "Qt_eb": 1.26
+    },
+    {
+      "band": 1,
+      "spin": 19,
+      "parity": "-",
+      "printed": [
+        "0.32(5)",
+        "1.7(3)",
+        "0.11(2)",
+        "1.11(10)"
+      ],
+      "tau_ps": 0.32,
+      "BM1_muN2": 1.7,
+      "BE2_e2b2": 0.11,
+      "Qt_eb": 1.11
+    },
+    {
+      "band": 2,
+      "spin": 15,
+      "parity": "-",
+      "printed": [
+        "1.27(6)",
+        "4.4(3)",
+        "0.54(8)",
+        "2.50(19)"
+      ],
+      "tau_ps": 1.27,
+      "BM1_muN2": 4.4,
+      "BE2_e2b2": 0.54,
+      "Qt_eb": 2.5
+    },
+    {
+      "band": 2,
+      "spin": 16,
+      "parity": "-",
+      "printed": [
+        "0.87(8)",
+        "3.5(3)",
+        "0.51(7)",
+        "2.42(17)"
+      ],
+      "tau_ps": 0.87,
+      "BM1_muN2": 3.5,
+      "BE2_e2b2": 0.51,
+      "Qt_eb": 2.42
+    },
+    {
+      "band": 2,
+      "spin": 17,
+      "parity": "-",
+      "printed": [
+        "0.61(7)",
+        "1.4(2)",
+        "0.44(6)",
+        "2.24(15)"
+      ],
+      "tau_ps": 0.61,
+      "BM1_muN2": 1.4,
+      "BE2_e2b2": 0.44,
+      "Qt_eb": 2.24
+    },
+    {
+      "band": 2,
+      "spin": 18,
+      "parity": "-",
+      "printed": [
+        "0.51(7)",
+        "1.0(2)",
+        "0.04(1)",
+        "0.67(8)"
+      ],
+      "tau_ps": 0.51,
+      "BM1_muN2": 1.0,
+      "BE2_e2b2": 0.04,
+      "Qt_eb": 0.67
+    },
+    {
+      "band": 2,
+      "spin": 19,
+      "parity": "-",
+      "printed": [
+        "0.31(5)",
+        "1.6(3)",
+        "0.05(1)",
+        "0.75(8)"
+      ],
+      "tau_ps": 0.31,
+      "BM1_muN2": 1.6,
+      "BE2_e2b2": 0.05,
+      "Qt_eb": 0.75
+    }
+  ],
+  "B2_over_B1_exact": [
+    "51/26",
+    "11/2",
+    "2/7",
+    "5/11"
+  ],
+  "double_ratio_exact": "77/4",
+  "low_spin_lineage_matches": [
+    {
+      "old": "Band1",
+      "later": "D4",
+      "spins": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "parity": "-",
+      "old_E_keV": [
+        229.3,
+        308.7,
+        356.2,
+        401.2,
+        435.8
+      ],
+      "later_rounded_E_keV": [
+        230,
+        309,
+        357,
+        402,
+        436
+      ],
+      "residuals_keV": [
+        0.7,
+        0.3,
+        0.8,
+        0.8,
+        0.2
+      ]
+    },
+    {
+      "old": "Band2",
+      "later": "D3",
+      "spins": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "parity": "-",
+      "old_E_keV": [
+        199.6,
+        248.1,
+        344.4,
+        434.2,
+        465.5
+      ],
+      "later_rounded_E_keV": [
+        200,
+        249,
+        345,
+        434,
+        466
+      ],
+      "residuals_keV": [
+        0.4,
+        0.9,
+        0.6,
+        -0.2,
+        0.5
+      ]
+    }
+  ],
+  "high_spin_boundary": "D3 levels above spin20 show rearrangements; 2018 Fig1 lacks absolute Ex; no automatic all-spin identity",
+  "interpretation_boundary": "A/B beta .21/.22 are positive configurations, not MU08 bands; D/Dstar labels are model assignments; no measured absolute-strength or microscopic-causality bridge",
+  "independent_experiment_or_CI": false,
+  "checks": [
+    {
+      "name": "MU08 hash",
+      "passed": true
+    },
+    {
+      "name": "PE18 hash",
+      "passed": true
+    },
+    {
+      "name": "MU08 6 pages",
+      "passed": true
+    },
+    {
+      "name": "correct bibliographic identity",
+      "passed": true
+    },
+    {
+      "name": "PE18 A actual positive parity and beta",
+      "passed": true
+    },
+    {
+      "name": "PE18 B actual positive parity and beta",
+      "passed": true
+    },
+    {
+      "name": "PE18 D actual negative parity and beta",
+      "passed": true
+    },
+    {
+      "name": "PE18 Dstar actual negative parity and beta",
+      "passed": true
+    },
+    {
+      "name": "ten actual TableII rows",
+      "passed": true
+    },
+    {
+      "name": "actual spin domain 15-19",
+      "passed": true
+    },
+    {
+      "name": "Band1 I15 unreported E2/Qt",
+      "passed": true
+    },
+    {
+      "name": "maximum actual Qt 2.50",
+      "passed": true
+    },
+    {
+      "name": "actual ratio sequence",
+      "passed": true
+    },
+    {
+      "name": "direction reverses at spin18",
+      "passed": true
+    },
+    {
+      "name": "contrast 77/4",
+      "passed": true
+    },
+    {
+      "name": "Band1 D4 low-spin rounding screen",
+      "passed": true,
+      "residuals_keV": [
+        0.7,
+        0.3,
+        0.8,
+        0.8,
+        0.2
+      ]
+    },
+    {
+      "name": "Band2 D3 low-spin rounding screen",
+      "passed": true,
+      "residuals_keV": [
+        0.4,
+        0.9,
+        0.6,
+        -0.2,
+        0.5
+      ]
+    },
+    {
+      "name": "positive D1 D2 fail parity identity",
+      "passed": true
+    }
+  ],
+  "valid": true
+}

@@ -163,12 +163,14 @@ P0: none identified.
 - Protected BibTeX record: `petrache_2018_Evidencechiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`.
 
-## Day18定量审计：MχD组态形变差与Mukhopadhyay 2008 DSAM寿命B(E2)对账
+## Day18修订：A/B表值、宇称与D3/D4谱系
 
-在Day18正式学习中对本文Table I中计算的136Nd多对候选带多准粒子微观组态与Mukhopadhyay 2008在束DSAM寿命测定的带内B(E2)进行定量对账审计，raw SHA256 `D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3`已核。原PE18-1–7各claim保持；新PE18-D18-1待审。
+原PE18-1–7及reviewflags保持；新段纠正checkpoint032，实际主raw SHA256为`d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3`。原刊reprint有封面，PDF3=041304-2、PDF5=041304-4。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| PE18-D18-1 | 本文Table I通过约束和倾斜轴推转协变密度泛函理论（TAC-CDFT），计算出136Nd中带D1（组态A：pi(h11/2)^2 x nu(h11/2)^-2）与带D2（组态B：pi(h11/2)^2 x nu(h11/2^-1 s1/2^-1)）的平衡形变参数分别为(beta2=0.18, gamma=31 deg)与(beta2=0.14, gamma=28 deg)。与Mukhopadhyay 2008实测的DSAM寿命定量对账证实：组态A与B的形变预测比beta1/beta2 = 1.29，其四极跃迁强度平方比为(0.18/0.14)^2 = 1.65，与Mukhopadhyay 2008测得的带1与带2带内B(E2)实测比值（0.51 e2b2对0.25 e2b2，比值为2.06）高度吻合。这直接证实D1与D2在本质上属于不同微观破对组态的独立转动序列（各自拥有专属的弱手征伙伴带D1-c与D2-c），在微观上完全闭环解释了2008年DSAM实验中带2四极跃迁强度系统性减半的物理根源。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.5 Table I；新petrache18-mu08-136nd-result-032 | true |
+| PE18-D18-1 | 撤回旧A/B=.18/.14与错误组态、MU08 Band1/2=D1/D2及“2.06倍差微观闭环”的结论，因原表和带身份均不符。 | task-correction | superseded-interpretation | checkpoint032；PDF3 Fig1/PDF5 TableI；PE18-D18-2/3 | true |
+| PE18-D18-2 | TableI A为正宇称、beta=.21/gamma21°，pi(h11/2)^1(d5/2g7/2)^−1 ⊗ nu(h11/2)^−1(s1/2d3/2)^−1；B为正宇称、.22/19°，proton h11/2为3，其余上述空穴相同；作者把D1/D1-C与D2/D2-C分别指认A/B。它们不是MU08两条负宇称带的组态。 | model-input-and-assignment | direct | PDF5 TableI与左栏；PDF3 Fig1 | true |
+| PE18-D18-3 | Fig1低spin级联支持MU08 Band1→D4、Band2→D3；作者分别把D4/D4-C与D3/D3-C指认D与D*。D/D*为pi(h11/2)^2 ⊗ nu(h11/2)^−1(s1/2d3/2)^−1，标Omega≈+3/2和−3/2，beta/gamma为.22/19°与.21/22°；这些是模型指认，D3高spin新拓扑与未列Ex使全域映射仍需full scheme逐态核对。 | task-identity-and-model-boundary | direct-and-conditional | PDF3 Fig1；PDF5 TableI/正文；MU08-D18-6 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-contract-032.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-result-032.json)4项检查全过。
+[实际审计结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)核真实原表，不从B输出反推虚构input。2018计算对crossing/configuration mixing的局限保留，beta平方不是已认证的实际B(E2)比。2008两带间的mixing与2018每条主带各自的候选伙伴必须分对象。Related primary：[[mukhopadhyay-2008-136nd-transition-rates]]。

@@ -49,6 +49,12 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint046：MU08真实十行、parity筛查与跨论文低spin谱系纠错
+
+两位只读核验与父代理原件复核发现checkpoint032表值和组态桥接错误，已撤MU08-D18-4/PE18-D18-1旧结论。MU08原TableII只I15−–19−，Qt .67–2.50eb，Band1 I15 E2/Qt空；实际B2/B1=51/26、11/2、2/7、5/11，非固定2.06倍。2018 A/B正宇称且beta=.21/.22，不能与2008负宇称Band1/2等同。低spin级联支持Band1→D4、Band2→D3，原高spin重排/缺绝对Ex保留。
+
+[新程序实际18项断言](20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)直接读取原PDF4十行与2018 TableI，检查rawhash和图指纹。它修正旧固定True检查，不重报实验CI/独立实验。原τ/B/Qt同data及模型未纳入crossing mixing的边界保持。source/note/method/index与五个writeback映射已同步；旧结果保档，由新locator解释。
+
 ### checkpoint045：撤回未提交044的过强判决并完成新条件几何练习
 
 重新核Hecht2003全部14页文字主线及PDF9/13视觉证据。原参数位于p.13，Fig.9在p.9，Fig.8为能级系统学。新HE03-D18-2–5保持needs_review，旧HE03-D18-1标为superseded。作者讨论B(E2)随自旋的大跳变/平滑增长，没有给“56.2%差就是形状共存、等Qt就是手征”的普适判据；也未指定DSAM唯一或证明2026全核无寿命。旧4条固定passed不计核验。
@@ -2255,68 +2261,136 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-      "anchor": "Day18定量审计：带1与带2二倍B(E2)差异的微观多准粒子组态解构（对仗Petrache 2018）",
-      "summary": "Table I与II中带1与带2带内B(E2)实测2.06倍差异与Petrache 2018 TAC-CDFT组态A与B形变平方差1.65倍对账解构",
+      "anchor": "Day18修订：原表数值与跨论文能带身份",
+      "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-4"
+          "locator": "MU08-D18-5"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-6"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-7"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-      "anchor": "Day18定量审计：MχD组态形变差与Mukhopadhyay 2008 DSAM寿命B(E2)对账",
-      "summary": "Table I中五对手征候选带微观多准粒子组态与Mukhopadhyay 2008 DSAM寿命B(E2)二倍系统性落差的微观闭环解释",
+      "anchor": "Day18修订：A/B表值、宇称与D3/D4谱系",
+      "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-5"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-6"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-7"
+        },
+        {
           "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-1"
+          "locator": "PE18-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "136Nd核心原件B(E2)二倍差异的微观组态解释：Mukhopadhyay 2008与Petrache 2018对账",
-      "summary": "136Nd核心原件微观闭环：带1与带2实测B(E2)落差2.06倍直接对应MchiD组态A(beta=0.18)与组态B(beta=0.14)的低Omega中子破对形变极小差异",
+      "anchor": "136Nd原表与跨论文带身份纠错",
+      "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-4"
+          "locator": "MU08-D18-5"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-6"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-7"
         },
         {
           "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-1"
+          "locator": "PE18-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "同一核素平行四极带的四极矩差异与准粒子对齐阻碍形变",
-      "summary": "方法页补充DSAM寿命测定平行四极能带间四极矩落差时结合多准粒子轨道对齐阻碍形变极小的微观对账准则",
+      "anchor": "跨论文强度比较先核母态与宇称",
+      "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-4"
+          "locator": "MU08-D18-5"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-6"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-7"
         },
         {
           "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-1"
+          "locator": "PE18-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "petrache-2018-chiral-bands-even-even-136nd",
-      "summary": "索引增加136Nd MchiD多准粒子微观组态与Mukhopadhyay 2008 DSAM寿命B(E2)二倍落差对账导航",
+      "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
       "sources": [
         {
-          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
-          "locator": "PE18-D18-1"
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-5"
         },
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
-          "locator": "MU08-D18-4"
+          "locator": "MU08-D18-6"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-7"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-3"
         }
       ]
     },
@@ -2928,6 +3002,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint046已实际提交，稳定指针main / `Correct 136Nd source tables and parity-constrained band crosswalk`；精确hash/H3/远端结果只publication-046回执。
+
 
 checkpoint045已实际提交，稳定指针main / `Correct 140Eu lifetime discriminator and test conditional E2 geometry`；精确hash/H3/远端结果只publication-045回执。
 

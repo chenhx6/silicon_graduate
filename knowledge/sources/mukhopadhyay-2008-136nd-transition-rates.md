@@ -252,12 +252,17 @@ Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的
 
 Knowledge impact：`supports`带间强度必须逐spin审计，`limits`用一个共同或每带恒定系统标尺消掉全部差异的解释；不由这个条件结果唯一裁决chirality、组态、bandmixing或原误差。原bandmixing未纳入TAC、RPA适用于chiral-vibrational域而非静态手征的限制仍在。[[lifetime-strength-audit-165tm-136nd]]保存解析域、反例与完整readiness。
 
-## Day18定量审计：带1与带2二倍B(E2)差异的微观多准粒子组态解构（对仗Petrache 2018）
+## Day18修订：原表数值与跨论文能带身份
 
-在Day18正式学习中对本文Table I与Table II中带1与带2的带内寿命、四极矩Qt及B(E2)数值与后续Petrache 2018 MchiD组态计算进行微观对账审计，raw SHA256 `EA77D700142BE39C66F7BA74503E013A9876BF20367807FF7D8C867B6651CD2C`已核。原MU08-1–23及D18-1–3各claim保持；新MU08-D18-4待审。
+Checkpoint046回原TableII与2018能级图，撤回checkpoint032的错误桥接。MU08实际raw SHA256为`ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c`，旧追加段另一串hash系错录，页首原hash保持正确。原MU08-1–23及D18-1–3和reviewflags保持；旧result/contract-032保档为superseded，旧checks_passed=True为固定赋值，不是验证。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MU08-D18-4 | 本文Table I与Table II测得带1在I=15-20的平均Qt为4.17 eb（平均B(E2) = 0.51 e2b2），而带2在I=16-20的平均Qt仅为2.88 eb（平均B(E2) = 0.25 e2b2），带1与带2的带内B(E2)呈现严格的2.06倍系统性差异（Qt之比为1.45倍）。原论文将其解释为手征振动向静态手征演化过程中基态带四极集体性的反常差异；与Petrache 2018 TAC-CDFT微观对账证实：带1对应组态A（pi(h11/2)^2 x nu(h11/2)^-2，beta2=0.18），带2对应组态B（pi(h11/2)^2 x nu(h11/2^-1 s1/2^-1)，beta2=0.14）；两组态的内禀形变平方比为(0.18/0.14)^2 = 1.65倍。这在微观多准粒子结构上直接解释了带2四极集体性减半的物理成因：带2涉及中子低Omega s1/2轨道破对，固有形变本就低于带1，无需引入奇异的手征抑制假说。 | task-rate-decomposition-audit | derived-and-boundary | Table I & II；新petrache18-mu08-136nd-result-032 | true |
+| MU08-D18-4 | 撤回旧4.17/2.88eb、.51/.25平均、15–20spin域与2.06倍固定差的声称；它们来自不符原表的脚本数组。撤回与2018 D1/D2及A/B的微观因果桥接，由D18-5–7替代。 | task-correction | superseded-interpretation | checkpoint032旧脚本/result；本次PDF4 TableII核验 | true |
+| MU08-D18-5 | TableII两带均为15−–19−，Band1的15−未报告B(E2)/Qt；所有Qt在.67–2.50eb，Band1最高1.73eb。I16/17/18/19的B2(E2)/B1(E2)依次51/26、11/2、2/7、5/11，方向在17到18之间翻转；不是固定2.06倍或随spin同向“减半”。 | current-session-table-audit | direct-and-arithmetic | PDF4 TableII；PDF3 TableI；identity-correction-result-046 | true |
+| MU08-D18-6 | 本文Fig1负宇称Band1在Ji15–19的229.3/308.7/356.2/401.2/435.8keV与2018 Fig1 D4的230/309/357/402/436对应；Band2的199.6/248.1/344.4/434.2/465.5与D3的200/249/345/434/466对应，支持低spin级联谱系。D1/D2正宇称不符。图能量有修订、2018图不列绝对Ex且D3高spin重排，不能据此全域复制spin/Ex。 | task-cross-source-identity-audit | direct-selected-fingerprint-and-boundary | 本文PDF2 Fig1/PDF3 TableI；Petrache2018 PDF3 Fig1；PE18-D18-3 | true |
+| MU08-D18-7 | 原作者以两种不同组态及crossing附近混合解释两带；TAC+RPA未包含band mixing，RPA适用振动域、远离静态转变。2018 D3/D4各自的新D3-chiral/D4-chiral伙伴不是2008两带互为伙伴的新确认，不能把模型beta或不同配对对象倒写成本实验因果证明。 | source-interpretation-and-lineage-boundary | direct-and-boundary | 本文PDF1/4/5；Petrache2018 PDF3/5/6 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-contract-032.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-result-032.json)4项检查全过。
+[修订程序](../../system/scripts/day18_petrache18_mu08_136nd_crosswalk.py)从原PDF4实际文本解析全部十行，核两raw哈希、真实2018 A/B/D/D*表值及低spin指纹；[18项实际断言结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)通过。原τ/B/Qt同源、stopping系统最高15% excluded、branch/ICC/Qt实际producer与轴边界不变；没有新拟合或CI。
+
+跨论文对照：[[petrache-2018-chiral-bands-even-even-136nd]] PE18-D18-2/3。

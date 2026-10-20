@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-20T18:44:36.007445+00:00",
+  "subject": "Correct 136Nd source tables and parity-constrained band crosswalk",
+  "ordinary_paths": [
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day18_petrache18_mu08_136nd_crosswalk.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-reading-scope-046.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-046.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-046.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-046.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-046.md"
+  ],
+  "verification": "verification-046.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-046.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracted primary inputs"
+  ],
+  "checks": "18 source/numeric assertions; report/writeback52pages; lint0errors; boundary; protected and latest resume inherited baselines"
+}
