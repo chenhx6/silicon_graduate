@@ -1,0 +1,66 @@
+{
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "recorded_at": "2026-10-20T15:23:36.049805+08:00",
+  "primed": true,
+  "source_reading_started_after_freeze": true,
+  "jensen": {
+    "raw_file": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+    "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
+    "total_pages": 48,
+    "text_pages_read": [
+      1,
+      2,
+      3,
+      21,
+      22,
+      23,
+      24,
+      25,
+      31,
+      32,
+      33,
+      36,
+      44,
+      45
+    ],
+    "visual_pages_read": [
+      23,
+      24,
+      25,
+      33,
+      36
+    ],
+    "scope": "DSAM Sec3.2 plus necessary experiment/mixing/summary context; selected Tables2/5/6; not a new full48page read",
+    "figures_read": [
+      "Fig7 three columns/four angles, right-caption band identity boundary preserved",
+      "Fig8 spin-dependentQt and weighted averages",
+      "Fig14 branches and configuration-mixing roles"
+    ],
+    "equations_read": [
+      "Eq3 multipole/branch ratio, not DSAMtime formula",
+      "Eq4/5 necessary common calibration/mixing context"
+    ],
+    "not_read": "remaining general spectroscopy/highspin/systematics pages in this session; raw events/producer/Cov"
+  },
+  "mu08": {
+    "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "text_pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "visual_pages_read": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "scope": "full six-page mainline including references, all five figures/two tables/three equations; not full referenced papers",
+    "tables": "all26TableI branch rows and10TableII τ/B rows text+visual; new contrast uses pairedI16–19B outputs",
+    "limits": "Fig2 label464.8/TableI465.5 preserved; no printedQtaxisformula/actualproducer/Σ; model pairing omitted/bandmixing not included"
+  }
+}

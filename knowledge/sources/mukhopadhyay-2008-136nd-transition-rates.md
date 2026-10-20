@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2008 - Electromagnetic transition rates in high-spin bands in 136Nd"
 aliases: [Mukhopadhyay 2008 136Nd transition rates]
 created: 2026-09-21
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -239,3 +239,15 @@ Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的
 ## Ref16完整主线后的转移边界
 
 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-7–24本session完整30页原读，新的同parentledger显示E1/带间支也进入partiallifetime分母；thin/backed来源需逐reaction核。Ref16的“branching”方法类别依然不指定本136Nd逐lineabsolutephoton库存或actualQt轴，未见bandQt公式这个verifiednegative也保留。旧MU08-1–17/所有reviewflags不变，不重复实验授信。
+
+## Day18独立session：完整原读及带间自旋contrast
+
+2026-10-20在新session的primed回忆冻结之后，本次完整原读六页，视觉核PDF2–5：Fig1纲图的2008Band1/2身份、Fig2分角谱、TablesI–II、Figs3–5及Eqs1–3分别核查。三式是QQ/TAC/RPA公式，**没有印出Qt转换轴式**。Fig2的464.8与TableI的465.5标签差、branch分母/ICC/δ、实际producer/Σ边界保持。详[本次actualscope](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-reading-scope-001.json)。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU08-D18-1 | 本次完整六页原读核全部belowgates、每ring完整shifted/stopped gate、5000histories/2fs/SRIM和五步feeding/globalfit；pureM1为提取假设，quotederrors不含最高约15%stopping。这些是同实验分析合同，不是本次取得原bins/fitCI或新增实验。 | current-session-original-audit | direct-and-boundary | PDF1–3 acquisition/gating/fit/uncertainty；PDF4 TableII；PDF5 Fig4caption | true |
+| MU08-D18-2 | 用TableII打印中心新算I16–19的R=B2(E2)/B1(E2)，依次51/26、11/2、2/7、5/11；D=R17/R18=77/4=19.25。任何两带各自独立但跨spin恒定的强度乘数都不能改变D，故单靠此类常数标尺不能让这些中心在全部spin相等。逐态feeding/branch/响应改变不属该域；无原Σ不作joint显著性或实验CI。 | task-published-center-contrast | derived-and-boundary | PDF4/printed034311-4 TableII I16–19；新clock-contrast-result-001 mu08_published_central_contrasts | true |
+| MU08-D18-3 | PDF5正文称B(E2)两带“always differ by factors of 2 to 3”，但TableII I17中心比为5.5、I18逆比为3.5。保留这项literal prose/table范围差异，使用逐spin原表而不把2–3当全域数值界；不猜erratum、实际未舍入值或独立实验显著性。 | literal-source-boundary | direct-and-derived | PDF5 Fig4后第一段；PDF4 TableII I17/I18 | true |
+
+Knowledge impact：`supports`带间强度必须逐spin审计，`limits`用一个共同或每带恒定系统标尺消掉全部差异的解释；不由这个条件结果唯一裁决chirality、组态、bandmixing或原误差。原bandmixing未纳入TAC、RPA适用于chiral-vibrational域而非静态手征的限制仍在。[[lifetime-strength-audit-165tm-136nd]]保存解析域、反例与完整readiness。

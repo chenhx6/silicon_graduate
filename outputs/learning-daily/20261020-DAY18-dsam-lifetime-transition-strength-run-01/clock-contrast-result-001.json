@@ -1,0 +1,263 @@
+{
+  "contract_sha256": "a57222a0ee30f8665cc511663c26b5a23db5c9b075616100d2a197019f5fd21e",
+  "script_sha256": "5bc0a44582e5269d406201137fb3788c4b756fd9bd7f122f3018cdc6dad05533",
+  "scope": "new Day18 analytic/numerical design; published centers only; no experimental refit, profile, covariance or CI",
+  "clock_transform": "s -> a*s, all lifetime/feeding means -> mean/a; same shape under homogeneous fixed-position-response assumptions",
+  "clock_variants": [
+    {
+      "a": 0.4,
+      "tau_ps": 1.375,
+      "feed_step_tau_ps": 0.44999999999999996,
+      "strength_multiplier": 0.4,
+      "Qt_multiplier": 0.6324555320336759,
+      "max_bin_delta": 8.326672684688674e-17
+    },
+    {
+      "a": 0.75,
+      "tau_ps": 0.7333333333333334,
+      "feed_step_tau_ps": 0.24,
+      "strength_multiplier": 0.75,
+      "Qt_multiplier": 0.8660254037844386,
+      "max_bin_delta": 1.3877787807814457e-16
+    },
+    {
+      "a": 1.25,
+      "tau_ps": 0.44000000000000006,
+      "feed_step_tau_ps": 0.144,
+      "strength_multiplier": 1.25,
+      "Qt_multiplier": 1.118033988749895,
+      "max_bin_delta": 8.326672684688674e-17
+    },
+    {
+      "a": 2.0,
+      "tau_ps": 0.275,
+      "feed_step_tau_ps": 0.09,
+      "strength_multiplier": 2.0,
+      "Qt_multiplier": 1.4142135623730951,
+      "max_bin_delta": 0.0
+    }
+  ],
+  "counterinputs": {
+    "stopping_only": {
+      "max_normalized_bin_delta": 0.025221329711300464,
+      "acceptance_ratio_per_ring": [
+        0.9999999999999998,
+        1.0000000000000007,
+        1.0000000000000002
+      ]
+    },
+    "fixed_feeding_clock": {
+      "max_normalized_bin_delta": 0.012428760975311454,
+      "acceptance_ratio_per_ring": [
+        1.0000000000000016,
+        1.000000000000003,
+        1.0000000000000013
+      ]
+    },
+    "fixed_time_window_0.4ps": {
+      "max_normalized_bin_delta": 0.03996774966986445,
+      "acceptance_ratio_per_ring": [
+        1.293650568563302,
+        1.2936505685633013,
+        1.2936505685633009
+      ]
+    },
+    "fixed_spatial_response_2um": {
+      "max_normalized_bin_delta": 0.007294564576919876,
+      "acceptance_ratio_per_ring": [
+        1.2313320967290944,
+        1.2313320967290948,
+        1.2313320967290944
+      ]
+    },
+    "stopping_shape_distortion": {
+      "max_normalized_bin_delta": 0.01411249272620195,
+      "acceptance_ratio_per_ring": [
+        0.9999999999999993,
+        1.0000000000000004,
+        0.9999999999999993
+      ]
+    }
+  },
+  "mu08_published_central_contrasts": {
+    "spins": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "B2_over_B1_exact": [
+      "51/26",
+      "11/2",
+      "2/7",
+      "5/11"
+    ],
+    "B2_over_B1": [
+      1.9615384615384615,
+      5.5,
+      0.2857142857142857,
+      0.45454545454545453
+    ],
+    "double_ratio_R17_over_R18_exact": "77/4",
+    "double_ratio_R17_over_R18": 19.25,
+    "best_possible_worst_multiplicative_residual_under_free_relative_band_scale": 4.387482193696061,
+    "per_strength_symmetric_log_box_threshold": 0.7393777651834483,
+    "per_strength_multiplicative_threshold": 2.0946317561079946,
+    "per_strength_symmetric_fractional_box_threshold": 0.6287690746634453,
+    "illustrative_boxes": [
+      {
+        "self_chosen_fraction": 0.1,
+        "double_ratio_lower_bound": 12.886363636363635,
+        "not_experimental_CI": true
+      },
+      {
+        "self_chosen_fraction": 0.2,
+        "double_ratio_lower_bound": 8.555555555555557,
+        "not_experimental_CI": true
+      }
+    ],
+    "probability_interpretation": "none; no use of printed marginal errors as joint confidence region",
+    "literal_prose_boundary": "PDF5 says factors2to3; printedI17 central ratio5.5 andI18 inverse3.5; preserve both, no inferrederratum"
+  },
+  "jensen_mean_Qt_sensitivity": {
+    "Qt541_over_Qt411": 1.1216216216216217,
+    "a541_over_a411_for_equal_corrected_Qt": 0.7948904049934679,
+    "not_estimated_stopping_bias_or_error_probability": true
+  },
+  "checks": [
+    {
+      "name": "probability_normalization",
+      "passed": true,
+      "integrated_emission_probability": 1.0000000000000246
+    },
+    {
+      "name": "full_shape_clock_symmetry_0.4",
+      "passed": true,
+      "max_bin_delta": 8.326672684688674e-17
+    },
+    {
+      "name": "energy_gate_preserves_clock_symmetry_0.4",
+      "passed": true,
+      "max_bin_delta": 8.326672684688674e-17
+    },
+    {
+      "name": "full_shape_clock_symmetry_0.75",
+      "passed": true,
+      "max_bin_delta": 1.3877787807814457e-16
+    },
+    {
+      "name": "energy_gate_preserves_clock_symmetry_0.75",
+      "passed": true,
+      "max_bin_delta": 1.3877787807814457e-16
+    },
+    {
+      "name": "full_shape_clock_symmetry_1.25",
+      "passed": true,
+      "max_bin_delta": 8.326672684688674e-17
+    },
+    {
+      "name": "energy_gate_preserves_clock_symmetry_1.25",
+      "passed": true,
+      "max_bin_delta": 8.326672684688674e-17
+    },
+    {
+      "name": "full_shape_clock_symmetry_2.0",
+      "passed": true,
+      "max_bin_delta": 0.0
+    },
+    {
+      "name": "energy_gate_preserves_clock_symmetry_2.0",
+      "passed": true,
+      "max_bin_delta": 0.0
+    },
+    {
+      "name": "quadrature_512_to_768",
+      "passed": true,
+      "max_bin_delta": 3.5709282752982574e-14
+    },
+    {
+      "name": "quadrature_384_to_768",
+      "passed": true,
+      "max_bin_delta": 7.72559100026271e-15
+    },
+    {
+      "name": "Laplace_velocity_moment_0",
+      "passed": true,
+      "analytic": 1.0,
+      "quadrature": 0.9999999999998972
+    },
+    {
+      "name": "Laplace_velocity_moment_1",
+      "passed": true,
+      "analytic": 0.26409620991253646,
+      "quadrature": 0.2640962099124098
+    },
+    {
+      "name": "Laplace_velocity_moment_2",
+      "passed": true,
+      "analytic": 0.13397052966945439,
+      "quadrature": 0.13397052966932155
+    },
+    {
+      "name": "Laplace_velocity_moment_5",
+      "passed": true,
+      "analytic": 0.05260416666666666,
+      "quadrature": 0.052604166666529284
+    },
+    {
+      "name": "counterinput_stopping_only",
+      "passed": true,
+      "max_normalized_bin_delta": 0.025221329711300464
+    },
+    {
+      "name": "counterinput_fixed_feeding_clock",
+      "passed": true,
+      "max_normalized_bin_delta": 0.012428760975311454
+    },
+    {
+      "name": "counterinput_fixed_time_window_0.4ps",
+      "passed": true,
+      "max_normalized_bin_delta": 0.03996774966986445
+    },
+    {
+      "name": "counterinput_fixed_spatial_response_2um",
+      "passed": true,
+      "max_normalized_bin_delta": 0.007294564576919876
+    },
+    {
+      "name": "counterinput_stopping_shape_distortion",
+      "passed": true,
+      "max_normalized_bin_delta": 0.01411249272620195
+    },
+    {
+      "name": "fresh_table_double_ratio_exact",
+      "passed": true,
+      "exact": "77/4",
+      "numerator_spin": 17,
+      "denominator_spin": 18
+    },
+    {
+      "name": "two_band_constant_scales_1.0_1.25",
+      "passed": true,
+      "double_ratio": 19.250000000000004
+    },
+    {
+      "name": "two_band_constant_scales_0.4_2.0",
+      "passed": true,
+      "double_ratio": 19.250000000000004
+    },
+    {
+      "name": "two_band_constant_scales_2.0_0.4",
+      "passed": true,
+      "double_ratio": 19.250000000000004
+    },
+    {
+      "name": "fractional_box_threshold_algebra",
+      "passed": true,
+      "self_chosen_box_halfwidth_needed_for_extreme_central_closure": 0.6287690746634453
+    }
+  ],
+  "checks_passed": 25,
+  "checks_total": 25,
+  "all_passed": true
+}

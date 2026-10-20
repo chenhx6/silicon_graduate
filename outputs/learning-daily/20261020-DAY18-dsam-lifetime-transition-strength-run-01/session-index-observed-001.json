@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-20T15:23:36.049805+08:00",
+  "event": "same-session-native-goal-continuation-observed",
+  "source": "manual-reconciliation-after-user-resume",
+  "schedule_id": "wiki-daily-learning",
+  "project_root": "/workspace/wiki",
+  "run_id": "2026-10-20-day-18-01",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a1582a-08be-7ff2-ae78-e89607140d5d",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+  "original_started_at": "2026-10-20T15:15:01.842102+08:00",
+  "original_hard_deadline": "2026-10-21T15:00:00+08:00",
+  "runner_state": "original manual waiter interrupted at15:16:49; only farmer remains observed; native goal active in same thread",
+  "normal_runner_exit_observed": false,
+  "new_session_or_schedule_started": false,
+  "completed_day_indices": [],
+  "partial_day_indices": []
+}

@@ -3,7 +3,7 @@ type: source
 title: "General properties of the πh9/2[541]1/2− configuration and level scheme of 165Tm"
 aliases: ["Jensen 2001 165Tm", "NPA695 Jensen 165Tm", "HS-006 HS-007 canonical duplicate group"]
 created: 2026-09-20
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -194,3 +194,14 @@ Jensen 等人的 `165Tm` 工作把高统计 γγ/γγγ 谱学、DCO、DSAM 寿�
 ## 2026-10-19剩余主线完成与新组态混合链
 
 早期J01-6–10只记录当时DSAM定向scope，现本session在新问题冻结后完成全主线；[actualscope](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-fullmainline-reading-scope.json)把19图/8表/9式与密表selectedrows分开。原J01-1–10/flags保持，不由后续扩scope重写历史独立性。新[[lifetime-strength-audit-165tm-136nd]]保存原Eq5与共同标尺Jacobian/模型baseline反证，只有conditionalalgebra没有新τ/Q/δ/interactionCI。
+
+## Day18独立session：定向原读与停止时钟诊断
+
+2026-10-20新session的[知情回忆](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-before-sources.md)承认上述Day17预习。其后实际文本读PDF1–3、21–25、31–33、36、44–45，视觉核PDF23–25、33、36；本次是DSAM Sec3.2及必要实验/混合context，**不是新读48页全文**。原哈希、J01-1–18及旧reviewflags保持，详[实际scope](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-reading-scope-001.json)。Fig7右栏图头与caption的旧差异也保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| J01-D18-1 | 本次定向原读再次核：Table2是两条直接DSAM带的Pb数据，5% electronic-stopping systematic已经加进tableuncertainties；Table6另两带由mixing比值共用DSAM标尺。新阅读不增加独立寿命，原文不提供5%的联合概率/相关合同。 | current-session-original-audit | direct-and-boundary | PDF21–25 Sec3.2/Table2/Figs7–8；PDF31–33 Table5/Eq4–5；PDF36 Table6 | true |
+| J01-D18-2 | 以Table2平均Qt中心8.3/7.4作声明的时钟敏感性：共同s→a s、全部τ/feeding→τ/a且固定branch/geometry时Qt均乘sqrt(a)，比值1.12162不变；若允许两带不同常数a，则a541/a411=(7.4/8.3)²≈.794890可使更正后中心相等。这不是实际阻停偏差估计，也不能与5%字样作概率检验；真实材料/feeding/Σ未得。 | task-conditional-clock-design | derived-and-boundary | PDF23 Table2均值；PDF36 Table6；lifetime-strength-audit的Day18停止时钟与带间contrast；clock-contrast-result-001 jensen_mean_Qt_sensitivity | true |
+
+Knowledge impact：`limits`把共同绝对停止标尺当作带间形变差的任意解释，也`limits`把共用backing当作所有系统误差必然抵消。两方向均须检查actual速度场、位置响应、feeding和branch。此处不修正原Qt、β2、误差或结构指认。

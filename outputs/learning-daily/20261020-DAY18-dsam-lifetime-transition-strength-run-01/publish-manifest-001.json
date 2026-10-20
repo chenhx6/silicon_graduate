@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-20T15:35:10.802147+08:00",
+  "subject": "Establish independent DAY18 DSAM clock and strength contrast audit",
+  "ordinary_paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "system/scripts/day18_dsam_clock_contrasts.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-before-sources.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/original-receipt-observed-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/session-index-observed-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/session-index-prefix-check-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-reading-scope-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/exercise-contract-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/task-plan-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-002.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/external-change-isolation-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/preflight-001.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-001.md"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD contents plus own-log-entry-001.md only; inherited worktree suffix preserved"
+  },
+  "excluded": [
+    "raw/**",
+    "PLAN.md",
+    "protectedBib",
+    "credentials",
+    "inheritedrunreceipts",
+    "system/scripts/run_daily_learning_daemon.py",
+    "events.jsonl",
+    "stderr.log",
+    "runnerprompt.md",
+    "tmp/**"
+  ],
+  "checks": "verification-002 valid; lint0errors241warnings; EOLexit1 classified fourauthorizedsubstantive/no unsafe"
+}

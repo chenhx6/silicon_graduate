@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-10-20T15:19:50.805181+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "run_id": "2026-10-20-day-18-01",
+  "recall_path": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-before-sources.md",
+  "sha256": "aeef035672f3aef1cfebeeafdeefcf74028303fff4022b4574633f616175f245",
+  "primed": true,
+  "blind_test": false,
+  "source_raw_opened_in_this_session_before_freeze": false,
+  "known_exposure": "user preparation prompt, index summaries, Day17 run-state and report navigation; no fresh science source opened"
+}

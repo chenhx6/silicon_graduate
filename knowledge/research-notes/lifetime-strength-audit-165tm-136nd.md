@@ -15,6 +15,8 @@ tags: [DSAM, lifetime, transition-strength, quadrupole-moment, geometry, feeding
 
 # lifetime-strength-audit：从谱形到Qt必须保存的合同
 
+当前入口：2026-10-20独立Day18 session在新primed回忆冻结后定向原读Jensen、完整原读MU08六页，并完成新的“Day18停止时钟与带间contrast”分析（末节）。前面和其它Day17段落保留原无学分预习历史；它们的“本session”不改写为本次新证据。课程信用只由本次日报/回执的逐卡验收决定。
+
 ## Research Trigger
 
 Day17的P/A/Q课题已显示，响应校准与核物理量不能按同名符号合并。本页预习恰好下一Day18的DSAM卡，把同样的分层原则用于τ→B(Eλ)→Qt；只保存知识，不授Day18信用。
@@ -458,3 +460,82 @@ p216原σ2=.143对A2=.225不闭合：完整CG/photon核给A2约.714；保持原�
 [[wadsworth-1977-61ni-levels]] WA77-D17-1–14新19页核改旧Wiki：1609寿命370fs而非37、908为约1.5–1.6ps而非ns，9个Jπ分数/正负按原表；保WA77旧reviewflags。声明γ-only/α0与same-lineδ的1609两支给BE2约.520/.0467WU、BM1约6.87/12.60mWU，近原表而不调input；错τ37会使strength×10。
 
 Table4τ误差不含stop，strength采用τ±25%allowance；908摘要1500(400)fs与表1600(500)fs保差，不能一项预算复制所有物理量。1609/1997最终宇称依AD/P加τ/M2合理性，sourceP本身不足。1729/2018的90°branch、1186的61Cusource与其它fitteda0有不同inputrole；finitewindow/feeding/overlap使时角joint合同仍未闭合。
+
+## Day18停止时钟与带间contrast
+
+### 新session问题与实际阅读
+
+本节为2026-10-20独立正式Day18 run的新交付；[来源前primed回忆/hash](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json)承认Day17大量预习，非盲测。新[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/exercise-contract-001.json)、[程序](../../system/scripts/day18_dsam_clock_contrasts.py)和[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)没有重跑旧script/JSON换信用。Jensen本次只定向DSAM和必要context，MU08本次完整六页/五图两表三式；[actualscope](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-reading-scope-001.json)将全文与定向区分。
+
+问题是：由停止标尺导致的绝对时钟不确定性，能否任意解释两带随spin改变的强度差？支持与反证分开：J01-D18-1给出5%已加的真实口径与mixing同标尺依赖；MU08-D18-1给出15%未含、belowgate与五步feeding口径。两种百分数不定义同一概率模型，也不补原Σ。
+
+### 测量、拟合、率与几何的分层
+
+| 环节 | 本次原件依据 | 主要输入/系统误差与边界 |
+| --- | --- | --- |
+| 谱观测 | J01-D18-1的Fig7；MU08-D18-1的Fig2 | 逐ring背景、峰污染、门尾、探测器响应/位置/能标；公开直方图不是已取得原计数账本 |
+| forwardfit到总meanτ | J01-D18-1的Sec3.2；MU08-D18-1的PDF2–3 | 停止曲线、材料、反应深度、feeding/sidefeeding、离散时步和统计量；不是无模型计时读数 |
+| partial photon rate | J01-D18-1的Table2/刚转子提取；MU08-D18-1的TablesI–II与pureM1假设 | 必须另有绝对pγ、IC/额外衰变库存与同光子multipolefraction；branch归一和1不认证库存 |
+| B(Eλ) | MU08-D18-2的TableII输出；率定义见本页前节 | 固定单位/多极性下B∝pγ f/(τE^(2λ+1))；τ、分支、δ、α和效率可共享Cov |
+| Qt/结构 | J01-D18-1的rigidrotor/Table6；MU08-17候选几何边界 | Qt需G/轴，Qs为sidefeeding量；MU08三式并非Qt式，tableprinting相合不认证producer；β/组态/手征另需companion |
+
+这里未重新复算旧十一/九行，也没有将旧nearest-decimalbox升为CI。Jensen的Table2直接DSAM两带与Table6 mixing派生两带、MU08的τ/B/Qt和本次contrast均保同源。
+
+### 完整谱形的条件时钟对称
+
+以下是本任务解析模型，不是两篇作者声称的精确实验对称。设同一均匀介质的速度/散射生成元整体乘s，沿轨迹有v_s(t)=v_1(st)。t可取一个统一时钟；本程序取**proper time**，保证meanτ角色明确。令Bateman生成元也整体乘s，即每个总寿命及sidefeeding等待时间都除s。若目标发射密度为p_s(t)=s p_1(st)，能量/角接受/分辨率/能量门合成核K只依赖对应速度历史、分支和固定几何，而不独立依赖绝对时间或发射位置，则逐bin预测为
+
+\[
+\mu_k(s)=N\int_0^\infty s p_1(st)K_k[v_1(st)]\,dt
+=N\int_0^\infty p_1(u)K_k[v_1(u)]\,du.
+\]
+
+这是概率密度换元的恒等式，不要求Gaussian数据或只测centroid。多角度、固定能量分辨率、finitebins或只依赖γ能量的门，都不自行提供另一个绝对时钟。所有支路时间一起缩放时，相同论证适用于条件cascade选择；若某条已知feed寿命固定，则前提已破。
+
+固定photonbranch/multipole/能量/G时，τ_i→τ_i/a给λγ→aλγ、B→aB、Qt→sqrt(a)Qt。它说明共同绝对标尺与相对contrast是不同问题。实验中只改变电子阻停而不改核散射/其它生成元、有限靶层边界、反应深度及位置敏感度，通常并不等于这个整体变换；不能据本恒等式宣称Jensen或MU08实际完全不可识别。实际prior或独立calibration可以破这个方向，但其信息须单列。
+
+新数值控制选择β0=.025、proper停止时标.45ps、meanτ=.55ps、35%直接+65%三步Erlang侧馈（每步mean.18ps）、E0=600keV、Gaussianσ=.9keV、37/79/143度±5度接受和120个.5keV bins；均为**本任务声明设计**，非两实验输入。能量核用E0/[γ(1−βcosθ)]，独立Laplace矩核验发射密度，384/512/768节点核求积收敛。a=.4/.75/1.25/2的同步变换在数值精度内保持所有bins；新25项检查全部通过，检查数不是实验或学分。
+
+### 破对称的必要companion和反例
+
+| 自设控制 | 最大逐ring归一bin差 | 含义与限制 |
+| --- | --- | --- |
+| 只把stopping乘1.25，τ/feed固定 | .0252213 | 真正新增的已知时钟可使谱形变化，不能把stopping变化等同任意寿命变换 |
+| 同步改stopping/τ，但feed保持原物理时钟 | .0124288 | 独立feeding约束可破退化；仅freeeffectiveQs未必提供该约束 |
+| 固定实验室.4ps时间窗 | .0399677 | proper/lab映射按同β轨迹精确积分；不是实际装置已有如此时间门 |
+| 固定位置响应exp(−x/2µm) | .00729456 | x=c ts/s[asinβ0−asinβ(t)]；空间轨迹随scale改变，固定geometry不必保持谱 |
+| β(t)停止曲线形变而非纯scale | .0141125 | 单个全局scale方向不能代表全部stoppingmodel差异 |
+
+数值只是声明forwardfamily的反证，不估计实际τbias、效应显著性或装置精度。原材料界面是同类破对称条件，但本程序没有模拟Jensen/MU08的真实多层材料；不将位置响应控制冒充原backing重拟。
+
+### 原MU08表的尺度不变contrast
+
+本次直接从PDF4 TableII重新取I16–19原B(E2)打印中心，不由旧Qt或原τ反解：
+
+| I | Band1 B(E2) | Band2 B(E2) | R=B2/B1 |
+| --- | --- | --- | --- |
+| 16 | .26 | .51 | 51/26≈1.96154 |
+| 17 | .08 | .44 | 11/2=5.5 |
+| 18 | .14 | .04 | 2/7≈.285714 |
+| 19 | .11 | .05 | 5/11≈.454545 |
+
+B单位e²b²；原quotederrors保持在source，此处未把它们当jointCI。令任意两带各自常数标尺为c1、c2，则R_I→(c2/c1)R_I，故
+
+\[
+D=\frac{R_{17}}{R_{18}}=\frac{.44\,.14}{.08\,.04}
+=\frac{77}{4}=19.25
+\]
+
+不变。没有一组每带恒定标尺能把这些**打印中心**同时调成全部R_I=1；最优任意相对常数也至少留下sqrt(19.25)≈4.38748的最大乘法偏离。这个结论不需要Qt轴，也不等于实际拒绝某个结构模型的joint统计检验；若逐态branch/feeding/效率/multipole输入可变，前述标尺域已变。
+
+进一步只作透明的**自设box灵敏度**：每个B独立容许乘[1−d,1+d]且0≤d<1，则D最低为19.25[(1−d)/(1+d)]²。d=.10/.20时分别12.8864/8.55556；要让这个必要条件达到1，需d≥.628769。这不是源15%的解释、测得系统误差、概率区间或原CI，不能写成“实验需要63%错误”。它仅量化指定box到底允许什么。
+
+MU08-D18-3另保原文“factors2to3”与I17中心5.5/I18逆比3.5的literal范围差异，不为匹配文字去改表或猜erratum。强度模式对每带常数尺度稳健，并不免除同data的branch、feeding与选择审计。
+
+### Jensen对照、readiness和self-audit
+
+J01-D18-2中均值Qt541/Qt411=8.3/7.4≈1.12162，共同时钟尺度不改该比。但若额外允许两带不同常数a541/a411≈.794890，则sqrt(a541/a411)可把中心比调到1。这只显示**哪种自由度**能改变单一平均比；没有用原5%定义这种自由度的分布或把21%当实际停止偏差。其Au/Pb一致性与结构模型提供有用companion，不能被本设计抹去。
+
+原Jensen/MU08匹配逐角bins、slowing/branch/混合/几何producer及联合Σ仍未取得；实际实验重拟合/CI为not-ready。下一高信息输入是matchingstopping/feeding校准、原DSAM方法/实现及逐态响应，而非更多同族toy或重复旧表。原谱直观、拟合τ、转换B、Qt及结构解释各自的证据角色保留。
+
+本节Codex self-audit：解析域和反例均显式，旧review/needs_review保持；J01-D18-1/2与MU08-D18-1/2/3全为needs_review，非human-reviewed。`supports`共同尺度与spincontrast分开，`limits`把相对比较自动说成systematicsfree。真实两带组态/手征解释仍须matchedobservables/模型边界，不由本设计唯一裁决。此独立交付不兑换Day17预习学分，整段原deadline与最终课程发布门仍由本次actualreceipt控制。

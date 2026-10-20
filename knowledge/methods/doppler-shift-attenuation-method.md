@@ -12,6 +12,8 @@ tags: [lifetime, doppler-shift, stopping-power, side-feeding, lineshape]
 
 # Doppler-Shift Attenuation Method
 
+Day18新独立分析入口：[[lifetime-strength-audit-165tm-136nd]]“Day18停止时钟与带间contrast”。均匀时钟缩放可使完整谱形不变，却不改变共同强度标尺下的ratio；固定外部时钟、位置响应、停止曲线形变和逐态feeding是必要反例。MU08-D18-2的真实表中心双比只排除每带恒定标尺这个解释域，不是原实验重拟合或CI。
+
 ## Purpose
 
 DSAM uses the attenuation of recoil Doppler shifts during slowing in target/backing material to constrain short excited-state lifetimes. Depending on the analysis, the measured observable is an angle-dependent centroid shift or the full Doppler-broadened γ-ray line shape. Forward and backward detector angles provide complementary velocity sensitivity.

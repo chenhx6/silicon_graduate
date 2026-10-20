@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-20T15:32:04.626932+08:00",
+  "path": "system/scripts/run_daily_learning_daemon.py",
+  "baseline_sha256": "3445149ca85077489aefb40d600214c9c4ef54a71668f82ab8be02fb94d390b2",
+  "observed_sha256": "a86ff36fdec32f13507d9ca3b49224c00afff2b00a58c9f6564e8b6c73fac357",
+  "baseline_already_dirty": true,
+  "new_external_mutation_detected": true,
+  "task_mutated_this_file": false,
+  "classification": "protected unrelated scheduling change; no source/knowledge/manifest overlap",
+  "action": "preserve current bytes; exclude from all task stage/commit; do not restore or adopt as task change",
+  "initial_protection_verification": "verification-001.json preserves false result; subsequent scoped check treats this as isolated external state, never claims bytesunchanged",
+  "file_mtime": "2026-10-20T15:21:32.092831+08:00"
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-20T15:23:36.049805+08:00",
+  "run_id": "2026-10-20-day-18-01",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "skills": [
+    "farmer",
+    "go-on",
+    "all",
+    "auto",
+    "phys-model"
+  ],
+  "auto": {
+    "fast_active": false,
+    "max_rounds": "unbounded within originalresearchwindow by explicit user instruction",
+    "stall_rounds_before_directionchange": 3,
+    "permission": "existing L1–L4 Docker+nonforcepublish authorization; no newconfirmation; protectraw/PLAN/Bib/oldchanges"
+  },
+  "tasks": [
+    {
+      "task": "startup/identity/boundary/preflight/dirtybaseline/primedrecall",
+      "status": "completed"
+    },
+    {
+      "task": "Jensen targetedoriginal/MU08sixpages fullmainline",
+      "status": "completed",
+      "evidence": "source-reading-scope-001.json"
+    },
+    {
+      "task": "new stoppingclock and realtablecontrast exercise",
+      "status": "in_progress"
+    },
+    {
+      "task": "canonicalknowledge/writeback/report/selfaudit/checkpointpublication",
+      "status": "pending"
+    },
+    {
+      "task": "continue highvalue currentcard issues through originalharddeadline; only allowednextpreview",
+      "status": "pending"
+    },
+    {
+      "task": "15–16finalchecks/receipt/nextprompt/publication/card18once",
+      "status": "pending"
+    }
+  ]
+}

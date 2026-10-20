@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-20T15:23:36.049805+08:00",
+  "old_bytes": 82582,
+  "old_sha256": "e4faca7f202311991b9ba4f98c2b7ef9af8a48abf9c82db82f1718f28c0ce98e",
+  "old_prefix_preserved": true,
+  "event_copy": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/session-index-observed-001.json"
+}

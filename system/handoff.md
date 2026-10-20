@@ -6,7 +6,17 @@ updated: 2026-10-20
 
 # 跨会话交接
 
-## Active handoff — DAY17 completed at original deadline
+## Active handoff — DAY18 independent session active
+
+原run2026-10-20-day-18-01/session01a1582a-08be-7ff2-ae78-e89607140d5d由既有manualforegroundrunner于15:15上海提前启动；硬截止仍2026-10-21 15:00、15–16收束。原waiter15:16:49中断/正常runnerexit未观察；用户farmer/go-on/all/auto恢复后同session nativegoalactive，Farmer42019保留，无新daemon/session/调度。实际identity/resume和canonicalappendonly事件已回执。
+
+本session15:19冻结承认Day17预习的primed回忆/hash，之后Jensen仅DSAM/必要context定向、MU08六页五图两表三式完整原读。新clockcontrast设计25checks通过：均匀生成元/所有feeding同步缩放的谱不变量和固定时钟/空间/曲线反例；MU08原表中心D17/18=19.25对每带常数标尺不变，不是jointCI或唯一结构裁决。canonical knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md末Day18段，4owning页7writeback，新5claims待审、41旧claim/元数据保持。
+
+首检查点report/writeback/partial18coverage、boundary/preflight/lint/diff通过；0errors241warnings。verification001因继承daemon脚本外部再修改触发整体保护false；该文件从未由本任务修改/无overlap，external-change-isolation001保原失败及两hash，排除stage并原样保留；其它继承dirty/raw/PLAN/Bib/credentials保护。本checkpoint已提交，稳定指针main / `Establish independent DAY18 DSAM clock and strength contrast audit`；actualhash/H3/push只本runreceipt。
+
+首科学交付不结束原窗口、不提前授卡，course仍next18/count17、completed[]/partial[18]；原截止后才正式18一次。先完成本checkpoint发布，再继续Gascon/Currie/Bacelar原方法或独立校准高价值route，未读body不预填；当前并未开下一卡。nextcard最多无学分preview/不开更后卡。Resume `codex resume 01a1582a-08be-7ff2-ae78-e89607140d5d -C /workspace/wiki -s danger-full-access -a never`，continuation-current在实际run-dir。QMD/overviewdeferred。
+
+## Previous active handoff — DAY17 completed at original deadline
 
 同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17已到原2026-10-20 15:00上海截止并完成收束。13:30后无新source/body/课程研究；formal17一次、partial18无学分、next18/count17保持。主卡原件/回忆/P-A-Q分层/新计数与Cov设计、70owning知识页/229writeback、continuation/receipt/nextprompt齐备；817newclaims保needs_review，208oldflags/四prefix/PLAN/Bib保持。实际response/selection/计数/phase/Σ仍缺，不新报实验P/Q/δ。
 

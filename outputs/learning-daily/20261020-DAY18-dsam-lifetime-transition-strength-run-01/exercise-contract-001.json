@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-20T15:23:36.049805+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "question": "Which strength contrasts survive a shared DSAM time-scale degeneracy?",
+  "frozen_recall_question": "active-recall-before-sources.md exercise proposal",
+  "new_in_this_session": true,
+  "old_scripts_used": false,
+  "science_type": "analytic design + freshly transcribed published central-value contrasts, not experimental refit/CI",
+  "model": {
+    "homogeneous_stopper": "dv/dt=s F(v), all slowing/scattering rates scaled together; position-independent response",
+    "decay": "linear Bateman generator A with all total and sidefeedingrates scaled s; p_s(t)=s p_1(st)",
+    "geometry": "fixed angle distributions, exact relativistic DopplerE=E0/(gamma*(1-beta*cosθ)), fixedGaussian detector response and finitebins; energy-only gate allowed",
+    "transformation": "s→a*s; τ_i→τ_i/a; all τ_feed→τ_feed/a; B_XL→a B_XL and Qt→sqrt(a)Qt only fixedbranch/mode/geometry",
+    "counterinputs": [
+      "change stopping alone keepingτ/feed fixed",
+      "scaleτ but holdsidefeeding physicalclock fixed",
+      "fixed laboratory time window",
+      "fixed material interface/position-dependent response",
+      "energy-dependent stopping distortion, not pureconstant scale"
+    ]
+  },
+  "published_input": {
+    "source": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "locator": "PDF4/printed034311-4 TableII rowsI16–19, pairedbands; Fig4/p5 model caveat",
+    "spin": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "B1_e2b2": [
+      "0.26",
+      "0.08",
+      "0.14",
+      "0.11"
+    ],
+    "B2_e2b2": [
+      "0.51",
+      "0.44",
+      "0.04",
+      "0.05"
+    ],
+    "errors_not_used_as_jointCI": true
+  },
+  "validation": [
+    "analytic distribution identity under timechange including cascades",
+    "independent analytic nofeed moment limitingcase",
+    "finitebins/response convergence",
+    "nonzero countercontrols",
+    "sourcecentralvalues exact rational ratios and two-band unknownscale cancellation",
+    "bounded-distortion illustration labels selfchosenbox, never15percentCI"
+  ]
+}
