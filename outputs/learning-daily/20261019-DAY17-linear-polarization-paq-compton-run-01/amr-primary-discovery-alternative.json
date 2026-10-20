@@ -1,0 +1,22 @@
+[
+  {
+    "key": "simons-harvest",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.72.024318/fulltext",
+    "error": "HTTPSConnectionPool(host='harvest.aps.org', port=443): Max retries exceeded with url: /v2/journals/articles/10.1103/PhysRevC.72.024318/fulltext (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "key": "simons-york",
+    "url": "https://pure.york.ac.uk/portal/en/publications/investigation-of-antimagnetic-rotation-in-light-cadmium-nuclei-10610/",
+    "error": "HTTPSConnectionPool(host='pure.york.ac.uk', port=443): Max retries exceeded with url: /portal/en/publications/investigation-of-antimagnetic-rotation-in-light-cadmium-nuclei-10610/ (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "key": "simons-unt",
+    "url": "https://digital.library.unt.edu/search/?q=%22Investigation+of+antimagnetic+rotation%22&t=fulltext",
+    "error": "HTTPSConnectionPool(host='digital.library.unt.edu', port=443): Max retries exceeded with url: /search/?q=%22Investigation+of+antimagnetic+rotation%22&t=fulltext (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "key": "arxiv-html-search",
+    "url": "https://arxiv.org/search/?query=antimagnetic+rotation+cadmium&searchtype=all",
+    "error": "HTTPSConnectionPool(host='arxiv.org', port=443): Max retries exceeded with url: /search/?query=antimagnetic+rotation+cadmium&searchtype=all (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  }
+]

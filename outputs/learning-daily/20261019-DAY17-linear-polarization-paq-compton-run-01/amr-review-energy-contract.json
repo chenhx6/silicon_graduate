@@ -1,0 +1,119 @@
+{
+  "at": "2026-10-20T00:26:24.552299+00:00",
+  "source": "KU25 PDF50 Table3, 110In second entry; CHI01 PDF20 TableVI/earlier fullread TableIV",
+  "fields": [
+    "spin",
+    "level_keV",
+    "gamma_keV",
+    "tau_ps",
+    "BE2_eb2",
+    "BE2_lower_upper_marginal_errors"
+  ],
+  "rows": [
+    [
+      9,
+      2220.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      11,
+      2798.2,
+      578.0,
+      null,
+      null,
+      null
+    ],
+    [
+      13,
+      3628.8,
+      830.6,
+      null,
+      null,
+      null
+    ],
+    [
+      15,
+      4605.8,
+      977.0,
+      null,
+      null,
+      null
+    ],
+    [
+      17,
+      5556.2,
+      950.4,
+      0.774,
+      0.136,
+      [
+        0.016,
+        0.016
+      ]
+    ],
+    [
+      19,
+      6445.3,
+      889.1,
+      0.554,
+      0.265,
+      [
+        0.027,
+        0.021
+      ]
+    ],
+    [
+      21,
+      7391.5,
+      946.2,
+      0.403,
+      0.266,
+      [
+        0.015,
+        0.013
+      ]
+    ],
+    [
+      23,
+      8463.5,
+      1072.0,
+      0.205,
+      0.281,
+      [
+        0.023,
+        0.021
+      ]
+    ],
+    [
+      25,
+      9698.4,
+      1234.9,
+      null,
+      null,
+      null
+    ],
+    [
+      27,
+      11117.5,
+      1419.1,
+      null,
+      null,
+      null
+    ],
+    [
+      29,
+      12744.3,
+      1626.8,
+      null,
+      null,
+      null
+    ]
+  ],
+  "known_primary_reference": "2001Ch71",
+  "review_is_not_new_measurement": true,
+  "no_complete_covariance": true,
+  "quoted_stopping_systematic_up_to_percent": 20,
+  "no_gaussian_or_common_scale_assumed_for_stopping": true
+}

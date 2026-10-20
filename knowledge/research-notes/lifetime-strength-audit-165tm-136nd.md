@@ -423,3 +423,12 @@ Day17本卡P/A/Q的实际companion同样在原文出现：DCO无法区分E1/near
 同axialmodel的BE2ΔI1/BE2ΔI2=4cot²θ是必要companion形式；同一ΔI1光子δ²=(.0569/.0816)E²BE2_same/BM1_same，不给符号，不可拿E2crossover比M1代同photonδ。普通IC/branch若随δ变，须共同传播。staticQ20、μperp及更多E2component/axis信息可提高识别，单τ/B转换不足。
 
 finiteI16/K0 exactCG²120/341=.351906、highspin.375、candidateGs29/33=.878788是三种有条件对象；固定同B时Qcand/Q0=.632807，不能凭近表值认historicalproducer。source直接说semiclassical式取highspinCG、fixedK在weakdeformation会失败。MU08实际Qt轴依然缺，不改原reportedQt/β/γ/模式或CI。
+
+
+## 110In缺失companion与综述的同数据边界
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] KU25-11–15原Table3 p50仍只引用2001Ch71，四点τ/B与[[chiara-2001-108-110in-shears-band-lifetimes]] TableVI一致；27/29的Eg/2=.70955/.8134MeV虽过模型预测.70门，但τ/B空白，不是新的高频率测量。2025汇编日期不增加独立实验。
+
+本次[实际表列计算](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-result.json)核Elevel严格升、Eg在15→19先降，原review“level energies”literal不闭合；保词义而不制造实验矛盾。19/21/23的quoted marginal BE2 box交于[.258,.279]，不能称jointCI、恒定性显著度或AMR支持概率。原TableVI未含达±20%stopping系统量，fullCov/response仍缺；没有给该量指定Gaussian或共模比例。
+
+Simons2005 DOI10.1103/PhysRevC.72.024318、Datta2005 DOI10.1103/PhysRevC.71.041305为高信息Cd检索入口；本次网络TLS失败仅有身份，不认证正文/独立τ/同模型差异。下一route应取得primarybody及actualfeeding/stopping，或在现有本地原件检查已知DSAM输入链，不能用更多同表重算填补缺τ。

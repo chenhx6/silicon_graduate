@@ -1,0 +1,38 @@
+{
+  "subject": "Trace antimagnetic lifetime coverage and separate energies from spacings",
+  "verification_number": 60,
+  "paths": [
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+    "system/scripts/day17_amr_review_energy_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-045.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-045.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-045-initial-whitespace-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-060.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-060.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-046.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint046.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kumar2025-prefix-snapshot.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-lifetime-companion-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-lifetime-companion-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-primary-discovery-access.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-primary-discovery-alternative.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-primary-discovery-mcp.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-primary-discovery-secondary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-companion-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-exercise-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-reading-scope.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own046"
+}

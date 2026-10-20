@@ -2222,3 +2222,7 @@ CHI01-7–24完整30页原读、真实parent/错误来源对照/AMR高频率life
 ### Day17 checkpoint045：E2算符、转轴与同光子混合比
 
 F01定向原件/独立张量核与同B条件witness写回canonical，12906byte原人审prefix及15旧claim保；新9claims待审。verification059最终0errors/239warnings，初索引failure保。main / `Audit E2 operator normalization and rotation-axis conversion`，原windowactive/17once/partial18。
+
+### Day17 checkpoint046：AMR高频率companion与能级口径
+
+KU25原Table3同CHI01数据、Elevel/Eg词义边界及quotedbox算术写回knowledge；未得Cdprimarybody，不计独立实验/新CI。verification060/manifest046/H3发布，main / `Trace antimagnetic lifetime coverage and separate energies from spacings`，原windowactive/17once/partial18。

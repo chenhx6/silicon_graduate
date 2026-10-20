@@ -1,0 +1,4 @@
+
+### Day17 checkpoint046：AMR高频率companion与能级口径
+
+KU25原Table3同CHI01数据、Elevel/Eg词义边界及quotedbox算术写回knowledge；未得Cdprimarybody，不计独立实验/新CI。verification060/manifest046/H3发布，main / `Trace antimagnetic lifetime coverage and separate energies from spacings`，原windowactive/17once/partial18。

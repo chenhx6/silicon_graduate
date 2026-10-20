@@ -1,0 +1,135 @@
+{
+  "at": "2026-10-20T00:26:24.775327+00:00",
+  "script_sha256": "a250276e0ef4b994ee55229c08a3032e1d6105eefb3d4518614e7afc37115c57",
+  "contract_sha256": "3ffb62d2942c962b4eba98addcb5c6c5d9fb7ca7e81563551c264adc59176bcf",
+  "level_energies_strictly_increase": true,
+  "level_gamma_residual_keV": [
+    0.0,
+    3.410605131648481e-13,
+    0.0,
+    -3.410605131648481e-13,
+    3.410605131648481e-13,
+    -2.2737367544323206e-13,
+    0.0,
+    -4.547473508864641e-13,
+    4.547473508864641e-13,
+    -6.821210263296962e-13
+  ],
+  "gamma_spacings_strictly_increase": false,
+  "local_discrete_inertias": [
+    {
+      "spin_pair": [
+        11,
+        13
+      ],
+      "gamma_difference_keV": 252.60000000000005,
+      "local_J2_hbar2_per_MeV": 15.835312747426759,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        13,
+        15
+      ],
+      "gamma_difference_keV": 146.39999999999998,
+      "local_J2_hbar2_per_MeV": 27.322404371584703,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        15,
+        17
+      ],
+      "gamma_difference_keV": -26.600000000000023,
+      "local_J2_hbar2_per_MeV": -150.37593984962393,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        17,
+        19
+      ],
+      "gamma_difference_keV": -61.299999999999955,
+      "local_J2_hbar2_per_MeV": -65.2528548123981,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        19,
+        21
+      ],
+      "gamma_difference_keV": 57.10000000000002,
+      "local_J2_hbar2_per_MeV": 70.05253940455339,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        21,
+        23
+      ],
+      "gamma_difference_keV": 125.79999999999997,
+      "local_J2_hbar2_per_MeV": 31.796502384737686,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        23,
+        25
+      ],
+      "gamma_difference_keV": 162.9000000000001,
+      "local_J2_hbar2_per_MeV": 24.55494168201349,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        25,
+        27
+      ],
+      "gamma_difference_keV": 184.19999999999982,
+      "local_J2_hbar2_per_MeV": 21.71552660152011,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    },
+    {
+      "spin_pair": [
+        27,
+        29
+      ],
+      "gamma_difference_keV": 207.70000000000005,
+      "local_J2_hbar2_per_MeV": 19.25854597977852,
+      "boundary": "discrete difference, not a fitted rotor or new measurement"
+    }
+  ],
+  "measured_omega_MeV": [
+    0.4752,
+    0.44455,
+    0.4731,
+    0.536
+  ],
+  "unmeasured_above_070_omega_MeV": [
+    0.7095499999999999,
+    0.8134
+  ],
+  "last_three_marginal_BE2_boxes": [
+    [
+      0.23800000000000002,
+      0.28600000000000003
+    ],
+    [
+      0.251,
+      0.279
+    ],
+    [
+      0.258,
+      0.30200000000000005
+    ]
+  ],
+  "last_three_marginal_BE2_box_intersection": [
+    0.258,
+    0.279
+  ],
+  "intersection_is_not_joint_CI_or_test": true,
+  "printed_level_energy_wording_does_not_literal_close": true,
+  "no_new_independent_measurement_or_AMR_verdict": true,
+  "no_actual_covariance_or_systematic_distribution_assumed": true,
+  "ok": true
+}

@@ -6593,6 +6593,60 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "CHI01-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "summary": "定向审计110In综述同数据/缺高频率τ、Elevel与Eg词义及marginalbox边界，旧10claim保持。",
+      "anchor": "Day17定向自审：110In同数据与能级能量口径",
+      "sources": [
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-11"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-12"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-13"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-14"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "summary": "把高频率companion缺口与2025汇编依赖写回，不将词义歧义转实验反证。",
+      "anchor": "110In缺失companion与综述的同数据边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-11"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-12"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-15"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-12"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-18"
+        }
+      ]
     }
   ]
 }
@@ -6849,3 +6903,12 @@ verification058核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 verification059核report/course/唯一writeback/boundary/lint/diff/旧claimsreview/protected及sourceprefix/symbolicartifact。通过后manifest045/commitguard/H3；旧人审不扩授新段、前向witness非实验shape或原Qtproducer，原windowactive/17once/partial18/no19。
 
 059初验只索引8/9新claim，因为新F01-D17-2公式绝对值ASCII竖线被当表分隔；仅新段改Unicode数学竖线、原人审prefix完整保留，显式重新验9。initial-index-failure.json保档，不以初lint0冒完整coverage。
+
+
+### Checkpoint046：110In综述同数据、能级与间距反证
+
+候选冻结`amr-lifetime-companion-before.md`与`amr-review-energy-exercise-before.md`先行；新检索primary多数TLS失败，唯一OpenAlex成功只是Simons2005身份，无新body。KU25原PDF5/49/50/59/60新定向文本视觉、47/48仅文字暴露，原页hash核。原CHI01TableVI p20再对照；不重新声称完整review或primary新独立测量。
+
+KU25-11–15新claims与canonical [ledger](../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md)新段记录：110In四个旧τ/B由2001Ch71重复，(27)/(29)过.70MeV频率但无τ/B。Elevel严格递增，Eg在回弯先减；review literal“level energies”不闭合，不当实验倒置。实际脚本`system/scripts/day17_amr_review_energy_audit.py`/输入/结果核10个能差，残差<7e−13只是算术；局部负J2是离散回弯差分，不精确配端点B造阈值。最后三点quoted marginal BE2box交[.258,.279]，不生成jointCI/constantfit/pvalue或模式结论；原stopping±20%不含quotederror，Σ缺口保。
+
+Decision: `limits`重复综述被当独立高频率companion及词义反证；没有新AMR/Qt/τ实验结论。正式17once/partial18，原window/goalactive。verification060及publication046记录实际checks与发布；新知识都在knowledge且唯一writeback保持。下一原件路线继续依可用input，失败URL不原样重试、不要更多同表toy填时段。

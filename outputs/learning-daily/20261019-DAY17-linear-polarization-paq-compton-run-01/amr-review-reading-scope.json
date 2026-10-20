@@ -1,0 +1,19 @@
+{
+  "new_targeted_text_and_visual_pages": [
+    5,
+    49,
+    50,
+    59,
+    60
+  ],
+  "text_search_exposed_pages": [
+    47,
+    48
+  ],
+  "primary_visual_recheck": "CHI01 PDF20 TableVI",
+  "not_full_review_new_read": true,
+  "no_new_Cd_primary_body": true,
+  "old_KU25_1_to_10_preserved": true,
+  "review_status_unchanged": "unreviewed",
+  "new_claims": "KU25-11–15 needs_review:true"
+}

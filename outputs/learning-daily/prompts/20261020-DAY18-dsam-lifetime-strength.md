@@ -176,3 +176,6 @@ CHI01-7–24实际30页/21图7表3式完整(旧targeted)，TableI纠正SB/8π；
 ### Day17 checkpoint045 priming：E2规范与axis
 
 F01-D17-1–9新定向6页原式/前向推导，原human12906-byteprefix/15falseclaims原样，新段needs_review。charge q_ch=Q0/2、B∝Q0²sin⁴θ及finiteCG/highspin/Gs分层；sameB自由取向witness不是实际PAC/TAC解。同比光子δ²不等crossover支比/δ号，MU08actualQt轴仍缺。正式18独立session、不复用旧checks授分。
+
+
+Day17 checkpoint046 priming：KU25-11–15定向Table3的110In仍同2001Ch71四τ/B；27/29缺τ。Elevel单调与Eg回弯非同命题，printedlevelenergies句有literal边界，不称实验倒置。19/21/23的marginalbox相交不是jointCI；stopping系统/Σ缺口保持。Cdprimary检索只有metadata，多TLS失败，未读body，正式18不能冒领独立数据。

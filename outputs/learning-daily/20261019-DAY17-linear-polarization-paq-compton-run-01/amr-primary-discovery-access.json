@@ -1,0 +1,22 @@
+[
+  {
+    "key": "simons-crossref",
+    "url": "https://api.crossref.org/works/10.1103/PhysRevC.72.024318",
+    "error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works/10.1103/PhysRevC.72.024318 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "key": "simons-aps",
+    "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.72.024318",
+    "error": "HTTPSConnectionPool(host='journals.aps.org', port=443): Max retries exceeded with url: /prc/pdf/10.1103/PhysRevC.72.024318 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "key": "simons-osti",
+    "url": "https://www.osti.gov/api/v1/records?search=10.1103/PhysRevC.72.024318",
+    "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=10.1103/PhysRevC.72.024318 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "key": "cd-search-arxiv",
+    "url": "https://export.arxiv.org/api/query?search_query=all:antimagnetic+AND+all:cadmium&max_results=8",
+    "error": "HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=all:antimagnetic+AND+all:cadmium&max_results=8 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  }
+]

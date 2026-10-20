@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-20T00:25:18.535785+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "review_pdf_sha256": "3e7eecf9cb084aa24174a41886a0b2372b00322c3343ab2825d1f142bd76567e",
+  "selected_review_scope": [
+    5,
+    49,
+    50,
+    59,
+    60
+  ],
+  "primary": "CHI01 Table VI / PDF20, original full read already primed",
+  "question": "Table3 literal level-energy monotonicity vs gamma-spacing/backbend; same dataset vs independent high-frequency lifetimes",
+  "no_new_primary_obtained": true,
+  "search_discovery_only": true,
+  "new_read_scope_is_targeted_not_full_review": true
+}

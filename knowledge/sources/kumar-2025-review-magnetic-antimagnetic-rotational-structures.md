@@ -113,3 +113,20 @@ Atomic Data and Nuclear Data Tables 165 (2025) 101735. DOI `10.1016/j.adt.2025.1
 ## Review Status
 
 Page and all KU25 claims remain unreviewed with `needs_review: true`. Human review is deferred until use: perform targeted claim review when this content is used for paper writing, a key project decision, synthesis finalization or a paper-level evidence pool.
+
+
+## Day17定向自审：110In同数据与能级能量口径
+
+2026-10-20原Day17session的Day18无学分知识预习。旧全页与KU25-1–10逐字保留；新审计仍unreviewed/needs_review，不重称本session全文deepread。本次实际视觉/文本为PDF5/49/50/59/60；文字检索还暴露PDF47/48的Cd表，未完整视觉核。原PDF60页/hash `3e7eecf9cb084aa24174a41886a0b2372b00322c3343ab2825d1f142bd76567e`。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KU25-11 | Table3的110In第二条序列列17/19/21/(23)四个寿命.774/.554/.403/.205ps和B(E2).136/.265/.266/.281(eb)²，引用2001Ch71；(25)/(27)/(29)只有能量/跃迁而无τ/B。本表没有给这三个点新增寿命。 | review-data / source-dependence | direct | PDF p.50, Table 3, 110In second band | true |
+| KU25-12 | 同条的printed comment3称level energies未随spin monotonically increase，但表列Elevel从2220.2到12744.3keV严格增加；不单调的是Eγ，977.0→950.4→889.1后再升。这是literal词义不闭合，可能涉及spacing/rotor意图，不能擅改原句或据此声称实验能级倒置。 | review-wording / Codex table-check | direct-and-derived | PDF p.50, Table 3, 110In comment 3 | true |
+| KU25-13 | PDF5的AMR经验特征包括近恒定J2、small/decreasing B(E2)，但同页明确证据稀缺、混合collective机制/判定限制；对110In的综述归类与原2001实验/2016模型不能作独立实验重复确认。 | review-background / independence-boundary | direct | PDF p.5, AMR discussion and Conclusions | true |
+| KU25-14 | Ref26指向CHI01 PRC64 054314；Ref29指向Simons2005 PRC72 024318；Ref28与30–32指向其它Cd primary。这些是检索入口，不是本session已取得/读过Cd正文或已独立验证其τ、stopping、feeding。 | bibliography / access-boundary | direct | PDF p.59, References 26/28; PDF p.60, References 29–32 | true |
+| KU25-15 | 本次110In原表复核：19/21/23的quoted marginal B(E2)区间交集为[.258,.279](eb)²；这只是一维box相容性，不是constant-B fit、jointCI或AMR概率。原CHI01 TableVI明确误差不含可能达±20%的stopping系统量，不能从综述抄表制造fullCov。 | Codex analysis / statistical-boundary | derived | PDF p.50, Table 3, 110In lifetime comment | true |
+
+[计算输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-contract.json)与[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-result.json)；script `system/scripts/day17_amr_review_energy_audit.py`。10个Elevel差与印刷Eg残差小于7e−13keV只核抄录算术，不是实验能量精度。局部J2=4/ΔEg的负值处于回弯离散差分，不是负质量或新rotor fit；不把中点J2任意配端点B作精确阈值判定。
+
+本次Crossref/arXiv/APS/OSTI/York/UNT/SemanticScholar多数TLS失败，OpenAlex一次取得Simons2005身份但无OA全文URL；没有新Cd正文。metadata/综述不能冒称新独立实验。见run内`amr-primary-discovery-access.json`/`amr-primary-discovery-secondary.json`，保持input-readiness，不调TLS/凭据。
