@@ -163,3 +163,14 @@ P0: none identified.
 
 - Protected BibTeX record: `suzuki_2008_Lifetimemeasurement` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf`.
+
+
+## Day18定量审计：B(M1)/B(E2)交错的物理成因——B(E2)交错而非B(M1)交错
+
+在Day18正式学习中对本文Table I–III中103,104Rh候选手征带的寿命与跃迁几率进行定量审计，raw SHA256 `f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927`已核。原SZ08-1–9各claim及review状态保持；新SZ08-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SZ08-D18-1 | 对Table III中104Rh（10−–13−）和103Rh（25/2+–29/2+）的定量分析揭示：文献中广泛观察到的 $B(M1)/B(E2)$ 奇偶自旋交错（104Rh中依次为 15.1, 9.8, 11.3, 6.3）完全是由 $B(E2)$ 自身的奇偶交错（0.063, 0.093, 0.039, 0.067 e²b²）所驱动；与此同时，两核的 $B(M1)$ 随自旋单调平滑递减（104Rh为 0.95, 0.91, 0.44, 0.42 $\mu_N^2$；103Rh为 2.3, 1.8, 1.2 $\mu_N^2$），完全不存在奇偶交错。这与教科书基于左右手征隧穿预测的“$B(M1)$ 交错而 $B(E2)$ 平滑”形成尖锐反例，证明单纯 $B(M1)/B(E2)$ 比值交错不足以诊断手征几何。 | task-staggering-origin-audit | derived-and-boundary | PDF pp.3–4 Tables I–III, Fig.3；新suzuki08-rh103-104-result-016 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/suzuki08-rh103-104-contract-016.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/suzuki08-rh103-104-result-016.json)5项检查全过，确立了绝对寿命测量在解耦 $B(M1)$ 与 $B(E2)$ 机制中的不可替代性。

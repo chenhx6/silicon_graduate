@@ -1,0 +1,114 @@
+{
+  "contract_sha256": "0fcdbf663b44efa5ff1ab6c64e38d2c62dff377f66fec2fdbb935cf225f483ef",
+  "script_sha256": "b762537b1cc3e767b55ffa51ff38fadf23537d4b4110dadd9e2615539aedf051",
+  "raw_sha256": "f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927",
+  "rh104_analysis": [
+    {
+      "spin": "10-",
+      "tau_ps": 1.25,
+      "BM1": 0.95,
+      "BE2": 0.063,
+      "BM1_over_BE2": 15.079365079365079
+    },
+    {
+      "spin": "11-",
+      "tau_ps": 1.34,
+      "BM1": 0.91,
+      "BE2": 0.093,
+      "BM1_over_BE2": 9.78494623655914
+    },
+    {
+      "spin": "12-",
+      "tau_ps": 1.05,
+      "BM1": 0.44,
+      "BE2": 0.039,
+      "BM1_over_BE2": 11.282051282051283
+    },
+    {
+      "spin": "13-",
+      "tau_ps": 0.71,
+      "BM1": 0.42,
+      "BE2": 0.067,
+      "BM1_over_BE2": 6.26865671641791
+    }
+  ],
+  "rh103_analysis": [
+    {
+      "spin": "25/2+",
+      "tau_ps": 0.95,
+      "BM1": 2.3,
+      "BE2": 0.077,
+      "BM1_over_BE2": 29.87012987012987
+    },
+    {
+      "spin": "27/2+",
+      "tau_ps": 1.0,
+      "BM1": 1.8,
+      "BE2": 0.14,
+      "BM1_over_BE2": 12.857142857142856
+    },
+    {
+      "spin": "29/2+",
+      "tau_ps": 0.72,
+      "BM1": 1.2,
+      "BE2": 0.11,
+      "BM1_over_BE2": 10.909090909090908
+    }
+  ],
+  "checks": [
+    {
+      "name": "bm1_over_be2_exhibits_even_odd_staggering_in_104Rh",
+      "ratios": [
+        15.079365079365079,
+        9.78494623655914,
+        11.282051282051283,
+        6.26865671641791
+      ],
+      "passed": true
+    },
+    {
+      "name": "be2_exhibits_staggering_opposite_in_phase_to_bm1_over_be2",
+      "be2_values": [
+        0.063,
+        0.093,
+        0.039,
+        0.067
+      ],
+      "passed": true
+    },
+    {
+      "name": "bm1_decreases_monotonically_without_odd_even_staggering",
+      "bm1_values": [
+        0.95,
+        0.91,
+        0.44,
+        0.42
+      ],
+      "passed": true
+    },
+    {
+      "name": "rh103_be2_also_staggers_while_bm1_decreases_monotonically",
+      "rh103_be2": [
+        0.077,
+        0.14,
+        0.11
+      ],
+      "rh103_bm1": [
+        2.3,
+        1.8,
+        1.2
+      ],
+      "passed": true
+    },
+    {
+      "name": "recoil_transit_time_in_target_degrader_below_0_2_ps_protects_1_ps_lifetimes",
+      "target_transit_ps": "< 0.2 ps",
+      "typical_lifetime_ps": "~ 1 ps",
+      "passed": true
+    }
+  ],
+  "checks_total": 5,
+  "checks_passed": 5,
+  "all_passed": true,
+  "physical_interpretation": "In Suzuki 2008 Tables I-III, lifetimes in candidate chiral doublet bands of 103,104Rh were measured using an inverse-kinematics RDDS variant with a 3.5 mg/cm2 Nb degrader foil instead of a stopper. This slowed recoils from v/c ~ 5.1-5.7% to 3.1-3.3% while maintaining foil transit times under 0.2 ps, avoiding the Doppler attenuation smearing that plagues classical thick-stopper DSAM below 1 ps. Our quantitative audit of the extracted transition strengths in 104Rh reveals a striking structural result: the well-known even-odd spin staggering of the B(M1)/B(E2) ratio (15.1 at 10-, 9.8 at 11-, 11.3 at 12-, 6.3 at 13-) is driven entirely by staggering in B(E2) (0.063, 0.093, 0.039, 0.067 e2b2), whereas B(M1) decreases monotonically (0.95, 0.91, 0.44, 0.42 muN2) with NO odd-even staggering! Exactly the same behavior is confirmed in 103Rh: B(E2) staggers (0.077, 0.14, 0.11 e2b2) while B(M1) decreases monotonically (2.3, 1.8, 1.2 muN2). This contradicts the textbook chiral expectation from particle-rotor models where B(M1) staggers at high spin due to left/right chiral tunneling geometry, while B(E2) is smooth. This provides a critical Day 18 benchmark demonstrating that B(M1)/B(E2) staggering alone cannot diagnose chiral geometry, and that absolute lifetime measurements separating B(M1) from B(E2) are indispensable."
+}

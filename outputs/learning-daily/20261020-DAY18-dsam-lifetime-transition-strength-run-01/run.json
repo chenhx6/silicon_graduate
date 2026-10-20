@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "015 committed; original research window continues",
+  "last_checkpoint": "016 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit 167Lu relative transition strength and delta double-root sensitivity",
-    "commit_hash": "5c4933ce8541fff49ae9dfd36c200ce01171ce6f",
+    "subject": "Audit 131Ce Qt slope significance and side-feeding parametrization shifts",
+    "commit_hash": "71f2cd10ec81d9ca33fa0bf19bdbf246c6563e05",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-014.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-015.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 131Ce Qt slope significance and side-feeding parametrization shifts"
+    "subject": "Audit 103,104Rh chiral candidate staggering driven by BE2 not BM1"
   },
   "uncredited_preview": {
     "day_index": 19,

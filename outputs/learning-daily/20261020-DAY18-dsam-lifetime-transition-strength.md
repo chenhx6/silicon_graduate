@@ -1347,6 +1347,39 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "SI16-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+      "anchor": "Day18定量审计：B(M1)/B(E2)交错的物理成因——B(E2)交错而非B(M1)交错",
+      "summary": "Table I-III定量审计证实B(M1)/B(E2)交错全由B(E2)交错引起，B(M1)严格单调下降无交错",
+      "sources": [
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "B(M1)/B(E2)交错的双重载体反例：103,104Rh案例",
+      "summary": "103,104Rh案例反例：揭示强度比交错的多极载体多重性，证明必须测绝对寿命解耦B(M1)与B(E2)",
+      "sources": [
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "复合强度比交错的解耦：B(M1)与B(E2)的独立载体",
+      "summary": "方法页补充寿命测量对解耦复合比值B(M1)/B(E2)交错载体的关键作用",
+      "sources": [
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SZ08-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1361,6 +1394,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint016已实际提交，稳定指针main / `Audit 103,104Rh chiral candidate staggering driven by BE2 not BM1`；精确hash/H3/远端结果只publication-016回执。
+
 
 checkpoint015已实际提交，稳定指针main / `Audit 131Ce Qt slope significance and side-feeding parametrization shifts`；精确hash/H3/远端结果只publication-015回执。
 

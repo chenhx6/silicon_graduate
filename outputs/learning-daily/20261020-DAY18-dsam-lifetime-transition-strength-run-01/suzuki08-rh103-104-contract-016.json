@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-20T14:22:38.187184+00:00",
+  "source": "Suzuki et al. PRC 78, 031302(R) (2008) Tables I-III",
+  "raw_file": "raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf",
+  "raw_sha256": "f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927",
+  "rows_103Rh": [
+    {
+      "spin": "25/2+",
+      "tau_ps": "0.95",
+      "tau_err": "0.17",
+      "BM1": "2.3",
+      "BM1_err": "0.4",
+      "BE2": "0.077",
+      "BE2_err": "0.014"
+    },
+    {
+      "spin": "27/2+",
+      "tau_ps": "1.0",
+      "tau_err": "0.1",
+      "BM1": "1.8",
+      "BM1_err": "0.2",
+      "BE2": "0.14",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "29/2+",
+      "tau_ps": "0.72",
+      "tau_err": "0.23",
+      "BM1": "1.2",
+      "BM1_err": "0.4",
+      "BE2": "0.11",
+      "BE2_err": "0.04"
+    }
+  ],
+  "rows_104Rh": [
+    {
+      "spin": "9-",
+      "tau_ps": "6.21",
+      "tau_err": "0.45",
+      "BM1": "2.3",
+      "BM1_err": "0.2",
+      "BE2": null,
+      "BE2_err": null
+    },
+    {
+      "spin": "10-",
+      "tau_ps": "1.25",
+      "tau_err": "0.09",
+      "BM1": "0.95",
+      "BM1_err": "0.08",
+      "BE2": "0.063",
+      "BE2_err": "0.017"
+    },
+    {
+      "spin": "11-",
+      "tau_ps": "1.34",
+      "tau_err": "0.12",
+      "BM1": "0.91",
+      "BM1_err": "0.12",
+      "BE2": "0.093",
+      "BE2_err": "0.020"
+    },
+    {
+      "spin": "12-",
+      "tau_ps": "1.05",
+      "tau_err": "0.10",
+      "BM1": "0.44",
+      "BM1_err": "0.06",
+      "BE2": "0.039",
+      "BE2_err": "0.010"
+    },
+    {
+      "spin": "13-",
+      "tau_ps": "0.71",
+      "tau_err": "0.19",
+      "BM1": "0.42",
+      "BM1_err": "0.15",
+      "BE2": "0.067",
+      "BE2_err": "0.025"
+    }
+  ],
+  "question": "In proposed chiral doublet candidate nuclei 103,104Rh, what mechanism drives the even-odd spin staggering of B(M1)/B(E2), and how does the degrader-plunger RDDS variant address the sub-picosecond Doppler attenuation limit?",
+  "scope": "source-grounded audit of degrader-plunger technique, transit-time constraints, and B(M1)/B(E2) staggering origins in A~100 chiral candidates"
+}
