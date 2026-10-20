@@ -39,6 +39,8 @@ updated: 2026-10-20
 
 - [[chakraborty-2024-possibility-wobbling-129ba]] — 129Ba 历史数据重解释中混合比根敏感性、8 倍 E2 崩塌与 1.06sigma 偏振无判决力反例。
 
+- [[jensen-2002-second-phonon-wobbling-163lu]] — 163Lu 二声子 wobbling 标度对 476 keV 无偏振小解的 27 倍敏感性与 Delta n=2 纯伸展 E2 拓扑基准。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

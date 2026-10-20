@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-20T15:51:52.726472+00:00",
+  "subject": "Audit 163Lu two-phonon wobbling harmonic scaling root dependence and Delta n=2 stretched E2 benchmark",
+  "ordinary_paths": [
+    "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day18_jensen02_163lu_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen02-163lu-wobbling-contract-026.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen02-163lu-wobbling-result-026.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-030.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-027.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-026.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-029.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-026.md only"
+  },
+  "verification": "verification-030.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification030/lint029 0 errors/boundary027/diff; 163Lu 4 checks passed"
+}

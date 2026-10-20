@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint026：163Lu二声子wobbling标度与Delta n=2基准审计（JE02-D18-1），揭示TSD3->TSD2 476 keV单线在无偏振小解下B(E2)遭遇26.8倍断崖暴跌（跌至0.019，谐振标度瓦解为0.09倍），以及Table I六条TSD3->TSD1跨声子线为纯伸展E2（Delta I=2，无Delta I=0）的谐振拓扑黄金基准。90项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint025：129Ba历史数据wobbling重解释审计（CH24-D18-1），揭示365 keV关键连接线在历史采纳解与大解之间存在8.15倍E2崩塌，且支持大解的线偏振显著性仅为1.06sigma（与零无差别，无判决力）。86项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint024：151Eu横向wobbling混合比双解敏感性与偏振边缘显著性审计（MU23-D18-1），揭示Table III中两跨带线在DCO小解下B(E2)发生64.5至610.6倍极端断崖暴跌（跌至0.0028与0.00046），以及支持大解的偏振不对称度仅1.09-1.60sigma边缘显著性解构。82项writeback已通过验证。原硬截止明日15点保持。
@@ -38,6 +40,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint026已实际提交，稳定指针main / `Audit 163Lu two-phonon wobbling harmonic scaling root dependence and Delta n=2 stretched E2 benchmark`；精确hash/H3/远端结果只publication-026回执。
+
 
 checkpoint025已实际提交，稳定指针main / `Audit 129Ba legacy wobbling reanalysis delta root sensitivity and 1.06 sigma polarization significance`；精确hash/H3/远端结果只publication-025回执。
 

@@ -1,0 +1,44 @@
+{
+  "target": "163Lu",
+  "in_band_calibration": {
+    "A": 163,
+    "Qt_in_eb": 10.7,
+    "BE2_in_e2b2": 4.271,
+    "BE2_in_Wu": 807.5
+  },
+  "one_phonon_reference": {
+    "transition": "TSD2 -> TSD1",
+    "BE2_ratio": 0.21,
+    "BE2_out_Wu": 169.6
+  },
+  "two_phonon_476keV_audit": {
+    "transition": "TSD3 -> TSD2 (476 keV, Delta I = 1)",
+    "polarization_status": "impossible due to low statistics (Jensen 2002 p.3)",
+    "large_root": {
+      "delta": -3.6,
+      "BE2_ratio": 0.51,
+      "BE2_out_Wu": 411.8,
+      "harmonic_factor": 2.43,
+      "status": "model-selected branch satisfying B(E2; 2->1)/B(E2; 1->0) ~ 2"
+    },
+    "small_root": {
+      "delta": -0.19,
+      "BE2_ratio": 0.019,
+      "BE2_out_Wu": 15.3,
+      "harmonic_factor": 0.09,
+      "status": "experimentally non-excluded small branch; destroys harmonic scaling"
+    },
+    "collapse_factor": 26.8
+  },
+  "delta_n_2_crossband_benchmark": {
+    "pathway": "TSD3 -> TSD1 (Delta n = 2, pure stretched E2)",
+    "transitions_count": 6,
+    "average_BE2_ratio": 0.02,
+    "average_BE2_out_Wu": 16.1,
+    "multipolarity": "Pure Delta I = 2 stretched E2; no Delta I = 0 observed (confirms harmonic wobbling selection rule)"
+  },
+  "summary": {
+    "conclusion": "163Lu TSD3->TSD2 476 keV wobbling harmonic scaling (2.4x) collapses by 26.8x under the small delta root, which could not be excluded experimentally due to failed polarization; meanwhile TSD3->TSD1 confirms pure stretched E2 Delta n=2 decay without Delta I = 0 anomaly."
+  },
+  "checks_passed": true
+}

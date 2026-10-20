@@ -1868,6 +1868,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "CH24-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "anchor": "Day18定量审计：二声子谐振标度对476 keV无偏振混合比双解的极端依赖",
+      "summary": "476 keV单线二声子标度在无偏振小解下塌缩26.8倍至0.019及Table I中Delta n=2跨声子纯伸展E2基准核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "高自旋三轴超形变二声子标度的实验根依赖与拓扑基准：163Lu案例",
+      "summary": "163Lu二声子基准：DSAM带内807 W.u.标尺下476 keV二声子标度26.8倍小解塌缩与Table I六条Delta n=2纯伸展E2拓扑黄金基准",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "多声子谐振标度检验中的单线敏感性与无偏振依赖",
+      "summary": "方法页补充多声子谐振倍增律检验中单一弱连接线无偏振混合比双解简并的证据脆弱性边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "jensen-2002-second-phonon-wobbling-163lu",
+      "summary": "索引增加163Lu二声子wobbling标度476 keV无偏振小解敏感性与Delta n=2纯伸展E2基准导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1882,6 +1938,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint026已实际提交，稳定指针main / `Audit 163Lu two-phonon wobbling harmonic scaling root dependence and Delta n=2 stretched E2 benchmark`；精确hash/H3/远端结果只publication-026回执。
+
 
 checkpoint025已实际提交，稳定指针main / `Audit 129Ba legacy wobbling reanalysis delta root sensitivity and 1.06 sigma polarization significance`；精确hash/H3/远端结果只publication-025回执。
 

@@ -2478,3 +2478,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint025：129Ba历史数据wobbling重解释与偏振1.06sigma无判决力审计
 
 审计Chakraborty 2024 129Ba数据重分析（CH24-D18-1）：论文无新在束或寿命实验，重新挖掘Byrne 1986与Gizon 1977数据将365 keV带间连接线由原采纳解（delta in [-0.84, -0.79]，E2约40%，M1占60%的特征伙伴带）改选为大解（delta ~ -2.0，E2占80%）以宣称纵向wobbling。定量审计揭示其实际面临8.15倍E2崩塌（角分布同样允许的小解delta ~ -0.33对应E2仅9.82%，M1高达90.18%），而支持大解的核心判据——线偏振测量值仅为P = 0.072(68)（Z = 1.06sigma显著性，在1sigma内与零完全无差别），根本不具备区分解分支的统计能力。86项writeback/28mapped知识页通过verification029/lint028/boundary026。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint026：163Lu二声子wobbling标度无偏振双解与Delta n=2基准审计
+
+审计Jensen 2002 163Lu二声子wobbling数据（JE02-D18-1）：在Domscheit 1999在束DSAM测定的Qt = 10.7 eb（B(E2_in) ~ 807.5 W.u.）基准下，TSD3->TSD2 476 keV单线被用来确立B(E2; 2->1)/B(E2; 1->0) ~ 2.43的二声子谐振标度。然而作者明确承认该线因统计过低不可能测量线偏振；若采纳实验同样允许的小解delta = -0.19，B(E2_out)/B(E2_in)遭遇26.8倍断崖暴跌（跌至0.019，强度从411.8 W.u.暴跌至15.3 W.u.），谐振标度瓦解为0.09倍。同时，Table I中6条TSD3->TSD1（Delta n = 2）跨声子线平均比值为0.020（16.1 W.u.），全部为纯伸展E2（Delta I = 2），且完全无Delta I = 0衰变，确立了多声子wobbling弱退激的拓扑选择律黄金基准。90项writeback/29mapped知识页通过verification030/lint029/boundary027。原硬截止明日15点保持。

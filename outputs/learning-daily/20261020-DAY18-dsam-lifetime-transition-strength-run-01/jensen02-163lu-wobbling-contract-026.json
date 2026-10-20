@@ -1,0 +1,13 @@
+{
+  "target": "163Lu",
+  "paper": "Jensen 2002 Phys. Rev. Lett. 89:142503",
+  "lifetime_source": "Domscheit 1999 Nucl. Phys. A 660:381",
+  "description": "Quantitative audit of 163Lu two-phonon wobbling harmonic scaling vs delta double-root collapse and Delta n=2 pure stretched E2 benchmark",
+  "check_count": 4,
+  "checks": [
+    "dsam_inband_collectivity_calibration",
+    "476keV_26.8x_BE2_collapse_evaluation",
+    "two_phonon_harmonic_scaling_root_dependence",
+    "table_I_delta_n_2_stretched_E2_benchmark"
+  ]
+}
