@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "006 committed; current DSAM question bounded followup done, useful window continues",
+  "last_checkpoint": "007 Radeck uncredited preview committed/publishing",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit Ag106 primary transition rates and bounded lifetime cancellation",
-    "commit_hash": "f71d6c2df34eccd487f9cf117650c0a5260d0f6e",
+    "subject": "Audit finite stopper dependence in DSAM lifetime companions",
+    "commit_hash": "ad1650c82dda4cdd43cbea0bf76c491b03e41662",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-005.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-006.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,6 +88,12 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit finite stopper dependence in DSAM lifetime companions"
+    "subject": "Record Radeck component response and uncredited Day19 preview"
+  },
+  "uncredited_preview": {
+    "day_index": 19,
+    "status": "partial",
+    "formal_credit": false,
+    "statefile": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json"
   }
 }

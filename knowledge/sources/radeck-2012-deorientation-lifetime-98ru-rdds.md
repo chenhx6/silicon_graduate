@@ -99,3 +99,25 @@ For [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]], this source ad
 ## Personal Notes
 
 Review note: R12-3/R12-7/R12-8/R12-10 were user-reviewed on 2026-07-09. Keep R12-3 as the boundary preventing overgeneralization from RDDS/Coulomb excitation to fusion-evaporation P-ADO.
+
+
+## Day18内无学分Day19预习：新的完整原读与分量响应合同
+
+本段为2026-10-20同一正式Day18 session在新primed回忆冻结后追加；**原2026-07-09整段字节、human-reviewed历史和R12-1–12全部false flags原样保留**。新段和下列新claims仅Codex self-audit、needs_review，不继承human review。本次完整原读十页/十三图/三表/九个编号公式及参考，PDF2–9图表视觉核；先前“Figs3–12/TablesI–II”的scope是旧摄入焦点，不代表本段漏读Fig13/TableIII。没有取得Winther–deBoer job、逐ring/distance计数/fitbins、实际距离坐标producer或jointΣ。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-P19-1 | 300MeV98Ru+24Mg(0.7mg/cm²)，15.7mg/cm²natCu stopper，v/c=.0450(.0006)、六ring；Mg particleγtag约束靶激发而非stopper激发。减速尾明确并入US，不把所有US当严格零速原始光子。 | original-acquisition-and-component-contract | direct-original | PDF2–3SecII/III/Figs2–3 | true |
+| R12-P19-2 | 总SH+US需particle singles归一、eff/粒子solidangle等修正，Fig5下降用于deorientation诊断；P=SH/(SH+US)的同一归一/粒子solidangle则在分子分母消。SH/US效率、boost与deorientation并不随之取消。 | observable-and-normalization | direct-original | PDF4Fig5、PDF7Eq9后段/Fig9 | true |
+| R12-P19-3 | 90°clover效率标定意外缺失，作者用最短d3µm处理论初始角关联补ring3/4相对eff，假定短时alignment变化小并加systematic；d3不进attenuation参数fit。该环节不是独立实测efficiency或无模型初alignment。 | calibration-substitution-and-boundary | direct-original | PDF6左栏首两段 | true |
+| R12-P19-4 | US衰变的取向被假定在stopper中冻结，故GUS对应到达时间；SH则用decay function在飞行域平均G，Eq7显式含τ。作者以旧τ起步、回填新deorientation-correctedτ，两步迭代称足够；未给收敛criterion/完整jointΣ，不当本任务重放或独立两次measurement。 | component-conditional-kernel-and-iteration | direct-original-and-boundary | PDF5stopper假设、PDF6Eqs4–7/Fig8 | true |
+| R12-P19-5 | Γk=|g|/Ck；C跨同元素迁移仍要求相同v/c和相近charge-state分布、靶足以达charge equilibrium。由g=.47得到C2≈3.31/C4≈1.497ps；换成文中另g=.41时为2.887/1.306只条件算术，不测新g、符号或核τ。αhardcore作者明确不可靠，不能把central作已知精确校准。 | calibration-transfer-and-sign-boundary | direct-original-and-derived | PDF6Eq6、PDF7TableI/邻文 | true |
+| R12-P19-6 | 在额外明确physicalt≥0、G=α+(1−α)e^(−Γt)、stopperalignment冻结的chart下，GSH=α+(1−α)(1−e^−(Γ+1/τ)t)/[(1+Γτ)(1−e^−t/τ)]；α≤GUS≤GSH≤1。源τ8.36/Γ/α中心给SH长时极限.554922(k2)/.449653(k4)，US极限.18/.24。非actualangularresponse/τfit/CI。 | task-analytic-component-average | derived-and-boundary | PDF6Eqs4/7、PDF7TableI；新radeck-kernel-result-007 | true |
+| R12-P19-7 | PDF5Eq2后字面写normalization A0(d)=0，而Fig7a有正的非零角强度；PDF7Eq9印d−d0且邻文d0≈8(1)µm，d3若直接代正8、a1会给P≈−.045333。保存文字/坐标边界，不擅改符号或给erratum；缺actualproducer不能从literalcontrol推原τbias。 | literal-normalization-and-coordinate-boundary | direct-original-and-derived | PDF5Eq2后/Fig7a；PDF7Eq9后/Fig10；新result | true |
+| R12-P19-8 | PDF8prose印BE2(2→0)=31.0(17)W.u.，TablesII/III印31(1)，R12-11的τ8.36(.29)ps保持。另I85/I41.5与前Fig6的36.5、重复6b标签也保位置；不据此修原数据/猜版本更正。 | literal-printing-boundary | direct-original | PDF8prose/TableII；PDF9TableIII；PDF5Fig6caption | true |
+| R12-P19-9 | TableII的2+2支路和mixing从Ref46评价取，TableIII6+/8+实验强度来自旧Ref8，IBM bosoncharge调到本次2+1强度。新τ/派生BE2/模型匹配不能按列重复计独立证据；作者也强调只看B4/2可能误导absolutecollectivity。 | source-lineage-and-model-dependency | direct-original | PDF8TableIIcaption/讨论；PDF9TableIII/讨论 | true |
+| R12-P19-10 | 本次只完成下一卡的一项原件/核响应exercise；Nolan1979本preview尚未重新原读，方法选择完整决策树/最小校准清单待后续。R12主文对其它Refs/未发表工作不作本session已读；无新session/正式19学分。 | actual-scope-and-credit-boundary | task-reading-receipt | day19-preview-recall-freeze-007；radeck-preview-reading-scope-007 | true |
+
+本次[冻结合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/radeck-kernel-input-contract-007.json)、[程序](../../system/scripts/day19_radeck_component_kernel.py)/[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/radeck-kernel-result-007.json)只给条件平均/原打印检查。physicaltime与原相对距离offset必须有执行桥，不能悄悄把Eq7积分域或Eq9符号修成想要的fit。未取得实验计数/理论初始角关联系数/效率Cov，不能重报τ/g/coverage。
+
+新分析写回[[lifetime-method-selection-response-contract]]、[[recoil-distance-doppler-shift]]；原人审项目结论和字节不动。正式Day19应新session承认本priming并逐卡新交付；本段不给学分。

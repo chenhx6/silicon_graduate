@@ -1,5 +1,10 @@
 # Day18原session持续学习
 
+checkpoint007已通过verification011/lint010/boundary008并进入提交/发布；稳定指针main / `Record Radeck component response and uncredited Day19 preview`；精确hash/H3/远端结果只publication007回执。Radeck十页新读与Day19无学分preview已写回，Nolan/完整决策树仍待实际阅读。
+
+checkpoint007：同原Day18session于17:50刷新timegate/候选池后开始恰好无学分Day19preview，primed回忆已冻，不新session/调度。Radeck新完整10页/13fig3table9eq，R12-P19-1–10待审；旧人审prefix/12falseflags按冻结hash字节保持。新canonical lifetime-method-selection-response-contract，SH/US条件平均/缺90°eff补理论/两步τ迭代/literal坐标保。当前33items/14mapped页65新claims；原τ/g/Cov未重拟。Nolan本preview尚未新读，完整决策树/最小校准清单仍pending；下步Nolan实际章节map/逐段原读，不拿旧fullread/scope换新完成。preview-state007 partial19无credit，主report第一未完卡仍partial18；原next18/count17/次日15点截止不变、不开Day20。
+
+
 checkpoint006已实际提交，稳定指针main / `Audit finite stopper dependence in DSAM lifetime companions`；精确hash/H3/远端结果只publication006回执，原Day18研究继续。
 
 checkpoint006：Klemme1999定向PDF2–4/必要refs，非新fullread/Day19，Day13priming承认。新KL99-D18-1–4核真实六个tcorr修正非共scale及声明halfcorrectionchart两Qt比+.563%/.584%；不原fit/CI/完整模型域或106Ag新实验。初单行boolean draft已发布前替换，所谓6checks不计证据。当前29items/11知识页55新claims待审；旧KL99/Jensen/MU08 rows/flags保护。LiederAPS403/harvest401/INSPIREmetadataonly，Ma/Tonevbody仍未得。

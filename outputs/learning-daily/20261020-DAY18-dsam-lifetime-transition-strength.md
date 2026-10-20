@@ -18,7 +18,7 @@ updated: 2026-10-20
 - completed_day_indices: []
 - partial_day_indices: [18]
 - Day 18 card audit: pending required checks and publication
-- 当前课程文件维持next18/count17；本session只正式18，最多下一卡无学分preview，不从旧Day17授分。
+- 当前课程文件维持next18/count17；本session只正式18。按candidate-refresh007已开始恰好下一Day19知识preview，独立preview-state的partial_day_indices为[19]、formal_credit=false；本报告当前卡machinecoverage仍partial18，最终收束才统一completed18/partial19，不预授18或19。
 
 [原始receipt观察副本](20261020-DAY18-dsam-lifetime-transition-strength-run-01/original-receipt-observed-001.json)显示既有manualforegroundrunner于上海15:15提前启动，次日15点截止不缩。`events.jsonl`实际thread.started与环境session相同；原waiter15:16:49中断，当前同session原生goal继承用户farmer/go-on/all/auto恢复，未见原runner正常exit。已将真实同sessionidentity/resume写入[run.json](20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json)与canonical scheduler的append-only事件；不启动新session/daemon/调度。Farmer既有PID42019继续监督，无独立Git角色。
 
@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含29atomic映射项/11mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含33atomic映射项/14mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -48,6 +48,12 @@ updated: 2026-10-20
 当前首交付完成后仍有原方法/校准高价值路线，不能用两个槽位读完提前收束。最新时间快照与候选更新随checkpoint记录；硬截止次日15点保持。
 
 ## Sources and evidence
+
+### checkpoint007：恰好下一Day19的无学分原件预习
+
+原timegate17:50上海余1269.79分钟、[候选池与单卡决定](20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-refresh-007.json)、[primed回忆冻结](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-recall-freeze-007.json)先于新开Radeck/Nolan。Radeck完整十页/13fig3table9编号式、PDF2–9视觉核，新R12-P19-1–10待审；原人审prefix/12falseflags字节保持。新SH/US条件平均、缺90°eff/理论补归一、τ回填迭代/坐标literalboundary已canonical；新script只条件核、不新实验CI。Nolan本preview未新原读，完整方法树/校准清单pending，不预填完成。
+
+本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；33items/14mapped知识页、65新待审claims。主reportverification011/report/33writeback项14页/partial18coverage/lint010/boundary008/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
 
 ### checkpoint006：finite-stopping companion的真实六行合同
 
@@ -915,6 +921,162 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "KL99-D18-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+      "anchor": "Day18内无学分Day19预习：新的完整原读与分量响应合同",
+      "summary": "新完整十页/13fig3table9eq与10新待审claims，旧人审字节保；缺eff/同data迭代/坐标与模型谱系",
+      "sources": [
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-1"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-2"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-3"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-4"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-5"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-6"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-7"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-8"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-9"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "Grounded Evidence",
+      "summary": "component-conditioned kernel与calibration/coordinate/readiness；Nolan/完整方法树待新读",
+      "sources": [
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-1"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-2"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-3"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-4"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-5"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-6"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-7"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-8"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-9"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/recoil-distance-doppler-shift.md",
+      "anchor": "Day18内无学分Day19预习：分量条件与缺失校准",
+      "summary": "RDDS方法补同data/分量响应与缺eff校准、literal距离域；不更改原τ",
+      "sources": [
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-1"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-2"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-3"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-4"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-5"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-6"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-7"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-8"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-9"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "Day18内恰好下一卡的无学分预习",
+      "summary": "新方法选择response-note导航，未预填Nolan/正式19",
+      "sources": [
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-1"
+        },
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-10"
+        }
+      ]
     }
   ]
 }
@@ -929,6 +1091,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+稳定指针 main / `Record Radeck component response and uncredited Day19 preview`；精确 hash/H3/远端结果只 publication-007 回执。
 
 checkpoint006已实际提交，稳定指针main / `Audit finite stopper dependence in DSAM lifetime companions`；精确hash/H3/远端结果只publication006回执，原Day18研究继续。 verification009/report/29writeback项11页/partial18coverage/lint008/boundary006/diff实际通过，0errors249warnings；59旧claimrows（Jensen18/MU0823/KL9918）字面保持，raw/PLAN/Bib与继承dirty保护。新六行分析不是旧单行重跑或6个booleanchecks。
 

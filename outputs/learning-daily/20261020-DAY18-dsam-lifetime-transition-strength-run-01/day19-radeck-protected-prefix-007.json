@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-20T09:51:12.231622+00:00",
+  "page": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+  "prefix_bytes": 9883,
+  "sha256": "d7bf73b88ff47d8dbba98d2795b4b2a69fed62985d30d474fe73eb902ad7905b",
+  "preserve": "all old bytes/human-reviewed status and twelve false flags; newclaims appendonlyneeds_review not human-reviewed",
+  "raw_file": "raw/papers/2012_Radeck et al_Simultaneous deorientation and lifetime measurement in 98 Ru using the recoil distance Doppler shift.pdf",
+  "raw_sha256": "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642",
+  "pages": 10,
+  "new_question": "component-conditioned deorientation kernel and lifetime estimation: which common assumptions are actually identifiable from same angular data?"
+}

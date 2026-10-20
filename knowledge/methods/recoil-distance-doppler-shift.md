@@ -83,3 +83,8 @@ The method yields source-specific lifetimes. Converting them to `B(M1)` or `B(E2
 
 - 2026-08-11: added Suzuki 2008 inverse-kinematics degrader DDCM, indirect-gate correction and one-band evidence boundary.
 - 2026-08-11：由 Klemme 1999 建立 coincidence-DDCM equation/diagnostic 与 finite-stopping boundary，并接入 Singh 2016/Radeck 2012 作为方法关系。
+
+
+## Day18内无学分Day19预习：分量条件与缺失校准
+
+[[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-P19-1–10新完整原读十页/13图3表，旧人审prefix/flags保护。stopper取向冻结的US与按lifetime平均的SH需不同G；90°缺eff由最短距离理论角关联补、两步τ/G迭代与same-data校正后平坦性都不认证完整独立Σ。实际distanceproducer未得，Eq9的d−d0/正8与d3、Eq2后A0=0的literal域保，不改raw/重报τ。新canonical [[lifetime-method-selection-response-contract]]给条件核和actualinput优先级；Nolan/完整决策树仍待本preview后续，不预填完整Day19。

@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-20T09:56:12.122179+00:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "actual_read": "complete10pages/mainline/references,13fig3table9numberedeq",
+  "visual": "PDF2–9 figures1–13/tablesI–III and keyeq2/4–9",
+  "raw_sha256": "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642",
+  "old_prefix_bytes": 9883,
+  "prefix_preserved": true,
+  "newclaims": "R12-P19-1 through10 allneeds_review",
+  "partial_day_indices": [
+    19
+  ],
+  "formal_credit": false,
+  "Nolan_this_preview_read": false,
+  "actualproducer_fitCov_recovered": false
+}

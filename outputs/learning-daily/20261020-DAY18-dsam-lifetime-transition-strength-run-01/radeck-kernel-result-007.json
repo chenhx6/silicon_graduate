@@ -1,0 +1,136 @@
+{
+  "scope": "Day19 uncredited knowledge preview within existing formal18 session; componentconditional analytic exercise from Radeck parameters, not originalfit or actualA/Cov",
+  "contract_sha256": "5101c285a8e09d15bdb883b95fa6f4a02367a7882ec37dda896255891a0b3d8d",
+  "script_sha256": "5acbc1b9d3f6b950d22f5bd163c3454cdd4995db4d1e891ae609db9bbb7c34d1",
+  "raw_sha256": "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642",
+  "conditional_formula": "SH=alpha+(1-alpha)*(1-exp(-(Gamma+1/tau)t))/((1+Gamma*tau)*(1-exp(-t/tau))); t>=0 and frozenalignment in stopper",
+  "rows": [
+    {
+      "rank": 2,
+      "physical_time_ps": 0,
+      "unshifted_G": 1.0,
+      "shifted_conditional_G": 1.0,
+      "SH_minus_US": 0.0
+    },
+    {
+      "rank": 2,
+      "physical_time_ps": 0.25,
+      "unshifted_G": 0.9714006420686006,
+      "shifted_conditional_G": 0.9856869854090555,
+      "SH_minus_US": 0.014286343340454977
+    },
+    {
+      "rank": 2,
+      "physical_time_ps": 1,
+      "unshifted_G": 0.8914494303184495,
+      "shifted_conditional_G": 0.9455223594989235,
+      "SH_minus_US": 0.054072929180474016
+    },
+    {
+      "rank": 2,
+      "physical_time_ps": 5,
+      "unshifted_G": 0.5831482419179914,
+      "shifted_conditional_G": 0.787741480930803,
+      "SH_minus_US": 0.20459323901281157
+    },
+    {
+      "rank": 2,
+      "physical_time_ps": 10,
+      "unshifted_G": 0.3782054938555699,
+      "shifted_conditional_G": 0.678132068122435,
+      "SH_minus_US": 0.2999265742668651
+    },
+    {
+      "rank": 2,
+      "physical_time_ps": 20,
+      "unshifted_G": 0.2279090460908907,
+      "shifted_conditional_G": 0.5904402578988016,
+      "SH_minus_US": 0.3625312118079109
+    },
+    {
+      "rank": 2,
+      "physical_time_ps": 100,
+      "unshifted_G": 0.1800005582544702,
+      "shifted_conditional_G": 0.5549246657130426,
+      "SH_minus_US": 0.37492410745857235
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 0,
+      "unshifted_G": 1.0,
+      "shifted_conditional_G": 1.0,
+      "SH_minus_US": 0.0
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 0.25,
+      "unshifted_G": 0.9426215655479804,
+      "shifted_conditional_G": 0.9710784480285077,
+      "SH_minus_US": 0.028456882480527357
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 1,
+      "unshifted_G": 0.7951944614011629,
+      "shifted_conditional_G": 0.8942859028374821,
+      "SH_minus_US": 0.0990914414363192
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 5,
+      "unshifted_G": 0.39811433859133555,
+      "shifted_conditional_G": 0.6524729520486803,
+      "SH_minus_US": 0.25435861345734473
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 10,
+      "unshifted_G": 0.27289492640549406,
+      "shifted_conditional_G": 0.5365799891046867,
+      "SH_minus_US": 0.2636850626991927
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 20,
+      "unshifted_G": 0.24142378445160903,
+      "shifted_conditional_G": 0.47070706628511644,
+      "SH_minus_US": 0.2292832818335074
+    },
+    {
+      "rank": 4,
+      "physical_time_ps": 100,
+      "unshifted_G": 0.24000000000001753,
+      "shifted_conditional_G": 0.4496541974262433,
+      "SH_minus_US": 0.20965419742622576
+    }
+  ],
+  "source_parameter_asymptotes": [
+    {
+      "rank": 2,
+      "G_US_infinity": 0.18,
+      "G_SH_infinity": 0.5549222722118585,
+      "C_from_g047_ps": 3.3098591549295775,
+      "C_from_g041_ps": 2.887323943661972
+    },
+    {
+      "rank": 4,
+      "G_US_infinity": 0.24,
+      "G_SH_infinity": 0.44965285900293517,
+      "C_from_g047_ps": 1.4968152866242037,
+      "C_from_g041_ps": 1.305732484076433
+    }
+  ],
+  "literal_printing_control": {
+    "d_um": 3,
+    "printed_positive_d0_um": 8,
+    "P_from_literal_Eq9_at_a1": -0.045333023063057885,
+    "not_actual_job_or_erratum": true
+  },
+  "zero_absolute_time_d3_control": {
+    "time_ps": 0.2223869532987398,
+    "G2_US": 0.9745098573536131,
+    "not_actual_shortest_distance_alignment_or_efficiency_bias": true
+  },
+  "actual_Acoul_or_fitCov_recovered": false,
+  "no_new_tau_or_g_or_CI": true
+}

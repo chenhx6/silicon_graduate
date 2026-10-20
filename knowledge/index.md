@@ -19,6 +19,8 @@ updated: 2026-10-20
 
 ## Sources
 
+- [[lifetime-method-selection-response-contract]] — Day18内恰好下一卡的无学分预习：Radeck分量响应/缺eff与坐标合同，完整方法树待后续原读。
+
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
 - [[nndc-2010-fe58-reference-lifetime-lineage]] — exact官方811参考B/半衰期/静态Q同1981来源、旧DSAMhalf/mean与Gosia输入依赖；非重复实验。
