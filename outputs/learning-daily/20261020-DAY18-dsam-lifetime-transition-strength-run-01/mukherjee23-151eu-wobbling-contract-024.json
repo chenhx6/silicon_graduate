@@ -1,0 +1,13 @@
+{
+  "target": "151Eu",
+  "paper": "Mukherjee 2023 Phys. Rev. C 107:054310",
+  "table": "Table III and Figs. 5-8",
+  "description": "Quantitative audit of delta root sensitivity, BE2 collapse, and polarization significance in 151Eu",
+  "check_count": 4,
+  "checks": [
+    "415keV_64x_BE2_collapse",
+    "537keV_609x_BE2_collapse",
+    "BM1_12x_to_40x_jump_evaluation",
+    "polarization_asymmetry_significance_audit"
+  ]
+}

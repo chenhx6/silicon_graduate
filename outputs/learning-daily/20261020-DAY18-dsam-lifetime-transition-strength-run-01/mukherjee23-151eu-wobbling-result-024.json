@@ -1,0 +1,49 @@
+{
+  "target": "151Eu",
+  "transitions": [
+    {
+      "initial_spin": "13/2-",
+      "final_spin": "11/2-",
+      "E_out_keV": 415.0,
+      "reported_delta": -3.3,
+      "reported_E2_fraction": 0.9159,
+      "reported_BE2_out_in": 0.1836,
+      "reported_BM1_out_in": 0.002,
+      "polarization_asymmetry": 0.038,
+      "polarization_error": 0.035,
+      "polarization_significance_sigma": 1.09,
+      "alternative_dco_small_delta": -0.12,
+      "alternative_E2_fraction": 0.0142,
+      "alternative_BE2_out_in": 0.002846,
+      "BE2_collapse_factor": 64.5,
+      "alternative_BM1_out_in": 0.023442,
+      "BM1_jump_factor": 11.7
+    },
+    {
+      "initial_spin": "17/2-",
+      "final_spin": "15/2-",
+      "E_out_keV": 537.9,
+      "reported_delta": -6.3,
+      "reported_E2_fraction": 0.9754,
+      "reported_BE2_out_in": 0.2795,
+      "reported_BM1_out_in": 0.0014,
+      "polarization_asymmetry": 0.024,
+      "polarization_error": 0.015,
+      "polarization_significance_sigma": 1.6,
+      "alternative_dco_small_delta": -0.04,
+      "alternative_E2_fraction": 0.0016,
+      "alternative_BE2_out_in": 0.000458,
+      "BE2_collapse_factor": 610.6,
+      "alternative_BM1_out_in": 0.056875,
+      "BM1_jump_factor": 40.6
+    }
+  ],
+  "summary": {
+    "max_BE2_collapse_factor": 610.6,
+    "min_BE2_collapse_factor": 64.5,
+    "max_BM1_jump_factor": 40.6,
+    "min_BM1_jump_factor": 11.7,
+    "conclusion": "Small DCO roots collapse BE2_out/BE2_in by 64.5x (415 keV) to 609x (537 keV) and jump BM1_out/BE2_in by 11.7x to 39.9x; the basis for adopting the large delta roots rests on marginal 1.08-1.60 sigma polarization measurements."
+  },
+  "checks_passed": true
+}

@@ -1756,6 +1756,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "CH20-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+      "anchor": "Day18定量审计：横向wobbling混合比双解极端敏感性与线偏振边缘显著性",
+      "summary": "Table III中两跨带连接线B(E2)在小解下发生64.5至610.6倍极端断崖暴跌及偏振不对称度仅1.09-1.60sigma边缘显著性解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "边缘显著性偏振下的极端多极崩塌：151Eu案例",
+      "summary": "151Eu案例审计：仅凭1sigma显著性偏振挑选极大解导致高达600倍的B(E2)虚假放大与向单粒子M1的极端倒转",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "弱显著性线偏振对混合比解判据的有效度边界",
+      "summary": "方法页补充线偏振不对称度低于2sigma时丧失区分多极双解能力的有效度边界识别准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "mukherjee-2023-transverse-wobbling-151eu",
+      "summary": "索引增加151Eu横向wobbling混合比小解600倍塌缩与边缘偏振显著性导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1770,6 +1826,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint024已实际提交，稳定指针main / `Audit 151Eu transverse wobbling delta root sensitivity and marginal polarization significance`；精确hash/H3/远端结果只publication-024回执。
+
 
 checkpoint023已实际提交，稳定指针main / `Audit 127Xe multiphonon longitudinal wobbling delta root collapse and Delta I = 0 topology anomaly`；精确hash/H3/远端结果只publication-023回执。
 

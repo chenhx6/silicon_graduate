@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint024：151Eu横向wobbling混合比双解敏感性与偏振边缘显著性审计（MU23-D18-1），揭示Table III中两跨带线在DCO小解下B(E2)发生64.5至610.6倍极端断崖暴跌（跌至0.0028与0.00046），以及支持大解的偏振不对称度仅1.09-1.60sigma边缘显著性解构。82项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint023：127Xe多声子纵向wobbling跃迁强度与两声子退激拓扑审计（CH20-D18-1），揭示Table 1中5条跨带线在DCO小解下B(E2)发生8.19-10.04倍断崖式暴跌（跌至0.10-0.23），以及所谓的两声子带向yrast带反常以Delta I = 0主导衰变（否定谐振子两声子选择定则，支持准gamma振动）。78项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint022：187Au与183Au纵向/横向wobbling跃迁强度终极审计（GU22-D18-1/SE20-D18-1），揭示Sensharma声称的164.2 W.u.超集体纵向wobbling在内转换系数与线偏振下遭遇88.0倍断崖式塌缩至单粒子1.87 W.u.，及183Au偏振误差6.8倍低估解构。74项writeback已通过验证。原硬截止明日15点保持。
@@ -34,6 +36,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint024已实际提交，稳定指针main / `Audit 151Eu transverse wobbling delta root sensitivity and marginal polarization significance`；精确hash/H3/远端结果只publication-024回执。
+
 
 checkpoint023已实际提交，稳定指针main / `Audit 127Xe multiphonon longitudinal wobbling delta root collapse and Delta I = 0 topology anomaly`；精确hash/H3/远端结果只publication-023回执。
 

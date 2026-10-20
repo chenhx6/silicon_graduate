@@ -35,6 +35,8 @@ updated: 2026-10-20
 
 - [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] — 127Xe 多声子纵向 wobbling 混合比小解 10 倍塌缩与 Delta I = 0 二声子退激拓扑反常。
 
+- [[mukherjee-2023-transverse-wobbling-151eu]] — 151Eu 横向 wobbling 混合比小解 600 倍塌缩与边缘 1sigma 偏振不对称度有效度边界。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

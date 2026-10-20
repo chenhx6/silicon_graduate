@@ -2468,3 +2468,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint023：127Xe多声子纵向wobbling跃迁强度与两声子退激拓扑审计
 
 审计Chakraborty 2020 127Xe多声子纵向wobbling数据（CH20-D18-1）：Table 1报告的5条跨带连接线（包括n=1->0与n=2->1）在DCO小解（|delta| ~ 0.30–0.35）下，B(E2_out)/B(E2_in)发生8.19至10.04倍断崖式暴跌（跌至0.100–0.234），而B(M1_out)/B(E2_in)反向暴增5.36至9.57倍（升至0.380–0.739 mu_N^2/e^2b^2）。更具决定性的是，声称的二声子带（Band 4）向yrast带的退激反常地以Delta I = 0跃迁为主导（强度超过Delta I = 2跃迁），直接违背谐振子两声子选择定则，其拓扑特征完全符合126Xe准gamma振动带与准粒子的混合耦合。78项writeback/26mapped知识页通过verification027/lint026/boundary024。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint024：151Eu横向wobbling双解极端塌缩与边缘偏振显著性审计
+
+审计Mukherjee 2023 151Eu横向wobbling候选数据（MU23-D18-1）：Table III报告的415.0与537.9 keV跨带连接线B(E2_out)/B(E2_in)在DCO小解分支（-0.12与-0.04）下遭遇64.5倍（415 keV跌至0.0028）至610.6倍（537.9 keV跌至0.00046）的极端断崖暴跌，而B(M1_out)/B(E2_in)反向暴增11.7至40.6倍。更关键的是，作者用来采纳大解（-3.3与-6.3）的核心判据——线偏振不对称度测量值仅为+0.038(35)（1.09sigma显著性）与+0.024(15)（1.60sigma显著性），在统计上与零高度重叠，根本不具备区分多极双解的判决力。82项writeback/27mapped知识页通过verification028/lint027/boundary025。原硬截止明日15点保持。
