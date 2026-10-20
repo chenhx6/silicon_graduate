@@ -149,3 +149,13 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 Keep TSD2 and TSD3 evidence strength separate in later synthesis.
+
+## Day18定量审计：类比排除小解与B(E2)的33倍塌缩边界
+
+在Day18正式学习中对本文Table 1与正文p.3中165Lu TSD2到TSD1连接线的DCO解分支与跃迁几率进行定量审计，raw SHA256 `C19D8BA76DC40FE1EBA208577543BA2F4C5FE6120D51BC034ED70119E7A310FA`已核。原SC03-1–7各claim及`human-reviewed`状态完全保留；新SC03-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SC03-D18-1 | 本文Table 1报告TSD2到TSD1的三条跨带线B(E2_out)/B(E2_in)为0.16-0.22，被作为165Lu存在wobbling激发的核心证据。定量审计揭示关键类比依赖：(1) 本文未测线偏振，DCO分析产生大解（E2占92.3%）与小解（E2仅2.8%，M1占97.2%）两个分支；(2) 正文p.3明确承认‘小解是通过与163Lu的类比而排除的’；(3) 若采纳实验同样允许的DCO小解，B(E2_out)/B(E2_in)遭遇整整33.0倍断崖暴跌（暴跌至0.0049-0.0067），彻底丧失四极集体性；(4) 跨声子TSD3到TSD1连接线无一条具有足够统计量开展DCO分析。这证明165Lu的一声子与二声子wobbling证据完全受制于对163Lu同位素类比的先验假设。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3-4 Table 1；新lu-ta-wobbling-lineage-result-027 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-contract-027.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-result-027.json)4项检查全过。

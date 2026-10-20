@@ -148,3 +148,13 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 Do not report the `B(E2)` ratios without stating the 90%-E2 assumption.
+
+## Day18定量审计：循环假定90% E2纯度与推翻推转模型的逻辑闭环
+
+在Day18正式学习中对本文p.5中167Ta TSD2到TSD1连接线的跃迁几率假定及wobbling判定进行定量审计，raw SHA256 `6A81C765796E25BFF0F91B74391F037A339B075CD0C04F0945952FA77626BFB7`已核。原HA09-1–7各claim及`human-reviewed`状态完全保留；新HA09-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HA09-D18-1 | 本文声称在Lu同位素之外的167Ta中首次识别出wobbling模式，其核心电磁证据建立在彻底的循环假定之上：(1) 正文p.5明确指出‘线偏振测量在本实验中无法完成’；(2) 作者‘直接假定连接线具有约90%的E2成分（该数值直接复制自163Lu）’；(3) 利用该外来假定算得39/2、43/2、47/2态的B(E2_out)/B(E2_in)约为0.32-0.37，并据此声称‘该数值远大于推转模型的上限0.01，从而排除了推转模型解释’；(4) 定量解构证实：若带间连接线实际由单粒子M1主导（E2份额~3%），真实B(E2_out)/B(E2_in)仅为~0.011，完全落入推转与特征伙伴带的允许范围。通过假定163Lu的E2纯度来证明167Ta是wobbling并据此‘排除’推转模型，构成了教科书式的循环论证。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.5；新lu-ta-wobbling-lineage-result-027 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-contract-027.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-result-027.json)4项检查全过。

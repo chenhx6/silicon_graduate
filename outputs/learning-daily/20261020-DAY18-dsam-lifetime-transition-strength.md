@@ -1924,6 +1924,92 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "JE02-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+      "anchor": "Day18定量审计：类比排除小解与B(E2)的33倍塌缩边界",
+      "summary": "Table 1中TSD2->TSD1跨带线在DCO小解下发生33倍B(E2)断崖塌缩及类比163Lu先验排除假定解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+          "locator": "SC03-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+      "anchor": "Day18定量审计：零电磁跃迁观测量与全类比归属证据边界",
+      "summary": "161Lu无DCO、无偏振、无B(E2)比值且能级未连接至基态正常形变带的全类比假定边界解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+          "locator": "BR05-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+      "anchor": "Day18定量审计：循环假定90% E2纯度与推翻推转模型的逻辑闭环",
+      "summary": "167Ta无偏振测量下复制163Lu 90% E2纯度算得B(E2)~0.35并反向排除推转模型的循环论证解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "A≈160区wobbling谱系的类比退化与循环假定：165Lu、161Lu与167Ta审计",
+      "summary": "A~160区wobbling谱系审计：165Lu类比小解塌缩33倍、161Lu零电磁观测与167Ta复制163Lu E2纯度的循环论证链条",
+      "sources": [
+        {
+          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+          "locator": "SC03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+          "locator": "BR05-D18-1"
+        },
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "同位素类比推断与循环假定对电磁证据链的侵蚀",
+      "summary": "方法页补充同位素先验类比与复制混合比纯度推翻竞争模型的循环论证证据审计准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+          "locator": "SC03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "schonwasser-2003-wobbling-165lu",
+      "summary": "索引增加165Lu、161Lu与167Ta A~160 wobbling谱系类比退化与循环假定审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+          "locator": "SC03-D18-1"
+        },
+        {
+          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+          "locator": "BR05-D18-1"
+        },
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1938,6 +2024,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint027已实际提交，稳定指针main / `Audit A ~ 160 wobbling evidence lineage in 165Lu, 161Lu, and 167Ta`；精确hash/H3/远端结果只publication-027回执。
+
 
 checkpoint026已实际提交，稳定指针main / `Audit 163Lu two-phonon wobbling harmonic scaling root dependence and Delta n=2 stretched E2 benchmark`；精确hash/H3/远端结果只publication-026回执。
 

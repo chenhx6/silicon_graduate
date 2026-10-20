@@ -1,3 +1,5 @@
+checkpoint027：A≈160区wobbling谱系类比退化与循环假定终极审计（SC03-D18-1/BR05-D18-1/HA09-D18-1），揭示165Lu类比排除DCO小解导致B(E2)发生33.0倍塌缩、161Lu零电磁观测数据与未连接能级，以及167Ta直接复制163Lu 90% E2纯度反向排除推转模型的循环论证闭环。96项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint026：163Lu二声子wobbling标度与Delta n=2基准审计（JE02-D18-1），揭示TSD3->TSD2 476 keV单线在无偏振小解下B(E2)遭遇26.8倍断崖暴跌（跌至0.019，谐振标度瓦解为0.09倍），以及Table I六条TSD3->TSD1跨声子线为纯伸展E2（Delta I=2，无Delta I=0）的谐振拓扑黄金基准。90项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint025：129Ba历史数据wobbling重解释审计（CH24-D18-1），揭示365 keV关键连接线在历史采纳解与大解之间存在8.15倍E2崩塌，且支持大解的线偏振显著性仅为1.06sigma（与零无差别，无判决力）。86项writeback已通过验证。原硬截止明日15点保持。
@@ -27,6 +29,9 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint027已实际提交，稳定指针main / `Audit A ~ 160 wobbling evidence lineage in 165Lu, 161Lu, and 167Ta`；精确hash/H3/远端结果只publication-027回执。
+
 
 checkpoint026已实际提交，稳定指针main / `Audit 163Lu two-phonon wobbling harmonic scaling root dependence and Delta n=2 stretched E2 benchmark`；精确hash/H3/远端结果只publication-026回执。
 

@@ -2483,3 +2483,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint026：163Lu二声子wobbling标度无偏振双解与Delta n=2基准审计
 
 审计Jensen 2002 163Lu二声子wobbling数据（JE02-D18-1）：在Domscheit 1999在束DSAM测定的Qt = 10.7 eb（B(E2_in) ~ 807.5 W.u.）基准下，TSD3->TSD2 476 keV单线被用来确立B(E2; 2->1)/B(E2; 1->0) ~ 2.43的二声子谐振标度。然而作者明确承认该线因统计过低不可能测量线偏振；若采纳实验同样允许的小解delta = -0.19，B(E2_out)/B(E2_in)遭遇26.8倍断崖暴跌（跌至0.019，强度从411.8 W.u.暴跌至15.3 W.u.），谐振标度瓦解为0.09倍。同时，Table I中6条TSD3->TSD1（Delta n = 2）跨声子线平均比值为0.020（16.1 W.u.），全部为纯伸展E2（Delta I = 2），且完全无Delta I = 0衰变，确立了多声子wobbling弱退激的拓扑选择律黄金基准。90项writeback/29mapped知识页通过verification030/lint029/boundary027。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint027：A≈160区wobbling谱系类比退化与循环假定终极审计
+
+审计165Lu、161Lu与167Ta wobbling谱系数据（SC03-D18-1/BR05-D18-1/HA09-D18-1）：(1) 165Lu无偏振测量，DCO小解（E2仅2.8%）被作者‘通过与163Lu类比直接排除’；采纳小解则B(E2_out)/B(E2_in)遭遇33.0倍断崖暴跌（跌至0.005–0.007），TSD3更无任何多极测量；(2) 161Lu零DCO、零偏振、零B(E2)比值且能级未连接至正常形变带，归属全靠曲线类比；(3) 167Ta偏振失败后直接假定带间跃迁具有90% E2纯度（复制自163Lu），用算得的B(E2)~0.35反向‘排除’推转模型（<=0.01），构成循环论证；在单粒子M1主导（E2~3%）下其实际B(E2)~0.011完全在推转允许范围内。96项writeback/32mapped知识页通过verification031/lint030/boundary028。原硬截止明日15点保持。

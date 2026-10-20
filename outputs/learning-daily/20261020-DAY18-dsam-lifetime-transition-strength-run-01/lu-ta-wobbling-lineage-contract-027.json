@@ -1,0 +1,16 @@
+{
+  "target": "A ~ 160 wobbling lineage (165Lu, 161Lu, 167Ta)",
+  "papers": [
+    "Schonwasser 2003 Phys. Lett. B 552:9",
+    "Bringel 2005 Eur. Phys. J. A 24:167",
+    "Hartley 2009 Phys. Rev. C 80:041304(R)"
+  ],
+  "description": "Quantitative audit of analogy-based E2 selection, unlinked band assignment, and circular 90% E2 copying across A ~ 160 wobbling chain",
+  "check_count": 4,
+  "checks": [
+    "165Lu_33x_BE2_collapse_under_analogy_excluded_small_root",
+    "161Lu_zero_electromagnetic_observables_audit",
+    "167Ta_circular_90pct_E2_copying_audit",
+    "167Ta_cranking_compatibility_under_M1_dominance"
+  ]
+}

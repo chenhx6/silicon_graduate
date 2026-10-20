@@ -41,6 +41,12 @@ updated: 2026-10-20
 
 - [[jensen-2002-second-phonon-wobbling-163lu]] — 163Lu 二声子 wobbling 标度对 476 keV 无偏振小解的 27 倍敏感性与 Delta n=2 纯伸展 E2 拓扑基准。
 
+- [[schonwasser-2003-wobbling-165lu]] — 165Lu 类比排除 DCO 小解引起 B(E2) 33 倍塌缩与 TSD3 无多极测量证据审计。
+
+- [[bringel-2005-wobbling-161lu]] — 161Lu 零电磁跃迁数据与未连接能级全类比 wobbling 归属证据边界。
+
+- [[hartley-2009-wobbling-167ta]] — 167Ta 复制 163Lu 90% E2 纯度以排除推转模型的循环假定逻辑闭环解构。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

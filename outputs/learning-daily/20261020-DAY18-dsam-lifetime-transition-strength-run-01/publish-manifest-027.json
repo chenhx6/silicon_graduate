@@ -1,0 +1,34 @@
+{
+  "at": "2026-10-20T16:02:04.836694+00:00",
+  "subject": "Audit A ~ 160 wobbling evidence lineage in 165Lu, 161Lu, and 167Ta",
+  "ordinary_paths": [
+    "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+    "knowledge/sources/bringel-2005-wobbling-161lu.md",
+    "knowledge/sources/hartley-2009-wobbling-167ta.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day18_lu_ta_wobbling_lineage_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-contract-027.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-result-027.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-031.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-028.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-027.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-030.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-027.md only"
+  },
+  "verification": "verification-031.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification031/lint030 0 errors/boundary028/diff; 165Lu/161Lu/167Ta 4 checks passed"
+}

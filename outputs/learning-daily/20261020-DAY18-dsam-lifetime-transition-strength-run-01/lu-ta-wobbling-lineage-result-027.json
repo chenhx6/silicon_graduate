@@ -1,0 +1,69 @@
+{
+  "target": "A ~ 160 wobbling lineage (165Lu, 161Lu, 167Ta)",
+  "lu165_audit": {
+    "paper": "Schonwasser 2003 Phys. Lett. B 552:9",
+    "polarization_measured": false,
+    "dco_large_root_E2": 0.923,
+    "dco_small_root_E2": 0.028,
+    "small_root_exclusion_basis": "excluded by analogy to 163Lu (Schonwasser 2003 p.3)",
+    "BE2_collapse_factor": 32.96,
+    "transitions": [
+      {
+        "E_gamma_keV": 638.2,
+        "I_ratio": 0.43,
+        "reported_BE2_ratio": 0.17,
+        "BE2_ratio_small_root": 0.0052
+      },
+      {
+        "E_gamma_keV": 654.1,
+        "I_ratio": 0.28,
+        "reported_BE2_ratio": 0.16,
+        "BE2_ratio_small_root": 0.0049
+      },
+      {
+        "E_gamma_keV": 667.9,
+        "I_ratio": 0.26,
+        "reported_BE2_ratio": 0.22,
+        "BE2_ratio_small_root": 0.0067
+      }
+    ]
+  },
+  "lu161_audit": {
+    "nucleus": "161Lu",
+    "paper": "Bringel 2005 Eur. Phys. J. A 24:167",
+    "DCO_measured": false,
+    "polarization_measured": false,
+    "BE2_ratios_extracted": false,
+    "decay_out_linked_to_ND": false,
+    "spins_and_energies_status": "tentative (Bringel 2005 p.5 Fig. 8 caption)",
+    "basis_of_wobbling_assignment": "100% based on close analogy to 163Lu (dynamic moment of inertia and alignment similarity)"
+  },
+  "ta167_audit": {
+    "paper": "Hartley 2009 Phys. Rev. C 80:041304(R)",
+    "polarization_measured": false,
+    "assumed_E2_fraction": 0.9,
+    "assumption_source": "copied directly from 163Lu (Hartley 2009 p.5)",
+    "circularity": "Assuming 90% E2 from 163Lu yields B(E2) ~ 0.35, which is then used to claim cranking is ruled out (B(E2) <= 0.01); under actual M1 dominance (3% E2), B(E2) is ~0.011, fully compatible with cranking.",
+    "states": [
+      {
+        "spin": "39/2",
+        "reported_BE2_ratio": 0.37,
+        "BE2_ratio_cranking_limit": 0.0123
+      },
+      {
+        "spin": "43/2",
+        "reported_BE2_ratio": 0.32,
+        "BE2_ratio_cranking_limit": 0.0107
+      },
+      {
+        "spin": "47/2",
+        "reported_BE2_ratio": 0.36,
+        "BE2_ratio_cranking_limit": 0.012
+      }
+    ]
+  },
+  "summary": {
+    "conclusion": "Across A ~ 160, outside 163Lu TSD1/2, wobbling evidence degrades into analogy-based branch selection: 165Lu collapses 33x under the small root, 161Lu has zero measured electromagnetic observables, and 167Ta relies on a circular 90% E2 assumption copied from 163Lu."
+  },
+  "checks_passed": true
+}
