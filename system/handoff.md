@@ -8,6 +8,8 @@ updated: 2026-10-20
 
 ## Active handoff — DAY18 independent session active
 
+稳定指针main / `Record bounded Lieder access failure and closeout readiness`；Lieder publisher Markdown provider_unavailable；candidate-refresh-010记录边界，当前Ag106路线饱和，不再重复算术。Day19 preview complete uncredited，Day20 unopened，原Day18 deadline/closeout pending。
+
 Nolan targeted method-window claims NS79-P19-1–8已写回；Radeck/Nolan preview仍partial19/formal_credit=false，fast timing/TDPAD pending。
 
 稳定指针main / `Add Nolan method-window boundaries to uncredited Day19 preview`；Nolan PDF48–52补电子计时PRF/zero-time/slope-centroid，Day19 preview方法树和最小校准清单已完成但formal_credit=false；现代fast timing/TDPAD formal19待补。

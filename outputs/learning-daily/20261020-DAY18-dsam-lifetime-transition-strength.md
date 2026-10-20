@@ -1224,6 +1224,10 @@ L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原�
 
 ## Verification and continuation
 
+稳定指针 main / `Record bounded Lieder access failure and closeout readiness`；精确 hash/H3/远端结果只 publication-010 回执。
+
+checkpoint010：Lieder publisher Markdown bounded attempt returned `provider_unavailable`; no body/source claim added. candidate-refresh-010重建当前池：Ag106只剩Lieder正文/同带映射/fitCov等输入，Day19 preview complete but uncredited，Day20 unopened。原硬截止2026-10-21 15:00上海、正式18收束门不变。
+
 稳定指针 main / `Complete uncredited Day19 preview method-response contract`；精确 hash/H3/远端结果只 publication-009 回执。
 
 稳定指针 main / `Add Nolan method-window boundaries to uncredited Day19 preview`；精确 hash/H3/远端结果只 publication-008 回执。

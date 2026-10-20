@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-20T19:15:55.819385+08:00",
+  "minutes_to_deadline": 1184.0696769166668,
+  "decision": "current Ag106 source/access routes saturated; no new body opened; Day19 preview complete uncredited; do not open Day20",
+  "current_route": "Rather full primary plus Lieder metadata-only; publisher markdown provider_unavailable after bounded attempt",
+  "evidence_gaps": [
+    "Lieder primary body",
+    "Rather/Lieder same band-label mapping",
+    "actual lineshape fit covariance/branches/ICC/producer"
+  ],
+  "next_useful_input": "lawful Lieder full text or actual event/fit/response package; no more center-value recomputation",
+  "formal_day18_credit": "pending original deadline closeout",
+  "partial_day19_preview": true
+}

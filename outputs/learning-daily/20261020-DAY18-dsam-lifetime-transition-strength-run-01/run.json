@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "009 preview method-response contract complete; publication pending",
+  "last_checkpoint": "010 bounded Lieder access failure recorded; closeout pending original deadline",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Add Nolan method-window boundaries to uncredited Day19 preview",
-    "commit_hash": "9168bec4f784148a05ad6326dfcf289af833cb47",
+    "subject": "Complete uncredited Day19 preview method-response contract",
+    "commit_hash": "7511acfa4e88d1c99a226617e601875f8147fca6",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-008.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-009.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Complete uncredited Day19 preview method-response contract"
+    "subject": "Record bounded Lieder access failure and closeout readiness"
   },
   "uncredited_preview": {
     "day_index": 19,

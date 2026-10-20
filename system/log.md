@@ -2393,3 +2393,8 @@ Nolan旧page保full-read status；本sessiontargeted核PDF3/6–7/10–12/19–2
 ## 2026-10-20 DAY18 checkpoint009：Day19 preview方法响应合同完成
 
 Nolan PDF48–52电子计时补核NS79-P19-9–12，完成PRF/zero-time/slope-centroid与DSAM/RDDS/timing选择树、bounded counterexample和最小校准清单；现代fast timing/TDPAD正式原件仍留正式19。Day19 preview知识交付标记complete但formal_credit=false/partial19，绝不推进课程；37items/15mapped页，verification013/lint0120error249warning/boundary010/diff通过。
+
+
+## 2026-10-20 DAY18 checkpoint010：Lieder正文访问边界
+
+Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正文/claim。candidate-refresh010重建当前Ag106证据池：只剩Lieder正文、same-band mapping、actual fit/response/Cov；不再重复中心值换算。Day19 preview complete但formal_credit=false，Day20 unopened；原Day18硬截止/收束门保持。

@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-20T11:16:59.162705+00:00",
+  "subject": "Record bounded Lieder access failure and closeout readiness",
+  "ordinary_paths": [
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-009.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lieder-markdown-access-010.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-refresh-010.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-010.md"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-010.md only"
+  },
+  "excluded": [
+    "raw/PLAN/Bib/credentials",
+    "inheriteddirty/isolateddaemon",
+    "tmpPDFs/sourcearchives",
+    "runnerlogs"
+  ],
+  "checks": "bounded provider_unavailable; no source claims; Day19 preview complete uncredited; Day18 closeout pending"
+}
