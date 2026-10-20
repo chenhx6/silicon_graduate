@@ -6647,6 +6647,91 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "CHI01-18"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+      "anchor": "Day17自审补充：侧喂养反演与印刷Gaussian例子",
+      "summary": "新全文14页/7图/表1/10式自审、actual平滑输入/反演病态和p216 literal非闭合；旧人审prefix逐字保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-1"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-3"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-4"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-5"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-6"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-7"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-8"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-9"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "侧喂养积分取向不提供时间取向合同",
+      "summary": "区分积分feeding/取向与时间jointinput；实际表反证及Gaussian代理边界写回。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-4"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-6"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-7"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "侧喂养的积分角分布与时间响应",
+      "summary": "DSAM联合分析先核samegate路径time-alignment合同，不把积分Ak当时间factorization。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-1"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
     }
   ]
 }
@@ -6912,3 +6997,12 @@ verification059核report/course/唯一writeback/boundary/lint/diff/旧claimsrevi
 KU25-11–15新claims与canonical [ledger](../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md)新段记录：110In四个旧τ/B由2001Ch71重复，(27)/(29)过.70MeV频率但无τ/B。Elevel严格递增，Eg在回弯先减；review literal“level energies”不闭合，不当实验倒置。实际脚本`system/scripts/day17_amr_review_energy_audit.py`/输入/结果核10个能差，残差<7e−13只是算术；局部负J2是离散回弯差分，不精确配端点B造阈值。最后三点quoted marginal BE2box交[.258,.279]，不生成jointCI/constantfit/pvalue或模式结论；原stopping±20%不含quotederror，Σ缺口保。
 
 Decision: `limits`重复综述被当独立高频率companion及词义反证；没有新AMR/Qt/τ实验结论。正式17once/partial18，原window/goalactive。verification060及publication046记录实际checks与发布；新知识都在knowledge且唯一writeback保持。下一原件路线继续依可用input，失败URL不原样重试、不要更多同表toy填时段。
+
+
+### Checkpoint047：Draper1970完整主线与actual feeding输入
+
+先冻sidefeeding-time-alignment回忆（声明DR70旧人审/Day16priming），原14页全文+视觉、7图/表1/10式/12refs实际重读；hash/scope/prefixsnapshot齐。旧CRLF全文与10条人审claims逐字保，新DR70-D17-1–10全needs_review。作者无DSAMtimekernel，时间取向新问题未冒称作者结果。
+
+原Table1区分rawIγ与smoothedIJ；168Hf .91−1.08负差与smooth.15实际反证裸差法，条件f=.15/.95时Eq8反演放大6.333/−5.333，fullΣ未得，不造CI。constantσ/J=.28在184Os实际失败、extranuclearfields/旧data依赖保。p216σ2=.143确为printed；独立CG/photon与J2多项式核给A2约.714而非.225。J12σ5的精确A2=.2267563/ A4=−.03063895，级联保持；匹配A2的σ2≈1.412275但A4=−.04407903，不等精确population。没有官方erratum，1.43仅countercandidate。
+
+Script `system/scripts/day17_draper1970_gaussian_audit.py`与前置冻结、Gaussian/table输入及结果保；uniform/M0/归一、末态完整trace、16/32投影与J2解析控制通过，不是原实验拟合或新δ/τ/取向测量。canonical source/ledger/DSAM及uniquewriteback齐。Decision `limits`固定alignment/积分feeding未经合同迁移；下一jointtime-alignment问题在同Day18无学分preview中有价值，window仍active。verification061记录实际check，publication047仅本批清单；不因原source完成结束整日。

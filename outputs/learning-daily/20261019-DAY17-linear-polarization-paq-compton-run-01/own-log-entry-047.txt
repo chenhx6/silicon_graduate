@@ -1,0 +1,4 @@
+
+### Day17 checkpoint047：完整DR70及Gaussian字面边界
+
+原14页/7图/表1/10式复核、新CG独立物理核与actual smoothedfeeding反演写回；9737byte人审prefix/10旧claim保，新10条待审。verification061与manifest047/H3发布，main / `Audit Gaussian side-feeding numbers and inversion inputs`，原windowactive/17once/partial18。

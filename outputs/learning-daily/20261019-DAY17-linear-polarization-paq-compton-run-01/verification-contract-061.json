@@ -1,0 +1,35 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md": 10
+  },
+  "artifacts": [
+    {
+      "file": "draper1970-gaussian-result.json",
+      "true_fields": [
+        "ok",
+        "literal_sigma0143_does_not_reproduce_printed_A2",
+        "full_trace_cascade_A2_A4_invariance",
+        "independent_J2_polynomial_and_quadrature_controls",
+        "not_an_official_erratum_or_new_measured_alignment",
+        "no_new_experimental_tau_delta_P_or_Q"
+      ]
+    },
+    {
+      "file": "draper1970-table1-result.json",
+      "true_fields": [
+        "ok",
+        "no_negative_physical_feeding_claim",
+        "no_smoothfit_covariance_or_IC_imputed"
+      ]
+    },
+    {
+      "file": "draper1970-human-prefix-after.json",
+      "true_fields": [
+        "old_prefix_and_CRLF_preserved",
+        "old_claims_10_flags_false_preserved",
+        "new_claims_10_all_needs_review"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

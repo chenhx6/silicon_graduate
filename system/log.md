@@ -2226,3 +2226,7 @@ F01定向原件/独立张量核与同B条件witness写回canonical，12906byte�
 ### Day17 checkpoint046：AMR高频率companion与能级口径
 
 KU25原Table3同CHI01数据、Elevel/Eg词义边界及quotedbox算术写回knowledge；未得Cdprimarybody，不计独立实验/新CI。verification060/manifest046/H3发布，main / `Trace antimagnetic lifetime coverage and separate energies from spacings`，原windowactive/17once/partial18。
+
+### Day17 checkpoint047：完整DR70及Gaussian字面边界
+
+原14页/7图/表1/10式复核、新CG独立物理核与actual smoothedfeeding反演写回；9737byte人审prefix/10旧claim保，新10条待审。verification061与manifest047/H3发布，main / `Audit Gaussian side-feeding numbers and inversion inputs`，原windowactive/17once/partial18。

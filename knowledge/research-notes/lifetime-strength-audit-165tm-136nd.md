@@ -432,3 +432,12 @@ finiteI16/K0 exactCG²120/341=.351906、highspin.375、candidateGs29/33=.878788�
 本次[实际表列计算](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-result.json)核Elevel严格升、Eg在15→19先降，原review“level energies”literal不闭合；保词义而不制造实验矛盾。19/21/23的quoted marginal BE2 box交于[.258,.279]，不能称jointCI、恒定性显著度或AMR支持概率。原TableVI未含达±20%stopping系统量，fullCov/response仍缺；没有给该量指定Gaussian或共模比例。
 
 Simons2005 DOI10.1103/PhysRevC.72.024318、Datta2005 DOI10.1103/PhysRevC.71.041305为高信息Cd检索入口；本次网络TLS失败仅有身份，不认证正文/独立τ/同模型差异。下一route应取得primarybody及actualfeeding/stopping，或在现有本地原件检查已知DSAM输入链，不能用更多同表重算填补缺τ。
+
+
+## 侧喂养积分取向不提供时间取向合同
+
+[[draper-1970-gaussian-substate-side-feeding]] DR70-D17-1–10新全文自审将Eq7归一population的intensity混合与Eq8转换总强度反演固定下来；Os/Hf表使用smoothedside列，不是独立yield。168Hf raw .91−1.08=−.17而smoothI6=.15；声明截断smoothF6=.95时对相邻A反演放大6.333/−5.333，实际fitCov/IC细节未知，不生成实验CI。
+
+p216原σ2=.143对A2=.225不闭合：完整CG/photon核给A2约.714；保持原件与旧人审prefix，另记source-number boundary。匹配A2约需σ2=1.42，但exactcascade与单Gaussian代理A4差约.01344；不能仅匹配A2便继承整个population。原constantσ/J=.28与184Os趋势不合，也是固定取向输入的实际反证。
+
+原Eq7只给时间积分的路径权重；各路径feedingtime与rank2/4若相关，能否以固定W(theta)乘共同衰减需另核jointkernel。原作者未给DSAMtime/response，当前任何extension必须标Codex条件推导，不能说原论文测出当前核的τbias。必要输入是samegate路径强度、各路径时间/取向和逐角response；共同stop/feeding/Σ仍缺。

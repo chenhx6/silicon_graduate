@@ -179,3 +179,6 @@ F01-D17-1–9新定向6页原式/前向推导，原human12906-byteprefix/15false
 
 
 Day17 checkpoint046 priming：KU25-11–15定向Table3的110In仍同2001Ch71四τ/B；27/29缺τ。Elevel单调与Eg回弯非同命题，printedlevelenergies句有literal边界，不称实验倒置。19/21/23的marginalbox相交不是jointCI；stopping系统/Σ缺口保持。Cdprimary检索只有metadata，多TLS失败，未读body，正式18不能冒领独立数据。
+
+
+Day17checkpoint047 priming：DR70原14页全文/7图/表1/10式新核，原人审prefix/CRLF与10旧claim保；新DR70-D17-1–10待审。168Hfraw负差不等negativefeeding，smoothedIJ反演有放大/Σ缺口；p216σ2=.143与A2=.225 literal不闭合，CG给约.714，约1.42仅条件root不是erratum。匹配A2单Gaussian仍A4不同；Eq7积分混合不提供DSAMtime-alignmentjointkernel。正式18不能拿旧程序/本次priming计独立credit。

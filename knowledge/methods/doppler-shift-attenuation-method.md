@@ -217,3 +217,8 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 由B到Qt之前先固定电荷算符和转轴
 
 [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D17-2/3/4/5/6/9：τ/branch给的B只是指定transition的率强度。potentialq与chargeQ、球张量与conventionalQ0、static与transversecomponent、finiteCG与highspin近似须逐项明确。axial模型已有sin⁴θ方向因子，单B不同时决定intrinsic矩和axis；实际PAC/TAC约束要加入，不能用自由取向witness替实验模型。MU08的候选G数值相合仍不是actualQtproducer认证。
+
+
+## 侧喂养的积分角分布与时间响应
+
+[[draper-1970-gaussian-substate-side-feeding]] DR70-D17-1/2/3/10的purestretchedE2完整trace及积分混合不提供各路径时间kernel；表1smoothedfeeding不能直接作为γγ门后/时间slice的权重。将固定alignment与DSAMfeeding分别设定前，需检查samegate逐路径取向/时间是否可分离，并保留强度/取向/response的共享Cov。原p216Gaussian数值有literal边界，新CG复核只是条件计算，不修正真实τ/δ。

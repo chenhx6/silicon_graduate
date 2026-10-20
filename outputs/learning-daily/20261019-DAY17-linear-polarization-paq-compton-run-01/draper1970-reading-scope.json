@@ -1,0 +1,77 @@
+{
+  "actual_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "actual_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "printed_pages": "211\u2013224",
+  "equations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "tables": [
+    1
+  ],
+  "references": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "curves_not_digitized": true,
+  "new_full_re_read_with_old_priming": true,
+  "time_dependent_DSA_model_not_in_source": true,
+  "primary_data_dependency": "Newton1967 for Os/Hf; Se Ref12 to be published, body not acquired"
+}

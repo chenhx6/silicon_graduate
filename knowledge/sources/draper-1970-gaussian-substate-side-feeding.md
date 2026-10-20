@@ -93,3 +93,27 @@ For [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]], this source su
 ## Personal Notes
 
 User review on 2026-07-08 resolved DR70-3, DR70-6 and DR70-7 wording. Key reminders for later Q&A: final-level populations may be mixed `\bar{P}(M)` distributions, Fig.3 `bdry` is a mixture boundary, and E2 in this source means stretched E2.
+
+
+## Day17自审补充：侧喂养反演与印刷Gaussian例子
+
+2026-10-20原Day17session，属于Day18无学分知识预习。旧人审全文prefix/CRLF/DR70-1–10/false flags逐字保持；以下是本session新self-audit，**不属于human-reviewed**，新claims全needs_review。本次实际重新读完14页、7图、表1、Eqs1–10及12references，未digitize原图/重做原实验fit。原件hash `dcccb5f22352e1998896997b13e4c306d80c5ae6dc08f86ad192eca5c36c093f`；原扫描的创建日期不是实验日期。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DR70-D17-1 | Eq6的相邻Ak不变限于pure stretched E2/无sidefeeding/未观测中间光子完整求迹，适于任意初始P(M)；不是Gaussian经退激仍Gaussian、有限γ门不变或实际时角可分离定理。 | method-and-selection-boundary | direct-source plus explicit scope | pp.214–216, Eqs5–6 | true |
+| DR70-D17-2 | Eq7对每一P_i(M)先归一再按I_i混合；Eq8使用相邻转换的Γ(J)及AD，Sec5明确transition intensity含internal conversion。原始角组峰面积/γγ门计数不能无效率/分支/门合同直接代Γ。 | formal-input-contract | direct and synthesis | p.218, Eq8 | true |
+| DR70-D17-3 | Table1把experimental Iγ与smoothed I_J分列，原experimental误差约±10%；作者明言raw相邻差会负，先拟smoothcurve再差分。因此smoothedI_J不是新的独立实验yield或精确无误差输入。 | actual-input-provenance | direct | pp.218–219, Table1 and Sec6 | true |
+| DR70-D17-4 | 168Hf的raw Iγ(J6)−Iγ(J8)=.91−1.08=−.17，而表smoothed I6=.15；负差是作者平滑动机的实际例，不是负物理feeding。条件按表smooth列向上累加至截断，F6=.95、f6=.15/.95，Eq8反演对lower/upper A的系数为6.333/−5.333；无原smoothfit/Σ，不构造实验CI。 | table-arithmetic and inverse-conditioning | derived | p.218, Table1, 168Hf rows6/8 | true |
+| DR70-D17-5 | p216明确print J12/σ12=5、A2=.225和等效σ2=.143；图2的2→0曲线在该A2落在σ约1量级。本session保留literal，不自行将.143改成1.43或称已发现官方erratum。 | source-literal-boundary | direct-text-and-figure | p.216, Fig2 example | true |
+| DR70-D17-6 | 本session独立CG末态求迹+photon helicity±1投影核：J12σ5给(A2,A4)=(.2267563063,−.03063894581)，完整12→10→…→0每步不变。J2σ.143却给(.7142857143,−1.7142857141)，与printedA2=.225不闭合。 | Codex conditional source-number replay | derived not new experiment | p.213, Eqs2–4; p.216 example | true |
+| DR70-D17-7 | 在同一声明Gaussian/纯E2合同下，匹配printedA2=.225的σ2=1.418668；匹配精确cascadeA2的σ2=1.412275。后者A4=−.04407903而exactcascade−.03063895，差−.01344009；只匹配A2不保证A4或population同一。根不是原实验测得σ或官方更正。 | Codex surrogate-boundary | derived | p.216, equivalent-Gaussian discussion | true |
+| DR70-D17-8 | 独立J2→0角多项式与16/32点投影、uniform各J的isotropic、M0的(A2,A4)=(5/7,−12/7)以及归一/正population控制通过；这是组件物理核验，不能认证原全部figcurves/实验取向或后续δ。 | model-validation-scope | derived | p.213, Eqs2–4 | true |
+| DR70-D17-9 | 原σJ=.28J的constantσ/J例在184Os图4给与data相反趋势，σJ=2.8仅在用smoothedI_J条件下合理；p223多组a+bJ给类似轨迹但点位不同。不能把固定σ/I当普适原实验证明。 | counter-evidence and parameter-dependence | direct-author | pp.219–223, Figs4–6 | true |
+| DR70-D17-10 | Os/Hf观测来自Newton1967 Ref1而非本篇新采集；Se角分布为本组Ref12“to be published”，无独立原data/fitCov。p223还保168Hf 2→0受extranuclearfields可能；全文没有DSAM时间取向联合kernel，不能从Eq7积分权重推其时间分布。 | independence and time-response-readiness | direct-source and negative-check | p.223 discussion; p.224 References1/12 | true |
+
+[新Gaussian结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/draper1970-gaussian-result.json)、[Table1实际输入审计](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/draper1970-table1-result.json)，可复算script `system/scripts/day17_draper1970_gaussian_audit.py`。用已经存在的Sympy/Numpy/Scipy；没有安装依赖或改原件。p216关于从Gaussian4曲线取A4的图解描述与exactcascade不同，是单Gaussian代理的边界，不替换Eq6精确求迹。
+
+Eq8可写`A_side=(A_lower−r A_upper)/(1−r)`，`r=Γ_upper/Γ_lower`；Jacobian为`(1/f,−r/f,(A_lower−A_upper)/f²)`，`f=1−r`，完整误差为`gᵀΣg`。f→0时反演病态，Γ若共享归一/峰/效率必须保Cov。上述168Hf的f只取表中smooth输入及声明截断；不当实际原Γ反演、sigma误差或DSAMfeedingtime测量。
+
+另见[[lifetime-strength-audit-165tm-136nd]]与[[doppler-shift-attenuation-method]]：积分AD对不同feeding路径的时间kernel尚无约束，本日新问题保留，不从当前结果推实际lifetimebias。

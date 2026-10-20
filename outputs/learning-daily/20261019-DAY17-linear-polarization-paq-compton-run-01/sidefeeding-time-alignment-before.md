@@ -1,0 +1,11 @@
+# 侧喂养时间与取向是否可分离：来源前回忆
+
+2026-10-20原Day17session，Day18无学分预习；不打开其它课卡。
+
+已有priming：DR70知识页人审10claims，Gaussian侧喂养并非下一级Gaussian；purestretchedE2完整求迹的相邻Ak不变；原user review强调Fig3混合边界。Day16完整trace与有限门E_G规范、C96保号条件已看过。Jensen/Chiara/MU08本日已读，时间sidefeeding与角度alignment往往作为不同拟合输入，但实际联合合同未闭合。
+
+新问题：DR70实际Eq7/8的混合权重是积分intensity；如果两条feeding路径具有不同时间分布和不同rank2/4取向，DSAM随减速时间加权的角谱是否可写成一个固定W(theta)乘共同衰减？必要条件是逐时刻的归一rank一致或路径相同timekernel；单条总Ak相同不足以证明全IQU(t)相同。
+
+计划先完整原读14页DR70主线/10式/7图/表与限制（以实际原件核数，不预填已读），保人审prefix/CRLF逐字，新suffix独立needs_review。寻找作者是否谈time dependence；没有则把timeextension明确为Codex条件模型而非作者结果。只做一项可解析设计，使用声明路径/feedingtime与tensor条件，不模拟新实验或修正实际τ。检查fullangleintegration、同timekernel、零feeding、late/fast极限；角度门和子态条件可使权重改变，不能拿原积分intensity当γ门后权重。
+
+最高信息价值：厘清AD/P/DCO与DSAM联合分析中需哪一项actualtime-alignment输入；没有该input时给readiness，不把新toy推广为当前核实际bias。
