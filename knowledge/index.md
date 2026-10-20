@@ -55,6 +55,8 @@ updated: 2026-10-20
 
 - [[guo-2024-chiral-wobbler-74br]] — 74Br 手征与 wobbling 共存 DSAM 寿命测定、M1/E2 多极二分律与终极基准。
 
+- [[petrache-2018-chiral-bands-even-even-136nd]] — 136Nd MχD 多准粒子微观组态形变差与 Mukhopadhyay 2008 DSAM 寿命 B(E2) 2 倍系统落差对账。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

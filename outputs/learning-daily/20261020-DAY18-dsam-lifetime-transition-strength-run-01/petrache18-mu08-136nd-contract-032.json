@@ -1,0 +1,13 @@
+{
+  "target": "136Nd",
+  "dsam_source": "Mukhopadhyay 2008 Phys. Rev. Lett. 100:172501",
+  "mchid_source": "Petrache 2018 Phys. Rev. C 97:041304(R)",
+  "description": "Crosswalk explaining Mukhopadhyay 2008 factor-of-2 B(E2) difference between Band 1 and Band 2 via Petrache 2018 MchiD configuration deformation differences",
+  "check_count": 4,
+  "checks": [
+    "mu08_band1_vs_band2_BE2_factor2_verification",
+    "mu08_Qt_ratio_1.45x_verification",
+    "petrache18_tac_cdft_beta_ratio_consistency",
+    "multiquasiparticle_configuration_assignment_bridge"
+  ]
+}

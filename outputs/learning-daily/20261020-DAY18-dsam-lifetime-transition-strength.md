@@ -2245,6 +2245,73 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "GU24-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "anchor": "Day18定量审计：带1与带2二倍B(E2)差异的微观多准粒子组态解构（对仗Petrache 2018）",
+      "summary": "Table I与II中带1与带2带内B(E2)实测2.06倍差异与Petrache 2018 TAC-CDFT组态A与B形变平方差1.65倍对账解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "anchor": "Day18定量审计：MχD组态形变差与Mukhopadhyay 2008 DSAM寿命B(E2)对账",
+      "summary": "Table I中五对手征候选带微观多准粒子组态与Mukhopadhyay 2008 DSAM寿命B(E2)二倍系统性落差的微观闭环解释",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "136Nd核心原件B(E2)二倍差异的微观组态解释：Mukhopadhyay 2008与Petrache 2018对账",
+      "summary": "136Nd核心原件微观闭环：带1与带2实测B(E2)落差2.06倍直接对应MchiD组态A(beta=0.18)与组态B(beta=0.14)的低Omega中子破对形变极小差异",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "同一核素平行四极带的四极矩差异与准粒子对齐阻碍形变",
+      "summary": "方法页补充DSAM寿命测定平行四极能带间四极矩落差时结合多准粒子轨道对齐阻碍形变极小的微观对账准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "petrache-2018-chiral-bands-even-even-136nd",
+      "summary": "索引增加136Nd MchiD多准粒子微观组态与Mukhopadhyay 2008 DSAM寿命B(E2)二倍落差对账导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-4"
+        }
+      ]
     }
   ]
 }
@@ -2259,6 +2326,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint032已实际提交，稳定指针main / `Audit 136Nd DSAM in-band B(E2) factor-of-2 difference via Petrache 2018 multiquasiparticle configurations`；精确hash/H3/远端结果只publication-032回执。
+
 
 checkpoint031已实际提交，稳定指针main / `Audit 74Br chiral wobbler DSAM lifetimes and chirality-wobbling multipolarity dichotomy`；精确hash/H3/远端结果只publication-031回执。
 

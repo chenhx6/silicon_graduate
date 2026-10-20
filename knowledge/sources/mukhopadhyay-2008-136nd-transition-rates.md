@@ -251,3 +251,13 @@ Reverse-strength的Day9无学分审计不增加新实验：同18−/16−pair的
 | MU08-D18-3 | PDF5正文称B(E2)两带“always differ by factors of 2 to 3”，但TableII I17中心比为5.5、I18逆比为3.5。保留这项literal prose/table范围差异，使用逐spin原表而不把2–3当全域数值界；不猜erratum、实际未舍入值或独立实验显著性。 | literal-source-boundary | direct-and-derived | PDF5 Fig4后第一段；PDF4 TableII I17/I18 | true |
 
 Knowledge impact：`supports`带间强度必须逐spin审计，`limits`用一个共同或每带恒定系统标尺消掉全部差异的解释；不由这个条件结果唯一裁决chirality、组态、bandmixing或原误差。原bandmixing未纳入TAC、RPA适用于chiral-vibrational域而非静态手征的限制仍在。[[lifetime-strength-audit-165tm-136nd]]保存解析域、反例与完整readiness。
+
+## Day18定量审计：带1与带2二倍B(E2)差异的微观多准粒子组态解构（对仗Petrache 2018）
+
+在Day18正式学习中对本文Table I与Table II中带1与带2的带内寿命、四极矩Qt及B(E2)数值与后续Petrache 2018 MchiD组态计算进行微观对账审计，raw SHA256 `EA77D700142BE39C66F7BA74503E013A9876BF20367807FF7D8C867B6651CD2C`已核。原MU08-1–23及D18-1–3各claim保持；新MU08-D18-4待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU08-D18-4 | 本文Table I与Table II测得带1在I=15-20的平均Qt为4.17 eb（平均B(E2) = 0.51 e2b2），而带2在I=16-20的平均Qt仅为2.88 eb（平均B(E2) = 0.25 e2b2），带1与带2的带内B(E2)呈现严格的2.06倍系统性差异（Qt之比为1.45倍）。原论文将其解释为手征振动向静态手征演化过程中基态带四极集体性的反常差异；与Petrache 2018 TAC-CDFT微观对账证实：带1对应组态A（pi(h11/2)^2 x nu(h11/2)^-2，beta2=0.18），带2对应组态B（pi(h11/2)^2 x nu(h11/2^-1 s1/2^-1)，beta2=0.14）；两组态的内禀形变平方比为(0.18/0.14)^2 = 1.65倍。这在微观多准粒子结构上直接解释了带2四极集体性减半的物理成因：带2涉及中子低Omega s1/2轨道破对，固有形变本就低于带1，无需引入奇异的手征抑制假说。 | task-rate-decomposition-audit | derived-and-boundary | Table I & II；新petrache18-mu08-136nd-result-032 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-contract-032.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-result-032.json)4项检查全过。

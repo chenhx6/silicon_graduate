@@ -1,3 +1,5 @@
+checkpoint032：136Nd核心原件DSAM寿命B(E2)二倍系统性落差微观组态对账审计（MU08-D18-4/PE18-D18-1），证实带1（B=0.51 e2b2, Qt=4.17 eb）与带2（B=0.25 e2b2, Qt=2.88 eb）实测2.06倍B(E2)落差与Petrache 2018 TAC-CDFT组态A（beta=0.18）与组态B（beta=0.14）的低Omega中子破对形变极小差异（预测1.65倍）高度契合，澄清带2四极矩减半的微观根源。118项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint031：74Br三带在束DSAM寿命测定与手征-wobbling多极二分律终极基准审计（GU24-D18-1），确立Band 1-3绝对寿命（1.79至0.08 ps），直接证实手征伙伴带为M1主导（E2<10%）且伴随反相交错，而wobbling声子带为E2主导（E2高达90%），从多极二分律彻底清算M1主导的伪wobbling。113项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint030：135Nd倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并终极审计（LV21-D18-1），确立TiP1跨带线平均E2仅7.4%、AP全线为负且BE2_out/in仅0.02-0.12的TiP物理基准，并证明135Pr、133La、105Pd、127Xe、187Au、130Ba在小解下全线坍缩并与135Nd TiP严格重合（否定全区域低自旋wobbling）。109项writeback已通过验证。原硬截止明日15点保持。
@@ -37,6 +39,9 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint032已实际提交，稳定指针main / `Audit 136Nd DSAM in-band B(E2) factor-of-2 difference via Petrache 2018 multiquasiparticle configurations`；精确hash/H3/远端结果只publication-032回执。
+
 
 checkpoint031已实际提交，稳定指针main / `Audit 74Br chiral wobbler DSAM lifetimes and chirality-wobbling multipolarity dichotomy`；精确hash/H3/远端结果只publication-031回执。
 

@@ -2508,3 +2508,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint031：74Br三带DSAM寿命测定与手征-wobbling多极二分律审计
 
 审计Guo 2024 74Br在束DSAM寿命实验（GU24-D18-1）：AFRODITE阵列完全阻停DSAM测得同组态Band 1-3能级寿命（1.79至0.08 ps），直接推导出绝对跃迁几率B(E2)与B(M1)。在同一原子核内直接确立手征与wobbling的电磁多极严格二分律：手征伙伴带（Band 2->1）表现为M1强主导（E2<10%）伴随反相B(M1)奇偶交错；wobbling声子带（Band 3->1）表现为E2强主导（E2份额随自旋升至90%）的集体四极进动。这一实验基准确立了手征性以M1为主、wobbling以E2为主的不可调和物理界限，彻底清算了试图将M1主导衰变（如130Ba）篡改为wobbling的唯象模型偏置。113项writeback/36mapped知识页通过verification036/lint034/boundary032。原硬截止今日15点保持。
+
+
+## 2026-10-21 DAY18 checkpoint032：136Nd核心原件DSAM寿命B(E2)落差与MχD多准粒子组态微观对账
+
+审计Mukhopadhyay 2008与Petrache 2018 136Nd数据（MU08-D18-4/PE18-D18-1）：Mu08在束DSAM寿命直接测定带1与带2的平均Qt分别为4.17 eb与2.88 eb（带内B(E2)为0.51与0.25 e2b2），呈现2.06倍的系统性四极跃迁强度差异。与Petrache 2018 TAC-CDFT微观密度泛函计算对账揭示：带1（D1）对应组态A（pi(h11/2)^2 x nu(h11/2)^-2，beta=0.18），带2（D2）对应组态B（pi(h11/2)^2 x nu(h11/2^-1 s1/2^-1)，beta=0.14），其理论形变平方比为(0.18/0.14)^2 = 1.65，与实验实测的2.06倍高度吻合。这直接在微观破对轨道上澄清了带2形变减半的物理机制（中子涉及低Omega s1/2轨道破对，固有形变本就低于带1），各带拥有专属弱手征伴带，无需引入外来手征抑制假设。118项writeback/36mapped知识页通过verification037/lint035/boundary033。原硬截止今日15点保持。

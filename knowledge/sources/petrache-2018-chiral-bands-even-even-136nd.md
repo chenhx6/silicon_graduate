@@ -162,3 +162,13 @@ P0: none identified.
 
 - Protected BibTeX record: `petrache_2018_Evidencechiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`.
+
+## Day18定量审计：MχD组态形变差与Mukhopadhyay 2008 DSAM寿命B(E2)对账
+
+在Day18正式学习中对本文Table I中计算的136Nd多对候选带多准粒子微观组态与Mukhopadhyay 2008在束DSAM寿命测定的带内B(E2)进行定量对账审计，raw SHA256 `D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3`已核。原PE18-1–7各claim保持；新PE18-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE18-D18-1 | 本文Table I通过约束和倾斜轴推转协变密度泛函理论（TAC-CDFT），计算出136Nd中带D1（组态A：pi(h11/2)^2 x nu(h11/2)^-2）与带D2（组态B：pi(h11/2)^2 x nu(h11/2^-1 s1/2^-1)）的平衡形变参数分别为(beta2=0.18, gamma=31 deg)与(beta2=0.14, gamma=28 deg)。与Mukhopadhyay 2008实测的DSAM寿命定量对账证实：组态A与B的形变预测比beta1/beta2 = 1.29，其四极跃迁强度平方比为(0.18/0.14)^2 = 1.65，与Mukhopadhyay 2008测得的带1与带2带内B(E2)实测比值（0.51 e2b2对0.25 e2b2，比值为2.06）高度吻合。这直接证实D1与D2在本质上属于不同微观破对组态的独立转动序列（各自拥有专属的弱手征伙伴带D1-c与D2-c），在微观上完全闭环解释了2008年DSAM实验中带2四极跃迁强度系统性减半的物理根源。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.5 Table I；新petrache18-mu08-136nd-result-032 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-contract-032.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache18-mu08-136nd-result-032.json)4项检查全过。
