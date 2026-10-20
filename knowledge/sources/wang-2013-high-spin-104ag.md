@@ -166,12 +166,18 @@ P0: none identified.
 - Protected BibTeX record: `wang_2013_Highspinlevel` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2013_Wang et al_High-spin level structure of the doubly odd nucleus 104 Ag.pdf`.
 
-## Day18定量审计：准粒子对齐跳变3.5hbar、手征指认引文谱系偏差与寿命缺失对账
+## Day18 更正审计：A/B 对齐原图、寿命报告范围与跨核类比边界
 
-在Day18正式学习中对本文建立的104Ag负宇称能带A/B对齐增益及手征候选带谱系开展定量核验，raw SHA256 `366246ACEC6C6B5A46169606B125683BBD58C9D512A980A3910E5B23D837039C`已核。原W13-1–12各claim保持；新WS13-D18-1待审。
+checkpoint047 重新核对本文全部 9 页主线、Table I 和 Fig. 4–5，并按 Fig. 5 的频率定义及 Harris 参考从 Table I 能级独立复算。原 raw SHA256 `366246ACEC6C6B5A46169606B125683BBD58C9D512A980A3910E5B23D837039C` 匹配。此前 `WS13-D18-1` 的复合结论已被本节取代；原 W13 与 AR claims、frontmatter 和 review 标记均保持。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| WS13-D18-1 | 本文报道的104Ag负宇称带A/B定量核验揭示：(1) 带A在I=14hbar附近出现明显对齐增益（Delta i ~ 3.5 hbar），使得高自旋区带A与带B出现近3 hbar对齐落差，而本文据以将其指认为手征伙伴的核心依据是引用邻核106Ag的Joshi 2007工作（Ref. 17）；(2) 后续106Ag的AFRODITE完全阻停DSAM寿命测量（Lieder 2014, Bark 2024）确凿证实该~4 hbar对齐跳变本质上是2qp向4qp的普通能带交叉与破对形变减小（Qt由2.04降至1.36 eb，跌落2.25倍），彻底推翻了手征解释；(3) 104Ag全核无任何在束寿命测量（DSAM或RDDS均缺），这构成了方法学警示：在缺乏绝对寿命测定时，跨同位素唯象类比极易导致已被证伪的2qp/4qp带交叉假象在同位素链中错误传播。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.5–7, Fig. 1, Fig. 5；新wang13-104ag-chiral-result-042 | true |
+| WS13-D18-1 | **superseded / 更正**：撤回此前关于 A/B 出现约 3 ℏ 高自旋对齐落差、全核无寿命、邻核结果已证伪 104Ag，以及实测四极矩下降的复合断言。旧脚本输出不能验证这些断言；以下原子化条目给出重新核查的范围。 | evidence-correction | superseded | 本节 WS13-D18-2–7；旧 Day18 复合 claim | true |
+| WS13-D18-2 | Fig. 5 实际绘出的 A 带对齐点覆盖 I=10–18，B 带覆盖 I=11–15；在共同的 I=13–15 区域两曲线相近。原图没有 B 带 I=16 或 18 的对齐点，不支持用这些自旋构造约 3 ℏ 带间落差。 | derived-observable | direct | PDF p.7 / 024306-7, Fig. 5；p.6 对齐讨论 | true |
+| WS13-D18-3 | 使用 Table I 能级与 Fig. 5 的 Ix=√[I(I+1)−K²]、中心频率定义，取 K_A=8、K_B=10 及 J0=7、J1=15 的 Harris 参考，独立复算得到 I=13/14/15 的 A/B 对齐约为 7.492/7.516、8.159/8.314、8.922/8.456 ℏ；这是能级派生重建，不是新增组态或寿命测量。 | task-reconstruction | derived | PDF pp.3–4, Table I；p.7, Fig. 5 caption | true |
+| WS13-D18-4 | 作者用本核能量、S(I)、跃迁比和对齐特征及多个邻核类比提出 A/B 手征解释；106Ag 的 Joshi 2007（Ref.17）是其中一个类比。p.6 局部称 “true chiral partners”，但摘要和总结仍称 candidate，不能将该引文链单独视为确证或证伪。 | author-interpretation | direct | PDF pp.1,5–6,8；Refs.11,13,15,17 | true |
+| WS13-D18-5 | 本文未报告 A/B 带的寿命或分别标定的绝对 B(M1)、B(E2)；其 Fig. 4 给出比值指纹。本文的报告范围不能支持“104Ag 全核、全部后续文献均无 DSAM/RDDS 寿命”的穷尽断言。 | evidence-boundary | source-scope | 全文；PDF p.6, Fig. 4 | true |
+| WS13-D18-6 | 旧脚本自行取 β=0.18/0.12 并用 A=104、Z=47 的轴对称线性 Q0 公式得到约 2.039/1.360 eb；这些 β 与 Q0 不是本文实测 Qt，也不是本文导出的 2qp/4qp 形变。比值 2.25 是所选 Q0 比的平方；β/Q0 比为 1.5，不能称“形变下降 2.25 倍”。 | calculation-boundary | task-self-audit | 旧 day18_wang13_104ag_chiral_boundary_audit.py 的输入/公式；本文无对应数值 | true |
+| WS13-D18-7 | Bark 2024 §6 回顾了 106Ag 的寿命、对齐可加性及模型支持的 2qp/4qp 解释，并指出同期其它解释；本次未取得或原读其所引 Lieder 2014 primary。该邻核案例可提示检验路线，不能据此推断 104Ag 的同类结构已被证伪。 | cross-source-boundary | review-reported-and-inference | Bark 2024 PDF pp.22–23 / 24302-22–23, §6；非 Wang 2013 实测 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/wang13-104ag-chiral-contract-042.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/wang13-104ag-chiral-result-042.json)4项检查全过。
+必要 companion 为 [[bark-2024-investigations-nuclear-chirality-ithembalabs]] 的上述定向范围；其综述不能替代所引 primary。旧分析合同与结果仅作为历史运行记录保留，其固定 `passed` 不代表四项科学核查通过。本节保留候选解释和后续直接来源缺口，不授课程学分，也不升级任何 review 状态。

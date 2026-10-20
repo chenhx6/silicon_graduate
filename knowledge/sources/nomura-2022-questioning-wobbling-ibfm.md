@@ -144,12 +144,17 @@ The table separates source-grounded locators from Agent reconstruction. User rev
 
 Navigation only: cross-source ownership remains in [[low-spin-wobbling-controversies]] and the related synthesis. This source-level review does not change independent project/synthesis review states; no additional provisional reasoning is stored here.
 
-## Day18定量审计：实验室系IBFM计算与Day18物理小解跃迁强度的精确收敛对账
+## Day18修订：IBFM比较向量与模型替代解释
 
-在Day18正式学习中对本文Table II中计算的135Pr、105Pd、127Xe、133La电磁多极量与Day 18系列小解审计结果进行微观与实验交叉对账，raw SHA256 `E61E3DD6FE5E67FB55543F3A136C7CCE0FDA98AD01F112D81D5EEF70B613465F`已核。原NOM22-1–15各claim保持；新NOM22-D18-1待审。
+原NOM22-1–15与review保持。旧result/contract-033保档superseded，原脚本未读PDF，checks_passed=True为固定赋值，不构成四项科学验证。此处按TableII和原方法纠错，不由模型裁决实验分支。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| NOM22-D18-1 | 本文Table II通过受约束能量密度泛函导出的实验室系相互作用玻色子-费米子模型（IBFM），计算了四个gamma-soft核中带间连接线的多极混合比与跃迁几率。定量对账证实微观模型与Day 18物理小解实验审计呈现高度自洽的惊人收敛：(1) 对135Pr 813 keV线，IBFM预测delta = -0.368，与后续Lv 2022偏振确立值delta = -0.37(8)在0.002误差内严格吻合，计算的B(E2_out)/B(E2_in)仅0.040，坚决否定了0.843的wobbling大解假象；(2) 对127Xe 735 keV线，IBFM预测B(E2_out)/B(E2_in)为0.163，与Day 18审计由DCO物理小解导出的崩塌值0.164完全一致（符合度达0.001），而原wobbling声称值为1.500；(3) 对105Pd与133La，IBFM同样预言小解模值及M1主导衰变。这直接从微观壳模型与玻色子配对理论上终结了争论：无需引入三轴刚性进动假设，gamma-soft核芯与单粒子耦合自然产生M1主导且B(E2_out)/B(E2_in)约0.04-0.16的跃迁，证明低自旋能带的物理真实是准gamma振动耦合或倾斜进动，而非三轴wobbler。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.10 Table II；新nomura22-ibfm-wobbling-result-033 | true |
+| NOM22-D18-1 | 撤回旧“精确收敛”“0.002误差内验证”“四核普遍.04–.16/M1主导”及“终结wobbling、证明TiP/准gamma身份”的表述；改为D18-2–6限定的具体模型比较。 | task-correction | superseded-interpretation | 本段D18-2–6；旧result-033 | true |
+| NOM22-D18-2 | TableII 135Pr813线IBFM给δ=-.368、RM1=.425、RE2=.040；所列Lv2022实验δ=-.37(+.10,-.14)、RE2=.12(.08)。δ中央差.002只是打印中心近似，不是误差/CI或整个observable向量相同。原Lv producer/Σ与模型误差未得，不据模型排另实验。 | model-and-reported-data-comparison | direct-and-boundary | PDF10 TableII 135Pr两组行；原Refs8/18 | true |
+| NOM22-D18-3 | 127Xe735线模型RE2=.163、δ=-1.801、RM1=.037；该δ对应E2分率≈.76435。即使RE2数值接近旧条件替根的.164，也不是同一small-δ物理解或独立实验；带内矩阵元/能量及其它输入不同。 | model-vector-and-conditional-fraction | direct-and-derived | PDF10 TableII 127Xe735行；Fig7f/10；新mixed-boundary result-047 | true |
+| NOM22-D18-4 | TableII 105Pd991/1034/994的模型δ=.727/.817/.851，但133La618为-1.167、127Xe低spin多行模值>1；RE2还包括133La .683/.401/.443、105Pd .389/.236/.182等。原Concluding文字概括|δ|<1与表中具体例外须分范围保存，不能声明全四核统一.04–.16。 | model-table-and-prose-boundary | direct | PDF10 TableII与Concluding Remarks | true |
+| NOM22-D18-5 | IBFM为替代模型：core PES受EDF约束，boson–fermion三耦合按各奇核低能谱定标，E2电荷与core B关联，M1用经验g及spin-g淬灭；不是参数自由的微观壳模型证明或新独立实验。 | model-calibration-lineage | direct | PDF4 SecII/TableI；PDF6 Eqs8–13 | true |
+| NOM22-D18-6 | 原文用alternative/questioning措辞，105Pd的冲突结果使其本性仍open；未用原角分布/偏振response重拟合并排所有分支，也未证明实际TiP取向。数据/模型producer与联合误差缺口限制结论。 | interpretation-boundary | direct | PDF7讨论；PDF10 Concluding；[[timar-2019-transverse-wobbling-105pd]] TI19-D18-3 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/nomura22-ibfm-wobbling-contract-033.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/nomura22-ibfm-wobbling-result-033.json)4项检查全过。
+此次独立worker完整11页文字主线，TableII视觉；主代理核TableII视觉/定向原方法文字，未重新视觉读取所有图。原raw SHA256 `e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f`保持。模型与原data独立性分层，不重报CI。

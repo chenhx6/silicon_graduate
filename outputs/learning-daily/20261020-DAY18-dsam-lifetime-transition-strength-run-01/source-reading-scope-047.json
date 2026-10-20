@@ -1,0 +1,16 @@
+{
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "kind": "same-session-correction-batch",
+  "primed": true,
+  "blind_test": false,
+  "parent": "primary TableII MU08, PE18Fig1/TableI already046; now HechtTableI/Petrache06Eqs/TimarFig2TableI/NomuraTableII/MoTableIV visually checked; GR11 raw XML full tables parsed; agent raw scopes in source pages",
+  "workers": {
+    "grodner": "full XML text/table/captions, GR06 four pages and selected images; Wang06 TableI targeted only",
+    "ag_tl": "Wang9/Pai12 text full mainline; Bark and Guo targeted review/model only, no Masiteng/Lieder body",
+    "ce_mo": "Ce18/Mo16 full text mainline, selected table images; no actual limit producer"
+  },
+  "source_before_Day18_prefixes_preserved": true,
+  "all_new_claims_need_review": true,
+  "no_human_review_upgrade": true,
+  "no_new_experimental_CI": true
+}

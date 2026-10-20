@@ -93,12 +93,18 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 - [[koike-2003-128cs-chiral-doublet-bands]]
 - [[chirality-wobbling-competition-evidence]]
 
-## Day18定量审计：在束DSAM寿命测量、侧馈参数跨核迁移敏感性与四极跃迁两带对称性
+## Day18原件复核纠正：侧馈迁移、强度对比与手征解释边界
 
-在Day18正式学习中对本文128Cs与132La在束DSAM寿命测量链条及形变提取开展定量核验，raw SHA256 `654527DC34F2FF9E455D3DC16F88E83F7E846EC457C97C453E652E22C51F01C9`已核。原GR06-1–10各claim保持；新GR06-D18-1待审。
+2026-10-21 对主原件 `raw/papers/codex-day10/grodner-2006-128cs.pdf` 重新核读，SHA-256 为 `654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9`。本段为 Codex self-audit；前文 GR06-1–10、原有 review 状态和证据边界保持，不计新增实验或课程学分。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GR06-D18-1 | 本文通过OSIRIS II完全阻停DSAM测定128Cs与132La能级寿命并导出B(E2)与B(M1)：(1) 侧馈模型采用131La参数迁移方案，通过高低两组参数包络将侧馈不确定度直接计入寿命误差（132La约+/-15%）；(2) 132La侧带B(E2)较基带发生约20倍严重塌缩（带内Qt崩塌4.5倍），彻底否定静态手征对称破缺；(3) 128Cs两带B(E2)高度接近（Qt均在2.1 eb量级），且带内与带间B(M1)呈现反相奇偶交错，确立128Cs是A~130区保持内禀形变对称性的真手征候选核基准。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.1–3, Fig. 2, Fig. 4；新grodner11-126cs-dsam-result-034 | true |
+| GR06-D18-1 | **superseded（2026-10-21）**：原追加段中侧馈迁移、132La约20倍B(E2)差异有直接来源，但“Qt崩塌4.5倍”“128Cs Qt约2.1 eb”“彻底否定静态手征”及“确立真手征”没有原称强度的支持，由 GR06-D18-2–7 分项替代；旧 result-034/contract-034不再验证这些结论。 | superseded-task-audit | corrected-and-boundary | 本段 GR06-D18-2–7；旧 grodner11-126cs-dsam-result-034 与 contract-034 | true |
+| GR06-D18-2 | 作者用厚Sn靶兼作阻停体，以DSAM测128Cs与132La寿命，再由寿命和分支导出B值；它们共享输入，不能当作独立几何测量。“靶兼阻停体”不表示无飞行中发射或不依赖停止历史。 | experiment-and-derived-chain | direct-and-boundary | PDF pp.1–2 / 172501-1–2实验方法；p.2 Fig.2 | true |
+| GR06-D18-3 | Qlow/Qhigh/SMR由131La研究确定并假设迁移到128Cs与132La。128Cs用两组侧馈参数的变化计入寿命误差；132La侧馈模式导致的寿命影响估计约±15%。这是作者的模型与误差处理，不是本次重拟合。 | side-feeding-assumption-and-budget | direct | PDF p.2 / 172501-2左栏首两段；Fig.1 | true |
+| GR06-D18-4 | 原文直接报告132La侧带B(E2)约比对应yrast值低20倍，M1约低2–5倍，并在总结中认为其派生强度不符合内禀手征的对称要求。保留作者结论的对象及模型语境，不写成排除所有手征动力学的唯一实验裁决。 | reported-strength-and-author-interpretation | direct | PDF p.2右栏末段至p.3左栏首段；Fig.4；p.4总结 | true |
+| GR06-D18-5 | 将B(E2)比20换成Qt比sqrt(20)≈4.47，须假设相同spin及相同转轴/γ/K等矩阵元几何；这是条件推导，不是作者直接报告的Qt或沿spin“崩塌”。原文无128Cs两带Qt均约2.1 eb的报告，旧034脚本也未读入或计算128Cs数据；该数值撤回。 | quadrupole-conversion-boundary | derived-and-source-boundary | PDF pp.1–4全文；Fig.4报告B值；旧034脚本输入与计算主体 | true |
+| GR06-D18-6 | 作者报告128Cs伙伴带对应B(E2)/B(M1)相似及带内/side→yrast的M1交错，认为符合核模型预期的手征伙伴特征；模型计算的M1交错比实验更强。提取仍假设pure M1，所引先前实验支持E2贡献小于10%；相似强度不能单独证明形变相等或指定内禀几何。 | author-interpretation-and-extraction-boundary | direct | PDF p.2右栏pure-M1段；p.3正文/Fig.4；p.4 Fig.6及总结 | true |
+| GR06-D18-7 | 本次完整读取四页正文主线与图注，视觉核PDF2–3的Fig.1–5；Fig.6本次仅文字/图注读取。未数字化强度点，未取得原谱、完整响应或联合协方差，不生成新寿命/Qt或实验CI。 | current-source-reading-scope | direct-and-boundary | 主raw PDF pp.1–4；本次视觉范围PDF pp.2–3 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)4项检查全过。
+旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)与[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)在本段审计用途上标为 **superseded**；其未读入本128Cs原件，固定passed字段不能验证本页的侧馈、强度或Qt。原输出保留为历史记录，本次不重跑或覆盖。

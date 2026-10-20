@@ -1,0 +1,881 @@
+{
+  "kind": "source-table-semantic-and-conditional-design",
+  "sources": [
+    {
+      "path": "raw/papers/codex-day10/grodner-2011-126cs.xml",
+      "sha256": "dfc649e43493debee93c4d9e76694360972f82382ce0b25a04945b7a766b728c"
+    },
+    {
+      "path": "raw/papers/2021_Musangu et al_Chiral vibrations and collective bands in Mo 104 , 106.pdf",
+      "sha256": "bbfc8907ca98bcf7439ebda321f60988fd5a3052120532a4ce1d364484912dac"
+    },
+    {
+      "path": "raw/papers/2016_Petrache et al_Triaxiality and exotic rotations at high spins in Ce 134.pdf",
+      "sha256": "04ac0eb3179a6cb389c45f9df8b4b56d90edf43bcfd8ee9ffed20fb68c898b4d"
+    }
+  ],
+  "grodner_actual_branch_rows": [
+    {
+      "table": "tl0010",
+      "spin": 21,
+      "reported_tau_ps": 0.51,
+      "E_keV": 1072.0,
+      "multipolarity": "E2",
+      "I_printed": "4.1",
+      "B_printed": "18−4+18",
+      "B_Wu_central_or_cap": 18.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 21,
+      "reported_tau_ps": 0.51,
+      "E_keV": 554.0,
+      "multipolarity": "M1",
+      "I_printed": "2",
+      "B_printed": "0.10−0.04+0.10",
+      "B_Wu_central_or_cap": 0.1,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 20,
+      "reported_tau_ps": 0.68,
+      "E_keV": 1046.0,
+      "multipolarity": "E2",
+      "I_printed": "15",
+      "B_printed": "23−3+11",
+      "B_Wu_central_or_cap": 23.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 20,
+      "reported_tau_ps": 0.68,
+      "E_keV": 518.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.04",
+      "B_Wu_central_or_cap": 0.04,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 19,
+      "reported_tau_ps": 0.42,
+      "E_keV": 993.0,
+      "multipolarity": "E2",
+      "I_printed": "5.6",
+      "B_printed": "25−5+17",
+      "B_Wu_central_or_cap": 25.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 19,
+      "reported_tau_ps": 0.42,
+      "E_keV": 528.0,
+      "multipolarity": "M1",
+      "I_printed": "4.3",
+      "B_printed": "0.19−0.04+0.13",
+      "B_Wu_central_or_cap": 0.19,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 18,
+      "reported_tau_ps": 0.51,
+      "E_keV": 961.0,
+      "multipolarity": "E2",
+      "I_printed": "24",
+      "B_printed": "40−6+13",
+      "B_Wu_central_or_cap": 40.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 18,
+      "reported_tau_ps": 0.51,
+      "E_keV": 277.0,
+      "multipolarity": "M1",
+      "I_printed": "5.8",
+      "B_printed": "0.55−0.11+0.21",
+      "B_Wu_central_or_cap": 0.55,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 18,
+      "reported_tau_ps": 0.51,
+      "E_keV": 465.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.04",
+      "B_Wu_central_or_cap": 0.04,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 17,
+      "reported_tau_ps": 0.83,
+      "E_keV": 911.0,
+      "multipolarity": "E2",
+      "I_printed": "15",
+      "B_printed": "21−3+10",
+      "B_Wu_central_or_cap": 21.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 17,
+      "reported_tau_ps": 0.83,
+      "E_keV": 495.0,
+      "multipolarity": "M1",
+      "I_printed": "13",
+      "B_printed": "0.13−0.02+0.06",
+      "B_Wu_central_or_cap": 0.13,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 17,
+      "reported_tau_ps": 0.83,
+      "E_keV": 274.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.12",
+      "B_Wu_central_or_cap": 0.12,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 16,
+      "reported_tau_ps": 0.76,
+      "E_keV": 879.0,
+      "multipolarity": "E2",
+      "I_printed": "41",
+      "B_printed": "37−6+14",
+      "B_Wu_central_or_cap": 37.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 16,
+      "reported_tau_ps": 0.76,
+      "E_keV": 679.0,
+      "multipolarity": "E2",
+      "I_printed": "3.2",
+      "B_printed": "11−2+5",
+      "B_Wu_central_or_cap": 11.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 16,
+      "reported_tau_ps": 0.76,
+      "E_keV": 253.0,
+      "multipolarity": "M1",
+      "I_printed": "11",
+      "B_printed": "0.45−0.08+0.19",
+      "B_Wu_central_or_cap": 0.45,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 16,
+      "reported_tau_ps": 0.76,
+      "E_keV": 415.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.02",
+      "B_Wu_central_or_cap": 0.02,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 15,
+      "reported_tau_ps": 0.68,
+      "E_keV": 807.0,
+      "multipolarity": "E2",
+      "I_printed": "18",
+      "B_printed": "28−5+17",
+      "B_Wu_central_or_cap": 28.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 15,
+      "reported_tau_ps": 0.68,
+      "E_keV": 464.0,
+      "multipolarity": "M1",
+      "I_printed": "33",
+      "B_printed": "0.26−0.04+0.15",
+      "B_Wu_central_or_cap": 0.26,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 15,
+      "reported_tau_ps": 0.68,
+      "E_keV": 264.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.1",
+      "B_Wu_central_or_cap": 0.1,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 14,
+      "reported_tau_ps": 1.24,
+      "E_keV": 739.0,
+      "multipolarity": "E2",
+      "I_printed": "91",
+      "B_printed": "60−8+29",
+      "B_Wu_central_or_cap": 60.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 14,
+      "reported_tau_ps": 1.24,
+      "E_keV": 343.0,
+      "multipolarity": "M1",
+      "I_printed": "14",
+      "B_printed": "0.08−0.01+0.04",
+      "B_Wu_central_or_cap": 0.08,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0010",
+      "spin": 14,
+      "reported_tau_ps": 1.24,
+      "E_keV": 145.0,
+      "multipolarity": "M1",
+      "I_printed": "4.5",
+      "B_printed": "0.31−0.04+0.15",
+      "B_Wu_central_or_cap": 0.31,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 19,
+      "reported_tau_ps": 0.99,
+      "E_keV": 1007.0,
+      "multipolarity": "E2",
+      "I_printed": "5.4",
+      "B_printed": "19−3+9",
+      "B_Wu_central_or_cap": 19.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 17,
+      "reported_tau_ps": 0.78,
+      "E_keV": 936.0,
+      "multipolarity": "E2",
+      "I_printed": "20",
+      "B_printed": "31−4+12",
+      "B_Wu_central_or_cap": 31.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 17,
+      "reported_tau_ps": 0.78,
+      "E_keV": 461.0,
+      "multipolarity": "M1",
+      "I_printed": "3.5",
+      "B_printed": "0.06−0.01+0.03",
+      "B_Wu_central_or_cap": 0.06,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 17,
+      "reported_tau_ps": 0.78,
+      "E_keV": 683.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.01",
+      "B_Wu_central_or_cap": 0.01,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 16,
+      "reported_tau_ps": 0.73,
+      "E_keV": 901.0,
+      "multipolarity": "E2",
+      "I_printed": "4.8",
+      "B_printed": "13−2+8",
+      "B_Wu_central_or_cap": 13.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 16,
+      "reported_tau_ps": 0.73,
+      "E_keV": 637.0,
+      "multipolarity": "M1",
+      "I_printed": "12",
+      "B_printed": "0.11−0.02+0.06",
+      "B_Wu_central_or_cap": 0.11,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 16,
+      "reported_tau_ps": 0.73,
+      "E_keV": 475.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.04",
+      "B_Wu_central_or_cap": 0.04,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 15,
+      "reported_tau_ps": 1.07,
+      "E_keV": 771.0,
+      "multipolarity": "E2",
+      "I_printed": "14",
+      "B_printed": "22−4+14",
+      "B_Wu_central_or_cap": 22.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 15,
+      "reported_tau_ps": 1.07,
+      "E_keV": 426.0,
+      "multipolarity": "M1",
+      "I_printed": "17",
+      "B_printed": "0.14−0.03+0.09",
+      "B_Wu_central_or_cap": 0.14,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 15,
+      "reported_tau_ps": 1.07,
+      "E_keV": 969.0,
+      "multipolarity": "E2",
+      "I_printed": "7.2",
+      "B_printed": "3.8−0.8+2.6",
+      "B_Wu_central_or_cap": 3.8,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 15,
+      "reported_tau_ps": 1.07,
+      "E_keV": 626.0,
+      "multipolarity": "M1",
+      "I_printed": "⩽3",
+      "B_printed": "⩽0.006",
+      "B_Wu_central_or_cap": 0.006,
+      "upper_limit": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 14,
+      "reported_tau_ps": 0.81,
+      "E_keV": 672.0,
+      "multipolarity": "E2",
+      "I_printed": "12",
+      "B_printed": "34−6+13",
+      "B_Wu_central_or_cap": 34.0,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 14,
+      "reported_tau_ps": 0.81,
+      "E_keV": 345.0,
+      "multipolarity": "M1",
+      "I_printed": "6.1",
+      "B_printed": "0.09−0.01+0.03",
+      "B_Wu_central_or_cap": 0.09,
+      "upper_limit": false
+    },
+    {
+      "table": "tl0020",
+      "spin": 14,
+      "reported_tau_ps": 0.81,
+      "E_keV": 543.0,
+      "multipolarity": "M1",
+      "I_printed": "46",
+      "B_printed": "0.17−0.02+0.06",
+      "B_Wu_central_or_cap": 0.17,
+      "upper_limit": false
+    }
+  ],
+  "grodner_conditional_endpoint_ranges": [
+    {
+      "table": "tl0010",
+      "spin": 21,
+      "reported_tau_ps": 0.51,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.5858971189577803,
+        0.5858971189577803
+      ],
+      "unknown_upper_branch_count": 0,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 20,
+      "reported_tau_ps": 0.68,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.6671199633930855,
+        0.7553197768624192
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 19,
+      "reported_tau_ps": 0.42,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.5024806579364831,
+        0.5024806579364831
+      ],
+      "unknown_upper_branch_count": 0,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 18,
+      "reported_tau_ps": 0.51,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.49954700142917313,
+        0.5332782718471067
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 17,
+      "reported_tau_ps": 0.83,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.8475435971881494,
+        0.9073066359749432
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 16,
+      "reported_tau_ps": 0.76,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.806474523732184,
+        0.8368480452766176
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 15,
+      "reported_tau_ps": 0.68,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.7597489263228131,
+        0.7947259518284443
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0010",
+      "spin": 14,
+      "reported_tau_ps": 1.24,
+      "conditional_gamma_only_endpoint_range_ps": [
+        1.3525831430076396,
+        1.3525831430076396
+      ],
+      "unknown_upper_branch_count": 0,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 19,
+      "reported_tau_ps": 0.99,
+      "conditional_gamma_only_endpoint_range_ps": [
+        1.1056461579645978,
+        1.1056461579645978
+      ],
+      "unknown_upper_branch_count": 0,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 17,
+      "reported_tau_ps": 0.78,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.7638243441857238,
+        0.8272043096509304
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 16,
+      "reported_tau_ps": 0.73,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.722038408052271,
+        0.7999988089137992
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 15,
+      "reported_tau_ps": 1.07,
+      "conditional_gamma_only_endpoint_range_ps": [
+        1.2317254162325002,
+        1.3062861326785575
+      ],
+      "unknown_upper_branch_count": 1,
+      "not_probability_interval": true
+    },
+    {
+      "table": "tl0020",
+      "spin": 14,
+      "reported_tau_ps": 0.81,
+      "conditional_gamma_only_endpoint_range_ps": [
+        0.8421388249178984,
+        0.8421388249178984
+      ],
+      "unknown_upper_branch_count": 0,
+      "not_probability_interval": true
+    }
+  ],
+  "grodner_purity_sensitivity": {
+    "B_E2_Wu_per_fraction": 4909.122496785024,
+    "f_0005_B_E2_Wu": 24.54561248392512,
+    "f_001_B_E2_Wu": 49.09122496785024,
+    "f_01_B_E2_Wu": 490.9122496785024,
+    "f_0005_is_bound": false
+  },
+  "grodner_boundary": "finite central B fixed, upper branches 0..cap, ICC0 and photon-only complete ledger assumed solely for this design; same-data printed rounding; no confidence interval or experiment correction",
+  "Mo_printed_limit_controls": [
+    {
+      "spin": 7,
+      "printed_RE2_model": 0.294,
+      "model_plus_data_intensity": 0.26,
+      "printed_upper_cap": 0.2,
+      "central_excess_fraction": 0.30000000000000004,
+      "conditional_fixed_conversion_RE2_cap": 0.22615384615384615,
+      "confidence_level": "not specified by TableIV"
+    },
+    {
+      "spin": 8,
+      "printed_RE2_model": 0.766,
+      "model_plus_data_intensity": 0.2,
+      "printed_upper_cap": 0.15,
+      "central_excess_fraction": 0.3333333333333335,
+      "conditional_fixed_conversion_RE2_cap": 0.5745,
+      "confidence_level": "not specified by TableIV"
+    },
+    {
+      "spin": 9,
+      "printed_RE2_model": 0.745,
+      "model_plus_data_intensity": 0.12,
+      "printed_upper_cap": 0.1,
+      "central_excess_fraction": 0.19999999999999996,
+      "conditional_fixed_conversion_RE2_cap": 0.6208333333333333,
+      "confidence_level": "not specified by TableIV"
+    }
+  ],
+  "Mo_boundary": "relative intensity, same measured normalization/mixing/response held fixed; no limit CL, likelihood or rigid measured B bound",
+  "Ce_fraction_controls": [
+    {
+      "E_keV": 664.8,
+      "printed_delta": -2.13,
+      "conditional_E2_photon_fraction": 0.819393523451751
+    },
+    {
+      "E_keV": 740.9,
+      "printed_delta": -1.73,
+      "conditional_E2_photon_fraction": 0.7495554609431742
+    },
+    {
+      "E_keV": 346.5,
+      "printed_delta": -2.05,
+      "conditional_E2_photon_fraction": 0.8077847188851514
+    },
+    {
+      "E_keV": 372.3,
+      "printed_delta": -2.23,
+      "conditional_E2_photon_fraction": 0.8325771400827069
+    }
+  ],
+  "Ce_boundary": "adopted delta fraction only; no universal W.u. threshold, structural exclusion or source-specific lifetime inferred",
+  "checks": [
+    {
+      "name": "grodner-2011-126cs.xml hash",
+      "passed": true
+    },
+    {
+      "name": "2021_Musangu et al_Chiral vibrations and collective bands in Mo 104 , 106.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2016_Petrache et al_Triaxiality and exotic rotations at high spins in Ce 134.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 0",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 1",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 2",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 3",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 4",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 5",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 6",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 7",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 8",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 9",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 10",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 11",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 12",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 13",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 14",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 15",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 16",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 17",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 18",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 19",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 20",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 21",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 22",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 23",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 24",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 25",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 26",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 27",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 28",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 29",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 30",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 31",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 32",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 33",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 34",
+      "passed": true
+    },
+    {
+      "name": "six source fields row 35",
+      "passed": true
+    },
+    {
+      "name": "eight explicit B limits",
+      "passed": true
+    },
+    {
+      "name": "specific limit energies preserved",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I21 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I20 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I19 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I18 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I17 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I16 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I15 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0010 I14 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0020 I19 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0020 I17 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0020 I16 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0020 I15 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "tl0020 I14 endpoint monotonicity",
+      "passed": true
+    },
+    {
+      "name": "thirteen source parent levels",
+      "passed": true
+    },
+    {
+      "name": "upper branches not silently set to central rates",
+      "passed": true
+    },
+    {
+      "name": "fraction to strength is linear conditional map",
+      "passed": true
+    },
+    {
+      "name": "E5 arithmetic",
+      "passed": true
+    },
+    {
+      "name": "Mo table shares measured normalization explicitly",
+      "passed": true
+    },
+    {
+      "name": "Mo table includes mixed multipoles",
+      "passed": true
+    },
+    {
+      "name": "104Mo experimental limit cells blank in parsed table",
+      "passed": true
+    },
+    {
+      "name": "Ce18 article pages",
+      "passed": true
+    },
+    {
+      "name": "Ce selected four lines in source",
+      "passed": true
+    },
+    {
+      "name": "E2 fractions are relative not unity",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_experiment_or_CI": false
+}

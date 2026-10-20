@@ -171,10 +171,26 @@ P0: none identified.
 
 ## Day18定量审计：Table IV跨带跃迁理论预测与实验上限张力对账
 
+**checkpoint047更正：旧MU21-D18-1的过强解释部分已superseded。** 下列旧行原文保留为审计历史；“1σ上限”“刚性真实B(E2)界限”“104Mo低于探测灵敏度一个数量级”及历史范围的寿命全无断言不再沿用。真实表值、条件缩放与证据边界由MU21-D18-2–8承接，原MU21-1–20及既有review/flags不变。
+
 在Day18正式学习中对本文Table IV预测的带间跃迁几率与探测上限开展定量对账，raw SHA256 `BBFC8907CA98BCF7439EBDA321F60988FD5A3052120532A4CE1D364484912DAC`已核。原MU21-1–21各claim保持；新MU21-D18-1待审。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | MU21-D18-1 | 本文Table IV针对104,106Mo预测的带间I->I-1跃迁强度与实验上限定量对账揭示：(1) 在106Mo中，自旋7、8、9处TPSM理论计算强度I_theo分别为0.26、0.20、0.12，系统性超出实验1sigma上限（分别为<0.20、<0.15、<0.10）达20%至33.3%，将真实跨带比值B(E2)_out/B(E2)_in分别刚性限制在<=0.226、<=0.574与<=0.621（显著低于模型声称的0.294、0.766与0.745）；(2) 在104Mo中，预测跨带强度（0.006与0.0038）因低跃迁能量受到(E_in/E_out)^5相空间严重压低，整整低于探测灵敏度一个数量级，导致104Mo对三轴电荷密度重取向的集体E2增强完全缺乏实验观测支撑；(3) 两核负宇称带均无DSAM或RDDS能级寿命测量，绝对B(E2)与B(M1)完全未定，证明在缺乏寿命测量时，单凭微观模型预测的集体跨带E2不能直接等价于手征对称破缺实验事实。 | task-rate-decomposition-audit | derived-and-boundary | Table IV, Fig. 20；新musangu21-mo104-106-result-036 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/musangu21-mo104-106-contract-036.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/musangu21-mo104-106-result-036.json)4项检查全过。
+旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/musangu21-mo104-106-contract-036.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/musangu21-mo104-106-result-036.json)保留用于追踪历史输入和算术。合同中的`status: passed`为固定输出标签，脚本没有恢复上限构造、验证置信水平或重拟合实验，不能视为四项科学结论已验证；原件未被改写，本次未运行会覆盖旧输出的脚本。
+
+## Day18 checkpoint047更正：Mo跨带相对强度、打印上限与共享输入边界
+
+本次回读CHORUS accepted manuscript封面及全部15页文章主线，视觉核对PDF p.14（印刷p.13）的Table IV/Fig.20；原raw哈希与本页一致。未取得原始event、逐行上限gate/count/background/efficiency producer、完整Cov或TPSM实际作业，未进行历史寿命文献穷尽检索。下列为Codex定向self-audit，新增行保留`needs_review: true`，不改变原审核状态。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU21-D18-2 | Table IV给出106Mo自旋7、8、9的预测相对γ强度0.26、0.20、0.12，与打印实验上限<0.20、<0.15、<0.10比较；按打印中央值超出30.0%、33.3%、20.0%。自旋12为0.020与<0.02，在打印精度上接近边界。这是数值比较，不是统计显著性或拒绝判决。 | task-table-audit | direct-and-derived | PDF p.14/印刷p.13 Table IV及右栏讨论 | true |
+| MU21-D18-3 | Table IV及相邻正文没有说明上限的置信水平、1σ定义或构造方法，不能称其为“实验1σ上限”。正文仅称部分理论预期略高于实验上限；不能从其它角关联段的1σ措辞移植该表的统计语义。 | evidence-boundary | direct-and-boundary | PDF p.14/印刷p.13 Table IV及其后段落；对照PDF pp.10–11角关联讨论 | true |
+| MU21-D18-4 | 表中B(E2)out/B(E2)in是TPSM对Band 5→Band 4的I→I−1与Band 5内I→I−2的计算强度比；Iγ-theo由该比值结合实测带内E2强度，并考虑连接线M1/E2混合而得，不是独立于实验归一的纯理论概率。Tables I–II的相对γ强度分别以104Mo192.0 keV、106Mo171.5 keV线归一为100(5)；Table IV未另给绝对单位或独立归一。 | model-data-input-contract | direct | PDF p.3 Table I caption；p.5 Table II caption；p.14 Table IV caption及左栏末段 | true |
+| MU21-D18-5 | 若保持作者所用实测带内归一、混合修正及全部强度转换条件不变，按RE2模型值×I上限/I预测可得106Mo自旋7、8、9的条件代理界限约0.22615、0.5745、0.62083。它们不是原文直接测得或无条件刚性的B(E2)界限；缺少原producer、相关误差与模型误差，不能据此建立真实分支置信区间。 | task-conditional-rescaling | derived-and-boundary | PDF p.14 Table IV及强度构造段；本次固定输入比例复算 | true |
+| MU21-D18-6 | 104Mo自旋7、8的Table IV预测相对γ强度为0.006、0.0038，Eγ为273.2、321.0 keV；实验上限栏均为空白。作者称预测线通常过弱、至少比馈入同态的其它强线弱一个数量级，该比较对象不是一条已标定的探测阈值，不能由空白栏补造低于探测灵敏度的倍数。 | observed-table-and-boundary | direct | PDF p.14/印刷p.13 Table IV及右栏首段 | true |
+| MU21-D18-7 | 条件采用同母态纯E2分量的通常率公式，低连接线能量会带来(Eout/Ein)^5抑制；对104Mo表中两行及Band 5带内392.4、474.9 keV参考线，该因子约0.1636、0.1411。但实测带内强度、M1/E2修正等同样参与Table IV的Iγ-theo，不能把全部预测强度归因于能量，也不能称已复现原强度producer。 | our-inference | conditional-derived | PDF p.3 Table I中Band 5参考线；p.14 Table IV及混合修正说明 | true |
+| MU21-D18-8 | 本文没有报告所提双带的DSAM/RDDS寿命或实验绝对B(E2)/B(M1)测量；Fig.20的绝对B(E2)out来自TPSM，连接E2网络未被清楚识别。结论为模型支持的soft chiral-vibrational候选，不应把预测集体性等同实测静态手征破缺；本次未检索核验其它文献中是否存在相关寿命资料。 | evidence-boundary | direct-and-boundary | PDF pp.2–12实验方法/结果；pp.13–15 Figs.19–21、Table IV及结论 | true |

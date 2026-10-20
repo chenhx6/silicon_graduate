@@ -1,0 +1,227 @@
+{
+  "kind": "raw-model-table-and-conditional-geometry-not-lifetime-fit",
+  "sources": [
+    {
+      "path": "raw/papers/2001_Hecht et al_Evidence for chiral symmetry breaking in 136 Pm and 138 Eu.pdf",
+      "sha256": "2f9bd3dce75ec29056ef5a59b26032a6510b7e9dc241a546a3d82a89c7eea161"
+    },
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
+    }
+  ],
+  "supersedes": [
+    "hecht01-136pm-138eu-result-042.json",
+    "hecht01-136pm-138eu-contract-042.json"
+  ],
+  "actual_TableI": [
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.2,
+      "theta_deg": 53.43,
+      "phi_deg": 71.5,
+      "I_hbar": 9.86,
+      "BM1_over_BE2": 15.0
+    },
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.25,
+      "theta_deg": 59.04,
+      "phi_deg": 50.0,
+      "I_hbar": 10.75,
+      "BM1_over_BE2": 6.0
+    },
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.3,
+      "theta_deg": 62.79,
+      "phi_deg": 37.0,
+      "I_hbar": 11.75,
+      "BM1_over_BE2": 3.3
+    },
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.35,
+      "theta_deg": 68.4,
+      "phi_deg": 25.0,
+      "I_hbar": 12.03,
+      "BM1_over_BE2": 2.2
+    },
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.375,
+      "theta_deg": 70.28,
+      "phi_deg": 21.5,
+      "I_hbar": 13.84,
+      "BM1_over_BE2": 1.3
+    },
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.4,
+      "theta_deg": 75.89,
+      "phi_deg": 8.5,
+      "I_hbar": 14.99,
+      "BM1_over_BE2": 0.8
+    },
+    {
+      "nucleus": "136Pm",
+      "omega_MeV": 0.425,
+      "theta_deg": 89.0,
+      "phi_deg": 0.0,
+      "I_hbar": 18.51,
+      "BM1_over_BE2": null
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.2,
+      "theta_deg": 57.17,
+      "phi_deg": 31.0,
+      "I_hbar": 10.53,
+      "BM1_over_BE2": 2.9
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.225,
+      "theta_deg": 59.04,
+      "phi_deg": 24.5,
+      "I_hbar": 10.95,
+      "BM1_over_BE2": 2.5
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.25,
+      "theta_deg": 60.91,
+      "phi_deg": 20.5,
+      "I_hbar": 11.45,
+      "BM1_over_BE2": 2.1
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.275,
+      "theta_deg": 64.66,
+      "phi_deg": 10.0,
+      "I_hbar": 12.07,
+      "BM1_over_BE2": 1.6
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.3,
+      "theta_deg": 66.53,
+      "phi_deg": 4.0,
+      "I_hbar": 12.59,
+      "BM1_over_BE2": 1.3
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.325,
+      "theta_deg": 66.53,
+      "phi_deg": 0.5,
+      "I_hbar": 13.0,
+      "BM1_over_BE2": 1.3
+    },
+    {
+      "nucleus": "138Eu",
+      "omega_MeV": 0.35,
+      "theta_deg": 68.4,
+      "phi_deg": 0.0,
+      "I_hbar": 13.5,
+      "BM1_over_BE2": 1.2
+    }
+  ],
+  "conventional_spherical_nearest_axis_distance_deg": {
+    "136Pm": 0.9999999999999002,
+    "138Eu": 21.59999999999999
+  },
+  "geometry_scope": "phi0 is planar; Eu theta68.4 conflicts with generalized principal-axis prose; spherical-coordinate distance is a diagnostic, not new TAC solution",
+  "chosen_same_parent_rate_design": [
+    {
+      "chosen_tau": 0.4,
+      "M1_rate": 2.0,
+      "E2_rate": 0.5
+    },
+    {
+      "chosen_tau": 1.2,
+      "M1_rate": 0.6666666666666667,
+      "E2_rate": 0.16666666666666669
+    },
+    {
+      "chosen_tau": 3.0,
+      "M1_rate": 0.26666666666666666,
+      "E2_rate": 0.06666666666666667
+    }
+  ],
+  "Petrache_ratio_scope": "2.0(4) E2 transition-moment ratio from branching/spacing and two-band assumptions; not direct lifetime-derived twofold beta",
+  "actual_lifetime_or_CI": false,
+  "global_lifetime_absence_verified": false,
+  "checks": [
+    {
+      "name": "2001_Hecht et al_Evidence for chiral symmetry breaking in 136 Pm and 138 Eu.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "Hecht four pages",
+      "passed": true
+    },
+    {
+      "name": "69 numeric fields including blank Pm final ratio",
+      "passed": true
+    },
+    {
+      "name": "mean field missing doublet mixing explicit",
+      "passed": true
+    },
+    {
+      "name": "Pm final actual row",
+      "passed": true
+    },
+    {
+      "name": "Eu final actual row",
+      "passed": true
+    },
+    {
+      "name": "phi zero in both final sampled rows",
+      "passed": true
+    },
+    {
+      "name": "136Pm unit vector",
+      "passed": true
+    },
+    {
+      "name": "138Eu unit vector",
+      "passed": true
+    },
+    {
+      "name": "Pm conventional spherical distance 1 degree",
+      "passed": true
+    },
+    {
+      "name": "Eu conventional spherical distance 21.6 degrees",
+      "passed": true
+    },
+    {
+      "name": "Petrache four pages",
+      "passed": true
+    },
+    {
+      "name": "Petrache offdiagonal and spin dependence assumptions present",
+      "passed": true
+    },
+    {
+      "name": "Petrache E2 transition moments definition present",
+      "passed": true
+    },
+    {
+      "name": "same parent lifetime cancels without other band Qt",
+      "passed": true
+    },
+    {
+      "name": "equal ratios coexist with unequal absolute rates",
+      "passed": true
+    }
+  ],
+  "valid": true
+}

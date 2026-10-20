@@ -121,10 +121,25 @@ Page-level review is complete for this ingest round; PE16-1 through PE16-12 are 
 
 ## Day18定量审计：跨带Delta I=1强E2混杂（75%-83%）与非wobbling三轴形状共存反证
 
+**checkpoint047更正：旧PE16-D18-1的过强解释部分已superseded。** 下列旧行原文保留为审计历史，不再作为“作者明确排除wobbling/手征”“已证明剪刀模或M1抵消机制”或“DSAM/RDDS及数十W.u.为唯一判据”的依据；其真实表值及条件计算由PE16-D18-2–7承接。原PE16-1–12及其审核状态不变。
+
 在Day18正式学习中对本文Table I中四条具有大负混合比（delta约-1.7至-2.2）的跨带连接线开展定量核验，raw SHA256 `04AC0EB3179A6CB389C45F9DF8B4B56D90EDF43BCFD8EE9FFED20FB68C898B4D`已核。原PE16-1–12各claim保持；新PE16-D18-1待审。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | PE16-D18-1 | 本文Table I报道的134Ce跨带Delta I = 1连接线多极性定量核验揭示：(1) 在Band 7与Band D1中，四条跨带连接线（664.8、740.9、346.5、372.3 keV）均表现出显著的大负混合比（delta介于-1.73至-2.23之间，伴随负A2与正A4），导出的E2纯度高达75.0%至83.3%（平均80.2%），完全由四极跃迁主导；(2) 尽管展现出与低自旋wobbling声称完全相同的强E2主导Delta I=1特征，作者严格依据CNS与形状共存将其指认为三轴核芯中的常规磁偶极/剪刀带与集体带之间的形状共存跃迁，明确拒绝将其指认为wobbling或手征带；(3) 这确立了关键的方法学反例：跨带Delta I=1跃迁具有75%-83%的高E2份额绝非集体wobbling的充要证据，单粒子矩阵元抵消或形状共存混杂完全可以在常规三轴核中产生相同现象；必须依托在束DSAM/RDDS测定绝对寿命并证实B(E2)_out达到数十Weisskopf单位，才能确立真wobbling模式。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.6–7, Table I；新petrache16-134ce-delta-result-040 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache16-134ce-delta-contract-040.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache16-134ce-delta-result-040.json)4项检查全过。
+旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache16-134ce-delta-contract-040.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache16-134ce-delta-result-040.json)保留用于追踪历史输入和计算。脚本实际计算固定δ的份额及一阶误差，但合同中的`status: passed`为固定输出标签，不能视为四项科学结论已验证；原件未被改写，本次未运行会覆盖旧输出的脚本。
+
+## Day18 checkpoint047更正：134Ce混合比、条件E2份额与CNS解释边界
+
+本次回读18页原件全文主线、Table I及CNS讨论，视觉核对PDF pp.6–7的四行；原raw哈希与本页一致。未取得原始角分布producer、响应矩阵或完整Cov，未重新拟合δ、构造实验置信区间或作领域穷尽检索。下列为Codex定向self-audit，新增行保留`needs_review: true`，不改变旧human-review范围。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE16-D18-2 | Table I列出Band 7的664.8 keV（11+→10+）、740.9 keV（13+→12+）连接线δ分别为−2.13(48)、−1.73(52)，以及D1的346.5 keV（14+→13+）、372.3 keV（12+→11+）连接线δ分别为−2.05(48)、−2.23(53)。正文将前两线置为Band 7→Band 9，后两线为D1→Band 7。 | observed-fact | direct | PDF p.2 Sec.III A；p.4 Sec.III B；pp.6–7 Table I | true |
+| PE16-D18-3 | 条件采用上述印刷δ并以f(E2)=δ²/(1+δ²)分解辐射强度，四线E2份额为81.94%、74.96%、80.78%、83.26%，算术均值80.23%。仅用印刷δ误差作一阶传播，误差约为6.67、11.29、7.27、6.63个百分点；这不是新δ拟合、置信区间、独立观测或绝对B(E2)，也不是纯E2跃迁。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.6–7 Table I；本次固定输入代数复算 | true |
+| PE16-D18-4 | 作者以CNS能量、对齐和组态比较解释D1–D4等结构，并提出全局三轴、较大形变及超形变结构共存；D1涉及四准粒子组态及随自旋变化的形状/转轴解释。这些模型结论并未逐线证明四条连接跃迁都是形状共存或scissors-mode跃迁，Band 7也没有由此获得明确的wobbling排除判决。 | author-interpretation | direct-and-boundary | PDF pp.13–16 Sec.IV、Figs.8–11；p.17 Summary | true |
+| PE16-D18-5 | 本文引言和总结以邻核133Ce手征与135Pr wobbling为研究动机；没有针对这四条连接线实施wobbling与其它模式的专门排他检验。“未作wobbling指认”不能改写为“作者明确拒绝/实验排除wobbling或手征”。 | evidence-boundary | direct-and-boundary | PDF p.1 Introduction；pp.13–17 Discussion/Summary | true |
+| PE16-D18-6 | 大δ只给出E2/M1辐射成分之比，单靠该比值不能确定绝对E2集体性或唯一的集体运动身份。本文没有给出四条线的M1矩阵元抵消计算，因而不能把这一一般边界写成已在本核验证的微观机制。 | our-inference | inference-and-boundary | PDF pp.6–7 Table I；pp.13–17模型解释范围 | true |
+| PE16-D18-7 | 本文没有提出“仅DSAM/RDDS可裁决”或B(E2)out≥20–50 W.u.的通用必要/充分阈值。寿命结合分支比和混合比可补充绝对强度约束，但本次核验不能建立该排他规则；文中另引用Band 8的10+异能态既有半衰期，不能泛称134Ce全无寿命资料。 | evidence-boundary | direct-and-boundary | PDF p.3 Fig.1 caption；p.4 Sec.III B；全文方法与结论范围 | true |

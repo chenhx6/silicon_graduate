@@ -2578,3 +2578,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint046：MU08原表与跨论文能带身份纠错
 
 追加更正checkpoint032历史结论：4.17/2.88eb、2.06倍常差与A/B=.18/.14输入均不符原表。原TableII十行15−–19−，Qt.67–2.50eb；逐spin B2/B1=51/26、11/2、2/7、5/11。2018 D1/D2正宇称，2008两负宇称带低spin指纹对应D4/D3而非D1/D2。高spin重排/Ex未闭不硬映射，beta不作微观因果证明。MU08-D18-5–7、PE18-D18-2/3与新18项原文/算术断言保存，旧固定True结果superseded。原15:00硬截止与未授18保持。
+
+
+## 2026-10-21 DAY18 checkpoint047：原件复核纠错与上限/模型条件合同
+
+撤回旧追加段的过强解释，核Hecht TableI平面/PAC与Petrache两带提取参照、Nomura模型向量/Timar偏振companion、Grodner上限与带身份、Wang/Pai真实图表及后续来源、Ce/Mo相对份额/limit归一。原review/frontmatter/旧flag保持。新17+26+64项实际检查含parser，不当独立实验数；原XML36行保8上限的gamma-only端点design不造CI。停止五旧serializer输出固定passed误导，旧产物保档。原session与15:00截止保持，课程next18/count17不变。

@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "046 committed; original research window continues",
+  "last_checkpoint": "047 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Correct 140Eu lifetime discriminator and test conditional E2 geometry",
-    "commit_hash": "db623d19739ee80c245fc80c99bdd60477193c06",
+    "subject": "Correct 136Nd source tables and parity-constrained band crosswalk",
+    "commit_hash": "0ed755251c24efa9bd7771804ba7ccfcb616137a",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-045.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-046.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Correct 136Nd source tables and parity-constrained band crosswalk"
+    "subject": "Correct primary-source boundaries in Day18 lifetime and strength audits"
   },
   "uncredited_preview": {
     "day_index": 19,

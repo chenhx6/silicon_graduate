@@ -1,89 +1,52 @@
 #!/usr/bin/env python3
+"""Primary-anchored model-vector and conditional mixing-fraction audit.
+
+No experimental response refit, branch confidence, or universal mode verdict.
+Old result-033/result-021 are superseded; this script never overwrites them.
 """
-Quantitative audit of Nomura 2022 IBFM low-spin wobbling challenge (PRC 105, 024320 Table II)
-against Day 18 small-root collapsed rate audits in 135Pr, 105Pd, 127Xe, and 133La,
-demonstrating exact convergence between microscopic IBFM predictions and small-delta experimental roots.
-"""
-import json, sys, os
+import hashlib,json,math
+from pathlib import Path
+import pymupdf
+RUN=Path('outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01')
+NOM=Path('raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf')
+TIM=Path('raw/papers/2019_Timár et al_Experimental Evidence for Transverse Wobbling in Pd 105.pdf')
 
-RUN = 'outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01'
+def fractions(delta):
+    return delta*delta/(1+delta*delta),1/(1+delta*delta)
 
-comparison = [
-    {
-        'nucleus': '135Pr',
-        'transition': '21/2- -> 19/2- (813 keV)',
-        'claimed_delta': -1.54,
-        'claimed_BE2_ratio': 0.843,
-        'lv2022_expt_small_delta': -0.37,
-        'lv2022_expt_BE2_ratio': 0.12,
-        'ibfm_predicted_delta': -0.368,
-        'ibfm_predicted_BE2_ratio': 0.040,
-        'congruence': 'IBFM delta (-0.368) matches Lv 2022 (-0.37) within 0.002; IBFM BE2 (0.040) rules out wobbling (0.843).'
-    },
-    {
-        'nucleus': '105Pd',
-        'transition': '21/2- -> 19/2- (1034 keV)',
-        'claimed_delta': 2.30,
-        'claimed_BE2_ratio': 0.60,
-        'dco_small_root_delta': 0.40,
-        'rickey1977_expt_delta': 0.62,
-        'day18_audit_small_BE2_ratio': 0.098,
-        'ibfm_predicted_delta': 0.817,
-        'ibfm_predicted_BE2_ratio': 0.236,
-        'congruence': 'IBFM delta (<1) disproves Timar large root (2.3); supports M1 dominance and Rickey 1977 value.'
-    },
-    {
-        'nucleus': '127Xe',
-        'transition': '21/2- -> 19/2- (735 keV)',
-        'claimed_delta': -2.40,
-        'claimed_BE2_ratio': 1.500,
-        'day18_audit_small_BE2_ratio': 0.164,
-        'ibfm_predicted_delta': -1.801,
-        'ibfm_predicted_BE2_ratio': 0.163,
-        'congruence': 'IBFM BE2 ratio (0.163) matches Day 18 small-root collapsed ratio (0.164) within 0.001; collapses 9.2x vs claim (1.500).'
-    },
-    {
-        'nucleus': '133La',
-        'transition': '21/2- -> 19/2- (874 keV)',
-        'claimed_delta': -2.60,
-        'claimed_BE2_ratio': 0.716,
-        'day18_audit_small_BE2_ratio': 0.113,
-        'ibfm_predicted_delta': -0.331,
-        'ibfm_predicted_BE2_ratio': 0.401,
-        'congruence': 'IBFM delta (-0.331) matches Day 18 small root (-0.35); high-spin IBFM delta drops to -0.065 (M1 dominant).'
-    },
-]
-
-out_contract = {
-    'target': 'A ~ 130 low-spin wobbling candidates',
-    'theory_paper': 'Nomura 2022 Phys. Rev. C 105:024320',
-    'table': 'Table II',
-    'description': 'Crosswalk audit between Nomura 2022 IBFM calculations and Day 18 small-root collapsed experimental rate audits',
-    'check_count': 4,
-    'checks': [
-        '135Pr_IBFM_delta_Lv2022_convergence',
-        '127Xe_IBFM_BE2_Day18_collapse_convergence',
-        '105Pd_IBFM_M1_dominance_verification',
-        '133La_IBFM_small_delta_trend_verification',
-    ],
-}
-
-out_result = {
-    'target': 'A ~ 130 low-spin wobbling candidates',
-    'comparison': comparison,
-    'summary': {
-        'conclusion': 'Laboratory-frame IBFM calculations (Nomura 2022) independently converge onto the exact small-delta rates derived in Day 18: 135Pr IBFM delta (-0.368) matches Lv 2022 (-0.37), and 127Xe IBFM BE2 ratio (0.163) matches Day 18 audit (0.164), establishing that low-spin bands in gamma-soft nuclei are quasi-particle gamma-vibrational states rather than triaxial wobblers.'
-    },
-    'checks_passed': True,
-}
-
-contract_file = os.path.join(RUN, 'nomura22-ibfm-wobbling-contract-033.json')
-result_file = os.path.join(RUN, 'nomura22-ibfm-wobbling-result-033.json')
-
-with open(contract_file, 'w') as f:
-    json.dump(out_contract, f, indent=2)
-
-with open(result_file, 'w') as f:
-    json.dump(out_result, f, indent=2)
-
-print('IBFM audit script completed successfully.')
+def main():
+    checks=[]
+    def check(name,ok,**evidence):
+        checks.append({'name':name,'passed':bool(ok),**evidence});assert ok,name
+    expected={NOM:'e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f',TIM:'3948cf32712a400aa8df0aee489ebebd89df7480508bddc60156a359ed322909'}
+    for f,h in expected.items():check(f.name+' hash',hashlib.sha256(f.read_bytes()).hexdigest()==h)
+    with pymupdf.open(NOM) as d:
+        check('Nomura eleven pages',len(d)==11)
+        table=d[9].get_text().replace('−','-')
+        check('Nomura TableII exact selected printed tokens',all(v in table for v in ['-0.368','-1.801','0.163','0.401']))
+    with pymupdf.open(TIM) as d:
+        check('Timar six pages',len(d)==6)
+        p3,p5=d[2].get_text(),d[4].get_text()
+        check('author explicitly supports larger deltas with polarization','strongly support' in p3 and 'smaller mixing ratios' in p3)
+        check('author gives scissors-mode rationale','scissors' in p5 and '0.36' in p5)
+        check('TableI labels normalization point','Normalization point' in p5)
+    for delta in [0.,-.37,.59,-1.,1.801,100.]:
+        fe,fm=fractions(delta)
+        check(f'photon fraction normalization {delta}',math.isclose(fe+fm,1.,abs_tol=1e-14))
+        check(f'sign invariant fraction {delta}',fractions(-delta)==(fe,fm))
+    controls=[]
+    for energy,old,new,re2,rm1 in [(991,1.8,.59,.66,.162),(1034,2.3,.40,.60,.089)]:
+        fe_old,fm_old=fractions(old);fe_new,fm_new=fractions(new)
+        a,b=re2*fe_new/fe_old,rm1*fm_new/fm_old
+        check(f'{energy} replacement conserves specified total photon rate',math.isclose(fe_old*(a/re2)+fm_old*(b/rm1),1.,abs_tol=1e-14))
+        controls.append({'energy_keV':energy,'adopted_delta':old,'DCO_alternative_delta':new,'conditional_RE2':a,'conditional_RM1':b,'actual_branch_likelihood':'not calculated; same experiment polarization supports adopted branch'})
+    q=.36
+    check('coefficient amplitude vs strength',math.isclose(q*q,.1296) and math.isclose(1/(q*q),7.71604938271605))
+    gnu,grot=-.3,.4
+    check('quenching difference differs from quenching neutron alone',not math.isclose(q*(gnu-grot),q*gnu-grot))
+    xe_fraction=fractions(-1.801)[0]
+    check('Xe same model row remains E2 dominant',xe_fraction>.5)
+    check('Pr central proximity is arithmetic only',math.isclose(abs(-.368-(-.37)),.002,abs_tol=1e-14))
+    out={'kind':'primary-token-and-conditional-algebra-not-experiment-fit','sources':[{'path':str(p),'sha256':h} for p,h in expected.items()], 'supersedes':['nomura22-ibfm-wobbling-result-033.json','timar19-105pd-wobbling-result-021.json'],'nomura_selected_model_vector':{'Pr813':{'delta':-.368,'RE2':.040,'reported_Lv_delta':-.37,'reported_Lv_error_plus':.10,'reported_Lv_error_minus':.14,'reported_Lv_RE2':.12,'RE2_error':.08},'Xe735':{'delta':-1.801,'RE2':.163,'E2_photon_fraction':xe_fraction},'comparison_boundary':'selected RE2 proximity to prior .164 does not identify same delta, matrix elements or physical solution'},'conditional_delta_controls':controls,'effective_g_scaling':{'q':q,'amplitude_multiplier':q,'strength_multiplier':q*q,'inverse_strength':1/(q*q),'delta_multiplier':1/q,'actual_operator_producer':'not recovered'},'unsupported_994_delta_035_excluded':True,'independent_experiment_or_CI':False,'checks':checks,'valid':all(v['passed'] for v in checks)}
+    p=RUN/'mixed-boundary-result-047.json';p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'valid':out['valid'],'checks':len(checks),'Xe_E2_fraction':xe_fraction,'output':str(p)}))
+if __name__=='__main__':main()

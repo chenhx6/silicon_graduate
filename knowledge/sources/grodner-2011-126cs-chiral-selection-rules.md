@@ -134,12 +134,27 @@ The DSA dataset is a different reaction and detector array from Wang05/Wang06, b
 - [[wang-shouyu-2005-126cs-123i-chiral-thesis]]
 - [[chirality-wobbling-competition-evidence]]
 
-## Day18定量审计：DSAM寿命到跃迁强度精确重构、四极矩Qt对称性与相空间透镜检验
+## Day18原件复核纠正：上限、带身份与条件速率换算
 
-在Day18正式学习中对本文Table 1与Table 2中13个能级寿命、分支比、绝对跃迁几率进行完整物理重构与自洽性核验，raw SHA256 `DFC649E43493DEBEE93C4D9E76694360972F82382CE0B25A04945B7A766B728C`已核。原GR126-1–12各claim保持；新GR126-D18-1待审。
+2026-10-21 对主原件 `raw/papers/codex-day10/grodner-2011-126cs.xml` 重新核读，SHA-256 为 `dfc649e43493debee93c4d9e76694360972f82382ce0b25a04945b7a766b728c`。本段为 Codex self-audit，保留前文 GR126-1–12、原有 review 状态和证据边界；不计新增实验或课程学分。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GR126-D18-1 | 本文Table 1与2中126Cs两条手征带共13个能级的DSAM寿命与26个跃迁强度经过定量对账验证：(1) 由表列B(E2)/B(M1)及光子能量反算的理论总寿命tau_calc与实验报告tau_rep高度自洽，13态平均偏差仅7.8%（如18+ reported 0.51 ps对calc 0.50 ps，diff=-2.0%），且分枝强度比lambda_i/lambda_j与测得的探测计数比Ig_i/Ig_j严格吻合至1-3%；(2) 提取的两带内禀跃迁四极矩均值分别为Qt(yrast)=2.092 eb与Qt(side)=1.865 eb，两带形变比值为Qt(side)/Qt(yrast)=0.892（BE2比值0.795），高度保持四极形变对称性，与132La侧带B(E2)塌缩20倍（Qt暴跌4.5倍）形成鲜明真假手征对照；(3) 带内B(M1)展现3至4倍的强锯齿状奇偶交错，与带间弱M1衰变构成反相互补；(4) 相空间透镜分析证实，对18+态277 keV跃迁，(961/277)^5相空间抑制因子高达502.6倍，哪怕存在10%的E2混杂也将导致B(E2)暴涨至不合理的490.9 W.u.，从第一性原理反向确立了低能Delta I=1跃迁具有>99.5%的天然M1纯度。 | task-rate-decomposition-audit | derived-and-boundary | Table 1, Table 2；新grodner11-126cs-dsam-result-034 | true |
+| GR126-D18-1 | **superseded（2026-10-21）**：原追加段把上限作中央值，混合带内与带间线，继而将条件速率/固定K换算写成纯度和手征证明；其“完整精确重构”“全表1–3%吻合”“Qt均值确立形变对称”和“第一性原理证明>99.5%M1”结论撤回，由 GR126-D18-2–11 替代。旧 result-034/contract-034 不再作为这些结论的验证回执。 | superseded-task-audit | corrected-and-boundary | 本段 GR126-D18-2–11；旧 grodner11-126cs-dsam-result-034 与 contract-034 | true |
+| GR126-D18-2 | 作者 Summary 报告13个能级寿命与26个对应绝对跃迁概率；Experimental 明确 B 值由寿命及γ线强度导出。把派生B反算回同源τ不构成独立实验验证。 | source-result-and-dependence | direct-and-boundary | XML Summary pr0120；Experimental pr0060；Tables 1–2 | true |
+| GR126-D18-3 | 原表有8条明确上限：yrast 的 I20/518、I18/465、I17/274、I16/415、I15/264 keV，以及 side 的 I17/683、I16/475、I15/626 keV；这些行的 Iγ≤3 与 B 上限不能改成测量中央值。旧脚本全部按端点代入。 | source-table-audit | direct | Table 1 tl0010 与 Table 2 tl0020，相应 spin/Eγ 行 | true |
+| GR126-D18-4 | 277与253 keV不能列入旧脚本的 yrast inband M1 序列：[[wang-2006-126cs-candidate-chiral-doublet]] WS06-4 所对应原 Table I 的 Linking Transitions 明列277.5、253.0 keV；同表 Band 1 列415.5 keV为16+→15+带内线，DSA Table 1的415 keV项仅有B(M1)≤0.02 W.u.。此定向跨实验能量/初态匹配不把两次采集视为同一实验。 | line-identity-crosswalk | direct-and-cross-source | Wang06 原PDF p.8 Table I Linking Transitions：277.5/253.0；p.6 Table I Band 1：415.5；本源 Table 1 I18/I16 | true |
+| GR126-D18-5 | 按旧脚本常数、打印B中心、8条上限取端点并只求纯γ速率和，可复算13态平均绝对相对τ偏差7.802%；I18 yrast为0.49955 ps对报告0.51 ps。该诊断未包含ICC、B/branch/τ协方差或完整非γ库存，不能称精确完整重构或新实验误差检验。 | conditional-rate-diagnostic | derived-and-boundary | Tables 1–2；旧脚本 table1/table2 与 total_lam；独立中心算术 | true |
+| GR126-D18-6 | “全表分支速率比与Iγ比严格吻合至1–3%”不成立：仅用非上限行，Table 1 I21的554/1072 keV配对约偏−6.32%，I14的343/739配对约偏+8.67%。这些是打印中心及指定速率常数下的相对差，不能据此判作者实验错误；Iγ为任意单位的作者γ强度，不等同原探测计数。 | printed-center-ratio-diagnostic | derived-and-boundary | Table 1 I21与I14各两行；旧脚本速率常数 | true |
+| GR126-D18-7 | Qt均值2.092/1.865 eb及其比0.892可由旧脚本固定K=6的轴对称转子换算复现；它们不是原文报告的内禀矩。yrast与side分别平均8与5个不同spin样本，不能以此证明三轴体系的形变相等或手征。相同spin且相同K换算下，I14/15/16/17的Qt(side)/Qt(yrast)中心约为0.753/0.886/0.593/1.215，仍无传播误差或几何裁决。 | conditional-rotor-conversion | derived-and-boundary | Tables 1–2各带第一条E2行；旧脚本 cg_I_Iminus2、K=6及均值循环 | true |
+| GR126-D18-8 | (961/277)^5=502.5949；保持旧脚本采用的277 keV总光子率，并假定其中E2率占10%，可得条件B(E2)约490.912 W.u.。这只是能量五次方敏感性与给定分率换算，不是独立测得的E2分量。 | conditional-phase-space-diagnostic | derived-and-boundary | Table 1 I18：961与277 keV行；旧脚本 phase_space_factor_E5 / BE2_hypothetical_wu | true |
+| GR126-D18-9 | 相空间因子不能推出>99.5%M1：在上述条件率下，E2分率f对应B(E2)约4909.12f W.u.；若要限制f<0.005，尚需独立的同线B(E2)<24.55 W.u.上界或δ约束。原文 pr0060只依据Ref.[12]采用pure M1；不存在本次取得的99.5%实验界。旧脚本称49 W.u.普遍“不物理”也无支持，Table 1自身报告40与60 W.u.的E2强度。 | purity-inference-boundary | derived-and-source-boundary | Experimental pr0060；Table 1 I18/961与I14/739；本段 GR126-D18-8 | true |
+| GR126-D18-10 | 作者以I14–17伙伴强度相似及带内/带间M1反相交错支持强手征对称破缺解释，同时指出绝对带间B(M1)仍有差异、M1交错还要求额外S对称条件；这些解释不能缩为“Qt相似即真手征”。 | author-interpretation-and-limit | direct | Interpretation pr0070/pr0090/pr0110；Fig.3图注 | true |
+| GR126-D18-11 | 本次完整核读XML正文主线、两表全部行、公式与四图图注；未取得四图像素、未数字化曲线。Wang06仅定向核Table I的上述身份行，不声称全文新读。未取得原谱/响应/联合协方差，不生成新实验CI。 | current-source-reading-scope | direct-and-boundary | 主XML tl0010/tl0020、fg0010–fg0040；Wang06 PDF pp.6/8 Table I | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)4项检查全过。
+| GR126-D18-12 | 新程序直接解析XML36条表分支，保8上限/13母态；在有限B中心固定、上限支0..cap、ICC0且全退激仅这些光子通道的声明设计中，各母态τ端点为[1/(known+caps),1/known]。它不把上限作中央，非概率CI/完整原库存/独立实验；作者Summary的26概率与本表逐线计数角色分开，未据此造erratum。 | task-conditional-upper-branch-design | derived-and-boundary | XML Tables1–2；新source-boundary-controls-result-047 grodner_actual_branch_rows / endpoint_ranges | true |
+
+旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)与[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)在本段审计用途上标为 **superseded**。旧脚本的 `status="passed"` 为固定赋值，没有相应四项布尔检验；本次不重跑、不覆盖该历史输出。后续应保留上限语义，补齐同母态的终态带身份、光子/ICC账本及混合比约束，再作条件闭合比较。
+
+
+[新有源程序](../../system/scripts/day18_source_boundary_controls.py)保留上限语义；64项检查包括逐行parser检查，不代表64项独立科学证据。[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-boundary-controls-result-047.json)不覆盖旧034产物。

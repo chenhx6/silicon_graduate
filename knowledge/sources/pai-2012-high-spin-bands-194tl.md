@@ -94,12 +94,23 @@ Pai 等的 INGA 数据将 `194Tl` 的 B1 band 延伸到 `18−`，并从能级�
 - Methods: γ–γ coincidence, DCO and linear-polarization asymmetry
 - Observables: band energies, alignment, moment of inertia, DCO/IPDCO
 
-## Day18定量审计：2qp向4qp交叉、37 keV极限简并与三带DSAM寿命非唯一配对对账
+## Day18 更正审计：B1 crossing、B2/B3 组态与后续寿命来源边界
 
-在Day18正式学习中对本文建立的194Tl能级交叉与后续AFRODITE DSAM寿命测量开展定量对账，raw SHA256 `633B068625691C4AEB6200867A9CD8820E6528B9FC19AE1C6CA2A3928FCF7553`已核。原PAI12-1–8各claim保持；新PAI12-D18-1待审。
+checkpoint047 完整核对本地 arXiv v2 原件全部 12 页主线、Table I、Fig. 5/7 及组态讨论。raw SHA256 `633B068625691C4AEB6200867A9CD8820E6528B9FC19AE1C6CA2A3928FCF7553` 匹配。原 PAI12-1–8、frontmatter 和 review 标记保持；下列新条目明确纠正旧 `PAI12-6` 的组态概括，并取代此前 `PAI12-D18-1`。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| PAI12-D18-1 | 本文报道的194Tl在0.34 MeV处对齐增益Delta i ~ 5 hbar（2qp向4qp交叉）及后续手征候选带定量核验揭示：(1) 交叉后四准粒子态（pi h9/2 x nu i13/2^-3）理论四极矩Q0=3.85 eb，虽在自旋21处能级间距达到37 keV的极限近简并（I=17-24全域能差<=110 keV），但后续AFRODITE在束DSAM寿命测量表明，所观测到的全部三条负宇称带的绝对B(E2)与B(M1)在实验误差内完全一致；(2) PRM理论计算表明该组态在gamma~45度下实际上激发出四条手征能带，而在实验仅观测到三条带且三带跃迁强度完全无差异的条件下，根本无法唯一性地将实验带两两配对，存在严重的非唯一性配对歧义；(3) 确立了方法学底线：哪怕能量简并达到37 keV极限，在缺乏可分辨的带间跃迁网络与态特异性矩阵元时，单独的能量简并与相近B值仍不足以确立真手征对称破缺。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.6–8, Fig. 5, Fig. 7；新masiteng14-194tl-degeneracy-result-039 | true |
+| PAI12-D18-1 | **superseded / 更正**：撤回将 37-keV 近简并、三带 DSAM、四条 PRM 能带、Q0=3.85 eb 及“数学上不可能唯一配对”归为本文定量结果的复合断言。后续文献与本文的数据、模型及读取范围见以下分列。 | evidence-correction | superseded | 本节 PAI12-D18-2–12；旧 Day18 复合 claim | true |
+| PAI12-D18-2 | 本文 B1 的能级派生对齐在 ℏω≈0.34 MeV 附近增加约 5 ℏ；Fig. 7 使用 J0=8、J1=40 的 Harris 参考。该量来自能级，不是寿命或组态的直接测量。 | derived-observable | direct | PDF pp.7–8, Fig. 7 and caption | true |
+| PAI12-D18-3 | 作者结合邻核 crossing、阻塞和计算 Routhian，将 B1 的 crossing 解释为第二对 νi13/2 中子对齐，即 2qp 到 4qp 的演化；计算 crossing 约 0.23 MeV 与实验派生约 0.34 MeV 须分开。 | author-interpretation | indirect | PDF pp.7–8, crossing discussion；pp.10–11, Fig. 13 | true |
+| PAI12-D18-4 | B2→B1 的 761-keV link 呈 quadrupole-like DCO，但无 IPDCO；作者假设 E2 得到暂定负宇称，同时不排除 M2/正宇称，要求 18(−) 态寿命解除歧义。所列约 50 ps 与 5 ns 是 Weisskopf 半衰期估计，不是实测寿命。 | evidence-boundary | direct | PDF p.6, 761-keV linking-transition discussion；p.5, Table I | true |
+| PAI12-D18-5 | **对旧 PAI12-6 的定向更正**：p.9 对 B2 的解释是在 B1 crossing 后的 4qp 基础上再加入一对 i13/2 质子；p.12 总结明确将 B2/B3 均建议为 6qp。B2 的该解释仍被作者称为过早且宇称暂定，不能简写成已建立的 4qp 带。旧 PAI12-6 行及其 flag 保留作历史定位。 | source-correction | direct | PDF p.9, B2 discussion；p.12, conclusion | true |
+| PAI12-D18-6 | 本文未实施三带 DSAM 寿命测量，也未给出三带绝对 B(M1)、B(E2) 相等的结果。Table I 是相对强度、DCO/IPDCO；B3 的未观测 E2 crossovers 仅用于估计 B(M1)/B(E2)>28 μN²/(eb)² 的下限。 | evidence-boundary | source-scope | PDF p.5, Table I；p.9, B3 discussion | true |
+| PAI12-D18-7 | 作者在本实验中未观察到手征侧带；这只约束本文实验，不裁决之后 194Tl 的候选带。 | experimental-limit | direct | PDF p.8, discussion；p.12, conclusion | true |
+| PAI12-D18-8 | Bark 2024 p.16 转述后来候选带能差最小为 I=21 处 37 keV、在所观测范围不超过 110 keV，归于 Masiteng 2013。本文 Pai 的 B1 仅延伸至 I=18；旧脚本 I=17–24 的八点能差数组没有从本文重建，本次也未用后续 primary 核定。 | cross-source-boundary | review-reported | Bark 2024 PDF p.16 / 24302-16；Pai PDF pp.4,6,12 | true |
+| PAI12-D18-9 | Bark 2024 p.18 将后续 DSAM 归于 Masiteng et al., EPJ A52,28 (2016)，并称三条负宇称带的 B 值在实验不确定度内相近；2014 的 EPJ A50,119 是另一篇谱学来源。本次只核了综述该段与引文，未取得/原读 2016 primary，不能认证逐态数值、误差覆盖或“完全相等”。 | cross-source-boundary | review-reported | Bark 2024 PDF p.18, Figs.25–27；pp.29–30, Refs.26–27 | true |
+| PAI12-D18-10 | Bark 所述 MPR 四带计算采用 ε2=0.15、γ=30°/40°；Guo 2022 的 β=0.13、γ=45.19° 则是 194Tl 的 constrained-RMF 静态 I* 极小值。两者不能合并成同一项“γ≈45° PRM 四带”计算，更不是 Pai 的实验结果。 | model-provenance-boundary | direct-companion | Bark 2024 PDF p.18；Guo 2022 PDF p.5, Table 1 I*；p.7 | true |
+| PAI12-D18-11 | 旧脚本以 β=0.13 的轴对称公式求 Q0≈3.846 eb，并用 K=0 高自旋公式求 B(E2)；其 γ 变量未进入计算。所得数值不是 Pai 或 Guo 报告的绝对跃迁强度，也不能代替三轴辐射几何或实测 Qt。 | calculation-boundary | task-self-audit | 旧 day18_masiteng14_194tl_degeneracy_audit.py 的公式；Pai PDF p.9 的 TRS 边界 | true |
+| PAI12-D18-12 | Bark 对 γ=40° 情形写的是四条计算带如何分组变得不清楚，并保留未观测第四带的可能；它没有证明实验配对在数学上不可能。能量近简并和 B 值相近提供约束，单独使用不能唯一确定手征几何；需保留模型与竞争解释范围。 | synthesis-boundary | review-and-inference | Bark 2024 PDF p.18；pp.20–22 的竞争解释讨论 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/masiteng14-194tl-degeneracy-contract-039.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/masiteng14-194tl-degeneracy-result-039.json)4项检查全过。
+后续来源边界见 [[bark-2024-investigations-nuclear-chirality-ithembalabs]] 与 [[guo-2022-possible-chiral-multiple-chiral-thallium-isotopes]]。本次 Guo 仅定向核其形变与 provenance，不声称新完整原读；Masiteng/Lieder 后续 primary 未得。旧分析合同与结果保留为历史运行记录；其固定 `passed` 不能充当科学验证。本节不授课程学分，不清除任何旧 review flag。

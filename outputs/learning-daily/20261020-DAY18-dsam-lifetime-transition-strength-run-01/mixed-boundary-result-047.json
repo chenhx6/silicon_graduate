@@ -1,0 +1,169 @@
+{
+  "kind": "primary-token-and-conditional-algebra-not-experiment-fit",
+  "sources": [
+    {
+      "path": "raw/papers/2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf",
+      "sha256": "e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f"
+    },
+    {
+      "path": "raw/papers/2019_Timár et al_Experimental Evidence for Transverse Wobbling in Pd 105.pdf",
+      "sha256": "3948cf32712a400aa8df0aee489ebebd89df7480508bddc60156a359ed322909"
+    }
+  ],
+  "supersedes": [
+    "nomura22-ibfm-wobbling-result-033.json",
+    "timar19-105pd-wobbling-result-021.json"
+  ],
+  "nomura_selected_model_vector": {
+    "Pr813": {
+      "delta": -0.368,
+      "RE2": 0.04,
+      "reported_Lv_delta": -0.37,
+      "reported_Lv_error_plus": 0.1,
+      "reported_Lv_error_minus": 0.14,
+      "reported_Lv_RE2": 0.12,
+      "RE2_error": 0.08
+    },
+    "Xe735": {
+      "delta": -1.801,
+      "RE2": 0.163,
+      "E2_photon_fraction": 0.7643510782469888
+    },
+    "comparison_boundary": "selected RE2 proximity to prior .164 does not identify same delta, matrix elements or physical solution"
+  },
+  "conditional_delta_controls": [
+    {
+      "energy_keV": 991,
+      "adopted_delta": 1.8,
+      "DCO_alternative_delta": 0.59,
+      "conditional_RE2": 0.22302148153642845,
+      "conditional_RM1": 0.5095170981381203,
+      "actual_branch_likelihood": "not calculated; same experiment polarization supports adopted branch"
+    },
+    {
+      "energy_keV": 1034,
+      "adopted_delta": 2.3,
+      "DCO_alternative_delta": 0.4,
+      "conditional_RE2": 0.09840297242683006,
+      "conditional_RM1": 0.4825948275862067,
+      "actual_branch_likelihood": "not calculated; same experiment polarization supports adopted branch"
+    }
+  ],
+  "effective_g_scaling": {
+    "q": 0.36,
+    "amplitude_multiplier": 0.36,
+    "strength_multiplier": 0.1296,
+    "inverse_strength": 7.71604938271605,
+    "delta_multiplier": 2.7777777777777777,
+    "actual_operator_producer": "not recovered"
+  },
+  "unsupported_994_delta_035_excluded": true,
+  "independent_experiment_or_CI": false,
+  "checks": [
+    {
+      "name": "2022_Nomura et al_Questioning the wobbling interpretation of low-spin bands in γ -soft nuclei within the interacting b.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2019_Timár et al_Experimental Evidence for Transverse Wobbling in Pd 105.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "Nomura eleven pages",
+      "passed": true
+    },
+    {
+      "name": "Nomura TableII exact selected printed tokens",
+      "passed": true
+    },
+    {
+      "name": "Timar six pages",
+      "passed": true
+    },
+    {
+      "name": "author explicitly supports larger deltas with polarization",
+      "passed": true
+    },
+    {
+      "name": "author gives scissors-mode rationale",
+      "passed": true
+    },
+    {
+      "name": "TableI labels normalization point",
+      "passed": true
+    },
+    {
+      "name": "photon fraction normalization 0.0",
+      "passed": true
+    },
+    {
+      "name": "sign invariant fraction 0.0",
+      "passed": true
+    },
+    {
+      "name": "photon fraction normalization -0.37",
+      "passed": true
+    },
+    {
+      "name": "sign invariant fraction -0.37",
+      "passed": true
+    },
+    {
+      "name": "photon fraction normalization 0.59",
+      "passed": true
+    },
+    {
+      "name": "sign invariant fraction 0.59",
+      "passed": true
+    },
+    {
+      "name": "photon fraction normalization -1.0",
+      "passed": true
+    },
+    {
+      "name": "sign invariant fraction -1.0",
+      "passed": true
+    },
+    {
+      "name": "photon fraction normalization 1.801",
+      "passed": true
+    },
+    {
+      "name": "sign invariant fraction 1.801",
+      "passed": true
+    },
+    {
+      "name": "photon fraction normalization 100.0",
+      "passed": true
+    },
+    {
+      "name": "sign invariant fraction 100.0",
+      "passed": true
+    },
+    {
+      "name": "991 replacement conserves specified total photon rate",
+      "passed": true
+    },
+    {
+      "name": "1034 replacement conserves specified total photon rate",
+      "passed": true
+    },
+    {
+      "name": "coefficient amplitude vs strength",
+      "passed": true
+    },
+    {
+      "name": "quenching difference differs from quenching neutron alone",
+      "passed": true
+    },
+    {
+      "name": "Xe same model row remains E2 dominant",
+      "passed": true
+    },
+    {
+      "name": "Pr central proximity is arithmetic only",
+      "passed": true
+    }
+  ],
+  "valid": true
+}

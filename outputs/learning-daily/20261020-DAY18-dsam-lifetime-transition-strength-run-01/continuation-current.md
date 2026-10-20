@@ -1,3 +1,5 @@
+checkpoint047：本批原件证据纠错与新上限/模型条件练习已写回，需完成整合检查/H3发布；随后继续Day18，原15:00截止及未授分保持。
+
 checkpoint046：MU08错表值/跨论文parity与D4/D3低spin身份已修，旧032强结论撤回；45已发布，仍持续Day18至原15:00，不预授分。
 
 checkpoint045：Hecht2003原文与新几何反例已纠正未提交044；beta平方比不是原B(E2)比，DSAM不是唯一裁判；原15:00硬截止保持，正式18未授分。
@@ -65,6 +67,9 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint047已实际提交，稳定指针main / `Correct primary-source boundaries in Day18 lifetime and strength audits`；精确hash/H3/远端结果只publication-047回执。
+
 
 checkpoint046已实际提交，稳定指针main / `Correct 136Nd source tables and parity-constrained band crosswalk`；精确hash/H3/远端结果只publication-046回执。
 

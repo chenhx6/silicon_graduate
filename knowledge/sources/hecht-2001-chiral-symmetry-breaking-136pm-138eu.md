@@ -181,12 +181,16 @@ P0: none identified.
 
 Next corpus source: Starosta 2001. Use it to audit the imported bandhead-spin/systematics dependency and to distinguish isotone-level chiral-vibration interpretation from the candidate wording of this paper.
 
-## Day18定量审计：3D TAC倾角塌缩、在束寿命缺失与邻核134Pr形变落差警示
+## Day18修订：平面与主轴、分支比与寿命参照
 
-在Day18正式学习中对本文Table I中3D TAC倾角演化及手征双重带寿命证据链开展定量核验，raw SHA256 `2F9BD3DCE75EC29056EF5A59B26032A6510B7E9DC241A546A3D82A89C7EEA161`已核。原HE01-1–13各claim保持；新HE01-D18-1待审。
+本次回四页原件与[[petrache-2006-near-degenerate-chiral-misinterpretation]]，保留HE01-1–13、原review/needs_review。旧result/contract-042的passed仅固定输出标签，未读取raw或验证Q0；保档为被本段取代的历史产物，不作科学核验。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| HE01-D18-1 | 本文报道的N=75同中子素136Pm与138Eu手征候选带定量核验揭示：(1) Table I展示的3D TAC计算表明，非平面倾角phi随频率增加发生急剧塌缩：136Pm在0.425 MeV (I=18.5)处phi降为0度，138Eu在0.350 MeV (I=13.5)处phi降为0度，证明微观模型本身预言非主轴手征解仅存在于狭窄的低自旋窗口并迅速终止为平面转动；(2) 两核全无在束能级寿命测量（DSAM或RDDS均缺），所绘制的B(M1)/B(E2)比值基于两带内禀四极矩完全相同的假设；(3) 邻核N=75同中子素134Pr后续寿命测量（Petrache 2006, Tonev 2006）确凿证实两伙伴带内禀四极矩存在2.0倍巨大落差（Q_0,1/Q_0,2 = 2.0(4)），推翻了手征等形变假定；136Pm与138Eu缺乏绝对寿命使得相同假定面临完全相同的系统学风险。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2–4, Table I, Fig. 3；新hecht01-136pm-138eu-result-042 | true |
+| HE01-D18-1 | 旧追加段中TableI phi零值抄录保留，但“等Qt是分支比提取前提”“全领域无寿命”“134Pr寿命直接量出两倍形变”与无来源绝对Q/B重构撤回，由D18-2–5替代。 | task-correction | superseded-interpretation | 本段D18-2–5；旧result/contract-042 | true |
+| HE01-D18-2 | TableI末行Pm为omega=.425 MeV、theta=89°、phi=0°、I=18.51且B比空；Eu为.350 MeV、68.40°、0°、13.50且比1.2。phi0只保证平面；Pm近主轴，Eu theta68.40不能据表认证主轴。p.4概述两核theta约90/phi0回PAC，与Eu表值的字面张力保留，不改原表或推新临界点。 | model-result-and-literal-boundary | direct | PDF2 TableI两末行；PDF4首栏末；旧HE01-12的限定补充 | true |
+| HE01-D18-3 | 在固定TRS形变/配对输入下，TAC表给有限频率区的非平面解；该均场不能处理两量子伙伴的混合，原文要求计算B(M1)/B(E2)与两带平均比比较。它不直接算能级劈裂或实测手征终止。 | model-scope | direct | PDF4中段；TableI caption；Ref18 private communication | true |
+| HE01-D18-4 | Fig3的同母态B(M1)/B(E2)由分支、多极分数与能量可消寿命，不需另一条带Qt相等；它仍依multipolarity/mixing/效率与branch/ICC合同。本文未报告这些带的τ或个别绝对B，不能扩展为2026全核无寿命的穷尽结论。 | rate-identity-and-source-scope | derived-and-boundary | PDF3 Fig3；四页实际observable范围；条件same-parent rate design result-047 | true |
+| HE01-D18-5 | 邻核134Pr的2.0(4)在Petrache2006是由E2分支比、能级间距及两带混合假定提取的E2跃迁矩比，非寿命直接测得beta两倍。该文将寿命B差作为定性对照，不能把此参数直接移植为Pm/Eu的实测反证。 | companion-lineage-correction | direct-and-boundary | Petrache2006 PDF2–3 Eqs1–5/TableI；PE06-D18-1 | true |
 
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht01-136pm-138eu-contract-042.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht01-136pm-138eu-result-042.json)4项检查全过。
+[新程序](../../system/scripts/day18_hecht01_136pm_138eu_chiral_audit.py)读取真实TableI69字段/14行，核原hash与文字/几何；[17项实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht01-planar-reference-correction-result-047.json)。按常见球坐标的条件诊断，两末行距最近轴约1°与21.6°，不是新TAC计算。新声明同母态rate例只演示同比可有异绝对率，不造τ/CI。主代理定向核PDF2/4与原表视觉，独立worker四页文字主线/关键图核；不冒全领域寿命检索。

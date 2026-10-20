@@ -27,7 +27,7 @@ updated: 2026-10-20
 
 - [[biswas-2019-longitudinal-wobbling-133la]] — 133La 纵向 wobbling 跨带相对跃迁几率提取对混合比双根的敏感性与多极倒转。
 
-- [[timar-2019-transverse-wobbling-105pd]] — 105Pd 单中子横向 wobbling 跨带跃迁混合比双根敏感性与 PRM 算符 7.7 倍人工淬灭解构。
+- [[timar-2019-transverse-wobbling-105pd]] — 混合比分支敏感性与有效g的定标范围；原文/模型/条件推导分层，见最新Day18修订。
 
 - [[guo-2022-low-spin-wobbling-187au]] — 187Au 纵向 wobbling 声称在内转换系数与线偏振下遭遇 88 倍断崖式塌缩至单粒子强度。
 
@@ -57,31 +57,31 @@ updated: 2026-10-20
 
 - [[petrache-2018-chiral-bands-even-even-136nd]] — 136Nd 跨论文带身份纠错：MU08低spin负宇称Band1/2对应D4/D3，不能映射正宇称D1/D2或假表值。
 
-- [[nomura-2022-questioning-wobbling-ibfm]] — 实验室系 IBFM 微观计算对账：135Pr delta (-0.368 vs -0.37) 与 127Xe B(E2) 0.163 精确收敛于 Day 18 物理小解审计。
+- [[nomura-2022-questioning-wobbling-ibfm]] — IBFM模型比较应核整个观测向量；原文/模型/条件推导分层，见最新Day18修订。
 
-- [[grodner-2011-126cs-chiral-selection-rules]] — 126Cs 13能级DSAM寿命与26绝对强度重构、Qt形变对称性（0.892比值）与(E_in/E_out)^5相空间502倍透镜审计。
+- [[grodner-2011-126cs-chiral-selection-rules]] — 上限与终态带身份必须进入寿命强度账本；原文/模型/条件推导分层，见最新Day18修订。
 
 - [[grodner-2006-128cs-chiral-doublet-lifetimes]] — 128Cs与132La完全阻停DSAM寿命测量、131La侧馈参数跨核迁移敏感性与132La 20倍B(E2)塌缩解构。
 
 - [[petrache-2020-137nd-multiple-chiral-bands]] — 137Nd Table 1弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动同位素链闭环对账。
 
-- [[musangu-2021-chiral-vibrations-104mo-106mo]] — 104,106Mo Table IV跨带E2预测与实验上限张力（超20-33%）及相空间压低审计。
+- [[musangu-2021-chiral-vibrations-104mo-106mo]] — 打印强度上限、共享归一与统计定义；原文/模型/条件推导分层，见最新Day18修订。
 
 - [[kuti-2014-multiple-chiral-doublets-103rh]] — 103Rh 同组态MχD负宇称带寿命缺失、分母B(E2)驱动交错反证与PRM近似局限审计。
 
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] — 78Br 8条E1跨带线B(E1)/B(E2)推导、内禀D0=0.71 e*fm定标与多极三元分类律。
 
-- [[pai-2012-high-spin-bands-194tl]] — 194Tl 4qp 37 keV极限近简并与三带全同DSAM寿命非唯一配对审计。
+- [[pai-2012-high-spin-bands-194tl]] — 原实验与后来DSAM综述的来源归属；原文/模型/条件推导分层，见最新Day18修订。
 
-- [[petrache-2016-134ce-triaxiality-exotic-rotations]] — 134Ce 跨带Delta I=1高E2纯度（75%-83%）与非wobbling三轴形状共存反例审计。
+- [[petrache-2016-134ce-triaxiality-exotic-rotations]] — 高E2光子份额与结构解释分层；原文/模型/条件推导分层，见最新Day18修订。
 
-- [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] — 136Pm与138Eu 3D TAC倾角塌缩、在束寿命缺失与134Pr形变落差警示审计。
+- [[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] — 倾角的平面条件与分支比的寿命抵消；原文/模型/条件推导分层，见最新Day18修订。
 
 - [[hecht-2003-chirality-shape-coexistence-140eu]] — 140Eu 原文寿命判别与转轴条件反例；beta平方比不能直接当实际B(E2)比。
 
 - [[guo-2020-pseudospin-chiral-quartet-131ba]] — 131Ba 四重带电磁寿命缺失、同组态与赝自旋MχD理论机制对立反思审计。
 
-- [[wang-2013-high-spin-104ag]] — 104Ag 对齐增益3.5hbar、手征指认引文谱系偏差与寿命缺失审计。
+- [[wang-2013-high-spin-104ag]] — 邻核类比不能替代本核的原始能级；原文/模型/条件推导分层，见最新Day18修订。
 
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。

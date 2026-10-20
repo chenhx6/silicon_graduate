@@ -89,3 +89,11 @@ Petrache *et al.* establish a reusable critical test: near-degeneracy is necessa
 ## Extracted Pages
 
 - Project/concept: [[nuclear-chirality-and-multiple-chiral-doublet-bands]], [[signature-inversion]]。
+
+## Day18参照核验：2.0(4)的实际提取链
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D18-1 | 2.0(4)指E2 transition moments的Q0,1/Q0,2；作者以实测E2 out/in分支和ΔE解混合振幅/V/矩比，假定无off-diagonal E2、短spin段V不变。允许范围1.6–2.4是该分析与输入的范围；寿命B的差异只作定性一致性对照，不是这项比值的直接来源，也不能把其转成beta两倍。 | source-derivation-and-lineage-audit | direct-and-boundary | PDF2最后两栏；PDF3 Eqs3–5/TableI及2.0(4)段；PE06-2 | true |
+
+原PE06-1–3及review保持。此次独立worker完整四页文字、PDF2–3视觉；主代理定向原读PDF2–3及PDF3视觉，未重拟合V/Q或原实验CI。联系[[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] HE01-D18-5，明确这是参照而非另两核的新测量。

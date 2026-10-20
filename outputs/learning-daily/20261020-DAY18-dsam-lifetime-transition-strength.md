@@ -49,6 +49,14 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint047：原件反证纠错、上限语义与条件分解
+
+本批独立核验后由主代理回查关键原表/图，修订Hecht/Petrache参照、Nomura/Timar、Grodner、Wang/Pai、Petrache134Ce/Musangu Mo的追加段。保持原review/frontmatter/旧claims flags；明确旧强断言被取代，旧artifact保档。主要修订包括：phi0不是主轴充分条件；分支比不需两带等Qt；IBFM单量接近不是全观测向量同解；105Pd同实验偏振支持大支；上限不能当中央值；来源不报告寿命不能当全领域absence；后续综述不能冒原实验；模型光子强度需共享归一与未给CL的限分开。
+
+本session新实际分析：Hecht原TableI读取/条件几何17项，mixed模型向量/δ分解26项，原XML36条分支保8上限/13母态的端点design及Ce/Mo角色检查64项。检查数包括parser断言，不代表独立科学证据。没有新拟合或实验CI。五个会把未验证输入/解释写为passed的旧serializer已停止直接生成误导性输出；旧结果未覆盖；新的脚本只生成新带scope结果。
+
+源页、方法页、研究笔记、索引及唯一writeback已同步。三域worker只改各自两源页，所有共享页面由主代理整合；检查/发布门后保同一session继续研究，未授正式18或19。
+
 ### checkpoint046：MU08真实十行、parity筛查与跨论文低spin谱系纠错
 
 两位只读核验与父代理原件复核发现checkpoint032表值和组态桥接错误，已撤MU08-D18-4/PE18-D18-1旧结论。MU08原TableII只I15−–19−，Qt .67–2.50eb，Band1 I15 E2/Qt空；实际B2/B1=51/26、11/2、2/7、5/11，非固定2.06倍。2018 A/B正宇称且beta=.21/.22，不能与2008负宇称Band1/2等同。低spin级联支持Band1→D4、Band2→D3，原高spin重排/缺绝对Ex保留。
@@ -1593,57 +1601,109 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-      "anchor": "Day18定量审计：单中子横向wobbling混合比双解敏感性与PRM算符淬灭解构",
-      "summary": "Table I中带间跃迁对混合比小解的塌缩核验及PRM模型M1算符7.72倍人工淬灭解构",
+      "anchor": "Day18修订：DCO双解、偏振companion与有效g定标",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-2"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-4"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-5"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "单中子横向wobbling的混合比根敏感性与算符人为淬灭：105Pd案例",
-      "summary": "105Pd案例审计：混合比小解塌缩2.96-8.06倍与PRM模型引入0.36有效g因子淬灭（压低M1算符7.72倍）的人工配平机制",
+      "anchor": "混合比分支敏感性与有效g的定标范围",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-2"
         },
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-4"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-5"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "唯象模型算符的人工淬灭与跃迁强度匹配假象",
-      "summary": "方法页补充唯象粒子转子模型通过人工淬灭磁偶极跃迁算符强制单点配平跃迁强度的边界识别",
+      "anchor": "混合比分支敏感性与有效g的定标范围",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-2"
         },
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-4"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-5"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "timar-2019-transverse-wobbling-105pd",
-      "summary": "索引增加105Pd单中子横向wobbling混合比敏感性与PRM算符淬灭解构导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-2"
         },
         {
           "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
-          "locator": "TI19-D18-1"
+          "locator": "TI19-D18-3"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-4"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-5"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D18-6"
         }
       ]
     },
@@ -2396,108 +2456,392 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-      "anchor": "Day18定量审计：实验室系IBFM计算与Day18物理小解跃迁强度的精确收敛对账",
-      "summary": "来源页补充Nomura 2022受约束能量密度泛函导出的实验室系IBFM计算对135Pr、127Xe、105Pd、133La带间跃迁强度的微观对账审计",
+      "anchor": "Day18修订：IBFM比较向量与模型替代解释",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-1"
+          "locator": "NOM22-D18-2"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-3"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-4"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-5"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "微观IBFM模型与实验小解强度的精确收敛：否定γ-soft区低自旋wobbling的理论闭环",
-      "summary": "研究笔记补充实验室系IBFM微观计算在135Pr与127Xe带间跃迁多极强度上与Day 18物理小解审计达成0.001-0.002精确收敛的理论闭环",
+      "anchor": "IBFM模型比较应核整个观测向量",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-1"
+          "locator": "NOM22-D18-2"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-3"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-4"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-5"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "实验室系相互作用玻色子-费米子模型对电磁跃迁几率的客观反驳力",
-      "summary": "方法页补充基于微观能量密度泛函的实验室系IBFM模型在检验转子模型唯象拟合与电磁跃迁几率时的客观裁判准则",
+      "anchor": "IBFM模型比较应核整个观测向量",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-1"
+          "locator": "NOM22-D18-2"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-3"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-4"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-5"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "nomura-2022-questioning-wobbling-ibfm",
-      "summary": "索引增加Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度精确收敛对账导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
-          "locator": "NOM22-D18-1"
+          "locator": "NOM22-D18-2"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-3"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-4"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-5"
+        },
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-6"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-      "anchor": "Day18定量审计：DSAM寿命到跃迁强度精确重构、四极矩Qt对称性与相空间透镜检验",
-      "summary": "来源页补充Grodner 2011 126Cs两手征带13个能级DSAM寿命、26个绝对跃迁强度物理重构与Qt对称性审计",
+      "anchor": "Day18原件复核纠正：上限、带身份与条件速率换算",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-1"
+          "locator": "GR126-D18-2"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-7"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-8"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-9"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-10"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-11"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-      "anchor": "Day18定量审计：在束DSAM寿命测量、侧馈参数跨核迁移敏感性与四极跃迁两带对称性",
-      "summary": "来源页补充Grodner 2006 128Cs与132La完全阻停DSAM寿命测量、侧馈参数跨核迁移敏感性与132La 20倍BE2塌缩解构审计",
+      "anchor": "Day18原件复核纠正：侧馈迁移、强度对比与手征解释边界",
+      "summary": "原件侧馈迁移与132La强度差的报告范围，条件Qt与作者手征解释分层",
       "sources": [
         {
           "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-1"
+          "locator": "GR06-D18-2"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "奇奇核手征双重带的DSAM寿命、四极矩形变对称性与相空间多极纯度",
-      "summary": "研究笔记补充126Cs与128Cs手征双重带DSAM寿命提取、Qt形变对称性对账与低能Delta I=1跃迁相空间纯M1第一性原理辩护",
+      "anchor": "上限与终态带身份必须进入寿命强度账本",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-1"
+          "locator": "GR126-D18-2"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-7"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-8"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-9"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-10"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-11"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-12"
         },
         {
           "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-1"
+          "locator": "GR06-D18-2"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "低能带内跃迁的相空间放大效应与纯多极性物理自洽边界",
-      "summary": "方法页补充基于相空间(E_in/E_out)^5放大效应证明低能Delta I=1跃迁具有>99.5%天然纯M1的物理自洽边界准则",
+      "anchor": "上限与终态带身份必须进入寿命强度账本",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-1"
+          "locator": "GR126-D18-2"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-7"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-8"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-9"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-10"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-11"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-12"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-2"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "grodner-2011-126cs-chiral-selection-rules",
-      "summary": "索引增加126Cs与128Cs手征双重带DSAM寿命重构、Qt形变对称性与相空间透镜审计导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
-          "locator": "GR126-D18-1"
+          "locator": "GR126-D18-2"
         },
         {
-          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
-          "locator": "GR06-D18-1"
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-4"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-5"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-6"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-7"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-8"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-9"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-10"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-11"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-12"
         }
       ]
     },
@@ -2547,45 +2891,141 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-      "anchor": "Day18定量审计：Table IV跨带跃迁理论预测与实验上限张力对账",
-      "summary": "来源页补充104,106Mo Table IV跨带E2跃迁预测系统性超出实验1sigma上限达20-33.3%的张力审计",
+      "anchor": "Day18 checkpoint047更正：Mo跨带相对强度、打印上限与共享输入边界",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-1"
+          "locator": "MU21-D18-2"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "偶偶核104,106Mo手征振动候选带的跨带E2预测与实验探测上限张力",
-      "summary": "研究笔记补充104,106Mo跨带E2集体预测超出实验上限、相空间压低与缺乏在束寿命测量的系统学约束",
+      "anchor": "打印强度上限、共享归一与统计定义",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-1"
+          "locator": "MU21-D18-2"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "跨带电磁连接线的实验探测上限对集体跃迁模型的证伪界限",
-      "summary": "方法页补充跨带非观测谱线实验上限系统性低于微观模型预测时对集体四极增强假设的客观证伪准则",
+      "anchor": "打印强度上限、共享归一与统计定义",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-1"
+          "locator": "MU21-D18-2"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-8"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "musangu-2021-chiral-vibrations-104mo-106mo",
-      "summary": "索引增加104,106Mo Table IV跨带E2预测与实验上限张力及相空间压低审计导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
-          "locator": "MU21-D18-1"
+          "locator": "MU21-D18-2"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-3"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-4"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-5"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-6"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-7"
+        },
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-8"
         }
       ]
     },
@@ -2679,89 +3119,329 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-      "anchor": "Day18定量审计：2qp向4qp交叉、37 keV极限简并与三带DSAM寿命非唯一配对对账",
-      "summary": "来源页补充194Tl 4qp态37 keV极限简并度与AFRODITE DSAM全同寿命导致非唯一配对困境审计",
+      "anchor": "Day18 更正审计：B1 crossing、B2/B3 组态与后续寿命来源边界",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-1"
+          "locator": "PAI12-D18-2"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-3"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-4"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-5"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-6"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-7"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-8"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-9"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-10"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-11"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "194Tl四准粒子37 keV极限近简并与三带DSAM寿命非唯一配对对账",
-      "summary": "研究笔记补充194Tl四准粒子37 keV创纪录能量简并度与三带全同DSAM寿命导致伙伴配对非唯一性的反思对账",
+      "anchor": "原实验与后来DSAM综述的来源归属",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-1"
+          "locator": "PAI12-D18-2"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-3"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-4"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-5"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-6"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-7"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-8"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-9"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-10"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-11"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "多带流形中DSAM寿命全同与手征伙伴非唯一配对的判据局限",
-      "summary": "方法页补充四准粒子多能带流形中全同DSAM寿命无法唯一定位手征伙伴的判定底线准则",
+      "anchor": "原实验与后来DSAM综述的来源归属",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-1"
+          "locator": "PAI12-D18-2"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-3"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-4"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-5"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-6"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-7"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-8"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-9"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-10"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-11"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "pai-2012-high-spin-bands-194tl",
-      "summary": "索引增加194Tl 4qp 37 keV极限近简并与三带全同DSAM寿命非唯一配对审计导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
-          "locator": "PAI12-D18-1"
+          "locator": "PAI12-D18-2"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-3"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-4"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-5"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-6"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-7"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-8"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-9"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-10"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-11"
+        },
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-12"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-      "anchor": "Day18定量审计：跨带Delta I=1强E2混杂（75%-83%）与非wobbling三轴形状共存反证",
-      "summary": "来源页补充134Ce跨带Delta I=1连接线四极纯度达75-83%却属于常规三轴形状共存而非wobbling的反例审计",
+      "anchor": "Day18 checkpoint047更正：134Ce混合比、条件E2份额与CNS解释边界",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-1"
+          "locator": "PE16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "134Ce跨带连接线75%-83%高E2纯度与非wobbling三轴形状共存反例",
-      "summary": "研究笔记补充134Ce跨带线75-83%高E2纯度不能单凭混合比判定wobbling、必须依赖DSAM绝对寿命判据的物理反例",
+      "anchor": "高E2光子份额与结构解释分层",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-1"
+          "locator": "PE16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "跨带Delta I=1高E2纯度（75%-83%）对wobbling判定的非充分性与绝对寿命门槛",
-      "summary": "方法页补充跨带Delta I=1高E2纯度对wobbling仅为必要而非充分条件、必须测定绝对寿命达到集体超强发射的判据准则",
+      "anchor": "高E2光子份额与结构解释分层",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-1"
+          "locator": "PE16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "petrache-2016-134ce-triaxiality-exotic-rotations",
-      "summary": "索引增加134Ce跨带高E2纯度与非wobbling三轴形状共存反例审计导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
-          "locator": "PE16-D18-1"
+          "locator": "PE16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-3"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-5"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-6"
+        },
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-7"
         }
       ]
     },
@@ -2811,89 +3491,217 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/wang-2013-high-spin-104ag.md",
-      "anchor": "Day18定量审计：准粒子对齐跳变3.5hbar、手征指认引文谱系偏差与寿命缺失对账",
-      "summary": "来源页补充104Ag负宇称带3.5hbar对齐跳变、依赖被证伪106Ag引文与绝对寿命缺失审计",
+      "anchor": "Day18 更正审计：A/B 对齐原图、寿命报告范围与跨核类比边界",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-1"
+          "locator": "WS13-D18-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-4"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "104Ag对齐增益3.5hbar、手征引文谱系偏差与DSAM寿命缺失对账",
-      "summary": "研究笔记补充104Ag对齐跳变3.5hbar依赖已被证伪的106Ag早期假说在同位素链中传播的证据反思",
+      "anchor": "邻核类比不能替代本核的原始能级",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-1"
+          "locator": "WS13-D18-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-4"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "跨同位素类比中的带交叉偏置与DSAM绝对寿命鉴伪屏障",
-      "summary": "方法页补充依托独立DSAM在束寿命测量阻断破对带交叉假象在同位素链中链式传播的准则",
+      "anchor": "邻核类比不能替代本核的原始能级",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-1"
+          "locator": "WS13-D18-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-4"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "wang-2013-high-spin-104ag",
-      "summary": "索引增加104Ag对齐增益3.5hbar与引文谱系偏差审计导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
-          "locator": "WS13-D18-1"
+          "locator": "WS13-D18-2"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-3"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-4"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-5"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-6"
+        },
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-7"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-      "anchor": "Day18定量审计：3D TAC倾角塌缩、在束寿命缺失与邻核134Pr形变落差警示",
-      "summary": "来源页补充136Pm与138Eu 3D TAC倾角随自旋快速塌缩为零、在束寿命缺失与134Pr形变二倍落差警示审计",
+      "anchor": "Day18修订：平面与主轴、分支比与寿命参照",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-1"
+          "locator": "HE01-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-5"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
-      "anchor": "N=75同中子素136Pm与138Eu倾角塌缩、寿命缺失与134Pr形变落差警示",
-      "summary": "研究笔记补充N=75链136Pm与138Eu非平面倾角狭窄窗口及邻核134Pr测得2倍形变落差对等形变假设的警示",
+      "anchor": "倾角的平面条件与分支比的寿命抵消",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-1"
+          "locator": "HE01-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-5"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
-      "anchor": "同中子素链手征候选带的倾角演化约束与寿命鉴伪门槛",
-      "summary": "方法页补充微观倾角自洽性与抵御跨同中子素未测寿命等形变偏置的寿命测量鉴伪门槛准则",
+      "anchor": "倾角的平面条件与分支比的寿命抵消",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-1"
+          "locator": "HE01-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-5"
         }
       ]
     },
     {
       "knowledge": "knowledge/index.md",
       "anchor": "hecht-2001-chiral-symmetry-breaking-136pm-138eu",
-      "summary": "索引增加136Pm与138Eu倾角塌缩与寿命缺失警示审计导航",
+      "summary": "checkpoint047原件复核纠错：保直接事实，限定条件算术/来源谱系与统计解释，旧过强结论superseded",
       "sources": [
         {
           "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
-          "locator": "HE01-D18-1"
+          "locator": "HE01-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+          "locator": "HE01-D18-5"
         }
       ]
     },
@@ -2988,6 +3796,17 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "HE03-D18-5"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "anchor": "Day18参照核验：2.0(4)的实际提取链",
+      "summary": "核原E2分支/能级间距与两带混合提取链，区分寿命参照和beta解释",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -3002,6 +3821,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint047已实际提交，稳定指针main / `Correct primary-source boundaries in Day18 lifetime and strength audits`；精确hash/H3/远端结果只publication-047回执。
+
 
 checkpoint046已实际提交，稳定指针main / `Correct 136Nd source tables and parity-constrained band crosswalk`；精确hash/H3/远端结果只publication-046回执。
 

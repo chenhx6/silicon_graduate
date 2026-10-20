@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint047：本批原件证据纠错与新上限/模型条件练习已写回，需完成整合检查/H3发布；随后继续Day18，原15:00截止及未授分保持。
+
 checkpoint046：MU08错表值/跨论文parity与D4/D3低spin身份已修，旧032强结论撤回；45已发布，仍持续Day18至原15:00，不预授分。
 
 checkpoint044：140Eu双极小形状共存56.2% BE2落差与DSAM判决力审计（HE03-D18-1），证实TRS负gamma与正gamma双极小微观预测带4与带3存在高达56.2%的带内BE2系统落差（1.5625比值），与手征等形变假定（BE2比值1.0）截然对立，确立题名问号根源在于全无在束寿命测量，建立DSAM绝对寿命作为手征与形状共存唯一裁判的判决准则。167项writeback已通过验证。原硬截止今日15点保持。
@@ -78,6 +80,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint047已实际提交，稳定指针main / `Correct primary-source boundaries in Day18 lifetime and strength audits`；精确hash/H3/远端结果只publication-047回执。
+
 
 checkpoint046已实际提交，稳定指针main / `Correct 136Nd source tables and parity-constrained band crosswalk`；精确hash/H3/远端结果只publication-046回执。
 
