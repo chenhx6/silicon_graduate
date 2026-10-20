@@ -1,0 +1,55 @@
+[
+  {
+    "tag": "aps",
+    "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.96.052501",
+    "status": 403,
+    "bytes": 5571,
+    "mime": "text/html; charset=UTF-8",
+    "is_pdf": false,
+    "file": "tmp/day18-20261020/tonev134pr/aps.txt"
+  },
+  {
+    "tag": "halapi",
+    "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:in2p3-00025844&fl=title_s,docType_s,fileMain_s,uri_s&wt=json",
+    "status": 200,
+    "bytes": 313,
+    "mime": "application/json; charset=utf-8",
+    "is_pdf": false,
+    "file": "tmp/day18-20261020/tonev134pr/halapi.txt",
+    "data": {
+      "response": {
+        "numFound": 1,
+        "start": 0,
+        "maxScore": 5.9642706,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "title_s": [
+              "Transition Probabilities in $^{134}$Pr: A Test for Chirality in Nuclear Systems"
+            ],
+            "uri_s": "https://in2p3.hal.science/in2p3-00025844v1",
+            "docType_s": "ART"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "tag": "padova",
+    "url": "https://www.research.unipd.it/handle/11577/2448302",
+    "status": 403,
+    "bytes": 5504,
+    "mime": "text/html; charset=UTF-8",
+    "is_pdf": false,
+    "file": "tmp/day18-20261020/tonev134pr/padova.txt"
+  },
+  {
+    "tag": "haldoc",
+    "url": "https://in2p3.hal.science/in2p3-00025844/document",
+    "status": 404,
+    "bytes": 54205,
+    "mime": "text/html; charset=UTF-8",
+    "is_pdf": false,
+    "file": "tmp/day18-20261020/tonev134pr/haldoc.txt"
+  }
+]

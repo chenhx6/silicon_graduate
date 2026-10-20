@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含26atomic映射项/10owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含29atomic映射项/11mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -49,9 +49,13 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint006：finite-stopping companion的真实六行合同
+
+Lieder APS/accepted/linkPDF403、Harvest401、INSPIRE仅metadata无document；Ma2013只有metadata，Tonev134Pr HAL只metadata/其它route失败。当前[[klemme-1999-lifetimes-134nd-neighbors]]只定向原读PDF2–4（Day13 priming/旧6g18%算术承认），新KL99-D18-1–4与真实六行tcorr/standard1.181–1.255、非统一scale。声明修正量减半chart中Qt比只变.563%/.584%，不原fit/CI或106Ag新实验；[实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-companion-result-006.json)。初draft重复单行与事实boolean，发布前已替换，所谓6checks不计新证据。当前29items/11mapped知识页、55新待审claims，Day19未开。
+
 ### checkpoint005：106Ag实际DSAM与partial双原件
 
-[[rather-2014-ag106-transition-rates]]新完整原读arxiv1310.7731v1十二页/3fig1table，VoR未得；RA14-1–12均待审。真实12行新contrast S15/S17=7.2863124消每母态共同τ/normalizer但不消line-specific输入，16checks不替原fitΣ。原0.1(2)、prose17vs中心15及独立SD解释边界保原；TPSM同形变是模型条件，非只由相似BE2唯一实测。Lieder112202502只metadata/访问失败，无双原件结论；Bark90+14−4=100不闭106的literal记录不倒改原文/认证Lieder靶。新写回source/nucleus/method/note/index，当前合计26items/10owning页、51新claims待审。
+[[rather-2014-ag106-transition-rates]]新完整原读arxiv1310.7731v1十二页/3fig1table，VoR未得；RA14-1–12均待审。真实12行新contrast S15/S17=7.2863124消每母态共同τ/normalizer但不消line-specific输入，16checks不替原fitΣ。原0.1(2)、prose17vs中心15及独立SD解释边界保原；TPSM同形变是模型条件，非只由相似BE2唯一实测。Lieder112202502只metadata/访问失败，无双原件结论；Bark90+14−4=100不闭106的literal记录不倒改原文/认证Lieder靶。新写回source/nucleus/method/note/index，当时26items/10owning页；后续KL99新四claims仍待审。
 
 ### checkpoint004：官方reference的同源B/τ与halfmean
 
@@ -842,6 +846,75 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "RA14-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "RDDS/DDCM作为DSAM的正交时间合同",
+      "summary": "KL99新六行finite stopping非共scale及Qt ratio chart；不造Ag106数据",
+      "sources": [
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-1"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-2"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-3"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Day18时间响应设计：RDDS不是无条件的“独立寿命”",
+      "summary": "定向Klemme六行新relative Qt response/monotonic chart；samelevel/Σ仍缺",
+      "sources": [
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-1"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-2"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-3"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "anchor": "Day18定向companion：有限停止修正的共同尺度与相对强度",
+      "summary": "定向PDF2–4/必要references，六行finite-stopping与条件相对Qt新四claims；原rows/flags保持",
+      "sources": [
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-1"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-2"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-3"
+        },
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-D18-4"
+        }
+      ]
     }
   ]
 }
@@ -856,6 +929,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint006已实际提交，稳定指针main / `Audit finite stopper dependence in DSAM lifetime companions`；精确hash/H3/远端结果只publication006回执，原Day18研究继续。 verification009/report/29writeback项11页/partial18coverage/lint008/boundary006/diff实际通过，0errors249warnings；59旧claimrows（Jensen18/MU0823/KL9918）字面保持，raw/PLAN/Bib与继承dirty保护。新六行分析不是旧单行重跑或6个booleanchecks。
 
 checkpoint005已实际提交，稳定指针main / `Audit Ag106 primary transition rates and bounded lifetime cancellation`；精确hash/H3/远端结果只publication005回执。verification008/report/26writeback项10页/partial18coverage/lint007/boundary005/diff实际通过；0errors249warnings，Ag106新16checks通过。原继承dirty/PLAN/Bib/41旧claim保持，isolateddaemon不入stage；Farmer42019running、本threadpendingfalse、全Wiki另2pending。nativegoal最新实际blocked，用户resume后研究继续。
 

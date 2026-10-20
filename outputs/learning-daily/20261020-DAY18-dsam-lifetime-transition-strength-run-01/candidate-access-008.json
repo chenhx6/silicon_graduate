@@ -1,0 +1,267 @@
+[
+  {
+    "tag": "lieder-inspire",
+    "status": 200,
+    "bytes": 35205,
+    "file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lieder-inspire-008.json"
+  },
+  {
+    "tag": "tonev-crossref",
+    "status": 200,
+    "bytes": 7655,
+    "file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/tonev-crossref-008.json",
+    "title": [
+      "Transition Probabilities in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi>Pr</mml:mi><mml:mprescripts/><mml:none/><mml:mn>134</mml:mn></mml:mmultiscripts></mml:math>: A Test for Chirality in Nuclear Systems"
+    ],
+    "links": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevLett.96.052501",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.96.052501/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "tag": "tonev-openalex",
+    "status": 200,
+    "bytes": 38944,
+    "file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/tonev-openalex-008.json",
+    "title": "Transition Probabilities in Pr134 : A Test for Chirality in Nuclear Systems",
+    "locations": [
+      {
+        "id": "doi:10.1103/physrevlett.96.052501",
+        "doi": "https://doi.org/10.1103/physrevlett.96.052501",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1103/physrevlett.96.052501",
+        "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.96.052501",
+        "source": {
+          "id": "https://openalex.org/S24807848",
+          "display_name": "Physical Review Letters",
+          "issn_l": "0031-9007",
+          "issn": [
+            "0031-9007",
+            "1079-7114",
+            "1092-0145"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-3",
+            "ki-jl-2",
+            "medline",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review Letters",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:16486924",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16486924",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical review letters",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:HAL:in2p3-00025844v1",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://in2p3.hal.science/in2p3-00025844",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4406922276",
+          "display_name": "INRIA a CCSD electronic archive server",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Physical Review Letters, 2006, 96, pp.052501. &#x27E8;10.1103/PhysRevLett.96.052501&#x27E9;",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:www.research.unipd.it:11577/2448302",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/11577/2448302",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402547",
+          "display_name": "Padua Research Archive (University of Padova)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I138689650",
+          "host_organization_name": "University of Padua",
+          "host_organization_lineage": [
+            "https://openalex.org/I138689650"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ]
+  },
+  {
+    "tag": "ma2013-crossref",
+    "status": 200,
+    "bytes": 5468,
+    "file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ma2013-crossref-008.json",
+    "title": [
+      "Risk of misinterpreting nearly degenerate doublet bands as chiral partners in odd-even<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mrow/><mml:mrow><mml:mn>103</mml:mn><mml:mo>,</mml:mo><mml:mn>105</mml:mn><mml:mo>,</mml:mo><mml:mn>107</mml:mn></mml:mrow></mml:msup></mml:math>Ag and odd-odd<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mrow/><mml:mn>106</mml:mn></mml:msup></mml:math>Ag"
+    ],
+    "links": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.88.034322",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.88.034322/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "tag": "ma2013-openalex",
+    "status": 200,
+    "bytes": 16128,
+    "file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ma2013-openalex-008.json",
+    "title": "Risk of misinterpreting nearly degenerate doublet bands as chiral partners in odd-even 103,105,107 Ag and odd-odd 106 Ag",
+    "locations": [
+      {
+        "id": "doi:10.1103/physrevc.88.034322",
+        "doi": "https://doi.org/10.1103/physrevc.88.034322",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1103/physrevc.88.034322",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210168441",
+          "display_name": "Physical Review C",
+          "issn_l": "0556-2813",
+          "issn": [
+            "0556-2813",
+            "1089-490X",
+            "1538-4497",
+            "2469-9985",
+            "2469-9993",
+            "2470-0002"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-a",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review C",
+        "raw_type": "journal-article"
+      }
+    ]
+  },
+  {
+    "tag": "ma2013-arxivexact",
+    "status": 200,
+    "bytes": 739,
+    "file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ma2013-arxivexact-008.xml"
+  }
+]

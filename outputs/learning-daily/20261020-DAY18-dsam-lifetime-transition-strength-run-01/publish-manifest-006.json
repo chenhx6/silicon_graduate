@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-20T09:48:33.458167+00:00",
+  "subject": "Audit finite stopper dependence in DSAM lifetime companions",
+  "ordinary_paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+    "system/scripts/day18_rdds_companion_contract.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-005.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ag106-primary-access-007.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lieder-inspire-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-access-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/tonev-access-009.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/tonev-crossref-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/tonev-openalex-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ma2013-crossref-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ma2013-openalex-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ma2013-arxivexact-008.xml",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-question-freeze-006.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-input-contract-006.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-reading-scope-006.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-companion-result-006.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-009.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-006.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-006.md"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-006.md only"
+  },
+  "excluded": [
+    "raw/PLAN/Bib/credentials",
+    "inheriteddirty/isolateddaemon",
+    "tmpPDFs/sourcearchives",
+    "runnerlogs"
+  ],
+  "checks": "verification009/lint0080error249warning/boundary006/diff; 59oldclaims preserved"
+}

@@ -598,3 +598,12 @@ RA14-6的新[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-t
 RA14-7仅反证额外独立SD解释：B∝1/τ且强度独立时，main12/13的寿命至少给BM1局部SD.07625/.16190，而原表为.01/.02。不能据此修表、猜真实Cov或指控作者计算错。RA14-8保正文17dip/peak与TableI/Fig2中心15minimum/maximum不一致；partner18literal0.1(2)原样保，不改为.10(.02)。
 
 RA14-9/10的同B(E2)/异B(M1)与TPSM解释分开：epsilon.15/gamma30°是模型输入，两个不同Nilsson2qp态仍同名pi g9/2 nu h11/2，不能只由B近似相等唯一测出相同形状。RA14-11/12与[[106ag]]还保二手Bark反应90+14−4=100不闭106；不改raw、不拿Rather96靶倒填Lieder。另一primary Lieder PRL112202502仍只有metadata/访问失败，故双原件比较partial，不映射main/partner到reviewBands1–3。
+
+
+## Day18时间响应设计：RDDS不是无条件的“独立寿命”
+
+[[klemme-1999-lifetimes-134nd-neighbors]] KL99-D18-1–4是在既有priming后的新定向PDF2–4核验，非新完整阅读/Day19。六个tcorr/standard中心因子1.181159–1.255319不共一乘法尺度；空tcorr不当精确零。作者说电子stop+30%可把差异约减半，不提供逐态完整alternatefit/Σ；本任务额外声明tau(f)=standard+f(corrected−standard)、f在[.5,1]而不赋概率。
+
+在fixedbranch/ICC/能量/几何下，B∝1/tau、Qt∝tau^−1/2。新[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-input-contract-006.json)、[六行程序](../../system/scripts/day18_rdds_companion_contract.py)/[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-companion-result-006.json)给12S1/10S1的Qt比1.1827957→1.1894563（+.563123%）和8g/6g.9296482→.9350779（+.584053%）；平方ratio随f的导数定号，所以端点确实界定本chart。它不重现原stoppingbranch、likelihood或CI，亦不把旧6g18%单行算术算新交付。
+
+DDCM距离恒定性是有用诊断，不保证所有共同速度/门/强度/有限stopping无误差；Qt又继承branch/轴假设。KL99是134Nd独立采集而非106Ag同levelRDDS，不能按同核区/同符号补Rather的数据。下一应取actualsamelevel/response/Cov输入，本session仍正式Day18，下一卡未开。

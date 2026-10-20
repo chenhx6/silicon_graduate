@@ -239,3 +239,8 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## Day18 Ag106：同母态ratio的有限抵消
 
 [[rather-2014-ag106-transition-rates]] RA14-3/4/6给新的完整primary实例：1fs/5000histories/shell-correctedNorthcliffe、逐级feeding及12的abovegate，不可迁成其它原件的同producer。固定branch/ICC/multipole时同母态BM1/BE2消共同τ，再作跨带/跨spincontrast；不消line-specific intensity/δ/response，不生成独立实验CI。RA14-7/8的quotederror与prose/table边界保原。RA14-9/10将相似B(E2)与同meanfieldshape模型解释分列；Liederbody未得，不称两primary已一致或冲突已裁决。
+
+
+## RDDS/DDCM作为DSAM的正交时间合同
+
+[[klemme-1999-lifetimes-134nd-neighbors]] KL99-D18-1/2/3/4来自本session定向原读PDF2–4，承认既有Day13阅读。距离/shifted-feedinggate/导数给DSAM以外的时间响应，但约1.1ps Au减速仍使短τ需要stopping修正；六个非空tcorr因子1.181–1.255不是统一比例。固定branch/ICC/几何，声明将修正量减半的chart中12S1/10S1和8g/6g的Qt比分别仅变+.563%/+.584%；不把这一个chart当原CI/完整系统envelope或106Ag独立实验。实际输入/Σ与samelevel身份才决定companion是否增加独立约束。

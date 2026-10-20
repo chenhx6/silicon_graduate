@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-20T09:34:48.805816+00:00",
+  "attempts": [
+    {
+      "tag": "abstract",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.202502",
+      "final_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.202502",
+      "status": 403,
+      "bytes": 5589,
+      "mime": "text/html; charset=UTF-8",
+      "is_pdf": false,
+      "sha256": "3f88075f2e0775ab1fdaedb9235d75e2f9953c4e621be22c6e695e5dacdf86a8",
+      "file": "tmp/day18-20261020/ag106-dual/lieder-abstract-007.txt"
+    },
+    {
+      "tag": "accepted",
+      "url": "https://journals.aps.org/prl/accepted/10.1103/PhysRevLett.112.202502",
+      "final_url": "https://journals.aps.org/prl/accepted/10.1103/PhysRevLett.112.202502",
+      "status": 403,
+      "bytes": 5589,
+      "mime": "text/html; charset=UTF-8",
+      "is_pdf": false,
+      "sha256": "d9bf2133a42837d2d2cf5b9d9ce4a4f76ddf1ce72ef18858a016c8421c30fe02",
+      "file": "tmp/day18-20261020/ag106-dual/lieder-accepted-007.txt"
+    },
+    {
+      "tag": "linkpdf",
+      "url": "https://link.aps.org/pdf/10.1103/PhysRevLett.112.202502",
+      "final_url": "https://link.aps.org/pdf/10.1103/PhysRevLett.112.202502",
+      "status": 403,
+      "bytes": 5558,
+      "mime": "text/html; charset=UTF-8",
+      "is_pdf": false,
+      "sha256": "d0090b99a26ba7e48421a4405a5bb937e4cdf52339b7a40a1659b97c117920a7",
+      "file": "tmp/day18-20261020/ag106-dual/lieder-linkpdf-007.txt"
+    },
+    {
+      "tag": "harvest",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.112.202502/fulltext",
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.112.202502/fulltext",
+      "status": 401,
+      "bytes": 70,
+      "mime": "application/json",
+      "is_pdf": false,
+      "sha256": "4fc9e1a4db7bd3aa51207fec3a92494a9d7051a3c4fdc8eee9701373bbcf91cf",
+      "file": "tmp/day18-20261020/ag106-dual/lieder-harvest-007.txt"
+    }
+  ],
+  "preceding_tools": {
+    "discovery": "candidate PDF only; inconclusive pdf_mime_missing",
+    "scholar": "timeout",
+    "academic_search": "invalid source openalex, no query executed"
+  }
+}

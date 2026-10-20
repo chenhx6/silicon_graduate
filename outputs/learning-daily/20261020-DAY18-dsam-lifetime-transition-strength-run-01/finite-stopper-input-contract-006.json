@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-20T09:43:31.425593+00:00",
+  "source": "Klemme PRC60 034301 original PDF3TableI/PDF4TableII",
+  "source_sha256": "2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604",
+  "rows": [
+    {
+      "state": "6g",
+      "standard_tau_ps": "1.38",
+      "corrected_tau_ps": "1.63",
+      "Qt_eb": "3.98"
+    },
+    {
+      "state": "8g",
+      "standard_tau_ps": ".85",
+      "corrected_tau_ps": "1.03",
+      "Qt_eb": "3.70"
+    },
+    {
+      "state": "8gamma",
+      "standard_tau_ps": "1.04",
+      "corrected_tau_ps": "1.24",
+      "Qt_eb": "4.8"
+    },
+    {
+      "state": "10S1",
+      "standard_tau_ps": ".58",
+      "corrected_tau_ps": ".71",
+      "Qt_eb": "4.65"
+    },
+    {
+      "state": "12S1",
+      "standard_tau_ps": ".47",
+      "corrected_tau_ps": ".59",
+      "Qt_eb": "5.5"
+    },
+    {
+      "state": "16S2",
+      "standard_tau_ps": ".55",
+      "corrected_tau_ps": ".68",
+      "Qt_eb": "3.8"
+    }
+  ],
+  "declared_chart": "tau_j(f)=tau_standard_j+f*(tau_corrected_j-tau_standard_j); f in [.5,1] is design, not author exact fit/prior/CI; source says about half correction at electronic stop+30%",
+  "scope": "only DSAM companion finite-stop input audit, not Day19 RDDS/fasttiming card",
+  "comparisons": [
+    [
+      "12S1",
+      "10S1"
+    ],
+    [
+      "8g",
+      "6g"
+    ]
+  ],
+  "priming": "single6g1.38→1.63 and18% already exposed in Day13; current new work uses six actual nonempty corrections and response-to-ratio, no oldcheck credit",
+  "source_raw": "raw/papers/1999_Klemme et al_Lifetimes measurements for 134 Nd and neighboring nuclei with the.pdf"
+}

@@ -1,0 +1,114 @@
+{
+  "scope": "only DSAM companion finite-stop input audit, not Day19 RDDS/fasttiming card",
+  "contract_sha256": "ef96fb32f8d12aea048ee777965e7657380c03649f69aa2c274d3501c01e595b",
+  "script_sha256": "87272548a1fcae076af65656f8d8e2333a211fa234972c5d4ea2a248b0581c23",
+  "chart": "tau_j(f)=tau_standard_j+f*(tau_corrected_j-tau_standard_j); f in [.5,1] is design, not author exact fit/prior/CI; source says about half correction at electronic stop+30%",
+  "rows": [
+    {
+      "state": "6g",
+      "standard_tau_ps": "1.38",
+      "corrected_tau_ps": "1.63",
+      "Qt_eb": "3.98",
+      "delta_tau_ps": 0.25,
+      "corrected_over_standard": 1.181159420289855,
+      "exact_corrected_over_standard": "163/138",
+      "half_chart_tau_ps": 1.505,
+      "B_half_over_adopted_fixed_inventory": 1.0830564784053156,
+      "Qt_half_over_adopted_fixed_geometry": 1.040699994429382
+    },
+    {
+      "state": "8g",
+      "standard_tau_ps": ".85",
+      "corrected_tau_ps": "1.03",
+      "Qt_eb": "3.70",
+      "delta_tau_ps": 0.18,
+      "corrected_over_standard": 1.2117647058823529,
+      "exact_corrected_over_standard": "103/85",
+      "half_chart_tau_ps": 0.94,
+      "B_half_over_adopted_fixed_inventory": 1.0957446808510638,
+      "Qt_half_over_adopted_fixed_geometry": 1.0467782386212774
+    },
+    {
+      "state": "8gamma",
+      "standard_tau_ps": "1.04",
+      "corrected_tau_ps": "1.24",
+      "Qt_eb": "4.8",
+      "delta_tau_ps": 0.2,
+      "corrected_over_standard": 1.1923076923076923,
+      "exact_corrected_over_standard": "31/26",
+      "half_chart_tau_ps": 1.14,
+      "B_half_over_adopted_fixed_inventory": 1.087719298245614,
+      "Qt_half_over_adopted_fixed_geometry": 1.0429378208913578
+    },
+    {
+      "state": "10S1",
+      "standard_tau_ps": ".58",
+      "corrected_tau_ps": ".71",
+      "Qt_eb": "4.65",
+      "delta_tau_ps": 0.13,
+      "corrected_over_standard": 1.2241379310344827,
+      "exact_corrected_over_standard": "71/58",
+      "half_chart_tau_ps": 0.645,
+      "B_half_over_adopted_fixed_inventory": 1.1007751937984496,
+      "Qt_half_over_adopted_fixed_geometry": 1.0491783422271208
+    },
+    {
+      "state": "12S1",
+      "standard_tau_ps": ".47",
+      "corrected_tau_ps": ".59",
+      "Qt_eb": "5.5",
+      "delta_tau_ps": 0.12,
+      "corrected_over_standard": 1.2553191489361701,
+      "exact_corrected_over_standard": "59/47",
+      "half_chart_tau_ps": 0.53,
+      "B_half_over_adopted_fixed_inventory": 1.1132075471698113,
+      "Qt_half_over_adopted_fixed_geometry": 1.0550865116993067
+    },
+    {
+      "state": "16S2",
+      "standard_tau_ps": ".55",
+      "corrected_tau_ps": ".68",
+      "Qt_eb": "3.8",
+      "delta_tau_ps": 0.13,
+      "corrected_over_standard": 1.2363636363636363,
+      "exact_corrected_over_standard": "68/55",
+      "half_chart_tau_ps": 0.615,
+      "B_half_over_adopted_fixed_inventory": 1.1056910569105691,
+      "Qt_half_over_adopted_fixed_geometry": 1.0515184529577069
+    }
+  ],
+  "comparisons": [
+    {
+      "states": [
+        "12S1",
+        "10S1"
+      ],
+      "adopted_Qt_ratio": 1.1827956989247312,
+      "half_chart_Qt_ratio": 1.189456299090558,
+      "half_over_adopted_B_ratio_factor_exact": "7611/7526",
+      "relative_Qt_ratio_change": 0.005631234685653519,
+      "derivative_sign_for_squared_ratio_vs_f": -1,
+      "endpoints_bound_chart_not_CI": true
+    },
+    {
+      "states": [
+        "8g",
+        "6g"
+      ],
+      "adopted_Qt_ratio": 0.9296482412060302,
+      "half_chart_Qt_ratio": 0.9350778838051105,
+      "half_over_adopted_B_ratio_factor_exact": "31003/30644",
+      "relative_Qt_ratio_change": 0.005840534471443171,
+      "derivative_sign_for_squared_ratio_vs_f": -1,
+      "endpoints_bound_chart_not_CI": true
+    }
+  ],
+  "common_multiplicative_tau_correction_matches_all_printed_centers": false,
+  "ratio_factor_range": [
+    1.181159420289855,
+    1.2553191489361701
+  ],
+  "no_original_fit_or_Cov_recovered": true,
+  "no_Ag106_lifetime_data": true,
+  "actual_source_hash": "2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604"
+}

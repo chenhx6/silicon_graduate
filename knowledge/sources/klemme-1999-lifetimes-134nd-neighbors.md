@@ -3,7 +3,7 @@ type: source
 title: "Lifetimes measurements for 134Nd and neighboring nuclei with the coincidence-plunger technique"
 aliases: [Klemme 1999 coincidence-plunger lifetimes, Klemme 1999 134Nd]
 created: 2026-08-11
-updated: 2026-10-13
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -190,3 +190,19 @@ Next corpus sources should test whether later `134Pr/135Nd` chiral-band labels m
 ## 2026-10-13 Doppler/stopping source self-audit
 
 十页全文主线重新回读：lifetimes conflict → coincidence-plunger/DDCM → finite stopping → Tables I–IV and band-dependent strengths → collective/TRS/ASYR limitations → conclusion。视觉核验 Fig.1/2 和 Table I；KL99-18 将同一跃迁随距离变化的 shifted/unshifted 分量固定为对“宽峰或双峰必是两个能级”的反例。1.38→1.63 ps 的约18.1%增量是本任务算术，不是新测量或本征寿命线宽；Au 1.1-ps slowing time 不能直接移植到 Mavela 的不同 projectile/target。多个 detector rings、feeding gates、邻核同次数据及独立薄靶 branching experiment 的依赖边界保留；不是若干独立核结构实验。原 review 和 needs_review 标记不变。
+
+
+## Day18定向companion：有限停止修正的共同尺度与相对强度
+
+本session在读取既有source（承认Day13完整重读及6g的1.38→1.63已暴露）之后冻结新问题，**只定向原读PDF2–4**，视觉核TableI/II和修正文字，不声明新完整十页或Day19卡。Raw hash保持2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D18-1 | TableI六个非空tcorr的standard→corrected为6g:1.38→1.63、8g:.85→1.03、8gamma:1.04→1.24、10S1:.58→.71、12S1:.47→.59、16S2:.55→.68ps；修正因子1.181159–1.255319不是一项统一乘法尺度。无tcorr的其它行不据空字段断言精确修正为零。 | direct-table-and-task-role-audit | direct-and-derived | PDF3TableI及finite-stopping段 | true |
+| KL99-D18-2 | 作者说电子停止增加30%仍可合理描述RDDS谱，且将standard与adopted之差约减半；没有给该分支逐态新τ/完整参数域或Σ。以tau(f)=standard+f(corrected−standard)、f在[.5,1]作设计是本任务额外合同，不是原fit/CI或概率prior。 | source-input-and-declared-chart | direct-and-derived-boundary | PDF3TableI下方两栏；新finite-stopper-input-contract-006 | true |
+| KL99-D18-3 | 保持branch/ICC/能量/几何不动时B∝1/tau、Qt∝tau^−1/2；新六行chart使12S1/10S1的Qt比1.1827957→1.1894563（+.563123%），8g/6g为.9296482→.9350779（+.584053%）。二者对f单调，端点界仅本chart，不是原likelihood/实验CI或完整stopping-model envelope。 | task-relative-strength-response | derived-and-boundary | PDF3TableI、PDF4TableII/Eq4；新rdds-companion-result-006 | true |
+| KL99-D18-4 | DDCM距离轴/导数提供与DSAM不同的时间响应，但短τ的finite-stopping、共同速度/门/强度及Qt的branch/轴假设仍须匹配；ring/gate统计重复不自动给actualjointCov。本文134Nd不是Rather106Ag的RDDS采集，不能借方法/核区替actualsamelevelcompanion。 | companion-transfer-boundary | direct-and-synthesis | PDF2Eq1–3；PDF3finite-stopping；PDF4Eq4/TableIIcaption；RA14-2/3 | true |
+
+新[六行合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-input-contract-006.json)、[程序](../../system/scripts/day18_rdds_companion_contract.py)/[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-companion-result-006.json)严格核raw hash，保中心数值，不拟合原谱/原Σ。初draft只重复旧单行算术并把若干事实写为boolean checks，已在发布前替换为真实六行敏感性分析；不把旧18%算术或该draft的“6checks”计新证据。所有旧KL99 rows/reviewflags保持，新四条待审。
+
+与[[rather-2014-ag106-transition-rates]]的samelevel边界分开。写回[[doppler-shift-attenuation-method]]与[[lifetime-strength-audit-165tm-136nd]]，只作当前DSAM的独立性/系统误差companion，不开启RDDS/fast-timing完整课卡。进一步需要实际distance spectra、slowing模型分支、逐ring/gate拟合Cov和samelevel身份，不能把小ratio变化当所有系统已取消。

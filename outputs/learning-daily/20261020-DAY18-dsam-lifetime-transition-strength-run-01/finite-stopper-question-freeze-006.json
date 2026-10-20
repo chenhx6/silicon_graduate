@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-20T17:39:48.936483+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "current_card": 18,
+  "question": "When can a quoted independent RDDS lifetime serve as a stopping-independent DSAM companion? Audit only Klemme1999 finite-stopper correction and existing TableI/II covariance/strength consequences.",
+  "priming": "Existing Klemme source read just now; prior Day13 fullread and 1.38→1.63 arithmetic exposed. This is targeted follow-up, not blind/full new primary or Day19 card.",
+  "pre_read_prediction": "Abovefeeding gate can address feeding/deorientation but finite Au slowing reintroduces stopping; correction in tau does not imply universal relative scale; missing perstate interpolation/actual covariance blocks CI.",
+  "bounded_scope": "PDF2–4 finite-stopping procedure/TableI/II and references necessary for exact correction; do not launch full RDDS/fasttiming curriculum or reuse old checks for credit",
+  "next_card_opened": false,
+  "deadline": "2026-10-21T15:00:00+08:00"
+}
