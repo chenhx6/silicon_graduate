@@ -2230,3 +2230,7 @@ KU25原Table3同CHI01数据、Elevel/Eg词义边界及quotedbox算术写回knowl
 ### Day17 checkpoint047：完整DR70及Gaussian字面边界
 
 原14页/7图/表1/10式复核、新CG独立物理核与actual smoothedfeeding反演写回；9737byte人审prefix/10旧claim保，新10条待审。verification061与manifest047/H3发布，main / `Audit Gaussian side-feeding numbers and inversion inputs`，原windowactive/17once/partial18。
+
+### Day17 checkpoint048：时角联合响应的非充分边际
+
+CG可实现正ρ路径交换time-alignment耦合的解析design写回新researchnote/method/ledger，未造实际τ/P/Q/CI。初Markdown/lintfailure修复保记录，verification062/manifest048/H3发布，main / `Record time-alignment joint response identifiability limits`，原windowactive/17once/partial18。

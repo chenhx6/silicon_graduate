@@ -283,3 +283,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ## 同一混合光子与不同分支强度比的区别
 
 [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D17-9与[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2：同一ΔI1 M1/E2光子的δ²才可由其同线BE2/BM1及E²rate因子连接；跨母态/不同E2crossover与M1支的B比不是这个δ。rate只含幅度，偏振/AD相位证据与samegate/response另需匹配，不能靠总τ或强度比恢复δ号。
+
+
+### 时间积分偏振与Doppler能窗的选择
+
+[[feeding-time-alignment-joint-response]]条件design显示同积分ρ与同总时间密度不固定逐能/逐角response；原[[draper-1970-gaussian-substate-side-feeding]] DR70-D17-10没有该jointkernel。Doppler能窗/feedinggate改变路径权重时需逐路径I/Q/U再折叠matchingComptonresponse并构共同分母，不从积分P固定每窗P或用designF差重标Q。当前练习只计算I/速度矩，不声称实际新P/Q或counts。

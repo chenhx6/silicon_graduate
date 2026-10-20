@@ -1,0 +1,12 @@
+{
+  "issue": "Python non-raw literal interpreted LaTex control sequences in initial new note generation",
+  "control_byte_counts_before": {
+    "8": 0,
+    "9": 7,
+    "12": 5,
+    "13": 6
+  },
+  "file": "knowledge/research-notes/feeding-time-alignment-joint-response.md",
+  "repair": "restore backslash prefixes for r/t/f/b in this new note only; no inherited CRLF files touched",
+  "not_scientific_calculation_failure": true
+}

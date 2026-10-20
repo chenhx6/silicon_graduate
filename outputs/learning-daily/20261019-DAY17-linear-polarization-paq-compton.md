@@ -1310,6 +1310,10 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
         {
           "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
           "locator": "J04-14"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
         }
       ]
     },
@@ -6732,6 +6736,62 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "DR70-D17-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/feeding-time-alignment-joint-response.md",
+      "anchor": "相同时间与取向边际不能确定联合响应",
+      "summary": "CG可实现positive feedingpath的时角耦合解析design，明确sameAD/time marginals不足，非实验bias。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-1"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "时间积分偏振与Doppler能窗的选择",
+      "summary": "能窗选择需联合IQU和matchingresponse，不从积分P迁移或重标Q。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "同边际与联合响应的区别",
+      "summary": "DSAM输入合同加同边际非充分与90°F可测边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "同边际仍缺时角关联",
+      "summary": "将存在反例和必要actualjointinputs写回canonicalledger，不造当前核τbias。",
+      "sources": [
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-2"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-D17-10"
+        }
+      ]
     }
   ]
 }
@@ -7006,3 +7066,12 @@ Decision: `limits`重复综述被当独立高频率companion及词义反证；�
 原Table1区分rawIγ与smoothedIJ；168Hf .91−1.08负差与smooth.15实际反证裸差法，条件f=.15/.95时Eq8反演放大6.333/−5.333，fullΣ未得，不造CI。constantσ/J=.28在184Os实际失败、extranuclearfields/旧data依赖保。p216σ2=.143确为printed；独立CG/photon与J2多项式核给A2约.714而非.225。J12σ5的精确A2=.2267563/ A4=−.03063895，级联保持；匹配A2的σ2≈1.412275但A4=−.04407903，不等精确population。没有官方erratum，1.43仅countercandidate。
 
 Script `system/scripts/day17_draper1970_gaussian_audit.py`与前置冻结、Gaussian/table输入及结果保；uniform/M0/归一、末态完整trace、16/32投影与J2解析控制通过，不是原实验拟合或新δ/τ/取向测量。canonical source/ledger/DSAM及uniquewriteback齐。Decision `limits`固定alignment/积分feeding未经合同迁移；下一jointtime-alignment问题在同Day18无学分preview中有价值，window仍active。verification061记录实际check，publication047仅本批清单；不因原source完成结束整日。
+
+
+### Checkpoint048：时间与取向边际不足的解析design
+
+新计算前冻结`time-alignment-joint-contract-before.md`/hash，DR70已读后priming；选择一项源问题的解析design，没有新增实验source或MC。两个J4→2→0 pureE2路径的targetqA=(1,16,36,16,1)/70与isotropicqB均由actualCGtrace实现。以.5/.5路径交换timekernel和ρ，总time密度/积分ρ相同而逐角response不同；一般operator差写回[canonical](../../knowledge/research-notes/feeding-time-alignment-joint-response.md)。
+
+仅无量纲τ=τf=ts=1、straightbeam/nonrelativisticpoint/expstop；30°的F=.39178744/.35821256而Δcentroid/(E0β0)=.02907670，60°差更小；90°cos0不可估F。全角速度矩同.375不叫全角Dopplercentroid。独立quad/Laplace、16/32、positiveρ、equalρ/equaltime/zeroFeeding/stoplimits/fullangle controls过，script/input/dependencyhash/results保。
+
+Decision`limits`只分别约束积分AD与总timeprofile便认定jointkernel闭合；没有currenttau/P/Q/δ/CI或作者error。linearpol/DSAM/ledger/index与unique writeback已联。Compton能窗必须携IQU及matchingresponse，实际本exercise只算I和速度矩。originalwindow仍active/17once/partial18，verification062与publication048记实际gate；下一优先真实matchedinput或更高信息原source，局部解析完成不结束日程。

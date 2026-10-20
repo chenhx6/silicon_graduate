@@ -441,3 +441,8 @@ Simons2005 DOI10.1103/PhysRevC.72.024318、Datta2005 DOI10.1103/PhysRevC.71.0413
 p216原σ2=.143对A2=.225不闭合：完整CG/photon核给A2约.714；保持原件与旧人审prefix，另记source-number boundary。匹配A2约需σ2=1.42，但exactcascade与单Gaussian代理A4差约.01344；不能仅匹配A2便继承整个population。原constantσ/J=.28与184Os趋势不合，也是固定取向输入的实际反证。
 
 原Eq7只给时间积分的路径权重；各路径feedingtime与rank2/4若相关，能否以固定W(theta)乘共同衰减需另核jointkernel。原作者未给DSAMtime/response，当前任何extension必须标Codex条件推导，不能说原论文测出当前核的τbias。必要输入是samegate路径强度、各路径时间/取向和逐角response；共同stop/feeding/Σ仍缺。
+
+
+### 同边际仍缺时角关联
+
+[[feeding-time-alignment-joint-response]]给一项CG可实现/正ρ的解析存在反例：交换两feedingpath的取向与等待kernel，积分AD/全Stokesρ及总时间密度相同，逐角DSAM响应不同。依据DR70-D17-1/2/10限定原积分混合，extension另标Codexdesign；新无量纲30°Δcentroid/(E0β0)=.0290767不对应当前核实际bias。需actualsamegate逐路径时间/取向、multiangle响应及Σ，不能仅由source积分I_J和全谱timeprofile补闭合。

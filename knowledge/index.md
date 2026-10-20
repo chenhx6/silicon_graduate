@@ -7,6 +7,10 @@ updated: 2026-10-20
 
 # Wiki Index
 
+## Day17新增研究合同
+
+- [[feeding-time-alignment-joint-response]] — 同积分取向与总时间密度仍不能确定DSAM逐角响应的条件设计；非实验τ/P/Q修正。
+
 ## Sources
 
 - [[nndc-2022-s31-mixing-lifetime-reference]] - 官方1248 MR双根/RUL、mean-vs-half-life与Sun模型扣除的有源companion。

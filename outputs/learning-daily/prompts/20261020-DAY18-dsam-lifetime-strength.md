@@ -182,3 +182,6 @@ Day17 checkpoint046 priming：KU25-11–15定向Table3的110In仍同2001Ch71四�
 
 
 Day17checkpoint047 priming：DR70原14页全文/7图/表1/10式新核，原人审prefix/CRLF与10旧claim保；新DR70-D17-1–10待审。168Hfraw负差不等negativefeeding，smoothedIJ反演有放大/Σ缺口；p216σ2=.143与A2=.225 literal不闭合，CG给约.714，约1.42仅条件root不是erratum。匹配A2单Gaussian仍A4不同；Eq7积分混合不提供DSAMtime-alignmentjointkernel。正式18不能拿旧程序/本次priming计独立credit。
+
+
+Day17checkpoint048 priming：[[feeding-time-alignment-joint-response]]解析design用CG可实现qA/qB交换feedingtime关联，同积分ρ/总time密度却不同逐角Doppler速度矩；条件τ=τf=ts=1，不是实际τbias。90°F不可从pointcentroid估、全角速度矩非全角shift；actualjointkernel/Σ仍缺，ComptonIQU与response必须配套，不迁Q。正式18要新session独立卡验收。

@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-20T00:37:53.319760+00:00",
+  "parent_J": 4,
+  "target_J": 2,
+  "lower_J": 0,
+  "multipolarity": "pure E2",
+  "trace": "complete unobserved parent photon",
+  "path_populations": [
+    "parent_M0",
+    "parent_isotropic"
+  ],
+  "path_weights": [
+    0.5,
+    0.5
+  ],
+  "time_models": [
+    "prompt_target_waiting",
+    "one_feeding_waiting_then_target_waiting"
+  ],
+  "lifetime_target": 1.0,
+  "lifetime_feeder": 1.0,
+  "slowing_time": 1.0,
+  "units": "arbitrary common time unit; not measured fs/ps",
+  "point_angles_degrees": [
+    30,
+    60,
+    90,
+    120,
+    150
+  ],
+  "K_geometry": "ideal point detector; straight recoil beam; beta/initial=exp(-t/ts); nonrelativistic shift",
+  "not_actual_stopping_or_array": true
+}

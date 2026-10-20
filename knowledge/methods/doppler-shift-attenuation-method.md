@@ -222,3 +222,8 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## 侧喂养的积分角分布与时间响应
 
 [[draper-1970-gaussian-substate-side-feeding]] DR70-D17-1/2/3/10的purestretchedE2完整trace及积分混合不提供各路径时间kernel；表1smoothedfeeding不能直接作为γγ门后/时间slice的权重。将固定alignment与DSAMfeeding分别设定前，需检查samegate逐路径取向/时间是否可分离，并保留强度/取向/response的共享Cov。原p216Gaussian数值有literal边界，新CG复核只是条件计算，不修正真实τ/δ。
+
+
+### 同边际与联合响应的区别
+
+[[feeding-time-alignment-joint-response]]从[[draper-1970-gaussian-substate-side-feeding]] DR70-D17-1/2/10明确另作解析design：两个正的CG可实现路径交换time-alignment关联时，总时间密度与积分ρ相同，逐角Doppler速度矩仍可不同。actual多角line-shape/feeding标记及jointΣ才可能约束该耦合；design差不当当前核τbias，90°point不以零shift倒推F。

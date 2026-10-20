@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {},
+  "artifacts": [
+    {
+      "file": "time-alignment-joint-result.json",
+      "true_fields": [
+        "ok",
+        "equal_time_equal_density_zero_feeding_controls",
+        "positive_density_normalization_and_independent_quadrature",
+        "same_time_and_angular_marginals_do_not_determine_joint_response",
+        "full_angle_F_is_speed_weight_moment_not_an_angle_integrated_Doppler_centroid",
+        "not_actual_nuclear_tau_bias_or_new_P_Q_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

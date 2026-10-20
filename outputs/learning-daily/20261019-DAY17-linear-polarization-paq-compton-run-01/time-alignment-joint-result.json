@@ -1,0 +1,116 @@
+{
+  "at": "2026-10-20T00:39:08.328430+00:00",
+  "script_sha256": "c5d3b8e6c6ba0ac4b8dbcd2ca71d62e522436166291d5150408b3fa8ae07abe0",
+  "CG_dependency_sha256": "42c2c9909dbf6eccf55fa3c19f89283a0338754bd8209da0028c6dc017779991",
+  "contract_sha256": "938ae8fd14533ea4224ef03c5d070b1945b9713433918f9290431eab56a18ad0",
+  "target_population_A": [
+    0.014285714285714285,
+    0.22857142857142856,
+    0.5142857142857142,
+    0.22857142857142856,
+    0.014285714285714285
+  ],
+  "target_population_B": [
+    0.19999999999999998,
+    0.19999999999999998,
+    0.19999999999999998,
+    0.19999999999999998,
+    0.19999999999999998
+  ],
+  "angular_coefficients_A": [
+    0.9999999999999997,
+    0.5102040816326504,
+    -0.3673469387755113
+  ],
+  "angular_coefficients_B": [
+    0.9999999999999998,
+    -2.1337098754514727e-15,
+    -8.118505867571457e-16
+  ],
+  "same_time_integrated_target_density_both_models": [
+    0.10714285714285714,
+    0.21428571428571427,
+    0.3571428571428571,
+    0.21428571428571427,
+    0.10714285714285714
+  ],
+  "same_total_time_density": ".5*(g_direct+g_delayed)",
+  "Ld": 0.5,
+  "Lf": 0.25,
+  "point_results": [
+    {
+      "theta_degrees": 30,
+      "W_A": 1.3102678571428552,
+      "W_B": 0.9999999999999984,
+      "integrated_W_both_models": 1.1551339285714268,
+      "F_model_A": 0.3917874396135266,
+      "F_model_B_swapped": 0.3582125603864734,
+      "difference": 0.033574879227053156,
+      "actual_projected_centroid_difference_over_E0_beta0": 0.029076698339622474,
+      "at_90_degrees_shift_is_zero_and_F_not_centroid_estimable": false
+    },
+    {
+      "theta_degrees": 60,
+      "W_A": 1.0424107142857149,
+      "W_B": 1.0000000000000002,
+      "integrated_W_both_models": 1.0212053571428577,
+      "F_model_A": 0.3775956284153005,
+      "F_model_B_swapped": 0.3724043715846994,
+      "difference": 0.005191256830601065,
+      "actual_projected_centroid_difference_over_E0_beta0": 0.002595628415300533,
+      "at_90_degrees_shift_is_zero_and_F_not_centroid_estimable": false
+    },
+    {
+      "theta_degrees": 90,
+      "W_A": 0.6071428571428577,
+      "W_B": 1.0000000000000007,
+      "integrated_W_both_models": 0.8035714285714292,
+      "F_model_A": 0.3444444444444445,
+      "F_model_B_swapped": 0.40555555555555556,
+      "difference": -0.06111111111111106,
+      "actual_projected_centroid_difference_over_E0_beta0": -3.741976330728021e-18,
+      "at_90_degrees_shift_is_zero_and_F_not_centroid_estimable": true
+    },
+    {
+      "theta_degrees": 120,
+      "W_A": 1.0424107142857142,
+      "W_B": 1.0000000000000002,
+      "integrated_W_both_models": 1.0212053571428572,
+      "F_model_A": 0.37759562841530053,
+      "F_model_B_swapped": 0.37240437158469947,
+      "difference": 0.005191256830601065,
+      "actual_projected_centroid_difference_over_E0_beta0": -0.0025956284153005314,
+      "at_90_degrees_shift_is_zero_and_F_not_centroid_estimable": false
+    },
+    {
+      "theta_degrees": 150,
+      "W_A": 1.3102678571428552,
+      "W_B": 0.9999999999999984,
+      "integrated_W_both_models": 1.1551339285714268,
+      "F_model_A": 0.3917874396135266,
+      "F_model_B_swapped": 0.3582125603864734,
+      "difference": 0.033574879227053156,
+      "actual_projected_centroid_difference_over_E0_beta0": -0.029076698339622474,
+      "at_90_degrees_shift_is_zero_and_F_not_centroid_estimable": false
+    }
+  ],
+  "full_angle_average_F_both": 0.375,
+  "full_angle_F_is_speed_weight_moment_not_an_angle_integrated_Doppler_centroid": true,
+  "slowing_limits": [
+    {
+      "ts": 1e-09,
+      "direct_Laplace": 9.999999990000001e-10,
+      "delayed_Laplace": 9.999999980000002e-19
+    },
+    {
+      "ts": 1000000000.0,
+      "direct_Laplace": 0.9999999989999999,
+      "delayed_Laplace": 0.9999999979999998
+    }
+  ],
+  "equal_time_equal_density_zero_feeding_controls": true,
+  "positive_density_normalization_and_independent_quadrature": true,
+  "same_time_and_angular_marginals_do_not_determine_joint_response": true,
+  "not_actual_nuclear_tau_bias_or_new_P_Q_CI": true,
+  "ok": true
+}

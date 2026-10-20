@@ -1,0 +1,4 @@
+
+### Day17 checkpoint048：时角联合响应的非充分边际
+
+CG可实现正ρ路径交换time-alignment耦合的解析design写回新researchnote/method/ledger，未造实际τ/P/Q/CI。初Markdown/lintfailure修复保记录，verification062/manifest048/H3发布，main / `Record time-alignment joint response identifiability limits`，原windowactive/17once/partial18。
