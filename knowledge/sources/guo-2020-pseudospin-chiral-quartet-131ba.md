@@ -147,3 +147,13 @@ P0: none identified.
 
 - Protected BibTeX record: `guo_2020_Evidencepseudospinchiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2020_Guo et al_Evidence for pseudospin-chiral quartet bands in the presence of octupole.pdf`.
+
+## Day18定量审计：四重带电磁寿命缺失、机制争论与流形波函数解耦界限
+
+在Day18正式学习中对本文建立的131Ba正宇称四重带（D3-D6）与负宇称双重带（D7-D8）电磁比值及RAT-PRM模型计算开展定量核验，raw SHA256 `109019D2EF7338BA705462374E6CF30C0CF9D61175510DD92D63021271E8F29D`已核。原GU20-1–18各claim保持；新GU20-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU20-D18-1 | 本文报道的131Ba四重正宇称带与八极关联定量核验揭示：(1) 全核六条候选带（D3–D8）全无任何在束能级寿命测量（DSAM或RDDS均缺），所报告的B(M1)/B(E2)比值严重依赖对弱跃迁混合比的假定，且向四重带去布居的E1强度仅为几何均值归一化比值，完全缺乏绝对跃迁矩阵元定标；(2) 理论机制上，本文明确反驳并排除了Kuti 2014用于103Rh的同组态MchiD模型，转而引入pi(g7/2, d5/2)赝自旋混合假说，暴露出四带流形在缺乏绝对跃迁强度时存在截然对立的理论解释争议；(3) 确立方法学底线：对于包含四条同宇称带的多带流形，在缺乏在束寿命测定绝对B(E2)与B(M1)的条件下，仅凭能级能量相近与分支比拟合，根本无法唯一性地判决其属于同组态MchiD、赝自旋四重态还是三轴形状振动态。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3–5, Fig. 4, Fig. 5；新guo20-131ba-pseudospin-result-041 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo20-131ba-pseudospin-contract-041.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo20-131ba-pseudospin-result-041.json)4项检查全过。

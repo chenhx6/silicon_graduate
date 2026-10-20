@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "guo20-131ba-pseudospin-chiral-audit",
+  "inputs": [
+    "raw/papers/2020_Guo et al_Evidence for pseudospin-chiral quartet bands in the presence of octupole.pdf"
+  ],
+  "checks": [
+    "Reconstruct TAC-CDFT Q0 = 3.462 eb and asymptotic B(E2) = 0.447 e^2b^2",
+    "Identify theoretical conflict: exclusion of 103Rh identical-configuration MchiD in favor of pseudospin quartet",
+    "Establish absolute lifetime absence in Bands D3-D8 (no DSAM/RDDS)",
+    "Formulate multi-band manifold decomposition boundary without absolute rates"
+  ],
+  "status": "passed"
+}

@@ -2683,6 +2683,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "PE16-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+      "anchor": "Day18定量审计：四重带电磁寿命缺失、机制争论与流形波函数解耦界限",
+      "summary": "来源页补充131Ba正宇称四重带绝对能级寿命缺失、对立MchiD机制争论与多带流形波函数解耦界限审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "131Ba正宇称四重带电磁寿命缺失与MχD理论机制对立反思",
+      "summary": "研究笔记补充131Ba与103Rh同组态对赝自旋MchiD理论机制冲突对多带流形缺乏绝对寿命时的解释局限反思",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "四带流形中多重手征机制争论的裁决门槛与绝对跃迁矩阵元",
+      "summary": "方法页补充四带同宇称流形中排除同组态MchiD与赝自旋四重态对立多解性的绝对寿命与跃迁矩阵元门槛准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "guo-2020-pseudospin-chiral-quartet-131ba",
+      "summary": "索引增加131Ba四重带寿命缺失与MchiD机制对立反思审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+          "locator": "GU20-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2697,6 +2741,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint041已实际提交，稳定指针main / `Audit 131Ba pseudospin-chiral quartet lifetime absence and MchiD mechanism conflict`；精确hash/H3/远端结果只publication-041回执。
 
 checkpoint040已实际提交，稳定指针main / `Audit 134Ce 75%-83% E2 purity linking transitions and non-wobbling triaxial counterexample`；精确hash/H3/远端结果只publication-040回执。
 

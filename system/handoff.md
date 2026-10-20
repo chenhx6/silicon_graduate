@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint041：131Ba正宇称四重带电磁寿命缺失与MχD对立机制对账（GU20-D18-1），揭示全核六条候选带全无在束寿命测量，理论上明确反驳103Rh同组态MchiD转而假定赝自旋四重态，暴露出四带流形在缺乏绝对寿命测定Qt时存在理论多解性，确立绝对跃迁矩阵元裁决门槛。155项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint040：134Ce跨带Delta I=1高E2纯度（75%-83%）与非wobbling三轴形状共存反例审计（PE16-D18-1），证实四条跨带线表现出大负混合比（delta=-1.73至-2.23）与75.0%-83.3%强E2纯度，但作者严格依CNS判定为三轴形状共存而非wobbling，确立跨带强E2对wobbling仅为必要非充分条件、必须测定绝对寿命达到集体超强发射的判据准则。151项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint039：194Tl四准粒子37 keV极限近简并与三带全同DSAM寿命非唯一配对审计（PAI12-D18-1），证实交叉后4qp态在自旋21处达到37 keV的创纪录近简并，但AFRODITE在束DSAM测得三条负宇称带绝对B(E2)与B(M1)在误差内全同，加之PRM预测存在四条本征带（一条缺失），导致实验带无法唯一两两配对，确立单凭能量简并无法证实手征破缺的方法学底线。147项writeback已通过验证。原硬截止今日15点保持。
@@ -68,6 +70,8 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint041已实际提交，稳定指针main / `Audit 131Ba pseudospin-chiral quartet lifetime absence and MchiD mechanism conflict`；精确hash/H3/远端结果只publication-041回执。
 
 checkpoint040已实际提交，稳定指针main / `Audit 134Ce 75%-83% E2 purity linking transitions and non-wobbling triaxial counterexample`；精确hash/H3/远端结果只publication-040回执。
 

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "nucleus": "131Ba",
+  "reference": "Guo et al., Phys. Lett. B 807, 135572 (2020)",
+  "summary": {
+    "Q0_eb": 3.464,
+    "BE2_asymptotic_e2b2": 0.4475,
+    "BE2_asymptotic_wu": 113.2,
+    "implied_BM1_range_mu2": [
+      0.45,
+      1.34
+    ],
+    "mechanism_conflict": "Guo 2020 explicitly refutes the identical-configuration MchiD mechanism used in 103Rh, invoking pseudospin mixing between pi(g7/2) and pi(d5/2) to explain the four positive-parity bands (D3-D6).",
+    "lifetime_absence": "No DSAM or RDDS lifetimes exist for Bands D3-D8; absolute B(E2), B(M1), and B(E1) strengths are completely unmeasured.",
+    "methodological_boundary": "In multi-band manifolds (four same-parity bands), level energies and branching ratios cannot uniquely determine whether the system is an identical-configuration MchiD, a pseudospin-chiral quartet, or triaxial vibrational states without absolute transition rates."
+  }
+}
