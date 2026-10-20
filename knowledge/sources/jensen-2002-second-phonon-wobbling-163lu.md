@@ -166,6 +166,16 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 
 Keep the 476-keV/Table II branch issue in source-local P0 until user review.
 
+## Day18 checkpoint051修订：163Lu 476-keV根选择的实验缺口
+
+原JE02-claims/review保持；旧JE02-D18-1数值保为条件审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JE02-D18-2 | 原文明确476-keV线统计不足、无法作线偏振分析，两个δ分支不能由该实验本身排除；大根−3.60是依据TSD2/TSD3相似转动性质与PRM选择，非偏振直接确证。 | source-branch-selection-boundary | direct | PDF p.199 TableII；p.200 text | true |
+| JE02-D18-3 | 在固定其它输入下，大根与小根fE2比例约26.8，故.51与.019是条件分支差异；TSD3→TSD1的纯伸展E2表列则是另一组Δn=2观测/赋值，不构成476线根选择的独立偏振证据。 | conditional-strength-sensitivity | derived-and-boundary | PDF pp.199–200 Tables I–II；new highspin-root-boundary-result-051 | true |
+
+
 ## Day18定量审计：二声子谐振标度对476 keV无偏振混合比双解的极端依赖
 
 在Day18正式学习中对本文Table I与Table II中163Lu二声子wobbling带（TSD3）的电磁跃迁强度比及多极解依赖进行定量审计，raw SHA256 `C6FD99C17C09763F742CBE36443F7039F21B3E28A5CAA548748BDF0718630A8A`已核。原JE02-1–8各claim及`human-reviewed`状态完全保留；新JE02-D18-1待审。

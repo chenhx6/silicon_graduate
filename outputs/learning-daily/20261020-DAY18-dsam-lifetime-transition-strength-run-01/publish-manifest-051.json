@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-20T20:26:53.118659+00:00",
+  "subject": "Audit high-spin delta-root sensitivity and polarization gaps",
+  "ordinary_paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/amro-2003-wobbling-167lu.md",
+    "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "system/scripts/day18_highspin_root_boundary.py",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-051.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/highspin-root-boundary-result-051.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-051.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-051.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-051.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-051.md"
+  ],
+  "verification": "verification-051.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-051.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification051 valid; lint/boundary/diff; highspin raw hash and branch controls; no credit"
+}

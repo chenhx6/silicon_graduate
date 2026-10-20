@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint051：高自旋混合比根与偏振缺口
+
+167Lu大根/小根敏感性与163Lu 476-keV两根差异均回到原表和正文：缺偏振时小根未被实验排除，大根选择含模型与相似转动性质输入。新结果只做8项hash/文字/条件算术检查，不更新旧实验CI或独立数据。
+
 ### checkpoint050：135Pr根选择、133La条件小根与133Ba E5换算边界
 
 原件复核保留Matta大根、Lv P/Rac小根和813派生比值，但将7倍中心差明确为同核分支敏感性；Biswas/Devi旧脚本输入的替代根和E5分解不自动成为原作者观测或完整producer。新source行/方法笔记均保留needs_review、无绝对寿命/response Cov/CI。
@@ -1136,12 +1140,16 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/amro-2003-wobbling-167lu.md",
-      "anchor": "Day18定量审计：混合比双解对相对B(E2)提取的决定性影响",
-      "summary": "Table 1跨带跃迁B(E2)比值提取与SpeeDCO大解/小解8.6-197.5倍敏感性",
+      "anchor": "Day18 checkpoint051修订：167Lu根敏感性与偏振缺口",
+      "summary": "checkpoint051分层高自旋根敏感性与偏振缺口；模型选支不代实验唯一解",
       "sources": [
         {
           "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "locator": "AM03-D18-2"
+        },
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D18-3"
         }
       ]
     },
@@ -1178,15 +1186,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "amro-2003-wobbling-167lu",
-      "summary": "索引增加167Lu相对跃迁强度提取与混合比敏感性导航",
+      "summary": "checkpoint051分层高自旋根敏感性与偏振缺口；模型选支不代实验唯一解",
       "sources": [
         {
           "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "locator": "AM03-D18-2"
         },
         {
           "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
-          "locator": "AM03-D18-1"
+          "locator": "AM03-D18-3"
         }
       ]
     },
@@ -1826,12 +1834,16 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-      "anchor": "Day18定量审计：二声子谐振标度对476 keV无偏振混合比双解的极端依赖",
-      "summary": "476 keV单线二声子标度在无偏振小解下塌缩26.8倍至0.019及Table I中Delta n=2跨声子纯伸展E2基准核验",
+      "anchor": "Day18 checkpoint051修订：163Lu 476-keV根选择的实验缺口",
+      "summary": "checkpoint051分层高自旋根敏感性与偏振缺口；模型选支不代实验唯一解",
       "sources": [
         {
           "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "locator": "JE02-D18-2"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D18-3"
         }
       ]
     },
@@ -1868,15 +1880,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "jensen-2002-second-phonon-wobbling-163lu",
-      "summary": "索引增加163Lu二声子wobbling标度476 keV无偏振小解敏感性与Delta n=2纯伸展E2基准导航",
+      "summary": "checkpoint051分层高自旋根敏感性与偏振缺口；模型选支不代实验唯一解",
       "sources": [
         {
           "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "locator": "JE02-D18-2"
         },
         {
           "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
-          "locator": "JE02-D18-1"
+          "locator": "JE02-D18-3"
         }
       ]
     },
@@ -3775,6 +3787,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint051已实际提交，稳定指针main / `Audit high-spin delta-root sensitivity and polarization gaps`；精确hash/H3/远端结果只publication-051回执。
+
 
 checkpoint050已实际提交，稳定指针main / `Correct mixing-root and E5 kinematic boundaries in Day18 strength audits`；精确hash/H3/远端结果只publication-050回执。
 

@@ -1,0 +1,78 @@
+{
+  "kind": "primary-root-branch-and-no-polarization-boundary",
+  "sources": [
+    {
+      "path": "raw/papers/2003_The wobbling mode in 167Lu.pdf",
+      "sha256": "2c28c101a58d920c9cade83a2b166d9fe5d3f80d59eff8d6e1c7c9571b89ec88"
+    },
+    {
+      "path": "raw/papers/2002_Jensen et al_Evidence for Second-Phonon Nuclear Wobbling.pdf",
+      "sha256": "c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a"
+    }
+  ],
+  "Amro": [
+    {
+      "large_delta": -3.1,
+      "small_delta": -0.07,
+      "reported_ratio": 0.23,
+      "conditional_large_over_small": 185.75254380734384,
+      "small_ratio_if_fixed_other_inputs": 0.0012382064615952075
+    },
+    {
+      "large_delta": -5.1,
+      "small_delta": -0.19,
+      "reported_ratio": 0.26,
+      "conditional_large_over_small": 27.638230838891104,
+      "small_ratio_if_fixed_other_inputs": 0.009407259151846337
+    },
+    {
+      "large_delta": -3.9,
+      "small_delta": -0.35,
+      "reported_ratio": 0.27,
+      "conditional_large_over_small": 8.597980586435686,
+      "small_ratio_if_fixed_other_inputs": 0.0314027226842029
+    }
+  ],
+  "Jensen163Lu": {
+    "large_delta": -3.6,
+    "small_delta": -0.19,
+    "conditional_strength_suppression": 26.644897570422817,
+    "experimental_selection": "polarization impossible for 476 keV; large root selected using similar rotational properties and PRM, not direct polarization"
+  },
+  "checks": [
+    {
+      "name": "Amro hash",
+      "passed": true
+    },
+    {
+      "name": "Jensen hash",
+      "passed": true
+    },
+    {
+      "name": "Amro table 1 and DCO/SpeeDCO text",
+      "passed": true
+    },
+    {
+      "name": "Amro no fresh polarization evidence",
+      "passed": true
+    },
+    {
+      "name": "Jensen table II and polarization failure",
+      "passed": true
+    },
+    {
+      "name": "Jensen table and two-branch text",
+      "passed": true
+    },
+    {
+      "name": "Amro suppression factors exceed one order in selected rows",
+      "passed": true
+    },
+    {
+      "name": "Jensen conditional suppression",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}

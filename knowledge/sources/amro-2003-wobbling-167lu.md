@@ -150,6 +150,16 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 The BibTeX author field contains only H. Amro, but title/year/DOI uniquely identify the paper; raw BibTeX remains read-only.
 
 
+## Day18 checkpoint051修订：167Lu根敏感性与偏振缺口
+
+原AM03-claims/review保持；旧AM03-D18-1的条件强度敏感性保留，但不把小根写成已测物理解。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AM03-D18-2 | Table1大根δ约−3.1至−5.1和B(E2)比.23–.27是作者所选DCO/SpeeDCO分支的派生结果；另一些行无δ，不能全线外推。 | source-result-and-boundary | direct-and-boundary | PDF p.200 Table1 | true |
+| AM03-D18-3 | 固定lambda、能量、in-band分母时，小根可把派生比按fE2大/小比例压低8–197倍；这是无偏振输入的反事实敏感性，不是另一实验测量或CI。原文没有线偏振选择该根。 | conditional-root-sensitivity | derived-and-boundary | PDF pp.200–201；new highspin-root-boundary-result-051 | true |
+
+
 ## Day18定量审计：混合比双解对相对B(E2)提取的决定性影响
 
 在Day18正式学习中重新核验本文Table 1数值。原AM03-1–6各claim及`human-reviewed`状态完全保留；新AM03-D18-1待审。

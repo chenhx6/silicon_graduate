@@ -896,3 +896,7 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 ## 135Pr/133La/133Ba混合比根与相空间因子边界（checkpoint050）
 
 [[matta-2015-transverse-wobbling-135pr]] MA15-D18-2/3与[[lv-2022-evidence-against-wobbling-135pr]] LV22P-D18-2/3保留真实大根/小根同核证据，但派生B(E2)仍依分支、in-band E2、响应和协方差；7倍中心差不是无条件CI。[[biswas-2019-longitudinal-wobbling-133la]] BI19-D18-2/3的-.35/-.40/-.38是条件替根，不是原Table1新测根。[[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]] RD21-D18-2/3确认(Ein/Eout)^5约1.54/2.29/5.43，但该乘子与强度归一、mixing和效率一起进入换算，不能单独证明本征矩阵元或模式身份。
+
+## 高自旋混合比根与偏振缺口（checkpoint051）
+
+[[amro-2003-wobbling-167lu]] AM03-D18-2/3和[[jensen-2002-second-phonon-wobbling-163lu]] JE02-D18-2/3均说明：DCO/角分布分支可给大/小根条件敏感性，但缺线偏振时不能把模型选支改成实验唯一解。167Lu小根压缩和163Lu 476-keV .51/.019差异都固定其它输入后成立；后者大根由相似转动性质+PRM选择，不能称偏振确证。新[8项结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/highspin-root-boundary-result-051.json)不生成实验CI。

@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "050 committed; original research window continues",
+  "last_checkpoint": "051 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit DSAM Qt regression and stopping or feeding systematics boundaries",
-    "commit_hash": "b56a0edb6469219a3b4a3c963e2ffb1fc6ea1aab",
+    "subject": "Correct mixing-root and E5 kinematic boundaries in Day18 strength audits",
+    "commit_hash": "a5ef257a73cd8c99869810966078599e806039e7",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-049.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-050.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Correct mixing-root and E5 kinematic boundaries in Day18 strength audits"
+    "subject": "Audit high-spin delta-root sensitivity and polarization gaps"
   },
   "uncredited_preview": {
     "day_index": 19,
