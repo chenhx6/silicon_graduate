@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md": 18,
+    "knowledge/sources/miller-2007-sega-polarization.md": 20
+  },
+  "artifacts": [
+    {
+      "file": "cm245-mixing-companion-result.json",
+      "true_fields": [
+        "ok",
+        "no_matching_witness_in_declared_boxes",
+        "exact_stationary_and_endpoint_extrema_checked",
+        "no_primary_phase_assignment_or_experimental_rejection",
+        "no_posthoc_box_expansion_or_Q_recalibration"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

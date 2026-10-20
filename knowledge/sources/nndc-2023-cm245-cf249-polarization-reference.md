@@ -73,6 +73,7 @@ tags: [polarimetry, calibration-reference, actinide, anomalous-conversion, sourc
 | N245-15 | 当前评价保anomalousconversion与旧混合评论，限制直接跨年把pureE1当无误差P参考；不因此否定MI07实验，actualγP还需α–γAD/相位/finiteacceptance和matchingQ/a/Σ。 | knowledge-impact-and-readiness | source-synthesis | N245-3; N245-4; N245-5; MI07-D17-6/7 | true |
 | N245-16 | 对已核Ji9/2→Jf9/2与7/2，若两pureE1且sharedconditionalrho/已unfold同接受，rank2系数R333=−4√330/165、R388=√330/60，故a333/a388=−16/11，不需Gaussianalignment。它是必要条件，不自动认证actualsource共同响应。 | task-common-parent-necessary-relation | exact-CG-and-Racah | Adopted L120/L132/L136; MI07-D17-6 | true |
 | N245-17 | 用原MI07 a333−.29(.02)/a388.17(.01)，条件residual−.0427273；独立误差额外假设下sigma.0247299/比1.72775，未知corr的localσ范围.0054545–.0345455。一倍marginalboxes不交/两倍交，并非jointCI、实验reject或Q重标。 | task-summary-uncertainty-boundary | derived-conditional | MI07 printed716 Fig5/Sec4.1; N245-16 | true |
+| N245-18 | 在声明VT74实幅度/两multipole/commonrho模型，将旧unsignedMR的333幅度.066–.098、388 .11–.14分两号，四R2ratio范围与原a2的2倍marginalbox ratio[−2.2,−1.315789]均不交；精确导数驻点/端点核，无放宽box造witness。这不是sourcephase认证、实验reject或混合比重测。 | task-bounded-response-sensitivity | exact-rank-and-extrema | Alpha L274/L285; MI07 printed716 Fig5; N245-16/17 | true |
 
 ## Summary
 
@@ -113,3 +114,5 @@ tags: [polarimetry, calibration-reference, actinide, anomalous-conversion, sourc
 ### 同母态pureE1的必要AD对照
 
 N245-16/17与[[polarimetry-shared-calibration-count-design]]“Cm245同母态：先检验共同P标尺的必要关系”用actualJ/a2作本session后续bounded检查。exactratio不依赖自由取向先验，但需要实际共同ρ/门/有限接受条件；marginalsummary没有jointΣ，不从残差给新sign/混合比或推原Q失败。新script初JSON序列化sympybool失败已保、改builtinbool后才写出结果，不把无artifact时算通过。
+
+当前历史MR量级的条件敏感性另见[[polarimetry-shared-calibration-count-design]]“旧MR幅度不能直接补当前P标尺”：no-witness按声明box如实保，不给原phase/γP修正；尚未取得primarybody/Σ，anomalousconversion解释不被换成指定M2污染。

@@ -9562,6 +9562,55 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "N245-17"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+      "summary": "旧MR magnitudebox/commonrho necessaryratio无witness，不赋source号/扩框或重标Q。",
+      "anchor": "N245-18",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-18"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/miller-2007-sega-polarization.md",
+      "summary": "历史MR不能直接补当前gammaP标尺、rank4companion仍需B4/response，非实验排除。",
+      "anchor": "MI07-D17-18",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-18"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "exactrank/解析驻点端点的四号敏感性no-witness与a4/B4域，不用自由q强配实际输入。",
+      "anchor": "旧MR幅度不能直接补当前P标尺",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-18"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-18"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-7"
+        }
+      ]
     }
   ]
 }
@@ -10053,3 +10102,9 @@ canonical新N245source15待审/MI07新16、sharedcalnote/ICC/Compton/index、唯
 原a333−.29(.02)/a388.17(.01) residual−.0427273；额外独立误差假设σ.0247299/比1.72775，未知corrσ范围.0054545–.0345455。一倍marginalboxes无交、两倍交[−76/275,−1/4]只是框量级，不jointCI/实验reject/混合号/Q重标。newscript初sympyBoolean JSON失败/没结果，改builtinbool后actualartifact通过，failure保。
 
 canonicalN245新16/17、MI07新17、sharedcal/Compton及唯一writeback/18priming/artifacts齐；verification086/publication071实际门。17once/partial18/windowactive，13:30后不newsource，15点stopresearch。
+
+### Checkpoint072：旧MR幅度输入的sameparent敏感性
+
+只currentN245/MI07/VT74已读sources、mixingcompanionbefore先冻，在声明realnormalizedamp/initialleft/两multipole/commonρ域核旧absδ333.066–.098/388.11–.14两号。exactR2 rationalquadratic与导数驻点/端点穷举，四ratio域约[−12.4002,−4.9897]/[−.9798,−.8617]/[−10.0201,−3.9239]/[−.7918,−.6776]，均不交actuala2两倍marginalratio框[−2.2,−1.31579]。no-witness保，不扩δ/σ、不自由q强配/赋source号。
+
+rank4只δ²R422B4，a4null需B4/response条件，不声称找到actualB4zeroq。历史electronMR/anomalousE1和gammaP不同层，no-witness不证明实验pure或排全M2族；actualΣ/接受/primaryphase缺口保。sourceN245/MI07各新18待审、sharedcal/唯一writeback/18priming、script/contracts/results/freezes齐；verification087/publication072实际门。原windowactive/17once/partial18，13:30后仅currentboundedanalysis、15点stopresearch。

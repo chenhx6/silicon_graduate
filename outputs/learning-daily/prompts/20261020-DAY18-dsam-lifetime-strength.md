@@ -245,3 +245,5 @@ Day17 checkpoint069 priming：GR97-D17-1–4仅两页target/MI07-14–15与Compt
 Day17 checkpoint070 priming：N245-1–15 actual202305两officialobject797行/NSR2record核；当前(E1)/MR空、旧无号幅度与anomalousE1conversion非同量，two54parent/RI/photontrace分层；2015/1977primarybody未得、不重标MI07Q或授formal18。
 
 Day17 checkpoint071 priming：N245-16/17/MI07-17 exactsameparent pureE1 a2ratio−16/11，原summary残差独立假设1.73σ/unknownCov、1x/2x marginalboxes非jointtest；不重标Q/推混合号，actualgates/接受/Σ仍缺，无formal18信用。
+
+Day17 checkpoint072 priming：N245/MI07新18的oldMRbox/commonrho模型无a2ratio witness，未赋sourcephase/扩框/重标Q；a4null仍需B4/response，不判实际pure或全M2排除，无formal18信用。

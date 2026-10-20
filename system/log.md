@@ -2326,3 +2326,7 @@ GR97两页target/MI07fullanchor，quartic唯一最大证明、energytable与twoh
 ### Day17 checkpoint071：sameparent pureE1必要AD关系
 
 exact−16/11与原a2残差/Covrange、1x/2x marginalbox检查，非jointtest/δ号/Q重标；初JSONboolfailure保修后actual结果。verification086valid/manifest071/H3，main / `Check the common parent E1 angular reference relation`，windowactive/17once/partial18，13:30后仅当前boundedanalysis。
+
+### Day17 checkpoint072：oldMRbox的sameparent敏感性
+
+声明phase/commonρ域四号oldMR框均无a2ratio必要witness，不扩框/赋号/重标Q；a4需B4/response。source两新claim待审，verification087valid/manifest072/H3，main / `Bound historical mixing inputs in the shared Cm245 reference model`，windowactive/17once/partial18，13:30后仅最后已冻currentissue。

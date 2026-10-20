@@ -1,0 +1,29 @@
+{
+  "Ji2": 9,
+  "branches": [
+    {
+      "label": "333",
+      "Jf2": 9,
+      "delta_abs_marginal_interval": [
+        "33/500",
+        "49/500"
+      ],
+      "a2_central": "-29/100",
+      "a2_sigma": "1/50"
+    },
+    {
+      "label": "388",
+      "Jf2": 7,
+      "delta_abs_marginal_interval": [
+        "11/100",
+        "7/50"
+      ],
+      "a2_central": "17/100",
+      "a2_sigma": "1/100"
+    }
+  ],
+  "basis": "VT74 initialleft realnormalizedamp E1+M2, signs explored both, no primaryphaseassignment",
+  "scope": "necessary commonrho rank2 ratio only; historicalMRboxes and a2marginals not jointCI",
+  "on_no_witness": "report no compatibility in declared box, do not enlarge inputs or infer experiment reject",
+  "a4_companion": "only show R4 proportionaldeltaSquared and unknownB4; no posthoc fabricatedpopulationfit"
+}

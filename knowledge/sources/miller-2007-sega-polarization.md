@@ -82,6 +82,7 @@ tags: [SeGA, polarization, Compton-polarimetry, detector-response]
 | MI07-D17-15 | 若把本文limitedtoQ0措辞理解为任何Compton角的严格上界，general-angle核给反例；本任务只限制该字面外推，不指认原SeGA测量失败。maxpointq不等fullmultipletransport bound或最优FOM，actualSeGA阈值未给不从别器件移。 | interpretation-and-transfer-boundary | source-plus-task-counterexample | printed714 Eq4 paragraph; printed718 Outlook | true |
 | MI07-D17-16 | 当前202305官方Cm245对象给同388.170母态的333.37/388.15均(E1)/MR空，并保1977混合幅度及2015 anomalousE1 ICC解释。它限制将本文pureE1假定跨版本当独立测得δ0，不证明本实验Q失败，也不从electronanomaly直接重标gammaP。 | evaluated-reference-companion-boundary | cross-source-synthesis | N245-2; N245-3; N245-4; N245-5; printed715 Sec3.1 | true |
 | MI07-D17-17 | sameparent/pureE1/sharedrho/已匹配接受时本session独立CG给a333/a388=−16/11；原a2 central残差−.042727，若额外独立误差约1.728σ，actualCov未知不作reject。一倍marginalbox不交而两倍交，不给δ号或新Q/P。 | conditional-companion-check | source-J-and-summary-calculation | printed715 Fig3; printed716 Sec4.1; N245-16/17 | true |
+| MI07-D17-18 | N245-18的历史MR magnitudebox在声明sourcephase/commonrho模型中不能匹配本a2的2xmarginal框；它限制把旧electronMR评论直接重标本Q，不证明实际pureE1或M2族已实验排除。rank4 null也需取向B4与actual响应合同，不能先置未知B4。 | source-companion-and-transfer-boundary | conditional-model-and-scope | N245-18; printed716 Fig5; printed718 Outlook | true |
 
 ## Summary
 

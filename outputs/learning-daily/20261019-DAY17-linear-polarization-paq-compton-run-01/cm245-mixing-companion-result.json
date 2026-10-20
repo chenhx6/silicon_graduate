@@ -1,0 +1,231 @@
+{
+  "at": "2026-10-20T05:24:34.179452+00:00",
+  "script_sha256": "a9fcc42cc07a3a6694dccdec4a1ccedf141aa6a99a96ba1e82c792a877b498e7",
+  "contract_sha256": "1118087b76ac80c09875cff54c234324e9a4c04be569cb4d72275492999f14d1",
+  "branch_response_formulas_and_exact_extrema": [
+    {
+      "label": "333",
+      "rank2_formula": "(5*sqrt(330)*d**2 + 60*sqrt(11)*d - 8*sqrt(330))/(330*(d**2 + 1))",
+      "rank4_formula": "-sqrt(286)*d**2/(33*(d**2 + 1))",
+      "intervals": [
+        {
+          "sign": -1,
+          "delta_box": [
+            "-49/500",
+            "-33/500"
+          ],
+          "rank2_range_exact": [
+            "-132533*sqrt(330)/5552822 - 49000*sqrt(11)/2776411",
+            "-398911*sqrt(330)/16571874 - 3000*sqrt(11)/251089"
+          ],
+          "rank2_range_float": [
+            -0.49211207125538087,
+            -0.47690863995892535
+          ],
+          "extremum_points_exact": [
+            "-49/500",
+            "-33/500"
+          ]
+        },
+        {
+          "sign": 1,
+          "delta_box": [
+            "33/500",
+            "49/500"
+          ],
+          "rank2_range_exact": [
+            "-398911*sqrt(330)/16571874 + 3000*sqrt(11)/251089",
+            "-132533*sqrt(330)/5552822 + 49000*sqrt(11)/2776411"
+          ],
+          "rank2_range_float": [
+            -0.3976548743932001,
+            -0.37504394645151384
+          ],
+          "extremum_points_exact": [
+            "33/500",
+            "49/500"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "388",
+      "rank2_formula": "-(5*sqrt(330)*d**2 - 2310*sqrt(14)*d - 77*sqrt(330))/(4620*(d**2 + 1))",
+      "rank4_formula": "8*sqrt(286)*d**2/(231*(d**2 + 1))",
+      "intervals": [
+        {
+          "sign": -1,
+          "delta_box": [
+            "-7/50",
+            "-11/100"
+          ],
+          "rank2_range_exact": [
+            "-175*sqrt(14)/2549 + 1831*sqrt(330)/112156",
+            "-550*sqrt(14)/10121 + 4663*sqrt(330)/283388"
+          ],
+          "rank2_range_float": [
+            0.03968583858158008,
+            0.0955794806082859
+          ],
+          "extremum_points_exact": [
+            "-7/50",
+            "-11/100"
+          ]
+        },
+        {
+          "sign": 1,
+          "delta_box": [
+            "11/100",
+            "7/50"
+          ],
+          "rank2_range_exact": [
+            "550*sqrt(14)/10121 + 4663*sqrt(330)/283388",
+            "175*sqrt(14)/2549 + 1831*sqrt(330)/112156"
+          ],
+          "rank2_range_float": [
+            0.5022411865119847,
+            0.5534481317831805
+          ],
+          "extremum_points_exact": [
+            "11/100",
+            "7/50"
+          ]
+        }
+      ]
+    }
+  ],
+  "a2_summary_ratio_boxes": [
+    {
+      "multiple_marginals_not_CI": 0,
+      "ratio_range_exact": [
+        "-29/17",
+        "-29/17"
+      ]
+    },
+    {
+      "multiple_marginals_not_CI": 1,
+      "ratio_range_exact": [
+        "-31/16",
+        "-3/2"
+      ]
+    },
+    {
+      "multiple_marginals_not_CI": 2,
+      "ratio_range_exact": [
+        "-11/5",
+        "-25/19"
+      ]
+    }
+  ],
+  "four_sign_magnitude_box_comparisons": [
+    {
+      "delta333_sign": -1,
+      "delta388_sign": -1,
+      "ratio_range_exact": [
+        "(-132533*sqrt(330)/5552822 - 49000*sqrt(11)/2776411)/(-175*sqrt(14)/2549 + 1831*sqrt(330)/112156)",
+        "(-398911*sqrt(330)/16571874 - 3000*sqrt(11)/251089)/(-550*sqrt(14)/10121 + 4663*sqrt(330)/283388)"
+      ],
+      "ratio_range_float": [
+        -12.4001933395907,
+        -4.9896550695168935
+      ],
+      "summary_box_checks": [
+        {
+          "a2_box_multiple": 0,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 1,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 2,
+          "intersection": false
+        }
+      ]
+    },
+    {
+      "delta333_sign": -1,
+      "delta388_sign": 1,
+      "ratio_range_exact": [
+        "(-132533*sqrt(330)/5552822 - 49000*sqrt(11)/2776411)/(550*sqrt(14)/10121 + 4663*sqrt(330)/283388)",
+        "(-398911*sqrt(330)/16571874 - 3000*sqrt(11)/251089)/(175*sqrt(14)/2549 + 1831*sqrt(330)/112156)"
+      ],
+      "ratio_range_float": [
+        -0.9798321692273994,
+        -0.8617043089880004
+      ],
+      "summary_box_checks": [
+        {
+          "a2_box_multiple": 0,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 1,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 2,
+          "intersection": false
+        }
+      ]
+    },
+    {
+      "delta333_sign": 1,
+      "delta388_sign": -1,
+      "ratio_range_exact": [
+        "(-398911*sqrt(330)/16571874 + 3000*sqrt(11)/251089)/(-175*sqrt(14)/2549 + 1831*sqrt(330)/112156)",
+        "(-132533*sqrt(330)/5552822 + 49000*sqrt(11)/2776411)/(-550*sqrt(14)/10121 + 4663*sqrt(330)/283388)"
+      ],
+      "ratio_range_float": [
+        -10.020069843699082,
+        -3.923896050330711
+      ],
+      "summary_box_checks": [
+        {
+          "a2_box_multiple": 0,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 1,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 2,
+          "intersection": false
+        }
+      ]
+    },
+    {
+      "delta333_sign": 1,
+      "delta388_sign": 1,
+      "ratio_range_exact": [
+        "(-398911*sqrt(330)/16571874 + 3000*sqrt(11)/251089)/(550*sqrt(14)/10121 + 4663*sqrt(330)/283388)",
+        "(-132533*sqrt(330)/5552822 + 49000*sqrt(11)/2776411)/(175*sqrt(14)/2549 + 1831*sqrt(330)/112156)"
+      ],
+      "ratio_range_float": [
+        -0.7917607816174412,
+        -0.6776496746734733
+      ],
+      "summary_box_checks": [
+        {
+          "a2_box_multiple": 0,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 1,
+          "intersection": false
+        },
+        {
+          "a2_box_multiple": 2,
+          "intersection": false
+        }
+      ]
+    }
+  ],
+  "no_matching_witness_in_declared_boxes": true,
+  "exact_stationary_and_endpoint_extrema_checked": true,
+  "no_primary_phase_assignment_or_experimental_rejection": true,
+  "no_posthoc_box_expansion_or_Q_recalibration": true,
+  "ok": true
+}

@@ -497,3 +497,31 @@ R_{2,388}=\frac{\sqrt{330}}{60},\qquad
 最高信息仍为原逐unit两a2联合fit、共singles/alpha gate/时间接受、finitegamma/alpha权重与fitCov。若这些证明sameρ，才能检验pureE1必要关系；若实际不相同，须先解释选择合同，不能重标Q强配。旧双幅度/分支RI都不能代替此actualinput。
 
 复算`system/scripts/day17_cm245_commonparent_audit.py`，本run `cm245-commonparent-contract/result.json`；初artifact序列化sympybool失败后改builtinbool，失败receipt保，最终结果另有hash。没有新的P/Q/δ/实验CI或formal18学分。
+
+#### 旧MR幅度不能直接补当前P标尺
+
+这是同一reference问题的后续敏感性，源[[nndc-2023-cm245-cf249-polarization-reference]] N245-18与[[miller-2007-sega-polarization]] MI07-D17-18。以[[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-2/3/7的实幅度/initialleft归一定义为**声明坐标**，两支E1/M2的rank2响应为
+
+\[
+F_{2,333}(x)=\frac{5\sqrt{330}x^2+60\sqrt{11}x-8\sqrt{330}}{330(1+x^2)},
+\]
+\[
+F_{2,388}(y)=\frac{-5\sqrt{330}y^2+2310\sqrt{14}y+77\sqrt{330}}{4620(1+y^2)}.
+\]
+
+旧评价comment只给无显式号幅度，primaryphase未取，因此并不将x/y号指定成源δ号。只看其quotedmarginal量级：abs(x)∈[.066,.098]、abs(y)∈[.11,.14]，并分别尝试两号。在commonρ、AD已匹配有限接受的模型中a333/a388=F333/F388，未知B2仍取消。每个F的区间极值由解析导数驻点与端点穷举、exactalgebraic比较取得；不是稀疏网格判断。
+
+| x号/y号（声明坐标） | rank2ratio条件范围 | 与a2两倍marginalratio框是否相交 |
+|---|---|---|
+| −/− | [−12.40019,−4.98966] | 否 |
+| −/+ | [−.97983,−.86170] | 否 |
+| +/− | [−10.02007,−3.92390] | 否 |
+| +/+ | [−.79176,−.67765] | 否 |
+
+actuala2中央ratio为−29/17，一倍marginal框给[−31/16,−3/2]，两倍框给[−11/5,−25/19]≈[−2.2,−1.315789]。四声明MR框都无必要关系witness，故不继续用自由positiveq或扩大δ/误差来强配。这里没有source旧MR/实际Q的hypothesistest、jointCI、实验δ号或新核结论。
+
+这一no-witness是把旧electron分析转入gammaP时的必要警示，不自动证明原MI07pureE1完全正确，也不否定原评价的anomalousE1解释。实际缺口包括oldprimaryphase/方法、source制备和两gamma不同acceptance/alpha/time、原a2fitΣ；highermultipole/generalcomplex或不共同ρ族未覆盖，不能排成任意M2污染的全域上限。
+
+同一两multipole模型的rank4系数为a4=B4 δ²R4(2,2)/(1+δ²)，因此新的a4测量可作companion，但nulla4只有在B4/响应足够已知时才给混合限；若B4恰零，不能仅null删δ。当前没有声称为上述MRbox找到共同q/B4zero实际witness，也未测actuala4。下一最高信息仍匹配逐unitAD/P/门/接受/Σ与上游primarybody，而非再造referencefit。
+
+复算`system/scripts/day17_cm245_mixing_sensitivity.py`，本run `cm245-mixing-companion-contract/result.json`。before/freeze保no-witness不扩框的先验承诺，未赋新formalcredit。

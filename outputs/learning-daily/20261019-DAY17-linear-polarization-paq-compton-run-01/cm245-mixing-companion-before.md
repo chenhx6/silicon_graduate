@@ -1,0 +1,7 @@
+# Cm245当前问题的mixing敏感性前冻结
+
+sameparentpureE1必要比/summary残差已独立交付，未reject实验。新bounded问题：在声明VT74initialleft/realamp坐标下，旧评价unsignedMRmagnitudes(.084与.13)的两号分支/quotedmarginalranges是否能改变R2比到actualcentral−29/17，及rank4新companion何时可见。旧primaryphase仍缺，所以这只是历史幅度量级的敏感性，不赋source号/新MR/Qfit。
+
+只currentN245/MI07/VT74已读source，13:30后不开新body。Ji9/2 commonpositivefoldedq任意，R2ratio可消B2；若存在witness再核所需B2在CGpositiveconvexrange内，并用twofoldpopulation给positiveq；不称实测布居。a4=R4 B4，纯E1为0、混合仅δ²R422，但freepositiveq可以B4=0而B2非零，则测a4null未必单独排混合；必须看是否当前所需B2也能和B4=0共存。LP/linearconvex证书只为此条件设计，不替actuala4/Cov。
+
+如果无该旧幅度box witness就如实报告，不调δ/σ扩大范围制造吻合；波函数相位/α门/接受/实际Σ的优先级不变。
