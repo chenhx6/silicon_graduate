@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "taras1971-actual-result.json",
+      "true_fields": [
+        "ok",
+        "all_typed_table_controls_pass",
+        "new_source_Z_and_population_inverse_controls",
+        "no_original_band_uncertainty_J7half_fit_or_experimental_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -2306,3 +2306,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint066：三个零量与actualinput整合
 
 来源后primed10项atomic回忆audit，highspinsynthesis整合核I/singleP/jointC/nullQ与MI/DR/SIM实际证据层；无新实验/盲分或卡。verification081valid/manifest066/H3，main / `Synthesize polarization zero observables and missing calibration inputs`，windowactive/17once/partial18；T71原24页主线继续中。
+
+### Day17 checkpoint067：T71实际35Cl1763布居筛选
+
+原24页/17new待审，92targetcoef核及初录入修正保；actualTable5中央4根仅正M1E2+2.683有正q，RN/p同链与缺Σ/bands/全J族分层，非新测量。verification082valid/manifest067/H3，main / `Replay Taras 35Cl polarization and positive population screening`，原windowactive/17once/partial18。

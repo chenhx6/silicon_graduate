@@ -9,6 +9,8 @@ updated: 2026-10-20
 
 ## Day17新增研究合同
 
+- [[cl35-1763-polarization-population-replay]] — actualT71 Table5的中央δ/正布居筛选、ratio/Σ与92系数核，非完整实验CI。
+
 - [[three-multipole-polarization-response-contract]] — VT74原phase/finiteproduct、positiveisotropicAD仍P非零的exact双路线及历史ratio字典。
 
 - [[ppco-joint-response-and-information]] — fourN与两single之外的信息、有限Q分母及同源164Yb反演/误差边界。

@@ -1,0 +1,9 @@
+# Taras1971主线原件前回忆/下一候选
+
+VT74之后先做三零量REFLECT（audit已逐atomic），当前窗口约200min，不因局部饱和日终。下一连续性选T71原24页，回查physicalP/MethodII的实际tensor/finiteparticleacceptance和旧35Cl实例，不并开novelty/其它课程。
+
+旧Wiki T71四falseclaim/摘要已看、VT74phase/recipe新读已primed：RB initialleft，RME/δ需operatorphase，B/pop投影、twoADcoef未知alignment多解，MethodII particle detector沿axis共享tensor。VT74说原RB BM/G关系有修订，不能假定T71所有prose/factor都与1974或currentnative完全同。
+
+待原件核：正文真正测量/引用的35Cl等哪条γ、spin/parity/δ数值/误差/先验；如何从population规定推W/P与有限particle/counter衰减Qk，哪些是模型不是实验。Appendix coefficient tables/特殊CG/rank/NORMAL0是否给实际可复算对照；本轮实际scope要到24页主线/关键表但不谎称所有表entry逐项数值重放。
+
+预测：同tensor是MethodII的条件，不是任意particlegate；sourceP若ratio须和boundedP字典保分；normalization/sourceaxis与偏振计Q不由同符号混。高信息交付为原源fullmainline/关键式图表、实际一项coefficient/finitecounter或原published数据的条件replay。原输入缺口不填memory，不复用旧VT74/Day16模型授新credit。

@@ -541,3 +541,7 @@ Fig9先以1332peak归一，背景20倍改善是relative形状；不是同曝光�
 ### physicalP不能由isotropicAD自动置零
 
 [[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-1–14原Eq52明确warning；[[three-multipole-polarization-response-contract]]给positiveM=±1/2的3/2→1/2 M1/E2 exact例，δVT=√3±2使I1而P90=±√3/2。R_K*Kcal的零CG分母应先消成finiteproduct，不将AD零项删成P0；声明phase/axisymmetric域，不认证任意coherentρ/实际核fit。原p=J0/J90、p′才boundedP，Eq56精确桥A=QP；这是历史ratio命名实例，不补EW69作者意图或原Ref9body。
+
+### 35Cl1763：布居正性可以在指定合同内选根
+
+[[taras-1971-phase-defined-polarization-formulas]] T71-D17-9–15及[[cl35-1763-polarization-population-replay]]以原Table5 a2/a4、calculatedR、N90/N0和p ratio做新central replay。指定5/2→3/2/two-multipole/sourcephase时，四centralδ候选仅M1E2 +2.6833给非负foldedq；支持作者该中央逻辑，不是新Jπ/δ测量或原误差band复现。完整jointΣ/finiteacceptance、literalpureM2/printed区间与全J7/2族未重放；p/R/N同链不计独立P。positiveq有时有力，不能因此跨核/门泛化。

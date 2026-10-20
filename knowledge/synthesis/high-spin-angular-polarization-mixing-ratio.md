@@ -218,3 +218,9 @@ p(a,G)=\operatorname{Tr}(E_GK_a\rho K_a^\dagger).
 [[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-10的unobservedUk与Day16末段完整通道记法相合；completeγtrace的无干涉权重不能直接迁finitegate。匹配参考的核制备、每个门的normalizer与actualresponse仍是source理论进入真实实验的接口。
 
 决定`supports`P/A/Q分层与多observable价值，`limits`以上无条件互推，`revises`旧摘要中ratio/cos²/效率分母等已明确定位的转录；没有新的实验P/Q/δ/Jπ或结构模式排序。下一高信息路线是实际samecampaign ledger/response/Σ与同tensor的独立companion；在尚有研究窗口时继续已允许的问题，不能把本次整合当日终。
+
+### 正性约束的实际补充：可以缩小，但须逐对象检验
+
+[[taras-1971-phase-defined-polarization-formulas]] T71-D17-9–15与[[cl35-1763-polarization-population-replay]]给出35Cl1763的具体反向检验：指定J5/2→3/2、sourcephase/two-multipole和centralAD/P后，M1E2正根+2.6833的foldedq全非负，另三中央候选各失败。它与Rh99/D66多解witness并不冲突，后者有各自观测、J/布居域/门和response。不能把“保多解”误写成任何实际数据都不能选根，也不能把本例成功外推成Psign总能判EM/δ/Jπ。
+
+此处支持的是原source的中央代数链，源1969/T71同data不独立；printed误差bands/actualΣ/finitecounter和全7/2族缺口保留，未晋升本任务新实验结论。

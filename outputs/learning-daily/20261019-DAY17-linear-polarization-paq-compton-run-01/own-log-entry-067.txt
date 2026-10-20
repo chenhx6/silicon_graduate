@@ -1,0 +1,4 @@
+
+### Day17 checkpoint067：T71实际35Cl1763布居筛选
+
+原24页/17new待审，92targetcoef核及初录入修正保；actualTable5中央4根仅正M1E2+2.683有正q，RN/p同链与缺Σ/bands/全J族分层，非新测量。verification082valid/manifest067/H3，main / `Replay Taras 35Cl polarization and positive population screening`，原windowactive/17once/partial18。

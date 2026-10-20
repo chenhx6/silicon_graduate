@@ -8899,6 +8899,241 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "VT74-D17-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+      "summary": "原24页新全读/关键7表2图/92系数核，17new待审/旧false保；实际35Cl同1969依赖、MethodII/phase与finiteacceptance域、28Si误配改29Si。",
+      "anchor": "Day17原件复核：35Cl1763的positivepopulation筛选",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-1"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-2"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-3"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-4"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-5"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-6"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-7"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-8"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-9"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-10"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-11"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-12"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-13"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-14"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-15"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-16"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/cl35-1763-polarization-population-replay.md",
+      "summary": "actualTable5中央4δ候选/q正性、R/N→p与partialCov范围、全实δ中央正性域；不重造原bands/CI/全J族。",
+      "anchor": "按原Z重建folded布居",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-1"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-2"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-3"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-4"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-5"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-6"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-7"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-8"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-9"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-10"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-11"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-12"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-13"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-14"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-15"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-16"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "布居正性在指定actualsource合同内选中央根的平衡实例与缺失Σ边界。",
+      "anchor": "35Cl1763：布居正性可以在指定合同内选根",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-9"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-10"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-11"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-12"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-13"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-14"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "summary": "实际positiveq成功缩候选不冲突Rh99/D66多解，防止把保多解变成永远不能选根或反向泛化。",
+      "anchor": "正性约束的实际补充：可以缩小，但须逐对象检验",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-9"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-10"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-11"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-12"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-13"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-14"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "35Cl1763实际source条件复算canonical入口。",
+      "anchor": "Day17新增研究合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-11"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-12"
+        }
+      ]
     }
   ]
 }
@@ -9350,3 +9585,11 @@ sourceEq15/26先消CG得finiteR*K，L3/L′5/K6 q0CG0/q2非零、Ji3→Jf2 produ
 counterexample-reflect-before为来源后强primed10项回忆，freeze/hash与audit逐atomic/实际artifact对应，无blindscore/独立实验或新卡。既有highspinsynthesis新增“三个零量不能互相替代”：VT74isotropicI不定singleP、FA48single0不定joint、nulla不定knownP/Q，并用SeGA同E1异参考P、DR99四N剩多解和SIM05实际link限制解释跳级。
 
 5000totalpeak不等selectedcount、AO75不同仪器/peak归一、VT74ratio历史实例不证EW作者意图、完整trace不代finitegate均映canonicalatomic；原反例域/未得actualΣ不抹平。此段无newsource/scientific重算，17once/partial18/windowactive。verification081/publication066实际门。下一Taras1971原24页before已冻，刚开始正文主线，不预填全读/新结果。
+
+### Checkpoint067：Taras1971实际35Cl1763的根与布居正性
+
+先冻T71 before/exercise primed回忆，原24页328–351 fulltextvisual/50主式/7表2图/29refs；Appendix仅结构及声明target92值复算，不称巨表全numericalreplay。1157959bytes/hash保，旧T71四false/review/cite保、新17待审。旧28Si metadata误配改原26Mg(α,nγ)29Si，补actual37Ar。MethodII0/180annular/finitecounter需formation/decayinput，与captureisolated前提分开；sameeffectivepko/γUk/phase角色不跨门。
+
+actualTable5 a2−.369(.009)/a4.213(.013)、calculatedR1.683(.017)、N1.22(.01)、p2.30(.08)同链派生。roundedR/N→p2.27486、printedp/R→N1.22292可round，σp独立假设.09385/任意RNCorr范围.04675–.12421，原Σ未得不判σ错。sourceparity-independentZ/逆foldedq给M1E2δ2.683292/−.730446、E1M2−.018784/104.34452；仅正M1根q(.703038,.240032,.056930)非负，支持作者指定中央逻辑。高M2根份额.999908与printedpureM2近极限、central正性域[−15.8321,−.95118]∪[.78997,3.04274]不等源误差区，未调参强配或称实验冲突；全7/2/a6/βprimary/原1969body未重放，不给新Jπ/δ/CI。
+
+Table3九K/4六十Legendre/6十五Z/7八CG共92值核过；初Table4两任务误读已高清修9.7674/.2659，初contract/result快照保，非sourceprintingfailure。frozenexercise误称八K原文保，actualscope九。canonicalT71/new35Clnote/Compton/synthesis/index、唯一writeback、scripts/input/result/scope/freezes及18priming齐；verification082/publication067实际门，17once/partial18/windowactive。

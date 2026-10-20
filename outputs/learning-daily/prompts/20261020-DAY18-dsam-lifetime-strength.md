@@ -235,3 +235,5 @@ Day17 checkpoint064 priming：MI07-D17-1–13原6页、a反ST99/actual15unit/αt
 Day17 checkpoint065 priming：VT74-D17-1–14原8页至Eq56、new三多极response note保存sourcephase/finiteproduct和positiveisotropicAD两根δVT=√3±2/P非零exact控制；p强度比与boundedP精确桥不补EW69作者意图。完整trace/finitegate与actual核/Σ边界保，无formal18信用。
 
 Day17 checkpoint066 priming：highspinsynthesis“三个零量不能互相替代”整合核I/singleP/jointC/nullQ与sameEM/共享数据域，来源后10项非blind、非新实验/学分；需actualsamegate/response/Σ，不以source整合替正式18交付。
+
+Day17 checkpoint067 priming：T71-D17-1–17原24页及35Cl1763note，actualTable5中央4根仅M1E2+2.6833有正q；Rcalculated/p/N同链、92目标系数核与初录入失败保。未知bands/Σ/finiteacceptance/全J7/2/a6不填，positiveq成功不普适化；无formal18信用。
