@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md": 15
+  },
+  "artifacts": [
+    {
+      "file": "butler1973-calibration-result.json",
+      "true_fields": [
+        "ok",
+        "literal_Eq4_is_P_A_over_Q_no_extra_alpha_denominator",
+        "count_gradient_label_swap_null_scale_controls",
+        "no_pointP_clipped_or_Qfit_refitted",
+        "no_actual_covariance_counts_or_efficiency_imputed",
+        "not_matching_WA77_actual_response_attestation"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

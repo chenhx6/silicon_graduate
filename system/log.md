@@ -2242,3 +2242,7 @@ EK79完整6页新自审及39/32行输入/CG/残差核写回，12899byte人审pre
 ### Day17 checkpoint050：61Ni原spin/fs转录与companion
 
 WA77全19页核纠旧Wikispin/370fs/ps，原claimflags保，新14待审；实际partialrate/τ与B不同预算/ADP后τcompanion写回canonical。verification064/manifest050/H3发布，main / `Correct original nickel spin and lifetime transcriptions with partial-rate audit`，原windowactive/17once/partial18。
+
+### Day17 checkpoint051：三GeLi原P/A/Q纠正
+
+B73新全文/七行校准与计数Jacobian核，纠旧Wiki额外分母，旧flags保。a独立层/同链P-Q/Ex-Eg与33Scompanion写回canonical，verification065/manifest051/H3发布，main / `Correct original three-crystal polarization response and calibration roles`，原windowactive/17once/partial18。

@@ -298,3 +298,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 原实验AD与P仍可留下宇称候选
 
 [[wadsworth-1977-61ni-levels]] WA77-D17-4/5/9原19页复核：1609/1997的AD+P尚留5/2±，作者另用τ推M2数百WU排正宇称。Psign不独断parity；P为作者经校准报告量，本篇没有裸ComptonA/counts/Q。其AD与polarimeterscatterermonitor共享归一，装置委托Butler1973不能自动当1977精确response。原Wiki整数spin及寿命单位错误已定向纠正，源新claims仍待审。
+
+
+### 三GeLi原式的独立a与Q
+
+[[butler-1973-three-geli-compton-polarimeter]] B73-D17-1/2/6/11：先以unpolarizedsource的a校Eq3计数比，再P=A/Q；不另加source没有的alphaA分母。a与knownEM/AD给P从而Q为不同校准输入，但P/A/Q/calibrator之间仍有sharedCov；fullerror用共同Jacobian，不能把同链列当独立实验。33S赋spin还需lowabsM/lifetime排M3等条件，见B73-D17-13。

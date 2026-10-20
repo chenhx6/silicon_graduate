@@ -278,3 +278,10 @@ GRS26-11/12追加核原样完整ScalePlot程序：原函数calibration→target�
 ## 真实工具合同补充：平滑与匹配不自动进入Cov
 
 [[root-2008-v522-background-error-contract]] R522-2/3/5/10是本note计数设计的实际软件反证：ROOT5.22 Smooth只改content，Background未写估计误差，Add按固定系数diagonal合并。声明matching a=Dk/Bk给不同jointCov；原Compton/Si实验脚本未得时不把本design或工具名升级为实验置信区间。
+
+
+## 三GeLi原计数式与独立校准层
+
+[[butler-1973-three-geli-compton-polarimeter]] B73-D17-1/2/6/11/12把a相对absorbereff、A校正sumpeakarea、P核光子planeaxis、Q=A/P分层固定。旧Wiki额外1−alphaA分母是转录错已纠；source原Eq4只P=A/Q。新design6000/4000、a1.01的Jacobian/误差保自设Poisson及a独立条件；实际B73counts/背景fit与跨线Cov未取得，不能用印a1%或Qcurve方差当实验jointΣ。
+
+Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另一相对effinput，且仍需samegeometry/selection。Ex2935/Eg967别与同母态groundγ2935混用；nominalpointP>1不clip，不以失配强改authorP/Q。

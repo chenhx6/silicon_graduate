@@ -1,0 +1,171 @@
+{
+  "at": "2026-10-20T01:03:21.261589+00:00",
+  "script_sha256": "ff4a8ed175e440ac8a6847c8ab305df90a5af4b6f1a53015c239e80cb078b956",
+  "contract_sha256": "a62bba7438646ab891840c8089c3e2b8c946454ea9f0333244646c9fa4a0ce8a",
+  "actual_seven_calibration_rows": [
+    {
+      "identity": [
+        "56Fe",
+        847,
+        847,
+        "E2"
+      ],
+      "Q_A_over_P": 0.44,
+      "Q_reported": 0.44,
+      "conditional_diagonal_sigma_Q": 0.02185040045399626,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.0112,
+        0.0288
+      ],
+      "Qprime_point_KN90": 0.4916841871320046,
+      "Q_nominal_original_B084_C0": 0.4130147171908839,
+      "Q_reported_over_Qprime": 0.894883365207495,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": 0.49557522123893805,
+      "pointP90_over_one_preserved_not_clipped": false
+    },
+    {
+      "identity": [
+        "24Mg",
+        1368,
+        1368,
+        "E2"
+      ],
+      "Q_A_over_P": 0.2737373737373738,
+      "Q_reported": 0.274,
+      "conditional_diagonal_sigma_Q": 0.007592118022919215,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.004305683093561882,
+        0.00983573104785226
+      ],
+      "Qprime_point_KN90": 0.3390908726816578,
+      "Q_nominal_original_B084_C0": 0.28483633305259254,
+      "Q_reported_over_Qprime": 0.8080429822044612,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": 1.0067210753720592,
+      "pointP90_over_one_preserved_not_clipped": true
+    },
+    {
+      "identity": [
+        "28Si",
+        1779,
+        1779,
+        "E2"
+      ],
+      "Q_A_over_P": 0.2354166666666667,
+      "Q_reported": 0.235,
+      "conditional_diagonal_sigma_Q": 0.008686656926920762,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.005881076388888889,
+        0.010785590277777778
+      ],
+      "Qprime_point_KN90": 0.2699375974129771,
+      "Q_nominal_original_B084_C0": 0.22674758182690077,
+      "Q_reported_over_Qprime": 0.8705715774763818,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": 0.9678526277767744,
+      "pointP90_over_one_preserved_not_clipped": false
+    },
+    {
+      "identity": [
+        "12C",
+        4430,
+        4430,
+        "E2"
+      ],
+      "Q_A_over_P": 0.09090909090909091,
+      "Q_reported": 0.09,
+      "conditional_diagonal_sigma_Q": 0.01014266392762834,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.00918273645546373,
+        0.011019283746556474
+      ],
+      "Qprime_point_KN90": 0.11398981089886961,
+      "Q_nominal_original_B084_C0": 0.09575144115505048,
+      "Q_reported_over_Qprime": 0.7895442521599313,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": 1.0510422754724336,
+      "pointP90_over_one_preserved_not_clipped": true
+    },
+    {
+      "identity": [
+        "26Al",
+        417,
+        417,
+        "E2"
+      ],
+      "Q_A_over_P": 0.5757575757575757,
+      "Q_reported": 0.58,
+      "conditional_diagonal_sigma_Q": 0.06993363733575673,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.025711662075298444,
+        0.09550045913682277
+      ],
+      "Qprime_point_KN90": 0.7316923155033889,
+      "Q_nominal_original_B084_C0": 0.6146215450228466,
+      "Q_reported_over_Qprime": 0.7926829183670902,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": 0.3408450704225352,
+      "pointP90_over_one_preserved_not_clipped": false
+    },
+    {
+      "identity": [
+        "33S",
+        2935,
+        967,
+        "E1"
+      ],
+      "Q_A_over_P": 0.36585365853658536,
+      "Q_reported": 0.36,
+      "conditional_diagonal_sigma_Q": 0.03621470851927287,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.0023795359904818583,
+        0.05116002379535991
+      ],
+      "Qprime_point_KN90": 0.44680580063276015,
+      "Q_nominal_original_B084_C0": 0.3753168725315185,
+      "Q_reported_over_Qprime": 0.8057191726028915,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": null,
+      "pointP90_over_one_preserved_not_clipped": false
+    },
+    {
+      "identity": [
+        "33S",
+        2971,
+        2971,
+        "E2"
+      ],
+      "Q_A_over_P": 0.13580246913580246,
+      "Q_reported": 0.13,
+      "conditional_diagonal_sigma_Q": 0.024918000692194246,
+      "conditional_local_sigma_Q_range_unknown_Cov": [
+        0.02133821063862216,
+        0.028044505410760555
+      ],
+      "Qprime_point_KN90": 0.16776112774593083,
+      "Q_nominal_original_B084_C0": 0.1409193473065819,
+      "Q_reported_over_Qprime": 0.7749113382027396,
+      "nominal_normalized_pureE2_pointP90_not_paper_producer": 0.7693761814744802,
+      "pointP90_over_one_preserved_not_clipped": false
+    }
+  ],
+  "design_count_example": {
+    "A": 0.2047713717693837,
+    "P_if_Q_fixed": 0.4653894812940539,
+    "gradient_Nperp_Nparallel_a": [
+      7.98390571086404e-05,
+      -0.00011975858566296061,
+      0.4742914283681608
+    ],
+    "finite_difference_gradient": [
+      7.98390571141172e-05,
+      -0.0001197585856649308,
+      0.4742914283262234
+    ],
+    "conditional_sigma_A_count_only": 0.009778247573054753,
+    "conditional_sigma_A_a_only": 0.004790343426518424,
+    "conditional_sigma_A_independent_design": 0.01088859567363668,
+    "actual_B73_counts_or_CI": false
+  },
+  "literal_Eq4_is_P_A_over_Q_no_extra_alpha_denominator": true,
+  "count_gradient_label_swap_null_scale_controls": true,
+  "no_pointP_clipped_or_Qfit_refitted": true,
+  "no_actual_covariance_counts_or_efficiency_imputed": true,
+  "not_matching_WA77_actual_response_attestation": true,
+  "ok": true
+}

@@ -447,3 +447,10 @@ source同φzero的Eq9/10 endpoint sign与operationalfit系数存在literal反号
 [[geant3-vmc-2026-compton-baseline]] G3-2/3/5/7/8：当前标准G3COMP不消费POLAR，uniformphi和同RNG偏振对照明确其unpolarizedbaseline身份。真实代码组件的KN/守恒通过不验证polarimeterQ；transportcuts还需与GR97电子学threshold/geometry分开。
 
 [[pb207-gated-polarization-reference]]以N207-2/3/14/15保存一个实际序列的条件反例：交换target/gate保持同W却改变P；smallupperintensity不保证同阶P变化。nativephase/finiteacceptance未得时不将理论pointP乘入原实验Q。
+
+
+## Butler1973原式：a先修计数，P随后除Q
+
+[[butler-1973-three-geli-compton-polarimeter]] B73-D17-1–14重新原6页核：Eq3 A=(aNperp−Nparallel)/(aNperp+Nparallel)、Eq4 P=A/Q，无旧Wiki误写的1−alphaA分母。a≈1/accuracy1%由unpolarized56Co/66Ga独立relativeabsorbereff标定；knownEM/AD预测P与同时测A再给Q，是另一层。原C=0±.005MeV^-1/B=.84±.04的Qprimefit无Cov，不迁Ni1977或clover/tracking。
+
+Table1 Ex2935的E1光子Eg967与Fig3同母态2935groundγ不同P，不把Ex作calibrationenergy。原七行A/P近Qcentral；印a2/a4裸point公式有P>1等不闭合，未原fit/finiteanglecontract不clip或重标Q。源门改善background比不等countretention/FOM；原counts/Σ缺，新的6000/4000计数仅声明design。

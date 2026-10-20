@@ -145,3 +145,6 @@ Spin/parity assignments depend on compound-nuclear population estimates, Rose–
 [新实际rate输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/wadsworth1977-rate-contract.json)与[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/wadsworth1977-rate-result.json)，script `system/scripts/day17_wadsworth1977_rate_audit.py`。声明WU定义只作为计算单位；原文没有给其完整WU公式，中央近似闭合不认证实际producer/IC/fitCov。
 
 本次`revises`旧Wiki整数spin/37fs/ns转录；`limits`Psign独断宇称、differentgatebranch和把先前装置校准当sameactualresponse。与[[ekstrom-1979-spin-alignment-attenuation-a61-a67]]、[[butler-1973-three-geli-compton-polarimeter]]、[[lifetime-strength-audit-165tm-136nd]]、[[linear-polarization-asymmetry]]相连。Butler是下一精确response原件入口，本段未预填其校准结果。
+
+
+Butler原件续查：[[butler-1973-three-geli-compton-polarimeter]] B73-D17-1–14新核Eq3/4确为a先修count、P=A/Q，旧Wiki非线性额外分母已纠。1973的a1%/Qfit/门/校准源明确，但当前仍没有本文1977实际job确认；不把此引用升级samehardware/response/Σattestation。原WA77-D17-5边界保持。

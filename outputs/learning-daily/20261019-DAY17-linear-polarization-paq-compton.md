@@ -6997,6 +6997,130 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "WA77-D17-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+      "anchor": "Day17原件自审：先效率修正，再以Q换算P",
+      "summary": "全文6页/6图/七行原表/5式新核，修Wiki额外分母，a/P/Q/门及33S依赖分层；旧flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-1"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-2"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-3"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-4"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-5"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-6"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-7"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-8"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-9"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-10"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-11"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-12"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-13"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "Butler1973原式：a先修计数，P随后除Q",
+      "summary": "长期保存原Eq3/4及calibration分层、Ex/Eg/point迁移边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-1"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-6"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-7"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "三GeLi原式的独立a与Q",
+      "summary": "a relativeeff和AD已知P→Q两层及共享Cov、33Scompanion约束。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-1"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-2"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "三GeLi原计数式与独立校准层",
+      "summary": "新source计数Jacobian设计不当原counts，独立a与同链Q/readiness写回。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-2"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-11"
+        },
+        {
+          "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+          "locator": "B73-D17-12"
+        }
+      ]
     }
   ]
 }
@@ -7300,3 +7424,14 @@ canonicalEK79/source与jointnote/linearpol/ledger/reportuniquewriteback/18primin
 AD/P实际还留1609/1997的5/2±，作者以τ推M2强度合理性排+；P不独断parity。三GeLi/AD共享monitor、各beam/target/90°或sourcebranch角色保持，actualQ/a/counts/threshold委托Butler1973，本篇不足认证其精确response。overlap/无shiftbounds/历史Williams差异与modelshellinterpretation分层。原布居式minus/abs literal边界保，不倒灌EK79error。
 
 canonicalWA77/linearpol/ledger/report单writeback/18prompt、script/input/result/scope/freeze齐。Decision`revises`Wiki转录、`limits`偏振符号与引用装置即可闭合response。verification064与publication050实际gate，原windowactive/17once/partial18；下一高信息Butler1973真实校准原件，不提前填结果或结束日程。
+
+
+### Checkpoint051：Butler1973原P/A/Q与额外分母纠正
+
+原6页/6图/1表七行/5式/16refs新全文text+visual，source前primed回忆中旧错保。Eq3 A=(aNperp−Nparallel)/(aNperp+Nparallel)、Eq4 P=A/Q，旧Wiki1−alphaA分母非原文，叙述已纠，旧B73-1–4/flags保，新14全needs_review。a≈1/1%由unpolarized56Co/66Ga；P由knownEM/AD和near-threshold制备预测，A同时测/共享monitor再Q，不七个独立P。
+
+七表A/P central复算与Q小舍入差保，Qprimepoint90/B.84/C0不refit；Cσ.005MeV^-1/Bσ.04/Cov未知。Ex2935/Eg967E1与Fig3的2935groundγ/P不同。印a2/a4裸pureE2point给Mg1.00672/C1.05104/33S2971 .76938对印.81保，不clip/替authorP重标Q；原finiteangle/constraint/Cov未取。backgroundimprovement对象/Compton门/511veto/meanξ85与point90区分，非retention/FOM。
+
+新声明design6000/4000/a1.01/Qfixed.44给A.204771/P.465389，count/efferror.009778/.004790，独立design合.010889；JacobianfiniteDiff/null/交换/scalecontrols过，不当实际计数/CI。33S11/2−依lowabsM、lifetime排M3及RB/CL合同，Psign不独断spin。WA77实际response依旧未认证。
+
+canonicalB73/Compton/linearpol/sharedcalnote/WA77回链与reportuniquewriteback/18priming、script/input/result/freeze/scope齐。Decision`revises`Wiki公式，`limits`同链P/Q独立性与Ex/Eg迁移。verification065/publication051实际gate，原windowactive/17once/partial18，不以本源完成日终。

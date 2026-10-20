@@ -1,0 +1,4 @@
+
+### Day17 checkpoint051：三GeLi原P/A/Q纠正
+
+B73新全文/七行校准与计数Jacobian核，纠旧Wiki额外分母，旧flags保。a独立层/同链P-Q/Ex-Eg与33Scompanion写回canonical，verification065/manifest051/H3发布，main / `Correct original three-crystal polarization response and calibration roles`，原windowactive/17once/partial18。

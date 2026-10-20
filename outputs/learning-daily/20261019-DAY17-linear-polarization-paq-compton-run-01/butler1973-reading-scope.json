@@ -1,0 +1,57 @@
+{
+  "actual_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "actual_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "tables": [
+    1
+  ],
+  "equations": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "references": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "no_actual_counts_or_rawtapes": true,
+  "source_literal_Eq4": "P=A/Q, no alpha denominator",
+  "primed_old_page_corrected_not_independent_blind_read": true
+}
