@@ -313,3 +313,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 平均峰面积作分母时的二倍约定
 
 [[ewan-1969-single-geli-polarimeter]] EW69-D17-1/2/7的Qraw=2A，纠到100%P后的Qcorr需再除2才是通常A/P；计数/百分数转换不改physicalP，不把rawQ叫P或把correctedQ当A。833mixedline不套pureE2source公式；其AD/响应/geometry/σ合同仍需回源。
+
+
+### 非正交响应的sum也依偏振
+
+[[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-1/2/4/6：eff校正移除pointunpoloffset不保证sum与P无关；0/60仍有A=QP/(1−QP/3)。完整反演与B73正交线性对象分开；extendedalpha若未独立固定，需two不同knownP或actual两channelresponse，不能用null+一标定点假装Q1/Q2都已测定。

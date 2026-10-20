@@ -1,0 +1,9 @@
+# 非正交真正的P相关分母：原件前回忆
+
+原Day17session09:24上海约336min，formal17once/partial18，原deadline不改。连续槽为B73原Eq4无额外分母与EW69计数约定；新槽选GR95四页nonorthogonal source，仅这一primary，不并开新card或GR97旧模型重跑。
+
+已priming旧WikiGR95：A=(Q3+Q2P)/(1+Q1P)，Q2名义sensitivity，nonorthogonalCLUSTER0/60/120、Geant3模型40/350keV阈值，M含eff/asymcorrected，旧GR95-1–3false/4true保。Day16GR97同MC的Q/eff/merit与当前Geant3无POL标准callpath的readiness已看，不当认证原95modifiedproducer。
+
+主动回忆：两个计数组从线性Stokes响应N_i=ε_i(I+r_iQ+s_iU)构比值时sum也可能依P；unpolarizedsource只能校offset/effratio，不能让P相关sum自动常数。正交对称时r_i=-r_j可令sum cancel，其他角通常不行。原Q1Q2Q3定义和efff必须逐式核；physicalP与polarimeterQ不变名不能混。更多pairs提高eff但同event的sharedCov及threshold/domain要核，不能只Q大便merit高。
+
+计划完整4页textvisual/实际eqfig/数值/参数/失败条件，保oldclaimsflags，新selfaudit待审。做一项原geometry代数/统计Jacobian设计或actualtablecrosscheck，区分模型与experiment，不新MC填时段，不从现publicGeant3反推原producer。让真实非线性来源与B73Wiki误式分开，而不是把一个形状的分母跨对象搬运。

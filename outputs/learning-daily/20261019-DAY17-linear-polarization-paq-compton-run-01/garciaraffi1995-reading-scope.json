@@ -1,0 +1,51 @@
+{
+  "actual_text_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "actual_visual_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "figures": [
+    1,
+    2,
+    3
+  ],
+  "equations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "tables": [],
+  "references": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "no_actual_Geant3_modifiedproducer_or_events": true,
+  "no_Fig3curve_digitization": true,
+  "Q3_is_zero_in_Eq10_point_setup": true,
+  "extended_Eq12_validity_is_author_assumption": true
+}

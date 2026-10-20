@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md": 13
+  },
+  "artifacts": [
+    {
+      "file": "garciaraffi1995-geometry-result.json",
+      "true_fields": [
+        "ok",
+        "inverse_orthogonal_zero_labelswap_null_controls",
+        "normalized_point_Q3_zero_not_generic_geometry_offset",
+        "extended_alpha_is_a_response_contract_not_guaranteed_by_angle_labels",
+        "not_actual_POL_Geant3_replay_or_experimental_merit",
+        "no_new_P_Q_counts_or_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

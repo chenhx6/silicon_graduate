@@ -2254,3 +2254,7 @@ TW70原16页核纠ψ82与R2231，θ0null/有限geometry/多观测信息增益与
 ### Day17 checkpoint053：单GeLi平均分母/百分数
 
 EW69原3页新核Qraw2A/corrected2A/P，literalP式对475不闭合保，mixed833不套pure式；旧flags保，新10待审。verification067/manifest053/H3发布，main / `Map single-crystal polarization normalization and preserve literal formula limits`，原windowactive/17once/partial18。
+
+### Day17 checkpoint054：真实非正交分母与校准识别性
+
+GR95原4页新核pointQ3zero/完整inverse、extendedalpha假设和smallPmerit，旧flags保，新12待审；canonical已写。verification068/manifest054/H3发布，main / `Audit nonorthogonal polarization denominators and calibration identifiability`，原windowactive/17once/partial18。

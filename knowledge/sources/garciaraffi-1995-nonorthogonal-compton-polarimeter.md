@@ -3,7 +3,7 @@ type: source
 title: "Non-orthogonal gamma-ray Compton polarimeters"
 aliases: ["Garcia-Raffi 1995 non-orthogonal polarimeter", "EUROBALL CLUSTER non-orthogonal polarimetry"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -55,7 +55,7 @@ tags: [non-orthogonal-polarimeter, EUROBALL, CLUSTER, Compton-scattering, detect
   \[
   A=\frac{Q_3+Q_2P}{1+Q_1P},
   \]
-  其中 `Q1,Q2,Q3` 由两个方向和 point-polarimeter sensitivity `Q0` 决定（PDF p.629，式 (7)-(11)）。正交或对称极限才退化为熟悉的线性 `A=QP`。
+  其中 `Q1,Q2` 由两个方向和pointQ0决定，原Eq10给Q3=0（printed629 Eqs7–11）。只有匹配归一/对称合同才可退为线性，详Day17补段。
 - 为方便使用，作者把 `Q=Q2` 作为 sensitivity，并写出 polarization-dependent effective factor `Q/(1+αQP)`；扩展 polarimeter 的 Q 需用 known-P transitions 校准或由等效正交装置估计（PDF p.629，式 (12)-(13)）。
 - Merit `M` 同时包含 efficiency、asymmetry correction 和 Q；小偏振近似下可用 `M=4f/(1+f)^2 εQ²` 比较不同非正交配置（PDF p.630，式 (14)-(15)）。
 
@@ -68,7 +68,7 @@ tags: [non-orthogonal-polarimeter, EUROBALL, CLUSTER, Compton-scattering, detect
 
 ## Summary
 
-该 Letter 把非正交 Compton polarimeter 的几何不对称显式写进 `A(P)` 关系，指出非正交配置会引入 polarization-dependent denominator 和 offset 项。对 EUROBALL CLUSTER，选择多个相邻晶体 pair 可弥补部分灵敏度损失；最终性能取决于 Q、coincidence efficiency、threshold 和 background。它为现代多晶体/跟踪阵列方法提供一个重要边界：测得的 count asymmetry 不能在非正交几何下直接用正交 `A=QP` 解释。
+该 Letter 把非正交 Compton polarimeter 的几何不对称显式写进 `A(P)` 关系，指出在原efficiency-normalized point配置中，Eq10的Q3恒为0；非正交可产生polarization-dependent denominator，而未校efficiency/其它response才可能另有offset。对 EUROBALL CLUSTER，选择多个相邻晶体 pair 可弥补部分灵敏度损失；最终性能取决于 Q、coincidence efficiency、threshold 和 background。它为现代多晶体/跟踪阵列方法提供一个重要边界：测得的 count asymmetry 不能在非正交几何下直接用正交 `A=QP` 解释。
 
 ## Experimental or Theoretical Setup
 
@@ -154,3 +154,27 @@ tags: [non-orthogonal-polarimeter, EUROBALL, CLUSTER, Compton-scattering, detect
 ## Non-source Notes and Follow-up
 
 - 下一步：将 GR95 的非正交响应边界加入 gamma-ray polarization project 的 evidence table，并继续 HS-010。
+
+
+## Day17原件自审：非正交分母与零偏置条件
+
+本session先冻primed回忆再新读4页/3图/15式/8refs，hash129ccca13b7e6ea0153b47e81a37d54832b4979eb6e649cc183822a9b76ff67a/394455bytes保持。旧GR95-1–4行/falsefalsefalsetrueflags保持，reviewunreviewed；新12条待审。原本就是theory/simulationletter，以下不新增实验或认证原modifiedGEANT3producer。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR95-D17-1 | 原P=(Iparallel−Iperp)/(sum)，Eq6先对两N除各efficiency再差/和，Eq7的一般ratio到Eq10给Q3=0（该normalizedpointsetup恒等）；非正交不是天然有offset。旧Wiki把offset当必然的叙述已收缩，未校eff/其它response另需合同。 | normalized-offset correction | direct | pp.628–629 Eqs1/6–10 | true |
+| GR95-D17-2 | pointθ90下Q0=a/(a²−a+1)、a=1/(1+E/mec²)，Q1=(sin²φ′−cos²φ)Q0、Q2=(cos²φ−cos²φ′)Q0。φ0/φ′60给Q1=−Q0/4、Q2=3Q0/4、alpha=−1/3，A=QP/(1−QP/3)，P=A/[Q(1+A/3)]。 | actual-geometry algebra | direct plus arithmetic | p.629 Eqs8–13 | true |
+| GR95-D17-3 | 本非正交的P相关sum使Eq12/13分母真实必要；与B73正交原P=A/Q不同，不能把一个分母跨对象搬运。正交sin²φ′=cos²φ令Q1=0，Q2可正/负/零，不能所有pair任称正Q。 | limiting-case and transfer-boundary | direct | p.629 following Eq11 and Eqs12–13 | true |
+| GR95-D17-4 | 作者对extendedpolarimeter沿Eq12仅称seemsreasonabletoassume，Q由knownP校准或同geometry正交估计。实际两extendedchannel的cos2响应未取得，alpha未被实测/全核证明固定为pointgeometry值，不能把单点Q校准当两响应参数独立识别。 | author-assumption and readiness | direct | p.629 following Eq12 | true |
+| GR95-D17-5 | 新独立pointKN计数组对原0/60几何在E1.368给Q0=.339091/Q=.254318，P±1时A=.277874/−.234444；裸A/Q给1.092625/−.921852，而完整inverse还原±1。orthogonal/null/labelswap/zeroQ控制过，非新MC或实际arraybias。 | Codex source-geometry exercise | derived conditional | p.629 Eqs3–13 | true |
+| GR95-D17-6 | 一般normalizedextendedrates n_i=1−q_iP产生Q1/Q2；若不预固定alpha，two known distinctnonzeroP从P/A=1/Q2+(Q1/Q2)P可辨两参数，一knownP不够，null只约offset。新正的responsecountercontrolalpha=−5/11不同point−1/3只是合同反例，不判原CLUSTER失效。 | calibration-identifiability design | derived | p.629 Eqs7/12–13 | true |
+| GR95-D17-7 | Fig2 actualN0为12/34/15/67四对，N60等价组为13/45/16/27/14/56/17/23八对；作者简单equaladjacentpair估f2、εnonrot=3εrot、Q=.75Q0，Eq15 merit比=3×(.75)²×8/9=1.5。不是实测12对独立Cov或任意事件sorting证明。 | actual-pair grouping and approximation | direct and arithmetic | p.630 Fig2 and Sec3 | true |
+| GR95-D17-8 | Eq14的finiteA计时量与Eq15smallP merit不同；原忽略peak/background依赖，ε定义为unpolarizedphoton总coincidenceeff，f为两组ε比。新literalEq14在1.368P±1给相对rotmerit1.57186/1.29496，不把1.5普推全P/含背景实际time。 | finite-P and denominator-boundary | direct plus conditional replay | p.630 Eqs14–15 | true |
+| GR95-D17-9 | Fig3是modifiedGEANT3含POL的模型：source距44cm、六γ输入.197/.423/.847/1.368/2.754/4.438MeV、twofold阈值40或350keV；Q/eff/merit共享同模拟，非六条实测knownP标定或独立三证据。actual修改Ref7为tobepublished，input/events/Cov未得。 | simulation-provenance | direct | pp.630–631 Fig3 and References6–7 | true |
+| GR95-D17-10 | higherthreshold在该模型增加Q但效率损失使merit变差；同solidangle与sectoredcoax比较约1.3MeV M近5倍、高能>2倍但Q在4.4仅约1/3，作者明确systematicasymmetry需控制。不能仅Q提升选cut或称含背景实验优势已证。 | counter-evidence to Q-only optimization | direct-model interpretation | pp.630–631 Fig3 discussion | true |
+| GR95-D17-11 | 当前publicGEANT3标准callpath无POL消费的既有Wiki核验与原95modifiedproducer不是同代码；本session只新读文和解析point设计，未用旧Day16MCchecks认证原Fig3或补真实response。 | code-version and independence boundary | source-mapped readiness | p.630 simulation paragraph; p.631 Ref7 | true |
+| GR95-D17-12 | 本sessionQ3=0/0–60inverse/finiteP与smallP对照修订Wiki泛offset，保完整P/A/Q/eff合同；无newexperimentalP/Q/CI/merit/模式推断。 | knowledge-impact and limits | synthesis | Eqs6–15; Fig2 | true |
+
+[原geometry/pairedgroups输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/garciaraffi1995-geometry-contract.json)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/garciaraffi1995-geometry-result.json)，script `system/scripts/day17_gr95_nonorthogonal_audit.py`。ε0=1/ε60=2是原simplepairratio的声明pointdesign，原actualcounts/eff/Cov未取得；rawunpoloffset1/3经eff归一消失，不以此模拟真实仪器偏置。
+
+这也解释B73旧误式为何不能凭形状迁移：Eq13的1−alphaA是此nonorthogonal模型反演的一部分，B73实际正交Eq4并无此项。[[compton-polarimetry]]/[[linear-polarization-asymmetry]]/[[polarimetry-shared-calibration-count-design]]分别记录对象；本页不修raw或旧reviewflags。

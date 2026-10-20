@@ -7349,6 +7349,118 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EW69-D17-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+      "anchor": "Day17原件自审：非正交分母与零偏置条件",
+      "summary": "4页/3图/15式原件新核，Q3point0/完整inverse/extendedalpha假设与sameMCmerit界，旧flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-1"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-3"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-4"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-5"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-6"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-7"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-8"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-9"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-10"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-11"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "非正交的真实分母与Q3零条件",
+      "summary": "正交Wiki错项与非正交真实sum/P分母分开，extended校准识别性保持。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-1"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-4"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "非正交响应的sum也依偏振",
+      "summary": "eff-null不消P相关sum，两响应参数需匹配独立标尺。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "非正交sum与校准可识别性",
+      "summary": "长期存两个channelkernels/knownP/有限Pmerit合同，保actualresponse/Cov缺口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-1"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-6"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-8"
+        }
+      ]
     }
   ]
 }
@@ -7681,3 +7793,12 @@ Ewan1969原3页/1图/2表/2定义式/10refs新全文textvisual，oldpriming先�
 原printedE2P式对475(a2.24,a4−.05)给2.234742，与新读TW70pureE2point式.381713不闭合。条件三条E2重算sourceQcorr约14.41/15.36/15.34%，只诊断不替原job/曲线digitize/officialerratum。833Qraw−3.4(1.3)%→A−.017(.0065)，不给P/δ；初工具曾alsoevaluatepure式，最终mixed833显式null、scope-correction记录保。低能photoelectricfraction/transport/Cov仍未得；原16cmorientation correction<1%仅其域，新较大detector不混旧calibration。
 
 canonicalEW69/Compton/linearpol/sharedcalnote与唯一writeback/18priming联，script/contract/result/identity/scope/freezes齐。Decision`revises`Qcomparison分母习惯、`limits`letterliteralP式/单sign判δ，verification067/publication053实际gate。原windowactive/17once/partial18，不日终或开其它课程。
+
+
+### Checkpoint054：真实非正交分母与校准识别性
+
+GR95原4页/3图/15式/8refs新textvisual，before/练习freeze带oldGR97/GEANT3priming。旧GR95-1–4/flags保，新12待审。原pointQ3=0修Wiki泛offset叙述，但0/60的P相关sum真实给Q=.75Q0/alpha−1/3、A=QP/(1−QP/3)；不是B73正交原式。extended沿Eq12是作者合理假设，未知channelkernels时alpha也未测。
+
+新原geometrypoint设计在1.368 P±1给A.277874/−.234444，完整inverse回±1，错线性A/Q为1.092625/−.921852。null/orthogonal/zeroQ/swap/两knownP线性化controls过，no新MC。四/八pairs/f2/ε3simplemerit1.5限smallP，literalEq14有限P±1比1.57186/1.29496；只模型source公式重放非实验。两extendedkernel正响应countercontrol仅说明pointalpha不由anglelabels保证，不判实际CLUSTER错误。
+
+原Fig3同modifiedGEANT3/44cm/6γ/40或350keV，Q/eff/M非独立实验；高threshold Q升但M降，actualproducer/response/Σ缺。canonicalGR95/Compton/linearpol/sharedcalnote/唯一writeback/18priming及script/input/result/scope/freeze齐。Decision`revises`泛offset、`limits`一knownP就认extended两响应已知及Qonly优化。verification068/publication054实际gate，原windowactive/17once/partial18，不能本source饱和就日终。

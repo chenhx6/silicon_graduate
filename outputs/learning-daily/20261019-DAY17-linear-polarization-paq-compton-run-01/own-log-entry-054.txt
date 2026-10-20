@@ -1,0 +1,4 @@
+
+### Day17 checkpoint054：真实非正交分母与校准识别性
+
+GR95原4页新核pointQ3zero/完整inverse、extendedalpha假设和smallPmerit，旧flags保，新12待审；canonical已写。verification068/manifest054/H3发布，main / `Audit nonorthogonal polarization denominators and calibration identifiability`，原windowactive/17once/partial18。

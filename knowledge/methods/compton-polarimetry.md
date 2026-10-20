@@ -468,3 +468,10 @@ Table1 Ex2935的E1光子Eg967与Fig3同母态2935groundγ不同P，不把Ex作ca
 [[ewan-1969-single-geli-polarimeter]] EW69-D17-1–10原letter3页/表核：Qraw=(difference)/(averagepeak)=2A、Qcorr=2A/P；同observable改通常A/P需除2，847原15.7%对应.0785，4.43MeV6.4%对应.032，不能当detector突然多2倍灵敏度或迁B73Q。这里N为单晶转动两次fullpeak，不是clover两个scatterplane。
 
 原p353P公式对本表475给>1，与TW70pureE2point式有literal不闭合，保原式/companionreport缺口，条件重算不替作者P/Q。833负Qraw也不是P测值；低能photoelectric全能峰稀释和16cmorientation接受都属于该装置，不能用曲线倒推fraction/Σ或仅凭sign指定δ/Jπ。
+
+
+## 非正交的真实分母与Q3零条件
+
+[[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-1–12新4页核：原eff-normalizedpointEq10的Q3=0，非正交不必有unpolarizedoffset；φ0/60的Q=.75Q0、alpha−1/3给A=QP/(1−QP/3)，确须完整inverse。与B73原P=A/Q分开，不能以删除Wiki错分母为由抹掉此真实非正交项。
+
+原extendedEq12延拓是作者合理假设，不是actualchannelcos2kernel已验证；alpha未知时一knownP不能分Q1/Q2，two distinctnonzeroP或fullresponse才补识别性。Fig2四/八pair、f2/ε3倍给smallPmerit1.5只simplegeometry，Fig3Q/eff/M共享modifiedGEANT3且threshold升Q降M，不迁当前public标准code/experimentalarray，原Σ缺。

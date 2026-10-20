@@ -295,3 +295,10 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 ## 单晶峰面积与平均分母
 
 [[ewan-1969-single-geli-polarimeter]] EW69-D17-1/2/3/7明确samecrystal旋转的peakcount差除average与常用差除sum有2倍；correctedQ和rawQ/P不同列。表四点映成A/P .0785/.052/.063/.032仅同合同，不当新校准测量；833A=−.017不是P，knownQ833/Σ未得。先核分母和orientationobservable，再讨论效率或敏感度比较。
+
+
+## 非正交sum与校准可识别性
+
+[[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-1/2/6/8的normalizedpointQ3=0，而P相关sum留下非线性；原φ0/60 alpha−1/3。一般两channelcos2kernels若不共knowngeometryfactor，Q1/Q2需两个独立knownP斜率信息；unpolarizednull只校offset/eff、一knownP仅一约束。原extended沿pointalpha为作者假设，actualresponse/Σ未取得，不用新point例认证CLUSTER。
+
+原M=4f/(1+f)² εQ²为smallP/忽背景，finiteA Eq14和P符号相关；simplepair3/2merit不是所有P/实际sensitivity优化保证。与[[butler-1973-three-geli-compton-polarimeter]]原正交P=A/Q和[[ewan-1969-single-geli-polarimeter]]average分母2倍约定是三个不同合同。

@@ -200,3 +200,6 @@ Day17checkpoint052 priming：Twin1970原16页/9图/2表新核，旧ψ82/emission
 
 
 Day17checkpoint053 priming：EW69原3页/两表新核Qraw2A、Qcorr2A/P，普通A/P映.0785/.052/.063/.032；rawQ不是P。literalp353E2式给Ru475P>2，与TW70pure式有边界，不自改原文/造erratum。833mixed不套pureE2，低能photoelectricfraction/transport/Σ缺，原较大detector与旧cal分开。
+
+
+Day17checkpoint054 priming：GR95原4页/3图/15式新核pointQ3=0，0/60真实非线性A=QP/(1−QP/3)不移B73；extendedalpha是作者假设/actual两kernel未知。两knownP才可分Q1/Q2，null只校offset/eff。f/ε/unpol分母与smallPmerit1.5、Fig3samePOLmodifiedMC/threshold边界保，不拿旧publicGEANT3认证原producer。

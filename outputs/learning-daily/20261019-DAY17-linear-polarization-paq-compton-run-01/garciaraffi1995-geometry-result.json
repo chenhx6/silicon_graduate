@@ -1,0 +1,179 @@
+{
+  "at": "2026-10-20T01:27:19.075228+00:00",
+  "script_sha256": "9836f2a963d5626314542f6b175528a7baea516965ac2bf932c2f93b543832f6",
+  "contract_sha256": "6fd81e451f5c2601a7b2053266ac75e97a56d4b73ca39ade5d4879643b896139",
+  "point_geometry_results": [
+    {
+      "energy_MeV": 1.368,
+      "point_Q0": 0.3390908726816578,
+      "point_Q1": -0.08477271817041444,
+      "point_Q2": 0.25431815451124334,
+      "point_Q3": 0,
+      "alpha_point": -0.3333333333333333,
+      "samples": [
+        {
+          "P": -1,
+          "A": -0.23444372286590887,
+          "inverse_P": -0.9999999999999999,
+          "incorrect_linear_P_AoverQ": -0.9218520923780302,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.294958607992539
+        },
+        {
+          "P": -0.5,
+          "A": -0.12198843178187384,
+          "inverse_P": -0.4999999999999999,
+          "incorrect_linear_P_AoverQ": -0.4796685947030209,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.4187533405929895
+        },
+        {
+          "P": 0,
+          "A": 0.0,
+          "inverse_P": 0.0,
+          "incorrect_linear_P_AoverQ": 0.0,
+          "finite_A_merit_ratio_nonorth_over_rotated": null
+        },
+        {
+          "P": 0.5,
+          "A": 0.13278745396123284,
+          "inverse_P": 0.4999999999999998,
+          "incorrect_linear_P_AoverQ": 0.5221312423268719,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.5486737148938086
+        },
+        {
+          "P": 1,
+          "A": 0.2778743155501751,
+          "inverse_P": 0.9999999999999998,
+          "incorrect_linear_P_AoverQ": 1.0926247718500581,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.5718574859669898
+        }
+      ],
+      "two_known_P_recovery_Q1_Q2": [
+        -0.08477271817041412,
+        0.2543181545112433
+      ],
+      "declared_alternative_extended_kernels": {
+        "k0": 0.27127269814532623,
+        "k60": -0.10172726180449733,
+        "alpha_effective": -0.45454545454545464,
+        "boundary": "conditional response countercontrol, not actual CLUSTER prediction"
+      }
+    },
+    {
+      "energy_MeV": 4.438,
+      "point_Q0": 0.11378891390538302,
+      "point_Q1": -0.028447228476345756,
+      "point_Q2": 0.08534168542903726,
+      "point_Q3": 0,
+      "alpha_point": -0.3333333333333333,
+      "samples": [
+        {
+          "P": -1,
+          "A": -0.0829811030318704,
+          "inverse_P": -0.9999999999999993,
+          "incorrect_linear_P_AoverQ": -0.9723396323227091,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.4496065823037483
+        },
+        {
+          "P": -0.5,
+          "A": -0.04207242083055866,
+          "inverse_P": -0.4999999999999996,
+          "incorrect_linear_P_AoverQ": -0.49298792986157314,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.476790464470729
+        },
+        {
+          "P": 0,
+          "A": 0.0,
+          "inverse_P": 0.0,
+          "incorrect_linear_P_AoverQ": 0.0,
+          "finite_A_merit_ratio_nonorth_over_rotated": null
+        },
+        {
+          "P": 0.5,
+          "A": 0.04328653367116493,
+          "inverse_P": 0.4999999999999996,
+          "incorrect_linear_P_AoverQ": 0.5072144222785271,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.519564984559382
+        },
+        {
+          "P": 1,
+          "A": 0.08784050432504936,
+          "inverse_P": 0.9999999999999997,
+          "incorrect_linear_P_AoverQ": 1.0292801681083497,
+          "finite_A_merit_ratio_nonorth_over_rotated": 1.5357797068740784
+        }
+      ],
+      "two_known_P_recovery_Q1_Q2": [
+        -0.02844722847634578,
+        0.0853416854290372
+      ],
+      "declared_alternative_extended_kernels": {
+        "k0": 0.09103113112430643,
+        "k60": -0.03413667417161491,
+        "alpha_effective": -0.4545454545454546,
+        "boundary": "conditional response countercontrol, not actual CLUSTER prediction"
+      }
+    }
+  ],
+  "uncorrected_efficiency_only_null_offset_for_f2": 0.3333333333333333,
+  "simple_source_smallP_merit_ratio": 1.5,
+  "source_pair_groups": {
+    "phi0": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "phi60or120": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "inverse_orthogonal_zero_labelswap_null_controls": true,
+  "normalized_point_Q3_zero_not_generic_geometry_offset": true,
+  "extended_alpha_is_a_response_contract_not_guaranteed_by_angle_labels": true,
+  "not_actual_POL_Geant3_replay_or_experimental_merit": true,
+  "no_new_P_Q_counts_or_CI": true,
+  "ok": true
+}
