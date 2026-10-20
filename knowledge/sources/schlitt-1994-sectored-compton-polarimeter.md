@@ -3,7 +3,7 @@ type: source
 title: "Schlitt et al. 1994 - Sectored Ge Compton polarimeter for parity assignments"
 aliases: [Schlitt 1994 sectored Ge polarimeter]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper-and-application
@@ -43,8 +43,8 @@ tags: [sectored-Ge, Compton-polarimeter, parity, NRF, polarization]
 ## Key Results
 
 - A true coaxial p-type Ge crystal with four insulated outer sectors provides horizontal/vertical Compton coincidences while the core measures total incident energy; apparatus asymmetry is below about 1% at 2–4 MeV (PDF pp.417–420, Figs.5–6).
-- Calibrated sensitivity is about 20% at 0.5 MeV and 9.5% at 4.4 MeV, with `Q(E)=γCE(θ=90°)(a+bE)` and measured `a=0.304(16)`, `b=(8.9±0.8)×10^-5 keV^-1` for 150-keV thresholds (PDF pp.418–423, Table 3, Fig.11).
-- The polarimeter has about 25% total efficiency, ≈25% coincidence efficiency near 3 MeV and a figure of merit comparable to four-crystal systems; the direct core-energy signal avoids summing-energy resolution loss (PDF pp.419–425, Table 4).
+- 原150-keV门Table3的4438-keV Q为7.93(.31)%、Eq25拟合约7.954%；Table4总述约9.5%@4.4MeV未明同一threshold，不能合并成150keV值。原fit a=.304(.016)、b=8.9(.8)×10^-5keV^-1，Cov未给，见SC94-D17-5/6。
+- 原coinceff约25%@3MeV/260keV门，分母是detectedcorefullpeakNs；merit另用绝对εcoinc(25cm)。Table4“total25%@1332”不等已给25cm绝对peakprobability，未在原件明确其reference标准，不拿它替merit分母。coreenergy直接给入射总能，见SC94-D17-2/3/8。
 - NRF `162Dy` spectra demonstrate parity assignments: positive azimuthal asymmetry corresponds to M1/positive parity and negative to E1/negative parity, with weakly polarized lines suppressed in the difference spectrum (PDF pp.423–425, Figs.15–16).
 
 ## Key Results
@@ -87,3 +87,31 @@ Schlitt *et al.* establish a sectored-Ge polarimeter optimized for photon-scatte
 ## Extracted Pages
 
 - Methods: [[compton-polarimetry]], [[linear-polarization-asymmetry]]。
+
+
+## Day17原件自审：实测校准的门与绝对效率分母
+
+本session先冻primed回忆，新读完整11页/18图/4表/30式/33refs text+visual，hashd23380e6a8bea4be9e77c845ba125f3b934765744bad6a1f300a3301aae07684/868962bytes保持。旧SC94-1–3行/needs_reviewtrue与reviewunreviewed保持；新16条待审，不称human-reviewed，不以GR95重复引用新增实验。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SC94-D17-1 | 原polarimeter是truecoaxialpGe、fouroutersector+core，core直接给fullE；H/V Eqs18/19为指定两sector触发且另两否决的布尔组合，不是任意两扇区sum。原aV−H/sum式10、P=ε/Q的计数对象需sameeventselection。 | actual-count and hardware contract | direct | pp.419–420 Fig5/Eqs18–19 | true |
+| SC94-D17-2 | relativecoinceff Eq22=(V+H)/Ns，Ns为无coinc条件的corefullpeakdetectedcounts；约25%@3MeV/260keV门，150/260/370各不同。它不是incidentphoton绝对概率，不能裸入F或与GR95ε同名便比较。 | efficiency-denominator correction | direct | pp.420–421 Eq22/Fig7 | true |
+| SC94-D17-3 | meritEq26明确F=ε_abs_coinc Q²，Fig13数值用source距25cm/260keV门；ε_abs_coinc=ε_abs_corefullpeak×ε_relcoinc需同门。Table4总ε25%@1332未在原文详给reference标准，不能自动当25cmabsolutepeakfraction。 | absolute-merit input boundary | direct and algebra | pp.423–425 Eq26/Fig13/Table4 | true |
+| SC94-D17-4 | unpolarized56Co测a=H/V=.9899±.0052，Fig6门260keV、energy/threshold内近常数；若漏a修正，按中心算rawnull A=(1−a)/(1+a)约.00508而非1−a。作者online可近a1是实用判断，不取消精密分析的共享校准Cov。 | actual-null and normalization boundary | direct plus arithmetic | p.420 Eqs20–21/Fig6 | true |
+| SC94-D17-5 | Table3六点均150keV门，ε/P重算Q为21.2245/14.6263/11.7162/10.8485/7.9059/7.9293%，近印Q而不新拟合；作者ε/P/Q同chain非三份独立测量，rawfitCov未给。 | actual-calibration arithmetic | derived | p.423 Table3 | true |
+| SC94-D17-6 | 原Eq25 a=.304±.016、b=8.9±.8×10^-5keV^-1仅150keV门，Eq16/17核4438nominalQ7.95364%，Table3为7.93(.31)%；Table4约9.5%@4.4未明同门。旧Wiki合并150门/9.5已纠，不改原总述或造curveCI。 | threshold-version correction | direct plus arithmetic | p.423 Eqs25/Table3; p.425 Table4 | true |
+| SC94-D17-7 | 106Pd622tag→512probe的0–2–0在90°nominalP1；正文报ε/Q20.8(2.0)%，Table3实际用P98(1)%得Q21.2(2.0)%。180°difference近null且作者说明finiteNaIacceptance；本篇没有数值P98校正recipe，不能把nominal1和actualTableinput硬当同值。 | actual-reference gate and finite-geometry boundary | direct | pp.421–423 Fig8/Sec4.3.1/Table3 | true |
+| SC94-D17-8 | 150门calibrationP部分引用B73 Ref27的Mg1368/C4438 AD/P，故装置测量独立但核偏振标尺共源；Si1778为不同p,p'energy/AD等，不能与B73/EW69同γlabel自动视同P。实际source/thesiscalibrationRefs25/26未取得body。 | source-independence and calibrator identity | direct | p.422 Table2; p.426 Refs25–27 | true |
+| SC94-D17-9 | highersector门Q升但εrel降，实测Fig14F在此域近constant而非总更优；GR95用此实验作模拟比较仍须sameenergy/solidangle/absoluteε/门。原BGOshield在near future是预期而非本文已测新F增益。 | threshold and comparison counterevidence | direct | pp.423–425 Figs12–14/Summary | true |
+| SC94-D17-10 | NRFTable1的E1/M1 sign只pureelastic0→1→0、unpolarizedincident、90°reactionplane及校准Q合同，E2 0→2→0也P+1但需已知L。DygroundM1positive/E1negative，不能移fusionPsign直接指定δ/Jπ/模式。 | necessary-NRF assumptions | direct | p.417 Table1; pp.424–425 Figs15–16 | true |
+| SC94-D17-11 | Dy差谱27Al(P≈1.5%)消失、inelastic2+branch减弱，是低P/选择role而非无该线；Fig16caption把E1也印ε>0，与正文/图下面E1负号不闭合，保literal不改data或判实验矛盾。 | null-companion and caption-boundary | direct | pp.424–425 Figs15–16 | true |
+| SC94-D17-12 | Appendix两detector方案是作者分析calibration后才提出，未在本次实验使用；R是AD强度比Wθ1/Wθ2，不是TW70polarimeterR或ComptonQ，Eq30是其近似函数，不能冒actual校准数据。 | proposal-versus-experiment and notation | direct | pp.425–426 Appendix/Eqs27–30 | true |
+| SC94-D17-13 | 原Eq28印35(P+3)cos⁴θ−3(7P+35)cos²θ=0，无常数项；literalP0角0/90，P1角18.435/90，不能闭quoted23.5–28.6/66.5–68.9。原式保留不称officialerratum。 | source-literal formula failure | direct plus calculation | p.426 Eq28 | true |
+| SC94-D17-14 | 新从Eq23/24或27对a2微分独立得同多项式+14=0，P0角23.4556/66.5444、P1角28.6475/68.8790且fixedP不同a2交点相同，内部闭合原quoted域。此derivedcandidate不是原producer/已建方法，formalWfamily不自动是实测正population。 | independent symbolic consistency test | derived | p.426 Eqs27–28 | true |
+| SC94-D17-15 | derived交点的R在P.5为1.306667、P1为1.566727，对Eq30近似1.305525/1.5649有小差，保approx而不调角。声明54mmface/250mm距的solidanglefraction≈.002891只unituppercontrol，非本文absoluteeff；不由total25%造F。 | approximation and efficiency sanity control | derived conditional | p.419 Fig5; p.426 Eqs29–30 | true |
+| SC94-D17-16 | fullsource新算术与附录核不替原counts/finitegeometrycalibration/Σ，未新测P/Q/merit/NRFparity或CI；source“Scissors/两phonon”解释与observedsign分层。 | readiness and knowledge-impact | synthesis of scopes | pp.423–426 applications/conclusion | true |
+
+[六点/分母/附录输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schlitt1994-calibration-contract.json)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schlitt1994-calibration-result.json)，script `system/scripts/day17_schlitt1994_calibration_audit.py`。附录constant14由符号微分/固定P相交测试给出，不覆写raw Eq28；不把源打印failure当原实测校准全失效。
+
+本次`revises`旧Wiki阈值/Q和eff分母合并，`limits`NRFsign迁移/同标尺重复信用/附录作已测结果；[[compton-polarimetry]]、[[linear-polarization-asymmetry]]、[[polarimetry-shared-calibration-count-design]]与[[garciaraffi-1995-nonorthogonal-compton-polarimeter]]保sameinput比较。

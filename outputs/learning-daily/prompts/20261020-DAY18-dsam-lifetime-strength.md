@@ -203,3 +203,9 @@ Day17checkpoint053 priming：EW69原3页/两表新核Qraw2A、Qcorr2A/P，普通
 
 
 Day17checkpoint054 priming：GR95原4页/3图/15式新核pointQ3=0，0/60真实非线性A=QP/(1−QP/3)不移B73；extendedalpha是作者假设/actual两kernel未知。两knownP才可分Q1/Q2，null只校offset/eff。f/ε/unpol分母与smallPmerit1.5、Fig3samePOLmodifiedMC/threshold边界保，不拿旧publicGEANT3认证原producer。
+
+
+Day17checkpoint055 priming：SC94原11页/18图/4表/30式新核，relativecoinc分母coreNs与Fabsolute25cm分开，150门4438Q7.93%非Table4未标门9.5%。Pdtag/P98与nominal1、共B73AD/P源/NRFsign前提保；附录proposal Eq28literal不闭角域，Eq27微分+14只一致candidate不修raw/造erratum。actualΣ/absolutecoreeff/校准recipe缺。
+
+
+Day17checkpoint055补核更正053 priming：EW69印式可严格表示r=(1+p)/(1−p)，>1不代表boundeddegreefailure。原本sessionfailure解释已撤回，sourceD17-5修文/11–12待审、历史快照保；作者意图/Ref9body未核，不造erratum。pureE2 W0/W90=1+p是另一角比，不能与electricvectorratio混；Qraw2A归一不变。

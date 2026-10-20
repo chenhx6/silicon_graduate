@@ -97,7 +97,7 @@ Ewan *et al.* demonstrate that even a single planar Ge(Li) can provide useful po
 | EW69-D17-2 | Table1 rawQ百分数8.3/9.7/10.2/6.4，correctedQ15.7/10.4/12.6/6.4；隐含P=.528662/.932692/.809524/1.000，仅同链派生不是新增P测量。通常A/P=.0785/.0520/.0630/.0320，各sourceσ同样除200，不重造Cov或CI。 | Codex actual-calibration arithmetic | derived | p.353 Table1 | true |
 | EW69-D17-3 | 原planeGeLi4×2.5×.35cm³、16cm距，parallel/perp以crystalplane相对reactionplane定义；两orientation角接受不同，作者在此几何AD校正<1%inQ。不能转任意dist/array或当background/eff误差都<1%。 | geometry and count-role | direct | pp.352–353 Fig1 and orientation paragraph | true |
 | EW69-D17-4 | 全能峰同时含Comptonscatter后吸收与无偏振asymmetry的photoelectric贡献，原theorycurve只前者，<约1MeV时差大；475是Coulomb已知2+→0+reference用同reactionAD/asymmetry标低能，不是独立的MC验证。photoelectricfraction/transport输入未给。 | response-dilution and reference-dependence | direct | pp.353–354 Fig1 discussion | true |
-| EW69-D17-5 | 原p353偏振式print P90=(1+a2+a4)/(1−2a2−a4/4)，对本表475(.24,−.05)给2.234742超物理范围；与[[twin-1970-polarization-angular-correlation-40k]] p486pureE2point式给.381713不闭合。保literal/定义边界、不替原式或称officialerratum，原companionreport未得。 | source-literal and cross-source formula boundary | direct plus arithmetic | p.353 printed P90 formula; Table2 475 row | true |
+| EW69-D17-5 | 原p353印式对475给2.234742。随后EW69-D17-11精确核该式为强度比(1+p)/(1−p)，映有界p=.381713；此前把>1称超物理范围/公式failure的解释撤回。原P命名未明确，不将代数比值解释冒作已证作者意图或officialerratum。 | revised-convention interpretation | direct plus exact algebra | p.353 printed P90 formula; Table2 475 row | true |
 | EW69-D17-6 | 在明确用TW70pureE2point合同的条件下，475/631/766的P90=.381713/.462110/.482389，代本sourceQraw得correctedEWQ约14.4087/15.3643/15.3403%，相应A/P约.07204/.07682/.07670；不是作者原job/新实验Q，不digitize图曲线或推σ。 | conditional cross-source exercise | derived | p.353 Table2 475/631/766 rows | true |
 | EW69-D17-7 | 833的−3.4±1.3%是sourceQraw=2A，普通A=−.017±.0065而非physicalP；作者由非零偏振及weakAD提出E1+M2或M1+E2两候选。未得matchingQ833/原Cov/levelcompanion，不新定δ/Jπ或套pureE2公式。 | observable versus interpretation | direct and algebraic | pp.353–354 Table2 833 row | true |
 | EW69-D17-8 | Table1校准为p,p'四条不同resonance/target：Fe3.145MeV/thick、Mg2.40/25µg/cm²、Si3.095/30µg/cm²、C5.375/200µg/cm²。与B73同γ能量不等同布居/P或实验谱系；校准ADcoeff未在Table1给，不借后文P强配。 | calibration-input identity | direct | p.353 Table1 | true |
@@ -106,4 +106,24 @@ Ewan *et al.* demonstrate that even a single planar Ge(Li) can provide useful po
 
 [四校准/四Ru输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ewan1969-calibration-contract.json)与[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ewan1969-calibration-result.json)，script `system/scripts/day17_ewan1969_convention_audit.py`。初诊断曾给833也算pure式（toolstdout保），最终显式设为null；不用于新claims，见scope-correctionreceipt。
 
-本次`revises`跨文Q数值比较的分母假设，`limits`原letter偏振式字面可用性及只由Qsign定δ；[[compton-polarimetry]]/[[linear-polarization-asymmetry]]保matchingcount/knownP/energygeometry。原Qcalc和actualpolarization不是同列，物理P与方法归一分开。
+本次`revises`跨文Q数值比较的分母假设；后续精确代数撤回原“P>1即公式failure”解释，原式可表示强度比。`limits`未定命名便套有界范围及只由Qsign定δ；[[compton-polarimetry]]/[[linear-polarization-asymmetry]]保matchingcount/knownP/energygeometry。原Qcalc和actualpolarization不是同列，物理P与方法归一分开。
+
+
+## Day17再审：撤回把强度比判为有界偏振度的failure
+
+对照[[twin-1970-polarization-angular-correlation-40k]] TW70-D17-7的原pureE2式及[[schlitt-1994-sectored-compton-polarimeter]] Eq23/24后，本session继续作精确符号桥接，发现EW69印式并非必须违反物理。设TW70/SC94的有界pureE2偏振度为p，则
+
+\[
+p=\frac{\frac32a_2+\frac58a_4}{1-\frac12a_2+\frac38a_4},\quad
+r_{EW}=\frac{1+a_2+a_4}{1-2a_2-a_4/4}
+       =\frac{1+p}{1-p},\quad p=\frac{r_{EW}-1}{r_{EW}+1}.
+\]
+
+原EW式可严格解释为`Jparallel/Jperp`；例如475的r=2.234742映p=.381713，与TW70式完全一致。**撤回本session checkpoint053把>1直接叫“公式failure”的判断**，EW69-D17-5已定向修订，needs_review仍true；原历史版本/result快照保，不改raw。本文没有显式把该P定义为这一强度比，原Ref9书章body未得，所以代数自洽解释不升级作者意图已证，也不声称官方勘误。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| EW69-D17-11 | 精确sympy桥证明印rEW=(1+p)/(1−p)，由(r−1)/(r+1)回TW70pureE2有界p；Ru475/631/766逐点相同。r>1对强度比允许，旧“>1物理failure”解释撤回，不把名义比值当实验degree。 | Codex belief revision / convention bridge | exact-derived | p.353 printed P90 formula | true |
+| EW69-D17-12 | 同pureE2/point/已归一AD系数有W0/W90=1+p；它是两发射角强度比，不等rEW的两电矢量强度比。finiteacceptance需积分I/Q与同transition/门，mixed含interference不由此解δ；未实施新两角校准或给新P/Q/CI。 | observable-dictionary and transfer-boundary | derived | p.353 P2/P4-coefficient definition | true |
+
+[修订的精确桥](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/polarization-ratio-degree-result.json)，script `system/scripts/day17_polarization_ratio_bridge.py`。旧EW69result的“formula_failure”布尔只在历史快照`ewan1969-calibration-result-before-ratio-audit.json`保，当前脚本/结果改用ratio字段与撤回标记；旧Git版本可恢复初计算，不把当时mistakeninterpretation沿用。

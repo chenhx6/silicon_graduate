@@ -1,0 +1,102 @@
+{
+  "source": "SC94 Tables2/3/Eqs16/25/26/27/28 printed422\u2013426",
+  "threshold_keV": 150,
+  "columns": [
+    "nucleus",
+    "Eg_keV",
+    "epsilon_percent",
+    "sigmaepsilon_percent",
+    "P_percent",
+    "sigmaP_percent",
+    "Q_percent",
+    "sigmaQ_percent"
+  ],
+  "calibration_rows": [
+    [
+      "106Pd",
+      512,
+      20.8,
+      2.0,
+      98.0,
+      1.0,
+      21.2,
+      2.0
+    ],
+    [
+      "24Mg",
+      1368,
+      14.48,
+      0.29,
+      99.0,
+      1.0,
+      14.63,
+      0.33
+    ],
+    [
+      "28Si",
+      1778,
+      8.67,
+      0.29,
+      74.0,
+      4.0,
+      11.72,
+      0.74
+    ],
+    [
+      "24Mg",
+      2754,
+      7.16,
+      0.81,
+      66.0,
+      6.0,
+      10.8,
+      1.6
+    ],
+    [
+      "24Mg",
+      4238,
+      6.72,
+      0.35,
+      85.0,
+      4.0,
+      7.9,
+      0.56
+    ],
+    [
+      "12C",
+      4438,
+      7.85,
+      0.29,
+      99.0,
+      1.0,
+      7.93,
+      0.31
+    ]
+  ],
+  "fit_a": 0.304,
+  "fit_sigma_a": 0.016,
+  "fit_b_per_keV": 8.9e-05,
+  "fit_sigma_b_per_keV": 8e-06,
+  "unknown_ab_covariance": true,
+  "apparatus_a": 0.9899,
+  "apparatus_sigma_a": 0.0052,
+  "apparatus_a_figure_threshold_keV": 260,
+  "relative_coin_eff_at3000keV_thr260": 0.25,
+  "merit_distance_cm": 25,
+  "declared_geometry_upper_bound_only": {
+    "front_face_diameter_mm": 54,
+    "source_face_distance_mm": 250
+  },
+  "appendix_P_values": [
+    0,
+    0.5,
+    1.0
+  ],
+  "appendix_a2_values": [
+    0.3,
+    0.5
+  ],
+  "literal_Eq28_constant": 0,
+  "derived_consistency_constant_candidate": 14,
+  "not_actual_P_calibration_or_official_erratum": true
+}

@@ -1,0 +1,131 @@
+{
+  "at": "2026-10-20T01:39:31.716898+00:00",
+  "script_sha256": "e8cb23119c9a23ace1f5757496a91a1c370b1523a8b629f630222c9e103abe81",
+  "contract_sha256": "e6f8aa1997a826dca289e44e96e6db092aac2f252564fe697daa55c3af60f3e6",
+  "actual_calibration_rows": [
+    {
+      "identity": [
+        "106Pd",
+        512
+      ],
+      "Q_replayed_percent": 21.224489795918366,
+      "reported_Q_percent": 21.2,
+      "conditional_diagonal_sigma_Q_percent": 2.0522759627166693,
+      "Q_nominal_printed_fit_percent": 23.281721379192092,
+      "fit_comparison_not_new_fit_or_independent_measurement": true
+    },
+    {
+      "identity": [
+        "24Mg",
+        1368
+      ],
+      "Q_replayed_percent": 14.626262626262626,
+      "reported_Q_percent": 14.63,
+      "conditional_diagonal_sigma_Q_percent": 0.32807725628961487,
+      "Q_nominal_printed_fit_percent": 14.436861722596122,
+      "fit_comparison_not_new_fit_or_independent_measurement": true
+    },
+    {
+      "identity": [
+        "28Si",
+        1778
+      ],
+      "Q_replayed_percent": 11.716216216216216,
+      "reported_Q_percent": 11.72,
+      "conditional_diagonal_sigma_Q_percent": 0.7447546743606999,
+      "Q_nominal_printed_fit_percent": 12.483915663883817,
+      "fit_comparison_not_new_fit_or_independent_measurement": true
+    },
+    {
+      "identity": [
+        "24Mg",
+        2754
+      ],
+      "Q_replayed_percent": 10.848484848484848,
+      "reported_Q_percent": 10.8,
+      "conditional_diagonal_sigma_Q_percent": 1.574433188071463,
+      "Q_nominal_printed_fit_percent": 9.901023821001365,
+      "fit_comparison_not_new_fit_or_independent_measurement": true
+    },
+    {
+      "identity": [
+        "24Mg",
+        4238
+      ],
+      "Q_replayed_percent": 7.905882352941177,
+      "reported_Q_percent": 7.9,
+      "conditional_diagonal_sigma_Q_percent": 0.5549460041013557,
+      "Q_nominal_printed_fit_percent": 8.108189320550714,
+      "fit_comparison_not_new_fit_or_independent_measurement": true
+    },
+    {
+      "identity": [
+        "12C",
+        4438
+      ],
+      "Q_replayed_percent": 7.929292929292929,
+      "reported_Q_percent": 7.93,
+      "conditional_diagonal_sigma_Q_percent": 0.30368173857325814,
+      "Q_nominal_printed_fit_percent": 7.953640261941243,
+      "fit_comparison_not_new_fit_or_independent_measurement": true
+    }
+  ],
+  "Q150_nominal_fit_at4438_percent": 7.953640261941243,
+  "raw_null_asymmetry_from_measured_a_if_a_correction_omitted": 0.005075631941303582,
+  "same_a_sigma_propagated_to_raw_null_A_only": 0.0026264602673977478,
+  "relative_coincidence_efficiency_denominator": "detected core singles full-energy peak Ns",
+  "absolute_coincidence_efficiency_identity": "epsilon_abs_coinc=epsilon_abs_core_fullpeak*epsilon_relative_coinc",
+  "declared_geometry_solid_angle_fraction_upper_bound_only": 0.002890736276828232,
+  "upper_bound_times_relative025": 0.000722684069207058,
+  "not_original_absolute_efficiency_or_reference_standard_recovered": true,
+  "appendix_derived_dWa2_polynomial": "x**4*(35*p + 105) - x**2*(21*p + 105) + 14",
+  "appendix_intersections": [
+    {
+      "P": 0,
+      "derived_constant14_angles_deg": [
+        23.45563843231859,
+        66.54436156768142
+      ],
+      "literal_constant0_angles_deg": [
+        0.0,
+        90.0
+      ],
+      "constant14_W_ratio_at_intersections": 1.0000000000000007,
+      "printed_Eq30_approximation": 1.0,
+      "difference_ratio_minus_polynomial": 6.661338147750939e-16
+    },
+    {
+      "P": 0.5,
+      "derived_constant14_angles_deg": [
+        26.565051177077994,
+        67.79234570140352
+      ],
+      "literal_constant0_angles_deg": [
+        13.830224949650438,
+        90.0
+      ],
+      "constant14_W_ratio_at_intersections": 1.3066666666666666,
+      "printed_Eq30_approximation": 1.305525,
+      "difference_ratio_minus_polynomial": 0.0011416666666665964
+    },
+    {
+      "P": 1.0,
+      "derived_constant14_angles_deg": [
+        28.647545292030916,
+        68.87901804091904
+      ],
+      "literal_constant0_angles_deg": [
+        18.434948822922017,
+        90.0
+      ],
+      "constant14_W_ratio_at_intersections": 1.5667265072138818,
+      "printed_Eq30_approximation": 1.5649,
+      "difference_ratio_minus_polynomial": 0.0018265072138818894
+    }
+  ],
+  "literal_Eq28_does_not_close_quoted_angle_ranges": true,
+  "derived_constant14_closes_Eq27_and_quoted_ranges": true,
+  "not_official_erratum_or_executed_appendix_calibration": true,
+  "no_actual_covariance_rawcounts_or_new_P_Q_CI": true,
+  "ok": true
+}

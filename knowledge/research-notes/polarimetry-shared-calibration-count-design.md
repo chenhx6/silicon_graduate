@@ -302,3 +302,13 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 [[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-1/2/6/8的normalizedpointQ3=0，而P相关sum留下非线性；原φ0/60 alpha−1/3。一般两channelcos2kernels若不共knowngeometryfactor，Q1/Q2需两个独立knownP斜率信息；unpolarizednull只校offset/eff、一knownP仅一约束。原extended沿pointalpha为作者假设，actualresponse/Σ未取得，不用新point例认证CLUSTER。
 
 原M=4f/(1+f)² εQ²为smallP/忽背景，finiteA Eq14和P符号相关；simplepair3/2merit不是所有P/实际sensitivity优化保证。与[[butler-1973-three-geli-compton-polarimeter]]原正交P=A/Q和[[ewan-1969-single-geli-polarimeter]]average分母2倍约定是三个不同合同。
+
+
+## Sectored校准的core、tag和merit分母
+
+[[schlitt-1994-sectored-compton-polarimeter]] SC94-D17-1/2/3/7/8的H/V是带另两sector否决的选择，Nscorephotopeak作relativecoinceff分母；F另用absolutecoinceff。512是622tag后的probe，不可移source singlesP；TableP98%与nominalP1保recipe缺口，1368/C的AD/P还共B73标尺。实际count/Σ/absolutecoreeff未知，不拿旧25%造绝对F或把NRFsign当任意Jπ判据。
+
+
+### 强度比解释的belief revision
+
+[[ewan-1969-single-geli-polarimeter]] EW69-D17-11/12精确恒等式rEW=(1+p)/(1−p)将>1的原式映回boundeddegree；已撤回旧formulafailure解释、保历史快照/冻结与原书章缺口。rawQ2A/corrected2A/P的计数归一桥不受影响；未将r当degree用于counts/P/Q误差或新实验校准。

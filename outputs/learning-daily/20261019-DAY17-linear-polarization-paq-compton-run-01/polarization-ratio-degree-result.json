@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-20T01:42:21.609056+00:00",
+  "script_sha256": "b79e1541f465b2c9a9a3e7230b45619a55f38669c17ccd2b72cae38423352e68",
+  "input_sha256": "343e502f8c8eee9ef092548abb6b4adb99736de676f294465a5e5758d385a206",
+  "exact_symbolic_bridge": "r_EW=(1+p)/(1-p); p=(r_EW-1)/(r_EW+1)",
+  "AD_zero_over_90_bridge": "W(0)/W(90)=1+p for the same normalized pure-E2 point coefficients",
+  "domain": "D=W90 nonzero; ratio poles handled as limits; pure E2 axisymmetric full final-state trace",
+  "rows": [
+    {
+      "Egamma_MeV": 0.475,
+      "EW69_literal_expression": 2.2347417840375585,
+      "mapped_bounded_degree": 0.38171262699564584,
+      "TW70_pureE2_degree": 0.38171262699564584
+    },
+    {
+      "Egamma_MeV": 0.631,
+      "EW69_literal_expression": 2.718232044198895,
+      "mapped_bounded_degree": 0.462109955423477,
+      "TW70_pureE2_degree": 0.462109955423477
+    },
+    {
+      "Egamma_MeV": 0.766,
+      "EW69_literal_expression": 2.8639053254437865,
+      "mapped_bounded_degree": 0.48238897396630925,
+      "TW70_pureE2_degree": 0.4823889739663093
+    }
+  ],
+  "endpoints": {
+    "p0_r": 1,
+    "p_plus1_r": "positive infinity",
+    "p_minus1_r": 0
+  },
+  "prior_literal_formula_failure_interpretation_withdrawn": true,
+  "source_author_intent_not_proven_from_algebra": true,
+  "no_official_erratum_or_new_experimental_P_Q_CI": true,
+  "ok": true
+}

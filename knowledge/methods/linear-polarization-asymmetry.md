@@ -318,3 +318,13 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 非正交响应的sum也依偏振
 
 [[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-1/2/4/6：eff校正移除pointunpoloffset不保证sum与P无关；0/60仍有A=QP/(1−QP/3)。完整反演与B73正交线性对象分开；extendedalpha若未独立固定，需two不同knownP或actual两channelresponse，不能用null+一标定点假装Q1/Q2都已测定。
+
+
+### NRF符号需要入口、出口和门
+
+[[schlitt-1994-sectored-compton-polarimeter]] SC94-D17-7/10/11：pureelastic0→1→0/unpolarizedincident/90°的E1与M1才给±1对应sign；Pd622tag是另一γγreference，nominalP1不等表中实际98%。Difference谱Al或inelasticline减少不等无跃迁；NRFsign不裸迁fusion任意δ/Jπ。Coa修正、outersectorveto/threshold与corefullE定义必须匹配。
+
+
+### P符号也可能表示强度比
+
+[[ewan-1969-single-geli-polarimeter]] EW69-D17-11/12的精确ratio桥撤回本session最初“P>1即印式failure”判断：r=(1+p)/(1−p)可>1，p=(r−1)/(r+1)有界。必须先定P是degree还是两电矢量intensityratio；数学自洽解释不等作者历史意图已取证，原Ref9/body/Cov缺口保持。

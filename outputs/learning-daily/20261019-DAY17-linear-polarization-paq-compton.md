@@ -9,6 +9,8 @@ updated: 2026-10-19
 
 ## Run state
 
+最新科学修订（checkpoint055补核）：撤回checkpoint053的“EW69印P>1即formula failure”解释；该式严格可表示强度比r=(1+p)/(1−p)，原作者命名仍待Ref9正文。旧checkpoint文字是保留的过程记录，当前以055补核和canonical EW69-D17-11/12为准。
+
 - run_id: `2026-10-19-day-17-01`
 - run_date: `2026-10-19`；timezone: `Asia/Shanghai`；day_index: `17`
 - session_id: `01a1532e-0f21-7903-9bf6-8a9cc9ee9e17`
@@ -7461,6 +7463,202 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "GR95-D17-8"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+      "anchor": "Day17原件自审：实测校准的门与绝对效率分母",
+      "summary": "完整11页/18图/4表/30式新核，actual门/效率/P校准/附录literal及独立符号核，旧flags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-1"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-2"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-3"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-4"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-5"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-6"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-7"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-8"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-9"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-10"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-11"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-12"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-13"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-14"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-15"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-16"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "Sectored实测参考：先分relative与absolute效率",
+      "summary": "relativecorepeak分母与Fabsolute分开，150门Q/总述和附录proposal区别。",
+      "sources": [
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-2"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-3"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-6"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "NRF符号需要入口、出口和门",
+      "summary": "actualPdtag/P和pureelasticNRFsign合同，不迁fusion/无signal当无line。",
+      "sources": [
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-7"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-10"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "Sectored校准的core、tag和merit分母",
+      "summary": "Booleanevent/corefullpeak与absoluteeff/knownP共享来源统一记录。",
+      "sources": [
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-1"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-3"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-7"
+        },
+        {
+          "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+          "locator": "SC94-D17-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+      "anchor": "Day17再审：撤回把强度比判为有界偏振度的failure",
+      "summary": "精确ratio=(1+p)/(1-p)桥撤回checkpoint053的>1即failure解释，原claim5待审状态保/修文，原作者命名仍边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-12"
+        },
+        {
+          "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+          "locator": "TW70-D17-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "有界偏振度与偏振强度比",
+      "summary": "区别electricvectorratio与angularintensityratio，P命名须先核，不以ratio>1造sourceerror。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "P符号也可能表示强度比",
+      "summary": "明确degree/intensityratio转换与作者意图尚未核；修正先前过早错误解释。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "强度比解释的belief revision",
+      "summary": "保旧失败解释快照而在canonical中撤回，Qraw归一桥仍成立。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-12"
+        }
+      ]
     }
   ]
 }
@@ -7802,3 +8000,21 @@ GR95原4页/3图/15式/8refs新textvisual，before/练习freeze带oldGR97/GEANT3
 新原geometrypoint设计在1.368 P±1给A.277874/−.234444，完整inverse回±1，错线性A/Q为1.092625/−.921852。null/orthogonal/zeroQ/swap/两knownP线性化controls过，no新MC。四/八pairs/f2/ε3simplemerit1.5限smallP，literalEq14有限P±1比1.57186/1.29496；只模型source公式重放非实验。两extendedkernel正响应countercontrol仅说明pointalpha不由anglelabels保证，不判实际CLUSTER错误。
 
 原Fig3同modifiedGEANT3/44cm/6γ/40或350keV，Q/eff/M非独立实验；高threshold Q升但M降，actualproducer/response/Σ缺。canonicalGR95/Compton/linearpol/sharedcalnote/唯一writeback/18priming及script/input/result/scope/freeze齐。Decision`revises`泛offset、`limits`一knownP就认extended两响应已知及Qonly优化。verification068/publication054实际gate，原windowactive/17once/partial18，不能本source饱和就日终。
+
+
+### Checkpoint055：sectored原实测校准与merit分母
+
+SC94原11页/18图/4表/30式/33refs新完整textvisual，oldpriming先freeze；旧三claims待审保，新16全待审。rawhash/868962bytes保持。actualcoinc相对分母Nscorefullpeak、F绝对coinceff@25cm不同；total25%@1332无详reference，不能当25cmabs。150门4438Q7.93(.31)%/Eq25fit7.95364，与Table4约9.5未标门分开，旧Wiki合并纠。
+
+六表ε/P重算近印Q、conditionalσ对照不是新fit/Cov；Pd622tag/512probe nominalP1对TableP98(1)不同recipe保持、Coa.9899(.0052)为relative响应。actualoutersector另两veto/threshold/coreenergy字段、B73共AD/P标尺及NRFpure0→1→0/sign前提保；differenceAl/低P线消不叫无line。sourcecaptionE1印ε>0与正文/图负号literal不闭合保。
+
+附录proposal未用于本实验；Eq28印无constant给P0角0/90，不闭quoted域。独立从Eq27对a2微分得+14后P0 23.4556/66.5444、P1 28.6475/68.8790，fixedP跨a2相交控制过；只是内部一致candidate非erratum/原job。Eq30ratio近似小差保、不调角。54mm/250mm声明faceunituppercontrol非原absoluteeff，不造F。
+
+canonicalSC94/Compton/linearpol/sharedcalnote/唯一writeback/18priming，script/input/result/scope/freezes齐。Decision`revises`门/Q/效率分母混用，`limits`NRFsign迁移/附录作实测；verification069/publication055实际gate，原windowactive/17once/partial18，不能source完成便日终。
+
+
+### Checkpoint055补核：撤回EW69的过早formulafailure解释
+
+SC94附录代数继续暴露了本session的可避免解释错误：EW69印式恰好是r=(1+p)/(1−p)，所以>1可表示偏振电矢量强度比，不能直接判boundeddegree失效。新符号推导/原三Ru行转换给p与TW70完全同值；已向用户说明并在EW69-D17-5修文/新增11–12待审，Compton/linearpol/sharednote同步撤回。原文未明该P定义/Ref9书章未得，保数学可行ratio解释，不宣称作者意图已证/erratum。
+
+旧freeze/scriptstdout及`ewan1969-calibration-result-before-ratio-audit.json`保历史，当前EWscript/result字段改ratio/撤回标记；oldQraw2A/percent桥完全不变。另精确W0/W90=1+p限pureE2/已归一/point，角比不等电矢量比；finitegeometry和mixed不裸迁。不新source/实验P/Q/CI或独立信用。verification070覆盖055与其补核最终结果，原069为055修订前状态保留；本批publication055，未提前完成整日。

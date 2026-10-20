@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md": 19
+  },
+  "artifacts": [
+    {
+      "file": "schlitt1994-calibration-result.json",
+      "true_fields": [
+        "ok",
+        "not_original_absolute_efficiency_or_reference_standard_recovered",
+        "literal_Eq28_does_not_close_quoted_angle_ranges",
+        "derived_constant14_closes_Eq27_and_quoted_ranges",
+        "not_official_erratum_or_executed_appendix_calibration",
+        "no_actual_covariance_rawcounts_or_new_P_Q_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -1,0 +1,11 @@
+# SC94分段晶体实测校准与NRF：原件前回忆
+
+原Day17session09:33上海仍约327min，formal17once/partial18。连续槽为GR95model对sectoredref比较；新source仅其Ref8 Schlitt1994原11页，不并开Simpson1983/Logan或其它课程卡。
+
+已priming旧SC94source：fouroutersector+coreenergy，Q0.5MeV约20%/4.4约9.5、150keVthreshold，fit.304(16)/8.9(.8)e−5keV^-1，106Pd/24Mg/28Si/12Ccal、NRF162Dy signs、eff/FOM与appendix双detectorproposal。旧3claims全needs_review，oldreadingdeepread不算本次新读。
+
+主动回忆：corefullE与sectorcoincidence判别是不同计数对象，effcoinc分母可能总fullpeak不是incidentgamma，εabs和εconditional不能混到Q²ε。NRF0+target、unpolarizedphoton散射角/ν方向给M1/E1 paritysign，与fusionalignmentplane定义不能裸迁；有mixed/unresolvedbackground时difference spectrum null不等无跃迁。detectorasym用unpolsourcea校，knownPγγcal需gate、sameP90有限geometry及sourcepureEM，jointCov与threshold选择配套。
+
+新问题：Table3/4的actualP/A/Q/eff与error分母是什么？sameMC/modelcompare是原实测ref如何独立？带sum/diff和ratio的核偏振符号是否先含R/definition？threshold提Q降eff的实际merit与sim95假设如何比较？appendixproposal不当已建装置数据。
+
+计划完整11页textvisual/allactualfigtablesequations/uncertainty，保sourceflags，新selfaudit带locator。挑actualcalibration或effdenominator计算，不新MC/原raw缺仍readiness，不拿模型结果或新toy当实验校准。

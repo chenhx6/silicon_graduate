@@ -2258,3 +2258,7 @@ EW69原3页新核Qraw2A/corrected2A/P，literalP式对475不闭合保，mixed833
 ### Day17 checkpoint054：真实非正交分母与校准识别性
 
 GR95原4页新核pointQ3zero/完整inverse、extendedalpha假设和smallPmerit，旧flags保，新12待审；canonical已写。verification068/manifest054/H3发布，main / `Audit nonorthogonal polarization denominators and calibration identifiability`，原windowactive/17once/partial18。
+
+### Day17 checkpoint055：实测分母与ratio解释修订
+
+SC94原11页/actualcalibration/effabsolute界及附录constant候选写回；本批补核撤回EW69印式>1即failure误解，精确ratio桥/历史快照与review保。verification069/070/manifest055/H3发布，main / `Audit sectored calibration denominators and reconcile polarization ratio conventions`，原windowactive/17once/partial18。

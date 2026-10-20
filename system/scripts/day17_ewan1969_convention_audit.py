@@ -32,20 +32,22 @@ def main():
         point=(3*a2+1.25*a4)/(2-a2+.75*a4) if is_author_E2 else None
         ru.append({'Egamma_MeV':eg,'ordinary_A':q/200,
                    'ordinary_sigmaA_same_scale_only':sq/200,
-                   'literal_printed_P90_formula_value':literal,
+                   'literal_printed_P_expression_intensity_ratio':literal,
+                   'mapped_bounded_degree_from_literal':(literal-1)/(literal+1) if literal is not None else None,
                    'conditional_TW70_pureE2_P90_not_generic_mixed_line':point,
                    'conditional_corrected_Q_EW69_percent_using_TW70':q/point if point is not None else None,
                    'conditional_AoverP_sensitivity_using_TW70':q/200/point if point is not None else None,
                    'pureE2_formula_not_applied_to_author_mixed833':not is_author_E2,
                    'not_a_multipolarity_fit_or_current_response':True})
-    assert ru[0]['literal_printed_P90_formula_value']>2
+    assert ru[0]['literal_printed_P_expression_intensity_ratio']>2
     assert 0<ru[0]['conditional_TW70_pureE2_P90_not_generic_mixed_line']<1
     result={'at':datetime.now(timezone.utc).isoformat(),
             'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             'contract_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
             'actual_calibration_rows':calibration,'actual_Ru_rows':ru,
             'factor2_and_percent_conversion_controls':True,
-            'literal_formula_failure_preserved_not_official_erratum':True,
+            'literal_expression_has_exact_intensity_ratio_interpretation':True,
+            'prior_over_one_failure_interpretation_withdrawn':True,
             'no_low_energy_photoelectric_fraction_or_Cov_inferred':True,
             'no_new_experimental_P_Q_delta_Jpi_or_CI':True,'ok':True}
     (RUN/'ewan1969-calibration-result.json').write_text(json.dumps(result,indent=2)+'\n')

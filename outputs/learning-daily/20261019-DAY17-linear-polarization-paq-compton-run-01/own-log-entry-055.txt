@@ -1,0 +1,4 @@
+
+### Day17 checkpoint055：实测分母与ratio解释修订
+
+SC94原11页/actualcalibration/effabsolute界及附录constant候选写回；本批补核撤回EW69印式>1即failure误解，精确ratio桥/历史快照与review保。verification069/070/manifest055/H3发布，main / `Audit sectored calibration denominators and reconcile polarization ratio conventions`，原windowactive/17once/partial18。
