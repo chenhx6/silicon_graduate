@@ -9268,6 +9268,236 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "GR97-D17-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+      "summary": "两actualofficialbody797行/NSR2record核，15待审；当前MR空/历史无号MR/异常分壳转换、两同能54与RI/trace分层，不造SeGAQ修正。",
+      "anchor": "SeGA333/388参考的评价证据与实际校准边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/miller-2007-sega-polarization.md",
+      "summary": "官方companion限制跨版本把pureE1当δ0实测，保原Q/Σ/primaryphase缺口。",
+      "anchor": "Cm245官方参考的新输入",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "currentreference核身份/purity/转换和actualSeGAresponse合同衔接，不把新评价算独立校准。",
+      "anchor": "SeGA参考的2023官方companion：MR空不等测得纯",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-8"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-10"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-11"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-12"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-13"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-14"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/internal-conversion-analysis.md",
+      "summary": "reported分壳异常/BrIccmodel与MR不可互换、同能不同parent输入。",
+      "anchor": "Cm245参考：异常分壳转换不等唯一M2混合",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-9"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "currentCm245参考readiness与MI07层级入口，非Q失败或重标。",
+      "anchor": "SeGA侧入射的a和总峰计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-15"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "Cm245/Cf249官方selectedbody新canonical source入口。",
+      "anchor": "Sources",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-15"
+        }
+      ]
     }
   ]
 }
@@ -9741,3 +9971,13 @@ pointQ before/exercise先冻，MI07本session已full6页anchor；GR97仅新targe
 新symbolic导数/μ→w驻点quartic系数一变号证明α>0 globaluniqueθC<90，非gridmax；333/388θmax84.936/83.889，qmax.807179/.769044比q90高1.47/2.11%。511qmax.691802@81.661，1332qmax.401515@71.070，4430.158322@55.506，均只是freeelectron/singlecollision/finalpolunobserved理论数，不改publishedQ/Qrel。Thomson/低高α与q90exact控制通过。
 
 两hit各>=T的单次运动学域可空，E150/T60虽总能>2T仍无解；E333/T150最佳允许θ104.940/q.650232，不移给actualSeGA/SG98ADCzero。positiveweight single层bound不代fullmultipletransport，maxq角不等maxFOM，原GR97preFactor正确/旧漏prime猜测保持否决。canonicalGR97/MI07/Compton、唯一writeback/18priming及script/input/result/scope/freezes齐，verification084/publication069实际门，17once/partial18/windowactive。
+
+### Checkpoint070：SeGA的Cm245/Cf249实际官方参考
+
+cm245before/exercise先冻primed问题。NNDC新245CM正确form返回5keys，按actual选Adopted245096001/Cf249alpha004，两202305/C.D.Nesaraja/NDS1891/cut14Feb2023全文372+425=797行/hash核。currentparent388.1709/2−/T1/2.450ns(.020)，333.37/388.15到54.7849/2+/ground7/2+，当前均(E1)/MR空；历史1977无显式号幅度.084(+.014−.018)/.13(+.01−.02)与2015L3近pureE1/其它壳约两倍的anomalousE1解释分层，不由ICCanomaly判M2或重标Q。
+
+新script固定栏/parent身份、RI absolute14.8/66比.224242与Adopted22.4/100 .224相容，非独立P/branch测量；两reference同parent替代支不pair。两54.77分别low54.784与442.892parent，MR1.3/.63、CC219/121不混；lowphoton条件1/220不否定α–333下游全unobserved。旧幅度M2份额.0070066/.0166191、双线性.166823/.255679非actualP偏移；partialICCsum .06474/.05566对BrIccmodel .0348/.0254只是诊断，未知Σ不造CI。
+
+NSR2015AH03/1977BA67两官方record核，上游body未得：publisher candidate/工具拒Wiki路径/officialGET403/OpenAlex与Semantic无OA/OSTI200nonJSON/markdownproviderunavailable，均executionreceipt保。nature-downloader用于本轮正文/noSI合法检索，未越Wiki/绕TLS或凭据。未称primaryfullread/实验pure校准已认证。
+
+canonical新N245source15待审/MI07新16、sharedcalnote/ICC/Compton/index、唯一writeback/18priming/scripts/actualhash与scope齐。rawslot归档deferred不改原raw/Bib；verification085/publication070 actualgate。初writer将ICC路径写错在该处停、第一次verification因contract未写而退出1，随后只补剩余步骤/正确path、failure保。17once/partial18/windowactive，actualP/Q/phase/接受/Σ仍需原producer，不以reference审计日终。

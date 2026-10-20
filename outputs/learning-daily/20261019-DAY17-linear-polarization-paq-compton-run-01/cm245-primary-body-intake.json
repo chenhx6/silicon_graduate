@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-20T04:55:01.309658+00:00",
+  "doi": "10.1103/PhysRevC.91.044310",
+  "title": "High-resolution alpha and electron spectroscopy of 249Cf",
+  "skill": "nature-downloader",
+  "SI_choice": false,
+  "scope": "main article first in authorized unattended daily loop; SI not independently requested",
+  "publisher_candidate": "http://link.aps.org/pdf/10.1103/PhysRevC.91.044310",
+  "discovery_status": "oa_candidate, prefixprobe inconclusive pdf_mime_missing",
+  "download_tool": "savePath refused to leave its own download dir; no outsideWiki writes authorized",
+  "fallback": "bounded direct official HTTPS GET to inWiki tmp, no TLS disable/no paywall bypass",
+  "body_read": false
+}

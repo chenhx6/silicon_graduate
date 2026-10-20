@@ -2318,3 +2318,7 @@ QQ临界根+exact31boundary/∞补齐，条件ADbox两域/pureM2 p必要界非jo
 ### Day17 checkpoint069：singlepoint q90/reference和globalmax
 
 GR97两页target/MI07fullanchor，quartic唯一最大证明、energytable与twohitcut域，非全阵列Q/FOM；oldprefix/review保，新6待审。084缺backlink初failure保修后valid，manifest069/H3，main / `Distinguish the 90 degree reference from the global Compton maximum`，windowactive/17once/partial18；Cm245官方新query在途。
+
+### Day17 checkpoint070：实际Cm245参考/转换companion
+
+新797行officialbody/NSR2record，15new待审+MI07companion，当前MR空/旧无号MR/anomalousICC/双54parent与RI分层，不重标Q。原primarybody合法取件未得/failures保；ICC路径初失败续写纠正后verification085valid/manifest070/H3，main / `Audit current Cm245 references and anomalous conversion boundaries`，windowactive/17once/partial18。

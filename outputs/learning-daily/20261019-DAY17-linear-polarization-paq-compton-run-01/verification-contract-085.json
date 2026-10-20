@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md": 15,
+    "knowledge/sources/miller-2007-sega-polarization.md": 18
+  },
+  "artifacts": [
+    {
+      "file": "cm245-reference-result.json",
+      "true_fields": [
+        "ok",
+        "fixed_column_parent_MR_and_normalization_controls",
+        "both_current_reference_MR_fields_blank_not_pure_measurement",
+        "333_and_388_mutually_exclusive_from_this_parent",
+        "no_SeGA_Q_P_delta_or_experimental_CI_reestimated"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

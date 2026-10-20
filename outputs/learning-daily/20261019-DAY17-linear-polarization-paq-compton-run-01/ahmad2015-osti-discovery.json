@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-20T04:56:05.027458+00:00",
+  "url": "https://www.osti.gov/api/v1/records",
+  "params": {
+    "search": "10.1103/PhysRevC.91.044310"
+  },
+  "body_obtained": false,
+  "http_status": 200,
+  "bytes": 4900,
+  "sha256": "8363e946db0053dda0b721c48679579ae80f6f7c738f29b5215abbbd9cdbafe4",
+  "json_error": "response_not_JSON"
+}

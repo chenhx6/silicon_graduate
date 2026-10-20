@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-20T04:55:00.856432+00:00",
+  "doi": "10.1103/PhysRevC.91.044310",
+  "SI": false,
+  "url": "https://link.aps.org/pdf/10.1103/PhysRevC.91.044310",
+  "first_tool_failure": "download_public_paper savePath refused as outside tool download directory; no outside-Wiki fallback",
+  "tls_verification": true,
+  "status": "no_verified_body",
+  "http_status": 403,
+  "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.91.044310",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 5503,
+  "sha256": "15ca3e4599973f7352a423647ae665c4fba21962c79343b2bbb7fd83060adef5"
+}

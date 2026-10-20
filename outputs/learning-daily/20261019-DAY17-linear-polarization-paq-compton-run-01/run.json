@@ -68,14 +68,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Bound Taras marginal AD inputs with exact population feasibility",
-    "commit": "b4a7d106be2e4f959511e4c4bc2a5f76d91b864d",
+    "subject": "Distinguish the 90 degree reference from the global Compton maximum",
+    "commit": "45d172bb57e64bddbeb5c21532ad07d7665b65e4",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-20T04:28:55.760584+00:00",
+  "last_observed_at": "2026-10-20T04:41:33.158531+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",

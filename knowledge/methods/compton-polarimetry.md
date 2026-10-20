@@ -607,3 +607,5 @@ q(\alpha,\mu)=\frac{1-\mu^2}{t+t^{-1}-1+\mu^2},
 最大q的pointangle不等最大FOM角：finite接受/效率、曝光、事件唯一性和jointΣ要另给，任意缩到零solidangle的“最优角”不提供实际beamtime优势。此分析限制MI07“limitedtoQ0”若被外推为所有角上界的字面解释，不改其333/388实测Qrel=.18或宣告其测量失败；两个能量的差仅约1.5/2.1%。
 
 复算`system/scripts/day17_point_compton_maximum.py`，本run `pointQ-contract.json` / `pointQ-result.json`；before/exercise/freezes与GR97定向scope/prefix保护记录齐。决定`limits`90°reference当全角上界和maxsensitivity当maxmerit，`supports`明确实际cut/角域/归一；无actualQ/δ/P或实验CI更新。
+
+SeGA核reference的currentcompanion见[[nndc-2023-cm245-cf249-polarization-reference]] N245-1–15：当前(E1)/MR空、旧无号混合幅度、anomalousconversion/BrIcc层分开，MI07-D17-16保真正pureP/phase/接受/Σ缺口。新官方body提高identityreadiness，不自动给新Q或证明原标定失败。

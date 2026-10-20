@@ -189,3 +189,7 @@ $$U_k^{\rm all}-U_k^\gamma=\frac{q(c-1)[U_k(L')-U_k(L)]}{(1+q)(1+cq)},\quad c=\f
 ### ENSDF多重放置与subshell权重的输入门
 
 [[tuli-2001-ensdf-format-manual]] TU01-4：col77 &未分强度、@已分强度。[[nndc-2001-223ra-reference-and-2026-intensity-records]] N223-5–8的两版113-keV真实记录说明，RI列表不能丢parent/flag/N record；重复未分区总强度不提供branching，更不能乘两次CC冒充两个实验。旧@ RI4.2/1.2只在同接受响应下给photon/total/L/M的E2份额.2222/.5872/.9493/.9549，不是J98实测gate比例或新subshell计数。新XUNDL未分区的组总量不能倒推出这些份额。
+
+### Cm245参考：异常分壳转换不等唯一M2混合
+
+[[nndc-2023-cm245-cf249-polarization-reference]] N245-3–6/12/13区分当前333.37/388.15(E1)/MR空、1977历史无显式号MR评论，以及2015electrondata的anomalousE1conversion解释。L3近pureE1而其它壳约两倍的evaluation说明，不能只将总ICC偏离BrIcc归因于指定highermultipole。当前reportedpartialshell central和为.06474/.05566，BrIccmodeltotal为.0348/.0254，只有diagnostic ratio，不是新totalICC/δ反演/CI。referenceγP还需same核制备/AD/phase与实际response；未得primarybody/Cov不重标SeGAQ。两条同能54.77另有不同parent/MR/ICC，见N245-9，不混合转换参数。

@@ -1,0 +1,203 @@
+{
+  "at": "2026-10-20T04:49:01.055720+00:00",
+  "script_sha256": "ad916a8f7b1f2cbe6765f51b0e358f79714e6d04b3a1868560b6f3ae2774fb7a",
+  "contract_sha256": "e3b027bc83de0b0cb69331188264e7677dad5867e03f2c93759b4c45c77293ad",
+  "evaluated_records": {
+    "adopted": {
+      "line_count": 372,
+      "sha256": "c7f95f70b9089969c23212c06c51c9e1b85f2713a749bf92e92c12914904d0da",
+      "selected_rows": [
+        {
+          "line": 61,
+          "parent": {
+            "energy": "54.784",
+            "Jpi": "9/2+",
+            "half_life": "0.10 NS",
+            "sigma_half_life": "LE",
+            "line": 56
+          },
+          "Egamma": "54.77",
+          "RI": "100",
+          "DRI": "",
+          "M": "",
+          "MR": "",
+          "DMR": "",
+          "CC": "",
+          "DCC": "",
+          "raw_record": "245CM  G 54.77     2 100                                                        "
+        },
+        {
+          "line": 132,
+          "parent": {
+            "energy": "388.170",
+            "Jpi": "9/2-",
+            "half_life": "0.450 NS",
+            "sigma_half_life": "20",
+            "line": 120
+          },
+          "Egamma": "333.37",
+          "RI": "22.4",
+          "DRI": "6",
+          "M": "(E1)",
+          "MR": "",
+          "DMR": "",
+          "CC": "0.0348",
+          "DCC": "5",
+          "raw_record": "245CM  G 333.37    2 22.4    6 (E1)                    0.0348  5            Y   "
+        },
+        {
+          "line": 136,
+          "parent": {
+            "energy": "388.170",
+            "Jpi": "9/2-",
+            "half_life": "0.450 NS",
+            "sigma_half_life": "20",
+            "line": 120
+          },
+          "Egamma": "388.15",
+          "RI": "100",
+          "DRI": "3",
+          "M": "(E1)",
+          "MR": "",
+          "DMR": "",
+          "CC": "0.0254",
+          "DCC": "4",
+          "raw_record": "245CM  G 388.15    2 100     3 (E1)                    0.0254  4            Y   "
+        },
+        {
+          "line": 155,
+          "parent": {
+            "energy": "442.892",
+            "Jpi": "11/2-",
+            "half_life": "",
+            "sigma_half_life": "",
+            "line": 152
+          },
+          "Egamma": "54.77",
+          "RI": "100",
+          "DRI": "3",
+          "M": "M1+E2",
+          "MR": "0.63",
+          "DMR": "4",
+          "CC": "121",
+          "DCC": "8",
+          "raw_record": "245CM  G 54.77     2 100     3 M1+E2     0.63    4     121     8            Y   "
+        }
+      ]
+    },
+    "cf249alpha": {
+      "line_count": 425,
+      "sha256": "85d9aa9b4f4dcc112b5ed268d0749952431b3f8679f373506a1b6908402faa4f",
+      "selected_rows": [
+        {
+          "line": 179,
+          "parent": {
+            "energy": "54.784",
+            "Jpi": "9/2+",
+            "half_life": "0.10 NS",
+            "sigma_half_life": "LE",
+            "line": 177
+          },
+          "Egamma": "54.77",
+          "RI": "0.083",
+          "DRI": "13",
+          "M": "M1+E2",
+          "MR": "1.3",
+          "DMR": "+4-2",
+          "CC": "219",
+          "DCC": "33",
+          "raw_record": "245CM  G 54.77     2 0.083   13M1+E2     1.3     +4-2  219    33            T   "
+        },
+        {
+          "line": 270,
+          "parent": {
+            "energy": "388.170",
+            "Jpi": "9/2-",
+            "half_life": "0.450 NS",
+            "sigma_half_life": "20",
+            "line": 252
+          },
+          "Egamma": "333.37",
+          "RI": "14.8",
+          "DRI": "4",
+          "M": "(E1)",
+          "MR": "",
+          "DMR": "",
+          "CC": "0.0348",
+          "DCC": "5",
+          "raw_record": "245CM  G 333.37    2 14.8    4 (E1)                    0.0348  5            X   "
+        },
+        {
+          "line": 281,
+          "parent": {
+            "energy": "388.170",
+            "Jpi": "9/2-",
+            "half_life": "0.450 NS",
+            "sigma_half_life": "20",
+            "line": 252
+          },
+          "Egamma": "388.15",
+          "RI": "66.0",
+          "DRI": "20",
+          "M": "(E1)",
+          "MR": "",
+          "DMR": "",
+          "CC": "0.0254",
+          "DCC": "4",
+          "raw_record": "245CM  G 388.15    2 66.0    20(E1)                    0.0254  4            X   "
+        },
+        {
+          "line": 300,
+          "parent": {
+            "energy": "442.892",
+            "Jpi": "11/2-",
+            "half_life": "",
+            "sigma_half_life": "",
+            "line": 298
+          },
+          "Egamma": "54.77",
+          "RI": "0.0381",
+          "DRI": "26",
+          "M": "M1+E2",
+          "MR": "0.63",
+          "DMR": "4",
+          "CC": "121",
+          "DCC": "8",
+          "raw_record": "245CM  G 54.77     2  0.0381 26 M1+E2    0.63    4     121     8            T   "
+        }
+      ]
+    }
+  },
+  "reference_rows": [
+    {
+      "Egamma_keV": 333.37,
+      "old_MR_magnitude_not_signed_phase": 0.084,
+      "M2_intensity_fraction_conditional": 0.007006561700640283,
+      "absolute_cross_amplitude_coefficient_conditional": 0.16682289763429245,
+      "measured_partial_ICC_central_sum": 0.06474,
+      "BrIcc_model_total_CC": 0.0348,
+      "partial_sum_over_model_total": 1.8603448275862071,
+      "anomalous_ICC_not_automatically_mixing_ratio": true
+    },
+    {
+      "Egamma_keV": 388.15,
+      "old_MR_magnitude_not_signed_phase": 0.13,
+      "M2_intensity_fraction_conditional": 0.01661913659160193,
+      "absolute_cross_amplitude_coefficient_conditional": 0.2556790244861835,
+      "measured_partial_ICC_central_sum": 0.05566,
+      "BrIcc_model_total_CC": 0.0254,
+      "partial_sum_over_model_total": 2.1913385826771656,
+      "anomalous_ICC_not_automatically_mixing_ratio": true
+    }
+  ],
+  "photon_ratio_absolute_alpha_object": 0.22424242424242424,
+  "photon_ratio_relative_adopted": 0.22399999999999998,
+  "upper_388_half_life_ns": 0.45,
+  "upper_388_mean_lifetime_ns": 0.6492127684000336,
+  "conditional_333_then_54_77_photon_branch_given_lower_total_decay": 0.004545454545454545,
+  "333_and_388_mutually_exclusive_from_this_parent": true,
+  "fixed_column_parent_MR_and_normalization_controls": true,
+  "both_current_reference_MR_fields_blank_not_pure_measurement": true,
+  "no_SeGA_Q_P_delta_or_experimental_CI_reestimated": true,
+  "ok": true
+}

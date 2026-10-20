@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-20T04:51:51.006625+00:00",
+  "objects": {
+    "adopted": {
+      "path": "tmp/day17-cm245-reference/adopted.ens",
+      "lines": 372,
+      "sha256": "c7f95f70b9089969c23212c06c51c9e1b85f2713a749bf92e92c12914904d0da",
+      "scope": "full selected object line-by-line, not full A245 publication"
+    },
+    "cf249alpha": {
+      "path": "tmp/day17-cm245-reference/cf249alpha.ens",
+      "lines": 425,
+      "sha256": "85d9aa9b4f4dcc112b5ed268d0749952431b3f8679f373506a1b6908402faa4f",
+      "scope": "full selected object line-by-line, not full A245 publication"
+    }
+  },
+  "primary_bodies_read": [],
+  "NSR_records_read": [
+    "2015AH03",
+    "1977BA67"
+  ],
+  "not_read": "otherAm/Bk/transfer objects; fullNDSarticle; 1977/2015primarybody; actualSeGAproducer"
+}

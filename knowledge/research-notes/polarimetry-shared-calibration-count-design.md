@@ -469,3 +469,11 @@ S=\frac{2\bar P(1+a_2)}{3a_2(\bar P-1)}.
 原四group relativeA在claimed Qrel=.18下的summary标准化残差约−1.065/.113/−.080/.835，未重拟合逐unit数据。Qrel/同source AD/a/两branch共享事件与方法谱系，不能把四group当四独立Q实验或虚构Σ。highestinput仍actualunit/gates/threshold/ordering、净峰/背景/接受与jointfitCov；higherenergy/inbeam/数字tracking在原文是下一测量/改善，无31/33Mg新parity结果。
 
 复算`system/scripts/day17_miller2007_count_audit.py`，本run `miller2007-count-contract.json` / `miller2007-count-result.json`。决定`supports`source计数量级与sidegeometry可行性，`limits`跨约定/energy/array/merit迁移，没有新的实验P/Q/δ/CI。
+
+#### SeGA参考的2023官方companion：MR空不等测得纯
+
+[[nndc-2023-cm245-cf249-polarization-reference]] N245-1–15新取Adopted372行/Cf249alpha425行，确认333.37/388.15来自same388.1709/2−，是到54.7849/2+和ground7/2+的替代支，不是彼此coincidentcascade。当前均(E1)/MR空，评论保1977无显式号M2/E1幅度.084/.13与2015分壳转换异常；后者评价解释为anomalousE1，不自动判M2污染。
+
+旧幅度的M2份额.0070/.0166而双线性系数.1668/.2557只是条件振幅控制，不是实际P偏移；fullprimaryphase/penetrationmodel/alpha制备/finiteacceptance和Σ缺时，不能把它们带native号重标SeGAQ。当前evaluation对象与MI07标定参考共享旧实验/方法谱系，不按两对象或新编译日期算独立Q实验。实际underlyingprimarybody访问未成功，failure/provenance保。
+
+两条54.77分别属低54.784→0与442.892→388.170，MR/ICC不同，不能按同Eγ合并；低支强转换不否定不观测下游的α–333完整trace。RI absolute/relative和αfeed不是本SeGA测得取向；新官方input缩小身份缺口，实际P/Q/Σ仍readiness。

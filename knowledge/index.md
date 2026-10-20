@@ -19,6 +19,8 @@ updated: 2026-10-20
 
 ## Sources
 
+- [[nndc-2023-cm245-cf249-polarization-reference]] — SeGA两同parent参考的当前(E1)/MR、旧混合与anomalousconversion层、实际reference readiness。
+
 - [[nndc-2022-s31-mixing-lifetime-reference]] - 官方1248 MR双根/RUL、mean-vs-half-life与Sun模型扣除的有源companion。
 
 - [[schuermann-2008-15o-6792-dsam]] - 原读15O有限寿命到上限的直接反证：密角/共同几何/增益、F分母与统计对象。

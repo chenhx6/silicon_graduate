@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-20T05:02:38.321849+00:00",
+  "skill": "nature-downloader",
+  "SI": false,
+  "body_obtained": false,
+  "routes": [
+    {
+      "provider": "publisher discovery",
+      "status": "oa_candidate, PDF prefixinconclusive"
+    },
+    {
+      "provider": "download_public_paper",
+      "status": "savePath refused; outsideWiki path not attempted"
+    },
+    {
+      "provider": "directofficialHTTPS",
+      "status": "403 nonPDF, no retry terminal"
+    },
+    {
+      "provider": "OpenAlex",
+      "status": "matchingDOI, noOAURL"
+    },
+    {
+      "provider": "SemanticScholar",
+      "status": "matchingtitle/authors, noOAURL and DOI null"
+    },
+    {
+      "provider": "OSTI DOIsearch",
+      "status": "200nonJSON, not verifiedrecords/body"
+    },
+    {
+      "provider": "publisher markdown",
+      "status": "provider_unavailable, not attempted/no credits"
+    },
+    {
+      "provider": "Crossref exactDOI",
+      "status": "identity verified, no body"
+    }
+  ],
+  "no_authentication_or_TLS_changes": true,
+  "science_status": "evaluationcomments only for primaryresults; not fulltextreview"
+}

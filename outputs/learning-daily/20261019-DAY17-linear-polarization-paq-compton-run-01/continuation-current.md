@@ -1,13 +1,13 @@
-# Day17同session继续：checkpoint069之后
+# Day17同session继续：checkpoint070之后
 
-## Active handoff — DAY17 original window active; pointQ checkpoint069
+## Active handoff — DAY17 original window active; Cm245 checkpoint070
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–068actualH3Gitee推，formal17once/next18count17/partial18；clock约12:40余140min，windowactive。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–069actualH3Gitee推，formal17once/next18count17/partial18；clock约13:12余108min，当前问题继续，不开新课程。13:30后不得开新source/body，15点停止research。
 
-MI07 full6页currentanchor、GR97仅newtarget p462/p466 Eq2/3/Appendix两页，rawhash保/旧整GRprefix字节保护；GR97新4与MI07新14/15全待审。generalq=sin²θC/[t+1/t−sin²θC]、t1+α(1−cosθC)，q90精确MI07 Eq4；μ→w驻点quartic一变号证明α>0 globalunique maxθ<90，非gridmax。333/388 max84.936/83.889°、q.807179/.769044仅比q90高1.47/2.11%，不改publishedQrel/实际cal。511max.691802@81.661、1332.401515@71.070、4430.158322@55.506都理论点数。
+NNDC new245CM正确form实际选202305 Adopted001372行/Cf249alpha004425行/fullread797，Nesaraja/NDS1891/cut14Feb2023/hash均核。same388.1709/2−母态的333.37/388.15当前(E1)/MR空，旧1977 unsigned .084/.13与2015L3近pureE1/其它壳约两倍解释分开；异常转换不等指定M2，不改MI07Q。两gamma替代支不pair；两54.77 parent/MR/CC不同。RI ratio.224242/.224相容非独立量，历史MRfraction与interference、partialICCsum/BrIcc、T1/2→mean均conditional算术，不给P/Q/δCI。
 
-singlecollision/freeunpolarizedrestelectron/finalpolunobserved域明确；twohit各>=T的运动学域E>2T仍可能空，E150/T60无解，E333/T150最佳θ104.940/q.650232，不移SeGAunknowncut/SG98ADCzero。singlepositiveweight层bound不代fullmultitransport或maxFOM，旧GR97(E′/E)²与否决漏prime保持。Comptonproof/数表/Scope/唯一writeback/18priming/scripts齐，verification084初缺MI→GRsourcebacklink已保修后valid：0errors239warnings、68changed/71mapped、boundary/lint/diff exit0。main / `Distinguish the 90 degree reference from the global Compton maximum`，actualhash/H3仅publication069/runreceipt。
+NSR2015AH03/1977BA67 exactrecords/Crossref2015身份核；primarybody未得，publishercandidate/路径tool拒绝/officialHTTPS403/OpenAlex与Semantic无OA/OSTI200非JSON/markdownproviderunavailable保receipts。nature-downloader mainonly/noSI，不绕访问/凭据/外Wiki，不从metadata冒body。新N24515待审/MI07新16及ICC/sharedcal/Compton/index/唯一writeback/18priming/scripts齐，rawarchive75slots未填保护raw/Bib。verification085最初ICC路径错误中止且contract未写，failure保后按正确internal-conversion-analysis.md只续剩余；最终valid：0errors241warnings（4parse/162key/75raw）、70changed/73mapped，boundary/lint/diff exit0。main / `Audit current Cm245 references and anomalous conversion boundaries`，actualhash/H3仅publication070/runreceipt。
 
-当前下一高信息actualreference是Cf249→Cm245作者pureE1标尺：cm245-reference-before已冻，官方DatasetFetchServlet按现有correctform POST新245CM，查询receipt cm245-official-discovery.json；当前tool session13664尚需收最终输出，不预填成功。若取到list先按实际keys选Adopted/Cf249alpha对象，核Ei/Ef/Jπ/MR/ICC/branch/version/同实验依赖；空MR不证pure、无body不造source。localraw无A245cache，networkTLS不绕过/不原样重试终态。未开其它课程/新sourcebody。
+当前cm245-commonparent-before已冻新bounded check：sameparent/pureE1/commonrho则a333/a388=−16/11，exactCG/Racah scratch已确认R333=−4√330/165/R388=√330/60；actuala2−.29(.02)/.17(.01)，完整residual/Covrange/artifact未算，不能预填实验reject/Q修正。接着只当前source的必要companion和接受/相位边界，不新toy填缺原数据。原EW69/FA48/AO75/T71各修订/边界保持。
 
-T71原central/box、EW69ratio撤回、FA48cos2phi/旧flags、AO75方向冲突及actualdata/Σ/producer缺口保持；source或模型饱和不日终。保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own069，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own070，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

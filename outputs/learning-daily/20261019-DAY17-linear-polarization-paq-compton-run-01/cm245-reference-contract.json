@@ -1,0 +1,63 @@
+{
+  "objects": {
+    "adopted": {
+      "path": "tmp/day17-cm245-reference/adopted.ens",
+      "sha256": "c7f95f70b9089969c23212c06c51c9e1b85f2713a749bf92e92c12914904d0da"
+    },
+    "cf249alpha": {
+      "path": "tmp/day17-cm245-reference/cf249alpha.ens",
+      "sha256": "85d9aa9b4f4dcc112b5ed268d0749952431b3f8679f373506a1b6908402faa4f"
+    }
+  },
+  "reference_parent_keV": 388.17,
+  "reference_gammas_keV": [
+    333.37,
+    388.15
+  ],
+  "historical_unsigned_M2_over_E1": {
+    "333.37": {
+      "magnitude": 0.084,
+      "minus": 0.018,
+      "plus": 0.014,
+      "reference": "1977Ba67"
+    },
+    "388.15": {
+      "magnitude": 0.13,
+      "minus": 0.02,
+      "plus": 0.01,
+      "reference": "1977Ba67"
+    }
+  },
+  "experimental_ICC_reported_groups": [
+    "K",
+    "L1+L2",
+    "L3",
+    "M",
+    "N+O"
+  ],
+  "experimental_ICC_values": {
+    "333.37": [
+      0.05,
+      0.01,
+      0.00064,
+      0.0031,
+      0.001
+    ],
+    "388.15": [
+      0.042,
+      0.0097,
+      0.00036,
+      0.0026,
+      0.001
+    ]
+  },
+  "model_CC_for_reference_gammas": {
+    "333.37": 0.0348,
+    "388.15": 0.0254
+  },
+  "reported_half_life_ns": [
+    0.45,
+    0.02
+  ],
+  "scope": "evaluatedselectedobjects and central arithmetic; no primary phase or fullSigma"
+}

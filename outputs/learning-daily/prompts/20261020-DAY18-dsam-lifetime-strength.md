@@ -241,3 +241,5 @@ Day17 checkpoint067 priming：T71-D17-1–17原24页及35Cl1763note，actualTabl
 Day17 checkpoint068 priming：T71-D17-18–20 exactADmarginalbox投影已补51criticalroots/31point/∞，conditionalbands非jointCI/原recipe，literalpureM2 pbox必要界不判实验矛盾；source1969仍未取，无formal18信用。
 
 Day17 checkpoint069 priming：GR97-D17-1–4仅两页target/MI07-14–15与Compton新段证明singlepoint globalmaxθ<90，q90为reference非全角上界；两hitcut仅singlecollision模型，不改SeGA Qrel/SG98/actual阵列，maxq非FOM。无formal18信用。
+
+Day17 checkpoint070 priming：N245-1–15 actual202305两officialobject797行/NSR2record核；当前(E1)/MR空、旧无号幅度与anomalousE1conversion非同量，two54parent/RI/photontrace分层；2015/1977primarybody未得、不重标MI07Q或授formal18。

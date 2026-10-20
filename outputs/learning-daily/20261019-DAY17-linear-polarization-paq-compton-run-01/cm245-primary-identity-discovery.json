@@ -1,0 +1,354 @@
+{
+  "at": "2026-10-20T04:50:08.108622+00:00",
+  "rows": [
+    {
+      "key": "2015AH03",
+      "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet",
+      "params": {
+        "key": "2015AH03",
+        "search-type": "keynumber",
+        "page": 1,
+        "size": 10
+      },
+      "http_status": 200,
+      "bytes": 2671,
+      "sha256": "7a3120f0d8320835796a53b4aa46bdc4ce417b21eddf81c8b2cbba97e41fc766",
+      "totalResults": 1,
+      "records": [
+        {
+          "keyNumber": "2015AH03",
+          "publicationYear": 2015,
+          "isPrimary": true,
+          "entryDate": "2015-05-04",
+          "modificationDate": "2015-08-10",
+          "codenText": "JOUR PRVCA 91 044310",
+          "referenceType": "JOURNAL",
+          "journalCode": "PRVCA",
+          "indexInformation": "91 044310",
+          "referenceText": "Phys.Rev. C 91, 044310 (2015)",
+          "authors": [
+            {
+              "initials": [
+                "I"
+              ],
+              "lastName": "Ahmad"
+            },
+            {
+              "initials": [
+                "J",
+                "P"
+              ],
+              "lastName": "Greene"
+            },
+            {
+              "initials": [
+                "F",
+                "G"
+              ],
+              "lastName": "Kondev"
+            },
+            {
+              "initials": [
+                "S"
+              ],
+              "lastName": "Zhu"
+            }
+          ],
+          "collaborations": [],
+          "title": "High-resolution |a and electron spectroscopy of {-98}{+249}Cf",
+          "doi": "10.1103/PhysRevC.91.044310",
+          "sentenceGroups": [
+            {
+              "topic": "RADIOACTIVITY",
+              "textFormat": "EXCHANGE",
+              "sentences": [
+                {
+                  "indexed": true,
+                  "phrases": [
+                    {
+                      "primaryType": "DECAY",
+                      "text": "{+249}Cf(|a)"
+                    },
+                    {
+                      "primaryType": "MEASURED",
+                      "text": "measured E|a, I|a, E(ce), I(ce), Eg, I|g, |a|g-, |g|g-coin using Argonne double-focusing magnetic spectrometer, planar silicon (PIPS) detector, cooled Si(Li) spectrometer, and LEPS detector"
+                    }
+                  ]
+                },
+                {
+                  "indexed": true,
+                  "phrases": [
+                    {
+                      "primaryType": "NUCLIDE",
+                      "text": "{+245}Cm"
+                    },
+                    {
+                      "primaryType": "DEDUCED",
+                      "text": "deduced levels, J, |p, conversion coefficients for K and higher shells, multipolarity, alpha branching ratios and hindrance factors, bands, configurations, anomalous E1 conversion coefficients"
+                    }
+                  ]
+                },
+                {
+                  "indexed": false,
+                  "phrases": [
+                    {
+                      "text": "Systematics of anomalous E1 conversion coefficients for E1 transitions in {+227}Ac,{+231},{+233}Pa,{+237}Np,{+239}Pu,{+243}Am,{+245}Cm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "selectorGroups": [
+            {
+              "selectors": [
+                "P:249CF;A.",
+                "S:A-DECAY;A.",
+                "G:245CM;A.",
+                "M:A-SPECTRA;A.",
+                "M:CE;A.",
+                "M:G-SPECTRA;A.",
+                "N:245CM;B.",
+                "D:LEVEL-PROP;B.",
+                "D:CE;B.",
+                "D:G-MULTIPOLARITY;B."
+              ]
+            }
+          ],
+          "atomicMassSelectors": [],
+          "atomicNumberSelectors": [],
+          "nuclideSelectors": [
+            {
+              "nuclideSubType": "PARENT",
+              "z": 98,
+              "n": 151,
+              "a": 249,
+              "elementName": "Californium",
+              "elementSymbol": "Cf",
+              "selectorFlag": "A"
+            },
+            {
+              "nuclideSubType": "DAUGHTER",
+              "z": 96,
+              "n": 149,
+              "a": 245,
+              "elementName": "Curium",
+              "elementSymbol": "Cm",
+              "selectorFlag": "A"
+            },
+            {
+              "z": 96,
+              "n": 149,
+              "a": 245,
+              "elementName": "Curium",
+              "elementSymbol": "Cm",
+              "selectorFlag": "B"
+            }
+          ],
+          "reactionSelectors": [],
+          "subjectSelectors": [
+            {
+              "subjectCode": "A-DECAY",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "MEASURED",
+              "subjectCode": "A-SPECTRA",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "MEASURED",
+              "subjectCode": "CE",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "MEASURED",
+              "subjectCode": "G-SPECTRA",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "DEDUCED",
+              "subjectCode": "LEVEL-PROP",
+              "selectorFlag": "B"
+            },
+            {
+              "subjectSubType": "DEDUCED",
+              "subjectCode": "CE",
+              "selectorFlag": "B"
+            },
+            {
+              "subjectSubType": "DEDUCED",
+              "subjectCode": "G-MULTIPOLARITY",
+              "selectorFlag": "B"
+            }
+          ],
+          "errataEntries": [],
+          "pdfAvailable": false,
+          "xundlAvailable": true,
+          "exforKeys": []
+        }
+      ]
+    },
+    {
+      "key": "1977BA67",
+      "url": "https://www.nndc.bnl.gov/nsr/KeyNumberSearchServlet",
+      "params": {
+        "key": "1977BA67",
+        "search-type": "keynumber",
+        "page": 1,
+        "size": 10
+      },
+      "http_status": 200,
+      "bytes": 1946,
+      "sha256": "27e0dcbcf68297e85537fcd982615ec3341fb3b446580c27010e9a79dedfc1f2",
+      "totalResults": 1,
+      "records": [
+        {
+          "keyNumber": "1977BA67",
+          "publicationYear": 1977,
+          "isPrimary": true,
+          "entryDate": "1980-06-25",
+          "codenText": "JOUR IANFA 41 1258",
+          "referenceType": "JOURNAL",
+          "journalCode": "IANFA",
+          "indexInformation": "41 1258",
+          "referenceText": "Izv.Akad.Nauk SSSR, Ser.Fiz. 41, 1258 (1977); Bull.Acad.Sci.USSR, Phys.Ser. 41, No.6, 130 (1977)",
+          "authors": [
+            {
+              "initials": [
+                "S",
+                "A"
+              ],
+              "lastName": "Baranov"
+            },
+            {
+              "initials": [
+                "S",
+                "A"
+              ],
+              "lastName": "Shestopalova"
+            },
+            {
+              "initials": [
+                "I",
+                "F"
+              ],
+              "lastName": "Uchevatkin"
+            },
+            {
+              "initials": [
+                "V",
+                "M"
+              ],
+              "lastName": "Shatinskii"
+            }
+          ],
+          "collaborations": [],
+          "title": "|g-Radiation and Conversion-Electron Spectra for {+249}Cf",
+          "sentenceGroups": [
+            {
+              "topic": "RADIOACTIVITY",
+              "textFormat": "EXCHANGE",
+              "sentences": [
+                {
+                  "indexed": true,
+                  "phrases": [
+                    {
+                      "primaryType": "NUCLIDE",
+                      "text": "{+249}Cf"
+                    },
+                    {
+                      "primaryType": "MEASURED",
+                      "text": "measured E|g,I|g,I(ce),E|a"
+                    },
+                    {
+                      "primaryType": "DEDUCED",
+                      "text": "deduced |g-multipolarities"
+                    }
+                  ]
+                },
+                {
+                  "indexed": true,
+                  "phrases": [
+                    {
+                      "primaryType": "NUCLIDE",
+                      "secondaryType": "DEDUCED",
+                      "text": "{+245}Cm deduced levels,J,K,|p"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "selectorGroups": [
+            {
+              "selectors": [
+                "P:249CF;A.",
+                "M:G-SPECTRA;A.",
+                "M:CE;A.",
+                "M:A-SPECTRA;A.",
+                "D:OTHER;A.",
+                "N:245CM;B.",
+                "D:LEVEL-PROP;B."
+              ]
+            }
+          ],
+          "atomicMassSelectors": [],
+          "atomicNumberSelectors": [],
+          "nuclideSelectors": [
+            {
+              "nuclideSubType": "PARENT",
+              "z": 98,
+              "n": 151,
+              "a": 249,
+              "elementName": "Californium",
+              "elementSymbol": "Cf",
+              "selectorFlag": "A"
+            },
+            {
+              "z": 96,
+              "n": 149,
+              "a": 245,
+              "elementName": "Curium",
+              "elementSymbol": "Cm",
+              "selectorFlag": "B"
+            }
+          ],
+          "reactionSelectors": [],
+          "subjectSelectors": [
+            {
+              "subjectSubType": "MEASURED",
+              "subjectCode": "G-SPECTRA",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "MEASURED",
+              "subjectCode": "CE",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "MEASURED",
+              "subjectCode": "A-SPECTRA",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "DEDUCED",
+              "subjectCode": "OTHER",
+              "selectorFlag": "A"
+            },
+            {
+              "subjectSubType": "DEDUCED",
+              "subjectCode": "LEVEL-PROP",
+              "selectorFlag": "B"
+            }
+          ],
+          "errataEntries": [],
+          "pdfAvailable": false,
+          "xundlAvailable": false,
+          "exforKeys": []
+        }
+      ]
+    }
+  ],
+  "scope": "officialbibliography only, primarybodies not obtained"
+}

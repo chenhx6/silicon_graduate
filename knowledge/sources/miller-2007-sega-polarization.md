@@ -80,6 +80,7 @@ tags: [SeGA, polarization, Compton-polarimetry, detector-response]
 | MI07-D17-13 | 作者要求higherenergy/inbeam pureD/Q标定；tracking是future改善，原SeGA模拟fastbeam potential不等已测31/33Mg parity或newdigitalorderingresponse。 | readiness-and-proposal-boundary | direct-and-self-audit | printed718 Outlook | true |
 | MI07-D17-14 | Eq4的Q0=(1+α)/(1+α+α²)精确是singleCompton90°reference；一般Eq3最大θ在α>0略小于90。333/388理论max角84.936/83.889、qmax.807179/.769044，相比q90 .795473/.753179高约1.47/2.11%；不把sourcecurve重新归一或改publishedQrel。 | cross-source-analytic-scope | derived-and-matching-definition | printed714 Eq4; MI07-D17-4; GR97-D17-2 | true |
 | MI07-D17-15 | 若把本文limitedtoQ0措辞理解为任何Compton角的严格上界，general-angle核给反例；本任务只限制该字面外推，不指认原SeGA测量失败。maxpointq不等fullmultipletransport bound或最优FOM，actualSeGA阈值未给不从别器件移。 | interpretation-and-transfer-boundary | source-plus-task-counterexample | printed714 Eq4 paragraph; printed718 Outlook | true |
+| MI07-D17-16 | 当前202305官方Cm245对象给同388.170母态的333.37/388.15均(E1)/MR空，并保1977混合幅度及2015 anomalousE1 ICC解释。它限制将本文pureE1假定跨版本当独立测得δ0，不证明本实验Q失败，也不从electronanomaly直接重标gammaP。 | evaluated-reference-companion-boundary | cross-source-synthesis | N245-2; N245-3; N245-4; N245-5; printed715 Sec3.1 | true |
 
 ## Summary
 
@@ -124,3 +125,7 @@ Miller *et al.* establish a practical side-irradiated SeGA polarization calibrat
 决定`supports`实际sidegeometry可以polarimetry、`limits`跨energy/inbeam/array和Table1裸merit转用。sameparent两E1 oppositeP是sourcecontrol，不是两独立标定谱系；与Jones2002/Falk1970方法/历史参考须保依赖。没有新核Jπ/δ/P实验测量或现代fastbeam响应认证。
 
 新pointQ上界问题的定向primarycompanion为[[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-D17-1–4（本session只新读462/466两页），新推导在[[compton-polarimetry]]“90度点参考不是全角最大分析能力”；本MI07完整6页scope和实际标定值不变。
+
+### Cm245官方参考的新输入
+
+[[nndc-2023-cm245-cf249-polarization-reference]] N245-1–15是本session新获取的202305评价两个完整对象，不是本篇2007实验的独立Q验证。保当前(E1)/空MR、旧无显式号MR评论、分壳转换异常与BrIccmodel列；未取得2015/1977primarybody/phase/实际SeGAΣ，不能据此给新的P/Q修正或作parity重裁。

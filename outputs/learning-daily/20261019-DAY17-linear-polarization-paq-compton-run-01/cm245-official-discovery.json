@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-20T04:38:57.496290+00:00",
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "payload": {
+    "nuc": "245CM",
+    "searchType": "quick",
+    "datasource": "ensdf",
+    "nsrch": "Search"
+  },
+  "tls_verification": true,
+  "scientific_body_obtained": false,
+  "http_status": 200,
+  "response_bytes": 8016,
+  "response_sha256": "d933ed1ee837d20590aa77bba6055df55bf9f807961d714f838806ca449fa9b0",
+  "selected_keys_in_returned_list": [
+    "245096001,245CM",
+    "245096002,245CM",
+    "245096003,245CM",
+    "245096004,245CM",
+    "245096005,245CM"
+  ],
+  "list_contains_245Cm_marker": true
+}

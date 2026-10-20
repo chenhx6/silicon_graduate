@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-20T05:04:27.570015+00:00",
+  "writer_exit": 1,
+  "failed_path": "knowledge/methods/internal-conversion.md",
+  "reason": "FileNotFoundError; correct owning page is internal-conversion-analysis.md",
+  "written_before_failure": [
+    "newN245source",
+    "MI07companion",
+    "sharedcalcompanion"
+  ],
+  "no_duplicate_reapply": "resume after failed step only",
+  "verification_first_exit": 1,
+  "verification_reason": "contract085 not created because writer had stopped"
+}
