@@ -1,0 +1,32 @@
+{
+  "full_output_local": "lint-006.json",
+  "full_sha256": "9a836832f9b0b9eadc6709583600836f88fa5d94169fc6cf538b6849285f265e",
+  "counts": {
+    "warning": 247,
+    "info": 3416
+  },
+  "governance": {
+    "page_unreviewed": 608,
+    "source_unreviewed": 304,
+    "claims_total": 4096,
+    "claim_needs_review": 3416,
+    "claim_missing_locator": 0,
+    "claim_missing_kind": 0,
+    "source_missing_raw_file": 0,
+    "source_missing_citation_key": 165
+  },
+  "newsourcewarnings": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "RAW_MISSING",
+      "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+      "message": "raw/nuclear-data/day18-20261020/58Fe-Adopted-201004.ens unavailable; hash check not executed"
+    }
+  ]
+}

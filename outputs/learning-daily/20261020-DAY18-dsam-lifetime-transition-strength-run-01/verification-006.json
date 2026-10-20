@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-20T16:40:41.047508+08:00",
+  "lint-005.json": {
+    "exit": 1,
+    "counts": {
+      "error": 2,
+      "warning": 247,
+      "info": 3416
+    },
+    "errors": [
+      {
+        "severity": "error",
+        "code": "WIKILINK_BROKEN",
+        "path": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+        "message": "unresolved [[1/4,−1/2]]"
+      },
+      {
+        "severity": "error",
+        "code": "WIKILINK_BROKEN",
+        "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+        "message": "unresolved [[1/4,−1/2]]"
+      }
+    ]
+  },
+  "boundary-004.json": {
+    "exit": 0
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      18
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 18,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+      "knowledge/index.md",
+      "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md"
+    ],
+    "changed_paths": [
+      "knowledge/index.md",
+      "knowledge/methods/doppler-shift-attenuation-method.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+      "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+      "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "exercise13": true,
+  "diffcheck": {
+    "exit": 0,
+    "output": ""
+  },
+  "valid": false
+}

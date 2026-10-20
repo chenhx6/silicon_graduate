@@ -576,3 +576,15 @@ SC26-9/12是另一反证：4043态候选6+及820keV支的“experimental”B88e�
 WO26-10保TableVIII首stat/第二含stop误差以及prose.66(6)与VI/VIII/IX.66(8)的literal差异，不重复quadrature。WO26-12保effectivecharge点簇不定斜率、prose1.33/caption1.3与basis依赖，不把壳模型贴合替代实验校准。
 
 下一能改变认识的actualinput是：目标τ约束的Gosia权重/去约束profile、fixedbuffer与referenceB/τ的官方原源谱系、独立Qs4或更强相位观测。只做更多E2图gauge枚举不能量化原constraint贡献；当前真实B/τ/CI重拟仍not-ready。所有新claims待审，未给独立盲测或下一卡学分，原次日15点窗口继续。
+
+## Day18官方58Fe参考：同一B的τ与矩阵元
+
+[[nndc-2010-fe58-reference-lifetime-lineage]] F58-1–8来自本session新取的exactENSDF201004三个对象。Adopted只读header/低态选段、Coulomb34行与αpγ140行全读；download2026不是新评价。官方811T评论直接写由1981Le02 B(E2)=.1234(.0036)推得，静态Q同primary；新NSR两querySSL失败无body、不降TLS。旧原实验未读不预填其phase/Σ。
+
+F58-2/4给811half-life6.54(.19)ps→mean9.43523(.27411)ps，同paperadopted9.4(.3)对应。Coulomb励起Bup=.1234的声明E2chart给M=.351283eb、Bdown=.02468e²b²；fixedprintedICC/γ的现代rate给τ9.43732ps。相合只是单位/率核算，不增加独立measurement，也不据其认证原Gosia执行细节。原.351(.006)、9.4(.3)及官方旧值均保持。
+
+如果在固定E/branch/ICC下只保一primitive x=lnBup，则lnM=x/2、lnτ=c−x，Cov=Var(x)C，其中C的两行为(1/4,−1/2)与(−1/2,1)，rank1且corr−1。新[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/fe58-official-input-contract-004.json)/[程序](../../system/scripts/day18_fe58_reference_lineage_audit.py)/[13项结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/fe58-official-input-result-004.json)将数值variance代入明确列为局部设计，不冒actualGosiaCov。真实额外输入可破rank1；B与静态Q虽同研究，不能未经原Σ设corr=±1。
+
+F58-5/6还保oldreaction2076T.37ps→mean.5338ps与paperold.54的桥；Adoptedtarget.28ps是三个oldhalflife的加权，不是2026newτ。RI76.4与δ−.69属于F58-7的另一2+2支路输入，不能当全parentphotonbranch或用旧half替新mean。
+
+认识变化是原“independentreference lifetime”箭头要回到同CoulombB。actualGosia是否重复使用该primitive、normalization有何特殊处理，仍需原weights/job，不能因官方依赖就判doublecount已发生或给CI修正。下一输入优先原1981Coulomb的B/Q/矩阵元合同、Gosia可执行输入/去targetτprofile及独立静态Q，而非继续同一率换算。

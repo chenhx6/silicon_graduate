@@ -70,14 +70,14 @@
     "original_deadline_preserved": true
   },
   "research_status": "active",
-  "last_checkpoint": "002 published; currentDay18issuescontinue",
+  "last_checkpoint": "003 published; officialreferencequestionactive",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Read current Cr54 DSAM reanalysis and audit stopping and model dependencies",
-    "commit_hash": "d110b9a68b64a1dc31fbb09d48b5c893ed4d481d",
+    "subject": "Trace Fe58 Coulomb input dependencies and exact relative phase classes",
+    "commit_hash": "7e17f098d9d9ae2681646b62ff41e881946e8e34",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-002.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-003.json"
   }
 }

@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含16atomic映射项/7owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含21atomic映射项/8owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -48,6 +48,13 @@ updated: 2026-10-20
 当前首交付完成后仍有原方法/校准高价值路线，不能用两个槽位读完提前收束。最新时间快照与候选更新随checkpoint记录；硬截止次日15点保持。
 
 ## Sources and evidence
+
+### checkpoint004：官方reference的同源B/τ与halfmean
+
+[[nndc-2010-fe58-reference-lifetime-lineage]]新exactENSDF201004对象Adopted1139行只读header/低态选段、Coulomb34行和55Mnαpγ140行全读；scope/三hash/payload已存，download2026不新评价。官方811态T评论明确由1981Le02 B(E2)=.1234(.0036)推得，静态Q同primary；NSR两querySSL失败无body，不降TLS/不预填旧原件。
+
+F58-2/4的half6.54(.19)→mean9.43523(.27411)ps与WO26的9.4(.3)对应，B/RME/τ不能独立计数。新[13checks](20261020-DAY18-dsam-lifetime-transition-strength-run-01/fe58-official-input-result-004.json)核三hash/literalcomment、meanhalf、RME/rate与固定E/branch/ICC单logB primitive rank1设计，不冒actualGosiaΣ或doublecount已发生。oldreaction.37half→.5338mean只作source角色桥。新source8claims待审、WO26旧14flags保持；actualGosiaweights/去targetτprofile和1981B/QΣ仍readiness。
+
 
 ### checkpoint003：新58Fe原件的独立性与phase输入
 
@@ -78,6 +85,11 @@ Gascon/Currie/Bacelar的当前primaryroute只得metadata/失败：Crossref/OpenA
 原τ、B、Qt和新复算同源；Jensen四Qt非四独立lifetime。新全部五claim均needs_review、旧flags保留，未设human-reviewed。
 
 ## Theory/analysis exercise
+
+### checkpoint004官方reference依赖
+
+固定E/branch/ICC且仅x=lnBup随机时，lnM=x/2、lnτ=c−x，jointlogCov为Var(x)C，其中C的两行为(1/4,−1/2)与(−1/2,1)；13checks只演示该条件rank1，不假定实际B/Q全Cov或Gosia权重。原paper.351(.006)/9.4(.3)与officialvalues保持，不从误差打印差反解原recipe。
+
 
 ### checkpoint003真实phase图与输入审计
 
@@ -115,7 +127,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 
 ## Durable knowledge delta
 
-唯一writeback的每reference只给一个exactatomiclocator；理论推导在summary标本任务条件分析，不冒source直接报告。当前7个owning知识页相对启动baseline发生实际变更，16项映射。
+唯一writeback的每reference只给一个exactatomiclocator；理论推导在summary标本任务条件分析，不冒source直接报告。当前8个owning知识页相对启动baseline发生实际变更，21项映射。
 
 ```knowledge-writeback
 {
@@ -512,6 +524,133 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "WO26-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+      "anchor": "Key Results",
+      "summary": "新exact官方三对象、811参考T由同B推得/halfmean/静态Q及旧DSAM谱系；8新claims待审",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Day18官方58Fe参考：同一B的τ与矩阵元",
+      "summary": "同B→RME/meanτ的单primitive条件rank1和13checks；不据依赖判actualGosia重复计权/CI修正",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-6"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-7"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "F58-2/4进一步核官方811参考τ",
+      "summary": "更新reference数量与mean/half-life方法边界，不把derived字段计独立observations",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "anchor": "后续actualNNDC对象",
+      "summary": "实际官方来源细化WO26referenceB/τ/Q共同谱系，原14claim/flags保留；actualjob仍缺",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "exact官方811参考B/半衰期/静态Q同1981来源",
+      "summary": "新58Fe官方source入口及canonical依赖审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2010-fe58-reference-lifetime-lineage.md",
+          "locator": "F58-1"
+        }
+      ]
     }
   ]
 }
@@ -526,6 +665,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint004首次lint005将矩阵的双中括号误认Wiki链接而报两error；已换明确行记法、数值/claim/flags不变，失败保留。当前verification007/report/21writeback项8页/partial18coverage/lint006/boundary004/diff和13newchecks实际通过；lint0errors247warnings（4parse165key78raw槽）。Farmer42019仍running，本thread无pending、全Wiki另2pending；原window/goalactive，next18/count17保持。
 
 checkpoint003的verification005/lint004/boundary003/report/16writeback项7页/diff已实际通过，0errors245warnings（4parse164key77raw槽）；新phase20checks与旧sourceflags保持。
 

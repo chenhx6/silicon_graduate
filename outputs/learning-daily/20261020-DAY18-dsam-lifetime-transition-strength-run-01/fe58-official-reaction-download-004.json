@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-20T16:30:13.417709+08:00",
+  "scope_extension": "exact55Mn(alpha,pg)dataset needed to distinguish oldreportedmeanτ from compiledhalf-life; same58Fereferencequestion, no newcard",
+  "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+  "payload": {
+    "dbclass": "ensdf",
+    "page-source": "singular",
+    "datasetcheck": "58026007,58FE",
+    "chooseit": "ENSDF text format"
+  },
+  "status": 200,
+  "bytes": 11801,
+  "response_sha256": "c510079bf7658ce2b7c63c703109dfd5b6eda4807279b38dacccab6b5b50ea3a",
+  "file": "tmp/day18-20261020/fe58-official/alpha-pg.ens",
+  "sha256": "99a244e02eee5bcc21a3f275aec91c35a8417e2adb4894c04d0976ac0ea8167f",
+  "lines": 140,
+  "identity": " 58FE    55MN(A,PG)                    1977CA28,1978BO35         10NDS    201004"
+}

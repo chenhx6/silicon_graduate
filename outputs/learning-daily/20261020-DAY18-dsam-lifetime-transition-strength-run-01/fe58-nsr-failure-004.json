@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-20T16:34:34.831627+08:00",
+  "route": "NNDC NSR KeyNumberSearchServlet",
+  "keys": [
+    "1981Le02",
+    "1978Bo35"
+  ],
+  "result": "SSLError certificate validation on both exactqueries; no NSR response body; no TLS downgrade or credentials change",
+  "bibliographic_identity_boundary": "1981Le02 maps to Levineet al.PR C23 2441981 in alreadyreadWO26Ref29, but originalbody notread; NSRmetadata notsuccessfullyreverified",
+  "does_not_invalidate_successful_ensdf_objects": true
+}

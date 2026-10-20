@@ -1,0 +1,133 @@
+{
+  "scope": "unit/source-lineage and conditional deterministiccovariance; no originalGosiareplay or newexperimentalCI; no unitguess for literalMOME2-27.3",
+  "contract_sha256": "3b313fae8ee47f866b67617a3f2764c9083597e52cadf847c31e16cc6fc1b162",
+  "script_sha256": "555708d6c05aecd02a6aa9f2750ed977eb4eb812847f990a3c0d7f1de9286cdc",
+  "official_reference": {
+    "half_life_ps": 6.54,
+    "mean_tau_ps": 9.435225567413822,
+    "mean_uncertainty_scale_ps": 0.2741120577689031,
+    "B_up_e2b2_chart": 0.1234,
+    "B_down_e2b2_chart": 0.02468,
+    "RME_eb_chart": 0.35128336140500593,
+    "RME_local_uncertainty_scale_eb": 0.005124068480786148,
+    "rate_conversion_conditional_mean_tau_ps": 9.437320536934967,
+    "paper_RME_uncertainty_not_replaced": {
+      "RME_eb": ".351",
+      "RME_SD_eb": ".006",
+      "mean_tau_ps": "9.4",
+      "mean_tau_SD_ps": ".3"
+    }
+  },
+  "declared_log_covariance_logM_logtau": {
+    "matrix": [
+      [
+        0.0002127721053143117,
+        -0.0004255442106286234
+      ],
+      [
+        -0.0004255442106286234,
+        0.0008510884212572468
+      ]
+    ],
+    "determinant": 0.0,
+    "correlation": -1,
+    "fixed_E_branch_ICC_single_logB_only": true,
+    "variance_scale_from_printed_relativeB_is_illustrative": true,
+    "not_actual_Gosia_covariance_or_doublecount_finding": true
+  },
+  "old_reaction_half_mean_bridge": [
+    {
+      "level": "810.77",
+      "T_half_ps": "2.4",
+      "paper_old_mean_ps": "3.4",
+      "mean_ps_from_fixed_field": 3.4624680981335123,
+      "not_new_independent_lifetime": true
+    },
+    {
+      "level": "1674.75",
+      "T_half_ps": "1.6",
+      "paper_old_mean_ps": "2.30",
+      "mean_ps_from_fixed_field": 2.3083120654223417,
+      "not_new_independent_lifetime": true
+    },
+    {
+      "level": "2076.70",
+      "T_half_ps": ".37",
+      "paper_old_mean_ps": ".54",
+      "mean_ps_from_fixed_field": 0.5337971651289165,
+      "not_new_independent_lifetime": true
+    }
+  ],
+  "actual_Gosia_weights_or_target_constraint_free_fit": "not obtained",
+  "checks": [
+    {
+      "name": "adopted_official_object_hash",
+      "passed": true
+    },
+    {
+      "name": "coulex_official_object_hash",
+      "passed": true
+    },
+    {
+      "name": "alpha_pg_official_object_hash",
+      "passed": true
+    },
+    {
+      "name": "adopted_source_is_201004_not_2026",
+      "passed": true
+    },
+    {
+      "name": "adopted_half_life_explicitly_from_same_B",
+      "passed": true
+    },
+    {
+      "name": "coulex_T_explicitly_deduced",
+      "passed": true
+    },
+    {
+      "name": "coulex_B_reference_exact",
+      "passed": true
+    },
+    {
+      "name": "static_Q_same_primary_reference",
+      "passed": true
+    },
+    {
+      "name": "half_to_mean_matches_paper_precision",
+      "passed": true,
+      "official_mean_ps": 9.435225567413822,
+      "paper_mean_ps": 9.4
+    },
+    {
+      "name": "excitation_strength_RME_chart_matches_printed_reference",
+      "passed": true,
+      "chart_RME_eb": 0.35128336140500593
+    },
+    {
+      "name": "declared_single_primitive_log_cov_rank_one",
+      "passed": true,
+      "matrix": [
+        [
+          0.0002127721053143117,
+          -0.0004255442106286234
+        ],
+        [
+          -0.0004255442106286234,
+          0.0008510884212572468
+        ]
+      ],
+      "determinant": 0.0
+    },
+    {
+      "name": "declared_mean_lifetime_B_product_constant",
+      "passed": true
+    },
+    {
+      "name": "old_reaction_4plus_half_mean_role",
+      "passed": true
+    }
+  ],
+  "checks_total": 13,
+  "checks_passed": 13,
+  "all_passed": true
+}

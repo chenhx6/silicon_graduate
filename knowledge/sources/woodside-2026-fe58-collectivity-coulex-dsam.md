@@ -84,6 +84,8 @@ Gosia用SRIM能量损失及BrIcc、2+1→0+1作归一reference；有fixedbuffer�
 
 ## Knowledge Impact and Learning Decision
 
+后续actualNNDC对象[[nndc-2010-fe58-reference-lifetime-lineage]] F58-2/3/4把reference再细分：811态half-life6.54ps明确由同1981Le02的B(E2)推得，mean9.435ps与本paper9.4ps对应；固定RME.351eb与adoptedmeanτ不能自动当两个独立新测量。静态Q也同primary，但实际jointB/QΣ未知。F58-8只是固定E/branch/ICC单primitive的依赖模型；actualGosia权重、去targetτprofile仍待input，不裁原fit发生重复计权。
+
 `revises`[[stuchbery-2026-cr54-dsam-reevaluation]]对58Fe“独立Coulomb”二级简写：新采集可独立，最终强度的约束链须另审。`supports`[[lifetime-strength-audit-165tm-136nd]]按观测/fit/rate/geometry/解释分层；`limits`两方法同中心就算完全独立校验。与[[doppler-shift-attenuation-method]]互链，不能将58Fe百分数、Q4=0或八phase直接迁到165Tm/136Nd。
 
 ## Extracted Pages

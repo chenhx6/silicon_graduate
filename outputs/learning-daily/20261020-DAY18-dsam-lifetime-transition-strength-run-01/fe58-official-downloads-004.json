@@ -1,0 +1,43 @@
+{
+  "rows": [
+    {
+      "name": "adopted",
+      "key": "58026001,58FE",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "58026001,58FE",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_bytes": 92759,
+      "response_sha256": "cb7fb5eebd9066da25feb72cb3d76698a7b070b04b66e1333642b97dfe731a83",
+      "at": "2026-10-20T16:27:00.362727+08:00",
+      "ensdf_file": "tmp/day18-20261020/fe58-official/adopted.ens",
+      "sha256": "c322943905a154f113f18a5b1929e2345274298052590512e9e72ad3fde77a5f",
+      "line_count": 1139,
+      "identity_first_nonblank": " 58FE    ADOPTED LEVELS, GAMMAS                                  10NDS    201004"
+    },
+    {
+      "name": "coulex",
+      "key": "58026019,58FE",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "payload": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "58026019,58FE",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "response_bytes": 3215,
+      "response_sha256": "2492932d9c23897e577691535dadf04fdb14f253e08e4f628710d60ca29936dc",
+      "at": "2026-10-20T16:27:01.302516+08:00",
+      "ensdf_file": "tmp/day18-20261020/fe58-official/coulex.ens",
+      "sha256": "712fbff829d1023d8a5f2bbc0d574d2e06c4ccf909f64e4c762c70080a108acf",
+      "line_count": 34,
+      "identity_first_nonblank": " 58FE    COULOMB EXCITATION            1981LE02,2009EA02         10NDS    201004"
+    }
+  ],
+  "scope": "exactdatasetdownload/identity; nexttargetedphysicsreading, not wholeNuDatcurrent2026evaluation"
+}

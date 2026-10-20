@@ -1,0 +1,55 @@
+{
+  "frozen_at": "2026-10-20T16:33:15.776058+08:00",
+  "source_object_files": {
+    "adopted": "tmp/day18-20261020/fe58-official/adopted.ens",
+    "coulex": "tmp/day18-20261020/fe58-official/coulex.ens",
+    "alpha_pg": "tmp/day18-20261020/fe58-official/alpha-pg.ens"
+  },
+  "source_sha256": {
+    "adopted": "c322943905a154f113f18a5b1929e2345274298052590512e9e72ad3fde77a5f",
+    "coulex": "712fbff829d1023d8a5f2bbc0d574d2e06c4ccf909f64e4c762c70080a108acf",
+    "alpha_pg": "99a244e02eee5bcc21a3f275aec91c35a8417e2adb4894c04d0976ac0ea8167f"
+  },
+  "actualreadscope": {
+    "adopted": "header/provenance lines1–65 and selectedlowstate blocks67–133 only, not all1139lines",
+    "coulex": "full34lines",
+    "alpha_pg": "full140lines, selectedlifetime/branchroles quantitatively"
+  },
+  "question": "Are fixedreferenceRME and adopted2+1τ independent primitives?",
+  "official_inputs": {
+    "B_up_e2b2": ".1234",
+    "B_up_SD_e2b2": ".0036",
+    "gamma_MeV": ".8107593",
+    "alpha_printed": ".000332",
+    "half_life_ps": "6.54",
+    "half_life_SD_ps": ".19",
+    "BE2down_WU": "18.5",
+    "BE2down_WU_SD": ".6",
+    "coulex_reference": "1981Le02",
+    "coulex_T_comment": "deduced from B(E2)=0.1234 {I36}"
+  },
+  "oldreactionhalf_lives": [
+    {
+      "level": "810.77",
+      "T_half_ps": "2.4",
+      "paper_old_mean_ps": "3.4"
+    },
+    {
+      "level": "1674.75",
+      "T_half_ps": "1.6",
+      "paper_old_mean_ps": "2.30"
+    },
+    {
+      "level": "2076.70",
+      "T_half_ps": ".37",
+      "paper_old_mean_ps": ".54"
+    }
+  ],
+  "paper_gosia_reference": {
+    "RME_eb": ".351",
+    "RME_SD_eb": ".006",
+    "mean_tau_ps": "9.4",
+    "mean_tau_SD_ps": ".3"
+  },
+  "scope": "unit/source-lineage and conditional deterministiccovariance; no originalGosiareplay or newexperimentalCI; no unitguess for literalMOME2-27.3"
+}

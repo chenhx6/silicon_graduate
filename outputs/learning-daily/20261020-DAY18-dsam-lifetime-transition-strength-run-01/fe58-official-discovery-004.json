@@ -1,0 +1,121 @@
+{
+  "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+  "payload": {
+    "nuc": "58FE",
+    "searchType": "quick",
+    "datasource": "ensdf"
+  },
+  "status": 200,
+  "response_sha256": "ae97be050dca8b759b22ec6c9f187d5a0cd097ba2a7ee75a98f14bcde294d474",
+  "rows": [
+    {
+      "text": "ADOPTED LEVELS, GAMMAS 2010-04 All references",
+      "datasetcheck": "58026001,58FE"
+    },
+    {
+      "text": "58MN B- DECAY (3.0 S) 2010-04 All references",
+      "datasetcheck": "58026002,58FE"
+    },
+    {
+      "text": "58MN B- DECAY (65.4 S) 2010-04 All references",
+      "datasetcheck": "58026003,58FE"
+    },
+    {
+      "text": "58CO EC DECAY (70.86 D) 2010-04 All references",
+      "datasetcheck": "58026004,58FE"
+    },
+    {
+      "text": "48CA(13C,3NG) 2010-04 All references",
+      "datasetcheck": "58026005,58FE"
+    },
+    {
+      "text": "54CR(6LI,D) 2010-04 All references",
+      "datasetcheck": "58026006,58FE"
+    },
+    {
+      "text": "55MN(A,PG) 2010-04 All references",
+      "datasetcheck": "58026007,58FE"
+    },
+    {
+      "text": "56FE(T,P),(POL T,P) 2010-04 All references",
+      "datasetcheck": "58026008,58FE"
+    },
+    {
+      "text": "56FE(A,2HE) 2010-04 All references",
+      "datasetcheck": "58026009,58FE"
+    },
+    {
+      "text": "57FE(N,G) E=TH 2010-04 All references",
+      "datasetcheck": "58026010,58FE"
+    },
+    {
+      "text": "57FE(N,G),(N,N):RESONANCES 2010-04 All references",
+      "datasetcheck": "58026011,58FE"
+    },
+    {
+      "text": "57FE(D,P),(POL D,P) 2010-04 All references",
+      "datasetcheck": "58026012,58FE"
+    },
+    {
+      "text": "58FE(E,E') 2010-04 All references",
+      "datasetcheck": "58026013,58FE"
+    },
+    {
+      "text": "58FE(N,N'G) 2010-04 All references",
+      "datasetcheck": "58026014,58FE"
+    },
+    {
+      "text": "58FE(P,P') 2010-04 All references",
+      "datasetcheck": "58026015,58FE"
+    },
+    {
+      "text": "58FE(D,D'),(POL D,D') 2010-04 All references",
+      "datasetcheck": "58026016,58FE"
+    },
+    {
+      "text": "58FE(3HE,3HE') 2010-04 All references",
+      "datasetcheck": "58026017,58FE"
+    },
+    {
+      "text": "58FE(A,A') 2010-04 All references",
+      "datasetcheck": "58026018,58FE"
+    },
+    {
+      "text": "COULOMB EXCITATION 2010-04 All references",
+      "datasetcheck": "58026019,58FE"
+    },
+    {
+      "text": "59CO(G,P) 2010-04 All references",
+      "datasetcheck": "58026020,58FE"
+    },
+    {
+      "text": "59CO(MU-,NG) 2010-04 All references",
+      "datasetcheck": "58026021,58FE"
+    },
+    {
+      "text": "59CO(N,D) 2010-04 All references",
+      "datasetcheck": "58026022,58FE"
+    },
+    {
+      "text": "59CO(P,2P) 2010-04 All references",
+      "datasetcheck": "58026023,58FE"
+    },
+    {
+      "text": "59CO(D,3HE) 2010-04 All references",
+      "datasetcheck": "58026024,58FE"
+    },
+    {
+      "text": "60NI(MU-,NUPNG) 2010-04 All references",
+      "datasetcheck": "58026025,58FE"
+    },
+    {
+      "text": "62NI(3HE,7BE) 2010-04 All references",
+      "datasetcheck": "58026026,58FE"
+    },
+    {
+      "text": "CU(K-,G) 2010-04 All references",
+      "datasetcheck": "58026027,58FE"
+    }
+  ],
+  "scope": "discoverymetadataonly; no physicsrow read"
+}

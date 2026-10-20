@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-20T16:35:49.774611+08:00",
+  "actualreadscope": {
+    "adopted": "header/provenance1–65,67–133 selected lowstateblocks; not whole1139",
+    "coulex": "complete34lines",
+    "alpha_pg": "complete140lines, selectedτ/branchrole arithmetic"
+  },
+  "source_identity": "201004 ENSDF/NDS111897 cutoff12Jan2010; adopted2013JPIerrata preserved; retrieval2026notnewmeasurement",
+  "source_sha256": {
+    "adopted": "c322943905a154f113f18a5b1929e2345274298052590512e9e72ad3fde77a5f",
+    "coulex": "712fbff829d1023d8a5f2bbc0d574d2e06c4ccf909f64e4c762c70080a108acf",
+    "alpha_pg": "99a244e02eee5bcc21a3f275aec91c35a8417e2adb4894c04d0976ac0ea8167f"
+  },
+  "atomic_locators": {
+    "F58-1": "adopted2–5 identity; coulex2–4; alpha-pg2–4",
+    "F58-2": "adopted82/99–105 andcoulex14/27–32 B/Tsame1981Le02",
+    "F58-3": "adopted85/96–97; coulex16/25–26 literalMOME2",
+    "F58-4": "alpha-pg5/26–40 Tfield andolddata tags",
+    "F58-5": "adopted117–124 oldweightedtargetT/B",
+    "F58-6": "adopted106–116 old2+2RI/MR/T"
+  },
+  "new_exercise": "fe58-official-input-result-004.json13checks; no originalexperimentalCI",
+  "NSR": "bothqueriesSSLerror; exactNSRmetadata/body notverified; no TLSdowngrade"
+}

@@ -18,6 +18,8 @@ Day18新独立分析入口：[[lifetime-strength-audit-165tm-136nd]]“Day18停�
 
 [[woodside-2026-fe58-collectivity-coulex-dsam]] WO26-2/4/5进一步区分新Coulombcounts与最终GosiaB：后者明确使用updatedDSAM的目标4+1τ及其它外部constraints，不能由方法名认全输入独立；也不能反判新counts没有信息。WO26-6/7/13的静态Qs、statephase闭环和same-pairδ分别保存，不迁到sidefeedingQs/Qt。
 
+[[nndc-2010-fe58-reference-lifetime-lineage]] F58-2/4进一步核官方811参考τ由同CoulombB推得，6.54ps为half-life而mean约9.435ps。F58-8的单primitive相关只在固定E/branch/ICC条件下成立；不能把adoptedT、derivedB及referenceRME按不同字段各计独立观测，实际Gosia计权仍需job。
+
 ## Purpose
 
 DSAM uses the attenuation of recoil Doppler shifts during slowing in target/backing material to constrain short excited-state lifetimes. Depending on the analysis, the measured observable is an angle-dependent centroid shift or the full Doppler-broadened γ-ray line shape. Forward and backward detector angles provide complementary velocity sensitivity.

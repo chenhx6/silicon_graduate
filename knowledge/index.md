@@ -19,6 +19,8 @@ updated: 2026-10-20
 
 ## Sources
 
+- [[nndc-2010-fe58-reference-lifetime-lineage]] — exact官方811参考B/半衰期/静态Q同1981来源、旧DSAMhalf/mean与Gosia输入依赖；非重复实验。
+
 - [[woodside-2026-fe58-collectivity-coulex-dsam]] — 新Coulomb计数与带DSAM约束的Gosia输出分开；八phase/Q相关、旧data重分析与actualinput缺口。
 
 - [[stuchbery-2026-cr54-dsam-reevaluation]] — 新原读54Cr旧DSAM重分析：电子/核停止分量、Ta/组合角色、模型δ与DCO反证，非新增实验。

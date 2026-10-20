@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-20T16:44:59.542095+08:00",
+  "original_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 1335.00763175,
+  "decision": "continue currentDay18; no nextcard",
+  "just_completed": "actualENSDFreferenceB/halfT/meanτ/common1981Q lineage and 13checks; Gosiaactualweights not solved",
+  "candidate_pool": [
+    {
+      "candidate": "1981Le02 Levine PRC23 244 originalreferenceCoulomb",
+      "priority": "high if accessible",
+      "question": "actualreferenceB/Q/phase and covariance/experimentalrole; NSRSSLfailed but WO26 bibliographyknown",
+      "body_status": "notread"
+    },
+    {
+      "candidate": "Petkov2018 CDDCM robustness",
+      "priority": "high methodologicalcounterpoint",
+      "question": "whichstoppinguncertaintyclass is calledrobust, and which clock/sidefeeding assumptions supplyinformation?",
+      "body_status": "OAmetadataverified/PDF403; no body"
+    },
+    {
+      "candidate": "actualGosiajob/constraintfreeprofile",
+      "priority": "high whenrealinputexists",
+      "question": "quantifynewcountinformation independentofupdatedDSAMtargetτ",
+      "body_status": "notin19filearxivsrc; no exactjobfound; no moretoy replacement"
+    }
+  ]
+}
