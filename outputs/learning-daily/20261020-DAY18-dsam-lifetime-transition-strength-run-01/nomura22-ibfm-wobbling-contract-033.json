@@ -1,0 +1,13 @@
+{
+  "target": "A ~ 130 low-spin wobbling candidates",
+  "theory_paper": "Nomura 2022 Phys. Rev. C 105:024320",
+  "table": "Table II",
+  "description": "Crosswalk audit between Nomura 2022 IBFM calculations and Day 18 small-root collapsed experimental rate audits",
+  "check_count": 4,
+  "checks": [
+    "135Pr_IBFM_delta_Lv2022_convergence",
+    "127Xe_IBFM_BE2_Day18_collapse_convergence",
+    "105Pd_IBFM_M1_dominance_verification",
+    "133La_IBFM_small_delta_trend_verification"
+  ]
+}

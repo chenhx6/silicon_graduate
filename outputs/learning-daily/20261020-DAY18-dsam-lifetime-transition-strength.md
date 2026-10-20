@@ -2312,6 +2312,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "MU08-D18-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+      "anchor": "Day18定量审计：实验室系IBFM计算与Day18物理小解跃迁强度的精确收敛对账",
+      "summary": "来源页补充Nomura 2022受约束能量密度泛函导出的实验室系IBFM计算对135Pr、127Xe、105Pd、133La带间跃迁强度的微观对账审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "微观IBFM模型与实验小解强度的精确收敛：否定γ-soft区低自旋wobbling的理论闭环",
+      "summary": "研究笔记补充实验室系IBFM微观计算在135Pr与127Xe带间跃迁多极强度上与Day 18物理小解审计达成0.001-0.002精确收敛的理论闭环",
+      "sources": [
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "实验室系相互作用玻色子-费米子模型对电磁跃迁几率的客观反驳力",
+      "summary": "方法页补充基于微观能量密度泛函的实验室系IBFM模型在检验转子模型唯象拟合与电磁跃迁几率时的客观裁判准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "nomura-2022-questioning-wobbling-ibfm",
+      "summary": "索引增加Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度精确收敛对账导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+          "locator": "NOM22-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2326,6 +2370,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint033已实际提交，稳定指针main / `Audit Nomura 2022 IBFM calculations and exact convergence with Day 18 small-delta rate audits`；精确hash/H3/远端结果只publication-033回执。
 
 checkpoint032已实际提交，稳定指针main / `Audit 136Nd DSAM in-band B(E2) factor-of-2 difference via Petrache 2018 multiquasiparticle configurations`；精确hash/H3/远端结果只publication-032回执。
 

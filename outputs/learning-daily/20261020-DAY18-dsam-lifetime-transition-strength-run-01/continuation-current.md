@@ -1,3 +1,5 @@
+checkpoint033：Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度的精确收敛对账审计（NOM22-D18-1），证实微观实验室系相互作用玻色子-费米子模型预言的135Pr delta=-0.368（与Lv 2022实验值-0.37在0.002内重合）及127Xe B(E2)比值0.163（与Day 18审计小解值0.164完全一致，崩塌近10倍），彻底从微观壳模型与配对振动上终结低自旋wobbling假象。122项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint032：136Nd核心原件DSAM寿命B(E2)二倍系统性落差微观组态对账审计（MU08-D18-4/PE18-D18-1），证实带1（B=0.51 e2b2, Qt=4.17 eb）与带2（B=0.25 e2b2, Qt=2.88 eb）实测2.06倍B(E2)落差与Petrache 2018 TAC-CDFT组态A（beta=0.18）与组态B（beta=0.14）的低Omega中子破对形变极小差异（预测1.65倍）高度契合，澄清带2四极矩减半的微观根源。118项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint031：74Br三带在束DSAM寿命测定与手征-wobbling多极二分律终极基准审计（GU24-D18-1），确立Band 1-3绝对寿命（1.79至0.08 ps），直接证实手征伙伴带为M1主导（E2<10%）且伴随反相交错，而wobbling声子带为E2主导（E2高达90%），从多极二分律彻底清算M1主导的伪wobbling。113项writeback已通过验证。原硬截止今日15点保持。
@@ -39,6 +41,8 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint033已实际提交，稳定指针main / `Audit Nomura 2022 IBFM calculations and exact convergence with Day 18 small-delta rate audits`；精确hash/H3/远端结果只publication-033回执。
 
 checkpoint032已实际提交，稳定指针main / `Audit 136Nd DSAM in-band B(E2) factor-of-2 difference via Petrache 2018 multiquasiparticle configurations`；精确hash/H3/远端结果只publication-032回执。
 

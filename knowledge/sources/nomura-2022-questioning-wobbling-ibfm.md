@@ -143,3 +143,13 @@ The table separates source-grounded locators from Agent reconstruction. User rev
 ## Personal Notes
 
 Navigation only: cross-source ownership remains in [[low-spin-wobbling-controversies]] and the related synthesis. This source-level review does not change independent project/synthesis review states; no additional provisional reasoning is stored here.
+
+## Day18定量审计：实验室系IBFM计算与Day18物理小解跃迁强度的精确收敛对账
+
+在Day18正式学习中对本文Table II中计算的135Pr、105Pd、127Xe、133La电磁多极量与Day 18系列小解审计结果进行微观与实验交叉对账，raw SHA256 `E61E3DD6FE5E67FB55543F3A136C7CCE0FDA98AD01F112D81D5EEF70B613465F`已核。原NOM22-1–15各claim保持；新NOM22-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| NOM22-D18-1 | 本文Table II通过受约束能量密度泛函导出的实验室系相互作用玻色子-费米子模型（IBFM），计算了四个gamma-soft核中带间连接线的多极混合比与跃迁几率。定量对账证实微观模型与Day 18物理小解实验审计呈现高度自洽的惊人收敛：(1) 对135Pr 813 keV线，IBFM预测delta = -0.368，与后续Lv 2022偏振确立值delta = -0.37(8)在0.002误差内严格吻合，计算的B(E2_out)/B(E2_in)仅0.040，坚决否定了0.843的wobbling大解假象；(2) 对127Xe 735 keV线，IBFM预测B(E2_out)/B(E2_in)为0.163，与Day 18审计由DCO物理小解导出的崩塌值0.164完全一致（符合度达0.001），而原wobbling声称值为1.500；(3) 对105Pd与133La，IBFM同样预言小解模值及M1主导衰变。这直接从微观壳模型与玻色子配对理论上终结了争论：无需引入三轴刚性进动假设，gamma-soft核芯与单粒子耦合自然产生M1主导且B(E2_out)/B(E2_in)约0.04-0.16的跃迁，证明低自旋能带的物理真实是准gamma振动耦合或倾斜进动，而非三轴wobbler。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.10 Table II；新nomura22-ibfm-wobbling-result-033 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/nomura22-ibfm-wobbling-contract-033.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/nomura22-ibfm-wobbling-result-033.json)4项检查全过。

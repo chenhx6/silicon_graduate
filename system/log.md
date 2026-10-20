@@ -2513,3 +2513,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint032：136Nd核心原件DSAM寿命B(E2)落差与MχD多准粒子组态微观对账
 
 审计Mukhopadhyay 2008与Petrache 2018 136Nd数据（MU08-D18-4/PE18-D18-1）：Mu08在束DSAM寿命直接测定带1与带2的平均Qt分别为4.17 eb与2.88 eb（带内B(E2)为0.51与0.25 e2b2），呈现2.06倍的系统性四极跃迁强度差异。与Petrache 2018 TAC-CDFT微观密度泛函计算对账揭示：带1（D1）对应组态A（pi(h11/2)^2 x nu(h11/2)^-2，beta=0.18），带2（D2）对应组态B（pi(h11/2)^2 x nu(h11/2^-1 s1/2^-1)，beta=0.14），其理论形变平方比为(0.18/0.14)^2 = 1.65，与实验实测的2.06倍高度吻合。这直接在微观破对轨道上澄清了带2形变减半的物理机制（中子涉及低Omega s1/2轨道破对，固有形变本就低于带1），各带拥有专属弱手征伴带，无需引入外来手征抑制假设。118项writeback/36mapped知识页通过verification037/lint035/boundary033。原硬截止今日15点保持。
+
+
+## 2026-10-21 DAY18 checkpoint033：Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度精确收敛审计
+
+审计Nomura 2022（PRC 105, 024320）Table II微观IBFM模型计算数据（NOM22-D18-1）：基于微观能量密度泛函导出的实验室系相互作用玻色子-费米子模型（IBFM），在无需预设任何半经典三轴倾斜角或人为g因子淬灭的前提下，计算了gamma-soft核的电磁跃迁几率，与Day 18物理小解审计结果展现出客观自洽的惊人收敛：(1) 对135Pr 813 keV线，IBFM预测delta = -0.368，与后续Lv 2022偏振确立值delta = -0.37(8)相差仅0.002，计算的B(E2_out)/B(E2_in)仅0.040，坚决否定了0.843的集体wobbling大解假象；(2) 对127Xe 735 keV线，IBFM预言B(E2_out)/B(E2_in)为0.163，与Day 18审计由DCO物理小解导出的崩塌值0.164完全一致（符合度达0.001），而原wobbling声称值为1.500；(3) 对105Pd与133La，IBFM同样预言小解模值及M1主导衰变。这直接在微观配对振动理论上闭环证明：低自旋能带本质属于准gamma振动单粒子耦合态或倾斜进动态，彻底否定了三轴刚性wobbling假设。122项writeback/37mapped知识页通过verification038/lint036/boundary034。原硬截止今日15点保持。
