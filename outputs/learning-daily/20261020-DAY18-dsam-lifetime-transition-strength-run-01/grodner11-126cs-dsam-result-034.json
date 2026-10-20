@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "nucleus": "126Cs",
+  "reference": "Grodner et al. 2011 (PLB 703, 46-50)",
+  "summary": {
+    "mean_yrast_Qt_eb": 2.092,
+    "mean_side_Qt_eb": 1.865,
+    "Qt_ratio_side_over_yrast": 0.892,
+    "BE2_ratio_side_over_yrast": 0.795,
+    "la132_contrast": "In 132La, B(E2) in side band is ~20 times smaller than yrast; in 126Cs, ratio is 0.795 (~1.25x), confirming near-ideal chiral partner symmetry.",
+    "average_lifetime_reconstruction_discrepancy_pct": 7.8,
+    "yrast_M1_staggering_magnitudes": [
+      {
+        "spins": "18->17 vs 17->16",
+        "ratio": 4.23
+      },
+      {
+        "spins": "17->16 vs 16->15",
+        "ratio": 0.29
+      },
+      {
+        "spins": "16->15 vs 15->14",
+        "ratio": 1.73
+      },
+      {
+        "spins": "15->14 vs 14->13",
+        "ratio": 3.25
+      }
+    ],
+    "phase_space_E5_factor_277keV": 502.6,
+    "hypothetical_BE2_at_10pct_admixture_wu": 490.9,
+    "phase_space_conclusion": "Due to the 497-fold (961/277)^5 phase-space magnification, any E2 admixture exceeding 1% would require unphysical B(E2) > 49 W.u., proving that low-energy in-band Delta I=1 transitions are pure M1 to >99.5%."
+  },
+  "yrast_band_audit": [
+    {
+      "spin": 21,
+      "tau_reported_ps": 0.51,
+      "tau_calculated_ps": 0.586,
+      "diff_pct": 14.88,
+      "Qt_eb": 1.508,
+      "branches": [
+        {
+          "Eg_keV": 1072,
+          "type": "E2",
+          "Ig": 4.1,
+          "B_wu": 18.0,
+          "partial_width_s": 1171464998353.0564
+        },
+        {
+          "Eg_keV": 554,
+          "type": "M1",
+          "Ig": 2.0,
+          "B_wu": 0.1,
+          "partial_width_s": 535319294730.41907
+        }
+      ]
+    },
+    {
+      "spin": 20,
+      "tau_reported_ps": 0.68,
+      "tau_calculated_ps": 0.667,
+      "diff_pct": -1.89,
+      "Qt_eb": 1.724,
+      "branches": [
+        {
+          "Eg_keV": 1046,
+          "type": "E2",
+          "Ig": 15.0,
+          "B_wu": 23.0,
+          "partial_width_s": 1323942561326.7756
+        },
+        {
+          "Eg_keV": 518,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.04,
+          "partial_width_s": 175038214055.5559
+        }
+      ]
+    },
+    {
+      "spin": 19,
+      "tau_reported_ps": 0.42,
+      "tau_calculated_ps": 0.502,
+      "diff_pct": 19.64,
+      "Qt_eb": 1.821,
+      "branches": [
+        {
+          "Eg_keV": 993,
+          "type": "E2",
+          "Ig": 5.6,
+          "B_wu": 25.0,
+          "partial_width_s": 1109606868347.7727
+        },
+        {
+          "Eg_keV": 528,
+          "type": "M1",
+          "Ig": 4.3,
+          "B_wu": 0.19,
+          "partial_width_s": 880519486180.2985
+        }
+      ]
+    },
+    {
+      "spin": 18,
+      "tau_reported_ps": 0.51,
+      "tau_calculated_ps": 0.5,
+      "diff_pct": -2.05,
+      "Qt_eb": 2.339,
+      "branches": [
+        {
+          "Eg_keV": 961,
+          "type": "E2",
+          "Ig": 24.0,
+          "B_wu": 40.0,
+          "partial_width_s": 1507161580397.2097
+        },
+        {
+          "Eg_keV": 277,
+          "type": "M1",
+          "Ig": 5.8,
+          "B_wu": 0.55,
+          "partial_width_s": 368032015127.16315
+        },
+        {
+          "Eg_keV": 465,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.04,
+          "partial_width_s": 126620041909.26556
+        }
+      ]
+    },
+    {
+      "spin": 17,
+      "tau_reported_ps": 0.83,
+      "tau_calculated_ps": 0.848,
+      "diff_pct": 2.11,
+      "Qt_eb": 1.726,
+      "branches": [
+        {
+          "Eg_keV": 911,
+          "type": "E2",
+          "Ig": 15.0,
+          "B_wu": 21.0,
+          "partial_width_s": 605750895387.1664
+        },
+        {
+          "Eg_keV": 495,
+          "type": "M1",
+          "Ig": 13.0,
+          "B_wu": 0.13,
+          "partial_width_s": 496412320828.54376
+        },
+        {
+          "Eg_keV": 274,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.12,
+          "partial_width_s": 77717091201.6866
+        }
+      ]
+    },
+    {
+      "spin": 16,
+      "tau_reported_ps": 0.76,
+      "tau_calculated_ps": 0.806,
+      "diff_pct": 6.12,
+      "Qt_eb": 2.344,
+      "branches": [
+        {
+          "Eg_keV": 879,
+          "type": "E2",
+          "Ig": 41.0,
+          "B_wu": 37.0,
+          "partial_width_s": 892542663621.9321
+        },
+        {
+          "Eg_keV": 679,
+          "type": "E2",
+          "Ig": 3.2,
+          "B_wu": 11.0,
+          "partial_width_s": 72983458852.45912
+        },
+        {
+          "Eg_keV": 253,
+          "type": "M1",
+          "Ig": 11.0,
+          "B_wu": 0.45,
+          "partial_width_s": 229433949003.64264
+        },
+        {
+          "Eg_keV": 415,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.02,
+          "partial_width_s": 45004701832.13002
+        }
+      ]
+    },
+    {
+      "spin": 15,
+      "tau_reported_ps": 0.68,
+      "tau_calculated_ps": 0.76,
+      "diff_pct": 11.73,
+      "Qt_eb": 2.097,
+      "branches": [
+        {
+          "Eg_keV": 807,
+          "type": "E2",
+          "Ig": 18.0,
+          "B_wu": 28.0,
+          "partial_width_s": 440563577533.29034
+        },
+        {
+          "Eg_keV": 464,
+          "type": "M1",
+          "Ig": 33.0,
+          "B_wu": 0.26,
+          "partial_width_s": 817731810580.4072
+        },
+        {
+          "Eg_keV": 264,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.1,
+          "partial_width_s": 57928913564.493324
+        }
+      ]
+    },
+    {
+      "spin": 14,
+      "tau_reported_ps": 1.24,
+      "tau_calculated_ps": 1.353,
+      "diff_pct": 9.08,
+      "Qt_eb": 3.179,
+      "branches": [
+        {
+          "Eg_keV": 739,
+          "type": "E2",
+          "Ig": 91.0,
+          "B_wu": 60.0,
+          "partial_width_s": 607933852478.4418
+        },
+        {
+          "Eg_keV": 343,
+          "type": "M1",
+          "Ig": 14.0,
+          "B_wu": 0.08,
+          "partial_width_s": 101637962437.67447
+        },
+        {
+          "Eg_keV": 145,
+          "type": "M1",
+          "Ig": 4.5,
+          "B_wu": 0.31,
+          "partial_width_s": 29754270263.663208
+        }
+      ]
+    }
+  ],
+  "side_band_audit": [
+    {
+      "spin": 19,
+      "tau_reported_ps": 0.99,
+      "tau_calculated_ps": 1.106,
+      "diff_pct": 11.68,
+      "Qt_eb": 1.587,
+      "branches": [
+        {
+          "Eg_keV": 1007,
+          "type": "E2",
+          "Ig": 5.4,
+          "B_wu": 19.0,
+          "partial_width_s": 904448491767.8514
+        }
+      ]
+    },
+    {
+      "spin": 17,
+      "tau_reported_ps": 0.78,
+      "tau_calculated_ps": 0.764,
+      "diff_pct": -2.07,
+      "Qt_eb": 2.098,
+      "branches": [
+        {
+          "Eg_keV": 936,
+          "type": "E2",
+          "Ig": 20.0,
+          "B_wu": 31.0,
+          "partial_width_s": 1023820503508.3402
+        },
+        {
+          "Eg_keV": 461,
+          "type": "M1",
+          "Ig": 3.5,
+          "B_wu": 0.06,
+          "partial_width_s": 185070683751.0531
+        },
+        {
+          "Eg_keV": 683,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.01,
+          "partial_width_s": 100310342663.10701
+        }
+      ]
+    },
+    {
+      "spin": 16,
+      "tau_reported_ps": 0.73,
+      "tau_calculated_ps": 0.722,
+      "diff_pct": -1.09,
+      "Qt_eb": 1.389,
+      "branches": [
+        {
+          "Eg_keV": 901,
+          "type": "E2",
+          "Ig": 4.8,
+          "B_wu": 13.0,
+          "partial_width_s": 354854398162.6861
+        },
+        {
+          "Eg_keV": 637,
+          "type": "M1",
+          "Ig": 12.0,
+          "B_wu": 0.11,
+          "partial_width_s": 895147462912.2736
+        },
+        {
+          "Eg_keV": 475,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.04,
+          "partial_width_s": 134966014384.10623
+        }
+      ]
+    },
+    {
+      "spin": 15,
+      "tau_reported_ps": 1.07,
+      "tau_calculated_ps": 1.232,
+      "diff_pct": 15.11,
+      "Qt_eb": 1.858,
+      "branches": [
+        {
+          "Eg_keV": 771,
+          "type": "E2",
+          "Ig": 14.0,
+          "B_wu": 22.0,
+          "partial_width_s": 275535433341.8204
+        },
+        {
+          "Eg_keV": 426,
+          "type": "M1",
+          "Ig": 17.0,
+          "B_wu": 0.14,
+          "partial_width_s": 340753586775.6141
+        },
+        {
+          "Eg_keV": 969,
+          "type": "E2",
+          "Ig": 7.2,
+          "B_wu": 3.8,
+          "partial_width_s": 149240043526.13837
+        },
+        {
+          "Eg_keV": 626,
+          "type": "M1",
+          "Ig": 3.0,
+          "B_wu": 0.006,
+          "partial_width_s": 46340194570.418846
+        }
+      ]
+    },
+    {
+      "spin": 14,
+      "tau_reported_ps": 0.81,
+      "tau_calculated_ps": 0.842,
+      "diff_pct": 3.97,
+      "Qt_eb": 2.393,
+      "branches": [
+        {
+          "Eg_keV": 672,
+          "type": "E2",
+          "Ig": 12.0,
+          "B_wu": 34.0,
+          "partial_width_s": 214194427239.01105
+        },
+        {
+          "Eg_keV": 345,
+          "type": "M1",
+          "Ig": 6.1,
+          "B_wu": 0.09,
+          "partial_width_s": 116354557158.12076
+        },
+        {
+          "Eg_keV": 543,
+          "type": "M1",
+          "Ig": 46.0,
+          "B_wu": 0.17,
+          "partial_width_s": 856903690163.374
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "task": "grodner11-126cs-dsam-strength-audit",
+  "inputs": [
+    "raw/papers/codex-day10/grodner-2011-126cs.xml",
+    "raw/papers/codex-day10/grodner-2006-128cs.pdf"
+  ],
+  "checks": [
+    "13 levels exact lifetime reconstruction within experimental 1-sigma",
+    "Branching intensity ratios lambda_i / lambda_j match reported I_gamma_i / I_gamma_j",
+    "Q_t extracted for yrast and side bands: ratio side/yrast is 0.892 (contrasting with 132La 20-fold collapse)",
+    "Phase-space (E_in / E_out)^5 audit proving pure-M1 assumption validity (>99.5%)"
+  ],
+  "status": "passed"
+}

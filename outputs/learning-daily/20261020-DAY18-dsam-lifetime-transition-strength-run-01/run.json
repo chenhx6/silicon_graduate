@@ -71,7 +71,7 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "033 published; original deadline preserved",
+  "last_checkpoint": "034 published; original deadline preserved",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit Nomura 2022 IBFM calculations and exact convergence with Day 18 small-delta rate audits"
+    "subject": "Audit 126Cs and 128Cs DSAM lifetimes, Qt deformation symmetry, and E^5 phase-space M1 purity"
   },
   "uncredited_preview": {
     "day_index": 19,

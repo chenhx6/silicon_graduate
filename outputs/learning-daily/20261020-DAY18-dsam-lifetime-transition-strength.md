@@ -2356,6 +2356,69 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "NOM22-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+      "anchor": "Day18定量审计：DSAM寿命到跃迁强度精确重构、四极矩Qt对称性与相空间透镜检验",
+      "summary": "来源页补充Grodner 2011 126Cs两手征带13个能级DSAM寿命、26个绝对跃迁强度物理重构与Qt对称性审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+      "anchor": "Day18定量审计：在束DSAM寿命测量、侧馈参数跨核迁移敏感性与四极跃迁两带对称性",
+      "summary": "来源页补充Grodner 2006 128Cs与132La完全阻停DSAM寿命测量、侧馈参数跨核迁移敏感性与132La 20倍BE2塌缩解构审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "奇奇核手征双重带的DSAM寿命、四极矩形变对称性与相空间多极纯度",
+      "summary": "研究笔记补充126Cs与128Cs手征双重带DSAM寿命提取、Qt形变对称性对账与低能Delta I=1跃迁相空间纯M1第一性原理辩护",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-1"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "低能带内跃迁的相空间放大效应与纯多极性物理自洽边界",
+      "summary": "方法页补充基于相空间(E_in/E_out)^5放大效应证明低能Delta I=1跃迁具有>99.5%天然纯M1的物理自洽边界准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "grodner-2011-126cs-chiral-selection-rules",
+      "summary": "索引增加126Cs与128Cs手征双重带DSAM寿命重构、Qt形变对称性与相空间透镜审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D18-1"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2370,6 +2433,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint034已实际提交，稳定指针main / `Audit 126Cs and 128Cs DSAM lifetimes, Qt deformation symmetry, and E^5 phase-space M1 purity`；精确hash/H3/远端结果只publication-034回执。
 
 checkpoint033已实际提交，稳定指针main / `Audit Nomura 2022 IBFM calculations and exact convergence with Day 18 small-delta rate audits`；精确hash/H3/远端结果只publication-033回执。
 

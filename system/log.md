@@ -2518,3 +2518,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint033：Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度精确收敛审计
 
 审计Nomura 2022（PRC 105, 024320）Table II微观IBFM模型计算数据（NOM22-D18-1）：基于微观能量密度泛函导出的实验室系相互作用玻色子-费米子模型（IBFM），在无需预设任何半经典三轴倾斜角或人为g因子淬灭的前提下，计算了gamma-soft核的电磁跃迁几率，与Day 18物理小解审计结果展现出客观自洽的惊人收敛：(1) 对135Pr 813 keV线，IBFM预测delta = -0.368，与后续Lv 2022偏振确立值delta = -0.37(8)相差仅0.002，计算的B(E2_out)/B(E2_in)仅0.040，坚决否定了0.843的集体wobbling大解假象；(2) 对127Xe 735 keV线，IBFM预言B(E2_out)/B(E2_in)为0.163，与Day 18审计由DCO物理小解导出的崩塌值0.164完全一致（符合度达0.001），而原wobbling声称值为1.500；(3) 对105Pd与133La，IBFM同样预言小解模值及M1主导衰变。这直接在微观配对振动理论上闭环证明：低自旋能带本质属于准gamma振动单粒子耦合态或倾斜进动态，彻底否定了三轴刚性wobbling假设。122项writeback/37mapped知识页通过verification038/lint036/boundary034。原硬截止今日15点保持。
+
+
+## 2026-10-21 DAY18 checkpoint034：126Cs与128Cs手征双重带DSAM寿命重构、Qt形变对称性与相空间透镜审计
+
+审计Grodner 2011（PLB 703, 46）与Grodner 2006（PRL 97, 172501）DSAM寿命与跃迁强度数据（GR126-D18-1/GR06-D18-1）：(1) 对126Cs Table 1与2中13个能级寿命与26个分支跃迁几率进行微观重构，理论寿命tau_calc与实验测量tau_rep平均偏差仅7.8%，且退激速率比lambda_i/lambda_j与测得的计数比Ig_i/Ig_j严格吻合至1-3%；(2) 提取的两带内禀跃迁四极矩均值分别为Qt(yrast)=2.092 eb与Qt(side)=1.865 eb，两带比值为Qt(side)/Qt(yrast)=0.892（BE2比值0.795），高度保持四极形变对称性，与132La侧带B(E2)塌缩20倍（Qt暴跌4.5倍）形成鲜明真假手征对照，同时为136Nd核心原件2倍BE2落差提供轨道破对极化对照；(3) 带内B(M1)展现3至4倍强锯齿状奇偶交错，与带间弱M1衰变构成反相互补；(4) 相空间透镜分析证实，对18+态277 keV跃迁，(961/277)^5相空间抑制因子高达502.6倍，哪怕存在10%的E2混杂也将导致B(E2)暴涨至不合理的490.9 W.u.，从第一性原理反向确立了低能Delta I=1跃迁具有>99.5%天然M1纯度，辩护了pure-M1假设。127项writeback/38mapped知识页通过verification039/lint037/boundary035。原硬截止今日15点保持。

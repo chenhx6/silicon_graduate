@@ -59,6 +59,10 @@ updated: 2026-10-20
 
 - [[nomura-2022-questioning-wobbling-ibfm]] — 实验室系 IBFM 微观计算对账：135Pr delta (-0.368 vs -0.37) 与 127Xe B(E2) 0.163 精确收敛于 Day 18 物理小解审计。
 
+- [[grodner-2011-126cs-chiral-selection-rules]] — 126Cs 13能级DSAM寿命与26绝对强度重构、Qt形变对称性（0.892比值）与(E_in/E_out)^5相空间502倍透镜审计。
+
+- [[grodner-2006-128cs-chiral-doublet-lifetimes]] — 128Cs与132La完全阻停DSAM寿命测量、131La侧馈参数跨核迁移敏感性与132La 20倍B(E2)塌缩解构。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

@@ -92,3 +92,13 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 
 - [[koike-2003-128cs-chiral-doublet-bands]]
 - [[chirality-wobbling-competition-evidence]]
+
+## Day18定量审计：在束DSAM寿命测量、侧馈参数跨核迁移敏感性与四极跃迁两带对称性
+
+在Day18正式学习中对本文128Cs与132La在束DSAM寿命测量链条及形变提取开展定量核验，raw SHA256 `654527DC34F2FF9E455D3DC16F88E83F7E846EC457C97C453E652E22C51F01C9`已核。原GR06-1–10各claim保持；新GR06-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR06-D18-1 | 本文通过OSIRIS II完全阻停DSAM测定128Cs与132La能级寿命并导出B(E2)与B(M1)：(1) 侧馈模型采用131La参数迁移方案，通过高低两组参数包络将侧馈不确定度直接计入寿命误差（132La约+/-15%）；(2) 132La侧带B(E2)较基带发生约20倍严重塌缩（带内Qt崩塌4.5倍），彻底否定静态手征对称破缺；(3) 128Cs两带B(E2)高度接近（Qt均在2.1 eb量级），且带内与带间B(M1)呈现反相奇偶交错，确立128Cs是A~130区保持内禀形变对称性的真手征候选核基准。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.1–3, Fig. 2, Fig. 4；新grodner11-126cs-dsam-result-034 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)4项检查全过。

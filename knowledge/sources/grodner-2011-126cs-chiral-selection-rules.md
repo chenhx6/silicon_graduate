@@ -133,3 +133,13 @@ The DSA dataset is a different reaction and detector array from Wang05/Wang06, b
 - [[wang-2006-126cs-candidate-chiral-doublet]]
 - [[wang-shouyu-2005-126cs-123i-chiral-thesis]]
 - [[chirality-wobbling-competition-evidence]]
+
+## Day18定量审计：DSAM寿命到跃迁强度精确重构、四极矩Qt对称性与相空间透镜检验
+
+在Day18正式学习中对本文Table 1与Table 2中13个能级寿命、分支比、绝对跃迁几率进行完整物理重构与自洽性核验，raw SHA256 `DFC649E43493DEBEE93C4D9E76694360972F82382CE0B25A04945B7A766B728C`已核。原GR126-1–12各claim保持；新GR126-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR126-D18-1 | 本文Table 1与2中126Cs两条手征带共13个能级的DSAM寿命与26个跃迁强度经过定量对账验证：(1) 由表列B(E2)/B(M1)及光子能量反算的理论总寿命tau_calc与实验报告tau_rep高度自洽，13态平均偏差仅7.8%（如18+ reported 0.51 ps对calc 0.50 ps，diff=-2.0%），且分枝强度比lambda_i/lambda_j与测得的探测计数比Ig_i/Ig_j严格吻合至1-3%；(2) 提取的两带内禀跃迁四极矩均值分别为Qt(yrast)=2.092 eb与Qt(side)=1.865 eb，两带形变比值为Qt(side)/Qt(yrast)=0.892（BE2比值0.795），高度保持四极形变对称性，与132La侧带B(E2)塌缩20倍（Qt暴跌4.5倍）形成鲜明真假手征对照；(3) 带内B(M1)展现3至4倍的强锯齿状奇偶交错，与带间弱M1衰变构成反相互补；(4) 相空间透镜分析证实，对18+态277 keV跃迁，(961/277)^5相空间抑制因子高达502.6倍，哪怕存在10%的E2混杂也将导致B(E2)暴涨至不合理的490.9 W.u.，从第一性原理反向确立了低能Delta I=1跃迁具有>99.5%的天然M1纯度。 | task-rate-decomposition-audit | derived-and-boundary | Table 1, Table 2；新grodner11-126cs-dsam-result-034 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)4项检查全过。

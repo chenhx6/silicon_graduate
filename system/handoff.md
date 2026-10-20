@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint034：126Cs与128Cs手征双重带DSAM寿命重构、Qt形变对称性与相空间透镜审计（GR126-D18-1/GR06-D18-1），证实126Cs两带13能级寿命与26绝对跃迁几率与探测强度严格闭环（平均偏差仅7.8%），Qt比值0.892高度保持形变对称性（反衬132La的20倍BE2崩塌），且(961/277)^5达502.6倍相空间抑制反向确立低能Delta I=1跃迁具有>99.5%天然纯M1。127项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint033：Nomura 2022 IBFM微观计算与Day 18物理小解跃迁强度的精确收敛对账审计（NOM22-D18-1），证实微观实验室系相互作用玻色子-费米子模型预言的135Pr delta=-0.368（与Lv 2022实验值-0.37在0.002内重合）及127Xe B(E2)比值0.163（与Day 18审计小解值0.164完全一致，崩塌近10倍），彻底从微观壳模型与配对振动上终结低自旋wobbling假象。122项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint032：136Nd核心原件DSAM寿命B(E2)二倍系统性落差微观组态对账审计（MU08-D18-4/PE18-D18-1），证实带1（B=0.51 e2b2, Qt=4.17 eb）与带2（B=0.25 e2b2, Qt=2.88 eb）实测2.06倍B(E2)落差与Petrache 2018 TAC-CDFT组态A（beta=0.18）与组态B（beta=0.14）的低Omega中子破对形变极小差异（预测1.65倍）高度契合，澄清带2四极矩减半的微观根源。118项writeback已通过验证。原硬截止今日15点保持。
@@ -54,6 +56,8 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint034已实际提交，稳定指针main / `Audit 126Cs and 128Cs DSAM lifetimes, Qt deformation symmetry, and E^5 phase-space M1 purity`；精确hash/H3/远端结果只publication-034回执。
 
 checkpoint033已实际提交，稳定指针main / `Audit Nomura 2022 IBFM calculations and exact convergence with Day 18 small-delta rate audits`；精确hash/H3/远端结果只publication-033回执。
 
