@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含11atomic映射项/6owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含16atomic映射项/7owning页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -48,6 +48,17 @@ updated: 2026-10-20
 当前首交付完成后仍有原方法/校准高价值路线，不能用两个槽位读完提前收束。最新时间快照与候选更新随checkpoint记录；硬截止次日15点保持。
 
 ## Sources and evidence
+
+### checkpoint003：新58Fe原件的独立性与phase输入
+
+[[woodside-2026-fe58-collectivity-coulex-dsam]]实际完整读arxiv2603.17414v1十五页、13图10表4式，关键PDF2–13视觉核；abs14页/实际15页、arxivbody/PRC113044306 metadata分开。src19files只有TeX/参考/图；actualGosiajob/旧DSAMcode/Σ未得。后续acceptedlink403、OSTIexactDOI0records、HAL只有metadata，未取VoR，不把v1文字无条件冒finaljob。
+
+新Coulomb计数属独立采集；但WO26-4/5直接核Gosia固定reference/buffer，TableVI还包含updatedDSAM目标4+1τ.66(.08)和2+2τ2.4(.5)；最终B与DSAM吻合不能默认全输入独立，也不反判新counts无信息。WO26-6/10保Q相关/Q4=0跨核假设和stat/含stop两误差，原prose.66(6)对表.66(8)差异不猜更正。
+
+WO26-13/14的[新合同](20261020-DAY18-dsam-lifetime-transition-strength-run-01/woodside58fe-input-contract-003.json)/[20项新结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/woodside58fe-input-result-003.json)枚举真实E2图cycle-rank56/58为2/3，有4/8statephase类；closedloopP3与samepairδ不因statephase改变。八printedRME转B、count→yield总修正与静态Qdiag已核，不是原Gosia/χ²/CI重放。
+
+Petkov2018确为goldOA metadata，但landing/PDF403，尚未取得body；不从title补稳健性假设。下一当前高价值路线为官方58Fe参考B/τ谱系与actualGosia去targetτ输入/版本，仍未开下一卡。
+
 
 ### checkpoint002：新54Cr原件与实际模型反证
 
@@ -68,6 +79,11 @@ Gascon/Currie/Bacelar的当前primaryroute只得metadata/失败：Crossref/OpenA
 
 ## Theory/analysis exercise
 
+### checkpoint003真实phase图与输入审计
+
+新20checks以Fig8/9的实际E2子图枚举全部edge-sign/statephase，56Fe4类/每类64、58Fe8类/每类128；不增未见弱支或M1自由phase。RME平方到B不识别phase，staticdiag也不能靠statephase翻号。TableII relativeyield比裸counts多combinedeff/AD因子1.394/1.630/1.449/1.789；不认absoluteeff或branch，原共同normalizer/Σ未给。跨方法依赖的审计为原文输入合同，不估缺失权重或新CI。
+
+
 ### checkpoint002的新原件输入审计
 
 SC26-11的23行F中心最大残差.000769；Ta/Mo同母态两线的独立误差候选平均与原printedmean相近，不认证原Cov。SC26-7的Ta中心倍率1.193–1.268，组合角色另列；源16–27%不当全TableIV商的硬界。SC26-12固定absolutephotonchart把δ=.05改自设.025/.10，88只条件变为22.041/349.386，不是实验errorbar或自由δ拟合。A54径向HO常数对照给条件B比.876545，未执行NuShellX/认证原波函数。
@@ -80,6 +96,9 @@ SC26-11的23行F中心最大残差.000769；Ta/Mo同母态两线的独立误差�
 真实MU08 TableII I16–19的B2/B1中心为51/26、11/2、2/7、5/11；D17/18=77/4=19.25，每带任意恒定乘数均不改。透明自设10%/20%per-Bbox仅给D下界12.8864/8.55556，不是15%标签的解释或CI。Jensen meanQt比1.12162可由允许差分a541/a411=.794890条件改变，不估实际stoppingbias。
 
 ## Counter-evidence and missing companion observables
+
+WO26-5是对“independentCoulomb最终B全独立”的直接输入限制：v1约束表含目标updatedDSAMτ。独立新counts/不同observable仍有价值；需要去targetτprofile与原weight/Σ才能量化而非简单判circularinvalid。七个未排phase、Qs2相关和assumedQs4保留，来源同名Qs不是sidefeedingQt。
+
 
 SC26-8/9新增实际反证：另DSAM也有LSS/Ta依赖，GRID再分析与旧原值同data；2620新DSAM与GRID重分析仍有差异。新4043的6+建议与DCO相反、3786的5+仍需spectroscopy，modelδ生成的“experimental”B不能反向独立验证同模型；54Cr/58Fe偏好不同effectivecharges也不支持普遍定论。
 
@@ -96,7 +115,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 
 ## Durable knowledge delta
 
-唯一writeback的每reference只给一个exactatomiclocator；理论推导在summary标本任务条件分析，不冒source直接报告。当前6个owning知识页相对启动baseline发生实际变更，11项映射。
+唯一writeback的每reference只给一个exactatomiclocator；理论推导在summary标本任务条件分析，不冒source直接报告。当前7个owning知识页相对启动baseline发生实际变更，16项映射。
 
 ```knowledge-writeback
 {
@@ -342,6 +361,157 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "SC26-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "anchor": "Key Results",
+      "summary": "新完整15页primary/13fig10table4eq；新Coulomb计数和约束GosiaB/旧DSAM分层，14新claims待审",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-1"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-2"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-3"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-4"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-5"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-6"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-7"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-8"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-9"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-10"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-11"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-12"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-13"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "Day18新58Fe原件：新计数不等最终B全输入独立",
+      "summary": "七层独立性/actualtargetτ约束、真实E2相位图4/8类与20新checks、静态Qs/sidefeeding/Qt分离，非GosiafitCI",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-2"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-3"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-4"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-5"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-6"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-7"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-10"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-13"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "WO26-2/4/5进一步区分新Coulombcounts",
+      "summary": "DSAM companion中独立采集与最终提取/共约束边界，未反判实验无效或新counts无信息",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-2"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-4"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/stuchbery-2026-cr54-dsam-reevaluation.md",
+      "anchor": "后续新原读",
+      "summary": "修订58Fe独立Coulomb二级简写的依赖范围；原SC26claims/flags保持，真实Gosia权重/去targetτfit待输入",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-4"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "新Coulomb计数与带DSAM约束的Gosia输出分开",
+      "summary": "新增真实58Fe原件与canonical依赖审计入口",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-1"
+        }
+      ]
     }
   ]
 }
@@ -356,6 +526,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint003的verification005/lint004/boundary003/report/16writeback项7页/diff已实际通过，0errors245warnings（4parse164key77raw槽）；新phase20checks与旧sourceflags保持。
 
 首内容checkpoint001已经实际H3/Gitee push，精确hash及fetch/ancestry/dryrun/nonforce步骤只[publication001](20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-001.json)。H3首次guard误限定HTTPS拒绝当前既有GiteeSSH，发生在任何remoteaction前；已按精确repository身份接受现有SSH，不改Gitconfig。EOLexit1为四authorizedsubstantive/no unsafe，按H1/H2分类，不当clean失败或restorescience。checkpoint002初lint002因新source缺Summary/ExtractedPages为exit1/2errors；已补齐并保留失败，当前lint003为exit0/0errors243warnings（4reactionparse、163citationkey、76rawarchive槽），verification004的report/partial18coverage/11writeback项6页/保护/diff通过；30新原件算术checks通过。
 

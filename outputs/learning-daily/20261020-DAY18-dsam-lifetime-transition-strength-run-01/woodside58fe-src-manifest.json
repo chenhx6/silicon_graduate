@@ -1,0 +1,107 @@
+{
+  "url": "https://arxiv.org/src/2603.17414v1",
+  "at": "2026-10-20T16:10:48.163765+08:00",
+  "status": 200,
+  "bytes": 698355,
+  "type": "application/gzip",
+  "sha256": "5c98e7b5011491a50d97a04e1f6d7f78b3430d32c1a4485b97467a9ff29a47bd",
+  "members": [
+    {
+      "name": "00README.json",
+      "bytes": 300,
+      "regular": true
+    },
+    {
+      "name": "chisq2to2.pdf",
+      "bytes": 61067,
+      "regular": true
+    },
+    {
+      "name": "chisqphases.pdf",
+      "bytes": 40814,
+      "regular": true
+    },
+    {
+      "name": "chisqQ.pdf",
+      "bytes": 48930,
+      "regular": true
+    },
+    {
+      "name": "discussion-linear-comparison.pdf",
+      "bytes": 38427,
+      "regular": true
+    },
+    {
+      "name": "discussion-linear-recommended.pdf",
+      "bytes": 43318,
+      "regular": true
+    },
+    {
+      "name": "discussion-timeline.pdf",
+      "bytes": 61048,
+      "regular": true
+    },
+    {
+      "name": "fe58-prc.bib",
+      "bytes": 18379,
+      "regular": true
+    },
+    {
+      "name": "fe58-prc.tex",
+      "bytes": 90167,
+      "regular": true
+    },
+    {
+      "name": "levels-56fe.pdf",
+      "bytes": 20181,
+      "regular": true
+    },
+    {
+      "name": "levels-58fe.pdf",
+      "bytes": 20435,
+      "regular": true
+    },
+    {
+      "name": "sign-combinations-56fe.pdf",
+      "bytes": 46425,
+      "regular": true
+    },
+    {
+      "name": "sign-combinations-58fe.pdf",
+      "bytes": 46764,
+      "regular": true
+    },
+    {
+      "name": "spectrum-56fe.pdf",
+      "bytes": 47994,
+      "regular": true
+    },
+    {
+      "name": "spectrum-58fe.pdf",
+      "bytes": 55351,
+      "regular": true
+    },
+    {
+      "name": "spectrum-particles.pdf",
+      "bytes": 20277,
+      "regular": true
+    },
+    {
+      "name": "stopping-powers-energy.pdf",
+      "bytes": 67363,
+      "regular": true
+    },
+    {
+      "name": "stopping-powers-time.pdf",
+      "bytes": 29781,
+      "regular": true
+    },
+    {
+      "name": "systematics.pdf",
+      "bytes": 54623,
+      "regular": true
+    }
+  ],
+  "file": "tmp/day18-20261020/woodside58fe/source-v1.bin",
+  "scope": "inventory plus boundedregularTeXread; no arbitrary extraction or codeexecution"
+}

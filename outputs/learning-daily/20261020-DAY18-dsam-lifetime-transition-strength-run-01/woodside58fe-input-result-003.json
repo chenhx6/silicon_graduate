@@ -1,0 +1,276 @@
+{
+  "scope": "newpublishedinput/gauge audit, not GOSIAcode/data/fit/CI replay",
+  "contract_sha256": "ad3975c9180dfa522b95ceec970734269eb58677d63b27192fd67823b0f08786",
+  "script_sha256": "e3c26ea671daaad8b2366833cf19a85b8571052f0d29fe71693677e3a65049e9",
+  "graphs": {
+    "56": {
+      "vertices": 7,
+      "edges": 8,
+      "cycle_rank": 2,
+      "classes": 4,
+      "orbit_size": 64,
+      "printed_subset_only": true
+    },
+    "58": {
+      "vertices": 8,
+      "edges": 10,
+      "cycle_rank": 3,
+      "classes": 8,
+      "orbit_size": 128,
+      "printed_subset_only": true
+    }
+  },
+  "TableVII_conversion": [
+    {
+      "sign": "+++",
+      "chi2": "46.78",
+      "RME_eb": ".509",
+      "B_WU": "22",
+      "B_WU_from_printed_RME": 21.58430700382391,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "++-",
+      "chi2": "38.56",
+      "RME_eb": ".571",
+      "B_WU": "27",
+      "B_WU_from_printed_RME": 27.16281409996777,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "+-+",
+      "chi2": "41.75",
+      "RME_eb": ".543",
+      "B_WU": "25",
+      "B_WU_from_printed_RME": 24.564176206555,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "+--",
+      "chi2": "42.74",
+      "RME_eb": ".545",
+      "B_WU": "25",
+      "B_WU_from_printed_RME": 24.7454610249721,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "-++",
+      "chi2": "70.57",
+      "RME_eb": ".474",
+      "B_WU": "19",
+      "B_WU_from_printed_RME": 18.71799074571713,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "-+-",
+      "chi2": "46.69",
+      "RME_eb": ".531",
+      "B_WU": "24",
+      "B_WU_from_printed_RME": 23.49046355041548,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "--+",
+      "chi2": "53.24",
+      "RME_eb": ".505",
+      "B_WU": "21",
+      "B_WU_from_printed_RME": 21.24639743420085,
+      "not_independent_measurement_or_CI": true
+    },
+    {
+      "sign": "---",
+      "chi2": "51.94",
+      "RME_eb": ".502",
+      "B_WU": "21",
+      "B_WU_from_printed_RME": 20.994714788778953,
+      "not_independent_measurement_or_CI": true
+    }
+  ],
+  "yield_chart_controls": [
+    {
+      "A": 56,
+      "label": "4_1to2_1",
+      "counts": 7100,
+      "reference_counts": 225000,
+      "yield": ".044",
+      "raw_count_ratio": 0.03155555555555556,
+      "combined_relative_efficiency_angular_factor": 1.3943661971830983,
+      "not_absolute_efficiency": true
+    },
+    {
+      "A": 58,
+      "label": "4_1to2_1",
+      "counts": 1680,
+      "reference_counts": 50700,
+      "yield": ".054",
+      "raw_count_ratio": 0.033136094674556214,
+      "combined_relative_efficiency_angular_factor": 1.6296428571428572,
+      "not_absolute_efficiency": true
+    },
+    {
+      "A": 58,
+      "label": "2_2to2_1",
+      "counts": 1330,
+      "reference_counts": 50700,
+      "yield": ".038",
+      "raw_count_ratio": 0.026232741617357003,
+      "combined_relative_efficiency_angular_factor": 1.4485714285714284,
+      "not_absolute_efficiency": true
+    },
+    {
+      "A": 58,
+      "label": "2_2to0_1",
+      "counts": 680,
+      "reference_counts": 50700,
+      "yield": ".024",
+      "raw_count_ratio": 0.013412228796844181,
+      "combined_relative_efficiency_angular_factor": 1.7894117647058825,
+      "not_absolute_efficiency": true
+    }
+  ],
+  "spectroscopic_Q_to_diagonal_RME": [
+    {
+      "A": 56,
+      "I": 2,
+      "Qs_eb": "-.19",
+      "printedEq2_diagonal_RME_eb": -0.25068173958515716,
+      "state_phase_cannot_change_diagonal_sign": true,
+      "not_Qt_or_sidefeeding_Qs": true
+    },
+    {
+      "A": 58,
+      "I": 2,
+      "Qs_eb": "-.27",
+      "printedEq2_diagonal_RME_eb": -0.35623194572627603,
+      "state_phase_cannot_change_diagonal_sign": true,
+      "not_Qt_or_sidefeeding_Qs": true
+    }
+  ],
+  "original_Gosia_fit_executed": false,
+  "reported_fit_independence": {
+    "TableVI": "Gosia includes2_2τ2.4(.5) and target4_1τ.66(.08) from newDSAMreanalysis; adopted2_1τ9.4(.3) plusfixedreferenceRME.351; bufferandQfixed",
+    "unknown": "fullGosiaobjective/weights/perphotodiodeyields/buffer/calibrationΣ and target-lifetime-free fit not provided in downloadedsrc; adoptedreference τ/B underlyinglineage pendingofficialobject",
+    "conclusion": "newCoulombcounts independentlyacquired; reportedGosiaB not demonstrated independent of allupdatedDSAMinputs; do not claim failedexperiment or subtract guessedchi2terms"
+  },
+  "checks": [
+    {
+      "name": "Fe56_cycle_rank_classes",
+      "passed": true,
+      "vertices": 7,
+      "edges": 8,
+      "cycle_rank": 2,
+      "classes": 4
+    },
+    {
+      "name": "Fe56_all_orbits_exact",
+      "passed": true,
+      "orbit_size": 64,
+      "all_edge_patterns": 256
+    },
+    {
+      "name": "Fe56_vertex_rephasing_preserves_class",
+      "passed": true
+    },
+    {
+      "name": "Fe58_cycle_rank_classes",
+      "passed": true,
+      "vertices": 8,
+      "edges": 10,
+      "cycle_rank": 3,
+      "classes": 8
+    },
+    {
+      "name": "Fe58_all_orbits_exact",
+      "passed": true,
+      "orbit_size": 128,
+      "all_edge_patterns": 1024
+    },
+    {
+      "name": "Fe58_vertex_rephasing_preserves_class",
+      "passed": true
+    },
+    {
+      "name": "P3_state_phase_invariant",
+      "passed": true
+    },
+    {
+      "name": "same_transition_multipole_ratio_state_phase_invariant",
+      "passed": true
+    },
+    {
+      "name": "TableVII_unit_center_+++",
+      "passed": true,
+      "B_WU_calculated": 21.58430700382391,
+      "printed_B_WU": "22",
+      "residual": -0.4156929961760909
+    },
+    {
+      "name": "TableVII_unit_center_++-",
+      "passed": true,
+      "B_WU_calculated": 27.16281409996777,
+      "printed_B_WU": "27",
+      "residual": 0.1628140999677683
+    },
+    {
+      "name": "TableVII_unit_center_+-+",
+      "passed": true,
+      "B_WU_calculated": 24.564176206555,
+      "printed_B_WU": "25",
+      "residual": -0.43582379344499955
+    },
+    {
+      "name": "TableVII_unit_center_+--",
+      "passed": true,
+      "B_WU_calculated": 24.7454610249721,
+      "printed_B_WU": "25",
+      "residual": -0.2545389750278986
+    },
+    {
+      "name": "TableVII_unit_center_-++",
+      "passed": true,
+      "B_WU_calculated": 18.71799074571713,
+      "printed_B_WU": "19",
+      "residual": -0.28200925428286894
+    },
+    {
+      "name": "TableVII_unit_center_-+-",
+      "passed": true,
+      "B_WU_calculated": 23.49046355041548,
+      "printed_B_WU": "24",
+      "residual": -0.5095364495845196
+    },
+    {
+      "name": "TableVII_unit_center_--+",
+      "passed": true,
+      "B_WU_calculated": 21.24639743420085,
+      "printed_B_WU": "21",
+      "residual": 0.24639743420085125
+    },
+    {
+      "name": "TableVII_unit_center_---",
+      "passed": true,
+      "B_WU_calculated": 20.994714788778953,
+      "printed_B_WU": "21",
+      "residual": -0.005285211221046637
+    },
+    {
+      "name": "yield_correction_is_not_rawratio_56_4_1to2_1",
+      "passed": true
+    },
+    {
+      "name": "yield_correction_is_not_rawratio_58_4_1to2_1",
+      "passed": true
+    },
+    {
+      "name": "yield_correction_is_not_rawratio_58_2_2to2_1",
+      "passed": true
+    },
+    {
+      "name": "yield_correction_is_not_rawratio_58_2_2to0_1",
+      "passed": true
+    }
+  ],
+  "checks_total": 20,
+  "checks_passed": 20,
+  "all_passed": true
+}

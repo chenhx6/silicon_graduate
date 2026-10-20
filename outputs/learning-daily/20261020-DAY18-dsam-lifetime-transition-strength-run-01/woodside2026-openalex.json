@@ -1,0 +1,979 @@
+{
+  "id": "https://openalex.org/W7131130190",
+  "doi": "https://doi.org/10.1103/16y4-bggw",
+  "title": "Resolving anomalous collectivity in the 4 1 + → 2 1 + transition of Fe 58",
+  "display_name": "Resolving anomalous collectivity in the 4 1 + → 2 1 + transition of Fe 58",
+  "publication_year": 2026,
+  "publication_date": "2026-02-23",
+  "ids": {
+    "openalex": "https://openalex.org/W7131130190",
+    "doi": "https://doi.org/10.1103/16y4-bggw"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1103/16y4-bggw",
+    "doi": "https://doi.org/10.1103/16y4-bggw",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1103/16y4-bggw",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210168441",
+      "display_name": "Physical Review C",
+      "issn_l": "0556-2813",
+      "issn": [
+        "0556-2813",
+        "1089-490X",
+        "1538-4497",
+        "2469-9985",
+        "2469-9993",
+        "2470-0002"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "anvur-scientific",
+        "cwts-core",
+        "dongbi-a",
+        "jufo-2",
+        "ki-jl-1",
+        "norway-1",
+        "poland-140",
+        "russia-white-list-1",
+        "vabb-shw"
+      ],
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Physical Review C",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5136020235",
+        "display_name": "Jack A. Woodside",
+        "orcid": "https://orcid.org/0009-0000-3587-2368",
+        "observed_orcids": [
+          "https://orcid.org/0009-0000-3587-2368"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. A. Woodside",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0000-3587-2368",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017412840",
+        "display_name": "B. J. Coombes",
+        "orcid": "https://orcid.org/0000-0002-4947-3664",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4947-3664"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B. J. Coombes",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4947-3664",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006729292",
+        "display_name": "Andrew E. Stuchbery",
+        "orcid": "https://orcid.org/0000-0002-0198-9901",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0198-9901"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. E. Stuchbery",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0198-9901",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042280578",
+        "display_name": "A. J. Mitchell",
+        "orcid": "https://orcid.org/0000-0002-6742-695X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6742-695X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. J. Mitchell",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6742-695X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103267596",
+        "display_name": "M. Reece",
+        "orcid": "https://orcid.org/0009-0007-3787-4878",
+        "observed_orcids": [
+          "https://orcid.org/0009-0007-3787-4878"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. Reece",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0007-3787-4878",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102996036",
+        "display_name": "Gregory J. Lane",
+        "orcid": "https://orcid.org/0000-0003-2244-182X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2244-182X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. J. Lane",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2244-182X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055556289",
+        "display_name": "T. J. Gray",
+        "orcid": "https://orcid.org/0000-0003-3965-6130",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3965-6130"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1289243028",
+          "display_name": "Oak Ridge National Laboratory",
+          "ror": "https://ror.org/01qz5mb56",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1289243028",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210159294"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I75027704",
+          "display_name": "University of Tennessee at Knoxville",
+          "ror": "https://ror.org/020f3ap87",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I75027704"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "T. J. Gray",
+      "raw_affiliation_strings": [
+        "Oak Ridge National Laboratory",
+        "University of Tennessee, Knoxville"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3965-6130",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oak Ridge National Laboratory",
+          "institution_ids": [
+            "https://openalex.org/I1289243028"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Tennessee, Knoxville",
+          "institution_ids": [
+            "https://openalex.org/I75027704"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047271084",
+        "display_name": "Giorgia Pasqualato",
+        "orcid": "https://orcid.org/0000-0001-9535-719X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9535-719X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I277688954",
+          "display_name": "Université Paris-Saclay",
+          "ror": "https://ror.org/03xjwb503",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I277688954"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210085861",
+          "display_name": "Laboratoire d'Intégration des Systèmes et des Technologies",
+          "ror": "https://ror.org/000dbcc61",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210085861",
+            "https://openalex.org/I4210117989"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210134832",
+          "display_name": "Laboratoire de Physique des 2 Infinis Irène Joliot-Curie",
+          "ror": "https://ror.org/03gc1p724",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I40434647",
+            "https://openalex.org/I4210124654",
+            "https://openalex.org/I4210133362",
+            "https://openalex.org/I4210134832",
+            "https://openalex.org/I48825208"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210139115",
+          "display_name": "Laboratoire National Henri Becquerel",
+          "ror": "https://ror.org/03az79194",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210139115"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Pasqualato",
+      "raw_affiliation_strings": [
+        "CEA, LIST",
+        "IJCLab",
+        "Laboratoire National Henri Becquerel",
+        "Université Paris-Saclay"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9535-719X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "CEA, LIST",
+          "institution_ids": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I4210085861"
+          ]
+        },
+        {
+          "raw_affiliation_string": "IJCLab",
+          "institution_ids": [
+            "https://openalex.org/I4210134832"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Laboratoire National Henri Becquerel",
+          "institution_ids": [
+            "https://openalex.org/I4210139115"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université Paris-Saclay",
+          "institution_ids": [
+            "https://openalex.org/I277688954"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039744629",
+        "display_name": "L.J. McKie",
+        "orcid": "https://orcid.org/0000-0002-8176-498X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8176-498X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L. J. McKie",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8176-498X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5082310772",
+        "display_name": "Nathan J. Spinks",
+        "orcid": "https://orcid.org/0000-0003-4916-7920",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4916-7920"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118347636",
+          "display_name": "Australian National University",
+          "ror": "https://ror.org/019wvm592",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. J. Spinks",
+      "raw_affiliation_strings": [
+        "Australian National University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Australian National University",
+          "institution_ids": [
+            "https://openalex.org/I118347636"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 8,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.7631,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.94650039,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "113",
+    "issue": "4",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10093",
+    "display_name": "Nuclear physics research studies",
+    "score": 0.9965999722480774,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3106",
+      "display_name": "Nuclear and High Energy Physics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10224",
+      "display_name": "Quantum Chromodynamics and Particle Interactions",
+      "score": 0.00039999998989515007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10523",
+      "display_name": "Atomic and Molecular Physics",
+      "score": 0.0003000000142492354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/nuclear-collectivity",
+      "display_name": "nuclear collectivity",
+      "score": 0.7139999866485596
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-structure",
+      "display_name": "nuclear structure",
+      "score": 0.3580000102519989
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.5491999983787537
+    },
+    {
+      "id": "https://openalex.org/C194232998",
+      "wikidata": "https://www.wikidata.org/wiki/Q1606712",
+      "display_name": "Transition (genetics)",
+      "level": 3,
+      "score": 0.3052000105381012
+    },
+    {
+      "id": "https://openalex.org/C9652623",
+      "wikidata": "https://www.wikidata.org/wiki/Q190109",
+      "display_name": "Field (mathematics)",
+      "level": 2,
+      "score": 0.2619999945163727
+    },
+    {
+      "id": "https://openalex.org/C26873012",
+      "wikidata": "https://www.wikidata.org/wiki/Q214781",
+      "display_name": "Condensed matter physics",
+      "level": 1,
+      "score": 0.24650000035762787
+    },
+    {
+      "id": "https://openalex.org/C18762648",
+      "wikidata": "https://www.wikidata.org/wiki/Q42213",
+      "display_name": "Work (physics)",
+      "level": 2,
+      "score": 0.24539999663829803
+    },
+    {
+      "id": "https://openalex.org/C2779343474",
+      "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+      "display_name": "Context (archaeology)",
+      "level": 2,
+      "score": 0.24079999327659607
+    },
+    {
+      "id": "https://openalex.org/C2776401178",
+      "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+      "display_name": "Feature (linguistics)",
+      "level": 2,
+      "score": 0.23749999701976776
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.23499999940395355
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.225600004196167
+    },
+    {
+      "id": "https://openalex.org/C527412718",
+      "wikidata": "https://www.wikidata.org/wiki/Q855395",
+      "display_name": "Interpretation (philosophy)",
+      "level": 2,
+      "score": 0.22269999980926514
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1103/16y4-bggw",
+      "doi": "https://doi.org/10.1103/16y4-bggw",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/16y4-bggw",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210168441",
+        "display_name": "Physical Review C",
+        "issn_l": "0556-2813",
+        "issn": [
+          "0556-2813",
+          "1089-490X",
+          "1538-4497",
+          "2469-9985",
+          "2469-9993",
+          "2470-0002"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:HAL:hal-05564776v1",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://hal.science/hal-05564776",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physical Review C, 2026, 113 (4), pp.044306. &#x27E8;10.1103/16y4-bggw&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "pmh:oai:openresearch-repository.anu.edu.au:1885/733811128",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://hdl.handle.net/1885/733811128",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402539",
+        "display_name": "ANU Open Research (Australian National University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I118347636",
+        "host_organization_name": "Australian National University",
+        "host_organization_lineage": [
+          "https://openalex.org/I118347636"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "Journal article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G203625172",
+      "display_name": null,
+      "funder_award_id": "DE--AC05--00OR22725",
+      "funder_id": "https://openalex.org/F4320306084",
+      "funder_display_name": "U.S. Department of Energy"
+    },
+    {
+      "id": "https://openalex.org/G4497241005",
+      "display_name": null,
+      "funder_award_id": "FA520919PA138",
+      "funder_id": "https://openalex.org/F6054394800",
+      "funder_display_name": "International Technology Center Pacific"
+    },
+    {
+      "id": "https://openalex.org/G6021109650",
+      "display_name": "Nuclear vibrations under scrutiny in near-spherical and deformed nuclei",
+      "funder_award_id": "DP210101201",
+      "funder_id": "https://openalex.org/F4320334704",
+      "funder_display_name": "Australian Research Council"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306084",
+      "display_name": "U.S. Department of Energy",
+      "ror": "https://ror.org/01bj3aw27"
+    },
+    {
+      "id": "https://openalex.org/F4320332359",
+      "display_name": "Office of Science",
+      "ror": "https://ror.org/00mmn6b08"
+    },
+    {
+      "id": "https://openalex.org/F4320334704",
+      "display_name": "Australian Research Council",
+      "ror": "https://ror.org/05mmh0f86"
+    },
+    {
+      "id": "https://openalex.org/F4320337512",
+      "display_name": "Nuclear Physics",
+      "ror": "https://ror.org/02atag894"
+    },
+    {
+      "id": "https://openalex.org/F6054394800",
+      "display_name": "International Technology Center Pacific",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 34,
+  "referenced_works": [
+    "https://openalex.org/W71651679",
+    "https://openalex.org/W1965164104",
+    "https://openalex.org/W1978361229",
+    "https://openalex.org/W1980472438",
+    "https://openalex.org/W1992405515",
+    "https://openalex.org/W2008168068",
+    "https://openalex.org/W2010478558",
+    "https://openalex.org/W2021405721",
+    "https://openalex.org/W2022789202",
+    "https://openalex.org/W2023580340",
+    "https://openalex.org/W2025587387",
+    "https://openalex.org/W2031685567",
+    "https://openalex.org/W2033289891",
+    "https://openalex.org/W2035195467",
+    "https://openalex.org/W2044350769",
+    "https://openalex.org/W2056097458",
+    "https://openalex.org/W2058963263",
+    "https://openalex.org/W2066075504",
+    "https://openalex.org/W2066663732",
+    "https://openalex.org/W2073250480",
+    "https://openalex.org/W2073993869",
+    "https://openalex.org/W2081799654",
+    "https://openalex.org/W2085177067",
+    "https://openalex.org/W2088125626",
+    "https://openalex.org/W2094045763",
+    "https://openalex.org/W2095270951",
+    "https://openalex.org/W2135664041",
+    "https://openalex.org/W2151884988",
+    "https://openalex.org/W2332427814",
+    "https://openalex.org/W2587752617",
+    "https://openalex.org/W3015493035",
+    "https://openalex.org/W3216617653",
+    "https://openalex.org/W4411555549",
+    "https://openalex.org/W4414091382"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "International": [
+      0
+    ],
+    "audience": [
+      1
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-10-14T16:39:01.820549",
+  "created_date": "2026-02-24T00:00:00"
+}

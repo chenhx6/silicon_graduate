@@ -1,0 +1,176 @@
+[
+  {
+    "tag": "petkov2018-pdf",
+    "url": "https://pubs.aip.org/aip/adv/article-pdf/doi/10.1063/1.5026580/12961872/075305_1_online.pdf",
+    "at": "2026-10-20T16:06:03.371452+08:00",
+    "status": 403,
+    "type": "text/html; charset=UTF-8",
+    "bytes": 5687
+  },
+  {
+    "tag": "woodside2026-openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1103/16y4-bggw",
+    "at": "2026-10-20T16:06:03.371617+08:00",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 20930,
+    "metadata": {
+      "title": "Resolving anomalous collectivity in the 4 1 + → 2 1 + transition of Fe 58",
+      "DOI": null,
+      "volume": null,
+      "article-number": null,
+      "locations": [
+        {
+          "id": "doi:10.1103/16y4-bggw",
+          "doi": "https://doi.org/10.1103/16y4-bggw",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1103/16y4-bggw",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210168441",
+            "display_name": "Physical Review C",
+            "issn_l": "0556-2813",
+            "issn": [
+              "0556-2813",
+              "1089-490X",
+              "1538-4497",
+              "2469-9985",
+              "2469-9993",
+              "2470-0002"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-2",
+              "ki-jl-1",
+              "norway-1",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320261",
+            "host_organization_name": "American Physical Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320261"
+            ],
+            "host_organization_lineage_names": [
+              "American Physical Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical Review C",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:HAL:hal-05564776v1",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://hal.science/hal-05564776",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402512",
+            "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1294671590",
+            "host_organization_name": "Centre National de la Recherche Scientifique",
+            "host_organization_lineage": [
+              "https://openalex.org/I1294671590"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Physical Review C, 2026, 113 (4), pp.044306. &#x27E8;10.1103/16y4-bggw&#x27E9;",
+          "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "pmh:oai:openresearch-repository.anu.edu.au:1885/733811128",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://hdl.handle.net/1885/733811128",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402539",
+            "display_name": "ANU Open Research (Australian National University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I118347636",
+            "host_organization_name": "Australian National University",
+            "host_organization_lineage": [
+              "https://openalex.org/I118347636"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Physical Review C",
+          "raw_type": "Journal article"
+        }
+      ],
+      "link": null
+    }
+  },
+  {
+    "tag": "woodside2026-crossref",
+    "url": "https://api.crossref.org/works/10.1103/16y4-bggw",
+    "at": "2026-10-20T16:06:03.371984+08:00",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 14243,
+    "metadata": {
+      "title": [
+        "Resolving anomalous collectivity in the\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:msubsup>\n                          <mml:mn>4</mml:mn>\n                          <mml:mn>1</mml:mn>\n                          <mml:mo>+</mml:mo>\n                        </mml:msubsup>\n                        <mml:mo>→</mml:mo>\n                        <mml:msubsup>\n                          <mml:mn>2</mml:mn>\n                          <mml:mn>1</mml:mn>\n                          <mml:mo>+</mml:mo>\n                        </mml:msubsup>\n                      </mml:mrow>\n                    </mml:math>\n                    transition of\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mmultiscripts>\n                        <mml:mi>Fe</mml:mi>\n                        <mml:mprescripts/>\n                        <mml:none/>\n                        <mml:mn>58</mml:mn>\n                      </mml:mmultiscripts>\n                    </mml:math>"
+      ],
+      "DOI": "10.1103/16y4-bggw",
+      "volume": "113",
+      "article-number": "044306",
+      "locations": null,
+      "link": [
+        {
+          "URL": "https://link.aps.org/accepted/10.1103/16y4-bggw",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "unspecified"
+        },
+        {
+          "URL": "https://link.aps.org/article/10.1103/16y4-bggw",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/16y4-bggw/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  }
+]

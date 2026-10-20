@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-20T16:20:45.874625+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "paper": "arxiv2603.17414v1",
+  "actualpages": 15,
+  "abs_comments_pages": 14,
+  "sha256": "fddbd3b0de35b1b723c2bcb9959af4cf6c489a0d8e00f87e9126218acfec8d5a",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visual_read_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "figures": "Figs1–13: systematics/particle-gamma spectra/levelschemes/chi2/phases/stopping/modelcomparisons",
+  "tables": "TablesI–X: geometry/counts/fixedME/constraints/eightphases/revisedDSAM/otherlifetimes/modelB",
+  "equations": "Eqs1–4 RME/B, staticQs, P3, effectivecharges",
+  "TeX_targeted_lines": "constraint/phase/fixedQ prose as actualv1; no inactivecomments promoted",
+  "not_read_or_run": [
+    "VoRbody",
+    "actualGosiajob/weights/data/Σ",
+    "oldDSAMcode/logbook",
+    "original1981reference or officialENSDF notyetfetched",
+    "other citedexperimentbodies"
+  ],
+  "sourceclaims": "WO26-1–14 needs_review",
+  "new20checks": "woodside58fe-input-result-003.json"
+}

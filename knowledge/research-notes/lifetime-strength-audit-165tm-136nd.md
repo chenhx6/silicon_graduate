@@ -553,3 +553,26 @@ SC26-11的新23行Eq5复算中心最大差.000769；Ta/Mo的3160同母态两条�
 SC26-9/12是另一反证：4043态候选6+及820keV支的“experimental”B88e²fm4用了模型δ=.05。固定绝对photonprobability/τ/E，换自设δ=.025/.10会把E2份额乘.250468/3.970297，条件B为22.041/349.386；不是新的实验误差或可自由选δ。作者明确新spin建议与DCO冲突，保tentative/待新spectroscopy；不能用同模型δ构造的B独立验证该模型。
 
 源对另DSAM的LSS/Ta依赖、Lieb/Kuronen同GRIDdata重分析以及2620态未闭合差异均按SC26-8保留；未读那些原件不计新独立measurement。下一高价值路线是本公开源码文稿可定位的原analysis/独立Coulomb或GRID输入，而非重复新30项算术检查。Jensen引用Gascon/Currie/Bacelar的当下合法路线只得metadata/访问失败，尚未原读；不因题名或TDMlicense补方法。所有新claims待审，原raw/PLAN/Bib/旧flags保持，整日原窗口继续。
+
+## Day18新58Fe原件：新计数不等最终B全输入独立
+
+[[woodside-2026-fe58-collectivity-coulex-dsam]] WO26-1–14实际完整原读arxivv1十五页/13图10表4式；abs写14页保留。新Coulomb数据与旧1978DSAMraw/重建analysis分开；原src19成员没有Gosia job、旧DSAM程序、数值yields/联合Σ，不用更多模拟代输入。
+
+| 信息层 | 此原件实际对象 | 独立性与判别边界 |
+| --- | --- | --- |
+| 新采集 | WO26-2的CAESAR/photodiode particleγcounts、56Fe同条件对照 | 对旧DSAM事件是新采集，不能因此宣布全部后续约束独立 |
+| yields/response | WO26-3的relativeefficiency/AD修正、2→0归一 | TableII不是absolutephotonbranch或裸count比；共同reference/背景/接受仍需Σ |
+| fixedreference/diagonal/buffer | WO26-4/6的旧CoulombRME、Qs2及assumedQs4=0、bufferstates | 独立信息、模型迁移与旧数据依赖要逐项列；Qs此处静态，不是sidefeeding量 |
+| lifetimeconstraints | WO26-5 TableVI的2+2τ2.4(.5)及目标4+1τ.66(.08)来自updatedDSAM | 直接存在共同输入；无去目标τ的matchingfit，不称最终GosiaB与该τ完全独立 |
+| phase/fit/B | WO26-7/8的八phase、Q方向相关与19–27W.u.输出 | 保七未排方案，不用minχ²直接选唯一phase或任意分配Bayesian权重 |
+| 旧DSAM重分析 | WO26-9/10的电子/核模型改动、stat/含stop两误差 | 原raw已不存在，logbook/listing为作者所持；新code/τ/B不增实验次数 |
+
+这个矩阵`revises`前节依据SC26二级简写的“58Fe独立Coulomb验证”：独立采集与完全独立提取不是同一命题；也不据此反判新Coulomb观测无信息或原结论无效。Gosia还用SRIM能量积分，其角色不等于DSAM时钟；同软件名不能代误差相消或同一输入假设。
+
+本session新[相位/输入合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/woodside58fe-input-contract-003.json)、[程序](../../system/scripts/day18_fe58_phase_input_audit.py)/[20项结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/woodside58fe-input-result-003.json)只枚举Fig8/9真实印图E2子集。实statephaseη_i下M_ij→η_iη_jM_ij，每个closedloop的η成偶次；56Fe图V7/E8有2个独立环、4类，每类64符号配置，58Fe图V8/E10有3环、8类，每类128配置。单statephase不测得，Eq3P3不变；同pair E2/M1比也不因statephase改变，故不把三chord符号叫measuredδ或configurationmixing。DiagonalM_ii不变，静态Q符号也不能靠这种gauge翻转。
+
+新TableVII八个RME按Eq1/常规WeisskopfR=1.2A^(1/3)转换与原整数B在.51W.u.打印域内相近，不是原Gosia/CI复现。TableII rawratio→yield总修正因子约1.394/1.630/1.449/1.789，只能称combinedrelativeefficiency+AD，不拆成absoluteeff。Eq2静态Q56/58对应diagRME约−.250682/−.356232eb，独立于statephase；原Q4=0仍是从56Fe校到58Fe的分析选择。
+
+WO26-10保TableVIII首stat/第二含stop误差以及prose.66(6)与VI/VIII/IX.66(8)的literal差异，不重复quadrature。WO26-12保effectivecharge点簇不定斜率、prose1.33/caption1.3与basis依赖，不把壳模型贴合替代实验校准。
+
+下一能改变认识的actualinput是：目标τ约束的Gosia权重/去约束profile、fixedbuffer与referenceB/τ的官方原源谱系、独立Qs4或更强相位观测。只做更多E2图gauge枚举不能量化原constraint贡献；当前真实B/τ/CI重拟仍not-ready。所有新claims待审，未给独立盲测或下一卡学分，原次日15点窗口继续。

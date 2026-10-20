@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-20T16:06:46.724463+08:00",
+  "source": "arxiv2603.17414v1",
+  "metadata_journal": "PRC113044306 DOI10.1103/16y4-bggw",
+  "prior_exposure": "SC26secondaryreport and currentT1metadata/abstract; no bodyyet",
+  "question": "Which Coulomb-excitation observable is independent of the oldDSAM stoppingclock, and which absoluteB/reference/sign/GOSIA/fitCov inputs remain shared?",
+  "reading_contract": "complete body/figtableeq/levelscheme/uncertainty/competingmatrixsigns; distinguish newCoulomb data from reused1978DSAM/revisedcode; no global allLSS invalidity claim",
+  "day_card": 18,
+  "next_card_opened": false
+}

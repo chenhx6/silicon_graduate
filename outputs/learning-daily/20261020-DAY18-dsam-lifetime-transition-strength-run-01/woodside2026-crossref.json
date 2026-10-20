@@ -1,0 +1,881 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T17:58:44Z",
+      "timestamp": 1790877524884,
+      "version": "4.1.0"
+    },
+    "reference-count": 42,
+    "publisher": "American Physical Society (APS)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2026-04-07T00:00:00Z",
+          "timestamp": 1775520000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2027,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2027-04-07T00:00:00Z",
+          "timestamp": 1807056000000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DP210101201"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DP210101201"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100031213",
+        "name": "International Technology Center Pacific",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA520919PA138"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA520919PA138"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100031213",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC05-00OR22725"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC05-00OR22725"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006132",
+        "name": "Office of Science",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006132",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006209",
+        "name": "Nuclear Physics",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006209",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. C"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ]
+    },
+    "DOI": "10.1103/16y4-bggw",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ],
+      "date-time": "2026-02-23T16:56:37Z",
+      "timestamp": 1771865797000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Resolving anomalous collectivity in the\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:msubsup>\n                          <mml:mn>4</mml:mn>\n                          <mml:mn>1</mml:mn>\n                          <mml:mo>+</mml:mo>\n                        </mml:msubsup>\n                        <mml:mo>→</mml:mo>\n                        <mml:msubsup>\n                          <mml:mn>2</mml:mn>\n                          <mml:mn>1</mml:mn>\n                          <mml:mo>+</mml:mo>\n                        </mml:msubsup>\n                      </mml:mrow>\n                    </mml:math>\n                    transition of\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mmultiscripts>\n                        <mml:mi>Fe</mml:mi>\n                        <mml:mprescripts/>\n                        <mml:none/>\n                        <mml:mn>58</mml:mn>\n                      </mml:mmultiscripts>\n                    </mml:math>"
+    ],
+    "prefix": "10.1103",
+    "volume": "113",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-3587-2368",
+        "authenticated-orcid": true,
+        "given": "J. A.",
+        "family": "Woodside",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4947-3664",
+        "authenticated-orcid": true,
+        "given": "B. J.",
+        "family": "Coombes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0198-9901",
+        "authenticated-orcid": true,
+        "given": "A. E.",
+        "family": "Stuchbery",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6742-695X",
+        "authenticated-orcid": true,
+        "given": "A. J.",
+        "family": "Mitchell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-3787-4878",
+        "authenticated-orcid": true,
+        "given": "M.",
+        "family": "Reece",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2244-182X",
+        "authenticated-orcid": true,
+        "given": "G. J.",
+        "family": "Lane",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3965-6130",
+        "authenticated-orcid": true,
+        "given": "T. J.",
+        "family": "Gray",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01qz5mb56",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Oak Ridge National Laboratory"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/020f3ap87",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Tennessee, Knoxville"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9535-719X",
+        "authenticated-orcid": true,
+        "given": "G.",
+        "family": "Pasqualato",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/000dbcc61",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "CEA, LIST"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03az79194",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Laboratoire National Henri Becquerel"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03xjwb503",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Université Paris-Saclay"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03gc1p724",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "IJCLab"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8176-498X",
+        "authenticated-orcid": true,
+        "given": "L. J.",
+        "family": "McKie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N. J.",
+        "family": "Spinks",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/019wvm592",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Australian National University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "16y4-bggwCc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2014.07.022",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/PTP.46.439",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(73)90476-4",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.69.034335",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epjad/i2005-06-032-2",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0370-1573(81)90153-8",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(01)00967-8",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2011.04.004",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2010.03.003",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2013.11.002",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.20.830",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.89.064304",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc13R1",
+        "volume-title": "Nuclear Structure",
+        "author": "A. Bohr",
+        "year": "1975",
+        "type": "book"
+      },
+      {
+        "key": "16y4-bggwCc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.95.024312",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(77)90481-X",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(78)90503-1",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc17R1",
+        "first-page": "2118",
+        "type": "journal-article",
+        "volume": "47",
+        "author": "Y. G. Kosyak",
+        "year": "1983",
+        "journal-title": "Izv. Akad. Nauk, Ser. Fiz."
+      },
+      {
+        "key": "16y4-bggwCc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/9zbd-ch3y",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc19R1",
+        "unstructured": "G. Pasqualato  et al. (unpublished).",
+        "type": "other"
+      },
+      {
+        "key": "16y4-bggwCc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0029-554X(74)90485-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/epjconf/202023201001",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ns.36.120186.003343",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-9002(97)00048-X",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc24R1",
+        "first-page": "745",
+        "type": "journal-article",
+        "volume": "28",
+        "author": "T. Czosnyka",
+        "year": "1983",
+        "journal-title": "Bull. Am. Phys. Soc."
+      },
+      {
+        "key": "16y4-bggwCc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nimb.2010.02.091",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nima.2008.02.051",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(69)90100-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/p72-066",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.23.244",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.adt.2005.04.001",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc31R1",
+        "volume-title": "The Electromagnetic Interaction in Nuclear Spectroscopy",
+        "author": "J. O. Newton",
+        "year": "1975",
+        "type": "book"
+      },
+      {
+        "key": "16y4-bggwCc32R1",
+        "volume-title": "Data Reduction and Error Analysis for the Physical Sciences",
+        "author": "P. Bevington",
+        "year": "2003",
+        "type": "book"
+      },
+      {
+        "key": "16y4-bggwCc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.28.432",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc34R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(78)90296-8",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRev.186.1167",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc36R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRev.181.1580",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0029-5582(66)90409-3",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc38R1",
+        "first-page": "1",
+        "type": "journal-article",
+        "volume": "33",
+        "author": "J. Lindhard",
+        "year": "1963",
+        "journal-title": "Mat. Fys. Medd. Dan. Vid. Selsk."
+      },
+      {
+        "key": "16y4-bggwCc39R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0370-2693(77)90459-2",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/75ry-71sj",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.104.L051302",
+        "type": "journal-article"
+      },
+      {
+        "key": "16y4-bggwCc42R1",
+        "unstructured": "DOE Public Access, available at: http://energy.gov/downloads/doe-public-access-plan.",
+        "type": "other"
+      }
+    ],
+    "container-title": [
+      "Physical Review C"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/accepted/10.1103/16y4-bggw",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://link.aps.org/article/10.1103/16y4-bggw",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/16y4-bggw/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T17:16:39Z",
+      "timestamp": 1790874999000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/16y4-bggw"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          7
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/16y4-bggw",
+    "relation": {},
+    "ISSN": [
+      "2469-9985",
+      "2469-9993"
+    ],
+    "issn-type": [
+      {
+        "value": "2469-9985",
+        "type": "print"
+      },
+      {
+        "value": "2469-9993",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-10-21",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "©2026 American Physical Society. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright_statement",
+        "label": "Copyright statement",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      },
+      {
+        "value": "2026",
+        "name": "copyright_year",
+        "label": "Copyright year",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      },
+      {
+        "value": "American Physical Society",
+        "name": "copyright_holder",
+        "label": "Copyright holder",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      }
+    ],
+    "article-number": "044306"
+  }
+}

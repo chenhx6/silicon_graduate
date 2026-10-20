@@ -1,0 +1,32 @@
+{
+  "full_output_local": "lint-004.json",
+  "full_sha256": "60938940daa251ff5f864e2455e1b3e45c5da584a64e492e5a45943454f3be1a",
+  "counts": {
+    "warning": 245,
+    "info": 3408
+  },
+  "governance": {
+    "page_unreviewed": 607,
+    "source_unreviewed": 303,
+    "claims_total": 4088,
+    "claim_needs_review": 3408,
+    "claim_missing_locator": 0,
+    "claim_missing_kind": 0,
+    "source_missing_raw_file": 0,
+    "source_missing_citation_key": 164
+  },
+  "new_source_warnings": [
+    {
+      "severity": "warning",
+      "code": "CITATION_KEY_MISSING",
+      "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "message": "source has no citation_key"
+    },
+    {
+      "severity": "warning",
+      "code": "RAW_MISSING",
+      "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "message": "raw/papers/2026_Woodside_Fe58_collectivity_Coulex_Dsam.pdf unavailable; hash check not executed"
+    }
+  ]
+}

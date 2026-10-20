@@ -90,6 +90,8 @@ A. E. Stuchbery，*Phys. Rev. C* **114**(3),034322(2026)，DOI[10.1103/gm4m-8wyn
 
 ## Knowledge Impact and Learning Decision
 
+后续新原读[[woodside-2026-fe58-collectivity-coulex-dsam]] WO26-2/4/5补一项依赖边界：本文所称58Fe新Coulomb采集确为新data，但原Woodside TablesIV/VI的Gosia又使用re-evaluatedDSAM/buffer/目标τ约束。故不能将本文转述的“与新Coulomb相合”升级为所有最终B输入完全独立。这里修订跨来源措辞，不改变本source对1980重分析的原数值或SC26旧flags。
+
 `supports`[[doppler-shift-attenuation-method]]中只在声明整体生成元scale域讨论clock对称；`limits`把电子停止库切换简化成全部τ同一乘数。真实例子补到[[lifetime-strength-audit-165tm-136nd]]：partialrate、branch/δ和模型判别需保持依赖链。当前source有新原件/locator及定量反证，值得长期保存；不新增54Cr核素页以免只复制本source。
 
 ## Related Knowledge and Project Relations

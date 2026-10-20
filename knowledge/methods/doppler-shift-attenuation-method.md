@@ -16,6 +16,8 @@ Day18新独立分析入口：[[lifetime-strength-audit-165tm-136nd]]“Day18停�
 
 [[stuchbery-2026-cr54-dsam-reevaluation]] SC26-2/4/5给实际反例：1980同data重建analysis后只更新电子/核停止曲线，不等所有生成元整体scale，寿命改变可逐态不同。SC26-7另区分Ta-only与Ta/Mo组合，SC26-9保模型δ进入“experimental”B和tentativeJπ的DCO反证；不能用新code/τ/B各算一项独立观测。
 
+[[woodside-2026-fe58-collectivity-coulex-dsam]] WO26-2/4/5进一步区分新Coulombcounts与最终GosiaB：后者明确使用updatedDSAM的目标4+1τ及其它外部constraints，不能由方法名认全输入独立；也不能反判新counts没有信息。WO26-6/7/13的静态Qs、statephase闭环和same-pairδ分别保存，不迁到sidefeedingQs/Qt。
+
 ## Purpose
 
 DSAM uses the attenuation of recoil Doppler shifts during slowing in target/backing material to constrain short excited-state lifetimes. Depending on the analysis, the measured observable is an angle-dependent centroid shift or the full Doppler-broadened γ-ray line shape. Forward and backward detector angles provide complementary velocity sensitivity.

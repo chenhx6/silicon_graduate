@@ -19,6 +19,8 @@ updated: 2026-10-20
 
 ## Sources
 
+- [[woodside-2026-fe58-collectivity-coulex-dsam]] — 新Coulomb计数与带DSAM约束的Gosia输出分开；八phase/Q相关、旧data重分析与actualinput缺口。
+
 - [[stuchbery-2026-cr54-dsam-reevaluation]] — 新原读54Cr旧DSAM重分析：电子/核停止分量、Ta/组合角色、模型δ与DCO反证，非新增实验。
 
 - [[nndc-2023-cm245-cf249-polarization-reference]] — SeGA两同parent参考的当前(E1)/MR、旧混合与anomalousconversion层、实际reference readiness。

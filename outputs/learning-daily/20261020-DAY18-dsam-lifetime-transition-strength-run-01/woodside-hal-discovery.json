@@ -1,0 +1,17 @@
+{
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "maxScore": 5.954443,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "title_s": [
+          "Resolving anomalous collectivity in the $4_1^+$ to $2_1^+$ transition of $^{58}$Fe"
+        ],
+        "uri_s": "https://hal.science/hal-05564776v1",
+        "doiId_s": "10.1103/16y4-bggw"
+      }
+    ]
+  }
+}

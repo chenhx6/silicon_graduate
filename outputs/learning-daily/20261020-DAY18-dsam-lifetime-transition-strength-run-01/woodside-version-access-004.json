@@ -1,0 +1,41 @@
+[
+  {
+    "tag": "woodside-osti",
+    "url": "https://www.osti.gov/api/v1/records?search=%2210.1103/16y4-bggw%22",
+    "status": 200,
+    "type": "application/json",
+    "bytes": 2,
+    "metadata": []
+  },
+  {
+    "tag": "woodside-accepted",
+    "url": "https://link.aps.org/accepted/10.1103/16y4-bggw",
+    "status": 403,
+    "type": "text/html; charset=UTF-8",
+    "bytes": 5513
+  },
+  {
+    "tag": "woodside-hal",
+    "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-05564776&fl=title_s,doiId_s,fileMain_s,uri_s&wt=json",
+    "status": 200,
+    "type": "application/json; charset=utf-8",
+    "bytes": 319,
+    "metadata": {
+      "response": {
+        "numFound": 1,
+        "start": 0,
+        "maxScore": 5.954443,
+        "numFoundExact": true,
+        "docs": [
+          {
+            "title_s": [
+              "Resolving anomalous collectivity in the $4_1^+$ to $2_1^+$ transition of $^{58}$Fe"
+            ],
+            "uri_s": "https://hal.science/hal-05564776v1",
+            "doiId_s": "10.1103/16y4-bggw"
+          }
+        ]
+      }
+    }
+  }
+]

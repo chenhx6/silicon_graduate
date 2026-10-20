@@ -8,6 +8,8 @@ updated: 2026-10-20
 
 ## Active handoff — DAY18 independent session active
 
+最新checkpoint003：Woodside2026新完整原读arxiv2603.17414v1十五页/13图10表4式（abs称14保留），sourceWO26-1–14。新Coulombcounts独立采集，但Gosia TableVI含updatedDSAM目标4+1τ.66(.08)/2+2τ和fixedbuffer；不认最终B全独立，也不反判实验无效。新actualE2图4/8phase类与yield/Qdiag20checks通过，actualGosiajob/Σ/去目标τprofile未得；VoR/accepted403，HAL仅metadata/OSTI无exactrecord。现7owning页16writeback、31newneeds_review与旧flags保护；verification005/lint004/boundary003/diff通过，0errors245warnings。本checkpoint已提交，稳定指针main / `Trace Fe58 Coulomb input dependencies and exact relative phase classes`，hash/H3仅receipt。下步官方58Fe referenceB/meanτ谱系，已有questionfreeze未预填结果；当前仍Day18，不开下一卡、next18/count17不变。
+
 最新checkpoint002：新增Stuchbery2026原读arxiv2608.28047v2十一页五图五表五式，journalmetadataPRC114034322/DOIgm4m-8wyn；raw槽deferred，实际tmp/hash有scope。重用1980data/原logbook的stopupdate不是新实验，SC26-1–12保电子/核stop、Ta/组合、模型δ/DCO反证和GRID谱系；30newchecks不原fitCI。现6owning页11writeback项，合计17newneeds_review/41旧claim保持。初source缺两requiredheadings导致lint002失败，已最小补齐；lint003/verification004通过，0errors243warnings，deadline/window/next18count17不改。本checkpoint已提交，稳定指针main / `Read current Cr54 DSAM reanalysis and audit stopping and model dependencies`，exacthash/H3只runreceipt。下步继续Woodside2026独立58FeCoulomb或Petkov2018robustness原件，未预填body/实验信用。
 
 原run2026-10-20-day-18-01/session01a1582a-08be-7ff2-ae78-e89607140d5d由既有manualforegroundrunner于15:15上海提前启动；硬截止仍2026-10-21 15:00、15–16收束。原waiter15:16:49中断/正常runnerexit未观察；用户farmer/go-on/all/auto恢复后同session nativegoalactive，Farmer42019保留，无新daemon/session/调度。实际identity/resume和canonicalappendonly事件已回执。

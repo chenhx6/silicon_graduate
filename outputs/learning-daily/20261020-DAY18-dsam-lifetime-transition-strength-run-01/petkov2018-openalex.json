@@ -1,0 +1,757 @@
+{
+  "id": "https://openalex.org/W2843826764",
+  "doi": "https://doi.org/10.1063/1.5026580",
+  "title": "Robustness of the analysis of Doppler-shift attenuation lifetime measurements according to the coincidence differential decay curve method with respect to class of uncertainties in the stopping powers",
+  "display_name": "Robustness of the analysis of Doppler-shift attenuation lifetime measurements according to the coincidence differential decay curve method with respect to class of uncertainties in the stopping powers",
+  "publication_year": 2018,
+  "publication_date": "2018-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2843826764",
+    "doi": "https://doi.org/10.1063/1.5026580",
+    "mag": "2843826764"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1063/1.5026580",
+    "doi": "https://doi.org/10.1063/1.5026580",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1063/1.5026580",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S189917590",
+      "display_name": "AIP Advances",
+      "issn_l": "2158-3226",
+      "issn": [
+        "2158-3226"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320257",
+      "host_organization_name": "American Institute of Physics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320257"
+      ],
+      "host_organization_lineage_names": [
+        "American Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AIP Advances",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1063/1.5026580",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068352823",
+        "display_name": "Pavel Petkov",
+        "orcid": "https://orcid.org/0000-0002-3080-9316",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3080-9316"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210092312",
+          "display_name": "Horia Hulubei National Institute for R and D in Physics and Nuclear Engineering",
+          "ror": "https://ror.org/00d3pnh21",
+          "country_code": "RO",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210092312"
+          ]
+        }
+      ],
+      "countries": [
+        "RO"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "P. Petkov",
+      "raw_affiliation_strings": [
+        "“Horia Hulubei” National Institute for Physics and Nuclear Engineering , R-76900 Bucharest-Magurele, Romania"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "“Horia Hulubei” National Institute for Physics and Nuclear Engineering , R-76900 Bucharest-Magurele, Romania",
+          "institution_ids": [
+            "https://openalex.org/I4210092312"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5068352823"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210092312"
+  ],
+  "apc_list": {
+    "value": 1350,
+    "currency": "USD",
+    "value_usd": 1350
+  },
+  "apc_paid": {
+    "value": 1350,
+    "currency": "USD",
+    "value_usd": 1350
+  },
+  "fwci": 0.4124,
+  "has_fulltext": false,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": {
+    "value": 0.64357207,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "8",
+    "issue": "7",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10093",
+    "display_name": "Nuclear physics research studies",
+    "score": 0.8389000296592712,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3106",
+      "display_name": "Nuclear and High Energy Physics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10093",
+      "display_name": "Nuclear physics research studies",
+      "score": 0.8389000296592712,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3106",
+        "display_name": "Nuclear and High Energy Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13414",
+      "display_name": "Radioactive Decay and Measurement Techniques",
+      "score": 0.13779999315738678,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3108",
+        "display_name": "Radiation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11949",
+      "display_name": "Nuclear Physics and Applications",
+      "score": 0.0038999998942017555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3108",
+        "display_name": "Radiation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coincidence-measurement",
+      "display_name": "coincidence measurement",
+      "score": 0.5889999866485596
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-data-evaluation",
+      "display_name": "nuclear data evaluation",
+      "score": 0.5019999742507935
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779832538",
+      "wikidata": "https://www.wikidata.org/wiki/Q2308809",
+      "display_name": "Coincidence",
+      "level": 3,
+      "score": 0.8364152908325195
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.8075162172317505
+    },
+    {
+      "id": "https://openalex.org/C142757262",
+      "wikidata": "https://www.wikidata.org/wiki/Q76436",
+      "display_name": "Doppler effect",
+      "level": 2,
+      "score": 0.6426922082901001
+    },
+    {
+      "id": "https://openalex.org/C63479239",
+      "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+      "display_name": "Robustness (evolution)",
+      "level": 3,
+      "score": 0.5601924657821655
+    },
+    {
+      "id": "https://openalex.org/C99844830",
+      "wikidata": "https://www.wikidata.org/wiki/Q102441924",
+      "display_name": "Scaling",
+      "level": 2,
+      "score": 0.5204165577888489
+    },
+    {
+      "id": "https://openalex.org/C123688308",
+      "wikidata": "https://www.wikidata.org/wiki/Q7309537",
+      "display_name": "Correction for attenuation",
+      "level": 3,
+      "score": 0.4814302623271942
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.47798651456832886
+    },
+    {
+      "id": "https://openalex.org/C93226319",
+      "wikidata": "https://www.wikidata.org/wiki/Q193137",
+      "display_name": "Differential (mechanical device)",
+      "level": 2,
+      "score": 0.4573076069355011
+    },
+    {
+      "id": "https://openalex.org/C62103226",
+      "wikidata": "https://www.wikidata.org/wiki/Q902598",
+      "display_name": "Doppler broadening",
+      "level": 3,
+      "score": 0.41998291015625
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.36320650577545166
+    },
+    {
+      "id": "https://openalex.org/C184779094",
+      "wikidata": "https://www.wikidata.org/wiki/Q26383",
+      "display_name": "Atomic physics",
+      "level": 1,
+      "score": 0.3400394916534424
+    },
+    {
+      "id": "https://openalex.org/C30475298",
+      "wikidata": "https://www.wikidata.org/wiki/Q909554",
+      "display_name": "Computational physics",
+      "level": 1,
+      "score": 0.33333492279052734
+    },
+    {
+      "id": "https://openalex.org/C4839761",
+      "wikidata": "https://www.wikidata.org/wiki/Q212111",
+      "display_name": "Spectral line",
+      "level": 2,
+      "score": 0.2065332531929016
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.20124879479408264
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.16810959577560425
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.11112520098686218
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.05974233150482178
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.05906397104263306
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1063/1.5026580",
+      "doi": "https://doi.org/10.1063/1.5026580",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1063/1.5026580",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S189917590",
+        "display_name": "AIP Advances",
+        "issn_l": "2158-3226",
+        "issn": [
+          "2158-3226"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320257",
+        "host_organization_name": "American Institute of Physics",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320257"
+        ],
+        "host_organization_lineage_names": [
+          "American Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "AIP Advances",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:54f89b8cde0c400ca7f0542981508e31",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/54f89b8cde0c400ca7f0542981508e31",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "AIP Advances, Vol 8, Iss 7, Pp 075305-075305-5 (2018)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1063/1.5026580",
+    "doi": "https://doi.org/10.1063/1.5026580",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1063/1.5026580",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S189917590",
+      "display_name": "AIP Advances",
+      "issn_l": "2158-3226",
+      "issn": [
+        "2158-3226"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320257",
+      "host_organization_name": "American Institute of Physics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320257"
+      ],
+      "host_organization_lineage_names": [
+        "American Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "AIP Advances",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 9,
+  "referenced_works": [
+    "https://openalex.org/W1524276505",
+    "https://openalex.org/W1998184897",
+    "https://openalex.org/W2013833253",
+    "https://openalex.org/W2026860379",
+    "https://openalex.org/W2045900923",
+    "https://openalex.org/W2073407346",
+    "https://openalex.org/W2081594680",
+    "https://openalex.org/W2757573902",
+    "https://openalex.org/W4236796166"
+  ],
+  "related_works": [
+    "https://openalex.org/W2334000142",
+    "https://openalex.org/W2288985746",
+    "https://openalex.org/W2919843379",
+    "https://openalex.org/W2545154302",
+    "https://openalex.org/W2534086599",
+    "https://openalex.org/W167525318",
+    "https://openalex.org/W2018547115",
+    "https://openalex.org/W1969031584",
+    "https://openalex.org/W2316653139",
+    "https://openalex.org/W2552414698"
+  ],
+  "abstract_inverted_index": {
+    "It": [
+      0
+    ],
+    "is": [
+      1,
+      30,
+      49
+    ],
+    "shown": [
+      2
+    ],
+    "that": [
+      3
+    ],
+    "the": [
+      4,
+      21,
+      39,
+      54,
+      58,
+      64,
+      69,
+      72
+    ],
+    "Differential": [
+      5
+    ],
+    "decay": [
+      6
+    ],
+    "curve": [
+      7
+    ],
+    "method": [
+      8
+    ],
+    "applied": [
+      9
+    ],
+    "to": [
+      10,
+      44,
+      51
+    ],
+    "analyze": [
+      11
+    ],
+    "coincidence": [
+      12
+    ],
+    "Doppler-shift": [
+      13
+    ],
+    "attenuation": [
+      14
+    ],
+    "lifetime": [
+      15,
+      59
+    ],
+    "measurements": [
+      16
+    ],
+    "with": [
+      17
+    ],
+    "a": [
+      18,
+      25
+    ],
+    "gate": [
+      19
+    ],
+    "on": [
+      20
+    ],
+    "shifted": [
+      22
+    ],
+    "component": [
+      23
+    ],
+    "of": [
+      24,
+      38,
+      42
+    ],
+    "directly": [
+      26
+    ],
+    "feeding": [
+      27,
+      28
+    ],
+    "transition": [
+      29
+    ],
+    "characterized": [
+      31
+    ],
+    "by": [
+      32
+    ],
+    "stable": [
+      33
+    ],
+    "results": [
+      34
+    ],
+    "within": [
+      35
+    ],
+    "scaling": [
+      36
+    ],
+    "variations": [
+      37
+    ],
+    "stopping": [
+      40,
+      73
+    ],
+    "powers": [
+      41,
+      74
+    ],
+    "up": [
+      43
+    ],
+    "15%": [
+      45
+    ],
+    "at": [
+      46
+    ],
+    "least.": [
+      47
+    ],
+    "This": [
+      48
+    ],
+    "due": [
+      50
+    ],
+    "cancellation": [
+      52
+    ],
+    "in": [
+      53,
+      71
+    ],
+    "formula": [
+      55
+    ],
+    "used": [
+      56
+    ],
+    "for": [
+      57
+    ],
+    "determination": [
+      60
+    ],
+    "while": [
+      61
+    ],
+    "when": [
+      62
+    ],
+    "using": [
+      63
+    ],
+    "traditional": [
+      65
+    ],
+    "data": [
+      66
+    ],
+    "analysis": [
+      67
+    ],
+    "methods": [
+      68
+    ],
+    "imprecision": [
+      70
+    ],
+    "cannot": [
+      75
+    ],
+    "be": [
+      76
+    ],
+    "surrounded.": [
+      77
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}
