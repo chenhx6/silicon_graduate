@@ -69,6 +69,8 @@ updated: 2026-10-20
 
 - [[kuti-2014-multiple-chiral-doublets-103rh]] — 103Rh 同组态MχD负宇称带寿命缺失、分母B(E2)驱动交错反证与PRM近似局限审计。
 
+- [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] — 78Br 8条E1跨带线B(E1)/B(E2)推导、内禀D0=0.71 e*fm定标与多极三元分类律。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

@@ -2551,6 +2551,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "KU14-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+      "anchor": "Day18定量审计：B(E1)/B(E2)内禀偶极矩提取、八极软振动定标与多极三元分类",
+      "summary": "来源页补充78Br 8条E1跨线BE1/BE2提取、内禀偶极矩D0=0.71 e*fm定量推导与八极软振动定标审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "78Br八极软振动B(E1)/B(E2)比值提取与多极三元分类定标",
+      "summary": "研究笔记补充78Br八极关联BE1/BE2比值提取对溴同位素区手征(M1)-摆动(E2)-八极(E1)多极性三元分类定标",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "多重激发共存体系中的电磁多极性三元分类法则",
+      "summary": "方法页补充基于辐射选择定则的手征M1、wobbling E2与八极E1多极性三元严格分类准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br",
+      "summary": "索引增加78Br 8条E1跨线BE1/BE2提取与多极三元分类律审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2565,6 +2609,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint038已实际提交，稳定指针main / `Audit 78Br B(E1)/B(E2) ratios, intrinsic dipole moment D0, and tri-multipolarity dichotomy`；精确hash/H3/远端结果只publication-038回执。
 
 checkpoint037已实际提交，稳定指针main / `Audit 103Rh identical-configuration MchiD lifetime absence and BE2 denominator decoupling`；精确hash/H3/远端结果只publication-037回执。
 

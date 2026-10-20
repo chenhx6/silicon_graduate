@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint038：78Br八极软振动B(E1)/B(E2)比值提取与多极三元分类律审计（L16-D18-1），证实由8条E1跨带线提取出内禀偶极矩D0=0.71 e*fm，比稳定八极标尺224Th低11.8倍确立动态八极软度，并与74Br绝对DSAM在束寿命对账确立手征(M1)-摆动(E2)-八极(E1)多极性三元分类法则。143项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint037：103Rh同组态MχD负宇称带寿命缺失与分母BE2载体解耦审计（KU14-D18-1），揭示负宇称Bands 3-6全无寿命测量，且同核Suzuki 2008 RDDS寿命确凿证明比值交错100%由分母BE2剧烈跳变（0.18->0.35->0.20 e2b2）驱动而BM1平滑单调下降（零交错），排除了仅凭比值确立M1手征选择律的唯象假定。139项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint036：104,106Mo偶偶核手征振动候选带Table IV跨带E2预测与实验上限张力审计（MU21-D18-1），揭示106Mo在自旋7、8、9处理论预测强度超出实验1sigma上限达20%至33.3%，且104Mo跨带强度受(E_out/E_in)^5相空间压低整整低于探测限一个数量级，结合全无寿命测量现状排除了单凭模型外推确立手征破缺。135项writeback已通过验证。原硬截止今日15点保持。
@@ -62,6 +64,8 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint038已实际提交，稳定指针main / `Audit 78Br B(E1)/B(E2) ratios, intrinsic dipole moment D0, and tri-multipolarity dichotomy`；精确hash/H3/远端结果只publication-038回执。
 
 checkpoint037已实际提交，稳定指针main / `Audit 103Rh identical-configuration MchiD lifetime absence and BE2 denominator decoupling`；精确hash/H3/远端结果只publication-037回执。
 

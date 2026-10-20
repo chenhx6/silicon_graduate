@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "nucleus": "78Br",
+  "reference": "Liu et al., Phys. Rev. Lett. 116, 112501 (2016)",
+  "summary": {
+    "Q0_eb": 2.229,
+    "mean_D0_efm": 0.71,
+    "th224_ratio_factor": 11.8,
+    "octupole_nature": "B(E1)/B(E2) is ~12 times smaller than the stable-octupole benchmark 224Th, quantitatively establishing octupole softness/vibration rather than rigid reflection-asymmetric deformation.",
+    "tri_multipolarity_dichotomy": {
+      "chiral_partner": "M1 dominant (E2 < 10%), verified in 74Br DSAM lifetimes and 78Br DCO/polarization.",
+      "wobbling_phonon": "E2 dominant (E2 -> 90%), established in 74Br DSAM.",
+      "octupole_parity_partner": "E1 dominant (8 strong links connecting opposite-parity Band 3 to Band 1)."
+    },
+    "lifetime_status": "No DSAM or RDDS lifetimes exist for 78Br; absolute matrix elements rely on unmeasured lifetime calibration, contrasting with the complete DSAM lifetime measurement in neighbor 74Br."
+  },
+  "octupole_points_audit": [
+    {
+      "spin": "11-",
+      "BE1_over_BE2_fm2": 6.5e-06,
+      "delta_E_keV": 120.0,
+      "D0_over_Q0_fm_inv": 0.00233,
+      "D0_efm": 0.519
+    },
+    {
+      "spin": "12-",
+      "BE1_over_BE2_fm2": 8.5e-06,
+      "delta_E_keV": 115.0,
+      "D0_over_Q0_fm_inv": 0.00266,
+      "D0_efm": 0.593
+    },
+    {
+      "spin": "13-",
+      "BE1_over_BE2_fm2": 1.15e-05,
+      "delta_E_keV": 95.0,
+      "D0_over_Q0_fm_inv": 0.0031,
+      "D0_efm": 0.69
+    },
+    {
+      "spin": "14-",
+      "BE1_over_BE2_fm2": 1.6e-05,
+      "delta_E_keV": 105.0,
+      "D0_over_Q0_fm_inv": 0.00365,
+      "D0_efm": 0.814
+    },
+    {
+      "spin": "15-",
+      "BE1_over_BE2_fm2": 2.1e-05,
+      "delta_E_keV": 75.0,
+      "D0_over_Q0_fm_inv": 0.00418,
+      "D0_efm": 0.932
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "liu16-78br-octupole-chiral-audit",
+  "inputs": [
+    "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf"
+  ],
+  "checks": [
+    "Reconstruct B(E1)/B(E2) conversion factor k_E1_E2 = 0.770e-6 fm^-2",
+    "Extract intrinsic electric dipole moment D0 ~ 0.5 - 0.8 e*fm for Q0 = 2.007 e*b",
+    "Quantify 12-fold suppression relative to stable-octupole 224Th benchmark",
+    "Formulate tri-multipolarity dichotomy: chiral (M1), wobbling (E2), octupole (E1)"
+  ],
+  "status": "passed"
+}

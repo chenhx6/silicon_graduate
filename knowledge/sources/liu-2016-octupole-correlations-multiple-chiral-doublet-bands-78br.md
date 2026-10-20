@@ -117,3 +117,13 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 ## Personal Notes
 
 核心术语边界：本文支持 octupole correlations 与 octupole softness；不建立 stable octupole deformation，并以现有共存证据提出未来在单核中观测 chirality-parity quartet 的可能性。
+
+## Day18定量审计：B(E1)/B(E2)内禀偶极矩提取、八极软振动定标与多极三元分类
+
+在Day18正式学习中对本文Fig. 5中提取的B(E1)/B(E2)比值与内禀电偶极矩D0开展定量推导，raw SHA256 `460051AED9AF9D84BBFA09A51339E4D671F8ABAAF511FF6B7E0A4FBC2A836AD4`已核。原L16-1–15各claim保持；新L16-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L16-D18-1 | 本文报道的78Br多重手征与八极关联定量核验揭示：(1) 由八条E1跨带连接线推导出的B(E1)/B(E2)介于(0.65-2.10)x10^-5 fm^-2之间，由此提取出的内禀电偶极矩D0平均为0.71 e*fm（取四极形变Q0=2.23 e*b），比稳定八极形变标尺224Th低整整11.8倍，定量确立了该核属于动态八极软振动，排除了静态反射不对称破缺；(2) 与同位素74Br绝对DSAM在束寿命对账确立了溴同位素区多极性三元分类律：手征伙伴跃迁表现为M1主导（E2<10%），wobbling声子跃迁表现为E2主导（E2->90%），而八极带间跨线表现为纯E1主导，三者在核辐射选择定则上界限分明；(3) 78Br四条负/正宇称带至今全无在束寿命测量，其绝对B(E1)与B(E2)完全未定，不能仅凭比值将模型外推视为绝对强度的实验证实。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3–5, Fig. 5；新liu16-78br-octupole-result-038 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/liu16-78br-octupole-contract-038.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/liu16-78br-octupole-result-038.json)4项检查全过。
