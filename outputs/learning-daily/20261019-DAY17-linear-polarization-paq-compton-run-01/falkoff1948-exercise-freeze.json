@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-20T02:52:44.802260+00:00",
+  "sha256": "ec75ed8eadf884cc8f55788bea11d4cd3f49405f120ee30f8764e8b35472ad14",
+  "primed": true,
+  "new_independent_kernel": "exact sparse CG, no old producer",
+  "no_experimental_remeasurement": true
+}

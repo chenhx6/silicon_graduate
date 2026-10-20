@@ -521,3 +521,7 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 ### PPCO不是两个singles的乘积
 
 [[droste-1999-ppco-polarization]] DR99-D17-1–14原fourN响应与[[ppco-joint-response-and-information]]给jointW、PP1/AA1和PP2/AA2的精确字典。AA1=Q1Q2PP1，AA2=(Q1P1+Q2P2)/(1+Q1Q2PP1)，不是普遍Q1Q2PP2；normalizedfourN三shape自由度，原Table1仍留多候选。它复用ST99同164Yb及NORDBALL→EUROGAM假设，不增加独立实验；原18unit/逐门净面积/背景Σ缺时不重做χ²或Jπfit。
+
+### 经典两光子相关的A不是单光子不对称度
+
+[[falkoff-1948-polarization-correlation]] FA48-D17-1–8的原cos2φ/2/7→1.8与新CG核，使旧Wikicos²转录撤回；等价cos²需要改为b=2A/(1−A)并保overallconstant。[[ppco-joint-response-and-information]]“Falkoff1948：相对电场角不是探测器方位角”说明P1=P2=0仍可PP1非零；只有同轴/同角色/同响应才经Q1Q2桥到AA1，不是原1948instrumentQ或现代Co60实测。

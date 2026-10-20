@@ -131,3 +131,19 @@ Codex self-audit、provisional；新claims全部needs_review，未新增human-re
 ## Promotion or Rejection History
 
 2026-10-20首次以Day17条件推导写入。复算脚本`system/scripts/day17_droste1999_joint_response.py`，本run冻结输入`droste1999-response-contract.json`、结果`droste1999-response-result.json`；仍未晋升实验结论。
+
+### Falkoff1948：相对电场角不是探测器方位角
+
+[[falkoff-1948-polarization-correlation]] FA48-D17-1–8为本session原单页完整letter/表/式复核。原Eq1印cos2φ，φ为两电场相对角，原purequad A_F=2/7与Wmax/Wmin=1.8匹配cos(2φ)，独立exactCG/Jones亦闭合。旧FA48-1的cos²转录已明确撤回，但历史row/falseflag保。不是官方erratum；若改写cos²形式必须同时改幅度和常数：
+
+\[
+1+A_F\cos(2\varphi)=(1-A_F)\left[1+\frac{2A_F}{1-A_F}\cos^2\varphi\right].
+\]
+
+A_F=2/7时新cos²系数b=4/5；同A裸cos²只给9/7而非9/5。此处方位角不是DR99两emissionplanes的φ。对反向两光子，必须先选同一globalxy并明确第二photon局部e_theta=−globalx，才作PP1桥；未匹配轴不能直接把两个φ设同。
+
+新独立kernel用pureCG(jf mf,Lμ|ji mi)、θ0/π的μ=±helicity、globalxy Jonesoperator和初态I/(2Ji+1)，逐cascadeoperator相乘后求迹；不导入Day16UC/tensor/历史FORTRAN。Table1 J′=J−Δj/J″=J+ΔJ的九dipole表达在J2/3/4共27exactrows核，Eq3号和换secondEM均过；quad J+2→J→J−2在J2/3/4/5均±2/7，relativeφ=π/6/π/4/π/3核cos(2φ)。这是有限组point验证，allJ叙述仍归原作者，不把采样当全域证明。
+
+在该unoriented/backtoback共同轴控制，P1=P2=0但PP1=A_F，直接示范单光子零偏振不排两光子相关；A_F不是单P、计数A或polarimeterQ。若另满足原PPCO局部factorized响应，AA1=Q1Q2A_F；不以此把490/569的Q迁移给Co60。现代Co60混合/源制备、门、finitegeometry仍须原matchinginput。Madansky当时仅settingupapparatus，本文不是新的实际偏振标定/独立实验，原directionalRefs不补actualcounts。
+
+复算`system/scripts/day17_falkoff1948_cg_audit.py`；falkoff1948-CG-contract/result保存本run版本/初scratchimport缺sympy失败及改用已有Wiki依赖的处置。未测任何新核P/Q/δ/实验CI。

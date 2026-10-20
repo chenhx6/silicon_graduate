@@ -225,3 +225,5 @@ Day17checkpoint059 priming：BA72原11页/10图/3表核N=C/(C+anti)非odds，sou
 Day17 checkpoint060 priming：SIM05-D17-1–12及sharedcalnote已核130Cs四actuallink physicalP/M1E2、Jones1995引用/actualcampaign缺口、151caption与409100强度口径；七sameparent pureM1中央控制需δ修正，非新δ/P/Σ/absoluteB。Fig6lowerlimits及B带staggering反证保，正式18仍独立run、不复用本预习授分。
 
 Day17 checkpoint061 priming：DR99-D17-1–14原11页、PPCOjointresponse note保存三shape自由度、AA1productQ/AA2finite分母、sameST99/a1/18identical/Q迁移假设与Table1剩多解；原χ²/Σ未重放，lifetime可作companion但不自动唯一。无formal18信用。
+
+Day17 checkpoint062 priming：FA48-D17-1–8旧cos²同A转录已撤回，原cos2φ/2/7→1.8与独立CG相符；等价cos²需b2A/(1−A)及overallconstant。PPCO桥须共同globalaxis，单P0不排joint，非现代Co60/Q/δ实测或formal18信用。

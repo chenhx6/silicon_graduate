@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/falkoff-1948-polarization-correlation.md": 8
+  },
+  "artifacts": [
+    {
+      "file": "falkoff1948-CG-result.json",
+      "true_fields": [
+        "ok",
+        "CG_and_source_Table1_Eq3_and_harmonic_controls",
+        "common_axis_unoriented_P1_P2_zero_PP1_equals_A",
+        "source_Wiki_transcription_revision_not_official_erratum",
+        "no_modern_Co60_M3_or_array_Q_or_experimental_data_reestimated"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false,
+  "legacy_parser_note": "Old FA48 rows retain literal pipe in |A| and exact rows/flags by preservation contract; new separated eight-row table is indexed. Original row/flags also checked by exact-string review check."
+}

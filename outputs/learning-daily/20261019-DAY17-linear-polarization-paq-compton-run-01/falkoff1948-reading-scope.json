@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-20T02:55:46.147966+00:00",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf",
+  "bytes": 238577,
+  "sha256": "47cf0977334fc9dc8fc27b3d25b46a2eac4272c611df4c10ce69ccdb07d2b589",
+  "read_scope": "full Falkoff letter lowerleft/right p518 only, preceding copper susceptibility letter excluded",
+  "text_visual": true,
+  "equations": [
+    1,
+    2,
+    3
+  ],
+  "tables": [
+    1
+  ],
+  "figures": [],
+  "references": 4,
+  "independent_exact_CG_rows": {
+    "dipole": 27,
+    "quadrupole": 4
+  },
+  "old_flags_preserved": true
+}

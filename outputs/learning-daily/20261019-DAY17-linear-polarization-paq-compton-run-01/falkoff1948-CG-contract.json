@@ -1,0 +1,55 @@
+{
+  "scope": "Falkoffletter only; pure, initial unoriented, opposite gamma directions, common globalxy axes",
+  "dipole_table_rows": [
+    "-1",
+    "0",
+    "1"
+  ],
+  "dipole_table_columns": [
+    "-1",
+    "0",
+    "1"
+  ],
+  "A_abs_formulas": [
+    [
+      "1/7",
+      "(2*J-1)/(6*J+7)",
+      "J*(2*J-1)/(14*J**2+33*J+20)"
+    ],
+    [
+      "(2*J+3)/(6*J-1)",
+      "(2*J-1)*(2*J+3)/(8*J**2+8*J-1)",
+      "(2*J-1)/(6*J+7)"
+    ],
+    [
+      "(J+1)*(2*J+3)/(14*J**2-5*J+1)",
+      "(2*J+3)/(6*J-1)",
+      "1/7"
+    ]
+  ],
+  "initial_J": "J-delta_j",
+  "final_J": "J+Delta_J",
+  "dipole_J_test": [
+    2,
+    3,
+    4
+  ],
+  "quadrupole_stretched_J_test": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "quadrupole_A_abs": "2/7",
+  "ratio_reported": "9/5",
+  "sign_exponent": "l1+l2+Ji-Jf+1+sameEM",
+  "Eq1_interpretation_to_test": "cos(2*phi), originalprintedcos2phi retained in scan",
+  "literal_same_A_cos_squared_maxmin": "9/7 for +A=2/7, rather than9/5",
+  "cos_squared_equivalent_b": "2*A/(1-A)",
+  "initial_component_trial_failure": {
+    "command_scope": "stdout scratchkernel import sympy before PYTHONPATH supplied",
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: sympy",
+    "corrective_action": "use existing in-Wiki dependency directory; no install or producer edit"
+  }
+}

@@ -8329,6 +8329,103 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "DR99-D17-14"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+      "summary": "原单页letter全读，旧cos²同系数转录撤回/旧flags保；新8待审。cos2phi ratio与Table/EM全核，非officialerratum。",
+      "anchor": "Day17原件复核：cos2φ、ratio与jointP的字典",
+      "sources": [
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-1"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-2"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-3"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-4"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-5"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-6"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-7"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ppco-joint-response-and-information.md",
+      "summary": "独立exactCG27dipole/4quad与cos²重参数、共同globalaxis下P0但PP1非零；不迁actualQ/现代Co60。",
+      "anchor": "Falkoff1948：相对电场角不是探测器方位角",
+      "sources": [
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-1"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-2"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-3"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-4"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-5"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-6"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-7"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "经典A、singleP、countA/Q分层与原件转录纠正入口。",
+      "anchor": "经典两光子相关的A不是单光子不对称度",
+      "sources": [
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-1"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-2"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-7"
+        }
+      ]
     }
   ]
 }
@@ -8738,3 +8835,11 @@ canonical SIM05新12待审/旧7保、sharedcal研究节与Compton方法写回，
 新Eq8→11–15symbolic模型给AA1=Q1Q2C、AA2=(Q1P1+Q2P2)/(1+Q1Q2C)、PP2=(P1+P2)/(1+C)，fullnormalizedfourN三shape自由度。sameP1=P2=0的positiveW仍可不同C，仅条件信息反例非核path/纠缠实验。原R1.62/1.57→Q.236641/.221790，product.0524846、jointinverse放大19.053；原AA1固定Q给C.7240±.5335非fullCI，不造N。exclusivefixedN/noBG的localCov(AA1,AA2)=0只模型，不迁实际peakfit/calibration。
 
 原AA2 .229(.038)与569–577的.235(.027)/sigmaI.22(+.06/−.11)分开；Table1排2/3/6/7留1/4/5/8，647E1/M1 .6/6是同data条件分析，lifetimecompanion保；Fig8/9/χ²producer/actualΣ未得。源Summary未来Q.3来自模型/private/conference，非本篇实测。canonical新PPCOnote/Compton/index、唯一writeback、scripts/contracts/results/scope及18priming齐；verification076/publication061实际门。原windowactive、17once/partial18、不以source完成日终。
+
+### Checkpoint062：PPCO的Falkoff1948经典限与cos2φ转录
+
+先冻primedbefore/exercise，再读原单页letter/3式/Table1/4refs，排除同页前铜磁化率；238577bytes/hash保。原cos2φ、A_F2/7和max/min1.8与cos(2φ)闭合，旧Wiki同Acos²撤回，历史FA48-1false/其它flags保，新8待审；不称官方erratum。等价cos²需b2A/(1−A)=4/5且overall1−A，不能只换平方记号。
+
+新独立sparseCG/Jones不调旧Day16内核，unoriented/backtoback/globalxy核Table1九dipole式×J2/3/4共27rows、Eq3EM号/flip，quadJ2–5四rows得±2/7，多相对角cos(2φ)均过；allJ仍源作者陈述非采样全域证明。两singleP零仍可jointPP1=A_F，但角是relativefieldangle而非DR99detectorφ；现代Co60M3/门/arrayQ不迁。本letter仅理论预测/器件settingup，不新独立偏振实验；Crossref exactDOI候选TLSfailed不补metadata。初scratchkernel无sympy失败与改用已有Wiki依赖记录在contract。
+
+canonicalFA48/PPCOnote/Compton、唯一writeback、script/input/result/scope/freezes及18priming齐，verification077/publication062实际门。17once/partial18、原windowactive，局部source完成不日终。

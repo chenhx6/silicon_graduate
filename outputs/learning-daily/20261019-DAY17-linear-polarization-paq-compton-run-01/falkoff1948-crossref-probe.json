@@ -1,0 +1,7 @@
+{
+  "identifier_candidate": "10.1103/PhysRev.73.518",
+  "tool": "mcp__academic_search__get_paper_by_id",
+  "result": "SSLError SSLEOFError unexpected EOF",
+  "metadata_verified": false,
+  "raw_primary_used": true
+}

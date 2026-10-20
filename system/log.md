@@ -2286,3 +2286,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint061：PPCO joint响应与剩多解
 
 原11页全读，纠metadata/同ST99依赖、fourN三shape/有限Q公式和实际Table1剩候选；新14待审。symbolicresponse及声明countCov控制，非原χ²/Σ。verification076初缺节修复后通过、manifest061/H3，main / `Audit PPCO joint response and retained spin ambiguities`，原windowactive/17once/partial18。
+
+### Day17 checkpoint062：Falkoff cos2φ/ratio与新CG核
+
+原letter全读、旧cos²转录撤回/旧flags保，新8待审；27dipole/4quad exactCG及EM号/harmonic通过，非原producer/现代Co60。verification077旧parser预期修正后valid、manifest062/H3，main / `Correct Falkoff harmonic transcription with independent CG controls`，原windowactive/17once/partial18。
