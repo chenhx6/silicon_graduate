@@ -2388,3 +2388,8 @@ Radeck 10页/13图/3表/9式新读，R12-P19-1–10待审；旧human-reviewed pr
 ## 2026-10-20 DAY18 checkpoint008：Nolan方法窗口与共享系统误差
 
 Nolan旧page保full-read status；本sessiontargeted核PDF3/6–7/10–12/19–23/78–81，NS79-P19-1–8。DSAM stopping/feeding、RDM distancecalibration、1–20ps overlap与shared-wrong-stopping counterexample已写回；fast timing/TDPAD仍未新读。Radeck/Nolan均Day19 uncredited preview，partial19/formal_credit=false，不开20；35items/15mapped页。verification012/lint0110error249warning/boundary009/diff通过，原next18/count17/截止不变。
+
+
+## 2026-10-20 DAY18 checkpoint009：Day19 preview方法响应合同完成
+
+Nolan PDF48–52电子计时补核NS79-P19-9–12，完成PRF/zero-time/slope-centroid与DSAM/RDDS/timing选择树、bounded counterexample和最小校准清单；现代fast timing/TDPAD正式原件仍留正式19。Day19 preview知识交付标记complete但formal_credit=false/partial19，绝不推进课程；37items/15mapped页，verification013/lint0120error249warning/boundary010/diff通过。

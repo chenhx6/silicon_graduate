@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint009：电子计时 PRF 与完整方法选择清单
+
+Nolan targeted PDF48–52 补核 electronic timing：约10^-11–10^-6 s框架、production/decay zero-time、PRF、slope/centroid和能量/门依赖；新NS79-P19-9–12待审。它补齐 Day19 preview 的最小方法选择清单与 counterexample：样本大不能替代 prompt calibration，DSAM/RDMS/timing 相合仍可能共享输入。Nolan原页prefix/旧status/flags保持；preview-state 已标记知识交付完成但 formal_credit=false，现代fast timing/TDPAD source仍可留待正式19。
+
 ### checkpoint008：Nolan方法框架与交叉方法反例
 
 Nolan旧source已有历史full-read状态；本session新核PDF3 contents、PDF6–7 DSAM/RDM、PDF10–12 F/sidefeeding、PDF19–23 Coulomb/feeding和PDF78–81 accuracy comparison，旧页prefix/hash保持。新NS79-P19-1–8补出：DSAM需stopping/feeding，RDM短寿命端受distance标定，1–20 ps重叠交叉仍可能共享错误stopping；由此形成方法选择决策树。fast timing/TDPAD尚未用新原件核对，不把本preview写成完整Day19。[[lifetime-method-selection-response-contract]]与Nolan/Radeck两页新增待审；preview仍partial19、formal_credit=false、不打开20。
@@ -57,7 +61,7 @@ Nolan旧source已有历史full-read状态；本session新核PDF3 contents、PDF6
 
 原timegate17:50上海余1269.79分钟、[候选池与单卡决定](20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-refresh-007.json)、[primed回忆冻结](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-recall-freeze-007.json)先于新开Radeck/Nolan。Radeck完整十页/13fig3table9编号式、PDF2–9视觉核，新R12-P19-1–10待审；原人审prefix/12falseflags字节保持。新SH/US条件平均、缺90°eff/理论补归一、τ回填迭代/坐标literalboundary已canonical；新script只条件核、不新实验CI。Nolan本preview未新原读，完整方法树/校准清单pending，不预填完成。
 
-本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；35items/15mapped知识页、73新待审claims。主reportverification012/report/35writeback项15页/partial18coverage/lint011/boundary009/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
+本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；37items/16mapped知识页、85新待审claims。主reportverification013/report/37writeback项15页/partial18coverage/lint012/boundary010/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
 
 ### checkpoint006：finite-stopping companion的真实六行合同
 
@@ -1159,6 +1163,52 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "NS79-P19-8"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+      "anchor": "Day18内无学分Day19预习补充：电子计时响应",
+      "summary": "PDF48–52补PRF/zero-time/slope-centroid，完成无学分preview方法树；旧prefix/status保留",
+      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-9"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-10"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-11"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "电子计时：PRF先于寿命拟合",
+      "summary": "完成Day19 preview的最小方法选择清单，formal credit仍false",
+      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-9"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-10"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-11"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-12"
+        }
+      ]
     }
   ]
 }
@@ -1173,6 +1223,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+稳定指针 main / `Complete uncredited Day19 preview method-response contract`；精确 hash/H3/远端结果只 publication-009 回执。
 
 稳定指针 main / `Add Nolan method-window boundaries to uncredited Day19 preview`；精确 hash/H3/远端结果只 publication-008 回执。
 

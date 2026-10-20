@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-20T11:05:59.403152+00:00",
+  "subject": "Complete uncredited Day19 preview method-response contract",
+  "ordinary_paths": [
+    "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+    "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-008.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-013.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-010.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-009.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-012.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-009.md only"
+  },
+  "excluded": [
+    "raw/PLAN/Bib/credentials",
+    "inheriteddirty/isolateddaemon",
+    "tmpPDFs/sourcearchives",
+    "runnerlogs"
+  ],
+  "checks": "verification013/lint0120error249warnings/boundary010/diff; Radeck/Nolan prefix exact; preview complete but formal_credit false"
+}

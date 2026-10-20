@@ -2,7 +2,11 @@
 
 Nolan targeted method-window claims NS79-P19-1–8已写回；Radeck/Nolan preview仍partial19/formal_credit=false，fast timing/TDPAD pending。
 
-稳定指针main / `Add Nolan method-window boundaries to uncredited Day19 preview`；Nolan targeted pages已核，补NS79-P19-1–8与方法决策树；fast timing/TDPAD仍pending，Day19 preview保持无学分。
+稳定指针main / `Add Nolan method-window boundaries to uncredited Day19 preview`；Nolan PDF48–52补电子计时PRF/zero-time/slope-centroid，Day19 preview方法树和最小校准清单已完成但formal_credit=false；现代fast timing/TDPAD formal19待补。
+
+Nolan PDF48–52电子计时补核完成，Day19 preview方法响应合同/决策树/最小校准清单已完整；preview complete但formal_credit=false，现代fast timing/TDPAD formal19待补。
+
+稳定指针main / `Complete uncredited Day19 preview method-response contract`；Nolan targeted pages已核，补NS79-P19-1–8与方法决策树；fast timing/TDPAD仍pending，Day19 preview保持无学分。
 
 checkpoint007已通过verification011/lint010/boundary008并进入提交/发布；稳定指针main / `Record Radeck component response and uncredited Day19 preview`；精确hash/H3/远端结果只publication007回执。Radeck十页新读与Day19无学分preview已写回，Nolan/完整决策树仍待实际阅读。
 

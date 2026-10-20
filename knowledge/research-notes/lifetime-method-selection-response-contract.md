@@ -106,3 +106,17 @@ Day19-preview回忆time/session/hash先于本preview打开Radeck/Nolan；sourcep
 | alignment/hyperfine随flight time改变 | component/deorientation kernel | angular correlations、charge-state/velocity、同元素C迁移条件 | 把US冻结、SH平均或理论补eff当无偏 |
 
 这张表是本任务的bounded synthesis，不把“方法窗口”写成硬阈值。下一步若正式开启Day19，必须为每行补实际source locator和至少一个同data counterinput；当前不打开Day20。
+
+
+## 电子计时：PRF先于寿命拟合
+
+[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-P19-9–12补PDF48–52。电子计时的关键输入不是“时间戳”这个名称，而是production zero-time、decay detector、prompt response function (PRF)、energy/walk/geometry dependence和prompt/delayed同门校准。slope需寿命长于PRF尾，centroid可处理远小于FWHM的差，但越接近PRF响应越需要同时测PRF、按能量/门校正并追踪系统误差。
+
+Day19 preview的最小方法选择清单现为：
+
+1. 先识别直接观测：DSAM的F/lineshape、RDDS的SH/US-distance、timing的delayed−prompt time distribution。
+2. 列出主时钟与 nuisance：stopping/feeding；distance/velocity/deorientation；PRF/zero-time/walk/background。
+3. 找同data counterinput：above-gate/side-feed or alternate stopping；rings/distances or angular correlations；prompt calibration and energy-matched gates。
+4. 只有响应合同、branch/ICC/mixing和joint covariance齐全时，才把τ转为B/Qt并比较结构；方法结果相合仍须检查共享反应、模型和强度输入。
+
+本预习已覆盖矩阵要求的Radeck/Nolan主线、bounded exercise、response counterexample、decision tree和minimal calibration list，但仍只算Day19无学分preview；正式19需新session重新逐卡承认priming并补实际source/producer边界。

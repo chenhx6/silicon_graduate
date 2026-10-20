@@ -106,3 +106,15 @@ Historical stopping powers, feeding models, detector resolution and side-feeding
 本段[访问/身份回执](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/nolan-protected-prefix-008.json)冻结原页/raw hash；没有取得历史DSAM/RDM原计数、现代fast-timing producer或jointCov。与[[radeck-2012-deorientation-lifetime-98ru-rdds]]的R12-P19段合用时，仍须区分综述方法框架、Radeck实测response和本任务条件推断。
 
 正式Day19仍需新session逐卡验收；本preview只补方法边界和决策树，不授课程学分。
+
+
+## Day18内无学分Day19预习补充：电子计时响应
+
+继续核对本次方法预习的PDF48–52（electronic timing）并保留旧页prefix/status。新claims仍`needs_review: true`，不是新实验或正式Day19学分。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| NS79-P19-9 | 电子计时review给出约10^-11–10^-6 s的有效范围；production time由脉冲束、粒子或形成γ定义，decay time由退激γ定义，时间谱是指数衰变与PRF卷积。 | timing-window-and-zero-time | direct-review | PDF48–49 Sec3.1–3.2/Eq3.1/Fig34–35 | true |
+| NS79-P19-10 | PRF由prompt decay测得，受探测器距离/固体角、charge-carrier统计、rise time和电子学影响；slope方法适合τ长于PRF尾，centroid方法比较prompt/delayed first moments，可测远小于FWHM的差，但要求系统误差控制。 | prompt-response-contract | direct-review | PDF49–50 Sec3.2；PDF52 centroid examples | true |
+| NS79-P19-11 | 电子计时选择应同时记录prompt calibration与delayed spectrum；对小于PRF FWHM约0.5–1%的差异，PRF随γ能量/门条件变化必须核验，不能把统计样本大直接换成窄响应。 | timing-calibration-boundary | direct-review-and-synthesis | PDF50/52；NS79-P19-10 | true |
+| NS79-P19-12 | 由DSAM/RDM/electronic timing组成的选择树仍是响应主导的条件设计：DSAM看stopping/feeding，RDM看distance/finite-stop，timing看PRF/zero-time/walk/background。三者结果相合才有交叉价值，若共享reaction/branch/model仍不自动独立。 | complete-preview-decision-boundary | synthesis-and-boundary | NS79-P19-1–11；R12-P19-1–10 | true |

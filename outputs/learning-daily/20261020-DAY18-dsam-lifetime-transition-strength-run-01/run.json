@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "008 Nolan boundaries committed/publishing",
+  "last_checkpoint": "009 preview method-response contract complete; publication pending",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Record Radeck component response and uncredited Day19 preview",
-    "commit_hash": "f181f143ec02933358749beb026d579012d10a42",
+    "subject": "Add Nolan method-window boundaries to uncredited Day19 preview",
+    "commit_hash": "9168bec4f784148a05ad6326dfcf289af833cb47",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-007.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-008.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Add Nolan method-window boundaries to uncredited Day19 preview"
+    "subject": "Complete uncredited Day19 preview method-response contract"
   },
   "uncredited_preview": {
     "day_index": 19,

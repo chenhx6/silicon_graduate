@@ -16,10 +16,10 @@
   "meaning": "observed study-preview tracking only; original run receipt controls identity/deadline",
   "radeck_read": true,
   "nolan_targeted_read": true,
-  "complete_day19_preview_deliverables": false,
+  "complete_day19_preview_deliverables": true,
   "pending": [
-    "formal Day19 independent session",
-    "full methods decision tree source set",
-    "fast timing/TDPAD actual source"
-  ]
+    "formal Day19 independent session credit",
+    "modern fast-timing/TDPAD primary source if formal card requires it"
+  ],
+  "nolan_electronic_timing_targeted_read": true
 }
