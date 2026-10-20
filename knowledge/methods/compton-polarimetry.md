@@ -545,3 +545,5 @@ Fig9先以1332peak归一，背景20倍改善是relative形状；不是同曝光�
 ### 35Cl1763：布居正性可以在指定合同内选根
 
 [[taras-1971-phase-defined-polarization-formulas]] T71-D17-9–15及[[cl35-1763-polarization-population-replay]]以原Table5 a2/a4、calculatedR、N90/N0和p ratio做新central replay。指定5/2→3/2/two-multipole/sourcephase时，四centralδ候选仅M1E2 +2.6833给非负foldedq；支持作者该中央逻辑，不是新Jπ/δ测量或原误差band复现。完整jointΣ/finiteacceptance、literalpureM2/printed区间与全J7/2族未重放；p/R/N同链不计独立P。positiveq有时有力，不能因此跨核/门泛化。
+
+T71后续T71-D17-18–20将Table5 AD边际sigma矩形与正布居作完整条件投影，exactopen-cell/临界点/∞核约[−17.5908,−.8973]∪[.7502,3.1187]；不是jointCI，也未重现作者.73/3.27。literalpureM2 p在该ADbox上限2.0754小于printedpbox下限2.22，只限制当前point/box解释，不改原近极限候选或称实验冲突。细节见[[cl35-1763-polarization-population-replay]]“AD边际误差箱：精确分区与原口径边界”。

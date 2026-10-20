@@ -1,0 +1,35 @@
+{
+  "subject": "Bound Taras marginal AD inputs with exact population feasibility",
+  "verification_number": 83,
+  "paths": [
+    "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+    "knowledge/research-notes/cl35-1763-polarization-population-replay.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "system/scripts/day17_taras1971_marginal_box.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-067.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-067.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-083.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-083.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-068.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint068.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1969-primary-discovery.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-boundary-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-boundary-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-initial-open-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-open-cells-before-boundary.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-open-cells-script.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-result.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own068"
+}

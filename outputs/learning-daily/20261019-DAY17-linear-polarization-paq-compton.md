@@ -9134,6 +9134,63 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "T71-D17-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+      "summary": "新增AD marginalbox完整条件投影和literalpureM2必要界，保与原bands/Σ/near-pure口径差而不宣实验矛盾。",
+      "anchor": "本session后续：AD边际误差箱的完整条件投影",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-18"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-19"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/cl35-1763-polarization-population-replay.md",
+      "summary": "26因子/51criticalroots exactopen-cell加QQ根域31点/∞补齐；marginalbox非CI，初open-onlyscope/result保。",
+      "anchor": "AD边际误差箱：精确分区与原口径边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-18"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-19"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "actualT71 box/positivity合同和literal∞限制，不把sourcepoint模型误当实验排除。",
+      "anchor": "35Cl1763：布居正性可以在指定合同内选根",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-18"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-19"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-20"
+        }
+      ]
     }
   ]
 }
@@ -9593,3 +9650,9 @@ counterexample-reflect-before为来源后强primed10项回忆，freeze/hash与au
 actualTable5 a2−.369(.009)/a4.213(.013)、calculatedR1.683(.017)、N1.22(.01)、p2.30(.08)同链派生。roundedR/N→p2.27486、printedp/R→N1.22292可round，σp独立假设.09385/任意RNCorr范围.04675–.12421，原Σ未得不判σ错。sourceparity-independentZ/逆foldedq给M1E2δ2.683292/−.730446、E1M2−.018784/104.34452；仅正M1根q(.703038,.240032,.056930)非负，支持作者指定中央逻辑。高M2根份额.999908与printedpureM2近极限、central正性域[−15.8321,−.95118]∪[.78997,3.04274]不等源误差区，未调参强配或称实验冲突；全7/2/a6/βprimary/原1969body未重放，不给新Jπ/δ/CI。
 
 Table3九K/4六十Legendre/6十五Z/7八CG共92值核过；初Table4两任务误读已高清修9.7674/.2659，初contract/result快照保，非sourceprintingfailure。frozenexercise误称八K原文保，actualscope九。canonicalT71/new35Clnote/Compton/synthesis/index、唯一writeback、scripts/input/result/scope/freezes及18priming齐；verification082/publication067实际门，17once/partial18/windowactive。
+
+### Checkpoint068：T71 AD边际box的精确可行投影
+
+067后先冻新box问题，samepoint/sourcephase/J5/2to3/2/two-multipole，不称jointCI。u=√35δ消sourceZ/CG为QQ响应，正qtriangle与ADrectangle变化条件26不可约因子/51criticalroots，52open cells以rationalpolygon检。初31criticalunknown保open-onlysnapshot，另冻boundary步骤后QQ根域/隔离区间sign全核，无额外isolatedpoint/∞不可行；完整条件ADbox约[−17.590797,−.897283]∪[.750180,3.118689]。仍不重现源.73/3.27，不归因作者recipe/Cov。
+
+literalpureM2极限p在该ADbox为1.920901–2.075426，不交printedpbox2.22–2.38；只限当前point/marginalbox解释，不重裁实际E1M2族/源误差bands或称实验矛盾。新Scholar查TarasMatas1969失败无records/body，executionreceipt保。sourceT71新18–20/旧flags保、35Clnote/Compton、唯一writeback/18priming及script/contract/freeze/result齐；verification083/publication068实际门，17once/partial18/windowactive。

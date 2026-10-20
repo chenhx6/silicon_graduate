@@ -84,6 +84,9 @@ tags: [phase-defined-matrix-elements, mixing-ratio-sign, angular-distribution, g
 | T71-D17-15 | 本session核Table3九K值、Table4六列十角60值、Table6五targetrow15Z值和Table7八CG，共92值。初Table4两个任务误读已高清原件纠为40°9.7674、80°P4=.2659，非sourceprintingfailure。 | source-table-crosscheck | direct-and-self-audit | printed341 Table3; printed342 Table4; printed346 Table6; printed349 Table7 | true |
 | T71-D17-16 | source另举J3/2→3/2 δ≈.26或∞时ADisotropic但finiteδ p≠1、purelimit p1；不是VT74本session3/2→1/2两个finite根，二者不合并。第二角P可增加信息但取决于误差/角变化，非总保证唯一。 | theoretical-counterevidence | direct-and-self-audit | printed340–341 Sec4.1–4.2 | true |
 | T71-D17-17 | 原MethodII示例为26Mg(α,nγ)29Si，质量/电荷与原文一致；旧Wiki nuclei的28Si修29Si，并补实际37Ar示例，非本run新测量或新核素指认。 | Wiki-identity-correction | direct-and-self-audit | printed335 Sec3.3; printed341 Sec4.3 | true |
+| T71-D17-18 | 仅声明Table5 a2/a4各±所印sigma的矩形与positivefoldedq模型，新exactQQ算法26因子/51实根分52open cells，另31临界点与∞精确分类，无额外孤立点；完整条件ADbox域约[−17.590797,−.897283]∪[.750180,3.118689]。非原jointCI/误差recipe。 | task-feasibility-proof | derived-and-exact-cell-audit | printed344 Table5; Eq5 Eq19 | true |
+| T71-D17-19 | 对同ADbox，literalpureM2极限p=(1−2a2−a4/4)/(1+a2+a4)范围1.920901–2.075426，与所印p±sigma箱2.22–2.38不交。它只限当前point/box解释，不能把近pure有限根或原误差band改称实验冲突。 | task-necessary-bound | derived-from-printed-marginals | printed340 Eq43–44; printed344 Table5 | true |
+| T71-D17-20 | 当前1sigma-marginalbox也未重现作者.73/3.27口径，不反推作者实际用了哪个Cov/误差倍数或修表；原1969body/actualΣ/acceptance/producer仍缺。当前positivitybox仅AD，未完成finiteδ jointPbox的置信分析。 | analysis-readiness-boundary | direct-scope-plus-task-audit | printed344 populationparagraph; printed345 Fig2 | true |
 
 ## Summary
 
@@ -178,10 +181,14 @@ Taras 1971 是 γ 角分布、线偏振和混合比符号一致性的基础方�
 
 ## Day17原件复核：35Cl1763的positivepopulation筛选
 
-本session先冻taras1971-before/exercise并声明旧T71/VT74/Day16phase priming，原24页328–351完整text/visual，Eq1–50、Fig1/2、Tables1–7及29bibliographicentries核主线与关键行。Appendix巨表仅结构/声明目标92系数数值复算，不称逐全部Table6/7重放。1157959bytes/hash `151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d`保持；旧T71-1–4false与review/cite不改，17新待审。
+本session先冻taras1971-before/exercise并声明旧T71/VT74/Day16phase priming，原24页328–351完整text/visual，Eq1–50、Fig1/2、Tables1–7及29bibliographicentries核主线与关键行。Appendix巨表仅结构/声明目标92系数数值复算，不称逐全部Table6/7重放。1157959bytes/hash `151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d`保持；旧T71-1–4false与review/cite不改，20新待审。
 
 [[cl35-1763-polarization-population-replay]]保存原Table5计数比/计算R/p派生、parity-independentZ与foldedq中央解、Σ/finiteacceptance/同1969数据谱系边界。新的script不用旧Day16模型；92typed系数核过，原任务Table4两输入误读/初结果快照完整保，不给原文添加假勘误。frozenexercise说Table3八nonempty，实际为九，冻结原文不改。
 
 本例显示positivepopulation在实际数值/指定J和two-multipole域中可以排掉其余central候选；不把“保多解”变成永远不能选根的规则。原Table5pureM2近极限、printedpopulation区间与本任务centraldomain不同，尚无原bandrecipe/Σ/全J7/2/a6 producer，保而不自由调参数强配。MethodII同axis/finiteparticlecounter与reactionclass前提保；更强实际结论需原TarasMatas1969primary与匹配响应。
 
 决定`supports`此source的M1E2正根中央逻辑与P/AD/正性互补，`limits`普适唯一、以p/R/N多列计独立测量、不同门pko自动相同的简写。没有新的实验Jπ/δ/P或模型升实验。
+
+### 本session后续：AD边际误差箱的完整条件投影
+
+T71-D17-18–20及[[cl35-1763-polarization-population-replay]]“AD边际误差箱：精确分区与原口径边界”保存同source输入的新问题。初open-only结果/脚本/合同与boundary前冻结保留，后以QQ不可约因子根域的精确sign分类补完31点和∞，不由grid称完整。原GoogleScholar新primaryquery失败且无records/body，未将snippet/metadata充原件。此步没有给实验jointCI或归因作者recipe。

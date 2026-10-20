@@ -68,14 +68,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Synthesize polarization zero observables and missing calibration inputs",
-    "commit": "f0690b679d08052bb2e798ef821d0933435c005e",
+    "subject": "Replay Taras 35Cl polarization and positive population screening",
+    "commit": "ff2ec42e6ac6676dd251445a15bc39d5ae725522",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-20T03:46:09.097481+00:00",
+  "last_observed_at": "2026-10-20T04:08:09.035654+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",

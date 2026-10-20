@@ -123,3 +123,29 @@ Codex self-audit、provisional；T71旧四false保留，17新claim needs_review�
 ## Promotion or Rejection History
 
 2026-10-20从Day17原件主线及实际Table5形成条件source-replay；尚未晋升核素重测或完整实验复分析。
+
+### AD边际误差箱：精确分区与原口径边界
+
+这是source Table5之后的新有界问题，非重跑中央解；使用a2∈[−.378,−.360]、a4∈[.200,.226]，只把所印marginal±sigma定义成矩形，绝不称jointCI。仍是指定J5/2→3/2/sourcephase/point/two-multipole。
+
+令u=√35δ、q=(q.5,q1.5,q2.5)，可由前述Z/CG精确消根号得
+
+\[
+a_2=c_2(u)A,\quad a_4=c_4(u)B,\qquad
+c_2=\frac{1/10+3u/35-u^2/686}{1+u^2/35},\quad
+c_4=\frac{16u^2/1715}{1+u^2/35},
+\]
+
+其中A=−4q.5−q1.5+5q2.5，B=2q.5−3q1.5+q2.5。正q/simplex对应固定triangle，给定非零c2/c4的ADbox对应一个rectangle。它们相交状态的变化只能在rectanglevertex触triangleedge、trianglevertex触rectangleedge或c2/c4零处发生；边平行的首次接触也包含vertex/edge临界条件。
+
+新script用QQ多项式枚举临界条件、分解26不可约因子，exactisolation分出51实criticalroots/52open cells，每cell用rationalpolygon/正q witness精确分类。初步未分类的31criticalpoints随后用QQ[u]/factor的canonical元素与隔离区间sign全部补核，没有额外isolated可行点；projective∞另以leadingresponse精确检验不可行。feasibleopenbands有限端点因continuousresponse+compact q simplex/closedbox可取极限，属于可行闭包。由此完整的**该条件模型ADbox**可行集约
+
+\[
+[-17.5907969,-.8972833]\ \cup\ [.7501802,3.1186890].
+\]
+
+它比central域宽，但不等作者约.73/3.27边界。无原uncertaintyrecipe时不能据差反推作者使用误差倍数/协方差，更不能称源CI已重放。该投影只含ADbox/positiveq，没有把finiteδ的Pbox共同likelihood做成新实验置信分析。
+
+另有一个简单必要界：pureM2极限p=(1−2a2−a4/4)/(1+a2+a4)在此正denominator矩形上对两系数都递减，四corner给范围约[1.9209007,2.0754258]，与所印p±sigma箱[2.22,2.38]不交。这限制literal∞在该point/box解释下的适用；原Table近pure finite大根、bandrecipe/acceptance未重放，不能把它升级为实际测量冲突或全E1M2family的实验排除。
+
+`system/scripts/day17_taras1971_marginal_box.py`保精确隔离区间/所有open-cell witness、boundary分类与依赖hash。本run初open-only contract/result/script、boundary-before/freeze及更新的最终contract/result均保存；冻结原话不改，不把最初31unknown先算成功。新GoogleScholar query定位原TarasMatas1969未取records/body，失败回执保；实际source/Σ缺口仍需新输入。

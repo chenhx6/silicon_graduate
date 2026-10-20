@@ -1,0 +1,5 @@
+# exactboundary补核前记录
+
+初open-cell推导已经26irreduciblefactors/51realcriticalroots、52opencells分类，31无feasibleneighbor的criticalpoints未排，不能claim整个closedprojection。新步只补这些点及projective∞，用QQ[u]/irreduciblefactor的canonical元素、exactrootisolationinterval与多项式区间sign，不靠floatgrid。若sign不能certify则保unknown，不用时间将unknown变approval/结果。
+
+已声明同sourcepoint two-multipole/marginalbox不变，非actualCI；初scope/result/script快照保存，freeze原话不改。

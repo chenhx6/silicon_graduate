@@ -2310,3 +2310,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint067：T71实际35Cl1763布居筛选
 
 原24页/17new待审，92targetcoef核及初录入修正保；actualTable5中央4根仅正M1E2+2.683有正q，RN/p同链与缺Σ/bands/全J族分层，非新测量。verification082valid/manifest067/H3，main / `Replay Taras 35Cl polarization and positive population screening`，原windowactive/17once/partial18。
+
+### Day17 checkpoint068：T71边际ADbox/正q完整条件投影
+
+QQ临界根+exact31boundary/∞补齐，条件ADbox两域/pureM2 p必要界非jointCI/实验矛盾，原recipe/primary缺口保。T71新18–20待审，verification083valid/manifest068/H3，main / `Bound Taras marginal AD inputs with exact population feasibility`，windowactive/17once/partial18。

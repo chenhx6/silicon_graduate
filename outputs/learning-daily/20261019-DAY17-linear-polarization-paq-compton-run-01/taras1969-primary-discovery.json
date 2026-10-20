@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-20T04:17:46.021033+00:00",
+  "tool": "mcp__paper_search_nodejs__search_google_scholar",
+  "query": "Taras Matas Canadian Journal Physics 47 1605 1969 polarization 35Cl",
+  "year": 1969,
+  "maxResults": 3,
+  "result": "tool isError true; upstream error text masked, no records/body",
+  "body_obtained": false,
+  "no_source_evidence_from_discovery": true
+}

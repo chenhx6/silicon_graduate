@@ -1,0 +1,26 @@
+{
+  "source": "T71 Table5, Eq19, Eq5",
+  "a2_central": "-369/1000",
+  "a2_sigma": "9/1000",
+  "a4_central": "213/1000",
+  "a4_sigma": "13/1000",
+  "p_central": "23/10",
+  "p_sigma": "2/25",
+  "coordinate": "u=sqrt(35)*delta",
+  "c2": "(1/10+3*u/35-u**2/686)/(1+u**2/35)",
+  "c4": "(16*u**2/1715)/(1+u**2/35)",
+  "population_A_weights": [
+    -4,
+    -1,
+    5
+  ],
+  "population_B_weights": [
+    2,
+    -3,
+    1
+  ],
+  "model_scope": "specifiedJ5/2to3/2, point, symmetricq/two-multipole sourcephase; marginal boxes not CI",
+  "isolation_eps": "1/100000000000000000000",
+  "claimed_boundary_classification": "all open real cells, every finitecritical point and projectiveinfinity exactly classified in declared AD marginalbox model",
+  "scope_expansion_history": "Initial open-only contract/result/script preserved; boundary-before/freeze declares exact QQ-root-field step, same physical inputs"
+}
