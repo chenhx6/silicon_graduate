@@ -165,3 +165,13 @@ P0: none identified.
 
 - Protected BibTeX record: `wang_2013_Highspinlevel` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2013_Wang et al_High-spin level structure of the doubly odd nucleus 104 Ag.pdf`.
+
+## Day18定量审计：准粒子对齐跳变3.5hbar、手征指认引文谱系偏差与寿命缺失对账
+
+在Day18正式学习中对本文建立的104Ag负宇称能带A/B对齐增益及手征候选带谱系开展定量核验，raw SHA256 `366246ACEC6C6B5A46169606B125683BBD58C9D512A980A3910E5B23D837039C`已核。原W13-1–12各claim保持；新WS13-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WS13-D18-1 | 本文报道的104Ag负宇称带A/B定量核验揭示：(1) 带A在I=14hbar附近出现明显对齐增益（Delta i ~ 3.5 hbar），使得高自旋区带A与带B出现近3 hbar对齐落差，而本文据以将其指认为手征伙伴的核心依据是引用邻核106Ag的Joshi 2007工作（Ref. 17）；(2) 后续106Ag的AFRODITE完全阻停DSAM寿命测量（Lieder 2014, Bark 2024）确凿证实该~4 hbar对齐跳变本质上是2qp向4qp的普通能带交叉与破对形变减小（Qt由2.04降至1.36 eb，跌落2.25倍），彻底推翻了手征解释；(3) 104Ag全核无任何在束寿命测量（DSAM或RDDS均缺），这构成了方法学警示：在缺乏绝对寿命测定时，跨同位素唯象类比极易导致已被证伪的2qp/4qp带交叉假象在同位素链中错误传播。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.5–7, Fig. 1, Fig. 5；新wang13-104ag-chiral-result-042 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/wang13-104ag-chiral-contract-042.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/wang13-104ag-chiral-result-042.json)4项检查全过。

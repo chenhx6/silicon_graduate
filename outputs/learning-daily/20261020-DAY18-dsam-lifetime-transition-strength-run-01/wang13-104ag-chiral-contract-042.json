@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "wang13-104ag-chiral-boundary-audit",
+  "inputs": [
+    "raw/papers/2013_Wang et al_High-spin level structure of the doubly odd nucleus 104 Ag.pdf"
+  ],
+  "checks": [
+    "Reconstruct 104Ag alignment gain Delta i ~ 3.5 hbar in Band A not shared by Band B",
+    "Expose citation lineage to Joshi 2007 106Ag reading falsified by Lieder 2014 DSAM lifetimes",
+    "Calculate 2qp (Q0=2.04 eb) vs 4qp (Q0=1.36 eb) shape-blocking factor of 2.25",
+    "Establish absolute lifetime absence in 104Ag and cross-isotope error propagation boundary"
+  ],
+  "status": "passed"
+}

@@ -2727,6 +2727,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "GU20-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/wang-2013-high-spin-104ag.md",
+      "anchor": "Day18定量审计：准粒子对齐跳变3.5hbar、手征指认引文谱系偏差与寿命缺失对账",
+      "summary": "来源页补充104Ag负宇称带3.5hbar对齐跳变、依赖被证伪106Ag引文与绝对寿命缺失审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "104Ag对齐增益3.5hbar、手征引文谱系偏差与DSAM寿命缺失对账",
+      "summary": "研究笔记补充104Ag对齐跳变3.5hbar依赖已被证伪的106Ag早期假说在同位素链中传播的证据反思",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "跨同位素类比中的带交叉偏置与DSAM绝对寿命鉴伪屏障",
+      "summary": "方法页补充依托独立DSAM在束寿命测量阻断破对带交叉假象在同位素链中链式传播的准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "wang-2013-high-spin-104ag",
+      "summary": "索引增加104Ag对齐增益3.5hbar与引文谱系偏差审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/wang-2013-high-spin-104ag.md",
+          "locator": "WS13-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2741,6 +2785,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint042已实际提交，稳定指针main / `Audit 104Ag 3.5 hbar alignment gain, citation lineage bias, and lifetime absence`；精确hash/H3/远端结果只publication-042回执。
 
 checkpoint041已实际提交，稳定指针main / `Audit 131Ba pseudospin-chiral quartet lifetime absence and MchiD mechanism conflict`；精确hash/H3/远端结果只publication-041回执。
 

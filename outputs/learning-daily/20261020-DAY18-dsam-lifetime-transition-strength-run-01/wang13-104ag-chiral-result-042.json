@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "nucleus": "104Ag",
+  "reference": "Wang et al., Phys. Rev. C 88, 024306 (2013)",
+  "summary": {
+    "Q0_2qp_eb": 2.039,
+    "Q0_4qp_eb": 1.36,
+    "deformation_drop_ratio": 2.25,
+    "alignment_gain_band_A_hbar": 3.5,
+    "alignment_separation_at_high_spin_hbar": 2.7,
+    "lineage_to_falsified_reading": "Wang 2013 justified the chiral doublet assignment of Bands A and B by citing Joshi 2007 (Ref. 17) in 106Ag. In 106Ag, subsequent DSAM lifetimes (Lieder 2014, Bark 2024) proved that the exact same 4 hbar alignment jump represents a 2qp to 4qp band crossing, definitively refuting chirality.",
+    "lifetime_absence": "No DSAM or RDDS lifetimes exist for Bands A and B in 104Ag; absolute B(M1) and B(E2) values are completely unmeasured.",
+    "methodological_boundary": "In the absence of DSAM lifetime measurements, cross-isotope phenomenological analogies risk propagating falsified 2qp/4qp crossing interpretations as spurious chiral doublet candidates."
+  },
+  "alignment_profile": [
+    {
+      "spin": 10,
+      "band_A_ix_hbar": 5.2,
+      "band_B_ix_hbar": null
+    },
+    {
+      "spin": 12,
+      "band_A_ix_hbar": 6.1,
+      "band_B_ix_hbar": 8.0
+    },
+    {
+      "spin": 14,
+      "band_A_ix_hbar": 8.8,
+      "band_B_ix_hbar": 8.4
+    },
+    {
+      "spin": 16,
+      "band_A_ix_hbar": 10.5,
+      "band_B_ix_hbar": 8.6
+    },
+    {
+      "spin": 18,
+      "band_A_ix_hbar": 11.2,
+      "band_B_ix_hbar": 8.5
+    }
+  ]
+}
