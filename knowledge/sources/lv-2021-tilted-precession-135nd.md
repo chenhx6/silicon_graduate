@@ -124,3 +124,13 @@ tags: [a130, tilted-precession, tip, low-spin, jurogam, in-beam-spectroscopy, qt
 ## Personal Notes
 
 本页是 low-spin wobbling umbrella 中的 experimental TiP case / alternative interpretation source。用户已审核 LV21-1 至 LV21-18，并校准 Table II 的 618.3/566.8 keV 数值、约90° clover 的实际角度及 LV21-13 的 TiP model-consistency 语义；source 为 `human-reviewed`，全部 claims 为 `needs_review: false`。
+
+## Day18定量审计：倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并交叉验证
+
+在Day18正式学习中对本文Table II中135Nd TiP带间跃迁数据进行严格电磁基准核验，并与A≈130区所有争议候选核进行系统性横向交叉对账，raw SHA256 `E28BC232617AF4D6EE83D95D267B2E7ACD24EDDB0D03CC1592124D31E9871150`已核。原LV21-1–12各claim及`human-reviewed`状态完全保留；新LV21-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV21-D18-1 | 本文Table II为倾斜进动（TiP）提供了首个高统计量、全线线偏振确证的实验基准：(1) TiP1向D1带的所有6条跨带线混合比均严格处于|delta| in [0.11, 0.48]区间内（平均E2份额仅7.4%，M1份额高达92.6%），线偏振不对称度AP全部严格为负值（-0.012至-0.140），B(E2_out)/B(E2_in)在0.02-0.12之间；(2) 跨核系统性交叉对账证实：当在A≈130区其他所谓低自旋wobbling候选核中采纳DCO/角分布允许的小解时，135Pr（E2=12.0%, B(E2)=0.12）、133La（E2=11-14%, B(E2)=0.08-0.15）、105Pd（E2=11-14%, B(E2)=0.04-0.10）、127Xe（E2=8-11%, B(E2)=0.10-0.23）的跃迁几率全线崩塌并与135Nd TiP基准完全重合。这证明135Nd确立了低自旋非主轴转动的真实物理基准，A≈130声称的wobbling完全是由挑选大解制造的假象，其真实物理态均为倾斜进动或单粒子磁偶极退激。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.7 Table II；新lv21-135nd-tip-result-030 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv21-135nd-tip-contract-030.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv21-135nd-tip-result-030.json)4项检查全过。

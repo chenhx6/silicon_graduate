@@ -1,0 +1,13 @@
+{
+  "target": "135Nd and A ~ 130 TiP crosswalk",
+  "paper": "Lv 2021 Phys. Rev. C 103:044308",
+  "table": "Table II",
+  "description": "Quantitative crosswalk connecting 135Nd empirical TiP benchmark with small-delta collapsed rates of A ~ 130 candidates",
+  "check_count": 4,
+  "checks": [
+    "135Nd_TiP_M1_dominance_verification",
+    "135Nd_polarization_asymmetry_sign_consistency",
+    "crosswalk_small_delta_rate_congruence",
+    "unified_TiP_vs_wobbling_evidence_classification"
+  ]
+}

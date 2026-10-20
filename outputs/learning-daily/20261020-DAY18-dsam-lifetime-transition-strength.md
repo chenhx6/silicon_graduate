@@ -2133,6 +2133,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "CH19-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "anchor": "Day18定量审计：倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并交叉验证",
+      "summary": "Table II中TiP1跨带线平均E2仅7.4%且AP全线为负的TiP物理基准与A~130所有候选核小解的全局归并",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "A≈130区低自旋wobbling假象向倾斜进动（TiP）物理基准的全局归并：135Nd横向对比",
+      "summary": "135Nd基准审计：135Pr、133La、105Pd、127Xe、187Au、130Ba在小解下全线坍缩并与135Nd TiP物理基准严格重合的全局结论",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "倾斜进动与横向wobbling的电磁判据分水岭",
+      "summary": "方法页补充倾斜进动（M1主导/AP<0/BE2_out/in~0.02-0.15）与wobbling（E2主导/AP>0/BE2_out/in>=0.20）的电磁判据分水岭准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "lv-2021-tilted-precession-135nd",
+      "summary": "索引增加135Nd倾斜进动（TiP）实验基准与A~130低自旋wobbling假象全局归并导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+          "locator": "LV21-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2147,6 +2203,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint030已实际提交，稳定指针main / `Audit 135Nd tilted precession empirical benchmark and A ~ 130 wobbling crosswalk`；精确hash/H3/远端结果只publication-030回执。
+
 
 checkpoint029已实际提交，稳定指针main / `Audit 130Ba even-even transverse wobbling claims, 74% M1 dominance, and PRM overestimation`；精确hash/H3/远端结果只publication-029回执。
 

@@ -51,6 +51,8 @@ updated: 2026-10-20
 
 - [[chen-2019-transverse-wobbling-even-even]] — 130Ba 偶偶核两准粒子横向 wobbling 声称中 74% M1 主导矛盾与 PRM 高估审计。
 
+- [[lv-2021-tilted-precession-135nd]] — 135Nd 倾斜进动（TiP）电磁跃迁基准与 A≈130 区域低自旋 wobbling 假象全局归并。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

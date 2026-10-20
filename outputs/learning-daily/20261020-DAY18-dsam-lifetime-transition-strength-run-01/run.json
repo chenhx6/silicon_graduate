@@ -71,7 +71,7 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "029 published; original deadline preserved",
+  "last_checkpoint": "030 published; original deadline preserved",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 130Ba even-even transverse wobbling claims, 74% M1 dominance, and PRM overestimation"
+    "subject": "Audit 135Nd tilted precession empirical benchmark and A ~ 130 wobbling crosswalk"
   },
   "uncredited_preview": {
     "day_index": 19,

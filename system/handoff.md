@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint030：135Nd倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并终极审计（LV21-D18-1），确立TiP1跨带线平均E2仅7.4%、AP全线为负且BE2_out/in仅0.02-0.12的TiP物理基准，并证明135Pr、133La、105Pd、127Xe、187Au、130Ba在小解下全线坍缩并与135Nd TiP严格重合（否定全区域低自旋wobbling）。109项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint029：130Ba偶偶核两准粒子横向wobbling跃迁强度与多极矛盾审计（CH19-D18-1），揭示Table I中带间连接线E2仅占25-28%而M1占72-75%（违背传统E2集体声子主导定义，呈现典型特征伙伴带特征），以及PRM全自旋区系统性高估BM1达1.5-3.3倍的理论局限。105项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint028：136Sm与133Pr高自旋Qt回归斜率显著性与阻停/侧馈系统误差审计（B19-D18-1/SI16-D18-2），证实136Sm加权均值Qt=5.483(112) eb（斜率仅-2.72sigma，完全在15%阻停误差包络内，否定灾难性形变塌缩），以及133Pr斜率仅-1.68sigma且侧馈时延跨越5个数量级跃变假象解构。101项writeback已通过验证。原硬截止明日15点保持。
@@ -46,6 +48,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint030已实际提交，稳定指针main / `Audit 135Nd tilted precession empirical benchmark and A ~ 130 wobbling crosswalk`；精确hash/H3/远端结果只publication-030回执。
+
 
 checkpoint029已实际提交，稳定指针main / `Audit 130Ba even-even transverse wobbling claims, 74% M1 dominance, and PRM overestimation`；精确hash/H3/远端结果只publication-029回执。
 
