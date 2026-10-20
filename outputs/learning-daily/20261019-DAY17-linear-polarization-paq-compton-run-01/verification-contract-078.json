@@ -1,0 +1,20 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/aoki-1975-geli-summing-polarimeters.md": 15,
+    "knowledge/sources/falkoff-1948-polarization-correlation.md": 9
+  },
+  "artifacts": [
+    {
+      "file": "aoki1975-response-result.json",
+      "true_fields": [
+        "ok",
+        "ratio_reciprocal_and_gate_inverse_controls",
+        "text_ratio_and_Fig6_direction_conflict_not_erased",
+        "no_single_Q_peak_counts_original_fitCov_or_full_response_inferred",
+        "spectrometer_efficiency_1over10_not_1over4"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false,
+  "parser_correction": "New AO75-D17-6 and FA48-D17-5 had literal unescaped |...| in prose; replaced by magnitude text, preserving all flags. All13/8 new rows now indexed, plus old AO75 two and FA48 old3 true; old FA48-2 pipe row kept exact."
+}

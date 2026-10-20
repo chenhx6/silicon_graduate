@@ -1,0 +1,12 @@
+{
+  "initial078": "verification-078-initial-new-row-pipe.json",
+  "AO75_D17_6": "replace literal pipe absolute with magnitude prose",
+  "FA48_D17_5": "replace literal pipe absolute with abs(A)",
+  "flags_changed": false,
+  "old_FA48_2_preserved": true,
+  "published062_new8_indexed_statement_revised": true,
+  "current_expected_indexed_counts": {
+    "AO75": 15,
+    "FA48": 9
+  }
+}

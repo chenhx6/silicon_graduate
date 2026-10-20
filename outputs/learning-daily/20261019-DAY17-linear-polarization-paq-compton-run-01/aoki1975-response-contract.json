@@ -1,0 +1,41 @@
+{
+  "ratio_reported": [
+    2.47,
+    0.3
+  ],
+  "ratio_theory_geometry": 2.5,
+  "text_ratio_direction": "I0/I90",
+  "Fig6_ordering": "I90>I0, contradicts literal text ratio direction",
+  "ring_geometry_theta_deg": [
+    150,
+    170
+  ],
+  "ring_standard_window_keV": [
+    160,
+    240
+  ],
+  "ring_lowered_window_keV": [
+    70,
+    240
+  ],
+  "other_ring_general_window_keV": [
+    100,
+    250
+  ],
+  "reflector_window_keV": [
+    100,
+    2000
+  ],
+  "incident_energies_keV": [
+    122,
+    244,
+    500,
+    662,
+    1332,
+    2000
+  ],
+  "electron_rest_energy_keV": 511.0,
+  "count_input": null,
+  "fitCov": null,
+  "point_only": true
+}

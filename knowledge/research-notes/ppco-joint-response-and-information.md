@@ -147,3 +147,18 @@ A_F=2/7时新cos²系数b=4/5；同A裸cos²只给9/7而非9/5。此处方位角
 在该unoriented/backtoback共同轴控制，P1=P2=0但PP1=A_F，直接示范单光子零偏振不排两光子相关；A_F不是单P、计数A或polarimeterQ。若另满足原PPCO局部factorized响应，AA1=Q1Q2A_F；不以此把490/569的Q迁移给Co60。现代Co60混合/源制备、门、finitegeometry仍须原matchinginput。Madansky当时仅settingupapparatus，本文不是新的实际偏振标定/独立实验，原directionalRefs不补actualcounts。
 
 复算`system/scripts/day17_falkoff1948_cg_audit.py`；falkoff1948-CG-contract/result保存本run版本/初scratchimport缺sympy失败及改用已有Wiki依赖的处置。未测任何新核P/Q/δ/实验CI。
+
+### Aoki1975：实际tagged湮没基准与ratio方向
+
+[[aoki-1975-geli-summing-polarimeters]] AO75-D17-1–13原8页/12图/20refs本session全读。Fig5在22Na两侧用NaI的Comptontag与Ge的多方位analyzer，NaI summed511gate后Ge四分PHA同时记录0/30/60/90 fullpeak。它测的是两分析器共同条件相关，不能把“湮没双光子”简写成Ge入射beam已独立P=1；source引Snyder的2.50明确含两装置finiteangle，未另报Ptag/单GeQ。
+
+**原方向不闭保留：** printed56说I0/I90=2.47±.30，但Fig6 I90高于I0；因此文字ratio方向不等图的直接排序。这里不裁成作者实验错误、不用自由拟合或digitize构造精确fourcounts。对ratio的**大小**r转
+
+\[
+|\kappa|=\frac{r-1}{r+1}=.42363112,\qquad
+\sigma_{|\kappa|}\simeq\frac{2\sigma_r}{(r+1)^2}=.04983016.
+\]
+
+r2.50对应3/7=.42857143；r倒数使κ变号。源fit为A+Bcos(2φ)，文字方向r>1给B/A正而Fig趋势给负，这个差仍未解决。所印±.30映r±σ到κ约.369085/.469496只是非线性转换标记，非jointCI。若另声明idealannihilation/factorized响应，幅度只约束Qtag×QGe（含finiteangle时需用实际jointkernel），其局部对两参数只有rank1；无独立tag标尺不能唯一给GeQ。这里没有把ratio的作者agreement变成单Q验证。
+
+无旋转提高同时性仍不消相对效率：Fig3在未biassectors时scatterer效率显著随bias异常，equalbias近定；作者要求allunits同bias。sector角宽比例within3%countstat不等所有能量/门/共背景的精确校准，四pointfit共享tag/live时间与读出。实际counts/relativeeff/taggeometryCov尚未取得，不设Ptag1或N的PoissonΣ来重做实验。

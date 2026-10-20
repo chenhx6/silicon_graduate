@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-20T03:04:50.138162+00:00",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf",
+  "bytes": 535001,
+  "sha256": "b0a36fa350a078021212b8cd9a28fecc389baf1ebbbd8a60f79f025b68cc70a7",
+  "text_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "printed_pages": "53\u201360",
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "tables": [],
+  "numbered_equations": [],
+  "unnumbered_fit": "A+Bcos(2phi)",
+  "references": 20,
+  "old_claim_flags_preserved": true,
+  "new_claims_needs_review": 13,
+  "Ref18_Snyder_body_read": false,
+  "no_actual_counts_fitCov_or_Ptag": true
+}

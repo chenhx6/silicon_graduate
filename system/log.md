@@ -2290,3 +2290,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint062：Falkoff cos2φ/ratio与新CG核
 
 原letter全读、旧cos²转录撤回/旧flags保，新8待审；27dipole/4quad exactCG及EM号/harmonic通过，非原producer/现代Co60。verification077旧parser预期修正后valid、manifest062/H3，main / `Correct Falkoff harmonic transcription with independent CG controls`，原windowactive/17once/partial18。
+
+### Day17 checkpoint063：Aoki实际tag/ratio方向/eff分母
+
+原8页/13newclaims待审，ratio方向图文未闭、κ仅幅度、前1/40后1/10和peaknormalized背景/不同门分开；pointKN核不代actualresponse。078newpipe/parser修复和FA48索引过强回述修订已保，verification078valid、manifest063/H3，main / `Audit Aoki annihilation reference and spectrometer efficiency gates`，原windowactive/17once/partial18。

@@ -525,3 +525,11 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 ### 经典两光子相关的A不是单光子不对称度
 
 [[falkoff-1948-polarization-correlation]] FA48-D17-1–8的原cos2φ/2/7→1.8与新CG核，使旧Wikicos²转录撤回；等价cos²需要改为b=2A/(1−A)并保overallconstant。[[ppco-joint-response-and-information]]“Falkoff1948：相对电场角不是探测器方位角”说明P1=P2=0仍可PP1非零；只有同轴/同角色/同响应才经Q1Q2桥到AA1，不是原1948instrumentQ或现代Co60实测。
+
+### Aoki1975：两装置的效率、门与归一分开
+
+[[aoki-1975-geli-summing-polarimeters]] AO75-D17-1–13原件中，前六segment多方位polarimeter的一个analyzer summing效率约scatterersingle的1/40（Fig4）；后ringreflector是另一个backscatter spectrometer，abstract约1/10、正文>400keV约1/10、Fig11caption>500keV less1/10，旧Wikiquarter撤回。Fig7两0/两90称4倍省时只是该设计，未给跨装置merit完整账。
+
+Fig9先以1332peak归一，背景20倍改善是relative形状；不是同曝光绝对backgroundrate，也不能和不同window的Fig11效率拼beamtime收益。通常ring100–250keV、reflector100–2000；Eu的Fig10/11 ring160–240，Fig12降至70–240出现122/244但tail吞弱峰。约300keV practicalfloor与7keV FWHM@1333属于后spectrometer，不是前polarimeter universalthreshold/Q。
+
+本sessionsingleCompton point核：θ150–170、1332keV的E′为227.146–215.754keV，仍在160–240门；原文below200近似不能作严格上界。E→∞极限511/(1−cosθ)约274–257keV。122/244的反散射pointE′低于160，说明lowergate提高低能接受的条件机制；不代actualmultiscatter/chargecollection/eff或断言原experiment失败。实际source/tagratio方向/|κ|及joint识别边界见[[ppco-joint-response-and-information]]“Aoki1975：实际tagged湮没基准与ratio方向”。

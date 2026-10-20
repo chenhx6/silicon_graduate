@@ -1,0 +1,163 @@
+{
+  "at": "2026-10-20T03:03:29.134602+00:00",
+  "script_sha256": "13fb31153e4518ade3dba43bd4e2541fda7f48224b9674478e230bbf68c93a6b",
+  "contract_sha256": "1e8f7ea15ad2e1ecde9117dec36ec5282b320fd8046499582ab41ee338943d43",
+  "reported_ratio_magnitude_to_modulation": {
+    "r": 2.47,
+    "sigma_r": 0.3,
+    "abs_kappa": 0.4236311239193084,
+    "sigma_kappa_delta_method": 0.049830162197177945,
+    "mapped_r_minus_plus_sigma_not_CI": [
+      0.3690851735015774,
+      0.46949602122015915
+    ],
+    "geometry_prediction_abs_kappa": 0.42857142857142855,
+    "direction_unresolved_text_vs_Fig6": true,
+    "not_single_analyzer_Q": true
+  },
+  "single_Compton_window_controls": [
+    {
+      "incident_keV": 122,
+      "theta_deg": 150,
+      "scattered_keV": 84.3993361208931,
+      "in_160_240": false,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 122,
+      "theta_deg": 170,
+      "scattered_keV": 82.77539124632541,
+      "in_160_240": false,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 244,
+      "theta_deg": 150,
+      "scattered_keV": 129.0310297775257,
+      "in_160_240": false,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 244,
+      "theta_deg": 170,
+      "scattered_keV": 125.27365158603972,
+      "in_160_240": false,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 500,
+      "theta_deg": 150,
+      "scattered_keV": 176.93750177210728,
+      "in_160_240": true,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 500,
+      "theta_deg": 170,
+      "scattered_keV": 169.9476793912355,
+      "in_160_240": true,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 662,
+      "theta_deg": 150,
+      "scattered_keV": 193.71258774378612,
+      "in_160_240": true,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 662,
+      "theta_deg": 170,
+      "scattered_keV": 185.36581667835816,
+      "in_160_240": true,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 1332,
+      "theta_deg": 150,
+      "scattered_keV": 227.14553250099328,
+      "in_160_240": true,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 1332,
+      "theta_deg": 170,
+      "scattered_keV": 215.75370320802915,
+      "in_160_240": true,
+      "in_70_240": true
+    },
+    {
+      "incident_keV": 2000,
+      "theta_deg": 150,
+      "scattered_keV": 240.86442664719607,
+      "in_160_240": false,
+      "in_70_240": false
+    },
+    {
+      "incident_keV": 2000,
+      "theta_deg": 170,
+      "scattered_keV": 228.0936622715939,
+      "in_160_240": true,
+      "in_70_240": true
+    }
+  ],
+  "asymptotes_and_inverse_gate_map": [
+    {
+      "theta_deg": 150,
+      "Eprime_infinite_incident_limit_keV": 273.8440746646074,
+      "gate_map": [
+        {
+          "ring_gate_keV": 70,
+          "incident_keV": 94.03798103065866
+        },
+        {
+          "ring_gate_keV": 100,
+          "incident_keV": 157.52281186052917
+        },
+        {
+          "ring_gate_keV": 160,
+          "incident_keV": 384.86897166514285
+        },
+        {
+          "ring_gate_keV": 240,
+          "incident_keV": 1941.9227315508654
+        },
+        {
+          "ring_gate_keV": 250,
+          "incident_keV": 2871.1962879302246
+        }
+      ]
+    },
+    {
+      "theta_deg": 170,
+      "Eprime_infinite_incident_limit_keV": 257.4556650257386,
+      "gate_map": [
+        {
+          "ring_gate_keV": 70,
+          "incident_keV": 96.13951410498693
+        },
+        {
+          "ring_gate_keV": 100,
+          "incident_keV": 163.5099410260364
+        },
+        {
+          "ring_gate_keV": 160,
+          "incident_keV": 422.6835494195119
+        },
+        {
+          "ring_gate_keV": 240,
+          "incident_keV": 3539.7883446473093
+        },
+        {
+          "ring_gate_keV": 250,
+          "incident_keV": 8632.887345962594
+        }
+      ]
+    }
+  ],
+  "ratio_reciprocal_and_gate_inverse_controls": true,
+  "text_ratio_and_Fig6_direction_conflict_not_erased": true,
+  "no_single_Q_peak_counts_original_fitCov_or_full_response_inferred": true,
+  "spectrometer_efficiency_1over10_not_1over4": true,
+  "ok": true
+}

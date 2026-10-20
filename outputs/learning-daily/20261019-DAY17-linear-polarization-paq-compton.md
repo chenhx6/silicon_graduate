@@ -8426,6 +8426,135 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "FA48-D17-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+      "summary": "原8页全读，新13待审/旧flags保；ratio图文方向、tag共同响应、效率1/10/背景归一纠正与门/能量域分层。",
+      "anchor": "Day17原件复核：双光子ratio方向与两套效率分母",
+      "sources": [
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-1"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-2"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-3"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-4"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-5"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-6"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-7"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-8"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-9"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-10"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-11"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-12"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ppco-joint-response-and-information.md",
+      "summary": "实际taggedannihilation、ratio方向保界与κ误差，未独立Ptag不解单GeQ。",
+      "anchor": "Aoki1975：实际tagged湮没基准与ratio方向",
+      "sources": [
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-1"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-2"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-3"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-4"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-5"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-6"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-7"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "polarimeter1/40与后spectrometer1/10、背景peak归一/窗口分开，KNpoint核不代fullresponse。",
+      "anchor": "Aoki1975：两装置的效率、门与归一分开",
+      "sources": [
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-4"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-9"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-10"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-11"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-12"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-13"
+        }
+      ]
     }
   ]
 }
@@ -8843,3 +8972,13 @@ canonical SIM05新12待审/旧7保、sharedcal研究节与Compton方法写回，
 新独立sparseCG/Jones不调旧Day16内核，unoriented/backtoback/globalxy核Table1九dipole式×J2/3/4共27rows、Eq3EM号/flip，quadJ2–5四rows得±2/7，多相对角cos(2φ)均过；allJ仍源作者陈述非采样全域证明。两singleP零仍可jointPP1=A_F，但角是relativefieldangle而非DR99detectorφ；现代Co60M3/门/arrayQ不迁。本letter仅理论预测/器件settingup，不新独立偏振实验；Crossref exactDOI候选TLSfailed不补metadata。初scratchkernel无sympy失败与改用已有Wiki依赖记录在contract。
 
 canonicalFA48/PPCOnote/Compton、唯一writeback、script/input/result/scope/freezes及18priming齐，verification077/publication062实际门。17once/partial18、原windowactive，局部source完成不日终。
+
+### Checkpoint063：Aoki1975实际tag与两装置的门/效率
+
+先冻aoki1975-before/exercise、声明旧摘要priming，原8页53–60全textvisual/12图/20refs与未编号fit核；535001bytes/hash保。新13待审/旧3flags保持。前polarimeter NaI511sumtag→Ge同时fourangle，原ratio文字I0/I90>1却Fig6 I90高，方向保界不裁experimentalerror；幅度κ.423631±.049830局部、pred3/7仅同geometryagreement，不独立单GeQ。bias图实测异常是无旋转仍需relativecal反证。
+
+前Fig4一个analyzer效率约1/40；后ringreflectorspectrometer abstract/text约1/10、Fig11>500less1/10，旧quarter纠正；Fig9先1332peak归一后背景20倍，不当同曝光背景下降。后150–170反散射/Eu160–240与70–240门分开，singleCompton点1332的E′215.754–227.146>200仍在gate，原below200非严格界；122/244低pointE′解释lower门接受但非actualresponse。practical300/7keV FWHM与后谱仪绑定，不迁前Q。
+
+canonicalAO75/PPCOnote/Compton、唯一writeback、script/input/result/scope/freezes和18priming齐。verification078/publication063实际门，17once/partial18/windowactive，不以source完成日终。
+
+Checkpoint063 parser补核：078首次新AO75行的字面|κ|使该行未按true列索引；追查同时发现062新FA48-D17-5的|A|也导致少一行。新两行改为无pipe的幅度文字，所有flags保持；FA48旧2的原pipe行仍逐字保。当前AO75新13+旧2=15、FA48新8+旧3=9均按验收核。062 handoff所称“新8全indexed”当时过强，现明确修订；原077历史receipt不重写。
