@@ -611,3 +611,5 @@ q(\alpha,\mu)=\frac{1-\mu^2}{t+t^{-1}-1+\mu^2},
 SeGA核reference的currentcompanion见[[nndc-2023-cm245-cf249-polarization-reference]] N245-1–15：当前(E1)/MR空、旧无号混合幅度、anomalousconversion/BrIcc层分开，MI07-D17-16保真正pureP/phase/接受/Σ缺口。新官方body提高identityreadiness，不自动给新Q或证明原标定失败。
 
 N245-16/17、MI07-D17-17的sameparentpureE1必要a2关系为−16/11；原summarycentral有小残差，但actualΣ/共同门与接受未核，独立误差下约1.73σ不能当实验reject。[[polarimetry-shared-calibration-count-design]]“Cm245同母态：先检验共同P标尺的必要关系”保存exactrank与marginalbox边界，不据其重标Q或给混合号。
+
+MI07-D17-19/20的最后选择检查区分inclusive未观测α与strictantiα。matchedresponse可给小a偏置量级，headlinecounts本身则不能认证该匹配；actualsorter未取不重标Q。见[[polarimetry-shared-calibration-count-design]]“SeGA singles：未观测α与严格反α不是同一选择”，保commoncalibration/小类接受/normalizer边界。

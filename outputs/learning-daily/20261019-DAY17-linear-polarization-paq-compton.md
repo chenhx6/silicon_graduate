@@ -9611,6 +9611,51 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "VT74-D17-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/miller-2007-sega-polarization.md",
+      "summary": "inclusive/strictantiα和matchedresponse估计/弱countcapacity分层，未猜actualsorter或修Q。",
+      "anchor": "本session末段：singles的未观测与反门样本",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-19"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "最后已冻bounded选择诊断，conditionalPanti/ratio变换和headlinef不足匹配response，no materialchange于publishedQ。",
+      "anchor": "SeGA singles：未观测α与严格反α不是同一选择",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-19"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-20"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "strictanti与inclusive不同、noactualsorter不修Q的合同入口。",
+      "anchor": "SeGA侧入射的a和总峰计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-19"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-20"
+        }
+      ]
     }
   ]
 }
@@ -10108,3 +10153,9 @@ canonicalN245新16/17、MI07新17、sharedcal/Compton及唯一writeback/18primin
 只currentN245/MI07/VT74已读sources、mixingcompanionbefore先冻，在声明realnormalizedamp/initialleft/两multipole/commonρ域核旧absδ333.066–.098/388.11–.14两号。exactR2 rationalquadratic与导数驻点/端点穷举，四ratio域约[−12.4002,−4.9897]/[−.9798,−.8617]/[−10.0201,−3.9239]/[−.7918,−.6776]，均不交actuala2两倍marginalratio框[−2.2,−1.31579]。no-witness保，不扩δ/σ、不自由q强配/赋source号。
 
 rank4只δ²R422B4，a4null需B4/response条件，不声称找到actualB4zeroq。历史electronMR/anomalousE1和gammaP不同层，no-witness不证明实验pure或排全M2族；actualΣ/接受/primaryphase缺口保。sourceN245/MI07各新18待审、sharedcal/唯一writeback/18priming、script/contracts/results/freezes齐；verification087/publication072实际门。原windowactive/17once/partial18，13:30后仅currentboundedanalysis、15点stopresearch。
+
+### Checkpoint073：最后已冻问题的singles选择界限
+
+原13:28前before已冻，只已读MI07/Cm245 current问题，13:30后没有新source/body/课。Eq11inclusive模型与Sec4.2noalphadetected词句不能认证actualsorter；sameensemble P_all0时Panti=−fPtag/(1−f)。原headline125×25000/7000估inclusivef.00224/odds.002245，exclusive解释近同。matchedscalarQ.14额外前提下a偏置量级≤7.92e−5比σa.007小，非actual无误差证明；仅countcapacity/rounded.03/.25可给aanti/ainc .92533–1.00904，说明headlinef不认证polselection/Stokes/接受。
+
+原actualtrigger/事件路由/Σ未得，不修Q或解释a2残差；no materialchange于publishedSeGAQ。MI07新19/20待审、sharedcal/Compton/唯一writeback/18priming/artifacts齐，verification088/publication073 actualgate。当前boundedresearch已饱和，余时只既有证据整合/反查和15点closeout，不开新source/课，不把此checkpoint当日终。

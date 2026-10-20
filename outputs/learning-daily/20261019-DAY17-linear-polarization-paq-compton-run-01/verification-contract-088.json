@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/miller-2007-sega-polarization.md": 22
+  },
+  "artifacts": [
+    {
+      "file": "sega-singles-selection-result.json",
+      "true_fields": [
+        "ok",
+        "exact_complement_and_count_ratio_transform_controls",
+        "headline_f_does_not_attest_polarimetry_selection",
+        "no_original_sorter_or_Q_correction_or_CI_inferred"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

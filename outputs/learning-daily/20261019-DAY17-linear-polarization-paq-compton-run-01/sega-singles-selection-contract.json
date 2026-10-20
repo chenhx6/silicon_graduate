@@ -1,0 +1,22 @@
+{
+  "downscale": 125,
+  "approx_singles_per_detector": 25000,
+  "approx_coincidences_per_detector": 7000,
+  "a_reference": 0.126,
+  "quoted_a_sigma": 0.007,
+  "source_Q_for_conditional_scale": 0.14,
+  "headline_counts_not_exact_data": true,
+  "trigger_inclusive_vs_exclusive_unknown": true,
+  "source": "MI07 printed715 Sec3.2 Eq11, printed716 Sec4.2",
+  "hypotheses": [
+    "allgamma unpolarized",
+    "sameenergy/frame/gammaselection",
+    "twochannel linear scalarQ response for bias estimate"
+  ],
+  "no_actual_uncertainty_or_sorter_inferred": true,
+  "rounded_photopeak_class_fractions": {
+    "perp": 0.03,
+    "parallel": 0.25
+  },
+  "scope_refinement": "headlinephotopeak tagfraction does not by itself certify same polarimetrysample response; compare conditionalP/scalarQ model with counts-only classcapacity diagnostic, no actualsorter or transport claimed"
+}

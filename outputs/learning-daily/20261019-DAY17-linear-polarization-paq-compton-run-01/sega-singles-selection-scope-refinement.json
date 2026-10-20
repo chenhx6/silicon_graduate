@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-20T05:31:19.857627+00:00",
+  "frozen_before_unchanged": true,
+  "reason": "distinguish incident/matched\u03b3 ensemble fraction from detectedphotopeak aggregate; cannot infer small effect unconditionally",
+  "extra_actual_input": "MI07 already-read3%/25% classfractions",
+  "new_source_opened": false,
+  "no_more_research_routes": true
+}

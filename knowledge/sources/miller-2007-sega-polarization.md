@@ -83,6 +83,8 @@ tags: [SeGA, polarization, Compton-polarimetry, detector-response]
 | MI07-D17-16 | 当前202305官方Cm245对象给同388.170母态的333.37/388.15均(E1)/MR空，并保1977混合幅度及2015 anomalousE1 ICC解释。它限制将本文pureE1假定跨版本当独立测得δ0，不证明本实验Q失败，也不从electronanomaly直接重标gammaP。 | evaluated-reference-companion-boundary | cross-source-synthesis | N245-2; N245-3; N245-4; N245-5; printed715 Sec3.1 | true |
 | MI07-D17-17 | sameparent/pureE1/sharedrho/已匹配接受时本session独立CG给a333/a388=−16/11；原a2 central残差−.042727，若额外独立误差约1.728σ，actualCov未知不作reject。一倍marginalbox不交而两倍交，不给δ号或新Q/P。 | conditional-companion-check | source-J-and-summary-calculation | printed715 Fig3; printed716 Sec4.1; N245-16/17 | true |
 | MI07-D17-18 | N245-18的历史MR magnitudebox在声明sourcephase/commonrho模型中不能匹配本a2的2xmarginal框；它限制把旧electronMR评论直接重标本Q，不证明实际pureE1或M2族已实验排除。rank4 null也需取向B4与actual响应合同，不能先置未知B4。 | source-companion-and-transfer-boundary | conditional-model-and-scope | N245-18; printed716 Fig5; printed718 Outlook | true |
+| MI07-D17-19 | Eq11用inclusivegamma singles模型，Sec4.2的noalphadetected文字不能单独认证actualsorting为inclusive或anti-alpha。若sameconditionalensemble fullP0，Panti=−fPtag/(1−f)；用125×25000/7000 headline估f.00224，仅在matchedscalarQ.14模型下a偏置量级上界约7.92e−5，非actualbias/CI。 | conditional-selection-audit | source-and-task-calculation | printed715 Sec3.2 Eq11; printed716 Sec4.2 | true |
+| MI07-D17-20 | photopeakheadline f不能自动代表polarimetrysample Stokes/接受；只用rounded3%perp/25%par与删除capacity，aanti/ainclusive可在.92533–1.00904的弱诊断范围。小matchedQ估计不认证sorting/noerror，未取得actualevent/Σ，不重标publishedQ。 | response-transfer-counter-control | task-count-design-and-scope | printed716 Sec4.2; MI07-D17-19 | true |
 
 ## Summary
 
@@ -131,3 +133,7 @@ Miller *et al.* establish a practical side-irradiated SeGA polarization calibrat
 ### Cm245官方参考的新输入
 
 [[nndc-2023-cm245-cf249-polarization-reference]] N245-1–15是本session新获取的202305评价两个完整对象，不是本篇2007实验的独立Q验证。保当前(E1)/空MR、旧无显式号MR评论、分壳转换异常与BrIccmodel列；未取得2015/1977primarybody/phase/实际SeGAΣ，不能据此给新的P/Q修正或作parity重裁。
+
+### 本session末段：singles的未观测与反门样本
+
+[[polarimetry-shared-calibration-count-design]]“SeGA singles：未观测α与严格反α不是同一选择”保存13:28前已冻的最后bounded分析。原Eq11与文字可能只是“未要求α”的描述，不能由任务猜actualsorter；matchedresponse的小偏置和headlinecount-only弱范围须分层。未造新Q校正/实际CI，13:30后不打开新source/课。

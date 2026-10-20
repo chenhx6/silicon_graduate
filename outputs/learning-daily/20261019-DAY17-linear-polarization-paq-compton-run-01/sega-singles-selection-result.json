@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-20T05:32:31.228907+00:00",
+  "script_sha256": "5c91bdcfa02ff7a171a61db9f4db7c9d024cd2664076f9dd7a7d891f84a0b40b",
+  "contract_sha256": "c4a52e759eea7f6e0ee490bdf2799736242a2be70ad075ece6c59194407341ca",
+  "headline_count_interpretations": {
+    "unscaled_singles": 3125000,
+    "tag": 7000,
+    "inclusive_tag_fraction": 0.00224,
+    "inclusive_complement_odds": 0.002245028864656831,
+    "if_singles_exclusive_tag_fraction": 0.002234993614303959,
+    "if_singles_exclusive_complement_odds": 0.00224
+  },
+  "matched_response_scalar_Q_design": {
+    "P_complement_absolute_bound": 0.002245028864656831,
+    "count_asymmetry_complement_bound_Q_0_14": 0.0003143040410519564,
+    "absolute_a_bias_bound_at_source_a": 7.922952050355788e-05,
+    "quoted_a_sigma": 0.007,
+    "tag_P_control_rows": [
+      {
+        "design_tag_P": -1.0,
+        "complement_a": 0.0003143040410519564,
+        "A_using_complement_as_null": -0.14030813012333132,
+        "relative_Q_shift_if_nonzero_P": 0.0022009294523663847
+      },
+      {
+        "design_tag_P": 0.0,
+        "complement_a": -0.0,
+        "A_using_complement_as_null": 0.0,
+        "relative_Q_shift_if_nonzero_P": null
+      },
+      {
+        "design_tag_P": 1.0,
+        "complement_a": -0.0003143040410519564,
+        "A_using_complement_as_null": 0.14030813012333132,
+        "relative_Q_shift_if_nonzero_P": 0.0022009294523663847
+      }
+    ],
+    "actual_response_not_attested": true
+  },
+  "counts_only_class_capacity_controls": [
+    {
+      "removed_perp_fraction_of_fullpeak": 0.0,
+      "removed_parallel_fraction_of_fullpeak": 0.0,
+      "a_anti_over_a_inclusive": 1.0
+    },
+    {
+      "removed_perp_fraction_of_fullpeak": 0.00224,
+      "removed_parallel_fraction_of_fullpeak": 0.0,
+      "a_anti_over_a_inclusive": 0.9253333333333333
+    },
+    {
+      "removed_perp_fraction_of_fullpeak": 0.0,
+      "removed_parallel_fraction_of_fullpeak": 0.00224,
+      "a_anti_over_a_inclusive": 1.0090410074265417
+    }
+  ],
+  "counts_only_relative_a_ratio_range_not_actual_bias": [
+    0.9253333333333333,
+    1.0090410074265417
+  ],
+  "exact_complement_and_count_ratio_transform_controls": true,
+  "headline_f_does_not_attest_polarimetry_selection": true,
+  "no_original_sorter_or_Q_correction_or_CI_inferred": true,
+  "ok": true
+}

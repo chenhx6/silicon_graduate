@@ -525,3 +525,30 @@ actuala2中央ratio为−29/17，一倍marginal框给[−31/16,−3/2]，两倍�
 同一两multipole模型的rank4系数为a4=B4 δ²R4(2,2)/(1+δ²)，因此新的a4测量可作companion，但nulla4只有在B4/响应足够已知时才给混合限；若B4恰零，不能仅null删δ。当前没有声称为上述MRbox找到共同q/B4zero实际witness，也未测actuala4。下一最高信息仍匹配逐unitAD/P/门/接受/Σ与上游primarybody，而非再造referencefit。
 
 复算`system/scripts/day17_cm245_mixing_sensitivity.py`，本run `cm245-mixing-companion-contract/result.json`。before/freeze保no-witness不扩框的先验承诺，未赋新formalcredit。
+
+#### SeGA singles：未观测α与严格反α不是同一选择
+
+[[miller-2007-sega-polarization]] MI07-D17-19/20是13:28前冻结的最后currentbounded问题，依据已读Eq11/原counts和Sec4.2文字。Eq11的singles模型未要求alpha，与严格删除已探测α的反门样本不是同一统计对象。source的“noalphadetected”也可能只是前一种实验叙述；没有actualtrigger/sorter不选择解释或称原analysis有误。
+
+固定同gammaenergy/方向/选择/轴，若完整ensemble的P_all=0、探测到alpha的权重为f，jointsample分解给
+
+\[
+P_{\rm anti}=-\frac{f}{1-f}P_{\rm tag}.
+\]
+
+用原approxdownscale125、333每unit~25000singles/~7000coinc，假定singles inclusive得unscaled3125000/f≈.00224、odds f/(1−f)=.00224503；若singles本身exclusive，f≈.00223499/odds.00224。两者都是headline量级，未恢复actual事件、其时间/角依赖或误差。
+
+若**额外**匹配入射/探测接受与scalarQ=.14，则abs(Panti)≤.002245、反样本countasymmetry≤.0003143，a≈.126时absolute偏置界约.00007923，远小于printedσa=.007。在该模型中用反样本当null会把Atag变成(Atag−Aanti)/(1−Atag Aanti)，极限Ptag±1的相对Q偏移约.22%。这些是充分响应合同下的设计估计，不是原实验校正/无偏证明；实测Q作为假设输入不能被它反过来独立认证。
+
+只凭detectedphotopeak的f则信息更弱。原roundedperp/par fractions.03/.25下，删除的tag事件可集中在任一类别；capacity约束给
+
+\[
+.925333\lesssim\frac{a_{\rm anti}}{a_{\rm inclusive}}
+\lesssim1.009041.
+\]
+
+这是各删除量为非负、合计≤f的triangle在三个vertex上的exactfraction诊断，不声称实际Stokes/transport能达到所有端点；它只说明headlinecounts本身不足以推出前一小偏置。将totalphotopeak的f直接代入未匹配的polarimetryresponse会隐藏小类接受代价。
+
+AD用严格anti singles时也需对应conditionalnormalizer，不能未经说明仍按Eq12的inclusiveW比拟合；本页未算actuala2修正或用它解释sameparent残差。最高信息为actualsingles/coincidence路由、downscale随机性/共同event、逐unit/photopeak/polarimetrycut和同角响应。此问题在现有原件/summary层已饱和，决定`no material change`于publishedQ，保selectionreadiness，不开新source或更多toy。
+
+复算`system/scripts/day17_sega_singles_selection.py`，本run `sega-singles-selection-contract/result.json`；scope-refinement明确headlinef与matchedensemble不等，原before冻结不改，无新Jπ/P/Q/δ/实验CI。

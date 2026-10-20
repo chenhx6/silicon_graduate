@@ -247,3 +247,5 @@ Day17 checkpoint070 priming：N245-1–15 actual202305两officialobject797行/NS
 Day17 checkpoint071 priming：N245-16/17/MI07-17 exactsameparent pureE1 a2ratio−16/11，原summary残差独立假设1.73σ/unknownCov、1x/2x marginalboxes非jointtest；不重标Q/推混合号，actualgates/接受/Σ仍缺，无formal18信用。
 
 Day17 checkpoint072 priming：N245/MI07新18的oldMRbox/commonrho模型无a2ratio witness，未赋sourcephase/扩框/重标Q；a4null仍需B4/response，不判实际pure或全M2排除，无formal18信用。
+
+Day17 checkpoint073 priming：MI07-19/20 inclusive与strictantiα/response匹配有界检查，headlinef小不认证polselection，小conditionalbias不当actual无误差证明；noactualsorter/Σ不修Q，无formal18信用。

@@ -2330,3 +2330,7 @@ exact−16/11与原a2残差/Covrange、1x/2x marginalbox检查，非jointtest/δ
 ### Day17 checkpoint072：oldMRbox的sameparent敏感性
 
 声明phase/commonρ域四号oldMR框均无a2ratio必要witness，不扩框/赋号/重标Q；a4需B4/response。source两新claim待审，verification087valid/manifest072/H3，main / `Bound historical mixing inputs in the shared Cm245 reference model`，windowactive/17once/partial18，13:30后仅最后已冻currentissue。
+
+### Day17 checkpoint073：inclusive/antiα最后bounded检查
+
+matchedQ小偏置与headlinecountcapacity弱界分层，actualsorter/Σ未知不修Q；原13:28前已冻问题完成，13:30后无newsource。verification088valid/manifest073/H3，main / `Separate inclusive singles from alpha anticoincidence calibration`，windowactive/17once/partial18；余时只既有证据和交付核查。
