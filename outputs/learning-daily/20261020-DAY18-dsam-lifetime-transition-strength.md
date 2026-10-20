@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含37atomic映射项/15mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报以当前唯一writeback区块的实际映射为准；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -48,6 +48,13 @@ updated: 2026-10-20
 当前首交付完成后仍有原方法/校准高价值路线，不能用两个槽位读完提前收束。最新时间快照与候选更新随checkpoint记录；硬截止次日15点保持。
 
 ## Sources and evidence
+
+### checkpoint045：撤回未提交044的过强判决并完成新条件几何练习
+
+重新核Hecht2003全部14页文字主线及PDF9/13视觉证据。原参数位于p.13，Fig.9在p.9，Fig.8为能级系统学。新HE03-D18-2–5保持needs_review，旧HE03-D18-1标为superseded。作者讨论B(E2)随自旋的大跳变/平滑增长，没有给“56.2%差就是形状共存、等Qt就是手征”的普适判据；也未指定DSAM唯一或证明2026全核无寿命。旧4条固定passed不计核验。
+
+本session新张量设计冻结假设后进行：beta平方比1.5625在同编号主轴的强度比变为1.36234/.489184/5.53710，并存在53.12221°同强度witness。[18项实际断言](20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht03-geometry-correction-result-045.json)核恒等式/极限/轴置换/原文；这些自由轴非实际TAC解，缺原波函数/producer/Σ，不造实验CI。更正已同步source/note/method/index与此writeback；旧产物保档。
+
 
 ### checkpoint009：电子计时 PRF 与完整方法选择清单
 
@@ -2815,6 +2822,98 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "HE01-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "anchor": "Day18修订：形变幅度、转轴几何与原文寿命判别",
+      "summary": "纠正beta平方比、Qt几何和DSAM唯一判决的过强断言；原文与新条件反例分列",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "140Eu形变与转轴几何的条件反例及原文判别",
+      "summary": "纠正beta平方比、Qt几何和DSAM唯一判决的过强断言；原文与新条件反例分列",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "三轴形变反演的转轴与竞争模型边界",
+      "summary": "纠正beta平方比、Qt几何和DSAM唯一判决的过强断言；原文与新条件反例分列",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "hecht-2003-chirality-shape-coexistence-140eu",
+      "summary": "纠正beta平方比、Qt几何和DSAM唯一判决的过强断言；原文与新条件反例分列",
+      "sources": [
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-3"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-4"
+        },
+        {
+          "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+          "locator": "HE03-D18-5"
+        }
+      ]
     }
   ]
 }
@@ -2829,6 +2928,11 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint045已实际提交，稳定指针main / `Correct 140Eu lifetime discriminator and test conditional E2 geometry`；精确hash/H3/远端结果只publication-045回执。
+
+
+checkpoint044的“已提交”记录已撤回：Git仍在checkpoint043；其草稿由checkpoint045纠正，publication-044不存在。
 
 checkpoint043已实际提交，稳定指针main / `Audit 136Pm and 138Eu 3D TAC tilt angle collapse and 134Pr deformation disparity warning`；精确hash/H3/远端结果只publication-043回执。
 

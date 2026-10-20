@@ -2568,3 +2568,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-21 DAY18 checkpoint043：136Pm与138Eu 3D TAC倾角塌缩、在束寿命缺失与134Pr形变落差警示审计
 
 审计Hecht 2001（PRC 63, 051302(R)）N=75同中子素136Pm与138Eu手征候选带数据（HE01-D18-1）：(1) Table I展示的3D TAC计算表明，非平面倾角phi随频率增加发生急剧塌缩：136Pm在0.425 MeV (I=18.5)处phi降为0度，138Eu在0.350 MeV (I=13.5)处phi降为0度，证明微观模型本身预言非主轴手征解仅存在于狭窄的低自旋窗口并迅速终止为平面转动；(2) 两核全无在束能级寿命测量（DSAM或RDDS均缺），所绘制的B(M1)/B(E2)比值基于两带内禀四极矩完全相同的假设；(3) 邻核N=75同中子素134Pr后续寿命测量（Petrache 2006, Tonev 2006）确凿证实两伙伴带内禀四极矩存在2.0倍巨大落差（Q_0,1/Q_0,2 = 2.0(4)），推翻了手征等形变假定；136Pm与138Eu缺乏绝对寿命使得相同假定面临完全相同的系统学风险。163项writeback/47mapped知识页通过verification048/lint046/boundary044。原硬截止今日15点保持。
+
+
+## 2026-10-21 DAY18 checkpoint045：Hecht2003原文、几何反例与科学纠错
+
+旧checkpoint044未提交，旧log记录是当时草稿解释，由此追加更正：1.5625仅beta平方条件算术，原p.13判别为B(E2)随自旋大跳变与平滑增长；DSAM唯一/严格等Qt及“至今全核无寿命”均撤回。原14页文字主线与PDF9/13视觉复核，新HE03-D18-2–5及张量条件设计18项实际断言，同编号主轴比1.36234/.489184/5.53710，53.12221度同强度witness非TAC解。旧result/contract-043保档被取代，needs_review不升级。原session/15点截止/未授正式18保持。

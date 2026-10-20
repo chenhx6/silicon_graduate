@@ -168,3 +168,19 @@ P0: none identified.
 
 - Protected BibTeX record: `hecht_2003_Evidencechiral` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2003_Hecht et al_Evidence for chiral symmetry breaking in Eu 140.pdf`.
+
+## Day18修订：形变幅度、转轴几何与原文寿命判别
+
+Checkpoint045重新核对全部14页文字主线，视觉核PDF9的Fig.9/10与PDF13参数/结论；Table I/II为文字选行核，未重新逐格或全图视觉重建。原HE03-1–16及其needs_review保持。旧checkpoint044尚未提交，先前自动摘要和handoff声称“已实际提交”不符Git事实，已撤回。旧result/contract-043保留为被取代的历史产物；其四条文字checks和固定passed不构成验证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HE03-D18-1 | 撤回旧版本把1.5625称为实际两带B(E2)比、把手征严格等Qt与DSAM唯一裁判作普适定律，以及“全核至今无寿命”的断言。仅保留beta平方的条件算术，现由HE03-D18-2–5限定。 | task-correction | superseded-interpretation | checkpoint045；旧result/contract-043；PDF p.13 | true |
+| HE03-D18-2 | 原p.13在hbar omega=0.30 MeV的signature-splitting讨论中印beta2=.20,beta4=-.021,gamma≈-26°与beta2=.16,beta4=-.021,gamma≈+28°；“band4 may correspond”负gamma、“band3 may correspond”正gamma是候选解释。Fig.9在p.9，计算频率=.2 MeV，caption概述beta≈.2/gamma≈±25°；Fig.8是能级系统学而非TRS图。 | model-input-and-author-interpretation | direct | PDF pp.9,13；Fig.9；Sec.III D | true |
+| HE03-D18-3 | 在本任务自定义无量纲四极张量q_k=beta cos(gamma-2pi k/3)的经典高自旋条件设计中，2omega辐射强度正比横向各向异性平方。两组参数的beta平方比为1.5625，但固定同编号主轴的三个强度比为1.36234、.489184、5.53710；这些轴未认证为原TRS/PRM转轴，不是paper B(E2)预测。 | task-conditional-design | derived | PDF p.13参数；新geometry-correction-result-045的tensor/sine/axial/permutation checks | true |
+| HE03-D18-4 | 同一条件张量设计允许两组不同beta/gamma具有相同2omega强度：a沿自定义轴1，b在轴1/2平面53.12221°即可得到比值1；它只证明缺少取向/波函数时反演不唯一，不是实际稳定TAC解或实验两带等强证据。 | task-counterexample | derived-and-boundary | HE03-D18-3；geometry-correction-result-045 equal_strength_witness | true |
+| HE03-D18-5 | 原结论比较I≈15hbar附近手征模型所预期的带内B(E2)大跳变与形状共存的平滑增长，并要求lifetime experiments；本文未给个别绝对B(M1)/B(E2)。它不指定DSAM为唯一方法，也不能支撑2026年全核无寿命的穷尽断言；实际判别仍需branch/mixing、feeding/stopping、几何和同自旋模型矩阵元。 | author-interpretation-and-scope-boundary | direct | PDF p.11末段；p.13 Conclusion；HE03-15/16 | true |
+
+本任务的radial幅度估计Q_beta=(3/sqrt(5pi)) Z(1.2 A^(1/3))² beta/100给3.70294和2.96235 eb，只是均匀电荷形变幅度的低阶映射；三轴体系没有据此认证唯一轴向Q0或观测Qt。旧118.4/75.8 W.u.由额外采用轴对称高自旋系数产生，撤为未认证原体系的示例值。
+
+[新程序](../../system/scripts/day18_hecht03_140eu_shape_coexistence_audit.py)与[实际18项断言结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/hecht03-geometry-correction-result-045.json)验证哈希、原结论文字、张量恒等式、轴对称/零形变极限、轴置换不变性及同强度witness；不重现原fit/CI，不增加独立实验。原review状态不升级。

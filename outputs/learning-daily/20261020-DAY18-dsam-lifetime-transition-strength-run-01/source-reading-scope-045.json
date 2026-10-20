@@ -1,0 +1,15 @@
+{
+  "source": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+  "raw_sha256": "5ee92742d8e78a8ccc1a37058bee711d99fadcaf38023a710af186a4fe497463",
+  "actual_read_scope": "fresh text mainline all14pages; Fig9/10 p9 and p13 parameters/Conclusion visually checked; table text selected rows; other figures not all freshly visually checked",
+  "primed": true,
+  "blind_test": false,
+  "old_claim_rows_HE03_1_to_16_preserved": true,
+  "new_claims": [
+    "HE03-D18-2",
+    "HE03-D18-3",
+    "HE03-D18-4",
+    "HE03-D18-5"
+  ],
+  "superseded_claim": "HE03-D18-1"
+}

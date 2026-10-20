@@ -70,8 +70,8 @@
     "original_deadline_preserved": true,
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
-  "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "043 published; original deadline preserved",
+  "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
+  "last_checkpoint": "045 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -82,13 +82,13 @@
     "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-018.json"
   },
   "native_goal_last_observation": {
-    "status": "blocked",
-    "receipt": "native-goal-status-observation-005.json",
+    "status": "active",
+    "at": "2026-10-20T18:31:09.171516+00:00",
     "assistant_requested_status_change": false
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 136Pm and 138Eu 3D TAC tilt angle collapse and 134Pr deformation disparity warning"
+    "subject": "Correct 140Eu lifetime discriminator and test conditional E2 geometry"
   },
   "uncredited_preview": {
     "day_index": 19,

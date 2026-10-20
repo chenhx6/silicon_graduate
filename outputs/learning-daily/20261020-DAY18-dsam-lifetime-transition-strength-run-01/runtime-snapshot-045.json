@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-20T18:31:09.171516+00:00",
+  "now_local": "2026-10-21T02:31:09.171516+08:00",
+  "hard_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 748.8471413999999,
+  "decision": "continue-current-Day18-correction-and-mainline",
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    18
+  ],
+  "formal_credit": false,
+  "is_runner_execution_metadata": false
+}

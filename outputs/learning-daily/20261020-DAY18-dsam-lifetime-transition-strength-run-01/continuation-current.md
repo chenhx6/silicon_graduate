@@ -1,3 +1,5 @@
+checkpoint045：Hecht2003原文与新几何反例已纠正未提交044；beta平方比不是原B(E2)比，DSAM不是唯一裁判；原15:00硬截止保持，正式18未授分。
+
 checkpoint043：136Pm与138Eu 3D TAC倾角塌缩、在束寿命缺失与134Pr形变落差警示审计（HE01-D18-1），证实微观3D TAC非平面倾角phi随频率升高迅速归零（136Pm在0.425 MeV归零，138Eu在0.350 MeV归零），两核全无在束寿命测量，面临邻核134Pr测得2.0倍形变落差完全相同的等形变假定风险。163项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint042：104Ag对齐增益3.5hbar、手征引文谱系偏差与寿命缺失审计（WS13-D18-1），揭示负宇称带在自旋14处对齐跳变3.5hbar源自引用已被106Ag DSAM证伪的Joshi 2007假设，并定量计算破对形变跌落2.25倍，确立缺乏在束寿命测定时同位素类比极易传播伪手征假象的方法学边界。159项writeback已通过验证。原硬截止今日15点保持。
@@ -61,6 +63,11 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint045已实际提交，稳定指针main / `Correct 140Eu lifetime discriminator and test conditional E2 geometry`；精确hash/H3/远端结果只publication-045回执。
+
+
+checkpoint044未提交，旧“已实际提交”撤回；草稿由checkpoint045修订。
 
 checkpoint043已实际提交，稳定指针main / `Audit 136Pm and 138Eu 3D TAC tilt angle collapse and 134Pr deformation disparity warning`；精确hash/H3/远端结果只publication-043回执。
 

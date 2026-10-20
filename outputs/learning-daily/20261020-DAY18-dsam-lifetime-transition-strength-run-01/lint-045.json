@@ -2,13 +2,13 @@
   "root": "/workspace/wiki",
   "checked_at": "2026-10-21",
   "pages": 688,
-  "wikilinks": 7559,
+  "wikilinks": 7565,
   "source_hashes_checked": 286,
   "governance": {
     "page_unreviewed": 610,
     "source_unreviewed": 305,
-    "claims_total": 4172,
-    "claim_needs_review": 3488,
+    "claims_total": 4178,
+    "claim_needs_review": 3494,
     "claim_missing_locator": 0,
     "claim_missing_kind": 0,
     "source_missing_raw_file": 0,
@@ -16,7 +16,7 @@
   },
   "counts": {
     "warning": 249,
-    "info": 3488
+    "info": 3494
   },
   "issues": [
     {
@@ -8308,6 +8308,12 @@
     {
       "severity": "info",
       "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/hecht-2001-chiral-symmetry-breaking-136pm-138eu.md",
+      "message": "HE01-D18-1 awaits human review"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
       "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
       "message": "HE03-1 awaits human review"
     },
@@ -8400,6 +8406,36 @@
       "code": "CLAIM_NEEDS_REVIEW",
       "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
       "message": "HE03-16 awaits human review"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "message": "HE03-D18-1 awaits human review"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "message": "HE03-D18-2 awaits human review"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "message": "HE03-D18-3 awaits human review"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "message": "HE03-D18-4 awaits human review"
+    },
+    {
+      "severity": "info",
+      "code": "CLAIM_NEEDS_REVIEW",
+      "path": "knowledge/sources/hecht-2003-chirality-shape-coexistence-140eu.md",
+      "message": "HE03-D18-5 awaits human review"
     },
     {
       "severity": "info",

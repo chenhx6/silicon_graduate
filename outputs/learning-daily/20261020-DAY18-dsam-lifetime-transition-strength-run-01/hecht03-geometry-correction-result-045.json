@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "kind": "conditional-high-spin-tensor-design-not-experimental-fit",
+  "source": {
+    "path": "raw/papers/2003_Hecht et al_Evidence for chiral symmetry breaking in Eu 140.pdf",
+    "sha256": "5ee92742d8e78a8ccc1a37058bee711d99fadcaf38023a710af186a4fe497463",
+    "locator": "PDF p.13 parameters and Conclusion; Fig.9 p.9"
+  },
+  "supersedes": [
+    "hecht03-140eu-shape-result-043.json",
+    "hecht03-140eu-shape-contract-043.json"
+  ],
+  "parameters": {
+    "beta_a": 0.2,
+    "gamma_a_deg": -26,
+    "beta_b": 0.16,
+    "gamma_b_deg": 28
+  },
+  "radial_only_ratio": 1.5625,
+  "same_defined_principal_axis_controls": [
+    {
+      "defined_axis": 0,
+      "conditional_BE2_ratio": 1.3623395574435944
+    },
+    {
+      "defined_axis": 1,
+      "conditional_BE2_ratio": 0.48918441321595474
+    },
+    {
+      "defined_axis": 2,
+      "conditional_BE2_ratio": 5.537097746366684
+    }
+  ],
+  "equal_strength_witness": {
+    "n_a": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "n_b": [
+      0.0,
+      0.6001102246358808,
+      0.799917319657146
+    ],
+    "angle_in_defined_1_2_plane_deg": 53.12220768816699,
+    "ratio": 1.0
+  },
+  "checks": [
+    {
+      "name": "raw hash unchanged",
+      "passed": true
+    },
+    {
+      "name": "14 pages",
+      "passed": true
+    },
+    {
+      "name": "conclusion requests lifetime experiments",
+      "passed": true
+    },
+    {
+      "name": "conclusion compares large jump and smooth increase",
+      "passed": true
+    },
+    {
+      "name": "radial only ratio",
+      "passed": true
+    },
+    {
+      "name": "axis 0 tensor identity",
+      "passed": true
+    },
+    {
+      "name": "axis 0 sine identity",
+      "passed": true
+    },
+    {
+      "name": "axis 1 tensor identity",
+      "passed": true
+    },
+    {
+      "name": "axis 1 sine identity",
+      "passed": true
+    },
+    {
+      "name": "axis 2 tensor identity",
+      "passed": true
+    },
+    {
+      "name": "axis 2 sine identity",
+      "passed": true
+    },
+    {
+      "name": "beta ratio does not determine BE2 ratio",
+      "passed": true
+    },
+    {
+      "name": "axial symmetry axis zero",
+      "passed": true
+    },
+    {
+      "name": "axial perpendicular amplitude 9/4",
+      "passed": true
+    },
+    {
+      "name": "simultaneous permutation invariant",
+      "passed": true
+    },
+    {
+      "name": "zero deformation",
+      "passed": true
+    },
+    {
+      "name": "equal strength bracket",
+      "passed": true
+    },
+    {
+      "name": "different shape equal strength witness",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "readiness": {
+    "actual_axis": "not certified",
+    "finite_spin_wavefunctions": "not supplied",
+    "paper_strength_or_CI_reproduction": false,
+    "independent_experiment": false
+  }
+}
