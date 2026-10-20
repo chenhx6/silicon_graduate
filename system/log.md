@@ -2298,3 +2298,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint064：SeGA计数平衡/αtag校准
 
 原6页新13待审，a反ST99、actual15unit/共同参考，5000totalpeak的rounded25/3% design闭合σP.3086，eff/FM分母核；原Porder/acceptance未闭保producer缺口。verification079/manifest064/H3，main / `Audit SeGA count balance and alpha-tag calibration inputs`，原windowactive/17once/partial18。
+
+### Day17 checkpoint065：三多极finiteproduct与isotropicAD反例
+
+原8页/14newclaims待审，双路线exact三case/五角与EM/unoriented/thirdzero控制，positiveM1E2两根I1/P非零；p强度比/phase/trace边界保，不是新核fit。080初CG行pipe修复后valid、manifest065/H3，main / `Validate multipole polarization with finite products and isotropic controls`，原windowactive/17once/partial18。

@@ -1,0 +1,201 @@
+{
+  "at": "2026-10-20T03:29:57.161936+00:00",
+  "script_sha256": "a9218ff5d0d30d3faa044ef83a4d7e39c088e5859bdb9b89011e1f5ab34de64c",
+  "contract_sha256": "cf1bddde764c6ca8e11bd7395dfff30c594e9cd7a6678c4fc2760c253b5c6f96",
+  "rank_and_Eq9_amplitude_rows": [
+    {
+      "case": "M1E2-isotropic-AD",
+      "theta": "0",
+      "I": "(sqrt(3)*d - 1)**2/(2*(d**2 + 1))",
+      "S": "0"
+    },
+    {
+      "case": "M1E2-isotropic-AD",
+      "theta": "pi/6",
+      "I": "(21*d**2 - 10*sqrt(3)*d + 11)/(16*(d**2 + 1))",
+      "S": "(3*d**2 + 2*sqrt(3)*d - 3)/(16*(d**2 + 1))"
+    },
+    {
+      "case": "M1E2-isotropic-AD",
+      "theta": "pi/4",
+      "I": "(9*d**2 - 2*sqrt(3)*d + 7)/(8*(d**2 + 1))",
+      "S": "(3*d**2 + 2*sqrt(3)*d - 3)/(8*(d**2 + 1))"
+    },
+    {
+      "case": "M1E2-isotropic-AD",
+      "theta": "pi/3",
+      "I": "(15*d**2 + 2*sqrt(3)*d + 17)/(16*(d**2 + 1))",
+      "S": "3*(3*d**2 + 2*sqrt(3)*d - 3)/(16*(d**2 + 1))"
+    },
+    {
+      "case": "M1E2-isotropic-AD",
+      "theta": "pi/2",
+      "I": "((sqrt(3)*d + 1)**2 + 4)/(4*(d**2 + 1))",
+      "S": "((sqrt(3)*d + 1)**2 - 4)/(4*(d**2 + 1))"
+    },
+    {
+      "case": "E1M2E3-positive",
+      "theta": "0",
+      "I": "16683/19280 - 69*sqrt(35)/1205",
+      "S": "0"
+    },
+    {
+      "case": "E1M2E3-positive",
+      "theta": "pi/6",
+      "I": "570091/616960 - 3367*sqrt(35)/92544",
+      "S": "5813/61696 - 4247*sqrt(35)/462720"
+    },
+    {
+      "case": "E1M2E3-positive",
+      "theta": "pi/4",
+      "I": "150429/154240 - 577*sqrt(35)/38560",
+      "S": "2503/15424 - 2111*sqrt(35)/115680"
+    },
+    {
+      "case": "E1M2E3-positive",
+      "theta": "pi/3",
+      "I": "1079*sqrt(35)/154240 + 628731/616960",
+      "S": "12597/61696 - 4197*sqrt(35)/154240"
+    },
+    {
+      "case": "E1M2E3-positive",
+      "theta": "pi/2",
+      "I": "853*sqrt(35)/28920 + 5087/4820",
+      "S": "53/241 - 1043*sqrt(35)/28920"
+    },
+    {
+      "case": "E3M4E5-zeroCG",
+      "theta": "0",
+      "I": "27*sqrt(35)/259 + 174/259",
+      "S": "0"
+    },
+    {
+      "case": "E3M4E5-zeroCG",
+      "theta": "pi/6",
+      "I": "403341/265216 - 41199*sqrt(35)/530432",
+      "S": "3291*sqrt(35)/75776 + 92625/265216"
+    },
+    {
+      "case": "E3M4E5-zeroCG",
+      "theta": "pi/4",
+      "I": "40329/33152 - 1563*sqrt(35)/66304",
+      "S": "-6975/33152 - 915*sqrt(35)/66304"
+    },
+    {
+      "case": "E3M4E5-zeroCG",
+      "theta": "pi/3",
+      "I": "31131*sqrt(35)/530432 + 192207/265216",
+      "S": "-117045/265216 - 37521*sqrt(35)/530432"
+    },
+    {
+      "case": "E3M4E5-zeroCG",
+      "theta": "pi/2",
+      "I": "4191/4144 - 321*sqrt(35)/8288",
+      "S": "3705/4144 - 219*sqrt(35)/8288"
+    }
+  ],
+  "isotropic_AD_nonzero_P_controls": [
+    {
+      "delta": "-2 + sqrt(3)",
+      "theta": "0",
+      "I": "1",
+      "S": "0"
+    },
+    {
+      "delta": "-2 + sqrt(3)",
+      "theta": "pi/6",
+      "I": "1",
+      "S": "-sqrt(3)/8"
+    },
+    {
+      "delta": "-2 + sqrt(3)",
+      "theta": "pi/4",
+      "I": "1",
+      "S": "-sqrt(3)/4"
+    },
+    {
+      "delta": "-2 + sqrt(3)",
+      "theta": "pi/3",
+      "I": "1",
+      "S": "-3*sqrt(3)/8"
+    },
+    {
+      "delta": "-2 + sqrt(3)",
+      "theta": "pi/2",
+      "I": "1",
+      "S": "-sqrt(3)/2"
+    },
+    {
+      "delta": "sqrt(3) + 2",
+      "theta": "0",
+      "I": "1",
+      "S": "0"
+    },
+    {
+      "delta": "sqrt(3) + 2",
+      "theta": "pi/6",
+      "I": "1",
+      "S": "sqrt(3)/8"
+    },
+    {
+      "delta": "sqrt(3) + 2",
+      "theta": "pi/4",
+      "I": "1",
+      "S": "sqrt(3)/4"
+    },
+    {
+      "delta": "sqrt(3) + 2",
+      "theta": "pi/3",
+      "I": "1",
+      "S": "3*sqrt(3)/8"
+    },
+    {
+      "delta": "sqrt(3) + 2",
+      "theta": "pi/2",
+      "I": "1",
+      "S": "sqrt(3)/2"
+    }
+  ],
+  "EM_and_unoriented_controls": [
+    {
+      "case": "M1E2-isotropic-AD",
+      "all_EM_flip_I_same_S_opposite": true,
+      "unoriented_I1_S0": true
+    },
+    {
+      "case": "E1M2E3-positive",
+      "all_EM_flip_I_same_S_opposite": true,
+      "unoriented_I1_S0": true
+    },
+    {
+      "case": "E3M4E5-zeroCG",
+      "all_EM_flip_I_same_S_opposite": true,
+      "unoriented_I1_S0": true
+    }
+  ],
+  "third_multipole_zero_limit": true,
+  "isotropic_AD_roots": [
+    "-2 + sqrt(3)",
+    "sqrt(3) + 2"
+  ],
+  "zero_CG_nonzero_polarized_CG": [
+    [
+      3,
+      5,
+      6,
+      "-sqrt(22)/11"
+    ],
+    [
+      5,
+      3,
+      6,
+      "-sqrt(22)/11"
+    ]
+  ],
+  "selected_J3_to_J2_L3_L5_K6_finite_R_times_K": "sqrt(1155)/1980",
+  "Eq53_56_ratio_to_boundedP_and_countA_exact": true,
+  "exact_rank_vs_direct_amplitude_controls": true,
+  "zeroCG_product_and_isotropic_AD_P_controls": true,
+  "no_actual_35Cl_37Ar_fit_or_original_producer_Q_CI": true,
+  "ok": true
+}

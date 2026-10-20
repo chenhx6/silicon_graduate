@@ -1,0 +1,4 @@
+
+### Day17 checkpoint065：三多极finiteproduct与isotropicAD反例
+
+原8页/14newclaims待审，双路线exact三case/五角与EM/unoriented/thirdzero控制，positiveM1E2两根I1/P非零；p强度比/phase/trace边界保，不是新核fit。080初CG行pipe修复后valid、manifest065/H3，main / `Validate multipole polarization with finite products and isotropic controls`，原windowactive/17once/partial18。

@@ -9,6 +9,8 @@ updated: 2026-10-20
 
 ## Day17新增研究合同
 
+- [[three-multipole-polarization-response-contract]] — VT74原phase/finiteproduct、positiveisotropicAD仍P非零的exact双路线及历史ratio字典。
+
 - [[ppco-joint-response-and-information]] — fourN与两single之外的信息、有限Q分母及同源164Yb反演/误差边界。
 
 - [[feeding-time-alignment-joint-response]] — 同积分取向与总时间密度仍不能确定DSAM逐角响应的条件设计；非实验τ/P/Q修正。

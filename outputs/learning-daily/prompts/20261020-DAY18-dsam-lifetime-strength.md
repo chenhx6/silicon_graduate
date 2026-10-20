@@ -231,3 +231,5 @@ Day17 checkpoint062 priming：FA48-D17-1–8旧cos²同A转录已撤回，原cos
 Day17 checkpoint063 priming：AO75-D17-1–13原8页、Fig6ratio图文方向未闭、NaI/Ge共同tagresponse及κ幅度不解单Q；前1/40与后1/10、Fig9peak归一背景20/不同窗口不可裸拼merit。singleCompton1332 E′>200控制非全装置响应，无formal18信用。
 
 Day17 checkpoint064 priming：MI07-D17-1–13原6页、a反ST99/actual15unit/αtag、5000totalpeak rounded25/3%→σP.3086 knowncal设计；unitspread不当独立σa，原四P order/acceptancemoment不认证producer，Table1跨array外推/eff估计与higherE未标定保持。无formal18信用。
+
+Day17 checkpoint065 priming：VT74-D17-1–14原8页至Eq56、new三多极response note保存sourcephase/finiteproduct和positiveisotropicAD两根δVT=√3±2/P非零exact控制；p强度比与boundedP精确桥不补EW69作者意图。完整trace/finitegate与actual核/Σ边界保，无formal18信用。

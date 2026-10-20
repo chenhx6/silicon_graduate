@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md": 15
+  },
+  "artifacts": [
+    {
+      "file": "vaillancourt1974-response-result.json",
+      "true_fields": [
+        "ok",
+        "exact_rank_vs_direct_amplitude_controls",
+        "zeroCG_product_and_isotropic_AD_P_controls",
+        "Eq53_56_ratio_to_boundedP_and_countA_exact",
+        "third_multipole_zero_limit",
+        "no_actual_35Cl_37Ar_fit_or_original_producer_Q_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

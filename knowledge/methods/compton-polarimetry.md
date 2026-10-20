@@ -537,3 +537,7 @@ Fig9先以1332peak归一，背景20倍改善是relative形状；不是同曝光�
 ### SeGA侧入射的a和总峰计数
 
 [[miller-2007-sega-polarization]] MI07-D17-1–13原a=Uperp/Uparallel≈.127，反ST99的a；不是offset或P。实际25%/3%选择的5000totalphotopeak在knowna/Q设计给sigmaP.3086，支持原约.3量级但不补fullΣ；Eq14平均方向效率single≈.000299与FM5.9e−6有明确分母。[[polarimetry-shared-calibration-count-design]]“SeGA2007：a的倒数约定与5000全峰计数”保实际15unit/αtag/原四P order与finiteangleproducer边界、Qrel/跨array外推误差，不将sourcecontrol迁fastbeam。
+
+### physicalP不能由isotropicAD自动置零
+
+[[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-1–14原Eq52明确warning；[[three-multipole-polarization-response-contract]]给positiveM=±1/2的3/2→1/2 M1/E2 exact例，δVT=√3±2使I1而P90=±√3/2。R_K*Kcal的零CG分母应先消成finiteproduct，不将AD零项删成P0；声明phase/axisymmetric域，不认证任意coherentρ/实际核fit。原p=J0/J90、p′才boundedP，Eq56精确桥A=QP；这是历史ratio命名实例，不补EW69作者意图或原Ref9body。

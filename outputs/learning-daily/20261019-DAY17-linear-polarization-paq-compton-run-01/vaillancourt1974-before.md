@@ -1,0 +1,9 @@
+# VT74三multipole的physicalP原件前回忆
+
+当前SeGA actualdata/acceptance缺口已保，统计exercise已闭合。本轮continuity为physicalP的多极/phase合同，选VaillancourtTaras1974原8页；不同时开novelty或其它课程。旧Wiki三claim/摘要已看，知道RBphase、E1/M2/E3两δ、AD→P替代recipe，故primed非blind。Day16三multipole/uppermultipole符号、L26phase、finiteStokes等已有priming，不能算独立旧模型信用。
+
+回忆：P是偏振Stokes除I，AD的统计tensor/rank与Qk不同仪器scalarQ；三个multipole不仅两fraction，还所有允许interference。EM不同/相同phase与operatororder决定符号，小第三强度仍幅度sqrtfraction干涉，不能只因少百分比忽略。两个δ与unknownalignment使AD/P是否可辨取决于实际合同，source是否直接宣称唯一须核。
+
+待原件：它实际纠RB哪关系/公因子？Eq32替代的K和EM指数怎么定义（哪first/last/upper）？triangleCG零项与maxrank的极限如何写？实际35Cl/37Ar只是动机还是拟合新data？Table/figure/uncert/inputreadscope逐项记。
+
+交付：完整主线/关键式/图表，核一个phase/operatororder/三multipole极限或源码可复算的设计；sourceinput未得则不拿新toy替actualδ/P，保needsreview不升human。

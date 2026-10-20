@@ -8692,6 +8692,166 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "MI07-D17-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+      "summary": "原8页至Eq56新全读，14new待审/旧flags保；RBphase/finiteproduct/ADisotropic警告与历史p ratio、无实际新fit。",
+      "anchor": "Day17原件复核：finiteproduct与isotropicAD的偏振反例",
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-1"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-2"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-3"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-4"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-5"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-6"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-7"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-8"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-9"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-10"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-11"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-12"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-13"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/three-multipole-polarization-response-contract.md",
+      "summary": "三声明case的rank与独立Eq9振幅exact核、CG0有限product、ADisotropic两根/P非零与p/N/R桥；非实际核fit。",
+      "anchor": "各向同性I仍可强偏振",
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-1"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-2"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-3"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-4"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-5"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-6"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-7"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-8"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-9"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-10"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-11"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-12"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-13"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "physicalP不可由AD零项删除、finiteproduct与历史ratio命名入口，保EW作者意图未得。",
+      "anchor": "physicalP不能由isotropicAD自动置零",
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-6"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-8"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "三多极response合同canonical入口。",
+      "anchor": "Day17新增研究合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-8"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-9"
+        }
+      ]
     }
   ]
 }
@@ -9129,3 +9289,11 @@ actualrounded25%/3%用于明确design Ntotalpeak5000，nullP/knowna.12/Q.14→x1
 原a2/nominalpoint37/90不等printed四P，尤其388 forward/back顺序保界；conditionalintegratedStokes反求S .966897/.527850/.515426/.958584只所需接受moment，未认证geometry/producer或改Q。四grouprelativeA在Qrel.18下summary残差约1.1σ内，不重fit逐unit/Σ。actualthreshold/ordering/fullacceptance/backgroundCov仍缺，higherE/inbeam/tracking属于future不指认31/33Mg。
 
 canonicalMI07/sharedcalnote/Compton、唯一writeback、script/input/result/scope/freezes及18priming齐，verification079/publication064实际门；17once/partial18/windowactive。
+
+### Checkpoint065：三多极physicalP与isotropicAD反例
+
+先冻VT74 before/exercise、声明旧VT/Day16finitephase priming，原8页333–340 fulltextvisual到Eq56（含4a/b）、Table1九pairs/Fig1/11refs；548901bytes/hash保，新14待审/旧3flags/cite保。BM/G转换、initialleft/sourceδ、cylindricaldiagonalρ/evenK域明确；35Cl/37Ar仅动机无新三混合datafit。
+
+sourceEq15/26先消CG得finiteR*K，L3/L′5/K6 q0CG0/q2非零、Ji3→Jf2 product√1155/1980；不称公式erratum/原publiccode修好。新独立Eq9/22振幅与Eq14/15/26 rank在三声明case×五θ exactI/S核，EMflip/unoriented/thirdzero过。positiveM±1/2的3/2→1/2 M1/E2 δVT=√3±2两根使a2=0/I1，P90=∓/±√3/2；sourceEq52的0/0警告不置零，不重赋实际核Jπ/δ。
+
+原p=J0/J90、p′才boundedP，N/R比Eq56精确桥A=QP；VT74只证历史ratio命名实例，不补EW69未取Ref9/作者意图。unobservedUk只完整γtrace，finitegate/ICC另合同；MethodII同tensor前提与normallyunique保条件。canonicalVT74/newnote/Compton/index、唯一writeback、script/input/result/scope/freezes及18priming齐。verification080/publication065实际门，17once/partial18/windowactive。
