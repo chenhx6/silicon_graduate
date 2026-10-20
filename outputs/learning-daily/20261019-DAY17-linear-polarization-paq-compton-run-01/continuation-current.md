@@ -1,15 +1,11 @@
-# Day17同session继续：checkpoint074之后
+# Day17研究窗口已截止：仅收束与恢复既有讨论
 
-## Active handoff — DAY17 review-only; whole-run audit checkpoint074
+## Active handoff — DAY17 original-deadline closeout
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–073actualH3Gitee推，formal17once/next18count17/partial18；clock上海14:31、余28.5min。13:30后无newsource/body/课；最后13:28已冻分析完成，此时仅既有证据/交付核查，原15点尚未观察，不日终/不重开研究。
+同run2026-10-19-day-17-01/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17；2026-10-20T15:00:34.434254+08:00实际确认原15:00上海截止已到。13:30后无新source/body/课程研究；本小时只收束。formal17只计一次，partial18无学分，next18/count17不变。001–074已实际H3/Gitee push；本批main / `Close DAY17 at the original deadline with verified polarization evidence`，最终hash/push只runreceipt。
 
-Whole-run source-protection实际exit0：54改动source、208oldclaimflags/review与817newtrue、F01/DR70/EK79/KU25四prefix、PLAN/Bib、所有001–073manifest和旧logprefix均保护。artifact-fingerprint137顶层script/contract指纹全有exactbyteview；初3miss为历史firstpass/component，2script快照在run，旧Pbcontract依recordedSHA精确恢复少后加dependency版本，receipt明确不是原磁盘copy/不重算旧results，初扫描/选定Git搜索miss保。不是functionalreplay/实验producer认证。
+Day17主卡原件/回忆/P-A-Q分层与新计数-Cov设计齐备；70owning知识页实际改动、229唯一writebackitems，73映射含3只读source。54source的208oldflags/817newtrue及四旧prefix、PLAN/Bib保护；137指纹exactbyteview不认证原producer。新增claims保needs_review。原始计数/匹配response/selection/phase/联合Σ仍缺，不新报实验P/Q/δ。
 
-来源后strongprimed closingrecall12项/38atomic映射/hash核，无blindscore/新学分/新science。日报入口去掉过时24页叙述、当前70owning页实改/73validator含3未改引用source、229唯一writebackitems；加当前结论/开放输入入口。Compton已有关系presentation流程图不添实验，保非线性响应/联合Σ与actualdata缺口，updated日期修20日。matrix恢复尾曾仅露Day19标题、未读task/source/preview/credit，scopeaudit保，课程formal17/partial18不变。
+最终检查见verification090；当前发布及normalrunnerexit未观察均以run.json实录。manual同session收束事件只在实际发布后append本地canonical scheduler并发布事件副本；不force-add整份ignored旧日志、不造returncode。Farmer42019保留，无新daemon/session。课程显示范围历史曾记Day19标题/条目，后审计仅标题；保此差异，没有研究或授分。
 
-verification089实际valid：0errors241warnings（4parse162key75raw）、70changed/73mapped，boundary/lint/diff exit0；nextprompt28604bytes/hash存在且course state18/count17实核。runreceipt旧47/40页metadata已更新89/70和review-only，normalrunnerexit仍false，Farmer42019running/pendingfalse只readonly。main / `Reconcile DAY17 evidence protection and recoverable report entry`，actualhash/H3仅publication074/runreceipt。
-
-剩余动作仅原15点后：刷新clock确认deadline，manualcloseout报告/continuation/receipt与要求checks，actualH3非force发布，再同session scheduler索引append/对账、goal真正complete。不得调用normalcreditfinalizer重授17，不造原runnerexit/returncode，不新source/daemon/session。最后scheduler canonical outputs/learning-milestones/2026-09-one-month-scheduler.jsonl如需写，只HEAD+ownappend索引隔离，继承dirty留工作树。
-
-保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own074，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+完成后仅恢复已有Day17讨论或用户明确新任务，不因旧continuation/farmer消息自动开研究。Day18正式入口outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md，由既有独立runner决定启动，本session不给18学分。保护raw/PLAN/Bib/credentials/继承dirty/log。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

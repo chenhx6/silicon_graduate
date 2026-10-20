@@ -10,9 +10,14 @@
   "completed_day_count": 17,
   "credit_applied_once_receipt": "card-credit-007.json",
   "Day19_scientific_card_or_sources_studied": false,
-  "incidental_boundary_exposure": "startup restore sed145\u2013171 of taskmatrix output included Day19 title only at tail; no Day19 taskitems/source/problem or credit opened",
+  "incidental_boundary_exposure": "startup restore sed145–171 of taskmatrix output included Day19 title only at tail; no Day19 taskitems/source/problem or credit opened",
   "after_13_30_new_source_or_body_or_card": false,
   "after_13_30_scope": "finish previouslyfrozen singles-selection analysis, source/ownership/fingerprint/recall/presentation audits of already-read evidence",
   "normal_runner_exit_observed": false,
-  "scheduler_index_final_to_append_only_after_deadline_and_completion": true
+  "scheduler_index_final_to_append_only_after_deadline_and_completion": true,
+  "incidental_output_reconciliation": {
+    "historical_checkpoint014": "report says matrix command accidentally displayed Day19 title/items",
+    "later_final_scope_audit": "records startup restore title-only",
+    "resolution": "cannot claim all incidental output was title-only; historical broader exposure preserved, no Day19 source study/problem analysis/card credit or intentional preview undertaken; do not reopen Day19 to reconcile wording"
+  }
 }

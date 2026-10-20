@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-20T06:38:49.862050+00:00",
+  "scope": "existing report and owning knowledge Markdown links only; no new source opened",
+  "unpublished_report_link": {
+    "path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/lint-001.json",
+    "exists": true,
+    "bytes": 563382,
+    "sha256": "04bd9411a7bc7fac025075255c7010f3df60014900e0ec17cdf924c1f9eaa73c",
+    "action": "include exact artifact in closeout publication"
+  },
+  "unit_false_positive": "KU25-15 [.258,.279](eb)² is interval followed by unit in scientific prose; not a claimed evidence link; no scientific change",
+  "scheduler_log": {
+    "path": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
+    "git_tracked": false,
+    "gitignored": true,
+    "action": "append actual same-session completion locally after deadline/publication; publish exact event copy and prefix/hash reconciliation in run directory; do not force-add full inherited log"
+  },
+  "incidental_day19_scope_reconciliation": {
+    "historical_checkpoint014": "report says matrix command accidentally displayed Day19 title/items",
+    "later_final_scope_audit": "records startup restore title-only",
+    "resolution": "cannot claim all incidental output was title-only; historical broader exposure preserved, no Day19 source study/problem analysis/card credit or intentional preview undertaken; do not reopen Day19 to reconcile wording"
+  },
+  "publication074": {
+    "commit": "e7fc68a7aed870de53d6c44ed75be2d0b386a3f0",
+    "status": "actual H3 push confirmed"
+  },
+  "label_scan": {
+    "artifact": "claim-layer-label-scan.json",
+    "new_rows_scanned": 817,
+    "candidates": 0,
+    "boundary": "heuristic only; not semantic certification"
+  }
+}

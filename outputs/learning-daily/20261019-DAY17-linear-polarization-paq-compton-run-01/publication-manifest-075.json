@@ -1,0 +1,26 @@
+{
+  "subject": "Close DAY17 at the original deadline with verified polarization evidence",
+  "verification_number": 90,
+  "paths": [
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-074.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-074.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/claim-layer-label-scan.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/recoverable-deliverable-link-audit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/curriculum-scope-final-audit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/lint-001.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closeout-time-gate-predeadline-denial.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-closeout-observation.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090-initial-whitespace-failure.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-090.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-075.txt"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon/full ignored scheduler; logHEAD+own075"
+}

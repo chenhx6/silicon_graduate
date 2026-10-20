@@ -20,7 +20,7 @@
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "closeout",
   "started_at": "2026-10-19T16:01:17.507247+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
   "completed_day_indices": [
@@ -32,11 +32,23 @@
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-20T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-20T14:09:47.672997+08:00",
-    "hard_deadline": "2026-10-20T15:00:00+08:00",
-    "minutes_to_deadline": 50.205450049999996,
-    "closeout_decision": "finish-current-no-new-unit",
-    "status": "preparation/review only; not final closeout or new credit"
+    "at": "2026-10-20T15:00:34.434254+08:00",
+    "basis": "actual clock-tool deadline check and local process clock; same-session manual closeout",
+    "original_deadline": "2026-10-20T15:00:00+08:00",
+    "deadline_reached": true,
+    "closeout_only": true,
+    "no_new_source_or_card_after_1330": true,
+    "completed_day_indices": [
+      17
+    ],
+    "partial_day_indices": [
+      18
+    ],
+    "course_state_sha256": "9b870a6d03234097c59a708cc0cf8d9a1d16ea108e774b59a64adcfb3e9b01d8",
+    "course_next_day_index": 18,
+    "course_completed_day_count": 17,
+    "normal_runner_exit_observed": false,
+    "new_session_or_daemon_or_schedule_started": false
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/prompt.md",
   "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
@@ -63,14 +75,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Separate inclusive singles from alpha anticoincidence calibration",
-    "commit": "59e5fea1ea5135b23e6c25c9b69e1d71a6741591",
+    "subject": "Reconcile DAY17 evidence protection and recoverable report entry",
+    "commit": "e7fc68a7aed870de53d6c44ed75be2d0b386a3f0",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "review-only; last previouslyfrozen boundedissue completed; no new source/card after13:30; final closeout pending original15:00",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-089.json",
-  "last_observed_at": "2026-10-20T06:09:47.672997+00:00",
+  "research_status": "stopped-at-original-deadline; closeout-only",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json",
+  "last_observed_at": "2026-10-20T06:34:18.515018+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal; existing-deliverable review only until original deadline",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
@@ -80,5 +92,17 @@
   "canonical_knowledge_changed_pages": 70,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
   "course_credit_applied_once": true,
-  "canonical_knowledge_mapped_paths_including_source_references": 73
+  "canonical_knowledge_mapped_paths_including_source_references": 73,
+  "research_stopped_at": "2026-10-20T15:00:34.434254+08:00",
+  "deadline_reached": true,
+  "early_closeout": false,
+  "study_window_closed": true,
+  "final_closeout_course_state_sha256": "9b870a6d03234097c59a708cc0cf8d9a1d16ea108e774b59a64adcfb3e9b01d8",
+  "completion_mode": "same-session manual original-deadline reconciliation; normal runner exit not observed",
+  "next_prompt": "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+  "next_prompt_session_started": false,
+  "final_content_pointer": {
+    "branch": "main",
+    "subject": "Close DAY17 at the original deadline with verified polarization evidence"
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-20T06:44:46.697012+00:00",
+  "command": [
+    "python3",
+    "tmp/day17-closeout-prepare.py"
+  ],
+  "exit_code": 1,
+  "expected_time_gate_denial": true,
+  "message": "original deadline not reached; no closeout write allowed",
+  "completed_state_written": false,
+  "run_status_observed": "running",
+  "scope": "execution guard only, not scientific failure or new research"
+}

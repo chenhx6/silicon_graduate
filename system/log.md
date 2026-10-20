@@ -2338,3 +2338,7 @@ matchedQ小偏置与headlinecountcapacity弱界分层，actualsorter/Σ未知不
 ### Day17 checkpoint074：全程保护/指纹/报告入口核查
 
 54source/208old/817newtrue及4prefix保护、137scriptinput指纹对应、来源后12项/38atomic无分复述与唯一writeback/nextprompt/course核查通过；无newsource。verification089valid/manifest074/H3，main / `Reconcile DAY17 evidence protection and recoverable report entry`，原15点前review-only/goalactive，17once/partial18。
+
+### Day17原始截止收束：正式17一次、18仅预习
+
+原15:00已实际观察，停止研究并完成报告/恢复入口/验收。70owning知识页、229writeback项；817newclaim均needs_review，原flags与输入保护。verification090valid，boundary/lint/diff exit0、0errors241warnings。main / `Close DAY17 at the original deadline with verified polarization evidence`；真实hash/H3只回执。原runnerexit未观察，不重授17/不授18。

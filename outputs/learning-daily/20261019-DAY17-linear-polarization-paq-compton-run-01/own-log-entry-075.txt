@@ -1,0 +1,4 @@
+
+### Day17原始截止收束：正式17一次、18仅预习
+
+原15:00已实际观察，停止研究并完成报告/恢复入口/验收。70owning知识页、229writeback项；817newclaim均needs_review，原flags与输入保护。verification090valid，boundary/lint/diff exit0、0errors241warnings。main / `Close DAY17 at the original deadline with verified polarization evidence`；真实hash/H3只回执。原runnerexit未观察，不重授17/不授18。

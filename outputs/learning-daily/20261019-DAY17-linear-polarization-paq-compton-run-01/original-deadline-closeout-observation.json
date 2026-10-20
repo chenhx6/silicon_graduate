@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-20T15:00:34.434254+08:00",
+  "basis": "actual clock-tool deadline check and local process clock; same-session manual closeout",
+  "original_deadline": "2026-10-20T15:00:00+08:00",
+  "deadline_reached": true,
+  "closeout_only": true,
+  "no_new_source_or_card_after_1330": true,
+  "completed_day_indices": [
+    17
+  ],
+  "partial_day_indices": [
+    18
+  ],
+  "course_state_sha256": "9b870a6d03234097c59a708cc0cf8d9a1d16ea108e774b59a64adcfb3e9b01d8",
+  "course_next_day_index": 18,
+  "course_completed_day_count": 17,
+  "normal_runner_exit_observed": false,
+  "new_session_or_daemon_or_schedule_started": false
+}

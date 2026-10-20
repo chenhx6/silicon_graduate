@@ -17,7 +17,7 @@ updated: 2026-10-20
 - phase: `angular-correlation-polarization-and-mixing-ratio`
 - schedule_id: `wiki-daily-learning`；Docker-local，非GUI Scheduled对象。
 - hard_deadline: `2026-10-20T15:00:00+08:00`；15:00–16:00仅收束。
-- status: `running / bounded-analysis review`；13:30后不再打开新source或课程；原15:00硬截止尚未到，nativegoal保持active，15:00–16:00完成整日收束。
+- status: `closeout / original-deadline reached`；2026-10-20T15:00:34.434254+08:00实际确认原15:00研究截止已到；13:30后没有新source/body/课程研究，15:00–16:00仅收束、检查和发布。nativegoal只在所有必要交付与实际发布完成后标complete。
 - completed_day_indices: [17]
 - partial_day_indices: [18]
 - Day 17 card audit: complete
@@ -48,7 +48,7 @@ updated: 2026-10-20
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
 | 本日报、唯一writeback与checks | 正式卡初验verification015及001–007实际发布通过；当前70个owning知识页实际改动、3个只读source引用核查，唯一writeback/同sessioncontinuation/receipt及[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)均存在；整日最后门以15:00后的实际receipt为准，不重复授卡 | complete |
 
-Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
+Day17正式卡完成且只授一次；Day18仅无学分预习，课程维持next18/count17。原研究窗口现已到截止，逐checkpoint的active/待续措辞均为当时历史状态；当前状态以本节及最终收束回执为准。
 
 ## Candidate pool and selection
 
@@ -9725,6 +9725,18 @@ F22-2/15给实测19(1)mm支持publicinput，先前back-to-back字面对照不得
 L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性、最小独立检查设计与实际producer/primary readiness。原样软件组件为限定版本的实际代码执行，非实验L4。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
 
 ## Verification and continuation
+
+### 原始截止后的最终收束
+
+实际截止观察见[original-deadline-closeout-observation](20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-closeout-observation.json)。本session完成Day17，partial18无学分；不重授17、不推进18。最终检查及实际发布分别以[verification-090](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json)和[run.json](20261019-DAY17-linear-polarization-paq-compton-run-01/run.json)为准；旧checkpoint检查/失败与候选记录均保留，不覆盖为全程一次成功。
+
+可复用成果已写入70个owning知识页；唯一writeback有229项，73个映射路径另含3个未改的引用source。主交付是P/A/Q分层、共同校准Cov设计、原计数分母与跨装置响应合同。208旧claim状态保持，817新claim均needs_review；137个顶层script/contract指纹有exactbyteview，但不是原实验producer认证或独立实验证据。
+
+[恢复链接核查](20261019-DAY17-linear-polarization-paq-compton-run-01/recoverable-deliverable-link-audit.json)补入日报已引用的早期lint记录。817条新claim的启发式层级扫描无候选，不等于全部语义认证。课程范围审计保留偶然显示Day19的历史描述差异：早期记录提及标题/条目，后期只记标题；因此不宣称所有输出均只有标题。没有主动研究Day19问题/来源或授分，不为核此措辞重开该卡。
+
+实际target/reference净计数、背景/事件复用、匹配selection/response、参考phase及联合Σ仍未闭合；没有生成新的实验P/Q/δ或结构模式指认。Day18准备prompt已经存在；当前continuation只用于恢复本日讨论或用户明确指定的后续工作，旧续接消息不自动重开研究。原runner正常退出仍未观察，manual closeout事件不伪装成runner-returncode或新session。
+
+以下为按时间保留的checkpoint历史；“仍active/下一source”等只说明各自当时状态。
 
 截至末段核查，verification088实际report/card/唯一writeback/boundary/lint/diff均通过；lint0errors/241warnings（4reactionparse、162citationkey缺、75rawarchive槽未填），不把warning当来源body未读取或自称人审。全程source-protection audit另实际exit0：54source、208旧claim/817新needs_review与四prefix、PLAN/Bib、manifest/旧log前缀保护通过。原15:00尚未到，当前仍review-only，最终完成/发布状态只在硬截止后的真实receipt写入。
 
