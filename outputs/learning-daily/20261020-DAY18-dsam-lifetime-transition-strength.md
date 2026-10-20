@@ -1380,6 +1380,39 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "SZ08-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "anchor": "Day18定量审计：136Nd连接跃迁强度与PRM单点定标边界",
+      "summary": "751 keV单一连接线E2仅18.7%，两准粒子PRM二阶E2和M1参数完全由该单点和delta定标",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "136Nd现代wobbling重分析中的跃迁强度单点定标边界",
+      "summary": "136Nd wobbling重分析审计：单点跃迁强度与PRM唯象模型定标依赖",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "相对强度提取的单点数据与唯象模型定标边界",
+      "summary": "方法页补充模型算符二阶参数被唯一实验强度点强制配平的定标边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1394,6 +1427,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint017已实际提交，稳定指针main / `Audit 136Nd wobbling transition rates and PRM single-point calibration`；精确hash/H3/远端结果只publication-017回执。
+
 
 checkpoint016已实际提交，稳定指针main / `Audit 103,104Rh chiral candidate staggering driven by BE2 not BM1`；精确hash/H3/远端结果只publication-016回执。
 

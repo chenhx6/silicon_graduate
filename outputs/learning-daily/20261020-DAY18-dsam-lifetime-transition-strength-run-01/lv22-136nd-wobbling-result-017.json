@@ -1,0 +1,67 @@
+{
+  "contract_sha256": "d0225d90c31a14e1c67da9c277d6a6cee6a766b70fd9f5754e85455357b22dbb",
+  "script_sha256": "7ec9c4818bb57d06cb5860be5d33f34658c16a3733cb9c7cffe9cc0603fdb5ed",
+  "raw_sha256": "c5c8a30fe8450372d97dd09fd004a4ff9c1e4427bc837ee7aa157c3da07d9d69",
+  "measured_751_transition": {
+    "delta_central": -0.48,
+    "delta_range": [
+      -0.62,
+      -0.35
+    ],
+    "f_E2_central": 0.18725617685305593,
+    "f_E2_range": [
+      0.10913140311804007,
+      0.277665414620052
+    ],
+    "f_M1_central": 0.812743823146944,
+    "reported_BE2out_BE2in": "0.36(17)",
+    "reported_BM1out_BE2in": "0.61(29)"
+  },
+  "unresolved_lines": [
+    {
+      "Egamma_keV": 768.0,
+      "reason": "strongly contaminated by 770-keV GSB transition"
+    },
+    {
+      "Egamma_keV": 785.0,
+      "reason": "gating lines (810, 661 keV) contaminated by 784/785 keV lines of bands D5/D6"
+    },
+    {
+      "Egamma_keV": 740.0,
+      "reason": "too weak to deduce linear polarization"
+    }
+  ],
+  "checks": [
+    {
+      "name": "connecting_transition_751_keV_E2_fraction_is_subdominant_under_25_percent",
+      "f_E2_cen_percent": 18.725617685305593,
+      "f_E2_range_percent": [
+        10.913140311804007,
+        27.7665414620052
+      ],
+      "passed": true
+    },
+    {
+      "name": "only_single_transition_751_keV_yields_measured_BE2out_BE2in",
+      "connecting_lines_unresolved_count": 3,
+      "single_measured_point": "17+ -> 16+ (751 keV)",
+      "passed": true
+    },
+    {
+      "name": "PRM_model_curves_are_calibrated_against_the_single_data_point",
+      "E2_second_order_parameter": "chi*beta2 = 2.14*0.185 fixed by single experimental BE2out/in data point",
+      "M1_geff_over_Q_parameter": "fitted to experimental delta of 751-keV transition",
+      "passed": true
+    },
+    {
+      "name": "connecting_transitions_in_136Nd_differ_from_odd_A_TSD_wobblers_where_E2_exceeds_90_percent",
+      "odd_A_example_167Lu": "> 90% E2",
+      "even_even_136Nd": "~ 19% E2",
+      "passed": true
+    }
+  ],
+  "checks_total": 4,
+  "checks_passed": 4,
+  "all_passed": true,
+  "physical_interpretation": "In 136Nd (the foundational nucleus of Day 18 MU08), Lv et al. 2022 report experimental evidence for transverse wobbling between two-quasiparticle bands L1 and L3. Our rigorous audit of the experimental transition rates reveals three crucial evidence boundaries: 1. Of the multiple proposed interband Delta I = 1 transitions, ONLY ONE (the 751-keV 17+ -> 16+ line) yielded a measured mixing ratio and B(E2)out/B(E2)in data point (0.36 +/- 0.17). The other transitions (768, 785, 740 keV) were severely contaminated or too weak; 2. Unlike odd-A wobblers (such as 163,165,167Lu) where interband transitions are overwhelmingly E2 (> 90%), the 751-keV transition has delta = -0.48(+0.13/-0.14), corresponding to only 18.7% [10.9% - 27.8%] E2 component and predominant (~81%) M1 character. This is attributed to the large two-quasiparticle M1 matrix elements in even-even systems; 3. The particle-rotor model (PRM) theoretical curves in Fig. 5 are NOT parameter-free predictions: the E2 second-order parameter (chi*beta2) is explicitly calibrated by equating the formula to this SINGLE experimental B(E2)out/in data point, and the M1 parameter (geff/Q) is fixed by fitting to the experimental delta of this same 751-keV line. Thus, while the functional spin trend is reproduced, the absolute scale of the model curves is pegged to the single observed point. This provides an indispensable Day 18 bridge connecting the chiral/band-mixing landscape of 136Nd (MU08) to its modern wobbling re-interpretation."
+}

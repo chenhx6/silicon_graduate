@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-20T14:28:47.103012+00:00",
+  "source": "Lv et al. PRC 105, 034302 (2022)",
+  "raw_file": "raw/papers/2022_Lv et al_Experimental evidence for transverse wobbling bands in Nd 136.pdf",
+  "raw_sha256": "c5c8a30fe8450372d97dd09fd004a4ff9c1e4427bc837ee7aa157c3da07d9d69",
+  "nucleus": "136Nd",
+  "reaction": "100Mo(40Ar,4n)136Nd at 152 MeV, JUROGAM II array",
+  "bands": {
+    "L1": "zero-phonon wobbling candidate (pi h11/2^2 configuration)",
+    "L3": "one-phonon wobbling candidate"
+  },
+  "measured_751_transition": {
+    "Egamma_keV": 751.0,
+    "initial_state": "17+",
+    "final_state": "16+",
+    "delta": "-0.48",
+    "delta_err_plus": "0.13",
+    "delta_err_minus": "0.14",
+    "f_E2_percent": "18.73%",
+    "BM1out_BE2in": "0.61(29)",
+    "BE2out_BE2in": "0.36(17)"
+  },
+  "unresolved_transitions": [
+    {
+      "Egamma_keV": 768.0,
+      "reason": "strongly contaminated by 770-keV GSB transition"
+    },
+    {
+      "Egamma_keV": 785.0,
+      "reason": "gating lines (810, 661 keV) contaminated by 784/785 keV lines of bands D5/D6"
+    },
+    {
+      "Egamma_keV": 740.0,
+      "reason": "too weak to deduce linear polarization"
+    }
+  ],
+  "model_fitting_dependencies": {
+    "PRM_E2_second_order_parameter": "chi*beta2 = 2.14*0.185 fixed by single experimental BE2out/in data point",
+    "PRM_M1_geff_over_Q": "fitted to experimental delta of 751-keV transition"
+  },
+  "question": "In 136Nd (foundational nucleus of Day 18 MU08), how does Lv 2022 establish the transition probabilities between transverse wobbling candidates L1 and L3, how many connecting transitions actually yield verified mixing ratios and B(E2)out/B(E2)in data points, and to what extent are the theoretical PRM curves predictions versus parameter calibrations?",
+  "scope": "rigorous claim-level and quantitative audit of 136Nd wobbling transition rates, linking Lv 2022 to MU08 chiral/band-mixing landscape"
+}

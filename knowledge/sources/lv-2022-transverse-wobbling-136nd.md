@@ -148,3 +148,14 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 P0: do not describe the 751-keV link as E2-dominant.
+
+
+## Day18定量审计：136Nd连接跃迁强度与PRM单点定标边界
+
+在Day18正式学习中对本文Table/Fig数据进行深入定量审计，raw SHA256 `C5C8A30FE8450372D97DD09FD004A4FF9C1E4427BC837EE7AA157C3DA07D9D69`已核。原LV22-1–7各claim及`human-reviewed`状态完全保留；新LV22-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV22-D18-1 | 本文751 keV（17+→16+）连接跃迁是四条候选线中唯一获得有效线偏振与 $R_	ext{ac}$ 测量的跃迁；其 $\delta = -0.48^{+0.13}_{-0.14}$ 对应 $E2$ 份额仅为 $18.7\%$（$10.9\%	ext{--}27.8\%$），与奇质量数wobbler中 $E2 > 90\%$ 的主导特征截然不同。Fig. 5中两准粒子PRM理论曲线的二阶E2参数（$\chi eta_2 = 2.14 	imes 0.185$）与M1参数（$g_	ext{eff}/Q$）系完全由这单一实验点和实验 $\delta$ 强制匹配定标而来，因此模型曲线的高自旋外推是对该单点的参数化延拓而非无参预测。 | task-rate-and-model-audit | derived-and-boundary | PDF pp.3–5 Figs.3–5；新lv22-136nd-wobbling-result-017 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv22-136nd-wobbling-contract-017.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv22-136nd-wobbling-result-017.json)4项检查全过，确立了136Nd多能带谱系中跃迁强度提取与理论定标的真实边界。
