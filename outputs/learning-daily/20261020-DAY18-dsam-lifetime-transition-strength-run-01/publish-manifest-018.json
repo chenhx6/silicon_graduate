@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-20T22:39:42.910376+08:00",
+  "subject": "Audit 135Pr wobbling E2 strength collapse under delta root inversion",
+  "ordinary_paths": [
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "system/scripts/day18_135pr_rate_contrast.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/matta15-lv22-135pr-contract-018.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/matta15-lv22-135pr-result-018.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-022.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-019.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-018.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-021.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-018.md only"
+  },
+  "verification": "verification-022.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification022/lint021 0 errors 249 warnings/boundary019/diff; 135Pr 4 checks passed"
+}

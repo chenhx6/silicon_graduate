@@ -140,3 +140,14 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 按SI明确采用的[[herzan-2015-193bi-spectroscopy]] HE15-10，Qpoint=(1+x)/(1+x+x²)、x=E/(me c²)，Q=Qpoint[.42−1.9×10^−4 E(keV)]。[[135pr-mixing-branch-input-contract]]的新计算用独立原件的Q中央系数把SI Ap及其误差尺度变回主文P，三线均在印刷rounding内闭合。它确认两张表的数据身份，不证明完整误差预算已包含/漏掉Q误差，也不恢复原counts/fit Cov。
 
 本文a(E)与Herzan Fig3的a(E)不同；所采用的是其Q(E)，不能因同阵列名称一并复制所有calibration。原件SI p4的width措辞按L22-18保留，不把它改写为方差或标准差已核准的Gaussian prior。没有用本任务integer-only kernel计算135Pr半整数响应，作者模式解释和反方/后续支持方仍并列。
+
+
+## Day18定量审计：混合比倒转对跃迁强度的塌缩效应核验
+
+在Day18正式学习中对本文Table 1中135Pr带间跃迁数据进行定量提取审计，raw SHA256 `4B87C540BF9DA5141FA88EF8F00859162CB08918D56A5DA74726C7537DF5E26B`已核。原LV22各claim及`human-reviewed`状态完全保留；新LV22P-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV22P-D18-1 | 本文Table 1中利用线偏振 $P$ 与角分布比 $R_	ext{ac}$ 确立 747、813、450 keV 跃迁的混合比分别为 $-0.47$、$-0.37$、$-0.31$（$E2$ 份额为 $18.1\%$、$12.0\%$、$8.8\%$），与早期报告的 $E2$ 主导（$60.6\%$、$70.3\%$）相比，813 keV 的带间比值 $B(E2)_	ext{out}/B(E2)_	ext{in}$ 由 0.843 崩塌至 $0.12(8)$（降至 $1/7.0$）。这从实验上排除了低自旋wobbling解释，提供了多极混合比裁决对跃迁强度提取起生死作用的最关键证据。 | task-sensitivity-and-counterevidence | derived-and-boundary | PDF p.3 Table 1；新matta15-lv22-135pr-result-018 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/matta15-lv22-135pr-contract-018.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/matta15-lv22-135pr-result-018.json)4项检查全过。

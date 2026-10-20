@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-20T14:36:07.681004+00:00",
+  "source_matta": "Matta PRL 114, 082501 (2015) Table I",
+  "source_lv": "Lv PLB 824, 136840 (2022) Table 1",
+  "raw_matta": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+  "raw_sha_matta": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+  "raw_lv": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+  "raw_sha_lv": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+  "transitions": [
+    {
+      "Egamma_keV": 747.0,
+      "initial_state": "17/2-",
+      "final_state": "15/2-",
+      "matta_delta": -1.24,
+      "matta_delta_err": 0.13,
+      "matta_fe2_percent": 60.6,
+      "lv_delta": -0.47,
+      "lv_delta_err_plus": 0.09,
+      "lv_delta_err_minus": 0.22
+    },
+    {
+      "Egamma_keV": 813.0,
+      "initial_state": "21/2-",
+      "final_state": "19/2-",
+      "matta_delta": -1.54,
+      "matta_delta_err": 0.09,
+      "matta_fe2_percent": 70.3,
+      "matta_BE2out_in": 0.843,
+      "matta_BE2out_in_err": 0.032,
+      "lv_delta": -0.37,
+      "lv_delta_err_plus": 0.1,
+      "lv_delta_err_minus": 0.14,
+      "lv_BE2out_in": 0.12,
+      "lv_BE2out_in_err": 0.08
+    },
+    {
+      "Egamma_keV": 450.0,
+      "initial_state": "two-phonon candidate",
+      "sensharma_delta_mag": "> 1",
+      "lv_delta": -0.31,
+      "lv_delta_err_plus": 0.1,
+      "lv_delta_err_minus": 0.13
+    }
+  ],
+  "question": "In low-spin transverse wobbling candidate 135Pr, how does the resolution of DCO/polarization mixing ratios between Matta 2015 (|delta| > 1, E2 dominant) and Lv 2022 (|delta| < 1, M1 dominant) fundamentally alter the extracted interband B(E2)out/B(E2)in transition probability, and what is the factor difference in the 813-keV strength ratio?",
+  "scope": "direct quantitative contrast of contested 135Pr interband transition rates, demonstrating the catastrophic collapse of inferred collective wobbling strength when mixing ratios invert from E2 to M1 dominance"
+}

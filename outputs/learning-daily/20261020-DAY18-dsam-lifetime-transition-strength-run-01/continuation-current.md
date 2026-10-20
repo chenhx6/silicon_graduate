@@ -1,3 +1,5 @@
+checkpoint018：135Pr横向wobbling多极混合比解颠覆深入审计（MA15-D18-1/LV22P-D18-1），揭示delta解翻转导致813 keV带间B(E2)强度比暴跌7.0倍的断崖式塌缩反例。57项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint017：136Nd wobbling跨带跃迁深入审计（LV22-D18-1），揭示单点实验强度数据对PRM唯象二阶E2与M1模型参数的强制配平定标依赖。53项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint016：103,104Rh Table I–III深入审计（SZ08-D18-1），揭示B(M1)/B(E2)奇偶交错完全由B(E2)交错驱动、B(M1)平滑单调衰减的反例，证明绝对寿命测量对多极载体解耦的必要性。50项writeback已通过验证。原硬截止明日15点保持。
@@ -9,6 +11,9 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint018已实际提交，稳定指针main / `Audit 135Pr wobbling E2 strength collapse under delta root inversion`；精确hash/H3/远端结果只publication-018回执。
+
 
 checkpoint017已实际提交，稳定指针main / `Audit 136Nd wobbling transition rates and PRM single-point calibration`；精确hash/H3/远端结果只publication-017回执。
 

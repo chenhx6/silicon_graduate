@@ -1413,6 +1413,58 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "LV22-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "anchor": "Day18定量审计：跨带B(E2)提取对混合比解的依赖与后续修正对照",
+      "summary": "Table I中delta解由大于1翻转为小于1对带间B(E2)造成的7.0倍塌缩效应",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "MA15-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "anchor": "Day18定量审计：混合比倒转对跃迁强度的塌缩效应核验",
+      "summary": "Table 1中测定真实小解导致813 keV带间B(E2)强度比从0.843暴跌至0.12(8)",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "LV22P-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "混合比解翻转引起的跃迁强度崩溃：135Pr里程碑反例",
+      "summary": "135Pr里程碑反例：混合比双解翻转导致B(E2)强度塌缩7.0倍，彻底颠覆横向wobbling判据",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "MA15-D18-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "LV22P-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "混合比解翻转引起的跃迁强度塌缩效应",
+      "summary": "方法页补充135Pr中delta解翻转导致B(E2)断崖式下降7倍的警示边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "MA15-D18-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "LV22P-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1427,6 +1479,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint018已实际提交，稳定指针main / `Audit 135Pr wobbling E2 strength collapse under delta root inversion`；精确hash/H3/远端结果只publication-018回执。
+
 
 checkpoint017已实际提交，稳定指针main / `Audit 136Nd wobbling transition rates and PRM single-point calibration`；精确hash/H3/远端结果只publication-017回执。
 
