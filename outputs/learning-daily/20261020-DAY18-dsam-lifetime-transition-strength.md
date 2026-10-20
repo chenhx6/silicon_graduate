@@ -1521,6 +1521,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "RD21-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "anchor": "Day18定量审计：纵向wobbling跨带跃迁混合比双解敏感性与多极倒转",
+      "summary": "Table 1中三条跨带连接线B(E2)out/in与B(M1)out/in对混合比大解与小解的断崖式塌缩与多极倒转核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "相对B(E2)与B(M1)提取中混合比双解的多极倒转：133La纵向wobbling反例",
+      "summary": "133La纵向wobbling反例：小解导致B(E2)out/in塌缩6.3-7.4倍、B(M1)out/in暴增4.6-9.1倍",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "混合比双根引起的多极强度全面倒转：从横向到纵向wobbling",
+      "summary": "方法页补充纵向wobbling候选带中混合比双根引起的多极强度全面倒转规律",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "biswas-2019-longitudinal-wobbling-133la",
+      "summary": "索引增加133La纵向wobbling跃迁几率与混合比多极倒转导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1535,6 +1591,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint020已实际提交，稳定指针main / `Audit 133La longitudinal wobbling delta root sensitivity and multipole inversion`；精确hash/H3/远端结果只publication-020回执。
+
 
 checkpoint019已实际提交，稳定指针main / `Audit 133Ba relative transition strength and E^5 amplification factor`；精确hash/H3/远端结果只publication-019回执。
 

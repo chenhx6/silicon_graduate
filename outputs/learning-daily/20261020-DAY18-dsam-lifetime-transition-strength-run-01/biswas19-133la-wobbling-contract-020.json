@@ -1,0 +1,13 @@
+{
+  "target": "133La",
+  "paper": "Biswas 2019 Eur. Phys. J. A 55:159",
+  "table": "Table 1",
+  "description": "Algebraic decomposition and delta root sensitivity audit of 133La wobbling links",
+  "check_count": 4,
+  "checks": [
+    "algebraic_formula_consistency",
+    "intensity_branching_ratio_reconstruction",
+    "small_delta_BE2_collapse_evaluation",
+    "small_delta_BM1_jump_evaluation"
+  ]
+}

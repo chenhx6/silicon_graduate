@@ -2448,3 +2448,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint019：133Ba带间相对B(E2)提取中能量五次方放大代数解构
 
 审计Rojeeta Devi 2021 133Ba带间跃迁数据（RD21-D18-1）：Table 1与2中报告的跨带与带内B(E2)out/B(E2)in比值高达2.36–3.40（远超Lu同位素~0.2–0.3范围）。代数解构证实该反常巨大比值全由(E_in/E_out)^5动力学相空间因子主导（在457.6 keV跃迁处放大达5.43倍），而非四极矩阵元超集体跃变。61项writeback/23mapped知识页通过verification023/lint022/boundary020。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint020：133La纵向wobbling多极混合比双解敏感性与多极倒转反例
+
+审计Biswas 2019 133La带间跃迁数据（BI19-D18-1）：Table 1中报告的B(E2)out/B(E2)in高达0.55–1.13，被作为核内首个纵向wobbling模式的实验证据。代数解构证实该集体E2增强与M1抑制完全受制于大解（|delta| = 2.05–3.07）；在浅极小相容的物理小解（|delta_2| ~ 0.35–0.40）下，B(E2)out/B(E2)in发生6.32至7.40倍断崖式塌缩（跌至0.076–0.152），而B(M1)out/B(E2)in反向暴增4.63至9.11倍（跃升至0.355–0.496 mu_N^2/e^2b^2），完全退化为单粒子M1衰变。65项writeback/24mapped知识页通过verification024/lint023/boundary021。原硬截止明日15点保持。

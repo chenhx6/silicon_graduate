@@ -1,0 +1,70 @@
+{
+  "target": "133La",
+  "transitions": [
+    {
+      "initial_spin": "17/2-",
+      "final_spin": "15/2-",
+      "E_out_keV": 758.0,
+      "E_in_keV": 585.0,
+      "energy_ratio_5": 0.2738,
+      "reported_delta": -2.05,
+      "reported_E2_fraction": 0.808,
+      "calculated_E2_fraction": 0.8078,
+      "inferred_intensity_ratio_lambda": 5.0956,
+      "reported_BE2_out_in": 1.127,
+      "reported_BM1_out_in": 0.107,
+      "alternative_delta_small": -0.35,
+      "alternative_E2_fraction": 0.1091,
+      "alternative_BE2_out_in": 0.1523,
+      "BE2_collapse_factor": 7.4,
+      "alternative_BM1_out_in": 0.4959,
+      "BM1_jump_factor": 4.63
+    },
+    {
+      "initial_spin": "21/2-",
+      "final_spin": "19/2-",
+      "E_out_keV": 874.0,
+      "E_in_keV": 797.0,
+      "energy_ratio_5": 0.63057,
+      "reported_delta": -2.6,
+      "reported_E2_fraction": 0.871,
+      "calculated_E2_fraction": 0.8711,
+      "inferred_intensity_ratio_lambda": 1.3034,
+      "reported_BE2_out_in": 0.716,
+      "reported_BM1_out_in": 0.056,
+      "alternative_delta_small": -0.4,
+      "alternative_E2_fraction": 0.1379,
+      "alternative_BE2_out_in": 0.1134,
+      "BE2_collapse_factor": 6.32,
+      "alternative_BM1_out_in": 0.3746,
+      "BM1_jump_factor": 6.69
+    },
+    {
+      "initial_spin": "25/2-",
+      "final_spin": "23/2-",
+      "E_out_keV": 982.0,
+      "E_in_keV": 897.0,
+      "energy_ratio_5": 0.63592,
+      "reported_delta": -3.07,
+      "reported_E2_fraction": 0.904,
+      "calculated_E2_fraction": 0.9041,
+      "inferred_intensity_ratio_lambda": 0.948,
+      "reported_BE2_out_in": 0.545,
+      "reported_BM1_out_in": 0.039,
+      "alternative_delta_small": -0.38,
+      "alternative_E2_fraction": 0.1262,
+      "alternative_BE2_out_in": 0.0761,
+      "BE2_collapse_factor": 7.16,
+      "alternative_BM1_out_in": 0.3553,
+      "BM1_jump_factor": 9.11
+    }
+  ],
+  "summary": {
+    "max_BE2_collapse_factor": 7.4,
+    "min_BE2_collapse_factor": 6.32,
+    "max_BM1_jump_factor": 9.11,
+    "min_BM1_jump_factor": 4.63,
+    "conclusion": "Adopting the small delta root collapses BE2_out/BE2_in by 6.3-7.4x and increases BM1_out/BE2_in by 4.6-9.1x, inverting the collective wobbling enhancement into single-quasiparticle decay."
+  },
+  "checks_passed": true
+}

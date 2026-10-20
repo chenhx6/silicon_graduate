@@ -25,6 +25,9 @@ updated: 2026-10-20
 
 - [[rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba]] — 133Ba 负宇称横向 wobbling 跨带相对跃迁几率与能量五次方放大机制。
 
+- [[biswas-2019-longitudinal-wobbling-133la]] — 133La 纵向 wobbling 跨带相对跃迁几率提取对混合比双根的敏感性与多极倒转。
+
+
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
 - [[nndc-2010-fe58-reference-lifetime-lineage]] — exact官方811参考B/半衰期/静态Q同1981来源、旧DSAMhalf/mean与Gosia输入依赖；非重复实验。

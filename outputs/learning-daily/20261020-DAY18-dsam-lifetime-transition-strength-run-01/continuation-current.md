@@ -1,3 +1,5 @@
+checkpoint020：133La纵向wobbling多极混合比双解深入审计（BI19-D18-1），揭示Table 1中B(E2)out/B(E2)in在物理小解下发生6.32-7.40倍断崖式塌缩，伴随B(M1)out/B(E2)in反向暴涨4.63-9.11倍的多极倒转反例。65项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint019：133Ba带间跃迁相对B(E2)深入审计（RD21-D18-1），揭示Table 1与2中B(E2)out/B(E2)in高达2.36-3.40由(E_in/E_out)^5相空间因子（高达5.43倍）驱动的代数解构。61项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint018：135Pr横向wobbling多极混合比解颠覆深入审计（MA15-D18-1/LV22P-D18-1），揭示delta解翻转导致813 keV带间B(E2)强度比暴跌7.0倍的断崖式塌缩反例。57项writeback已通过验证。原硬截止明日15点保持。
@@ -13,6 +15,9 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint020已实际提交，稳定指针main / `Audit 133La longitudinal wobbling delta root sensitivity and multipole inversion`；精确hash/H3/远端结果只publication-020回执。
+
 
 checkpoint019已实际提交，稳定指针main / `Audit 133Ba relative transition strength and E^5 amplification factor`；精确hash/H3/远端结果只publication-019回执。
 
