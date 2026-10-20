@@ -1,0 +1,129 @@
+{
+  "at": "2026-10-20T13:59:36.098367+00:00",
+  "source": "Mukhopadhyay PRL 99, 172501 (2007) Table I original print",
+  "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+  "raw_sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+  "rows_Band_A": [
+    {
+      "spin": "29/2",
+      "tau_ps": "1.00",
+      "tau_err": "0.05",
+      "BM1": "3.2",
+      "BM1_err": "0.2",
+      "BE2": "0.32",
+      "BE2_err": "0.02"
+    },
+    {
+      "spin": "31/2",
+      "tau_ps": "0.75",
+      "tau_err": "0.08",
+      "BM1": "2.5",
+      "BM1_err": "0.3",
+      "BE2": "0.32",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "33/2",
+      "tau_ps": "0.44",
+      "tau_err": "0.02",
+      "BM1": "2.2",
+      "BM1_err": "0.2",
+      "BE2": "0.32",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "35/2",
+      "tau_ps": "0.28",
+      "tau_err": "0.02",
+      "BM1": "2.4",
+      "BM1_err": "0.3",
+      "BE2": "0.32",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "37/2",
+      "tau_ps": "0.23",
+      "tau_err": "0.02",
+      "BM1": "1.7",
+      "BM1_err": "0.3",
+      "BE2": "0.32",
+      "BE2_err": "0.04"
+    },
+    {
+      "spin": "39/2",
+      "tau_ps": "0.22",
+      "tau_err": "0.02",
+      "BM1": "2.1",
+      "BM1_err": "0.3",
+      "BE2": "0.13",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "41/2",
+      "tau_ps": "0.18",
+      "tau_err": "0.02",
+      "BM1": "2.1",
+      "BM1_err": "0.3",
+      "BE2": "0.19",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "43/2",
+      "tau_ps": "0.16",
+      "tau_err": "0.02",
+      "BM1": "2.0",
+      "BM1_err": "0.3",
+      "BE2": "0.21",
+      "BE2_err": "0.04"
+    }
+  ],
+  "rows_Band_B": [
+    {
+      "spin": "31/2",
+      "tau_ps": "1.46",
+      "tau_err": "0.02",
+      "BM1": "2.7",
+      "BM1_err": "0.3",
+      "BE2": "0.28",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "33/2",
+      "tau_ps": "0.87",
+      "tau_err": "0.06",
+      "BM1": "2.1",
+      "BM1_err": "0.2",
+      "BE2": "0.28",
+      "BE2_err": "0.03"
+    },
+    {
+      "spin": "35/2",
+      "tau_ps": "0.64",
+      "tau_err": "0.05",
+      "BM1": "2.2",
+      "BM1_err": "0.2",
+      "BE2": "0.28",
+      "BE2_err": "0.04"
+    },
+    {
+      "spin": "37/2",
+      "tau_ps": "0.48",
+      "tau_err": "0.03",
+      "BM1": "1.7",
+      "BM1_err": "0.2",
+      "BE2": "0.29",
+      "BE2_err": "0.04"
+    },
+    {
+      "spin": "39/2",
+      "tau_ps": "0.24",
+      "tau_err": "0.04",
+      "BM1": "1.9",
+      "BM1_err": "0.3",
+      "BE2": "0.11",
+      "BE2_err": "0.03"
+    }
+  ],
+  "question": "In chiral doublet candidate 135Nd, how do nearly equal B(E2) values reconcile with a factor of ~2 difference in level lifetimes between Band A and Band B at low spins (31/2-37/2), and what does this imply about the branch/partial-rate denominator?",
+  "hypothesis_scope": "conditional rate algebra and branching compensation audit; does not refit LINESHAPE or invent unprinted raw matrices"
+}

@@ -191,3 +191,15 @@ Quotients are simple divisions of Table I printed central `B` values, rounded to
 ### Conditional same-parent photon-budget audit
 
 The plotted-spin/line bindings are additional hypotheses. Using the existing Table-I Band-B lifetimes (31/2–37/2: 1.46(2), 0.87(6), 0.64(5), 0.48(3) ps), each selected photon component contributes `τ K E^(2L+1) B` to a common parent budget. The sum over any distinct components cannot exceed1. Nominal M1 in+out budgets are1.3872,1.2012,0.9195 for the first three candidate ΔI1 pairs; no37/2 M1 assignment is made. Combining only the in-band M1 with the candidate out E2 crossover already exceeds1 at each of the four spins. These inconsistencies reject the added joint bindings at the stated inputs; they do not identify the failed premise or establish an error in the publication. The original graph B estimates and table values remain unchanged. IC and additional channels have nonnegative rates and cannot rescue an already overfilled hypothetical photon budget. See MU07-16; all transforms share the same DSAM chain.
+
+
+## Day18补充定量审计：寿命两倍与强度近同的分支补偿合同
+
+本session在正式Day18持续学习中定向回读PDF全文及Table I，raw SHA256 `9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425`已核。原MU07-1–16所有claim及review状态保持；以下新claim为本轮自审待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU07-D18-1 | Table I在低自旋区（31/2−–37/2−）Band B的平均寿命τ_B约为Band A的2倍（τ_B/τ_A在1.95至2.29之间），而在39/2−处寿命比突降为1.09；但对应带内B(E2)在31/2−–35/2−保持严格0.28/0.32=7/8=0.875，37/2−为0.29/0.32≈0.906。 | published-center-contrast | direct-table-audit | PDF p.2 Table I | true |
+| MU07-D18-2 | 按B(E2)∝p_γ/(τ E^5)，两带在寿命相差约2倍的同时维持相近B(E2)，要求其带内跃迁的偏率因子p_γ/E^5在Band B比Band A大1.70–2.00倍。这从真实实验数据证明：手征双重带电磁跃迁强度相等并不等于母态总能级寿命相等；寿命必须经过能量和分支比补偿才能反映结构形变。 | task-rate-compensation-audit | derived-and-boundary | PDF p.2 Table I；新mu07-135nd-rate-result-013 | true |
+
+本session新[输入合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu07-135nd-rate-contract-013.json)、[分析程序](../../system/scripts/day18_mu07_135nd_rate_audit.py)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu07-135nd-rate-result-013.json)4项检查全过。这是对MU08 136Nd（同τ两带B不同）的重要对比补充：在135Nd中是“异τ两带B近同”，两者共同构成DSAM寿命到跃迁强度转换中分支与寿命解耦的完整双向反例。

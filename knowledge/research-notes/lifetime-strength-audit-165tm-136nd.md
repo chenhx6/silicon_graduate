@@ -607,3 +607,13 @@ RA14-9/10的同B(E2)/异B(M1)与TPSM解释分开：epsilon.15/gamma30°是模型
 在fixedbranch/ICC/能量/几何下，B∝1/tau、Qt∝tau^−1/2。新[合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-input-contract-006.json)、[六行程序](../../system/scripts/day18_rdds_companion_contract.py)/[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-companion-result-006.json)给12S1/10S1的Qt比1.1827957→1.1894563（+.563123%）和8g/6g.9296482→.9350779（+.584053%）；平方ratio随f的导数定号，所以端点确实界定本chart。它不重现原stoppingbranch、likelihood或CI，亦不把旧6g18%单行算术算新交付。
 
 DDCM距离恒定性是有用诊断，不保证所有共同速度/门/强度/有限stopping无误差；Qt又继承branch/轴假设。KL99是134Nd独立采集而非106Ag同levelRDDS，不能按同核区/同符号补Rather的数据。下一应取actualsamelevel/response/Cov输入，本session仍正式Day18，下一卡未开。
+
+
+## 135Nd与136Nd的双向反例：异寿命同强度与同寿命异强度
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D18-1/2与[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-1/2共同构成了DSAM方法中寿命与强度关系的完整双向反例：
+
+1. **136Nd（同寿命尺度，异跃迁强度）**：MU08 Table II中两带在I=17处B(E2)比为11/2=5.5，而在I=18处为2/7≈0.286，带间双比D=19.25。即使假设存在共同的stopping时钟缩放，也无法消除这种强度差异。
+2. **135Nd（异能级寿命，同跃迁强度）**：MU07 Table I中低自旋区（31/2−–37/2−）Band B的能级寿命τ_B约为Band A的2倍（例如31/2−为1.46 vs 0.75 ps，比值1.947），但两者的带内B(E2)却几乎完全相等（0.28 vs 0.32 e²b²，比值为定值0.875）。由B(E2)∝p_γ/(τ E^5)可知，Band B的偏率因子p_γ/E^5比Band A高出1.70–2.00倍，精确补偿了寿命的2倍差距。
+
+这彻底澄清了物理图像：**能级寿命由所有退激通道总宽度决定（τ=ℏ/Γ_total），而跃迁强度只与该特定通道的偏跃迁率相关（B∝Γ_γ/E^5）**。在没有完整测量分支比和跃迁能量之前，绝不能将寿命长短直接当成形变大小或集体性强弱的代名词。

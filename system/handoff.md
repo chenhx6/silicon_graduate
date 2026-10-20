@@ -1,3 +1,5 @@
+checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
+
 ---
 type: system-handoff
 graph-excluded: true
@@ -7,6 +9,9 @@ updated: 2026-10-20
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint013已实际提交，稳定指针main / `Audit 135Nd lifetime vs transition strength decoupling and compensation`；精确hash/H3/远端结果只publication-013回执。
+
 
 checkpoint012已实际提交，稳定指针main / `Prepare next uncredited Day19 prompt and preserve Day18 deadline`；精确hash/H3/远端结果只publication-012回执。
 

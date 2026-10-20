@@ -244,3 +244,11 @@ Sun实际sp中心是Geant4使用的database，不能将当前IAEA附带SRIM2013�
 ## RDDS/DDCM作为DSAM的正交时间合同
 
 [[klemme-1999-lifetimes-134nd-neighbors]] KL99-D18-1/2/3/4来自本session定向原读PDF2–4，承认既有Day13阅读。距离/shifted-feedinggate/导数给DSAM以外的时间响应，但约1.1ps Au减速仍使短τ需要stopping修正；六个非空tcorr因子1.181–1.255不是统一比例。固定branch/ICC/几何，声明将修正量减半的chart中12S1/10S1和8g/6g的Qt比分别仅变+.563%/+.584%；不把这一个chart当原CI/完整系统envelope或106Ag独立实验。实际输入/Σ与samelevel身份才决定companion是否增加独立约束。
+
+
+## 寿命与跃迁强度的非一一对应：135Nd/136Nd对照
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D18-1/2与[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-2展示了DSAM分析中必须严加区分的核心命题：
+- 能级寿命相等不保证跃迁强度相等（136Nd中带间B(E2)相差达5倍）；
+- 跃迁强度近同不代表能级寿命相同（135Nd低自旋区B(E2)相近但寿命相差2倍，由偏分支比与能量5次方补偿）。
+在DSAM lineshape分析中，必须建立完整的衰变纲图、分支比与内转换修正，才能将提取的τ安全转化为B(Eλ)或Qt。

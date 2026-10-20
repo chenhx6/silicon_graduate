@@ -1209,6 +1209,51 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "NS79-P19-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "anchor": "Day18补充定量审计：寿命两倍与强度近同的分支补偿合同",
+      "summary": "Table I低自旋区tau相差2倍而B(E2)比为定值0.875，偏率因子补偿1.7-2.0倍",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "135Nd与136Nd的双向反例：异寿命同强度与同寿命异强度",
+      "summary": "136Nd同寿命异强度与135Nd异寿命同强度的双向反例，证明总寿命与偏跃迁率的解耦",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "寿命与跃迁强度的非一一对应：135Nd/136Nd对照",
+      "summary": "方法页补充135Nd/136Nd关于寿命与B(E2)非一一对应的双向对照",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D18-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D18-2"
+        }
+      ]
     }
   ]
 }
@@ -1223,6 +1268,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint013已实际提交，稳定指针main / `Audit 135Nd lifetime vs transition strength decoupling and compensation`；精确hash/H3/远端结果只publication-013回执。
+
 
 checkpoint012已实际提交，稳定指针main / `Prepare next uncredited Day19 prompt and preserve Day18 deadline`；精确hash/H3/远端结果只publication-012回执。
 

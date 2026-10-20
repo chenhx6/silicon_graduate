@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "012 committed; original research window continues",
+  "last_checkpoint": "013 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Reconcile DAY18 evidence counts and actual preview reading scope",
-    "commit_hash": "f01b072efcdf0ee8601141c97f25698c76d9bef4",
+    "subject": "Prepare next uncredited Day19 prompt and preserve Day18 deadline",
+    "commit_hash": "a1f9f72bbc2b16b338c034fe478fabcfe7441017",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-011.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-012.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,13 +88,12 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Prepare next uncredited Day19 prompt and preserve Day18 deadline"
+    "subject": "Audit 135Nd lifetime vs transition strength decoupling and compensation"
   },
   "uncredited_preview": {
     "day_index": 19,
     "status": "partial",
     "formal_credit": false,
     "statefile": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json"
-  },
-  "next_prompt_file": "outputs/learning-daily/prompts/20261021-DAY19-rdds-fast-timing.md"
+  }
 }

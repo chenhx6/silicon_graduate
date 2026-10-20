@@ -1,0 +1,148 @@
+{
+  "contract_sha256": "887756c76ce13548f2544413680c224fc70bf849d60465000b4eddf691d35b73",
+  "script_sha256": "2fd0df3c7a4e36234ca00384c1766995e1698842732ca9247438e2e71e1d7651",
+  "raw_sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+  "contrasts": [
+    {
+      "spin": "31/2",
+      "tau_A_ps": 0.75,
+      "tau_B_ps": 1.46,
+      "tau_ratio_B_over_A": 1.9466666666666668,
+      "tau_ratio_exact": "146/75",
+      "BE2_A": 0.32,
+      "BE2_B": 0.28,
+      "BE2_ratio_B_over_A": 0.875,
+      "BE2_ratio_exact": "7/8",
+      "BM1_A": 2.5,
+      "BM1_B": 2.7,
+      "BM1_ratio_B_over_A": 1.08,
+      "BM1_ratio_exact": "27/25",
+      "double_ratio_B_over_A": 1.2342857142857142,
+      "double_ratio_exact": "216/175",
+      "tau_x_BE2_ratio_B_over_A": 1.7033333333333334,
+      "tau_x_BE2_ratio_exact": "511/300",
+      "tau_x_BM1_ratio_B_over_A": 2.1024,
+      "tau_x_BM1_ratio_exact": "1314/625"
+    },
+    {
+      "spin": "33/2",
+      "tau_A_ps": 0.44,
+      "tau_B_ps": 0.87,
+      "tau_ratio_B_over_A": 1.9772727272727273,
+      "tau_ratio_exact": "87/44",
+      "BE2_A": 0.32,
+      "BE2_B": 0.28,
+      "BE2_ratio_B_over_A": 0.875,
+      "BE2_ratio_exact": "7/8",
+      "BM1_A": 2.2,
+      "BM1_B": 2.1,
+      "BM1_ratio_B_over_A": 0.9545454545454546,
+      "BM1_ratio_exact": "21/22",
+      "double_ratio_B_over_A": 1.0909090909090908,
+      "double_ratio_exact": "12/11",
+      "tau_x_BE2_ratio_B_over_A": 1.7301136363636365,
+      "tau_x_BE2_ratio_exact": "609/352",
+      "tau_x_BM1_ratio_B_over_A": 1.887396694214876,
+      "tau_x_BM1_ratio_exact": "1827/968"
+    },
+    {
+      "spin": "35/2",
+      "tau_A_ps": 0.28,
+      "tau_B_ps": 0.64,
+      "tau_ratio_B_over_A": 2.2857142857142856,
+      "tau_ratio_exact": "16/7",
+      "BE2_A": 0.32,
+      "BE2_B": 0.28,
+      "BE2_ratio_B_over_A": 0.875,
+      "BE2_ratio_exact": "7/8",
+      "BM1_A": 2.4,
+      "BM1_B": 2.2,
+      "BM1_ratio_B_over_A": 0.9166666666666666,
+      "BM1_ratio_exact": "11/12",
+      "double_ratio_B_over_A": 1.0476190476190477,
+      "double_ratio_exact": "22/21",
+      "tau_x_BE2_ratio_B_over_A": 2.0,
+      "tau_x_BE2_ratio_exact": "2",
+      "tau_x_BM1_ratio_B_over_A": 2.0952380952380953,
+      "tau_x_BM1_ratio_exact": "44/21"
+    },
+    {
+      "spin": "37/2",
+      "tau_A_ps": 0.23,
+      "tau_B_ps": 0.48,
+      "tau_ratio_B_over_A": 2.0869565217391304,
+      "tau_ratio_exact": "48/23",
+      "BE2_A": 0.32,
+      "BE2_B": 0.29,
+      "BE2_ratio_B_over_A": 0.90625,
+      "BE2_ratio_exact": "29/32",
+      "BM1_A": 1.7,
+      "BM1_B": 1.7,
+      "BM1_ratio_B_over_A": 1.0,
+      "BM1_ratio_exact": "1",
+      "double_ratio_B_over_A": 1.103448275862069,
+      "double_ratio_exact": "32/29",
+      "tau_x_BE2_ratio_B_over_A": 1.891304347826087,
+      "tau_x_BE2_ratio_exact": "87/46",
+      "tau_x_BM1_ratio_B_over_A": 2.0869565217391304,
+      "tau_x_BM1_ratio_exact": "48/23"
+    },
+    {
+      "spin": "39/2",
+      "tau_A_ps": 0.22,
+      "tau_B_ps": 0.24,
+      "tau_ratio_B_over_A": 1.0909090909090908,
+      "tau_ratio_exact": "12/11",
+      "BE2_A": 0.13,
+      "BE2_B": 0.11,
+      "BE2_ratio_B_over_A": 0.8461538461538461,
+      "BE2_ratio_exact": "11/13",
+      "BM1_A": 2.1,
+      "BM1_B": 1.9,
+      "BM1_ratio_B_over_A": 0.9047619047619048,
+      "BM1_ratio_exact": "19/21",
+      "double_ratio_B_over_A": 1.0692640692640694,
+      "double_ratio_exact": "247/231",
+      "tau_x_BE2_ratio_B_over_A": 0.9230769230769231,
+      "tau_x_BE2_ratio_exact": "12/13",
+      "tau_x_BM1_ratio_B_over_A": 0.987012987012987,
+      "tau_x_BM1_ratio_exact": "76/77"
+    }
+  ],
+  "checks": [
+    {
+      "name": "low_spin_tau_ratio_exceeds_1_9",
+      "spins": [
+        "31/2",
+        "33/2",
+        "35/2",
+        "37/2"
+      ],
+      "passed": true
+    },
+    {
+      "name": "low_spin_BE2_ratio_near_constant",
+      "spins": [
+        "31/2",
+        "33/2",
+        "35/2"
+      ],
+      "passed": true
+    },
+    {
+      "name": "tau_x_BE2_ratio_compensates_lifetime_difference",
+      "note": "tau_B ~ 2*tau_A while BE2_B ~ 0.875*BE2_A requires partial rate numerator (p_gamma/E^5) in B to be ~ 1.7-2.0 times A",
+      "passed": true
+    },
+    {
+      "name": "high_spin_39_2_lifetime_ratio_drops_to_near_unity",
+      "spin": "39/2",
+      "tau_ratio": 1.0909090909090908,
+      "passed": true
+    }
+  ],
+  "checks_total": 4,
+  "checks_passed": 4,
+  "all_passed": true,
+  "physical_interpretation": "In 135Nd Table I, B(E2) is nearly identical between Bands A and B (~0.32 vs ~0.28 e2b2) even though the total mean lifetime tau is ~2 times longer in Band B at low spins (e.g. 1.46 vs 0.75 ps at 31/2-). Because B(E2) is proportional to p_gamma / (tau * E^5), maintaining equal B(E2) with double tau requires the partial rate factor p_gamma / E^5 in Band B to be approximately 1.7 to 2.0 times larger than in Band A. This illustrates that identical B(E2) strengths between partner bands does not imply identical level lifetimes, and that level lifetimes alone cannot be directly equated to transition strengths without branching and energy compensation."
+}
