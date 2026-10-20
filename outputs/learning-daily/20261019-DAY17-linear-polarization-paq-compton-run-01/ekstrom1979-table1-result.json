@@ -1,0 +1,891 @@
+{
+  "at": "2026-10-20T00:46:35.887362+00:00",
+  "script_sha256": "361f2ac0832af52aa2d010eb1a76a27e8516194855f282d399101569eac2bc3f",
+  "contract_sha256": "237c70a0a1806adec4824821bdaea831563d767cb8f043d76f04a695a30e3103",
+  "angular_dependency_sha256": "42c2c9909dbf6eccf55fa3c19f89283a0338754bd8209da0028c6dc017779991",
+  "row_count": 39,
+  "rows_with_alpha4": 32,
+  "rows": [
+    {
+      "row": 1,
+      "identity": [
+        "61Ni",
+        0.91,
+        0.28,
+        "A",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.054,
+      "conditional_diagonal_standardized_residual": -0.13588160629966112,
+      "CG_complete_alignment_A2_A4": [
+        0.571428571428569,
+        -0.5714285714285727
+      ],
+      "rounded_A2_to_alpha2": 0.3675000000000016,
+      "alpha2_central_rounding_residual": -0.0024999999999983924,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 2,
+      "identity": [
+        "61Ni",
+        1.02,
+        0,
+        "A",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.0825,
+      "conditional_diagonal_standardized_residual": 0.2356000256215044,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.5292000000000028,
+      "alpha2_central_rounding_residual": -0.0007999999999972474,
+      "rounded_A4_to_alpha4": 0.24499999999999927,
+      "alpha4_central_rounding_residual": 0.004999999999999283
+    },
+    {
+      "row": 3,
+      "identity": [
+        "61Ni",
+        1.45,
+        0,
+        "A",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.0915,
+      "conditional_diagonal_standardized_residual": 0.7952034847483462,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.49000000000000254,
+      "alpha2_central_rounding_residual": 2.55351295663786e-15,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 4,
+      "identity": [
+        "61Ni",
+        1.81,
+        0.07,
+        "B",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.075,
+      "conditional_diagonal_standardized_residual": -3.3496144572843205,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.756000000000004,
+      "alpha2_central_rounding_residual": -0.003999999999996007,
+      "rounded_A4_to_alpha4": 0.3499999999999987,
+      "alpha4_central_rounding_residual": -1.27675647831893e-15
+    },
+    {
+      "row": 5,
+      "identity": [
+        "61Ni",
+        1.99,
+        0.07,
+        "B",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.084,
+      "conditional_diagonal_standardized_residual": -2.3162052730603966,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.756000000000004,
+      "alpha2_central_rounding_residual": -0.003999999999996007,
+      "rounded_A4_to_alpha4": 0.3499999999999987,
+      "alpha4_central_rounding_residual": -1.27675647831893e-15
+    },
+    {
+      "row": 6,
+      "identity": [
+        "61Ni",
+        1.99,
+        0.91,
+        "B",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.084,
+      "conditional_diagonal_standardized_residual": -1.827217716667477,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.7350000000000039,
+      "alpha2_central_rounding_residual": 0.00500000000000389,
+      "rounded_A4_to_alpha4": 0.3849999999999985,
+      "alpha4_central_rounding_residual": 0.004999999999998506
+    },
+    {
+      "row": 7,
+      "identity": [
+        "61Ni",
+        2.13,
+        1.02,
+        "A",
+        7
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.1305,
+      "conditional_diagonal_standardized_residual": 1.287647868525597,
+      "CG_complete_alignment_A2_A4": [
+        0.45454545454545203,
+        -0.2424242424242433
+      ],
+      "rounded_A2_to_alpha2": 0.704000000000004,
+      "alpha2_central_rounding_residual": 0.004000000000004,
+      "rounded_A4_to_alpha4": 0.4537499999999984,
+      "alpha4_central_rounding_residual": 0.0037499999999983658
+    },
+    {
+      "row": 8,
+      "identity": [
+        "61Ni",
+        2.13,
+        1.02,
+        "B",
+        8
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.10200000000000001,
+      "conditional_diagonal_standardized_residual": -0.6389031754322979,
+      "CG_complete_alignment_A2_A4": [
+        0.45454545454545203,
+        -0.2424242424242433
+      ],
+      "rounded_A2_to_alpha2": 0.7480000000000042,
+      "alpha2_central_rounding_residual": -0.001999999999995783,
+      "rounded_A4_to_alpha4": 0.4949999999999982,
+      "alpha4_central_rounding_residual": -0.005000000000001781
+    },
+    {
+      "row": 9,
+      "identity": [
+        "61Ni",
+        2.41,
+        0.07,
+        "B",
+        9
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.081,
+      "conditional_diagonal_standardized_residual": -1.6604261717048392,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.6930000000000037,
+      "alpha2_central_rounding_residual": 0.0030000000000037774,
+      "rounded_A4_to_alpha4": 0.3499999999999987,
+      "alpha4_central_rounding_residual": -1.27675647831893e-15
+    },
+    {
+      "row": 10,
+      "identity": [
+        "61Ni",
+        2.41,
+        1.13,
+        "B",
+        9
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.081,
+      "conditional_diagonal_standardized_residual": 0.3513506295305843,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.5040000000000027,
+      "alpha2_central_rounding_residual": 0.004000000000002668,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 11,
+      "identity": [
+        "61Ni",
+        3.43,
+        1.81,
+        "C",
+        9
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.108,
+      "conditional_diagonal_standardized_residual": 0.5041482817332446,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.6597500000000038,
+      "alpha2_central_rounding_residual": -0.0002499999999961977,
+      "rounded_A4_to_alpha4": 0.5097685185185159,
+      "alpha4_central_rounding_residual": -0.0002314814814841082
+    },
+    {
+      "row": 12,
+      "identity": [
+        "61Ni",
+        3.43,
+        1.99,
+        "C",
+        9
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.108,
+      "conditional_diagonal_standardized_residual": 0.7283570407292294,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.6370000000000038,
+      "alpha2_central_rounding_residual": -0.002999999999996228,
+      "rounded_A4_to_alpha4": 0.6024537037037005,
+      "alpha4_central_rounding_residual": 0.0024537037037005716
+    },
+    {
+      "row": 13,
+      "identity": [
+        "61Ni",
+        3.44,
+        2.12,
+        "B",
+        8
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.12449999999999999,
+      "conditional_diagonal_standardized_residual": 1.267096387999961,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.6597500000000038,
+      "alpha2_central_rounding_residual": -0.0002499999999961977,
+      "rounded_A4_to_alpha4": 0.8805092592592546,
+      "alpha4_central_rounding_residual": 0.0005092592592546019
+    },
+    {
+      "row": 14,
+      "identity": [
+        "61Ni",
+        3.44,
+        2.12,
+        "C",
+        9
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.111,
+      "conditional_diagonal_standardized_residual": 0.8214123843159521,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.6370000000000038,
+      "alpha2_central_rounding_residual": -0.002999999999996228,
+      "rounded_A4_to_alpha4": 0.5097685185185159,
+      "alpha4_central_rounding_residual": -0.0002314814814841082
+    },
+    {
+      "row": 15,
+      "identity": [
+        "63Zn",
+        1.21,
+        0,
+        "D",
+        10
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.132,
+      "conditional_diagonal_standardized_residual": 1.586244619821205,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.6468000000000034,
+      "alpha2_central_rounding_residual": -0.00319999999999665,
+      "rounded_A4_to_alpha4": 0.35388888888888786,
+      "alpha4_central_rounding_residual": 0.003888888888887887
+    },
+    {
+      "row": 16,
+      "identity": [
+        "63Zn",
+        1.28,
+        0.25,
+        "D",
+        10
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.12449999999999999,
+      "conditional_diagonal_standardized_residual": -0.47582721066563305,
+      "CG_complete_alignment_A2_A4": [
+        0.571428571428569,
+        -0.5714285714285727
+      ],
+      "rounded_A2_to_alpha2": 0.8750000000000038,
+      "alpha2_central_rounding_residual": -0.014999999999996239,
+      "rounded_A4_to_alpha4": 0.6299999999999986,
+      "alpha4_central_rounding_residual": -1.4432899320127035e-15
+    },
+    {
+      "row": 17,
+      "identity": [
+        "63Zn",
+        1.44,
+        0.19,
+        "D",
+        10
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.1455,
+      "conditional_diagonal_standardized_residual": 1.157500885867758,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.7980000000000043,
+      "alpha2_central_rounding_residual": -0.001999999999995783,
+      "rounded_A4_to_alpha4": 0.5949999999999978,
+      "alpha4_central_rounding_residual": -0.005000000000002225
+    },
+    {
+      "row": 18,
+      "identity": [
+        "63Zn",
+        1.44,
+        0.19,
+        "E",
+        11
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.1335,
+      "conditional_diagonal_standardized_residual": -0.7175467967327441,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.9870000000000052,
+      "alpha2_central_rounding_residual": -0.0029999999999947846,
+      "rounded_A4_to_alpha4": 0.769999999999997,
+      "alpha4_central_rounding_residual": -2.9976021664879227e-15
+    },
+    {
+      "row": 19,
+      "identity": [
+        "63Zn",
+        1.98,
+        0.65,
+        "E",
+        11
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.144,
+      "conditional_diagonal_standardized_residual": 1.070575455144378,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.7980000000000043,
+      "alpha2_central_rounding_residual": -0.001999999999995783,
+      "rounded_A4_to_alpha4": 0.524999999999998,
+      "alpha4_central_rounding_residual": -0.005000000000002003
+    },
+    {
+      "row": 20,
+      "identity": [
+        "64Zn",
+        1.8,
+        0,
+        "F",
+        12
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.04,
+      "conditional_diagonal_standardized_residual": 0.6708203932499369,
+      "CG_complete_alignment_A2_A4": [
+        0.7142857142857122,
+        -1.7142857142857162
+      ],
+      "rounded_A2_to_alpha2": 0.14000000000000043,
+      "alpha2_central_rounding_residual": 4.163336342344337e-16,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 21,
+      "identity": [
+        "64Zn",
+        2.31,
+        0.99,
+        "F",
+        12
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.09,
+      "conditional_diagonal_standardized_residual": -0.542326144546641,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.6468000000000034,
+      "alpha2_central_rounding_residual": -0.00319999999999665,
+      "rounded_A4_to_alpha4": 0.1361111111111107,
+      "alpha4_central_rounding_residual": -0.0038888888888893025
+    },
+    {
+      "row": 22,
+      "identity": [
+        "64Zn",
+        2.74,
+        1.8,
+        "F",
+        12
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.093,
+      "conditional_diagonal_standardized_residual": -0.09877777821069282,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.6272000000000033,
+      "alpha2_central_rounding_residual": -0.002799999999996694,
+      "rounded_A4_to_alpha4": 0.21777777777777715,
+      "alpha4_central_rounding_residual": -0.002222222222222847
+    },
+    {
+      "row": 23,
+      "identity": [
+        "64Zn",
+        3.005,
+        0,
+        "F",
+        12
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.04,
+      "conditional_diagonal_standardized_residual": -0.17677669529663653,
+      "CG_complete_alignment_A2_A4": [
+        0.7142857142857122,
+        -1.7142857142857162
+      ],
+      "rounded_A2_to_alpha2": 0.15400000000000044,
+      "alpha2_central_rounding_residual": 0.004000000000000448,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 24,
+      "identity": [
+        "64Zn",
+        3.08,
+        0.99,
+        "F",
+        12
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.1005,
+      "conditional_diagonal_standardized_residual": -1.0169394950660957,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.7840000000000041,
+      "alpha2_central_rounding_residual": 0.004000000000004111,
+      "rounded_A4_to_alpha4": 0.2722222222222214,
+      "alpha4_central_rounding_residual": 0.002222222222221404
+    },
+    {
+      "row": 25,
+      "identity": [
+        "64Zn",
+        3.99,
+        2.31,
+        "G",
+        13
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.1215,
+      "conditional_diagonal_standardized_residual": 0.3248464796957788,
+      "CG_complete_alignment_A2_A4": [
+        0.45454545454545203,
+        -0.2424242424242433
+      ],
+      "rounded_A2_to_alpha2": 0.7700000000000042,
+      "alpha2_central_rounding_residual": 4.218847493575595e-15,
+      "rounded_A4_to_alpha4": 0.6187499999999978,
+      "alpha4_central_rounding_residual": 0.008749999999997815
+    },
+    {
+      "row": 26,
+      "identity": [
+        "64Zn",
+        4.24,
+        2.74,
+        "G",
+        13
+      ],
+      "energy_above_threshold_group_as_printed": "<=1",
+      "alpha2_MANDY_error_Eq6": 0.111,
+      "conditional_diagonal_standardized_residual": 0.5085293619027782,
+      "CG_complete_alignment_A2_A4": [
+        0.45454545454545203,
+        -0.2424242424242433
+      ],
+      "rounded_A2_to_alpha2": 0.6820000000000037,
+      "alpha2_central_rounding_residual": 0.0020000000000036655,
+      "rounded_A4_to_alpha4": 0.32999999999999885,
+      "alpha4_central_rounding_residual": -1.1657341758564144e-15
+    },
+    {
+      "row": 27,
+      "identity": [
+        "65Zn",
+        1.26,
+        0,
+        "H",
+        14
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.12,
+      "conditional_diagonal_standardized_residual": 0.9041944301794659,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.6930000000000037,
+      "alpha2_central_rounding_residual": 0.0030000000000037774,
+      "rounded_A4_to_alpha4": 0.5949999999999978,
+      "alpha4_central_rounding_residual": -0.005000000000002225
+    },
+    {
+      "row": 28,
+      "identity": [
+        "67Zn",
+        0.89,
+        0.09,
+        "I",
+        15
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.072,
+      "conditional_diagonal_standardized_residual": 1.0926965951519219,
+      "CG_complete_alignment_A2_A4": [
+        0.571428571428569,
+        -0.5714285714285727
+      ],
+      "rounded_A2_to_alpha2": 0.3850000000000017,
+      "alpha2_central_rounding_residual": -0.004999999999998339,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 29,
+      "identity": [
+        "67Zn",
+        1.52,
+        0,
+        "I",
+        15
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.12449999999999999,
+      "conditional_diagonal_standardized_residual": 0.07235698699030099,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.8190000000000044,
+      "alpha2_central_rounding_residual": -0.00099999999999556,
+      "rounded_A4_to_alpha4": 0.5949999999999978,
+      "alpha4_central_rounding_residual": -0.005000000000002225
+    },
+    {
+      "row": 30,
+      "identity": [
+        "67Zn",
+        1.52,
+        0,
+        "J",
+        16
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.096,
+      "conditional_diagonal_standardized_residual": 1.2237255246720062,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.5250000000000028,
+      "alpha2_central_rounding_residual": 0.00500000000000278,
+      "rounded_A4_to_alpha4": 0.3149999999999988,
+      "alpha4_central_rounding_residual": -0.005000000000001226
+    },
+    {
+      "row": 31,
+      "identity": [
+        "67Zn",
+        1.64,
+        0.6,
+        "I",
+        16
+      ],
+      "energy_above_threshold_group_as_printed": "1<E<=2",
+      "alpha2_MANDY_error_Eq6": 0.1395,
+      "conditional_diagonal_standardized_residual": -0.15179369940957846,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.9555000000000056,
+      "alpha2_central_rounding_residual": -0.004499999999994397,
+      "rounded_A4_to_alpha4": null,
+      "alpha4_central_rounding_residual": null
+    },
+    {
+      "row": 32,
+      "identity": [
+        "67Zn",
+        1.64,
+        0.6,
+        "J",
+        17
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.12449999999999999,
+      "conditional_diagonal_standardized_residual": -0.22360524494116987,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.864500000000005,
+      "alpha2_central_rounding_residual": 0.0045000000000050555,
+      "rounded_A4_to_alpha4": 0.8341666666666623,
+      "alpha4_central_rounding_residual": 0.004166666666662322
+    },
+    {
+      "row": 33,
+      "identity": [
+        "67Ga",
+        1.2,
+        0,
+        "K",
+        18
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.12449999999999999,
+      "conditional_diagonal_standardized_residual": -0.0764713522911172,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.8428000000000043,
+      "alpha2_central_rounding_residual": 0.0028000000000043546,
+      "rounded_A4_to_alpha4": 0.5988888888888871,
+      "alpha4_central_rounding_residual": -0.0011111111111128391
+    },
+    {
+      "row": 34,
+      "identity": [
+        "67Ga",
+        1.41,
+        0,
+        "K",
+        18
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.126,
+      "conditional_diagonal_standardized_residual": 0.15676754420070854,
+      "CG_complete_alignment_A2_A4": [
+        0.5102040816326504,
+        -0.3673469387755113
+      ],
+      "rounded_A2_to_alpha2": 0.8232000000000043,
+      "alpha2_central_rounding_residual": 0.0032000000000043105,
+      "rounded_A4_to_alpha4": 0.48999999999999855,
+      "alpha4_central_rounding_residual": -1.4432899320127035e-15
+    },
+    {
+      "row": 35,
+      "identity": [
+        "67Ga",
+        1.52,
+        0.36,
+        "K",
+        18
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.126,
+      "conditional_diagonal_standardized_residual": 0.9833821803872265,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.7140000000000039,
+      "alpha2_central_rounding_residual": 0.004000000000003889,
+      "rounded_A4_to_alpha4": 0.4549999999999983,
+      "alpha4_central_rounding_residual": -0.005000000000001725
+    },
+    {
+      "row": 36,
+      "identity": [
+        "67Ga",
+        1.52,
+        0.36,
+        "L",
+        19
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.11549999999999999,
+      "conditional_diagonal_standardized_residual": -0.085310538369623,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.7770000000000041,
+      "alpha2_central_rounding_residual": -0.002999999999995895,
+      "rounded_A4_to_alpha4": 0.3849999999999985,
+      "alpha4_central_rounding_residual": -0.005000000000001503
+    },
+    {
+      "row": 37,
+      "identity": [
+        "67Ga",
+        2.19,
+        0.91,
+        "L",
+        20
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.1215,
+      "conditional_diagonal_standardized_residual": 1.4618091586310038,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.6300000000000033,
+      "alpha2_central_rounding_residual": 3.3306690738754696e-15,
+      "rounded_A4_to_alpha4": 0.3849999999999985,
+      "alpha4_central_rounding_residual": -0.005000000000001503
+    },
+    {
+      "row": 38,
+      "identity": [
+        "67Ga",
+        2.26,
+        0.91,
+        "L",
+        20
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.1215,
+      "conditional_diagonal_standardized_residual": -1.2373472139688415,
+      "CG_complete_alignment_A2_A4": [
+        0.47619047619047367,
+        -0.2857142857142868
+      ],
+      "rounded_A2_to_alpha2": 0.9870000000000052,
+      "alpha2_central_rounding_residual": -0.0029999999999947846,
+      "rounded_A4_to_alpha4": 0.7349999999999972,
+      "alpha4_central_rounding_residual": -0.00500000000000278
+    },
+    {
+      "row": 39,
+      "identity": [
+        "67Ga",
+        3.03,
+        2.07,
+        "L",
+        20
+      ],
+      "energy_above_threshold_group_as_printed": ">2",
+      "alpha2_MANDY_error_Eq6": 0.1365,
+      "conditional_diagonal_standardized_residual": 1.0148058655938192,
+      "CG_complete_alignment_A2_A4": [
+        0.439560439560437,
+        -0.21578421578421692
+      ],
+      "rounded_A2_to_alpha2": 0.7735000000000045,
+      "alpha2_central_rounding_residual": 0.0035000000000044995,
+      "rounded_A4_to_alpha4": 0.5097685185185159,
+      "alpha4_central_rounding_residual": -0.0002314814814841082
+    }
+  ],
+  "group_descriptive_N_inverse_sum_square": {
+    ">2": {
+      "N": 22,
+      "mean_squared_residual": 1.556060897670559
+    },
+    "1<E<=2": {
+      "N": 7,
+      "mean_squared_residual": 0.6345692796783242
+    },
+    "<=1": {
+      "N": 10,
+      "mean_squared_residual": 0.7182697373146728
+    }
+  },
+  "reference_counts": {
+    "7": 7,
+    "8": 2,
+    "9": 5,
+    "10": 3,
+    "11": 2,
+    "12": 5,
+    "13": 2,
+    "14": 1,
+    "15": 2,
+    "16": 2,
+    "17": 1,
+    "18": 3,
+    "19": 1,
+    "20": 3
+  },
+  "private_or_unpublished_references": [
+    8,
+    11,
+    16,
+    19
+  ],
+  "selected_covariance_unknown_contrasts": [
+    {
+      "label": "61Ni_2.41_sameparent_alpha2_branches",
+      "central_difference": 0.18999999999999995,
+      "conditional_sigma_difference_bounds_for_any_PSD_2x2_Cov": [
+        0.04,
+        0.12
+      ],
+      "diagonal_only_standardized_contrast": 2.1242645786248,
+      "not_a_joint_CI_or_pvalue": true
+    },
+    {
+      "label": "61Ni_3.44_B_alpha4_minus_alpha2",
+      "central_difference": 0.21999999999999997,
+      "conditional_sigma_difference_bounds_for_any_PSD_2x2_Cov": [
+        0.09000000000000001,
+        0.19
+      ],
+      "diagonal_only_standardized_contrast": 1.4798801467918872,
+      "not_a_joint_CI_or_pvalue": true
+    }
+  ],
+  "all_data_same_lab_and_error_prescription_tuned_on_this_compilation": true,
+  "no_independent_validation_pvalue_or_new_alignment_prior": true,
+  "not_actual_MANDY_replay_or_new_tau_P_Q_delta": true,
+  "ok": true
+}

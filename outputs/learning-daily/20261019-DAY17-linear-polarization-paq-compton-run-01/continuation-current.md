@@ -1,15 +1,15 @@
-# Day17同session继续：checkpoint048之后
+# Day17同session继续：checkpoint049之后
 
-## Active handoff — DAY17 original window active; time-alignment contract checkpoint048
+## Active handoff — DAY17 original window active; Ekstrom full source checkpoint049
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–047实际H3Gitee推，formal17once/next18count17/partial18，不开其它课程卡。runnernormalexit未观察。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–048实际H3Gitee已推，17once/next18count17/partial18，不开其它课卡。runnernormalexit未观察。
 
-新一项解析design不是新source或实验：从DR70积分Eq7/原文无timekernel出发，两正CG路径targetJ2的qA=(1,16,36,16,1)/70(parent4M0完整E2trace)与isotropicqB，.5/.5交换prompt/一feeding等待timekernel。模型ρbar/总time密度完全相同而逐角Dopplerresponse不同。新冻结/contract/scriptday17_time_alignment_joint.py/result/dependencyhash齐；τ=τf=ts=1纯无量纲expstop/straight/nonrelativisticpoint。
+EK79本session重新完整6页/6图/3表/6式/22refs text+visual，原12899byte人审prefix/CRLF/9falseclaims保，新EK79-D17-1–11全needs_review。rawhash85d1b5a34247c74ff2f0ff5b8c96bebdc018bb4f164cdb66192ebfef8149119a不变，actual390441bytes；旧metadata174991仅新段注明不改旧prefix/raw。
 
-实际30°F .39178744/.35821256、Δcentroid/(E0β0)=.02907670；60° .37759563/.37240437。90°cos0不能由pointcentroid估F，全角speedmoment同.375不是全角Dopplercentroid。CGpositive/normalization/16vs32/quadvsLaplace/equalρ/equaltime/zeroFeeding/stoplimits/fullangle controls均执行，不给当前核τbias/P/Q/δ/CI或作者error。实际IQU/Comptonresponse未算，只有I/速度矩；能窗需匹配response且共同分母。
+实际39行/32alpha4逐行抄，原100units保，CGcompletealignment类换算最大中心残差.015/.00875，63Zn1.28小非闭合保。Eq6只是MANDYalpha2predictionerror=max(.15alpha2,.04)，由同表spread挑k，不是独立validation/实验Ak/alpha4/σprior/Q误差。原rawEgroupN10/7/22的diagonalsquares .71827/.63457/1.55606仅descriptive，无pvalue。61Ni1.81 residual−3.34961为feeding限域反证非实测feed；共parent2.41两支alpha2与3.44Balpha4>alpha2 central保Σunknown，不硬裁经验规则。Fig5二成feed/upper7/2+/9/2+/lowestmultipole为design，alpha,p有效E低2–3MeV仅该域；modifiedGaussianX2的σ=βJ/sqrt2不是β=σ/J。
 
-canonical新knowledge/research-notes/feeding-time-alignment-joint-response.md及DSAM/linearpol/ledger/index/reportuniquewriteback/18priming联。初note生成LaTex转义controlbytes已在新note独立修复，初lint缺researchnote必需章节10error已补完整适用/反证/人审等，初failure留verification062-initial-lint-failure.json，最后062实际通过：0errors/239warnings、46changed/48mapped，boundary/lint/diff均exit0；旧source/review/CRLF不动。main / `Record time-alignment joint response identifiability limits`稳定指针，hash/push仅publication048/runreceipt。
+所有data同Liverpoollab，Refs8private/11tobepublished/16/19unpublished，不计39独立实验。actualMANDYproducer/response/Σ缺；无timealignmentkernel/新τ/P/Q/δ。canonicalEK79补段/jointnote/linearpol/ledger/report唯一writeback/18priming、scriptday17_ekstrom1979_table_audit.py及freeze/39input/result/scope/prefixafter齐。verification063最后实际状态为准，实际0errors/239warnings、47changed/49mapped，boundary/lint/diff exit0。main / `Audit alignment prediction errors against the original 39-line compilation`稳定指针，精确hash/push仅publication049/runreceipt。
 
-下一高信息可核本地Ekstrom1979实际A61–67 αn/αp spin-alignment原实验与去取向/能量/σ/J可迁移边界（先冻结旧知识priming，不先称实际时间response测量）。另可重建原card17反证输入是否还有publicraw新路线；不再重复无inputtoy/失败URL或跨课程。当前08:45上海约6h15，windowactive，不日终/goalcomplete。
+下一高信息可把本次pureE2已校正A2/A4转理想pointP90作为有对象的calibration设计：轴对称ρ/电多极/完整末态trace下，无需Gaussian，但必须独立推Jones或tangentialgradient、声明plane-normal符号和I/Q同分母、finiteacceptance折叠。不能把该derivedP当实验pol独立验证；未知δ时不能照搬；actualComptoncounts/gate/response仍缺。只做一项源表驱动设计而非更多无inputtoy，先冻结主动回忆。原window约08:55仍active，不日终/goalcomplete/开其它课卡。
 
-保护raw/PLAN/Bib/credentials/旧review/继承dirty/daemon/log；显式manifest，log仅HEAD+own048，H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+保护raw/PLAN/Bib/credentials/旧review/继承dirty/daemon/log；log仅HEAD+own049，显式manifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

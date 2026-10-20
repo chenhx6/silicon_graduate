@@ -185,3 +185,6 @@ Day17checkpoint047 priming：DR70原14页全文/7图/表1/10式新核，原人�
 
 
 Day17checkpoint048 priming：[[feeding-time-alignment-joint-response]]解析design用CG可实现qA/qB交换feedingtime关联，同积分ρ/总time密度却不同逐角Doppler速度矩；条件τ=τf=ts=1，不是实际τbias。90°F不可从pointcentroid估、全角速度矩非全角shift；actualjointkernel/Σ仍缺，ComptonIQU与response必须配套，不迁Q。正式18要新session独立卡验收。
+
+
+Day17checkpoint049 priming：EK79原6页/6图/3表/6式与39/32行新核，旧人审prefix/9falseclaims保，新11待审。MANDYalpha2 max(.15alpha2,.04)同data校准不代Q/α4/σprior；Fig5二成feed是design、αp有效E有域，sigma=βJ/sqrt2是Eq5X2桥。sameparent/Cov/private/unpublished源保，无actualtimejointkernel/新τ/P/Q/δ。

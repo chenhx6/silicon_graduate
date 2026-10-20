@@ -1,0 +1,24 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md": 11
+  },
+  "artifacts": [
+    {
+      "file": "ekstrom1979-table1-result.json",
+      "true_fields": [
+        "ok",
+        "all_data_same_lab_and_error_prescription_tuned_on_this_compilation",
+        "no_independent_validation_pvalue_or_new_alignment_prior",
+        "not_actual_MANDY_replay_or_new_tau_P_Q_delta"
+      ]
+    },
+    {
+      "file": "ekstrom1979-human-prefix-after.json",
+      "true_fields": [
+        "old_prefix_CRLF_and_9_false_flags_preserved",
+        "new_11_claims_all_needs_review"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

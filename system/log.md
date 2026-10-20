@@ -2234,3 +2234,7 @@ KU25原Table3同CHI01数据、Elevel/Eg词义边界及quotedbox算术写回knowl
 ### Day17 checkpoint048：时角联合响应的非充分边际
 
 CG可实现正ρ路径交换time-alignment耦合的解析design写回新researchnote/method/ledger，未造实际τ/P/Q/CI。初Markdown/lintfailure修复保记录，verification062/manifest048/H3发布，main / `Record time-alignment joint response identifiability limits`，原windowactive/17once/partial18。
+
+### Day17 checkpoint049：实际39行alignment与误差域
+
+EK79完整6页新自审及39/32行输入/CG/残差核写回，12899byte人审prefix保。Eq6同data校准/feedingdesign/共享Cov边界齐，verification063/manifest049/H3发布，main / `Audit alignment prediction errors against the original 39-line compilation`，原windowactive/17once/partial18。

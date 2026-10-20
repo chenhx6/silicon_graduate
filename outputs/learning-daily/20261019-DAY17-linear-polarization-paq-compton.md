@@ -6792,6 +6792,110 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "DR70-D17-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+      "anchor": "Day17原件自审：误差处方的对象与实际39行",
+      "summary": "全文6页/6图/3表/6式新自审，39行实际转录/模型误差域/共享来源；旧人审prefix不动。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-1"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-2"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-3"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-4"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-5"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-6"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-7"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-8"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-9"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-10"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/feeding-time-alignment-joint-response.md",
+      "anchor": "实际取向汇编的输入边界",
+      "summary": "用实际汇编限制jointtime-alignment迁移，20%feed只是design。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-3"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/linear-polarization-asymmetry.md",
+      "anchor": "模型取向误差不能替偏振响应校准",
+      "summary": "核取向alpha与偏振响应Q/实验A及其误差对象区分。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-1"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-3"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "取向误差的实际反应域",
+      "summary": "原阈值/alpha,p有效E与feeding假设不迁当前重离子DSAM。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-5"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-9"
+        },
+        {
+          "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+          "locator": "EK79-D17-11"
+        }
+      ]
     }
   ]
 }
@@ -7075,3 +7179,12 @@ Script `system/scripts/day17_draper1970_gaussian_audit.py`与前置冻结、Gaus
 仅无量纲τ=τf=ts=1、straightbeam/nonrelativisticpoint/expstop；30°的F=.39178744/.35821256而Δcentroid/(E0β0)=.02907670，60°差更小；90°cos0不可估F。全角速度矩同.375不叫全角Dopplercentroid。独立quad/Laplace、16/32、positiveρ、equalρ/equaltime/zeroFeeding/stoplimits/fullangle controls过，script/input/dependencyhash/results保。
 
 Decision`limits`只分别约束积分AD与总timeprofile便认定jointkernel闭合；没有currenttau/P/Q/δ/CI或作者error。linearpol/DSAM/ledger/index与unique writeback已联。Compton能窗必须携IQU及matchingresponse，实际本exercise只算I和速度矩。originalwindow仍active/17once/partial18，verification062与publication048记实际gate；下一优先真实matchedinput或更高信息原source，局部解析完成不结束日程。
+
+
+### Checkpoint049：EK79实际39行与predictionerror对象
+
+先冻原件前primed回忆，原6页text+visual/6图3表6式22refs重新读完；旧人审prefix/9falseclaims/CRLF保，新增EK79-D17-1–11全待审。hash不变但PDFactual390441bytes，旧size174991只在新补段指明过时，不改原件。39行/32alpha4实际抄入contract，原100units保存，脚本CG换算最大中心差.015/.00875且63Zn1.28的小非闭合保。
+
+Eq6只MANDYalpha2模型predictionerror，用同表spread挑.15再floor.04，不是独立validation或Q/σprior。原rawthresholdgroupN10/7/22的descriptive meansquare .71827/.63457/1.55606不叫pvalue；61Ni1.81 .76(.02)对model.50给−3.34961，作者feeding解释非实测fraction。sameparent2.41两支/3.44Balpha4>alpha2 central保Covunknown，未用empirical0≤alpha4≤alpha2硬裁value。Fig5的20%feed/upper7/2+/9/2+为design，alpha,p有效E仅该domain；modifiedGaussianX2对应σ=βJ/sqrt2，不裸替σ/J。
+
+canonicalEK79/source与jointnote/linearpol/ledger/reportuniquewriteback/18priming联。noactualMANDYproducer/response/Σ，不造新τ/P/Q/δ/CL。Decision`limits`把模型经验error或samecompilation当独立calibration；nextroute按新matchedinput选择。verification063/publication049实际状态为准，17once/partial18/原windowactive，不因单源完成提前日终。

@@ -288,3 +288,8 @@ Rh99同一条件note还给最小额外输入示例（P00-15）：若独立验证
 ### 时间积分偏振与Doppler能窗的选择
 
 [[feeding-time-alignment-joint-response]]条件design显示同积分ρ与同总时间密度不固定逐能/逐角response；原[[draper-1970-gaussian-substate-side-feeding]] DR70-D17-10没有该jointkernel。Doppler能窗/feedinggate改变路径权重时需逐路径I/Q/U再折叠matchingComptonresponse并构共同分母，不从积分P固定每窗P或用designF差重标Q。当前练习只计算I/速度矩，不声称实际新P/Q或counts。
+
+
+### 模型取向误差不能替偏振响应校准
+
+[[ekstrom-1979-spin-alignment-attenuation-a61-a67]] EK79-D17-1/3/6/9明确alpha_k=ρ_k/ρ_kca与MANDYalpha2predictionerror对象；max(.15alpha2,.04)为同汇编校准，不能移给polarimeterQ/experimentalA/alpha4/σ/I。sameparent不同pureE2分支共享取向但fit/feeding/背景Σ未知；实际独立reference仍须samegate核，而非一条已知标签给通用误差。

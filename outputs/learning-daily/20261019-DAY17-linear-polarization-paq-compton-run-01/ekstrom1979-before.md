@@ -1,0 +1,9 @@
+# Ekstrom1979原件前：取向误差与反应/feeding边界
+
+原Day17session/Day18无学分preview，已priming旧knowledge页humanreview9claims：39pureE2汇编、MANDYpredictionerror max(.15alpha,.04)、Gaussianfamily太窄、threshold/gammafeeding边界。不是独立盲测，不能搬旧humanreview作新结论。
+
+新问题：处方是对模型预测误差还是实验Ak？它对rank4/σ/I及其他反应是否有同样公式？数据中的knownpureE2/finite-solid-angle处理、独立来源与sameexperiment分组、TableI实际errors/negativevalues、Fig5的feeding可由哪一个observable约束？需要核原式/表图/实际selection而非直接把.04加到任意δerror。
+
+主动回忆：alpha_k是statisticaltensor相对completealignment的比，不是detectorangularQk、polarimeterQ或Gaussianσ/I；由Ak除Fk/几何因子得到时多极性/phase/同spin都需固定，knownpureE2免δ但不自动免feeding/deorientation。误差处方若未说明confidence/cov，不当Gaussian95%prior；模型optical敏感度扫描不能覆盖实际time-alignmentjointkernel。mixedδ+自由population仍可能多解，须偏振或matchedreference，但Psign不独断Jπ。
+
+计划完整6页text+visual、actual3tables/fig数/式数按原件确认，先保rawhash与旧prefixCRLF/flags；挑一项actualtable或定义换算/处方对象练习，不重造39实验fit/新的σprior。若原source无timejointinput就保readiness，回当前P/A/Q及DSAM合同，不开其它课卡。

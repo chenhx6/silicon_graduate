@@ -117,3 +117,8 @@ equalρ/equaltime/零feeding及时间常量K应消差；fullangle一阶centroid�
 ## Promotion or Rejection History
 
 2026-10-20首次以条件研究笔记保留。尚未晋升实验finding/模式判据或给正式Day18学分；若actualinputs满足零差条件，保留证明并缩小对该实验的相关性。
+
+
+### 实际取向汇编的输入边界
+
+[[ekstrom-1979-spin-alignment-attenuation-a61-a67]] EK79-D17-1–11提供实际39行/32rank4的反例/来源核：同lab、共parent与private/unpublished源不独立；模型alpha2误差处方用同data挑选，不是experimentα4/σprior。原Fig5的20%feed是design，仍无真实time-alignmentkernel；因此本页存在反例获得输入相关性的实验背景，未获得任何当前核jointinput或bias验证。

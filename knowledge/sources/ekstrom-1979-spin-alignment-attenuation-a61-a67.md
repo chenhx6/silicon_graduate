@@ -131,3 +131,26 @@ The raw PDF uniquely matches the title, journal, year and DOI. Local file size i
 ## Personal Notes
 
 这篇短文的价值在于把三个层面压在一起讲清楚了：角分布解释为什么需要 alignment 约束、模型预测的 alignment 为什么必须带 uncertainty、以及为什么最简单的 Gaussian substate-population 形状不应被默认当作普适安全选择。对当前项目，这比任何单个数值更重要。
+
+
+## Day17原件自审：误差处方的对象与实际39行
+
+2026-10-20原Day17session的Day18无学分知识预习；旧全页human-reviewed prefix/CRLF/EK79-1–9与false flags逐字保。以下新增自审**不属于human-reviewed**，全needs_review。本session实际重新原读6页、6图、3表、6式及22refs，Table1共39行逐行转录/图核。原hash `85d1b5a34247c74ff2f0ff5b8c96bebdc018bb4f164cdb66192ebfef8149119a`不变，当前原PDF实际390441bytes；旧page174991bytes是过时metadata，本次不改原人审prefix或raw，不能将size差说成rawhash改变。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| EK79-D17-1 | Eq1的alpha_k=ρ_k/ρ_k^ca是核取向attenuation，Eq2由已知Ji/Jf/EM/δ及经有限立体角修正的Ak反推；不是polarimeterQ、angularQk或σ/I。选wellestablishedJπ、ΔJ2/sameparity以假定pureE2，并删除Δalpha_k>abs(alpha_k)/3的高误差项，有selectionboundary。 | definition and selected-input-boundary | direct | p.243, Eqs1–2 and Sec2 | true |
+| EK79-D17-2 | 本表39个AD全在Liverpool同lab测得，本文是汇编/化简；Refs8为privatecommunication、11为tobepublished、16/19为unpublished。不是39个互相独立实验，且Wadsworth1977Ref7与已有Wiki原件有依赖。 | experimental-provenance | direct | p.243 Sec2; p.248 References7–20 | true |
+| EK79-D17-3 | Eq6仅给alpha2^MANDY模型predictionerror：max(.15alpha2,.04)。p246用本表D_i与quadratureΔD挑k=.15、N^−1Σ(D/ΔD)²近1，再加.04下限；是同data校准，不是独立validation/任意rank4误差或σprior，原文不提供jointCov/所有反应通用CL。 | actual-error-calibration-contract | direct | p.246 Sec4.1; p.248 Eq6 | true |
+| EK79-D17-4 | Table1实际39行/32个alpha4转录，本session按原rawEabove分组得到N=10/7/22(≤1、1–2、>2)，Eq6加实验误差quadrature的descriptive mean-square residual为.71827/.63457/1.55606；只重算表述残差，不运行MANDY或给fitpvalue/自由度。 | Codex actual-table replay | derived | p.244 Table1; p.246 Figs3–4 | true |
+| EK79-D17-5 | 61Ni1.81→.07、reactionB/Ref7，alpha2exp=.76(.02)、MANDY=.50，Eq6sigma=.075，原diagonalquadrature residual−3.34961；作者p247把−3.5到−2的hightreshold项与未含gammafeeding联系，但本行没有actualfeedingfraction/time的直接测量。 | actual-counter-evidence and interpretation | direct-plus-arithmetic | p.244 Table1, 61Ni1.81 row; p.247 Sec4.1 | true |
+| EK79-D17-6 | 同parent61Ni2.41的两9/2→5/2支/reactionB/Ref9列alpha2=.69(.04)/.50(.08)；差.19但无同fitCov，条件任意PSD二元Cov给sigmaDifference在[.04,.12]，不能机械视为两个独立parentalignment或新显著性。 | shared-parent covariance-boundary | direct-and-derived | p.244 Table1, 61Ni2.41 two rows | true |
+| EK79-D17-7 | 61Ni3.44→2.12/reactionB/Ref8的centralalpha4=.88大于alpha2=.66；各误差.14/.05，difference .22的条件sigma范围[.09,.19]。原0≤alpha4≤alpha2是含误差的编译经验结论，不是每个centralvalue必满足的硬物理prior。 | empirical-rule countercontrol | direct-and-derived | p.244 Table1, 61Ni3.44 reactionB; p.247 Fig6 | true |
+| EK79-D17-8 | 新CG/photon completealignment核全部spin类的Ak归一换算；从printedA2/A4重算alpha的最大中心差.015/.00875。63Zn1.28的.50/(4/7)=.875而printalpha2=.89保小非闭合，不调geometry/Fk强配，不当新Jπ/错误assignment。 | source-rounding and calculation-boundary | derived | p.244 Table1, 63Zn1.28 row | true |
+| EK79-D17-9 | Fig5是作者design：65Zn5/2+直接population加20%近阈值upper7/2+或9/2+、lowestmultipole的gammafeed；20%不是本文实测fraction。作者给alpha,p因Coulombbarrier的effectiveE约比rawE低2–3MeV，不是把任意reaction表阈值重定义或万能2MeVcut。 | design-versus-observation | direct | p.247 Fig5 and Sec4.1 | true |
+| EK79-D17-10 | Eq5修正族p(m)∝exp[−(abs(m)/(βJ))^X]，X2是Gaussian；与DR70 Eq2的σ定义对应σ=βJ/sqrt2，不能直接把β当σ/J，亦非shapeβ2/recoilβ。X=0不在原允许0<X≤2内，不能从图上的X0极限标签代入任意0^0人口。 | parameter-convention bridge | direct and algebraic | p.247 Eq5; p.246 Fig2 | true |
+| EK79-D17-11 | optical敏感度仅所声明CNR/partialwaves至l16/exitnormalizer选择，最敏感neutronV/r0；无实际MANDYcode/输入结果或全Cov。全文无time-alignmentjointkernel/DSAMτ/Comptonresponse，因此不把Fig5feeding设计或Eq6误差迁给当前核P/Q/寿命。 | model-replay and transfer-readiness | direct-and-negative-check | p.245 Sec3; p.247 Fig5 | true |
+
+[实际39行输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ekstrom1979-table1-contract.json)、[计算结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ekstrom1979-table1-result.json)及script `system/scripts/day17_ekstrom1979_table_audit.py`。原modelerror大小/残差采用论文quadrature只是replay，未证实际实验各项独立；其中共source/共parent与rank2/4Σ缺口保持。新纯E2CG是自设completealignment的组件核，不重测各line。
+
+与[[feeding-time-alignment-joint-response]]、[[linear-polarization-asymmetry]]及[[doppler-shift-attenuation-method]]相连：独立alignmentreference需要sameparent/reaction/gate和response。由本篇原实验汇编加强其必要性，不能用经验误差/modifiedGaussian替原jointinput。

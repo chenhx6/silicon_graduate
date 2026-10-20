@@ -446,3 +446,8 @@ p216原σ2=.143对A2=.225不闭合：完整CG/photon核给A2约.714；保持原�
 ### 同边际仍缺时角关联
 
 [[feeding-time-alignment-joint-response]]给一项CG可实现/正ρ的解析存在反例：交换两feedingpath的取向与等待kernel，积分AD/全Stokesρ及总时间密度相同，逐角DSAM响应不同。依据DR70-D17-1/2/10限定原积分混合，extension另标Codexdesign；新无量纲30°Δcentroid/(E0β0)=.0290767不对应当前核实际bias。需actualsamegate逐路径时间/取向、multiangle响应及Σ，不能仅由source积分I_J和全谱timeprofile补闭合。
+
+
+### 取向误差的实际反应域
+
+[[ekstrom-1979-spin-alignment-attenuation-a61-a67]] EK79-D17-3/5/9/11的MANDY模型alpha2处方、hightreshold残差及20%feedingdesign提醒：预测误差/实验误差/实际feedingtime不是同对象。alpha,p有效能量2–3MeV差仅该域说明；不能给重离子DSAM/ComptonQ套相同floor或认定currenttimekernel已知。原α2/α4表新计算保共同parent/来源与Σ，不转实际τ/B/Qt修正。
