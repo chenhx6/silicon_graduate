@@ -1,0 +1,71 @@
+{
+  "target": "130Ba",
+  "states": [
+    {
+      "spin": 13,
+      "reported_delta": -0.58,
+      "E2_fraction": 0.2517,
+      "M1_fraction": 0.7483,
+      "reported_BE2_out_in": 0.32,
+      "PRM_BE2_out_in": 0.51,
+      "reported_BM1_out_in": 0.36,
+      "PRM_BM1_out_in": 1.11,
+      "PRM_BM1_overestimation_factor": 3.08
+    },
+    {
+      "spin": 15,
+      "reported_delta": -0.62,
+      "E2_fraction": 0.2777,
+      "M1_fraction": 0.7223,
+      "reported_BE2_out_in": 0.36,
+      "PRM_BE2_out_in": 0.42,
+      "reported_BM1_out_in": 0.38,
+      "PRM_BM1_out_in": 0.9,
+      "PRM_BM1_overestimation_factor": 2.37
+    },
+    {
+      "spin": 17,
+      "reported_delta": -0.62,
+      "E2_fraction": 0.2777,
+      "M1_fraction": 0.7223,
+      "reported_BE2_out_in": 0.22,
+      "PRM_BE2_out_in": 0.35,
+      "reported_BM1_out_in": 0.23,
+      "PRM_BM1_out_in": 0.76,
+      "PRM_BM1_overestimation_factor": 3.3
+    },
+    {
+      "spin": 19,
+      "reported_delta": -0.6,
+      "E2_fraction": 0.2647,
+      "M1_fraction": 0.7353,
+      "reported_BE2_out_in": 0.22,
+      "PRM_BE2_out_in": 0.29,
+      "reported_BM1_out_in": 0.25,
+      "PRM_BM1_out_in": 0.67,
+      "PRM_BM1_overestimation_factor": 2.68
+    },
+    {
+      "spin": 21,
+      "reported_delta": -0.6,
+      "E2_fraction": 0.2647,
+      "M1_fraction": 0.7353,
+      "reported_BE2_out_in": 0.41,
+      "PRM_BE2_out_in": 0.25,
+      "reported_BM1_out_in": 0.43,
+      "PRM_BM1_out_in": 0.63,
+      "PRM_BM1_overestimation_factor": 1.47
+    }
+  ],
+  "multipolarity_summary": {
+    "mean_E2_fraction": 0.2673,
+    "mean_M1_fraction": 0.7327,
+    "max_PRM_BM1_overestimation": 3.3,
+    "min_PRM_BM1_overestimation": 1.47,
+    "finding": "Interband transitions are 72.2-74.8% M1-dominated; bare PRM overpredicts BM1 by 1.47-3.30x across all spins."
+  },
+  "summary": {
+    "conclusion": "Chen 2019 even-even wobbling claim in 130Ba relies on redefining wobbling to permit M1-dominated decay (~74% M1), blurring the physical boundary with traditional unfavored signature partner excitations."
+  },
+  "checks_passed": true
+}

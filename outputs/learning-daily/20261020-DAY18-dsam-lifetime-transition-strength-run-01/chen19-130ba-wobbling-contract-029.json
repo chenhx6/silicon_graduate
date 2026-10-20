@@ -1,0 +1,13 @@
+{
+  "target": "130Ba",
+  "paper": "Chen 2019 Phys. Rev. C 100:061301(R)",
+  "table": "Table I",
+  "description": "Quantitative audit of M1-dominant multipole fractions and PRM BM1 overestimation in 130Ba even-even wobbling claim",
+  "check_count": 4,
+  "checks": [
+    "E2_fraction_below_28pct_verification",
+    "M1_fraction_above_72pct_dominance_audit",
+    "PRM_BM1_systematic_overprediction_evaluation",
+    "signature_partner_vs_redefined_wobbling_boundary"
+  ]
+}

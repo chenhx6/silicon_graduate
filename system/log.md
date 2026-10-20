@@ -2493,3 +2493,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint028：136Sm与133Pr DSAM四极矩Qt回归显著性与阻停/侧馈系统误差审计
 
 审计Babra 2019 136Sm与Singh 2016 133Pr数据（B19-D18-1/SI16-D18-2）：(1) 136Sm基态带8+至18+态加权均值Qt = 5.483(112) eb（常数模型chi2/dof = 1.46），线性回归斜率显著性仅为-2.72sigma，未计入的15%阻停本领系统误差（+/-0.822 eb）完全包络变动范围，彻底否定了早期文献宣称的形变塌缩至beta2 ~ 0.14（Qt ~ 3.2 eb）假说；(2) 133Pr三个有限态加权均值Qt = 3.407(73) eb，斜率显著性仅-1.68sigma（在2sigma下完全无法拒绝常数Qt），而侧馈时延tau_SF在三个态间跨越5个数量级跃变（1100 ps降至0.014 ps），低自旋tau_SF超能级寿命15倍，揭示未隔离的慢侧馈极易伪造形变演化假象。101项writeback/33mapped知识页通过verification032/lint031/boundary029。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint029：130Ba偶偶核横向wobbling 74% M1主导矛盾与PRM高估审计
+
+审计Chen 2019 130Ba两准粒子带数据（CH19-D18-1）：Table I中S1_prime向S1跨带跃迁混合比在I=13-21内为-0.58至-0.62，定量解构证实E2份额仅占25.2%-27.8%，而M1份额高达72.2%-74.8%，完全由磁偶极跃迁主导，直接违背Bohr & Mottelson原本要求的E2集体声子主导定义，在实验特征上与未偏爱特征伙伴带完全重叠。同时，裸PRM模型在全自旋区系统性高估B(M1_out)/B(E2_in)达1.47至3.30倍。在缺乏在束绝对寿命测量直接测出B(E2)偏宽度达到数十W.u.前，仅凭M1主导的相对分支比无法确立偶偶核wobbling。105项writeback/34mapped知识页通过verification033/lint032/boundary030。原硬截止明日15点保持。

@@ -2077,6 +2077,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "SI16-D18-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+      "anchor": "Day18定量审计：偶偶核横向wobbling声称中的74% M1主导与PRM高估解构",
+      "summary": "Table I中带间连接线E2仅占25-28%而M1占72-75%的主导矛盾及PRM高估BM1达1.5-3.3倍解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "偶偶核横向wobbling的M1主导悖论与特征伙伴带边界：130Ba案例",
+      "summary": "130Ba案例审计：74% M1主导跃迁背离wobbling集体E2声子判据与PRM全自旋区高估BM1的证据边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "wobbling四极电磁判据与两准粒子M1主导衰变的定义冲突",
+      "summary": "方法页补充多准粒子系统中M1主导衰变模糊特征伙伴带与wobbling界限时的绝对寿命/BE2判决准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "chen-2019-transverse-wobbling-even-even",
+      "summary": "索引增加130Ba偶偶核横向wobbling 74% M1主导矛盾与PRM高估审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2091,6 +2147,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint029已实际提交，稳定指针main / `Audit 130Ba even-even transverse wobbling claims, 74% M1 dominance, and PRM overestimation`；精确hash/H3/远端结果只publication-029回执。
+
 
 checkpoint028已实际提交，稳定指针main / `Audit 136Sm and 133Pr DSAM transition quadrupole moments and stopping/feeding systematics`；精确hash/H3/远端结果只publication-028回执。
 
