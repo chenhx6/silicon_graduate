@@ -209,3 +209,6 @@ Day17checkpoint055 priming：SC94原11页/18图/4表/30式新核，relativecoinc
 
 
 Day17checkpoint055补核更正053 priming：EW69印式可严格表示r=(1+p)/(1−p)，>1不代表boundeddegreefailure。原本sessionfailure解释已撤回，sourceD17-5修文/11–12待审、历史快照保；作者意图/Ref9body未核，不造erratum。pureE2 W0/W90=1+p是另一角比，不能与electricvectorratio混；Qraw2A归一不变。
+
+
+Day17checkpoint056 priming：Logan1974原3页含背景merit核，Tableε1.6/1.0 arbitraryunits/S1.3/.2纠旧OCR；固定S/第二absorber×2是假定、表小closure差保。原Eq2等价独立VarB=B而VarN=N+2B，actualfitCov/η未知；t每orientation/无背景M常数2与其它F分开，不造CI/P0sign能力。

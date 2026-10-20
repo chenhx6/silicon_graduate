@@ -1,0 +1,9 @@
+# 含背景merit：原件前主动回忆
+
+原Day17session09:49上海仍约311min，formal17once/partial18。连续槽SC94/GR95的F分母与有限P/merit；新source仅Logan1974三页，不等GR95Ref5同authors1973vol108603，不能混年份。
+
+旧sourcepriming：L74-1–3false/selfaudit非human，三页/2表2图、977keV56Co comparison，conventionalQ.40/ε16/S13，planarQ.08/ε10/S.2，Table2 planar .0048–.0049relative；no originalcounts。旧声明MdependP/ε/Q/twoS/eq3待原核，可能quotedε无单位或conventional+planar不同acceptance必须先字典。
+
+主动回忆：达到relativeasymmetryprecision与absolutePerror的时间是不同objective；背景减法方差取决于如何估背景/sidebandexposure及是否共享Σ，不能只把signal+background count当signalPoisson。symmetricorthogonal/knownQ时A=QP，但nonorthinverse/gain/knownP不确定应另传播；一个FOM不能无sourcebackground/selection普适排行。两orientationsS1/S2可随P变，固定它们比较不同P是作者design而非独立原event。
+
+计划全3页actualequations/tablefig/assumptions核，保oldflags，选择实际977table重算与sourcevariance对象，反例bound不新MC。若原formula只特定backgroundmodel，保其域不普推现代fitcov；source最近EW69ratio解释错误已撤回，读定义先于下结论，原scale/ε明细不能凭记忆填。

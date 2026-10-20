@@ -7659,6 +7659,91 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "EW69-D17-12"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+      "anchor": "Day17原件自审：背景减法、曝光与任意效率单位",
+      "summary": "原3页/表/式新核backgroundvariance/equalexposure/merit约定、OCR小数修正与小closure边界，旧falseflags保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-1"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-2"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-3"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-4"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-5"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-6"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-7"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-8"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-9"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "anchor": "含背景merit的每orientation约定",
+      "summary": "背景估计噪声/ε和时间分母与无背景常数区别，actualΣ仍缺。",
+      "sources": [
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-1"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-2"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "anchor": "背景估计的方差属于计数合同",
+      "summary": "VarN=N+2B仅独立估计合同，一般η/共享Cov不补实验，P0相对精度边界保。",
+      "sources": [
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-2"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-3"
+        },
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-9"
+        }
+      ]
     }
   ]
 }
@@ -8018,3 +8103,12 @@ canonicalSC94/Compton/linearpol/sharedcalnote/唯一writeback/18priming，script
 SC94附录代数继续暴露了本session的可避免解释错误：EW69印式恰好是r=(1+p)/(1−p)，所以>1可表示偏振电矢量强度比，不能直接判boundeddegree失效。新符号推导/原三Ru行转换给p与TW70完全同值；已向用户说明并在EW69-D17-5修文/新增11–12待审，Compton/linearpol/sharednote同步撤回。原文未明该P定义/Ref9书章未得，保数学可行ratio解释，不宣称作者意图已证/erratum。
 
 旧freeze/scriptstdout及`ewan1969-calibration-result-before-ratio-audit.json`保历史，当前EWscript/result字段改ratio/撤回标记；oldQraw2A/percent桥完全不变。另精确W0/W90=1+p限pureE2/已归一/point，角比不等电矢量比；finitegeometry和mixed不裸迁。不新source/实验P/Q/CI或独立信用。verification070覆盖055与其补核最终结果，原069为055修订前状态保留；本批publication055，未提前完成整日。
+
+
+### Checkpoint056：含背景merit与Table小数
+
+Logan1974原3页/2图/2表/3式/13refs新textvisual，Table1高分辨crop；旧三falseclaims/review保，新10待审。source前旧OCR16/10/13priming保，actualTable读ε1.6/1.0 arbitraryunits、S1.3/.2，原Table2内部replay支持.0049近闭。旧S13变体给.002217只保对照不调参；P.5/.1conv .875/.841346对印.885/.837小差保，不强配Q/S或判实验矛盾。
+
+独立符号VarN=N+2B/Jacobian重现原Eq2；这等价独立VarB=B，未知sideband/fitηB及共享Cov可变，非所有背景通用噪声。原t每orientation、Iincident/εunpolarizedfullenergyeff，total2t；sourceM背景freeεQ²/[2(1−Q²P²)]、smallAεQ²/2，不能裸比其它F/count/relativeeff。目标σA/A/P0/正态x2示例与actualCI区别保。
+
+原Table2固定S为unpolarized值、潜在第二absorber×2eff为作者comparisonmodel；不是不同P新experiment或modernarrayranking。canonicalsource/Compton/sharedcalnote/唯一writeback/18priming，script/input/result/identity/scope/freezes齐；初writer缺json import在report前失败，精确续写避免重复，verification071/publication056以最终实际gate为准。原windowactive/17once/partial18，不因source完成结束日程。

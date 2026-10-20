@@ -1,0 +1,35 @@
+{
+  "subject": "Audit background subtraction and exposure conventions in polarimeter merit",
+  "verification_number": 71,
+  "paths": [
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+    "system/scripts/day17_logan1974_merit_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-055.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-055.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-071.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-071.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-056.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint056.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-exercise-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-identity.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-reading-scope.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-source-before.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-writeback-initial-failure.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own056;nextcandidate/discoveryexcluded"
+}

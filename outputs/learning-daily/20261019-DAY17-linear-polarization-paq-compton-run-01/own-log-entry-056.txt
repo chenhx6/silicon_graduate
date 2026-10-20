@@ -1,0 +1,4 @@
+
+### Day17 checkpoint056：背景减法和曝光约定
+
+L74原3页/表小数/背景Var与time/ε分母新核写回，oldfalseflags保，新10待审；初writer失败已精确续写留证。verification071/manifest056/H3发布，main / `Audit background subtraction and exposure conventions in polarimeter merit`，原windowactive/17once/partial18。

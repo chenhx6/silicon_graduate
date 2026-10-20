@@ -2262,3 +2262,7 @@ GR95原4页新核pointQ3zero/完整inverse、extendedalpha假设和smallPmerit�
 ### Day17 checkpoint055：实测分母与ratio解释修订
 
 SC94原11页/actualcalibration/effabsolute界及附录constant候选写回；本批补核撤回EW69印式>1即failure误解，精确ratio桥/历史快照与review保。verification069/070/manifest055/H3发布，main / `Audit sectored calibration denominators and reconcile polarization ratio conventions`，原windowactive/17once/partial18。
+
+### Day17 checkpoint056：背景减法和曝光约定
+
+L74原3页/表小数/背景Var与time/ε分母新核写回，oldfalseflags保，新10待审；初writer失败已精确续写留证。verification071/manifest056/H3发布，main / `Audit background subtraction and exposure conventions in polarimeter merit`，原windowactive/17once/partial18。

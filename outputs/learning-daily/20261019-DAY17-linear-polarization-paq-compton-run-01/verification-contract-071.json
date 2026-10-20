@@ -1,0 +1,19 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/logan-1974-generalized-polarimeter-merit.md": 10
+  },
+  "artifacts": [
+    {
+      "file": "logan1974-table-result.json",
+      "true_fields": [
+        "ok",
+        "VarN_Nplus2B_reproduces_original_Eq2_symbolically",
+        "not_any_peakfit_background_is_independent_PoissonB",
+        "old_OCR_S13_not_tuned_as_actual_input",
+        "small_Table2_nonclosures_preserved",
+        "no_absolute_efficiency_or_new_detector_ranking_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -1,0 +1,5 @@
+{
+  "issue": "NameError json not imported in inline writer after canonical source/method/note writes, before report/prompt/verification contract",
+  "initial_verification_failed_before_run": "missing verification-contract-071.json; no valid verification claimed",
+  "recovery": "inspect exact partial writes and resume report/contract only; no duplicate canonical append"
+}

@@ -487,3 +487,10 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 ### 有界偏振度与偏振强度比
 
 [[ewan-1969-single-geli-polarimeter]] EW69-D17-11/12：pureE2原印rEW=(1+a2+a4)/(1−2a2−a4/4)严格等于(1+p)/(1−p)，所以p=(r−1)/(r+1)，不能用r>1判有界degree失效。相同已归一pointAD另有W0/W90=1+p，那个比值是发射角比，不能与电矢量比混名；finitegeometry/混合/门需另合同。原作者意图尚未由书章核，保持ratio解释为精确可行字典，不修raw或造新实验P/Q。
+
+
+## 含背景merit的每orientation约定
+
+[[logan-1974-generalized-polarimeter-merit]] L74-D17-1–10原3页核：背景扣除N=T−B、t每orientation、Iincidentrate、εunpolarizedfullenergyeff。原Eq2等价VarN=N+2B的独立背景估计噪声，不适任意峰fit/sidebandCov；sourceM无背景极限εQ²/[2(1−Q²P²)]，smallA为εQ²/2，与其它F常数约定分开。
+
+原977表ε1.6/1.0任意单位/S1.3/.2非旧OCR16/10/13，Table2replay有小差保；同source固定S/潜在第二absorber×2eff是假定，不新增不同P实验。relativeσA/A与未知Q/a/nonorthresponse是不同目标/预算，真实counts/Σ缺时不从M出新P/δ/CI。

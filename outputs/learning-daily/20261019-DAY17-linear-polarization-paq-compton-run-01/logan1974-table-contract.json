@@ -1,0 +1,39 @@
+{
+  "source": "L74 Table1/2 pp273\u2013274",
+  "models": {
+    "conventional": {
+      "Q": 0.4,
+      "epsilon_arbitrary_units": 1.6,
+      "S1": 1.3,
+      "S2": 1.3
+    },
+    "planar": {
+      "Q": 0.08,
+      "epsilon_arbitrary_units": 1.0,
+      "S1": 0.2,
+      "S2": 0.2
+    }
+  },
+  "P_values": [
+    1.0,
+    0.5,
+    0.1
+  ],
+  "printed_Table2": {
+    "conventional": [
+      1.0,
+      0.885,
+      0.837
+    ],
+    "planar": [
+      0.0049,
+      0.0048,
+      0.0048
+    ]
+  },
+  "old_OCR_variant_conventional_S": 13,
+  "efficiency_units_not_absolute": true,
+  "same_equal_orientation_times": true,
+  "background_variance_model": "VarN=N+2B equivalent independentPoissonT/B equal background estimate variance",
+  "no_actual_covariance_counts_or_background_estimation_exposure": true
+}

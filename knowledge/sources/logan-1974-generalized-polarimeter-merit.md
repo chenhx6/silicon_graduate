@@ -3,7 +3,7 @@ type: source
 title: "A generalized figure of merit for gamma-ray polarimeters"
 aliases: ["Logan 1974 polarimeter merit", "Generalized Compton polarimeter figure of merit"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: method
@@ -54,7 +54,7 @@ tags: [figure-of-merit, Compton-polarimeter, background, efficiency, detector-co
 
 - Asymmetry `A=QP` is measured from two orientations; signal counts include background `B1/B2`, with signal-to-background ratios `S1/S2` and efficiency `ε`。
 - Generalized merit `M` depends on `Q`, `P`, `ε`, asymmetry correction and `S1/S2`; in the high-background-free limit it reduces to the familiar efficiency-times-sensitivity squared form, while finite backgrounds strongly penalize low-S systems (PDF pp.273-274，Eq.(3))。
-- Table 1 uses 977-keV `56Co` examples: conventional Q≈0.40, ε≈16, S1/S2≈13; planar Q≈0.08, ε≈10, S1/S2≈0.2. Table 2 shows the merit changes with photon P and normalizes conventional full-polarization merit to 1.
+- Table1的977-keV56Co例：Q .40/.08，原efficiency用任意单位1.6/1.0，S1=S2约1.3/.2。旧Wiki16/10/13为小数排版/OCR丢失，已据高分辨图及Table2内部复算纠正，见L74-D17-4/5。 Table 2 shows the merit changes with photon P and normalizes conventional full-polarization merit to 1.
 
 ## Key Evidence and Reasoning Chain
 
@@ -147,3 +147,25 @@ Logan et al. provide a background-inclusive figure of merit for gamma polarimete
 ## Non-source Notes and Follow-up
 
 - Next: compare L74 merit with Simpson S83 and Garcia-Raffi GR95 response curves; continue HS-014.
+
+
+## Day17原件自审：背景减法、曝光与任意效率单位
+
+本session先冻primed回忆，新读完整3页/2图/2表/3式/13refs text+visual，Table1另高分辨crop；hash1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364/226638bytes保。旧L74-1–3行/falseflags及reviewunreviewed保持，新10待审。此1974含背景扩展不是GR95Ref5的Logan1973vol108603。
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L74-D17-1 | 原A=QP、A=(N1−N2)/(sum)，N_i=T_i−B_i为背景扣除后信号；N1=Iεt(1+A)、N2=Iεt(1−A)，t为每orientation时间、I为incidentphotonrate、ε为unpolarizedfullenergyeff。totalexposure2t，不与SC94relativecoinc或JO95总接受countF混。 | exact-count and time-denominator | direct | p.273 Eqs1–2 | true |
+| L74-D17-2 | Eq2的2/S项可由独立backgroundestimate的VarB=B与VarT=N+B给VarN=N+2B重现；这是该noise合同，不自动适任意sideband/fitCov。一般VarB=ηB会改为N+(1+η)B，且共享项需完整Σ，不把sourceformula当通用误差修正。 | independent variance reconstruction | direct plus derived | p.273 Eq2 | true |
+| L74-D17-3 | 原目标σA/A<1/x，x2被作者作95.5%sign精度的正态说明；固定I/P/x时t>x²/(4IP²M)。P0时relativeprecision目标不定义，M有限不代表可测sign；无exactlowcountCI或unknownQ/a系统预算。 | precision-objective boundary | direct and derived | p.273 following Eq2 and Eq3 | true |
+| L74-D17-4 | Table1小数排版读ε1.6/1.0(arbitraryunits)、conventionalS1=S2=1.3与planar.2，Q.40/.08；旧Wiki16/10及13误读纠正。1.3读法用高分辨图和Table2 .0049内部近closure支持，而不是调参作新测。 | source-transcription correction | direct and table replay | p.274 Table1 | true |
+| L74-D17-5 | literalEq3/表1得P1planar相对conventional=.0048768（近印.0049）；保旧S13变体只给.0022170，不作actualinput。P.5/.1的conventional相对值.875/.841346对印.885/.837有小不闭合，未取unroundedinputs、不调Q或S强配、不判实验矛盾。 | actual-table consistency and boundary | derived | p.274 Tables1–2 | true |
+| L74-D17-6 | 原Table2假定两orientation的S保持unpolarizedmeasurements值，并假定conventional加第二absorber有潜在×2effgain；data来源Twin1972/先前Q校准，不是本篇不同P的新实验。原ε任意单位只支持relativecomparison。 | comparison-model and source-independence | direct | p.274 Sec3 preceding Table2 | true |
+| L74-D17-7 | S→∞时原M=εQ²/[2(1−Q²P²)]，smallA为εQ²/2，因每orientation的ε/t约定与其它F定义有常数差。samecontract的常数不改变ranking，但不把原M数值裸作现代absoluteF或Fisherinfo。 | limiting-case normalization | derived from source | pp.273–274 Eq3 and backgroundfree paragraph | true |
+| L74-D17-8 | 原比较中planar低S有强惩罚，作者明确generalranking困难因背景依source；below600keV photoelectric削Q、大planar5–10倍meritgain为作者估计，不是新实测完整response或任意energy通用排行。 | source-dependent detector comparison | direct | pp.274–275 Figs1–2 and Sec3 | true |
+| L74-D17-9 | N_i背景/校准Q/P/geometry可能共享输入；本session符号独立variance与Table2replay未取得actualrawcounts/背景窗口时长/Σ，不把generalizedη式作某实验已测噪声或算新δ/P/QCI。 | readiness and covariance boundary | derived scope | pp.273–275 scope | true |
+| L74-D17-10 | 原已定义P非负degree/参考plane，迁核signedP/非正交A(P)需重定义orientation与响应Jacobian；GR95P相关分母不在本source线性统计合同内，不能只代A或用相同ε强比。 | cross-formalism transfer condition | synthesis with explicit assumptions | p.273 Sec2 | true |
+
+[实际977输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-contract.json)、[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-result.json)，script `system/scripts/day17_logan1974_merit_audit.py`。原小数点排版读法/旧OCR变体均保；源Table2小差不强配。独立符号推VarA精确重现Eq2，同时标出backgroundestimate噪声假设与equalexposure，不做新MC。
+
+本次`revises`旧Wiki表数值/OCR，`supports`background/ε/目标精度分层，`limits`merit跨定义/跨source/跨非正交geometry迁移。[[compton-polarimetry]]、[[linear-polarization-asymmetry]]、[[polarimetry-shared-calibration-count-design]]与[[garciaraffi-1995-nonorthogonal-compton-polarimeter]]保常数/分母/共享Cov。

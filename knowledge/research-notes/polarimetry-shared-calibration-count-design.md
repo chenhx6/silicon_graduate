@@ -312,3 +312,8 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 ### 强度比解释的belief revision
 
 [[ewan-1969-single-geli-polarimeter]] EW69-D17-11/12精确恒等式rEW=(1+p)/(1−p)将>1的原式映回boundeddegree；已撤回旧formulafailure解释、保历史快照/冻结与原书章缺口。rawQ2A/corrected2A/P的计数归一桥不受影响；未将r当degree用于counts/P/Q误差或新实验校准。
+
+
+## 背景估计的方差属于计数合同
+
+[[logan-1974-generalized-polarimeter-merit]] L74-D17-1/2/3/7/9的sourceEq2可独立推为VarN=N+2B；若背景估计方差ηB应改N+(1+η)B并保orientation/sharedCov，不能只把N当Poisson或把source2/S当所有fit通用项。source每orientationt与arbitraryε只给条件merit，σA/A相对精度/P0边界、fullQ/a calibration须另核；不造actualnoise/CI。
