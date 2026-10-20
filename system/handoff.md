@@ -8,7 +8,10 @@ updated: 2026-10-20
 
 ## Active handoff — DAY18 independent session active
 
-稳定指针main / `Record bounded Lieder access failure and closeout readiness`；Lieder publisher Markdown provider_unavailable；candidate-refresh-010记录边界，当前Ag106路线饱和，不再重复算术。Day19 preview complete uncredited，Day20 unopened，原Day18 deadline/closeout pending。
+checkpoint011已实际提交，稳定指针main / `Reconcile DAY18 evidence counts and actual preview reading scope`；精确hash/H3/远端结果只publication-011回执。
+
+
+稳定指针main / `Record bounded Lieder access failure and closeout readiness`；范围/计数对账011已修正：37 items/15 mapped/77 ID rows，Nolan targeted非full88页，旧flags/prefix保留；Lieder publisher Markdown provider_unavailable；candidate-refresh-010记录边界，当前Ag106路线饱和，不再重复算术。Day19 preview complete uncredited，Day20 unopened，原Day18 deadline/closeout pending。
 
 Nolan targeted method-window claims NS79-P19-1–8已写回；Radeck/Nolan preview仍partial19/formal_credit=false，fast timing/TDPAD pending。
 

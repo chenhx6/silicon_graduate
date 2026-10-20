@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含35atomic映射项/15mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含37atomic映射项/15mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -51,7 +51,7 @@ updated: 2026-10-20
 
 ### checkpoint009：电子计时 PRF 与完整方法选择清单
 
-Nolan targeted PDF48–52 补核 electronic timing：约10^-11–10^-6 s框架、production/decay zero-time、PRF、slope/centroid和能量/门依赖；新NS79-P19-9–12待审。它补齐 Day19 preview 的最小方法选择清单与 counterexample：样本大不能替代 prompt calibration，DSAM/RDMS/timing 相合仍可能共享输入。Nolan原页prefix/旧status/flags保持；preview-state 已标记知识交付完成但 formal_credit=false，现代fast timing/TDPAD source仍可留待正式19。
+Nolan targeted PDF48–52 补核 electronic timing：约10^-11–10^-6 s框架、production/decay zero-time、PRF、slope/centroid和能量/门依赖；新NS79-P19-9–12待审。它补齐 Day19 preview 的最小方法选择清单与 counterexample：样本大不能替代 prompt calibration，DSAM/RDDS/timing 相合仍可能共享输入。Nolan原页prefix/旧status/flags保持；preview-state 已标记知识交付完成但 formal_credit=false，现代fast timing/TDPAD source仍可留待正式19。
 
 ### checkpoint008：Nolan方法框架与交叉方法反例
 
@@ -59,9 +59,9 @@ Nolan旧source已有历史full-read状态；本session新核PDF3 contents、PDF6
 
 ### checkpoint007：恰好下一Day19的无学分原件预习
 
-原timegate17:50上海余1269.79分钟、[候选池与单卡决定](20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-refresh-007.json)、[primed回忆冻结](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-recall-freeze-007.json)先于新开Radeck/Nolan。Radeck完整十页/13fig3table9编号式、PDF2–9视觉核，新R12-P19-1–10待审；原人审prefix/12falseflags字节保持。新SH/US条件平均、缺90°eff/理论补归一、τ回填迭代/坐标literalboundary已canonical；新script只条件核、不新实验CI。Nolan本preview未新原读，完整方法树/校准清单pending，不预填完成。
+原timegate17:50上海余1269.79分钟、[候选池与单卡决定](20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-refresh-007.json)、[primed回忆冻结](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-recall-freeze-007.json)先于新开Radeck/Nolan。Radeck完整十页/13fig3table9编号式、PDF2–9视觉核，新R12-P19-1–10待审；原人审prefix/12falseflags字节保持。新SH/US条件平均、缺90°eff/理论补归一、τ回填迭代/坐标literalboundary已canonical；新script只条件核、不新实验CI。这是checkpoint007当时的scope；后续008/009补Nolan定向方法/电子计时和选择清单，不声明Nolan本次完整88页重读。
 
-本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；37items/16mapped知识页、85新待审claims。主reportverification013/report/37writeback项15页/partial18coverage/lint012/boundary010/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
+本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；37items/15mapped知识页、77条新待审ID行（含方法/读取范围边界，不等独立实验）。主reportverification013/report/37writeback项15页/partial18coverage/lint012/boundary010/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
 
 ### checkpoint006：finite-stopping companion的真实六行合同
 
@@ -980,7 +980,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
       "anchor": "Grounded Evidence",
-      "summary": "component-conditioned kernel与calibration/coordinate/readiness；Nolan/完整方法树待新读",
+      "summary": "component-conditioned kernel与calibration/coordinate/readiness；后续Nolan定向段已补方法选择清单，现代primary/producer仍缺",
       "sources": [
         {
           "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
@@ -1128,7 +1128,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
       "anchor": "Nolan方法框架：选择方法前先列主导响应",
-      "summary": "形成无学分方法选择决策树，fast timing/TDPAD仍pending",
+      "summary": "形成无学分方法选择表；后续Nolan电子计时已补，现代fast-timing/TDPAD primary仍缺",
       "sources": [
         {
           "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
@@ -1223,6 +1223,11 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint011已实际提交，稳定指针main / `Reconcile DAY18 evidence counts and actual preview reading scope`；精确hash/H3/远端结果只publication-011回执。
+
+
+checkpoint011：范围/计数对账完成，见 scope-and-count-reconciliation-011.json。当前 writeback item=37、mapped knowledge paths=15、new source ID rows=77；“row count”不被解释为独立实验数。Nolan 是 targeted page verification（非本session完整88页重读），Radeck为完整10页；旧 source rows/flags/prefix保留。课程仍 completed[]/partial[18]，Day19 preview formal_credit=false，next18/count17，原硬截止不变。
 
 稳定指针 main / `Record bounded Lieder access failure and closeout readiness`；精确 hash/H3/远端结果只 publication-010 回执。
 

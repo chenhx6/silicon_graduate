@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-20T21:42:11.128791+08:00",
+  "items": 37,
+  "owning_knowledge_paths": 15,
+  "mapped_knowledge_paths": 15,
+  "new_source_ID_rows": 77,
+  "all_new_matched_rows_needs_review_true": true,
+  "row_count_not_independent_experiment_count": true,
+  "corrections": [
+    "85→77 newIDrows",
+    "16→15 mappedpaths",
+    "35→37 currentwritebackitems",
+    "stale pending Nolan language synchronized to actual targeted follow-up",
+    "Nolan88pages not newly fullyread; selectedexcerpt limits explicitly retained",
+    "oldNS79-1 range narrowed by append-only Fig2 interpretation; oldrow/flag preserved"
+  ],
+  "report_credit": {
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      18
+    ]
+  },
+  "preview_credit": {
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      19
+    ],
+    "formal_credit": false
+  },
+  "course_unchanged": "next18/count17",
+  "original_deadline": "2026-10-21T15:00:00+08:00"
+}

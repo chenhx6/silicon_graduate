@@ -118,3 +118,10 @@ Historical stopping powers, feeding models, detector resolution and side-feeding
 | NS79-P19-10 | PRF由prompt decay测得，受探测器距离/固体角、charge-carrier统计、rise time和电子学影响；slope方法适合τ长于PRF尾，centroid方法比较prompt/delayed first moments，可测远小于FWHM的差，但要求系统误差控制。 | prompt-response-contract | direct-review | PDF49–50 Sec3.2；PDF52 centroid examples | true |
 | NS79-P19-11 | 电子计时选择应同时记录prompt calibration与delayed spectrum；对小于PRF FWHM约0.5–1%的差异，PRF随γ能量/门条件变化必须核验，不能把统计样本大直接换成窄响应。 | timing-calibration-boundary | direct-review-and-synthesis | PDF50/52；NS79-P19-10 | true |
 | NS79-P19-12 | 由DSAM/RDM/electronic timing组成的选择树仍是响应主导的条件设计：DSAM看stopping/feeding，RDM看distance/finite-stop，timing看PRF/zero-time/walk/background。三者结果相合才有交叉价值，若共享reaction/branch/model仍不自动独立。 | complete-preview-decision-boundary | synthesis-and-boundary | NS79-P19-1–11；R12-P19-1–10 | true |
+
+
+### 2026-10-20 preview scope复核
+
+NS79-1旧行/flag原样保留，但其10^-18–10^-6s不能读成DSAM/RDM各自全域：PDF5/printed4 Fig2画的是全套direct/indirect方法的范围，DSAM与RDM只是其中分段；PDF4限定的是review总scope。NS79-P19-1/4及方法选择页按这一范围使用。
+
+本次Nolan读取是定向段落/选表，并非全88页。早先工具对部分页只返回开头1800字，属于页面内选段而非完整页认证；2026-10-20晚再次完整核PDF4–7及78–81并视觉核PDF5 Fig2、PDF79 Tables5–6与PDF81 Table7/Fig56。PDF48–52电子计时正文已另完整核。Table7/Refs只是review转引；Hermans1977、Schwalm1977原body未得前不当primary已读或新独立测量。

@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "010 bounded Lieder access failure recorded; closeout pending original deadline",
+  "last_checkpoint": "011 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Complete uncredited Day19 preview method-response contract",
-    "commit_hash": "7511acfa4e88d1c99a226617e601875f8147fca6",
+    "subject": "Record bounded Lieder access failure and closeout readiness",
+    "commit_hash": "898ea6ab47cae3455d2f031b9f5ba6031eca9020",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-009.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-010.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Record bounded Lieder access failure and closeout readiness"
+    "subject": "Reconcile DAY18 evidence counts and actual preview reading scope"
   },
   "uncredited_preview": {
     "day_index": 19,

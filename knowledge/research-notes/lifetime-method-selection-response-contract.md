@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 created_from: Day18-uncredited-Day19-preview
-evidence_sources: [radeck-2012-deorientation-lifetime-98ru-rdds, klemme-1999-lifetimes-134nd-neighbors]
+evidence_sources: [radeck-2012-deorientation-lifetime-98ru-rdds, klemme-1999-lifetimes-134nd-neighbors, nolan-sharpey-schafer-1979-lifetime-measurements]
 tags: [lifetime, RDDS, DSAM, deorientation, calibration, response]
 ---
 
@@ -16,7 +16,7 @@ tags: [lifetime, RDDS, DSAM, deorientation, calibration, response]
 
 ## Research Trigger
 
-正式Day18在主线和新DSAM审计后，按原2026-10-21 15:00上海deadline的实时≥120分钟门，开始恰好下一Day19知识预习。先冻结承认强priming的回忆；不授19、不新建session/调度、不打开再下一卡。当前先完成Radeck原件与一项分量响应exercise，完整方法决策树和fast-timing/TDPAD来源仍待Nolan本preview实际阅读，不能预填其结论。
+正式Day18在主线和新DSAM审计后，按原2026-10-21 15:00上海deadline的实时≥120分钟门，开始恰好下一Day19知识预习。先冻结承认强priming的回忆；不授19、不新建session/调度、不打开再下一卡。当前已完成Radeck十页原读、Nolan选段/电子计时段与分量响应exercise，方法选择表和最小校准清单见末两节。Nolan本次是定向核验，不是新完整88页阅读；现代fast-timing/TDPAD primary、actualproducer与Cov仍缺。
 
 ## Grounded Evidence
 
@@ -24,7 +24,7 @@ tags: [lifetime, RDDS, DSAM, deorientation, calibration, response]
 
 | 实际对象 | 在Radeck中的角色 | 不能代替的输入 |
 | --- | --- | --- |
-| 六ring、particleγ触发、相对distance谱 | 新采集和SH/US强度，stopper tail并入US | Winther初始alignment/相对eff/绝对距离零点 |
+| 六ring、particleγ触发、相对distance谱 | Radeck2012采集的SH/US强度，stopper tail并入US | Winther初始alignment/相对eff/绝对距离零点 |
 | normalized SH+US vs distance | Fig5/9的deorientation诊断与校正检查 | 不是在所有角度/实验下保证alignment不变的充分检验 |
 | P=SH/(SH+US) | lifetimefit的比值，公共particle归一与solidangle因子消 | SH/US能量eff、boost、退取向response不消 |
 | GUS、GSH | 同一角数据提取的component-conditioned attenuation | 不当两个独立原实验或仅由一个积分G唯一决定 |
@@ -67,7 +67,7 @@ stopper中取向未冻结、未见feeding、宽速度/acceptance与alignment相�
 
 ## Evidence Gaps
 
-Nolan1979本preview尚未新原读；完整方法选择决策树/最小校准清单因此仍partial。Radeck原Wintherjob、distance零点、逐ringcounts、实际eff/attenuation/lifetime联合Cov均未得。不能只凭文中“model independent”简写或两步迭代称已复现实验。
+Nolan1979本preview已核方法框架/电子计时选段，方法选择表和最小校准清单已形成；本次未完整重读88页，也未取得现代fast-timing/TDPAD primary或原producer。Radeck原Wintherjob、distance零点、逐ringcounts、实际eff/attenuation/lifetime联合Cov均未得。不能只凭文中“model independent”简写或两步迭代称已复现实验。
 
 ## Reproducibility
 
@@ -79,7 +79,7 @@ Day19-preview回忆time/session/hash先于本preview打开Radeck/Nolan；sourcep
 
 ## Knowledge Impact and Learning Decision
 
-`supports`以component-conditioned response选择寿命方法；`revises`一个积分退取向因子可直接校两个分量、校正后平坦性即全独立验证的假设；`limits`从相同τ/B/模型列计独立证据。先完成本preview另外两主线，再定方法决策树；正式Day19仍需独立session新交付。
+`supports`以component-conditioned response选择寿命方法；`revises`一个积分退取向因子可直接校两个分量、校正后平坦性即全独立验证的假设；`limits`从相同τ/B/模型列计独立证据。已用Nolan方法框架补方法选择表和最小校准清单；正式Day19仍需独立session承认本priming并完成新交付。
 
 ## Open Questions
 
@@ -89,7 +89,7 @@ Day19-preview回忆time/session/hash先于本preview打开Radeck/Nolan；sourcep
 
 ## Promotion or Rejection History
 
-- 2026-10-20 Day18 内无学分 Day19 preview：Radeck 原件完成新读，canonical note 保持 `ai-draft`、`unreviewed`；Nolan 与完整 Day19 card 仍未完成。
+- 2026-10-20 Day18 内无学分 Day19 preview：Radeck 原件完成新读，canonical note 保持 `ai-draft`、`unreviewed`；当时Nolan定向阅读与方法选择清单待补；后续已完成相关预习知识，正式Day19 card仍未开始。
 - 当前 note 只固化 component-conditioned response、校准缺口和可复现条件 exercise；不提升为正式 Day19 课程交付，不把旧 priming 或本 preview 兑换课程学分。
 
 ## Nolan方法框架：选择方法前先列主导响应
@@ -102,7 +102,7 @@ Day19-preview回忆time/session/hash先于本preview打开Radeck/Nolan；sourcep
 | --- | --- | --- | --- |
 | line-shape可解析、recoil stopping可建模 | DSAM | velocity、电子/核 stopping、feeding/side-feed、角/能量响应 | stopping model或feeding profile主导τ |
 | shifted/unshifted随距离可分、plunger距离可精确标定 | RDDS/DDCM | distance zero、ring efficiency、deorientation、finite stopper、feeding gate | 短τ距离标定或分量/角关联response |
-| prompt时差明显、fast detector response可校准 | fast timing（设计项） | prompt curve、walk、background、gate/feeding | response卷积被当窄τ，未建立当前原文producer |
+| prompt时差明显、fast detector response可校准 | 电子计时（1979框架） | prompt curve、walk、background、gate/feeding | PRF/能量门不匹配；未得实际producer/Σ |
 | alignment/hyperfine随flight time改变 | component/deorientation kernel | angular correlations、charge-state/velocity、同元素C迁移条件 | 把US冻结、SH平均或理论补eff当无偏 |
 
 这张表是本任务的bounded synthesis，不把“方法窗口”写成硬阈值。下一步若正式开启Day19，必须为每行补实际source locator和至少一个同data counterinput；当前不打开Day20。

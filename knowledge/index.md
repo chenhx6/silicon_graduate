@@ -19,7 +19,7 @@ updated: 2026-10-20
 
 ## Sources
 
-- [[lifetime-method-selection-response-contract]] — Day18内恰好下一卡的无学分预习：Radeck分量响应/缺eff与坐标合同，完整方法树待后续原读。
+- [[lifetime-method-selection-response-contract]] — Day18内恰好下一卡的无学分预习：Radeck分量响应/缺eff与坐标合同、Nolan定向方法选择表/最小校准清单；非正式19。
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
