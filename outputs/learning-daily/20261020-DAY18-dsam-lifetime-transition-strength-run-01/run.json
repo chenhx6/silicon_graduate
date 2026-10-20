@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "018 committed; original research window continues",
+  "last_checkpoint": "019 published; original deadline preserved",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit 136Nd wobbling transition rates and PRM single-point calibration",
-    "commit_hash": "7167194dd771b8e46706de8a43b273634e53e40f",
+    "subject": "Audit 135Pr wobbling E2 strength collapse under delta root inversion",
+    "commit_hash": "cd7afedecb3c7440b528941d261a67741426edb6",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-017.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-018.json"
   },
   "native_goal_last_observation": {
     "status": "blocked",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 135Pr wobbling E2 strength collapse under delta root inversion"
+    "subject": "Audit 133Ba relative transition strength and E^5 amplification factor"
   },
   "uncredited_preview": {
     "day_index": 19,

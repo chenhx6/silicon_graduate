@@ -1,0 +1,84 @@
+{
+  "contract_sha256": "8d1a848ee35c001ada28834ce11bb66d0e4b4d864e0157fc3ced90e1ad7ad80a",
+  "script_sha256": "5b358e24d8005a7549553b35552b1d69d6f99b67ac78fddc58491d7660b010ca",
+  "raw_sha256": "fb6ea8474676875752ca83399e8f27aa792aa07643c5fa962fe44cab1ae0697b",
+  "deconstructed_transitions": [
+    {
+      "initial_spin": "17/2-",
+      "final_spin": "15/2-",
+      "E_out_keV": 743.4,
+      "E_in_keV": 810.8,
+      "intensity_ratio_lambda": 2.345058626465662,
+      "energy_ratio_5th_power": 1.5433197584544,
+      "f_E2_fraction": 0.8151571164510166,
+      "f_M1_fraction": 0.18484288354898337,
+      "calculated_BE2out_BE2in": 2.950196512041869,
+      "reported_BE2out_BE2in": 2.94,
+      "relative_difference_percent": 0.3468201374785374
+    },
+    {
+      "initial_spin": "21/2-",
+      "final_spin": "19/2-",
+      "E_out_keV": 812.0,
+      "E_in_keV": 958.3,
+      "intensity_ratio_lambda": 1.303030303030303,
+      "energy_ratio_5th_power": 2.2894296054254704,
+      "f_E2_fraction": 0.7917751171264965,
+      "f_M1_fraction": 0.2082248828735035,
+      "calculated_BE2out_BE2in": 2.362020483076081,
+      "reported_BE2out_BE2in": 2.36,
+      "relative_difference_percent": 0.08561368966446059
+    },
+    {
+      "initial_spin": "19/2-",
+      "final_spin": "17/2-",
+      "E_out_keV": 457.6,
+      "E_in_keV": 641.9,
+      "intensity_ratio_lambda": 0.7991967871485943,
+      "energy_ratio_5th_power": 5.4313376134450095,
+      "f_E2_fraction": 0.7830802603036877,
+      "f_M1_fraction": 0.21691973969631229,
+      "calculated_BE2out_BE2in": 3.3991224142755496,
+      "reported_BE2out_BE2in": 3.4,
+      "relative_difference_percent": 0.025811344836773283
+    }
+  ],
+  "checks": [
+    {
+      "name": "calculated_BE2out_in_matches_reported_values_within_0_5_percent",
+      "differences": [
+        0.3468201374785374,
+        0.08561368966446059,
+        0.025811344836773283
+      ],
+      "passed": true
+    },
+    {
+      "name": "energy_factor_5th_power_exceeds_1_5_for_all_three_transitions",
+      "e_ratio_5": [
+        1.5433197584544,
+        2.2894296054254704,
+        5.4313376134450095
+      ],
+      "passed": true
+    },
+    {
+      "name": "for_457_keV_transition_energy_factor_amplifies_strength_ratio_by_over_5_fold",
+      "e_ratio_5_457": 5.4313376134450095,
+      "passed": true
+    },
+    {
+      "name": "all_three_transitions_exhibit_BE2out_BE2in_greater_than_2",
+      "reported_ratios": [
+        2.94,
+        2.36,
+        3.4
+      ],
+      "passed": true
+    }
+  ],
+  "checks_total": 4,
+  "checks_passed": 4,
+  "all_passed": true,
+  "physical_interpretation": "In 133Ba Tables 1 and 2, Rojeeta Devi et al. 2021 report exceptionally large interband B(E2)out / B(E2)in ratios of 2.94(18), 2.36(20), and 3.40(22), which are substantially higher than typical wobbling values (~0.2-0.3 in Lu isotopes). Our algebraic deconstruction reveals how this arises from the (E_in / E_out)^5 kinematic factor: 1. For 743.4 keV (in-band 810.8 keV), (E_in/E_out)^5 is 1.54, which together with lambda = 2.35 and f_E2 = 81.5% gives 2.95; 2. For 812.0 keV (in-band 958.3 keV), (E_in/E_out)^5 is 2.29, which together with lambda = 1.30 and f_E2 = 79.2% gives 2.36; 3. For 457.6 keV (in-band 641.9 keV), (E_in/E_out)^5 reaches a massive 5.42! Even though the intensity ratio lambda is only 0.80, the energy factor of 5.42 times f_E2 = 78.3% blows up the extracted B(E2)out/B(E2)in to 3.40. This provides an essential Day 18 demonstration of the extreme sensitivity of E2 transition probability extraction to the fifth power of energy: small differences between interband and in-band transition energies create enormous amplification factors in relative B(E2) values, which must not be confused with unphysically large quadrupole transition operators."
+}

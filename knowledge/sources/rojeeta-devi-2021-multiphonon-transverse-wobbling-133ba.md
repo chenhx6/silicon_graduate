@@ -147,3 +147,14 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 Review Table 2 and the unmeasured 146/219-keV links separately.
+
+
+## Day18定量审计：跨带B(E2)out/B(E2)in的五次方能量比放大代数解构
+
+在Day18正式学习中对本文Table 1与2中133Ba带间跃迁数据进行代数解构与物理审计，raw SHA256 `FB6EA8474676875752CA83399E8F27AA792AA07643C5FA962FE44CAB1AE0697B`已核。原RD21-1–6各claim及`human-reviewed`状态完全保留；新RD21-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RD21-D18-1 | 本文Table 2报告的三条跨带跃迁带间与带内强度比 $B(E2)_	ext{out}/B(E2)_	ext{in}$ 高达 $2.94(18)$、$2.36(20)$ 和 $3.40(22)$（远超Lu同位素中 $\sim 0.2	ext{--}0.3$ 的范围）。代数解构证实该异常大比值主要由相空间动力学因子 $(E_	ext{in}/E_	ext{out})^5$ 主导：743.4 keV放大1.54倍，812.0 keV放大2.29倍，457.6 keV（带内641.9 keV）放大高达5.43倍！这证明 $B(E2)_	ext{out}/B(E2)_	ext{in} > 1$ 是由于低激发能跨带线被五次方相空间因子强烈放大所致，绝不自动等同于四极跃迁算符本征矩阵元超越内禀跃迁。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.4 Tables 1–2；新devi21-133ba-wobbling-result-019 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/devi21-133ba-wobbling-contract-019.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/devi21-133ba-wobbling-result-019.json)4项检查全过。

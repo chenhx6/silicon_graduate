@@ -1465,6 +1465,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "LV22P-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+      "anchor": "Day18定量审计：跨带B(E2)out/B(E2)in的五次方能量比放大代数解构",
+      "summary": "Table 1与2中跨带连接线B(E2)out/B(E2)in高达2.36-3.40及能量五次方驱动代数解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "相对B(E2)提取中能量五次方因子的放大机制：133Ba案例",
+      "summary": "133Ba案例代数解构：揭示(E_in/E_out)^5因子高达5.43倍的相空间放大效应",
+      "sources": [
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        },
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "相对强度提取中的能量五次方放大因子",
+      "summary": "方法页补充跨带能量差异通过五次方因子对B(E2)out/B(E2)in造成的相空间放大机制",
+      "sources": [
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        },
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba",
+      "summary": "索引增加133Ba相对跃迁几率与能量五次方放大机制导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        },
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1479,6 +1535,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint019已实际提交，稳定指针main / `Audit 133Ba relative transition strength and E^5 amplification factor`；精确hash/H3/远端结果只publication-019回执。
+
 
 checkpoint018已实际提交，稳定指针main / `Audit 135Pr wobbling E2 strength collapse under delta root inversion`；精确hash/H3/远端结果只publication-018回执。
 
