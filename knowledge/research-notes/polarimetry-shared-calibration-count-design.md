@@ -406,3 +406,66 @@ Table1七个Q都是AD预测P和同测A派生；unpolarized56Co/66Ga的a才是另
 ## 同一次partition的分子与分母
 
 [[bass-1972-two-crystal-compton-polarimeter]] BA72-D17-1/5/8/9：N=C/(C+A)而非C/A，Cov(C,C+A)=VarC；在独立primitivePoisson设计下σfraction为binomial尺度，实际peakfit/rotation/sharedPref仍需fullΣ。原statonlyR不含Pref误差，阈值扫描共源/共事件，不能将每行Rσ视独立或以原Nbar回造counts。
+
+### SeGA2007：a的倒数约定与5000全峰计数
+
+[[miller-2007-sega-polarization]] MI07-D17-1–13原6页713–718本session完整原读。4quadrant×8slice侧入射，本run实际6个37°/9个90°的15unit与standardFig2的8+10不同；249Cf约1µCi、Si400µm/11cm及Pt2mil是本source几何。245Cm388.3同parent的333和388支均E1却有相反a2/P，说明Psign还取决于branch/取向，不能只把E1固定成一种sign。
+
+#### a小是原几何，不是偏振小
+
+MI07 Eq5/6定义
+
+\[
+a_{\rm MI}=U_\perp/U_\parallel,\qquad
+A=\frac{x-a_{\rm MI}y}{x+a_{\rm MI}y},\quad x=N_\perp,\ y=N_\parallel.
+\]
+
+本页前ST99的a=Uparallel/Uperp等于1/a_MI；表达式可同义转换，但不能把同一个a数值直接放过去。原weightedaverage a333=.126(.007)/a388=.128(.007)，sample unitstd .009，σ多来自detector差异（printed716）。这既不是offset，也不表示physicalP；sidegeometry/选择的parallel/perp约占总峰25%/3%，所以极不平衡。roundedfraction ratio .12和原a约.127不强调为同一精确值；每unit用实际a，poolweights变化需重核。
+
+#### 5000是总峰，不是5000个选中事件
+
+用作者rounded fractions的**明确设计**：Npeak=5000，P=0，Q=.14，knowna=.03/.25=.12。则期望x=150/y=1250（非原actualcounts），有
+
+\[
+\partial_x A=\frac{2ay}{(x+ay)^2},\quad
+\partial_y A=-\frac{2ax}{(x+ay)^2},\quad
+\partial_a A=-\frac{2xy}{(x+ay)^2}.
+\]
+
+独立primitivePoisson或声明exclusivefixedN/noBG的同阶Jacobian均给null处
+
+\[
+\sigma_P^2=\frac1{4Q^2}\left(\frac1x+\frac1y\right),
+\quad\sigma_P=.3086067.
+\]
+
+它支持原Outlook约.3的计数量级；若误把5000作为两类sum或只用1/(Q√Npeak)，会丢掉实际接受/不平衡代价。此设计暂忽a/Q/背景/峰fit误差，不认证真实CI。若**另行假定**.007是独立σa，仅这项localσP=.208333；但source说unitspread占主要成分，实际sameunit/commoncalibration与事件依赖未知，不能将这个设计σ直接和统计项相加后称作者误差。
+
+#### 效率、F与共享资料
+
+Eq14的εc=(Nparallel+Nperp)/(2Ntot) εphoto是两方向**平均**。singleεphoto=.00212、rounded25%/3%给εc=.0002968，FM=.14²εc=5.81728×10^-6；用原εc=.000299则5.8604×10^-6，近原5.9×10^-6。不是整15array ε，不是两类sum裸.28，也不是另一篇中相对NaI或coincidencetag效率。
+
+原Table1的POLALI/Clover/Gammasphere Q外推至约350、absoluteeff从图估；FM中央值可按Eq13核，误差仅源可用Quncert，作者加eff估计后认为整体约30%。不是新同beamtime比较，低statcost或scope不同不由同列FM消除；这项标准FM也不替完整实际峰fit/不平衡计数的likelihood。
+
+#### AD给的P还需实际接受合同
+
+Nd/Ns=fDS εalpha Wav（Eq9–12）可消同Ge效率，不能消α选择/finiteangle/共singles误差。原a2(388)=+.17(.01)、a2(333)=−.29(.02)；E1 Eq8为
+
+\[
+P(\theta)=\frac{-3a_2\sin^2\theta}{2+2a_2-3a_2\sin^2\theta}.
+\]
+
+barepoint37°/90°分别给388 −.085702/−.278689、333 +.181602/+.379913，不能宣称已重放原四group finiteangleP。printed716列388 −.267(.007)/−.13(.02)，333 +.24(.02)/+.37(.02)，并称forward/back respectively；388的文字顺序与point角序尤不闭。source还说约1% finiteangle uncertainty已平均修正，但未给完整gamma/alpha接受与producer；这里不交换原marker、不从effectiveangle反校几何或改Q。
+
+若**声明**共同E1的integratedStokes模型、将正权响应对unpolarized几何平均，则S=〈sin²θ〉，
+
+\[
+\bar P=\frac{-3a_2 S}{2+2a_2-3a_2 S},\qquad
+S=\frac{2\bar P(1+a_2)}{3a_2(\bar P-1)}.
+\]
+
+原四P按打印顺序给S=.966897/.527850（388）、.515426/.958584（333），均0–1；小/大S可两能量成近组，但这仅诊断所需响应moment，不认证实际ringlabels、37°有限接受、无权P平均或源producer。5000count练习也不依赖将这些P重标。
+
+原四group relativeA在claimed Qrel=.18下的summary标准化残差约−1.065/.113/−.080/.835，未重拟合逐unit数据。Qrel/同source AD/a/两branch共享事件与方法谱系，不能把四group当四独立Q实验或虚构Σ。highestinput仍actualunit/gates/threshold/ordering、净峰/背景/接受与jointfitCov；higherenergy/inbeam/数字tracking在原文是下一测量/改善，无31/33Mg新parity结果。
+
+复算`system/scripts/day17_miller2007_count_audit.py`，本run `miller2007-count-contract.json` / `miller2007-count-result.json`。决定`supports`source计数量级与sidegeometry可行性，`limits`跨约定/energy/array/merit迁移，没有新的实验P/Q/δ/CI。

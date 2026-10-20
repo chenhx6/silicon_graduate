@@ -68,14 +68,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Correct Falkoff harmonic transcription with independent CG controls",
-    "commit": "d2a96b0a1eec0c51017a6d98974f1504091c208d",
+    "subject": "Audit Aoki annihilation reference and spectrometer efficiency gates",
+    "commit": "5d4e5ee5885fdc62808157246278bb3cdea9c7ea",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-20T03:03:57.252112+00:00",
+  "last_observed_at": "2026-10-20T03:13:32.135042+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal active",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",

@@ -1,0 +1,96 @@
+{
+  "a333": [
+    0.126,
+    0.007
+  ],
+  "a388": [
+    0.128,
+    0.007
+  ],
+  "a_sample_std": 0.009,
+  "a2_333": [
+    -0.29,
+    0.02
+  ],
+  "a2_388": [
+    0.17,
+    0.01
+  ],
+  "gamma_angles_deg": [
+    37,
+    90
+  ],
+  "source_P_list_order388_then333": [
+    -0.267,
+    -0.13,
+    0.24,
+    0.37
+  ],
+  "source_P_sigma_list": [
+    0.007,
+    0.02,
+    0.02,
+    0.02
+  ],
+  "source_relative_A_groups": [
+    -0.08,
+    -0.02,
+    0.04,
+    0.1
+  ],
+  "source_relative_A_sigma": [
+    0.03,
+    0.03,
+    0.04,
+    0.04
+  ],
+  "Qrel": [
+    0.18,
+    0.02
+  ],
+  "Qcentral": 0.14,
+  "fparallel": 0.25,
+  "fperp": 0.03,
+  "photopeak_eff_single": 0.00212,
+  "reported_epsilon_c": 0.000299,
+  "reported_FM": 5.9e-06,
+  "design_photopeak_N": 5000,
+  "source_Table1_columns": [
+    "detector",
+    "Qrel",
+    "Q",
+    "epsilon_c",
+    "FM"
+  ],
+  "source_Table1_rows": [
+    [
+      "POLALI",
+      0.8,
+      0.5,
+      2.6e-05,
+      7e-06
+    ],
+    [
+      "Clover EUROBALL",
+      0.29,
+      0.23,
+      0.00048,
+      2.5e-05
+    ],
+    [
+      "Gammasphere",
+      0.08,
+      0.052,
+      0.0018,
+      4.8e-06
+    ],
+    [
+      "SeGA",
+      0.18,
+      0.14,
+      0.0003,
+      5.9e-06
+    ]
+  ],
+  "actual_perdetector_counts_fitSigma": null
+}

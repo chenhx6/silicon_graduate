@@ -1,0 +1,32 @@
+{
+  "subject": "Audit SeGA count balance and alpha-tag calibration inputs",
+  "verification_number": 79,
+  "paths": [
+    "knowledge/sources/miller-2007-sega-polarization.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+    "system/scripts/day17_miller2007_count_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-063.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-063.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-079.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-079.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-064.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint064.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-count-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-count-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-exercise-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-identity-reading-scope.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own064"
+}

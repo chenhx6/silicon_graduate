@@ -8555,6 +8555,143 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "AO75-D17-13"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/miller-2007-sega-polarization.md",
+      "summary": "原6页全读、13new待审/旧flags与citation保；actual15units/αtag/a反ST99、ADfiniteangle/merit输入和higherE边界。",
+      "anchor": "Day17原件复核：侧入射a合同与5000全峰计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-1"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-2"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-3"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-4"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-5"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-6"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-7"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-8"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-9"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-10"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-11"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-12"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "实际roundedfractions的5000totalpeak误差设计、效率分母闭合、原P order/acceptance moment与共同Cov限制。",
+      "anchor": "SeGA2007：a的倒数约定与5000全峰计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-1"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-2"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-3"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-4"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-5"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-6"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-7"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-8"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-9"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-10"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-11"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-12"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-13"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "a倒数/总峰计数与sourcecontrol迁移边界入口。",
+      "anchor": "SeGA侧入射的a和总峰计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-4"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-10"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-11"
+        }
+      ]
     }
   ]
 }
@@ -8982,3 +9119,13 @@ canonicalFA48/PPCOnote/Compton、唯一writeback、script/input/result/scope/fre
 canonicalAO75/PPCOnote/Compton、唯一writeback、script/input/result/scope/freezes和18priming齐。verification078/publication063实际门，17once/partial18/windowactive，不以source完成日终。
 
 Checkpoint063 parser补核：078首次新AO75行的字面|κ|使该行未按true列索引；追查同时发现062新FA48-D17-5的|A|也导致少一行。新两行改为无pipe的幅度文字，所有flags保持；FA48旧2的原pipe行仍逐字保。当前AO75新13+旧2=15、FA48新8+旧3=9均按验收核。062 handoff所称“新8全indexed”当时过强，现明确修订；原077历史receipt不重写。
+
+### Checkpoint064：SeGA侧入射与5000全峰计数的实际误差输入
+
+先冻miller2007-before/exercise primed回忆，原6页713–718全textvisual、14式/8图/1表/15refs，371472bytes/hash保；新13待审/旧4flags与citationverified metadata保。actual15unit=6@37+9@90不同standard18，249Cf约1µCi/Si400µm/11cm/Pt2mil，245Cm同parent两E1分支oppositeP。a确Uperp/Uparallel.126/.128反ST99，sampleunitstd.009不是自动共同σ。
+
+actualrounded25%/3%用于明确design Ntotalpeak5000，nullP/knowna.12/Q.14→x150/y1250期望、sigmaP.308607，支持原Outlook.3量级，非5000selected或actualCI；若另假设σa.007独立可额外.20833但实际unitspread/Σ不容如此直加。Eq14方向平均εc.0002968/FM5.817e−6，近原2.99e−4/5.9e−6；Table1其它array Q外推/eff从图估、整体30%，非新同beamtime实验。
+
+原a2/nominalpoint37/90不等printed四P，尤其388 forward/back顺序保界；conditionalintegratedStokes反求S .966897/.527850/.515426/.958584只所需接受moment，未认证geometry/producer或改Q。四grouprelativeA在Qrel.18下summary残差约1.1σ内，不重fit逐unit/Σ。actualthreshold/ordering/fullacceptance/backgroundCov仍缺，higherE/inbeam/tracking属于future不指认31/33Mg。
+
+canonicalMI07/sharedcalnote/Compton、唯一writeback、script/input/result/scope/freezes及18priming齐，verification079/publication064实际门；17once/partial18/windowactive。

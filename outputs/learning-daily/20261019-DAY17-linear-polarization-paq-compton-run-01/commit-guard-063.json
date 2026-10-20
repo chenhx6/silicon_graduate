@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "expected_paths_exact": true,
+  "name_status": "M\tknowledge/methods/compton-polarimetry.md\nM\tknowledge/research-notes/ppco-joint-response-and-information.md\nM\tknowledge/sources/aoki-1975-geli-summing-polarimeters.md\nM\tknowledge/sources/falkoff-1948-polarization-correlation.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-before-freeze.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-before.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-exercise-before.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-exercise-freeze.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-identity-reading-scope.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-response-contract.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-response-result.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/claim-parser-correction-063.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-062.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-063.txt\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-062.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-manifest-063.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint063.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-078-initial-new-row-pipe.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-078.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-078.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md\nM\toutputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md\nM\tsystem/handoff.md\nM\tsystem/log.md\nA\tsystem/scripts/day17_aoki1975_response_audit.py\n"
+}

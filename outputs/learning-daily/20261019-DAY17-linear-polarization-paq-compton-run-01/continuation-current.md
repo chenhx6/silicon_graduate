@@ -1,13 +1,15 @@
-# Day17同session继续：checkpoint063之后
+# Day17同session继续：checkpoint064之后
 
-## Active handoff — DAY17 original window active; Aoki checkpoint063
+## Active handoff — DAY17 original window active; SeGA checkpoint064
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–062actualH3Gitee推，formal17once/next18count17/partial18；clock约11:12余228min，windowactive。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–063actualH3Gitee推，formal17once/next18count17/partial18；clock约11:20余220min，windowactive。
 
-AO75原8页/12图/20refs全读，primedbefore/exercise先冻；新13待审/旧3flags保。NaI511sumtag→Ge同时fourangle，是共同tagresponse，非独立Ptag1/GeQ。原ratio文字I0/I90>1但Fig6 I90高方向未闭，大小κ.423631±.049830/pred3/7保；bias图为实际relativecal反证。前polarimeterFig4单analyzer eff约1/40，后ringreflectorspectrometer约1/10/ Fig11>500less1/10，旧quarter纠。Fig9先1332peak归一后背景20倍非同曝光rate；不同gate不拼time。后θ150–170/Eu160–240与lower70–240分开，1332singleComptonE′215.754–227.146仍进门，below200只是近似非严格界/实验矛盾。
+MI07原6页/14式/8图/Table1/15refs新全textvisual，新13待审/旧4flags+verifiedcitationmetadata保。actual15unit6@37/9@90不同standard18；Cf1µCi/Si400µm/11cm/Pt2mil，同parent两E1 oppositeP。a=Uperp/Uparallel.126/.128是ratio、反ST99，unitstd.009不自动独立σ。Ntotalpeak5000/rounded25%par3%perp/nullP/knowna.12/Q.14明确design→x150/y1250、sigmaP.308607，支持原约.3数量级非actualCI；若另假设σa.007独立可额外.20833，但unitspread/Cov不允许直接合成。
 
-AO75/PPCOnote/Compton及唯一writeback/18priming齐，verification078valid/0errors239warnings、61changed/64mapped、boundary/lint/diff exit0。078初新row字面pipe导致索引少一已保并修；追查修FA48-D17-5同类pipe（flags保），currentAO75新13+旧2=15、FA48新8+旧3=9全验。062“新8全indexed”当时过强现修订，原077历史不重写/旧FA48-2pipe原row保。main / `Audit Aoki annihilation reference and spectrometer efficiency gates`，actualhash/H3仅publication063/runreceipt。
+Eq14方向平均εc.0002968/FM5.817e−6近原2.99e−4/5.9e−6，single非整array。原Table1其它Q外推/eff图估/整体约30%不是新同beamtime实验。裸point37/90不重现printedP，388forward/back顺序与finiteacceptance保界；integratedStokes所需S .966897/.527850/.515426/.958584是合同诊断非actualgeometry，未改Q。四groupfixedQrel.18 summary残差~1.1σ内，不重fit逐unit/Σ。actualthreshold/ordering/fullacceptance/netpeak/Σ缺，higherE/inbeam/tracking为future，无新31/33Mg parity。
 
-下一SeGA Miller2007已冻before并新text/关键visual读原6页，尚未sciencewriteback；实际a=Uperp/Upar≈.127是ratio，反ST99；25%/3%选fractions可核5000counts→sigmaP.3。原P4组有388顺序/nominal37point与finiteangleproducer未闭，先冻exercise，保source summary/真实acceptance缺口，不自由拟合Q。未开VT74/Snyderbody/其它卡；source完成不日终。
+MI07/sharedcalnote/Compton与唯一writeback/18priming/artifacts齐，verification079 actualreceipt为准（0errors239warnings，62changed/65mapped、boundary/lint/diff exit0若valid）；main / `Audit SeGA count balance and alpha-tag calibration inputs`，actualhash/H3仅publication064/runreceipt。Localraw补搜用了--no-ignore，Duchene/Snyder/Falk1970/Muellerbody仍未发现，先前普通rg漏检方式已纠；未以missingbody填metadata。
 
-保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own063，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+下一候选未定，可physicalP三multipole/phase合同VT74原8页（旧sourceprimed、尚未打开body），或actualcampaign校准/producer输入。不要重做oldtoys，不开其它课程，source完成不日终。旧EW69ratio撤回/FA48转录修订和AO75方向冲突保持。
+
+保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own064，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

@@ -2294,3 +2294,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint063：Aoki实际tag/ratio方向/eff分母
 
 原8页/13newclaims待审，ratio方向图文未闭、κ仅幅度、前1/40后1/10和peaknormalized背景/不同门分开；pointKN核不代actualresponse。078newpipe/parser修复和FA48索引过强回述修订已保，verification078valid、manifest063/H3，main / `Audit Aoki annihilation reference and spectrometer efficiency gates`，原windowactive/17once/partial18。
+
+### Day17 checkpoint064：SeGA计数平衡/αtag校准
+
+原6页新13待审，a反ST99、actual15unit/共同参考，5000totalpeak的rounded25/3% design闭合σP.3086，eff/FM分母核；原Porder/acceptance未闭保producer缺口。verification079/manifest064/H3，main / `Audit SeGA count balance and alpha-tag calibration inputs`，原windowactive/17once/partial18。

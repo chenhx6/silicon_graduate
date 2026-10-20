@@ -229,3 +229,5 @@ Day17 checkpoint061 priming：DR99-D17-1–14原11页、PPCOjointresponse note�
 Day17 checkpoint062 priming：FA48-D17-1–8旧cos²同A转录已撤回，原cos2φ/2/7→1.8与独立CG相符；等价cos²需b2A/(1−A)及overallconstant。PPCO桥须共同globalaxis，单P0不排joint，非现代Co60/Q/δ实测或formal18信用。
 
 Day17 checkpoint063 priming：AO75-D17-1–13原8页、Fig6ratio图文方向未闭、NaI/Ge共同tagresponse及κ幅度不解单Q；前1/40与后1/10、Fig9peak归一背景20/不同窗口不可裸拼merit。singleCompton1332 E′>200控制非全装置响应，无formal18信用。
+
+Day17 checkpoint064 priming：MI07-D17-1–13原6页、a反ST99/actual15unit/αtag、5000totalpeak rounded25/3%→σP.3086 knowncal设计；unitspread不当独立σa，原四P order/acceptancemoment不认证producer，Table1跨array外推/eff估计与higherE未标定保持。无formal18信用。

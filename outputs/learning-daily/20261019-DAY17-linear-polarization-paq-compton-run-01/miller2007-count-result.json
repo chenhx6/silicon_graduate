@@ -1,0 +1,120 @@
+{
+  "at": "2026-10-20T03:13:04.134209+00:00",
+  "script_sha256": "4f201cc5f6565a136bcf4701c9d23157bfc7684b91fd5f3d53415e3febf30322",
+  "contract_sha256": "17408054e5ebebb39a38f93741c06380772809b00328111dfeada16a5066bffd",
+  "design_count_budget": {
+    "N_total_photopeak": 5000,
+    "selected_expected_perp": 150.0,
+    "selected_expected_parallel": 1250.0,
+    "a_rounded_fraction_null": 0.12,
+    "A_null": 0.0,
+    "sigma_P_known_a_Q_design": 0.3086066999241838,
+    "extra_sigmaP_if_0_007_were_independent_sigma_a_design_only": 0.20833333333333334,
+    "not_actual_counts_or_source_unit_spread_as_independent_error": true
+  },
+  "rounding_efficiency_control": {
+    "epsilon_c": 0.0002968,
+    "FM": 5.817280000000001e-06,
+    "from_printed_epsilon_c_FM": 5.860400000000001e-06
+  },
+  "point_E1_references": [
+    {
+      "Egamma_keV": 333,
+      "a2": -0.29,
+      "point_values": [
+        {
+          "theta_nominal_deg": 37,
+          "point_E1_P": 0.18160230464233182
+        },
+        {
+          "theta_nominal_deg": 90,
+          "point_E1_P": 0.37991266375545846
+        }
+      ]
+    },
+    {
+      "Egamma_keV": 388,
+      "a2": 0.17,
+      "point_values": [
+        {
+          "theta_nominal_deg": 37,
+          "point_E1_P": -0.08570201054906443
+        },
+        {
+          "theta_nominal_deg": 90,
+          "point_E1_P": -0.27868852459016397
+        }
+      ]
+    }
+  ],
+  "source_P_to_acceptance_moment_controls": [
+    {
+      "Egamma_keV": 388,
+      "printed_P": -0.267,
+      "conditional_acceptance_sin2_moment": 0.9668972561400252,
+      "effective_point_angle_deg_not_real_geometry": 79.51712732978628
+    },
+    {
+      "Egamma_keV": 388,
+      "printed_P": -0.13,
+      "conditional_acceptance_sin2_moment": 0.527850078084331,
+      "effective_point_angle_deg_not_real_geometry": 46.59651819510115
+    },
+    {
+      "Egamma_keV": 333,
+      "printed_P": 0.24,
+      "conditional_acceptance_sin2_moment": 0.515426497277677,
+      "effective_point_angle_deg_not_real_geometry": 45.88401347433511
+    },
+    {
+      "Egamma_keV": 333,
+      "printed_P": 0.37,
+      "conditional_acceptance_sin2_moment": 0.9585841999635104,
+      "effective_point_angle_deg_not_real_geometry": 78.25778501697575
+    }
+  ],
+  "summary_residuals_at_source_Qrel_fixed_no_refit": [
+    -1.0646666666666669,
+    0.11333333333333334,
+    -0.07999999999999986,
+    0.8350000000000003
+  ],
+  "Table1_central_controls": [
+    {
+      "detector": "POLALI",
+      "Qrel": 0.8,
+      "Q": 0.5,
+      "epsilon_c": 2.6e-05,
+      "FM": 7e-06,
+      "central_Q_squared_epsilon": 6.5e-06
+    },
+    {
+      "detector": "Clover EUROBALL",
+      "Qrel": 0.29,
+      "Q": 0.23,
+      "epsilon_c": 0.00048,
+      "FM": 2.5e-05,
+      "central_Q_squared_epsilon": 2.5392000000000004e-05
+    },
+    {
+      "detector": "Gammasphere",
+      "Qrel": 0.08,
+      "Q": 0.052,
+      "epsilon_c": 0.0018,
+      "FM": 4.8e-06,
+      "central_Q_squared_epsilon": 4.8672e-06
+    },
+    {
+      "detector": "SeGA",
+      "Qrel": 0.18,
+      "Q": 0.14,
+      "epsilon_c": 0.0003,
+      "FM": 5.9e-06,
+      "central_Q_squared_epsilon": 5.8800000000000005e-06
+    }
+  ],
+  "count_gradient_and_fixedN_and_Pmoment_inverse_controls": true,
+  "no_original_detector_Q_fit_or_experimental_P_CI_reestimated": true,
+  "actual_a_ratio_is_inverse_of_ST99_convention": true,
+  "ok": true
+}

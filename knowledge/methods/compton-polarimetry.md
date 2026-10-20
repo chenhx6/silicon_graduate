@@ -533,3 +533,7 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 Fig9先以1332peak归一，背景20倍改善是relative形状；不是同曝光绝对backgroundrate，也不能和不同window的Fig11效率拼beamtime收益。通常ring100–250keV、reflector100–2000；Eu的Fig10/11 ring160–240，Fig12降至70–240出现122/244但tail吞弱峰。约300keV practicalfloor与7keV FWHM@1333属于后spectrometer，不是前polarimeter universalthreshold/Q。
 
 本sessionsingleCompton point核：θ150–170、1332keV的E′为227.146–215.754keV，仍在160–240门；原文below200近似不能作严格上界。E→∞极限511/(1−cosθ)约274–257keV。122/244的反散射pointE′低于160，说明lowergate提高低能接受的条件机制；不代actualmultiscatter/chargecollection/eff或断言原experiment失败。实际source/tagratio方向/|κ|及joint识别边界见[[ppco-joint-response-and-information]]“Aoki1975：实际tagged湮没基准与ratio方向”。
+
+### SeGA侧入射的a和总峰计数
+
+[[miller-2007-sega-polarization]] MI07-D17-1–13原a=Uperp/Uparallel≈.127，反ST99的a；不是offset或P。实际25%/3%选择的5000totalphotopeak在knowna/Q设计给sigmaP.3086，支持原约.3量级但不补fullΣ；Eq14平均方向效率single≈.000299与FM5.9e−6有明确分母。[[polarimetry-shared-calibration-count-design]]“SeGA2007：a的倒数约定与5000全峰计数”保实际15unit/αtag/原四P order与finiteangleproducer边界、Qrel/跨array外推误差，不将sourcecontrol迁fastbeam。

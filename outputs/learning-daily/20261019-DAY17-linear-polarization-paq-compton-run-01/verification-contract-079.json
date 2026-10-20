@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/miller-2007-sega-polarization.md": 15
+  },
+  "artifacts": [
+    {
+      "file": "miller2007-count-result.json",
+      "true_fields": [
+        "ok",
+        "count_gradient_and_fixedN_and_Pmoment_inverse_controls",
+        "no_original_detector_Q_fit_or_experimental_P_CI_reestimated",
+        "actual_a_ratio_is_inverse_of_ST99_convention"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -1,0 +1,48 @@
+{
+  "at": "2026-10-20T03:15:25.555230+00:00",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf",
+  "bytes": 371472,
+  "sha256": "a334ee35a84ded50f6a7937c037ee13d2d06b2f8406b0c68fac1a4245999acf3",
+  "text_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "printed_pages": "713\u2013718",
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "equations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "tables": [
+    1
+  ],
+  "references": 15,
+  "old_claim_flags_and_citation_metadata_preserved": true,
+  "new_claims_needs_review": 13,
+  "not_obtained": "persegmentcut/ordering/fullacceptance/actualcounts/fullSigma/Qfitproducer"
+}
