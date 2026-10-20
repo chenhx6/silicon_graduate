@@ -17,7 +17,7 @@ updated: 2026-10-20
 - phase: `angular-correlation-polarization-and-mixing-ratio`
 - schedule_id: `wiki-daily-learning`；Docker-local，非GUI Scheduled对象。
 - hard_deadline: `2026-10-20T15:00:00+08:00`；15:00–16:00仅收束。
-- status: `closeout / original-deadline reached`；2026-10-20T15:00:34.434254+08:00实际确认原15:00研究截止已到；13:30后没有新source/body/课程研究，15:00–16:00仅收束、检查和发布。nativegoal只在所有必要交付与实际发布完成后标complete。
+- status: `completed / original-deadline closeout`；2026-10-20T15:00:34.434254+08:00实际确认原15:00研究截止已到；13:30后没有新source/body/课程研究，15:00–16:00仅收束、检查和发布。nativegoal只在所有必要交付与实际发布完成后标complete。
 - completed_day_indices: [17]
 - partial_day_indices: [18]
 - Day 17 card audit: complete
@@ -9727,6 +9727,10 @@ L1原件学习、L2源与方法写回已实质推进；当前L3为校准/respons
 ## Verification and continuation
 
 ### 原始截止后的最终收束
+
+最终复核曾因continuation末尾多一个空行而在diff检查退出2；该格式问题已修正，首次失败回执保留，科学内容不变。最终boundary、`python3 system/scripts/wiki_lint.py --fail-on error`和`git diff --check`实际退出码均0；lint为0errors/241warnings（4reactionparse、162citationkey缺、75rawarchive槽deferred）。[verification-090](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json)完整验收通过；状态与索引更新后的复核见verification091。内容发布main / `Close DAY17 at the original deadline with verified polarization evidence`已实际H3/Gitee push；最终回执批次main / `Record DAY17 completed window and canonical session index`，精确hash与实际推送结果只在runreceipt。当前70owning知识页实改，未新增实验P/Q/δ结论。
+
+[真实同session完成索引事件](20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-session-index-event.json)已append本地canonical scheduler；[prefix对账](20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-session-index-reconciliation.json)核全部旧字节保持。该日志被Git明确忽略，仅发布本次事件副本，不发布继承日志。原runner正常退出未观察、returncode为空，不伪造正常runner完成。课程next18/count17保持，Day18仅预习。
 
 实际截止观察见[original-deadline-closeout-observation](20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-closeout-observation.json)。本session完成Day17，partial18无学分；不重授17、不推进18。最终检查及实际发布分别以[verification-090](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json)和[run.json](20261019-DAY17-linear-polarization-paq-compton-run-01/run.json)为准；旧checkpoint检查/失败与候选记录均保留，不覆盖为全程一次成功。
 

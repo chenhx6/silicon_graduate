@@ -1,0 +1,21 @@
+{
+  "subject": "Record DAY17 completed window and canonical session index",
+  "verification_number": 91,
+  "paths": [
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-075.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-075.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-session-index-event.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-session-index-reconciliation.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-091.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-091.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-076.txt"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon/full ignored scheduler; logHEAD+own076"
+}

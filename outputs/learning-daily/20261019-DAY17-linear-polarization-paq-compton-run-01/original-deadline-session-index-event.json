@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-20T15:04:15.351836+08:00",
+  "event": "manual-resumed-window-completed-after-original-deadline",
+  "source": "same-session manual reconciliation after actual required checks and H3 content publication",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_id": "2026-10-19-day-17-01",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+  "original_started_at": "2026-10-19T16:01:17.507247+08:00",
+  "original_hard_deadline": "2026-10-20T15:00:00+08:00",
+  "research_stopped_at": "2026-10-20T15:00:34.434254+08:00",
+  "completed_day_indices": [
+    17
+  ],
+  "partial_day_indices": [
+    18
+  ],
+  "next_day_index": 18,
+  "completed_day_count": 17,
+  "normal_runner_exit_observed": false,
+  "runner_returncode": null,
+  "completion_mode": "user-resumed same-session native goal; original runner normal exit unobserved",
+  "new_session_or_schedule_started": false,
+  "content_publication": {
+    "branch": "main",
+    "subject": "Close DAY17 at the original deadline with verified polarization evidence",
+    "commit": "a9f3054d9c08192fbf4ce9068e2ac767b5273f1b",
+    "status": "pushed"
+  },
+  "verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json"
+}

@@ -1,0 +1,4 @@
+
+### Day17完成回执与canonical session索引
+
+原截止完成、内容075实际H3/Gitee push后，append真实manual same-session事件并核本地ignored scheduler旧prefix保持；仅发布本次event副本。verification091valid，report/唯一writeback/coverage/boundary/lint/diff实际通过。formal17once/partial18/next18count17；原runnerexit未观察，finalreceipt指针main / `Record DAY17 completed window and canonical session index`。

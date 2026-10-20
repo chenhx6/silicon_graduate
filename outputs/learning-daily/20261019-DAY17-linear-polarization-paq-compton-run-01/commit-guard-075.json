@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "expected_paths_exact": true,
+  "name_status": "A\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/claim-layer-label-scan.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closeout-time-gate-predeadline-denial.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-074.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/curriculum-scope-final-audit.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/lint-001.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/original-deadline-closeout-observation.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-075.txt\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-074.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-manifest-075.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/recoverable-deliverable-link-audit.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090-initial-whitespace-failure.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-090.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-090.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md\nM\tsystem/handoff.md\nM\tsystem/log.md\n"
+}

@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-20T15:04:15.351836+08:00",
+  "canonical_path": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
+  "gitignored": true,
+  "published_full_log": false,
+  "prefix_sha256": "39c4505d410877932028eb67a0ca72cfe77ddba38c3dd5612524e04b7e31a382",
+  "prefix_bytes": 79072,
+  "after_sha256": "2c4007d30eb25912cd2438db028873549510a289a73ecd08b95332586b7ce977",
+  "after_bytes": 80572,
+  "prior_prefix_preserved": true,
+  "exact_one_own_event_appended": true,
+  "event_copy": "original-deadline-session-index-event.json",
+  "normal_runner_exit_not_invented": true
+}

@@ -2342,3 +2342,7 @@ matchedQ小偏置与headlinecountcapacity弱界分层，actualsorter/Σ未知不
 ### Day17原始截止收束：正式17一次、18仅预习
 
 原15:00已实际观察，停止研究并完成报告/恢复入口/验收。70owning知识页、229writeback项；817newclaim均needs_review，原flags与输入保护。verification090valid，boundary/lint/diff exit0、0errors241warnings。main / `Close DAY17 at the original deadline with verified polarization evidence`；真实hash/H3只回执。原runnerexit未观察，不重授17/不授18。
+
+### Day17完成回执与canonical session索引
+
+原截止完成、内容075实际H3/Gitee push后，append真实manual same-session事件并核本地ignored scheduler旧prefix保持；仅发布本次event副本。verification091valid，report/唯一writeback/coverage/boundary/lint/diff实际通过。formal17once/partial18/next18count17；原runnerexit未观察，finalreceipt指针main / `Record DAY17 completed window and canonical session index`。
