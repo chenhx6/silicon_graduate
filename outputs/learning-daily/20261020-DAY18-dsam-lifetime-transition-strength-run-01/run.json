@@ -71,7 +71,7 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "038 published; original deadline preserved",
+  "last_checkpoint": "039 published; original deadline preserved",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 78Br B(E1)/B(E2) ratios, intrinsic dipole moment D0, and tri-multipolarity dichotomy"
+    "subject": "Audit 194Tl 37 keV near-degeneracy and three-band DSAM lifetime ambiguity"
   },
   "uncredited_preview": {
     "day_index": 19,

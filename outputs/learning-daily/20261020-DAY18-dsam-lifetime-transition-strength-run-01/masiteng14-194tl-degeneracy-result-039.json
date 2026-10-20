@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "nucleus": "194Tl",
+  "references": [
+    "Pai et al., Phys. Rev. C 85, 064313 (2012)",
+    "Masiteng et al., Phys. Lett. B 719, 83 (2013); Eur. Phys. J. A 50, 119 (2014)",
+    "Guo et al., Chin. Phys. C 46, 084101 (2022)"
+  ],
+  "summary": {
+    "crossing_frequency_MeV": 0.34,
+    "alignment_gain_hbar": 5.0,
+    "crossing_nature": "2qp pi(h9/2) (x) nu(i13/2)^-1 to 4qp pi(h9/2) (x) nu(i13/2)^-3 configuration.",
+    "min_delta_E_keV": 37.0,
+    "min_delta_E_spin": 21,
+    "mean_delta_E_keV": 71.4,
+    "envelope_delta_E_keV": 110.0,
+    "Q0_4qp_eb": 3.846,
+    "BE2_asymptotic_e2b2": 0.5519,
+    "BE2_asymptotic_wu": 82.7,
+    "dsam_ambiguity_finding": "AFRODITE DSAM measurements reveal that absolute B(M1) and B(E2) are identical within experimental error across all three observed negative-parity bands.",
+    "pairing_non_uniqueness": "Because PRM predicts four chiral bands in this 4qp manifold while experiment only observes three bands with mutually indistinguishable transition strengths, unique pairing of chiral partners is mathematically and experimentally impossible.",
+    "methodological_boundary": "Extreme energy near-degeneracy (37 keV) and similar B-values cannot alone verify chiral symmetry breaking without a resolved interband transition network to identify unique partner eigenstates."
+  },
+  "degeneracy_energy_profile": [
+    {
+      "spin": 17,
+      "delta_E_keV": 98.0
+    },
+    {
+      "spin": 18,
+      "delta_E_keV": 82.0
+    },
+    {
+      "spin": 19,
+      "delta_E_keV": 65.0
+    },
+    {
+      "spin": 20,
+      "delta_E_keV": 48.0
+    },
+    {
+      "spin": 21,
+      "delta_E_keV": 37.0
+    },
+    {
+      "spin": 22,
+      "delta_E_keV": 54.0
+    },
+    {
+      "spin": 23,
+      "delta_E_keV": 79.0
+    },
+    {
+      "spin": 24,
+      "delta_E_keV": 108.0
+    }
+  ]
+}

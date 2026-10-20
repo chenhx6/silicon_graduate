@@ -2595,6 +2595,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "L16-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+      "anchor": "Day18定量审计：2qp向4qp交叉、37 keV极限简并与三带DSAM寿命非唯一配对对账",
+      "summary": "来源页补充194Tl 4qp态37 keV极限简并度与AFRODITE DSAM全同寿命导致非唯一配对困境审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "194Tl四准粒子37 keV极限近简并与三带DSAM寿命非唯一配对对账",
+      "summary": "研究笔记补充194Tl四准粒子37 keV创纪录能量简并度与三带全同DSAM寿命导致伙伴配对非唯一性的反思对账",
+      "sources": [
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "多带流形中DSAM寿命全同与手征伙伴非唯一配对的判据局限",
+      "summary": "方法页补充四准粒子多能带流形中全同DSAM寿命无法唯一定位手征伙伴的判定底线准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "pai-2012-high-spin-bands-194tl",
+      "summary": "索引增加194Tl 4qp 37 keV极限近简并与三带全同DSAM寿命非唯一配对审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/pai-2012-high-spin-bands-194tl.md",
+          "locator": "PAI12-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2609,6 +2653,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint039已实际提交，稳定指针main / `Audit 194Tl 37 keV near-degeneracy and three-band DSAM lifetime ambiguity`；精确hash/H3/远端结果只publication-039回执。
 
 checkpoint038已实际提交，稳定指针main / `Audit 78Br B(E1)/B(E2) ratios, intrinsic dipole moment D0, and tri-multipolarity dichotomy`；精确hash/H3/远端结果只publication-038回执。
 

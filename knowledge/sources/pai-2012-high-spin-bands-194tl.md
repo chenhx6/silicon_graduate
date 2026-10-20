@@ -93,3 +93,13 @@ Pai 等的 INGA 数据将 `194Tl` 的 B1 band 延伸到 `18−`，并从能级�
 - Models: [[cranked-shell-model]], [[routhian]]
 - Methods: γ–γ coincidence, DCO and linear-polarization asymmetry
 - Observables: band energies, alignment, moment of inertia, DCO/IPDCO
+
+## Day18定量审计：2qp向4qp交叉、37 keV极限简并与三带DSAM寿命非唯一配对对账
+
+在Day18正式学习中对本文建立的194Tl能级交叉与后续AFRODITE DSAM寿命测量开展定量对账，raw SHA256 `633B068625691C4AEB6200867A9CD8820E6528B9FC19AE1C6CA2A3928FCF7553`已核。原PAI12-1–8各claim保持；新PAI12-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PAI12-D18-1 | 本文报道的194Tl在0.34 MeV处对齐增益Delta i ~ 5 hbar（2qp向4qp交叉）及后续手征候选带定量核验揭示：(1) 交叉后四准粒子态（pi h9/2 x nu i13/2^-3）理论四极矩Q0=3.85 eb，虽在自旋21处能级间距达到37 keV的极限近简并（I=17-24全域能差<=110 keV），但后续AFRODITE在束DSAM寿命测量表明，所观测到的全部三条负宇称带的绝对B(E2)与B(M1)在实验误差内完全一致；(2) PRM理论计算表明该组态在gamma~45度下实际上激发出四条手征能带，而在实验仅观测到三条带且三带跃迁强度完全无差异的条件下，根本无法唯一性地将实验带两两配对，存在严重的非唯一性配对歧义；(3) 确立了方法学底线：哪怕能量简并达到37 keV极限，在缺乏可分辨的带间跃迁网络与态特异性矩阵元时，单独的能量简并与相近B值仍不足以确立真手征对称破缺。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.6–8, Fig. 5, Fig. 7；新masiteng14-194tl-degeneracy-result-039 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/masiteng14-194tl-degeneracy-contract-039.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/masiteng14-194tl-degeneracy-result-039.json)4项检查全过。

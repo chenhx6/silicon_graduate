@@ -71,6 +71,8 @@ updated: 2026-10-20
 
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] — 78Br 8条E1跨带线B(E1)/B(E2)推导、内禀D0=0.71 e*fm定标与多极三元分类律。
 
+- [[pai-2012-high-spin-bands-194tl]] — 194Tl 4qp 37 keV极限近简并与三带全同DSAM寿命非唯一配对审计。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 
