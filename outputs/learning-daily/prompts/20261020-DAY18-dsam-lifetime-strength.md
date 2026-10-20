@@ -239,3 +239,5 @@ Day17 checkpoint066 priming：highspinsynthesis“三个零量不能互相替代
 Day17 checkpoint067 priming：T71-D17-1–17原24页及35Cl1763note，actualTable5中央4根仅M1E2+2.6833有正q；Rcalculated/p/N同链、92目标系数核与初录入失败保。未知bands/Σ/finiteacceptance/全J7/2/a6不填，positiveq成功不普适化；无formal18信用。
 
 Day17 checkpoint068 priming：T71-D17-18–20 exactADmarginalbox投影已补51criticalroots/31point/∞，conditionalbands非jointCI/原recipe，literalpureM2 pbox必要界不判实验矛盾；source1969仍未取，无formal18信用。
+
+Day17 checkpoint069 priming：GR97-D17-1–4仅两页target/MI07-14–15与Compton新段证明singlepoint globalmaxθ<90，q90为reference非全角上界；两hitcut仅singlecollision模型，不改SeGA Qrel/SG98/actual阵列，maxq非FOM。无formal18信用。

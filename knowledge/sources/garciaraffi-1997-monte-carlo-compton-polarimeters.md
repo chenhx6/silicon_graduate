@@ -144,3 +144,17 @@ The reported agreement is conditional on known detector geometry, thresholds, so
 ### 当前public代码基线不是历史modifiedproducer
 
 [[geant3-vmc-2026-compton-baseline]] G3-1/2/3/5/7给标准Geant3.21+VMC固定pin的实际接口、单位/cuts和600000事件组件核验。所读callpath为G3TGAMA→G3COMP且phiuniform，POLAR字段未参与；这与本文所述改GCOMPOL/GTGAMA/POLAR的需求分层。当前代码/原modifiedproducer、核验组件/真实detectorresponse不合并，也不把文件名检索空结果说成源代码全球不存在。
+
+
+## Day17本session定向复核：singlepoint分析能力与90度reference
+
+MI07本session完整原6页是此问题anchor；本GR97只新text/visual核printed462 Eq2/3与printed466 AppendixEq11–16两页，raw701800bytes/hash `2b860327fa3d8e0aeeab31e89b8e337ff8278b24f452b4fb456b6bbda4871e31`保持。不把Day16旧7页/600000事件或旧checks换作本次新交付。旧整页前缀/claims/flags/review原字节保，新增四条待审，无新humanreview。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR97-D17-1 | Eq3对singleCompton、freeunpolarizedrest-electron/未分析finalpol给sin²θ的φ调制；θ是Compton角、φ是散射平面相对入射E-plane。Eq3/11/13前因子(E′/E)²保持，旧漏prime假设不复活。 | targeted-original-contract | direct-and-self-audit | printed462 Eq2–3; printed466 Eq11–13 | true |
+| GR97-D17-2 | 此singlepoint模型q=sin²θ/[t+1/t−sin²θ]，t=1+α(1−cosθ)；90°才化MI07 Eq4。新导数/Descartesquartic证明α>0 globalunique最大角<90°，不是源原MC/装置Q重放。 | task-analytic-maximum | derived-from-original | printed462 Eq2–3 | true |
+| GR97-D17-3 | 明示singlecollision两hit各>=T给E′与E−E′的角域；E>2T仍不充分，如E150/T60无解；E333/T150的最佳允许角104.940°/q.650232，非原实际器件效率或SeGA未给阈值。 | task-kinematic-design | derived-from-original | printed462 Eq2–3 | true |
+| GR97-D17-4 | singlepoint qmax只限该散射/终态未分析模型；原多scatter偏振输运和实际阵列response不由此认证或受90°reference作统一上界，maxq角也不等maxmerit。没有改任一publishedQ/Qrel/calibrationCov。 | transfer-boundary | source-and-task-scope | printed462 Eq3; printed466 Eq11–16; GR97-2 | true |
+
+[[compton-polarimetry]]“90度点参考不是全角最大分析能力”保存exactquartic/全局证明、energytable与cuts模型。sourcephysicalP/degree和signed实验A仍需匹配轴；本段不是general4-Stokes/全探测器MC。

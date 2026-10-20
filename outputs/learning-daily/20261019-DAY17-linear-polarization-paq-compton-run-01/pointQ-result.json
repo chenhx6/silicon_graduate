@@ -1,0 +1,188 @@
+{
+  "at": "2026-10-20T04:28:39.142029+00:00",
+  "script_sha256": "9136e2550f422583e472c525a81945db8ae2b051a77e00c3b2034e0d199148d9",
+  "contract_sha256": "61d8f040a76a6ade10e1c39dc0b293cb40d1d6d2f7b7a9ad6a8756657be5d3c1",
+  "stationary_quartic": "-alpha**2*(alpha + 2) + 4*w**4 + w**3*(8*alpha + 12) + w**2*(2*alpha**2 + 16*alpha + 12) + w*(8*alpha + 4)",
+  "unique_positive_root_by_Descartes": true,
+  "negative_mu_derivative": "both terms of numerator positive for -1<mu<0, alpha>0",
+  "source_q90_exact_control": true,
+  "global_point_rows": [
+    {
+      "Egamma_keV": 0,
+      "alpha": 0.0,
+      "theta_max_deg": 90.0,
+      "single_point_qmax": 1.0,
+      "q90_reference": 1.0,
+      "qmax_over_q90": 1.0
+    },
+    {
+      "Egamma_keV": 122,
+      "alpha": 0.23874755381604695,
+      "theta_max_deg": 88.85198060755438,
+      "single_point_qmax": 0.9567716810640438,
+      "q90_reference": 0.9560096587231451,
+      "qmax_over_q90": 1.0007970864456708
+    },
+    {
+      "Egamma_keV": 333,
+      "alpha": 0.6516634050880626,
+      "theta_max_deg": 84.93615022854216,
+      "single_point_qmax": 0.8071789908858369,
+      "q90_reference": 0.7954730316707029,
+      "qmax_over_q90": 1.014715721022683
+    },
+    {
+      "Egamma_keV": 388,
+      "alpha": 0.7592954990215264,
+      "theta_max_deg": 83.88878317896018,
+      "single_point_qmax": 0.7690438470295015,
+      "q90_reference": 0.7531794475786684,
+      "qmax_over_q90": 1.0210632399779815
+    },
+    {
+      "Egamma_keV": 511,
+      "alpha": 1.0,
+      "theta_max_deg": 81.66056375011195,
+      "single_point_qmax": 0.6918020508016844,
+      "q90_reference": 0.6666666666666666,
+      "qmax_over_q90": 1.0377030762025268
+    },
+    {
+      "Egamma_keV": 662,
+      "alpha": 1.2954990215264188,
+      "theta_max_deg": 79.18392271376705,
+      "single_point_qmax": 0.6126234040453179,
+      "q90_reference": 0.5776559851278903,
+      "qmax_over_q90": 1.0605332928554112
+    },
+    {
+      "Egamma_keV": 847,
+      "alpha": 1.6575342465753424,
+      "theta_max_deg": 76.52531996500267,
+      "single_point_qmax": 0.5355439494566295,
+      "q90_reference": 0.4916848939346596,
+      "qmax_over_q90": 1.089201551772299
+    },
+    {
+      "Egamma_keV": 1332,
+      "alpha": 2.6066536203522506,
+      "theta_max_deg": 71.07039692688348,
+      "single_point_qmax": 0.4015150622093571,
+      "q90_reference": 0.3467503830085232,
+      "qmax_over_q90": 1.157936896062456
+    },
+    {
+      "Egamma_keV": 1368,
+      "alpha": 2.6771037181996085,
+      "theta_max_deg": 70.7326490841375,
+      "single_point_qmax": 0.39420256884138466,
+      "q90_reference": 0.3390914584122789,
+      "qmax_over_q90": 1.1625257996386915
+    },
+    {
+      "Egamma_keV": 1763,
+      "alpha": 3.4500978473581214,
+      "theta_max_deg": 67.46532277912054,
+      "single_point_qmax": 0.32882641560846515,
+      "q90_reference": 0.2721227638253442,
+      "qmax_over_q90": 1.2083752604376563
+    },
+    {
+      "Egamma_keV": 4430,
+      "alpha": 8.669275929549903,
+      "theta_max_deg": 55.50627067528992,
+      "single_point_qmax": 0.15832198076874232,
+      "q90_reference": 0.11399003988803305,
+      "qmax_over_q90": 1.3889106532838695
+    }
+  ],
+  "two_hit_threshold_controls": [
+    {
+      "Egamma_keV": 122,
+      "each_hit_min_keV": 60,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": false,
+      "reason": "energy exceeds 2T but one-collision kinematics cannot satisfy both hits"
+    },
+    {
+      "Egamma_keV": 150,
+      "each_hit_min_keV": 60,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": false,
+      "reason": "energy exceeds 2T but one-collision kinematics cannot satisfy both hits"
+    },
+    {
+      "Egamma_keV": 333,
+      "each_hit_min_keV": 60,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": true,
+      "theta_min_deg": 48.490848735802004,
+      "theta_max_deg": 180.0,
+      "best_allowed_theta_deg": 84.93615022854216,
+      "best_allowed_q": 0.8071789908858369,
+      "Eprime_keV_at_optimum": 208.88956328537054
+    },
+    {
+      "Egamma_keV": 333,
+      "each_hit_min_keV": 150,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": true,
+      "theta_min_deg": 104.94046278204378,
+      "theta_max_deg": 150.70736031254867,
+      "best_allowed_theta_deg": 104.94046278204378,
+      "best_allowed_q": 0.6502316631282362,
+      "Eprime_keV_at_optimum": 183.0
+    },
+    {
+      "Egamma_keV": 500,
+      "each_hit_min_keV": 50,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": true,
+      "theta_min_deg": 27.570197392897697,
+      "theta_max_deg": 180.0,
+      "best_allowed_theta_deg": 81.85236835501746,
+      "best_allowed_q": 0.6982314612945875,
+      "Eprime_keV_at_optimum": 271.7686442835074
+    },
+    {
+      "Egamma_keV": 500,
+      "each_hit_min_keV": 150,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": true,
+      "theta_min_deg": 55.80577577996169,
+      "theta_max_deg": 180.0,
+      "best_allowed_theta_deg": 81.85236835501746,
+      "best_allowed_q": 0.6982314612945875,
+      "Eprime_keV_at_optimum": 271.7686442835074
+    },
+    {
+      "Egamma_keV": 1332,
+      "each_hit_min_keV": 60,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": true,
+      "theta_min_deg": 10.916543117593106,
+      "theta_max_deg": 180.0,
+      "best_allowed_theta_deg": 71.07039692688348,
+      "best_allowed_q": 0.4015150622093571,
+      "Eprime_keV_at_optimum": 482.4270774165407
+    },
+    {
+      "Egamma_keV": 4000,
+      "each_hit_min_keV": 50,
+      "point_only_not_detector_efficiency": true,
+      "single_collision_two_hit_feasible": true,
+      "theta_min_deg": 3.258840318242114,
+      "theta_max_deg": 180.0,
+      "best_allowed_theta_deg": 56.7976617260404,
+      "best_allowed_q": 0.17238915275885291,
+      "Eprime_keV_at_optimum": 880.8026978172257
+    }
+  ],
+  "asymptotic_controls": {
+    "small_alpha_angle_shift_over_alpha2": 0.49992499029372084,
+    "large_alpha_qmax_over_q90": 1.9997172072773859
+  },
+  "single_scatter_not_full_transport_or_FOM": true,
+  "no_actual_Qrel_or_calibration_counts_CI_changed": true,
+  "ok": true
+}

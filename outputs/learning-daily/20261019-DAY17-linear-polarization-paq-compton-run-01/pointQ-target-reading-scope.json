@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-20T04:31:56.272762+00:00",
+  "source": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+  "new_text_visual_printed_pages": [
+    462,
+    466
+  ],
+  "new_full_7_page_claim": false,
+  "raw_bytes": 701800,
+  "raw_sha256": "2b860327fa3d8e0aeeab31e89b8e337ff8278b24f452b4fb456b6bbda4871e31",
+  "preserved_prefix_bytes": 13965,
+  "preserved_prefix_sha256": "fcf2886358725d0454089b38ba11fc7b553f2111f3b0eb0d4aec0f405610476e",
+  "old_prefix_bytes_preserved": true,
+  "anchor_this_session": "MI07 full6pages",
+  "new_GR97_claims_needs_review": 4
+}

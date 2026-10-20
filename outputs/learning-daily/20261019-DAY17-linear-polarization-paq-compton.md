@@ -9191,6 +9191,83 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "T71-D17-20"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+      "summary": "本session仅462/466两页target核generalangle与正确prefactor，4new待审/旧整prefix字节保；singlepoint/threshold/多scatter域分层。",
+      "anchor": "Day17本session定向复核：singlepoint分析能力与90度reference",
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-1"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-3"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/miller-2007-sega-polarization.md",
+      "summary": "原Q0精确为90°reference，globalangle反例限制字面上界外推，不改publishedQrel/实际标定。",
+      "anchor": "MI07-D17-14",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-14"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-15"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-1"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "generalq的uniqueglobalquartic证明、能量数表与两hitcut角域，maxq不等FOM/完整阵列Q。",
+      "anchor": "90度点参考不是全角最大分析能力",
+      "sources": [
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-14"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-15"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-1"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-2"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-3"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-4"
+        }
+      ]
     }
   ]
 }
@@ -9656,3 +9733,11 @@ Table3九K/4六十Legendre/6十五Z/7八CG共92值核过；初Table4两任务误
 067后先冻新box问题，samepoint/sourcephase/J5/2to3/2/two-multipole，不称jointCI。u=√35δ消sourceZ/CG为QQ响应，正qtriangle与ADrectangle变化条件26不可约因子/51criticalroots，52open cells以rationalpolygon检。初31criticalunknown保open-onlysnapshot，另冻boundary步骤后QQ根域/隔离区间sign全核，无额外isolatedpoint/∞不可行；完整条件ADbox约[−17.590797,−.897283]∪[.750180,3.118689]。仍不重现源.73/3.27，不归因作者recipe/Cov。
 
 literalpureM2极限p在该ADbox为1.920901–2.075426，不交printedpbox2.22–2.38；只限当前point/marginalbox解释，不重裁实际E1M2族/源误差bands或称实验矛盾。新Scholar查TarasMatas1969失败无records/body，executionreceipt保。sourceT71新18–20/旧flags保、35Clnote/Compton、唯一writeback/18priming及script/contract/freeze/result齐；verification083/publication068实际门，17once/partial18/windowactive。
+
+### Checkpoint069：q90参考与singlepoint全局最大
+
+pointQ before/exercise先冻，MI07本session已full6页anchor；GR97仅新target原462 Eq2/3与466Appendix两页textvisual，raw701800/hash保，旧整sourceprefix字节保，新4待审，未重称Day16旧全文/600000MC。MI07新14/15给90reference与generalangle范围边界。
+
+新symbolic导数/μ→w驻点quartic系数一变号证明α>0 globaluniqueθC<90，非gridmax；333/388θmax84.936/83.889，qmax.807179/.769044比q90高1.47/2.11%。511qmax.691802@81.661，1332qmax.401515@71.070，4430.158322@55.506，均只是freeelectron/singlecollision/finalpolunobserved理论数，不改publishedQ/Qrel。Thomson/低高α与q90exact控制通过。
+
+两hit各>=T的单次运动学域可空，E150/T60虽总能>2T仍无解；E333/T150最佳允许θ104.940/q.650232，不移给actualSeGA/SG98ADCzero。positiveweight single层bound不代fullmultipletransport，maxq角不等maxFOM，原GR97preFactor正确/旧漏prime猜测保持否决。canonicalGR97/MI07/Compton、唯一writeback/18priming及script/input/result/scope/freezes齐，verification084/publication069实际门，17once/partial18/windowactive。

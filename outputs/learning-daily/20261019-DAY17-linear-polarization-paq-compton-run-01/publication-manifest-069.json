@@ -1,0 +1,33 @@
+{
+  "subject": "Distinguish the 90 degree reference from the global Compton maximum",
+  "verification_number": 84,
+  "paths": [
+    "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+    "knowledge/sources/miller-2007-sega-polarization.md",
+    "knowledge/methods/compton-polarimetry.md",
+    "system/scripts/day17_point_compton_maximum.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-068.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-068.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-084.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-084-initial-missing-source-link.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-084.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-069.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint069.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-before-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-contract.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-exercise-before.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-exercise-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-result.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-target-reading-scope.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own069"
+}

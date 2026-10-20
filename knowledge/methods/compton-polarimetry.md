@@ -547,3 +547,63 @@ Fig9先以1332peak归一，背景20倍改善是relative形状；不是同曝光�
 [[taras-1971-phase-defined-polarization-formulas]] T71-D17-9–15及[[cl35-1763-polarization-population-replay]]以原Table5 a2/a4、calculatedR、N90/N0和p ratio做新central replay。指定5/2→3/2/two-multipole/sourcephase时，四centralδ候选仅M1E2 +2.6833给非负foldedq；支持作者该中央逻辑，不是新Jπ/δ测量或原误差band复现。完整jointΣ/finiteacceptance、literalpureM2/printed区间与全J7/2族未重放；p/R/N同链不计独立P。positiveq有时有力，不能因此跨核/门泛化。
 
 T71后续T71-D17-18–20将Table5 AD边际sigma矩形与正布居作完整条件投影，exactopen-cell/临界点/∞核约[−17.5908,−.8973]∪[.7502,3.1187]；不是jointCI，也未重现作者.73/3.27。literalpureM2 p在该ADbox上限2.0754小于printedpbox下限2.22，只限制当前point/box解释，不改原近极限候选或称实验冲突。细节见[[cl35-1763-polarization-population-replay]]“AD边际误差箱：精确分区与原口径边界”。
+
+### 90度点参考不是全角最大分析能力
+
+本session已完整读[[miller-2007-sega-polarization]]，MI07-D17-14/15的后续问题以[[garciaraffi-1997-monte-carlo-compton-polarimeters]] GR97-D17-1–4的原462/466两页公式定向核作companion；不重称GR97新全文/原GCOMPOL重放。Miller Eq4的Q0(α)=(1+α)/(1+α+α²)是90°点参考；其数值与general-angle**singleCompton**核的全局最大不恒同。改变normalization名称不等重新标定Qrel，原publishedcurve/误差保持。
+
+这里α=E/(mec²)、μ=cosθC、t=1+α(1−μ)=E/E′；θC是Comptonpolarangle，φ是散射平面相对入射E-plane，均不同于核emissionθ/φ。对free、unpolarized、initial-rest electron，未分析出射光子偏振，GR97 Eq3两正交φ强度给点分析能力
+
+\[
+q(\alpha,\mu)=\frac{1-\mu^2}{t+t^{-1}-1+\mu^2},
+\qquad q_{90}=\frac{1+\alpha}{1+\alpha+\alpha^2}.
+\]
+
+它是analyzingmagnitude，不是核physicalP或出射Stokesdegree。prefactor仍(E′/E)²；Day16已否决的漏prime猜测不复活。
+
+#### 全局最大值的证明与数表
+
+令D=t+t^-1−1+μ²。导数符号由
+
+\[
+\partial_\mu q=\frac{\alpha(1-\mu^2)(t^2-1)-2\mu(t^3+t)}{t^2D^2}
+\]
+
+决定。α>0且−1<μ≤0时分子为正；两端μ=±1给q0。在0<μ<1令w=μ/(1−μ)>0，驻点等价于
+
+\[
+4w^4+(12+8\alpha)w^3+(12+16\alpha+2\alpha^2)w^2
+ +(4+8\alpha)w-\alpha^2(2+\alpha)=0.
+\]
+
+降幂系数只有一次正负变化，且w0处为负、正无穷为正，故Descartes判据给唯一正根；它就是全域唯一maximum，θC,max<90°。α=0 Thomson极限为90°/q1。脚本独立symbolic核导数、变量代换与q90，不以anglegrid最大值当global证明。
+
+| E keV（理论输入） | θC,max | qmax | q90参考 | qmax/q90 |
+|---|---|---|---|---|
+| 333 | 84.9362° | .807179 | .795473 | 1.01472 |
+| 388 | 83.8888° | .769044 | .753179 | 1.02106 |
+| 511 | 81.6606° | .691802 | .666667 | 1.03770 |
+| 1332 | 71.0704° | .401515 | .346750 | 1.15794 |
+| 1763 | 67.4653° | .328826 | .272123 | 1.20838 |
+| 4430 | 55.5063° | .158322 | .113990 | 1.38891 |
+
+这些是free-electron point函数，不是所列能量参考线的新实验calibration。低α角偏移约α²/2 rad；高α的主导平衡w≈√(α/2)使qmax/q90→2，两者本身都随能量衰减。新数值低/高α控制相合，不外推成实际高能阵列灵敏度。
+
+#### 两hit阈值改变可用角域
+
+若**声明**恰一次Compton、两个独立读出沉积Es=E−E′和Ea=E′均≥T，则除E≥2T外，还需
+
+\[
+\max[-1,1-m_ec^2(1/T-1/E)]\le\mu\le
+\min[1,1-m_ec^2T/(E(E-T))].
+\]
+
+该区间可能为空；E122/T60和E150/T60虽E>2T仍无这种singlecollision事件。E333/T150允许θC约104.940°–150.707°，unconstrainedmax不可用，最佳允许边界q≈.650232；T60则仍可达84.936°/q.807179。它只是可复算运动学设计，不是GR97实际器件ε、SeGA未给cut，亦不适用于SG98的含side-ADC-zero confined定义或一般multiscatterpattern。
+
+#### 对实际Q/merit的边界
+
+在同一输入P/相同正交轴、接受已匹配且只含声明singleCompton的正权response时，Q可写相应q及方位项的加权平均，qmax是该层的上界；q90只是一种参考。真实多次Compton会继续传递偏振与能量，GR97-2的原model示例已经说明后续散射会改变instrumentQ，不能将此primarysinglepoint上界当全阵列定理。电子binding/材料、trigger/partialcharge、背景、错序与实际response也不在本计算内。
+
+最大q的pointangle不等最大FOM角：finite接受/效率、曝光、事件唯一性和jointΣ要另给，任意缩到零solidangle的“最优角”不提供实际beamtime优势。此分析限制MI07“limitedtoQ0”若被外推为所有角上界的字面解释，不改其333/388实测Qrel=.18或宣告其测量失败；两个能量的差仅约1.5/2.1%。
+
+复算`system/scripts/day17_point_compton_maximum.py`，本run `pointQ-contract.json` / `pointQ-result.json`；before/exercise/freezes与GR97定向scope/prefix保护记录齐。决定`limits`90°reference当全角上界和maxsensitivity当maxmerit，`supports`明确实际cut/角域/归一；无actualQ/δ/P或实验CI更新。

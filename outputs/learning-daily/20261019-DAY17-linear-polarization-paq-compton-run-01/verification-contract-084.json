@@ -1,0 +1,25 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md": 16,
+    "knowledge/sources/miller-2007-sega-polarization.md": 17
+  },
+  "artifacts": [
+    {
+      "file": "pointQ-result.json",
+      "true_fields": [
+        "ok",
+        "unique_positive_root_by_Descartes",
+        "source_q90_exact_control",
+        "single_scatter_not_full_transport_or_FOM",
+        "no_actual_Qrel_or_calibration_counts_CI_changed"
+      ]
+    },
+    {
+      "file": "pointQ-target-reading-scope.json",
+      "true_fields": [
+        "old_prefix_bytes_preserved"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

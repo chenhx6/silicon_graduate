@@ -1,0 +1,4 @@
+
+### Day17 checkpoint069：singlepoint q90/reference和globalmax
+
+GR97两页target/MI07fullanchor，quartic唯一最大证明、energytable与twohitcut域，非全阵列Q/FOM；oldprefix/review保，新6待审。084缺backlink初failure保修后valid，manifest069/H3，main / `Distinguish the 90 degree reference from the global Compton maximum`，windowactive/17once/partial18；Cm245官方新query在途。

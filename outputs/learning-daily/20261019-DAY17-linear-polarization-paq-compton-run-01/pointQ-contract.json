@@ -1,0 +1,66 @@
+{
+  "electron_mass_energy_keV": 511.0,
+  "gamma_grid_keV": [
+    0,
+    122,
+    333,
+    388,
+    511,
+    662,
+    847,
+    1332,
+    1368,
+    1763,
+    4430
+  ],
+  "scope": "singleCompton/freeunpolarizedrestelectron/finalpolunanalyzed; matchedplane q magnitude, not full detector Q",
+  "formula": "q=(1-mu**2)/(t+1/t-1+mu**2), t=1+alpha*(1-mu)",
+  "positive_w_stationary_quartic_coefficients": [
+    "4",
+    "12+8*alpha",
+    "12+16*alpha+2*alpha**2",
+    "4+8*alpha",
+    "-alpha**2*(2+alpha)"
+  ],
+  "anchor": "MI07 Eq4 q90; GR97 Eq2/3/11\u201313 targetread",
+  "new_targetread_pages_only": [
+    462,
+    466
+  ],
+  "no_general_Stokes_or_producer_certification": true,
+  "single_scatter_two_hit_threshold_examples_keV": [
+    [
+      122,
+      60
+    ],
+    [
+      150,
+      60
+    ],
+    [
+      333,
+      60
+    ],
+    [
+      333,
+      150
+    ],
+    [
+      500,
+      50
+    ],
+    [
+      500,
+      150
+    ],
+    [
+      1332,
+      60
+    ],
+    [
+      4000,
+      50
+    ]
+  ],
+  "cut_scope": "exact oneCompton depositEs and finalEprime each>=threshold, not SG98 ADCzero/multipletransport or actualSeGA cut"
+}

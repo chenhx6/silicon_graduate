@@ -2314,3 +2314,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint068：T71边际ADbox/正q完整条件投影
 
 QQ临界根+exact31boundary/∞补齐，条件ADbox两域/pureM2 p必要界非jointCI/实验矛盾，原recipe/primary缺口保。T71新18–20待审，verification083valid/manifest068/H3，main / `Bound Taras marginal AD inputs with exact population feasibility`，windowactive/17once/partial18。
+
+### Day17 checkpoint069：singlepoint q90/reference和globalmax
+
+GR97两页target/MI07fullanchor，quartic唯一最大证明、energytable与twohitcut域，非全阵列Q/FOM；oldprefix/review保，新6待审。084缺backlink初failure保修后valid，manifest069/H3，main / `Distinguish the 90 degree reference from the global Compton maximum`，windowactive/17once/partial18；Cm245官方新query在途。
