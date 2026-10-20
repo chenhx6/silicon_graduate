@@ -8,6 +8,9 @@ updated: 2026-10-20
 
 ## Active handoff — DAY18 independent session active
 
+checkpoint012已实际提交，稳定指针main / `Prepare next uncredited Day19 prompt and preserve Day18 deadline`；精确hash/H3/远端结果只publication-012回执。
+
+
 checkpoint012：下一张Day19准备prompt已落盘（prompts/20261021-DAY19-rdds-fast-timing.md），不提前授分/不启动session；Hermans/Schwalm历史原件仅metadata。原硬截止2026-10-21 15:00及15–16收束继续保持。
 
 checkpoint011已实际提交，稳定指针main / `Reconcile DAY18 evidence counts and actual preview reading scope`；精确hash/H3/远端结果只publication-011回执。

@@ -1224,6 +1224,9 @@ L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原�
 
 ## Verification and continuation
 
+checkpoint012已实际提交，稳定指针main / `Prepare next uncredited Day19 prompt and preserve Day18 deadline`；精确hash/H3/远端结果只publication-012回执。
+
+
 checkpoint012：已准备下一张正式Day19课程prompt（outputs/learning-daily/prompts/20261021-DAY19-rdds-fast-timing.md）；严格只作准备入口，不提前授课、不启动新session/调度，保持next18/count17与completed[]/partial[18]。Schwalm1977与Hermans1977历史DSA/RD对比确认仅metadata/无body，不当已读primary。原Day18硬截止2026-10-21 15:00上海及15–16收束门继续保持。
 
 checkpoint011已实际提交，稳定指针main / `Reconcile DAY18 evidence counts and actual preview reading scope`；精确hash/H3/远端结果只publication-011回执。
