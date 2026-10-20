@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-20T15:24:35.777399+00:00",
+  "subject": "Audit 187Au B(E2_out) 88-fold collapse to single-particle Weisskopf limit and 183Au polarization error",
+  "ordinary_paths": [
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/index.md",
+    "system/scripts/day18_guo22_sensharma20_187au_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-contract-022.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-result-022.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-026.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-023.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-022.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-025.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-022.md only"
+  },
+  "verification": "verification-026.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification026/lint025 0 errors/boundary023/diff; 187Au/183Au 4 checks passed"
+}

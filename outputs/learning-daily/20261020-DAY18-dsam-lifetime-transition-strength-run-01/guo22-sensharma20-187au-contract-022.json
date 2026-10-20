@@ -1,0 +1,18 @@
+{
+  "target": "187Au and 183Au",
+  "papers": [
+    "Sensharma 2020 Phys. Rev. Lett. 124:052501",
+    "Guo 2022 Phys. Lett. B 828:137010",
+    "Bourgeois 1989 Z. Phys. A 333:5",
+    "Rupnik 1989 Z. Phys. A 333:1",
+    "Nandi 2020 Phys. Rev. Lett. 125:132501"
+  ],
+  "description": "Quantitative audit of 187Au B(E2_out) collapse to single-particle level and 183Au polarization error propagation",
+  "check_count": 4,
+  "checks": [
+    "inband_collectivity_weisskopf_calibration",
+    "376keV_bourgeois_88x_BE2_collapse",
+    "462keV_rupnik_11x_BE2_collapse",
+    "183Au_polarization_uncertainty_underestimation"
+  ]
+}

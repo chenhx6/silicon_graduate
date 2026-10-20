@@ -2458,3 +2458,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint021：105Pd单中子横向wobbling混合比敏感性与PRM算符淬灭解构
 
 审计Timár 2019 105Pd带间跃迁数据（TI19-D18-1）：Table I报告的B(E2)out/B(E2)in在DCO小解（0.35–0.59）或早期Rickey 1977角分布解（0.46–0.62）下发生2.96至8.06倍断崖式塌缩（暴跌至0.042–0.223），伴随B(M1)out/B(E2)in反向暴增3.15至7.39倍。更关键的是，作者明确承认裸PRM模型高估B(M1)达3–10倍，通过引入0.36的g_eff人工淬灭因子（将理论M1算符压低7.72倍，即仅剩裸值的12.96%）强行由单一delta(21/2- -> 19/2-)点配平。69项writeback/25mapped知识页通过verification025/lint024/boundary022。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint022：187Au与183Au wobbling跃迁强度断崖式塌缩与偏振误差解构
+
+审计Sensharma 2020与Guo 2022 187Au和183Au数据（GU22-D18-1/SE20-D18-1）：在187Au极强带内集体性（1.49 e2b2 = 234.6 W.u.）基准下，Sensharma由角分布大解推导的B(E2_out)/B(E2_in) ~ 0.70对应164.2 W.u.的超集体wobbling声子。然而Bourgeois 1989早期内转换系数与Guo 2022线偏振重测确立376.5 keV跃迁的真实解为delta = -0.10(5)（E2份额仅0.99%），使B(E2_out)遭遇88.0倍断崖式暴跌至单粒子1.87 W.u.，微观QTR证实为Nilsson单准粒子轨道间跃迁。同时补充材料解构揭示183Au偏振误差被低估6.8倍（实际sigma_P >= 0.61而非0.09），使多极双解完全不可辨。74项writeback/25mapped知识页通过verification026/lint025/boundary023。原硬截止明日15点保持。

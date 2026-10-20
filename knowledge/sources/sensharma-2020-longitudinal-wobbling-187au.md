@@ -123,3 +123,13 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 ## Personal Notes
 
 本页只建立 Sensharma 2020 支持方证据链。用户已审核 source 页面及 AU20-1 至 AU20-15，未发现问题；这不构成对后续 `187Au` 争议的裁决。
+
+## Day18定量审计：纵向wobbling声称在内转换系数与线偏振判据下的塌缩
+
+在Day18正式学习中对本文Fig. 3与Fig. 5中声称的187Au纵向wobbling跃迁强度进行对照审计，raw SHA256 `F348DCE9976AD076FD9B1D5281A728E0923053ACED33B0270F643D770729366A`已核。原SE20-1–12各claim及`human-reviewed`状态完全保留；新SE20-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SE20-D18-1 | 本文基于Gammasphere角分布拟合挑选大混合比解（delta ~ 2.6-3.0，E2份额87%-90%），报告B(E2_out)/B(E2_in)高达~0.70并声称核内首例“纵向wobbling”。结合已知带内跃迁极强集体性（1.49 e2b2 = 234.6 W.u.），该比值对应高达164.2 W.u.的超集体带间跃迁。然而后续Guo 2022与早期Bourgeois 1989内转换测量确立真实物理小解为delta = -0.10(5)（E2份额仅0.99%），使B(E2_out)暴跌88.0倍至仅1.87 W.u.，完全退化为单准粒子Nilsson能级间跃迁。本文对偏振测量的缺失和对角分布大解的盲目采纳制造了虚假的集体四极增强假象。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3-5 Figs. 3, 5；新guo22-sensharma20-187au-result-022 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-contract-022.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-result-022.json)4项检查全过。

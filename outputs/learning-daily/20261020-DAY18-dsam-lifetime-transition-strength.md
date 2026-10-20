@@ -1633,6 +1633,73 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "TI19-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "anchor": "Day18定量审计：187Au带间跃迁B(E2)的88倍断崖式塌缩与183Au偏振误差解构",
+      "summary": "187Au内转换与线偏振确定小解导致B(E2_out)遭遇88倍断崖式暴跌至单粒子1.87 W.u.，及183Au偏振误差6.8倍低估解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "anchor": "Day18定量审计：纵向wobbling声称在内转换系数与线偏振判据下的塌缩",
+      "summary": "Sensharma 2020声称的164.2 W.u.超集体纵向wobbling在物理小解下暴跌88倍退化为单准粒子Nilsson激发",
+      "sources": [
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "SE20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "从集体wobbling到单粒子强度的断崖式跌落：187Au与183Au的终极反例",
+      "summary": "187Au与183Au反例：角分布大解将1-2 W.u.单粒子跃迁虚假放大至164 W.u.，及偏振不确定度低估对多极双解识别的破坏",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D18-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "SE20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "跃迁强度的单粒子极限与内转换系数的判决性检验",
+      "summary": "方法页补充内转换系数与线偏振度防止单粒子跃迁被虚假误标为超集体声子跃迁的刚性物理检验准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D18-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "SE20-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "guo-2022-low-spin-wobbling-187au",
+      "summary": "索引增加187Au纵向wobbling跃迁强度88倍断崖塌缩至单粒子强度导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D18-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "SE20-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1647,6 +1714,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint022已实际提交，稳定指针main / `Audit 187Au B(E2_out) 88-fold collapse to single-particle Weisskopf limit and 183Au polarization error`；精确hash/H3/远端结果只publication-022回执。
+
 
 checkpoint021已实际提交，稳定指针main / `Audit 105Pd transverse wobbling delta root sensitivity and PRM M1 operator quenching`；精确hash/H3/远端结果只publication-021回执。
 

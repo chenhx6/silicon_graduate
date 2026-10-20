@@ -29,6 +29,10 @@ updated: 2026-10-20
 
 - [[timar-2019-transverse-wobbling-105pd]] — 105Pd 单中子横向 wobbling 跨带跃迁混合比双根敏感性与 PRM 算符 7.7 倍人工淬灭解构。
 
+- [[guo-2022-low-spin-wobbling-187au]] — 187Au 纵向 wobbling 声称在内转换系数与线偏振下遭遇 88 倍断崖式塌缩至单粒子强度。
+
+- [[sensharma-2020-longitudinal-wobbling-187au]] — 187Au 纵向 wobbling 支持方实验数据与角分布大解模型偏置审计。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

@@ -135,3 +135,13 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 ## Personal Notes
 
 本页是 `187Au` project 的 counter-source/reinterpretation source。用户已完成 source 页面与 G22-1 至 G22-20 的逐条审核；页面为 `human-reviewed`，全部 claims 均为 `needs_review: false`。未建立 `low-spin-wobbling-controversies` umbrella project。
+
+## Day18定量审计：187Au带间跃迁B(E2)的88倍断崖式塌缩与183Au偏振误差解构
+
+在Day18正式学习中对本文主文及补充材料中187Au和183Au的跃迁几率与偏振测量进行定量审计，raw SHA256 `DE541977E4C8402C905EF8268EBC5707303F4B92F244EB4F59405A70C3473206`已核。原GU22-1–14各claim及`human-reviewed`状态完全保留；新GU22-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D18-1 | 本文通过重测线偏振P与角关联比Rac，并结合早期内转换系数测量（Bourgeois 1989 / Rupnik 1989），对Sensharma 2020声称的187Au“纵向wobbling”模式给出了判决性证伪：(1) 在已知带内极强集体性（B(E2_in) = 1.49 e2b2 = 234.6 W.u.）基准下，Sensharma声称的B(E2_out)/B(E2_in) ~ 0.70对应高达164.2 W.u.的超集体跃变；然而内转换系数与线偏振确立376.5 keV跃迁的真实小解为delta = -0.10(5)（E2份额仅0.99%），其B(E2_out)遭遇88.0倍断崖式暴跌，真实值仅为1.87 W.u.，完全落入单粒子Weisskopf强度范围；(2) 补充材料解构证实183Au所谓的偏振不对称度误差被严重低估6.8倍（实际背景扣除误差sigma_P >= 0.61而非报告的0.09），数学上根本无法分辨多极双解。这彻底将所谓A~190区纵向wobbling瓦解为单粒子Nilsson轨道跃迁（#19到#21）。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.3 Figs. 3-4；新guo22-sensharma20-187au-result-022 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-contract-022.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-result-022.json)4项检查全过。

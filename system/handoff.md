@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint022：187Au与183Au纵向/横向wobbling跃迁强度终极审计（GU22-D18-1/SE20-D18-1），揭示Sensharma声称的164.2 W.u.超集体纵向wobbling在内转换系数与线偏振下遭遇88.0倍断崖式塌缩至单粒子1.87 W.u.，及183Au偏振误差6.8倍低估解构。74项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint021：105Pd单中子横向wobbling混合比双解深入审计（TI19-D18-1），揭示Table I中B(E2)out/B(E2)in在物理小解下塌缩2.96-8.06倍，以及PRM理论通过0.36有效g因子淬灭（将M1算符人工削弱7.72倍）强制由单点配平的拟合假象。69项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint020：133La纵向wobbling多极混合比双解深入审计（BI19-D18-1），揭示Table 1中B(E2)out/B(E2)in在物理小解下发生6.32-7.40倍断崖式塌缩，伴随B(M1)out/B(E2)in反向暴涨4.63-9.11倍的多极倒转反例。65项writeback已通过验证。原硬截止明日15点保持。
@@ -30,6 +32,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint022已实际提交，稳定指针main / `Audit 187Au B(E2_out) 88-fold collapse to single-particle Weisskopf limit and 183Au polarization error`；精确hash/H3/远端结果只publication-022回执。
+
 
 checkpoint021已实际提交，稳定指针main / `Audit 105Pd transverse wobbling delta root sensitivity and PRM M1 operator quenching`；精确hash/H3/远端结果只publication-021回执。
 

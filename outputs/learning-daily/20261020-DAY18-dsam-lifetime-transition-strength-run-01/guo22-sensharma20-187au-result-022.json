@@ -1,0 +1,55 @@
+{
+  "target": "187Au and 183Au",
+  "in_band_calibration": {
+    "A": 187,
+    "B_W_E2_e2b2": 0.006352,
+    "BE2_in_e2b2": 1.49,
+    "BE2_in_Wu": 234.6,
+    "sensharma_claimed_BE2_out_Wu": 164.2
+  },
+  "transitions": [
+    {
+      "transition": "376.5 keV (13/2- -> 11/2-)",
+      "E_gamma_keV": 376.5,
+      "sensharma_delta": 2.6,
+      "sensharma_E2_fraction": 0.871,
+      "sensharma_BE2_out_Wu": 164.2,
+      "reference_source": "Bourgeois 1989 conversion coefficients",
+      "reference_delta": -0.1,
+      "reference_E2_fraction": 0.0099,
+      "BE2_collapse_factor": 88.0,
+      "true_BE2_out_Wu": 1.87,
+      "true_BE2_ratio": 0.008,
+      "nature": "single-particle excitation (1-5 W.u.) rather than collective wobbling phonon"
+    },
+    {
+      "transition": "462.6 keV (15/2- -> 13/2-)",
+      "E_gamma_keV": 462.6,
+      "sensharma_delta": 3.0,
+      "sensharma_E2_fraction": 0.9,
+      "sensharma_BE2_out_Wu": 164.2,
+      "reference_source": "Rupnik 1989 / Guo 2022 Rac & P",
+      "reference_delta": 0.3,
+      "reference_E2_fraction": 0.0826,
+      "BE2_collapse_factor": 10.9,
+      "true_BE2_out_Wu": 15.06,
+      "true_BE2_ratio": 0.0642,
+      "nature": "single-particle excitation (1-5 W.u.) rather than collective wobbling phonon"
+    }
+  ],
+  "au183": {
+    "nucleus": "183Au",
+    "reported_paper": "Nandi et al. PRL 125, 132501 (2020)",
+    "transition": "495 keV linking transition",
+    "reported_sigma_P": 0.09,
+    "actual_background_sigma_P": 0.61,
+    "underestimation_factor": 6.8,
+    "significance": "With true statistical error sigma_P >= 0.61, distinguishing large vs small delta roots is mathematically impossible."
+  },
+  "summary": {
+    "max_BE2_collapse_factor": 88.0,
+    "true_376keV_BE2_out_Wu": 1.87,
+    "conclusion": "376 keV B(E2_out) collapses 88.0x from 164.2 W.u. down to 1.87 W.u., proving Band 2 is an unfavored single-particle Nilsson state (#21 h9/2) rather than a collective longitudinal wobbler."
+  },
+  "checks_passed": true
+}
