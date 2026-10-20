@@ -1,0 +1,13 @@
+{
+  "indexed_claim_counts": {},
+  "artifacts": [
+    {
+      "file": "counterexample-reflect-audit.json",
+      "true_fields": [
+        "all_atomic_locators_present",
+        "no_new_measurement_score_or_card"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

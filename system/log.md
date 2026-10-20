@@ -2302,3 +2302,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint065：三多极finiteproduct与isotropicAD反例
 
 原8页/14newclaims待审，双路线exact三case/五角与EM/unoriented/thirdzero控制，positiveM1E2两根I1/P非零；p强度比/phase/trace边界保，不是新核fit。080初CG行pipe修复后valid、manifest065/H3，main / `Validate multipole polarization with finite products and isotropic controls`，原windowactive/17once/partial18。
+
+### Day17 checkpoint066：三个零量与actualinput整合
+
+来源后primed10项atomic回忆audit，highspinsynthesis整合核I/singleP/jointC/nullQ与MI/DR/SIM实际证据层；无新实验/盲分或卡。verification081valid/manifest066/H3，main / `Synthesize polarization zero observables and missing calibration inputs`，windowactive/17once/partial18；T71原24页主线继续中。

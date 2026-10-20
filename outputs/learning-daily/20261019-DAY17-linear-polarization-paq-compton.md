@@ -8852,6 +8852,53 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "VT74-D17-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "summary": "10项来源后primed回忆/atomic回核，将isotropicI、singleP0、nullA0及sameEM不能互推的三层合同和actual输入优先级综合；无新实验/分数/学分。",
+      "anchor": "Day17反例整合：三个零量不能互相替代",
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-8"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-7"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-2"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-4"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-11"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-12"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-5"
+        },
+        {
+          "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+          "locator": "AO75-D17-6"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-10"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-10"
+        }
+      ]
     }
   ]
 }
@@ -9297,3 +9344,9 @@ canonicalMI07/sharedcalnote/Compton、唯一writeback、script/input/result/scop
 sourceEq15/26先消CG得finiteR*K，L3/L′5/K6 q0CG0/q2非零、Ji3→Jf2 product√1155/1980；不称公式erratum/原publiccode修好。新独立Eq9/22振幅与Eq14/15/26 rank在三声明case×五θ exactI/S核，EMflip/unoriented/thirdzero过。positiveM±1/2的3/2→1/2 M1/E2 δVT=√3±2两根使a2=0/I1，P90=∓/±√3/2；sourceEq52的0/0警告不置零，不重赋实际核Jπ/δ。
 
 原p=J0/J90、p′才boundedP，N/R比Eq56精确桥A=QP；VT74只证历史ratio命名实例，不补EW69未取Ref9/作者意图。unobservedUk只完整γtrace，finitegate/ICC另合同；MethodII同tensor前提与normallyunique保条件。canonicalVT74/newnote/Compton/index、唯一writeback、script/input/result/scope/freezes及18priming齐。verification080/publication065实际门，17once/partial18/windowactive。
+
+### Checkpoint066：三个零量与核P—jointP—仪器Q的跨源整合
+
+counterexample-reflect-before为来源后强primed10项回忆，freeze/hash与audit逐atomic/实际artifact对应，无blindscore/独立实验或新卡。既有highspinsynthesis新增“三个零量不能互相替代”：VT74isotropicI不定singleP、FA48single0不定joint、nulla不定knownP/Q，并用SeGA同E1异参考P、DR99四N剩多解和SIM05实际link限制解释跳级。
+
+5000totalpeak不等selectedcount、AO75不同仪器/peak归一、VT74ratio历史实例不证EW作者意图、完整trace不代finitegate均映canonicalatomic；原反例域/未得actualΣ不抹平。此段无newsource/scientific重算，17once/partial18/windowactive。verification081/publication066实际门。下一Taras1971原24页before已冻，刚开始正文主线，不预填全读/新结果。

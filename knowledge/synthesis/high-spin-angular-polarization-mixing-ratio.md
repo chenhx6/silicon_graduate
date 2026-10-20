@@ -3,7 +3,7 @@ type: synthesis
 title: "High-spin angular distributions, polarization and mixing-ratio evidence"
 aliases: [高自旋角分布偏振混合比证据综合]
 created: 2026-09-21
-updated: 2026-10-19
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 scope: high-spin-angular-polarization-mixing-ratio
@@ -192,3 +192,29 @@ p(a,G)=\operatorname{Tr}(E_GK_a\rho K_a^\dagger).
 \]
 
 \(E_G=c\mathbf1,\ c>0\)是保留上游singles角形状的充分条件；有限角门是否满足它须由真实响应核查。对受限态族，即使偶然给相同角形状，也只证明该族内相合。在\(p(G)>0\)时，条件谱还要除以\(p(G)\)，所以逐门归一后的谱与joint pair counts要分别记录normalizer。门后的分布描述事后选出的子样本。这里对已给定的辐射支归一；若把内部转换等未观测衰变也计入，须使用完整通道及其实际强度权重，见[[martin-1987-ensdf-mixing-ratio-phase-conventions]] MA87-3。这里没有新增真实计数、MC或原producer认证。
+
+## Day17反例整合：三个零量不能互相替代
+
+这次综合在来源后、明确强priming的10项回忆冻结后逐canonicalatomic核，不给盲测分数、不增加卡/实验信用。[[polarimetry-shared-calibration-count-design]]保actualcount/校准矩阵，[[ppco-joint-response-and-information]]保two-photon合同，[[three-multipole-polarization-response-contract]]保physicalP与AD的exact反例。它们回答的是不同输入层，不能把某个零值一路向下传成所有观测都为零。
+
+| 已知的“零”或标签 | 不能替代的量 | 本session证据性质与locator | 真正解除歧义的输入 |
+|---|---|---|---|
+| 发射角分布I各向同性 | singlephoton planeStokesS/P | [[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-8：sourceEq52警告；本任务positiveρ的M1E2 exact两根I1而P90±√3/2，是条件计算 | sameparent/phase/布居与multipole幅度或matchingP；不是再把aK=0当P0 |
+| 两singleP1=P2=0 | 两光子jointC/PP1 | [[falkoff-1948-polarization-correlation]] FA48-D17-7：unoriented/backtoback purecascade理论例，独立CG核；非新实验 | 同角色/全局轴/门下的jointdensity或actualfourN与两局部response，不由两个marginal补 |
+| 无偏振null的countasymmetry为0 | 对knownnonzeroP的仪器Q | [[miller-2007-sega-polarization]] MI07-D17-4、[[droste-1999-ppco-polarization]] DR99-D17-3：a与Q不同层且response迁移有假设 | sameenergy/门/阈值/arrayweights的nullledger，再加非零P参考与jointCov |
+| 同一E1 multipolarity | P的统一sign或大小 | [[miller-2007-sega-polarization]] MI07-D17-2/6：同parent333/388两支E1、AD拟合参考P异号，不是两独立P标尺 | J路径、实际取向、角/接受、branch/gate；EM标签不补全部核制备 |
+| AD/polarization引用表出现更多列 | 更多独立证据或唯一δ | [[droste-1999-ppco-polarization]] DR99-D17-5/8：normalizedfourN三shape量，原Table1仍留1/4/5/8；sameST99主数据 | 新companion能否排剩候选及actualΣ/response；多种同数据加工不是新experiment |
+
+“各向同性I”和“unorientedρ”是不同前提；“singleP零”与“jointC零”也是不同条件。这里没有断言所有isotropicI必强P、所有single0必C非零；表给的是不能无条件推出的具体反例/输入边界。
+
+### 同样需要守住的统计与解释边界
+
+[[miller-2007-sega-polarization]] MI07-D17-11以原25%/3%选择的5000**totalphotopeak**做knowncal设计，σP≈.309；它不等5000selectedcount，不包括真实peakfit/a/Q/背景Σ。unitspread不是每条target独立校准σ，不能把更多计数自动换成calibration误差也同比缩小。
+
+[[aoki-1975-geli-summing-polarimeters]] AO75-D17-6/10/11保Fig6ratio方向图文未闭、前后不同仪器效率分母及peaknormalized背景。[[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-12明确p强度比与p′差和；[[ewan-1969-single-geli-polarimeter]] EW69-D17-11的ratio可行解释不因这一历史实例便升级成原作者意图已证。符号字典、归一和原件冲突各有对象，不按同一个p/A/Q名称合并。
+
+[[simons-2005-130cs-chiral-structures]] SIM05-D17-7/9/10将A≈130实际指认落回链条：四link中心P为负，但mult原为M1/E2，sameparity/config解释结合DCO、levelmap和bandA prior；七sameparent photonratio仍需δ修正。不以Psign/ratio直接证明pureM1、唯一δ或chirality；jointΣ和本campaignQ/a/实际门缺口不被通用理论消掉。
+
+[[vaillancourt-taras-1974-three-multipole-formulas]] VT74-D17-10的unobservedUk与Day16末段完整通道记法相合；completeγtrace的无干涉权重不能直接迁finitegate。匹配参考的核制备、每个门的normalizer与actualresponse仍是source理论进入真实实验的接口。
+
+决定`supports`P/A/Q分层与多observable价值，`limits`以上无条件互推，`revises`旧摘要中ratio/cos²/效率分母等已明确定位的转录；没有新的实验P/Q/δ/Jπ或结构模式排序。下一高信息路线是实际samecampaign ledger/response/Σ与同tensor的独立companion；在尚有研究窗口时继续已允许的问题，不能把本次整合当日终。

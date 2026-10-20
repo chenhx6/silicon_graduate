@@ -1,0 +1,98 @@
+{
+  "at": "2026-10-20T03:38:44.275657+00:00",
+  "primed": true,
+  "items": [
+    {
+      "recall_item": "I各向同性不能替P",
+      "source": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+      "locator": "VT74-D17-8",
+      "actual_claim_row": "| VT74-D17-8 | 原Eq52明确ADisotropic仍可能linearP，不能把aK=0时的0/0定义成0；本sessionpositive±1/2布居的3/2→1/2 M1/E2有δ=√3±2两根，使a2=0且P90=±√3/2。 | source-warning-and-task-counterexample | direct-and-self-audit | printed339 Eq52 andfollowingparagraph | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/vaillancourt1974-response-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "singleP零不能替jointC",
+      "source": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+      "locator": "FA48-D17-7",
+      "actual_claim_row": "| FA48-D17-7 | 共同globalxy轴/初态unoriented/opposite方向下两marginalP=0，jointPP1=A_F可非零，AF不是单光子P或计数A。与DR99 AA1=Q1Q2PP1只在匹配轴/响应时桥接。 | cross-source-conditional-inference | direct-and-self-audit | printed518 Eq1; TableI | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/falkoff1948-CG-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "sameE1不固定Psign",
+      "source": "knowledge/sources/miller-2007-sega-polarization.md",
+      "locator": "MI07-D17-2",
+      "actual_claim_row": "| MI07-D17-2 | 249Cf约1µCi，经alpha衰变245Cm388.3keV9/2−同parent的333→54.8 9/2+和388→0 7/2+均E1；oppositeP由不同branch/AD而非E/M相反。Si厚400µm距11cm，2milPt停重离子。 | reference-identity | direct-and-self-audit | printed715 Fig3 Sec3.1–3.2 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-identity-reading-scope.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "null a定义不可裸移",
+      "source": "knowledge/sources/miller-2007-sega-polarization.md",
+      "locator": "MI07-D17-4",
+      "actual_claim_row": "| MI07-D17-4 | a=Uperp/Uparallel，A=(Nperp−aNparallel)/(Nperp+aNparallel)，a333=.126(.007)/a388=.128(.007)，不同ST99倒数约定；weighted平均σ多来自unitdifference，sample std .009，不自动作独立共同calibrationσ。 | response-convention | direct-and-self-audit | printed714 Eq5–6; printed716 Sec4.2 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-count-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "totalpeak不等selectedcounts",
+      "source": "knowledge/sources/miller-2007-sega-polarization.md",
+      "locator": "MI07-D17-11",
+      "actual_claim_row": "| MI07-D17-11 | 设计Npeak5000/nullP/Q.14、按原rounded3%/25%独立primitivecounts且knowna=.12，sigmaP≈.308607，闭合Outlook约.3的计数量级；不是5000selected事件或actualCI。若另假设σa .007独立，仅该nuisance可贡献.2083，但实际unitspread/Cov不允许如此直接合成。 | conditional-count-design | direct-and-self-audit | printed716 Sec4.2; printed718 Outlook | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-count-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "ratio不等boundedP/作者意图",
+      "source": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+      "locator": "VT74-D17-12",
+      "actual_claim_row": "| VT74-D17-12 | 本篇p=J0/J90是强度比，末段p′才差和；N=N90/N0、R=σ90/σ0，Eq56经转换精确得A=QP，Q=(R−1)/(R+1)。与EW69 ratio解释相容但不证明EW69作者意图/Ref9body。 | observable-dictionary | direct-and-self-audit | printed339 Eq53–56 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/vaillancourt1974-response-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "fourN不等四independent数据",
+      "source": "knowledge/sources/droste-1999-ppco-polarization.md",
+      "locator": "DR99-D17-5",
+      "actual_claim_row": "| DR99-D17-5 | PP1是jointfield parity差和，AA1=Q1Q2 PP1。Footnote3说明它是两个singleP之外的一个additional ratio自由度；四normalizedN只三shape自由度。 | formalism-and-information | direct-and-self-audit | printed263 Eq11–13 footnote3 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/droste1999-response-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "AOratio方向与merit分母",
+      "source": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+      "locator": "AO75-D17-6",
+      "actual_claim_row": "| AO75-D17-6 | 正文称ratio I0/I90=2.47±.30、pred2.50，Fig6却I90>I0；保原方向不闭边界，仅大小可转κ幅度=.423631±.049830局部传播，未认证原fitCov。 | source-internal-ratio-boundary | direct-and-self-audit | printed56 Sec2.2 Fig6 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-response-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "SIMM1E2不自动pureM1",
+      "source": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+      "locator": "SIM05-D17-10",
+      "actual_claim_row": "| SIM05-D17-10 | 原Table逐七对sameparent I/E作pureM1条件控制，Bin/Bout=Iin/Iout(Eout/Ein)^3×(1+δout²)/(1+δin²)；δ=E2/M1。公共尺度消除，但δ和Cov不消；未重现作者Fig6 producer或给新δfit。 | task-calculation | direct-and-self-audit | printed544 Table1; printed545 Table2; printed549 Fig6 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simons2005-link-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    },
+    {
+      "recall_item": "完整trace不等finitegate",
+      "source": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+      "locator": "VT74-D17-10",
+      "actual_claim_row": "| VT74-D17-10 | Eq42–45对完整unobservedγtrace，Uk按γmultipole幅度平方加权且无interference；不是finiteγgate接受，也不能未经分支/ICC合同换totaltransition强度。 | unobserved-feeding-boundary | direct-and-self-audit | printed338 Fig1 Eq42–45 | true |",
+      "artifact": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/vaillancourt1974-response-result.json",
+      "decision": "supports-with-boundary; source/conditional calculation distinct",
+      "independent_exam_credit": false
+    }
+  ],
+  "all_atomic_locators_present": true,
+  "no_new_measurement_score_or_card": true
+}

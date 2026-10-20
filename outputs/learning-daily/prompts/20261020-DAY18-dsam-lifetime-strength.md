@@ -233,3 +233,5 @@ Day17 checkpoint063 priming：AO75-D17-1–13原8页、Fig6ratio图文方向未�
 Day17 checkpoint064 priming：MI07-D17-1–13原6页、a反ST99/actual15unit/αtag、5000totalpeak rounded25/3%→σP.3086 knowncal设计；unitspread不当独立σa，原四P order/acceptancemoment不认证producer，Table1跨array外推/eff估计与higherE未标定保持。无formal18信用。
 
 Day17 checkpoint065 priming：VT74-D17-1–14原8页至Eq56、new三多极response note保存sourcephase/finiteproduct和positiveisotropicAD两根δVT=√3±2/P非零exact控制；p强度比与boundedP精确桥不补EW69作者意图。完整trace/finitegate与actual核/Σ边界保，无formal18信用。
+
+Day17 checkpoint066 priming：highspinsynthesis“三个零量不能互相替代”整合核I/singleP/jointC/nullQ与sameEM/共享数据域，来源后10项非blind、非新实验/学分；需actualsamegate/response/Σ，不以source整合替正式18交付。
