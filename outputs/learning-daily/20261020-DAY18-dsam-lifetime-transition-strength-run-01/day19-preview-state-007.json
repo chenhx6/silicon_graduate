@@ -13,5 +13,13 @@
   "status": "Radeckprimarycomplete/newconditionalexercise; Nolan/mainlinemethoddecisiontreepending",
   "no_Day20_opened": true,
   "is_runner_execution_metadata": false,
-  "meaning": "observed study-preview tracking only; original run receipt controls identity/deadline"
+  "meaning": "observed study-preview tracking only; original run receipt controls identity/deadline",
+  "radeck_read": true,
+  "nolan_targeted_read": true,
+  "complete_day19_preview_deliverables": false,
+  "pending": [
+    "formal Day19 independent session",
+    "full methods decision tree source set",
+    "fast timing/TDPAD actual source"
+  ]
 }

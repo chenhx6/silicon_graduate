@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报含33atomic映射项/14mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报含35atomic映射项/15mapped页；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
 
 ## Candidate pool and selection
 
@@ -49,11 +49,15 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint008：Nolan方法框架与交叉方法反例
+
+Nolan旧source已有历史full-read状态；本session新核PDF3 contents、PDF6–7 DSAM/RDM、PDF10–12 F/sidefeeding、PDF19–23 Coulomb/feeding和PDF78–81 accuracy comparison，旧页prefix/hash保持。新NS79-P19-1–8补出：DSAM需stopping/feeding，RDM短寿命端受distance标定，1–20 ps重叠交叉仍可能共享错误stopping；由此形成方法选择决策树。fast timing/TDPAD尚未用新原件核对，不把本preview写成完整Day19。[[lifetime-method-selection-response-contract]]与Nolan/Radeck两页新增待审；preview仍partial19、formal_credit=false、不打开20。
+
 ### checkpoint007：恰好下一Day19的无学分原件预习
 
 原timegate17:50上海余1269.79分钟、[候选池与单卡决定](20261020-DAY18-dsam-lifetime-transition-strength-run-01/candidate-refresh-007.json)、[primed回忆冻结](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-recall-freeze-007.json)先于新开Radeck/Nolan。Radeck完整十页/13fig3table9编号式、PDF2–9视觉核，新R12-P19-1–10待审；原人审prefix/12falseflags字节保持。新SH/US条件平均、缺90°eff/理论补归一、τ回填迭代/坐标literalboundary已canonical；新script只条件核、不新实验CI。Nolan本preview未新原读，完整方法树/校准清单pending，不预填完成。
 
-本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；33items/14mapped知识页、65新待审claims。主reportverification011/report/33writeback项14页/partial18coverage/lint010/boundary008/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
+本轮新增[[lifetime-method-selection-response-contract]]及RDDS方法/索引互链；35items/15mapped知识页、73新待审claims。主reportverification012/report/35writeback项15页/partial18coverage/lint011/boundary009/diff通过，0errors249warnings；当前卡partial18，下一卡previewpartial19另在[真实预习状态](20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json)保无信用；正式18仍等原deadline收束，19留独立session，不开20。
 
 ### checkpoint006：finite-stopping companion的真实六行合同
 
@@ -1077,6 +1081,84 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "R12-P19-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+      "anchor": "Day18内无学分Day19预习：时间窗与交叉方法边界",
+      "summary": "targeted Nolan pages补DSAM/RDM窗口、shared stopping反例、feeding/strength输入；旧页面prefix/status保留",
+      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-1"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-2"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-3"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-4"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-5"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-6"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-7"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "Nolan方法框架：选择方法前先列主导响应",
+      "summary": "形成无学分方法选择决策树，fast timing/TDPAD仍pending",
+      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-1"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-2"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-3"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-4"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-5"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-6"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-7"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-P19-8"
+        }
+      ]
     }
   ]
 }
@@ -1091,6 +1173,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+稳定指针 main / `Add Nolan method-window boundaries to uncredited Day19 preview`；精确 hash/H3/远端结果只 publication-008 回执。
 
 稳定指针 main / `Record Radeck component response and uncredited Day19 preview`；精确 hash/H3/远端结果只 publication-007 回执。
 

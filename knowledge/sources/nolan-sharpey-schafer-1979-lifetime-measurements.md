@@ -86,3 +86,23 @@ Historical stopping powers, feeding models, detector resolution and side-feeding
 ## Extracted Pages
 
 - Methods: [[doppler-shift-attenuation-method]]。
+
+
+## Day18内无学分Day19预习：时间窗与交叉方法边界
+
+本段为同一Day18 session在Radeck之后的下一卡无学分preview。原页面旧字节、旧NS79-1–3、`unreviewed`状态和既有flags均保留；以下新claims是本session targeted page verification、`needs_review: true`，不把旧完整阅读记录当本次盲读。核对PDF3 contents、PDF6–7 DSAM/RDM框架、PDF10–12 attenuation与side-feeding、PDF19–23 Coulomb/feeding、PDF78–81 accuracy comparison；没有重建历史实验或现代fast-timing source。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| NS79-P19-1 | review把直接方法范围置于约10^-18–10^-6 s；DSAM把寿命和固体/气体减速时间比较，RDM把寿命和5 µm–2 cm两箔间飞行时间比较。此为方法框架，不是任意核素的硬可用区间。 | method-window-framework | direct-review | PDF3 contents；PDF6 | true |
+| NS79-P19-2 | DSAM centroid/attenuation的F=〈v〉/v0需Stopping theory；作者区分electronic与nuclear stopping的速度域，并强调F(T)曲线依该理论。 | dsam-stopping-dependence | direct-review | PDF6；PDF10–11 Eqs2.4–2.5/Fig6 | true |
+| NS79-P19-3 | 重离子fusion-evaporation中side feeding可在slowing time内发生；上级gate可削弱部分feed，但初始速度/feeding component仍须响应模型。Coulomb excitation可减少side-feeding time，因为目标态由散射过程直接布居，但只适用于可达低能态/稳定体系等条件。 | feeding-method-boundary | direct-review | PDF19–21/Figs11–12 | true |
+| NS79-P19-4 | RDM在原理上不需stopping theory且可高精度，但短寿命端受靶—stopper separation标定困难；DSAM/RDM约1–20 ps有重叠，交叉核验本身很难。 | cross-method-overlap-boundary | direct-review | PDF78–81/Table7 | true |
+| NS79-P19-5 | review明确警告：DSAM与Coulomb-excitation yield若相合，可能因两者共享相同（甚至错误）stopping powers；不同方法相合不自动等独立确认。 | shared-systematic-counterexample | direct-review | PDF80–81/Table7/Fig56 discussion | true |
+| NS79-P19-6 | 对同一候选寿命，方法选择应先看响应主导项：DSAM需stopping/feeding/velocity；RDDS需distance/shifted-US/finite-stopper/deorientation；fast timing需prompt response/time-walk/background。Nolan只直接支持前两者，第三项仍是本preview设计边界，不能冒原文现代结论。 | decision-tree-boundary | synthesis-and-boundary | NS79-P19-1–5；R12-P19-1–10 | true |
+| NS79-P19-7 | 由寿命到strength还需spin/parity、branching、mixing、conversion和efficiency；Coulomb-excitation yield本身还受feeding、absolute efficiency、dead time、angular distribution、stopping/target absorption等输入影响。 | strength-input-contract | direct-review | PDF4–5/Eq1.2；PDF65–67 | true |
+| NS79-P19-8 | 本session仅完成Nolan targeted pages和方法决策树边界；不把Radeck/Nolan旧文献变成正式Day19 credit，不打开Day20；原Nolan旧full-read status不被改成新盲测。 | actual-scope-and-credit-boundary | task-reading-receipt | nolan-protected-prefix-008；day19-preview-state-007 | true |
+
+本段[访问/身份回执](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/nolan-protected-prefix-008.json)冻结原页/raw hash；没有取得历史DSAM/RDM原计数、现代fast-timing producer或jointCov。与[[radeck-2012-deorientation-lifetime-98ru-rdds]]的R12-P19段合用时，仍须区分综述方法框架、Radeck实测response和本任务条件推断。
+
+正式Day19仍需新session逐卡验收；本preview只补方法边界和决策树，不授课程学分。

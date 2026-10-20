@@ -2383,3 +2383,8 @@ Klemme1999定向PDF2–4/TableI/II及必要references，非新fullread/Day19；�
 ## 2026-10-20 DAY18 checkpoint007：Radeck无学分Day19预习
 
 Radeck 10页/13图/3表/9式新读，R12-P19-1–10待审；旧human-reviewed prefix与12旧flags字节/hash保持。新kernel exercise核SH/US分量、90°eff理论补归一、同data τ迭代和d/d0 literal边界；无actual counts/Acoul/Σ，不报新τ/g/CI。Day19 preview state formal_credit=false/partial19，Nolan和完整决策树未读，不开20。verification011/lint0100error249warning/boundary008/diff通过；原next18/count17/截止次日15点不变。
+
+
+## 2026-10-20 DAY18 checkpoint008：Nolan方法窗口与共享系统误差
+
+Nolan旧page保full-read status；本sessiontargeted核PDF3/6–7/10–12/19–23/78–81，NS79-P19-1–8。DSAM stopping/feeding、RDM distancecalibration、1–20ps overlap与shared-wrong-stopping counterexample已写回；fast timing/TDPAD仍未新读。Radeck/Nolan均Day19 uncredited preview，partial19/formal_credit=false，不开20；35items/15mapped页。verification012/lint0110error249warning/boundary009/diff通过，原next18/count17/截止不变。

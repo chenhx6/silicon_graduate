@@ -91,3 +91,18 @@ Day19-preview回忆time/session/hash先于本preview打开Radeck/Nolan；sourcep
 
 - 2026-10-20 Day18 内无学分 Day19 preview：Radeck 原件完成新读，canonical note 保持 `ai-draft`、`unreviewed`；Nolan 与完整 Day19 card 仍未完成。
 - 当前 note 只固化 component-conditioned response、校准缺口和可复现条件 exercise；不提升为正式 Day19 课程交付，不把旧 priming 或本 preview 兑换课程学分。
+
+## Nolan方法框架：选择方法前先列主导响应
+
+[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-P19-1–8是本session针对PDF3/6–7/10–12/19–23/78–81的原文核验，旧source全文读取状态与所有旧flags不改。综述把DSAM的主导依赖放在stopping/velocity/feeding，把RDM的主导依赖放在flight-distance与短寿命端的distance calibration；它还给出约1–20ps重叠区和“相合可能共享错误stopping”的直接反例。
+
+因此当前方法选择决策树是条件性的：
+
+| 条件 | 首选响应 | 必查校准 | 主要失败模式 |
+| --- | --- | --- | --- |
+| line-shape可解析、recoil stopping可建模 | DSAM | velocity、电子/核 stopping、feeding/side-feed、角/能量响应 | stopping model或feeding profile主导τ |
+| shifted/unshifted随距离可分、plunger距离可精确标定 | RDDS/DDCM | distance zero、ring efficiency、deorientation、finite stopper、feeding gate | 短τ距离标定或分量/角关联response |
+| prompt时差明显、fast detector response可校准 | fast timing（设计项） | prompt curve、walk、background、gate/feeding | response卷积被当窄τ，未建立当前原文producer |
+| alignment/hyperfine随flight time改变 | component/deorientation kernel | angular correlations、charge-state/velocity、同元素C迁移条件 | 把US冻结、SH平均或理论补eff当无偏 |
+
+这张表是本任务的bounded synthesis，不把“方法窗口”写成硬阈值。下一步若正式开启Day19，必须为每行补实际source locator和至少一个同data counterinput；当前不打开Day20。
