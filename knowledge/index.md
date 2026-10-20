@@ -53,6 +53,8 @@ updated: 2026-10-20
 
 - [[lv-2021-tilted-precession-135nd]] — 135Nd 倾斜进动（TiP）电磁跃迁基准与 A≈130 区域低自旋 wobbling 假象全局归并。
 
+- [[guo-2024-chiral-wobbler-74br]] — 74Br 手征与 wobbling 共存 DSAM 寿命测定、M1/E2 多极二分律与终极基准。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

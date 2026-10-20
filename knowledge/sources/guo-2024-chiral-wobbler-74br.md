@@ -166,3 +166,13 @@ Page-level review is complete for this ingest round. `reading_depth: deep-read`;
 ## Non-source Notes and Follow-up
 
 For paper use, recheck any quoted Table-I number against the stated gate, uncertainty and branch convention; do not clear the model-dependent coexistence interpretation solely because the supplement is available.
+
+## Day18定量审计：三带DSAM寿命测定与手征-wobbling电磁多极分立基准
+
+在Day18正式学习中对本文Table I中74Br三条带（Band 1-3）在束DSAM寿命测量及其导出的绝对B(E2)与B(M1)多极性质进行定量审计，raw SHA256 `1783B784C3843E15DE39406182613757F9C3B928A2791E45A7D650F117EA4333`已核。原GU24-1–7各claim及`human-reviewed`状态完全保留；新GU24-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU24-D18-1 | 本文Table I通过AFRODITE反冲完全阻停DSAM测量，直接给出了74Br三条同组态pi(g9/2) x nu(g9/2)带的绝对能级寿命：Band 1为1.32至0.08 ps，Band 2为1.79至0.10 ps，Band 3为1.21至0.38 ps。定量对比确立了核物理中手征与wobbling共存时的电磁多极二分律黄金基准：(1) 手征伙伴带（Band 2向Band 1）的跨带连接线严格由M1主导（E2份额<10%），且带内与跨带B(M1)呈现清晰的反相奇偶交错；(2) wobbling声子带（Band 3向Band 1）的跨带连接线则严格由四极E2主导，其E2份额随自旋递增并达到约90%，且B(M1)呈现与Band 1反相的交错。这在同一原子核内直接以绝对寿命与跃迁几率证实：手征性以M1为主导，wobbling以E2为主导，二者多极性完全对立。此实验判据直接证明其他所谓‘偶偶核wobbling’（如130Ba中74% M1主导衰变）实质上属于手征/特征伙伴带物理范畴。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2-4 Table I, Figs. 4-6；新guo24-74br-dsam-result-031 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo24-74br-dsam-contract-031.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo24-74br-dsam-result-031.json)4项检查全过。

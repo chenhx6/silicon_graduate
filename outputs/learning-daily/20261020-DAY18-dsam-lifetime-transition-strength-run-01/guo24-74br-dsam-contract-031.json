@@ -1,0 +1,13 @@
+{
+  "target": "74Br",
+  "paper": "Guo 2024 Phys. Rev. Lett. 133:082501",
+  "table": "Table I",
+  "description": "Quantitative audit of 74Br DSAM level lifetimes, contrasting M1-dominated chiral doublet links vs E2-dominated wobbling links",
+  "check_count": 4,
+  "checks": [
+    "band1_DSAM_lifetimes_subpicosecond_agreement",
+    "band2_chiral_lifetimes_and_M1_dominance_audit",
+    "band3_wobbling_lifetimes_and_90pct_E2_fraction_audit",
+    "chirality_vs_wobbling_multipolarity_dichotomy_unification"
+  ]
+}

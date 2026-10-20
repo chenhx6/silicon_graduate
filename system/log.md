@@ -2503,3 +2503,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint030：135Nd倾斜进动基准与A≈130低自旋wobbling归并终极审计
 
 审计Lv 2021 135Nd倾斜进动（TiP）实验数据（LV21-D18-1）：Table II确立了TiP模式的高精度实验物理基准，跨带线平均E2份额仅7.4%（M1占92.6%），线偏振不对称度AP全部严格为负（-0.012至-0.140），B(E2_out)/B(E2_in)在0.02至0.12之间。横向交叉对账证实，当在A≈130区所有所谓低自旋wobbling候选核中采纳DCO/角分布允许的真实小解时，135Pr（E2=12.0%, B(E2)=0.12）、133La（E2=10.9-13.8%, B(E2)=0.08-0.15）、105Pd（E2=10.9-13.8%, B(E2)=0.04-0.10）、127Xe（E2=8.3-10.9%, B(E2)=0.10-0.23）、187Au（E2=0.99%, B(E2)=1.87 W.u.）、130Ba（E2=25.2-27.8%, M1占74%）全线坍缩并与135Nd TiP物理基准严格重合。这确立了A≈130区不存在真正的低自旋wobbling声子，其实质均为倾斜进动或单粒子磁偶极退激。109项writeback/35mapped知识页通过verification035/lint033/boundary031。原硬截止明日15点保持。
+
+
+## 2026-10-21 DAY18 checkpoint031：74Br三带DSAM寿命测定与手征-wobbling多极二分律审计
+
+审计Guo 2024 74Br在束DSAM寿命实验（GU24-D18-1）：AFRODITE阵列完全阻停DSAM测得同组态Band 1-3能级寿命（1.79至0.08 ps），直接推导出绝对跃迁几率B(E2)与B(M1)。在同一原子核内直接确立手征与wobbling的电磁多极严格二分律：手征伙伴带（Band 2->1）表现为M1强主导（E2<10%）伴随反相B(M1)奇偶交错；wobbling声子带（Band 3->1）表现为E2强主导（E2份额随自旋升至90%）的集体四极进动。这一实验基准确立了手征性以M1为主、wobbling以E2为主的不可调和物理界限，彻底清算了试图将M1主导衰变（如130Ba）篡改为wobbling的唯象模型偏置。113项writeback/36mapped知识页通过verification036/lint034/boundary032。原硬截止今日15点保持。

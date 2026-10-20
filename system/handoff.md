@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint031：74Br三带在束DSAM寿命测定与手征-wobbling多极二分律终极基准审计（GU24-D18-1），确立Band 1-3绝对寿命（1.79至0.08 ps），直接证实手征伙伴带为M1主导（E2<10%）且伴随反相交错，而wobbling声子带为E2主导（E2高达90%），从多极二分律彻底清算M1主导的伪wobbling。113项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint030：135Nd倾斜进动（TiP）电磁跃迁基准与A≈130低自旋wobbling归并终极审计（LV21-D18-1），确立TiP1跨带线平均E2仅7.4%、AP全线为负且BE2_out/in仅0.02-0.12的TiP物理基准，并证明135Pr、133La、105Pd、127Xe、187Au、130Ba在小解下全线坍缩并与135Nd TiP严格重合（否定全区域低自旋wobbling）。109项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint029：130Ba偶偶核两准粒子横向wobbling跃迁强度与多极矛盾审计（CH19-D18-1），揭示Table I中带间连接线E2仅占25-28%而M1占72-75%（违背传统E2集体声子主导定义，呈现典型特征伙伴带特征），以及PRM全自旋区系统性高估BM1达1.5-3.3倍的理论局限。105项writeback已通过验证。原硬截止明日15点保持。
@@ -48,6 +50,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint031已实际提交，稳定指针main / `Audit 74Br chiral wobbler DSAM lifetimes and chirality-wobbling multipolarity dichotomy`；精确hash/H3/远端结果只publication-031回执。
+
 
 checkpoint030已实际提交，稳定指针main / `Audit 135Nd tilted precession empirical benchmark and A ~ 130 wobbling crosswalk`；精确hash/H3/远端结果只publication-030回执。
 

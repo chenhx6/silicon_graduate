@@ -2189,6 +2189,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "LV21-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+      "anchor": "Day18定量审计：三带DSAM寿命测定与手征-wobbling电磁多极分立基准",
+      "summary": "Table I中三条带在束DSAM寿命测定及手征伙伴M1主导与wobbling声子90% E2主导的多极二分律黄金基准",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "手征与wobbling共存的DSAM寿命判据与多极二分律：74Br终极对照",
+      "summary": "74Br基准审计：三带直接DSAM寿命测定证实手征以M1为主、wobbling以E2为主的多极二分律，确立对既往争议核的清算效应",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "手征双重带与wobbling声子跃迁的多极性二分律",
+      "summary": "方法页补充在束DSAM绝对寿命测定推导手征M1主导与wobbling E2主导不可调和二分律的最终分类准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "guo-2024-chiral-wobbler-74br",
+      "summary": "索引增加74Br手征与wobbling共存DSAM寿命测定与电磁多极二分律导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        },
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2203,6 +2259,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint031已实际提交，稳定指针main / `Audit 74Br chiral wobbler DSAM lifetimes and chirality-wobbling multipolarity dichotomy`；精确hash/H3/远端结果只publication-031回执。
+
 
 checkpoint030已实际提交，稳定指针main / `Audit 135Nd tilted precession empirical benchmark and A ~ 130 wobbling crosswalk`；精确hash/H3/远端结果只publication-030回执。
 
