@@ -1,0 +1,110 @@
+{
+  "target": "136Sm and 133Pr",
+  "sm136_audit": {
+    "states": [
+      {
+        "spin": 8,
+        "E_gamma_keV": 576,
+        "tau_ps": 1.23,
+        "tau_err": 0.08,
+        "Qt_eb": 5.66,
+        "Qt_err": 0.19
+      },
+      {
+        "spin": 10,
+        "E_gamma_keV": 614,
+        "tau_ps": 0.89,
+        "tau_err": 0.25,
+        "Qt_eb": 5.59,
+        "Qt_err": 0.785
+      },
+      {
+        "spin": 12,
+        "E_gamma_keV": 676,
+        "tau_ps": 0.52,
+        "tau_err": 0.04,
+        "Qt_eb": 5.7,
+        "Qt_err": 0.205
+      },
+      {
+        "spin": 14,
+        "E_gamma_keV": 735,
+        "tau_ps": 0.38,
+        "tau_err": 0.05,
+        "Qt_eb": 5.38,
+        "Qt_err": 0.335
+      },
+      {
+        "spin": 16,
+        "E_gamma_keV": 774,
+        "tau_ps": 0.36,
+        "tau_err": 0.05,
+        "Qt_eb": 4.85,
+        "Qt_err": 0.33
+      },
+      {
+        "spin": 18,
+        "E_gamma_keV": 841,
+        "tau_ps": 0.22,
+        "tau_err": 0.03,
+        "Qt_eb": 5.05,
+        "Qt_err": 0.35
+      }
+    ],
+    "weighted_mean_Qt_eb": 5.483,
+    "weighted_mean_Qt_err_eb": 0.112,
+    "constant_Qt_chi2": 7.31,
+    "constant_Qt_dof": 5,
+    "constant_Qt_chi2_red": 1.46,
+    "linear_slope_dQt_dI": -0.0716,
+    "linear_slope_err": 0.0263,
+    "slope_significance_sigma": -2.72,
+    "unquoted_stopping_power_15pct_error_eb": 0.822,
+    "verdict": "Babra 2019 DSAM data rule out catastrophic deformation collapse to beta2 ~ 0.14 (Qt ~ 3.2 eb); slope of -2.72 sigma is modest and compatible with constant Qt under 15% stopping power systematic band."
+  },
+  "pr133_audit": {
+    "states": [
+      {
+        "spin": 7.5,
+        "E_gamma_keV": 310,
+        "tau_ps": 71.0,
+        "tau_err": 5.5,
+        "Qt_eb": 3.55,
+        "Qt_err": 0.14,
+        "tau_SF_ps": 1100.0
+      },
+      {
+        "spin": 9.5,
+        "E_gamma_keV": 552,
+        "tau_ps": 3.9,
+        "tau_err": 0.25,
+        "Qt_eb": 3.53,
+        "Qt_err": 0.11,
+        "tau_SF_ps": 1.9
+      },
+      {
+        "spin": 11.5,
+        "E_gamma_keV": 709,
+        "tau_ps": 1.43,
+        "tau_err": 0.12,
+        "Qt_eb": 3.09,
+        "Qt_err": 0.135,
+        "tau_SF_ps": 0.014
+      }
+    ],
+    "weighted_mean_Qt_eb": 3.407,
+    "weighted_mean_Qt_err_eb": 0.073,
+    "constant_Qt_chi2": 7.81,
+    "constant_Qt_dof": 2,
+    "constant_Qt_chi2_red": 3.9,
+    "linear_slope_dQt_dI": -0.1167,
+    "linear_slope_err": 0.0695,
+    "slope_significance_sigma": -1.68,
+    "side_feeding_drop_magnitude": "tau_SF drops by 5 orders of magnitude from 1100 ps to 0.014 ps across 3 states",
+    "verdict": "With slope significance only -1.68 sigma, constant Qt cannot be rejected at 2 sigma; massive 5-order drop in tau_SF easily mimics apparent deformation evolution."
+  },
+  "summary": {
+    "conclusion": "DSAM Qt slope audits in 136Sm and 133Pr show that apparent high-spin deformation declines are heavily moderated by unquoted 15% stopping power systematics and multi-order side-feeding shifts."
+  },
+  "checks_passed": true
+}

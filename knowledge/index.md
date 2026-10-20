@@ -47,6 +47,8 @@ updated: 2026-10-20
 
 - [[hartley-2009-wobbling-167ta]] — 167Ta 复制 163Lu 90% E2 纯度以排除推转模型的循环假定逻辑闭环解构。
 
+- [[babra-2019-deformation-change-136sm]] — 136Sm DSAM 寿命、加权回归 Qt 显著性（-2.72sigma）与 15% 阻停系统误差包络审计。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

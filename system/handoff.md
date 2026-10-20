@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint028：136Sm与133Pr高自旋Qt回归斜率显著性与阻停/侧馈系统误差审计（B19-D18-1/SI16-D18-2），证实136Sm加权均值Qt=5.483(112) eb（斜率仅-2.72sigma，完全在15%阻停误差包络内，否定灾难性形变塌缩），以及133Pr斜率仅-1.68sigma且侧馈时延跨越5个数量级跃变假象解构。101项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint027：A≈160区wobbling谱系类比退化与循环假定终极审计（SC03-D18-1/BR05-D18-1/HA09-D18-1），揭示165Lu类比排除DCO小解导致B(E2)发生33.0倍塌缩、161Lu零电磁观测数据与未连接能级，以及167Ta直接复制163Lu 90% E2纯度反向排除推转模型的循环论证闭环。96项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint026：163Lu二声子wobbling标度与Delta n=2基准审计（JE02-D18-1），揭示TSD3->TSD2 476 keV单线在无偏振小解下B(E2)遭遇26.8倍断崖暴跌（跌至0.019，谐振标度瓦解为0.09倍），以及Table I六条TSD3->TSD1跨声子线为纯伸展E2（Delta I=2，无Delta I=0）的谐振拓扑黄金基准。90项writeback已通过验证。原硬截止明日15点保持。
@@ -42,6 +44,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint028已实际提交，稳定指针main / `Audit 136Sm and 133Pr DSAM transition quadrupole moments and stopping/feeding systematics`；精确hash/H3/远端结果只publication-028回执。
+
 
 checkpoint027已实际提交，稳定指针main / `Audit A ~ 160 wobbling evidence lineage in 165Lu, 161Lu, and 167Ta`；精确hash/H3/远端结果只publication-027回执。
 

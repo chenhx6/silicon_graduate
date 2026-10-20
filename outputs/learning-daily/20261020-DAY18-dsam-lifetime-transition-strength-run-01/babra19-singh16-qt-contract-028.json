@@ -1,0 +1,15 @@
+{
+  "target": "136Sm and 133Pr",
+  "papers": [
+    "Babra 2019 Phys. Rev. C 99:054326",
+    "Singh 2016 Pramana - J. Phys. 87:7"
+  ],
+  "description": "Quantitative audit of transition quadrupole moments (Qt) slope significances and side-feeding/stopping systematics in 136Sm and 133Pr",
+  "check_count": 4,
+  "checks": [
+    "136Sm_weighted_mean_Qt_and_chi2",
+    "136Sm_slope_significance_vs_15pct_stopping_error",
+    "133Pr_Qt_slope_significance_audit",
+    "133Pr_side_feeding_time_5_orders_drop_audit"
+  ]
+}

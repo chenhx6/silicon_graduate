@@ -2010,6 +2010,73 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "HA09-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "anchor": "Day18定量审计：高自旋Qt拟合斜率显著性与15%阻停系统误差带",
+      "summary": "Table I中8+至18+态加权均值Qt=5.483 eb、斜率仅-2.72sigma与15%阻停本领系统误差包络核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "anchor": "133Pr部分定量审计：Qt斜率显著性与跨5量级侧馈时延跃变",
+      "summary": "Table 2中133Pr加权均值Qt=3.407 eb、斜率仅-1.68sigma及侧馈时延跨5个数量级跃变假象审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "高自旋形变演化假象与侧馈/阻停系统误差带：136Sm与133Pr案例",
+      "summary": "136Sm与133Pr案例审计：DSAM四极矩自旋演化受制于加权回归3sigma判据、阻停本领包络与侧馈时延跨量级跃变反证",
+      "sources": [
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "跃迁四极矩斜率显著性与阻停/侧馈系统误差包络",
+      "summary": "方法页补充DSAM导出跃迁四极矩自旋斜率的加权回归显著度检验与阻停/侧馈系统误差包络判定准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "babra-2019-deformation-change-136sm",
+      "summary": "索引增加136Sm与133Pr DSAM四极矩自旋斜率显著性及阻停系统误差包络导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-D18-1"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-2"
+        }
+      ]
     }
   ]
 }
@@ -2024,6 +2091,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint028已实际提交，稳定指针main / `Audit 136Sm and 133Pr DSAM transition quadrupole moments and stopping/feeding systematics`；精确hash/H3/远端结果只publication-028回执。
+
 
 checkpoint027已实际提交，稳定指针main / `Audit A ~ 160 wobbling evidence lineage in 165Lu, 161Lu, and 167Ta`；精确hash/H3/远端结果只publication-027回执。
 

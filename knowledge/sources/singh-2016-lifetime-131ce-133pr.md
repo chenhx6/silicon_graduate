@@ -135,3 +135,11 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 | SI16-D18-1 | 对Table 1四个有限点（15/2−、27/2−、31/2−、35/2−）进行加权线性回归，斜率为 $-0.0302 \pm 0.0472$ eb/$\hbar$，显著性仅为 $-0.64\sigma$（远低于 $1\sigma$）；常数 $Q_t$ 模型（加权均值 $2.58 \pm 0.10$ eb）给出 $\chi^2/	ext{dof} = 0.89$，三个单侧限值亦完全相容。侧馈处理在自旋序列中发生性质变化：低自旋用恒定时延 $	au_	ext{SF} = 0.73	ext{--}1.0$ ps，高自旋用集体转动级联 $Q_	ext{SF} = 5.01	ext{--}5.79$ eb。目视 $Q_t$ 下降可能主要源于侧馈拟合参数的切换而非内禀形变减小。 | task-regression-and-feeding-audit | derived-and-boundary | PDF p.5 Table 1；新singh16-131ce-result-015 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/singh16-131ce-contract-015.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/singh16-131ce-result-015.json)4项检查全过，为形变演化结论提供了侧馈模型反证。
+
+### 133Pr部分定量审计：Qt斜率显著性与跨5量级侧馈时延跃变
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D18-2 | 对Table 2中133Pr yrast带三个有限态（15/2-、19/2-、23/2-）进行加权回归审计，其加权平均Qt为3.407(73) eb；线性回归斜率为dQt/dI = -0.1167(695) eb/hbar，显著性仅为-1.68sigma，在2sigma统计置信度下完全无法拒绝常数Qt假定。更为显著的是，侧馈平均寿命tau_SF在仅三个能级间发生跨越5个数量级的剧烈跃变（15/2-处为1100 ps，19/2-处降至1.9 ps，23/2-处骤降至0.014 ps）；低自旋态tau_SF是能级寿命（71 ps）的15倍，处于完全阻停前馈入区。这证实未获独立门控隔离的侧馈时延跃变能够轻易制造或扭曲高自旋形变演化的表观假象。 | task-regression-and-feeding-audit | derived-and-boundary | PDF p.8 Table 2；新babra19-singh16-qt-result-028 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-contract-028.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-result-028.json)4项检查全过。
