@@ -221,3 +221,5 @@ Day17checkpoint058 priming：shared-calibration note新增十原件observable-re
 
 
 Day17checkpoint059 priming：BA72原11页/10图/3表核N=C/(C+anti)非odds，sourceQ/R和relativemerit R sqrt(Nbar)分开。20Ge行central门无globalbest，Rσstatonly不含Pref，共partition/Cov与doubleComptonreference条件保；4crystal/数字读出/511veto是proposal。sharedcalmatrix已增Bass行，无newcounts/CI。
+
+Day17 checkpoint060 priming：SIM05-D17-1–12及sharedcalnote已核130Cs四actuallink physicalP/M1E2、Jones1995引用/actualcampaign缺口、151caption与409100强度口径；七sameparent pureM1中央控制需δ修正，非新δ/P/Σ/absoluteB。Fig6lowerlimits及B带staggering反证保，正式18仍独立run、不复用本预习授分。

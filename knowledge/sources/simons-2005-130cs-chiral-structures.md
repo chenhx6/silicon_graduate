@@ -3,7 +3,7 @@ type: source
 title: "Simons et al. 2005 - Evidence for chiral structures in 130Cs"
 aliases: ["Simons 2005 130Cs chiral bands", "130Cs Euroball chiral candidate experiment"]
 created: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-20
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -55,7 +55,7 @@ The authors extend the positive-parity `130Cs` doublet candidate and test it aga
 - Reaction: `124Sn(11B,5n)130Cs` at 60 MeV, with a 2.2 mg/cm² `124Sn` target backed by 12 mg/cm² natural Pb. Euroball IV used 30 tapered, 26 Clover and 15 Cluster detectors plus a 210-element BGO inner ball; the selected event sample contained about `2×10^8` triple coincidences (Experimental method, PDF p.3).
 - DCO ratios use `R_DCO = Iγ(90° gate,156°)/Iγ(156° gate,90°)`; the paper gives geometry-specific reference values for stretched transitions (Eq. (2), PDF p.3).
 - Clover Compton polarimetry uses `P=(1/Q)(N⊥−N∥)/(N⊥+N∥)`; `Q` sensitivity is taken from a cited calibration paper. Positive/negative polarization signs are interpreted as stretched E/M character (Eq. (3), PDF p.3).
-- Tables 1–2 report `Eγ`, relative intensity normalized to the 151-keV transition, multipolarity, DCO and linear polarization where measured. `B(M1)/B(E2)` and `B(M1)in/B(M1)out` are transition-ratio observables; the paper does not report state lifetimes or absolute transition strengths for `130Cs`.
+- Tables 1–2 report `Eγ`, relative intensity (caption names 151 keV; actual table has I151=53.4 and I408.86=100, retained as a source normalization boundary), multipolarity, DCO and linear polarization where measured. `B(M1)/B(E2)` and `B(M1)in/B(M1)out` are transition-ratio observables; the paper does not report state lifetimes or absolute transition strengths for `130Cs`.
 
 ## Key Evidence and Reasoning Chain
 
@@ -65,6 +65,23 @@ The authors extend the positive-parity `130Cs` doublet candidate and test it aga
 4. The measured `S(I)` is approximately smooth above `I≈12`. Fig.6 reports moderate odd/even staggering in several derived ratios, but the `B(M1)/B(E2)` ratio for band B lacks the same staggering; calculated staggering amplitudes are sometimes too large (Figs.5–6, journal pp.548–549 / PDF pp.9–10).
 5. Fig.7 gives the ratio `[B(M1)/B(E2)]A/[B(M1)/B(E2)]B`: excluding the spin-13 point, values lie between about 0.3 and 1. The authors regard the total pattern as broadly consistent with chirality up to about spin 16, while noting a finite partner-band splitting and unresolved ratio behavior (Fig.7 and discussion, journal p.550 / PDF p.11).
 6. Near `I≈16–17`, the yrast band shows a crossing-like change. Cranked Woods–Saxon calculations attribute it to an aligned `h11/2` neutron pair around `ℏω≈0.45 MeV`; the proposed alignment would planarize the angular-momentum geometry and end the chiral regime (discussion, journal p.551 / PDF p.12). This mechanism is an author/model interpretation, not a directly measured orbital alignment.
+
+### Day17新增原件自审
+
+| ID | Claim | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SIM05-D17-1 | 原4Ge/7BGO trigger，展开约2×10^8 triples；sorting未再加BGO fold门。DCO用156°Cluster和90°Clover，不能把trigger/sorting门混为一项。 | experimental-fact | direct-and-self-audit | printed543 Sec2 | true |
+| SIM05-D17-2 | Eq2纯同多极参考1、D测量/Q门.54、Q测量/D门1.85为本geometry校验；actual逐link精确门列表/联合响应未给，不作为普适阈值。 | method-and-boundary | direct-and-self-audit | printed543 Eq2 | true |
+| SIM05-D17-3 | Eq3用N⊥/N∥ photopeak差和，P=A/Q；Q明确取Ref17 Jones1995。本文未给实际数值Q、单晶阈值、a(E)处理、峰背景/Σ，不能由P表倒造实验counts或认证移用。 | calibration-input-boundary | direct-and-self-audit | printed543 Eq3; printed552 Ref17 | true |
+| SIM05-D17-4 | 297.1为A3380 16+→B3083 15+，D=.62(.05)、Q=1.0(.1)、P=−.15(.10)；不是B→A的同向四link。 | experimental-fact | direct-and-self-audit | printed544 Table1 3380/297.1; printed546 Fig1 | true |
+| SIM05-D17-5 | 546.7为B1507 11+→A960 10+，D=.9(.3)、P=−.2(.1)；596.1为B1908 12+→A1313 11+，D=1.0(.1)、P=−.1(.1)，两者Q列均空。 | experimental-fact | direct-and-self-audit | printed545 Table2 1507/546.7 and1908/596.1 | true |
+| SIM05-D17-6 | 609.2为B2630 14+→A2019 13+，D=1.0(.4)、P=−.2(.1)，Q列空；四link原mult均M1/E2而不是无混合pureM1。 | experimental-fact | direct-and-self-audit | printed545 Table2 2630/609.2 | true |
+| SIM05-D17-7 | 四P中心/所印sigma绝对比1.5/2/1/2仅描述summary；全负中心不提供四独立sign测试，sharedQ、峰/门Cov未得。不能据此构造joint实验CI或重判宇称。 | our-inference | direct-and-self-audit | printed544 Table1; printed545 Table2 | true |
+| SIM05-D17-8 | Tables1/2 caption称relative to151，但Table1 I151=53.4(16)、I408.86=100(3)；原口径保留，不由任务自行改表/归一。 | source-internal-boundary | direct-and-self-audit | printed544 Table1 caption and151.0/408.86 rows | true |
+| SIM05-D17-9 | 已知bandA与四link的DCO/P/M1–E2选则共同支持sameparity；共同unique-parity配置是作者进一步解释，不是只由负P推得，更不是直接chirality测量。 | author-interpretation | direct-and-self-audit | printed545 Sec3 lastparagraph | true |
+| SIM05-D17-10 | 原Table逐七对sameparent I/E作pureM1条件控制，Bin/Bout=Iin/Iout(Eout/Ein)^3×(1+δout²)/(1+δin²)；δ=E2/M1。公共尺度消除，但δ和Cov不消；未重现作者Fig6 producer或给新δfit。 | task-calculation | direct-and-self-audit | printed544 Table1; printed545 Table2; printed549 Fig6 | true |
+| SIM05-D17-11 | Fig6 A15/A17为lowerlimits；B带B(M1)/B(E2)不呈同样staggering，模型幅度过强，作者要求放宽core等假设。不可把图全部点当对称Gaussian数据。 | experimental-and-model-boundary | direct-and-self-audit | printed549 Fig6; printed550 Discussion | true |
+| SIM05-D17-12 | 本篇没有state lifetime或absoluteB；πh11/2⊗νh11/2−1、γ27.6/β.185、I16–17 crossing/neutronpair和chiralvibration分别是prior/configuration、modelinput及作者解释；不迁131Ce。 | interpretation-and-readiness-boundary | direct-and-self-audit | printed546 Sec4; printed550 Discussion; printed551 Summary | true |
 
 ## Summary
 
@@ -167,3 +184,11 @@ The direct experiment establishes the extended `130Cs` band structure, angular-c
 
 - This is the primary dataset for the `130Cs` ratios cited by Bhat Ref. [32]; the Bhat theory comparison and this experiment are one data lineage.
 - Lifetimes/absolute strengths remain the decisive missing measurement for static chiral-strength tests; this gap is not transferred as a measurement claim to `131Ce`.
+
+## Day17原件复核：130Cs实际link与Q谱系
+
+本session在simons2005-before冻结并声明旧摘要priming后完整重读13 PDF页（1页现代IOP封面、12页原541–552），text及visual核Eq1–3、Tables1/2、Fig1–7/24编号refs。身份239000bytes/SHA256 `da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6`不变。旧SIM05-1–7及其flags保，12新claim均needs_review，不新增人审。
+
+本次`limits`旧摘要的“负P/主要M1→sameparity”简写：四值确实存在且central负，实际mult却均M1/E2；作者结合DCO、levelmap和bandA prior，不是测到四个高显著独立pureM1。本文P不等A，其Q来自[[jones-1995-clover-compton-calibration]]，JO95-4/6/7所述60keV/AD-STAG/finite-angle与countF不能自动补成当前Euroball run的选择。Eq3未显式a只证本文印式，不能证明a=1或未作修正。原counts、Qcurve选择/参数Cov、gateweights/精确每行门、背景Σ尚未取得。
+
+同parent七对支路的可复算中央控制与混合修正见[[polarimetry-shared-calibration-count-design]]“130Cs：把通用响应合同应用到四条实际link”。它们只把原Table的I作为photonbranch代理，绝非新的原实验strength/CI；原Fig6两个lowerlimit保持，未补齐原producer或实际混合比。原表caption151/数值409归一差异单列，不称新实验矛盾。下步最高信息仍为samecampaign ledger/Q/a、逐link门与jointΣ；更强的chirality判断另需partnerresolved lifetimes/absoluteB。

@@ -513,3 +513,7 @@ Pd622tag/512probe nominal90°P1与TableactualP98(1)%、Coa=.9899(.0052)各是独
 [[bass-1972-two-crystal-compton-polarimeter]] BA72-D17-1–13原11页核：N=nco/(nco+nanti)，Qsource为两转角N的差和、R才是与boundedP关联的分析能力。不能将N改C/anti后沿用R；分子/总和共享事件，σN非两个独立count比。原Rσ只stat、排TablePrefσ，不能以calibrationchain已知为由删除target/referenceCov。
 
 原relativemerit=R sqrt(Nbar)，Nbar非absoluteε；20Ge行central阈值比较无globaloptimum/CI。sameEg的Mg/C反应P不同、doubleComptonreference也有geometry/knownMg假设，proposed4crystal/511veto/数字读出未成为原两crystal数据。先matchactualobservable再比较当前矩阵。
+
+### 130Cs四条link的实际使用边界
+
+[[simons-2005-130cs-chiral-structures]] SIM05-D17-3–12实际以Jones1995 Q和四link的DCO/P支持共同parity；Table列是physicalP，且mult全M1/E2，不能当rawA或pureM1。原Q/a/cuts/逐linkgates/Σ未给，四负中心/所印sigma仅1–2的描述量不能造独立jointsignCI。[[polarimetry-shared-calibration-count-design]]“130Cs：把通用响应合同应用到四条实际link”保存逐行身份/门列与七sameparent条件强度比；δ修正、原lowerlimits及无寿命/absoluteB界限保留。

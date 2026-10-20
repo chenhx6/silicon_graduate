@@ -2278,3 +2278,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint059：Bass计数分数与参考误差
 
 原11页全读/20条Ge表，N=C/(C+anti)、R/P与relative merit分层，Pref排除边界与primitivepartition Cov独立核；新13claims待审、旧flags保。verification074与explicitmanifest059/H3，main / `Audit Bass two-crystal count fractions and reference uncertainty`，windowactive/17once/partial18。
+
+### Day17 checkpoint060：130Cs原件的四link响应链
+
+原13页完整主线，四actualP/门列、JonesQ引用及actualcampaign缺口，七sameparent条件M1ratio/δ因子核；原151caption归一差、Fig6lowerlimits/无τ保，新12待审。verification075/manifest060/H3，main / `Trace 130Cs link polarization and conditional strength ratios`，原windowactive/17once/partial18。

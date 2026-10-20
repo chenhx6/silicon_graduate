@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-20T02:40:52.588101+00:00",
+  "query": "Duchene Clover detector Eurogam 432 90 (1999)",
+  "crossref_tool": "mcp__paper_search_nodejs__search_crossref",
+  "crossref_result": "tool error: client failure (upstream text masked)",
+  "openalex_tool": "mcp__literature_apis__search_openalex",
+  "openalex_result": "request failed (SSLError)",
+  "body_obtained": false,
+  "scientific_evidence_from_search": false
+}

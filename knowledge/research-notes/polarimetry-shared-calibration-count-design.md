@@ -75,6 +75,46 @@ ST99 Table1 的 Ba参考P由上游AD而来，Cd/Sn CE参考P由GOSIA而来；这
 
 这里的nextinput不是用户待办；在本日授权范围内有公开producer/data时继续寻找，没有时保readiness而不造实验CI。Psign与Jπ/δ/形变的裁决仍需samecascade的spin/AD/DCO/寿命/转换系数等companion；多测一项correlation也可能像TW70的770–1159一样不增辨别信息。
 
+### 130Cs：把通用响应合同应用到四条实际link
+
+[[simons-2005-130cs-chiral-structures]] SIM05-D17-1–12的本session原件复核，把A≈130的结构指认接回具体测量链；不是从通用矩阵推一个新的核指认。原13页完整text/关键visual核读，旧摘要是priming，旧flags保持。printed543 Eq3给P=A/Q，Q引用printed552 Ref17 [[jones-1995-clover-compton-calibration]]；本文未印本campaign实际Q曲线/阈值/a/逐晶体权重/原峰面积/Σ。JO95-4/6/7的标定recipe有域，不能凭器件同族补成这些输入。Eq3不显式a不等于实际a=1或证明遗漏处理。
+
+| 初态到末态（Fig1/Table身份） | γ keV | D gate RDCO | Q gate RDCO | physical P（原列） | 原mult |
+|---|---|---|---|---|---|
+| A3380 16+ → B3083 15+ | 297.1(.6) | .62(.05) | 1.0(.1) | −.15(.10) | M1/E2 |
+| B1507 11+ → A960 10+ | 546.7(.2) | .9(.3) | 空 | −.2(.1) | M1/E2 |
+| B1908 12+ → A1313 11+ | 596.1(.3) | 1.0(.1) | 空 | −.1(.1) | M1/E2 |
+| B2630 14+ → A2019 13+ | 609.2(.5) | 1.0(.4) | 空 | −.2(.1) | M1/E2 |
+
+D/Q在这里是Table的门类型，不是两个polarimeterQ。四中心/所印sigma绝对比1.5/2/1/2仅描述误差规模；sharedQ/事件/gate/背景Σ未知，不能相乘独立概率或造jointsignCI。作者以DCO、P、levelmap及bandA prior解释sameparity和共同unique-parity配置（printed545），后者不是单由Psign得到；chirality另依赖Fig4–7/模型且无absoluteB。
+
+同母态两photon支路、δ=E2/M1时，若原相对强度确可用作积分photonbranch，则
+
+\[
+R_{M1}=\frac{B(M1)_{\rm in}}{B(M1)_{\rm out}}
+=\frac{I_{\rm in}}{I_{\rm out}}
+\left(\frac{E_{\rm out}}{E_{\rm in}}\right)^3
+\frac{1+\delta_{\rm out}^{2}}{1+\delta_{\rm in}^{2}}.
+\]
+
+这里共同parent寿命/任意公共强度归一取消；没有额外乘totalICC，因为I是photon分支代理、M1 component由1/(1+δ²)分配。若拿totaltransition intensity则须先回到photon，若I带门/各向异性接受差也须先补响应，不能无条件采用。原Table caption说relative151，但I151=53.4(16)/I408.86=100(3)（SIM05-D17-8）如实保，公共尺度差不影响以下中央比，却不能替代实际efficiency recipe。
+
+| 同parent | Ein/Iout keV | 条件δin=δout=0的R中央值 | 原边界 |
+|---|---|---|---|
+| A12（Ei1603） | 289.7/96.0 | 1.9740946 | out原括号mult，不能升pureM1 |
+| A14（Ei2446） | 426.2/165.9 | 0.45703433 | 两原mult均M1/E2，δ未知 |
+| A16（Ei3380） | 465.6/297.1 | 0.29446027 | 两原mult均M1/E2，δ未知 |
+| A18（Ei4322） | 449.8/286.7 | 0.52330541 | out原括号mult，不能升pureM1 |
+| B12（Ei1908） | 401.0/596.1 | 0.79415548 | 两原mult均M1/E2，δ未知 |
+| B15（Ei3083） | 453.0/636.0 | 32.840177 | out原括号mult，不能升pureM1 |
+| B16（Ei3561） | 478.4/646.0 | 1.2031224 | 两原mult均M1/E2，δ未知 |
+
+这些七行是原Table的中央代数控制，不称作者Fig6全部数值/producer复现；Fig6 A15/A17的lowerlimit仍是lowerlimit，未填成对称点。附artifact还在固定E下对两强度marginalσ给任意相关系数的local范围：R|σin/Iin−σout/Iout|到R(σin/Iin+σout/Iout)，不是实际CI。δ未知时相同P符号不取消(1+δout²)/(1+δin²)，故“同parity支持”不能升级“pureM1 strength已无模型确定”。
+
+本次决定`supports`原四link/配置谱系，`limits`仅用负P与表列ratio的强断言。B带无同样staggering、模型幅度过强、缺partner寿命/absoluteB仍是必要companion。原数据与Bhat2014再比较是同一Euroball谱系；Jones1995是独立reference采集，但引入它不使四link标定误差相互独立。最高信息输入是本campaign逐link gates/netpeak/background/Q/a及联合Σ，未得时不重做实验δ/P/模式裁决。
+
+复算入口`system/scripts/day17_simons2005_link_audit.py`；输入/结果为本run `simons2005-link-contract.json` / `simons2005-link-result.json`。长期科学内容在本节与SIM05 atomic页，outputs只保存本次复算轨迹。
+
 ## Provisional Reasoning
 
 ### 两个估计量的Jacobian

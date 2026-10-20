@@ -1,0 +1,60 @@
+{
+  "at": "2026-10-20T02:37:18.691853+00:00",
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "raw": "raw/papers/gpt/day3-mean-field-20260929/simons-2005-130cs-chiral-structures.pdf",
+  "bytes": 239000,
+  "sha256": "da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6",
+  "text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visual_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "cover_text_only": 1,
+  "original_pages": "541–552",
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "tables": [
+    1,
+    2
+  ],
+  "equations": [
+    1,
+    2,
+    3
+  ],
+  "reference_entries": 24,
+  "scope": "full mainline and key evidence; no raw data/producer or Ref18 body",
+  "old_claim_rows_flags_preserved": true,
+  "new_claims_needs_review": 12
+}

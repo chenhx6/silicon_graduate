@@ -1,0 +1,13 @@
+{
+  "command": [
+    "git",
+    "diff",
+    "--cached",
+    "--check"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "expected_paths_exact": true,
+  "name_status": "M\tknowledge/methods/compton-polarimetry.md\nM\tknowledge/research-notes/polarimetry-shared-calibration-count-design.md\nM\tknowledge/sources/bass-1972-two-crystal-compton-polarimeter.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-Ge-contract.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-Ge-result.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-before-freeze.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-before.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-exercise-before.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-exercise-freeze.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-identity.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-reading-scope.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-source-before.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-058.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-059.txt\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-058.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-manifest-059.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint059.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-074.json\nA\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-074.json\nM\toutputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md\nM\toutputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md\nM\tsystem/handoff.md\nM\tsystem/log.md\nA\tsystem/scripts/day17_bass1972_fraction_audit.py\n"
+}

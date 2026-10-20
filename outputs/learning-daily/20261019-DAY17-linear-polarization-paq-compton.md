@@ -8032,6 +8032,139 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "BA72-D17-9"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+      "summary": "本session原13页重读，四link身份/原P/Q引用、归一及sharedSigma/解释层级补12新待审claim；旧flags保。",
+      "anchor": "Day17原件复核：130Cs实际link与Q谱系",
+      "sources": [
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-1"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-2"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-3"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-4"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-5"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-6"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-7"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-8"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-9"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-10"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-11"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-12"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/polarimetry-shared-calibration-count-design.md",
+      "summary": "四link逐行和七sameparent photonratio控制，δ修正/Σ与实际校准readiness不抹平。",
+      "anchor": "130Cs：把通用响应合同应用到四条实际link",
+      "sources": [
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-1"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-2"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-3"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-4"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-5"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-6"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-7"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-8"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-9"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-10"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-11"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-12"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "130Cs实际physicalP而非rawA、M1/E2而非pureM1及同源误差入口。",
+      "anchor": "130Cs四条link的实际使用边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-3"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-9"
+        },
+        {
+          "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+          "locator": "SIM05-D17-10"
+        }
+      ]
     }
   ]
 }
@@ -8425,3 +8558,11 @@ Bass1972原11页/10图/3表/未编号公式/6refs新textvisual，before声明old
 20条Ge实际Table3/Pref转录，R sqrt(Nbar)为原relativemerit，central离散门最大各能量不同、无globalthresholdranking/CI；Rstatσ明确不含Pref，198P-onlyσR≈.1743大于印stat.08仅partialbudget诊断，不叫作者漏报。sameMg/Cγ的实际P各异；双Comptonreference还含geometry/knownMg近能假设。singleCompton角域/多次scatter/511不敏感及fourcrystal/数字读出proposal分层，不移实际modernresponse。
 
 canonicalBass/Compton/sharedcalnote新增Bassmatrixrow与partition段，唯一writeback/18priming、script/input/result/scope/freezes齐；verification074/publication059实际gate。17once/partial18/原windowactive，不以source完成日终。
+
+### Checkpoint060：130Cs原实验的link、Q谱系与强度转换
+
+本session先冻simons2005-before/exercise（旧Wiki已primed非blind），原13页含封面/12页541–552完整text/关键visual：Eq1–3、2表、7图、23编号/24文献条目；239000bytes/hash保持。四link actualtyped，297反向A→B，四physicalP中心负但mult均M1/E2；D/Q列是gate，Qcal取Jones1995，不从Eq3未显a判未修正。原本campaignQ/a/threshold/逐门/netpeak/backgroundΣ缺，未取Ref18body。
+
+原Table caption151与I15153.4/I409100口径单列；作者以DCO/P/levelmap/bandAprior支持sameparity/config，chirality是另一组observable+model解释。四中心/所印sigma1.5/2/1/2仅描述，不独立jointsign测试。七sameparent I/E给pureM1中央control约1.97409/.457034/.294460/.523305/.794155/32.84018/1.203122；实际还需(1+δout²)/(1+δin²)，固定E的任意I相关local范围非真实CI，无原Fig6producer复现。Fig6两个lowerlimit、B不stagger/model幅度强及无lifetimes/absoluteB均保持。
+
+canonical SIM05新12待审/旧7保、sharedcal研究节与Compton方法写回，唯一writeback映atomic；script/input/result/freezes/scope及prepared18priming齐。verification075/publication060实际门，17onlyonce/partial18/windowactive。下一寻找actualcampaign/calibrator输入，不用更多toy填fullΣ。

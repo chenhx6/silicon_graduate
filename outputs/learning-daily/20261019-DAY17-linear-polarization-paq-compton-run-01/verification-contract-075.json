@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/simons-2005-130cs-chiral-structures.md": 19
+  },
+  "artifacts": [
+    {
+      "file": "simons2005-link-result.json",
+      "true_fields": [
+        "ok",
+        "scale_and_M1_component_controls",
+        "four_links_all_negative_central_but_no_joint_sign_test",
+        "no_actual_Q_counts_delta_or_experimental_CI_invented"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

@@ -1,0 +1,8 @@
+{
+  "checkpoint": 59,
+  "initial_guard_exit_code": 1,
+  "reason": "continuation-current.md new blank line at EOF",
+  "correction": "rstrip plus exactly one newline; exact restage; guard commit then H3 all passed",
+  "no_science_failure": true,
+  "actual_publication": "pushed"
+}
