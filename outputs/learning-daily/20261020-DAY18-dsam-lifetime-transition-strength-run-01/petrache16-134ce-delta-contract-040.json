@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "petrache16-134ce-delta-wobbling-boundary",
+  "inputs": [
+    "raw/papers/2016_Petrache et al_Triaxiality and exotic rotations at high spins in Ce 134.pdf"
+  ],
+  "checks": [
+    "Extract four linking Delta I = 1 transitions with delta in [-2.23, -1.73]",
+    "Quantify E2 purity f_E2 in 75.0% to 83.3% range with propagated error bars",
+    "Establish non-wobbling interpretation under CNS triaxial shape coexistence",
+    "Formulate methodological rule: E2 dominance does not equal wobbling without absolute DSAM lifetimes"
+  ],
+  "status": "passed"
+}

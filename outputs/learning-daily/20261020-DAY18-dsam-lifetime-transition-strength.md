@@ -2639,6 +2639,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "PAI12-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+      "anchor": "Day18定量审计：跨带Delta I=1强E2混杂（75%-83%）与非wobbling三轴形状共存反证",
+      "summary": "来源页补充134Ce跨带Delta I=1连接线四极纯度达75-83%却属于常规三轴形状共存而非wobbling的反例审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "134Ce跨带连接线75%-83%高E2纯度与非wobbling三轴形状共存反例",
+      "summary": "研究笔记补充134Ce跨带线75-83%高E2纯度不能单凭混合比判定wobbling、必须依赖DSAM绝对寿命判据的物理反例",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "跨带Delta I=1高E2纯度（75%-83%）对wobbling判定的非充分性与绝对寿命门槛",
+      "summary": "方法页补充跨带Delta I=1高E2纯度对wobbling仅为必要而非充分条件、必须测定绝对寿命达到集体超强发射的判据准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "petrache-2016-134ce-triaxiality-exotic-rotations",
+      "summary": "索引增加134Ce跨带高E2纯度与非wobbling三轴形状共存反例审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2016-134ce-triaxiality-exotic-rotations.md",
+          "locator": "PE16-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2653,6 +2697,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint040已实际提交，稳定指针main / `Audit 134Ce 75%-83% E2 purity linking transitions and non-wobbling triaxial counterexample`；精确hash/H3/远端结果只publication-040回执。
 
 checkpoint039已实际提交，稳定指针main / `Audit 194Tl 37 keV near-degeneracy and three-band DSAM lifetime ambiguity`；精确hash/H3/远端结果只publication-039回执。
 

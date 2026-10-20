@@ -73,6 +73,8 @@ updated: 2026-10-20
 
 - [[pai-2012-high-spin-bands-194tl]] — 194Tl 4qp 37 keV极限近简并与三带全同DSAM寿命非唯一配对审计。
 
+- [[petrache-2016-134ce-triaxiality-exotic-rotations]] — 134Ce 跨带Delta I=1高E2纯度（75%-83%）与非wobbling三轴形状共存反例审计。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

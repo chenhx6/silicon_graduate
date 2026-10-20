@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint040：134Ce跨带Delta I=1高E2纯度（75%-83%）与非wobbling三轴形状共存反例审计（PE16-D18-1），证实四条跨带线表现出大负混合比（delta=-1.73至-2.23）与75.0%-83.3%强E2纯度，但作者严格依CNS判定为三轴形状共存而非wobbling，确立跨带强E2对wobbling仅为必要非充分条件、必须测定绝对寿命达到集体超强发射的判据准则。151项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint039：194Tl四准粒子37 keV极限近简并与三带全同DSAM寿命非唯一配对审计（PAI12-D18-1），证实交叉后4qp态在自旋21处达到37 keV的创纪录近简并，但AFRODITE在束DSAM测得三条负宇称带绝对B(E2)与B(M1)在误差内全同，加之PRM预测存在四条本征带（一条缺失），导致实验带无法唯一两两配对，确立单凭能量简并无法证实手征破缺的方法学底线。147项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint038：78Br八极软振动B(E1)/B(E2)比值提取与多极三元分类律审计（L16-D18-1），证实由8条E1跨带线提取出内禀偶极矩D0=0.71 e*fm，比稳定八极标尺224Th低11.8倍确立动态八极软度，并与74Br绝对DSAM在束寿命对账确立手征(M1)-摆动(E2)-八极(E1)多极性三元分类法则。143项writeback已通过验证。原硬截止今日15点保持。
@@ -66,6 +68,8 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint040已实际提交，稳定指针main / `Audit 134Ce 75%-83% E2 purity linking transitions and non-wobbling triaxial counterexample`；精确hash/H3/远端结果只publication-040回执。
 
 checkpoint039已实际提交，稳定指针main / `Audit 194Tl 37 keV near-degeneracy and three-band DSAM lifetime ambiguity`；精确hash/H3/远端结果只publication-039回执。
 

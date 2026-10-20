@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "nucleus": "134Ce",
+  "reference": "Petrache et al., Phys. Rev. C 93, 064305 (2016)",
+  "summary": {
+    "transitions_analyzed": 4,
+    "mean_f_E2_pct": 80.2,
+    "f_E2_range_pct": [
+      75.0,
+      83.3
+    ],
+    "non_wobbling_status": "Despite measuring 75% to 83% E2 character in four separate Delta I = 1 transitions, Petrache et al. explicitly refrain from claiming wobbling or chirality in 134Ce.",
+    "methodological_rule": "High E2 purity (75%-83%) in Delta I = 1 linking lines is NOT unique evidence of wobbling motion; it can arise naturally from single-particle M1 matrix element cancellation or shape coexistence. Only absolute DSAM/RDDS lifetimes directly demonstrating B(E2)_out >= 20-50 W.u. can establish collective transverse wobbling."
+  },
+  "transitions": [
+    {
+      "band": "Band 7",
+      "transition": "11+ -> 10+",
+      "Eg_keV": 664.8,
+      "delta": -2.13,
+      "delta_err": 0.48,
+      "f_E2_pct": 81.9,
+      "f_E2_err_pct": 6.7,
+      "f_M1_pct": 18.1,
+      "A2": -0.87,
+      "A4": 0.19,
+      "Rac": 0.34
+    },
+    {
+      "band": "Band 7",
+      "transition": "13+ -> 12+",
+      "Eg_keV": 740.9,
+      "delta": -1.73,
+      "delta_err": 0.52,
+      "f_E2_pct": 75.0,
+      "f_E2_err_pct": 11.3,
+      "f_M1_pct": 25.0,
+      "A2": -0.76,
+      "A4": 0.18,
+      "Rac": 0.5
+    },
+    {
+      "band": "Band D1",
+      "transition": "14+ -> 13+",
+      "Eg_keV": 346.5,
+      "delta": -2.05,
+      "delta_err": 0.48,
+      "f_E2_pct": 80.8,
+      "f_E2_err_pct": 7.3,
+      "f_M1_pct": 19.2,
+      "A2": -0.76,
+      "A4": 0.24,
+      "Rac": 0.49
+    },
+    {
+      "band": "Band D1",
+      "transition": "12+ -> 11+",
+      "Eg_keV": 372.3,
+      "delta": -2.23,
+      "delta_err": 0.53,
+      "f_E2_pct": 83.3,
+      "f_E2_err_pct": 6.6,
+      "f_M1_pct": 16.7,
+      "A2": -0.72,
+      "A4": 0.16,
+      "Rac": 0.52
+    }
+  ]
+}

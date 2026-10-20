@@ -118,3 +118,13 @@ P1: none remaining for this ingest review. Future paper use still requires claim
 ## Review Status
 
 Page-level review is complete for this ingest round; PE16-1 through PE16-12 are `needs_review: false`. This does not make CNS interpretations direct experimental measurements or bypass claim-specific paper evidence review.
+
+## Day18定量审计：跨带Delta I=1强E2混杂（75%-83%）与非wobbling三轴形状共存反证
+
+在Day18正式学习中对本文Table I中四条具有大负混合比（delta约-1.7至-2.2）的跨带连接线开展定量核验，raw SHA256 `04AC0EB3179A6CB389C45F9DF8B4B56D90EDF43BCFD8EE9FFED20FB68C898B4D`已核。原PE16-1–12各claim保持；新PE16-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE16-D18-1 | 本文Table I报道的134Ce跨带Delta I = 1连接线多极性定量核验揭示：(1) 在Band 7与Band D1中，四条跨带连接线（664.8、740.9、346.5、372.3 keV）均表现出显著的大负混合比（delta介于-1.73至-2.23之间，伴随负A2与正A4），导出的E2纯度高达75.0%至83.3%（平均80.2%），完全由四极跃迁主导；(2) 尽管展现出与低自旋wobbling声称完全相同的强E2主导Delta I=1特征，作者严格依据CNS与形状共存将其指认为三轴核芯中的常规磁偶极/剪刀带与集体带之间的形状共存跃迁，明确拒绝将其指认为wobbling或手征带；(3) 这确立了关键的方法学反例：跨带Delta I=1跃迁具有75%-83%的高E2份额绝非集体wobbling的充要证据，单粒子矩阵元抵消或形状共存混杂完全可以在常规三轴核中产生相同现象；必须依托在束DSAM/RDDS测定绝对寿命并证实B(E2)_out达到数十Weisskopf单位，才能确立真wobbling模式。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.6–7, Table I；新petrache16-134ce-delta-result-040 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache16-134ce-delta-contract-040.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/petrache16-134ce-delta-result-040.json)4项检查全过。
