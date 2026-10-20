@@ -1,0 +1,46 @@
+{
+  "target": "129Ba",
+  "transition": "365 keV (13/2- -> 11/2-)",
+  "roots": {
+    "chakraborty_2024_preferred_large_root": {
+      "delta": -2.0,
+      "delta_err": 0.2,
+      "E2_fraction": 0.8,
+      "M1_fraction": 0.2,
+      "structural_interpretation": "claimed longitudinal wobbling band (80% E2)"
+    },
+    "historical_byrne1986_gizon1977_adopted_root": {
+      "delta_range": [
+        -0.84,
+        -0.79
+      ],
+      "delta_midpoint": -0.815,
+      "E2_fraction": 0.3991,
+      "M1_fraction": 0.6009,
+      "structural_interpretation": "unfavored signature partner (60% M1 dominant)"
+    },
+    "alternative_small_root": {
+      "delta": -0.33,
+      "delta_err": 0.03,
+      "E2_fraction": 0.0982,
+      "M1_fraction": 0.9018,
+      "structural_interpretation": "predominantly pure M1 (90% M1 dominant)"
+    }
+  },
+  "quantitative_contrasts": {
+    "E2_collapse_factor_vs_small": 8.15,
+    "E2_collapse_factor_vs_historical": 2.0,
+    "M1_jump_factor_vs_small": 4.51,
+    "M1_jump_factor_vs_hist": 3.0
+  },
+  "polarization_audit": {
+    "P_value": 0.072,
+    "P_uncertainty": 0.068,
+    "significance_sigma": 1.06,
+    "statistical_verdict": "With Z = 1.06 sigma, linear polarization is completely compatible with zero within 1 sigma, failing to provide physical discrimination between roots."
+  },
+  "summary": {
+    "conclusion": "Chakraborty 2024 wobbling claim in 129Ba is a re-labeling of legacy data where E2 collapses by 8.15x under the small root and 2.02x under the historical adopted root, supported only by marginal 1.06 sigma polarization."
+  },
+  "checks_passed": true
+}

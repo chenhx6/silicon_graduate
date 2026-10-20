@@ -2473,3 +2473,8 @@ Lieder DOI publisher Markdown bounded attempt provider_unavailable，无新正�
 ## 2026-10-20 DAY18 checkpoint024：151Eu横向wobbling双解极端塌缩与边缘偏振显著性审计
 
 审计Mukherjee 2023 151Eu横向wobbling候选数据（MU23-D18-1）：Table III报告的415.0与537.9 keV跨带连接线B(E2_out)/B(E2_in)在DCO小解分支（-0.12与-0.04）下遭遇64.5倍（415 keV跌至0.0028）至610.6倍（537.9 keV跌至0.00046）的极端断崖暴跌，而B(M1_out)/B(E2_in)反向暴增11.7至40.6倍。更关键的是，作者用来采纳大解（-3.3与-6.3）的核心判据——线偏振不对称度测量值仅为+0.038(35)（1.09sigma显著性）与+0.024(15)（1.60sigma显著性），在统计上与零高度重叠，根本不具备区分多极双解的判决力。82项writeback/27mapped知识页通过verification028/lint027/boundary025。原硬截止明日15点保持。
+
+
+## 2026-10-20 DAY18 checkpoint025：129Ba历史数据wobbling重解释与偏振1.06sigma无判决力审计
+
+审计Chakraborty 2024 129Ba数据重分析（CH24-D18-1）：论文无新在束或寿命实验，重新挖掘Byrne 1986与Gizon 1977数据将365 keV带间连接线由原采纳解（delta in [-0.84, -0.79]，E2约40%，M1占60%的特征伙伴带）改选为大解（delta ~ -2.0，E2占80%）以宣称纵向wobbling。定量审计揭示其实际面临8.15倍E2崩塌（角分布同样允许的小解delta ~ -0.33对应E2仅9.82%，M1高达90.18%），而支持大解的核心判据——线偏振测量值仅为P = 0.072(68)（Z = 1.06sigma显著性，在1sigma内与零完全无差别），根本不具备区分解分支的统计能力。86项writeback/28mapped知识页通过verification029/lint028/boundary026。原硬截止明日15点保持。

@@ -37,6 +37,8 @@ updated: 2026-10-20
 
 - [[mukherjee-2023-transverse-wobbling-151eu]] — 151Eu 横向 wobbling 混合比小解 600 倍塌缩与边缘 1sigma 偏振不对称度有效度边界。
 
+- [[chakraborty-2024-possibility-wobbling-129ba]] — 129Ba 历史数据重解释中混合比根敏感性、8 倍 E2 崩塌与 1.06sigma 偏振无判决力反例。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

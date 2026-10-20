@@ -172,3 +172,13 @@ printed024324-3左栏先回顾Gizon旧工作：AD区间−.97至−.79、P区间
 | CH24-11 | 同δ=-2.0±.2的fraction换算给中心.80、局部sigma.032，端点.82877/.76415；作者80(4)%保留印值，非新的测量或完整CI。旧AD−.88(.09)给.43643/约.05031，为另一历史派生值。 | radiative-fraction-definition-check | task-calculation-from-source | printed024324-3 modernδ/fractionparagraph；本任务fractionworksheet | true |
 | CH24-12 | 自设maxalignmentM±1/2单gamma参考在13/2→11/2的F/photon投影控制通过，但其A2/A4根不重现本篇图线；本篇未给完整producer/原coeff-correction层，不能据此判作者错误或调α后宣称已重放实验。 | bounded-reproduction-readiness | task-calculation-and-source-scope | printed024324-2 Figs2/3；printed024324-3；本任务referenceboundary | true |
 | CH24-13 | 从公开评价取同母态461.6 E2参考作独立条件control时，rank4 spinratio为−8/3；实际positiveA4摘要不能在未核samepostselection/coeff/purity/geometry前被强行当source的共同rho校准。它限制本次replay readiness，不否定作者80%或证明实验错误。 | companion-reference-readiness | task-calculation-and-evaluated-premises | Fig1的同母态branches；N129L643.6/G364.7/G461.6；本任务rank4proof | true |
+
+## Day18定量审计：历史数据重解释中混合比根敏感性与偏振1.06sigma显著性
+
+在Day18正式学习中对本文重分析Byrne 1986与Gizon 1977旧实验数据提取的129Ba 365 keV关键带间连接线多极混合比解进行定量审计，raw SHA256 `D5729DE577067F8AFEAB771AFB51328989772C68962A938D553BCCB50F0C0808`已核。原CH24-1–6各claim及`human-reviewed`状态完全保留；新CH24-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CH24-D18-1 | 本文无新实验采集，完全基于重分析历史角分布与线偏振数据提出129Ba存在纵向wobbling可能性。定量审计揭示三重证据边界：(1) 历史原作者（Byrne 1986 / Gizon 1977）采纳的解为delta in [-0.84, -0.79]（中点-0.815，E2份额39.9%，M1份额60.1%），明确判定为M1主导的未偏爱特征伙伴带；(2) 本文挑选的大解delta ~ -2.0(2)（E2份额80.0%）与角分布同样允许的小解delta ~ -0.33(3)（E2份额仅9.82%，M1份额90.18%）之间存在8.15倍的E2份额断崖差距；(3) 本文用以支持大解的核心判据——线偏振测量值仅为P = 0.072(68)，其显著性仅为Z = 1.06sigma，在统计上完全与零相容，无法提供区分大小解的判决力。因此，将该带重标为“wobbling”属于在边缘显著性偏振下挑选大解的唯象重解释，无新实验寿命或强度支撑。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.3 Figs. 2-4；新chakraborty24-129ba-wobbling-result-025 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/chakraborty24-129ba-wobbling-contract-025.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/chakraborty24-129ba-wobbling-result-025.json)4项检查全过。

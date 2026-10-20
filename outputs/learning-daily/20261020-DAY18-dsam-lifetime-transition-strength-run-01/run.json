@@ -71,7 +71,7 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active afterexplicituserfarmerresume; nativegoalobservedblocked, no duplicateobjective",
-  "last_checkpoint": "024 published; original deadline preserved",
+  "last_checkpoint": "025 published; original deadline preserved",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 151Eu transverse wobbling delta root sensitivity and marginal polarization significance"
+    "subject": "Audit 129Ba legacy wobbling reanalysis delta root sensitivity and 1.06 sigma polarization significance"
   },
   "uncredited_preview": {
     "day_index": 19,

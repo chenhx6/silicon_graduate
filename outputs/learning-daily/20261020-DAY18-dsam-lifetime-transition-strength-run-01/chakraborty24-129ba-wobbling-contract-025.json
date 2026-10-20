@@ -1,0 +1,13 @@
+{
+  "target": "129Ba",
+  "paper": "Chakraborty 2024 Phys. Rev. C 110:024324",
+  "transition": "365 keV (13/2- -> 11/2-)",
+  "description": "Quantitative audit of delta root sensitivity, E2 fraction collapse, and marginal 1.06 sigma polarization significance in 129Ba legacy reanalysis",
+  "check_count": 4,
+  "checks": [
+    "large_delta_80pct_E2_fraction_verification",
+    "historical_adopted_delta_contrast",
+    "small_delta_8.15x_E2_collapse_evaluation",
+    "polarization_1.06_sigma_significance_audit"
+  ]
+}

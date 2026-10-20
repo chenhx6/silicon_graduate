@@ -1812,6 +1812,62 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "MU23-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+      "anchor": "Day18定量审计：历史数据重解释中混合比根敏感性与偏振1.06sigma显著性",
+      "summary": "365 keV关键连接线在历史采纳解与大解之间存在8.15倍E2崩塌及偏振仅1.06sigma无判决力解构",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "无新测量的历史数据wobbling重标与偏振无判决力反例：129Ba案例",
+      "summary": "129Ba案例审计：无新实验重标历史特征伙伴带为wobbling受制于8倍E2崩塌与1.06sigma偏振脆弱性",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "历史文献角分布数据重解与解分支挑选的证据审计",
+      "summary": "方法页补充纯文献重分析中重新挑选角分布极大解并依据1sigma偏振改动带属性的证据分层准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "chakraborty-2024-possibility-wobbling-129ba",
+      "summary": "索引增加129Ba历史数据wobbling重解释混合比敏感性与1.06sigma偏振反例导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1826,6 +1882,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint025已实际提交，稳定指针main / `Audit 129Ba legacy wobbling reanalysis delta root sensitivity and 1.06 sigma polarization significance`；精确hash/H3/远端结果只publication-025回执。
+
 
 checkpoint024已实际提交，稳定指针main / `Audit 151Eu transverse wobbling delta root sensitivity and marginal polarization significance`；精确hash/H3/远端结果只publication-024回执。
 
