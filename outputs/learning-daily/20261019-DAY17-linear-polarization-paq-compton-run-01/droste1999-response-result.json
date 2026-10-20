@@ -1,0 +1,146 @@
+{
+  "at": "2026-10-20T02:45:06.257215+00:00",
+  "script_sha256": "c674df01bcf3561f0765467487ae4bac8639a5c4ad8a8b882e70584c7dbfc790",
+  "contract_sha256": "567690c8a5b3cff81fab49d2a8042cdc8dd48b44415b0b9c7c1c731589206a49",
+  "formulas": {
+    "AA1": "c*q1*q2",
+    "AA2": "(p1*q1 + p2*q2)/(c*q1*q2 + 1)",
+    "PP2": "(p1 + p2)/(c + 1)",
+    "matrix_det": "q1**2*q2**2",
+    "Var_AA1": "(1-AA1^2)/N",
+    "Var_AA2": "(1-AA2^2)/(N_parallel_parallel+N_perp_perp)",
+    "Cov_AA1_AA2": "0 at local Jacobian order for the declared exclusive multinomial model only"
+  },
+  "source_central_R_to_Q": {
+    "Q490": 0.23664122137404583,
+    "Q569": 0.22178988326848248,
+    "product": 0.052484628865060744,
+    "inverse_joint_moment_amplification": 19.05319750990379,
+    "PP1_from_AA1_fixedQ": 0.724021505376344,
+    "sigma_PP1_from_printed_AA1_only_fixedQ": 0.5334895302773062,
+    "Q1P1_plus_Q2P2_from_central_AA2_AA1": 0.23770200000000002,
+    "not_full_covariance_or_confidence_interval": true
+  },
+  "same_single_P_different_joint_design": [
+    {
+      "design_P1": 0,
+      "design_P2": 0,
+      "design_PP1": 0.8,
+      "positive_W": [
+        0.45,
+        0.04999999999999999,
+        0.04999999999999999,
+        0.45
+      ],
+      "normalized_N_not_actual_counts": [
+        0.26049692577301214,
+        0.23950307422698786,
+        0.23950307422698786,
+        0.26049692577301214
+      ],
+      "AA1": 0.0419877030920486,
+      "AA2": 0.0
+    },
+    {
+      "design_P1": 0,
+      "design_P2": 0,
+      "design_PP1": -0.4,
+      "positive_W": [
+        0.15,
+        0.35,
+        0.35,
+        0.15
+      ],
+      "normalized_N_not_actual_counts": [
+        0.24475153711349393,
+        0.2552484628865061,
+        0.2552484628865061,
+        0.24475153711349393
+      ],
+      "AA1": -0.0209938515460243,
+      "AA2": 0.0
+    }
+  ],
+  "source_Table1_hypotheses": [
+    {
+      "number": 1,
+      "initial_J": 16,
+      "initial_parity": "+",
+      "arctan_delta1_deg": 90,
+      "AA2_calc": 0.244,
+      "chi2_per_nu": 0.6
+    },
+    {
+      "number": 2,
+      "initial_J": 15,
+      "initial_parity": "+",
+      "arctan_delta1_deg": 20,
+      "AA2_calc": -0.038,
+      "chi2_per_nu": 28
+    },
+    {
+      "number": 3,
+      "initial_J": 15,
+      "initial_parity": "+",
+      "arctan_delta1_deg": 80,
+      "AA2_calc": 0.072,
+      "chi2_per_nu": 10
+    },
+    {
+      "number": 4,
+      "initial_J": 14,
+      "initial_parity": "+",
+      "arctan_delta1_deg": -20,
+      "AA2_calc": 0.251,
+      "chi2_per_nu": 0.9
+    },
+    {
+      "number": 5,
+      "initial_J": 14,
+      "initial_parity": "+",
+      "arctan_delta1_deg": 30,
+      "AA2_calc": 0.196,
+      "chi2_per_nu": 0.6
+    },
+    {
+      "number": 6,
+      "initial_J": 13,
+      "initial_parity": "+",
+      "arctan_delta1_deg": -70,
+      "AA2_calc": -0.011,
+      "chi2_per_nu": 22
+    },
+    {
+      "number": 7,
+      "initial_J": 13,
+      "initial_parity": "+",
+      "arctan_delta1_deg": -20,
+      "AA2_calc": -0.02,
+      "chi2_per_nu": 24
+    },
+    {
+      "number": 8,
+      "initial_J": 12,
+      "initial_parity": "+",
+      "arctan_delta1_deg": 90,
+      "AA2_calc": 0.215,
+      "chi2_per_nu": 0.4
+    }
+  ],
+  "author_rejects_positive_parity_hypotheses": [
+    2,
+    3,
+    6,
+    7
+  ],
+  "author_retains_positive_parity_hypotheses": [
+    1,
+    4,
+    5,
+    8
+  ],
+  "symbolic_Eq8_11_15_and_count_covariance_controls": true,
+  "same_single_P_does_not_fix_joint_PP1": true,
+  "no_actual_counts_or_original_chi2_fit_pvalue_CI": true,
+  "ok": true
+}

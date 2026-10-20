@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-20T02:46:21.668738+00:00",
+  "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf",
+  "bytes": 277602,
+  "sha256": "7d2a0ecf0805c1ea8d845c3d0f1e36fb873b0ae87e16d5be20152ba8b97773ee",
+  "text_visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "printed_pages": "260–270",
+  "equations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "tables": [
+    1
+  ],
+  "references": 21,
+  "old_claim_flags_preserved": true,
+  "new_claims_needs_review": 14,
+  "not_obtained": "author FORTRAN/events/net peak counts/fullSigma/nu",
+  "dataset": "same164Yb and calibration dependencies as ST99"
+}

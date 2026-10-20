@@ -8165,6 +8165,170 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "SIM05-D17-10"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/droste-1999-ppco-polarization.md",
+      "summary": "原11页新读，纠metadata对象，14新待审/旧flags保；明确sameST99、三标定假设和Table1剩多解。",
+      "anchor": "Day17原件复核：同源164Yb的fourN而非独立新实验",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-1"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-2"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-3"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-4"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-6"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-7"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-8"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-9"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-10"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-11"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-12"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-13"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ppco-joint-response-and-information.md",
+      "summary": "Eq8独立symbolic核jointW/AA1/AA2/PP2、信息自由度、原summary条件转换与声明countmodelCov；非原实验replay。",
+      "anchor": "从jointW到四计数",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-1"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-2"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-3"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-4"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-6"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-7"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-8"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-9"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-10"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-11"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-12"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-13"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "PPCO实际响应字典与sameST99/剩多解入口。",
+      "anchor": "PPCO不是两个singles的乘积",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-4"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-6"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "PPCO canonical条件研究入口。",
+      "anchor": "Day17新增研究合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-5"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-14"
+        }
+      ]
     }
   ]
 }
@@ -8566,3 +8730,11 @@ canonicalBass/Compton/sharedcalnote新增Bassmatrixrow与partition段，唯一wr
 原Table caption151与I15153.4/I409100口径单列；作者以DCO/P/levelmap/bandAprior支持sameparity/config，chirality是另一组observable+model解释。四中心/所印sigma1.5/2/1/2仅描述，不独立jointsign测试。七sameparent I/E给pureM1中央control约1.97409/.457034/.294460/.523305/.794155/32.84018/1.203122；实际还需(1+δout²)/(1+δin²)，固定E的任意I相关local范围非真实CI，无原Fig6producer复现。Fig6两个lowerlimit、B不stagger/model幅度强及无lifetimes/absoluteB均保持。
 
 canonical SIM05新12待审/旧7保、sharedcal研究节与Compton方法写回，唯一writeback映atomic；script/input/result/freezes/scope及prepared18priming齐。verification075/publication060实际门，17onlyonce/partial18/windowactive。下一寻找actualcampaign/calibrator输入，不用更多toy填fullΣ。
+
+### Checkpoint061：PPCO四计数的响应和剩余歧义
+
+先冻droste1999-before/exercise并声明primed，原11页260–270完整textvisual、Eq1–15/Fig1–9/Table1八行/21refs；277602bytes/hash不变。旧source nuclei/reaction误配纠为164Yb主实验、Cd/Sn/Ba是Ref5标定层；新14待审/旧3flags保，sameST99主采集/标定不独立。a1/18unitidentical/NORDBALLQ近似EUROGAM为作者假设。
+
+新Eq8→11–15symbolic模型给AA1=Q1Q2C、AA2=(Q1P1+Q2P2)/(1+Q1Q2C)、PP2=(P1+P2)/(1+C)，fullnormalizedfourN三shape自由度。sameP1=P2=0的positiveW仍可不同C，仅条件信息反例非核path/纠缠实验。原R1.62/1.57→Q.236641/.221790，product.0524846、jointinverse放大19.053；原AA1固定Q给C.7240±.5335非fullCI，不造N。exclusivefixedN/noBG的localCov(AA1,AA2)=0只模型，不迁实际peakfit/calibration。
+
+原AA2 .229(.038)与569–577的.235(.027)/sigmaI.22(+.06/−.11)分开；Table1排2/3/6/7留1/4/5/8，647E1/M1 .6/6是同data条件分析，lifetimecompanion保；Fig8/9/χ²producer/actualΣ未得。源Summary未来Q.3来自模型/private/conference，非本篇实测。canonical新PPCOnote/Compton/index、唯一writeback、scripts/contracts/results/scope及18priming齐；verification076/publication061实际门。原windowactive、17once/partial18、不以source完成日终。

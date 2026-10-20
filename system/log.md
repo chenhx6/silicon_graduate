@@ -2282,3 +2282,7 @@ primed回忆与十atomic源核，sharedcalnote新增十原件合同矩阵/六act
 ### Day17 checkpoint060：130Cs原件的四link响应链
 
 原13页完整主线，四actualP/门列、JonesQ引用及actualcampaign缺口，七sameparent条件M1ratio/δ因子核；原151caption归一差、Fig6lowerlimits/无τ保，新12待审。verification075/manifest060/H3，main / `Trace 130Cs link polarization and conditional strength ratios`，原windowactive/17once/partial18。
+
+### Day17 checkpoint061：PPCO joint响应与剩多解
+
+原11页全读，纠metadata/同ST99依赖、fourN三shape/有限Q公式和实际Table1剩候选；新14待审。symbolicresponse及声明countCov控制，非原χ²/Σ。verification076初缺节修复后通过、manifest061/H3，main / `Audit PPCO joint response and retained spin ambiguities`，原windowactive/17once/partial18。

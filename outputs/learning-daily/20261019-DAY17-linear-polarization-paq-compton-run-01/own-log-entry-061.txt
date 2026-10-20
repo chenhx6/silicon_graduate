@@ -1,0 +1,4 @@
+
+### Day17 checkpoint061：PPCO joint响应与剩多解
+
+原11页全读，纠metadata/同ST99依赖、fourN三shape/有限Q公式和实际Table1剩候选；新14待审。symbolicresponse及声明countCov控制，非原χ²/Σ。verification076初缺节修复后通过、manifest061/H3，main / `Audit PPCO joint response and retained spin ambiguities`，原windowactive/17once/partial18。

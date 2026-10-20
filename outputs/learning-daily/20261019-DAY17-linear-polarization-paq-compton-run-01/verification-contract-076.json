@@ -1,0 +1,17 @@
+{
+  "indexed_claim_counts": {
+    "knowledge/sources/droste-1999-ppco-polarization.md": 16
+  },
+  "artifacts": [
+    {
+      "file": "droste1999-response-result.json",
+      "true_fields": [
+        "ok",
+        "symbolic_Eq8_11_15_and_count_covariance_controls",
+        "same_single_P_does_not_fix_joint_PP1",
+        "no_actual_counts_or_original_chi2_fit_pvalue_CI"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}
