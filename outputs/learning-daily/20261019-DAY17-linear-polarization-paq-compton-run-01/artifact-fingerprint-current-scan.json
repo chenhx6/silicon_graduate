@@ -1,0 +1,846 @@
+{
+  "rows": [
+    {
+      "result": "amr-review-energy-result.json",
+      "field": "script_sha256",
+      "sha256": "a250276e0ef4b994ee55229c08a3032e1d6105eefb3d4518614e7afc37115c57",
+      "matching_path": "system/scripts/day17_amr_review_energy_audit.py"
+    },
+    {
+      "result": "amr-review-energy-result.json",
+      "field": "contract_sha256",
+      "sha256": "3ffb62d2942c962b4eba98addcb5c6c5d9fb7ca7e81563551c264adc59176bcf",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-contract.json"
+    },
+    {
+      "result": "aoki1975-response-result.json",
+      "field": "script_sha256",
+      "sha256": "13fb31153e4518ade3dba43bd4e2541fda7f48224b9674478e230bbf68c93a6b",
+      "matching_path": "system/scripts/day17_aoki1975_response_audit.py"
+    },
+    {
+      "result": "aoki1975-response-result.json",
+      "field": "contract_sha256",
+      "sha256": "1e8f7ea15ad2e1ecde9117dec36ec5282b320fd8046499582ab41ee338943d43",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/aoki1975-response-contract.json"
+    },
+    {
+      "result": "array-weight-result.json",
+      "field": "script_sha256",
+      "sha256": "4b667eaf74c6f3311b6a20bcac0a26d827471f781d89350b50bdcb26d6177063",
+      "matching_path": "system/scripts/day17_paq_array_weight_contract.py"
+    },
+    {
+      "result": "bass1972-Ge-result.json",
+      "field": "script_sha256",
+      "sha256": "6610ee99d93f80e5bf49742944ffea98f77a589ca0ad1a7a19136d61199a7e81",
+      "matching_path": "system/scripts/day17_bass1972_fraction_audit.py"
+    },
+    {
+      "result": "bass1972-Ge-result.json",
+      "field": "contract_sha256",
+      "sha256": "af839f0ebdebff3a6010ed373d4e36a0cf504108967e96208de3e13dc43a7cad",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/bass1972-Ge-contract.json"
+    },
+    {
+      "result": "bethge1966-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "216926fc9d7756c38a27a52e09a1b3be9d3dcfa910747893e1e283cb0d824a64",
+      "matching_path": "system/scripts/day17_bethge_stopping_contract.py"
+    },
+    {
+      "result": "butler1973-calibration-result.json",
+      "field": "script_sha256",
+      "sha256": "ff4a8ed175e440ac8a6847c8ab305df90a5af4b6f1a53015c239e80cb078b956",
+      "matching_path": "system/scripts/day17_butler1973_response_audit.py"
+    },
+    {
+      "result": "butler1973-calibration-result.json",
+      "field": "contract_sha256",
+      "sha256": "a62bba7438646ab891840c8089c3e2b8c946454ea9f0333244646c9fa4a0ce8a",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/butler1973-calibration-contract.json"
+    },
+    {
+      "result": "chiara2001-branch-result.json",
+      "field": "script_sha256",
+      "sha256": "e6de0af14bedeff45391788ac36f4c7e268ad1a2ddd4a1e6b998bbfcdba4687d",
+      "matching_path": "system/scripts/day17_chiara2001_branch_provenance.py"
+    },
+    {
+      "result": "chiara2001-branch-result.json",
+      "field": "contract_sha256",
+      "sha256": "4833c78482ec1126ae317dd5543899162d3c06b012e7b4afe7436ee80a42616c",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/chiara2001-branch-contract.json"
+    },
+    {
+      "result": "cm245-commonparent-result.json",
+      "field": "script_sha256",
+      "sha256": "6422a171e980ed54ee431d6d7570eefdd9b00672d50b28ad6fb1dd67e01cf093",
+      "matching_path": "system/scripts/day17_cm245_commonparent_audit.py"
+    },
+    {
+      "result": "cm245-commonparent-result.json",
+      "field": "contract_sha256",
+      "sha256": "2a0811a39704215fd0dc6c7f9a0e8815d7e449697ec7f01289740660cc4560bb",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-commonparent-contract.json"
+    },
+    {
+      "result": "cm245-mixing-companion-result.json",
+      "field": "script_sha256",
+      "sha256": "a9fcc42cc07a3a6694dccdec4a1ccedf141aa6a99a96ba1e82c792a877b498e7",
+      "matching_path": "system/scripts/day17_cm245_mixing_sensitivity.py"
+    },
+    {
+      "result": "cm245-mixing-companion-result.json",
+      "field": "contract_sha256",
+      "sha256": "1118087b76ac80c09875cff54c234324e9a4c04be569cb4d72275492999f14d1",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-mixing-companion-contract.json"
+    },
+    {
+      "result": "cm245-reference-result.json",
+      "field": "script_sha256",
+      "sha256": "ad916a8f7b1f2cbe6765f51b0e358f79714e6d04b3a1868560b6f3ae2774fb7a",
+      "matching_path": "system/scripts/day17_cm245_reference_audit.py"
+    },
+    {
+      "result": "cm245-reference-result.json",
+      "field": "contract_sha256",
+      "sha256": "e3b027bc83de0b0cb69331188264e7677dad5867e03f2c93759b4c45c77293ad",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/cm245-reference-contract.json"
+    },
+    {
+      "result": "day18-lifetime-strength-result.json",
+      "field": "script_sha256",
+      "sha256": "9473fa3b57011aace3d7837af0c8973b7a17f6d8791a43d124dce7ffc3a37bbd",
+      "matching_path": "system/scripts/day17_day18_lifetime_strength_audit.py"
+    },
+    {
+      "result": "day18-lifetime-strength-result.json",
+      "field": "contract_sha256",
+      "sha256": "f67b605f32a5d421e0f2be93d01112c7e11e974de1c13b64ba4a066af37d8fe3",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/day18-lifetime-strength-contract.json"
+    },
+    {
+      "result": "draper1970-gaussian-result.json",
+      "field": "script_sha256",
+      "sha256": "42c2c9909dbf6eccf55fa3c19f89283a0338754bd8209da0028c6dc017779991",
+      "matching_path": "system/scripts/day17_draper1970_gaussian_audit.py"
+    },
+    {
+      "result": "draper1970-table1-result.json",
+      "field": "script_sha256",
+      "sha256": "42c2c9909dbf6eccf55fa3c19f89283a0338754bd8209da0028c6dc017779991",
+      "matching_path": "system/scripts/day17_draper1970_gaussian_audit.py"
+    },
+    {
+      "result": "draper1970-table1-result.json",
+      "field": "contract_sha256",
+      "sha256": "f92ccbb74508a775f5a034479c69bdd0620bcccd30837986c7fa63a77de535f8",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/draper1970-table1-contract.json"
+    },
+    {
+      "result": "droste1999-response-result.json",
+      "field": "script_sha256",
+      "sha256": "c674df01bcf3561f0765467487ae4bac8639a5c4ad8a8b882e70584c7dbfc790",
+      "matching_path": "system/scripts/day17_droste1999_joint_response.py"
+    },
+    {
+      "result": "droste1999-response-result.json",
+      "field": "contract_sha256",
+      "sha256": "567690c8a5b3cff81fab49d2a8042cdc8dd48b44415b0b9c7c1c731589206a49",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/droste1999-response-contract.json"
+    },
+    {
+      "result": "ekstrom1979-table1-result.json",
+      "field": "script_sha256",
+      "sha256": "361f2ac0832af52aa2d010eb1a76a27e8516194855f282d399101569eac2bc3f",
+      "matching_path": "system/scripts/day17_ekstrom1979_table_audit.py"
+    },
+    {
+      "result": "ekstrom1979-table1-result.json",
+      "field": "contract_sha256",
+      "sha256": "237c70a0a1806adec4824821bdaea831563d767cb8f043d76f04a695a30e3103",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ekstrom1979-table1-contract.json"
+    },
+    {
+      "result": "evasions2023-conditional-event-result.json",
+      "field": "script_sha256",
+      "sha256": "f84764e0b55b2d2430399f6c6d95475ecaa176fd860227f2b1d76e97ae21071a",
+      "matching_path": "system/scripts/day17_evasions_conditional_events.py"
+    },
+    {
+      "result": "evasions2023-conditional-event-result.json",
+      "field": "contract_sha256",
+      "sha256": "ab5869aef860ec79bf4248ecada3afc40bfa12c933291e47a1b648264907f6bc",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-conditional-event-contract.json"
+    },
+    {
+      "result": "evasions2023-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "8a83b1f367ec15f8699c0459c4b9f41a2a4fca6c1990decd20eb703904498e92",
+      "matching_path": "system/scripts/day17_evasions_release_native_contract.py"
+    },
+    {
+      "result": "evasions2023-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "aab7f8892ec45a15da87d4bfd8208f29c10646ef8c930be31629a94254be4864",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-exercise-contract.json"
+    },
+    {
+      "result": "evasions2023-optical-angle-result.json",
+      "field": "script_sha256",
+      "sha256": "2e1ed42caa564a794a6c7513fb3ea348b3ac7421091c47d4ad445ee49a8864b3",
+      "matching_path": "system/scripts/day17_evasions_optical_angle_contract.py"
+    },
+    {
+      "result": "evasions2023-optical-angle-result.json",
+      "field": "contract_sha256",
+      "sha256": "6310f188a9c9131346fa89dabfe69936858a846cdd2141b87552cecb8b1da59b",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-optical-angle-contract.json"
+    },
+    {
+      "result": "evasions2023-recipe-fingerprint-result.json",
+      "field": "script_sha256",
+      "sha256": "e807da96ab59999a5b4d6b2831069d75dc99304126c7d44792b81271c5499815",
+      "matching_path": "system/scripts/day17_evasions_recipe_fingerprint.py"
+    },
+    {
+      "result": "evasions2023-recipe-fingerprint-result.json",
+      "field": "contract_sha256",
+      "sha256": "11162a50c556da697fdf3200620292f7631de9f23cb6ae3566e2e9ff5e15bf53",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/evasions2023-recipe-fingerprint-contract.json"
+    },
+    {
+      "result": "ewan1969-calibration-result.json",
+      "field": "script_sha256",
+      "sha256": "9a47575bd91d5642277c87fb064309aa0feb90f11ec8fd3ef0d323649ceb4eda",
+      "matching_path": "system/scripts/day17_ewan1969_convention_audit.py"
+    },
+    {
+      "result": "ewan1969-calibration-result.json",
+      "field": "contract_sha256",
+      "sha256": "343e502f8c8eee9ef092548abb6b4adb99736de676f294465a5e5758d385a206",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/ewan1969-calibration-contract.json"
+    },
+    {
+      "result": "falkoff1948-CG-result.json",
+      "field": "script_sha256",
+      "sha256": "767aa7186b86c58de0b4e693ff224eb9a0a38ffd85fff6a807f44dad979c2456",
+      "matching_path": "system/scripts/day17_falkoff1948_cg_audit.py"
+    },
+    {
+      "result": "falkoff1948-CG-result.json",
+      "field": "contract_sha256",
+      "sha256": "01662b8ba1ed4e2314c19d037d95ce5caff21552935cfe8364419212f1f9d682",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/falkoff1948-CG-contract.json"
+    },
+    {
+      "result": "fougeres2022-thesis-a2-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "6997b3c4fd50a2224ce35fd568e691521de0cb994dd12932b71eb508a953f3c3",
+      "matching_path": "system/scripts/day17_fougeres2022_a2_contract.py"
+    },
+    {
+      "result": "fougeres2022-thesis-a2-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "00f364ab7757efd57ea89fa6c1aee79ebd96e31d96bdd5369d2c30d4edf40adc",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-a2-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2022-thesis-B-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "a735f09241bfadfffb31e4d84e48f8b01002c4af871f06dddc71a7062d4ea63b",
+      "matching_path": "system/scripts/day17_fougeres2022_appendixB_contract.py"
+    },
+    {
+      "result": "fougeres2022-thesis-B-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "79a092a3bbb2b3b3e35b8f4448054f66e16f3dfcfd12476d9f00250a758dab8d",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-B-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2022-thesis-ch3-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "94af7c63aa04e476333fd3b7677082f0e820610cb3c4f1d5901a78a116f106db",
+      "matching_path": "system/scripts/day17_fougeres2022_ch3_contract.py"
+    },
+    {
+      "result": "fougeres2022-thesis-ch3-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "b57ead3da53b9c80900a1e86cf4e65cbfde04b503ca3bb88eefc340f51beb1ff",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch3-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2022-thesis-ch4-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "eb0f020b98d42e2d4469f3818b9f661bbfc1a640b7476600eb47679c4bbe60c5",
+      "matching_path": "system/scripts/day17_fougeres2022_ch4_contract.py"
+    },
+    {
+      "result": "fougeres2022-thesis-ch4-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "ee287be22f0cc8582dff5358a1723e239c631a2c449f6d1969503c27c83b1a3f",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch4-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2022-thesis-ch5-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "b30e12ee7302d1bb7ac59029074fff965fedce5702825d77e2daa5d64fb60614",
+      "matching_path": "system/scripts/day17_fougeres2022_ch5_contract.py"
+    },
+    {
+      "result": "fougeres2022-thesis-ch5-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "38d764b935b5c4a371bd11e3e070411f380d31a95edb215356f73ef2aa359598",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch5-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2022-thesis-ch6-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "5495919ef5457bdc6e115cef22663b26ff109d556eed30e490524ac27534354b",
+      "matching_path": "system/scripts/day17_fougeres2022_ch6_contract.py"
+    },
+    {
+      "result": "fougeres2022-thesis-ch6-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "b2e401b4cc93aaa66c545e91ff8045171443fcc51afc530d183789d818b58c17",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2022-thesis-ch6-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2023-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "6c4de1e93d73736e336e1dfe02335cbbf3e293eead43ba8c6fc6258cd37a9102",
+      "matching_path": "system/scripts/day17_fougeres2023_source_data_contract.py"
+    },
+    {
+      "result": "fougeres2023-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "86327e36a6a6ed270ca53a41366a5beec9ebd1a9f803853ed7235fef2a8c1622",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-exercise-contract.json"
+    },
+    {
+      "result": "fougeres2023-graph-root-result.json",
+      "field": "script_sha256",
+      "sha256": "df4fd4defa1b1ea8816434c0a23545575c589ca7281f97071ec78811e4f23a08",
+      "matching_path": "system/scripts/day17_fougeres2023_graph_root_contract.py"
+    },
+    {
+      "result": "fougeres2023-graph-root-result.json",
+      "field": "contract_sha256",
+      "sha256": "3620a888603bfc5d53528cefb373de33fc0a7547e4fc6fa7f5fceeec4e576ab2",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-contract.json"
+    },
+    {
+      "result": "frauendorf2001-e2-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "61aecc3ad93717c7f01a4952d5176bc97a00473984db1feddba718ff3669877a",
+      "matching_path": "system/scripts/day17_frauendorf2001_e2_geometry.py"
+    },
+    {
+      "result": "frauendorf2001-e2-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "b523e91a575186c88b2f1d08acfcf55f89ca81167e6ac4690d37558f11c631a1",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-exercise-contract.json"
+    },
+    {
+      "result": "friedman2020-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "bc97cf35cfaf49acc204ae68d3e8194b35d0f23488c3633060bf385d6a2d2a35",
+      "matching_path": "system/scripts/day17_friedman2020_branch_contract.py"
+    },
+    {
+      "result": "friedman2020-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "66ded15b2fdbee17207c6f0e847d4d4554a86ef3154a0ff97f8e8681e973ac7a",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/friedman2020-exercise-contract.json"
+    },
+    {
+      "result": "garciaraffi1995-geometry-result.json",
+      "field": "script_sha256",
+      "sha256": "9836f2a963d5626314542f6b175528a7baea516965ac2bf932c2f93b543832f6",
+      "matching_path": "system/scripts/day17_gr95_nonorthogonal_audit.py"
+    },
+    {
+      "result": "garciaraffi1995-geometry-result.json",
+      "field": "contract_sha256",
+      "sha256": "6fd81e451f5c2601a7b2053266ac75e97a56d4b73ca39ade5d4879643b896139",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/garciaraffi1995-geometry-contract.json"
+    },
+    {
+      "result": "griffin-geometry-result.json",
+      "field": "script_sha256",
+      "sha256": "d03f5eb1e436a93b7476ca41a77b310074c8690f853a4ff9126b1161af936656",
+      "matching_path": "system/scripts/day17_griffin_geometry_contract.py"
+    },
+    {
+      "result": "griffin-primary-calibration-result.json",
+      "field": "script_sha256",
+      "sha256": "02028d977ca4dd04f27cd8e6dcebe125eabd2f1f04745da264aa990da75586ba",
+      "matching_path": "system/scripts/day17_griffin_primary_calibration_replay.py"
+    },
+    {
+      "result": "grsisort-component-result.json",
+      "field": "script_sha256",
+      "sha256": "68ae8a15f93840767c7381e9ba978f701544dfcd26361eb0dadbdd9e57431b46",
+      "matching_path": "system/scripts/day17_grsisort_component_audit.py"
+    },
+    {
+      "result": "grsisort-lean-schema-result.json",
+      "field": "script_sha256",
+      "sha256": "c67859848c17fbaf86dde87cac147c0f34425743d031c2019db071c1eb1d3d4e",
+      "matching_path": "system/scripts/day17_grsisort_lean_schema_audit.py"
+    },
+    {
+      "result": "grsisort-q-energy-result.json",
+      "field": "script_sha256",
+      "sha256": "31bac24b8d97e4a601ad0a460d8cab31522153c1629c86ee49d0bfbc84f0ca0e",
+      "matching_path": "system/scripts/day17_grsisort_q_energy_audit.py"
+    },
+    {
+      "result": "jenkins2004-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "e106f69ddc3bdb609e400dbf5d53b01f3bddcea8a5d337efa8804c5141c7ea97",
+      "matching_path": "system/scripts/day17_jenkins2004_contract.py"
+    },
+    {
+      "result": "jenkins2004-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "a28c419618a7c89dd48f70277ba7f263475eefd3c318a0025fbabf2e3fe597eb",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/jenkins2004-exercise-contract.json"
+    },
+    {
+      "result": "jensen-bandmixing-result.json",
+      "field": "script_sha256",
+      "sha256": "bdb38c92eeda3b2edd4add758e6dbfc4138b7c19bd913771460d622b6a6ca075",
+      "matching_path": "system/scripts/day17_jensen_bandmixing_reference_chain.py"
+    },
+    {
+      "result": "jensen-bandmixing-result.json",
+      "field": "contract_sha256",
+      "sha256": "f23926d4b29133b3dc661627de4585d1caaf570f7b9621881ec47db2728fbf72",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/jensen-bandmixing-contract.json"
+    },
+    {
+      "result": "kirsebom2016-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "8ab19d0c40901bc2aaffd7fb96e8486927516e529c6c9d9f471ee404d5e1393b",
+      "matching_path": "system/scripts/day17_kirsebom2016_contract.py"
+    },
+    {
+      "result": "kirsebom2016-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "df5c44cd239e9c1e243f4656194e14df0a8076520debfd9a65ba8620818d2bd1",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/kirsebom2016-exercise-contract.json"
+    },
+    {
+      "result": "logan1974-table-result.json",
+      "field": "script_sha256",
+      "sha256": "cb4376a1065844cf40ef69fad26b675a9657c65d5383b33d2775f3b155c0a7fd",
+      "matching_path": "system/scripts/day17_logan1974_merit_audit.py"
+    },
+    {
+      "result": "logan1974-table-result.json",
+      "field": "contract_sha256",
+      "sha256": "0ce167c0496af5598bc89a24987424d851430332ccfd541cba68a17fcfad5f79",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/logan1974-table-contract.json"
+    },
+    {
+      "result": "madai-likelihood-result-first-component.json",
+      "field": "script_sha256",
+      "sha256": "6e279ed8bb7b4a4a20d366943b5003efb044385326f5d477263963ed358c75f9",
+      "matching_path": null
+    },
+    {
+      "result": "madai-likelihood-result-first-component.json",
+      "field": "contract_sha256",
+      "sha256": "801deb6879b33e0c8a61c6c1329bef5e04d9b0a114a9919f615291300db33d52",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-contract-first-component.json"
+    },
+    {
+      "result": "madai-likelihood-result.json",
+      "field": "script_sha256",
+      "sha256": "6792b9786da1275bb4667ec70ce7a5d8b9fb03bbfe7d27d3a94e5609fc64e4eb",
+      "matching_path": "system/scripts/day17_madai_likelihood_component.py"
+    },
+    {
+      "result": "madai-likelihood-result.json",
+      "field": "contract_sha256",
+      "sha256": "7cd5227ab333598303feb3f1ed6b0cdcbaee3edd70648ab1bb2d24ff4e4c9f31",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/madai-likelihood-contract.json"
+    },
+    {
+      "result": "mg23-al23ec-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "5a6c8652c7bb891ba893cd4070668178ec21d6df80f2636bb3d12f3c4217992b",
+      "matching_path": "system/scripts/day17_mg23_al23ec_contract.py"
+    },
+    {
+      "result": "mg23-al23ec-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "bad11397f6cd363db412d79ae45a471169f189c06de471e9d410002befca9f50",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-al23ec-exercise-contract.json"
+    },
+    {
+      "result": "mg23-reference-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "daffcdbd6606840b0abd675f3d49c772629ba49a970c065a276ba2868f4fcaf1",
+      "matching_path": "system/scripts/day17_mg23_reference_contract.py"
+    },
+    {
+      "result": "mg23-reference-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "00d0f9c34119d17a25045db9b32b785524deed8cb61efa5e2f3ceedda0d24e3a",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/mg23-reference-exercise-contract.json"
+    },
+    {
+      "result": "miller2007-count-result.json",
+      "field": "script_sha256",
+      "sha256": "4f201cc5f6565a136bcf4701c9d23157bfc7684b91fd5f3d53415e3febf30322",
+      "matching_path": "system/scripts/day17_miller2007_count_audit.py"
+    },
+    {
+      "result": "miller2007-count-result.json",
+      "field": "contract_sha256",
+      "sha256": "17408054e5ebebb39a38f93741c06380772809b00328111dfeada16a5066bffd",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/miller2007-count-contract.json"
+    },
+    {
+      "result": "paq-shared-calibration-result.json",
+      "field": "script_sha256",
+      "sha256": "93266f60b810fcad22b0dcf2593257e78f0a9d0ee96aa8b060772c81f259de27",
+      "matching_path": "system/scripts/day17_paq_shared_calibration.py"
+    },
+    {
+      "result": "pb207-reference-audit-result.json",
+      "field": "script_sha256",
+      "sha256": "f36bbc38d20088d3486758b85321789512d7371266037e1dcc572351a1d04ab8",
+      "matching_path": "system/scripts/day17_pb207_reference_audit.py"
+    },
+    {
+      "result": "pb207-stokes-result-first-pass.json",
+      "field": "script_sha256",
+      "sha256": "e3cf4d0eda7176cc2b516d30f833eeb8f08c4f4f7bdfdeb206b1d40cf298438d",
+      "matching_path": null
+    },
+    {
+      "result": "pb207-stokes-result-first-pass.json",
+      "field": "contract_sha256",
+      "sha256": "7ea1e23610c133c2442c3d81fa0de167c6f9399a99d5a95de6199f44109a8d52",
+      "matching_path": null
+    },
+    {
+      "result": "pb207-stokes-result.json",
+      "field": "script_sha256",
+      "sha256": "2ff4e06b95f5be34f4a8b46ab5891203986a06e42f228094462ad89e3e007e93",
+      "matching_path": "system/scripts/day17_pb207_conditional_stokes.py"
+    },
+    {
+      "result": "pb207-stokes-result.json",
+      "field": "contract_sha256",
+      "sha256": "8383190ecb39efab2951dca3dec16b4b7ced545351cac13ea0ead9118f210492",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-contract.json"
+    },
+    {
+      "result": "pointQ-result.json",
+      "field": "script_sha256",
+      "sha256": "9136e2550f422583e472c525a81945db8ae2b051a77e00c3b2034e0d199148d9",
+      "matching_path": "system/scripts/day17_point_compton_maximum.py"
+    },
+    {
+      "result": "pointQ-result.json",
+      "field": "contract_sha256",
+      "sha256": "61d8f040a76a6ade10e1c39dc0b293cb40d1d6d2f7b7a9ad6a8756657be5d3c1",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pointQ-contract.json"
+    },
+    {
+      "result": "polarization-ratio-degree-result.json",
+      "field": "script_sha256",
+      "sha256": "b79e1541f465b2c9a9a3e7230b45619a55f38669c17ccd2b72cae38423352e68",
+      "matching_path": "system/scripts/day17_polarization_ratio_bridge.py"
+    },
+    {
+      "result": "root-chi2-ll-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "dd961e9e046f5ad799a14e6d43fe40481504cc40a45c03e93d600ddb4f710b0a",
+      "matching_path": "system/scripts/day17_root_chi2_ll_contract.py"
+    },
+    {
+      "result": "root-chi2-ll-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "56f59e6ea0dd9137937627bf70e2ce551a7aceea2082961e8ad1437ae16226b4",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root-chi2-ll-exercise-contract.json"
+    },
+    {
+      "result": "root522-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "7e7f0b3facb8db90dc26c722634d931e0fcea821944347b354c044f76e4e4370",
+      "matching_path": "system/scripts/day17_root522_background_contract.py"
+    },
+    {
+      "result": "root522-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "2ac09e6084a99a8bd54426d95b3aae47dd9bb83e81464df396bd2fb420e6f624",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/root522-exercise-contract.json"
+    },
+    {
+      "result": "s31-mixing-result.json",
+      "field": "script_sha256",
+      "sha256": "cc70114c56d4ed1a117a73fbe446a04392e056463060372e3436adc9d40d6c36",
+      "matching_path": "system/scripts/day17_s31_mixing_reference_contract.py"
+    },
+    {
+      "result": "s31-mixing-result.json",
+      "field": "contract_sha256",
+      "sha256": "558a62f5c4b95aa5b6bb0010989bba51faf4f473ae258d92c1d595e00facd4ca",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/s31-mixing-contract.json"
+    },
+    {
+      "result": "saastamoinen2011-thesis-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "466f74fb2b5ffc4e38b9eda23c290bc219b4229c9371a6efee420d3ca3100e77",
+      "matching_path": "system/scripts/day17_saastamoinen2011_thesis_contract.py"
+    },
+    {
+      "result": "saastamoinen2011-thesis-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "a4f82fa53a844fde40e19686fcc22d8ea81b959c9c874e0d19d9f1554f4553d0",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/saastamoinen2011-thesis-exercise-contract.json"
+    },
+    {
+      "result": "sallaska2010-frame-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "05999f3475aa6358ff7452a0059b490ffaf3e416528a289890f46da22366a1df",
+      "matching_path": "system/scripts/day17_sallaska2010_frame_contract.py"
+    },
+    {
+      "result": "sallaska2011-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "d0b7a6cb2e52f6a86b597fad38e6770537a9d18e8630ea50bb15c701a42a7dee",
+      "matching_path": "system/scripts/day17_sallaska2011_contract.py"
+    },
+    {
+      "result": "sallaska2011-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "a8770cb2843d7d56294d9654af9904b227472dab03a992cf7cf7950aea98746c",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sallaska2011-exercise-contract.json"
+    },
+    {
+      "result": "schlitt1994-calibration-result.json",
+      "field": "script_sha256",
+      "sha256": "e8cb23119c9a23ace1f5757496a91a1c370b1523a8b629f630222c9e103abe81",
+      "matching_path": "system/scripts/day17_schlitt1994_calibration_audit.py"
+    },
+    {
+      "result": "schlitt1994-calibration-result.json",
+      "field": "contract_sha256",
+      "sha256": "e6f8aa1997a826dca289e44e96e6db092aac2f252564fe697daa55c3af60f3e6",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schlitt1994-calibration-contract.json"
+    },
+    {
+      "result": "schuermann2008-attenuation-result.json",
+      "field": "script_sha256",
+      "sha256": "025de7fa1fde301ff1dda764c600728657917af7487faf85cf3e8430bd61fef1",
+      "matching_path": "system/scripts/day17_schuermann2008_attenuation_audit.py"
+    },
+    {
+      "result": "schuermann2008-attenuation-result.json",
+      "field": "contract_sha256",
+      "sha256": "026aa4cbde789689bdc67d656e75e46029ee8c8a6d4b1e3aacbe506fe1b8b420",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/schuermann2008-attenuation-contract.json"
+    },
+    {
+      "result": "sega-singles-selection-result.json",
+      "field": "script_sha256",
+      "sha256": "5c91bdcfa02ff7a171a61db9f4db7c9d024cd2664076f9dd7a7d891f84a0b40b",
+      "matching_path": "system/scripts/day17_sega_singles_selection.py"
+    },
+    {
+      "result": "sega-singles-selection-result.json",
+      "field": "contract_sha256",
+      "sha256": "c4a52e759eea7f6e0ee490bdf2799736242a2be70ad075ece6c59194407341ca",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sega-singles-selection-contract.json"
+    },
+    {
+      "result": "simdsam-event-packet-result.json",
+      "field": "contract_sha256",
+      "sha256": "a5cc63c0c716e7d42f01477129f5686aa59033d5165199b6c1af5be28dbded40",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-event-packet-contract.json"
+    },
+    {
+      "result": "simons2005-link-result.json",
+      "field": "script_sha256",
+      "sha256": "140804f42abde1782f5f748e2bb72daf66f1d48bf55cc9ec3849f06ca882428f",
+      "matching_path": "system/scripts/day17_simons2005_link_audit.py"
+    },
+    {
+      "result": "simons2005-link-result.json",
+      "field": "contract_sha256",
+      "sha256": "c7ffdf7320b9ca25964c683b4e0f331a87705256d20e7c03ab7a9c2934896ed4",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simons2005-link-contract.json"
+    },
+    {
+      "result": "spinhalf-angular-result.json",
+      "field": "script_sha256",
+      "sha256": "4ff9c1b3854de5cc17778149dd85b0c013158d41536a4809690ae732da7f309c",
+      "matching_path": "system/scripts/day17_sun2023_spinhalf_angular_contract.py"
+    },
+    {
+      "result": "spinhalf-angular-result.json",
+      "field": "contract_sha256",
+      "sha256": "e59856515b07c3f378b4cb7a98c10092bfae690c3a55b8f34ab246bfd157a68f",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/spinhalf-angular-contract.json"
+    },
+    {
+      "result": "stopping-coverage-result.json",
+      "field": "script_sha256",
+      "sha256": "8678704d57070aa7487b3aaec1194d65ffcc665bec508d57aa56609db059792b",
+      "matching_path": "system/scripts/day17_stopping_database_coverage.py"
+    },
+    {
+      "result": "stopping-coverage-result.json",
+      "field": "contract_sha256",
+      "sha256": "cf22bfa07f6a9e18a4405a1ec5f637345a51c19a8488cbae7fa22daeee9a0da9",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/stopping-coverage-contract.json"
+    },
+    {
+      "result": "sun-alpha-kinematic-result.json",
+      "field": "script_sha256",
+      "sha256": "916cbe8bc5fb38b7c6b339b935dc7fb7bb9c4191001e4dbd1ff2830c1bc3f516",
+      "matching_path": "system/scripts/day17_sun_alpha_gate_kinematics.py"
+    },
+    {
+      "result": "sun-alpha-kinematic-result.json",
+      "field": "contract_sha256",
+      "sha256": "bdfb6625bf85887ca3240f998be0553657e135d04ba4cc87055c5e561a99b049",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun-alpha-kinematic-contract.json"
+    },
+    {
+      "result": "sun2023-rate-result.json",
+      "field": "script_sha256",
+      "sha256": "a7245bb48009c28b5afa08a90ac79f3f2c698a0e04aebbf8c839eaa3b417ca97",
+      "matching_path": "system/scripts/day17_sun2023_rate_boundary.py"
+    },
+    {
+      "result": "sun2023-rate-result.json",
+      "field": "contract_sha256",
+      "sha256": "870fe2242babb980078b8b897c1af5f4cee74fd1112f9cc3d57986a3774a2c3b",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/sun2023-rate-contract.json"
+    },
+    {
+      "result": "tamu2006-2007-report-exercise-result.json",
+      "field": "script_sha256",
+      "sha256": "a05ad5383830f3868d44d22c14fb08acebb3b422cc86891d0052540c7c0e4a84",
+      "matching_path": "system/scripts/day17_tamu_report_ratio_contract.py"
+    },
+    {
+      "result": "tamu2006-2007-report-exercise-result.json",
+      "field": "contract_sha256",
+      "sha256": "82894fc49a572dac1041b8c822f5af4f8a34771450e5178460ab98cfc232807f",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/tamu2006-2007-report-exercise-contract.json"
+    },
+    {
+      "result": "taras1971-actual-result.json",
+      "field": "script_sha256",
+      "sha256": "7dae20d1464c4378344bf3607872ee4013d0609a9bbf1054ea79a8c8b2453c01",
+      "matching_path": "system/scripts/day17_taras1971_table5_audit.py"
+    },
+    {
+      "result": "taras1971-actual-result.json",
+      "field": "contract_sha256",
+      "sha256": "ab95630380a4111904c5073600aaab1ccf47d61b1337df145d8d9341f203424d",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-actual-contract.json"
+    },
+    {
+      "result": "taras1971-box-result.json",
+      "field": "script_sha256",
+      "sha256": "e9ea36c907fb89ec52b37f6250d42633ab27fa8dca203f0c6ea09dc11f1d638a",
+      "matching_path": "system/scripts/day17_taras1971_marginal_box.py"
+    },
+    {
+      "result": "taras1971-box-result.json",
+      "field": "contract_sha256",
+      "sha256": "013f8f23b1938c2fbf9fac0e58031733cc3536c234f2cfa42d7201e8b0e27a0c",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/taras1971-box-contract.json"
+    },
+    {
+      "result": "time-alignment-joint-result.json",
+      "field": "script_sha256",
+      "sha256": "c5d3b8e6c6ba0ac4b8dbcd2ca71d62e522436166291d5150408b3fa8ae07abe0",
+      "matching_path": "system/scripts/day17_time_alignment_joint.py"
+    },
+    {
+      "result": "time-alignment-joint-result.json",
+      "field": "contract_sha256",
+      "sha256": "938ae8fd14533ea4224ef03c5d070b1945b9713433918f9290431eab56a18ad0",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/time-alignment-joint-contract.json"
+    },
+    {
+      "result": "twin1970-response-result.json",
+      "field": "script_sha256",
+      "sha256": "da076b66683aa167d3f25f209d0e3506d173c0d10c9e76237baa9b9bc2261f13",
+      "matching_path": "system/scripts/day17_twin1970_response_audit.py"
+    },
+    {
+      "result": "twin1970-response-result.json",
+      "field": "contract_sha256",
+      "sha256": "161b7744e422d93ccf15944bbe7076eb830febbfbc274eae1c7a0135e0c03872",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/twin1970-response-contract.json"
+    },
+    {
+      "result": "vaillancourt1974-response-result.json",
+      "field": "script_sha256",
+      "sha256": "a9218ff5d0d30d3faa044ef83a4d7e39c088e5859bdb9b89011e1f5ab34de64c",
+      "matching_path": "system/scripts/day17_vaillancourt1974_response.py"
+    },
+    {
+      "result": "vaillancourt1974-response-result.json",
+      "field": "contract_sha256",
+      "sha256": "cf1bddde764c6ca8e11bd7395dfff30c594e9cd7a6678c4fc2760c253b5c6f96",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/vaillancourt1974-response-contract.json"
+    },
+    {
+      "result": "vonderwerth1995-gate-result.json",
+      "field": "script_sha256",
+      "sha256": "a84db17c28dcb879f96c7b78e9bcfc6663c834f66e0493bb471c21e9de0aac5b",
+      "matching_path": "system/scripts/day17_vw95_gate_audit.py"
+    },
+    {
+      "result": "vonderwerth1995-gate-result.json",
+      "field": "contract_sha256",
+      "sha256": "41e08111020728db4374e32d3f83bac51ea510a6b3b0fe1875bad44636d9966d",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/vonderwerth1995-gate-contract.json"
+    },
+    {
+      "result": "wadsworth1977-rate-result.json",
+      "field": "script_sha256",
+      "sha256": "2623b8dcba6c61e00f78560128378dd87ca1790e3c249751293395a56cdf538d",
+      "matching_path": "system/scripts/day17_wadsworth1977_rate_audit.py"
+    },
+    {
+      "result": "wadsworth1977-rate-result.json",
+      "field": "contract_sha256",
+      "sha256": "974df7c2408b7d44d9d52e1d64a6f5876122b319714d3e41e393c401dc199d90",
+      "matching_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/wadsworth1977-rate-contract.json"
+    }
+  ],
+  "unmatched": [
+    {
+      "result": "madai-likelihood-result-first-component.json",
+      "field": "script_sha256",
+      "sha256": "6e279ed8bb7b4a4a20d366943b5003efb044385326f5d477263963ed358c75f9",
+      "matching_path": null
+    },
+    {
+      "result": "pb207-stokes-result-first-pass.json",
+      "field": "script_sha256",
+      "sha256": "e3cf4d0eda7176cc2b516d30f833eeb8f08c4f4f7bdfdeb206b1d40cf298438d",
+      "matching_path": null
+    },
+    {
+      "result": "pb207-stokes-result-first-pass.json",
+      "field": "contract_sha256",
+      "sha256": "7ea1e23610c133c2442c3d81fa0de167c6f9399a99d5a95de6199f44109a8d52",
+      "matching_path": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-20T05:55:32.620490+00:00",
+  "scope": "three first-pass/first-component fingerprints only; do not treat as active finalartifact failures",
+  "matched_historical": {},
+  "not_found_in_selected_git_objects": [
+    "6e279ed8bb7b4a4a20d366943b5003efb044385326f5d477263963ed358c75f9",
+    "7ea1e23610c133c2442c3d81fa0de167c6f9399a99d5a95de6199f44109a8d52",
+    "e3cf4d0eda7176cc2b516d30f833eeb8f08c4f4f7bdfdeb206b1d40cf298438d"
+  ]
+}

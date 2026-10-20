@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-20T06:09:47.932460+00:00",
+  "exit_code": 0,
+  "running": true,
+  "owner": {
+    "pid": 42019,
+    "root": "/workspace/wiki",
+    "started_at": "2026-10-16T01:21:37.124848+00:00"
+  },
+  "session_state": {
+    "status": "running",
+    "event_key": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17:01a15493-d535-7c22-a223-852c76ec80f6:2026-10-19T14:32:16.955Z",
+    "attempts": 0,
+    "pending": false,
+    "next_at": 0,
+    "last_event_timestamp": "2026-10-19T14:32:16.955Z"
+  },
+  "action": "read-only; preserve existing owner, no newdaemon/session"
+}

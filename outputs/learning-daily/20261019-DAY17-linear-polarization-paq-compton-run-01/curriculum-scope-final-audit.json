@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-20T06:19:11.756735+00:00",
+  "completed_day_indices": [
+    17
+  ],
+  "partial_day_indices": [
+    18
+  ],
+  "next_day_index": 18,
+  "completed_day_count": 17,
+  "credit_applied_once_receipt": "card-credit-007.json",
+  "Day19_scientific_card_or_sources_studied": false,
+  "incidental_boundary_exposure": "startup restore sed145\u2013171 of taskmatrix output included Day19 title only at tail; no Day19 taskitems/source/problem or credit opened",
+  "after_13_30_new_source_or_body_or_card": false,
+  "after_13_30_scope": "finish previouslyfrozen singles-selection analysis, source/ownership/fingerprint/recall/presentation audits of already-read evidence",
+  "normal_runner_exit_observed": false,
+  "scheduler_index_final_to_append_only_after_deadline_and_completion": true
+}

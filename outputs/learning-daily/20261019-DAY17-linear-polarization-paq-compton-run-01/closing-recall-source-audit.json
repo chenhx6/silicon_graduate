@@ -1,0 +1,322 @@
+{
+  "at": "2026-10-20T06:07:45.987557+00:00",
+  "source_after_primed_recall": true,
+  "freeze_hash_preserved": true,
+  "items": [
+    {
+      "item": 1,
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14",
+          "line": 71,
+          "claim_row": "| ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13",
+          "line": 69,
+          "claim_row": "| SG98-13 | 在Eq13条件下，原A=(ηC−S)/(√η(C+S))线性于P；若改成B=(ηC−S)/(ηC+S)，代数给B=(1+η)QP/[2√η+(η−1)QP]。除特殊/局部极限，重标一条reference仍不能取得对任意P通用的线性Q；这是本任务推导，不是源实验更正。 | observable-normalization-counterexample | task-derivation | printed100 Eq13；printed101 Eq15/Eq16 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 2,
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14",
+          "line": 71,
+          "claim_row": "| ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-4",
+          "line": 71,
+          "claim_row": "| MI07-D17-4 | a=Uperp/Uparallel，A=(Nperp−aNparallel)/(Nperp+aNparallel)，a333=.126(.007)/a388=.128(.007)，不同ST99倒数约定；weighted平均σ多来自unitdifference，sample std .009，不自动作独立共同calibrationσ。 | response-convention | direct-and-self-audit | printed714 Eq5–6; printed716 Sec4.2 | true |"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13",
+          "line": 69,
+          "claim_row": "| SG98-13 | 在Eq13条件下，原A=(ηC−S)/(√η(C+S))线性于P；若改成B=(ηC−S)/(ηC+S)，代数给B=(1+η)QP/[2√η+(η−1)QP]。除特殊/局部极限，重标一条reference仍不能取得对任意P通用的线性Q；这是本任务推导，不是源实验更正。 | observable-normalization-counterexample | task-derivation | printed100 Eq13；printed101 Eq15/Eq16 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 3,
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14",
+          "line": 71,
+          "claim_row": "| ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13",
+          "line": 69,
+          "claim_row": "| SG98-13 | 在Eq13条件下，原A=(ηC−S)/(√η(C+S))线性于P；若改成B=(ηC−S)/(ηC+S)，代数给B=(1+η)QP/[2√η+(η−1)QP]。除特殊/局部极限，重标一条reference仍不能取得对任意P通用的线性Q；这是本任务推导，不是源实验更正。 | observable-normalization-counterexample | task-derivation | printed100 Eq13；printed101 Eq15/Eq16 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 4,
+      "sources": [
+        {
+          "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+          "locator": "L74-D17-5",
+          "line": 162,
+          "claim_row": "| L74-D17-5 | literalEq3/表1得P1planar相对conventional=.0048768（近印.0049）；保旧S13变体只给.0022170，不作actualinput。P.5/.1的conventional相对值.875/.841346对印.885/.837有小不闭合，未取unroundedinputs、不调Q或S强配、不判实验矛盾。 | actual-table consistency and boundary | derived | p.274 Tables1–2 | true |"
+        },
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-7",
+          "line": 63,
+          "claim_row": "| JO95-7 | Eq5定义F=Q²(Nperp+Nparallel)，是当前采集计数型figure of merit；离线逐segment threshold改变接受/统计，采用60keV。Fig5 scan复用数据；未给cross-thresholdCov或生产计数，不据图宣布普适最优阈值。21%/125%的相对NaI photopeak效率不是该N的absolute polarimetry efficiency。 | threshold-and-statistical-boundary | direct-and-self-audit | printed556 Sec2；printed559 Fig5；printed560 Eq5 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 5,
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-12",
+          "line": 75,
+          "claim_row": "| VT74-D17-12 | 本篇p=J0/J90是强度比，末段p′才差和；N=N90/N0、R=σ90/σ0，Eq56经转换精确得A=QP，Q=(R−1)/(R+1)。与EW69 ratio解释相容但不证明EW69作者意图/Ref9body。 | observable-dictionary | direct-and-self-audit | printed339 Eq53–56 | true |"
+        },
+        {
+          "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+          "locator": "EW69-D17-11",
+          "line": 126,
+          "claim_row": "| EW69-D17-11 | 精确sympy桥证明印rEW=(1+p)/(1−p)，由(r−1)/(r+1)回TW70pureE2有界p；Ru475/631/766逐点相同。r>1对强度比允许，旧“>1物理failure”解释撤回，不把名义比值当实验degree。 | Codex belief revision / convention bridge | exact-derived | p.353 printed P90 formula | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 6,
+      "sources": [
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-2",
+          "line": 66,
+          "claim_row": "| FA48-D17-2 | 两形式可等价重参数：1+Acos(2φ)=(1−A)[1+bcos²φ]，b=2A/(1−A)。A2/7对应b4/5；只换cos²而不换coef/overallconstant会失配。 | task-calculation | direct-and-self-audit | printed518 Eq1 and2/7 ratio | true |"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-3",
+          "line": 67,
+          "claim_row": "| FA48-D17-3 | φ是两电场polarizations的相对角，讨论限定anti-parallel photon directions/nonorientedsource；不同于DR99的两emissionplanes/探测器azimuthφ，不裸迁axis或scalarQ。 | formalism-scope | direct-and-self-audit | printed518 beforeEq1; Eq1 | true |"
+        },
+        {
+          "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+          "locator": "FA48-D17-7",
+          "line": 71,
+          "claim_row": "| FA48-D17-7 | 共同globalxy轴/初态unoriented/opposite方向下两marginalP=0，jointPP1=A_F可非零，AF不是单光子P或计数A。与DR99 AA1=Q1Q2PP1只在匹配轴/响应时桥接。 | cross-source-conditional-inference | direct-and-self-audit | printed518 Eq1; TableI | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 7,
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-3",
+          "line": 65,
+          "claim_row": "| DR99-D17-3 | 明确假定a=1、18Clover identical及Q由Ref5单NORDBALL曲线近似EUROGAM，和ST99共享主采集/标定假设而非独立确认。 | calibration-and-independence-boundary | direct-and-self-audit | printed266 assumptions1–3 | true |"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-5",
+          "line": 67,
+          "claim_row": "| DR99-D17-5 | PP1是jointfield parity差和，AA1=Q1Q2 PP1。Footnote3说明它是两个singleP之外的一个additional ratio自由度；四normalizedN只三shape自由度。 | formalism-and-information | direct-and-self-audit | printed263 Eq11–13 footnote3 | true |"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-6",
+          "line": 68,
+          "claim_row": "| DR99-D17-6 | PP2=(W∥∥−W⊥⊥)/(W∥∥+W⊥⊥)，AA2=(N⊥⊥−N∥∥)/(N⊥⊥+N∥∥)；有限Q下Eq14/15混入crossW、两个R，不普遍AA2=Q1Q2 PP2。 | observable-boundary | direct-and-self-audit | printed263 Eq14; printed264 Eq15 | true |"
+        },
+        {
+          "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+          "locator": "DR99-D17-8",
+          "line": 70,
+          "claim_row": "| DR99-D17-8 | Table1在RDCO≈1列八positive-parity候选；AA2/4N排2/3/6/7却留1/4/5/8，非唯一16+。改sigma/I .2→.25不改作者结论；Table脚注.3的pureE2 AA2=.200仍近实测。 | author-interpretation-and-counterevidence | direct-and-self-audit | printed266 Table1; printed267 Sec3.2 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 8,
+      "sources": [
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-6",
+          "line": 69,
+          "claim_row": "| VT74-D17-6 | R_K与Kcal的CG分母可先消，保存finiteproduct；L3/L′5/K6 CGq0=0而CGq2非零，在Ji3→Jf2得R*Kcal=sqrt(1155)/1980。只把R=0项删除会丢P；不是sourceerratum或认证旧publicproducer。 | task-calculation | direct-and-self-audit | printed335 Eq15; printed336 Eq26; printed337 Eq32 | true |"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-8",
+          "line": 71,
+          "claim_row": "| VT74-D17-8 | 原Eq52明确ADisotropic仍可能linearP，不能把aK=0时的0/0定义成0；本sessionpositive±1/2布居的3/2→1/2 M1/E2有δ=√3±2两根，使a2=0且P90=±√3/2。 | source-warning-and-task-counterexample | direct-and-self-audit | printed339 Eq52 andfollowingparagraph | true |"
+        },
+        {
+          "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+          "locator": "VT74-D17-9",
+          "line": 72,
+          "claim_row": "| VT74-D17-9 | 新独立Eq9/22 photonamplitude与Eq14/15/26rank展开在三声明case/五θexactI/S交核，含E1M2E3及E3M4E5zeroCG；EM全flip I不变/S反、unoriented I1/S0及δthirdzero极限过，不借旧Day16模型授分。 | task-calculation | direct-and-self-audit | printed334 Eq9; printed335 Eq14–15; printed336 Eq22–26 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 9,
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-11",
+          "line": 80,
+          "claim_row": "| T71-D17-11 | 独立按sourceZ/Eq19/5的Table5 central replay给M1E2 δ2.683292/−.730446，E1M2 δ−.018784/104.34452；后者高M2份额.999908非数学∞。原pureM2表述保source近极限边界，不宣称原误差band已重放或实验矛盾。 | bounded-central-replay | direct-and-self-audit | printed333 Eq19; printed339 Eq39; printed344 Table5 | true |"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-12",
+          "line": 81,
+          "claim_row": "| T71-D17-12 | 同centralAD自由foldedq反演，δ2.68329给q(.5,1.5,2.5)=(.703038,.240032,.056930)；其它central三候选各有负q。支持作者本例正性排根，但不是新Jπ/δ测量或jointCI。 | task-calculation-and-author-comparison | direct-and-self-audit | printed329 Eq5; printed344–345 Sec4.6 Fig2 | true |"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-13",
+          "line": 82,
+          "claim_row": "| T71-D17-13 | centralAD完整正q域约[−15.83207,−.95118]与[.789966,3.042736]；原text排区−1到.73/3.27到∞口径未以完整误差recipe复现，不能拿central边界当原错误或真实CI。 | task-domain-and-statistical-boundary | direct-and-self-audit | printed344 Sec4.6 population paragraph | true |"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D17-14",
+          "line": 83,
+          "claim_row": "| T71-D17-14 | 作者将a4非零/βlogft4.7(.3)与positivepopulation用于J5/2、再称排7/2；本任务只复算5/2→3/2中央族，未取a6/全spinfit/原βprimary或完整Σ，不能独立认证其全部J排除。 | author-interpretation-and-readiness | direct-and-self-audit | printed344–345 Sec4.6 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 10,
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-3",
+          "line": 61,
+          "claim_row": "| N245-3 | 当前两个reference均标(E1)，MR/DMR栏空；不是测得δ严格0或独立认证MI07纯dipole假设。另266.63同parent支明确E1+M2/MR.076(+.007/−.008)，不能迁给333/388。 | mixing-input-boundary | direct-evaluation | Adopted L127–139; Alpha L262–291 | true |"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-5",
+          "line": 63,
+          "claim_row": "| N245-5 | 2015Ah03的L3 ICC接近pureE1理论，K/L1+L2/M/N等约两倍，被评价解释为anomalousE1conversion；不能仅由转换系数异常判γ含指定M2或从BrIcc反造δ。 | interpretation-and-alternative | direct-evaluation | Alpha L122–128/L271/L275–291 | true |"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-8",
+          "line": 66,
+          "claim_row": "| N245-8 | 333与388从同388.170母态是替代支，单次该母态退激不会连发两者；333后还可54.77低支但该支大ICC。不能把两个边际RI乘成其photonpair或当P权重。 | cascade-role-boundary | direct-level-map | Alpha L177–187/L252–291 | true |"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-9",
+          "line": 67,
+          "claim_row": "| N245-9 | 54.77低支为54.784→0、MR1.3(+.4/−.2)/CC219(33)；另一54.77为442.892→388.170、MR.63(.04)/CC121(8)，不同parent/selection，不能按Eγ同名合并。 | near-energy-reference-identity | direct-evaluation | Alpha L177–187/L298–314 | true |"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-16",
+          "line": 74,
+          "claim_row": "| N245-16 | 对已核Ji9/2→Jf9/2与7/2，若两pureE1且sharedconditionalrho/已unfold同接受，rank2系数R333=−4√330/165、R388=√330/60，故a333/a388=−16/11，不需Gaussianalignment。它是必要条件，不自动认证actualsource共同响应。 | task-common-parent-necessary-relation | exact-CG-and-Racah | Adopted L120/L132/L136; MI07-D17-6 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 11,
+      "sources": [
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-2",
+          "line": 156,
+          "claim_row": "| GR97-D17-2 | 此singlepoint模型q=sin²θ/[t+1/t−sin²θ]，t=1+α(1−cosθ)；90°才化MI07 Eq4。新导数/Descartesquartic证明α>0 globalunique最大角<90°，不是源原MC/装置Q重放。 | task-analytic-maximum | derived-from-original | printed462 Eq2–3 | true |"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-3",
+          "line": 157,
+          "claim_row": "| GR97-D17-3 | 明示singlecollision两hit各>=T给E′与E−E′的角域；E>2T仍不充分，如E150/T60无解；E333/T150的最佳允许角104.940°/q.650232，非原实际器件效率或SeGA未给阈值。 | task-kinematic-design | derived-from-original | printed462 Eq2–3 | true |"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+          "locator": "GR97-D17-4",
+          "line": 158,
+          "claim_row": "| GR97-D17-4 | singlepoint qmax只限该散射/终态未分析模型；原多scatter偏振输运和实际阵列response不由此认证或受90°reference作统一上界，maxq角也不等maxmerit。没有改任一publishedQ/Qrel/calibrationCov。 | transfer-boundary | source-and-task-scope | printed462 Eq3; printed466 Eq11–16; GR97-2 | true |"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-19",
+          "line": 86,
+          "claim_row": "| MI07-D17-19 | Eq11用inclusivegamma singles模型，Sec4.2的noalphadetected文字不能单独认证actualsorting为inclusive或anti-alpha。若sameconditionalensemble fullP0，Panti=−fPtag/(1−f)；用125×25000/7000 headline估f.00224，仅在matchedscalarQ.14模型下a偏置量级上界约7.92e−5，非actualbias/CI。 | conditional-selection-audit | source-and-task-calculation | printed715 Sec3.2 Eq11; printed716 Sec4.2 | true |"
+        },
+        {
+          "path": "knowledge/sources/miller-2007-sega-polarization.md",
+          "locator": "MI07-D17-20",
+          "line": 87,
+          "claim_row": "| MI07-D17-20 | photopeakheadline f不能自动代表polarimetrysample Stokes/接受；只用rounded3%perp/25%par与删除capacity，aanti/ainclusive可在.92533–1.00904的弱诊断范围。小matchedQ估计不认证sorting/noerror，未取得actualevent/Σ，不重标publishedQ。 | response-transfer-counter-control | task-count-design-and-scope | printed716 Sec4.2; MI07-D17-19 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    },
+    {
+      "item": 12,
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-17",
+          "line": 164,
+          "claim_row": "| MU08-17 | 本任务在TableII九组非空B(E2)/Qt打印输入上，用候选G=CG(I I 2 −2|I−2 I−2)²=(2I−3)/(2I+1)转Qt，均在额外nearest.01打印box内相容；fixedK0会给约1.58倍不同值。本文未印该公式，不从匹配反认唯一historicalproducer或真实内禀geometry。 | task-candidate-geometry-table-audit | derived-and-boundary | PDF4 TableII；day18-lifetime-strength-result mu08_candidate_geometry_rows | true |"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-6",
+          "line": 94,
+          "claim_row": "| J01-6 | 实际DSAM用Au/Pb各四角矩阵，37/79/101/143度对allsum；由于统计不足不能在任何目标跃迁之上开门，采用[411]两signature的483/527和516/467门、[541]favoured474门，均below。不是用abovegate直接消sidefeeding。 | direct-experimental-selection | direct | PDF22–23 / printed24–25 Sec3.2 | true |"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-7",
+          "line": 95,
+          "claim_row": "| J01-7 | 电子阻停empirical并shellcorrected、核阻停differentialLindhardt；Currie/Bacelar MC按5fs构造timeslicedshapes，Batemanyield加权后least-squares。sidefeeding为三步同Qs、固定J(2)=65.0，非MU08的五步/2fs/SRIM链。 | direct-analysis-model | direct | PDF21–23 / printed23–25 Sec3.2 | true |"
+        }
+      ],
+      "audit": "matches-with-stated-source-model-and-readiness-boundaries",
+      "independent_score": null
+    }
+  ],
+  "all_12_items_atomic_mapped": true,
+  "new_blind_score_or_credit": false,
+  "new_scientific_result": false
+}

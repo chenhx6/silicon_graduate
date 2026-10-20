@@ -2334,3 +2334,7 @@ exact−16/11与原a2残差/Covrange、1x/2x marginalbox检查，非jointtest/δ
 ### Day17 checkpoint073：inclusive/antiα最后bounded检查
 
 matchedQ小偏置与headlinecountcapacity弱界分层，actualsorter/Σ未知不修Q；原13:28前已冻问题完成，13:30后无newsource。verification088valid/manifest073/H3，main / `Separate inclusive singles from alpha anticoincidence calibration`，windowactive/17once/partial18；余时只既有证据和交付核查。
+
+### Day17 checkpoint074：全程保护/指纹/报告入口核查
+
+54source/208old/817newtrue及4prefix保护、137scriptinput指纹对应、来源后12项/38atomic无分复述与唯一writeback/nextprompt/course核查通过；无newsource。verification089valid/manifest074/H3，main / `Reconcile DAY17 evidence protection and recoverable report entry`，原15点前review-only/goalactive，17once/partial18。

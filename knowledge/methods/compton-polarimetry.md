@@ -3,7 +3,7 @@ type: method
 title: "Gamma-Ray Compton Polarimetry"
 aliases: [Compton polarimetry, gamma-ray Compton polarimeter]
 created: 2026-07-13
-updated: 2026-10-19
+updated: 2026-10-20
 status: active
 review_status: unreviewed
 method_type: gamma-ray-polarimetry
@@ -11,6 +11,33 @@ tags: [compton-scattering, linear-polarization, detector-response, parity]
 ---
 
 # Gamma-Ray Compton Polarimetry
+
+## P/A/Q的测量、校准与前向检验
+
+下图只重排已有证据，依据[[starosta-1999-pdco-experimental-test]] ST99-14、[[schmid-1998-gammasphere-polarization]] SG98-13/14、[[garciaraffi-1995-nonorthogonal-compton-polarimeter]] GR95-D17-5及[[nndc-2023-cm245-cf249-polarization-reference]] N245-15。Stokes Qγ与polarimeter Q不同；核模型的P不是观测countasymmetry。reference P本身也有制备/AD/phase/接受和误差，不能省略为仪器常数。
+
+```mermaid
+flowchart TD
+    RHO["核制备、J、δ、γ角色与门"] --> GAM["光子 Iγ、Qγ、Uγ 与 physical P"]
+    GAM --> PRED["预测计数或角分布"]
+    RESP["实际几何、阈值、排序与响应"] --> PRED
+    OBS["实际净峰、背景与事件 ledger"] --> ASYM["按原定义求 A"]
+    NULL["无偏振样本给 a 或 η"] --> ASYM
+    NULL --> QCAL["Q 或完整响应标定"]
+    CAL["参考 P 与匹配计数<br/>必要时多个参考"] --> QCAL
+    ASYM --> COMPARE["匹配前向模型与数据<br/>保留适用的 likelihood"]
+    OBS --> COMPARE
+    QCAL --> COMPARE
+    PRED --> COMPARE
+    AUX["AD、DCO、级联、寿命或 ICC 伴随量"] --> COMPARE
+    SIGMA["背景、reference、target 与共同校准的联合 Σ"] --> COMPARE
+    SIGMA --> QCAL
+    COMPARE --> DECISION["支持、限制或保留竞争解释"]
+```
+
+无偏振支路只给相对零点/效率层，reference支路还需非零P与matchingresponse；同一calibration进入多处时须保crossCov。若已验证相应线性合同，可用A=QP；非正交/不匹配权重等情形须保完整计数响应，不能仅重新标一条Q线再强制线性。F/曝光/效率与采集时间预算另按其分母比较，不由图中箭头补齐。
+
+这张图不是actualproducer或实验验证，所有缺失的门/接受、原始计数、背景和Σ仍按下文readiness边界保留。
 
 ## 共同校准与估计量归一的联合设计
 

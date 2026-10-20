@@ -1,0 +1,26 @@
+{
+  "indexed_claim_counts": {},
+  "artifacts": [
+    {
+      "file": "source-protection-final-audit.json",
+      "true_fields": [
+        "valid",
+        "published_log_starting_HEAD_prefix_preserved"
+      ]
+    },
+    {
+      "file": "artifact-fingerprint-final-audit.json",
+      "true_fields": [
+        "valid"
+      ]
+    },
+    {
+      "file": "closing-recall-source-audit.json",
+      "true_fields": [
+        "freeze_hash_preserved",
+        "all_12_items_atomic_mapped"
+      ]
+    }
+  ],
+  "verify_simdsam_source52": false
+}

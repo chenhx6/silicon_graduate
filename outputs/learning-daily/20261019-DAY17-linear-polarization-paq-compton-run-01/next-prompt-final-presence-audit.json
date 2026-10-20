@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-20T06:26:26.917019+00:00",
+  "path": "outputs/learning-daily/prompts/20261020-DAY18-dsam-lifetime-strength.md",
+  "exists": true,
+  "bytes": 28604,
+  "sha256": "61c073cfdb4f21e2bfd19264a33c9b41e85d81af1aa7654ace6f5789acdb4180",
+  "is_prepared_only_not_new_session": true,
+  "course_state_next18_count17_unchanged": true,
+  "formal18_credit_not_applied": true,
+  "actual_course_state": {
+    "next_day_index": 18,
+    "completed_day_count": 17,
+    "last_run_id": "2026-10-19-day-17-01"
+  }
+}

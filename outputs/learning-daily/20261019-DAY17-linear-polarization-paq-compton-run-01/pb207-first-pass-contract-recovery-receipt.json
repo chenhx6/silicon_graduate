@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-20T05:59:59.139257+00:00",
+  "source": "recorded SHA256 in pb207-stokes-result-first-pass.json",
+  "recovered_path": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-contract-first-pass-hash-recovered.json",
+  "recovered_sha256": "7ea1e23610c133c2442c3d81fa0de167c6f9399a99d5a95de6199f44109a8d52",
+  "difference_from_current_dependencies": [
+    "system/scripts/day16_co60_g4f3_crosscheck.py"
+  ],
+  "other_fields_equal": true,
+  "original_hash_exact_match": true,
+  "scope": "historical input byteview recovered, no scientific results regenerated or rewritten"
+}

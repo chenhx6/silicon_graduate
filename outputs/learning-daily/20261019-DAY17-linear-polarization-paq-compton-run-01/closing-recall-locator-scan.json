@@ -1,0 +1,86 @@
+[
+  {
+    "item": 1,
+    "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+    "locator": "ST99-14",
+    "line": 71,
+    "claim_row": "| ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |"
+  },
+  {
+    "item": 2,
+    "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+    "locator": "SG98-13",
+    "line": 69,
+    "claim_row": "| SG98-13 | 在Eq13条件下，原A=(ηC−S)/(√η(C+S))线性于P；若改成B=(ηC−S)/(ηC+S)，代数给B=(1+η)QP/[2√η+(η−1)QP]。除特殊/局部极限，重标一条reference仍不能取得对任意P通用的线性Q；这是本任务推导，不是源实验更正。 | observable-normalization-counterexample | task-derivation | printed100 Eq13；printed101 Eq15/Eq16 | true |"
+  },
+  {
+    "item": 3,
+    "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+    "locator": "ST99-14",
+    "line": 71,
+    "claim_row": "| ST99-14 | 原Eq3/4的a来自无偏振散射计数、Q来自参考A/P；同一a若用于参考与target，会使两A及target A与Q有共同校准依赖。原文未给完整Σ；本任务以明确design counts联合传播，不把a与Q当同一物理量或独立误差。 | calibration-dependency-design | direct-and-task-derivation | printed17 Eq2；printed18 Eq3/Eq4；printed19 Table1 | true |"
+  },
+  {
+    "item": 4,
+    "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+    "locator": "L74-D17-5",
+    "line": 162,
+    "claim_row": "| L74-D17-5 | literalEq3/表1得P1planar相对conventional=.0048768（近印.0049）；保旧S13变体只给.0022170，不作actualinput。P.5/.1的conventional相对值.875/.841346对印.885/.837有小不闭合，未取unroundedinputs、不调Q或S强配、不判实验矛盾。 | actual-table consistency and boundary | derived | p.274 Tables1–2 | true |"
+  },
+  {
+    "item": 5,
+    "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+    "locator": "VT74-D17-12",
+    "line": 75,
+    "claim_row": "| VT74-D17-12 | 本篇p=J0/J90是强度比，末段p′才差和；N=N90/N0、R=σ90/σ0，Eq56经转换精确得A=QP，Q=(R−1)/(R+1)。与EW69 ratio解释相容但不证明EW69作者意图/Ref9body。 | observable-dictionary | direct-and-self-audit | printed339 Eq53–56 | true |"
+  },
+  {
+    "item": 6,
+    "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+    "locator": "FA48-D17-2",
+    "line": 66,
+    "claim_row": "| FA48-D17-2 | 两形式可等价重参数：1+Acos(2φ)=(1−A)[1+bcos²φ]，b=2A/(1−A)。A2/7对应b4/5；只换cos²而不换coef/overallconstant会失配。 | task-calculation | direct-and-self-audit | printed518 Eq1 and2/7 ratio | true |"
+  },
+  {
+    "item": 7,
+    "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+    "locator": "DR99-D17-5",
+    "line": 67,
+    "claim_row": "| DR99-D17-5 | PP1是jointfield parity差和，AA1=Q1Q2 PP1。Footnote3说明它是两个singleP之外的一个additional ratio自由度；四normalizedN只三shape自由度。 | formalism-and-information | direct-and-self-audit | printed263 Eq11–13 footnote3 | true |"
+  },
+  {
+    "item": 8,
+    "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+    "locator": "VT74-D17-8",
+    "line": 71,
+    "claim_row": "| VT74-D17-8 | 原Eq52明确ADisotropic仍可能linearP，不能把aK=0时的0/0定义成0；本sessionpositive±1/2布居的3/2→1/2 M1/E2有δ=√3±2两根，使a2=0且P90=±√3/2。 | source-warning-and-task-counterexample | direct-and-self-audit | printed339 Eq52 andfollowingparagraph | true |"
+  },
+  {
+    "item": 9,
+    "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+    "locator": "T71-D17-12",
+    "line": 81,
+    "claim_row": "| T71-D17-12 | 同centralAD自由foldedq反演，δ2.68329给q(.5,1.5,2.5)=(.703038,.240032,.056930)；其它central三候选各有负q。支持作者本例正性排根，但不是新Jπ/δ测量或jointCI。 | task-calculation-and-author-comparison | direct-and-self-audit | printed329 Eq5; printed344–345 Sec4.6 Fig2 | true |"
+  },
+  {
+    "item": 10,
+    "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+    "locator": "N245-5",
+    "line": 63,
+    "claim_row": "| N245-5 | 2015Ah03的L3 ICC接近pureE1理论，K/L1+L2/M/N等约两倍，被评价解释为anomalousE1conversion；不能仅由转换系数异常判γ含指定M2或从BrIcc反造δ。 | interpretation-and-alternative | direct-evaluation | Alpha L122–128/L271/L275–291 | true |"
+  },
+  {
+    "item": 11,
+    "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+    "locator": "GR97-D17-2",
+    "line": 156,
+    "claim_row": "| GR97-D17-2 | 此singlepoint模型q=sin²θ/[t+1/t−sin²θ]，t=1+α(1−cosθ)；90°才化MI07 Eq4。新导数/Descartesquartic证明α>0 globalunique最大角<90°，不是源原MC/装置Q重放。 | task-analytic-maximum | derived-from-original | printed462 Eq2–3 | true |"
+  },
+  {
+    "item": 12,
+    "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "locator": "MU08-17",
+    "line": 164,
+    "claim_row": "| MU08-17 | 本任务在TableII九组非空B(E2)/Qt打印输入上，用候选G=CG(I I 2 −2|I−2 I−2)²=(2I−3)/(2I+1)转Qt，均在额外nearest.01打印box内相容；fixedK0会给约1.58倍不同值。本文未印该公式，不从匹配反认唯一historicalproducer或真实内禀geometry。 | task-candidate-geometry-table-audit | derived-and-boundary | PDF4 TableII；day18-lifetime-strength-result mu08_candidate_geometry_rows | true |"
+  }
+]

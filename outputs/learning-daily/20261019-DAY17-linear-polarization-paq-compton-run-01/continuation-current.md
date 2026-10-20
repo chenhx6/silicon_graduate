@@ -1,13 +1,15 @@
-# Day17同session继续：checkpoint073之后
+# Day17同session继续：checkpoint074之后
 
-## Active handoff — DAY17 current bounded research saturated; checkpoint073 audit phase
+## Active handoff — DAY17 review-only; whole-run audit checkpoint074
 
-同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–072actualH3Gitee推，formal17once/next18count17/partial18；clock约13:45余75min。13:30后未newsource/body/课，最后13:28已冻问题现完成；余时仅既有证据/交付检查，15点转closeout，不从饱和提前宣日终。
+同run/session01a1532e-0f21-7903-9bf6-8a9cc9ee9e17/nativegoalactive/Farmer42019；原2026-10-20 15:00上海研究截止/15–16收束。001–073actualH3Gitee推，formal17once/next18count17/partial18；clock上海14:31、余28.5min。13:30后无newsource/body/课；最后13:28已冻分析完成，此时仅既有证据/交付核查，原15点尚未观察，不日终/不重开研究。
 
-MI07末段选择：Eq11inclusive模型与Sec4.2noalphadetected词句不能认证actualsorter是inclusive/strictanti。sameensemble P_all0给Panti=−fPtag/(1−f)；headline125×25000/7000估f.00224。matchedscalarQ.14额外条件下a偏置量级≤7.92e−5比σa.007小，但仅detectedpeakf/rounded.03/.25的capacity弱范围aanti/ainc=.92533–1.00904，不能由headlinef认证polselection/Stokes/接受。actualtrigger/路由/Σ缺，不修Q/解释a2残差，no materialchange于publishedQ。
+Whole-run source-protection实际exit0：54改动source、208oldclaimflags/review与817newtrue、F01/DR70/EK79/KU25四prefix、PLAN/Bib、所有001–073manifest和旧logprefix均保护。artifact-fingerprint137顶层script/contract指纹全有exactbyteview；初3miss为历史firstpass/component，2script快照在run，旧Pbcontract依recordedSHA精确恢复少后加dependency版本，receipt明确不是原磁盘copy/不重算旧results，初扫描/选定Git搜索miss保。不是functionalreplay/实验producer认证。
 
-MI07新19/20待审、sharedcal/Compton、唯一writeback/18priming/scripts/contracts/scopefreezes齐，verification088valid：0errors241warnings（4parse162key75raw）、70changed/73mapped、boundary/lint/diff exit0。main / `Separate inclusive singles from alpha anticoincidence calibration`，actualhash/H3仅publication073/runreceipt。
+来源后strongprimed closingrecall12项/38atomic映射/hash核，无blindscore/新学分/新science。日报入口去掉过时24页叙述、当前70owning页实改/73validator含3未改引用source、229唯一writebackitems；加当前结论/开放输入入口。Compton已有关系presentation流程图不添实验，保非线性响应/联合Σ与actualdata缺口，updated日期修20日。matrix恢复尾曾仅露Day19标题、未读task/source/preview/credit，scopeaudit保，课程formal17/partial18不变。
 
-下一只执行whole-run baseline/flags/humanprefix/ownership和日报入口更新：baseline.git_head b0dcde2c377a8ad9fefe702b245a1337bb8a566a；F01prefix12906、DR709737(CRLF)、EK7912899(CRLF)、KU258937有snapshot。旧claim needs_review不清，newclaims true，actualraw/PLAN/Bib/hash和继承dirty不误stage。不要重跑所有toy凑检验数、不打开newbody。报告audit末行的“二十四页”已过时需替当前verified70changed/73mapped等实际门；唯一writeback维持一个。最终15点后再manualreceipt/状态/nextprompt/检查/发布/goalcomplete，不重复credit17，runnernormalexit未观测不造scheduler正常事件。
+verification089实际valid：0errors241warnings（4parse162key75raw）、70changed/73mapped，boundary/lint/diff exit0；nextprompt28604bytes/hash存在且course state18/count17实核。runreceipt旧47/40页metadata已更新89/70和review-only，normalrunnerexit仍false，Farmer42019running/pendingfalse只readonly。main / `Reconcile DAY17 evidence protection and recoverable report entry`，actualhash/H3仅publication074/runreceipt。
 
-保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own073，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。
+剩余动作仅原15点后：刷新clock确认deadline，manualcloseout报告/continuation/receipt与要求checks，actualH3非force发布，再同session scheduler索引append/对账、goal真正complete。不得调用normalcreditfinalizer重授17，不造原runnerexit/returncode，不新source/daemon/session。最后scheduler canonical outputs/learning-milestones/2026-09-one-month-scheduler.jsonl如需写，只HEAD+ownappend索引隔离，继承dirty留工作树。
+
+保护raw/PLAN/Bib/credentials/review/继承dirty/daemon/log；logHEAD+own074，exactmanifest/H3非force。Resume `codex resume 01a1532e-0f21-7903-9bf6-8a9cc9ee9e17 -C /workspace/wiki -s danger-full-access -a never`。

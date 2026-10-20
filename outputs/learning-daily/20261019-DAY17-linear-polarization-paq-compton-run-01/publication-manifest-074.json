@@ -1,0 +1,37 @@
+{
+  "subject": "Reconcile DAY17 evidence protection and recoverable report entry",
+  "verification_number": 89,
+  "paths": [
+    "knowledge/methods/compton-polarimetry.md",
+    "system/scripts/day17_source_protection_audit.py",
+    "system/scripts/day17_artifact_fingerprint_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/run.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/continuation-current.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/publication-073.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/commit-guard-073.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-089.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-contract-089.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/own-log-entry-074.txt",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/runtime-observation-checkpoint074.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/source-protection-final-audit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/artifact-fingerprint-current-scan.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/artifact-historical-fingerprint-scan.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/artifact-fingerprint-final-audit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-stokes-contract-first-pass-hash-recovered.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/pb207-first-pass-contract-recovery-receipt.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closing-recall-before-reference.md",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closing-recall-freeze.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closing-recall-locator-scan.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closing-recall-source-audit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/closeout-readiness-review.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/farmer-precloseout-status.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/curriculum-scope-final-audit.json",
+    "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/next-prompt-final-presence-audit.json"
+  ],
+  "isolated_index_blob_paths": [
+    "system/log.md"
+  ],
+  "excluded": "raw/PLAN/Bib/tmp/PDF/ROOT/binaries/credentials/inheriteddirty/daemon;logHEAD+own074"
+}

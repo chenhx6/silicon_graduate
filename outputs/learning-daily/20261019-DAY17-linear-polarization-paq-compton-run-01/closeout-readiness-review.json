@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-20T06:09:47.672997+00:00",
+  "preparation_only": true,
+  "hard_deadline_observed": false,
+  "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+  "original_deadline": "2026-10-20T15:00:00+08:00",
+  "formal_credit": [
+    17
+  ],
+  "uncredited_preview": [
+    18
+  ],
+  "course_next_day": 18,
+  "course_completed_count": 17,
+  "latest_content_verification": "verification-089.json",
+  "source_flags_prefixes_ownership_audit": "source-protection-final-audit.json",
+  "artifact_bindings_audit": "artifact-fingerprint-final-audit.json",
+  "closing_recall": "closing-recall-source-audit.json",
+  "remaining_required_actions": [
+    "observe original15:00 deadline",
+    "final report/receipt/continuation state",
+    "required final checks and explicit H3 publication",
+    "manual same-session canonical index reconciliation, no normalrunner exit invention",
+    "native goalcomplete only when all required work done"
+  ]
+}

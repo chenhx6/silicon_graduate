@@ -2,7 +2,7 @@
 type: output
 graph-excluded: true
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-20
 ---
 
 # Day17：线偏振、P/A/Q与Compton响应
@@ -17,13 +17,25 @@ updated: 2026-10-19
 - phase: `angular-correlation-polarization-and-mixing-ratio`
 - schedule_id: `wiki-daily-learning`；Docker-local，非GUI Scheduled对象。
 - hard_deadline: `2026-10-20T15:00:00+08:00`；15:00–16:00仅收束。
-- status: `running / substantive checkpoint`；原生goal为active，未提前关闭研究窗口。
+- status: `running / bounded-analysis review`；13:30后不再打开新source或课程；原15:00硬截止尚未到，nativegoal保持active，15:00–16:00完成整日收束。
 - completed_day_indices: [17]
 - partial_day_indices: [18]
 - Day 17 card audit: complete
 - 启动课程文件为next17/count16；正式17只在本卡验收/发布后对账一次，原整日研究窗口继续；Day16预习、旧程序检查与旧分数不兑换正式17。本session只允许正式17，最多无学分partial18，不开19；现按时间门仅预习18，未授18/未开19。
 
 实际runner回执位于[run.json](20261019-DAY17-linear-polarization-paq-compton-run-01/run.json)，其run-01/session与原deadline覆盖准备prompt的run-17/output_dir示例。`events.jsonl`实际thread.started与CODEX_THREAD_ID相符。用户打断后明确要求farmer/go-on/all/auto继续；后来暂停并恢复goal，仍是同一session，不新建daemon/session或调度。现已从canonical scheduler的16:06 manual-waiter-interrupted及原PID缺失核实原waiter/runner中断；当前研究通过同session用户恢复的nativegoal继续，正常runnerexit code仍未观察。已append-only补同session索引，见[session-index](20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json)，未启动新session/调度器。
+
+### 当前可复用结论（末段核查入口）
+
+本session完成Day17正式卡，仅计一次；Day18是无学分知识预习。主交付是[[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]中的P/A/Q分层与新共享校准计数练习；ST99-14、SG98-13/14保实际分母、阈值/门/arrayweights和独立非零P参考。polarimeter Q、angular Qk和不同效率/计数F的分母分开，缺actualΣ时不生成新实验P/δ/Jπ或结构模式结论。
+
+原件与后续核查实质修订了几项简写：EW69印式可为强度比、不能因>1判失败；FA48原cos2φ与cos²需同时变换系数；SG98 C含side-ADC-zero，294打印closure仍未解决；AO75ratio图文方向、效率与peak归一不可静默合并。旧过程/初失败保留，当前解释以canonical修订为准。
+
+[[../../knowledge/synthesis/high-spin-angular-polarization-mixing-ratio]]的“三个零量不能互相替代”总结isotropicI不保证singleP0、singleP0不保证jointC0、nulla不代knownP/Q。[[../../knowledge/research-notes/three-multipole-polarization-response-contract]]给声明域的exact反例，[[../../knowledge/research-notes/cl35-1763-polarization-population-replay]]又说明匹配actualAD/P和正性有时能选中央根；二者都不构成任意实验的通用判据。
+
+实际reference新输入见[[../../knowledge/sources/nndc-2023-cm245-cf249-polarization-reference]]：797行官方对象把同parent/替代支、空MR、历史幅度与异常转换分层。共parent必要关系和敏感性没有提供新的Q修正，actualtrigger/接受/原primaryphase/联合Σ仍缺。公开数据/native组件审计属于其明确的输入/版本范围，不能冒作原paper完整L4重拟合。
+
+当前70个owning知识页有实际变更，另3个只读source作为引用核查；54个改动source页的208旧claim状态保持，817新增claim均needs_review。条数仅是protection/traceability audit，不是新独立实验、学习分数或全文篇数。最新完整保护证据见[source-protection-final-audit](20261019-DAY17-linear-polarization-paq-compton-run-01/source-protection-final-audit.json)。
 
 ### Day 17 card completion audit
 
@@ -34,11 +46,13 @@ updated: 2026-10-19
 | SG98原件主线与关键图/表/式 | [[../../knowledge/sources/schmid-1998-gammasphere-polarization]]末段actualreadscope；printed95–110、Figs1–15、Tables1–3、Eq1–19；SG98-13/14 | complete |
 | P/A/Q分层与新计数/误差练习 | [[../../knowledge/research-notes/polarimetry-shared-calibration-count-design]]“P/A/Q分层与原件输入”及“声明设计的计数与定量结果”；[newresult](20261019-DAY17-linear-polarization-paq-compton-run-01/paq-shared-calibration-result.json) | complete |
 | 反证、必要companion和独立校准输入 | ST99-2/7/13/14；SG98-5/8/9/12/13/14；新note中holdout支路、共同Σ和改分母反例 | complete |
-| 本日报、唯一writeback与checks | 当前二十四页canonical已变更；17主线检查/发布001–006已通过，唯一writeback/同sessioncontinuation/receipt与[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)存在；当前卡验收另记verification015，整日研究仍持续 | complete |
+| 本日报、唯一writeback与checks | 正式卡初验verification015及001–007实际发布通过；当前70个owning知识页实际改动、3个只读source引用核查，唯一writeback/同sessioncontinuation/receipt及[Day18准备prompt](prompts/20261020-DAY18-dsam-lifetime-strength.md)均存在；整日最后门以15:00后的实际receipt为准，不重复授卡 | complete |
 
 Day17课程交付与逐卡证据已经齐备；表只授17，18为无学分preview。课程卡完成不结束原研究窗口：nativegoal/run持续active，课程状态只在当前验收/实际发布后对账一次，整日收束仍待原deadline。
 
 ## Candidate pool and selection
+
+本节及各checkpoint保当时选择记录；当前以Runstate/最后时间门为准，初期“未打开Day18”不覆盖后续partial18。13:30后没有再开新source/课，余时仅完成最后已冻分析和证据/交付复核。
 
 ### checkpoint041后候选重建
 
@@ -54,7 +68,7 @@ clock2026-10-20 06:41上海距原15:00仍约499min；Day18卡仅重核寿命→B
 | 实际P/δ重拟合 | 原events、producer、matching response、fit/calibrationΣ未得；不以更多toy替输入 |
 | SG98 294-keV printingclosure | 旧边界仍在，无新producer/unrounded输入；不调η、不复跑旧JSON计新交付 |
 | non-overlapping novelty | 当前未强行占槽；Day16强priming来源不自动算novelty，不以篇数判饱和 |
-| Day18 | 当前continuity仍有有价值路线，未打开；如后续按时间门局部饱和才看恰好下一卡，无学分 |
+| Day18 | 启动时未打开；后续按时间门仅作无学分partial18，实际阅读/公开输入见各previewcheckpoint，正式18仍留下一独立session |
 
 Day8–16近期覆盖含选律/相位、寿命与分支、双带电磁、反应与符合、Doppler、谱学身份、ADO/DCO和大量偏振预习。按课程重读ST99/SG98属于有记录的课程重叠，不声称来源未暴露或实验独立。
 
@@ -419,6 +433,9 @@ M23-4/8/9/10：Adopted3/2+,5/2+与fusion7/2(+)并列，capture有另一γ和新o
 - SG98-14：Eq13称N为source发射数，而Eq18称Ni为incident；要有接受角/曝光归一字典。photopeak/coincidence、本征/绝对/relativeNaI/条件效率不能混为同一ε；高背景下裸F不是可靠仪器排名。
 
 ## Knowledge Impact and Learning Decision
+
+当前整段结论是`supports`P/A/Q/核制备与response分层、实际可用数据/代码限定域；`revises`已定位的ratio/cos2/效率/身份转录；`limits`从Psign、同名Q/F、更多同数据列或source标签直接取得独立验证与唯一δ/模式。尚无新的实验P/Q/δ/Jπ/绝对强度结果；部分source/producer失败与数学负例是被保留的研究结果，不是绿灯后抹掉的输入。
+
 
 checkpoint044的`revises`是旧Chiara arraymetadata与rate表两列即完整库存的习惯；`supports`按实际reaction/parent分支转换；`limits`largeJ2/BE2、无shift或TAC minimum对mode/shape的保证。MU08实际Qt轴/producer识别仍`no material change`，不由methodcitation或数值吻合补填。
 
@@ -9656,12 +9673,38 @@ canonical [官方Mg23源](../../knowledge/sources/nndc-2021-mg23-lifetime-streng
           "locator": "MI07-D17-20"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/methods/compton-polarimetry.md",
+      "summary": "将已有核制备/光子/response/null/参考P/联合Σ与推断关系图示化；不新增实验或强制所有响应A=QP。",
+      "anchor": "P/A/Q的测量、校准与前向检验",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+          "locator": "ST99-14"
+        },
+        {
+          "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+          "locator": "SG98-13"
+        },
+        {
+          "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+          "locator": "GR95-D17-5"
+        },
+        {
+          "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+          "locator": "N245-15"
+        }
+      ]
     }
   ]
 }
 ```
 
 ## Open questions and belief revision
+
+当前最高信息输入是matching target/reference的逐unit净峰/背景、门与阈值/阵列权重、实际producer和calibration/fit联合Σ；source的核P还需phase/制备/finite接受。SG98 unrounded294/原producer、EW69作者命名/Ref9body、T71原bandrecipe与N245上游primarybody/SeGA sorter仍未取，不原样重试终态URL或以更多toy填缺口。后续有新实际输入时再定向恢复；本日不把它们改成用户待办或凭记忆补实验结论。
+
 
 ### checkpoint033：geometry解释已修订
 
@@ -9682,6 +9725,9 @@ F22-2/15给实测19(1)mm支持publicinput，先前back-to-back字面对照不得
 L1原件学习、L2源与方法写回已实质推进；当前L3为校准/response可识别性、最小独立检查设计与实际producer/primary readiness。原样软件组件为限定版本的实际代码执行，非实验L4。声明MC只是数理验证，不是actual experimental L4 fit；真实events/response/Σ未齐，实验重分析not-ready。日计划授权保持有效，不将缺口自动转为用户待办或额外启动请求。
 
 ## Verification and continuation
+
+截至末段核查，verification088实际report/card/唯一writeback/boundary/lint/diff均通过；lint0errors/241warnings（4reactionparse、162citationkey缺、75rawarchive槽未填），不把warning当来源body未读取或自称人审。全程source-protection audit另实际exit0：54source、208旧claim/817新needs_review与四prefix、PLAN/Bib、manifest/旧log前缀保护通过。原15:00尚未到，当前仍review-only，最终完成/发布状态只在硬截止后的真实receipt写入。
+
 
 启动boundary和automationpreflight actualexit0；首次lint因新研究笔记缺11个必需heading为exit1，随后补齐并以JSON格式重跑的[lint-001](20261019-DAY17-linear-polarization-paq-compton-run-01/lint-001.json)为exit0、0errors190warnings（137citationkey/50rawslot/3reactionparser）。source旧25claim行/flags实际逐字核相同，raw/PLAN/Bib和继承dirty保留。`git diff --check`当前actualexit0。[verification-002](20261019-DAY17-linear-polarization-paq-compton-run-01/verification-002.json)已实际核report/coverage/唯一writeback六页、boundary/lint/diff均通过，PLAN/Bib/recall与原25claim保护通过；H3与实际push另记本runpublication，未把内容检查当远端发布成功。
 
@@ -10159,3 +10205,17 @@ rank4只δ²R422B4，a4null需B4/response条件，不声称找到actualB4zeroq�
 原13:28前before已冻，只已读MI07/Cm245 current问题，13:30后没有新source/body/课。Eq11inclusive模型与Sec4.2noalphadetected词句不能认证actualsorter；sameensemble P_all0时Panti=−fPtag/(1−f)。原headline125×25000/7000估inclusivef.00224/odds.002245，exclusive解释近同。matchedscalarQ.14额外前提下a偏置量级≤7.92e−5比σa.007小，非actual无误差证明；仅countcapacity/rounded.03/.25可给aanti/ainc .92533–1.00904，说明headlinef不认证polselection/Stokes/接受。
 
 原actualtrigger/事件路由/Σ未得，不修Q或解释a2残差；no materialchange于publishedSeGAQ。MI07新19/20待审、sharedcal/Compton/唯一writeback/18priming/artifacts齐，verification088/publication073 actualgate。当前boundedresearch已饱和，余时只既有证据整合/反查和15点closeout，不开新source/课，不把此checkpoint当日终。
+
+### Checkpoint074准备核查：whole-run保护与日报入口
+
+在13:30后只复核已有证据/交付，无newsource/body/课。newread-only source-protection script对baseline HEAD核54source/208oldrow flags与reviewstatus、817newtrue、四prefix、PLAN/Bib及所有显式manifest/旧logprefix，actualvalid/exit0；3个mapped未改source只用作引用核查，不伪称pageupdated。日报移去cardaudit的旧24页计数并加当前结论入口，历史checkpoint仍保。当前goal/run active到原15:00，最终时间/receipt与发布尚待closeout，未重复推进course。
+
+### Checkpoint074：整段保护、artifact版本与结课复述核查
+
+当前仅已读证据/交付审计，13:30后无newsource/body/课。source-protection实际exit0：54改动source、208oldclaim状态/817newtrue、4prefix/PLAN/Bib和001–073显式manifest/旧logprefix保护通过；70owning页实际变更、73validator路径含3未改source引用。新artifact-fingerprint audit对noninitial结果顶层script/contract指纹137项全找到exactbyteview：原3currentmiss是firstpass/firstcomponent，2script有快照，旧Pbcontract依recordedhash精确恢复（只少后加helper依赖），未重写旧result或当functionalreplay。初scan/selectedGitsearch miss均保。
+
+closing-recall来源后强primed12项/38atomic映射、freeze/hash核，无blindscore/新credit/新结果，事实均已有canonical。runreceipt过时47/40页元数据已更新至当前89/70页review-only，deadline/runnernormalexit未观察状态不改；course next18/count17保持，不再次授17/不给18。Farmer原PID42019running/pendingfalse只read-only核，无新daemon/session。currentreadiness仍等原15点后完成最终receipt/checks/publication/goalcomplete。
+
+末段presentation核查仅将既有P/A/Q合同画成canonical流程图，source/模型/响应/校准/Σ层分清；不是newsource/research结果或实际producer。229writebackitems仍唯一一个block，owning70/refs73页不变。
+
+课程scope补核：恢复时任务矩阵sed输出尾部曾露出Day19标题一行，未读该卡任务条目/来源、未研究/预习或授学分；正式仅17/无学分18不变。13:30后只完成已冻末问题与既有证据/保护/复述/展示检查，不新开body/card，见curriculum-scope-final-audit.json。

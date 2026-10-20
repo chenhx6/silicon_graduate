@@ -1,0 +1,719 @@
+{
+  "at": "2026-10-20T06:22:59.007058+00:00",
+  "baseline_head": "b0dcde2c377a8ad9fefe702b245a1337bb8a566a",
+  "script_sha256": "05a223cc3d6066f6fcf8c8235e1bee5cc89d154f19db9ff6bf00a715a563453b",
+  "source_pages": [
+    {
+      "path": "knowledge/sources/aoki-1975-geli-summing-polarimeters.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 13,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 13,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 10,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/butler-1973-three-geli-compton-polarimeter.md",
+      "old_claim_rows": 4,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "old_claim_rows": 6,
+      "new_claim_rows": 18,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+      "old_claim_rows": 10,
+      "new_claim_rows": 10,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/droste-1999-ppco-polarization.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+      "old_claim_rows": 9,
+      "new_claim_rows": 11,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/evasions-2023-public-release-native-readiness.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 33,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/ewan-1969-single-geli-polarimeter.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 12,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/falkoff-1948-polarization-correlation.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 8,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 88,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 28,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "old_claim_rows": 15,
+      "new_claim_rows": 9,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 17,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/garciaraffi-1995-nonorthogonal-compton-polarimeter.md",
+      "old_claim_rows": 4,
+      "new_claim_rows": 12,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/garciaraffi-1997-monte-carlo-compton-polarimeters.md",
+      "old_claim_rows": 14,
+      "new_claim_rows": 4,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 18,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/geant4-2026-ion-stopping-component-contract.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 16,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/grsisort-2026-compton-polarimetry-code.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/iaea-2026-stopping-s-au-o-ta-records.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 17,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 15,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "old_claim_rows": 5,
+      "new_claim_rows": 13,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 24,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "old_claim_rows": 10,
+      "new_claim_rows": 5,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/logan-1974-generalized-polarimeter-merit.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 10,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/madai-2015-distribution-sampling-likelihood.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 8,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/miller-2007-sega-polarization.md",
+      "old_claim_rows": 4,
+      "new_claim_rows": 20,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "old_claim_rows": 16,
+      "new_claim_rows": 4,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/nndc-2011-pb207-bi207-polarization-reference.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 15,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/nndc-2021-mg23-lifetime-strength-reference.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 26,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/nndc-2022-s31-mixing-lifetime-reference.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 15,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/nndc-2023-cm245-cf249-polarization-reference.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 18,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/root-2008-v522-background-error-contract.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 11,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/root-2026-chi2test-option-contract.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 17,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 10,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 21,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/schlitt-1994-sectored-compton-polarimeter.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 16,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/schmid-1998-gammasphere-polarization.md",
+      "old_claim_rows": 12,
+      "new_claim_rows": 3,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/schuermann-2008-15o-6792-dsam.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 13,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/simdsam-2015-public-dsam-code.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 22,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/simons-2005-130cs-chiral-structures.md",
+      "old_claim_rows": 7,
+      "new_claim_rows": 12,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md",
+      "old_claim_rows": 17,
+      "new_claim_rows": 1,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+      "old_claim_rows": 13,
+      "new_claim_rows": 2,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/sun-2023-bayesian-dsam-31s.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 32,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/tamu-2006-2007-al23-gamma-reference-reports.md",
+      "old_claim_rows": 0,
+      "new_claim_rows": 12,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+      "old_claim_rows": 4,
+      "new_claim_rows": 20,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "old_claim_rows": 4,
+      "new_claim_rows": 3,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/twin-1970-polarization-angular-correlation-40k.md",
+      "old_claim_rows": 5,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/vaillancourt-taras-1974-three-multipole-formulas.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/vonderwerth-1995-compton-polarimeters.md",
+      "old_claim_rows": 3,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/wadsworth-1977-61ni-levels.md",
+      "old_claim_rows": 4,
+      "new_claim_rows": 14,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    },
+    {
+      "path": "knowledge/sources/wang-2023-experimental-studies-nuclear-chirality-china.md",
+      "old_claim_rows": 18,
+      "new_claim_rows": 0,
+      "old_review_status_preserved": true,
+      "new_claims_needs_review": true
+    }
+  ],
+  "protected_human_or_inherited_prefixes": [
+    {
+      "snapshot": "frauendorf2001-human-prefix-snapshot.json",
+      "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "length": 12906,
+      "passed": true
+    },
+    {
+      "snapshot": "draper1970-human-prefix-snapshot.json",
+      "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+      "length": 9737,
+      "passed": true
+    },
+    {
+      "snapshot": "ekstrom1979-human-prefix-snapshot.json",
+      "path": "knowledge/sources/ekstrom-1979-spin-alignment-attenuation-a61-a67.md",
+      "length": 12899,
+      "passed": true
+    },
+    {
+      "snapshot": "kumar2025-prefix-snapshot.json",
+      "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "length": 8937,
+      "passed": true
+    }
+  ],
+  "protected_PLAN_Bib": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "publication_manifests": [
+    {
+      "manifest": "publication-manifest-001.json",
+      "path_count": 29
+    },
+    {
+      "manifest": "publication-manifest-002.json",
+      "path_count": 37
+    },
+    {
+      "manifest": "publication-manifest-003.json",
+      "path_count": 19
+    },
+    {
+      "manifest": "publication-manifest-004.json",
+      "path_count": 43
+    },
+    {
+      "manifest": "publication-manifest-005.json",
+      "path_count": 36
+    },
+    {
+      "manifest": "publication-manifest-006.json",
+      "path_count": 34
+    },
+    {
+      "manifest": "publication-manifest-007.json",
+      "path_count": 30
+    },
+    {
+      "manifest": "publication-manifest-008.json",
+      "path_count": 30
+    },
+    {
+      "manifest": "publication-manifest-009.json",
+      "path_count": 39
+    },
+    {
+      "manifest": "publication-manifest-010.json",
+      "path_count": 32
+    },
+    {
+      "manifest": "publication-manifest-011.json",
+      "path_count": 33
+    },
+    {
+      "manifest": "publication-manifest-012.json",
+      "path_count": 20
+    },
+    {
+      "manifest": "publication-manifest-013.json",
+      "path_count": 38
+    },
+    {
+      "manifest": "publication-manifest-014.json",
+      "path_count": 42
+    },
+    {
+      "manifest": "publication-manifest-015.json",
+      "path_count": 38
+    },
+    {
+      "manifest": "publication-manifest-016.json",
+      "path_count": 50
+    },
+    {
+      "manifest": "publication-manifest-017.json",
+      "path_count": 31
+    },
+    {
+      "manifest": "publication-manifest-018.json",
+      "path_count": 26
+    },
+    {
+      "manifest": "publication-manifest-019.json",
+      "path_count": 50
+    },
+    {
+      "manifest": "publication-manifest-020.json",
+      "path_count": 33
+    },
+    {
+      "manifest": "publication-manifest-021-format-correction.json",
+      "path_count": 11
+    },
+    {
+      "manifest": "publication-manifest-021.json",
+      "path_count": 41
+    },
+    {
+      "manifest": "publication-manifest-022.json",
+      "path_count": 37
+    },
+    {
+      "manifest": "publication-manifest-023.json",
+      "path_count": 46
+    },
+    {
+      "manifest": "publication-manifest-024.json",
+      "path_count": 33
+    },
+    {
+      "manifest": "publication-manifest-025.json",
+      "path_count": 36
+    },
+    {
+      "manifest": "publication-manifest-026.json",
+      "path_count": 34
+    },
+    {
+      "manifest": "publication-manifest-027.json",
+      "path_count": 45
+    },
+    {
+      "manifest": "publication-manifest-028.json",
+      "path_count": 44
+    },
+    {
+      "manifest": "publication-manifest-029.json",
+      "path_count": 34
+    },
+    {
+      "manifest": "publication-manifest-030.json",
+      "path_count": 35
+    },
+    {
+      "manifest": "publication-manifest-031.json",
+      "path_count": 46
+    },
+    {
+      "manifest": "publication-manifest-032.json",
+      "path_count": 23
+    },
+    {
+      "manifest": "publication-manifest-033.json",
+      "path_count": 31
+    },
+    {
+      "manifest": "publication-manifest-034.json",
+      "path_count": 22
+    },
+    {
+      "manifest": "publication-manifest-035.json",
+      "path_count": 21
+    },
+    {
+      "manifest": "publication-manifest-036.json",
+      "path_count": 30
+    },
+    {
+      "manifest": "publication-manifest-037.json",
+      "path_count": 22
+    },
+    {
+      "manifest": "publication-manifest-038.json",
+      "path_count": 22
+    },
+    {
+      "manifest": "publication-manifest-039.json",
+      "path_count": 25
+    },
+    {
+      "manifest": "publication-manifest-040.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-041.json",
+      "path_count": 27
+    },
+    {
+      "manifest": "publication-manifest-042.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-043.json",
+      "path_count": 19
+    },
+    {
+      "manifest": "publication-manifest-044.json",
+      "path_count": 28
+    },
+    {
+      "manifest": "publication-manifest-045.json",
+      "path_count": 29
+    },
+    {
+      "manifest": "publication-manifest-046.json",
+      "path_count": 28
+    },
+    {
+      "manifest": "publication-manifest-047.json",
+      "path_count": 29
+    },
+    {
+      "manifest": "publication-manifest-048.json",
+      "path_count": 23
+    },
+    {
+      "manifest": "publication-manifest-049.json",
+      "path_count": 26
+    },
+    {
+      "manifest": "publication-manifest-050.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-051.json",
+      "path_count": 26
+    },
+    {
+      "manifest": "publication-manifest-052.json",
+      "path_count": 25
+    },
+    {
+      "manifest": "publication-manifest-053.json",
+      "path_count": 26
+    },
+    {
+      "manifest": "publication-manifest-054.json",
+      "path_count": 25
+    },
+    {
+      "manifest": "publication-manifest-055.json",
+      "path_count": 36
+    },
+    {
+      "manifest": "publication-manifest-056.json",
+      "path_count": 25
+    },
+    {
+      "manifest": "publication-manifest-057.json",
+      "path_count": 28
+    },
+    {
+      "manifest": "publication-manifest-058.json",
+      "path_count": 17
+    },
+    {
+      "manifest": "publication-manifest-059.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-060.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-061.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-062.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-063.json",
+      "path_count": 25
+    },
+    {
+      "manifest": "publication-manifest-064.json",
+      "path_count": 22
+    },
+    {
+      "manifest": "publication-manifest-065.json",
+      "path_count": 24
+    },
+    {
+      "manifest": "publication-manifest-066.json",
+      "path_count": 15
+    },
+    {
+      "manifest": "publication-manifest-067.json",
+      "path_count": 26
+    },
+    {
+      "manifest": "publication-manifest-068.json",
+      "path_count": 25
+    },
+    {
+      "manifest": "publication-manifest-069.json",
+      "path_count": 23
+    },
+    {
+      "manifest": "publication-manifest-070.json",
+      "path_count": 33
+    },
+    {
+      "manifest": "publication-manifest-071.json",
+      "path_count": 21
+    },
+    {
+      "manifest": "publication-manifest-072.json",
+      "path_count": 19
+    },
+    {
+      "manifest": "publication-manifest-073.json",
+      "path_count": 20
+    }
+  ],
+  "published_log_starting_HEAD_prefix_preserved": true,
+  "source_count": 54,
+  "old_claim_row_count": 208,
+  "new_claim_row_count": 817,
+  "valid": true,
+  "failures": []
+}

@@ -32,16 +32,11 @@
   "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-20T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-19T16:01:17.507247+08:00",
+    "now_local": "2026-10-20T14:09:47.672997+08:00",
     "hard_deadline": "2026-10-20T15:00:00+08:00",
-    "next_scheduled_start": "2026-10-20T16:00:00+08:00",
-    "minutes_to_deadline": 1378,
-    "minutes_to_next_start": 1438,
-    "minimum_current_block_minutes": 90,
-    "minimum_forward_card_block_minutes": 120,
-    "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "minutes_to_deadline": 50.205450049999996,
+    "closeout_decision": "finish-current-no-new-unit",
+    "status": "preparation/review only; not final closeout or new credit"
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/prompt.md",
   "session_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
@@ -68,21 +63,22 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Bound historical mixing inputs in the shared Cm245 reference model",
-    "commit": "9d352c9122a95bd69cf6d479bbd2cc3a1c7065bf",
+    "subject": "Separate inclusive singles from alpha anticoincidence calibration",
+    "commit": "59e5fea1ea5135b23e6c25c9b69e1d71a6741591",
     "branch": "main",
     "status": "pushed"
   },
-  "research_status": "active originalwindow;F22Ch4primary/geometryrevisioncanonical;Ch5actualreconstructionnext;17once/18uncredited",
-  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-047.json",
-  "last_observed_at": "2026-10-20T05:31:46.944558+00:00",
+  "research_status": "review-only; last previouslyfrozen boundedissue completed; no new source/card after13:30; final closeout pending original15:00",
+  "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-089.json",
+  "last_observed_at": "2026-10-20T06:09:47.672997+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
-  "research_continuation_mode": "same-session user-resumed nativegoal active",
+  "research_continuation_mode": "same-session user-resumed nativegoal; existing-deliverable review only until original deadline",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
   "session_index_observation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/session-index-observed-004.json",
   "normal_runner_exit_observed": false,
-  "last_runtime_observation_at": "2026-10-19T10:58:55.362872+00:00",
-  "canonical_knowledge_changed_pages": 40,
+  "last_runtime_observation_at": "2026-10-20T06:09:47.672997+00:00",
+  "canonical_knowledge_changed_pages": 70,
   "course_credit_reconciliation": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/card-credit-007.json",
-  "course_credit_applied_once": true
+  "course_credit_applied_once": true,
+  "canonical_knowledge_mapped_paths_including_source_references": 73
 }
