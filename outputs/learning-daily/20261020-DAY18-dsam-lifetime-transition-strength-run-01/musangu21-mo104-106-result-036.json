@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "nuclei": [
+    "104Mo",
+    "106Mo"
+  ],
+  "reference": "Musangu et al., Phys. Rev. C 104, 064318 (2021)",
+  "summary": {
+    "mo106_tension_spins": [
+      7,
+      8,
+      9
+    ],
+    "mo106_max_excess_pct": 33.3,
+    "mo106_conclusion": "In 106Mo, TPSM predicted interband intensities exceed empirical 1-sigma upper limits by 20% to 33.3% across spins 7 to 9, constraining true B(E2)_out/B(E2)_in to be strictly lower than the model claims.",
+    "mo104_conclusion": "In 104Mo, predicted interband intensities (0.006 and 0.0038) are suppressed by E^5 phase space and fall below detection sensitivity, providing zero direct experimental evidence for interband E2 collectivity.",
+    "lifetime_status": "No DSAM or RDDS lifetimes exist for these negative-parity bands in either nucleus; absolute B(E2) and B(M1) strengths remain entirely unmeasured."
+  },
+  "mo106_audit": [
+    {
+      "spin": 7,
+      "Eg_keV": 356.2,
+      "B_out_over_B_in_predicted": 0.294,
+      "I_theo": 0.26,
+      "I_exp_limit": 0.2,
+      "excess_over_limit_pct": 30.0,
+      "max_allowed_B_out_over_B_in": 0.226,
+      "status": "rejected_excess"
+    },
+    {
+      "spin": 8,
+      "Eg_keV": 377.7,
+      "B_out_over_B_in_predicted": 0.766,
+      "I_theo": 0.2,
+      "I_exp_limit": 0.15,
+      "excess_over_limit_pct": 33.3,
+      "max_allowed_B_out_over_B_in": 0.574,
+      "status": "rejected_excess"
+    },
+    {
+      "spin": 9,
+      "Eg_keV": 412.0,
+      "B_out_over_B_in_predicted": 0.745,
+      "I_theo": 0.12,
+      "I_exp_limit": 0.1,
+      "excess_over_limit_pct": 20.0,
+      "max_allowed_B_out_over_B_in": 0.621,
+      "status": "rejected_excess"
+    },
+    {
+      "spin": 10,
+      "Eg_keV": 428.5,
+      "B_out_over_B_in_predicted": 0.801,
+      "I_theo": 0.082,
+      "I_exp_limit": null,
+      "excess_over_limit_pct": null,
+      "max_allowed_B_out_over_B_in": null,
+      "status": "unobserved_below_threshold"
+    },
+    {
+      "spin": 11,
+      "Eg_keV": 468.8,
+      "B_out_over_B_in_predicted": 0.813,
+      "I_theo": 0.038,
+      "I_exp_limit": null,
+      "excess_over_limit_pct": null,
+      "max_allowed_B_out_over_B_in": null,
+      "status": "unobserved_below_threshold"
+    },
+    {
+      "spin": 12,
+      "Eg_keV": 500.8,
+      "B_out_over_B_in_predicted": 0.634,
+      "I_theo": 0.02,
+      "I_exp_limit": 0.02,
+      "excess_over_limit_pct": 0.0,
+      "max_allowed_B_out_over_B_in": 0.634,
+      "status": "consistent"
+    }
+  ],
+  "mo104_audit": [
+    {
+      "spin": 7,
+      "Eg_keV": 273.2,
+      "B_out_over_B_in_predicted": 0.725,
+      "I_theo": 0.006,
+      "I_exp_limit": null,
+      "status": "unobserved_phase_space_suppressed"
+    },
+    {
+      "spin": 8,
+      "Eg_keV": 321.0,
+      "B_out_over_B_in_predicted": 0.677,
+      "I_theo": 0.0038,
+      "I_exp_limit": null,
+      "status": "unobserved_phase_space_suppressed"
+    }
+  ]
+}

@@ -65,6 +65,8 @@ updated: 2026-10-20
 
 - [[petrache-2020-137nd-multiple-chiral-bands]] — 137Nd Table 1弱伙伴带B(M1)/B(E2)提取、对齐差2hbar与手征振动同位素链闭环对账。
 
+- [[musangu-2021-chiral-vibrations-104mo-106mo]] — 104,106Mo Table IV跨带E2预测与实验上限张力（超20-33%）及相空间压低审计。
+
 
 - [[rather-2014-ag106-transition-rates]] — 新原读106Ag的12页DSAM/同母态ratecontrast与TPSM形变解释边界；Lieder原件未得，双primary比较partial。
 

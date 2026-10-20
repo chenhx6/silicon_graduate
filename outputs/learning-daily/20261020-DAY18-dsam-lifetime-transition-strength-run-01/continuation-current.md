@@ -1,3 +1,5 @@
+checkpoint036：104,106Mo偶偶核手征振动候选带Table IV跨带E2预测与实验上限张力审计（MU21-D18-1），揭示106Mo在自旋7、8、9处理论预测强度超出实验1sigma上限达20%至33.3%，且104Mo跨带强度受(E_out/E_in)^5相空间压低整整低于探测限一个数量级，结合全无寿命测量现状排除了单凭模型外推确立手征破缺。135项writeback已通过验证。原硬截止今日15点保持。
+
 checkpoint035：137Nd多重手征带Table 1弱伙伴跃迁比抢救提取与2hbar对齐对手征振动审计（P20-D18-1），证实从Table 1成功提取D3与D6弱带B(M1)/B(E2)跃迁比（D3比D2稳定在2.02-2.10倍，D6完全落入D5的3.2-32.3包络内），结合恒定Delta i_x=2hbar对齐落差闭环证明与135Nd同构的手征振动动力学机制。131项writeback已通过验证。原硬截止今日15点保持。
 
 checkpoint034：126Cs与128Cs手征双重带DSAM寿命重构、Qt形变对称性与相空间透镜审计（GR126-D18-1/GR06-D18-1），证实126Cs两带13能级寿命与26绝对跃迁几率与探测强度严格闭环（平均偏差仅7.8%），Qt比值0.892高度保持形变对称性（反衬132La的20倍BE2崩塌），且(961/277)^5达502.6倍相空间抑制反向确立低能Delta I=1跃迁具有>99.5%天然纯M1。127项writeback已通过验证。原硬截止今日15点保持。
@@ -45,6 +47,8 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint036已实际提交，稳定指针main / `Audit 104,106Mo Table IV interband E2 predictions, upper-limit tension, and phase-space suppression`；精确hash/H3/远端结果只publication-036回执。
 
 checkpoint035已实际提交，稳定指针main / `Audit 137Nd multiple chiral bands B(M1)/B(E2) recovery and 2 hbar alignment gap`；精确hash/H3/远端结果只publication-035回执。
 

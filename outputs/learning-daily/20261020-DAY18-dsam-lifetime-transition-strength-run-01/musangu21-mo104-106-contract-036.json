@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "task": "musangu21-mo104-106-chiral-strength-audit",
+  "inputs": [
+    "raw/papers/2021_Musangu et al_Chiral vibrations and collective bands in Mo 104 , 106.pdf"
+  ],
+  "checks": [
+    "Reconstruct Table IV interband intensities and upper limits for 106Mo and 104Mo",
+    "Quantify theory-vs-limit tension at spins 7, 8, 9 in 106Mo (20% to 33.3% excess)",
+    "Identify phase-space suppression in 104Mo low-energy interband lines",
+    "Establish absence of DSAM/RDDS lifetime measurements and unobserved collective E2 status"
+  ],
+  "status": "passed"
+}

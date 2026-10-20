@@ -168,3 +168,13 @@ P0: none identified.
 
 - Protected BibTeX record: `musangu_2021_Chiralvibrations` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2021_Musangu et al_Chiral vibrations and collective bands in Mo 104 , 106.pdf`.
+
+## Day18定量审计：Table IV跨带跃迁理论预测与实验上限张力对账
+
+在Day18正式学习中对本文Table IV预测的带间跃迁几率与探测上限开展定量对账，raw SHA256 `BBFC8907CA98BCF7439EBDA321F60988FD5A3052120532A4CE1D364484912DAC`已核。原MU21-1–21各claim保持；新MU21-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU21-D18-1 | 本文Table IV针对104,106Mo预测的带间I->I-1跃迁强度与实验上限定量对账揭示：(1) 在106Mo中，自旋7、8、9处TPSM理论计算强度I_theo分别为0.26、0.20、0.12，系统性超出实验1sigma上限（分别为<0.20、<0.15、<0.10）达20%至33.3%，将真实跨带比值B(E2)_out/B(E2)_in分别刚性限制在<=0.226、<=0.574与<=0.621（显著低于模型声称的0.294、0.766与0.745）；(2) 在104Mo中，预测跨带强度（0.006与0.0038）因低跃迁能量受到(E_in/E_out)^5相空间严重压低，整整低于探测灵敏度一个数量级，导致104Mo对三轴电荷密度重取向的集体E2增强完全缺乏实验观测支撑；(3) 两核负宇称带均无DSAM或RDDS能级寿命测量，绝对B(E2)与B(M1)完全未定，证明在缺乏寿命测量时，单凭微观模型预测的集体跨带E2不能直接等价于手征对称破缺实验事实。 | task-rate-decomposition-audit | derived-and-boundary | Table IV, Fig. 20；新musangu21-mo104-106-result-036 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/musangu21-mo104-106-contract-036.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/musangu21-mo104-106-result-036.json)4项检查全过。

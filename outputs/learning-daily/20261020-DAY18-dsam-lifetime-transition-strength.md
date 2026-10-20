@@ -2463,6 +2463,50 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "P20-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+      "anchor": "Day18定量审计：Table IV跨带跃迁理论预测与实验上限张力对账",
+      "summary": "来源页补充104,106Mo Table IV跨带E2跃迁预测系统性超出实验1sigma上限达20-33.3%的张力审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "偶偶核104,106Mo手征振动候选带的跨带E2预测与实验探测上限张力",
+      "summary": "研究笔记补充104,106Mo跨带E2集体预测超出实验上限、相空间压低与缺乏在束寿命测量的系统学约束",
+      "sources": [
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "跨带电磁连接线的实验探测上限对集体跃迁模型的证伪界限",
+      "summary": "方法页补充跨带非观测谱线实验上限系统性低于微观模型预测时对集体四极增强假设的客观证伪准则",
+      "sources": [
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "musangu-2021-chiral-vibrations-104mo-106mo",
+      "summary": "索引增加104,106Mo Table IV跨带E2预测与实验上限张力及相空间压低审计导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/musangu-2021-chiral-vibrations-104mo-106mo.md",
+          "locator": "MU21-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -2477,6 +2521,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint036已实际提交，稳定指针main / `Audit 104,106Mo Table IV interband E2 predictions, upper-limit tension, and phase-space suppression`；精确hash/H3/远端结果只publication-036回执。
 
 checkpoint035已实际提交，稳定指针main / `Audit 137Nd multiple chiral bands B(M1)/B(E2) recovery and 2 hbar alignment gap`；精确hash/H3/远端结果只publication-035回执。
 
