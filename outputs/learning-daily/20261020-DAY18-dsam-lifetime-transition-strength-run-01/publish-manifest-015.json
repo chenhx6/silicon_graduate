@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-20T22:20:06.927722+08:00",
+  "subject": "Audit 131Ce Qt slope significance and side-feeding parametrization shifts",
+  "ordinary_paths": [
+    "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "system/scripts/day18_singh16_131ce_audit.py",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/singh16-131ce-contract-015.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/singh16-131ce-result-015.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-019.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-016.txt",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-015.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-018.json"
+  ],
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-015.md only"
+  },
+  "verification": "verification-019.json",
+  "excluded": [
+    "inheriteddirty",
+    "raw/PLAN/Bib/credentials",
+    "isolateddaemon",
+    "tmp PDFs and sourcearchives"
+  ],
+  "checks": "verification019/lint018 0 errors 249 warnings/boundary016/diff; 131Ce 4 checks passed"
+}

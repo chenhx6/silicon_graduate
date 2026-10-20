@@ -1,8 +1,13 @@
+checkpoint015：131Ce Table 1定量回归审计（SI16-D18-1），斜率显著性仅-0.64sigma，证实所谓形变减小主要受侧馈模式切换（tau_SF转Q_SF）影响。47项writeback已通过验证。原硬截止明日15点保持。
+
 checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO混合比双根对相对B(E2)out/B(E2)in提取的极端敏感性（小解压低8.6至197.5倍）。44项writeback已通过验证。原硬截止明日15点保持。
 
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint015已实际提交，稳定指针main / `Audit 131Ce Qt slope significance and side-feeding parametrization shifts`；精确hash/H3/远端结果只publication-015回执。
+
 
 checkpoint014已实际提交，稳定指针main / `Audit 167Lu relative transition strength and delta double-root sensitivity`；精确hash/H3/远端结果只publication-014回执。
 

@@ -124,3 +124,14 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 - Experiments: [[iuac-gda-131ce-o16-rdds-dsam]], [[iuac-gda-133pr-f19-rdds]].
 - Observables: [[transition-quadrupole-moment]]。
 - Project: [[131ce-collective-mode-discrimination]]。
+
+
+## Day18定量审计：侧馈参数转换与Qt下降显著性核验
+
+在Day18正式学习中对本文Table 1中131Ce yrast带实验数据进行定量回归与侧馈模型审计，raw SHA256 `95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30`已核。原SI16-1–17各claim及review状态保持；新SI16-D18-1待审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D18-1 | 对Table 1四个有限点（15/2−、27/2−、31/2−、35/2−）进行加权线性回归，斜率为 $-0.0302 \pm 0.0472$ eb/$\hbar$，显著性仅为 $-0.64\sigma$（远低于 $1\sigma$）；常数 $Q_t$ 模型（加权均值 $2.58 \pm 0.10$ eb）给出 $\chi^2/	ext{dof} = 0.89$，三个单侧限值亦完全相容。侧馈处理在自旋序列中发生性质变化：低自旋用恒定时延 $	au_	ext{SF} = 0.73	ext{--}1.0$ ps，高自旋用集体转动级联 $Q_	ext{SF} = 5.01	ext{--}5.79$ eb。目视 $Q_t$ 下降可能主要源于侧馈拟合参数的切换而非内禀形变减小。 | task-regression-and-feeding-audit | derived-and-boundary | PDF p.5 Table 1；新singh16-131ce-result-015 | true |
+
+新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/singh16-131ce-contract-015.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/singh16-131ce-result-015.json)4项检查全过，为形变演化结论提供了侧馈模型反证。

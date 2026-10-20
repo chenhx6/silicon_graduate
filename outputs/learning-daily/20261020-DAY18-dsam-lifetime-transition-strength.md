@@ -1314,6 +1314,39 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "AM03-D18-1"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "anchor": "Day18定量审计：侧馈参数转换与Qt下降显著性核验",
+      "summary": "Table 1四个有限点加权回归斜率仅-0.64sigma，侧馈模式由tau_SF转Q_SF可能制造形变演化假象",
+      "sources": [
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "侧馈模型切换对高自旋Qt演化判断的干扰：131Ce案例",
+      "summary": "131Ce案例审计：侧馈时延tau_SF转转动级联Q_SF对高自旋Qt下降趋势的潜在人为影响",
+      "sources": [
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "侧馈参数模式切换对Qt自旋趋势的系统性偏差",
+      "summary": "方法页补充侧馈参数模式切换（tau_SF与Q_SF）对Qt拟合的系统偏差机制",
+      "sources": [
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-1"
+        }
+      ]
     }
   ]
 }
@@ -1328,6 +1361,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint015已实际提交，稳定指针main / `Audit 131Ce Qt slope significance and side-feeding parametrization shifts`；精确hash/H3/远端结果只publication-015回执。
+
 
 checkpoint014已实际提交，稳定指针main / `Audit 167Lu relative transition strength and delta double-root sensitivity`；精确hash/H3/远端结果只publication-014回执。
 
