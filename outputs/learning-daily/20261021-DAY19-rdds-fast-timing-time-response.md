@@ -14,7 +14,7 @@ updated: 2026-10-21
 - session_id: `01a15dcc-49f9-7623-b0e9-75fd73c74a80`
 - schedule_id: `wiki-daily-learning`；Docker-local，非GUI Scheduled。
 - hard_deadline: `2026-10-22T15:00:00+08:00`；次日15–16仅收束。
-- status: `completed / standard learning day closeout`；2026-10-21 Day 19 独立课程session全套交付物与校准审计完成，canonical知识沉淀、边界检查与课程状态对账闭环。
+- status: `completed / schedule-level evidence saturation closeout`；2026-10-21 Day 19 独立课程session全套交付物与校准审计完成，canonical知识沉淀、边界检查与课程状态对账闭环。
 - completed_day_indices: [19]
 - partial_day_indices: [20]
 - Day 19 card audit: complete
@@ -46,6 +46,7 @@ updated: 2026-10-21
 | continuation 3：131Ce Li 2004 与 Singh 2016 的 K 投影闭环对账 | 证明 23/2- 态 Qt = 3.55 eb 与 Singh 上限 < 2.85 eb 的表观张力完全源于 K=5/2 与 K=1/2 约定差异（换算后为 2.761 eb 严格相容） | 沉淀至 li-2004-lifetimes-131ce.md，保持 partial_day_indices: [20] |
 | continuation 4：Day 20 预习全景闭环与 Petrache 1998 / Singh 2016 事实固化 | 完成高度形变带侵入轨道极化抵消与四极形变基准对齐，建立 PE98-D20 与 SI16-D20 事实行 | 沉淀至各源页，保持 partial_day_indices: [20] |
 | continuation 5：Q_spec 与 Qt 代数解耦、三轴零点指纹与二阶 beta2 映射 | 证明 Davydov 模型在 gamma=30 deg 下 Q_spec=0 但 Qt/Q0=1.0（零谱学矩非球形），定量标定强形变二阶 +6.7% 展开修正 | 沉淀至 transition-quadrupole-moment.md，保持 partial_day_indices: [20] |
+| continuation 6：调度级证据饱和审计与正式收束就绪 | 核对两个选定槽位（Day 19 正式卡与 Day 20 预习卡）全部饱和，下一卡 Day 21 按规则不可打开，达到调度级证据饱和 | 正式计发 Day 19 学分，保持 partial_day_indices: [20]，next_day_index: 20 |
 
 ## Sources and evidence
 

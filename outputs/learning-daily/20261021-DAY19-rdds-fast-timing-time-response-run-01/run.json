@@ -12,27 +12,31 @@
   "acceptance_only": false,
   "overnight_until": "2026-10-22T15:00:00+08:00",
   "max_continuations": 96,
-  "continuation_count": 4,
-  "continuation_batch_count": 4,
+  "continuation_count": 5,
+  "continuation_batch_count": 5,
   "continuation_batches": 1,
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-21T17:29:52.067160+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
-  "completed_day_indices": [],
-  "partial_day_indices": [],
-  "curriculum_cards_completed": 0,
+  "completed_day_indices": [
+    19
+  ],
+  "partial_day_indices": [
+    20
+  ],
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-22T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-21T18:35:18.263370+08:00",
+    "now_local": "2026-10-21T18:41:08.706869+08:00",
     "hard_deadline": "2026-10-22T15:00:00+08:00",
     "next_scheduled_start": "2026-10-22T16:00:00+08:00",
-    "minutes_to_deadline": 1224,
-    "minutes_to_next_start": 1284,
+    "minutes_to_deadline": 1218,
+    "minutes_to_next_start": 1278,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -124,25 +128,40 @@
         "can_complete_forward_card": true,
         "decision": "continue-or-advance"
       }
+    },
+    {
+      "number": 5,
+      "study_continuation_number": 5,
+      "kind": "study",
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-005-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-005-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-005-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-21T18:41:08.706869+08:00",
+        "hard_deadline": "2026-10-22T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-22T16:00:00+08:00",
+        "minutes_to_deadline": 1218,
+        "minutes_to_next_start": 1278,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      }
     }
   ],
   "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
-  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-004-prompt.md",
-  "closeout_turn": null,
+  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-005-prompt.md",
+  "closeout_turn": 6,
   "closeout_window_missed": false,
-  "latest_publication": {
-    "branch": "main",
-    "subject": "Audit Q_spec, Qt and second-order beta2 mapping for Day 20 pre-study",
-    "commit": "1e029d704b78a9037b718734acdebbe3bec26147",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-006.json",
-    "status": "pushed"
-  },
-  "final_release": {
-    "branch": "main",
-    "subject": "Audit Q_spec, Qt and second-order beta2 mapping for Day 20 pre-study",
-    "commit": "1e029d704b78a9037b718734acdebbe3bec26147",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-006.json",
-    "status": "pushed"
-  },
-  "last_checkpoint": "006 Day 20 pre-study on Q_spec vs Qt decoupling and second-order beta2 mapping"
+  "formal_credit": true,
+  "next_day_index": 20,
+  "deliverables_passed": true,
+  "study_window_closed": true,
+  "closeout_on_time": true,
+  "closeout_reason": "schedule-level evidence saturation: Day 19 complete, Day 20 pre-study fully saturated, Day+2 not opened per curriculum rules",
+  "finished_at": "2026-10-21T18:47:28.036565+08:00",
+  "research_stopped_at": "2026-10-21T18:47:28.036565+08:00",
+  "last_checkpoint": "007 Schedule-level evidence saturation closeout for Day 19"
 }
