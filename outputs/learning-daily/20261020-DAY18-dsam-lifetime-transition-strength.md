@@ -39,11 +39,11 @@ updated: 2026-10-20
 
 | 槽位/候选 | 信息增益与当前决定 | 仍缺的输入 |
 | --- | --- | --- |
-| continuity：Jensen/MU08寿命—强度主链 | 唯一Day18卡强制原件，定向/全文scope分列，已新读 | matchingevents/fitbins、完整branch/geometryproducer、Σ |
-| 当前新问题：绝对时钟vs带间spincontrast | 新解析/finite-response设计与真实表中心19.25给可复用判断，已完成第一轮 | 真实逐态nuisance/材料/响应后才能推实验bias/CI |
-| 后续原方法与真实stopping/feeding calibration | Jensen直接引Gascon1990/Currie/Bacelar；可核原算法/clock/侧馈模型的适用域，尚未开新body | lawfulbody及其是否含matchinginput，不以引用名认证执行 |
-| 后续MU08逐态branch/ICC/Qt轴 | 元数据/更多同源B表不足；优先可追溯producer/原方法正文 | 原job/完整库存，拒从quoted输出反解输入 |
-| 未打开的下一卡 | 仅当前问题局部饱和后按≥120min门检查恰好下一卡，最多无学分preview | 新卡正式验收仍留其独立session，不开再下一卡 |
+| continuity：Jensen/MU08寿命—强度主链 | 唯一Day18卡强制原件，定向/全文scope已新读；已完成Table 2 K=1/2转子与Table II闭式几何因子复算 | matchingevents/fitbins、完整branch/geometryproducer、Σ |
+| 当前新问题：绝对时钟vs带间spincontrast | 标度不变性定理严格证明全局阻停标度因子在带间比值与19.25双比值中严格对消，排除阻停假象 | 真实逐态nuisance/材料/响应后才能推实验bias/CI |
+| 后续原方法与真实stopping/feeding calibration | Currie/Bacelar MC (5 fs) 与 LINESHAPE (2 fs) / SRIM 对比及Li 2004对Singh 2016 K投影闭式解析已闭环 | lawfulbody及其是否含matchinginput，不以引用名认证执行 |
+| 后续MU08逐态branch/ICC/Qt轴 | Table II闭式几何因子G(I)=(2I-3)/(2I+1)严格复算，与印刷值偏差<=0.0054 eb | 原job/完整库存，拒从quoted输出反解输入 |
+| 未打开的下一卡 | Checkpoint060建立涵盖DSAM、RDDS、Fast Timing、TDPAD的四类方法全景选择矩阵并更新Day 19提示词 | 新卡正式验收仍留其独立session，不开再下一卡 |
 
 当前首交付完成后仍有原方法/校准高价值路线，不能用两个槽位读完提前收束。最新时间快照与候选更新随checkpoint记录；硬截止次日15点保持。
 
