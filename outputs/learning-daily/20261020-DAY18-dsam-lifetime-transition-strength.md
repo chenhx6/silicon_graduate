@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint055：退役旧式推断脚本与收拢核结构分析边界
+
+对此前已在checkpoint049（Babra/Singh）、checkpoint050（Matta/Lv/Biswas/Devi）、checkpoint051（Amro/Jensen）完成原件分层审定但遗留未退役的6个旧式serializer脚本（`day18_singh16_131ce_audit.py`、`day18_135pr_rate_contrast.py`、`day18_biswas19_133la_audit.py`、`day18_devi21_133ba_audit.py`、`day18_amro03_167lu_audit.py`、`day18_jensen02_163lu_audit.py`）统一执行安全退役防护，确保知识库与脚本层的一致性与可复现性。
+
 ### checkpoint054：151Eu与A≈160稀土区摆动链类比假设与偏振显著性边界
 
 151Eu带间连接线（Mukherjee 2023 Table III）大解（91.6%与97.5% E2）经正偏振不对称度倾向（Z = 1.09sigma与1.60sigma）与TPSM模型符合度分层，RDCO小根作为反事实敏感性保留；A≈160区wobbling链（165Lu, 161Lu, 167Ta）原件核实表明其普遍依托对163Lu同位素性质的类比假设（165Lu排除小根、161Lu未测电磁性质、167Ta假定90% E2纯度）。新21项结果完成检验，旧两项serializer安全退役。
@@ -3835,6 +3839,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint055已实际提交，稳定指针main / `Retire superseded Day18 rate and mixing serializers`；精确hash/H3/远端结果只publication-055回执。
+
 
 checkpoint054已实际提交，稳定指针main / `Audit 151Eu and A ~ 160 rare-earth wobbling lineage boundaries`；精确hash/H3/远端结果只publication-054回执。
 

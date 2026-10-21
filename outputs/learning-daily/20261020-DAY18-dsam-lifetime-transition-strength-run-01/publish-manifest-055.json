@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T01:44:59.539361+00:00",
+  "subject": "Retire superseded Day18 rate and mixing serializers",
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-055.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-055.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification055 valid; lint0; boundary0; diff0; 6 retired serializers; no credit; original deadline preserved"
+}

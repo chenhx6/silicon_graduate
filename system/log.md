@@ -2621,3 +2621,7 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
 ## 2026-10-21 DAY18 checkpoint054：151Eu与A≈160稀土区摆动链类比假设与偏振显著性边界
 
 151Eu Mukherjee 2023 Table III带间连接线报告大解（91.6%与97.5% E2），线偏振不对称度Delta = +0.038(35)（1.09sigma）与+0.024(15)（1.60sigma）具有正偏振倾向但统计显著性有限，小根（1.42%与0.16% E2）体现混合比敏感性；A≈160区wobbling链（165Lu, 161Lu, 167Ta）原件核对完成，确认其对163Lu同位素类比的先验依赖与电磁测量局限。新21项检查通过，旧两项serializer安全退役。原Day 18 session持续至15:00，formal 18未授。
+
+## 2026-10-21 DAY18 checkpoint055：退役旧式推断脚本与收拢核结构分析边界
+
+安全退役前期遗留的6个旧式serializer脚本（day18_singh16_131ce_audit.py, day18_135pr_rate_contrast.py, day18_biswas19_133la_audit.py, day18_devi21_133ba_audit.py, day18_amro03_167lu_audit.py, day18_jensen02_163lu_audit.py），统一指向对应checkpoint049-051的边界审计结果，消除脚本层过强断言与未校准假设。原Day 18 session持续至15:00，formal 18未授。
