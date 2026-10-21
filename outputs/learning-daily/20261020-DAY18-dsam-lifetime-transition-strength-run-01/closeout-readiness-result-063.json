@@ -1,0 +1,81 @@
+{
+  "kind": "day18-closeout-readiness-audit",
+  "checks": [
+    {
+      "name": "Recall freeze file exists",
+      "passed": true
+    },
+    {
+      "name": "Recall freeze verified",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 audit result exists",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 audit passed",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 audit result exists",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 audit passed",
+      "passed": true
+    },
+    {
+      "name": "DSAM systematics contrast result exists",
+      "passed": true
+    },
+    {
+      "name": "Scale Invariance Theorem passed",
+      "passed": true
+    },
+    {
+      "name": "Timing method selection result exists",
+      "passed": true
+    },
+    {
+      "name": "Timing method selection passed",
+      "passed": true
+    },
+    {
+      "name": "131Ce K-rotor result exists",
+      "passed": true
+    },
+    {
+      "name": "131Ce K-rotor audit passed",
+      "passed": true
+    },
+    {
+      "name": "Daily report exists",
+      "passed": true
+    },
+    {
+      "name": "Knowledge writeback valid",
+      "passed": true
+    },
+    {
+      "name": "Writeback items >= 174",
+      "passed": true
+    },
+    {
+      "name": "Verification 062 file exists",
+      "passed": true
+    },
+    {
+      "name": "Verification 062 valid",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "status": "ready_for_1500_closeout",
+  "audit_scope": "all_62_checkpoints_covered",
+  "time_invariants_respected": {
+    "formal_credit_not_yet_awarded": true,
+    "window_ends_at": "15:00 CST",
+    "closeout_hour": "15:00 - 16:00 CST"
+  }
+}
