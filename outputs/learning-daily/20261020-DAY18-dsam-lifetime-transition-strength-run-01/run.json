@@ -24,7 +24,9 @@
   "started_at": "2026-10-20T15:15:01.842102+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
   "completed_day_indices": [],
-  "partial_day_indices": [],
+  "partial_day_indices": [
+    18
+  ],
   "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-21T16:00:00+08:00",
   "last_closeout_snapshot": {
@@ -71,15 +73,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "066 prepared; original research window continues",
+  "last_checkpoint": "067 prepared; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit 165Tm Table 2 level lifetime to transition quadrupole moment conversion",
-    "commit_hash": "33c0cb06b936c92dd76927a6c4841218d240db28",
+    "subject": "Update candidate pool and closeout readiness status in Day 18 report",
+    "commit_hash": "3b02bd6ec358739546ca287164686032c062d3b7",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-057.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-066.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -88,12 +90,13 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Update candidate pool and closeout readiness status in Day 18 report"
+    "subject": "Synchronize run.json publication receipt pointer and state invariants"
   },
   "uncredited_preview": {
     "day_index": 19,
     "status": "partial",
     "formal_credit": false,
     "statefile": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json"
-  }
+  },
+  "next_day_index": 18
 }
