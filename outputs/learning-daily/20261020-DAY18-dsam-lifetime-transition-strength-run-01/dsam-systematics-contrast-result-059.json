@@ -1,0 +1,182 @@
+{
+  "kind": "raw-anchored-dsam-systematics-contrast-audit",
+  "sources": {
+    "jensen_2001": {
+      "path": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+      "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770"
+    },
+    "mukhopadhyay_2008": {
+      "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c"
+    },
+    "singh_2016": {
+      "path": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+      "sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30"
+    }
+  },
+  "methodological_contrast_matrix": {
+    "jensen_2001_165tm": {
+      "code": "Bacelar (PRC 35, 1170 (1987)) based on Currie MC (NIM 73, 173 (1969))",
+      "time_step_fs": 5.0,
+      "recoil_histories": "Monte Carlo time-sliced",
+      "electronic_stopping": "Northcliffe-Schilling (1970) with Ziegler-Chu (1974) and Sie (1977) shell corrections",
+      "nuclear_stopping": "Differential Lindhard (1963)",
+      "side_feeding_model": "3-transition cascade, fixed J(2) = 65.0 hbar^2/MeV, common effective Qs",
+      "gating_geometry": "4 polar angles (37, 79, 101, 143 deg) vs sum; all gates below transitions of interest",
+      "stopping_uncertainty_budget": "+5% systematic added directly into Table 2 lifetime and Qt uncertainties"
+    },
+    "mukhopadhyay_2008_136nd": {
+      "code": "LINESHAPE (Wells & Johnson ORNL-6689 (1991))",
+      "time_step_fs": 2.0,
+      "recoil_histories": "5000 Monte Carlo histories in target and backing",
+      "electronic_stopping": "SRIM (Ziegler et al.)",
+      "nuclear_stopping": "SRIM integrated kinematics",
+      "side_feeding_model": "5-transition cascade, in-band comparable moment of inertia, variable Qs",
+      "gating_geometry": "Double-gated angle vs energy matrix, full-peak integration (stopped + shifted)",
+      "stopping_uncertainty_budget": "Systematic stopping errors EXCLUDED from Table II; stated up to 15% in caption"
+    },
+    "singh_2016_131ce_133pr": {
+      "code": "LINESHAPE (Wells & Johnson)",
+      "time_step_fs": 2.0,
+      "recoil_histories": "Monte Carlo velocity histories",
+      "electronic_stopping": "Ziegler vs shell-corrected Northcliffe-Schilling averaged, larger uncertainty adopted",
+      "nuclear_stopping": "Included in LINESHAPE transport",
+      "side_feeding_model": "Dual parameterization: constant delay tau_SF (low spin) vs rotational cascade Q_SF (high spin)",
+      "gating_geometry": "GDA HPGe at 50, 98, 144 deg; singles with multiplicity gate for 133Pr",
+      "stopping_uncertainty_budget": "Stopping uncertainty included in adopted error envelop via model comparison"
+    }
+  },
+  "scale_invariance_analysis": {
+    "nominal_Band1_B_E2": 0.51,
+    "nominal_Band2_B_E2": 0.25,
+    "nominal_ratio": 0.490196,
+    "grid_evaluation": [
+      {
+        "scale_factor_S": 0.85,
+        "B_Band1_scaled": 0.4335,
+        "B_Band2_scaled": 0.2125,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 0.0
+      },
+      {
+        "scale_factor_S": 0.9,
+        "B_Band1_scaled": 0.459,
+        "B_Band2_scaled": 0.225,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 0.0
+      },
+      {
+        "scale_factor_S": 0.95,
+        "B_Band1_scaled": 0.4845,
+        "B_Band2_scaled": 0.2375,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 0.0
+      },
+      {
+        "scale_factor_S": 1.0,
+        "B_Band1_scaled": 0.51,
+        "B_Band2_scaled": 0.25,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 0.0
+      },
+      {
+        "scale_factor_S": 1.05,
+        "B_Band1_scaled": 0.5355,
+        "B_Band2_scaled": 0.2625,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 5.551115123125783e-17
+      },
+      {
+        "scale_factor_S": 1.1,
+        "B_Band1_scaled": 0.561,
+        "B_Band2_scaled": 0.275,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 0.0
+      },
+      {
+        "scale_factor_S": 1.15,
+        "B_Band1_scaled": 0.5865,
+        "B_Band2_scaled": 0.2875,
+        "ratio_Band2_to_Band1": 0.490196,
+        "ratio_discrepancy": 5.551115123125783e-17
+      }
+    ],
+    "scientific_implication": "Under a global multiplicative stopping power scaling factor S in [0.85, 1.15], extracted level lifetimes scale as tau/S and transition strengths B(E2) scale as S*B(E2). However, the inter-band ratio B(E2)_Band2 / B(E2)_Band1 = 0.4902 is strictly scale-invariant. Therefore, the observed 2.06-fold B(E2) difference between 136Nd Band 1 and Band 2 cannot be an artifact of global electronic stopping power miscalibration (such as the 15% SRIM systematic). It reflects either genuine microscopic configuration disparity (e.g. Petrache 2018 TAC-CDFT configurations A vs B) or differential side-feeding time histories between the two cascades."
+  },
+  "checks": [
+    {
+      "name": "Jensen 2001 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Singh 2016 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 cites Currie MC and Bacelar code",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 time step is 5 fs",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 stopping power model",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 3-transition side feeding cascade with J(2)=65",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 5% systematic error added to Table 2",
+      "passed": true
+    },
+    {
+      "name": "Jensen 2001 gating below transitions of interest",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 cites LINESHAPE code",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 5000 histories in 0.002 ps (2 fs) steps",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 SRIM electronic stopping powers",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 5-transition side-feeding cascade",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 full-peak gate integration",
+      "passed": true
+    },
+    {
+      "name": "Mukhopadhyay 2008 Table II excludes 15% stopping systematic",
+      "passed": true
+    },
+    {
+      "name": "Singh 2016 uses LINESHAPE codes",
+      "passed": true
+    },
+    {
+      "name": "Singh 2016 side feeding and stopping power references",
+      "passed": true
+    },
+    {
+      "name": "Scale invariance: Band ratio is identically invariant under global stopping scaling",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}

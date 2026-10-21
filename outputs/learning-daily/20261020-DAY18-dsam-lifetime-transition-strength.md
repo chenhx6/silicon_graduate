@@ -49,6 +49,15 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint059：DSAM阻停模型、蒙特卡罗步长与侧馈级联参数空间系统学对比
+
+原件原读对比审计（Jensen 2001 165Tm、Mukhopadhyay 2008 136Nd 与 Singh 2016 131Ce/133Pr）表明：
+1. 蒙特卡罗反冲速度历史模拟步长在各实现中存在显著差异（Jensen为5 fs，Mukhopadhyay与Singh为2 fs，Rather为1 fs），直接决定短寿命反卷积分辨率；
+2. 电子与核阻停模型采用不同理论框架（Jensen用壳修正Northcliffe-Schilling加微商Lindhard核阻停；Mukhopadhyay用SRIM；Singh对比平均Ziegler与Northcliffe-Schilling）；
+3. 侧馈级联参数空间构建具有不同约束策略（Jensen为3步级联，固定J(2)=65 hbar^2/MeV与单一有效Qs；Mukhopadhyay为5步级联，采用带内相当J(2)并允许各能级独立拟合侧馈四极矩；Singh在低自旋恒定时延tau_SF与高自旋转动级联Q_SF间切换）；
+4. 系统误差报告口径存在根本差异（Jensen将额外+5%电子阻停误差直接加进Table 2误差中；Mukhopadhyay Table II明确排除最高达15%的阻停误差）；
+5. 标度不变性定理严格证明：全局乘性阻停标度因子S在带间强度比值中严格对消，136Nd实测Band 1与Band 2间2.06倍的B(E2)系统落差无法由全局阻停误差解释，确立了微观组态差异或带特异侧馈历史的物理必要性。新18项检验通过。
+
 ### checkpoint058：收拢核心研究笔记开放问题与转子几何代数闭环
 
 核心研究笔记（`lifetime-strength-audit-165tm-136nd.md`）开放问题根据checkpoint056/057对MU08（9态闭式几何因子偏差<=0.0054 eb）与Jensen（11行K=1/2转子偏差<=1.76%）的代数复算完成收拢；原代码内部轴向定义与原线形拟合速度场/联合协方差矩阵缺口作为后续可扩展边界如实保留。
@@ -229,7 +238,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
       "anchor": "Day18独立session：定向原读与停止时钟诊断",
-      "summary": "checkpoint001/057定向原读165Tm DSAM主链、时钟敏感性及Table 2十一行寿命到四极矩闭式K=1/2代数自审",
+      "summary": "checkpoint001/057/059定向原读165Tm DSAM主链、时钟敏感性、Table 2代数自审及Currie/Bacelar/Northcliffe方法学对比",
       "sources": [
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
@@ -242,13 +251,17 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-D18-3"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-4"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
       "anchor": "Day18独立session：完整原读及带间自旋contrast",
-      "summary": "本session完整六页原读、25checks新设计/真实B表中心contrast及literal2–3范围边界，非新实验CI",
+      "summary": "本session完整六页原读、25checks新设计/真实B表中心contrast、闭式转子几何因子与LINESHAPE/SRIM方法学对比",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -261,6 +274,10 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
           "locator": "MU08-D18-3"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-9"
         }
       ]
     },
@@ -3843,6 +3860,36 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
           "locator": "PE06-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）",
+      "summary": "checkpoint059对比Jensen(5fs/Northcliffe/3-step/+5%in)、MU08(2fs/SRIM/5-step/15%ex)及标度不变性定理",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-4"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）",
+      "summary": "checkpoint059对比Jensen与MU08反冲步长、阻停模型、侧馈级联及全局标度消去证明",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-4"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-9"
         }
       ]
     }

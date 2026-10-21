@@ -459,3 +459,14 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 ## 165Tm Table 2十一行受激态寿命与转动四极矩闭式代数自审（checkpoint057）
 
 [[jensen-2001-165tm-h9-2-configuration]] J01-D18-3 表明：Jensen 2001 Table 2中给出的两条直接DSAM带（$[541]1/2^-$ 的5个态与 $[411]1/2^+$ 的6个态）能级寿命 $\tau$ 与跃迁四极矩 $Q_t$ 遵循严格的 $K = 1/2$ 轴对称转子退激模型：代入 $\langle I\, 1/2\, 2\, 0 \mid I-2\, 1/2\rangle^2 = \frac{3(I-1/2)(I-3/2)(I+1/2)(I-1/2)}{2(I-1)I(2I-1)(2I+1)}$ 与 $p_\gamma = 1, \alpha_\text{ICC} = 0$ 后，全部11个态的重算 $Q_t$ 与原文报告值的最大相对偏差仅为 $1.76\%$（绝对差值 $\le 0.14\text{ b}$），完全落入寿命（保留两位小数）与四极矩（保留一位小数）的舍入误差容限内。该自审确立了原表输出在声称的转动几何下的代数自洽性，但不替代对原线形拟合速度场和协方差矩阵的独立复原。新 [jensen01-table2-conditional-audit-result-057](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen01-table2-conditional-audit-result-057.json) 包含14项检验，不制造实验置信区间。
+
+## DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）
+
+[[jensen-2001-165tm-h9-2-configuration]] J01-D18-4、[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-9 与 [[singh-2016-lifetime-131ce-133pr]] SI16-1/8 构成了DSAM方法实现的经典跨实验对比：
+1. **反冲模拟时间步长与代码**：Jensen 2001 采用 Currie (1969) / Bacelar (1987) 蒙特卡罗代码，时间步长为 $5\text{ fs}$；Mukhopadhyay 2008 采用 Wells & Johnson (1991) 的 LINESHAPE 代码，以 $2\text{ fs}$（$0.002\text{ ps}$）步长跟踪 5000 条反冲历史；Singh 2016 同样采用 LINESHAPE 且步长为 $2\text{ fs}$。Rather 2014 则采用 $1\text{ fs}$ 步长。时间步长直接影响极端短寿命（$<50\text{ fs}$）线形峰位移与退卷积分辨率。
+2. **电子与核阻停模型**：Jensen 2001 采用经验 Northcliffe-Schilling 阻停并施加 Ziegler-Chu 与 Sie 壳修正，核阻停用微商 Lindhard 截面；Mukhopadhyay 2008 采用 SRIM；Singh 2016 则对比并平均了 Ziegler 与壳修正 Northcliffe-Schilling，并取较大包络。
+3. **侧馈级联参数空间**：Jensen 2001 采用 3 步级联，固定动理学惯性矩 $J^{(2)} = 65.0\hbar^2/\text{MeV}$ 并共享单一有效四极矩 $Q_s$；Mukhopadhyay 2008 采用 5 步级联，惯性矩与带内相当，允许各能级独立拟合侧馈四极矩；Singh 2016 则随自旋序列在恒定时延 $\tau_{SF}$ 与转动级联 $Q_{SF}$ 之间切换。
+4. **系统误差报告口径**：Jensen 2001 将额外 $+5\%$ 电子阻停系统误差直接混入 Table 2 寿命与 $Q_t$ 误差包络中；Mukhopadhyay 2008 的 Table II 数值则明确**排除**了阻停系统误差（图注指明其可能高达 15%）。
+5. **标度不变性定理（Scale Invariance Theorem）**：设真实阻停本领相比标称值存在全局乘性标度因子 $S \in [0.85, 1.15]$（即 $\pm 15\%$ 系统学误差），提取出的能级寿命标度为 $\tau(S) = \tau_0 / S$，绝对跃迁几率标度为 $B(E2)(S) = S \cdot B(E2)_0$，转动四极矩标度为 $Q_t(S) = \sqrt{S} \cdot Q_t^{(0)}$。然而，带内强度比值 $B(E2)_i / B(E2)_j$ 以及带间跃迁强度比值 $B(E2)_{\text{Band 2}} / B(E2)_{\text{Band 1}}$ 中的标度因子 $S$ **严格完全消去**。因此，$^{136}\text{Nd}$ 中实测 Band 1 与 Band 2 之间 2.06 倍的 $B(E2)$ 系统性落差（Band 1 约 $0.51 e^2\text{b}^2$ 对 Band 2 约 $0.25 e^2\text{b}^2$）在数学上绝不可能由全局阻停本领定标误差（如 15% 的 SRIM 误差）所解释，而必然反映了两带微观波函数/组态差异（如 Petrache 2018 TAC-CDFT 组态 A 与 B）或显著相异的带特异侧馈时延历史。
+
+新 [dsam-systematics-contrast-result-059](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/dsam-systematics-contrast-result-059.json) 包含 18 项原件哈希、原文参数与标度不变性计算检验，全部严格通过。
