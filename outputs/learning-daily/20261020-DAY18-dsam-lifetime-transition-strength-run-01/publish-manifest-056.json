@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T01:53:05.946321+00:00",
+  "subject": "Audit 136Nd Table II transition quadrupole moment geometric factor",
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-056.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-056.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification056 valid; lint0; boundary0; diff0; 13 mu08 table II rotor assertions; no credit; original deadline preserved"
+}

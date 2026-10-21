@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "055 committed; original research window continues",
+  "last_checkpoint": "056 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit 151Eu and A ~ 160 rare-earth wobbling lineage boundaries",
-    "commit_hash": "44ebea3157aa3942aec93648dd58cd449e0800c3",
+    "subject": "Retire superseded Day18 rate and mixing serializers",
+    "commit_hash": "bb3404d79f25540afa3a188e5c9d199af03a03d5",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-054.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-055.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Retire superseded Day18 rate and mixing serializers"
+    "subject": "Audit 136Nd Table II transition quadrupole moment geometric factor"
   },
   "uncredited_preview": {
     "day_index": 19,

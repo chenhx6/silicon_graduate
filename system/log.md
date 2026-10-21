@@ -2625,3 +2625,11 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
 ## 2026-10-21 DAY18 checkpoint055：退役旧式推断脚本与收拢核结构分析边界
 
 安全退役前期遗留的6个旧式serializer脚本（day18_singh16_131ce_audit.py, day18_135pr_rate_contrast.py, day18_biswas19_133la_audit.py, day18_devi21_133ba_audit.py, day18_amro03_167lu_audit.py, day18_jensen02_163lu_audit.py），统一指向对应checkpoint049-051的边界审计结果，消除脚本层过强断言与未校准假设。原Day 18 session持续至15:00，formal 18未授。
+
+## 2026-10-21 DAY18 checkpoint056：136Nd Table II转动四极矩闭式几何因子复算与轴向边界
+
+136Nd Mukhopadhyay 2008 Table II全部9个印刷态的B(E2)到Qt换算经闭式几何因子G(I) = (2I-3)/(2I+1) = <I 2 I-2; I -2 | I-2>^2严格重现，最大偏差仅0.0054 eb（纯四舍五入范围内完全吻合）；标准对称转子K=0公式给出系统高出1.58倍的假象值（如I=16给出2.73 eb对比印刷1.73 eb）。原文未印公式及轴向边界保留。新13项检验通过。原Day 18 session持续至15:00，formal 18未授。
+
+## 2026-10-21 DAY18 checkpoint056：136Nd Table II转动四极矩闭式几何因子复算与轴向边界
+
+136Nd Mukhopadhyay 2008 Table II全部9个印刷态的B(E2)到Qt换算经闭式几何因子G(I) = (2I-3)/(2I+1) = <I 2 I-2; I -2 | I-2>^2严格重现，最大偏差仅0.0054 eb（纯四舍五入范围内完全吻合）；标准对称转子K=0公式给出系统高出1.58倍的假象值（如I=16给出2.73 eb对比印刷1.73 eb）。原文未印公式及轴向边界保留。新13项检验通过。原Day 18 session持续至15:00，formal 18未授。

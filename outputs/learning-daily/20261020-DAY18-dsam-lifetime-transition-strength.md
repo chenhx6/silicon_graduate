@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint056：136Nd Table II转动四极矩闭式几何因子复算与轴向边界
+
+Mukhopadhyay 2008 Table II全部9个印刷态的B(E2)到Qt换算经闭式几何因子 $G(I) = (2I-3)/(2I+1) = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$ 严格重现，最大偏差仅 $0.0054\text{ eb}$（纯四舍五入范围内完全吻合）；标准对称转子K=0公式给出系统高出1.58倍的假象值（如 $I=16$ 给出 $2.73\text{ eb}$ 对比印刷 $1.73\text{ eb}$）。原文未印公式及轴向边界保留。新13项检验通过。
+
 ### checkpoint055：退役旧式推断脚本与收拢核结构分析边界
 
 对此前已在checkpoint049（Babra/Singh）、checkpoint050（Matta/Lv/Biswas/Devi）、checkpoint051（Amro/Jensen）完成原件分层审定但遗留未退役的6个旧式serializer脚本（`day18_singh16_131ce_audit.py`、`day18_135pr_rate_contrast.py`、`day18_biswas19_133la_audit.py`、`day18_devi21_133ba_audit.py`、`day18_amro03_167lu_audit.py`、`day18_jensen02_163lu_audit.py`）统一执行安全退役防护，确保知识库与脚本层的一致性与可复现性。
@@ -2396,7 +2400,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
       "anchor": "Day18修订：原表数值与跨论文能带身份",
-      "summary": "撤回checkpoint032错录的表值和D1/D2桥接，恢复真实逐态强度与低spin身份边界",
+      "summary": "checkpoint046/056核验136Nd Table II原表数值、D3/D4宇称谱系及Qt闭式几何因子(2I-3)/(2I+1)严格相合",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -2417,6 +2421,10 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
           "locator": "PE18-D18-3"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-8"
         }
       ]
     },
@@ -3839,6 +3847,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint056已实际提交，稳定指针main / `Audit 136Nd Table II transition quadrupole moment geometric factor`；精确hash/H3/远端结果只publication-056回执。
+
 
 checkpoint055已实际提交，稳定指针main / `Retire superseded Day18 rate and mixing serializers`；精确hash/H3/远端结果只publication-055回执。
 

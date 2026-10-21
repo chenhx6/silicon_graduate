@@ -1,0 +1,180 @@
+{
+  "kind": "raw-anchored-mu08-table-ii-rotor-formula-audit",
+  "source": {
+    "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c"
+  },
+  "candidate_formula": {
+    "description": "B(E2; I -> I-2) = (5 / 16pi) * e^2 * Qt^2 * ((2I - 3) / (2I + 1))",
+    "algebraic_origin": "Equivalently CG(I, 2, I-2, I, -2, I-2)^2 = (2I - 3) / (2I + 1)",
+    "closed_form_Qt": "Qt = sqrt( (16pi / 5) * ((2I + 1)/(2I - 3)) * B(E2) )",
+    "max_absolute_discrepancy_eb": 0.0054
+  },
+  "states_audit": [
+    {
+      "band": 1,
+      "initial_spin": 16,
+      "BE2_reported": 0.26,
+      "Qt_reported": 1.73,
+      "Qt_reported_err": 0.1,
+      "G_candidate": 0.878788,
+      "Qt_calculated_candidate": 1.7246,
+      "diff_candidate": -0.0054,
+      "Qt_calculated_K0": 2.7254,
+      "ratio_K0_over_candidate": 1.58
+    },
+    {
+      "band": 1,
+      "initial_spin": 17,
+      "BE2_reported": 0.08,
+      "Qt_reported": 0.95,
+      "Qt_reported_err": 0.06,
+      "G_candidate": 0.885714,
+      "Qt_calculated_candidate": 0.9529,
+      "diff_candidate": 0.0029,
+      "Qt_calculated_K0": 1.5089,
+      "ratio_K0_over_candidate": 1.583
+    },
+    {
+      "band": 1,
+      "initial_spin": 18,
+      "BE2_reported": 0.14,
+      "Qt_reported": 1.26,
+      "Qt_reported_err": 0.09,
+      "G_candidate": 0.891892,
+      "Qt_calculated_candidate": 1.2562,
+      "diff_candidate": -0.0038,
+      "Qt_calculated_K0": 1.9927,
+      "ratio_K0_over_candidate": 1.586
+    },
+    {
+      "band": 1,
+      "initial_spin": 19,
+      "BE2_reported": 0.11,
+      "Qt_reported": 1.11,
+      "Qt_reported_err": 0.1,
+      "G_candidate": 0.897436,
+      "Qt_calculated_candidate": 1.1101,
+      "diff_candidate": 0.0001,
+      "Qt_calculated_K0": 1.7637,
+      "ratio_K0_over_candidate": 1.589
+    },
+    {
+      "band": 2,
+      "initial_spin": 15,
+      "BE2_reported": 0.54,
+      "Qt_reported": 2.5,
+      "Qt_reported_err": 0.19,
+      "G_candidate": 0.870968,
+      "Qt_calculated_candidate": 2.4966,
+      "diff_candidate": -0.0034,
+      "Qt_calculated_K0": 3.9361,
+      "ratio_K0_over_candidate": 1.577
+    },
+    {
+      "band": 2,
+      "initial_spin": 16,
+      "BE2_reported": 0.51,
+      "Qt_reported": 2.42,
+      "Qt_reported_err": 0.17,
+      "G_candidate": 0.878788,
+      "Qt_calculated_candidate": 2.4154,
+      "diff_candidate": -0.0046,
+      "Qt_calculated_K0": 3.817,
+      "ratio_K0_over_candidate": 1.58
+    },
+    {
+      "band": 2,
+      "initial_spin": 17,
+      "BE2_reported": 0.44,
+      "Qt_reported": 2.24,
+      "Qt_reported_err": 0.15,
+      "G_candidate": 0.885714,
+      "Qt_calculated_candidate": 2.2348,
+      "diff_candidate": -0.0052,
+      "Qt_calculated_K0": 3.5386,
+      "ratio_K0_over_candidate": 1.583
+    },
+    {
+      "band": 2,
+      "initial_spin": 18,
+      "BE2_reported": 0.04,
+      "Qt_reported": 0.67,
+      "Qt_reported_err": 0.08,
+      "G_candidate": 0.891892,
+      "Qt_calculated_candidate": 0.6715,
+      "diff_candidate": 0.0015,
+      "Qt_calculated_K0": 1.0651,
+      "ratio_K0_over_candidate": 1.586
+    },
+    {
+      "band": 2,
+      "initial_spin": 19,
+      "BE2_reported": 0.05,
+      "Qt_reported": 0.75,
+      "Qt_reported_err": 0.08,
+      "G_candidate": 0.897436,
+      "Qt_calculated_candidate": 0.7484,
+      "diff_candidate": -0.0016,
+      "Qt_calculated_K0": 1.1891,
+      "ratio_K0_over_candidate": 1.589
+    }
+  ],
+  "boundary_conclusion": "The candidate geometric factor G = (2I-3)/(2I+1) reproduces all 9 published Qt values in Mukhopadhyay 2008 Table II with maximum discrepancy < 0.0054 eb (pure rounding). Standard K=0 Clebsch-Gordan yields Qt ~ 1.58x larger (e.g. 2.73 vs 1.73 eb). Because Mukhopadhyay 2008 did not print the formula or define the quantization axis in the text, this algebraic match provides a diagnostic signature of the conversion code used by the authors, without establishing an experimentally certified unique formula or independent measurement.",
+  "checks": [
+    {
+      "name": "MU08 raw hash check",
+      "passed": true
+    },
+    {
+      "name": "MU08 Table II present",
+      "passed": true
+    },
+    {
+      "name": "Band 1 I=16 printed Qt=1.73",
+      "passed": true
+    },
+    {
+      "name": "Band 1 I=17 printed Qt=0.95",
+      "passed": true
+    },
+    {
+      "name": "Band 1 I=18 printed Qt=1.26",
+      "passed": true
+    },
+    {
+      "name": "Band 1 I=19 printed Qt=1.11",
+      "passed": true
+    },
+    {
+      "name": "Band 2 I=15 printed Qt=2.5",
+      "passed": true
+    },
+    {
+      "name": "Band 2 I=16 printed Qt=2.42",
+      "passed": true
+    },
+    {
+      "name": "Band 2 I=17 printed Qt=2.24",
+      "passed": true
+    },
+    {
+      "name": "Band 2 I=18 printed Qt=0.67",
+      "passed": true
+    },
+    {
+      "name": "Band 2 I=19 printed Qt=0.75",
+      "passed": true
+    },
+    {
+      "name": "All 9 candidate Qt match printed values within 0.0055 eb",
+      "passed": true
+    },
+    {
+      "name": "K=0 formula gives systematically ~1.58x larger Qt",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}

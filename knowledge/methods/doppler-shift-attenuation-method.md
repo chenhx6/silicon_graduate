@@ -451,3 +451,7 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 [[mukherjee-2023-transverse-wobbling-151eu]] MU23-D18-8/9 表明：151Eu Table III带间连接线报告大解（91.6%与97.5% E2），线偏振不对称度Delta = +0.038(35)（1.09sigma）与+0.024(15)（1.60sigma）具有正偏振倾向但统计显著性有限，小根（1.42%与0.16% E2）体现混合比敏感性。
 
 [[schonwasser-2003-wobbling-165lu]] SC03-D18-2/3、[[bringel-2005-wobbling-161lu]] BR05-D18-2/3 与 [[hartley-2009-wobbling-167ta]] HA09-D18-2/3 构成了A≈160区wobbling链的类比谱系：165Lu小根（33倍塌缩）由163Lu同位素类比排除；161Lu具备与163Lu相似的转动学特征但电磁观测量未测；167Ta明确假定90% E2（引自163Lu）以提取B(E2)比值并与推转模型对比。新 [eu151-a160-wobbling-boundary-result-054](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/eu151-a160-wobbling-boundary-result-054.json) 包含21项检验，不制造实验置信区间。
+
+## 136Nd Table II转动四极矩闭式几何因子复算与轴向边界（checkpoint056）
+
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-8 表明：Table II中从B(E2)换算Qt采用的几何因子并非标准对称转子K=0 Clebsch-Gordan系数（后者给出系统高出约1.58倍的Qt值），而是闭式因子 $G(I) = \frac{2I-3}{2I+1} = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$。代入 $Q_t = \sqrt{ \frac{16\pi}{5} \frac{2I+1}{2I-3} B(E2) }$ 后，全部9个印刷态（Band 1 $I=16-19$，Band 2 $I=15-19$）的重算值与原文印刷Qt偏差均在 $0.0054\text{ eb}$ 以内（完全落入最后一位四舍五入误差域）。因原文未印出转换公式或定义量子化轴，该代数吻合用于诊断作者所采用的数据转换程序原型，不代表排他性物理几何认证或新增实验证据。新 [mu08-table-ii-rotor-formula-result-056](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-table-ii-rotor-formula-result-056.json) 包含13项检验，不制造实验置信区间。
