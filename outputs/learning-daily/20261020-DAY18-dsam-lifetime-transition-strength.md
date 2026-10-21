@@ -57,6 +57,10 @@ updated: 2026-10-20
 3. 薄降能层替代厚阻挡层免除了复杂慢化有效线形修正，将 RDDS 测量下限成功推低至 ~0.5 ps，与 DSAM 上限窗口形成关键无模型重叠。
 新11项原件哈希与运动学断言检验通过。本项仍属Day 19预习（formal_credit: false），不提前计分。
 
+### checkpoint072：全71检查点收束就绪度全面闭环与审计升级
+
+将 day18_closeout_readiness_audit.py 扩展至覆盖全 71 个检查点（涵盖回忆冻结、Jensen K=1/2 转子复算、MU08 闭式几何因子、全自旋阻停标度不变性消去证明、Day 19 四类方法矩阵、131Ce K 投影代数对账、逆运动学 Degrader-RDDS 3.19倍空间拉伸、Day 19 课程提示词同步、verification-071 校验及 176 项 writeback/lint0 门禁）。22 项断言全过，产出 closeout-readiness-result-072.json 确认 ready_for_1500_closeout: true。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+
 ### checkpoint070：全69检查点收束就绪度全面闭环与前置核查
 
 将 day18_closeout_readiness_audit.py 全面扩展至 22 项严密断言，完整覆盖全部 69 个检查点（涵盖回忆冻结、Jensen K=1/2 转子复算、MU08 闭式几何因子、全自旋阻停标度不变性消去证明、Day 19 四类方法矩阵、131Ce K 投影代数对账、逆运动学 Degrader-RDDS 3.19倍空间拉伸、Day 19 课程提示词同步及 176 项 writeback/lint0 门禁），产出 closeout-readiness-result-070.json 确认 ready_for_1500_closeout: true。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
