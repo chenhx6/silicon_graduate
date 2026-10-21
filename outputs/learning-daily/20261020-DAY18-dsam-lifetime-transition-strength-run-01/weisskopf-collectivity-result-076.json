@@ -1,0 +1,179 @@
+{
+  "kind": "weisskopf-collectivity-systematics-audit",
+  "valid": true,
+  "checks": [
+    {
+      "name": "136Nd B(E2)_sp in range [0.0041, 0.0042] e^2 b^2",
+      "passed": true,
+      "value": 0.004154666473619891
+    },
+    {
+      "name": "165Tm B(E2)_sp in range [0.0053, 0.0054] e^2 b^2",
+      "passed": true,
+      "value": 0.0053760448091131905
+    },
+    {
+      "name": "B(M1)_sp equals 1.7905 mu_N^2",
+      "passed": true
+    },
+    {
+      "name": "Band 2 17- collectivity > 100 W.u.",
+      "passed": true,
+      "be2_wu": 105.91
+    },
+    {
+      "name": "Band 2 18- collectivity < 15 W.u.",
+      "passed": true,
+      "be2_wu": 9.63
+    },
+    {
+      "name": "Band 2 collectivity drops by factor > 10",
+      "passed": true,
+      "ratio": 11.0
+    },
+    {
+      "name": "Double ratio in W.u. equals 77/4 (19.25) within rounding",
+      "passed": true,
+      "double_ratio": 19.2435
+    },
+    {
+      "name": "165Tm [541]1/2- collectivity in range [450, 500] W.u.",
+      "passed": true,
+      "wu": 478.0
+    },
+    {
+      "name": "165Tm [411]1/2+ collectivity in range [350, 400] W.u.",
+      "passed": true,
+      "wu": 380.0
+    },
+    {
+      "name": "165Tm prolate collectivity is ~4x larger than 136Nd triaxial collectivity",
+      "passed": true,
+      "ratio": 4.51
+    }
+  ],
+  "single_particle_units": {
+    "136Nd": {
+      "A": 136,
+      "BE2_sp_e2b2": 0.004154666473619891,
+      "BE2_sp_e2fm4": 41.54666473619891
+    },
+    "165Tm": {
+      "A": 165,
+      "BE2_sp_e2b2": 0.0053760448091131905,
+      "BE2_sp_e2fm4": 53.760448091131906
+    },
+    "BM1_sp_muN2": 1.7905
+  },
+  "nd136_table_ii_wu": [
+    {
+      "band": "Band 1",
+      "spin": 15,
+      "bm1_muN2": 2.7,
+      "bm1_wu": 1.508,
+      "be2_e2b2": null,
+      "be2_wu": null,
+      "qt_eb": null
+    },
+    {
+      "band": "Band 1",
+      "spin": 16,
+      "bm1_muN2": 1.7,
+      "bm1_wu": 0.949,
+      "be2_e2b2": 0.26,
+      "be2_wu": 62.58,
+      "qt_eb": 1.73
+    },
+    {
+      "band": "Band 1",
+      "spin": 17,
+      "bm1_muN2": 1.1,
+      "bm1_wu": 0.614,
+      "be2_e2b2": 0.08,
+      "be2_wu": 19.26,
+      "qt_eb": 0.95
+    },
+    {
+      "band": "Band 1",
+      "spin": 18,
+      "bm1_muN2": 0.9,
+      "bm1_wu": 0.503,
+      "be2_e2b2": 0.14,
+      "be2_wu": 33.7,
+      "qt_eb": 1.26
+    },
+    {
+      "band": "Band 1",
+      "spin": 19,
+      "bm1_muN2": 1.7,
+      "bm1_wu": 0.949,
+      "be2_e2b2": 0.11,
+      "be2_wu": 26.48,
+      "qt_eb": 1.11
+    },
+    {
+      "band": "Band 2",
+      "spin": 15,
+      "bm1_muN2": 4.4,
+      "bm1_wu": 2.457,
+      "be2_e2b2": 0.54,
+      "be2_wu": 129.97,
+      "qt_eb": 2.5
+    },
+    {
+      "band": "Band 2",
+      "spin": 16,
+      "bm1_muN2": 3.5,
+      "bm1_wu": 1.955,
+      "be2_e2b2": 0.51,
+      "be2_wu": 122.75,
+      "qt_eb": 2.42
+    },
+    {
+      "band": "Band 2",
+      "spin": 17,
+      "bm1_muN2": 1.4,
+      "bm1_wu": 0.782,
+      "be2_e2b2": 0.44,
+      "be2_wu": 105.91,
+      "qt_eb": 2.24
+    },
+    {
+      "band": "Band 2",
+      "spin": 18,
+      "bm1_muN2": 1.0,
+      "bm1_wu": 0.559,
+      "be2_e2b2": 0.04,
+      "be2_wu": 9.63,
+      "qt_eb": 0.67
+    },
+    {
+      "band": "Band 2",
+      "spin": 19,
+      "bm1_muN2": 1.6,
+      "bm1_wu": 0.894,
+      "be2_e2b2": 0.05,
+      "be2_wu": 12.03,
+      "qt_eb": 0.75
+    }
+  ],
+  "tm165_super_collectivity": {
+    "band_541": {
+      "Qt_eb": 8.3,
+      "BE2_e2b2": 2.5697,
+      "BE2_wu": 478.0
+    },
+    "band_411": {
+      "Qt_eb": 7.4,
+      "BE2_e2b2": 2.0427,
+      "BE2_wu": 380.0
+    },
+    "collectivity_ratio": 1.258,
+    "Qt_squared_ratio": 1.258
+  },
+  "time_invariants_respected": {
+    "formal_credit_not_yet_awarded": true,
+    "window_ends_at": "15:00 CST",
+    "closeout_hour": "15:00 - 16:00 CST"
+  }
+}

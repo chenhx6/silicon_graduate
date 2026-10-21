@@ -82,7 +82,13 @@ def main():
     icc_data = json.loads(icc_res.read_text(encoding="utf-8"))
     check("MU08 B(M1) ICC audit passed", icc_data.get("valid") is True and len(icc_data.get("records", [])) == 10)
 
-    # 10. Daily report and writeback block
+    # 10. Weisskopf collectivity audit (Checkpoint 076)
+    wk_res = RUN / "weisskopf-collectivity-result-076.json"
+    check("Weisskopf collectivity result exists", wk_res.is_file())
+    wk_data = json.loads(wk_res.read_text(encoding="utf-8"))
+    check("Weisskopf collectivity audit passed", wk_data.get("valid") is True and len(wk_data.get("checks", [])) == 10)
+
+    # 11. Daily report and writeback block
     report_path = ROOT / "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md"
     check("Daily report exists", report_path.is_file())
     from wiki_knowledge_writeback import validate_writeback
@@ -101,14 +107,14 @@ def main():
         "checks": checks,
         "valid": all(c["passed"] for c in checks),
         "status": "ready_for_1500_closeout",
-        "audit_scope": "all_75_checkpoints_covered",
+        "audit_scope": "all_76_checkpoints_covered",
         "time_invariants_respected": {
             "formal_credit_not_yet_awarded": True,
             "window_ends_at": "15:00 CST",
             "closeout_hour": "15:00 - 16:00 CST",
         }
     }
-    out_path = RUN / "closeout-readiness-result-075.json"
+    out_path = RUN / "closeout-readiness-result-076.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"valid": out["valid"], "checks": len(checks), "output": str(out_path)}))
 

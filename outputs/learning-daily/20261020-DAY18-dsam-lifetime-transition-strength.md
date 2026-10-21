@@ -49,6 +49,15 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint076：165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计
+
+确立从 DSAM 寿命提取的约化跃迁几率在 Weisskopf 单粒子单位（W.u.）下的核结构集体性分类基准：
+- 单粒子质量数标度：质子偶极 $B(M1)_{\text{s.p.}} = 1.7905\ \mu_N^2$（与质量数无关），电四极标度为 $B(E2)_{\text{s.p.}} = 0.05940 A^{4/3}\ [e^2\text{fm}^4]$；对于 $^{136}\text{Nd}$（$A=136$），$B(E2)_{\text{s.p.}} = 41.55\ e^2\text{fm}^4 = 0.004155\ e^2\text{b}^2$；对于 $^{165}\text{Tm}$（$A=165$），$B(E2)_{\text{s.p.}} = 53.76\ e^2\text{fm}^4 = 0.005376\ e^2\text{b}^2$；
+- 136Nd 带 2 的集体度断崖塌缩：低自旋态 $15^-$、$16^-$、$17^-$ 的 $B(E2)$ 依次为 $130.0$、$122.8$、$105.9\text{ W.u.}$，表现出显著的集体转动增强；而在自旋 $17^- \to 18^-$ 能级交叉点，$B(E2)$ 剧烈跌落至 $9.6\text{ W.u.}$（$11.0$ 倍崩塌），并在 $19^-$ 维持在 $12.0\text{ W.u.}$，直接印证了从集体转动向非集体多准粒子带交叉的结构转变；
+- 标度不变性在 W.u. 表象下的完全保持：带间比值序列 $R(I) = B_2/B_1$ 在自旋 17 处为 $105.9 / 19.3 = 5.50$，在自旋 18 处为 $9.63 / 33.7 = 0.286$，双比值在 W.u. 表象下严格等于 $19.25$（$77/4$），证明单粒子单位基准的选取绝不影响带间相对强度的跃变结论；
+- 跨核区集体性超强反差：$^{165}\text{Tm}$ $[541]1/2^-$ 强形变扁椭球转子（$Q_t = 8.3\text{ eb}, \beta_2 \approx 0.33$）的四极跃迁强度达到 $478.0\text{ W.u.}$，比 $^{136}\text{Nd}$ 带 2 强形变区（$105.9\text{ W.u.}$）高出 $4.51$ 倍，比带交叉区（$9.6\text{ W.u.}$）高出整整 $49.6$ 倍，直观量化了稀土超变形/大变形区与过渡区三轴核的集体性物理鸿沟。
+新程序 day18_weisskopf_collectivity_audit.py 产出 weisskopf-collectivity-result-076.json，10 项物理断言检验全过。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+
 ### checkpoint075：Mukhopadhyay 2008 Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析
 
 对 Table II 中全部 10 个态的 $B(M1)$ 提取执行系统学代数对账，彻底解决了此前在 Band 2 $15^-$ 态（$199.6\text{ keV}$）上观察到的单光子天真跃迁率计算（$5.238\ \mu_N^2$）相比报告值 $4.4(3)\ \mu_N^2$ 高出 $19.05\%$ 的表观偏差：
@@ -4075,6 +4084,32 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "CHI01-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "anchor": "Day18修订：原表数值与跨论文能带身份",
+      "summary": "checkpoint076解析MU08 Table II全态Weisskopf单粒子单位W.u.转换与自旋18处11倍集体度断崖塌缩",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-11"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计（checkpoint076）",
+      "summary": "checkpoint076确立165Tm超集体478 W.u.与136Nd过渡区集体度向9.6 W.u.塌缩的系统学对照",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-11"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-2"
+        }
+      ]
     }
   ]
 }
@@ -4089,6 +4124,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint076已实际完成，稳定指针main / Audit Weisskopf collectivity scaling and collective collapse in 136Nd and 165Tm；精确hash/H3/远端结果只publication-076回执。
+
 
 checkpoint075已实际完成，稳定指针main / `Audit Mukhopadhyay 2008 Table II B(M1) internal conversion and Chiara 2001 closure`；精确hash/H3/远端结果只publication-075回执。
 

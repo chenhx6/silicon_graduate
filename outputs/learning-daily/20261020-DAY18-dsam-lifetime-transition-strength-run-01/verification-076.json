@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      18
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 18,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "items_count": 180,
+    "knowledge_paths_count": 57,
+    "error": null
+  },
+  "lint_exit": 0,
+  "boundary_exit": 0,
+  "diff_check": 0,
+  "at": "2026-10-21T05:10:00.000000+00:00"
+}

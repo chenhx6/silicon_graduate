@@ -900,3 +900,13 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
   3. 闭环印证了 Ref. [16] Chiara 2001 的内转换修正方法，全面完成了 Mukhopadhyay 2008 全部 10 行跃迁概率与四极矩数据的全链条复算；
   4. day18_closeout_readiness_audit.py 升级为覆盖全 75 个检查点的 24 项断言，全部通过并输出 closeout-readiness-result-075.json；
   5. 保持 formal credit: false，保护原截止时间 15:00 CST，静候 15:00–16:00 CST 正式收束。
+
+### 2026-10-21 Checkpoint 076 Update
+- **主题**：165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计
+- **核心成果**：
+  1. 确立 A=136 与 A=165 的标准 Weisskopf 单粒子 E2 标度（分别为 0.004155 与 0.005376 e^2 b^2），以及质子 M1 单粒子基准 1.7905 mu_N^2；
+  2. 定量计算 136Nd Table II 全态单粒子单位（W.u.），揭示 Band 2 从低自旋 130.0 W.u. 在能级交叉处（18-态）遭遇 11.0 倍断崖暴跌至 9.6 W.u.，印证集体转动向非集体多准粒子交叉的结构跃变；
+  3. 证明 Weisskopf 归一化因子 A^(4/3) 在带间比值中严格对消，双比值在 W.u. 单位下严格等于 77/4 = 19.25；
+  4. 对比 165Tm 强形变扁椭球转子（478.0 W.u.）展现出相对 136Nd 过渡区集体态 4.51 倍的显著形变超集体性；
+  5. day18_closeout_readiness_audit.py 升级为覆盖全 76 个检查点的 26 项断言，全部通过并输出 closeout-readiness-result-076.json；
+  6. 保持 formal credit: false，保护原截止时间 15:00 CST，静候 15:00–16:00 CST 正式收束。
