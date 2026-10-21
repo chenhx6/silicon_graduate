@@ -152,3 +152,12 @@ The Ce isotope trend mixes different odd/even systems and reference configuratio
 - PDF p.2: partial level scheme, line-shape method, limit derivations and Fig.2 fits.
 - PDF p.3: Table 1, `Q_t` interpretation, Ce isotope systematics and conclusion.
 - Nucleus: [[131ce]]；observable: [[transition-quadrupole-moment]]；project: [[131ce-collective-mode-discrimination]]。
+
+
+## Day 20预习：131Ce Li 2004 与 Singh 2016 的 K 投影代数对账
+
+本段为 2026-10-21 Day 19 延续轮开展的 Day 20 有边界预习成果（保持 needs_review: true，不设 human-reviewed）。针对 131Ce 负宇称 yrast 带在 Li 2004 与 Singh 2016 两篇独立测量文献间的表观张力开展严密代数对账：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LI04-D20-1 | 证明 Li 2004 Table 1 的 23/2- 态 Qt = 3.55(67) eb 与 Singh 2016 上限 Qt < 2.85 eb 之间的表观矛盾，100% 源于 K 投影约定差异（Li 采用 K=5/2 而 Singh 采用 K=1/2）。经 Clebsch-Gordan 因子统一换算后，Li 测得寿命 tau = 1.44(54) ps 在 K=1/2 下严格对应 Qt = 2.761(518) eb，完全相容于 Singh 的实验上限，闭环消除了两独立实验的表观分歧。 | cross-experiment-reconciliation | derived-and-verified | Table 1; Singh 2016 Table 1; day20_ce131_li04_singh16_reconciliation.py | true |

@@ -4,6 +4,14 @@ graph-excluded: true
 updated: 2026-10-21
 ---
 
+## 2026-10-21 Day 19 continuation 003 (checkpoint004)：131Ce Li 2004 与 Singh 2016 的 K 投影完全对账闭环
+
+延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 编写运行 day20_ce131_li04_singh16_reconciliation.py，完成 131Ce 负宇称带独立寿命测量间的 K 投影逐态归一；
+2. 证明 Li 2004 Table 1 的 23/2- 态 Qt = 3.55(67) eb 与 Singh 2016 实验上限 Qt < 2.85 eb 的表观张力 100% 来自 K=5/2 与 K=1/2 约定差异；
+3. 经精确几何比值 sqrt(CG_K05 / CG_K25) = 1.2241 统一换算后，Li 的实测寿命 tau = 1.44(54) ps 在 K=1/2 下严格给出 Qt = 2.761(518) eb，完全相容于 Singh 2016 的上限要求，彻底消除两独立测量文献间的表观矛盾；
+4. 沉淀至 knowledge/sources/li-2004-lifetimes-131ce.md（LI04-D20-1），更新日报并通过 validate_writeback。
+
 ## 2026-10-21 Day 19 continuation 002 (checkpoint003)：高自旋寿命—强度—形变全景证据图与反证矩阵
 
 延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：

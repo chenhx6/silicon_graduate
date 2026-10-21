@@ -12,8 +12,8 @@
   "acceptance_only": false,
   "overnight_until": "2026-10-22T15:00:00+08:00",
   "max_continuations": 96,
-  "continuation_count": 1,
-  "continuation_batch_count": 1,
+  "continuation_count": 2,
+  "continuation_batch_count": 2,
   "continuation_batches": 1,
   "counted_in_substantive_test": false,
   "session_mode": "new-session-per-run",
@@ -28,11 +28,11 @@
   "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-22T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-21T18:05:51.465595+08:00",
+    "now_local": "2026-10-21T18:17:32.896156+08:00",
     "hard_deadline": "2026-10-22T15:00:00+08:00",
     "next_scheduled_start": "2026-10-22T16:00:00+08:00",
-    "minutes_to_deadline": 1254,
-    "minutes_to_next_start": 1314,
+    "minutes_to_deadline": 1242,
+    "minutes_to_next_start": 1302,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -61,25 +61,31 @@
         "can_complete_forward_card": true,
         "decision": "continue-or-advance"
       }
+    },
+    {
+      "number": 2,
+      "study_continuation_number": 2,
+      "kind": "study",
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-002-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-002-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-002-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-21T18:17:32.896156+08:00",
+        "hard_deadline": "2026-10-22T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-22T16:00:00+08:00",
+        "minutes_to_deadline": 1242,
+        "minutes_to_next_start": 1302,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      }
     }
   ],
   "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
-  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-001-prompt.md",
+  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-002-prompt.md",
   "closeout_turn": null,
-  "closeout_window_missed": false,
-  "latest_publication": {
-    "branch": "main",
-    "subject": "Build lifetime-strength-deformation evidence map for Day 20 pre-study",
-    "commit": "3e73cf65dc6bf21e3025ea312b8ea0c566a9fabd",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-003.json",
-    "status": "pushed"
-  },
-  "final_release": {
-    "branch": "main",
-    "subject": "Build lifetime-strength-deformation evidence map for Day 20 pre-study",
-    "commit": "3e73cf65dc6bf21e3025ea312b8ea0c566a9fabd",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-003.json",
-    "status": "pushed"
-  },
-  "last_checkpoint": "003 Day 20 pre-study on lifetime-strength-deformation evidence map"
+  "closeout_window_missed": false
 }

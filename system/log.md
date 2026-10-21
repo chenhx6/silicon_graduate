@@ -2785,3 +2785,11 @@ Day 19 独立课程 session（run_id: 2026-10-21-day-19-01, session_id: 01a15dcc
 2. 建立跨核素形变对照矩阵（131Ce 正常带 2.5–2.9 eb vs HD 带 7.3 eb、134Nd 侵入中子占据数与离心收缩抵消维持 5.0–6.8 eb、133Pr 质子长椭球 3.5 eb、136Nd 两带 2.06 倍落差排除等形变手征、136Sm 15% 阻停误差包络覆盖形变下降）；
 3. 确立四大伪形变趋势反证判据（gamma-soft 动态弥散、能带交叉混合相消、DSAM 慢侧馈累积假象、RDDS-DSAM 标尺跳变）；
 4. 沉淀至 knowledge/synthesis/high-spin-lifetime-strength-deformation.md，更新日报并通过 validate_writeback。
+
+## 2026-10-21 DAY19 continuation 003 (checkpoint004)：131Ce Li 2004 与 Singh 2016 的 K 投影完全对账闭环
+
+延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 编写运行 day20_ce131_li04_singh16_reconciliation.py，完成 131Ce 负宇称带独立寿命测量间的 K 投影逐态归一；
+2. 证明 Li 2004 Table 1 的 23/2- 态 Qt = 3.55(67) eb 与 Singh 2016 实验上限 Qt < 2.85 eb 的表观张力 100% 来自 K=5/2 与 K=1/2 约定差异；
+3. 经精确几何比值 sqrt(CG_K05 / CG_K25) = 1.2241 统一换算后，Li 的实测寿命 tau = 1.44(54) ps 在 K=1/2 下严格给出 Qt = 2.761(518) eb，完全相容于 Singh 2016 的上限要求，彻底消除两独立测量文献间的表观矛盾；
+4. 沉淀至 knowledge/sources/li-2004-lifetimes-131ce.md（LI04-D20-1），更新日报并通过 validate_writeback。

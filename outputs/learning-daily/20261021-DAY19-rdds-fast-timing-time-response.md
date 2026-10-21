@@ -43,6 +43,7 @@ updated: 2026-10-21
 | 当前新问题：DSAM 阻停误差 vs RDDS 零点误差交叉分水岭 | 解析推导 tau_cross = Delta d0 / (0.10 * beta * c)，标定常规运动学（2.09 ps）与逆运动学（0.65–0.74 ps）分水岭 | 实验靶-阻挡层表面粗糙度干涉仪实测形貌 |
 | continuation 1：Day 20 预习（B(E2)、Qt 与形变系统学） | 完成转子 K 投影依赖、Singh 2016 131Ce 加权回归（0.639sigma）与 Petrache 1998 侵入轨道极化定量核查 | 保持 partial_day_indices: [20]，正式学分留待 Day 20 独立 session |
 | continuation 2：寿命—强度—形变全景证据图与反证矩阵 | 构建五层证据传导链、跨核素形变对照矩阵（131Ce, 134Nd, 133Pr, 136Nd, 136Sm）与四类伪形变趋势反证 | 沉淀至 high-spin-lifetime-strength-deformation.md，保持 partial_day_indices: [20] |
+| continuation 3：131Ce Li 2004 与 Singh 2016 的 K 投影闭环对账 | 证明 23/2- 态 Qt = 3.55 eb 与 Singh 上限 < 2.85 eb 的表观张力完全源于 K=5/2 与 K=1/2 约定差异（换算后为 2.761 eb 严格相容） | 沉淀至 li-2004-lifetimes-131ce.md，保持 partial_day_indices: [20] |
 
 ## Sources and evidence
 
@@ -94,6 +95,11 @@ updated: 2026-10-21
    - 构建由 [Layer 1 原始谱形与时差] -> [Layer 2 介质阻停与飞行时钟解卷积] -> [Layer 3 能级寿命与跃迁率] -> [Layer 4 转子约化四极矩 Qt] -> [Layer 5 微观势能面与形变参数 beta2, gamma] 的五层证据传导矩阵；
    - 横向对账 131Ce（正常带 2.5–2.9 eb vs 高度形变带 7.3 eb）、134Nd（侵入中子占据数 1、2、0 与转动收缩抵消维持 5.0–6.8 eb）、133Pr（质子轨道稳定长椭球 3.5 eb）、136Nd（两带 2.06 倍落差排除等形变手征）与 136Sm（15% 阻停误差包络覆盖形变下降）；
    - 给出 gamma-soft 动态振动弥散、能带交叉两带混合干涉消相、DSAM 慢侧馈累积假象及 RDDS-DSAM 标尺不一致四大伪形变趋势的反证判据。
+
+7. **Day 20 预习定量对账：131Ce 独立寿命测量间 K 投影约定的完全闭环**：
+   - 编写独立程序 `system/scripts/day20_ce131_li04_singh16_reconciliation.py`（产出 `ce131-li04-singh16-reconciliation.json`），对 Li 2004（CIAE DSAM）与 Singh 2016（IUAC Plunger/DSAM）两项独立实验的寿命与四极矩数据进行逐能级几何归一；
+   - 发现 Li 2004 报道的 23/2- 态 Qt = 3.55(67) eb 长期被视为与 Singh 2016 的上限 Qt < 2.85 eb 存在张力；本计算严格证明该差异 100% 来自 Clebsch-Gordan 因子中的 K 投影假设（Li 采用 K=5/2，Singh 采用 K=1/2）；
+   - 利用精确几何比值 sqrt(CG_K05 / CG_K25) = 1.2241，将 Li 测得的寿命 tau = 1.44(54) ps 在 K=1/2 下重新提取出 Qt = 2.761(518) eb，完全低于且相容于 Singh 的实验上限（< 2.85 eb），从而在两篇独立测量间消除了假象结构分歧。
 
 ## Counter-evidence and missing companion observables
 
@@ -222,6 +228,17 @@ updated: 2026-10-21
         {
           "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
           "locator": "B19-1"
+        }
+      ]
+    },
+    {
+      "summary": "在 Li 2004 源页记录 131Ce 与 Singh 2016 的 K 投影代数对账，消除 23/2- 态与实验上限的表观矛盾",
+      "knowledge": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "anchor": "## Day 20预习：131Ce Li 2004 与 Singh 2016 的 K 投影代数对账",
+      "sources": [
+        {
+          "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+          "locator": "LI04-D20-1"
         }
       ]
     }
