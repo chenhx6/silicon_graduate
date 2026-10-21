@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-21T03:03:08.000000+00:00",
+  "now_local": "2026-10-21T11:03:08.000000+08:00",
+  "hard_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 236.8666667,
+  "decision": "continue-current-timing-method-selection-preview",
+  "formal_credit": false,
+  "is_runner_execution_metadata": false
+}

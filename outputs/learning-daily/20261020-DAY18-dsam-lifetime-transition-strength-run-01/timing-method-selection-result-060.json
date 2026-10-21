@@ -1,0 +1,127 @@
+{
+  "kind": "raw-anchored-timing-method-selection-matrix-audit",
+  "sources": {
+    "nolan_1979": {
+      "path": "raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
+      "sha256": "5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f"
+    },
+    "radeck_2012": {
+      "path": "raw/papers/2012_Radeck et al_Simultaneous deorientation and lifetime measurement in 98 Ru using the recoil distance Doppler shift.pdf",
+      "sha256": "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642"
+    },
+    "regis_2011": {
+      "path": "raw/papers/degree dissertation/LaBr3时间.pdf",
+      "sha256": "54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52"
+    },
+    "grodner_2018": {
+      "path": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+      "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2"
+    },
+    "ionescu_bujor_1998": {
+      "path": "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+      "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b"
+    }
+  },
+  "timing_method_selection_matrix": [
+    {
+      "method": "DSAM (Doppler Shift Attenuation Method)",
+      "time_window_nominal": "10 fs - 2 ps",
+      "physical_clock": "Recoil stopping power dE/dx (electronic + nuclear slowing in solid material)",
+      "primary_observable": "Doppler-broadened line shape or angle-dependent centroid shift F(tau)",
+      "primary_nuisance_response": "Stopping power model miscalibration (5-15%), side-feeding cascades, contaminant lines",
+      "counter_evidence_or_diagnostic": "Scale Invariance Theorem: global stopping scale cancels identically in intra-band and inter-band B(E2) ratios",
+      "primary_source_in_repo": "Jensen 2001 (165Tm), Mukhopadhyay 2008 (136Nd), Singh 2016 (131Ce, 133Pr)"
+    },
+    {
+      "method": "RDDS (Recoil Distance Doppler Shift / Plunger)",
+      "time_window_nominal": "1 ps - 1 ns (down to ~0.5 ps with DDCM)",
+      "physical_clock": "Recoil flight velocity in vacuum v0 and micrometer flight distance d = v0 * t",
+      "primary_observable": "Shifted (flight) and unshifted (stopped) gamma-ray peak intensities I_s(d), I_u(d)",
+      "primary_nuisance_response": "Distance zero-point calibration, target-stopper foil parallelism, vacuum deorientation G_k(t)",
+      "counter_evidence_or_diagnostic": "Component-conditioned deorientation: G_SH(t) != G_US(t); DDCM eliminates absolute distance zero dependency",
+      "primary_source_in_repo": "Radeck 2012 (98Ru), Nolan & Sharpey-Schafer 1979, Klemme 1999 (134Nd)"
+    },
+    {
+      "method": "Fast Timing (Electronic Delayed Coincidence / MSCD / LaBr3)",
+      "time_window_nominal": "5 ps - 50 ns",
+      "physical_clock": "High-speed electronic TAC / digital CFD timestamping",
+      "primary_observable": "Time distribution between cascade feeding gamma1 and decay gamma2 in fast scintillators",
+      "primary_nuisance_response": "Detector prompt response function (PRF) shape, energy-dependent time walk, PMT drift",
+      "counter_evidence_or_diagnostic": "Mirror Symmetric Centroid Difference (MSCD): Delta C = 2*tau + PRD(E1,E2), cancels detector walk with zero crossing at Delta E = 0",
+      "primary_source_in_repo": "Regis 2011 dissertation, Nolan 1979 Sec. 3.4"
+    },
+    {
+      "method": "TDPAD (Time-Differential Perturbed Angular Distribution)",
+      "time_window_nominal": "5 ns - 10 us (isomers)",
+      "physical_clock": "Larmor precession frequency omega_L = g*mu_N*B/hbar or quadrupole frequency omega_0 = 3*e*Q*Vzz/[2I(2I-1)hbar]",
+      "primary_observable": "Time-differential perturbation ratio R(t) = (N(+theta,t) - N(-theta,t))/(N(+theta,t) + N(-theta,t)) modulating decay",
+      "primary_nuisance_response": "Paramagnetic relaxation / spin deorientation lambda_k, incomplete alignment, host lattice defects",
+      "counter_evidence_or_diagnostic": "Precession measurement across multiple angles/fields; simultaneous g and Q extraction in non-cubic hosts",
+      "primary_source_in_repo": "Grodner 2018 (128Cs), Ionescu-Bujor 1998 (129,131Ce)"
+    }
+  ],
+  "boundary_conclusion": [
+    "The four nuclear lifetime and moment measurement methods (DSAM, RDDS, Fast Timing MSCD, TDPAD) ",
+    "span twelve orders of magnitude in time (from ~10 fs to ~10 us). ",
+    "Each method relies on a distinct physical clock (matter stopping, vacuum flight, electronics, or Larmor precession) ",
+    "and possesses specific dominant nuisance responses that must be diagnosed with tailored counter-evidence. ",
+    "This matrix provides a source-grounded decision tree for experimental method selection ",
+    "without awarding Day 19 curriculum credit prematurely."
+  ],
+  "checks": [
+    {
+      "name": "Nolan 1979 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Radeck 2012 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Regis 2011 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Grodner 2018 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Ionescu-Bujor 1998 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Nolan 1979 title and review scope",
+      "passed": true
+    },
+    {
+      "name": "Radeck 2012 RDDS and deorientation scope",
+      "passed": true
+    },
+    {
+      "name": "Regis 2011 MSCD section heading",
+      "passed": true
+    },
+    {
+      "name": "Regis 2011 PRD and 2*tau relation",
+      "passed": true
+    },
+    {
+      "name": "Grodner 2018 128Cs isomer g factor",
+      "passed": true
+    },
+    {
+      "name": "Grodner 2018 Larmor frequency and precession",
+      "passed": true
+    },
+    {
+      "name": "Ionescu-Bujor 1998 static moments title",
+      "passed": true
+    },
+    {
+      "name": "Ionescu-Bujor 1998 Table 1 moments",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "is_uncredited_preview": true
+}

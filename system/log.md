@@ -2649,3 +2649,7 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
 ## 2026-10-21 DAY18 checkpoint059：DSAM阻停模型、蒙特卡罗步长与侧馈级联参数空间系统学对比
 
 原件原读对比审计（Jensen 2001 165Tm、Mukhopadhyay 2008 136Nd 与 Singh 2016 131Ce/133Pr）完成反冲模拟步长（5 fs对2 fs对1 fs）、电子/核阻停模型、侧馈级联参数策略及系统误差报告口径（Jensen内嵌+5%对MU08表外排除15%）的严格分层；标度不变性定理严格证明全局阻停标度因子在带间B(E2)比值中完全对消，136Nd两带2.06倍B(E2)落差无法由全局阻停误差解释。新18项检验通过。原Day 18 session持续至15:00，formal 18未授。
+
+## 2026-10-21 DAY18 checkpoint060：四类时间测量方法选择矩阵与物理时钟基准审计（Day 19无学分预习）
+
+结合 Nolan 1979、Radeck 2012、Régis 2011、Grodner 2018 以及 Ionescu-Bujor 1998 原件，构建覆盖12个时间量级（约 10 fs 至 10 µs）的四类方法（DSAM、RDDS、Fast Timing MSCD、TDPAD）全景选择矩阵与物理时钟基准（介质阻停、真空飞行、电子学、外加场进动），完成直接观测、主导误差响应与判决性反证的系统化分层。新13项检验通过。原Day 18 session持续至15:00，保持formal credit: false，不提前计分。

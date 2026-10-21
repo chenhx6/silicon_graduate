@@ -49,6 +49,15 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint060：四类时间测量方法选择矩阵与物理时钟基准审计（Day 19无学分预习）
+
+结合 Nolan 1979（方法框架与窗口）、Radeck 2012（RDDS真空飞行与退取向）、Régis 2011（现代LaBr3快速定时与MSCD）、Grodner 2018（128Cs手征异构态g因子与TDPAD磁相互作用）以及 Ionescu-Bujor 1998（129,131Ce静态四极矩/磁矩TDPAD与形变演化），构建覆盖12个时间量级（约 10 fs 至 10 µs）的四类方法全景选择矩阵：
+1. DSAM（10 fs–2 ps）：介质阻停时钟，多角谱形/质心位移，阻停模型与侧馈级联响应，标度不变性消去全局误差；
+2. RDDS（1 ps–1 ns）：真空飞行时钟，位移峰/阻停峰演化，距离零点与飞行退取向响应，DDCM微分法免绝对零点；
+3. Fast Timing MSCD（5 ps–50 ns）：电子学TAC/CFD时钟，符合时间分布，PRF展宽与time walk响应，MSCD零交叉对消走动；
+4. TDPAD（5 ns–10 µs）：外加场进动时钟，符合调制振荡R(t)，弛豫与取向响应，多角/多场解耦。
+新13项检验通过；本项仍属Day 19无学分预习（formal_credit: false），不提前计分。
+
 ### checkpoint059：DSAM阻停模型、蒙特卡罗步长与侧馈级联参数空间系统学对比
 
 原件原读对比审计（Jensen 2001 165Tm、Mukhopadhyay 2008 136Nd 与 Singh 2016 131Ce/133Pr）表明：
@@ -3890,6 +3899,40 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
           "locator": "MU08-D18-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "四类时间方法选择矩阵与物理时钟基准（checkpoint060）",
+      "summary": "checkpoint060构建DSAM、RDDS、Fast Timing MSCD与TDPAD四类方法全景矩阵及物理时钟基准",
+      "sources": [
+        {
+          "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "locator": "RG11-3"
+        },
+        {
+          "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+          "locator": "GR18-1"
+        },
+        {
+          "path": "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+          "locator": "IB98-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/recoil-distance-doppler-shift.md",
+      "anchor": "四类时间测量方法选择矩阵（checkpoint060）",
+      "summary": "checkpoint060在RDDS方法页建立四类时间测量方法全景选择矩阵入口与交叉时钟验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-P19-1"
+        },
+        {
+          "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "locator": "RG11-3"
         }
       ]
     }

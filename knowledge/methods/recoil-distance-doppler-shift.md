@@ -88,3 +88,7 @@ The method yields source-specific lifetimes. Converting them to `B(M1)` or `B(E2
 ## Day18内无学分Day19预习：分量条件与缺失校准
 
 [[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-P19-1–10新完整原读十页/13图3表，旧人审prefix/flags保护。stopper取向冻结的US与按lifetime平均的SH需不同G；90°缺eff由最短距离理论角关联补、两步τ/G迭代与same-data校正后平坦性都不认证完整独立Σ。实际distanceproducer未得，Eq9的d−d0/正8与d3、Eq2后A0=0的literal域保，不改raw/重报τ。新canonical [[lifetime-method-selection-response-contract]]给条件核和actualinput优先级；后续Nolan定向段已补方法选择表与最小校准清单；Nolan非本次完整88页重读、现代fast-timing/TDPAD primary仍缺，正式19留新session。
+
+## 四类时间测量方法选择矩阵（checkpoint060）
+
+在 [[lifetime-method-selection-response-contract]] 中，DSAM（$10\text{ fs}-2\text{ ps}$）、RDDS（$1\text{ ps}-1\text{ ns}$）、Fast Timing MSCD（$5\text{ ps}-50\text{ ns}$）与 TDPAD（$5\text{ ns}-10\ \mu\text{s}$）被整合为完整的实验方法选择矩阵。RDDS 以真空中反冲速度 $v_0$ 与微米飞行距离为时钟，其主导系统误差为距离绝对零点与飞行中时间退取向 $G_k(t)$；在皮秒至纳秒窗口内与现代 [[regis-2011-fast-timing-labr3]] 快速定时形成关键交叉验证。详见新 [timing-method-selection-result-060](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timing-method-selection-result-060.json)。

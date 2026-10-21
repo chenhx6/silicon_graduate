@@ -8,7 +8,7 @@ status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
 created_from: Day18-uncredited-Day19-preview
-evidence_sources: [radeck-2012-deorientation-lifetime-98ru-rdds, klemme-1999-lifetimes-134nd-neighbors, nolan-sharpey-schafer-1979-lifetime-measurements]
+evidence_sources: [radeck-2012-deorientation-lifetime-98ru-rdds, klemme-1999-lifetimes-134nd-neighbors, nolan-sharpey-schafer-1979-lifetime-measurements, regis-2011-fast-timing-labr3, grodner-2018-128cs-chiral-g-factor, ionescu-bujor-1998-static-moments-129-131ce]
 tags: [lifetime, RDDS, DSAM, deorientation, calibration, response]
 ---
 
@@ -120,3 +120,16 @@ Day19 preview的最小方法选择清单现为：
 4. 只有响应合同、branch/ICC/mixing和joint covariance齐全时，才把τ转为B/Qt并比较结构；方法结果相合仍须检查共享反应、模型和强度输入。
 
 本预习已覆盖矩阵要求的Radeck/Nolan主线、bounded exercise、response counterexample、decision tree和minimal calibration list，但仍只算Day19无学分preview；正式19需新session重新逐卡承认priming并补实际source/producer边界。
+
+## 四类时间方法选择矩阵与物理时钟基准（checkpoint060）
+
+结合 [[nolan-sharpey-schafer-1979-lifetime-measurements]]（方法框架与窗口）、[[radeck-2012-deorientation-lifetime-98ru-rdds]]（RDDS真空飞行与退取向）、[[regis-2011-fast-timing-labr3]]（现代LaBr3快速定时与MSCD）、[[grodner-2018-128cs-chiral-g-factor]]（128Cs手征异构态g因子与TDPAD磁相互作用）以及 [[ionescu-bujor-1998-static-moments-129-131ce]]（129,131Ce静态四极矩/磁矩TDPAD与形变演化），构建覆盖12个时间量级（约 $10\text{ fs}$ 至 $10\ \mu\text{s}$）的四类方法全景选择矩阵：
+
+| 测量方法 | 标称时间窗口 | 物理时钟基准 | 直接观测参量 | 主导系统误差响应（Nuisance） | 判决性反证/诊断约束 | 仓库内锚定原件 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **DSAM** | $10\text{ fs} - 2\text{ ps}$ | 介质内反冲阻停本领 $dE/dx$（电子+核慢化） | 多角度Doppler展宽线形或质心位移 $F(\tau)$ | 阻停本领模型漂移（5–15%）、侧馈时延级联、杂质线污染 | 标度不变性定理：全局阻停标度因子在带间/带内 $B(E2)$ 比值中严格对消 | Jensen 2001 (165Tm), Mukhopadhyay 2008 (136Nd), Singh 2016 (131Ce) |
+| **RDDS/DDCM** | $1\text{ ps} - 1\text{ ns}$ | 真空中反冲初速度 $v_0$ 与微米飞行距离 $d = v_0 t$ | 飞行位移峰 $I_s(d)$ 与阻停峰 $I_u(d)$ 强度随距离演化 | 距离绝对零点校准、靶-阻挡层平行度、真空中时间退取向 $G_k(t)$ | 分量条件退取向 $G_{SH}(t) \neq G_{US}(t)$；DDCM微分衰变曲线法免除绝对零点依赖 | Radeck 2012 (98Ru), Nolan 1979, Klemme 1999 (134Nd) |
+| **Fast Timing (MSCD)** | $5\text{ ps} - 50\text{ ns}$ | 高速电子学 TAC / 数字 CFD 时间戳与光速响应 | 级联馈入 $\gamma_{\text{feeder}}$ 与退激 $\gamma_{\text{decay}}$ 间符合时间分布 | 探测器时间响应函数（PRF）展宽、能量相关 time walk、PMT漂移 | 镜像对称质心差（MSCD）：$\Delta C = 2\tau + \text{PRD}(E_1,E_2)$，PRD曲线在 $\Delta E=0$ 处零交叉 | Régis 2011 博士论文, Nolan 1979 Sec. 3.4 |
+| **TDPAD** | $5\text{ ns} - 10\ \mu\text{s}$ | 外加磁场拉莫尔进动 $\omega_L = g\mu_N B/\hbar$ 或晶格电场梯度四极频率 $\omega_0$ | 空间不对称符合比值调制函数 $R(t)$ 随时间的周期振荡 | 自旋弛豫/顺磁退取向 $\lambda_k$、初始核自旋取向不完全、晶格辐射缺陷 | 多角度/多磁场强度进动交叉校验；在多晶金属Cd host与液态靶中解耦磁偶极与电四极相互作用 | Grodner 2018 (128Cs), Ionescu-Bujor 1998 (129,131Ce) |
+
+新 [timing-method-selection-result-060](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timing-method-selection-result-060.json) 包含5个核心原件哈希核对与13项方法矩阵参数检验，严格验证通过。本项仍属 Day 19 课程预习，`formal_credit: false`，不提前计发学分。

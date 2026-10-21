@@ -4,6 +4,9 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint060：四类时间测量方法选择矩阵与物理时钟基准审计完成（Day 19无学分预习），继续Day18。
+
+
 checkpoint059：DSAM阻停模型、蒙特卡罗步长与侧馈级联参数空间系统学对比完成，继续Day18。
 
 
