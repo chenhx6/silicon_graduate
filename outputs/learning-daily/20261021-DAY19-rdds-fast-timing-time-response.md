@@ -44,6 +44,7 @@ updated: 2026-10-21
 | continuation 1：Day 20 预习（B(E2)、Qt 与形变系统学） | 完成转子 K 投影依赖、Singh 2016 131Ce 加权回归（0.639sigma）与 Petrache 1998 侵入轨道极化定量核查 | 保持 partial_day_indices: [20]，正式学分留待 Day 20 独立 session |
 | continuation 2：寿命—强度—形变全景证据图与反证矩阵 | 构建五层证据传导链、跨核素形变对照矩阵（131Ce, 134Nd, 133Pr, 136Nd, 136Sm）与四类伪形变趋势反证 | 沉淀至 high-spin-lifetime-strength-deformation.md，保持 partial_day_indices: [20] |
 | continuation 3：131Ce Li 2004 与 Singh 2016 的 K 投影闭环对账 | 证明 23/2- 态 Qt = 3.55 eb 与 Singh 上限 < 2.85 eb 的表观张力完全源于 K=5/2 与 K=1/2 约定差异（换算后为 2.761 eb 严格相容） | 沉淀至 li-2004-lifetimes-131ce.md，保持 partial_day_indices: [20] |
+| continuation 4：Day 20 预习全景闭环与 Petrache 1998 / Singh 2016 事实固化 | 完成高度形变带侵入轨道极化抵消与四极形变基准对齐，建立 PE98-D20 与 SI16-D20 事实行 | 沉淀至各源页，保持 partial_day_indices: [20] |
 
 ## Sources and evidence
 
@@ -100,6 +101,10 @@ updated: 2026-10-21
    - 编写独立程序 `system/scripts/day20_ce131_li04_singh16_reconciliation.py`（产出 `ce131-li04-singh16-reconciliation.json`），对 Li 2004（CIAE DSAM）与 Singh 2016（IUAC Plunger/DSAM）两项独立实验的寿命与四极矩数据进行逐能级几何归一；
    - 发现 Li 2004 报道的 23/2- 态 Qt = 3.55(67) eb 长期被视为与 Singh 2016 的上限 Qt < 2.85 eb 存在张力；本计算严格证明该差异 100% 来自 Clebsch-Gordan 因子中的 K 投影假设（Li 采用 K=5/2，Singh 采用 K=1/2）；
    - 利用精确几何比值 sqrt(CG_K05 / CG_K25) = 1.2241，将 Li 测得的寿命 tau = 1.44(54) ps 在 K=1/2 下重新提取出 Qt = 2.761(518) eb，完全低于且相容于 Singh 的实验上限（< 2.85 eb），从而在两篇独立测量间消除了假象结构分歧。
+
+8. **Day 20 预习源页事实核验：Petrache 1998 侵入轨道极化与 Singh 2016 对账固化**：
+   - 对 Petrache 1998 Table 1 建立原子事实行 PE98-D20-1 至 PE98-D20-3，证实五条高度形变带所测 Q0 均为带内常数，未能直接观测推转预测的随自旋 20% 离心收缩；134Nd 激发高度形变带跨入 2 条 nu i13/2 侵入轨道后 Q0 反略降，证明极化力与离心收缩相互抵消，证伪简单线性可加性；
+   - 对 Singh 2016 建立原子事实行 SI16-D20-1，固化 23/2- 态与 Li 2004 间由 sqrt(CG_K05 / CG_K25) = 1.2241 达成的完全代数闭合，确立了统一的形变系统学基准。
 
 ## Counter-evidence and missing companion observables
 
@@ -239,6 +244,28 @@ updated: 2026-10-21
         {
           "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
           "locator": "LI04-D20-1"
+        }
+      ]
+    },
+    {
+      "summary": "在 Petrache 1998 源页记录高度形变带侵入轨道极化抵消与常数Q0拟合边界",
+      "knowledge": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "anchor": "## Day 20预习：高度形变带侵入轨道极化与转动离心收缩抵消核验",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-D20-1"
+        }
+      ]
+    },
+    {
+      "summary": "在 Singh 2016 源页记录与 Li 2004 的 K 投影代数对账与形变系统学闭环",
+      "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "anchor": "## Day 20预习：Singh 2016 与 Li 2004 的 K 投影代数对账与形变系统学",
+      "sources": [
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D20-1"
         }
       ]
     }

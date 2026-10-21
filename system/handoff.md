@@ -4,6 +4,13 @@ graph-excluded: true
 updated: 2026-10-21
 ---
 
+## 2026-10-21 Day 19 continuation 004 (checkpoint005)：Petrache 1998 与 Singh 2016 事实固化与 Day 20 预习全景闭环
+
+延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 在 petrache-1998-highly-deformed-lifetimes-131ce-nd.md 建立 PE98-D20-1–3 事实行，明确常数 Q0 拟合边界与极化抵消机理；
+2. 在 singh-2016-lifetime-131ce-133pr.md 建立 SI16-D20-1 事实行，固化与 Li 2004 间由 sqrt(CG_K05 / CG_K25) = 1.2241 达成的完全代数闭合；
+3. 全套 Day 20 预习产物闭环（证据图、比较矩阵、反证判据、回归核验与源页事实），更新日报并通过 validate_writeback（验证 13 个知识路径）。
+
 ## 2026-10-21 Day 19 continuation 003 (checkpoint004)：131Ce Li 2004 与 Singh 2016 的 K 投影完全对账闭环
 
 延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：

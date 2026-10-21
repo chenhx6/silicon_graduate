@@ -232,3 +232,14 @@ Before using any `135Nd` lifetime in a chiral argument, identify the later chira
 ## Day14补读的self-audit
 
 PE98-14–19均needs_review true。原PE98-1–13/AR/triage保留；两个Qsf问题属于source/fit范围P1，未升级hard P0或自动用户待办。Clark公开取件未成，转引值不当原始测量；原始逐τ/Σ/geometry不足，明确限制使用。
+
+
+## Day 20预习：高度形变带侵入轨道极化与转动离心收缩抵消核验
+
+本段为 2026-10-21 Day 19 延续轮开展的 Day 20 有边界预习成果（保持 needs_review: true，不设 human-reviewed）。针对 Table 1 中五条高度形变带的电荷四极矩与微观侵入轨道占据数关系开展严格核验：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE98-D20-1 | 证实 Petrache 1998 Table 1 中五条高度形变带测定的电荷四极矩 Q0（134Nd 为 6.8(3) 与 6.4(4) eb，135Nd 为 7.3(10) eb，131Ce 为 7.3(4) eb）本质为带内全能级平均常数（spin-independent constant Q0）；实验未能测定逐跃迁个别寿命，因而无法直接证实推转 Strutinsky 预测的随自旋 20% 离心收缩。 | constant-q0-fit-boundary | direct-original | PDF pp.3–4 / journal pp.R12–R13 | true |
+| PE98-D20-2 | 澄清新增侵入中子 nu i13/2 轨道的形变极化力与离心转动收缩相互抵消的物理机理：134Nd 激发高度形变带跨入 2 条占据的 nu i13/2 组态后，Q0 = 6.4(4) eb 反略低于单侵入带的 6.8(3) eb，证伪简单线性可加性假设。 | intruder-polarization-cancellation | direct-original-and-derived | PDF p.4 / journal p.R13 | true |
+| PE98-D20-3 | 确立高度形变带推导的 beta2（0.33–0.38）严格依赖无三轴性（gamma = 0 deg）的轴对称假设；若核体系具备显著动态 gamma 软度或非轴对称性，实验测得的 Q0 包含多极非对角交叠，不能直接视为几何形变标尺。 | deformation-model-dependency | direct-original | PDF p.3 Table 1 caption | true |

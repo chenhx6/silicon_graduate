@@ -155,3 +155,12 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 | SI16-D18-4 | 新条件回归给133Pr z=−1.678、131Ce z=−.602；它们是中心值/对称误差下的诊断，不是论文CI。131Ce的15/2–27/2混合plunger/DSAM方法、stopping prescriptions和side-feed parameter switch必须保留，不能把常数Qt接受写成独立实验裁决。 | conditional-statistical-diagnostic | derived-and-boundary | PDF4–8；qt-systematics-boundary-result-049 | true |
 
 新结果不改变原Table I/II、limits、K/CG和human review状态。
+
+
+## Day 20预习：Singh 2016 与 Li 2004 的 K 投影代数对账与形变系统学
+
+本段为 2026-10-21 Day 19 延续轮开展的 Day 20 有边界预习成果（保持 needs_review: true，不设 human-reviewed）。针对 131Ce 负宇称 yrast 带在 Singh 2016 与 Li 2004 之间的数值关系开展代数对账：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SI16-D20-1 | 证实 Singh 2016 Table 1 中对 Li 2004 实验值 27/2- 态重算给出的 Qt = 2.28(21) eb，以及本工作实验上限 23/2- 态的 Qt < 2.85 eb，与李原表数值（2.72 eb 与 3.55 eb）之间的几何比值严格由 sqrt(CG_K05 / CG_K25) = 1.19–1.22 代数消解；将李测得的寿命统一映射至 Singh 采用的 K=1/2 轴对称转子标尺后，李的 23/2- 态 Qt 严格为 2.761(518) eb，完全落入 Singh 的实验上限，两独立测量在电磁集体形变基准上达成完全闭合。 | cross-experiment-reconciliation | derived-and-verified | Table 1, Ref.[32]; day20_ce131_li04_singh16_reconciliation.py | true |
