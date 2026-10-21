@@ -47,61 +47,122 @@
     }
   },
   "scale_invariance_analysis": {
-    "nominal_Band1_B_E2": 0.51,
-    "nominal_Band2_B_E2": 0.25,
-    "nominal_ratio": 0.490196,
+    "table_II_exact_Band1_B_E2": {
+      "16": 0.26,
+      "17": 0.08,
+      "18": 0.14,
+      "19": 0.11
+    },
+    "table_II_exact_Band2_B_E2": {
+      "15": 0.54,
+      "16": 0.51,
+      "17": 0.44,
+      "18": 0.04,
+      "19": 0.05
+    },
+    "exact_interband_ratios_B2_over_B1": {
+      "16": "51/26",
+      "17": "11/2",
+      "18": "2/7",
+      "19": "5/11"
+    },
+    "exact_double_ratio_D_17_over_18": "77/4",
     "grid_evaluation": [
       {
-        "scale_factor_S": 0.85,
-        "B_Band1_scaled": 0.4335,
-        "B_Band2_scaled": 0.2125,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 0.0
+        "stopping_scale_S": 0.85,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 5.551115123125783e-17,
+        "double_ratio_discrepancy": 0.0
       },
       {
-        "scale_factor_S": 0.9,
-        "B_Band1_scaled": 0.459,
-        "B_Band2_scaled": 0.225,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 0.0
+        "stopping_scale_S": 0.9,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 5.551115123125783e-17,
+        "double_ratio_discrepancy": 0.0
       },
       {
-        "scale_factor_S": 0.95,
-        "B_Band1_scaled": 0.4845,
-        "B_Band2_scaled": 0.2375,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 0.0
+        "stopping_scale_S": 0.95,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 5.551115123125783e-17,
+        "double_ratio_discrepancy": 0.0
       },
       {
-        "scale_factor_S": 1.0,
-        "B_Band1_scaled": 0.51,
-        "B_Band2_scaled": 0.25,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 0.0
+        "stopping_scale_S": 1.0,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 5.551115123125783e-17,
+        "double_ratio_discrepancy": 0.0
       },
       {
-        "scale_factor_S": 1.05,
-        "B_Band1_scaled": 0.5355,
-        "B_Band2_scaled": 0.2625,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 5.551115123125783e-17
+        "stopping_scale_S": 1.05,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 2.220446049250313e-16,
+        "double_ratio_discrepancy": 0.0
       },
       {
-        "scale_factor_S": 1.1,
-        "B_Band1_scaled": 0.561,
-        "B_Band2_scaled": 0.275,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 0.0
+        "stopping_scale_S": 1.1,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 5.551115123125783e-17,
+        "double_ratio_discrepancy": 0.0
       },
       {
-        "scale_factor_S": 1.15,
-        "B_Band1_scaled": 0.5865,
-        "B_Band2_scaled": 0.2875,
-        "ratio_Band2_to_Band1": 0.490196,
-        "ratio_discrepancy": 5.551115123125783e-17
+        "stopping_scale_S": 1.15,
+        "scaled_ratios": {
+          "I_16": 1.961538,
+          "I_17": 5.5,
+          "I_18": 0.285714,
+          "I_19": 0.454545
+        },
+        "scaled_double_ratio_D": 19.25,
+        "max_ratio_discrepancy": 2.220446049250313e-16,
+        "double_ratio_discrepancy": 0.0
       }
     ],
-    "scientific_implication": "Under a global multiplicative stopping power scaling factor S in [0.85, 1.15], extracted level lifetimes scale as tau/S and transition strengths B(E2) scale as S*B(E2). However, the inter-band ratio B(E2)_Band2 / B(E2)_Band1 = 0.4902 is strictly scale-invariant. Therefore, the observed 2.06-fold B(E2) difference between 136Nd Band 1 and Band 2 cannot be an artifact of global electronic stopping power miscalibration (such as the 15% SRIM systematic). It reflects either genuine microscopic configuration disparity (e.g. Petrache 2018 TAC-CDFT configurations A vs B) or differential side-feeding time histories between the two cascades."
+    "scientific_implication": [
+      "Under a global multiplicative stopping power scaling factor S in [0.85, 1.15], ",
+      "extracted level lifetimes scale as tau/S and transition strengths B(E2) scale as S*B(E2). ",
+      "However, all inter-band ratios R(I) = B2(E2)/B1(E2) across spins 16 to 19 ",
+      "and the double ratio D = R(17)/R(18) = 77/4 = 19.25 are strictly scale-invariant. ",
+      "Therefore, the reversal between spin 17 (R=5.50) and spin 18 (R=0.29) and the 19.25-fold contrast ",
+      "cannot be artifacts of global electronic stopping power miscalibration (such as the 15% SRIM systematic). ",
+      "They reflect genuine microscopic configuration disparity (e.g. Petrache 2018 TAC-CDFT configurations A vs B) ",
+      "or differential side-feeding time histories between the two cascades."
+    ]
   },
   "checks": [
     {
@@ -173,7 +234,31 @@
       "passed": true
     },
     {
-      "name": "Scale invariance: Band ratio is identically invariant under global stopping scaling",
+      "name": "Ratio at I=16 is 51/26",
+      "passed": true
+    },
+    {
+      "name": "Ratio at I=17 is 11/2",
+      "passed": true
+    },
+    {
+      "name": "Ratio at I=18 is 2/7",
+      "passed": true
+    },
+    {
+      "name": "Ratio at I=19 is 5/11",
+      "passed": true
+    },
+    {
+      "name": "Double ratio D = R(17)/R(18) is 77/4 = 19.25",
+      "passed": true
+    },
+    {
+      "name": "Ratio direction reverses between spin 17 and 18",
+      "passed": true
+    },
+    {
+      "name": "Scale invariance: All inter-band ratios and double ratio identically invariant under global stopping scaling",
       "passed": true
     }
   ],

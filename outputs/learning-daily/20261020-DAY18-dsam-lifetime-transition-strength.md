@@ -49,6 +49,17 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint061：Day 18课程卡收束就绪度审计与15:00硬截止前置核查
+
+针对 Day 18 六大交付项进行收束就绪度全项核查（day18_closeout_readiness_audit.py）：
+1. 来源前回忆与主动回忆冻结（active-recall-freeze.json 哈希与会话标识匹配）；
+2. Jensen 2001 165Tm 主线原读与 Table 2 十一行受激态寿命到四极矩闭式K=1/2转子转换代数自审（偏差<=1.76%）；
+3. Mukhopadhyay 2008 136Nd 完整六页原读与 Table II 闭式几何因子 (2I-3)/(2I+1) 复算（偏差<=0.0054 eb）；
+4. 阻停模型、步长与侧馈级联参数空间对比及标度不变性定理（全局阻停标度因子在带间B(E2)比值中严格对消）；
+5. 恰好下一卡 Day 19 无学分预习（涵盖 DSAM、RDDS、Fast Timing MSCD、TDPAD 的四类方法全景选择矩阵与物理时钟基准）；
+6. 自动化门禁预检（writeback 172项完全有效，全库688页无lint错误，路径契约通过）。
+15项断言全部通过；严格维持 completed_day_indices: []、partial_day_indices: [18]、next_day_index: 18 与 formal_credit: false，静候 15:00 CST 准时启动收束流程。
+
 ### checkpoint060：四类时间测量方法选择矩阵与物理时钟基准审计（Day 19无学分预习）
 
 结合 Nolan 1979（方法框架与窗口）、Radeck 2012（RDDS真空飞行与退取向）、Régis 2011（现代LaBr3快速定时与MSCD）、Grodner 2018（128Cs手征异构态g因子与TDPAD磁相互作用）以及 Ionescu-Bujor 1998（129,131Ce静态四极矩/磁矩TDPAD与形变演化），构建覆盖12个时间量级（约 10 fs 至 10 µs）的四类方法全景选择矩阵：
@@ -65,7 +76,7 @@ updated: 2026-10-20
 2. 电子与核阻停模型采用不同理论框架（Jensen用壳修正Northcliffe-Schilling加微商Lindhard核阻停；Mukhopadhyay用SRIM；Singh对比平均Ziegler与Northcliffe-Schilling）；
 3. 侧馈级联参数空间构建具有不同约束策略（Jensen为3步级联，固定J(2)=65 hbar^2/MeV与单一有效Qs；Mukhopadhyay为5步级联，采用带内相当J(2)并允许各能级独立拟合侧馈四极矩；Singh在低自旋恒定时延tau_SF与高自旋转动级联Q_SF间切换）；
 4. 系统误差报告口径存在根本差异（Jensen将额外+5%电子阻停误差直接加进Table 2误差中；Mukhopadhyay Table II明确排除最高达15%的阻停误差）；
-5. 标度不变性定理严格证明：全局乘性阻停标度因子S在带间强度比值中严格对消，136Nd实测Band 1与Band 2间2.06倍的B(E2)系统落差无法由全局阻停误差解释，确立了微观组态差异或带特异侧馈历史的物理必要性。新18项检验通过。
+5. 标度不变性定理严格证明：全局乘性阻停标度因子S在所有带间强度比值R(I)（自旋16-19处依次为51/26、11/2、2/7、5/11）及双比值D=77/4=19.25中严格对消，136Nd实测Band 1与Band 2间跨自旋方向翻转与19.25倍反差无法由全局阻停误差解释，确立了微观组态差异或带特异侧馈历史的物理必要性。新24项检验通过。
 
 ### checkpoint058：收拢核心研究笔记开放问题与转子几何代数闭环
 

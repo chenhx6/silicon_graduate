@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-21T03:12:31.000000+00:00",
+  "subject": "Audit Day 18 curriculum closeout readiness and pre-deadline verification",
+  "exact_manifest": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-061.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/closeout-readiness-result-061.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/dsam-systematics-contrast-result-059.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-061.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-061.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publish-manifest-061.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-061.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-061.json",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day18_closeout_readiness_audit.py",
+    "system/scripts/day18_dsam_systematics_contrast_audit.py"
+  ],
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-061.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-061.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification061 valid; lint0; boundary0; diff0; scale invariance sequence corrected; closeout readiness audited; no credit; original deadline preserved"
+}
