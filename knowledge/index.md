@@ -17,9 +17,15 @@ updated: 2026-10-20
 
 - [[feeding-time-alignment-joint-response]] — 同积分取向与总时间密度仍不能确定DSAM逐角响应的条件设计；非实验τ/P/Q修正。
 
+## Day19新增方法与研究合同
+
+- [[recoil-distance-doppler-shift]] — RDDS/DDCM 微分衰变曲线消除侧馈、逆运动学空间拉伸、真空退取向不对称响应与最小校准清单。
+
+- [[lifetime-method-selection-response-contract]] — 四类寿命测量方法全景选择决策树、MSCD能量走时对消与DSAM-RDDS误差交叉分水岭。
+
 ## Sources
 
-- [[lifetime-method-selection-response-contract]] — Day18内恰好下一卡的无学分预习：Radeck分量响应/缺eff与坐标合同、Nolan定向方法选择表/最小校准清单；非正式19。
+- [[lifetime-method-selection-response-contract]] — Day 19正式课程：四类寿命测量方法全景选择决策树、MSCD能量走时对消与DSAM-RDDS误差交叉分水岭。
 
 - [[amro-2003-wobbling-167lu]] — 167Lu 三轴超形变 wobbling 带间相对跃迁强度提取与 DCO 混合比双根敏感性。
 

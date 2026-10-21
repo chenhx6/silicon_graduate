@@ -2759,3 +2759,13 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
 1. 规则完善：在 `.gitignore` 补充每日学习运行产生的临时执行日志（`*.txt`, `*.log`）、过程检查（`lint-*.json`, `preflight-*.json`, `boundary-*.json`, `h3-*.json` 等）及弃用中间草稿的忽略规则，彻底消除 1388 项未跟踪过程文件；
 2. 历史基线归集：显式暂存并提交历史遗留的 14 个受跟踪文件修改（涵盖 Day 8、9、13、14、15、16、17 post-commit reconciliation 记录、Day 15 prompt maintenance 及 daemon 模型优先级配置）；
 3. 状态恢复：`git status -sb` 恢复为干净基线状态（0 modified, 0 untracked），消除长时扫描开销与视觉干扰。
+
+## 2026-10-21 DAY19 checkpoint001：RDDS、fast timing 与时间响应正式课程闭环
+
+Day 19 独立课程 session（run_id: 2026-10-21-day-19-01, session_id: 01a15dcc-49f9-7623-b0e9-75fd73c74a80）全套交付物与校准审计完成：
+1. 来源前主动回忆（DSAM、RDDS、Fast Timing、TDPAD 四类时钟与响应）冻结完成并承认强 priming；
+2. 完成 Radeck 2012 原文十页与 Nolan 1979 综述关键章节深读，建立 R12-D19-1–6 与 NS79-D19-1–5 科学事实；
+3. 构建四类核寿命测量方法全景选择决策树与六维度最小校准清单，沉淀至 canonical 知识库；
+4. 编写并运行 day19_rdds_timing_response_analysis.py，完成运动学空间放大（3.19倍）、真空退取向分量条件平均（G_SH vs G_US）、快速定时 MSCD 走时对消及 DSAM vs RDDS 系统误差交叉分水岭定量计算；
+5. 日报 outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md 包含唯一 writeback 块并通过 validate_writeback；
+6. 课程状态对账推进至 completed_day_indices: [19]，partial_day_indices: [20]，next_day_index: 20，正式计发 Day 19 学分一次；Day 20 进行有边界预习（B(E2)、Qt 与形变系统学）。

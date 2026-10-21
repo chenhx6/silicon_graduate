@@ -148,3 +148,24 @@ Day19 preview的最小方法选择清单现为：
 [[suzuki-2008-lifetimes-103rh-104rh]] SU08-2只支持特定degrader和穿行时间范围；3.1875是打印中心beta比，不含共同/独立误差，不证明3.45微米普适不可测或11.01微米自动高精度，也不是原误差/CI。RDDS不是无停止模型依赖的绝对标准。
 
 [[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-P19-1的具体response说明不同主时钟不等输入完全独立。各方法窗口是装置/反应条件示意，不能据表硬选；TDPAD振荡主要测超精细作用/矩，寿命来自人口衰减或独立时差及response。Régis/Grodner/Ionescu旧Wiki已有资料，060的hash及矩阵检查本身未提供新全文阅读scope，不冒本session新原读。正式Day19须按实际新session完成主线、新设计和校准审计；本预习无学分。
+
+
+## Day 19正式课程：四类方法物理时钟决断边界与新量化程序结果
+
+本节在正式 Day 19 独立 session 中完成全套分析闭环，将原 preview 阶段的假设推进为严密的定量结论。基于独立编写的量化分析程序 [day19_rdds_timing_response_analysis.py](../../system/scripts/day19_rdds_timing_response_analysis.py)（输出 [rdds-timing-response-result.json](../../outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rdds-timing-response-result.json)），得出以下核心定量成果：
+
+1. **逆运动学空间放大与物理时钟拓展**：
+   - 常规运动学（Klemme 1999，beta = 1.6%）速度为 4.797 um/ps，对 tau = 0.72 ps 飞行位移仅 3.45 um，严重受限于箔片粗糙度与 d0 零点；
+   - 逆运动学（Radeck 2012 beta = 4.5%，Suzuki 2008 beta = 5.1%）提供 2.8125x 与 3.1875x 的空间尺度放大，速度达 13.491 与 15.289 um/ps，使 tau = 0.72 ps 的位移拉伸至 11.01 um，使亚皮秒 RDDS 测量脱离接触零点接触区。
+
+2. **退取向分量条件平均与前向探测器系统偏差**：
+   - 98Ru 实测参数（alpha_2 = 0.18, Gamma_2 = 0.142 ps^-1, alpha_4 = 0.24, Gamma_4 = 0.314 ps^-1, tau = 8.36 ps）下，未阻停分量渐近极限 G_2^SH(inf) = 0.554922 显著高于阻停分量的 0.180000；
+   - 若在前向探测器（theta = 0 deg）忽略 G_k 修正，在 5-15 ps 敏感区间提取的表观寿命产生最大 -4.64% 的系统偏差，表明真空退取向畸变不可忽略。
+
+3. **快速定时 MSCD 的时间走时（Time Walk）对消律**：
+   - 镜像对称质心差 Delta C(E1, E2) = 2*tau + PRD(E1, E2) 在 E1 = E2 时 PRD == 0，完全消除了探测器与电子学的能量走时；
+   - 当两跃迁能量不对称时（如 E1 = 800 keV, E2 = 400 keV），PRD = 35.15 ps；若忽略 PRD 修正，提取寿命从真实的 35.0 ps 虚假增至 52.57 ps（+50.2% 误差），证实皮秒级快速定时必须有严密的 PRD 能量走时标定。
+
+4. **DSAM 与 RDDS 交叉决策边界**：
+   - 确定了 Delta d0 / (v*tau) = 10% 阻停功率误差的解析交叉条件 tau_cross = Delta d0 / (0.10 * beta * c)；
+   - 在 Delta d0 = 1.0 um 时，常规运动学（beta = 1.6%）的交叉点为 2.085 ps；逆运动学（beta = 4.5% 与 5.1%）将交叉点大幅推低至 0.741 ps 与 0.654 ps，从数学上划定了两方法的适用分水岭。

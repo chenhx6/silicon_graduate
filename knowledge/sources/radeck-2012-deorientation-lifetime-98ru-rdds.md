@@ -121,3 +121,19 @@ Review note: R12-3/R12-7/R12-8/R12-10 were user-reviewed on 2026-07-09. Keep R12
 本次[冻结合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/radeck-kernel-input-contract-007.json)、[程序](../../system/scripts/day19_radeck_component_kernel.py)/[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/radeck-kernel-result-007.json)只给条件平均/原打印检查。physicaltime与原相对距离offset必须有执行桥，不能悄悄把Eq7积分域或Eq9符号修成想要的fit。未取得实验计数/理论初始角关联系数/效率Cov，不能重报τ/g/coverage。
 
 新分析写回[[lifetime-method-selection-response-contract]]、[[recoil-distance-doppler-shift]]；原人审项目结论和字节不动。正式Day19应新session承认本priming并逐卡新交付；本段不给学分。
+
+
+## Day 19正式课程：RDDS时间响应、退取向分量条件与实验边界核验
+
+本段为2026-10-21正式Day 19独立课程session原读与定量核查产物；**原2026-07-09整段字节、human-reviewed历史、R12-1–12以及历史R12-P19-1–10条目与flags原样保留**。新段和下列新claims仅经Codex self-audit、保持needs_review: true，不设human-reviewed。本session针对全文十页、十三图、三表与九个编号公式进行严格物理核验，重点对账反冲运动学放大、真空超精细退取向的分量条件平均、90°探测器效率缺失的代数影响，以及 Yale plunger 的机械零点边界。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-1 | 300 MeV 98Ru + 24Mg 逆运动学提供 v/c = 0.0450(6)（13.491 um/ps）反冲速度，较常规运动学（4.797 um/ps）实现 2.81 倍空间放大，使 tau(2+_1)=8.36 ps 态飞行距离达 112.8 um，完全摆脱接触零点（d0约8 um）与箔片粗糙度约束。 | experimental-kinematics-scaling | direct-original | PDF2–3 Sec.II/III, Fig.2–3 | true |
+| R12-D19-2 | 真空中超精细场引起退取向衰减 G_k(t)；阻停分量在到达 stopper 时冻结（G_US(t) = G(t)），飞行衰变分量沿衰变时间密度加权平均（G_SH(t)）；渐近极限下 G_SH(inf) 为 0.554922(k=2) 与 0.449653(k=4)，远高于 G_US(inf) 的 0.18 与 0.24。 | deorientation-component-asymmetry | direct-original-and-derived | PDF5–6 Eqs.4–7, Fig.8, Table I | true |
+| R12-D19-3 | 在前向探测器（theta=0 deg）若忽略退取向 G_k 修正，测得比值 P(d) 发生系统性偏离，在敏感飞行时程（5–15 ps）导致表观提取寿命发生最大 -4.6% 的系统性负偏差，证实退取向不是全局常数缩放，而是距离相关的线形畸变。 | systematic-deorientation-bias | derived-and-verified | PDF7 Eq.8, Fig.9; day19_rdds_timing_response_analysis.py | true |
+| R12-D19-4 | 90° clover 探测器效率标定实验中缺失，作者在最短距离 d=3 um 处借用理论初始角关联代替相对效率，假定短时 alignment 变化微弱；该代数替代引入了对理论角分布模型的依赖，并非无偏实测效率。 | calibration-deficiency-boundary | direct-original | PDF6 左栏首两段 | true |
+| R12-D19-5 | 逆库仑激发通过粒子-γ符合直接强布居低自旋集体态（2+_1, 4+_1, 2+_2），上能级侧馈极其微弱，在方法学上避开了熔合蒸发反应中未知慢侧馈（slow side feeding）对寿命拟合的主导模型依赖。 | feeding-topology-advantage | direct-original | PDF3 Sec.III | true |
+| R12-D19-6 | RDDS 寿命提取的最小校准闭环严格依赖：机械绝对零点 d0 标定、全角度阵列相对效率矩阵（尤其 90° 环）、反冲初速矢量及真空中退取向衰减参数 G_k(t) 的独立约束，任何单项缺失均构成主导系统误差。 | minimal-calibration-contract | synthesis-and-boundary | PDF6–7 Sec.IV/V, Table I | true |
+
+本段定量结果见 [rdds-timing-response-result.json](../../outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rdds-timing-response-result.json) 与 [day19_rdds_timing_response_analysis.py](../../system/scripts/day19_rdds_timing_response_analysis.py)。

@@ -125,3 +125,18 @@ Historical stopping powers, feeding models, detector resolution and side-feeding
 NS79-1旧行/flag原样保留，但其10^-18–10^-6s不能读成DSAM/RDM各自全域：PDF5/printed4 Fig2画的是全套direct/indirect方法的范围，DSAM与RDM只是其中分段；PDF4限定的是review总scope。NS79-P19-1/4及方法选择页按这一范围使用。
 
 本次Nolan读取是定向段落/选表，并非全88页。早先工具对部分页只返回开头1800字，属于页面内选段而非完整页认证；2026-10-20晚再次完整核PDF4–7及78–81并视觉核PDF5 Fig2、PDF79 Tables5–6与PDF81 Table7/Fig56。PDF48–52电子计时正文已另完整核。Table7/Refs只是review转引；Hermans1977、Schwalm1977原body未得前不当primary已读或新独立测量。
+
+
+## Day 19正式课程：全景时间测量方法选择与物理时钟决策树
+
+本段为2026-10-21正式Day 19独立课程session原读与定量核查产物；**原页面旧字节、旧NS79-1–3、历史NS79-P19-1–12条目与flags原样保留**。新段和下列新claims仅经Codex self-audit、保持needs_review: true，不设human-reviewed。本session对88页综述长文开展定向深读：重点审查多普勒衰减法（Ch.II, pp.6–23）、电子快速定时（Ch.III, pp.48–52）与方法可靠性/精度对比（Ch.VIII, Table 7, pp.78–81），提炼跨方法选择决策准则与物理时钟基准。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| NS79-D19-1 | DSAM 与 RDDS (RDM) 在 1–20 ps 范围存在测量重叠；综述明确警告若两方法得出一致寿命，可能由于共享了相同的反应反冲初速或阻停本领模型（如 RDDS 阻挡层慢化与 DSAM 衬底），不自动构成正交独立检验。 | cross-method-shared-systematic | direct-review | PDF pp.78–81, Table 7, Fig.56 | true |
+| NS79-D19-2 | 电子快速定时（scintillator）时间谱本质为真实核衰变指数与仪器瞬发响应函数（PRF）的卷积；当寿命小于 PRF 半高宽（FWHM）时，大计数统计量无法克服 PRF 漂移，必须采用镜像对称质心差（MSCD）消除能量相关的 time walk。 | fast-timing-prf-walk-boundary | direct-review | PDF pp.48–52, Sec.3.1–3.4, Figs.34–35 | true |
+| NS79-D19-3 | 熔合蒸发反应中未知慢侧馈（slow side feeding）在减速时程内发生，严重扭曲 DSAM 线形并高估寿命；而 RDDS 配合直接馈入跃迁门（gate from above / DDCM）可在数学上严格消去直接与间接 feeding 级联的时间分布。 | feeding-topology-contrast | direct-review | PDF pp.19–21, Figs.11–12 | true |
+| NS79-D19-4 | 寿命测量方法选择首要取决于待测态时钟与核素反冲/电子学时钟的匹配：DSAM 依赖材料阻停时间（~0.5–2 ps）、RDDS 依赖微米机械飞行时间（1 ps–1 ns）、Fast Timing 依赖电子学响应（>5 ps）、TDPAD 依赖外场进动周期（>5 ns）。 | physical-clock-matching-rule | synthesis-and-boundary | PDF Ch.II, III, VI, VIII | true |
+| NS79-D19-5 | 从测定寿命换算跃迁几率 B(E2)/B(M1) 与形变四极矩 Qt，其精度边界受制于时钟零点标定（d0, t0）、探测效率矩阵、反冲速度/能损谱形及分支比/混合比纯度四大基石，而非单项拟合置信区间。 | transition-strength-input-contract | direct-review-and-synthesis | PDF pp.4–6, Eq.1.2; Table 7 | true |
+
+本段定量结果见 [rdds-timing-response-result.json](../../outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rdds-timing-response-result.json) 与 [day19_rdds_timing_response_analysis.py](../../system/scripts/day19_rdds_timing_response_analysis.py)。
