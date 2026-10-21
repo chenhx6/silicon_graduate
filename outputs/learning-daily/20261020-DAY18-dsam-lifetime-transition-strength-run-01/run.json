@@ -78,10 +78,10 @@
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit Weisskopf collectivity scaling and collective collapse in 136Nd and 165Tm",
-    "commit_hash": "ece518323ada8df497919ee394111c04ddf71071",
+    "subject": "Audit E1 transition rates, intrinsic dipole moments D0, and tri-multipolarity taxonomy",
+    "commit_hash": "2dbb8e1a2c5889a9f201c254c713fff4b6655e76",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-076.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-077.json"
   },
   "native_goal_last_observation": {
     "status": "active",
