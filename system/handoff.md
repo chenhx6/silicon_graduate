@@ -5,6 +5,9 @@ updated: 2026-10-20
 ---
 
 
+checkpoint052：187Au/127Xe多极解与衰变拓扑边界完成，继续Day18。
+
+
 checkpoint051：高自旋根选择与偏振边界完成，继续Day18。
 
 
@@ -90,6 +93,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
+
 
 checkpoint051已实际提交，稳定指针main / `Audit high-spin delta-root sensitivity and polarization gaps`；精确hash/H3/远端结果只publication-051回执。
 

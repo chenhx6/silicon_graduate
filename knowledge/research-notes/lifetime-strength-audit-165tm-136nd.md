@@ -900,3 +900,9 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 ## 高自旋混合比根与偏振缺口（checkpoint051）
 
 [[amro-2003-wobbling-167lu]] AM03-D18-2/3和[[jensen-2002-second-phonon-wobbling-163lu]] JE02-D18-2/3均说明：DCO/角分布分支可给大/小根条件敏感性，但缺线偏振时不能把模型选支改成实验唯一解。167Lu小根压缩和163Lu 476-keV .51/.019差异都固定其它输入后成立；后者大根由相似转动性质+PRM选择，不能称偏振确证。新[8项结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/highspin-root-boundary-result-051.json)不生成实验CI。
+
+## 187Au与127Xe跃迁强度敏感性与偏振/衰变拓扑边界（checkpoint052）
+
+[[sensharma-2020-longitudinal-wobbling-187au]] SE20-D18-2/3 与 [[guo-2022-low-spin-wobbling-187au]] GU22-D18-2/3 构成了187Au带间强度的典型争议案例：角分布大解（delta=2.6）下对应~164 W.u.，而在偏振/内转换确立的小解（delta=-0.10(5)）下条件塌缩88倍至1.87 W.u.，展现了多极解对强度提取的巨大影响。QTR计算支持Band 2为单粒子轨道激发。
+
+[[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] CH20-D18-2/3 报告大解及E2增强，小根为反事实敏感性分析（塌缩8-10倍）；二声子候选带向yrast带的Delta I = 0衰变拓扑反映了准gamma振动耦合特征。新 [au-xe-wobbling-boundary-result-052](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/au-xe-wobbling-boundary-result-052.json) 包含12项检验，不制造实验置信区间。

@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint052：187Au偏振/内转换判据与127Xe两声子衰变拓扑边界
+
+187Au角分布大解（Sensharma 2020）与线偏振/内转换小解（Guo 2022 / Bourgeois 1989）的88倍条件强度差异完成分层，QTR单粒子解释与wobbling模型边界分列；127Xe Table 1大根为作者采纳解，小根为反事实敏感性分析，二声子Delta I = 0衰变拓扑提示准gamma振动耦合。新12项结果完成检验，旧两项serializer安全退役。
+
 ### checkpoint051：高自旋混合比根与偏振缺口
 
 167Lu大根/小根敏感性与163Lu 476-keV两根差异均回到原表和正文：缺偏振时小根未被实验排除，大根选择含模型与相似转动性质输入。新结果只做8项hash/文字/条件算术检查，不更新旧实验CI或独立数据。
@@ -1599,23 +1603,31 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-      "anchor": "Day18定量审计：187Au带间跃迁B(E2)的88倍断崖式塌缩与183Au偏振误差解构",
-      "summary": "187Au内转换与线偏振确定小解导致B(E2_out)遭遇88倍断崖式暴跌至单粒子1.87 W.u.，及183Au偏振误差6.8倍低估解构",
+      "anchor": "Day18 checkpoint052修订：内转换/偏振约束与单粒子解释边界",
+      "summary": "checkpoint052分层187Au/127Xe多极解敏感性、线偏振/内转换判据与衰变拓扑边界",
       "sources": [
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-          "locator": "GU22-D18-1"
+          "locator": "GU22-D18-2"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
-      "anchor": "Day18定量审计：纵向wobbling声称在内转换系数与线偏振判据下的塌缩",
-      "summary": "Sensharma 2020声称的164.2 W.u.超集体纵向wobbling在物理小解下暴跌88倍退化为单准粒子Nilsson激发",
+      "anchor": "Day18 checkpoint052修订：角分布选解、偏振缺口与条件塌缩",
+      "summary": "checkpoint052分层187Au/127Xe多极解敏感性、线偏振/内转换判据与衰变拓扑边界",
       "sources": [
         {
           "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
-          "locator": "SE20-D18-1"
+          "locator": "SE20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "SE20-D18-3"
         }
       ]
     },
@@ -1652,26 +1664,30 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "guo-2022-low-spin-wobbling-187au",
-      "summary": "索引增加187Au纵向wobbling跃迁强度88倍断崖塌缩至单粒子强度导航",
+      "summary": "checkpoint052分层187Au/127Xe多极解敏感性、线偏振/内转换判据与衰变拓扑边界",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-          "locator": "GU22-D18-1"
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "SE20-D18-2"
         },
         {
           "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
-          "locator": "SE20-D18-1"
+          "locator": "SE20-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-      "anchor": "Day18定量审计：多声子纵向wobbling混合比双解敏感性与两声子衰变拓扑异常",
-      "summary": "Table 1中五条跨带连接线B(E2)在DCO小解下发生8.2-10.0倍断崖式塌缩及二声子带反常以Delta I = 0衰变主导的拓扑核验",
+      "anchor": "Day18 checkpoint052修订：多声子候选、替根敏感性与衰变拓扑",
+      "summary": "checkpoint052分层187Au/127Xe多极解敏感性、线偏振/内转换判据与衰变拓扑边界",
       "sources": [
         {
           "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "locator": "CH20-D18-2"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D18-3"
         }
       ]
     },
@@ -1708,15 +1724,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "chakraborty-2020-multiphonon-longitudinal-wobbling-127xe",
-      "summary": "索引增加127Xe多声子纵向wobbling混合比小解塌缩与退激拓扑反常导航",
+      "summary": "checkpoint052分层187Au/127Xe多极解敏感性、线偏振/内转换判据与衰变拓扑边界",
       "sources": [
         {
           "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "locator": "CH20-D18-2"
         },
         {
           "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
-          "locator": "CH20-D18-1"
+          "locator": "CH20-D18-3"
         }
       ]
     },
@@ -3787,6 +3803,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
+
 
 checkpoint051已实际提交，稳定指针main / `Audit high-spin delta-root sensitivity and polarization gaps`；精确hash/H3/远端结果只publication-051回执。
 

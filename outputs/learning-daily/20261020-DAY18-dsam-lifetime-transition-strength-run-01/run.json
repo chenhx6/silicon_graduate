@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "051 committed; original research window continues",
+  "last_checkpoint": "052 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Correct mixing-root and E5 kinematic boundaries in Day18 strength audits",
-    "commit_hash": "a5ef257a73cd8c99869810966078599e806039e7",
+    "subject": "Audit high-spin delta-root sensitivity and polarization gaps",
+    "commit_hash": "1aff14b46f4f24f5b41018dc0d8496453bc8dfae",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-050.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-051.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit high-spin delta-root sensitivity and polarization gaps"
+    "subject": "Audit 187Au multipole-collapse and 127Xe decay topology boundaries"
   },
   "uncredited_preview": {
     "day_index": 19,

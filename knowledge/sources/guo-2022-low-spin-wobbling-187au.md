@@ -136,12 +136,12 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 
 本页是 `187Au` project 的 counter-source/reinterpretation source。用户已完成 source 页面与 G22-1 至 G22-20 的逐条审核；页面为 `human-reviewed`，全部 claims 均为 `needs_review: false`。未建立 `low-spin-wobbling-controversies` umbrella project。
 
-## Day18定量审计：187Au带间跃迁B(E2)的88倍断崖式塌缩与183Au偏振误差解构
+## Day18 checkpoint052修订：内转换/偏振约束与单粒子解释边界
 
-在Day18正式学习中对本文主文及补充材料中187Au和183Au的跃迁几率与偏振测量进行定量审计，raw SHA256 `DE541977E4C8402C905EF8268EBC5707303F4B92F244EB4F59405A70C3473206`已核。原GU22-1–14各claim及`human-reviewed`状态完全保留；新GU22-D18-1待审。
+原GU22-claims/review保持；旧GU22-D18-1降为superseded。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GU22-D18-1 | 本文通过重测线偏振P与角关联比Rac，并结合早期内转换系数测量（Bourgeois 1989 / Rupnik 1989），对Sensharma 2020声称的187Au“纵向wobbling”模式给出了判决性证伪：(1) 在已知带内极强集体性（B(E2_in) = 1.49 e2b2 = 234.6 W.u.）基准下，Sensharma声称的B(E2_out)/B(E2_in) ~ 0.70对应高达164.2 W.u.的超集体跃变；然而内转换系数与线偏振确立376.5 keV跃迁的真实小解为delta = -0.10(5)（E2份额仅0.99%），其B(E2_out)遭遇88.0倍断崖式暴跌，真实值仅为1.87 W.u.，完全落入单粒子Weisskopf强度范围；(2) 补充材料解构证实183Au所谓的偏振不对称度误差被严重低估6.8倍（实际背景扣除误差sigma_P >= 0.61而非报告的0.09），数学上根本无法分辨多极双解。这彻底将所谓A~190区纵向wobbling瓦解为单粒子Nilsson轨道跃迁（#19到#21）。 | task-rate-decomposition-audit | derived-and-boundary | PDF p.3 Figs. 3-4；新guo22-sensharma20-187au-result-022 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-contract-022.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-result-022.json)4项检查全过。
+| GU22-D18-1 | **superseded**：旧关于“彻底瓦解全区wobbling”的断言降格，由GU22-D18-2/3分层记录作者对187Au的测量与QTR单粒子解释。 | task-correction | superseded-interpretation | 本段D18-2/3；旧guo22-sensharma20-187au-result-022 | true |
+| GU22-D18-2 | 本文通过HIRFL角关联Rac与线偏振P测量（不约束sigma/I参数），结合Bourgeois/Rupnik内转换系数，确立376.5 keV跃迁小解delta = -0.10(5)（E2份额~0.99%），表明带间B(E2_out)仅几个W.u.，不支持集体wobbling增强。 | source-result-and-method | direct | PDF p.3 Figs. 3-4；Table I | true |
+| GU22-D18-3 | QTR模型波函数计算表明Band 1与Band 2主要基于h9/2亚壳的最低与次低轨道，表现为单粒子性质；作者据此提出低自旋带由单粒子激发主导的解释。这构成本核及该能带的具体结构结论，不作为排除所有低自旋集体效应的普适定理。 | author-interpretation-boundary | direct-and-boundary | PDF pp.3-5 Fig. 4；Sec. III | true |

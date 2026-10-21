@@ -124,12 +124,12 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 
 本页只建立 Sensharma 2020 支持方证据链。用户已审核 source 页面及 AU20-1 至 AU20-15，未发现问题；这不构成对后续 `187Au` 争议的裁决。
 
-## Day18定量审计：纵向wobbling声称在内转换系数与线偏振判据下的塌缩
+## Day18 checkpoint052修订：角分布选解、偏振缺口与条件塌缩
 
-在Day18正式学习中对本文Fig. 3与Fig. 5中声称的187Au纵向wobbling跃迁强度进行对照审计，raw SHA256 `F348DCE9976AD076FD9B1D5281A728E0923053ACED33B0270F643D770729366A`已核。原SE20-1–12各claim及`human-reviewed`状态完全保留；新SE20-D18-1待审。
+原SE20-claims/review保持；旧SE20-D18-1的强断言降为superseded，由D18-2/3分层替代。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| SE20-D18-1 | 本文基于Gammasphere角分布拟合挑选大混合比解（delta ~ 2.6-3.0，E2份额87%-90%），报告B(E2_out)/B(E2_in)高达~0.70并声称核内首例“纵向wobbling”。结合已知带内跃迁极强集体性（1.49 e2b2 = 234.6 W.u.），该比值对应高达164.2 W.u.的超集体带间跃迁。然而后续Guo 2022与早期Bourgeois 1989内转换测量确立真实物理小解为delta = -0.10(5)（E2份额仅0.99%），使B(E2_out)暴跌88.0倍至仅1.87 W.u.，完全退化为单准粒子Nilsson能级间跃迁。本文对偏振测量的缺失和对角分布大解的盲目采纳制造了虚假的集体四极增强假象。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3-5 Figs. 3, 5；新guo22-sensharma20-187au-result-022 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-contract-022.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/guo22-sensharma20-187au-result-022.json)4项检查全过。
+| SE20-D18-1 | **superseded**：旧关于“盲目采纳制造虚假集体假象”等断言降格，由D18-2/3分别记录作者报告的大根与后续小根对比条件。 | task-correction | superseded-interpretation | 本段D18-2/3；旧guo22-sensharma20-187au-result-022 | true |
+| SE20-D18-2 | 本文基于Gammasphere角分布测量（未包含线偏振），在双解中选用大混合比解（delta ~ 2.6-3.0），由此提取出B(E2_out)/B(E2_in)高达~0.70并提出纵向wobbling解释；这是未测偏振条件下的作者派生结果，不是确定性唯一解。 | source-result-and-boundary | direct-and-boundary | PDF pp.3-5 Figs. 3, 5；Table I | true |
+| SE20-D18-3 | 结合引用的带内B(E2)=1.49 e^2b^2（Ref 39），大解对应带间~164 W.u.；后续Guo 2022重测线偏振及早期内转换系数支持小解delta = -0.10(5)（E2份额仅0.99%），使该线在相同分母下条件塌缩88倍至1.87 W.u.（单粒子水平）。这证明角分布双解不经偏振或内转换检验时存在显著模型依赖。 | later-companion-and-sensitivity | derived-and-boundary | [[guo-2022-low-spin-wobbling-187au]] PDF p.3；新au-xe-wobbling-boundary-result-052 | true |

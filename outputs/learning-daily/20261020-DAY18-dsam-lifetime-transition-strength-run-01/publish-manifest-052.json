@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-21T01:13:39.961206+00:00",
+  "subject": "Audit 187Au multipole-collapse and 127Xe decay topology boundaries",
+  "ordinary_paths": [
+    "knowledge/methods/doppler-shift-attenuation-method.md",
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+    "system/handoff.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "system/scripts/day18_au_xe_wobbling_boundary.py",
+    "system/scripts/day18_chakraborty20_127xe_audit.py",
+    "system/scripts/day18_guo22_sensharma20_187au_audit.py",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-052.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/au-xe-wobbling-boundary-result-052.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-052.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-052.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-052.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-052.md"
+  ],
+  "verification": "verification-052.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-052.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification052 valid; lint0; boundary0; diff0; 12 au/xe assertions; no credit; original deadline preserved"
+}

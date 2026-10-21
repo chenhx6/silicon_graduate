@@ -149,12 +149,12 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 
 P0: band-4 `n_ω=2` assignment and 651-keV contamination/branch handling.
 
-## Day18定量审计：多声子纵向wobbling混合比双解敏感性与两声子衰变拓扑异常
+## Day18 checkpoint052修订：多声子候选、替根敏感性与衰变拓扑
 
-在Day18正式学习中对本文Table 1与正文p.4中127Xe的跃迁几率比值及两声子带衰变拓扑进行定量审计，raw SHA256 `B04503FCE61B249AB1193F395B4276364945D02CED5EAC347A5DD2E45DF6EA1A`已核。原CH20-1–7各claim及`human-reviewed`状态完全保留；新CH20-D18-1待审。
+原CH20-claims/review保持；旧CH20-D18-1降为superseded。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| CH20-D18-1 | 本文Table 1报告的五条跨带连接线（639, 735, 800, 884, 638 keV）的B(E2_out)/B(E2_in)高达0.92–2.35，被作为核内首个“多声子纵向wobbling”模式的证据。定量审计揭示双重物理脆弱性：(1) 在DCO小解分支（|delta| ~ 0.30–0.35）下，所有五条跃迁的B(E2_out)/B(E2_in)遭遇8.19至10.04倍的断崖式暴跌（暴跌至0.100–0.234），而B(M1_out)/B(E2_in)反向暴增5.36至9.57倍（跃升至0.380–0.739 mu_N^2/e^2b^2），使所谓集体E2增强与M1抑制完全退化为单粒子M1跃迁；(2) 声称的二声子带（Band 4）向yrast带（Band 1）的退激反常地以Delta I = 0跃迁为主导，且其强度高于Delta I = 2跃迁，直接违背谐振子wobbling声子两声子退激的选择定则，其拓扑模式与126Xe中准gamma振动带耦合完全相符（后由Nomura 2022 IBFM证实）。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3-5 Table 1；新chakraborty20-127xe-wobbling-result-023 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/chakraborty20-127xe-wobbling-contract-023.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/chakraborty20-127xe-wobbling-result-023.json)4项检查全过。
+| CH20-D18-1 | **superseded**：旧关于“小解下全线崩塌为单粒子/拓扑证明非wobbling”等断言降格，由D18-2/3分层记录。 | task-correction | superseded-interpretation | 本段D18-2/3；旧chakraborty20-127xe-wobbling-result-023 | true |
+| CH20-D18-2 | Table 1报告五条跨带连接线大混合比（delta = -2.1至-3.1）及B(E2_out)/B(E2_in) = 0.92-2.35，受到DCO与偏振不对称度asym支持，作者据此提出多声子纵向wobbling候选；小根（|delta| ~ 0.3）是未被作者采纳的替代分支，非本文测量解。 | source-result-and-selection | direct-and-boundary | PDF p.3 Table 1；Fig. 3 | true |
+| CH20-D18-3 | 在固定其余输入下，若代入小根敏感性分析，E2份额下降8.2-10.0倍；Band 4向yrast带的衰变以Delta I = 0为主，作者指出这类似于126Xe中准gamma振动与基态带的耦合，提示可能存在wobbling与gamma振动的混合。这属于结构模式讨论，不构成对两声子态存在的排他否决。 | interpretation-and-decay-topology | direct-and-derived | PDF pp.3-4；新au-xe-wobbling-boundary-result-052 | true |

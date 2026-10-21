@@ -1,0 +1,141 @@
+{
+  "kind": "raw-anchored-wobbling-boundary-controls",
+  "sources": [
+    {
+      "path": "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf",
+      "sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a"
+    },
+    {
+      "path": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "sha256": "de541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206"
+    },
+    {
+      "path": "raw/papers/2020_Chakraborty et al_Multiphonon longitudinal wobbling in 127Xe.pdf",
+      "sha256": "b04503fce61b249ab1193f395b4276364945d02ced5eac347a5dd2e45df6ea1a"
+    }
+  ],
+  "au187_analysis": {
+    "376keV": {
+      "sensharma_delta": 2.6,
+      "sensharma_fe2": 0.8711,
+      "sensharma_BE2_wu": 164.2,
+      "bourgeois_guo_delta": -0.1,
+      "bourgeois_guo_fe2": 0.0099,
+      "bourgeois_guo_BE2_wu": 1.87,
+      "collapse_ratio": 88.0,
+      "interpretation": "88.0x collapse from 164 W.u. to 1.87 W.u. is a conditional result of replacing delta=2.6 with delta=-0.10(5); Guo 2022 confirms single-particle character rather than collective wobbler."
+    }
+  },
+  "xe127_analysis": {
+    "table1_lines": [
+      {
+        "E_gamma_keV": 639.0,
+        "reported_delta": -2.2,
+        "reported_E2_fraction": 0.8288,
+        "reported_BE2out_in": 2.352,
+        "counterfactual_small_delta": -0.3,
+        "counterfactual_E2_fraction": 0.0826,
+        "counterfactual_BE2out_in": 0.2343,
+        "collapse_factor": 10.04,
+        "jump_factor_M1": 5.36
+      },
+      {
+        "E_gamma_keV": 735.0,
+        "reported_delta": -2.4,
+        "reported_E2_fraction": 0.8521,
+        "reported_BE2out_in": 1.5,
+        "counterfactual_small_delta": -0.32,
+        "counterfactual_E2_fraction": 0.0929,
+        "counterfactual_BE2out_in": 0.1635,
+        "collapse_factor": 9.17,
+        "jump_factor_M1": 6.13
+      },
+      {
+        "E_gamma_keV": 800.0,
+        "reported_delta": -2.9,
+        "reported_E2_fraction": 0.8937,
+        "reported_BE2out_in": 1.346,
+        "counterfactual_small_delta": -0.35,
+        "counterfactual_E2_fraction": 0.1091,
+        "counterfactual_BE2out_in": 0.1644,
+        "collapse_factor": 8.19,
+        "jump_factor_M1": 8.38
+      },
+      {
+        "E_gamma_keV": 884.0,
+        "reported_delta": -3.1,
+        "reported_E2_fraction": 0.9057,
+        "reported_BE2out_in": 0.922,
+        "counterfactual_small_delta": -0.33,
+        "counterfactual_E2_fraction": 0.0982,
+        "counterfactual_BE2out_in": 0.1,
+        "collapse_factor": 9.22,
+        "jump_factor_M1": 9.57
+      },
+      {
+        "E_gamma_keV": 638.0,
+        "reported_delta": -2.4,
+        "reported_E2_fraction": 0.8521,
+        "reported_BE2out_in": 1.364,
+        "counterfactual_small_delta": -0.32,
+        "counterfactual_E2_fraction": 0.0929,
+        "counterfactual_BE2out_in": 0.1487,
+        "collapse_factor": 9.17,
+        "jump_factor_M1": 6.13
+      }
+    ],
+    "interpretation": "8.2-10.0x drop is a counterfactual test using alternative small DCO roots; Chakraborty adopted large roots supported by angular correlation/polarization asymmetry; Delta I = 0 decay topology reflects gamma-vibrational core coupling."
+  },
+  "checks": [
+    {
+      "name": "2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2020_Chakraborty et al_Multiphonon longitudinal wobbling in 127Xe.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "Sensharma 187Au longitudinal wobbling claim",
+      "passed": true
+    },
+    {
+      "name": "Sensharma in-band B(E2) citation 1.49",
+      "passed": true
+    },
+    {
+      "name": "Guo 2022 delta = -0.10(5)",
+      "passed": true
+    },
+    {
+      "name": "Guo 2022 single-particle interpretation",
+      "passed": true
+    },
+    {
+      "name": "187Au collapse factor ~ 88.0",
+      "passed": true
+    },
+    {
+      "name": "187Au true strength in single-particle range",
+      "passed": true
+    },
+    {
+      "name": "Chakraborty 127Xe Table 1 present",
+      "passed": true
+    },
+    {
+      "name": "Chakraborty Delta I = 0 discussion",
+      "passed": true
+    },
+    {
+      "name": "127Xe five lines collapse factor between 8 and 11",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}
