@@ -121,12 +121,12 @@ P1:
 
 Page and all CH19 claims remain unreviewed with `needs_review: true`. Human review is deferred until use: perform targeted claim review when this content is used for paper writing, a key project decision, synthesis finalization or a paper-level evidence pool.
 
-## Day18定量审计：偶偶核横向wobbling声称中的74% M1主导与PRM高估解构
+## Day18 checkpoint053修订：两准粒子M1主导与PRM模型边界
 
-在Day18正式学习中对本文Table I中130Ba两准粒子带间连接线的多极成分与PRM模型符合度进行定量审计，raw SHA256 `26E305B496B2FDFF4596670F772E3B030540B3C24D0830B8E4B4176C8070C768`已核。原CH19-1–7各claim及review状态保持；新CH19-D18-1待审。
+原CH19-claims保持；旧CH19-D18-1降格为superseded。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| CH19-D18-1 | 本文Table I报告130Ba两准粒子pi(h11/2)^2带S1_prime向S1跃迁的混合比在I=13-21跨度内为delta = -0.58至-0.62。定量审计揭示根本性多极定义矛盾：(1) 在该混合比下，跨带线的E2份额严格处于25.2%-27.8%之间，而M1份额高达72.2%-74.8%，跃迁强度完全由磁偶极M1主导；(2) 传统wobbling理论将带间跃迁定义为E2主导的集体声子退激，本文不得不放宽判据，将M1主导归咎于双准粒子M1算符增强，从而模糊了wobbling与传统未偏爱特征伙伴带的物理界限；(3) 裸PRM模型在全自旋区系统性高估B(M1_out)/B(E2_in)达1.47至3.30倍（I=17处理论为0.76对实验0.23）。这表明在缺乏绝对寿命测量提供B(E2)绝对增强标尺前，仅凭M1主导的带间衰变无法确立偶偶核横向wobbling的存在。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2-3 Table I；新chen19-130ba-wobbling-result-029 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/chen19-130ba-wobbling-contract-029.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/chen19-130ba-wobbling-result-029.json)4项检查全过。
+| CH19-D18-1 | **superseded**：旧关于“无法确立横向wobbling”的断言降格，由CH19-D18-2/3分层记录作者对130Ba带间跃迁72%-75% M1主导的承认与两准粒子/剪刀振动物理机制解释。 | task-correction | superseded-interpretation | 本段D18-2/3；旧chen19-130ba-wobbling-result-029 | true |
+| CH19-D18-2 | 本文Table I报告130Ba两准粒子带S1_prime向S1连接线混合比为delta = -0.58至-0.62，对应E2份额25.2%-27.8%、M1份额72.2%-74.8%；作者明确指出该跃迁以磁偶极为主，并将其解释为两准粒子构型中大内禀磁矩与剪刀振动模式耦合带来的M1增强。 | source-result-and-method | direct | PDF pp.2-3 Table I；Sec. III | true |
+| CH19-D18-3 | PRM理论计算在I=13至21范围内预测B(M1_out)/B(E2_in)为0.63至1.11，系统高出实验测量（0.23至0.43）1.47至3.30倍；作者指出这反映了模型对集体声子与粒子自由度耦合强度的过高估计，但能量与角动量取向仍支持两准粒子横向摆动图像。 | author-interpretation-boundary | direct-and-boundary | PDF pp.2-3 Table I；Sec. IV | true |

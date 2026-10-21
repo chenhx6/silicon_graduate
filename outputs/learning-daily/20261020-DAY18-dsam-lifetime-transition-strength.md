@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint053：130Ba两准粒子M1主导与129Ba多极根敏感性边界
+
+130Ba两准粒子带间连接线（Chen 2019 Table I）经72.2%-74.8% M1主导及PRM高估1.47-3.30倍分层，两准粒子磁矩增强与剪刀振动耦合解释保留；129Ba 365 keV现代重分析（Chakraborty 2024）大解（80% E2）与历史采用解（40% E2）及反事实小解（9.8% E2）对比，历史偏振P = 0.072(68)距零1.06sigma具边际统计性质。新15项结果完成检验，旧两项serializer安全退役。
+
 ### checkpoint052：187Au偏振/内转换判据与127Xe两声子衰变拓扑边界
 
 187Au角分布大解（Sensharma 2020）与线偏振/内转换小解（Guo 2022 / Bourgeois 1989）的88倍条件强度差异完成分层，QTR单粒子解释与wobbling模型边界分列；127Xe Table 1大根为作者采纳解，小根为反事实敏感性分析，二声子Delta I = 0衰变拓扑提示准gamma振动耦合。新12项结果完成检验，旧两项serializer安全退役。
@@ -1794,12 +1798,16 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-      "anchor": "Day18定量审计：历史数据重解释中混合比根敏感性与偏振1.06sigma显著性",
-      "summary": "365 keV关键连接线在历史采纳解与大解之间存在8.15倍E2崩塌及偏振仅1.06sigma无判决力解构",
+      "anchor": "Day18 checkpoint053修订：现代重分析多极根敏感性与偏振统计边界",
+      "summary": "checkpoint053分层129Ba现代重分析多极根敏感性、历史偏振1.06sigma统计边界与纵向摆动模型讨论",
       "sources": [
         {
           "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "locator": "CH24-D18-14"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D18-15"
         }
       ]
     },
@@ -1836,15 +1844,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "chakraborty-2024-possibility-wobbling-129ba",
-      "summary": "索引增加129Ba历史数据wobbling重解释混合比敏感性与1.06sigma偏振反例导航",
+      "summary": "checkpoint053分层129Ba现代重分析多极根敏感性、历史偏振1.06sigma统计边界与纵向摆动模型讨论",
       "sources": [
         {
           "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "locator": "CH24-D18-14"
         },
         {
           "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
-          "locator": "CH24-D18-1"
+          "locator": "CH24-D18-15"
         }
       ]
     },
@@ -2095,12 +2103,16 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-      "anchor": "Day18定量审计：偶偶核横向wobbling声称中的74% M1主导与PRM高估解构",
-      "summary": "Table I中带间连接线E2仅占25-28%而M1占72-75%的主导矛盾及PRM高估BM1达1.5-3.3倍解构",
+      "anchor": "Day18 checkpoint053修订：两准粒子M1主导与PRM模型边界",
+      "summary": "checkpoint053分层130Ba两准粒子带间连接线72-75% M1主导、两准粒子磁矩与剪刀振动耦合解释及PRM高估对照",
       "sources": [
         {
           "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "locator": "CH19-D18-2"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D18-3"
         }
       ]
     },
@@ -2137,15 +2149,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "chen-2019-transverse-wobbling-even-even",
-      "summary": "索引增加130Ba偶偶核横向wobbling 74% M1主导矛盾与PRM高估审计导航",
+      "summary": "checkpoint053分层130Ba两准粒子带间连接线72-75% M1主导、两准粒子磁矩与剪刀振动耦合解释及PRM高估对照",
       "sources": [
         {
           "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "locator": "CH19-D18-2"
         },
         {
           "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
-          "locator": "CH19-D18-1"
+          "locator": "CH19-D18-3"
         }
       ]
     },
@@ -3803,6 +3815,12 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint053已实际提交，稳定指针main / `Audit 130Ba two-quasiparticle M1-dominance and 129Ba multipole root boundaries`；精确hash/H3/远端结果只publication-053回执。
+
+
+checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
+
 
 checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
 

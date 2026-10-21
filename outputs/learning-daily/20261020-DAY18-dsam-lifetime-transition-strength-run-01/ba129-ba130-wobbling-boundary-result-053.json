@@ -1,0 +1,159 @@
+{
+  "kind": "raw-anchored-ba-wobbling-boundary-controls",
+  "sources": [
+    {
+      "path": "raw/papers/2019_Chen et al_Transverse wobbling in an even-even nucleus.pdf",
+      "sha256": "26e305b496b2fdff4596670f772e3b030540b3c24d0830b8e4b4176c8070c768"
+    },
+    {
+      "path": "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf",
+      "sha256": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808"
+    }
+  ],
+  "ba130_analysis": {
+    "states": [
+      {
+        "spin": 13,
+        "delta_rep": -0.58,
+        "E2_fraction": 0.2517,
+        "M1_fraction": 0.7483,
+        "BM1_exp": 0.36,
+        "BM1_PRM": 1.11,
+        "PRM_over_exp_BM1": 3.08,
+        "BE2_exp": 0.32,
+        "BE2_PRM": 0.51
+      },
+      {
+        "spin": 15,
+        "delta_rep": -0.62,
+        "E2_fraction": 0.2777,
+        "M1_fraction": 0.7223,
+        "BM1_exp": 0.38,
+        "BM1_PRM": 0.9,
+        "PRM_over_exp_BM1": 2.37,
+        "BE2_exp": 0.36,
+        "BE2_PRM": 0.42
+      },
+      {
+        "spin": 17,
+        "delta_rep": -0.62,
+        "E2_fraction": 0.2777,
+        "M1_fraction": 0.7223,
+        "BM1_exp": 0.23,
+        "BM1_PRM": 0.76,
+        "PRM_over_exp_BM1": 3.3,
+        "BE2_exp": 0.22,
+        "BE2_PRM": 0.35
+      },
+      {
+        "spin": 19,
+        "delta_rep": -0.6,
+        "E2_fraction": 0.2647,
+        "M1_fraction": 0.7353,
+        "BM1_exp": 0.25,
+        "BM1_PRM": 0.67,
+        "PRM_over_exp_BM1": 2.68,
+        "BE2_exp": 0.22,
+        "BE2_PRM": 0.29
+      },
+      {
+        "spin": 21,
+        "delta_rep": -0.6,
+        "E2_fraction": 0.2647,
+        "M1_fraction": 0.7353,
+        "BM1_exp": 0.43,
+        "BM1_PRM": 0.63,
+        "PRM_over_exp_BM1": 1.47,
+        "BE2_exp": 0.41,
+        "BE2_PRM": 0.25
+      }
+    ],
+    "mean_E2_fraction": 0.2673,
+    "mean_M1_fraction": 0.7327,
+    "interpretation": "Interband transitions are 72.2%-74.8% M1; author acknowledges this and attributes it to two-quasiparticle M1 enhancement and scissors coupling. PRM overpredicts BM1 by 1.47-3.30x."
+  },
+  "ba129_analysis": {
+    "transition_365keV": {
+      "large_root": {
+        "delta": -2.0,
+        "E2_fraction": 0.8
+      },
+      "historical_adopted_root": {
+        "delta_midpoint": -0.815,
+        "E2_fraction": 0.3991
+      },
+      "small_root": {
+        "delta": -0.33,
+        "E2_fraction": 0.0982
+      },
+      "polarization_P": 0.072,
+      "polarization_err": 0.068,
+      "polarization_significance_sigma": 1.06,
+      "interpretation": "Large delta ~ -2.0 gives 80% E2, while historical root gives 40% E2 (signature partner). Polarization P=0.072(68) is Z=1.06 sigma from zero, providing marginal statistical discrimination."
+    }
+  },
+  "checks": [
+    {
+      "name": "Chen 2019 130Ba hash",
+      "passed": true
+    },
+    {
+      "name": "Chakraborty 2024 129Ba hash",
+      "passed": true
+    },
+    {
+      "name": "130Ba Table I present",
+      "passed": true
+    },
+    {
+      "name": "130Ba author acknowledges ~25% E2 component",
+      "passed": true
+    },
+    {
+      "name": "130Ba author notes scissors coupling",
+      "passed": true
+    },
+    {
+      "name": "130Ba E2 fraction between 25% and 28%",
+      "passed": true
+    },
+    {
+      "name": "130Ba M1 fraction between 72% and 75%",
+      "passed": true
+    },
+    {
+      "name": "130Ba PRM BM1 overestimation between 1.4x and 3.3x",
+      "passed": true
+    },
+    {
+      "name": "129Ba 365 keV transition discussed",
+      "passed": true
+    },
+    {
+      "name": "129Ba linear polarization P=0.072(68) printed",
+      "passed": true
+    },
+    {
+      "name": "129Ba historical delta -0.84 to -0.79 cited",
+      "passed": true
+    },
+    {
+      "name": "129Ba large root E2 fraction ~ 80%",
+      "passed": true
+    },
+    {
+      "name": "129Ba historical adopted root E2 fraction ~ 40%",
+      "passed": true
+    },
+    {
+      "name": "129Ba small root E2 fraction ~ 9.8%",
+      "passed": true
+    },
+    {
+      "name": "129Ba polarization significance ~ 1.06 sigma",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}

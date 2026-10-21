@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T01:33:32.402073+00:00",
+  "subject": "Audit 130Ba two-quasiparticle M1-dominance and 129Ba multipole root boundaries",
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-053.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-053.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification053 valid; lint0; boundary0; diff0; 15 ba129/ba130 assertions; no credit; original deadline preserved"
+}

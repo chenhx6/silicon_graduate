@@ -4,6 +4,8 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint053：130Ba/129Ba两准粒子M1主导与多极根敏感性边界完成，继续Day18。
+
 
 checkpoint052：187Au/127Xe多极解与衰变拓扑边界完成，继续Day18。
 
@@ -93,6 +95,9 @@ checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相
 # 跨会话交接
 
 ## Active handoff — DAY18 independent session active
+
+checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
+
 
 checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
 

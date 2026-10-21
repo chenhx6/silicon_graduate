@@ -906,3 +906,9 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 [[sensharma-2020-longitudinal-wobbling-187au]] SE20-D18-2/3 与 [[guo-2022-low-spin-wobbling-187au]] GU22-D18-2/3 构成了187Au带间强度的典型争议案例：角分布大解（delta=2.6）下对应~164 W.u.，而在偏振/内转换确立的小解（delta=-0.10(5)）下条件塌缩88倍至1.87 W.u.，展现了多极解对强度提取的巨大影响。QTR计算支持Band 2为单粒子轨道激发。
 
 [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] CH20-D18-2/3 报告大解及E2增强，小根为反事实敏感性分析（塌缩8-10倍）；二声子候选带向yrast带的Delta I = 0衰变拓扑反映了准gamma振动耦合特征。新 [au-xe-wobbling-boundary-result-052](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/au-xe-wobbling-boundary-result-052.json) 包含12项检验，不制造实验置信区间。
+
+## 130Ba两准粒子M1主导与129Ba多极根敏感性边界（checkpoint053）
+
+[[chen-2019-transverse-wobbling-even-even]] CH19-D18-2/3 表明：130Ba Table I带间跃迁delta = -0.58至-0.62对应72.2%-74.8% M1主导，作者明确承认此现象并归因于两准粒子磁矩与剪刀振动耦合，PRM高估BM1约1.5-3.3倍，属于集体与单粒子混合效应。
+
+[[chakraborty-2024-possibility-wobbling-129ba]] CH24-D18-14/15 表明：129Ba 365 keV重分析中大根delta ~ -2.0（80% E2）与历史采用根（~40% E2）和反事实小根（~9.8% E2）对应不同多极分布，历史偏振P = 0.072(68)距零1.06sigma具边际统计性质。新 [ba129-ba130-wobbling-boundary-result-053](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ba129-ba130-wobbling-boundary-result-053.json) 包含15项检验，不制造实验置信区间。

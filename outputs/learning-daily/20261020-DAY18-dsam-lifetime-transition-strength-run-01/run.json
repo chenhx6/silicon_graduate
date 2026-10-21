@@ -71,13 +71,13 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "052 published; original deadline preserved",
+  "last_checkpoint": "053 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
     "subject": "Audit 187Au multipole-collapse and 127Xe decay topology boundaries",
-    "commit_hash": "521e1d7bcbc60ae0a304bc35feff0e1db6c7b7f6",
+    "commit_hash": "6c9c971e08428755a7eb6a7dadbbaab5dadeb978",
     "outcome": "pushed",
     "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-052.json"
   },
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 187Au multipole-collapse and 127Xe decay topology boundaries"
+    "subject": "Audit 130Ba two-quasiparticle M1-dominance and 129Ba multipole root boundaries"
   },
   "uncredited_preview": {
     "day_index": 19,

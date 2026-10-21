@@ -37,7 +37,7 @@ updated: 2026-10-20
 
 - [[mukherjee-2023-transverse-wobbling-151eu]] — 151Eu 横向 wobbling 混合比小解 600 倍塌缩与边缘 1sigma 偏振不对称度有效度边界。
 
-- [[chakraborty-2024-possibility-wobbling-129ba]] — 129Ba 历史数据重解释中混合比根敏感性、8 倍 E2 崩塌与 1.06sigma 偏振无判决力反例。
+- [[chakraborty-2024-possibility-wobbling-129ba]] — 129Ba 365 keV 现代重分析混合比根敏感性与偏振 1.06sigma 统计边界。
 
 - [[jensen-2002-second-phonon-wobbling-163lu]] — 163Lu 二声子 wobbling 标度对 476 keV 无偏振小解的 27 倍敏感性与 Delta n=2 纯伸展 E2 拓扑基准。
 
@@ -49,7 +49,7 @@ updated: 2026-10-20
 
 - [[babra-2019-deformation-change-136sm]] — 136Sm DSAM 寿命、加权回归 Qt 显著性（-2.72sigma）与 15% 阻停系统误差包络审计。
 
-- [[chen-2019-transverse-wobbling-even-even]] — 130Ba 偶偶核两准粒子横向 wobbling 声称中 74% M1 主导矛盾与 PRM 高估审计。
+- [[chen-2019-transverse-wobbling-even-even]] — 130Ba 偶偶核两准粒子带间连接线 72%–75% M1 主导、剪刀耦合解释与 PRM 对照。
 
 - [[lv-2021-tilted-precession-135nd]] — TiP逐线样本与跨核外推边界；见最新Day18源页修订。
 

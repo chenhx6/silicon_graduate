@@ -1,3 +1,5 @@
+checkpoint053：130Ba/129Ba两准粒子M1主导与多极根敏感性边界完成，继续Day18。
+
 checkpoint052：187Au/127Xe多极解与衰变拓扑边界完成，继续Day18。
 
 checkpoint051：高自旋根选择与偏振边界完成，继续Day18。
@@ -77,6 +79,9 @@ checkpoint014：167Lu Table 1深入定量审计（AM03-D18-1），揭示SpeeDCO�
 checkpoint013：135Nd Table I深入定量审计（MU07-D18-1/2），揭示tau相差2倍而B(E2)相近的分支比补偿机制，与136Nd形成寿命—强度非一一对应的双向反例。40项writeback已通过验证。原硬截止明日15点保持。
 
 # Day18原session持续学习
+
+checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
+
 
 checkpoint052已实际提交，稳定指针main / `Audit 187Au multipole-collapse and 127Xe decay topology boundaries`；精确hash/H3/远端结果只publication-052回执。
 
