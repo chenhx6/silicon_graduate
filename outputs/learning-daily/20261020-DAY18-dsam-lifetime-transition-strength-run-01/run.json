@@ -78,10 +78,10 @@
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Audit Mukhopadhyay 2008 Table II B(M1) internal conversion and Chiara 2001 closure",
-    "commit_hash": "e530e7cadc6e65740708345d5c0700031e5c3a06",
+    "subject": "Audit Weisskopf collectivity scaling and collective collapse in 136Nd and 165Tm",
+    "commit_hash": "ece518323ada8df497919ee394111c04ddf71071",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-075.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-076.json"
   },
   "native_goal_last_observation": {
     "status": "active",

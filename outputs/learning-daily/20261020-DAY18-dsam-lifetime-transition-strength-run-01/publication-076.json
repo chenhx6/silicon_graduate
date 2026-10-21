@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-21T05:12:00.000000+00:00",
+  "branch": "main",
+  "subject": "Audit Weisskopf collectivity scaling and collective collapse in 136Nd and 165Tm",
+  "commit_hash": "ece518323ada8df497919ee394111c04ddf71071",
+  "git_executable": "/usr/bin/git",
+  "git_version": "git version 2.43.0",
+  "common_git_dir": ".git",
+  "refspec": "HEAD:main",
+  "remote": "origin Gitee SSH",
+  "exact_manifest": [
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/closeout-readiness-result-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-076.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publish-manifest-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/weisskopf-collectivity-result-076.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day18_closeout_readiness_audit.py",
+    "system/scripts/day18_weisskopf_collectivity_audit.py"
+  ],
+  "steps": [
+    {
+      "step": "diff-stat",
+      "exit": 0,
+      "output": "saved output"
+    },
+    {
+      "step": "cached-names",
+      "exit": 0,
+      "output": "saved output"
+    },
+    {
+      "step": "cached-check",
+      "exit": 0,
+      "output": "saved output"
+    },
+    {
+      "step": "fetch",
+      "exit": 0,
+      "output": "fetched main"
+    },
+    {
+      "step": "ancestry",
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "step": "dry-run",
+      "exit": 0,
+      "output": "dry-run passed"
+    },
+    {
+      "step": "push",
+      "exit": 0,
+      "output": "pushed to main"
+    }
+  ],
+  "outcome": "pushed",
+  "origin_main_matches": true
+}
