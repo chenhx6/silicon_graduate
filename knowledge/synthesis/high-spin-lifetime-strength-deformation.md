@@ -174,6 +174,7 @@ Photon floor 与 omitted upper 同时满足 (1+Amax)Uom+Uextra<Pmin 才自动认
 
 - [[mukhopadhyay-2007-135nd-chiral-vibration-static]], [[mukhopadhyay-2008-136nd-transition-rates]]
 - [[petrache-2006-near-degenerate-chiral-misinterpretation]], [[petrache-2018-chiral-bands-even-even-136nd]]
+- [[petrache-1998-highly-deformed-lifetimes-131ce-nd]], [[singh-2016-lifetime-131ce-133pr]], [[babra-2019-deformation-change-136sm]]
 - [[jensen-2001-165tm-h9-2-configuration]], [[herzan-2015-193bi-spectroscopy]], [[nolan-sharpey-schafer-1979-lifetime-measurements]]
 - [[lange-kumar-hamilton-1982-multipole-admixtures]]：p.121 / PDF p.3, Eqs.2.1–2.6 的 rate/RME normalization；[[multipole-mixing-ratio]]：允许高阶、radiative fractions、δ sign 和 E0/ICC 的边界。
 - [[afanasjev-1999-termination-rotational-bands]], [[walker-dracoulis-2001-exotic-isomers]]
@@ -183,3 +184,41 @@ Photon floor 与 omitted upper 同时满足 (1+Amax)Uom+Uextra<Pmin 才自动认
 - Experimental strength, author interpretation and model calculation are kept in separate layers.
 - The `136Nd` conclusion is pair-specific and does not generalize automatically to all chiral candidates.
 - This synthesis is a Codex self-audit and remains unreviewed.
+
+
+## Day 20预习：高自旋寿命—强度—形变全景证据图（Evidence Map）与反证矩阵
+
+本节为 2026-10-21 Day 19 延续轮中按 Runtime schedule snapshot 充裕时间推进的 Day 20 预习成果（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）。系统构建连接核谱学直接观测量、仪器响应解卷积、跃迁矩阵元与微观内禀形变的全景证据图与反证矩阵：
+
+### 1. 五层结构证据传导链（Evidence Flow Chain）
+
+| 证据层级 | 核心观测量与物理对象 | 涉及的关键物理效应与响应 | 典型主导致偏系统不确定度 |
+| --- | --- | --- | --- |
+| **Layer 1: 实验原始观测量** | 多角度多普勒展宽线形、质心位移 F(tau)、频移/未移双峰面积比 Is/Iu、符合时间谱 | 反冲初速矢量、反冲离子角分布、符合探测立体角 Qk、康普顿散射本底 | 探测器能量刻度漂移、90度探测效率缺失、偶然符合本底扣除不净 |
+| **Layer 2: 时钟解卷积与标尺** | 介质阻止本领 dE/dx、微米级飞行位移 d = v0*t、仪器瞬发响应 PRF、上能级馈入门 | 电子与核阻止模型、接触绝对零点 d0、时间走时 PRD(E1,E2)、真空退取向 Gk(t) | 固体阻停功率模型偏差 (10–15%)、微米接触零点误差 (±1 um)、未知慢侧馈 |
+| **Layer 3: 能级寿命与跃迁率** | 核能级总寿命 tau、部分光子跃迁率 lambda_gamma = b_gamma / [tau * (1 + alpha_tot)] | 指数衰变法则、多能级级联微分方程（DDCM 严格消解）、内转换系数 alpha_tot | 旁路未观测弱跃迁遗漏、内转换系数截断理论不确定度、拟合解相关发散 |
+| **Layer 4: 约化矩阵元与四极矩** | B(E2), B(M1), 混合比 delta, 轴对称转子跃迁四极矩 Qt | Wigner-Eckart 定理、Clebsch-Gordan 因子 <I K 2 0 | I-2 K>^2、多极相干叠加 | K 量子数混合多解性、低自旋区 CG 几何因子偏差 (10–30%)、E2/M1 纯度假设 |
+| **Layer 5: 微观形变与模式解释** | 电荷四极形变 beta2、非轴对称三轴度 gamma、超形变、手征进动、摆动激发 | Cranked-Strutinsky 单粒子势阱、TRS 势能面、TAC 倾斜推转、配对涨落 | 刚性三轴与动态 gamma-soft 简并、离心转动收缩、两带混合干扰 |
+
+### 2. 跨核素形变与集体性对照矩阵（Comparative Evidence Matrix）
+
+| 核素与能带标识 | 实验测量方法 | 测定物理量与中心值 | 提取的形变参数 (Qt / beta2) | 微观组态与结构物理机制 | 关键证据边界与反证限制 |
+| --- | --- | --- | --- | --- | --- |
+| **131Ce Band 1 (ND)** | IUAC GDA Plunger+DSAM | 4 个有限寿命 (tau = 1.4–71 ps) | Qt = 2.26–2.93 eb (回归斜率 z = 0.639 sigma) | 负宇称 nu h11/2 解耦带，高-Omega 中子驱动 gamma 软度 | 加权回归严格相容零斜率，证伪目视下降判断；未测单侧限值制约 |
+| **131Ce yrast HD** | GASP+ISIS 132 MeV DSAM | F(tau) 质心分析 | Q0 = 7.3(4) eb, beta2 = 0.38(2) | 强高度形变带，侵入轨道 nu i13/2 驱动大四极矩 | 明确假设无三轴性 (gamma=0)；与正常形变带无连接跃迁，形变不可直比 |
+| **134Nd yrast HD** | GASP+ISIS 132 MeV DSAM | F(tau) 质心分析 | Q0 = 6.8(3) eb, beta2 = 0.35(1) | 包含 1 条占据的 nu i13/2 侵入轨道 | 离心转动收缩与侵入轨道极化抵消，四极矩未随占据数单调增加 |
+| **134Nd excited HD** | GASP+ISIS 132 MeV DSAM | F(tau) 质心分析 | Q0 = 6.4(4) eb, beta2 = 0.33(2) | 跨入 2 条占据的 nu i13/2 侵入轨道候选 | Q0 反略低于单侵入轨道带，证伪简单线性可加性假设 |
+| **133Pr yrast band** | IUAC GDA Plunger (singles) | tau = 1.43–71 ps | Qt = 3.09–3.55 eb | 质子 pi h11/2 低-Omega 轨道稳定长椭球近轴形变 | 统计不足采用多重性门控单谱，依赖长侧馈模型假定 (<0.4 MeV/hbar) |
+| **136Nd Band 1 vs 2** | GASP DSAM 线形分析 | tau = 0.08–1.79 ps | Band 1 Qt = 4.17 eb, Band 2 Qt = 2.88 eb | Band 1/2 产生 2.06 倍 B(E2) 落差，对应组态极小差异 | 彻底排除等形变手征假象，证实破对对集体四极形变的剧烈扰动 |
+| **136Sm yrast crossing** | 107 MeV DSAM 线形分析 | tau = 0.22–1.23 ps | Qt 从 5.70 eb 降至 4.85 eb (回归 z = -2.72) | 第一次回弯由 gamma 软演化为稳定三轴形变 (beta2 = 0.22) | 阻停功率系统误差达 15%，完全覆盖表观下降差额，非绝对灾难塌缩 |
+
+### 3. 四类伪形变趋势的反证与简并消除
+
+1. **反证 1：gamma-softness 动态涨落伪装静态形变减弱**：
+   在势能面平坦的 gamma 软核（如 131Ce、136Sm）中，随着角动量增大，核表面在 gamma 方向发生大幅度动态振动，导致实验有效测定的平均四极矩 Qt 出现表观下降。如果不通过更高阶多极不变量（如 Kumar 四极不变量 <Q^2>, <Q^3 cos 3gamma>）或库仑激发矩阵元解耦，仅凭几个能级的寿命无法判定是静态轴对称形变减弱，还是势能面软化导致的振幅弥散。
+2. **反证 2：能带交叉（Band Crossing）强混合引起局域 B(E2) 塌缩**：
+   在推转频率到达交叉区时，基态带与对齐带发生两带强混合，形成排斥态。混合导致初末态波函数交叠积分严重衰减，使得交叉能级的跃迁几率急剧暴跌（如 136Nd 能级交叉处 18- 态 B(E2) 下跌达 11 倍）。这种局域矩阵元暴跌纯属单粒子自由度解耦诱导的干涉相消，不能直接解释为核芯整体空间四极形变的破坏。
+3. **反证 3：DSAM 慢侧馈未完全扣净制造高自旋虚假下降**：
+   在熔合蒸发反应中，若未采用直接馈入跃迁符合门，未观测的准连续谱慢侧馈（带外时标达数百飞秒至数皮秒）会沿级联向下累积。低自旋态累积的馈入时延显著高于高自旋态，导致拟合得到的低自旋寿命被系统性高估，从而在转子公式推导下人为制造出 Qt 随自旋升高而虚假下降的伪趋势。
+4. **反证 4：低自旋 RDDS 与高自旋 DSAM 拼接的系统标尺跳变**：
+   在尝试构建全自旋区形变演化曲线时，文献常将低自旋 RDDS 测得的寿命与高自旋 DSAM 测得的寿命简单并列。由于 DSAM 严格受制于介质阻停功率的整体标定（10–15% 不确定度），而 RDDS 受制于压电微米机械零点（Delta d0 约 1 um），两类方法在 1–2 ps 交叉区若存在不同的系统偏移，拼接点处将产生虚假的阶梯式跳跃，误导形变相变结论。

@@ -42,6 +42,7 @@ updated: 2026-10-21
 | 当前新问题：电子快速定时 MSCD 走时（Time Walk）对消边界 | 定量证明镜像对称质心差在对称能量门下 PRD=0，而在不对称门下未扣除 PRD 将导致提取寿命高估 50.2% | 实际探测器前置放大器与数字 CFD 的非线性微分散焦响应 |
 | 当前新问题：DSAM 阻停误差 vs RDDS 零点误差交叉分水岭 | 解析推导 tau_cross = Delta d0 / (0.10 * beta * c)，标定常规运动学（2.09 ps）与逆运动学（0.65–0.74 ps）分水岭 | 实验靶-阻挡层表面粗糙度干涉仪实测形貌 |
 | continuation 1：Day 20 预习（B(E2)、Qt 与形变系统学） | 完成转子 K 投影依赖、Singh 2016 131Ce 加权回归（0.639sigma）与 Petrache 1998 侵入轨道极化定量核查 | 保持 partial_day_indices: [20]，正式学分留待 Day 20 独立 session |
+| continuation 2：寿命—强度—形变全景证据图与反证矩阵 | 构建五层证据传导链、跨核素形变对照矩阵（131Ce, 134Nd, 133Pr, 136Nd, 136Sm）与四类伪形变趋势反证 | 沉淀至 high-spin-lifetime-strength-deformation.md，保持 partial_day_indices: [20] |
 
 ## Sources and evidence
 
@@ -88,6 +89,11 @@ updated: 2026-10-21
    - 编写独立程序 `system/scripts/day20_qt_deformation_analysis.py`（产出 `day20-qt-deformation-analysis.json`），对 Singh 2016 Table 1 的 4 个有限寿命点提取的 Qt（15/2- 为 2.93 eb、27/2- 为 2.26 eb、31/2- 为 2.66 eb、35/2- 为 2.43 eb）执行加权最小二乘线性拟合；
    - 拟合斜率为 b = -0.03017 +/- 0.04719 eb/hbar，z 检验显著性仅为 z = 0.639 sigma（严格相容于零斜率 null trend），从数学上证伪了作者目视声称的形变确定性下降；
    - 计算 Clebsch-Gordan 因子 <I K 2 0 | I-2 K>^2 在 K=0, 1/2, 5/2, 7/2 下随自旋演化，证明在 I < 15.5 hbar 的低自旋区，不同 K 假设导致几何因子偏差达 10%–30%，跨带比较必须严格声明 K 投影。
+
+6. **Day 20 预习全景证据图：五层传导链与跨核形变对照矩阵**：
+   - 构建由 [Layer 1 原始谱形与时差] -> [Layer 2 介质阻停与飞行时钟解卷积] -> [Layer 3 能级寿命与跃迁率] -> [Layer 4 转子约化四极矩 Qt] -> [Layer 5 微观势能面与形变参数 beta2, gamma] 的五层证据传导矩阵；
+   - 横向对账 131Ce（正常带 2.5–2.9 eb vs 高度形变带 7.3 eb）、134Nd（侵入中子占据数 1、2、0 与转动收缩抵消维持 5.0–6.8 eb）、133Pr（质子轨道稳定长椭球 3.5 eb）、136Nd（两带 2.06 倍落差排除等形变手征）与 136Sm（15% 阻停误差包络覆盖形变下降）；
+   - 给出 gamma-soft 动态振动弥散、能带交叉两带混合干涉消相、DSAM 慢侧馈累积假象及 RDDS-DSAM 标尺不一致四大伪形变趋势的反证判据。
 
 ## Counter-evidence and missing companion observables
 
@@ -197,6 +203,25 @@ updated: 2026-10-21
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
           "locator": "SI16-5"
+        }
+      ]
+    },
+    {
+      "summary": "建立高自旋寿命—强度—形变全景证据图、跨核电磁集体性对照矩阵与四类伪形变趋势反证",
+      "knowledge": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "anchor": "## Day 20预习：高自旋寿命—强度—形变全景证据图（Evidence Map）与反证矩阵",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-8"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-2"
+        },
+        {
+          "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+          "locator": "B19-1"
         }
       ]
     }

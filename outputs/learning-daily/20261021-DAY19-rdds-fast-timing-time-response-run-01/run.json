@@ -12,31 +12,27 @@
   "acceptance_only": false,
   "overnight_until": "2026-10-22T15:00:00+08:00",
   "max_continuations": 96,
-  "continuation_count": 0,
-  "continuation_batch_count": 0,
+  "continuation_count": 1,
+  "continuation_batch_count": 1,
   "continuation_batches": 1,
-  "counted_in_substantive_test": true,
+  "counted_in_substantive_test": false,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "completed",
+  "status": "running",
   "started_at": "2026-10-21T17:29:52.067160+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
-  "completed_day_indices": [
-    19
-  ],
-  "partial_day_indices": [
-    20
-  ],
-  "curriculum_cards_completed": 1,
+  "completed_day_indices": [],
+  "partial_day_indices": [],
+  "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-22T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-21T17:29:52.067160+08:00",
+    "now_local": "2026-10-21T18:05:51.465595+08:00",
     "hard_deadline": "2026-10-22T15:00:00+08:00",
     "next_scheduled_start": "2026-10-22T16:00:00+08:00",
-    "minutes_to_deadline": 1290,
-    "minutes_to_next_start": 1350,
+    "minutes_to_deadline": 1254,
+    "minutes_to_next_start": 1314,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -44,47 +40,31 @@
     "decision": "continue-or-advance"
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/prompt.md",
-  "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
-  "resume_command": [
-    "codex",
-    "resume",
-    "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
-    "-C",
-    "/workspace/wiki",
-    "-s",
-    "danger-full-access",
-    "-a",
-    "never"
+  "continuation_runs": [
+    {
+      "number": 1,
+      "study_continuation_number": 1,
+      "kind": "study",
+      "returncode": 0,
+      "events": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-001-events.jsonl",
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-001-prompt.md",
+      "last_message": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-001-last-message.md",
+      "time_snapshot": {
+        "now_local": "2026-10-21T18:05:51.465595+08:00",
+        "hard_deadline": "2026-10-22T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-22T16:00:00+08:00",
+        "minutes_to_deadline": 1254,
+        "minutes_to_next_start": 1314,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      }
+    }
   ],
-  "baseline_file": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/baseline-001.json",
-  "recall_freeze": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/active-recall-freeze.json",
-  "research_status": "completed",
-  "last_checkpoint": "002 Day 20 pre-study on Qt deformation systematics and weighted regression",
-  "uncredited_preview": {
-    "day_index": 20,
-    "status": "partial",
-    "formal_credit": false,
-    "statefile": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/day20-preview-state-001.json"
-  },
-  "next_day_index": 20,
-  "formal_credit": true,
-  "deliverables_passed": true,
-  "study_window_closed": true,
-  "closeout_on_time": true,
-  "finished_at": "2026-10-21T17:56:41.196445+08:00",
-  "research_stopped_at": "2026-10-21T17:56:41.196445+08:00",
-  "latest_publication": {
-    "branch": "main",
-    "subject": "Audit B(E2), Qt and deformation systematics for Day 20 pre-study",
-    "commit": "b552ad4343929d5e349beb93a7ffc4ec75b52dfc",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-002.json",
-    "status": "pushed"
-  },
-  "final_release": {
-    "branch": "main",
-    "subject": "Audit B(E2), Qt and deformation systematics for Day 20 pre-study",
-    "commit": "b552ad4343929d5e349beb93a7ffc4ec75b52dfc",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-002.json",
-    "status": "pushed"
-  }
+  "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+  "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-001-prompt.md",
+  "closeout_turn": null,
+  "closeout_window_missed": false
 }

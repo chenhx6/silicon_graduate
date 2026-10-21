@@ -2777,3 +2777,11 @@ Day 19 独立课程 session（run_id: 2026-10-21-day-19-01, session_id: 01a15dcc
 2. 严格加权最小二乘线性拟合 Singh 2016 131Ce yrast 4 个有限寿命点，证实斜率仅 -0.030(47) eb/hbar（z = 0.639 sigma 严格相容零斜率），证伪目视下降判断；
 3. 分析 Petrache 1998 Table 1 五条高度形变带，澄清 nu i13/2 极化效应与离心转动收缩相互抵消的物理机理；
 4. 沉淀至 knowledge/observables/transition-quadrupole-moment.md，更新日报并通过 validate_writeback。
+
+## 2026-10-21 DAY19 continuation 002 (checkpoint003)：高自旋寿命—强度—形变全景证据图与反证矩阵
+
+延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 构建五层证据传导链（原始多普勒谱形 -> 时钟解卷积 -> 能级寿命与跃迁率 -> 约化四极矩 Qt -> 微观势能面与形变 beta2, gamma）；
+2. 建立跨核素形变对照矩阵（131Ce 正常带 2.5–2.9 eb vs HD 带 7.3 eb、134Nd 侵入中子占据数与离心收缩抵消维持 5.0–6.8 eb、133Pr 质子长椭球 3.5 eb、136Nd 两带 2.06 倍落差排除等形变手征、136Sm 15% 阻停误差包络覆盖形变下降）；
+3. 确立四大伪形变趋势反证判据（gamma-soft 动态弥散、能带交叉混合相消、DSAM 慢侧馈累积假象、RDDS-DSAM 标尺跳变）；
+4. 沉淀至 knowledge/synthesis/high-spin-lifetime-strength-deformation.md，更新日报并通过 validate_writeback。
