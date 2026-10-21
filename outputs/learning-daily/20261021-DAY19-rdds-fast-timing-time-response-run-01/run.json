@@ -59,7 +59,7 @@
   "baseline_file": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/active-recall-freeze.json",
   "research_status": "completed",
-  "last_checkpoint": "Day 19 RDDS, fast timing and time response calibration complete",
+  "last_checkpoint": "002 Day 20 pre-study on Qt deformation systematics and weighted regression",
   "uncredited_preview": {
     "day_index": 20,
     "status": "partial",
@@ -75,16 +75,16 @@
   "research_stopped_at": "2026-10-21T17:56:41.196445+08:00",
   "latest_publication": {
     "branch": "main",
-    "subject": "Complete DAY19 card on RDDS, fast timing, and time response calibration",
-    "commit": "6243dcd3ac1fa86095f9354815b679d1fe03b606",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-001.json",
+    "subject": "Audit B(E2), Qt and deformation systematics for Day 20 pre-study",
+    "commit": "b552ad4343929d5e349beb93a7ffc4ec75b52dfc",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-002.json",
     "status": "pushed"
   },
   "final_release": {
     "branch": "main",
-    "subject": "Complete DAY19 card on RDDS, fast timing, and time response calibration",
-    "commit": "6243dcd3ac1fa86095f9354815b679d1fe03b606",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-001.json",
+    "subject": "Audit B(E2), Qt and deformation systematics for Day 20 pre-study",
+    "commit": "b552ad4343929d5e349beb93a7ffc4ec75b52dfc",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-002.json",
     "status": "pushed"
   }
 }
