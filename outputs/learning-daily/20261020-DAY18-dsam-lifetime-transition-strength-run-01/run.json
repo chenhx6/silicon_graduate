@@ -108,11 +108,14 @@
   "latest_publication": {
     "branch": "main",
     "subject": "Close DAY18 at original deadline with verified lifetime-strength audits",
+    "commit": "617ed3231ac5e326545c30983fcce2951c37cba8",
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-079.json",
     "status": "pushed"
   },
   "final_release": {
     "branch": "main",
     "subject": "Close DAY18 at original deadline with verified lifetime-strength audits",
+    "commit": "617ed3231ac5e326545c30983fcce2951c37cba8",
     "status": "pushed"
   }
 }
