@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint057：165Tm Table 2十一行受激态寿命与转动四极矩闭式代数自审
+
+Jensen 2001 Table 2全部11行受激态寿命（[541]1/2-的5态与[411]1/2+的6态）到转动四极矩Qt的闭式换算经K=1/2转子退激公式严格重现，最大偏差仅1.76%（绝对差<=0.14 b），完全落入原文有效数字舍入域。原线形拟合协方差缺口与5%阻停系统学边界保持。新14项检验通过。
+
 ### checkpoint056：136Nd Table II转动四极矩闭式几何因子复算与轴向边界
 
 Mukhopadhyay 2008 Table II全部9个印刷态的B(E2)到Qt换算经闭式几何因子 $G(I) = (2I-3)/(2I+1) = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$ 严格重现，最大偏差仅 $0.0054\text{ eb}$（纯四舍五入范围内完全吻合）；标准对称转子K=0公式给出系统高出1.58倍的假象值（如 $I=16$ 给出 $2.73\text{ eb}$ 对比印刷 $1.73\text{ eb}$）。原文未印公式及轴向边界保留。新13项检验通过。
@@ -221,7 +225,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
       "anchor": "Day18独立session：定向原读与停止时钟诊断",
-      "summary": "本session实际定向scope、5%已加及两DSAM/两mixing依赖与声明clock敏感性；旧flags保持",
+      "summary": "checkpoint001/057定向原读165Tm DSAM主链、时钟敏感性及Table 2十一行寿命到四极矩闭式K=1/2代数自审",
       "sources": [
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
@@ -230,6 +234,10 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-D18-2"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-3"
         }
       ]
     },
@@ -3847,6 +3855,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint057已实际提交，稳定指针main / `Audit 165Tm Table 2 level lifetime to transition quadrupole moment conversion`；精确hash/H3/远端结果只publication-057回执。
+
 
 checkpoint056已实际提交，稳定指针main / `Audit 136Nd Table II transition quadrupole moment geometric factor`；精确hash/H3/远端结果只publication-056回执。
 

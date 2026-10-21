@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T02:03:01.440012+00:00",
+  "subject": "Audit 165Tm Table 2 level lifetime to transition quadrupole moment conversion",
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-057.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-057.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification057 valid; lint0; boundary0; diff0; 14 jensen table 2 assertions; no credit; original deadline preserved"
+}

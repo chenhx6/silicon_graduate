@@ -71,15 +71,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "056 committed; original research window continues",
+  "last_checkpoint": "057 committed; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Retire superseded Day18 rate and mixing serializers",
-    "commit_hash": "bb3404d79f25540afa3a188e5c9d199af03a03d5",
+    "subject": "Audit 136Nd Table II transition quadrupole moment geometric factor",
+    "commit_hash": "c40618989df2316f72904fab4f52683dc6f0a071",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-055.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-056.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit 136Nd Table II transition quadrupole moment geometric factor"
+    "subject": "Audit 165Tm Table 2 level lifetime to transition quadrupole moment conversion"
   },
   "uncredited_preview": {
     "day_index": 19,

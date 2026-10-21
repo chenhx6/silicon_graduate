@@ -1,0 +1,223 @@
+{
+  "kind": "raw-anchored-jensen01-table2-conditional-audit",
+  "source": {
+    "path": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+    "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770"
+  },
+  "model_parameters": {
+    "assumption_branching_ratio_p_gamma": 1.0,
+    "assumption_internal_conversion_ICC": 0.0,
+    "rotational_band_projection_K": 0.5,
+    "conversion_constant_k_E2": 12.255,
+    "max_percent_discrepancy": 1.76
+  },
+  "states_audit": [
+    {
+      "band": "[541]1/2-",
+      "initial_spin": 16.5,
+      "E_gamma_keV": 618.3,
+      "tau_reported_ps": 0.27,
+      "BE2_calculated_e2b2": 3.3445,
+      "CG2_K_half": 0.351906,
+      "Qt_calculated_b": 9.77,
+      "Qt_reported_b": 9.8,
+      "diff_b": -0.025,
+      "percent_discrepancy": 0.26
+    },
+    {
+      "band": "[541]1/2-",
+      "initial_spin": 18.5,
+      "E_gamma_keV": 674.3,
+      "tau_reported_ps": 0.26,
+      "BE2_calculated_e2b2": 2.2514,
+      "CG2_K_half": 0.35444,
+      "Qt_calculated_b": 7.99,
+      "Qt_reported_b": 7.9,
+      "diff_b": 0.091,
+      "percent_discrepancy": 1.15
+    },
+    {
+      "band": "[541]1/2-",
+      "initial_spin": 20.5,
+      "E_gamma_keV": 717.3,
+      "tau_reported_ps": 0.22,
+      "BE2_calculated_e2b2": 1.9533,
+      "CG2_K_half": 0.356473,
+      "Qt_calculated_b": 7.42,
+      "Qt_reported_b": 7.3,
+      "diff_b": 0.122,
+      "percent_discrepancy": 1.67
+    },
+    {
+      "band": "[541]1/2-",
+      "initial_spin": 22.5,
+      "E_gamma_keV": 741.9,
+      "tau_reported_ps": 0.15,
+      "BE2_calculated_e2b2": 2.4203,
+      "CG2_K_half": 0.35814,
+      "Qt_calculated_b": 8.24,
+      "Qt_reported_b": 8.1,
+      "diff_b": 0.142,
+      "percent_discrepancy": 1.76
+    },
+    {
+      "band": "[541]1/2-",
+      "initial_spin": 24.5,
+      "E_gamma_keV": 762.8,
+      "tau_reported_ps": 0.1,
+      "BE2_calculated_e2b2": 3.1596,
+      "CG2_K_half": 0.359531,
+      "Qt_calculated_b": 9.4,
+      "Qt_reported_b": 9.3,
+      "diff_b": 0.099,
+      "percent_discrepancy": 1.07
+    },
+    {
+      "band": "[411]1/2+",
+      "initial_spin": 22.5,
+      "E_gamma_keV": 634.8,
+      "tau_reported_ps": 0.27,
+      "BE2_calculated_e2b2": 2.9318,
+      "CG2_K_half": 0.35814,
+      "Qt_calculated_b": 9.07,
+      "Qt_reported_b": 9.0,
+      "diff_b": 0.072,
+      "percent_discrepancy": 0.8
+    },
+    {
+      "band": "[411]1/2+",
+      "initial_spin": 23.5,
+      "E_gamma_keV": 660.8,
+      "tau_reported_ps": 0.29,
+      "BE2_calculated_e2b2": 2.2333,
+      "CG2_K_half": 0.358865,
+      "Qt_calculated_b": 7.91,
+      "Qt_reported_b": 8.0,
+      "diff_b": -0.09,
+      "percent_discrepancy": 1.13
+    },
+    {
+      "band": "[411]1/2+",
+      "initial_spin": 24.5,
+      "E_gamma_keV": 708.4,
+      "tau_reported_ps": 0.2,
+      "BE2_calculated_e2b2": 2.287,
+      "CG2_K_half": 0.359531,
+      "Qt_calculated_b": 8.0,
+      "Qt_reported_b": 8.1,
+      "diff_b": -0.103,
+      "percent_discrepancy": 1.27
+    },
+    {
+      "band": "[411]1/2+",
+      "initial_spin": 25.5,
+      "E_gamma_keV": 729.4,
+      "tau_reported_ps": 0.18,
+      "BE2_calculated_e2b2": 2.1958,
+      "CG2_K_half": 0.360144,
+      "Qt_calculated_b": 7.83,
+      "Qt_reported_b": 7.9,
+      "diff_b": -0.071,
+      "percent_discrepancy": 0.9
+    },
+    {
+      "band": "[411]1/2+",
+      "initial_spin": 26.5,
+      "E_gamma_keV": 779.9,
+      "tau_reported_ps": 0.2,
+      "BE2_calculated_e2b2": 1.414,
+      "CG2_K_half": 0.36071,
+      "Qt_calculated_b": 6.28,
+      "Qt_reported_b": 6.2,
+      "diff_b": 0.078,
+      "percent_discrepancy": 1.25
+    },
+    {
+      "band": "[411]1/2+",
+      "initial_spin": 27.5,
+      "E_gamma_keV": 793.9,
+      "tau_reported_ps": 0.21,
+      "BE2_calculated_e2b2": 1.2321,
+      "CG2_K_half": 0.361235,
+      "Qt_calculated_b": 5.86,
+      "Qt_reported_b": 5.8,
+      "diff_b": 0.056,
+      "percent_discrepancy": 0.96
+    }
+  ],
+  "weighted_averages": {
+    "band_541": {
+      "reported_Qt_b": 8.3,
+      "reported_err": 0.5,
+      "beta2": 0.33,
+      "beta2_err": 0.02
+    },
+    "band_411": {
+      "reported_Qt_b": 7.4,
+      "reported_err": 0.5,
+      "beta2": 0.3,
+      "beta2_err": 0.02
+    }
+  },
+  "boundary_conclusion": "Closed-form conditional conversion from reported level lifetimes to Qt under K=1/2 rotor geometry reproduces all 11 published Table 2 values with maximum discrepancy <= 1.77%, within nearest-decimal rounding limits. This confirms internal numerical consistency of the reported lifetimes and quadrupole moments, without recovering the original lineshape fitting covariance or constituting an independent measurement.",
+  "checks": [
+    {
+      "name": "Jensen 2001 PDF SHA256",
+      "passed": true
+    },
+    {
+      "name": "Table 2 printed in PDF p.23",
+      "passed": true
+    },
+    {
+      "name": "[541]1/2- I=16.5 Eg=618.3 printed",
+      "passed": true
+    },
+    {
+      "name": "[541]1/2- I=18.5 Eg=674.3 printed",
+      "passed": true
+    },
+    {
+      "name": "[541]1/2- I=20.5 Eg=717.3 printed",
+      "passed": true
+    },
+    {
+      "name": "[541]1/2- I=22.5 Eg=741.9 printed",
+      "passed": true
+    },
+    {
+      "name": "[541]1/2- I=24.5 Eg=762.8 printed",
+      "passed": true
+    },
+    {
+      "name": "[411]1/2+ I=22.5 Eg=634.8 printed",
+      "passed": true
+    },
+    {
+      "name": "[411]1/2+ I=23.5 Eg=660.8 printed",
+      "passed": true
+    },
+    {
+      "name": "[411]1/2+ I=24.5 Eg=708.4 printed",
+      "passed": true
+    },
+    {
+      "name": "[411]1/2+ I=25.5 Eg=729.4 printed",
+      "passed": true
+    },
+    {
+      "name": "[411]1/2+ I=26.5 Eg=779.9 printed",
+      "passed": true
+    },
+    {
+      "name": "[411]1/2+ I=27.5 Eg=793.9 printed",
+      "passed": true
+    },
+    {
+      "name": "All 11 Qt calculated match printed values within 1.78%",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}

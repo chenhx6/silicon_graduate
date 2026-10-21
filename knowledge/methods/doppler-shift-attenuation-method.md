@@ -455,3 +455,7 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 ## 136Nd Table II转动四极矩闭式几何因子复算与轴向边界（checkpoint056）
 
 [[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-8 表明：Table II中从B(E2)换算Qt采用的几何因子并非标准对称转子K=0 Clebsch-Gordan系数（后者给出系统高出约1.58倍的Qt值），而是闭式因子 $G(I) = \frac{2I-3}{2I+1} = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$。代入 $Q_t = \sqrt{ \frac{16\pi}{5} \frac{2I+1}{2I-3} B(E2) }$ 后，全部9个印刷态（Band 1 $I=16-19$，Band 2 $I=15-19$）的重算值与原文印刷Qt偏差均在 $0.0054\text{ eb}$ 以内（完全落入最后一位四舍五入误差域）。因原文未印出转换公式或定义量子化轴，该代数吻合用于诊断作者所采用的数据转换程序原型，不代表排他性物理几何认证或新增实验证据。新 [mu08-table-ii-rotor-formula-result-056](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-table-ii-rotor-formula-result-056.json) 包含13项检验，不制造实验置信区间。
+
+## 165Tm Table 2十一行受激态寿命与转动四极矩闭式代数自审（checkpoint057）
+
+[[jensen-2001-165tm-h9-2-configuration]] J01-D18-3 表明：Jensen 2001 Table 2中给出的两条直接DSAM带（$[541]1/2^-$ 的5个态与 $[411]1/2^+$ 的6个态）能级寿命 $\tau$ 与跃迁四极矩 $Q_t$ 遵循严格的 $K = 1/2$ 轴对称转子退激模型：代入 $\langle I\, 1/2\, 2\, 0 \mid I-2\, 1/2\rangle^2 = \frac{3(I-1/2)(I-3/2)(I+1/2)(I-1/2)}{2(I-1)I(2I-1)(2I+1)}$ 与 $p_\gamma = 1, \alpha_\text{ICC} = 0$ 后，全部11个态的重算 $Q_t$ 与原文报告值的最大相对偏差仅为 $1.76\%$（绝对差值 $\le 0.14\text{ b}$），完全落入寿命（保留两位小数）与四极矩（保留一位小数）的舍入误差容限内。该自审确立了原表输出在声称的转动几何下的代数自洽性，但不替代对原线形拟合速度场和协方差矩阵的独立复原。新 [jensen01-table2-conditional-audit-result-057](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen01-table2-conditional-audit-result-057.json) 包含14项检验，不制造实验置信区间。

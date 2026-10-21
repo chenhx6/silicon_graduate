@@ -203,5 +203,6 @@ Jensen 等人的 `165Tm` 工作把高统计 γγ/γγγ 谱学、DCO、DSAM 寿�
 | --- | --- | --- | --- | --- | --- |
 | J01-D18-1 | 本次定向原读再次核：Table2是两条直接DSAM带的Pb数据，5% electronic-stopping systematic已经加进tableuncertainties；Table6另两带由mixing比值共用DSAM标尺。新阅读不增加独立寿命，原文不提供5%的联合概率/相关合同。 | current-session-original-audit | direct-and-boundary | PDF21–25 Sec3.2/Table2/Figs7–8；PDF31–33 Table5/Eq4–5；PDF36 Table6 | true |
 | J01-D18-2 | 以Table2平均Qt中心8.3/7.4作声明的时钟敏感性：共同s→a s、全部τ/feeding→τ/a且固定branch/geometry时Qt均乘sqrt(a)，比值1.12162不变；若允许两带不同常数a，则a541/a411=(7.4/8.3)²≈.794890可使更正后中心相等。这不是实际阻停偏差估计，也不能与5%字样作概率检验；真实材料/feeding/Σ未得。 | task-conditional-clock-design | derived-and-boundary | PDF23 Table2均值；PDF36 Table6；lifetime-strength-audit的Day18停止时钟与带间contrast；clock-contrast-result-001 jensen_mean_Qt_sensitivity | true |
+| J01-D18-3 | Table 2全部11行受激能级寿命tau到四极矩Qt的闭式换算在K=1/2转子几何与p_gamma=1、ICC=0假设下，与作者印刷值最大偏差仅1.76%（[541]1/2-最大差0.14 b，[411]1/2+最大差0.10 b），完全落入有效数字舍入域。这确立了原文tau与Qt的代数自洽性，但不构成独立实验验证或恢复原线形拟合协方差。 | task-conditional-table-audit | derived-and-boundary | PDF p.23 Table 2；jensen01-table2-conditional-audit-result-057 | true |
 
 Knowledge impact：`limits`把共同绝对停止标尺当作带间形变差的任意解释，也`limits`把共用backing当作所有系统误差必然抵消。两方向均须检查actual速度场、位置响应、feeding和branch。此处不修正原Qt、β2、误差或结构指认。
