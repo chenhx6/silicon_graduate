@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-21T05:00:33.000000+00:00",
+  "subject": "Audit Mukhopadhyay 2008 Table II B(M1) internal conversion and Chiara 2001 closure",
+  "exact_manifest": [
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/closeout-readiness-result-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-icc-m1-result-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-075.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publish-manifest-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-075.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day18_closeout_readiness_audit.py",
+    "system/scripts/day18_mu08_icc_m1_audit.py"
+  ],
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-075.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-075.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification075 valid; lint0; boundary0; diff0; all 75 checkpoints audited; 24 assertions passed; 178 writeback items; no credit; original deadline preserved"
+}

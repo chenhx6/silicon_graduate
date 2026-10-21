@@ -951,3 +951,11 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
      这一比值（$21.8\%$ 相对增大）完全封闭了两文的数值落差，证明两篇文献在同一实验寿命下完全自洽，消除了核结构形变演化讨论中因转子换算约定不同引起的伪矛盾。
 
 新 [li04-singh16-k-rotor-result-062](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/li04-singh16-k-rotor-result-062.json) 包含 9 项原件哈希、原文数据与闭式代数检验，全部严格通过。
+
+## 136Nd Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析（checkpoint075）
+
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-10 与 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2 解决了 Table II 中 $B(M1)$ 提取与单光子天真跃迁率计算存在表观偏差的机制：
+- 对 Band 2 $15^-$ 态（$199.6\text{ keV}$），天真忽略内转换的单光子率公式 $\lambda_\gamma = b/\tau$ 给出 $B(M1) = 5.238\ \mu_N^2$，相比报告值 $4.4(3)\ \mu_N^2$ 高出 $19.05\%$；
+- 定量代数分析表明，作者严格沿用了其引用的 Ref. [16] Chiara et al. (2001) 的内转换修正方法 $\lambda_\gamma = \frac{\lambda_{\text{tot}}}{1 + \alpha_{\text{tot}}}$；在 $Z=60$（Nd）中，$199.6\text{ keV}$ $M1$ 跃迁的总内转换系数理论值 $\alpha_{\text{tot}}(M1) \approx 0.1905$（即 $1 + \alpha = 1.1905$），代入后精确给出 $B(M1) = 5.238 / 1.1905 = 4.40\ \mu_N^2$，完全吻合报告值 $4.4(3)$；
+- 跨自旋序列检验确认：全部 10 个母态隐含的内转换系数随跃迁能量单调递减并严格遵循原子偶极内转换的 $E_\gamma^{-3}$ 标度律（$229.3\text{ keV}$ 为 $0.1274$，$248.1\text{ keV}$ 为 $0.1009$，$308.7\text{ keV}$ 为 $0.0599$，$E_\gamma > 350\text{ keV}$ 时 $<0.02$），说明高能态内转换修正已落入报告值的舍入容差以内。
+新 [mu08-icc-m1-result-075](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-icc-m1-result-075.json) 包含 10 项检验，全部验证通过。

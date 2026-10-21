@@ -11,7 +11,8 @@ Verifies that all required deliverables of the Day 18 card are satisfied and doc
 7. Uncredited Day 19 preview (timing method selection matrix across DSAM, RDDS, Fast Timing, TDPAD).
 8. Inverse-kinematics Degrader-RDDS 3.19x spatial expansion and sub-picosecond limit (Suzuki 2008 vs Klemme 1999).
 9. Day 19 prompt fully synchronized with inverse-kinematics and four-method selection matrix priming.
-10. Durable knowledge writeback (176 items verified), lint (0 errors), and boundary checks clean.
+10. Mukhopadhyay 2008 Table II B(M1) internal conversion coefficient correction audit (Checkpoint 075).
+11. Durable knowledge writeback (176 items verified), lint (0 errors), and boundary checks clean.
 """
 import json, subprocess
 from pathlib import Path
@@ -75,7 +76,13 @@ def main():
     check("Day 19 prompt contains inverse-kinematics RDDS priming", "rdds-kinematic-expansion-result-068" in p19_text)
     check("Day 19 prompt contains timing method selection matrix priming", "timing-method-selection-result-060" in p19_text)
 
-    # 9. Daily report and writeback block
+    # 9. Mukhopadhyay 2008 Table II B(M1) internal conversion audit (Checkpoint 075)
+    icc_res = RUN / "mu08-icc-m1-result-075.json"
+    check("MU08 B(M1) ICC result exists", icc_res.is_file())
+    icc_data = json.loads(icc_res.read_text(encoding="utf-8"))
+    check("MU08 B(M1) ICC audit passed", icc_data.get("valid") is True and len(icc_data.get("records", [])) == 10)
+
+    # 10. Daily report and writeback block
     report_path = ROOT / "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md"
     check("Daily report exists", report_path.is_file())
     from wiki_knowledge_writeback import validate_writeback
@@ -94,14 +101,14 @@ def main():
         "checks": checks,
         "valid": all(c["passed"] for c in checks),
         "status": "ready_for_1500_closeout",
-        "audit_scope": "all_73_checkpoints_covered",
+        "audit_scope": "all_75_checkpoints_covered",
         "time_invariants_respected": {
             "formal_credit_not_yet_awarded": True,
             "window_ends_at": "15:00 CST",
             "closeout_hour": "15:00 - 16:00 CST",
         }
     }
-    out_path = RUN / "closeout-readiness-result-074.json"
+    out_path = RUN / "closeout-readiness-result-075.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"valid": out["valid"], "checks": len(checks), "output": str(out_path)}))
 

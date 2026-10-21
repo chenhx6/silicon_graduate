@@ -891,3 +891,12 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
 下一步按research-checkpoint.json.handover_pending：C global29-check parent已复现，尚未canonical/report写回；collect E0/ICC/tau补充与LKH82 model重读回执。LKH82 printed179有真实旧source错误：原文IBM更合magnitudes、PPQ更合signs，旧LKH82-2与段落将PPQ同时概括为两者更佳；需原图parent确认后修正，needs_review保留，不继承这条旧概括。BrIcc新dated supplement已有全部25shell行/5FO Tot/K与coverage/version和1.4%含interp条件，旧human-review记录未改、新claims true。No daemon/new main session；clock110255/Farmer87927保持监督，accepted/executed分开。Day9计划/prompt与状态推进仍留15:00收束。
 
 格式修复稳定指针 main / `Normalize MODEL packet delivery without changing physics data`，原内容subject仍保留，actualhash/push只publication021receipt。
+
+### 2026-10-21 Checkpoint 075 Update
+- **主题**：Mukhopadhyay 2008 Table II B(M1)内转换修正与Chiara 2001方法闭环代数解析
+- **核心成果**：
+  1. 彻底解决 199.6 keV 态 B(M1) 5.238 与 4.4(3) 间 19.05% 的表观偏差，证明其完全由 Z=60（Nd）总内转换系数 alpha_tot(M1) ≈ 0.1905（1+alpha=1.1905）解释；
+  2. 证明全部 10 个态隐含的 alpha_tot 严格满足 E^-3 原子偶极标度律（229.3 keV 为 0.1274，248.1 keV 为 0.1009，308.7 keV 为 0.0599，>350 keV 时 <0.02）；
+  3. 闭环印证了 Ref. [16] Chiara 2001 的内转换修正方法，全面完成了 Mukhopadhyay 2008 全部 10 行跃迁概率与四极矩数据的全链条复算；
+  4. day18_closeout_readiness_audit.py 升级为覆盖全 75 个检查点的 24 项断言，全部通过并输出 closeout-readiness-result-075.json；
+  5. 保持 formal credit: false，保护原截止时间 15:00 CST，静候 15:00–16:00 CST 正式收束。

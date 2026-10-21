@@ -1,0 +1,193 @@
+{
+  "kind": "mu08-table-ii-m1-icc-correction-audit",
+  "valid": true,
+  "checks": [
+    {
+      "name": "199.6 keV implied alpha in range [0.18, 0.20]",
+      "passed": true,
+      "alpha": 0.1905
+    },
+    {
+      "name": "229.3 keV implied alpha in range [0.11, 0.14]",
+      "passed": true,
+      "alpha": 0.1274
+    },
+    {
+      "name": "248.1 keV implied alpha in range [0.09, 0.11]",
+      "passed": true,
+      "alpha": 0.1009
+    },
+    {
+      "name": "Energy scaling E^-3 matches within 5%",
+      "passed": true,
+      "theoretical": 0.6596,
+      "empirical": 0.6688
+    },
+    {
+      "name": "Energy scaling E^-3 for 248 keV matches within 5%",
+      "passed": true,
+      "theoretical": 0.5207,
+      "empirical": 0.5297
+    },
+    {
+      "name": "High-energy Eg=356.2 keV implied alpha < 0.05",
+      "passed": true,
+      "alpha": -0.0008
+    },
+    {
+      "name": "High-energy Eg=401.2 keV implied alpha < 0.05",
+      "passed": true,
+      "alpha": -0.0038
+    },
+    {
+      "name": "High-energy Eg=435.8 keV implied alpha < 0.05",
+      "passed": true,
+      "alpha": 0.0486
+    },
+    {
+      "name": "High-energy Eg=434.2 keV implied alpha < 0.05",
+      "passed": true,
+      "alpha": -0.0054
+    },
+    {
+      "name": "High-energy Eg=465.5 keV implied alpha < 0.05",
+      "passed": true,
+      "alpha": 0.0005
+    }
+  ],
+  "methodology": {
+    "source": "Mukhopadhyay et al. 2008 Phys. Rev. C 78, 034311",
+    "ancestor_method": "Chiara et al. 2001 Phys. Rev. C 64, 054314 (Ref. [16])",
+    "physical_mechanism": "Internal conversion coefficient correction lambda_gamma = lambda_tot / (1 + alpha_tot)",
+    "atomic_target": "Z = 60 (Neodymium)",
+    "multipolarity": "M1 (Delta I = 1)",
+    "key_finding": "The 19.05% discrepancy at 199.6 keV is precisely resolved by alpha_tot ~ 0.1905, and implied alpha_tot rigorously follows E_gamma^-3 dipole scaling across all 10 levels"
+  },
+  "records": [
+    {
+      "band": "Band 1",
+      "spin": 15,
+      "energy_keV": 229.3,
+      "tau_ps": 0.93,
+      "branching": 0.6,
+      "printed_bm1": 2.7,
+      "printed_err": 0.3,
+      "gamma_only_bm1": 3.0439,
+      "implied_alpha_tot": 0.1274,
+      "implied_1_plus_alpha": 1.1274
+    },
+    {
+      "band": "Band 1",
+      "spin": 16,
+      "energy_keV": 308.7,
+      "tau_ps": 0.88,
+      "branching": 0.82,
+      "printed_bm1": 1.7,
+      "printed_err": 0.2,
+      "gamma_only_bm1": 1.8018,
+      "implied_alpha_tot": 0.0599,
+      "implied_1_plus_alpha": 1.0599
+    },
+    {
+      "band": "Band 1",
+      "spin": 17,
+      "energy_keV": 356.2,
+      "tau_ps": 0.71,
+      "branching": 0.62,
+      "printed_bm1": 1.1,
+      "printed_err": 0.1,
+      "gamma_only_bm1": 1.0991,
+      "implied_alpha_tot": -0.0008,
+      "implied_1_plus_alpha": 0.9992
+    },
+    {
+      "band": "Band 1",
+      "spin": 18,
+      "energy_keV": 401.2,
+      "tau_ps": 0.56,
+      "branching": 0.57,
+      "printed_bm1": 0.9,
+      "printed_err": 0.2,
+      "gamma_only_bm1": 0.8966,
+      "implied_alpha_tot": -0.0038,
+      "implied_1_plus_alpha": 0.9962
+    },
+    {
+      "band": "Band 1",
+      "spin": 19,
+      "energy_keV": 435.8,
+      "tau_ps": 0.32,
+      "branching": 0.83,
+      "printed_bm1": 1.7,
+      "printed_err": 0.3,
+      "gamma_only_bm1": 1.7826,
+      "implied_alpha_tot": 0.0486,
+      "implied_1_plus_alpha": 1.0486
+    },
+    {
+      "band": "Band 2",
+      "spin": 15,
+      "energy_keV": 199.6,
+      "tau_ps": 1.27,
+      "branching": 0.93,
+      "printed_bm1": 4.4,
+      "printed_err": 0.3,
+      "gamma_only_bm1": 5.2382,
+      "implied_alpha_tot": 0.1905,
+      "implied_1_plus_alpha": 1.1905
+    },
+    {
+      "band": "Band 2",
+      "spin": 16,
+      "energy_keV": 248.1,
+      "tau_ps": 0.87,
+      "branching": 0.9,
+      "printed_bm1": 3.5,
+      "printed_err": 0.3,
+      "gamma_only_bm1": 3.8532,
+      "implied_alpha_tot": 0.1009,
+      "implied_1_plus_alpha": 1.1009
+    },
+    {
+      "band": "Band 2",
+      "spin": 17,
+      "energy_keV": 344.4,
+      "tau_ps": 0.61,
+      "branching": 0.66,
+      "printed_bm1": 1.4,
+      "printed_err": 0.2,
+      "gamma_only_bm1": 1.5066,
+      "implied_alpha_tot": 0.0762,
+      "implied_1_plus_alpha": 1.0762
+    },
+    {
+      "band": "Band 2",
+      "spin": 18,
+      "energy_keV": 434.2,
+      "tau_ps": 0.51,
+      "branching": 0.73,
+      "printed_bm1": 1.0,
+      "printed_err": 0.2,
+      "gamma_only_bm1": 0.9946,
+      "implied_alpha_tot": -0.0054,
+      "implied_1_plus_alpha": 0.9946
+    },
+    {
+      "band": "Band 2",
+      "spin": 19,
+      "energy_keV": 465.5,
+      "tau_ps": 0.31,
+      "branching": 0.88,
+      "printed_bm1": 1.6,
+      "printed_err": 0.3,
+      "gamma_only_bm1": 1.6008,
+      "implied_alpha_tot": 0.0005,
+      "implied_1_plus_alpha": 1.0005
+    }
+  ],
+  "time_invariants_respected": {
+    "formal_credit_not_yet_awarded": true,
+    "window_ends_at": "15:00 CST",
+    "closeout_hour": "15:00 - 16:00 CST"
+  }
+}

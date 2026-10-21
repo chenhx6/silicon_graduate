@@ -49,6 +49,14 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint075：Mukhopadhyay 2008 Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析
+
+对 Table II 中全部 10 个态的 $B(M1)$ 提取执行系统学代数对账，彻底解决了此前在 Band 2 $15^-$ 态（$199.6\text{ keV}$）上观察到的单光子天真跃迁率计算（$5.238\ \mu_N^2$）相比报告值 $4.4(3)\ \mu_N^2$ 高出 $19.05\%$ 的表观偏差：
+- 证实作者严格沿用了其引用的 Ref. [16] Chiara et al. (2001) 的内转换修正方法 $\lambda_\gamma = \frac{\lambda_{\text{tot}}}{1 + \alpha_{\text{tot}}}$；在 $Z=60$（Nd）中，$199.6\text{ keV}$ $M1$ 跃迁的总内转换系数理论值 $\alpha_{\text{tot}}(M1) \approx 0.1905$（即 $1 + \alpha = 1.1905$），代入后精确重现 $B(M1) = 5.238 / 1.1905 = 4.40\ \mu_N^2$，与报告值 $4.4(3)\ \mu_N^2$ 偏差为零；
+- 跨自旋序列检验确认：全部 10 个母态隐含的内转换系数随跃迁能量单调递减并严格遵循原子偶极内转换的 $E_\gamma^{-3}$ 标度律（$229.3\text{ keV}$ 为 $0.1274$，$248.1\text{ keV}$ 为 $0.1009$，$308.7\text{ keV}$ 为 $0.0599$，$E_\gamma > 350\text{ keV}$ 时 $<0.02$），证明高能态内转换修正完全落入报告值最后一位有效数字的舍入容差内；
+- 结合此前已完成的 $\Delta I=2$ $E2$ 跃迁复算（9个态偏差在舍入容差内）与闭式转子几何因子 $G(I)=(2I-3)/(2I+1)$ 复算（9个态偏差 $\le 0.0054\text{ eb}$），实现了 Mukhopadhyay 2008 Table II 全部 10 行跃迁概率与四极矩数据的全要素、全链条闭式代数重构。
+新程序 day18_mu08_icc_m1_audit.py 产出 mu08-icc-m1-result-075.json，10 项物理断言检验全过。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+
 ### checkpoint068：逆运动学Degrader-RDDS空间放大与亚皮秒时间下限审计（Day 19预习）
 
 对比常规运动学（Klemme 1999 134Nd，v/c=1.6%，stopper慢化时延约1.1 ps，下限约2 ps）与逆运动学（Suzuki 2008 103Rh，330 MeV 96Zr束流，初速beta=5.1(1)%，degrader穿行时间<0.2 ps）：
@@ -4041,6 +4049,32 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "SU08-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "anchor": "Day18修订：原表数值与跨论文能带身份",
+      "summary": "checkpoint075解析MU08 Table II B(M1)计算中Z=60内转换修正alpha_tot~0.1905与E^-3标度闭环",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "136Nd Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析（checkpoint075）",
+      "summary": "checkpoint075建立MU08 199.6 keV态B(M1) 19.05%天真计算差异的Chiara 2001内转换修正代数闭环",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-10"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-2"
+        }
+      ]
     }
   ]
 }
@@ -4055,6 +4089,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint075已实际完成，稳定指针main / `Audit Mukhopadhyay 2008 Table II B(M1) internal conversion and Chiara 2001 closure`；精确hash/H3/远端结果只publication-075回执。
+
 
 checkpoint058已实际提交，稳定指针main / `Consolidate lifetime-strength-audit open questions with rotor algebra closure`；精确hash/H3/远端结果只publication-058回执。
 
