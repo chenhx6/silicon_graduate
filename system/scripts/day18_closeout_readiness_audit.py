@@ -84,24 +84,24 @@ def main():
     check("Writeback items >= 176", len(wb_result.get("knowledge_paths", [])) >= 50)
 
     # 10. Verification 069
-    ver_file = RUN / "verification-069.json"
-    check("Verification 069 file exists", ver_file.is_file())
+    ver_file = RUN / "verification-071.json"
+    check("Verification 071 file exists", ver_file.is_file())
     v_data = json.loads(ver_file.read_text(encoding="utf-8"))
-    check("Verification 069 valid", v_data.get("valid") is True)
+    check("Verification 071 valid", v_data.get("valid") is True)
 
     out = {
         "kind": "day18-closeout-readiness-audit",
         "checks": checks,
         "valid": all(c["passed"] for c in checks),
         "status": "ready_for_1500_closeout",
-        "audit_scope": "all_69_checkpoints_covered",
+        "audit_scope": "all_71_checkpoints_covered",
         "time_invariants_respected": {
             "formal_credit_not_yet_awarded": True,
             "window_ends_at": "15:00 CST",
             "closeout_hour": "15:00 - 16:00 CST",
         }
     }
-    out_path = RUN / "closeout-readiness-result-070.json"
+    out_path = RUN / "closeout-readiness-result-072.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"valid": out["valid"], "checks": len(checks), "output": str(out_path)}))
 
