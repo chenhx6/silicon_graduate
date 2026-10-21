@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-21T03:40:03.000000+00:00",
+  "subject": "Update uncredited Day 19 prompt with four-method selection matrix priming and preserve Day 18 deadline",
+  "exact_manifest": [
+    "outputs/learning-daily/prompts/20261021-DAY19-rdds-fast-timing.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/boundary-064.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/continuation-current.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lint-064.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/own-log-entry-064.md",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publish-manifest-064.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/runtime-snapshot-064.json",
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/verification-064.json",
+    "system/handoff.md",
+    "system/log.md"
+  ],
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-064.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-064.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification064 valid; lint0; boundary0; diff0; Day 19 prompt updated; no credit; original deadline preserved"
+}

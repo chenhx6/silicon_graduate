@@ -13,7 +13,7 @@ updated: 2026-10-20
 
 主线：recoil-distance-doppler、radeck-2012-deorientation-lifetime-98ru-rdds、nolan-sharpey-schafer-1979-lifetime-measurements；原件fullmainline/关键fig/table/equation/levelscheme/uncertainty和actualreadscope如实核。交付方法选择决策树和最小校准清单，区分时间响应、分量条件、feeding和停止材料约束；至少一项本session新quant/design exercise、counterinput/companion/同data边界，缺input写readiness不造fitCI。
 
-Day18原run/session的无学分19preview已经暴露：knowledge/research-notes/lifetime-method-selection-response-contract.md、R12-P19-1–10、NS79-P19-1–12；Radeck完整十页、Nolan targeted框架/电子计时已核，未做现代fast timing/TDPAD primary新读。退取向G_US与G_SH分量条件平均、90°效率缺失理论补归一、两步τ迭代和d/d0字面坐标界已记录。Nolan综述明确DSAM与RDM在1–20 ps重叠，且两方法相合可能共享错误stopping；电子计时需prompt response function (PRF)、zero-time与能量门匹配，大样本不能替代prompt calibration。
+Day18原run/session的无学分19preview已经暴露：knowledge/research-notes/lifetime-method-selection-response-contract.md、R12-P19-1–10、NS79-P19-1–12，以及 checkpoint060 增补的现代快速定时（Régis 2011 博士论文 LaBr3/MSCD，ΔC=2τ+PRD在ΔE=0处零交叉对消time walk）与 TDPAD（Grodner 2018 128Cs手征异构态g=+0.59(1)与拉莫尔进动、Ionescu-Bujor 1998 129,131Ce多晶金属Cd晶格电四极与外加磁场进动）；timing-method-selection-result-060 涵盖 DSAM、RDDS、Fast Timing、TDPAD 的四类方法全景选择矩阵与物理时钟基准。退取向G_US与G_SH分量条件平均、90°效率缺失理论补归一、两步τ迭代和d/d0字面坐标界已记录。Nolan综述明确DSAM与RDM在1–20 ps重叠，且两方法相合可能共享错误stopping；电子计时需prompt response function (PRF)、zero-time与能量门匹配，大样本不能替代prompt calibration。
 
 Klemme1999的六行finite-stopping修正（1.181–1.255非统一scale）与两Qt比0.56%/0.58%变化已作为companion边界分析。Schwalm1977（Nucl. Phys. A 293, 425）与Hermans1977（Nucl. Phys. A 284, 307）当前只有metadata，原body未得，不能从综述转引预填为已读primary。
 
