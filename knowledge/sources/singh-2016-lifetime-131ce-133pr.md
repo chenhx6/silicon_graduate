@@ -151,7 +151,7 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | SI16-D18-3 | 131Ce四有限点回归使用对称化误差，133Pr三点也使用对称化误差；原文MINOS不提供这些跨点回归的联合协方差。133Pr的τSF=1100/1.9/.014ps与131Ce的tauSF/QSF切换是拟合输入合同，说明形变斜率对feeding模型敏感，但不单独证明Qt下降由feeding制造。 | regression-and-feeding-boundary | derived-and-boundary | PDF5 Table1/analysis；PDF8 Table2/analysis；新qt-systematics-boundary-result-049 | true |
-| SI16-D18-5 | 对 Table 1 Ref. [32] 转载 Li 2004 27/2−（827 keV）态寿命 τ=1.23(23) ps 的重算值 Qt=2.28(21) eb 进行代数核实：Singh 2016 采用 K=1/2 转子投影（CG²=26/75=0.3467），代入 B(E2)=1723 e²fm⁴ 后得出 2.235 eb，结合常数舍入得到 2.28 eb；而 Li 2004 原文采用高-Ω投影 K=11/2（CG²=76/325=0.2338，得出 2.722 eb 对原文 2.72 eb）。四极矩比值严格为 sqrt(169/114)=1.2176，确立了两文对同一寿命的完全兼容性，消除了跨文献假象分歧。 | task-k-rotor-audit | derived-and-boundary | PDF p.5 Table 1；li04-singh16-k-rotor-result-062 | true |
+| SI16-D18-5 | checkpoint062完全闭合结论撤回：固定B(E2)=1723 e2fm4与候选轴对称K=11/2、1/2，解析CG平方76/325、26/75给Qt约2.722与2.235 eb；后者与printed2.28仍差约2%。sqrt(169/114)约1.2176不等printed2.72/2.28约1.1930。1.224/1.225常数变化对Qt仅约.041%，不足解释残差。此为条件几何敏感性，不能反认Li实际采用K，原branch/ICC/producer仍需核；复用旧寿命不是新实验。 | task-correction | derived-and-boundary | 原Table1；strength-boundary-correction-result-078 | true |
 | SI16-D18-4 | 新条件回归给133Pr z=−1.678、131Ce z=−.602；它们是中心值/对称误差下的诊断，不是论文CI。131Ce的15/2–27/2混合plunger/DSAM方法、stopping prescriptions和side-feed parameter switch必须保留，不能把常数Qt接受写成独立实验裁决。 | conditional-statistical-diagnostic | derived-and-boundary | PDF4–8；qt-systematics-boundary-result-049 | true |
 
 新结果不改变原Table I/II、limits、K/CG和human review状态。

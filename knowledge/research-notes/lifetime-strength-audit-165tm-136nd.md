@@ -921,66 +921,45 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 
 ## 136Nd Table II转动四极矩闭式几何因子复算与轴向边界（checkpoint056）
 
-[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-8 表明：Table II中从B(E2)换算Qt采用的几何因子并非标准对称转子K=0 Clebsch-Gordan系数（后者给出系统高出约1.58倍的Qt值），而是闭式因子 $G(I) = \frac{2I-3}{2I+1} = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$。代入 $Q_t = \sqrt{ \frac{16\pi}{5} \frac{2I+1}{2I-3} B(E2) }$ 后，全部9个印刷态（Band 1 $I=16-19$，Band 2 $I=15-19$）的重算值与原文印刷Qt偏差均在 $0.0054\text{ eb}$ 以内（完全落入最后一位四舍五入误差域）。因原文未印出转换公式或定义量子化轴，该代数吻合用于诊断作者所采用的数据转换程序原型，不代表排他性物理几何认证或新增实验证据。新 [mu08-table-ii-rotor-formula-result-056](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-table-ii-rotor-formula-result-056.json) 包含13项检验，不制造实验置信区间。
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-8：候选G=(2I-3)/(2I+1)在九组打印B/Qt上中心接近；近似常数/输入舍入会影响最后一位。nearest-decimal box只是额外诊断，不是原CI或作者实际几何的认证。原文未印Qt公式/轴，不能从相合反认唯一历史producer。fixed K=0是另一声明几何，不称作者采用错误几何。
 
 ## 165Tm Table 2十一行受激态寿命与转动四极矩闭式代数自审（checkpoint057）
 
-[[jensen-2001-165tm-h9-2-configuration]] J01-D18-3 表明：Jensen 2001 Table 2中给出的两条直接DSAM带（$[541]1/2^-$ 的5个态与 $[411]1/2^+$ 的6个态）能级寿命 $\tau$ 与跃迁四极矩 $Q_t$ 遵循严格的 $K = 1/2$ 轴对称转子退激模型：代入 $\langle I\, 1/2\, 2\, 0 \mid I-2\, 1/2\rangle^2 = \frac{3(I-1/2)(I-3/2)(I+1/2)(I-1/2)}{2(I-1)I(2I-1)(2I+1)}$ 与 $p_\gamma = 1, \alpha_\text{ICC} = 0$ 后，全部11个态的重算 $Q_t$ 与原文报告值的最大相对偏差仅为 $1.76\%$（绝对差值 $\le 0.14\text{ b}$），完全落入寿命（保留两位小数）与四极矩（保留一位小数）的舍入误差容限内。该自审确立了原表输出在声称的转动几何下的代数自洽性，但不替代对原线形拟合速度场和协方差矩阵的独立复原。新 [jensen01-table2-conditional-audit-result-057](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen01-table2-conditional-audit-result-057.json) 包含14项检验，不制造实验置信区间。
+[[jensen-2001-165tm-h9-2-configuration]] J01-D18-3：十一行以p_gamma=1、ICC=0、pure E2、fixed K=1/2作条件rate/rotor检查，最大中心相对差约1.76%；它不是原branch库存或实际producer复原。另加最近小数打印box的交集不能称CI或原实验误差验证。Table2五百分比已加进误差，其相关/概率合同仍未印出；其它两带经mixing共享本DSAM标尺，不增加独立寿命。
 
 ## DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）
 
-[[jensen-2001-165tm-h9-2-configuration]] J01-D18-4、[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-9 与 [[singh-2016-lifetime-131ce-133pr]] SI16-1/8 构成了DSAM方法实现的经典跨实验对比：
-1. **反冲模拟时间步长与代码**：Jensen 2001 采用 Currie (1969) / Bacelar (1987) 蒙特卡罗代码，时间步长为 $5\text{ fs}$；Mukhopadhyay 2008 采用 Wells & Johnson (1991) 的 LINESHAPE 代码，以 $2\text{ fs}$（$0.002\text{ ps}$）步长跟踪 5000 条反冲历史；Singh 2016 同样采用 LINESHAPE 且步长为 $2\text{ fs}$。Rather 2014 则采用 $1\text{ fs}$ 步长。时间步长直接影响极端短寿命（$<50\text{ fs}$）线形峰位移与退卷积分辨率。
-2. **电子与核阻停模型**：Jensen 2001 采用经验 Northcliffe-Schilling 阻停并施加 Ziegler-Chu 与 Sie 壳修正，核阻停用微商 Lindhard 截面；Mukhopadhyay 2008 采用 SRIM；Singh 2016 则对比并平均了 Ziegler 与壳修正 Northcliffe-Schilling，并取较大包络。
-3. **侧馈级联参数空间**：Jensen 2001 采用 3 步级联，固定动理学惯性矩 $J^{(2)} = 65.0\hbar^2/\text{MeV}$ 并共享单一有效四极矩 $Q_s$；Mukhopadhyay 2008 采用 5 步级联，惯性矩与带内相当，允许各能级独立拟合侧馈四极矩；Singh 2016 则随自旋序列在恒定时延 $\tau_{SF}$ 与转动级联 $Q_{SF}$ 之间切换。
-4. **系统误差报告口径**：Jensen 2001 将额外 $+5\%$ 电子阻停系统误差直接混入 Table 2 寿命与 $Q_t$ 误差包络中；Mukhopadhyay 2008 的 Table II 数值则明确**排除**了阻停系统误差（图注指明其可能高达 15%）。
-5. **标度不变性定理（Scale Invariance Theorem）**：设真实阻停本领相比标称值存在全局乘性标度因子 $S \in [0.85, 1.15]$（即 $\pm 15\%$ 系统学误差），提取出的能级寿命标度为 $\tau(S) = \tau_0 / S$，绝对跃迁几率标度为 $B(E2)(S) = S \cdot B(E2)_0$，转动四极矩标度为 $Q_t(S) = \sqrt{S} \cdot Q_t^{(0)}$。然而，带内强度比值 $B(E2)_i / B(E2)_j$ 以及带间跃迁强度比值 $B(E2)_{\text{Band 2}} / B(E2)_{\text{Band 1}}$ 中的标度因子 $S$ **严格完全消去**。然而，带间强度比序列 $R(I) = B_2(E2)/B_1(E2)$ 在自旋 16 至 19 处的值依次为 $[51/26, 11/2, 2/7, 5/11]$，以及自旋 17 与 18 间的双比值 $D = R(17)/R(18) = (11/2)/(2/7) = 77/4 = 19.25$，其中的标度因子 $S$ **严格完全消去**。因此，$^{136}\text{Nd}$ 中实测 Band 1 与 Band 2 之间跨自旋由大于 1 翻转为小于 1 的剧烈强度变化与 19.25 倍的高自旋反差，在数学上绝不可能由全局阻停本领定标误差（如 15% 的 SRIM 误差）所解释，而必然反映了两带微观波函数/组态差异（如 Petrache 2018 TAC-CDFT 组态 A 与 B）或显著相异的带特异侧馈时延历史。
+[[jensen-2001-165tm-h9-2-configuration]] J01-D18-4与[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-9区分5fs/三步/shell-corrected stopping/5%已加，与2fs/五步/SRIM/最高15%排除。步长本身不证明某寿命分辨率或实际偏差。
 
-新 [dsam-systematics-contrast-result-059](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/dsam-systematics-contrast-result-059.json) 包含 18 项原件哈希、原文参数与标度不变性计算检验，全部严格通过。
+在均匀自治停止生成元整体乘S、全部feeding和能级时钟同时除S、固定分支与位置响应这一声明模型下，B乘S而Qt乘sqrt(S)，共同因子消去。原TableII中心R16–19为51/26、11/2、2/7、5/11，D=77/4。即使每带各自有跨spin恒定标尺，D也保持；这只排除此类标尺解释。真实停止曲线形变、逐态feeding、混合、branch、efficiency、污染、响应或转录等变化不在该消去域，不能从D唯一归因为微观组态或侧馈，更不能复活已撤回的2018 A/B桥接。详本页“Day18停止时钟与带间contrast”及MU08-D18-2/5–7；无actualSigma不报实验显著性。
 
 ## 131Ce同一能级寿命下K投影约定导致的四极矩差异解析（checkpoint062）
 
-[[li-2004-lifetimes-131ce]] LI04-D18-1 与 [[singh-2016-lifetime-131ce-133pr]] SI16-D18-5 解决了 $^{131}\text{Ce}$ 负宇称 yrast 带 $I = 27/2^-$（827 keV）态在两篇文献中四极矩不同的历史疑团：
-- 两文对该态的实验寿命测量完全相同（均为 $\tau = 1.23 \pm 0.23\text{ ps}$），因为 Singh 2016 Table 1 的 Ref. [32] 列直接转载了 Li 2004 的寿命；
-- 然而，Li 2004 报告的跃迁四极矩为 $Q_t = 2.72 \pm 0.25\text{ eb}$（对应 $B(E2) = 1723 \pm 322\ e^2\text{fm}^4$），而 Singh 2016 报告的重算四极矩为 $Q_t = 2.28 \pm 0.21\text{ eb}$，产生 $19.3\%$ 的表观落差；
-- 定量代数推导证实：该落差完全由对称转子模型的 $K$ 投影量子数选择不同所致：
-  1. Li 2004 针对 $\nu h_{11/2}$ 壳层选择了最高角动量投影 $K = 11/2$（$K = 5.5$），对应的 Clebsch–Gordan 系数平方为 $\langle 27/2\, 11/2\, 2\, 0 \mid 23/2\, 11/2\rangle^2 = \frac{76}{325} \approx 0.233846$。代入 $Q_t = \sqrt{\frac{16\pi}{5} \frac{B(E2)}{\text{CG}^2}}$ 得出 $Q_t = 2.7216\text{ eb}$，精确重现原文 $2.72\text{ eb}$（偏差 $< 0.002\text{ eb}$）；
-  2. Singh 2016 则在正文 Eq. (1)–(2) 中明确采用了完全解耦转子近似 $K = 1/2$（$K = 0.5$），对应的 Clebsch–Gordan 系数平方为 $\langle 27/2\, 1/2\, 2\, 0 \mid 23/2\, 1/2\rangle^2 = \frac{26}{75} \approx 0.346667$。代入后得出 $Q_t = 2.2353\text{ eb}$，经其公式前置常数（$1.224 \times 10^{12}$）的轻微舍入后即为表格中印刷的 $2.28\text{ eb}$；
-  3. 两种投影几何给出的内禀四极矩比值严格满足：
-     $$\frac{Q_t(K=11/2)}{Q_t(K=1/2)} = \sqrt{\frac{\langle 27/2\, 1/2\, 2\, 0 \mid 23/2\, 1/2\rangle^2}{\langle 27/2\, 11/2\, 2\, 0 \mid 23/2\, 11/2\rangle^2}} = \sqrt{\frac{26/75}{76/325}} = \sqrt{\frac{169}{114}} \approx 1.21756$$
-     这一比值（$21.8\%$ 相对增大）完全封闭了两文的数值落差，证明两篇文献在同一实验寿命下完全自洽，消除了核结构形变演化讨论中因转子换算约定不同引起的伪矛盾。
+[[li-2004-lifetimes-131ce]] LI04-D18-1与[[singh-2016-lifetime-131ce-133pr]] SI16-D18-5已修订：1723 e2fm4与候选K=11/2的Qt约2.722贴近2.72；候选K=1/2给2.235，仍不等2.28。几何比1.2176与打印比1.1930不闭，原“常数舍入完全解释”撤回。
 
-新 [li04-singh16-k-rotor-result-062](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/li04-singh16-k-rotor-result-062.json) 包含 9 项原件哈希、原文数据与闭式代数检验，全部严格通过。
+两者对旧tau=1.23(23)ps的复用不增加独立实验。K候选代数只能展示约定敏感性，不能由输出反认实际producer或独立验证作者流程。新078解析CG和常数灵敏度反证保存约2%残差，不用quoted误差当printing box，也不编造联合CI。
 
 ## 136Nd Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析（checkpoint075）
 
-[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-10 与 [[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2 解决了 Table II 中 $B(M1)$ 提取与单光子天真跃迁率计算存在表观偏差的机制：
-- 对 Band 2 $15^-$ 态（$199.6\text{ keV}$），天真忽略内转换的单光子率公式 $\lambda_\gamma = b/\tau$ 给出 $B(M1) = 5.238\ \mu_N^2$，相比报告值 $4.4(3)\ \mu_N^2$ 高出 $19.05\%$；
-- 定量代数分析表明，作者严格沿用了其引用的 Ref. [16] Chiara et al. (2001) 的内转换修正方法 $\lambda_\gamma = \frac{\lambda_{\text{tot}}}{1 + \alpha_{\text{tot}}}$；在 $Z=60$（Nd）中，$199.6\text{ keV}$ $M1$ 跃迁的总内转换系数理论值 $\alpha_{\text{tot}}(M1) \approx 0.1905$（即 $1 + \alpha = 1.1905$），代入后精确给出 $B(M1) = 5.238 / 1.1905 = 4.40\ \mu_N^2$，完全吻合报告值 $4.4(3)$；
-- 跨自旋序列检验确认：全部 10 个母态隐含的内转换系数随跃迁能量单调递减并严格遵循原子偶极内转换的 $E_\gamma^{-3}$ 标度律（$229.3\text{ keV}$ 为 $0.1274$，$248.1\text{ keV}$ 为 $0.1009$，$308.7\text{ keV}$ 为 $0.0599$，$E_\gamma > 350\text{ keV}$ 时 $<0.02$），说明高能态内转换修正已落入报告值的舍入容差以内。
-新 [mu08-icc-m1-result-075](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-icc-m1-result-075.json) 包含 10 项检验，全部验证通过。
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-10撤回“理论alpha=.1905精确解决偏差”及全十行E^-3严格成立。旧程序用同源输出反推修正再代回，是恒等式，未查询独立原子输入；负残差与能量序列上升已反证其ICC识别。[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-2仅证明方法祖先含IC修正，不认证MU08的实际每线ICC或branch分母。
+
+若r_i是photon归一且库存完整，p_gamma_i=r_i/sum_j[r_j(1+alpha_j)]；若b_i是total branch，p_gamma_i=b_i/(1+alpha_i)。新078的自选两通道反例显示同打印分数在两定义下给不同偏率，不能逐线用未知alpha强配表。仍缺actual inventory、独立ICC、响应/feeding与Sigma；没有新tau/B/CI或独立验证。
 
 ## 165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计（checkpoint076）
 
-[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-11 与 [[jensen-2001-165tm-h9-2-configuration]] J01-D18-2 确立了从 DSAM 寿命提取的约化跃迁几率在 Weisskopf 单粒子单位（W.u.）下的核结构集体性分类基准：
-- **单粒子质量数标度**：由标准 Weisskopf 偶极与四极单粒子估计，质子偶极 $B(M1)_{	ext{s.p.}} = 1.7905\ \mu_N^2$（与质量数无关），而电四极标度为 $B(E2)_{	ext{s.p.}} = rac{1}{4\pi} \left(rac{3}{5}
-ight)^2 (1.20 A^{1/3})^4 = 0.05940 A^{4/3}\ [e^2	ext{fm}^4]$。对于 $^{136}	ext{Nd}$（$A=136$），$B(E2)_{	ext{s.p.}} = 41.55\ e^2	ext{fm}^4 = 0.004155\ e^2	ext{b}^2$；对于 $^{165}	ext{Tm}$（$A=165$），$B(E2)_{	ext{s.p.}} = 53.76\ e^2	ext{fm}^4 = 0.005376\ e^2	ext{b}^2$；
-- **136Nd 带 2 的集体度断崖塌缩**：低自旋态 $15^-$、$16^-$、$17^-$ 的 $B(E2)$ 依次为 $130.0$、$122.8$、$105.9	ext{ W.u.}$，表现出显著的集体转动增强；而在自旋 $17^- 	o 18^-$ 能级交叉点，$B(E2)$ 剧烈跌落至 $9.6	ext{ W.u.}$（$11.0$ 倍崩塌），并在 $19^-$ 维持在 $12.0	ext{ W.u.}$，直接印证了从集体转动向非集体多准粒子带交叉的结构转变；
-- **标度不变性在 W.u. 表象下的完全保持**：带间比值序列 $R(I) = B_2/B_1$ 在自旋 17 处为 $105.9 / 19.3 = 5.50$，在自旋 18 处为 $9.63 / 33.7 = 0.286$，双比值在 W.u. 表象下严格等于 $19.25$（$77/4$），证明单粒子单位基准的选取绝不影响带间相对强度的跃变结论；
-- **跨核区集体性超强反差**：$^{165}	ext{Tm}$ $[541]1/2^-$ 强形变扁椭球转子（$Q_t = 8.3	ext{ eb}, eta_2 pprox 0.33$）的四极跃迁强度达到 $478.0	ext{ W.u.}$，比 $^{136}	ext{Nd}$ 带 2 强形变区（$105.9	ext{ W.u.}$）高出 $4.51$ 倍，比带交叉区（$9.6	ext{ W.u.}$）高出整整 $49.6$ 倍，直观量化了稀土超变形/大变形区与过渡区三轴核的集体性物理鸿沟。
-新 [weisskopf-collectivity-result-076](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/weisskopf-collectivity-result-076.json) 包含 10 项检验，全部验证通过。
+[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-11只保留条件单位换算：R=1.2 A^(1/3)fm时1E2 W.u.分别为A136的.004154666 e2b2、A165的.005376045 e2b2。MU08 Band2 .44/.04转约105.91/9.63 W.u.，中心比11；同A带间double ratio精确77/4，须舍入前计算。
+
+9.63 W.u.不是“单粒子/非集体”判据，单位换算不证明波函数、形状突变或superdeformation。Jensen平均Qt用固定K/I远大于K的B=15Qt^2/(128pi)只能作高spin参考，约478/380 W.u.不是某逐态新B；actual有限spin、轴与branch条件仍保。旧4.51/49.6比不当直接形变比或新实验。
 
 ## E1跃迁率、内禀偶极矩D0与电磁多极三元分类律（checkpoint077）
 
-[[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] L16-D18-2 与 [[jensen-2001-165tm-h9-2-configuration]] J01-D18-2 确立了从绝对跃迁几率与分支比提取内禀电偶极矩 $D_0$ 的方法学链条，并构建了涵盖摆动、手征与八极相关的电磁多极三元分类法则：
-- **跃迁率常数与比值因子**：由时变电磁场理论，单色 $E1$ 与 $E2$ 光子辐射率分别为 $\lambda_\gamma(E1) = 1.590 \times 10^{15} E_\gamma^3 [\text{MeV}] B(E1) [e^2\text{fm}^2]$ 与 $\lambda_\gamma(E2) = 1.225 \times 10^9 E_\gamma^5 [\text{MeV}] B(E2) [e^2\text{fm}^4]$。由此导出约化跃迁几率比的实验换算式：
-  $$\frac{B(E1)}{B(E2)} = \frac{I_\gamma(E1)}{I_\gamma(E2)} \frac{E_{\gamma, E2}^5}{E_{\gamma, E1}^3} \times 7.7044 \times 10^{-7}\ [\text{MeV}^{-2}] = \frac{I_\gamma(E1)}{I_\gamma(E2)} \frac{E_{\gamma, E2}^5}{E_{\gamma, E1}^3} \times 7.7044 \times 10^{-13}\ [\text{keV}^{-2}]$$
-- **内禀电偶极矩对 DSAM 四极形变标尺的刚性依赖**：在轴对称转子模型下，$B(E1) = \frac{3}{4\pi} D_0^2 \langle I K 1 0 \mid I-1 K\rangle^2$，$B(E2) = \frac{5}{16\pi} Q_0^2 \langle I K 2 0 \mid I-2 K\rangle^2$。代入高自旋 Clebsch-Gordan 极限后：
-  $$|D_0| = \sqrt{ \frac{5}{16} Q_t^2 \frac{B(E1)}{B(E2)} }$$
-  表明内禀偶极矩 $D_0$ 的绝对值提取**严格线性正比于 DSAM/RDDS 所确立的绝对四极形变基准 $Q_t$**（$\partial \ln D_0 / \partial \ln Q_t \equiv 1$），单凭分支比强度仅能约束比值 $|D_0/Q_0|$；
-- **八极软振动与稳定八极形变的标度界限**：$^{78}\text{Br}$ 实测八条跨带 $E1$ 跃迁给出 $B(E1)/B(E2) \sim (1.0\text{--}3.0) \times 10^{-6}\text{ fm}^{-2}$，在 $Q_t \approx 2.0\text{ eb}$ 标度下导出 $|D_0| \approx 0.11\text{--}0.19\ e\cdot\text{fm}$；比稳定反射不对称转子标尺 $^{224}\text{Th}$（$B(E1)/B(E2) \approx 1.5 \times 10^{-5}\text{ fm}^{-2}$）低整整一个数量级，排除了基态稳定八极形变而确立了动态八极软振动；
-- **电磁多极三元分类法则（Tri-Multipolarity Taxonomy）**：
-  1. **摆动模式（Wobbling）**：横向集体 $E2$ 主导（$B(E2)_{\text{out}} \gg 1\text{ W.u.}, B(M1) \ll B(E2)$），表现为三轴角动量进动；
-  2. **手征模式（Chirality）**：带间强 $M1$ 选择定则与奇偶交错（$B(M1) \sim 1\text{--}3\ \mu_N^2, B(M1)/B(E2) \gg 1$），源自空间三轴自旋非共面取向破缺；
-  3. **八极关联（Octupole）**：宇称交替强 $E1$ 跨带跃迁（$B(E1)/B(E2) \sim 10^{-6}\text{--}10^{-4}\text{ fm}^{-2}, |D_0| > 0.1\ e\cdot\text{fm}$），源自质心与电荷中心分离引起的内禀偶极发射。
-新 [e1-octupole-d0-result-077](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/e1-octupole-d0-result-077.json) 包含 8 项物理断言检验，全部验证通过。
+[[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] L16-D18-10撤回077错误图数组和Qt/D0数值，原048边界恢复。原Fig5红点约10^-7 fm^-2量级，未精确数字化；Qt=2eb只是旧脚本自选，非实测。
+
+效率修正、同母态且纯E1/E2的photon率比可按能量幂得到B(E1)/B(E2)，其单位fm^-2，D0/Q0具有fm^-1量纲，不是无量纲。轴对称强耦合须写D0=Q0 sqrt[(5/12) R C2/C1]，C1/C2是指定spin/K的CG平方；固定K高spin极限C1=1/2、C2=3/8才有5/16。不能无说明用某printed Qt替代Q0或用于三轴不同组态。线性标尺关系是条件代数，任何适合的独立Q0约束均可，不专属于DSAM。
+
+B(M1)和B(E2)不同量纲，裸大小比较或有量纲ratio大于1不能分类模式。多极性/宇称与collective mode非一一对应；原文结合比值、deltaE和PES支持八极关联，不单凭比值排除所有静态形变。新078条件design不产实验D0/CI。
+
+
+## checkpoint078：证据边界纠错与当前验收入口
+
+062/075/076/077旧结果保留为历史，科学支持状态由本节及各source最新修订覆盖；程序成功不认证原实验。新strength-boundary-correction-result-078核13项实际反例/解析关系。当前仍需原DSAM producer、完整branch/ICC、Qt轴和联合Sigma；核心新练习为本session来源后clock-contrast001及其反证，不以旧preview、行数或旧valid授分。

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-21T05:51:35.804725+00:00",
+  "superseded_scientific_support": [
+    "062",
+    "075",
+    "076",
+    "077"
+  ],
+  "old_artifacts_preserved": true,
+  "reason": "circular ICC residuals; incomplete K closure; overinterpreted W.u.; unsupported E1 inputs/taxonomy; legacy readiness checks too narrow",
+  "replacement": "strength-boundary-correction-result-078.json",
+  "formal_credit": false
+}

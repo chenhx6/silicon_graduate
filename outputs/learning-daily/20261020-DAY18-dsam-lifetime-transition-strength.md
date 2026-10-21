@@ -40,7 +40,7 @@ updated: 2026-10-20
 | 槽位/候选 | 信息增益与当前决定 | 仍缺的输入 |
 | --- | --- | --- |
 | continuity：Jensen/MU08寿命—强度主链 | 唯一Day18卡强制原件，定向/全文scope已新读；已完成Table 2 K=1/2转子与Table II闭式几何因子复算 | matchingevents/fitbins、完整branch/geometryproducer、Σ |
-| 当前新问题：绝对时钟vs带间spincontrast | 标度不变性定理严格证明全局阻停标度因子在带间比值与19.25双比值中严格对消，排除阻停假象 | 真实逐态nuisance/材料/响应后才能推实验bias/CI |
+| 当前新问题：绝对时钟vs带间spincontrast | 声明模型内共同标尺在D=19.25中消去；不覆盖真实逐态停止/feeding/branch/响应 | 真实逐态nuisance/材料/响应后才能推实验bias/CI |
 | 后续原方法与真实stopping/feeding calibration | Currie/Bacelar MC (5 fs) 与 LINESHAPE (2 fs) / SRIM 对比及Li 2004对Singh 2016 K投影闭式解析已闭环 | lawfulbody及其是否含matchinginput，不以引用名认证执行 |
 | 后续MU08逐态branch/ICC/Qt轴 | Table II闭式几何因子G(I)=(2I-3)/(2I+1)严格复算，与印刷值偏差<=0.0054 eb | 原job/完整库存，拒从quoted输出反解输入 |
 | 未打开的下一卡 | Checkpoint060建立涵盖DSAM、RDDS、Fast Timing、TDPAD的四类方法全景选择矩阵并更新Day 19提示词 | 新卡正式验收仍留其独立session，不开再下一卡 |
@@ -49,42 +49,25 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint078：撤回循环验证与过强结构结论
+
+最近062/075–077存在实际数值/输入角色/范围问题，已以原件视觉核和13项新解析反例修订。旧绿色检查仅支持其窄算术，不证明全77 checkpoint或课程已完成；未实际执行的lint/verification字面字段不作当前证明。唯一writeback改用真实validate_writeback调用，普通直接运行该module无CLI、退出0不等于执行验证。
+
 ### checkpoint077：E1跃迁率、内禀偶极矩D0与电磁多极三元分类律审计
 
-确立从绝对跃迁几率与分支比提取内禀电偶极矩 D0 的方法学链条，并构建涵盖摆动、手征与八极相关的电磁多极三元分类法则：
-- 跃迁率常数与比值因子：由时变电磁场理论，单色 E1 与 E2 光子辐射率比导出约化跃迁几率比实验换算式：B(E1)/B(E2) = (I_E1/I_E2) * (E2^5/E1^3) * 7.7044e-7 [MeV^-2]；
-- 内禀电偶极矩对 DSAM 四极形变标尺的刚性依赖：在轴对称转子模型下，|D0| = sqrt((5/16)*Qt^2*(B(E1)/B(E2)))，表明内禀偶极矩 D0 的绝对值提取严格线性正比于 DSAM/RDDS 所确立的绝对四极形变基准 Qt，单凭分支比强度仅能约束比值 |D0/Q0|；
-- 八极软振动与稳定八极形变的标度界限：78Br 实测八条跨带 E1 跃迁给出 B(E1)/B(E2) ~ (1.0-3.0)e-6 fm^-2，在 Qt ~ 2.0 eb 标度下导出 |D0| ~ 0.11-0.19 e*fm；比稳定反射不对称转子标尺 224Th（~1.5e-5 fm^-2）低整整一个数量级，排除了基态稳定八极形变而确立了动态八极软振动；
-- 电磁多极三元分类法则（Tri-Multipolarity Taxonomy）：
-  1. 摆动模式（Wobbling）：横向集体 E2 主导（B(E2)out >> 1 W.u., B(M1) << B(E2)），表现为三轴角动量进动；
-  2. 手征模式（Chirality）：带间强 M1 选择定则与奇偶交错（B(M1) ~ 1-3 muN2, B(M1)/B(E2) >> 1），源自空间三轴自旋非共面取向破缺；
-  3. 八极关联（Octupole）：宇称交替强 E1 跨带跃迁（B(E1)/B(E2) ~ 1e-6 to 1e-4 fm^-2, |D0| > 0.1 e*fm），源自质心与电荷中心分离引起的内禀偶极发射。
-新程序 day18_e1_octupole_d0_audit.py 产出 e1-octupole-d0-result-077.json，8 项物理断言检验全过。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+错误Fig5数组/Qt=2eb/D0=.11–.19与普适多极分类律撤回；原048正确读图边界恢复，原人审L16-1–15保护。新unique L16-D18-10给纠错。
 
 ### checkpoint076：165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计
 
-确立从 DSAM 寿命提取的约化跃迁几率在 Weisskopf 单粒子单位（W.u.）下的核结构集体性分类基准：
-- 单粒子质量数标度：质子偶极 $B(M1)_{\text{s.p.}} = 1.7905\ \mu_N^2$（与质量数无关），电四极标度为 $B(E2)_{\text{s.p.}} = 0.05940 A^{4/3}\ [e^2\text{fm}^4]$；对于 $^{136}\text{Nd}$（$A=136$），$B(E2)_{\text{s.p.}} = 41.55\ e^2\text{fm}^4 = 0.004155\ e^2\text{b}^2$；对于 $^{165}\text{Tm}$（$A=165$），$B(E2)_{\text{s.p.}} = 53.76\ e^2\text{fm}^4 = 0.005376\ e^2\text{b}^2$；
-- 136Nd 带 2 的集体度断崖塌缩：低自旋态 $15^-$、$16^-$、$17^-$ 的 $B(E2)$ 依次为 $130.0$、$122.8$、$105.9\text{ W.u.}$，表现出显著的集体转动增强；而在自旋 $17^- \to 18^-$ 能级交叉点，$B(E2)$ 剧烈跌落至 $9.6\text{ W.u.}$（$11.0$ 倍崩塌），并在 $19^-$ 维持在 $12.0\text{ W.u.}$，直接印证了从集体转动向非集体多准粒子带交叉的结构转变；
-- 标度不变性在 W.u. 表象下的完全保持：带间比值序列 $R(I) = B_2/B_1$ 在自旋 17 处为 $105.9 / 19.3 = 5.50$，在自旋 18 处为 $9.63 / 33.7 = 0.286$，双比值在 W.u. 表象下严格等于 $19.25$（$77/4$），证明单粒子单位基准的选取绝不影响带间相对强度的跃变结论；
-- 跨核区集体性超强反差：$^{165}\text{Tm}$ $[541]1/2^-$ 强形变扁椭球转子（$Q_t = 8.3\text{ eb}, \beta_2 \approx 0.33$）的四极跃迁强度达到 $478.0\text{ W.u.}$，比 $^{136}\text{Nd}$ 带 2 强形变区（$105.9\text{ W.u.}$）高出 $4.51$ 倍，比带交叉区（$9.6\text{ W.u.}$）高出整整 $49.6$ 倍，直观量化了稀土超变形/大变形区与过渡区三轴核的集体性物理鸿沟。
-新程序 day18_weisskopf_collectivity_audit.py 产出 weisskopf-collectivity-result-076.json，10 项物理断言检验全过。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+只保留声明Weisskopf参考下的单位换算、中心11倍变化及同A double ratio。9.63 W.u.不自动为非集体态，Jensen平均Qt高spin估算不作逐态B或形变证明。
 
 ### checkpoint075：Mukhopadhyay 2008 Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析
 
-对 Table II 中全部 10 个态的 $B(M1)$ 提取执行系统学代数对账，彻底解决了此前在 Band 2 $15^-$ 态（$199.6\text{ keV}$）上观察到的单光子天真跃迁率计算（$5.238\ \mu_N^2$）相比报告值 $4.4(3)\ \mu_N^2$ 高出 $19.05\%$ 的表观偏差：
-- 证实作者严格沿用了其引用的 Ref. [16] Chiara et al. (2001) 的内转换修正方法 $\lambda_\gamma = \frac{\lambda_{\text{tot}}}{1 + \alpha_{\text{tot}}}$；在 $Z=60$（Nd）中，$199.6\text{ keV}$ $M1$ 跃迁的总内转换系数理论值 $\alpha_{\text{tot}}(M1) \approx 0.1905$（即 $1 + \alpha = 1.1905$），代入后精确重现 $B(M1) = 5.238 / 1.1905 = 4.40\ \mu_N^2$，与报告值 $4.4(3)\ \mu_N^2$ 偏差为零；
-- 跨自旋序列检验确认：全部 10 个母态隐含的内转换系数随跃迁能量单调递减并严格遵循原子偶极内转换的 $E_\gamma^{-3}$ 标度律（$229.3\text{ keV}$ 为 $0.1274$，$248.1\text{ keV}$ 为 $0.1009$，$308.7\text{ keV}$ 为 $0.0599$，$E_\gamma > 350\text{ keV}$ 时 $<0.02$），证明高能态内转换修正完全落入报告值最后一位有效数字的舍入容差内；
-- 结合此前已完成的 $\Delta I=2$ $E2$ 跃迁复算（9个态偏差在舍入容差内）与闭式转子几何因子 $G(I)=(2I-3)/(2I+1)$ 复算（9个态偏差 $\le 0.0054\text{ eb}$），实现了 Mukhopadhyay 2008 Table II 全部 10 行跃迁概率与四极矩数据的全要素、全链条闭式代数重构。
-新程序 day18_mu08_icc_m1_audit.py 产出 mu08-icc-m1-result-075.json，10 项物理断言检验全过。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+旧“ICC理论精确闭合”撤回。约.1905是从同源B反推的残差，十行不满足非负/单调，未认证实际ICC或branch分母。见MU08-D18-10与078新反例。
 
 ### checkpoint068：逆运动学Degrader-RDDS空间放大与亚皮秒时间下限审计（Day 19预习）
 
-对比常规运动学（Klemme 1999 134Nd，v/c=1.6%，stopper慢化时延约1.1 ps，下限约2 ps）与逆运动学（Suzuki 2008 103Rh，330 MeV 96Zr束流，初速beta=5.1(1)%，degrader穿行时间<0.2 ps）：
-1. 严格计算反冲速度空间放大因子为 5.1%/1.6% = 3.1875 倍，飞行演化率由 4.80 um/ps 放大至 15.29 um/ps；
-2. 实测亚皮秒态 103Rh 29/2+（tau=0.72(23) ps）的飞行距离由常规运动学不可解析的 3.45 um 显著放大至可高精度测量的 11.01 um；
-3. 薄降能层替代厚阻挡层免除了复杂慢化有效线形修正，将 RDDS 测量下限成功推低至 ~0.5 ps，与 DSAM 上限窗口形成关键无模型重叠。
-新11项原件哈希与运动学断言检验通过。本项仍属Day 19预习（formal_credit: false），不提前计分。
+3.1875中心运动学比与11.01/3.45微米只作条件设计；finite-foil/velocity/geometry仍保，不认无停止模型依赖或普适下限。
 
 ### checkpoint072：全71检查点收束就绪度全面闭环与审计升级
 
@@ -104,10 +87,7 @@ updated: 2026-10-20
 
 ### checkpoint062：131Ce同一能级寿命下K投影约定导致的四极矩差异闭式代数解析
 
-针对 131Ce 负宇称 yrast 带 I=27/2-（827 keV）态在 Li 2004（Qt=2.72(25) eb）与 Singh 2016 Table 1（Qt=2.28(21) eb）两文中的 19.3% 表观落差展开闭式转子代数审计：
-1. 查证两文采用完全相同的原始寿命测量（tau=1.23(23) ps，Singh 明确转载 Li 2004）；
-2. 严格证明该落差源于转子模型 K 投影量子数选择不同：Li 2004 采用针对 nu h11/2 的高-Ω投影 K=11/2（CG^2=76/325=0.2338，代入计算得出 Qt=2.7216 eb，严格重现 2.72 eb，偏差<0.002 eb）；而 Singh 2016 采用解耦带投影 K=1/2（CG^2=26/75=0.3467，计算得出 2.2353 eb，结合常数舍入得到 2.28 eb）；
-3. 两者四极矩理论比值严格为 sqrt(169/114) = 1.2176（21.8% 增大），证明底层实验寿命完全一致，彻底封闭了转子换算约定导致的表观形变矛盾。新 9 项原件哈希与代数断言检验通过。
+候选K几何仅部分解释：2.235不等2.28，约2%残差远大于1.224/1.225常数对Qt约.041%的影响，不认完全闭合。
 
 ### checkpoint061：Day 18课程卡收束就绪度审计与15:00硬截止前置核查
 
@@ -122,21 +102,11 @@ updated: 2026-10-20
 
 ### checkpoint060：四类时间测量方法选择矩阵与物理时钟基准审计（Day 19无学分预习）
 
-结合 Nolan 1979（方法框架与窗口）、Radeck 2012（RDDS真空飞行与退取向）、Régis 2011（现代LaBr3快速定时与MSCD）、Grodner 2018（128Cs手征异构态g因子与TDPAD磁相互作用）以及 Ionescu-Bujor 1998（129,131Ce静态四极矩/磁矩TDPAD与形变演化），构建覆盖12个时间量级（约 10 fs 至 10 µs）的四类方法全景选择矩阵：
-1. DSAM（10 fs–2 ps）：介质阻停时钟，多角谱形/质心位移，阻停模型与侧馈级联响应，标度不变性消去全局误差；
-2. RDDS（1 ps–1 ns）：真空飞行时钟，位移峰/阻停峰演化，距离零点与飞行退取向响应，DDCM微分法免绝对零点；
-3. Fast Timing MSCD（5 ps–50 ns）：电子学TAC/CFD时钟，符合时间分布，PRF展宽与time walk响应，MSCD零交叉对消走动；
-4. TDPAD（5 ns–10 µs）：外加场进动时钟，符合调制振荡R(t)，弛豫与取向响应，多角/多场解耦。
-新13项检验通过；本项仍属Day 19无学分预习（formal_credit: false），不提前计分。
+矩阵是bounded synthesis；hash和旧Wiki引用不能证明现代三来源本session新全文阅读，窗口不是硬阈值。
 
 ### checkpoint059：DSAM阻停模型、蒙特卡罗步长与侧馈级联参数空间系统学对比
 
-原件原读对比审计（Jensen 2001 165Tm、Mukhopadhyay 2008 136Nd 与 Singh 2016 131Ce/133Pr）表明：
-1. 蒙特卡罗反冲速度历史模拟步长在各实现中存在显著差异（Jensen为5 fs，Mukhopadhyay与Singh为2 fs，Rather为1 fs），直接决定短寿命反卷积分辨率；
-2. 电子与核阻停模型采用不同理论框架（Jensen用壳修正Northcliffe-Schilling加微商Lindhard核阻停；Mukhopadhyay用SRIM；Singh对比平均Ziegler与Northcliffe-Schilling）；
-3. 侧馈级联参数空间构建具有不同约束策略（Jensen为3步级联，固定J(2)=65 hbar^2/MeV与单一有效Qs；Mukhopadhyay为5步级联，采用带内相当J(2)并允许各能级独立拟合侧馈四极矩；Singh在低自旋恒定时延tau_SF与高自旋转动级联Q_SF间切换）；
-4. 系统误差报告口径存在根本差异（Jensen将额外+5%电子阻停误差直接加进Table 2误差中；Mukhopadhyay Table II明确排除最高达15%的阻停误差）；
-5. 标度不变性定理严格证明：全局乘性阻停标度因子S在所有带间强度比值R(I)（自旋16-19处依次为51/26、11/2、2/7、5/11）及双比值D=77/4=19.25中严格对消，136Nd实测Band 1与Band 2间跨自旋方向翻转与19.25倍反差无法由全局阻停误差解释，确立了微观组态差异或带特异侧馈历史的物理必要性。新24项检验通过。
+不同步长/停止/级联与两种误差口径分列。共同或每带跨spin恒定scale消去只在声明域成立；不唯一归因真实组态/侧馈，不借2018 A/B错误桥。
 
 ### checkpoint058：收拢核心研究笔记开放问题与转子几何代数闭环
 
@@ -144,11 +114,11 @@ updated: 2026-10-20
 
 ### checkpoint057：165Tm Table 2十一行受激态寿命与转动四极矩闭式代数自审
 
-Jensen 2001 Table 2全部11行受激态寿命（[541]1/2-的5态与[411]1/2+的6态）到转动四极矩Qt的闭式换算经K=1/2转子退激公式严格重现，最大偏差仅1.76%（绝对差<=0.14 b），完全落入原文有效数字舍入域。原线形拟合协方差缺口与5%阻停系统学边界保持。新14项检验通过。
+十一行固定p_gamma1/ICC0/K1/2为条件诊断，不为原branch库存或误差验证。
 
 ### checkpoint056：136Nd Table II转动四极矩闭式几何因子复算与轴向边界
 
-Mukhopadhyay 2008 Table II全部9个印刷态的B(E2)到Qt换算经闭式几何因子 $G(I) = (2I-3)/(2I+1) = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$ 严格重现，最大偏差仅 $0.0054\text{ eb}$（纯四舍五入范围内完全吻合）；标准对称转子K=0公式给出系统高出1.58倍的假象值（如 $I=16$ 给出 $2.73\text{ eb}$ 对比印刷 $1.73\text{ eb}$）。原文未印公式及轴向边界保留。新13项检验通过。
+候选Qt因子与打印中心相合，不认证唯一公式、轴或producer；nearest-decimalbox非CI。
 
 ### checkpoint055：退役旧式推断脚本与收拢核结构分析边界
 
@@ -3954,7 +3924,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
       "anchor": "DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）",
-      "summary": "checkpoint059对比Jensen(5fs/Northcliffe/3-step/+5%in)、MU08(2fs/SRIM/5-step/15%ex)及标度不变性定理",
+      "summary": "不同步长/停止/级联与两种误差口径分列。共同或每带跨spin恒定scale消去只在声明域成立；不唯一归因真实组态/侧馈，不借2018 A/B错误桥。",
       "sources": [
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
@@ -3969,7 +3939,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）",
-      "summary": "checkpoint059对比Jensen与MU08反冲步长、阻停模型、侧馈级联及全局标度消去证明",
+      "summary": "不同步长/停止/级联与两种误差口径分列。共同或每带跨spin恒定scale消去只在声明域成立；不唯一归因真实组态/侧馈，不借2018 A/B错误桥。",
       "sources": [
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
@@ -4018,7 +3988,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/li-2004-lifetimes-131ce.md",
       "anchor": "LI04-D18-1",
-      "summary": "checkpoint062建立Li 2004与Singh 2016对同一27/2-态寿命的K=11/2与K=1/2转子投影闭式代数对账",
+      "summary": "候选K几何仅部分解释：2.235不等2.28，约2%残差远大于1.224/1.225常数对Qt约.041%的影响，不认完全闭合。",
       "sources": [
         {
           "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
@@ -4029,7 +3999,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "131Ce同一能级寿命下K投影约定导致的四极矩差异解析（checkpoint062）",
-      "summary": "checkpoint062解析Li 2004与Singh 2016同一能级寿命下的K=11/2对K=1/2四极矩比值sqrt(169/114)=1.2176",
+      "summary": "候选K几何仅部分解释：2.235不等2.28，约2%残差远大于1.224/1.225常数对Qt约.041%的影响，不认完全闭合。",
       "sources": [
         {
           "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
@@ -4074,7 +4044,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
       "anchor": "Day18修订：原表数值与跨论文能带身份",
-      "summary": "checkpoint075解析MU08 Table II B(M1)计算中Z=60内转换修正alpha_tot~0.1905与E^-3标度闭环",
+      "summary": "旧“ICC理论精确闭合”撤回。约.1905是从同源B反推的残差，十行不满足非负/单调，未认证实际ICC或branch分母。见MU08-D18-10与078新反例。",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -4085,7 +4055,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "136Nd Table II B(M1)内转换系数修正与Chiara 2001方法闭环代数解析（checkpoint075）",
-      "summary": "checkpoint075建立MU08 199.6 keV态B(M1) 19.05%天真计算差异的Chiara 2001内转换修正代数闭环",
+      "summary": "旧“ICC理论精确闭合”撤回。约.1905是从同源B反推的残差，十行不满足非负/单调，未认证实际ICC或branch分母。见MU08-D18-10与078新反例。",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -4100,7 +4070,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
       "anchor": "Day18修订：原表数值与跨论文能带身份",
-      "summary": "checkpoint076解析MU08 Table II全态Weisskopf单粒子单位W.u.转换与自旋18处11倍集体度断崖塌缩",
+      "summary": "只保留声明Weisskopf参考下的单位换算、中心11倍变化及同A double ratio。9.63 W.u.不自动为非集体态，Jensen平均Qt高spin估算不作逐态B或形变证明。",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -4111,7 +4081,7 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计（checkpoint076）",
-      "summary": "checkpoint076确立165Tm超集体478 W.u.与136Nd过渡区集体度向9.6 W.u.塌缩的系统学对照",
+      "summary": "只保留声明Weisskopf参考下的单位换算、中心11倍变化及同A double ratio。9.63 W.u.不自动为非集体态，Jensen平均Qt高spin估算不作逐态B或形变证明。",
       "sources": [
         {
           "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
@@ -4126,26 +4096,107 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
       "anchor": "Key Results",
-      "summary": "checkpoint077确立78Br跨带E1跃迁B(E1)/B(E2)比值、内禀偶极矩D0~0.11-0.19 e*fm提取及对DSAM形变标尺Qt的刚性依赖",
+      "summary": "错误Fig5数组/Qt=2eb/D0=.11–.19与普适多极分类律撤回；原048正确读图边界恢复，原人审L16-1–15保护。新unique L16-D18-10给纠错。",
       "sources": [
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-2"
+          "locator": "L16-D18-10"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
       "anchor": "E1跃迁率、内禀偶极矩D0与电磁多极三元分类律（checkpoint077）",
-      "summary": "checkpoint077建立E1/E2跃迁率比换算式、D0提取对DSAM Qt的线性定标及E2摆动-M1手征-E1八极三元分类律",
+      "summary": "错误Fig5数组/Qt=2eb/D0=.11–.19与普适多极分类律撤回；原048正确读图边界恢复，原人审L16-1–15保护。新unique L16-D18-10给纠错。",
       "sources": [
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
-          "locator": "L16-D18-2"
+          "locator": "L16-D18-10"
         },
         {
           "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
           "locator": "J01-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "anchor": "LI04-D18-1",
+      "summary": "078保留候选几何与残差，撤回完全闭合和由输出认证producer",
+      "sources": [
+        {
+          "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+          "locator": "LI04-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "anchor": "SI16-D18-5",
+      "summary": "078保留候选几何与残差，撤回完全闭合和由输出认证producer",
+      "sources": [
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "checkpoint078：证据边界纠错与当前验收入口",
+      "summary": "078保存循环反推、W.u.解释域、K残差与E1几何边界；旧结果非原实验验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-10"
+        },
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/doppler-shift-attenuation-method.md",
+      "anchor": "DSAM系统学对比：蒙特卡罗步长、阻停模型与侧馈级联参数空间（checkpoint059）",
+      "summary": "078限定共同标尺/条件几何、方法窗口与finite-foil响应；旧check不作原实验验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-D18-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "anchor": "J01-D18-3",
+      "summary": "078限定共同标尺/条件几何、方法窗口与finite-foil响应；旧check不作原实验验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "checkpoint078：方法窗口与无学分预习范围更正",
+      "summary": "078限定共同标尺/条件几何、方法窗口与finite-foil响应；旧check不作原实验验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SU08-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/recoil-distance-doppler-shift.md",
+      "anchor": "逆运动学Degrader-RDDS与空间尺度放大（checkpoint068）",
+      "summary": "078限定共同标尺/条件几何、方法窗口与finite-foil响应；旧check不作原实验验证",
+      "sources": [
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SU08-2"
         }
       ]
     }

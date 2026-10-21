@@ -2738,3 +2738,7 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
    - 手征模式（Chirality）：带间强 M1 选择定则与奇偶交错（B(M1) ~ 1-3 muN2, B(M1)/B(E2) >> 1），源自空间三轴自旋非共面取向破缺；
    - 八极关联（Octupole）：宇称交替强 E1 跨带跃迁（B(E1)/B(E2) ~ 1e-6 to 1e-4 fm^-2, |D0| > 0.1 e*fm），源自质心与电荷中心分离引起的内禀偶极发射。
 产出 e1-octupole-d0-result-077.json（8项检验全过）与升级后的 closeout-readiness-result-077.json（28项检验全过）。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+
+## 2026-10-21 Day18 checkpoint078：科学边界纠错
+
+撤回062常数舍入全闭合、075反推ICC验证、076由W.u.直接判形状及077错误Fig5/D0/普适多极分类。移除误插重复L16-D18-2，保原人审行和048修订；新增L16-D18-10。新13项反例/解析检查实际通过。旧结果/日志保档，旧检查不作当前验收。原session/15点deadline、next18/count17不变；继续本分析，无新来源/新卡。

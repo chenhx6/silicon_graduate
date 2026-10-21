@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-21T05:56:32.130318+00:00",
+  "scope": "existing sources revisited for correction",
+  "liu": {
+    "page": 4,
+    "visual": true,
+    "text": true,
+    "figure": "Fig5",
+    "exact_digitization": false
+  },
+  "li2004": {
+    "page": 3,
+    "text": "font encoding unreadable; no new prose claim",
+    "visual": false
+  },
+  "singh2016": {
+    "page": 2,
+    "text": true,
+    "full_reread": false
+  },
+  "new_sources": false,
+  "new_experimental_fit": false
+}

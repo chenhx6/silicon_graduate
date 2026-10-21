@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-21T05:52:53.785109+00:00",
+  "valid": true,
+  "checks": [
+    {
+      "name": "recall hash and priming",
+      "passed": true
+    },
+    {
+      "name": "jensen actual raw hash",
+      "passed": true
+    },
+    {
+      "name": "mu08 actual raw hash",
+      "passed": true
+    },
+    {
+      "name": "MU08 recorded six-page scope",
+      "passed": true
+    },
+    {
+      "name": "formal-session design individual checks",
+      "passed": true
+    },
+    {
+      "name": "correction individual checks",
+      "passed": true
+    },
+    {
+      "name": "current correction script hash",
+      "passed": true
+    },
+    {
+      "name": "writeback function executed",
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "L16-D18-2 row unique",
+      "passed": true
+    },
+    {
+      "name": "run and deadline preserved",
+      "passed": true
+    }
+  ],
+  "scope": "actual hashes, recorded reading scope, design checks and writeback structure only",
+  "knowledge_paths_count": 58,
+  "ready_for_final_completion": false,
+  "required_separate_audits": [
+    "scientific support",
+    "protected files",
+    "ten headings/card coverage",
+    "fresh required checks",
+    "post-deadline receipt",
+    "H3 publication",
+    "one-time credit reconciliation"
+  ]
+}

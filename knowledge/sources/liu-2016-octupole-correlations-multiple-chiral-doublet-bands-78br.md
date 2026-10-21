@@ -73,7 +73,6 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 | L16-13 | MDC-CDFT 的 `beta20-beta30` PES 沿 `beta30` 很软；这是支持 octupole softness/correlations 的模型结果，不是稳定 reflection-asymmetric minimum 的实验测量。 | model-result | direct | PDF pp.4-5, Fig.6 and caption | false |
 | L16-14 | 作者把 `78Br` 中 MχD 与 octupole correlations 的联合解释视为 nuclear chirality 可对八极关联保持稳健的迹象，并认为这指向未来在单一原子核中观测 chirality-parity quartet bands 的可能性。这里陈述的是未来可观测性；论文没有把当前四条双带直接指认为一个已建立的 quartet。 | future-proposal | direct | PDF p.5, paragraph above Summary and Summary | false |
 | L16-15 | “first example of chiral geometry in octupole-soft nuclei”与 chirality 对 octupole correlations robust 是作者结论，依赖 MχD 和 octupole 两条解释链，不能转写为无边界普适事实。 | author-interpretation | direct | PDF p.1, Abstract; p.5, Summary | false |
-| L16-D18-2 | 实验测得Band 1与Band 3间八条跨带E1跃迁的B(E1)/B(E2)比值为(1.0-3.0)e-6 fm^-2；结合CDFT形变基准Qt ~ 2.0 eb，由转子偶极换算式|D0| = sqrt((5/16)*Qt^2*(B(E1)/B(E2)))提取出内禀电偶极矩|D0| ~ 0.11-0.19 e*fm；比稳定八极形变标尺224Th（B(E1)/B(E2) ~ 1.5e-5 fm^-2）低整整一个数量级，直接确立动态八极软振动特征；证明内禀偶极矩D0提取严格依赖DSAM/RDDS所确立的绝对四极形变基准Qt。 | task-e1-octupole-audit | derived-and-boundary | PDF pp.4-5, Fig.5; e1-octupole-d0-result-077 | true |
 
 ## Nuclear Structure Information
 
@@ -136,3 +135,11 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 | L16-D18-9 | Liu2016未报告这些四条候选带的DSAM/RDDS寿命或绝对跃迁强度。本次未完成后续文献穷尽检索，不能写“78Br全核至今无任何寿命”；本文Fig.1本身还列出既有低能异构体寿命。 | evidence-boundary | source-scope | 全文；PDF p.2, Fig.1 | true |
 
 本次必要companion仅定向读取[[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]的上述公式条件，以及[[guo-2024-chiral-wobbler-74br]]的特定指纹/寿命讨论；不将其当作78Br独立绝对测量。旧分析合同与结果保留为历史运行记录，其固定`passed`不能认证输入数据、D0提取或科学结论。本节不授课程学分，不更改既有human-reviewed范围。
+
+## Day18 checkpoint078：撤回checkpoint077重复ID与无依据D0
+
+旧077在Key Results误插的L16-D18-2已移除，原048的L16-D18-2–9及L16-1–15/review状态保持。该旧追加不是用户人审内容。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| L16-D18-10 | checkpoint077的(1–3)e-6数组、Qt=2eb、D0=.11–.19和224Th精确1.5e-5均非本文提取输入。此次原PDF4 Fig5视觉再核红点约.07–.2乘10^-6 fm^-2，沿用048的读图量级而非精确数字化。本文没有实测D0或这些带的绝对Qt；不能由CDFT beta直接借用轴对称Qt，更不能由比值单独排除稳定形变或建立E2/M1/E1三元普适分类律。 | task-correction | direct-figure-and-boundary | PDF4 Fig5；原L16-D18-2/5/8；strength-boundary-correction-result-078 | true |

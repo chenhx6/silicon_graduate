@@ -1,0 +1,148 @@
+{
+  "kind": "day18-boundary-correction-078",
+  "valid": true,
+  "checks": [
+    {
+      "name": "old residuals are not nonnegative atomic coefficients",
+      "passed": true,
+      "negative_energies": [
+        356.2,
+        401.2,
+        434.2
+      ]
+    },
+    {
+      "name": "old strict monotonicity claim fails",
+      "passed": true,
+      "increasing_pairs": [
+        [
+          308.7,
+          344.4
+        ],
+        [
+          434.2,
+          435.8
+        ]
+      ]
+    },
+    {
+      "name": "photon-normalized forward inventory conserves total probability",
+      "passed": true
+    },
+    {
+      "name": "linewise division differs from common parent normalization",
+      "passed": true
+    },
+    {
+      "name": "two branch definitions differ with identical printed fractions",
+      "passed": true
+    },
+    {
+      "name": "same-A exact ratio survives unit conversion",
+      "passed": true
+    },
+    {
+      "name": "within-Band2 printed central drop is eleven",
+      "passed": true
+    },
+    {
+      "name": "9.6 W.u. is not the one-W.u. reference",
+      "passed": true
+    },
+    {
+      "name": "finite-spin rotor CG factors from analytic expression",
+      "passed": true
+    },
+    {
+      "name": "131Ce remaining residual exceeds rate-constant rounding",
+      "passed": true,
+      "q_low": 2.2353036225640333,
+      "printed": 2.28,
+      "relative_residual": -0.019603674314020436,
+      "constant_effect": 0.00040841333130159363
+    },
+    {
+      "name": "predicted geometry ratio does not equal printed ratio",
+      "passed": true
+    },
+    {
+      "name": "5/16 is conditional fixed-K high-spin limit",
+      "passed": true
+    },
+    {
+      "name": "dipole scale doubles when self-chosen Q0 doubles",
+      "passed": true
+    }
+  ],
+  "old_results_superseded": [
+    "062",
+    "075",
+    "076",
+    "077"
+  ],
+  "residuals_not_atomic_ICC": [
+    {
+      "energy_keV": 199.6,
+      "gamma_only_B": 5.238159833023315,
+      "residual_factor": 0.1904908711416624
+    },
+    {
+      "energy_keV": 229.3,
+      "gamma_only_B": 3.0439482651246244,
+      "residual_factor": 0.12738824634245338
+    },
+    {
+      "energy_keV": 248.1,
+      "gamma_only_B": 3.853222550419859,
+      "residual_factor": 0.10092072869138824
+    },
+    {
+      "energy_keV": 308.7,
+      "gamma_only_B": 1.8017827347231996,
+      "residual_factor": 0.059872196895999874
+    },
+    {
+      "energy_keV": 344.4,
+      "gamma_only_B": 1.50662719207377,
+      "residual_factor": 0.07616228005269288
+    },
+    {
+      "energy_keV": 356.2,
+      "gamma_only_B": 1.099088654086362,
+      "residual_factor": -0.0008284962851254907
+    },
+    {
+      "energy_keV": 401.2,
+      "gamma_only_B": 0.8965720272213074,
+      "residual_factor": -0.0038088586429918525
+    },
+    {
+      "energy_keV": 434.2,
+      "gamma_only_B": 0.9946364164362276,
+      "residual_factor": -0.005363583563772423
+    },
+    {
+      "energy_keV": 435.8,
+      "gamma_only_B": 1.7825739910578666,
+      "residual_factor": 0.048572935916392224
+    },
+    {
+      "energy_keV": 465.5,
+      "gamma_only_B": 1.6008220275496488,
+      "residual_factor": 0.0005137672185304698
+    }
+  ],
+  "units": {
+    "E2_WU_136_e2b2": 0.004154666473619891,
+    "E2_WU_165_e2b2": 0.0053760448091131905
+  },
+  "exact_double_ratio": "77/4",
+  "rotor": {
+    "Q_Khalf": 2.2353036225640333,
+    "Q_K11half": 2.7216197547118264,
+    "relative_residual": -0.019603674314020436
+  },
+  "design_only_D0_efm": 0.035355339059327376,
+  "interpretation": "no experimental CI, unique producer, atomic coefficients, or mode/shape identification",
+  "script_sha256": "c149b430b6b4aed67504565a33d432aecba32c27e4d1e4b577e37bd880f55cba"
+}

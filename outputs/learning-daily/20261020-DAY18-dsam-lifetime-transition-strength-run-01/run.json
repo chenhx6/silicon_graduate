@@ -72,8 +72,8 @@
     "original_deadline_preserved": true,
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
-  "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "077 prepared; original research window continues",
+  "research_status": "active correction audit; original deadline preserved",
+  "last_checkpoint": "078 scientific boundary correction; closeout unproven",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -90,7 +90,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit E1 transition rates, intrinsic dipole moments D0, and tri-multipolarity taxonomy"
+    "subject": "Correct circular strength checks and narrow Day18 evidence claims"
   },
   "uncredited_preview": {
     "day_index": 19,

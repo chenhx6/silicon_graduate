@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-21T05:56:32.130318+00:00",
+  "now_local": "2026-10-21T13:56:32.130318+08:00",
+  "hard_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 63.4644947,
+  "decision": "finish-current-analysis-no-new-source",
+  "formal_credit": false,
+  "is_runner_execution_metadata": false
+}

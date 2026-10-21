@@ -95,10 +95,4 @@ The method yields source-specific lifetimes. Converting them to `B(M1)` or `B(E2
 
 ## 逆运动学Degrader-RDDS与空间尺度放大（checkpoint068）
 
-对比 [[klemme-1999-lifetimes-134nd-neighbors]] KL99-17（常规正向运动学，反冲初速 $v/c = 1.6\%$，反冲在金stopper中慢化时延约 $1.1\text{ ps}$，测量下限约 $2\text{ ps}$）与 [[suzuki-2008-lifetimes-103rh-104rh]] SU08-1/2（逆运动学 $^{11}\text{B}(^{96}\text{Zr}, 4n)^{103}\text{Rh}$，束流能量 $330\text{ MeV}$，反冲初速 $\beta = 5.1(1)\%$，degrader穿行时间 $< 0.2\text{ ps}$）：
-- 空间放大因子严格为 $\beta_{\text{inv}} / \beta_{\text{norm}} = 5.1\% / 1.6\% = 3.1875$ 倍；
-- 每皮秒反冲飞行距离由常规运动学的 $4.80\ \mu\text{m/ps}$ 放大至逆运动学的 $15.29\ \mu\text{m/ps}$；
-- 对于 $^{103}\text{Rh}$ 实测的亚皮秒寿命 $\tau(29/2^+) = 0.72(23)\text{ ps}$，常规运动学下的飞行距离仅为 $3.45\ \mu\text{m}$（逼近薄膜表面粗糙度与机械接触的不可解析极限），而在逆运动学下被放大至 $11.01\ \mu\text{m}$（进入微米机械与压电位移的高精度响应区）；
-- 结合薄降能层（degrader）不停止反冲的特性（穿行时间 $<0.2\text{ ps}$，免除厚stopper内的慢化有效线形修正），成功将 RDDS 的时间下限由 $\sim 2\text{ ps}$ 推低至 $\sim 0.5\text{ ps}$，与 DSAM 的上限窗口（$\sim 1-2\text{ ps}$）形成直接重叠与无模型依赖交叉验证。
-
-新 [rdds-kinematic-expansion-result-068](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-kinematic-expansion-result-068.json) 包含 2 篇原件哈希与 11 项运动学断言检验，全部严格通过。
+[[klemme-1999-lifetimes-134nd-neighbors]] KL99-17与[[suzuki-2008-lifetimes-103rh-104rh]] SU08-2给不同运动学/foil响应的companion。打印中心beta .051/.016约3.1875，tau=.72ps的简单d=v*t控制约11.01/3.45微米；未传播beta/tau/零点误差。薄degrader不完全停止反冲，减小厚stopper慢化影响，但不免finite-foil能损/发射、速度/距离与gate校准，也不证明普适.5ps下限或完全无模型独立交叉验证。详[[lifetime-method-selection-response-contract]] checkpoint078；旧068检查只算术。
