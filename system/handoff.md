@@ -910,3 +910,13 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
   4. 对比 165Tm 强形变扁椭球转子（478.0 W.u.）展现出相对 136Nd 过渡区集体态 4.51 倍的显著形变超集体性；
   5. day18_closeout_readiness_audit.py 升级为覆盖全 76 个检查点的 26 项断言，全部通过并输出 closeout-readiness-result-076.json；
   6. 保持 formal credit: false，保护原截止时间 15:00 CST，静候 15:00–16:00 CST 正式收束。
+
+### 2026-10-21 Checkpoint 077 Update
+- **主题**：E1跃迁率、内禀偶极矩D0与电磁多极三元分类律审计
+- **核心成果**：
+  1. 确立 E1 与 E2 跃迁率比换算因子 C_ratio = 7.7044e-7 MeV^-2，以及 Weisskopf E1 单粒子标度律 B(E1)_sp = 0.06446 A^(2/3) [e^2 fm^2]；
+  2. 证明内禀电偶极矩 D0 的绝对提取严格线性正比于 DSAM/RDDS 所确立的绝对四极形变标尺 Qt（d(ln D0)/d(ln Qt) = 1），仅凭光子分支比只能约束比值 |D0/Q0|；
+  3. 定量对账 78Br 动态八极软度（|D0| ~ 0.11-0.19 e*fm）与 224Th 稳定八极形变（B(E1)/B(E2) 达到 1.5e-5 fm^-2，相差一个数量级）；
+  4. 完整构建涵盖 E2 摆动（横向 E2 主导）、M1 手征（带间 M1 交错）与 E1 八极（宇称交替 E1 伴随宏观 D0）的电磁多极三元分类律；
+  5. day18_closeout_readiness_audit.py 升级为覆盖全 77 个检查点的 28 项断言，全部通过并输出 closeout-readiness-result-077.json；
+  6. 保持 formal credit: false，保护原截止时间 15:00 CST，静候 15:00–16:00 CST 正式收束。

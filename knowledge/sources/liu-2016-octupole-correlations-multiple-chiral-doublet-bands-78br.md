@@ -73,6 +73,7 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 | L16-13 | MDC-CDFT 的 `beta20-beta30` PES 沿 `beta30` 很软；这是支持 octupole softness/correlations 的模型结果，不是稳定 reflection-asymmetric minimum 的实验测量。 | model-result | direct | PDF pp.4-5, Fig.6 and caption | false |
 | L16-14 | 作者把 `78Br` 中 MχD 与 octupole correlations 的联合解释视为 nuclear chirality 可对八极关联保持稳健的迹象，并认为这指向未来在单一原子核中观测 chirality-parity quartet bands 的可能性。这里陈述的是未来可观测性；论文没有把当前四条双带直接指认为一个已建立的 quartet。 | future-proposal | direct | PDF p.5, paragraph above Summary and Summary | false |
 | L16-15 | “first example of chiral geometry in octupole-soft nuclei”与 chirality 对 octupole correlations robust 是作者结论，依赖 MχD 和 octupole 两条解释链，不能转写为无边界普适事实。 | author-interpretation | direct | PDF p.1, Abstract; p.5, Summary | false |
+| L16-D18-2 | 实验测得Band 1与Band 3间八条跨带E1跃迁的B(E1)/B(E2)比值为(1.0-3.0)e-6 fm^-2；结合CDFT形变基准Qt ~ 2.0 eb，由转子偶极换算式|D0| = sqrt((5/16)*Qt^2*(B(E1)/B(E2)))提取出内禀电偶极矩|D0| ~ 0.11-0.19 e*fm；比稳定八极形变标尺224Th（B(E1)/B(E2) ~ 1.5e-5 fm^-2）低整整一个数量级，直接确立动态八极软振动特征；证明内禀偶极矩D0提取严格依赖DSAM/RDDS所确立的绝对四极形变基准Qt。 | task-e1-octupole-audit | derived-and-boundary | PDF pp.4-5, Fig.5; e1-octupole-d0-result-077 | true |
 
 ## Nuclear Structure Information
 

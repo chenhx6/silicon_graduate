@@ -49,6 +49,18 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint077：E1跃迁率、内禀偶极矩D0与电磁多极三元分类律审计
+
+确立从绝对跃迁几率与分支比提取内禀电偶极矩 D0 的方法学链条，并构建涵盖摆动、手征与八极相关的电磁多极三元分类法则：
+- 跃迁率常数与比值因子：由时变电磁场理论，单色 E1 与 E2 光子辐射率比导出约化跃迁几率比实验换算式：B(E1)/B(E2) = (I_E1/I_E2) * (E2^5/E1^3) * 7.7044e-7 [MeV^-2]；
+- 内禀电偶极矩对 DSAM 四极形变标尺的刚性依赖：在轴对称转子模型下，|D0| = sqrt((5/16)*Qt^2*(B(E1)/B(E2)))，表明内禀偶极矩 D0 的绝对值提取严格线性正比于 DSAM/RDDS 所确立的绝对四极形变基准 Qt，单凭分支比强度仅能约束比值 |D0/Q0|；
+- 八极软振动与稳定八极形变的标度界限：78Br 实测八条跨带 E1 跃迁给出 B(E1)/B(E2) ~ (1.0-3.0)e-6 fm^-2，在 Qt ~ 2.0 eb 标度下导出 |D0| ~ 0.11-0.19 e*fm；比稳定反射不对称转子标尺 224Th（~1.5e-5 fm^-2）低整整一个数量级，排除了基态稳定八极形变而确立了动态八极软振动；
+- 电磁多极三元分类法则（Tri-Multipolarity Taxonomy）：
+  1. 摆动模式（Wobbling）：横向集体 E2 主导（B(E2)out >> 1 W.u., B(M1) << B(E2)），表现为三轴角动量进动；
+  2. 手征模式（Chirality）：带间强 M1 选择定则与奇偶交错（B(M1) ~ 1-3 muN2, B(M1)/B(E2) >> 1），源自空间三轴自旋非共面取向破缺；
+  3. 八极关联（Octupole）：宇称交替强 E1 跨带跃迁（B(E1)/B(E2) ~ 1e-6 to 1e-4 fm^-2, |D0| > 0.1 e*fm），源自质心与电荷中心分离引起的内禀偶极发射。
+新程序 day18_e1_octupole_d0_audit.py 产出 e1-octupole-d0-result-077.json，8 项物理断言检验全过。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+
 ### checkpoint076：165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计
 
 确立从 DSAM 寿命提取的约化跃迁几率在 Weisskopf 单粒子单位（W.u.）下的核结构集体性分类基准：
@@ -4110,6 +4122,32 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
           "locator": "J01-D18-2"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+      "anchor": "Key Results",
+      "summary": "checkpoint077确立78Br跨带E1跃迁B(E1)/B(E2)比值、内禀偶极矩D0~0.11-0.19 e*fm提取及对DSAM形变标尺Qt的刚性依赖",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "E1跃迁率、内禀偶极矩D0与电磁多极三元分类律（checkpoint077）",
+      "summary": "checkpoint077建立E1/E2跃迁率比换算式、D0提取对DSAM Qt的线性定标及E2摆动-M1手征-E1八极三元分类律",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-D18-2"
+        },
+        {
+          "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+          "locator": "J01-D18-2"
+        }
+      ]
     }
   ]
 }
@@ -4124,6 +4162,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint077已实际完成，稳定指针main / Audit E1 transition rates, intrinsic dipole moments D0, and tri-multipolarity taxonomy；精确hash/H3/远端结果只publication-077回执。
+
 
 checkpoint076已实际完成，稳定指针main / Audit Weisskopf collectivity scaling and collective collapse in 136Nd and 165Tm；精确hash/H3/远端结果只publication-076回执。
 

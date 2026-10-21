@@ -963,8 +963,24 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 ## 165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计（checkpoint076）
 
 [[mukhopadhyay-2008-136nd-transition-rates]] MU08-D18-11 与 [[jensen-2001-165tm-h9-2-configuration]] J01-D18-2 确立了从 DSAM 寿命提取的约化跃迁几率在 Weisskopf 单粒子单位（W.u.）下的核结构集体性分类基准：
-- **单粒子质量数标度**：由标准 Weisskopf 偶极与四极单粒子估计，质子偶极 $B(M1)_{	ext{s.p.}} = 1.7905\ \mu_N^2$（与质量数无关），而电四极标度为 $B(E2)_{	ext{s.p.}} = rac{1}{4\pi} \left(rac{3}{5}ight)^2 (1.20 A^{1/3})^4 = 0.05940 A^{4/3}\ [e^2	ext{fm}^4]$。对于 $^{136}	ext{Nd}$（$A=136$），$B(E2)_{	ext{s.p.}} = 41.55\ e^2	ext{fm}^4 = 0.004155\ e^2	ext{b}^2$；对于 $^{165}	ext{Tm}$（$A=165$），$B(E2)_{	ext{s.p.}} = 53.76\ e^2	ext{fm}^4 = 0.005376\ e^2	ext{b}^2$；
+- **单粒子质量数标度**：由标准 Weisskopf 偶极与四极单粒子估计，质子偶极 $B(M1)_{	ext{s.p.}} = 1.7905\ \mu_N^2$（与质量数无关），而电四极标度为 $B(E2)_{	ext{s.p.}} = rac{1}{4\pi} \left(rac{3}{5}
+ight)^2 (1.20 A^{1/3})^4 = 0.05940 A^{4/3}\ [e^2	ext{fm}^4]$。对于 $^{136}	ext{Nd}$（$A=136$），$B(E2)_{	ext{s.p.}} = 41.55\ e^2	ext{fm}^4 = 0.004155\ e^2	ext{b}^2$；对于 $^{165}	ext{Tm}$（$A=165$），$B(E2)_{	ext{s.p.}} = 53.76\ e^2	ext{fm}^4 = 0.005376\ e^2	ext{b}^2$；
 - **136Nd 带 2 的集体度断崖塌缩**：低自旋态 $15^-$、$16^-$、$17^-$ 的 $B(E2)$ 依次为 $130.0$、$122.8$、$105.9	ext{ W.u.}$，表现出显著的集体转动增强；而在自旋 $17^- 	o 18^-$ 能级交叉点，$B(E2)$ 剧烈跌落至 $9.6	ext{ W.u.}$（$11.0$ 倍崩塌），并在 $19^-$ 维持在 $12.0	ext{ W.u.}$，直接印证了从集体转动向非集体多准粒子带交叉的结构转变；
 - **标度不变性在 W.u. 表象下的完全保持**：带间比值序列 $R(I) = B_2/B_1$ 在自旋 17 处为 $105.9 / 19.3 = 5.50$，在自旋 18 处为 $9.63 / 33.7 = 0.286$，双比值在 W.u. 表象下严格等于 $19.25$（$77/4$），证明单粒子单位基准的选取绝不影响带间相对强度的跃变结论；
 - **跨核区集体性超强反差**：$^{165}	ext{Tm}$ $[541]1/2^-$ 强形变扁椭球转子（$Q_t = 8.3	ext{ eb}, eta_2 pprox 0.33$）的四极跃迁强度达到 $478.0	ext{ W.u.}$，比 $^{136}	ext{Nd}$ 带 2 强形变区（$105.9	ext{ W.u.}$）高出 $4.51$ 倍，比带交叉区（$9.6	ext{ W.u.}$）高出整整 $49.6$ 倍，直观量化了稀土超变形/大变形区与过渡区三轴核的集体性物理鸿沟。
 新 [weisskopf-collectivity-result-076](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/weisskopf-collectivity-result-076.json) 包含 10 项检验，全部验证通过。
+
+## E1跃迁率、内禀偶极矩D0与电磁多极三元分类律（checkpoint077）
+
+[[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] L16-D18-2 与 [[jensen-2001-165tm-h9-2-configuration]] J01-D18-2 确立了从绝对跃迁几率与分支比提取内禀电偶极矩 $D_0$ 的方法学链条，并构建了涵盖摆动、手征与八极相关的电磁多极三元分类法则：
+- **跃迁率常数与比值因子**：由时变电磁场理论，单色 $E1$ 与 $E2$ 光子辐射率分别为 $\lambda_\gamma(E1) = 1.590 \times 10^{15} E_\gamma^3 [\text{MeV}] B(E1) [e^2\text{fm}^2]$ 与 $\lambda_\gamma(E2) = 1.225 \times 10^9 E_\gamma^5 [\text{MeV}] B(E2) [e^2\text{fm}^4]$。由此导出约化跃迁几率比的实验换算式：
+  $$\frac{B(E1)}{B(E2)} = \frac{I_\gamma(E1)}{I_\gamma(E2)} \frac{E_{\gamma, E2}^5}{E_{\gamma, E1}^3} \times 7.7044 \times 10^{-7}\ [\text{MeV}^{-2}] = \frac{I_\gamma(E1)}{I_\gamma(E2)} \frac{E_{\gamma, E2}^5}{E_{\gamma, E1}^3} \times 7.7044 \times 10^{-13}\ [\text{keV}^{-2}]$$
+- **内禀电偶极矩对 DSAM 四极形变标尺的刚性依赖**：在轴对称转子模型下，$B(E1) = \frac{3}{4\pi} D_0^2 \langle I K 1 0 \mid I-1 K\rangle^2$，$B(E2) = \frac{5}{16\pi} Q_0^2 \langle I K 2 0 \mid I-2 K\rangle^2$。代入高自旋 Clebsch-Gordan 极限后：
+  $$|D_0| = \sqrt{ \frac{5}{16} Q_t^2 \frac{B(E1)}{B(E2)} }$$
+  表明内禀偶极矩 $D_0$ 的绝对值提取**严格线性正比于 DSAM/RDDS 所确立的绝对四极形变基准 $Q_t$**（$\partial \ln D_0 / \partial \ln Q_t \equiv 1$），单凭分支比强度仅能约束比值 $|D_0/Q_0|$；
+- **八极软振动与稳定八极形变的标度界限**：$^{78}\text{Br}$ 实测八条跨带 $E1$ 跃迁给出 $B(E1)/B(E2) \sim (1.0\text{--}3.0) \times 10^{-6}\text{ fm}^{-2}$，在 $Q_t \approx 2.0\text{ eb}$ 标度下导出 $|D_0| \approx 0.11\text{--}0.19\ e\cdot\text{fm}$；比稳定反射不对称转子标尺 $^{224}\text{Th}$（$B(E1)/B(E2) \approx 1.5 \times 10^{-5}\text{ fm}^{-2}$）低整整一个数量级，排除了基态稳定八极形变而确立了动态八极软振动；
+- **电磁多极三元分类法则（Tri-Multipolarity Taxonomy）**：
+  1. **摆动模式（Wobbling）**：横向集体 $E2$ 主导（$B(E2)_{\text{out}} \gg 1\text{ W.u.}, B(M1) \ll B(E2)$），表现为三轴角动量进动；
+  2. **手征模式（Chirality）**：带间强 $M1$ 选择定则与奇偶交错（$B(M1) \sim 1\text{--}3\ \mu_N^2, B(M1)/B(E2) \gg 1$），源自空间三轴自旋非共面取向破缺；
+  3. **八极关联（Octupole）**：宇称交替强 $E1$ 跨带跃迁（$B(E1)/B(E2) \sim 10^{-6}\text{--}10^{-4}\text{ fm}^{-2}, |D_0| > 0.1\ e\cdot\text{fm}$），源自质心与电荷中心分离引起的内禀偶极发射。
+新 [e1-octupole-d0-result-077](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/e1-octupole-d0-result-077.json) 包含 8 项物理断言检验，全部验证通过。

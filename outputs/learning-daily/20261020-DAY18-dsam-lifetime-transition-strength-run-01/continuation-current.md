@@ -1,3 +1,5 @@
+checkpoint077：E1跃迁率、内禀偶极矩D0与电磁多极三元分类律审计完成，8项断言全过，静候15:00 CST收束。
+
 checkpoint076：165Tm与136Nd跃迁强度Weisskopf单粒子标度与集体增强度系统学审计完成，10项断言全过，静候15:00 CST收束。
 
 checkpoint075：Mukhopadhyay 2008 Table II B(M1)内转换修正与Chiara 2001方法闭环代数解析完成，10项断言全过，静候15:00 CST收束。

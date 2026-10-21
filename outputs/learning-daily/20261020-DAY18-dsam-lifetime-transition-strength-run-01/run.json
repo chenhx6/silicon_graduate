@@ -73,7 +73,7 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "076 prepared; original research window continues",
+  "last_checkpoint": "077 prepared; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -90,7 +90,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit Weisskopf collectivity scaling and collective collapse in 136Nd and 165Tm"
+    "subject": "Audit E1 transition rates, intrinsic dipole moments D0, and tri-multipolarity taxonomy"
   },
   "uncredited_preview": {
     "day_index": 19,
