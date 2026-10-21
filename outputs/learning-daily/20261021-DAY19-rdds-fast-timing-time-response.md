@@ -41,7 +41,7 @@ updated: 2026-10-21
 | 当前新问题：常规 vs 逆运动学 RDDS 空间放大与亚皮秒界限 | 独立编写 day19_rdds_timing_response_analysis.py，定量证明 3.19 倍空间放大使 tau=0.72 ps 飞行位移达 11.01 um | 实际薄降能层（degrader）内微观多重角散射与能损展宽 |
 | 当前新问题：电子快速定时 MSCD 走时（Time Walk）对消边界 | 定量证明镜像对称质心差在对称能量门下 PRD=0，而在不对称门下未扣除 PRD 将导致提取寿命高估 50.2% | 实际探测器前置放大器与数字 CFD 的非线性微分散焦响应 |
 | 当前新问题：DSAM 阻停误差 vs RDDS 零点误差交叉分水岭 | 解析推导 tau_cross = Delta d0 / (0.10 * beta * c)，标定常规运动学（2.09 ps）与逆运动学（0.65–0.74 ps）分水岭 | 实验靶-阻挡层表面粗糙度干涉仪实测形貌 |
-| 未打开的下一卡：Day 20 B(E2)、Qt 与形变系统学 | 检查候选池并进行有边界的 Day 20 预习，重点核查转动四极矩与轴对称转子模型依赖 | 正式学习留待 Day 20 独立 session，不开 Day 21 |
+| continuation 1：Day 20 预习（B(E2)、Qt 与形变系统学） | 完成转子 K 投影依赖、Singh 2016 131Ce 加权回归（0.639sigma）与 Petrache 1998 侵入轨道极化定量核查 | 保持 partial_day_indices: [20]，正式学分留待 Day 20 独立 session |
 
 ## Sources and evidence
 
@@ -83,6 +83,11 @@ updated: 2026-10-21
 4. **DSAM vs RDDS 系统误差交叉决断边界**：
    - 导出零距离机械误差与 10% 阻停功率误差相等的解析判据：tau_cross = Delta d0 / (0.10 * beta * c)；
    - 当 Delta d0 = 1.0 um 时，常规运动学（beta = 1.6%）的交叉点为 2.085 ps（低于 2.1 ps 时 DSAM 优于 RDDS）；而在逆运动学（beta = 4.5% 与 5.1%）下，交叉点分别压低至 0.741 ps 与 0.654 ps，确立了逆运动学 RDDS 优于 DSAM 的亚皮秒适用区间。
+
+5. **Day 20 预习定量分析：Singh 2016 131Ce 加权回归核验与 K 投影依赖**：
+   - 编写独立程序 `system/scripts/day20_qt_deformation_analysis.py`（产出 `day20-qt-deformation-analysis.json`），对 Singh 2016 Table 1 的 4 个有限寿命点提取的 Qt（15/2- 为 2.93 eb、27/2- 为 2.26 eb、31/2- 为 2.66 eb、35/2- 为 2.43 eb）执行加权最小二乘线性拟合；
+   - 拟合斜率为 b = -0.03017 +/- 0.04719 eb/hbar，z 检验显著性仅为 z = 0.639 sigma（严格相容于零斜率 null trend），从数学上证伪了作者目视声称的形变确定性下降；
+   - 计算 Clebsch-Gordan 因子 <I K 2 0 | I-2 K>^2 在 K=0, 1/2, 5/2, 7/2 下随自旋演化，证明在 I < 15.5 hbar 的低自旋区，不同 K 假设导致几何因子偏差达 10%–30%，跨带比较必须严格声明 K 投影。
 
 ## Counter-evidence and missing companion observables
 
@@ -179,6 +184,21 @@ updated: 2026-10-21
           "locator": "NS79-D19-4"
         }
       ]
+    },
+    {
+      "summary": "沉淀转子模型K投影依赖、Singh 2016加权回归0.639sigma斜率核验与Petrache 1998高度形变带侵入轨道极化分析至四极矩观测量库",
+      "knowledge": "knowledge/observables/transition-quadrupole-moment.md",
+      "anchor": "## Day 20预习：B(E2)、Qt与形变系统学模型依赖矩阵",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "locator": "PE98-8"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-5"
+        }
+      ]
     }
   ]
 }
@@ -188,6 +208,7 @@ updated: 2026-10-21
 
 - **Belief Revision 1**：过去认为“RDDS 无法测定 1 ps 以下的亚皮秒寿命”，现经定量逆运动学空间拉伸分析证实：当 beta 提高到 5.1% 且采用薄降能层时，tau = 0.72 ps 的物理位移达 11.01 um，可在机械位移精度允许范围内实现亚皮秒测定。
 - **Belief Revision 2**：过去认为“未移峰与频移峰的总和随距离恒定即证明无退取向”，现经分量非对称平均分析证实：总和在全立体角积分为常数，但在特定有限角度探测器中，两分量受不同衰减核加权，忽略退取向会导致高达 4.6% 的表观寿命偏差。
+- **Belief Revision 3**：过去认为 131Ce yrast 负宇称带随自旋存在形变由 3.0 eb 向 2.5 eb 下降的趋势，现经严格加权最小二乘回归证实斜率仅为 -0.030(47) eb/hbar（z = 0.639 sigma），统计上与恒定形变零斜率完全相容，证伪了目视下降判断。
 - **Open Question 1**：在缺乏直接馈入跃迁门（feeder gate）的高自旋转动带中，singles RDDS 能否通过全能级纲图级联解耦矩阵可靠消除连续侧馈时标？
 - **Open Question 2**：现代超快 LaBr3 闪烁体阵列在应用于低于 5 ps 的核能级时，其有效下限究竟由 PMT 渡越时间分散限制，还是由微观康普顿散射本底时延限制？
 

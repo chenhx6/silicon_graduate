@@ -103,6 +103,7 @@ outputs/learning-daily/*-run-*/alexander1981-*.json
 outputs/learning-daily/*-run-*/nrf-*.json
 outputs/learning-daily/*-run-*/*-receipt*.json
 outputs/learning-daily/*-run-*/*-result*.json
+outputs/learning-daily/*-run-*/*-analysis*.json
 outputs/learning-daily/*-run-*/*-audit*.json
 outputs/learning-daily/*-run-*/*-verification*.json
 outputs/learning-daily/*-run-*/*-manifest*.json
@@ -142,6 +143,7 @@ outputs/learning-daily/*-run-*/*-observation.json
 outputs/learning-daily/*-run-*/*-pre078.txt
 outputs/learning-daily/*-run-*/verification-*.json
 outputs/learning-daily/*-run-*/prompt.md
+outputs/learning-daily/*-run-*/continuation-*-prompt.md
 outputs/learning-daily/*-run-*/farmer-*.json
 outputs/learning-daily/*-run-*/petrache96-*.json
 outputs/learning-daily/*-run-*/goal-*.json

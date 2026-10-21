@@ -4,6 +4,14 @@ graph-excluded: true
 updated: 2026-10-21
 ---
 
+## 2026-10-21 Day 19 continuation 001 (checkpoint002)：Day 20 预习形变系统学与加权回归核验
+
+延续轮按 Runtime schedule snapshot 充裕时间推进 Day 20 有边界预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 编写运行 day20_qt_deformation_analysis.py，完成转子 Clebsch-Gordan 因子 K 依赖计算；
+2. 严格加权最小二乘线性拟合 Singh 2016 131Ce yrast 4 个有限寿命点，证实斜率仅 -0.030(47) eb/hbar（z = 0.639 sigma 严格相容零斜率），证伪目视下降判断；
+3. 分析 Petrache 1998 Table 1 五条高度形变带，澄清 nu i13/2 极化效应与离心转动收缩相互抵消的物理机理；
+4. 沉淀至 knowledge/observables/transition-quadrupole-moment.md，更新日报并通过 validate_writeback。
+
 ## 2026-10-21 Day 19 checkpoint001：RDDS、fast timing 与时间响应正式课程闭环
 
 Day 19 独立课程 session（run_id: 2026-10-21-day-19-01, session_id: 01a15dcc-49f9-7623-b0e9-75fd73c74a80）全套交付物与校准审计完成：
