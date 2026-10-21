@@ -163,5 +163,19 @@
   "closeout_reason": "schedule-level evidence saturation: Day 19 complete, Day 20 pre-study fully saturated, Day+2 not opened per curriculum rules",
   "finished_at": "2026-10-21T18:47:28.036565+08:00",
   "research_stopped_at": "2026-10-21T18:47:28.036565+08:00",
-  "last_checkpoint": "007 Schedule-level evidence saturation closeout for Day 19"
+  "last_checkpoint": "007 Day 19 closeout on schedule-level evidence saturation",
+  "latest_publication": {
+    "branch": "main",
+    "subject": "Close Day 19 on schedule-level evidence saturation with verified Day 20 pre-study",
+    "commit": "928fcae3dc6435ca7e17e5ffdd70d99f2ee23700",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-007.json",
+    "status": "pushed"
+  },
+  "final_release": {
+    "branch": "main",
+    "subject": "Close Day 19 on schedule-level evidence saturation with verified Day 20 pre-study",
+    "commit": "928fcae3dc6435ca7e17e5ffdd70d99f2ee23700",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-007.json",
+    "status": "pushed"
+  }
 }
