@@ -87,5 +87,20 @@
   "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
   "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-002-prompt.md",
   "closeout_turn": null,
-  "closeout_window_missed": false
+  "closeout_window_missed": false,
+  "latest_publication": {
+    "branch": "main",
+    "subject": "Reconcile 131Ce Li 2004 and Singh 2016 K-projection conventions",
+    "commit": "8307fd45dfe73123f770e8127bd56b5f7d3f3176",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-004.json",
+    "status": "pushed"
+  },
+  "final_release": {
+    "branch": "main",
+    "subject": "Reconcile 131Ce Li 2004 and Singh 2016 K-projection conventions",
+    "commit": "8307fd45dfe73123f770e8127bd56b5f7d3f3176",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-004.json",
+    "status": "pushed"
+  },
+  "last_checkpoint": "004 Day 20 pre-study on 131Ce Li 2004 vs Singh 2016 K-projection reconciliation"
 }
