@@ -4,6 +4,14 @@ graph-excluded: true
 updated: 2026-10-21
 ---
 
+## 2026-10-21 Day 19 continuation 005 (checkpoint006)：Q_spec 与 Qt 代数解耦、三轴零点指纹与二阶 beta2 映射闭环
+
+延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 编写运行 day20_qt_qspec_rotor_models.py，系统计算 Q_spec(I,K) 与带内 Qt 的代数解耦；
+2. 证明 Davydov 模型在 gamma=30 deg 下 Q_spec(2+) = 0 但 Qt/Q0 = 1.0，严密证明谱学四极矩为零是最大三轴度的明确指纹而非球形证据；
+3. 定量标定 131Ce HD 带（Q0 = 7.30 eb）线性近似高估 beta2 达 +6.71%（0.4477 vs 0.4195），确立强形变二阶展开统一约定；
+4. 沉淀至 knowledge/observables/transition-quadrupole-moment.md，更新日报并通过 validate_writeback。
+
 ## 2026-10-21 Day 19 continuation 004 (checkpoint005)：Petrache 1998 与 Singh 2016 事实固化与 Day 20 预习全景闭环
 
 延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：

@@ -45,6 +45,7 @@ updated: 2026-10-21
 | continuation 2：寿命—强度—形变全景证据图与反证矩阵 | 构建五层证据传导链、跨核素形变对照矩阵（131Ce, 134Nd, 133Pr, 136Nd, 136Sm）与四类伪形变趋势反证 | 沉淀至 high-spin-lifetime-strength-deformation.md，保持 partial_day_indices: [20] |
 | continuation 3：131Ce Li 2004 与 Singh 2016 的 K 投影闭环对账 | 证明 23/2- 态 Qt = 3.55 eb 与 Singh 上限 < 2.85 eb 的表观张力完全源于 K=5/2 与 K=1/2 约定差异（换算后为 2.761 eb 严格相容） | 沉淀至 li-2004-lifetimes-131ce.md，保持 partial_day_indices: [20] |
 | continuation 4：Day 20 预习全景闭环与 Petrache 1998 / Singh 2016 事实固化 | 完成高度形变带侵入轨道极化抵消与四极形变基准对齐，建立 PE98-D20 与 SI16-D20 事实行 | 沉淀至各源页，保持 partial_day_indices: [20] |
+| continuation 5：Q_spec 与 Qt 代数解耦、三轴零点指纹与二阶 beta2 映射 | 证明 Davydov 模型在 gamma=30 deg 下 Q_spec=0 但 Qt/Q0=1.0（零谱学矩非球形），定量标定强形变二阶 +6.7% 展开修正 | 沉淀至 transition-quadrupole-moment.md，保持 partial_day_indices: [20] |
 
 ## Sources and evidence
 
@@ -105,6 +106,11 @@ updated: 2026-10-21
 8. **Day 20 预习源页事实核验：Petrache 1998 侵入轨道极化与 Singh 2016 对账固化**：
    - 对 Petrache 1998 Table 1 建立原子事实行 PE98-D20-1 至 PE98-D20-3，证实五条高度形变带所测 Q0 均为带内常数，未能直接观测推转预测的随自旋 20% 离心收缩；134Nd 激发高度形变带跨入 2 条 nu i13/2 侵入轨道后 Q0 反略降，证明极化力与离心收缩相互抵消，证伪简单线性可加性；
    - 对 Singh 2016 建立原子事实行 SI16-D20-1，固化 23/2- 态与 Li 2004 间由 sqrt(CG_K05 / CG_K25) = 1.2241 达成的完全代数闭合，确立了统一的形变系统学基准。
+
+9. **Day 20 预习理论闭环：Q_spec 与 Qt 代数解耦、三轴零点与二阶 beta2 映射**：
+   - 编写独立程序 `system/scripts/day20_qt_qspec_rotor_models.py`（产出 `rotor-model-qt-qspec-result.json`），系统计算实验室系谱学四极矩 Q_spec(I, K) 与带内跃迁四极矩 Qt 的投影视角差异；
+   - 在 Davydov-Filippov 非轴对称转子模型下，证明当 gamma = 30 deg 时，Q_spec(2+) 因 cos(3*gamma) = 0 而严格归零，但跃迁四极矩 Qt/Q0 严格等于 1.0，跃迁率完全保持纯集体强度；彻底在代数上证明谱学四极矩为零绝非球形判据，而是最大三轴度的特征指纹；
+   - 对比电荷四极矩向形变参数 beta2 映射的二阶修正 Q0 = C0 * beta2 * (1 + 0.16*beta2)，在 131Ce 高度形变带（Q0 = 7.30 eb）下，线性解（0.4477）相对二次方程精确解（0.4195）系统性高估形变达 +6.71%，明确了强形变提取必须声明二阶修正约定。
 
 ## Counter-evidence and missing companion observables
 

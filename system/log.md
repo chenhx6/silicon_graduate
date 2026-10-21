@@ -2800,3 +2800,11 @@ Day 19 独立课程 session（run_id: 2026-10-21-day-19-01, session_id: 01a15dcc
 1. 在 petrache-1998-highly-deformed-lifetimes-131ce-nd.md 建立 PE98-D20-1–3 事实行，明确常数 Q0 拟合边界与极化抵消机理；
 2. 在 singh-2016-lifetime-131ce-133pr.md 建立 SI16-D20-1 事实行，固化与 Li 2004 间由 sqrt(CG_K05 / CG_K25) = 1.2241 达成的完全代数闭合；
 3. 全套 Day 20 预习产物闭环（证据图、比较矩阵、反证判据、回归核验与源页事实），更新日报并通过 validate_writeback（验证 13 个知识路径）。
+
+## 2026-10-21 DAY19 continuation 005 (checkpoint006)：Q_spec 与 Qt 代数解耦、三轴零点指纹与二阶 beta2 映射闭环
+
+延续轮深入 Day 20 预习（保持 day_index: 19, completed: [19], partial: [20], next: 20，不跨卡计分）：
+1. 编写运行 day20_qt_qspec_rotor_models.py，系统计算 Q_spec(I,K) 与带内 Qt 的代数解耦；
+2. 证明 Davydov 模型在 gamma=30 deg 下 Q_spec(2+) = 0 但 Qt/Q0 = 1.0，严密证明谱学四极矩为零是最大三轴度的明确指纹而非球形证据；
+3. 定量标定 131Ce HD 带（Q0 = 7.30 eb）线性近似高估 beta2 达 +6.71%（0.4477 vs 0.4195），确立强形变二阶展开统一约定；
+4. 沉淀至 knowledge/observables/transition-quadrupole-moment.md，更新日报并通过 validate_writeback。
