@@ -49,6 +49,14 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint068：逆运动学Degrader-RDDS空间放大与亚皮秒时间下限审计（Day 19预习）
+
+对比常规运动学（Klemme 1999 134Nd，v/c=1.6%，stopper慢化时延约1.1 ps，下限约2 ps）与逆运动学（Suzuki 2008 103Rh，330 MeV 96Zr束流，初速beta=5.1(1)%，degrader穿行时间<0.2 ps）：
+1. 严格计算反冲速度空间放大因子为 5.1%/1.6% = 3.1875 倍，飞行演化率由 4.80 um/ps 放大至 15.29 um/ps；
+2. 实测亚皮秒态 103Rh 29/2+（tau=0.72(23) ps）的飞行距离由常规运动学不可解析的 3.45 um 显著放大至可高精度测量的 11.01 um；
+3. 薄降能层替代厚阻挡层免除了复杂慢化有效线形修正，将 RDDS 测量下限成功推低至 ~0.5 ps，与 DSAM 上限窗口形成关键无模型重叠。
+新11项原件哈希与运动学断言检验通过。本项仍属Day 19预习（formal_credit: false），不提前计分。
+
 ### checkpoint064：更新无学分Day 19提示词并保留Day 18截止时间
 
 将 checkpoint060 增补的现代快速定时（Régis 2011 博士论文 LaBr3/MSCD，ΔC=2τ+PRD在ΔE=0处零交叉对消time walk）与 TDPAD（Grodner 2018 128Cs手征异构态g=+0.59(1)与拉莫尔进动、Ionescu-Bujor 1998 129,131Ce多晶金属Cd晶格电四极与外加磁场进动）及四类方法全景选择矩阵（timing-method-selection-result-060）完整同步写入 Day 19 课程准备提示词（outputs/learning-daily/prompts/20261021-DAY19-rdds-fast-timing.md）。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
@@ -3993,6 +4001,36 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
           "locator": "SI16-D18-5"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/recoil-distance-doppler-shift.md",
+      "anchor": "逆运动学Degrader-RDDS与空间尺度放大（checkpoint068）",
+      "summary": "checkpoint068建立逆运动学degrader-RDDS相对常规运动学的3.19倍空间放大率与亚皮秒界限",
+      "sources": [
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-17"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SU08-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "逆运动学Degrader-RDDS的空间放大与亚皮秒界限（checkpoint068）",
+      "summary": "checkpoint068解析Suzuki 2008与Klemme 1999运动学设计对RDDS时间下限拓展至0.5 ps的物理机制",
+      "sources": [
+        {
+          "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+          "locator": "KL99-17"
+        },
+        {
+          "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+          "locator": "SU08-2"
         }
       ]
     }

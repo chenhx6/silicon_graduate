@@ -4,6 +4,9 @@ graph-excluded: true
 updated: 2026-10-20
 ---
 
+checkpoint068：逆运动学Degrader-RDDS空间放大与亚皮秒时间下限审计完成（Day 19预习），继续Day18。
+
+
 checkpoint067：同步run.json发布回执指针与状态不变式，继续Day18。
 
 

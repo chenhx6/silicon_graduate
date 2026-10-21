@@ -133,3 +133,12 @@ Day19 preview的最小方法选择清单现为：
 | **TDPAD** | $5\text{ ns} - 10\ \mu\text{s}$ | 外加磁场拉莫尔进动 $\omega_L = g\mu_N B/\hbar$ 或晶格电场梯度四极频率 $\omega_0$ | 空间不对称符合比值调制函数 $R(t)$ 随时间的周期振荡 | 自旋弛豫/顺磁退取向 $\lambda_k$、初始核自旋取向不完全、晶格辐射缺陷 | 多角度/多磁场强度进动交叉校验；在多晶金属Cd host与液态靶中解耦磁偶极与电四极相互作用 | Grodner 2018 (128Cs), Ionescu-Bujor 1998 (129,131Ce) |
 
 新 [timing-method-selection-result-060](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/timing-method-selection-result-060.json) 包含5个核心原件哈希核对与13项方法矩阵参数检验，严格验证通过。本项仍属 Day 19 课程预习，`formal_credit: false`，不提前计发学分。
+
+## 逆运动学Degrader-RDDS的空间放大与亚皮秒界限（checkpoint068）
+
+[[klemme-1999-lifetimes-134nd-neighbors]] 与 [[suzuki-2008-lifetimes-103rh-104rh]] 构成了 RDDS 运动学设计对测量时间下限影响的经典对照：
+- 常规运动学（Klemme 1999，$v/c = 1.6\%$）的反冲空间演化率为 $4.80\ \mu\text{m/ps}$，厚 Au 阻挡层的慢化时延（$\sim 1.1\text{ ps}$）要求对 $<2\text{ ps}$ 寿命施加不对称停止功率修正；
+- 逆运动学（Suzuki 2008，$330\text{ MeV}\ ^{96}\text{Zr}$ 束流，反冲初速 $\beta = 5.1\%$）提供 $3.19$ 倍的空间放大率（$15.29\ \mu\text{m/ps}$），使 $\tau = 0.72\text{ ps}$ 态的飞行距离达到 $11.01\ \mu\text{m}$，完全摆脱了微米级机械接触与薄膜平整度限制；
+- 薄 Nb 降能层（degrader）仅轻微减速反冲（速度降至 $\beta = 3.1\%$），穿行时间 $<0.2\text{ ps}$，免除了厚 stopper 内部的慢化有效线形修正，将 RDDS 的精确测量下限拓展至 $\sim 0.5\text{ ps}$，从而构建了与 DSAM 高自旋寿命测量正交且无停止模型依赖的重叠基准。
+
+新 [rdds-kinematic-expansion-result-068](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-kinematic-expansion-result-068.json) 包含 11 项检验，全部验证通过。

@@ -2681,3 +2681,7 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
 ## 2026-10-21 DAY18 checkpoint067：同步run.json发布回执指针与状态不变式
 
 将 run.json 中的 last_publication 正式更新对齐至 publication-066.json（commit 3b02bd6），并同步 partial_day_indices: [18]、completed_day_indices: [] 与 next_day_index: 18，确保执行状态与日报规范完全一致。Day 18 session 持续至 15:00 CST，维持 formal credit: false，保护原截止时间。
+
+## 2026-10-21 DAY18 checkpoint068：逆运动学Degrader-RDDS空间放大与亚皮秒时间下限审计（Day 19预习）
+
+对比常规运动学（Klemme 1999 134Nd，v/c=1.6%，stopper慢化时延约1.1 ps，下限约2 ps）与逆运动学（Suzuki 2008 103Rh，330 MeV 96Zr束流，初速beta=5.1(1)%，degrader穿行时间<0.2 ps）：严格计算反冲速度空间放大因子为 5.1%/1.6% = 3.1875 倍，飞行演化率由 4.80 um/ps 放大至 15.29 um/ps；实测亚皮秒态 103Rh 29/2+（tau=0.72(23) ps）的飞行距离由常规运动学不可解析的 3.45 um 显著放大至可高精度测量的 11.01 um；薄降能层替代厚阻挡层免除了复杂慢化有效线形修正，将 RDDS 测量下限成功推低至 ~0.5 ps，与 DSAM 上限窗口形成关键无模型重叠。新11项原件哈希与运动学断言检验通过。本项仍属Day 19预习（formal_credit: false），不提前计分。

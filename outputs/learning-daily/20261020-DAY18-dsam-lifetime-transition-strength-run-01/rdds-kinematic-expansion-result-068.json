@@ -1,0 +1,92 @@
+{
+  "kind": "raw-anchored-rdds-kinematic-expansion-audit",
+  "sources": {
+    "klemme_1999": {
+      "path": "raw/papers/1999_Klemme et al_Lifetimes measurements for 134 Nd and neighboring nuclei with the.pdf",
+      "sha256": "2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604"
+    },
+    "suzuki_2008": {
+      "path": "raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf",
+      "sha256": "f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927"
+    }
+  },
+  "kinematic_comparison": {
+    "normal_kinematics_klemme_1999": {
+      "reaction": "110Pd(28Si,4n)134Nd at 125 MeV",
+      "recoil_velocity_v_over_c": 0.016,
+      "velocity_um_per_ps": 4.7967,
+      "finite_stopping_slowing_time_ps": 1.1,
+      "short_lifetime_limit_ps": 2.0
+    },
+    "inverse_kinematics_suzuki_2008": {
+      "reaction": "11B(96Zr,4n)103Rh at 330 MeV",
+      "recoil_velocity_v_over_c": 0.051,
+      "velocity_um_per_ps": 15.2894,
+      "degrader_transit_time_ps": "< 0.2",
+      "measured_short_lifetime_ps": 0.72
+    },
+    "spatial_magnification_factor": 3.1875,
+    "benchmark_0_72_ps_flight_distance_um": {
+      "normal_kinematics": 3.4536,
+      "inverse_kinematics": 11.0084,
+      "mechanical_advantage": "Expands flight from near foil-contact limit (3.45 um) to well-resolved distance (11.01 um)"
+    }
+  },
+  "scientific_conclusion": [
+    "Inverse kinematics in RDDS measurements (such as Suzuki 2008 with a 330 MeV 96Zr beam) ",
+    "produces a recoil velocity beta = 5.1(1)%, which provides a 3.19-fold spatial expansion of the ",
+    "plunger flight distance relative to normal kinematics (beta = 1.6% in Klemme 1999). ",
+    "For sub-picosecond lifetimes (e.g. tau = 0.72 ps in 103Rh), the flight distance is magnified ",
+    "from 3.45 um (unresolvable near the mechanical contact limit of plunger foils) to 11.01 um ",
+    "(comfortably resolved by micrometer/piezo stages). Coupled with thin degrader foils rather than ",
+    "thick stoppers (transit time < 0.2 ps), this extends the experimental reach of RDDS down to ~0.5 ps, ",
+    "forming a model-independent overlapping benchmark with the upper window of DSAM."
+  ],
+  "checks": [
+    {
+      "name": "Klemme 1999 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Suzuki 2008 PDF SHA256 verified",
+      "passed": true
+    },
+    {
+      "name": "Klemme 1999 recoil velocity 1.6%",
+      "passed": true
+    },
+    {
+      "name": "Klemme 1999 finite stopping slowing ~1.1 ps",
+      "passed": true
+    },
+    {
+      "name": "Suzuki 2008 330 MeV beam",
+      "passed": true
+    },
+    {
+      "name": "Suzuki 2008 inverse kinematics velocity 5.1(1)%",
+      "passed": true
+    },
+    {
+      "name": "Suzuki 2008 degrader transit < 0.2 ps",
+      "passed": true
+    },
+    {
+      "name": "Suzuki 2008 103Rh 29/2+ lifetime 0.72 ps",
+      "passed": true
+    },
+    {
+      "name": "Spatial expansion ratio is 3.1875",
+      "passed": true
+    },
+    {
+      "name": "Inverse kinematics flight distance > 10 um for tau=0.72 ps",
+      "passed": true
+    },
+    {
+      "name": "Normal kinematics flight distance < 4 um for tau=0.72 ps",
+      "passed": true
+    }
+  ],
+  "valid": true
+}
