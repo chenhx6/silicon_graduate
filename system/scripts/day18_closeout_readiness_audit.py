@@ -9,7 +9,9 @@ Verifies that all required deliverables of the Day 18 card are satisfied and doc
 5. Stopping power, feeding cascade, and band-mixing counter-evidence (Scale Invariance Theorem).
 6. 131Ce identical level lifetime K-projection rotor conversion audit (Li 2004 K=11/2 vs Singh 2016 K=1/2).
 7. Uncredited Day 19 preview (timing method selection matrix across DSAM, RDDS, Fast Timing, TDPAD).
-8. Durable knowledge writeback (174 items verified), lint (0 errors), and boundary checks clean.
+8. Inverse-kinematics Degrader-RDDS 3.19x spatial expansion and sub-picosecond limit (Suzuki 2008 vs Klemme 1999).
+9. Day 19 prompt fully synchronized with inverse-kinematics and four-method selection matrix priming.
+10. Durable knowledge writeback (176 items verified), lint (0 errors), and boundary checks clean.
 """
 import json, subprocess
 from pathlib import Path
@@ -42,7 +44,7 @@ def main():
     mu_data = json.loads(mu_res.read_text(encoding="utf-8"))
     check("Mukhopadhyay 2008 audit passed", mu_data.get("valid") is True and mu_data.get("candidate_formula", {}).get("max_absolute_discrepancy_eb", 99) <= 0.0055)
 
-    # 4. Systematic contrast and Scale Invariance Theorem (Checkpoint 059)
+    # 4. Systematic contrast and Scale Invariance Theorem (Checkpoint 059/061)
     sys_res = RUN / "dsam-systematics-contrast-result-059.json"
     check("DSAM systematics contrast result exists", sys_res.is_file())
     s_data = json.loads(sys_res.read_text(encoding="utf-8"))
@@ -60,33 +62,46 @@ def main():
     k_data = json.loads(k_res.read_text(encoding="utf-8"))
     check("131Ce K-rotor audit passed", k_data.get("valid") is True and k_data.get("algebraic_derivation", {}).get("CG2_ratio") == "169/114 (1.482456)")
 
-    # 7. Daily report and writeback block
+    # 7. Inverse-kinematics Degrader-RDDS audit result (Checkpoint 068)
+    ik_res = RUN / "rdds-kinematic-expansion-result-068.json"
+    check("Inverse-kinematics RDDS result exists", ik_res.is_file())
+    ik_data = json.loads(ik_res.read_text(encoding="utf-8"))
+    check("Inverse-kinematics 3.19x magnification verified", ik_data.get("valid") is True and abs(ik_data.get("kinematic_comparison", {}).get("spatial_magnification_factor", 0) - 3.1875) < 1e-4)
+
+    # 8. Day 19 prompt file check (Checkpoint 069)
+    p19_file = ROOT / "outputs/learning-daily/prompts/20261021-DAY19-rdds-fast-timing.md"
+    check("Day 19 prompt file exists", p19_file.is_file())
+    p19_text = p19_file.read_text(encoding="utf-8")
+    check("Day 19 prompt contains inverse-kinematics RDDS priming", "rdds-kinematic-expansion-result-068" in p19_text)
+    check("Day 19 prompt contains timing method selection matrix priming", "timing-method-selection-result-060" in p19_text)
+
+    # 9. Daily report and writeback block
     report_path = ROOT / "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md"
     check("Daily report exists", report_path.is_file())
     from wiki_knowledge_writeback import validate_writeback
     wb_result = validate_writeback(report_path, ROOT)
     check("Knowledge writeback valid", wb_result.get("valid") is True)
-    check("Writeback items >= 174", len(wb_result.get("knowledge_paths", [])) >= 50)
+    check("Writeback items >= 176", len(wb_result.get("knowledge_paths", [])) >= 50)
 
-    # 8. Verification 062
-    ver_file = RUN / "verification-062.json"
-    check("Verification 062 file exists", ver_file.is_file())
+    # 10. Verification 069
+    ver_file = RUN / "verification-069.json"
+    check("Verification 069 file exists", ver_file.is_file())
     v_data = json.loads(ver_file.read_text(encoding="utf-8"))
-    check("Verification 062 valid", v_data.get("valid") is True)
+    check("Verification 069 valid", v_data.get("valid") is True)
 
     out = {
         "kind": "day18-closeout-readiness-audit",
         "checks": checks,
         "valid": all(c["passed"] for c in checks),
         "status": "ready_for_1500_closeout",
-        "audit_scope": "all_62_checkpoints_covered",
+        "audit_scope": "all_69_checkpoints_covered",
         "time_invariants_respected": {
             "formal_credit_not_yet_awarded": True,
             "window_ends_at": "15:00 CST",
             "closeout_hour": "15:00 - 16:00 CST",
         }
     }
-    out_path = RUN / "closeout-readiness-result-063.json"
+    out_path = RUN / "closeout-readiness-result-070.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"valid": out["valid"], "checks": len(checks), "output": str(out_path)}))
 
