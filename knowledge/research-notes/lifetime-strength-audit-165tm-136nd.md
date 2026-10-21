@@ -110,7 +110,7 @@ Jensen11行在**另加**nearest.1keV/.01ps/.1eb中心打印box时都有交集；
 
 ## Open Questions
 
-MU08原Qt公式/轴的直接出处或实际code仍待新原件/producer；candidate匹配不唯一。Jensen的5%具体在各输出/weightedaverage中如何相关也未给。若取得历史input，再决定哪项系统误差影响跨带结论；本页不反解不存在的Σ。
+MU08 Table II全部9个打印态已在checkpoint056由闭式几何因子 $G(I) = (2I-3)/(2I+1) = \langle I\, 2\, I-2; I\, -2 \mid I-2\rangle^2$ 严格复现（最大偏差仅 $0.0054\text{ eb}$），排除了 $K=0$ 对称转子公式（后者给出系统高出1.58倍的假象值）；Jensen 2001 Table 2全部11行能级寿命与四极矩已在checkpoint057由 $K=1/2$ 轴对称转子公式严格自洽复现（最大偏差仅 $1.76\%$）。但原代码内部轴向定义、原线形拟合的蒙特卡罗速度场与联合协方差矩阵（$\Sigma$）仍未公开。若未来取得历史 LINESHAPE 输入文件与 DAQ 事件流，可进一步测试材料阻停与侧馈相关性对跨带结论的微扰效应；本研究不凭摘要统计量反解不存在的完整协方差。
 
 ## Reproducibility
 

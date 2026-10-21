@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint058：收拢核心研究笔记开放问题与转子几何代数闭环
+
+核心研究笔记（`lifetime-strength-audit-165tm-136nd.md`）开放问题根据checkpoint056/057对MU08（9态闭式几何因子偏差<=0.0054 eb）与Jensen（11行K=1/2转子偏差<=1.76%）的代数复算完成收拢；原代码内部轴向定义与原线形拟合速度场/联合协方差矩阵缺口作为后续可扩展边界如实保留。
+
 ### checkpoint057：165Tm Table 2十一行受激态寿命与转动四极矩闭式代数自审
 
 Jensen 2001 Table 2全部11行受激态寿命（[541]1/2-的5态与[411]1/2+的6态）到转动四极矩Qt的闭式换算经K=1/2转子退激公式严格重现，最大偏差仅1.76%（绝对差<=0.14 b），完全落入原文有效数字舍入域。原线形拟合协方差缺口与5%阻停系统学边界保持。新14项检验通过。
@@ -3855,6 +3859,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint058已实际提交，稳定指针main / `Consolidate lifetime-strength-audit open questions with rotor algebra closure`；精确hash/H3/远端结果只publication-058回执。
+
 
 checkpoint057已实际提交，稳定指针main / `Audit 165Tm Table 2 level lifetime to transition quadrupole moment conversion`；精确hash/H3/远端结果只publication-057回执。
 

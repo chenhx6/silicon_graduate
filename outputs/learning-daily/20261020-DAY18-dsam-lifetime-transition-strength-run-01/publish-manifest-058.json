@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T02:09:25.662264+00:00",
+  "subject": "Consolidate lifetime-strength-audit open questions with rotor algebra closure",
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-058.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-058.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification058 valid; lint0; boundary0; diff0; open questions consolidated; no credit; original deadline preserved"
+}

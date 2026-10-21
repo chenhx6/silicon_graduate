@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-21T02:09:25.662264+00:00",
+  "now_local": "2026-10-21T10:09:25.662264+08:00",
+  "hard_deadline": "2026-10-21T15:00:00+08:00",
+  "minutes_to_deadline": 290.5722956,
+  "decision": "continue-current-lifetime-strength-audit-closure",
+  "formal_credit": false,
+  "is_runner_execution_metadata": false
+}
