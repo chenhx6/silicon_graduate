@@ -129,5 +129,20 @@
   "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
   "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-004-prompt.md",
   "closeout_turn": null,
-  "closeout_window_missed": false
+  "closeout_window_missed": false,
+  "latest_publication": {
+    "branch": "main",
+    "subject": "Audit Q_spec, Qt and second-order beta2 mapping for Day 20 pre-study",
+    "commit": "1e029d704b78a9037b718734acdebbe3bec26147",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-006.json",
+    "status": "pushed"
+  },
+  "final_release": {
+    "branch": "main",
+    "subject": "Audit Q_spec, Qt and second-order beta2 mapping for Day 20 pre-study",
+    "commit": "1e029d704b78a9037b718734acdebbe3bec26147",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-006.json",
+    "status": "pushed"
+  },
+  "last_checkpoint": "006 Day 20 pre-study on Q_spec vs Qt decoupling and second-order beta2 mapping"
 }
