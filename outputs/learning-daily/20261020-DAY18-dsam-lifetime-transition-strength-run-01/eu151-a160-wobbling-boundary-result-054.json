@@ -1,0 +1,151 @@
+{
+  "kind": "raw-anchored-rare-earth-wobbling-lineage-boundary-controls",
+  "sources": [
+    {
+      "path": "raw/papers/2023_Mukherjee et al_Evidence of transverse wobbling motion in Eu 151.pdf",
+      "sha256": "3a1c99a806353e5daf0d8b29fb9325ecae47624bc46c5f98a3b502451091f8b0"
+    },
+    {
+      "path": "raw/papers/2003_Schönwaßer et al_One- and two-phonon wobbling excitations in triaxial 165Lu.pdf",
+      "sha256": "f7df3707dd9c5c5aad439f22205840f1cc85d36c43428f60ac95f1343a048ac3"
+    },
+    {
+      "path": "raw/papers/2005_Bringel et al_Evidence for wobbling excitation in 161Lu.pdf",
+      "sha256": "048aad3f155d237b3c86c88d160474e925e55d6e3622bffa82d57b32b099ff59"
+    },
+    {
+      "path": "raw/papers/2009_Hartley et al_Wobbling mode in Ta 167.pdf",
+      "sha256": "4667da2a7d58d75ee751b85d8b7489437a2dc9ecc4ba8f22fd533d36782d1525"
+    }
+  ],
+  "eu151_analysis": {
+    "transitions": [
+      {
+        "energy_keV": 415.0,
+        "reported_delta": -3.3,
+        "reported_E2_fraction": 0.9159,
+        "alternative_small_delta": -0.12,
+        "alternative_E2_fraction": 0.0142,
+        "collapse_factor": 64.5,
+        "asymmetry_Delta": 0.038,
+        "asymmetry_err": 0.035,
+        "asymmetry_significance_sigma": 1.09
+      },
+      {
+        "energy_keV": 537.9,
+        "reported_delta": -6.3,
+        "reported_E2_fraction": 0.9754,
+        "alternative_small_delta": -0.04,
+        "alternative_E2_fraction": 0.0016,
+        "collapse_factor": 610.6,
+        "asymmetry_Delta": 0.024,
+        "asymmetry_err": 0.015,
+        "asymmetry_significance_sigma": 1.6
+      }
+    ],
+    "interpretation": "Mukherjee 2023 adopts large roots (91.6% and 97.5% E2) supported by positive asymmetry trend and TPSM Ewobb decrease. Small roots represent counterfactual sensitivity (collapse 64.5x and 610.6x). Polarization asymmetries have limited statistical significance (Z = 1.09 and 1.60 sigma)."
+  },
+  "a160_lineage_analysis": {
+    "165Lu": {
+      "reported_large_E2": 0.923,
+      "alternative_small_E2": 0.028,
+      "collapse_factor": 33.0,
+      "selection_basis": "Small root excluded by analogy to 163Lu due to lack of linear polarization measurement."
+    },
+    "161Lu": {
+      "status": "TSD bands assigned based on alignment and moment of inertia similarity to 163Lu; electromagnetic multipolarities explicitly unmeasured."
+    },
+    "167Ta": {
+      "assumed_E2_fraction": 0.9,
+      "source_of_assumption": "Copied from 163Lu by analogy; deduced BE2 ratios 0.32-0.37 depend on this assumption."
+    }
+  },
+  "checks": [
+    {
+      "name": "2023_Mukherjee et al_Evidence of transverse wobbling motion in Eu 151.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2003_Schönwaßer et al_One- and two-phonon wobbling excitations in triaxial 165Lu.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2005_Bringel et al_Evidence for wobbling excitation in 161Lu.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "2009_Hartley et al_Wobbling mode in Ta 167.pdf hash",
+      "passed": true
+    },
+    {
+      "name": "151Eu Table III present",
+      "passed": true
+    },
+    {
+      "name": "151Eu asymmetry 0.038(35) printed",
+      "passed": true
+    },
+    {
+      "name": "151Eu asymmetry 0.024(15) printed",
+      "passed": true
+    },
+    {
+      "name": "151Eu author notes Ewobb decreasing pattern",
+      "passed": true
+    },
+    {
+      "name": "151Eu 415 keV rep E2 fraction ~ 91.6%",
+      "passed": true
+    },
+    {
+      "name": "151Eu 538 keV rep E2 fraction ~ 97.5%",
+      "passed": true
+    },
+    {
+      "name": "151Eu 415 keV alt E2 fraction ~ 1.42%",
+      "passed": true
+    },
+    {
+      "name": "151Eu 538 keV alt E2 fraction ~ 0.16%",
+      "passed": true
+    },
+    {
+      "name": "151Eu 415 keV asymmetry Z ~ 1.09 sigma",
+      "passed": true
+    },
+    {
+      "name": "151Eu 538 keV asymmetry Z ~ 1.60 sigma",
+      "passed": true
+    },
+    {
+      "name": "165Lu Table 1 present",
+      "passed": true
+    },
+    {
+      "name": "165Lu analogy to 163Lu cited",
+      "passed": true
+    },
+    {
+      "name": "165Lu collapse factor ~ 33.0",
+      "passed": true
+    },
+    {
+      "name": "161Lu TSD1 and TSD2 discussed",
+      "passed": true
+    },
+    {
+      "name": "161Lu tentative status noted",
+      "passed": true
+    },
+    {
+      "name": "167Ta assumes 90% E2 from 163Lu",
+      "passed": true
+    },
+    {
+      "name": "167Ta BE2 ratios 0.37, 0.32, 0.36 printed",
+      "passed": true
+    }
+  ],
+  "valid": true,
+  "independent_fit_or_CI": false
+}

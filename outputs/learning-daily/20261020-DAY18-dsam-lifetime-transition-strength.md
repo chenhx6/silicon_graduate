@@ -49,6 +49,10 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint054：151Eu与A≈160稀土区摆动链类比假设与偏振显著性边界
+
+151Eu带间连接线（Mukherjee 2023 Table III）大解（91.6%与97.5% E2）经正偏振不对称度倾向（Z = 1.09sigma与1.60sigma）与TPSM模型符合度分层，RDCO小根作为反事实敏感性保留；A≈160区wobbling链（165Lu, 161Lu, 167Ta）原件核实表明其普遍依托对163Lu同位素性质的类比假设（165Lu排除小根、161Lu未测电磁性质、167Ta假定90% E2纯度）。新21项结果完成检验，旧两项serializer安全退役。
+
 ### checkpoint053：130Ba两准粒子M1主导与129Ba多极根敏感性边界
 
 130Ba两准粒子带间连接线（Chen 2019 Table I）经72.2%-74.8% M1主导及PRM高估1.47-3.30倍分层，两准粒子磁矩增强与剪刀振动耦合解释保留；129Ba 365 keV现代重分析（Chakraborty 2024）大解（80% E2）与历史采用解（40% E2）及反事实小解（9.8% E2）对比，历史偏振P = 0.072(68)距零1.06sigma具边际统计性质。新15项结果完成检验，旧两项serializer安全退役。
@@ -1742,12 +1746,16 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-      "anchor": "Day18定量审计：横向wobbling混合比双解极端敏感性与线偏振边缘显著性",
-      "summary": "Table III中两跨带连接线B(E2)在小解下发生64.5至610.6倍极端断崖暴跌及偏振不对称度仅1.09-1.60sigma边缘显著性解构",
+      "anchor": "Day18 checkpoint054修订：横向摆动混合比解选择与偏振不对称度边界",
+      "summary": "checkpoint054分层151Eu横向摆动混合比大解选择依据、偏振不对称度显著性与小根敏感性",
       "sources": [
         {
           "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "locator": "MU23-D18-8"
+        },
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D18-9"
         }
       ]
     },
@@ -1784,15 +1792,15 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "mukherjee-2023-transverse-wobbling-151eu",
-      "summary": "索引增加151Eu横向wobbling混合比小解600倍塌缩与边缘偏振显著性导航",
+      "summary": "checkpoint054分层151Eu横向摆动混合比大解选择依据、偏振不对称度显著性与小根敏感性",
       "sources": [
         {
           "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "locator": "MU23-D18-8"
         },
         {
           "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
-          "locator": "MU23-D18-1"
+          "locator": "MU23-D18-9"
         }
       ]
     },
@@ -1918,34 +1926,46 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     },
     {
       "knowledge": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
-      "anchor": "Day18定量审计：类比排除小解与B(E2)的33倍塌缩边界",
-      "summary": "Table 1中TSD2->TSD1跨带线在DCO小解下发生33倍B(E2)断崖塌缩及类比163Lu先验排除假定解构",
+      "anchor": "Day18 checkpoint054修订：同位素类比选解与反事实小根敏感性",
+      "summary": "checkpoint054分层165Lu TSD2跨带线DCO大解、163Lu类比选解依据与小根33倍塌缩敏感性",
       "sources": [
         {
           "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
-          "locator": "SC03-D18-1"
+          "locator": "SC03-D18-2"
+        },
+        {
+          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+          "locator": "SC03-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/bringel-2005-wobbling-161lu.md",
-      "anchor": "Day18定量审计：零电磁跃迁观测量与全类比归属证据边界",
-      "summary": "161Lu无DCO、无偏振、无B(E2)比值且能级未连接至基态正常形变带的全类比假定边界解构",
+      "anchor": "Day18 checkpoint054修订：转动性质类比与电磁观测量未测状态",
+      "summary": "checkpoint054分层161Lu TSD能带转动学特征、与163Lu类比及电磁观测量未测状态说明",
       "sources": [
         {
           "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
-          "locator": "BR05-D18-1"
+          "locator": "BR05-D18-2"
+        },
+        {
+          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+          "locator": "BR05-D18-3"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/hartley-2009-wobbling-167ta.md",
-      "anchor": "Day18定量审计：循环假定90% E2纯度与推翻推转模型的逻辑闭环",
-      "summary": "167Ta无偏振测量下复制163Lu 90% E2纯度算得B(E2)~0.35并反向排除推转模型的循环论证解构",
+      "anchor": "Day18 checkpoint054修订：外来E2假定依据与推转模型对比边界",
+      "summary": "checkpoint054分层167Ta外来90% E2假定依据、提取B(E2)比值与推转模型对比边界",
       "sources": [
         {
           "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
-          "locator": "HA09-D18-1"
+          "locator": "HA09-D18-2"
+        },
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D18-3"
         }
       ]
     },
@@ -1982,19 +2002,19 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
     {
       "knowledge": "knowledge/index.md",
       "anchor": "schonwasser-2003-wobbling-165lu",
-      "summary": "索引增加165Lu、161Lu与167Ta A~160 wobbling谱系类比退化与循环假定审计导航",
+      "summary": "checkpoint054分层A≈160稀土区wobbling链的类比谱系、外来假定前提与测量局限",
       "sources": [
         {
           "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
-          "locator": "SC03-D18-1"
+          "locator": "SC03-D18-2"
         },
         {
           "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
-          "locator": "BR05-D18-1"
+          "locator": "BR05-D18-2"
         },
         {
           "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
-          "locator": "HA09-D18-1"
+          "locator": "HA09-D18-2"
         }
       ]
     },
@@ -3815,6 +3835,9 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint054已实际提交，稳定指针main / `Audit 151Eu and A ~ 160 rare-earth wobbling lineage boundaries`；精确hash/H3/远端结果只publication-054回执。
+
 
 checkpoint053已实际提交，稳定指针main / `Audit 130Ba two-quasiparticle M1-dominance and 129Ba multipole root boundaries`；精确hash/H3/远端结果只publication-053回执。
 

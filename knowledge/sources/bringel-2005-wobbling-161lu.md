@@ -147,12 +147,12 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 
 Keep wording at “evidence/strongly suggests,” never “observed/confirmed.”
 
-## Day18定量审计：零电磁跃迁观测量与全类比归属证据边界
+## Day18 checkpoint054修订：转动性质类比与电磁观测量未测状态
 
-在Day18正式学习中对本文声称的161Lu wobbling激发依据进行定量审计，raw SHA256 `0F485F8523A5777FDE78235777FCE52EB649E860E8FE71B16BA374A9B3E39062`已核。原BR05-1–7各claim及`human-reviewed`状态完全保留；新BR05-D18-1待审。
+原BR05-claims保持；旧BR05-D18-1降格为superseded。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| BR05-D18-1 | 本文声称在161Lu中发现wobbling激发的证据。定量审计揭示其实际电磁证据链完全缺失：(1) 未测得任何DCO角关联比；(2) 未测得任何线偏振不对称度；(3) 未测得任何带间B(E2)或B(M1)跃迁强度比；(4) TSD带向基态正常形变能级的退激完全未建立（正文p.5指出自旋和能级全为tentative估计）；(5) 正文明确承认对TSD1和TSD2的wobbling解释100%建立在与163Lu动态转动惯量J^(2)和排列角动量ix的相似性类比上。在严格的电磁物理标准下，161Lu不具备哪怕单一项直接的电磁跃迁或寿命证据支持wobbling。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.3-5 Figs. 5-8；新lu-ta-wobbling-lineage-result-027 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-contract-027.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lu-ta-wobbling-lineage-result-027.json)4项检查全过。
+| BR05-D18-1 | **superseded**：旧关于“不具备哪怕单一项证据”的断言降格，由BR05-D18-2/3分层记录作者发现的TSD带结构与明确指出的测量局限。 | task-correction | superseded-interpretation | 本段D18-2/3；旧lu-ta-wobbling-lineage-result-027 | true |
+| BR05-D18-2 | 本文发现161Lu中TSD1和微弱TSD2能级序列，其动态转动惯量J^(2)和排列角动量ix展现出与重奇A镥同位素（163,165Lu）高度相似的转动系统学特征。 | source-result-and-method | direct | PDF pp.168-171 Figs. 1-8；Sec. 3 | true |
+| BR05-D18-3 | 作者明确指出由于统计限制，连接线Delta I = 1的电磁多极性（DCO/偏振）与能级寿命无法测定，自旋与绝对激发能量仍具暂定性（tentative）；作者据此将TSD1/TSD2作为wobbling候选带提出，并强调电磁跃迁测定是最终确证的必要条件。 | author-interpretation-boundary | direct-and-boundary | PDF p.171 Summary；Sec. 4 | true |

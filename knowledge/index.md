@@ -35,17 +35,17 @@ updated: 2026-10-20
 
 - [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]] — 127Xe 多声子纵向 wobbling 混合比小解 10 倍塌缩与 Delta I = 0 二声子退激拓扑反常。
 
-- [[mukherjee-2023-transverse-wobbling-151eu]] — 151Eu 横向 wobbling 混合比小解 600 倍塌缩与边缘 1sigma 偏振不对称度有效度边界。
+- [[mukherjee-2023-transverse-wobbling-151eu]] — 151Eu 横向摆动混合比大解选择依据、偏振不对称度显著性与小根敏感性。
 
 - [[chakraborty-2024-possibility-wobbling-129ba]] — 129Ba 365 keV 现代重分析混合比根敏感性与偏振 1.06sigma 统计边界。
 
 - [[jensen-2002-second-phonon-wobbling-163lu]] — 163Lu 二声子 wobbling 标度对 476 keV 无偏振小解的 27 倍敏感性与 Delta n=2 纯伸展 E2 拓扑基准。
 
-- [[schonwasser-2003-wobbling-165lu]] — 165Lu 类比排除 DCO 小解引起 B(E2) 33 倍塌缩与 TSD3 无多极测量证据审计。
+- [[schonwasser-2003-wobbling-165lu]] — 165Lu TSD2 跨带线 DCO 大解、163Lu 类比选解依据与小根 33 倍塌缩敏感性。
 
-- [[bringel-2005-wobbling-161lu]] — 161Lu 零电磁跃迁数据与未连接能级全类比 wobbling 归属证据边界。
+- [[bringel-2005-wobbling-161lu]] — 161Lu TSD 能带转动学特征、与 163Lu 类比及电磁观测量未测状态说明。
 
-- [[hartley-2009-wobbling-167ta]] — 167Ta 复制 163Lu 90% E2 纯度以排除推转模型的循环假定逻辑闭环解构。
+- [[hartley-2009-wobbling-167ta]] — 167Ta 外来 90% E2 假定依据、提取 B(E2) 比值与推转模型对比边界。
 
 - [[babra-2019-deformation-change-136sm]] — 136Sm DSAM 寿命、加权回归 Qt 显著性（-2.72sigma）与 15% 阻停系统误差包络审计。
 

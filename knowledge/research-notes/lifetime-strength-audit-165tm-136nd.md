@@ -912,3 +912,9 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 [[chen-2019-transverse-wobbling-even-even]] CH19-D18-2/3 表明：130Ba Table I带间跃迁delta = -0.58至-0.62对应72.2%-74.8% M1主导，作者明确承认此现象并归因于两准粒子磁矩与剪刀振动耦合，PRM高估BM1约1.5-3.3倍，属于集体与单粒子混合效应。
 
 [[chakraborty-2024-possibility-wobbling-129ba]] CH24-D18-14/15 表明：129Ba 365 keV重分析中大根delta ~ -2.0（80% E2）与历史采用根（~40% E2）和反事实小根（~9.8% E2）对应不同多极分布，历史偏振P = 0.072(68)距零1.06sigma具边际统计性质。新 [ba129-ba130-wobbling-boundary-result-053](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ba129-ba130-wobbling-boundary-result-053.json) 包含15项检验，不制造实验置信区间。
+
+## 151Eu与A≈160稀土区摆动链类比假设与偏振显著性边界（checkpoint054）
+
+[[mukherjee-2023-transverse-wobbling-151eu]] MU23-D18-8/9 表明：151Eu Table III带间连接线报告大解（91.6%与97.5% E2），线偏振不对称度Delta = +0.038(35)（1.09sigma）与+0.024(15)（1.60sigma）具有正偏振倾向但统计显著性有限，小根（1.42%与0.16% E2）体现混合比敏感性。
+
+[[schonwasser-2003-wobbling-165lu]] SC03-D18-2/3、[[bringel-2005-wobbling-161lu]] BR05-D18-2/3 与 [[hartley-2009-wobbling-167ta]] HA09-D18-2/3 构成了A≈160区wobbling链的类比谱系：165Lu小根（33倍塌缩）由163Lu同位素类比排除；161Lu具备与163Lu相似的转动学特征但电磁观测量未测；167Ta明确假定90% E2（引自163Lu）以提取B(E2)比值并与推转模型对比。新 [eu151-a160-wobbling-boundary-result-054](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/eu151-a160-wobbling-boundary-result-054.json) 包含21项检验，不制造实验置信区间。

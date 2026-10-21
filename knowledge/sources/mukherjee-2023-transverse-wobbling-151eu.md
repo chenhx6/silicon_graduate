@@ -150,12 +150,12 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 
 Keep final wording at “candidate/evidence,” consistent with the paper summary.
 
-## Day18定量审计：横向wobbling混合比双解极端敏感性与线偏振边缘显著性
+## Day18 checkpoint054修订：横向摆动混合比解选择与偏振不对称度边界
 
-在Day18正式学习中对本文Table III与Figs. 5-8中151Eu的带间跃迁多极混合比解与跃迁强度进行定量审计，raw SHA256 `3A1C99A806353E5DAF0D8B29FB9325ECAE47624BC46C5F98A3B502451091F8B0`已核。原MU23-1–7各claim及`human-reviewed`状态完全保留；新MU23-D18-1待审。
+原MU23-claims保持；旧MU23-D18-1降格为superseded。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MU23-D18-1 | 本文Table III报告的415.0和537.9 keV跨带连接线B(E2_out)/B(E2_in)为0.1836与0.2795，B(M1_out)/B(E2_in)被压低至0.0014-0.0020 mu_N^2/e^2b^2，被作为A~150区首个横向wobbling候选核的关键电磁特征。定量审计揭示极端模型脆弱性：(1) 支持大解（delta = -3.3与-6.3）的线偏振不对称度Delta测量值仅为+0.038(35)（1.09sigma显著性）与+0.024(15)（1.60sigma显著性），在统计上与零高度相容；(2) 若采纳RDCO同样允许的小解（415.0 keV为delta_2 = -0.12，537.9 keV为delta_2 = -0.04），B(E2_out)/B(E2_in)遭遇高达64.5倍（415 keV跌至0.0028）至610.6倍（537.9 keV跌至0.00046）的极端断崖式塌缩，而B(M1_out)/B(E2_in)反向暴增11.7至40.6倍。这表明仅凭边缘1sigma显著性的偏振测量挑选极大解，制造了高达600倍的B(E2)虚假放大。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.6-9 Table III, Figs. 5-8；新mukherjee23-151eu-wobbling-result-024 | true |
-
-新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mukherjee23-151eu-wobbling-contract-024.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mukherjee23-151eu-wobbling-result-024.json)4项检查全过。
+| MU23-D18-1 | **superseded**：旧关于“制造了高达600倍虚假放大”的过强断言降格，由MU23-D18-8/9分层记录作者对415.0/537.9 keV大解（E2主导）的选择依据、偏振不对称度显著性（1.09sigma/1.60sigma）与反事实小根敏感性。 | task-correction | superseded-interpretation | 本段D18-8/9；旧mukherjee23-151eu-wobbling-result-024 | true |
+| MU23-D18-8 | 本文Table III报告415.0 keV与537.9 keV带间跃迁混合比大解分别为delta = -3.3(+1.5/-3.3)与-6.3(+4.1/-8.8)，对应E2份额91.6%与97.5%，支持Band C为一声子横向wobbling带；线偏振不对称度测量值分别为Delta = +0.038(35)（Z = 1.09sigma）与+0.024(15)（Z = 1.60sigma），具有正偏振倾向但统计显著性有限。 | source-result-and-method | direct | PDF pp.5-6 Table III, Figs. 5-8；Sec. III | true |
+| MU23-D18-9 | RDCO允许的第二组小根解（-0.12与-0.04）对应E2份额仅1.42%与0.16%，构成对混合比选择的敏感性测试；作者依据正不对称度倾向及与TPSM模型关于E_wobb随自旋下降趋势的符合，选定大解并判定为A≈150区首个横向摆动候选核。 | author-interpretation-boundary | direct-and-boundary | PDF pp.6-10 Figs. 11, 14；Sec. IV | true |
