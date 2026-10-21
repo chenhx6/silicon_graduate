@@ -73,15 +73,15 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "070 prepared; original research window continues",
+  "last_checkpoint": "071 prepared; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
     "branch": "main",
-    "subject": "Update candidate pool and closeout readiness status in Day 18 report",
-    "commit_hash": "3b02bd6ec358739546ca287164686032c062d3b7",
+    "subject": "Expand closeout readiness audit to cover all 69 checkpoints and verified artifacts",
+    "commit_hash": "de9992e749c6feefa3b43b2f80df0f33bbb8db74",
     "outcome": "pushed",
-    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-066.json"
+    "receipt": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/publication-070.json"
   },
   "native_goal_last_observation": {
     "status": "active",
@@ -90,7 +90,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Expand closeout readiness audit to cover all 69 checkpoints and verified artifacts"
+    "subject": "Document checkpoint 070 in daily report and synchronize publication receipt"
   },
   "uncredited_preview": {
     "day_index": 19,
