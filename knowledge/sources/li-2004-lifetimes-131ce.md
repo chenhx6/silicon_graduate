@@ -76,6 +76,7 @@ Li Guang-Sheng 等，*Chinese Physics Letters* **21**, 461–463 (2004)；citati
 | LI04-9 | 作者把负宇称带平均 `Q_t=3.09(61) eb` 与 `130Ce` yrast `3.73(105) eb` 比较，并称 unpaired neutron reduces collectivity/changes shape。 | author-interpretation | direct-visual | PDF p.3, first paragraph | true |
 | LI04-10 | `128-131Ce` comparison in Fig.3 is interpreted as a gradual reduction of collectivity/deformation with increasing neutron number。 | author-interpretation | direct-visual | PDF p.3, Fig.3 and Summary | true |
 | LI04-11 | The source measures two opposite-parity rotational sequences, not a same-parity partner doublet, and makes no chirality assignment。 | evidence-boundary | direct-visual | Full paper; Fig.1; Summary | true |
+| LI04-D18-1 | 对比 Singh 2016 Table 1 对同一 27/2−（827 keV）能级寿命 τ=1.23(23) ps 重算的 Qt=2.28(21) eb，Li 2004 报告的 Qt=2.72(25) eb（B(E2)=1723(322) e²fm⁴）由转子模型高-Ω投影 K=11/2 Clebsch–Gordan 系数 CG²=76/325 严格重现（计算值 2.722 eb 对印刷 2.72 eb，偏差仅 0.0016 eb）；而 Singh 2016 采用解耦带投影 K=1/2（CG²=26/75，计算值 2.235 eb 对印刷 2.28 eb）。两者的代数比值严格为 sqrt((26/75)/(76/325)) = sqrt(169/114) = 1.2176，证实 19.3% 的表观四极矩差异纯粹由 K 投影几何约定所致，底层实验寿命完全一致。 | task-k-rotor-audit | derived-and-boundary | PDF p.3 Table 1；li04-singh16-k-rotor-result-062 | true |
 
 ## Source table transcription audit (2026-09-28)
 

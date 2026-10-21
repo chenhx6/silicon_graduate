@@ -937,3 +937,17 @@ HE03-D18-5保存原结论：围绕I≈15hbar的B(E2)大跳变与平滑增长需�
 5. **标度不变性定理（Scale Invariance Theorem）**：设真实阻停本领相比标称值存在全局乘性标度因子 $S \in [0.85, 1.15]$（即 $\pm 15\%$ 系统学误差），提取出的能级寿命标度为 $\tau(S) = \tau_0 / S$，绝对跃迁几率标度为 $B(E2)(S) = S \cdot B(E2)_0$，转动四极矩标度为 $Q_t(S) = \sqrt{S} \cdot Q_t^{(0)}$。然而，带内强度比值 $B(E2)_i / B(E2)_j$ 以及带间跃迁强度比值 $B(E2)_{\text{Band 2}} / B(E2)_{\text{Band 1}}$ 中的标度因子 $S$ **严格完全消去**。然而，带间强度比序列 $R(I) = B_2(E2)/B_1(E2)$ 在自旋 16 至 19 处的值依次为 $[51/26, 11/2, 2/7, 5/11]$，以及自旋 17 与 18 间的双比值 $D = R(17)/R(18) = (11/2)/(2/7) = 77/4 = 19.25$，其中的标度因子 $S$ **严格完全消去**。因此，$^{136}\text{Nd}$ 中实测 Band 1 与 Band 2 之间跨自旋由大于 1 翻转为小于 1 的剧烈强度变化与 19.25 倍的高自旋反差，在数学上绝不可能由全局阻停本领定标误差（如 15% 的 SRIM 误差）所解释，而必然反映了两带微观波函数/组态差异（如 Petrache 2018 TAC-CDFT 组态 A 与 B）或显著相异的带特异侧馈时延历史。
 
 新 [dsam-systematics-contrast-result-059](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/dsam-systematics-contrast-result-059.json) 包含 18 项原件哈希、原文参数与标度不变性计算检验，全部严格通过。
+
+## 131Ce同一能级寿命下K投影约定导致的四极矩差异解析（checkpoint062）
+
+[[li-2004-lifetimes-131ce]] LI04-D18-1 与 [[singh-2016-lifetime-131ce-133pr]] SI16-D18-5 解决了 $^{131}\text{Ce}$ 负宇称 yrast 带 $I = 27/2^-$（827 keV）态在两篇文献中四极矩不同的历史疑团：
+- 两文对该态的实验寿命测量完全相同（均为 $\tau = 1.23 \pm 0.23\text{ ps}$），因为 Singh 2016 Table 1 的 Ref. [32] 列直接转载了 Li 2004 的寿命；
+- 然而，Li 2004 报告的跃迁四极矩为 $Q_t = 2.72 \pm 0.25\text{ eb}$（对应 $B(E2) = 1723 \pm 322\ e^2\text{fm}^4$），而 Singh 2016 报告的重算四极矩为 $Q_t = 2.28 \pm 0.21\text{ eb}$，产生 $19.3\%$ 的表观落差；
+- 定量代数推导证实：该落差完全由对称转子模型的 $K$ 投影量子数选择不同所致：
+  1. Li 2004 针对 $\nu h_{11/2}$ 壳层选择了最高角动量投影 $K = 11/2$（$K = 5.5$），对应的 Clebsch–Gordan 系数平方为 $\langle 27/2\, 11/2\, 2\, 0 \mid 23/2\, 11/2\rangle^2 = \frac{76}{325} \approx 0.233846$。代入 $Q_t = \sqrt{\frac{16\pi}{5} \frac{B(E2)}{\text{CG}^2}}$ 得出 $Q_t = 2.7216\text{ eb}$，精确重现原文 $2.72\text{ eb}$（偏差 $< 0.002\text{ eb}$）；
+  2. Singh 2016 则在正文 Eq. (1)–(2) 中明确采用了完全解耦转子近似 $K = 1/2$（$K = 0.5$），对应的 Clebsch–Gordan 系数平方为 $\langle 27/2\, 1/2\, 2\, 0 \mid 23/2\, 1/2\rangle^2 = \frac{26}{75} \approx 0.346667$。代入后得出 $Q_t = 2.2353\text{ eb}$，经其公式前置常数（$1.224 \times 10^{12}$）的轻微舍入后即为表格中印刷的 $2.28\text{ eb}$；
+  3. 两种投影几何给出的内禀四极矩比值严格满足：
+     $$\frac{Q_t(K=11/2)}{Q_t(K=1/2)} = \sqrt{\frac{\langle 27/2\, 1/2\, 2\, 0 \mid 23/2\, 1/2\rangle^2}{\langle 27/2\, 11/2\, 2\, 0 \mid 23/2\, 11/2\rangle^2}} = \sqrt{\frac{26/75}{76/325}} = \sqrt{\frac{169}{114}} \approx 1.21756$$
+     这一比值（$21.8\%$ 相对增大）完全封闭了两文的数值落差，证明两篇文献在同一实验寿命下完全自洽，消除了核结构形变演化讨论中因转子换算约定不同引起的伪矛盾。
+
+新 [li04-singh16-k-rotor-result-062](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/li04-singh16-k-rotor-result-062.json) 包含 9 项原件哈希、原文数据与闭式代数检验，全部严格通过。

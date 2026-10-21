@@ -71,7 +71,7 @@
     "native_goal_status_observed": "blocked; research continues after explicit user resume"
   },
   "research_status": "active after explicit same-session resume; checkpoint044 scientific correction underway",
-  "last_checkpoint": "061 prepared; original research window continues",
+  "last_checkpoint": "062 prepared; original research window continues",
   "baseline_file": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/baseline-001.json",
   "recall_freeze": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-freeze.json",
   "last_publication": {
@@ -88,7 +88,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Audit Day 18 curriculum closeout readiness and pre-deadline verification"
+    "subject": "Resolve 131Ce identical lifetime transition quadrupole moment K-projection disparity"
   },
   "uncredited_preview": {
     "day_index": 19,

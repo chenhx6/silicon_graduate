@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-21T03:27:22.000000+00:00",
+  "subject": "Resolve 131Ce identical lifetime transition quadrupole moment K-projection disparity",
+  "ordinary_paths": [
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json"
+  ],
+  "verification": "verification-062.json",
+  "partial_index_paths": {
+    "system/log.md": "HEAD plus own-log-entry-062.md only; inherited suffix preserved"
+  },
+  "excluded": [
+    "raw",
+    "PLAN.md",
+    "Bib",
+    "credentials",
+    "inheriteddirty",
+    "isolateddaemon",
+    "tmp extracts",
+    "old results"
+  ],
+  "checks": "verification062 valid; lint0; boundary0; diff0; 131Ce K-projection ratio sqrt(169/114) proved; no credit; original deadline preserved"
+}

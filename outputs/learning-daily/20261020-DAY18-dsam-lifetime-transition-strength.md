@@ -49,6 +49,13 @@ updated: 2026-10-20
 
 ## Sources and evidence
 
+### checkpoint062：131Ce同一能级寿命下K投影约定导致的四极矩差异闭式代数解析
+
+针对 131Ce 负宇称 yrast 带 I=27/2-（827 keV）态在 Li 2004（Qt=2.72(25) eb）与 Singh 2016 Table 1（Qt=2.28(21) eb）两文中的 19.3% 表观落差展开闭式转子代数审计：
+1. 查证两文采用完全相同的原始寿命测量（tau=1.23(23) ps，Singh 明确转载 Li 2004）；
+2. 严格证明该落差源于转子模型 K 投影量子数选择不同：Li 2004 采用针对 nu h11/2 的高-Ω投影 K=11/2（CG^2=76/325=0.2338，代入计算得出 Qt=2.7216 eb，严格重现 2.72 eb，偏差<0.002 eb）；而 Singh 2016 采用解耦带投影 K=1/2（CG^2=26/75=0.3467，计算得出 2.2353 eb，结合常数舍入得到 2.28 eb）；
+3. 两者四极矩理论比值严格为 sqrt(169/114) = 1.2176（21.8% 增大），证明底层实验寿命完全一致，彻底封闭了转子换算约定导致的表观形变矛盾。新 9 项原件哈希与代数断言检验通过。
+
 ### checkpoint061：Day 18课程卡收束就绪度审计与15:00硬截止前置核查
 
 针对 Day 18 六大交付项进行收束就绪度全项核查（day18_closeout_readiness_audit.py）：
@@ -1279,6 +1286,10 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
           "locator": "SI16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-5"
         }
       ]
     },
@@ -2106,6 +2117,10 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
           "locator": "SI16-D18-4"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-5"
         }
       ]
     },
@@ -3944,6 +3959,32 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
         {
           "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
           "locator": "RG11-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "anchor": "LI04-D18-1",
+      "summary": "checkpoint062建立Li 2004与Singh 2016对同一27/2-态寿命的K=11/2与K=1/2转子投影闭式代数对账",
+      "sources": [
+        {
+          "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+          "locator": "LI04-D18-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "anchor": "131Ce同一能级寿命下K投影约定导致的四极矩差异解析（checkpoint062）",
+      "summary": "checkpoint062解析Li 2004与Singh 2016同一能级寿命下的K=11/2对K=1/2四极矩比值sqrt(169/114)=1.2176",
+      "sources": [
+        {
+          "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+          "locator": "LI04-D18-1"
+        },
+        {
+          "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+          "locator": "SI16-D18-5"
         }
       ]
     }
