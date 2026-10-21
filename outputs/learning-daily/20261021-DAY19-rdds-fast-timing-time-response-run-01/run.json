@@ -72,5 +72,19 @@
   "study_window_closed": true,
   "closeout_on_time": true,
   "finished_at": "2026-10-21T17:56:41.196445+08:00",
-  "research_stopped_at": "2026-10-21T17:56:41.196445+08:00"
+  "research_stopped_at": "2026-10-21T17:56:41.196445+08:00",
+  "latest_publication": {
+    "branch": "main",
+    "subject": "Complete DAY19 card on RDDS, fast timing, and time response calibration",
+    "commit": "6243dcd3ac1fa86095f9354815b679d1fe03b606",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-001.json",
+    "status": "pushed"
+  },
+  "final_release": {
+    "branch": "main",
+    "subject": "Complete DAY19 card on RDDS, fast timing, and time response calibration",
+    "commit": "6243dcd3ac1fa86095f9354815b679d1fe03b606",
+    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-001.json",
+    "status": "pushed"
+  }
 }
