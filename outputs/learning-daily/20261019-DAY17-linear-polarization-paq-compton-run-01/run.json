@@ -75,14 +75,14 @@
   },
   "runtime_identity_note": "actual runner run-01 receipt overrides prepared run-17 metadata; original deadline retained",
   "latest_publication": {
-    "subject": "Close DAY17 at the original deadline with verified polarization evidence",
-    "commit": "a9f3054d9c08192fbf4ce9068e2ac767b5273f1b",
+    "subject": "Record DAY17 completed window and canonical session index",
+    "commit": "fb23fe405f58e92e4939ef386ee7119abb62f55e",
     "branch": "main",
     "status": "pushed"
   },
   "research_status": "stopped-at-original-deadline; closeout-only",
   "latest_verification": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/verification-091.json",
-  "last_observed_at": "2026-10-20T07:04:09.911150+00:00",
+  "last_observed_at": "2026-10-20T07:06:35.076522+00:00",
   "runner_execution_status": "initial manual waiter/runner interrupted; canonical16:06 event and absent originalwaiter PID observed",
   "research_continuation_mode": "same-session user-resumed nativegoal; existing-deliverable review only until original deadline",
   "scheduler_session_index": "outputs/learning-milestones/2026-09-one-month-scheduler.jsonl",
@@ -126,5 +126,42 @@
     "next_day_index": 18,
     "completed_day_count": 17
   },
-  "runtime_tail_policy": "After final receipt publication, exact own commit hash and native goal result are recorded locally in canonical run receipt; no further science changes."
+  "runtime_tail_policy": "After final receipt publication, exact own commit hash and native goal result are recorded locally in canonical run receipt; no further science changes.",
+  "post_commit_reconciliation": {
+    "at": "2026-10-20T07:07:05.026118+00:00",
+    "publication": 76,
+    "manifest_matches_actual_commit": true,
+    "HEAD_origin_main_equal": true,
+    "index_empty": true,
+    "knowledge_worktree_clean": true,
+    "diff_check_actual_exit": 0,
+    "course_state_bytes_unchanged": true,
+    "course_next18_count17": true,
+    "same_session_scheduler_append_hash_matches": true,
+    "original_runner_exit_not_invented": true,
+    "content_and_receipt_publications_pushed": true,
+    "final_commit": "fb23fe405f58e92e4939ef386ee7119abb62f55e",
+    "final_subject": "Record DAY17 completed window and canonical session index",
+    "remaining_required_work": [],
+    "native_goal_complete": true
+  },
+  "final_receipt_publication": {
+    "branch": "main",
+    "subject": "Record DAY17 completed window and canonical session index",
+    "commit": "fb23fe405f58e92e4939ef386ee7119abb62f55e",
+    "status": "pushed"
+  },
+  "completion_publication_finished_at": "2026-10-20T07:07:05.026118+00:00",
+  "native_goal_status": "complete",
+  "goal_final_usage": {
+    "recorded_at": "2026-10-20T07:07:31.436327+00:00",
+    "thread_id": "01a1532e-0f21-7903-9bf6-8a9cc9ee9e17",
+    "status": "complete",
+    "tokens_used": 19728464,
+    "elapsed_seconds": 82670,
+    "token_budget": null,
+    "basis": "actual native update_goal complete result after final checks and both H3 publications; execution metadata only",
+    "no_new_research_or_credit": true
+  },
+  "goal_completion_receipt": "outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/goal-original-deadline-completion.json"
 }

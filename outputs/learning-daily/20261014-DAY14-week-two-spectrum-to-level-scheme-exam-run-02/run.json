@@ -472,6 +472,15 @@
       "refspec": "HEAD:main",
       "push_exit_code": 0,
       "receipt": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/publication-045.json"
+    },
+    {
+      "branch": "main",
+      "subject": "Complete DAY14 extended study and credit only Day14",
+      "commit": "e4f199e1b68bbe01364b628015fc9ffb573798ba",
+      "outcome": "published",
+      "refspec": "HEAD:main",
+      "push_exit_code": 0,
+      "receipt": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/publication-046.json"
     }
   ],
   "formal_card_status": "complete/published checkpoint1; continuedstudyactive",
@@ -6315,5 +6324,93 @@
   },
   "course_state_reconciliation": "course-state-reconciliation-046.json",
   "final_publication_subject": "Complete DAY14 extended study and credit only Day14",
-  "final_publication_batch": "046"
+  "final_publication_batch": "046",
+  "post_publication_checkpoint_046": {
+    "at": "2026-10-16T15:09:13.428906+08:00",
+    "publication": "publication-046.json",
+    "outcome": "published",
+    "course_credit_changed": true
+  },
+  "final_commit": "e4f199e1b68bbe01364b628015fc9ffb573798ba",
+  "final_branch": "main",
+  "final_commit_subject": "Complete DAY14 extended study and credit only Day14",
+  "publication_outcome": "published",
+  "push_exit_code": 0,
+  "origin_main_matches_head": true,
+  "post_commit_reconciliation": {
+    "at": "2026-10-16T15:10:28.860326+08:00",
+    "branch": "main",
+    "subject": "Complete DAY14 extended study and credit only Day14",
+    "commit": "e4f199e1b68bbe01364b628015fc9ffb573798ba",
+    "push_outcome": "published",
+    "origin_main_matches_head": true,
+    "all_H3_exit_codes_zero": true,
+    "commit_exact_108_manifest_files": true,
+    "current_commit_contains_no_own_hash": true,
+    "cached_index_empty": true,
+    "only_task_owned_tracked_dirty_path": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/run.json",
+    "receipt_dirty_reason": "Post-push exact commit/hash/outcome metadata belongs only in the local run receipt; no science or course changes remain unpublished.",
+    "report_and_prompt_hashes_match": true,
+    "course_next15_count14_Day15_uncredited": true,
+    "farmer": {
+      "running": true,
+      "owner": {
+        "pid": 42019,
+        "root": "/workspace/wiki",
+        "started_at": "2026-10-16T01:21:37.124848+00:00"
+      },
+      "current_session": {
+        "status": "running",
+        "event_key": "01a13a0e-e8bd-7251-b970-f6975679e281:01a14330-2351-78a2-8871-ae85c7e57f23:2026-10-16T05:29:50.679Z",
+        "attempts": 0,
+        "pending": false,
+        "next_at": 0,
+        "last_event_timestamp": "2026-10-16T05:29:50.679Z"
+      }
+    },
+    "global_scheduler_append_only_preserved": true
+  },
+  "final_reconciliation_at": "2026-10-16T15:10:28.860326+08:00",
+  "scheduler_final_publication_event": {
+    "event": "user-extended-run-final-publication-verified",
+    "at": "2026-10-16T15:10:28.860326+08:00",
+    "schedule_id": "wiki-daily-learning",
+    "run_id": "2026-10-14-day-14-02",
+    "session_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
+    "resume_command": [
+      "codex",
+      "resume",
+      "01a13a0e-e8bd-7251-b970-f6975679e281",
+      "-C",
+      "/workspace/wiki",
+      "-s",
+      "danger-full-access",
+      "-a",
+      "never"
+    ],
+    "status": "completed",
+    "completed_day_indices": [
+      14
+    ],
+    "partial_day_indices": [
+      15
+    ],
+    "branch": "main",
+    "commit_subject": "Complete DAY14 extended study and credit only Day14",
+    "push_exit_code": 0,
+    "origin_main_matches_head": true,
+    "publication_receipt": "outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/publication-046.json",
+    "new_session_created": false,
+    "daemon_restarted": false
+  },
+  "native_goal_final": {
+    "observed_at": "2026-10-16T15:11:03.329141+08:00",
+    "thread_id": "01a13a0e-e8bd-7251-b970-f6975679e281",
+    "status": "complete",
+    "tokens_used": 13349734,
+    "time_used_seconds": 110462,
+    "time_note": "native goal cumulative runtime; includes interruption/recovery/supervision wait, not continuous scientific research duration",
+    "budget": null
+  },
+  "delivery_ready_at": "2026-10-16T15:11:03.329184+08:00"
 }

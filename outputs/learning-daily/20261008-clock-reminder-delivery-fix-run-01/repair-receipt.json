@@ -52,5 +52,19 @@
     "Day9run/report"
   ],
   "official_reference": "https://developers.openai.com/codex/app-server/",
-  "official_reference_scope": "App-server active-turn steering is distinct from starting a turn; queue lifecycle evidence for this incident comes from actual CLIhelp and clocklogs, not an assumed undocumented deletion API."
+  "official_reference_scope": "App-server active-turn steering is distinct from starting a turn; queue lifecycle evidence for this incident comes from actual CLIhelp and clocklogs, not an assumed undocumented deletion API.",
+  "publication": {
+    "branch": "main",
+    "subject": "Stop completed Wiki clocks and coalesce pending checkpoints",
+    "commit_hash": "72abdbf0776cb1a0808c55d9d5b69a64707001ce",
+    "refspec": "HEAD:main",
+    "fetch_exit": 0,
+    "ancestor_exit": 0,
+    "dry_run_exit": 0,
+    "push_exit": 0,
+    "H3_passed": true,
+    "remote_commit_matches": true,
+    "exact_six_owned_files": true,
+    "published_at": "2026-10-08T18:03:26.789227+08:00"
+  }
 }

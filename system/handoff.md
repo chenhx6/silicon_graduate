@@ -934,3 +934,10 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
   4. Milestone 状态推进至 next_day_index: 19、completed_day_count: 18，Day 18 学分完成唯一对账；
   5. Day 19 课程准备提示词已同步准备就绪；
   6. 执行 H3 发布流程推送至 origin/main。
+
+### 2026-10-21 Baseline Governance Update
+- **主题**：工作树基线治理与历史收束状态同步
+- **核心成果**：
+  1. 完善 `.gitignore` 中针对每日学习运行产生的临时执行日志（`*.txt`, `*.log`）、过程检查 JSON 及弃用中间草稿的忽略规则，彻底消除 1388 项未跟踪过程文件；
+  2. 显式暂存并提交历史遗留的 14 个受跟踪运行回执与配置修改（涵盖 Day 8、9、13、14、15、16、17 post-commit reconciliation 记录、Day 15 prompt maintenance 及 daemon 模型优先级配置）；
+  3. `git status -sb` 完全恢复干净基线状态（0 modified, 0 untracked）。

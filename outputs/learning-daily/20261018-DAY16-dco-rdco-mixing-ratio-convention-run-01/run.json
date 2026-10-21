@@ -1363,6 +1363,32 @@
       "original_deadline_closed": true,
       "credit_retained_once": "formal16/next17/count16,partial17",
       "runtime_receipt_only": "this exact self hash remains in task receipt outside its own commit"
+    },
+    {
+      "publication_index": 49,
+      "at": "2026-10-19T15:14:50.596972+08:00",
+      "branch": "main",
+      "subject": "Reconcile DAY16 completed goal and final publication receipts",
+      "commit": "b0dcde2c377a8ad9fefe702b245a1337bb8a566a",
+      "origin_main": "b0dcde2c377a8ad9fefe702b245a1337bb8a566a",
+      "status": "published",
+      "commands_actual_all_exit0": true,
+      "push_observation": {
+        "cmd": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 7149fab2        \nTo gitee.com:chx6/silicon_graduate.git\n   a6d7508..b0dcde2  HEAD -> main\n"
+      },
+      "manifest_matches_actual_commit": true,
+      "native_goal_status": "complete confirmed by actualtools",
+      "scientific_work_status": "completed",
+      "credit_retained_once": "formal16/next17/count16,partial17",
+      "own_exact_hash_recorded_only_in_task_receipt": true
     }
   ],
   "last_checkpoint": "original-deadline-completed-after-actualpublication047",
@@ -1410,17 +1436,22 @@
     "push_outcome": "pushed"
   },
   "post_commit_reconciliation": {
-    "publication": 48,
+    "publication": 49,
+    "at": "2026-10-19T15:14:50.596972+08:00",
     "manifest_matches_actual_commit": true,
     "HEAD_origin_main_equal": true,
     "knowledge_diff_exit": 0,
     "index_empty": true,
+    "diff_check_actual_exit": 0,
     "course_state_bytes_unchanged": true,
-    "original_runner_exit_not_invented": true
+    "course_next17_count16": true,
+    "inherited_dirty_preserved_by_exact_staging_and_baseline_guard": true,
+    "original_runner_exit_not_invented": true,
+    "native_goal_complete": true
   },
   "final_receipt_commit_pointer": {
     "branch": "main",
-    "subject": "Record DAY16 original-deadline completion and session index"
+    "subject": "Reconcile DAY16 completed goal and final publication receipts"
   },
   "original_start_schedule_snapshot": {
     "now_local": "2026-10-18T10:45:14.763821+08:00",
@@ -1438,8 +1469,8 @@
   "schedule_session_index_event": "manual-resumed-window-completed-after-original-deadline",
   "final_receipt_publication": {
     "branch": "main",
-    "subject": "Record DAY16 original-deadline completion and session index",
-    "commit_hash": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+    "subject": "Reconcile DAY16 completed goal and final publication receipts",
+    "commit_hash": "b0dcde2c377a8ad9fefe702b245a1337bb8a566a",
     "outcome": "pushed",
     "origin_tracking_matches_HEAD": true
   },
@@ -1514,12 +1545,12 @@
     "credit_policy": "Day16 kept once; partial17 only; no Day18"
   },
   "last_publication": {
-    "publication_index": 48,
-    "at": "2026-10-19T15:10:40.840430+08:00",
+    "publication_index": 49,
+    "at": "2026-10-19T15:14:50.596972+08:00",
     "branch": "main",
-    "subject": "Record DAY16 original-deadline completion and session index",
-    "commit": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
-    "origin_main": "a6d750818aec4fbec20bc3d3406ff8cd5be23792",
+    "subject": "Reconcile DAY16 completed goal and final publication receipts",
+    "commit": "b0dcde2c377a8ad9fefe702b245a1337bb8a566a",
+    "origin_main": "b0dcde2c377a8ad9fefe702b245a1337bb8a566a",
     "status": "published",
     "commands_actual_all_exit0": true,
     "push_observation": {
@@ -1531,12 +1562,13 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 194c5fa8        \nTo gitee.com:chx6/silicon_graduate.git\n   622b120..a6d7508  HEAD -> main\n"
+      "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 7149fab2        \nTo gitee.com:chx6/silicon_graduate.git\n   a6d7508..b0dcde2  HEAD -> main\n"
     },
     "manifest_matches_actual_commit": true,
-    "original_deadline_closed": true,
+    "native_goal_status": "complete confirmed by actualtools",
+    "scientific_work_status": "completed",
     "credit_retained_once": "formal16/next17/count16,partial17",
-    "runtime_receipt_only": "this exact self hash remains in task receipt outside its own commit"
+    "own_exact_hash_recorded_only_in_task_receipt": true
   },
   "publication025_local_reconciliation": "first ignoredgeneratedPDF/stagedSVGCSVformat gate andprematurelocalcommit isolated; exacttaskPDF/LF/ownlog correction; sameunpublishedamendonce + fresh019/H3",
   "scientific_work_status": "completed",
@@ -1587,6 +1619,7 @@
   },
   "final_closeout_course_state_sha256": "7bf0448bd7b14d59fd3503b38b4b354f0e5eb9c0ccf04e3b5fb5f65bb355e961",
   "study_window_closed": true,
-  "completion_publication_finished_at": "2026-10-19T15:10:40.840430+08:00",
-  "goal_runtime_reconciliation_final": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-original-deadline-completion.json"
+  "completion_publication_finished_at": "2026-10-19T15:14:50.596972+08:00",
+  "goal_runtime_reconciliation_final": "outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/goal-original-deadline-completion.json",
+  "runtime_tail_policy": "Exact own final commit hash and H3 outcome stored after publication in local canonical run receipt; published goal/report/knowledge/continuation all completed; no extra science changes."
 }

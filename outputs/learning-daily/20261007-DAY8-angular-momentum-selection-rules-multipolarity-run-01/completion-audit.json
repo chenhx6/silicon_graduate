@@ -27,13 +27,20 @@
     "next_day_index": 9,
     "completed_day_count": 8
   },
-  "remaining_required_work": [
-    "necessarycredit/runtimecommit_and_nonforce_H3publication"
-  ],
+  "remaining_required_work": [],
   "scientific_limitations_not_technical_blockers": [
     "noevent/response/covariance/currentpriors",
     "Day9previewuncredited",
     "nohumanreviewpromotion"
   ],
-  "source_of_proof": "actualfiles,source/rawhashchecks,parentreplays,runnervalidators,GitrefandlivePID/lock"
+  "source_of_proof": "actualfiles,source/rawhashchecks,parentreplays,runnervalidators,GitrefandlivePID/lock",
+  "final_runtime_publication_verified": true,
+  "final_science_publication_verified": true,
+  "post_commit_reconciliation_verified": true,
+  "latest_pointer": {
+    "branch": "main",
+    "subject": "Record DAY8 course credit and restore DAY9 schedule",
+    "H3_passed": true
+  },
+  "last_audited_at": "2026-10-08T15:49:55.493031+08:00"
 }

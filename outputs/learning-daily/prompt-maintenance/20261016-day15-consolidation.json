@@ -149,5 +149,235 @@
     },
     "eol_exit_code": 0
   },
-  "publication_subject": "Consolidate DAY15 into one launch-ready prompt"
+  "publication_subject": "Consolidate DAY15 into one launch-ready prompt",
+  "publication": {
+    "at": "2026-10-16T22:13:35.766301+08:00",
+    "branch": "main",
+    "subject": "Consolidate DAY15 into one launch-ready prompt",
+    "commit": "897097c46ea08857366adf435c3b244255a4b19b",
+    "outcome": "published",
+    "push_exit_code": 0,
+    "refspec": "HEAD:main",
+    "origin_main_matches_head": true,
+    "git_executable": "/usr/bin/git",
+    "steps": {
+      "branch": {
+        "command": [
+          "git",
+          "branch",
+          "--show-current"
+        ],
+        "exit_code": 0,
+        "output": "main\n"
+      },
+      "head": {
+        "command": [
+          "git",
+          "rev-parse",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "output": "897097c46ea08857366adf435c3b244255a4b19b\n"
+      },
+      "subject": {
+        "command": [
+          "git",
+          "show",
+          "-s",
+          "--format=%s",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "output": "Consolidate DAY15 into one launch-ready prompt\n"
+      },
+      "commit_files": {
+        "command": [
+          "git",
+          "show",
+          "--format=",
+          "--name-only",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "output": "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json\noutputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md\noutputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md\nsystem/handoff.md\n"
+      },
+      "deleted_files": {
+        "command": [
+          "git",
+          "show",
+          "--format=",
+          "--name-only",
+          "--diff-filter=D",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "output": "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md\n"
+      },
+      "common_dir": {
+        "command": [
+          "git",
+          "rev-parse",
+          "--git-common-dir"
+        ],
+        "exit_code": 0,
+        "output": ".git\n"
+      },
+      "git_version": {
+        "command": [
+          "git",
+          "--version"
+        ],
+        "exit_code": 0,
+        "output": "git version 2.43.0\n"
+      },
+      "preflight": {
+        "command": [
+          "python3",
+          "system/scripts/wiki_automation_preflight.py",
+          "--root",
+          "."
+        ],
+        "exit_code": 0,
+        "output": "{\"schema_version\":1,\"ok\":true,\"root\":\"/workspace/wiki\",\"expected_profile\":\"\",\"actual_profile\":null,\"warnings\":[],\"write_probes\":[{\"path\":\"/workspace/wiki\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null},{\"path\":\"/workspace/wiki/.git\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null}],\"error\":null,\"path_boundary\":{\"schema_version\":1,\"root\":\"/workspace/wiki\",\"ok\":true,\"errors\":[],\"warnings\":[],\"checks\":{\"required_dirs\":{\"expected\":[\"raw\",\"knowledge\",\"outputs\",\"system\",\"tools\",\"tmp\"],\"missing\":[]},\"forbidden_dirs\":{\"expected_absent\":[\"docs/plans\"],\"present\":[]},\"moved_knowledge\":{\"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\":{\"old_exists\":false,\"canonical\":\"knowledge/projects/a130-thesis-evidence-matrix.md\",\"canonical_exists\":true}},\"outputs\":{\"allowed_roots\":[\"degree-dissertation\",\"high-spin\",\"l3\",\"l4\",\"learning-daily\",\"learning-milestones\",\"learning-weekly\",\"literature-acquisition\",\"paper-cards\",\"plans\",\"self-tests\"],\"unknown_roots\":[],\"knowledge_page_types_in_outputs\":[]},\"qmd\":{\"checked\":true,\"available\":true,\"command\":[\"/opt/qmd/bin/qmd\",\"collection\",\"show\",\"nuclear-knowledge\"],\"exit\":0,\"path\":\"/workspace/wiki/knowledge\",\"pattern\":\"**/*.md\"}}},\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n"
+      },
+      "eol": {
+        "command": [
+          "python3",
+          "system/scripts/clean_knowledge_eol_dirty.py"
+        ],
+        "exit_code": 0,
+        "output_first_lines": [
+          "Refreshed: 0",
+          "Restored: 0",
+          "Would restore: 0",
+          "Kept substantive: 0",
+          "Staged not touched: 0",
+          "Unsafe/mixed: 0",
+          "## main...origin/main [ahead 1]"
+        ],
+        "output_sha256": "a042cf89d017e1b1b8515d664d4f278a64d3f724b2ca6b71e3c405e12c3ee2dc"
+      },
+      "status": {
+        "command": [
+          "git",
+          "status",
+          "--short",
+          "--branch"
+        ],
+        "exit_code": 0,
+        "output_first_lines": [
+          "## main...origin/main [ahead 1]",
+          " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/completion-audit.json",
+          " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/progress.jsonl",
+          " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/research-checkpoint.json",
+          " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/run.json",
+          " M outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/schedule-resume-process.log",
+          " M outputs/learning-daily/20261008-DAY9-be2-bm1-reduced-matrix-elements-strengths-run-01/run.json"
+        ],
+        "output_sha256": "f9df19e1218de38f48232348e76dcb68243163455a398910c3d68716f32e03ab"
+      },
+      "diff_stat": {
+        "command": [
+          "git",
+          "diff",
+          "--stat"
+        ],
+        "exit_code": 0,
+        "output": " .../completion-audit.json                          |  15 +-\n .../progress.jsonl                                 |  17 ++\n .../research-checkpoint.json                       |  28 ++-\n .../run.json                                       | 258 ++++++++++++++++++++-\n .../schedule-resume-process.log                    |   1 +\n .../run.json                                       | 122 +++++++++-\n .../repair-receipt.json                            |  16 +-\n .../run.json                                       | 100 +++++++-\n .../run.json                                       |  99 +++++++-\n .../20261016-day15-consolidation.json              |  53 ++++-\n system/log.md                                      |  26 +++\n system/scripts/run_daily_learning_daemon.py        |  12 +-\n 12 files changed, 727 insertions(+), 20 deletions(-)\n"
+      },
+      "cached_names": {
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--name-only"
+        ],
+        "exit_code": 0,
+        "output": ""
+      },
+      "cached_check": {
+        "command": [
+          "git",
+          "diff",
+          "--cached",
+          "--check"
+        ],
+        "exit_code": 0,
+        "output": ""
+      },
+      "diff_check": {
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "exit_code": 0,
+        "output": ""
+      },
+      "fetch": {
+        "command": [
+          "git",
+          "fetch",
+          "origin",
+          "main"
+        ],
+        "exit_code": 0,
+        "output": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+      },
+      "ancestor": {
+        "command": [
+          "git",
+          "merge-base",
+          "--is-ancestor",
+          "origin/main",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "output": ""
+      },
+      "dry_run": {
+        "command": [
+          "git",
+          "push",
+          "--dry-run",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "output": "To gitee.com:chx6/silicon_graduate.git\n   e4f199e..897097c  HEAD -> main\n"
+      },
+      "push": {
+        "command": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "output": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag d04f16a3        \nTo gitee.com:chx6/silicon_graduate.git\n   e4f199e..897097c  HEAD -> main\n"
+      },
+      "remote_head": {
+        "command": [
+          "git",
+          "rev-parse",
+          "origin/main"
+        ],
+        "exit_code": 0,
+        "output": "897097c46ea08857366adf435c3b244255a4b19b\n"
+      }
+    },
+    "exact_commit_files": [
+      "outputs/learning-daily/prompt-maintenance/20261016-day15-consolidation.json",
+      "outputs/learning-daily/prompts/20261015-DAY15-ado-angular-distribution-geometry.md",
+      "outputs/learning-daily/prompts/20261016-DAY15-ado-angular-distribution-geometry.md",
+      "system/handoff.md"
+    ],
+    "no_own_hash_in_commit": true,
+    "protected_baseline_preserved": true,
+    "post_commit_reconciliation": "Only this receipt receives post-push metadata; protected inherited dirty files remain unchanged."
+  },
+  "initial_h3_guard_repair": {
+    "reason": "Own-hash inspection tried git show on the intentionally deleted old prompt, which returns128 for an absent blob.",
+    "repair": "Verify exactly that expected deletion via diff-filter D; inspect own-hash only in existing committed files. No files, credentials or Git configuration restored/changed."
+  }
 }

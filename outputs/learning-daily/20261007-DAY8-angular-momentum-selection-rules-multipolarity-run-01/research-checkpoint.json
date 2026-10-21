@@ -13,11 +13,10 @@
   ],
   "course_state_updated": true,
   "runtime_snapshot": {
-    "now_local": "2026-10-08T15:02:22.237010+08:00",
+    "now_local": "2026-10-08T16:41:27.415663+08:00",
     "hard_deadline": "2026-10-08T15:00:00+08:00",
     "minutes_to_deadline": 0,
-    "next_scheduled_start": "2026-10-08T16:00:00+08:00",
-    "decision": "closeout-only",
+    "decision": "already-completed-closeout",
     "day_index": 8
   },
   "candidate_pool": [
@@ -380,5 +379,26 @@
   },
   "research_window_closed": true,
   "new_research_allowed": false,
-  "closeout_started_at": "2026-10-08T15:02:22.237010+08:00"
+  "closeout_started_at": "2026-10-08T15:02:22.237010+08:00",
+  "latest_late_clock_checkpoint": {
+    "clock_event_id": "closeout",
+    "queued_snapshot_at": "2026-10-08T15:00:00.000563+08:00",
+    "processing_now": "2026-10-08T16:41:27.415663+08:00",
+    "same_session_id": "01a111fb-370d-7ed1-afe9-881ccc47caf4",
+    "day_index": 8,
+    "action": "verify-already-completed-closeout-and-record-delivery",
+    "research_resumed": false,
+    "course_state_updated": false,
+    "daemon_restarted": false,
+    "new_session_created": false,
+    "reason": "Day8 research stopped at fixed15:00; report,canonicalwriteback,card,runner,stateandbothpublications already verified complete"
+  },
+  "candidate_pool_current_decision": "Formal Day8 authorized routes remain closed; no new candidate, source or card opened.",
+  "evidence_gaps_current": "Existing physical priors, event/response/covariance and authorbranch-definition gaps remain canonical limitations; they do not reopen completed Day8 or credit Day9.",
+  "source_locators_current": [
+    "RB67 p316Eq3.24/p318Eq3.29/p320Eqs3.40–41; canonicalRB67-21–28",
+    "LKH82 p121Eqs2.2–3/p123Eq2.12/p169Eq4.1; canonicalLKH82-15–18",
+    "MU08 p3TableI/p4TableII; canonicalMU08-9 and lifetime synthesis"
+  ],
+  "information_gain_decision": "Delayed-reminder accounting only; canonical evidence gaps and source locators unchanged."
 }

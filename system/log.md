@@ -2752,3 +2752,10 @@ Matta/Lv同核大根小根、Biswas条件替根、Devi E5乘子原件核验完�
 4. 课程 Milestone 状态文件推进至 next_day_index: 19、completed_day_count: 18，Day 18 学分完成唯一对账；
 5. Day 19 提示词（RDDS、fast timing 与时间响应）准备就绪，注入最新 runtime schedule snapshot；
 6. 严格执行 H3 发布门禁推送至 origin/main。
+
+## 2026-10-21 工作树基线治理与历史收束状态同步
+
+按用户指令执行工作树基线治理，消除冗余未跟踪文件并归集历史修改：
+1. 规则完善：在 `.gitignore` 补充每日学习运行产生的临时执行日志（`*.txt`, `*.log`）、过程检查（`lint-*.json`, `preflight-*.json`, `boundary-*.json`, `h3-*.json` 等）及弃用中间草稿的忽略规则，彻底消除 1388 项未跟踪过程文件；
+2. 历史基线归集：显式暂存并提交历史遗留的 14 个受跟踪文件修改（涵盖 Day 8、9、13、14、15、16、17 post-commit reconciliation 记录、Day 15 prompt maintenance 及 daemon 模型优先级配置）；
+3. 状态恢复：`git status -sb` 恢复为干净基线状态（0 modified, 0 untracked），消除长时扫描开销与视觉干扰。

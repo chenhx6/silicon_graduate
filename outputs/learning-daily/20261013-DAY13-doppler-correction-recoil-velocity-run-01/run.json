@@ -460,11 +460,34 @@
     "legacy_changes_preserved": true,
     "scope_incident_recorded": true,
     "report_and_continuation_saved": true,
-    "final_receipt_publication": "prepared; contentpublicationalreadyconfirmed"
+    "final_receipt_publication": "published-final-receipt",
+    "receipt_post_commit_reconciliation": {
+      "manifest_matches_commit": true,
+      "origin_main_matches_HEAD": true,
+      "index_empty": true,
+      "handoff_pointer_matches": true,
+      "knowledge_clean": true
+    },
+    "final_exact_hash_scope": "onlylocalrunreceipts; neverownhashinsidecommit",
+    "native_goal_complete": true,
+    "local_only_mutable_updates": "exactfinalcommithash/H3andnativegoalcounterreceipt; finalcontentandcompletionreceiptcommitsalreadyonGitee; inheritedchangespreserved"
   },
   "goal_completion_current": {
-    "status": "pending-native-goal-finalization-after-receipt-publication",
-    "same_original_objective": true
+    "status": "complete",
+    "objective_achieved": true,
+    "observed_at": "2026-10-14T15:20:31.642850+08:00",
+    "native_goal": {
+      "threadId": "01a13489-64ba-7930-9a2c-291375d95ad0",
+      "objective": "按用户持续学习指令恢复并深入既有 Day13 run 2026-10-13-day-13-01 / session 01a13489-64ba-7930-9a2c-291375d95ad0，在原研究硬截止2026-10-14 15:00 Asia/Shanghai前持续开展高信息的Doppler correction、反冲与速度研究；已有课程学分不重复计数、state next14/count13不倒退、不开始正式Day14/Day15。保留已完成来源/练习，扩大到独立速度测定、位置/有限角度、能损/发射历史、重建顺序、门迁移与效率偏差，逐路线保留主动回忆、直接来源/locator、反证、竞争解释与可复算诊断，持续写回knowledge和Day13报告/checkpoint，用户已有授权不重复询问。启用farmer和同session时钟，局部缺数据或source saturation换路线而非关闭整个学习窗口；达到原截止才停止新增研究并在15:00–16:00完成检查、精确commit/push、receipt/handoff reconciliation，不制造实验结论、不改raw/PLAN/凭据、保留继承修改。",
+      "status": "complete",
+      "tokensUsed": 6085482,
+      "timeUsedSeconds": 59944,
+      "createdAt": 1791896826,
+      "updatedAt": 1791962356
+    },
+    "counter_scope": "nativegoal cumulativecounter; notthiscloseoutsegment or fullsessionwallclock",
+    "completion_usage_report": "Goal achieved. Report final usage from this tool result's structured goal fields. If `goal.tokenBudget` is present, include token usage from `goal.tokensUsed` and `goal.tokenBudget`. If `goal.timeUsedSeconds` is greater than 0, summarize elapsed time in a concise, human-friendly form appropriate to the response language.",
+    "token_budget": null
   },
   "last_research_checkpoint": {
     "now_local": "2026-10-14T05:57:51.878940+08:00",
@@ -2032,5 +2055,76 @@
       "note": "get_goal returnedblocked at15:10; no newgoal/model/session; authorizedcloseout continues, completion onlyafterpublicationreconciliation"
     },
     "receipt_commit_target": "Record DAY13 completion after published closeout"
+  },
+  "final_receipt_publication": {
+    "branch": "main",
+    "commit_subject": "Record DAY13 completion after published closeout",
+    "commit_hash": "c0ac07356e7869eb8d7cc7dc9f6f1399093b4958",
+    "scope": "completionreceipt only; scientificcontentalreadypublished",
+    "files": [
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/continuation-prompt.md",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-final-closeout-audit.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/reopened-publication-h3-012.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity-run-01/run.json",
+      "outputs/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity.md",
+      "system/handoff.md"
+    ],
+    "status": "published-final-receipt",
+    "H3_observed_commands": [
+      {
+        "argv": [
+          "git",
+          "fetch",
+          "origin",
+          "main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "From gitee.com:chx6/silicon_graduate\n * branch            main       -> FETCH_HEAD\n"
+      },
+      {
+        "argv": [
+          "git",
+          "merge-base",
+          "--is-ancestor",
+          "origin/main",
+          "HEAD"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "--dry-run",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "To gitee.com:chx6/silicon_graduate.git\n   32226dc..c0ac073  HEAD -> main\n"
+      },
+      {
+        "argv": [
+          "git",
+          "push",
+          "origin",
+          "HEAD:main"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag 4b42f79b        \nTo gitee.com:chx6/silicon_graduate.git\n   32226dc..c0ac073  HEAD -> main\n"
+      }
+    ],
+    "published_at": "2026-10-14T15:17:23.890195+08:00",
+    "post_commit_reconciliation": {
+      "manifest_matches_commit": true,
+      "origin_main_matches_HEAD": true,
+      "index_empty": true,
+      "handoff_pointer_matches": true,
+      "knowledge_clean": true
+    }
   }
 }
