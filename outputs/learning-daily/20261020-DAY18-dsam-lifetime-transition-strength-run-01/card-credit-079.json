@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-21T15:20:01.560874+08:00",
+  "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
+  "run_id": "2026-10-20-day-18-01",
+  "before": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 18,
+    "last_success": "2026-10-19",
+    "last_run_id": "2026-10-19-day-17-01",
+    "status": "active",
+    "completed_day_count": 17
+  },
+  "after": {
+    "schema_version": 1,
+    "cycle": "2026-09-30-day-substantive",
+    "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+    "next_day_index": 19,
+    "last_success": "2026-10-20",
+    "last_run_id": "2026-10-20-day-18-01",
+    "status": "active",
+    "completed_day_count": 18
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      18
+    ],
+    "partial_day_indices": [
+      19
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 19,
+    "error": null
+  },
+  "verification": "verification-079.json",
+  "credit_applied_once": true,
+  "original_deadline": "2026-10-21T15:00:00+08:00",
+  "closeout_window": "15:00–16:00 Asia/Shanghai",
+  "closeout_completed": true,
+  "native_goal_completed": true,
+  "runner_normal_exit_inferred": false
+}

@@ -924,3 +924,13 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
   4. 完整构建涵盖 E2 摆动（横向 E2 主导）、M1 手征（带间 M1 交错）与 E1 八极（宇称交替 E1 伴随宏观 D0）的电磁多极三元分类律；
   5. day18_closeout_readiness_audit.py 升级为覆盖全 77 个检查点的 28 项断言，全部通过并输出 closeout-readiness-result-077.json；
   6. 保持 formal credit: false，保护原截止时间 15:00 CST，静候 15:00–16:00 CST 正式收束。
+
+### 2026-10-21 Checkpoint 079 Update
+- **主题**：原截止时间正式收束与Day18学分对账
+- **核心成果**：
+  1. 原 2026-10-21 15:00 Asia/Shanghai 硬截止已到，收束窗口内全套收束审计完成；
+  2. Day 18 课程卡 6 项交付全部标为 complete，completed_day_indices: [18]，partial_day_indices: [19]，Day 18 card audit: complete；
+  3. 知识写回块 189 项映射经 validate_writeback 严格通过（0 错 58 路径）；
+  4. Milestone 状态推进至 next_day_index: 19、completed_day_count: 18，Day 18 学分完成唯一对账；
+  5. Day 19 课程准备提示词已同步准备就绪；
+  6. 执行 H3 发布流程推送至 origin/main。

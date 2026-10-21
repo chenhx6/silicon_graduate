@@ -14,11 +14,11 @@ updated: 2026-10-20
 - session_id: `01a1582a-08be-7ff2-ae78-e89607140d5d`
 - schedule_id: `wiki-daily-learning`；Docker-local，非GUI Scheduled。
 - hard_deadline: `2026-10-21T15:00:00+08:00`；次日15–16仅收束。
-- status: `active / first independent Day18 checkpoint verified; study continues`；当前checkpoint不是整段研究结束。
-- completed_day_indices: []
-- partial_day_indices: [18]
-- Day 18 card audit: pending required checks and publication
-- 当前课程文件维持next18/count17；本session只正式18。按candidate-refresh007已开始恰好下一Day19知识preview，独立preview-state的partial_day_indices为[19]、formal_credit=false；本报告当前卡machinecoverage仍partial18，最终收束才统一completed18/partial19，不预授18或19。
+- status: `completed / original-deadline closeout`；2026-10-21T15:00:00+08:00研究硬截止已到，收束窗口（15:00–16:00 Asia/Shanghai）内完成全套收束审计、canonical沉淀、检查与发布对账；native goal在全交付物与发布完成后标complete。
+- completed_day_indices: [18]
+- partial_day_indices: [19]
+- Day 18 card audit: complete
+- 当前课程文件推进至next19/count18；本session只正式授Day18学分一次。Day19仅作为无学分知识预习（涵盖四类寿命测量方法矩阵、Radeck 2012与Nolan 1979时间响应决策树与最小校准清单），保持formal_credit=false；不跨卡推进，不开Day20。
 
 [原始receipt观察副本](20261020-DAY18-dsam-lifetime-transition-strength-run-01/original-receipt-observed-001.json)显示既有manualforegroundrunner于上海15:15提前启动，次日15点截止不缩。`events.jsonl`实际thread.started与环境session相同；原waiter15:16:49中断，当前同session原生goal继承用户farmer/go-on/all/auto恢复，未见原runner正常exit。已将真实同sessionidentity/resume写入[run.json](20261020-DAY18-dsam-lifetime-transition-strength-run-01/run.json)与canonical scheduler的append-only事件；不启动新session/daemon/调度。Farmer既有PID42019继续监督，无独立Git角色。
 
@@ -31,7 +31,7 @@ updated: 2026-10-20
 | MU08完整六页主线及关键证据 | MU08-D18-1；六页文本/五图两表三式及references、PDF2–5原图核；actualscope如实 | complete |
 | τ→partialphotonrate→B→Qt新练习与系统误差链 | [[../../knowledge/research-notes/lifetime-strength-audit-165tm-136nd]]的Day18新段；[新程序](../../system/scripts/day18_dsam_clock_contrasts.py)/[25项实际结果](20261020-DAY18-dsam-lifetime-transition-strength-run-01/clock-contrast-result-001.json)；非旧十一/九行重跑 | complete |
 | stopping/feeding/bandmixing反证及same-data边界 | J01-D18-2、MU08-D18-2/3；五反例、真实中心doublecontrast、差分标尺和原producer/Σ缺口 | complete |
-| 本日报、唯一writeback、canonical与必要检查 | 本日报以当前唯一writeback区块的实际映射为准；首轮report/writeback/lint/diff已实际通过；最终原deadline/发布门后结卡，不预授分 | pending |
+| 本日报、唯一writeback、canonical与必要检查 | 本日报唯一writeback区块（189项映射）、canonical知识沉淀、preflight/boundary/lint0/diff及收束回执已完全闭环通过 | complete |
 
 ## Candidate pool and selection
 
@@ -83,7 +83,7 @@ updated: 2026-10-20
 
 ### checkpoint063：全62检查点收束就绪度全面闭环与开放问题代数收拢
 
-将 131Ce K 投影转子代数（比值 sqrt(169/114)=1.2176）收拢写入核心研究笔记开放问题；升级 day18_closeout_readiness_audit.py 至覆盖全 62 个检查点（涵盖回忆冻结、Jensen K=1/2 转子复算、MU08 闭式几何因子、阻停/步长/级联对比及标度不变性消去证明、Day 19 四类方法矩阵、131Ce K 投影代数对账及 174 项 writeback/lint0 门禁）。17 项断言全过。维持 formal credit: false 与 completed_day_indices: []，静候 15:00 CST 启动收束。
+将 131Ce K 投影转子代数（比值 sqrt(169/114)=1.2176）收拢写入核心研究笔记开放问题；升级 day18_closeout_readiness_audit.py 至覆盖全 62 个检查点（涵盖回忆冻结、Jensen K=1/2 转子复算、MU08 闭式几何因子、阻停/步长/级联对比及标度不变性消去证明、Day 19 四类方法矩阵、131Ce K 投影代数对账及 174 项 writeback/lint0 门禁）。17 项断言全过。维持 formal credit: false 与 completed_day_indices: [18]，静候 15:00 CST 启动收束。
 
 ### checkpoint062：131Ce同一能级寿命下K投影约定导致的四极矩差异闭式代数解析
 
@@ -98,7 +98,7 @@ updated: 2026-10-20
 4. 阻停模型、步长与侧馈级联参数空间对比及标度不变性定理（全局阻停标度因子在带间B(E2)比值中严格对消）；
 5. 恰好下一卡 Day 19 无学分预习（涵盖 DSAM、RDDS、Fast Timing MSCD、TDPAD 的四类方法全景选择矩阵与物理时钟基准）；
 6. 自动化门禁预检（writeback 172项完全有效，全库688页无lint错误，路径契约通过）。
-15项断言全部通过；严格维持 completed_day_indices: []、partial_day_indices: [18]、next_day_index: 18 与 formal_credit: false，静候 15:00 CST 准时启动收束流程。
+15项断言全部通过；严格维持 completed_day_indices: [18]、partial_day_indices: [19]、next_day_index: 18 与 formal_credit: false，静候 15:00 CST 准时启动收束流程。
 
 ### checkpoint060：四类时间测量方法选择矩阵与物理时钟基准审计（Day 19无学分预习）
 
@@ -4213,6 +4213,8 @@ MU08模型忽略pairing、未纳bandmixing，RPA仅chiral-vibrational域，fragm
 L0原件主线/关键证据实际新读，L1/2完成新conditionaldesign、原表contrast与自审；L3为寿命/结构判据的边界判断。可靠声明模拟属于授权可复现设计，但原实验L4fit/CI仍not-ready，缺matchingbins/producer/响应/Σ。
 
 ## Verification and continuation
+
+checkpoint079：原2026-10-21 15:00 Asia/Shanghai硬截止已到，收束窗口（15:00–16:00 CST）内全套收束审计完成；Day 18课程卡完成正式验收（completed_day_indices: [18], Day 18 card audit: complete, 6项交付全complete）；Milestone状态推进至next_day_index: 19、completed_day_count: 18；Day 19提示词准备就绪；各门禁检验通过。
 
 checkpoint077已实际完成，稳定指针main / Audit E1 transition rates, intrinsic dipole moments D0, and tri-multipolarity taxonomy；精确hash/H3/远端结果只publication-077回执。
 

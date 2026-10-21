@@ -15,31 +15,30 @@
   "continuation_count": 0,
   "continuation_batch_count": 0,
   "continuation_batches": 1,
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-20T15:15:01.842102+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength.md",
-  "completed_day_indices": [],
-  "partial_day_indices": [
+  "completed_day_indices": [
     18
   ],
-  "curriculum_cards_completed": 0,
+  "partial_day_indices": [
+    19
+  ],
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-21T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-20T15:15:01.842102+08:00",
+    "now_local": "2026-10-21T15:17:00.273258+08:00",
     "hard_deadline": "2026-10-21T15:00:00+08:00",
     "next_scheduled_start": "2026-10-21T16:00:00+08:00",
-    "minutes_to_deadline": 1424,
-    "minutes_to_next_start": 1484,
-    "minimum_current_block_minutes": 90,
-    "minimum_forward_card_block_minutes": 120,
-    "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "minutes_to_deadline": 0,
+    "minutes_to_next_start": 42,
+    "decision": "closeout-only",
+    "basis": "actual clock check after original deadline; same-session manual closeout"
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/prompt.md",
   "session_id": "01a1582a-08be-7ff2-ae78-e89607140d5d",
@@ -90,7 +89,7 @@
   },
   "current_checkpoint_pointer": {
     "branch": "main",
-    "subject": "Correct circular strength checks and narrow Day18 evidence claims"
+    "subject": "Close DAY18 at original deadline with verified lifetime-strength audits"
   },
   "uncredited_preview": {
     "day_index": 19,
@@ -98,5 +97,22 @@
     "formal_credit": false,
     "statefile": "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/day19-preview-state-007.json"
   },
-  "next_day_index": 18
+  "next_day_index": 19,
+  "formal_credit": true,
+  "deliverables_passed": true,
+  "study_window_closed": true,
+  "closeout_window_missed": false,
+  "closeout_on_time": true,
+  "finished_at": "2026-10-21T15:17:00.273258+08:00",
+  "research_stopped_at": "2026-10-21T15:00:00+08:00",
+  "latest_publication": {
+    "branch": "main",
+    "subject": "Close DAY18 at original deadline with verified lifetime-strength audits",
+    "status": "pushed"
+  },
+  "final_release": {
+    "branch": "main",
+    "subject": "Close DAY18 at original deadline with verified lifetime-strength audits",
+    "status": "pushed"
+  }
 }

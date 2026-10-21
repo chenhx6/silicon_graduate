@@ -20,3 +20,36 @@ Klemme1999的六行finite-stopping修正（1.181–1.255非统一scale）与两Q
 Day18仍在其原2026-10-21 15:00窗口持续；本prompt不会缩短该截止或提前开19。后续priming进展先核currentcanonical/Day18原receipt，别用本准备文预填未完成阅读。本日输出按runner实际report/run-dir/statefile；日报有固定Runstate等十标题、唯一knowledge-writeback（exactanchor/每atomiclocator一reference）和≥4complete行的Day19cardaudit，formalcompleted[19]；若时间门允许只下一卡无学分preview，不跨更多课卡、不提早终止有用窗口。研究15点停止新路，收束完成report/canonicalknowledge/checks/continuation/nextprompt/actualsessionreceipt/发布后才推进一次学分。普通发布沿Gitee origin精确manifest/H3/fetch/ancestry/dry-run/nonforce HEAD:main；实际hash只receipt，不写本commit自身hash。科学partial不阻普通安全发布，failedrequiredcheck或未隔离hardP0则留本地如实。
 
 Day18 checkpoint078修订优先：075反推ICC、076从W.u.判结构、062K约定全闭合和077三元分类结论均已撤回，旧valid不作科学验证。060现代三原件只有旧Wiki/hash/matrix引用，尚无本session新全文scope证明；不得写成正式19已读。068的3.1875只为中心运动学比，不证明无停止依赖/无geometry误差。下次首先读canonical最新078，不延续旧“全部77检查点闭环”表述。
+
+<!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
+## Curriculum card completion record
+In the report's Run state include exactly these two machine-readable list lines:
+- completed_day_indices: [N, ...]
+- partial_day_indices: [N, ...]
+Count a card only after every deliverable on that Day card is complete. For every completed day, add `- Day N card audit: complete` under Run state and a `### Day N card completion audit` table with at least four Day-matrix deliverables, each linked to an evidence locator/artifact and marked complete. Partial previews go only in partial_day_indices. List cards contiguously from the requested day; at most one next-day card may be advanced in one run.
+For a completed Day 7 card also include these exact audit lines:
+- Day 7 scorecard: complete
+- Day 7 weekly REFLECT: complete
+
+<!-- DAILY_LEARNING_TIME_GATE_V1 -->
+## 时间判断与学习收束
+候选问题或来源达到局部证据饱和时，先读取最新 Runtime schedule snapshot；手动恢复且没有新快照时，调用当前时间工具，并按 Asia/Shanghai 与回执中的 overnight_until 比较。
+距离硬截止至少 120 分钟：继续当前高信息问题；若当前选定问题已饱和，检查下一张未完成日卡，只有其全部交付项能在剩余时段完成时才整卡前移。
+距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，用 15:00–16:00 收束。
+不能仅因两个候选槽位饱和而提前结束；须重建候选池、检查下一张可行日卡，并记录时间快照和决定。用户明确停止、硬证据/数据/权限阻塞或运行故障可提前结束，但必须保留未完成状态和续接命令。
+每次调用生成的新 Runtime snapshot 优先于本文件中的旧快照。课程学分只沿连续完整日卡推进；部分预览不得推进 next_day_index。
+
+<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_START -->
+## Runtime schedule snapshot
+- now_local: 2026-10-21T15:20:00+08:00
+- hard_deadline: 2026-10-22T15:00:00+08:00
+- next_scheduled_start: 2026-10-21T16:00:00+08:00
+- minutes_to_deadline: 1420
+- minutes_to_next_start: 40
+- closeout_decision: continue-or-advance
+- Next card candidate: Day 20 (B(E2)-Qt与形变系统学).
+If closeout_decision is continue-or-advance, continue the current high-value issue; if both selected slots are saturated, inspect the next card and complete it only if its full deliverable fits the window.
+If closeout_decision is continue-current-or-partial, stay within the current issue or do one bounded preview; do not claim a whole next card.
+If closeout_decision is finish-current-no-new-unit, finish only the current bounded analysis and do not open another source/card. If it is closeout-only, stop research and finalize.
+Before ending early for evidence saturation, refresh the clock and candidate pool; saturation of the two selected slots alone is not schedule-level saturation while a viable next-card route remains.
+<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_END -->

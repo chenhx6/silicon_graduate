@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-21T07:18:14.983671+00:00",
+  "checks": {
+    "inherited14_unchanged": true,
+    "protected_PLAN_Bib_recall": true,
+    "liu_historical_human_review_prefix": true,
+    "git_raw_tracked_diff_empty": true
+  },
+  "valid": true,
+  "protected_hash_matches": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/active-recall-before-sources.md": true
+  }
+}

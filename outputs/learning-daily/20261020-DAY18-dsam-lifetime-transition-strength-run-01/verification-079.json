@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-21T15:20:01.560874+08:00",
+  "checks": {
+    "lint_errors": 0,
+    "lint_warnings": 249,
+    "boundary": true,
+    "preflight": true,
+    "protection": true,
+    "report": true,
+    "writeback": true,
+    "coverage": true,
+    "diff_check": 0
+  },
+  "valid": true,
+  "scope": "formal Day 18 closeout verification with complete curriculum coverage and durable writeback",
+  "completed_day_indices": [
+    18
+  ],
+  "partial_day_indices": [
+    19
+  ],
+  "next_day_index": 19,
+  "formal_credit": true,
+  "closeout": "original-deadline completed"
+}
