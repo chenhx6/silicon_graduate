@@ -117,12 +117,12 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 
 ## Extracted Pages
 
-[[simdsam-2015-public-dsam-code]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[iaea-2026-stopping-s-au-o-ta-records]]。当前只为Day17窗口内Day18无学分预习，不计新课程卡。
+[[simdsam-2015-public-dsam-code]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[iaea-2026-stopping-s-au-o-ta-records]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]。当前只为Day17窗口内Day18无学分预习，不计新课程卡。
 
 
 ## Forster实际编译输入补充
 
-[[iaea-2026-stopping-s-au-o-ta-records]] ISP26-14–17补24Mg/Au十个真实编译点和原publictable reader对照。物理输入身份没有因此闭合成paperexactjob，但邻近recoil能量的数值并未显示label差异所暗示的必然冲突。Forster原件未读、quoted4%置信定义/Cov和24Mg到23Mg的速度/同位素/混合靶合同仍保持。
+[[iaea-2026-stopping-s-au-o-ta-records]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]] ISP26-14–17补24Mg/Au十个真实编译点和原publictable reader对照。物理输入身份没有因此闭合成paperexactjob，但邻近recoil能量的数值并未显示label差异所暗示的必然冲突。Forster原件未读、quoted4%置信定义/Cov和24Mg到23Mg的速度/同位素/混合靶合同仍保持。
 
 公开MODEL packet及其限制见[[simdsam-2015-public-dsam-code]] SD15-17–21。Ref29植入物性原源的[当前readiness](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/alexander1981-primary-readiness-boundary.json)只核身份：OpenAlexclosed、NRC无结果、OAonly0正文；未读其方法/校准寿命/停止模型/共享Cov，仍不能认证A=.75(.25)是可独立迁移的Gaussian物性先验。
 
@@ -146,3 +146,30 @@ TableII逐行账本如下；Ei/Ef保留原旧评价标签，Eγ与τ是作者本
 ## 新GANIL输入：τ相容，BRp已另测
 
 [[fougeres-2023-mg23-velocity-difference-lifetime]] F23-1–20实际新原件/公开data改变companion：tau11(+7,−5)与旧10(3)相容，但branch约.68%而非旧3.7%；推荐强度含旧新组合与7/2假设。真实图/衍生event可核，不等原fit已复现；不把sourceData初不闭合反投为K16实验错。
+
+## Day19量化审计：Meyer-Sigmund核多次散射理论、Blaugrund投影速度修正与DSAM线形多普勒偏转失真定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_meyer_sigmund_multiple_scattering_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/meyer-sigmund-multiple-scattering-result-068.json`，核准了针对 Kirsebom 2016 反应体系中核多次散射与角离散的微观动力学审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| K16-D19-1 | 对 Kirsebom 2016 $^{24}\text{Mg}+^3\text{He} \to ^{23}\text{Mg}+\alpha$ 反应中金衬底核多次散射与 Blaugrund 投影速度折减执行严格微积分量化审计：(1) Meyer 1971 / Sigmund 1974 理论重构：在 $E_{\text{beam}} = 75\text{ MeV}$（反冲能 $\sim 40\text{ MeV}$）下，穿行 $1\ \mu\text{m}$、 $5\ \mu\text{m}$、 $20\ \mu\text{m}$ 金靶时，约化厚度 $\tau$ 由 $17.19$ 增至 $343.74$，诱发核多次散射半高宽急剧发散为 $\text{FWHM} = 3.69^\circ$、 $9.12^\circ$ 与 $19.87^\circ$（$\sigma = 8.44^\circ$）；(2) 质量比反差定理：Blaugrund 速度折减因子指数正比于质量比 $M_2 / (2 M_1)$。对轻核 $^{23}\text{Mg}$ 在 Au 中，该比值为 $197 / (2 \times 23) = 4.283$，相比中重核 $^{131}\text{Ce}$ 在 Au 中（$0.752$）展现出 $5.70$ 倍的强烈放大效应，实证轻核多普勒线形对核散射的极度敏感性；(3) Blaugrund 投影折减因子 $\langle \cos\theta \rangle(v)$：微积分证明由于低能区核阻止 $S_n$ 剧增，沿前向投影速度 $v_z(t) = v(t) \langle \cos\theta \rangle(t)$ 从初态的 $1.000$ 单调剧降至慢化末端的 $< 0.01$；(4) 分数多普勒频移 $F(\tau)$ 压制：核散射在典型 DSAM 测量窗口（$\tau \approx 0.1\text{--}0.5 t_s$）使前向多普勒频移压低 $16.4\%\text{--}28.9\%$（绝对频移降幅 $\Delta F$ 高达 $-0.2891$）；(5) 核多次散射能级寿命高估定理：微积分严格证明若在线形拟合中忽略核散射角偏转（假定直线减速），为拟合实测的较小频移，分析者将严重高估核能级寿命（$\tau_{\text{fit}} > \tau_{\text{true}}$），在 $\tau \approx 0.2 t_s$ 处虚假高估达 $+35.2\%$；(6) 孔阑横向几何泄漏：Marwick-Sigmund 1975 横向弥散在 $20\ \mu\text{m}$ 靶深达到数微米，与束斑发射度卷积后将源中心点 $8^\circ$ 几何孔阑实际拓展至 $13^\circ$，推翻硬孔阑截断假定；(7) 前向多普勒峰红移非对称拖尾：在 $0^\circ$ 探测角，Rayleigh 散射角分布通过 $\cos\theta \approx 1 - \frac{1}{2}\theta^2$ 赋予光子能量固有的负偏度（$\text{Skewness} = -2.000$），从第一性原理阐明了前向全多普勒峰低能端长拖尾的物理机制。 | task-kirsebom-multiple-scattering-audit | derived-and-boundary | PDF3-7 SecIII-VI; meyer-sigmund-multiple-scattering-result-068.json | true |
+
+## Day19量化审计：23Mg飞秒寿命对账、传统DSAM线形阈值与天体速率坍缩机制
+
+**checkpoint088：撤回旧科学认证；原标题保留为历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| K16-D19-2 | checkpoint085修订：TableII实际13态，其中四项有限寿命、九项95%上限；旧脚本遗漏6899→g.s.的6907(3)keV、tau<10fs一行。7787的<12fs不能当有限独立测量参与综合；40与41fs中心接近不证明跨装置绝对标尺无偏。未证传统DSAM普遍15fs死线、DVDM亚飞秒能力或逐event消除停止/散射依赖。固定两通道与J=7/2时omega gamma=(4/7)hbar Bp(1−Bp)/tau，推荐中心.241766meV而旧脚本漏(1−Bp)得.243；95.5%归因未计算，撤回。模型新星产额不当实测天文信号。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |
+
+## checkpoint088：十三态表与完整宽度分支
+
+本轮定向原读并视觉核PDF10 TableII/Figs15–18；K16原文与F23的不同采集/共同停止知识仍分开。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| K16-D19-3 | TableII共13态=4有限寿命+9项95%上限，含6899→g.s.的6907(3)keV、tau<10fs。7787→451为7335(2)keV、tau<12fs。上限不是额外mean tau测量，不能据三个中心/limit相近认证所有系统无偏。固定J=7/2且只计p/gamma通道的强度公式含Bp(1−Bp)，用F23推荐中心给.241766meV；该算术不重建原fitCI或消除stopping/branch/spin依赖。 | literal-inventory-and-conditional-width | direct-original-and-task-derived | PDF10 TableII; F23-11 | true |

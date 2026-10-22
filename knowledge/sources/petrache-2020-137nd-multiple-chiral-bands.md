@@ -131,3 +131,14 @@ European Physical Journal A 56, 208 (2020)，DOI `10.1140/epja/s10050-020-00218-
 ### Day18新的同母态物理量重标练习
 
 [新合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-contract-048.json)与[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/parent-branch-exercise-result-048.json)保五个同母态真实能量/强度及终态带。原数字可保为两项out/out和三项in/out的δ0条件量，不能拿作Fig6 in/in。给定δ1/δ2时M1分量只为δ0量的1/2或1/5；共同寿命抵消仍成立，但不认证实际δ或生成CI。程序检查能量闭合和角色，不把这些新条件量当独立实验。
+
+## Day19量化审计：D3/D6带内E2与寿命缺失、2hbar对齐差与手征振动判据边界
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_nd_chiral_evolution_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd-chiral-evolution-result-042.json`，系统核准了 Petrache 2020（EPJA 56, 208）关于 $^{137}\text{Nd}$ 候选手征双重带的证据不对称性与核心缺口：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| P20-D19-13 | Petrache 2020 在 $^{137}\text{Nd}$ 提出的两对手征双重带（正宇称 D2/D3 与负宇称 D5/D6）存在显著的证据不对称性：较强的 D2 与 D5 分别具有 9 个和 10 个实测带内 $B(M1)/B(E2)$ 数据点，而新指认的候选伙伴带 D3 与 D6 由于布居极弱，带内 $\Delta I = 2$ $E2$ 跃迁完全未被观测到，导致 D3 与 D6 的带内 $B(M1)/B(E2)$ 实验测量数为零；两对带均无任何绝对寿命测量。伙伴带之间约 $2\hbar$ 的对齐角动量差 $\Delta i_x \approx 2\hbar$ 虽可被唯象 PRM 解释为 1-声子手征振动，但在缺乏激发态绝对寿命与带内 $B(E2)$ 的情况下，无法排他性排除单粒子轨道角动量重排假说。测定弱带激发态绝对寿命是判定其实际物理本质的必要判据。 | quantitative-audit-and-criterion | derived-and-source-boundary | EPJA 56, 208 pp.2-9; Table 1, Figs.1,6-7; nd-chiral-evolution-result-042.json | true |

@@ -123,3 +123,14 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 
 - The alternate reprint has the same PRL title, authors, DOI, five-page structure and reported values as the canonical source. It confirms the two candidate pairs (Bands 2–3 and 5–6), the `4.1×10^9` event total, the DCO/angular-distribution assignments, RMF/TPRM parameters and the absence of direct lifetimes.
 - It is an exact same-paper version audit, not an independent experiment; the existing human-review record remains limited to the prior page-level scope, while this alternate-version check is Codex self-audit.
+
+## Day19量化审计：MchiD模型依赖、Coriolis衰减与寿命缺失证据边界
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_signature_splitting_coriolis_audit.py` 的 11 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/signature-splitting-coriolis-result-039.json`，系统核准了 Ayangeakaa 2013（PRL 110, 172504）关于 $^{133}\text{Ce}$ 多重手征双重带（M$\chi$D）的模型依赖与证据边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D19-1 | Ayangeakaa 2013 在 $^{133}\text{Ce}$ 报告的两对候选手征双重带呈现显著的组态与动力学分化：正宇称对（Bands 2-3，能级差 $\Delta E \sim 100\text{ keV}$）在 TPRM 中必须人为引入科里奥利衰减因子 $\xi = 0.7$，以压制低-$j$ $g_{7/2}$ 轨道的混合；而负宇称对（Bands 5-6，能级差 $\Delta E \approx 400\text{ keV}$，达正宇称对的 4 倍）在全耦合（$\xi = 1.0$）下被解释为手征振动模式（0-声子与 1-声子）。定量审计表明，由于实验未测定两对带的激发态寿命，仅凭相对 $\gamma$ 射线强度推导的 $B(M1)/B(E2)$ 比值无法解耦三轴形变 $\gamma$ 与现象学衰减 $\xi$ 的连续简并山谷（在 $\gamma = 17.5^\circ$ 处对应 $\xi \approx 0.53\text{--}0.70$）；缺少绝对 $B(E2)$ 跃迁几率使 $400\text{ keV}$ 的大能隙振动态无法严格排除非手征单粒子激发机制。实验寿命测量是闭合 M$\chi$D 证据链不可替代的核心判据。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRL 110, 172504 pp.3-5; Figs.2-3; signature-splitting-coriolis-result-039.json | true |

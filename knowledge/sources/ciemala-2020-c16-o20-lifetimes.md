@@ -127,3 +127,14 @@ P0：原始归档未填充边界已隔离。P1：CI20-3/5/6/7/8及ZA23差异、c
 ## Extracted Pages
 
 七页主线；pp.3–5重建/结果/Fig.3，pp.5–6模型。Fig.3视觉审核，不数字化χ²颜色当原始拟合数据。
+
+## Day19量化审计：20O第二2+态飞秒寿命张力、馈入延迟与反应机制解耦
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_o20_ciemala_zanon_reconciliation_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/o20-ciemala-zanon-reconciliation-result-056.json`，核准了 $^{20}\text{O}(2_2^+)$ 态飞秒寿命测量张力与反应机制边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CI20-D19-1 | 对 $^{20}\text{O}(2_2^+)$ 态飞秒寿命在 Ciemała 2020（$\tau_{\text{tot}} = 150^{+80}_{-30}\text{ fs}$，深非弹性反应）与 Zanon 2023（$\tau_{\text{tot}} = 70 \pm 10\text{ fs}$，直接转移反应）间的 $2.143\times$ 张力（$z = 2.53\sigma$）进行系统学对账：(1) 机制解耦：深非弹性反应伴随宽连续态布居，其未分辨连续级联时延系统性后移了多普勒线形并高估了提取寿命；(2) 关键馈入态：Zanon 2023 发现并隔离了来自 $3_1^+$ 态（$5228\text{ keV}, \tau = 54(9)\text{ fs}$）的 $1156\text{ keV}$ 跨带馈入（分支比 $28(1)\%$），若未予扣除将引入约 $15.12\text{ fs}$ 的表观时延；(3) 反应选择律：直接二体转移反应配合轻带电粒子角与能量测量能够构建严格的激发能 $E_x$ 门，彻底切除门控以上连续态馈入，确立了亚 100 fs 超快时间响应测量的首选反应路线。 | task-lifetime-tension-and-reaction-audit | derived-and-boundary | PDF pp.3-5; zanon-2023-o20-high-precision.md; o20-ciemala-zanon-reconciliation-result-056.json | true |

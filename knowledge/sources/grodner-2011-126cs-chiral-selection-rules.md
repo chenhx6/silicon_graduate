@@ -158,3 +158,14 @@ The DSA dataset is a different reaction and detector array from Wang05/Wang06, b
 
 
 [新有源程序](../../system/scripts/day18_source_boundary_controls.py)保留上限语义；64项检查包括逐行parser检查，不代表64项独立科学证据。[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/source-boundary-controls-result-047.json)不覆盖旧034产物。
+
+## Day19量化审计：126Cs绝对跃迁几率、B(M1)交错振幅与CPHC形变过估审计
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_cs126_chiral_staggering_audit.py` 的 11 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/cs126-chiral-staggering-result-043.json`，系统核准了 Grodner 2011（PLB 703, 46）在 $^{126}\text{Cs}$ 测得的激发态寿命与绝对电磁跃迁强度：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GR126-D19-1 | Grodner 2011 在华沙重离子实验室通过 $^{120}\text{Sn}(^{10}\text{B}, 4n)^{126}\text{Cs}$ 反应测定了 13 个激发态寿命与 26 项绝对跃迁几率：在 $14^+ \le I \le 17^+$ 范围内，双带寿命比值在 $1.04\text{--}1.42$ 之间（平均比值 $1.17$），带内 $B(E2)$ 维持在 $13\text{--}60\text{ W.u.}$ 之间，具有中等形变手征对称性；带内 $B(M1)$ 呈现极强奇偶交错：yrast 带在 $15^+$ 态跃升至 $0.26\text{ W.u.}$，比 $14^+$ 态增强 $3.25$ 倍，比 $16^+$ 上限（$\le 0.02\text{ W.u.}$）增强超 $13.0$ 倍，导致 Weisskopf 比值 $R_{\text{WU}}$ 呈现高达 $17.2$ 倍的振荡；实验首次证实带间 $B(M1)_{\text{out}}$ 与带内 $B(M1)_{\text{in}}$ 在自旋上呈严格的反相交错，完全符合 Koike-Hamamoto $\mathcal{A}$ 量子数选择定则。理论 CPHC 计算将绝对跃迁率系统高估约 3 倍，表明真实形变参数（$\beta_2 \approx 0.20$）明显小于模型预设的 $\beta_2 = 0.30$。 | quantitative-benchmark-and-criterion | direct-and-derived | PLB 703, 46 pp.46-50; Tables 1-2, Fig.3; cs126-chiral-staggering-result-043.json | true |

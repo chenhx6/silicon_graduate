@@ -123,3 +123,14 @@ P0：未识别未隔离identity/permission风险；raw未归档边界明确。P1
 ## Extracted Pages
 
 preprintpp.3–14concept/detectors/scans，pp.15–28infrastructure/DAQ/ancillary主线，pp.29–36PSA/tracking/figures，pp.37–38replay/summary；关键Fig39/40与thresholdparagraph视觉复核。
+
+## Day19量化审计：PSA位置解卷积、Doppler线宽压制与P/T跟踪增强定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_agata_doppler_tracking_response_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/agata-doppler-tracking-response-result-064.json`，核准了 AGATA 探测器响应、PSA 空间定位与 $\gamma$ 径迹重建的物理判据事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AK12-D19-1 | 对 AGATA 探测器响应、PSA 空间定位与 $\gamma$ 径迹重建进行严格量化审计：(1) 多普勒展宽解卷积：基于分段脉冲波形分析（PSA）实现的 $\Delta x \approx 4.5\text{ mm}$ 空间定位精度（在内半径 $R = 23.5\text{ cm}$ 处对应角度误差仅 $1.1^\circ$），将 $^{52}\text{Cr}$（$1434\text{ keV}, \beta = 0.0548$）多普勒展宽由非分段探头的 $26.85\text{ keV}$ 大幅压缩至 $4.55\text{ keV}$（锐化比达 $5.897\times$），使动态反冲下的能量分辨率逼近 HPGe 本征极限（$2.30\text{ keV}$）；(2) 峰总比 $P/T$ 与全能峰保留：在 $^{60}\text{Co}$ 放射源基准测试中，跟踪重建算法将峰总比从原始 $16.8\%$ 大幅提升至 $54.6\%$（$3.25\times$ 增强），同时保留了 $84.5\%$ 的全能峰计数，成功在数学上滤除了近 $80\%$ 的康普顿散射本底；(3) 相对论约定残差：解析核对多普勒公式展开，证实线性近似与狭义相对论逆变换混用将产生 $\Delta E \approx \frac{1}{2}\beta^2 E_0 = +2.155\text{ keV}$ 的质心伪位移，确立了超快多普勒反演必须严格闭合相对论运动学变换的算法规程。 | task-tracking-doppler-audit | derived-and-boundary | preprint PDF pp.29-36 Secs.10-11 Figs.39-40 Table 4; agata-doppler-tracking-response-result-064.json | true |

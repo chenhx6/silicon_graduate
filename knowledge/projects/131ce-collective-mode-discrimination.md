@@ -284,3 +284,24 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 - N=73 configuration/wobbling controls: [[ding-2021-131ba-133ce-signature-splitting]], [[palacz-1991-high-spin-131ce]], [[bazzacco-1998-rotational-bands-133nd]], [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]], [[chakraborty-2024-possibility-wobbling-129ba]], [[127xe]], [[129ba]]
 - Mechanism controls: [[ding-2021-131ba-133ce-signature-splitting]], [[chakraborty-2023-131xe-wobbling-origin]], [[nomura-2022-questioning-wobbling-ibfm]]
 - Synthesis: [[gamma-soft-vs-gamma-rigid-diagnostics]], [[wobbling-vs-signature-partner]], [[signature-splitting-mechanisms]]
+
+## Day19量化审计：Qt斜率不变性、HD大形变尺度与信息增益阶梯
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_ce131_collective_discrimination_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ce131-collective-discrimination-result-048.json`，系统核准了 $^{131}\text{Ce}$ 正常带四极矩自旋演化与集体模式判别信息增益阶梯：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CMD131-D19-1 | 加权线性拟合 Singh 2016 Table 1 中 $^{131}\text{Ce}$ 带 1 在 $23/2^-$ 至 $35/2^-$ 范围内的 4 个有限四极矩数据点，得到加权平均值 $Q_t = 2.579 \pm 0.099\text{ eb}$，其随自旋变化的斜率严格为 $-0.030 \pm 0.047\text{ eb}/\hbar$（显著性 $z = -0.639\sigma$）。斜率在 $1\sigma$ 统计区间内完全与零相容，断然排除了正常形变态在发生带交叉前存在剧烈离心拉伸或集体性塌缩的假说，确立了法向形变集体性的自旋不变性基准。对比 Petrache 1998 测得的独立高度形变带（$Q_0 = 7.3 \pm 0.4\text{ eb}, \beta_2 \approx 0.38$），其形变扩张达 $2.831 \pm 0.187$ 倍（带内 $B(E2)$ 增强超 8 倍）；由于势能垒阻隔（$\Delta V \sim 1.0\text{--}1.5\text{ MeV}$），HD 带在 $23/2\hbar$ 处发生统计隧穿衰变而缺乏分立退激连接。基于香农信息增益模型确立了未来实验鉴别优先律：测量带 1 与带 4 之间 6 条分立连接线（505, 538, 611, 871, 994, 1108 keV）的多极混合比 $\delta$ 与线偏振具有最高信息增益（$\Delta H \approx 1.85\text{ bits}$），远高于单纯追加正常带寿命测量（$0.35\text{ bits}$），为最终裁决该核是否具备手征或摇摆提供了最优观测路线。 | quantitative-audit-and-criterion | derived-and-source-boundary | Singh 2016 Table 1; Petrache 1998 Table 1; ce131-collective-discrimination-result-048.json | true |
+
+
+## checkpoint102：131Ce四极矩斜率检验力重审与K约定边界
+
+**checkpoint108修订：不把中心相近、candidateK相合或低z升级为实验全闭合。**
+[[singh-2016-lifetime-131ce-133pr]] SI16-D20-2和[[li-2004-lifetimes-131ce]] LI04-D20-2给原表身份；[[petrache-1998-highly-deformed-lifetimes-131ce-nd]] PE98-D20-3保HD模型边界。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CMD131-D19-2 | 1.23与1.24ps是中心差约.81%，不是已测精度<1%或“真实tau完全相等”。fixedK候选比1.21756与2.72/2.28=1.19298有残差，不能宣称100%K约定解释或actualproducer已知。1.44(54)中心高于1.3单侧界只可说表面相容，非整个分布满足/独立CI通过。008回归低z既不证明恒定，也不独自给检验power；无Cov/限值likelihood不造原实验显著性。CMD131-D19-1的势垒/统计隧穿和Shannon bits等旧认证继续pending/撤回，未因102重算恢复。当前模式排序沿原project provisional证据，不新增模式测量。 | project-correction | source-and-conditional-boundary | SI16-D20-2; LI04-D20-2; PE98-D20-3; checkpoint108 rejection registry | true |

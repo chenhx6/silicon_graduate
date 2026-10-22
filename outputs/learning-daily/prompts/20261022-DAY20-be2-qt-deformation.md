@@ -2,43 +2,29 @@
 type: system-prompt
 graph-excluded: true
 created: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-22
 ---
 
-# Day20正式独立课程准备：B(E2)、Q_t 与形变系统学
+# Day20准备入口：B(E2)、Qt与形变系统学
 
-本文件只是准备入口，不启动session/调度、不授学分。预计2026-10-22 16:00上海由既有Docker-local wiki-daily-learning runner新开独立session；研究硬截止预期2026-10-23 15:00上海、15–16收束，实际identity/deadline只认runner新原始receipt。不得自行创建daemon/GUI Scheduled或凭准备文本创造executionmetadata。
+这是准备文本，不开session/调度、不授学分；启动identity/deadline只认既有runner的新原始receipt。先核Day19是否真正完成并通过逐卡门；尚未完成不得越过19。
 
-先按rootAGENTS读取startup、profile/activehandoff/PLAN、continuous-learning/autonomous与三份课程计划、最近日报；跑boundary，冻结dirtybaseline与带本sessiontime/session/hash的primed主动回忆，再开source/raw。按matrix唯一Day20卡执行；本session只授正式20，任何Day19知识preview/旧scripts不能兑换本session独立交付。保留旧review/needs_review，不设human-reviewed；保护raw/PLAN/Bib/继承dirty/credentials。
+按AGENTS与课程matrix启动，source前冻结primed回忆。主线为transition-quadrupole-moment、Petrache1998和Singh2016原件；交付加权趋势、反证与lifetime/strength/deformation证据图。保原review/flags、raw/PLAN/Bib与继承dirty。
 
-主线：transition-quadrupole-moment、petrache-1998-highly-deformed-lifetimes-131ce-nd、singh-2016-lifetime-131ce-133pr；原件fullmainline/关键fig/table/equation/levelscheme/uncertainty和actualreadscope如实核。交付lifetime/strength/deformation证据图与模型依赖分析，区分测量寿命、转子矩阵元、K量子数投影、分支比与微观形变参数（beta2, gamma）的转换链条；至少一项本session新quant/design exercise、counterinput/companion/同data边界，缺input写readiness不造fitCI。
+Day19 checkpoint008纠错优先：旧截短CG、K=5/2完全闭合、零Qs唯一γ30指纹、低z证伪下降、15%误差覆盖原趋势与feeding方向均已撤回。旧打印式脚本/JSON不作科学验证。正确CG/原表与条件反例见day19_evidence_repair_audit.py；仍不识别作者真实K/producer或给实验CI。现代fast-timing/TDPAD旧hash不等本session完整原读。
 
-Day19原run/session已完成RDDS、fast timing与时间响应全景分析：rdds-timing-response-result.json涵盖常规与逆运动学3.19倍空间拉伸、真空退取向两分量条件平均G_SH/G_US渐近极限（0.555 vs 0.180）、快速定时MSCD能量走时对消及DSAM vs RDDS系统误差交叉分水岭（tau_cross = 0.65–0.74 ps）。Day20将承接该寿命基础，深入探究从寿命tau到B(E2)与Qt的转子几何转换，以及从Qt到微观形变的内禀模型依赖。
+只正式计本日完整卡；若时间允许最多恰好下一卡无学分preview，不开Day+2。原run次日15点研究停止，15–16收束；report十标题/唯一writeback/精确atomiclocator、实际sessionreceipt、卡审计、requiredchecks与H3全过后才推进。中途不发布，原deadline不能因checkpoint缩短。最终time gate只认本次实际runner snapshot，不从此准备文本伪造。
 
-本日输出按runner实际report/run-dir/statefile；日报有固定Runstate等十标题、唯一knowledge-writeback（exactanchor/每atomiclocator一reference）和>=4complete行的Day20cardaudit，formalcompleted[20]；若时间门允许只下一卡无学分preview，不跨更多课卡、不提早终止有用窗口。研究15点停止新路，收束完成report/canonicalknowledge/checks/continuation/nextprompt/actualsessionreceipt/发布后才推进一次学分。普通发布沿Gitee origin精确manifest/H3/fetch/ancestry/dry-run/nonforce HEAD:main；实际hash只receipt，不写本commit自身hash。科学partial不阻普通安全发布，failedrequiredcheck或未隔离hardP0则留本地如实。
+checkpoint088优先：079–087科学认证已撤回，019–078待逐claim重审，见Day19的rejected-analysis-registry-088.json及canonical source更正。Nolan Table7是RDM/DSAM；Table5 adopted480fs与Lees710fs不可混；Radeck beta=.0450和真实六环，K16共13态。136Pr N=77终止、128I唯一spin/parent窗界、4ps或15fs普适硬阈值均不延续。25项response控制仅为明示数学设计，不认证原实验CI。仅凭lint/writeback valid不得写“全部科学闭环”。
 
-<!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
-## Curriculum card completion record
-In the report's Run state include exactly these two machine-readable list lines:
-- completed_day_indices: [N, ...]
-- partial_day_indices: [N, ...]
-Count a card only after every deliverable on that Day card is complete. For every completed day, add `- Day N card audit: complete` under Run state and a `### Day N card completion audit` table with at least four Day-matrix deliverables, each linked to an evidence locator/artifact and marked complete. Partial previews go only in partial_day_indices. List cards contiguously from the requested day; at most one next-day card may be advanced in one run.
+checkpoint089补充：Suzuki Eq1实际gated I_su/dI_ss，不能泛换成慢分量log slope；103Rh/104Rh两速度/tau身份分开，3.5mg/cm²不是旧自设2um。小Qt比稳定性只在声明的half-chart内，原有限停止/共同Cov未消除。沿原run source/receipt核验，勿把46项数学控制写成原实验精度认证。
 
-<!-- DAILY_LEARNING_TIME_GATE_V1 -->
-## 时间判断与学习收束
-候选问题或来源达到局部证据饱和时，先读取最新 Runtime schedule snapshot；手动恢复且没有新快照时，调用当前时间工具，并按 Asia/Shanghai 与回执中的 overnight_until 比较。
-距离硬截止至少 120 分钟：继续当前高信息问题；若当前选定问题已饱和，检查下一张未完成日卡，只有其全部交付项能在剩余时段完成时才整卡前移。
-距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，用 15:00–16:00 收束。
-不能仅因两个候选槽位饱和而提前结束；须重建候选池、检查下一张可行日卡，并记录时间快照和决定。用户明确停止、硬证据/数据/权限阻塞或运行故障可提前结束，但必须保留未完成状态和续接命令。
-每次调用生成的新 Runtime snapshot 优先于本文件中的旧快照。课程学分只沿连续完整日卡推进；部分预览不得推进 next_day_index。
+checkpoint090补充：Qt平方根缩放与双比值不变只在所有相关态同一total-trajectory重标、固定branch/geometry及相应Cov合同下成立。电子-only变化可有state-dependent响应；共同reference/速度/距离标度的off-diagonal不能以点数平均掉。旧066停止校准/结构免疫认证撤回，58项数学控制不认证actual实验精度。
 
-<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_START -->
-## Runtime schedule snapshot
-- now_local: 2026-10-21T18:25:00+08:00
-- hard_deadline: 2026-10-23T15:00:00+08:00
-- next_scheduled_start: 2026-10-22T16:00:00+08:00
-- minutes_to_deadline: 2675
-- minutes_to_next_start: 1295
-- closeout_decision: continue-or-advance
-- Next card candidate: Day 20 (B(E2)-Qt与形变系统学).
-<!-- DAILY_LEARNING_RUNTIME_SNAPSHOT_END -->
+checkpoint091补充：本Day19实际Radeck全文十页+全部关键图表式scope见source-reading-scope-091.json。TableIII的IBM首B按实验输入归一，高spinB为旧Ref8；新tau使用ring/branch角色不能混。body/table打印B误差差异保literal，原Cov/producer未得，不由全文阅读反造完整fit或新实验。
+
+checkpoint108优先：095–107全部科学认证与过强推论（包括100%全闭合、普适15%手征或20 W.u.摇摆硬阈值、完全无共同系统误差断言）均已正式撤回，26个分析与更新脚本已退役并加SystemExit守卫。Nolan与Régis的全部全文阅读范围（source-reading-scope-092/093/094）保留，严格区分已读文字与未得原数据。
+
+checkpoint109–111补充：快速定时MSCD与方差估计在未知prompt尾部下存在完整时间谱退化（day19_prompt_tail_identifiability109.py）；有限calibrator自身具有方差传递（day19_prompt_calibration_design111.py），等计数规划需视目标寿命与prompt宽度而定，负Q保留不截断；TDPAD实际原读（Ionescu-Bujor 1998全部20页正文与Grodner 2018全部5页正文，source-reading-scope-108/110）确立129Ce未分辨feeding与模型参数（PTR/CDFT）依赖，不冒称为直接电磁矩图像。
+
+checkpoint112–114补充：2015公开GCD原稿scope112保持，raw归档deferred。114修订113：归一化权重相等保证任意pair平移相消；给定平移仅需权重差与平移内积为0，原始权重可成比例。匹配双role的prompt响应可同步抵消alignment影响；113 MC只检Gaussian噪声，未抽样指数等待，勿称完整方差验证。原events/权重/Cov未得，不重造实验CI。以canonical checkpoint114及新result114为准。

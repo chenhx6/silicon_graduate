@@ -124,3 +124,14 @@ Near-degenerate parity bands, E1 enhancement or a nonzero mean-field β3 can als
 ## L3/L4 Follow-up
 
 - L3 question: using direct E3/Q3, E1/energy-displacement and parity-band evidence, where does the review's static/soft/vibrational classification change across Rn/Ra/Th/U, `144Ba` and A≈130 candidates? No L4 run: review has no new machine-readable data.
+
+## Day19量化审计：微观八极配对条件、交替宇称位移塌缩与D0相消机制
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_bn96_octupole_microscopic_couplings_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/bn96-octupole-microscopic-result-060.json`，核准了 Butler & Nazarewicz 1996 综述的微观八极动力学与电磁多极判据事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BN96-D19-1 | 对 Butler & Nazarewicz 1996（Rev. Mod. Phys. 68, 349）综述的核心物理机制进行定量审计：(1) 微观配对条件：$\Delta l = \Delta j = 3$ 轨道对严格主导了核内八极关联，系统划定了 $A\approx 70$（$Z, N \approx 34$，$p_{3/2} \leftrightarrow g_{9/2}$）、$A\approx 144$（$Z \approx 56, N \approx 88$，$d_{5/2} \leftrightarrow h_{11/2}, f_{7/2} \leftrightarrow i_{13/2}$）与 $A\approx 224$（$Z \approx 88, N \approx 134$，$f_{7/2} \leftrightarrow i_{13/2}, g_{9/2} \leftrightarrow j_{15/2}$）三大八极形变岛；(2) 交替宇称能级位移塌缩：在 $^{224}\text{Ra}$ 中，宇称位移函数 $\delta E(I) = E(I^-) - 0.5[E((I-1)^+) + E((I+1)^+)]$ 从 $I=1^-$ 的 $173.8\text{ keV}$ 急剧塌缩 $87.9\%$ 至 $I=7^-$ 的 $21.0\text{ keV}$，实证了静态反射不对称（单重单单纯形 $s=+1$ 带）的几何刚性；(3) 偶极矩相消定理：宏观液滴模型预言 $^{224}\text{Ra}$ 的 $D_0^{\text{macro}} = 0.202\text{ e}\text{fm}$，而实测 $|D_0| \approx 0.030\text{ e}\text{fm}$，证明微观单粒子壳修正抵消了 $85.1\%$ 的宏观偶极矩；确立了 $E1$ 跃迁不可作为八极形变充要判据的物理边界。 | task-bn96-review-audit | derived-and-boundary | PDF pp.349-421 Secs.II.B III.A IV.C; bn96-octupole-microscopic-result-060.json | true |

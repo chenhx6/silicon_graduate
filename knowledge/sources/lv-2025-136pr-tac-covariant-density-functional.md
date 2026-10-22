@@ -147,7 +147,7 @@ Decision: revises. 136Pr 从“后续投影覆盖待查”更新为“已有 202
 ## Extracted Pages
 
 - Nuclei: [[136pr]]
-- Models: [[tilted-axis-cranking]], [[covariant-density-functional-theory]], [[cranked-shell-model]]
+- Models: [[tilted-axis-cranking]], [[covariant-density-functional-theory]], [[cranked-shell-model]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]
 - Projects: [[a130-model-choice-card]]
 
 
@@ -206,3 +206,19 @@ LV25-33将PDF12的alternative段与PDF15的TableII/Fig16分开。Fig11的ConfigD
 ### D4有序能量练习
 
 LV25-34/35回到实际TableI/Fig1，支撑[[level-scheme-reconstruction]]“136Pr：动力学惯量需要有序路径”与[[moments-of-inertia]]的71-check练习。这里的相邻/跨两条/偶奇crossover曲率是本任务明确stencil与位置的派生值，不是作者新增J2数据；四个M空和I23tentative保持。Closure的非零小残差未强制修平，共同Σ缺失；声明筛选敏感性不等于重算Nd51/23或给Pr定γ/轴。原claims/review保留。
+
+## Day19量化审计：136Pr微观组态形变谱、三轴形状共存与N=77手征终止分水岭
+
+**checkpoint088：撤回旧科学认证；原标题保留为历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LV25-D19-1 | checkpoint086撤回形状共存/手征终止认证：TableII十行beta/gamma是不同组态的TAC-CDFT输出，均值差18.3度不是实测形状劈裂或共存观测。PDF13 SecIII.C说未观察到chiral/wobbling/oblate rotation，D4/D6的possible MR与oblate-prolate coexistence是替代场景。不能推136Pr绝不手征或N=77严格终止。未找到D5对应TAC构型不证明无任何变形极小或唯一球形结构。Q1+4hbar归作者的连接/拉伸指派，positive parity仍未由POL确定；同采集谱系和ConfigD6版本差异仍保留。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |
+
+## checkpoint088：未观察到与排除不可能分开
+
+本轮定向重读接受稿PDF13 SecIII.B/C、PDF15 TableII与summary的文本；本轮未新视觉核全套TAC图，不声称独立计算。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LV25-D19-2 | 原文did not observe chiral rotation/wobbling/oblate rotation，是本研究结果范围；possible magnetic rotation或oblate-prolate coexistence是D4/D6的两替代解释。TableII beta/gamma是模型参数，不能用平均gamma差认证共存观测或发明N=77手征终止线。D5壳模型的多state对应亦非唯一；保持Q1宇称、D6版本、缺τ/δ/E2及同acquisition边界。 | author-wording-and-model-boundary | direct-original-and-boundary | accepted PDF13 SecIII.B/C; PDF15 TableII/Summary | true |

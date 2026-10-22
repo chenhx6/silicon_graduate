@@ -1,0 +1,4 @@
+[
+  "| R12-D19-14 | 式 (9) 印刷指数为 $(-d - d_0)/(v\\tau) = -(d + d_0)/(v\\tau)$；$d_0 = 8(1)\\text{ \\mu m}$ 对应电接触时的残余间隙。在最短相对距离 $d = 3\\text{ \\mu m}$ 下，真实物理飞行距离为 $d_{\\text{phys}} = 11\\text{ \\mu m}$，飞行衰变几率为 $9.29\\%$，与 Fig. 3 观察到的 $\\sim 9\\%$ 频移峰强度严格物理相符；若按式 (5) 字面字样做 $d - d_0 = 3 - 8 = -5\\text{ \\mu m}$ 减法，则给出无物理意义的负衰变几率（$-4.53\\%$）。保两式字面边界，不擅改 raw。 | coordinate-bridge-contract | direct-original-and-derived | PDF7 Eq9；PDF6 Eq5；PDF3 Fig3 | true |",
+  "| R12-D19-15 | 逆运动学高速反冲（$v = 13.49\\text{ \\mu m/ps}, \\beta = 4.5\\%$）对接触零点误差具有线性动态压缩效应：$\\Delta\\tau = \\Delta d_0 / v$。$\\Delta d_0 = 1.0\\text{ \\mu m}$ 仅带来 $\\Delta\\tau = 0.074\\text{ ps}$（占 $\\tau = 8.36\\text{ ps}$ 的 $0.89\\%$）；相比常规低速运动学（$\\beta = 1.6\\%, v = 4.796\\text{ \\mu m/ps}$）的 $\\Delta\\tau = 0.209\\text{ ps}$，逆运动学将机械零点系统不确定度压缩了 $2.81$ 倍。 | kinematic-compression-contract | task-derived-and-boundary | PDF7 SecV；PDF2 SecII；radeck-coordinate-bridge-result-025.json | true |"
+]

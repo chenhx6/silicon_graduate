@@ -15,21 +15,20 @@
   "continuation_count": 5,
   "continuation_batch_count": 5,
   "continuation_batches": 1,
-  "counted_in_substantive_test": true,
+  "counted_in_substantive_test": false,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "completed",
+  "status": "running",
   "started_at": "2026-10-21T17:29:52.067160+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
-  "completed_day_indices": [
-    19
-  ],
+  "completed_day_indices": [],
   "partial_day_indices": [
+    19,
     20
   ],
-  "curriculum_cards_completed": 1,
+  "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-22T16:00:00+08:00",
   "last_closeout_snapshot": {
     "now_local": "2026-10-21T18:41:08.706869+08:00",
@@ -153,17 +152,13 @@
   ],
   "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
   "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-005-prompt.md",
-  "closeout_turn": 6,
+  "closeout_turn": true,
   "closeout_window_missed": false,
-  "formal_credit": true,
-  "next_day_index": 20,
-  "deliverables_passed": true,
+  "formal_credit": false,
+  "next_day_index": 19,
+  "deliverables_passed": false,
   "study_window_closed": true,
-  "closeout_on_time": true,
-  "closeout_reason": "schedule-level evidence saturation: Day 19 complete, Day 20 pre-study fully saturated, Day+2 not opened per curriculum rules",
-  "finished_at": "2026-10-21T18:47:28.036565+08:00",
-  "research_stopped_at": "2026-10-21T18:47:28.036565+08:00",
-  "last_checkpoint": "007 Day 19 closeout on schedule-level evidence saturation",
+  "last_checkpoint": "114 normalized-weight and MC correction; unsafe auto-credit executor retired",
   "latest_publication": {
     "branch": "main",
     "subject": "Close Day 19 on schedule-level evidence saturation with verified Day 20 pre-study",
@@ -171,11 +166,51 @@
     "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-007.json",
     "status": "pushed"
   },
-  "final_release": {
-    "branch": "main",
-    "subject": "Close Day 19 on schedule-level evidence saturation with verified Day 20 pre-study",
-    "commit": "928fcae3dc6435ca7e17e5ffdd70d99f2ee23700",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-007.json",
-    "status": "pushed"
-  }
+  "research_status": "research stopped at original deadline; closeout-only",
+  "superseded_closeout_metadata": {
+    "finished_at": "2026-10-21T18:47:28.036565+08:00",
+    "research_stopped_at": "2026-10-21T18:47:28.036565+08:00",
+    "closeout_on_time": true,
+    "closeout_reason": "schedule-level evidence saturation: Day 19 complete, Day 20 pre-study fully saturated, Day+2 not opened per curriculum rules",
+    "final_release": {
+      "branch": "main",
+      "subject": "Close Day 19 on schedule-level evidence saturation with verified Day 20 pre-study",
+      "commit": "928fcae3dc6435ca7e17e5ffdd70d99f2ee23700",
+      "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-007.json",
+      "status": "pushed"
+    }
+  },
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "correction_008": {
+    "observed_at": "2026-10-21T19:03:48.940647+08:00",
+    "previous_closeout_retracted": true,
+    "credit_pending_reaudit": true,
+    "original_deadline_preserved": true,
+    "not_a_new_session": true,
+    "previous_run_copy": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/precorrection-run-observed-008.json"
+  },
+  "native_goal_active": true,
+  "last_research_time_observation": "2026-10-22T15:03:01.574385+08:00",
+  "latest_scientific_rejection_registry": "rejected-analysis-registry-108.json",
+  "last_observed_schedule_snapshot": {
+    "run_id": "2026-10-21-day-19-01",
+    "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+    "now_local": "2026-10-22T15:03:01.574385+08:00",
+    "hard_deadline": "2026-10-22T15:00:00+08:00",
+    "closeout_decision": "closeout-only",
+    "study_window_closed": true,
+    "new_sources_allowed": false,
+    "formal_credit": false
+  },
+  "checkpoint_continuation": "Continue source/response audit in the same session; prioritize remaining 019–078 derived claims, no new course beyond existing Day20 partial; stop research at original deadline."
 }

@@ -81,15 +81,35 @@ The high-spin alignment and sudden E1 reduction had motivated quenched-octupole,
 
 ## Knowledge Impact and Learning Decision
 
-- Effect: `supports` and `revises` [[octupole-deformation]], [[octupole-correlation]], [[octupole-and-rare-electromagnetic-decay]] and the `144Ba` direct-E3 evidence map.
+- Effect: `supports` and `revises` [[octupole-deformation]], [[octupole-correlation]], [[octupole-and-rare-electromagnetic-decay]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]] and the `144Ba` direct-E3 evidence map.
 - External increment: direct neighboring-isotope E3 evidence separates octupole strength from E1 dipole-moment size.
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Extracted Pages
 
-- Nuclei/concepts: `146Ba`, [[octupole-deformation]], [[octupole-correlation]], [[octupole-and-rare-electromagnetic-decay]]。
+- Nuclei/concepts: `146Ba`, [[octupole-deformation]], [[octupole-correlation]], [[octupole-and-rare-electromagnetic-decay]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]。
 
 ## Sources
 
 - [[bucher-2016-144ba-direct-octupole]]
-- [[octupole-deformation]], [[octupole-correlation]], [[octupole-and-rare-electromagnetic-decay]]
+- [[octupole-deformation]], [[octupole-correlation]], [[octupole-and-rare-electromagnetic-decay]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]
+
+## Day19量化审计：146Ba八极集体性保持与E1偶极矩相消破缺机制
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_ba144_ba146_octupole_e1_audit.py` 的 9 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ba144-ba146-octupole-e1-result-046.json`，系统核准了 Bucher 2017（PRL 118, 152504）关于 $^{146}\text{Ba}$ 直接八极矩阵元测量与电偶极矩相消的量化机制：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU17-D19-1 | Bucher 2017 测得 $^{146}\text{Ba}$ 的基态八极矩阵元 $\langle 3^- \Vert \mathcal{M}(E3) \Vert 0^+ \rangle = 0.65_{-0.20}^{+0.14}\ e\text{b}^{3/2}$，对应跃迁几率 $B(E3) = 48_{-29}^{+21}\text{ W.u.}$ 及内禀八极矩 $Q_3 = (1.75_{-0.54}^{+0.38}) \times 10^3\ e\text{fm}^3$，与同中子偶核 $^{144}\text{Ba}$ 完全等同（比值严格为 $1.000$）。与此形成鲜明对比的是，其实测内禀电偶极矩 $|D_0| \le 0.030\ e\cdot\text{fm}$（较 $^{144}\text{Ba}$ 的 $0.130\ e\cdot\text{fm}$ 跌落超过 $4.33$ 倍，对应 $B(E1)$ 跌落超过 $18.8$ 倍）。基于 Gogny D1S 的对称性守恒组态混合（SCCM）计算揭示，宏观液滴电荷质心漂移所产生的电偶极矩 $D_0^{\text{macro}} \approx +0.22\ e\cdot\text{fm}$ 被增加的 2 个中子占据 $\nu i_{13/2}$ 侵入轨道所诱导的微观壳修正偶极矩（$D_0^{\text{shell}} \approx -0.21\ e\cdot\text{fm}$）发生了高达 $93\%$ 的相消干涉，导致表观电偶极矩趋近于零。该测量彻底推翻了以 $E1$ 跃迁强弱作为八极形变存在与否的传统指标，确立了直接 $E3$ 测量在八极物理中的最高证据层级。 | quantitative-benchmark-and-criterion | direct-and-derived | PRL 118, 152504 pp.1-5; Table I, Figs.3-5; ba144-ba146-octupole-e1-result-046.json | true |
+
+
+## Day19量化审计：宏观微观电偶极矩D0相消、八极形变非可逆定理与单纯形带崩塌
+
+**checkpoint088：撤回旧科学认证；原标题保留为历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU17-D19-2 | 撤回checkpoint079的科学认证：0.65与48只是两次报告的舍入中心，不能称严格相等；0.180和−0.146等分解没有本练习原件定位，不能当实测壳修正。小E1不能唯一判弱八极这一边界保留，直接E3强度也不能单独证明静态刚性梨形。旧数值脚本是自设算术，不是独立实验审计。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |

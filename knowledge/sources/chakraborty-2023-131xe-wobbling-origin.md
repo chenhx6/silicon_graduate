@@ -144,3 +144,14 @@ This source is page-level `human-reviewed`; `C23-1..C23-7` remain `needs_review:
 ## Personal Notes
 
 这篇文献非常适合做“反证模板”：它并不否定 `131Xe` 三轴性，而是把“存在三轴形变”和“观测到 wobbling”明确拆开。
+
+## Day19量化审计：131Xe纯M1连接线、摇摆零对照基准与软核色散机制
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_xe131_wobbling_null_control_audit.py` 的 9 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json`，系统核准了 Chakraborty 2023（PRC 107, 064318）关于 $^{131}\text{Xe}$ 摇摆模式零对照（Null Control）的量化事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| C23-D19-1 | Chakraborty 2023 重新分析 $^{130}\text{Te}(\alpha, 3n\gamma)^{131}\text{Xe}$ 数据，测定 yrare 侧带到 yrast 负宇称带的三条 $\Delta I = 1$ 连接跃迁（671、882、1055 keV）的多极混合比：$\delta = 0.03(3), 0.09(8), 0.00(2)$，其 $E2$ 份额分别仅为 $0.09\%, 0.80\%, 0.00\%$（磁偶极 $M1$ 份额全部超过 $99.2\%$），断然排除了摇摆激发所必须的集体增强 $E2$ 特征（$|\delta| > 1$），确立该带为不利旋称伙伴带（$\alpha = -1/2$）；同时测得 $17/2^-$ 态 $B(M1)/B(E2)$ 比值在有利带与不利带之间呈现 $2.0$ 倍的旋称交错（$2.54 \text{ vs } 1.27\ (\mu_N/e\text{b})^2$），与三轴粒子—转子模型（$\gamma = 33^\circ$）精确吻合。该测量构成了 A≈130 区域判定低自旋摇摆的黄金“零对照基准”：确立了三轴形变（$\gamma \sim 30^\circ$）仅为摇摆出现的必要条件而非充分条件；在偶偶核芯具有平坦 $\gamma$-软势能面（$^{130}\text{Xe}$ 的 $S(4,3,2) = -0.642 < 0$）的物理体系中，弱三轴转动无法提供谐振进动刚度，体系必然色散为常规的单粒子旋称伙伴带。 | quantitative-benchmark-and-criterion | direct-and-derived | PRC 107, 064318 pp.2-8; Table I, Figs.4-5,11; xe131-wobbling-null-control-result-047.json | true |

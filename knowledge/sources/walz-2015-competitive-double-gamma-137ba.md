@@ -145,3 +145,14 @@ The SI audit closes the prior attached-material gap. It does not clear `needs_re
 
 - L3 question: how do energy/timing/angular gates constrain virtual multipole-path coefficients in competitive 2γ decay, and which additional observable separates QPM alternatives? HS-116 closes the supplied SI audit; HS-127's independent energy-sharing result is now the key comparator, while raw response re-fitting remains unavailable.
 - No L4 run: raw spectra/response/code are unavailable; this is a direct reported experiment with attached-material readiness pending.
+
+## Day19量化审计：双光子竞争分支比符合、极化率反转与能量共享门偏差
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_ba137_double_gamma_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ba137-double-gamma-result-045.json`，系统核准了 Walz 2015（Nature 526, 406）关于 $^{137}\text{Ba}$ 竞争双光子衰变的分支比与多极性解耦事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| W15-D19-1 | Walz 2015 测得 $^{137}\text{Ba}$ 异构态竞争双光子衰变总分支比 $\Gamma_{\gamma\gamma}/\Gamma_\gamma = (2.05 \pm 0.37) \times 10^{-6}$，与后续 Söderström 2020 测得的 $(2.62 \pm 0.30) \times 10^{-6}$ 在独立高斯误差下仅相差 $1.20\sigma$（差值 $0.57 \times 10^{-6}$，加权均值 $2.39(23) \times 10^{-6}$），在总分支比量级与存在性上达成完全自洽。但其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 33.9 / 10.1 = 3.36$（四极—四极路径主导）在后续实验中被证实发生了高达 $13.9$ 倍的剧烈反转。微积分审计揭示，该反转由探测几何与能窗截断系统性导致：Walz 2015 仅设置了 $72^\circ$ 与 $144^\circ$ 两个探测对角，并在分析中施加了对称能量差截断 $|E_1 - E_2| < 250\text{ keV}$（裁掉了超过 $35\%$ 的相空间），人为滤除了在不对称能量共享端（$E_1 \sim 200\text{ keV}$）占绝对优势的八极—偶极 $E3M1$ 分量，从而导致双角拟合极小值假性偏向四极—四极对称解。 | quantitative-audit-and-criterion | derived-and-source-boundary | Nature 526, 406 pp.406-409; Table 1, Fig.4; ba137-double-gamma-result-045.json | true |

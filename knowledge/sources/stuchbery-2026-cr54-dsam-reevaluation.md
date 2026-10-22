@@ -111,3 +111,14 @@ P0 self-audit：SC26-5不迁停止百分数、SC26-7不混Ta与组合结果、SC
 ## Reproducibility and Evidence Gaps
 
 原PDF/arxivabs/src hash、Crossref metadata和源表合同位于本Day18 run；本地raw槽未填，protectedraw/Bib未写。真实重拟合还需OCR重建代码、旧listing/logbook、逐靶proton-gatedcentroids与calibration/接受/材料/Σ、SRIM实际版本表及NuShellX波函数/径向参数。当前只有已发表参数审计和公开原文，不生成实验τ/δ/Jπ/CI。
+
+## Day19量化审计：阻止本领非均匀标度定理与反冲速度时钟动力学
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_fe58_woodside_stopping_coulex_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/fe58-woodside-stopping-coulex-result-063.json`，核准了 Stuchbery 2026 提出的阻止本领重分析动力学事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| ST26-D19-1 | checkpoint090修订：不同态的停止模型修正可不同，但不是基本“时间反演对称性破缺”实验；轨迹形状改变与整体时间重标是不同数学假设。短/长态对电子分量的相对灵敏度依速度/核停止/散射/feeding及模型改变而定，不以旧few-state百分数认证普适排序。本任务未取得原logbook/实际transport producer，不从重分析输出反推唯一系统误差成因或新独立实验。 | task-stopping-nonuniformity-audit | derived-and-boundary | PDF pp.2-10 Tables I-V; fe58-woodside-stopping-coulex-result-063.json | true |

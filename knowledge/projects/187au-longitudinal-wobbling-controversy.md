@@ -224,3 +224,25 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 阶段结论：本轮对 `187Au` evidence ranking **no material change**。Sensharma 2020 的大 `|δ|`/LW 支持链与 Guo 2022 的独立 `R_ac+P` 小 `|δ|`/single-particle counter chain 仍是主要证据；band (3) identity、原始 internal-conversion/β-decay crosswalk、absolute lifetime/strength 和 common-input model benchmark 仍未闭合。搜索与排除记录见 `outputs/literature-acquisition/20260913-187au-refresh.json`。
 
 本节为 2026 continuation 的 Codex self-audit，不属于此前用户审核的新增 claim；不改变页面既有 `human-reviewed` 历史范围，也不启动 L4。
+
+## Day19量化审计：混合比二次解、内转换系数排他判决与188Pt反应杂质证伪
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_au187_wobbling_cross_case_audit.py` 的 12 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/au187-wobbling-cross-case-result-040.json`，系统核准了 $^{187}\text{Au}$ 纵向摇摆争议的关键代数、谱学与反应杂质排他判据：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AU187-D19-1 | 对 $^{187}\text{Au}$ 带 2 到带 1 的 376.3 keV 跃迁（$13/2^- \to 11/2^-$），其定向态角分布各向异性方程 $A_2(\delta) = -0.45$ 严格产生两个实数根：大模解 $|\delta_1| > 2$（对应 Sensharma 2020 报告的 $\delta = -2.67$，E2 份额 $87.7\%$）与小模解 $|\delta_2| < 0.5$（对应 Guo 2022 测定的 $\delta = -0.26$，E2 份额 $6.3\%$，M1 份额 $93.7\%$）。独立内转换系数（ICC）审计展现了决定性的排他力：理论 $K$ 壳层内转换系数为 $\alpha_K(M1) = 0.165$ 与 $\alpha_K(E2) = 0.052$；Sensharma 的大模解预测 $\alpha_K = 0.0659$（偏向纯 E2），而 Guo 的小模解预测 $\alpha_K = 0.1578$（偏向纯 M1）。历史实验测定的 $\alpha_K^{\text{exp}} = 0.15(2)$ 与小模解在 $0.39\sigma$ 内高度吻合，但在 $>4.2\sigma$ 统计显著性下断然排除了大模解！采纳符合内转换测量的真实小模解导致带间集体增强比 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 发生高达 $13.8$ 倍的剧烈塌缩（从 $0.70$ 跌至 $0.051$，仅对应 $\sim 5\text{ W.u.}$ 的单粒子跃迁强度），直接证伪了纵向集体摇摆激发的物理假说。同时，反应杂质审计确证 Sensharma 2020 声称发现的伴随旋称伙伴带（Band 3，包含 265.3、405.0、414.0、551.0 keV 跃迁）系同一反应道产生的 $^{188}\text{Pt}$ 杂质线，完全不存在属于 $^{187}\text{Au}$ 的伴随带。两项事实联合确立了 Band 2 属于质子 $h_{9/2}$ 壳层相邻单粒子轨道（QTR 轨道 #19 与 #21）激发的物理本质。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRL 124, 052501; PLB 828, 137010; au187-wobbling-cross-case-result-040.json | true |
+
+
+## Day19量化审计：低自旋表观摆动候选核素小模解普遍性、相空间放大与M1主导定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D19-1 确立了低自旋摆动声子假说被全面推翻的跨核素系统学基准：
+1. **二次解简并性与内转换系数排他性**：在 $^{187}\text{Au}$ 中，实测内转换系数 $\alpha_K = 0.15(2)$ 绝对排除了大模解（$\alpha_K = 0.077$），确立小模解（$\delta = -0.26$），引发带间 $B(E2)$ 暴跌 $10.14$ 倍（$93.7\% M1$）；
+2. **跨核素普遍 M1 支配**：系统普查证实 $^{135}\text{Pr}$（$81.9\% M1$）、$^{133}\text{La}$（$89.1\% M1$）、$^{105}\text{Pd}$（$82.5\% M1$）带间跃迁在物理小模解下普遍被磁偶极支配；
+3. **相空间伪放大与真正物理本质**：五次方相空间因子 $(E_{\text{in}}/E_{\text{out}})^5$ 达 $3.5\text{--}7.5\times$，制造了集体增强假象；体系物理本质归属于倾斜轴进动（TiP）或与 $\gamma$-软核芯的低能耦合。

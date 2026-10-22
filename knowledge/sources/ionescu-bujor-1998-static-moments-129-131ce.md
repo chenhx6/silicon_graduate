@@ -48,7 +48,7 @@ tags: [129Ce, 131Ce, TDPAD, static-moments, triaxiality, shape-evolution, odd-ma
 
 ## Paper Question and Scientific Motivation
 
-The paper measures static electromagnetic moments of low-lying `9−` isomers in neutron-deficient `129,131Ce`, then uses particle-plus-triaxial-rotor calculations to determine how the odd neutron polarizes the core and how shape changes across two neutrons.
+The paper measures static electromagnetic moments of low-lying `9/2−` isomers in neutron-deficient `129,131Ce`, then uses particle-plus-triaxial-rotor calculations to determine how the odd neutron polarizes the core and how shape changes across two neutrons.
 
 ## Experimental and Theoretical Setup
 
@@ -58,9 +58,9 @@ The paper measures static electromagnetic moments of low-lying `9−` isomers in
 
 ## Key Evidence and Reasoning Chain
 
-1. QI modulation of 108-keV (`129Ce`) and 162-keV (`131Ce`) isomers gives half-lives 60(2) ns and 88(2) ns and strongly favors `J=9` over previous `J=7` for `129Ce` (`χ²=2.7` vs `13.9`) (PDF pp.461-464, Figs.1-2).
+1. QI modulation of 108-keV (`129Ce`) and 162-keV (`131Ce`) isomers gives half-lives 60(2) ns and 88(2) ns and strongly favors `J=9/2` over previous `J=7/2` for `129Ce` (`χ²=2.7` vs `13.9`) (PDF pp.461-464, Figs.1-2).
 2. QI calibration yields `|Q(129Ce,9−)|=1.32(13) eb` and `|Q(131Ce,9−)|=0.92(10) eb`; MI gives `g(129Ce,9−)=−0.185(10)` and `g(131Ce,9−)=−0.189(7)` (PDF pp.463-465, Table 1).
-3. E1 decay from `9−` isomers fixes ground states as `7/2+`; this changes earlier `129Ce` ground/isomer assignments and shifts spins in its negative-parity band (PDF p.466).
+3. E1 decay from `9/2−` isomers fixes ground states as `7/2+`; this changes earlier `129Ce` ground/isomer assignments and shifts spins in its negative-parity band (PDF p.466).
 4. PTR optimum parameters: `131Ce` small `ε2≈0.14-0.18`, `γ≈20-23°`, with `ξ≈0.7-1`; `129Ce` larger `ε2≈0.24`, `γ≈12-14°`, and `ε4≈0.07` needed to reproduce Q and negative-parity structure (PDF pp.466-477, Tables 1-2, Figs.4-11).
 5. The Q ratio `Q(129Ce)/Q(131Ce)=1.44(7)` supports a pronounced shape change across two neutrons, but its numerical decomposition into `ε2/γ/ε4` remains PTR-model dependent (PDF pp.466-477).
 
@@ -72,7 +72,7 @@ TDPAD moments provide direct spin-sensitive electromagnetic observables for `129
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| IB98-1 | QI patterns strongly support `J=9` for the `129,131Ce` isomers; `129Ce` spin-7 fit is substantially worse. | experimental-result | direct | PDF pp.461-464, Figs.1-2 | false |
+| IB98-1 | QI patterns strongly support `J=9/2` for the `129,131Ce` isomers; `129Ce` spin-7/2 fit is substantially worse. | experimental-result | direct | PDF pp.461-464, Figs.1-2 | false |
 | IB98-2 | Measured isomer moments are `g=-0.185(10), |Q|=1.32(13) eb` for `129Ce` and `g=-0.189(7), |Q|=0.92(10) eb` for `131Ce`. | experimental-result | direct | PDF pp.463-465, Table 1 | false |
 | IB98-3 | PTR optimum shapes differ strongly: `131Ce` `ε2≈0.14-0.18, γ≈20°-23°`; `129Ce` `ε2≈0.24, γ≈12°-14°, ε4≈0.07`. | model-result | direct | PDF pp.466-477, Tables 1-2 | true |
 | IB98-4 | The two-neutron isotope change produces a large Q-moment ratio `1.44(7)` and a pronounced shape-evolution candidate. | experimental-result/author-interpretation | direct | PDF p.466, Conclusions | true |
@@ -104,14 +104,14 @@ TDPAD moments provide direct spin-sensitive electromagnetic observables for `129
 | Relation type | Target | Specific relation |
 |---|---|---|
 | supports | [[131ce-collective-mode-discrimination]] | Static moments constrain shape inputs for the 131Ce competing-mode map。 |
-| methodological-bridge | [[time-differential-perturbed-angular-distribution]] | TDPAD QI/MI gives direct moment and spin evidence。 |
+| methodological-bridge | [[time-differential-perturbed-angular-distribution]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]] | TDPAD QI/MI gives direct moment and spin evidence。 |
 | supports | [[gamma-soft-vs-gamma-rigid-diagnostics]] | Provides A≈130 odd-mass Ce shape-systematics context, with PTR model boundary。 |
 
 ## Human Review Triage
 
 ### P0
 
-- IB98-P0-1：`J=9` and moment values are direct TDPAD results; `ε2/γ/ε4` are PTR-dependent and must remain separated。
+- IB98-P0-1：`J=9/2` and moment values are direct TDPAD results; `ε2/γ/ε4` are PTR-dependent and must remain separated。
 
 ### P1
 
@@ -126,4 +126,55 @@ TDPAD moments provide direct spin-sensitive electromagnetic observables for `129
 - Nuclei: update [[131ce]]/`129Ce` related context only if existing pages support it。
 - Bands: no new band page。
 - Concepts: [[triaxial-deformation]], [[gamma-soft-deformation]], [[angular-momentum-alignment]]。
-- Methods: [[time-differential-perturbed-angular-distribution]], [[g-factor-measurement]]。
+- Methods: [[time-differential-perturbed-angular-distribution]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]], [[g-factor-measurement]]。
+
+
+## Day19新原读：半整数自旋与host校准
+
+本session新读PDF1–20完整文本主线，实际视觉核PDF3–8及14：装置、Eqs1–5、Figs1–3、spin/ratio正文与Table1。未把其余模型图算成新视觉复核。原Wiki漏写分母的9−/J9/J7已订为9/2−/J9/2/J7/2；旧review与claim needs_review标志原样保留，不认证其旧审核正确。准备文本/旧方法矩阵的“Cd晶格/液态靶”没有此原文支持，本实验是Sn QI与Sn/Pb MI。raw hash保持2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D19-1 | 129,131Ce异能态为9/2−，129Ce旧候选为7/2−，地态为7/2+；129Ce QI的7/2与9/2试探χ²为13.9/2.7。后续band spin重排含作者提议的近邻11/2−，不能把该新level当此TDPAD直接观测。 | assignment-and-lineage | direct-original-and-author-inference | PDF4–8 Figs1–3及Sec4；PDF12–14 Fig7/Table1 | true |
+| IB98-D19-2 | QI使用厚多晶金属116,119Sn靶，反冲在Sn内停止；MI使用.6mg/cm²Sn蒸镀于厚Pb，14.6(4)/32.0(8)kG外场，每约10min反向。脉冲宽3ns、周期800ns，time resolution约11ns。不是Cd晶格或液体。 | apparatus-fact | direct-original | PDF2–3 Sec2 | true |
+| IB98-D19-3 | QI的T0=[2J(2J−1)/3]/νQ，νQ=QVzz/h，随机轴对称EFG的多频pattern用于spin拟合。J9/2因子24；52.6(14)/36.4(16)MHz给周期456.274/659.341ns，前者与原456(12)ns相容。比值给1.44505；仅独立frequency errors控制传播为.07426，与原EFG-free Q比1.44(7)相容。不是新fit。 | frequency-and-reconstruction | direct-and-task-derived | PDF4 Eqs1–3、末段；PDF8 Sec4 Qratio段 | true |
+| IB98-D19-4 | 两绝对|Q|为1.32(13)/.92(10)eb，依赖CeSn EFG参考；MI的g为−.185(10)/−.189(7)，使用Ce在Pb的local susceptibility1.40(2)。QI弛豫约.2–.3μs；MI约100/250ns；不同于人口half-life60(2)/88(2)ns。辐射损伤解释是作者推断，旧参考本轮未读。 | calibration-and-distinct-times | direct-original-and-author-interpretation | PDF4–7 Eqs3/5、Figs1–3；PDF14 Table1 | true |
+| IB98-D19-5 | 本文νQ约束QVzz，外场进动约束gB_eff，缺EFG/local-field/time-scale不能仅靠高统计给绝对矩。共同EFG在同J同host的ratio中可消，但两绝对Q误差不能当完全独立来重造ratio CI。Qs不等transition Qt，PTR的ε/γ是模型输出。 | calibration-readiness | direct-and-synthesis | PDF4–8；PDF14 Table1；PDF19结论 | true |
+
+Knowledge Impact and Learning Decision：revises整数自旋误录与Cd/液态host误记；supports population lifetime、relaxation、frequency及共用EFG校准分层。与[[grodner-2018-128cs-chiral-g-factor]]为不同核/host/数据的companion；两者不是同level寿命重复测量。[[time-differential-perturbed-angular-distribution]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]与[[lifetime-method-selection-response-contract]]给新响应设计；保留未取得原events、EFG/reference原件和jointCov的边界。
+
+## Day19电四极进动周期与同晶格EFG对消审计
+
+依据独立审计程序 day19_ionescu_bujor_tdpad_audit.py 的 17 项检验与基准输出 ionescu-bujor-tdpad-result-028.json，核准了 Ionescu-Bujor 1998 中四极相互作用（QI）与磁相互作用（MI）测量的定量响应：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D19-6 | checkpoint108撤回旧普适平面/Schmidt锁定/EFG完全消除等科学认证。新直接原读及条件边界见IB98-D19-8；原result字节保留，不以算术通过恢复科学结论。 | superseded-certification | corrected-and-boundary | IB98-D19-8 | true |
+
+## Day19量化审计：TDPAD四极微扰因子G22微积分展开、晶格对称性解耦与矩演化定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_tdpad_hyperfine_decoupling_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/tdpad-hyperfine-decoupling-result-071.json`，核准了针对 Ionescu-Bujor 1998 多晶电四极相互作用与晶格微扰的动力学审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D19-7 | checkpoint108撤回旧普适平面/Schmidt锁定/EFG完全消除等科学认证。新直接原读及条件边界见IB98-D19-8；原result字节保留，不以算术通过恢复科学结论。 | superseded-certification | corrected-and-boundary | IB98-D19-8 | true |
+
+
+## checkpoint108：身份、频率与校准的直接原读纠正
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D19-8 | 本轮实际文本读2–8、视觉4/5/7。QI厚多晶Sn、MI Sn/Pb，half60(2)/88(2)ns；129Ce T0约456ns，131Ce约659ns且只见pattern起始，人口tau并不须大于完整周期。ratio1.44(7)按源独立于共同EFG绝对校准，不能断言所有site/温度/损伤系统全消。MI g使用local susceptibility1.40(2)，作者用缺陷四极相互作用解释MI较短弛豫，fcc Pb不保证实际EFG严格0；近g不证明Schmidt锁定。Qs与另一stateQt不能构造直接shape阶梯。 | direct-scope-and-correction | direct-original-and-bounded-arithmetic | PDF2–8; PDF4–7 Eqs1–5/Figs1–3; PDF8 Qratio | true |
+
+## checkpoint110：完整原件主线与PTR输入、未分辨feeding范围
+
+本轮实际文本补读PDF1、9–20，与108的PDF2–8组成该20页原件的完整文字阅读。当前视觉累计PDF4–7、9–14、16–19，覆盖Figs1–11、Tables1–2、Eqs1–6与Fig7的原/建议能级图（旋转核对）。全scope见source-reading-scope-110.json；没有复跑PTR代码或原TDPAD fit，也不把20页已读当所有历史primary已读。旧review/needs_review保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D19-9 | Table1给131Ce的两套PTR输入：xi.7、E2core250keV、epsilon2.14、gamma23deg、Qcal+.91eb；xi1、epsilon2.18、gamma20deg、Qcal+.93eb；两者gcal均−.23，而gexp−.189(7)、absQexp.92(10)保原。文中xi1含K9/2与7/2近等幅，减弱Coriolis增K9/2幅而增Q；129Ce需epsilon4.07并改变K混合得到Qcal1.34。故不能将pureK轴对称Qs->Q0换算当作者实测内禀矩，也不把拟合shape坐标当直接观测。 | model-input-and-state-boundary | direct-original-model | PDF9–14 Figs4–8/Table1 | true |
+| IB98-D19-10 | Fig7b为作者建议的129Ce新11/2−，在9/2− isomer上方11.8keV，用近12keV成对线和signature重排作支持。PDF14估计12keV M1单粒子half.14ns、plausible为数ns，并称约11ns时间分辨下未辨这段feeding；94keV crossover约2%是估计，不是新TDPAD直接发现或新寿命测量。 | proposed-level-and-response-limit | direct-original-author-inference | PDF12–14 Fig7 and first paragraph PDF14 | true |
+| IB98-D19-11 | Eq6的S(J)为相邻/跨二级能量差乘转子spin因子再减1，不是任意其他页S432定义；pureE=A J(J+1)+const时该S精确为0。Table2中131Ce positivegs epsilon2=.18–.24、gamma20deg，正文称缺该gs能确定epsilon2的实验数据；结论.14–.18概括与表中角色分开保留。PDF15称TRS的gamma decrease，Table1/结论为129约12deg、131约20deg；保字面，不猜erratum或改上游来源。 | diagnostic-definition-and-literal-boundary | direct-original-and-task-algebra | PDF9 Eq6; PDF15–19 Table2/Figs9–11/Conclusions | true |

@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    19,
+    20
+  ],
+  "curriculum_cards_completed": 0,
+  "next_day_index": 19,
+  "error": null
+}

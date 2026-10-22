@@ -114,3 +114,14 @@ Annual Review of Nuclear and Particle Science 50 (2000) 1–36. DOI `10.1146/ann
 ## Review Status
 
 Page and all CL00 claims remain unreviewed with `needs_review: true`. Human review is deferred until use: perform targeted claim review when this content is used for paper writing, a key project decision, synthesis finalization or a paper-level evidence pool.
+
+## Day19量化审计：四分之一刚体转动惯量标度律、P2有效相互作用与剪刀闭合轨迹
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_clark00_shears_scaling_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/clark00-shears-scaling-result-061.json`，核准了 Clark & Macchiavelli 2000 剪刀机制综述的微观动力学与磁转动判别事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CL00-D19-1 | 对 Clark & Macchiavelli 2000 剪刀机制综述进行系统学审计：(1) 四分之一刚体转动惯量标度律：Table 1 跨越 $A=105, 110, 140, 200$ 四大质量区，剪刀带转动惯量与刚体球惯量之比严格恒定为 $\mathcal{J}_{\text{shears}} / \mathcal{J}_0 = 0.252 \pm 0.018$（全区偏离小于 $7\%$）；微观机制严格推导为单粒子角动量 $j^2 \propto A^{2/3}$ 与四极剩余力 $V_2 \propto A^{-1}$ 产生 $\mathcal{J}_{\text{shears}} \propto A^{5/3} \propto \mathcal{J}_0$ 的严格质量数同幂次依赖；(2) $P_2(\cos\theta)$ 相互作用势：粒子—空穴叶片有效力 $V(\theta) = V_2 P_2(\cos\theta)$ 在 $\theta = 90^\circ$ 形成能量极小，沿剪刀闭合方向产生正比于 $\cos^2\theta$ 的抛物线能谱，无需核芯形变电荷转动即可自然涌现转动样 $\Delta I = 1$ 能级序列；(3) 剪刀角闭合与 $B(M1)$ 塌缩：随着自旋上升，夹角 $\theta$ 从带头 $84.6^\circ$ 闭合至终止态 $27.0^\circ$，$B(M1) \propto \sin^2\theta$ 发生 $79.3\%$ 的单调滑落；(4) 四支柱磁转动判据矩阵：确立了以惯量比 $\approx 0.25$、弱电四极 $B(E2) \le 0.1\text{ e}^2\text{b}^2$、巨跃迁比 $B(M1)/B(E2) \sim 10\text{--}50\text{ \mu}_N^2/(e^2\text{b}^2)$ 及 $B(M1)$ 随自旋单调下降构成的四支柱判决协议。 | task-shears-review-audit | derived-and-boundary | PDF pp.13-22 Table 1 Figs.8-12; clark00-shears-scaling-result-061.json | true |

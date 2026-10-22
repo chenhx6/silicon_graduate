@@ -1,0 +1,4 @@
+# checkpoint112 primed recall before original MSCD source identity/access
+SameDay19/session/original15:00Shanghai deadline. PrimedbyRegis2011Ref18, Eq3.8-3.16 literalreference ambiguity,094/109/111. No blindrecall/newindependentdata.
+Targetexactmethodtitle: The mirror symmetric centroid difference method for picosecond lifetime measurements via gamma-gamma coincidences using very fast LaBr3(Ce) scintillator detectors; NIM A62281 (2010). Need DOI/version/body identity, originaldefinitions/calibration scope; do not countmetadata/abstract asprimarybodyread. Sameauthors/sourcecalibratorsmaydependon2011thesis, not independentdata bytitle/year.
+Onlylawfulpublicmetadata/OAentrydiscovery now; nocredentials/institutionalbrowser/newdaemon/rawchanges. Ifbodyunavailable recordreadinessandcontinueexistingresponsequestion ratherthanforgefullread. NoDay21.

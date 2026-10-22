@@ -158,3 +158,14 @@ P0: inspect Fig.4/5 branch selection and Table 1 before using transition ratios.
 |---|---|---|---|---|---|
 | BI19-D18-2 | Table1大根δ=-2.05,-2.60,-3.07与BE2out/in=1.127,.716,.545是原文派生结果；旧脚本的-.35/-.40/-.38替代根未在本文Table1中作为实验解列出，必须标为条件输入。固定强度、能量和in-band E2分母时，替根可算出6.32–7.40倍的中心敏感性；不构成重新拟合或分支概率。 | conditional-root-sensitivity | direct-and-boundary | PDF5 Table1；旧result020输入 | true |
 | BI19-D18-3 | 原作者以DCO/偏振/角分布的大根与wobbling模型解释三线；小根敏感性说明识别依赖，但不单独证明“完全退化为单粒子M1”，还需同源polarization likelihood、模型响应和必要寿命/绝对强度。 | author-model-boundary | direct-and-boundary | PDF3–6；Table1 methods | true |
+
+## Day19量化审计：角分布双根简并性与E2集体强度崩塌分析
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_wobbling_ibfm_root_degeneracy_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/wobbling-ibfm-root-degeneracy-result-050.json`，核准了 $^{133}\text{La}$ 跨带跃迁角分布双根敏感性与纵向摆动模型判定边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BI19-D19-1 | 对 Table 1 中 758, 874, 982 keV 三条连接跃迁进行角分布双根敏感性量化对账，大根 $\delta = -2.05, -2.60, -3.07$ 导出 $E2$ 份额为 $80.8\%\text{--}90.4\%$（对应 $B(E2_{\text{out}})/B(E2_{\text{in}}) = 1.127, 0.716, 0.545$）；而相同角分布的替代小根 $\delta \approx -0.35, -0.40, -0.38$ 导出 $E2$ 份额急剧跌落至仅 $10.9\%\text{--}13.8\%$（磁偶极 $M1$ 支配性达 $86.2\%\text{--}89.1\%$）。替代小根使得 $E2$ 强度遭遇 $6.32\times\text{--}7.40\times$ 的断崖式塌缩，将 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 压低至 $0.152, 0.113, 0.076$，完全退化为常规非集体单粒子能级耦合水平。在缺乏内转换电子谱或极高灵敏度线偏振彻底排他排除小根前，单纯依赖大根无法排他确立纵向摆动模式。 | task-root-degeneracy-and-collapse-audit | derived-and-boundary | PDF p.5 Table 1; wobbling-ibfm-root-degeneracy-result-050.json | true |

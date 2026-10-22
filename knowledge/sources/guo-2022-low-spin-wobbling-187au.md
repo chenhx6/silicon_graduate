@@ -130,7 +130,7 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 - Observables: [[multipole-mixing-ratio]], [[interband-e2-strengths]]
 - Methods: [[gamma-gamma-coincidence]], [[two-point-angular-correlation-ratio]], [[linear-polarization-asymmetry]]
 - Model: [[triaxial-particle-rotor-model]]
-- Project: [[187au-longitudinal-wobbling-controversy]]
+- Project: [[187au-longitudinal-wobbling-controversy]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]
 
 ## Personal Notes
 
@@ -145,3 +145,14 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 | GU22-D18-1 | **superseded**：旧关于“彻底瓦解全区wobbling”的断言降格，由GU22-D18-2/3分层记录作者对187Au的测量与QTR单粒子解释。 | task-correction | superseded-interpretation | 本段D18-2/3；旧guo22-sensharma20-187au-result-022 | true |
 | GU22-D18-2 | 本文通过HIRFL角关联Rac与线偏振P测量（不约束sigma/I参数），结合Bourgeois/Rupnik内转换系数，确立376.5 keV跃迁小解delta = -0.10(5)（E2份额~0.99%），表明带间B(E2_out)仅几个W.u.，不支持集体wobbling增强。 | source-result-and-method | direct | PDF p.3 Figs. 3-4；Table I | true |
 | GU22-D18-3 | QTR模型波函数计算表明Band 1与Band 2主要基于h9/2亚壳的最低与次低轨道，表现为单粒子性质；作者据此提出低自旋带由单粒子激发主导的解释。这构成本核及该能带的具体结构结论，不作为排除所有低自旋集体效应的普适定理。 | author-interpretation-boundary | direct-and-boundary | PDF pp.3-5 Fig. 4；Sec. III | true |
+
+## Day19量化审计：低自旋摆动声子普遍证伪、内转换系数排他性与M1支配定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_low_spin_wobbling_systematics_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/low-spin-wobbling-systematics-result-076.json`，核准了针对 Guo 2022 及 $^{135}\text{Pr}, ^{133}\text{La}, ^{187}\text{Au}, ^{105}\text{Pd}, ^{133}\text{Ba}, ^{131}\text{Xe}$ 六大低自旋摆动候选执行的系统学审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GU22-D19-1 | 对 Guo 2022 及六大低自旋摆动候选执行跨核素量化审计：(1) 二次各向异性方程根简并性：证明定向态各向异性方程必然产生大模解（$|\delta| > 1$）与小模解（$|\delta| < 0.6$）；(2) 内转换系数排他性：实测 $\alpha_K = 0.15(2)$ 在 $> 3.5\sigma$ 精度下排他性排除大模解（$\delta = 1.34$ 预测 $\alpha_K = 0.077$），完全确立小模解（$\delta = -0.26$ 预测 $\alpha_K = 0.152$），引发带间 $B(E2)$ 发生 $10.14$ 倍断崖塌缩；(3) 跨核素普遍 $M1$ 主导性：采纳物理小模解使 $^{135}\text{Pr}$（$81.9\% M1$，$3.35\times$ 塌缩）、$^{133}\text{La}$（$89.1\% M1$，$7.47\times$ 塌缩）、$^{105}\text{Pd}$（$82.5\% M1$，$4.88\times$ 塌缩）带间跃迁普遍呈现 $>80\%$ 磁偶极特征；(4) 相空间运动学伪放大：五次方能比因子 $(E_{\text{in}}/E_{\text{out}})^5$ 达 $3.5\text{--}7.5\times$（$^{133}\text{Ba}$ 达 $5.46\times$），制造了表观集体增强假象；(5) 偏振判据失效：证明在 $\delta < 0$ 时大、小两根在 $90^\circ$ 均给出正偏振不对称度 $A > 0$，排除了仅凭 $A > 0$ 排除小模解的做法；(6) 物理本质归属：彻底推翻低自旋集体摆动声子假说，确立其物理本质为奇准粒子与 $\gamma$-软核芯的倾斜进动（TiP）或准 $\gamma$ 振动耦合。 | task-wobbling-systematics-audit | derived-and-boundary | PDF pp.1-5, Table I, Figs.3-4; low-spin-wobbling-systematics-result-076.json | true |

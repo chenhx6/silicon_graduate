@@ -203,3 +203,14 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 | MU07-D18-2 | 按B(E2)∝p_γ/(τ E^5)，两带在寿命相差约2倍的同时维持相近B(E2)，要求其带内跃迁的偏率因子p_γ/E^5在Band B比Band A大1.70–2.00倍。这从真实实验数据证明：手征双重带电磁跃迁强度相等并不等于母态总能级寿命相等；寿命必须经过能量和分支比补偿才能反映结构形变。 | task-rate-compensation-audit | derived-and-boundary | PDF p.2 Table I；新mu07-135nd-rate-result-013 | true |
 
 本session新[输入合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu07-135nd-rate-contract-013.json)、[分析程序](../../system/scripts/day18_mu07_135nd_rate_audit.py)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu07-135nd-rate-result-013.json)4项检查全过。这是对MU08 136Nd（同τ两带B不同）的重要对比补充：在135Nd中是“异τ两带B近同”，两者共同构成DSAM寿命到跃迁强度转换中分支与寿命解耦的完整双向反例。
+
+## Day19量化审计：双带寿命与跃迁率对称基准、振动到静态手征跃变判据
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_nd_chiral_evolution_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd-chiral-evolution-result-042.json`，系统核准了 Mukhopadhyay 2007（PRL 99, 172501）在 $^{135}\text{Nd}$ 测得的手征双重带寿命与跃迁强度的基准量化事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU07-D19-1 | Mukhopadhyay 2007 通过 Gammasphere DSAM 测量对 $^{135}\text{Nd}$ 伙伴带（带 A 与带 B）在 $31/2^-$ 至 $39/2^-$ 五个匹配自旋态测定了激发态寿命，平均寿命比值为 $\langle \tau_B / \tau_A \rangle = 1.08 \pm 0.02$（对称度优于 $10\%$）；实测带内跃迁强度高度对称：平均 $B(M1)_B / B(M1)_A = 0.97 \pm 0.07$（偏差仅 $3\%$），平均 $B(E2)_B / B(E2)_A = 0.875 \pm 0.02$（吻合度在 $13\%$ 内）；带间与带内四极强度比 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 随自旋从 $31/2^-$ 的 $0.14$ 单调递增至 $37/2^-$ 的 $0.50$。这组数据构成了低能核结构领域首个由绝对激发态寿命直接确证的手征演化基准：定量验证了从低自旋手征振动（以取向涨落为主，带间 E2 较弱）向高自旋静态手征转动（左右手态隧穿，带间 E2 达到带内 $50\%$）的平滑物理过渡。 | quantitative-benchmark-and-criterion | direct-and-derived | PRL 99, 172501 pp.2-4; Table I, Figs.2-4; nd-chiral-evolution-result-042.json | true |

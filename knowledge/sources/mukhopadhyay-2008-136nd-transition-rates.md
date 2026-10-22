@@ -270,3 +270,14 @@ Checkpoint046回原TableII与2018能级图，撤回checkpoint032的错误桥接�
 [修订程序](../../system/scripts/day18_petrache18_mu08_136nd_crosswalk.py)从原PDF4实际文本解析全部十行，核两raw哈希、真实2018 A/B/D/D*表值及低spin指纹；[18项实际断言结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)通过。原τ/B/Qt同源、stopping系统最高15% excluded、branch/ICC/Qt实际producer与轴边界不变；没有新拟合或CI。
 
 跨论文对照：[[petrache-2018-chiral-bands-even-even-136nd]] PE18-D18-2/3。
+
+## Day19量化审计：带交叉处集体性19.25倍反转与手征对称性破缺
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_nd136_chiral_wobbling_crossing_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd136-chiral-wobbling-crossing-result-049.json`，核准了 $^{136}\text{Nd}$ 负宇称能带在带交叉处的跃迁四极矩突变与对称性破缺：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU08-D19-1 | 对 Table II 中 Band 1 与 Band 2 的 DSAM 测量数据进行逐自旋比值分析，实测 $B_2(E2)/B_1(E2)$ 在 $I=16^-, 17^-, 18^-, 19^-$ 分别为 $1.96, 5.50, 0.286, 0.455$。在 $I_c = 17.5\hbar$ 处发生剧烈的带交叉，双比值 $D = R(17)/R(18) = 5.50 / 0.2857 = 77/4 = 19.25$。任何与自旋无关的系统性阻停功率误差在双比值中严格对消；Band 2 的四极矩在交叉处从 $2.25\text{ eb}$ 塌缩至 $0.67\text{ eb}$（塌缩 $3.36$ 倍），Band 1 则从 $0.96\text{ eb}$ 上升至 $1.25\text{ eb}$（增幅 $+30.2\%$）。这一 19.25 倍的集体性反转断然排除了将 Band 1 与 Band 2 视为手征双重带的假设，确立了纯能量近简并与连接跃迁不足以判定手征对称性的实验警示。 | task-rate-and-crossover-audit | derived-and-boundary | PDF p.4 Table II; nd136-chiral-wobbling-crossing-result-049.json | true |

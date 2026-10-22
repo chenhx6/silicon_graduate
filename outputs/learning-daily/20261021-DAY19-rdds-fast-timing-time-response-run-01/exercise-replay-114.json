@@ -1,0 +1,106 @@
+{
+  "observed_at_utc": "2026-10-22T06:28:43.043802+00:00",
+  "hardcoded_output_scripts": "First three imported in isolated Python process; RUN overridden to task tmp; original code and result paths preserved",
+  "records": [
+    {
+      "script": "system/scripts/day19_response_source_audit088.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "749506eaefb43d4e3ce7978efa933d0747feafb770e165e4c5f22c12ac841806",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/response-source-repair-result-088.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [
+        "observed_at_utc"
+      ],
+      "ignored_metadata_keys": [
+        "observed_at_utc"
+      ]
+    },
+    {
+      "script": "system/scripts/day19_gated_foil_response089.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "68d6fccb90fede21b61969ead6ff670b712af87352f465600fb1cde3b0e8137a",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/gated-foil-response-result-089.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [
+        "created_at_utc"
+      ],
+      "ignored_metadata_keys": [
+        "created_at_utc"
+      ]
+    },
+    {
+      "script": "system/scripts/day19_stopping_and_covariance090.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "04bc46659d95d9c90c9a58b5b17dd4a1ed85be6b6e2da55b5f6253abc5a925e0",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/stopping-covariance-response-result-090.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [
+        "created_at_utc"
+      ],
+      "ignored_metadata_keys": [
+        "created_at_utc"
+      ]
+    },
+    {
+      "script": "system/scripts/day19_indirect_observable093.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "a654cfc93a36ef55f3a94fc798c02aeb18dfd6a697d9c4db1fd1a2977d3cbb70",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/indirect-observable-result-093.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [],
+      "ignored_metadata_keys": []
+    },
+    {
+      "script": "system/scripts/day19_prompt_tail_identifiability109.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "44cd9ccd4dc636f87f5c24ad0508db9778039c7ce679e8a705e1c26e8749f750",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/prompt-tail-identifiability-result-109.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [],
+      "ignored_metadata_keys": []
+    },
+    {
+      "script": "system/scripts/day19_prompt_calibration_design111.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "ffdc0e713f1a38c4e2647af3e1b6420160f37cfddcdbca952064b33ad36a3b4e",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/prompt-calibration-design-result-111.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [],
+      "ignored_metadata_keys": []
+    },
+    {
+      "script": "system/scripts/day19_gcd_pooled_weighting113.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "07dd7e531b56d0cb0eb871f0d34bfad352c3c41cb7a968e350481ec72f276eb5",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/gcd-pooled-weighting-result-113.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [],
+      "ignored_metadata_keys": []
+    },
+    {
+      "script": "system/scripts/day19_gcd_weight_contract114.py",
+      "exit": 0,
+      "canonical_result_matches": true,
+      "result_original_sha256": "865b7cd64009b56e4c0f43144a26dcf91706033b9b1f8bc53b27f74f3f0d41d9",
+      "original_bytes_unchanged": true,
+      "output_location": "/workspace/wiki/tmp/day19-verification114/gcd-weight-contract-result-114.json",
+      "boundary": "reexecution of declared controls; not new experiments, actual fit or independent scientific certification",
+      "differing_top_level_keys": [],
+      "ignored_metadata_keys": []
+    }
+  ]
+}

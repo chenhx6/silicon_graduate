@@ -97,3 +97,23 @@ P0：Table I 的 literal 数值、共同 τ cancellation 条件、Rather/Lieder 
 ## Reproducibility and Evidence Gaps
 
 原 PDF、TeX/图源哈希、读取 scope、访问失败和 16 项结果均在 Day18 run artifacts；raw 归档 deferred。下一高信息路线是取得 Lieder 正文或实际 lineshape/branch/response 输入，并把 side-feeding、stopping 和 covariance 逐项对齐；不以更多中心值重算代替缺失原始 fit。
+
+## Day19量化审计：双带B(E2)同形变基准、B(M1)反相关性与手征双重带证伪
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_rather14_ag106_chiral_discrimination_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rather14-ag106-chiral-discrimination-result-055.json`，核准了 $^{106}\text{Ag}$ 简并双重带的 DSAM 寿命、电磁跃迁率与手征判据事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| RA14-D19-1 | 对 Table I 中 $^{106}\text{Ag}$ 双带的 DSAM 寿命与跃迁强度进行系统学审计：(1) $B(E2)$ 同形变基准：主带与伙伴带平均 $B(E2)$ 分别为 $0.0983\text{ e}^2\text{b}^2$ 与 $0.1150\text{ e}^2\text{b}^2$（比值 $1.17$），在 $17\%$ 误差范围内高度相符，印证了两带拥有相同的微观三轴平均场形变核芯（$\varepsilon = 0.15, \gamma = 30^\circ$）；(2) $B(M1)$ 剧烈反相关：在 $I=15^-$ 态，主带 $B(M1)$ 达到全带极小值 $0.45\text{ \mu}_N^2$，而伙伴带达到极大值 $2.02\text{ \mu}_N^2$（比值跃升至 $4.49$ 倍）；而在 $I=17^-$ 态，比值跌至 $0.616$；(3) 停止不依赖双交叉比值：双比值 $S(15)/S(17) = [B_p(M1)/B_p(E2)] / [B_m(M1)/B_m(E2)]_{15} / [...]_{17}$ 严格等于 $22624 / 3105 = 7.2863$。该 $7.29$ 倍的巨大偏离在数学上完全消除了全局阻止本领误差，断然排除了手征双重带假设（手征性严格要求双比值跨自旋恒等于 1）；(4) $B(E2)$ 充要性证伪定理：实证确立了电四极跃迁强度相同仅为手征性的必要非充分条件，磁偶极 $B(M1)$ 的对称性才是排他识别手征几何的关键物理判据；TPSM 计算确证两带系同核芯下不同准粒子轨道（$K=4$ 对 $K=2$）取向所致。 | task-chiral-falsification-and-bm1-audit | derived-and-boundary | PDF pp.4-11 Table I Figs.2-3; rather14-ag106-chiral-discrimination-result-055.json | true |
+
+
+## checkpoint098：双比值抵消条件与手征判据修正
+
+**checkpoint108修订：撤回旧RA14-D19-2科学认证及“反相交错普遍必要”替代论断。** 保留源早期RA14-4/6/8/9/10的input/author/model边界，不在未读原文条件下重写作者否定理由。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| RA14-D19-2 | 原printed中心S15/S17=22624/3105仅为同表算术。若同母态BM1与BE2都由相同tau_i乘固定branch/energy/mixing得到，tau_i逐态严格抵消，所需条件比“所有态统一stopping缩放”更弱；state-dependent lifetime变化本身也消。line-specificbranch/eff/mixing等仍可改变比值，不能据比值反推全部停止/feeding无误。旧要求S恒1与新要求普遍反相交错均无条件外推，撤回确定手征否定、普适规则和TPSM唯一组态认证。 | conditional-cancellation-and-withdrawal | task-derived-and-source-boundary | RA14-6; RA14-9; RA14-10; checkpoint108 rejection registry | true |

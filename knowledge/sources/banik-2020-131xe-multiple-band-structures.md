@@ -96,3 +96,14 @@ Jehangir et al. 2022 的 TPSM Fig. 7 用先前的 `131Xe` 数据 Refs. [52]–[5
 ## Self-audit
 
 来源 PDF 哈希已与本地 manifest 对应；表内强度保持 relative intensity；所有新增 `BNK20-*` 均 `needs_review: true`，本页保持 `unreviewed`。未修改或重审既有人审的 `knowledge/nuclei/131xe.md` 与 Chakraborty 2023 source page。
+
+## Day19量化审计：同数据谱系交叉对账与TRS软势能面约束
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_xe131_wobbling_null_control_audit.py` 的 9 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json`，核准了本篇与 Chakraborty 2023 同一 INGA 数据集再分析的谱系映射与形变动力学事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BNK20-D19-1 | 对账证实 Banik 2020 与 Chakraborty 2023 共享同一套 38-MeV INGA 原始实验事件；Chakraborty 2023 对本篇能级纲图进行再分析，所识别的 671、882、1055 keV 连接跃迁其混合比 $\delta$ 极小（$0.00\text{--}0.09$，磁偶极成分 $>99.2\%$），排除了本篇负宇称侧带属于集体摇摆声子的可能性，确立了其作为 $\nu h_{11/2}$ 传统不利旋称伙伴带的属性。这与本篇 TRS 计算揭示的宽浅 $\gamma$-软势能面（随转频在浅三轴谷与宽平坦区演化）完全自洽：平坦的 $\gamma$ 势能面无法提供维持谐振摇摆振动所需的刚性恢复力，导致三轴核中的进动模式退化为常规的单粒子旋称劈裂。 | cross-analysis-and-model-boundary | direct-and-derived | PRC 101, 044306 pp.7-14; Figs.3,17-20; xe131-wobbling-null-control-result-047.json | true |

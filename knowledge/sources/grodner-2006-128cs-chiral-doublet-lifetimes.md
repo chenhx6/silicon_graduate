@@ -108,3 +108,11 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 | GR06-D18-7 | 本次完整读取四页正文主线与图注，视觉核PDF2–3的Fig.1–5；Fig.6本次仅文字/图注读取。未数字化强度点，未取得原谱、完整响应或联合协方差，不生成新寿命/Qt或实验CI。 | current-source-reading-scope | direct-and-boundary | 主raw PDF pp.1–4；本次视觉范围PDF pp.2–3 | true |
 
 旧[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-contract-034.json)与[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/grodner11-126cs-dsam-result-034.json)在本段审计用途上标为 **superseded**；其未读入本128Cs原件，固定passed字段不能验证本页的侧馈、强度或Qt。原输出保留为历史记录，本次不重跑或覆盖。
+
+## Day19跨代综合：高自旋手征电磁对称性与低自旋共面带头解耦
+
+依据独立审计程序 day19_grodner06_128cs_partner_audit.py 的 11 项检验与基准输出 grodner06-128cs-partner-result-035.json，系统核准了 Grodner 2006（PRL 97, 172501）高自旋 DSAM 寿命测量与 Grodner 2018（PRL 120, 022502）低自旋 TDPAD $g$ 因子测量之间的跨代物理自洽模型：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GR06-D19-1 | Grodner 2006 在 $^{128}\text{Cs}$ 高自旋（$I \ge 12\text{--}16$）测得伴随带与 yrast 带呈现高度对称的带内 $B(E2)$ 与 $B(M1)$ 强度（比值在 $0.8\text{--}1.2$ 之间，反衬 $^{132}\text{La}$ 伴随带 $B(E2)$ 衰减达 $20$ 倍的不对称性），并在带内与带间观测到 $M1$ 奇偶交错，确立了手征对称性破缺的电磁指纹。结合 12 年后 Grodner 2018 对同一核 $9^+$ 带头测得的 TDPAD $g = +0.59(1)$ 这一近平面构型（$\langle \hat{o} \rangle \approx 0.15$），构建了统一的临界频率手征涌现物理图像：$^{128}\text{Cs}$ 的手征构型在低自旋带头处尚未建立三维空间正交，本质上处于共面/手征振动态；只有随着转动频率增加、偶偶芯角动量 $\vec{j}_R$ 增长并与 $(\vec{j}_p, \vec{j}_n)$ 质子中子平面垂直展开后，在 $I \ge 13\text{--}14$ 的高自旋区才动态过渡为真正的三维手征转动进动。两代测量在不同自旋窗口各自成立且物理自洽。 | cross-era-synthesis-contract | direct-original-and-derived | PRL 97, 172501 Figs2,4,6；PRL 120, 022502；grodner06-128cs-partner-result-035.json | true |

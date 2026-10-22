@@ -101,3 +101,14 @@ P0自审：WO26-5只记录明确constraint及其依赖，不据摘要或未知�
 ## Reproducibility and Evidence Gaps
 
 本Day18 run保存PDF/src/Crossref指纹和actualscope，raw归档槽deferred。仍需逐photodiode/HPGe原yields与效率/AD/随机背景/Σ，Gosia版本/job/constraint权重与去目标τ结果，Q4/phase新观测，referenceB与adoptedτ的官方来源身份，以及旧logbook/listing/DSAM响应。当前只给原件依赖与条件代数审计，不给新实验B、δ、Q或CI。
+
+## Day19量化审计：58Fe异常集体性证伪、阻止本领非均匀标度与Coulex多相简并
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_fe58_woodside_stopping_coulex_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/fe58-woodside-stopping-coulex-result-063.json`，核准了 $^{58}\text{Fe}$ 库仑激发与 DSAM 联合分析的物理判据事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| WO26-D19-1 | 对 Woodside 2026 库仑激发与 DSAM 联合分析进行定量审计：(1) 异常集体性证伪：旧 1978 评估采纳的 $B(E2; 4_1^+ \to 2_1^+) = 47(7)\text{ W.u.}$ 给出异常比值 $B_4/B_2 = 2.40(37)$，超出刚性转子极限（$1.43$）达 $2.62\sigma$；Woodside 2026 在 $220\text{ MeV}$ 库仑激发中测得 $B_4 = 24.2(28)\text{ W.u.}$，导出比值 $B_4/B_2 = 1.235(152)$，在 $0.10\sigma$ 内与 GXPF1A（$1.22$）和 KB3G（$1.24$）壳模型严格相符，彻底消解了所谓超集体异常假象；(2) 阻止本领非均匀标度：从 LSS 更新至 SRIM 电子阻止功率（缩减因子 $\approx 0.608$），$4_1^+$ 态（$2077\text{ keV}$）寿命增长 $+73.7\%$（$0.38 \to 0.66\text{ ps}$），而 $2_2^+$ 态（$1675\text{ keV}$）寿命仅增长 $+41.2\%$（$1.70 \to 2.40\text{ ps}$），标度因子相差 $23.0\%$，实证阻止本领改变不能简化为全局统一寿命乘子；(3) GOSIA 相位多解：8 组相位组合中仅 1 组被 $95\%$ CL 排除，剩余 7 组相位跨越 $B(E2) = 21\text{--}27\text{ W.u.}$，证明多步库激产额本身存在离散简并，必须引入独立的 DSAM 寿命（$\tau = 0.66(8)\text{ ps}$）作为约束以解耦相对符号。 | task-anomalous-collectivity-and-stopping-audit | derived-and-boundary | PDF pp.4-12 Tables II VI-VIII Figs.8-13; fe58-woodside-stopping-coulex-result-063.json | true |

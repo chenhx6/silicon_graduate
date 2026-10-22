@@ -159,3 +159,14 @@ P0: do not describe the 751-keV link as E2-dominant.
 | LV22-D18-1 | 本文751 keV（17+→16+）连接跃迁是四条候选线中唯一获得有效线偏振与 $R_	ext{ac}$ 测量的跃迁；其 $\delta = -0.48^{+0.13}_{-0.14}$ 对应 $E2$ 份额仅为 $18.7\%$（$10.9\%	ext{--}27.8\%$），与奇质量数wobbler中 $E2 > 90\%$ 的主导特征截然不同。Fig. 5中两准粒子PRM理论曲线的二阶E2参数（$\chi eta_2 = 2.14 	imes 0.185$）与M1参数（$g_	ext{eff}/Q$）系完全由这单一实验点和实验 $\delta$ 强制匹配定标而来，因此模型曲线的高自旋外推是对该单点的参数化延拓而非无参预测。 | task-rate-and-model-audit | derived-and-boundary | PDF pp.3–5 Figs.3–5；新lv22-136nd-wobbling-result-017 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv22-136nd-wobbling-contract-017.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/lv22-136nd-wobbling-result-017.json)4项检查全过，确立了136Nd多能带谱系中跃迁强度提取与理论定标的真实边界。
+
+## Day19量化审计：751 keV混合比M1主导性与单点参数化定标边界
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_nd136_chiral_wobbling_crossing_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd136-chiral-wobbling-crossing-result-049.json`，核准了 $^{136}\text{Nd}$ 候选横向摇摆连接跃迁多极混合比的物理性质：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LV22-D19-2 | 对四条候选 $L3 \to L1$ 连接跃迁进行完整实验多极性审计，确认仅有 751 keV（$17^+ \to 16^+$）获得有效线偏振与 $R_{\text{ac}}$ 提取（其余 740, 768, 785 keV 均因弱或污染无法分析）。751 keV 的混合比 $\delta = -0.48^{+0.13}_{-0.14}$ 导出电四极 $E2$ 份额仅为 $18.73\%$（$10.91\%\text{--}27.77\%$），磁偶极 $M1$ 份额高达 $81.27\%$（$72.2\%\text{--}89.1\%$）。这一 $M1$ 压倒性特征与经典单粒子横向摇摆（$E2 > 90\%$）完全相左。理论 PRM 曲线的高自旋行为依赖于将二阶 $E2$ 参数与 $M1$ 参数强制对齐该单一实验点，因此偶偶核 $^{136}\text{Nd}$ 尚未具备多能级多极性与绝对跃迁寿命所要求的摆动模式充分判定依据。 | task-multipole-and-wobbling-audit | derived-and-boundary | PDF pp.3-5 Figs.3-5; nd136-chiral-wobbling-crossing-result-049.json | true |

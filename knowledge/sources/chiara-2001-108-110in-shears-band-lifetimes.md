@@ -132,3 +132,22 @@ Chiara *et al.* provide a directly readable precedent for extracting partial M1/
 110In band5已有的lifetime点ω≤.536MeV/hbar，尚未覆盖作者预测>.70的下降域；已见但未测τ的(27-)/(29-) E2候选分别在.70955/.8134。优先补这些态的lifetime及same-gatefeeding约束，比重复低频已测B或把高频J2与低频近constantB直接拼成ratio更有判别力。该design以原spin/parity候选和E2 assignment为条件，不授新实验/置信度。
 
 此前source只作为MU08方法ancestor；完整body仍未给bandQt的直接轴公式，MU08-17的candidateG和原needs_review保持。StonyBrook/8π与MU08 Gammasphere/BLUE也不是同response，不能跨文迁stopping百分数或偏振Q。
+
+## Day19量化审计：剪刀带磁转动巨大跃迁比、AMR平坦线与靶强度溯源控制
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_chiara01_shears_amr_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiara01-shears-amr-result-052.json`，核准了 $^{108,110}\text{In}$ 剪刀带磁转动与反磁转动电磁跃迁率的物理判决边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CHI01-D19-1 | 对 Table VI 中 $^{110}\text{In}$ 能带的跃迁率进行系统学审计：(1) 剪刀带磁转动指纹：Band 3 在 $18^+$ 与 $19^+$ 态导出极高比值 $B(M1)/B(E2) = 46.55$ 与 $49.22\text{ \mu}_N^2/(e^2\text{b}^2)$，比常规集体转子（$\sim 0.3$）高出超 150 倍，严格印证了磁偶极矩剪刀角关闭机制；(2) 反磁转动（AMR）平坦线判决：Band 5（候选 AMR）在带交叉后的三个纯态（$19^{(-)}, 21^{(-)}, 23^-$）随转动频率变化具有微弱正斜率（$+0.185\text{ e}^2\text{b}^2/\text{MeV}$，四极跃迁强度变化 $+6.0\%$），在已测频率窗口（$\hbar\omega \le 0.536\text{ MeV}$）内完全未观测到理论预测的 $B(E2)$ 塌缩；理论剪刀闭合塌缩预言在 $\hbar\omega > 0.70\text{ MeV}$，而该高频段已观测到的 $(27^-)$（1419 keV）与 $(29^-)$（1627 keV）尚未获得能级寿命测量，因此 $^{110}\text{In}$ Band 5 仍为未决 AMR 候选；(3) 靶强度溯源控制：若将带衬靶强度误代入无衬薄靶，将引入 $1.972\times$ 的表观 $B(E2)$ 虚假阶跃与 $1.404\times$ 的 $Q_t$ 畸变，确立了跨靶态光子归一谱系不可混用的数据契约。 | task-shears-and-amr-audit | derived-and-boundary | PDF pp.18-20 Tables V-VI; chiara01-shears-amr-result-052.json | true |
+
+## Day19量化审计：磁转动B(M1)单调暴跌、反磁转动B(E2)四次方塌缩与手征转动四路全景判决
+
+**checkpoint088：撤回旧科学认证；原标题保留为历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CHI01-D19-2 | 撤回checkpoint080的四路排他认证。手填jp/jn、B0和相位后检查自身数值只构成toy模型；不是108In或106Cd实测轨迹。MR的B(M1)可在对齐处增加；理想对称AMR横向磁矩抵消不能泛称所有奇极跃迁由宇称禁戒；chirality的强度/交错判据有模型适用域，不能由硬填180度或双比值唯一裁决106Ag。寿命还取决于能量、全部支路、ICC及混合，不能按模式标签固定窗口。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |

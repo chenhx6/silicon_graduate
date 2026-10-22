@@ -1,0 +1,4 @@
+# checkpoint110 primed recall before remaining TDPAD original scope
+Same Day19 run/session/original15:00Shanghai deadline; onlyDay20preview, noDay21. Strongpriming by014/108 andsourcepages, no blindrecall.
+108 directlyread Ionescu2-8 not all20; Grodner1-5 text, only2-3 visual. Need remaining Ionescu1/9-20 text andkeymodel/tablevisual, GrodnerFig4 visually. Sourceframe: Qs/g directcalibrated observables; PTR epsilon/gamma/xi/gS/coreE2 are fittedmodelinputs not directshape. Need TableI state/calibration/branch uncertainties andshape alternatives. Do not substitute pureK axialQ0 foractualPTR orplotangle forlabmeasuredgeometry. Preserve angular-frequency/frequency/relaxation/population split andhostdefects.
+Goal: final honestmodernactualscope and source/model dependency, not fulloriginaljob orCI. No publicsource downloads/noSIworkflow in thisunit.

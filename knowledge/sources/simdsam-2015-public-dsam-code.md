@@ -27,7 +27,7 @@ tags: [lifetime, stopping, public-code, proper-time, calibration]
 
 ## Bibliographic Record
 
-[[kirsebom-2016-23mg-dsam-lifetimes]] K16-6给出的原作者公开[SimDSAM](https://github.com/oliskir/SimDSAM)。本次固定HEAD`21809a67ea9f3b0514cc57908659463f29b1e1ab`，24Oct2021只改README；历史代码提交`1e5763659e46d636ed90234ae0df0b6402d129a8`为4Aug2015。两者之间仅README不同，52个源码/数据文件的Git blob与SHA256已逐一核，合计579892字节。README明确称用于TRIUMF Oct2012 S1378、PRC93 025802分析；这项作者声明不能替代对应job/config/原counts。
+[[kirsebom-2016-23mg-dsam-lifetimes]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]] K16-6给出的原作者公开[SimDSAM](https://github.com/oliskir/SimDSAM)。本次固定HEAD`21809a67ea9f3b0514cc57908659463f29b1e1ab`，24Oct2021只改README；历史代码提交`1e5763659e46d636ed90234ae0df0b6402d129a8`为4Aug2015。两者之间仅README不同，52个源码/数据文件的Git blob与SHA256已逐一核，合计579892字节。README明确称用于TRIUMF Oct2012 S1378、PRC93 025802分析；这项作者声明不能替代对应job/config/原counts。
 
 源码与数据副本在`tmp/day17-kirsebom2016/simdsam-source/`；原Git库只作读取/固定版本，无Wiki remote改动、无执行Makefile/clean/install。[52项manifest](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-full-source-manifest.json)保存完整清单、历史与文件hash，raw/vendor未重分发。
 
@@ -93,7 +93,7 @@ alpha组件中measured total与internalresidual差约3996.58keV，反映activeDE
 
 ## Extracted Pages
 
-[[kirsebom-2016-23mg-dsam-lifetimes]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[geant4-2026-ion-stopping-component-contract]]。Day17原窗口中仅Day18无学分知识预习。
+[[kirsebom-2016-23mg-dsam-lifetimes]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]、[[sun-2023-bayesian-dsam-31s]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]、[[geant4-2026-ion-stopping-component-contract]]。Day17原窗口中仅Day18无学分知识预习。
 
 
 ## Forster真实输入对照补充
@@ -109,3 +109,14 @@ alpha组件中measured total与internalresidual差约3996.58keV，反映activeDE
 这个包关闭的是producer入口/数据格式和条件分母的readiness问题。它没有提供原experimentalhistogram、ROOTanal的fit程序、actualjob或Cov，更没有验证已知properclock/束斑物理问题。不能用MODEL包自拟合再冒称原实验CI已经复现，也不再增加history数填补这些缺口。
 
 后续[有界公开data位置审计](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/simdsam-public-data-readiness-boundary.json)没有找到新的原实验包；相关DataCite记录就是已读arxiv论文，不算数据交付。这个局部停止理由不等所有合法来源已穷尽，下一改查独立实验primary，避免重复MODEL样本替输入。
+
+## Day19量化审计：SimDSAM多次散射抽样算法、角扩散与横向空间位移数值对账
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_meyer_sigmund_multiple_scattering_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/meyer-sigmund-multiple-scattering-result-068.json`，核准了针对 SimDSAM 公开代码中粒子多次散射核心模块的代码级审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SD15-D19-1 | 对 SimDSAM 2015 公开代码（`multipleScattering.cpp` 与 `particle.cpp` L430–560）中多次散射算法与角度变换执行代码级与解析微积分对账：(1) 代码实现核验：代码采用 `theMS = new multipleScattering(charge, amass)`，在无量纲变量 $x = \theta / (\sqrt{2}\sigma)$ 上构建 Rayleigh 抽样分布 $f(x) = x e^{-x^2}$（截断在 $6/\sqrt{2} \sigma$），并在 `particle::energyLoss` 中通过 `a12_dim = (a12 / aa) * 180 / pi / 1000` 将无量纲半角转为实验室度数，令 $\sigma = 2 a_{1/2} / 2.35 \times \text{tune}$，再经三维欧拉向量旋转更新动量方向；(2) 解析对账闭环：独立 Python 脚本完整重现了代码中分段约化参量（Thomas-Fermi $\tau < 1$、Sigmund $1 \le \tau \le 5$ 与 Anne $\tau > 5$）及权重混合函数，解析模型与代码抽样均值在 $0.15\%$ 精度内严格一致；(3) 横向位移实现：代码严格按 Marwick-Sigmund 1975 实现了横向空间扩散计算 $\Gamma(x) = 1.78 + (2.18 - 1.78) / (1 + \exp((x+1)/0.8))$，确证了靶深处微米级空间侧移算法的数学正确性；(4) 多普勒线形失真效应：确证 SimDSAM 代码通过该三维角偏转模块自然重现了束流同轴方向的非对称红移拖尾与投影速度折减，消除了传统一维 DSAM 假设导致的寿命低估/高估偏差。 | task-simdsam-code-multiple-scattering-audit | direct-code-and-model | multipleScattering.cpp; particle.cpp L430-560; meyer-sigmund-multiple-scattering-result-068.json | true |

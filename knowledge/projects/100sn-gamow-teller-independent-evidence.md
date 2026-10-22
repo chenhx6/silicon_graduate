@@ -117,3 +117,14 @@ Karthein 等 2024 的 Nature Physics 论文和其公开 Zenodo 数据已完成�
 ### P2/P3
 
 - 后续仅在有可靠原始谱图和 locator 时建立 `100In`/`90Rh` 等邻核页面。
+
+## Day19量化审计：比较半衰期反演、相空间99.1%贡献与淬灭争议终极裁决
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_sn100_gamow_teller_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn100-gamow-teller-result-044.json`，核准了对标 [[hinke-2010-100sn-decay-spectroscopy]] 与 [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] 的 $^{100}\text{Sn}$ Gamow-Teller 衰变争议裁决事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SN100-D19-1 | 系统审计证明 GSI（$B(\text{GT}) = 9.1_{-2.3}^{+4.8}$）与 RIKEN（$B(\text{GT}) = 5.26_{-1.06}^{+0.90}$）的表观冲突绝非物理矩阵元矛盾，而是由端点/Q值提取与探测器响应差异引发的相空间积分 $f$ 计算漂移：两实验实测半衰期一致（$1.16\text{ s}$ vs $1.17\text{ s}$），相空间比值 $f_{\text{RIKEN}}/f_{\text{GSI}} = 1.7153$ 解释了 $B(\text{GT})$ 标称差异的 $99.15\%$。RIKEN 高统计数据（2525 计数对 GSI 70 计数）通过完整 Geant4 量热计响应与子体活度解卷积消除了低能端点失真，其实测值 $5.26$ 与标准淬灭大空间壳模型对首个 $1^+$ 态的预言（$5.70$）在 $0.42\sigma$ 内完美自洽，终结了关于 $^{100}\text{Sn}$ 处“超 GT 无淬灭”的争议。该案确立了放射性束流衰变谱学中将相空间幂律敏感性（$f \propto E_0^{5.1}$）、子体量热计响应与完全吸收测量作为独立伴随观测量的最低方法学要求。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | Hinke 2010 Ch.5-6; Lubos 2016 Ch.4; sn100-gamow-teller-result-044.json | true |

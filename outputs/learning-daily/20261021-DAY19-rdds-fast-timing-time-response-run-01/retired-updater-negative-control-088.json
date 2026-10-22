@@ -1,0 +1,6 @@
+{
+  "retired_updater_exit": 1,
+  "reason": "/workspace/wiki/system/scripts/day19_update_checkpoint087_pages.py:7: SyntaxWarning: invalid escape sequence '\\l'\n  d_sec = \"\"\"\n/workspace/wiki/system/scripts/day19_update_checkpoint087_pages.py:36: SyntaxWarning: invalid escape sequence '\\l'\n  rdds_sec = \"\"\"\nRetired self-certifying checkpoint updater; see rejected-analysis-registry-088.json. Do not regenerate superseded knowledge.",
+  "knowledge_unchanged": true,
+  "run_receipt_unchanged": true
+}

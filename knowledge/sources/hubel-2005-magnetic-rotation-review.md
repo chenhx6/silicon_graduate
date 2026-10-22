@@ -100,3 +100,14 @@ Hübel's review consolidates the detector, lifetime, static-moment and TAC evide
 
 - Concepts/models: [[magnetic-rotation]], [[antimagnetic-rotation]], [[tilted-axis-cranking]], [[band-termination]]。
 - Methods/observables: [[doppler-shift-attenuation-method]], [[lifetime]], [[linear-polarization-asymmetry]]。
+
+## Day19量化审计：反磁转动双剪刀动力学、sin4(theta)四极塌缩与J2/BE2发散定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_hubel05_amr_cd106_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/hubel05-amr-cd106-result-062.json`，核准了 Hübel 2005 综述关于反磁转动（AMR）的微观理论机制与实验判决事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HU05-D19-1 | 对 Hübel 2005 综述中反磁转动（AMR）的微观物理机制与实验判据进行系统学审计：(1) 双剪刀微观几何与对称性：两对质子空穴叶片（如 $^{106}\text{Cd}$ 的 $g_{9/2}^{-2}$）相对中子核芯角动量矢量对称闭合，其横向磁矩严格反平行相消（$\mu_\perp \equiv 0 \implies B(M1) \equiv 0$），维持了关于转轴的 $\mathcal{R}_z(\pi)$ 反演对称性，表现为纯 $\Delta I = 2$ 电四极级联；(2) $\sin^4\theta$ 四极塌缩：电四极跃迁强度遵循 $B(E2) \propto \sin^4\theta = (1 - \cos^2\theta)^2$ 规律，在 $^{106}\text{Cd}$ 中随着自旋从 $16^+$ 闭合至 $22^+$，剪刀角由 $77.2^\circ$ 收缩至 $27.3^\circ$，$B(E2)$ 发生高达 $20.54$ 倍（$95.1\%$）的深幅塌缩（从 $0.407\text{ e}^2\text{b}^2$ 降至 $0.0198\text{ e}^2\text{b}^2$），并在终止态 $24^+$ 严格归零；(3) 惯量与强度比值发散：由于微观有效四极矩随叶片闭合急剧减小而动态转动惯量保持有限，特征比值 $\mathcal{J}^{(2)} / B(E2)$ 从 $16^+$ 态的 $54.1\text{ \hbar}^2\text{MeV}^{-1}(e\text{b})^{-2}$ 暴增至 $22^+$ 态的 $1110\text{ \hbar}^2\text{MeV}^{-1}(e\text{b})^{-2}$（激增 $20.5$ 倍），完美满足并实证了 Hübel 提出的 AMR 判据门限（$>100$）；(4) 五支柱 MR 与 AMR 区分协议：确立了从对称性、净磁矩、跃迁多极序列、跃迁率演化与特征比值五个维度彻底解耦磁转动与反磁转动的理论判决体系。 | task-amr-review-audit | derived-and-boundary | PDF pp.30-32 55-57 Figs.28-30; hubel05-amr-cd106-result-062.json | true |

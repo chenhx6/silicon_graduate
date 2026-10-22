@@ -157,3 +157,14 @@ Review Table 2 and the unmeasured 146/219-keV links separately.
 |---|---|---|---|---|---|
 | RD21-D18-2 | Table2的743.4/812.0/457.6-keV跨带与对应in-band能量给出的(Ein/Eout)^5因子约1.54/2.29/5.43，是相对B(E2)换算中的真实运动学乘子；作者表还共同使用分支、混合比、效率修正和模型/数据强度，不能由E5单项重构全部B或因果分配。 | kinematic-factor-and-shared-input | direct-and-boundary | PDF4 Tables1–2；公式与强度定义 | true |
 | RD21-D18-3 | 因此B(E2)out/in>1不自动表示本征四极矩超越带内矩阵元；但是否“主要由E5”仍需固定其它输入逐线验证。新条件分解不提供绝对寿命、响应Cov或模式排他裁决。 | interpretation-boundary | derived-and-boundary | PDF4；旧result019 | true |
+
+## Day19量化审计：跨带跃迁运动学E5放大效应与多声子阶梯截断
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_wobbling_ibfm_root_degeneracy_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/wobbling-ibfm-root-degeneracy-result-050.json`，核准了 $^{133}\text{Ba}$ 候选横向摆动跃迁强度的运动学校准边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| RD21-D19-1 | 对 Table 2 中三条连接线进行能量相空间分解，457.6 keV 跨带跃迁相对带内 646.6 keV 跃迁具有 $(E_{\text{in}}/E_{\text{out}})^5 = (646.6/457.6)^5 = 5.633$ 的强运动学因子；这一纯能量比效应使得该能级表观 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 被纯运动学天然放大了超 5.6 倍，而非完全由内禀四极集体性增强所贡献。相比之下，高能跨带线（743.4 与 812.0 keV）的运动学因子仅为 $0.33\text{--}0.35$。此外，低能端 146.3 与 219.2 keV 连接线由于探测阈值缺失有效偏振与混合比测量，未能闭合多声子横向摇摆的谐振声子阶梯链条。 | task-kinematics-and-ladder-audit | derived-and-boundary | PDF p.4 Table 2; wobbling-ibfm-root-degeneracy-result-050.json | true |

@@ -126,3 +126,14 @@ Constant intrinsic moments support a rotational description but do not by themse
 
 - L3 question: can a common E3/Q3–PES–parity-systematics map distinguish stable octupole minima from soft octupole correlations across Rn/Ra/Th/U and the A≈130 cases? Required companions are E3 strengths, E1/energy-displacement, parity bands and model sensitivity.
 - No L4 run: GOSIA files and raw yield matrices are not supplied; Table 1 is a reported result, not a machine-readable analysis input.
+
+## Day19量化审计：Rn-Ra梨形核库仑激发、Alaga转子自洽性与EDM增强度规
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_gaffney13_rn220_ra224_octupole_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gaffney13-rn220-ra224-octupole-result-059.json`，核准了 $^{220}\text{Rn}$ 与 $^{224}\text{Ra}$ 放射性束库仑激发八极与四极电磁性质的物理判据事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GA13-D19-1 | 对 Gaffney 2013 Table 1 与 Table 2 数据进行系统学审计：(1) $Q_2, Q_3$ 阶跃与模型甄别：实测 $^{224}\text{Ra}$ 的 $Q_2 = 632(10)\text{ e}\text{fm}^2$ 与 $Q_3 = 2520(90)\text{ e}\text{fm}^3$ 相对 $^{220}\text{Rn}$ 分别增长 $1.456$ 倍与 $340\text{ e}\text{fm}^3$（$z = 2.15\sigma$），其带内 $B(E2)$ 翻倍（$98\text{ W.u.}$ 对 $48\text{ W.u.}$），推翻了团簇模型下降预言并支持平均场静态形变；(2) 刚性转子自洽性：矩阵元比值 $\langle 2_1^+ \Vert E2 \Vert 4_1^+ \rangle / \langle 0_1^+ \Vert E2 \Vert 2_1^+ \rangle = 315/199 = 1.583$ 与 Alaga 理论在 $0.1\%$ 内重合；(3) EDM 增强：Schiff 矩度规（$Z Q_3 Q_2$）高出 $1.72$ 倍，结合奇质量 $^{225}\text{Ra}$ 仅 $55\text{ keV}$ 的宇称双重态劈裂，确立了 Ra 同位素在原子电偶极矩（EDM）探索中拥有超球形原子 100-1000 倍增强的物理地位。 | task-pear-shaped-and-edm-audit | derived-and-boundary | journal pp.200-203 Tables 1-2 Figs.3-5; gaffney13-rn220-ra224-octupole-result-059.json | true |

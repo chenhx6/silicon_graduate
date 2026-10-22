@@ -5,9 +5,10 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import subprocess
 import sys
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 
 def run(root: Path, *args: str, check: bool = True) -> subprocess.CompletedProcess[str]:
@@ -26,12 +27,60 @@ def digest(path: Path) -> str:
     return h.hexdigest().upper()
 
 
+def repository_root(start: Path) -> Path:
+    for candidate in (start.resolve(), *start.resolve().parents):
+        if (candidate / '.git').exists():
+            return candidate
+    raise ValueError('No repository root found; refusing cwd fallback')
+
+
+def validate_stage_path(root: Path, rel: str) -> None:
+    # A manifest authorizes individual literal files, never directories/pathspecs.
+    parts = PurePosixPath(rel).parts
+    if (not parts or not rel or rel != PurePosixPath(rel).as_posix() or '\\' in rel
+            or PurePosixPath(rel).is_absolute() or '..' in parts
+            or parts[0] in ('raw', '.git', '.codex', '.agents', '.opencode')
+            or rel == 'PLAN.md'):
+        raise ValueError(f'Protected or invalid literal path: {rel!r}')
+    cursor = root
+    for part in parts:
+        cursor = cursor / part
+        if cursor.is_symlink():
+            raise ValueError(f'Symlink is not stageable: {rel!r}')
+    candidate = root / rel
+    if root not in candidate.resolve().parents or not candidate.is_file():
+        raise ValueError(f'Manifest requires an existing individual file: {rel!r}')
+
+
+def changed_paths(root: Path) -> set[str]:
+    # NUL-delimited bytes preserve Unicode, newlines, quotes and whitespace.
+    result = subprocess.run(['git', '-C', str(root), 'status', '--porcelain=v1',
+                             '-z', '--untracked-files=all'], capture_output=True, check=True)
+    paths = set()
+    for record in result.stdout.split(b'\0'):
+        if not record:
+            continue
+        status = record[:2]
+        if b'R' in status or b'C' in status or b'U' in status:
+            raise ValueError('Rename/copy/conflict requires separate explicit review')
+        if len(record) < 4 or record[2:3] != b' ':
+            raise ValueError('Invalid porcelain status record')
+        paths.add(os.fsdecode(record[3:]))
+    return paths
+
+
+def staged_paths(root: Path) -> list[str]:
+    result = subprocess.run(['git', '-C', str(root), 'diff', '--cached',
+                             '--name-only', '-z'], capture_output=True, check=True)
+    return [os.fsdecode(p) for p in result.stdout.split(b'\0') if p]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--manifest", default="outputs/degree-dissertation-ingest-20260905.manifest.json")
     args = parser.parse_args()
-    root = Path(__file__).resolve().parents[1]
+    root = repository_root(Path(__file__).resolve().parent)
     try:
         manifest_path = (root / args.manifest).resolve()
         if root not in manifest_path.parents or not manifest_path.is_file():
@@ -51,15 +100,12 @@ def main() -> int:
             print("GIT20260905_STATUS=manifest-invalid\nManifest allowed_paths is empty.")
             return 24
         for rel in allowed:
-            path = rel.replace("\\", "/")
-            if path.startswith(("raw/", ".git/", ".codex/", ".agents/")) or path in ("PLAN.md", "raw/zotero/wiki-inbox.bib"):
-                print(f"GIT20260905_STATUS=manifest-invalid\nProtected path is not stageable: {rel}")
+            try:
+                validate_stage_path(root, rel)
+            except ValueError as exc:
+                print(f"GIT20260905_STATUS=manifest-invalid\n{exc}")
                 return 25
-            candidate = (root / rel).resolve()
-            if root not in candidate.parents and candidate != root:
-                print(f"GIT20260905_STATUS=manifest-invalid\nPath escapes Wiki root: {rel}")
-                return 25
-        cached = [x for x in run(root, "diff", "--cached", "--name-only").stdout.splitlines() if x]
+        cached = staged_paths(root)
         if cached:
             print("GIT20260905_STATUS=preexisting-index-changes\n" + ", ".join(cached))
             return 26
@@ -73,10 +119,8 @@ def main() -> int:
         if preflight.returncode:
             print(f"GIT20260905_STATUS=git-unavailable\n{preflight.stdout}{preflight.stderr}")
             return 42
-        changed = []
-        for rel in allowed:
-            if run(root, "status", "--porcelain=v1", "--", rel).stdout.strip():
-                changed.append(rel)
+        all_changed = changed_paths(root)
+        changed = [rel for rel in allowed if rel in all_changed]
         if not changed:
             print("GIT20260905_STATUS=nothing-to-commit\nNo manifest-listed file has a worktree change.")
             return 0
@@ -85,8 +129,8 @@ def main() -> int:
             print("GIT20260905_STATUS=dry-run-ok\nNo files were staged, committed, fetched, or pushed.")
             return 0
         for rel in changed:
-            run(root, "add", "--", rel)
-        staged = [x for x in run(root, "diff", "--cached", "--name-only").stdout.splitlines() if x]
+            run(root, "--literal-pathspecs", "add", "--", rel)
+        staged = staged_paths(root)
         if set(staged) != set(changed):
             print("GIT20260905_STATUS=stage-boundary-failed\n" + ", ".join(staged))
             return 45

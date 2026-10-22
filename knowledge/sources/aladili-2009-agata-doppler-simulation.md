@@ -123,3 +123,14 @@ P0：无未隔离身份/权限问题，raw保留槽未创建已明示；不可�
 ## Extracted Pages
 
 filepp.16–17公式/width budget，pp.21–23code chain，p31lifetime，p37Table6.2，pp.39–41truth-vector/α/smearing/conclusion，pp.44–45步骤；已检查相关原图。
+
+## Day19量化审计：Doppler线形模拟重构、约定残差消解与真空衰变份额
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_agata_doppler_tracking_response_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/agata-doppler-tracking-response-result-064.json`，核准了 AGATA 多普勒线形模拟的微观物理事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AA09-D19-1 | 对 AGATA 多普勒线形模拟进行系统学审计：(1) 线形分解：严格复现 Table 6.2 报告值，$^{52}\text{Cr}$ $1434\text{ keV}$ 态总展宽为 $4.55\text{ keV}$（本征 $2.30\text{ keV}$，多普勒 $3.93\text{ keV}$），$^{38}\text{Ar}$ $2167\text{ keV}$ 态总展宽为 $7.74\text{ keV}$（本征 $2.83\text{ keV}$，多普勒 $7.20\text{ keV}$）；(2) 约定残差代数消解：严格解释了 Fig. 6.20 合成谱峰位偏离（由 $1434\text{ keV}$ 偏移至 $1436.16\text{ keV}$）系由代码中非相对论前向频移与精确相对论逆反演混用所引入的 $\Delta E = +2.157\text{ keV}$ 数学残差；(3) 薄靶真空发射纯度：对平均反应深度 $0.25\text{ \mu m}$ 的薄靶，反冲核真空平均飞行距离达 $16.59\text{ \mu m}$，靶内衰变份额仅为 $1.50\%$（$>98.5\%$ 在靶外真空中衰变），排除了薄靶基准实验受介质慢化显著畸变的假设。 | task-doppler-simulation-audit | derived-and-boundary | file PDF pp.16 28-40 Table 6.2 Figs.6.17-6.23; agata-doppler-tracking-response-result-064.json | true |

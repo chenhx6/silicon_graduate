@@ -138,3 +138,14 @@ P0：publiccopy/raw与dataURI权限边界已隔离，无事件access声明。P1�
 ## Extracted Pages
 
 Main1–7与SI1–4；main2–5、SI1–3为关键experimental/fit/strengthlocator；SI Fig.5二维面与TableI已核。
+
+## Day19量化审计：直接转移Ex门控消除馈入、约化跃迁几率重构与从头算关联低估
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_o20_ciemala_zanon_reconciliation_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/o20-ciemala-zanon-reconciliation-result-056.json`，核准了 $^{20}\text{O}$ 激发态绝对跃迁几率与微观从头算核力比较基准：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| ZA23-D19-1 | 对 Table I 中 $^{20}\text{O}(2_2^+)$ 态跃迁强度与微观从头算模型进行系统学审计：(1) 跃迁强度数值重构：标准转换公式严格复现 Table I 报告值：$B(E2; 2_2^+ \to 2_1^+) = 4.08\text{ e}^2\text{fm}^4 \to 4(2)$ 与 $B(M1) = 0.0503\text{ \mu}_N^2 \to 0.05(2)$；(2) 从头算模型局限性：基于手征有效场论核力（$NN+3N$）的 VS-IMSRG(2) 理论模型预测 $B(E2) = 0.68\text{ e}^2\text{fm}^4$，低估实验值达 $\sim 6$ 倍；微观机制归因于标准两体截断空间遗漏了多粒子—多空穴（$p\text{--}h$）组态形变关联；经验 USDB 壳模型计算给出 $7.1\text{ e}^2\text{fm}^4$；(3) 飞秒寿命张力消解：Zanon 2023 的 $70(10)\text{ fs}$ 测量依托 MUGAST 粒子探测与直接反应 $E_x$ 门控彻底切断了高自旋连续态馈入，消解了深非弹性反应由于未分辨连续馈入导致的 $150\text{ fs}$ 假象。 | task-rates-and-abinitio-audit | derived-and-boundary | main p.5 Table I; SI pp.1-3; o20-ciemala-zanon-reconciliation-result-056.json | true |

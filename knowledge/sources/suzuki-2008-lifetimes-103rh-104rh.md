@@ -186,3 +186,65 @@ P0: none identified.
 | SZ08-D18-4 | 本文正宇称103Rh Band3不能因相同编号而当作Kuti2014负宇称Bands3–6的寿命测量。后者旧脚本.46/.40/.35及.18/.35/.20也不在本TableIII，均不能用于推前者或后者的实验因果结论。 | cross-paper-identity-correction | direct-and-boundary | PDF3 TablesI/III；[[kuti-2014-multiple-chiral-doublets-103rh]] KU14-D18-2–11 | true |
 
 本次独立worker针对实际主线与TableIII核验；主代理新读PDF3和原表视觉，不声称重新全文原读。新[程序](../../system/scripts/day18_parent_branch_identity_controls.py)只把打印中心作明示诊断，不提原τ/强度误差或新CI。
+
+
+## Day19新原读：degrader双速度与距离差分
+
+承认Day18已暴露预习后，本session新读PDF1–5全部文本主线；视觉核PDF2–4全部Figs1–3、TablesI–V及Eqs1–2。raw SHA256保持f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927。旧review/needs_review与原source前缀不改；新设计不是旧staggering脚本重复，也不报原实验fit/CI。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SU08-D19-1 | Degrader前103Rh/104Rh β=.051(1)/.057(3)，后为.031(1)/.033(2)，两分量都仍运动；Fig2的u经过Doppler校正回原能量，不是β0。DDCM主时钟仍为degrader前真空速度，不能用Δv或出箔速度。 | two-velocity-clock | direct-original-and-derived-boundary | PDF2实验/Eqs1–2；PDF3 Fig2及首段 | true |
+| SU08-D19-2 | 本文说逆运动学可测短于1ps、箔内穿行不超过.2ps以减小smearing；未报告~.5ps通用精确测量下限。TableII含.71(19)ps，TableI含.72(13)/.72(23)ps。β.051相对Klemme.016的3.1875只为中心速度/空间标度比；v下降39.2%不能称轻微减速。 | source-window-and-kinematic-boundary | direct-original-and-task-derived | PDF2实验；PDF3 TablesI–II | true |
+| SU08-D19-3 | Eq1以三distance的面积与中心差分提τ，分母是跨2Δx的flight time；面积按各核强线归一。直接feeder污染则Eq2使用C门和α扣除。实际distance grid、平滑及共享Cov是再现必需输入；七点8–100μm本身不认证差分误差可忽略。 | sampled-DDCM-response | direct-original-and-boundary | PDF2 Eqs1–2及其后段 | true |
+| SU08-D19-4 | 本任务prompt指数控制的中心差分给τapp=τ[(h/τ)/sinh(h/τ)]，h=Δx/v；τ.72ps/β.051/Δx5μm得.695827ps(−3.36%)，Δx10μm得.629746ps(−12.54%)。有延迟feeding的自设曲率可给相反偏差方向，不能把此量当本文真实修正。 | finite-spacing-design | task-derived-from-method | PDF2 Eq1；degrader-distance-sampling-result-016.json | true |
+| SU08-D19-5 | 输出B依纯M1及引用的branch/energy；测一条候选成员的几个寿命不替代partner绝对矩阵。原TableI列Band3四行但caption/body讨论三项双带相关strength，TableIII只有25/2–29/2三行；保持原打印范围，不替旧文献重造level identity。 | strength-and-identity-boundary | direct-original | PDF3 TablesI–III、正文；PDF4结论 | true |
+
+Knowledge Impact and Learning Decision：revises旧preview中无原文支持的~.5ps精确下限与轻微减速措辞；supports区分stopper/degrader分量、真空clock与离散导数误差。[[recoil-distance-doppler-shift]]及[[lifetime-method-selection-response-contract]]写新19项控制，仍缺实际matrix/逐distance计数/导数Cov与transport。
+
+## Day19绝对跃迁几率解耦与交错驱动源审计
+
+依据独立审计程序 day19_suzuki_staggering_driver_audit.py 的 16 项检验与基准输出 suzuki-staggering-driver-result-031.json，系统核准了 Suzuki 2008 Table III 中关于候选手征带绝对跃迁强度的关键物理事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SU08-D19-6 | checkpoint089修订：TableIII中心值中BM1单调下降、BE2有弱奇偶起伏，是作者对有限点的定性解释；单调并不等任意去趋势诊断的交错幅度严格零，不能宣称100%由分母驱动。BM1/BE2依同一tau及引用branch/energy、pureM1假设，不增加独立实验。仅测每核一个候选成员，原文要求partner及更高spin寿命；不作排他模式裁决。 | staggering-driver-and-partner-boundary | direct-original-and-derived | PDF3 Table3/Fig3；PDF4 Discussion；suzuki-staggering-driver-result-031.json | true |
+
+## Day19量化审计：逆运动学Degrader-RDDS空间尺度拉伸、多普勒桥失真与亚皮秒测量下限定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_degrader_rdds_kinematic_expansion_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/degrader-rdds-kinematic-expansion-result-069.json`，核准了针对 Suzuki 2008 逆运动学 Degrader-RDDS 技术的动力学校准与系统学边界审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SU08-D19-7 | checkpoint089撤回069的科学认证：beta=.051/.031属于103Rh，104Rh为.057/.033；.72ps来自103Rh TableI，104Rh13−为.71(19)ps。原降能箔打印3.5mg/cm² 93Nb，不是旧脚本自设2um。0.1627ps、FoM2.34、零点漂移与比值偏差是额外假设下的算术，不是原谱/原transport复现。source Eq1是I_su^BA与I_ss^BA跨distance差分之比，不能普遍替换为慢分量log slope；后者在延迟feeding下可跟随feeder寿命。未证明普适.5ps下限或免疫finite-foil。见SU08-D19-8/9。 | task-degrader-rdds-kinematic-expansion-audit | derived-and-boundary | PDF2-3 SecII-III, TablesI-II; degrader-rdds-kinematic-expansion-result-069.json | true |
+
+## checkpoint089：实际门公式、finite-foil分量与归一对象
+
+本轮定向读PDF2–4文本，视觉核PDF2 Eqs1–2/实验、PDF3 Fig2/TablesI–III；并不重做全套数据或把旧full-read scope算成本轮新完成。旧review及needs_review保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SU08-D19-8 | Eq1以BA门的I_s,u(x)除I_s,s(x+Δx)−I_s,s(x−Δx)，再乘2Δx/v；上门污染时Eq2用CA并按alpha扣CB。原文说峰面积按各核强线归一；不是逐distance强制把BA所选s/u总和设1。103Rh前/后beta .051(.001)/.031(.001)，104Rh .057(.003)/.033(.002)；Nb降能箔3.5mg/cm²、七distance8–100um，作者说箔内穿行不超过.2ps，未给本任务可重放的实际厚度/轨迹producer。 | direct-gated-component-and-input-identity | direct-original | PDF2 Eqs1–2 and experiment paragraphs; PDF3 Fig2/TablesI–II | true |
+| SU08-D19-9 | 本任务branch-one、B先于foil衰变门、非相对论rate控制给F_A′=p_A/tau_A。取tau_A2ps/tau_B10ps/假设箔区间.16ps，计全A分量时门比恒2ps；丢foil bridge而slow为exp(−.16/2)p_A时门比恒1.84623ps。改用−slow/slow′在t2ps给−4.41722ps、t8ps给12.04787ps、晚期趋feeder10ps；它不是原门公式。把F_A与p_A各除gate总和1−S_B，又会给t2ps的4.43894ps。仅说明分量与归一合同改变估计量，不估原实验bias/CI；46项数学积分/差分/守恒控制不是独立实验验证。 | gate-estimator-and-response-counterdesign | task-derived-and-boundary | PDF2 Eq1; gated-foil-response-result-089.json | true |
+
+计全、丢bridge、把bridge归快或慢、按reference yield归一与按所选级联总和归一，必须分别定义。实际分量ROI、foil轨迹、distance derivative和共同Cov未得，不能凭高计数、平坦tau或其他方法相合补齐。
+
+附加算术仅为readiness：旧2um/平均v给.162714ps；若另声明rho=8.57g/cm³，则3.5mg/cm²对应4.08401um，在入口v=.051c下已需至少.267114ps。这个额外密度/路径控制与作者≤.2ps措辞的表面张力要求实际producer澄清，不足以认定原文erratum或真实job错误。
+
+## checkpoint090：差分与共同reference的协方差
+
+本轮使用checkpoint089已经视觉核过的PDF2 Eq1和normalization段作为方法输入，不把再次引用记作新原读。以下计数/误差/网格都是本任务假设。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SU08-D19-10 | 原Eq1把多个distance的s,s面积差用于同一tau，且逐distance以强线归一。新prompt分支1、七个合成time点、Poisson-thinned S/U及同点独立reference R的delta-method设计给Cov(S/R,U/R)>0，shared endpoints再令部分tau点负相关；完整Jacobian传播之外，共同v/距离gain增加rank-one Cov。假设每点mean N=10^6、R=4N及共同3%/2%且彼此独立标度误差，五点对角近似均值sigma=.03265ps，保完整Cov同weights为.07153ps、GLS为.07143ps、共同floor=.07137ps。非原counts/actual Cov或实验CI，也不认证原七个distance的实际统计相关。 | derivative-normalization-and-shared-calibration-design | task-derived-and-boundary | PDF2 Eq1 and peak-area normalization paragraph; stopping-covariance-response-result-090.json | true |
+
+
+## checkpoint108：身份、频率与校准的直接原读纠正
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SU08-D19-11 | 103Rh TableI有两个tau中心.72ps：Band1 21/2+、1022keV、.72(13)ps（星号Eq2）；Band3 29/2+、384keV、.72(23)ps。两者均非9/2+；candidate strength范围只有Band3 25/2–29/2。不得只凭相同中心值合并身份。 | direct-scope-and-correction | direct-original-and-bounded-arithmetic | PDF3 TableI–III | true |

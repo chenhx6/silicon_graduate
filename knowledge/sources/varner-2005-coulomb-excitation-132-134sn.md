@@ -77,3 +77,14 @@ The paper is the `48Ti`-target Coulomb-excitation experiment also identified as 
 - [[iaea-livechart-132sn-134te-levels]]
 - [[ensdf-132sn-coulomb-excitation]]
 - [[a130-shell-gap-orbital-observable]]
+
+## Day19量化审计：132Sn库仑激发B(E2)反常、130-134Sn粒子空穴对称性与四量级寿命跨越
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_sn132_coulomb_excitation_be2_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn132-coulomb-excitation-be2-result-057.json`，核准了 $^{132}\text{Sn}$ 库仑激发 $B(E2)$ 反常与同位素寿命跃变事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| VAR05-D19-1 | 对 $^{132}\text{Sn}$ 与 $^{134}\text{Sn}$ 的逆运动学库仑激发数据进行微观系统学审计：(1) 粒子—空穴对称性基准：双中子空穴核 $^{130}\text{Sn}$（$B(E2)\uparrow = 0.023(5)\text{ e}^2\text{b}^2$）与双中子粒子核 $^{134}\text{Sn}$（$B(E2)\uparrow = 0.029(5)\text{ e}^2\text{b}^2$）在 $0.85\sigma$ 内严格对称，印证了价中子对在球形单粒子空间（$e_n \approx 0.5e$）弱四极跃迁（$\sim 1.2\text{--}1.4\text{ W.u.}$）的一致性；(2) 双幻核 $^{132}\text{Sn}$ 核芯极化反常：$^{132}\text{Sn}$ 的 $B(E2)\uparrow = 0.11(3)\text{ e}^2\text{b}^2$ 比 $^{130}\text{Sn}$ 高出 $4.78$ 倍、比 $^{134}\text{Sn}$ 高出 $3.79$ 倍，其物理机制为 $4041\text{ keV}$ 态是由跨越 $Z=50$ 质子闭壳的主动粒子—空穴激发（$\pi(g_{9/2})^{-1}\pi(d_{5/2})$，有效电荷 $e_p \approx 1.5e$）相干驱动，克服了中子价跃迁的电荷抑制；(3) 四量级寿命跨越：跨越 $N=82$ 闭壳，受能量相空间五次方（$(E_\gamma)^5$ 比值达 $5380\times$）的压倒性支配，激发态寿命呈现断崖式跨越：$^{132}\text{Sn}$ 寿命仅 $\tau = 34.4\text{ ps}$（RDDS/库激时钟域），$^{130}\text{Sn}$ 为 $65.4\text{ ns}$，而 $^{134}\text{Sn}$ 跃升至 $698\text{ ns}$（脉冲束流同质异能延迟域），双中子差跨越了超 4 个数量级（$20500\times$）的时间响应尺度。 | task-coulomb-excitation-and-magic-shell-audit | derived-and-boundary | PDF pp.391-394 Secs.2-3 Fig.5; sn132-coulomb-excitation-be2-result-057.json | true |

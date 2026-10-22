@@ -163,3 +163,14 @@ User review should compare TI19 mixing ratios with the conflicting values summar
 | TI19-D18-6 | 固定波函数/Q0和原比例式适用时，q=.36使有效M1幅度乘.36、强度乘.1296（逆比7.716），δ乘2.778。q(g_nu-g_R)不同于q g_nu-g_R；未得完整producer，不把它当所有M1算符或其它核/多qp模型的普适缩放。 | conditional-model-scaling | derived-and-boundary | TI19-D18-5；新mixed-boundary result-047 | true |
 
 独立worker完整六页文字主线，PDF3/5视觉；主代理定向原读PDF3–5并核关键图/表。原raw SHA256 `3948cf32712a400aa8df0aee489ebebd89df7480508bddc60156a359ed322909`保持；无原response/Cov，未求新τ/B/δ实验CI。作者的wobbling解释与IBFM替代模型均保留证据和适用边界。
+
+## Day19量化审计：DCO双根敏感性、Rickey独立解与PRM有效g淬灭控制
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_pd105_wobbling_quenching_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/pd105-wobbling-quenching-result-053.json`，核准了 $^{105}\text{Pd}$ 候选横向摆动多极混合比双解敏感性与理论算符淬灭边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| TI19-D19-1 | 对 Table I 中 $^{105}\text{Pd}$ 的跨带混合比与跃迁强度进行系统学审计：(1) 双根崩塌分析：991 keV 与 1034 keV 连接线若采用 DCO 允许的替代小根（$\delta = 0.59$ 与 $0.40$），其电四极份额降至 $25.8\%$ 与 $13.8\%$（$M1$ 支配率 $74.2\%\text{--}86.2\%$），导致 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 发生 $2.96\times$ 与 $6.10\times$ 的崩塌至 $0.223$ 与 $0.098$；若采用 Rickey 1974 独立测得的小根（$\delta = 0.46$ 与 $0.62$），相对强度同样塌缩至 $0.151$ 与 $0.198$；全部小根均将相对四极强度压低至 $\le 0.223$ 的非集体水平；(2) PRM 算符淬灭标定：理论粒子—转子模型（PRM）为了与实验大模解相匹配，必须对 $g_{\text{eff}} = g_\nu(h_{11/2}) - g_R$ 引入 $q = 0.36$ 的强烈淬灭因子，这相当于将微观 $B(M1)$ 算符人为压低了 $q^2 = 0.1296$（压低 $7.716$ 倍），从而将 $\delta \propto Q_0/g_{\text{eff}}$ 虚假放大了 $2.778$ 倍；(3) IBFM 软核模型：Nomura 2022 基于 $^{106}\text{Pd}$ 软势能面的计算自然给出小模解（$|\delta| \approx 0.73\text{--}0.85$）与弱四极跃迁，无需人为削弱 $M1$ 算符，证实 $^{105}\text{Pd}$ 低自旋非 yrast 带并非经典横向摆动态。 | task-root-collapse-and-prm-quenching-audit | derived-and-boundary | PDF pp.2-5 Figs.2-3 Table I; pd105-wobbling-quenching-result-053.json | true |

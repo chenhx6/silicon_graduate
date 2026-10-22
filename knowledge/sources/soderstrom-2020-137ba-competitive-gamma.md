@@ -95,3 +95,14 @@ Söderström *et al.* provide an independent total-branch confirmation and the s
 
 - Source relation: [[walz-2015-competitive-double-gamma-137ba]], [[two-photon-nuclear-decay]]。
 - Methods/models: [[gamma-gamma-coincidence]], [[angular-correlation]]。
+
+## Day19量化审计：E3M1八极主导确证、M2单粒子禁戒与13.9倍分量反转
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_ba137_double_gamma_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ba137-double-gamma-result-045.json`，系统核准了 Söderström 2020（Nat. Commun. 11, 3242）关于 $^{137\text{m}}\text{Ba}$ 竞争双光子衰变虚态路径的物理裁决：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SO20-D19-1 | Söderström 2020 利用 ELI-NP 的 11 个 $\text{CeBr}_3$ 探测器在五个关联角（$32.7^\circ$ 至 $163.6^\circ$）下测定连续能量共享谱，以 $8.7\sigma$ 显著性测定总分支比 $(2.62 \pm 0.30) \times 10^{-6}$，并在拟合中测定极化率比值 $\alpha_{M2E2} / \alpha_{E3M1} = 8.8 / 36.4 = 0.242$，相比 Walz 2015 实现了 $13.9$ 倍的路径反转。大空间蒙特卡洛壳模型（MCSM）揭示了该反转的坚实微观根源：在 $^{137}\text{Ba}$（$11/2^-$ 异构态到 $3/2^+$ 基态）中，$M2$ 单粒子跃迁受到 $\Delta l = 3$ 的角动量禁戒（$B(M2)$ 仅为 $1.35 \times 10^{-2}\ \mu_N^2\text{fm}^2$，受压制近 3 个数量级）；相反，虚跃迁 $E3$ 算符与 $^{138}\text{Ba}$ 核芯的集体 $3^-$ 八极声子（$B(E3) \sim 25\text{ W.u.}$）发生极强的集体耦合，从而赋予 $E3M1$ 路径压倒性的物理主导地位。这一测量确立了完整能量共享谱形与微观核结构计算在解耦虚态路径中的决定性作用。 | quantitative-benchmark-and-criterion | direct-and-derived | Nat. Commun. 11, 3242 pp.3-6; Table 1, Fig.5; ba137-double-gamma-result-045.json | true |

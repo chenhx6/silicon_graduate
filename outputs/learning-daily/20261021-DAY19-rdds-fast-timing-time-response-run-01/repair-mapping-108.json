@@ -1,0 +1,38 @@
+{
+  "changed": {
+    "knowledge/methods/recoil-distance-doppler-shift.md": "## checkpoint099：跨质量区四类方法基准与物理时钟正交性",
+    "knowledge/methods/time-differential-perturbed-angular-distribution.md": "## checkpoint099：跨质量区四类方法基准与物理时钟正交性",
+    "knowledge/observables/transition-quadrupole-moment.md": "## checkpoint097：Qspec零点反例、转子CG约定与Singh回归敏感性审计",
+    "knowledge/projects/131ce-collective-mode-discrimination.md": "## checkpoint102：131Ce四极矩斜率检验力重审与K约定边界",
+    "knowledge/projects/a130-thesis-evidence-matrix.md": "## checkpoint103：A≈130寿命测量与时钟正交性准入矩阵",
+    "knowledge/research-notes/lifetime-method-selection-response-contract.md": "## checkpoint100：Day19全景综合审计与证据链终验",
+    "knowledge/sources/rather-2014-ag106-transition-rates.md": "## checkpoint098：双比值抵消条件与手征判据修正",
+    "knowledge/synthesis/chirality-wobbling-competition-evidence.md": "## checkpoint104：时间测量技术对集体模式判别的排他性约束",
+    "knowledge/synthesis/gamma-soft-vs-gamma-rigid-diagnostics.md": "## checkpoint105：时间测量方法与gamma软性/刚性诊断边界整合",
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md": "## checkpoint101：时间测量方法边界、时钟正交性与形变提取链整合",
+    "knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md": "## checkpoint107：稀有衰变与八极跃迁的时间滤波及物理时钟契约",
+    "knowledge/synthesis/shape-observable-matrix.md": "## checkpoint106：形状观测量的时间时钟正交性与多形变域边界整合",
+    "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md": "## checkpoint108：身份、频率与校准的直接原读纠正",
+    "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md": "## checkpoint108：身份、频率与校准的直接原读纠正",
+    "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md": "GR18-D19-7",
+    "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md": "IB98-D19-7"
+  },
+  "new_refs": [
+    {
+      "path": "knowledge/sources/suzuki-2008-lifetimes-103rh-104rh.md",
+      "locator": "SU08-D19-11"
+    },
+    {
+      "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "locator": "KL99-D19-6"
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "locator": "GR18-D19-8"
+    },
+    {
+      "path": "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "locator": "IB98-D19-8"
+    }
+  ]
+}

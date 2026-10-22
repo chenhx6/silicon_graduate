@@ -17,15 +17,15 @@ updated: 2026-10-20
 
 - [[feeding-time-alignment-joint-response]] — 同积分取向与总时间密度仍不能确定DSAM逐角响应的条件设计；非实验τ/P/Q修正。
 
-## Day19新增方法与研究合同
+## Day19方法核验进行中
 
-- [[recoil-distance-doppler-shift]] — RDDS/DDCM 微分衰变曲线消除侧馈、逆运动学空间拉伸、真空退取向不对称响应与最小校准清单。
-
-- [[lifetime-method-selection-response-contract]] — 四类寿命测量方法全景选择决策树、MSCD能量走时对消与DSAM-RDDS误差交叉分水岭。
+- [[lifetime-method-selection-response-contract]] — Day19实际原件scope、条件响应/校准设计；095–107过强认证已由108撤回，研究已于原15:00截止停止，进入交付审计收束；旧019–078草稿仍隔离。
 
 ## Sources
 
-- [[lifetime-method-selection-response-contract]] — Day 19正式课程：四类寿命测量方法全景选择决策树、MSCD能量走时对消与DSAM-RDDS误差交叉分水岭。
+- [[regis-2015-generalized-centroid-difference]] — 公开GCD方法稿的96pair筛选/alignment/mean PRD与100Zr Compton时间响应；public staging已核，raw归档deferred。
+
+- [[lifetime-method-selection-response-contract]] — Day18内恰好下一卡的无学分预习：Radeck分量响应/缺eff与坐标合同、Nolan定向方法选择表/最小校准清单；非正式19。
 
 - [[amro-2003-wobbling-167lu]] — 167Lu 三轴超形变 wobbling 带间相对跃迁强度提取与 DCO 混合比双根敏感性。
 
@@ -329,7 +329,7 @@ updated: 2026-10-20
 - [[frauendorf-2018-beyond-unified-model]] - 80页高自旋理论综述；统一记录 rotating mean field、TAC、wobbling、chirality、magnetic rotation、termination 与 tidal-wave 的边界。
 - [[hubel-2005-magnetic-rotation-review]] - 69页磁转动综述；整合 Pb/轻质量区 M1/E2、寿命、g 因子、TAC、shears 与 antimagnetic-rotation 证据边界。
 - [[tidal-wave]] - 弱形变 yrast 潮汐波的转动框架、`B(E2)/J` 与相干性边界。
-- [[ionescu-bujor-1998-static-moments-129-131ce]] - `129,131Ce` TDPAD 静态电磁矩、`J=9−` isomer assignments 和 PTR 形状演化；`ε2/γ/ε4` 保留模型边界。
+- [[ionescu-bujor-1998-static-moments-129-131ce]] - `129,131Ce` TDPAD 静态电磁矩、`J=9/2−` isomer assignments 和 PTR 形状演化；`ε2/γ/ε4` 保留模型边界。
 - [[alwaleedi-2013-band-structures-131ce]] - `131Ce` Bands 1–7 的 Gammasphere 纲图、crossing/alignment、组态图与带 `δ=0` 假设的 `B(M1)/B(E2)` 基线；DAY7 原文审计映射六条 Band1/Band4/yrast link，并标明缺失的 measured `δ`、偏振和寿命。
 - [[singh-2016-lifetime-131ce-133pr]] - `131Ce/133Pr` yrast 带寿命、`Q_t` 与 γ-soft/TRS 解释；2016 当前值与 2004 依赖行分层。
 - [[li-2004-lifetimes-131ce]] - `131Ce` 正负宇称序列的早期 DSAM 寿命与 `Q_t` 原始谱系。

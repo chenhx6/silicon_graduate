@@ -164,3 +164,14 @@ Daniel Georg Lubos，*Decay Spectroscopy of 100Sn and Neighboring Nuclei*，Tech
 ## Non-source Notes and Follow-up
 
 该论文与 Hinke 2010 的 GSI 实验不是同一数据集；两者应作为 `multiple-independent` 证据并列。
+
+## Day19量化审计：高统计Q值拟合、量热计响应与大空间壳模型淬灭符合
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_sn100_gamow_teller_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn100-gamow-teller-result-044.json`，系统核准了 Lubos 2016 博士论文关于 $^{100}\text{Sn}$ 高统计衰变谱学与壳模型淬灭的量化事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LB16-D19-1 | Lubos 2016 利用 RIKEN BigRIPS 采集的 2525 个 $^{100}\text{Sn}$ 高统计样本，在正电子量热谱学中通过包含 24 个 $^{100}\text{In}$ 子体成分、19.8% 子体活度贡献及 Geant4 探测器响应的 600–3000 keV 区间拟合，扣除 $-63\text{ keV}$ 内转换电子沉积后提取出精确 $Q_{\text{corr}} = 3.74 \pm 0.14\text{ MeV}$，并导出相空间积分 $f = 619.33$，最终测定 $B(\text{GT}) = 5.26_{-1.06}^{+0.90}$（$\log(ft) = 2.86 \pm 0.08$）。该值与大空间壳模型（LSSM）预言的第一激发 $1_1^+$ 态强度（$B(\text{GT})_{\text{LSSM}} = 5.70$）在 $0.42\sigma$ 内高度吻合，断然排除了极值单粒子模型无淬灭值（$B(\text{GT})_{\text{ESPM}} = 17.78$），证实了在双幻核 $^{100}\text{Sn}$ 处 Gamow-Teller 跃迁依然遵循标准的轴矢量重整化淬灭因子（$g_A/g_V \approx 0.75$，强度淬灭达 $56\%$）。同时，高统计 $\gamma$ 谱揭示的 96、141、436、1297、2048 keV 多分支退激否定了单终态假设，确立了精细探测器量热响应对相空间反演的决定性影响。 | quantitative-benchmark-and-criterion | derived-and-source-boundary | Ch.4.4.1-4.4.2 pp.77-81; Eqs.(4.19)-(4.27); sn100-gamow-teller-result-044.json | true |

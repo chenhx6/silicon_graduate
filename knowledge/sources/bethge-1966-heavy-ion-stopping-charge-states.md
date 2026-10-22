@@ -30,7 +30,7 @@ tags: [DSAM-input, stopping, calibration, shared-systematics]
 
 ## Bibliographic Record
 
-Bethge、Sandner、Schmidt，*Z. Naturforschg.*21a，1052–1056(1966)，3Mar1966收稿；DOI [10.1515/zna-1966-0727](https://doi.org/10.1515/zna-1966-0727)。这是[[iaea-2026-stopping-s-au-o-ta-records]] 中 Bt1966 的原实验，不是新的独立测量。
+Bethge、Sandner、Schmidt，*Z. Naturforschg.*21a，1052–1056(1966)，3Mar1966收稿；DOI [10.1515/zna-1966-0727](https://doi.org/10.1515/zna-1966-0727)。这是[[iaea-2026-stopping-s-au-o-ta-records]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]] 中 Bt1966 的原实验，不是新的独立测量。
 
 publisher旧OA入口重定向后仅202空响应，未认作PDF。旧ZfN地址现跳至Max Planck公开档案[10.17617/3.GRUJYR](https://doi.org/10.17617/3.GRUJYR)，档案`Reihe_A.zip`为50086033062字节。只通过合法HTTP Range读取ZIP目录及唯一成员`21/ZNA-1966-21a-1052.pdf`；共5639636网络字节，解压PDF4260488字节，ZIP CRC32核通过，SHA256见frontmatter。未下载全档案、未声称全档案MD5验证。原PDF保存在`tmp/day17-bethge1966/bethge1966-archive.pdf`，raw归档与Bib未写。
 
@@ -85,4 +85,15 @@ Eq4的物理量为二阶矩。若只有相邻两电荷态n/n+1、fraction为f，
 
 ## Extracted Pages
 
-[[iaea-2026-stopping-s-au-o-ta-records]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]。当前仍为Day17原窗口内恰好Day18无学分预习，不增加课程卡信用。
+[[iaea-2026-stopping-s-au-o-ta-records]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]、[[doppler-shift-attenuation-method]]、[[lifetime-strength-audit-165tm-136nd]]。当前仍为Day17原窗口内恰好Day18无学分预习，不增加课程卡信用。
+
+## Day19量化审计：Bohr-Betz速度依赖有效电荷、电荷态方差偏置与DSAM慢化积分修正定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_bethge_bohr_betz_effective_charge_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/bethge-bohr-betz-charge-state-result-067.json`，核准了针对 Bethge 1966 离子阻止与电荷态二阶矩的动力学模型审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| B66-D19-1 | 对 Bethge 1966 电荷态分布、Bohr-Betz 速度依赖有效电荷及 DSAM 慢化时间积分执行严格微积分量化审计：(1) Bohr-Betz 速度依赖解析验证：经典 Thomas-Fermi 剥离公式 $q_{\text{eff}}/Z = 1 - \exp(-\xi)$（其中 $\xi = v / (v_0 Z^{2/3})$，$v_0 = \alpha c$）严格满足单调性 $dq/dv > 0$ 与凹性 $d^2q/dv^2 < 0$。轻核（$^{16}\text{O}, ^{23}\text{Mg}$）在常规反冲速度（$\beta = 0.025\text{--}0.030$）下处在非线性剥离区（$\xi = 0.65\text{--}1.03$，$q/Z = 48\%\text{--}64\%$）；重核（$^{131}\text{Ce}$）处在深部线性屏蔽区（$\xi = 0.165$，$q/Z = 15.2\%$，渐近逼近 $Z^{1/3}(v/v_0)$）；(2) 二阶矩与方差偏置定理：Bethge Eq. 4 证明阻止本领正比于二阶矩 $\langle q^2 \rangle = \bar{q}^2 + \sigma_q^2$。对 Bethge 1966 Fig. 4/5 测定的 $^{32}\text{S}+\text{Au}$ 在 $15\text{ MeV}$ 实际电荷分布（$n=4\text{--}9$），精确重构出 $\bar{q} = 6.260$、$\langle q^2 \rangle = 40.140$、$\sigma_q^2 = 0.952$ 与 $\sigma_q = 0.976$；若忽略分布方差将低估阻止本领 $2.37\%$；(3) 低速减速末端方差偏置发散定理：当离子减速使平均电荷滑落至 $\bar{q} = 2.5$（$3\text{ MeV}$）与 $ar{q} = 1.3$（$0.5\text{ MeV}$）时，相对方差偏置 $\sigma_q^2 / \langle q^2 \rangle$ 剧烈发散至 $9.42\%$ 与 $11.05\%$；(4) Betz 1972 固-气密度效应：固体介质碰撞频率高达 $\sim 10^{16}\text{ s}^{-1}$（碰撞间隔 $0.1\text{ fs}$），俄歇退激发滞后诱导固体平衡电荷态较气靶系统性抬升 $\Delta\bar{q} = 1.51$ 单位，导致固体中电子阻止本领暴增 $73.0\%$，确立气靶校准模型不可直接移植至固态背衬 DSAM 实验；(5) DSAM 慢化时间积分审计：对 $^{32}\text{S}$ 在 Au 衬底中的减速积分证明，忽略电荷方差将使慢化时间 $t_s$ 延长 $+3.60\%$，据对数微商定理导致 DSAM 提取核寿命虚假高估 $+3.60\%$；而纯线性 LSS 假定（固定常数有效电荷）将在低能区严重高估电子阻止，使计算慢化时间低估 $65.4\%$，揭示了微观核阻止在低速区截断的关键作用；(6) 束管差真空假象消解：Bethge 1966 实验中束管真空较差引发离子预剥离，导致法拉第筒测量的入射粒子数 $N_0$ 被高估 $15\%\text{--}25\%$，据 Eq. 3 定量消解了厚靶散射法与电荷态推算法之间的表观能损偏差。 | task-bethge-bohr-betz-charge-state-audit | derived-and-boundary | printed1052-1056; bethge-bohr-betz-charge-state-result-067.json | true |

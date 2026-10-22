@@ -201,7 +201,7 @@ P0: none remaining after source-level correction; all source claims still retain
 - Bands: [[127i-pi-h11-2-decoupled-band]], [[127i-pi-g7-2-rotational-band]], [[127i-pi-d5-2-band]], [[128i-pi-g7-2-nu-h11-2-structure]], [[128i-pi-h11-2-nu-h11-2-structure]]
 - Experiments: [[tsukuba-127-128i-li7-28-32mev]]
 - Concepts: [[gamma-soft-deformation]], [[high-spin-phenomena]]
-- Methods: [[angular-distribution]], [[gamma-gamma-coincidence]]
+- Methods: [[angular-distribution]], [[gamma-gamma-coincidence]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]
 
 ## Non-source Notes and Follow-up
 
@@ -245,3 +245,19 @@ D12-25原文已经限定fixedparent/anchor与H0/H2；新D12-34把这个限制进
 ## Commonparent的角数据不能被necessarysets替代
 
 [[nndc-2015-128i-selected-level-gamma-records]] N128-16–18用本source实际两个RADO作条件中心/box控制，23项数学检查没有原netcounts/response/δ/Cov。结果补充D12-34的scope：sharedparent在matched条件下可以给比triangle更强的角约束；actual每线gate未给，不能把samelevelID自动视为samepostselecteddensity。完整推导/失效控制在[[level-scheme-reconstruction]]，原sourceJ6与旧1–34行/review/raw保持，新35true。
+
+## Day19量化审计：128I能量三角闭合、58.5-keV多极性歧义与N=75转动淬灭定理
+
+**checkpoint088：撤回旧科学认证；原标题保留为历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| D12-D19-1 | checkpoint087撤回唯一spin/寿命上限/精确解卷积认证：PDF79的175(15)ns明确是167.4keV子态半衰期，不是mean tau；100ns符合窗本身不能推出上游tau远小于100ns。能量残差255.6+58.5−314.3=−.2keV只为中心算术，无逐行Cov不能给closure显著性或唯一topology。两步generic L1必要集合为{6,7}；旧H0/H2限定才为{6,8}，先验趋势不属逐level严格单调物理禁令。Iweak≥79仅允许在声明共同标度时给弱分量比例≥79/642，不是测得12.3%；另一102.2b无实验ICC，不能借同能量认证pureM1。128I未见明确手征迹象为作者有限范围解释，不证明N=75手征不可能。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |
+
+## checkpoint088：半衰期、符合选择与必要集合
+
+本轮定向读PDF78–79、视觉核PDF79 Table6.1脚注/正文；未重新全文百页或读Sakh/Nati primary。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| D12-D19-2 | PDF79明确167.4keV子态半衰期175(15)ns；mean tau若仅换单位应为T1/2/ln2约252.47ns，不能倒灌上游。100ns符合窗内出现部分事件也不推出parent tau远小于100ns。源reaction-spin trend是采用的prior，不是逐态严格单调守恒。两步generic L1 triangle必要集合{6,7}与旧H0/H2集合{6,8}前提不同，均不等actualAD联合拟合。弱线≥79在共同标度控制下只给ratio下界，不构成87.7/12.3%实测分解或另一102的ICC。 | direct-timing-identity-and-conditional-design | direct-original-and-task-derived | PDF78–79 Table6.1; PDF79 first two paragraphs | true |

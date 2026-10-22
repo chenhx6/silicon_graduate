@@ -104,3 +104,14 @@ Decision: revises the Hara Table 5 coverage map. 137Pr 现在有可读的后续 
 - Nuclei: [[137pr]]
 - Models: [[tilted-axis-cranking]], [[cranked-shell-model]]
 - Projects: [[a130-model-choice-card]]
+
+## Day19量化审计：磁转动分支强度比重构、带交叉3.61倍突降与扁椭球剪刀几何
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_agarwal07_pr137_magnetic_rotation_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/agarwal07-pr137-magnetic-rotation-result-054.json`，核准了 $^{137}\text{Pr}$ 负宇称偶极带磁转动带交叉与电磁跃迁比的物理判决边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AG07-D19-1 | 对 Table I 中 $^{137}\text{Pr}$ Band 2 的跃迁强度与 TAC 磁转动模型进行系统学审计：(1) 公式重构检验：强度比公式 $R = 0.697 \times [I_\gamma(M1) E_\gamma(E2)^5] / [I_\gamma(E2) E_\gamma(M1)^3]$ 在 $29/2^-$ 态算出 $10.13\text{ (\mu}_N/e\text{b})^2$（强度传播误差 $\pm 1.92$），与表列 $10.4(1.9)$ 在 $3\%$ 内高度自洽；(2) 带交叉处强度比突降：$B(M1)/B(E2)$ 随自旋上升并在 $37/2^-$ 态达到峰值 $62.1 \pm 12.0\text{ (\mu}_N/e\text{b})^2$，随后在带交叉后的 $41/2^-$ 态断崖下跌至 $17.2 \pm 2.9\text{ (\mu}_N/e\text{b})^2$，比值下降达 $3.6105$ 倍（统计显著性 $z = 3.637\sigma$）；(3) 扁椭球剪刀模型：TAC 微观计算表明带头形变具有强扁椭球特征（$\gamma = 58^\circ$，距离 Lund 约定 $\gamma=60^\circ$ 纯 oblate 极限仅差 $2^\circ$），证实带交叉源于从 3qp 组态 $\pi h_{11/2} \otimes \nu(h_{11/2})^{-2}$ 向 5qp 组态 $\pi h_{11/2}(g_{7/2})^2 \otimes \nu(h_{11/2})^{-2}$ 跃迁，破对的 $(g_{7/2})^2$ 质子重新拉开剪刀叶片；(4) 方法学边界：光子分支比推导严格依赖 $\delta^2 \approx 0$（纯 M1）假设，且比值无法解耦分子 $B(M1)$ 与分母 $B(E2)$ 的各自变化，排他性验证必须依赖直接 DSAM/RDDS 寿命测量。 | task-shears-and-bandcrossing-audit | derived-and-boundary | PDF pp.3-7 Table I Figs.4-7; agarwal07-pr137-magnetic-rotation-result-054.json | true |

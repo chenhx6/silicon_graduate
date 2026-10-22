@@ -95,3 +95,14 @@ Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
 ## Personal Notes
 
 这是建立判据页的核心来源，不应把它简化成“负 S=soft、正 S=rigid”的无条件规则。真正重要的是 staggering 相位、归一化定义以及对弱 γ 依赖的敏感性。
+
+## Day19量化审计：S(4,3,2)能级交错分水岭与双重判据重构
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_gamma_soft_rigid_watershed_audit.py` 的 16 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gamma-soft-rigid-watershed-result-041.json`，系统核准了准 $\gamma$ 振动带能量交错参数 $S(4,3,2)$ 与电磁跃迁分支比的双重分水岭判据：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| ZC91-D19-1 | 准 $\gamma$ 振动带能级交错参数 $S(4,3,2) = \{[E(4_2^+) - E(3_1^+)] - [E(3_1^+) - E(2_2^+)]\} / E(2_1^+)$ 构成分离 $\gamma$-软核与刚性三轴核的解析分水岭：在 Wilets-Jean / O(6) $\gamma$-软性极限下，能级形成 $(2^+), (3^+, 4^+), (5^+, 6^+)$ 成对排布，$S(4,3,2) = -2.00$；而在 Davydov-Filippov $\gamma = 30^\circ$ 刚性转子极限下，能级形成 $(2^+, 3^+), (4^+, 5^+)$ 相反成对，$S(4,3,2) = +1.67$。对 A≈130 区域 7 个代表性 Xe 与 Ba 偶偶核的普查表明，所有被测同位素的 $S(4,3,2)$ 均处于 $[-1.01, -0.42]$ 负值区间，100% 落在 $\gamma$-软性盆地；进一步联合第二 $2_2^+$ 态的电磁分支比 $B(E2; 2_2^+ \to 0_1^+) / B(E2; 2_2^+ \to 2_1^+)$ 检验，实测值（$^{128}\text{Xe}$ 处为 $0.023(5)$）相对刚性转子预测值（$2/11 \approx 0.1818$）受到接近 8 倍的强烈压制，证实了 $\Delta\tau = 2$ 禁戒选择定则，确立了 A≈130 偶偶核芯普遍具有平坦 $\gamma$-软势能面的本性，为该区手征与摇摆激发的动态脆弱性提供了核芯基础。 | quantitative-audit-and-criterion | derived-and-source-boundary | PLB 260, 265 pp.1-4; Eqs.(2)-(5); gamma-soft-rigid-watershed-result-041.json | true |

@@ -1,0 +1,72 @@
+{
+  "observed_at": "2026-10-22T15:07:14.461783+08:00",
+  "run_id": "2026-10-21-day-19-01",
+  "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+  "scope": "formal Day19 only, Day20 uncredited preview",
+  "assessment": "scientific deliverables supported within recorded boundaries; administrative completion and publication still pending",
+  "criteria": [
+    {
+      "requirement": "primed_recall",
+      "evidence": "active-recall-before-sources.md",
+      "assessment": "startup baseline001 and frozen timestamp precede direct sources; acknowledges Day18 priming"
+    },
+    {
+      "requirement": "radeck_mainline",
+      "evidence": "source-reading-scope-091.json",
+      "assessment": "10 text pages, 8 key visual pages,13 figures/3 tables/9 equations; no original event refit"
+    },
+    {
+      "requirement": "nolan_mainline",
+      "evidence": "source-reading-scope-092.json",
+      "assessment": "88 text pages/27 visual pages; Table5/Table7/Fig56 and literal Eq6.5 boundary"
+    },
+    {
+      "requirement": "modern_timing",
+      "evidence": "source-reading-scope-094.json",
+      "assessment": "89 specified pages/30 visual pages; Fit1/Fit3,176W settings and feeding; not whole thesis"
+    },
+    {
+      "requirement": "same_lifetime_design",
+      "evidence": "same-lifetime-readiness-result-012.json",
+      "assessment": "same 20ps problem, explicit material/feeding/prompt/calibration missing-inputs; supplemented089/090/093/114"
+    },
+    {
+      "requirement": "counterexample",
+      "evidence": "gated-foil-response-result-089.json",
+      "assessment": "declared finite-foil gate response gives flat but biased lifetime; mathematical response proof not experimentalCI"
+    },
+    {
+      "requirement": "method_tree",
+      "evidence": "knowledge/methods/recoil-distance-doppler-shift.md",
+      "assessment": "Day19可执行的方法选择决策树 and checkpoint095 corrected108; complete8-input checklist"
+    },
+    {
+      "requirement": "companion_and_lineage",
+      "evidence": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+      "assessment": "NS79-D19-24/27 separates DSAM/CoulEx same-data Fig56 from historical RDM/DSAM overlap"
+    },
+    {
+      "requirement": "reproduction",
+      "evidence": "exercise-replay-114.json",
+      "assessment": "8 conditional script payloads match after explicit time metadata exclusion; originals unchanged"
+    },
+    {
+      "requirement": "writeback_and_checks",
+      "evidence": "writeback-validation-115.json",
+      "assessment": "pending current validation; cannot substitute for science"
+    },
+    {
+      "requirement": "publication_and_credit",
+      "evidence": "publication-receipt-115.json",
+      "assessment": "pending actual content publication then single formal-credit transition"
+    }
+  ],
+  "not_claimed": [
+    "original-data fit or CI",
+    "all historical checkpoints scientifically valid",
+    "full111-page thesis reading",
+    "human review",
+    "independent experiment per script/pair/paper"
+  ],
+  "formal_credit": false
+}

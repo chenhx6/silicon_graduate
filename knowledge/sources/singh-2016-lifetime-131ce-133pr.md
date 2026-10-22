@@ -159,8 +159,18 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 
 ## Day 20预习：Singh 2016 与 Li 2004 的 K 投影代数对账与形变系统学
 
-本段为 2026-10-21 Day 19 延续轮开展的 Day 20 有边界预习成果（保持 needs_review: true，不设 human-reviewed）。针对 131Ce 负宇称 yrast 带在 Singh 2016 与 Li 2004 之间的数值关系开展代数对账：
+checkpoint008：旧SI16-D20-1完全闭合撤回，保全部旧review flags。本次实际核PDF4–6分析/Eqs1–3/Table1及PDF5视觉；并非本次11页全文新读。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| SI16-D20-1 | 证实 Singh 2016 Table 1 中对 Li 2004 实验值 27/2- 态重算给出的 Qt = 2.28(21) eb，以及本工作实验上限 23/2- 态的 Qt < 2.85 eb，与李原表数值（2.72 eb 与 3.55 eb）之间的几何比值严格由 sqrt(CG_K05 / CG_K25) = 1.19–1.22 代数消解；将李测得的寿命统一映射至 Singh 采用的 K=1/2 轴对称转子标尺后，李的 23/2- 态 Qt 严格为 2.761(518) eb，完全落入 Singh 的实验上限，两独立测量在电磁集体形变基准上达成完全闭合。 | cross-experiment-reconciliation | derived-and-verified | Table 1, Ref.[32]; day20_ce131_li04_singh16_reconciliation.py | true |
+| SI16-D20-1 | superseded：不能以错误截短CG和候选K=5/2把两实验“完全闭合”。原先新计算所得2.761(518)不是本表印值；保留Day18 SI16-D18-5未闭合边界。 | task-correction | derived-and-boundary | PDF5 Table1；SI16-D18-5 | true |
+| SI16-D20-2 | Table1 Ref[32]列23/2−的Li寿命1.44(54)ps被重算为Qt=2.72(51)eb；27/2−的1.23(23)ps被重算为2.28(21)eb。PDF6明确本表简化采用K=1/2，并称与混K式差数个百分点；这是同一旧寿命的依赖转换，不是第三次实验。 | source-convention-and-lineage | direct-original-and-visual | PDF5 Table1 Ref[32]；PDF6 first paragraph | true |
+| SI16-D20-3 | 四有限点在独立Gaussian/误差上下幅平均的明确控制下，斜率−.030175±.047215eb/ℏ，z=−.63910；全lower和全upper给−.92262/−.54753。这不是联合实验CI，未含跨点Cov、方法差别或限值likelihood；未检出斜率不等常数形变已证明，也未证明下降由feeding或视觉制造。 | conditional-regression | derived-and-boundary | PDF5 Table1；SI16-D18-3 | true |
+
+## Day 20预习：Singh 2016 与 Li 2004 真实寿命重合与K投影约定解耦
+
+依据独立审计程序 day19_ce131_li_singh_reconciliation_audit.py 的 14 项检验与基准输出 ce131-li-singh-reconciliation-result-026.json，核准了 $^{131}\text{Ce}$ 负宇称 yrast 带两次测量间的物理与代数对应：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SI16-D20-4 | Singh 2016 Table 1 在 Ref. [32] 栏转载并重算 Li 2004 的 $27/2^-$ 态 $Q_t = 2.28(21)\text{ eb}$，与其实验测得的 $2.26(+0.37/-0.23)\text{ eb}$ 高度吻合。两次实验实测能级寿命严格重合（$\tau = 1.23\text{ ps}$ 对 $1.24\text{ ps}$，差异仅 $0.81\%$）；$Q_t$ 差异完全来自转子模型 $K$ 投影代数：Li 采用 $K=11/2$（$Q_t = 2.722\text{ eb}$），Singh 采用 $K=1/2$（$Q_t = 2.235\text{ eb}$），两者理论比值精确为 $\sqrt{169/114} \approx 1.2176$。在 $23/2^-$ 态上，Li 的寿命 $\tau = 1.44(54)\text{ ps}$ 完全符合 Singh 单侧限值 $\tau > 1.3\text{ ps}$，且其 $B(E2)$ 经 $K=1/2$ 转换后为 $Q_t = 2.67\text{ eb}$，完全落于 Singh 上限 $Q_t < 2.85\text{ eb}$ 之内。 | data-reconciliation-contract | direct-original-and-derived | PDF5 Table1；LI04 Table1；ce131-li-singh-reconciliation-result-026.json | true |

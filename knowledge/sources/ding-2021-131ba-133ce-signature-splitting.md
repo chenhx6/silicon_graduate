@@ -165,3 +165,14 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 ## Personal Notes
 
 这篇论文对知识库的关键贡献不是“用 splitting 测出 γ”，而是说明这一反演通常不唯一：低-j 轨道位置与 Coriolis 混合会和非轴形变共同控制可观测 staggering。
+
+## Day19量化审计：旋称劈裂双机制简并性、(gamma, xi)山谷与电磁比解耦
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_signature_splitting_coriolis_audit.py` 的 11 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/signature-splitting-coriolis-result-039.json`，系统核准了 $N=75$ 强耦合能带旋称劈裂的竞争机制反演简并性定理：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| D21-D19-1 | 在 $N=75$ 同中子异位素（$^{133}\text{Ce}$ 与 $^{131}\text{Ba}$）中，强耦合带（$\nu g_{7/2}[404]7/2^+$）实测出交替的强旋称劈裂（$^{133}\text{Ce}$ 的 $S(11/2) \approx +29.0\text{ keV}$；$^{131}\text{Ba}$ 的 $S(11/2) \approx +52.8\text{ keV}$），其幅度达到奇 $Z$ 核 Ta/Re 质子 $g_{7/2}$ 类比带的 10 倍以上。理论审计证实该劈裂由三轴非轴性（$V_{\text{tri}} \propto \sin\gamma$）与近邻低-$j$ 轨道（$\nu s_{1/2}[400]1/2^+$，解耦参数 $a \approx 1$）的科里奥利混合共同驱动，且在能谱上形成连续的单参数简并山谷：实测 $S(11/2) = 29.0\text{ keV}$ 既可由中等形变加全科里奥利耦合（$\gamma = 10^\circ, \xi = 0.92$）精确复现，亦可由大三轴形变加重度衰减耦合（$\gamma = 26^\circ, \xi = 0.0$）复现。因此，仅凭能级旋称劈裂无法独立反演三轴形变 $\gamma$。打破该简并的排他观测量为跃迁几率比 $B(M1)/B(E2)$：纯三轴转子导致平滑的 $B(M1)/B(E2) \approx 0.23\ (\mu_N/e\text{b})^2$；而 $s_{1/2}$ 轨道的大自旋回转因子（$g_s = -3.826$）在科里奥利混合下必然引发 $>3.5$ 倍的 $B(M1)/B(E2)$ 奇偶交错震荡（$0.42 \text{ vs } 0.11$）。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRC 104, 064304 pp.9-12; Figs.5,8-9; signature-splitting-coriolis-result-039.json | true |

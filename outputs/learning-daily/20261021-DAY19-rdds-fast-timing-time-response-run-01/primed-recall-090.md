@@ -1,0 +1,4 @@
+# checkpoint090 strongly primed recall
+Same original session/run. Prior source pages, 012/013/016/023/066/088/089 and supplied summary already exposed. No blind recall or course credit.
+Questions: (1) source uniform TOTAL stopping time dilation versus electronic-only component variation: old tau~1/k and double ratio immunity require a common trajectory rescaling, not a universal property. Build declared two-component slowing law and compare exact attenuation with independent quadrature. (2) central distance derivative shares normalized intensities across outputs; common reference count creates same-distance S/U covariance, then common distance gain/velocity add a rank-one error floor. Demonstrate with explicit counts/Jacobian, never invent original counts or experimental CI.
+Read Nolan equations and stopping cautions, Suzuki actual distance derivative/normalization. Preserve all old artifact bytes.

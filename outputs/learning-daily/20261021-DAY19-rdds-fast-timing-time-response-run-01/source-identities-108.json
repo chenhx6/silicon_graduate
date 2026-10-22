@@ -1,0 +1,47 @@
+{
+  "suzuki": {
+    "path": "raw/papers/2008_Suzuki et al_Lifetime measurement of candidate chiral doublet bands in the Rh 103 , 104.pdf",
+    "sha256": "f9c421090b33da94206f9d1d4ebd36ad0f5be79ee1dcd6a19fe38b32a7ec5927",
+    "total_pdfpages": 5,
+    "extracted_pages": [
+      2,
+      3,
+      4
+    ]
+  },
+  "klemme": {
+    "path": "raw/papers/1999_Klemme et al_Lifetimes measurements for 134 Nd and neighboring nuclei with the.pdf",
+    "sha256": "2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604",
+    "total_pdfpages": 10,
+    "extracted_pages": [
+      3,
+      4
+    ]
+  },
+  "grodner": {
+    "path": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+    "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
+    "total_pdfpages": 5,
+    "extracted_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "ionescu": {
+    "path": "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+    "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+    "total_pdfpages": 20,
+    "extracted_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

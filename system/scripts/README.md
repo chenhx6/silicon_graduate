@@ -199,3 +199,21 @@ runner 在日报标题检查之外，还验证 `## Durable knowledge delta` 中�
 
 实质 Day N 通过最终验收后，runner 会提前生成 Day N+1 的 ASCII prompt 文件；失败、
 acceptance-only 或未计数运行不会推进或生成下一日正式 prompt。
+
+### 显式清单发布辅助工具
+
+`python3 system/scripts/git/git20260905.py --dry-run --manifest <清单.json>`
+只验证清单路径、分支、现有索引与受保护哈希；不会证明科学正确、课程卡完成或 H3 已通过。
+清单须由执行者对照 dirty baseline 逐文件审阅，禁止从全部 dirty 自动授予发布范围。
+路径必须是仓库内现存的单个普通文件；目录、符号链接、受保护路径与路径穿越会被拒绝。
+中文、空白和引号路径用 Git NUL 状态解析保留，暂存按 literal pathspec 执行。
+重命名、复制、冲突或删除需另行审阅处理，不能由该工具猜测授权。
+
+不带 `--dry-run` 会提交并尝试非 force 推送，执行者须先完成 `check.md` H2/H3
+所要求的检查和对账；辅助工具不会推进课程状态。相关边界回归运行：
+`python3 -m unittest system.tests.test_git_manifest_paths`。
+Day19 的旧 `day19_execute_closeout.py` 已退役，不能据其旧“100%就绪”输出授分或发布。
+
+课程解析允许今日卡等待收束门时，同时记录今日partial与恰好Day+1的无学分preview
+（例如completed为空、partial为[19,20]）。这不推进学分或next_day_index；
+跳卡、第三张partial或Day+2仍被拒绝。正式19完成后改为completed[19]/partial[20]。

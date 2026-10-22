@@ -1,0 +1,491 @@
+{
+  "observed_at_utc": "2026-10-22T07:14:14.857341+00:00",
+  "old_results": [
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/a130-deformation-systematics-result-075.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/agarwal07-pr137-magnetic-rotation-result-054.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/agata-doppler-tracking-response-result-064.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/au187-wobbling-cross-case-result-040.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ba137-double-gamma-result-045.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ba144-ba146-octupole-e1-result-046.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/babra-band-crossing-qt-result-032.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/bethge-bohr-betz-charge-state-result-067.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/bn96-octupole-microscopic-result-060.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ce131-collective-discrimination-result-048.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ce131-li-singh-reconciliation-result-026.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ce131-three-regime-shape-result-033.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiara01-shears-amr-result-052.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-selection-rule-a-result-038.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-selection-rules-prm-result-077.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-staggering-si-atlas-result-078.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/clark00-shears-scaling-result-061.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/crespi13-agata-high-energy-doppler-result-065.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/cs126-chiral-staggering-result-043.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/day20-evidence-map-result-021.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/day20-preview-deformation-result-019.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/day20-weighted-trend-result-020.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ddcm-finite-stopping-result-023.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/degrader-rdds-kinematic-expansion-result-069.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ding12-i127-i128-structure-result-087.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/fe58-woodside-stopping-coulex-result-063.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/fougeres23-velocity-difference-result-051.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gaffney13-rn220-ra224-octupole-result-059.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gamma-soft-rigid-watershed-result-041.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/grodner-three-vector-gfactor-result-027.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/grodner06-128cs-partner-result-035.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/hubel05-amr-cd106-result-062.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ionescu-bujor-tdpad-result-028.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/low-spin-wobbling-systematics-result-076.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/meyer-sigmund-multiple-scattering-result-068.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/mg23-dsam-dvdm-reconciliation-result-085.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/mr-chiral-amr-discrimination-result-080.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/mscd-background-response-result-024.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/mscd-prd-energy-gate-result-070.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd-chiral-evolution-result-042.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd136-chiral-wobbling-crossing-result-049.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nolan-dsam-rdm-overlap-result-029.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nolan79-method-selection-tree-result-073.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nolan79-table5-26mg-multimethod-result-084.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nolan79-table6-21ne-result-083.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/o20-ciemala-zanon-reconciliation-result-056.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/octupole-e1-cancellation-result-079.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/pd105-wobbling-quenching-result-053.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/petrache-hd-deformation-result-030.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/pr136-tac-cdft-deformation-result-086.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/qt-deformation-mapping-result-074.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/radeck-coordinate-bridge-result-025.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/radeck-deorientation-dynamics-result-072.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rather14-ag106-chiral-discrimination-result-055.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/regis11-w-hf-fast-timing-result-082.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/relativistic-rdds-aberration-result-081.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/signature-splitting-coriolis-result-039.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn100-gamow-teller-result-044.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn132-coulomb-excitation-be2-result-057.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/stopping-power-scaling-invariance-result-066.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/suzuki-staggering-driver-result-031.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/tdpad-hyperfine-decoupling-result-071.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/te134-sn132-coulex-lifetime-result-058.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/triaxial-gamma-qt-coupling-result-034.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/wobbling-ibfm-root-degeneracy-result-050.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/wobbling-polarization-delta-result-037.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json",
+      "registry": "rejected-analysis-registry-088.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/a130-matrix-timing-result-103.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ag106-chiral-contrast-result-098.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ce131-project-reaudit-result-102.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-wobbling-timing-result-104.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/consolidation-result-100.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/cross-mass-benchmark-result-099.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/experiment-design-falsification-result-096.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gamma-soft-timing-result-105.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/lifetime-deformation-coupling-result-101.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/method-selection-checklist-result-095.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rare-decay-timing-result-107.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/shape-observable-timing-result-106.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    },
+    {
+      "path": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/tqm-qspec-falsification-result-097.json",
+      "registry": "rejected-analysis-registry-108.json",
+      "exists": true,
+      "hash_match": true
+    }
+  ],
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "startup_log_prefix_preserved": true,
+  "source_review_status_deltas": []
+}

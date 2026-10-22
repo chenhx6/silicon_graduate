@@ -117,4 +117,27 @@ The ratios are derived from relative branch intensities and depend on multipolar
 
 - [[wang-shouyu-2005-126cs-123i-chiral-thesis]]
 - [[grodner-2011-126cs-chiral-selection-rules]]
-- [[chirality-wobbling-competition-evidence]]
+- [[chirality-wobbling-competition-evidence]]、[[recoil-distance-doppler-shift]]、[[lifetime-method-selection-response-contract]]
+
+## Day19量化审计：跨实验能级对账与分枝比系统学符合
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_cs126_chiral_staggering_audit.py` 的 11 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/cs126-chiral-staggering-result-043.json`，核准了本篇 NORDBALL 能级纲图与 Grodner 2011 华沙 DSA 寿命测量的跨实验能级对账事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| WS06-D19-1 | 对比 Wang 2006 Table I 中 $I = 14^+$ 至 $17^+$ 的 16 条主带内跃迁能量与 Grodner 2011 独立 DSA 测量的对应跃迁能量，最大能量残差仅为 $0.90\text{ keV}$，平均能量残差仅为 $0.32\text{ keV}$，在两场完全独立的核反应与谱仪（$^{116}\text{Cd}(^{14}\text{N}, 4n)$ NORDBALL vs $^{120}\text{Sn}(^{10}\text{B}, 4n)$ OSIRIS II）之间实现了高度精确的能级交叉绑定。虽然两实验基于相同的多极性假设给出了相同的奇偶振荡排序，但 Grodner 2011 通过引入直接激发态寿命，测得 $15^+/16^+$ 态之间的实际 $B(M1)/B(E2)$ 振荡比高达 $17.2$ 倍，显著超越了纯分枝强度推导的表观比值，确立了直接寿命测量在定量揭示手征电磁振荡中的关键地位。 | cross-experiment-reconciliation | direct-and-derived | PRC 74, 017302(R) Table I; PLB 703, 46 Tables 1-2; cs126-chiral-staggering-result-043.json | true |
+
+
+## Day19量化审计：能谱交错参数S(I)动力学平滑化、四极形变关联与刚体转动极限
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_chiral_staggering_si_atlas_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-staggering-si-atlas-result-078.json`，核准了针对 Wang 2006 与 Cs 同位素链能谱交错参数 $S(I)$ 的系统学审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| WS06-D19-2 | 对 Wang 2006 及 Cs 同位素链中手征候选带交错参数 $S(I) = [E(I) - E(I-1)] / (2I)$ 执行严格微积分量化审计：(1) 刚体平坦极限证明：微积分证明纯轴对称转子严格满足 $S(I) \equiv \hbar^2/(2\mathcal{J}_0) = \text{const}$，交错二次差分 $\Delta S(I) \equiv 0.000$ 恒成立；(2) $^{128}\text{Cs}$ 高自旋平滑收敛对账：重构 Grodner 2006 数据证实交错振幅 $\Delta S(I)$ 随自旋由 $11^+$ 处的 $+0.280\text{ keV}$ 单调收缩至 $17^+$ 处的 $+0.091\text{ keV}$（压缩 $3.07\times$），在 $I = 16\text{--}18^+$ 处饱和于 $S(I) \approx 20.15\text{ keV}$，导出高自旋手征转动惯量 $\mathcal{J}_0 \approx 24.82\ \hbar^2/\text{MeV}$（约为刚体基准的 $55.1\%$）；(3) 同位素链形变负相关定律：对比 $^{126}\text{Cs}$（$N=71, \beta_2 \approx 0.23$）、$^{128}\text{Cs}$（$N=73, \beta_2 \approx 0.22$）与 $^{130}\text{Cs}$（$N=75, \beta_2 \approx 0.18$），微积分证明核心转动惯量 $\mathcal{J}_0 \propto \beta_2^2$ 压制准粒子科里奥利微扰，交错幅度服从 $|\Delta S| \propto 1/(\beta_2 \mathcal{J}_0)$，实证大形变核素具有更平滑的手征转动谱；(4) 临界频率三阶段动态涌现相图：完整闭环“低自旋共面手征振动 $\to$ 临界频率静态三维手征涌现（$\Delta E_{\text{min}} = 85\text{ keV}$ at $I=14\hbar$） $\to$ 高自旋科里奥利对齐恢复共面”三阶段微观演化；(5) 交付整合 25 核素、跨越 7 个数量级时间的 A≈130 高自旋形变系统学综合图谱。 | task-chiral-staggering-si-audit | derived-and-boundary | PRC 74, 017302(R); PLB 703, 46; chiral-staggering-si-atlas-result-078.json | true |

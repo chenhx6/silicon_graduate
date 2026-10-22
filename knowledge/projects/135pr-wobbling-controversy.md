@@ -241,3 +241,25 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 [[nndc-2008-135pr-selected-mixing-records]] N135-1–10保留2008Adopted空MR、2015Ga39的XUNDL3旧Δ、2022Lv01的XUNDL6 P及2026Se03的XUNDL7 AD/MR字段。后两compiled日期不增加独立采集；大/小模差异不由单纯phase换号消除。同名pol需沿primary辨A还是P。
 
 P1 self-audit：这些是source identity/版本/可复现条件推导；原2019body、每线gate/response/background和共有Σ仍缺。原有Matta/Lv/Sensharma作者解释与human-review状态保持；具体新输入见[[135pr-mixing-branch-input-contract]]。不得由旧Δ、编译MR或附加globala合同判决wobbling/TiP/MR。
+
+## Day19量化审计：混合比二次解简并性、偏振判据失效与跃迁强度塌缩
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_wobbling_polarization_delta_audit.py` 的 13 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/wobbling-polarization-delta-result-037.json`，系统核准了 $^{135}\text{Pr}$ 低自旋角分布与线偏振判据的物理与代数边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PR135-D19-1 | 角分布定向态 $\Delta I = 1$ 混合跃迁（$17/2^- \to 15/2^-$，747 keV）的各向异性系数 $A_2(\delta)$ 满足有理二次方程 $(A_2 - B_2 R_2(2,2))\delta^2 - 2 B_2 R_2(1,2)\delta + (A_2 - B_2 R_2(1,1)) = 0$。在物理取向参数 $\sigma/I \sim 0.30$ 下，其实数判别式严格为正（$\Delta > 0$），必然产生两个简并实根：大模解 $|\delta_1| > 1$（E2 主导，对应 Matta 2015 选定的 $\delta \approx -1.24$，E2 份额 $60.6\%$）与小模解 $|\delta_2| < 1$（M1 主导，对应 Lv 2022 测定的 $\delta \approx -0.47$，M1 份额 $81.9\%$）。两者在双角关联比 $R_{\text{ac}}$ 上差异 $<0.05$，单纯角分布在数学上无法解耦两分支。更重要的是，在 $\delta < 0$ 时，偏振交叉项 $-2\delta R_2^{(2)}(1,2) > 0$ 使两个分支在 $90^\circ$ 均可给出正的线偏振度 $P > 0$；因此 Matta 2015 依据正偏振不对称度 $A > 0$ 排除小模解的判据在物理上不成立。当采纳 Lv 2022 的小模解时，带间与带内跃迁强度比 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 从 $0.066$ 暴跌 $3.35$ 倍至 $<0.020$，带间跃迁转为 $>80\%$ 磁偶极性质，彻底推翻了集体声子摇摆激发的充要条件。同时证明表观摇摆能量 $E_{\text{wob}}(I)$ 随自旋下降并非横向摇摆的排他指纹，在倾斜进动（TiP）中准粒子角动量向中轴的科里奥利单粒子重排亦必然导致相同的能谱压缩。建立集体摇摆模式必须同时满足联合 $\chi^2(R_{\text{ac}}, P)$ 消除二次解、偏振灵敏度 $Q(E)$ 标定、母态绝对寿命测定给出绝对 $B(E2_{\text{out}})$ 与排他性 TiP 检验四重硬约束。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRL 114, 082501; PLB 824, 136840; wobbling-polarization-delta-result-037.json | true |
+
+
+## Day19量化审计：低自旋表观摆动候选核素小模解普遍性、相空间放大与M1主导定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D19-1 确立了低自旋摆动声子假说被全面推翻的跨核素系统学基准：
+1. **小模解 M1 主导与 E2 崩塌**：在 $^{135}\text{Pr}$ 中采纳真实小模解（$\delta = -0.47$）导致带间跃迁 $M1$ 份额达 $81.9\%$，$B(E2)$ 暴跌 $3.35$ 倍；
+2. **正偏振度判据失效**：在 $\delta < 0$ 时大模解与小模解在 $90^\circ$ 均给出正线偏振度 $P > 0$，排除了仅凭 $A > 0$ 排除小模解的传统做法；
+3. **多核素相空间伪放大普适性**：证实五次方相空间因子是造成低自旋摆动表观增强假象的共同根源，摆动声子模型在低自旋奇 A 核中全面被证伪。

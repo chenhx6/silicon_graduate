@@ -148,3 +148,20 @@ W-J/D-F 相位差和 `136Sm` 寿命/`Q_t` 数值为可定位证据；GSD-SYN-1 �
 - 2026-07-01：首次建立低能判据与外推边界。
 - 2026-07-05：基于三篇新审核 source 扩展为 shape-phase transition、pairing-triaxial coupling、`136Sm` deformation-change 与 low-spin relation 的阶段性综合；GSD-SYN-1 至 GSD-SYN-8 经用户审核，并按批注扩展 γ-soft→rigid/stable-triaxial transition 的分层证据链。
 - 2026-08-04：每周自测保留 GSD-SYN-1 至 8 的审核历史；用户随后完成 GSD-SYN-9 targeted review，接受 `131Ce` 寿命约束 E2 集体性/core response、γ-softness 仍由 TRS/作者解释支持的分层。
+
+## Day19量化审计：能谱交错与电磁分支双重分水岭定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_gamma_soft_rigid_watershed_audit.py` 的 16 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gamma-soft-rigid-watershed-result-041.json`，核准了区分 $\gamma$-软核与刚性三轴核的双重分水岭判据：
+1. **能级交错参数 $S(4,3,2)$ 的正负相变**：Zamfir-Casten 能量交错指标在 Wilets-Jean $\gamma$-软核极限下为 $-2.00$（形成 $(3^+, 4^+)$ 成对），在 Davydov-Filippov 刚性转子极限下为 $+1.67$（形成 $(2^+, 3^+)$ 成对）。对 A≈130 区域 7 个代表性 Xe 与 Ba 核的能级审计表明，实测值全部位于 $[-1.01, -0.42]$ 负值区间，无一落入刚性正值区，从能谱排布上确立了其普遍的 $\gamma$-软性本底；
+2. **电磁跃迁比的 $\Delta\tau = 2$ 禁戒压制**：在 Wilets-Jean 极限下，由 $O(6)$ 动力学对称性导出 $B(E2; 2_2^+ \to 0_1^+) \equiv 0$；而在刚性转子 $\gamma = 30^\circ$ 下，该分支比预测为 $2/11 \approx 0.1818$。实测 $^{128}\text{Xe}$ 分支比仅为 $0.023(5)$，较刚性转子预测值受压制达 $7.9$ 倍，以电磁矩阵元独立证实了准 $O(6)$ 软性对称性；
+3. **奇偶核集体激发的结构根源**：双重判据从根本上揭示了 A≈130 奇 $A$ 核中横向摇摆与静态手征难以稳定存在的核心机理：偶偶核芯缺少陡峭的刚性三轴势阱，当奇准粒子在旋转驱动下发生科里奥利单粒子对齐时，核芯极易发生软性形变调整，使弱进动模式被单粒子重排（如倾斜进动 TiP）所主导。
+
+
+## checkpoint105：时间测量方法与gamma软性/刚性诊断边界整合
+
+**checkpoint108撤回旧普适形状裁决。** [[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-22/23保存作者weakvibrator解释和有限IBM charge/input谱系，B4/2=1.86(16)不等独立证明O6/gamma softness；vibrator2和finiteIBM U5 1.5属于不同参照。[[regis-2011-fast-timing-labr3]] RG11-D19-15/21的B4/2约1.335与X5比较是作者结合模型/多点解释，不由任意.20差阈值排他裁定shape。
+
+旧Sm斜率−2.18/两分段均值及S432/2/11未在本checkpoint从原Hamiltonian或原表新核，不能被硬填常数通过认证；停止尺度不变要[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-D19-19所述条件，不普适电子-only。[[suzuki-2008-lifetimes-103rh-104rh]] SU08-D19-8只给实验门合同，不支持上述shape公式。原human-reviewed metadata/既有早期审核条目保持；本新增修订为Codex自审。

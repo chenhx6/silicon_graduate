@@ -1,0 +1,5 @@
+# checkpoint108 primed audit before source reopening
+Same Day19 original run/session/15:00Shanghai deadline; strongly primed by095–107 and008/088–094. Not blind.
+Explicitly suspect: clock mechanism labels cannot prove covariance zero; electronic-only stopping cannot imply alltime scaling; fixed time windows/15pct chirality/20Wu wobbling cannot be universal; member-count or passedTrue tests do not certify science. Within-parent BM1/BE2 cancels any shared tau_i irrespective of otherstates' stopping response, but branch/mixing/response need separate audit.
+Li/Singh candidate fixedK ratio is not exactly printedQt ratio nor actualproducer. Qspec/Qt/Q0 from differentstates cannot become shape ladder by conditional axialconversion. 0.72ps Rh stateidentity and45.4ps Ndidentity need actualtables; angularfrequency is rad/s not ordinaryMHz.
+Need archive and withdraw095–107 unsupported scientificcertification while preserving originalJSONs/review/raw. ActualRadeck091/Nolan092/Regis094 scopes survive as scope only. No new data/CI from exercise.

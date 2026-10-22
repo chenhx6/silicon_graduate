@@ -1,0 +1,4 @@
+# checkpoint113 primed GCD pooling design
+SameDay19/session/original15:00Shanghai deadline, strongpriming by2015GCD112 andPRDgraph/109/111, no blindtest/newexperiment.
+Currenthighinfoissue: Eq11 unweightedpairmean vs rawcountpool; samepairbothroleshift cancelsperpair but ifw_plus!=w_minus shiftschangeDeltaCpool. Matchedcalibratorweights orcorrectreweighting canrecoverresponse; do notassertactualFATIMA violatesassumptions.
+Modeltwoacceptedpairs withpromptcommoncenters[-30,30]ps andpairPRDs[-20,40]ps, targettau20ps; scalarcalibratorweights[.5,.5]yieldPRD10ps. Targetroleweights[.8,.2]bothroles yieldsmeanPRD-8ps, usingcalibrator10bias-9ps. Roleweightsplus[.8,.2],minus[.2,.8]canalsobreakalignmentinvariancebefore/aftercentering unlessmeanPRDupdated. Needgeneralweightedformula, per-pair normalization andmaskcontrol, independentGaussian+signedexponentialMC andnoisebudget. NoactualfitCI/unknownweightsfilled.

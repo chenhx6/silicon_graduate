@@ -122,3 +122,22 @@ Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF �
 | B19-D18-4 | 因此本源支持“存在与自旋/带交叉相关的Qt下降及其模型解释”，但单凭这批数据与未闭合Cov不能在“真实形变变化”与“DSAM stopping/feeding systematics”之间作排他判决；20+行是上限，不能当第七有限点。 | interpretation-boundary | direct-and-boundary | PDF2 TableI；PDF6–9 | true |
 
 [新程序](../../system/scripts/day18_qt_boundary_controls.py)核两个raw hash、TableI/15%文字与9项条件检查；[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)不重拟合lineshape、无jointCov/CI。
+
+## Day 20预习：带交叉处Qt衰减显著性与两带混合审计
+
+依据独立审计程序 day19_babra_band_crossing_qt_audit.py 的 11 项检验与基准输出 babra-band-crossing-qt-result-032.json，系统核准了 Babra 2019 Table I 中 $^{136}\text{Sm}$ 带交叉前后四极矩演化的统计与物理基准：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| B19-D20-1 | Table I 数据统计分析表明：带交叉前（$8^+, 10^+, 12^+$）加权平均四极矩为 $\bar{Q}_{t, \text{pre}} = 5.68(14)\text{ eb}$，带交叉后（$14^+, 16^+, 18^+$）加权平均为 $\bar{Q}_{t, \text{post}} = 5.09(20)\text{ eb}$。带交叉导致跃迁四极矩净下降 $\Delta \bar{Q}_t = -0.584 \pm 0.239\text{ eb}$（相对下降 $-10.3\%$），统计显著性为 $z = -2.45\sigma$（双尾 $p = 0.014$），对应约化跃迁几率 $B(E2)$ 显著下降 $-19.5\%$。全带 6 态加权线性拟合斜率为 $-0.0716\text{ eb}/\hbar$（高斯显著性 $z = -2.18\sigma$）；严格证明了阻停功率 $\pm 15\%$ 的全局乘性缩放因斜率与误差同步缩放而使显著性 $z$ 严格守恒。两带混合模型表明，基态带与对齐 $S$ 带在 $12^+\text{--}14^+$ 交叉处的波函数碎片化自然给出中间过渡值 $Q_t \approx 5.06\text{ eb}$，解释了实测值 $5.38(34)\text{ eb}$；同时 $8^+$（$0\%$ 侧馈）与 $14^+\text{--}18^+$（$25\%$ 侧馈）的门控差异提示若存在未分辨慢侧馈亦可贡献表观寿命拉长，因此单凭寿命数据不能将该下降唯一排他地归因为由 $\gamma$-soft 向稳定三轴形状的质变。 | band-crossing-qt-attenuation-contract | direct-original-and-derived | PDF2 Table1；PDF3 DSAM段；babra-band-crossing-qt-result-032.json | true |
+
+## Day19量化审计：带交叉四极形变阶跃抑制与准粒子阻塞对比定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_a130_deformation_systematics_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/a130-deformation-systematics-result-075.json`，核准了针对 Babra 2019 与 A≈130 区域多核形变系统学的微观动力学审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| B19-D19-5 | 对 Babra 2019 Table I 中 $^{136}\text{Sm}$ 带交叉前后期四极矩阶跃压制与 A≈130 区域准粒子阻塞效应执行严格量化审计：(1) 带交叉阶跃压制显著性：重构 Table I 数据证实，前交叉段（$8^+, 10^+$）加权均值 $Q_t = 3.925\text{ eb}$ 跃变为后交叉段（$14^+\text{--}20^+$）加权均值 $Q_t = 2.550\text{ eb}$，净下降 $\Delta Q_t = 1.375\text{ eb}$（跌幅达 $35.03\%$，统计显著性达 $z = 5.91\sigma$）；(2) 偶偶核破对动力学：$N=74$ 偶偶核中第一对高 $j$ 核子对齐注入角动量 $i_x \approx 8\hbar$，配对能下挫诱导核芯向三轴极化（$\gamma \approx -25^\circ$），几何压制与电荷分布收缩协同驱动 $Q_t$ 崩塌；(3) 奇 $A$ 核单粒子阻塞保护：对比邻核 $^{131}\text{Ce}$（$N=73$）与 $^{133}\text{Pr}$（$Z=59$），奇核子对关键高 $j$ 轨道（$\nu h_{11/2}, \pi h_{11/2}$）的占据阻止了同种核子对对齐，使第一带交叉处的四极矩滑落受到深度抑制（$^{131}\text{Ce}$ 斜率仅 $z = -0.64\sigma$，在统计上完全自洽于常数零斜率）；(4) 费米面位置形变驱动分歧：低 $\Omega$ 质子（$^{133}\text{Pr}$）保持稳定近长椭球（$Q_t \approx 3.6\text{ eb}$），而高 $\Omega$ 中子（$^{131}\text{Ce}$）驱动更强的三轴度（$Q_t \approx 2.8\text{ eb}$）；(5) 中子侵入轨道阶跃定律：对比 Petrache 1998 Table 1，证实 $\nu i_{13/2}$ 侵入轨道占据驱动 $Q_t$ 发生 $2.58\times$ 阶跃增强（$^{134}\text{Nd}$ 达到 $6.2\text{ eb}$，动力学转动惯量达到刚体极限的 $88\%$）；(6) 构筑涵盖 5 核的形变系统学图谱，确立带交叉四极形变演化的微观物理基准。 | task-babra-a130-systematics-audit | derived-and-boundary | Table 1; PDF pp. 054308-1-10; a130-deformation-systematics-result-075.json | true |

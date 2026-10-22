@@ -206,3 +206,32 @@ Next corpus sources should test whether later `134Pr/135Nd` chiral-band labels m
 新[六行合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/finite-stopper-input-contract-006.json)、[程序](../../system/scripts/day18_rdds_companion_contract.py)/[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/rdds-companion-result-006.json)严格核raw hash，保中心数值，不拟合原谱/原Σ。初draft只重复旧单行算术并把若干事实写为boolean checks，已在发布前替换为真实六行敏感性分析；不把旧18%算术或该draft的“6checks”计新证据。所有旧KL99 rows/reviewflags保持，新四条待审。
 
 与[[rather-2014-ag106-transition-rates]]的samelevel边界分开。写回[[doppler-shift-attenuation-method]]与[[lifetime-strength-audit-165tm-136nd]]，只作当前DSAM的独立性/系统误差companion，不开启RDDS/fast-timing完整课卡。进一步需要实际distance spectra、slowing模型分支、逐ring/gate拟合Cov和samelevel身份，不能把小ratio变化当所有系统已取消。
+
+
+## Day19新原读：DDCM门条件与相对坐标
+
+本session承认旧Day13/Day18暴露后，新读十页全文文本主线；实际视觉核PDF2–5的Eqs1–4、Figs1–4及TablesI–III，未把其余图算成新视觉阅读。raw SHA256仍2a6dfcdac12de9dbf61b2a63c274aed8e286249a3dd28d1a2c6c5a46f1c00604。以下新增self-audit不改变上方历史scope、review或任何旧claim flag。这里source_independence为本实验与Radeck/Nolan的distinct-data comparison；同本文rings/gates共享距离、速度和停止校准。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D19-1 | Eq1间接门为τ=(I_su^CA−αI_su^CB)/(dI_ss^CA/dx)/v；Eq2的α为两级联总强度之比；单一直接feeding门Eq3为τ=I_su^BA/(dI_ss^BA/dx)/v。s/u各标志feeder与decay的shifted/unshifted，不是任意单谱的总survival。 | gate-formalism | direct-original | PDF2 Eqs1–3、SecIII；Figs1–2 | true |
+| KL99-D19-2 | 作者以τ(x)非平坦诊断系统误差，并称理想情况下四ring×直接/间接两门提供八个独立值；实际统计门/污染各异。共享distance gain、v和停止输入仍须单独计Cov，平坦性不能排除共同尺度偏差。 | diagnostic-and-independence-boundary | direct-and-task-derived | PDF2 Eq3后段至PDF3首段；PDF4误差段 | true |
+| KL99-D19-3 | PDF4明确将短于1ps的可测性归于延迟feeding与高统计；最近距离5μm不是通用τ≥dmin/v下限。短τ仍需约1.1ps Au慢化修正，TableI六行校正不等比例，电子stopping+30%分支进入adopted不对称误差。 | method-window-and-material-boundary | direct-original | PDF1 SecII；PDF3 TableI及下方两栏；PDF4 Fig3下方、TableII | true |
+| KL99-D19-4 | 本任务理想branch-one模型：dF_A/dt=p_A/τ_A；直接门用p_A，间接门用1−F_A−S_B。二者可消去所选feeder分布但依赖门纯度、完整分量、共同归一与正确α。常数x原点平移不改导数比；distance gain1.02却使τ2ps成为全程平坦2.04ps。不是原数据重拟合。 | conditional-rate-reconstruction | task-derived-from-method | PDF2 Eqs1–3；ddcm-gate-contract-result-013.json | true |
+
+Knowledge Impact and Learning Decision：limits固定方法窗与“八值完全独立/平坦即无系统误差”的外推；supports以真实gate、rate derivative及finite-stopping作为选择合同。[[recoil-distance-doppler-shift]]和[[lifetime-method-selection-response-contract]]保存新106项条件控制。实际distance spectra、导数平滑/联合Cov、逐门eff与transport仍缺；不产原实验fitCI。
+
+## checkpoint089：六行修正与电子停止分支
+
+本轮定向读PDF2–3，视觉核PDF3 TableI/caption及两栏finite-stopping段；不是又一次独立原实验。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D19-5 | TableI六非空tau_corr行依次为1.38→1.63、.85→1.03、1.04→1.24、.58→.71、.47→.59、.55→.68ps；原作者说采用停止输入下mean slowing time约1.1ps，电子stopping+30%仍可合理描述谱、standard与adopted之差约减半。没有给每条实际新tau/完整trajectory/Cov；不能把仅电子分量+30%当全速度域total stopping统一×1.3，或据此认实际stop time=.846ps。旧chosen half-correction chart的小Qt比变化不认证所有系统误差抵消。 | literal-correction-and-nuisance-domain | direct-original-and-boundary | PDF3 TableI/caption and finite-stopping paragraphs | true |
+
+
+## checkpoint108：身份、频率与校准的直接原读纠正
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D19-6 | 134Nd2g+294keV采用tau94.4(30)ps，非45.4ps；六个finite-stopping更正行属于不同较短tau态，不能将1.181–1.255统一附到2+或所有nuclei。PDF3明确Au mean slowing约1.1ps与电子stopping+30%替代，不是停止独立。 | direct-scope-and-correction | direct-original-and-bounded-arithmetic | PDF3 TableI; PDF4 TableII | true |

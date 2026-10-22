@@ -121,3 +121,14 @@ GANIL110.8(.4)MeV24Mg、3He约2×10¹⁷cm−2，植入约.1µm；5.0(.5)µmAu�
 原XLSX全25点/作者displayerrors逐字节hash与旧表逐行对齐。TH1D横轴为点index，只是逐点和的接口载体，不推原bin边界。source没有modelerrors，fallback与zero均声明假设，不能称其中一种是原MC统计。source输入/curve未改，ROOT的低count/forcedUU告警保在[stderr](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/fougeres2023-graph-root-stderr.txt)。无窗口搜索、原τ重fit或CI。
 
 只改content而让GetBinError重新取sqrt，会改变effectiveMCstat；另actualScale一起缩variance的对照说明为什么normalizer与errorhistory要共同保存。该新native查询不提供额外独立实验或原paperfit吻合，不把某个结果接近图中χ²/ndf当作job已识别。
+
+## Day19量化审计：速度差多普勒方法、系统误差传递与天体共振强度协方差
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_fougeres23_velocity_difference_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/fougeres23-velocity-difference-result-051.json`，核准了多普勒速度差寿命测量及其向天体核共振强度的误差传递链：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F23-D19-1 | 对 Fougères 2023 采用的多普勒速度差法（EVASIONS）及其向天体核共振强度的传递链进行严格量化审计。从靶核 $^{22}\text{Na}(3^+)$ 与质子 $(1/2^+)$ 自旋严格导出统计因子 $g = 4/7 = 0.5714$。单测寿命 $\tau = 11.0\text{ fs}$ 与质子分支比 $B_p = 0.68\%$ 导出共振强度 $\omega\gamma = 0.230930\text{ meV}$，与作者推荐组合值 $0.241766\text{ meV}$ 高度自洽。Table 1 系统误差预算正交求和严格为 $26.525\%$（正文标称 $26\%$），其中阻停功率 $20\%$ 不确定度引入 $10\%$ 的寿命系统误差下限（$d\ln\tau/d\ln S \approx 0.5$），排除了飞秒多普勒方法具备零阻停依赖的假定。统计误差（$\approx 50\%$）在飞秒域显著超过系统误差，而质子分支比 $B_p$ 相对早期旧数据跃升 18.4 倍，是驱动天体共振强度修正的压倒性支配源。 | task-velocity-difference-and-strength-audit | derived-and-boundary | main PDF3 Table 1; fougeres23-velocity-difference-result-051.json | true |

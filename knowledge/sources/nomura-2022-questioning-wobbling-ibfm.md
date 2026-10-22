@@ -158,3 +158,14 @@ Navigation only: cross-source ownership remains in [[low-spin-wobbling-controver
 | NOM22-D18-6 | 原文用alternative/questioning措辞，105Pd的冲突结果使其本性仍open；未用原角分布/偏振response重拟合并排所有分支，也未证明实际TiP取向。数据/模型producer与联合误差缺口限制结论。 | interpretation-boundary | direct | PDF7讨论；PDF10 Concluding；[[timar-2019-transverse-wobbling-105pd]] TI19-D18-3 | true |
 
 此次独立worker完整11页文字主线，TableII视觉；主代理核TableII视觉/定向原方法文字，未重新视觉读取所有图。原raw SHA256 `e61e3dd6fe5e67fb55543f3a136c7cce0fda98ad01f112d81d5eef70b613465f`保持。模型与原data独立性分层，不重报CI。
+
+## Day19量化审计：IBFM软核平均场映射与M1主导性微观机制
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_wobbling_ibfm_root_degeneracy_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/wobbling-ibfm-root-degeneracy-result-050.json`，核准了 IBFM 针对四个 $\gamma$-soft 奇 A 核低自旋摆动声称的替代微观机制：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| NOM22-D19-1 | 综合分析 $^{135}\text{Pr}, ^{133}\text{La}, ^{127}\text{Xe}, ^{105}\text{Pd}$ 的 EDF-IBFM 计算结果，微观矩阵元分解严格证明：偶偶玻色子芯（具有平坦 $\gamma$-软势能面）压倒性贡献了电四极 $E2$ 矩阵元，而单个未配对费米子（$1h_{11/2}$）支配了磁偶极 $M1$ 矩阵元。在实验室系中通过微观耦合对角化，非 yrast 带到 yrast 带的跨带跃迁天然表现出强烈受限的混合比（$|\delta| < 1$）与普遍的 $M1$ 主导性（$f_{M1} > 80\%$），直接再现了采用真实小模解或最新偏振实测的实验事实，排除了必须引入几何摆动声子的排他性假定。 | task-ibfm-mechanism-audit | derived-and-boundary | PDF pp.6-10 Figs.7-13 Table II; wobbling-ibfm-root-degeneracy-result-050.json | true |

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "root": "/workspace/wiki",
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "required_dirs": {
+      "expected": [
+        "raw",
+        "knowledge",
+        "outputs",
+        "system",
+        "tools",
+        "tmp"
+      ],
+      "missing": []
+    },
+    "forbidden_dirs": {
+      "expected_absent": [
+        "docs/plans"
+      ],
+      "present": []
+    },
+    "moved_knowledge": {
+      "outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md": {
+        "old_exists": false,
+        "canonical": "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "canonical_exists": true
+      }
+    },
+    "outputs": {
+      "allowed_roots": [
+        "degree-dissertation",
+        "high-spin",
+        "l3",
+        "l4",
+        "learning-daily",
+        "learning-milestones",
+        "learning-weekly",
+        "literature-acquisition",
+        "paper-cards",
+        "plans",
+        "self-tests"
+      ],
+      "unknown_roots": [],
+      "knowledge_page_types_in_outputs": []
+    },
+    "qmd": {
+      "checked": true,
+      "available": true,
+      "command": [
+        "/opt/qmd/bin/qmd",
+        "collection",
+        "show",
+        "nuclear-knowledge"
+      ],
+      "exit": 0,
+      "path": "/workspace/wiki/knowledge",
+      "pattern": "**/*.md"
+    }
+  }
+}

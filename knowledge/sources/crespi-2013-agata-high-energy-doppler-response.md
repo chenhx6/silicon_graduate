@@ -126,3 +126,14 @@ preprint pp.1–2 motivation/setup，pp.3–5 calibration/multiplicity，pp.6–
 ## Evaluated-width and photon-reference follow-up
 
 [[tunl-2017-12c-level-widths]] T12C-1/2/3提供onlineevaluation的15.110MeVleveltotalΓ43.6eV、Γγ0=38.5eV、Γγ41.8eV及γ-subsetbranch92%context。该评价与本篇119keV谱宽回答不同observable；不当新β测量，shared/deducedwidths和online2020companion版本边界保留。[[doppler-correction]] 的free-photonrecoil/parent-vs-daughterframeexercise显示levelgap与restγenergy不是完全同物，但本篇rounded15.1MeV不能确定exactsortinginput，未据此宣称本分析有offset或normalization错误。
+
+## Day19量化审计：反冲速度方差底限、电子对产生径迹失效与逃逸峰多普勒响应
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_crespi13_agata_high_energy_doppler_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/crespi13-agata-high-energy-doppler-result-065.json`，核准了 AGATA 高能光子多普勒响应与跟踪算法边界事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CR13-D19-1 | 对 Crespi 2013 针对高能 $15.11\text{ MeV}$ 光子在 AGATA 中的多普勒响应进行严格量化审计：(1) 反冲速度方差底限定理：实测多普勒校正后 $15.11\text{ MeV}$ 峰展宽从探头中心（$>160\text{ keV}$）和分段中心（$122\text{ keV}$）改善至全 PSA 波形分析（$119\text{ keV}$），但 PSA 相比分段中心仅带来微弱的 $2.46\%$（$3\text{ keV}$）改善；微观去卷积证明，未逐事件测量反冲核速度矢量导致的运动学弥散贡献了高达 $W_{\text{recoil}} = 116.5\text{ keV}$ 的刚性方差底限（占总线宽的 $97.9\%$），实证了单靠精细化光子位置无法穿透反冲弥散底限的物理法则；(2) 电子对产生区径迹跟踪失效：在 $15\text{ MeV}$ 能量下，电子对产生截面超过康普顿散射 3 倍以上；由于正负电子湮灭产生的两颗 $511\text{ keV}$ 光子具有背对背（$180^\circ$）发射几何，严重违背康普顿散射前向偏角假设，导致标准 MGT 跟踪算法损失了 $75\%$ 的全能峰计数（相对 Add-Back + PSA 保留率仅 $25\%$），证明高能对产生区简单能量累加优于标准康普顿跟踪；(3) 逃逸峰运动学：单逃逸峰（$E = 14599.0\text{ keV}$）与双逃逸峰（$E = 14088.0\text{ keV}$）的多普勒展宽与全能峰严格协变；确立了高能 Doppler 测量必须匹配磁谱仪（如 VAMOS/PRISMA）提供事件级反冲矢量方能实现亚 10 keV 极限分辨率。 | task-high-energy-doppler-audit | derived-and-boundary | preprint PDF pp.6-9 Table 2 Figs.10-11; crespi13-agata-high-energy-doppler-result-065.json | true |

@@ -1,0 +1,54 @@
+{
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "original_results": {
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/a130-matrix-timing-result-103.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ag106-chiral-contrast-result-098.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ce131-project-reaudit-result-102.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-wobbling-timing-result-104.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/consolidation-result-100.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/cross-mass-benchmark-result-099.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/experiment-design-falsification-result-096.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/gamma-soft-timing-result-105.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/lifetime-deformation-coupling-result-101.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/method-selection-checklist-result-095.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rare-decay-timing-result-107.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/shape-observable-timing-result-106.json": true,
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/tqm-qspec-falsification-result-097.json": true
+  },
+  "retired_only_guard": {
+    "system/scripts/day19_method_selection_and_minimal_checklist095.py": true,
+    "system/scripts/day19_experiment_design_falsification096.py": true,
+    "system/scripts/day19_tqm_qspec_falsification097.py": true,
+    "system/scripts/day19_ag106_chiral_contrast_audit098.py": true,
+    "system/scripts/day19_cross_mass_benchmark099.py": true,
+    "system/scripts/day19_consolidation_audit100.py": true,
+    "system/scripts/day19_lifetime_to_deformation_coupling101.py": true,
+    "system/scripts/day19_ce131_project_reaudit102.py": true,
+    "system/scripts/day19_a130_matrix_timing_contract103.py": true,
+    "system/scripts/day19_chiral_wobbling_timing_audit104.py": true,
+    "system/scripts/day19_gamma_soft_timing_audit105.py": true,
+    "system/scripts/day19_shape_observable_timing_contract106.py": true,
+    "system/scripts/day19_rare_decay_timing_contract107.py": true,
+    "system/scripts/day19_update_report095.py": true,
+    "system/scripts/day19_update_report096.py": true,
+    "system/scripts/day19_update_report097.py": true,
+    "system/scripts/day19_update_report098.py": true,
+    "system/scripts/day19_update_report099.py": true,
+    "system/scripts/day19_update_report100.py": true,
+    "system/scripts/day19_update_report101.py": true,
+    "system/scripts/day19_update_report102.py": true,
+    "system/scripts/day19_update_report103.py": true,
+    "system/scripts/day19_update_report104.py": true,
+    "system/scripts/day19_update_report105.py": true,
+    "system/scripts/day19_update_report106.py": true,
+    "system/scripts/day19_update_report107.py": true
+  },
+  "guard_probe": {
+    "returncode": 1,
+    "retirement_message": "Retired by checkpoint108: superseded scientific certification; see rejected-analysis-registry-108.json and archived original in superseded-content-108.json.",
+    "did_not_write": true
+  }
+}

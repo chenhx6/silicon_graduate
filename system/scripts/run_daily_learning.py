@@ -632,11 +632,18 @@ def parse_curriculum_coverage(report_text: str, starting_day_index: int) -> dict
     if completed != expected_completed:
         return {"valid": False, "error": "completed day cards must form a contiguous sequence from the requested day"}
     expected_partial_day = starting_day_index + len(completed)
-    if partial and partial != [expected_partial_day]:
+    # A primary card can await its closeout gate while Day+1 knowledge has
+    # already been previewed. Neither partial card grants credit or advances
+    # state. This does not admit Day+2 or a skipped primary card.
+    pending_primary_preview = (
+        not completed and starting_day_index < TOTAL_DAYS
+        and partial == [starting_day_index, starting_day_index + 1]
+    )
+    if partial and partial != [expected_partial_day] and not pending_primary_preview:
         return {"valid": False, "error": "at most the first incomplete day card may be marked partial"}
     if len(completed) > 2:
         return {"valid": False, "error": "a single run may complete only its requested card and one forward card"}
-    if not completed and partial != [starting_day_index]:
+    if not completed and partial != [starting_day_index] and not pending_primary_preview:
         return {"valid": False, "error": "the requested day must be completed or explicitly marked partial"}
     for completed_day in completed:
         audit_marker = f"- Day {completed_day} card audit: complete"

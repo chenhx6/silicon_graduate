@@ -1,0 +1,4 @@
+# checkpoint094 primed recall before Régis original methods
+SameDay19 run/session and2026-10-22 15:00Shanghai research deadline. Strong priming by oldpreview and009/010/088/092; notblind or independentdata.
+Need actualsource methods mainline not inherit105pagefullread assertion. Read contents first, then detector/electronics, delayedcoincidence/centroid/MSCD, PRD calibration and background appendices/conclusions. Actualtexts/visuals logged separately. Focus equations3.8-3.13 signedreference and roleidentification, FWHM versuscentroidSE, energygate/fullenergy-Compton, PMT/CFDsettings, backgroundmixture/branchspecificalpha, errors/Cov andactualsource setup. Eq3.16 literal mirror relation suspect; mustdeclareprompt/reference/lifetime roles before algebra.
+Nooriginalevent/fullCov => readiness notrealCI. Avoid exactsameenergy role ambiguity hidden by formalDeltaE0. Freshscopemustnot upgrade humanreview orremoveflags. NoDay21/noearlypublication.

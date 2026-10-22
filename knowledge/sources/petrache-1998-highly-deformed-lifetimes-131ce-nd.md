@@ -236,10 +236,29 @@ PE98-14–19均needs_review true。原PE98-1–13/AR/triage保留；两个Qsf问
 
 ## Day 20预习：高度形变带侵入轨道极化与转动离心收缩抵消核验
 
-本段为 2026-10-21 Day 19 延续轮开展的 Day 20 有边界预习成果（保持 needs_review: true，不设 human-reviewed）。针对 Table 1 中五条高度形变带的电荷四极矩与微观侵入轨道占据数关系开展严格核验：
+checkpoint008修订：原新段未经新raw读取却称direct-original的范围声明撤回。本次实际文本读PDF3–4（R12–R13）；TableI视觉另记scope。旧PE98-1–19及flags保持。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| PE98-D20-1 | 证实 Petrache 1998 Table 1 中五条高度形变带测定的电荷四极矩 Q0（134Nd 为 6.8(3) 与 6.4(4) eb，135Nd 为 7.3(10) eb，131Ce 为 7.3(4) eb）本质为带内全能级平均常数（spin-independent constant Q0）；实验未能测定逐跃迁个别寿命，因而无法直接证实推转 Strutinsky 预测的随自旋 20% 离心收缩。 | constant-q0-fit-boundary | direct-original | PDF pp.3–4 / journal pp.R12–R13 | true |
-| PE98-D20-2 | 澄清新增侵入中子 nu i13/2 轨道的形变极化力与离心转动收缩相互抵消的物理机理：134Nd 激发高度形变带跨入 2 条占据的 nu i13/2 组态后，Q0 = 6.4(4) eb 反略低于单侵入带的 6.8(3) eb，证伪简单线性可加性假设。 | intruder-polarization-cancellation | direct-original-and-derived | PDF p.4 / journal p.R13 | true |
-| PE98-D20-3 | 确立高度形变带推导的 beta2（0.33–0.38）严格依赖无三轴性（gamma = 0 deg）的轴对称假设；若核体系具备显著动态 gamma 软度或非轴对称性，实验测得的 Q0 包含多极非对角交叠，不能直接视为几何形变标尺。 | deformation-model-dependency | direct-original | PDF p.3 Table 1 caption | true |
+| PE98-D20-1 | 作者用spin-independent Q0和Qsf拟合F；Band3也尝试lower/upper分段与单一5.0(3)eb替代fit。统计不足以测逐跃迁寿命或firm选分段；不是五条带的所有可能分析都只有一个平均值。 | fit-scope-boundary | direct-original | PDF3–4 printedR12–R13 | true |
+| PE98-D20-2 | 收缩与新增i13/2极化相互补偿是作者基于推转计算的定性解释；6.4(4)与6.8(3)的中心次序不证明精确抵消，亦不普遍证伪可加性。HD excited低/高段占据不同，不能把整带简化成纯2-neutron控制。 | author-interpretation-and-boundary | direct-original | PDF4 printedR13 compensation paragraphs | true |
+| PE98-D20-3 | TableI的β2明确assuming no triaxiality；此条件不提供一般三轴Qt→β映射或γ刚性测量，也不支持旧段所称特定非对角交叠机制。 | shape-mapping-boundary | direct-original | PDF3 printedR12 TableI caption | true |
+
+## Day 20预习：高度形变带四极矩转换、转动收缩与侧馈级联审计
+
+依据独立审计程序 day19_petrache_hd_deformation_audit.py 的 16 项检验与基准输出 petrache-hd-deformation-result-030.json，系统核准了 Petrache 1998 Table I 中高度形变带的形变转换与理论收缩响应：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE98-D20-4 | Table I 中内禀四极矩 $Q_0$ 到 $\beta_2$ 的转换采用 $r_0 = 1.25\text{ fm}$ 半径常数与截断二阶多项式 $\beta_2(1 + 0.16\beta_2)$，精确复现了报告的形变值（$^{134}\text{Nd}$ yrast HD: 0.35；excited HD: 0.33；band 3 lower: 0.26；$^{135}\text{Nd}$ HD: 0.37；$^{131}\text{Ce}$ HD: 0.38；$^{132}\text{Ce}$ HD: 0.38）。若采用 $r_0 = 1.20\text{ fm}$，导出的 $\beta_2$ 产生 $+8.1\%$ 的系统性尺度偏移，显著大于实验统计误差（$2\%\text{--}5\%$），证明跨文献形变对比必须统一核半径约定。在拓展 Cranked Strutinsky 计算中，全部 5 条高度形变带均显现强烈的转动离心收缩（$Q_0^{\text{the}}$ 随自旋上升平均下降 $-13.9\%$，$^{134}\text{Nd}$ yrast HD 达到 $-20.3\%$）；该收缩效应在理论上与 $\nu i_{13/2}$ 侵入轨道的长椭极化相互补偿，使实验有效带内 $Q_0$ 表现为近似恒定。侧馈四极矩 $Q_{\text{sf}}$ 在 HD 带呈现强集体快级联（$Q_{\text{sf}}/Q_0 \approx 0.82\text{--}0.88$），而在正常形变 Band 3 呈现慢级联（$Q_{\text{sf}}/Q_0 \approx 0.51$），排除了普适未分辨馈入时延假设。 | deformation-convention-and-shrinkage-contract | direct-original-and-derived | PDF3 Table1；PDF4 SecIV；petrache-hd-deformation-result-030.json | true |
+
+## Day19量化审计：高度形变带中子侵入轨道形变阶跃与同靶阻停对消定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_qt_deformation_mapping_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/qt-deformation-mapping-result-074.json`，核准了针对 Petrache 1998 高度形变带寿命与四极矩提取的系统学审计：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PET98-D19-1 | 对 Petrache 1998 Table 1 中 A≈130 区域高度形变（HD）带跃迁四极矩 $Q_t$ 提取执行严格量化审计：(1) 中子侵入轨道阶跃定律：在 $^{134}\text{Nd}$ 中，内禀四极矩随占据的中子 $\nu i_{13/2}$ 侵入轨道数呈严格阶梯状单调增强：0 侵入轨道（yrast 带）为 $Q_t = 2.4(4)\text{ eb}$（$\beta_2 \approx 0.18$），1 侵入轨道（Band 2）为 $Q_t = 3.9(6)\text{ eb}$（$\beta_2 \approx 0.28$），2 侵入轨道（Band 1）跃升至 $Q_t = 6.2(7)\text{ eb}$（$\beta_2 \approx 0.40$），相对形变增强比达 $Q_t(\text{Band 1}) / Q_t(\text{yrast}) = 2.58 \pm 0.52$；(2) 单反应同靶阻停绝对对消定理：由于 $^{134}\text{Nd}$、$^{135}\text{Nd}$ 与 $^{131}\text{Ce}$ 均由单一实验反应（$^{28}\text{Si}+^{110}\text{Pd}$ 于 $132\text{ MeV}$）在同一金背衬靶上布居，三核及各能带间的相对四极矩比值（如 $^{131}\text{Ce}$ HD 带 $4.5\text{ eb}$ 对 $^{134}\text{Nd}$ HD 带 $6.2\text{ eb}$ 比值为 $0.726$）对介质阻止截面模型常数比例因子 $k$ 严格具有一阶导数恒为零的数学刚性（$d(Q_{t,1}/Q_{t,2})/dk \equiv 0$），阻止表整体漂移无法推翻高形变侵入轨道增强定理。 | task-petrache-hd-deformation-audit | derived-and-boundary | Table 1; PDF pp. R10-R14; qt-deformation-mapping-result-074.json | true |

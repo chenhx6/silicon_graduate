@@ -47,7 +47,7 @@ Post-accelerated `650 MeV 144Ba` was Coulomb excited on a `1.0 mg/cm² 208Pb` ta
 
 GOSIA varied E1/E2/E3 matrix elements, with 70 elements for states up to `14+`/`15−`; rigid-rotor coupling reduced the free parameters and existing lifetimes/branching ratios constrained E2/E1 values (pp.3–4, Fig.2). The independent `134Xe` `4+→2+ / 2+→0+` yield check gives calculated `0.077` versus measured `0.078(4)` (p.3).
 
-The central result is `⟨3−||M(E3)||0+⟩=0.65^{+0.17}_{−0.23} eb^{3/2}`, or `B(E3;3−→0+)=48^{+25}_{−34} W.u.` (Table I, p.4). The fitted intrinsic octupole moment is `Q3=1.73^{+0.45}_{−0.62}×10³ efm³`; with `β2=0.18` the inferred `β3=0.17^{+0.04}_{−0.06}` (p.4). Upper limits only are obtained for `2+→5−` and `4+→7−` E3 links. The E1/E3 relative sign is an assumption; changing it shifts the main E3 element by about 10% (p.4).
+The central result is `⟨3−‖M(E3)‖0+⟩=0.65^{+0.17}_{−0.23} eb^{3/2}`, or `B(E3;3−→0+)=48^{+25}_{−34} W.u.` (Table I, p.4). The fitted intrinsic octupole moment is `Q3=1.73^{+0.45}_{−0.62}×10³ efm³`; with `β2=0.18` the inferred `β3=0.17^{+0.04}_{−0.06}` (p.4). Upper limits only are obtained for `2+→5−` and `4+→7−` E3 links. The E1/E3 relative sign is an assumption; changing it shifts the main E3 element by about 10% (p.4).
 
 ## Interpretation and Limitations
 
@@ -92,3 +92,14 @@ Bucher *et al.* provide a direct E3 benchmark that is materially stronger than r
 ## Extracted Pages
 
 - Nucleus/method: `144Ba`, [[coulomb-excitation]], [[octupole-deformation]], [[octupole-correlation]]。
+
+## Day19量化审计：直接B(E3)与Q3测量、内禀电八极矩与形变反演
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_ba144_ba146_octupole_e1_audit.py` 的 9 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/ba144-ba146-octupole-e1-result-046.json`，系统核准了 Bucher 2016（PRL 116, 112503）关于 $^{144}\text{Ba}$ 直接八极库仑激发的量化事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU16-D19-1 | Bucher 2016 在 ATLAS 装置上利用 $650\text{ MeV}$ 的 $^{144}\text{Ba}$ 放射性束流轰击 $^{208}\text{Pb}$ 靶进行垒下库仑激发，通过 CHICO2 粒子径迹与 GRETINA $\gamma$ 射线追踪联合分析，直接测定基态跃迁八极矩阵元 $\langle 3^- \Vert \mathcal{M}(E3) \Vert 0^+ \rangle = 0.65_{-0.23}^{+0.17}\ e\text{b}^{3/2}$，对应跃迁几率 $B(E3; 3^- \to 0^+) = 48_{-34}^{+25}\text{ W.u.}$；结合转子模型反演得到内禀电八极矩 $Q_3 = (1.73_{-0.62}^{+0.45}) \times 10^3\ e\text{fm}^3$ 以及八极形变参数 $\beta_3 = 0.17_{-0.06}^{+0.04}$（固定 $\beta_2 = 0.18$）。该测量摆脱了依赖带间 $E1$ 跃迁间接推导八极形变的传统唯象方法，首次在富中子钡同位素中确立了微观八极集体性存在的确定性实验证据。 | quantitative-benchmark-and-criterion | direct-and-derived | PRL 116, 112503 pp.1-4; Table I, Fig.2; ba144-ba146-octupole-e1-result-046.json | true |

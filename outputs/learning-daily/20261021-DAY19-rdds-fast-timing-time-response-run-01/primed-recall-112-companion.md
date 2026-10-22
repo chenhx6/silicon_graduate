@@ -1,0 +1,3 @@
+# checkpoint112 companion priming before new2015PDF
+AfterCrossref/OpenAlexmetadata, 2010MSCD exactDOI10.1016/j.nima.2010.07.047 haspages83-92, thesisRef18prints81; notbodyread. 2015OAEPJConf93,01013 DOI10.1051/epjconf/20159301013 offers an authorGCD methodroute. BeforePDFread expectpair-response calibration, signedcentroid/PRD andarrayaggregation; unknownactualscope. Strongprimingfrom2011thesis, notblindorindependentexperiment.
+NewpublicPDFwillstageonlytmp, no rawoverwrite/credential/browser route. Needactualfig/table/equation scope andsource lineage; do not assume2010mirrorformula resolved from2015alone. SIavailabilitynotassumed, article-specificmetadata/bodywillstateactualcheckedscope.

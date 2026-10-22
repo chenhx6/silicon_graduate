@@ -290,6 +290,27 @@ class DailyLearningRunnerTests(unittest.TestCase):
         )
         self.assertEqual(updated, state)
 
+    def test_pending_primary_with_one_uncredited_preview_never_advances(self) -> None:
+        coverage = run_daily_learning.parse_curriculum_coverage(
+            coverage_report([], [19, 20]), 19
+        )
+        self.assertTrue(coverage['valid'], coverage)
+        self.assertEqual(coverage['curriculum_cards_completed'], 0)
+        self.assertEqual(coverage['next_day_index'], 19)
+        state = {'next_day_index': 19, 'completed_day_count': 18, 'status': 'active'}
+        updated = run_daily_learning.update_state_for_curriculum_cards(
+            state, 'run-19', '2026-10-21', coverage
+        )
+        self.assertEqual(updated, state)
+
+    def test_pending_primary_preview_cannot_skip_or_open_day_plus_two(self) -> None:
+        for indices in ([19, 21], [19, 20, 21], [20]):
+            with self.subTest(indices=indices):
+                coverage = run_daily_learning.parse_curriculum_coverage(
+                    coverage_report([], indices), 19
+                )
+                self.assertFalse(coverage['valid'])
+
     def test_next_prompt_can_be_prepared_for_forward_advanced_day(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

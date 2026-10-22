@@ -67,3 +67,14 @@ NuDat 3 displays the same adopted level as `B(E2)(W.u.)=6.3 20` and the adopted-
 
 - [[iaea-livechart-132sn-134te-levels]]
 - [[a130-shell-gap-orbital-observable]]
+
+## Day19量化审计：第一性原理跃迁常数核算、价质子有效电荷增强与飞秒寿命反演
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_te134_sn132_coulex_lifetime_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/te134-sn132-coulex-lifetime-result-058.json`，核准了 $^{134}\text{Te}$ 库仑激发 $B(E2)$ 与半衰期反演的第一性原理物理契约：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| ENSDF134TE-D19-1 | 对 ENSDF 评估 subfile 中采纳的 $^{134}\text{Te}$ $1279.11\text{ keV}$ 能级 $B(E2)\uparrow = 0.13(4)\text{ e}^2\text{b}^2$ 进行第一性原理跃迁速率核算：(1) 速率常数精确闭合：从微观量子电动力学导出 $E2$ 衰变跃迁常数 $\text{coeff}_{E2} = 1.2252 \times 10^{13}\text{ s}^{-1}\text{MeV}^{-5}(e^2\text{b}^2)^{-1}$，代入退激 $B(E2)\downarrow = 0.026\text{ e}^2\text{b}^2$ 严格算出半衰期 $T_{1/2} = 0.6355\text{ ps}$（均方根误差 $\pm 0.195\text{ ps}$），以三位有效数字精确复现 Sonzogni 评估报告的 $T_{1/2} = 0.64(20)\text{ ps}$（能级平均寿命 $\tau = 0.9168\text{ ps} = 916.8\text{ fs}$）；(2) 价质子与价中子电荷极化反差：对比同在 $^{132}\text{Sn}$ 闭壳外具有两颗价核子的 $^{134}\text{Sn}$（双中子粒子核，$B(E2)\uparrow = 0.029(5)\text{ e}^2\text{b}^2$），两价质子使 $^{134}\text{Te}$ 的四极跃迁强度跃升 $4.483$ 倍，导出有效电荷比 $e_p^{\text{eff}} / e_n^{\text{eff}} = 2.117$（完全符合微观极化电荷 $1.5e / 0.7e$ 标准）；结合相空间效应，两价质子将能级寿命缩短了 $76.1\times$（$69.8\text{ ps} \to 917\text{ fs}$）。 | task-first-principles-coulex-audit | derived-and-boundary | PDF p.1; te134-sn132-coulex-lifetime-result-058.json | true |

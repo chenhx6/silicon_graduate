@@ -1,0 +1,5 @@
+# checkpoint109 primed response-design question
+Same run/session/15:00Shanghai deadline. Primed byRegis009/088/094 andcorrected108; no blind recall, no new experiment.
+Question: aftercausal feeder/decay role labels collapse at equalenergy, can fullspectrum determine tau without independently known prompttail? Work in ideal stable/backgroundfree model F=GaussianPrompt * symmetricLaplace(tau), not claim original apparatus failed.
+Construct nonzero tau1>tau2 alias: a=tau2²/tau1²; alternate prompt P1=G * [a delta+(1-a)Laplace(tau1)]; then P1*Laplace(tau2)=G*Laplace(tau1) exactly by characteristicfunctions. Both prompts are normalizednonnegative. Need independent timequadrature check, variance andfinitewindow invariance, not just assigningpassedTrue or comparing identicalformula.
+Use declaredsigma80ps,tau1=20ps,tau2=10ps. Newpromptvariance should7000ps² vs6400; both measuredvariance7200. Promptcalibration/causalrolecompanion breaksdegeneracy; highcounts/ROIscan alone cannot. Not realfitCI nor universal fasttiming limit.

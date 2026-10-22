@@ -1,0 +1,4 @@
+# checkpoint089 primed recall before original sources
+Same original Day19 run/session/deadline; strongly primed by Day18, 011/013/016/023/069/088. Not a blind recall and no card credit.
+Question: Does a constant finite-foil factor cancel in the actual gated DDCM numerator/denominator, or only in a different single-survival log derivative? Suspect the latter is valid only for prompt population. With a delayed feeder the selected parent occupancy is not a single exponential, so a slow-component log slope need not equal the level lifetime even with perfect statistics. Need exact source Eq1/2 component identities before drawing any conclusion.
+Check conditional fraction given reaching foil alive versus unconditional probability, velocity isotope identity (.051 belongs103Rh, .057 belongs104Rh), seven distances not generic sampling grid, actual foil thickness/material and transit time claim. Preserve raw and older artifact bytes.

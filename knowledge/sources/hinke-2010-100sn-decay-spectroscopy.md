@@ -169,3 +169,14 @@ Christoph B. Hinke，*Spectroscopy of the doubly magic nucleus 100Sn and its dec
 ## Non-source Notes and Follow-up
 
 `100Sn.pdf` 是本文件的同哈希旧文件名，不创建第二个 source；正文引用统一使用描述性文件名。
+
+## Day19量化审计：相空间积分反演、端点能量幂律敏感性与超GT假说消解
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_sn100_gamow_teller_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn100-gamow-teller-result-044.json`，系统核准了 Hinke 2010 博士论文关于 $^{100}\text{Sn}$ Gamow-Teller 强度的比较半衰期反演与相空间敏感性事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HK10-D19-1 | 对比 Hinke 2010（GSI，约 70 个衰变事件，测得 $T_{1/2} = 1.16 \pm 0.20\text{ s}$，$E_{\beta 0} = 3.29 \pm 0.20\text{ MeV}$，$B(\text{GT}) = 9.1_{-2.3}^{+4.8}$）与 Lubos 2016（RIKEN，2525 个事件，测得 $T_{1/2} = 1.17 \pm 0.10\text{ s}$，$Q = 3.74 \pm 0.14\text{ MeV}$，$B(\text{GT}) = 5.26_{-1.06}^{+0.90}$），两者采用完全相同的比较半衰期公式 $B(\text{GT}) = 3811.5 / [f(Z, Q) T_{1/2}]$。两者实测半衰期（$1.16\text{ s}$ vs $1.17\text{ s}$）差异仅 $0.85\%$，对强度差异的贡献几乎为零；反演计算证明，两者的相空间积分比值 $f_{\text{RIKEN}} / f_{\text{GSI}} = 619.33 / 361.07 = 1.7153$，精准解释了两实验 $B(\text{GT})$ 标称比值（$9.1 / 5.26 = 1.7300$）的 $99.15\%$。相空间微积分进一步揭示，由于费米积分遵循 $d\ln f / d\ln E_0 \approx 4.4\text{--}5.1$ 的极强幂律敏感性，两实验之间仅约 $350\text{ keV}$（约 $10.6\%$）的端点/Q值校正差异被幂律放大为 $71.5\%$ 的相空间膨胀。由于 Hinke 2010 样本量极小且假设 $100\%$ 单终态跃迁，推导的“未淬灭超 Gamow-Teller 跃迁”在统计误差（$+4.8/-2.3$）内与大空间壳模型（LSSM）总强度窗口（$7.82$）完全自洽，所谓“超 GT”物理矛盾系相空间低估与小统计误差放大所致。 | quantitative-audit-and-criterion | derived-and-source-boundary | Ch.5.3 pp.63-66; Ch.6.2 pp.76-79; Eq.(A.8); sn100-gamow-teller-result-044.json | true |

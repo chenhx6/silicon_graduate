@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Reconciliation of 131Ce Li 2004 and Singh 2016 K-projection conventions."""
-import json, math
-if __name__ == "__main__":
-    print("Reconciliation complete")
+"""Deprecated Day19 draft entry: run the corrected conditional audit.
+
+Requires --output PATH. This does not regenerate the rejected legacy JSON or
+claim an experimental re-fit, author K identification, or DF model validation.
+"""
+from day19_evidence_repair_audit import main
+
+if __name__ == '__main__':
+    main()

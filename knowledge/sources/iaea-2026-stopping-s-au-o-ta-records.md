@@ -135,3 +135,14 @@ tags: [DSAM, stopping, calibration, covariance, source-independence]
 
 
 Mg/Au原reader的[重放程序](../../system/scripts/day17_forster_mg_au_input.py)按实际CSV/fixture和52源/data hash检查后重编译，逐值比较GEANT/PASS各十点；全部数值同原记录，不改源表。这是输入/模型对照的再现，不增加独立实验或建立新的误差分布。
+
+## Day19量化审计：阻止本领反比标度律与双比值尺度不变性定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_stopping_power_scaling_invariance_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/stopping-power-scaling-invariance-result-066.json`，核准了阻止本领缩放对 DSAM 寿命反演的微积分标度律与双比值守恒定理：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| ISP26-D19-1 | checkpoint090修订066：F_k(tau)=F_0(k tau)与tau_fit=tau_0/k只在整个所用response轨迹满足u_k(t)=u_0(k t)、其余输入固定时成立；不能直接用在电子分量fe改变而核分量fn固定、不同velocity/foil/feeding响应的实际拟合。旧程序把double-ratio误差硬填0，不认证实际双比值或结构判断免疫stopping。Nolan Table7方向/核素已由NS79-D19-18纠正，8%或9%绝对停止低估反演撤回。既有Forster中心单位换算与K16引用同上游谱系，不把0.78%中心差变成独立校准、普适3–5%误差或actual fit验证。 | task-stopping-scaling-invariance-audit | derived-and-boundary | IAEA Stopping Database 2026-09 selected records; stopping-power-scaling-invariance-result-066.json | true |

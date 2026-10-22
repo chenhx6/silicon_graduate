@@ -2,10 +2,18 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-17
+updated: 2026-10-22
 ---
 
 # Knowledge Base Health Dashboard
+
+## Current Snapshot: 2026-10-22 Day19 evidence correction
+
+本次统计来自Day19 lint114与目录核对，不是科学验证或新增人工审核。689篇Markdown、366篇source，page/source unreviewed为611/306；4546个claim中3847保留needs_review，locator/kind缺项均0。源页缺citation_key167；80个raw slot缺本地文件、4个反应解析警告，合计251 warning、0 error。286项原件hash已核；字段存在不证明原件可读、重复文件不增加实验独立性。
+
+Day19使用范围与纠错入口：[[lifetime-method-selection-response-contract]]、[[recoil-distance-doppler-shift]]、[[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-20与[[regis-2015-generalized-centroid-difference]] RG15-9。088/108的旧科学认证撤回与114的归一化权重/MC修订保持；未重审草稿不可引用为已验证事实。
+
+QMD只读状态仍为562 documents、2459 vectors、38 pending、349 orphan（本次closeout实查）。缓存位于Wiki之外的/var/lib/qmd，受本次项目写入边界限制未refresh/embed/cleanup；不把旧索引覆盖率当689页已刷新。overview按治理统计最小同步，源页review状态没有提升。
 
 ## Current Snapshot: 2026-10-17 Day15 closeout
 

@@ -110,3 +110,14 @@ The rules depend on the selected gamma=90° and same-j particle-hole model. Koik
 - [[koike-2003-128cs-chiral-doublet-bands]]
 - [[petrache-2006-near-degenerate-chiral-misinterpretation]]
 - [[chirality-wobbling-competition-evidence]]
+
+## Day19量化审计：A量子数电磁选择定则、交错反相与128Cs/134Pr实验判据
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_chiral_selection_rule_a_audit.py` 的 79 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-selection-rule-a-result-038.json`，系统核准了 $\mathcal{A}$ 量子数（$\pi/2$ 转动 + 质子中子对易）的代数选择定则与实验判据边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HM11-D19-1 | 在 $\gamma = 90^\circ$（Lund 约定 $\gamma = -30^\circ$，中轴为量子化轴）三轴转子与同单-$j$ 壳层质子粒子—中子空穴模型中，体系哈密顿量在离散算符 $\hat{\mathcal{A}} = \exp(i \frac{\pi}{2} R_3) \hat{\mathcal{P}}_{pn}$ 下严格守恒，本征值 $\mathcal{A} = \pm 1$。集体核芯 $E2$ 算符因 $\gamma = 90^\circ$ 下 $\Delta R_3 = 0$ 矩阵元严格为零，仅允许 $|\Delta R_3| = 2$ 且 $\Delta C = 0$，代数证明同 $\mathcal{A}$ 态之间跃迁完全禁戒（$B(E2; \Delta \mathcal{A} = 0) \equiv 0$），$E2$ 跃迁充要条件为 $\Delta \mathcal{A} \neq 0$；对于单粒子 $M1$ 算符，有效回转磁比使算符在对易下呈高度反对称，同 $\mathcal{A}$ 跃迁受到几何压制达三个数量级（有效单粒子 $B(M1)$ 抑制比 $>1000$，自旋部分抑制 $>100\times$）。在手征双重带中，能级沿自旋呈周期 4 排布（$I, I+1$ 具有相同 $\mathcal{A}$，而在 $I+2, I+3$ 翻转），必然导出：(1) 带内 $\Delta I = 2$ 跨能级 $E2$ 严格允许；(2) 带内 $\Delta I = 1$ $M1$ 与带间 $\Delta I = 1$ $M1$ 在自旋序列上呈严格的反相奇偶交错（当带内强时带间弱，当带内弱时带间强）；(3) $^{128}\text{Cs}$ 实测带内 $B(E2)$ 对称性（比值 ~1.0）与交错反相吻合该定则，而 $^{134}\text{Pr}$ 实测带内 $B(E2)$ 差异超 2 倍并破坏该定则，确立了三轴偏角偏离 $\gamma = 90^\circ$（$^{134}\text{Pr}$ 实测 $\gamma \approx 16^\circ\text{--}20^\circ$）对手征对称性的破缺机制。同时严格确认该定则是哈密顿量代数对称性的必然结果，在共面低自旋区即使未建立三维非共面手征几何，只要满足该模型代数结构仍严格成立；因此符合该定则是手征几何的必要条件，而非充分几何证据。 | quantitative-audit-and-criterion | derived-and-source-boundary | arXiv:1102.0163v1 pp.3-7; Table 1, Fig.2; chiral-selection-rule-a-result-038.json | true |

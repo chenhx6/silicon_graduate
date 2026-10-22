@@ -174,3 +174,14 @@ P0: none identified.
 | PE18-D18-3 | Fig1低spin级联支持MU08 Band1→D4、Band2→D3；作者分别把D4/D4-C与D3/D3-C指认D与D*。D/D*为pi(h11/2)^2 ⊗ nu(h11/2)^−1(s1/2d3/2)^−1，标Omega≈+3/2和−3/2，beta/gamma为.22/19°与.21/22°；这些是模型指认，D3高spin新拓扑与未列Ex使全域映射仍需full scheme逐态核对。 | task-identity-and-model-boundary | direct-and-conditional | PDF3 Fig1；PDF5 TableI/正文；MU08-D18-6 | true |
 
 [实际审计结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)核真实原表，不从B输出反推虚构input。2018计算对crossing/configuration mixing的局限保留，beta平方不是已认证的实际B(E2)比。2008两带间的mixing与2018每条主带各自的候选伙伴必须分对象。Related primary：[[mukhopadhyay-2008-136nd-transition-rates]]。
+
+## Day19量化审计：五对候选MchiD谱系与单对实测证据层级
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_nd136_chiral_wobbling_crossing_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd136-chiral-wobbling-crossing-result-049.json`，核准了 $^{136}\text{Nd}$ 五对多手征双重带候选的证据层级：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE18-D19-2 | 对五对候选手征双重带（D1-D5）的实验观测基底进行多维层级审计，证实仅有正宇称 D5/D5-chiral（$\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$ 组态 C）在双带内均测得了几乎重合的 $B(M1)/B(E2)$ 实验比值；其余四对（D1-D4）的弱伙伴带均缺乏带内偶极线与分支比测量。三维推转 TAC-CDFT 仅在 D3（组态 $D^*$）上在临界频率 $\hbar\omega \approx 0.5\text{ MeV}$ 以上展示了明确的非共面旋转解（$\phi > 0$），将手征性推广至全部五对属于模型空间排除假设而非逐对微观计算验证。 | task-mchid-hierarchy-audit | derived-and-boundary | PDF pp.4-6 Figs.3-6; Table I; nd136-chiral-wobbling-crossing-result-049.json | true |

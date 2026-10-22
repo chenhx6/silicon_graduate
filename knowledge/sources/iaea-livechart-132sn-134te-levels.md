@@ -84,3 +84,14 @@ The isotope comparisons `130Sn`–`132Sn`–`134Sn` hold `Z=50` fixed; the `130S
 
 - [[a130-shell-gap-orbital-observable]]
 - [[ame2020-sn132-mass-curvature]]
+
+## Day19量化审计：N=82与同位素链四核时间时钟跨越轨迹
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_te134_sn132_coulex_lifetime_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/te134-sn132-coulex-lifetime-result-058.json`，核准了 $^{130,132,134}\text{Sn}$ 与 $^{134}\text{Te}$ 四核能级寿命演化轨迹：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IAEA132-D19-1 | 对四核 $2_1^+$ 态的电磁跃迁寿命进行全景阶梯对账：双幻核 $^{132}\text{Sn}$（$4041\text{ keV}$）处于飞秒速度差时钟域（$\tau = 3.44\text{ fs}$，对应 NuDat $T_{1/2} = 2.38\text{ fs} \to 2.4\text{ fs}$）；双质子核 $^{134}\text{Te}$（$1279\text{ keV}$）处于亚皮秒快速多普勒时钟域（$\tau = 0.917\text{ ps}$）；双中子空穴核 $^{130}\text{Sn}$（$1221\text{ keV}$）处于皮秒 RDDS 柱塞时钟域（$\tau = 6.53\text{ ps}$）；双中子粒子核 $^{134}\text{Sn}$（$726\text{ keV}$）处于数十皮秒快速定时时钟域（$\tau = 69.8\text{ ps}$）。四核全景展现了由能量相空间五次方（$(E_\gamma)^5$ 比值超 $5300\times$）与质子/中子微观有效电荷共同决定的四量级时钟跨越规律。 | task-four-nucleus-trajectory-audit | derived-and-boundary | LiveChart API; NuDat adopted levels; te134-sn132-coulex-lifetime-result-058.json | true |

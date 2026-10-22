@@ -59,7 +59,7 @@ Two shape-sensitive results exist for 131Ce, but they constrain different states
 
 | Evidence | Direct or derived result | Boundary |
 |---|---|---|
-| Ionescu-Bujor et al. TDPAD | For the 9− isomer, measured g = −0.189(7) and absolute quadrupole-moment magnitude |Q| = 0.92(10) eb; see [[ionescu-bujor-1998-static-moments-129-131ce]] IB98-2. | Fitted epsilon-two and gamma are particle-plus-triaxial-rotor outputs, not direct measurements; see IB98-3. This is one state, not a survey of Bands 1–7. |
+| Ionescu-Bujor et al. TDPAD | For the 9/2− isomer, measured g = −0.189(7) and absolute quadrupole-moment magnitude |Q| = 0.92(10) eb; see [[ionescu-bujor-1998-static-moments-129-131ce]] IB98-2. | Fitted epsilon-two and gamma are particle-plus-triaxial-rotor outputs, not direct measurements; see IB98-3. This is one state, not a survey of Bands 1–7. |
 | Petrache et al. DSAM | The high-deformation yrast band gives Q0 = 7.3(4) eb; beta-two = 0.38(2) is quoted under an axial conversion; see [[petrache-1998-highly-deformed-lifetimes-131ce-nd]] PE98-7/PE98-12. | ENS06-2 later identifies the 1998Pe01 result with evaluated SD-1. ENS06-4 adds links to SD-2. Neither the original paper nor these SD subfiles maps the sequence to Alwaleedi normal-deformed Bands 1–7. |
 
 The TDPAD isomer and Petrache DSAM remain different experiments and observables; their Qs and Q0 values are not like-for-like. ENSDF resolves one additional edge: the Petrache Q0 result is SD-1, and the evaluation lists two SD2→SD1 transitions. It does not connect either SD band to Alwaleedi Bands 1–7. The evidence gap is narrower: PE98→SD-1 and SD1↔SD2 are mapped; the normal-SD relation remains unresolved. ENSDF is a compilation of upstream measurements, not an independent experiment.
@@ -115,3 +115,25 @@ The synthesis does not reanalyse the raw TDPAD, DSAM, or Coulomb-excitation data
 
 Davidson 1965 and Heyde–Wood 2011 are reviews/frameworks, not independent experiments. Zamfir–Casten 1991 is a model comparison, not a new spectrum. The 131Ce TDPAD and DSAM campaigns use different reactions and data, while sharing some collaborators. Bucher 144Ba and 146Ba are separate isotope runs but share collaborators and GOSIA/CHICO2/GRETINA methods; their fit systematics are therefore not fully independent. Nomura 2018 is a fitted CDFT/IBFM calculation by the same group as the 2017 odd-mass gamma-soft work, not an independent experiment or an independent model family. Gaffney 220Rn/224Ra, 78Br, and Guo 131Ba are separate acquisition lineages; the latter E1 transitions remain an author-interpreted octupole-correlation handle.
 The Guo paper also retains quartet-identity and absolute-strength limitations. Existing review metadata and claim-level needs_review states are unchanged; this synthesis is an AI-draft and is not human-reviewed.
+
+## Day 20预习：131Ce 三重形变域全景对照矩阵（异能态、正常带与高度形变带）
+
+依据独立审计程序 day19_ce131_three_regime_shape_audit.py 的 12 项检验与基准输出 ce131-three-regime-shape-result-033.json，将 $^{131}\text{Ce}$ 跨越 5 个时间数量级的三重形变域观测综合为统一的形状演化与共存矩阵：
+
+| 形变域与态 | 实验方法与文献 | 原始时间测量 | 谱学/跃迁四极矩 | 推导内禀四极矩 $Q_0$ | 电四极形变 $\beta_2$ | 微观组态与集体特征 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **域 1：异能带头** | TDPAD in Sn (Ionescu-Bujor 1998) | $T_{1/2} = 88(2)\text{ ns}$ ($\tau = 127\text{ ns}$) | $|Q_{\text{spec}}| = 0.92(10)\text{ eb}$ | $Q_0(K=9/2) = 1.69\text{ eb}$ | $\beta_2 = 0.094$ ($\varepsilon_2 \approx 0.16, \gamma \approx 22^\circ$) | 单准中子 $\nu h_{11/2}$，无芯转动对齐，弱三轴集体性 |
+| **域 2：正常形变带** | DSAM ([[li-2004-lifetimes-131ce|Li 2004]]) & Plunger ([[singh-2016-lifetime-131ce-133pr|Singh 2016]]) | $\tau(27/2^-) = 1.235\text{ ps}$ | $Q_t(K=1/2) = 2.26\text{ eb}$ ($2.72\text{ eb}$ at $K=11/2$) | $Q_t \approx 2.26\text{--}2.72\text{ eb}$ | $\beta_2 = 0.125\text{--}0.150$ | 奇中子解耦转动带，中等三轴转动，科里奥利对齐 |
+| **域 3：高度形变带** | DSAM (Petrache 1998) | $\tau \ll 0.2\text{ ps}$ (分数频移 $F$) | $Q_0^{\text{exp}} = 7.3(4)\text{ eb}$ | $Q_0 = 7.3(4)\text{ eb}$ | $\beta_2 = 0.38(2)$ ($r_0=1.25\text{ fm}, c_2=0.16$) | 侵入轨道 $\nu i_{13/2}^2$ 驱动的第二长椭超形变极小 |
+
+**跨形变域阶跃特征与证据边界**：
+1. **多级形变阶梯**：从异能态（$1.69\text{ eb}$）到正常转动带（$2.26\text{ eb}$）产生 $1.34$ 倍四极矩增长；而由正常带跃变至高度形变带（$7.3\text{ eb}$）产生高达 $3.23$ 倍的暴增（相对异能态达 $4.33$ 倍，带内集体 $B(E2)$ 增强超过 $10$ 倍）；
+2. **时间域的极端跨越**：实验时钟从纳秒级 TDPAD（$127\text{ ns}$）跨越至皮秒级 Plunger（$1.2\text{ ps}$）再至亚皮秒级快 DSAM，完整覆盖了低能核光谱学的三种主时钟；
+3. **形状共存与退激截断边界**：虽然同一原子核内证实存在三套差异巨大的四极矩矩阵元，但高度形变带向正常带的退激由未分辨的统计级联主导，目前尚无实验分辨的带间离散 E2 连接跃迁。因此，三域数据确立了形状共存的内禀四极矩阶梯，但不同势阱间的微观混合振幅仍属后续谱学的前沿问题。
+
+
+## checkpoint106：形状观测量的时间时钟正交性与多形变域边界整合
+
+**checkpoint108撤回131Ce“三域形状阶梯”的推断。** [[ionescu-bujor-1998-static-moments-129-131ce]] IB98-D19-8测9/2−态Qs幅值；从它乘11/6得到Q0需额外轴对称pureK=I条件，不能替作者PTR描述，也不能和另态transitionQt相除认定形变增长。旧HD tau=.15ps是手填设计，不是Petrache逐态实测；1.235ps不是允许无Cov自动合并的两测量结果。beta2 .094/.125/.150以及4.33倍/60万倍阶梯均不作实验形状/shape-coexistence结论。
+
+[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-D19-24的CoulEx是yield/矩阵元响应，beam-stopping integral不是一套衰变时间钟；B(E3)不普遍只除一个scalar stoppingintegral。[[regis-2011-fast-timing-labr3]] RG11-D19-18和[[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-20保各自响应输入，[[grodner-2018-128cs-chiral-g-factor]] GR18-D19-8保矩/时间不同。Ce原tau约127ns小于约659ns QI周期但仍测得局部pattern，旧tau>>Tmod必要前提不成立。

@@ -125,15 +125,99 @@ Review note: R12-3/R12-7/R12-8/R12-10 were user-reviewed on 2026-07-09. Keep R12
 
 ## Day 19正式课程：RDDS时间响应、退取向分量条件与实验边界核验
 
-本段为2026-10-21正式Day 19独立课程session原读与定量核查产物；**原2026-07-09整段字节、human-reviewed历史、R12-1–12以及历史R12-P19-1–10条目与flags原样保留**。新段和下列新claims仅经Codex self-audit、保持needs_review: true，不设human-reviewed。本session针对全文十页、十三图、三表与九个编号公式进行严格物理核验，重点对账反冲运动学放大、真空超精细退取向的分量条件平均、90°探测器效率缺失的代数影响，以及 Yale plunger 的机械零点边界。
+checkpoint008更正前轮未实际raw读却称十页/全部图表新核的声明。本次已实际读取十页全文文本；图表/公式视觉范围单独记入source-reading-scope-008.json。旧R12-1–12人审prefix字节恢复并保留，新段仍needs_review。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| R12-D19-1 | 300 MeV 98Ru + 24Mg 逆运动学提供 v/c = 0.0450(6)（13.491 um/ps）反冲速度，较常规运动学（4.797 um/ps）实现 2.81 倍空间放大，使 tau(2+_1)=8.36 ps 态飞行距离达 112.8 um，完全摆脱接触零点（d0约8 um）与箔片粗糙度约束。 | experimental-kinematics-scaling | direct-original | PDF2–3 Sec.II/III, Fig.2–3 | true |
-| R12-D19-2 | 真空中超精细场引起退取向衰减 G_k(t)；阻停分量在到达 stopper 时冻结（G_US(t) = G(t)），飞行衰变分量沿衰变时间密度加权平均（G_SH(t)）；渐近极限下 G_SH(inf) 为 0.554922(k=2) 与 0.449653(k=4)，远高于 G_US(inf) 的 0.18 与 0.24。 | deorientation-component-asymmetry | direct-original-and-derived | PDF5–6 Eqs.4–7, Fig.8, Table I | true |
-| R12-D19-3 | 在前向探测器（theta=0 deg）若忽略退取向 G_k 修正，测得比值 P(d) 发生系统性偏离，在敏感飞行时程（5–15 ps）导致表观提取寿命发生最大 -4.6% 的系统性负偏差，证实退取向不是全局常数缩放，而是距离相关的线形畸变。 | systematic-deorientation-bias | derived-and-verified | PDF7 Eq.8, Fig.9; day19_rdds_timing_response_analysis.py | true |
-| R12-D19-4 | 90° clover 探测器效率标定实验中缺失，作者在最短距离 d=3 um 处借用理论初始角关联代替相对效率，假定短时 alignment 变化微弱；该代数替代引入了对理论角分布模型的依赖，并非无偏实测效率。 | calibration-deficiency-boundary | direct-original | PDF6 左栏首两段 | true |
-| R12-D19-5 | 逆库仑激发通过粒子-γ符合直接强布居低自旋集体态（2+_1, 4+_1, 2+_2），上能级侧馈极其微弱，在方法学上避开了熔合蒸发反应中未知慢侧馈（slow side feeding）对寿命拟合的主导模型依赖。 | feeding-topology-advantage | direct-original | PDF3 Sec.III | true |
-| R12-D19-6 | RDDS 寿命提取的最小校准闭环严格依赖：机械绝对零点 d0 标定、全角度阵列相对效率矩阵（尤其 90° 环）、反冲初速矢量及真空中退取向衰减参数 G_k(t) 的独立约束，任何单项缺失均构成主导系统误差。 | minimal-calibration-contract | synthesis-and-boundary | PDF6–7 Sec.IV/V, Table I | true |
+| R12-D19-1 | v/c=.0450(6)给13.4907μm/ps，τ8.36ps的条件vτ=112.782μm；这不消除距离offset、foil不平整、速度分布或效率误差。Radeck是Cu stopper，不是Suzuki薄degrader。 | kinematics-and-boundary | direct-original-and-derived | PDF2 SecII；PDF7 Eq9 | true |
+| R12-D19-2 | US在stopper冻结是作者假设；SH须按飞行域衰变密度平均。α2=.18、Γ2=.142及τ8.36中心给条件SH渐近.554922；不是新独立实测角响应或已知无误的硬核参数。 | component-kernel | direct-original-and-derived | PDF5–7 Eqs4–7/TableI | true |
+| R12-D19-3 | superseded：−4.6%不是Radeck实测bias或普遍上限。旧自设A2=.35、k4=0、θ0°的简化才给该量级；新同τ/Γ控制在A2=−.35/0/+.35给+8.07%/0/−4.92%，说明符号与大小依角响应。 | synthetic-counterinput | derived-and-boundary | PDF5 Eq2；evidence-repair-result-008.json | true |
+| R12-D19-4 | 90°效率意外缺失，作者用最短d=3μm理论初始角关联补rings3/4相对效率、加系统误差并排除该点的attenuation fit。这是显式模型辅助校准，不可称独立实测，也不能凭缺失直接断言严重偏差。 | calibration-substitution | direct-original | PDF6 first two paragraphs | true |
+| R12-D19-5 | 此实验低能inverseCoulEx可减小unobserved sidefeeding；两步激发feeding被认为可忽略并纳入系统误差。不能外推任意fusion或复杂级联。 | feeding-domain | direct-original | PDF3 SecIII；PDF7 SecV | true |
+| R12-D19-6 | 寿命比值中公共particle归一和particle solid angle消；SH/US能量eff、Lorentzboost、deorientation仍须校正。并非每个RDDS都必须恰有90°detector，任一校准缺项也不必然主导总误差。 | normalization-contract | direct-original | PDF7 Eq9 following paragraphs | true |
+| R12-D19-7 | Eq2后A0(d)=0与Fig7正角强度、Eq9的d−d0且d0约8μm/最短相对3μm仍保字面坐标边界。未取得实际producer，不猜erratum或把负physicaltime套成真实fit。 | literal-coordinate-boundary | direct-original | PDF5 Eq2 following text；PDF7 Eq9 | true |
 
-本段定量结果见 [rdds-timing-response-result.json](../../outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/rdds-timing-response-result.json) 与 [day19_rdds_timing_response_analysis.py](../../system/scripts/day19_rdds_timing_response_analysis.py)。
+
+## Day19分量库存设计：US是否包括全部慢化尾
+
+本项从PDF3“slowing tail加入US”出发，联合Nolan Sec2.4.3的有限stopper响应做本任务条件推导。自设τ=2ps、stopper区间ts=1ps；不是本文或Klemme实测stop time，没有用相对d−d0填真实physical time。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-8 | 完整库存S=1−exp(−tf/τ)、T=exp(−tf/τ)[1−exp(−ts/τ)]、U=exp[−(tf+ts)/τ]之和1。尾全归US时T+U恢复真空存活；丢T后U/(S+U)不是同一指数。自设tf=τ=2ps、ts1ps时完整US=.367879，丢尾比=.260894，naive点τ1.48849ps。此为定义/归一反例，不是本文τbias。 | component-inventory-design | task-derived-and-boundary | PDF3 SecIII tail paragraph；rdds-component-inventory-result-011.json | true |
+| R12-D19-9 | 保全count而把qT归US、(1−q)T归SH时R=C exp(−tf/τ)，C=q+(1−q)exp(−ts/τ)，可等价为额外tf偏移−τlnC。不同q/τ可有不同effective offset，不能一概当共同mechanical zero。若丢尾导致分母也变，则有曲率，即使R(0)=1/R∞=0也不认证正确响应。 | origin-alias-and-selection-design | task-derived-and-boundary | PDF3 SecIII；Nolan1979 printed36 Sec2.4.3；rdds-component-inventory-result-011.json | true |
+
+
+## Day19新原读：六环对称性、P4与有限角孔径
+
+本session新读PDF2–7关于SPEEDY六个ring（36.5°、46.5°、85°、95°、133.5°、143.5°）、Lorentz boost式1及SecIV退取向。raw hash仍21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642。旧review/needs_review flags不变。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-10 | 六个ring在US偶阶Legendre为3对互补角(36.5/143.5、46.5/133.5、85/95)，对静态A0+A2P2+A4P4只有3个独立行；四个外环(1,2,5,6)仅2个独立行。若A0未知且无先验约束，外环无法唯一确定A0/A2/A4，中心环效率可吸收不同形状。 | geometry-rank-and-identifiability | direct-and-task-derived | PDF2 SecII；PDF6–7 SecIV；angular-acceptance-contract-result-015.json | true |
+| R12-D19-11 | 在β=.045下，SH分量经历雅可比(1−β²)/(1−βcosθ)²与光行差，破坏互补角对称性；六环及四外环SH基底在已知β的此点环模型中均rank3。真实寿命提取依赖SH/US每环效率、雅可比与退取向G_k(t)核，不等于6个完全独立的四极矩角度采样。 | relativistic-boost-and-response | direct-original-and-derived | PDF3 Eq1；PDF6–7 Eqs4–9 | true |
+
+Knowledge Impact and Learning Decision：limits把6个ring当成6个任意独立角分布采样点；supports建立外环对称性、中央环理论效率代换与Lorentz boost的分层。[[recoil-distance-doppler-shift]]与[[lifetime-method-selection-response-contract]]保存34项几何控制；原Winther job和联合Cov缺口保留。
+
+## Day19坐标桥与运动学误差压缩分析
+
+依据独立审计程序 day19_radeck_coordinate_bridge_audit.py 的 11 项检验与基准输出 radeck-coordinate-bridge-result-025.json，系统解析了 Radeck 2012 式 (5) 与式 (9) 的距离坐标约定与接触零点不确定度传播：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-14 | checkpoint088视觉纠正：PDF7 Eq9实际印a[1−exp(−(d−d0)/(v tau))]，不是此前抄录的−(d+d0)。PDF6 Eq5同用d−d0。正文给relative distance、d0约8(1)um、v13.49(18)um/ps，但没有本任务actualproducer坐标桥；不能由最短3和d0中心猜真实11um、猜符号erratum或宣称Fig3定量验证。保持字面/校准语义边界，撤回checkpoint025的物理距离认证。 | coordinate-bridge-contract | direct-original-and-derived | PDF7 Eq9；PDF6 Eq5；PDF3 Fig3 | true |
+| R12-D19-15 | checkpoint088纠正：beta更大能在同tau下放大飞行长度是中心运动学算术；Delta tau=Delta d0/v只在额外指定t约tau等特殊单点合同下成立，不能作为任意RDDS拟合的机械误差传播公式。固定a、v与单点P时tau=(d−d0)/[v*(−ln(1−P/a))]；d0/scale/velocity/eff/fit参数须联合传播。原实际distance producer与Cov未得，不报真实0.074ps系统误差或2.81倍精度提升。 | kinematic-compression-contract | task-derived-and-boundary | PDF7 SecV；PDF2 SecII；radeck-coordinate-bridge-result-025.json | true |
+
+## Day19量化审计：真空超精细退取向动力学、双分量积分卷积与两步迭代自洽定理
+
+**checkpoint088来源/代码纠正，原标题只保历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-16 | 指数Gk及SH条件平均核在声明假设下可作数学推导；alpha=.18、Gamma=.142和tau8.36中心不是已知无误的普适参数。相近时间尺度不是已证明超精细“共振”。单点dGSH/dtau小不认证完整拟合迭代映射收敛或误差<.02ps；原文称两步在本数据下足够。Cu阻停取向冻结是采用假设，旧<.1ps屏蔽数值没有来源支持，撤回。旧−4.92/+8.07是早期自设角核控制、不是此脚本独立拟合，硬填检查不作科学证据。 | calibration-and-inference-boundary | direct-original-and-task-analysis | PDF5–7 Eqs4–7/TableI and two-step description | true |
+
+## Day19量化审计：相对论光行差雅可比、光电峰效率梯度与逆运动学RDDS环间发散定理
+
+**checkpoint088：撤回旧科学认证；原标题保留为历史anchor。**
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-17 | checkpoint081撤回：beta=.0754、32/58/72/90/108/145度不是此实验的实测输入；PDF2给mean v/c=4.50(6)%和36.5/46.5/85/95/133.5/143.5度。epsilon正比E^−1是额外设计假设，不是实测效率；原程序没有计算“六环残差<0.8%”，该认证无效。新的点环/各向同性响应控制见R12-D19-18，不能替代真实角分布、退取向、有限孔径或校准。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |
+
+## checkpoint088：实际六环与有边界的响应设计
+
+本轮定向重读PDF2–3，视觉核PDF2实验/装置图；不是重新全篇阅读。checkpoint081的错误输入不再沿用。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-18 | PDF2实测mean beta=.0450(.0006)，六环36.5/46.5/85/95/133.5/143.5度。PDF3 Eq1以D²校正SH立体角，并强调SH/US效率、慢化尾和deorientation。本任务各向同性点环、合成epsilon(E)正比E^−a下C=D^(2−a)；a=1和P=.5给最前/最后环naive tau比.974585/1.026824。准确C代数反演回P仅为模型closure，不认证原实验残差；a=2只在这个各向同性幂律例中消boost。真实eff、角分布静止系光行差、Gk、有限接受和联合Cov仍需校准。 | original-input-and-declared-design | direct-and-task-derived | PDF2 SecII; PDF3 Eq1 and preceding paragraphs | true |
+
+## checkpoint088：字面坐标与零点误差传播
+
+本轮视觉核PDF6 Eqs4–7、PDF7 Eq9/TableI/Figs9–11，专门区分印刷式与实际producer。原relative坐标的物理桥仍未恢复，不擅改raw。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-19 | Eq5与Eq9字面均用d−d0；checkpoint025错抄Eq9为d+d0并推出11um，已撤回。Eq9同时拟合a与d0，单个误差换算Delta tau=Delta d0/v并非普适；固定a、v、P时导数为−1/[v*(−ln(1−P/a))]，多distance拟合另需完整Jacobian/Cov。TableI alpha2=.18(.11)且正文说hard-core values不可靠，不能仅用中心把G核或两步收敛当精确已知。 | literal-coordinate-and-parameter-contract | direct-visual-and-task-derived | PDF6 Eq5 and two-step paragraph; PDF7 Eq9/TableI | true |
+
+## checkpoint091：完整主线、结果使用范围与来源依赖
+
+本轮先冻结承认强priming的回忆与dirty baseline，再实际读同一规范PDF十页全文（014301-1至10，包括全部正文、Summary与References），视觉核PDF2–9的全部13图/3表/9编号式。原件SHA256仍21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642；具体页/图/表/式角色见本run `source-reading-scope-091.json`。这是同一原件的本轮scope补证，不是独立实验、新盲测或新学分。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| R12-D19-20 | 本轮实际完整读10页文本、视觉核PDF2–9全部13图/3表/9式；主线从历史4+1寿命矛盾、inverseCoulEx/RDDS、角关联与退取向校准到结果/IBM解释。本文无单独level-scheme图，局部parent/daughter账本由TableII和caption建立；未取原counts、Wintherjob、fullCov或上游各primary。 | actual-reading-scope-and-data-lineage | direct-original-and-scope | PDF1–10; Figs1–13/TablesI–III/Eqs1–9 | true |
+| R12-D19-21 | tau(2+1)=8.36(29)ps用rings1/2/5/6；tau(4+1)=2.31(16)ps和tau(2+2)=1.7(2)ps仅用1/6，因为745/761keV邻线在2/5中难分。2+2/4+1的deorientation在误差内不显著，不能泛称不存在。正文31.0(17)与TableII31(1) W.u.为首个B(E2)的两处literal值，保留不静默合误差；4+→2+ B57.6(40)、2+2→2+1 B47(5)、2+2→0+ B1.05(42)及B4/2=1.86(16)是同链派生，不增加beamrun。2+2支路/混合取Ref46。 | reported-results-and-analysis-scope | direct-original-and-boundary | PDF7 Figs10–11; PDF8 Fig12/TableII and discussion | true |
+| R12-D19-22 | PDF6以理论初始角关联代缺失90deg效率并加sys，最短3um不参与attenuation fit；US200/300um无合理角关联而不入G fit，450um统计不足。TableI hard-core alpha作者明确说不可靠。两步迭代只报告本数据下足够；校正后sum近恒定为诊断，不替actualeff/距离/联合Cov验证。 | correction-selection-and-uncertainty-domain | direct-original-and-boundary | PDF6 calibration/fit paragraphs andFig8; PDF7 TableI/Fig9 | true |
+| R12-D19-23 | IBM有效电荷调到B(2+1→0+)输入，因此TableIII首行31=31非独立检验；6+1→4+1与8+1→6+1的12.9(15)/2.5(4) W.u.沿用Ref8，不是本次新测高spin寿命。几何vibrator B4/2=2与finite-N IBM(U5,N4)1.5须分开，1.86(16)偏vibrational为作者低能解释，不能当整核全域唯一shape证明。Fig13系统学来自Refs47–49，不按每点重复计独立采集。 | model-normalization-and-companion-lineage | direct-original-and-author-interpretation | PDF1 introduction; PDF8 discussion; PDF9 Fig13/TableIII/Summary | true |
+| R12-D19-24 | Gamma_k=abs(g)/Ck，Ck的推导采用外部g=.47(3)，并列另一值.41(3)。作者给相对g方法要求同元素及相当beta/电荷态分布、靶足够达charge equilibrium；这不提供g符号或对其他核无需校准的新绝对g测量，Refs44/45未在本轮重读。 | hyperfine-calibration-and-observable-scope | direct-original-and-boundary | PDF6 Eq6 and following paragraphs; PDF7 TableI; PDF9–10 Summary | true |
+
+### 当前局部level/branch账本
+
+| 源parent标签/能量(keV) | 源gamma标签(keV)与终态 | 本次tau(ps) | 分析/来源边界 |
+| --- | --- | --- | --- |
+| 2+1 /652 | 652→0+1 | 8.36(29) | deorientation correction；four outer rings |
+| 4+1 /1397 | 745→2+1 | 2.31(16) | ring1/6；不是旧Ref8的11(2)ps |
+| 2+2 /1414 | 761→2+1及1414→0+1 | 1.7(2) | sameparent tau；branches/mixing引Ref46 |
+
+能量表是源整数标签；1414−652的整数差与761不强配，不补精确per-lineσ或误判新校准冲突。Fig7原A0(d)=0字面、Fig7正角强度和Eq9相对坐标producer缺口继续保留。没有基于原事件重建τ fit、B4/2 Cov或原误差coverage。

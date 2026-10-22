@@ -63,3 +63,14 @@ This is an ENSDF evaluation summary, not a primary paper. `2005Va31` resolves to
 - [[varner-2005-coulomb-excitation-132-134sn]]
 - [[iaea-livechart-132sn-134te-levels]]
 - [[a130-shell-gap-orbital-observable]]
+
+## Day19量化审计：ENSDF 132Sn B(E2)评估值物理时钟与寿命反演
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_sn132_coulomb_excitation_be2_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn132-coulomb-excitation-be2-result-057.json`，核准了 ENSDF 库仑激发子文件中 $^{132}\text{Sn}$ 评估值的物理时钟含义：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| ENSDF132C-D19-1 | 对 ENSDF 评估 subfile 中采纳的 $^{132}\text{Sn}$ $4040\text{ keV}$ 能级 $B(E2)\uparrow = 0.11(3)\text{ e}^2\text{b}^2$ 进行寿命与时钟演化审计。由自旋统计因子导出退激 $B(E2)\downarrow = 0.022(6)\text{ e}^2\text{b}^2 = 220(60)\text{ e}^2\text{fm}^4$。结合跃迁能量 $E_\gamma = 4.041\text{ MeV}$，导出其激发态能级寿命严格为 $\tau = 34.4 \pm 9.4\text{ ps}$。这确立了双幻核 $^{132}\text{Sn}$ 的电磁激发态处于皮秒级 RDDS/直接库仑激发测量域，与邻近 $N=80, 84$ 同位素所处的微秒/纳秒级延迟域形成了剧烈的结构分水岭。 | task-ensdf-be2-lifetime-audit | derived-and-boundary | PDF p.1; sn132-coulomb-excitation-be2-result-057.json | true |

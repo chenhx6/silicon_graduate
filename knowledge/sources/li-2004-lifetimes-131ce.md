@@ -156,8 +156,18 @@ The Ce isotope trend mixes different odd/even systems and reference configuratio
 
 ## Day 20预习：131Ce Li 2004 与 Singh 2016 的 K 投影代数对账
 
-本段为 2026-10-21 Day 19 延续轮开展的 Day 20 有边界预习成果（保持 needs_review: true，不设 human-reviewed）。针对 131Ce 负宇称 yrast 带在 Li 2004 与 Singh 2016 两篇独立测量文献间的表观张力开展严密代数对账：
+2026-10-21 checkpoint008纠错；旧LI04-1–11及Day18纠错、人审flags保持。原LI04-D20-1的“100%由K=5/2消解”撤回，旧JSON/提交仅作错误历史。本次实际视觉核PDF2 Fig1/2及PDF3 Table1，不冒全文新精读。新程序给条件代数，不识别作者实际K。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| LI04-D20-1 | 证明 Li 2004 Table 1 的 23/2- 态 Qt = 3.55(67) eb 与 Singh 2016 上限 Qt < 2.85 eb 之间的表观矛盾，100% 源于 K 投影约定差异（Li 采用 K=5/2 而 Singh 采用 K=1/2）。经 Clebsch-Gordan 因子统一换算后，Li 测得寿命 tau = 1.44(54) ps 在 K=1/2 下严格对应 Qt = 2.761(518) eb，完全相容于 Singh 的实验上限，闭环消除了两独立实验的表观分歧。 | cross-experiment-reconciliation | derived-and-verified | Table 1; Singh 2016 Table 1; day20_ce131_li04_singh16_reconciliation.py | true |
+| LI04-D20-1 | superseded：旧K=5/2归因、2.761(518)和完全闭合撤回；截短CG公式漏掉(I+K)(I+K−1)/[I(I−1)]。正确CG在27/2,K=11/2时为76/325，在K=1/2时为26/75；不能用算术匹配证明原作者约定。 | task-correction | derived-and-boundary | PDF3 Table1；LI04-D18-1 | true |
+| LI04-D20-2 | 原表23/2−列Eγ=750keV、τ=1.44(54)ps、B(E2)=2416(906)e²fm⁴、Qt=3.55(67)eb；27/2−列827keV、1.23(23)ps、1723(322)e²fm⁴、2.72(25)eb。不能把新程序的750.5keV当原表精度。 | table-transcription | direct-visual | PDF3 printed463 Table1 | true |
+| LI04-D20-3 | 固定原B=0.2416e²b²的23/2候选K=1/2、5/2、11/2分别给Qt=2.66643、2.80680、3.55687eb；27/2的原B=.1723对应2.23530、2.31810、2.72162eb。候选K=11/2与原表相容并不证明作者用该K，也不能把保B几何变换和保τ重算混作同一验证。 | conditional-geometry | derived-and-boundary | PDF3 Table1；evidence-repair-result-008.json | true |
+
+## Day 20预习：Li 2004 与 Singh 2016 真实寿命重合与K投影约定解耦
+
+依据独立审计程序 day19_ce131_li_singh_reconciliation_audit.py 的 14 项检验与基准输出 ce131-li-singh-reconciliation-result-026.json，核准了 $^{131}\text{Ce}$ 负宇称 yrast 带两次测量间的物理与代数对应：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LI04-D20-4 | 在 $27/2^-$ 态上，Li 2004（DSAM）测得寿命 $\tau = 1.23(23)\text{ ps}$ 与 Singh 2016（Plunger）测得 $\tau = 1.24(+0.23/-0.13)\text{ ps}$ 实验差异仅 $0.81\%$，两独立实验的原始寿命高度一致。原表 $Q_t = 2.72(25)\text{ eb}$（Li）与 $2.26(+0.37/-0.23)\text{ eb}$（Singh）的表观分歧完全来自转子模型 Clebsch-Gordan 因子 $K$ 投影约定：$K=11/2$ 导出 $Q_t = 2.722\text{ eb}$（符合 Li 原表），而 $K=1/2$ 导出 $Q_t = 2.235\text{ eb}$（符合 Singh 转载重算值 $2.28\text{ eb}$ 及实测值 $2.26\text{ eb}$），两者比值严格对应代数因子 $\sqrt{169/114} \approx 1.2176$。在 $23/2^-$ 态上，将 Li 的 $B(E2) = 0.2416\text{ e}^2\text{b}^2$ 按 $K=1/2$ 转换得 $Q_t = 2.67\text{ eb}$，完全相容于 Singh 报告的上限 $Q_t < 2.85\text{ eb}$。两文献不存在真实物理寿命矛盾。 | data-reconciliation-contract | direct-original-and-derived | PDF3 Table1；SI16 Table1；ce131-li-singh-reconciliation-result-026.json | true |

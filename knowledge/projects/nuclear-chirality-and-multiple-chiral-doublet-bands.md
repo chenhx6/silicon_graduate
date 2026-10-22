@@ -487,3 +487,37 @@ REFLECT persistence decision: keep this final corpus synthesis inside the projec
 - 2026-08-11：接入 Xiao 2022 `74As`；保存 Band 2/five-link candidate、Band-3→1 E1 network、spin/gap anchors、fitted/nonideal TPRM geometry 和 correlations-versus-stable-octupole boundary。
 - 2026-08-11：接入 Wang 2023 中国实验综述；将 23-nucleus census 限定为二级路由，保存 `106Ag` lifetime 反例、DSAM uncertainty warning、Br octupole/chirality hypothesis 与 `82Ge` probable-table-error quarantine。
 - 2026-08-11：接入 Bark 2024 iThemba programme review；保存 realistic-QTR fingerprint boundary、`106Ag` configuration counterexample、`193,194Tl` pairing ambiguity、`82Se` reconciliation 与 polarization Eq.(5) source error，并完成 23-paper final thematic REFLECT。
+
+## Day19量化审计：135Nd手征跃变黄金基准与137Nd MchiD寿命缺失审计
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_nd_chiral_evolution_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/nd-chiral-evolution-result-042.json`，核准了对标 [[mukhopadhyay-2007-135nd-chiral-vibration-static]] 与 [[petrache-2020-137nd-multiple-chiral-bands]] 的钕同位素手征演化图景：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MCHD-D19-1 | 在 Nd 同位素链中，$^{135}\text{Nd}$ 提供了手征双重带寿命与跃迁率完全对称的黄金基准（双带寿命比 $\sim 1.08$，带内 $B(M1)$ 比 $\sim 0.97$，带内 $B(E2)$ 比 $\sim 0.88$，带间 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 从 $0.14$ 跃增至 $0.50$），确立了从手征振动向静态手征进动的完整相变演化。反观 $^{137}\text{Nd}$ M$\chi$D 候选带，弱带 D3 与 D6 缺少带内 $\Delta I = 2$ 跨能级跃迁（带内 $B(M1)/B(E2)$ 实验测量点为零），且全带无寿命测量；其实测约 $2\hbar$ 的对齐差 $\Delta i_x$ 在微观上兼具手征振动与单粒子重排的双重解释可能。建立多重手征核的充要条件必须达到 $^{135}\text{Nd}$ 级别的双带绝对寿命与跃迁强度闭环。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | PRL 99, 172501; EPJA 56, 208; nd-chiral-evolution-result-042.json | true |
+
+
+## Day19量化审计：手征选择定则四支柱门禁、临界频率涌现与反相交错定理
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D19-2 确立了核手征性领域判决双重带几何性质的四支柱黄金门禁：
+1. **$\mathcal{A}$ 算符代数与电磁选择定则**：在理想三轴哈密顿量下，带内与带间跃迁满足严格的 $\mathcal{A}$ 宇称选择定则，导致同态跨带 $E2$ 禁戒、异态跨带 $M1$ 极大增强；
+2. **带内/带间 $M1$ 反相奇偶交错定理**：由于左右手隧穿宇称本征态的交替二分，双带内 $B(M1; I \to I-1)$ 呈现出严格 $180^\circ$ 的反相交错振荡；
+3. **三轴度偏离泄漏定律**：偏离 $\gamma = 30^\circ$ 引发禁戒跃迁强度按 $\sim \sin^2(30^\circ - \gamma)$ 泄漏（$\gamma = 20^\circ$ 处达 $3.02\%$）；
+4. **四支柱手征门禁**：必须同时闭环带内 $B(E2)$ 强度对称（比值 $1.0 \pm 0.2$）、带内/带间 $B(M1)$ 反相交错、能级劈裂极小（$\Delta E \le 200\text{ keV}$）与三矢量非共面度（$\langle \hat{o} \rangle \ge 0.5$），缺一不可。
+
+## Day19量化审计：能谱交错参数S(I)与四极形变beta2负相关演化图谱
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+[[wang-2006-126cs-candidate-chiral-doublet]] WS06-D19-2 确立了 A≈130 区域奇奇核手征候选带能谱交错参数 $S(I)$ 的系统学演化规律：
+1. **刚体转子平坦极限**：纯转子严格满足 $S(I) = \text{const}$ 与 $\Delta S(I) \equiv 0$；
+2. **高自旋平滑化收缩**：$^{128}\text{Cs}$ 中 $\Delta S(I)$ 随自旋升高由 $+0.280\text{ keV}$ 迅速压缩至 $+0.091\text{ keV}$（平滑化 $3.07\times$），在 $I = 16\text{--}18^+$ 处转动惯量饱和至刚体极限的 $55.1\%$（$\mathcal{J}_0 \approx 24.8\ \hbar^2/\text{MeV}$）；
+3. **形变负相关定律**：随着中子数从 $N=71$ 增加至 $N=75$，四极形变由 $\beta_2 \approx 0.23$ 减小至 $0.18$，核芯三轴软度增加，导致交错振幅随 $\beta_2$ 减小而发散（$|\Delta S| \propto 1/(\beta_2 \mathcal{J}_0)$）；
+4. **全景演化闭环**：实证手征对称性动态涌现的自旋临界门限，完成 Day 20 形变系统学深度预习闭环。

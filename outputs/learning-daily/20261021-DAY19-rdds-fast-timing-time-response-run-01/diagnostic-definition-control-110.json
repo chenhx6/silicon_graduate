@@ -1,0 +1,23 @@
+{
+  "scope": "exact rational convention control, not nuclear data fit",
+  "energy": "E=.1 J(J+1)+.7, arbitrary consistent units",
+  "source": "Ionescu PDF9 Eq6",
+  "values": [
+    {
+      "J": "9/2",
+      "S_Eq6_for_declared_rigid_rotor": "0"
+    },
+    {
+      "J": "11/2",
+      "S_Eq6_for_declared_rigid_rotor": "0"
+    },
+    {
+      "J": "13/2",
+      "S_Eq6_for_declared_rigid_rotor": "0"
+    },
+    {
+      "J": "15/2",
+      "S_Eq6_for_declared_rigid_rotor": "0"
+    }
+  ]
+}
