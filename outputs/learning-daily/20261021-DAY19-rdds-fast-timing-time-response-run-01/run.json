@@ -15,20 +15,21 @@
   "continuation_count": 5,
   "continuation_batch_count": 5,
   "continuation_batches": 1,
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-21T17:29:52.067160+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
-  "completed_day_indices": [],
+  "completed_day_indices": [
+    19
+  ],
   "partial_day_indices": [
-    19,
     20
   ],
-  "curriculum_cards_completed": 0,
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-22T16:00:00+08:00",
   "last_closeout_snapshot": {
     "now_local": "2026-10-21T18:41:08.706869+08:00",
@@ -154,19 +155,16 @@
   "last_continuation_prompt": "/workspace/wiki/outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-005-prompt.md",
   "closeout_turn": true,
   "closeout_window_missed": false,
-  "formal_credit": false,
-  "next_day_index": 19,
-  "deliverables_passed": false,
+  "formal_credit": true,
+  "next_day_index": 20,
+  "deliverables_passed": true,
   "study_window_closed": true,
-  "last_checkpoint": "114 normalized-weight and MC correction; unsafe auto-credit executor retired",
+  "last_checkpoint": "116 formal Day19 card completed after content publication",
   "latest_publication": {
-    "branch": "main",
-    "subject": "Close Day 19 on schedule-level evidence saturation with verified Day 20 pre-study",
-    "commit": "928fcae3dc6435ca7e17e5ffdd70d99f2ee23700",
-    "receipt": "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-007.json",
-    "status": "pushed"
+    "receipt": "publication-receipt-115.json",
+    "status": "content-published"
   },
-  "research_status": "research stopped at original deadline; closeout-only",
+  "research_status": "stopped at original deadline; formal Day19 completed after actual content publication",
   "superseded_closeout_metadata": {
     "finished_at": "2026-10-21T18:47:28.036565+08:00",
     "research_stopped_at": "2026-10-21T18:47:28.036565+08:00",
@@ -212,5 +210,7 @@
     "new_sources_allowed": false,
     "formal_credit": false
   },
-  "checkpoint_continuation": "Continue source/response audit in the same session; prioritize remaining 019–078 derived claims, no new course beyond existing Day20 partial; stop research at original deadline."
+  "checkpoint_continuation": "Continue source/response audit in the same session; prioritize remaining 019–078 derived claims, no new course beyond existing Day20 partial; stop research at original deadline.",
+  "finished_at": "2026-10-22T15:31:27.951583+08:00",
+  "actual_session_receipt": "final-session-receipt-116.json"
 }

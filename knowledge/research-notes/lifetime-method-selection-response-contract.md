@@ -14,6 +14,14 @@ tags: [lifetime, RDDS, DSAM, deorientation, calibration, response]
 
 # 寿命方法选择：先定义时间响应，再比较精度
 
+## Day19正式交付导航
+
+本页最初来自Day18预习；正式Day19的原读、代码与验收单独沿同run/session证据核对，不能用预习兑换学分。实际主线依据[[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-20、[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-D19-24及[[regis-2011-fast-timing-labr3]] RG11-D19-19。公开GCD及当前权重条件见[[regis-2015-generalized-centroid-difference]] RG15-9。
+
+可执行选择树与八项校准清单见[[recoil-distance-doppler-shift]]的“Day19可执行的方法选择决策树”和由108修订的checkpoint095：按直接observable与可识别输入选择DSAM/RDDS/timing；TDPAD进动用于g/Q，人口寿命另核。当前page内109/111/114是声明数学模型与设计反例，不是原实验fitCI；同data、feeder/role、分量与材料/响应合同继续分层。
+
+019–078历史草稿保持隔离；079–087和095–107的旧科学认证已经撤回，113量词/MC按114修订。正式19卡完成不恢复这些草稿、不清除review/needs_review。读取历史段落时以最新纠错和精确source locator为准。原events/producer/校准Cov缺失时只写readiness，QMD缓存刷新deferred。
+
 ## Research Trigger
 
 正式Day18在主线和新DSAM审计后，按原2026-10-21 15:00上海deadline的实时≥120分钟门，开始恰好下一Day19知识预习。先冻结承认强priming的回忆；不授19、不新建session/调度、不打开再下一卡。当前已完成Radeck十页原读、Nolan选段/电子计时段与分量响应exercise，方法选择表和最小校准清单见末两节。Nolan本次是定向核验，不是新完整88页阅读；现代fast-timing/TDPAD primary、actualproducer与Cov仍缺。

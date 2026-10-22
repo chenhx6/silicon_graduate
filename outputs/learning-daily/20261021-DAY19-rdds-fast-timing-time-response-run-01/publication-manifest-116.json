@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "expected_branch": "main",
+  "allowed_paths": [
+    "knowledge/index.md",
+    "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/card-credit-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-current.md",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/final-session-receipt-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/knowledge-before-formal-closeout-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/lint116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/preflight116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-manifest-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-receipt-115.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/required-checks-final-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/required-tests-116.txt",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/requirement-proof-final-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/run.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/writeback-validation-116.json",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md",
+    "outputs/learning-daily/prompts/20261022-DAY20-be2-qt-deformation.md",
+    "outputs/learning-milestones/2026-09-one-month-state.json",
+    "system/handoff.md",
+    "system/log.md"
+  ],
+  "protected_paths": [
+    {
+      "path": "PLAN.md",
+      "sha256": "7122f62bd951a9c30cddff25fece14a1282748489e2feef1154bb7b7c75aa2f8"
+    },
+    {
+      "path": "raw/zotero/wiki-inbox.bib",
+      "sha256": "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be"
+    }
+  ],
+  "commit_message": "Finalize Day19 card audit and canonical learning handoff",
+  "scope": "originally required second phase: actual content publication115 precedes a single formal card-credit116; final report/canonical navigation/receipt/next prompt, no new research",
+  "file_sha256": {
+    "knowledge/index.md": "e38e9dd9658317ff51ea3a4fc863855bc64323c4b57ecbf8ed57ae6bf5906c15",
+    "knowledge/research-notes/lifetime-method-selection-response-contract.md": "1f1401c56e48718297fbafd5138047ea9858b21bca0add367904c878d209b60d",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/card-credit-116.json": "f9ba52513d682673fee4f34dfff4d08c3086fe02a7444b207ea1313c80169ce3",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-current.md": "05bfd63e0153965ee2bf32c71d2b23906d5b540c6f59ccd2f0a5bd53bd893473",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/final-session-receipt-116.json": "ce11f8a528cf3f06547b7b1dd7c70676ef66af2a1655436e98172cea2380ce56",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/knowledge-before-formal-closeout-116.json": "751f687df6b7dd040fabc7ee3ac0de2c2c331058ebac4282a8c15eda9aa6c844",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/lint116.json": "27b40ee1a2e21caf5053422eff1113dfcbd50e1898976bb4cfbb0e7868eb2708",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/preflight116.json": "88747fee5a5825786a6c1633d331449c2396666f99e5b3e57e438e37bad686a8",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-receipt-115.json": "00710361f602df7a5d56ca30b23c21074584a9c114fca429da63ecb22132e407",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/required-checks-final-116.json": "3de65713390a360ac4947682fa6cfcf5440e58f3457dbbd5da458a8f3fc4c50b",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/required-tests-116.txt": "670fdac1b7943e37a563a2ebd4f48c72d9cf15f459b5ec38167144c4fbbb5377",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/requirement-proof-final-116.json": "138085ed2b985290c135d601dd32e1e688060d80ce360e2284c43ad825829389",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/run.json": "2b388b6e94079ad6129f8b7eab5f466a53810269aad1f19401dc2d69819b1a3b",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/writeback-validation-116.json": "141395505bb5a7aa39b9f1181a3ea1705f9c311c4b844fc48d2c77e2c4d97d2f",
+    "outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response.md": "3deba02853886e016cdfdc1613585f24aa005f99639fdbc82830cc813b140b5d",
+    "outputs/learning-daily/prompts/20261022-DAY20-be2-qt-deformation.md": "2544ef90bb65437272bee6a869edaa149f8e105a1453d4db7ef01c030acc7f5d",
+    "outputs/learning-milestones/2026-09-one-month-state.json": "8594f73b90e9ba8615aa36cd7dcb6a36416a415c6f42a0ad4f1617752446348c",
+    "system/handoff.md": "fbbe2b7eed85c624fd464f8132d2671cb19a2c959663ec4fd158063c01607194",
+    "system/log.md": "5bc6abadf9bcba4b70a3a5e7b004f9018bbc2814e0cfa2872c591567191efd23"
+  }
+}

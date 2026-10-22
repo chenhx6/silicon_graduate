@@ -28,3 +28,23 @@ checkpoint108优先：095–107全部科学认证与过强推论（包括100%全
 checkpoint109–111补充：快速定时MSCD与方差估计在未知prompt尾部下存在完整时间谱退化（day19_prompt_tail_identifiability109.py）；有限calibrator自身具有方差传递（day19_prompt_calibration_design111.py），等计数规划需视目标寿命与prompt宽度而定，负Q保留不截断；TDPAD实际原读（Ionescu-Bujor 1998全部20页正文与Grodner 2018全部5页正文，source-reading-scope-108/110）确立129Ce未分辨feeding与模型参数（PTR/CDFT）依赖，不冒称为直接电磁矩图像。
 
 checkpoint112–114补充：2015公开GCD原稿scope112保持，raw归档deferred。114修订113：归一化权重相等保证任意pair平移相消；给定平移仅需权重差与平移内积为0，原始权重可成比例。匹配双role的prompt响应可同步抵消alignment影响；113 MC只检Gaussian噪声，未抽样指数等待，勿称完整方差验证。原events/权重/Cov未得，不重造实验CI。以canonical checkpoint114及新result114为准。
+
+<!-- DAILY_LEARNING_CURRICULUM_COVERAGE_V1 -->
+## Curriculum card completion record
+In the report's Run state include exactly these two machine-readable list lines:
+- completed_day_indices: [N, ...]
+- partial_day_indices: [N, ...]
+Count a card only after every deliverable on that Day card is complete. For every completed day, add `- Day N card audit: complete` under Run state and a `### Day N card completion audit` table with at least four Day-matrix deliverables, each linked to an evidence locator/artifact and marked complete. Partial previews go only in partial_day_indices. List cards contiguously from the requested day; at most one next-day card may be advanced in one run.
+For a completed Day 7 card also include these exact audit lines:
+- Day 7 scorecard: complete
+- Day 7 weekly REFLECT: complete
+
+<!-- DAILY_LEARNING_TIME_GATE_V1 -->
+## 时间判断与学习收束
+候选问题或来源达到局部证据饱和时，先读取最新 Runtime schedule snapshot；手动恢复且没有新快照时，调用当前时间工具，并按 Asia/Shanghai 与回执中的 overnight_until 比较。
+距离硬截止至少 120 分钟：继续当前高信息问题；若当前选定问题已饱和，检查下一张未完成日卡，只有其全部交付项能在剩余时段完成时才整卡前移。
+距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，用 15:00–16:00 收束。
+不能仅因两个候选槽位饱和而提前结束；须重建候选池、检查下一张可行日卡，并记录时间快照和决定。用户明确停止、硬证据/数据/权限阻塞或运行故障可提前结束，但必须保留未完成状态和续接命令。
+每次调用生成的新 Runtime snapshot 优先于本文件中的旧快照。课程学分只沿连续完整日卡推进；部分预览不得推进 next_day_index。
+
+Day19正式收束：同session正式19已在原硬截止后按实际内容发布回执115与一次迁移116完成，Day20仍无学分preview。开课先核最新Day19 final-session-receipt-116.json；本prompt不创造Day20 session/执行时间。原件正文未得的Schwalm/Hermans/2010MSCD保持metadata-only；旧generated脚本和passed字段不可作science认证。

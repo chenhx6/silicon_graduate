@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-21-day-19-01",
+  "run_date": "2026-10-21",
+  "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "schedule_id": "wiki-daily-learning",
+  "project_root": "/workspace/wiki",
+  "started_at_original_runner": "2026-10-21T17:29:52.067160+08:00",
+  "original_research_deadline": "2026-10-22T15:00:00+08:00",
+  "closeout_observation": "2026-10-22T15:37:15.610163+08:00",
+  "status": "completed-formal-Day19",
+  "completed_day_indices": [
+    19
+  ],
+  "partial_day_indices": [
+    20
+  ],
+  "next_day_index": 20,
+  "formal_credit_receipt": "card-credit-116.json",
+  "actual_content_publication": {
+    "receipt": "publication-receipt-115.json",
+    "commit": "edf5f07896de4e7ea2e74997f8fac14e5e14ab28",
+    "remote_main_equals_commit_at_publication": true,
+    "published_at_utc": "2026-10-22T07:24:43.734696+00:00"
+  },
+  "final_record_commit_pointer": {
+    "branch": "main",
+    "subject": "Finalize Day19 card audit and canonical learning handoff"
+  },
+  "final_record_publication_result_receipt": "publication-final-116.json",
+  "checks": "required-checks-final-116.json",
+  "scientific_scope": "requirement-proof-final-116.json; actual read ledgers distinguish full mainline/key visuals and selected thesis chapters",
+  "knowledge_entry": [
+    "knowledge/methods/recoil-distance-doppler-shift.md",
+    "knowledge/research-notes/lifetime-method-selection-response-contract.md"
+  ],
+  "next_prompt": "outputs/learning-daily/prompts/20261022-DAY20-be2-qt-deformation.md",
+  "continuation": "continuation-current.md",
+  "boundaries": [
+    "No original experimental fit or CI reconstructed",
+    "019–078 quarantined;079–087/095–107 certifications withdrawn;113 corrected114",
+    "Day20 preview has no formal credit",
+    "QMD external-cache refresh deferred",
+    "Existing runner/Farmer reused; no new schedule/session/daemon created"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-10-21-day-19-01",
+  "session_id": "01a15dcc-49f9-7623-b0e9-75fd73c74a80",
+  "observed_at_utc": "2026-10-22T07:36:03.567037+00:00",
+  "original_deadline": "2026-10-22T15:00:00+08:00",
+  "report_headings": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [
+      19
+    ],
+    "partial_day_indices": [
+      20
+    ],
+    "curriculum_cards_completed": 1,
+    "next_day_index": 20,
+    "error": null
+  },
+  "writeback_valid": true,
+  "lint_counts": {
+    "warning": 251,
+    "info": 3847
+  },
+  "lint_warning_boundary": "4 reaction parse /167 citation keys/80 missingraw; not scientific certification",
+  "preflight_ok": true,
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "tests": {
+    "tests": 43,
+    "passed": true,
+    "evidence": "required-tests-116.txt"
+  },
+  "actual_content_publication": "published",
+  "formal_transition": {
+    "receipt": "card-credit-116.json",
+    "exactly_once": true,
+    "count_before": 18,
+    "count_after": 19,
+    "next_day_index": 20,
+    "uncredited_preview": [
+      20
+    ]
+  },
+  "source_scope": "source-reading-scope091/092/093/094/108/110/112, byteidentity114; no new reading at closeout",
+  "original_result_bytes_preserved": "preservation-check-115.json",
+  "history_limit": "019–078 quarantined;079–087/095–107 withdrawn;113 corrected114",
+  "qmd": "read-only status; external cache refresh deferred",
+  "remaining": "final record commit H3, remote-ref verification and actual final session receipt"
+}

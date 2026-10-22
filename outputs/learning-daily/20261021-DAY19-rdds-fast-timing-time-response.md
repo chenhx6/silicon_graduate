@@ -14,11 +14,14 @@ updated: 2026-10-22
 - resume_command: codex resume 01a15dcc-49f9-7623-b0e9-75fd73c74a80 -C /workspace/wiki -s danger-full-access -a never
 - schedule_id: wiki-daily-learning；Docker-local，同一session，未新建调度。
 - hard_deadline: 2026-10-22T15:00:00+08:00；15–16仅收束。
-- status: content-complete / closeout-only；正式学分待内容发布后的最终验收，不使用旧自动授分器
-- completed_day_indices: []
-- partial_day_indices: [19, 20]
-- 前轮Day19课程卡complete和提前授分缺少实际主线阅读/必要检查依据，已撤回本run一次误授，恢复next19/count18等待新审计；Day20始终无学分，不开Day21。
-- 时间核对：2026-10-22T15:07:14.461783+08:00；原15:00上海研究截止已到，停止新来源/新路线；15–16只做收束、检查和发布。
+- status: completed；正式Day19依据原件scope/条件设计/审计检查及内容发布回执完成，Day20仅无学分preview
+- completed_day_indices: [19]
+- partial_day_indices: [20]
+- Day 19 card audit: complete
+- formal_completed: [19]；next_day_index: 20
+- actual_session_receipt: [最终回执](20261021-DAY19-rdds-fast-timing-time-response-run-01/final-session-receipt-116.json)；[原session续接](20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-current.md)
+- 早期误授已由008撤回；最终仅依正式19本session原读、条件设计与发布门重新审计，并在内容实际发布后推进一次count18→19/next19→20。Day20始终无学分，不开Day21。
+- 时间核对：2026-10-22T15:28:30.749656+08:00；研究于原15:00截止停止，15–16完成收束；内容发布后仅推进一次正式19，next_day_index: 20。
 
 ### Day 19 card completion audit
 
@@ -30,17 +33,18 @@ updated: 2026-10-22
 | 现代timing校准与同data边界 | [source-reading-scope-094.json](20261021-DAY19-rdds-fast-timing-time-response-run-01/source-reading-scope-094.json)：89页正文+30页关键视觉；RG11-D19-17–23分设置校准/中间态延迟，不报新fitCI | complete |
 | 新quant/design及反证 | [gated-foil-response-result-089.json](20261021-DAY19-rdds-fast-timing-time-response-run-01/gated-foil-response-result-089.json)：flat却偏1.84623ps反例；[stopping-covariance-response-result-090.json](20261021-DAY19-rdds-fast-timing-time-response-run-01/stopping-covariance-response-result-090.json)及[indirect-observable-result-093.json](20261021-DAY19-rdds-fast-timing-time-response-run-01/indirect-observable-result-093.json)为明示条件计算。095–107认证撤回，不按check总数证明科学 | complete |
 | 方法决策树与最小校准清单 | [canonical方法页](../../knowledge/methods/recoil-distance-doppler-shift.md)的checkpoint095已由108重写为observable/input/readiness条件树及八项清单；无固定方法门槛、无“清单自动消偏”承诺 | complete |
-| 日报/唯一writeback/checks/receipt/续接/发布 | 研究截止已到；科学交付已逐项对证，最终检查/发布与学分仍待收束 | pending |
+| 日报/唯一writeback/checks/receipt/续接/发布 | [内容检查](20261021-DAY19-rdds-fast-timing-time-response-run-01/required-checks-content-115.json)、[实际发布回执](20261021-DAY19-rdds-fast-timing-time-response-run-01/publication-receipt-115.json)、[一次学分迁移](20261021-DAY19-rdds-fast-timing-time-response-run-01/card-credit-116.json)及[续接](20261021-DAY19-rdds-fast-timing-time-response-run-01/continuation-current.md) | complete |
 
 
 ## Candidate pool and selection
 
-| 当前路线 | 新证据/信息增益 | 下一步 |
-| --- | --- | --- |
-| 来源与代码纠错 | Table5行身份、Table7比值方向、13态库存、beta与环角均有直接反证 | 隔离错误结论，检查受影响derived知识和旧脚本 |
-| Day19时间响应主线 | 响应C与概率P存在alias；校准充分性不可由closure代替 | 实际finite-angle/PRD/feeding输入与响应核审计 |
-| 恰好Day20无学分preview | 旧模型归一/K/形变和模式裁决尚有错误，不能宣称预习闭环 | 只复核已有B/Qt/shape输入，不开Day21 |
+原研究窗口内已检查Day19响应/校准主线、来源/代码纠错槽，以及恰好下一张Day20的B/Qt/shape preview；本次按硬截止收束，不以局部饱和提前结束。剩余高价值工作是原events/producer/Cov输入核对与Day20正式原读，留待既有runner的新独立运行；不在收束窗口继续新路或打开Day21。
 
+| 仍开放的问题 | 已有证据与限制 | 后续动作 |
+| --- | --- | --- |
+| RDDS分量/坐标与校准 | Radeck实际scope091；d/d0、有限停止/几何/eff/Cov仍缺原输入 | 保readiness边界，不造原fitCI |
+| prompt/背景与阵列权重迁移 | Régis scope094/112；109/111/114为声明控制 | 匹配原event、role/pair权重与参考响应后再分析 |
+| 恰好Day20 preview | K/Qt映射与趋势已作条件练习，未正式授分 | 按Day20新receipt冻结primed回忆并新核主线；next20 |
 
 ## Sources and evidence
 
@@ -819,7 +823,7 @@ supports：以精确level/branch、响应核、校准与可复现代码定义方
     {
       "summary": "索引改为核验进行中，撤回正式完成导航",
       "knowledge": "knowledge/index.md",
-      "anchor": "## Day19方法核验进行中",
+      "anchor": "## Day19方法合同与原读核验",
       "sources": [
         {
           "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
@@ -5649,7 +5653,7 @@ supports：以精确level/branch、响应核、校准与可复现代码定义方
     {
       "summary": "checkpoint112公开GCD稿的实际原读/版本/pair与背景合同，raw未归档、无原fitCI",
       "knowledge": "knowledge/index.md",
-      "anchor": "## Day19方法核验进行中",
+      "anchor": "## Day19方法合同与原读核验",
       "sources": [
         {
           "path": "knowledge/sources/regis-2015-generalized-centroid-difference.md",
@@ -5737,6 +5741,29 @@ supports：以精确level/branch、响应核、校准与可复现代码定义方
           "locator": "RG15-9"
         }
       ]
+    },
+    {
+      "summary": "正式Day19交付导航与原读/预习分离；历史草稿继续隔离，不新增实验CI或review认证",
+      "knowledge": "knowledge/research-notes/lifetime-method-selection-response-contract.md",
+      "anchor": "## Day19正式交付导航",
+      "sources": [
+        {
+          "path": "knowledge/sources/radeck-2012-deorientation-lifetime-98ru-rdds.md",
+          "locator": "R12-D19-20"
+        },
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-D19-24"
+        },
+        {
+          "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "locator": "RG11-D19-19"
+        },
+        {
+          "path": "knowledge/sources/regis-2015-generalized-centroid-difference.md",
+          "locator": "RG15-9"
+        }
+      ]
     }
   ]
 }
@@ -5754,6 +5781,14 @@ supports：以精确level/branch、响应核、校准与可复现代码定义方
 L0：Radeck全文及关键证据已新核；Nolan本轮全文文本+27页关键视觉已核，Régis实际核89页文字+30页关键视觉，scope094区分Fit1/Fit3及176W分设置校准与中间态累积；Klemme全文文本及PDF2–5关键视觉已核；TDPAD实际全文/关键图表范围按scope108/110，旧014不单凭hash认证；L1–L2：完成相关源页与条件代数/反例纠错；L3：方法选择与证据矩阵进行中；L4：无matching实验事件/响应重放，不宣称新实验fit、τ/CI、模式或形状测量。
 
 ## Verification and continuation
+
+### checkpoint116：正式19收束与后续入口
+
+内容提交已经实际推送，详见publication-receipt-115.json；正式学分迁移在它之后由card-credit-116.json记录，仅一次。正式19的所有卡交付行均complete，completed_day_indices=[19]、partial_day_indices=[20]、next20。旧019–078隔离、079–087/095–107撤回与113修订不因正式卡完成而恢复科学认证。
+
+最终方法使用入口为canonical方法树/八项清单、研究合同的正式交付导航及source原子locator。日报保留历史以解释纠错，不能把早期“核准/全闭环”段落当当前事实。缺原件、输入、SI/Cov或歧义处继续保review/readiness；没有新的实验寿命fit/CI或human-reviewed状态。
+
+43项runner/发布路径测试、8个条件程序重放、staged与protected检查和内容H3均有实际证据；QMD外部缓存刷新deferred，统计dashboard只作治理计数。最终会话回执记录原session/resume与实际提交/远端结果，最终记录完成后继续由现有runner安排Day20，无需本线程创建新调度。
 
 ### checkpoint115：原deadline收束与正式Day19证据审计
 
