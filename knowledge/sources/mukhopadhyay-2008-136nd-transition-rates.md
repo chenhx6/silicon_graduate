@@ -281,3 +281,28 @@ Checkpoint046回原TableII与2018能级图，撤回checkpoint032的错误桥接�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | MU08-D19-1 | 对 Table II 中 Band 1 与 Band 2 的 DSAM 测量数据进行逐自旋比值分析，实测 $B_2(E2)/B_1(E2)$ 在 $I=16^-, 17^-, 18^-, 19^-$ 分别为 $1.96, 5.50, 0.286, 0.455$。在 $I_c = 17.5\hbar$ 处发生剧烈的带交叉，双比值 $D = R(17)/R(18) = 5.50 / 0.2857 = 77/4 = 19.25$。任何与自旋无关的系统性阻停功率误差在双比值中严格对消；Band 2 的四极矩在交叉处从 $2.25\text{ eb}$ 塌缩至 $0.67\text{ eb}$（塌缩 $3.36$ 倍），Band 1 则从 $0.96\text{ eb}$ 上升至 $1.25\text{ eb}$（增幅 $+30.2\%$）。这一 19.25 倍的集体性反转断然排除了将 Band 1 与 Band 2 视为手征双重带的假设，确立了纯能量近简并与连接跃迁不足以判定手征对称性的实验警示。 | task-rate-and-crossover-audit | derived-and-boundary | PDF p.4 Table II; nd136-chiral-wobbling-crossing-result-049.json | true |
+| MU08-D20-F01 | checkpoint039保留Band2 I17/I18的B(E2)中心商11与Qt商3.343，撤回普适交叉动力学/形变排他认证。两条带对角B和从.52至.18不构成完整同空间强度和，缺额不能认作已测跨带转移；作者计算未纳band mixing，交叉区解释有界。见MU08-D20-R39-1/R39-2。 | band-crossing-e2-suppression-systematics | direct-original-and-derived | PDF4 Table II; a130-band-crossing-quadrupole-atlas-result-011.json | true |
+
+### checkpoint039：跨带比较与统计合同原件纠正
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU08-D20-R39-1 | TableII Band2 I17/I18 B(E2)=.44(.06)/.04(.01)、Qt2.24(.15)/.67(.08)；Band1 B=.08(.01)/.14(.02)。中心商可描述，但不同spin对角B和.52→.18没有完整跨带/固定算符闭合，不能将差.34当已测转移或普适守恒。 | literal-table-and-sum-boundary | original-and-conditional | PDF4 TableII; PDF5 Fig4 | true |
+| MU08-D20-R39-2 | TAC以两种不同四准粒子构型比较能量和强度，未将band mixing纳入计算；作者说明交叉区解释不充分。不同构型混合为解释，未精确测定mixing参数；TableII/Fig4误差不含约15%stopping系统量。 | author-model-limitation | original-and-conditional | PDF4 postTableII discussion; PDF5 Fig4 caption/discussion/summary | true |
+
+
+## Day20量化审计：136Nd带交叉11倍B(E2)塌缩、手征对称性破缺与TAC-RPA混合（checkpoint140）
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU08-D20-R140-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU08-D20-R146-1 | 140脚本仅将自设.44/.04与flag互比，没有独立核实逐态真实原表/带身份或TAC+RPA因果机制。11倍塌缩、3.5倍非对称、完全排除chirality及四qp混合唯一解释均撤回。未逐claim完成重核前只回用本页此前原件更正，不把不同正负宇称或不同作者带号当同一双带。 | withdrawn-certification-and-identity-boundary | source-and-bounded-self-audit | MU08既有Day18/Day20原表纠错; Petrache2018带身份对照 | true |

@@ -1,0 +1,41 @@
+{
+  "checkpoint": 151,
+  "observed_at_utc": "2026-10-23T03:11:09.999490+00:00",
+  "now_local": "2026-10-23T11:11:09.999490+08:00",
+  "time_source": "actual aware system time corroborated by UTC clock tool at 2026-10-23 03:09:23 UTC",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 228.83334183333332,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Official available SIGMA implementation vs actual experimental producer",
+      "information_gain": "high, current analysis",
+      "source_locators": [
+        "GM12-D20-1",
+        "GM12-D20-2",
+        "GM12-D20-3",
+        "GM12-D20-4"
+      ],
+      "evidence_gap": "Actual AY23 job/version/gradients remain unavailable; distinguish manual approximation from complete experimental CI.",
+      "next_action": "Complete actual scope, source writeback and fresh mechanical checks."
+    },
+    {
+      "route": "Return to state-specific A130 lifetime-strength-deformation comparison",
+      "information_gain": "high",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "PE98-D20-R34-1",
+        "LI04-D20-R146-1"
+      ],
+      "evidence_gap": "Branch/ICC, spin/geometry, shared calibration and interpretation cannot be averaged together.",
+      "next_action": "Inspect existing mainline original artifacts; reconcile weighted trends with direct evidence and final card deliverables."
+    },
+    {
+      "route": "Day21 uncredited preview already opened",
+      "information_gain": "bounded",
+      "evidence_gap": "No formal Day21 run/card credit",
+      "next_action": "Keep partial20/21; no Day22."
+    }
+  ]
+}

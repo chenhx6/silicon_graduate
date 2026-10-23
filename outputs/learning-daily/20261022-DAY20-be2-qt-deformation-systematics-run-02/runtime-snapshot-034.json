@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T21:05:49.352012+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1074.1774664666666,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:01:29 UTC",
+  "time_source": "aware system clock; separate preceding clock tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "016 Riley and Matev source/normalization/additivity audit",
+      "gain": "high",
+      "gap": "old self-chosen values and 35.4percent deficit unsupported"
+    },
+    {
+      "route": "023/024/026 band identity and model claims",
+      "gain": "high",
+      "gap": "claims withdrawn pending original read"
+    },
+    {
+      "route": "008/011–015 conditional inference boundaries",
+      "gain": "high",
+      "gap": "avoid restoring retired certification"
+    }
+  ],
+  "decision_reason": "Current Day20 evidence repair remains high information; no new card. Day21 existing preview only."
+}

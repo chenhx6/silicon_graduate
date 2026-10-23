@@ -3,7 +3,7 @@ type: research-note
 title: "寿命到强度与Qt：165Tm/136Nd的提取和几何审计"
 aliases: [lifetime-strength-audit, 165Tm 136Nd lifetime strength audit]
 created: 2026-10-19
-updated: 2026-10-20
+updated: 2026-10-22
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -765,6 +765,8 @@ DDCM距离恒定性是有用诊断，不保证所有共同速度/门/强度/有�
 这完成了对整个 $A \approx 160$ 经典wobbling链条的科学证据分层：**除 $^{163}\text{Lu}$ 具有真实的线偏振支持外，其余Lu同位素及Ta核素的‘wobbling证据’呈现出向类比排除、零电磁数据及循环假定逐步退化的链条，不能视作等同于 $^{163}\text{Lu}$ 的独立实验证实**。
 
 ## 高自旋形变演化假象与侧馈/阻停系统误差带：136Sm与133Pr案例
+
+> Day20原读更正：下列133Pr旧0.014ps/五数量级骤降为转录错误，Table2是14(3)ps；旧−1.68是Student t(df1)，不是已知误差Gaussian z（后者−2.400）。本节3σ/15%三重硬门与feeding成因认证撤回。见[[singh-2016-lifetime-131ce-133pr]] SI16-D20-F02/F03；未新读Babra，不在此恢复其旧认证。
 
 [[babra-2019-deformation-change-136sm]] B19-D18-1 与 [[singh-2016-lifetime-131ce-133pr]] SI16-D18-2 针对在束DSAM寿命测量推导跃迁四极矩 $Q_t$ 自旋演化时的系统误差机制提供了深入的量化审计（[定量对比结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-result-028.json)）：
 

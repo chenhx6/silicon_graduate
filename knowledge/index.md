@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-20
+updated: 2026-10-23
 ---
 
 # Wiki Index
@@ -22,6 +22,26 @@ updated: 2026-10-20
 - [[lifetime-method-selection-response-contract]] — Day19实际原件scope、条件响应/校准设计；095–107过强认证已由108撤回，原15:00截止后的正式Day19卡已完成；019–078草稿仍隔离，Day20仅无学分预习。
 
 ## Sources
+
+- [[gosia-2012-manual-sigma-invariants]] — 指定手册章节/全部公开SIGMA源码实际读；插值归一、crude误差与原producer分开。
+
+- [[cline-1986-nuclear-shapes-coulomb-excitation]] — 本session新读1986原件683–716与13图；高阶缺失强度/对易/低高频条件、非线性误差与Fig4归一字面边界。
+
+- [[ayangeakaa-2023-ge76-coulomb-excitation-full]] — 实际accepted长文16页，旧全11图清单由146纠正（有Fig12）；81矩阵元/有限E2网络与Poves方法争议。
+
+- [[ayangeakaa-2019-rigid-triaxial-ge76]] — 实际accepted全文/五图一表，Ge低spin高阶刚性支持方与103混合矩阵元/后续完整集合边界。
+
+- [[henderson-2019-triaxiality-selenium76]] — 实际accepted全文、实验低阶平均三轴性与未测2₃对角/收敛边界；刚性只在模型分支讨论。
+
+- [[poves-2020-limits-assigning-nuclear-shape]] — 实际v2全文六页/高阶矩与doorway、质量形状/量子涨落合同；不替代实验Cov或普适刚性裁决。
+
+- [[henderson-2020-quadrupole-invariant-convergence]] — 实际v4全文与全部六图/两表，有限E2网络/软度/混合与电荷-物质形状边界；非A≈130精度认证。
+
+- [[barth-1981-ce-local-moments-metals]] — 136Ce探针/电子Ce³⁺局域场与Curie标定，实际10页含会议反证；核衰变/取向/电子松弛分开。
+
+- [[dafni-1983-ce-isomers-tin-quadrupole]] — Ce/Sn参考primary4页实际原读；频率比与理论77e·fm²绝对锚分开，支持校准依赖审计。
+
+- [[vianden-1987-electric-field-gradients-metals]] — 定向原读Ce/Sn的三个同源EFG参考、列定义与Ref371；非独立校准，raw归档deferred。
 
 - [[regis-2015-generalized-centroid-difference]] — 公开GCD方法稿的96pair筛选/alignment/mean PRD与100Zr Compton时间响应；public staging已核，raw归档deferred。
 
@@ -728,6 +748,7 @@ updated: 2026-10-20
 
 - [[spinhalf-angular-nuisance-response-contract]] - SI实际spin1/2前提的核rest域、末态门/boost反例与A2模块readiness。
 - [[lifetime-strength-audit-165tm-136nd]] - DSAM寿命/强度/Qt几何及feeding/stopping预算分层；Day17内无学分Day18知识。
+- [[day20-quadrupole-collectivity-systematics-synthesis]] - B(E2)、Qt的source分层与条件反例；046–100认证撤回，实验机制/Cov缺口保持。
 - [[iaea-2026-stopping-s-au-o-ta-records]] - 官方电子阻止表的同位素/能区/误差语义；S/Au、O/Ta、Mg/Au与DSAM实际响应的边界。
 - [[bethge-1966-heavy-ion-stopping-charge-states]] - 厚靶反向散射与电荷态原实验；束流共同尺度、方法适用条件和阻止输入边界。
 - [[geant4-2026-ion-stopping-component-contract]] - SDK离子阻止的实际模型/表/API合同与首次范围建表诊断，非论文producer复现。

@@ -1,0 +1,41 @@
+{
+  "checkpoint": "109",
+  "observed_at": "2026-10-23T04:45:59.391730+08:00",
+  "scientific_certification": false,
+  "all_required_final_checks_passed": false,
+  "checks": {
+    "knowledge_writeback_run_snapshot": {
+      "valid": true,
+      "changed_files": 32,
+      "mapped_paths": 32
+    },
+    "report_headings_valid": true,
+    "curriculum_coverage": {
+      "valid": true,
+      "completed_day_indices": [],
+      "partial_day_indices": [
+        20,
+        21
+      ],
+      "curriculum_cards_completed": 0,
+      "next_day_index": 20,
+      "error": null
+    },
+    "protected_initial_hashes": {
+      "PLAN.md": true,
+      "raw/zotero/wiki-inbox.bib": true,
+      "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true
+    },
+    "report_history_hash_valid": true,
+    "latest_full_lint": {
+      "checkpoint": "108",
+      "exit": 0,
+      "errors": 0,
+      "warnings": 257,
+      "info": 3956
+    },
+    "git_diff_check_exit": 0,
+    "H3": "not run",
+    "credit": "unchanged"
+  }
+}

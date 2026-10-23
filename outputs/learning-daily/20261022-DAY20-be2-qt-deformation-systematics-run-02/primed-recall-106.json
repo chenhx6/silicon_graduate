@@ -1,0 +1,16 @@
+{
+  "checkpoint": "106",
+  "frozen_at": "2026-10-23T04:03:46.567927+08:00",
+  "kind": "primed recall before Dafni1983 calibration primary lookup",
+  "prior_exposure": [
+    "IB98 actual read104",
+    "Vianden1987 selected original105"
+  ],
+  "expectations_to_check": [
+    "Ref371 shared by134/136/138Ce nuQ andQ; uncertainty/provenance of reference moments not known",
+    "citation E.Dafni F.Davidowsky A.Gelberg M.Hass E.Naim G.Schatz HFI15/16(1983)101; exact title/DOI not yet resolved",
+    "do not infer three independent EFG calibrations or a full response/Cov from compilation rows"
+  ],
+  "not_blind": true,
+  "next": "identify metadata and authorized public body; preserve read scope and raw-deferred boundary"
+}

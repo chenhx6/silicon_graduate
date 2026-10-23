@@ -7,6 +7,14 @@ updated: 2026-10-22
 
 # Knowledge Base Health Dashboard
 
+## Current Snapshot: 2026-10-23 Day20 correction audit
+
+本快照来自本次实际lint167与目录计数，只表示治理与可追溯性检查。knowledge为700篇Markdown，其中source为376篇；page/source unreviewed为622/316。4770项claim中4066保持needs_review，locator/kind缺项均0；source缺citation_key177；自动lint为0 error、271 warning。286项源文件hash核验不等同全文阅读或独立实验认证。
+
+Day20的来源、模型和条件推导分层见[[day20-quadrupole-collectivity-systematics-synthesis]]及[[transition-quadrupole-moment]]的checkpoint167。153–166全科学认证撤回；69项旧清单与653次文本命中不能作为科学通过率或精确locator验证。原始Cov/producer未得，review/flags未提升。原读scope保留，正式学分与最终发布状态只看本次实际收束回执。
+
+QMD本轮保持deferred：知识目录契约已由boundary实际核验，未更新位于项目外的缓存，不声称这700页已全部重新索引。历史快照按原日期保留。上面的治理数字来自lint；相关科学使用边界依据[[gosia-2012-manual-sigma-invariants]] GM12-D20-10，不能由代码示例倒推真实实验精度。
+
 ## Current Snapshot: 2026-10-22 Day19 evidence correction
 
 本次统计来自Day19 lint114与目录核对，不是科学验证或新增人工审核。689篇Markdown、366篇source，page/source unreviewed为611/306；4546个claim中3847保留needs_review，locator/kind缺项均0。源页缺citation_key167；80个raw slot缺本地文件、4个反应解析警告，合计251 warning、0 error。286项原件hash已核；字段存在不证明原件可读、重复文件不增加实验独立性。

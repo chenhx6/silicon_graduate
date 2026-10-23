@@ -1,0 +1,37 @@
+{
+  "now_local": "2026-10-23T08:13:58+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 406,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 00:13:58 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "134Nd coincidence-plunger lifetimes, S1 vs S2 multiband collectivity disparity, and neighboring Ce-Pr-Nd systematics audit",
+      "gap": "Quantified ground-state baseline Q0 = 4.37 eb (beta2 = 0.246), S1 vs S2 10+ crossing disparity (Qt ratio 2.15x, B(E2) factor 4.63x), neighboring ND baselines (130Ce beta2 = 0.259, 132Ce beta2 = 0.237, 131Ce tau = 173 ps), and DDCM constant-tau diagnostic (<5% std)",
+      "information_gain": "high",
+      "source_locators": [
+        "KL99-D20-R138-1",
+        "KL99-D20-R36-1",
+        "KL99-D20-R36-2"
+      ]
+    },
+    {
+      "route": "Multiple chiral doublet bands (MchiD) in 133Ce and companion nuclei, triaxial shape coexistence, and lifetime-gap discrimination audit",
+      "gap": "Quantified 4.00x energy splitting disparity (400 vs 100 keV), chiral barrier ratio (1.568), RMF triaxial shape parameters (Delta beta2 = +4.55%, Delta gamma = -2.30 deg), TPRM Coriolis attenuation xi = 0.70, and demonstrated the 4.00x B(E2) pseudodegeneracy trap under missing lifetimes",
+      "information_gain": "high",
+      "source_locators": [
+        "A13-D20-R137-1",
+        "A13-D20-R32-1",
+        "PE06-D20-R32-1"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (406.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 138 completed 134Nd coincidence-plunger lifetimes, S1 vs S2 multiband collectivity disparity, and neighboring Ce-Pr-Nd systematics audit; continuing substantive Day 20 research."
+}

@@ -185,3 +185,30 @@ P0: none identified.
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | PE18-D19-2 | 对五对候选手征双重带（D1-D5）的实验观测基底进行多维层级审计，证实仅有正宇称 D5/D5-chiral（$\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$ 组态 C）在双带内均测得了几乎重合的 $B(M1)/B(E2)$ 实验比值；其余四对（D1-D4）的弱伙伴带均缺乏带内偶极线与分支比测量。三维推转 TAC-CDFT 仅在 D3（组态 $D^*$）上在临界频率 $\hbar\omega \approx 0.5\text{ MeV}$ 以上展示了明确的非共面旋转解（$\phi > 0$），将手征性推广至全部五对属于模型空间排除假设而非逐对微观计算验证。 | task-mchid-hierarchy-audit | derived-and-boundary | PDF pp.4-6 Figs.3-6; Table I; nd136-chiral-wobbling-crossing-result-049.json | true |
+
+## Day20量化审计：手征与摆动三维角动量几何判据与共存边界
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立审计程序 `system/scripts/day20_chiral_wobbling_geometry_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/chiral-wobbling-geometry-result-022.json`，核准了偶偶核 $^{136}\text{Nd}$ 候选手征与摆动模式的三维角动量几何判据：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE18-D20-1 | 建立了区分偶偶核 $^{136}\text{Nd}$ 候选手征双重带（Petrache 2018）与横向摆动（Lv 2022）的三维角动量几何判据：手征转动要求三维非平面角动量配置 $\vec{J} = (J_s, J_m, J_l)$ 且手征体积元 $\chi = (\vec{j}_p \times \vec{j}_n) \cdot \vec{R}_{\text{core}} \neq 0$，破坏内禀系 $\mathcal{R}_k(\pi)\mathcal{T}$ 离散对称性；而横向摆动本质上是二维平面转动伴随主轴简谐摆动（$J_l \approx 0$），时间反演保轴对称性 $\mathcal{R}_x(\pi)\mathcal{T}$ 守恒。Lv 2022 将 L1/L3 提议为横向摆动直接排斥了 Petrache 2018 将其作为正宇称手征双重带（D1/D2）的物理指认；751 keV 跃迁 $81.3\% M1$ 份额表明该结构更接近准粒子倾斜进动而非纯电四极摆动声子。 | task-chiral-wobbling-geometry-audit | derived-and-boundary | PDF pp.3-6 Figs.1-6; Table I; chiral-wobbling-geometry-result-022.json | true |
+
+
+## Day20量化审计：136Nd五对手征候选带层级、MU08电磁塌缩反证与寿命缺口（checkpoint140）
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE18-D20-R140-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE18-D20-R146-1 | 140对本篇“五对候选全部已被旧136Nd寿命证伪”的推广撤回。缺少寿命限制电磁判别强度，不单独证明作者误认；必须逐带对应、同宇称/同构型与匹配态核验，不能将MU08数据或L1/L3 wobbling解释覆盖全部候选。 | cross-source-identity-boundary | source-and-bounded-self-audit | PE18既有带身份纠错; MU08低spinBand1/2对照 | true |

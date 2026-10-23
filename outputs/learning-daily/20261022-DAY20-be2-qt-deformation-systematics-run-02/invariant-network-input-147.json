@@ -1,0 +1,166 @@
+{
+  "scope": "Signed E2 central values manually transcribed from the present-work column of AY23 Table III. Not a sample from the fit; literal error suffixes kept but not propagated.",
+  "source_file": "/workspace/wiki/tmp/day20-ge76-119/PDFs/Triaxiality_and_the_nature_of_low-energy_excitations_in_mmlmath_xmlnsmml=httpwww.w3.org1998MathMathMLmmlmmultiscriptsmmlmiGemmlmimmlmprescri.pdf",
+  "source_sha256": "4907cd6d64d74fe7aea247d9be1c3e056fb026d9b76e4385c69c3b8784917a96",
+  "ground_to_two": [
+    {
+      "two_state": 1,
+      "central_eb": ".526",
+      "literal_error_suffix": "(2)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF6 ground rows1-4; PDF7 rows1-2"
+    },
+    {
+      "two_state": 2,
+      "central_eb": ".089",
+      "literal_error_suffix": "(3)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF6 ground rows1-4; PDF7 rows1-2"
+    },
+    {
+      "two_state": 3,
+      "central_eb": ".061",
+      "literal_error_suffix": "(3)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF6 ground rows1-4; PDF7 rows1-2"
+    },
+    {
+      "two_state": 4,
+      "central_eb": ".054",
+      "literal_error_suffix": "(4)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF6 ground rows1-4; PDF7 rows1-2"
+    },
+    {
+      "two_state": 5,
+      "central_eb": ".010",
+      "literal_error_suffix": "+0.009/-0.021",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF6 ground rows1-4; PDF7 rows1-2"
+    },
+    {
+      "two_state": 6,
+      "central_eb": ".023",
+      "literal_error_suffix": "(6)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF6 ground rows1-4; PDF7 rows1-2"
+    }
+  ],
+  "two_to_two": [
+    {
+      "i": 1,
+      "j": 1,
+      "central_eb": "-.24",
+      "literal_error_suffix": "(2)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "central_eb": ".26",
+      "literal_error_suffix": "+0.02/-0.05",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "central_eb": "-.24",
+      "literal_error_suffix": "+0.02/-0.16",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF8"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "central_eb": "-.12",
+      "literal_error_suffix": "+0.03/-0.12",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF8"
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "central_eb": "-.2",
+      "literal_error_suffix": "+0.3/-0.2",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF8"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "central_eb": ".535",
+      "literal_error_suffix": "+0.003/-0.007",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "central_eb": "-.126",
+      "literal_error_suffix": "+0.006/-0.004",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "central_eb": ".022",
+      "literal_error_suffix": "+0.008/-0.005",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "central_eb": ".016",
+      "literal_error_suffix": "+0.011/-0.021",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "central_eb": "-.048",
+      "literal_error_suffix": "+0.002/-0.007",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "central_eb": ".38",
+      "literal_error_suffix": "+0.01/-0.02",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "central_eb": "-.18",
+      "literal_error_suffix": "(2)",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "central_eb": ".002",
+      "literal_error_suffix": "+0.006/-0.003",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "central_eb": ".036",
+      "literal_error_suffix": "+0.011/-0.007",
+      "source": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "locator": "Table III; PDF7"
+    }
+  ],
+  "unlisted_policy": "Symbolic unknown, including 2_5 diagonal. No assumed zeros. Outside 2_1..2_6 also unknown.",
+  "reported_uncertainty_contract": "PDF6/printed5 reports 68.3% confidence limits including statistical/systematic/cross-correlation contributions; joint covariance not obtained by this task.",
+  "convention": "Real time-even E2 RMEs; ground-to-two amplitudes positive in the table phase convention, equal-spin D symmetric; q2=a^T a, q3=-sqrt(7/10) a^T D a. Truncation is a declared mathematical operation, not an original GOSIA refit."
+}

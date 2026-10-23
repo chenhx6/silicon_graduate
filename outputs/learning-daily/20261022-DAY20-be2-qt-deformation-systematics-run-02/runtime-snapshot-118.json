@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T05:42:50.094757+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 557.1650873833333,
+  "decision": "continue-or-advance",
+  "time_source": "actual aware timestamp corroborated by UTCclocktool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Ge76expanded2023original",
+      "gap": "2019Ref37 full103mixedRMEset candidate identified DOI10.1103/PhysRevC.107.044314; need bodyidentity/lineage, tables and highorder Cov/method",
+      "information_gain": "high",
+      "source_locators": [
+        "AY19-D20-1",
+        "119exactmetadata andOAdiscovery"
+      ]
+    },
+    {
+      "route": "Experimental versus model rigidity comparison",
+      "gap": "Ge originalsupports highorder lowspinrigidity; PovesCI givesbroad gamma; Seonlymeandegree. Alignactualdefinition/inputs beforeverdict",
+      "information_gain": "high",
+      "source_locators": [
+        "AY19-D20-4/6",
+        "PO20-D20-6",
+        "HE19-D20-5"
+      ]
+    },
+    {
+      "route": "Day21 existinguncreditedpreview",
+      "gap": "partialonly,noDay22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Over120min left; actualfullfollowupcandidate offers highvalue input gap route, no earlycloseout."
+}

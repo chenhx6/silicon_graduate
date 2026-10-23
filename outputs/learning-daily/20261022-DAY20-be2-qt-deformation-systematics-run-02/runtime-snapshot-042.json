@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T22:05:49.893226+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1014.1684462333334,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:56:04 UTC",
+  "time_source": "aware system clock; preceding toolobservation separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Consolidate currentmainline evidence/weightedtrend figures and course deliverables",
+      "information_gain": "high",
+      "gap": "historicalwithdrawal anchors obscure currentcorrectdata, need compactusableentry"
+    },
+    {
+      "route": "Source Nd AP/P response and commonexperimental lineage",
+      "information_gain": "high",
+      "gap": "literalvalues available butactualconversion/producerunknown"
+    },
+    {
+      "route": "Original2014QTR/fullmodel vs frozenapproximation scope",
+      "information_gain": "high",
+      "gap": "Mattaoriginaldetachment vs latercriticism, originalsourcecomparison needed"
+    }
+  ],
+  "decision_reason": "ContinuecurrentDay20 highvaluequestions; no nextcard or closeout."
+}

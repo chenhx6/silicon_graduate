@@ -1,0 +1,6 @@
+{
+  "exit": 0,
+  "stdout": "{\n  \"pdf\": \"outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.3,\n  \"text_run_count\": 44,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n",
+  "stderr": "",
+  "observed_at_utc": "2026-10-22T14:16:30.537659+00:00"
+}

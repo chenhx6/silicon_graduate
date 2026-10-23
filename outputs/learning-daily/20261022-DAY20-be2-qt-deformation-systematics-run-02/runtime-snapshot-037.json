@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T21:22:40.712552+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1057.3214574666667,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:20:45 UTC",
+  "time_source": "aware system clock; preceding tool reading separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "008/011 cross-band attribution and B-unit propagation",
+      "information_gain": "high",
+      "gap": "unverified shared values/quotient interpreted as deformation"
+    },
+    {
+      "route": "012/021/022 multipolarity/controversy precision",
+      "information_gain": "high",
+      "gap": "branch alternatives and universal thresholds"
+    },
+    {
+      "route": "014/015 inverse models/covariance scope",
+      "information_gain": "high",
+      "gap": "hypothetical chart cannot identify actual feeding or eliminate original nuisance"
+    }
+  ],
+  "decision_reason": "Continue high-value current Day20 repair; no next card/closeout."
+}

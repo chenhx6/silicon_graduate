@@ -1,0 +1,244 @@
+{
+  "observed_at_utc": "2026-10-23T04:47:49.233425+00:00",
+  "scope": "Davydov-Filippov 1958 rigid triaxial rotor first-principles audit and exact closed forms",
+  "formalism": {
+    "hamiltonian": "H = sum_k I_k^2 / (2 J_k) with J_k = 4 B beta^2 sin^2(gamma - 2pi/3 * k)",
+    "exact_qs_formula": "Qs(2_1^+) = -(2/7) Q0 * (3 cos 3gamma) / sqrt(9 - 8 sin^2 3gamma)",
+    "exact_be2_21_01": "B(E2; 2_1 -> 0_1) / B_axial = 0.5 * (1 + (3 - 2 sin^2 3gamma) / sqrt(9 - 8 sin^2 3gamma))",
+    "exact_be2_22_01": "B(E2; 2_2 -> 0_1) / B_axial = 0.5 * (1 - (3 - 2 sin^2 3gamma) / sqrt(9 - 8 sin^2 3gamma))",
+    "exact_be2_22_21": "B(E2; 2_2 -> 2_1) / B_axial = (10/7) * sin^2 3gamma / (9 - 8 sin^2 3gamma)",
+    "exact_e_ratio": "E(2_2^+) / E(2_1^+) = (3 + sqrt(9 - 8 sin^2 3gamma)) / (3 - sqrt(9 - 8 sin^2 3gamma))"
+  },
+  "key_points": {
+    "gamma_0_prolate": {
+      "Qs_over_Q0": -0.2857142857142857,
+      "E2_over_E1": Infinity,
+      "be2_21": 1.0,
+      "be2_22": 0.0
+    },
+    "gamma_30_triaxial": {
+      "Qs_over_Q0": 0.0,
+      "E2_over_E1": 2.0,
+      "be2_21": 1.0,
+      "be2_22_21": 1.4285714285714286,
+      "be2_22_01": 0.0
+    },
+    "gamma_60_oblate": {
+      "Qs_over_Q0": 0.2857142857142857,
+      "E2_over_E1": Infinity,
+      "be2_21": 1.0,
+      "be2_22": 0.0
+    }
+  },
+  "grid_results": [
+    {
+      "gamma_deg": 0.0,
+      "analytic_qs_over_q0": -0.2857142857142857,
+      "diag_qs_over_q0": -0.2857142857142857,
+      "diff_qs": 0.0,
+      "e_ratio": Infinity,
+      "be2_21_01": 1.0,
+      "be2_22_01": 0.0,
+      "be2_22_21": 0.0
+    },
+    {
+      "gamma_deg": 1.0,
+      "analytic_qs_over_q0": -0.28567069925635646,
+      "diag_qs_over_q0": -0.2856706992563565,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 1640.9033884106777,
+      "be2_21_01": 0.9996956610799899,
+      "be2_22_01": 0.00030433892001019425,
+      "be2_22_21": 0.0004358313331537738
+    },
+    {
+      "gamma_deg": 5.0,
+      "analytic_qs_over_q0": -0.2845814279216541,
+      "diag_qs_over_q0": -0.2845814279216541,
+      "diff_qs": 0.0,
+      "e_ratio": 65.16156806699956,
+      "be2_21_01": 0.9925605273970912,
+      "be2_22_01": 0.0074394726029087255,
+      "be2_22_21": 0.011306119007695169
+    },
+    {
+      "gamma_deg": 10.0,
+      "analytic_qs_over_q0": -0.28056585887484736,
+      "diag_qs_over_q0": -0.2805658588748473,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 15.937253933193778,
+      "be2_21_01": 0.972455591261534,
+      "be2_22_01": 0.027544408738465975,
+      "be2_22_21": 0.05102040816326529
+    },
+    {
+      "gamma_deg": 15.0,
+      "analytic_qs_over_q0": -0.27105237087157535,
+      "diag_qs_over_q0": -0.2710523708715754,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 6.854101966249686,
+      "be2_21_01": 0.9472135954999579,
+      "be2_22_01": 0.05278640450004207,
+      "be2_22_21": 0.14285714285714282
+    },
+    {
+      "gamma_deg": 20.0,
+      "analytic_qs_over_q0": -0.24743582965269675,
+      "diag_qs_over_q0": -0.24743582965269678,
+      "diff_qs": 2.7755575615628914e-17,
+      "e_ratio": 3.7320508075688785,
+      "be2_21_01": 0.9330127018922193,
+      "be2_22_01": 0.0669872981077807,
+      "be2_22_21": 0.357142857142857
+    },
+    {
+      "gamma_deg": 25.0,
+      "analytic_qs_over_q0": -0.17900625183946506,
+      "diag_qs_over_q0": -0.17900625183946517,
+      "diff_qs": 1.1102230246251565e-16,
+      "e_ratio": 2.407762026977096,
+      "be2_21_01": 0.9575010423740871,
+      "be2_22_01": 0.042498957625912936,
+      "be2_22_21": 0.8678147601131846
+    },
+    {
+      "gamma_deg": 28.0,
+      "analytic_qs_over_q0": -0.08591939201520199,
+      "diag_qs_over_q0": -0.08591939201520205,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 2.065587219154212,
+      "be2_21_01": 0.9899610904272,
+      "be2_22_01": 0.010038909572799959,
+      "be2_22_21": 1.2993839448968432
+    },
+    {
+      "gamma_deg": 29.0,
+      "analytic_qs_over_q0": -0.04437583475118891,
+      "diag_qs_over_q0": -0.04437583475118924,
+      "diff_qs": 3.2612801348363973e-16,
+      "e_ratio": 2.016434801766766,
+      "be2_21_01": 0.9973198382479853,
+      "be2_22_01": 0.002680161752014687,
+      "be2_22_21": 1.3941101711487927
+    },
+    {
+      "gamma_deg": 30.0,
+      "analytic_qs_over_q0": -5.248486282060085e-17,
+      "diag_qs_over_q0": -6.106226635438361e-16,
+      "diff_qs": 5.581378007232352e-16,
+      "e_ratio": 2.0,
+      "be2_21_01": 1.0,
+      "be2_22_01": 0.0,
+      "be2_22_21": 1.4285714285714286
+    },
+    {
+      "gamma_deg": 35.0,
+      "analytic_qs_over_q0": 0.17900625183946497,
+      "diag_qs_over_q0": 0.17900625183946464,
+      "diff_qs": 3.3306690738754696e-16,
+      "e_ratio": 2.407762026977096,
+      "be2_21_01": 0.9575010423740871,
+      "be2_22_01": 0.042498957625912936,
+      "be2_22_21": 0.8678147601131846
+    },
+    {
+      "gamma_deg": 40.0,
+      "analytic_qs_over_q0": 0.24743582965269667,
+      "diag_qs_over_q0": 0.24743582965269667,
+      "diff_qs": 0.0,
+      "e_ratio": 3.732050807568876,
+      "be2_21_01": 0.9330127018922194,
+      "be2_22_01": 0.06698729810778065,
+      "be2_22_21": 0.3571428571428574
+    },
+    {
+      "gamma_deg": 45.0,
+      "analytic_qs_over_q0": 0.27105237087157535,
+      "diag_qs_over_q0": 0.2710523708715753,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 6.854101966249682,
+      "be2_21_01": 0.947213595499958,
+      "be2_22_01": 0.05278640450004202,
+      "be2_22_21": 0.14285714285714293
+    },
+    {
+      "gamma_deg": 50.0,
+      "analytic_qs_over_q0": 0.28056585887484736,
+      "diag_qs_over_q0": 0.28056585887484725,
+      "diff_qs": 1.1102230246251565e-16,
+      "e_ratio": 15.937253933193778,
+      "be2_21_01": 0.972455591261534,
+      "be2_22_01": 0.027544408738465975,
+      "be2_22_21": 0.05102040816326529
+    },
+    {
+      "gamma_deg": 55.0,
+      "analytic_qs_over_q0": 0.2845814279216541,
+      "diag_qs_over_q0": 0.28458142792165414,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 65.16156806699956,
+      "be2_21_01": 0.9925605273970912,
+      "be2_22_01": 0.0074394726029087255,
+      "be2_22_21": 0.011306119007695155
+    },
+    {
+      "gamma_deg": 59.0,
+      "analytic_qs_over_q0": 0.28567069925635646,
+      "diag_qs_over_q0": 0.2856706992563565,
+      "diff_qs": 5.551115123125783e-17,
+      "e_ratio": 1640.9033884106777,
+      "be2_21_01": 0.9996956610799899,
+      "be2_22_01": 0.00030433892001019425,
+      "be2_22_21": 0.0004358313331537659
+    },
+    {
+      "gamma_deg": 60.0,
+      "analytic_qs_over_q0": 0.2857142857142857,
+      "diag_qs_over_q0": 0.2857142857142857,
+      "diff_qs": 0.0,
+      "e_ratio": Infinity,
+      "be2_21_01": 1.0,
+      "be2_22_01": 0.0,
+      "be2_22_21": 2.3805710835902503e-33
+    }
+  ],
+  "checks": [
+    {
+      "name": "Analytic Qs formula matches 2x2 Hamiltonian diagonalization within 1e-13 across all angles",
+      "passed": true,
+      "details": "Max diff: 5.58e-16"
+    },
+    {
+      "name": "Axial prolate limit gamma=0 gives exact Qs = -2/7 Q0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Maximal triaxiality gamma=30 deg gives exact Qs = 0.0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Axial oblate limit gamma=60 deg gives exact Qs = +2/7 Q0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Energy ratio E(2_2)/E(2_1) = 2.00000 at gamma=30 deg",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "B(E2; 2_2 -> 2_1) / B_axial = 10/7 at gamma=30 deg",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "B(E2; 2_2 -> 0_1) = 0.0 strictly at gamma=30 deg",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "all_checks_passed": true,
+  "boundary": "Rigid triaxial rotor with hydrodynamical moments of inertia; does not include gamma-softness fluctuations or microscopic quasiparticle degrees of freedom."
+}

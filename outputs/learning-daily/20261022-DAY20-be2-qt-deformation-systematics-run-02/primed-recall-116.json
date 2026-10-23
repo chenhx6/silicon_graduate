@@ -1,0 +1,19 @@
+{
+  "checkpoint": "116",
+  "frozen_at": "2026-10-23T05:25:30.267553+08:00",
+  "source_before_lookup": "Henderson etal2019 Triaxiality in76Se, PRC99 054313 from112Ref4 and114Ref13",
+  "prior_exposure": [
+    "Poves2020 authorcriticism of76Se highorder fluctuations",
+    "Henderson2020 convergence method",
+    "113/115 declaredmodelphase anddelta-domain witnesses"
+  ],
+  "not_blind": true,
+  "body_read": false,
+  "questions": [
+    "Which Coulomb-excitation measured yields, transitions, gates and E2 matrix elements constrain the invariants?",
+    "Which matrix-element signs/diagonal moments and highorder loops were measured, constrained or model calculated?",
+    "What actual experimental versus shellmodel rigidity claim is made, and how does later criticism align with its stated conditions?",
+    "What Cov/likelihood and missing E2-strength assumptions are available without originalevents/producer?"
+  ],
+  "boundary": "Read exactoriginal before judging dispute; noA130actualprecision transferred"
+}

@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T03:26:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 694,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:26:36 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "137mBa competitive double-gamma decay cross-facility verification and polarizability inversion",
+      "gap": "Completed in checkpoint099: verified Walz 2015 (2.05e-6) and Söderström 2020 (2.62e-6) total branching consistency (z=1.20sigma), energy-sharing M2E2 symmetric vs E3M1 asymmetric topology, Söderström polarizability inversion to E3M1 dominance (alpha_E3M1=36.4 vs alpha_M2E2=8.8, 4.14x), MCSM M2 1000x hindrance, and EDF+QPM octupole phonon enhancement",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (03:26:00 CST); 11.57 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

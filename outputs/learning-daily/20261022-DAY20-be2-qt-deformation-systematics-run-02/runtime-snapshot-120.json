@@ -1,0 +1,39 @@
+{
+  "now_local": "2026-10-23T06:00:25.537318+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 539.5743780333333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 21:52:35 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Cross-mass-region collectivity synthesis and deformation mapping",
+      "gap": "Consolidate A~130 Ce/Nd/Sm transition quadrupole moments with 76Ge/76Se rotational invariants into a unified experimental-versus-model hierarchy",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-1/5",
+        "HE19-D20-5",
+        "PO20-D20-4/6",
+        "SI16-D20-F03",
+        "PE98-D20-F01"
+      ]
+    },
+    {
+      "route": "Model covariance and experimental readiness contracts",
+      "gap": "Document exact readiness conditions: public event-level likelihood, joint covariance, and complete branch ratios required before L4 refitting",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-3",
+        "SI16-D20-F03",
+        "IB98-D20-R104-5"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "More than 540 min remain (539.6 min). Clock checkpoint-006 acknowledged as user input. High-value synthesis routes remain active; continue substantive Day 20 research."
+}

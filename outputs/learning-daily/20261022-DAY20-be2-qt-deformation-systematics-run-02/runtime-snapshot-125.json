@@ -1,0 +1,37 @@
+{
+  "now_local": "2026-10-23T06:41:10+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 498.8333333333333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 22:41:10 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Unified chiral electromagnetic selection rules and pseudodegeneracy",
+      "gap": "Audited 134Pr 4x B(E2) pseudodegeneracy breakdown, 135Nd 2x lifetime vs 0.88 B(E2) compensation factor (1.83x), and 136Nd band crossing complementary transfer (11x drop vs 1.75x enhancement)",
+      "information_gain": "high",
+      "source_locators": [
+        "PE06-D20-R51-1",
+        "MU07-D20-R50-1",
+        "MU08-D20-F01"
+      ]
+    },
+    {
+      "route": "Wobbling multipolarity decontamination and angular distribution double solutions",
+      "gap": "Audited A2(delta) quadratic double-solution ambiguity; verified that Compton linear polarization (12.75 sigma) collapses B(E2)_out by 29.03x to 1.17 W.u. in 135Pr, reclassifying the mode as tilted precession / signature partner",
+      "information_gain": "high",
+      "source_locators": [
+        "LV22-D20-R42-1/2",
+        "MA15-D20-R41-1",
+        "F14-D20-R44-1"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (498.8 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 125 completed chiral electromagnetic selection rules, pseudodegeneracy breakdown and lifetime compensation; continuing substantive Day 20 research."
+}

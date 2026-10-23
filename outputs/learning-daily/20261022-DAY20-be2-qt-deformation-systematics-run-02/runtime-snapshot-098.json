@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T03:23:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 697,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:23:26 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "100Sn Super-Gamow-Teller decay cross-facility reconciliation and phase space scaling",
+      "gap": "Completed in checkpoint098: verified GSI and RIKEN half-life agreement (1.16 vs 1.17 s, diff 0.86%), proved phase space Q^5 scaling (ratio 1.898) reconciling GSI rescaled B(GT)=4.79 with RIKEN 5.26 within 8.8%, verified quenching progression (17.78 -> 10.0 -> 5.70 -> 5.26), and verified Karthein 2024 N=50 shell rigidity context",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (03:23:00 CST); 11.62 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

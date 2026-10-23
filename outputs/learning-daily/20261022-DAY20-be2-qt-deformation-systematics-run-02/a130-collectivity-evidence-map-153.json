@@ -1,0 +1,110 @@
+{
+  "observed_at_utc": "2026-10-23T03:49:27.715807+00:00",
+  "scope": "A~130 collectivity evidence map: 131Ce, 133Pr, 134Nd, 136Nd, 136Sm multi-nucleus audit",
+  "reconciliations": {
+    "ce131_li_singh": {
+      "li2004_tau_ps": 1.23,
+      "singh2016_tau_ps": 1.25,
+      "tau_difference_pct": 1.6000000000000014,
+      "cg_ratio_k1_over_k11": 1.2175615550562022,
+      "li2004_qt_k11_eb": 2.72,
+      "li2004_qt_converted_k1_eb": 2.233973295809628,
+      "singh2016_qt_k1_eb": 2.26,
+      "conclusion": "Identical experimental lifetimes; apparent Qt difference fully explained by K=11/2 vs K=1/2 Clebsch-Gordan ratio."
+    },
+    "ce131_trend": {
+      "finite_points": 4,
+      "slope_eb_per_hbar": -0.030174982600885532,
+      "slope_se": 0.047214695792364654,
+      "z_score": -0.6391014936024494,
+      "constant_qt_weighted_mean_eb": 2.578943578373181,
+      "conclusion": "No statistically significant Qt slope in 131Ce (z = -0.64); consistent with constant deformation."
+    },
+    "pr133_trend_and_feeding": {
+      "finite_points": 3,
+      "slope_eb_per_hbar": -0.11667439837634112,
+      "slope_se": 0.04860753115168699,
+      "z_score": -2.4003358247560733,
+      "feeding_delays_ps": [
+        1100,
+        1.9,
+        14
+      ],
+      "feeding_jump_ratio": 78.57142857142857,
+      "conclusion": "Significant negative slope (z = -2.40) is coupled to 78.6x non-monotonic feeding delay jump; cannot be decoupled from feeding parameterization."
+    },
+    "nd134_intruder_saturation": {
+      "yrast_hd_q0_eb": 6.8,
+      "yrast_hd_err": 0.3,
+      "yrast_intruders": 1,
+      "excited_hd_q0_eb": 6.4,
+      "excited_hd_err": 0.4,
+      "excited_intruders": 2,
+      "delta_q0_eb": -0.39999999999999947,
+      "conclusion": "Adding a second nu i13/2 intruder produces no increase in Q0; core centrifugal shrinkage saturates intruder polarization in A~130."
+    },
+    "nd136_band_crossing_collapse": {
+      "band2_17minus_be2_e2b2": 0.44,
+      "band2_18minus_be2_e2b2": 0.04,
+      "be2_attenuation_ratio": 11.0,
+      "band2_17minus_qt_eb": 2.24,
+      "band2_18minus_qt_eb": 0.67,
+      "qt_attenuation_ratio": 3.3432835820895526,
+      "conclusion": "11-fold collapse of B(E2) at crossing caused by 4-quasiparticle alignment and wave-function mixing, not nuclear shape change."
+    },
+    "sm136_band_crossing_step": {
+      "pre_crossing_qt_eb": 5.68,
+      "post_crossing_qt_eb": 5.09,
+      "step_pct": 10.38732394366197,
+      "conclusion": "10.4% step in Qt across crossing reproduced by 2-band mixing with Qt(14+) ~ 5.06 eb vs observed 5.38(34) eb."
+    }
+  },
+  "checks": [
+    {
+      "name": "CG ratio matches sqrt(169/114)",
+      "passed": true
+    },
+    {
+      "name": "Li Qt converted to K=1/2 agrees with Singh Qt within 1.5%",
+      "passed": true
+    },
+    {
+      "name": "131Ce slope is not statistically significant (|z| < 1)",
+      "passed": true
+    },
+    {
+      "name": "131Ce constant Qt weighted mean is 2.58 +/- 0.10 eb",
+      "passed": true
+    },
+    {
+      "name": "133Pr slope has z ~ -2.4 sigma",
+      "passed": true
+    },
+    {
+      "name": "133Pr sidefeeding ratio 1100/14 = 78.57",
+      "passed": true
+    },
+    {
+      "name": "133Pr feeding is non-monotonic",
+      "passed": true
+    },
+    {
+      "name": "134Nd excited HD Q0 does not exceed yrast HD Q0 (saturation)",
+      "passed": true
+    },
+    {
+      "name": "136Nd Band 2 B(E2) drops by a factor of 11 at 17- -> 18- crossing",
+      "passed": true
+    },
+    {
+      "name": "136Nd Band 2 Qt drops by a factor of 3.34",
+      "passed": true
+    },
+    {
+      "name": "136Sm Qt drops by 10.38% across band crossing",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "boundary": "Task-level numerical reconciliation and evidence map; does not reconstruct raw event data or experimental covariance."
+}

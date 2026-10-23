@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T09:12:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 348,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 01:12:00 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Coulomb excitation matrix elements, model-space doorway invariants, and rigid vs soft triaxiality discrimination audit in A~76 and A~130",
+      "gap": "Quantified Ayangeakaa 2023 Table III 81 reduced matrix elements, core <0_1+||E2||2_1+> = 0.526 eb and <2_1+||E2||2_1+> = -0.240 eb (Q_s = -0.1819 eb, GTRM gamma = 25.4 deg), Poves 2020 CI doorway method 76Ge effective gamma = 28 deg with 18.0 deg 1-sigma spread matching flat Wilets-Jean limit (17.32 deg), Ayangeakaa p. 12 concession of Ref. 60 equivalent mathematical invariants, and unified cross-mass-region triaxial softness taxonomy",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-R144-1",
+        "PO20-D20-R144-1"
+      ]
+    },
+    {
+      "route": "Microscopic quadrupole additivity vs configuration-dependent deformation in A~130: Matev 2007 additivity tensor, Li 2004 vs Singh 2016 131Ce reconciliation, and parity-bifurcated collectivity audit",
+      "gap": "Quantified cross-laboratory DSAM reconciliation at 131Ce 27/2- level (|Delta Q_t| = 0.14 eb, Z = 0.505 sigma), parity-bifurcated collectivity (Q_t(+) / Q_t(-) = 1.4757, 2.1778x B(E2) enhancement), Matev 2007 single-particle effective quadrupole moments (pi h_11/2: +0.54 eb, pi g_9/2 hole: +0.38 eb, nu i_13/2: +0.33 to +0.37 eb), linear additivity precision across 183 CHF and 105 CRMF configurations (sigma(Delta Q_t) = 0.15 eb), and microscopic additivity explanation of 8.01x ND-to-HD collectivity leap",
+      "information_gain": "high",
+      "source_locators": [
+        "MT07-D20-R143-1",
+        "LI04-D20-R143-1"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (348.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 144 completed Coulomb excitation invariants, CI doorway method, and rigid vs soft triaxiality discrimination audit; continuing substantive Day 20 research."
+}

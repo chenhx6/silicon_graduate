@@ -1,0 +1,32 @@
+{
+  "checkpoint": 167,
+  "observed_at_utc": "2026-10-23T06:33:36.210148+00:00",
+  "now_local": "2026-10-23T14:33:36.210148+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 26.396497533333335,
+  "decision": "finish-current-no-new-unit",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Finish current evidence-repair audit",
+      "source_locators": [
+        "AY23-D20-R167-1",
+        "PE98-D20-R34-2",
+        "SI16-D20-R146-1",
+        "GM12-D20-10"
+      ],
+      "information_gain": "Correct wrong RME identity, dimensional mismatch, causal overclaims and fake verification scope",
+      "evidence_gaps": [
+        "Original event data, joint Cov and producer still unavailable",
+        "156/159 model derivations require individual review; no omnibus certification"
+      ],
+      "next_action": "Only audit already opened analysis; no new sources/cards"
+    },
+    {
+      "route": "Day21 existing preview",
+      "information_gain": "none for credit in this run",
+      "next_action": "Keep partial[20,21], next20; no Day22"
+    }
+  ],
+  "time_source": "datetime.now(timezone.utc), corroborated by clock tool"
+}

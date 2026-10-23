@@ -1,0 +1,39 @@
+{
+  "source": "HE19-D20-3/4, acceptedPDF6/printed5TableII",
+  "source_pdf_sha256": "a3327e0ee1eeb6aff8c6e0d49a3de2a281d5d005b0e5a58846b9bf0289d5b993",
+  "units": "RMEeb",
+  "a0_1": [
+    ".647",
+    ".110",
+    ".040"
+  ],
+  "a0_2": [
+    ".285",
+    ".182",
+    ".532"
+  ],
+  "D_2plus": [
+    [
+      "-.463",
+      ".640",
+      "-.093"
+    ],
+    [
+      ".640",
+      ".245",
+      ".262"
+    ],
+    [
+      "-.093",
+      ".262",
+      null
+    ]
+  ],
+  "unknown": "D33=<2_3||E2||2_3>, notmeasured and leftfree",
+  "assumptions": [
+    "Onlyfirstthree2+states",
+    "Literalprintedphaseconvention",
+    "No inputerrorpropagation or refit",
+    "No higher2+strength closure claim"
+  ]
+}

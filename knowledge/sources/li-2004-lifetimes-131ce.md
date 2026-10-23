@@ -170,4 +170,28 @@ The Ce isotope trend mixes different odd/even systems and reference configuratio
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| LI04-D20-4 | 在 $27/2^-$ 态上，Li 2004（DSAM）测得寿命 $\tau = 1.23(23)\text{ ps}$ 与 Singh 2016（Plunger）测得 $\tau = 1.24(+0.23/-0.13)\text{ ps}$ 实验差异仅 $0.81\%$，两独立实验的原始寿命高度一致。原表 $Q_t = 2.72(25)\text{ eb}$（Li）与 $2.26(+0.37/-0.23)\text{ eb}$（Singh）的表观分歧完全来自转子模型 Clebsch-Gordan 因子 $K$ 投影约定：$K=11/2$ 导出 $Q_t = 2.722\text{ eb}$（符合 Li 原表），而 $K=1/2$ 导出 $Q_t = 2.235\text{ eb}$（符合 Singh 转载重算值 $2.28\text{ eb}$ 及实测值 $2.26\text{ eb}$），两者比值严格对应代数因子 $\sqrt{169/114} \approx 1.2176$。在 $23/2^-$ 态上，将 Li 的 $B(E2) = 0.2416\text{ e}^2\text{b}^2$ 按 $K=1/2$ 转换得 $Q_t = 2.67\text{ eb}$，完全相容于 Singh 报告的上限 $Q_t < 2.85\text{ eb}$。两文献不存在真实物理寿命矛盾。 | data-reconciliation-contract | direct-original-and-derived | PDF3 Table1；SI16 Table1；ce131-li-singh-reconciliation-result-026.json | true |
+| LI04-D20-4 | checkpoint033：旧1.24ps/plunger/100%K归因与完全相容结论撤回；Singh真实Present27/2来自DSAM、1.25(+.41/−.25)ps，Li原表Qt2.72(25)eb。正确候选CG相容不识别实际K/producer；见LI04-D20-R33-1/R33-2。 | withdrawn-task-certification | source-correction-and-boundary | checkpoint033 | true |
+
+## checkpoint033：观测量身份与形状约定原读纠正
+
+本次为定向原文/表图self-audit，非新增独立实验或全文认证；原review和claim flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LI04-D20-R33-1 | 真实刊物Chinese Physics Letters21,461–463(2004)，非旧017脚本PRC69,064320。原Table1 27/2−、827keV：τ1.23(23)ps，B(E2)1723(322)e²fm⁴，Qt2.72(25)eb；23/2−、750keV：1.44(54)ps、2416(906)e²fm⁴、3.55(67)eb。不得错用Singh转载别行2.72(51)误差。 | literal-bibliography-and-table | direct-original-and-visual | PDF3 printed463 Table1; article page header | true |
+| LI04-D20-R33-2 | 本方法DSAM含停止、velocity/geometry、known/unknownfeeding等建模；31/2−和25/2+仅未校正feeding的effective upper limits。候选K11/2能重现原B→Qt数字，不证明作者K；与Singh同态DSAM中心比较不排除共同校准，不能称正交技术验证或零物理差异已证明。 | method-and-comparison-boundary | direct-original-and-correction | PDF2 Fig1/Fig2 and effective-lifetime paragraph; PDF3 Table1 | true |
+### checkpoint143：131Ce 跨实验室 DSAM 寿命重合与宇称分岔四极集体性审计
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LI04-D20-R143-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LI04-D20-R146-1 | Li原27/2−为1.23(23)ps、Qt2.72(25)eb；Singh Present同态为1.25(+.41/−.25)ps、Qt2.26(+.37/−.23)eb，两篇换算约定不能直接等同。143自设2.58(12)计算Z=.505不对应原同态对账；小Z也不能排除共同系统误差。正负宇称平均Qt之比及其平方非匹配态实际B比，更不独自证明显著形状分岔。 | cross-source-identity-and-statistics-correction | source-and-bounded-self-audit | LI04-D20-R33-1/R33-2; Singh2016 PDF5 Table1 | true |

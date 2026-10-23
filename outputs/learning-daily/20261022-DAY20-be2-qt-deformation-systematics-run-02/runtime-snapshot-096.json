@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T03:15:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 705,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:15:57 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "136Pr shears magnetic rotation, D5 cascade inversion, and Q1 spin promotion",
+      "gap": "Completed in checkpoint096: verified Lv 2025 Table I D5 405->263 cascade (inverted from ENSDF 2018 263->405), Fig. 4 double gate coincidence, TAC-CDFT failure on D5 requiring SN100PN spherical shell model, old Band 3 separation into D5 and D6, D4/D6 shears vs shape coexistence dual interpretation, and Q1 bandhead spin promotion by +4 hbar to 19(+)",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (03:15:00 CST); 11.75 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

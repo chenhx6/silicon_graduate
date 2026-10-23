@@ -35,6 +35,14 @@ tags: [136sm, gamma-softness, shape-evolution, lifetime, dsam, band-crossing, tp
 
 # Babra 等（2019）：`136Sm` yrast 带交叉处的形变变化
 
+## Day20定向原读与checkpoint004混合认证撤回
+
+依据独立审计程序 `system/scripts/day20_band_mixing_qt_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/band-mixing-result-005.json`，旧004声称严格认证，现撤回。此时本session实际新读范围仅PDF2的TableI/DSAM段与PDF3命中行，未完成新10页全文/关键图视觉。旧human-reviewed字段指旧审核事件，本次不借其扩大新scope，也不更改原flags。007只校正新引入的算术/归因错误：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| B19-D20-F01 | checkpoint007撤回004的精确混合认证：原005JSON在声明qg=5.675780、qs=4.95、theta14=26.5deg、theta12=0和零interband intrinsic元时，实际给5.079451eb，不是5.38或零残差；纯末态还使qs不进入此矩阵元。pre/post平均−.584eb与z≈−2.45只是独立、对称化误差的分段诊断，不是作者实验CI或机制判决。任意指定角可匹配一个中心，不证明136Sm真实混合，更不证明静态收缩已被排除。 | conditional-mixing-correction | task-derived-and-boundary | PDF2 Table I; mixing-response-result-007.json | true |
+
 ## Bibliographic Record
 
 Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF 共 10 页。
@@ -117,9 +125,9 @@ Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF �
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | B19-D18-1 | **superseded**：旧追加段的回归数字可作为特定对称误差约定下的算术，但不能据此完全否定形变变化，也不能把15%阻停系统误差自动当逐态独立包络。 | task-correction | corrected-and-boundary | 本段B19-D18-2–4；旧结果028 | true |
-| B19-D18-2 | Table I 六个有限态的中心Qt=5.66,5.59,5.70,5.38,4.85,5.05 eb；非对称误差为(+/−.19), (+.78/−.79), (+.21/−.20), (+.34/−.33), (+.34/−.32), (+.37/−.33)。在把每对误差简单平均的明确约定下，回归z=−2.721；用全lower或全upper误差得到−2.752与−2.693。这个z不是作者报告的显著性，也未含系统协方差。 | conditional-regression | derived-and-boundary | PDF2 TableI；新qt-systematics-boundary-result-049 | true |
+| B19-D18-2 | checkpoint039区分误差合同：六点中心与上下误差仍如原表；平均上下误差/已知独立Gaussian z−2.178812，全lower/upper为−2.258052/−2.105708。旧−2.721及−2.752/−2.693来自残差缩放未知共同尺度合同，应为Student统计量而非Gaussian z；本轮只复算平均误差的t(df4)，所有诊断非原实验CI。 | conditional-regression | derived-and-boundary | PDF2 TableI；新qt-systematics-boundary-result-049 | true |
 | B19-D18-3 | 原文称12+后Qt逐渐下降、15% stopping-power误差未计入，并用TRS/TPSM解释跨越后形变变化；“15%”是模型系统误差量级，不能简单当每点独立±15%。若是共同乘性scale，斜率与斜率误差同乘、z不变；逐态独立包络则是另一个敏感性场景，不是CI。 | source-systematic-scope | direct-and-boundary | PDF3 p.3；PDF6–9 discussion/conclusion | true |
-| B19-D18-4 | 因此本源支持“存在与自旋/带交叉相关的Qt下降及其模型解释”，但单凭这批数据与未闭合Cov不能在“真实形变变化”与“DSAM stopping/feeding systematics”之间作排他判决；20+行是上限，不能当第七有限点。 | interpretation-boundary | direct-and-boundary | PDF2 TableI；PDF6–9 | true |
+| B19-D18-4 | checkpoint039更正限值方向：20+ τ<.16(.04)ps是有效寿命上限，但Qt>4.74(.55)eb是下限，非第七有限点。原文支持Qt随spin/交叉变化及TRS/TPSM形变解释；未得完整Cov与响应，不能在形变演化、mixing、stopping/feeding之间作本任务排他判决。 | interpretation-boundary | direct-and-boundary | PDF2 TableI；PDF6–9 | true |
 
 [新程序](../../system/scripts/day18_qt_boundary_controls.py)核两个raw hash、TableI/15%文字与9项条件检查；[结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/qt-systematics-boundary-result-049.json)不重拟合lineshape、无jointCov/CI。
 
@@ -129,7 +137,7 @@ Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF �
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| B19-D20-1 | Table I 数据统计分析表明：带交叉前（$8^+, 10^+, 12^+$）加权平均四极矩为 $\bar{Q}_{t, \text{pre}} = 5.68(14)\text{ eb}$，带交叉后（$14^+, 16^+, 18^+$）加权平均为 $\bar{Q}_{t, \text{post}} = 5.09(20)\text{ eb}$。带交叉导致跃迁四极矩净下降 $\Delta \bar{Q}_t = -0.584 \pm 0.239\text{ eb}$（相对下降 $-10.3\%$），统计显著性为 $z = -2.45\sigma$（双尾 $p = 0.014$），对应约化跃迁几率 $B(E2)$ 显著下降 $-19.5\%$。全带 6 态加权线性拟合斜率为 $-0.0716\text{ eb}/\hbar$（高斯显著性 $z = -2.18\sigma$）；严格证明了阻停功率 $\pm 15\%$ 的全局乘性缩放因斜率与误差同步缩放而使显著性 $z$ 严格守恒。两带混合模型表明，基态带与对齐 $S$ 带在 $12^+\text{--}14^+$ 交叉处的波函数碎片化自然给出中间过渡值 $Q_t \approx 5.06\text{ eb}$，解释了实测值 $5.38(34)\text{ eb}$；同时 $8^+$（$0\%$ 侧馈）与 $14^+\text{--}18^+$（$25\%$ 侧馈）的门控差异提示若存在未分辨慢侧馈亦可贡献表观寿命拉长，因此单凭寿命数据不能将该下降唯一排他地归因为由 $\gamma$-soft 向稳定三轴形状的质变。 | band-crossing-qt-attenuation-contract | direct-original-and-derived | PDF2 Table1；PDF3 DSAM段；babra-band-crossing-qt-result-032.json | true |
+| B19-D20-1 | checkpoint039保留声明独立对称化pre/post诊断：5.67578→5.09205、差−.583735±.238561eb、z−2.44690；已知误差全线z−2.178812与残差缩放t−2.721(df4)分开。原007已反驳精确混合重现5.38；统一stopping免疫/机制完全解释认证撤回。TRS/TPSM作者形变解释保留且有模型依赖。见B19-D20-R39-1/R39-2。 | band-crossing-qt-attenuation-contract | direct-original-and-derived | PDF2 Table1；PDF3 DSAM段；babra-band-crossing-qt-result-032.json | true |
 
 ## Day19量化审计：带交叉四极形变阶跃抑制与准粒子阻塞对比定理
 
@@ -140,4 +148,20 @@ Physical Review C 100, 054308 (2019)，DOI `10.1103/PhysRevC.100.054308`。PDF �
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| B19-D19-5 | 对 Babra 2019 Table I 中 $^{136}\text{Sm}$ 带交叉前后期四极矩阶跃压制与 A≈130 区域准粒子阻塞效应执行严格量化审计：(1) 带交叉阶跃压制显著性：重构 Table I 数据证实，前交叉段（$8^+, 10^+$）加权均值 $Q_t = 3.925\text{ eb}$ 跃变为后交叉段（$14^+\text{--}20^+$）加权均值 $Q_t = 2.550\text{ eb}$，净下降 $\Delta Q_t = 1.375\text{ eb}$（跌幅达 $35.03\%$，统计显著性达 $z = 5.91\sigma$）；(2) 偶偶核破对动力学：$N=74$ 偶偶核中第一对高 $j$ 核子对齐注入角动量 $i_x \approx 8\hbar$，配对能下挫诱导核芯向三轴极化（$\gamma \approx -25^\circ$），几何压制与电荷分布收缩协同驱动 $Q_t$ 崩塌；(3) 奇 $A$ 核单粒子阻塞保护：对比邻核 $^{131}\text{Ce}$（$N=73$）与 $^{133}\text{Pr}$（$Z=59$），奇核子对关键高 $j$ 轨道（$\nu h_{11/2}, \pi h_{11/2}$）的占据阻止了同种核子对对齐，使第一带交叉处的四极矩滑落受到深度抑制（$^{131}\text{Ce}$ 斜率仅 $z = -0.64\sigma$，在统计上完全自洽于常数零斜率）；(4) 费米面位置形变驱动分歧：低 $\Omega$ 质子（$^{133}\text{Pr}$）保持稳定近长椭球（$Q_t \approx 3.6\text{ eb}$），而高 $\Omega$ 中子（$^{131}\text{Ce}$）驱动更强的三轴度（$Q_t \approx 2.8\text{ eb}$）；(5) 中子侵入轨道阶跃定律：对比 Petrache 1998 Table 1，证实 $\nu i_{13/2}$ 侵入轨道占据驱动 $Q_t$ 发生 $2.58\times$ 阶跃增强（$^{134}\text{Nd}$ 达到 $6.2\text{ eb}$，动力学转动惯量达到刚体极限的 $88\%$）；(6) 构筑涵盖 5 核的形变系统学图谱，确立带交叉四极形变演化的微观物理基准。 | task-babra-a130-systematics-audit | derived-and-boundary | Table 1; PDF pp. 054308-1-10; a130-deformation-systematics-result-075.json | true |
+| B19-D19-5 | superseded：旧3.925→2.550eb与z5.91没有TableI支持，继续撤回。新pre/post5.676/5.092eb及其误差只能作明确独立对称化控制，不能升级为原实验CI。004“20%混合精确重现5.38”又被007数值反证；原TableI/原review与原flags保持。 | task-correction | corrected-and-boundary | Table I; B19-D20-F01 | true |
+
+### checkpoint039：跨带比较与统计合同原件纠正
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| B19-D20-R39-1 | 六有限点平均上下误差/独立已知Gaussian的全线斜率−.0716484±.0328842、z−2.178812；残差估共同尺度t≈−2.721(df4)，非Gaussian z。固定pre8–12/post14–18的均值差−.583735±.238561、z−2.44690仅条件诊断，非作者CI/因果判决；均值Qt比平方不是不同跃迁总B变化。 | declared-statistical-model-comparison | original-and-conditional | PDF2 TableI; task crossband-attribution-result-039.json | true |
+| B19-D20-R39-2 | 20+ τ<.16(.04)ps而Qt>4.74(.55)eb：有效寿命上限、Qt下限。原top100%feeding/8+upper gate/higher25%与15%stopping预算保留；TRS/TPSM作者γ-soft至较稳定三轴解释不被任意混合反例排除，不能据此识别真实混合概率。 | literal-limits-and-model-boundary | original-and-conditional | PDF2 TableI/DSAM; PDF3 stopping paragraph; PDF6–9 models/conclusions | true |
+
+
+## Day20量化审计：136Sm带交叉形变演化、两带混合与限值反转审计（checkpoint136）
+
+> checkpoint146：本节科学认证撤回。旧文本与指纹保存在history-before-repair-146.json。先前原件纠错与原review/flags保留；passed不认证实际实验/结构结论。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| B19-D20-R136-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

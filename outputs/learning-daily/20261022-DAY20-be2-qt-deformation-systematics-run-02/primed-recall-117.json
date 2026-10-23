@@ -1,0 +1,18 @@
+{
+  "checkpoint": "117",
+  "frozen_at": "2026-10-23T05:31:24.394491+08:00",
+  "kind": "literalTableII first-three2state sensitivity before numeric evaluation",
+  "prior_exposure": [
+    "116actualfullsource andtablevisual",
+    "113fulltensorcontractions",
+    "112/114/115moment interpretation boundaries"
+  ],
+  "not_blind": true,
+  "questions": [
+    "In declaredfirstthree2+ truncation, derive q3(d33) and normalizedR(d33) using signedRME and independent tensor contractions.",
+    "Compare coefficients of unmeasured2_3diagonal for0_1and0_2 using literalcentralcouplings .040and.532.",
+    "Keepunknown d33 free; do not assignphysicalbounds, refitGOSIA or construct experimentalCI.",
+    "Check upward-versus-downwardB and source rounding only as literal input contracts, not producer validation."
+  ],
+  "boundary": "NooriginalCov/CI, nofullclosure/highstatecompletion, no actualunknownmoment extraction"
+}

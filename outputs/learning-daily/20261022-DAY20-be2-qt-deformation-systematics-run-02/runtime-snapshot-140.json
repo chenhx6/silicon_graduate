@@ -1,0 +1,38 @@
+{
+  "now_local": "2026-10-23T08:23:27+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 396,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 00:23:27 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "136Nd even-even high-spin controversy: triaxial chirality vs transverse wobbling vs 11-fold B(E2) collapse audit",
+      "gap": "Quantified Mukhopadhyay 2008 Band 2 11-fold B(E2) collapse (0.44 to 0.04 e^2 b^2), partner band asymmetry (3.50x), Petrache 2018 5-pair chiral claim without lifetimes, Lv 2022 751 keV connecting transition wobbling interpretation, and TAC+RPA two-band mixing resolution",
+      "information_gain": "high",
+      "source_locators": [
+        "MU08-D20-R140-1",
+        "PE18-D20-R140-1",
+        "LV22-D20-R140-1"
+      ]
+    },
+    {
+      "route": "131Ce multiband high-spin spectroscopy, crossing signature splitting, and quadruple-source cross-validation audit",
+      "gap": "Quantified Band 1 signature splitting (Delta hw_c = 0.038 MeV/hbar), quadruple-source cross-validation (Alwaleedi 2013, Singh 2016, Petrache 1998, Klemme 1999), HD-to-ND collectivity leap (2.83x in Qt, 8.01x in B(E2)), and delta=0 mixing sensitivity envelope (25.0% max overestimation)",
+      "information_gain": "high",
+      "source_locators": [
+        "AW13-D20-R139-1",
+        "AW13-D20-1",
+        "SI16-D20-F01",
+        "PE98-D20-F01"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (396.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 140 completed 136Nd even-even high-spin controversy, chirality vs wobbling vs 11-fold B(E2) collapse audit; continuing substantive Day 20 research."
+}

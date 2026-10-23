@@ -1,0 +1,18 @@
+{
+  "checkpoint": "112",
+  "frozen_at": "2026-10-23T05:05:56.052370+08:00",
+  "source": "Henderson2020, DOI10.1103/PhysRevC.102.054306, arXiv2005.11210",
+  "prior_exposure": [
+    "111 search metadata title and author only",
+    "prior037 declared invariant closure",
+    "103 rotor and110 charge-surface declared models"
+  ],
+  "not_blind": true,
+  "questions": [
+    "How are quadratic/cubic invariants normalized, and which signed reduced matrix element loops enter?",
+    "What truncation tests use actual shell-model matrix elements, and do state counts transfer across nuclei?",
+    "Does converting normalized invariants to effective gamma assume fixed deformation or suppress fluctuations?",
+    "Separate model-exact convergence from actual experimental uncertainties and matrix-element phase ambiguities."
+  ],
+  "body_read": false
+}

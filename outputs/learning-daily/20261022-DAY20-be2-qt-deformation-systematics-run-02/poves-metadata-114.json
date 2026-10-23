@@ -1,0 +1,427 @@
+{
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.101.054307",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2026-09-22T10:15:08Z",
+      "timestamp": 1790072108985,
+      "version": "4.0.1"
+    },
+    "reference-count": 30,
+    "publisher": "American Physical Society (APS)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2020-05-11T00:00:00Z",
+          "timestamp": 1589155200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014440",
+        "name": "Ministerio de Ciencia, Innovaci\u00f3n y Universidades",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "SEV-2016-0597"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "SEV-2016-0597"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014440",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014440",
+        "name": "Ministerio de Ciencia, Innovaci\u00f3n y Universidades",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PGC-2018-94583"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PGC-2018-94583"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014440",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-SC0019521"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-SC0019521"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. C"
+    ],
+    "DOI": "10.1103/physrevc.101.054307",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2020-05-11T16:08:58Z",
+      "timestamp": 1589213338000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 58,
+    "title": [
+      "Limits on assigning a shape to a nucleus"
+    ],
+    "prefix": "10.1103",
+    "volume": "101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7539-388X",
+        "authenticated-orcid": true,
+        "given": "A.",
+        "family": "Poves",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Nowacki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y.",
+        "family": "Alhassid",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevC.101.054307Cc1R1",
+        "first-page": "16",
+        "volume": "27",
+        "author": "A. Bohr",
+        "year": "1953",
+        "journal-title": "K. Dan. Vid. Selsk. Math. Fys. Medd."
+      },
+      {
+        "key": "PhysRevC.101.054307Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.83.1467"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0029-5582(58)90153-6"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.28.249"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ns.36.120186.003343"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.96.014302"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.113.262503"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.117.062501"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.97.024326"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.97.014315"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.87.041304"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.123.102501"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.99.054313"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.77.427"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1958.0072"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc16R2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1958.0101"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.78.064302"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0370-1573(81)90153-8"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.90.014302"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.79.014310"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.54.1641"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.58.1970"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.109.092503"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.89.051301"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.88.092501"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.85.031301"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.88.041302"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.82.054301"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.98.034317"
+      },
+      {
+        "key": "PhysRevC.101.054307Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6471/aadebd"
+      }
+    ],
+    "container-title": [
+      "Physical Review C"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevC.101.054307",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.101.054307/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          11
+        ]
+      ],
+      "date-time": "2020-05-11T16:12:01Z",
+      "timestamp": 1589213521000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevC.101.054307"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          11
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevc.101.054307",
+    "relation": {},
+    "ISSN": [
+      "2469-9985",
+      "2469-9993"
+    ],
+    "issn-type": [
+      {
+        "value": "2469-9985",
+        "type": "print"
+      },
+      {
+        "value": "2469-9993",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          11
+        ]
+      ]
+    },
+    "article-number": "054307"
+  }
+}

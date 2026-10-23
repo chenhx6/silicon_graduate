@@ -1,0 +1,12 @@
+{
+  "checkpoint": "041",
+  "observed_at": "2026-10-22T13:42:31.866532+00:00",
+  "priming": "InheritedDay18 controversy and old021 read:747.3/813.2/450.2keV and nominaldelta−.47/−.37/−.31, allalreadyprimed; no blindrecall",
+  "questions": [
+    "Check exactinitial/finalspin bandidentity inLv22 original",
+    "SeparatemeasuredAP/correlationconstraint from authorsclaim and QTRchoice",
+    "Checkratio .7(+.7/−.5) reference and two-phonon inference",
+    "Do not identify statisticalindependence just from differentlynamed observables"
+  ],
+  "status": "frozen before originalreread; no newreading claim"
+}

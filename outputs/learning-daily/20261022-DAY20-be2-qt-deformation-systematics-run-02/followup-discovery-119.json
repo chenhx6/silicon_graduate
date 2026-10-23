@@ -1,0 +1,219 @@
+{
+  "searches": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"source\": \"openalex\",\n  \"total\": 14,\n  \"results\": [\n    {\n      \"title\": \"Triaxial nuclear shapes from simple ratios of electric-quadrupole matrix elements\",\n      \"doi\": \"https://doi.org/10.1016/j.adt.2025.101730\",\n      \"year\": 2025,\n      \"authors\": [\n        \"E. A. Lawrie\",\n        \"José Nicolás Orce\"\n      ],\n      \"journal\": \"Atomic Data and Nuclear Data Tables\",\n      \"cited_by_count\": 2,\n      \"open_access_url\": \"https://doi.org/10.1016/j.adt.2025.101730\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Ab initio uncertainty quantification of neutrinoless double-beta decay in 76Ge\",\n      \"doi\": \"https://doi.org/10.21203/rs.3.rs-3322511/v1\",\n      \"year\": 2023,\n      \"authors\": [\n        \"Antoine Belley\",\n        \"J. M. Yao\",\n        \"B. Bally\",\n        \"J. Pitcher\",\n        \"J. Engel\",\n        \"H. Hergert\",\n        \"J. D. Holt\",\n        \"T. Miyagi\",\n        \"Tomás R. Rodríguez\",\n        \"A. M. Romero\",\n        \"R. Stroberg\",\n        \"Xin Zhang\"\n      ],\n      \"journal\": \"Research Square\",\n      \"cited_by_count\": 2,\n      \"open_access_url\": \"https://www.researchsquare.com/article/rs-3322511/latest.pdf\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Axial and triaxial degrees of freedom in 72Zn\",\n      \"doi\": \"https://doi.org/10.1016/j.physletb.2023.137933\",\n      \"year\": 2023,\n      \"authors\": [\n        \"S. Hellgartner\",\n        \"D. Mücher\",\n        \"Kathrin Wimmer\",\n        \"V. Bildstein\",\n        \"J.L. Egido\",\n        \"R. Gernhäuser\",\n        \"R. Krücken\",\n        \"A.K. Nowak\",\n        \"Magda Zielinska\",\n        \"C. Bauer\",\n        \"Miguel Lozano Benito\",\n        \"Simone Bottoni\",\n        \"H. De Witte\",\n        \"J. Elseviers\",\n        \"Д. В. Федоров\",\n        \"F. Flavigny\",\n        \"A. Illana\",\n        \"Malin Klintefjord\",\n        \"Thorsten Kröll\",\n        \"R. Lutter\",\n        \"B. A. Marsh\",\n        \"R. Orlandi\",\n        \"J. Pakarinen\",\n        \"R. Raabe\",\n        \"Elisa Rapisarda\",\n        \"S. Reichert\",\n        \"P. Reiter\",\n        \"M. Scheck\",\n        \"Michael Seidlitz\",\n        \"Burkhard Siebeck\",\n        \"E. Siesling\",\n        \"T. Steinbach\",\n        \"Th. Stora\",\n        \"M.J. Vermeulen\",\n        \"D. Voulot\",\n        \"Nigel Warr\",\n        \"F. Wenander\"\n      ],\n      \"journal\": \"Physics Letters B\",\n      \"cited_by_count\": 12,\n      \"open_access_url\": \"https://doi.org/10.1016/j.physletb.2023.137933\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Triaxiality and the nature of low-energy excitations in Ge76\",\n      \"doi\": \"https://doi.org/10.1103/physrevc.107.044314\",\n      \"year\": 2023,\n      \"authors\": [\n        \"A. D. Ayangeakaa\",\n        \"R. V. F. Janssens\",\n        \"Shaofei Zhu\",\n        \"J. M. Allmond\",\n        \"B. ALEX BROWN\",\n        \"C. Y. Wu\",\n        \"M. Albers\",\n        \"Kalle Auranen\",\n        \"B. Bucher\",\n        \"Michael P. Carpenter\",\n        \"P. Chowdhury\",\n        \"Douglas Cline\",\n        \"H. L. Crawford\",\n        \"P. Fallon\",\n        \"A. M. Forney\",\n        \"A. Gade\",\n        \"D. J. Hartley\",\n        \"A. B. Hayes\",\n        \"J. Henderson\",\n        \"F. G. Kondev\",\n        \"Krishichayan\",\n        \"Torben Lauritsen\",\n        \"J. Li\",\n        \"David Little\",\n        \"Augusto O. Macchiavelli\",\n        \"D. Rhodes\",\n        \"Dariusz Seweryniak\",\n        \"S. Stolze\",\n        \"W. B. Walters\",\n        \"J. Wu\"\n      ],\n      \"journal\": \"Physical Review C\",\n      \"cited_by_count\": 19,\n      \"open_access_url\": \"https://www.osti.gov/servlets/purl/1970693\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Prevailing Triaxial Shapes in Atomic Nuclei and a Quantum Theory of Rotation of Composite Objects\",\n      \"doi\": \"https://doi.org/10.48550/arxiv.2303.11299\",\n      \"year\": 2023,\n      \"authors\": [\n        \"T. Otsuka\",\n        \"Yusuke Tsunoda\",\n        \"Noritaka Shimizu\",\n        \"Y. Utsuno\",\n        \"T. Abe\",\n        \"H. Ueno\"\n      ],\n      \"journal\": \"arXiv (Cornell University)\",\n      \"cited_by_count\": 3,\n      \"open_access_url\": \"https://arxiv.org/pdf/2303.11299\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Evidence for Rigid Triaxial Deformation in Ge76 from a Model-Independent Analysis\",\n      \"doi\": \"https://doi.org/10.1103/physrevlett.123.102501\",\n      \"year\": 2019,\n      \"authors\": [\n        \"A. D. Ayangeakaa\",\n        \"R. V. F. Janssens\",\n        \"Shaofei Zhu\",\n        \"David Little\",\n        \"J. Henderson\",\n        \"C. Y. Wu\",\n        \"D. J. Hartley\",\n        \"M. Albers\",\n        \"Kalle Auranen\",\n        \"B. Bucher\",\n        \"Michael P. Carpenter\",\n        \"P. Chowdhury\",\n        \"Douglas Cline\",\n        \"H. L. Crawford\",\n        \"P. Fallon\",\n        \"A. M. Forney\",\n        \"A. Gade\",\n        \"A. B. Hayes\",\n        \"F. G. Kondev\",\n        \"Krishichayan\",\n        \"Torben Lauritsen\",\n        \"Juliang Li\",\n        \"Augusto O. Macchiavelli\",\n        \"D. Rhodes\",\n        \"Dariusz Seweryniak\",\n        \"S. Stolze\",\n        \"W. B. Walters\",\n        \"J. Wu\"\n      ],\n      \"journal\": \"Physical Review Letters\",\n      \"cited_by_count\": 61,\n      \"open_access_url\": \"https://arxiv.org/pdf/1909.03270\",\n      \"source\": \"openalex\"\n    }\n  ]\n}"
+          }
+        ],
+        "structuredContent": {
+          "source": "openalex",
+          "total": 14,
+          "results": [
+            {
+              "title": "Triaxial nuclear shapes from simple ratios of electric-quadrupole matrix elements",
+              "doi": "https://doi.org/10.1016/j.adt.2025.101730",
+              "year": 2025,
+              "authors": [
+                "E. A. Lawrie",
+                "José Nicolás Orce"
+              ],
+              "journal": "Atomic Data and Nuclear Data Tables",
+              "cited_by_count": 2,
+              "open_access_url": "https://doi.org/10.1016/j.adt.2025.101730",
+              "source": "openalex"
+            },
+            {
+              "title": "Ab initio uncertainty quantification of neutrinoless double-beta decay in 76Ge",
+              "doi": "https://doi.org/10.21203/rs.3.rs-3322511/v1",
+              "year": 2023,
+              "authors": [
+                "Antoine Belley",
+                "J. M. Yao",
+                "B. Bally",
+                "J. Pitcher",
+                "J. Engel",
+                "H. Hergert",
+                "J. D. Holt",
+                "T. Miyagi",
+                "Tomás R. Rodríguez",
+                "A. M. Romero",
+                "R. Stroberg",
+                "Xin Zhang"
+              ],
+              "journal": "Research Square",
+              "cited_by_count": 2,
+              "open_access_url": "https://www.researchsquare.com/article/rs-3322511/latest.pdf",
+              "source": "openalex"
+            },
+            {
+              "title": "Axial and triaxial degrees of freedom in 72Zn",
+              "doi": "https://doi.org/10.1016/j.physletb.2023.137933",
+              "year": 2023,
+              "authors": [
+                "S. Hellgartner",
+                "D. Mücher",
+                "Kathrin Wimmer",
+                "V. Bildstein",
+                "J.L. Egido",
+                "R. Gernhäuser",
+                "R. Krücken",
+                "A.K. Nowak",
+                "Magda Zielinska",
+                "C. Bauer",
+                "Miguel Lozano Benito",
+                "Simone Bottoni",
+                "H. De Witte",
+                "J. Elseviers",
+                "Д. В. Федоров",
+                "F. Flavigny",
+                "A. Illana",
+                "Malin Klintefjord",
+                "Thorsten Kröll",
+                "R. Lutter",
+                "B. A. Marsh",
+                "R. Orlandi",
+                "J. Pakarinen",
+                "R. Raabe",
+                "Elisa Rapisarda",
+                "S. Reichert",
+                "P. Reiter",
+                "M. Scheck",
+                "Michael Seidlitz",
+                "Burkhard Siebeck",
+                "E. Siesling",
+                "T. Steinbach",
+                "Th. Stora",
+                "M.J. Vermeulen",
+                "D. Voulot",
+                "Nigel Warr",
+                "F. Wenander"
+              ],
+              "journal": "Physics Letters B",
+              "cited_by_count": 12,
+              "open_access_url": "https://doi.org/10.1016/j.physletb.2023.137933",
+              "source": "openalex"
+            },
+            {
+              "title": "Triaxiality and the nature of low-energy excitations in Ge76",
+              "doi": "https://doi.org/10.1103/physrevc.107.044314",
+              "year": 2023,
+              "authors": [
+                "A. D. Ayangeakaa",
+                "R. V. F. Janssens",
+                "Shaofei Zhu",
+                "J. M. Allmond",
+                "B. ALEX BROWN",
+                "C. Y. Wu",
+                "M. Albers",
+                "Kalle Auranen",
+                "B. Bucher",
+                "Michael P. Carpenter",
+                "P. Chowdhury",
+                "Douglas Cline",
+                "H. L. Crawford",
+                "P. Fallon",
+                "A. M. Forney",
+                "A. Gade",
+                "D. J. Hartley",
+                "A. B. Hayes",
+                "J. Henderson",
+                "F. G. Kondev",
+                "Krishichayan",
+                "Torben Lauritsen",
+                "J. Li",
+                "David Little",
+                "Augusto O. Macchiavelli",
+                "D. Rhodes",
+                "Dariusz Seweryniak",
+                "S. Stolze",
+                "W. B. Walters",
+                "J. Wu"
+              ],
+              "journal": "Physical Review C",
+              "cited_by_count": 19,
+              "open_access_url": "https://www.osti.gov/servlets/purl/1970693",
+              "source": "openalex"
+            },
+            {
+              "title": "Prevailing Triaxial Shapes in Atomic Nuclei and a Quantum Theory of Rotation of Composite Objects",
+              "doi": "https://doi.org/10.48550/arxiv.2303.11299",
+              "year": 2023,
+              "authors": [
+                "T. Otsuka",
+                "Yusuke Tsunoda",
+                "Noritaka Shimizu",
+                "Y. Utsuno",
+                "T. Abe",
+                "H. Ueno"
+              ],
+              "journal": "arXiv (Cornell University)",
+              "cited_by_count": 3,
+              "open_access_url": "https://arxiv.org/pdf/2303.11299",
+              "source": "openalex"
+            },
+            {
+              "title": "Evidence for Rigid Triaxial Deformation in Ge76 from a Model-Independent Analysis",
+              "doi": "https://doi.org/10.1103/physrevlett.123.102501",
+              "year": 2019,
+              "authors": [
+                "A. D. Ayangeakaa",
+                "R. V. F. Janssens",
+                "Shaofei Zhu",
+                "David Little",
+                "J. Henderson",
+                "C. Y. Wu",
+                "D. J. Hartley",
+                "M. Albers",
+                "Kalle Auranen",
+                "B. Bucher",
+                "Michael P. Carpenter",
+                "P. Chowdhury",
+                "Douglas Cline",
+                "H. L. Crawford",
+                "P. Fallon",
+                "A. M. Forney",
+                "A. Gade",
+                "A. B. Hayes",
+                "F. G. Kondev",
+                "Krishichayan",
+                "Torben Lauritsen",
+                "Juliang Li",
+                "Augusto O. Macchiavelli",
+                "D. Rhodes",
+                "Dariusz Seweryniak",
+                "S. Stolze",
+                "W. B. Walters",
+                "J. Wu"
+              ],
+              "journal": "Physical Review Letters",
+              "cited_by_count": 61,
+              "open_access_url": "https://arxiv.org/pdf/1909.03270",
+              "source": "openalex"
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Found 5 Crossref papers.\n\n[\n  {\n    \"paper_id\": \"10.1016/0375-9474(69)90236-x\",\n    \"title\": \"Coulomb excitation and the reorientation effect in 70Ge and 76Ge\",\n    \"authors\": \"J.J. Simpson; U. Smilansky; D. Ashery\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(69)90236-x\",\n    \"published_date\": \"1969-11-30T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(69)90236-x\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 24,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"138\",\n    \"issue\": \"3\",\n    \"pages\": \"529-544\",\n    \"year\": 1969,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1036/1097-8542.164700\",\n    \"title\": \"Coulomb excitation\",\n    \"authors\": \"\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1036/1097-8542.164700\",\n    \"published_date\": \"2015-07-09T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1036/1097-8542.164700\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 0,\n    \"references\": \"\",\n    \"journal\": \"AccessScience\",\n    \"volume\": \"\",\n    \"issue\": \"\",\n    \"pages\": \"\",\n    \"year\": 2015,\n    \"extra\": \"{\\\"publisher\\\":\\\"McGraw-Hill Professional\\\",\\\"type\\\":\\\"dataset\\\",\\\"issn\\\":[],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1007/978-3-031-10751-1_2\",\n    \"title\": \"Low-Energy Coulomb Excitation and Nuclear Deformation\",\n    \"authors\": \"Magda Zielińska\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1007/978-3-031-10751-1_2\",\n    \"published_date\": \"2021-12-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1007/978-3-031-10751-1_2\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 4,\n    \"references\": \"\",\n    \"journal\": \"Lecture Notes in Physics\",\n    \"volume\": \"\",\n    \"issue\": \"\",\n    \"pages\": \"43-86\",\n    \"year\": 2022,\n    \"extra\": \"{\\\"publisher\\\":\\\"Springer International Publishing\\\",\\\"type\\\":\\\"book-chapter\\\",\\\"issn\\\":[\\\"0075-8450\\\",\\\"1616-6361\\\"],\\\"isbn\\\":[\\\"9783031107504\\\",\\\"9783031107511\\\"],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.29172/e98c6636-816e-48aa-89c2-042aabeaa5df\",\n    \"title\": \"Coulomb excitation\",\n    \"authors\": \"\",\n    \"abstract\": \"\",\n    \"doi\": \"10.29172/e98c6636-816e-48aa-89c2-042aabeaa5df\",\n    \"published_date\": \"2024-07-17T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.29172/e98c6636-816e-48aa-89c2-042aabeaa5df\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 0,\n    \"references\": \"\",\n    \"journal\": \"Physics Subject Headings (PhySH)\",\n    \"volume\": \"\",\n    \"issue\": \"\",\n    \"pages\": \"\",\n    \"year\": 2024,\n    \"extra\": \"{\\\"publisher\\\":\\\"American Physical Society (APS)\\\",\\\"type\\\":\\\"dataset\\\",\\\"issn\\\":[],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1142/s0218301311017818\",\n    \"title\": \"MODEL INDEPENDENT DETERMINATION OF QUADRUPOLE DEFORMATION PARAMETERS FROM COULOMB EXCITATION MEASUREMENTS\",\n    \"authors\": \"JULIAN SREBRNY; DOUGLAS CLINE\",\n    \"abstract\": \"\\n                    A relationship between experimental E 2 matrix elements and nuclear quadrupole charge deformation and triaxiality is presented. Examples of experimentally determined deformation and triaxiality parameters in various regions of the nuclear chart are specified. The most interesting results were found among transitional nuclei. The first such result from a radioactive beam facility is the identification of a triaxial strongly-deformed low-lying [Formula: see text] level in\\n                    76\\n                    Kr .\\n                  \",\n    \"doi\": \"10.1142/s0218301311017818\",\n    \"published_date\": \"2011-01-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1142/s0218301311017818\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 29,\n    \"references\": \"\",\n    \"journal\": \"International Journal of Modern Physics E\",\n    \"volume\": \"20\",\n    \"issue\": \"02\",\n    \"pages\": \"422-430\",\n    \"year\": 2011,\n    \"extra\": \"{\\\"publisher\\\":\\\"World Scientific Pub Co Pte Ltd\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0218-3013\\\",\\\"1793-6608\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  }\n]"
+          }
+        ]
+      }
+    }
+  ],
+  "selection": {
+    "doi": "10.1103/PhysRevC.107.044314",
+    "title": "Triaxiality and the nature of low-energy excitations in Ge76",
+    "basis": "OpenAlex metadata candidate, must verify exact DOI and original body; other fuzzy Crossref results not identity verification"
+  }
+}

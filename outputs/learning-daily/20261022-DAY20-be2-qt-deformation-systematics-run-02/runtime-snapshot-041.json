@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T21:52:29.387102+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1027.5102149666666,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:38:02 UTC",
+  "time_source": "aware system clock; preceding tool observation separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "022 La/Xe/Nd originalroots and classifierrange",
+      "information_gain": "high",
+      "gap": "selfchosen roots/lineidentity vsactualsource input and universal modegeometry"
+    },
+    {
+      "route": "2014QTR/frozen versus exactmodel comparison ifaccessibleanduseful",
+      "information_gain": "high",
+      "gap": "primaryMatta detachment vs laterfrozen criticism, originalproducer stillmissing"
+    },
+    {
+      "route": "Consolidate scientific evidence graph and currentcourse deliverables",
+      "information_gain": "high",
+      "gap": "currentdraft hashistorical withdrawal anchors, needs concise finalentry"
+    }
+  ],
+  "decision_reason": "ContinueDay20 highvaluequestions; no newcard/closeout."
+}

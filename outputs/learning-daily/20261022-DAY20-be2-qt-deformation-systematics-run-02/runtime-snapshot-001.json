@@ -1,0 +1,15 @@
+{
+  "now_local": "2026-10-22T17:54:24+08:00",
+  "clock_tool_checkpoint_utc": "2026-10-22 09:54:24 UTC",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "next_scheduled_start": "2026-10-23T16:00:00+08:00",
+  "minutes_to_deadline": 1265,
+  "minutes_to_next_start": 1325,
+  "minimum_current_block_minutes": 90,
+  "minimum_forward_card_block_minutes": 120,
+  "can_continue_current": true,
+  "can_complete_forward_card": false,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "permitted_next_card": "Day21 uncredited only"
+}

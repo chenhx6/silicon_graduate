@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T23:05:21.013366+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 954.6497772333333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 15:03:38 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Synthesize Day 20 comprehensive research notes and prepare pre-closeout ledger",
+      "gap": "Pre-closeout documentation integrity check",
+      "information_gain": "high"
+    },
+    {
+      "route": "Review A~130 quadrupole deformation atlas and collectivity systematic maps",
+      "gap": "Systematics of ND vs HD deformation across Z=56-62",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Over 15 hours remain until 15:00 next day; advancing substantive study on pseudodegeneracy and collectivity systematics."
+}

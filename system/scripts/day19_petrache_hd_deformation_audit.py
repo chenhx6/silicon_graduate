@@ -7,6 +7,8 @@ the ~14% rotation-induced theoretical shrinkage in extended cranked Strutinsky c
 and models the band-dependent side-feeding cascade parameter Qsf.
 Uses only the Python standard library. Requires --output PATH.
 """
+
+raise SystemExit("Retired by Day20 source audit001: do not regenerate historical certification; use day20_literal_trend_audit.py and current canonical source boundaries.")
 import argparse
 from datetime import datetime, timezone
 import hashlib

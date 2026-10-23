@@ -1,0 +1,648 @@
+{
+  "observed_at_utc": "2026-10-23T06:01:25.237269+00:00",
+  "pages_checked": 40,
+  "all_pages_exist": true,
+  "total_locators_found": 592,
+  "pages": {
+    "knowledge/index.md": {
+      "count": 0,
+      "unique_locators": []
+    },
+    "knowledge/methods/coulomb-excitation.md": {
+      "count": 4,
+      "unique_locators": [
+        "CL86-D20-2",
+        "CL86-D20-R150-1",
+        "GM12-D20-1",
+        "GM12-D20-10"
+      ]
+    },
+    "knowledge/observables/transition-quadrupole-moment.md": {
+      "count": 125,
+      "unique_locators": [
+        "A13-D20-R32-1",
+        "AY23-D20-R146-",
+        "AY23-D20-R147-1",
+        "B19-D20-R39-1",
+        "B19-D20-R39-2",
+        "BA81-D20-2",
+        "BI19-D20-R42-1",
+        "BI19-D20-R42-2",
+        "CH20-D20-R42-1",
+        "CH20-D20-R42-2",
+        "CL86-D20-5",
+        "CL86-D20-R150-",
+        "DA83-D20-1",
+        "F14-D20-R44-1",
+        "F14-D20-R44-3",
+        "F14-D20-R45-",
+        "GM12-D20-10",
+        "HE20-D20-1",
+        "HE20-D20-R147-1",
+        "HE20-D20-R149-",
+        "IB98-D20-R104-1",
+        "IB98-D20-R146-1",
+        "IB98-D20-R33-1",
+        "KL99-D20-R32-1",
+        "KL99-D20-R33-1",
+        "KL99-D20-R36-1",
+        "KL99-D20-R36-2",
+        "KO01-D20-R40-1",
+        "KO01-D20-R40-2",
+        "L22-D20-R41-1",
+        "L22-D20-R41-2",
+        "L22-D20-R41-3",
+        "LI04-D20-2",
+        "LI04-D20-R33-1",
+        "LV22-D20-R42-1",
+        "LV22-D20-R42-2",
+        "LV22-D20-R45-",
+        "LV25-D20-R32-1",
+        "M15-D20-R41-1",
+        "M15-D20-R41-2",
+        "MC07-D20-R37-1",
+        "MC07-D20-R37-2",
+        "MT07-D20-R146-1",
+        "MT07-D20-R35-1",
+        "MT07-D20-R35-2",
+        "MT07-D20-R35-3",
+        "MU07-D20-R146-1",
+        "MU07-D20-R36-1",
+        "MU07-D20-R36-2",
+        "MU07-D20-R50-1",
+        "MU08-D20-R39-1",
+        "MU08-D20-R39-2",
+        "PE06-D20-R32-1",
+        "PE06-D20-R51-1",
+        "PE98-D20-1",
+        "PE98-D20-3",
+        "PE98-D20-F01",
+        "PE98-D20-F02",
+        "PE98-D20-R33-1",
+        "PE98-D20-R34-1",
+        "PE98-D20-R34-2",
+        "PE98-D20-R47-1",
+        "PO20-D20-R146-",
+        "PO20-D20-R146-1",
+        "RG11-D20-1",
+        "SI16-D20-2",
+        "SI16-D20-3",
+        "SI16-D20-F01",
+        "SI16-D20-F03",
+        "SI16-D20-F05",
+        "SI16-D20-R102-",
+        "SI16-D20-R110-",
+        "SI16-D20-R146-1",
+        "SI16-D20-R32-1",
+        "SI16-D20-R33-1",
+        "SI16-D20-R33-2",
+        "SI16-D20-R34-1",
+        "SI16-D20-R43-",
+        "SI16-D20-R43-1"
+      ]
+    },
+    "knowledge/projects/131ce-collective-mode-discrimination.md": {
+      "count": 11,
+      "unique_locators": [
+        "CE131-D20-R49-1",
+        "IB98-D20-R104-1",
+        "IB98-D20-R146-1",
+        "LI04-D20-2",
+        "PE98-D20-3",
+        "PE98-D20-F01",
+        "PJ131-D20-R145-1",
+        "SI16-D20-2",
+        "SI16-D20-F01",
+        "SI16-D20-R146-1"
+      ]
+    },
+    "knowledge/research-notes/day20-quadrupole-collectivity-systematics-synthesis.md": {
+      "count": 41,
+      "unique_locators": [
+        "AY19-D20-1",
+        "AY23-D20-1",
+        "AY23-D20-R146-",
+        "AY23-D20-R147-1",
+        "B19-D20-R39-1",
+        "BA81-D20-1",
+        "CL86-D20-6",
+        "CL86-D20-R150-",
+        "DA83-D20-1",
+        "GM12-D20-1",
+        "HE19-D20-1",
+        "HE19-D20-R117-1",
+        "HE20-D20-1",
+        "HE20-D20-R113-",
+        "HE20-D20-R147-1",
+        "IB98-D20-R104-1",
+        "IB98-D20-R146-1",
+        "LI04-D20-2",
+        "MT07-D20-R146-1",
+        "MU07-D20-R146-1",
+        "MU08-D20-R39-1",
+        "PE98-D20-F01",
+        "PE98-D20-F03",
+        "PE98-D20-R34-1",
+        "PE98-D20-R34-2",
+        "PE98-D20-R47-1",
+        "PO20-D20-1",
+        "PO20-D20-R115-1",
+        "PO20-D20-R146-",
+        "PO20-D20-R146-1",
+        "SI16-D20-F01",
+        "SI16-D20-F05",
+        "SI16-D20-R102-",
+        "SI16-D20-R102-1",
+        "SI16-D20-R146-1",
+        "SI16-D20-R43-1",
+        "VI87-D20-1"
+      ]
+    },
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md": {
+      "count": 1,
+      "unique_locators": [
+        "SI16-D20-F02"
+      ]
+    },
+    "knowledge/sources/alwaleedi-2013-band-structures-131ce.md": {
+      "count": 2,
+      "unique_locators": [
+        "AW13-D20-1",
+        "AW13-D20-R139-1"
+      ]
+    },
+    "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md": {
+      "count": 4,
+      "unique_locators": [
+        "A13-D20-1",
+        "A13-D20-R137-1",
+        "A13-D20-R32-1"
+      ]
+    },
+    "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md": {
+      "count": 8,
+      "unique_locators": [
+        "AY19-D20-1",
+        "AY19-D20-2",
+        "AY19-D20-3",
+        "AY19-D20-4",
+        "AY19-D20-5",
+        "AY19-D20-6",
+        "AY19-D20-7"
+      ]
+    },
+    "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md": {
+      "count": 16,
+      "unique_locators": [
+        "AY23-D20-1",
+        "AY23-D20-2",
+        "AY23-D20-3",
+        "AY23-D20-4",
+        "AY23-D20-5",
+        "AY23-D20-6",
+        "AY23-D20-7",
+        "AY23-D20-R144-1",
+        "AY23-D20-R146-1",
+        "AY23-D20-R146-2",
+        "AY23-D20-R146-3",
+        "AY23-D20-R147-1",
+        "AY23-D20-R147-2",
+        "AY23-D20-R147-3"
+      ]
+    },
+    "knowledge/sources/babra-2019-deformation-change-136sm.md": {
+      "count": 6,
+      "unique_locators": [
+        "B19-D20-1",
+        "B19-D20-F01",
+        "B19-D20-R136-1",
+        "B19-D20-R39-1",
+        "B19-D20-R39-2"
+      ]
+    },
+    "knowledge/sources/barth-1981-ce-local-moments-metals.md": {
+      "count": 11,
+      "unique_locators": [
+        "BA81-D20-1",
+        "BA81-D20-2",
+        "BA81-D20-3",
+        "BA81-D20-4",
+        "BA81-D20-5",
+        "BA81-D20-6",
+        "BA81-D20-7",
+        "BA81-D20-8",
+        "IB98-D20-R104-1"
+      ]
+    },
+    "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md": {
+      "count": 0,
+      "unique_locators": []
+    },
+    "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md": {
+      "count": 3,
+      "unique_locators": [
+        "BI19-D20-1",
+        "BI19-D20-R42-1",
+        "BI19-D20-R42-2"
+      ]
+    },
+    "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md": {
+      "count": 3,
+      "unique_locators": [
+        "CH20-D20-1",
+        "CH20-D20-R42-1",
+        "CH20-D20-R42-2"
+      ]
+    },
+    "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md": {
+      "count": 15,
+      "unique_locators": [
+        "CL86-D20-1",
+        "CL86-D20-10",
+        "CL86-D20-11",
+        "CL86-D20-12",
+        "CL86-D20-2",
+        "CL86-D20-3",
+        "CL86-D20-4",
+        "CL86-D20-5",
+        "CL86-D20-6",
+        "CL86-D20-7",
+        "CL86-D20-8",
+        "CL86-D20-9",
+        "CL86-D20-R150-1",
+        "GM12-D20-1"
+      ]
+    },
+    "knowledge/sources/dafni-1983-ce-isomers-tin-quadrupole.md": {
+      "count": 11,
+      "unique_locators": [
+        "DA83-D20-1",
+        "DA83-D20-2",
+        "DA83-D20-3",
+        "DA83-D20-4",
+        "DA83-D20-5",
+        "DA83-D20-6",
+        "DA83-D20-7",
+        "IB98-D20-R104-2",
+        "VI87-D20-2"
+      ]
+    },
+    "knowledge/sources/frauendorf-2014-transverse-wobbling.md": {
+      "count": 8,
+      "unique_locators": [
+        "F14-D20-R141-1",
+        "F14-D20-R146-1",
+        "F14-D20-R44-1",
+        "F14-D20-R44-2",
+        "F14-D20-R44-3",
+        "F14-D20-R44-4",
+        "F14-D20-R45-1"
+      ]
+    },
+    "knowledge/sources/gosia-2012-manual-sigma-invariants.md": {
+      "count": 10,
+      "unique_locators": [
+        "GM12-D20-1",
+        "GM12-D20-10",
+        "GM12-D20-2",
+        "GM12-D20-3",
+        "GM12-D20-4",
+        "GM12-D20-5",
+        "GM12-D20-6",
+        "GM12-D20-7",
+        "GM12-D20-8",
+        "GM12-D20-9"
+      ]
+    },
+    "knowledge/sources/henderson-2019-triaxiality-selenium76.md": {
+      "count": 13,
+      "unique_locators": [
+        "HE19-D20-1",
+        "HE19-D20-2",
+        "HE19-D20-3",
+        "HE19-D20-4",
+        "HE19-D20-5",
+        "HE19-D20-6",
+        "HE19-D20-7",
+        "HE19-D20-R117-1",
+        "HE19-D20-R117-2"
+      ]
+    },
+    "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md": {
+      "count": 17,
+      "unique_locators": [
+        "CL86-D20-5",
+        "HE20-D20-1",
+        "HE20-D20-2",
+        "HE20-D20-3",
+        "HE20-D20-4",
+        "HE20-D20-5",
+        "HE20-D20-6",
+        "HE20-D20-7",
+        "HE20-D20-R113-1",
+        "HE20-D20-R113-2",
+        "HE20-D20-R147-1",
+        "HE20-D20-R147-2",
+        "HE20-D20-R149-1"
+      ]
+    },
+    "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md": {
+      "count": 20,
+      "unique_locators": [
+        "BA81-D20-1",
+        "DA83-D20-1",
+        "DA83-D20-3",
+        "IB98-D20-R104-1",
+        "IB98-D20-R104-2",
+        "IB98-D20-R104-3",
+        "IB98-D20-R104-4",
+        "IB98-D20-R104-5",
+        "IB98-D20-R104-6",
+        "IB98-D20-R104-7",
+        "IB98-D20-R104-8",
+        "IB98-D20-R145-1",
+        "IB98-D20-R146-1",
+        "IB98-D20-R146-2",
+        "IB98-D20-R33-1",
+        "IB98-D20-R33-2",
+        "SI16-D20-R33-2",
+        "VI87-D20-1"
+      ]
+    },
+    "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md": {
+      "count": 10,
+      "unique_locators": [
+        "KL99-D20-1",
+        "KL99-D20-2",
+        "KL99-D20-3",
+        "KL99-D20-R138-1",
+        "KL99-D20-R32-1",
+        "KL99-D20-R32-2",
+        "KL99-D20-R33-1",
+        "KL99-D20-R36-1",
+        "KL99-D20-R36-2"
+      ]
+    },
+    "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md": {
+      "count": 3,
+      "unique_locators": [
+        "KO01-D20-R135-1",
+        "KO01-D20-R40-1",
+        "KO01-D20-R40-2"
+      ]
+    },
+    "knowledge/sources/li-2004-lifetimes-131ce.md": {
+      "count": 9,
+      "unique_locators": [
+        "LI04-D20-1",
+        "LI04-D20-2",
+        "LI04-D20-3",
+        "LI04-D20-4",
+        "LI04-D20-R143-1",
+        "LI04-D20-R146-1",
+        "LI04-D20-R33-1",
+        "LI04-D20-R33-2"
+      ]
+    },
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": {
+      "count": 6,
+      "unique_locators": [
+        "L22-D20-R146-1",
+        "L22-D20-R41-",
+        "L22-D20-R41-1",
+        "L22-D20-R41-2",
+        "L22-D20-R41-3",
+        "LV22-D20-R141-1"
+      ]
+    },
+    "knowledge/sources/lv-2022-transverse-wobbling-136nd.md": {
+      "count": 5,
+      "unique_locators": [
+        "LV22-D20-1",
+        "LV22-D20-R140-1",
+        "LV22-D20-R42-1",
+        "LV22-D20-R42-2",
+        "LV22-D20-R45-1"
+      ]
+    },
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md": {
+      "count": 4,
+      "unique_locators": [
+        "LV25-D20-1",
+        "LV25-D20-R134-1",
+        "LV25-D20-R32-1"
+      ]
+    },
+    "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md": {
+      "count": 7,
+      "unique_locators": [
+        "MT07-D20-1",
+        "MT07-D20-R143-1",
+        "MT07-D20-R146-1",
+        "MT07-D20-R35-",
+        "MT07-D20-R35-1",
+        "MT07-D20-R35-2",
+        "MT07-D20-R35-3"
+      ]
+    },
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": {
+      "count": 8,
+      "unique_locators": [
+        "F14-D20-R44-",
+        "M15-D20-R146-1",
+        "M15-D20-R41-1",
+        "M15-D20-R41-2",
+        "M15-D20-R44-1",
+        "MA15-D20-R141-1"
+      ]
+    },
+    "knowledge/sources/mccutchan-2007-gamma-band-staggering.md": {
+      "count": 3,
+      "unique_locators": [
+        "MC07-D20-R135-1",
+        "MC07-D20-R37-1",
+        "MC07-D20-R37-2"
+      ]
+    },
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md": {
+      "count": 11,
+      "unique_locators": [
+        "MU07-D20-2",
+        "MU07-D20-F01",
+        "MU07-D20-R142-1",
+        "MU07-D20-R146-1",
+        "MU07-D20-R146-2",
+        "MU07-D20-R36",
+        "MU07-D20-R36-1",
+        "MU07-D20-R36-2",
+        "MU07-D20-R50-1"
+      ]
+    },
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": {
+      "count": 5,
+      "unique_locators": [
+        "MU08-D20-F01",
+        "MU08-D20-R140-1",
+        "MU08-D20-R146-1",
+        "MU08-D20-R39-1",
+        "MU08-D20-R39-2"
+      ]
+    },
+    "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md": {
+      "count": 14,
+      "unique_locators": [
+        "PE98-D20-1",
+        "PE98-D20-2",
+        "PE98-D20-3",
+        "PE98-D20-4",
+        "PE98-D20-F01",
+        "PE98-D20-F02",
+        "PE98-D20-F03",
+        "PE98-D20-F04",
+        "PE98-D20-F05",
+        "PE98-D20-R33-1",
+        "PE98-D20-R34-1",
+        "PE98-D20-R34-2",
+        "PE98-D20-R47-1"
+      ]
+    },
+    "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md": {
+      "count": 6,
+      "unique_locators": [
+        "PE06-D20-1",
+        "PE06-D20-R142-1",
+        "PE06-D20-R32-1",
+        "PE06-D20-R32-2",
+        "PE06-D20-R51-1"
+      ]
+    },
+    "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md": {
+      "count": 3,
+      "unique_locators": [
+        "PE18-D20-1",
+        "PE18-D20-R140-1",
+        "PE18-D20-R146-1"
+      ]
+    },
+    "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md": {
+      "count": 23,
+      "unique_locators": [
+        "AY19-D20-1",
+        "CL86-D20-5",
+        "HE19-D20-5",
+        "HE20-D20-R113-2",
+        "PO20-D20-1",
+        "PO20-D20-2",
+        "PO20-D20-3",
+        "PO20-D20-4",
+        "PO20-D20-5",
+        "PO20-D20-6",
+        "PO20-D20-7",
+        "PO20-D20-8",
+        "PO20-D20-R115-1",
+        "PO20-D20-R115-2",
+        "PO20-D20-R115-3",
+        "PO20-D20-R144-1",
+        "PO20-D20-R146-1",
+        "PO20-D20-R146-2",
+        "PO20-D20-R146-3"
+      ]
+    },
+    "knowledge/sources/singh-2016-lifetime-131ce-133pr.md": {
+      "count": 35,
+      "unique_locators": [
+        "KL99-D20-1",
+        "SI16-D20-1",
+        "SI16-D20-2",
+        "SI16-D20-3",
+        "SI16-D20-4",
+        "SI16-D20-F01",
+        "SI16-D20-F02",
+        "SI16-D20-F03",
+        "SI16-D20-F04",
+        "SI16-D20-F05",
+        "SI16-D20-F06",
+        "SI16-D20-F07",
+        "SI16-D20-F08",
+        "SI16-D20-F09",
+        "SI16-D20-F10",
+        "SI16-D20-R102-1",
+        "SI16-D20-R110-1",
+        "SI16-D20-R146-1",
+        "SI16-D20-R32-1",
+        "SI16-D20-R33-1",
+        "SI16-D20-R33-2",
+        "SI16-D20-R34-1",
+        "SI16-D20-R43-1"
+      ]
+    },
+    "knowledge/sources/vianden-1987-electric-field-gradients-metals.md": {
+      "count": 7,
+      "unique_locators": [
+        "IB98-D20-R104-1",
+        "VI87-D20-1",
+        "VI87-D20-2",
+        "VI87-D20-3",
+        "VI87-D20-4"
+      ]
+    },
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md": {
+      "count": 104,
+      "unique_locators": [
+        "A13-D20-R32-1",
+        "B19-D20-R39-1",
+        "B19-D20-R39-2",
+        "BI19-D20-R42-1",
+        "BI19-D20-R42-2",
+        "CH20-D20-R42-1",
+        "CH20-D20-R42-2",
+        "F14-D20-R44-1",
+        "IB98-D20-R33-1",
+        "KL99-D20-R32-1",
+        "KL99-D20-R33-1",
+        "KL99-D20-R36-1",
+        "KL99-D20-R36-2",
+        "KO01-D20-R40-1",
+        "KO01-D20-R40-2",
+        "L22-D20-R41-1",
+        "L22-D20-R41-2",
+        "L22-D20-R41-3",
+        "LI04-D20-1",
+        "LI04-D20-2",
+        "LI04-D20-R33-1",
+        "LV22-D20-R42-1",
+        "LV22-D20-R42-2",
+        "LV25-D20-R32-1",
+        "M15-D20-R41-1",
+        "M15-D20-R41-2",
+        "M15-D20-R44-",
+        "MC07-D20-R37-1",
+        "MC07-D20-R37-2",
+        "MT07-D20-R35-1",
+        "MT07-D20-R35-2",
+        "MT07-D20-R35-3",
+        "MU07-D20-R36-1",
+        "MU07-D20-R36-2",
+        "MU08-D20-R39-1",
+        "MU08-D20-R39-2",
+        "PE06-D20-R32-1",
+        "PE98-D20-1",
+        "PE98-D20-F01",
+        "PE98-D20-F02",
+        "PE98-D20-R33-1",
+        "PE98-D20-R34-1",
+        "PE98-D20-R34-2",
+        "SI16-D20-2",
+        "SI16-D20-F01",
+        "SI16-D20-F03",
+        "SI16-D20-F05",
+        "SI16-D20-R146-1",
+        "SI16-D20-R32-1",
+        "SI16-D20-R33-1",
+        "SI16-D20-R33-2",
+        "SI16-D20-R34-1",
+        "SI16-D20-R43-1"
+      ]
+    }
+  }
+}

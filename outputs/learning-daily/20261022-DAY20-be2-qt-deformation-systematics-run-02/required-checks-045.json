@@ -1,0 +1,139 @@
+{
+  "observed_at_utc": "2026-10-22T14:33:15.588826+00:00",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md"
+    ],
+    "changed_paths": [
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      20,
+      21
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 20,
+    "error": null
+  },
+  "H3": "not run; final publication pending",
+  "science_status": "partial; mathematical controls do not certify original experiment",
+  "heading_count": 10,
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true
+  },
+  "raw_used": {
+    "raw/papers/2022_Lv et al_Experimental evidence for transverse wobbling bands in Nd 136.pdf": true,
+    "raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf": true
+  },
+  "all_raw_previous_gate": "661 checked032; not repeated045",
+  "guard_execution": {},
+  "legacy_results_unchanged": {},
+  "review_fields_and_claim_flags": {
+    "knowledge/sources/singh-2016-lifetime-131ce-133pr.md": true,
+    "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md": true,
+    "knowledge/observables/transition-quadrupole-moment.md": true,
+    "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md": true,
+    "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md": true,
+    "knowledge/sources/lv-2022-transverse-wobbling-136nd.md": true,
+    "knowledge/sources/frauendorf-2014-transverse-wobbling.md": true,
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md": true,
+    "knowledge/projects/131ce-collective-mode-discrimination.md": true,
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md": true,
+    "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md": true,
+    "knowledge/sources/babra-2019-deformation-change-136sm.md": true,
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md": true,
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": true,
+    "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md": true,
+    "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md": true,
+    "knowledge/sources/alwaleedi-2013-band-structures-131ce.md": true,
+    "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md": true,
+    "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md": true,
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md": true,
+    "knowledge/sources/li-2004-lifetimes-131ce.md": true,
+    "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md": true,
+    "knowledge/sources/mccutchan-2007-gamma-band-staggering.md": true,
+    "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md": true,
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md": true,
+    "knowledge/sources/matta-2015-transverse-wobbling-135pr.md": true
+  },
+  "diff_check": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "same_session": true,
+  "lint": {
+    "exit": 0,
+    "counts": {
+      "warning": 251,
+      "info": 3927
+    }
+  },
+  "boundary": "passed034; no routing changes",
+  "preflight": "passed033; protected hashes rechecked",
+  "completed_at_utc": "2026-10-22T14:34:32.365916+00:00"
+}

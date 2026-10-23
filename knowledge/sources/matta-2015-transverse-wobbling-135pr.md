@@ -147,3 +147,36 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 | MA15-D18-3 | Lv22同核新实验的P/Rac给747/813 δ=-.47/.−.37、813 BE2out/in=.12(.08)，并以这些结果质疑此前wobbling解释；它提供了对根选择的同核反证，但QTR/TiP替代解释与统计/response边界仍需分层，不能把条件比值崩塌推广成所有wobbling候选的普适定律。 | later-companion-and-interpretation-boundary | direct-and-boundary | [[lv-2022-evidence-against-wobbling-135pr]] PDF3 Table1/PDF5 summary | true |
 
 新检查沿用真实两原件hash，明确δ根变化对fE2和派生B的条件放大；不重拟合原P/Rac或制造CI。
+
+## Day20 checkpoint041：135Pr对立解释、相对强度与模型文字
+
+本轮按primed-recall-041先冻结暴露回忆；实际回读两篇主文全文主线与Lv全部SI，scope041逐页记录。旧human-reviewed范围及原flags不变；新增为Codex self-audit，不是新人审或原实验重分析。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| M15-D20-R41-1 | 原TableI747.0/812.8/754.6 δ−1.24(.13)/−1.54(.09)/−2.38(.37)，E2份额60.6/70.3/85.0%。INGA A与另一Gammasphere的AD分角色；A不可直接对比LvJUROGAM P，Lv对旧AD的图示重拟合不新增独立campaign。reported数据与作者TW解释均保留。 | reported-data-and-comparison-contract | direct-original-and-conditional | PDF2 experiment; PDF3 analysis; PDF4 TableI/Fig3 | true |
+| M15-D20-R41-2 | QTR参数Jm/Js/Jl=7.4/5.6/1.8、c=.116由能量拟合，较大Js/Jm避免过早collapse；PDF5明确Coriolis力使j脱离short并转向medium，Ewob最低点后上升。不能把Lv后文frozen批评当Matta实际全spin代码冻结认证；需原producer和参数路径进一步比较。 | literal-model-statement-and-boundary | direct-original-and-conditional | PDF4 QTRparagraph; PDF5 firstcolumn | true |
+
+
+### checkpoint044：前期QTR输入与最终表不可混用
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| M15-D20-R44-1 | [[frauendorf-2014-transverse-wobbling]] F14-D20-R44-3的TableII暂定Pr强度比与本论文TableI最终值不同；21/2的rM1 .130(.011)→.164(.014)、rE2 .92(.03)→.843(.032)，25/2的.021(.004)→.035(.009)、.535(.01)→.500(.025)，29/2有限值变本表上/下界，非新增独立实验。本论文MoI为Ji(I)=Ji(1+cI)、基参数7.4/5.6/1.8、c=.116，不等2014固定21/13/4；能量拟合与relative E2本身不提供新增绝对τ。 | lineage-and-model-version-boundary | direct-original-comparison | PDF4 TableI/QTRparagraph; PDF5 Coriolisparagraph; F14 PDF9 TableII/PDF12 Ref26 | true |
+
+
+### checkpoint141：角分布双解根选择与派生 B(E2) 放大效应审计
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MA15-D20-R141-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| M15-D20-R146-1 | Matta确有INGA偏振不对称A，另一次Gammasphere给角分布；不能称完全无偏振的大根伪影。747/813的−1.24/−1.54与Lv新实验−.47/−.37不同，不是同次数据同一χ²拟合的两根；3.35/5.84仅固定其它输入时E2份额中央比，不是直接绝对B塌缩或实验CI。支持方与反对方解释均保留。 | experiment-lineage-and-interpretation-boundary | source-and-bounded-self-audit | M15-D20-R41-1/R41-2; M15-D20-R44-1; TableI/Figs2/3 | true |

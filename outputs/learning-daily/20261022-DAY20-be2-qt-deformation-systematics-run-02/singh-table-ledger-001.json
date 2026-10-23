@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "source": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+  "raw_sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+  "case_Ce131": {
+    "locator": "Table 1",
+    "band": "negative-parity decoupled neutron h11/2 yrast",
+    "rows": [
+      {
+        "spin": 7.5,
+        "parity": "-",
+        "E_gamma_keV": 510,
+        "tau": {
+          "kind": "finite",
+          "value": 9.6,
+          "minus": 3.8,
+          "plus": 1.9,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 2.93,
+          "minus": 0.3,
+          "plus": 0.6,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "tau_ps": {
+            "kind": "finite",
+            "value": 1.0,
+            "minus": 0.2,
+            "plus": 0.1,
+            "unit": "ps"
+          }
+        },
+        "method": "plunger",
+        "role": "present"
+      },
+      {
+        "spin": 9.5,
+        "parity": "-",
+        "E_gamma_keV": 642,
+        "tau": {
+          "kind": "upper",
+          "value": 7.31,
+          "unit": "ps",
+          "confidence_level": "not specified for this bound"
+        },
+        "Qt": {
+          "kind": "lower",
+          "value": 1.9,
+          "unit": "eb",
+          "confidence_level": "not specified for this bound"
+        },
+        "sidefeeding": null,
+        "method": "plunger",
+        "role": "present"
+      },
+      {
+        "spin": 11.5,
+        "parity": "-",
+        "E_gamma_keV": 750,
+        "tau": {
+          "kind": "lower",
+          "value": 1.3,
+          "unit": "ps",
+          "confidence_level": "not specified for this bound"
+        },
+        "Qt": {
+          "kind": "upper",
+          "value": 2.85,
+          "unit": "eb",
+          "confidence_level": "not specified for this bound"
+        },
+        "sidefeeding": null,
+        "method": "DSAM lower bound; text also gives about3ps plunger upper",
+        "role": "present"
+      },
+      {
+        "spin": 13.5,
+        "parity": "-",
+        "E_gamma_keV": 827,
+        "tau": {
+          "kind": "finite",
+          "value": 1.25,
+          "minus": 0.25,
+          "plus": 0.41,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 2.26,
+          "minus": 0.23,
+          "plus": 0.37,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "tau_ps": {
+            "kind": "finite",
+            "value": 0.73,
+            "minus": 0.12,
+            "plus": 0.15,
+            "unit": "ps"
+          }
+        },
+        "method": "DSAM",
+        "role": "present"
+      },
+      {
+        "spin": 15.5,
+        "parity": "-",
+        "E_gamma_keV": 892,
+        "tau": {
+          "kind": "finite",
+          "value": 0.51,
+          "minus": 0.05,
+          "plus": 0.05,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 2.66,
+          "minus": 0.12,
+          "plus": 0.13,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "Q_eb": {
+            "kind": "finite",
+            "value": 5.79,
+            "minus": 0.28,
+            "plus": 0.24,
+            "unit": "eb"
+          }
+        },
+        "method": "DSAM",
+        "role": "present"
+      },
+      {
+        "spin": 17.5,
+        "parity": "-",
+        "E_gamma_keV": 922,
+        "tau": {
+          "kind": "finite",
+          "value": 0.6,
+          "minus": 0.1,
+          "plus": 0.11,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 2.43,
+          "minus": 0.2,
+          "plus": 0.22,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "Q_eb": {
+            "kind": "finite",
+            "value": 5.01,
+            "minus": 0.77,
+            "plus": 1.44,
+            "unit": "eb"
+          }
+        },
+        "method": "DSAM",
+        "role": "present"
+      },
+      {
+        "spin": 19.5,
+        "parity": "-",
+        "E_gamma_keV": 962,
+        "tau": {
+          "kind": "upper",
+          "value": 0.54,
+          "unit": "ps",
+          "confidence_level": "not specified for this bound"
+        },
+        "Qt": {
+          "kind": "lower",
+          "value": 2.29,
+          "unit": "eb",
+          "confidence_level": "not specified for this bound"
+        },
+        "sidefeeding": null,
+        "method": "DSAM",
+        "role": "present"
+      }
+    ]
+  },
+  "case_Pr133": {
+    "locator": "Table 2",
+    "band": "negative-parity decoupled proton h11/2 yrast",
+    "rows": [
+      {
+        "spin": 7.5,
+        "parity": "-",
+        "E_gamma_keV": 310,
+        "tau": {
+          "kind": "finite",
+          "value": 71,
+          "minus": 5,
+          "plus": 6,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 3.55,
+          "minus": 0.15,
+          "plus": 0.13,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "tau_ps": {
+            "kind": "finite",
+            "value": 1100,
+            "minus": 200,
+            "plus": 200,
+            "unit": "ps"
+          },
+          "literal": "1.1(2) ns"
+        },
+        "method": "plunger",
+        "role": "present"
+      },
+      {
+        "spin": 9.5,
+        "parity": "-",
+        "E_gamma_keV": 552,
+        "tau": {
+          "kind": "finite",
+          "value": 3.9,
+          "minus": 0.2,
+          "plus": 0.3,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 3.53,
+          "minus": 0.13,
+          "plus": 0.09,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "tau_ps": {
+            "kind": "finite",
+            "value": 1.9,
+            "minus": 0.2,
+            "plus": 0.2,
+            "unit": "ps"
+          }
+        },
+        "method": "plunger",
+        "role": "present"
+      },
+      {
+        "spin": 11.5,
+        "parity": "-",
+        "E_gamma_keV": 709,
+        "tau": {
+          "kind": "finite",
+          "value": 1.43,
+          "minus": 0.14,
+          "plus": 0.1,
+          "unit": "ps"
+        },
+        "Qt": {
+          "kind": "finite",
+          "value": 3.09,
+          "minus": 0.11,
+          "plus": 0.16,
+          "unit": "eb"
+        },
+        "sidefeeding": {
+          "tau_ps": {
+            "kind": "finite",
+            "value": 14,
+            "minus": 3,
+            "plus": 3,
+            "unit": "ps"
+          }
+        },
+        "method": "plunger",
+        "role": "present"
+      },
+      {
+        "spin": 13.5,
+        "parity": "-",
+        "E_gamma_keV": 813,
+        "tau": {
+          "kind": "upper",
+          "value": 0.7,
+          "unit": "ps",
+          "confidence_level": "not specified for this bound"
+        },
+        "Qt": {
+          "kind": "lower",
+          "value": 3.18,
+          "unit": "eb",
+          "confidence_level": "not specified for this bound"
+        },
+        "sidefeeding": null,
+        "method": "plunger",
+        "role": "present"
+      },
+      {
+        "spin": 15.5,
+        "parity": "-",
+        "E_gamma_keV": 864,
+        "tau": {
+          "kind": "upper",
+          "value": 0.6,
+          "unit": "ps",
+          "confidence_level": "not specified for this bound"
+        },
+        "Qt": {
+          "kind": "lower",
+          "value": 2.89,
+          "unit": "eb",
+          "confidence_level": "not specified for this bound"
+        },
+        "sidefeeding": null,
+        "method": "plunger",
+        "role": "present"
+      }
+    ],
+    "positive_feeding_rows": [
+      {
+        "spin": 11.5,
+        "parity": "+",
+        "E_gamma_keV": 682,
+        "tau": {
+          "kind": "finite",
+          "value": 14,
+          "minus": 3.3,
+          "plus": 2.7,
+          "unit": "ps"
+        },
+        "Qt": null,
+        "role": "positive-parity feeding state; branch0.71(8) in text"
+      },
+      {
+        "spin": 13.5,
+        "parity": "+",
+        "E_gamma_keV": 488,
+        "tau": {
+          "kind": "upper",
+          "value": 8,
+          "unit": "ps",
+          "confidence_level": "not specified for this bound"
+        },
+        "Qt": {
+          "kind": "lower",
+          "value": 3.3,
+          "unit": "eb",
+          "confidence_level": "not specified for this bound"
+        },
+        "role": "positive-parity feeding band"
+      }
+    ]
+  },
+  "lineage": "Only Present finite rows in each band enter diagnostics; imported Refs31/32 and censored rows excluded from Gaussian fit; no cross-nucleus/band pooling",
+  "unknowns": [
+    "full cross-point covariance",
+    "limit likelihood and confidence convention",
+    "original events/normalization/producer",
+    "exact input branches and all response/geometry selections"
+  ],
+  "status": "literal table transcription with this-session visual check; conditional analysis input, not reconstructed experimental likelihood"
+}

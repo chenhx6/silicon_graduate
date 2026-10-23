@@ -222,3 +222,27 @@ LV25-34/35回到实际TableI/Fig1，支撑[[level-scheme-reconstruction]]“136P
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | LV25-D19-2 | 原文did not observe chiral rotation/wobbling/oblate rotation，是本研究结果范围；possible magnetic rotation或oblate-prolate coexistence是D4/D6的两替代解释。TableII beta/gamma是模型参数，不能用平均gamma差认证共存观测或发明N=77手征终止线。D5壳模型的多state对应亦非唯一；保持Q1宇称、D6版本、缺τ/δ/E2及同acquisition边界。 | author-wording-and-model-boundary | direct-original-and-boundary | accepted PDF13 SecIII.B/C; PDF15 TableII/Summary | true |
+## Day20量化审计：136Pr磁转动剪刀机制、TAC-CDFT微观形变与N=77边界去普适化（checkpoint031）
+
+> checkpoint032：本节旧认证已撤回；程序通过只曾检自设输入。以下R32为本次定向原读纠正。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LV25-D20-1 | checkpoint032：旧科学认证撤回，原因：Fabricated ratio array contradicted Fig9c; imposed angle closure not measured; correlation of invented values not evidence; possible MR/shape coexistence alternatives turned into observed/exclusive facts.；当前可用陈述见下方R32原读纠正。 | withdrawn-task-certification | rejected-and-replaced | checkpoint032; LV25-D20-R32-1 | true |
+
+## checkpoint032：原件定位与科学认证纠正
+
+本次Codex self-audit，原review状态与全部已有claim flags保持；不是新增独立实验或全文阅读认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV25-D20-R32-1 | PDF11 Fig9c原D4点非旧7.8到.8严格单调数组；旧9.75倍、剪刀角/r认证均撤回。TableI同parent八组比只可在明示δ/purity下重算中央值；四条M空、I23tentative保持。PDF12/13仍possible MR与oblate-prolate coexistence两方案；TableII形变为模型而非实测塌缩。 | plot-and-interpretation-correction | direct-original-and-visual | PDF7 TableI D4; PDF11 Fig9c; PDF12 alternative paragraph; PDF13 SecIII.C; PDF15 TableII | true |
+
+
+## Day20量化审计：磁转动剪刀机制对决手征双重带、平面倾斜旋转与N=77边界去普适化（checkpoint134）
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LV25-D20-R134-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

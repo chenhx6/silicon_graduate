@@ -1,0 +1,38 @@
+{
+  "now_local": "2026-10-23T08:18:27+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 401,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 00:18:27 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "131Ce multiband high-spin spectroscopy, crossing signature splitting, and quadruple-source cross-validation audit",
+      "gap": "Quantified Band 1 signature splitting (Delta hw_c = 0.038 MeV/hbar), quadruple-source cross-validation (Alwaleedi 2013, Singh 2016, Petrache 1998, Klemme 1999), HD-to-ND collectivity leap (2.83x in Qt, 8.01x in B(E2)), and delta=0 mixing sensitivity envelope (25.0% max overestimation)",
+      "information_gain": "high",
+      "source_locators": [
+        "AW13-D20-R139-1",
+        "AW13-D20-1",
+        "SI16-D20-F01",
+        "PE98-D20-F01"
+      ]
+    },
+    {
+      "route": "134Nd coincidence-plunger lifetimes, S1 vs S2 multiband collectivity disparity, and neighboring Ce-Pr-Nd systematics audit",
+      "gap": "Quantified ground-state baseline Q0 = 4.37 eb (beta2 = 0.246), S1 vs S2 10+ crossing disparity (Qt ratio 2.15x, B(E2) factor 4.63x), neighboring ND baselines (130Ce beta2 = 0.259, 132Ce beta2 = 0.237, 131Ce tau = 173 ps), and DDCM constant-tau diagnostic (<5% std)",
+      "information_gain": "high",
+      "source_locators": [
+        "KL99-D20-R138-1",
+        "KL99-D20-R36-1",
+        "KL99-D20-R36-2"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (401.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 139 completed 131Ce multiband high-spin spectroscopy, crossing signature splitting, and quadruple-source cross-validation audit; continuing substantive Day 20 research."
+}

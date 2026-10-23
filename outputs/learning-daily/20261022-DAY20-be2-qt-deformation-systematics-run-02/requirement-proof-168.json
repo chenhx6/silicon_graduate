@@ -1,0 +1,66 @@
+{
+  "observed_at_utc": "2026-10-23T07:01:34.447949+00:00",
+  "matrix": "outputs/plans/2026-09-22-one-month-daily-task-matrix.md Day20 lines178–184",
+  "scope": "Manual audit against requested card, not omnibus claim certification",
+  "rows": [
+    {
+      "deliverable": "Recall model dependencies",
+      "status": "complete as bounded learning deliverable; formal credit pending H3",
+      "evidence": [
+        "active-recall-before-sources.md (frozen 2026-10-22T15:55:04+08)",
+        "transition-quadrupole-moment canonical definitions"
+      ]
+    },
+    {
+      "deliverable": "Primary sources",
+      "status": "complete as bounded learning deliverable; formal credit pending H3",
+      "evidence": [
+        "source-reading-scope-001.json: Petrache5 pages / Singh11 pages",
+        "PE98-D20-F01, PE98-D20-R34-2",
+        "SI16-D20-R43-1, SI16-D20-R146-1"
+      ]
+    },
+    {
+      "deliverable": "Weighted trend and cross-configuration limits",
+      "status": "complete as bounded learning deliverable; formal credit pending H3",
+      "evidence": [
+        "singh-table-ledger-001.json",
+        "literal-trend-rerun-167.json: actual replay",
+        "canonical checkpoint167 matrix and conditional-Cov caveats"
+      ]
+    },
+    {
+      "deliverable": "Counter-evidence",
+      "status": "complete as bounded learning deliverable; formal credit pending H3",
+      "evidence": [
+        "rate-geometry-result-002.json",
+        "mixing-response-result-007.json",
+        "conditional-evidence-repair-result-101.json",
+        "evidence-scope-repair-result-167.json",
+        "canonical checkpoint167: causal claims withdrawn"
+      ]
+    },
+    {
+      "deliverable": "lifetime-strength-deformation evidence map",
+      "status": "complete as bounded learning deliverable; formal credit pending H3",
+      "evidence": [
+        "report Theory/analysis exercise Mermaid graph",
+        "canonical research note/observable checkpoint167 matrix",
+        "figures-043/singh-present-qt-043.svg",
+        "figures-043/caption-043.md"
+      ]
+    }
+  ],
+  "figure_visual_inspection": "PNG actually viewed during checkpoint167; finite/limit symbols, errors, finite-range fits and caption agree with typed ledger",
+  "remaining_gates": [
+    "Final 41-page writeback and content checks",
+    "H3/content publication",
+    "Single guarded course transition",
+    "Next Day21 prompt and final H3/publication"
+  ],
+  "completed_day_indices": [],
+  "preview_only": [
+    21
+  ],
+  "actual_cutoff_snapshot": "runtime-snapshot-168-closeout.json"
+}

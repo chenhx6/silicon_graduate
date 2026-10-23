@@ -1,0 +1,40 @@
+{
+  "now_local": "2026-10-23T06:50:44+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 489.26666666666665,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 22:50:44 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Comprehensive cross-mass-region collectivity atlas and synthesis",
+      "gap": "Closed unified synthesis atlas across 9 core benchmark nuclei in A~130 and A~76, verifying intruder polarization, band crossing wave-function redistribution, chiral selection rules, multipolarity decontamination, and two-fluid charge-matter decoupling",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04",
+        "AY23-D20-1/5",
+        "HE19-D20-5",
+        "LV22-D20-R42-1/2",
+        "PE06-D20-R51-1",
+        "MU07-D20-R50-1"
+      ]
+    },
+    {
+      "route": "High-spin moments of inertia and pairing collapse dynamics",
+      "gap": "Audited J(1) vs J(2) finite-difference operators, Harris pairing quenching (J_1 -> 0), HD plateau reaching 84.65% of rigid body (55.60 hbar^2/MeV), and 15.35% deficit explained by residual pairing and effective mass (m*/m ~ 0.90)",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (489.3 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 127 completed unified cross-mass-region collectivity matrix and synthesis atlas; continuing substantive Day 20 research."
+}

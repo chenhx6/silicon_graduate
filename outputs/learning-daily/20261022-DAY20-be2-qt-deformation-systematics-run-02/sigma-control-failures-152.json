@@ -1,0 +1,17 @@
+{
+  "checkpoint": 152,
+  "observed_at_utc": "2026-10-23T03:30:17.414775+00:00",
+  "initial_failures": [
+    {
+      "kind": "dependency",
+      "detail": "First152script imported sympy, unavailable in /opt/venv; replaced by explicit Racah factorial sums, no package/environment modification."
+    },
+    {
+      "kind": "sixj-table-encoding",
+      "initial_table_formula": "{2,2,J;s,s+k-3,s+m-3}",
+      "observed_failure": "rigid_j6 Q4(4)=0 vs analytic1; NaN widths. Full initial inputs/output retained in sigma-available-controls-152-initial-table-failure.json and tmp controls.",
+      "resolution": "Actual official writer lines2245\u20132261 uses{J,2,2;s,s+k-3,s+m-3}. Corrected only generated table, not downloaded source."
+    }
+  ],
+  "boundary": "No initial result accepted as science or experiment; corrected run kept separately."
+}

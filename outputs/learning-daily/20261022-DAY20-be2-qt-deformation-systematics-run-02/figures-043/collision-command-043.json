@@ -1,0 +1,6 @@
+{
+  "exit": 0,
+  "stdout": "Nature Figure Rendered Collision Audit\npdf: outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.pdf\npages: 1\nvisible text boxes: 27\nstroke paths: 71\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+  "stderr": "",
+  "observed_at_utc": "2026-10-22T14:16:30.816521+00:00"
+}

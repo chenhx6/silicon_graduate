@@ -134,3 +134,27 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | A13-D19-1 | Ayangeakaa 2013 在 $^{133}\text{Ce}$ 报告的两对候选手征双重带呈现显著的组态与动力学分化：正宇称对（Bands 2-3，能级差 $\Delta E \sim 100\text{ keV}$）在 TPRM 中必须人为引入科里奥利衰减因子 $\xi = 0.7$，以压制低-$j$ $g_{7/2}$ 轨道的混合；而负宇称对（Bands 5-6，能级差 $\Delta E \approx 400\text{ keV}$，达正宇称对的 4 倍）在全耦合（$\xi = 1.0$）下被解释为手征振动模式（0-声子与 1-声子）。定量审计表明，由于实验未测定两对带的激发态寿命，仅凭相对 $\gamma$ 射线强度推导的 $B(M1)/B(E2)$ 比值无法解耦三轴形变 $\gamma$ 与现象学衰减 $\xi$ 的连续简并山谷（在 $\gamma = 17.5^\circ$ 处对应 $\xi \approx 0.53\text{--}0.70$）；缺少绝对 $B(E2)$ 跃迁几率使 $400\text{ keV}$ 的大能隙振动态无法严格排除非手征单粒子激发机制。实验寿命测量是闭合 M$\chi$D 证据链不可替代的核心判据。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRL 110, 172504 pp.3-5; Figs.2-3; signature-splitting-coriolis-result-039.json | true |
+## Day20量化审计：MchiD三轴形状共存模型依赖、Coriolis衰减与电磁解卷积（checkpoint028）
+
+> checkpoint032：本节旧认证已撤回；程序通过只曾检自设输入。以下R32为本次定向原读纠正。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D20-1 | checkpoint032：旧科学认证撤回，原因：No solved Hamiltonian/barrier/action or parameter refit; invented q/Q0 and xi/beta proportionalities; WKB trend inverted; unsupported model-independent full-closure hierarchy.；当前可用陈述见下方R32原读纠正。 | withdrawn-task-certification | rejected-and-replaced | checkpoint032; A13-D20-R32-1 | true |
+
+## checkpoint032：原件定位与科学认证纠正
+
+本次Codex self-audit，原review状态与全部已有claim flags保持；不是新增独立实验或全文阅读认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A13-D20-R32-1 | 本地canonical是8页作者稿；PDF4寿命段明确这些带未测寿命，PDF5 TableI的β/γ为RMF，PDF6使用ξ=.7解释正宇称对低j混合。旧56.8%势垒、q比例反演、ξ/β响应及无模型依赖闭环均无此处原文推导，撤回。原A13-1..13人工review不扩展到本新增self-audit。 | source-reading-and-model-boundary | direct-original-and-correction | local author PDF4 lifetime paragraph; PDF5 TableI; PDF6 Coriolis paragraph | true |
+
+
+## Day20量化审计：MchiD多重手征双带势垒比、寿命缺口与伪简并判据审计（checkpoint137）
+
+> checkpoint146：本节科学认证撤回。旧文本与指纹保存在history-before-repair-146.json。先前原件纠错与原review/flags保留；passed不认证实际实验/结构结论。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D20-R137-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

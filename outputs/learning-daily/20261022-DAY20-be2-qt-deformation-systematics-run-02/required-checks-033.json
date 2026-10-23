@@ -1,0 +1,319 @@
+{
+  "observed_at_utc": "2026-10-22T12:54:49.163258+00:00",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md"
+    ],
+    "changed_paths": [
+      "knowledge/observables/transition-quadrupole-moment.md",
+      "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "knowledge/synthesis/high-spin-lifetime-strength-deformation.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      20,
+      21
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 20,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true
+  },
+  "raw_used": {
+    "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf": true,
+    "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf": true,
+    "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf": true,
+    "raw/papers/1998_Petrache et al_Lifetime measurements of highly deformed bands in 1 3 4 , 1 3 5 Nd and 131 Ce.pdf": true,
+    "raw/papers/1999_Klemme et al_Lifetimes measurements for 134 Nd and neighboring nuclei with the.pdf": true
+  },
+  "all_raw_previous_gate": "required-checks-032.json:661 unchanged; not a new all-raw033 rescan",
+  "legacy_results_before_guard": {
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/orthogonal-method-cross-validation-result-017.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/tdpad-static-moment-cross-link-result-018.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/beta4-radius-convention-result-019.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/moments-of-inertia-pairing-collapse-result-020.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/moments-of-inertia-harris-quenched-result-025.json": true
+  },
+  "guard_execution": {
+    "system/scripts/day20_orthogonal_method_cross_validation_audit.py": {
+      "exit": 1,
+      "retired_message": true
+    },
+    "system/scripts/day20_tdpad_static_moment_cross_link_audit.py": {
+      "exit": 1,
+      "retired_message": true
+    },
+    "system/scripts/day20_beta4_radius_convention_audit.py": {
+      "exit": 1,
+      "retired_message": true
+    },
+    "system/scripts/day20_moments_of_inertia_pairing_collapse_audit.py": {
+      "exit": 1,
+      "retired_message": true
+    },
+    "system/scripts/day20_moments_of_inertia_harris_quenched_audit.py": {
+      "exit": 1,
+      "retired_message": true
+    }
+  },
+  "review_fields_and_claim_flags": {
+    "knowledge/observables/transition-quadrupole-moment.md": true,
+    "knowledge/projects/131ce-collective-mode-discrimination.md": true,
+    "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md": true,
+    "knowledge/sources/alwaleedi-2013-band-structures-131ce.md": true,
+    "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md": true,
+    "knowledge/sources/babra-2019-deformation-change-136sm.md": true,
+    "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md": true,
+    "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md": true,
+    "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md": true,
+    "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md": true,
+    "knowledge/sources/li-2004-lifetimes-131ce.md": true,
+    "knowledge/sources/lv-2022-transverse-wobbling-136nd.md": true,
+    "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md": true,
+    "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md": true,
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md": true,
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": true,
+    "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md": true,
+    "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md": true,
+    "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md": true,
+    "knowledge/sources/singh-2016-lifetime-131ce-133pr.md": true,
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md": true
+  },
+  "H3": "not run; final publication pending",
+  "science_status": "partial; no experimental CI/precision or whole-card certification",
+  "legacy_results_after_guard": {
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/orthogonal-method-cross-validation-result-017.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/tdpad-static-moment-cross-link-result-018.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/beta4-radius-convention-result-019.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/moments-of-inertia-pairing-collapse-result-020.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/moments-of-inertia-harris-quenched-result-025.json": true
+  },
+  "diff_check": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "same_session": true,
+  "supervisors": "    PID     ELAPSED COMMAND\n  42019  6-11:26:44 /opt/venv/bin/python3 /workspace/wiki/system/scripts/wiki_farmer.py watch --root /workspace/wiki --codex-home /root/.codex --poll 2.0\n 603330    04:58:04 python3 system/scripts/run_learning_session_clock.py --root /workspace/wiki --receipt outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/run.json --thread 01a16297-c78b-7083-899c-e3a0ac846a67\n",
+  "lint": {
+    "artifact": "lint-033.json",
+    "exit": 0,
+    "pages": 689,
+    "counts": {
+      "warning": 251,
+      "info": 3890
+    }
+  },
+  "boundary": {
+    "schema_version": 1,
+    "root": "/workspace/wiki",
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "checks": {
+      "required_dirs": {
+        "expected": [
+          "raw",
+          "knowledge",
+          "outputs",
+          "system",
+          "tools",
+          "tmp"
+        ],
+        "missing": []
+      },
+      "forbidden_dirs": {
+        "expected_absent": [
+          "docs/plans"
+        ],
+        "present": []
+      },
+      "moved_knowledge": {
+        "outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md": {
+          "old_exists": false,
+          "canonical": "knowledge/projects/a130-thesis-evidence-matrix.md",
+          "canonical_exists": true
+        }
+      },
+      "outputs": {
+        "allowed_roots": [
+          "degree-dissertation",
+          "high-spin",
+          "l3",
+          "l4",
+          "learning-daily",
+          "learning-milestones",
+          "learning-weekly",
+          "literature-acquisition",
+          "paper-cards",
+          "plans",
+          "self-tests"
+        ],
+        "unknown_roots": [],
+        "knowledge_page_types_in_outputs": []
+      },
+      "qmd": {
+        "checked": true,
+        "available": true,
+        "command": [
+          "/opt/qmd/bin/qmd",
+          "collection",
+          "show",
+          "nuclear-knowledge"
+        ],
+        "exit": 0,
+        "path": "/workspace/wiki/knowledge",
+        "pattern": "**/*.md"
+      }
+    }
+  },
+  "preflight": {
+    "schema_version": 1,
+    "ok": true,
+    "root": "/workspace/wiki",
+    "expected_profile": "",
+    "actual_profile": null,
+    "warnings": [],
+    "write_probes": [
+      {
+        "path": "/workspace/wiki",
+        "created": true,
+        "read_back": true,
+        "deleted": true,
+        "error": null
+      },
+      {
+        "path": "/workspace/wiki/.git",
+        "created": true,
+        "read_back": true,
+        "deleted": true,
+        "error": null
+      }
+    ],
+    "error": null,
+    "path_boundary": {
+      "schema_version": 1,
+      "root": "/workspace/wiki",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "checks": {
+        "required_dirs": {
+          "expected": [
+            "raw",
+            "knowledge",
+            "outputs",
+            "system",
+            "tools",
+            "tmp"
+          ],
+          "missing": []
+        },
+        "forbidden_dirs": {
+          "expected_absent": [
+            "docs/plans"
+          ],
+          "present": []
+        },
+        "moved_knowledge": {
+          "outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md": {
+            "old_exists": false,
+            "canonical": "knowledge/projects/a130-thesis-evidence-matrix.md",
+            "canonical_exists": true
+          }
+        },
+        "outputs": {
+          "allowed_roots": [
+            "degree-dissertation",
+            "high-spin",
+            "l3",
+            "l4",
+            "learning-daily",
+            "learning-milestones",
+            "learning-weekly",
+            "literature-acquisition",
+            "paper-cards",
+            "plans",
+            "self-tests"
+          ],
+          "unknown_roots": [],
+          "knowledge_page_types_in_outputs": []
+        },
+        "qmd": {
+          "checked": true,
+          "available": true,
+          "command": [
+            "/opt/qmd/bin/qmd",
+            "collection",
+            "show",
+            "nuclear-knowledge"
+          ],
+          "exit": 0,
+          "path": "/workspace/wiki/knowledge",
+          "pattern": "**/*.md"
+        }
+      }
+    },
+    "config_default": null,
+    "protected_bib": {
+      "path": "/workspace/wiki/raw/zotero/wiki-inbox.bib",
+      "baseline_sha256": "037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE",
+      "actual_sha256": "037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE",
+      "status": "matched"
+    },
+    "exit_code": 0
+  }
+}

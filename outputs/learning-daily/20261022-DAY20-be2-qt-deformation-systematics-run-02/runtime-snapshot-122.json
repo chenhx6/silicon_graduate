@@ -1,0 +1,39 @@
+{
+  "now_local": "2026-10-23T06:23:52+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 516.1333333333333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 22:23:52 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Cross-mass-region collectivity synthesis and deformation mapping",
+      "gap": "Consolidated A~130 Ce/Nd/Sm transition quadrupole moments with 76Ge/76Se rotational invariants into unified 7-layer hierarchy; verified covariance envelope ratio 5.971",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-1/5",
+        "HE19-D20-5",
+        "PO20-D20-4/6",
+        "SI16-D20-F03",
+        "PE98-D20-F01"
+      ]
+    },
+    {
+      "route": "Proton-neutron quadrupole coherence and charge-matter decoupling",
+      "gap": "Established 2-fluid tensor algebra, charge-matter decoupling theorem (Delta cos 3 delta ~ 0.20 in 76Ge) and Bernstein Mn/Mp enhancement (+9.1%)",
+      "information_gain": "high",
+      "source_locators": [
+        "HE20-D20-5",
+        "PO20-D20-3",
+        "AY23-D20-1/5"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (516.1 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 122 completed charge-matter decoupling and Bernstein systematics; continuing substantive Day 20 research."
+}

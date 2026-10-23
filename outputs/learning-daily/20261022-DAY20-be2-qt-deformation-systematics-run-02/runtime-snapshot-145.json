@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T09:25:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 335,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 01:25:00 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Multimodal discrimination and quadrupole deformation map in 131Ce: cross-model electromagnetic hierarchy, isomer static moments vs rotational transition quadrupoles, and 5-hypothesis evidence boundary audit",
+      "gap": "Quantified analytical reconciliation between TDPAD 9/2- isomer static quadrupole moment |Q_s| = 1.34 eb and DSAM normal-deformed yrast transition moment Q_t = 2.58 eb via axial rotor projection Q_s = (6/11)*Q_t = 1.4073 eb (Z = 0.320 sigma), 4-level electromagnetic ladder spanning 29.68x B(E2)-equivalent jump to HD band (Q_0 = 7.30 eb), and systematic evaluation of 5 competing collective mode hypotheses",
+      "information_gain": "high",
+      "source_locators": [
+        "IB98-D20-R145-1",
+        "PJ131-D20-R145-1"
+      ]
+    },
+    {
+      "route": "Coulomb excitation matrix elements, model-space doorway invariants, and rigid vs soft triaxiality discrimination audit in A~76 and A~130",
+      "gap": "Quantified Ayangeakaa 2023 Table III 81 reduced matrix elements, core <0_1+||E2||2_1+> = 0.526 eb and <2_1+||E2||2_1+> = -0.240 eb (Q_s = -0.1819 eb, GTRM gamma = 25.4 deg), Poves 2020 CI doorway method 76Ge effective gamma = 28 deg with 18.0 deg 1-sigma spread matching flat Wilets-Jean limit (17.32 deg), Ayangeakaa p. 12 concession of Ref. 60 equivalent mathematical invariants, and unified cross-mass-region triaxial softness taxonomy",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-R144-1",
+        "PO20-D20-R144-1"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (335.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 145 completed 131Ce multimodal ladder, static vs rotational quadrupole reconciliation, and 5-hypothesis ranking; continuing substantive Day 20 research."
+}

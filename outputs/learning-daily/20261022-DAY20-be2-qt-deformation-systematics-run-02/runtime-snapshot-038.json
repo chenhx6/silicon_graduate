@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T21:26:52.937874+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1053.1177020999999,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:20:45 UTC",
+  "time_source": "aware system clock; preceding tool reading separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "008/011 cross-band attribution and B-unit propagation",
+      "information_gain": "high",
+      "gap": "old numbers/quotients interpreted as deformation and universal collectivity"
+    },
+    {
+      "route": "012/021/022 multipolarity/controversy precision",
+      "information_gain": "high",
+      "gap": "actual line identities, branch alternatives and universal criteria"
+    }
+  ],
+  "decision_reason": "Current Day20 original audit unsaturated; continue, no new card/closeout."
+}

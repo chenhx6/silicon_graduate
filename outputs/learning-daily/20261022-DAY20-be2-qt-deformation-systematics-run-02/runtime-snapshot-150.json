@@ -1,0 +1,44 @@
+{
+  "checkpoint": 150,
+  "now_local": "2026-10-23T10:53:27.424696+08:00",
+  "observed_at_utc": "2026-10-23T02:53:27.424696+00:00",
+  "clock_tool_observation_utc": "2026-10-23 02:52:40 UTC",
+  "time_source": "actual aware system time corroborated by current UTC clock tool; no queued prompt time used",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 246.54292173333334,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "State-specific rate and geometry ledger",
+      "information_gain": "high",
+      "evidence_gap": "Original branch/ICC/response/jointCov and precise K/producer are not identified; do not replace single-state values by an average",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "IB98-D20-R146-1",
+        "LI04-D20-R146-1"
+      ],
+      "next_action": "Retain literal finite/limit identity; compare only matched state and declared geometry."
+    },
+    {
+      "route": "Source-specific invariant conventions, endpoint and coupling completeness",
+      "information_gain": "high",
+      "evidence_gap": "Finite six moments do not universally identify a distribution; actual GOSIA/invariant implementation and correlations remain unobserved.",
+      "source_locators": [
+        "CL86-D20-5",
+        "CL86-D20-6",
+        "CL86-D20-8",
+        "HE20-D20-R149-1",
+        "AY23-D20-R147-2"
+      ],
+      "next_action": "Bounded official GOSIA documentation/source lookup could identify an available implementation, never the actual AY23 producer without evidence. Then compare mainline rate/geometry requirements."
+    },
+    {
+      "route": "Previously opened Day21 preview",
+      "information_gain": "bounded uncredited only",
+      "evidence_gap": "No formal Day21 session/card gate",
+      "next_action": "Keep partial[20,21], completed[], next20; never open Day22."
+    }
+  ],
+  "decision_reason": "Finite moment/nonlinear convention gap clarified; public implementation/version and actual state-specific evidence questions remain. Continue original Day20 window."
+}

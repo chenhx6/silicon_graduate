@@ -1,0 +1,106 @@
+{
+  "observed_at_utc": "2026-10-23T05:24:50.005779+00:00",
+  "scope": "Seven-layer gamma-to-deformation inference ladder and canonical failure modes audit",
+  "layers": [
+    {
+      "layer": 1,
+      "name": "Detector Response & Doppler Reconstruction",
+      "input_observable": "Lab-frame Ge pulse heights and Doppler-shifted gamma lineshapes",
+      "output_quantity": "Deconvolved decay time profile and Doppler velocity profile",
+      "case_study": "133Pr non-monotonic feeding jump (1100 ps -> 1.9 ps -> 14 ps, 78.6x)",
+      "canonical_failure_mode": "Slowing-down parameterization and feeding cascade delay mimicking apparent nuclear elongation"
+    },
+    {
+      "layer": 2,
+      "name": "Coincidence Gating & Level Placement",
+      "input_observable": "Prompt gamma-gamma coincidence matrices and time-gated intensities",
+      "output_quantity": "Level scheme topology and total feeding/decay intensity balances",
+      "case_study": "135Nd chiral doublet partner bands (Mukhopadhyay 2007 Table I)",
+      "canonical_failure_mode": "Unresolved sidefeeding or missing interband branches distorting parent branching ratios"
+    },
+    {
+      "layer": 3,
+      "name": "Angular Distribution & Multipolarity Assignment",
+      "input_observable": "Directional angular distribution W(theta) and Compton linear polarization P",
+      "output_quantity": "Spin-parity J^pi and multipole mixing ratio delta(E2/M1)",
+      "case_study": "Wobbling mode controversies in 135Pr and 136Nd",
+      "canonical_failure_mode": "Assuming pure E2 when delta is unmeasured, artificially inflating extracted quadrupole strength"
+    },
+    {
+      "layer": 4,
+      "name": "Lifetime Deconvolution & Partial Transition Rates",
+      "input_observable": "Mean level lifetime tau, branching ratio p_gamma, conversion coefficient alpha",
+      "output_quantity": "Partial radiative transition rate lambda(E2) and reduced probability B(E2)",
+      "case_study": "Standard SI conversion T_gamma(E2) = 12.2519 E^5 B(E2) ps^-1",
+      "canonical_failure_mode": "Using inconsistent rate-unit conventions or conflating total level lifetime with in-band B(E2)"
+    },
+    {
+      "layer": 5,
+      "name": "Rotor Geometry & K-Projection Conversion",
+      "input_observable": "Reduced transition probability B(E2; I -> I-2)",
+      "output_quantity": "Transition quadrupole moment Qt",
+      "case_study": "131Ce Li 2004 (K=11/2) vs Singh 2016 (K=1/2) Clebsch-Gordan ratio sqrt(169/114) = 1.2176 reconciliation",
+      "canonical_failure_mode": "Mismatching K-projection quantum numbers (CG ratio sqrt(169/114) = 1.2176 producing 22% apparent step)"
+    },
+    {
+      "layer": 6,
+      "name": "Mean-Field Parameterization & Triaxial Coupling",
+      "input_observable": "Transition quadrupole moment Qt and intrinsic moment Q20",
+      "output_quantity": "Quadrupole deformation beta2 and asymmetry parameter gamma",
+      "case_study": "Singh 2016 Eq.(5) Qt = Q20 * cos(gamma + 30) / cos(30)",
+      "canonical_failure_mode": "Assuming axial prolate symmetry, which underestimates true beta2 by 32.5% at gamma=20 deg and 67.4% at gamma=30 deg"
+    },
+    {
+      "layer": 7,
+      "name": "Collective Mode Discrimination & Multi-Band Companions",
+      "input_observable": "Multi-band excitation spectra, partner-band splittings, and crossing profiles",
+      "output_quantity": "Structural interpretation (chiral vibration, wobbling, shears, or shape coexistence)",
+      "case_study": "136Nd Band 2 11x B(E2) drop and 136Sm 10.4% Qt step across crossings",
+      "canonical_failure_mode": "Misattributing quasiparticle alignment and wave-function mixing to whole-nucleus geometry collapse"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Ladder contains exactly 7 sequential inference layers",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 1 correctly identifies Doppler response and 133Pr feeding jump",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 2 correctly identifies level scheme gating and 135Nd branching compensation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 3 correctly identifies multipolarity mixing and wobbling controversy",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 4 correctly identifies partial rate conversion contract",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 5 correctly identifies K-projection Clebsch-Gordan reconciliation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 6 correctly identifies Singh Eq.(5) triaxial underestimation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layer 7 correctly identifies band-crossing mixing vs core shape collapse",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "all_checks_passed": true,
+  "conclusion": "Nuclear quadrupole deformation beta2 is an inferential construct at Layer 6; scientific validity requires satisfying the consistency contracts and controlling the failure modes of all 5 preceding layers."
+}

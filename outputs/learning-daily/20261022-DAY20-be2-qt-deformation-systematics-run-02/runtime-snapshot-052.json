@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T23:08:46.050905+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 951.2324849166667,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 15:07:22 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Synthesize Day 20 comprehensive research notes and prepare pre-closeout ledger",
+      "gap": "Pre-closeout documentation integrity check",
+      "information_gain": "high"
+    },
+    {
+      "route": "Finalize Day 20 deliverables verification and schedule monitoring",
+      "gap": "Continuous study window tracking until 15:00 next day",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Over 15 hours remain until 15:00 next day; advancing substantive study on deformation atlas and pre-closeout consolidation."
+}

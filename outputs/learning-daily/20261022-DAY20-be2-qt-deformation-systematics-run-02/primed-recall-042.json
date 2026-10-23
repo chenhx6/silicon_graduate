@@ -1,0 +1,12 @@
+{
+  "checkpoint": "042",
+  "observed_at": "2026-10-22T13:53:34.369419+00:00",
+  "priming": "Old022 inputs exposed:La−2.05/−2.60/−3.07 withchosen−.35/−.40/−.38,Xe−2.10/−.31,Nd−.48; allalreadyprimed, no newblindrecall",
+  "questions": [
+    "Which big/small roots are actuallytabulated/likelihood-constrained in originals?",
+    "Are quotedLa/Xe energy/spin/parent identities correct?",
+    "Retain specificreported counterevidence without E2>80/M1>80 universalmode threshold",
+    "Keep staticgeometry picture separate from quantum fluctuations and laboratory signatures"
+  ],
+  "status": "frozen before originalreread"
+}

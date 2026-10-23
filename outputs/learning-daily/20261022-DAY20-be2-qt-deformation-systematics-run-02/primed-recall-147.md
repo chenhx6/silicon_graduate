@@ -1,0 +1,3 @@
+# Day20 checkpoint147 — primed recall, frozen before new source inspection
+
+The previous sources appear to distinguish positive second-order sums from signed cubic sums. Missing off-diagonal paths may matter even if ground-to-2+ strength is small. Sixth-order fluctuation information requires more than a mean triaxial angle. These are recall hypotheses only; inspect actual formula conventions and convergence claims before using them. Experimental extraction, finite-network saturation and a complete selected CI space are three different scopes. No experimental covariance or new confidence interval is available.

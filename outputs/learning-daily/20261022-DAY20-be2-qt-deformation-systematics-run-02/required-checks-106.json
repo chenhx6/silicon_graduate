@@ -1,0 +1,30 @@
+{
+  "checkpoint": "106",
+  "observed_at": "2026-10-23T04:16:03.390312+08:00",
+  "scientific_certification": false,
+  "all_required_final_checks_passed": false,
+  "checks": {
+    "writeback_valid": true,
+    "knowledge_paths": 30,
+    "report_headings": 10,
+    "diff_check_exit": 0,
+    "IB98_old17_flags_preserved": true,
+    "source106_raw_staging_sha256": "5b08557f5fd79724547485c93fd729ecce97540cd9a2b5b45df40abc1734ce08",
+    "lint105": {
+      "exit": 1,
+      "errors": 2,
+      "reason": "Vianden missing Summary and Extracted Pages; both added"
+    },
+    "lint106": {
+      "exit": 0,
+      "errors": 0,
+      "warnings": 255,
+      "info": 3948,
+      "evidence": "tmp/day20-dafni106/lint106.txt"
+    },
+    "native_goal": "active observed get_goal",
+    "H3": "not run",
+    "credit": "unchanged",
+    "raw_PLAN_Bib": "not modified"
+  }
+}

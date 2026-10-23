@@ -1,0 +1,68 @@
+{
+  "observed_at_utc": "2026-10-23T05:12:29.573995+00:00",
+  "scope": "76Ge Coulomb excitation invariant loop cancellation and sensitivity amplification",
+  "matrix_elements": {
+    "m_01_21_eb": 0.526,
+    "m_01_22_eb": 0.089,
+    "m_21_22_eb": 0.58,
+    "qs_21_eb": -0.24,
+    "m_21_21_eb": -0.3166506184233564
+  },
+  "loop_decomposition": {
+    "diagonal_reorientation_eb3": -0.08760962650290056,
+    "interband_cross_total_eb3": 0.054304240000000004,
+    "net_two_state_sum_eb3": -0.03330538650290056,
+    "cancellation_fraction_pct": 61.984329996204366,
+    "sensitivity_amplification_factor": 2.63049421435991
+  },
+  "truncation_angle_evolution": {
+    "n1_two_state_angle_deg": 22.5193742849858,
+    "n2_two_state_angle_deg": 28.498511154237715,
+    "n3_two_state_angle_deg": 28.024611939512962,
+    "shift_n1_to_n2_deg": 5.979136869251914
+  },
+  "checks": [
+    {
+      "name": "Diagonal reorientation loop is negative (T_diag < 0)",
+      "passed": true,
+      "details": "T_diag=-0.08761 eb^3"
+    },
+    {
+      "name": "Interband cross loops are positive (T_cross > 0)",
+      "passed": true,
+      "details": "T_cross=0.05430 eb^3"
+    },
+    {
+      "name": "Interband loops cancel > 60% of diagonal reorientation term",
+      "passed": true,
+      "details": "Cancellation=61.98%"
+    },
+    {
+      "name": "Sensitivity amplification factor on net invariant is ~ 2.63x",
+      "passed": true,
+      "details": "Amplification=2.630x"
+    },
+    {
+      "name": "n=1 effective angle is ~ 22.52 deg",
+      "passed": true,
+      "details": "delta_n1=22.519"
+    },
+    {
+      "name": "n=2 effective angle is ~ 28.50 deg",
+      "passed": true,
+      "details": "delta_n2=28.499"
+    },
+    {
+      "name": "Cross-loop inclusion produces a +5.98 deg angle shift",
+      "passed": true,
+      "details": "shift=5.979 deg"
+    },
+    {
+      "name": "n=3 effective angle converges to ~ 28.02 deg",
+      "passed": true,
+      "details": "delta_n3=28.025"
+    }
+  ],
+  "all_checks_passed": true,
+  "conclusion": "In triaxial nuclei like 76Ge, the third-order invariant P3 is a delicate difference between large opposite-sign diagonal (-0.088 eb^3) and cross (+0.054 eb^3) loops canceling by 61.9%; this amplifies sensitivity to Qs(2_1^+) by 2.63x and shifts the apparent angle by ~6 deg between n=1 and n=2."
+}

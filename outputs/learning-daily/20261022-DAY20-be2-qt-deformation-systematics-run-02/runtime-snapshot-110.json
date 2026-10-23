@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T04:56:19.689188+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 603.6718468666667,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 20:56:18 UTC",
+  "time_source": "actual UTC tool plus aware local timestamp",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Original quadrupoleinvariant andphase requirements",
+      "gap": "Old037 declaredclosure was not Kumar/Cline originalread; need actualnormalizations, completeness,sign/phase andfluctuation assumptions beforeusinggamma invariants",
+      "information_gain": "high",
+      "source_locators": [
+        "currentDay20shape/Qt matrix",
+        "metadataofKumar1972/Cline1986toverifyafterprimedfreeze"
+      ]
+    },
+    {
+      "route": "Current shape mapping andexperimentalreadiness",
+      "gap": "110 exactmodels do not provideactualbeta4/authorr0 or originalCov; maintain paper-versus-model boundary",
+      "information_gain": "high",
+      "source_locators": [
+        "SI16-D20-F05/R110-1",
+        "PE98-D20-F03/R47"
+      ]
+    },
+    {
+      "route": "Day21 existinguncreditedpreview",
+      "gap": "RemainDay20,noDay22orcredit21",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "110declaredsurfacecharge model complete, no actualPetrachealgorithm identified. Morethan120min remain; inspect originalquadrupole invariant/phase requirements as nextDay20highvalue source route."
+}

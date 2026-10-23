@@ -1,0 +1,12 @@
+{
+  "checkpoint": 168,
+  "observed_at_utc": "2026-10-23T07:01:34.447949+00:00",
+  "now_local": "2026-10-23T15:01:34.447949+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": -1.5741324833333332,
+  "decision": "closeout-only",
+  "day_index": 20,
+  "research_stopped": true,
+  "time_source": "actual UTC clock corroborated aware system datetime",
+  "next": "Final content checks and explicit H3; guarded single credit afterwards"
+}

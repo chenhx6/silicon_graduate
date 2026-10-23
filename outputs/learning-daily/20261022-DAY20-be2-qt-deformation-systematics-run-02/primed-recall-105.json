@@ -1,0 +1,17 @@
+{
+  "checkpoint": "105",
+  "frozen_at": "2026-10-23T03:56:55.311528+08:00",
+  "kind": "primed recall before calibration-primary lookup",
+  "prior_exposure": [
+    "IB98 full original just read104",
+    "existing user and earlier source summaries"
+  ],
+  "expectations_to_check": [
+    "Ref14 R.Vianden HyperfineInteractions35(1987)1079 supplies CeSn room-temperature EFG calibration; exact title/DOI/body not yet known",
+    "Ref13 H.J.Barth G.Netz K.Nishiyama D.Riegel PRL45(1980)1015 underlies Ce/Pb local susceptibility1.40(2)",
+    "common calibration cancellation may leave frequency/relaxation/damage/model systematics; actualjointCov not published in currentIB98",
+    "Ref24 external129CeQt must keep different source/state identity"
+  ],
+  "not_blind": true,
+  "next": "metadata lookup then lawful accessible body only; do not treat metadata as reading"
+}

@@ -4,6 +4,8 @@
 This is a conditional sensitivity design. It does not refit line shapes, recover
 covariances, or convert an unquoted stopping/feeding systematic into a CI.
 """
+
+raise SystemExit("Retired by Day20 source audit001: do not regenerate historical certification; use day20_literal_trend_audit.py and current canonical source boundaries.")
 import hashlib,json,math,re
 from pathlib import Path
 import numpy as np

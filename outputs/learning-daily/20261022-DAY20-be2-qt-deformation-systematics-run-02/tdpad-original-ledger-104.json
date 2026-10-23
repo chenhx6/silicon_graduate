@@ -1,0 +1,104 @@
+{
+  "checkpoint": "104",
+  "kind": "actual original-source literal ledger and selected conditional arithmetic",
+  "experimental_ci_reconstructed": false,
+  "source_claims": [
+    "IB98-D20-R104-1",
+    "IB98-D20-R104-2",
+    "IB98-D20-R104-3",
+    "IB98-D20-R104-4",
+    "IB98-D20-R104-5",
+    "IB98-D20-R104-6",
+    "IB98-D20-R104-7",
+    "IB98-D20-R104-8"
+  ],
+  "coupling_MHz": {
+    "129": [
+      52.6,
+      1.4
+    ],
+    "131": [
+      36.4,
+      1.6
+    ]
+  },
+  "literal_abs_Q_eb": {
+    "129": [
+      1.32,
+      0.13
+    ],
+    "131": [
+      0.92,
+      0.1
+    ]
+  },
+  "literal_g": {
+    "129": [
+      -0.185,
+      0.01
+    ],
+    "131": [
+      -0.189,
+      0.007
+    ]
+  },
+  "half_life_ns": {
+    "129": [
+      60,
+      2
+    ],
+    "131": [
+      88,
+      2
+    ]
+  },
+  "conditional_arithmetic": {
+    "mean_life_from_half_ns": {
+      "129": 86.5617024533378,
+      "131": 126.95716359822879
+    },
+    "T0_from_same_coupling_ns": {
+      "129": 456.2737642585551,
+      "131": 659.3406593406594
+    },
+    "coupling_central_ratio": 1.4450549450549453,
+    "independent_frequency_linearized_ratio_SE_control": 0.07425591175672716,
+    "boundary": "same inferred coupling identities and a declared independent-error linearization, not new observed periods/Cov/CI"
+  },
+  "model_Table1": [
+    {
+      "A": 131,
+      "xi": 0.7,
+      "Ecore2_keV": 250,
+      "epsilon2": 0.14,
+      "epsilon4": 0,
+      "gamma_deg": 23,
+      "gcalc": -0.23,
+      "Qcalc_eb": 0.91
+    },
+    {
+      "A": 131,
+      "xi": 1,
+      "Ecore2_keV": 250,
+      "epsilon2": 0.18,
+      "epsilon4": 0,
+      "gamma_deg": 20,
+      "gcalc": -0.23,
+      "Qcalc_eb": 0.93
+    },
+    {
+      "A": 129,
+      "xi": 1,
+      "Ecore2_keV": 130,
+      "epsilon2": 0.24,
+      "epsilon4": 0.07,
+      "gamma_deg": 12,
+      "gcalc": -0.19,
+      "Qcalc_eb": 1.34
+    }
+  ],
+  "figure4_counterevidence": "Model Q curves are finite near gamma30; no digitized values or universal cosine law inferred",
+  "raw_sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+  "original_source_flags_preserved": true,
+  "raw_unchanged": true
+}

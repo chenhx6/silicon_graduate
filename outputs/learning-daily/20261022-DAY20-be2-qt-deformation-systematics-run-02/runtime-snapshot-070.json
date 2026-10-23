@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T01:27:14+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 812.76,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 17:27:14 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "Recoil-in-vacuum hyperfine deorientation dynamics and angular bias audit",
+      "gap": "Completed in checkpoint070: proven G_k^SH > G_k^US strict inequality, sign-reversal angle bias -2.72% vs +3.97%, and 54.74 deg magic-angle rank-2 immunity",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (01:27:14 CST); 13.55 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

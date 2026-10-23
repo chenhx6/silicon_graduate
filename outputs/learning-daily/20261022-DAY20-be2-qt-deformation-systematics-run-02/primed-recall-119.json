@@ -1,0 +1,18 @@
+{
+  "checkpoint": "119",
+  "frozen_at": "2026-10-23T05:41:00.619145+08:00",
+  "source_before_lookup": "AY19-D20-1/Ref37 forthcoming2019 full76Ge103RME publication, exactidentity unknown",
+  "prior_exposure": [
+    "118acceptedGe2019body",
+    "114Povescompetingmodel",
+    "116Seonlymeandegree"
+  ],
+  "not_blind": true,
+  "body_read": false,
+  "questions": [
+    "Identify actual followup fullpublication or accessible originalmatrixdataset corresponding to2019Ref37.",
+    "Distinguish sameexperiment expandedaccount from independentrepeat; verify identity/numberofmatrixelements.",
+    "Does actualfollowup publish fullsignedRME, fitCov, highorder formula/domain/convergence or revise the rigidityclaim?"
+  ],
+  "boundary": "Do not claim nofullpublication exists afteronefailedsearch; noautomatic independentexperiment count"
+}

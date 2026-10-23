@@ -1,0 +1,32 @@
+{
+  "checkpoint": 149,
+  "observed_at_utc": "2026-10-23T02:20:56.265774+00:00",
+  "scope": "Exact scalar-algebra witness only; no reconstructed charge-coordinate model, nuclear state or experimental CI",
+  "symbolic_result": {
+    "S": "A A^T with A=(a,b)^T",
+    "C": "k*d*S, k=-sqrt(7/10)",
+    "q2": "a^2",
+    "q3": "k*d*a^2",
+    "VarS": "a^2 b^2",
+    "VarC": "k^2 d^2 a^2 b^2",
+    "CovSC": "k*d*a^2 b^2",
+    "single_scalar_endpoint_projection_variance": "0 by construction, not evidence of physical rigidity"
+  },
+  "declared_rational_example": {
+    "a": "1",
+    "b": "1/2",
+    "d": "2/5",
+    "VarS_from_matrix": "1/4",
+    "VarS_factored": "1/4",
+    "VarC_div_k_squared_from_matrix": "1/25",
+    "VarC_div_k_squared_factored": "1/25",
+    "CovSC_div_k_from_matrix": "1/10",
+    "CovSC_div_k_factored": "1/10"
+  },
+  "not_claimed": [
+    "No GOSIA implementation identified",
+    "No experimental truncation bound",
+    "No numerical gamma softness inferred",
+    "Spherical-tensor projection need not have mutually commuting components, so no unique physical coordinate realization asserted"
+  ]
+}

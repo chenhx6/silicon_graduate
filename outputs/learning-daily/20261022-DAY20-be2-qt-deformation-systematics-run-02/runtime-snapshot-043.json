@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T22:18:22.244029+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1001.6292661833334,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 14:16:30 UTC",
+  "time_source": "aware system clock after actual clock tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Original2014QTR versus frozen approximation source comparison within Day20 matrix-element/geometry counterevidence",
+      "information_gain": "high",
+      "gap": "Need distinguish analytic approximation from full quantum producer and fitted E2 inputs"
+    },
+    {
+      "route": "Nd AP/P response and shared lineage",
+      "information_gain": "high",
+      "gap": "Actualpolarimeterresponse and independentcalibration not obtained"
+    },
+    {
+      "route": "Day20 deliverable source/claim audit",
+      "information_gain": "medium",
+      "gap": "Fullmainline figure reading scope and completecard audit still not final"
+    }
+  ],
+  "decision_reason": "About16h40 remain; continue currentDay20 sources, no Day22/card21 credit or closeout."
+}

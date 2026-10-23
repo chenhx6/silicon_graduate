@@ -3,7 +3,7 @@ type: source
 title: "Transverse wobbling: A collective mode in odd-A triaxial nuclei"
 aliases: [Frauendorf and Donau 2014, transverse wobbling QTR]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-10-22
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -53,7 +53,7 @@ The paper develops the transverse/longitudinal QTR geometry and uses harmonic an
 
 ## Method and Design Logic
 
-The authors begin with a rigid triaxial rotor and order the rotational parameters as A1 > A2 > A3, so the 3-axis has the largest moment of inertia. They add a high-j quasiparticle to the rotor Hamiltonian, derive small-amplitude wobbling expressions in the frozen-alignment approximation, and distinguish simple, transverse and longitudinal coupling by the orientation of the particle angular momentum. Full QTR calculations then relax the harmonic approximation and compare band energies, wobbling energies and electromagnetic transition strengths with reported data.
+The authors begin with a rigid triaxial rotor and order the rotational parameters as A1 > A2 > A3, so the 3-axis has the largest moment of inertia. They add a high-j quasiparticle to the rotor Hamiltonian, derive small-amplitude wobbling expressions in the frozen-alignment approximation, and distinguish simple, transverse and longitudinal coupling by the orientation of the particle angular momentum. Full QTR calculations relax the harmonic and rigid particle-alignment assumptions; the model core remains a rigid triaxial rotor. Energies and strength comparisons retain the fitted parameters and the provenance of the experimental inputs.
 
 ## Key Results
 
@@ -67,7 +67,7 @@ The authors begin with a rigid triaxial rotor and order the rotational parameter
 | F14-6 | QTR and harmonic-fluctuation calculations for `163Lu` use aligned i13/2-proton configurations and parameter sets listed by the authors; calculated energies and transition strengths are compared with previously reported TSD bands. | model-result / review-background | direct | PDF pp. 6-9, Table I and Figs. 12-15 | true |
 | F14-7 | For `163Lu`, the calculated one- and two-phonon excitation energies follow the reported decreasing wobbling-energy trend qualitatively, but the QTR parameter choice and the full spin dependence remain model dependent. | model-result / limitation | direct | PDF pp. 8-10, Figs. 13 and 15 | true |
 | F14-8 | For `135Pr`, the QTR calculation gives a transverse-wobbling-like low-spin branch and a minimum/instability near I = 29/2, associated in the calculation with a change in the orientation of the h11/2 proton angular momentum. | model-result / author-interpretation | direct | PDF pp. 9-11, Figs. 14 and 16 and text on the critical spin | true |
-| F14-9 | The paper reports that the calculated `135Pr` B(M1) values are larger than the small measured values, indicating that the frozen-alignment QTR description omits relevant core-quasiparticle or configuration effects. | model-result / limitation | direct | PDF p. 11, Fig. 19 and surrounding discussion | true |
+| F14-9 | Fig19为163Lu的绝对B(M1)比较，QTR/HFA高于所引实验；135Pr则是TableII发表前tentative rM1=B(M1)con/B(E2)in与QTR的比较，不是本文新测绝对B(M1)或寿命。PDF10明确完整QTR耦合非刚性，区别于HFA固定j；旧“135Pr Fig19绝对B(M1)/frozen-QTR”混写已纠正。 | model-result-and-input-identity | direct-original-and-correction | PDF9 Fig19/TableII; PDF10 firstcolumn/rightcolumn; PDF12 Ref26 | true |
 | F14-10 | For `163Lu`, an interband B(E2) ratio near 0.5 +/- 0.15 for the two-phonon-to-one-phonon transition is described as roughly twice the one-phonon scale, while the QTR value is smaller; the comparison supports but does not uniquely prove the phonon assignment. | review-background / model-result / author-interpretation | direct | PDF pp. 10-11, Figs. 17-18 and two-phonon discussion | true |
 | F14-11 | The fitted moments of inertia used for the QTR examples do not simply coincide with irrotational-flow or three-dimensional-cranking values; the inferred geometry is therefore conditional on the adopted parameterization. | model-result / limitation | direct | PDF pp. 6-8 and 11-12, Table I and summary discussion | true |
 | F14-12 | The authors interpret the decreasing wobbling energy and enhanced interband E2 strength in selected odd-A bands as signatures of transverse wobbling, while retaining the QTR/HFA assumptions and the need for additional observables as qualifications. | author-interpretation | direct | PDF pp. 1, 9-12, Abstract and Conclusions | true |
@@ -80,13 +80,13 @@ The paper builds a bridge from angular-momentum geometry to observables in three
 
 - Frozen alignment and harmonic small-amplitude formulas are approximations; QTR parameter choices remain model dependent.
 - A decreasing energy trend and enhanced E2 are conditional criteria and must be checked against signature-partner, TiP and configuration-mixing alternatives.
-- The `135Pr` B(M1) mismatch is an explicit limitation of the simplified calculation.
+- The absolute B(M1) comparison in Fig.19 is for `163Lu`; the `135Pr` mismatch concerns tentative prepublication B(M1)con/B(E2)in ratios in Table II. Both motivate the authors’ discussion of missing couplings, without adding an absolute lifetime measurement.
 
 ## Assumptions, Limits and Reverse Tests
 
 - The harmonic formulas use rigid alignment and small oscillations; a full QTR calculation is needed near a separatrix or a reorientation point.
 - The fitted moments of inertia, deformation and quasiparticle configuration are not unique experimental observables. A reverse test is to vary them or use microscopic cranking inputs and check whether the energy trend survives.
-- Small measured B(M1) values in `135Pr` are not reproduced quantitatively by the simplified calculation. Core-particle coupling, triaxial softness and configuration mixing should be tested before treating the discrepancy as evidence against wobbling.
+- Tentative `135Pr` relative M1/E2 strengths, and the `163Lu` absolute M1 strengths, are not quantitatively reproduced by the selected QTR calculation. Core-particle coupling, triaxial softness and configuration mixing should be tested before treating the discrepancy as evidence against wobbling.
 - Decreasing wobbling energy and strong E2 links are useful criteria only in combination with level assignments, parity/signature information and competing tilted-precession or signature-partner calculations.
 
 ## Related Knowledge and Project Relation
@@ -121,3 +121,41 @@ P1:
 ## Review Status
 
 Page and all F14 claims remain unreviewed with `needs_review: true`. Human review is deferred until use: perform targeted claim review when this content is used for paper writing, a key project decision, synthesis finalization or a paper-level evidence pool.
+
+
+## Day20 checkpoint044：完整QTR与HFA、归一与谱系
+
+本session先冻结primed回忆，再读12页原件全部正文/附录/参考文献；视觉核PDF4/6/7/8/9/11的TableI/II、Eqs11–25及A1–A4、Figs12–19等相关内容，不声称每个经典轨道图均本轮新视觉审完。原source review与全部原claim flags保持，新claim为self-audit/needs_review，不是human-reviewed。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F14-D20-R44-1 | HFA在Eq11将j视为数并用小振幅展开；Eq23近不稳定处失效。完整QTR用CQM/KKDF对角化Eq25，PDF8明确HFA预言的两带合并不出现在该完整计算，粒子转向medium；PDF10明确其耦合非刚性。不能将对HFA的frozen限制认作已核完整QTR全spin固定j。core仍假设rigid triaxial，忽略spin依赖的平均形变/MoI不等同冻结粒子角动量。 | model-implementation-scope | direct-original | PDF6 Eqs11–15/Eq23; PDF7 SecIVA/Eq25; PDF8 SecIVB; PDF10 rightcolumn | true |
+| F14-D20-R44-2 | TableI的Pr ε=.16、γ26°；fit Jm/Js/Jl=21/13/4，hydro20/6/4，crank17/7/3。形变来自micro-macro minima，fit MoI由band energies调整，其余两组MoI比例来自模型而总scale也调n0能量。TableII绝对B列均cal，exp列为Matta发表前tentative ratios；不是新增绝对B/寿命或独立实验。假定j=11/2时HFA的Jc分别14.4375/7.85714/9.35，J=√I(I+1)不等I；非实际fullQTR minimum或普适29/2阈值。 | model-input-and-derived-boundary | direct-and-declared-mathematics | PDF4 TableI; PDF6 Eq24; PDF7 SecIVA; PDF9 TableII; PDF12 Ref26 | true |
+| F14-D20-R44-3 | Eq16/17在同时放大Q0/Q2而固定几何/波函数时，两个E2强度同乘c²、out/in比不变。声明自由κ合同下Q→cQ、κ→κ/c保持Eq25耦合项，是代数反例，不是原作者参数可任意自由变化或原producer复现。TableII2014暂定Pr rM1(.130/.021/.010)与2015最终(.164/.035/<.016)及rE2(.92/.535/.28)与(.843/.500/>.261)不同，不混表或按独立重复合并。 | operator-scale-and-lineage | direct-and-declared-mathematics | PDF6 Eqs16–18; PDF7 Eq25; PDF9 TableII; PDF12 Ref26; Matta2015 PDF4 TableI | true |
+| F14-D20-R44-4 | literal差异保留：PDF8正文印Js/Jm=2.34，而TableI Lu hydro Jm68/Js29给Jm/Js≈2.3448；PDF11附录将Qbar0与Qbar2均写含cosγ，包括EqA2。未得erratum/实际producer，不静默改成sinγ，不由正文阅读宣称公式到代码全部闭合。Fig19绝对M1属于Lu；Pr这里只比较暂定ratio。 | literal-ambiguity-and-attribution | direct-original-visual | PDF4 TableI; PDF8 SecIVB; PDF9 Fig19; PDF10; PDF11 Appendix | true |
+
+2014暂定数据来自Ref26的private communication，2015最终表为同研究谱系的后续公开数值；实际逐event/拟合版本未得，不给两表差异显著性。作者从短轴向中轴的解释与Matta2015的明确表述相容，但不是实验直接测得的逐态角动量轨迹。原方程的literal保留不代表已判定官方排印错误。
+
+
+### checkpoint045：arXiv预印本文本一致性核查
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F14-D20-R45-1 | 对arXiv:1310.1669v2预印本全文的比对确认：预印本Appendix A式(A2)与(A4)同样保留包含cos(gamma)的字面印刷形式，正文亦保留Js/Jm=2.34字面。这证实相关符号表述是作者稿件的一贯形式，而非期刊排版单方引入；在未获得作者勘误或原始计算程序前，继续保留字面异读，不主观定性为排印错误。 | preprint-text-comparison | direct-original-comparison | arXiv:1310.1669v2 Appendix A; PDF8 Sec. IVB | true |
+
+
+### checkpoint141：横向与纵向摆动模式理论几何分歧、临界自旋分岔与三级判据审计
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F14-D20-R141-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F14-D20-R146-1 | HFA的Jc=14.4375绑定固定fit惯量与假定j，J=√I(I+1)不等I；解到I约13.946，并非实测29/2普适阈值。横向频率可先升后降，近不稳定处HFA失效，完整QTR允许粒子重定向。141的低spin简谐趋势不是所有TW/LW唯一分类器，也不能设10W.u.普适硬阈值。 | model-domain-correction | source-and-bounded-self-audit | F14-D20-R44-1/R44-2; PDF6 Eq24 | true |

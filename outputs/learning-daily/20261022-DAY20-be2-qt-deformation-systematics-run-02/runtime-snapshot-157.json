@@ -1,0 +1,39 @@
+{
+  "checkpoint": 157,
+  "observed_at_utc": "2026-10-23T04:54:29+00:00",
+  "now_local": "2026-10-23T12:54:29+08:00",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 125.5,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Singh 2016 triaxial geometric coupling Eq.(5) and inverse deformation audit",
+      "information_gain": "high, inverse problem bounds",
+      "source_locators": [
+        "SI16-D20-F05, SI16-D20-F08, singh-triaxial-degeneracy-157.json"
+      ],
+      "evidence_gap": "Exact pairwise degeneracy between gamma=+20 and -80 deg verified; deformation underestimation by +32.5% to +67.4% quantified.",
+      "next_action": "Maintain active research state within Day20 window until 15:00 hard cutoff."
+    },
+    {
+      "route": "Maintain active research within Day20 window",
+      "information_gain": "high",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "PE98-D20-R34-2",
+        "GM12-D20-10"
+      ],
+      "evidence_gap": "Research window active until 15:00 hard cutoff; no early closeout, credit, or publication.",
+      "next_action": "Continue monitoring until 15:00."
+    },
+    {
+      "route": "Day21 uncredited preview already opened",
+      "information_gain": "bounded",
+      "evidence_gap": "No formal Day21 run/card credit",
+      "next_action": "Keep partial20/21; no Day22."
+    }
+  ],
+  "decision_reason": "Minutes to deadline ~125.5 > 120; Singh triaxial coupling and inverse deformation verified; continue active Day20 study until 15:00 cutoff."
+}

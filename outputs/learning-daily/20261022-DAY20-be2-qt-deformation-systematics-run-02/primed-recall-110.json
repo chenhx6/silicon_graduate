@@ -1,0 +1,19 @@
+{
+  "checkpoint": "110",
+  "frozen_at": "2026-10-23T04:45:59.391730+08:00",
+  "kind": "primed assumptions before conditional sharpcharge model and any targeted Eq4 reinspection",
+  "prior_exposure": [
+    "Singh Eq4/F05 actualread001",
+    "withdrawn047 .36/beta4coeff claims",
+    "101 r0/attribution correction"
+  ],
+  "expected_conditions": [
+    "Define surface R=cR0(1+beta2Y20+beta4Y40), normalizedcharge and explicitvolume convention",
+    "QuadrupoleQ depends radialR^5 integral; secondorder coefficients must derive fromGaunt terms, not readback expected constants",
+    "Volumeconserving surface and densityrescaling families may sharequadraticcoeffs but differhigherorder",
+    "Use r0=1.2 only asdeclaredSinghconvention; closenesstoPetrache beta=.35 cannotidentify itsactualalgorithm",
+    "No experimentalCI/actualbeta4 orK/producer inferred"
+  ],
+  "not_blind": true,
+  "course_credit": false
+}

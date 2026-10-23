@@ -1,0 +1,37 @@
+{
+  "checkpoint": "111",
+  "kind": "source-identity metadata only; no body reading yet",
+  "Kumar": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Found 3 Crossref papers.\n\n[\n  {\n    \"paper_id\": \"10.1103/physrevlett.28.249\",\n    \"title\": \"Intrinsic Quadrupole Moments and Shapes of Nuclear Ground States and Excited States\",\n    \"authors\": \"Krishna Kumar\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1103/physrevlett.28.249\",\n    \"published_date\": \"1972-01-23T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1103/physrevlett.28.249\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 244,\n    \"references\": \"\",\n    \"journal\": \"Physical Review Letters\",\n    \"volume\": \"28\",\n    \"issue\": \"4\",\n    \"pages\": \"249-253\",\n    \"year\": 1972,\n    \"extra\": \"{\\\"publisher\\\":\\\"American Physical Society (APS)\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0031-9007\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1103/physrevlett.31.478\",\n    \"title\": \"Comparison of Nuclear and Coulomb Measurements of Nuclear Shapes\",\n    \"authors\": \"D. L. Hendrie\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1103/physrevlett.31.478\",\n    \"published_date\": \"1973-08-12T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1103/physrevlett.31.478\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 116,\n    \"references\": \"\",\n    \"journal\": \"Physical Review Letters\",\n    \"volume\": \"31\",\n    \"issue\": \"7\",\n    \"pages\": \"478-481\",\n    \"year\": 1973,\n    \"extra\": \"{\\\"publisher\\\":\\\"American Physical Society (APS)\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0031-9007\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1103/physrevlett.62.2084\",\n    \"title\": \"Shell-energy ridges and valleys caused by special symmetries for triaxial nuclear shapes\",\n    \"authors\": \"Ingemar Ragnarsson\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1103/physrevlett.62.2084\",\n    \"published_date\": \"1989-04-30T15:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1103/physrevlett.62.2084\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 25,\n    \"references\": \"\",\n    \"journal\": \"Physical Review Letters\",\n    \"volume\": \"62\",\n    \"issue\": \"18\",\n    \"pages\": \"2084-2087\",\n    \"year\": 1989,\n    \"extra\": \"{\\\"publisher\\\":\\\"American Physical Society (APS)\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0031-9007\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  }\n]"
+        }
+      ]
+    }
+  },
+  "Cline": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Found 3 Crossref papers.\n\n[\n  {\n    \"paper_id\": \"10.1146/annurev.ns.36.120186.003343\",\n    \"title\": \"Nuclear Shapes Studied by Coulomb Excitation\",\n    \"authors\": \"D Cline\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1146/annurev.ns.36.120186.003343\",\n    \"published_date\": \"1986-11-30T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1146/annurev.ns.36.120186.003343\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 350,\n    \"references\": \"\",\n    \"journal\": \"Annual Review of Nuclear and Particle Science\",\n    \"volume\": \"36\",\n    \"issue\": \"1\",\n    \"pages\": \"683-716\",\n    \"year\": 1986,\n    \"extra\": \"{\\\"publisher\\\":\\\"Annual Reviews\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0163-8998\\\",\\\"1545-4134\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1051/epjconf/201817802014\",\n    \"title\": \"Nuclear shapes studied with low-energy Coulomb excitation\",\n    \"authors\": \"Magda Zielińska; Katarzyna Hadyńska-Klȩk\",\n    \"abstract\": \"Coulomb excitation is one of the rare methods available to obtain information on static electromagnetic moments of short-lived excited nuclear states, including collective non-yrast levels. It is thus an ideal tool to study shape coexistence and shape evolution throughout the nuclear chart. Historically, these experiments were limited to stable isotopes, however the advent of new facilities, providing intense beams of short-lived radioactive species, has opened the possibility to apply this powerful technique to a much wider range of nuclei. Here, we present some recent complex Coulomb-excitation studies and use the example of superdeformed states in 42Ca to demonstrate the sensitivity of the method to second-order effects such as relative signs of electromagnetic matrix elements and quadrupole moments.\",\n    \"doi\": \"10.1051/epjconf/201817802014\",\n    \"published_date\": \"2017-12-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1051/epjconf/201817802014\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 3,\n    \"references\": \"\",\n    \"journal\": \"EPJ Web of Conferences\",\n    \"volume\": \"178\",\n    \"issue\": \"\",\n    \"pages\": \"02014\",\n    \"year\": 2018,\n    \"extra\": \"{\\\"publisher\\\":\\\"EDP Sciences\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"2100-014X\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1016/0375-9474(90)90040-s\",\n    \"title\": \"Coulomb excitation of 168Er\",\n    \"authors\": \"B. Kotliński; D. Cline; A. Bäcklin; K.G. Helmer; A.E. Kavka; W.J. Kernan; E.G. Vogt; C.Y. Wu; R.M. Diamond; A.O. Macchiavelli; M.A. Deleplanque\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(90)90040-s\",\n    \"published_date\": \"1990-09-30T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(90)90040-s\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 39,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"517\",\n    \"issue\": \"2\",\n    \"pages\": \"365-385\",\n    \"year\": 1990,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  }\n]"
+        }
+      ]
+    }
+  },
+  "local_filename_query": {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "850d7e",
+      "wall_time_seconds": 0.000014223,
+      "exit_code": 0,
+      "original_token_count": 38,
+      "output": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md\nknowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md\n"
+    }
+  },
+  "boundary": "Exact sources verified by Crossref; unrelated Kumar pages found locally are not the requested primary. No source depth or science certification inferred."
+}

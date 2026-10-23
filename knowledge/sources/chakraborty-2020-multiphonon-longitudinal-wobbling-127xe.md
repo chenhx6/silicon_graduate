@@ -158,3 +158,22 @@ P0: band-4 `n_ω=2` assignment and 651-keV contamination/branch handling.
 | CH20-D18-1 | **superseded**：旧关于“小解下全线崩塌为单粒子/拓扑证明非wobbling”等断言降格，由D18-2/3分层记录。 | task-correction | superseded-interpretation | 本段D18-2/3；旧chakraborty20-127xe-wobbling-result-023 | true |
 | CH20-D18-2 | Table 1报告五条跨带连接线大混合比（delta = -2.1至-3.1）及B(E2_out)/B(E2_in) = 0.92-2.35，受到DCO与偏振不对称度asym支持，作者据此提出多声子纵向wobbling候选；小根（|delta| ~ 0.3）是未被作者采纳的替代分支，非本文测量解。 | source-result-and-selection | direct-and-boundary | PDF p.3 Table 1；Fig. 3 | true |
 | CH20-D18-3 | 在固定其余输入下，若代入小根敏感性分析，E2份额下降8.2-10.0倍；Band 4向yrast带的衰变以Delta I = 0为主，作者指出这类似于126Xe中准gamma振动与基态带的耦合，提示可能存在wobbling与gamma振动的混合。这属于结构模式讨论，不构成对两声子态存在的排他否决。 | interpretation-and-decay-topology | direct-and-derived | PDF pp.3-4；新au-xe-wobbling-boundary-result-052 | true |
+
+## Day20量化审计：483 keV小根塌缩与两声子准伽马振动拓扑反证
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立审计程序 `system/scripts/day20_chiral_wobbling_geometry_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/chiral-wobbling-geometry-result-022.json`，核准了 $^{127}\text{Xe}$ 483 keV 连接跃迁小根塌缩与 Band 4 衰变拓扑反证：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CH20-D20-1 | checkpoint042纠正483keV13/2→11/2，原DCO小δ−.29(+.03/−.04)，旧−.31是另选输入。作者P支持大模、原首行无E2out/in值；纯份额中心敏感性非分支概率/结构判决。Band4复杂退激提示作者wobbling–γ耦合可能，作者仍保留nω2，旧排他纯γ/非wobbling本质认证撤回。见R42-1/R42-2。 | task-multiphonon-and-decay-topology-audit | derived-and-boundary | PDF pp.3-5 Figs.3-6; Table 1; chiral-wobbling-geometry-result-022.json | true |
+
+## Day20 checkpoint042：逐线分支、模型轴与校准依赖
+
+本轮先冻结primed回忆，定向原读Table/图/分析与解释范围；未重新测δ或取得完整likelihood/producer。原review/flags保留，新增仅Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CH20-D20-R42-1 | 483keV为13/2−→11/2−，DCO大δ−2.1(.2)或小−.29(+.03/−.04)，作者P=.23(.13)支持大模；旧−.31为另选输入。原Table1首行未报E2out/in，纯份额中心大/小比10.5079只为条件敏感性，不认证可采小分支或CI。 | literal-line-and-published-root | original-selected-and-conditional | PDF2 Fig1; PDF3 Table1/Fig3 and text | true |
+| CH20-D20-R42-2 | Band4向1和3均有ΔI0/1/2退激；ΔI0较强且类似126Xequasiγ是作者提出wobbling–γ耦合的可能依据，原文仍保nω2并要求进一步理论。旧排他纯γ/证伪两声子认证不由该拓扑成立。 | author-competing-coupling | original-selected-and-conditional | PDF4 Fig6 and discussion/conclusion | true |

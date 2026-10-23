@@ -173,3 +173,36 @@ Decision: **supports** Qt需要实际坐标/几何与reference，**limits** 单�
 
 - [arXiv v1](https://arxiv.org/pdf/0707.4324v1)与[DOI](https://doi.org/10.1103/PhysRevC.76.034304)：本文locator/版本与书目身份。
 - [reading audit](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-reading-audit.json)、[24-check审计](../../outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run-02/matev2007-qt-operator-audit.json)、[程序](../../system/scripts/day14_qt_operator_table_audit.py)。
+
+## Day20量化审计：单粒子有效四极极化可加性、转轴坐标不变性与表值字面偏差点
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立程序 `system/scripts/day20_polarization_additivity_ce_isotopes_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/polarization-additivity-ce-isotopes-result-024.json`，量化审计了 A≈130 区域自洽推转平均场（CHF / CRMF）中单粒子有效四极极化可加性与转轴投影契约：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MT07-D20-1 | checkpoint035撤回旧全区普适极化、Qt残差σ=.12/.15和official符号印错认证；原TableII选定系数是相对core/频率/构型的模型回归对象，条件打印残差不识别actual producer。详见MT07-D20-R35-1至R35-3。 | task-quadrupole-additivity-and-invariance-audit | derived-and-boundary | PDF pp.2-5 Eqs.(1)-(15); PDF p.11 Table II; polarization-additivity-ce-isotopes-result-024.json | true |
+
+### checkpoint035：门选、算符与有效系数的合同
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MT07-D20-R35-1 | y推转Qt=Q20−Q22/√3。声明A=Rcosγ、B=Rsinγ才可写Qt=Rcos(γ+30°)/cos30°；三角恒等式不识别Singh同名Q20与这里分量同一。x/y被动换轴符号成对变换，v1 Eq14中间标签歧义保留。 | operator-contract | selected-original-and-conditional | PDF2–5 Eqs1–15; SinghPDF9 Eq5 | true |
+| MT07-D20-R35-2 | TableII ν6_2,+i的qt_eff CHF/CRMF=.37(.03)/.37(.01)eb；π[404]9/2,+i=−.38(.02)/−.38(.01)；π[541]3/2,+i=.52(.04)/.54(.01)。系数绑定core131Ce、.65MeV与183/105个选定计算配置，误差为模型回归，c号由reference定义。不同带Qt差2.0/3.1不是这些局部系数，不能外推9.9eb或35.4%实验亏损。 | model-coefficient-and-transfer-boundary | selected-original-and-conditional | PDF5–7 Eq19–28,SecII.E; PDF11 TableII | true |
+| MT07-D20-R35-3 | 原Q20残差CHF97.8%在±.1eb、CRMF逾90%在±.05eb；Q22 CRMF近95%在±.025、98%在±.1，CHF逾90%在±.2eb。这些不是统一Qt残差σ=.12/.15。条件triple残差不确定official typo；图表选定模型可加性不认证全区实验或ND/HD壳隙刚性。 | residual-scope-and-correction | selected-original-and-conditional | PDF11 Eq34 and discussion; PDF12 Figs5–6 and discussion; PDF13 conclusions | true |
+### checkpoint143：微观单粒子四极可加性、侵入轨道极化与超形变阶跃机制
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MT07-D20-R143-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MT07-D20-R146-1 | 143恢复的统一Qt残差σ=.15、严格全域可加性及ND→HD机制已撤回。所列系数绑定reference131Ce、.65MeV与183/105选定无配对计算配置；局部模型回归不外推ND到HD的整个形状改变。7.4(3)是Clark1996外源reference，7.3(4)是Petrache1998本工作不同fit，不能互换或据标量平方得到8倍实测B。此项沿既有R35原读边界，本轮未重新全文读Matev。 | prior-primary-audit-boundary | source-and-bounded-self-audit | MT07-D20-R35-1至R35-3; PDF5–7 Eq19–28; PDF11/12 TableII/Figs5/6 | true |

@@ -1,0 +1,100 @@
+{
+  "scope": "Declared commuting positive shape distribution; not an actual nucleus or CI",
+  "Q_values_exact": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "C_values_exact": [
+    "1",
+    "1/8",
+    "1/27",
+    "1/64",
+    "1/125"
+  ],
+  "epsilon_exact": "1/600",
+  "integer_null_vector": [
+    42,
+    -96,
+    81,
+    -32,
+    5
+  ],
+  "null_polynomial_moments_degree0_to3_exact": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "models": [
+    {
+      "sign": 1,
+      "probabilities_exact": [
+        "27/100",
+        "1/25",
+        "67/200",
+        "11/75",
+        "5/24"
+      ],
+      "six_scalars_exact": {
+        "Q2": "11",
+        "Q3C": "1",
+        "Q4": "979/5",
+        "Q5C": "11",
+        "Q6_amplitude": "4103",
+        "Q6C2": "1"
+      },
+      "amplitude_Q3_exact": "13519/300",
+      "mean_C_exact": "12587/43200",
+      "variance_C_exact": "108614981/583200000",
+      "mean_C": 0.29136574074074073,
+      "variance_C": 0.1862396793552812,
+      "mean_delta_deg": 21.491637635527976,
+      "sd_delta_deg": 13.077559400275712,
+      "eighth_amplitude_moment_exact": "466003/5"
+    },
+    {
+      "sign": -1,
+      "probabilities_exact": [
+        "13/100",
+        "9/25",
+        "13/200",
+        "19/75",
+        "23/120"
+      ],
+      "six_scalars_exact": {
+        "Q2": "11",
+        "Q3C": "1",
+        "Q4": "979/5",
+        "Q5C": "11",
+        "Q6_amplitude": "4103",
+        "Q6C2": "1"
+      },
+      "amplitude_Q3_exact": "13481/300",
+      "mean_C_exact": "197531/1080000",
+      "variance_C_exact": "14920619063/145800000000",
+      "mean_C": 0.18289907407407408,
+      "variance_C": 0.10233620756515775,
+      "mean_delta_deg": 25.087434197051085,
+      "sd_delta_deg": 9.74621984034027,
+      "eighth_amplitude_moment_exact": "91991"
+    }
+  ],
+  "six_scalar_differences_exact": {
+    "Q2": "0",
+    "Q3C": "0",
+    "Q4": "0",
+    "Q5C": "0",
+    "Q6_amplitude": "0",
+    "Q6C2": "0"
+  },
+  "not_inferred": [
+    "Actual experimental identifiability from all measured RMEs",
+    "Actual Ge/Ce/Nd shape distribution or rigidity",
+    "Any experiment or fit confidence interval",
+    "A unique nuclear wavefunction or Hamiltonian"
+  ],
+  "script_sha256": "2d9846730917090474e226650cb9de83c40f91081c56a48a29cbdf89d03e7e45"
+}

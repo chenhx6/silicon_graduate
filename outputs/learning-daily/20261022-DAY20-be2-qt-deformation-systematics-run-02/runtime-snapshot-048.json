@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T22:49:18.296414+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 970.6950597666668,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 14:48:09 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Audit 131Ce triaxial normal band vs superdeformed band deformation step across 6 orders of magnitude",
+      "gap": "Systematics of isomer vs normal vs HD band multipole moments",
+      "information_gain": "high"
+    },
+    {
+      "route": "Synthesize Day 20 comprehensive research notes and prepare pre-closeout ledger",
+      "gap": "Pre-closeout documentation integrity check",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Over 16 hours remain until 15:00 next day; advancing substantive study on deformation step and collectivity systematics."
+}

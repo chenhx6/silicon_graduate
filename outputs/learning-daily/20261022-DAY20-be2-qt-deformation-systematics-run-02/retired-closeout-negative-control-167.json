@@ -1,0 +1,13 @@
+{
+  "observed_at_utc": "2026-10-23T06:42:41.874191+00:00",
+  "argv": [
+    "python3",
+    "system/scripts/day20_execute_closeout_at_1500.py",
+    "--force-closeout"
+  ],
+  "exit_code": 1,
+  "stderr": "Retired: unsupported scientific certification / copied lint / premature credit. Read checkpoint167 and canonical sources; use actual final checks and H3.\n",
+  "run_unchanged": true,
+  "card_credit_absent": true,
+  "boundary": "Negative control of retired unsafe path; not full publication check"
+}

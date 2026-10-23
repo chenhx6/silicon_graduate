@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T22:26:29.275688+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 993.5120718666666,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 14:24:03 UTC",
+  "time_source": "awareclock afteractualtoolobservation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Trace Nd AP/P response and acquisition lineage",
+      "gap": "Actualpolarimeterresponse/calibrationnotobtained",
+      "information_gain": "high"
+    },
+    {
+      "route": "QTR appendix literal version/erratum and absoluteE2normalization",
+      "gap": "Cos/cosliteral and producerunverified",
+      "information_gain": "high"
+    },
+    {
+      "route": "Day20 mainline readscope/current deliverable audit",
+      "gap": "Finalcardchecks/timegatepending",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "More16hremain; currentDay20 highinformationroutecontinues, no newcard or closeout."
+}

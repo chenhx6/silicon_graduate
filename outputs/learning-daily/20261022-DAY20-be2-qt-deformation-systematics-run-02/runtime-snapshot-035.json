@@ -1,0 +1,23 @@
+{
+  "now_local": "2026-10-22T21:11:35.339169+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1068.41101385,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:09:49 UTC",
+  "time_source": "aware system clock; separate preceding tool reading",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "023/026 Nd multiband and rate-compensation original audit",
+      "information_gain": "high",
+      "gap": "old source identities and model-only mechanisms"
+    },
+    {
+      "route": "008/011–015 foundational controls and companion interpretation",
+      "information_gain": "high",
+      "gap": "universal criteria and unmeasured likelihood remain withdrawn"
+    }
+  ],
+  "next_card": "Day21 existing uncredited preview only; do not expand",
+  "decision_reason": "Continue Day20 current high-value original audit; no new card or research closeout."
+}

@@ -1,0 +1,42 @@
+{
+  "observed_at_utc": "2026-10-23T05:18:08.257388+00:00",
+  "scope": "State-dependent missing-matrix sensitivity bifurcation in 76Se",
+  "coefficients": {
+    "coeff_01_eb2": -0.001338656042454521,
+    "coeff_02_eb2": -0.23679486734978025,
+    "bifurcation_ratio": 176.89000000000004,
+    "q3_01_intercept_eb3": 0.08555848,
+    "q3_02_intercept_eb3": -0.04972794,
+    "d33_crit_02_eb": -0.21000429847385435,
+    "d33_crit_01_eb": 63.91371441697783
+  },
+  "checks": [
+    {
+      "name": "Ground state sensitivity coeff is -0.00133866 eb^2",
+      "passed": true,
+      "details": "coeff_01=-0.00133866"
+    },
+    {
+      "name": "Excited state sensitivity coeff is -0.23679487 eb^2",
+      "passed": true,
+      "details": "coeff_02=-0.23679487"
+    },
+    {
+      "name": "Bifurcation ratio matches (0.532/0.040)^2 = 176.89",
+      "passed": true,
+      "details": "ratio=176.89"
+    },
+    {
+      "name": "Excited state 0_2^+ critical d33 is -0.2100 eb (physical)",
+      "passed": true,
+      "details": "d33_crit_02=-0.21000 eb"
+    },
+    {
+      "name": "Ground state 0_1^+ critical d33 is +63.91 eb (unphysical)",
+      "passed": true,
+      "details": "d33_crit_01=63.91 eb"
+    }
+  ],
+  "all_checks_passed": true,
+  "conclusion": "The sensitivity to unmeasured diagonal matrix element d33 bifurcates by a factor of 176.9x between 0_1^+ and 0_2^+; the excited 0_2^+ state undergoes shape inversion at d33 = -0.210 eb (well within the physical range), proving that excited-state shape assignment is indeterminate without direct reorientation measurements."
+}

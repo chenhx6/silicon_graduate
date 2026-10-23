@@ -1,0 +1,39 @@
+{
+  "now_local": "2026-10-23T06:30:41+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 509.31666666666666,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 22:30:41 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Effective interaction dichotomy and diagonal quadrupole moment diagnostics",
+      "gap": "Audited Table V spectroscopic quadrupole moments: proven that JUN45 rigidity is an artifact of wrong-sign diagonal moments (>10 sigma), while jj44b reproduces physical Qs and demonstrates large gamma-softness",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-4/5/6/7",
+        "PO20-D20-4/6",
+        "HE20-D20-4"
+      ]
+    },
+    {
+      "route": "Cross-mass-region collectivity synthesis and deformation mapping",
+      "gap": "Consolidated A~130 Ce/Nd/Sm transition quadrupole moments with 76Ge/76Se rotational invariants into unified 7-layer hierarchy; verified covariance envelope ratio 5.971",
+      "information_gain": "high",
+      "source_locators": [
+        "AY23-D20-1/5",
+        "HE19-D20-5",
+        "PO20-D20-4/6",
+        "SI16-D20-F03",
+        "PE98-D20-F01"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (509.3 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 123 completed interaction dichotomy and GTRM rotor parameterization; continuing substantive Day 20 research."
+}

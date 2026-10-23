@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-22T22:18:22.244029+08:00",
+  "visual_inspection": "Whole figure and each panel inspected from final Python PNG: original asymmetric bars, all12targetpoints/limits, arrowdirections, finite-onlyfitintervals, identicalscales and legibility confirmed. No overlap/clipping observed.",
+  "source_preflight": "0fail/1warn: width180mm differs from common183mm by3mm; intentional learningfigure dimension, actualPDFwidth510.236pt. Firststaticrunfailedtoinferloopedextensions; explicitexports rerendered and allfinalaudits rerun.",
+  "font_minimum_pt": 6.3,
+  "collision": "0fail/0warn",
+  "alignment": "final rendered1.5pt strict passed; JSONpreserved",
+  "science_boundary": "TechnicalfigureQA only, not sourcecertainty/experimentalCI",
+  "backend": "Python only"
+}

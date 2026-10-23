@@ -1,0 +1,36 @@
+{
+  "now_local": "2026-10-23T06:45:59+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 494.01666666666665,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 22:45:59 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "High-spin moments of inertia and pairing collapse dynamics",
+      "gap": "Audited J(1) vs J(2) finite-difference operators, Harris pairing quenching (J_1 -> 0), HD plateau reaching 84.65% of rigid body (55.60 hbar^2/MeV), and 15.35% deficit explained by residual pairing and effective mass (m*/m ~ 0.90)",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04"
+      ]
+    },
+    {
+      "route": "Unified chiral electromagnetic selection rules and pseudodegeneracy",
+      "gap": "Audited 134Pr 4x B(E2) pseudodegeneracy breakdown, 135Nd 2x lifetime vs 0.88 B(E2) compensation factor (1.83x), and 136Nd band crossing complementary transfer (11x drop vs 1.75x enhancement)",
+      "information_gain": "high",
+      "source_locators": [
+        "PE06-D20-R51-1",
+        "MU07-D20-R50-1",
+        "MU08-D20-F01"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (494.0 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 126 completed moments of inertia, pairing quenching and inertia deficit systematics; continuing substantive Day 20 research."
+}

@@ -1,0 +1,675 @@
+{
+  "kind": "conditional printed-table diagnostics and declared covariance controls",
+  "script_sha256": "45f9d475b2b84d243c1eb7d5f9356052b4d33f10e2924e5198eee4d71c66517b",
+  "input_sha256": "dc8f9a0b8be4afec0cd7aa62e907476428a97fb6cd285bde416db75347547785",
+  "source_sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+  "cases": {
+    "case_Ce131": {
+      "finite_rows": [
+        {
+          "spin": 7.5,
+          "parity": "-",
+          "E_gamma_keV": 510,
+          "tau": {
+            "kind": "finite",
+            "value": 9.6,
+            "minus": 3.8,
+            "plus": 1.9,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 2.93,
+            "minus": 0.3,
+            "plus": 0.6,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "tau_ps": {
+              "kind": "finite",
+              "value": 1.0,
+              "minus": 0.2,
+              "plus": 0.1,
+              "unit": "ps"
+            }
+          },
+          "method": "plunger",
+          "role": "present"
+        },
+        {
+          "spin": 13.5,
+          "parity": "-",
+          "E_gamma_keV": 827,
+          "tau": {
+            "kind": "finite",
+            "value": 1.25,
+            "minus": 0.25,
+            "plus": 0.41,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 2.26,
+            "minus": 0.23,
+            "plus": 0.37,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "tau_ps": {
+              "kind": "finite",
+              "value": 0.73,
+              "minus": 0.12,
+              "plus": 0.15,
+              "unit": "ps"
+            }
+          },
+          "method": "DSAM",
+          "role": "present"
+        },
+        {
+          "spin": 15.5,
+          "parity": "-",
+          "E_gamma_keV": 892,
+          "tau": {
+            "kind": "finite",
+            "value": 0.51,
+            "minus": 0.05,
+            "plus": 0.05,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 2.66,
+            "minus": 0.12,
+            "plus": 0.13,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "Q_eb": {
+              "kind": "finite",
+              "value": 5.79,
+              "minus": 0.28,
+              "plus": 0.24,
+              "unit": "eb"
+            }
+          },
+          "method": "DSAM",
+          "role": "present"
+        },
+        {
+          "spin": 17.5,
+          "parity": "-",
+          "E_gamma_keV": 922,
+          "tau": {
+            "kind": "finite",
+            "value": 0.6,
+            "minus": 0.1,
+            "plus": 0.11,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 2.43,
+            "minus": 0.2,
+            "plus": 0.22,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "Q_eb": {
+              "kind": "finite",
+              "value": 5.01,
+              "minus": 0.77,
+              "plus": 1.44,
+              "unit": "eb"
+            }
+          },
+          "method": "DSAM",
+          "role": "present"
+        }
+      ],
+      "excluded_censored_rows": [
+        {
+          "spin": 9.5,
+          "parity": "-",
+          "E_gamma_keV": 642,
+          "tau": {
+            "kind": "upper",
+            "value": 7.31,
+            "unit": "ps",
+            "confidence_level": "not specified for this bound"
+          },
+          "Qt": {
+            "kind": "lower",
+            "value": 1.9,
+            "unit": "eb",
+            "confidence_level": "not specified for this bound"
+          },
+          "sidefeeding": null,
+          "method": "plunger",
+          "role": "present"
+        },
+        {
+          "spin": 11.5,
+          "parity": "-",
+          "E_gamma_keV": 750,
+          "tau": {
+            "kind": "lower",
+            "value": 1.3,
+            "unit": "ps",
+            "confidence_level": "not specified for this bound"
+          },
+          "Qt": {
+            "kind": "upper",
+            "value": 2.85,
+            "unit": "eb",
+            "confidence_level": "not specified for this bound"
+          },
+          "sidefeeding": null,
+          "method": "DSAM lower bound; text also gives about3ps plunger upper",
+          "role": "present"
+        },
+        {
+          "spin": 19.5,
+          "parity": "-",
+          "E_gamma_keV": 962,
+          "tau": {
+            "kind": "upper",
+            "value": 0.54,
+            "unit": "ps",
+            "confidence_level": "not specified for this bound"
+          },
+          "Qt": {
+            "kind": "lower",
+            "value": 2.29,
+            "unit": "eb",
+            "confidence_level": "not specified for this bound"
+          },
+          "sidefeeding": null,
+          "method": "DSAM",
+          "role": "present"
+        }
+      ],
+      "mean_asymmetric_errors": {
+        "pivot_spin": 13.5,
+        "intercept_at_pivot": 2.6344829060992154,
+        "slope_eb_per_hbar": -0.030174982600885532,
+        "slope_se": 0.047214695792364654,
+        "Gaussian_z": -0.6391014936024494,
+        "Gaussian_two_sided_tail": 0.5227569083404835,
+        "constant_eb": 2.578943578373181,
+        "constant_se": 0.09866467099839166,
+        "constant_chi2": 2.6624054870438156,
+        "constant_dof": 3,
+        "linear_chi2": 2.2539547679189287,
+        "linear_dof": 2,
+        "constant_tail": 0.4466539393946808,
+        "delta_chi2": 0.40845071912488695,
+        "estimated_common_error_scale_control": {
+          "scale_variance": 1.1269773839594643,
+          "slope_se": 0.05012273909922805,
+          "Student_t": -0.6020218197003975,
+          "dof": 2,
+          "Student_two_sided_tail": 0.6083187945954607,
+          "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+        }
+      },
+      "all_lower_errors_control": {
+        "pivot_spin": 13.5,
+        "intercept_at_pivot": 2.621213893813959,
+        "slope_eb_per_hbar": -0.03184345725893163,
+        "slope_se": 0.03451431855985372,
+        "Gaussian_z": -0.9226158472087357,
+        "Gaussian_two_sided_tail": 0.3562074342436138,
+        "constant_eb": 2.5771500295333727,
+        "constant_se": 0.08963685067389573,
+        "constant_chi2": 4.302772445363259,
+        "constant_dof": 3,
+        "linear_chi2": 3.4515524438425733,
+        "linear_dof": 2,
+        "constant_tail": 0.2305717286044864,
+        "delta_chi2": 0.8512200015206859,
+        "estimated_common_error_scale_control": {
+          "scale_variance": 1.7257762219212867,
+          "slope_se": 0.045341046916025876,
+          "Student_t": -0.7023097044474397,
+          "dof": 2,
+          "Student_two_sided_tail": 0.5552184944489358,
+          "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+        }
+      },
+      "all_upper_errors_control": {
+        "pivot_spin": 13.5,
+        "intercept_at_pivot": 2.648970895624116,
+        "slope_eb_per_hbar": -0.03218417017382494,
+        "slope_se": 0.058781186386208446,
+        "Gaussian_z": -0.5475250186746172,
+        "Gaussian_two_sided_tail": 0.5840180870325005,
+        "constant_eb": 2.582995089463006,
+        "constant_se": 0.10545898843899194,
+        "constant_chi2": 1.9310366809778152,
+        "constant_dof": 3,
+        "linear_chi2": 1.6312530349031784,
+        "linear_dof": 2,
+        "constant_tail": 0.5868429392962511,
+        "delta_chi2": 0.2997836460746368,
+        "estimated_common_error_scale_control": {
+          "scale_variance": 0.8156265174515892,
+          "slope_se": 0.05308649053226562,
+          "Student_t": -0.6062591414714749,
+          "dof": 2,
+          "Student_two_sided_tail": 0.6059886731242984,
+          "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+        }
+      },
+      "declared_covariance_controls": {
+        "common_additive_0p30eb": {
+          "pivot_spin": 13.5,
+          "intercept_at_pivot": 2.6344829060992154,
+          "slope_eb_per_hbar": -0.0301749826008856,
+          "slope_se": 0.047214695792364654,
+          "Gaussian_z": -0.6391014936024508,
+          "Gaussian_two_sided_tail": 0.5227569083404825,
+          "constant_eb": 2.5789435783731816,
+          "constant_se": 0.3158080386931607,
+          "constant_chi2": 2.6624054870438174,
+          "constant_dof": 3,
+          "linear_chi2": 2.2539547679189313,
+          "linear_dof": 2,
+          "constant_tail": 0.44665393939468057,
+          "delta_chi2": 0.40845071912488606,
+          "estimated_common_error_scale_control": {
+            "scale_variance": 1.1269773839594657,
+            "slope_se": 0.05012273909922808,
+            "Student_t": -0.6020218197003985,
+            "dof": 2,
+            "Student_two_sided_tail": 0.60831879459546,
+            "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+          }
+        },
+        "spin_slope_nuisance_0p05eb_per_hbar": {
+          "pivot_spin": 13.5,
+          "intercept_at_pivot": 2.634482906099215,
+          "slope_eb_per_hbar": -0.030174982600885476,
+          "slope_se": 0.06876937907794091,
+          "Gaussian_z": -0.43878515416994185,
+          "Gaussian_two_sided_tail": 0.6608172184112546,
+          "constant_eb": 2.608303197751046,
+          "constant_se": 0.11716189177880379,
+          "constant_chi2": 2.4464871794388734,
+          "constant_dof": 3,
+          "linear_chi2": 2.253954767918929,
+          "linear_dof": 2,
+          "constant_tail": 0.48503971571776805,
+          "delta_chi2": 0.19253241151994427,
+          "estimated_common_error_scale_control": {
+            "scale_variance": 1.1269773839594646,
+            "slope_se": 0.07300501650371669,
+            "Student_t": -0.4133275224908587,
+            "dof": 2,
+            "Student_two_sided_tail": 0.7194692626997997,
+            "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+          }
+        },
+        "DSAM_group_offset_0p20eb": {
+          "pivot_spin": 13.5,
+          "intercept_at_pivot": 2.651490196865766,
+          "slope_eb_per_hbar": -0.028323985893615462,
+          "slope_se": 0.050118490921597134,
+          "Gaussian_z": -0.5651404376465383,
+          "Gaussian_two_sided_tail": 0.5719782456686787,
+          "constant_eb": 2.6345066738113347,
+          "constant_se": 0.20061018147994195,
+          "constant_chi2": 2.561216200331277,
+          "constant_dof": 3,
+          "linear_chi2": 2.241832486067957,
+          "linear_dof": 2,
+          "constant_tail": 0.4643294512346068,
+          "delta_chi2": 0.3193837142633198,
+          "estimated_common_error_scale_control": {
+            "scale_variance": 1.1209162430339785,
+            "slope_se": 0.05306211629049899,
+            "Student_t": -0.5337892242848029,
+            "dof": 2,
+            "Student_two_sided_tail": 0.6468710984417252,
+            "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+          }
+        }
+      }
+    },
+    "case_Pr133": {
+      "finite_rows": [
+        {
+          "spin": 7.5,
+          "parity": "-",
+          "E_gamma_keV": 310,
+          "tau": {
+            "kind": "finite",
+            "value": 71,
+            "minus": 5,
+            "plus": 6,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 3.55,
+            "minus": 0.15,
+            "plus": 0.13,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "tau_ps": {
+              "kind": "finite",
+              "value": 1100,
+              "minus": 200,
+              "plus": 200,
+              "unit": "ps"
+            },
+            "literal": "1.1(2) ns"
+          },
+          "method": "plunger",
+          "role": "present"
+        },
+        {
+          "spin": 9.5,
+          "parity": "-",
+          "E_gamma_keV": 552,
+          "tau": {
+            "kind": "finite",
+            "value": 3.9,
+            "minus": 0.2,
+            "plus": 0.3,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 3.53,
+            "minus": 0.13,
+            "plus": 0.09,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "tau_ps": {
+              "kind": "finite",
+              "value": 1.9,
+              "minus": 0.2,
+              "plus": 0.2,
+              "unit": "ps"
+            }
+          },
+          "method": "plunger",
+          "role": "present"
+        },
+        {
+          "spin": 11.5,
+          "parity": "-",
+          "E_gamma_keV": 709,
+          "tau": {
+            "kind": "finite",
+            "value": 1.43,
+            "minus": 0.14,
+            "plus": 0.1,
+            "unit": "ps"
+          },
+          "Qt": {
+            "kind": "finite",
+            "value": 3.09,
+            "minus": 0.11,
+            "plus": 0.16,
+            "unit": "eb"
+          },
+          "sidefeeding": {
+            "tau_ps": {
+              "kind": "finite",
+              "value": 14,
+              "minus": 3,
+              "plus": 3,
+              "unit": "ps"
+            }
+          },
+          "method": "plunger",
+          "role": "present"
+        }
+      ],
+      "excluded_censored_rows": [
+        {
+          "spin": 13.5,
+          "parity": "-",
+          "E_gamma_keV": 813,
+          "tau": {
+            "kind": "upper",
+            "value": 0.7,
+            "unit": "ps",
+            "confidence_level": "not specified for this bound"
+          },
+          "Qt": {
+            "kind": "lower",
+            "value": 3.18,
+            "unit": "eb",
+            "confidence_level": "not specified for this bound"
+          },
+          "sidefeeding": null,
+          "method": "plunger",
+          "role": "present"
+        },
+        {
+          "spin": 15.5,
+          "parity": "-",
+          "E_gamma_keV": 864,
+          "tau": {
+            "kind": "upper",
+            "value": 0.6,
+            "unit": "ps",
+            "confidence_level": "not specified for this bound"
+          },
+          "Qt": {
+            "kind": "lower",
+            "value": 2.89,
+            "unit": "eb",
+            "confidence_level": "not specified for this bound"
+          },
+          "sidefeeding": null,
+          "method": "plunger",
+          "role": "present"
+        }
+      ],
+      "mean_asymmetric_errors": {
+        "pivot_spin": 9.5,
+        "intercept_at_pivot": 3.4121223543055956,
+        "slope_eb_per_hbar": -0.11667439837634112,
+        "slope_se": 0.04860753115168699,
+        "Gaussian_z": -2.4003358247560733,
+        "Gaussian_two_sided_tail": 0.01638003663397852,
+        "constant_eb": 3.407358117788542,
+        "constant_se": 0.0728289970123866,
+        "constant_chi2": 7.807422451427628,
+        "constant_dof": 2,
+        "linear_chi2": 2.045810379820221,
+        "linear_dof": 1,
+        "constant_tail": 0.020166928369174053,
+        "delta_chi2": 5.761612071607407,
+        "estimated_common_error_scale_control": {
+          "scale_variance": 2.045810379820221,
+          "slope_se": 0.069524240313153,
+          "Student_t": -1.6781830028032394,
+          "dof": 1,
+          "Student_two_sided_tail": 0.34211085709946015,
+          "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+        }
+      },
+      "all_lower_errors_control": {
+        "pivot_spin": 9.5,
+        "intercept_at_pivot": 3.3910958904109556,
+        "slope_eb_per_hbar": -0.12568493150684892,
+        "slope_se": 0.04578597149684585,
+        "Gaussian_z": -2.745053285928578,
+        "Gaussian_two_sided_tail": 0.0060501073189052615,
+        "constant_eb": 3.3395424684068655,
+        "constant_se": 0.07327223170858034,
+        "constant_chi2": 9.261344939847627,
+        "constant_dof": 2,
+        "linear_chi2": 1.7260273972602702,
+        "linear_dof": 1,
+        "constant_tail": 0.009748201525366299,
+        "delta_chi2": 7.535317542587356,
+        "estimated_common_error_scale_control": {
+          "scale_variance": 1.7260273972602702,
+          "slope_se": 0.06015285932746068,
+          "Student_t": -2.0894257216044236,
+          "dof": 1,
+          "Student_two_sided_tail": 0.2841755075105442,
+          "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+        }
+      },
+      "all_upper_errors_control": {
+        "pivot_spin": 9.5,
+        "intercept_at_pivot": 3.4391588785046734,
+        "slope_eb_per_hbar": -0.10280373831775719,
+        "slope_se": 0.050922399665736064,
+        "Gaussian_z": -2.0188313785795584,
+        "Gaussian_two_sided_tail": 0.04350474846786935,
+        "constant_eb": 3.4578090849412395,
+        "constant_se": 0.06716238017418487,
+        "constant_chi2": 6.430820322053319,
+        "constant_dof": 2,
+        "linear_chi2": 2.355140186915882,
+        "linear_dof": 1,
+        "constant_tail": 0.040138867047922744,
+        "delta_chi2": 4.075680135137437,
+        "estimated_common_error_scale_control": {
+          "scale_variance": 2.355140186915882,
+          "slope_se": 0.0781478875112665,
+          "Student_t": -1.3155024606767018,
+          "dof": 1,
+          "Student_two_sided_tail": 0.4137872846475096,
+          "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+        }
+      },
+      "declared_covariance_controls": {
+        "common_additive_0p30eb": {
+          "pivot_spin": 9.5,
+          "intercept_at_pivot": 3.412122354305597,
+          "slope_eb_per_hbar": -0.1166743983763409,
+          "slope_se": 0.048607531151687,
+          "Gaussian_z": -2.4003358247560684,
+          "Gaussian_two_sided_tail": 0.016380036633978745,
+          "constant_eb": 3.407358117788542,
+          "constant_se": 0.30871356109803505,
+          "constant_chi2": 7.807422451427635,
+          "constant_dof": 2,
+          "linear_chi2": 2.045810379820235,
+          "linear_dof": 1,
+          "constant_tail": 0.020166928369173977,
+          "delta_chi2": 5.7616120716073995,
+          "estimated_common_error_scale_control": {
+            "scale_variance": 2.045810379820235,
+            "slope_se": 0.06952424031315324,
+            "Student_t": -1.6781830028032299,
+            "dof": 1,
+            "Student_two_sided_tail": 0.3421108570994618,
+            "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+          }
+        },
+        "spin_slope_nuisance_0p05eb_per_hbar": {
+          "pivot_spin": 9.5,
+          "intercept_at_pivot": 3.412122354305595,
+          "slope_eb_per_hbar": -0.11667439837634036,
+          "slope_se": 0.06973300570506209,
+          "Gaussian_z": -1.6731588893474396,
+          "Gaussian_two_sided_tail": 0.09429602103176928,
+          "constant_eb": 3.4098074999590073,
+          "constant_se": 0.07284290070231599,
+          "constant_chi2": 4.845271048822596,
+          "constant_dof": 2,
+          "linear_chi2": 2.045810379820218,
+          "linear_dof": 1,
+          "constant_tail": 0.08868757091903895,
+          "delta_chi2": 2.799460669002378,
+          "estimated_common_error_scale_control": {
+            "scale_variance": 2.045810379820218,
+            "slope_se": 0.0997403927236683,
+            "Student_t": -1.1697808198889679,
+            "dof": 1,
+            "Student_two_sided_tail": 0.4502871261828352,
+            "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+          }
+        }
+      }
+    }
+  },
+  "literal_corrections": {
+    "Ce27_tau_ps": {
+      "kind": "finite",
+      "value": 1.25,
+      "minus": 0.25,
+      "plus": 0.41,
+      "unit": "ps"
+    },
+    "Pr133_sidefeeding_ps": [
+      1100,
+      1.9,
+      14
+    ],
+    "Pr133_1100_over_14": 78.57142857142857,
+    "Pr133_nonmonotonic": true
+  },
+  "checks": [
+    {
+      "name": "case_Ce131 scalar/whitened agreement",
+      "passed": true
+    },
+    {
+      "name": "case_Ce131 nested-model delta chi2 equals z2",
+      "passed": true
+    },
+    {
+      "name": "case_Ce131 observation order invariant",
+      "passed": true
+    },
+    {
+      "name": "case_Ce131 full value/Cov scaling invariant",
+      "passed": true
+    },
+    {
+      "name": "case_Ce131 additive intercept nuisance preserves slope precision",
+      "passed": true
+    },
+    {
+      "name": "case_Ce131 trend nuisance increases slope variance",
+      "passed": true
+    },
+    {
+      "name": "case_Pr133 scalar/whitened agreement",
+      "passed": true
+    },
+    {
+      "name": "case_Pr133 nested-model delta chi2 equals z2",
+      "passed": true
+    },
+    {
+      "name": "case_Pr133 observation order invariant",
+      "passed": true
+    },
+    {
+      "name": "case_Pr133 full value/Cov scaling invariant",
+      "passed": true
+    },
+    {
+      "name": "case_Pr133 additive intercept nuisance preserves slope precision",
+      "passed": true
+    },
+    {
+      "name": "case_Pr133 trend nuisance increases slope variance",
+      "passed": true
+    },
+    {
+      "name": "visually verified Ce27 lifetime is 1.25ps",
+      "passed": true
+    },
+    {
+      "name": "visually verified Pr sidefeeding is1100/1.9/14ps",
+      "passed": true
+    }
+  ],
+  "all_controls_passed": true,
+  "boundary": "No original counts, MINOS profile, joint covariance, limit likelihood or original producer. Symmetrized Gaussian tails and invented nuisance priors are conditional diagnostics, not experimental confidence intervals or causal feeding attribution."
+}

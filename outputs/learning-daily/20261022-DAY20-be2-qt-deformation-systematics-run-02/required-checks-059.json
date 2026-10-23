@@ -1,0 +1,55 @@
+{
+  "checkpoint": "059",
+  "observed_at": "2026-10-23T00:40:00+08:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "native_goal_active",
+      "passed": true
+    },
+    {
+      "name": "same_session_id",
+      "passed": true,
+      "session_id": "01a16297-c78b-7083-899c-e3a0ac846a67"
+    },
+    {
+      "name": "clock_acknowledged",
+      "passed": true,
+      "acknowledged_ids": [
+        "checkpoint-001",
+        "checkpoint-002",
+        "checkpoint-003",
+        "checkpoint-004"
+      ]
+    },
+    {
+      "name": "kmix_triaxial_interference_audit",
+      "passed": true,
+      "controls_passed": 9
+    },
+    {
+      "name": "all_three_open_questions_resolved",
+      "passed": true
+    },
+    {
+      "name": "validate_writeback",
+      "passed": true,
+      "paths_checked": 27
+    },
+    {
+      "name": "no_early_closeout",
+      "passed": true,
+      "minutes_to_deadline": 860.0
+    },
+    {
+      "name": "course_credit_unmodified",
+      "passed": true,
+      "completed_day_indices": [],
+      "partial_day_indices": [
+        20,
+        21
+      ],
+      "next_day_index": 20
+    }
+  ]
+}

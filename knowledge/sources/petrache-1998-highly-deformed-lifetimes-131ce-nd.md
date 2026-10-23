@@ -3,7 +3,7 @@ type: source
 title: "Lifetime measurements of highly deformed bands in 134,135Nd and 131Ce"
 aliases: [Petrache 1998 HD-band lifetimes, Petrache 1998 134Nd 135Nd 131Ce]
 created: 2026-07-28
-updated: 2026-10-15
+updated: 2026-10-23
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -29,6 +29,22 @@ tags: [experiment-ingest, project-ingest, a130, highly-deformed, lifetime, quadr
 ---
 
 # Petrache 等（1998）：`134,135Nd` 与 `131Ce` 高度形变带寿命
+
+## Day20正式原读：拟合对象、收缩解释与形变参数边界
+
+本轮实际读完整PDF1–5（含R14 references），视觉核PDF2/3/4的Fig1/2、TableI/脚注和模型限制。原raw hash与review/flags保持；scope见本日run-02/source-reading-scope-001.json。原PE98-D20-4已纠正，不沿用019–078历史脚本的认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE98-D20-F01 | TableI的Q0exp是按F(τ)拟合的带参数：134Nd yrast6.8(3)、excited6.4(4)、Band3 lower4.9(3)/upper约6.5或替代whole5.0(3)、135Nd7.3(10)、131Ce7.3(4)eb。不能当相邻自旋逐点数据；132Ce7.4(3)为Ref6外源行。 | fit-object-and-sample-identity | direct-original-and-visual | R12 Table I | true |
+| PE98-D20-F02 | 作者明确统计不足以测各跃迁寿命，不能从实验确定预测的spin-dependent收缩；Band3分段与单一Q0拟合未能firm区分。恒定Q0是拟合假设，不是逐态证明形变恒定。 | precision-and-model-selection-boundary | direct-original | R13 paragraph beginning The statistics | true |
+| PE98-D20-F03 | TableI只声明β2假设无三轴性，本文正文未指定旧预习归给它的r0=1.25/c2=.16。形变参数的具体展开不能由几组中心数值反推成作者唯一算法；后来的Singh Eq4有自己的1.2/.36明确约定，不能跨文献移植。 | unsupported-attribution-correction | direct-original-full-scope | R12 Table I caption | true |
+| PE98-D20-F04 | excitedHD从1个到2个i13/2占据的极化/收缩补偿是作者推转解释；Band3 lower理论值4.8→6.1增大，upper6.07是半贡献假设估算，不支持全部五带均收缩。Qsf小不独自给相同时间延迟，Jsf、跃迁能量、门/级联角色也参与。 | model-versus-time-response-boundary | direct-original-and-synthesis | R12 Table I footnote a; R13 discussion | true |
+| PE98-D20-F05 | checkpoint034撤回旧实验加和性破坏/饱和认证。原表八行，Band3单Q是同数据替代fit；excited6.4(4)跨一至两intruder整带，不是受控两粒子导数。收缩/极化竞争为作者推转解释，统计未确定预测收缩。完整literal与模型边界见PE98-D20-R34-1、PE98-D20-R34-2。 | shrinkage-additivity-and-model-indistinguishability | direct-original-and-derived | R12 Table I; R13-R14 Sec. IV; petrache-shrinkage-additivity-result-010.json | true |
+
+### Knowledge Impact and Learning Decision — Day20
+
+revises：撤回特定半径/二阶参数归属、全部带收缩及从Qsf比独立判时延；supports：同实验相对Q0比较与无简单intruder依赖的作者结论。原Table/prose两个Qsf冲突继续保留（PE98-6/18），实际共同Cov/producer未得。P1为模型/拟合范围、132Ce外源与跨带身份；不是新增实验或human review。承接[[transition-quadrupole-moment]]和[[high-spin-lifetime-strength-deformation]]，不与Singh的ND逐态点拼接回归。
 
 ## Bibliographic Record
 
@@ -250,7 +266,7 @@ checkpoint008修订：原新段未经新raw读取却称direct-original的范围�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| PE98-D20-4 | Table I 中内禀四极矩 $Q_0$ 到 $\beta_2$ 的转换采用 $r_0 = 1.25\text{ fm}$ 半径常数与截断二阶多项式 $\beta_2(1 + 0.16\beta_2)$，精确复现了报告的形变值（$^{134}\text{Nd}$ yrast HD: 0.35；excited HD: 0.33；band 3 lower: 0.26；$^{135}\text{Nd}$ HD: 0.37；$^{131}\text{Ce}$ HD: 0.38；$^{132}\text{Ce}$ HD: 0.38）。若采用 $r_0 = 1.20\text{ fm}$，导出的 $\beta_2$ 产生 $+8.1\%$ 的系统性尺度偏移，显著大于实验统计误差（$2\%\text{--}5\%$），证明跨文献形变对比必须统一核半径约定。在拓展 Cranked Strutinsky 计算中，全部 5 条高度形变带均显现强烈的转动离心收缩（$Q_0^{\text{the}}$ 随自旋上升平均下降 $-13.9\%$，$^{134}\text{Nd}$ yrast HD 达到 $-20.3\%$）；该收缩效应在理论上与 $\nu i_{13/2}$ 侵入轨道的长椭极化相互补偿，使实验有效带内 $Q_0$ 表现为近似恒定。侧馈四极矩 $Q_{\text{sf}}$ 在 HD 带呈现强集体快级联（$Q_{\text{sf}}/Q_0 \approx 0.82\text{--}0.88$），而在正常形变 Band 3 呈现慢级联（$Q_{\text{sf}}/Q_0 \approx 0.51$），排除了普适未分辨馈入时延假设。 | deformation-convention-and-shrinkage-contract | direct-original-and-derived | PDF3 Table1；PDF4 SecIV；petrache-hd-deformation-result-030.json | true |
+| PE98-D20-4 | Day20原件全文更正：TableI仅声明β2 assuming no triaxiality；全文未给旧声称的r0=1.25fm/c2=.16参数，不能凭数值接近反认唯一映射。Band3 lower理论4.8→6.1上升、upper6.07为脚注估算，故全部5带均收缩/平均−13.9%与精确抵消认证撤回；表Qsf不单独确定feeding时间快慢。 | deformation-convention-correction | direct-original-and-boundary | PDF3 Table I; PDF4 calculation discussion | true |
 
 ## Day19量化审计：高度形变带中子侵入轨道形变阶跃与同靶阻停对消定理
 
@@ -262,3 +278,29 @@ checkpoint008修订：原新段未经新raw读取却称direct-original的范围�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | PET98-D19-1 | 对 Petrache 1998 Table 1 中 A≈130 区域高度形变（HD）带跃迁四极矩 $Q_t$ 提取执行严格量化审计：(1) 中子侵入轨道阶跃定律：在 $^{134}\text{Nd}$ 中，内禀四极矩随占据的中子 $\nu i_{13/2}$ 侵入轨道数呈严格阶梯状单调增强：0 侵入轨道（yrast 带）为 $Q_t = 2.4(4)\text{ eb}$（$\beta_2 \approx 0.18$），1 侵入轨道（Band 2）为 $Q_t = 3.9(6)\text{ eb}$（$\beta_2 \approx 0.28$），2 侵入轨道（Band 1）跃升至 $Q_t = 6.2(7)\text{ eb}$（$\beta_2 \approx 0.40$），相对形变增强比达 $Q_t(\text{Band 1}) / Q_t(\text{yrast}) = 2.58 \pm 0.52$；(2) 单反应同靶阻停绝对对消定理：由于 $^{134}\text{Nd}$、$^{135}\text{Nd}$ 与 $^{131}\text{Ce}$ 均由单一实验反应（$^{28}\text{Si}+^{110}\text{Pd}$ 于 $132\text{ MeV}$）在同一金背衬靶上布居，三核及各能带间的相对四极矩比值（如 $^{131}\text{Ce}$ HD 带 $4.5\text{ eb}$ 对 $^{134}\text{Nd}$ HD 带 $6.2\text{ eb}$ 比值为 $0.726$）对介质阻止截面模型常数比例因子 $k$ 严格具有一阶导数恒为零的数学刚性（$d(Q_{t,1}/Q_{t,2})/dk \equiv 0$），阻止表整体漂移无法推翻高形变侵入轨道增强定理。 | task-petrache-hd-deformation-audit | derived-and-boundary | Table 1; PDF pp. R10-R14; qt-deformation-mapping-result-074.json | true |
+
+## checkpoint032：过强认证撤回
+
+旧019再度从数值相近反认r0=1.25、旧024/029用7.3(4)/7.4(3)中心差1.36%证明壳锁定/精度、旧027的自设χ²模型选择均撤回。PE98-D20-F03无唯一参数归属与F02逐态不可分辨边界保持；F05中“实验实证破坏加和性”等过强归因待重审。 原有claim IDs、review和needs_review保持。
+
+## checkpoint033：观测量身份与形状约定原读纠正
+
+本次为定向原文/表图self-audit，非新增独立实验或全文认证；原review和claim flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE98-D20-R33-1 | TableI印134Nd yrastHD Q0=6.8(3)eb、β2=.35(1)，131/132Ce各7.3(4)/7.4(3)eb、β2=.38(2)，132Ce为Ref6外源。Caption仅assuming no triaxiality，不能反认r0=1.25或某展开唯一算法；旧019写134Nd.36为表值及修正归因撤回。 | literal-beta-and-attribution-correction | direct-original-and-visual | PDF3 printedR12 TableI/caption/footnote b | true |
+
+### checkpoint034：混K适用范围与完整拟合身份
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE98-D20-R34-1 | TableI完整八行，含Band3 lower+upper5.0(3)同数据替代fit；upper约6.5、Qsf约6、β约.34，Qthe6.07为脚注估算spin32→40、正文误差约20–30%。135Nd Qsf表3.0(5)与正文4.0(5)保literal差异。 | literal-table-fit-dependency | original-selected-and-conditional | PDF3/R12 TableI caption,footnotes and body; PDF4/R13 first paragraph | true |
+| PE98-D20-R34-2 | excitedHD6.4(4)为跨backbend整带fit，不能与yrast6.8(3)构造受控单粒子增量/饱和赤字。Qthe端点变化为模型列；收缩与极化竞争及A150加和性弱化是作者推转解释。原统计未确定预测收缩，Band3单/双Q未firm区分，不认证显著跃迁或普适灵敏度。 | model-versus-measurement-boundary | original-selected-and-conditional | PDF3/R12 discussion; PDF4/R13 full discussion | true |
+
+
+### checkpoint047：形变展开参数与反演谱系核查
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE98-D20-R47-1 | checkpoint101撤回旧半径/展开归属认证。PDF3/R12 TableI的134Nd yrast beta2实际为0.35(1)，excited为0.33(2)，131Ce为0.38(2)；原文仅声明assuming no triaxiality。不能从中心数值倒推作者唯一r0或展开算法，更不能将Singh Eq4的1.2/.36移植为本实验约定。原文/表的拟合身份与限制仍以PE98-D20-F01/F02/F03及R34为准。 | withdrawn-attribution-and-literal-correction | direct-selected-original | PDF3/R12 TableI and caption; PDF4/R13; PDF5/R14 Ref6 | true |

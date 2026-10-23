@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T22:46:07.030140+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 973.882831,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 14:43:28 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Deepen pairing collapse and Harris moment of inertia systematics",
+      "gap": "Quenched vs unquenched MoI models in high-spin rotational bands",
+      "information_gain": "high"
+    },
+    {
+      "route": "Audit 131Ce triaxial normal band vs superdeformed band deformation step",
+      "gap": "Multipole moments across 6 orders of magnitude in lifetime",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Over 16 hours remain until 15:00 next day; advancing substantive learning on shape deformation and collectivity systematics."
+}

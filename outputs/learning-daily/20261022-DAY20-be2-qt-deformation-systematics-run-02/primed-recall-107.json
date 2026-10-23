@@ -1,0 +1,19 @@
+{
+  "checkpoint": "107",
+  "frozen_at": "2026-10-23T04:16:03.390312+08:00",
+  "kind": "primed recall before Barth1981 magnetic-calibration account body access",
+  "prior_exposure": [
+    "IB98 actualread104",
+    "Dafni1983 actualread106 Ref5",
+    "Crossref lookup105 of same-author1981 HFI10,811–820 DOI10.1007/BF01022015"
+  ],
+  "expectations_to_check": [
+    "IB98 adopts Ce/Pb local susceptibility1.40(2); originalcalibrationgreference, temperature and valence assumptions unknown",
+    "Dafni uses Ce/Sn paramagneticrelax estimate.8us from same1981 citation",
+    "same authors and related1980/1981 accounts may reuse measurements; no independence assumed",
+    "do not infer measuredQs or directnuclearshape from localCe electronicmagnetism"
+  ],
+  "next": "lawfulpublisherbody access, actualpage/figure/table scope, compare normalization chain",
+  "not_blind": true,
+  "course_credit": false
+}

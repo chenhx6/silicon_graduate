@@ -1,0 +1,100 @@
+{
+  "observed_at_utc": "2026-10-23T04:53:55.658202+00:00",
+  "scope": "Singh 2016 Eq.(5) triaxial geometric coupling and inverse deformation audit",
+  "formalism": {
+    "geometric_coupling": "Qt = Q20 * cos(gamma + 30 deg) / cos(30 deg)",
+    "quadrupole_expansion": "Q20 = (3 / sqrt(5*pi)) * Z * R0^2 * beta2 * (1 + 0.36 * beta2) with R0 = 1.2 * A^(1/3) fm",
+    "pairwise_degeneracy": "cos(gamma + 30 deg) == cos(-60 deg - gamma + 30 deg) = cos(-gamma - 30 deg) == cos(gamma + 30 deg)"
+  },
+  "cases": {
+    "ce131": {
+      "Z": 58,
+      "A": 131,
+      "Qt_eb": 2.5789,
+      "gamma_0_prolate": {
+        "factor": 1.0,
+        "Q20_eb": 2.5789,
+        "beta2": 0.15004489792100226
+      },
+      "gamma_20_triaxial": {
+        "factor": 0.7422271989685592,
+        "Q20_eb": 3.474542570770493,
+        "beta2": 0.19884099211588818,
+        "delta_pct": 32.5209952960725
+      },
+      "gamma_m80_triaxial": {
+        "factor": 0.7422271989685592,
+        "Q20_eb": 3.474542570770493,
+        "beta2": 0.19884099211588818,
+        "identical_to_p20": true
+      },
+      "gamma_30_maximal": {
+        "factor": 0.5773502691896258,
+        "Q20_eb": 4.466785827639377,
+        "beta2": 0.2512058259660461,
+        "delta_pct": 67.42043844656716
+      }
+    },
+    "pr133": {
+      "Z": 59,
+      "A": 133,
+      "Qt_eb": 2.84,
+      "gamma_0_prolate": {
+        "factor": 1.0,
+        "Q20_eb": 2.84,
+        "beta2": 0.16024474788870677
+      },
+      "gamma_20_triaxial": {
+        "factor": 0.7422271989685592,
+        "Q20_eb": 3.826321649148164,
+        "beta2": 0.2121492365362962,
+        "delta_pct": 32.390758094385816
+      },
+      "gamma_30_maximal": {
+        "factor": 0.5773502691896258,
+        "Q20_eb": 4.91902429349561,
+        "beta2": 0.26775425491196886,
+        "delta_pct": 67.09081479408587
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "Exact factor equality between gamma=+20 deg and gamma=-80 deg",
+      "passed": true,
+      "details": "f(+20)=0.7422271989685592, f(-80)=0.7422271989685592"
+    },
+    {
+      "name": "131Ce prolate gamma=0 gives beta2 ~ 0.1500",
+      "passed": true,
+      "details": "beta2=0.15004489792100226"
+    },
+    {
+      "name": "131Ce triaxial gamma=20 gives beta2 ~ 0.1988 (+32.5% increase)",
+      "passed": true,
+      "details": "beta2=0.19884099211588818"
+    },
+    {
+      "name": "131Ce maximal triaxiality gamma=30 gives beta2 ~ 0.2512 (+67.4% increase)",
+      "passed": true,
+      "details": "beta2=0.2512058259660461"
+    },
+    {
+      "name": "133Pr prolate gamma=0 gives beta2 ~ 0.1602",
+      "passed": true,
+      "details": "beta2=0.16024474788870677"
+    },
+    {
+      "name": "133Pr triaxial gamma=20 gives beta2 ~ 0.2121",
+      "passed": true,
+      "details": "beta2=0.2121492365362962"
+    },
+    {
+      "name": "133Pr maximal triaxiality gamma=30 gives beta2 ~ 0.2678",
+      "passed": true,
+      "details": "beta2=0.26775425491196886"
+    }
+  ],
+  "all_checks_passed": true,
+  "conclusion": "A single transition quadrupole moment Qt cannot uniquely determine beta2 or gamma; assuming axial symmetry underestimates true quadrupole deformation by 32.5% at gamma=20 deg and 67.4% at gamma=30 deg."
+}

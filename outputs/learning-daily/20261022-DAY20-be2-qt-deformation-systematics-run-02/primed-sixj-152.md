@@ -1,0 +1,1 @@
+Frozen 2026-10-23T03:28:46.648833+00:00. Generated table with fixed base spin at first bottom slot fails rigid J4 control. Manual9.11 and SIGMA TJ suggest fixed base spin should be last bottom slot for J4; not corrected/accepted yet. Retrieve only linked official GOSIA table writer to determine encoding. No fullGOSIA reading/execution or actual experiment claim.

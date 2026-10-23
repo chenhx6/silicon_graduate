@@ -1,0 +1,3096 @@
+{
+  "observed_at_utc": "2026-10-23T07:08:24.923816+00:00",
+  "baseline_head": "2bd2b513b79da6974a30f6cd90be4a2505ac4cdb",
+  "baseline_initial_status": "?? outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json\n?? outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/run.json\n",
+  "review_scope": "Draft file ownership inventory, not final science/H3/publication approval",
+  "included": [
+    {
+      "path": "knowledge/index.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "61f228854d1ae6f4d9aff7e8cd233b5676de5279e9e19d709075d41601bdda99"
+    },
+    {
+      "path": "knowledge/methods/coulomb-excitation.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "b351b63393e38ba7e5371783ed8ff347674654a2128f49b5444d263eb5010b89"
+    },
+    {
+      "path": "knowledge/observables/transition-quadrupole-moment.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "166eef38f49dd3e7c986bd2e5502c194c40bec91c1c18b476eb501fafa222d74"
+    },
+    {
+      "path": "knowledge/overview.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "2b15603314d3629d2064310bd12e1235623aeb673bb7565332e67921ba562a78"
+    },
+    {
+      "path": "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "a8713d4ae8de67ae2cd7f660c0ce0a9301cbaf9013f9fbdf57dd39bff9cc3e86"
+    },
+    {
+      "path": "knowledge/research-notes/lifetime-strength-audit-165tm-136nd.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "6f7fd74736ef4feb29a81f05b9ddb9239ded2edcc3c2bb513dd507c2ca9ad625"
+    },
+    {
+      "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "f91eb9ef2465457f8c68a7c5cf2c7cd41d05e853dc83ff08bac7364b80e269f4"
+    },
+    {
+      "path": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "63432f770f2413ea6ba48996a5f85e6cb55ccc326e089fff30a0e2c5df5b1767"
+    },
+    {
+      "path": "knowledge/sources/babra-2019-deformation-change-136sm.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "86319fd0e764ba9b1c04714c013c05fa727f6657b800be3237e470e956d7402a"
+    },
+    {
+      "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "81480774259da4eec8121289fd5710313d8ef258ade6581fbf74ab98455b02e5"
+    },
+    {
+      "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "ac5a540e440a3266e2a65eced012d71069cc77ac06866ed5ebbbf10b2bae82c4"
+    },
+    {
+      "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "ddbf08673e301060952d2eb5020258d1873f7d2da2b6e4e5cf5cea4edc5efe93"
+    },
+    {
+      "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "be06c6a1ff4cbae6c4dbb2bdd6293b9bb9e9542bd5c1d5c01ef1cee9c9d1c9e7"
+    },
+    {
+      "path": "knowledge/sources/ionescu-bujor-1998-static-moments-129-131ce.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "1ea60768f85fc993756f15852a209c5e0bc13922b084312b2b18ffc43db1fb28"
+    },
+    {
+      "path": "knowledge/sources/klemme-1999-lifetimes-134nd-neighbors.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "9075eacdb8b121b8ea86f1d0c2ae0a69503564c03a718ead216ac51b0b421a46"
+    },
+    {
+      "path": "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "502e01a0115d5e088f1cb308f88df7d3e620dbdef01c881208e87e9c8eac764a"
+    },
+    {
+      "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "a2915a9352f953889982f3f62b52fc626d0f40ffb3ad82e440644d6e2899ea1b"
+    },
+    {
+      "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "a05bd47924892d5ea8d2e5e26ad4911ec837a1ba41556594fc780258438b40f5"
+    },
+    {
+      "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "cd9f4ae6fd15b69cc6b4b449c2a1a58c59416e092e09ae0566867d87ff831b4c"
+    },
+    {
+      "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "ae17670718640a3234d62a488aeb3a941d3a1f42a292e2f17fb45ef1fc0919c2"
+    },
+    {
+      "path": "knowledge/sources/matev-2007-a130-quadrupole-alignment-additivity.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "86d459c70b641b957e5acdfc85470239bcc130b3f299b7199869728f8783b3b9"
+    },
+    {
+      "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "249563fd17e811c85fca4da15f33d0fc7442619f7d82dd0162b496032b5779fc"
+    },
+    {
+      "path": "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "073e79acb150d882ac5a85e72e1c4a5915fe5106b10497d800082c2ab20b3e20"
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "f878625ec4e944ba14939d1140b17206c759a0cb155ad4919476566e5a6fc89f"
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "b86526cd5856775f4164679193aa65ca29c6a983bff84fa963aee340eb51e6c1"
+    },
+    {
+      "path": "knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "1a84bfb8304becc93bab5aba9f0a367f3d4e83a49ba51322fb0181657b3d0501"
+    },
+    {
+      "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "3afda48ea9c487f0def2f057d9e19f50aee4dc5b9f85194ae9a6023182b77f9f"
+    },
+    {
+      "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "757b623fd2a42eb70c35afcc8d4b61132206b7058f036e9d8effa1cbc92c78bb"
+    },
+    {
+      "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "f5ad59679ff17f2880bc6ddcab77c7a50546ac16b7d9ce9d2efa88f53d47a728"
+    },
+    {
+      "path": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "6c4743918a362556008169838583c526e17c5f2b6290497166a50bdd4fc0ed59"
+    },
+    {
+      "path": "system/handoff.md",
+      "reason": "Day20 report and required handoff/log synchronization",
+      "sha256": "23dda5cbd071b1b258045415df768c935b3c74f4e0cdb436f753fdfc9801010c"
+    },
+    {
+      "path": "system/log.md",
+      "reason": "Day20 report and required handoff/log synchronization",
+      "sha256": "2083c0ef37911546e90ad3385c47dbbee2f97028c9b13115b8b52f7d0db25668"
+    },
+    {
+      "path": "system/scripts/day18_babra19_singh16_qt_audit.py",
+      "reason": "Reviewed diff: guard-only retirement of superseded Day18/19 generator; preserve original body",
+      "sha256": "9dd5910be435caeb98e59ba9582741da3bd22252d210ec522a8ec5f84e4b40c5"
+    },
+    {
+      "path": "system/scripts/day18_qt_boundary_controls.py",
+      "reason": "Reviewed diff: guard-only retirement of superseded Day18/19 generator; preserve original body",
+      "sha256": "e050819eef681889d3baaeba52b9e9ca2207f012263221ae01dc1fad75c5f3fe"
+    },
+    {
+      "path": "system/scripts/day19_ce131_li_singh_reconciliation_audit.py",
+      "reason": "Reviewed diff: guard-only retirement of superseded Day18/19 generator; preserve original body",
+      "sha256": "ac11949ff209d2cab5cd7a708f09c90ec084824a351569260a4467e06c306f1d"
+    },
+    {
+      "path": "system/scripts/day19_nd_chiral_evolution_audit.py",
+      "reason": "Reviewed diff: guard-only retirement of superseded Day18/19 generator; preserve original body",
+      "sha256": "ff06ee5834edc6ffc97c00ec9f91f9481b9ac055f607e2d4d1f5a04df05e18f3"
+    },
+    {
+      "path": "system/scripts/day19_petrache_hd_deformation_audit.py",
+      "reason": "Reviewed diff: guard-only retirement of superseded Day18/19 generator; preserve original body",
+      "sha256": "3e81bc97bed775992048961b0b3f5025b1f1d42550d8e04afa525649a813a7f4"
+    },
+    {
+      "path": "knowledge/research-notes/day20-quadrupole-collectivity-systematics-synthesis.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "6ed16997c8e1e079f785fee15b7fe4bde6394ff4b31ff4fc1ba4ebd7ed26dd78"
+    },
+    {
+      "path": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "ee3b672be710cb569e03076a1c63f858ee81e67ebb69e6473140828e7bfc9833"
+    },
+    {
+      "path": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "e27a23fa0188509e960459efaaf36f1bd3b62cabc2e12b44cda5915714050dbb"
+    },
+    {
+      "path": "knowledge/sources/barth-1981-ce-local-moments-metals.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "9c0d0ad4ad1b02321f4003573943399c29d058b44f4f7e88dee3532743d9564a"
+    },
+    {
+      "path": "knowledge/sources/cline-1986-nuclear-shapes-coulomb-excitation.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "527ceda9bca012383a7778d76b3a9124b565f5e437fe37972a625fb052520459"
+    },
+    {
+      "path": "knowledge/sources/dafni-1983-ce-isomers-tin-quadrupole.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "87277c3bfed415bc8a3701848d25f76a0dc9f0622365d4d96fbf5273b75d90a2"
+    },
+    {
+      "path": "knowledge/sources/gosia-2012-manual-sigma-invariants.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "4cacf8b8a831da09fdd229c5678964369eae74c9df8af5b0354d87d2d8083ed9"
+    },
+    {
+      "path": "knowledge/sources/henderson-2019-triaxiality-selenium76.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "98d3f4a2204b4798bdb82495ffd4e05df2837ed2efef8a22fd6e738c324955c1"
+    },
+    {
+      "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "00743cf3c61d2f6c78c846d4179fb36e102ae0c4ccf7c44296e0b52425da1ea0"
+    },
+    {
+      "path": "knowledge/sources/poves-2020-limits-assigning-nuclear-shape.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "557aceeb16b81fdfb97e274a14b32412690ee487b9b00745a6d8fd094cea88bf"
+    },
+    {
+      "path": "knowledge/sources/vianden-1987-electric-field-gradients-metals.md",
+      "reason": "Day20 canonical change since clean knowledge baseline, explicit writeback/nav scope",
+      "sha256": "b1b05316f5559d1b1de49ca465df1f66aff44de9db94aae88850960559ac5480"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/a130-collectivity-evidence-map-153.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4eaf83618b916b5478bb45667a5b46530542a66d5b4276423178569647304c83"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/active-recall-before-sources.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "731640bf54ce6223288f57123b0c840bbb269151f8610a78276be9f64fbf50e6"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/analysis-repair-failure-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "35244599c4aa7bc8d67117b41c4d6259e67f267bb05271f6933946947893adb2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/atomic-locator-recheck-166.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9e3a70f33007fe19215092c03f0f45d9b19f0d662198c9fae0919b080925dcad"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/ayangeakaa-metadata-118.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "712f342ed79375c977dff61f9682c5bb3e635dabbc86e649838ed83ae7a2215f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/ayangeakaa2023-metadata-119.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b6f0272239a79ba7cd082a728e70171f2de7ecf82b3a46e525dba267b6c880d2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/barth-curie-calibration-ledger-107.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "493fc44d98f7f80a4cf94021474ba3933fadbd8983cf34226a866232a8ea7a53"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/calibration-primary-metadata-106.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8625eefa1a662c61af0e4a340c1bb1c13ed6b6a7ee936f64fd6a8fa608f0c5d1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/canonical-invariants-taxonomy-159.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "beaf09f9971c8b7c93e72af7f3d56944d687dd15011322ea8d2415c6c4d8b927"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/continuation-current.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3e0b04293502a8e1e97cf77b6ff4eb0cdaf2c1b4523dfc521e9677be39eda4db"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/coulomb-invariant-loop-cancellation-160.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "58bebc4a2164aaaee425f676226d8b453559cba065c168ac96ef2c5c19dff685"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/coverage-before-closeout-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "55676c6514c485e952105982416d1002e94dab024108e76381458b238f290c42"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/davydov-filippov-exact-qs-156.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "84f5ca5a497ab9fd0c8ccaa972b77159cb8609a2148e70a2c5296ee923a4a141"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/deliverable-ledger-046.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cc3c65a220fefa1bc94da7c86eaa3f3391ba98e5384d7eae6619bc9988d7a784"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/draft-curation-checks-109.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "634228212d1cf4f45845dac2755a04cd44ece8b1126eb88346882f8b83a48dee"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figure-contract-043.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d6a2deb3a6e1be669a08e1295a8aa09b9a3eacc68e0ff0c6e922797a37b9b933"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/caption-043.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "791bcb975e50580674a4ebb6b41adb6516f1d9a8bf0172670d2d98b4aae5647e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/collision-audit-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "28bc8bf07c419bba90fece091ecb0e71ba4afaf8617b9cafa03917a70b9b2dcd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/collision-command-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6b7494181c3726af46a583bf7ece7c31a5e64e9a0b4fadc8e41816fe5433c37c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/font-audit-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bf3a4292ef1992dd5ff1f0e274064b875ef94b68f8d6014a8b04899a3e5cf8ec"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/qa-notes-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d6bc28ddb7e3828e14be490ada43ea666395a5c19410f8be149d13c54c623e40"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.alignment.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "44d8a0c7ad7f81e7246cd5d73517977599d4a3f91c06ac0e40f27ebba2d495f7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.png",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "13c31c31f70b7b19d1c48f15131e7364d975e5eb2ab2e7422a0c69d21f3d0531"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.svg",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ec753d3461136698e58c3cfab4ceccabecfe82dc0e9e9adea90752e52aa70fb9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/source-data-043.csv",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "024e96357054555c58204b7672d1aea684058cb536d5e03316e4e6c327749a8d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/source-preflight-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1374439d9d169c0f0847a4f32e8440d137901ed604eb1fe517067137303b6cbf"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/trend-figure-result-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e20d1194314302334d53734774787f7497b641cf5202a5c59893b717e569e383"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/file-entry-coulomb-method-150.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d66deaca76a645cb347ca6b91f589f95851ad63c9a15f5334b7a0882f5387d06"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/finite-moment-identifiability-150.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "93dd25b96bdbbe1ed62e178672c941ac2756ddb064d84f8186fdf307d154ac54"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/followup-discovery-119.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c368e8f4dad56296bda6b25453b7393d20f49d61cccebc0be2f0759d0fcf5b0d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/henderson-metadata-112.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "af366100b162b7e8e7c539bf67de0d6fa6bc5867ef17ff21b03e8dddbe559bf5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/henderson2019-metadata-116.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "85be1f0e5d8d05321024647253b2eada16900943640a9fd0e6078e101a02c53c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/history-before-147.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "10b6b3ecac5c959b49ec93e20fdadb53f91ca2da390d345c9f1552c5f550a7af"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/history-before-148-149.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3660fff6a0bf2753414c5520ab58196856b63fd48fd561d2f13f1a2192254b68"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/history-before-150.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "96433621c91db8653196c2ae83d01a331b5138faa7b24c2bd1cab827666315e6"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/history-before-repair-146.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1a20b4edb3e6d11585d11e18ceb7a06c8d3ec8389509af5a21644e7986676e45"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/index-session-entry-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f95ffbb0a23e345066d6c747e29431139cd8f61ece9fc4375952d8e30d0c0050"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/invariant-network-input-147.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4a6325fcf25879387fb9b8b28fedb9464d0c5b5726915223f6f9179c6ba93498"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/invariants-discovery-111.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6e724752b1f3f91de3cad9c82636045e7226ca892f50854a016692509c4d03c9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/invariants-metadata-111.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1340d4f79e3925e35a3a34a3b578ac884cedf22d0c1ac2b1d1f91b74d5a177c5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/literal-trend-rerun-101.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "82f7128ab44e5d38623771319b18016553e0ac056abe2eafdfdfe8e09be33e7a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/literal-trend-rerun-146.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "82f7128ab44e5d38623771319b18016553e0ac056abe2eafdfdfe8e09be33e7a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/literal-trend-rerun-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "82f7128ab44e5d38623771319b18016553e0ac056abe2eafdfdfe8e09be33e7a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-113.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "df56fe56f48314c9a7077682190a67dbab909883b49118acce9d3bf32e1eebb3"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-117.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "de08f637e20e7da8ca6befa2b11244ee532f9fa94f28d2eeccb3dae975f09fe5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-119.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e2b7bafbb08f58a53b484ca61a5857b439600b4d24e8ab71ce04aeae8b28bb82"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-120.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3aa1adf4f27b6ea81ebc9c892ca5b5b61ad892f6c8aa5840b105d2d37a7a5946"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-121.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f6fa3261b00d52b129cf6c29bb153da18930db845b6da4e1f8000d236613709a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-122.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a617e449ba2bdb456d2dab84b39ee990a7d152dfecc1a99bee8dc4a673c23984"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-123.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4c10d7ae6433c1060778a8420a00ab8560232c825c6acb4aa0982762078d4de5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-124.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "dfb1baba8c2af4c7f2ab88c69adbdb32d07e29026416fad8cbc5d9709f5898c0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-125.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bf96f95f21b5e9c4302c5d1e3d2c08a478066277df60d98117d228e5e2880b19"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-126.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a2b160c175ea56d1afbb12cd64bb009a00e22320698af74b16454451e31a6ec1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-127.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e7c6921e3cc6dd79e0891c913353e20b4fbe80cb29971415c3898d91a19ceed5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-128.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d774dc1dd8717840cb0b7705437953e6eee9521c867e63f9d6f878ba42d86f43"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-129.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "18505d866f37691ec28c8c6cde3b0517f27dbf647f62cefb61642c5b7267f843"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-130.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "75253ce76c29993c3346349f32f367bf79ef25ce9cb6a36e0e50315a675d370c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-131.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c69d72be57a8fd05ed1f79fc96a705aaf539b81c8be198a2976531de96bbdd8b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-132.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ec4326eab788bf0bd91e20b176887507b9ea14e00942c4091c7a90f42402fcc2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-133.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d1aea03130f1e7b7ec73428ee455d7eb367d72a82a14dcd3d2b1ec2f3d86bbcb"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-141.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d19e0812454c169d31a3c8d17e928c3c67db2349831263d15f3e2875ead9c6e5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-142.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e2e973aaa955c6e2c553f996460bf0607d2fe09e1cd1ce9af2e2f28008fe2cc1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-143.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "29c2826357a5ddc5361363fee0744bacb54ad37bdc2625b0602f07d999fe5a77"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-144.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6faa94e4eed41914d83ca25577de24673aeb2cb91506a4e1f92071789db9dfd5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-145.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3d4a1166b9f6b9a367506090c315f4ff183d37fa985bfa5a128eda3ef025b596"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-146.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "26c2acdc6f2bc0dacc5d7afad81fc487d49142ff287f7201ec234a30b0b895c5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-147.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c77a4e1258a2e66ab1bf79cce53f7e1c4c68f28e1c94a71c5690604f878f3698"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-149.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "de0a86eef0e80b558f2124541b4f4d4609771f6adaed06b3b1ef3500eba22a30"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-150.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c216e39fab3ff401ecbed33152643324ad9b89999205d047486ddbc0df4ee6c0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-151.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e49f4a70bea06fe45bec3dacdcf6f23a960ac195c72d05509365c4647d276cf2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-152.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9f4b8524f20ae22a6ac3b5d3133896f74616bcbd369696dd9db1df067f9fe17a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-153.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c452e514e7de949dcc81965c454df2335e39d63e0f16e1b2c3a86f67a1ed083b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-154.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c32de79fd4394f051a9760fa3123373ebed8c270573128fdacf9e95e99424c30"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-155.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d68c5973d0785dd7fe593d73c6482726c6503e8f5e84633e5a13894deae17c75"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-156.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3981988dbed7ea5ebe88bd8983ca53664f0aefc2e0038f6fc03b385b81e67e8a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-157.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "792af4a6ca9c5ae0f36011c26bf1a3a92cc7d96c04c6b11296da6603dae33a10"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-158.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "65c5642f180ef310cb2b05d8c4660a0a93d6c8312a8c8aa612cb96cf7ba094c9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-159.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "800345624099987201a11b838776a7406098ba2e4db117380ba06d2f0efa4963"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-160.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a4bf89e44ab3fe5138672a55ae2975fc820e2d13632462edc47faa25fe973c85"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-161.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8e0c4a03b439d28795104d0de8bec70ee6ef948c3933bc583c320b5beb1e7958"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-162.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7ab2b370b2f7499e7d326f430924ab23720a17f75d5c958f360379f022fbc718"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-163.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "85517f25b6d7cc9b6b21fa2b58b4177761d33f9dffee4fa7a135a773e33283d0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-164.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d392ce909749fb16568423aa460248158d3b9519bacc2546ae672cc6b6859d98"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-165.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a34d0e075134f513f82f49c13ee4eab93e77415a3523ef5411543934d50fde8a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/next-continuation-167.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3e0b04293502a8e1e97cf77b6ff4eb0cdaf2c1b4523dfc521e9677be39eda4db"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/poves-metadata-114.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "fac5e6ef398c5056e799f875758dd8eef931f875be532db922434b1f5c1e3623"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/power-mean-invariant-theorem-158.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3ab8dc004ccb57fc70e4089df04a24f766665a18ebd4cc38107bd7ecfa3df1ad"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-companion-recall-003.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "539029a48ed2b8541dd9cf980d510ecd39e62cd3b5adedd890408ab01303a1c5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-040.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5f83ec48bd994a9d5ce0215181deae5f7f0d053f72afe290b5bdd904ba5732d6"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-041.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "877e7cebf0fc5eebac7eea6c5beffc76597f2d433508116a45ecba94f0e79117"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-042.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "eff55b56569a83316a314f1783b245e67519e95ad0c65a1611b9212400f810d7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-044.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2ddeedd91cb27f2e3acc9a01e246f741fe53d5fb40095d6f17e1a658f09347ed"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-045.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3d5ce357069dc59f0f35f01f22380e2d9374b9bea93dc883cbf97c84d9054d4b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "89681b553e50ef598ac009f588512ab5a6bde8924dcc5209cfba6bc7dbde00bf"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-105.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d5993b0677a72a42100a88715cd40dc65c05befccdecce28681d6aba1dbc2977"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-106.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f82114ec11e9a08d97f0b5732b6ce3af17869c2e3e4f38a7bbb151310856674a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-107.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "423050bda71762ab5717d0afa17c9ec822ab0602b87a2583b4f423adcbc3b380"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-110.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8333af0fbad027992b94df2e4abb9e5759c00fb4d0099c3524477109d6a1687d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-111.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "516dc7e85825f09f519ca0783b48c422ff19309858a2a45c99809605e3bbe701"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-112.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "fe207a56c20f7ccad894fe2a830cb6b0397d5fb0b4a74ecfca7ab93039d460c9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-113.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1036ca4f548d430860d7f7c93a84ce5dedfef505ab9ed22af62b9e959c6f288a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-114.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cd28784d6483bc446f915b2b8387cb8f5667e71583e63821837f2fd13cc60511"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-115.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "818449da9c14ba991f115716ae376345836b035a58c21d5fff685be647ff01d7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-116.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "abfcb58966a92443c9cecd7ea598215e45c0be97ed27a89cfb50798fb0827d24"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-117.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "75add59c30bb5fc2bbcd34eaf84a4a050a236e2370b51025ebc0ab8cec1023da"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-118.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "729bd0283b593cfde913581c2b623e30da7c6cf065c3b8b2f1aaaf6da313237f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-119.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ba8f9791503ad65be7f8b099dd85384c3732d978c66e1a2aca69d793ba08a70f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-146.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6bf66ea209e4021ea933228bfd1b50458ac91349ee4d3a26e70e84db90e24601"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-147.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f4c299a9858b8906321654bf97fce57132931f3c33c5bfc19d7aba090bcc158c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-148.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "17e82a519a96777e442dc16e1e6dee6bdd1caa84b8a1413c61525aebe1027c4f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-149.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3a469255dedca1e97a4f9aa1aec16ac394435d7ea8882023659f0cfd178efab3"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-150.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "23bbf4f41c117d7f9e9008ad057da4886b8acf31e8fff8beaff9c4b1de3495c5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-151.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c477dcb6e797627653e0734f47f250c8648e72d058a848fc5e250b1860161aa3"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-152.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "17b285939a59918b1d2ccddc0c24e6ef371ee0d2f9ae4a6b45ba19c5d990db45"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-recall-153.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6fab0287bfebf4e81be75007f170deac059bb875e0ddfbd8992b0ca0c9fb968e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/primed-sixj-152.md",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6aac9c6dca603ceb5175845be512a170da89fa0c86a79c5ab77d5b11e51dacbf"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/project-before-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4d10149e66384dd8e5d5caf42099a27f0a7d0bd42abd76391cc3a9a9ab35ede7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/publication-ownership-inventory-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "562189b2e0bd4ec453595b5b1af634a929f6d68a3e3110e2f736639fe898ef2c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/publication-precommit-entry-168.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5de0411e576b154f7ad32758ce1016ec89cc109e9fd64ea0c0e695d338d33497"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/report-before-closeout-168.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "17163cd98253043174eb781c4473611bab8a78b9387d1973ed5fb5afdd1e5e02"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/report-history-before-109.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4e99b1d3d9f6a4df9d0094bcddc6b1d224613a8879d04cd21cfcf7187f29dcf7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-001.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4d6ea63302f4a7be230ba013c1fc528f3008764c2a0b3c651466436561a8be81"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-032.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b5b216248455bfe58e45726a699c028405c951cf7ed4a44433accf8c0c2ade2e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-033.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ee8a8677111d1cda65832e884dc8dafba448c5c7a0a59a2ec78f872ff8ad0e59"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-034.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "04c296e0f5651e8dc8f3ef95c63ad015af7a5309c06b1cf9004745a3d86e4243"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-035.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0e1fa8cf4680fd140056a0bf6b6722783d9b034fc3f06655d91c8e1c740e78ff"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-036.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8477d9bb94ec892db3741474d1fc00e8e3d28466c57413e0353a250c6ce27614"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-037.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "096f1f4cc5110454b026ede4fe1022e45003ee182a3e73f629cdc4e179227ef7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-038.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c0c25a644ff61db8b77dd2793e2952008468397833d4001c7bce6b4eec49ab56"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-039.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "035a83e6565fa4c77b7eec22fc4081787b9c721411bdb276b610adb03e043895"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-040.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "516675d9c1da636f54a64f8a467fa0470976628203c2378e9346e50e1224fb68"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-041.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8e4fc55974a5d8715b4e6cb2b29fa77efd57899315db34fdb86d077184ac9a3c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-042.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c9eb5cf77657cd43009fe62e465235f0a228d4d224ead56cbd53e8bcfdb71cd1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e48896a7779641538a6dd6df251d4fa2d9214246e0263e1f6eee6737cbc93e19"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-044.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0c15a5e17f834f8baa0e7143990ee886b1cddfe3c889c8c785e2f5234c407b26"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-045.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ae3ba397c01883f100327d9b81ba2aca2d0d4a56445bd9469e6bd5a4fe08177a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-046.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "909aef6c02e212aa98b2fc2248cb35192bc343ddcc8b5719b658b3df55831207"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-047.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "60186678e1751194eeb00fd6943fd9edd9bf8148f6886882324b67a9796d7d19"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-048.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d135561c8bcb265010b6c404bc799f41bea0669aee0602465c5c3c17e0537730"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-049.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2fafcc1b9e9239518ee85cf24df5e062a4d3b087a8eacc9a681a38c7859a60dd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-050.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a99f218203883279e962b69ff1e01f6c7cf9fae6a0374cef0ef216218090ff90"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-051.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "93054dcc819f5794d1c4adbde45827229bcd8bc0754b0846dce3cfb5fbc14748"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-052.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d7a0addf70aee1f917a9ebbe64786058042e69836cf0ab6d915070d98d54468d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-053.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "445c742723bbd688dacda9be008e7f1b3e0d7d9238d79647f84895cc55f3e0bc"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-054.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f235467c49491fc9526232f0b54dc1e7028ec266897e1edfec53e75d056bdd49"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-055.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b7e0eed7ed8834093b35f5094b945dc6d5702d2c9a7f97a954973ce697128c3a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-056.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "98335c82e9092b33a417abdc7cc7be1319446e4dde42cb572d2b754c062eae4c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-057.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7c046ef9660e5e3e7ca9fde5f9ccdb607ff98d208b10093f077961b24c535928"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-058.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "464b18d85da8ce250b88c09def544c8dadc278f079ec570592f9e6c610c3ed67"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-059.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "915b7873099e5fcbc415e978c0c5144551899d99afadd428ae357c77b4fbdba0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-060.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e71ebf03e9e7d60b46f878d850d9cefd6152d312c30762c3a551dbaed434ac70"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-061.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f1f82c73ade7efb043bd026dd49a4ffd62ddca0ece9fe89878b980729e27891b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-062.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "adf99bf162c506dafc37d45d7192c62b6a933fd6ccbd8992f7fc3eef5197dcdc"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-063.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "dab62b1ccb0a7fb4142834d5d12509fab8895fc5ab947cb9bb17149684aaa8f1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-064.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f83ebe5e4cc64d1b627f4bb71f68c6cce4476e0bd82c6979e590894f35c82a6a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-065.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "63355df572cc951a2508e1603d9b3d1eca154a04fc0c18d4e94600fe4acf2b38"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-066.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8c8fcf7ef0a0897d51fbcd298b138f71a725bb522d5ca81ee3c9b1d182646591"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-067.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4831c1e2a152b27a9fd5c464e4116f47b77173bb5d518f4a1fd7ad334783d93a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-068.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "41aa12e38ccdcd6cd0357475deadda250ddb852664e12365d208e3f55c23f46b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-069.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e9eff12bc22575013acedacb1d8e9a813a3a8bffc8c32cffba69050a64fed141"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-070.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8b6843ba78a96e422b78320f84f08ef1519a4cc088c2c6fb09fa1908856977df"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-071.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "38a8094b296027fc716f0fec874af75e8ba046e91926e5ac6c3f2242efe47005"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-072.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a447a332495f24fd7314546982b62773858e59d694fe9852f8625f5dc2319762"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-073.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3288213f7a869210ed3fbb6579d10804b7dbee1ffa49dfaa40ec01829fdb82db"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-074.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cd8777d85de1e53db2972fcd84a2c35a4cc935e2a62c2defd3b702e0e0210556"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-075.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9f73a1758bf20a4730defa201a11a1f4d96ee3b10dee64e28a8b0a7564b6f10a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-076.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7da83dc8bdc6304d5bb63a53978a971d013e107395573e7555d3015297464191"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-077.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "71027d28de8e8f84803f24aa39b3bd699d8aa3aa74c24b97ee3944bc26e808bf"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-078.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "81a935a8825fa1621bdffe1997e2402ca10d6e7a47d88f20998a3c45e48bdf04"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-079.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7ea9fbc4e6844425bdf13d1d00fef61c038a70be585df000a88bda3904419daa"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-080.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cb2f66ce55cee460800e7c1d29765cd6e65228532c9e0978e71f4f9ec4ed9b28"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-081.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "abcb4953bc3fc2bfe97078eeb622184a45b7a0646e83e0e9eca78d90406a20de"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-082.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d22143436b1b7b8b561f55687a28b5d53187e34a210f6f77199b1e310452e243"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-083.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "fd02c853eea25f0e54bd2c30b67c8a1292f604b2a2d08d9673b7a07a4f404617"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-084.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a652325bb09334748f9f2692e9c4ce8e4e72b65d897131a130e3443314aa5f5c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-085.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7285f161037bd2fdbf7ce30965adb1c278f345bfb589fbc0e4de280bfe8bcf1b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-086.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c027e521928cd7839ac301f04a3fc6690958daa3a67587412bd0dc96e60e444d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-087.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "04dc9c001a5c30960cafa328108d58b94535094be637364b8d9f5b94972357e9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-088.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "16bd5a8a34e8cab6c56ebc4d7cd53ab6cc11f61dc47b0bd90a8a08503b5a15a2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-089.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "61d0adcdee2d5bcbc5ec1459f02c66927db97b1a5862adb4d685a69dae04c034"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-090.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f9609c0b941cb9d6b9968853f60177ef2026bda7e14fd0c4c975d5962a12d5f5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-091.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4005ea8eee8ffae19f162093e7c95a421596a3af99bc48936754aba52eb50a78"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-092.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "be1f6fa4f0c5b96c67690550a42e266426136ca6df5d9079f009f0769bc81e02"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-093.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5f652c7966e18a18244af4207e26059885d14eb11534a460eff818b5e1e5646a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-094.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e7be024d51ce823a26923c266eb0ea7de75f5476e10666d2fba3ab4c5e249db1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-095.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9c833e361111f18b0ceab02b31fe6b904398d2d65b3468623c917e716427f302"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-096.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b39ae4166a5a9b04657cacea61164086b122c92de70104f3ecb4303202a09e25"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-097.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a424265eb7e9d820b298c90d3f5901fd7d148ca608e4ca870491d2fed2ec2d8d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-098.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0920a1fa8b1b5618e712ffc48e463789e5c813f6998245d9c9562ac03a4119f0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-099.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d1df2bac1ada82444efe0f6352d43c129ab912f513daec3a8c8c37f735a73502"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-101.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0519a3ce04e573d647d9de39babecc1a3dffc34e4dbd0b1907c949cebc291955"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-103.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a0fc9de5f4a90e61bbb5bb9c76d255320c1e481a155e3df8ec08cea0855420d1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "952041a9b3c3436caec140cf6c85cc1cb552cae580ad6eb3c717c33b189db96a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-106.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "406de3612775d6c2dd97c600e975f046983f66edf7014778e8ccfc627cd8bfd8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-108.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "591ef5afebaee0bad44a4149ef34667bcba4f1239336dd4f2675e09f39355bed"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-109.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8b2c13d617b000cf886a2b7199cb07b39d4048fdf8e08ab314284f7faab047c1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-110.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3bcc8aadcb4df877e8d721f01e4cfd7388c4ebc96b06be86a29d44e38e0438aa"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-113-revised.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cbbc04cb2306c716482cc81caa39063f5f7b7e046cb2eca7317d039810778d53"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-113.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f99473bd217c689ef94cf242342b86d8f9d85d1c02926cf08ec7fee9c2cb2f90"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-115.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2049b7aca7fddf62a06b1670b9e533c906e55051d2395323de33bd09192dfb48"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-117.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a6782526376bcf447ca69def470d1a692580eb6ab9a59917ed23c4667079a0e7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-118.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "802f20dcc439eaf3bb0fba91e0a1906447f10746eaa607cdc7a94a00d86f5e54"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-119.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "568d3bbdea7f47247b31b75ffec45fbe7f743de7fb8295f42340dfcb7cd5f7a7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-120.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c0ddad98434140d6126678a1ef83ae82d701b9e733e5b26e54ae30138ec1451b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-121.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "56421edb8e7621c9c349010ec90ad6db31ed7cbe848dc534063e5af229537732"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-122.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cf65d405010c74a917ba73e95c578c85beaf4c2d8f2cfd091095a1ddbcbdb521"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-123.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5fe769d447857135763332d33f073a33b6bc7c5d95d328272830f96e9b888709"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-124.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a038bea99bae1ef47e3622041decb572417ade9a7f634c701aca991595caa9e6"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-125.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bd3beb7760bc2ead9d8c8d06031adf8893c83a63e341b8ce3d74938c13529dd7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-126.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "36b1932db268ea8285df845509b75a5b0834b4ce29ad38937dab56ac8ebf0400"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-127.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "933a32af35f75a8e0797117c32e8f11a42e0c5b15c2324b996b48af7c723a55c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-128.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1d5bec2f92729006a9a1c0f8c3b2b6e54faf041300c8484749f0f0ad821e91f8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-129.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8d1149d9099a09b0a25d0217310e5776f243e0df5660cc026ff52a5cff75b7b0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-130.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ae6d8f6a88e599dcf6f6a888683adf221f2b6585d4de3e6c1daa4c2f49c4af82"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-131.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9edc4f18adac7d928d065134d5964e9c7e3b807c9219eff05710109b78d59cc1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-132.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b2ec7bfc8edf1066a12a24dda9df2447c526fae264569ec7ff09d21bee195f77"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-133.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6a444da08f409077adc4590827526e22878db65679ad45ae02615cdb27519cdf"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-134.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7652fec19fc73b3c2443ba95346857ae9036a5104bbcde8fa7ef9fe72ad793dc"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-135.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f679747922fe2c5f5df070fc733a7566b192149ad597fb274b45accaeaf0b32e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-136.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d641424c38b6a368b05b0c490662c309827303066bb79383abe343638a2c27f7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-137.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e30ac80e52862794e4437fdbdaa8bd8bc554c5d18c909171105a142bf1e2f8dd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-138.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1e639bcef3341773a7905955533d6c78d320bb4cc5d03f72c94e287c41c0a0df"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-139.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "94c94120c8a260ade958c20d999be627ddfdafc8a3c16ce5149ccacbeb56aad1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-140.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bb56345f73ff865c76044792a4bfcf94928b0b690bb1dd53bf25db89f0f9e323"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-141.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1e64225f82ccb8a530b427e9465cc56b6fa8ea6ff0e691ef6b7754c67aa4c999"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-142.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "27642b2db3f0091dd3f8c08eea1dc098f091db1640a46c955ba89086953f1745"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-143.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f58438af4cc3cf9a97e19f384e0f407cdc518ab07c2656401736cf4e07092184"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-144.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "30b5f21c4d2e551184eaeb400a01efcae533cd4e3b64e91916a0ce15e5e4822b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-145.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6557ab520d9333d077a2d4cf61a8ed93e27df503ec558a90702d803ab0caee44"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-146-initial.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "275bbd99839034891e4da72f8a4030c1f67f6b9aabc51a26f18b7cbfd4007696"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-146.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "84003d9004f1f9bf9ec55558bf2161b8a3f9b3128ca8de844f93c7904734b861"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-147.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6122586eee8b3e123100c89b528873784aa8db5e4f0a97d630f2ea83c8c17f0f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-149.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a2b3d8b408d20a030a053f9bb979314b7dcc5c230757880b6f037b031b6e1a78"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-150.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "97b6b1d38577cfad840f125daffef303eac157a53e4d06407202a00607693e27"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-151.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e3d48327a2de8e425d9fa44b2b13fc0c9c72ade06f0cb54d38de474bd9eb8325"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-152.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bde4a4911b9e3fe3f1c711e512350ac0241a993240f0d85bbaa95aa6e37cba15"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-153.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5a0ce6edfb1b822e65b3a144cb3a85f3c98cf9996d92362c2b476e56f125b002"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-154.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f443be872adf5ca0da3c91f26ab78316a878a5d88503d645f056ff65a9d5271d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-155.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e6932cc5b84a291e21da8f914c881d5b9a365e92b1fff7d29d819677d8e32f3d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-156.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0e861620eedc3b0fcc0b73fdc2a420ca8783afcbc97982e2260dd282eb40a6ce"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-157.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1cd3e7e40f89aa232ca24b57c92d6dc272960b166f9e0cefa0a452699a9235ac"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-158.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "703a80bf60ec661928488343945a2dc4048034898f4010b0ca0f7eb3be052210"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-159.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b2239dae49d5cf376ead0e72a0f9d588c323f592425ae348bcc5a434c413cf93"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-160.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cd3a575de4581a54a81dc428c7b1cc6282cfca1b6d07b33e62ac8d95a09b7bad"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-161.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4e8b087d5dd69f38d6d0467a62539fbb9ba53998cab443d95aec6628ae7a435d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-162.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "78bd6f2072fab7646f0cec08ef81e4f165840e4f16ddb867ead3e9cefc04c8db"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-163.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d4c8d9f91e756e3b9ecb8dac98f65bf707f80cbfc532fe5ad2602be016375b36"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-164.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2d54ffec31f69c6020dd399f653ffd020cb7d33b36964dbc17cbbcbac03f8660"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-165.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ce5894a55e8860fb8a05c457ee54d5ba49e87ae234b7f5c2ae59d91b6667cb68"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-167-fresh.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "737a479300f664059f45ac7927430284a0c60235162ff407a95e30e821d271ff"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/required-checks-content-168.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "84129c882da465763963af228de5dc0293aa249bfdf9edbb0d0d99137cb3145d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/requirement-proof-167-draft.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8f12f05e7b46c63799261bc1375af51cf1e2bbf7a5b64ec7c07279e13749aef1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/requirement-proof-168.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f2e53def285552234b8779c7257d22ced9460458cde1014a21fe8af87ec31201"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/retired-closeout-negative-control-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2501ad888a86f4811a1e9cc028ea5e57f41db8f01fc00b7e132e900e495e96ce"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-001.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c5c69daf68f5ec9d3a0b7ab6a5a2660bbec2fa1efa7c3fc180cc48b0d337ca54"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-002.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4c62c01b4d39eda93bd4f8a8140b3a867840ff91b1d35648319e81ffc011bfd6"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-032.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1ae2359ac27c2f1e40cc0b5769ced4042743da891d23400e198e02cffbc9a3ff"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-033.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "73954d7d8bea0946598d7bd0a4979c1824718970ce1ccd6fb25e6d42e0a04c43"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-034.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "026b011392cf29e4fc2943550308c7e01646deeac1927eda3881dccb479e0268"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-035.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8eb59abc8fafc0b401a8f0882f6da87c2d32326690f495354338a0b05b6d45db"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-036.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5e3660a6292d61f66c03ac70837b8ad2d2956d2fc79e081176c9f5604f7b3f83"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-037.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "584c8f59b5e8fbb6297a3c24e81417422884535f52566d50fd89a05ef4b7d49a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-038.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6b6c680035dff6217533e21cfe64b2e009eb3ccf57a7e23f5355e45bd26d4595"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-039.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4228ed046b1b19f6fd9371237e7076700d17344db425be677687a5c41c1ee3f9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-040.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "486243ddf4b10c8514b20901451b9e05b2710250ce1500de794d4d7ec399f096"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-041.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "75781e6f3d6b04e08c711692fd16a5284429e4a1fb5b697e5dadaefc87e97556"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-042.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d17b842d17408289e4f0117d537b501aa7e8b8ccb7d96cada3a0e43a92ed2008"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-043.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "23148b08b3946684bc624de894e50a836594bc9b2455a1de04e9e95571c34411"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-044.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8722848db1b88f32d9840511a7f2baa6682c3f9363202f9ff53ba985d3332ec2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-045.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "82c0c488c9b693c23e847145aac9aed1829eed0710fa5a050e60644769b103fd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-046.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f3c8c75efe550b78a7e640b9f8217a2e7fdb1abc64722c15889365fbd6609083"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-047.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "40905887714c6b958b7a1b76d673dac31cd392d696823146195493aeda7b48bc"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-048.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8c92bc7f6701bca641a9c6206790e891e5f90e6c5f7332b14093060a3f5c7732"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-049.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d6a762c76cc104a8c76f98ea2b767dfa51b39e36380d15ffced956bcb3d78505"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-050.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "180f391e9626f1f247ac791d2cb1d8a72a1641f3a0d298c1498a725065e903fd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-051.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "38083573f1e6162be56c01745da7e1bdd50b6089b82b7b9df27269d31b1dfc2d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-052.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "907037c02e842bc71af4da93d296b23ac94f5b64b899f72331ca112e9d1c124f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-053.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1244c0db1ec9ed4ac580c5f2194024147b5dfad1f30fb839fb5b9eee902ddcfe"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-054.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8a5c6ebf3ece0382f9cce7c1ac6336c8a2c8e4d6494cf694a425989491925298"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-055.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7be29497667b27ebb35e43d0ac99b88f60f3108ffb68ded36633aa5535457226"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-056.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "83687e13d6e384737f552c3ab28d5eae751082432e193bc7a528fb541f509d51"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-057.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "56b1a053ffdb7151b39485641d0db9da3a6a82c5e7233b595f8e340cb5821810"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-058.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c734544c41d000a67a74ccd51a6856d79d621d46ee5c4a02e4350e02ebdb6f40"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-059.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4158a65eb0d76584d0582834afe7ffe4bdbb692f79f51cbf77fe9461211ec4b4"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-060.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7c441cf2b1cff31e40157e280f6fc2fc8973898a4122a239fe900685d9327505"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-061.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a049e4fd66e83fd63f73f6869366650206619e97dd82ff2a1d4f4fe612610d43"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-062.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "92a386d7d99689cdabbf06a66c0c8c31053e49a9af41bc51152e363c361dc343"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-063.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "337a7c2c4e8df75641ce2b9f4efb72a9082f222c0db48bfcbebc49f3bbf60a5f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-064.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0eddcd7fadfbca3819c3b7be95cc7e5c55a22586f951f1efd732f4319f54f9e8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-065.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "1d1a190536c1af5894f0cfe65a4a7de91d57b0f9dc1b23c74b2ef7f426223c2c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-066.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "29968a8d4294e5779281eb7b3e221623ec8d187bcf8168b34ee001381c647a71"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-067.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e66b36ceedd15294e7ff28427f80e89a460ca8d9d7f78912f39c0c40cb690bf6"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-068.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bfce0d27df72168a9109411c0cb049f4f7b38e2c7ec906dfd9e9345bf69e2108"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-069.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "91450b8bae1410cc1a2c0f678547c74cf6c4c6a12de9a27aee9956901eb7b844"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-070.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bac416daf799ac9f6c76fb6bdef1df4fb512c074e280501a09c2269b5099c3b1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-071.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "43cd9051d38f8defdd4887a8ce945312eda003b70c19018b9c3beef08d93e0e1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-072.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "df289b51624b4c230e0a841703f61b482ea8fdb07177b6bee4207a9a7c2e9d3d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-073.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "28690ab20070874b4fa53deb62b3d41441901a8624324ea4703ee8aedd1d6a3a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-074.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "fac5508ea6100ac74ae780e70036628a2d27719a2270b415099aeecea47c7339"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-075.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4d8d4dc254e30a5aaf5e0783d618ff442470c807abd9537a686a38a31003e10f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-076.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5f73e1b3f287a5d6312dd5ed4b3953ebc17349e89f44dfc3f5679656c7c8b2ee"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-077.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cd50af4b977b896da98c7f0c9c13fda1c1ddbc79dac0d57393dcefef36f1dfa8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-078.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3403ccae64692f3fbb45db849fcb35341483783d63d42addf9873bf9034a573a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-079.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b0b615c695fdf79bc8c176623c69cbcbe3b0e92213610f61c4511cdf2fc65381"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-080.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "58673dd256dd04222de2dddf0f3540af477c97575f15b8beec4e4ce4791582e5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-081.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "70ef607c5481f14b5035eac4718778816e9f29e63a5c0a20ee3b03db06276450"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-082.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d6d9f071ffc2f826aa475f22fdfaa8cf8b22232089bcaafbec53649fb8b4e18b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-083.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ad93ee7953f6d60936df2fbb4fcd58890c8e14bde327ed657b29ae87d4270255"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-084.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "dcb3cfab30bd76ea43d64496a9ec1ece0a3319e2ddc2f8b291376d104417b17d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-085.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e138cadc1f937521e95d351d627303bf2a6db06386d2fba29f9f5742c1504f1a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-086.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2c822cd0dde00bbab3b42c64a7bffc0f278cdafac67099c5f97ddd4e1d1f4e61"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-087.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "100d64255b75ed2a5d666c59456110035ad94cf140a7e3c9395db84be0cc9fd8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-088.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "598880e4ffd676e624fd696fdf85f55e6d7d02384a0f0653950f990bafee5870"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-089.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "13bddfdff16b3a861123a102b9b22b188a4da81675194fc182b0007d9ed6d56f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-090.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b7712ea1a79a890c3cb51c55f504a6824750800d81390bb5034bae3fe906f29d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-091.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "48d01c38f5c0d38e5c363495a93d2df44f6a47afb38eb8138b2d150a3b565937"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-092.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cdfb4f6cdc89f6bb2726cf4f0df9d5357d811d088fa8fbde42cc1ee28b6b39be"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-093.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "98c830f12372427d8410401ab5582d789bb9b3f29aba6e30894a41d3e7013551"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-094.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "144eb455fefe85bcfb32000c5702cbba14fa6f715ebe80c3efe21ba95d296f20"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-095.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "13c42c192ad23b114e0cd92e0d0eca42d82406f81df332509163f02fe97fa758"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-096.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b305f374cc95d4837ccdda5ffabe7aefc94bcbf1fa69f914d86b0a85da77930a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-097.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7fe718e19e13109da02a89288b470c0e10d7a804eb7383914d31ec417be6336e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-098.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "97554ebd159ca4fd94045fdcd27a5102ba611e2198d63fc9326e6e73fa3586d7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-099.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "049c2e8e8b1e3c20b20e0e959ba09f5b14afb9ea21d38aa1675a7f842db59433"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-101.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "829715c5b7bab6c0aeb768f77e4ba1ac0d44c04ea9e5299f2b7cc9029c5545a1"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-103.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ffd0dead6b9e604b5f3b2330c95b016190f01a456b88d443194c25b3482c7440"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2bd409f5ad39040be4cd0fa46c8e8d410637fa1442e2ab5092ecdb4f0850c910"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-106.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6374f5e4676613ee27aa69d768c943ab059f1c0ac0229ce1b9c14ac522e6d17d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-108.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5817e34255f5963c26f1d065f2ca128fc24e4e8c34758182e5e4f08d586d267b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-109.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "785a935265dd1ad5b27169c74c6b87b172a5236e07d75819fbed5a5aebd72a6d"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-110.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6a858027fe61bd907d0caafa57623934a4ec5e9a7cdae297a3f015d25770c8b4"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-113.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "6d4bcd0f117e7b09370c1aefcdc39084b749a1ce15360a02603615aad30610a3"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-117.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "389a9a7642c371b2c467dc671abc4e435d8c051bda09446b61c8474eb8637c14"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-118.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "52ea6e8399d88158e64877ee19b69c08bb36c5a56b80f55e1b8a53dc0cba5b12"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-119.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "da2b70dca2be2d227fc7d3b94305ddcbe5623cdbe0c06edb05dc0e2ceb2750c2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-120.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "51a04b9589ee8f9edb7ab498c64f5097524726074f7730e0874f662edd0d3241"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-121.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "79d25af34dbf9a1c02ec41af41dd812c84d116ad3b9bd588882b9852bea1957f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-122.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "acf00ffec374b56754fe796dbe363718875ae85033db748accf4b4514f9c2933"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-123.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "8c6323be7f61936ce6e721016595f406ec7b8a9f363fa01dd31bcc6f98b56a97"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-124.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d8875372676cf71a0f66ed95232783833aae8d1d2fab6c4c9bd917b2a983279b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-125.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cc47bfb1e53b318e394f20a8b73d25064aee5f184cc1295bce7d32ff738efa8e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-126.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "76054bad2324709e60fc207529331f646597c28fa383db4b797ad2351186fbb9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-127.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bfd62c164ff4e833fc128b7a8ce3cd057869d1565a2ad3a79e05032b55006eea"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-128.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "590775e9d73f9f6bd6b1640e1515442314e645017be317597b0a070a24f476c0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-129.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c8e4f7363de3b6474d4bffcbb0593e7a188c84d96a3dab4d44d90aeac7797371"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-130.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ab3ab2d5813bd7ef78151e0457a93afeea1b682362d18b7c701063d277fdb4b2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-131.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "fea53fdfdded574071b7899fe2c7ace77def9f864b47236521abfbb1d39c7608"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-132.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "076e2fbb9a41709b4957e7b41180c080adf2235119dc5c673c5c330370be6050"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-133.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "ee8ecb0b3fe300ad867dfab22ecad2716c3dd2e8cf82bab7bcd08783c1cad53c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-134.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "aeb66e7c9989873111c2007385f6747e408757ccf5fdc015a4fa70ba915f71bb"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-135.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "17e98ac475ad3bd112ef418f013aaa9b27f121764ad67f73c80a5f0c4bae1aec"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-136.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "88eec039b9c0e200821caa65f037526bedc81c4743ca6829dc88a89ec27c96b9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-137.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "e7796a9bb59d8433a2343fd82e882ffe78d91e325005af2cfd7983bbf650d508"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-138.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9d37caf6c7c520f0cb5711adc4aea963a342adc835ffdb81d7c395412b80cd66"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-139.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d1faed0f0b2985fad58d3499adb4589d9a6071d85d2a70241a7fef9a4b323334"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-140.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "761acb590c3ae1c7239183df966dcd21ff00ea7e2244dbe72beb5b1f77f32db2"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-141.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b8e232771421bfba1fb5259b5d8307233deb8e26350c43651bdd48629a0bb1ea"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-142.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9a3ba3210416e80e24aa89e831f4c5004fd7d373a3ea1cf4af808064cb0d683a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-143.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3d7ac589778b89ba98d07ee435c5e18b349bcbec20737d3e892490f352c92655"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-144.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "041fb0d26a0323a9c64dc7177ec440c7576f148bb767c65011c4f28f60790882"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-145.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9860e1aee572b276816dfaa34175bc08e200795a8774db1576406eb9c6b1c15a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-146.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "db411b3c7c16cac3aca66e8c866c18576c48320b9ea3ff11a05e4a2a77a9be13"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-147.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "79ae9c5b72cc25295165f64bc60d331f5d3198b1118ba88a052e4104680cd54b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-149.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "79d748f5445173ff695f4bde926021aa7ccc7ab9fb942f674eb174e09e4e065b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-150.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4d93e2cc5a99e13362d1c5c029eb8c3430bc73342a42fecc5adb4df30b31f36c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-151.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "dd181b9ed5132c3cd9afc8bfa81c73b555a028813130df364f4b8128542a097c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-152.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "d6fc84f521cc11806ee18d300d0bcbbc8abf292b80390ef7ff8cbcd73c25ce82"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-153.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "15600212fa5b715d07992a4e0ea3f81b15bd7496066c9af7658883a3ab982a69"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-154.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "a3566e264f0bc29c8d453a0492d32b5aad10947414ea46316bb3d405b821053e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-155.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c956f8b24c556815c30b84f453711d9a8bf03803cf9ef28ee02bbd2911845f3e"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-156.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "112fdb298b9aef3b0d379ff5bb983b081368983f71fcb52f8ca7b4b49bf2c061"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-157.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0240a1d40c0dbed9cedba02b8304d436f76002fe8a467cf9bf39518a8a2f0e53"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-158.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0227cc1e053a9028bae91b7119c7fb1d2e2972268eeb789469ba61cf05af946b"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-159.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "345843c6e968ff4612b2dd081ffc679b49452741ccd2af1a79c313a4279d8acc"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-160.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f47aef79f7cdcdd242a1f343e2cba5c2f983ba1565e1a0e7a2d59dd69f5d4b7a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-161.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b23842a55ef45b9aced67fff62bb3edd5345d8d00a0a632c1c0a42f4cd25369c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-162.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7cce0adff368415f81b3af6ef42c3e43e7adb2dee4ae53f3a4f9f0e9906e8121"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-163.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "3738460bf865a3562ff07f682f4a0aea08445a1c7804b5cd07935447959f00ac"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-164.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f3c6dc71dd5c6f1de1a1208a3e8951c6affc924bc0aa342e8bd1639f451b9b65"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-165.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "4e3c10835f42da6ff9ab299cc99700953147c3c15453230fce097a1c0cb78b8f"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-167-verified.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "7c8319f664c1ce65c55bbbd9ad3c3366cc0c317cd07b481c3dc868341a1dad7c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "30a757f15eb1abf1de183b7e7263b7858933c34504dcd32c1d1dc41791bd45c8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/runtime-snapshot-168-closeout.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cdcf299fba860276746d2b43ea42c87b3603ff3fbb10237e214711a4278b2e08"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/scalar-endpoint-closure-149.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "b985a7547acde8093bb60e33e33451c15bb8ad8442f232fcc560e419fcc0ea5c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/scheduler-resume-binding-002.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2cf8ab28120e4ad4d8bd26e62740bc08c5692236f753e6b84660ffc8acf3af52"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/se76-literal-inputs-117.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c3d68ae147e2e40135a25f5df8471aed439cd10c361a0c3267f9ca27d42a0df8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/se76-missing-matrix-bifurcation-161.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "c0f2fa2289cd74890a7913176d6c84d2bb5ec08d109c853413357dfee6f4f3e8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/seven-layer-inference-ladder-162.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "41d907d846797cdd6e91e762272da9cec59d81763b6ecaa4e12aa6b1aaabbdfe"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/sigma-available-controls-152-corrected.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "bc5fbe8fef272e4d421369e718bb2cc73307c9bbe7882a801d55edfbd14af59a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/sigma-available-controls-152-initial-table-failure.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cec4527a84c853b2a9bb50e878694117f37c027dc90c31edded04d4b15836ebd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/sigma-available-controls-152.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "cec4527a84c853b2a9bb50e878694117f37c027dc90c31edded04d4b15836ebd"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/sigma-control-failures-152.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0820dad5aae88afc2ce76766ea00b7a2548bb7712929298ec4d1a2d393ff1118"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/singh-table-ledger-001.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "dc8f9a0b8be4afec0cd7aa62e907476428a97fb6cd285bde416db75347547785"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/singh-triaxial-degeneracy-157.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "65021dbc1e80fd08de681dfbc82541a0fc68fc48a0006336503425b41de324e8"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/source-before-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9ee983f5b719bdab97ebe9d16c6d3e49cfd10b763bf100c1485ef5fdd4afd0c9"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/source-correction-registry-044.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "da82faec998448db6dacde003c5a8a4ae2fe77c4880b097572e6bdbae6e07f76"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/superseded-prose-and-scripts-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "455ebb075fd88ca208cf389e91e30ac35fea1d5cd55f22f7ed691f223c43348c"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/superseded-runtime-snapshot-031.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "2e0dea48ee0e7a13a71737a52c68d4801b4671461764f9ef5be07d13a5b5cfa5"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/tdpad-original-ledger-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "255c4e58b9f345baf715376ef4f6dc321538317d9dc9c71a8ba1df994e764aec"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-101.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9f872f4775c0961ac8747e437fcca5129d3096a544aba083cfa0fbcd67ca7be7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-103.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9f872f4775c0961ac8747e437fcca5129d3096a544aba083cfa0fbcd67ca7be7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-104.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "9f872f4775c0961ac8747e437fcca5129d3096a544aba083cfa0fbcd67ca7be7"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-105.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "62a504ec186fb27d6654ef871c47ff2a0d6b419d6f70d7bc9e00108aaabca787"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-106.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "eb98a728249322968b363c7890ff36aec6cac0ea0d15c8d6614d3ca4b050ffa0"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-108.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "0833645b2a516703ee0f80c8d56b7ad9c55536b12ea5b5260d9bed670090ee5a"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-146.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "5955c4472abc8a651ff99d1f047fe6c2ec463e467b6aa76c3a0ada6e847503d4"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/writeback-validation-167.json",
+      "reason": "Day20 immutable audit/history/figure/source-scope artifact; no raw evidence changes",
+      "sha256": "f02968abbe6355b17a966d5036e779ef97f124f5e4b0468c42acf167e167f051"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics.md",
+      "reason": "Day20 report and required handoff/log synchronization",
+      "sha256": "612d56d0f98d952be8e2f88d65c8e07e802263b8dd6303a7b052f1aeef060a23"
+    },
+    {
+      "path": "system/scripts/day20_a130_band_crossing_quadrupole_atlas.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "6d35a710e3aeadf8f12dc2ed701644ea650a8eff7454acfbe93f8c5767dc0aa1"
+    },
+    {
+      "path": "system/scripts/day20_a130_collectivity_atlas_contract052.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e71eedd8d798f387447b45c8c26ed7facdc52e99e2504fc6e48d1d602a91c75d"
+    },
+    {
+      "path": "system/scripts/day20_a130_collectivity_evidence_map153.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_a130_collectivity_systematics_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c1da773c1b755cb792a0e6adc6f98e45b165bab9ff1380032fec130728c827db"
+    },
+    {
+      "path": "system/scripts/day20_additivity_contract035.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "f27ada07a983fc1cd64f78b7a162cca61ecb96285503190f356ddbe7a0cc4f9d"
+    },
+    {
+      "path": "system/scripts/day20_alwaleedi_ce131_spectroscopy_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "8d77699df597f1bbd532d468c3362215893822b30246e5a84ececfa080d9714e"
+    },
+    {
+      "path": "system/scripts/day20_angle_measure_contract146.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "43990b0efe7fef218939b1c7ab6c491af07fda8ad0e64ba8801294bfe021ca61"
+    },
+    {
+      "path": "system/scripts/day20_ba130_gamma_band_staggering_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "86ca4364266801acfd3ace317aeb9df18a2af576b93f9f2cca069c02b864be43"
+    },
+    {
+      "path": "system/scripts/day20_ba130_wobbling_kumar_audit090.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "0d466cb47838226c920d174ce160f685ac59e5ce0f0f7bad2ac3b63d472ede49"
+    },
+    {
+      "path": "system/scripts/day20_ba137_competitive_double_gamma_audit099.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "5ed95bd5d5412e61dca6b4ec17651343c31356ddee974128d7b40b39a796c888"
+    },
+    {
+      "path": "system/scripts/day20_ba144_146_direct_octupole_audit095.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "94e136df14373f2a48bab5c1591a9fbcf4376ec38267acd13f5db07ce73b9b45"
+    },
+    {
+      "path": "system/scripts/day20_babra136sm_band_crossing_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "36048b0e4be7a9b5d5b0918ba4eac96b1cca923320f89663759333fe36506e27"
+    },
+    {
+      "path": "system/scripts/day20_band_crossing_strength_conservation_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "341a4e3225755f0e108cfa05a7a41a1978b2dd40b60778b6d2a840f47fb4d37f"
+    },
+    {
+      "path": "system/scripts/day20_band_mixing_qt_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "1d33743af8785623c8855084b0da0c3031bac4e02ec5ab0773a9cf46e240f835"
+    },
+    {
+      "path": "system/scripts/day20_band_rate_stopping036.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "445df038d0bfe4fd0169e269cb8e43a4d072e4368f9c7a6aed1a15cf6ca42d93"
+    },
+    {
+      "path": "system/scripts/day20_beta4_radius_convention_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "d262f21312406b99dbe226f2eb9e0802fe8a7bbdc76cb10e5dd8be06be3bdff2"
+    },
+    {
+      "path": "system/scripts/day20_beta_gamma_inverse_companion_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c24bdfc454fd87642283721dce1c57e086c293f9952a969eecda79551643dd50"
+    },
+    {
+      "path": "system/scripts/day20_canonical_invariants_taxonomy_audit159.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "2bcd34daac8dc239340f7b96f1a9156ad9c4ccba9b981f9672b443b8d8a3cd55"
+    },
+    {
+      "path": "system/scripts/day20_cap_band_crossing_stability_audit128.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "d87632fe68b1bb523f06e71b28a9d8d286c4ef2fbda1db487e104396a1fe02d4"
+    },
+    {
+      "path": "system/scripts/day20_ce131_collective_mode_audit093.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "981a9163459ee87db33a5b4be8b077c4549718f32adbabe5bbeaef00b1605d02"
+    },
+    {
+      "path": "system/scripts/day20_ce131_multimodal_electromagnetic_ladder_audit145.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "0d260d4882d906c98c87d9ec9b40b9b86531e35320ad99e9e54b1cc480ff9bbf"
+    },
+    {
+      "path": "system/scripts/day20_ce131_multiphase_contract049.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "19a4bdd46428f73c445e27b066e01c17f53b37ab3a0a35930a2b487ed4256939"
+    },
+    {
+      "path": "system/scripts/day20_ce131_spectroscopic_cross_validation_audit139.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "9c9b9894f558ac07bf1c5e9d32c705463143d85892c91a1d63832cb070fc8cf7"
+    },
+    {
+      "path": "system/scripts/day20_ce_even_isotopes_b42_systematics_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "77764efd88800d98ec1443a7e32828e443ba9dc3dd5592675facb8c63a5f3d2d"
+    },
+    {
+      "path": "system/scripts/day20_charge_matter_decoupling_contract122.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "5827fad01ccb249e7cad600eb423be2c4c3c29d55e9836c0107b6e62518e14e5"
+    },
+    {
+      "path": "system/scripts/day20_checkpoint164_maintenance.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_checkpoint165_maintenance.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_chiral_diagnostics_unified_matrix_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "2092cc9c65ff736035eef6adecc5ef040676ab7d55b5cd3ba07f7be4f89ba6a7"
+    },
+    {
+      "path": "system/scripts/day20_chiral_electromagnetic_geometry_audit125.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "9cc6675948552569bff31d99978aed08ab0f0ee8f5cc0707dff33da9822276bd"
+    },
+    {
+      "path": "system/scripts/day20_chiral_electromagnetic_symmetry_contract050.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "8b62bc81c1dc71268de235b849a3ad8dab98be48d201009f9361e9727cb2c876"
+    },
+    {
+      "path": "system/scripts/day20_chiral_wobbling_geometry_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "98f6db3a1fd70e86393be415c7dfe7a00baa29f1b7a96b74e44dfa8bd24af3fc"
+    },
+    {
+      "path": "system/scripts/day20_chirality_pseudodegeneracy_rate_compensation_audit142.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c6f9560bdda07098efe4fc83718f57bac479fc15819749c4452ed531ecd0711c"
+    },
+    {
+      "path": "system/scripts/day20_conditional_evidence_repair101.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e0c61365c7a77dfd4945d182e0e26551cd9b40f5d5d5162a3ac59462088599b2"
+    },
+    {
+      "path": "system/scripts/day20_consolidation_audit046.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a41f6d3fd5be384c76f43e28d0e83b0a3c1114de3caf16c9e9c45b4a113787ee"
+    },
+    {
+      "path": "system/scripts/day20_coriolis_attenuation_decoupling_audit132.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "be09fdfefe1c54c921ab080302e74eb1fa6b72098b634a4966231ed159185d05"
+    },
+    {
+      "path": "system/scripts/day20_coriolis_attenuation_immunity_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "6193096295a08fd60449564e58db4b45f3c9c49eb86a6d49f1b939e08b5cbc3e"
+    },
+    {
+      "path": "system/scripts/day20_correlation_envelope102.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "873a3b2136b9df86b8b6eb567e5b8f4222a05f9510c9c24ef59da0b64bc53542"
+    },
+    {
+      "path": "system/scripts/day20_coulomb_excitation_invariants_softness_audit144.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "cd274d69114311987e1326c8fc0ab1f401b5687b817cc54dc6a3116b998b5491"
+    },
+    {
+      "path": "system/scripts/day20_coulomb_invariant_loop_cancellation_audit160.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_covariance_structure_sensitivity_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "681c3eacde97c5b9224370bea8d9486cd72778e55f83e4a40e9a7e8b01b63855"
+    },
+    {
+      "path": "system/scripts/day20_cross_region_collectivity_readiness_contract121.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "ef42deb4f28ef2c14a3bf971b425fbe945cbf2544499c154c19feefafb67b321"
+    },
+    {
+      "path": "system/scripts/day20_crossband_attribution039.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "30022b264a0258ee945facc5db914b768164a94bb76e4adb1647978322506ceb"
+    },
+    {
+      "path": "system/scripts/day20_cs126_128_chiral_selection_audit089.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "db5193a9821a70b0d6b40af3d8bd37cf94ba0ba5800ee6af4ec376139561b5f2"
+    },
+    {
+      "path": "system/scripts/day20_curie_offset_contract108.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a2071d09167840d58ae753c33b30fcf19ed25e5e578fbc202e1e7ec6af0fc950"
+    },
+    {
+      "path": "system/scripts/day20_current_checks167.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "dfe97b1d681ec8dd4f44a07cb22201ae48efaad79584741ec4afa3ff17321fae"
+    },
+    {
+      "path": "system/scripts/day20_curriculum_matrix_card_audit155.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_davydov_filippov_exact_qs_audit156.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "0c68b954e0e9e7a992e85e6d7bea101d13cd14393267f059c4810ddc9f3e29fa"
+    },
+    {
+      "path": "system/scripts/day20_davydov_qs_qt_steepness_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "954eb20dfce2ddeca00a439187113d06b60a3cdc1fb05955f87a9aea67caa337"
+    },
+    {
+      "path": "system/scripts/day20_evidence_repair032.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "483d5dc4aac8401770354c50969167cdb45b7b47e9cfd36f88bc850c199242b4"
+    },
+    {
+      "path": "system/scripts/day20_evidence_scope_repair167.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "b8049614940e49adac3409a7bd9b8579fc4b4a95e3cb352219d4cb7cb61fa5a7"
+    },
+    {
+      "path": "system/scripts/day20_execute_closeout_at_1500.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_finite_moment_identifiability150.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "2d9846730917090474e226650cb9de83c40f91081c56a48a29cbdf89d03e7e45"
+    },
+    {
+      "path": "system/scripts/day20_global_a130_deformation_consensus_audit100.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "981704e3e7c535c615c6ca706cea2dcb535e89b67ba725932b6790bb6893145e"
+    },
+    {
+      "path": "system/scripts/day20_grodner18_cs128_chiral_gfactor_audit088.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "d8cd850e8292b52c008c88da0896f52ef11f71fd16311c9ef1ae20c73c1fa5f7"
+    },
+    {
+      "path": "system/scripts/day20_hd_inertia_deficit_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "d4dd67644cf0319ce5caa0b446b08f28645af626a16ca1b3447216bfe6e580ff"
+    },
+    {
+      "path": "system/scripts/day20_hd_plateau_stopping_covariance_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a5514b50b34c388ceaaf800b61153cd630acccece7b25a2b87d2cdff1635f783"
+    },
+    {
+      "path": "system/scripts/day20_interaction_dichotomy_gtrm_audit123.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "194972fdf3822581ff4d91176779072761508d7d95bd18c2279b4516be8808cf"
+    },
+    {
+      "path": "system/scripts/day20_invariant_network_ledger147.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a95bccf88e60c4b23cc2ab3d08e736a9d756d9e35aaae5a35e3621f6aafdebc0"
+    },
+    {
+      "path": "system/scripts/day20_invariant_phase_fluctuation113.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "4e0c8c10f8726066115d2e865b5e2e11184cbb4190410fb3f2c133c9c1eb4de0"
+    },
+    {
+      "path": "system/scripts/day20_inverse_covariance_contract038.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "81cd644aa17abb1840a560022ef613f0a82b55d0f60be406f326be53ef041c5a"
+    },
+    {
+      "path": "system/scripts/day20_klemme99_coincidence_plunger_systematics_audit138.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "b2a55434890bc81acf6f246c62f2a9cd8f971badaa49d5f09167ba6ec6117548"
+    },
+    {
+      "path": "system/scripts/day20_klemme_coincidence_plunger_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c855f9b338239221eeb686554706298ebd888036987131f4dfa57f3ab7940a26"
+    },
+    {
+      "path": "system/scripts/day20_klemme_companion_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "ce51b853021402e0355b9938fc0908e2a2969cd99d54aa821193ac62c0e1517b"
+    },
+    {
+      "path": "system/scripts/day20_kmix_algebraic_sensitivity_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "3823d883210d5e9f6ecc2121ee6e6fecabde0fbf4e1999615267df0f35f2e678"
+    },
+    {
+      "path": "system/scripts/day20_kmix_shrinkage034.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e607cb492bb5f5cfed309588ba9a24ca312719ca6dd2238f1ab450a1aa658e4a"
+    },
+    {
+      "path": "system/scripts/day20_kmix_triaxial_interference_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "953a74a2e51fec420b84bdd61d48fdbfa4c6cfeff0b2934497e3a2e36be1c721"
+    },
+    {
+      "path": "system/scripts/day20_kumar_invariants_gamma_staggering_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "78a1e85fbc86c9e802b2fd2d5b81ec379d10ec62339a11f7d703aef78e35a3e7"
+    },
+    {
+      "path": "system/scripts/day20_kumar_radius_crossmethod_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e2062dd7454475cad79d750ae316b1631af0500abde9b03ac513fbffd494b44e"
+    },
+    {
+      "path": "system/scripts/day20_literal_trend_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "45f9d475b2b84d243c1eb7d5f9356052b4d33f10e2924e5198eee4d71c66517b"
+    },
+    {
+      "path": "system/scripts/day20_master_verification_manifest163.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_mchid_coriolis_attenuation_lifetime_gap_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "b98287d8063422b186ff7335c39cedfb1f41d67c55f1e73a3c82a704b2e39976"
+    },
+    {
+      "path": "system/scripts/day20_mchid_triaxial_coexistence_audit082.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "87ad66c019680b0ddb01bc712dbc583b706260461e217de94c4c4e34429297cd"
+    },
+    {
+      "path": "system/scripts/day20_mchid_triaxial_coexistence_lifetime_gap_audit137.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "97fd516743066798bb954335ab609c59ec609e10f09ee52908860b9caf67d824"
+    },
+    {
+      "path": "system/scripts/day20_mixing_response_contract007.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "df1064172e5e23be25be63a41b631ed07d0d016d1ccc6dbbd446d2ab3aaf9286"
+    },
+    {
+      "path": "system/scripts/day20_mode_scope042.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "da411ddd48cfa28045de75e7ca05e3ea6d58b3f47121ed7b24143f0a934ef159"
+    },
+    {
+      "path": "system/scripts/day20_moments_of_inertia_contract048.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a676dce073fae851aa60eff8ac7a530935a44348401b786fe58312cef564e36d"
+    },
+    {
+      "path": "system/scripts/day20_moments_of_inertia_harris_quenched_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "beb8da720387afd7a21186d3395ee77840ba07e8cc5d4d109e8da72969db1969"
+    },
+    {
+      "path": "system/scripts/day20_moments_of_inertia_pairing_collapse_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "7329af5754980229fb7cbce5031544c4c813ac5e165108203610d6cb1b7bfee4"
+    },
+    {
+      "path": "system/scripts/day20_moments_of_inertia_pairing_plateau_audit126.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "ba179332c08e83d637986bacf9e0ddb9a8d371be5aacce8e8b1608e2effb3a3c"
+    },
+    {
+      "path": "system/scripts/day20_mu07_135nd_real_rate_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a6742ac3646eaa7b1e8ade8e2f5d9b8cd430c98cfa8bebb80074f5d3e5288143"
+    },
+    {
+      "path": "system/scripts/day20_multipolarity_contract040.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "43cbe2fb3be69de8314aeaa6f4ce9e996dc8d08fddcc85971b84f2dd1970939d"
+    },
+    {
+      "path": "system/scripts/day20_multipolarity_decontamination_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "5abd92e6a268ceaf84a7499f931cbc92e007143e6c8e2c01f894b14ec93253f9"
+    },
+    {
+      "path": "system/scripts/day20_nd134_multiband_deformation_coexistence_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "5f96665e7dfcc5a76bbbe3f065fa8d275c07d9b4366815efe1d112b73d0ffb86"
+    },
+    {
+      "path": "system/scripts/day20_nd135_137_chiral_evolution_audit092.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a429f56fe90b13974e1b1cbb8f48b45862fc2359bc8544a00af068cceb7513fc"
+    },
+    {
+      "path": "system/scripts/day20_nd135_chirality_evolution_rate_compensation_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e1556587781112a40c0d53ec5a25b2ff9702555c9e25da1d0bc0ffbd27513df0"
+    },
+    {
+      "path": "system/scripts/day20_nd136_chiral_wobbling_crossing_audit140.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "9134a9a95ab944b68c3fa3aa546620eec2ae384505b030c920da54dc792b5e5f"
+    },
+    {
+      "path": "system/scripts/day20_nd136_even_even_mchid_hierarchy_audit084.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "fa5f6a2fd10efaf4dc5d90ead581ec7bbab76e58155711a0568d8db47dfb026e"
+    },
+    {
+      "path": "system/scripts/day20_nd136_wobbling_chiral_coexistence_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "41beb8cbc04a386a378f5993bf1dbe14db3f90669fe893b816b3a5ae7d405cad"
+    },
+    {
+      "path": "system/scripts/day20_observable_identity_shape033.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "78bb7c27f833abc7d6f84f534d256428281afc19eb613cbbb24bd39273254b75"
+    },
+    {
+      "path": "system/scripts/day20_octupole_correlations_systematics_audit080.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "d34f0a19c73779a982427d0af8d10e2019ab203891c2de42dbfdf634af43a693"
+    },
+    {
+      "path": "system/scripts/day20_orthogonal_method_cross_validation_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "523b4d06912c54e389cdb626bb1ecd99b672b3d6bd57d5002e4d12325e3178da"
+    },
+    {
+      "path": "system/scripts/day20_petrache_shrinkage_additivity_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c87cadc00508c5f7ce8139e254d9b5616a5f98878fbbf630f21c6e177610eb76"
+    },
+    {
+      "path": "system/scripts/day20_phase_space_dilation_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "24f22e01e4698f2047e255cfb03715ca7b38deeccf06c1dd6466f970ee7fa763"
+    },
+    {
+      "path": "system/scripts/day20_polarimeter_lineage045.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "04850e8a9fd4efdbab78b057ff44ed3e03442df8fd5c8a3fc37a4af063c51311"
+    },
+    {
+      "path": "system/scripts/day20_polarization_additivity_ce_isotopes_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "1ff9c0d4317974ef7f4df9d40311564a1ecd05904a2541d6b161a322362e9246"
+    },
+    {
+      "path": "system/scripts/day20_polarization_hierarchy_curvature_audit133.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "8d33f54f507cd7a234f86b44cd323f8ce2dbc58389880af0251163b2435a63d4"
+    },
+    {
+      "path": "system/scripts/day20_power_mean_invariant_theorem_audit158.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_pr134_chiral_pseudodegeneracy_mixing_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "9cc146ef5d9fd4fb89bbbe3e9041c6a4a8562e39c26777e880cacf7a4bd1fdce"
+    },
+    {
+      "path": "system/scripts/day20_pr135_source_contract041.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "bb2c6b1ef23ad728b09c4c59e44c4b748319828c5ef9f6e25389b0bc76b6931c"
+    },
+    {
+      "path": "system/scripts/day20_pr135_wobbling_multipolarity_audit086.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "1842d25af37fa368e96519502b06cdd263e92639ec07071abfe434f9b3c433af"
+    },
+    {
+      "path": "system/scripts/day20_pr136_magnetic_rotation_shears_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "4b2dc9be93f143c3424537668751e8d1cf7a0338edd9e9ab17c73bd18e734942"
+    },
+    {
+      "path": "system/scripts/day20_pr136_shears_vs_chiral_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "40767b87cf2857e1f9319ff2b0ed6156ceb3209102415f0db429db0854e97eed"
+    },
+    {
+      "path": "system/scripts/day20_pr136_structure_shears_audit096.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c94e8970a145aff7a5d8dba9d55a20ee96ffc84fc112f314042396da7b0517bd"
+    },
+    {
+      "path": "system/scripts/day20_precloseout_consolidation166.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_pseudodegeneracy_contract051.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "4c3325869d27f4b81e261f28ae3a8e0dc2801562fc9b38f368e6c59b01c6cb76"
+    },
+    {
+      "path": "system/scripts/day20_pseudospin_chiral_quartet_audit081.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "84c6004964f7027d676ce6980e28c7fa3730582c01ca155356e3b34dce6833fa"
+    },
+    {
+      "path": "system/scripts/day20_qtr_e2_contract044.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "1d93847e5a1864b40cb5b6e1d496f401e136c27eaede7518a496536dde650327"
+    },
+    {
+      "path": "system/scripts/day20_quadrupole_additivity_parity_bifurcation_audit143.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "dec53fba91bbac4f3bed5ffe8e1e6fc80b1fec47e34fbc5b9dab4a45ea24e837"
+    },
+    {
+      "path": "system/scripts/day20_quadrupole_additivity_polarization_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "6bbb386020f4b340444b7712b2c53a19ea292bb106cd80b04b35c3c24688d6e6"
+    },
+    {
+      "path": "system/scripts/day20_quadrupole_polarization_additivity_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "9a8d52497f9b0d478c46f3bc32af57f345bf9f8582aeac86d4dbfc04151b209d"
+    },
+    {
+      "path": "system/scripts/day20_rate_geometry_contract.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "31116a289cc66eb98b544c6ce9fed8814ef3a8a3bcb92c99bb621943e6979321"
+    },
+    {
+      "path": "system/scripts/day20_recoil_vacuum_deorientation_angular_bias_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "96e39d51da93bf153688e9c909d834d6e3025f676bdaee8d315041628baa0c1b"
+    },
+    {
+      "path": "system/scripts/day20_recoil_vacuum_deorientation_audit131.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "1b563425d4abffdb9157ca795614ae544b3735ab38651fca12d63fa099fe6937"
+    },
+    {
+      "path": "system/scripts/day20_regression_power_finite_sample_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e7f9031a0ddb17f992320873b9b32b60dcd61912e37ca8de1bb14fdcfa6a61f8"
+    },
+    {
+      "path": "system/scripts/day20_rh103_same_config_mchid_audit083.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "442993dedd43b398ddda0cc344c4e65740a7df00afc7fba5190fcbfa89940daa"
+    },
+    {
+      "path": "system/scripts/day20_rotor_diagonal_moment103.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "79c73667be50f0c38d30ba59b918c576cee94e2265c6c100606574e8682db06c"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks155.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks156.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks157.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks158.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks159.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks160.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks161.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks162.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks163.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks164.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_run_required_checks165.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_se76_missing_diagonal117.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "f2d61cbadf97d3dbec0428f993f8058b324964ea4d73355d31b1362345128186"
+    },
+    {
+      "path": "system/scripts/day20_se76_missing_matrix_bifurcation_audit161.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_seven_layer_inference_ladder_audit162.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_seven_layer_inference_matrix_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "7b2bd825af698cdf077c465ea44b8b6d2053cc7a4c0bbdd7a52248657df9ce80"
+    },
+    {
+      "path": "system/scripts/day20_shape_delta_domain115.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "18515edfb2b17e2f8e8164235d6bfcea834f1a2ef80cbc088316d46429ce1689"
+    },
+    {
+      "path": "system/scripts/day20_shape_parameterization_contract047.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "63beb361c11153a094b370f16ba28a262ba58a0f47604a8cf432785b85143df8"
+    },
+    {
+      "path": "system/scripts/day20_shears_vs_chiral_competition_audit134.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "241478a2f7ee4b32cdb5691548de757bbb91d840abb486a4ea7e4d62f81dbbbd"
+    },
+    {
+      "path": "system/scripts/day20_sidefeeding_cascade_distortion_audit130.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "c54d6ee0250fe05820d667ec230655aeeec694f817637c3c8a834ed1fe5fcde7"
+    },
+    {
+      "path": "system/scripts/day20_sidefeeding_cascade_lineshape_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "ce993c28ae7c42b321d222bc49f922704a91578c9fcc2565494ba6d9907c6694"
+    },
+    {
+      "path": "system/scripts/day20_sigma_available_controls152.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "7f0bbdfef8e79ab83f86a42d4d3c32d6b17002b074e4a91918f4b5798a72dec8"
+    },
+    {
+      "path": "system/scripts/day20_signature_splitting_inversion_audit097.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "12f6e842777ce8551dbfc12aacd58ab591720bc8135ef9b4efe8dd6bc2143476"
+    },
+    {
+      "path": "system/scripts/day20_singh16_k_mixing_derivation.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "416a012b5224b9db2e2302f76533688e94fd92f133c076277e0832b5c081c3cf"
+    },
+    {
+      "path": "system/scripts/day20_singh_trend_figure043.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "f830d3d386ef9986cf5e74b194a4f3835d76df9af82791bec9d27086e8887a37"
+    },
+    {
+      "path": "system/scripts/day20_singh_triaxial_degeneracy_audit157.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "908cab2197bf7d8f38166d26e5a2c2a717cb9df485f82d602bcdd2805cda26f1"
+    },
+    {
+      "path": "system/scripts/day20_sm136_deformation_evolution_mixing_audit136.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e779623eab86b77a5e86be4ade5de57720ae3c9a59521a436286f4b0b0bc0dea"
+    },
+    {
+      "path": "system/scripts/day20_sn100_gamow_teller_audit098.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "ef1ec7d355a07b9cbcb756dd1eff230acc127f0097504db46502b1400f1318c5"
+    },
+    {
+      "path": "system/scripts/day20_staggering_invariant_contract037.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "0ce59a78fcd395be509a72d752fa3ff3c8c91bf9ae5aaa244535f2302884449b"
+    },
+    {
+      "path": "system/scripts/day20_stopping_power_covariance_audit129.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "a73e51cc3e5db511ca96ac1af6009937b4855c1e18dcba6adae0473dd5f81143"
+    },
+    {
+      "path": "system/scripts/day20_surface_charge_contract110.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "25d13ee73690117bebb5906b4fdcc2f556a30daeba91e1eb3d5f382d751cb4e1"
+    },
+    {
+      "path": "system/scripts/day20_tdpad_qs_vs_qt_crossmethod_audit085.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "3acef10696b8e9819bdd50dba78f42a380ae604006b768288496243f21638fe0"
+    },
+    {
+      "path": "system/scripts/day20_tdpad_static_moment_cross_link_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "327d1039d0ec12f3ca90f87b734fc84c79600444a95495ba4b4c88fa7feea6e8"
+    },
+    {
+      "path": "system/scripts/day20_triaxial_softness_invariants_audit135.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "de2a63eaf34e054a7ff35bd536657e26ed872e9eb65ee3b617f358b747ce156c"
+    },
+    {
+      "path": "system/scripts/day20_unified_collectivity_atlas_audit127.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "3862b33748ec0c09bb3b965a93c46360ab01be6d84a2f08e69cc896950c460ff"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_controversy_multipolarity_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "f9f22121c5a9ba70225e8e2b12698a642d37a9af61c23060380285cb7ecbb682"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_formula_criterion_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "19cdb2a4c7920149075b9c9c27de8207cff57c803c5ac14baba3bd7498aca5a4"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_mode_taxonomy_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "034cecf161e87fe7a256c58231e1a7a297e78d12908026a539e14da14eb4d091"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_mode_taxonomy_audit087.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "e50bb4ac7d6c069d37c57c96a4be6e630c17532aa0f2cebca0ebd136e9c36379"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_multipolarity_decontamination_audit124.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "681b9cf3556f031f3007c85a92c8cd28a4e744d5aa555fe2970ba380e3d1f16a"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_multipolarity_taxonomy_audit141.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "5360a3d5afd5cd93ec03d33dc526a8f77db8150ca436aaf951ecca1949c4f8d5"
+    },
+    {
+      "path": "system/scripts/day20_wobbling_tip_ibfm_protocol_audit091.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "2f19b26ef419f286872e37eddcc66d04e6efe02eacb1e7752a1840b86260c833"
+    },
+    {
+      "path": "system/scripts/day20_xe131_wobbling_signature_audit094.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "ad57278095df49bff6b1b94fb26b5f94ea65348b48458bc2ab5059d3b39d287d"
+    },
+    {
+      "path": "system/scripts/day21_exam_and_reflect_audit.py",
+      "reason": "Same-run task exercise/retirement code; Day21 guard is an uncredited preview only",
+      "sha256": "22e6b061c3b585c6466f1484a1fefc11d0a960eff2c8a094c8489b51d2c61010"
+    }
+  ],
+  "protected_or_local_only": [
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json",
+      "reason": "protected initial stub/raw/PLAN"
+    },
+    {
+      "path": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/run.json",
+      "reason": "Mutable runtime/private transport or invalidated draft; keep local"
+    }
+  ],
+  "unresolved": [],
+  "formal_credit": false,
+  "no_staging_performed": true
+}

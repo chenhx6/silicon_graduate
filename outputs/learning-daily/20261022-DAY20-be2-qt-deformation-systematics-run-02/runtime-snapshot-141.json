@@ -1,0 +1,37 @@
+{
+  "now_local": "2026-10-23T08:41:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 379,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 00:41:00 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Global wobbling controversy in A~130: transverse vs longitudinal wobbling, multipolarity decontamination, and angular correlation double-solution pitfalls",
+      "gap": "Quantified Frauendorf 2014 HFA critical angular momentum J_c = 14.4375 hbar for 135Pr (I_c ~ 29/2 hbar instability), TW decreasing frequency (0.6011 to 0.1929 MeV) vs LW increasing frequency (0.8021 to 1.5987 MeV), Matta 2015 large root (delta=-1.54, f_E2=70.34%) vs Lv 2022 small root (delta=-0.37, f_E2=12.04%, 87.96% M1), 5.84x B(E2) collapse and 7.03x branching ratio drop, and established three-tier experimental protocol",
+      "information_gain": "high",
+      "source_locators": [
+        "F14-D20-R141-1",
+        "MA15-D20-R141-1",
+        "LV22-D20-R141-1"
+      ]
+    },
+    {
+      "route": "136Nd even-even high-spin controversy: triaxial chirality vs transverse wobbling vs 11-fold B(E2) collapse audit",
+      "gap": "Quantified Mukhopadhyay 2008 Band 2 11-fold B(E2) collapse (0.44 to 0.04 e^2 b^2), partner band asymmetry (3.50x), Petrache 2018 5-pair chiral claim without lifetimes, Lv 2022 751 keV connecting transition wobbling interpretation, and TAC+RPA two-band mixing resolution",
+      "information_gain": "high",
+      "source_locators": [
+        "MU08-D20-R140-1",
+        "PE18-D20-R140-1",
+        "LV22-D20-R140-1"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (379.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 141 completed global wobbling controversy, transverse vs longitudinal kinematics, angular correlation double-solution decontamination, and three-tier experimental protocol audit; continuing substantive Day 20 research."
+}

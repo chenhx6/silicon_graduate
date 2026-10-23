@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T23:01:03.971647+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 958.9338058833333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 14:59:24 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Synthesize Day 20 comprehensive research notes and prepare pre-closeout ledger",
+      "gap": "Pre-closeout documentation integrity check",
+      "information_gain": "high"
+    },
+    {
+      "route": "Audit pseudodegeneracy and configuration mixing in 134Pr (Petrache 2006)",
+      "gap": "Chiral energy degeneracy vs wave function symmetry",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Over 16 hours remain until 15:00 next day; advancing substantive study on chiral symmetry and pre-closeout consolidation."
+}

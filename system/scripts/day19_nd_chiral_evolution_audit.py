@@ -7,6 +7,8 @@ quantifies the ~2 hbar alignment difference Delta i_x as a chiral-vibration vs q
 and formulates the Nd isotopic chiral evolution roadmap (134-137Nd).
 Uses only the Python standard library. Requires --output PATH.
 """
+
+raise SystemExit("Retired by Day20 source audit001: fabricated tau_band_a = [1.34, 0.81, ...] inputs forcing fake 1.08 ratio; use day20_mu07_135nd_real_rate_audit.py.")
 import argparse
 from datetime import datetime, timezone
 import hashlib

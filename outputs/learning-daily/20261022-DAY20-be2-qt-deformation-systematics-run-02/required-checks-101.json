@@ -1,0 +1,24 @@
+{
+  "checkpoint": "101",
+  "observed_at": "2026-10-23T03:39:45.324062+08:00",
+  "scientific_certification": false,
+  "checks": {
+    "declared_controls": 15,
+    "conditional_trend_controls": 14,
+    "guard_executions_passed": 50,
+    "legacy_json_hashes_unchanged": 220,
+    "source_flags_unchanged": true,
+    "boundary_exit": 0,
+    "preflight_exit": 0,
+    "protected_bib": "matched",
+    "diff_check_exit": 0,
+    "writeback_valid": true,
+    "lint": {
+      "exit": 0,
+      "summary": "SUMMARY pages=690 wikilinks=8252 hashes=286 errors=0 warnings=251 info=3929"
+    },
+    "H3": "not run",
+    "lint_output": "tmp/day20-repair101/lint.txt"
+  },
+  "all_required_final_checks_passed": false
+}

@@ -3,7 +3,7 @@ type: source
 title: "Petrache et al. 2006 - Risk of misinterpretation of nearly degenerate pair bands as chiral partners"
 aliases: [Petrache 2006 chiral-band caution]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-23
 status: ai-draft
 review_status: unreviewed
 source_type: critical-analysis-and-model
@@ -97,3 +97,33 @@ Petrache *et al.* establish a reusable critical test: near-degeneracy is necessa
 | PE06-D18-1 | 2.0(4)指E2 transition moments的Q0,1/Q0,2；作者以实测E2 out/in分支和ΔE解混合振幅/V/矩比，假定无off-diagonal E2、短spin段V不变。允许范围1.6–2.4是该分析与输入的范围；寿命B的差异只作定性一致性对照，不是这项比值的直接来源，也不能把其转成beta两倍。 | source-derivation-and-lineage-audit | direct-and-boundary | PDF2最后两栏；PDF3 Eqs3–5/TableI及2.0(4)段；PE06-2 | true |
 
 原PE06-1–3及review保持。此次独立worker完整四页文字、PDF2–3视觉；主代理定向原读PDF2–3及PDF3视觉，未重拟合V/Q或原实验CI。联系[[hecht-2001-chiral-symmetry-breaking-136pm-138eu]] HE01-D18-5，明确这是参照而非另两核的新测量。
+## Day20量化审计：134Pr两带波函数解混合、四极矩2倍不对称与伪手征证伪（checkpoint030）
+
+> checkpoint032：本节旧认证已撤回；程序通过只曾检自设输入。以下R32为本次定向原读纠正。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE06-D20-1 | checkpoint032：旧科学认证撤回，原因：Invented gap sequence conflicts with printed36/44keV; chosen V not extracted; arcsin branch ambiguity; allowed1.6-2.4 range not Gaussian; invented128Cs uncertainties; exclusive configuration/handedness labels not established.；当前可用陈述见下方R32原读纠正。 | withdrawn-task-certification | rejected-and-replaced | checkpoint032; PE06-D20-R32-1 | true |
+
+## checkpoint032：原件定位与科学认证纠正
+
+本次Codex self-audit，原review状态与全部已有claim flags保持；不是新增独立实验或全文阅读认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D20-R32-1 | PDF2明确I15/16两态间隙36/44keV；PDF3奇/偶序列V约14/17keV、矩比允许1.6–2.4，TableI α15y=.894、α16ny=.427。旧31keV序列、37.7度等反解认证撤回；振幅需保yrast/nonyrast身份与混合分支。 | literal-model-table-correction | direct-original-and-visual | PDF2 near-gap paragraph; PDF3 Eq3/TableI | true |
+| PE06-D20-R32-2 | 2.0(4)来自无off-diagonal E2、短spin段V固定的分支比解混合允许范围；作者用它反对理想手征带解释。未给该范围Gaussian抽样含义，不作z2.5/p.0124或所有手征动力学排除；寿命B仅定性对照。 | range-versus-CI-and-interpretation-boundary | direct-original-and-visual | PDF3 Eqs4–5 and possible-ranges paragraph; PE06-D18-1 | true |
+
+
+### checkpoint051：两带混合矩阵元与伪简并电磁非对称性审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE06-D20-R51-1 | checkpoint101撤回旧“独立程序严格认证/终极唯一判据”。保留此前原读对36/44keV能隙及作者模型允许Q比1.6–2.4的分层记录；2.0(4)不能改称已知Gaussian测量。两能级模型DeltaE>=2|V|只给条件上限，不独立提取V/混合角。旧alpha/beta标签和过强排他裁决不沿用；矩阵元不对称需连同模型条件、带身份及替代解释讨论。 | withdrawn-overclaim-and-model-boundary | task-boundary-correction | PRL96,112502 TableI; PE06-D20 source corrections; checkpoint101 | true |
+### checkpoint142：两带解混合、内禀四极矩双倍不对称与伪手征陷阱审查
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE06-D20-R142-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

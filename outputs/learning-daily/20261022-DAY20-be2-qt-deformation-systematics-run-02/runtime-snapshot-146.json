@@ -1,0 +1,43 @@
+{
+  "checkpoint": 146,
+  "now_local": "2026-10-23T09:51:55.342037+08:00",
+  "observed_at_utc": "2026-10-23T01:51:55.342037+00:00",
+  "clock_tool_observation_utc": "2026-10-23 01:51:38 UTC",
+  "time_source": "actual aware system time corroborated by current UTC clock tool; no queued prompt time used",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 308.0776327166667,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "State-specific rate and geometry ledger",
+      "information_gain": "high",
+      "evidence_gap": "Original branch/ICC/response/jointCov and precise K/producer are not identified; do not replace single-state values by an average",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "IB98-D20-R146-1",
+        "LI04-D20-R146-1"
+      ],
+      "next_action": "Retain literal finite/limit identity; compare only matched state and declared geometry."
+    },
+    {
+      "route": "Experimental vs model quadrupole invariants and angular measures",
+      "information_gain": "high",
+      "evidence_gap": "AY23 experimental Fig10(a), actual finite-network/Cov and Poves range prescription must not be conflated",
+      "source_locators": [
+        "AY23-D20-R146-1",
+        "AY23-D20-R146-2",
+        "PO20-D20-R146-1",
+        "PO20-D20-R146-3"
+      ],
+      "next_action": "Inspect finite-network truncation and displayed spread definitions without reconstructing an unavailable experimental CI."
+    },
+    {
+      "route": "Previously opened Day21 preview",
+      "information_gain": "bounded uncredited only",
+      "evidence_gap": "No formal Day21 session/card gate",
+      "next_action": "Keep partial[20,21], completed[], next20; never open Day22."
+    }
+  ],
+  "decision_reason": "New direct-source contradictions and correctable evidence gaps remain; no schedule-level saturation. Continue same Day20 study window."
+}

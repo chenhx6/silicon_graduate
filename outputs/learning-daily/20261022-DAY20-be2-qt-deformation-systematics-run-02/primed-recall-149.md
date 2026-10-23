@@ -1,0 +1,3 @@
+# Checkpoint149 before endpoint variance derivation
+
+Primed by HE20 Fig1/Eq15 and prior113/115, not blind recall. I expect a Hermitian rotational scalar S to preserve J and its variance in a0+ state to be a positive sum over other0+ endpoints. Keeping only the initial0+ can remove every variance path by construction. Derive this with exact scalar closure and distinguish omitted scalar endpoints from omitted E2 intermediate states. Do not claim zero physical softness or infer an original GOSIA setting from its table. C=normalized cubic scalar uses a different (sixth-order) variance; no direct angular distribution is assumed.

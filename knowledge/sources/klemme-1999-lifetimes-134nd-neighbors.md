@@ -183,6 +183,14 @@ P0: none identified.
 - Nuclei/band: [[134nd]], [[134pr]], [[135nd]], [[131ce]], [[135nd-d1-band]].
 - Project: [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
+## Day20邻核通道伴随观测与谱系审计（checkpoint003）
+
+依据独立审计程序 `system/scripts/day20_klemme_companion_audit.py` 与结果 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/klemme-companion-result-003.json`，本轮已实际读完整10页文本及PDF2–9关键视觉，含9图、4表、5式；这是新scope，不借旧raw哈希继承。TableIII的谱系对账保留；原003“通过/精度/残差成因”认证已由007撤回：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KL99-D20-1 | checkpoint007保留原表事实并撤回过强003认证：TableIII的131Ce15/2−7.53(37)ps、133Pr15/2−64.2(39)ps及19/2−3.42(10)ps逐项被Singh Ref31列复用；后者Qt是同一旧寿命的派生量，不是新采集。1999为125MeV28Si+110Pd、self-supporting靶/GASP-II，2016为Sn+O/F与IUAC-GDA；不同campaign并不证明绝对校准/转换常数等全部独立。暂不凭对称化sigma检验认证相同形变；齐次几何/分支/误差合同未闭合。 | lineage-and-comparison-boundary | direct-original-and-visual | PDF5 Table III; Singh Table 1; Singh Table 2 | true |
+
 ## Non-source Notes and Follow-up
 
 Next corpus sources should test whether later `134Pr/135Nd` chiral-band labels map onto these measured states. Until that crosswalk exists, quote Klemme 1999 only as early absolute-lifetime/triaxial context.
@@ -235,3 +243,51 @@ Knowledge Impact and Learning Decision：limits固定方法窗与“八值完全
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | KL99-D19-6 | 134Nd2g+294keV采用tau94.4(30)ps，非45.4ps；六个finite-stopping更正行属于不同较短tau态，不能将1.181–1.255统一附到2+或所有nuclei。PDF3明确Au mean slowing约1.1ps与电子stopping+30%替代，不是停止独立。 | direct-scope-and-correction | direct-original-and-bounded-arithmetic | PDF3 TableI; PDF4 TableII | true |
+
+## Day20量化审计：134Nd三层形变阶梯、S2跨带四极压制与有限停止慢化协方差定理
+
+依据独立程序 `system/scripts/day20_nd134_multiband_deformation_coexistence_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/nd134-multiband-deformation-result-023.json`，量化审计了 $^{134}\text{Nd}$ 多能带电磁跃迁强度与 DDCM 有限停止慢化时间响应：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D20-2 | checkpoint036撤回旧三层相图/构型正交及协方差相消认证。TableII B单位10³e²fm⁴给4g→2g .553(.013)、10S2→8g .009(.002)e²b²、后者Qt.51(.04)eb；旧1.87/.029及.05误差错误。有限停止half-chart只为本任务声明响应，非实际±30%界限/CI。详见KL99-D20-R36-1/R36-2。 | task-multiband-deformation-and-covariance-audit | derived-and-boundary | PDF pp.3-7 Tables I-II; Figs.5-7; nd134-multiband-deformation-result-023.json | true |
+## Day20量化审计：130,132Ce基态带B(E2)阶梯、B4/2集体度与三层形变阶梯（checkpoint029）
+
+> checkpoint032：本节旧认证已撤回；程序通过只曾检自设输入。以下R32为本次定向原读纠正。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D20-3 | checkpoint032：旧科学认证撤回，原因：Energies not literal TableIII; photon-branch-one calculation called measured B; unknown ICC/Cov; 130Ce-only z applied to132Ce; central HD difference mistaken for precise shell-locking and rigid shape.；当前可用陈述见下方R32原读纠正。 | withdrawn-task-certification | rejected-and-replaced | checkpoint032; KL99-D20-R32-1 | true |
+
+## checkpoint032：原件定位与科学认证纠正
+
+本次Codex self-audit，原review状态与全部已有claim flags保持；不是新增独立实验或全文阅读认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KL99-D20-R32-1 | TableIII原印130Ce Eγ254/456keV、τ181.3(70)/7.65(31)ps；132Ce325/533keV、70.1(32)/3.9(10)ps。精确能量、ICC、branch与跨点Cov未由此表恢复；旧自设小数能量、B值实验认证与两核10σ说法撤回。 | literal-table-and-conversion-boundary | direct-original-and-visual | PDF5 TableIII | true |
+| KL99-D20-R32-2 | 用整数印能量且声明pureE2/photonbranch1，计算B42≈1.27081与1.51508；仅为条件控制。独立寿命线性误差约.07113/.39459，未知Cov会改变这些量；不恢复实验CI、证明γ软或壳锁定。 | conditional-rate-control | task-derived | PDF5 TableIII; evidence-repair-result-032.json | true |
+
+## checkpoint033：观测量身份与形状约定原读纠正
+
+本次为定向原文/表图self-audit，非新增独立实验或全文认证；原review和claim flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KL99-D20-R33-1 | TableII 134Nd g.s.b.2/4/6/8+的Eγ为294/495/631/706keV；旧020的4+552、6+687错误。按声明有限差分J1(6)=11/.631≈17.4326 ℏ²/MeV，不是配对能隙或HD惯量。 | ordered-energy-and-model-boundary | direct-original-and-task-derived | PDF4 TableII; observable-identity-shape-result-033.json | true |
+
+### checkpoint036：逐表单位、速率身份与响应边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KL99-D20-R36-1 | TableII B单位10³e²fm⁴，4g→2g 5.53(13)→.553(.013)e²b²、Qt4.40(.05)eb；10S2→8g 925keV .09(.02)→.009(.002)e²b²、Qt.51(.04)eb。不同parent与跨带/带内角色不构成形变商或构型正交排他证据。 | literal-units-and-matrix-element-role | original-and-conditional | PDF4 TableII caption and rows; PDF6–8 discussion | true |
+| KL99-D20-R36-2 | TableI六corrected行std/corr误差保原列：6g .04/.06、8g .06/.10、8gamma .20/.30、10S1 .02/.04、12S1 .02/.04、16S2 .11/.13ps。TableII adopted误差另含stopping处理。电子stopping+30%原叙述不是全轨迹重标或完整新fit；声明affine half-chart的Qt比小变不认证actualCov消除/实验精度。 | literal-error-role-and-response-boundary | original-and-conditional | PDF3 TableI and stopping paragraphs; PDF4 TableII | true |
+
+
+## Day20量化审计：134Nd符合柱塞寿命、S1对决S2多带集体性分歧与邻核系统学（checkpoint138）
+
+> checkpoint146：本节科学认证撤回。旧文本与指纹保存在history-before-repair-146.json。先前原件纠错与原review/flags保留；passed不认证实际实验/结构结论。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KL99-D20-R138-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

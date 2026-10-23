@@ -1,0 +1,19 @@
+{
+  "checkpoint": "111",
+  "frozen_at": "2026-10-23T04:56:19.689188+08:00",
+  "kind": "primed recall before originalquadrupole-invariant source lookup",
+  "prior_exposure": [
+    "withdrawn013/037 declaredclosure controls",
+    "103 solvedrotor versuscos3gamma",
+    "110 conditionaluniformcharge surface"
+  ],
+  "expectations_to_check": [
+    "Kumar1972/Cline1986 originals may define scalarquadrupole invariants withnontrivialCG/6j andnormalizations; exacttitle/DOI/body notyetverified",
+    "B(E2)moduli alone may lose phases needed for cubicproducts andprolate/oblate shapeinformation",
+    "normalizedq3/q2^(3/2) underbeta fluctuations is not generally unweightedmean cos3gamma",
+    "finiteE2closure,knownmatrixelements andmissingstrength restrict model-independent terminology",
+    "noactualCe gammavariance inferred fromgenericsoftrotor distribution"
+  ],
+  "not_blind": true,
+  "next": "localrawfilename+Crossrefidentitylookupthenlawfulactualbodyread; recordexactscope"
+}

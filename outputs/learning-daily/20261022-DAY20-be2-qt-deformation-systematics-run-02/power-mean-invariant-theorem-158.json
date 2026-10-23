@@ -1,0 +1,109 @@
+{
+  "observed_at_utc": "2026-10-23T04:59:35.926496+00:00",
+  "scope": "Power-mean inequality theorem for quadrupole shape invariants and artificial rigidity artifact",
+  "theorem": {
+    "statement": "For any state with non-zero quadrupole deformation amplitude fluctuations (sigma_Q > 0), the third moment <Q^3> strictly exceeds <Q^2>^(3/2) by the power-mean inequality.",
+    "consequence": "Defining cos(3delta) = <Q^3 cos 3delta> / <Q^2>^(3/2) mathematically forces cos(3delta) > 1.0 when delta is rigid (delta=0), producing an unphysical negative variance Var(cos 3delta) < 0.",
+    "code_truncation_artifact": "Standard codes (such as GOSIA sigma.f lines 185-186) truncate negative variance to zero via IF(V.LT.0.) V=0., outputting sqrt(var) = 0.0000 deg and falsely certifying amplitude-fluctuating nuclei as angularly rigid."
+  },
+  "discrete_model": {
+    "m2": 2.5,
+    "m3": 4.5,
+    "m4": 8.5,
+    "henderson_cos3": 1.1384199576606167,
+    "henderson_var": -0.29600000000000026,
+    "gosia_cos3": 1.3255703332268398,
+    "gosia_var": -0.7571367083311151
+  },
+  "gaussian_cases": [
+    {
+      "relative_sigma": 0.01,
+      "cos3_exact": 1.000149973753437,
+      "cos3_approx": 1.00015,
+      "var_exact": -0.0002999699990007265,
+      "var_approx": -0.00030000000000000003,
+      "cos3_overshoot": true,
+      "var_negative": true
+    },
+    {
+      "relative_sigma": 0.05,
+      "cos3_exact": 1.0037336473011758,
+      "cos3_approx": 1.00375,
+      "var_exact": -0.007481234724521002,
+      "var_approx": -0.0075000000000000015,
+      "cos3_overshoot": true,
+      "var_negative": true
+    },
+    {
+      "relative_sigma": 0.1,
+      "cos3_exact": 1.0147408969468206,
+      "cos3_approx": 1.015,
+      "var_exact": -0.02969908793643783,
+      "var_approx": -0.030000000000000006,
+      "cos3_overshoot": true,
+      "var_negative": true
+    },
+    {
+      "relative_sigma": 0.15,
+      "cos3_exact": 1.0324592241436747,
+      "cos3_approx": 1.03375,
+      "var_exact": -0.06597204951935876,
+      "var_approx": -0.0675,
+      "cos3_overshoot": true,
+      "var_negative": true
+    },
+    {
+      "relative_sigma": 0.2,
+      "cos3_exact": 1.0560099584363756,
+      "cos3_approx": 1.06,
+      "var_exact": -0.11515703231679564,
+      "var_approx": -0.12000000000000002,
+      "cos3_overshoot": true,
+      "var_negative": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "Discrete fluctuating model: <Q^3> strictly exceeds <Q^2>^(3/2)",
+      "passed": true,
+      "details": "4.5 > 3.9528"
+    },
+    {
+      "name": "Discrete fluctuating model: Henderson cos(3delta) > 1.0",
+      "passed": true,
+      "details": "1.13842"
+    },
+    {
+      "name": "Discrete fluctuating model: Henderson variance < 0.0",
+      "passed": true,
+      "details": "-0.29600"
+    },
+    {
+      "name": "Discrete fluctuating model: GOSIA FINT cos(3delta) > 1.0",
+      "passed": true,
+      "details": "1.32557"
+    },
+    {
+      "name": "Discrete fluctuating model: GOSIA variance < 0.0",
+      "passed": true,
+      "details": "-0.75714"
+    },
+    {
+      "name": "All Gaussian cases have cos(3delta) > 1.0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "All Gaussian cases have negative variance Var(cos 3delta) < 0.0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Gaussian 10% width gives cos(3delta) ~ 1.0147 and var ~ -0.0297",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "all_checks_passed": true,
+  "conclusion": "Zero angular dispersion from invariant analysis cannot prove rigid triaxiality; it can be entirely an artifact of amplitude fluctuations combined with power-mean denominator underestimation and negative variance truncation."
+}

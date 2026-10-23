@@ -1,0 +1,19 @@
+{
+  "checkpoint": "118",
+  "frozen_at": "2026-10-23T05:36:08.580748+08:00",
+  "source_before_lookup": "Ayangeakaa etal2019 PRL123102501, Poves2020Ref12; exacttitle notyetlookedup",
+  "prior_exposure": [
+    "114Poves76Gecriticism",
+    "116actual76Seexperiment excludesrigidity inference",
+    "112closure/113phase/115delta-domain/117conditionalmissingelement"
+  ],
+  "not_blind": true,
+  "body_read": false,
+  "questions": [
+    "What exact experimental higher-order matrix-element network supports claimed rigidity in76Ge?",
+    "Are softness values original experimental invariants, model estimates or inferred from loworder energy staggering?",
+    "How are missing E2 matrix elements, relative signs, fitCov and shape fluctuations handled?",
+    "Which parts of Poves criticism address this sameobservable/method and which are alternate model results?"
+  ],
+  "boundary": "Do not accept or reject claimedrigidity from title/critique alone; actualoriginalfirst"
+}

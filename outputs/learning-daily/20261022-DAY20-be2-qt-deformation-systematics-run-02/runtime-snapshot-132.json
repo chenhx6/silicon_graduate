@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T07:35:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 445,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 23:35:00 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Coriolis attenuation parameter decoupling and Qt extraction immunity audit",
+      "gap": "Quantified Clebsch-Gordan high-spin convergence (1.19% at 27/2-), effective CG shift (<0.03%), and the 1694.7x decoupling factor between energy splitting and Qt extraction",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04"
+      ]
+    },
+    {
+      "route": "Recoil-in-vacuum deorientation and angular bias audit",
+      "gap": "Established Abragam-Pound lambda_4/lambda_2 ratio (3.33), magic-angle immunity (P_2 = 0), forward Qt inflation (+1.93%) vs 90-deg depression (-1.46%), and solid-angle cancellation",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (445.0 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 132 completed Coriolis attenuation parameter decoupling and Qt extraction immunity audit; continuing substantive Day 20 research."
+}

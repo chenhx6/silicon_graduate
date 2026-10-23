@@ -1,0 +1,34 @@
+{
+  "now_local": "2026-10-23T03:56:55.311528+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 663.0781412,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:56:55 UTC",
+  "time_source": "actual current UTC tool plus aware local timestamp",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "CeSn EFG and Ce/Pb local susceptibility primary provenance",
+      "gap": "IB98 Ref14 Vianden1987 HFI35,1079 and Ref13 Barth1980 PRL45,1015 bodies not yet read; distinguish calibration cancellation from residual actual Cov",
+      "information_gain": "high",
+      "source_locator": "IB98 printed463/464 and references printed478"
+    },
+    {
+      "route": "External 129Ce ground-band Qt and state identity",
+      "gap": "IB98 Ref24 Galindo-Ufibarri1996 PRC54,R454 is external; not current TDPAD replicate nor 131Ce negative-parity lifetime",
+      "information_gain": "medium",
+      "source_locator": "IB98 printed473 and Ref24/478"
+    },
+    {
+      "route": "Day20 scientific consolidation",
+      "gap": "046-100 certifications remain withdrawn; keep original Cov/producer and source-specific alternatives open",
+      "information_gain": "high"
+    },
+    {
+      "route": "Day21 preview boundary",
+      "gap": "Existing preview remains uncredited; no Day22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Actual TDPAD original104 completed; calibration-primary and original Cov/producer gaps remain. More than120min, continue Day20; no early closeout."
+}

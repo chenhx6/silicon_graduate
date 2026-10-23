@@ -87,3 +87,21 @@ Energy-only staggering is affected by band assignments, crossings, γ softness, 
 ## Extracted Pages
 
 - Concepts: [[gamma-soft-deformation]], [[triaxial-deformation]]。
+
+## Day20 checkpoint037：交错原件与旧数字归属纠正
+
+本轮定向回读PDF1–5，视觉核PDF2–5的定义、Fig1极限图及Fig2/4；并非新完整十页阅读。原review/flags保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MC07-D20-R37-1 | Eq2为归一二阶能量差；Fig1 S4打印vibrator−1.0、axial+.33、γ-soft−2.0、rigidγ30°+1.67，旧013的γ-soft−2.5错误。正S4亦可轴对称、负偶数交错也见振动极限，单符号不唯一确定核形状。 | literal-benchmark-and-inference-boundary | direct-original-and-model | PDF2 Eq2 and discussion; PDF3 Fig1 | true |
+| MC07-D20-R37-2 | Figs2/4数据取Ref24，未在这些位置列旧013所用130Ba134Ba130Xe192Os四元精确能量表；本任务未重新取得level inputs或数字化，撤回具体S4实验认证。PDF3说明选定反相核的这种图样在J>5出现，不能倒写192Os S4=.954或全区排他分类。 | input-provenance-and-spin-scope | direct-original-and-boundary | PDF3 first column final paragraph; PDF4 Fig2; PDF5 Fig4/caption | true |
+
+
+## Day20量化审计：准γ带交错指数S(4)四维基准与三轴刚软辨识（checkpoint135）
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MC07-D20-R135-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

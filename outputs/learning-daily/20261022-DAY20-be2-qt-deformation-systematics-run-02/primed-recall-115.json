@@ -1,0 +1,18 @@
+{
+  "checkpoint": "115",
+  "frozen_at": "2026-10-23T05:23:17.312006+08:00",
+  "kind": "declared nonlinear moment propagation before calculation",
+  "prior_exposure": [
+    "Poves114 Eq15-17 actualread",
+    "Henderson112 Eq11/27",
+    "113 commutingQ fluctuation witness"
+  ],
+  "not_blind": true,
+  "questions": [
+    "Derive absolute delta-method covariance for normalized cubic ratio directly from gradient; remove relative singularity at zero cubic mean.",
+    "Compare fullCov linearized proxy to exact nonlinear angular function on positiveQ two-point axial distribution.",
+    "Check small-amplitude asymptotics and constantQ limit; no eventMC or actual CI claimed.",
+    "Compare RMS-amplitude definition, mean amplitude, trueSD and deltaSD rather than calling all beta fluctuations identical."
+  ],
+  "boundary": "No real nuclear sample, no author-output reproduction, no added hypothesis of missing experimental covariance"
+}

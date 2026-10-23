@@ -1,0 +1,1373 @@
+{
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.107.044314",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T11:16:36Z",
+      "timestamp": 1791285396487,
+      "version": "4.1.0"
+    },
+    "reference-count": 58,
+    "publisher": "American Physical Society (APS)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              19
+            ]
+          ],
+          "date-time": "2023-04-19T00:00:00Z",
+          "timestamp": 1681862400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              18
+            ]
+          ],
+          "date-time": "2024-04-18T00:00:00Z",
+          "timestamp": 1713398400000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-SC0023010 (UNC)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-SC0023010 (UNC)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-FG02-97ER41041 (UNC)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-FG02-97ER41041 (UNC)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-FG02-97ER41033 (TUNL)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-FG02-97ER41033 (TUNL)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-FG02-08ER41556 (MSU)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-FG02-08ER41556 (MSU)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-FG02-94ER40848 (UML)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-FG02-94ER40848 (UML)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-FG02-94ER4084 (Maryland)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-FG02-94ER4084 (Maryland)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC02-06CH11357 (ANL)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-06CH11357 (ANL)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC52-07NA27344 (LLNL)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC52-07NA27344 (LLNL)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC02-05CH11231 (LBNL)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-05CH11231 (LBNL)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC05-00OR22725 (ORNL)"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC05-00OR22725 (ORNL)"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006132",
+        "name": "Office of Science",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006132",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006209",
+        "name": "Nuclear Physics",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006209",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PHY-1565546"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PHY-1565546"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PHY-2110365"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PHY-2110365"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-SC0020451"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-SC0020451"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PHY-1502092"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PHY-1502092"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. C"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1103/physrevc.107.044314",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          19
+        ]
+      ],
+      "date-time": "2023-04-19T10:25:11Z",
+      "timestamp": 1681899911000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "Triaxiality and the nature of low-energy excitations in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi>Ge</mml:mi><mml:mprescripts/><mml:none/><mml:mn>76</mml:mn></mml:mmultiscripts></mml:math>"
+    ],
+    "prefix": "10.1103",
+    "volume": "107",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1679-3175",
+        "authenticated-orcid": true,
+        "given": "A. D.",
+        "family": "Ayangeakaa",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA"
+          },
+          {
+            "name": "Triangle Universities Nuclear Laboratory, Duke University, Durham, North Carolina 27708, USA"
+          },
+          {
+            "name": "Department of Physics, United States Naval Academy, Annapolis, Maryland 21402, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. V. F.",
+        "family": "Janssens",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA"
+          },
+          {
+            "name": "Triangle Universities Nuclear Laboratory, Duke University, Durham, North Carolina 27708, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Nuclear Data Center, Brookhaven National Laboratory, Upton, New York 11973-5000, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. M.",
+        "family": "Allmond",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B. A.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facility for Rare Isotope Beams, Michigan State University, East Lansing, Michigan 48824, USA"
+          },
+          {
+            "name": "Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C. Y.",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Livermore National Laboratory, Livermore, California 94550, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Albers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "Auranen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Bucher",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Livermore National Laboratory, Livermore, California 94550, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. P.",
+        "family": "Carpenter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Chowdhury",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Applied Physics, University of Massachusetts Lowell, Lowell, Massachusetts 01854, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Cline",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Astronomy, University of Rochester, Rochester, New York 14627, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H. L.",
+        "family": "Crawford",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Fallon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. M.",
+        "family": "Forney",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Gade",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facility for Rare Isotope Beams, Michigan State University, East Lansing, Michigan 48824, USA"
+          },
+          {
+            "name": "Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. J.",
+        "family": "Hartley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics, United States Naval Academy, Annapolis, Maryland 21402, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. B.",
+        "family": "Hayes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Astronomy, University of Rochester, Rochester, New York 14627, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Henderson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lawrence Livermore National Laboratory, Livermore, California 94550, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F. G.",
+        "family": "Kondev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Krishichayan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Triangle Universities Nuclear Laboratory, Duke University, Durham, North Carolina 27708, USA"
+          },
+          {
+            "name": "Department of Physics, Duke University, Durham, North Carolina 27708, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Lauritsen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Little",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Astronomy, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA"
+          },
+          {
+            "name": "Triangle Universities Nuclear Laboratory, Duke University, Durham, North Carolina 27708, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. O.",
+        "family": "Macchiavelli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nuclear Science Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Rhodes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Facility for Rare Isotope Beams, Michigan State University, East Lansing, Michigan 48824, USA"
+          },
+          {
+            "name": "Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Seweryniak",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. M.",
+        "family": "Stolze",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W. B.",
+        "family": "Walters",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevC.107.044314Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3254/978-1-60750-038-4-163"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.83.034320"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.87.064302"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.94.014306"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.105.252503"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.91.024316"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.111.142501"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ppnp.2021.103931"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.105.212504"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.75.054315"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nuclphysa.2007.02.012"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.80.064323"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.83.027302"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.80.064313"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.60.2254"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(96)00292-8"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0370-2693(97)00028-2"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0954-3899/42/4/045108"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2014.05.069"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.89.014328"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.81.044311"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.76.034317"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2016.01.036"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.87.041304"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0029-5582(58)90153-6"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.120.212501"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.123.102501"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.95.014327"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.70.024308"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nima.2013.01.009"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nima.2016.01.034"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc32R1",
+        "first-page": "726",
+        "volume": "14",
+        "author": "D. Cline",
+        "year": "1969",
+        "journal-title": "Bull. Am. Phys. Soc."
+      },
+      {
+        "key": "PhysRevC.107.044314Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0954-3899/27/7/307"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc34R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(71)90248-X"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(68)90109-7"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc36R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(73)90237-6"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(79)90567-0"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc38R1",
+        "first-page": "745",
+        "volume": "28",
+        "author": "T. Czosnyka",
+        "year": "1983",
+        "journal-title": "Am. Phys. Soc"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.80.021303"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/ndsh.1995.1005"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nima.2008.02.051"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.22.2420"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.22.1530"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.78.021304"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc46R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.73.014308"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc47R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.78.014302"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.81.051305"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc51R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2017.01.072"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc52R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(75)90095-0"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc53R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.28.249"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc54R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ns.36.120186.003343"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc55R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nuclphysa.2005.11.013"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc56R1",
+        "volume-title": "Nuclear Structure",
+        "author": "A. Bohr",
+        "year": "1998"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc57R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2014.07.022"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc58R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.102.054306"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc59R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.101.054307"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc60R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.99.014313"
+      },
+      {
+        "key": "PhysRevC.107.044314Cc61R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.99.054313"
+      }
+    ],
+    "container-title": [
+      "Physical Review C"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/accepted/10.1103/PhysRevC.107.044314",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevC.107.044314",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.107.044314/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2025-07-28T17:30:18Z",
+      "timestamp": 1753723818000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevC.107.044314"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          19
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            4
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevc.107.044314",
+    "relation": {},
+    "ISSN": [
+      "2469-9985",
+      "2469-9993"
+    ],
+    "issn-type": [
+      {
+        "value": "2469-9985",
+        "type": "print"
+      },
+      {
+        "value": "2469-9993",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          19
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-01-27",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "\u00a92023 American Physical Society",
+        "name": "copyright_statement",
+        "label": "Copyright statement",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      },
+      {
+        "value": "2023",
+        "name": "copyright_year",
+        "label": "Copyright year",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      },
+      {
+        "value": "American Physical Society",
+        "name": "copyright_holder",
+        "label": "Copyright holder",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      }
+    ],
+    "article-number": "044314"
+  }
+}

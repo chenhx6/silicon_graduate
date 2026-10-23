@@ -3,6 +3,8 @@
 Quantitative audit of transition quadrupole moments (Qt) and stopping/feeding systematics in 136Sm (Babra 2019 Table I)
 and 133Pr (Singh 2016 Table 2), evaluating slope significances, constant Qt models, and 15% stopping power systematic bands.
 """
+
+raise SystemExit("Retired by Day20 source audit001: do not regenerate historical certification; use day20_literal_trend_audit.py and current canonical source boundaries.")
 import json, sys, os, numpy as np
 
 RUN = 'outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01'

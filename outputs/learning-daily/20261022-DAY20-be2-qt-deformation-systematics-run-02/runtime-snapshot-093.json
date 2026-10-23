@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T03:06:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 714,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:06:33 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "131Ce collective mode discrimination and triphase shape coexistence hierarchy",
+      "gap": "Completed in checkpoint093: mapped six Alwaleedi 2013 interband connecting lines, verified signature splitting Delta e prime ~ 150-250 keV refuting chiral doublets, audited delta=0 sensitivity (5x collapse for wobbling delta=-2), verified flat Qt slope (z=-0.638sigma), established triphase deformation hierarchy (0.92 -> 2.58 -> 7.30 eb, jump 2.829x), and audited the 5-hypothesis ranking",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (03:06:00 CST); 11.90 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

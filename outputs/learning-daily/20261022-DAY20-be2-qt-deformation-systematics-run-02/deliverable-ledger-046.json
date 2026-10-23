@@ -1,0 +1,114 @@
+{
+  "checkpoint": "046",
+  "audited_at_utc": "2026-10-22T14:39:25.979553+00:00",
+  "script_sha256": "936320accaead76219cdf264dc9219a4bb5a25c373fa30fe8b36734db2de2795",
+  "curriculum_matrix_status": {
+    "day_index": 20,
+    "phase": "lifetimes-strengths-and-deformation",
+    "deliverables": {
+      "recall_model_dependence": {
+        "status": "audited",
+        "log_derivatives": {
+          "dlnB_dlntau": -1.0,
+          "dlnB_dlnE": -5.0,
+          "dlnQt_dlntau": -0.5
+        },
+        "triaxial_suppression_gamma30": "42.2650%",
+        "evidence_locator": "knowledge/observables/transition-quadrupole-moment.md"
+      },
+      "mainline_reading": {
+        "status": "audited",
+        "sources": [
+          "petrache-1998-highly-deformed-lifetimes-131ce-nd.md",
+          "singh-2016-lifetime-131ce-133pr.md",
+          "transition-quadrupole-moment.md"
+        ],
+        "evidence_locator": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md; knowledge/sources/petrache-1998-highly-deformed-lifetimes-131ce-nd.md"
+      },
+      "exercise_weighted_trends": {
+        "status": "audited",
+        "Ce131_finite_slope": {
+          "b": -0.030174982600885684,
+          "se": 0.04721469579236466,
+          "z": -0.6391014936024525
+        },
+        "Pr133_finite_slope": {
+          "b": -0.11667439837634094,
+          "se": 0.048607531151686985,
+          "z": -2.4003358247560698
+        },
+        "evidence_locator": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/trend-figure-result-043.json"
+      },
+      "counterevidence_and_alternatives": {
+        "status": "audited",
+        "cases": [
+          "band_crossing_wavefunction_mixing_136Sm",
+          "side_feeding_time_distortion",
+          "gamma_softness_triaxial_suppression",
+          "stopping_power_scaling_invariance"
+        ],
+        "Sm136_results": {
+          "Gaussian_z": -2.1788122897744504,
+          "Student_t_df4": -2.721302687398929
+        },
+        "evidence_locator": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md; knowledge/observables/transition-quadrupole-moment.md"
+      },
+      "evidence_figure": {
+        "status": "audited",
+        "artifacts": [
+          "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.pdf",
+          "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.svg",
+          "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.png",
+          "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/source-data-043.csv"
+        ],
+        "alignment_verdict": "PASS",
+        "collision_verdict": "PASS",
+        "evidence_locator": "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.pdf"
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "Logarithmic derivatives: dlnB/dlntau=-1, dlnB/dlnE=-5, dlnQt/dlntau=-0.5",
+      "passed": true
+    },
+    {
+      "name": "Triaxial Qt suppression at gamma=30 deg is exactly 1 - 1/sqrt(3) ~ 42.26%",
+      "passed": true
+    },
+    {
+      "name": "Singh 2016 raw file exists and matches baseline SHA256",
+      "passed": true
+    },
+    {
+      "name": "Petrache 1998 raw file exists and matches baseline SHA256",
+      "passed": true
+    },
+    {
+      "name": "131Ce finite slope b = -0.030175 +- 0.047215, z = -0.63910",
+      "passed": true
+    },
+    {
+      "name": "133Pr finite slope b = -0.116674 +- 0.048608, z = -2.40034",
+      "passed": true
+    },
+    {
+      "name": "136Sm Gaussian z = -2.178812 and residual-scaled Student t = -2.721303 (df=4)",
+      "passed": true
+    },
+    {
+      "name": "All 4 figure delivery files exist (PDF, SVG, PNG, CSV)",
+      "passed": true
+    },
+    {
+      "name": "Rendered alignment JSON exists and confirms 1.5 pt strict pass",
+      "passed": true
+    },
+    {
+      "name": "Collision audit JSON exists and confirms PASS (0 fail, 0 warn)",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "boundary": "Deliverables consolidated within Day 20 continuous research window. No premature card credit or intermediate publication."
+}

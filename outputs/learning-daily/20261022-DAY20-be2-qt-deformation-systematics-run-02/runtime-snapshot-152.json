@@ -1,0 +1,42 @@
+{
+  "checkpoint": 152,
+  "observed_at_utc": "2026-10-23T03:40:56.771680+00:00",
+  "now_local": "2026-10-23T11:40:56.771680+08:00",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 199.05380533333334,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Return to state-specific A130 lifetime-strength-deformation comparison",
+      "information_gain": "high, next focused audit",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "PE98-D20-R34-1",
+        "LI04-D20-R146-1",
+        "IB98-D20-R146-1",
+        "B19-D20-R39-1",
+        "MU08-D20-R39-1"
+      ],
+      "evidence_gap": "Reconcile weighted trends with direct evidence; separate band crossings, feeding delays, K projections and centrifugal shrinkage across isotopes.",
+      "next_action": "Perform structured multi-nucleus synthesis of lifetime-strength-deformation evidence map, linking to Day20 matrix deliverables."
+    },
+    {
+      "route": "SIGMA executable control and interpolation artifact",
+      "information_gain": "completed benchmark",
+      "source_locators": [
+        "GM12-D20-10"
+      ],
+      "evidence_gap": "Verified that FINT interpolation underestimates M3 (4.4458 vs 4.5) in amplitude-fluctuating axial models, yielding cos(3delta)=1.0122 and negative variance zeroed out in code.",
+      "next_action": "Preserve controls in knowledge methods and synthesis; do not use to assert original experimental bias without input."
+    },
+    {
+      "route": "Day21 uncredited preview already opened",
+      "information_gain": "bounded",
+      "evidence_gap": "No formal Day21 run/card credit",
+      "next_action": "Keep partial20/21; no Day22."
+    }
+  ],
+  "decision_reason": "SIGMA executable controls completed and verified mechanical_valid=True. Proceed to comprehensive A130 lifetime-strength-deformation matrix synthesis within active Day20 window (deadline 15:00)."
+}

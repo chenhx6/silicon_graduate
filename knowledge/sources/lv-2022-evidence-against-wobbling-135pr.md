@@ -150,3 +150,30 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 |---|---|---|---|---|---|
 | LV22P-D18-2 | Table1三条线δ=-.47/-.37/-.31来自本次P/Rac与角分布联合分析；813的.12(.08)是沿这些分支输入得到的派生BE2out/in。它不是独立寿命或绝对矩阵元，且误差/response/branch协方差未在本任务重建。 | reported-result-and-dependence | direct-and-boundary | PDF3 Table1；PDF2–4 methods | true |
 | LV22P-D18-3 | 作者以|δ|<1、M1主导和QTR再现把低带解释为tilted precession并反对原wobbling解释；这是该核/该实验的结构结论。把它推广为所有低自旋wobbling的排除，或把.12与旧.843的7倍差写成无模型条件的实验CI，均超出来源。 | author-interpretation-boundary | direct-and-boundary | PDF1 abstract；PDF3–5 discussion/summary | true |
+
+## Day20 checkpoint041：135Pr对立解释、相对强度与模型文字
+
+本轮按primed-recall-041先冻结暴露回忆；实际回读两篇主文全文主线与Lv全部SI，scope041逐页记录。旧human-reviewed范围及原flags不变；新增为Codex self-audit，不是新人审或原实验重分析。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D20-R41-1 | 主Table1/SITable1的747.3/813.2/450.2对应band3→1(17/2→15/2、21/2→19/2)和band4→3(19/2→17/2)，δ−.47/−.37/−.31保原非对称误差。主P误差端点各跨0，作者以联合P-Rac决定分支；SI Ap经Q转成主P，同采集不计两份证据。755.1无P/新δ。 | observable-lineage-and-measured-scope | direct-original-and-conditional | mainPDF2 Fig1; mainPDF3 Table1/Fig2; SIp1 Eqs1–2; SIp5 Table1 | true |
+| L22-D20-R41-2 | 本任务用SI Iγ747.3/526.2=9.4/.4、Iγ813.2/726.0=6.4/3.7、主δ与reference pureE2声明，得同parent photon E2比.735975/.118129。parentτ可相消，实际δ/intensity/response/Cov未重建。正文.7(+.7/−.5)系作者特定onephonon禁戒测试，不是ratio<1.5普适标准或新绝对B/τ。 | conditional-rate-ratio-and-author-test | direct-original-and-conditional | mainPDF3 finalparagraph; SIp5 Table1; task result041 | true |
+| L22-D20-R41-3 | Lv对早期frozen处理的批评是作者模型比较陈述；Matta2015 PDF5另明确Coriolis使j脱离short转medium，不能仅据批评判实际Matta全spin冻结。Lv的j_parallel及orientation是QTR输出，bands2/5高spin能量高估；未取得原producer以作全参数/算法等价审计。 | cross-source-model-comparison-boundary | direct-original-and-conditional | mainPDF4–5; SIpp4/6; MattaPDF4–5 | true |
+
+
+### checkpoint141：康普顿散射偏振去污染、M1 主导性确立与多核摆动争议审查
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LV22-D20-R141-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| L22-D20-R146-1 | 新实验联合P-Rac分析给小模δ，作者据此反对所述低spin带wobbling并提出TiP。三线P误差端点跨0，不能仅用中心符号声称唯一排除。0.12与.843之比是派生输出中央比，不是恢复真实共同likelihood。旧124等生成分析的726keV、δ−3.20/−.18、P−.16(4)与34→1.17W.u.链未受此原表支持，继续隔离；不推广到La/Xe无偏振或全区排除。 | prior-primary-audit-and-transfer-boundary | source-and-bounded-self-audit | L22-D20-R41-1至R41-3; Table1/Fig2/SI Table1 | true |

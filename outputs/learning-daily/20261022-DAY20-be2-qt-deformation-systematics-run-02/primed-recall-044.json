@@ -1,0 +1,20 @@
+{
+  "checkpoint": "044",
+  "observed_at_utc": "2026-10-22T14:19:00.474900+00:00",
+  "primed": true,
+  "prior_context": "KnownfromcanonicalpageandMatta/Lvselectedreading; not blindrecall. ThischeckpointisDay20transitionmatrixelement/geometrycounterevidence, not Day22card.",
+  "recall": [
+    "Frozen alignment is a semiclassical approximation holding a quasiparticle angular momentum fixed along an axis. Full quantum QTR may allow Coriolis changes; approximateformula failure doesnot prove fullquantummodel uses frozen j.",
+    "A rotor B(E2) angulargeometry may changeatfixed intrinsicquadrupole tensor; an energyfit alone doesnot independently measure quadrupoleamplitude.",
+    "TW/LW defined relative tolargestMoIaxis, not nameofa fixedcoordinate; actualinertiaordering and chosenparameters matter."
+  ],
+  "to_verify": [
+    "Where are fullquantum and HFA defined and compared?",
+    "What E2 operator/convention and absoluteamplitude inputs areused for135Pr?",
+    "Do claimedcollapse/criticalspin and rise hold in fullmodeland whichjassumption?",
+    "Which outputs areindependentpredictions versusparameters fixedtoenergy/strength?"
+  ],
+  "not_known": [
+    "Actualauthorproducer/code and experimentalCov"
+  ]
+}

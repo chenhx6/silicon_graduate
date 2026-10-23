@@ -199,3 +199,26 @@ Mohammed Abdullah Alwaleedi，*Band Structures of 131Ce*，University of Liverpo
 ## Non-source Notes and Follow-up
 
 L3 pilot 将独立保存跨来源推理；本页不把后来形成的 wobbling/chirality 分类倒灌为论文作者主张。2026-09-05 复读属于本批次温故知新，不改变页面级 `review_status` 或既有 claim-level 状态。
+
+## Day20量化审计：131Ce转动惯量微积分关系、Harris展开平坦性与超形变双重认证
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立程序 `system/scripts/day20_moments_of_inertia_harris_quenched_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/moments-of-inertia-harris-quenched-result-025.json`，量化审计了 $^{131}\text{Ce}$ 正常形变带与高自旋高度形变带（HD）的转动惯量微分动力学特征：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AW13-D20-1 | checkpoint033：旧87/84keV平台、12.2%亏损全分解、由平坦排除配对和硬阈值科学认证撤回；旧025未输入逐条原表能量或重跑微观模型。原文来源review/既有claim保留；此次不新认证学位论文全文。 | withdrawn-task-certification | source-correction-and-boundary | checkpoint033 | true |
+
+## checkpoint032：过强认证撤回
+
+旧025的自设能量间距、12.2%刚体亏损全部解释、由惯量平坦排除残余配对及6.5eb/3%普适阈值认证撤回；未重跑微观计算，实际能级路径与基准仍需逐项核。 原有claim IDs、review和needs_review保持。
+
+
+## Day20量化审计：131Ce多带高自旋谱学、交叉签名劈裂与四源联合交叉核验（checkpoint139）
+
+> checkpoint146：本节科学认证撤回。旧文本与指纹保存在history-before-repair-146.json。先前原件纠错与原review/flags保留；passed不认证实际实验/结构结论。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AW13-D20-R139-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

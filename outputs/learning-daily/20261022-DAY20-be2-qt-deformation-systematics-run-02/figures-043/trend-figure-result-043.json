@@ -1,0 +1,81 @@
+{
+  "ledger_sha256": "dc8f9a0b8be4afec0cd7aa62e907476428a97fb6cd285bde416db75347547785",
+  "raw_sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+  "cases": {
+    "case_Ce131": {
+      "pivot_spin": 13.5,
+      "intercept_at_pivot": 2.6344829060992154,
+      "slope_eb_per_hbar": -0.030174982600885532,
+      "slope_se": 0.047214695792364654,
+      "Gaussian_z": -0.6391014936024494,
+      "Gaussian_two_sided_tail": 0.5227569083404835,
+      "constant_eb": 2.578943578373181,
+      "constant_se": 0.09866467099839166,
+      "constant_chi2": 2.6624054870438156,
+      "constant_dof": 3,
+      "linear_chi2": 2.2539547679189287,
+      "linear_dof": 2,
+      "constant_tail": 0.4466539393946808,
+      "delta_chi2": 0.40845071912488695,
+      "estimated_common_error_scale_control": {
+        "scale_variance": 1.1269773839594643,
+        "slope_se": 0.05012273909922805,
+        "Student_t": -0.6020218197003975,
+        "dof": 2,
+        "Student_two_sided_tail": 0.6083187945954607,
+        "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+      },
+      "normalized_weights": [
+        0.048072678040596895,
+        0.10816352559134298,
+        0.6230219074061356,
+        0.22074188896192443
+      ],
+      "fit_spin_range": [
+        7.5,
+        17.5
+      ]
+    },
+    "case_Pr133": {
+      "pivot_spin": 9.5,
+      "intercept_at_pivot": 3.4121223543055956,
+      "slope_eb_per_hbar": -0.11667439837634112,
+      "slope_se": 0.04860753115168699,
+      "Gaussian_z": -2.4003358247560733,
+      "Gaussian_two_sided_tail": 0.01638003663397852,
+      "constant_eb": 3.407358117788542,
+      "constant_se": 0.0728289970123866,
+      "constant_chi2": 7.807422451427628,
+      "constant_dof": 2,
+      "linear_chi2": 2.045810379820221,
+      "linear_dof": 1,
+      "constant_tail": 0.020166928369174053,
+      "delta_chi2": 5.761612071607407,
+      "estimated_common_error_scale_control": {
+        "scale_variance": 2.045810379820221,
+        "slope_se": 0.069524240313153,
+        "Student_t": -1.6781830028032394,
+        "dof": 1,
+        "Student_two_sided_tail": 0.34211085709946015,
+        "boundary": "Additional common unknown error scale estimated from residuals; this is not the known-error Gaussian model."
+      },
+      "normalized_weights": [
+        0.27061544927705183,
+        0.43835229800249725,
+        0.29103225272045086
+      ],
+      "fit_spin_range": [
+        7.5,
+        11.5
+      ]
+    }
+  },
+  "counts": {
+    "ledger_rows_including_feeding": 14,
+    "plotted_negative_parity": 12,
+    "finite_fitted": 7,
+    "bounds_not_fitted": 5,
+    "feeding_excluded": 2
+  },
+  "boundary": "Known independent symmetrized Gaussian diagnostic only. Bounds have unspecified CL; no original Cov/CI/producer recovered."
+}

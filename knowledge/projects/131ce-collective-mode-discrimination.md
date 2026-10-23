@@ -3,7 +3,7 @@ type: project
 title: 131Ce/133Ce 集体模式判别
 aliases: [131Ce collective-mode discrimination]
 created: 2026-07-27
-updated: 2026-10-06
+updated: 2026-10-23
 status: active
 review_status: unreviewed
 project_stage: l4-milestone-awaiting-review
@@ -279,7 +279,7 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 
 - **Day 3 model-route link (2026-09-29):** [[a130-model-choice-card]] maps model inputs and limits for the existing `131Ce` question; [[hara-sun-1995-projected-shell-model-high-spin]] `HS10-4` is an axial-code historical comparison only. Its seven `N=76–78` triaxial candidates, including the later `133La`/`135Pr` TPSM examples ([[sheikh-jehangir-bhat-2024-tpsm-wobbling]]), do not transfer to `131Ce` (`Z=58,N=73`) and do not change the current hypothesis ranking.
 - Target baseline: [[alwaleedi-2013-band-structures-131ce]], [[singh-2016-lifetime-131ce-133pr]], [[li-2004-lifetimes-131ce]], [[131ce-negative-parity-yrast-reference-sequence]], [[131ce-positive-parity-reference-sequence]], [[petrache-1998-highly-deformed-lifetimes-131ce-nd]], [[131ce]]
-- Static-moment/shape anchor: [[ionescu-bujor-1998-static-moments-129-131ce]]；其 `131Ce` `J=9−` moments and PTR shape parameters constrain the shape background but do not identify the high-spin collective mode alone.
+- Static-moment/shape anchor: [[ionescu-bujor-1998-static-moments-129-131ce]]；其 `131Ce` `J=9/2−` moments and PTR shape parameters constrain the shape background but do not identify the high-spin collective mode alone.
 - `133Ce`: [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]], [[ayangeakaa-2016-133ce-in-beam]], [[133ce]]
 - N=73 configuration/wobbling controls: [[ding-2021-131ba-133ce-signature-splitting]], [[palacz-1991-high-spin-131ce]], [[bazzacco-1998-rotational-bands-133nd]], [[chakraborty-2020-multiphonon-longitudinal-wobbling-127xe]], [[chakraborty-2024-possibility-wobbling-129ba]], [[127xe]], [[129ba]]
 - Mechanism controls: [[ding-2021-131ba-133ce-signature-splitting]], [[chakraborty-2023-131xe-wobbling-origin]], [[nomura-2022-questioning-wobbling-ibfm]]
@@ -304,4 +304,22 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| CMD131-D19-2 | 1.23与1.24ps是中心差约.81%，不是已测精度<1%或“真实tau完全相等”。fixedK候选比1.21756与2.72/2.28=1.19298有残差，不能宣称100%K约定解释或actualproducer已知。1.44(54)中心高于1.3单侧界只可说表面相容，非整个分布满足/独立CI通过。008回归低z既不证明恒定，也不独自给检验power；无Cov/限值likelihood不造原实验显著性。CMD131-D19-1的势垒/统计隧穿和Shannon bits等旧认证继续pending/撤回，未因102重算恢复。当前模式排序沿原project provisional证据，不新增模式测量。 | project-correction | source-and-conditional-boundary | SI16-D20-2; LI04-D20-2; PE98-D20-3; checkpoint108 rejection registry | true |
+| CMD131-D19-2 | Day20原Table1更正：1.23与1.25ps中心差约1.63%（SI16-D20-F01）；旧1.24/.81%撤回，不是已测精度<1%或“真实tau完全相等”。fixedK候选比1.21756与2.72/2.28=1.19298有残差，不能宣称100%K约定解释或actualproducer已知。1.44(54)中心高于1.3单侧界只可说表面相容，非整个分布满足/独立CI通过。008回归低z既不证明恒定，也不独自给检验power；无Cov/限值likelihood不造原实验显著性。CMD131-D19-1的势垒/统计隧穿和Shannon bits等旧认证继续pending/撤回，未因102重算恢复。当前模式排序沿原project provisional证据，不新增模式测量。 | project-correction | source-and-conditional-boundary | SI16-D20-2; LI04-D20-2; PE98-D20-3; checkpoint108 rejection registry | true |
+
+
+### checkpoint049：131Ce三相动力学与观测量层级解耦审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CE131-D20-R49-1 | checkpoint101/104撤回旧三相/六数量级实际寿命/形变跃升认证。当前原读IB98-D20-R104-1–8区分88(2)ns半衰期与取向松弛、QI/MI宿主校准及PTR的K混合；纯K9/2的6/11仅条件几何，非实际producer。Singh Qt与Petrache Q0对应不同态/fit角色，标量2.83不能变成实测β或B跃升，旧80fs也非Petrache逐态寿命测量。原review/flags保持，mode ranking仍provisional。 | withdrawn-overclaim-and-source-boundary | direct-source-and-conditional-boundary | IB98-D20-R104-1–8; SI16-D20-F01–06; PE98-D20-F01/F02; source-reading-scope-104.json | true |
+### checkpoint145：多模电磁阶梯层级与五大集体模式假说全景判定审计
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PJ131-D20-R145-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+### checkpoint146：保留暂定排序，不由缺测排除模式
+
+145的错误1.34eb输入、同态2.58(12)错配与29.68倍强度阶梯均撤回。131Ce静态矩正确值0.92(10)eb；6/11仅纯K候选公式，非实际PTR。原Current Hypotheses维持provisional：组态/签名耦合优先；γ软背景为模型可行；chirality/wobbling在当前Bands1–7缺必要目标核电磁证据，不能写成核素层面完全排除；ND与独立HD带不自动成为已证混合共存伙伴。依据[[ionescu-bujor-1998-static-moments-129-131ce]] IB98-D20-R146-1/2、[[singh-2016-lifetime-131ce-133pr]] SI16-D20-R146-1。没有新实验、原拟合或置信区间。

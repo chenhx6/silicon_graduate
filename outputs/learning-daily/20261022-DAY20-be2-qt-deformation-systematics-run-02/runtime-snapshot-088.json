@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T02:42:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 738,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 18:42:25 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "128Cs chiral bandhead isomer static g-factor and planar geometry audit",
+      "gap": "Completed in checkpoint088: verified TDPAD experimental g-factors (+0.59(1)), Larmor period (50.3 ns) vs mean lifetime (80.8 ns) and alignment relaxation (300 ns), failure of two-vector additivity (15.7% deficit, >7sigma), classical planar limits (0.6 and 0.4), PRM+CDFT near-planar bandhead orientation (<O>~0.15 << 1.0), and critical frequency onset threshold",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (02:42:00 CST); 12.30 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

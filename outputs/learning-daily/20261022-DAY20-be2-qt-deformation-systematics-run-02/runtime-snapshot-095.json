@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T03:12:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 708,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:12:41 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "Direct octupole collectivity invariance vs electric dipole cancellation in radioactive Ba isotopes",
+      "gap": "Completed in checkpoint095: verified CARIBU/ATLAS Coulomb excitation direct B(E3) equality (48 W.u.) and Q3~1735 e fm^3 invariance between 144Ba and 146Ba, 73.85% collapse of |D0|, and proved the 81.11% macro-microscopic cancellation theorem between droplet (+0.180 e fm) and shell (-0.146 e fm) terms",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (03:12:00 CST); 11.80 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

@@ -1,0 +1,42 @@
+{
+  "checkpoint": 153,
+  "observed_at_utc": "2026-10-23T03:56:34.535024+00:00",
+  "now_local": "2026-10-23T11:56:34.535024+08:00",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 183.42441626666667,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "A130 lifetime-strength-deformation evidence map",
+      "information_gain": "completed benchmark",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "PE98-D20-R34-2",
+        "LI04-D20-2",
+        "IB98-D20-R146-1",
+        "B19-D20-R39-1",
+        "MU08-D20-R39-1"
+      ],
+      "evidence_gap": "11 checks passed in day20_a130_collectivity_evidence_map153.py; reconciled Li/Singh via CG sqrt(169/114), 133Pr 78.6x feeding jump, 134Nd additivity saturation, 136Nd 11x B(E2) drop, 136Sm 10.4% step.",
+      "next_action": "Preserve in synthesis and research notes; continue active research until 15:00 hard cutoff."
+    },
+    {
+      "route": "Pre-closeout review and readiness audit for 15:00 transition",
+      "information_gain": "high",
+      "source_locators": [
+        "Day20 deliverables matrix"
+      ],
+      "evidence_gap": "Audit all four required card deliverables (primed recall, primary sources, weighted trends, evidence map/figure) to ensure seamless 15:00 closeout.",
+      "next_action": "Verify figure, tables, and atomic locators; keep completed_day_indices empty until 15:00 closeout window."
+    },
+    {
+      "route": "Day21 uncredited preview already opened",
+      "information_gain": "bounded",
+      "evidence_gap": "No formal Day21 run/card credit",
+      "next_action": "Keep partial20/21; no Day22."
+    }
+  ],
+  "decision_reason": "Checkpoint 153 multi-nucleus evidence map completed and mechanically valid (40 changed pages, 0 errors). Research window active until 15:00 hard deadline."
+}

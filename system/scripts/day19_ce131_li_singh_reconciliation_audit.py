@@ -7,6 +7,8 @@ Proves that the apparent Qt discrepancy between Li 2004 and Singh 2016 is an alg
 artifact of K=11/2 vs K=1/2 conventions rather than an experimental disagreement.
 Uses only the Python standard library. Requires --output PATH.
 """
+
+raise SystemExit("Retired by Day20 source audit001: do not regenerate historical certification; use day20_literal_trend_audit.py and current canonical source boundaries.")
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction as F

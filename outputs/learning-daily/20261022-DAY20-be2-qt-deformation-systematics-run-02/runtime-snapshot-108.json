@@ -1,0 +1,44 @@
+{
+  "now_local": "2026-10-23T04:33:27.713463+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 626.53810895,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 20:33:27 UTC",
+  "time_source": "actual UTC tool plus aware local timestamp",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Current report claim curation",
+      "gap": "Long historical report retains046-100 withdrawn claims; archive before rewriting a readable current draft with unchanged tenheadings/uniquewriteback/cardstate",
+      "information_gain": "high",
+      "locators": [
+        "rejected-analysis-registry-101.json",
+        "canonical Day20 synthesis and sourceIDs104–108"
+      ]
+    },
+    {
+      "route": "Recover valid conditional shape expansion from quarantined047",
+      "gap": "Derive uniform-charge Gaunt coefficients, exact volume/density conventions and inverse beta sensitivity without attributing unprovided radius/algorithm to Petrache",
+      "information_gain": "high",
+      "source_locators": [
+        "Singh2016 PDF9 Eq4",
+        "Petrache1998 R12 TableI caption; PE98-D20-R47-1 corrected101"
+      ]
+    },
+    {
+      "route": "Calibration and Cov readiness",
+      "gap": "107 fullBarth plus108 declared offset degeneracy do not identify actual1998 Cov/producer or realconstant-shift bounds; keep source-specific limits",
+      "information_gain": "high",
+      "locators": [
+        "BA81-D20-2/4/6/8",
+        "DA83-D20-1/3/7"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Keep day20 and partial21 only, noDay22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "More than120minutes remain; viable Day20 source-based conditional modelling and claim curation routes remain. Card checkpoint is not endofwindow."
+}

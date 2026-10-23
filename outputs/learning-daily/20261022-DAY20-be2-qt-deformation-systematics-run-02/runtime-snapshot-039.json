@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-22T21:34:04.295290+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1045.9284118333333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:30:14 UTC",
+  "time_source": "aware system clock; preceding tool observation separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "012 KO01 multipolarity literal inputs",
+      "information_gain": "high",
+      "gap": "exact energies/delta identities and transition classes"
+    },
+    {
+      "route": "021/022 disputed-mode comparison",
+      "information_gain": "high",
+      "gap": "small/big roots, actual source coverage and blanket criteria"
+    },
+    {
+      "route": "After remaining repairs, consolidate source-grounded evidence map and course deliverables",
+      "information_gain": "high",
+      "gap": "avoid orphan retired claims and perform actual card audit only at original time gate"
+    }
+  ],
+  "decision_reason": "Continue current Day20 high-information audits, no new card/closeout."
+}

@@ -140,3 +140,21 @@ Spin/parity hypotheses, detector-pair efficiency corrections, Rose–Brink sign 
 
 - L3 question: how often do A≈130 low-spin angular-correlation datasets provide a unique δ once detector-angle coverage, reference transitions and M1 contamination are modeled consistently? Required counter-checks are convention mapping and unresolved-branch sensitivity.
 - No L4 run: raw matrices/response files and a machine-readable Table I are not supplied.
+
+## Day20 checkpoint040：原表逐线与光子份额边界
+
+本日已先冻结primed回忆，再完整读三页原件主线与全部Fig1–3/TableI视觉核；本次只typed五条finiteδ行和483.5未定行，未重造全部B列或原联合拟合。旧review/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KO01-D20-R40-1 | TableI 2_3+母态1557.0→2_1+线1199.8keV δ−.30(.02)；4_3+母态1844.0→4_1+线942.5keV δ+.15(.09)；3_1+母态1360.5→2_1+1003.3 δ−4.5(.4)。旧012的能量/母态/误差多项错误；前两中心M1份额91.743/97.800%与pureE2条件高估12.111/45.444只保声明光子率算术。 | literal-line-identity-and-error-correction | direct-original-and-conditional | PDF2 TableI; PDF3 Fig3 | true |
+| KO01-D20-R40-2 | finiteδ给radiative multipole fraction，不等能级totalbranch；3-两条oppositeparity线不能称E2/M1。483.5线仍无唯一δ、92*/<130*是污染估计无error。两openingangle比共享W90/效率/数据，未得实际Cov；强M1的mixedsymmetry解释仍需absoluteM1。 | denominator-multipole-and-structure-boundary | direct-original-and-synthesis | PDF1 angular-correlation method; PDF2 TableI/caption; PDF3 conclusions | true |
+
+
+## Day20量化审计：准γ带分支比选择定则与γ软度验证（checkpoint135）
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KO01-D20-R135-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |

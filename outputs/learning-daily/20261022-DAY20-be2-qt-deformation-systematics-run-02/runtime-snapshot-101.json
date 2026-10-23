@@ -1,0 +1,33 @@
+{
+  "now_local": "2026-10-23T03:39:45.324062+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 680.2445989666667,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:39:45 UTC",
+  "time_source": "actual clock tool + aware local time",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Mainline printed-table correlation sensitivity",
+      "gap": "Unknown joint Cov; characterize which statements use diagonal assumptions without reconstructing CI",
+      "information_gain": "high",
+      "source_locators": [
+        "Singh2016 PDF5 Table1; PDF8 Table2; SI16-D20-F03/F04"
+      ]
+    },
+    {
+      "route": "Petrache raw fit/input identifiability and external lineage",
+      "gap": "Qsf prose/table conflict; no per-transition lifetimes or original response producer",
+      "information_gain": "high",
+      "source_locators": [
+        "Petrache1998 R12 TableI and R13 limitations; PE98-D20-F01/F02/F03"
+      ]
+    },
+    {
+      "route": "Day21 previously opened preview",
+      "gap": "No formal credit; no Day22; continue Day20 evidence repair first",
+      "information_gain": "bounded-preview-only"
+    }
+  ],
+  "decision_reason": "More than 120 minutes remain; certification errors and actual Cov gaps provide high-value Day20 routes. No early closeout."
+}

@@ -1,0 +1,11 @@
+{
+  "now_local": "2026-10-22T20:56:27.083121+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1083.54861465,
+  "decision": "continue-or-advance",
+  "day_index": 20,
+  "next_card": "Day21 existing uncredited preview only",
+  "candidate_decision": "Evidence repair still high information gain; next audit009/010/016/023/024/026, no new card",
+  "clock_tool_observation_utc": "2026-10-22 12:55:43 UTC",
+  "observation_source": "aware system clock; preceding tool observation separately recorded"
+}

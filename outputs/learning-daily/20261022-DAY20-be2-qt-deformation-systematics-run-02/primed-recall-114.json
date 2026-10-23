@@ -1,0 +1,18 @@
+{
+  "checkpoint": "114",
+  "frozen_at": "2026-10-23T05:17:45.471029+08:00",
+  "source_known_before_lookup": "Poves, Nowacki, Alhassid, PRC101054307(2020), from HendersonRef11 only",
+  "prior_exposure": [
+    "112fullHenderson original",
+    "113 independently executed tensor/moment counterexamples"
+  ],
+  "not_blind": true,
+  "body_read": false,
+  "questions": [
+    "What formal shape moments and quantum fluctuations are defined in this original?",
+    "Does the source distinguish ensemble softness from experimental parameter uncertainty and matrix-element truncation?",
+    "What are actual normalization, Q-gamma correlation assumptions and covariance corrections?",
+    "Do any actual cases demonstrate gamma rigidity/coexistence, and what model-space restrictions apply?"
+  ],
+  "boundary": "Do not transfer actual model precision to Ce/Nd; do not call related body reading the missing Kumar/Cline originals"
+}

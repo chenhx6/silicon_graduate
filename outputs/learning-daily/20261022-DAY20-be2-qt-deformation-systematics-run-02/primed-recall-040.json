@@ -1,0 +1,25 @@
+{
+  "checkpoint": "040",
+  "status": "primed-recall-frozen-before-next-original-read",
+  "observed_at": "2026-10-22T21:36:40.686084+08:00",
+  "identity_source": "existingrun02; not new runner/session/deadline",
+  "priming": [
+    "source KO01 and old012 claim inputs -.30/.15/-4.5 already seen; not blind recall",
+    "prior Day18 reviewed disputes and old021/022 numeric summaries exposed; branch weights/actualresponse unknown"
+  ],
+  "questions": [
+    "Does each delta bind the quoted parent/final line and measured branch?",
+    "Are fractions photonM1/E2 fractions rather than totallevel/IC-corrected branch?",
+    "Which big/small roots have direct source constraints and which are chosen examples?",
+    "Can multipolarity and energy slope uniquely establish TiP/wobbling/chirality or only constrain alternatives?"
+  ],
+  "source_targets": [
+    "knowledge/sources/konigshofen-2001-mixing-ratios-130ba.md",
+    "old021/022 canonical source locators to identify before reading original"
+  ],
+  "not_claimed": [
+    "newunprimed memory",
+    "actual experimental CI",
+    "source already read thischeckpoint"
+  ]
+}

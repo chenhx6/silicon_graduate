@@ -1,0 +1,23 @@
+{
+  "now_local": "2026-10-22T21:17:33.237838+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1062.4460360333333,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:09:49 UTC",
+  "time_source": "aware system clock; preceding tool reading separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "008/011–015 foundational and companion inference audit",
+      "information_gain": "high",
+      "gap": "universal selection rules, energy staggering and covariance claims pending direct sources"
+    },
+    {
+      "route": "021/022 disputed-mode source fidelity",
+      "information_gain": "high",
+      "gap": "only existing withdrawal marker; need exact source/table recheck"
+    }
+  ],
+  "next_card": "Day21 existing uncredited preview only; do not expand",
+  "decision_reason": "Continue Day20 high-value scientific repair, no new card/closeout."
+}

@@ -1,0 +1,19 @@
+{
+  "checkpoint": "104",
+  "frozen_at": "2026-10-23T03:48:04.920507+08:00",
+  "kind": "primed recall before opening TDPAD canonical/raw source for this focused reinspection",
+  "prior_exposure": [
+    "user Day19 summaries and prior scope108/110",
+    "withdrawn Day20 note/085 constants",
+    "current103 explicitly constructed rotor model"
+  ],
+  "expectations_to_check": [
+    "old085 described 129/131Ce 9/2- static moments1.32/.92eb and g factors near-.185/-.189; not accepted until raw reading",
+    "ratio may cancel EFG only with common host/calibration and applicable charge-state/temperature assumptions",
+    "static isotope/isomer moments and highspin yrast Qt refer to different states; no direct triphase deformation ladder",
+    "PTR wavefunction and eps/gamma parameters may be model outputs, not measured shapes"
+  ],
+  "not_blind_test": true,
+  "course_credit": false,
+  "next": "read canonical raw_file metadata, verify byte identity/pages, then actual body/figures/tables; record exact scope"
+}

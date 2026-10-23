@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T02:25:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 755,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 18:25:52 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "103Rh same-configuration multiple chiral doublets and crosswalk audit",
+      "gap": "Completed in checkpoint083: verified negative-parity 4-band manifold (Bands 3-6) grouped into yrast (300 keV) and excited (100 keV) pairs, PRM inputs (beta=0.26, gamma=20 deg, xi=0.85) and frozen-core discrepancies (200 keV excess, missing alignment jump at 0.45 MeV), parity crosswalk against Suzuki 2008 positive-parity Band 3 lifetimes, and Class III same-configuration MchiD classification",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (02:25:00 CST); 12.58 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

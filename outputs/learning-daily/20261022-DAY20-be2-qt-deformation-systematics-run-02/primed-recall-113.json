@@ -1,0 +1,17 @@
+{
+  "checkpoint": "113",
+  "frozen_at": "2026-10-23T05:10:48.146985+08:00",
+  "prior_exposure": [
+    "112 actual Henderson11-page original read",
+    "old037 declared invariants",
+    "CG/rotor103"
+  ],
+  "not_blind": true,
+  "questions": [
+    "Can a finite 0+ and two2+ full-multiplet E2tensor network have identical all Bmoduli but different cubic scalar loop after an edge-sign change?",
+    "Verify full-tensor contractions against reduced6j and state rephasing, rather than certify a printed equation by repetition.",
+    "For a commuting positive-Q shape distribution with constant cos3delta, is noQ-deltaCov sufficient for ratioq3/q2^1.5 to equal mean cos3delta?",
+    "Can the Eq27 expression be negative under that explicit distribution, without implying actual shell-model outputs are wrong?"
+  ],
+  "boundary": "no real isotope, experimental precision, phase extraction or actual producer inferred"
+}

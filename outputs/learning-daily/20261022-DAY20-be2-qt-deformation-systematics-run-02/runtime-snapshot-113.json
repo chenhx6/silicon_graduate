@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T05:16:25.643488+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 583.5726085333333,
+  "decision": "continue-or-advance",
+  "time_source": "aware actual system time corroborated by clock tool UTC observations",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Shape interpretation and fluctuations in original theory",
+      "gap": "113 commuting witness shows noCov insufficient; check Poves/Nowacki/Alhassid PRC101054307 original method and quantum shape domains",
+      "information_gain": "high",
+      "source_locators": [
+        "HE20-D20-2/R113-2",
+        "Henderson2020 Ref11 metadata only before new lookup"
+      ]
+    },
+    {
+      "route": "Experimental readiness and matrix-element phases",
+      "gap": "Full E2 network, signed loops and original Cov absent for Ce/Nd; tensor counterexample113 does not infer actual phases",
+      "information_gain": "high",
+      "source_locators": [
+        "HE20-D20-1/R113-1",
+        "SI16-D20-F03",
+        "PE98-D20-F02"
+      ]
+    },
+    {
+      "route": "Day21 already opened uncredited preview",
+      "gap": "Only preview; preserve no credit21 and do not open22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "More than120min remain.111 primary access unavailable but112 modern original and113 declared models made substantive progress; window is not saturated."
+}

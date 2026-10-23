@@ -1,0 +1,18 @@
+{
+  "checkpoint": "104",
+  "observed_at": "2026-10-23T03:56:55.311528+08:00",
+  "scientific_certification": false,
+  "all_required_final_checks_passed": false,
+  "checks": {
+    "raw_sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+    "old_claim_flags_preserved": 17,
+    "writeback_valid": true,
+    "knowledge_paths": 27,
+    "report_headings": 10,
+    "diff_check_exit": 0,
+    "original_experimental_fit_or_CI": "not reconstructed",
+    "last_full_lint": "101 exit0 before102-104",
+    "H3": "not run",
+    "credit": "unchanged"
+  }
+}

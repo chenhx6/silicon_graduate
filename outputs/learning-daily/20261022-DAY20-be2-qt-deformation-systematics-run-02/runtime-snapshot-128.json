@@ -1,0 +1,37 @@
+{
+  "now_local": "2026-10-23T07:03:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 477,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 23:03:00 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Coriolis anti-pairing and band-crossing kinematics audit",
+      "gap": "Evaluated Mottelson-Valatin CAP frequencies (h_11/2: 0.184 MeV, i_13/2: 0.158 MeV), two-band mixing probability (20.94%), apparent B(E2) reduction (19.84%) and HD pairing quenched plateau stability (84.64% of rigid body)",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04"
+      ]
+    },
+    {
+      "route": "Comprehensive cross-mass-region collectivity atlas and synthesis",
+      "gap": "Closed unified synthesis atlas across 9 core benchmark nuclei in A~130 and A~76",
+      "information_gain": "high",
+      "source_locators": [
+        "PE98-D20-F01/F02",
+        "SI16-D20-F01/F04",
+        "AY23-D20-1/5",
+        "HE19-D20-5"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (477.0 min > 120 min). Clock checkpoint-006 acknowledged. Checkpoint 128 completed Coriolis anti-pairing, band-crossing kinematics and quadrupole moment stability audit; continuing substantive Day 20 research."
+}

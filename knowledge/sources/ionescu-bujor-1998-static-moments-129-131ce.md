@@ -3,7 +3,7 @@ type: source
 title: "Static electromagnetic moments and nuclear shapes in 129,131Ce"
 aliases: ["Ionescu-Bujor 1998 Ce moments", "129Ce 131Ce TDPAD shapes"]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-23
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -33,6 +33,25 @@ tags: [129Ce, 131Ce, TDPAD, static-moments, triaxiality, shape-evolution, odd-ma
 ---
 
 # Static electromagnetic moments and nuclear shapes in 129,131Ce
+
+## Day20本session实际原读：静态矩与模型依赖（checkpoint104）
+
+primed-recall-104在本轮开原件前冻结，已明示用户摘要、旧085及本日模型反例的priming。本次实际读取20页全文（459–478，含references），全部11图与2表、Eq1–6均作page-level视觉检查；Fig7额外旋正。没有逐线digitize、重拟合events，亦未取得原PTR代码/fit Cov或所引校准primary全文。scope与指纹见本日run02/source-reading-scope-104.json。旧全文scope不代替本次阅读，本文仍是同一实验而非新增独立证据；原review/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D20-R104-1 | QI用厚116/119Sn多晶靶完全停止；MI用.6mg/cm²的116/119Sn蒸镀在厚Pb箔，外场14.6(4)/32.0(8)kG，每约10min翻转。束脉冲宽3ns、周期800ns、time resolution约11ns，不能混作寿命或调制周期。QI需CeSn室温EFG Ref14；MI需Ce/Pb室温local susceptibility1.40(2) Ref13。 | actual-host-and-calibration-lineage | direct-original-and-visual | printed460–461/PDF2–3 §2; printed463/PDF5; printed464/PDF6 Eq4/5 | true |
+| IB98-D20-R104-2 | QI拟合给νQ129=52.6(14)、νQ131=36.4(16)MHz；129观察完整T0=456(12)ns，131只观察调制起始结构。Eq1 T0=2J(2J−1)/(3νQ)在J=9/2下为24/νQ。半衰期为60(2)/88(2)ns，平均寿命须另除ln2；QI取向relax约.2–.3µs。不是同一时间参数，也不把原两个χ²13.9/2.7重造p或CL。 | coupling-period-lifetime-relaxation-separation | direct-original-and-conditional | printed462/PDF4 Eq1–3; Figs1/2 PDF5/6 | true |
+| IB98-D20-R104-3 | 原实测静态矩绝对值1.32(13)/.92(10)eb；|Q129|/|Q131|=1.44(7)由作者称独立于EFG标定。共享同一乘性标定时中心频率比可重现约1.445，不能凭两绝对误差独立传播就恢复原ratio Cov。QI的模值不独自测得正号或真实K。 | absolute-moment-and-ratio-calibration-boundary | direct-original-and-derived | printed463/PDF5; printed466/PDF8; Table1 printed472/PDF14 | true |
+| IB98-D20-R104-4 | g129=−.185(10)、g131=−.189(7)来自MI的cos2(φ−ωLt)拟合与外场/local susceptibility；MI relax约100/250ns。作者说小负g支持h11/2中子描述，不是排他组态/几何测量；模型内不同K混合仍可给相近g。 | magnetic-moment-versus-configuration-inference | direct-original-and-visual | printed464–466/PDF6–8 Eq4/5 and Fig3; printed472/PDF14 | true |
+| IB98-D20-R104-5 | PTR采用modified oscillator+BCS、hydrodynamic惯量、gs_eff=.6gs_free与gR=Z/A。Fig4的131Ce Q曲线在γ≈30°附近仍非零，正文称Q略随γ变化并依赖Coriolis ξ；否定旧085把cos3γ当本原文通用Qs压制。Table1同一实验131Ce分别以ξ=.7,ε2=.14,γ23°或ξ=1,ε2=.18,γ20°描述，K9/2与7/2混合随ξ改变；不是纯K9/2测定。 | actual-PTR-inputs-and-counterevidence-to-universal-Qs-law | direct-original-and-visual | printed466–469/PDF8–11 Fig4/5; printed472/PDF14 Table1 and wavefunction paragraph | true |
+| IB98-D20-R104-6 | 129Ce负宇称模型需ε4≈.05–.08，Table1选.07、ε2=.24、γ12°、Ecore2=130keV；131Ce负宇称Ecore2=250keV。Table2正宇称131Ce给ξ1、Ecore2=200、ε2范围.18–.24、γ20°，且正文说尚无决定其g.s.带ε2的实验数据。129Ce g.s. Qt3.5(5)eb为Ref24外源，不是本次TDPAD独立新测量。 | band-specific-model-parameters-and-external-Qt-lineage | direct-original-and-visual | printed469/PDF11 Fig6; printed472/PDF14 Table1; printed473–475/PDF15–17 Table2; Ref24/PDF20 | true |
+| IB98-D20-R104-7 | 作者在129Ce提出isomer上11.8keV处的新11/2−态，以重建signature次序；估94keV crossover/82keV主线比约.02，12keV M1可能数ns馈入低于约11ns时间分辨。新态/feeding是作者方案，不能把未分辨feeding当已实测寿命或排除其影响。 | proposed-level-and-unresolved-feeding | direct-original-and-visual | printed469–472/PDF11–14 Fig7/8; especially PDF14 first paragraph | true |
+| IB98-D20-R104-8 | PDF9的χ²定义为Σ(Eexp−Ecalc)²，未含逐能量σ或原jointlikelihood；Table1的131Ce gcalc=−.23与exp−.189(7)及作者“agreement”保literal，不补出理论误差或新的联合显著性。PDF15称所引TRSγ的“rapid decrease”与本表129→131的γ12→20/23上升字面并存；未读Ref17完整原件，不静默裁决坐标或笔误。 | literal-model-fit-and-text-tension-boundary | direct-original-and-visual | printed467/PDF9 χ² definition; printed472/PDF14 Table1; printed473/PDF15 TRS sentence | true |
+
+### Knowledge Impact and Learning Decision — Day20 checkpoint104
+
+本次source原读支持static moment、spin-sensitive QI和作者PTR比较；撤回“相近g排他确定组态”“cos3γ64%通用压制”“纯K9/26/11投影是实际producer”及“0.92→2.58→7.30同一形变三相阶梯”。Qs异能态、Singh负宇称高spin逐态Qt、Petrache HD带Q0来自不同态/fit/参数角色，不能直接相除称β或B(E2)跳变。原实验/events、EFG和magnetic calibration primary与PTR producer仍缺；不认证实际CI、唯一形状或模式。
 
 ## Bibliographic Record
 
@@ -66,14 +85,14 @@ The paper measures static electromagnetic moments of low-lying `9/2−` isomers 
 
 ## Summary
 
-TDPAD moments provide direct spin-sensitive electromagnetic observables for `129,131Ce`. The measurements establish `J=9−` isomers, revise the `129Ce` ground-state spin assignment, and show a large quadrupole-moment difference. PTR fits associate `131Ce` with smaller quadrupole deformation and larger triaxiality, while `129Ce` needs larger `ε2`, smaller `γ` and nonzero hexadecapole deformation. This source materially strengthens the `131Ce` shape/systematics context but does not by itself identify the collective mode of its high-spin bands.
+TDPAD moments provide direct spin-sensitive electromagnetic observables for `129,131Ce`. The measurements establish `J=9/2−` isomers, revise the `129Ce` ground-state spin assignment, and show a large quadrupole-moment difference. PTR fits associate `131Ce` with smaller quadrupole deformation and larger triaxiality, while `129Ce` needs larger `ε2`, smaller `γ` and nonzero hexadecapole deformation. This source materially strengthens the `131Ce` shape/systematics context but does not by itself identify the collective mode of its high-spin bands.
 
 ## Key Results
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | IB98-1 | QI patterns strongly support `J=9/2` for the `129,131Ce` isomers; `129Ce` spin-7/2 fit is substantially worse. | experimental-result | direct | PDF pp.461-464, Figs.1-2 | false |
-| IB98-2 | Measured isomer moments are `g=-0.185(10), |Q|=1.32(13) eb` for `129Ce` and `g=-0.189(7), |Q|=0.92(10) eb` for `131Ce`. | experimental-result | direct | PDF pp.463-465, Table 1 | false |
+| IB98-2 | 作者报告经CeSn EFG校准的Q模=1.32(13)/.92(10)eb及MI的g=−.185(10)/−.189(7)；106沿引用链追到上游理论参考矩归一，绝对标尺不宜称无模型，具体实际校准producer/Cov仍未得。 | calibrated-observable-and-source-lineage | direct-report-and-primary-lineage | printed463/465; printed472 Table1; IB98-D20-R104-1/3/4; DA83-D20-3 | false |
 | IB98-3 | PTR optimum shapes differ strongly: `131Ce` `ε2≈0.14-0.18, γ≈20°-23°`; `129Ce` `ε2≈0.24, γ≈12°-14°, ε4≈0.07`. | model-result | direct | PDF pp.466-477, Tables 1-2 | true |
 | IB98-4 | The two-neutron isotope change produces a large Q-moment ratio `1.44(7)` and a pronounced shape-evolution candidate. | experimental-result/author-interpretation | direct | PDF p.466, Conclusions | true |
 
@@ -178,3 +197,43 @@ Knowledge Impact and Learning Decision：revises整数自旋误录与Cd/液态ho
 | IB98-D19-9 | Table1给131Ce的两套PTR输入：xi.7、E2core250keV、epsilon2.14、gamma23deg、Qcal+.91eb；xi1、epsilon2.18、gamma20deg、Qcal+.93eb；两者gcal均−.23，而gexp−.189(7)、absQexp.92(10)保原。文中xi1含K9/2与7/2近等幅，减弱Coriolis增K9/2幅而增Q；129Ce需epsilon4.07并改变K混合得到Qcal1.34。故不能将pureK轴对称Qs->Q0换算当作者实测内禀矩，也不把拟合shape坐标当直接观测。 | model-input-and-state-boundary | direct-original-model | PDF9–14 Figs4–8/Table1 | true |
 | IB98-D19-10 | Fig7b为作者建议的129Ce新11/2−，在9/2− isomer上方11.8keV，用近12keV成对线和signature重排作支持。PDF14估计12keV M1单粒子half.14ns、plausible为数ns，并称约11ns时间分辨下未辨这段feeding；94keV crossover约2%是估计，不是新TDPAD直接发现或新寿命测量。 | proposed-level-and-response-limit | direct-original-author-inference | PDF12–14 Fig7 and first paragraph PDF14 | true |
 | IB98-D19-11 | Eq6的S(J)为相邻/跨二级能量差乘转子spin因子再减1，不是任意其他页S432定义；pureE=A J(J+1)+const时该S精确为0。Table2中131Ce positivegs epsilon2=.18–.24、gamma20deg，正文称缺该gs能确定epsilon2的实验数据；结论.14–.18概括与表中角色分开保留。PDF15称TRS的gamma decrease，Table1/结论为129约12deg、131约20deg；保字面，不猜erratum或改上游来源。 | diagnostic-definition-and-literal-boundary | direct-original-and-task-algebra | PDF9 Eq6; PDF15–19 Table2/Figs9–11/Conclusions | true |
+
+## checkpoint033：观测量身份与形状约定原读纠正
+
+本次为定向原文/表图self-audit，非新增独立实验或全文认证；原review和claim flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| IB98-D20-R33-1 | 绝对|Qs|129/131Ce1.32(13)/.92(10)eb依共同CeSn EFG；PDF8给不依该绝对EFG的矩比1.44(7)。不能将两个绝对Q误差当独立以认证同一ratio精度；旧018的.207匹配.07断言撤回。9/2−的静态矩不同于高spin转变Qt。 | calibration-and-observable-boundary | direct-original | PDF5 absoluteQ paragraph; PDF8 Sec4 ratio paragraph | true |
+| IB98-D20-R33-2 | PDF9 Fig4/正文表明131Ce9/2−的PTR Q依ε2、γ和Coriolisξ；PDF14 Table1两套ξ=.7/1、ε2=.14/.18、γ23/20度给Qcal+.91/+.93eb。不能把pureK1/2轴对称候选Q0=2.53eb说成作者实测内禀矩，也不把2.57894eb加权常数诊断叫Singh RDM单点。 | PTR-versus-axial-conversion | direct-original-and-visual | PDF9 Fig4/Sec4.2.1; PDF14 Table1; SI16-D20-R33-2 | true |
+
+
+### checkpoint105：校准编译与primary身份
+
+[[vianden-1987-electric-field-gradients-metals]] VI87-D20-1–4实际定向读Ref14的定义页、Ce/Sn三行及其Ref371：134/136/138Ce均为同一Dafni1983引用，非三份独立EFG标定；原νQ绝对值与Q参考、293K/(T)列语义分开。IB98模值比的共同EFG相消保留条件，但实际频率/Cov/relaxation输入不由编译表恢复。磁校准Ref13 Barth1980目前仅metadata，官方正文获取403/401，不能声称已读。
+
+
+### checkpoint106：known EFG的可见参考链含模型锚
+
+[[dafni-1983-ce-isomers-tin-quadrupole]] DA83-D20-1/3/7实际全文明确：数据本身不能定绝对Q或符号，138Ce77e·fm²及e_eff1.87为模型归一且跨质量区迁移需谨慎。经Vianden Ref371可追到此上游；所以当前可见CeSn绝对标尺含模型输入，不能把本页Q模称完全无模型形变图像。只给定ν13830.6MHz/Q138.77eb即可条件重现本页两中心约1.32359/.91595eb，但不唯一识别本文采用标定/原producer、不恢复CI或宣称实验失效。相同host/标尺下的129/131模值比仍是不同层次约束。原IB98-1/2历史false flags保留，不代表本次自审晋升human-reviewed。
+
+
+### checkpoint107：磁场增强的相关原读与两类松弛
+
+[[barth-1981-ce-local-moments-metals]] BA81-D20-1–7新读10页，136Ce(10+)温度扫描在Curie模型下同时给g_N与B(0)，298K/Pb条件计算β≈1.401与本页1.40相容；不是已识别本1998实际标定producer或Cov。原会议讨论承认温度无关项未纳入，不能视为实测零。核态half-life、核取向τ_N、电子τ_J保持不同；原PRL1980正文仍未得，1981相关account不计独立实验。
+### checkpoint145：轴对称转子角动量投影、同核静态矩对决转动四极矩闭合核验
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D20-R145-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| IB98-D20-R146-1 | 本轮定向原件文字/视觉确认：131Ce的9/2−异构态abs(Qs)=0.92(10)eb，129Ce为1.32(13)eb。Table1的+1.34eb是129Ce的Qcal模型值，不是131Ce实测1.34(20)。145输入错误，Z=.320及静转闭环认证撤回。 | direct-original-correction | source-and-bounded-self-audit | PDF5/printed463; PDF14/printed472 Table1 | true |
+| IB98-D20-R146-2 | 131Ce的PTR含K=9/2与7/2混合；两套ξ=.7/1、ε2=.14/.18、γ23/20度均列于原表。纯K=I=9/2的6/11仅条件轴对称几何，不能替代此模型，亦不能将异构态Qs、另一高spin带Qt和HD带fit Q0相除平方成实测B(E2)阶梯。 | model-and-observable-boundary | source-and-bounded-self-audit | PDF14 Table1及其后wavefunction段; IB98-D20-R104-5 | true |

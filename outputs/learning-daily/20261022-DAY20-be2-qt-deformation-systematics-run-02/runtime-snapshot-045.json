@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T22:33:04.414263+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 986.9264289500001,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 14:27:48 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Day 20 deliverable check and transition to consolidation",
+      "gap": "Consolidate full-day deliverables and finalize card audit prep",
+      "information_gain": "high"
+    },
+    {
+      "route": "Review boundary conditions on beta4 and triaxial shapes",
+      "gap": "Model dependence of beta4 expansion",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Research continues as scheduled until 15:00 next day; advancing learning within Day 20 window."
+}

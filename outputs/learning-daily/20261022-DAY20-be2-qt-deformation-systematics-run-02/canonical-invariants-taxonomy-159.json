@@ -1,0 +1,95 @@
+{
+  "observed_at_utc": "2026-10-23T05:06:28.427907+00:00",
+  "scope": "Canonical collective model quadrupole shape invariants taxonomy",
+  "taxonomy": {
+    "rigid_axial_prolate": {
+      "model": "Davydov / Bohr-Mottelson axial (gamma=0)",
+      "q4_over_q2_sq": 1.0,
+      "sigma_q2_over_q2": 0.0,
+      "cos_3delta_mean": 1.0,
+      "cos_3delta_sq_mean": 1.0,
+      "var_cos_3delta": 0.0,
+      "sigma_cos_3delta": 0.0,
+      "regime": "axial prolate rigid"
+    },
+    "davydov_rigid_triaxial_30": {
+      "model": "Davydov-Filippov rigid triaxial (gamma=30 deg)",
+      "q4_over_q2_sq": 1.0,
+      "sigma_q2_over_q2": 0.0,
+      "cos_3delta_mean": 0.0,
+      "cos_3delta_sq_mean": 0.0,
+      "var_cos_3delta": 0.0,
+      "sigma_cos_3delta": 0.0,
+      "regime": "triaxial rigid"
+    },
+    "wilets_jean_gamma_unstable": {
+      "model": "Wilets-Jean gamma-unstable (IBM O(6) limit)",
+      "q4_over_q2_sq": 1.0,
+      "sigma_q2_over_q2": 0.0,
+      "cos_3delta_mean": 0.0,
+      "cos_3delta_sq_mean": 0.3333333333333333,
+      "var_cos_3delta": 0.3333333333333333,
+      "sigma_cos_3delta": 0.5773502691896258,
+      "regime": "gamma-unstable soft"
+    },
+    "harmonic_quadrupole_vibrator": {
+      "model": "5D isotropic harmonic oscillator (IBM U(5) limit)",
+      "q4_over_q2_sq": 1.4,
+      "sigma_q2_over_q2": 0.6324555320336759,
+      "cos_3delta_mean": 0.0,
+      "cos_3delta_sq_mean": 0.3333333333333333,
+      "var_cos_3delta": 0.3333333333333333,
+      "sigma_cos_3delta": 0.5773502691896258,
+      "regime": "spherical vibrator (beta-soft and gamma-soft)"
+    }
+  },
+  "checks": [
+    {
+      "name": "Harmonic vibrator: <Q^4>/<Q^2>^2 is exactly 7/5 = 1.4000",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Harmonic vibrator: sigma(Q^2)/<Q^2> is exactly sqrt(2/5) ~ 0.63246",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Wilets-Jean: <cos 3delta> is exactly 0.0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Wilets-Jean: <cos^2 3delta> is exactly 1/3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Wilets-Jean: Var(cos 3delta) is exactly 1/3 ~ 0.33333",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Wilets-Jean: sigma(cos 3delta) is exactly 1/sqrt(3) ~ 0.57735",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Davydov gamma=30: Var(cos 3delta) is exactly 0.0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "First-order unidentifiability: both WJ and DF30 have <cos 3delta> == 0.0",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Second-order discrimination: Var(cos 3delta) differs by 1/3 between WJ (0.3333) and DF30 (0.0)",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "all_checks_passed": true,
+  "conclusion": "First-order invariant <cos 3delta> cannot distinguish gamma-unstable from rigid triaxial shapes; second-order angular variance Var(cos 3delta) is required to separate Wilets-Jean (1/3) from Davydov gamma=30 (0), while fourth-order radial ratio <Q^4>/<Q^2>^2 separates rotors (1.0) from vibrators (1.4)."
+}

@@ -1,0 +1,138 @@
+{
+  "scholar": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+          }
+        ],
+        "isError": true
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+          }
+        ],
+        "isError": true
+      }
+    }
+  ],
+  "modern_search": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"source\": \"openalex\",\n  \"total\": 2526,\n  \"results\": [\n    {\n      \"title\": \"Convergence of electric quadrupole rotational invariants from the nuclear shell model\",\n      \"doi\": \"https://doi.org/10.1103/physrevc.102.054306\",\n      \"year\": 2020,\n      \"authors\": [\n        \"J. Henderson\"\n      ],\n      \"journal\": \"Physical Review C\",\n      \"cited_by_count\": 16,\n      \"open_access_url\": \"https://arxiv.org/pdf/2005.11210\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Nuclear deformation in the laboratory frame\",\n      \"doi\": \"https://doi.org/10.1103/physrevc.97.014315\",\n      \"year\": 2018,\n      \"authors\": [\n        \"C. N. Gilbreth\",\n        \"Y. Alhassid\",\n        \"G. F. Bertsch\"\n      ],\n      \"journal\": \"Physical Review C\",\n      \"cited_by_count\": 13,\n      \"open_access_url\": \"https://arxiv.org/pdf/1710.00072\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Deformation in 120Te Described Experimentally by Quadrupole Invariants\",\n      \"doi\": \"https://doi.org/10.5506/aphyspolb.50.417\",\n      \"year\": 2019,\n      \"authors\": [\n        \"M. Matejska-Minda\",\n        \"Katarzyna Wrzosek-Lipska\",\n        \"M. Kicińska-Habior\",\n        \"Marcin Palacz\",\n        \"Paweł J. Napiorkowski\",\n        \"A. Tucholski\",\n        \"J. Srebrny\",\n        \"A. Stolarz\",\n        \"Leszek Próchniak\",\n        \"W. Piątek\",\n        \"M. Saxena\",\n        \"H. J. Wollersheim\",\n        \"S. Dutt\",\n        \"T. Abraham\",\n        \"R. Kumar\",\n        \"M. Kowalczyk\",\n        \"Michalina Komorowska\",\n        \"Maciej Kisielinski\"\n      ],\n      \"journal\": \"ReIn UW (University of Warsaw)\",\n      \"cited_by_count\": 0,\n      \"open_access_url\": \"https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=50&page=417\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Constraining the quadrupole deformation of atomic nuclei with relativistic nuclear collisions\",\n      \"doi\": \"https://doi.org/10.1103/physrevc.102.024901\",\n      \"year\": 2020,\n      \"authors\": [\n        \"Giuliano Giacalone\"\n      ],\n      \"journal\": \"Physical Review C\",\n      \"cited_by_count\": 61,\n      \"open_access_url\": \"http://link.aps.org/pdf/10.1103/PhysRevC.102.024901\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Hints on the quadrupole deformation of the Δ(1232)\",\n      \"doi\": \"https://doi.org/10.1103/physrevc.73.042201\",\n      \"year\": 2006,\n      \"authors\": [\n        \"César Fernández Ramírez\",\n        \"E. Moya de Guerra\",\n        \"José Manuel Udías\"\n      ],\n      \"journal\": \"Physical Review C\",\n      \"cited_by_count\": 18,\n      \"open_access_url\": \"http://link.aps.org/pdf/10.1103/PhysRevC.73.042201\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Nuclear Deformation at Finite Temperature\",\n      \"doi\": \"https://doi.org/10.1103/physrevlett.113.262503\",\n      \"year\": 2014,\n      \"authors\": [\n        \"Y. Alhassid\",\n        \"C. N. Gilbreth\",\n        \"G. F. Bertsch\"\n      ],\n      \"journal\": \"Physical Review Letters\",\n      \"cited_by_count\": 22,\n      \"open_access_url\": \"https://arxiv.org/pdf/1408.0081\",\n      \"source\": \"openalex\"\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "source": "openalex",
+      "total": 2526,
+      "results": [
+        {
+          "title": "Convergence of electric quadrupole rotational invariants from the nuclear shell model",
+          "doi": "https://doi.org/10.1103/physrevc.102.054306",
+          "year": 2020,
+          "authors": [
+            "J. Henderson"
+          ],
+          "journal": "Physical Review C",
+          "cited_by_count": 16,
+          "open_access_url": "https://arxiv.org/pdf/2005.11210",
+          "source": "openalex"
+        },
+        {
+          "title": "Nuclear deformation in the laboratory frame",
+          "doi": "https://doi.org/10.1103/physrevc.97.014315",
+          "year": 2018,
+          "authors": [
+            "C. N. Gilbreth",
+            "Y. Alhassid",
+            "G. F. Bertsch"
+          ],
+          "journal": "Physical Review C",
+          "cited_by_count": 13,
+          "open_access_url": "https://arxiv.org/pdf/1710.00072",
+          "source": "openalex"
+        },
+        {
+          "title": "Deformation in 120Te Described Experimentally by Quadrupole Invariants",
+          "doi": "https://doi.org/10.5506/aphyspolb.50.417",
+          "year": 2019,
+          "authors": [
+            "M. Matejska-Minda",
+            "Katarzyna Wrzosek-Lipska",
+            "M. Kicińska-Habior",
+            "Marcin Palacz",
+            "Paweł J. Napiorkowski",
+            "A. Tucholski",
+            "J. Srebrny",
+            "A. Stolarz",
+            "Leszek Próchniak",
+            "W. Piątek",
+            "M. Saxena",
+            "H. J. Wollersheim",
+            "S. Dutt",
+            "T. Abraham",
+            "R. Kumar",
+            "M. Kowalczyk",
+            "Michalina Komorowska",
+            "Maciej Kisielinski"
+          ],
+          "journal": "ReIn UW (University of Warsaw)",
+          "cited_by_count": 0,
+          "open_access_url": "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=50&page=417",
+          "source": "openalex"
+        },
+        {
+          "title": "Constraining the quadrupole deformation of atomic nuclei with relativistic nuclear collisions",
+          "doi": "https://doi.org/10.1103/physrevc.102.024901",
+          "year": 2020,
+          "authors": [
+            "Giuliano Giacalone"
+          ],
+          "journal": "Physical Review C",
+          "cited_by_count": 61,
+          "open_access_url": "http://link.aps.org/pdf/10.1103/PhysRevC.102.024901",
+          "source": "openalex"
+        },
+        {
+          "title": "Hints on the quadrupole deformation of the Δ(1232)",
+          "doi": "https://doi.org/10.1103/physrevc.73.042201",
+          "year": 2006,
+          "authors": [
+            "César Fernández Ramírez",
+            "E. Moya de Guerra",
+            "José Manuel Udías"
+          ],
+          "journal": "Physical Review C",
+          "cited_by_count": 18,
+          "open_access_url": "http://link.aps.org/pdf/10.1103/PhysRevC.73.042201",
+          "source": "openalex"
+        },
+        {
+          "title": "Nuclear Deformation at Finite Temperature",
+          "doi": "https://doi.org/10.1103/physrevlett.113.262503",
+          "year": 2014,
+          "authors": [
+            "Y. Alhassid",
+            "C. N. Gilbreth",
+            "G. F. Bertsch"
+          ],
+          "journal": "Physical Review Letters",
+          "cited_by_count": 22,
+          "open_access_url": "https://arxiv.org/pdf/1408.0081",
+          "source": "openalex"
+        }
+      ]
+    },
+    "isError": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T00:35:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 865.0,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 16:35:00 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "Stopping power systematic covariance on A ~ 130 HD plateau",
+      "gap": "Completed in checkpoint058: proven 3.06x absolute SE dilation, >99% relative common-mode cancellation",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (00:35:00 CST); 14.42 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

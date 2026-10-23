@@ -1,0 +1,32 @@
+{
+  "now_local": "2026-10-23T03:48:04.920507+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 671.91799155,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 19:48:04 UTC",
+  "time_source": "actual current UTC tool plus aware local timestamp",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Actual TDPAD original source vs static-moment inverse model",
+      "gap": "Old085 metadata/hash and constants did not certify current-session original reading, true isotope/state/host/EFG/model parameters",
+      "information_gain": "high",
+      "locator": "Ionescu-Bujor1998 canonical source; exact raw locator to be verified after primed recall"
+    },
+    {
+      "route": "Current mainline Cov/producer readiness",
+      "gap": "102 fixed-estimator envelope and103 solved rotor do not recover actual Cov, mixedK producer or feeding response",
+      "information_gain": "high",
+      "locators": [
+        "Singh2016 Tables1/2 and Eqs1-5",
+        "Petrache1998 TableI and R13 method limits"
+      ]
+    },
+    {
+      "route": "Day21 already opened uncredited preview",
+      "gap": "No credit or Day22; focus current Day20 primary-source gap",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "More than 120 minutes remain; a directly relevant original-source gap remains after bounded mathematical analysis. Continue Day20, no early closeout."
+}

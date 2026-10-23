@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T09:00:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 360,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-23 01:00:00 UTC",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Microscopic quadrupole additivity vs configuration-dependent deformation in A~130: Matev 2007 additivity tensor, Li 2004 vs Singh 2016 131Ce reconciliation, and parity-bifurcated collectivity audit",
+      "gap": "Quantified cross-laboratory DSAM reconciliation at 131Ce 27/2- level (|Delta Q_t| = 0.14 eb, Z = 0.505 sigma), parity-bifurcated collectivity (Q_t(+) / Q_t(-) = 1.4757, 2.1778x B(E2) enhancement), Matev 2007 single-particle effective quadrupole moments (pi h_11/2: +0.54 eb, pi g_9/2 hole: +0.38 eb, nu i_13/2: +0.33 to +0.37 eb), linear additivity precision across 183 CHF and 105 CRMF configurations (sigma(Delta Q_t) = 0.15 eb), and microscopic additivity explanation of 8.01x ND-to-HD collectivity leap",
+      "information_gain": "high",
+      "source_locators": [
+        "MT07-D20-R143-1",
+        "LI04-D20-R143-1"
+      ]
+    },
+    {
+      "route": "Nuclear chirality vs pseudodegeneracy: 134Pr two-band wave function de-mixing and 135Nd rate compensation audit",
+      "gap": "Quantified Petrache 2006 134Pr band-crossing weak-repulsion gaps (36 and 44 keV), interaction matrix elements (|V| ~ 14 and 17 keV), unmixed intrinsic quadrupole moment ratio Q0,1/Q0,2 = 2.0(4) (4.0x B(E2) disparity, disproving ideal chirality), and Mukhopadhyay 2007 135Nd 2.07x lifetime divergence in vibrational regime compensated by E_gamma^3 rate factor while maintaining in-band B(E2) (0.893) and B(M1) (0.975) symmetry, collapsing to 1.09x at static chiral limit",
+      "information_gain": "high",
+      "source_locators": [
+        "PE06-D20-R142-1",
+        "MU07-D20-R142-1"
+      ]
+    },
+    {
+      "route": "Day21 existing uncredited preview",
+      "gap": "Preserve partial_day_indices=[20, 21], no credit advancement, no Day 22",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Ample research time remains (360.0 min > 120 min). Clock checkpoint-008 acknowledged. Checkpoint 143 completed microscopic quadrupole additivity, cross-laboratory reconciliation, parity-bifurcated collectivity, and ND-to-HD leap mechanism; continuing substantive Day 20 research."
+}

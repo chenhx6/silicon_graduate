@@ -1,0 +1,3 @@
+# Checkpoint150 declared before numerical construction
+
+Primed by newly read Cline Fig4 and existing finite-moment counterexamples, not blind recall. Candidate algebra was already considered mentally: take positiveQ at five distinct values, find a signed perturbation of probabilities annihilating powers ofX=Q² through degree3, and chooseC proportional toQ^-3 so coupled cubic/fifth/sixth moments are also fixed. Check normalization, positive probabilities, physical cosine domain, exact equality of all six selected scalar moments, and different actual angular statistics. This is an explicitly designed mathematical witness, not original matrix elements or a nuclear wavefunction. It cannot invalidate an actual rigidity fit without the actual input/model contract.

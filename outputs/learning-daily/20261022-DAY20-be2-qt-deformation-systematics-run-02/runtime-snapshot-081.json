@@ -1,0 +1,27 @@
+{
+  "now_local": "2026-10-23T02:19:00+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 761,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 18:19:37 UTC",
+  "time_source": "aware clock after actual tool observation",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Schedule monitoring and continuous research tracking until 15:00 next day",
+      "gap": "Continuous observation tracking without premature closeout",
+      "information_gain": "high"
+    },
+    {
+      "route": "131Ba pseudospin-chiral quartet bands and octupole correlation audit",
+      "gap": "Completed in checkpoint081: verified Dirac pseudospin symmetry mapping (pi 2d5/2 <-> pi 1g7/2 as pseudo-f doublet), D3-D6 quartet alignments and D4/D5 crossing at 27/2 hbar, RAT-PRM triaxial inputs (gamma=27.1 deg), octupole-driven E1 linking pair (pi h11/2 <-> pi d5/2), and exclusion of same-configuration MchiD alternative",
+      "information_gain": "high"
+    },
+    {
+      "route": "Pre-audit Day 21 uncredited preview boundary checks",
+      "gap": "Ensure Day 21 remains strictly an uncredited preview in partial_day_indices",
+      "information_gain": "medium"
+    }
+  ],
+  "decision_reason": "Local date 2026-10-23 (02:19:00 CST); 12.68 hours remain until 15:00 hard cutoff; advancing substantive study and maintaining session tracking without early closeout."
+}

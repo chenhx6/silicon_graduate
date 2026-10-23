@@ -1,0 +1,26 @@
+{
+  "checkpoint": "108",
+  "observed_at": "2026-10-23T04:33:27.713463+08:00",
+  "scientific_certification": false,
+  "all_required_final_checks_passed": false,
+  "checks": {
+    "writeback_valid": true,
+    "knowledge_paths": 31,
+    "report_headings": 10,
+    "diff_check_exit": 0,
+    "declared108_controls": 11,
+    "108_script_result_hash_match": true,
+    "107_actualsource_read": "10pages/allkeyobjects/incldiscussion",
+    "source107_sha256": "dff4d09add2aeeb91302ca1b222cc0e3e7e7b280fe0095e097a2585e7b60cb15",
+    "lastcompleted_full_lint": "106 exit0 errors0 warnings255",
+    "lint108": {
+      "exit": 0,
+      "errors": 0,
+      "warnings": 257,
+      "info": 3956,
+      "evidence": "tmp/day20-barth107/lint108.txt"
+    },
+    "H3": "not run",
+    "credit": "unchanged"
+  }
+}

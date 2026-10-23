@@ -1,0 +1,41 @@
+{
+  "now_local": "2026-10-23T04:16:03.390312+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 643.9434947999999,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 20:16:03 UTC",
+  "time_source": "actual current UTC clock tool plus aware local time",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "Magnetic calibration/relaxation in same-author1981 account",
+      "gap": "PRL1980 official body unavailable; DafniRef5 and Crossref identify Barth1981 HFI10,811–820 DOI10.1007/BF01022015; compare actual Ce/Pb susceptibility and Ce/Sn relaxation, do not count same group as independent replication",
+      "information_gain": "high",
+      "locators": [
+        "IB98 printed464 Ref13",
+        "Dafni1983 printed104 Ref5"
+      ]
+    },
+    {
+      "route": "Current quadrupole normalization contract",
+      "gap": "106 visible chain exposes theoretical77e fm2 reference but exact1998 calibration producer, theoryuncertainty and fitCov remain unknown",
+      "information_gain": "high",
+      "locators": [
+        "DA83-D20-1/3/7",
+        "VI87-D20-2/3",
+        "IB98-D20-R104-1/3"
+      ]
+    },
+    {
+      "route": "Day20 source/readiness consolidation",
+      "gap": "Keep106 fullprimary/105 selectedcompilation/104 fullTDPAD scopes distinct; no all-science closure from checks",
+      "information_gain": "high"
+    },
+    {
+      "route": "Day21 already opened uncredited preview",
+      "gap": "No credit; no Day22; remain day20",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "More than120minutes remain; calibration provenance has yielded substantive new original evidence and a directly related magnetic-calibration gap remains. Continue original Day20 session, no early closeout."
+}

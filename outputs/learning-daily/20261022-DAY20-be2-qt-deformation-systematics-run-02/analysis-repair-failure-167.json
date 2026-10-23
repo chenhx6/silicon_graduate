@@ -1,0 +1,6 @@
+{
+  "first_attempt": "Proposed Q0/Q1 equal-weight upward-bias example failed assertion before result write",
+  "correction": "Used Q1/Q2 with probabilities .9/.1; FINT=1.72284027 > M3=1.7",
+  "result": "evidence-scope-repair-result-167.json",
+  "not_inferred": "Universal bias or experimental softness"
+}

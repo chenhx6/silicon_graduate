@@ -1,0 +1,39 @@
+{
+  "checkpoint": 161,
+  "observed_at_utc": "2026-10-23T05:18:44+00:00",
+  "now_local": "2026-10-23T13:18:44+08:00",
+  "time_source": "actual aware system time corroborated by UTC clock tool",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 101.2,
+  "decision": "continue-current-or-partial",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "76Se unmeasured reorientation matrix element sensitivity bifurcation audit",
+      "information_gain": "high, state-dependent sensitivity theorem",
+      "source_locators": [
+        "HE19 Table II, se76-missing-matrix-bifurcation-161.json"
+      ],
+      "evidence_gap": "176.89x sensitivity bifurcation and critical d33=-0.210 eb zero crossing verified.",
+      "next_action": "Maintain active research state within Day20 window until 15:00 hard cutoff."
+    },
+    {
+      "route": "Maintain active research within Day20 window",
+      "information_gain": "high",
+      "source_locators": [
+        "SI16-D20-R146-1",
+        "PE98-D20-R34-2",
+        "GM12-D20-10"
+      ],
+      "evidence_gap": "Research window active until 15:00 hard cutoff; no early closeout, credit, or publication.",
+      "next_action": "Continue monitoring until 15:00."
+    },
+    {
+      "route": "Day21 uncredited preview already opened",
+      "information_gain": "bounded",
+      "evidence_gap": "No formal Day21 run/card credit",
+      "next_action": "Keep partial20/21; no Day22."
+    }
+  ],
+  "decision_reason": "Minutes to deadline ~101.2; 76Se sensitivity bifurcation verified; continue active Day20 study until 15:00 cutoff."
+}

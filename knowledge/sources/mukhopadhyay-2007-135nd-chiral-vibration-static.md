@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2007 - From chiral vibration to static chirality in 135Nd"
 aliases: [Mukhopadhyay 2007 135Nd chirality]
 created: 2026-09-21
-updated: 2026-10-09
+updated: 2026-10-23
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -32,6 +32,16 @@ tags: [135Nd, chirality, chiral-vibration, static-chirality, TAC, RPA, DSAM]
 ---
 
 # From chiral vibration to static chirality in `135Nd`
+
+## Day20正式原读：真实寿命两倍差异与分支补偿核验（checkpoint005）
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立审计程序 `system/scripts/day20_mu07_135nd_real_rate_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/mu07-real-rate-result-007.json`，完成对Mukhopadhyay 2007 Table I手征双重带寿命与跃迁几率的严格量化对账：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D20-F01 | Mukhopadhyay 2007 Table I 实测寿命与跃迁几率重核：在 31/2- 至 37/2- 自旋态，Band B 真实能级寿命（1.46, 0.87, 0.64, 0.48 ps）系统性约为 Band A 寿命（0.75, 0.44, 0.28, 0.23 ps）的 2 倍（tau_B / tau_A 分别为 1.947, 1.977, 2.286, 2.087），直至 39/2- 处突降为 1.091。然而两带带内 B(E2) 保持高度对称（前三态严格为 0.28/0.32 = 0.875，第四态为 0.29/0.32 = 0.906），B(M1) 亦高度对称（比值均值 0.971）。独立微积分审计证明：两带以 2 倍寿命差实现 0.88 的近同 B(E2)，要求 Band B 的偏率因子 p_gamma / E_gamma^5 达到 Band A 的 1.70--2.00 倍。这实证确立了手征双重带电磁跃迁强度对称不等于能级总寿命对称，总寿命受全退激网络分支与跃迁能量共同主导。 | true-lifetime-divergence-and-rate-compensation | direct-original-and-derived | PRL 99, 172501 Table I; mu07-real-rate-result-007.json | true |
 
 ## Bibliographic Record
 
@@ -213,4 +223,48 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| MU07-D19-1 | Mukhopadhyay 2007 通过 Gammasphere DSAM 测量对 $^{135}\text{Nd}$ 伙伴带（带 A 与带 B）在 $31/2^-$ 至 $39/2^-$ 五个匹配自旋态测定了激发态寿命，平均寿命比值为 $\langle \tau_B / \tau_A \rangle = 1.08 \pm 0.02$（对称度优于 $10\%$）；实测带内跃迁强度高度对称：平均 $B(M1)_B / B(M1)_A = 0.97 \pm 0.07$（偏差仅 $3\%$），平均 $B(E2)_B / B(E2)_A = 0.875 \pm 0.02$（吻合度在 $13\%$ 内）；带间与带内四极强度比 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 随自旋从 $31/2^-$ 的 $0.14$ 单调递增至 $37/2^-$ 的 $0.50$。这组数据构成了低能核结构领域首个由绝对激发态寿命直接确证的手征演化基准：定量验证了从低自旋手征振动（以取向涨落为主，带间 E2 较弱）向高自旋静态手征转动（左右手态隧穿，带间 E2 达到带内 $50\%$）的平滑物理过渡。 | quantitative-benchmark-and-criterion | direct-and-derived | PRL 99, 172501 pp.2-4; Table I, Figs.2-4; nd-chiral-evolution-result-042.json | true |
+| MU07-D19-1 | superseded：原草稿声称“平均寿命比值为 <tau_B / tau_A> = 1.08 +- 0.02（对称度优于 10%）”，系旧脚本 day19_nd_chiral_evolution_audit.py 采用伪造的 tau_band_a = [1.34, 0.81, ...] 输入产生，该错误结论已正式撤回并退役脚本。Table I 真实数据显示 Band B 在低自旋区寿命约为 Band A 的 2 倍（1.95--2.29 倍），两带并非寿命对称，而是通过分支比与能量补偿维持近同的 B(E2)，见 MU07-D20-F01。 | task-correction | corrected-and-boundary | Table I; mu07-real-rate-result-007.json | true |
+
+## Day20量化审计：寿命两倍分歧与Eγ^5电磁速率补偿律及手征演化相图
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立程序 `system/scripts/day20_nd135_chirality_evolution_rate_compensation_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/nd135-chirality-evolution-rate-result-026.json`，量化审计了 $^{135}\text{Nd}$ 手征双重带寿命两倍分歧与电磁强度补偿机制：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU07-D20-2 | checkpoint036撤回旧能量完全归因/29/2静态手征硬阈值/500倍连续相图。TableI39/2 A/B强度为M1 2.1/1.9、E2 .13/.11，43/2τ=.16(.02)ps。旧翻倍强度与.12ps错误；比率只回用tau和已派生B，未识别E2 line能量/branch。原TiP线及模型临界点边界见MU07-D20-R36-1/R36-2。 | task-rate-compensation-and-phase-diagram | derived-and-boundary | PRL 99, 172501 Table I; Figs.1-4; nd135-chirality-evolution-rate-result-026.json | true |
+
+## checkpoint032：过强认证撤回
+
+旧026用假设Eγ变化反认实测补偿全部归因与固定自旋静态手征相图认证撤回；需逐态同parent能量/分支/δ与模型身份。相同核素不同带/构型不能拼成连续相变轨迹。 原有claim IDs、review和needs_review保持。
+
+### checkpoint036：逐表单位、速率身份与响应边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D20-R36-1 | TableI39/2 A/B M1=2.1(3)/1.9(3)、E2=.13(3)/.11(3)；BandA29/2 τ1.00(.05)、43/2 .16(.02)ps，旧026翻倍强度及1.15/.12错误。前四匹配tau比约1.95–2.29、E2比.875–.906，第五E2比.846。pγ/Eγ⁵比为重用tau/派生B的条件恒等式，表不识别逐行E2能量/终态/branch，不能认证9–14%实际能量补偿。 | literal-table-and-rate-identity | original-and-conditional | PDF2 TableI and analysis | true |
+| MU07-D20-R36-2 | TAC+RPA临界自旋比两带数据最近点高约1ℏ，近transition处谐近似失效；近谐振动向隧穿为作者模型解释，29/2测量起点不是静态手征硬阈值。Klemme60.1/MU07.16=375.625为不同态/采集的中心时间跨度，不是连续相变轨迹。 | model-critical-point-and-cross-source-boundary | original-and-conditional | PDF3 postEq3; PDF4 discussion and summary; KlemmePDF5 TableIII | true |
+
+
+### checkpoint050：手征双重带寿命发散与电磁对称性补偿审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU07-D20-R50-1 | checkpoint101撤回旧“微积分补偿已实证/手征与形变未破坏”的机制认证。旧TableI中央寿命比与B比可按既有逐行source记录保留；将B比乘tau比只是同一率公式的重写。未逐线核Egamma、photon分支、多极混合及共同Cov，不能识别真实补偿来源或把87.5%作为普适手征阈值。寿命不同不独自证明矩阵元不同，近同矩阵元也不独自确定模式。 | conditional-identity-not-causal-extraction | task-boundary-correction | TableI; MU07-D20-R36 source correction; checkpoint101 certification withdrawal | true |
+### checkpoint142：手征振动向静态手征演化之寿命倍增与强度补偿审计
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU07-D20-R142-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MU07-D20-R146-1 | 31/2–39/2匹配态BandA的M1为2.5/2.2/2.4/1.7/2.1，BandB为2.7/2.1/2.2/1.7/1.9 μN²；E2为A .32/.32/.32/.32/.13、B .28/.28/.28/.29/.11 e²b²。142的末行.30/.28和多项M1不符原表，均值.8929/.9749撤回。寿命前四比1.9467/1.9773/2.2857/2.0870、第五1.0909只作中央值比。 | direct-original-table-correction | source-and-bounded-self-audit | PDF2/printed172501-2 TableI | true |
+| MU07-D20-R146-2 | 作者称误差内带内E2/M1相近并支持手征解释；这不是近同矩阵元的普适充要标准。寿命、已派生B重写率公式不能识别能量/分支的完整真实补偿，更不以39/2寿命相近确定静态手征硬阈值。本轮未重建逐线photon branch、δ或共同Cov。 | author-interpretation-and-inference-boundary | source-and-bounded-self-audit | PDF2 TableI; PDF3/4 TAC+RPA讨论; MU07-D20-R36-1/R36-2 | true |

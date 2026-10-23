@@ -3,7 +3,7 @@ type: source
 title: "Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr"
 aliases: [Singh 2016 131Ce lifetime, Singh 2016 133Pr lifetime]
 created: 2026-07-28
-updated: 2026-10-09
+updated: 2026-10-23
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -30,6 +30,45 @@ tags: [131ce, lifetime, qt, gamma-soft, dsam, rdds]
 ---
 
 # Singh 等（2016）：`131Ce/133Pr` yrast 带寿命
+
+## Day20正式原读更正与当前证据入口
+
+本轮实际读11页全文（含references）并视觉核PDF3–10的12图、2表、5式；不是沿旧hash继承原读。阅读scope与原表ledger见本日run-02的source-reading-scope-001.json/singh-table-ledger-001.json。旧review_status及全部原claim flags保持。SI16-D18-2/3/4与SI16-D20-4已在原ID下明示纠正；旧result JSON保持原字节，不作为科学认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D20-F01 | Table1当前27/2−、827keV的mean寿命是1.25(+.41/−.25)ps，Qt=2.26(+.37/−.23)eb；旧1.24(+.23/−.13)不是此表。Ref32列的1.23(23)ps是转载旧寿命，不是新增测量。 | literal-table-correction | direct-original-and-visual | PDF5 Table 1 | true |
+| SI16-D20-F02 | Table2侧馈列按15/2−、19/2−、23/2−给1.1(2)ns、1.9(2)ps、14(3)ps。14ps与正文由正宇称23/2+态14.0(+2.7/−3.3)ps约束的682keV馈入相符；0.014ps、单调下降与跨5数量级均撤回。1100/14≈78.57只为中心比，不测定feeding偏差。 | feeding-unit-and-role-correction | direct-original-and-visual | PDF8 Table 2 | true |
+| SI16-D20-F03 | 对Present有限Qt点、上下误差平均且独立Gaussian控制，131Ce斜率−.030175±.047215eb/ℏ、z−.63910；133Pr−.116674±.048608、z−2.40034。若额外估计共同未知尺度并以χ²/dof缩放，分别t−.60202(df2)、−1.67818(df1)，双尾Student概率约.6083/.3421。旧−1.68不是前一种Gaussian模型；未得原Cov/limits likelihood，所有结果仅条件诊断，不能选取有利统计量当原实验CI。 | explicit-statistical-model-comparison | task-derived | PDF5 Table 1; PDF8 Table 2 | true |
+| SI16-D20-F04 | 131Ce低自旋plunger使用本工作高自旋DSAM矩约束Bateman拟合；并非所有技术点相互独立。DSAM谱由下方510/642/750keV门之和构成，作者报告两停止方案结果取平均、误差取较大值，并设寿命最小10%误差；这不是发表完整跨点Cov。 | joint-analysis-dependency | direct-original | PDF3 data analysis; PDF4 DSAM analysis; PDF5 error paragraph | true |
+| SI16-D20-F05 | 本文Eq4明确采用R=1.2A^(1/3)fm与β2(1+.36β2)，假设prolate且无hexadecapole；Eq5 Qt=Q20 cos(γ+30°)/cos30°另需转轴/γ约定。γ=−80°是借TRS的输入再与Qt相容性检查，不能从一个Qt独立量出β、γ或γ刚性。 | formula-and-inverse-problem-boundary | direct-original-and-visual | PDF9 Eq. (4); PDF9 Eq. (5) | true |
+| SI16-D20-F06 | Figure5包含本工作circles与旧Refs31/32的star/diamond，不得把所有图点作新独立样本；131Ce23/2−表只列τ>1.3ps，但PDF5正文还记plunger上界约3ps，两种界限不补造成Gaussian点或完整likelihood。 | sample-selection-and-limit-boundary | direct-original-and-visual | PDF6 Fig. 5; PDF5 first paragraph | true |
+
+### Day20逐态标量闭合与几何反问题（checkpoint002）
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D20-F07 | 按原Eq1、固定K=1/2和同一行printed中央τ/Qt计算p=τTγ，131Ce15/2、27/2、31/2、35/2分别为1.12446、1.04797、.87396、1.02065；133Pr三有限态约1.01300、1.01932、1.02283。声明half-last-digit舍入不能使所有行精确达到p=1。若这些量满足同一meanτ/部分γ率合同，p应为photon branch且≤1；这里仅暴露标量中央换算并非全部精确闭合，不能由残差推断实际branch/K/producer或实验显著性，不替换原表。 | conditional-central-rate-closure | task-derived-with-literal-input | PDF5 Eq. (1); PDF5 Table 1; PDF8 Table 2 | true |
+| SI16-D20-F08 | 在本文Eq5的声明参数化中，γ=−80°与+20°有同一cos(γ+30°)因子；Qt=2.5eb均可对应Q20≈3.36824eb，γ=0°则Q20=2.5eb。再照本文Eq4映射给β约.19313/.14567，这是条件逆解，不是已测两种核形状或一般三轴不变量。原文−80°取自TRS，Qt单独不能选择γ或恢复刚软。 | inverse-parameter-counterexample | task-derived | PDF9 Eq. (5); PDF9 Eq. (4) | true |
+
+[新程序](../../system/scripts/day20_rate_geometry_contract.py)与[rate-geometry-result-002.json](../../outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/rate-geometry-result-002.json)使用正确CG闭式及独立factorial核、现代常数单位重构和allowed零Qs反例，共19项数学/身份控制；不是19项实验认证。因无原joint profile、branch/ICC与exact producer，p>1的printed中央必要合同失败只列需解释边界，不将quoted误差当独立Gaussian抽样或估实验冲突概率。本文Qt系数1.224×10^12与现代B系数约1.22519×10^13的输入量不同；由现代强耦合5/(16π)转换的Qt系数约1.21872×10^12，不静默替换原Eq1。
+
+| SI16-D20-F09 | checkpoint007纠正003认证：Ref31三条旧寿命7.53(37)、64.2(39)、3.42(10)ps与Klemme1999 TableIII逐项相同，是依赖复用；2016 Present与1999为不同反应/实验室采集，不因此认定全部共同系统误差为零。以K=1/2、原Eq1和Klemme印能509/310/552keV计算Qt为3.13519/3.70924/3.73369eb，未精确重现Singh打印3.24/3.74/3.77。原003失败后放宽容差到4%不构成科学验证，残差不印证mixK、ICC或实际producer。 | lineage-and-unresolved-conversion-correction | direct-table-and-bounded-calculation | Table 1; Table 2; KL99-D20-1 | true |
+| SI16-D20-F10 | checkpoint034撤回旧全核素误差覆盖认证；同aK的j11/2对齐极限代数保留，Ce四点修正小于打印误差，但Pr15/2约+.19555eb超过.13/.15，19/2约+.11396超过上侧.09。PDF6理由用于Table1，不能泛认证Pr全带精度；详见SI16-D20-R34-1。 | k-mixing-cg-derivation-and-boundary | direct-original-and-derived | PDF5-6 Eqs. (2)-(3); Table 1; singh16-k-mixing-derivation-result-009.json | true |
+
+> checkpoint007：klemme-companion-result-003.json只保历史算术；其“4%通过即吻合/混K或ICC已解释/跨装置精度认证”撤回。原文明确本表简化K=1/2，不能用未知修正替中央残差闭合。实际旧脚本已退役，原代码与JSON哈希见rejected-analysis-registry-007.json。
+
+### Day20定量诊断的可复现合同
+
+[新程序](../../system/scripts/day20_literal_trend_audit.py)只读原表ledger和raw，输出[literal-trend-result-001.json](../../outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/literal-trend-result-001.json)。14项代数/输入控制包括独立标量回归对照、观测顺序不变、nested Δχ²=z²、全值/Cov同尺度变换、共同加性offset与自旋相关nuisance的不同作用；这些不是14项实验验证。声明共同offset .30eb不改变含截距拟合的斜率精度；声明slope nuisance .05eb/ℏ增加斜率方差(.05)²，可改变z。它们展示误差方向的重要性，不估计实际校准误差。
+
+### Knowledge Impact and Learning Decision — Day20
+
+revises：更正τ/τSF原表身份与Gaussian/Student混用；limits：当前表不足以复原联合实验CI或认定feeding是趋势成因。保留作者γ-shape polarization解释与反例，不因低z恢复恒定形变、也不因条件z≈−2.4宣布γ变化已测定。与[[transition-quadrupole-moment]]及[[high-spin-lifetime-strength-deformation]]双向承接；高自旋HD实验[[petrache-1998-highly-deformed-lifetimes-131ce-nd]]是不同带/组态比较，不拼成同一自旋回归。
+
+### Day20 Agent self-audit
+
+P0：本轮无未隔离身份/raw/Git问题；科学旧认证已在原ID更正，旧结果不改。P1：原events/producer/Cov和限值likelihood未得；Eq4/5按作者符号保留；Fig7 caption的multiplicity>1与正文one-or-more并存，未替作者裁决。Self-audit不是human review，不改变原flags。
 
 ## Bibliographic Record
 
@@ -140,7 +179,7 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| SI16-D18-2 | 对Table 2中133Pr yrast带三个有限态（15/2-、19/2-、23/2-）进行加权回归审计，其加权平均Qt为3.407(73) eb；线性回归斜率为dQt/dI = -0.1167(695) eb/hbar，显著性仅为-1.68sigma，在2sigma统计置信度下完全无法拒绝常数Qt假定。更为显著的是，侧馈平均寿命tau_SF在仅三个能级间发生跨越5个数量级的剧烈跃变（15/2-处为1100 ps，19/2-处降至1.9 ps，23/2-处骤降至0.014 ps）；低自旋态tau_SF是能级寿命（71 ps）的15倍，处于完全阻停前馈入区。这证实未获独立门控隔离的侧馈时延跃变能够轻易制造或扭曲高自旋形变演化的表观假象。 | task-regression-and-feeding-audit | derived-and-boundary | PDF p.8 Table 2；新babra19-singh16-qt-result-028 | true |
+| SI16-D18-2 | Day20原读纠正：Table2的侧馈时间为1100(200)、1.9(2)、14(3)ps；旧0.014ps与跨5数量级断言撤回，序列非单调。原−1.68来自残差缩放cov=True，是额外未知共同误差尺度模型的t(df1)，不能称已知误差Gaussian z；新两模型并列见SI16-D20-F03。未证实feeding制造形变趋势。 | task-correction | direct-source-and-conditional | Table 2; SI16-D20-F02; SI16-D20-F03 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-contract-028.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/babra19-singh16-qt-result-028.json)4项检查全过。
 
@@ -150,9 +189,9 @@ For `133Pr`, a marginal `Q_t` decrease is likewise compatible with nearly consta
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| SI16-D18-3 | 131Ce四有限点回归使用对称化误差，133Pr三点也使用对称化误差；原文MINOS不提供这些跨点回归的联合协方差。133Pr的τSF=1100/1.9/.014ps与131Ce的tauSF/QSF切换是拟合输入合同，说明形变斜率对feeding模型敏感，但不单独证明Qt下降由feeding制造。 | regression-and-feeding-boundary | derived-and-boundary | PDF5 Table1/analysis；PDF8 Table2/analysis；新qt-systematics-boundary-result-049 | true |
+| SI16-D18-3 | Day20原读纠正：133Pr侧馈值为1100/1.9/14ps，旧末项.014撤回；131Ce的tauSF/QSF角色变化仍存在。旧回归用了残差缩放，须与已知误差Gaussian分开。原文没有跨点联合Cov，feeding变化不单独证明Qt下降的成因。 | regression-and-feeding-boundary | derived-and-boundary | Table 1; Table 2; SI16-D20-F03 | true |
 | SI16-D18-5 | checkpoint062完全闭合结论撤回：固定B(E2)=1723 e2fm4与候选轴对称K=11/2、1/2，解析CG平方76/325、26/75给Qt约2.722与2.235 eb；后者与printed2.28仍差约2%。sqrt(169/114)约1.2176不等printed2.72/2.28约1.1930。1.224/1.225常数变化对Qt仅约.041%，不足解释残差。此为条件几何敏感性，不能反认Li实际采用K，原branch/ICC/producer仍需核；复用旧寿命不是新实验。 | task-correction | derived-and-boundary | 原Table1；strength-boundary-correction-result-078 | true |
-| SI16-D18-4 | 新条件回归给133Pr z=−1.678、131Ce z=−.602；它们是中心值/对称误差下的诊断，不是论文CI。131Ce的15/2–27/2混合plunger/DSAM方法、stopping prescriptions和side-feed parameter switch必须保留，不能把常数Qt接受写成独立实验裁决。 | conditional-statistical-diagnostic | derived-and-boundary | PDF4–8；qt-systematics-boundary-result-049 | true |
+| SI16-D18-4 | Day20重算纠正：旧133Pr−1.678及131Ce−.602是残差估计共同尺度的Student t（df1、2），不是已知误差Gaussian z。对平均上下误差/独立点声明控制，正确Gaussian z为−2.40034和−.63910；两模型均不恢复原实验CI。plunger由DSAM约束及feeding/停止模型依赖不能省略。 | conditional-statistical-diagnostic | derived-and-boundary | SI16-D20-F03; SI16-D20-F04 | true |
 
 新结果不改变原Table I/II、limits、K/CG和human review状态。
 
@@ -173,4 +212,56 @@ checkpoint008：旧SI16-D20-1完全闭合撤回，保全部旧review flags。本
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| SI16-D20-4 | Singh 2016 Table 1 在 Ref. [32] 栏转载并重算 Li 2004 的 $27/2^-$ 态 $Q_t = 2.28(21)\text{ eb}$，与其实验测得的 $2.26(+0.37/-0.23)\text{ eb}$ 高度吻合。两次实验实测能级寿命严格重合（$\tau = 1.23\text{ ps}$ 对 $1.24\text{ ps}$，差异仅 $0.81\%$）；$Q_t$ 差异完全来自转子模型 $K$ 投影代数：Li 采用 $K=11/2$（$Q_t = 2.722\text{ eb}$），Singh 采用 $K=1/2$（$Q_t = 2.235\text{ eb}$），两者理论比值精确为 $\sqrt{169/114} \approx 1.2176$。在 $23/2^-$ 态上，Li 的寿命 $\tau = 1.44(54)\text{ ps}$ 完全符合 Singh 单侧限值 $\tau > 1.3\text{ ps}$，且其 $B(E2)$ 经 $K=1/2$ 转换后为 $Q_t = 2.67\text{ eb}$，完全落于 Singh 上限 $Q_t < 2.85\text{ eb}$ 之内。 | data-reconciliation-contract | direct-original-and-derived | PDF5 Table1；LI04 Table1；ce131-li-singh-reconciliation-result-026.json | true |
+| SI16-D20-4 | Day20全文/视觉更正并撤回旧完全闭合：Table1当前27/2−为1.25(+.41/−.25)ps，不是旧1.24；Ref32转载1.23(23)ps，两中心差约1.63%不等测量精度或真实寿命相同。Table1重算Qt=2.28(21)eb为依赖证据；fixedK代数不识别Li真实K/producer，不能归因100%。 | data-reconciliation-correction | direct-original-and-boundary | Table 1; SI16-D20-F01; SI16-D18-5 | true |
+
+## checkpoint032：原表回归权重与科学认证边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D20-R32-1 | 本任务对Present有限点、平均上下误差/独立Gaussian控制，Ce归一化逆方差权重4.81/10.82/62.30/22.07%，Pr27.06/43.84/29.10%；Ce删最低点斜率+.00573eb/ℏ。旧最低点为Ref31且89.9/96.3%支配、删点+.15的说法均错误，撤回；限值、Ref31/32与positive-feeding行不纳入。未恢复实际Cov/实验CI。 | conditional-regression-correction | task-derived-from-literal-table | PDF5 Table1; PDF8 Table2; SI16-D20-F03/F04; evidence-repair-result-032.json | true |
+
+checkpoint032：SI16-D20-F10的009脚本认证尚待逐式重审；原表/原文事实与原review/flags保持，不以旧passed延续科学认证。
+
+## checkpoint033：观测量身份与形状约定原读纠正
+
+本次为定向原文/表图self-audit，非新增独立实验或全文认证；原review和claim flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D20-R33-1 | PDF3 plunger未给高态27/2−可用距离分析；使用高于23/2−的本工作DSAM矩约束低spin plunger拟合。PDF4–5 DSAM得到27/2−1.25(+.41/−.25)ps、τSF.73(+.15/−.12)ps；旧017把它当RDM是错误。Table1 Ref32转载Li1.23(23)ps并按本文K1/2重算Qt2.28(21)，不是第三个实验。 | method-identity-and-lineage | direct-original-and-visual | PDF3 Sec2.2; PDF4 Sec2.3; PDF5 Table1; PDF6 first paragraphs | true |
+| SI16-D20-R33-2 | Eq4 prolate/无hexadecapole，R=1.2A^(1/3)fm与β(1+.36β)明确。2.57894±.09866eb是本任务四Present有限Qt点对称化误差/独立Gaussian常数诊断，不是单态RDM原测量；不与IB98异能态Qs构造直接形变闭环。 | shape-convention-and-derived-mean-boundary | direct-and-task-derived | PDF9 Eq4; PDF5 Table1; observable-identity-shape-result-033.json | true |
+
+### checkpoint034：混K适用范围与完整拟合身份
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D20-R34-1 | 保留声明极限的混K代数，撤回全核素误差覆盖认证。** [[singh-2016-lifetime-131ce-133pr]] SI16-D20-R34-1：Eq2需初末态振幅乘积；本任务仅取同一对齐单准粒子j=11/2、相同aK、K对角四极算符。独立梯算符旋转矩阵核对binomial振幅与相位，带符号CG和给Qt倍率约1.05508、1.03228、1.02128、1.01511、1.01129、1.00876（I=15/2至35/2）。Ce四有限点上移.16139/.03414/.03003/.02128eb，小于各自两侧打印误差；Pr15/2上移.19555eb，超过.13/.15，19/2上移.11396eb，超过上侧.09而小于下侧.13。因此不能将作者PDF6对Table1的理由泛认证为Pr全带实验精度；不识别真实K分布、producer或原CI，也不解释中央换算残差。 | conditional-algebra-and-source-scope | original-selected-and-conditional | PDF5 Eqs2–3; PDF6 first paragraph; PDF5 Table1; PDF8 Table2 | true |
+
+
+### checkpoint043：Present趋势图的选择与区间边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SI16-D20-R43-1 | Table1/2的Present负宇称Qt共12行：7个有限值和5个单侧界限，均在本任务趋势图保留；Table2另2个positive-parity feeding行属于另一带，不拼入回归。Ref31/32转载不当新增独立测量。原非对称误差条照画，有限点回归另声明sigma=(minus+plus)/2及已知独立Gaussian误差，Ce/Pr条件斜率−.030175±.047215/−.116674±.048608eb/ℏ。只画finite自旋范围15/2–35/2与15/2–23/2，无CI带或限值likelihood。Pr高spin限值不能当沿低spin直线下降的实测证据，Ce低z也不证明恒定；原Cov/profile/producer未得。 | literal-table-and-conditional-visualization | source-derived-with-declared-model | PDF5 Table1; PDF8 Table2; SI16-D20-F03; SI16-D20-F04 | true |
+
+
+### checkpoint102：边际误差不识别联合Cov
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SI16-D20-R102-1 | 原Present有限点四Ce/三Pr，按上下误差平均并保持同一WLS线性斜率估计式不动时，未知PSD相关矩阵容许SE包络Ce[0,.078284]、Pr[0,.069607]。明确构造闭合多边形Gram矩阵与严格正定近似。它说明边际误差不能识别实际斜率方差；不是实际Cov、重拟合GLS、原MINOS profile/CI，也不将Pr比值−1.676185与残差尺度模型Student−1.67818混同。 | declared-fixed-contrast-correlation-sensitivity | task-derived-not-experimental-CI | PDF5 Table1; PDF8 Table2; SI16-D20-F03/F04; correlation-envelope-result-102.json in Day20 run02 | true |
+
+
+### checkpoint110：二阶形变式的明确模型与归属
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SI16-D20-R110-1 | Eq4明示r0=1.2与舍入.36、prolate/no-β4；本任务另声明R=cR0(1+β2Y20+β4Y40)均匀电荷族，精确Legendre/Gaunt积分给c22=.3604475、c24=.9671821、c44=.3276795。常体积与密度重标族二阶相同、高阶/反演不同；Q6.8eb/Z60/A134/r1.2的条件β根约.352324(二阶)、.355659(常体积)、.349337(密度重标)。这些不是作者β4结果、实际核β/误差或Petrache真实算法；31项只检声明数学与数值。 | source-formula-versus-declared-surface-model | task-derived-not-experimental-CI | PDF9 Eq4; SI16-D20-F05; surface-charge-contract-result-110.json in Day20 run02 | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SI16-D20-R146-1 | 原件为Pramana87:7，DOI10.1007/s12043-016-1218-6。27/2− Present为τ=1.25(+.41/−.25)ps、Qt=2.26(+.37/−.23)eb；2.58(12)和1.37(13)不属于这行。2.57894附近是所选多点条件加权常数，不能写成该态独立测量。143/145的跨实验室Z、零漂移与8倍B认证撤回；几何/branch/响应/Cov未恢复。 | direct-original-correction | source-and-bounded-self-audit | PDF5 Table1; PDF9 Eqs4/5 | true |

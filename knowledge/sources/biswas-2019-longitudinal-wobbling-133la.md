@@ -169,3 +169,22 @@ P0: inspect Fig.4/5 branch selection and Table 1 before using transition ratios.
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | BI19-D19-1 | 对 Table 1 中 758, 874, 982 keV 三条连接跃迁进行角分布双根敏感性量化对账，大根 $\delta = -2.05, -2.60, -3.07$ 导出 $E2$ 份额为 $80.8\%\text{--}90.4\%$（对应 $B(E2_{\text{out}})/B(E2_{\text{in}}) = 1.127, 0.716, 0.545$）；而相同角分布的替代小根 $\delta \approx -0.35, -0.40, -0.38$ 导出 $E2$ 份额急剧跌落至仅 $10.9\%\text{--}13.8\%$（磁偶极 $M1$ 支配性达 $86.2\%\text{--}89.1\%$）。替代小根使得 $E2$ 强度遭遇 $6.32\times\text{--}7.40\times$ 的断崖式塌缩，将 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 压低至 $0.152, 0.113, 0.076$，完全退化为常规非集体单粒子能级耦合水平。在缺乏内转换电子谱或极高灵敏度线偏振彻底排他排除小根前，单纯依赖大根无法排他确立纵向摆动模式。 | task-root-degeneracy-and-collapse-audit | derived-and-boundary | PDF p.5 Table 1; wobbling-ibfm-root-degeneracy-result-050.json | true |
+
+## Day20量化审计：角分布双根敏感性与纵向摆动塌缩边界
+
+> checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
+
+依据独立审计程序 `system/scripts/day20_chiral_wobbling_geometry_audit.py` 与基准输出 `outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/chiral-wobbling-geometry-result-022.json`，核准了 $^{133}\text{La}$ 758, 874, 982 keV 三条连接跃迁的大根与小根敏感性及集体性塌缩边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BI19-D20-1 | checkpoint042撤回旧已测替代小根/完全单粒子化/普适LW排他判决。原三线spin17/2→15/2、21/2→19/2、25/2→23/2；联合DCO-P reported大δ与模型LW解释保留。旧小δ未在Table1作为实验解给出，仅固定其它量的声明敏感性。作者模型有效short-axis惯量增长，不能固定LW轴名为medium。见R42-1/R42-2。 | task-root-degeneracy-and-collapse-audit | derived-and-boundary | PDF p.5 Table 1; chiral-wobbling-geometry-result-022.json | true |
+
+## Day20 checkpoint042：逐线分支、模型轴与校准依赖
+
+本轮先冻结primed回忆，定向原读Table/图/分析与解释范围；未重新测δ或取得完整likelihood/producer。原review/flags保留，新增仅Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BI19-D20-R42-1 | 758/874/982keV的spin17/2→15/2、21/2→19/2、25/2→23/2，旧022各低1ℏ。Table1联合DCO-P δ−2.05(+.39/−.30)、−2.60(+.46/−.47)、−3.07(+.47/−.65)与E2out/in1.127/.716/.545；旧小δ仅chosen敏感性，未在Table1作为实验分支，不认证概率/单粒子化。 | literal-spin-and-root-scope | original-selected-and-conditional | PDF2 Fig1; PDF3–4 Figs2–5; PDF5 Table1 | true |
+| BI19-D20-R42-2 | 作者以正宇称pair提前沿short对齐增加有效Js，使其大于Jm来解释LW；LW/TW相对于粒子与最大惯量轴判断，不能固定LW必j_medium。QTR/HFA有不同层与参数，模型解释非实验直接轨迹。 | author-inertia-geometry | original-selected-and-conditional | PDF4–6 discussion/Figs6–8 | true |

@@ -1,0 +1,8 @@
+{
+  "observed_at_utc": "2026-10-23T06:45:23.718293+00:00",
+  "environment_session_id": "01a16297-c78b-7083-899c-e3a0ac846a67",
+  "expected_session_id": "01a16297-c78b-7083-899c-e3a0ac846a67",
+  "index_empty": true,
+  "head_subject": "Finalize Day19 card audit and canonical learning handoff",
+  "scope": "Read-only entry check, no H3 completion claim"
+}

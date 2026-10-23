@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-22T21:41:39.305181+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 1038.3449136499999,
+  "decision": "continue-or-advance",
+  "clock_tool_observation_utc": "2026-10-22 13:38:02 UTC",
+  "time_source": "aware system clock; preceding tool observation separate",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "021/022 disputed-mode original inputs and interpretations",
+      "information_gain": "high",
+      "gap": "Pr line spin assignment, La/Xe numeric roots vs chosen controls, uniqueclassification claims"
+    },
+    {
+      "route": "Consolidate current evidence map after remaining repairs",
+      "information_gain": "high",
+      "gap": "replace stale certification and map course deliverables beforefinal timegate"
+    }
+  ],
+  "decision_reason": "Continue current Day20 high-value original audit; no newcard/closeout."
+}

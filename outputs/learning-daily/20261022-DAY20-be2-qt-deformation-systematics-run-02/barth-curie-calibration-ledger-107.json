@@ -1,0 +1,37 @@
+{
+  "checkpoint": "107",
+  "kind": "literal primary identity and conditional Curie arithmetic",
+  "experimental_CI": false,
+  "probe": {
+    "nucleus": "136Ce",
+    "nuclear_spin": 10,
+    "half_life_ns": 2000,
+    "electronic_J": 2.5,
+    "electronic_gJ": 0.8571428571428571
+  },
+  "Curie_fit_report": {
+    "gN": [
+      -0.18,
+      0.002
+    ],
+    "B0_Sn_MG": [
+      1.78,
+      0.04
+    ],
+    "B0_Pb_MG": [
+      1.78,
+      0.06
+    ]
+  },
+  "conditional_room_temperature_check": {
+    "temperature_K": 298,
+    "B0_T": 178,
+    "muB_over_kB_K_per_T": 0.6717138147132254,
+    "beta": 1.4012250302649467,
+    "boundary": "same original model applied numerically, no actual1998 response/calibration Cov"
+  },
+  "time_identity": "nuclear level decay half-life, nuclear alignment tauN and electronic tauJ are distinct",
+  "author_omitted_terms": "temperatureindependent Knight/orbital contributions admitted printed819; described as small and partly cancelling, not measured zero",
+  "related_PRL1980": "body unavailable, do not count independentreplication",
+  "source_sha256": "dff4d09add2aeeb91302ca1b222cc0e3e7e7b280fe0095e097a2585e7b60cb15"
+}

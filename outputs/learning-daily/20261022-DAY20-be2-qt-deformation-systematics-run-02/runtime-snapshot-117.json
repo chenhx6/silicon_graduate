@@ -1,0 +1,35 @@
+{
+  "now_local": "2026-10-23T05:35:32.264059+08:00",
+  "hard_deadline": "2026-10-23T15:00:00+08:00",
+  "minutes_to_deadline": 564.4622656833333,
+  "decision": "continue-or-advance",
+  "time_source": "actual aware timestamp, corroborated by clock tool UTC2026-10-22 21:33:09",
+  "day_index": 20,
+  "candidate_pool": [
+    {
+      "route": "76Ge claimedrigidity original",
+      "gap": "Poves114criticizes2019PRL123102501; actual76Se116doesnotmeasureexperimentalrigidity. Need exact76Georiginal before judging its highorder matrixnetwork/softness.",
+      "information_gain": "high",
+      "source_locators": [
+        "PO20-D20-6 andRef12",
+        "HE19-D20-5/6"
+      ]
+    },
+    {
+      "route": "Actual experimental invariant readiness",
+      "gap": "117firstthree2state weight is conditional; no d33 bound/fullCov/highstates or actualproducer. Need distinguish parametererror from intrinsicshapevariance and closure.",
+      "information_gain": "high",
+      "source_locators": [
+        "HE19-D20-4/R117-1/2",
+        "HE20-D20-3/6",
+        "PO20-D20-R115-1/2"
+      ]
+    },
+    {
+      "route": "Day21 existinguncreditedpreview",
+      "gap": "Remainpartial,noDay22,no21credit",
+      "information_gain": "bounded-only"
+    }
+  ],
+  "decision_reason": "Morethan120min remain. Three-sourceREFLECT revised false76Seexperimentalrigidity dispute. Continue actual76Georiginal route; window notsaturated."
+}

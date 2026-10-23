@@ -1,0 +1,623 @@
+{
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.99.054313",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2026-06-18T17:50:27Z",
+      "timestamp": 1781805027098,
+      "version": "3.54.5"
+    },
+    "reference-count": 28,
+    "publisher": "American Physical Society (APS)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2019-05-13T00:00:00Z",
+          "timestamp": 1557705600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              12
+            ]
+          ],
+          "date-time": "2020-05-12T00:00:00Z",
+          "timestamp": 1589241600000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006227",
+        "name": "Lawrence Livermore National Laboratory",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC52-07NA27344"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC52-07NA27344"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006227",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PHY-1565546"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PHY-1565546"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006209",
+        "name": "Nuclear Physics",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-FG02-08ER41556"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-FG02-08ER41556"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006209",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006168",
+        "name": "National Nuclear Security Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-NA0003180"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-NA0003180"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006168",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. C"
+    ],
+    "DOI": "10.1103/physrevc.99.054313",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          13
+        ]
+      ],
+      "date-time": "2019-05-13T09:36:32Z",
+      "timestamp": 1557740192000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "title": [
+      "Triaxiality in selenium-76"
+    ],
+    "prefix": "10.1103",
+    "volume": "99",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Henderson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C. Y.",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Ash",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B. A.",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. C.",
+        "family": "Bender",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Elder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Elman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Gade",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Grinder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Iwasaki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Longfellow",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Mijatovi\u0107",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Rhodes",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Spieker",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Weisshaar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevC.99.054313Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.89.014328"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2016.01.036"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature21717"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2014/365432"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.91.024316"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.80.064323"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.95.014327"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc9R1",
+        "volume-title": "Proceedings of International Particle Accelerator Conference (IPAC'16), Busan, Korea, 2016",
+        "author": "A. Villari",
+        "year": "2016"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0031-8949/91/5/053003"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4827308"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nima.2017.12.057"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-9002(01)00257-1"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-9002(97)00048-X"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.121.082502"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc17R1",
+        "first-page": "745",
+        "volume": "28",
+        "author": "T. Czosnyka",
+        "year": "1983",
+        "journal-title": "Bull. Am. Phys. Soc.",
+        "ISSN": "https://id.crossref.org/issn/0003-0503",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.99.014313"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(95)00327-W"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(77)90689-3"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc21R1",
+        "first-page": "581",
+        "volume": "21",
+        "author": "P.\u00a0B. Vold",
+        "year": "1976",
+        "journal-title": "Bull. Am. Phys. Soc.",
+        "ISSN": "https://id.crossref.org/issn/0003-0503",
+        "issn-type": "print"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0029-5582(58)90153-6"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.70.024308"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.28.249"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ns.36.120186.003343"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.18.2801"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(74)90183-3"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.67.064310"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.nds.2014.07.022"
+      },
+      {
+        "key": "PhysRevC.99.054313Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2005.04.010"
+      }
+    ],
+    "container-title": [
+      "Physical Review C"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/accepted/10.1103/PhysRevC.99.054313",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevC.99.054313",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.99.054313/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          13
+        ]
+      ],
+      "date-time": "2019-05-13T09:36:50Z",
+      "timestamp": 1557740210000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevC.99.054313"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          13
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevc.99.054313",
+    "relation": {},
+    "ISSN": [
+      "2469-9985",
+      "2469-9993"
+    ],
+    "issn-type": [
+      {
+        "value": "2469-9985",
+        "type": "print"
+      },
+      {
+        "value": "2469-9993",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          13
+        ]
+      ]
+    },
+    "article-number": "054313"
+  }
+}
