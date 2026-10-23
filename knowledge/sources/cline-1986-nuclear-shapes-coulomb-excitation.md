@@ -21,8 +21,9 @@ source_url: "https://www.pas.rochester.edu/~cline/Publications/annurev.ns.36.120
 raw_file: "raw/papers/day20-20261022/cline-1986-nuclear-shapes-coulomb-excitation.pdf"
 raw_sha256: "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
 raw_storage_status: reserved-unpopulated-public-author-copy-staging-only
+raw_archive_verified_at: 2026-10-23
 public_staging_file: "tmp/day20-cline148/PDFs/Nuclear_Shapes_Studied_by_Coulomb_Excitation.pdf"
-analysis_status: original-review-mainline-and-key-evidence-read-raw-archive-deferred
+analysis_status: original-review-mainline-and-key-evidence-read-raw-archive-verified
 source_independence: method-review-and-secondary-reports-not-new-independent-experiments
 nuclei: [232Th, 168Er, 110Pd, 192Os, 194Pt, 104Ru]
 methods: [Coulomb-excitation, rotational-invariants, nonlinear-least-squares]

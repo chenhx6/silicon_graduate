@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/zanon-2023-o20-high-precision.pdf"
 raw_sha256: "2bd272e29518978205cb47b0d7829a0f57f1a5b81f8c0be7d7d984cec94435cc"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2405.14305v1"
 nuclei: [19o, 20o]
 methods: [doppler-correction, dsam, particle-gamma-coincidence, two-body-kinematics]

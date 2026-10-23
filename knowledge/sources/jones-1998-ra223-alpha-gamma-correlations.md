@@ -21,7 +21,8 @@ canonical_source: "doi:10.1007/s100500050101 publisherPDF"
 source_url: "https://link.springer.com/content/pdf/10.1007/s100500050101.pdf"
 raw_file: "raw/papers/gpt/day16-20261018/jones1998-223ra-alpha-19d50c6b0b8b.pdf"
 raw_sha256: "19d50c6b0b8bf558839253cedb766a758fed89102bd95f9a9420484092dc164d"
-raw_storage_status: publisher-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [223Ra, 227Th, 227Ac]
 reactions: [227Th-alpha-decay]
 observables: [alpha-gamma-angular-correlation, alpha-electron-angular-correlation, multipole-mixing-ratio, conversion-coefficient, magnetic-moment]

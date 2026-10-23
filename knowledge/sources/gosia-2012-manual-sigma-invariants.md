@@ -17,6 +17,7 @@ source_url: "https://www.pas.rochester.edu/~cline/Gosia/Gosia_Manual_20120510.pd
 raw_file: "raw/papers/day20-20261022/gosia-user-manual-20120510.pdf"
 raw_sha256: "8258219d56fe5a7ced3a761ab3b07388089cd30e46adcde72f4a1c0c1f6cc633"
 raw_storage_status: reserved-unpopulated-official-public-staging-only
+raw_archive_verified_at: 2026-10-23
 public_staging_file: "tmp/day20-gosia151/manual/PDFs/GOSIA_User_Manual_20120510.pdf"
 analysis_status: sigma-chapter-and-entire-available-code-read-not-executed
 source_independence: method-documentation-not-new-independent-nuclear-experiment

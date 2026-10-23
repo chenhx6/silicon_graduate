@@ -22,7 +22,8 @@ source_url: "https://arxiv.org/pdf/1906.07542v2"
 raw_file: "raw/papers/day20-20261022/poves-2020-limits-assigning-nuclear-shape.pdf"
 raw_sha256: "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a"
 raw_storage_status: reserved-unpopulated-arxiv-staging-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-poves114/PDFs/Limits_on_assigning_a_shape_to_a_nucleus.pdf"
 nuclei: [20Ne, 24Mg, 34Si, 44S, 48Ca, 56Ni, 64Cr, 68Ni, 76Ge, 76Se]
 models: [CI-shell-model, LNPS, USD-A, KB3, KB3G, SDPFU-MIX, SDPFU]

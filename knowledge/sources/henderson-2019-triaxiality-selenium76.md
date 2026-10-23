@@ -21,7 +21,8 @@ source_url: "https://link.aps.org/accepted/10.1103/PhysRevC.99.054313"
 raw_file: "raw/papers/day20-20261022/henderson-2019-triaxiality-selenium76.pdf"
 raw_sha256: "a3327e0ee1eeb6aff8c6e0d49a3de2a281d5d005b0e5a58846b9bf0289d5b993"
 raw_storage_status: reserved-unpopulated-accepted-manuscript-staging-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-henderson116/PDFs/Triaxiality_in_selenium-76.pdf"
 nuclei: [76Se, 208Pb]
 reactions: ["208Pb(76Se,76Se*)208Pb"]

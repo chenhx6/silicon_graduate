@@ -21,6 +21,8 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.96.054324"
 citation_key: ""
 raw_file: "raw/papers/2017-Wang-109Ag-TAC-separable-pairing.pdf"
 raw_sha256: 15e901a4f5d8ad1b5cf4bffe61e050d8eb6a3c89b0f9f62dea84e5d56c335d87
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [109Ag]
 reactions: []
 models: [tilted-axis-cranking, covariant-density-functional-theory, relativistic-Hartree-Bogoliubov]

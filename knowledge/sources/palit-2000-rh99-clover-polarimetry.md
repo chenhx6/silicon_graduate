@@ -22,7 +22,8 @@ canonical_source: "Publisher PDF Pramana54(3),347–354(2000)"
 source_url: "https://link.springer.com/content/pdf/10.1007/s12043-000-0126-x.pdf"
 raw_file: "raw/papers/gpt/day16-20261018/palit2000-rh99-polarimetry-16ac6571acce.pdf"
 raw_sha256: "16ac6571accecd822c67cbdb79f8adeb72734ef3766f767d4f778af47bae1387"
-raw_storage_status: publisher-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [99Rh, 101Pd, 24Mg, 76Kr, 78Kr, 80Sr, 81Sr, 82Sr]
 reactions: []
 experiments: [TIFR-clover-Compton-polarimetry]

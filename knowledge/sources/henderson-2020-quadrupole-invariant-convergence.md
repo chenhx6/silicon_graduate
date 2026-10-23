@@ -22,7 +22,8 @@ source_url: "https://arxiv.org/pdf/2005.11210v4"
 raw_file: "raw/papers/day20-20261022/henderson-2020-quadrupole-invariant-convergence.pdf"
 raw_sha256: "ed2d48f63e1e18a721e1bb3e01676ca91160d1a683d7447e574788a6f5c8e044"
 raw_storage_status: reserved-unpopulated-arxiv-staging-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-henderson112/PDFs/Convergence_of_electric_quadrupole_rotational_invariants_from_the_nuclear_shell_model.pdf"
 nuclei: [24Mg, 26Si, 28Si, 52Fe]
 models: [shell-model, USDB, KB3G]

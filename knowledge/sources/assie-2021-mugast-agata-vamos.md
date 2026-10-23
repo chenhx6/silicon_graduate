@@ -24,6 +24,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/assie-2021-mugast-campaign.pdf"
 raw_sha256: "7eb71ca9d7816083184fbdac2b1f8ca91b77cbb69da47988017a563c4719c451"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2104.10707v1"
 nuclei: [17o, 20o, 19ne]
 reactions: [16O-d-p-17O, 19O-d-p-20O, 15O-7Li-t-19Ne]

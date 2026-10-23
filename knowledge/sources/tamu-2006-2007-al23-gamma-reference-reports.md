@@ -16,7 +16,8 @@ canonical_source: "TAMU2005–2006 I5–I10 plus2006–2007 I27–I28 selectedco
 source_url: https://cyclotron.tamu.edu/publications/
 raw_file: raw/reports/day17-20261020/cyclotron-progress2006.pdf
 raw_sha256: e0602d7608a5307c917eb61426e87b7987d9cf777bac7a4930bf3d43ce531f48
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Al, 23Mg, 22Na]
 reactions: [24Mg(p,2n)23Al, 23Al-beta-gamma-decay]
 methods: [gamma-spectroscopy, absolute-normalization, source-lineage]

@@ -23,6 +23,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/ziliani-2019-agata-calibration.pdf"
 raw_sha256: "261b65b42c50350279b0e94f4c5e119342a9f78253be281315ec93ca6c12745a"
 raw_storage_status: reserved-unpopulated-public-publisher-copy-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=50&page=625"
 nuclei: [18o, 19o, 20o, 24mg, 208pb]
 methods: [doppler-correction, time-alignment, energy-calibration, gamma-ray-tracking]

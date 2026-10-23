@@ -23,6 +23,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/ljungvall-2020-ganil-performance.pdf"
 raw_sha256: "07cb8ea5bf3fa310ad00802a08ef9e07702e7a837d27ba15ae567a3a6adfe3c9"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2011.08003v1"
 nuclei: [98zr, 92mo, 152sm, 152gd]
 methods: [doppler-correction, gamma-ray-tracking, pulse-shape-analysis, angular-correlation, event-mixing]

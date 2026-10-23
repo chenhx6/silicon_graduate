@@ -20,7 +20,8 @@ canonical_source: "Sallaska PRL105152501 arxiv1008.4170v2 and targetedv1; offici
 source_url: https://arxiv.org/abs/1008.4170v2
 raw_file: raw/papers/day17-20261020/sallaska-2010-letter-arxiv-v2.pdf
 raw_sha256: e004080c48c26d3de6f6b611ddb7d121b655e9fa96477f9956e1c26c5ebbe090
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [22Na, 23Mg]
 reactions: [22Na(p,gamma)23Mg]
 methods: [resonance-strength, gamma-spectroscopy, frame-transformation]

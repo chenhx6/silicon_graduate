@@ -21,6 +21,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/tunl-12c-table-12-13-2017.pdf"
 raw_sha256: "f24d1df603869579b2de604ea726e5de65b766985f8b07724d6dfa66a3c61727"
 raw_storage_status: reserved-unpopulated-public-evaluation-table-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://nucldata.tunl.duke.edu/nucldata/HTML/A=12/12_13_2017.pdf"
 nuclei: [12c]
 methods: [doppler-correction]

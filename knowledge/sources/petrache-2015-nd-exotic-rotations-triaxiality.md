@@ -20,6 +20,8 @@ canonical_source: "https://doi.org/10.1088/0031-8949/90/11/114016"
 citation_key: ""
 raw_file: "raw/papers/2015-Petrache-Nd-exotic-rotations-triaxiality.pdf"
 raw_sha256: cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [128Nd, 129Nd, 130Nd, 131Nd, 132Nd, 133Nd, 134Nd, 135Nd, 136Nd, 137Nd, 138Nd, 139Nd, 140Nd, 141Nd]
 reactions: []
 models: [cranked-shell-model, total-Routhian-surface, cranked-Nilsson-Strutinsky, tilted-axis-cranking]

@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/baker-cousins-1984-histogram-fits-kekscan.pdf"
 raw_sha256: "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a"
 raw_storage_status: reserved-unpopulated-public-author-report-scan-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://lib-extopc.kek.jp/preprints/PDF/1983/8311/8311266.pdf"
 nuclei: []
 methods: [histogram-fitting, poisson-likelihood, chi-square, confidence-region]

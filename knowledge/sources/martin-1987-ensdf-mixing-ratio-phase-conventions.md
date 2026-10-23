@@ -24,7 +24,8 @@ canonical_source: "Martin August1987 phase chapter pp1-9 in NNDC BNL-NCS-40503"
 source_url: "https://www.nndc.bnl.gov/ensdf/evalcorner/pdfs/ensdf-procedures.pdf"
 raw_file: "raw/papers/gpt/day16-20261018/ensdf-procedures-1987-f08bf2c3e780.pdf"
 raw_sha256: "f08bf2c3e7802ed741377c13344a701f54670f19e6c143be5901cd151cc256c8"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: []
 reactions: []
 experiments: []

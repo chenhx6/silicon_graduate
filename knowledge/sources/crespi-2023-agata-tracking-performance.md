@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/crespi-2023-agata-tracking-performance.pdf"
 raw_sha256: "e492edd41f50fd4a520b80c59507e8f07f800acb8285052e78c07a7e7612703d"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2305.18850v1"
 nuclei: [16o, 12c, 98zr, 208pb]
 methods: [gamma-ray-tracking, doppler-correction, pulse-shape-analysis, compton-imaging]

@@ -20,7 +20,8 @@ canonical_source: "Kirsebom et al 2016 PRC93 025802 arxiv1508.07188v1"
 source_url: https://arxiv.org/abs/1508.07188v1
 raw_file: raw/papers/day17-20261020/kirsebom-2016-23mg-dsam-arxiv-v1.pdf
 raw_sha256: 9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Mg, 22Na, 24Mg, 28Si]
 reactions: [3He(24Mg,alpha)23Mg]
 methods: [DSAM, alpha-gamma-coincidence, line-shape, stopping-power]

@@ -21,7 +21,8 @@ source_url: "https://link.aps.org/accepted/10.1103/PhysRevLett.123.102501"
 raw_file: "raw/papers/day20-20261022/ayangeakaa-2019-rigid-triaxial-ge76.pdf"
 raw_sha256: "fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733"
 raw_storage_status: reserved-unpopulated-accepted-manuscript-staging-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_manifest: "tmp/day20-ge76-118/manifest.json"
 nuclei: [76Ge, 208Pb]
 reactions: ["208Pb(76Ge,76Ge*)208Pb"]

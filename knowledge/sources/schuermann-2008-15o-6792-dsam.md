@@ -19,7 +19,8 @@ citation_key: ""
 canonical_source: https://doi.org/10.1103/PhysRevC.77.055803
 raw_file: raw/papers/2008_Schuermann_et_al_15O6792_Doppler_attenuation.pdf
 raw_sha256: e052b2ab382b9982522d009612cb1362f4ecb981a8724ad7b3829ff492671f61
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [15O, 14N]
 reactions: [14N(p,gamma)15O, 19F(p,alpha-gamma)16O]
 methods: [doppler-shift-attenuation-method, centroid-shift, geometry-calibration]

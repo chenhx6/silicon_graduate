@@ -19,6 +19,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/aladili-2009-doppler-simulations.pdf"
 raw_sha256: "57e28acccf0634cb47df37bf3dcc1ef157c4bd5a7658834b5f3dbdd6a8b04b96"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/0909.4800"
 nuclei: [52cr, 38ar, 35s]
 reactions: [d-51V-n-52Cr, d-37Cl-n-38Ar]

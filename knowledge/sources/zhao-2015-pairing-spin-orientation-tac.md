@@ -21,6 +21,8 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.92.034319"
 citation_key: ""
 raw_file: "raw/papers/2015-Zhao-pairing-spin-orientation-TAC.pdf"
 raw_sha256: ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [135Nd]
 reactions: []
 models: [tilted-axis-cranking, covariant-density-functional-theory, relativistic-Hartree-Bogoliubov]

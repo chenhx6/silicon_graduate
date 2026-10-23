@@ -20,7 +20,8 @@ canonical_source: "Sallaska et al PRC83034611, arxiv1009.3925v2"
 source_url: https://arxiv.org/abs/1009.3925v2
 raw_file: raw/papers/day17-20261020/sallaska-2011-na22-arxiv-v2.pdf
 raw_sha256: 19a8218ff8c0199409b785dad7ee036445db1b299b2c4b9ab2dc62d6e360efc5
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [22Na, 23Mg, 23Na]
 reactions: [22Na(p,gamma)23Mg, 23Na(p,gamma)24Mg]
 methods: [gamma-spectroscopy, resonance-strength, absolute-calibration]

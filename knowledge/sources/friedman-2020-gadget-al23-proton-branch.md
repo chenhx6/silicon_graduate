@@ -20,7 +20,8 @@ canonical_source: "Friedman PRC101052802 OSTI1726146 LANLacceptedmanuscript/arxi
 source_url: https://www.osti.gov/servlets/purl/1726146
 raw_file: raw/papers/day17-20261020/friedman-2020-gadget-accepted.pdf
 raw_sha256: 96ec0f4a4a7a89667a09a226b10695910509a120bb9a0f355ff19ac3fad19e9b
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Al, 23Mg, 22Na]
 reactions: [23Al-beta-delayed-proton-decay]
 methods: [gas-detector, gamma-coincidence, proton-branching, normalization]

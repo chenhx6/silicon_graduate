@@ -21,6 +21,8 @@ canonical_source: "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=32&pag
 citation_key: ""
 raw_file: "raw/papers/2001-Riley-global-lifetime-A135.pdf"
 raw_sha256: 09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [130Pr, 131Pr, 132Pr, 133Pr, 132Nd, 133Nd, 134Nd, 135Nd, 133Pm, 134Pm, 135Pm, 136Pm, 135Sm, 136Sm, 137Sm, 131Ce, 132Ce, 142Sm]
 reactions: []
 experiments: [Gammasphere-Microball-A135-global-lifetimes]

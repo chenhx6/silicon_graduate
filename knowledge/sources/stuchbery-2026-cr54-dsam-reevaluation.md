@@ -20,6 +20,8 @@ citation_key: ""
 canonical_source: https://doi.org/10.1103/gm4m-8wyn
 raw_file: raw/papers/2026_Stuchbery_Cr54_Dsam_reevaluation.pdf
 raw_sha256: 918ba5cb8a663bf57aedfef50f8106774a539f45454066079854bf425cfe1440
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [54Cr, 58Fe, 48Ca]
 reactions: [51V(alpha,p-gamma)54Cr]
 methods: [doppler-shift-attenuation-method, centroid-shift, stopping-power-reanalysis]

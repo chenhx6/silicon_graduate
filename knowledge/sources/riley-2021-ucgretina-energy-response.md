@@ -22,7 +22,8 @@ canonical_source: "arXiv2104.09986v1 actual26pagePDF, CrossrefDOI metadata"
 source_url: "https://arxiv.org/abs/2104.09986v1"
 raw_file: "raw/papers/gpt/day16-20261018/riley-2021-ucgretina-2104.09986v1.pdf"
 raw_sha256: "68644a73a5bb0ecb66ee504d162e0acdefa6a1e5b7c8dc44e846c322264364d1"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [137Cs, 22Na, 57Co, 133Ba, 152Eu, 241Am, 56Co, 226Ra, 60Co, 88Y]
 reactions: []
 experiments: [LBNL-GRETINA-pencil-beam-source, NSCL-GRETINA-12quad-flood-source]

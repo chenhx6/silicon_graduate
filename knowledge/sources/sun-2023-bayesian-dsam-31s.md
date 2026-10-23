@@ -19,6 +19,8 @@ citation_key: ""
 canonical_source: https://doi.org/10.1016/j.physletb.2023.137801
 raw_file: raw/papers/2023_Sun_et_al_Bayesian_Doppler_shift_attenuation_method.pdf
 raw_sha256: f19bb23761529d355efbe83e5a8063f4e99a9c43bd65cc906604d129aad55b34
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [31S, 31P]
 reactions: [3He(32S,alpha)31S]
 methods: [doppler-shift-attenuation-method, Bayesian-inference, MCMC, Gaussian-process-emulator]

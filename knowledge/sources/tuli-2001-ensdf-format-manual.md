@@ -19,7 +19,8 @@ canonical_source: "NNDC official ENSDF format manual, Tuli February2001"
 source_url: "https://www.nndc.bnl.gov/ensdf/ensdf-manual.pdf"
 raw_file: "raw/papers/gpt/day16-20261018/tuli-2001-ensdf-format-3400f0ae84d2.pdf"
 raw_sha256: "3400f0ae84d24f252f5bed4e6f0227304df9a4608aceb1d67e609db12605a0e9"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: []
 reactions: []
 experiments: []

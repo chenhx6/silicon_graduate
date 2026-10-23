@@ -21,7 +21,8 @@ source_url: "http://link.springer.com/content/pdf/10.1007/BF02159726.pdf"
 raw_file: "raw/papers/day20-20261022/dafni-1983-ce-tin-quadrupole.pdf"
 raw_sha256: "5b08557f5fd79724547485c93fd729ecce97540cd9a2b5b45df40abc1734ce08"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-dafni106/PDFs/Electric_quadrupole_interaction_of_Ce_isomers_in_tin.pdf"
 license: not-established-from-tdm-metadata
 nuclei: [134Ce, 136Ce, 138Ce]

@@ -22,7 +22,8 @@ source_url: "http://link.springer.com/content/pdf/10.1007/BF02394554.pdf"
 raw_file: "raw/papers/day20-20261022/vianden-1987-efg-metals.pdf"
 raw_sha256: "ec9cfaa6f2f47b9ecacde62f226b575c5002915b620dd971b1eac5a63f3f1508"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
-analysis_status: selected-public-staging-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: selected-public-staging-read-raw-archive-verified
 public_staging_file: "tmp/day20-calibration105/PDFs/Electric_field_gradients_in_metals.pdf"
 license: not-established-from-tdm-metadata
 nuclei: [134Ce, 136Ce, 138Ce]

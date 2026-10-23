@@ -22,6 +22,7 @@ citation_key: ""
 raw_file: "raw/papers/codex-day14/wang-2010-128i-new-high-spin-level-scheme.pdf"
 raw_sha256: "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387"
 raw_storage_status: reserved-unpopulated-public-pdf-verified-in-wiki-tmp
+raw_archive_verified_at: 2026-10-23
 public_full_text: "https://cpl.iphy.ac.cn/en/article/pdf/preview/10.1088/0256-307X/27/8/082701.pdf"
 public_full_text_sha256: "28b81f5be7dfbe3b7efbb7efb37576eef7e4ac6060baac6c19d54e9c0187c387"
 nuclei: [128I]

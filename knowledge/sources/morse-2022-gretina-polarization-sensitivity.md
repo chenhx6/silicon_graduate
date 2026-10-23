@@ -21,7 +21,8 @@ canonical_source: "doi:10.1016/j.nima.2021.166155; actual read: UNC author prepr
 source_url: "https://doi.org/10.17615/4vxa-4h20"
 raw_file: "raw/papers/gpt/day16-20261018/morse-2022-gretina-calibration-author-preprint.pdf"
 raw_sha256: "f76cf7073fb5c5240d638b332802730614f9f81d8aa2f971c6957acfddbfc241"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [24Mg]
 reactions: ["24Mg(p,p')24Mg"]
 experiments: [atlas-gretina-mg24-pp-2450kev-six-quads]

@@ -22,7 +22,8 @@ canonical_source: "arXiv2105.14236v1, 29-May-2021; publisherVoRnotobtained"
 source_url: "https://arxiv.org/abs/2105.14236"
 raw_file: "raw/papers/gpt/day16-20261018/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf"
 raw_sha256: "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d"
-raw_storage_status: arxiv-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: []
 reactions: []
 observables: [linear-polarization, azimuthal-modulation, energy-spectrum, interaction-position]

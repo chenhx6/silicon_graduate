@@ -22,7 +22,8 @@ source_url: "https://www.epj-conferences.org/articles/epjconf/pdf/2015/12/epjcon
 raw_file: "raw/papers/day19-20261021/regis-2015-gcd-epjconf-01013.pdf"
 raw_sha256: "144c7bff23312b084a6f2cf3d389a0be887ca80b58d626a3fb7ae215448b7168"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
-analysis_status: verified-public-staging-readonly-analysis-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: verified-public-staging-readonly-analysis-raw-archive-verified
 public_staging_file: "tmp/day19-audit112/regis2015-gcd-public.pdf"
 license: CC-BY-4.0
 nuclei: [100Zr, 49Ti]

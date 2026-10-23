@@ -19,6 +19,8 @@ citation_key: ""
 canonical_source: https://doi.org/10.1103/PhysRevLett.112.202503
 raw_file: raw/papers/2014_Rather_106Ag.pdf
 raw_sha256: f2c4d8340087095ab2175bd9f319e1271c6187199c86faad0e2bf37d330ab006
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [106Ag]
 reactions: [96Zr(14N,4n)106Ag]
 methods: [doppler-shift-attenuation-method, lineshape-fitting, TPSM]

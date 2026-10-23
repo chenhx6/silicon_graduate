@@ -17,7 +17,8 @@ canonical_source: "JYX Research Report9/2011 ISBN9789513945565 targetedAl23/resp
 source_url: https://jyx.jyu.fi/jyx/Record/jyx_123456789_40105
 raw_file: raw/theses/day17-20261020/saastamoinen-2011-thesis.pdf
 raw_sha256: 53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Al, 23Mg, 22Na]
 reactions: [23Al-beta-delayed-proton-decay]
 methods: [beta-decay, gamma-spectroscopy, implanted-detector-response, background-subtraction]

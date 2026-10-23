@@ -20,7 +20,8 @@ canonical_source: "Jenkins et al PRL92 031101 2004 arxivastro-ph0312404v1"
 source_url: https://arxiv.org/abs/astro-ph/0312404v1
 raw_file: raw/papers/day17-20261020/jenkins-2004-mg23-arxiv-v1.pdf
 raw_sha256: d4c407ff4736dd9804498132fe526716726840ab818267a59793b203cfccbadd
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Mg, 23Na, 22Na]
 reactions: [12C(12C,n)23Mg]
 methods: [fractional-Doppler-shift, angular-correlation, gamma-gamma-coincidence, lifetime]

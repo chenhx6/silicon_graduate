@@ -21,7 +21,8 @@ canonical_source: "publisherPDF DOI10.1140/epja/i2015-15049-4, published28-Apr-2
 source_url: "https://link.springer.com/content/pdf/10.1140/epja/i2015-15049-4.pdf"
 raw_file: "raw/papers/gpt/day16-20261018/bizzeti2015-agata-polarimetry-46a0bc767d94.pdf"
 raw_sha256: "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c"
-raw_storage_status: publisher-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [104Pd, 108Pd, 137Cs]
 reactions: ["104Pd(12C,12C')104Pd", "108Pd(12C,12C')108Pd"]
 experiments: [LNL-AGATA-two-triple-clusters]

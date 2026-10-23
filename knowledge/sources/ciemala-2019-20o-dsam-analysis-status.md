@@ -24,6 +24,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/20o-2019-acta-dsam.pdf"
 raw_sha256: "2021d2e0cac8641d3816ec47c36ac41e2bff91504b857f0423ac5b805f94224b"
 raw_storage_status: reserved-unpopulated-public-publisher-copy-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=50&page=615"
 nuclei: [20o, 18o, 19o]
 reactions: [18O-181Ta-deep-inelastic]

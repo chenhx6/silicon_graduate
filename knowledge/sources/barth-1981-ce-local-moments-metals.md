@@ -21,7 +21,8 @@ source_url: "http://link.springer.com/content/pdf/10.1007/BF01022015.pdf"
 raw_file: "raw/papers/day20-20261022/barth-1981-ce-local-moments.pdf"
 raw_sha256: "dff4d09add2aeeb91302ca1b222cc0e3e7e7b280fe0095e097a2585e7b60cb15"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_file: "tmp/day20-barth107/PDFs/Local_moment_studies_of_isolated_Ce_IONS_in_liquid_and_solid_metals.pdf"
 license: not-established-from-tdm-metadata
 nuclei: [136Ce]

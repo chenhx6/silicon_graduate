@@ -20,6 +20,8 @@ citation_key: ""
 canonical_source: https://doi.org/10.1103/16y4-bggw
 raw_file: raw/papers/2026_Woodside_Fe58_collectivity_Coulex_Dsam.pdf
 raw_sha256: fddbd3b0de35b1b723c2bcb9959af4cf6c489a0d8e00f87e9126218acfec8d5a
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [56Fe, 58Fe, 60Fe]
 reactions: [56Fe+197Au, 58Fe+197Au, 55Mn(alpha,p-gamma)58Fe]
 methods: [Coulomb-excitation, Gosia, doppler-shift-attenuation-method, phase-convention]

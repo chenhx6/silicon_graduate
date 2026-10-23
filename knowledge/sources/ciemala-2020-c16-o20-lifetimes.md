@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/ciemala-2020-c16-o20-lifetimes.pdf"
 raw_sha256: "b3d93fffb158ac68f7b99d627fe81fe9588dbf316d9f6eea92eb5cfcc1af2962"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2002.04814v1"
 nuclei: [16c, 18o, 19o, 20o]
 methods: [doppler-correction, dsam, gamma-ray-tracking, velocity-reconstruction]

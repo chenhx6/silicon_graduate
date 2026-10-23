@@ -21,7 +21,8 @@ source_url: "https://link.aps.org/accepted/10.1103/PhysRevC.107.044314"
 raw_file: "raw/papers/day20-20261022/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf"
 raw_sha256: "4907cd6d64d74fe7aea247d9be1c3e056fb026d9b76e4385c69c3b8784917a96"
 raw_storage_status: reserved-unpopulated-accepted-manuscript-staging-only
-analysis_status: public-staging-original-read-raw-archive-deferred
+raw_archive_verified_at: 2026-10-23
+analysis_status: public-staging-original-read-raw-archive-verified
 public_staging_manifest: "tmp/day20-ge76-119/manifest.json"
 nuclei: [76Ge, 76Se, 208Pb]
 reactions: ["208Pb(76Ge,76Ge*)208Pb"]

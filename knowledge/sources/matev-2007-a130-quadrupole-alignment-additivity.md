@@ -21,6 +21,8 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.76.034304"
 citation_key: ""
 raw_file: "raw/papers/2007-Matev-A130-quadrupole-alignment-additivity.pdf"
 raw_sha256: 40d485c653f2016cd6dc38ef95a7694e9ced6d09458004039b5be92541d07586
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [131Ce, 128Ba, 142Sm]
 models: [cranked-Hartree-Fock, cranked-relativistic-mean-field, independent-particle-additivity]
 observables: [charge-quadrupole-moment, transition-quadrupole-moment, effective-alignment]

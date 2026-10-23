@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/senyigit-2014-agata-neutrons.pdf"
 raw_sha256: "cb796a846c155927d1f559a87a4772cd703904c2d6bdd81bcdde61a7dd06986c"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/1306.2788v1"
 nuclei: [70ge, 72ge, 74ge, 76ge, 27al]
 methods: [gamma-ray-tracking, neutron-gamma-discrimination, time-of-flight, doppler-correction]

@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/vandebrouck-2016-vamos-mwpc.pdf"
 raw_sha256: "66afd2c355fb3a6e4e507b9c369154f282e7a685848c0ad4110397b6c8d57e71"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/1512.08881"
 nuclei: [98zr]
 reactions: [238U-9Be-fission]

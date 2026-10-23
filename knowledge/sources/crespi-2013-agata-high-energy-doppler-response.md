@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/crespi-2013-agata-15mev.pdf"
 raw_sha256: "1334b31bac18e12c1ce887de43d2e74e6ec0d409d49e0dc5d5660db03ab5b983"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/1209.1188"
 nuclei: [12c]
 reactions: [d-11B-n-gamma-12C]

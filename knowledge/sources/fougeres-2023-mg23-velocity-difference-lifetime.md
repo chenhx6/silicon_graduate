@@ -20,7 +20,8 @@ canonical_source: "Fougeres et al NC144536 publisher main7p SI8p Figshare2266653
 source_url: https://www.nature.com/articles/s41467-023-40121-3
 raw_file: raw/papers/day17-20261020/fougeres-2023-mg23-publisher.pdf
 raw_sha256: 6652343310f238d7249654411a34713985bf4be73bd7e88d45cccd96158e0be7
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Mg, 22Na, 23Al]
 reactions: [3He(24Mg,alpha)23Mg]
 methods: [doppler-velocity-difference, lifetime, charged-particle-coincidence, gamma-tracking]

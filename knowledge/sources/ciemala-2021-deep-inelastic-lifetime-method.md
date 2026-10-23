@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/ciemala-2021-deep-inelastic-lifetime-method.pdf"
 raw_sha256: "b6b3e032000e50f7332bb05393b2b7b8759bf41eb31a43932857f96b212c3bd3"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2012.05180v1"
 nuclei: [13c, 17o, 18o, 19o, 20o]
 methods: [doppler-correction, dsam, monte-carlo-transport, velocity-unfolding]

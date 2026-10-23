@@ -23,7 +23,8 @@ canonical_source: "Garnsworthy et al., NIM A918,9-29(2019); actual body arxiv180
 source_url: "https://arxiv.org/pdf/1809.07183v2"
 raw_file: "raw/papers/gpt/day17/garnsworthy-2019-griffin-facility-arxiv-v2.pdf"
 raw_sha256: "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed"
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [60Ni, 207Pb, 56Fe, 66Zn, 198Tl]
 reactions: []
 experiments: [triumf-griffin-compton-source-calibration]

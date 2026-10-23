@@ -23,6 +23,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/lemasson-2023-fission-spectroscopy.pdf"
 raw_sha256: "f4213d54aacddaa7a5dd34a4e869fb9da2829000246078d48d5beac43a0111be"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/2306.10818v1"
 nuclei: [98zr, 96kr, 81ga, 84ge, 132te]
 methods: [doppler-correction, recoil-distance-doppler-shift, prompt-delayed-coincidence, isotopic-identification]

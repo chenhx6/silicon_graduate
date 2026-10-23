@@ -22,6 +22,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/akkoyun-2012-agata-overview.pdf"
 raw_sha256: "13882c8bb1dbebb02db5df3300f9cf5981a1ffb519b3731dab099647be168d8b"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/1111.5731v2"
 nuclei: []
 methods: [gamma-ray-tracking, pulse-shape-analysis, doppler-correction, compton-imaging]

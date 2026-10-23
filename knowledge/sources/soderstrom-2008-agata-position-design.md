@@ -19,6 +19,7 @@ citation_key:
 raw_file: "raw/papers/gpt/day13/soderstrom-2008-proceedings.pdf"
 raw_sha256: "6b1ba0ff312d264d600c827d6ee1e46860d31278dea08374455d2ad00b82d69e"
 raw_storage_status: reserved-unpopulated-public-preprint-only
+raw_archive_verified_at: 2026-10-23
 external_pdf_url: "https://arxiv.org/pdf/0812.0091v1"
 nuclei: [38ar, 49ti, 52cr, 86sr, 82kr, 142ce]
 methods: [gamma-ray-tracking, doppler-correction, position-resolution-calibration]

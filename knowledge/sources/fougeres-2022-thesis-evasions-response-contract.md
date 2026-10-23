@@ -17,7 +17,8 @@ canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapters3–6 and Appendices
 source_url: https://theses.hal.science/tel-03768524v1
 raw_file: raw/theses/day17-20261020/fougeres-2022-thesis.pdf
 raw_sha256: 4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1
-raw_storage_status: public-staging-verified-raw-archive-deferred
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
 nuclei: [23Mg, 24Mg, 28Si]
 reactions: [3He(24Mg,alpha)23Mg, 24Mg-fusion-evaporation]
 methods: [Monte-Carlo-response, gamma-lineshape, stopping, validation]
