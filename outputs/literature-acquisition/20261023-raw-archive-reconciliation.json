@@ -3,9 +3,9 @@
   "date": "2026-10-23",
   "scope": "all knowledge/sources raw_file entries",
   "source_pages_scanned": 379,
-  "archived_verified": 61,
+  "archived_verified": 62,
   "source_pages_updated": 61,
-  "unresolved_nonpaper_or_unavailable": 32,
+  "unresolved_nonpaper_or_unavailable": 31,
   "archived_items": [
     {
       "source_page": "akkoyun-2012-agata-instrument-response.md",
@@ -69,6 +69,14 @@
       "sha256": "46a0bc767d944c16cc728411ebbb819705fed8393a7e172e30bffe828efec53c",
       "bytes": 1373940,
       "verified": true
+    },
+    {
+      "source_page": "burgunder-2014-35si-two-body-spin-orbit.md",
+      "raw_file": "raw/papers/burgunder-2014-35si-two-body-spin-orbit.pdf",
+      "sha256": "c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef",
+      "bytes": 579645,
+      "verified": true,
+      "version": "publisher-final-PRL-2014"
     },
     {
       "source_page": "ciemala-2019-20o-dsam-analysis-status.md",
@@ -440,11 +448,6 @@
       "source_page": "alpaca-2023-v105-angular-correlation-code.md",
       "raw_file": "raw/software-reference/day16-20261018/alpaca-f173c2d2-81e377a81eaa.tar.gz",
       "sha256": "81e377a81eaa9a289b2ee6e3b8879d30ad82faf490e40677923521f7c9824daf"
-    },
-    {
-      "source_page": "burgunder-2014-35si-two-body-spin-orbit.md",
-      "raw_file": "raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf",
-      "sha256": "0b8e685c239f27c28447386b01fea03ede12ba6454a3d29ac8facaeba3bfa4b3"
     },
     {
       "source_page": "ekstrom-1993-delta101-angular-correlation-code.md",
