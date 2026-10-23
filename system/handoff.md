@@ -3,11 +3,15 @@ graph-excluded: true
 updated: 2026-10-23
 ---
 
-## 当前唯一执行入口 — Day20 checkpoint168 截止后收束
+## 当前唯一执行入口 — Day20正式卡完成，下一正式卡Day21
 
-同run2026-10-22-day-20-02/session01a16297-c78b-7083-899c-e3a0ac846a67。原15:00研究截止已实际到达，snapshot168-closeout为准；只做closeout，不新增研究或来源。Day20五行有界学习交付审计已完成；课程completed[]/partial[20,21]/next20仍待H3及一次迁移。153–166科学认证撤回；167原件身份/FINT/因果量词纠错已canonical回写，661原件/原receipt/PLAN/Bib/run01/flags核验通过。41页最终写回及post-overview lint/H3正在核验。无定时自动结课脚本、无新session/daemon、无Day22。
+# Day20正式卡与下一任务入口
 
-内容批次稳定指针：main + “Repair Day20 evidence and complete B(E2)-Qt deliverables”；精确hash与远端结果只保存在publication receipt。下一步：fresh内容检查通过后按显式ownership清单提交，执行H3与非force HEAD:main发布；其后单次推进Day20至next21，生成正式Day21准备文本并核验最终回执/发布。源数据、jointCov/producer仍未得，不称全部科学闭环。QMD外部缓存deferred。续接入口run02/continuation-current.md。
+同session01a16297-c78b-7083-899c-e3a0ac846a67；原2026-10-23 15:00研究截止已经实际到达。Day20只计一次completed[20]，partial[21]，next21/count20。内容H3/发布见publication-receipt-content-168.json，唯一迁移见card-credit-169.json；最终状态/hash/远端仅认final-session-receipt-169.json。此旧run只供回访讨论或送达记录，不重开研究窗口、不创建session/daemon、不打开Day22。
+
+当前稳定指针：main + “Finalize Day20 card audit and Day21 preparation”。153–166全科学认证撤回；167纠错与actual primary scopes保留，原review/flags、raw/PLAN/Bib/run01保持。缺originalevents/producer/jointCov；不宣称全部科学闭环。QMD缓存deferred。下一正式Day21由既有runner新receipt启动，先冻结primed回忆，按matrix完成口试评分、claim audit与weekly REFLECT，旧preview无学分。
+
+恢复讨论：codex resume 01a16297-c78b-7083-899c-e3a0ac846a67 -C /workspace/wiki -s danger-full-access -a never
 
 ## Active handoff — Day20 checkpoint167 证据认证纠错
 

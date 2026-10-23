@@ -4224,3 +4224,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-23T14:33:36.210148+08:00 Day20 checkpoint167：撤回153–166全科学/定时就绪认证，修订RME与FINT及机制量词，旧脚本原文归档后退役；实际时间门/学分/发布仍待完成。
 
 - 2026-10-23T07:03:41.325334+00:00 Day20原15:00硬截止已到，转入closeout-only；五行内容卡审计完成但未授分，41页最终写回/fresh lint/H3与一次迁移待核验。
+
+- 2026-10-23T15:27:52.378314+08:00 Day20内容通过H3并实际发布后，只执行一次card-credit-169：completed[20]/partial[21]/next21/count20；准备Day21新runner入口，旧科学认证不恢复。最终稳定指针main + Finalize Day20 card audit and Day21 preparation，精确hash仅回执保存。

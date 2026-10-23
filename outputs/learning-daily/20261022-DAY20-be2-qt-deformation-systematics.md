@@ -5,7 +5,7 @@ created: 2026-10-22
 updated: 2026-10-23
 ---
 
-# Day20：B(E2)、Qt与形变系统学（截止后收束）
+# Day20：B(E2)、Qt与形变系统学（正式Day20完成，证据边界保留）
 
 ## Run state
 
@@ -14,14 +14,15 @@ updated: 2026-10-23
 - schedule_id: wiki-daily-learning
 - timezone: Asia/Shanghai
 - run_date: 2026-10-22
-- status: closeout-verification
-- completed_day_indices: []
-- partial_day_indices: [20, 21]
-- next_day_index: 20
+- status: completed
+- completed_day_indices: [20]
+- Day 20 card audit: complete
+- partial_day_indices: [21]
+- next_day_index: 21
 - research_deadline: 2026-10-23T15:00:00+08:00
 - closeout_window_ends_at: 2026-10-23T16:00:00+08:00
 
-本run已按原receipt到达2026-10-23 15:00研究硬截止，现只做收束。checkpoint167撤回153–166过强认证，146/101及更早更正保持；原件阅读范围与条件分析主线保留。正式学分等待卡审计、fresh检查和H3通过后只迁移一次。完整历史报告保存在本run的report-history-before-109.json，旧文不再混入当前结论。
+本run已按原receipt到达2026-10-23 15:00研究硬截止，现只做收束。checkpoint167撤回153–166过强认证，146/101及更早更正保持；原件阅读范围与条件分析主线保留。内容已通过卡审计、fresh检查、H3及发布；card-credit-169记录正式Day20唯一学分迁移。完整历史报告保存在本run的report-history-before-109.json，旧文不再混入当前结论。
 
 Day19的final-session-receipt-116、card-credit-116和required-checks-final-116已复核：正式19完成，count19/next20，旧Day20仅无学分预习。本run沿runner-original-receipt.json与既有thread.started绑定identity；run-01未绑定stub不改、不发布。准备文本或clock queue均不创造session/执行时间。
 
@@ -41,7 +42,7 @@ Day21实际已打开的预览保留在partial中，旧满分/完成认证已撤�
 | 反证：gamma、带混合、feeding与技术响应 | [条件反例](20261022-DAY20-be2-qt-deformation-systematics-run-02/conditional-evidence-repair-result-101.json)、[混合反例](20261022-DAY20-be2-qt-deformation-systematics-run-02/mixing-response-result-007.json)、[167纠错](20261022-DAY20-be2-qt-deformation-systematics-run-02/evidence-scope-repair-result-167.json)；只证明可能退化，不确定原核真实机制或实验CI | complete |
 | lifetime/strength/deformation证据图 | 本报告Theory/analysis的推断链图、[canonical条件矩阵](../../knowledge/research-notes/day20-quadrupole-collectivity-systematics-synthesis.md)、[趋势图](20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/singh-present-qt-043.svg)与[图注](20261022-DAY20-be2-qt-deformation-systematics-run-02/figures-043/caption-043.md) | complete |
 
-内容行complete不等于课程状态已经推进；当前completed[]/partial[20,21]/next20保留至H3及一次迁移。
+内容已通过fresh核验与H3发布；card-credit-169记录本次唯一迁移：completed[20]、partial[21]、next21。Day21预习不计学分。
 
 ### Day20交付项检查点（历史范围索引）
 
@@ -52,18 +53,18 @@ Day21实际已打开的预览保留在partial中，旧满分/完成认证已撤�
 | 同带加权趋势 | literal-trend-result-001.json与literal-trend-rerun-101.json；图043 | 7个有限点分核拟合、5个限值保留；明确误差合同 |
 | 不可直接跨组态比较的条件 | [[high-spin-lifetime-strength-deformation]]、[[transition-quadrupole-moment]] | 核/带/态/分支/几何/fit角色/谱系分开 |
 | 反证与companion | 综合笔记及源页更正032–045、101–108 | γ、混合、feeding、技术响应与校准可产生退化；不宣称唯一成因 |
-| lifetime/strength/deformation证据图 | 下方图与canonical观测量页 | 已有可复现图；最终card/time/H3门仍待执行 |
+| lifetime/strength/deformation证据图 | 下方图与canonical观测量页 | 已有可复现图；正式Day20已在截止后经内容H3发布并只迁移一次 |
 
 ## Candidate pool and selection
 
-最新时间与决定以runtime-snapshot-167的实际观测为准。原receipt截止仍为2026-10-23 15:00 Asia/Shanghai；此次没有新session、daemon或授分。
+最新时间与决定以runtime-snapshot-final-169的实际观测为准。原receipt截止仍为2026-10-23 15:00 Asia/Shanghai；收束未新建session或daemon；学分只按card-credit-169迁移一次。
 
 | 当前路线 | 证据缺口及信息增益 | 下一步 |
 | --- | --- | --- |
 | 同核不同态的电磁矩比较 | 145误用模型Qcal与错误Singh单态；新原表足以改变结论 | 按IB98/Singh原表逐态身份；禁止Qs/Qt/Q0标量阶梯 |
 | Ge/Se刚软争议的测量对象 | 144把全宽当sigma；119低估实验不变量图范围 | 以Poves TableI与AY23 Fig10(a–c)分清范围/方差/实验误差/模型空间 |
 | 候选模式的反证 | 121–145自设输入不足以认实验或唯一模式 | 保留真实反方数据，逐带同态/分支/响应检查，不作硬阈值 |
-| 已开Day21预览 | 恰好下一卡的无学分预习 | 保持partial21，不推进22；目前仍有Day20高信息问题 |
+| 已开Day21预览 | 恰好下一卡的无学分预习 | 保持partial21，不推进22；原研究截止已到，遗留证据缺口移交后续正式运行 |
 
 局部饱和不结束整个窗口。少于90分钟不再开新来源/卡，15:00停止研究，15–16只收束。
 
@@ -1385,3 +1386,7 @@ checkpoint147 fresh机械检查见required-checks-147（0error/267warning/4043in
 ### checkpoint168：实际硬截止后的收束
 
 实际时间门已到达，原研究截止保持15:00，不回写成checkpoint提前截止。研究停止，仅做逐卡审计、41页精确writeback、fresh核验、H3、一次学分迁移与下一正式Day21准备。153–166科学认证、伪自动收束和旧passed字段不恢复。QMD缓存deferred；271条warning为citation key/raw占位及反应解析等既有治理缺口，不表示新实验证明或人审。
+
+### checkpoint169：唯一课程迁移与下一正式卡准备
+
+内容批次H3与实际非force发布见publication-receipt-content-168.json。其后仅一次推进正式Day20；Day21保留无学分预习，旧满分认证不恢复，不打开Day22。最终稳定指针为main + “Finalize Day20 card audit and Day21 preparation”；精确hash、远端对账和session状态只看final-session-receipt-169.json。科学未决仍是原events/producer/jointCov、有限网络和模型识别边界，不借课程完成宣称全部科学闭环。
