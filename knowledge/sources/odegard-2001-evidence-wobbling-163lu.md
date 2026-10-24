@@ -35,6 +35,8 @@ tags: [experiment-ingest, wobbling, triaxial-superdeformation, high-spin, luteti
 
 # Evidence for the Wobbling Mode in Nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 PRL 86, 5866-5869 (2001), DOI `10.1103/PhysRevLett.86.5866`. The PDF title, DOI and BibTeX key `odegard_2001_EvidenceWobbling` were checked against the first page before ingest.
@@ -170,3 +172,11 @@ Page-level review is complete for this ingest round. Claim-level `needs_review` 
 ## Non-source Notes and Follow-up
 
 Retain Fig. 5 and Table I as the first user-review targets; do not transfer this high-spin approximation regime automatically.
+
+## Day 21 Checkpoint 023 证据门量化审计：163Lu 单声子摇摆模式线偏振排他确证
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint023_lu163_wobbling_phonon_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lu163-wobbling-phonon-audit-023.json），对 Ødegård 2001 的单声子摇摆实验完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| OD01-D21-1 | 依据推断阶梯审计，Ødegård 2001 确立了核物理中唯一通过偏振检验的真正集体单声子摇摆基准：(1) 线偏振排他选解：DCO 与实测正偏振 P>0 唯一排除了小模解，锁定了大模解 delta = -3.10(+0.36/-0.44)，确立 90.6(13)% E2 跃迁优势；(2) 巨大带间电四极跃迁几率：B(E2_out)/B(E2_in) = 0.22(3)，对应 B(E2_out) ~ 25–35 W.u.，超单粒子跃迁数十倍；(3) 确立“带间 E2 优势必须依赖线偏振独立排除小模解”的核心证据门准则。 | source-result-and-criterion | direct-and-boundary | pp.5866-5869, Table I, Figs.2, 5; lu163-wobbling-phonon-audit-023.json | true |

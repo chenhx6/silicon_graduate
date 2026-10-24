@@ -1,0 +1,132 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 030 深度攻坚：** 深入攻克多普勒频移衰减法（DSAM）与反冲距离活塞法（RDDS）寿命测量推断阶梯边界（Nolan & Sharpey-Schafer 1979 Rep. Prog. Phys. 42）；运行独立量化审计程序 " + B + "day21_checkpoint030_dsam_stopping_feeding_audit.py" + B + " 产出 " + B + "dsam-stopping-feeding-audit-030.json" + B + "；以 $^{134}\\text{Nd}$ 在 Au 衬底中的反冲减速为基准，定量证明：(1) 宏观阻止本领 $dE/dx$ 的 $10\\%–15\\%$ 理论模型差量直接线性映射为提取寿命 $\\tau$ 的 $10\\%–15\\%$ 全局标度漂移，并导致 $B(E2)$ 产生 $15\\%$ 标度误差及内禀四极矩 $Q_t$ 产生 $7.5\\%$ 误差；(2) 重离子熔合蒸发反应中未识别的侧馈延迟（$\\tau_{\\text{feed}} \\sim 0.1\\text{ ps}$）可使短寿命高自旋态（$\\tau_{\\text{true}} = 0.05\\text{ ps}$）表观寿命虚假膨胀 $200\\%$，人为伪造出 $66.7\\%$ 的 $B(E2)$ 假象塌缩，证明确证高自旋四极矩必须依靠纯上方符合门（Gate-from-above）；(3) RDDS 活塞 $2–5\\ \\mu\\text{m}$ 机械零点误差引入 $0.33–0.83\\text{ ps}$ 系统失真，必须依靠微分衰变曲线法（DDCM）消除端点依赖；确立“严禁在未评估阻止本领系统误差包络前断言高自旋形变塌缩”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 029 深度攻坚：**"
+if target_rs in text and "Checkpoint 030 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 33 under Sources and evidence
+sec33 = """### 33. Nolan & Sharpey-Schafer 1979：激发态核寿命测量（DSAM/RDDS）、阻止本领系统尺度与侧馈延迟推断阶梯边界
+
+在在束 $\\gamma$ 谱学中，多普勒频移衰减法（DSAM，$10^{-14} - 10^{-12}\\text{ s}$）与反冲距离活塞法（RDDS，$10^{-12} - 10^{-9}\\text{ s}$）是测定核激发态微观寿命与反演约化电四极跃迁几率 $B(E2)$ 及跃迁四极矩 $Q_t$ 的两大核心支柱。从推断阶梯第一/二层（多普勒谱线形展宽与频移比值 $F(\\tau)$、完全频移/未频移峰面积 $I_u(x), I_s(x)$）向第三/四层（微观能级绝对寿命 $\\tau$ 与内禀形变参数 $\\beta_2$）的反演，是低能核物理中极易受宏观阻停介质模型与退激前序级联复杂性干扰的经典技术边界（Nolan & Sharpey-Schafer 1979 Rep. Prog. Phys. 42, 1–87，[[nolan-sharpey-schafer-1979-lifetime-measurements]]）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–4）：**
+  在 DSAM 中，实验将质心频移比值 $F(\\tau) = \\frac{\\langle E_\\gamma \\rangle - E_0}{E_0 \\beta_0 \\cos \\theta}$ 通过反冲离子在衬底介质中的减速方程 $v(t)$ 映射为平均寿命 $\\tau$；在 RDDS 中，通过改变靶到阻挡箔（stopper）的机械距离 $x$，利用微分衰变曲线法（DDCM）解算寿命：
+  $$\\tau(x) = \\frac{I_u(x) - \\frac{b_B}{b_A} I_{u, \\text{feed}}(x)}{\\frac{d}{dx} I_s(x)} \\cdot \\frac{1}{v}$$
+  虽然这两种方法构成了核结构电磁跃迁几率数据库（ENSDF）的基础，但三项不可忽略的系统性效应构成了推断阶梯的严密边界。
+- **推断阶梯漏洞剖析：**
+  1. **宏观阻止本领（$dE/dx$）理论模型差量对四极形变的全局标度漂移：**
+     DSAM 寿命测量本质上是以反冲离子在致密介质（如 Au、Pb 或衬底）中的电子与核阻止本领为微观参考“时钟”。不同的宏观阻止本领理论（如 Lindhard LSS、Northcliffe-Schilling 表格与 Ziegler SRIM）在重离子速度区间（$\\beta_0 \\sim 0.01 - 0.03$）存在普遍高达 **$10\\% - 15\\%$ 的系统性模型差异**。由于减速特征时间 $\\alpha_0 \\propto 1/(dE/dx)$，电子阻止本领 $15\\%$ 的未识别系统低估将直接导致全带提取寿命 $\\tau$ 被系统性**高估 $15\\%$**，进而导致提取的跃迁几率 $B(E2) \\propto 1/\\tau$ 被人为压低 $15\\%$，内禀四极矩 $Q_t \\propto \\sqrt{B(E2)}$ 被虚假压缩 $7.5\\%$！这是跨实验室 DSAM 寿命定量比较中不可逾越的共同系统不确定度包络；
+  2. **未识别快侧馈（Side-Feeding）延迟对高自旋微弱态寿命的致命伪影：**
+     在重离子熔合蒸发反应中，高自旋态主要由准连续谱的复杂能带通过侧馈路径喂居。若分析人员采用简单的瞬发侧馈假设（$\\tau_{\\text{feed}} \\approx 0$）或单步唯象参数，未被探测到的慢侧馈级联（如微弱的四极振动或短寿命同质异能延迟，$\\tau_{\\text{feed}} \\sim 0.1\\text{ ps}$）将显著拖慢表观质心速度。对于真实寿命极短的高自旋态（如 $\\tau_{\\text{true}} = 0.05\\text{ ps}$），仅仅 $0.1\\text{ ps}$ 的侧馈延迟就会使提取的表观寿命暴增至 **$0.15\\text{ ps}$（虚假放大 $200\\%$）**，使得导出的 $B(E2)$ 发生 **$66.7\\%$ 的虚假塌缩**！这极易被错误解读为高自旋下的“能带过早终止”或“四极形变突然丧失”；排除此伪影的唯一排他性手段是采用上方纯级联跃迁符合门（Gate-from-above），完全切断侧馈分支；
+  3. **RDDS 活塞机械零点偏移（$\\Delta x_0$）与微分曲线斜率发散：**
+     在反冲活塞法中，微米级靶—阻挡箔间距受箔片表面平整度、微观热膨胀或静电吸附影响，其实际接触零点常存在 $\\Delta x_0 \\sim 1 - 5\\ \\mu\\text{m}$ 的机械误差。在反冲速度 $v \\approx 6\\ \\mu\\text{m/ps}$ 下，$2 - 5\\ \\mu\\text{m}$ 的零点漂移相当于引入了 $0.33 - 0.83\\text{ ps}$ 的系统时钟失真。若脱离 DDCM 局部斜率分析而直接拟合总衰变曲线，提取出的皮秒寿命将在短距离处出现严重的非物理发散。
+- **证据门准则：**
+  1. **严禁在未指明所采用电子/核阻止本领表（$dE/dx$，如 SRIM/Northcliffe-Schilling）及其理论不确定度包络（通常 $10%–15%$）的前提下，将 DSAM 寿命用于高精度宏观四极形变定量裁决**；阻止本领系统误差直接线性传递为 $B(E2)$ 与 $Q_t$ 的全局标度漂移；
+  2. **在重离子熔合蒸发反应中提取超短皮秒能级寿命时（$\\tau < 0.2\\text{ ps}$），严禁使用未经前序态符合门（Gate-from-above）排除的包络时间谱**；未识别的侧馈延迟（$\\tau_{\\text{feed}} \\sim 0.1\\text{ ps}$）可将表观寿命虚假放大 $2–4$ 倍，人为伪造出“高自旋四极集体性塌缩”的假象；
+  3. **在反冲距离活塞法（RDDS）寿命提取中，必须采用微分衰变曲线法（DDCM）消除对总衰变曲线端点归一化与活塞绝对接触零点（$\\Delta x_0$）的依赖**，严禁在未扣除前序喂居分支前直接按单指数斜率解算能级寿命。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 33. Nolan & Sharpey-Schafer 1979" not in text:
+    text = text.replace(target_theory, sec33 + "\n\n" + target_theory)
+
+# 3. Add Section 31 under Theory/analysis exercise
+sec_ex31 = """### 31. Checkpoint 030 量化审计程序与 DSAM 阻止本领及侧馈延迟敏感度核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint030_dsam_stopping_feeding_audit.py" + B + """，对 $^{134}\\text{Nd}$（$Z=60, v_0 = 0.020c$，Au 衬底）在 DSAM 与 RDDS 下的阻止本领灵敏度、侧馈延迟与活塞机械零点展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/dsam-stopping-feeding-audit-030.json" + B + """：
+
+1. **电子阻止本领 $dE/dx$ 模型差量对形变参数的全局标度传递：**
+   - 设定真寿命 $\\tau_{\\text{true}} = 0.200\\text{ ps}$，有效减速时间 $\\alpha_0 = 1.0\\text{ ps}$；
+   - 阻止本领系统变动 $\\pm 15\\%$ 时，提取的表观寿命严格反比漂移为 $0.230\\text{ ps}$（$+15.0\\%$）与 $0.170\\text{ ps}$（$-15.0\\%$）；
+   - 导出的跃迁几率 $B(E2)$ 发生反向 $15\\%$ 标度漂移（$0.8696$ 与 $1.1765$ 倍），跃迁四极矩 $Q_t$ 发生 $\\pm 7.5\\%$ 的全局系统漂移（$0.9325$ 与 $1.0847$ 倍）；
+   - 量化确立了 DSAM 提取的绝对形变必然承载介质阻止本领的系统性理论包络。
+2. **未识别快侧馈延迟（$\\tau_{\\text{feed}} = 0.10\\text{ ps}$）对高自旋短寿命态的放大畸变：**
+   - 当 $\\tau_{\\text{true}} = 0.05\\text{ ps}$ 时，表观寿命被拖长至 $0.15\\text{ ps}$（高估达 **$200.0\\%$**），导致导出的 $B(E2)$ 被人为抑制 **$66.7\\%$**（$Q_t$ 伪塌缩 $42.3\\%$）；
+   - 当 $\\tau_{\\text{true}} = 0.10\\text{ ps}$ 时，表观寿命高估 $100.0\\%$，$B(E2)$ 伪塌缩 $50.0\\%$；
+   - 证明脱离前序态纯符合门（Gate-from-above）的包络谱拟合极易将侧馈延迟误判为“核芯高自旋集体性塌缩”。
+3. **RDDS 活塞机械零点误差（$\\Delta x_0$）对时间响应的失真：**
+   - 在 $v = 6.0\\ \\mu\\text{m/ps}$ 下，$\\Delta x_0 = \\pm 2.0\\ \\mu\\text{m}$ 引入 $\\pm 0.333\\text{ ps}$ 时间零点漂移；$\\Delta x_0 = \\pm 5.0\\ \\mu\\text{m}$ 引入 $\\pm 0.833\\text{ ps}$ 漂移；
+   - 在真实寿命 $\\tau = 2.0\\text{ ps}$ 时，初期衰变斜率畸变率高达 **$16.7\\% - 41.7\\%$**，确立了采用 DDCM 局部斜率差分消除绝对零点依赖的技术必要性。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 31. Checkpoint 030 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex31 + "\n\n" + target_ce)
+
+# 4. Add Section 27 under Counter-evidence
+sec_ce27 = """### 27. DSAM/RDDS 寿命对阻止本领标度漂移与未识别侧馈延迟的排他性证伪判据
+
+- **高自旋电四极跃迁强度“突然塌缩”假说的排他性排查：**
+  若实验声称高自旋转动带顶端发生 $B(E2)$ 剧烈猝灭或能带突然终止，必须排查寿命提取中是否使用了总能谱或下方跃迁门（Gate-from-below）；若未采用严格的上方符合门（Gate-from-above）排除侧馈，且提取寿命处于 $\\tau \\le 0.1\\text{ ps}$ 敏感区，其形变塌缩结论被直接排他性证伪，该塌缩极可能是未解出的 $0.1\\text{ ps}$ 侧馈延迟人为制造的伪影。
+- **跨实验室 DSAM 四极形变微小差量的排他性判决门限：**
+  若两个独立实验对同一原子核能带报告的跃迁四极矩 $Q_t$ 存在 $< 10\\%$ 的微小分歧，若两组分析采用了不同的阻止本领数据库（如 Northcliffe-Schilling 对比 Ziegler SRIM），在未统一阻停截面基准前，严禁宣称发现核结构形状相变或新物理效应；该差量排他性归属于宏观阻止本领的系统性模型差量。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 27. DSAM/RDDS 寿命对阻止本领标度漂移" not in text:
+    text = text.replace(target_ki, sec_ce27 + "\n\n" + target_ki)
+
+# 5. Add Decision 21 under Knowledge Impact
+dec21 = """21. **Nolan & Sharpey-Schafer 1979 Rep. Prog. Phys.（核寿命测量 DSAM/RDDS 证据边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在低能核物理中利用反冲多普勒频移衰减法（DSAM）与反冲活塞法（RDDS）测定皮秒和飞秒级微观激发态寿命的标准谱学体系；澄清并严格限制了 DSAM 绝对形变结论的独立性，定量证明宏观阻止本领 $dE/dx$ 的 $10\\%–15\\%$ 理论误差直接传递为 $B(E2)$ 与 $Q_t$ 的全局标度漂移；修正了在重离子熔合反应中忽略侧馈延迟的定性做法，确立了未识别侧馈可将表观寿命虚假放大 $2–4$ 倍并伪造高自旋四极塌缩假象的物理机制，以及采用上方符合门（Gate-from-above）和 DDCM 的标准证据门规范；
+   - 持久化产物：更新 [[nolan-sharpey-schafer-1979-lifetime-measurements]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Nolan & Sharpey-Schafer 1979 Rep. Prog. Phys." not in text:
+    text = text.replace(target_dkd, dec21 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+      "summary": "DSAM阻止本领系统尺度、侧馈延迟与RDDS活塞零点推断阶梯边界审计。",
+      "anchor": "checkpoint030：DSAM 阻止本领系统尺度、侧馈延迟与 RDDS 活塞零点推断阶梯边界审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "BIZ15-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "BIZ15-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "NS79-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要 DSAM 测出的能谱多普勒线形拟合良好，提取出的跃迁四极矩 $Q_t$ 就是绝对精确的核结构不变量，且高自旋态寿命延长必然代表形变减小；
+   - **新信念：** 认识到 DSAM 寿命全局承载宏观阻止本领（$dE/dx$）$10%–15%$ 的理论模型系统误差；重离子熔合反应中微小的 $0.1	ext{ ps}$ 侧馈延迟可将 $0.05	ext{ ps}$ 真实寿命虚假放大 $3$ 倍并伪造 $67%$ 的 $B(E2)$ 塌缩假象；确证高自旋形变必须依赖纯上方门（Gate-from-above）切断侧馈并声明阻止本领系统不确定度包络。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "DSAM 测出的能谱多普勒线形拟合良好" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 030 successfully.")

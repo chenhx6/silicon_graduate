@@ -1,0 +1,91 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"source\": \"openalex\",\n  \"total\": 126,\n  \"results\": [\n    {\n      \"title\": \"Spin Selectivity in Photoinduced Charge-Transfer Mediated by Chiral Molecules\",\n      \"doi\": \"https://doi.org/10.1021/acsnano.9b01876\",\n      \"year\": 2019,\n      \"authors\": [\n        \"John M. Abendroth\",\n        \"Dominik M. Stemer\",\n        \"Brian P. Bloom\",\n        \"Partha Roy\",\n        \"Ron Naaman\",\n        \"David H. Waldeck\",\n        \"Paul S. Weiss\",\n        \"Prakash Chandra Mondal\"\n      ],\n      \"journal\": \"ACS Nano\",\n      \"cited_by_count\": 148,\n      \"open_access_url\": \"https://www.osti.gov/servlets/purl/1604944\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Eta photoproduction as a test of the extended chiral symmetry\",\n      \"doi\": \"https://doi.org/10.1016/j.physletb.2007.06.049\",\n      \"year\": 2007,\n      \"authors\": [\n        \"César Fernández Ramírez\",\n        \"E. Moya de Guerra\",\n        \"José Manuel Udías\"\n      ],\n      \"journal\": \"Physics Letters B\",\n      \"cited_by_count\": 11,\n      \"open_access_url\": \"https://www.sciencedirect.com/science/article/pii/S0370269307006685/pdf\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"[Electroweak and other interactions in medium-energy nuclear physics]. Progress report\",\n      \"doi\": \"https://doi.org/10.2172/10108198\",\n      \"year\": 1993,\n      \"authors\": [\n        \"Nimai C. Mukhopadhyay\",\n        \"USDOE, Washington, DC (United States)\"\n      ],\n      \"journal\": null,\n      \"cited_by_count\": 0,\n      \"open_access_url\": \"https://www.osti.gov/servlets/purl/10108198\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Medium energy nuclear physics research\",\n      \"doi\": \"https://doi.org/10.2172/5106840\",\n      \"year\": 1992,\n      \"authors\": [\n        \"Gerald A. Peterson\",\n        \"J. Dubach\",\n        \"R. S. Hicks\",\n        \"Rory Miskimen\"\n      ],\n      \"journal\": null,\n      \"cited_by_count\": 0,\n      \"open_access_url\": \"https://www.osti.gov/servlets/purl/5106840\",\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Quantum Composites: A Review, and New Results for Models for Condensed Matter Nuclear Science\",\n      \"doi\": \"https://doi.org/10.70923/001c.72407\",\n      \"year\": 2016,\n      \"authors\": [\n        \"Peter L. Hagelstein\"\n      ],\n      \"journal\": \"Journal of Condensed Matter Nuclear Science\",\n      \"cited_by_count\": 16,\n      \"open_access_url\": \"https://jcmns.org/article/72407.pdf\",\n      \"source\": \"openalex\"\n    }\n  ]\n}"
+      }
+    ],
+    "structuredContent": {
+      "source": "openalex",
+      "total": 126,
+      "results": [
+        {
+          "title": "Spin Selectivity in Photoinduced Charge-Transfer Mediated by Chiral Molecules",
+          "doi": "https://doi.org/10.1021/acsnano.9b01876",
+          "year": 2019,
+          "authors": [
+            "John M. Abendroth",
+            "Dominik M. Stemer",
+            "Brian P. Bloom",
+            "Partha Roy",
+            "Ron Naaman",
+            "David H. Waldeck",
+            "Paul S. Weiss",
+            "Prakash Chandra Mondal"
+          ],
+          "journal": "ACS Nano",
+          "cited_by_count": 148,
+          "open_access_url": "https://www.osti.gov/servlets/purl/1604944",
+          "source": "openalex"
+        },
+        {
+          "title": "Eta photoproduction as a test of the extended chiral symmetry",
+          "doi": "https://doi.org/10.1016/j.physletb.2007.06.049",
+          "year": 2007,
+          "authors": [
+            "César Fernández Ramírez",
+            "E. Moya de Guerra",
+            "José Manuel Udías"
+          ],
+          "journal": "Physics Letters B",
+          "cited_by_count": 11,
+          "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0370269307006685/pdf",
+          "source": "openalex"
+        },
+        {
+          "title": "[Electroweak and other interactions in medium-energy nuclear physics]. Progress report",
+          "doi": "https://doi.org/10.2172/10108198",
+          "year": 1993,
+          "authors": [
+            "Nimai C. Mukhopadhyay",
+            "USDOE, Washington, DC (United States)"
+          ],
+          "journal": null,
+          "cited_by_count": 0,
+          "open_access_url": "https://www.osti.gov/servlets/purl/10108198",
+          "source": "openalex"
+        },
+        {
+          "title": "Medium energy nuclear physics research",
+          "doi": "https://doi.org/10.2172/5106840",
+          "year": 1992,
+          "authors": [
+            "Gerald A. Peterson",
+            "J. Dubach",
+            "R. S. Hicks",
+            "Rory Miskimen"
+          ],
+          "journal": null,
+          "cited_by_count": 0,
+          "open_access_url": "https://www.osti.gov/servlets/purl/5106840",
+          "source": "openalex"
+        },
+        {
+          "title": "Quantum Composites: A Review, and New Results for Models for Condensed Matter Nuclear Science",
+          "doi": "https://doi.org/10.70923/001c.72407",
+          "year": 2016,
+          "authors": [
+            "Peter L. Hagelstein"
+          ],
+          "journal": "Journal of Condensed Matter Nuclear Science",
+          "cited_by_count": 16,
+          "open_access_url": "https://jcmns.org/article/72407.pdf",
+          "source": "openalex"
+        }
+      ]
+    },
+    "isError": false
+  }
+}

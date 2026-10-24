@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint099_phase_space_scope.py",
+    "system/scripts/day21_checkpoint102_logft_contract.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "phase-space-scope-099.json, logft-calculator-result-102.json",
+  "scope": "deep synchronization of gamow-teller-strength concept layer with 100Sn phase space integration, partial half-life sensitivity and NNDC input contract; not new experimental CI"
+}

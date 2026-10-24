@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint112_prm_chiral_geometry_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "prm-geometry-scope-112.json",
+  "scope": "literal audit of irrotational moments of inertia, triaxial orthogonal geometry and interband E2 underestimation in Qi 2009; not PRM code replay or experimental CI"
+}

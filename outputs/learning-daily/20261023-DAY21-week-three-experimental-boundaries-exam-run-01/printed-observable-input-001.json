@@ -1,0 +1,103 @@
+{
+  "transcription_scope": "Mutschler2017 arXiv1707.03583v1 Fig2 and Methods Eq1; Yao2012 arXiv1205.2262v1 TableI/TableII Eq9; visually checked",
+  "knockout": {
+    "source": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+    "locator": "Fig.2",
+    "inclusive_mb": "27.7",
+    "inclusive_locator": "Methods Eq.(1)",
+    "states": [
+      {
+        "state_keV": 2101,
+        "population_percent": "1.5"
+      },
+      {
+        "state_keV": 3704,
+        "population_percent": "1.4"
+      }
+    ],
+    "occupancy_34": "0.17",
+    "extra_assigned_occupancy_34": "0.07",
+    "occupancy_36": "1.7",
+    "occupancy_locator": "PDF p.2"
+  },
+  "density_tables": [
+    {
+      "source": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+      "table": "Table I",
+      "object": "point-proton",
+      "density_half_rounding_step": "0.0005",
+      "F_half_rounding_step": "0.005",
+      "rows": [
+        {
+          "state": "HF",
+          "center": ".044",
+          "maximum": ".074",
+          "F_printed": ".41"
+        },
+        {
+          "state": "HFB+LN",
+          "center": ".050",
+          "maximum": ".074",
+          "F_printed": ".32"
+        },
+        {
+          "state": "N&Z",
+          "center": ".047",
+          "maximum": ".074",
+          "F_printed": ".36"
+        },
+        {
+          "state": "N&Z,J=0",
+          "center": ".051",
+          "maximum": ".073",
+          "F_printed": ".30"
+        },
+        {
+          "state": "GCM(g.s.)",
+          "center": ".057",
+          "maximum": ".073",
+          "F_printed": ".21"
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+      "table": "Table II",
+      "object": "folded-charge",
+      "density_half_rounding_step": "0.0005",
+      "F_half_rounding_step": "0.005",
+      "rows": [
+        {
+          "state": "HF",
+          "center": ".056",
+          "maximum": ".071",
+          "F_printed": ".21"
+        },
+        {
+          "state": "HFB+LN",
+          "center": ".060",
+          "maximum": ".071",
+          "F_printed": ".16"
+        },
+        {
+          "state": "N&Z",
+          "center": ".058",
+          "maximum": ".071",
+          "F_printed": ".18"
+        },
+        {
+          "state": "N&Z,J=0",
+          "center": ".060",
+          "maximum": ".070",
+          "F_printed": ".14"
+        },
+        {
+          "state": "GCM(g.s.)",
+          "center": ".064",
+          "maximum": ".070",
+          "F_printed": ".09"
+        }
+      ]
+    }
+  ]
+}

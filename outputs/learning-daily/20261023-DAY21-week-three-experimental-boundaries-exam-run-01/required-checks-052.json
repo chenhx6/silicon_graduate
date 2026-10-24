@@ -1,0 +1,85 @@
+{
+  "lint": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json",
+      "--output",
+      "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lint-052.json"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "counts": {
+      "warning": 214,
+      "info": 4182
+    },
+    "errors": [],
+    "warning_categories": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 178,
+      "RAW_MISSING": 32
+    }
+  },
+  "boundary": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n"
+  },
+  "diff": {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "writeback": {
+    "argv": [
+      "python3",
+      "system/scripts/validate_writeback_items.py"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"valid\": true,\n  \"items\": 90,\n  \"status\": \"updated\",\n  \"scope\": \"structure, atomic references and changed-page presence only; not source truth or experimental CI\",\n  \"errors\": []\n}\n"
+  },
+  "exercise": {
+    "argv": [
+      "python3",
+      "system/scripts/day21_checkpoint052_nd135_followup_contract.py"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\"output\": \"outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/followup-line-contract-052.json\", \"central_energy_closures\": 7, \"scope\": \"printed line identities, energy closure, conditional central algebra only\"}\n"
+  },
+  "reproduce051": {
+    "argv": [
+      "python3",
+      "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/reproduce-small-amplitude-051.py"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"scope\": \"kinematics only; no actual RPA correction or CI\",\n  \"rotation\": [\n    {\n      \"angle_degrees\": 1,\n      \"exact\": 0.03489949670250097,\n      \"linear\": 0.03490658503988659,\n      \"relative_excess_over_exact\": 0.00020310715211868668,\n      \"Cartesian_minus_rank2\": 0.0\n    },\n    {\n      \"angle_degrees\": 5,\n      \"exact\": 0.17364817766693033,\n      \"linear\": 0.17453292519943295,\n      \"relative_excess_over_exact\": 0.00509505797521026,\n      \"Cartesian_minus_rank2\": 0.0\n    },\n    {\n      \"angle_degrees\": 10,\n      \"exact\": 0.3420201433256687,\n      \"linear\": 0.3490658503988659,\n      \"relative_excess_over_exact\": 0.020600269342874178,\n      \"Cartesian_minus_rank2\": -5.551115123125783e-17\n    },\n    {\n      \"angle_degrees\": 30,\n      \"exact\": 0.8660254037844386,\n      \"linear\": 1.0471975511965976,\n      \"relative_excess_over_exact\": 0.20919957615614515,\n      \"Cartesian_minus_rank2\": 0.0\n    },\n    {\n      \"angle_degrees\": 40,\n      \"exact\": 0.984807753012208,\n      \"linear\": 1.3962634015954636,\n      \"relative_excess_over_exact\": 0.417803015182147,\n      \"Cartesian_minus_rank2\": -1.1102230246251565e-16\n    }\n  ],\n  \"recovered_depsilon_over_epsilon\": 0.004999999999999999,\n  \"recovered_dgamma\": 0.002,\n  \"Jacobian_determinant\": -0.8\n}\n"
+  },
+  "native_writeback": {
+    "valid": true,
+    "exit_code": 0,
+    "referenced_paths": 91,
+    "changed_paths": 90,
+    "error": null
+  },
+  "at": "2026-10-23T13:47:21.477092+00:00",
+  "scientific_certification": false,
+  "credit_applied": false,
+  "publication": false
+}

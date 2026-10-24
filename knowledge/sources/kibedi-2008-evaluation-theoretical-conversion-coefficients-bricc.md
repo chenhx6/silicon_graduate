@@ -31,6 +31,8 @@ tags: [internal-conversion, bricc, uncertainty-propagation, mixing-ratio, ensdf]
 
 # Kibedi et al. (2008): BrIcc Theoretical Conversion Coefficients
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 T. Kibedi et al., *Nuclear Instruments and Methods in Physics Research Section A* **589**(2), 202--229 (2008), DOI `10.1016/j.nima.2008.02.051`, citation key `kibedi_2008_Evaluationtheoretical`.
@@ -470,3 +472,9 @@ HTTP200与offline数值校验分开：核Z/element/energy/multipole/dataset/vers
 | KB08-D16-5 | 新Z74/E168.71/BrIccFO pureM1/E2实际返回Tot1.073(.015)/.553(.008)、K.891(.013)/.265(.004)，v2.3(2011)；所列shell数值齐全/无warning，与920.8能区N6/N7缺值边界分开。是nominaltheoryinput，不是独立measuredICC或A178专用重算。 | versioned-official-total-conversion-input | direct-online-theory-object | https://bricc.anu.edu.au/；DAY16-W178-168P71-UNOBSERVED-IC-01的M1/E2响应Tot/K行 | true |
 
 HTTP SHA256 M1=`04e1dcc22d60fa663faadfca5f575a60d2f78fa0f246c0b84c6323df6a137494`、E2=`d6a3a1a7c9712a7a4429751ee640bd0dea05c27a13f4f366e2d3e49d3594298d`；raw只在repo tmp，不改旧query或rawarchive。[[internal-conversion-analysis]]保存完全未观测/光子选择两样本的权重和W178有界设计；没有新测delta或加一项samegate实验。
+
+## checkpoint028：内转换系数多极混合比反演、核穿透效应（lambda）与误差传递审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KB08-D21-1 | 依据 BrIcc 评估理论对 178W（920.8 keV，Z=74）内转换系数与多极混合比 delta 反演展开代数审计证明：(1) 内转换系数仅依赖 delta^2，对混合比正负代数符号完全不敏感，无法单独消除角分布干涉项中的符号简并；(2) 在强阻退 M1 跃迁中，核动态穿透效应（穿透参数 lambda 在 [-10, 20]）可使表观 alpha_K 偏离标准 BrIcc 网格达 0.73 至 2.17 倍；忽略穿透效应而强行套用标准表反演，将误判高达 48% 的假 E2 混合或产生非物理负平方 delta^2 < 0；(3) 反演导数在纯极性端点（delta -> 0）发生奇点发散，必须传播 BrIcc 1.4% 理论系统误差并排查非高斯置信限。 | internal-conversion-penetration-boundary | direct-original-and-quantitative-audit | pp.202–229 Sec.3.4, Sec.4.1.2; internal-conversion-bricc-audit-028.json | true |

@@ -33,6 +33,8 @@ tags: [shape-coexistence, shell-evolution, E0, E2, review]
 
 # Shape coexistence in atomic nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - K. Heyde and J. L. Wood, *Reviews of Modern Physics* **83**, 1467–1521 (2011), DOI `10.1103/RevModPhys.83.1467`。
@@ -92,3 +94,10 @@ Low-lying 0+ states, E0 strengths or B(E2) changes can also arise from pairing, 
 
 - Concepts: [[triaxial-shape-coexistence]], [[octupole-deformation]]。
 - Projects: [[a130-high-spin-collective-modes-evidence-map]]。
+## Day21周考推断阶梯审计：形状共存、E0单极跃迁与多态混合推断边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint009_shape_coexistence_e0_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/shape-coexistence-e0-audit-009.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HW11-D21-1 | Heyde & Wood 2011 形状共存综述确立了推断阶梯上关于“低激发多 $0^+$ 态向静态孤立形变过度推断”的严密证据门：$^{186}\text{Pb}$ 中观测到的三 $0^+$ 能级（0, 532, 650 keV）在非对角相互作用（$V \sim 50-100\text{ keV}$）下发生强烈波函数混合（基态含约 $28\%$ 变形成分，各激发态含 $20\%-35\%$ 异形杂质），绝非孤立的静态三形状；电单极跃迁强度 $\rho^2(E0) \propto a^2 b^2 (\Delta \beta_2^2)^2$ 是判定组态混合与形变反差的排他性物理指纹，必须结合多步库仑激发/对角四极矩才能自洽反演出未混合的真实微观形变。 | claim-boundary-audit | direct-and-derived | RMP 83, 1467 Secs.I-III, Figs.18-21; shape-coexistence-e0-audit-009.json | true |

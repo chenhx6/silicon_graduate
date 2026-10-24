@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "system/scripts/day21_checkpoint007_pseudospin_chiral_131ba_audit.py",
+    "system/scripts/day21_checkpoint018_chiral_parity_quartet_audit.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "pseudospin-chiral-131ba-audit-007.json, chiral-parity-quartet-audit-018.json",
+  "scope": "deep synchronization of pseudospin-chiral and chirality-parity quartet concept layers with energy dispersion, lifetime necessity and parity displacement bounds; not new experimental CI"
+}

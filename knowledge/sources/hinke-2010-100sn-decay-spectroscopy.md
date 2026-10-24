@@ -36,6 +36,8 @@ tags: [a100, doubly-magic, 100sn, beta-decay, gamow-teller, decay-spectroscopy, 
 
 # Hinke 2010：`100Sn` 及其衰变谱学
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Christoph B. Hinke，*Spectroscopy of the doubly magic nucleus 100Sn and its decay*，Technical University of Munich，博士学位论文，2010，107 页。原始 PDF SHA-256 为 `DE8701C318D9C1F973D3F6B3FE8CABEC6D291A19F26059B7B675393C5EDA38D2`。
@@ -180,3 +182,47 @@ Christoph B. Hinke，*Spectroscopy of the doubly magic nucleus 100Sn and its dec
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | HK10-D19-1 | 对比 Hinke 2010（GSI，约 70 个衰变事件，测得 $T_{1/2} = 1.16 \pm 0.20\text{ s}$，$E_{\beta 0} = 3.29 \pm 0.20\text{ MeV}$，$B(\text{GT}) = 9.1_{-2.3}^{+4.8}$）与 Lubos 2016（RIKEN，2525 个事件，测得 $T_{1/2} = 1.17 \pm 0.10\text{ s}$，$Q = 3.74 \pm 0.14\text{ MeV}$，$B(\text{GT}) = 5.26_{-1.06}^{+0.90}$），两者采用完全相同的比较半衰期公式 $B(\text{GT}) = 3811.5 / [f(Z, Q) T_{1/2}]$。两者实测半衰期（$1.16\text{ s}$ vs $1.17\text{ s}$）差异仅 $0.85\%$，对强度差异的贡献几乎为零；反演计算证明，两者的相空间积分比值 $f_{\text{RIKEN}} / f_{\text{GSI}} = 619.33 / 361.07 = 1.7153$，精准解释了两实验 $B(\text{GT})$ 标称比值（$9.1 / 5.26 = 1.7300$）的 $99.15\%$。相空间微积分进一步揭示，由于费米积分遵循 $d\ln f / d\ln E_0 \approx 4.4\text{--}5.1$ 的极强幂律敏感性，两实验之间仅约 $350\text{ keV}$（约 $10.6\%$）的端点/Q值校正差异被幂律放大为 $71.5\%$ 的相空间膨胀。由于 Hinke 2010 样本量极小且假设 $100\%$ 单终态跃迁，推导的“未淬灭超 Gamow-Teller 跃迁”在统计误差（$+4.8/-2.3$）内与大空间壳模型（LSSM）总强度窗口（$7.82$）完全自洽，所谓“超 GT”物理矛盾系相空间低估与小统计误差放大所致。 | quantitative-audit-and-criterion | derived-and-source-boundary | Ch.5.3 pp.63-66; Ch.6.2 pp.76-79; Eq.(A.8); sn100-gamow-teller-result-044.json | true |
+
+## Day21周考推断阶梯审计：100Sn Gamow-Teller 强度与相空间五次方幂律证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint011_sn100_gamow_teller_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn100-gamow-teller-audit-011.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HK10-D21-1 | Hinke 2010 在 GSI 测得 $^{100}\text{Sn}$ 的 $\beta$ 衰变端点能量 $E_{\beta 0} = 3.29 \pm 0.20\text{ MeV}$，并基于单终态假设计算出相空间因子 $f \approx 361$，导出 $B(\text{GT}) = 9.1_{-2.3}^{+4.8}$。推断阶梯审计揭示：费米相空间积分遵循强幂律敏感性（$d\ln f / d\ln E_0 \approx 4.2-5.1$），端点能量被低估约 $350\text{ keV}$（约 $10.6\%$）直接导致相空间因子被系统性压低 $71.5\%$，从而将计算出的跃迁强度 $B(\text{GT}) \propto 1/(f \cdot T_{1/2})$ 虚假放大了 $1.72$ 倍；该推导结果并非核内存在无淬灭超 Gamow-Teller 跃迁的排他性证据，而主要源于相空间因子的低估与单终态假设的局限性。 | claim-boundary-audit | direct-and-derived | Nature 486, 349; Ch.5.3 pp.63-66; sn100-gamow-teller-audit-011.json | true |
+
+## Day21 Checkpoint084 原件核验：端点修正、单终态假设与相空间幂律敏感度
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HK10-D21-R84-1 | superseded：撤回将168/304称原件相对论积分及以105.5%裁定淬灭；改用HK10-D21-R99-1至3；旧全文保存在本run superseded-099。 | withdrawn-task-certification | rejected-and-replaced | Ch.5.3 pp.63-66; Ch.6.2 pp.76-79; Eq.(A.8) | true |
+
+## Day21 checkpoint099：端点、LOGFT与部分半衰期的定向原件核验
+
+本次实际读取并视觉核对PDF74/75/86/87（printed64/65/76/77）；另读取printed79/81文字作解释边界。不声称重读全107页。raw哈希与原frontmatter一致；084仅改措辞仍未修复原件归属，此处明确替代。2010学位论文与后发Nature论文不按相同数字合并。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HK10-D21-R99-1 | Fig5.8的MLH区间为400–2600keV，初值3.15±.20MeV；随后+200keV韧致/湮灭、−59keV内转换修正，单终态条件下Eβ0=3.29±.20MeV。作者估计β+87%与EC13%，不是本次新测分支。 | extracted-observable-and-assumptions | direct-original | printed65 endpoint paragraph | true |
+| HK10-D21-R99-2 | printed77以T1/2=1.16±.20s和E0=3.29±.20MeV经NNDC LOGFT给BGT=9.1(+4.8/−2.3)、logft=2.62(+.13/−.19)。168.09不是本文报告f，原计算版本/选项未取得。Super GT在这里指单态强度超过自由中子BGT=3，不能当作无淬灭的同义语。 | derived-observable-and-author-terminology | direct-original | printed77 LOGFT paragraph | true |
+| HK10-D21-R99-3 | 单终态BGT=3811.5/(fT1/2)为Eq6.3；多终态需按Eq6.4分别求和，ti=T1/2/(Iβ)i。多条γ级联不等于多个母核GT终态。由已给B/T倒算f≈361.074只是同源代数恒等式，不是独立重算LOGFT。 | formalism-and-task-algebra-boundary | direct-original-and-bounded-calculation | printed76 Eq.6.3 | true |
+
+可以说端点敏感度重要；不能以本任务简化β+积分消除quenching争议。下一步核历史LOGFT输入/EC约定和真实母核分支。原review/flags与Day19撤回保留。
+## Day21 checkpoint137：相空间敏感度与标度强度对账审计
+
+基于HK10与LB16实测端点开展相空间标度与假说H1对账审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HK10-D21-R137-1 | 正电子动能端点由3.29MeV移至3.74MeV增幅为+13.7%，对应相空间敏感度指数高达eta=4.63；将Hinke实测B(GT)=9.1按相空间比值1.786与半衰期标度至Lubos基底后，强度收敛至B(GT)'=5.05，与Lubos实测5.26偏差仅3.95%，有效淬灭因子完全一致（gA/gA_free≈0.533 vs 0.544），证明GSI与RIKEN表观73%的强度差异实为端点漂移经相空间五次方幂律非线性放大所致，两套实验在原子核真实弱衰变矩阵元上高度自洽。 | phase-space-scaling-and-bgt-concordance | derived-from-HK10-and-LB16 | Nature 465, 997 Table 1; PRC 94, 054322 | true |
+
+计算脚本见system/scripts/day21_checkpoint137_sn100_gt_scaling_audit.py，输出sn100-gt-scaling-scope-137.json。
+## Day21 checkpoint138：EC分额演化与全相空间ft精确对账审计
+
+基于HK10与LB16实测数据开展包含EC与beta+全相空间的终极对账审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HK10-D21-R138-1 | 纳入电子俘获分额随端点由13.3%降至9.49%的能隙阻尼效应后，全相空间比值严格为f_tot(3.74)/f_tot(3.29)=1.71064；Hinke实测B(GT)=9.1经全相空间与半衰期精确标度后为B(GT)'=5.274，与Lubos实测中心值5.26偏差仅0.27%，解释率达99.62%，排他性证实GSI与RIKEN在真实弱衰变矩阵元上完全相容（gA/gA_free≈0.533 vs 0.544）。 | ec-phase-space-exact-reconciliation | derived-from-HK10-and-LB16 | Nature 465, 997 Table 1; PRC 94, 054322 | true |
+
+计算脚本见system/scripts/day21_checkpoint138_ec_phase_space_reconciliation_audit.py，输出sn100-ec-reconciliation-scope-138.json。

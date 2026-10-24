@@ -32,6 +32,8 @@ tags: [sn130, sn128, n80, n82, b-e2, coulomb-excitation, preliminary-result]
 
 # Coulomb excitation of neutron-rich Sn isotopes in the HRIBF program
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 D.C. Radford et al., European Physical Journal A 25, Supplement 1, 383–387 (2005), DOI 10.1140/epjad/i2005-06-205-y. Crossref metadata and the publisher PDF agree on the title and article locator. The five-page article reports direct inverse-kinematics Coulomb-excitation results for 126,128,130Sn; its Table 1 explicitly labels the Sn B(E2) results preliminary.
@@ -57,6 +59,7 @@ Radford et al. report B(E2;0+→2+) measurements for the first 2+ states of even
 | RAD05-7 | The authors state that the 130Sn B(E2) is very small, around 1.4 single-particle units. | author-interpretation | direct | Journal p.387, Conclusion | true |
 | RAD05-8 | Figure 2 combines this work’s 126–130Sn points with separate 132,134Sn values from Varner et al.; those 132,134Sn values are not measurements of the Radford 130Sn beam. | source-lineage | direct | Journal p.385, Fig. 2 caption and discussion | true |
 | RAD05-9 | The short proceedings paper does not give event-level 130Sn yields, an uncertainty decomposition or covariance for its preliminary B(E2) value. | evidence-boundary | direct | Journal pp.384–387, complete article | true |
+| RAD05-D21-1 | **superseded（checkpoint042）**：11%异构成分是来源报告；未核原分析是否已扣除，不能改报B为0.0258或断言实际有-11%偏差。B比不等于不同核的探测响应/截面比；2%泄漏→20%仅任设toy。xi=.45任设，700倍不能当实际截面。现代0.072原件未核，更不能给52.8%差异归因。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -81,3 +84,8 @@ The 132Sn B(E2) comparison has a separate source boundary: Varner et al. report 
 - [[varner-2005-coulomb-excitation-132-134sn]]
 - [[gray-2021-thesis-electromagnetic-moments-z50]]
 - [[a130-shell-gap-orbital-observable]]
+
+
+## Day 21 checkpoint039 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/radford-2005-130sn-coulomb-excitation-126-130sn.txt。其科学认证撤回：11%异构成分是来源报告；未核原分析是否已扣除，不能改报B为0.0258或断言实际有-11%偏差。B比不等于不同核的探测响应/截面比；2%泄漏→20%仅任设toy。xi=.45任设，700倍不能当实际截面。现代0.072原件未核，更不能给52.8%差异归因。

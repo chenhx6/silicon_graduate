@@ -33,13 +33,15 @@ tags: [chirality, counterexample, band-mixing, A130]
 
 # Risk of misinterpretation of nearly degenerate pair bands as chiral partners
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - C. M. Petrache *et al.*, *Phys. Rev. Lett.* **96**, 112502 (2006), DOI `10.1103/PhysRevLett.96.112502`.
 
 ## Scope and Reading Depth
 
-- The four-page PRL was read end-to-end, including Figs.1–3, Eqs.(1–5), Table I, `134Pr` and `136Pm` systematics, potential-energy surfaces and the conclusion.
+- The four-page PRL was read end-to-end, including Figs.1–4, Eqs.(1–5), Table I, `134Pr` and `136Pm` systematics, potential-energy surfaces and the conclusion.
 
 ## Core Argument
 
@@ -127,3 +129,40 @@ Petrache *et al.* establish a reusable critical test: near-degeneracy is necessa
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | PE06-D20-R142-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## Day 21周考对比：134Pr能量伪简并与135Nd寿命不对称之推断阶梯对照
+
+本节001旧认证由checkpoint045定向原件审计取代。134Pr的2.0(4)来自分支比加两带解混合允许范围；不是直接寿命矩比，不能由“B约4倍”就唯一确定静态形状。135Nd的tau与B恒等式也未独立识别真实分支补偿。两核可作方法对照，均不能替代对方的测量。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| PE06-D21-1 | superseded：旧文字把解混合允许范围称直接测得并过强认证两核机制；改用PE06-D21-R45-1至R45-4，保留模型、输入谱系及非排他范围。 | wiki-synthesis | indirect | PRL 96, 112502 Table I; [[experimental-claim-boundaries]] | true |
+
+
+## Day21 checkpoint045：两带解混合、身份交换与证据谱系
+
+source前回忆已冻结，明确受既有Wiki priming；本轮重读VoR四页全文，视觉核全部4页Figs.1–4、Eqs.1–5与Table I。raw SHA256 `ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f`未变。原review/flags保持，非human-reviewed。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D21-R45-1 | 原文以忽略off-diagonal E2、短spin段相互作用无spin依赖的两带混合模型，结合分支比与能隙，给odd/even V约14/17 keV、Q0,1/Q0,2允许范围1.6–2.4。2.0(4)不是本轮新拟合，也未声明Gaussian抽样意义。36/44 keV本身只约束两能级模型的|V|上限。 | model-dependent-extraction | direct-original | printed 112502-3 Eqs.3–5 | true |
+| PE06-D21-R45-2 | Table I印17ny/y实验B(E2)out/in为.3(.1)/.6(.1)，计算.33/.70；18ny/y为.22(.09)/<.08，计算.17/.062。其α17=.118、α15=.894、α18=.099、α16=.427；α定义以Eq.1的yrast中原带1振幅为准，不能由数字印在ny行就擅自改成互补振幅。 | table-and-convention | direct-original | printed 112502-3 Table I | true |
+| PE06-D21-R45-3 | Table I caption明确实验分支数据来自Ref.11；Ref.11在本论文末列to be published。Ref.9的寿命/带内B差异被本文作qualitative agreement对照。本文是已有数据的批判分析，不是独立再采集的一套寿命，也不自动取得Ref.11底层Cov。 | source-lineage | direct-original | printed 112502-4 Ref.11 | true |
+| PE06-D21-R45-4 | 作者结论反对所分析两带的简单手征解释，同时明确所用transition moments不基于rigid shape假设，并以questionable if and to what extent a reminiscence of the chiral geometry提问。因此不能把结果改述成所有动态手征或任何手征几何残余均被排除。136Pm仍需电磁跃迁几率检验。 | author-conclusion-and-scope | direct-original | printed 112502-4 conclusion | true |
+
+### 身份明确后的有界复算
+
+本任务由Eqs.4/5手动实现前向比值，假设Q比2，回用印刷α，未做新拟合。17→15跨越原带与yrast身份交换：α17很小，yrast17主要原带2；α15很大，yrast15主要原带1。因此原带连续性的in/out与Eqs.4/5按y/ny终态写出的分子分母互换。直接代入得2.9952/1.4214，取倒数得到Table I的.33387/.70352。18→16的两端α均小，不交换，得.17038/.062384。此身份解释为本任务按Eqs.1–5/Table I的重建，不伪装作者另写的一条原句；只验证这四个前向计算，不认证全部八行或重拟合V。
+
+脚本`system/scripts/day21_checkpoint045_mixing_labels.py`→本run `mixing-label-scope-045.json`。不按yrast/原带身份追踪而机械叫“out/in”会引入比值倒数错误。Q范围平方为2.56–5.76，仅是采用相应transition-moment约定时未混合E2强度的条件换算，不是实测混合能级B比的区间、beta比或新CI。UC势能图与本解混合分析是不同模型层，作者说“不依赖rigid shape”不等于无模型输入。
+
+对[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的作用仅是约束理想伙伴解释的检验方式；134Pr的分支、寿命与Cov均不能借给135Nd。两篇不同核的结果不构成同一核机制的独立重复实验证据。
+
+## Day21 checkpoint110：134Pr两带解混合模型假定与135Nd手征判据对账
+
+124定向纠正：用PE06-D21-R45-1至4；B的平方根仅在共同几何条件下对应矩比，不能当135Nd内禀形变测量，未重拟合V。本节旧全文与脚本保留为历史，不恢复原件阅读/科学认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D21-R110-1 | superseded：124撤回本条过强科学认证；用PE06-D21-R45-1至4；B的平方根仅在共同几何条件下对应矩比，不能当135Nd内禀形变测量，未重拟合V；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| PE06-D21-R110-2 | superseded：124撤回本条过强科学认证；用PE06-D21-R45-1至4；B的平方根仅在共同几何条件下对应矩比，不能当135Nd内禀形变测量，未重拟合V；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |

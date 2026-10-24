@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "crossref",
+    "url": "https://api.crossref.org/works/10.1016/j.physletb.2009.02.061",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1016/j.physletb.2009.02.061",
+    "bytes": 10062,
+    "at": "2026-10-23T13:48:43.798159+00:00"
+  },
+  {
+    "kind": "arxiv",
+    "url": "https://export.arxiv.org/api/query?id_list=0812.4597",
+    "status": 200,
+    "final_url": "https://export.arxiv.org/api/query?id_list=0812.4597",
+    "bytes": 2731,
+    "at": "2026-10-23T13:48:43.676799+00:00"
+  }
+]

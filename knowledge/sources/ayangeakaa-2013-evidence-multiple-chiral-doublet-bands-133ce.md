@@ -38,6 +38,8 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 
 # Ayangeakaa 等（2013）：`133Ce` 中多个手征双带证据
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 *Physical Review Letters* 110 (2013) 172504，DOI `10.1103/PhysRevLett.110.172504`。BibTeX key 由题名与 DOI 唯一匹配为 `ayangeakaa_2013_EvidenceMultiple`。
@@ -158,3 +160,16 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | A13-D20-R137-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## Day 21周考对比：133Ce多重手征双带与跨核寿命外推假说审计（Checkpoint 004）
+
+## Day21 checkpoint057：133Ce跨核寿命借用与能级间距非排他性审计
+
+124纠正：R57把跨核类比提高为必须寿命的普适门，并混用本地作者稿与期刊页；保A13-6/7/12/13的原范围。旧全文见superseded-124，不声称本轮新读这些原件全文。原review与原始claims/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A13-D21-1 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| A13-D21-R57-1 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| A13-D21-R57-2 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| A13-D21-R57-3 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |

@@ -15,6 +15,8 @@ tags: [triaxiality, collective-motion, high-spin]
 
 # 摇摆运动（Wobbling Motion）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 三轴转动体系中角动量相对本征主轴的进动型集体激发。存在准粒子时可按进动锥拓扑进一步分为 [[transverse-wobbling]]、[[longitudinal-wobbling]]，并可能经过 [[flip-mode]]。
@@ -71,6 +73,8 @@ Lawrie 2020 的 QTR/TiP comparison 显示 TiP bands 也可有 large mixing ratio
 
 ## Sources
 
+- [[odegard-2001-evidence-wobbling-163lu]]
+- [[jensen-2002-second-phonon-wobbling-163lu]]
 - [[chakraborty-2023-131xe-wobbling-origin]]
 - [[frauendorf-2024-wobbling-review]]
 - [[domscheit-1999-triaxial-superdeformation-163lu]]
@@ -88,3 +92,13 @@ Lawrie 2020 的 QTR/TiP comparison 显示 TiP bands 也可有 large mixing ratio
 - 2026-07-04：加入 Guo 2022 对低自旋 wobbling approximation、mixing-ratio 范式与替代机制的批评。
 - 2026-07-04：加入 Lawrie 2020 的 TiP/3D rotation、`f(n,I)<<1` 与 phonon-quantization 边界。
 - 2026-09-20：加入 Frauendorf 2018 的 harmonic/transverse wobbling framework、symmetry-change and semiclassical limits。
+
+## Day 21 Checkpoint 023 证据门量化审计：多声子摆动激发判定准则与双解排他性门限
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[matta-2015-transverse-wobbling-135pr]] M15-D20-R146-1保原支持方真实INGA偏振；[[lv-2022-evidence-against-wobbling-135pr]] L22-D20-R146-1保新联合分析与TiP解释。两次采集不是同一次拟合的大小两根；偏振也不保证所有实验唯一选根，不设置20–30W.u.普适门。

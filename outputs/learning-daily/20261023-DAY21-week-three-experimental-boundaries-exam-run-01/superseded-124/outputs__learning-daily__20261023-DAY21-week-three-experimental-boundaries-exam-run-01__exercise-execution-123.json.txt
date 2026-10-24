@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "system/scripts/day21_checkpoint006_octupole_ba_audit.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "octupole-ba-audit-006.json",
+  "scope": "deep synchronization of octupole deformation and softness concept layers with parity displacement delta E(I) and zero-point energy barrier balance; not new experimental CI"
+}

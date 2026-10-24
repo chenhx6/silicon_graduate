@@ -1,0 +1,147 @@
+---
+type: source
+title: "Qi2009：135Nd全量子PRM、固定形变与版本参数边界"
+aliases: [Qi 2009 Nd135 PRM, 135Nd particle rotor chirality]
+created: 2026-10-23
+updated: 2026-10-23
+status: ai-draft
+review_status: unreviewed
+source_type: theoretical-paper
+reading_depth: deep-read
+title_original: "Chirality in odd-A nucleus 135Nd in particle rotor model"
+authors: [B. Qi, S. Q. Zhang, J. Meng, S. Y. Wang, S. Frauendorf]
+journal: Physics Letters B
+year: 2009
+volume: 675
+pages: "175-180"
+doi: 10.1016/j.physletb.2009.02.061
+arxiv: 0812.4597v1
+language: en
+canonical_source: https://doi.org/10.1016/j.physletb.2009.02.061
+citation_key: ""
+raw_file: raw/papers/2009_Qi_135Nd_PRM_arxiv08124597v1.pdf
+raw_sha256: 248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346
+raw_storage_status: public-staging-not-archived
+nuclei: [135Nd]
+models: [particle-rotor-model, tilted-axis-cranking, random-phase-approximation]
+observables: [energy-levels, transition-probability]
+methods: [angular-momentum-coupling, quantum-tunneling]
+tags: [chirality, fixed-deformation, model-validity, version-boundary]
+---
+
+# 135Nd：量子隧穿的模型解释与可观测量分层
+
+## Bibliographic Record
+
+B. Qi等，*Physics Letters B* **675**, 175–180 (2009)，DOI [10.1016/j.physletb.2009.02.061](https://doi.org/10.1016/j.physletb.2009.02.061)。本次Crossref核作者、题名、卷页；arXiv API关联[0812.4597v1](https://arxiv.org/abs/0812.4597v1)，2008-12-25上传。实际读v1，不声称VoR逐字一致。
+
+PDF16页、376923 bytes，实际暂存`tmp/day21-checkpoint053/qi-2009-0812.4597v1.pdf`；SHA256见frontmatter。raw_file是未写入的归档槽，hash对应实际公开暂存；raw未改。题头有November 9, 2018编译日期，与arXiv上传/期刊年份分开记录，不由此改年份。
+
+## Scope and Reading Depth
+
+- 实际读v1全16页文字：正文pp.1–9、refs pp.9–11、五图pp.12–16；视觉核pp.5–8及所有五图/图注。
+- 先冻结已受Lv2019等priming的回忆，不作盲测。
+- 未取得原PRM代码、波函数系数、数值job、拟合参数不确定域或VoR全文；不声称重现作者模型。
+
+## Paper Question and Scientific Motivation
+
+作者将PRM扩展到多价粒子/空穴，处理135Nd的πh11/2²⊗νh11/2⁻¹组态。全量子PRM保好角动量，能够处理近谐RPA不能连续描述的振动到隧穿过渡；代价是固定形变转子假设（pp.2–3）。
+
+## Method and Design Logic
+
+H=Hcoll+Hintr，Hcoll=Σ(Ik−Jk)²/(2𝓙k)，无旋惯量𝓙k=𝓙0sin²(γ−2πk/3)（pp.3–4 Eqs.1–3）；D2对称的强耦合基与单j壳形变势（pp.4–5 Eqs.4–8）。电磁算符细节转给Ref.26，本文没有列完整实现。
+
+本v1 p.5给β=.235、γ=22.4度、Cp=.323/Cn=−.323MeV、Q0=4.0eb、gR=.44、gp=1.21、gn=−.21；𝓙0数值29.0按实验能谱调整。原页把其单位印为MeV/ℏ²，而Eq.2要求惯量单位为ℏ²/MeV。此维度边界保留，不静默改原文字或声称已核原job。Eq.8的粒子/空穴±号与Cn符号也应按实际实现核，不能在复现时重复施加符号。
+
+## Key Evidence and Reasoning Chain
+
+固定组态/形变与能谱校准 → 比较能量和电磁率 → 用模型RMS分量与投影概率解释手征几何及spin演化。后两者是波函数输出，并非直接测得的核内矢量。Fig.1/2实验数据来自Zhu2003/Mukhopadhyay2007，无新增采集。
+
+## Summary
+
+作者给出近39/2最接近静态手征、其前后为不同振动的模型图像。本任务得到了一组本核实际参数点及明确的固定形变前提，未得到参数域Θ或原实验分支。该v1参数与Lv2019转述/采用数值有差别，必须按版本分别记录；未核VoR时不宣布期刊原文错误。
+
+## Experimental or Theoretical Setup
+
+三准粒子耦合刚性三轴转子，单j壳Hamiltonian；𝓙0拟合能谱，Q0/g为采用的电磁输入。PRM与TAC+RPA对比重用同一组135Nd实验强度，理论方法不同不构成第二套独立电磁实验。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| QI09-D21-R53-1 | 全量子PRM能处理固定形变条件下振动到隧穿的过渡，角动量为好量子数；它仍假设形变固定，作者对γ软/形状耦合保留讨论。 | author-method-and-limitation | direct-original | PDF pp.2–3；p.4 Eqs.2–3 | true |
+| QI09-D21-R53-2 | v1本核参数为β=.235、γ22.4度、Cp/Cn=±.323MeV、Q0=4.0eb与采用g；𝓙0数值29.0按能谱调整，打印单位与Eq.2维度不符，原job未得。 | model-input-and-version-boundary | direct-original-and-dimensional-check | PDF p.5参数段/Eq.8；p.4 Eq.2 | true |
+| QI09-D21-R53-3 | Figs.1–2对照的实验来自Zhu2003与MU07；p.6承认带外E2被PRM/TAC计算低估，带内/带外率比对过渡细节敏感。摘要“excellent”不抹去此具体偏差。 | model-comparison-and-data-lineage | direct-original | PDF p.6；pp.12–13 Figs.1–2；p.10 Ref.20 | true |
+| QI09-D21-R53-4 | 39/2处最接近静态、模型给剩余76keV劈裂且较好隧穿域仅限此spin；之后又出现不同振动。此为模型波函数/概率解释，不是直接测得静态构型或普适临界自旋。 | author-model-interpretation | direct-original | PDF pp.7–9；pp.15–16 Figs.4–5 | true |
+| QI09-D21-R53-5 | Figs.3–4箭头/分量来自sqrt〈Jk²〉；它们不保符号，不等于〈Jk〉或同时确定的经典矢量，单靠三轴RMS非零不能排他推出手征。作者另用了Fig.5投影概率。 | model-output-and-our-boundary | direct-original-and-angular-momentum-algebra | PDF p.6定义；p.7 Eq.9；pp.14–16 Figs.3–5 | true |
+| QI09-D21-R53-6 | Fig.2仅标in/out和B(M1)/B(E2)，未给γ能量/逐线成分表；它没有为MU07每个E2点补唯一初末态/分支。 | evidence-scope | direct-original | PDF p.6；p.13 Fig.2 | true |
+
+## Nuclear Structure Information
+
+同一固定组三准粒子PRM给出随spin变化的波函数取向分布。原文39/2的模型判断与作者关于有限核量子隧穿的解释绑定；不得用“rigid core”这一模型输入反过来认证真实核γ刚性。
+
+## Authors' Interpretation
+
+低spin绕s-l面的手征振动、39/2附近减弱的左右隧穿、较高spin向l-i面的另一振动；作者称手征为transient现象（pp.7–9）。这支持保留动态边界，不能把所有可疑双带套进同一个spin阈值。
+
+## Model Results
+
+γ22.4度给无旋惯量比约6.8:2.6:1（p.6）。重新代公式得6.7659:2.5636:1，仅核模型几何/舍入，不测真实惯量。图中R/Jp/Jn是模型RMS，未得带符号的原波函数系数或联合取向分布。
+
+## Competing Interpretations and Limitations
+
+固定形变、单j空间、电磁算符输入与𝓙0拟合限制外推。p.6的带外E2低估是具体剩余张力，不被整体能谱再现解除；未得联合Cov、模型误差合同，不能给其统计显著性。本文不提供MU07原branch/response。
+
+版本差异：本v1(.235,22.4,29.0)与[[lv-2019-chirality-135nd-reexamined]]所述(.24,22.2，2019再用20.2/23.5)分开；需VoR或实际原job解释差别，不能直接拼成一个参数域。
+
+原文p.7–8用P(Ki=0)/P(Ks=0)解释节点，但该核I为半整数、Eq.6/9基的K为离散半整数；未得作图网格/平滑约定时，不把图文“0”当作精确离散K=0本征投影概率。这是待核的表述/实现边界，不据此否定原模型。
+
+## Analytical Reconstruction
+
+声明L2角动量反例：一般自旋态|j,m=j〉有〈Jx〉=〈Jy〉=0，〈Jz〉=j，但sqrt〈Jx²〉=sqrt〈Jy²〉=sqrt(j/2)>0，sqrt〈Jz²〉=j。三轴RMS均非零仍不能确定三轴平均取向或手性。j=19.5只是运动学示例，非135Nd实际PRM态；不据此声称作者模型无手征。代码`day21_checkpoint053_prm_geometry_scope.py`同时给矩阵/解析恒等式与惯量比，实际波函数/CI字段null。
+
+## Knowledge Impact and Learning Decision
+
+- supports：本核具体参数点及作者超越近谐的模型解释真实存在。
+- limits：固定形变、校准/版本和几何可观测性，参数点不等置信域Θ。
+- persistence：source、既有暂定设计/方法；不新建其它核素案例。
+- review：全部新claim needs_review true，未发生用户审阅。
+
+## Related Knowledge and Project Relations
+
+| Relation type | Target | Specific relation |
+|---|---|---|
+| methodological-bridge | [[mukhopadhyay-2007-135nd-chiral-vibration-static]] | 同核实验的全量子PRM解释，非新数据。 |
+| limits | [[almehed-2011-chiral-vibrations-a135]] | 比较近谐RPA与固定形变PRM；方法优势不消除各自假设。 |
+| methodological-bridge | [[day21-135nd-same-input-falsification-design]] | 从缺参数缩小到版本参数点已得、job/Θ仍缺。 |
+
+## Human Review Triage
+
+### P0
+
+P0: none identified；单位、版本/离散K表述边界已隔离，不用于声称复现或排他实验认证。
+
+### P1
+
+QI09-D21-R53-2：VoR/原job需核𝓙0数值/单位、Cp/Cn符号以及与2019版本差别；按已知数值独立建模也只能标本任务模型。QI09-D21-R53-4/5：RMS箭头与Fig.5概率不能转成实验观察的带符号构型；半整数K的“零点”需实际网格定义。QI09-D21-R53-6：具体E2成分绑定仍缺，后续应取原实验输入而非重复抄图。
+
+### P2/P3
+
+Crossref/arXiv身份、版本/hash与索引已核；raw归档deferred，citation key未取得，不改本地Bib。
+
+## Extracted Pages
+
+沿用135Nd及现有模型/方法关联，不建立重复模型/核素页。
+
+## Non-source Notes and Follow-up
+
+下一有界路线为VoR或作者最终版参数/公式核对；未取得时不以预印本与后文差异反判作者错误。原实验成分、response/jointCov仍是独立输入缺口。
+
+## Day21 checkpoint112：PRM流体转动惯量比、手征几何与跨带E2低估审计
+
+124定向纠正：用QI09-D21-R53-1至6；实际文件是arXiv v1，非已核VoR；三轴主要取向不等精确正交经典矢量，RMS是非负而非普遍严格正。本节旧全文与脚本保留为历史，不恢复原件阅读/科学认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| QI09-D21-R112-1 | superseded：124撤回本条过强科学认证；用QI09-D21-R53-1至6；实际文件是arXiv v1，非已核VoR；三轴主要取向不等精确正交经典矢量，RMS是非负而非普遍严格正；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| QI09-D21-R112-2 | superseded：124撤回本条过强科学认证；用QI09-D21-R53-1至6；实际文件是arXiv v1，非已核VoR；三轴主要取向不等精确正交经典矢量，RMS是非负而非普遍严格正；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |

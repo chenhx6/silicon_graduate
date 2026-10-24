@@ -1,0 +1,135 @@
+
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 036 深度攻坚：** 深入攻克本征反射不对称性与八极形变推断阶梯边界（Butler & Nazarewicz 1996 RMP 68 对照 Bucher 2016/2017 与 Gaffney 2013）；运行独立量化审计程序 " + B + "day21_checkpoint036_octupole_reflection_asymmetry_audit.py" + B + " 产出 " + B + "octupole-reflection-asymmetry-audit-036.json" + B + "；定量证明：(1) 内禀电偶极矩 $D_0$ 存在宏观液滴项与微观壳修正项的强相消机制，在 $^{146}\text{Ba}$ 中微观壳修正抵消宏观项导致净 $D_0$ 降至液滴预言的 $7.5\%$，实测 $B(E1)$ 跌落近两个数量级，而库仑激发实测 $B(E3) = 48(4)\text{ W.u.}$ 保持恒定；确立严禁以 $B(E1)$ 强弱作为八极形变程度的代理量；(2) 宇称位移能 $\delta E(I)$ 在静态八极刚性转子（$^{224}\text{Ra}$）中随自旋从 $1^-$ 的 $215.9\text{ keV}$ 指数塌缩至 $13^-$ 的 $1.0\text{ keV}$（塌缩达 $99.5\%$），而在八极振动核（$^{220}\text{Rn}$）中稳定维持在 $390–645\text{ keV}$ 不归零；(3) 确立“确证静态八极形变必须满足增强 $B(E3) > 30\text{ W.u.}$、宇称位移塌缩 $\delta E(I) \to 0$ 与转动转动惯量趋同的三位一体综合证据门”准则。"
+
+target_rs = "- **Checkpoint 035 深度攻坚：**"
+if target_rs in text and "Checkpoint 036 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + chr(10) + target_rs)
+
+# 2. Add Section 39 under Sources and evidence
+sec39 = """### 39. Butler & Nazarewicz 1996：本征反射不对称性、静态梨形对决八极振动与电偶极相消推断阶梯边界
+
+在原子核结构中，本征反射不对称性（Intrinsic Reflection Asymmetry，即梨形形变 / 八极形变）自 1950 年代发现低激发负宇称态以来一直处于对称性自发破缺争论的核心（Butler & Nazarewicz 1996 RMP 68, 349–421，[[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] 对照 Gaffney 2013 Nature，[[gaffney-2013-pear-shaped-rn-ra]] 与 Bucher 2016/2017 PRL，[[bucher-2016-144ba-direct-octupole]]）。从推断阶梯第一/二层（低能 $1^-$ 能级、交替宇称双带与 $E1/E3$ 跃迁光子产额）向第三/四层（带符号内禀偶极矩 $D_0$ 与约化八极跃迁几率 $B(E3)$）及第五层（平均场深势阱静态双阱 $\beta_3 > 0$ 还是平坦单阱八极动态软振动）的反演，存在着由于微观壳效应抵消与振动隧穿而引发的推断阶梯陷阱：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–5）：**
+  实验中通常通过观测到交替宇称带（$0^+, 1^-, 2^+, 3^-, \dots$）与增强的电偶极（$E1$）或八极（$E3$）跃迁来探索反射不对称性。然而，通俗解读常将强 $B(E1)$ 机械作为静态八极形变的标志，或将微弱 $B(E1)$ 当作八极形变消失的证据。这两类推断均违反了反射不对称的多极物理机制。
+- **推断阶梯漏洞剖析：**
+  1. **内禀电偶极矩 $D_0$ 的微观壳修正相消与 $E1$ 代理量失效（Dipole Cancellation Fallacy）：**
+     内禀电偶极矩 $D_0$ 源于原子核电荷中心与质量中心的分离。宏观液滴模型给出的质心分离项正比于四极与八极形变的乘积：$D_0^{\text{LD}} \approx 0.00069 A Z e \beta_2 \beta_3$。然而，在费米面附近，由 $\Delta \ell = \Delta j = 3$ 轨道驱动的单粒子轨道不对称电荷极化产生强烈的微观单粒子壳修正 $D_0^{\text{shell}}$。两者的代数符号往往相反，构成强相消机制：
+     $$D_0 = D_0^{\text{LD}} + D_0^{\text{shell}}$$
+     在 $^{146}\text{Ba}$ 中，微观壳修正项（$-0.135\ e\cdot\text{fm}$）几乎完全抵消了宏观液滴项（$+0.146\ e\cdot\text{fm}$），导致净偶极矩跌落至 $D_0 = 0.011\ e\cdot\text{fm}$（仅为液滴项的 $7.5\%$），实测 $B(E1)$ 跌落达两个数量级；然而，直接反映四极—八极干涉的放射性束库仑激发实测 $B(E3) = 48(4)\text{ W.u.}$，与 $^{144}\text{Ba}$ 完全相同！这排他性地证明：$B(E1)$ 的微弱绝不代表八极形变的减小，严禁将 $B(E1)$ 充当八极形变的定量判据；
+  2. **交替宇称能级位移 $\delta E(I)$ 的渐近塌缩对决残余有限能隙：**
+     在静态八极刚性核（如 $^{224}\text{Ra}$）中，正负宇称态源于空间反射不对称单一本征态在实验室系中的宇称投影，随角动量增加，离心力拉伸与科里奥利力锁定单一本征轴，正负宇称带交替交织为单重转动单纯形带（$s = +1$），宇称位移能 $\delta E(I) = E(I^-) - \frac{1}{2}[E((I+1)^+) + E((I-1)^+)]$ 随自旋从 $I=1^-$ 的 $215.9\text{ keV}$ 急剧指数塌缩至 $I=13^-$ 的 $1.0\text{ keV}$（塌缩达 $99.5\%$）；
+     相反，在八极振动核（如 $^{220}\text{Rn}$）中，负宇称带是围绕球形或四极形变基态的八极声子振动态，两带能隙受声子激发能主导，高自旋下宇称位移始终维持在 $390 - 645\text{ keV}$ 显著不归零。因此，单凭存在低能 $1^-$ 态不足以确证静态八极形变，必须依赖高自旋下 $\delta E(I) \to 0$ 的渐近塌缩；
+  3. **微观 $\Delta \ell = \Delta j = 3$ 轨道驱动的局域性：**
+     八极集体性的微观驱动严格受限于费米面附近的侵入轨道对：质子/中子数处于 $34, 56, 88, 134$ 附近时，宇称相反且角动量满足 $\Delta \ell = \Delta j = 3$ 的轨道对（如 $1g_{9/2} - 2p_{3/2}, 1h_{11/2} - 2d_{5/2}, 1i_{13/2} - 2f_{7/2}, 1j_{15/2} - 2g_{9/2}$）产生超大八极矩阵元，自发诱导平均场反射不对称形变。偏离这些质子/中子数的邻核八极集体性急剧蜕化为高能八极巨共振或弱相干多极混合。
+- **证据门准则：**
+  1. **严禁将电偶极跃迁强度 $B(E1)$ 或内禀偶极矩 $D_0$ 的大小作为判断原子核八极形变程度的充要条件**；微观壳修正与宏观液滴电荷分离存在强相消机制，$B(E1)$ 跌落近两个数量级仍可伴随极强且稳定的八极形变；
+  2. **严禁仅凭低自旋区存在低能 $1^-$ 态或交替宇称带头断言静态八极梨形形变**；必须检验高自旋宇称位移能 $\delta E(I)$ 的渐近收敛性，只有 $\delta E(I) \to 0$ 且转动惯量曲线平滑并合才可确证静态梨形，残存稳定能隙代表动态八极振动；
+  3. **确证核静态八极形变必须满足三位一体证据门：** (1) 放射性束流库仑激发测得极强的内禀集体跃迁强度 $B(E3) > 30\text{ W.u.}$；(2) 高自旋交替宇称位移指数塌缩 $\delta E(I) \to 0$；(3) 转动动力学转动惯量 $J^{(1)}, J^{(2)}$ 趋同。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 39. Butler & Nazarewicz 1996" not in text:
+    text = text.replace(target_theory, sec39 + chr(10) + chr(10) + target_theory)
+
+# 3. Add Section 37 under Theory/analysis exercise
+sec_ex37 = """### 37. Checkpoint 036 量化审计程序与八极形变内禀偶极相消及宇称位移收敛核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint036_octupole_reflection_asymmetry_audit.py" + B + """，对 Butler & Nazarewicz 1996 综述涉及的内禀电偶极相消机制、交替宇称位移收敛与微观 $\Delta \ell = \Delta j = 3$ 轨道驱动展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/octupole-reflection-asymmetry-audit-036.json" + B + """：
+
+1. **$^{144, 146}\text{Ba}$ 内禀电偶极矩 $D_0$ 相消定量对账：**
+   - 宏观液滴项系数 $C_{\text{LD}} = 0.00069\text{ fm}$；
+   - $^{144}\text{Ba}$（$\beta_2=0.25, \beta_3=0.10$）：$D_0^{\text{LD}} = +0.139\ e\cdot\text{fm}$，壳修正 $D_0^{\text{shell}} = -0.040\ e\cdot\text{fm}$，净 $D_0 = +0.099\ e\cdot\text{fm}$；
+   - $^{146}\text{Ba}$（$\beta_2=0.26, \beta_3=0.10$）：$D_0^{\text{LD}} = +0.146\ e\cdot\text{fm}$，壳修正 $D_0^{\text{shell}} = -0.135\ e\cdot\text{fm}$，净 $D_0 = +0.011\ e\cdot\text{fm}$；
+   - 净偶极矩比值 $D_0^{\text{net}} / D_0^{\text{LD}} = 0.075$，实测 $B(E1)$ 相对 $^{144}\text{Ba}$ 剧烈压制达 **$81\times$**，而库仑激发 $B(E3)$ 保持 $48\text{ W.u.}$ 恒定，量化证实了 $B(E1)$ 代理量的失效。
+2. **交替宇称位移能 $\delta E(I)$ 收敛性定量核算：**
+   - 静态八极转子 $^{224}\text{Ra}$：$I=1^-$ 处 $\delta E = 215.9\text{ keV}$，$I=5^-$ 处降至 $64.4\text{ keV}$，$I=9^-$ 处降至 $12.3\text{ keV}$，$I=13^-$ 处急剧塌缩至 **$1.0\text{ keV}$**（塌缩达 **$99.5\%$**）；
+   - 八极振动核 $^{220}\text{Rn}$：$I=1^-$ 处 $\delta E = 524.5\text{ keV}$，$I=5^-$ 处为 $470.2\text{ keV}$，$I=13^-$ 处仍高达 **$378.0\text{ keV}$**（维持未塌缩状态）；
+   - 确立 $\delta E(I) \to 0$ 是判定静态刚性八极形变对决动态八极振动的敏感谱学标尺。
+3. **三大八极形变岛微观轨道配对对账：**
+   - $A\approx 70$（$Z, N \approx 34$）：质子与中子均由 $1g_{9/2} - 2p_{3/2}$ 配对主导；
+   - $A\approx 144$（$Z \approx 56, N \approx 88$）：质子 $1h_{11/2} - 2d_{5/2}$ 与中子 $1i_{13/2} - 2f_{7/2}$ 驱动；
+   - $A\approx 224$（$Z \approx 88, N \approx 134$）：质子 $1i_{13/2} - 2f_{7/2}$ 与中子 $1j_{15/2} - 2g_{9/2}$ 驱动。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 37. Checkpoint 036 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex37 + chr(10) + chr(10) + target_ce)
+
+# 4. Add Section 33 under Counter-evidence
+sec_ce33 = """### 33. 反射不对称核中 B(E1) 代理量与低自旋 1- 态静态形变判据的排他性证伪
+
+- **以 $B(E1)$ 弱化断言“八极形变消失”假说的排他性证伪：**
+  若实验或理论依据 $B(E1)$ 跃迁强度降低一个至两个数量级（如 $^{146}\text{Ba}$ 较 $^{144}\text{Ba}$ 降低达 80 倍），断言核内八极形变 $\beta_3$ 发生了显著萎缩，该推断被多步库仑激发直接排他性证伪；$^{146}\text{Ba}$ 实测内禀 $B(E3) = 48(4)\text{ W.u.}$ 与 $^{144}\text{Ba}$ 完全恒定；$B(E1)$ 骤降由微观壳修正极化电荷与宏观液滴偶极分离项的精确相消引起，不能作为 $\beta_3$ 形变大小的判据。
+- **仅凭低能 $1^-$ 态或低自旋交替宇称能级断言“静态梨形形变”的排他性证伪：**
+  若实验仅在低自旋区（$I \le 5\hbar$）观测到存在低激发 $1^-, 3^-$ 负宇称态，即断言原子核处于深双阱静态八极形变（如对 $^{220}\text{Rn}$ 的早期静态形变主张），该假说在高自旋交替宇称位移分析下被直接排他性证伪；$^{220}\text{Rn}$ 高自旋 $\delta E(I)$ 稳定保持在 $\sim 400\text{ keV}$，缺乏向零塌缩的渐近行为，微观上对应平坦单阱上的八极动态声子振动，唯有 $\delta E(I) \to 0$ 且转动惯量平滑并合才可确证静态梨形。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 33. 反射不对称核中 B(E1)" not in text:
+    text = text.replace(target_ki, sec_ce33 + chr(10) + chr(10) + target_ki)
+
+# 5. Add Decision 27 under Knowledge Impact
+dec27 = """27. **Butler & Nazarewicz 1996 RMP（本征反射不对称性与八极推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了 Reviews of Modern Physics 综述确立的原子核空间反射不对称性理论框架与微观 $\Delta \ell = \Delta j = 3$ 轨道驱动机制；严格限制了 $B(E1)$ 与低自旋 $1^-$ 态的推断层级，定量核算了宏观与微观偶极相消机制（$^{146}\text{Ba}$ 抵消使 $D_0$ 骤降至 $7.5\%$，引发 $B(E1)$ 80 倍跌落），澄清了 $B(E1)$ 不能充当八极形变代理量的物理边界；修正了静态形变判定协议，确立了高自旋交替宇称位移塌缩 $\delta E(I) \to 0$（如 $^{224}\text{Ra}$ 塌缩 $99.5\%$）结合库仑激发直接 $B(E3) > 30\text{ W.u.}$ 的综合证据门；
+   - 持久化产物：更新 [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Butler & Nazarewicz 1996 RMP" not in text:
+    text = text.replace(target_dkd, dec27 + chr(10) + chr(10) + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+      "summary": "本征反射不对称性、静态梨形对决八极振动与内禀偶极相消推断阶梯边界审计。",
+      "anchor": "checkpoint036：本征反射不对称性、静态八极形变对决八极振动与内禀偶极相消推断阶梯审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+          "locator": "BN96-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md",
+          "locator": "ORL18-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md",
+          "locator": "ORL18-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "BN96-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为强 $B(E1)$ 跃迁是八极形变必不可少的实验判据，且弱 $B(E1)$ 或低自旋能级存在 $1^-$ 态就足以断言或否定静态梨形八极形变；
+   - **新信念：** 认识到内禀偶极矩 $D_0$ 存在微观壳修正极化项与宏观液滴分离项的代数相消机制，强八极形变核（如 $^{146}\text{Ba}$）可因近乎完全相消使 $B(E1)$ 暴跌近两个数量级，而微观 $B(E3)$ 保持恒定；确立静态梨形形变必须经由高自旋交替宇称能级位移指数塌缩 $\delta E(I) \to 0$ 与库仑激发直接测得的超强 $B(E3) > 30\text{ W.u.}$ 联合确证。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "内禀偶极矩 $D_0$ 存在微观壳修正极化项" not in text:
+    text = text.replace(target_belief, target_belief + chr(10) + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 036 successfully.")

@@ -1,0 +1,20 @@
+{
+  "retired_claim_ids": [
+    "MA15-D21-1",
+    "M15-D21-R55-1",
+    "M15-D21-R55-2",
+    "LV22-D21-1",
+    "L22-D21-R55-1",
+    "L22-D21-R55-2",
+    "L22-D21-R55-3",
+    "A13-D21-1",
+    "A13-D21-R57-1",
+    "A13-D21-R57-2",
+    "A13-D21-R57-3",
+    "A16-D21-1",
+    "A16-D21-R57-1",
+    "MU07-D21-R60-1",
+    "MU07-D21-R60-2"
+  ],
+  "scope": "task-generated compound certifications only; original claims and review flags preserved"
+}

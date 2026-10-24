@@ -1,0 +1,136 @@
+
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 040 深度攻坚：** 深入攻克多普勒频移衰减法（DSAM）阻止本领系统偏差、库仑激发循环约束陷阱与 $^{58}\text{Fe}$ 异常集体性假象的终结（Woodside et al. 2026 PRC 113 对照 Bolotin 1978 与 Nolan 1979）；运行独立量化审计程序 " + B + "day21_checkpoint040_fe58_stopping_coulex_audit.py" + B + " 产出 " + B + "fe58-stopping-coulex-audit-040.json" + B + "；定量证明：(1) 旧 1978 年采纳的 $^{58}\text{Fe}$ $B(E2; 4_1^+ \to 2_1^+) = 47(7)\text{ W.u.}$（$R_{4/2} = 2.40$ 超集体假象）完全由 1970 年代 LSS 理论将电子阻止本领 $dE/dx$ 低估近一倍所致；更正为现代 SRIM 阻止本领后，寿命从 $0.38\text{ ps}$ 延长至 $0.66(8)\text{ ps}$，$B(E2)$ 塌缩至 $24.2(28)\text{ W.u.}$（$R_{4/2} = 1.235$），在 $0.1\sigma$ 内与大规模壳模型完全符合；(2) 阻止本领更新对寿命的修正具有强烈状态敏感度（$4_1^+$ 态增长 $+73.7\%$，而 $2_2^+$ 态仅增长 $+41.2\%$，差量达 $32.5\%$），证实不可作跨能级全局统一常数标度处理；(3) GOSIA 库激分析显式输入了重估的 DSAM 寿命约束，二者符合是受限极小化结果，不能当作完全独立的实验互验；(4) 确立“严禁仅凭未校准 LSS 阻止本领断言异常集体性与严禁将库激输入约束包装为独立确证”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 039 深度攻坚：**"
+if target_rs in text and "Checkpoint 040 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + chr(10) + target_rs)
+
+# 2. Add Section 43 under Sources and evidence
+sec43 = """### 43. Woodside et al. 2026 PRC：58Fe 库仑激发与 DSAM 重分析、阻止本领非均匀标度与异常集体性证伪
+
+在原子核激发态寿命测量与四极跃迁几率 $B(E2)$ 实验中，多普勒频移衰减法（DSAM）与次临界库仑激发是测定皮秒量级（$\tau \sim 0.1 - 10\text{ ps}$）核集体性的两大互补支柱。长期以来，当实验报告某一能级呈现出大幅超越转子极限的“异常集体性”（Anomalous Collectivity）时，理论界常被迫引入奇异多核子关联或对称性破缺模型进行拟合。然而，Woodside et al. 2026 PRC 113, 044306（[[woodside-2026-fe58-collectivity-coulex-dsam]] 对比 Bolotin 1978 与 Nolan 1979）对 $^{58}\text{Fe}$ $4_1^+ \to 2_1^+$ 跃迁的联合实验对账，揭示了由于反冲介质阻止本领模型缺陷与多步拟合循环约束诱发的重大推断阶梯陷阱：
+- **表观实验特征与推断阶梯分水岭（Level 2–3 到 Level 4–5）：**
+  在 1970 年代至 2020 年代的评价数据库（ENSDF/NNDC）中，$^{58}\text{Fe}$ 的 $4_1^+ \to 2_1^+$（$1264\text{ keV}$）跃迁被采纳为 $B(E2) = 47 \pm 7\text{ W.u.}$。与第一激发态 $B(E2; 2_1^+ \to 0_1^+) = 19.6 \pm 0.6\text{ W.u.}$ 相比，其集体性比值高达：
+  $$R_{4/2} = \frac{B(E2; 4_1^+ \to 2_1^+)}{B(E2; 2_1^+ \to 0_1^+)} = 2.40 \pm 0.37$$
+  这一比值显著超出了轴对称刚性转子极限（$1.43$）达 $2.6\sigma$，更是大规模壳模型（GXPF1A 预言 $1.22$）无法容纳的“反常超集体现象”，导致文献中长达 45 年关于 $^{58}\text{Fe}$ 是否具有超四极形变或奇异相变的争论。
+- **推断阶梯漏洞剖析：**
+  1. **DSAM 阻止本领模型系统尺度偏差（Stopping Power Scale Error）：**
+     DSAM 测定寿命依赖于反冲核在靶与衬底介质中的减速时间尺度：$F(\tau) = \int_0^\infty v(t)/v_0 \exp(-t/\tau) dt$。1978 年 Bolotin 等采用 Lindhard-Scharff-Schiøtt（LSS）理论估算电子阻止本领 $dE/dx$。现代重离子穿透实验（SRIM 2013）表明：LSS 理论将铁离子在锰和钽中的低能电子阻止功率系统性**低估了约一倍（缩减因子达 $0.608$）**！
+     低估阻止功率人为放慢了理论反冲减速时间，导致拟合相同的实测多普勒衰减曲线 $F(\tau)$ 时，反演出的能态寿命被**严重压缩至假象超短寿命 $\tau \approx 0.38\text{ ps}$**。由于 $B(E2) \propto 1/\tau$，这一假象寿命将跃迁几率虚假膨胀了整整 **$1.94$ 倍**！当采用现代实验校准的 SRIM 阻止本领重新分析旧谱线时，真实寿命恢复为 $\tau = 0.66 \pm 0.08\text{ ps}$，对应的真实跃迁几率骤降至 $B(E2) = 24.2 \pm 2.8\text{ W.u.}$，比值 $R_{4/2} = 1.235$ 在 $0.1\sigma$ 内与壳模型完全相符，所谓“异常集体性”完全是一场由于阻止本领理论失真造成的测量伪影；
+  2. **阻止本领更新的非均匀状态敏感度（Non-Uniform Scaling Trap）：**
+     通俗研究常误以为阻止本领模型更新可以用一个全局常数乘子直接调整所有能态寿命。Woodside 等证明：$4_1^+$ 态（$2077\text{ keV}$）反冲速度较大，更新为 SRIM 后寿命增长高达 **$+73.7\%$**（$0.38 \to 0.66\text{ ps}$）；而较慢的 $2_2^+$ 态（$1675\text{ keV}$）寿命仅增长 **$+41.2\%$**（$1.70 \to 2.40\text{ ps}$），能级间标度差异高达 **$32.5\%$**！反冲动力学与阻止截面能量依赖性的非线性耦合，决定了阻止本领修正必须逐态展开全微分轨迹积分，严禁作全局均匀标度缩放；
+  3. **库仑激发与 DSAM 的循环约束陷阱（Circular Constraint Fallacy）：**
+     在 Woodside 2026 的多步库仑激发 GOSIA 分析中，重估后的 DSAM 寿命 $\tau(4_1^+) = 0.66(8)\text{ ps}$ 被**显式作为拟合约束方程输入了 GOSIA 的目标卡方函数**（Table VI）。因此，最终 GOSIA 输出的矩阵元计算值与 DSAM 寿命的高度一致，是多参数受限极小化的数学必然结果，绝不能被当作两项技术完全独立的统计交叉验证；
+  4. **相对符号离散相位多解（Phase Multiplicity）：**
+     在多步库仑激发中，矩阵元相对符号形成离散组合。在 $^{58}\text{Fe}$ 的 8 态闭环中存在 8 组符号相位解。除 1 组被 $95\%$ CL 排除外，剩余 7 组未排除相位的 $B(E2)$ 分布在 $21.8$ 至 $27.2\text{ W.u.}$ 之间，构成了 $\pm 12\%$ 的离散相位系统误差包络。
+- **证据门准则：**
+  1. **严禁仅凭基于早期唯象阻止本领（如 1970 年代未校准的 LSS 理论）提取的 DSAM 寿命，断言原子核存在违背微观多体模型的“异常集体性”**；电子与核阻止本领具有高达 $30%–50%$ 的系统不确定度，必须使用现代重离子穿透实验数据库（如 SRIM 实验校正网格）重审阻止轨迹；
+  2. **严禁将阻止本领更新简化为对全核能级寿命的“全局常数标度缩放”**；反冲速度差异导致阻止本领修正具有强状态依赖性（如不同能级标度相差可达 $30%$ 以上）；
+  3. **在多步库仑激发（GOSIA）与寿命测量联合分析中，严禁将已作为输入约束项（Input Constraint）的寿命数据包装为库仑激发结果的“独立交叉确证”**。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 43. Woodside et al. 2026 PRC" not in text:
+    text = text.replace(target_theory, sec43 + chr(10) + chr(10) + target_theory)
+
+# 3. Add Section 41 under Theory/analysis exercise
+sec_ex41 = """### 41. Checkpoint 040 量化审计程序与 58Fe 阻止本领非均匀标度及库激循环约束核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint040_fe58_stopping_coulex_audit.py" + B + """，对 Woodside et al. 2026 PRC 113 关于 $^{58}\text{Fe}$ 异常集体性证伪、阻止本领状态依赖敏感度与 GOSIA 相对相位多解开展代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/fe58-stopping-coulex-audit-040.json" + B + """：
+
+1. **$^{58}\text{Fe}$ 异常集体性消除定量对账：**
+   - 1978 年旧评估采纳值：$B(E2; 4_1^+ \to 2_1^+) = 47 \pm 7\text{ W.u.}$，$R_{4/2} = 2.40$（高出转子极限 $1.43$ 达 $2.6\sigma$）；
+   - Woodside 2026 测定值：$B(E2) = 24.2 \pm 2.8\text{ W.u.}$，较旧值塌缩达 **$1.94$ 倍**；
+   - 真实比值 $R_{4/2} = 1.235 \pm 0.152$，与 GXPF1A 壳模型（$1.22$）在 $0.1\sigma$ 内精确重合，量化证实了所谓“异常超集体性”完全是阻止本领低估造成的实验伪影。
+2. **DSAM 阻止本领更新非均匀标度核算：**
+   - 电子阻止功率乘子：$0.608$；
+   - $4_1^+$ 态（$2077\text{ keV}$）：$\tau$ 从 $0.38\text{ ps}$ 延长至 $0.66\text{ ps}$，修正幅度为 **$+73.7\%$**；
+   - $2_2^+$ 态（$1675\text{ keV}$）：$\tau$ 从 $1.70\text{ ps}$ 延长至 $2.40\text{ ps}$，修正幅度为 **$+41.2\%$**；
+   - 两态标度差异达 **$32.5\%$**，排他性证明阻止本领修正不能采用单一常数缩放。
+3. **GOSIA 8 组离散相位简并包络：**
+   - 8 组方案中仅 1 组（$-++$）被 $95\%$ CL 排除；
+   - 7 组未排除相位的 $B(E2)$ 离散分布在 $21.8$ 至 $27.2\text{ W.u.}$ 之间，相对展开幅度达 **$24.8\%$**（$\pm 12\%$），展示了多步库激相对相位的固有不确定度包络。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 41. Checkpoint 040 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex41 + chr(10) + chr(10) + target_ce)
+
+# 4. Add Section 37 under Counter-evidence
+sec_ce37 = """### 37. 早期 LSS 阻止本领模型与库激循环约束下异常集体性假象的排他性证伪
+
+- **基于早期未校准 LSS 理论的核反常超集体性假说的排他性证伪：**
+  若实验依据 1970 年代 DSAM 测量声称某一能级呈现出反常超集体性（如 $B(E2)$ 超越壳模型预言 2 倍以上），该反常在介质阻止本领更新至高精度 SRIM 网格后被直接排他性证伪；LSS 理论对低能重离子电子阻止本领的系统性低估必然导致反演寿命偏短并使 $B(E2)$ 人为膨胀，必须重新进行全微分减速轨迹积分。
+- **将已输入库激拟合的寿命数据当作“独立互验”的排他性证伪：**
+  若研究在多步库仑激发计算中将测得的寿命作为约束方程纳入卡方极小化，随后声称库激输出结果与该寿命测量“相互独立确证”，该结论在科学方法论上被直接排他性证伪；受限参数寻优的结果反映了共同约束的内部数值自洽，不具备独立的统计自由度。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 37. 早期 LSS 阻止本领模型" not in text:
+    text = text.replace(target_ki, sec_ce37 + chr(10) + chr(10) + target_ki)
+
+# 5. Add Decision 31 under Knowledge Impact
+dec31 = """31. **Woodside et al. 2026 PRC 113（58Fe 阻止本领与库激推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了利用新库仑激发数据与 SRIM 现代阻止本领联合解决长达 45 年 $^{58}\text{Fe}$ 异常集体性悬案的决定性工作；严格限制了该工作的推断独立性，证明 GOSIA 拟合将重估的 DSAM 寿命显式作为输入约束，二者符合属于受限优化自洽，不能当作独立交叉检验，且 7 组未排除相对符号方案引入了 $\pm 12\%$ 的相位包络；修正了阻止本领可以进行全局统一常数标度修正的流行偏见，定量确立了反冲速度引起的非均匀状态敏感度（$+73.7\%$ vs $+41.2\%$）；
+   - 持久化产物：更新 [[woodside-2026-fe58-collectivity-coulex-dsam]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Woodside et al. 2026 PRC 113" not in text:
+    text = text.replace(target_dkd, dec31 + chr(10) + chr(10) + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "summary": "58Fe异常集体性假象证伪、DSAM阻止本领非均匀标度与库激循环约束推断阶梯边界审计。",
+      "anchor": "checkpoint040：58Fe 异常集体性假象证伪、DSAM 阻止本领非均匀标度与库激循环约束审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+          "locator": "RAD05-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+          "locator": "RAD05-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "WO26-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为文献中报道的超出模型极限的“异常集体性”（如 $^{58}\text{Fe}$ 的 $R_{4/2} = 2.40$）必然代表原子核存在奇异多体微观结构，且阻止本领模型更新可以用一个全局系数对所有能态寿命作等比例调整；
+   - **新信念：** 认识到早期 DSAM 寿命由于 LSS 理论系统性低估电子阻止本领近一倍，导致表观 $B(E2)$ 被虚假膨胀达 $1.94$ 倍，更新至现代 SRIM 后异常完全消解；且反冲动力学差异导致不同能态寿命修正幅度相差达 $32.5\%$（非均匀标度），必须逐态积分；同时防范将已作为库激输入约束的寿命数据当作独立验证的循环论证陷阱。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "早期 DSAM 寿命由于 LSS 理论系统性低估电子阻止本领" not in text:
+    text = text.replace(target_belief, target_belief + chr(10) + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 040 successfully.")

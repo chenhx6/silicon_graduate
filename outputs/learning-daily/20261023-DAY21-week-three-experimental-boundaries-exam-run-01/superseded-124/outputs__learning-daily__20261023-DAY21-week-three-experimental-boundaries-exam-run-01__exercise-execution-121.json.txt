@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint110_chiral_comparison_scope.py",
+    "system/scripts/day21_checkpoint108_yao_density_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "chiral-comparison-scope-110.json, yao-density-scope-108.json",
+  "scope": "deep synchronization of triaxial-shape-coexistence concept layer with band-crossing unmixing, lifetime necessity and E0 transition strength constraints; not new experimental CI"
+}

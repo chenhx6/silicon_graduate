@@ -30,6 +30,8 @@ tags: [108in, 110in, lifetime, branching, shears-band, internal-conversion]
 
 # Chiara et al. (2001): `108In/110In` lifetimes and branching-to-strength method
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - C. J. Chiara *et al.*, *Phys. Rev. C* **64**, 054314 (2001), DOI `10.1103/PhysRevC.64.054314`.
@@ -151,3 +153,10 @@ Chiara *et al.* provide a directly readable precedent for extracting partial M1/
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | CHI01-D19-2 | 撤回checkpoint080的四路排他认证。手填jp/jn、B0和相位后检查自身数值只构成toy模型；不是108In或106Cd实测轨迹。MR的B(M1)可在对齐处增加；理想对称AMR横向磁矩抵消不能泛称所有奇极跃迁由宇称禁戒；chirality的强度/交错判据有模型适用域，不能由硬填180度或双比值唯一裁决106Ag。寿命还取决于能量、全部支路、ICC及混合，不能按模式标签固定窗口。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |
+## Day21周考推断阶梯审计：磁转动寿命测量与电四极深度受抑判据
+
+依据独立审计程序 `system/scripts/day21_checkpoint008_magnetic_rotation_shears_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/magnetic-rotation-shears-audit-008.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CHI01-D21-1 | Chiara 2001 在 $^{108,110}\text{In}$ 中通过 DSAM 实验精确测定剪刀带能级寿命（$\tau \sim 300 - 600\text{ fs}$），直接反演出磁偶极强度 $B(M1)$ 随自旋从 $1.75\ \mu_N^2$（$7^+$）单调骤降至 $0.28\ \mu_N^2$（$10^+$），跌落达 6.25 倍；同时带内电四极跃迁强度极度微弱（$B(E2) \le 0.04\ e^2\text{b}^2 \approx 1 - 2\text{ W.u.}$），导致比值 $B(M1)/B(E2)$ 达到 $20 - 45\ \mu_N^2/(e\text{b})^2$（超常规集体转子 100 倍以上）。该实验提供了通过绝对寿命 $\tau$ 与 $B(M1)$ 随自旋单调暴跌来确证磁转动剪刀机制的经典基准，证明单凭转动样偶极能级序列绝不能断言集体电四极形变。 | claim-boundary-audit | direct-and-derived | PRC 64, 054314 Tables V-VI; magnetic-rotation-shears-audit-008.json | true |

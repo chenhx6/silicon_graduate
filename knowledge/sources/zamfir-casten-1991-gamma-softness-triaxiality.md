@@ -35,6 +35,8 @@ tags: [gamma-softness, gamma-rigidity, triaxiality, low-spin]
 
 # Zamfir 与 Casten（1991）：γ 软与刚性三轴的低能谱判据
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
@@ -106,3 +108,11 @@ Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | ZC91-D19-1 | 准 $\gamma$ 振动带能级交错参数 $S(4,3,2) = \{[E(4_2^+) - E(3_1^+)] - [E(3_1^+) - E(2_2^+)]\} / E(2_1^+)$ 构成分离 $\gamma$-软核与刚性三轴核的解析分水岭：在 Wilets-Jean / O(6) $\gamma$-软性极限下，能级形成 $(2^+), (3^+, 4^+), (5^+, 6^+)$ 成对排布，$S(4,3,2) = -2.00$；而在 Davydov-Filippov $\gamma = 30^\circ$ 刚性转子极限下，能级形成 $(2^+, 3^+), (4^+, 5^+)$ 相反成对，$S(4,3,2) = +1.67$。对 A≈130 区域 7 个代表性 Xe 与 Ba 偶偶核的普查表明，所有被测同位素的 $S(4,3,2)$ 均处于 $[-1.01, -0.42]$ 负值区间，100% 落在 $\gamma$-软性盆地；进一步联合第二 $2_2^+$ 态的电磁分支比 $B(E2; 2_2^+ \to 0_1^+) / B(E2; 2_2^+ \to 2_1^+)$ 检验，实测值（$^{128}\text{Xe}$ 处为 $0.023(5)$）相对刚性转子预测值（$2/11 \approx 0.1818$）受到接近 8 倍的强烈压制，证实了 $\Delta\tau = 2$ 禁戒选择定则，确立了 A≈130 偶偶核芯普遍具有平坦 $\gamma$-软势能面的本性，为该区手征与摇摆激发的动态脆弱性提供了核芯基础。 | quantitative-audit-and-criterion | derived-and-source-boundary | PLB 260, 265 pp.1-4; Eqs.(2)-(5); gamma-soft-rigid-watershed-result-041.json | true |
+
+## Day 21 Checkpoint 020 证据门量化审计：S(4) 刚软分水岭与相位反转
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint020_gamma_staggering_s4_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/gamma-staggering-s4-audit-020.json），对 Zamfir & Casten 1991 的准 gamma 带交错分水岭完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZC91-D21-1 | 依据推断阶梯审计，准 gamma 带交错指标 S(4) 构成分水岭检验：(1) Davydov 刚性三轴极限（gamma=30°）导出 S(4) = +1.67（成对序列 2+, (3+,4+), (5+,6+)），Wilets-Jean / O(6) gamma-软势极限导出 S(4) = -2.00（成对序列 (2+,3+), (4+,5+)）；(2) A≈130 区域三轴候选核（130Ba S4=-0.941，128Xe S4=-0.647，76Ge S4=-1.240）普遍呈现压倒性的负交错，与刚性三轴预测符号严格相反；(3) 结合四阶不变量方差 sigma^2(cos 3gamma) ~ 0.33，排他性证实这些原子核属于动态 gamma-软涨落核，彻底排除静态刚性三轴主张；(4) 确立“严禁仅凭低能态能量拟合断言刚性三轴”的核心证据门准则。 | source-result-and-criterion | derived-and-boundary | pp.1-4, Eqs.2-5; gamma-staggering-s4-audit-020.json | true |

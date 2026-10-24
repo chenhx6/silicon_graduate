@@ -1,0 +1,1974 @@
+# Day 21 第三次周考：实验结论边界
+
+## Run state
+
+- run_id: `2026-10-23-day-21-01`
+- day_index: 21
+- session_id: `01a167eb-3c9c-74c0-a0a0-12720a4e1f4d`
+- timezone: Asia/Shanghai
+- overnight_until: `2026-10-24T15:00:00+08:00`
+- closeout_window_ends_at: `2026-10-24T16:00:00+08:00`
+- completed_day_indices: []
+- partial_day_indices: [21]
+- next_day_index: 21
+- research_status: active-in-progress-checkpoint116
+- Day 21 card audit: in-progress
+- Day 21 scorecard: complete
+- Day 21 weekly REFLECT: complete
+
+当前正文是105的限定科学入口，仍属同一真实runner；原[回执](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/runner-original-receipt.json)、[身份核验](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/session-identity-001.json)、[运行状态](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/run.json)确定身份和截止。clock001–008已实际登记，研究checkpoint编号与时钟ID分开。知识交付的覆盖不等于时间门/H3/正式计卡完成。未打开Day22/23，未中间提交/发布，Day21尚未产生学分。
+
+Day19、Day20/167及001–041的撤回全部保留；Day20的final-session-receipt-169/card-credit-169仅计[20]，其Day21 preview无本次学分。062/081的标签式一致性、078/84的相空间认证及105.5%解释率撤回；096只改措辞不足以恢复它们。旧21/24、22/24不继承，24/24不恢复；当前16/24为primed开卷自审。原source review/flags、raw/PLAN/Bib与继承dirty保持。
+
+历史全文和失败过程可从[superseded-042](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/report-before-042.txt)、[superseded-099](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-099/outputs__learning-daily__20261023-DAY21-week-three-experimental-boundaries-exam.md.txt)及[105前快照](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-105/outputs__learning-daily__20261023-DAY21-week-three-experimental-boundaries-exam.md.txt)恢复。方法页旧41个案例正文亦已存入105快照，原标题只作历史导航。
+
+### Day 21 card completion audit
+
+以下是有边界的知识交付审计；最终课程计卡仍待时间门、末次检查、续接与H3。
+
+| 课程matrix交付 | 当前artifact与精确证据位置 | 状态 |
+|---|---|---|
+| 回忆：说明从γ能量到形变/模式的转换 | [冻结回忆042](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/primed-recall-frozen-042.md)及各次primed记录；[[experimental-claim-boundaries]]七层组织表 | complete |
+| 主线：135Nd逐claim核直接证据/竞争解释 | [[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1至4；[[lv-2019-chirality-135nd-reexamined]] LV19-D21-R103-1至5；[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1/4 | complete |
+| 未知摘要：可以说/不能说/下一步 | 本文下方自拟练习（非盲测）；[[day21-135nd-same-input-falsification-design]]104最少输入合同 | complete |
+| 反证与现有装置可测性 | 同设计页Falsification or Reverse Tests及104表：指定模型Θ/身份反证，技术可行与可达精度分开；FM97-D21-R50-1、LV19-D21-R104-1 | complete |
+| 评分表、claim audit和weekly REFLECT | 本文六行16/24评分、原子claim账本与weekly REFLECT；不清除needs_review | complete |
+
+## Candidate pool and selection
+
+106/107/108闭合34Si/35Si气泡推断阶梯；110至115完成135Nd微观理论、跨来源全景综合与手征概念层深度同步；116进一步将摆动运动推断阶梯深度同步至核心概念页wobbling-motion，全面固化多极混合比双解严禁由模型预期裁决、联合线偏振排他确证M1主导与低自旋集体转动简谐近似破缺的证据门准则。不是增加新核素或进入下一日卡；主案例135Nd的producer/Θ缺口仍保留。
+
+| 路线 | 当前信息增益 | 状态与缺口 |
+|---|---|---|
+| 连续性：135Nd谱学→模式 | 从已得VoR缩小到指定母态/成分与模型允许域，防止单个字面错误被放大成模式裁决 | 103/104推进；仍缺原branch/producer、δ、jointCov和Θ |
+| 已有校准支线：100Sn程序定义 | 识别端点/质量Q、母核/子核成分、当前/历史计算器差别 | 99/102完成限定核验，未恢复原实验误差 |
+| 当前活跃答案自审 | 移出旧“普适伪刚性/完全闭环”等复述，使结论与来源scope一致 | 105完成正文整理；不认证已退役案例 |
+| 下一卡 | 用户要求本阶段不开Day22 | 未打开，不给preview或课程学分 |
+
+不以候选论文数或检查次数代替信息增益；当前尚未基于局部饱和结束研究窗口。
+
+## Sources and evidence
+
+106回到Day21已有Burgunder2014错误队列。实际重读5页正式版主线，视觉核三图/Table I（raw hash与来源页一致）；BU14-D21-R106-1至6修正运输束/靶厚/效率校准、SF模型提取、单极校准、打印舍入及作者限定量词。既有同对核素范围未扩展。
+
+107回到Mutschler 2017公开稿arXiv:1707.03583v1全部6页正文、Methods及图表（DOI: 10.1038/nphys3916，公开staging PDF哈希匹配为`eb0450b2cfee9fc52098668d090db23b7e728899ec1116528d827e90a6b09a85`，raw归档deferred）。MU17-D21-R107-1至6澄清：34Si在100 mg/cm² Be次级靶上反应，S800与GRETINA鉴定的两个ℓ=0终态（2101与3704 keV）末态分支bKO分别为1.5(4)%与1.4(3)%，结合全截面27.7(1.0) mb，由程函模型提取2s1/2占据0.17(3)（对比36S的1.7(4)）；作者报告的ℓ=0截面比约12倍构成了强差分实验支持；同时澄清Methods Eq.(1)中淬灭因子Rs约20%的不确定度已计入发表误差，不可重复叠加；四个未定弱态若全取ℓ=0增加占据0.07(3)；Fig. 3为微观RHFB+PKO2理论计算，非直接电子散射空间成像；点质子密度亏空不等于电荷密度亏空，不能以超越平均场电荷亏空抹平直接推翻点质子占据提取。
+
+108核对Yao等2012年原件Phys. Rev. C 86, 014310（arXiv:1205.2262v1）全部9页、公式与Tables（raw哈希匹配`a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2`）。YA12-D21-R108-1至4澄清：Table I与Table II确立从球形HF到轴对称GCM基态，点质子中心亏空因子Fmax从0.41降至0.21，折叠进a=0.65 fm高斯质子电荷半径后电荷Fmax进一步降至0.09；点质子与电荷密度是不同物理量；同时Section III明确指出模型显著高估了低能集体跃迁：计算的ρ²(E0; 0₂⁺→0₁⁺)=58.1×10⁻³为实验值13.0(0.9)×10⁻³的4.47倍，带内B(E2; 2₁⁺→0₁⁺)=60.5 e² fm⁴为实验值16.6 e² fm⁴的3.64倍，作者指出这反映了两最低0⁺态过度强烈混合，表明模型过度抹平了基态中心密度起伏，0.09不能作为确凿实验上限；中子中心隆起使Fsat,t为负，34Si非总核物质气泡。
+
+110核对Petrache 2006（Phys. Rev. Lett. 96, 112502，raw哈希匹配`ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f`）与Mukhopadhyay 2007。PE06-D21-R110-1至2确立：两带解混合模型提取的Q0,1/Q0,2=2.0(4)依赖于忽略非对角E2跃迁矩且短自旋区间相互作用V无自旋依赖的假定；134Pr两带能级近简并（间隙36/44 keV）但内禀四极矩相差2倍，确立了“能量近简并不充分”；135Nd带内B(E2)高度对称（0.88，Q0估计偏离仅6.4%）但低自旋寿命相差2倍（1.95–2.29），确立了“能级寿命相等不必要”。两核数据不可跨核迁移，带内B(E2)对称仍非手征排他充分条件。
+
+111核对Lv 2019原刊Phys. Rev. C 100, 024314第8页Section III正文及参数。LV19-D21-R111-1至2确立：三轴粒子-转子模型（PRM）计算并非无参数微观预测，而是针对实验曲线的经验唯象调参：为匹配负宇称D5/D6在39/2-处的B(M1)/B(E2)跃迁比突增，γ从CDFT的22.2度下调为20.2度（下调2.0度）；为匹配正宇称D2-3qp的B比，γ更从22.5度大幅人工下调至17.0度（下调5.5度）；正宇称候选带（D1/D2及D3/D4）均缺乏能级寿命测量；D3/D4全带仅在29/2hbar处提取到1个B(M1)/B(E2)点，其手征指认明确基于向133Ce的类比借用；依据推断阶梯，缺乏寿命、单数据点与跨核借用不能排他确立多重手征。
+
+112核对Qi 2009原刊Physics Letters B 675, 175全文、公式与Figs. 2–4（raw哈希匹配`248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346`）。QI09-D21-R112-1至2确立：在固定形变γ=22.4度下，无旋流体转动惯量比计算为Ji:Js:Jl=6.77:2.56:1.00，与作者报告的6.8:2.6:1.0完全一致；转子角动量R主要沿惯量最大的中轴取向，价质子Jp沿短轴（粒子型），价中子Jn沿长轴（空穴型），构建了微观手征三轴正交几何；论文明确承认带间跨带B(E2)在PRM与TAC计算中均被系统性低估；Figs. 3–4展示的三轴分量为均方根值sqrt(<Jk^2>)，属正定期望值，单靠三轴RMS非零不能作为实验测得带符号经典手征矢量的排他性证据。
+
+113核对Almehed 2011原刊Phys. Rev. C 83, 054308正文第2/4/8页及Appendix A公式（公开哈希匹配`becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b`）。AL11-D21-R113-1至2确立：四极形变绕转轴有限旋转的精确分量为sin(2phi)，而谐近似线性展开取2phi；在角振幅达到30度和40度时，线性展开分别显著高估精确值达20.9%和41.8%，说明大振幅角摆动具有内在强烈的非谐性；论文作者明确指出微观均场在临界转动频率处对称性破缺分叉导致RPA能量软化趋零，表明谐振子近似在临界区发生发散性失效，且模型声子能量比实验更快趋零；严禁将RPA软化趋零的发散点直接等同于真实原子核发生静态手征相变的实验确证。
+
+114依据长期综合知识页[[high-spin-lifetime-strength-deformation]]与方法页[[experimental-claim-boundaries]]完成推断阶梯全景对账，确立五大证据门准则：(1) 能量近简并不充分（134Pr交叉伪造）；(2) 寿命相等不必要（135Nd能量/分支代数平衡）；(3) 反应谱因子非直接空间电荷密度成像（34Si电荷折叠与动态涨落抹平）；(4) 多极双解严禁由模型预期挑选（135Pr联合偏振测定M1主导）；(5) 求和规则截断方差趋零非刚性形变实证（76Ge有限中间态截断人为压低弥散度）。
+
+115将上述实证准则深度同步至核心概念页[[chiral-doublet-bands]]，固化能量近简并不充分、寿命相等不必要与微观手征推断阶梯，使概念层定义与底层源页、方法页高度自洽。
+
+116将摆动运动推断阶梯深度同步至核心概念页[[wobbling-motion]]，确立多极双解严禁由模型预期挑选、联合偏振排他确证与低自旋简谐近似破缺边界。
+
+
+主案例citation keys：`Mukhopadhyay_2007`、`Lv_2019`；反例`Petrache_2006`。DOI分别为https://doi.org/10.1103/PhysRevLett.99.172501、https://doi.org/10.1103/PhysRevC.100.024314、https://doi.org/10.1103/PhysRevLett.96.112502。缺失的其它citation key不补造、不改Bib。
+
+043实际重读MU07全4页及Table I/Figs1–4；103取得APS期刊VoR9页并读主线，视觉核pp2–8全部六图与三页Table I，hash/取得过程见[source-retrieval-103.json](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/source-retrieval-103.json)。052的预印本与103的VoR分别记录；原raw文件及其hash未被替换。回忆均已受旧页priming，冻结记录不当盲考。
+
+| 原子claim | 原件locator | 分层后的当前判断 |
+|---|---|---|
+| MU07-D21-R43-1 | printed172501-2 Table I | 31/2–37/2配对总τ比约1.95–2.29，E2中央比.875–.906可共存；不是因果补偿或等价性CI |
+| MU07-D21-R43-2 | printed172501-2 DSAM段/Fig1 | 作者有真实角门DSAM/宽门方法；代表线不随意改成同spin E2配对 |
+| MU07-D21-R43-3 | printed172501-3/4讨论 | 作者以电磁数据支持手征并保近临界失效；不升格普适充分必要条件 |
+| MU07-D21-R43-4 | printed172501-2及任务率合同 | q、Eγ与τ的恒等关系不分别识别实际分支机制；未知Cov不造新CI |
+| PE06-D21-R45-1/4 | printed112502-3 Eqs3–5/末页结论 | Q比1.6–2.4来自有假设的两带解混合；限制所分析的简单解释，不否定所有动态手征 |
+| LV19-D21-R103-1 | 024314-5 Table I D6 | 591.8/681/812成分仍空；运动学闭合不填实测纯E2 |
+| LV19-D21-R103-2/3 | 024314-5的998.1行/024314-4的334.4行 | 998.1/997及宇称元组有局部冲突；原值和条件计算并列，不擅修数据 |
+| LV19-D21-R103-5 | 024314-8 D5/D6段 | 新JUROGAM采集有新谱学信息；绝对B仍回指MU07，PRM γ按B比校准 |
+| LV19-D21-R104-1 | 024314-5 Table I D6 | 同母态225.8/648.9/896.8的Iγ与成分标签是最小设计输入，不给未知δ |
+| MU17-D21-R107-1 | arxiv PDF p.2 | 测得总截面27.7(1.0) mb，两ℓ=0分支1.5%/1.4%，程函提取2s1/2占据0.17(3)；非直接空间观测量，但有强差分支持 |
+| MU17-D21-R107-2 | arxiv PDF p.4 Eq.(1) | C²S_norm=(bKO/100)*σ_inc/(Rs*σ_sp)，Rs约20%误差已含于发表占据误差中，不可重复叠加 |
+| MU17-D21-R107-3 | arxiv PDF p.2 | 四个未定弱态全取ℓ=0增加占据0.07(3)，中心占据比从0.10升至0.14，替代情景仍远低于36S |
+| MU17-D21-R107-4 | arxiv PDF p.3 Fig.3 | Fig.3为微观RHFB+PKO2理论密度计算，非直接空间成像；点质子亏空不等于电荷亏空 |
+| MU17-D21-R107-5 | arxiv PDF p.4 Methods | 动量分布p∥仅比对高动量侧，低统计弱态无法有效利用p∥；次级束散布与straggling已卷积 |
+| MU17-D21-R107-6 | arxiv PDF p.5 Data availability | 原始事件来自NSCL，derived数据依请求提供；需未来电子-不稳定核对撞装置直接验证 |
+| YA12-D21-R108-1 | PRC 86, 014310 Table I/II | 点质子Fmax从HF 0.41降至GCM 0.21，折叠电荷Fmax降至0.09；点质子与电荷密度不同 |
+| YA12-D21-R108-2 | PRC 86, 014310 p.5 Sec.III | 模型过估ρ²(E0)达4.47倍、过估B(E2)达3.64倍，表明两0⁺态过度混合，密度过度平滑 |
+| YA12-D21-R108-3 | PRC 86, 014310 Eq.(11) | 中子中心隆起使总核子亏空Fsat,t为负（-0.08至-0.07），34Si并非总核物质气泡 |
+| YA12-D21-R108-4 | PRC 86, 014310 p.8 Sec.V | 本文为SLy4模型计算且早于2017实验，不能作为反驳敲出实验差分支持的排他性实证 |
+| PE06-D21-R110-1 | PRL 96, 112502 p.3 Eqs.1-5 | 两带解混合提取Q0比2.0(4)依赖忽略非对角E2且短自旋段V不变假定，非无模型观测 |
+| PE06-D21-R110-2 | PRL 96, 112502 p.2/4 | 134Pr近简并Q0差2倍确立不充分，135Nd对称B(E2)寿命差2倍确立不必要；两核禁迁移 |
+| LV19-D21-R111-1 | PRC 100, 024314 p.8 Sec.III | PRM对CDFT微观形变γ进行经验下调（-2.0至-5.5度），为后验唯象校准非先验预测 |
+| LV19-D21-R111-2 | PRC 100, 024314 p.8 D3/D4 | 正宇称带未测寿命，D3/D4仅1个B比点且借用133Ce类比，不能排他确证MChD |
+| QI09-D21-R112-1 | PLB 675, 175 p.4/6 | 无旋流体惯量比6.77:2.56:1.00；转子沿中轴、质子沿短轴、中子沿长轴形成正交几何 |
+| QI09-D21-R112-2 | PLB 675, 175 p.6 Fig.2-3 | 承认带外跨带B(E2)被系统低估；三轴RMS角动量为正定期望值，非经典矢量直接摄影 |
+| AL11-D21-R113-1 | PRC 83, 054308 App.A | 四极小角线性展开2phi在30/40度分别高估sin(2phi)达20.9%/41.8%，非谐破缺显著 |
+| AL11-D21-R113-2 | PRC 83, 054308 p.2/4/8 | RPA能量软化趋零是谐近似在临界区发散的方法产物，非实测静态手征相界 |
+
+100Sn校准支线实际定向核Hinke printed64/65/76/77及Lubos77/78/80/81（8页均视觉），见HK10-D21-R99-1至3、LB16-D21-R99-1至4。1070是扣除子核/本底后的端点谱样本，2525是识别库存；24个成分属于子核100In，不能据此证明母核24个GT终态。作者用LOGFT，168/304是本任务Sommerfeld近似，不是原论文f。Super GT不等于无淬灭。
+
+[[nndc-2026-logft-calculator-input-contract]] LOGFT26-1至5为当前网页与实际响应；服务器历史版本未得。方法反例采用[[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/4和[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2：四/六阶分开，内部路径截断可双向改变方差，原作者低自旋rigid解释保留。
+
+## Theory/analysis exercise
+
+### Checkpoint116：摆动运动概念层推断阶梯深度同步审计
+
+本检查点将摆动运动的推断阶梯与实验边界全面同步至概念知识层[[wobbling-motion]]：
+1. 多极双解模型倾向性挑选陷阱：角分布与DCO拟合天然存在两个极小值，Matta 2015受模型偏好引导选用大模解（E2主导）使得跃迁表观符合摇摆理论；确立“严禁在未测定确定偏振或转换系数前由模型预期挑选解”的证据门；
+2. 联合偏振排他确证与集体模式证伪：Lv 2022联合线偏振与两点角关联比值（P-Rac）唯一锁定小模解（M1主导，占82%–91%），排除了大模解与摇摆模式；
+3. 低自旋集体进动与简谐破缺：低自旋核芯转动极慢（R约1-2hbar），不满足高自旋小进动角简谐近似（f(n,I)<<1），多表现为倾斜进动（TiP）而非量子化简谐声子。
+
+### Checkpoint115：手征双重带概念层推断阶梯深度同步审计
+
+本检查点将手征双重带的微观物理机制与实验判据全面同步至概念知识层[[chiral-doublet-bands]]：
+1. 概念层判据修正：破除“理想手征带必有严格近简并能量与相等能级寿命”的陈旧观念，确立134Pr证明的能带交叉伪简并反例与135Nd实证的两倍寿命差异电磁代数补偿；
+2. 微观理论边界固化：明确固定形变全量子PRM（Qi 2009）的三轴惯量正交机制与带间跨带E2系统低估张力，明确微观自洽TAC+RPA（Almehed 2011）四极小角展开在30–40度处产生20.9%–41.8%非谐偏离及软化点发散本质；
+3. 多重手征推断门禁：锁定正宇称带未测寿命与向133Ce跨核借用类比的局限，确保概念层描述具有坚实的实验观测量与误差支撑。
+
+### Checkpoint114：高自旋寿命形变推断阶梯全景综合审计
+
+本检查点对第三周所建立的推断阶梯开展全景系统性量化核算与逻辑闭环：
+1. 寿命—强度—形变多层代数映射：对于任意自旋态退激，跃迁几率严格满足B(sigma L)=q_gamma / (C_L * tau * E_gamma^(2L+1))，在同母态相对比中消去共同寿命tau，但严格保留多极混合比delta与分支比协方差；跨带比较必须引入绝对矩阵元，严禁用宏观总寿命不相等否定内禀四极矩对称性；
+2. 微观理论模型适用区间界限：固定形变粒子-转子模型（PRM）再现带内对称性但系统低估带间E2强度，正定均方根角动量算符期望值不可冒充经典带符号矢量；微观均场自洽TAC+RPA小角线性展开在角振幅超过20度后迅速出现强烈非谐性（30度偏高20.9%，40度偏高41.8%），能量软化趋零是谐近似临界发散而非真实相变；
+3. 全要素证据门准则：确立五大排他证据门，将文献作者宣称、唯象模型计算与可复核实验事实严格解耦。
+
+### Checkpoint113：TAC+RPA小振幅谐振子近似破缺与软化点推断审计
+
+实际程序day21_checkpoint113_almehed_rpa_scope.py复核已核原刊Phys. Rev. C 83, 054308的四极形变坐标反演公式与小振幅展开：
+1. 四极张量有限旋转与线性展开偏离量化：对于绕转轴的有限角旋转R3(phi)=exp(-i phi J3)，四极张量Q2-分量精确变换为sin(2phi)，而谐近似线性展开取2phi；在角振幅phi=10度、20度、30度、40度和45度时，线性展开分别相对精确旋转高估2.0%、8.6%、20.9%、41.8%和57.1%；这证明当角振幅超过20度后，体系迅速脱离谐振子势阱，产生强烈的非谐性；
+2. 四极形变坐标反演奇异性：公式Eqs.(A5)-(A6)中形变参数反演分母为<Q0>^2 + <Q2+>^2 = C^2 epsilon^2；在球形极限epsilon->0处坐标反演Jacobian发散，表明形变角度在弱形变极限下的内在奇异性；
+3. RPA软化点的方法论推断边界：论文作者第2/4/8页反复强调，RPA声子能量趋于零（软化点）是小振幅谐近似在自洽均场极小值分叉失稳点附近的发散表现，且理论计算的RPA能量比实验更快趋于零；必须引入大振幅非谐理论；
+4. 推断阶梯核心准则：严禁将均场RPA小振幅近似崩溃的理论软化点当作实验测得的静态手征相变点；微观自洽TAC+RPA与固定形变PRM模型互为补充，但均未闭合135Nd带外跨带B(E2)被低估的实验张力。
+
+输入、hash及局限见almehed-rpa-scope-113.json。本练习为微观张量展开与谐近似适用域量化审计，未重跑TAC+RPA代码，不产生新实验CI。
+
+### Checkpoint112：PRM流体转动惯量比与手征角动量几何审计
+
+实际程序day21_checkpoint112_prm_chiral_geometry_scope.py复核已核原刊Physics Letters B 675, 175的流体转动惯量公式与微观角动量几何：
+1. 无旋流体转动惯量比复算：根据公式Jk = J0 sin^2(γ - 2πk/3)，在固定形变γ=22.4度下，算得中间轴、短轴与长轴的相对惯量分别为0.9825、0.3723与0.1452；以长轴为基准的比值为Ji:Js:Jl = 6.766 : 2.564 : 1.00，与作者四舍五入报告的6.8 : 2.6 : 1.0完全一致；
+2. 三轴正交几何微观机制：转子角动量R主要沿惯量最大的中轴排列以最小化集体转动能；粒子型价质子费米面位于h11/2壳层底部，角动量沿短轴排列；空穴型价中子费米面位于h11/2壳层顶部，角动量沿长轴排列；三者在微观波函数期望值上形成了相互垂直的正交三轴构型；
+3. 跨带跃迁的系统低估：论文作者第6页明确指出，实验测得的带外跨带B(E2)在PRM与TAC计算中均被显著低估，表明固定形变PRM对振动向隧穿过渡区域的动力学波函数混合仍不充分；
+4. 算符期望值的推断阶梯界限：论文展示的三轴角动量分量为均方根值Ik=sqrt(<I_k^2>)、Rk=sqrt(<R_k^2>)等，由于算符平方的期望值严格非负，任何一般量子态在单轴极化时其垂直平面的两轴RMS分量同样恒非零；单靠三轴RMS非零绝不能作为直接测得带符号非共面经典矢量的排他性实验证据。
+
+输入、hash及局限见prm-geometry-scope-112.json。本练习为无旋流体微观公式与算符期望值性质核验，未重跑PRM代码，不产生新实验CI。
+
+### Checkpoint111：多重手征PRM模型调参与正宇称证据边界审计
+
+实际程序day21_checkpoint111_lv19_mchd_scope.py复核已核原刊Phys. Rev. C 100, 024314第8页的理论计算参数与正宇称数据：
+1. 负宇称带D5/D6调参：微观自洽CDFT平衡形变为(β=0.24, γ=22.2度)；为复现实验在I=39/2-处B(M1)/B(E2)比值的突增，PRM计算中三轴形变角手工调整为γ=20.2度（下调2.0度），并设定J0=23.5 hbar^2/MeV与Coriolis衰减因子ξ=0.98；
+2. 正宇称带D2-3qp调参：微观CDFT平衡形变为(β=0.23, γ=22.5度)；为复现实验B(M1)/B(E2)，PRM计算中γ被大幅度人工下调至17.0度（下调5.5度），并设定J0=25.0 hbar^2/MeV与ξ=0.92；高自旋D2-5qp则进一步调为(0.25, 15.6度)；
+3. 正宇称带D3/D4的推断漏洞：PRM计算设定(β=0.23, γ=21.0度, J0=28.0, ξ=0.94)；实验上两带能级间隙近乎恒定为约200 keV；但由于带内跨带E2跃迁极弱，全带仅在I=29/2hbar处提取到1个B(M1)/B(E2)数据点；手征指认明确基于向同中子素133Ce的类比借用；
+4. 科学推断边界：PRM计算对CDFT自洽极小值的多次唯象下调表明其为后验经验校准；正宇称候选带缺乏激发态寿命测量；基于单点B比与向未测寿命的133Ce跨核借用，不能构成确证135Nd正宇称多重手征（MChD）的排他性实验证据。
+
+输入、hash及局限见lv19-mchd-scope-111.json。本练习为原刊文本参数与推断逻辑核验，未重跑PRM代码，不产生新实验CI。
+
+### Checkpoint110：134Pr两带解混合与135Nd手征判据联合量化审计
+
+实际程序day21_checkpoint110_chiral_comparison_scope.py联合复核134Pr两带波函数解混合与135Nd手征带内系统性：
+1. 134Pr两带解混合量化：自旋15态间隙36 keV，|V|≤18 keV，采用V=14 keV得yrast振幅α=0.894；自旋16态间隙44 keV，|V|≤22 keV，采用V=17 keV得α=0.427；提取出内禀四极矩比Q0,1/Q0,2=2.0(4)（允许范围1.6–2.4），对应未混合B(E2)强度比高达4.0（允许范围2.56–5.76）；直接排除了理想手征伙伴解释，量化确立了“能量近简并不充分”；
+2. 135Nd带内电磁系统性量化：自旋31/2-至37/2-态，Band B真实能级寿命（1.46, 0.87, 0.64, 0.48 ps）系统性约为Band A（0.75, 0.44, 0.28, 0.23 ps）的2倍（低自旋均值2.074）；但两带带内B(E2)保持高度近同（前三态严格为0.875，第四态为0.906，低自旋均值0.883）；对应估计的内禀四极矩比仅为1.064（偏离仅6.4%）；实证确立了“能级寿命相等不必要”；
+3. 推断阶梯核心准则：即使两带带内B(E2)高度对称，亦不等于直接证明核处于手征几何（无旋三轴振动亦可产生对称带内四极强度）；确证手征几何的核心排他性判据，必须依赖跨带带间跃迁的特征选择定则与极化测定的多极性。
+
+输入、hash及局限见chiral-comparison-scope-110.json。本练习为成对文献量化对账与方法论不变式核验，未重测原始谱学，不产生新实验CI。
+
+### Checkpoint108：超越平均场点质子与电荷亏空演化及集体跃迁过估审计
+
+实际程序day21_checkpoint108_yao_density_scope.py复核已核原件Phys. Rev. C 86, 014310的打印表格与理论自洽性：
+1. 复算Table I与Table II的亏空因子Fmax = (ρmax - ρcent)/ρmax：点质子HF为0.41、GCM基态为0.21；经高斯形状因子（a=0.65 fm）折叠后的电荷密度HF为0.21、GCM基态降至0.09；
+2. 饱和密度亏空因子Fsat,τ复算：总核子Fsat,t在所有状态下均为负值（-0.08至-0.07），中子Fsat,n亦为负值（-0.37至-0.22），明确证实34Si仅存在点质子中心凹陷，绝非总核物质气泡；
+3. 量化低能集体跃迁的过高估计：理论计算的ρ²(E0; 0₂⁺→0₁⁺)=58.1×10⁻³为实验值13.0(0.9)×10⁻³的4.469倍；带内B(E2; 2₁⁺→0₁⁺)=60.5 e² fm⁴为实验值16.6 e² fm⁴的3.645倍；
+4. 物理推断边界：作者指出E0与B(E2)严重过估表明计算中两最低0⁺态发生过度强烈的组态混合，这必然导致基态的四极动力学涨落被夸大、中心凹陷被过度抹平；因此Fmax=0.09不能被当作客观确证的实验上限；亦不能将理论折叠电荷密度与敲出实验测得的单粒子点质子占据数直接对立。
+
+输入、hash及局限见yao-density-scope-108.json。本练习为文字表格复算与理论自洽性审计，未重放GCM代码，未重拟合泛函，不产生新实验CI。
+
+### Checkpoint107：单质子敲出截面、末态分支与归一化恒等式审计
+
+实际程序day21_checkpoint107_knockout_scope.py复核已核公开稿arXiv:1707.03583v1的中心账本与公式归一化恒等式：
+1. 两ℓ=0末态（2101与3704 keV）布居比例之和为b_sum = 1.5% + 1.4% = 2.9% = 0.029；
+2. 乘以发表的全反应截面27.7 mb，得到两选定态的部分敲出截面中央值为0.8033 mb；
+3. 提取的34Si质子2s1/2占据数0.17与36S的1.7相比，中心占据比为0.10；
+4. 若将作者讨论的四个未定弱态（2666, 2696, 2816, 3193 keV）全部保守假设为ℓ=0（额外贡献0.07），则总占据为0.24，对应中央占据比从0.10升至0.1412，仍显著处于耗尽区间；
+5. 归一化合同Methods Eq.(1)表明，公共淬灭因子Rs的约20%不确定度已包含在发表的占据数误差±0.03中，严禁作为独立不确定度再次二次相加；跨核迁移中Rs的相消依赖两核反应机制相近的明确假设；
+6. 强调点质子密度与电荷密度的概念边界：Fig. 3理论计算的点质子密度耗尽，与超越平均场电荷密度折叠后的电荷亏空是不同物理量；不能混同为直接成像，亦不能以电荷分布平滑直接抹杀敲出实验对2s1/2壳层耗尽的强差分支撑。
+
+输入、hash及局限见knockout-scope-result-107.json。本练习为文字账本与归一化恒等式核验，未重放反应分析job，未取得原始事件，不产生新实验CI。
+
+### Checkpoint106：模型表格与打印舍入不是新实验误差
+
+实际程序day21_checkpoint106_monopole_scope.py复算已核VoR Table I：N3LO裸K1加权迹=.002MeV，4hw的total差与K1差有−.001MeV残差。若各项按最近.001MeV舍入，则相容零迹的条件舍入半宽为.003MeV，差分闭合半宽.002MeV；均非统计CI，不能改表强制零。1.47×.257=.37779MeV只复现作者约378keV的模型中央关系；Baranger380同源，不计第二套独立实验。输入、hash及局限见monopole-scope-result-106.json。
+
+
+### 同母态最小信息与反证设计
+
+VoR母态4007.8keV（31/2负）的225.8、648.9、896.8keV光子相对Iγ为3.8、1.8、.79。假设匹配photon率、896.8纯E2、另两线M1/E2截断，设u=δ225²、v=δ649²：
+
+R_E2=C(1+u)/u，C=(.79/3.8)(225.8/896.8)^5=.0002103706674；
+R_M1=D(1+u)/(1+v)，D=(1.8/3.8)(225.8/648.9)^3=.01995847704。
+
+共同τ和共同强度归一消去，但u/v未知时两个B比不可唯一提取；增加一个总τ不能识别多极份额。只要E2比，优先补225.8成分及匹配响应；M1比还需648.9。若需绝对强度，再补meanτ、绝对branch/IC、feeding/stopping和共同误差。纯E2合同内的下确界C不是模式阈值；δ号不由δ²确定。
+
+[104结果](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/same-parent-identifiability-104.json)和代码system/scripts/day21_checkpoint104_same_parent_identifiability.py只检查解析关系与声明有理数控制，不是CAS普遍证明或实测δ/CI。首次缺sympy退出1，标准库改写后exit0；两次执行证据分别保存。
+
+### 版本身份与程序定义控制
+
+| 实际练习 | 结果 | 不越过的范围 |
+|---|---|---|
+| 103 VoR中央能差/宇称元组 | 998.1按自身Ei5412.6闭合；按另一母态5411.6则残差−1keV，条件能差997.1。334.4字面M1/E2与反宇称元组不相容 | 不选择哪个字段应改；不是实测997.1、sigma或手征证伪 |
+| 102当前NNDC四个请求 | 两端点3.29/3.74MeV给logft2.62/2.86；Q/Ex同移values不变；branch100→50且总T不变，logft2.86→3.16 | Q与分支是声明控制；不作2010/2016原job或新独立实验 |
+| 99近似积分对照 | Sommerfeld β+比1.81002，有限半径Dirac函数控制比1.78572；均未包括EC等全部项 | 105.5%仅两比之比，非解释率/统计覆盖率；由B/T倒算f只是恒等式 |
+
+精确输入、hash、公式与执行文件分别见[103](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/vor-line-identity-result-103.json)、[102](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/logft-contract-result-102.json)、[99](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/phase-space-scope-099.json)。数值控制不冒充L4或原实验CI。
+
+### 自拟未知摘要练习：可以说、不能说、下一步测什么
+
+题干为本任务自拟，非真实新实验或盲测：“同宇称双带能量接近，角比允许M1/E2；总寿命不同；有相对Iγ，未给δ与共同响应误差。”
+
+可以说已有候选双带和谱学/寿命提取量。不能说已唯一确证手征或γ刚性，也不能仅由τ不同否定手征。下一步先匹配母/子态、成分与门/效率/背景，再补最有信息的δ/分支；按目标是相对比或绝对B决定是否需新增τ。最后比较同一观测身份下的指定模型Θ。
+
+## Counter-evidence and missing companion observables
+
+反证对象须明确：对于普通同宇称手征伙伴身份，若可靠标定证明这对带相反宇称，可反驳这对身份前提（[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D21-R50-1）；不能顺带排除其它配对。印刷334.4元组冲突本身不是这种新实测反证。
+
+对于指定近谐/固定组态模型，若匹配强度向量在允许响应/feeding/stopping下始终位于预先冻结Θ的全部预测域外，才反驳该版本解释。模型已声明失效的近临界区不能套相同检验。当前没有实际Θ/jointCov/原计数，不报告排他显著性、几天曝光或最小可测差。
+
+已有Gammasphere DSAM/符合分析和JUROGAM角比/部分线偏振，证明相关技术路线存在；不能据此保证225.8/648.9的新混合比精度或把未标定Gammasphere当已知偏振仪。原producer、匹配门谱/效率、两个混合份额与共同误差是当前必要companion。
+
+## Knowledge Impact and Learning Decision
+
+106的`revises`针对输入和归属，`supports`保作者有条件双体SO支持；K分解与原实验不是两类完全无关证据，也不能被一句“真实全部力效应唯一由K1承载”替代。该修订不改变135Nd或100Sn的既有限定结论。
+
+107的`limits`核准2s1/2质子空竭来自单质子敲出截面与程函反应模型推演，非直接空间成像；澄清点质子密度与电荷密度的物理区别，排除重复叠加Rs系统误差；同时`supports`肯定36S/34Si差分比较所提供的可复核实验支持，不以模型依赖全盘否定实验观测。
+
+108的`limits`核准四极动力学涨落与有限电荷折叠显著压低中心亏空（从0.41至0.09）的物理机制；揭示模型过估E0强度4.47倍与B(E2)3.64倍所反映的组态过度混合与过度平滑局限；明确理论计算不可作为反驳敲出实验差分观测的排他性事实。
+
+110的`limits`核准两带解混合模型提取2.0(4)四极矩比的条件假定；确立“能量近简并不充分、能级寿命相等不必要、带内B(E2)对称仍非充要”的三重手征推断阶梯；严禁在134Pr与135Nd之间任意跨核移植寿命或分支数据。
+
+111的`limits`核准Lv 2019中微观CDFT到PRM计算中经验下调γ形变角2.0–5.5度的唯象后验校准本质；明确正宇称带未测寿命的事实，揭示D3/D4仅单点B比且依赖133Ce跨核类比的证据脆弱性，确立多重手征声称的推断边界。
+
+112的`limits`核准Qi 2009中无旋惯量比计算与三轴正交模型几何；确认跨带B(E2)理论低估的实验张力；澄清均方根角动量算符的正定性，排除单凭RMS非零直接认证经典手征矢量的倾向。
+
+113的`limits`量化核准四极张量小角线性展开在30–40度处高估20.9%–41.8%的非谐偏离；明确论文作者关于RPA能量软化是谐近似临界发散而非真实相变的界定；确立微观均场声子理论与实验观测之间的推断阶梯。
+
+114的`supports`确立高自旋寿命形变推断阶梯在跨来源综合知识页中的全面沉淀，系统闭合五大实证支柱与推断阶梯证据门准则。
+
+115的`supports`将手征推断阶梯深度同步至核心概念页chiral-doublet-bands，全面固化能量近简并不充分、能级寿命相等不必要与微观理论适用域的系统性认知。
+
+116的`supports`将摆动运动推断阶梯深度同步至核心概念页wobbling-motion，全面固化多极双解严禁由模型挑选、极化确证与低自旋简谐破缺的系统性证据门准则。
+
+`supports`：保原作者在135Nd的手征支持及新连接/宇称信息。`revises`：修复模型/原件归属、total/photon branch、端点/Q、VoR/原job和局部标签混用。`limits`：拒绝由总τ、单个Qt、有限不变量或当前程序吻合直接裁定唯一机制。`conflicts`仅用于已明确的字面元组不相容，不替代对全篇科学解释的检验。
+
+105把已撤回的旧案例复述移出活跃方法/日报正文；这是一项纠错写回，不代表其它源页所有历史事实被否定或审核完成。
+
+## Durable knowledge delta
+
+106更新knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md的BU14-D21-R106-1至6，正文/旧R56认证按新原件边界修订，旧完整页存superseded-106；方法页保存观测—反应提取—SM/力分解的层次，未改raw/review/flags。
+
+107更新knowledge/sources/mutschler-2017-34si-proton-density-bubble.md的MU17-D21-R107-1至6，旧R56条目标为superseded存入superseded-107；方法页保存单质子敲出—谱因子—空间点质子密度—电荷密度的分层推断边界；未改raw/review/flags。
+
+108更新knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md的YA12-D21-R108-1至4，方法页补充超越平均场关联、电荷折叠与气泡推断边界；未改raw/review/flags。
+
+110更新knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md的PE06-D21-R110-1至2，方法页确立134Pr与135Nd手征判据对账与推断阶梯准则；未改raw/review/flags。
+
+111更新knowledge/sources/lv-2019-chirality-135nd-reexamined.md的LV19-D21-R111-1至2，方法页补充多重手征候选带经验调参与跨核类比边界；未改raw/review/flags。
+
+112更新knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md的QI09-D21-R112-1至2，方法页确立粒子-转子模型三轴正交几何与算符量词边界；未改raw/review/flags。
+
+113更新knowledge/sources/almehed-2011-chiral-vibrations-a135.md的AL11-D21-R113-1至2，方法页确立微观自洽TAC+RPA小振幅谐振子近似破缺边界；未改raw/review/flags。
+
+114更新knowledge/synthesis/high-spin-lifetime-strength-deformation.md，方法页补充推断阶梯跨来源综合闭环与证据门全景准则；未改raw/review/flags。
+
+115更新knowledge/concepts/chiral-doublet-bands.md，方法页补充手征双重带概念层证据门与推断阶梯深度同步；未改raw/review/flags。
+
+116更新knowledge/concepts/wobbling-motion.md，方法页补充摆动运动概念层多极双解与低自旋边界深度同步；未改raw/review/flags。
+
+- [[lv-2019-chirality-135nd-reexamined]]保存R103-1至5与R104-1的VoR身份及原字面输入。
+- [[day21-135nd-same-input-falsification-design]]保存同母态最少信息、模型Θ/装置边界；公式依据LKH82-1。
+- [[hinke-2010-100sn-decay-spectroscopy]]与[[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]]保存R99原件纠错；[[nndc-2026-logft-calculator-input-contract]]保存LOGFT26当前接口/响应。
+- [[experimental-claim-boundaries]]保存七层梯度与有限合同；旧案例保标题/快照，不让旧科学认证覆盖当前边界。
+
+以下唯一机器块保留本run全部目标映射，其中许多项仅是撤回注释或导航。路径/原子ID存在不等该页全部科学内容已核，不以条目数量授分。
+
+```knowledge-writeback
+{
+  "status": "updated",
+  "items": [
+    {
+      "knowledge": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "anchor": "Day21 checkpoint042：133La 原件主线与量词纠正",
+      "summary": "重读原件，纠正Table1与联合多极性scope、轴和有效惯量解释；不认证自选小根。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-1"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-3"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/experimental-claim-boundaries.md",
+      "anchor": "Checkpoint042：计算检查与科学证据的边界",
+      "summary": "105退役旧案例过强正文，保留章节锚点和43–53/99–104限定合同；新增七层证据梯度。106补SM/K分解；107补敲出截面；108补GCM电荷折叠；110确立手征判据；111补多重手征调参；112确立PRM正交几何；113确立RPA小振幅谐近似破缺；114确立推断阶梯全景证据门；115同步手征概念层；116同步摆动概念层。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-4"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R45-1"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R45-4"
+        },
+        {
+          "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+          "locator": "HE20-D21-R47-1"
+        },
+        {
+          "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+          "locator": "HE20-D21-R47-4"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+          "locator": "AY19-D21-R47-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R104-1"
+        },
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-2"
+        },
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-3"
+        },
+        {
+          "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "locator": "LB16-D21-R99-1"
+        },
+        {
+          "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "locator": "LB16-D21-R99-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-5"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-3"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-5"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-1"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-4"
+        },
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-1"
+        },
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-2"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R110-1"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R110-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R111-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R111-2"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R112-1"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R112-2"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R113-1"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R113-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。；050补暂定135Nd同输入反证设计导航。；051加入实际理论后续与本核参数缺口/线性域边界。；053核全量子PRM参数点、固定形变与RMS非排他边界。；092补充100Sn独立证据地图与Gamow-Teller概念页导航。 102补当前NNDC接口source导航，不认证原实验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R51-2"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R53-2"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/bands/131ba-positive-parity-pseudospin-chiral-quartet.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/antimagnetic-rotation.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/band-termination.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/chiral-doublet-bands.md",
+      "anchor": "Day 21 Checkpoint 115 证据门升级：能量近简并不充分、寿命相等不必要与微观手征推断阶梯",
+      "summary": "115将手征推断阶梯深度同步至核心概念页，确立能量近简并不充分、寿命相等不必要、带内B(E2)对称非充要的三重准则及微观模型边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R110-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-1"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R112-1"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R113-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/chirality-parity-quartet-band.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/drip-line-radioactivity.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/gamma-rigid-deformation.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/gamma-soft-deformation.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/longitudinal-wobbling.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/octupole-deformation.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/octupole-softness.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/pseudospin-chiral-quartet-bands.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/reflection-asymmetric-nuclei.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/shears-mechanism.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/signature-inversion.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/superdeformation.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/tidal-wave.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/transverse-wobbling.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/triaxial-shape-coexistence.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/two-photon-nuclear-decay.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/wobbling-motion.md",
+      "anchor": "Day 21 Checkpoint 116 证据门升级：角分布多极双解排他性、极化确证与低自旋摇摆模式证伪",
+      "summary": "116将摆动运动推断阶梯深度同步至核心概念页，确立多极双解严禁由模型预期裁决、极化排他确证与低自旋简谐破缺准则。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D21-R55-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D21-R55-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D21-R55-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/100sn-gamow-teller-independent-evidence.md",
+      "anchor": "相空间五次方幂律非线性敏感度（Day 21 Checkpoint 078 定量结果）",
+      "summary": "099撤回105.5%解释率/淬灭闭合，区分Sommerfeld β+练习、论文LOGFT和同源f倒算。 102补实际NNDC当前响应、端点平移与绝对分支控制，不作历史/实验CI复现。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-2"
+        },
+        {
+          "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "locator": "LB16-D21-R99-3"
+        },
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/afanasjev-1999-termination-rotational-bands.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/alder-1956-coulomb-excitation-review.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ame2020-sn132-mass-curvature.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2016-133ce-in-beam.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+      "anchor": "Day21 checkpoint047：保留低自旋刚性主张与实际复核缺口",
+      "summary": "047定向原件更正005过强认证，分清不变量阶数/样本与实验/真实截断与未知Cov边界。 048以真实长文更新Ref37缺口及版本边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+          "locator": "AY19-D21-R47-1"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+          "locator": "AY19-D21-R47-2"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+          "locator": "AY19-D21-R47-3"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+          "locator": "AY23-D21-R48-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+      "anchor": "Day21 checkpoint106：正式版的推断层次与模型条件",
+      "summary": "106实际读VoR5页/三图/TableI，修设置/SF/校准SM与指定K分解的归属及舍入；旧R56过强认证撤回，保原review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-1"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-2"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-3"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-4"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-5"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+      "anchor": "Day21 checkpoint046：现代拟合归属与E2率的单位修复",
+      "summary": "重核现代联合AD最优解，修复E2电荷单位并保留绝对branch/τ缺口；不恢复旧任设B。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D21-R46-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D21-R46-2"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D21-R46-3"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/clark-2000-shears-mechanism.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/dey-2026-116cs-multifaceted-decay.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/domscheit-1999-triaxial-superdeformation-163lu.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-2015-low-energy-quadrupole-mode.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hayes-2005-k-conservation-178hf.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+      "anchor": "Day21 checkpoint047：四阶与六阶、样本与截断方向",
+      "summary": "047定向原件更正005过强认证，分清不变量阶数/样本与实验/真实截断与未知Cov边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+          "locator": "HE20-D21-R47-1"
+        },
+        {
+          "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+          "locator": "HE20-D21-R47-2"
+        },
+        {
+          "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+          "locator": "HE20-D21-R47-3"
+        },
+        {
+          "path": "knowledge/sources/henderson-2020-quadrupole-invariant-convergence.md",
+          "locator": "HE20-D21-R47-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+      "anchor": "Day21 checkpoint099：端点、LOGFT与部分半衰期的定向原件核验",
+      "summary": "定向原读printed64/65/76/77，修复公式、LOGFT归属和Super GT语义；撤回R84复合认证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hubel-2005-magnetic-rotation-review.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jones-2010-133sn-single-particle-transfer.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/liu-1996-signature-inversion-a130.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+      "anchor": "Day21 checkpoint099：谱样本、子核成分与LOGFT边界",
+      "summary": "定向原读printed77/78/80/81，区分1070谱样本、2525库存、24子核成分和LOGFT；不裁决q²。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "locator": "LB16-D21-R99-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。；052核本核后续新采集/旧B血缘与具体行成分缺口。 103实际VoR九页主线/六图及局部表格核验，收窄原producer缺口，保空栏/残差而不擅改。 104以实际同母态输入建立最少伴随测量与可辨识性合同，不赋新实测δ/CI。 111核对正刊第8页参数调参（γ下调2.0至5.5度）与正宇称带未测寿命/单点B比借用边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R52-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R104-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R111-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R111-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "anchor": "Day21 checkpoint043：135Nd课程主案例的逐claim原件审计",
+      "summary": "全4页原件重核TableI、门条件、模型临界失效与同源率/Cov边界；不认证真实补偿。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-2"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-3"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "anchor": "Day21 checkpoint110：134Pr两带解混合模型假定与135Nd手征判据对账",
+      "summary": "110核对PRL原件全文4页/Table I/公式，澄清两带解混合模型中Q0比2.0(4)的假定条件，确立能量简并不充分、寿命相等不必要、带内B(E2)对称非充要的推断阶梯。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R110-1"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R110-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/pfutzner-2012-radioactive-decays-stability-limits.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/regis-2015-generalized-centroid-difference.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/walker-dracoulis-2001-exotic-isomers.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/walz-2015-competitive-double-gamma-137ba.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+      "anchor": "Day21 checkpoint049：逐相位原值、停止方向与共享寿命",
+      "summary": "定向核原始phase表、目标寿命约束、停止方向与真实旧新行；计算仅F归一与中心更新，不新拟合或平均phase。",
+      "sources": [
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-D21-R49-1"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-D21-R49-2"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-D21-R49-3"
+        },
+        {
+          "path": "knowledge/sources/woodside-2026-fe58-collectivity-coulex-dsam.md",
+          "locator": "WO26-D21-R49-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/xiao-2022-chirality-octupole-correlations-74as.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+      "anchor": "Day21 checkpoint108：超越平均场点质子与电荷密度演化边界审计",
+      "summary": "108实际核对PRC全文9页/Table I/Table II/Section III，澄清点质子与电荷折叠亏空演化、E0强度过估4.47倍与B(E2)过估3.64倍所致过度平滑，排除将单一模型计算作排他性实验反证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-1"
+        },
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-2"
+        },
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-3"
+        },
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md",
+      "anchor": "Day21 checkpoint042 审计边界",
+      "summary": "限定撤回本页本run001–041新增的未经原件账本核实的科学认证；保留原source claims/review/flags。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-lifetime-strength-deformation.md",
+      "anchor": "Day21第三次周考综合：推断阶梯与实验边界在寿命形变中的统一（Checkpoint114升级）",
+      "summary": "114系统升级高自旋寿命、强度与微观形变跨来源综合，统合五大成对实证支柱与推断阶梯准则，确立严谨实验结论边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R110-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-1"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-1"
+        },
+        {
+          "path": "knowledge/sources/yao-2012-34si-beyond-mean-field-bubble.md",
+          "locator": "YA12-D21-R108-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+      "anchor": "Day21 checkpoint044：逐线能级回路与跨来源身份边界",
+      "summary": "纠正采集fold，补跨带/带内逐线拓扑和能量闭合账目，保留日期/弱线/强度绑定缺口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D21-R44-1"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D21-R44-2"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D21-R44-3"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D21-R44-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+      "anchor": "Day21 checkpoint048：后续长文、版本行与误差合同",
+      "summary": "定向核后续长文作者误差更正与态编号、原相关误差声明，加入穿零区间像控制；未取得jointCov/job。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+          "locator": "AY23-D21-R48-1"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+          "locator": "AY23-D21-R48-2"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+          "locator": "AY23-D21-R48-3"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2023-ge76-coulomb-excitation-full.md",
+          "locator": "AY23-D21-R48-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/day21-135nd-same-input-falsification-design.md",
+      "anchor": "135Nd：给“支持手征”设置明确的可证伪对象",
+      "summary": "同母态率合同、模型Θ反证与身份层同宇称反证，保实际装置可测边界及缺producer/Cov。；051加入实际理论后续与本核参数缺口/线性域边界。；052核本核后续新采集/旧B血缘与具体行成分缺口。；053核全量子PRM参数点、固定形变与RMS非排他边界。；060确认MU07 Ref.32理论闭环与PRL Table I为本次已核文献链的实验寿命出处。；089完成与七大支柱及相空间幂律敏感度的跨方法对账。 099修复因果/必要充分量词与原积分归属；原件和条件计算分层，不作全科学认证。 103实际VoR九页主线/六图及局部表格核验，收窄原producer缺口，保空栏/残差而不擅改。 104以实际同母态输入建立最少伴随测量与可辨识性合同，不赋新实测δ/CI。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-3"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-4"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D21-R44-2"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+          "locator": "FM97-D21-R50-1"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R51-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R52-3"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R53-2"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R60-1"
+        },
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-2"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R103-5"
+        },
+        {
+          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+          "locator": "LV19-D21-R104-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "anchor": "Day21 checkpoint050：同宇称身份前提的定向复核",
+      "summary": "定向核同宇称与parity doubling区别，不改原人审/flags，不宣称全17页重读。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+          "locator": "FM97-D21-R50-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+      "summary": "113核对PRC原刊第2/4/8页及Appendix A，量化小角线性展开非谐偏离（30/40度偏高20.9%/41.8%），澄清RPA能量软化趋零是谐近似发散而非实测相界。",
+      "anchor": "近谐手征振动：模型的软化点不是实测相界",
+      "sources": [
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R51-2"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R113-1"
+        },
+        {
+          "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+          "locator": "AL11-D21-R113-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+      "summary": "112核对PLB原刊第4/6页，复算无旋惯量比（6.77:2.56:1.00），澄清三轴正交几何、跨带B(E2)系统低估与均方根角动量算符正定性边界。",
+      "anchor": "135Nd：量子隧穿的模型解释与可观测量分层",
+      "sources": [
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R53-2"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R112-1"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "QI09-D21-R112-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/starosta-2001-n75-chiral-vibrations.md",
+      "summary": "核验134Pr原始手征转动假说提出、3D TAC势垒计算与数据血缘，确认未测寿命与有条件结论。",
+      "anchor": "Day21 checkpoint054：134Pr原始手征主张与数据血缘审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/starosta-2001-n75-chiral-vibrations.md",
+          "locator": "ST01-D21-R54-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "summary": "核验135Pr小模解M1主导、旋称伙伴带分支比违背选择定则，澄清未测寿命与纠正绝对W.u.外推。",
+      "anchor": "Day21 checkpoint055：135Pr带间相对几率与绝对强度边界审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D21-R55-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "summary": "核验135Pr支持方数据范围与相对分支比，确认未测寿命与大模解未排小解的证据边界。",
+      "anchor": "Day21 checkpoint055：支持方数据范围与相对强度审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D21-R55-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+      "summary": "106实际读VoR5页/三图/TableI，修设置/SF/校准SM与指定K分解的归属及舍入；旧R56过强认证撤回，保原review/flags。",
+      "anchor": "Day21 checkpoint106：正式版的推断层次与模型条件",
+      "sources": [
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-1"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-2"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-3"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-4"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-5"
+        },
+        {
+          "path": "knowledge/sources/burgunder-2014-35si-two-body-spin-orbit.md",
+          "locator": "BU14-D21-R106-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+      "summary": "107实际核对公开稿6页/Methods/各图，澄清截面与占据提取、点质子与电荷密度、Rs系统误差已含及四弱态替代，保留36S/34Si差分实验支持。",
+      "anchor": "Day21 checkpoint107：单质子敲出、占据数与空间密度推断边界审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-1"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-2"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-3"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-4"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-5"
+        },
+        {
+          "path": "knowledge/sources/mutschler-2017-34si-proton-density-bubble.md",
+          "locator": "MU17-D21-R107-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "summary": "核验133Ce未测寿命事实与跨核借用135Nd边界，确认400 keV能隙非排他性与134Pr反例阻断。",
+      "anchor": "Day21 checkpoint057：133Ce跨核寿命借用与能级间距非排他性审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+          "locator": "A13-D21-R57-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2016-133ce-in-beam.md",
+      "summary": "核验133Ce 2016年全面在束谱学建立20条能带后，对手征模式措辞弱化与推断边界收缩。",
+      "anchor": "Day21 checkpoint057：2016全谱拓扑演化与模式确定性收缩审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/ayangeakaa-2016-133ce-in-beam.md",
+          "locator": "A16-D21-R57-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "summary": "核验135Nd手征研究Ref.32理论落地为Almehed 2011，确认PRL Table I为寿命本次已核文献链的实验输入出处与五步文献谱系闭环。",
+      "anchor": "Day21 checkpoint060：Ref.32文献闭环与全数据谱系整合",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R60-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/gamow-teller-strength.md",
+      "anchor": "Day21 Checkpoint090 推断阶梯边界：相空间五次方幂律非线性敏感度",
+      "summary": "099撤回105.5%解释率/淬灭闭合，区分Sommerfeld β+练习、论文LOGFT和同源f倒算。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-2"
+        },
+        {
+          "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "locator": "LB16-D21-R99-3"
+        },
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R99-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/lifetime.md",
+      "anchor": "Day21 Checkpoint093 推断阶梯边界：寿命发散与电磁对称性的解耦",
+      "summary": "确立能级寿命与内禀形变解耦判据（135Nd寿命差2倍保持B(E2)对称，134Pr近简并Q0差2倍）；确立寿命相等非手征必要条件、绝对B矩阵元为第一级仲裁的证据门规则。 099修复因果/必要充分量词与原积分归属；原件和条件计算分层，不作全科学认证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D21-R43-1"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R45-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/transition-quadrupole-moment.md",
+      "anchor": "Day21 Checkpoint094 推断阶梯边界：跃迁四极矩反演与推断阶梯七大支柱规范",
+      "summary": "确立跃迁四极矩反演推断阶梯准则（K约定几何依赖、波函数混合遮蔽宏观形变、高阶四极不变量求和截断偏置）；连接七大支柱与电磁形变边界。 099修复因果/必要充分量词与原积分归属；原件和条件计算分层，不作全科学认证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D21-R45-1"
+        },
+        {
+          "path": "knowledge/sources/ayangeakaa-2019-rigid-triaxial-ge76.md",
+          "locator": "AY19-D21-R47-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
+      "anchor": "Day21 Checkpoint095 推断阶梯边界：角分布双解简并与线偏振排他选根",
+      "summary": "确立角分布多极混合比双解反演推断阶梯准则（严禁按理论偏好选大模解，必须以联合偏振P-Rac排他锁定小模解与选择定则证伪摇摆模式）；对账135Pr核心争议。 099修复因果/必要充分量词与原积分归属；原件和条件计算分层，不作全科学认证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D21-R55-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D21-R55-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+      "anchor": "LOGFT：先匹配输入含义，再比较输出",
+      "summary": "实际当前NNDC输入/输出和四项声明单通道控制；保版本/原branch/EC与误差边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-1"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-3"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-4"
+        },
+        {
+          "path": "knowledge/sources/nndc-2026-logft-calculator-input-contract.md",
+          "locator": "LOGFT26-5"
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Open questions and belief revision
+
+1. 原始MU07逐行E2/M1成分、branch、response和jointCov仍缺；不能由同源B/τ恒等式反造它们。
+2. VoR已得，缺口已收窄到998.1/997、334.4及重复母态的原校准/作者更正；不再沿用“VoR未取得”。
+3. 当前LOGFT程序定义已执行核验；历史版本/EC选项与原实验误差仍缺，当前吻合不恢复105.5%认证。
+4. 尚需指定模型预测域Θ和仪器功效输入，才能将最小测量设计推进为量化排他检验。
+
+### 综合口试评分表（primed开卷自审，暂定16/24）
+
+不把用户成绩或课程学分混入此表。原21/24、22/24暂停，24/24不恢复；新增来源/脚本数量不提高分数。3分表示能给正确有界答题，2分表示关键题仍有本轮错误或未量化的设计短板。
+
+| 维度 | 当前可复核表现与局限 | 分数 |
+|---|---|---|
+| 理论/公式 | 区分总/部分率、端点/Q及M1/E2份额；曾误标近似积分，已纠正 | 3/4 |
+| 原件/观测身份 | 核1070谱样本、24子核成分、VoR局部元组；不把84算原件完成 | 3/4 |
+| 误差/响应 | 保fit-range相关性、共同误差与原job缺口；不造新CI | 3/4 |
+| 事实/解释/模型分层 | 曾重复伪刚性/因果补偿强断言，当前已退役并保条件来源 | 2/4 |
+| 竞争解释/反证 | 能限定身份与特定Θ反证，不作全动态手征排除 | 3/4 |
+| 最小实验设计 | 104明确优先混合份额；但缺真实计数/响应与模型域，未给功效 | 2/4 |
+
+### Weekly REFLECT（第三周）
+
+第三周把角分布、偏振、多极份额、寿命和形变接到同一依赖链。关键认识不是某个观测量更高级就可直接裁决：它们都需对象身份、响应与误差合同。一个原作者模型解释不能被任务算术自动替换成真实机制。
+
+本轮最严重的过程错误是过强句子在方法、项目、概念、综合和writeback间复制，产生了“页面更多、证据更强”的错觉。105保留旧快照并退役活跃复述；62/81的写死verified标签与检查器原子命中均不能认证科学。原source、review/flags和错误过程继续可追溯。
+
+具体改进是从泛泛“再测寿命”走向104的同母态最少输入：先补影响目标比值的混合份额和共同响应。下周继续竞争解释前须先匹配观测身份，给出可反驳的指定模型域；Day22正式卡仍待其真实新run，不由本次预先授分。
+
+## L0–L4 state
+
+L0–L2：已完成上述限定原件/定义/解析控制。L3：同输入反证与最小测量设计仍provisional。L4：原事件、producer、匹配响应与jointCov未齐，不认证原实验重分析；当前NNDC软件控制与声明有理数检查不冒充新的实验CI。Day20科学输入缺口没有因这些脚本通过而补齐。
+
+## Verification and continuation
+
+当前真实时间/窗口看[runtime-snapshot-105.json](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/runtime-snapshot-105.json)，不沿用启动快照或queued时间。仍在原15:00前，研究继续；本页不是最终session receipt。逐卡最终状态、最后检查、下一日准备提示、H3、一次Day21学分及发布尚未完成。
+
+已有真实检查：99重检exit0；102首次INDEX_MISSING退出1，补索引由103共同检查覆盖；103全部命令exit0，218 warnings/4225 info；104命令exit0/native有效，218 warnings/4226 info。105正文改变后另做实际lint/boundary/diff/native检查，以[required-checks-105.json](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-105.json)为准，未执行前不预报通过。time-only的97/98/100/101检查文件不冒充完整执行记录。
+
+续接先读run.json，按[105提示](20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-105.md)继续同一session；PID2698/3340只监视/送达，不代替实质研究，不因观察超时重启。下一候选是当前问题的模型Θ/响应可辨识边界，或指定原producer的有信息检索；少于90分钟不打开新来源/卡。当前不把局部饱和当提前结算理由。
+
+105实际检查：lint/boundary/git diff --check/结构写回均exit0，native/report/coverage valid，保护哈希匹配。lint保留218 warnings（180 citation key、34 raw missing、4 reaction parse）/4226 info；方法/日报整理通过结构检查不等其它所有源页科学复核。旧完整快照hash可核，仍恰好一个写回块。此后只更新检查/运行说明，知识正文未变；未授分、未发布，Day21研究继续。

@@ -34,6 +34,8 @@ raw_sha256: "654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9"
 
 # 128Cs partner-band lifetimes and transition strengths
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - E. Grodner *et al.*, “128Cs as the Best Example Revealing Chiral Symmetry Breaking,” *Phys. Rev. Lett.* **97**, 172501 (2006), DOI 10.1103/PhysRevLett.97.172501.
@@ -116,3 +118,11 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | GR06-D19-1 | Grodner 2006 在 $^{128}\text{Cs}$ 高自旋（$I \ge 12\text{--}16$）测得伴随带与 yrast 带呈现高度对称的带内 $B(E2)$ 与 $B(M1)$ 强度（比值在 $0.8\text{--}1.2$ 之间，反衬 $^{132}\text{La}$ 伴随带 $B(E2)$ 衰减达 $20$ 倍的不对称性），并在带内与带间观测到 $M1$ 奇偶交错，确立了手征对称性破缺的电磁指纹。结合 12 年后 Grodner 2018 对同一核 $9^+$ 带头测得的 TDPAD $g = +0.59(1)$ 这一近平面构型（$\langle \hat{o} \rangle \approx 0.15$），构建了统一的临界频率手征涌现物理图像：$^{128}\text{Cs}$ 的手征构型在低自旋带头处尚未建立三维空间正交，本质上处于共面/手征振动态；只有随着转动频率增加、偶偶芯角动量 $\vec{j}_R$ 增长并与 $(\vec{j}_p, \vec{j}_n)$ 质子中子平面垂直展开后，在 $I \ge 13\text{--}14$ 的高自旋区才动态过渡为真正的三维手征转动进动。两代测量在不同自旋窗口各自成立且物理自洽。 | cross-era-synthesis-contract | direct-original-and-derived | PRL 97, 172501 Figs2,4,6；PRL 120, 022502；grodner06-128cs-partner-result-035.json | true |
+
+## Day 21 Checkpoint 021 证据门量化审计：128Cs 伙伴带寿命、侧馈外推与手征振动能隙边界
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint021_chiral_selection_rules_cs_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/chiral-selection-rules-cs-audit-021.json），对 Grodner 2006 的 128Cs 手征主张完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR06-D21-1 | 依据推断阶梯审计，Grodner 2006 关于 128Cs 最佳手征对称性破缺的排他性确证被严格限制：(1) 有限能隙事实：实测双重带能量差在全自旋区间维持在 Delta E = 105–224 keV，从未发生能量简并，排他性证实其处于量子隧穿的手征振动状态而非静态手征破缺；(2) 侧馈外推系统误差：未观测侧馈参数由 131La 借用，引入约 +/-15% 的系统误差；(3) 纯 M1 假定局限：Delta I = 1 跃迁假定 delta=0 未经线偏振检验；(4) 确立“有限能隙不可断言静态手征破缺”的核心证据门准则。 | source-result-and-boundary | derived-and-boundary | pp.1-4, Figs.2, 4; chiral-selection-rules-cs-audit-021.json | true |

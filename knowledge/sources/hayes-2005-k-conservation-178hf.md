@@ -36,6 +36,8 @@ tags: [a180, high-k, k-mixing, coulomb-excitation, rotational-alignment, isomer,
 
 # Hayes 2005：`178Hf` 中 K 守恒的破缺
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Adam B. Hayes，*Violations of K-Conservation in 178Hf*，University of Rochester，博士学位论文，2005，293 页。原始 PDF SHA-256 为 `4982B80A3E830CFE034E51428D2467C7D94852607D8DBB773E1B66A820EBDDC0`。
@@ -156,3 +158,14 @@ Experiment I 以 650 MeV `136Xe` 激发 89% 富集 `178Hf` 靶，Gammasphere+CHI
 ## Non-source Notes and Follow-up
 
 关键页面已视觉/OCR核对；原始 PDF 中从 `pdftohtml` 提取的图片文件属于 raw 用户证据，不能加入本次知识 commit。
+
+## Day21周考推断阶梯审计：178Hf 高 K 异构态与科里奥利 K 混杂证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint016_k_isomer_hindrance_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/k-isomer-hindrance-audit-016.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HB05-D21-1 | Hayes 2005 博士论文实验测定 $^{178}	ext{Hf}$ 库仑激发耦合矩阵元，确立高 $K$ 异构态推断阶梯边界：(1) 自旋依赖的 $K$-选择定则破缺：基态带（$K=0$）向高 $K$ 带的耦合在低自旋（$I \le 6\hbar$）保持高度禁戒（$f_
+u \sim 85 - 95$），但在中高自旋迅速受到科里奥利力（$H_C \propto I \cdot j$）对高 $j$ 准粒子轨道（$i_{13/2}$ 中子与 $h_{11/2}$ 质子）的强烈混杂，在 $I \ge 12\hbar$ 处归一化阻退因子暴跌至 $f_
+u pprox 1.2 - 1.8$（禁戒性彻底丧失）；(2) 内禀轴对称形状刚性：实测带内过渡四极矩在 $I=2 	o 16\hbar$ 区间保持 $Q_t = 6.95(15)\ e	ext{b}$（$eta_2 = 0.280$ 恒定，变动仅 $0.43\%$），彻底排除了三轴形变诱导 $K$-混杂假说（若归因于三轴性将伪造出 $\gamma \sim 22^\circ$ 假象）。推断阶梯确立：严禁将 $f_
+u \ll 100$ 直接等同于三轴形变或内禀形状突变，判定 $K$-破缺机制必须结合带内四极矩稳定性与科里奥利微观混杂解折叠。 | claim-boundary-audit | direct-and-derived | Ch.10 pp.200-220; Ch.12 pp.246-248; k-isomer-hindrance-audit-016.json | true |

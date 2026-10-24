@@ -1,0 +1,93 @@
+{
+  "scope": "L2 exact conditional algebra and L3 measurement design, not experimental inference",
+  "source": {
+    "DOI": "10.1103/PhysRevC.100.024314",
+    "locator": "024314-5 Table I Band D6",
+    "pdf_sha256": "450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066",
+    "parent_keV": 4007.8,
+    "parent_spin_parity": "31/2-",
+    "relative_photon_intensities": {
+      "225.8": 3.8,
+      "648.9": 1.8,
+      "896.8": 0.79
+    }
+  },
+  "assumptions": [
+    "Same parent/line identities as Table I and Fig1",
+    "Intensities represent matching photon rates after gate/response corrections",
+    "896.8 treated as pure assigned E2; 225.8 and648.9 restricted to M1/E2",
+    "delta is the radiation amplitude ratio in a consistent phase convention",
+    "No claim that 2019 values reconstruct 2007 producer"
+  ],
+  "coefficients": {
+    "C_E2": 0.00021037066736895573,
+    "D_M1": 0.019958477040921203
+  },
+  "derived_relations": {
+    "E2_ratio": "C*(1+u)/u",
+    "M1_ratio": "D*(1+u)/(1+v)",
+    "log_ratio_jacobian": [
+      [
+        "-1/(u*(1+u))",
+        "0"
+      ],
+      [
+        "1/(1+u)",
+        "-1/(1+v)"
+      ]
+    ],
+    "jacobian_determinant": "1/(u*(1+u)*(1+v)) > 0 for u,v > 0",
+    "E2_inverse_u": "C/(R_E2-C)",
+    "E2_minus_C": "C/u",
+    "common_lifetime_cancels": true,
+    "verification_scope": "analytic derivation and declared rational controls; not CAS proof"
+  },
+  "declared_algebra_controls_not_experimental_parameters": [
+    {
+      "u": "1/10",
+      "v": "2/3",
+      "E2_ratio_over_C": "11",
+      "M1_ratio_over_D": "33/50",
+      "exact_rational_checks": true
+    },
+    {
+      "u": "1",
+      "v": "1",
+      "E2_ratio_over_C": "2",
+      "M1_ratio_over_D": "1",
+      "exact_rational_checks": true
+    },
+    {
+      "u": "10",
+      "v": "7",
+      "E2_ratio_over_C": "11/10",
+      "M1_ratio_over_D": "11/8",
+      "exact_rational_checks": true
+    }
+  ],
+  "identifiability": {
+    "intensities_alone_determine_C_D_only": true,
+    "unique_measured_B_ratios_obtained": false,
+    "E2_ratio_requires_magnitude_of_delta225": true,
+    "M1_ratio_also_requires_magnitude_of_delta649": true,
+    "strength_ratios_alone_determine_signs": false,
+    "absolute_tau_alone_resolves_u_v": false,
+    "conditional_E2_lower_bound_C": 0.00021037066736895573,
+    "finite_upper_bound_without_mixing_constraint": null,
+    "caution": "Bound holds only for the stated pure-E2/matching-photon contract, not a universal mode criterion"
+  },
+  "recommended_next_inputs": [
+    "joint calibrated delta225/relative photon ratio for E2 ratio",
+    "also calibrated delta649 for M1 ratio",
+    "shared gate/efficiency/background and covariance",
+    "absolute lifetime and complete branch/IC only if absolute strengths are required",
+    "specific model prediction domain and detector counts for power calculation"
+  ],
+  "experimental_delta225": null,
+  "experimental_delta649": null,
+  "actual_B_ratios": null,
+  "actual_covariance": null,
+  "experimental_CI": null,
+  "exposure_or_power": null,
+  "scientific_certification": false
+}

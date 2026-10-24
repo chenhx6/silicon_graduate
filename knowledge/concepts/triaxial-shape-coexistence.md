@@ -15,6 +15,8 @@ tags: [triaxiality, shape-coexistence, multiple-chiral-doublet]
 
 # 三轴形状共存（Triaxial Shape Coexistence）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 同一原子核中不同低激发组态对应多个具有三轴形变的候选结构或势能极小。它是模型—实验联合解释，不等于仅由多条带或能量近简并直接观测到多个三轴形状。
@@ -48,8 +50,13 @@ tags: [triaxiality, shape-coexistence, multiple-chiral-doublet]
 
 保留为 author/model-supported interpretation；`133Ce` 缺本文候选带的 lifetime/absolute transition-probability 独立约束，Tl 链还缺预测极小值到逐条实验带的映射与转动量子计算。
 
+Day 21 Checkpoint 009 证据门量化审计（[[experimental-claim-boundaries]]，基于 `shape-coexistence-e0-audit-009.json` 与 [[heyde-wood-2011-shape-coexistence-review]]）确立形状共存实证判据：测得低激发 $0_2^+, 0_3^+$ 态绝非孤立静态形状共存的排他性证明；量子力学波函数在非对角矩阵元（$V \sim 50 - 100\text{ keV}$）作用下必定发生强烈混合。判定微观形状与混合振幅，必须依靠电单极跃迁强度 $\rho^2(E0) \propto a^2 b^2 (\Delta \beta_2^2)^2$（测定混合权重积与内禀形变差量）以及多步库仑激发矩阵元开展自洽多态解折叠。
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
 ## Sources
 
+- [[heyde-wood-2011-shape-coexistence-review]]
 - [[meng-2010-open-problems-nuclear-chirality]]
 - [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]]
 - [[guo-2022-possible-chiral-multiple-chiral-thallium-isotopes]]
@@ -58,3 +65,8 @@ tags: [triaxiality, shape-coexistence, multiple-chiral-doublet]
 
 - 2026-07-13：由 Meng 2010 理论背景与 Ayangeakaa 2013 实验—模型链建立。
 - 2026-08-11：加入 Guo 2022 `192-200Tl` 多极小值/无极小值系统学，并保留单一 mean-field 与未建立 band mapping 的边界。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1/4的Q比依赖两带模型，不是三轴形状共存的无模型实证。[[yao-2012-34si-beyond-mean-field-bubble]] YA12-D21-R124-3保作者might indicate量词；一个E0强度在给定模型中约束混合幅度与半径差的组合，不分别唯一识别两者。寿命不是一切结构判断的普适必要条件。

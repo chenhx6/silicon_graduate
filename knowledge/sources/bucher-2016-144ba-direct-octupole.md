@@ -33,6 +33,8 @@ tags: [144Ba, octupole, E3, radioactive-beam, Coulomb-excitation]
 
 # Direct evidence of octupole deformation in neutron-rich `144Ba`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - B. Bucher *et al.*, *Phys. Rev. Lett.* **116**, 112503 (2016), DOI `10.1103/PhysRevLett.116.112503`.
@@ -103,3 +105,10 @@ Bucher *et al.* provide a direct E3 benchmark that is materially stronger than r
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | BU16-D19-1 | Bucher 2016 在 ATLAS 装置上利用 $650\text{ MeV}$ 的 $^{144}\text{Ba}$ 放射性束流轰击 $^{208}\text{Pb}$ 靶进行垒下库仑激发，通过 CHICO2 粒子径迹与 GRETINA $\gamma$ 射线追踪联合分析，直接测定基态跃迁八极矩阵元 $\langle 3^- \Vert \mathcal{M}(E3) \Vert 0^+ \rangle = 0.65_{-0.23}^{+0.17}\ e\text{b}^{3/2}$，对应跃迁几率 $B(E3; 3^- \to 0^+) = 48_{-34}^{+25}\text{ W.u.}$；结合转子模型反演得到内禀电八极矩 $Q_3 = (1.73_{-0.62}^{+0.45}) \times 10^3\ e\text{fm}^3$ 以及八极形变参数 $\beta_3 = 0.17_{-0.06}^{+0.04}$（固定 $\beta_2 = 0.18$）。该测量摆脱了依赖带间 $E1$ 跃迁间接推导八极形变的传统唯象方法，首次在富中子钡同位素中确立了微观八极集体性存在的确定性实验证据。 | quantitative-benchmark-and-criterion | direct-and-derived | PRL 116, 112503 pp.1-4; Table I, Fig.2; ba144-ba146-octupole-e1-result-046.json | true |
+## Day21周考推断阶梯审计：八极跃迁集体性与静态八极形变边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint006_octupole_ba_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/octupole-ba-audit-006.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU16-D21-1 | Bucher 2016 在 $^{144}\text{Ba}$ 中直接测定的基态跃迁矩阵元 $\langle 3^- \Vert M(E3) \Vert 0^+ \rangle = 0.65_{-0.23}^{+0.17}\ e\text{b}^{3/2}$（$B(E3) = 48_{-34}^{+25}\text{ W.u.}$）确证了强的八极跃迁集体性（对应方均根振幅 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$），但不能排他性认证为静态梨形形变；其实测交错宇称带在低自旋存在高达 $\Delta E(1^-) = +659.1\text{ keV}$ 的声子偏移（对比 $^{224}\text{Ra}$ 的 $173.8\text{ keV} \to 0$），激发态 $2^+ \to 5^-$ 与 $4^+ \to 7^-$ 仅得上界（$<1.2$ 与 $<1.6\ e\text{b}^{3/2}$），且微观势能面势垒（$<0.5-1.0\text{ MeV}$）低于八极零点振动能量（$\sim 1.0-1.5\text{ MeV}$），表明体系呈现强八极柔软动态涨落。 | claim-boundary-audit | direct-and-derived | PRL 116, 112503 pp.3-4, Table I; octupole-ba-audit-006.json | true |

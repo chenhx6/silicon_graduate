@@ -1,0 +1,26 @@
+
+path = "system/handoff.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Update header
+text = text.replace("## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 037）", "## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 038）")
+
+cp038_entry = """Checkpoint 038实质推进：
+(1) 历史旧数据重分析与低自旋摇摆假说推断阶梯边界审计（Chakraborty et al. 2024 PRC 110 对照 Lv 2022 PLB 与 Guo 2022 PLB）：深入剖析重分析历史角分布/偏振数据、多极双解挑选与绝对寿命缺失在摆动模式指认中的推断陷阱；
+(2) 量化程序审计：运行独立程序 day21_checkpoint038_ba129_wobbling_reanalysis_audit.py 产出 ba129-wobbling-reanalysis-audit-038.json（3 项物理控制全过）；
+(3) 多极混合比双解与理论偏好挑选陷阱：365 keV 跃迁（13/2- -> 11/2-）在早期粗糙偏振数据（P = 0.072(68)，仅 1.06 sigma）下存在历史小解 delta_1 = -0.815（M1 占 60.1%，M1 主导常规准粒子态）与重分析大解 delta_2 = -2.00（E2 占 80.0%）；挑选大解完全取决于对 TPRM 转子模型强 E2 跃迁的理论预期，重演了 135Pr 与 187Au 中模型偏好挑选大解被证伪的覆辙；
+(4) 绝对寿命未测引发的 B(E2_out) 巨幅发散性：13/2- 态寿命未测，在典型皮秒区间（tau = 1–500 ps）内，提取出的绝对跃迁几率 B(E2_out) 跨越 2436 W.u. 至 4.87 W.u.（发散度达 500 倍）；若实际寿命 tau > 100 ps，B(E2_out) 跌破 20 W.u.，集体摆动模式完全不成立；
+(5) 语域滑移防范与证据门准则：确立“严禁依据模型偏好挑选大模多极解、严禁在绝对寿命未测条件下确证集体摆动模式，以及严禁将探索可能性（possibility）虚假升级为实验事实”的核心证据门准则；
+(6) 知识库更新：更新 chakraborty-2024-possibility-wobbling-129ba.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（82 篇知识页 valid: true）。
+"""
+
+target = "Checkpoint 037实质推进："
+if target in text and "Checkpoint 038实质推进：" not in text:
+    text = text.replace(target, cp038_entry + chr(10) + target)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated system/handoff.md to Checkpoint 038 successfully.")

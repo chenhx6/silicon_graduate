@@ -37,6 +37,8 @@ tags: [ensdf, phase-convention, reference-role, unobserved-transition]
 
 # Martin 1987：相位定义与完全未观测跃迁
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 本页来源是M.J.Martin署名、August1987的九页方法章，不把编辑M.R.Bhat当该章作者。母本为BNL-NCS-40503 informal report、October1987，现由[NNDC ENSDF首页](https://www.nndc.bnl.gov/ensdf/)直接链接[Procedures Manual](https://www.nndc.bnl.gov/ensdf/evalcorner/pdfs/ensdf-procedures.pdf)。实际文件186PDF页/5478759bytes；本章PDF132–140对应章内printed1–9。所列DOI来自ALPACA参考7所指母本，非声称章节有独立DOI；原PDF封面/目录/章首身份已核。
@@ -77,3 +79,9 @@ tags: [ensdf, phase-convention, reference-role, unobserved-transition]
 - [[dco-pdco-ambiguity-worksheet]]、[[multipole-mixing-ratio]]：三种mixing coordinate与first/last合同。
 - [[polarized-photon-branch-audit]]：原manualNRF与modified系数/真实producer区别。
 - [[tuli-2001-ensdf-format-manual]]：独立文件格式规则，非同一份manual或科学实验。
+
+## checkpoint032：Steffen 与 Rose-Brink 相位跨网对账与未观测退定向 U_k 审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MA87-D21-1 | 依据 Martin 1987 ENSDF 手册对混合比相位体系展开代数对账审计证明：(1) 对相邻多极（L'=L+1），Steffen 体系与 Rose-Brink 体系严格满足 delta_RB = - delta_S；混淆两体系将直接反转角分布干涉项 2*delta*F_k 符号，在 delta=0.5 时致使 A2 发生 0.765 的巨大虚假漂移（从 -0.1937 变为 +0.5713）；(2) 始发跃迁 B_k 与后续跃迁 A_k 在 Steffen 展开中干涉项符号相反（前者为负，后者为正）；(3) 经由未观测中间混合级联退激时，必须通过全衰变参数 Delta^2（考虑总内转换系数比值）计算退定向因子 U_k，忽略内转换在低能区可造成退定向衰减几百分点的系统失真。 | phase-convention-deorientation-boundary | direct-original-and-quantitative-audit | pp.1–9 Eqs.(1)–(10), Table I; phase-conventions-deorientation-audit-032.json | true |

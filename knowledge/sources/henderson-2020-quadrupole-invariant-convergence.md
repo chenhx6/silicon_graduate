@@ -34,6 +34,8 @@ tags: [shape, triaxiality, convergence, charge-matter, model-dependence]
 
 # 有限强度网络与不变量收敛
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 J. Henderson，Physical Review C102，054306(2020)，DOI10.1103/PhysRevC.102.054306。本session取得并读取的是arXiv2005.11210v4，11页、1182893bytes，SHA256见frontmatter；没有核对publisher最终版逐字一致性。PDF首页同时打印“Dated: July 27, 2021”和边栏“15 Oct 2020”，Crossref精确DOI端点给发表2020-11-04；保留版本日期差异，不改成年份2021。
@@ -131,3 +133,28 @@ R113-1只指定有限投影张量，不宣称存在唯一微观电荷坐标实�
 令T为Hermitian rank2 E2张量，S=√5[T×T]⁰、C=−√(35/2){(T×T)²×T}⁰。对明确构造的实数0⁺/2⁺网络，A_ri=⟨0r||T||2i⟩、D_ij=⟨2i||T||2j⟩，有S₀=AAᵀ、C₀=−√(7/10)ADAᵀ。一个2⁺ multiplet、两个0⁺时A=(a,b)ᵀ、D=(d)，q₂=a²、q₃=kda²却不依赖b；VarS=a²b²、VarC=k²d²a²b²，k=−√(7/10)。同样的二/三阶中心值不能识别这两个高阶方差。这里只构造允许的有限球张量网络，未要求各T分量对易，不声称唯一真实电荷坐标或核Hamiltonian。
 
 独立精确有理矩阵演算149用a=1、b=1/2、d=2/5核对因式分解；不传播实验误差或恢复原代码。这与[[cline-1986-nuclear-shapes-coulomb-excitation]] Fig4的印刷归一另属两个问题。后者分母⟨Q³⟩与本页Eq27的⟨Q²⟩^(3/2)不同，113的独立幅度反例必须保持其所检HE20公式身份，不能自动推及Cline原图或其实际算法。
+
+## Day21 checkpoint005旧认证撤回（047定向原件复核）
+
+005关于“高激发连续谱/巨共振丢失必使Q⁴逼近q₂²，普遍制造伪刚性并证明76Ge软”的新认证撤回。旧段逐字保存在本run `superseded-047/henderson-2020-quadrupole-invariant-convergence-day21-before-047.txt`；退役005脚本及旧JSON保留但不得作科学证据。此前Day20/167、R113/R147/R149边界继续有效。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HE20-D21-1 | superseded：旧将有限价空间样本的平均低估泛化为普遍伪刚性与76Ge截断误差界；改用HE20-D21-R47-1至R47-4的阶数、样本与投影边界。 | withdrawn-task-certification | rejected-and-replaced | checkpoint047 original-source audit | true |
+
+## Day21 checkpoint047：四阶与六阶、样本与截断方向
+
+本次在冻结primed回忆后重读arXiv v4全文11页，视觉核PDF3/5 Eq14–27、PDF6/7 TableI/II、PDF9/10的相关性/适用范围/结论；未重新运行34核壳模型。实际raw归档路径存在，hash `ed2d48f63e1e18a721e1bb3e01676ca91160d1a683d7447e574788a6f5c8e044`匹配；本节不改早先staging记录的历史含义，也不改原review/flags。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HE20-D21-R47-1 | Eq17的σ(Q²)由q4−q2²构造；Eq27的σ(cos3δ)含六阶的⟨Q⁶cos²3δ⟩/⟨Q⁶⟩以及(q3/q2^(3/2))²，不是仅四阶闭环。原文注明角度定义使用Q/δ无Cov假设；一般涨落下不能省略已在R113列出的矩比/分布条件。 | invariant-order-and-definition | direct-original | PDF p.5 Eq.27 | true |
+| HE20-D21-R47-2 | nI=4的nominal样本依次为q2 −9.4(+6.9/−3.4)%、σ(Q²) −23.1(+10.0/−14.6)%、cos3δ差0.00(+.23/−.11)、σ(cos3δ)差−.13(+.08/−.14)；bare相应−15.6(+7.8/−5.4)%、−30.6(+11.6/−13.3)%、.01(+.37/−.19)、−.16(+.13/−.19)。前两列是相对量，后两列是绝对差；误差描述样本散布，不是76Ge实验CI。nI指每spin态数，40态是模型内参考。 | literal-model-sample-ledger | direct-original | PDF p.6 Table I; PDF p.7 Table II | true |
+| HE20-D21-R47-3 | SecIIIE明确sum-rule方法与有限价空间结果的model dependence有别；IIIG说本分析实际限A≲70。这里没有计算76Ge或巨共振连续谱尾部的实际遗漏强度，因此不能提供其截断误差界或宣告原刚性解释已证伪。高阶需要更多数据的结论保留。 | transfer-and-model-scope | direct-original | PDF p.9 Sec.III E | true |
+| HE20-D21-R47-4 | 对声明的0⁺/2⁺有限RME块A，标量S=AAᵀ的VarS在内部2⁺路径被截断时可增可减；仅截标量端点且保留S元素内部已完整，才有正项部分和下界。该数学反例不计算真实76Ge角度宽度、不宣称完整对易电荷算符/核Hamiltonian实现。 | task-derived-projection-boundary | exact-declared-matrix-algebra | PDF p.3 Eqs.14–17 | true |
+
+### 精确有限网络练习与量词
+
+脚本`system/scripts/day21_checkpoint047_invariant_scope.py`：取两0⁺态与两2⁺ multiplet，A的两行为(1,1)、(1,−1)时q2=2、q4=4、VarS=0；仅保第一2⁺路径后q2=1、q4=2、VarS=1，方差反而增大。A的两行为(1,1)、(1,1)时完整VarS=4，截断后1，方差减小。两例q2都只增添非负强度，仍不足以固定四阶相减后方差的方向。若连标量端点也只保初态，闭合式会构造性给零；不代表核刚性。
+
+这些控制限制005的普遍数学断言，不消除原作者样本平均低估的真实报告，也不定量测出角度截断偏差。±样本散布不是新实验CI；本文Fig6中的形状矩Cov不是GOSIA拟合矩阵元的测量误差Cov。与[[ayangeakaa-2019-rigid-triaxial-ge76]]比较时，保原实验三低态rigid解释、完整网络/误差输入未得的边界及可检验的收敛问题，不据此裁实际真伪。

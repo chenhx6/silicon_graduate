@@ -1,0 +1,170 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 019: Longitudinal Wobbling (LW), Multipole Double-Root Ambiguity,
+Fermi Surface Geometry, and Channel Contamination Audit in 187Au.
+
+Audits:
+1. Multipole mixing ratio delta and E2/M1 fractions:
+   Sensharma 2020 PRL selected large-root delta ~ -2.67 to -3.72 (E2 ~ 88% - 93%).
+   Guo 2022 PLB joint R_ac - P measurement uniquely selected small-root delta ~ -0.26 to -0.28 (E2 ~ 6% - 7%, M1 ~ 93% - 94%).
+   E2 transition component collapses by 12x - 14x, reducing B(E2_out) to ~ 3 - 7 W.u., refuting collective wobbling.
+2. Wobbling energy E_wobb(I) behavior:
+   Monotonic increase from 206 to 404 keV is reproduced by Coriolis signature splitting of single-particle Nilsson orbitals.
+3. Putative signature partner band contamination:
+   Sensharma's Band 3 (with 265, 429, 436 keV links) was identified by Guo et al. and Rupnik beta-decay as 188Pt contaminant transitions.
+4. Fermi surface geometrical obstruction:
+   Odd proton in 187Au (Z=79) occupies the bottom of the pi h9/2 subshell (Omega=1/2), aligning with the short/long axis rather than intermediate axis, geometrically forbidding longitudinal wobbling.
+5. Evidence gate rules for longitudinal wobbling.
+"""
+
+import json
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "longitudinal-wobbling-187au-audit-019.json"
+
+    # 1. Mixing ratio and multipolarity comparison
+    transitions = [
+        {
+            "energy_keV": 376.3,
+            "initial_spin": "13/2-",
+            "final_spin": "11/2-",
+            "sensharma2020": {
+                "delta": -2.67,
+                "delta_err": 0.07,
+                "E2_fraction_pct": 87.7,
+                "M1_fraction_pct": 12.3
+            },
+            "guo2022": {
+                "delta": -0.26,
+                "delta_err_plus": 0.08,
+                "delta_err_minus": 0.06,
+                "E2_fraction_pct": 6.33,
+                "M1_fraction_pct": 93.67
+            },
+            "E2_suppression_factor": round(87.7 / 6.33, 2),
+            "E2_over_M1_ratio_sensharma": round((-2.67)**2, 2),
+            "E2_over_M1_ratio_guo": round((-0.26)**2, 4)
+        },
+        {
+            "energy_keV": 461.8,
+            "initial_spin": "17/2-",
+            "final_spin": "15/2-",
+            "sensharma2020": {
+                "delta": -2.98,
+                "delta_err_plus": 0.02,
+                "delta_err_minus": 0.03,
+                "E2_fraction_pct": 89.9,
+                "M1_fraction_pct": 10.1
+            },
+            "guo2022": {
+                "delta": -0.28,
+                "delta_err_plus": 0.07,
+                "delta_err_minus": 0.06,
+                "E2_fraction_pct": 7.27,
+                "M1_fraction_pct": 92.73
+            },
+            "E2_suppression_factor": round(89.9 / 7.27, 2),
+            "E2_over_M1_ratio_sensharma": round((-2.98)**2, 2),
+            "E2_over_M1_ratio_guo": round((-0.28)**2, 4)
+        },
+        {
+            "energy_keV": 544.3,
+            "initial_spin": "21/2-",
+            "final_spin": "19/2-",
+            "sensharma2020": {
+                "delta": -3.44,
+                "delta_err": 0.03,
+                "E2_fraction_pct": 92.2,
+                "M1_fraction_pct": 7.8
+            },
+            "guo2022": {
+                "delta": None,
+                "note": "Low statistics / not uniquely isolated by joint P-Rac, small delta expected from systematics"
+            }
+        },
+        {
+            "energy_keV": 639.3,
+            "initial_spin": "25/2-",
+            "final_spin": "23/2-",
+            "sensharma2020": {
+                "delta": -3.72,
+                "delta_err_plus": 0.11,
+                "delta_err_minus": 0.12,
+                "E2_fraction_pct": 93.3,
+                "M1_fraction_pct": 6.7
+            },
+            "guo2022": {
+                "delta": None,
+                "note": "Low statistics / not uniquely isolated by joint P-Rac, small delta expected from systematics"
+            }
+        }
+    ]
+
+    # 2. Wobbling energy E_wobb(I) (Sensharma 2020 Fig. 4)
+    # E_wobb(I) = E(I, Band 2) - 0.5 * [E(I+1, Band 1) + E(I-1, Band 1)]
+    wobbling_energies = [
+        {"spin": "13/2-", "E_wobb_keV": 206.0},
+        {"spin": "17/2-", "E_wobb_keV": 254.0},
+        {"spin": "21/2-", "E_wobb_keV": 302.0},
+        {"spin": "25/2-", "E_wobb_keV": 355.0},
+        {"spin": "29/2-", "E_wobb_keV": 404.0}
+    ]
+
+    # 3. Interband B(E2_out) estimates:
+    # Assuming core B(E2_in) ~ 150 W.u. (186Pt core / 187Au Band 1)
+    b_e2_in_wu = 150.0
+    # Sensharma claimed B(E2_out)/B(E2_in) ~ 0.5 - 0.7 => B(E2_out) ~ 75 - 105 W.u.
+    # With Guo delta = -0.26 (E2 fraction 6.33% vs 87.7%), B(E2_out) is scaled by (6.33 / 87.7)
+    b_e2_out_sensharma_wu = 0.60 * b_e2_in_wu
+    b_e2_out_guo_wu = b_e2_out_sensharma_wu * (6.33 / 87.7)
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 019: Longitudinal Wobbling and Multipole Double-Root Audit in 187Au",
+        "benchmark_nucleus": "187Au (Z=79, N=108, pi h9/2 candidate)",
+        "sources": [
+            "Sensharma et al. 2020 Phys. Rev. Lett. 124, 052501 (Longitudinal wobbling claim)",
+            "Guo et al. 2022 Phys. Lett. B 828, 137010 (Refutation and single-particle reinterpretation)",
+            "Frauendorf 2014 Phys. Rev. C 89, 024304 (Wobbling theory and geometry)",
+            "Frauendorf 2024 Prog. Part. Nucl. Phys. 138, 104118 (Review on wobbling controversy)"
+        ],
+        "multipolarity_and_mixing_ratio_audit": {
+            "transitions": transitions,
+            "b_e2_in_reference_wu": b_e2_in_wu,
+            "derived_b_e2_out_sensharma_wu": round(b_e2_out_sensharma_wu, 1),
+            "derived_b_e2_out_guo_wu": round(b_e2_out_guo_wu, 1),
+            "collective_wobbling_threshold_wu": ">= 20 - 30 W.u.",
+            "physical_conclusion": "Joint R_ac - P measurement eliminates the large-delta root. The interband links are 93% - 94% M1, suppressing B(E2_out) to ~6.5 W.u., which rules out collective wobbling."
+        },
+        "wobbling_energy_systematics": {
+            "data": wobbling_energies,
+            "trend": "Monotonically increases from 206 keV to 404 keV (slope ~ 25 keV/hbar)",
+            "interpretation_divergence": "Sensharma attributed increasing E_wobb to longitudinal wobbling phonon; Guo proved it arises from Coriolis signature splitting between Nilsson orbitals [541]1/2 (Band 1) and [532]3/2 (Band 2)."
+        },
+        "channel_contamination_audit": {
+            "sensharma_band_3": "Claimed as unfavored signature partner with 265, 429, 436 keV links",
+            "guo_identification": "Absent in 187Au beta-decay; γ rays at 265, 405, 414, 551 keV uniquely match 188Pt (p5n channel contaminant).",
+            "audit_verdict": "Sensharma's signature partner band is contaminated by an adjacent even-even reaction product."
+        },
+        "fermi_surface_geometry_obstruction": {
+            "proton_shell": "pi h9/2 intruder orbital below Z=82 shell gap",
+            "fermi_level_location": "Bottom of h9/2 subshell (Omega = 1/2)",
+            "required_geometry_for_LW": "Intermediate-axis alignment (requires Fermi surface near mid-subshell, Omega ~ 5/2 - 7/2)",
+            "actual_geometry_in_187Au": "Short/long axis alignment; longitudinal wobbling is dynamically forbidden by the Nilsson single-particle potential."
+        },
+        "evidence_gate_rules": [
+            "严禁在未测定康普顿散射线偏振不对称度（P）或内转换系数前，仅凭角分布拟合挑选大模解（|delta| > 1）断言原子核存在纵向摇摆（LW）集体运动；角分布对 Delta I = 1 跃迁存在天然双解简并，大模解容易伪造虚假 E2 优势。",
+            "严禁将费米面位于高 j 子壳层底部（Omega = 1/2）的奇 A 核低自旋激发带指认为纵向摇摆带；确证纵向摇摆必须满足中壳层几何对齐条件、线偏振排他性确立 E2 主导（|delta| >> 1）、带间集体跃迁 B(E2_out) >= 20 - 30 W.u.，并严格排除邻核杂质通道污染。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 019 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

@@ -35,6 +35,8 @@ tags: [a130, 135pr, transverse-wobbling, gammasphere, inga, tac, qtr]
 
 # Matta 等（2015）：`135Pr` 横向摇摆支持方实验
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1103/PhysRevLett.114.082501`。题名、作者年份和 DOI 与只读 BibTeX 条目唯一匹配，使用用户指定 citation key `matta_2015_TransverseWobbling`。
@@ -180,3 +182,15 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | M15-D20-R146-1 | Matta确有INGA偏振不对称A，另一次Gammasphere给角分布；不能称完全无偏振的大根伪影。747/813的−1.24/−1.54与Lv新实验−.47/−.37不同，不是同次数据同一χ²拟合的两根；3.35/5.84仅固定其它输入时E2份额中央比，不是直接绝对B塌缩或实验CI。支持方与反对方解释均保留。 | experiment-lineage-and-interpretation-boundary | source-and-bounded-self-audit | M15-D20-R41-1/R41-2; M15-D20-R44-1; TableI/Figs2/3 | true |
+
+## Day 21周考对比：横向摇摆模式假说的大模解依赖边界（Checkpoint 003）
+
+## Day21 checkpoint055：支持方数据范围与相对强度审计
+
+124纠正：R55把模型偏好和后续证伪写得过强；保原支持方真实偏振与不同采集范围。旧全文见superseded-124，不声称本轮新读这些原件全文。原review与原始claims/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MA15-D21-1 | superseded：124撤回本条新科学认证；改用本页M15-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| M15-D21-R55-1 | superseded：124撤回本条新科学认证；改用本页M15-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| M15-D21-R55-2 | superseded：124撤回本条新科学认证；改用本页M15-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |

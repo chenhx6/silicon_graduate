@@ -1,0 +1,27 @@
+
+path = "system/handoff.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Update header
+text = text.replace("## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 038）", "## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 039）")
+
+cp039_entry = """Checkpoint 039实质推进：
+(1) 放射性离子束库仑激发与中子富集锡同位素 B(E2) 推断阶梯边界审计（Radford et al. 2005 EPJ A 25 与 Varner et al. 2005）：深入剖析放射性束次垒库仑激发中的束流异构态污染、同量异位素鸡尾酒串扰与超高能级绝热截断效应；
+(2) 量化程序审计：运行独立程序 day21_checkpoint039_radioactive_sn_coulex_audit.py 产出 radioactive-sn-coulex-audit-039.json（3 项物理控制全过）；
+(3) 束流同质异能素污染通量偏置：130Sn 束流中含有 11% 的 7- 异构态（1947 keV），未扣除异构态导致基态有效入射通量高估 11%，实测 B(E2) 产生 -11.0% 的系统性压低（校正后从 0.023 升至 0.0258 e^2b^2）；
+(4) 同量异位素鸡尾酒巨幅串扰放大：A=134 鸡尾酒束中 134Te 的 B(E2) = 0.290 e^2b^2 为 134Sn（0.029 e^2b^2）的 10.0 倍，仅 2% 的微量 Te 泄漏即可引发 134Sn 表观集体性虚高 20%；
+(5) 双幻核 132Sn（4041 keV）指数绝热截断：绝热参数 xi 达 1.49 导致截面被压制 689 倍，引发初步会议报告值（0.11 e^2b^2）较现代公认值（0.072 e^2b^2）高估达 +52.8%；
+(6) 证据门新准则：确立“严禁在未扣除束流异构态比例与排查鸡尾酒串扰的前提下提取 B(E2)，严禁将会议论文初步数据作为微观理论检验基准”；
+(7) 知识库更新：更新 radford-2005-130sn-coulomb-excitation-126-130sn.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（83 篇知识页 valid: true）。
+"""
+
+target = "Checkpoint 038实质推进："
+if target in text and "Checkpoint 039实质推进：" not in text:
+    text = text.replace(target, cp039_entry + chr(10) + target)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated system/handoff.md to Checkpoint 039 successfully.")

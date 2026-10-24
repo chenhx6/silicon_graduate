@@ -1,0 +1,85 @@
+---
+type: concept
+title: 手征双重带
+aliases: [chiral doublet bands, chiral bands, chiral doubling, 手征带]
+created: 2026-07-01
+updated: 2026-08-11
+status: active
+review_status: unreviewed
+concept_type: rotational-phenomenon
+confidence: medium
+high_confirmed_by:
+high_confirmed_date:
+tags: [chirality, triaxiality, high-spin]
+---
+
+# 手征双重带（Chiral Doublet Bands）
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Definition
+
+在三轴核中，短、中、长轴相对总角动量形成左右手几何；量子恢复可产生两条同宇称 ΔI=1 伙伴带。理想静态手征极限下两带近简并，但有限隧穿会产生劈裂。
+
+## Necessary Assumptions
+
+- 三个主轴方向均有非零角动量分量；
+- aplanar 取向足够稳定；
+- 左右手态不是简单旋转可互相变换；
+- 需要处理量子隧穿。
+
+## Discriminating Observables
+
+近简并同宇称 ΔI=1 带只是起点，还应检查带间/带内跃迁、角动量几何、组态一致性和随自旋的演化。[[meng-2010-open-problems-nuclear-chirality]] 进一步指出，`S(I)`、spin alignment 和电磁 fingerprints 均依赖形变、组态与耦合，尚缺 model-independent electromagnetic selection rule。
+
+## Supporting Evidence
+
+[[frauendorf-meng-1997-tilted-rotation-chirality]] 给出 aplanar TAC 的对称性解释和 PRM 量子比较。[[petrache-2020-137nd-multiple-chiral-bands]] 在 `137Nd` 新建 D3、D6，并以伙伴能量、alignment、已有 B(M1)/B(E2) 和 PRM 三轴角动量分量提出两对候选手征双重带。
+
+[[xiao-2022-chirality-octupole-correlations-74as]] 的 `74As` Bands 1/2 由五条 interband links 建立共同组态候选，约 `400-keV` splitting、相近 `S(I)`/branching-derived `B(M1)/B(E2)` 与 TPRM 提供联合支持。`γ/J` 对同一数据拟合、neutron nonideal geometry 和 missing lifetimes 阻止其升级为 model-independent confirmation。
+
+[[bark-2024-investigations-nuclear-chirality-ithembalabs]] 的 restricted/non-restricted QTR 对比给出更严格边界：exact degeneracy、特定 `B(M1)` staggering phase 与 vanishing `S(I)` staggering 只在固定 single-particle angular momenta 的 ideal limit 稳定出现。Realistic orbital mixing 可在 dominant aplanar geometry 下产生显著 partner differences；因此 strict fingerprints 既非普适必要条件，也不能被完全丢弃为 irrelevant。
+
+## Counter-evidence and Competing Interpretations
+
+signature partners、形状共存、不同组态或普通带交叉也可产生双带。近简并本身不构成证明。
+
+Meng 2010 还列出 `gamma` vibration、many-particle correlations、pseudospin partners 和 core polarization 等竞争或耦合机制。
+
+## Related Nuclei and Bands
+
+- 1997 论文把 `134Pr` bands 1/2 视为可能接近手征起始的案例，但保留明显不确定性；
+- [[137nd-d2-d3-doublet]] 与 [[137nd-d5-d6-doublet]] 被 2020 作者解释为 chiral-vibration candidates；新伙伴缺少实验 B(M1)/B(E2)。
+
+## Our Current Position
+
+具体核素必须使用多判据证据矩阵，保留“candidate”层级。
+
+## Sources
+
+- [[grodner-2006-128cs-chiral-doublet-lifetimes]]
+- [[grodner-2011-126cs-chiral-selection-rules]]
+- [[frauendorf-meng-1997-tilted-rotation-chirality]]
+- [[petrache-2020-137nd-multiple-chiral-bands]]
+- [[meng-2010-open-problems-nuclear-chirality]]
+- [[xiao-2022-chirality-octupole-correlations-74as]]
+- [[bark-2024-investigations-nuclear-chirality-ithembalabs]]
+
+## Evolution Log
+
+- 2026-07-01（1 source）：由 aplanar TAC 奠基论文建立。
+- 2026-07-01（2 sources）：加入 `137Nd` 多重候选案例，并保留新伙伴电磁证据缺口。
+- 2026-07-13：加入 Meng 2010 对 fingerprints 模型依赖和竞争解释的综述边界。
+- 2026-08-11：加入 `74As` 五-link positive-parity candidate；保留约 `400-keV` splitting、fit dependence 和 absolute-strength gap。
+- 2026-08-11：加入 Bark 2024 ideal-versus-realistic QTR fingerprint boundary；避免把 strict degeneracy/staggering rules 当作 universal gate。
+
+## Day 21 Checkpoint 021 证据门量化审计：手征电磁选择定则、B(M1) 奇偶反相交错与手征振动能隙边界
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint021_chiral_selection_rules_cs_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/chiral-selection-rules-cs-audit-021.json），对原子核手征双重带的实验判定确立核心证据门规则：
+
+1. **有限能隙排他性确立手征振动：**
+   若两伙伴带之间的能量差维持在 Delta E ~ 100 - 200 keV（如 128Cs 与 126Cs），严禁断言为实验室系下的静态手征对称性破缺。有限能隙证明波函数在左右手三轴势阱间频繁隧穿，体系物理本性为手征大振幅振动态。
+2. **S-对称性电磁选择定则与 B(M1) 反相交错指纹：**
+   确证核手征微观几何必须检验带内与带间 B(M1) 随自旋的振荡反相行为。在粒子-空穴对称与 gamma=30° 极限下，离散 S-对称性导致带内 M1 在偶数自旋破坏相消而在带间相干增强，构成手征三面体几何的排他性电磁指纹。
+3. **本核独立能级寿命与侧馈约束：**
+   确证手征对称性必须基于本核独立的能级寿命测量与精确的侧馈时间修正，严禁依赖邻核侧馈参数迁移或未经线偏振检验的纯 M1 假定。

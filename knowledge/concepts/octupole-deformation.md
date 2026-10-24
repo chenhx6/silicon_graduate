@@ -15,6 +15,8 @@ tags: [octupole, reflection-asymmetry, deformation]
 
 # 八极形变（Octupole Deformation）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 核形状具有 reflection-asymmetric octupole component；stable octupole deformation 要求比一般 correlations/softness 更强的静态局域证据。
@@ -38,6 +40,8 @@ tags: [octupole, reflection-asymmetry, deformation]
 [[bucher-2016-144ba-direct-octupole]] adds a direct neutron-rich-Ba benchmark: sub-barrier `144Ba+208Pb` Coulomb excitation with CHICO2/GRETINA gives `B(E3;3−→0+)=48^{+25}_{−34} W.u.`, `Q3=1.73^{+0.45}_{−0.62}×10³ efm³` and inferred `β3=0.17^{+0.04}_{−0.06}`. The E3 matrix element is direct; the static-shape/β3 conversion still carries rotor, higher-multipole and E1-sign assumptions.
 
 [[bucher-2017-146ba-direct-octupole]] extends the direct-E3 layer to `146Ba`: `B(E3;3−→0+)=48^{+21}_{−29} W.u.` despite a strong suppression of the intrinsic E1 moment. This neighboring-isotope result shows that E1 magnitude is not a one-to-one proxy for octupole strength; the occupancy-sensitive microscopic explanation remains model dependent.
+
+Day 21 Checkpoint 006 证据门审计（[[experimental-claim-boundaries]]，基于 `octupole-ba-audit-006.json`）确立关键物理推断边界：$B(E3) \approx 48\text{ W.u.}$ 测量的是初末态之间的八极跃迁矩阵元，物理上对应八极涨落方均根振幅 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$，既可产生自静态深势阱，也可产生自八极柔软势能面（$\Delta V_{\text{barrier}} < 0.5-1.0\text{ MeV} < E_{\text{ZPE}} \sim 1.0-1.5\text{ MeV}$）的动态零点涨落。伴随观测量中，$^{144,146}\text{Ba}$ 低自旋交错能带存在高达 $\Delta E(1^-) \sim 650\text{ keV}$ 的声子能级偏移（相较于 $^{224}\text{Ra}$ 的 $174\text{ keV} \to 0$），激发态 $E3$ 矩阵元未提供脱离转子约束的统计确证，因而 $^{144,146}\text{Ba}$ 基态属于八极柔软核而非静态刚性梨形核。
 
 [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] is the historical review anchor for separating stable octupole minima, octupole softness/vibration, parity restoration and E1/E3 observables; it is not an independent experiment.
 
@@ -72,3 +76,8 @@ Liu 2016 的 `78Br` ratios/`delta E` 明显不同于 `224Th`，PES 为 [[octupol
 - 2026-08-11：加入 `74As` 对 `78Br/224Th` 的 comparison；relative ratios 不升级为 static deformation。
 - 2026-09-20：加入 `144Ba` 3D-lattice CDFT 的 stable-mean-field example；明确 `β30` 模型结果、PES softness、pairing omission 与 parity-projection boundary。
 - 2026-09-20：加入 `220Rn/224Ra` direct E3/Q3 Coulomb-excitation benchmark；分离测量矩阵元与 static-pear interpretation。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[bucher-2016-144ba-direct-octupole]] BU16-1/2保B(E3)=48(+25/−34)W.u.及作者强八极支持；有限宇称位移/大E3与静态解释需共同模型审查，不得从650keV或统一零点能直接反判静态形变。[[xiao-2022-chirality-octupole-correlations-74as]] XA22-15仅限其比较解释。

@@ -15,6 +15,8 @@ tags: [triaxiality, collective-motion]
 
 # γ 刚性形变（Gamma-rigid Deformation）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 势能面在某个非零 γ 附近具有足够深而窄的极小值，使低能集体波函数主要局域在该区域。它比“存在三轴性”更强，不能仅由一个三轴模型拟合成功推出。
@@ -47,6 +49,7 @@ tags: [triaxiality, collective-motion]
 
 ## Sources
 
+- [[mccutchan-2007-gamma-band-staggering]]
 - [[zamfir-casten-1991-gamma-softness-triaxiality]]
 - [[nomura-2021-pairing-triaxial-vibrations-gamma-soft]]
 - [[babra-2019-deformation-change-136sm]]
@@ -58,3 +61,13 @@ tags: [triaxiality, collective-motion]
 - 2026-07-01（1 source）：作为 γ-soft 的竞争极限建立。
 - 2026-07-05（3 sources）：加入 W-J/D-F 多指标边界与 `136Sm` 模型支持的随自旋稳定三轴解释。
 - 2026-07-05（5 sources）：记录 chiral doublet/wobbling 作为稳定三轴性候选指纹，并保留模式指认不等于 γ-rigid 证明的边界。
+
+## Day 21 Checkpoint 020 证据门量化审计：刚性三轴 S(4) 正交错要求与唯象拟合局限性准则
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/3/4区分四阶幅度与六阶角度量；内部路径截断可双向改变方差，模型样本没有计算76Ge巨共振遗漏贡献。[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2保留作者低自旋刚性支持。本任务未证伪该解释。S(4)与势阱深度均不能外推为普适充要阈值。

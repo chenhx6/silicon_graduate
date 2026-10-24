@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint110_chiral_comparison_scope.py",
+    "system/scripts/day21_checkpoint112_prm_chiral_geometry_scope.py",
+    "system/scripts/day21_checkpoint113_almehed_rpa_scope.py"
+  ],
+  "exit_code": null,
+  "evidence": "124 correction: no matching new argv execution was recorded; prior artifacts are not new execution evidence",
+  "output": "chiral-comparison-scope-110.json, prm-geometry-scope-112.json, almehed-rpa-scope-113.json",
+  "scope": "deep synchronization of chiral doublet bands concept layer with micro-theory invariants and experimental falsification boundaries; not new experimental CI",
+  "superseded_execution_assertion": true,
+  "executed_in_this_checkpoint": false,
+  "record_type": "historical-artifact-reference-only"
+}

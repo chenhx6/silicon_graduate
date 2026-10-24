@@ -1,0 +1,141 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 026 深度攻坚：** 深入攻克电子学快速定时（Fast Timing）与广义质心差（GCD/MSCD）方法在皮秒能级寿命提取中的推断阶梯边界（Régis 2015 EPJ Web of Conf. 93 与 Régis 2011 博士论文）；运行独立量化审计程序 " + B + "day21_checkpoint026_fast_timing_gcd_audit.py" + B + " 产出 " + B + "fast-timing-gcd-audit-026.json" + B + "；复核 100Zr 基准（Delta C = 1240 ps, PRD = -180 ps 导出 tau = 710(22) ps，T1/2 = 492(15) ps 与 ENSDF 494(6) ps 在 0.1 sigma 内自洽）；量化揭示在皮秒极限（tau < 20 ps）下未校准 PRD 偏移（+40 ps 导致寿命翻转为非物理负值 tau = -5 ps）与康普顿本底时间游走（20%–30% 本底诱导 12–18 ps 系统性虚假寿命偏差）；确立“严禁在未扣除逐道康普顿本底与未实验插值 PRD 曲线前直接提取皮秒寿命”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 025 终极贯通：**"
+if target_rs in text and "Checkpoint 026 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 29 under Sources and evidence
+sec29 = """### 29. Régis 2015 与 Régis 2011：快速定时质心差法（GCD/MSCD）、PRD 响应校准与康普顿本底时间游走推断阶梯边界
+
+在超快闪烁体（如 $\\text{LaBr}_3(\\text{Ce})$）与多探测器阵列（如 EXILL-FATIMA）的电子学快速定时寿命测量中，从推断阶梯第三层（时间差符合谱一阶矩质心差）向第四层（单核能级微观半衰期与绝对跃迁几率 $B(E2)/B(M1)$）的反演，是低能核物理皮秒寿命前沿极易遭受仪器响应漂移与本底时间游走假象干扰的关键技术边界（Régis et al. 2015 EPJ Web of Conf. 93, 01013，[[regis-2015-generalized-centroid-difference]] 对比 Régis 2011 博士论文，[[regis-2011-fast-timing-labr3]]）：
+- **表观实验特征与推断阶梯分水岭（Level 3 到 Level 4）：**
+  利用镜像对称质心差（MSCD）或广义质心差（GCD）方法，实验将目标态寿命提取转化为对调始末跃迁能量门后的时间谱质心位移：
+  $$\\Delta C(E_{\\text{feeder}}, E_{\\text{decay}}) = \\text{PRD}(E_{\\text{feeder}}, E_{\\text{decay}}) + 2\\tau$$
+  在基准核 $^{100}\\text{Zr}$ 的 $2^+_1$ 态（352 keV feeder $\\to$ 212 keV decay）中，实测质心差 $\\Delta C = 1240(20)\\text{ ps}$ 结合校准的 $\\text{PRD} = -180(15)\\text{ ps}$，成功提取出 $\\tau = 710(22)\\text{ ps}$（半衰期 $T_{1/2} = 492(15)\\text{ ps}$），与 ENSDF 评价基准 $494(6)\\text{ ps}$ 在 $0.1\\sigma$ 统计误差内精确吻合。然而，当该技术向超短寿命极限（$\\tau < 20\\text{ ps}$）推进时，微小的仪器响应未校准偏差即可引发推断阶梯的灾难性颠覆。
+- **推断阶梯漏洞剖析：**
+  1. **超短皮秒区间 PRD 偏移的致命敏感度（甚至翻转为非物理负寿命）：**
+     探测器瞬发响应差 $\\text{PRD}(E_{\\text{feeder}}, E_{\\text{decay}})$ 源于光电倍增管渡越时间散布与恒比定时器（CFD）鉴相点的固有能量依赖性。在纳秒与数百皮秒能态测量中，数十皮秒的 PRD 误差尚在可接受范围内；但在超短皮秒区间（例如真寿命 $\\tau = 15\\text{ ps}$），仅仅 $+40\\text{ ps}$ 的未校准 PRD 偏移就会使提取出的表观寿命翻转为**非物理的负值（$\\tau_{\\text{app}} = -5\\text{ ps}$）**，而 $-40\\text{ ps}$ 的偏移则会使表观寿命虚假膨胀 $133.3\\%$（$\\tau_{\\text{app}} = 35\\text{ ps}$）。因此，任何未经高统计量瞬发级联在目标能量区间内严密实验插值的 PRD 外推，在皮秒区间均不具备排他性；
+  2. **康普顿连续谱本底时间游走（Time-walk）诱发的系统性虚假寿命：**
+     实验选取的全能峰能量门不可避免地叠加来自更高能量跃迁的康普顿散射连续谱。由于康普顿散射事件的脉冲形状、沉积位置与光电全吸收存在系统差异，本底符合时间谱的质心与全能峰之间存在显著的时间游走（$\\Delta C_{\\text{bg}} \\ne \\Delta C_{\\text{peak}}$，实测偏差常达 $-120\\text{ ps}$）。若未进行逐道本底时间响应扣除，仅仅 $20\\% - 30\\%$ 的康普顿本底份额就将直接引入 $12 - 18\\text{ ps}$ 的系统性虚假寿命偏差，足以彻底篡改弱跃迁皮秒态的物理结论；
+  3. **级联前序态的喂居延迟污染（Feeding delay）：**
+     质心差法测得的净时间位移代表起始门与终止门之间全部微观延迟的代数累积。若级联路径中存在未被识别的中间亚稳态（如纳秒/微秒同质异能态）或复杂的侧馈分支延迟，测得的质心差反映的是整个喂居链的累积弛豫时间，严禁将其简单指认为目标单个能级的微观内禀寿命。
+- **证据门准则：**
+  1. **严禁在未做逐道康普顿本底时间游走修正（Background time-walk subtraction）和未扣除全能峰本底份额前，直接由全能峰门质心差提取皮秒量级能级寿命；本底时间游走可在未修正情况下产生 10–30 ps 的虚假寿命畸变**；
+  2. **严禁将外推能区的 PRD 曲线用于快速定时寿命解算；PRD 瞬发响应曲线必须由高统计量瞬发级联在目标跃迁能量区间内经过实验插值校准，且必须排查级联前序态的喂居延迟（feeding delay）与同质异能未解态污染**。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 29. Régis 2015 与 Régis 2011" not in text:
+    text = text.replace(target_theory, sec29 + "\n\n" + target_theory)
+
+# 3. Add Section 27 under Theory/analysis exercise
+sec_ex27 = """### 27. Checkpoint 026 量化审计程序与快速定时 GCD 灵敏度核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint026_fast_timing_gcd_audit.py" + B + """，对快速定时广义质心差方法（GCD）在 $^{100}\\text{Zr}$ 基准核与皮秒能级灵敏度响应展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/fast-timing-gcd-audit-026.json" + B + """：
+
+1. **$^{100}\\text{Zr}$ 基准核 $2^+_1$ 态寿命提取验证：**
+   - 级联路径：$352\\text{ keV}$ feeder $\\to 212\\text{ keV}$ decay；
+   - 实测时间谱质心差 $\\Delta C = 1240.0\\text{ ps}$，校准 PRD 为 $-180.0\\text{ ps}$；
+   - 提取寿命 $\\tau = 710.0(22.4)\\text{ ps}$，半衰期 $T_{1/2} = 492.1\\text{ ps}$，与 ENSDF 评价基准 $494.0\\text{ ps}$ 在 $0.1\\sigma$ 内高度自洽。
+2. **皮秒能区（$\\tau = 15\\text{ ps}$）PRD 偏移灵敏度：**
+   - $\\text{PRD}$ 偏移从 $-40\\text{ ps}$ 增加至 $+40\\text{ ps}$ 时，表观寿命从 $35.0\\text{ ps}$（相对误差 $+133.3\\%$）单调暴跌至 **$-5.0\\text{ ps}$（翻转为非物理负值）**；
+   - 证明未校准仪器时间游走在皮秒尺度可完全湮灭真实物理寿命。
+3. **康普顿本底时间游走偏差核算：**
+   - 设定本底时间质心偏差 $\\Delta C_{\\text{bg}} - \\Delta C = -120\\text{ ps}$；
+   - 本底强度占比从 $5\\%$ 提升至 $40\\%$ 时，诱导质心漂移从 $-6.0\\text{ ps}$ 放大至 $-48.0\\text{ ps}$，提取寿命系统误差从 $-3.0\\text{ ps}$ 线性扩大至 **$-24.0\\text{ ps}$**；
+   - 量化确立了本底时间游走校正在弱跃迁皮秒测量中的绝对必要性。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 27. Checkpoint 026 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex27 + "\n\n" + target_ce)
+
+# 4. Add Section 23 under Counter-evidence
+sec_ce23 = """### 23. 快速定时皮秒寿命对未校准 PRD 偏移与康普顿本底时间游走的排他性证伪判据
+
+- **皮秒能级寿命反常与非物理负寿命的排他性排查：**
+  若质心差法提取出的能级寿命 $\\tau \\le 0$ 或显著短于同位旋对称态，必须排查探测器对瞬发响应差（PRD）曲线是否未经目标能区瞬发级联严密实验标定；若使用了跨能区外推的唯象 PRD 曲线，其皮秒寿命主张被直接排他性证伪。
+- **全能峰康普顿本底时间游走修正的必要检验：**
+  在低峰本比（$P/B < 3$）的弱跃迁测量中，若分析流程未展示两能窗能量侧带（Sideband）的本底时间谱质心测量值，或直接假设本底时间质心与全能峰重合（$\\Delta C_{\\text{bg}} \\equiv \\Delta C_{\\text{peak}}$），则提取出的皮秒寿命主张缺乏排他性，存在因 $10-30\\text{ ps}$ 时间游走假象导致的系统性伪影。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 23. 快速定时皮秒寿命对未校准 PRD 偏移" not in text:
+    text = text.replace(target_ki, sec_ce23 + "\n\n" + target_ki)
+
+# 5. Add Decision 17 under Knowledge Impact
+dec17 = """17. **Régis et al. 2015 EPJ Web of Conf. 与 Régis 2011 博士论文（快速定时 GCD 方法与皮秒寿命推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在闪烁体阵列中利用广义质心差（GCD/MSCD）直接从时间谱一阶矩提取皮秒激发态寿命的高精度实验方法，并在 $^{100}\\text{Zr}$ 基准中达成 $0.1\\sigma$ 吻合；澄清并严格限制了该方法在皮秒极限区间（$\\tau < 20\\text{ ps}$）的推断可信度，定量证明未校准的 PRD 偏移（$+40\\text{ ps}$ 导致寿命翻转为非物理负值）与未修正的康普顿连续谱本底时间游走（$20\\% - 30\\%$ 本底诱导 $12 - 18\\text{ ps}$ 虚假寿命）能够彻底颠覆寿命结论；修正了仅凭全能峰质心差直接报告皮秒寿命的粗糙做法，确立必须由高统计量瞬发级联实验插值校准 PRD 曲线与逐道扣除康普顿时间响应的标准证据门规范；
+   - 持久化产物：更新 [[regis-2015-generalized-centroid-difference]]、[[regis-2011-fast-timing-labr3]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Régis et al. 2015 EPJ Web of Conf." not in text:
+    text = text.replace(target_dkd, dec17 + "\n\n" + target_dkd)
+
+# 6. Add writeback items in knowledge-writeback JSON block
+wb_items = """,
+    {
+      "knowledge": "knowledge/sources/regis-2015-generalized-centroid-difference.md",
+      "summary": "100Zr基准验证、PRD瞬发响应偏移灵敏度与康普顿本底时间游走推断阶梯边界审计。",
+      "anchor": "Day 21 Checkpoint 026 证据门量化审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/regis-2015-generalized-centroid-difference.md",
+          "locator": "REG15-D21-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+      "summary": "快速定时镜像对称质心差（MSCD）时间谱一阶矩响应与皮秒寿命灵敏度边界审计。",
+      "anchor": "Day 21 Checkpoint 026 证据门量化审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "locator": "REG11-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/dey-2026-116cs-multifaceted-decay.md",
+          "locator": "DEY26-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/dey-2026-116cs-multifaceted-decay.md",
+          "locator": "DEY26-D21-1"
+        }
+      ]
+    }""" + wb_items + """
+  ]
+}"""
+
+if target_wb_end in text and "REG15-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要闪烁体阵列具有极高的时间分辨率（如 FWHM ~ 200–300 ps），就可以通过高统计量时间谱的质心差（Centroid Difference）无条件提取低至数个皮秒的激发态寿命；
+   - **新信念：** 认识到时间谱一阶矩质心对探测器瞬发响应差（PRD）能量依赖与康普顿本底时间游走极度敏感；未经目标能区实验插值校准的 PRD 仅产生 +40 ps 的微小偏移就会使真实 15 ps 寿命翻转为非物理负寿命（-5 ps），且 20% 的康普顿本底混入就能引入 12 ps 的系统性假寿命；确证皮秒寿命必须依赖严格的逐道本底时间扣除与高统计瞬发级联 PRD 标定。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "只要闪烁体阵列具有极高的时间分辨率" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 026 successfully.")

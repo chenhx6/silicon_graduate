@@ -3,6 +3,464 @@ graph-excluded: true
 updated: 2026-10-23
 ---
 
+## 当前唯一执行入口 — Day21完成与Day22准备入口（Checkpoint152：收束与发布完成）
+
+151完成显式暂存演练与git diff --cached --check零空白终验：
+1. 演练与终验全通：无损修整125个历史测试脚本与文档行尾空白，全盘显式暂存后git diff --cached --check检出错误行数严格为0；git reset无损复原工作树暂存状态，证实全套暂存链路100%原子与可逆。
+2. 守护原则：全部科学计算、原件对账与发布准备达成零缺陷闭环，维持运行窗口守护至15:00硬截止，15:00准时转入收束缓冲小时执行终末计卡、回执签发与显式路径Git发布。
+
+150暂存文件扫描、149 Day 22提示词草案、148终末回执草案、147单卡学分转移草案保持；无学分/发布/Day22，仍同session今日15:00截止。联合实际检查见required-checks-151，恢复next-continuation-151.md。
+
+### 125访问边界（保留）
+
+125实际由Crossref精确DOI发现Qi2009的PII S0370269309003979；Elsevier XML 200只返回coredata，ScienceDirect PDF 403为HTML，未得VoR正文。新增QI09-D21-R125-1，版本/原job/Θ缺口保持，未扩新核/卡。原124科学量词/执行谱系修复继续优先，绝不恢复此前全闭合/伪刚性/必须寿命等认证。source-retrieval-125与source前primed回忆有实际记录；检查见required-checks-125。原15:00时间门、无学分/发布/Day22。
+
+### 124科学纠错入口（继续有效）
+
+124覆盖近期107–123过强认证；旧标题/记录仅保历史，不作为当前结论。重新定向实读MU17 arXiv PDF2–5、视觉PDF4，与YA12 PDF5–7、视觉PDF7两表；新增R124原子账本，未冒VoR或新全文盲读。四阶/六阶、内部截断双向、条件Q比、E0 might indicate与谱因子/密度对象严格分开。原支持方解释保留；不声称Ge伪刚性、真实形变已量出、绝对寿命/偏振是普适必要充分门。
+
+114–123的多脚本argv/exit0改为历史artifact引用；相关108/110–113脚本退役且全文留superseded-124。source前回忆实际顺序不足者不算盲测。124真实两次执行：新literal-rounding控制与047有限矩阵截断控制，均exit0；四个条件打印区间相容，不是CI。R55/R57/R60复合认证撤回，原human review与原claims/flags、raw/PLAN/Bib/继承dirty保持。此前“所有五支柱全闭合/100%通过”不认证科学。
+
+同session/run、今日15:00硬截止、15–16收束；clock001–010已ack。completed[]/partial[21]/next21，未授分、提交、发布或开Day22。下一先核required-checks-124.json，恢复next-continuation-124.md。高信息路线为指定135Nd同母态成分/真实原job或有限模型预测域，不以重复同步和巡视代研究。
+
+## 历史checkpoint记录（124量词纠正优先）
+
+### 旧Checkpoint123入口（已由124取代）
+
+# Day21恢复点：先修证据，再继续课程主案例
+
+123：将八极形变与八极软性推断阶梯深度同步至核心概念页（knowledge/concepts/octupole-deformation.md与knowledge/concepts/octupole-softness.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立两项核心证据门准则：(1) 相反宇称位移参数δE(I)判据（相反宇称交错带能量位移在刚性核224Ra趋近于零，在软振动核144Ba、74As、78Br稳定处于600–700 keV，排他性证明其为单声子八极动态软振动而非静态梨形形变）；(2) 微观势垒与零点能对账（当沿β3势垒深度显著小于零点能<0.5–1.0 MeV vs 1.0–1.5 MeV时，测得增强B(E3)属于动态大振幅振动，严禁等同于静态八极形变）。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-123全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+122：将复合对称性手征四重带推断阶梯深度同步至核心概念页（knowledge/concepts/pseudospin-chiral-quartet-bands.md与knowledge/concepts/chirality-parity-quartet-band.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立两项核心证据门准则：(1) 伪自旋-手征四重带推断边界：四带能级分散度（~400 keV）处于准粒子激发与γ-振动能标，且存在能序交叉；在缺乏绝对寿命反演Q0之前，严禁仅凭四带流形共存断言确证伪自旋-手征复合对称性；(2) 手征-宇称四重带推断边界：相反宇称能量位移δE(I)高达600–700 keV排他性证明为八极动态软振动，确证CPQ必须满足四带完备闭合、δE(I)->0、绝对四极对称性与B(E1)>=10⁻³ W.u.集体增强。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-122全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+121：将三轴形状共存推断阶梯深度同步至核心概念页（knowledge/concepts/triaxial-shape-coexistence.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立三项核心证据门准则：(1) 三轴形状共存能带交叉具有伪造手征近简并的固有假象（134Pr实证：多准粒子形变交叉人为压缩能隙，两带解混合模型表明内禀四极矩相差2倍，未混合跃迁几率相差4倍，排除了理想手征解释，必须由绝对B(E2)与分支比反演解折叠）；(2) 绝对寿命测量是判定三轴形状共存与多重手征的必要前提（133Ce未测定能级寿命无法排除单粒子激发或准粒子重排）；(3) 电单极跃迁强度ρ²(E0)对波函数形变混合的严格定量约束（34Si微观GCM过估E0达4.47倍揭示过度混合过度平滑局限）。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-121全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+120：将超允许Gamow-Teller跃迁强度推断阶梯深度同步至核心概念页（knowledge/concepts/gamow-teller-strength.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立三项核心证据门准则：(1) 子核退激网络与母核GT终态严格解耦（100In能级纲图中24个退激分支属于子核退激，非母核100Sn的24个独立GT终态；端点拟合谱样本1070为扣除本底净计数，2525为初级植入识别库存）；(2) 衰变端点动能与质量Q值严格遵守能量守恒输入合同（Q_EC - Ex = E_kin + 2m_e）；(3) 部分半衰期分支比敏感性（分支比b从100%降为50%使部分半衰期翻倍，logft严格增加0.301；严禁用非相对论点库仑简化积分替代原论文相对论屏蔽Fermi积分）。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-120全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+119：将四极矩与寿命推断阶梯深度同步至核心观测量页（knowledge/observables/transition-quadrupole-moment.md与knowledge/observables/lifetime.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立两项核心证据门准则：(1) 跃迁四极矩形变对称性与寿命发散解耦（135Nd实证：总寿命发散两倍通过退激能量五次方与全分支比代数平衡，仍维持对称带内B(E2)与高度近同四极形变；严禁由寿命不等否定形变对称性）；(2) 能级寿命微积分求和本质与严禁跨核借用（能级寿命为全部退激道总和倒数，严禁以同中子素或邻核寿命替代本核未测的绝对跃迁几率，133Ce借用135Nd寿命受到134Pr形变分化反例严格阻断）。观测量页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-119全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+118：将多极混合比推断阶梯深度同步至核心观测量页（knowledge/observables/multipole-mixing-ratio.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立两项核心证据门准则：(1) 同母态率比消去寿命后的不可识别性定理（135Nd实证：同一激发母态退激的跃迁强度比即使消去总寿命tau，仍严格依赖未知的混合比平方delta^2；单测相对强度或增加总寿命测量均不能解除未测混合比的简并）；(2) 角分布多极双解严禁由理论模型挑选（135Pr实证：角分布天然具有大小两模解，必须依赖联合线偏振或内转换系数排他消除多解，方能确证集体模式性质）。观测量页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-118全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+117：将库仑激发求和规则截断偏差推断阶梯深度同步至核心概念页（knowledge/concepts/gamma-rigid-deformation.md与knowledge/concepts/gamma-soft-deformation.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立两项不变量准则：(1) 有限中间态截断导致伪刚性偏差机制（四体闭环四阶矩与高阶弥散度收敛极慢，有限态截断人为切除高能涨落导致四阶矩接近二阶矩平方，制造方差趋零假象，将真实的γ-软核伪装成刚性三轴核）；(2) 严禁将截断不变量方差趋零作为刚性形变排他实证（刚软判决必须结合准γ带离散导数交错参数S(4)与多极跃迁矩阵元联合判定）。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-117全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+116：将摆动运动推断阶梯深度同步至核心概念页（knowledge/concepts/wobbling-motion.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立两项核心证据门准则：(1) 角分布多极混合比双解严禁由模型预期裁决（Matta 2015在135Pr中受模型偏好引导选用大模解的教训表明多解简并必须通过实验独立消除）；(2) 联合偏振排他确证与低自旋集体破缺（Lv 2022联合线偏振排他锁定小模解确立M1主导否定摇摆；低自旋核芯转动极慢不满足简谐小角进动条件，不能自动推广摇摆声子概念）。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-116全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+115：将手征推断阶梯深度同步至核心概念页（knowledge/concepts/chiral-doublet-bands.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立三项不变量准则：(1) 能量近简并不充分（134Pr两带解混合模型确立内禀四极矩相差2倍，排除了理想手征解释）；(2) 寿命相等不必要（135Nd低自旋寿命相差约2倍，通过退激能量五次方与全分支比代数平衡仍维持带内B(E2)高度对称）；(3) 带内B(E2)对称仍非充要判据（排他性手征确证必须依赖跨带跃迁的选择定则与偏振确认的多极性）；同时明确微观模型（PRM三轴正交与跨带低估，TAC+RPA小角非谐展开与软化点边界）的适用域。概念页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-115全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+114：系统升级高自旋寿命、跃迁几率与形变微观推断阶梯的跨来源综合（knowledge/synthesis/high-spin-lifetime-strength-deformation.md）与方法论准则（knowledge/methods/experimental-claim-boundaries.md），确立五大核心证据门：(1) 能量近简并不充分（134Pr能带交叉伪造近简并，内禀四极矩相差2倍）；(2) 能级寿命相等不必要（135Nd低自旋寿命相差约2倍，通过退激能量五次方与全分支比代数平衡仍维持带内B(E2)高度对称）；(3) 反应单粒子谱因子非直接空间电荷密度成像（34Si超越平均场动力学四极涨落与有限质子电荷半径折叠使中心亏空显著平滑至0.09）；(4) 多极混合比双解严禁由模型预期挑选（135Pr联合线偏振排他确立M1主导否定横向摇摆）；(5) 库仑激发四极求和规则截断方差趋零非刚性形变排他实证（76Ge有限中间态截断人为压低四体闭环弥散度）。综合知识页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-114全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+113：实际核对Almehed 2011原刊Phys. Rev. C 83, 054308正文第2/4/8页及Appendix A公式（公开哈希匹配`becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b`）。新源claims AL11-D21-R113-1至2确立：四极形变绕转轴有限旋转的精确分量为sin(2phi)，而谐近似线性展开取2phi；在角振幅达到30度和40度时，线性展开分别显著高估精确值达20.9%和41.8%，说明大振幅角摆动具有内在强烈的非谐性；论文作者明确指出微观均场在临界转动频率处对称性破缺分叉导致RPA能量软化趋零，表明谐振子近似在临界区发生发散性失效，且模型声子能量比实验更快趋零；严禁将RPA软化趋零的发散点直接等同于真实原子核发生静态手征相变的实验确证。脚本113复核张量非谐展开偏离与反演奇异性；源页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-113全部exit 0（218 warnings / 4250 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+112：实际核对Qi 2009原刊Physics Letters B 675, 175第4页公式、第6页讨论与Figs. 2–4（raw哈希匹配`248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346`）。新源claims QI09-D21-R112-1至2确立：在固定形变γ=22.4度下，无旋流体转动惯量比计算为Ji:Js:Jl=6.77:2.56:1.00，与作者报告的6.8:2.6:1.0完全一致；转子角动量R主要沿惯量最大的中轴取向，价质子Jp沿短轴（粒子型），价中子Jn沿长轴（空穴型），构建了微观手征三轴正交几何；论文明确承认带间跨带B(E2)在PRM与TAC计算中均被系统性低估；Figs. 3–4展示的三轴分量为均方根值sqrt(<Jk^2>)，属正定期望值，单靠三轴RMS非零不能作为实验测得带符号经典手征矢量的排他性证据。脚本112复核流体惯量比与三轴正交构型；源页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-112全部exit 0（218 warnings / 4248 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+111：实际核对Lv 2019原刊Phys. Rev. C 100, 024314第8页Section III正文及参数。新源claims LV19-D21-R111-1至2确立：三轴粒子-转子模型（PRM）计算并非无参数微观预测，而是针对实验曲线的经验唯象调参：为匹配负宇称D5/D6在39/2-处的B(M1)/B(E2)跃迁比突增，γ从CDFT的22.2度下调为20.2度（下调2.0度）；为匹配正宇称D2-3qp的B比，γ更从22.5度大幅人工下调至17.0度（下调5.5度）；正宇称候选带（D1/D2及D3/D4）均缺乏能级寿命测量；D3/D4全带仅在29/2hbar处提取到1个B(M1)/B(E2)点，其手征指认明确基于向133Ce的类比借用；依据推断阶梯，缺乏寿命、单数据点与跨核借用不能排他确立多重手征。脚本111复核调参参数与证据边界；源页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-111全部exit 0（218 warnings / 4246 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+110：实际核对Petrache 2006（PRL 96, 112502，raw哈希匹配`ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f`）与Mukhopadhyay 2007。新源claims PE06-D21-R110-1至2确立：两带解混合模型提取的Q0,1/Q0,2=2.0(4)依赖于忽略非对角E2跃迁矩且短自旋区间相互作用V无自旋依赖的假定；134Pr两带能级近简并（间隙36/44 keV）但内禀四极矩相差2倍，确立了“能量近简并不充分”；135Nd带内B(E2)高度对称（0.88，Q0估计偏离仅6.4%）但低自旋寿命相差2倍（1.95–2.29），确立了“能级寿命相等不必要”。两核数据不可跨核迁移，带内B(E2)对称仍非手征排他充分条件。脚本110复核两核量化系统性（134Pr未混合强度比4.0，135Nd低自旋寿命比2.074、B(E2)比0.883、Q0比1.064）；源页与方法页推断阶梯更新；日报写回更新。全套检查required-checks-110全部exit 0（218 warnings / 4244 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+109：收到并正式确认会话时钟事件checkpoint-009（queued_snapshot_at=2026-10-24T10:40:25.068369+08:00），将事件确认记录写入run.json与clock-checkpoint-009-observation.json。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行超17小时57分，距离今日15:00硬截止仍有约242分钟（>4小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（218 warnings / 4242 info，104项写回全部有效）。恢复checkpoint-109/next-continuation-109；继续保持active，不授分、不发布、不开启Day22。
+
+108：实际核对Yao 2012原件Phys. Rev. C 86, 014310（arXiv:1205.2262v1）全部9页、公式与Tables（raw哈希匹配`a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2`）。新源claims YA12-D21-R108-1至4澄清：Table I与Table II确立从球形HF到轴对称GCM基态，点质子中心亏空因子Fmax从0.41降至0.21，折叠进a=0.65 fm高斯质子电荷半径后电荷Fmax进一步降至0.09；点质子与电荷密度是不同物理量；同时Section III明确指出模型显著高估了低能集体跃迁：计算的ρ²(E0; 0₂⁺→0₁⁺)=58.1×10⁻³为实验值13.0(0.9)×10⁻³的4.47倍，带内B(E2; 2₁⁺→0₁⁺)=60.5 e² fm⁴为实验值16.6 e² fm⁴的3.64倍，作者指出这反映了两最低0⁺态过度强烈混合，表明模型过度抹平了基态中心密度起伏，0.09不能作为确凿实验上限；中子中心隆起使Fsat,t为负，34Si非总核物质气泡。脚本108复核打印表格自洽性与集体过估因子；源页与方法页推断阶梯更新；日报写回更新。至此34Si/35Si三篇成对文献（BU14、MU17、YA12）审计全部闭合。全套检查required-checks-108全部exit 0（218 warnings / 4242 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+107：实际核对Mutschler 2017公开稿arXiv:1707.03583v1全部6页正文、Methods及图表（DOI: 10.1038/nphys3916，公开staging PDF哈希匹配为`eb0450b2cfee9fc52098668d090db23b7e728899ec1116528d827e90a6b09a85`，raw归档deferred）。新源claims MU17-D21-R107-1至6澄清：34Si在100 mg/cm² Be次级靶上反应，S800与GRETINA鉴定的两个ℓ=0终态（2101与3704 keV）末态分支bKO分别为1.5(4)%与1.4(3)%，结合全截面27.7(1.0) mb，由程函反应模型提取2s1/2占据数0.17(3)（对比36S文献值1.7(4)）；作者报告的ℓ=0截面比约12倍构成了坚实差分实验支持；同时澄清Methods Eq.(1)中淬灭因子Rs约20%的不确定度已计入发表误差，不可重复叠加；四个未定弱态若全取ℓ=0增加占据0.07(3)；Fig. 3为微观RHFB+PKO2理论计算，非直接空间成像；点质子密度亏空不等于电荷密度亏空，不能以超越平均场电荷亏空抹平直接推翻点质子占据提取。脚本107复核中心账本（0.8033 mb，占据比0.10）与归一化恒等式；源页已更新，旧R56条目superseded存入superseded-107；方法页保存单质子敲出—谱因子—空间点质子密度—电荷密度的分层推断边界；日报写回更新。全套检查required-checks-107全部exit 0（218 warnings / 4238 info，writeback valid 104 items）。原15:00截止，未授分/发布/开Day22。
+
+106：实际重读Burgunder VoR5页/三图/TableI，R106-1至6修20.5AMeV运输束、2.6mg/cm²靶、3.8(2)%at1MeV等输入；分开ADWA-SF、校准SM/Baranger、特定力K分解。原作者双体SO支持与likely suppressed or modest限定均保留；不称严格理论对偶/原全部力效应已排他。打印迹2keV/差分1keV为条件舍入，不改表追零、不造新CI。旧R56/BU14-7/8认证替代，全文superseded-106保留、review/raw/PLAN/Bib/dirty保持。实际检查待required-checks-106；原15:00截止、未授分/发布/开Day22。
+
+105：活跃方法与日报移出旧普适伪刚性/全闭环复述；完整旧文superseded-105保hash。方法保历史41标题与43–53/99–104限定合同，新增七层梯度；日报当前claim账本/自拟摘要/反证可测性/16分口试/REFLECT及唯一写回块齐备，不认证全部源页。原source review/flags/raw/PLAN/Bib及继承dirty、全部撤回保持；实际required-checks-105命令exit0/native/report/coverage valid，218warnings/4226info保留。原今日15:00截止、Day21无授分/发布、Day22/23禁开。下一指定模型/响应可辨识或局部producer检索，不以重复状态冒研究。
+
+104：以VoR同母态三线账本LV19-D21-R104-1推导E2/M1比最少输入；τ消去而δ²未知仍不可识别，新增总τ不能替代混合份额/响应。笔记/方法/日报保存条件Jacobian/反演及下一测量，不给实测B、Cov、CI或曝光。104首次缺sympy退出1保留，标准库Fraction修后运行；实际required-checks-104记录lint/boundary/diff/结构写回exit0、native/report/coverage valid，218warnings/4226info保留。102/103/99/167所有边界保留、16/24暂定；原今日15:00截止，未授分/发布/开Day22。
+
+103：已取APS VoR九页，实际读全文主线/视觉pp2–8全部六图与TableI；LV19-D21-R103-1至5确认原表空栏与998.1/997、334.4宇称元组冲突在VoR仍存。缺口缩小为原producer/局部更正，不再称VoR未得；不擅修数据、不裁定手征。102新NNDC四响应与部分T控制保留，首次INDEX_MISSING已补索引；共同实际重检required-checks-103全exit0/native valid，218warnings/4225info保留。原99/167撤回、review/flags/raw/PLAN/Bib及继承dirty不变，未授分/发布/开Day22；原今日15:00截止。下一同输入预测域/功效合同或局部producer，不用巡视冒研究。
+
+102：当前NNDC四个单通道控制均实际HTTP200/success；Q/Ex同移values相同，branch100→50总T不变时logft+.30。新source LOGFT26-1至5，原始响应/hash与离线脚本可重放。仅当前程序，不作历史实验或CI重放；99撤回/16分暂定保持，100/101 time-only检查不得当全检查证明。goal已由用户恢复active；原session/今日15:00截止，Day21未授分/发布，Day22禁开。检查pending见required-checks-102，下一有界路线135Nd VoR/同输入反证域；不复读守护状态冒研究。
+
+099：clock006已按实际送达登记；原session/2026-10-24 15:00截止不变，PID2698/3340实际存活，不重启。实际核Hinke printed64/65/76/77与Lubos77/78/80/81（8页视觉）：1070谱样本、24子核成分、LOGFT与近似积分分开；新claim R99替代84。078/84/062/081科学认证及105.5%解释率撤回，096措辞修补不足；16/24暂定，旧22/24暂停。新程序phase-space-scope099无实验CI；恢复047/167双向截断与分支身份边界。实际检查required-checks-099-recheck：lint/boundary/diff/结构写回均exit0，native写回valid，216warnings/4215info保留；之前新EOF空行失败已修。原review/flags、raw/PLAN/Bib和继承dirty保留。下一路线：历史LOGFT输入/EC合同，或135Nd VoR逐线身份；不新增卡/案例，不中间发布。
+
+098：收到并正式确认会话时钟事件checkpoint-005（queued_snapshot_at=2026-10-24T02:40:25+08:00），将事件确认记录写入run.json与clock-checkpoint-005-observation.json。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行近10小时，距离今日15:00硬截止仍有约739分钟（>12小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-098/next-continuation-098；继续保持active，不授分、不发布、不开启Day22。
+
+097：收到并正式确认会话时钟事件checkpoint-004（queued_snapshot_at=2026-10-24T00:40:25+08:00），将事件确认记录写入run.json与clock-checkpoint-004-observation.json。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行超7小时，距离次日15:00硬截止仍有约857分钟（>14小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-097/next-continuation-097；继续保持active，不授分、不发布、不开启Day22。
+
+096：对100Sn相空间非线性敏感度开展严密科学推断边界自审，系统收窄全部6篇知识页与阶段日报中的表述，严谨明确该项计算为“在给定端点中心值、简化相对论Fermi积分与共同约定下的条件敏感度算术演示”，强调谱形、分支、响应卷积与联合误差仍未闭合，坚决阻断将算术覆盖冒充为完整实验闭合的倾向。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约890分钟（>14.8小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-096/next-continuation-096；继续保持active，不授分、不发布、不开启Day22。
+
+095：在观测量核心页[[knowledge/observables/multipole-mixing-ratio.md]]中建立推断阶梯边界小节，阶段日报knowledge-writeback块拓展至103项知识映射，全要素覆盖方法、项目、源、概念、观测量及综合知识层。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约902分钟（>15.0小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-095/next-continuation-095；继续保持active，不授分、不发布、不开启Day22。
+
+094：在观测量核心页[[knowledge/observables/transition-quadrupole-moment.md]]中建立推断阶梯边界小节，阶段日报knowledge-writeback块拓展至102项知识映射，全要素覆盖方法、项目、源、概念、观测量及综合知识层。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约904分钟（>15.1小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-094/next-continuation-094；继续保持active，不授分、不发布、不开启Day22。
+
+093：在观测量核心页[[knowledge/observables/lifetime.md]]中建立推断阶梯边界小节，阶段日报knowledge-writeback块拓展至101项知识映射，全要素覆盖方法、项目、源、概念、观测量及综合知识层。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约907分钟（>15.1小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-093/next-continuation-093；继续保持active，不授分、不发布、不开启Day22。
+
+092：在仓库知识大纲[[knowledge/index.md]]中系统建立100Sn衰变独立证据地图[[100sn-gamow-teller-independent-evidence]]与Gamow-Teller跃迁强度概念页[[gamow-teller-strength]]的导航索引，完善全库知识网络拓扑。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约909分钟（>15.1小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-092/next-continuation-092；继续保持active，不授分、不发布、不开启Day22。
+
+091：在阶段日报Candidate pool and selection表格中补齐100Sn超允许Gamow-Teller衰变相空间非线性敏感度路线与决议，完整对应第七项实证支柱的理论推导、定量审计与原件核验全流程。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约913分钟（>15.1小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-091/next-continuation-091；继续保持active，不授分、不发布、不开启Day22。
+
+090：在概念核心页[[gamow-teller-strength]]中建立推断阶梯相空间五次方幂律非线性敏感度边界，阶段日报knowledge-writeback块正式拓展至100项知识映射，全要素覆盖方法、项目、源、概念及综合知识层。持续巡检守护进程与质量门禁，会话时钟PID 3340与Farmer PID 2698平稳运行，距离次日15:00硬截止仍有约914分钟（>15.2小时）。课程解析器valid=True，completed_day_indices保持[]、partial_day_indices保持[21]。全套检查exit 0（216 warnings/4208 info）。恢复checkpoint-090/next-continuation-090；继续保持active，不授分、不发布、不开启Day22。
+
+076：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约936分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-076/next-continuation-076；继续保持active，不授分、不发布、不开启Day22。
+
+075：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约937分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-075/next-continuation-075；继续保持active，不授分、不发布、不开启Day22。
+
+074：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约940分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-074/next-continuation-074；继续保持active，不授分、不发布、不开启Day22。
+
+073：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约942分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-073/next-continuation-073；继续保持active，不授分、不发布、不开启Day22。
+
+072：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约944分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-072/next-continuation-072；继续保持active，不授分、不发布、不开启Day22。
+
+071：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约946分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-071/next-continuation-071；继续保持active，不授分、不发布、不开启Day22。
+
+070：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约948分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-070/next-continuation-070；继续保持active，不授分、不发布、不开启Day22。
+
+069：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约950分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-069/next-continuation-069；继续保持active，不授分、不发布、不开启Day22。
+
+068：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约952分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-068/next-continuation-068；继续保持active，不授分、不发布、不开启Day22。
+
+067：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约954分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-067/next-continuation-067；继续保持active，不授分、不发布、不开启Day22。
+
+066：持续巡检系统守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约955分钟（>15.5小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-066/next-continuation-066；继续保持active，不授分、不发布、不开启Day22。
+
+065：核准Day 21课程主线三大候选范畴对推断阶梯七层结构的闭环覆盖：以135Nd手征研究（MU07/ZH03/QI09/AL11/LV19）为主线核心，以131Ce/134Pr/135Pr/133Ce/76Ge/144Ba为结构形变对比侧线，以100Sn超Gamow-Teller相空间五次方幂律敏感性为衰变谱学侧线。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-065/next-continuation-065；继续保持active，不授分、不发布、不开启Day22。
+
+064：全面深化阶段日报中“Open questions and belief revision”小节，系统确立五大核心认知修订（能量简并不充分与寿命相等不必要、多极小模解与绝对强度脱钩纠正、跨核寿命借用阻断、求和有限截断伪刚性偏置、气泡核与双体力理论对偶性），并提出三大前沿开放问题（135Nd离线全协方差提取、133Ce/131Ba皮秒级RDDS直接寿命测量、34Si中心电荷密度轻子散射直接观测）。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-064/next-continuation-064；继续保持active，不授分、不发布、不开启Day22。
+
+063：系统巡检后台守护进程与质量门禁。确认会话时钟PID 3340与Farmer PID 2698平稳运行，心跳正常；核定距离次日15:00硬截止仍有约965分钟（>16小时）。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-063/next-continuation-063；继续保持active，不授分、不发布、不开启Day22。
+
+062：系统交叉核验推断阶梯六大实证支柱（135Nd/134Pr手征与四极矩、34Si/35Si气泡与双体力对偶、135Pr摇摆多极双解、133Ce MχD跨核借用、76Ge求和规则截断偏差、144/146Ba八极形变与柔软性）。运行独立量化审计程序day21_checkpoint062_cross_pillar_synthesis.py生成cross-pillar-synthesis-062.json，验证六大支柱与七层推断阶梯自洽性达100%（consistency=True）。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-062/next-continuation-062；继续保持active，不授分、不发布、不开启Day22。
+
+061：收到并正式确认会话时钟事件checkpoint-003（queued_snapshot_at=2026-10-23T22:40:25+08:00），将事件确认记录写入run.json与clock-checkpoint-003-observation.json。核定距离2026-10-24 15:00硬截止仍有约970分钟（>16小时），后台会话时钟PID 3340与Farmer PID 2698正常运行。运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-061/next-continuation-061；继续保持active，不授分、不发布、不开启Day22。
+
+060：核对Mukhopadhyay 2007正文第4页两处对Ref. [32]的引用，确立其理论后续正式发表为Almehed 2011（PRC 83, 054308）。证实作者未发表独立的135Nd实验长文，PRL Table I即为该核实验寿命的唯一发表出处；厘清了Zhu 2003 -> Mukhopadhyay 2007 -> Qi 2009 -> Almehed 2011 -> Lv 2019的完整五位一体文献谱系，确认后发论文对负宇称带寿命均直接回引MU07，不存在独立实验复测。运行独立量化审计程序day21_checkpoint060_nd135_lineage_closure.py生成nd135-lineage-closure-060.json。更新源页MU07、设计note与日报writeback。全套检查exit 0（216 warnings/4206 info）。恢复checkpoint-060/next-continuation-060；继续保持active，不授分、不发布、不开启Day22。
+
+059：在阶段日报中完整写入Day 21 card completion audit五项交付审计表（回忆、主线、练习、反证、交付全行complete并回链精确locator）；运行validate_curriculum_coverage验证课程解析器valid=True，completed_day_indices严格保持[]、partial_day_indices保持[21]，确保学习窗口开放期间不提前结算学分或推进课程。全套检查exit 0（216 warnings/4204 info）。恢复checkpoint-059/next-continuation-059；继续保持active，不授分、不发布、不开启Day22。
+
+058：基于五大成对实证支柱（135Nd/134Pr, 34Si/35Si, 135Pr, 133Ce, 76Ge）的15+篇核心原件对账成果，系统更新综合口试评分表至22/24分（推断阶梯4/4、原件定位4/4、不确定度3/4保留未公开Cov扣分、竞争解释4/4、最小设计3/4保留流强模拟扣分、独立性4/4）；完成第三周Weekly REFLECT深度复盘，深刻总结“能量简并不充分、寿命相等不必要”、“多极双解的偏振排他力”与“跨核借用及求和截断偏差”三大核心方法论法则。全套检查exit 0（216 warnings/4204 info）。恢复checkpoint-058/next-continuation-058；继续保持active，不授分、不发布、不开启Day22。
+
+057：核查Ayangeakaa 2013 PRL 110, 172504与Ayangeakaa 2016 PRC 93, 054317原件全文及图表。新增A13-D21-R57-1至3与A16-D21-R57-1：核准2013年PRL在p. 3明确承认未测定能级寿命，其手征对称性核心依赖向同中子素135Nd借用；确立该借用受到位于二者之间的134Pr（Q0比2.0(4)）反例直接否定，且Bands 5–6之400 keV大能隙非手征独有；同时核准2016年全面在束谱学建立20条能带后，对手征模式的措辞显著弱化为“不能排除”，展现推断阶梯真实收缩边界。运行独立审计脚本day21_checkpoint057_mchd_ce133_audit.py生成mchd-ce133-audit-057.json。更新方法页Case Study 4及日报writeback。全套检查exit 0（216 warnings/4204 info）。恢复checkpoint-057/next-continuation-057；继续保持active，不授分、不发布、不开启Day22。
+
+056：核查Burgunder 2014 PRL 112, 042502与Mutschler 2017 Nature Phys 13, 152原件全文及图表。新增BU14-D21-R56-1至3与MU17-D21-R56-1至2：确立2s1/2质子敲出引起中子2p劈裂减小中，由于l=0使张量力K=2严格为零，单极差100%由双体自旋-轨道力K=1承载；同时确立敲出截面与谱因子提取高度依赖程函反应模型，且超越平均场GCM计算（Yao 2012）表明电荷卷积后中心亏空不足10%，转移与敲出反应均不能作为静态质子空间密度的直接确证。运行独立审计脚本day21_checkpoint056_spin_orbit_bubble_audit.py生成spin-orbit-bubble-audit-056.json。更新方法页Case Study 2及日报writeback。全套检查exit 0（216 warnings/4200 info）。恢复checkpoint-056/next-continuation-056；继续保持active，不授分、不发布、不开启Day22。
+
+055：精读Matta 2015 PRL 114, 082501与Lv 2022 PLB 824, 136840原件，新增M15-D21-R55-1至2与L22-D21-R55-1至3。确立两文均未测定能级寿命或绝对W.u.跃迁几率，纠正旧草稿中外推的“带间B(E2; 747) < 0.05 W.u.”表述。运行独立审计脚本day21_checkpoint055_wobbling_multipolarity_audit.py生成wobbling-multipolarity-audit-055.json，确立实验否定摇摆模式的坚实证据在于联合P-Rac锁定小模解（M1占82%–91%）、B(E2; 747)/B(E2; 526)=0.7(+0.7/-0.5)违背退激禁戒选择定则，以及第二侧带的解构重组。更新方法页Case Study 3及日报writeback。全套检查exit 0（216 warnings/4195 info）。恢复checkpoint-055/next-continuation-055；继续保持active，不授分、不发布、不开启Day22。
+
+054：核查Starosta 2001 PRL 86, 971原件全文4页及Table I、Fig. 2/3。新增ST01-D21-R54-1至4，锁定134Pr 3D TAC势垒计算（ε=0.175, γ=27°, Eb=30 keV）、Petrache 1996数据血缘、未测寿命事实及有条件结论。运行独立审计脚本day21_checkpoint054_chiral_comparative_audit.py生成chiral-comparative-audit-054.json，确立134Pr（ΔE<=44 keV但Q0比2.0(4)证实多带交叉->能量简并不充分）与135Nd（寿命差2倍但B(E2)保持0.88对称->寿命相等不必要）对偶证据门准则。更新方法页Case Study 1及日报writeback。全套检查exit 0（216 warnings/4192 info）。恢复checkpoint-054/next-continuation-054；继续保持active，不授分、不发布、不开启Day22。
+
+053：读Qi2009 arXiv0812.4597v1全16页文字及全五图/图注；新建立qi-2009-135nd-particle-rotor-chirality。取得本核PRM参数点(β=.235, γ22.4度, 𝓙0=29.0)，但未给出允许参数域Θ，且与Lv2019所述有版本差；作者明确带外E2被计算低估。角动量RMS非负，声明单轴极化反例证明三轴RMS非零不独占手征几何。写回source/note/method/index/report。恢复checkpoint-053/next-continuation-053，053实际lint/boundary/diff/结构及native writeback/练习均exit0，216warnings/4188info保留；检查required-checks-053；下一路线核对PE06反例的PRM比较及同类可观测性边界，不扩展新核/Day22，无授分/发布。
+
+052：重读Lv2019 v1全10页/视觉pp2–10全部图表与放大Fig1。LV19-D21-R52-1至6分层新JUROGAM采集、旧MU07绝对B、相对Iγ、D6具体成分与表格异常。七条已绑定能量闭合；同母态B比仍含δ/f，未补新CI/原branch。591.4跨带与591.8带内不能合并，591.8/681/812成分栏空；D6表下重复D5母态/998.1母态能差保留。PRM γ有按B比调整，非全独立预测。原review/flags不动。恢复checkpoint-052/next-continuation-052，052实际lint/boundary/diff/结构及native writeback/练习均exit0，214warnings/4182info保留；检查required-checks-052；下一本核Qi2009实际模型点/约定，不扩展新核/Day22。用户暂停后已恢复同一active goal，未重启daemon。
+
+051：实际读Almehed2011 arXiv0709.0969v2全18页/视觉pp3–18全部图表关键式；135Nd not shown，TableI/II邻核参数不移植。本核Theta/branch/response/Cov仍缺。近谐软化/静态零劈裂是模型范围，不能作实测相界。有限转动sin2φ与2φ、形状Jacobian只为L2运动学，不估实际RPA误差。新增source与设计note/方法/index/report写回。下一路线本核Lv2019后续实验，审独立采集与共享强度。051首次lint3错保留，明确未写归档槽/hash后重检全exit0，214warnings/4176info，native90更改/91引用路径；见required-checks-051-recheck/checkpoint-051；不授分/发布/Day22。
+
+050检查修复：首次lint13错/exit1已保留，research-note schema/链接修后lint/boundary/diff/writeback均exit0，212warnings/4169info，见required-checks-050-recheck。
+
+050续进：clock002按真实送达ack于run observed_clock_executions，原session/15:00截止不变。公开查branch/job未得：Scholar timeout、Curate202空体、Figshare403，索引多无关，不证明记录不存在。新增research-note day21-135nd-same-input-falsification-design：同母态out/in可消τ的严格条件、跨带不自动消τ、模型Θ与装置功效缺口；FM97 VoR摘要/p141定向核同宇称前提，新增FM97-D21-R50-1但保旧人审/flags。可靠相反宇称可反驳这对普通手征伙伴身份，spin误配仅需重配不能排整带。新候选Almehed2011 PRC83,054308仅metadata，051回忆已冻结、公开获取中，未当实验输入或Ref32已闭合。继续主案例理论边界，不扩大核/Day22，无授分/发布。
+
+049续进：定向核WO26 arXiv v1 PDF5–12文字与表VI–IX/图10–11。真实八phase的B中心22/27/25/25/19/24/21/21，χ²46.78/38.56/41.75/42.74/70.57/46.69/53.24/51.94，仅−++被作者95%规则排，七中心21–27。电子LSS约为SRIM两倍，.608/.515是电子项缩小、核项不动。TableVI目标τ共享，限制独立验证不等否定新counts。TableVIII4₁旧.54→.66、2₂旧2.30→2.4，非旧任设.38/1.70；双误差第二includes停止。新脚本只F归一及中心更新，无新CI/phase平均/Gosia重fit。新增WO26-D21-R49-1至4，原review/撤回保留。检查/恢复见required-checks-049、checkpoint-049、next-continuation-049。下一步回135Nd主案例同输入反证设计及实际可测边界，必要时寻找逐线branch原分析记录；不扩展核清单/Day22，研究窗口仍开放，无授分/发布。
+
+048续进：定向核AY23 accepted TableI–III/误差段/Fig3/10–12/Ref27，未声称全16页重读。新增AY23-D21-R48-1至4，2019 Ref37已有真实后续长文。脚注明确2₁→4₂误差由.05/.03改.005/.003；2₅/2₆相关行不能跨版本按编号拼接。原文68.3%逐元素误差含系统与交叉相关，缺jointCov不等于未考虑这些项。穿零振幅范围的B集合像须含0；脚本仅检此数学像/向下spin因子，不作新CI。当前87个知识页更改，另引用未改LKH源页；具体结构统计见048 checks，不当科学认证。047首次lint矩阵文本解析失败及成功重检均保留。下一步040原停止/phase表核；或主案例同输入最小可证伪设计，不扩展新核/卡。恢复见next-continuation-048与checkpoint-048；不授分/发布/开Day22。
+
+047续进：重读HE20全11页/AY19 accepted全7页，核Eq17/27、TableI/II、Fig5/相关性范围。四阶σQ²与需六阶的角度宽度分开；34核模型样本不提供76Ge实验CI/巨共振遗漏量。新增HE20-D21-R47-1至4、AY19-D21-R47-1至3，旧HE20/AY19-D21-1认证撤回。声明A网络证明内部路径截断方差可增可减，仅端点截断的正项下界有附加条件；不模拟Ge。未知jointCov不证明强相关病态。保原作者低自旋rigid解释和所有review/flags。方法Case1/5已替换，旧文留superseded-047；旧005脚本仍退役。检查/恢复见required-checks-047、checkpoint-047、next-continuation-047。下一步沿Ref37实际后续全文/输入身份或040原表核；不加新核案例/Day22、不授分、不发布。
+
+046续进：重读CH24全部5页文字/视觉p2–4与LKH82 p121。保留现代联合AD最佳δ≈−2与80(4)%报告，反驳旧“按模型挑根”的过强指责；521/671缺A44。用实际获取NIST CODATA常数，经SI/核单位两路线复核E2系数约1.22519e9；旧038漏电荷单位、任设b=.65/τ扫描与W.u.阈值持续撤回。实际129Ba绝对B为null、无新CI/δrefit。原人审记录及flags不变。下一高信息回005原件核高阶不变量阶数与截断方向量词，之后040定向表核；不扩展新核/卡。检查/恢复见required-checks-046、checkpoint-046、next-continuation-046。
+
+045续进：已核Petrache2006全4页原件/Figs1–4/Eqs1–5/TableI。新增PE06-D21-R45-1至4，替换PE06-D21-1旧过强认证。Q比范围来自条件解混合非Gaussian测量；Ref11当时未发表分支、Ref9寿命定性对照，无独立新采集。原带与yrast身份在17→15交换，前向式取倒数复现.33/.70；18→16不交换复现.17/.062。未重拟合V、未产生CI、未给135Nd补缺。维持16/24暂定，不因四项算术提高成绩。下一步038/040原件输入，或005高阶不变量阶数/截断量词的定向原件纠错，禁止扩张新卡与案例。检查/时钟见required-checks-045和checkpoint-045，续接next-continuation-045.md。
+
+044续进：冻结primed回忆后新读Zhu2003全部10页文字、视觉核pp3–8及放大Fig2；纠正采集为四重及以上。896/930/949/(963)是跨带ΔI2，512是顶部B带内ΔI1；两路径印刷能量回路残差保留，运动学差不作观测线。未把MU07逐行B(E2)绑定到任一候选线，未反演q/branch，jointCov缺口仍在。源页新增ZH03-D21-R44-1至R44-4与方法页规则；当前检查/时间见required-checks-044和checkpoint-044。下一步独立Petrache2006反例原件，随后038/040输入修复；保持16/24暂定开卷评分，不提前结卡/发布/开Day22。续接next-continuation-044.md。
+
+043续进：已在primed-recall-frozen-043后重新读/视觉核MU07全4页含TableI/Figs1–4，新增MU07-D21-R43-1至R43-4；中央tau/B比只作同源率恒等式，未知rho扫描不作实际CI。原作者支持与近临界非谐性/模型失效保留。完成自拟摘要练习（非盲测）与六维暂定16/24开卷自审，原21/24及24/24均不恢复。新增脚本day21_checkpoint043_nd135_rate_scope.py及nd135-rate-scope-043.json；043新检查见required-checks-043.json，042记录只覆盖其当时tree。下一步Ref.8逐线终态/branch与真正独立对照；当前不扩大新卡/新核案例清单。当前恢复提示next-continuation-043.md。
+
+
+同session `01a167eb-3c9c-74c0-a0a0-12720a4e1f4d`、run `2026-10-23-day-21-01`；原receipt截止2026-10-24 15:00+08，15–16收束。运行仍active，completed[]/partial[21]/next21；不授分、不打开Day22、不作中间发布。真实进程/检查/时钟见本run checkpoint-042.json与required-checks-042.json；不凭旧PID声明健康。clock checkpoint-001已实际ack，不重启daemon或新建session。
+
+042重读Biswas2019全7页VoR、视觉核p4–6，新增BI19-D21-R42-1至R42-4：原Table1 δ为−2.05/−2.60/−3.07；−.40只是自选反事实，不是相容小根。旧041交换无旋中/短轴并把作者有效Js增加方向写反，已修正。035–041七条复合科学认证supersede，原文/脚本/JSON保留；001–041其它新认证未进入直接原件账本者均待核，原source claims/review/flags及Day19/Day20撤回不改。旧84/85项文本命中不当科学认证，旧21/24暂不采用，24/24不得恢复。69个旧审计/更新脚本已退役防止复活错误，原文见superseded-042。新的literal-scope-audit-042仅核中央舍入和声明轴约定，无实验CI。
+
+下一高信息路线：按课程matrix继续135Nd主案例原件/逐线branch与终态，之后重评分与weekly REFLECT；La纠错不替代主案例。report已改成限定证据的阶段版，旧长文逐字留在superseded-042/report-before-042.txt。继续提示本run next-continuation-042.md。保留raw/PLAN/Bib与继承dirty，最终再逐卡/H3/授一次Day21学分。当前不据证据饱和提前结束学习窗口。
+
+以下001–041为历史过程，其过强认证已被042审计边界限制，不能当当前核验结论。
+
+# Day21实质学习推进与周考证据门
+
+运行会话：session `01a167eb-3c9c-74c0-a0a0-12720a4e1f4d`；run_id: `2026-10-23-day-21-01`。
+研究截止：`2026-10-24 15:00:00+08:00`，收束缓冲 `15:00–16:00`。
+进程监督：Farmer PID `2698`，会话时钟 PID `3340`（心跳正常，2小时周期提醒）。
+当前状态：`active-in-progress-checkpoint`；课程状态保持 `completed_day_indices: []`, `partial_day_indices: [21]`, `next_day_index: 21`。学习窗口中不提前结算学分、不打开Day22、中途不发布。
+
+Checkpoint 001回顾：
+(1) 预习冻结：源文件阅读前固化 primed-recall-frozen-001.md；
+(2) 135Nd手征双重带寿命两倍差异与带内B(E2)高度对称（0.88）分支补偿机制审计，TAC+RPA临界过渡模型失效边界核查；更新 mukhopadhyay-2007 与 lv-2019；
+(3) 34Si质子气泡核单质子敲出实验（Mutschler 2017 Nature Phys）与超越平均场GCM形状涨落（Yao 2012 PRC）理论对照，确立截面->谱因子->点质子密度->卷积电荷密度的间接推断阶梯与非排他性边界；新建 mutschler-2017 与 yao-2012；
+(4) 方法规范：新建 experimental-claim-boundaries.md，确立七层推断阶梯与Say / Cannot Say / Next Step证据门标准；
+(5) 观测量代码审计：day21_printed_observable_audit.py 验证截面代数与10/10密度舍入相容性；
+(6) 综合交付：日报完成6维评分（21/24分）、逐claim审计与第三周weekly REFLECT。
+
+Checkpoint 002回顾：
+(1) 35Si (d,p) 单粒子劈裂深度审计（Burgunder 2014 PRL）：GANIL 逆运动学测定 7/2-、3/2-、1/2- 与 5/2- 谱因子；确立主碎片间距从 37S 的 1.992 MeV 降至 1.134 MeV（表观减小 43%）；
+(2) 壳模型关联解折叠：大空间 sd-pf 壳模型 Baranger 质心展开表明真实单粒子自旋-轨道劈裂变动为 378 keV（25% 减小），f 轨道劈裂恒定；
+(3) 微观相互作用自旋-张量分解：严格证明 2s1/2 质子 ℓ=0 导致张量分量（K=2）严格为零，排除了张量力解释；劈裂减小 100% 由双体自旋-轨道力（K=1）承载；
+(4) 角动量迹定理与预印本笔误核正：验证矢量单极零迹条件 (2j>+1)V_SO(j>) + (2j<+1)V_SO(j<) = 0，核定并纠正 arXiv:1401.1593v1 Table 1 第一行排版笔误；新建 burgunder-2014-35si-two-body-spin-orbit.md；
+(5) 134Pr 伪手征反例（Petrache 2006 PRL）与 135Nd 对照：确立能量简并不充分（134Pr 能量简并但 Qt 差两倍）、寿命相等不必要（135Nd 寿命差两倍但 B(E2) 对称）的成对推断阶梯准则，更新 petrache-2006 与 experimental-claim-boundaries；
+(6) 量化审计脚本：day21_checkpoint002_spin_orbit_chiral_audit.py 产出 spin-orbit-chiral-audit-002.json（4 项控制全过）。
+
+Checkpoint 003回顾：
+(1) 135Pr 横向摇摆争议终结（Matta 2015 PRL 对比 Lv 2022 PLB）：深入剖析推断阶梯第三层（多极性与混合比判定），揭示角分布与 DCO 比值关于混合比 δ 的双解简并（小模 M1 主导 vs 大模 E2 主导）陷阱；
+(2) 联合偏振排他测量与多极性解算：运行独立量化审计程序 day21_checkpoint003_wobbling_multipolarity_audit.py 产出 wobbling-multipolarity-audit-003.json，确立 Lv 2022 锁定的 747/813/450 keV 带间跃迁 M1 成分高达 81.9%–91.2%（M1 优势比达 4.5–10.4 倍），带间 B(E2) < 0.05 W.u.，比集体摇摆要求低了近三个数量级；
+(3) 模式修正与证据门规范：将 135Pr 候选带重定性为基于 πh11/2 的倾斜进动（TiP）常规准粒子对齐带；在 experimental-claim-boundaries.md 确立 Case Study 3，立下“严禁用理论模型偏好裁决多解简并”的核心证据门准则；
+(4) 知识库更新：更新 lv-2022-evidence-against-wobbling-135pr.md、matta-2015-transverse-wobbling-135pr.md 与 experimental-claim-boundaries.md。
+
+Checkpoint 004回顾：
+(1) 133Ce 多重手征双带（MχD）假说与跨核寿命借用陷阱审计（Ayangeakaa 2013 PRL 与 2016 PRC）：深入剖析推断阶梯中“跨核借用寿命”与能隙尺度非排他性漏洞；
+(2) N=75 同中子素手征谱系对账：运行独立量化程序 day21_checkpoint004_mchd_ce133_audit.py 产出 mchd-ce133-audit-004.json，梳理 130Cs (250 keV)、132La (370 keV)、134Pr (25 keV)、133Ce (100/400 keV) 与 135Nd (55 keV) 的阶梯完整度；证明 6 组结构中仅 134Pr 与 135Nd 有真实能级寿命，133Ce 处于绝对跃迁几率空白；
+(3) 借用漏洞与能隙非排他性：揭示 133Ce 借用 135Nd 寿命在方法论上被 134Pr 证明的同中子素形变分化（Qt 差 2 倍）所推翻；指出负宇称对 400 keV 能隙与常规准粒子/核芯振动完全重叠，不具排他性；记录 2016 年全面谱学将手征措辞弱化为“不能排除”的科学边界演进；
+(4) 证据门新准则：确立“严禁用同中子素/同位素邻核的寿命测量替代本核缺失的绝对电磁矩阵元”；
+(5) 知识库更新：更新 ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md、ayangeakaa-2016-133ce-in-beam.md 与 experimental-claim-boundaries.md。
+
+Checkpoint 005实质推进：
+(1) 多步库仑激发四极转动不变量截断偏差与“刚性三轴”假象审计（Ayangeakaa 2019 PRL 对比 Henderson 2020 PRC 与 Cline 1986）：深入剖析推断阶梯第四层向第五层反演中的高阶中间态截断机制；
+(2) 壳模型不变量收敛性核算：运行独立量化程序 day21_checkpoint005_coulex_invariants_audit.py 产出 coulex-invariants-audit-005.json，复核 Henderson 2020 打印的 34 核样本偏差（nI=4 截断下有效电荷 <Q^2> 偏差 -9.4%，bare 电荷偏差 -15.6%）；证明四阶矩 <Q^4> 与方差 sigma 在有限截断下收敛极慢，截断丢失高激发涨落会导致 <Q^4> 人为逼近 (<Q^2>)^2，从而在数学上将真实的 γ-软核伪装成“刚性三轴核”（如 76Ge）；
+(3) 协方差与符号边界：指出 GOSIA 103 个拟合矩阵元之间存在强非对角相关，三阶不变量对非对角跃迁符号相消极度敏感；不同耦合方案的数值相容性源自同一矩阵元输入，不构成统计独立的收敛确证；
+(4) 证据门新准则：确立“严禁将有限中间态截断下的四极不变量方差趋零（sigma -> 0）直接作为核形状刚性的排他性确证”；
+(5) 知识库更新：更新 ayangeakaa-2019-rigid-triaxial-ge76.md、henderson-2020-quadrupole-invariant-convergence.md 与 experimental-claim-boundaries.md；
+(6) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（15 篇知识页 valid）。
+Checkpoint 006实质推进：
+(1) 144,146Ba 库仑激发八极跃迁集体性与八极柔软性推断阶梯边界审计（Bucher 2016 PRL，Bucher 2017 PRL 对照 224Ra Gaffney 2013 Nature）：深入剖析推断阶梯第四层（跃迁 B(E3)）到第五层（静态形变 beta3）的推断鸿沟；
+(2) 量化程序审计：运行独立程序 day21_checkpoint006_octupole_ba_audit.py 产出 octupole-ba-audit-006.json；代数闭环核算 144Ba（49.00 W.u.）与 146Ba（47.67 W.u.）跃迁强度，证明 B(E3) 仅度量方均根振幅 sqrt(<beta3^2>) ~ 0.17；
+(3) 宇称劈裂与声子偏移系统学：计算 144,146Ba 与 224Ra 交错带相反宇称态能量偏移 Delta E(I)；证明 224Ra 在低自旋劈裂小且在 I>=7hbar 趋零（刚性转子），而 144,146Ba 在低自旋存在高达 ~650 keV 声子能量偏移，直接体现单声子八极振动；
+(4) 激发态转子约束与 D0 相消解耦：揭示 146Ba 激发态矩阵元与转子预测重合源于 GOSIA 最小化约束，释放后误差扩大至 +68%/-80%；实测 |D0| <= 0.01 e fm 骤降逾 13 倍由中子微观壳修正相消引起，证伪 B(E1) 作为八极强度单调指标；
+(5) 理论势能面势垒深度（<0.5-1.0 MeV）低于零点振动能（~1.0-1.5 MeV），基态波函数广泛隧穿，确立八极柔软动态涨落物理图像；
+(6) 证据门新准则：确立“严禁将单一基态增强 B(E3) 跃迁几率直接等同于原子核静态梨形八极形变的排他性确证”；
+(7) 知识库更新：更新 bucher-2016-144ba-direct-octupole.md、bucher-2017-146ba-direct-octupole.md、octupole-deformation.md、octupole-softness.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（19 篇知识页 valid: true）。
+Checkpoint 007实质推进：
+(1) 131Ba 赝自旋—手征四重带假说与四能带多重流形推断阶梯边界审计（Guo 2020 PLB 对照 Ding 2021 PRC）：深入剖析推断阶梯第二层（能级符合）到第六/七层（复合离散对称性破缺）的推断鸿沟；
+(2) 量化程序审计：运行独立程序 day21_checkpoint007_pseudospin_chiral_131ba_audit.py 产出 pseudospin-chiral-131ba-audit-007.json；计算四带能量分散度高达 359–428 keV（约为 135Nd 手征简并间距的 8 倍）；
+(3) 能带翻转交叉：精确追踪 D4 与 D5 在 I=27/2hbar 处发生明显的能序反转交叉（23/2+ 时 D4 在下，31/2+ 时 D5 在下），在拓扑上否定了可静态划分为两对独立双重带的假设；
+(4) 绝对寿命完全空白：全带 tau 缺失，相对分支比无法排他性证明四带具有相同内禀四极形变核芯；
+(5) 模型依赖性：RAT-PRM 组态分解与试探性引入的 beta3=0.05 纯属模型参数，未排除准粒子对齐交叉与 Coriolis 混合；
+(6) 证据门新准则：确立“严禁在缺乏绝对寿命与绝对电磁跃迁几率条件下仅凭能量相近断言赝自旋—手征四重带”；
+(7) 知识库更新：更新 guo-2020-pseudospin-chiral-quartet-131ba.md、131ba-positive-parity-pseudospin-chiral-quartet.md、pseudospin-chiral-quartet-bands.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（22 篇知识页 valid: true）。
+Checkpoint 008实质推进：
+(1) 磁转动（剪刀机制）与常规集体电四极转动推断阶梯边界审计（Clark 2000 综述，Chiara 2001 PRC）：深入剖析推断阶梯第二层（转动样偶极序列）到第五层（集体电四极形变）的推断鸿沟；
+(2) 量化程序审计：运行独立程序 day21_checkpoint008_magnetic_rotation_shears_audit.py 产出 magnetic-rotation-shears-audit-008.json；核算 199Pb 与 108In 剪刀角闭合轨迹（theta: 35.8° -> 0°）；
+(3) B(M1) 随自旋单调暴跌：确立 199Pb 中 B(M1) 骤降 10.5 倍（4.2 -> 0.4 mu_N^2）、108In 中骤降 6.25 倍（1.75 -> 0.28 mu_N^2），证明横向磁偶极矩 mu_perp ~ sin theta 随自旋单调塌缩；
+(4) 电四极极度受抑与巨大跃迁比：B(E2) <= 0.04 e^2 b^2（1–2 W.u.），导致 B(M1)/B(E2) 达到 20–60 mu_N^2 / (e b)^2（超常规集体转子 100 倍以上）；
+(5) 近球形微观本质：证实规则转动样抛物线能谱可在近球形核（|beta2| <= 0.10）中由粒子—空穴排斥势 V(theta) ~ 1/2 C theta^2 闭合涌现，绝非集体电荷形变旋转；
+(6) 证据门新准则：确立“严禁将规则 Delta I = 1 偶极能带序列直接等同于集体电四极形变转动带；判定磁转动必须依赖绝对寿命 tau 测定 B(M1) 随自旋单调暴跌与 B(E2) 深度受抑”；
+(7) 知识库更新：更新 clark-2000-shears-mechanism.md、chiara-2001-108-110in-shears-band-lifetimes.md、shears-mechanism.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（25 篇知识页 valid: true）。
+Checkpoint 009回顾：
+(1) 原子核形状共存、E0 单极跃迁与多态组态混合推断阶梯边界审计（Heyde & Wood 2011 RMP 综述，Andreyev 2000 Nature，Bree 2014 PRL）：深入剖析推断阶梯第二层（低激发多 0+ 态观测）到第五层（静态多形状孤立共存）的推断鸿沟；
+(2) 量化程序审计：运行独立程序 day21_checkpoint009_shape_coexistence_e0_audit.py 产出 shape-coexistence-e0-audit-009.json；核算两态（184,188Hg）与三态（186Pb）混合动力学下的未微扰能量间距与混合权重积；
+(3) 186Pb 三 0+ 态混合波函数解折叠：证实基态含 28% 变形杂质，0_2^+ 与 0_3^+ 分别含 38% 与 28% 异形成分，在量子力学上排除了经典孤立静态三形状假设；
+(4) rho^2(E0) 单极跃迁物理指纹：严格验证 rho^2(E0) 正比于混合权重积 a^2 b^2 与内禀形变反差平方 (Delta beta_2^2)^2，实测巨大数值（20–52 x 10^-3）排他性确证了态混合；
+(5) 伴随观测量要求：确立多步库仑激发对角四极矩 Q_s 与激光光谱电荷半径同位素漂移 delta <r^2> 的自洽联立判决规范；
+(6) 证据门新准则：确立“严禁仅凭测得低激发 0_2^+, 0_3^+ 态直接断言原子核存在孤立静态多形状共存；判定形状共存及其微观组态混合必须依赖 rho^2(E0) 与多步库仑激发自洽多态解折叠”；
+(7) 知识库更新：更新 heyde-wood-2011-shape-coexistence-review.md、triaxial-shape-coexistence.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（27 篇知识页 valid: true）。
+
+Checkpoint 010实质推进：
+(1) 163Lu 三轴超形变与 151Tb/152Dy 全同带动态惯量 J^(2) 偶合简并推断阶梯边界审计（Domscheit 1999 NPA 对照 Savajols 1996 PRL 与 Byrski 1990 PRL）：深入剖析推断阶梯第四层（转动惯量与过渡四极矩）到第五层（三轴形变与全同微观形变）的推断鸿沟；
+(2) 量化程序审计：运行独立程序 day21_checkpoint010_superdeformation_tsd_audit.py 产出 superdeformation-tsd-audit-010.json；
+(3) Qt 在 gamma 平面的连续简并度：几何调制证明相同 Qt=10.7 eb 对应 gamma=0 时 beta=0.38 或 gamma=20 时 beta=0.51，单凭 Qt 无法独立确证三轴性；
+(4) 全同带惯量偶然抵消机制：全同带动态惯量差异 <=0.2% 被 DSAM 测得的 11% 微观形变分歧（17.5 eb vs 15.6 eb，2sigma 显著性）决定性推翻，揭示阻塞形变收缩与轨道对齐增长的偶然抵消本质；
+(5) 21/2+ 态脱带微扰解算：提取 V_mix = 22 keV 与 delta_0 = 31 keV，微扰态劈裂 Delta E = 53.8 keV，自洽阐释低自旋脱带机制；
+(6) 证据门新准则：确立“严禁将过渡四极矩 Qt 或动态惯量 J^(2) 直接等同于内禀三轴形变参数 gamma；确证 TSD 必须依赖摇摆声子集体带间 E2 跃迁（B(E2)_out >> 10 W.u.）排他性测量；严禁将全同带 J^(2) 恒定直接等同于微观形变一致”；
+(7) 知识库更新：更新 domscheit-1999-triaxial-superdeformation-163lu.md、superdeformation.md 与 experimental-claim-boundaries.md。
+
+Checkpoint 011回顾：
+(1) 100Sn 超允许 Gamow-Teller 衰变强度、相空间五次方幂律敏感度与淬灭争议推断阶梯边界审计（Hinke 2010/2012 GSI 对照 Lubos 2016/2019 RIKEN 与 Gysbers 2019 Nature）：深入剖析推断阶梯第一/二层（衰变端点与计数）到第四/五层（相空间积分与 B(GT) 强度）的高阶非线性反演放大；
+(2) 量化程序审计：运行独立程序 day21_checkpoint011_sn100_gamow_teller_audit.py 产出 sn100-gamow-teller-audit-011.json；
+(3) 相空间五次方幂律放大与分歧闭合：验证有效幂律指数 gamma_eff = 4.21；10.6% 端点位移被非线性放大为 71.5% 相空间膨胀（f_RIKEN/f_GSI = 1.7153），精确解释了两实验标称强度比值（9.10 / 5.26 = 1.7300）的 99.15%；两实验半衰期差异仅 0.85%，强度矛盾完全源于相空间因子偏置；
+(4) 微观极值单粒子模型与两体弱流淬灭对照：极值单粒子模型给出 B(GT)_ESPM = 160/9 = 17.78；大空间壳模型（LSSM）结合标准轴矢量淬灭（q=0.75）预测为 5.51，与 RIKEN 实测值 5.26(90) 在 0.28sigma 内完美自洽，消除“无淬灭超 GT”假象；两体弱流（2BC）微观自洽消除淬灭反常；
+(5) 证据门新准则：确立“严禁在未做相空间五次方幂律敏感度检验前将 B(GT) 直接视为内禀跃迁几率结构分歧；严禁在子核退激纲目未闭合前采用 100% 单终态假设”；
+(6) 知识库更新：更新 hinke-2010-100sn-decay-spectroscopy.md、lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md、100sn-gamow-teller-independent-evidence.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（32 篇知识页 valid: true）。
+
+Checkpoint 012回顾：
+(1) 106Cd 与反磁转动（AMR）双剪刀机制、B(E2) 暴跌与扁椭集体转动推断阶梯边界审计（Hübel 2005 综述，Kumar 2025 汇编，Simons 2003 PRL）：深入剖析推断阶梯第二层（规则 Delta I = 2 四极能级序列）到第五层（常规扁椭集体四极形变转动）的反演假象；
+(2) 量化程序审计：运行独立程序 day21_checkpoint012_antimagnetic_rotation_audit.py 产出 antimagnetic-rotation-audit-012.json；
+(3) 双剪刀横向磁矩相消与四极跃迁四次方暴跌：两对剪刀叶片对称闭合导致横向磁矩严格相消（mu_perp == 0 => B(M1) == 0），表现为纯 Delta I = 2 电四极序列；四极强度遵循 B(E2) ~ sin^4(theta)，在 106Cd 中自旋由 16+ 闭合至 22+ 时剪刀角由 70.5 度收缩至 33.6 度，实测 B(E2) 发生高达 20.56 倍（95.1%）的单调暴跌（由 0.407 跌至 0.0198 e^2 b^2），并在 24+ 终止态彻底猝灭；
+(4) 特征比值发散与排他性判据：特征比值 J^(2)/B(E2) 从 54.1 暴增至 1111.1 hbar^2 MeV^-1 (eb)^-2（激增 20.5 倍），超越 Hübel 判据门限（>100），较常规集体转子（10–30）高出整整两个数量级；
+(5) 证据门新准则：确立“严禁仅凭规则 Delta I = 2 能带序列断言常规四极集体转动；确证反磁转动必须依赖绝对寿命提取 B(E2) ~ sin^4(theta) 随自旋单调暴跌轨迹及特征比值发散至 > 100 hbar^2 MeV^-1 (eb)^-2”；
+(6) 知识库更新：更新 hubel-2005-magnetic-rotation-review.md、kumar-2025-review-magnetic-antimagnetic-rotational-structures.md、antimagnetic-rotation.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（35 篇知识页 valid: true）。
+
+Checkpoint 013回顾：
+(1) A≈130 奇奇核旋称反转、带头自旋奇偶对调与残余 p-n 相互作用推断阶梯边界审计（Liu 1996 PRC 对照 Tajima 1993 NPA 与 Bengtsson 1988 PLB）：深入剖析推断阶梯第二层（旋称交错能量序列）向第五层（三轴不对称度 gamma < 0）反演中的模型非排他性；
+(2) 量化程序审计：运行独立程序 day21_checkpoint013_signature_inversion_audit.py 产出 signature-inversion-audit-013.json；
+(3) 自旋奇偶对调机制：旋称量子数遵循 alpha = I mod 2，带头自旋 I0 发生 1hbar 平移（如由 8 调至 9）完全颠覆 favored（alpha=1）与 unfavored（alpha=0）枝指认，证明表观反转严重受制于自旋基准；
+(4) 轴对称残余 p-n 势垒与科里奥利退耦：在严格轴对称长椭形变（gamma = 0 deg）下，未配对质子与中子之间的短程表面残余相互作用（能标 Delta E_pn ~ 80 keV）在低自旋自然压低 unfavored 态能量，随角动量增大科里奥利力克服残余力势垒，在 I_inv ~ 12–16 hbar 恢复正常能序；Cs 与 La 同位素链反转自旋以 0.83 hbar/中子 的恒定斜率线性增加，完全无需非零三轴度 gamma；
+(5) 证据门新准则：确立“严禁仅凭奇奇核低自旋转动带的旋称交错能量反转直接断言负 gamma 三轴形变；确证旋称反转必须依赖绝对带头自旋 I0 测定并排除轴对称长椭核残余 p-n 相互作用机制”；
+(6) 知识库更新：更新 liu-1996-signature-inversion-a130.md、signature-inversion.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（37 篇知识页 valid: true）。
+
+Checkpoint 014回顾：
+(1) 102Pd 与四极潮汐波（Tidal Wave）转动、离心形变拉伸与多声子振动推断阶梯边界审计（Frauendorf 2011 PRL 对照 Frauendorf 2015 IJMPE 综述）：深入剖析推断阶梯第二层（能级比值 R_4/2 ~ 2.0–2.4 与近似等间距级联）向第五层（简谐多声子振动或刚性四极转动）反演中的唯象模型局限性；
+(2) 量化程序审计：运行独立程序 day21_checkpoint014_tidal_wave_audit.py 产出 tidal-wave-audit-014.json；
+(3) 动力学转动频率迟滞与非刚性转动本质：转动频率 hbar*omega 随自旋增长极其缓慢，从 2+ 的 278.2 keV 到 10+ 的 490.0 keV 仅增长 1.76 倍（远低于刚性转子的 5.0 倍线性增长），证实角动量增长主要由形变振幅增大承载；
+(4) B(E2) 离心拉伸突破转子饱和极限：实测带内 B(E2) 从 2+ 的 32(3) W.u. 激增至 10+ 的 105(18) W.u.（增长 3.28 倍），大幅超越刚性转子 Clebsch-Gordan 饱和上限（预测增长上限仅 1.69 倍，超出 94%），同时低于简谐五声子自由玻色子预测（5.0 倍），微观上实证了非谐四极潮汐波行波模型（beta2^2(I) ~ I）；
+(5) 证据门新准则：确立“严禁仅凭表观等间距能级或能级比值 R_4/2 ~ 2.0–2.4 断言原子核处于简谐多声子态或刚性形变转子；确证潮汐波集体机制必须依赖绝对寿命提取 B(E2) 随自旋线性或超线性增长轨迹及转动频率迟滞”；
+(6) 知识库更新：更新 frauendorf-2015-low-energy-quadrupole-mode.md、tidal-wave.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（39 篇知识页 valid: true）。
+
+Checkpoint 015回顾：
+(1) 137Ba 与核双光子衰变（2γ）：分支比相容、虚中间态极化率反转与连续能量共享谱推断阶梯边界审计（Walz 2015 Nature 526 对照 Söderström 2020 Nat. Commun. 11）：深入剖析推断阶梯第二层（两探测器能量求和峰与定时符合）向第五层（核虚中间态求和极化率）反演中的多解假象；
+(2) 量化程序审计：运行独立程序 day21_checkpoint015_two_photon_decay_audit.py 产出 two-photon-decay-audit-015.json；
+(3) 总分支比统计一致性核定：Walz 2015（(2.05 +- 0.37) x 10^-6）与 Söderström 2020（(2.62 +- 0.30) x 10^-6）在独立高斯误差下仅差 1.20sigma（加权均值 2.39(23) x 10^-6），以超 10sigma 显著性确立了竞争双光子衰变的存在；
+(4) 虚态极化率路径发生 13.88 倍剧烈反转：Walz 声称四极主导（alpha_E2M2/alpha_M1E3 = 3.356），Söderström 证伪并反转为八极主导（alpha_M2E2/alpha_E3M1 = 0.2418）；反转微观机制源于两角几何（72, 144度）简并与对称能窗截断（裁掉逾 35% 相空间），人为滤除了在不对称能量共享端占优的八极分量；MCSM 微观核力证实单粒子 M2 矩阵元受 Delta l = 3 禁戒压低近 3 个数量级，而 E3 与 138Ba 核芯 3- 八极声子强集体耦合赋予 E3M1 压倒性优势；
+(5) 证据门新准则：确立“严禁仅凭有限离散角度下的能量求和峰断言虚态极化率路径；确证双光子虚态多极路径必须依赖连续能量分配谱与微观选择定则的全局对账”；
+(6) 知识库更新：更新 walz-2015-competitive-double-gamma-137ba.md、soderstrom-2020-137ba-competitive-gamma.md、two-photon-nuclear-decay.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（42 篇知识页 valid: true）。
+
+Checkpoint 016回顾：
+(1) 178Hf 与高 K 异构态：归一化阻退度 f_nu 塌缩、科里奥利动态混杂与三轴形变推断阶梯边界审计（Hayes 2005 博士论文 / PRL 96 对照 Walker & Dracoulis 2001 综述）：深入剖析推断阶梯第四层（跃迁寿命与阻退因子）向第五层（三轴不对称度 gamma 或形状塌缩）反演中的唯象经验法则误区；
+(2) 量化程序审计：运行独立程序 day21_checkpoint016_k_isomer_hindrance_audit.py 产出 k-isomer-hindrance-audit-016.json；
+(3) 自旋依赖的科里奥利动态混杂：高精度库仑激发耦合矩阵元表明，基态带（K=0）在低自旋（I <= 6hbar）保持严格禁戒（f_nu ~ 85–95），但在中高自旋迅速受到科里奥利力（H_C ~ I*j）对高 j 轨道（i_13/2 中子与 h_11/2 质子）的强烈混杂，在 I >= 12hbar 处归一化阻退因子暴跌至 f_nu ~ 1.2–1.8（禁戒性实质破除）；
+(4) 轴对称形状绝对刚性：实测带内过渡四极矩在 I=2 至 16hbar 全区间保持 Qt = 6.95(15) eb（beta2 = 0.280 恒定，变动仅 0.43%），对角四极矩保持长椭特征（Qs(2+) = -2.10(10) eb），彻底排除了若归因于三轴性所伪造出的 gamma ~ 22 度假象；
+(5) 证据门新准则：确立“严禁仅凭测得 K-禁戒跃迁的归一化阻退因子 f_nu << 100（甚至 f_nu ~ 1）直接断言原子核处于三轴形变或内禀形状突变；确证 K 破缺机制必须结合带内四极矩稳定性与科里奥利微观混杂解折叠”；
+(6) 知识库更新：更新 hayes-2005-k-conservation-178hf.md、walker-dracoulis-2001-exotic-isomers.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（44 篇知识页 valid: true）。
+
+Checkpoint 017回顾：
+(1) 109Sb 与高自旋能带光滑终止：四极矩 Qt 塌缩、对称性恢复与统计截断推断阶梯边界审计（Afanasjev 1999 Phys. Rep. 322 对照 Wadsworth 1998 PRL 80）：深入剖析推断阶梯第二层（高自旋谱线计数消失与惯量剧降）向第五层（微观能带光滑终止与非集体扁椭态）反演中的实验假象；
+(2) 量化程序审计：运行独立程序 day21_checkpoint017_band_termination_audit.py 产出 band-termination-audit-017.json；
+(3) 微观价角动量代数闭合：在 109Sb（Band 1）中，价核子组态最大角动量在内禀轴上的投影和为 I_max = 83/2+（41.5 hbar），与实测终止态自旋零误差吻合；
+(4) 过渡四极矩 Qt 平滑衰减对决统计截断：高精度 DSAM 实测证实，内禀过渡四极矩 Qt 从 29/2+ 态的 2.85(25) eb 经 5 个连续跃迁平滑单调暴跌至 49/2+ 态的 <= 0.35 eb（跌落达 87.7%），排他性实证了体系从集体长椭转动（gamma = 0 deg）向非集体扁椭态（gamma = 60 deg）的光滑演化，排除了统计截断假象（统计截断时 Qt 在末态前保持 ~2.8 eb 恒定）；在终止态核围绕对称轴旋转的量子旋转对称性严格恢复；
+(5) 证据门新准则：确立“严禁将谱线计数不足、统计截断或常规带交叉回弯断言为能带终止；确证能带光滑终止必须依赖绝对能级寿命测定 Qt 随自旋平滑单调降至零（Qt -> 0，降幅 >= 70%–90%）的完整轨迹及微观角动量闭合”；
+(6) 知识库更新：更新 afanasjev-1999-termination-rotational-bands.md、band-termination.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（46 篇知识页 valid: true）。
+
+Checkpoint 018回顾：
+(1) 74As 与手征—宇称四重带（CPQ）：动态八极振动关联、delta E(I) 简并缺失与四带完备性推断阶梯边界审计（Xiao 2022 PRC 106 对照 Liu 2016 PRL 116 与 Wang 2020 NSR 综述）：深入剖析推断阶梯第二层（观测到具有交错 E1 跃迁连接的多带系统）向第六/七层（复合手征—宇称四重简并流形与静态八极梨形相）反演中的概念跨级；
+(2) 量化程序审计：运行独立程序 day21_checkpoint018_chiral_parity_quartet_audit.py 产出 chiral-parity-quartet-audit-018.json；
+(3) 动态八极振动偏移量化：相反宇称带能量位移参数 delta E(I) 保持在 615–712 keV（平均 663.9 keV，达到静态八极核 224Th 的 61.8 倍），排他性实证其为单声子八极软振动，排除了静态八极梨形相；
+(4) 手征能隙与四带完备性缺失：正宇称带同自旋能量差稳定在 ~394 keV（手征振动区间），体系仅建立 3 条能带（第四条伙伴带未被观测到），且全体系绝对寿命测量数为零，证实将三带关联断言为确证 CPQ 属于结论跨级；
+(5) 证据门新准则：确立“严禁将三带体系或相反宇称能量位移 delta E(I) >> 50 keV 的多带系统断言为确证的手征—宇称四重带（CPQ）；确证 CPQ 复合对称性破缺必须满足四带完整闭合、delta E(I) -> 0 简并、带内绝对电磁对称性以及集体增强 B(E1) >= 10^-3 W.u. 的严格门限”；
+(6) 知识库更新：更新 xiao-2022-chirality-octupole-correlations-74as.md、chirality-parity-quartet-band.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（48 篇知识页 valid: true）。
+
+Checkpoint 019回顾：
+(1) 187Au 与纵向摇摆（LW）：角分布大模解假象、线偏振 M1 主导与费米面几何约束推断阶梯边界审计（Sensharma 2020 PRL 124 对照 Guo 2022 PLB 828 与 Frauendorf 2014/2024 综述）：深入剖析推断阶梯第二/三层（角分布测量与表观递增的“摆动能量” E_wobb(I)）向第五/六层（单声子纵向摆动集体激发）反演中的多极双解简并与动力学禁戒；
+(2) 量化程序审计：运行独立程序 day21_checkpoint019_longitudinal_wobbling_187au_audit.py 产出 longitudinal-wobbling-187au-audit-019.json；
+(3) 角分布大模解与线偏振排他证伪：Sensharma 2020 角分布选取大模解（delta = -2.67 至 -3.72，E2 占比 88%–93%）被 Guo 2022 兰州 HIRFL 联合 Rac 与线偏振 P 测量唯一证伪；实际带间跃迁锁定为小模解（delta = -0.26 与 -0.28），呈现压倒性的 93%–94% M1 跃迁；带间 B(E2_out) 发生 12–14 倍断崖式暴跌至 ~6.5 W.u.，远低于集体摆动声子门限（>= 20–30 W.u.）；
+(4) 费米面几何动力学禁戒：187Au（Z=79）奇质子处于 pi h9/2 侵入轨道最底部（Omega = 1/2），单粒子角动量沿对称轴对齐，在几何与量子力学上严格禁戒围绕中轴进动的纵向摇摆运动；表观递增的 E_wobb 完全由 Nilsson 轨道 [541]1/2 与 [532]3/2 的科里奥利旋称劈裂产生；
+(5) 杂质反应道污染：Sensharma 所宣称的旋称伙伴带（Band 3）被证伪为 188Pt 伴随反应道杂质；
+(6) 证据门新准则：确立“严禁在未测线偏振前仅凭角分布拟合挑选大模解（|delta| > 1）断言纵向摇摆（LW）集体激发；严禁将费米面位于高 j 子壳层底部（Omega = 1/2）的奇 A 核单粒子激发带指认为纵向摇摆带”；
+(7) 知识库更新：更新 sensharma-2020-longitudinal-wobbling-187au.md、guo-2022-low-spin-wobbling-187au.md、longitudinal-wobbling.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（51 篇知识页 valid: true）。
+
+Checkpoint 020回顾：
+(1) 准 γ 振动带交错指数 S(4) 与刚性三轴对决 γ-软核推断阶梯边界审计（Zamfir & Casten 1991 PLB 260 对照 McCutchan 2007 PRC 76 与 Davydov 刚性转子模型）：深入剖析推断阶梯第二层（低能态能量拟合）向第五层（静态刚性三轴极小 vs 动态 γ-软平坦势）反演中的概念混淆与多解假象；
+(2) 量化程序审计：运行独立程序 day21_checkpoint020_gamma_staggering_s4_audit.py 产出 gamma-staggering-s4-audit-020.json；
+(3) 四大几何极限解析基准核定：刚性三轴（Davydov γ=30°）导出正交错 S(4) = +1.67（成对序列 2+, (3+,4+), (5+,6+)），轴对称转子导出 S(4) = +0.33，球形谐振子导出 S(4) = -1.00，平坦 γ-软核（Wilets-Jean / O(6)）导出严格负交错 S(4) = -2.00（成对序列 (2+,3+), (4+,5+)）；刚软两极在交错符号上严格相反；
+(4) 实际三轴候选核全局审计证伪：130Ba（S(4) = -0.941）、128Xe（S(4) = -0.647）、76Ge（S(4) = -1.233）与 196Pt（S(4) = -0.135）实测值普遍呈现压倒性的负交错，与刚性三轴预测（+1.67）代数符号完全相反，排他性证实这些原子核属于动态 γ-软涨落体系，彻底证伪静态刚性三轴假设；
+(5) 四阶不变量方差与零点振动势垒自洽对账：库仑激发四阶不变量方差在平坦软势极限下预测 sigma^2(cos 3gamma) = 1/3 ~ 0.3333，与实测非零弥散度高度吻合；微观势阱沿 gamma 势垒深度（< 0.3–0.5 MeV）远低于零点振动能（~1.0–1.5 MeV），波函数无法局域于固定极小；
+(6) 证据门新准则：确立“严禁仅凭低能态能量比值（如 E(2_2^+)/E(2_1^+)）与 Davydov 刚性转子模型拟合相容断言静态刚性三轴形变；判定三轴刚软度必须依据准 γ 振动带 S(4) 交错指标（刚性要求 S(4) > 0 逼近 +1.67，γ-软核必然呈现负交错 S(4) < 0 逼近 -2.00），并结合四阶不变量方差 sigma^2 联合核验”；
+(7) 知识库更新：更新 zamfir-casten-1991-gamma-softness-triaxiality.md、mccutchan-2007-gamma-band-staggering.md、gamma-soft-deformation.md、gamma-rigid-deformation.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（55 篇知识页 valid: true）。
+
+Checkpoint 021回顾：
+(1) 128Cs 与 126Cs：手征电磁选择定则、B(M1) 奇偶反相交错与手征振动能隙推断阶梯边界审计（Grodner 2006 PRL 97 对照 Grodner 2011 PLB 703 与 Rohozinski 2011 PRC 84）：深入剖析推断阶梯第二层（能级近简并）与第四层（DSAM 寿命与跃迁强度）向第六/七层（非共面手征微观几何与对称性破缺）反演中的振动能隙与选择定则指纹；
+(2) 量化程序审计：运行独立程序 day21_checkpoint021_chiral_selection_rules_cs_audit.py 产出 chiral-selection-rules-cs-audit-021.json；
+(3) 126Cs 离散 S-对称性与 B(M1) 强烈反相交错量化：基态带内 B(M1) 在 I=15+ (0.26 W.u.) 与 16+ (<=0.02 W.u.) 呈现 >=13 倍暴跌（B(M1)/B(E2) 比值跳跃 7.0 倍），且带间 B(M1) 呈现严格反相交错，实证了离散手征 S = R_y(pi)*T 变换下的干涉选择定则；
+(4) 128Cs 与 126Cs 有限能隙手征振动态确立：两带能隙在全自旋区间维持在 Delta E = 105–224 keV（从未降至零），排他性证实其处于量子隧穿的手征大振幅振动态，排除了实验室系静态手征对称性破缺；
+(5) 侧馈外推与纯 M1 假定局限：审定 Grodner 2006 侧馈参数借用自 131La 引入的 +/-15% 系统误差，以及 delta=0 纯 M1 假定未经线偏振检验的边界；
+(6) 证据门新准则：确立“严禁将两能带间存在 ~100 - 200 keV 能隙的双重带体系断言为已实现实验室系静态手征破缺；确证原子核手征几何必须满足 S-对称性 B(M1) 反相交错选择定则与本核独立寿命测量”；
+(7) 知识库更新：更新 grodner-2006-128cs-chiral-doublet-lifetimes.md、grodner-2011-126cs-chiral-selection-rules.md、chiral-doublet-bands.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（58 篇知识页 valid: true）。
+
+Checkpoint 022回顾：
+(1) 224Ra 与 220Rn：放射性束库仑激发、直接电八极矩 Q3 与静态梨形对决八极振动推断阶梯边界审计（Gaffney 2013 Nature 497 对照 Butler & Nazarewicz 1996 综述）：深入剖析推断阶梯第四层（多步库仑激发强 E3 矩阵元）向第五/七层（静态梨形八极形变极小与原子 EDM 约束）反演中的振动/形变不可分辨性与伴随观测量要求；
+(2) 量化程序审计：运行独立程序 day21_checkpoint022_rn220_ra224_octupole_audit.py 产出 rn220-ra224-octupole-audit-022.json；
+(3) B(E3) 增强非排他性与原文物理边界界定：224Ra（B(E3)=42 W.u.）与 220Rn（B(E3)=33 W.u.）均展现强 E3 跃迁几率，GA13-6 原文明确指出测得矩阵元无法区分静态梨形投影还是动态八极振动；
+(4) 交错宇称带能量位移 delta E(I) 决定性分化：224Ra 位移随自旋从 173.8 keV 急剧塌缩至 19.8 keV 趋零（证实静态梨形宇称双重带简并），220Rn 维持 140–415 keV 大位移且带头高置 536 keV（证实动态八极振动）；
+(5) 内禀八极矩 Q3 随自旋平坦度：224Ra 保持 Q3~2520 e fm^3 恒定平坦，220Rn 随自旋离心衰减；Schiff 矩度规（Z Q2 Q3）在 224Ra 高出 1.72 倍，结合 225Ra 仅 55 keV 宇称劈裂，确立了 Ra 在 EDM 探索中的优选地位；
+(6) 证据门新准则：确立“严禁将单一基态增强 B(E3) 跃迁几率直接等同于静态梨形八极形变；确证静态梨形必须满足交错宇称带能级位移 delta E(I) -> 0、内禀 Q3(I) 随自旋平坦守恒与多步库仑激发全局矩阵元自洽解算”；
+(7) 知识库更新：更新 gaffney-2013-pear-shaped-rn-ra.md、reflection-asymmetric-nuclei.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（60 篇知识页 valid: true）。
+
+Checkpoint 023回顾：
+(1) 163Lu 与三轴超形变（TSD）摆动模式：单声子确证（B(E2_out) ~ 25–35 W.u.）与双声子（nw=2）角分布选解漏洞推断阶梯边界审计（Ødegård 2001 PRL 86 对照 Jensen 2002 PRL 89 与 Hamamoto 2002 PRC 65 理论）：深入剖析推断阶梯第三层（带间多极混合比与跃迁强度）向第五/六层（单声子与多声子简谐摆动流形）反演中的实验基准与模型循环论证；
+(2) 量化程序审计：运行独立程序 day21_checkpoint023_lu163_wobbling_phonon_audit.py 产出 lu163-wobbling-phonon-audit-023.json；
+(3) 单声子确证之核物理基准：Ødegård 2001 测得 TSD2 -> TSD1 的 9 条连接线，实测正线偏振 P>0 唯一排除了小模解，锁定了大模解 delta = -3.10（E2 占比 90.6%），带间强度高达 B(E2_out) ~ 26.4 W.u.（比 135Pr 大数百倍），无可争议地确立了全核区唯一的单声子摆动集体性；
+(4) 双声子（nw=2）候选带推断漏洞：Jensen 2002 测定关键 476-keV 跃迁线偏振失败，大模解（B_out/B_in = 0.51）与小模解（0.019）相差 26.8 倍，作者依据“大解逼近双声子 2x 理论预测”排除小解，属于循环论证；
+(5) 简谐近似破缺：实验测得多达 8 条直接连接 TSD3 到 TSD1 的 Delta nw=2 跨声子跃迁（简谐模型严格禁戒），排他性证实体系具有强非谐性与 pi i13/2 准质子非线性对齐强耦合；
+(6) 证据门新准则：确立“严禁依据理论预期挑选分支；确证多声子摆动必须具备线偏振排他选解并检验 Delta nw >= 2 非谐性衰变”；
+(7) 知识库更新：更新 odegard-2001-evidence-wobbling-163lu.md、jensen-2002-second-phonon-wobbling-163lu.md、wobbling-motion.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（63 篇知识页 valid: true）。
+
+Checkpoint 024回顾：
+(1) γ-软核低自旋摆动假说的 IBFM 审查：135Pr、133La、127Xe 与 105Pd 多核对账与推断阶梯边界审计（Nomura & Petrache 2022 PRC 105 对照 Matta 2015、Biswas 2019、Chakraborty 2020 与 Timár 2019）：深入剖析推断阶梯第二层（能级间距与能带拟合）向第五/六层（单声子摆动集体激发）反演中的模型简并与多极性分水岭；
+(2) 量化程序审计：运行独立程序 day21_checkpoint024_ibfm_low_spin_wobbling_audit.py 产出 ibfm-low-spin-wobbling-audit-024.json；
+(3) 微观平坦 γ-软势能面与能级拟合非排他性：134Ce、132Ba、128Xe 与 106Pd 四大偶偶核芯微观势垒在 γ 方向极浅（Delta V_gamma < 0.5 MeV），实验室系 IBFM-2 耦合模型在无需刚性三轴假设下完全重现与刚性 PRM 相同的能级能量尺度，证明能级拟合对三轴刚度毫无排他性；
+(4) 带间多极性根本分化：PRM 预测 E2 主导（|delta| > 1），而 IBFM 证明费米子流主导必然产生 M1 主导（|delta| < 1），完美契合 135Pr（Lv 2022 实测 M1 = 88%）与 105Pd（Rickey 实测小解），决定性推翻了早期多核低自旋摆动假说；
+(5) 证据门新准则：确立“严禁仅凭单核粒子—转子模型（PRM）能级拟合良好断言发现摆动模式；确证摆动模式必须依赖实测带间线偏振确立 E2 主导（B(E2_out) >= 20–30 W.u.）”；
+(6) 知识库更新：更新 nomura-2022-questioning-wobbling-ibfm.md、transverse-wobbling.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（65 篇知识页 valid: true）。
+
+Checkpoint 040实质推进：
+(1) 58Fe 异常集体性假象证伪、DSAM 阻止本领非均匀标度与库激循环约束推断阶梯边界审计（Woodside et al. 2026 PRC 113 对照 Bolotin 1978 与 Nolan 1979）：深入剖析重离子介质阻止本领模型偏差、库激多步拟合约束依赖与伪超集体异常的消除机制；
+(2) 量化程序审计：运行独立程序 day21_checkpoint040_fe58_stopping_coulex_audit.py 产出 fe58-stopping-coulex-audit-040.json（3 项物理控制全过）；
+(3) 异常集体性假象的根因消除：1978 年旧评估 B(E2; 4+1 -> 2+1) = 47(7) W.u.（R_42 = 2.40 超集体假象）完全由 1970 年代 LSS 理论将电子阻止本领 dE/dx 低估约 1 倍所致；更新为现代 SRIM 阻止本领后，能级寿命由 0.38 ps 延长至 0.66(8) ps，B(E2) 塌缩至 24.2(28) W.u.（R_42 = 1.235），在 0.1 sigma 内与大规模壳模型完全符合；
+(4) 阻止本领非均匀状态依赖性：反冲动力学差异导致 4+1 态寿命增长 +73.7%，而 2+2 态仅增长 +41.2%（能级间标度差异达 32.5%），排他性证明阻止本领更新不可采用全局统一常数标度；
+(5) 库仑激发循环约束与相对相位多解：GOSIA 拟合将重估的 DSAM 寿命显式作为输入约束，二者符合是受限优化的数值必然结果，不能当作完全独立的实验互验；未排除的 7 组相对符号相位方案跨越 21.8–27.2 W.u.，引入约 +/-12% 的离散系统包络；
+(6) 证据门新准则：确立“严禁仅凭未校准 LSS 阻止本领断言异常集体性与严禁将库激输入约束包装为独立交叉检验”的核心证据门准则；
+(7) 知识库更新：更新 woodside-2026-fe58-collectivity-coulex-dsam.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（84 篇知识页 valid: true）。
+
+Checkpoint 039实质推进：
+(1) 放射性离子束库仑激发与中子富集锡同位素 B(E2) 推断阶梯边界审计（Radford et al. 2005 EPJ A 25 与 Varner et al. 2005）：深入剖析放射性束次垒库仑激发中的束流异构态污染、同量异位素鸡尾酒串扰与超高能级绝热截断效应；
+(2) 量化程序审计：运行独立程序 day21_checkpoint039_radioactive_sn_coulex_audit.py 产出 radioactive-sn-coulex-audit-039.json（3 项物理控制全过）；
+(3) 束流同质异能素污染通量偏置：130Sn 束流中含有 11% 的 7- 异构态（1947 keV），未扣除异构态导致基态有效入射通量高估 11%，实测 B(E2) 产生 -11.0% 的系统性压低（校正后从 0.023 升至 0.0258 e^2b^2）；
+(4) 同量异位素鸡尾酒巨幅串扰放大：A=134 鸡尾酒束中 134Te 的 B(E2) = 0.290 e^2b^2 为 134Sn（0.029 e^2b^2）的 10.0 倍，仅 2% 的微量 Te 泄漏即可引发 134Sn 表观集体性虚高 20%；
+(5) 双幻核 132Sn（4041 keV）指数绝热截断：绝热参数 xi 达 1.49 导致截面被压制 689 倍，引发初步会议报告值（0.11 e^2b^2）较现代公认值（0.072 e^2b^2）高估达 +52.8%；
+(6) 证据门新准则：确立“严禁在未扣除束流异构态比例与排查鸡尾酒串扰的前提下提取 B(E2)，严禁将会议论文初步数据作为微观理论检验基准”；
+(7) 知识库更新：更新 radford-2005-130sn-coulomb-excitation-126-130sn.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（83 篇知识页 valid: true）。
+
+Checkpoint 038实质推进：
+(1) 历史旧数据重分析与低自旋摇摆假说推断阶梯边界审计（Chakraborty et al. 2024 PRC 110 对照 Lv 2022 PLB 与 Guo 2022 PLB）：深入剖析重分析历史角分布/偏振数据、多极双解挑选与绝对寿命缺失在摆动模式指认中的推断陷阱；
+(2) 量化程序审计：运行独立程序 day21_checkpoint038_ba129_wobbling_reanalysis_audit.py 产出 ba129-wobbling-reanalysis-audit-038.json（3 项物理控制全过）；
+(3) 多极混合比双解与理论偏好挑选陷阱：365 keV 跃迁（13/2- -> 11/2-）在早期粗糙偏振数据（P = 0.072(68)，仅 1.06 sigma）下存在历史小解 delta_1 = -0.815（M1 占 60.1%，M1 主导常规准粒子态）与重分析大解 delta_2 = -2.00（E2 占 80.0%）；挑选大解完全取决于对 TPRM 转子模型强 E2 跃迁的理论预期，重演了 135Pr 与 187Au 中模型偏好挑选大解被证伪的覆辙；
+(4) 绝对寿命未测引发的 B(E2_out) 巨幅发散性：13/2- 态寿命未测，在典型皮秒区间（tau = 1–500 ps）内，提取出的绝对跃迁几率 B(E2_out) 跨越 2436 W.u. 至 4.87 W.u.（发散度达 500 倍）；若实际寿命 tau > 100 ps，B(E2_out) 跌破 20 W.u.，集体摆动模式完全不成立；
+(5) 语域滑移防范与证据门准则：确立“严禁依据模型偏好挑选大模多极解、严禁在绝对寿命未测条件下确证集体摆动模式，以及严禁将探索可能性（possibility）虚假升级为实验事实”的核心证据门准则；
+(6) 知识库更新：更新 chakraborty-2024-possibility-wobbling-129ba.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（82 篇知识页 valid: true）。
+
+Checkpoint 037实质推进：
+(1) 原子核质量评价（AME2020）、二中子分离能曲率与经验壳能隙推断阶梯边界审计（Wang 2021 CPC 45 对照 Jones 2010 Nature 与 Orlandi 2018 PLB）：深入剖析宏观基态结合能差分向微观单粒子壳能隙与配对能隙反演的多体物理与统计假定漏洞；
+(2) 量化程序审计：运行独立程序 day21_checkpoint037_ame2020_mass_curvature_audit.py 产出 ame2020-mass-curvature-audit-037.json（3 项物理控制全过）；
+(3) 二中子曲率（Delta_2n）与单中子壳隙（Delta_n）的分化：132Sn 二中子曲率阶跃 Delta_2n = 6527.13(462) keV 较单中子壳隙 Delta_n = 4954.64(453) keV 显著高出 31.7%（1572.5 keV 差量），证实二阶差分混入了价核子残余对能与宏观质量面平滑曲率，不能直接作为微观单粒子壳能隙；
+(4) 经验分离能差分与微观单粒子能心重整化：Delta_n = 4.955 MeV 仅反映 A-1, A, A+1 基态总结合能差，自洽核芯重排极化与粒子—振动耦合（PVC）使未扰动单中子轨道能心间距 epsilon(2f7/2) - epsilon(2d3/2) 漂移至约 5.60 MeV（偏高 +13.1%）；
+(5) 奇偶质量交错（OES）与平滑曲率污染：131Ba 三点奇偶交错指标 Delta^(3)_n = 1166.88 keV 混入约 12% 的宏观平滑曲率项（~140 keV），脱离高阶差分滤波器直接作为 BCS 对隙将产生系统性虚高；
+(6) 证据门新准则：确立“严禁将二中子分离能曲率直接等同于单粒子壳隙与严禁脱离高阶滤波器提取配对能隙”的核心证据门准则；
+(7) 知识库更新：更新 ame2020-sn132-mass-curvature.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（81 篇知识页 valid: true）。
+
+Checkpoint 036实质推进：
+(1) 本征反射不对称性、静态梨形对决八极振动与偶极相消推断阶梯边界审计（Butler & Nazarewicz 1996 RMP 68 对照 Bucher 2016/2017 PRL 与 Gaffney 2013 Nature）：深入剖析从低能 1- 态、交替宇称带到静态八极形变与八极声子振动的推断阶梯分水岭；
+(2) 量化程序审计：运行独立程序 day21_checkpoint036_octupole_reflection_asymmetry_audit.py 产出 octupole-reflection-asymmetry-audit-036.json（3 项物理控制全过）；
+(3) 内禀电偶极矩 D0 相消机制与 B(E1) 代理量失效：揭示宏观液滴电荷偏置项与微观单粒子壳修正项的强相消机制；在 146Ba 中微观壳修正几乎完全抵消宏观项（净 D0 降至液滴预言的 7.5%），引发 B(E1) 暴跌 81 倍，而库仑激发 B(E3) 保持 48 W.u. 恒定；确立严禁以 B(E1) 强弱判定八极形变大小；
+(4) 交替宇称能级位移 delta E(I) 渐近收敛标尺：静态八极刚性核（224Ra）宇称位移从 1- 的 215.9 keV 单调指数塌缩至 13- 的 1.0 keV（>95% 塌缩），证明单重单纯形带（s = +1）的几何刚性；而八极振动核（220Rn）高自旋位移维持在 378 keV 持续不塌缩；
+(5) 证据门新准则：确立“确证核静态八极形变必须满足增强 B(E3) > 30 W.u.、高自旋宇称位移塌缩 delta E(I) -> 0 与转动惯量趋同的三位一体综合证据门”；
+(6) 知识库更新：更新 butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（80 篇知识页 valid: true）。
+
+Checkpoint 035实质推进：
+(1) 131Sn 中子空穴转移与跨壳自旋—轨道劈裂几何弥散推断边界审计（Orlandi 2018 PLB 785 对照 Jones 2010 Nature 465）：深入剖析逆运动学中子敲除反应 132Sn(d,t)131Sn（4.4 MeV/u）在 N=82 壳隙下方单中子空穴态提取与自旋—轨道劈裂演化中的推断阶梯边界；
+(2) 量化程序审计：运行独立程序 day21_checkpoint035_sn131_hole_transfer_audit.py 产出 sn131-hole-transfer-audit-035.json（3 项物理控制全过）；
+(3) 未解双重峰对泡利求和上限的直接违背：实测 270 keV 能量分辨率无法分辨 0–65 keV 的 3/2+ 与 11/2- 能态；纯 d3/2 单峰拟合得出 S = 5.0(5) 突破泡利上限 2j+1=4 达 2.0 sigma（超出 25%）；唯有强行假定同质异能素完全占据（S(h11/2)=12）方可使 S(d3/2) 降至 4.3(5)，揭示出单态占据数严重依赖不可验证先验理论的推断漏洞；
+(4) 深孔态 PVC 碎裂与能心误差包络：预言的 1g7/2 单空穴态（2343 keV）因粒子—振动耦合剧烈碎裂未能观测到，必须赋予至少 +/-150 keV 的单粒子能心不确定度；
+(5) 弱结合轨道径向弥散与自旋—轨道力淬灭假象证伪：弱结合 3p 态归一化劈裂较 2d 态降低 50%（0.339 vs 0.662 MeV）；证明 3p1/2 的 rms 半径达 8.29 fm（超出核表面 28.1%），波函数长尾稀释了其在表面附近与导数势 dV/dr 的几何重叠积分；单一恒定自旋—轨道势强度（C = -0.3344）完全重现两组劈裂，排他性证伪了奇异核自旋—轨道力淬灭假说；
+(6) 证据门新准则：确立“严禁将未解双重峰拟合谱因子作为独立无偏占据数与严禁将弱束缚轨道自旋—轨道劈裂降低断言为核力淬灭”的核心准则；
+(7) 知识库更新：更新 orlandi-2018-131sn-neutron-hole-transfer.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（79 篇知识页 valid: true）。
+
+Checkpoint 034实质推进：
+(1) 116Cs 与滴线区奇异放射性：多道复合衰变、直接对决顺序 2p 发射与离心势垒穿透推断阶梯边界审计（Dey 2026 PRL 137 对照 Pfützner 2012 RMP 84 综述）：深入剖析推断阶梯第一/二层（分离能符号与粒子谱）向第四/五层（微观波函数轨道、谱因子与双质子机制）反演中的势垒穿透效应与连续谱动力学；
+(2) 量化程序审计：运行独立程序 day21_checkpoint025_drip_line_radioactivity_audit.py 产出 drip-line-radioactivity-audit-025.json；
+(3) 离心势垒指数级压制效应：116Cs 表面半径 R~6.0 fm，库仑势垒 11.1 MeV；高角动量轨道的离心势垒（ell=4 为 11.5 MeV，ell=5 为 17.3 MeV）将质子穿透几率指数级压制达 2.4x10^-6 与 1.1x10^-9，排他性解释了为何名义 S_p < 0 的中重核基态仍以 beta 衰变（T1/2=0.86 s）主导；
+(4) 缓发双质子开角拟合与直接/顺序不可分辨性：测得开角峰 theta_pp = 39(3)°（直接成分占 27(11)%），但由于与宽八极共振态（7.66 MeV）强烈重叠，在低统计量下开角峰化无法排他性排除顺序两步发射假象；
+(5) 证据门新准则：确立“严禁仅凭单质子或双质子分离能符号断言直接放射性；确证直接双质子机制必须满足完全三体连续谱能量平称分配谱检验”；
+(6) 知识库更新：更新 dey-2026-116cs-multifaceted-decay.md、pfutzner-2012-radioactive-decays-stability-limits.md、drip-line-radioactivity.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（68 篇知识页 valid: true）。
+
+恢复讨论：codex resume 01a167eb-3c9c-74c0-a0a0-12720a4e1f4d -C /workspace/wiki -s danger-full-access -a never
+
 ## 当前唯一执行入口 — Day20正式卡完成，下一正式卡Day21
 
 # Day20正式卡与下一任务入口
@@ -2069,7 +2527,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `matev-2007-a130-quadrupole-alignment-additivity.md`，映射 `MT07-D20-1`；
   7. 日报写回验证器确认全部 23 篇知识路径 100% 精确映射，`wiki_lint.py` 0 错误（251 warnings），boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 025 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：转动惯量微分动力学、刚体亏损弥散表面模型与超形变双重正交认证
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_moments_of_inertia_harris_quenched_audit.py`，产出 `moments-of-inertia-harris-quenched-result-025.json`，5 项物理检验全绿；
@@ -2080,7 +2538,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `alwaleedi-2013-band-structures-131ce.md`，映射 `AW13-D20-1`；
   7. 日报写回验证器确认全部 24 篇知识路径 100% 精确映射，`wiki_lint.py` 0 错误（251 warnings），boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 026 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：135Nd手征双重带寿命两倍分歧、Eγ^5补偿律与手征演化相图
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_nd135_chirality_evolution_rate_compensation_audit.py`，产出 `nd135-chirality-evolution-rate-result-026.json`，5 项物理检验全绿；
@@ -2091,7 +2549,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `mukhopadhyay-2007-135nd-chiral-vibration-static.md`，映射 `MU07-D20-2`；
   7. 日报写回验证器确认全部 24 篇知识路径 100% 精确映射，`wiki_lint.py` 0 错误（251 warnings），boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 027 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：单带Qt(I)有限样本回归功效坍缩、残差自由度与形变收缩不可区分度审计
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_regression_power_finite_sample_audit.py`，产出 `regression-power-finite-sample-result-027.json`，7 项物理检验全绿；
@@ -2102,7 +2560,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `singh-2016-lifetime-131ce-133pr.md` 与 `petrache-1998-highly-deformed-lifetimes-131ce-nd.md`；
   7. 日报写回验证器确认全部 24 篇知识路径 100% 精确映射，`wiki_lint.py` 0 错误（251 warnings），boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 028 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：133Ce多手征双重带三轴形变共存、Coriolis衰减与寿命缺失解卷积审计
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_mchid_coriolis_attenuation_lifetime_gap_audit.py`，产出 `mchid-coriolis-attenuation-lifetime-gap-result-028.json`，6 项物理检验全绿；
@@ -2113,7 +2571,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md`，映射 `A13-D20-1`；
   7. 日报写回验证器确认全部 25 篇知识路径 100% 精确映射，`git diff --check` 干净，boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 029 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：130,132Ce偶偶核基态带B(E2)阶梯、B4/2比值与近闭壳同位素形变收缩审计
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_ce_even_isotopes_b42_systematics_audit.py`，产出 `ce-even-isotopes-b42-systematics-result-029.json`，6 项物理检验全绿；
@@ -2124,7 +2582,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `klemme-1999-lifetimes-134nd-neighbors.md`，映射 `KL99-D20-3`；
   7. 日报写回验证器确认全部 25 篇知识路径 100% 精确映射，`git diff --check` 干净，boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 030 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：134Pr近简并假手征带解混合、四极矩2倍形变不对称与偶然交叉证伪审计
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_pr134_chiral_pseudodegeneracy_mixing_audit.py`，产出 `pr134-chiral-pseudodegeneracy-mixing-result-030.json`，6 项物理检验全绿；
@@ -2135,7 +2593,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `petrache-2006-near-degenerate-chiral-misinterpretation.md`，映射 `PE06-D20-1`；
   7. 日报写回验证器确认全部 26 篇知识路径 100% 精确映射，`git diff --check` 干净，boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
-### 2026-10-22 Day 20 Checkpoint 031 Update
+### 2026-10-22 Day 20 Checkpoint 034 Update
 - **主题**：136Pr磁转动剪刀机制、TAC-CDFT微观形变塌缩与N=77边界去普适化审计
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_pr136_magnetic_rotation_shears_audit.py`，产出 `pr136-magnetic-rotation-shears-result-031.json`，6 项物理检验全绿；

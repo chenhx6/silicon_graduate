@@ -35,6 +35,8 @@ tags: [low-spin-wobbling, gamma-softness, ibfm, alternative-interpretation, theo
 
 # Nomura 与 Petrache（2022）：γ-soft 奇 A 核低自旋 wobbling 的 IBFM 替代解释
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Physical Review C 105, 024320 (2022)，DOI `10.1103/PhysRevC.105.024320`。PDF 正文与参考文献共 11 页。
@@ -169,3 +171,11 @@ Navigation only: cross-source ownership remains in [[low-spin-wobbling-controver
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | NOM22-D19-1 | 综合分析 $^{135}\text{Pr}, ^{133}\text{La}, ^{127}\text{Xe}, ^{105}\text{Pd}$ 的 EDF-IBFM 计算结果，微观矩阵元分解严格证明：偶偶玻色子芯（具有平坦 $\gamma$-软势能面）压倒性贡献了电四极 $E2$ 矩阵元，而单个未配对费米子（$1h_{11/2}$）支配了磁偶极 $M1$ 矩阵元。在实验室系中通过微观耦合对角化，非 yrast 带到 yrast 带的跨带跃迁天然表现出强烈受限的混合比（$|\delta| < 1$）与普遍的 $M1$ 主导性（$f_{M1} > 80\%$），直接再现了采用真实小模解或最新偏振实测的实验事实，排除了必须引入几何摆动声子的排他性假定。 | task-ibfm-mechanism-audit | derived-and-boundary | PDF pp.6-10 Figs.7-13 Table II; wobbling-ibfm-root-degeneracy-result-050.json | true |
+
+## Day 21 Checkpoint 024 证据门量化审计：IBFM 多核审查与 M1 主导证伪准则
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint024_ibfm_low_spin_wobbling_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ibfm-low-spin-wobbling-audit-024.json），对 Nomura & Petrache 2022 的 IBFM 理论审查完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| NOM22-D21-1 | 依据推断阶梯审计，Nomura 2022 确立了低自旋摆动假说的模型排他性审查分水岭：(1) gamma-软核芯对决刚性转子：四个候选核芯（134Ce, 132Ba, 128Xe, 106Pd）微观势能面均表现为平坦 gamma-软势（Delta V_gamma < 0.5 MeV），IBFM 耦合模型在实验室系重现了与 PRM 完全相同的能带能量尺度；(2) 电磁跃迁多极性分化：IBFM 证明带间 Delta I = 1 跃迁由费米子流主导，必然呈现 M1 主导（|delta| < 1），直接在物理机制上与 PRM 的 E2 主导（|delta| > 1）互斥；(3) 实验符合性：在 135Pr 中完美契合 Lv 2022 实测的 M1 88% 小解，在 105Pd 中符合早期 Rickey 小解；(4) 确立“能级拟合不具排他性，判定摆动模式必须依赖实测带间线偏振确立 E2 主导”的核心证据门准则。 | model-result-and-criterion | derived-and-boundary | pp.1-10, Tables I-II, Figs.1, 7-11; ibfm-low-spin-wobbling-audit-024.json | true |

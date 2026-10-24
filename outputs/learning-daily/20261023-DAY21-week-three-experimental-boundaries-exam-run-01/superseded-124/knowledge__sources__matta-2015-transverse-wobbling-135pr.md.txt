@@ -1,0 +1,209 @@
+---
+type: source
+title: "Transverse wobbling in 135Pr"
+aliases: [Matta 2015 135Pr, transverse wobbling in 135Pr]
+created: 2026-07-03
+updated: 2026-10-17
+status: active
+review_status: human-reviewed
+source_type: journal-article-experiment-and-model
+reading_depth: deep-read
+title_original: "Transverse Wobbling in 135Pr"
+authors: [J. T. Matta, U. Garg, W. Li, S. Frauendorf, A. D. Ayangeakaa, et al.]
+journal: Physical Review Letters
+year: 2015
+volume: 114
+pages: 082501
+doi: 10.1103/PhysRevLett.114.082501
+arxiv:
+language: en
+canonical_source: doi:10.1103/PhysRevLett.114.082501
+zotero_item_key:
+citation_key: matta_2015_TransverseWobbling
+zotero_uri:
+library_file:
+raw_file: "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf"
+raw_sha256: 8DB644705DCCFD58016753B759D19314A65284C48EFC1758F95F1B3CE23551D6
+nuclei: [135pr]
+reactions: [123sb-o16-4n-135pr]
+experiments: [atlas-gammasphere-135pr-o16-80mev, tifr-inga-135pr-o16-80mev]
+models: [tilted-axis-cranking, triaxial-particle-rotor-model]
+observables: [multipole-mixing-ratio, interband-e2-strengths, wobbling-energy]
+methods: [gamma-gamma-coincidence, dco-ratio, linear-polarization-asymmetry]
+tags: [a130, 135pr, transverse-wobbling, gammasphere, inga, tac, qtr]
+---
+
+# Matta 等（2015）：`135Pr` 横向摇摆支持方实验
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Bibliographic Record
+
+J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1103/PhysRevLett.114.082501`。题名、作者年份和 DOI 与只读 BibTeX 条目唯一匹配，使用用户指定 citation key `matta_2015_TransverseWobbling`。
+
+## Scope and Reading Depth
+
+全文精读，并视觉核对 Fig.1 的部分能级纲图、Fig.2 的角分布、Fig.3 的线偏振不对称、Table I 的 mixing ratio/E2 fraction/跃迁概率比、Fig.4 的 TAC 比较和 Fig.5 的 QTR 及 wobbling-energy 比较。
+
+本页按 `experiment-ingest + project-ingest` 建立 Matta 2015 对 `135Pr` transverse-wobbling 解释的支持方证据链。它不裁决后来对低自旋带 wobbling 性质的争议。
+
+## Summary
+
+作者用 ATLAS/Gammasphere 和 TIFR-BARC/INGA 的互补数据扩展 `135Pr` 能级结构。论文把 yrast E2 带指认为 zero-phonon band，把一条侧带指认为 one-phonon wobbling band；角分布提取的大 mixing ratio 和 INGA 偏振被作者用于支持两带间 ΔI=1 跃迁以 E2 为主，计算得到的 wobbling energy 随自旋先下降。作者据此解释为 low-deformation transverse wobbling，并用 TAC 与修改的 QTR 模型比较能级、组态和带间跃迁。
+
+## Experimental or Theoretical Setup
+
+- 反应：80 MeV `123Sb(16O,4n)135Pr`；
+- [[atlas-gammasphere-135pr-o16-80mev]]：`3.7×10^9` 个三重及以上 γ 符合事件，用于高统计符合与角分布；
+- [[tifr-inga-135pr-o16-80mev]]：`4.5×10^8` 个二重及以上 γ 符合事件，用于 clover 偏振分析；
+- 新能级自旋宇称依据 DCO、角分布、偏振和 crossover 跃迁综合赋值；
+- TAC：计算 1qp yrast、3qp dipole 和 5qp high-spin yrast 组态；
+- QTR：以角动量相关的三个转动惯量拟合 zero-/one-phonon 与 signature-partner 能量和跃迁比。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| M15-1 | 两次实验均用 80 MeV `123Sb(16O,4n)135Pr`：Gammasphere 收集 `3.7×10^9` 个 fold≥3 事件，INGA 收集 `4.5×10^8` 个 fold≥2 事件。 | experimental-fact | direct | p.2, right column, experimental setup | false |
+| M15-2 | Fig.1 展示四组结构：yrast E2 带、一条通过 ΔI=1 跃迁连接 yrast 的侧带、在该侧带之上建立的强 M1 dipole band，以及一条较弱的 signature-partner band。 | experimental-fact | direct | pp.2-3, Fig.1 and surrounding text | false |
+| M15-3 | 作者把 yrast 带和侧带分别指认为 `n_w=0` zero-phonon 与 `n_w=1` one-phonon wobbling bands。 | author-interpretation | direct | pp.2-3, Fig.1; paragraph below Fig.2 | false |
+| M15-4 | Table I 报告三条 `n_w=1→0` 连接跃迁：747.0、812.8、754.6 keV 的 `δ` 分别为 `-1.24(13)`、`-1.54(9)`、`-2.38(37)`，对应 E2 fractions `60.6(51)%`、`70.3(24)%`、`85.0(40)%`。 | experimental-fact | direct | pp.3-4, Fig.2, Table I | false |
+| M15-5 | 747.0 与 812.8 keV 连接跃迁的偏振不对称分别为 `0.047(12)`、`0.054(34)`；作者据正值将其判为主要电性质。 | experimental-fact | direct | pp.3-4, Fig.3, Table I | false |
+| M15-6 | signature-partner 到 yrast 的 593.9 keV `13/2-→11/2-` 跃迁给出 `δ=-0.16(4)`、偏振不对称 `-0.092(23)` 和 E2 fraction `2.5(12)%`，被作者用作主要 M1 的对照。 | experimental-fact | direct | pp.3-4, Figs.2-3, Table I | false |
+| M15-7 | 702.7 keV `17/2-→15/2-` signature-partner 连接跃迁因过弱而未给出完整角分布或偏振；正文称其 DCO ratio 支持 pure-dipole assignment，但未在本文列出该比值。 | experimental-fact | direct | p.3, right column, paragraph above Eq.1 | false |
+| M15-8 | 本文采用的 wobbling 判据是候选带间 ΔI=1 跃迁具有显著 E2 性质；作者将其与 signature partners 间主要 M1 的连接作比较。 | experimental-criterion | direct | p.3, paragraphs below Fig.1 and Fig.2; Table I | false |
+| M15-9 | 本文用 Eq.1 定义 `E_wob(I)=E(I,n_w=1)-[E(I-1,n_w=0)+E(I+1,n_w=0)]/2`；Fig.5 inset 的实验值从约 0.4 MeV 降至约 0.15 MeV 后回升。 | experimental-fact | direct | pp.3,5, Eq.1, Fig.5 inset | false |
+| M15-10 | 作者把“带间 ΔI=1 E2 性质 + 低自旋区下降的 `E_wob`”联合解释为 `135Pr` transverse wobbling，并称其为 A≈130 区和低形变 `h11/2` 质子体系的首例。 | author-interpretation | direct | pp.2-3 and p.5, Summary | false |
+| M15-11 | 1qp yrast 的 TAC 计算使用 `Δp=1.1 MeV`、`Δn=1.0 MeV`，得到并固定 `ε=0.16, γ=26°`；模型给出短轴为稳定转轴。 | model-result | direct | pp.3-4, paragraph spanning pages; Fig.4 | false |
+| M15-12 | TAC 把 dipole band 与 `[πh11/2,νh11/2^2]` 3qp 组态联系，并把高自旋 yrast 延续与 `[πh11/2^3,νh11/2^2]` 5qp 组态联系；计算能量被作者评为较好再现实验。 | model-result | direct | p.4, left column; Fig.4 | false |
+| M15-13 | 修改的 QTR 用 `J_m,J_s,J_l=7.4,5.6,1.8 ħ²/MeV` 和 `c=0.116` 拟合 zero-/one-phonon 能量；作者指出该拟合转动惯量比避免了 TAC 转动惯量导致的 transverse regime 过早坍塌。 | model-result | direct | p.4, right column; p.5; Fig.5 | false |
+| M15-14 | QTR 对 zero-/one-phonon 能量及强 nonstretched E2 分量给出定性一致，但低估 `B(E2_out)`、高估 `B(M1_out)`；Table I 显示实验与 QTR 的跃迁概率比并非逐项一致。 | model-result | direct | pp.4-5, Table I, Fig.5 | false |
+| M15-15 | QTR 还预测 one-quasiproton signature partner，但其激发能约高估 500 keV；TAC 对该 signature-partner 激发能给出更接近实验的结果。 | model-result | direct | p.5, left column, paragraph above Summary; Figs.4-5 | false |
+| M15-16 | Table I的0.047/0.054是INGA count asymmetry A，Fig3纵轴有aNperp与Nparallel的归一化分式，不是已除Q的P。本文的angular-distribution数据来自另一次Gammasphere acquisition；短文未列该INGA的逐线Q(E)/a(E)系数、原始双向计数或完整Cov，不能把表列A直接与另一阵列P数值比较。 | observable-identity-and-readiness | direct-and-self-audit | printed082501-2实验；printed082501-3分析段；printed082501-4 TableI/Fig3 | true |
+| M15-17 | 本文Ref21指向J.T.Matta的NotreDame2015 PhD thesis。新检索发现DataCite候选DOI10.7274/sj13902283h，注册题名Exotic Nuclear Excitations: The Transverse Wobbling Mode in 135Pr、creator J.T.Matta/year2015/publisher Curate ND；registry类型仅Text、无contentURL。候选登记不能代替机构/正文身份核验，当前未取得thesis正文、INGA Q或Cov。 | bibliographic-lead-boundary | metadata-and-self-audit | printed082501-6 Ref21；https://api.datacite.org/dois/10.7274/sj13902283h | true |
+
+## Nuclear Structure Information
+
+- [[135pr-yrast-band]]：Fig.1 中的主要 E2 序列，作者记为 `n_w=0`；
+- [[135pr-side-band]]：通过 ΔI=1 mixed transitions 连接 yrast，作者记为 `n_w=1` wobbling band；
+- [[135pr-signature-partner-band]]：较弱侧带，593.9 和 702.7 keV 连接主要表现为 dipole/M1；
+- [[135pr-dipole-band]]：建立在侧带之上的 ΔI=1 强 M1 序列，作者与 3qp magnetic-rotation 组态联系。
+
+## Authors' Interpretation
+
+- yrast/side-band pair 分别是 zero-/one-phonon wobbling bands；
+- 连接跃迁的 E2 主导性质确立 wobbling，下降的 `E_wob` 进一步确定 transverse 类型；
+- 高自旋处 wobbling structure 演化到 3qp magnetic-rotation dipole band；
+- wobbling excitation 与普通 signature-partner excitation 在同一核素中并存，被作者视为偏离轴对称的证据。
+
+这些是 Matta 2015 的支持方解释，不是本 Wiki 对后来争议的裁决。
+
+## Model Results
+
+- TAC 给出 1qp、3qp、5qp 组态能量和角动量取向；
+- QTR 拟合 zero-/one-phonon 能量、`E_wob` 和带间跃迁概率比；
+- QTR 对 `B(E2_out)`、`B(M1_out)` 和 signature-partner 激发能存在定量偏差；
+- QTR 转动惯量来自能量拟合，不能作为独立实验测量。
+
+## Competing Interpretations and Limitations
+
+- 本文是 transverse-wobbling 支持方原始实验；后续反对或替代解释尚未在本 project 中摄入，不能由本页代表争议全貌；
+- PRL 仅给出部分能级纲图；正文明确称完整符合、角分布、asymmetry 分析和 full level scheme 将在后续工作中给出；
+- 702.7 keV 跃迁的具体 DCO ratio 未列出；
+- 710.2 keV 连接跃迁的 mixing ratio/偏振未直接测出，Table I 的概率比使用前一条 mixing ratio 的下限约束；
+- E2 fraction 来自 mixed-transition 分解，不等于独立寿命测得的绝对 `B(E2)`；
+- `E_wob` 下降是本文采用的 transverse 判据之一，但其解释依赖 zero-/one-phonon 带对应；
+- TAC/QTR 的形变、转动惯量、配对和组态均具有模型依赖。
+
+## Extracted Pages
+
+- Nucleus: [[135pr]]
+- Bands: [[135pr-yrast-band]], [[135pr-side-band]], [[135pr-signature-partner-band]], [[135pr-dipole-band]]
+- Experiments: [[atlas-gammasphere-135pr-o16-80mev]], [[tifr-inga-135pr-o16-80mev]]
+- Concepts: [[wobbling-motion]], [[transverse-wobbling]], [[signature-partner-bands]]
+- Observables: [[multipole-mixing-ratio]], [[interband-e2-strengths]], [[wobbling-energy]]
+- Methods: [[gamma-gamma-coincidence]], [[dco-ratio]], [[linear-polarization-asymmetry]]
+- Models: [[tilted-axis-cranking]], [[triaxial-particle-rotor-model]]
+- Project: [[135pr-wobbling-controversy]]
+
+## Personal Notes
+
+本页只建立 Matta 2015 的支持方证据链。用户已完成人工页面级审阅，并确认 M15-1 至 M15-15 与原文对照无误；这不构成对后续争议的裁决。
+
+## 2026-10-17定向复核：A与P的数据身份
+
+本次读6页文章主线及第7页版权附页，视觉核Fig1/2、TableI/Fig3；原SHA-256不变。原page级human-reviewed与M15-1–15逐字保留，新M15-16/17仅Codex self-audit、needs_review:true。原Personal Notes的用户审核范围仍限1–15，不扩到本节。
+
+[[135pr-mixing-branch-input-contract]]把本表与Lv22主文P及SI的Ap逐量对齐；INGA与JUROGAM II不能共用Q或a。角分布/Gammasphere与偏振/INGA是独立采集，但两者分析仍共享transition/spin/取向与理论约定；不能从不同campaign自动推出所有nuisance独立。新计算仅核已发表摘要和标定身份，没有重拟合本文angular distributions或裁决wobbling。
+
+后续全文入口：[注册DOI候选](https://doi.org/10.7274/sj13902283h)、[机构旧show记录](https://curate.nd.edu/show/sj13902283h)、[DataCite元数据](https://api.datacite.org/dois/10.7274/sj13902283h)。本run的GoogleScholar检索超时、Figshare API403、机构search/home202空body、doi landing ConnectionError已记录；未得到公开file URL，不原样重试失败入口，不以登记title补写全文结论。M15-17只是一项可恢复的文献线索。
+
+
+## Day18 checkpoint050修订：135Pr混合比根与观测覆盖
+
+原MA15-claims/review保留；旧MA15-D18-1中“后续已证伪/生死裁决”改为分层记录，旧artifact不作新验证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MA15-D18-2 | Table I直接报告747/813的δ=-1.24(13)/-1.54(9)、E2份额60.6/70.3%与813的BE2out/in=.843(.032)，其换算假定in-band纯E2及实验分支/能量输入；这是本文选用大根的派生输出，不是寿命绝对强度。 | source-result-and-dependence | direct-and-boundary | PDF4 Table I及caption | true |
+| MA15-D18-3 | Lv22同核新实验的P/Rac给747/813 δ=-.47/.−.37、813 BE2out/in=.12(.08)，并以这些结果质疑此前wobbling解释；它提供了对根选择的同核反证，但QTR/TiP替代解释与统计/response边界仍需分层，不能把条件比值崩塌推广成所有wobbling候选的普适定律。 | later-companion-and-interpretation-boundary | direct-and-boundary | [[lv-2022-evidence-against-wobbling-135pr]] PDF3 Table1/PDF5 summary | true |
+
+新检查沿用真实两原件hash，明确δ根变化对fE2和派生B的条件放大；不重拟合原P/Rac或制造CI。
+
+## Day20 checkpoint041：135Pr对立解释、相对强度与模型文字
+
+本轮按primed-recall-041先冻结暴露回忆；实际回读两篇主文全文主线与Lv全部SI，scope041逐页记录。旧human-reviewed范围及原flags不变；新增为Codex self-audit，不是新人审或原实验重分析。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| M15-D20-R41-1 | 原TableI747.0/812.8/754.6 δ−1.24(.13)/−1.54(.09)/−2.38(.37)，E2份额60.6/70.3/85.0%。INGA A与另一Gammasphere的AD分角色；A不可直接对比LvJUROGAM P，Lv对旧AD的图示重拟合不新增独立campaign。reported数据与作者TW解释均保留。 | reported-data-and-comparison-contract | direct-original-and-conditional | PDF2 experiment; PDF3 analysis; PDF4 TableI/Fig3 | true |
+| M15-D20-R41-2 | QTR参数Jm/Js/Jl=7.4/5.6/1.8、c=.116由能量拟合，较大Js/Jm避免过早collapse；PDF5明确Coriolis力使j脱离short并转向medium，Ewob最低点后上升。不能把Lv后文frozen批评当Matta实际全spin代码冻结认证；需原producer和参数路径进一步比较。 | literal-model-statement-and-boundary | direct-original-and-conditional | PDF4 QTRparagraph; PDF5 firstcolumn | true |
+
+
+### checkpoint044：前期QTR输入与最终表不可混用
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| M15-D20-R44-1 | [[frauendorf-2014-transverse-wobbling]] F14-D20-R44-3的TableII暂定Pr强度比与本论文TableI最终值不同；21/2的rM1 .130(.011)→.164(.014)、rE2 .92(.03)→.843(.032)，25/2的.021(.004)→.035(.009)、.535(.01)→.500(.025)，29/2有限值变本表上/下界，非新增独立实验。本论文MoI为Ji(I)=Ji(1+cI)、基参数7.4/5.6/1.8、c=.116，不等2014固定21/13/4；能量拟合与relative E2本身不提供新增绝对τ。 | lineage-and-model-version-boundary | direct-original-comparison | PDF4 TableI/QTRparagraph; PDF5 Coriolisparagraph; F14 PDF9 TableII/PDF12 Ref26 | true |
+
+
+### checkpoint141：角分布双解根选择与派生 B(E2) 放大效应审计
+
+> checkpoint146：本节121–145批次的科学认证已撤回。旧文本/输入与指纹保存在本run的history-before-repair-146.json；原始原件与既有review/flags保留。自设数值或flag的passed只验证算术，不识别实际producer、共同Cov、实验CI或唯一模式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MA15-D20-R141-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## checkpoint146：原件身份与推断边界更正
+
+本轮为Codex定向self-audit；已有review_status与原claim flags不变。121–145旧认证撤回；实际新阅读范围见source-reading-scope-146.json，引用较早纠错不冒称新全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| M15-D20-R146-1 | Matta确有INGA偏振不对称A，另一次Gammasphere给角分布；不能称完全无偏振的大根伪影。747/813的−1.24/−1.54与Lv新实验−.47/−.37不同，不是同次数据同一χ²拟合的两根；3.35/5.84仅固定其它输入时E2份额中央比，不是直接绝对B塌缩或实验CI。支持方与反对方解释均保留。 | experiment-lineage-and-interpretation-boundary | source-and-bounded-self-audit | M15-D20-R41-1/R41-2; M15-D20-R44-1; TableI/Figs2/3 | true |
+
+## Day 21周考对比：横向摇摆模式假说的大模解依赖边界（Checkpoint 003）
+
+在第三次周考（[[experimental-claim-boundaries]]）中，将 Matta 2015 的 135Pr 横向摇摆指认作为推断阶梯典型边界案例：
+1. **模型引导的解选择：** 论文在角分布具有 |δ|<1 与 |δ|>1 双解简并且偏振数据统计有限的条件下，选用了大模 E2 主导解（δ=-1.24 等），使带间跃迁表观符合 Bohr-Mottelson 摇摆理论；
+2. **后续证伪：** 后续高精度 JUROGAM II 联合测量（[[lv-2022-evidence-against-wobbling-135pr]]）排除了大模解，证明该跃迁为 M1 主导，该案例确立了推断阶梯中“严禁用模型预期裁决多极双解”的核心证据门准则。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| MA15-D21-1 | Matta 2015 对 135Pr 横向摇摆模式的指认依赖于在角分布双解中选取大模 δ 解；该假说后续被高精度联合偏振测量证伪，成为推断阶梯多极性判据的经典边界。 | wiki-synthesis | indirect | PRL 114, 082501 Table I; [[experimental-claim-boundaries]] | true |
+
+## Day21 checkpoint055：支持方数据范围与相对强度审计
+
+在冻结前置回忆后，重新精读Matta等2015年PRL 114, 082501全文及Table I、Fig. 2、Fig. 3。原文BibTeX为`matta_2015_TransverseWobbling`，本地raw文件SHA-256匹配为`8DB644705DCCFD58016753B759D19314A65284C48EFC1758F95F1B3CE23551D6`。原M15-1至17、review_status与needs_review保持。以下为本检查点补充的定向审计声明：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| M15-D21-R55-1 | Table I报告的跃迁几率均为相对比值B(M1)out/B(E2)in与B(E2)out/B(E2)in；本文未测定能级寿命，未给出绝对跃迁几率测量。 | observable-scope-and-boundary | direct-original | PRL 114, 082501 Table I | true |
+| M15-D21-R55-2 | 本文支持横向摇摆的核心实验依据是大模混合比|δ|>1（747与813 keV分别为-1.24与-1.54）以及正偏振不对称度。角分布拟合天然存在的另一物理分支|δ|<1未被本文偏振测量排除，从而为后来Lv 2022的证伪留下了多解窗口。 | model-choice-and-degeneracy-boundary | direct-and-derived | PRL 114, 082501 pp. 3–4 | true |
+
+### 科学判定与学习决策
+
+- 既有理解：Matta 2015是提出135Pr横向摇摆的原始实验支持方。
+- 影响：limits。核定支持方同样仅测量了相对分支比与角分布/不对称度，未测定绝对寿命；大模解的选择受理论模型偏好主导，为后续争端提供了实证溯源。
+- 持久化：更新本source页与方法页推断阶梯Case Study 3。

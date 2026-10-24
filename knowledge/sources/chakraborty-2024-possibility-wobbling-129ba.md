@@ -30,6 +30,8 @@ tags: [experiment-ingest, reanalysis, wobbling-possibility, longitudinal-wobblin
 
 # Exploring the possibility of wobbling motion in `129Ba`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 PRC 110, 024324 (2024), DOI `10.1103/PhysRevC.110.024324`; PDF/BibTeX identity checked.
@@ -182,3 +184,27 @@ printed024324-3左栏先回顾Gizon旧工作：AD区间−.97至−.79、P区间
 | CH24-D18-1 | **superseded**：旧关于“边缘显著性偏振下挑选大解的唯象重解释”降格，由CH24-D18-14/15分层记录作者对历史数据的重分析与多极根敏感性。 | task-correction | superseded-interpretation | 本段D18-14/15；旧chakraborty24-129ba-wobbling-result-025 | true |
 | CH24-D18-14 | 本文对Byrne 1986/Gizon 1977历史365 keV数据进行现代chi2极小拟合，报告大解delta ~ -2.0(2)（80% E2）为最佳拟合解，并将其与历史采用解delta in [-0.84, -0.79]（~40% E2）和反事实小解delta ~ -0.33(3)（~9.8% E2）对比，展现了不同根对应的多极成分差异。 | source-result-and-method | direct | PDF p.3 Figs. 2-3；Sec. III | true |
 | CH24-D18-15 | 历史线偏振测量值P = 0.072(68)相比于零的偏离为Z = 1.06sigma；作者据此提出大解在正偏振方向具有吻合性，并结合TPRM计算讨论纵向摆动可能性，明确要求未来高精度绝对测量予以检验。 | author-interpretation-boundary | direct-and-boundary | PDF p.3 Fig. 3；Sec. IV | true |
+| CH24-D21-1 | **superseded（checkpoint042）**：旧大根由模型偏好主观挑选之断言与既有 CH24-D18-14/15 更正冲突；现代作者报告 chi2 最佳解，缺原 producer/Σ不能重裁。历史采用区间中点不是新测 -0.815(25)；P/sigmaP 对零的显著性不是两根判别。脚本衰变率漏 e²/(4πε0) 单位因子，b=.65 与1–500 ps任设，绝对B及摆动阈值撤回。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
+
+## Day 21 checkpoint038 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/chakraborty-2024-possibility-wobbling-129ba.txt。其科学认证撤回：旧大根由模型偏好主观挑选之断言与既有 CH24-D18-14/15 更正冲突；现代作者报告 chi2 最佳解，缺原 producer/Σ不能重裁。历史采用区间中点不是新测 -0.815(25)；P/sigmaP 对零的显著性不是两根判别。脚本衰变率漏 e²/(4πε0) 单位因子，b=.65 与1–500 ps任设，绝对B及摆动阈值撤回。
+
+
+## Day21 checkpoint046：现代拟合归属与E2率的单位修复
+
+冻结已primed回忆后，本轮新读PRC全部5页文字，视觉核PDF pp.2–4 Figs.1–7/χ²图及结论；同时定向核LKH82 printed p.121 Eqs.2.1–2.6原页。raw SHA256与页码见本run `e2-unit-scope-046.json`。原page-level human-reviewed是2026-07-25历史审核，本节属于新的Codex自审；不改变原record、review_status或claim needs_review。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CH24-D21-R46-1 | 本文现代AD联合轮廓/χ²报告δ≈−2.0与80(4)%E2；−.84至−.79为历史采用区间。本文说A22单独允许约−2.0或−.33，而A22/A44联合在报告不确定度内支持大模解；本轮没有重建black curves、联合Σ或原producer，不能改称作者仅按模型偏好挑根。 | author-fit-and-reproduction-boundary | direct-original | printed 024324-3 left-column modern-fit paragraph | true |
+| CH24-D21-R46-2 | p.3明确521/671缺A44，不能给complete information；p.4结论likely并要求新AD/correlation/polarization。p.3与135Nd TiP的E2份额比较是跨核解释，不能当129Ba全部TiP构型的排他实验检验。 | missing-companions-and-interpretation | direct-original | printed 024324-3 paragraph after modern-fit result | true |
+| CH24-D21-R46-3 | 本文重用Byrne1992/Gizon1977/1978数据，未在本次核读的5页中给365keV绝对寿命/光子branch/完整拟合Cov。因此δ²/(1+δ²)的radiative份额不能单独变成绝对B(E2)；旧任设b=.65与τ=1–500ps范围不能冒充实验误差域。 | rate-identifiability-boundary | source-scope-and-task-inference | printed 024324-5 Refs.25–27 | true |
+
+### 原率公式到现代单位：仅作方法复算
+
+依据[[lange-kumar-hamilton-1982-multipole-admixtures]]的LKH82-1及printed p.121 Eq.2.2，统一SI时对电多极率显式加入1/(4πε0)。NIST 2022 CODATA常数在线表 https://physics.nist.gov/cuu/Constants/Table/allascii.txt 于本轮实际HTTP200获取，快照/hash见本run `nist-constants-046.txt`、`nist-retrieval-046.json`。使用exact h/e/c及所列ε0，推得E2系数约1.22519×10^9 s⁻¹ MeV⁻⁵/(e²fm⁴)；独立以αℏc的核单位路线一致。这里系数是本任务由原定义与常数换算，不是本文印出的新实验数值。
+
+对于M1/E2光子截断，定义f_E2=δ²/(1+δ²)、q_line_gamma为每次母态衰变在此线发一个光子的绝对概率，τ为母态平均寿命，则B(E2)[e²b²]≈0.0816202 q_line_gamma f_E2/(τ[ps] Eγ[MeV]^5)。若输入为含内转换的total branch，且该pair仅M1/E2与相应IC，才可用q=b_total/(1+α_mix)；相对γ强度不能直接代q，半衰期亦不能直接代mean τ。旧038代码省略了e²在高斯单位下的energy×length因子，且使用任设branch/τ；其B/W.u.数值与模式阈值保持撤回。
+
+程序`system/scripts/day21_checkpoint046_e2_units.py`只检两套单位路线与b²/fm⁴转换；实际129Ba B输出为null。可同时按比例缩放允许的M1/E2部分率而保持δ不变，故仅凭δ不识别绝对尺度。没有建立真实寿命域时，500倍只是自设扫描跨度，不能叫实验不确定度或据此排除wobbling。下一高信息输入是同母态寿命、绝对分支/IC与matching响应/共同Cov；其它核的绝对B不能借来补空。

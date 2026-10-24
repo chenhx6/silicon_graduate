@@ -1,0 +1,134 @@
+
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 038 深度攻坚：** 深入攻克历史旧数据重分析与低自旋摇摆假说推断阶梯边界（Chakraborty et al. 2024 PRC 110 对照 Lv 2022 与 Guo 2022）；运行独立量化审计程序 " + B + "day21_checkpoint038_ba129_wobbling_reanalysis_audit.py" + B + " 产出 " + B + "ba129-wobbling-reanalysis-audit-038.json" + B + "；定量证明：(1) 重分析完全依赖 Gizon 1978 历史数据，无新实验测量；(2) $365\text{ keV}$ 跃迁角分布双解（小解 $\delta_1 = -0.815$ 对应 $M1$ 占 $60.1\%$，大解 $\delta_2 = -2.00$ 对应 $E2$ 占 $80.0\%$）在早期粗糙偏振（$1.06\sigma$）下无法排他区分，作者基于 TPRM 理论预期挑选大解重演了 $^{135}\text{Pr}$ 的选择偏差；(3) $13/2^-$ 态绝对寿命未测，在典型皮秒区间（$1–500\text{ ps}$）内，$B(E2_{\text{out}})$ 漂移跨度达 $500$ 倍（$2436$ 至 $4.87\text{ W.u.}$），若 $\tau > 100\text{ ps}$ 则集体摆动完全不成立；(4) 确立“严禁依据模型偏好挑选大模多极解、严禁脱离绝对寿命确证摆动模式，以及严禁将探索可能性虚假升级为实验事实”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 037 深度攻坚：**"
+if target_rs in text and "Checkpoint 038 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + chr(10) + target_rs)
+
+# 2. Add Section 41 under Sources and evidence
+sec41 = """### 41. Chakraborty et al. 2024 PRC：129Ba 历史数据重分析、多极混合比双解挑选与摆动可能性推断阶梯边界
+
+在奇 $A$ 过渡区原子核（$A\approx 130$）低自旋集体激发模式探索中，历史谱学实验数据的重新拟合与理论唯象重解释是近年来文献中的多发模式（Chakraborty et al. 2024 PRC 110, 024324，[[chakraborty-2024-possibility-wobbling-129ba]] 对比 Chakraborty 2024 arXiv:2108.05313v3，[[chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3]] 及 Gizon 1978 PRC 17，对比 Lv 2022 PLB 与 Guo 2022 PLB）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–5）：**
+  Chakraborty 等利用 Gizon 1978 与 Mueller 1992 年发表的 $^{129}\text{Ba}$ 历史带间跃迁数据，重新提取了连接候选摆动带（Band 3，$13/2^-$）至基态推转带（Band 1，$11/2^-$）的关键 $365\text{ keV}$ 跃迁的多极混合比 $\delta$。作者提出 $\delta = -2.00 \pm 0.20$ 的大模数解，对应 $E2$ 份额高达 $80 \pm 4\%$（$M1$ 仅占 $20\%$）；结合三轴粒子转子模型（TPRM）与拟摆动能 $E_{\text{wob}}$ 的自旋趋势，提出 Band 3 可能是基于 $\nu h_{11/2}$ 组态的纵向摆动（Longitudinal Wobbling）声子带。然而，这一推断跨越了三重严重的实验阶梯边界。
+- **推断阶梯漏洞剖析：**
+  1. **历史数据角分布与弱偏振双解简并下的“理论偏好挑选”陷阱（Model-Biased Root Selection）：**
+     在 $\Delta I = 1$（$13/2 \to 11/2$）退激跃迁中，角分布各向异性系数 $A_2(\delta)$ 是多极混合比 $\delta$ 的非线性代数二次函数。实验数据在 $\chi^2(\delta)$ 曲面上不可避免地存在两个极小值：
+     - **历史小解（Root 1）：** $\delta_1 = -0.815 \pm 0.025$，导出 $E2$ 份额为 $39.9\%$，$M1$ 份额为 $60.1\%$（$M1$ 占绝对优势，处于常规单准粒子转动带间特征区间）；
+     - **重分析大解（Root 2）：** $\delta_2 = -2.00 \pm 0.20$，导出 $E2$ 份额激增为 $80.0\%$，$M1$ 仅占 $20.0\%$（$E2$ 占绝对优势）。
+     四十余年前测得的早期偏振数据误差极大（$P = 0.072 \pm 0.068$，显著性仅 $1.06\sigma$），根本无法在统计上以 $3\sigma$ 显著性排除 Root 1。作者明确基于 TPRM 理论计算预言强 $E2$ 跃迁的期待，主观挑选了大模解 Root 2。这一做法完全重演了 $^{135}\text{Pr}$（Matta 2015 依据理论挑选大解 $\delta=-1.54$，后被 Lv 2022 现代偏振证伪为小解 $\delta=-0.37$，$M1$ 达 $88\%$）与 $^{187}\text{Au}$（Sensharma 2020 挑选大解 $\delta=-1.5$，后被 Guo 2022 证伪为小解 $\delta=-0.27$）的历史覆辙；
+  2. **第四层绝对跃迁几率（$B(E2_{\text{out}})$）的绝对空白与寿命盲区：**
+     在整个 $^{129}\text{Ba}$ 谱系中，带头能级 $13/2^-$ 的绝对寿命 $\tau$ 处于完全未测状态。在缺乏绝对寿命的情况下，即使跃迁辐射百分比达到 $80\% E2$，推断阶梯第四层（绝对约化跃迁几率）仍然完全开放：
+     $$B(E2; 13/2^- \to 11/2^-) \propto \frac{b_\gamma \cdot (E2\%)}{\tau \cdot E_\gamma^5}$$
+     在过渡核单准粒子激发态的典型皮秒寿命区间（$\tau = 1.0 - 500\text{ ps}$）内，$B(E2_{\text{out}})$ 的数值横跨 **$2436\text{ W.u.}$ 到 $4.87\text{ W.u.}$，相差达 $500$ 倍之巨**！若实际寿命 $\tau \ge 100\text{ ps}$，$B(E2_{\text{out}})$ 将跌破 $25\text{ W.u.}$，彻底丧失三轴集体摆动运动所必须的巨幅电四极增强特征。没有绝对寿命，单凭辐射百分比绝不可能确立集体声子激发；
+  3. **学术传播中从“探索可能性（Possibility）”向“确证事实（Fact）”的非法语域滑移：**
+     Chakraborty 等在 PRC 110 原文标题中使用 *“Exploring the possibility of wobbling motion in $^{129}\text{Ba}$”*，正文中明确将结论限定为“可能（likely）”，并在结论最后郑重强调：*“进一步的高统计量实验测量，特别是绝对寿命测量，对于无可争辩地确立摆动性质是必不可少的（essential）”*。然而，在后续文献综述、跨核区比较或理论引用中，该核常被不加限制地列入“已发现纵向摆动的原子核清单”。这种将作者审慎的“可能性假说”人为升格为“实验确证”的做法，严重违反了学术诚信与推断阶梯的严密性。
+- **证据门准则：**
+  1. **严禁仅凭历史旧数据的重分析，在缺乏高精度现代偏振去污染的前提下，通过理论模型偏好挑选多极混合比大模数解（如挑选 $|\delta| > 1.5$）并据此断言集体摆动模式**；
+  2. **严禁在激发能级绝对寿命 $\tau$（或绝对衰变宽度）未测的条件下确证任何原子核集体摆动假说**；无寿命约束时提取的表观 $B(E2_{\text{out}})$ 具有数个数量级的发散度，高 $E2$ 分支比绝不等于强集体增强；
+  3. **在文献引用与知识综合中，严禁将原作者明确标定为“探索可能性（possibility）”或“推测（likely）”且声明“寿命缺失”的暂定假说直接作为确定事实引证**。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 41. Chakraborty et al. 2024 PRC" not in text:
+    text = text.replace(target_theory, sec41 + chr(10) + chr(10) + target_theory)
+
+# 3. Add Section 39 under Theory/analysis exercise
+sec_ex39 = """### 39. Checkpoint 038 量化审计程序与 129Ba 365-keV 跃迁混合比双解及寿命敏感度核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint038_ba129_wobbling_reanalysis_audit.py" + B + """，对 Chakraborty et al. 2024 PRC 110 关于 $^{129}\text{Ba}$ 候选摆动带 $365\text{ keV}$ 跃迁的多极双解与未测寿命敏感度展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ba129-wobbling-reanalysis-audit-038.json" + B + """：
+
+1. **$365\text{ keV}$ 跃迁多极双解辐射成分定量核算：**
+   - 历史采用解（Root 1，Gizon 1978）：$\delta_1 = -0.815 \pm 0.025$，对应 $E2$ 份额 $39.9\%$，$M1$ 份额 $60.1\%$（$M1$ 主导，属于标准单粒子磁偶极跃迁）；
+   - 现代重分析大解（Root 2，Chakraborty 2024）：$\delta_2 = -2.00 \pm 0.20$，对应 $E2$ 份额 $80.0\%$，$M1$ 份额 $20.0\%$（$E2$ 主导）；
+   - $E2$ 份额膨胀倍数：$80.0\% / 39.9\% = 2.005$ 倍；在早期粗糙偏振数据（$P=0.072(68)$，仅 $1.06\sigma$ 偏离零）下，大解的选择完全来自对 TPRM 理论计算的依附。
+2. **绝对寿命未测引发的 $B(E2_{\text{out}})$ 巨幅发散性核算：**
+   - 假设能态绝对寿命在过渡核典型皮秒区间 $\tau \in [1.0, 500.0]\text{ ps}$ 变化；
+   - 当 $\tau = 1.0\text{ ps}$ 时，$B(E2_{\text{out}}) = 2436.42\text{ W.u.}$（非物理超强）；
+   - 当 $\tau = 50.0\text{ ps}$ 时，$B(E2_{\text{out}}) = 48.73\text{ W.u.}$（处于摆动候选典型区间）；
+   - 当 $\tau = 200.0\text{ ps}$ 时，$B(E2_{\text{out}}) = 12.18\text{ W.u.}$；当 $\tau = 500.0\text{ ps}$ 时降至 $4.87\text{ W.u.}$（完全退化为单粒子强度）；
+   - 绝对跃迁几率跨度高达 **$500$ 倍**，量化证实了脱离能态寿命谈论集体摆动模式的完全不可判定性。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 39. Checkpoint 038 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex39 + chr(10) + chr(10) + target_ce)
+
+# 4. Add Section 35 under Counter-evidence
+sec_ce35 = """### 35. 历史旧数据重分析对多极性大解挑选与未测寿命摆动假说的排他性证伪
+
+- **依据理论模型预期主观挑选多极混合比大模数解的排他性证伪：**
+  若实验分析在角分布与偏振测量统计精度受限（如偏振显著性仅 $\sim 1\sigma$）的条件下，宣称通过挑选大解（如 $\delta = -2.0, E2\%=80\%$）证实了原子核集体摆动模式，该结论在推断方法论上被直接排他性证伪；在缺乏现代高分辨康普顿散射线偏振（如 AGATA 或 JUROGAM）的前提下，双解简并具有数学等价性，依据模型拟合挑选大解混淆了理论假设与实验测量。
+- **在激发态绝对寿命缺失下宣称集体摆动模式成立的排他性证伪：**
+  若研究仅凭带间跃迁具有 $80\% E2$ 辐射份额与能谱交错，在激发能级绝对寿命 $\tau$ 未知的前提下断言原子核处于三轴集体摆动状态，该结论在多体物理上被直接排他性证伪；当能态实际寿命大于 $100\text{ ps}$ 时，即使 $80\%$ 分支比导出的绝对 $B(E2_{\text{out}})$ 亦低于 $20\text{ W.u.}$，完全无法提供三轴摆动所必须的巨幅电四极增强。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 35. 历史旧数据重分析对多极性大解挑选" not in text:
+    text = text.replace(target_ki, sec_ce35 + chr(10) + chr(10) + target_ki)
+
+# 5. Add Decision 29 under Knowledge Impact
+dec29 = """29. **Chakraborty et al. 2024 PRC 110（129Ba 重分析与摆动推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了对 $^{129}\text{Ba}$ 历史带间跃迁角分布与偏振系数展开现代代数对账与模型对比的学术探讨；严格限制了该工作的推断层级，证明其完全建立在 1978 年旧数据上，挑出的大模解 $\delta = -2.0$（$80\% E2$）缺乏高显著性实验偏振约束，且 $13/2^-$ 态绝对寿命缺失使 $B(E2_{\text{out}})$ 具有 500 倍的发散区间；修正了下游文献将作者审慎提出的“探索可能性（possibility）”虚假升格为“已确证事实”的语域滑移，确立了必须满足“现代偏振小解证伪 + 绝对寿命皮秒测定”的双重证据门标准；
+   - 持久化产物：更新 [[chakraborty-2024-possibility-wobbling-129ba]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Chakraborty et al. 2024 PRC 110" not in text:
+    text = text.replace(target_dkd, dec29 + chr(10) + chr(10) + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+      "summary": "129Ba历史数据重分析、365-keV混合比双解挑选与摆动可能性推断阶梯边界审计。",
+      "anchor": "checkpoint038：129Ba 历史数据重分析、多极混合比双解挑选与摆动可能性推断阶梯审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/ame2020-sn132-mass-curvature.md",
+          "locator": "AME20-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/ame2020-sn132-mass-curvature.md",
+          "locator": "AME20-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "CH24-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要在角分布和弱偏振拟合中能找出一个高 $E2$ 分支比的卡方解（如 $80\% E2$），结合转子模型计算就能确证原子核的集体摆动模式；且文献发表的“摆动可能性探索”可以直接当作该核具有摆动的确证事实；
+   - **新信念：** 认识到角分布多极混合比二次方程天然存在双解，依据理论模型偏好挑选大模数解已被 $^{135}\text{Pr}$ 和 $^{187}\text{Au}$ 证实为典型推断陷阱；且在激发态绝对寿命未测的条件下，$B(E2_{\text{out}})$ 具有数个数量级的剧烈发散度，高 $E2$ 分支比完全可能对应单粒子甚至阻退跃迁，必须严格防范将“探索可能性”升格为“实验事实”的语域滑移。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "只要在角分布和弱偏振拟合中能找出一个高 $E2$ 分支比" not in text:
+    text = text.replace(target_belief, target_belief + chr(10) + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 038 successfully.")

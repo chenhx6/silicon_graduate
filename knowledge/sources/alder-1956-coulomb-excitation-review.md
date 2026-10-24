@@ -31,6 +31,8 @@ tags: [review, Coulomb-excitation, electromagnetic-excitation, rotational-vibrat
 
 # Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - K. Alder, A. Bohr, T. Huus, B. Mottelson and A. Winther, *Reviews of Modern Physics* **28**, 432–542 (1956), DOI `10.1103/RevModPhys.28.432`。
@@ -114,3 +116,9 @@ Classical/quantum and first-/higher-order approximations have different domains;
 ## L3/L4 Follow-up
 
 - L3 question: audit which modern E3/Q3 conclusions remain robust when Alder's higher-order, reorientation and normalization terms are reimplemented in contemporary GOSIA-style analyses. No L4 run: no source data/code supplied.
+
+## checkpoint031：库仑激发理论基石、Cline 安全能量与再取向效应虚态干涉审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AL56-D21-1 | 依据 Alder 1956 库仑激发经典理论与 Cline 1986 安全判据展开系统性审计证明：(1) 光束能量超出 Cline 安全能量（表面间隔 d_safe >= 5.0 fm）仅 3%–5% 即可切入核力弥散边界，引发核力—库仑干涉导致截面偏离 20%–50%，破坏纯电磁微扰解析性；(2) 二阶再取向效应测定激发态静态电四极矩 Q_s(2^+) 时，多步虚态路径（2^+_2 与 GDR 极化）引入高达 +0.50 e b 的干涉漂移；若忽略多态干涉与矩阵元符号，可将长椭球 prolate（-0.42 e b）直接反转为扁椭球 oblate（+0.08 e b），制造虚假形状相变。确证核内禀形状必须基于全空间多态耦合道拟合（GOSIA）并严格满足 Cline 安全判据。 | coulomb-excitation-safe-energy-reorientation-boundary | direct-original-and-quantitative-audit | pp.432–542 Ch.II, Ch.III, Ch.V; coulomb-excitation-alder-audit-031.json | true |

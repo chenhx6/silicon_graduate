@@ -105,3 +105,14 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 
 - The FZR-156 preprint reproduces the published theory structure: TAC/PRM basics, planar versus aplanar solutions, D2 symmetry, chiral geometry, transition probabilities, the `134Pr` candidate comparison and the need for microscopic self-consistent TAC.
 - No new independent claims were promoted. The existing journal-page locators remain canonical; preprint OCR corruption in equations and page numbers is retained as a version caveat rather than silently corrected.
+
+
+## Day21 checkpoint050：同宇称身份前提的定向复核
+
+本次在Wiki priming后冻结补充回忆，仅定向读实际VoR PDF1摘要与PDF8–11的planar/aplanar、Fig5/6相关正文和宇称段，未重读全17页/完整图表，也不改旧human review record或原flags。本节是Codex自审。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| FM97-D21-R50-1 | 摘要明确aplanar解对应same-parity双带；正文第141页强调该手征对称性破缺中parity仍为好量子数，并与相反宇称的parity doubling区分。因此对本文这一普通转动手征双带构造，可靠确定候选两带相反宇称会否定这对具体伙伴的身份前提，而非仅产生一个强度偏差。它不排除其它同宇称配对或更复杂模式。 | model-symmetry-and-bounded-identity-test | direct-original-and-explicit-task-inference | printed p.141 parity-doubling paragraph | true |
+
+本结论用于[[day21-135nd-same-input-falsification-design]]的身份层反证，不把本理论模型当135Nd新实验或重新给其它核的模式认证。实际raw SHA256 `9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2`匹配原记录；本轮没有改变source的原人工审核状态。

@@ -1,0 +1,8 @@
+{
+  "initial": "required-checks-102-initial-failed.json",
+  "error": "INDEX_MISSING",
+  "repair": "knowledge/index.md navigation link",
+  "full_tree_recheck": "required-checks-103.json",
+  "all_command_exit_codes_zero": true,
+  "scope": "structural and declared controls; not scientific-certification"
+}

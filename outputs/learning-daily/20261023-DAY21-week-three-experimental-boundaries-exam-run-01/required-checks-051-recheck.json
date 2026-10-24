@@ -1,0 +1,35 @@
+{
+  "lint": {
+    "exit_code": 0,
+    "counts": {
+      "warning": 214,
+      "info": 4176
+    },
+    "errors": [],
+    "warning_categories": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 178,
+      "RAW_MISSING": 32
+    }
+  },
+  "boundary": {
+    "exit_code": 0,
+    "stdout": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n"
+  },
+  "diff": {
+    "exit_code": 0,
+    "stdout": ""
+  },
+  "writeback": {
+    "exit_code": 0,
+    "stdout": "{\n  \"valid\": true,\n  \"items\": 90,\n  \"status\": \"updated\",\n  \"scope\": \"structure, atomic references and changed-page presence only; not source truth or experimental CI\",\n  \"errors\": []\n}\n"
+  },
+  "native_writeback": {
+    "valid": true,
+    "exit_code": 0,
+    "error": null,
+    "referenced_paths": 91,
+    "changed_paths": 90
+  },
+  "at": "2026-10-23T13:38:14.748462+00:00"
+}

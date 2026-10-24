@@ -34,6 +34,8 @@ tags: [rigidity, low-spin, convergence, covariance, ge76]
 
 # 刚性主张的实际高阶证据与未提供输入
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Ayangeakaa等，Physical Review Letters123，102501(2019)，DOI10.1103/PhysRevLett.123.102501，Crossref精确端点核发表2019-09-06。本session实际读取APS/CHORUS accepted manuscript，cover1页+正文/参考6页，共7页、1022508bytes，SHA256见frontmatter。首页Dated2019-07-26；下载metadata的publishedVersion标签不覆盖cover明确的accepted身份，未逐字核最终排版版本。
@@ -98,3 +100,28 @@ revises：争议矩阵应保留Ge实验高阶刚性主张、Se实验仅平均三
 ## Extracted Pages
 
 PDF1：CHORUSaccepted cover；2/正文1：摘要/动机与作者；3/正文2：竞争模型/方法与Fig1；4/正文3：分析、Fig2/TableI及不变量定义；5/正文4：Figs3/4、参数转换、高阶/高spin限制；6/正文5：Fig5、刚性/Se比较、结论/致谢/Refs1–16；7/正文6：Refs16–45与Ref37/44原读后续入口。
+
+## Day21 checkpoint005旧认证撤回（047定向原件复核）
+
+005把Henderson样本统计改成76Ge伪刚性证明，以及宣称103个RME必有强非对角病态协方差，均超出当前原件证据。旧段逐字存本run `superseded-047/ayangeakaa-2019-rigid-triaxial-ge76-day21-before-047.txt`。原实验结果、作者刚性解释和review/flags保持；不把撤回本任务认证写成撤回论文。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AY19-D21-1 | superseded：005由模型平均截断低估直接判76Ge刚性假象的认证撤回；本任务未取完整高阶网络/producer/jointCov，不能确定真实截断偏差大小/方向或强相关程度。 | withdrawn-task-certification | rejected-and-replaced | checkpoint047 original-source audit | true |
+
+## Day21 checkpoint047：保留低自旋刚性主张与实际复核缺口
+
+冻结primed回忆后新读实际accepted manuscript全7页（含CHORUS封面及参考），视觉核PDF4–6全部表/图2–5；实际raw存在且SHA256 `fd549c59e62774b43690a8ae3b5c4bf638982f6c9b888dd0f0aba83b3993b733`匹配。未核VoR逐字一致性，未运行GOSIA；早先staging记录保历史，原review/flags不变。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AY19-D21-R47-1 | 文章报告GOSIA拟合103个E2/M1 RME，Table I只列E2子集，完整集合当时指Ref.37 forthcoming。新yield与旧寿命/branch/δ共入拟合，因此这些RME是有约束拟合结果，不是103次独立观测或直接测内禀坐标。 | extraction-and-input-scope | direct-original | PDF p.4 Table I | true |
+| AY19-D21-R47-2 | Fig5与正文以0₁、2₁、2₂的较小角度dispersion及不同coupling相容支持低自旋刚性三轴；高spin数据因不完备增加而不展示，不能将全部已观测态都认证刚性。作者确有rigid主张，本任务没有用Henderson模型结果推翻它。 | author-rigidity-interpretation-and-spin-boundary | direct-original | PDF p.6 Fig.5 | true |
+| AY19-D21-R47-3 | 原文把coupling结果称independent并用相容作收敛证据；它们均由同一拟合RME集计算，统计独立性需实际Jacobian与jointCov核验。未得原jointCov时既不能默认独立，也不能量化强非对角相关、病态程度或新CI。 | statistical-independence-task-boundary | source-plus-explicit-task-inference | PDF p.5 coupling-convergence paragraphs | true |
+
+[[henderson-2020-quadrupole-invariant-convergence]]的HE20-D21-R47-1明确四阶σ(Q²)与需六阶的角度宽度不可混写；其sd/pf样本不包括76Ge实际误差模型，也没计算本测量巨共振遗漏贡献。可以说高阶完备性与误差传播需独立检查；不能说已经证明本核其实γ软或σ≈0必为假象。下一步沿Ref.37的实际后续全文/输入集核版本、全部高阶路径与jointCov，再做逐态、逐coupling稳定性与遗漏强度界；缺少这些输入时保作者解释与待检验边界并列。
+
+
+### Checkpoint048：Ref37已定位，不把后续输入继续写成不存在
+
+实际后续为[[ayangeakaa-2023-ge76-coulomb-excitation-full]]（PRC107,044314），其正文明称follow-up并以Ref27回指本PRL。AY23-D21-R48-1至4新核作者误差更正、表列/态编号与相关性合同：81为E1/E2/E3/M1总数，与本短文103 E2/M1不同口径，不能只由两数断定参数删减或完备性。完整长表已可读；原job、联合Cov及未列高阶子块仍未取得。旧TableI的2₅相关行/2₁→4₂误差必须带版本使用，不与后续表按下标拼接。原review/flags及047撤回保持。

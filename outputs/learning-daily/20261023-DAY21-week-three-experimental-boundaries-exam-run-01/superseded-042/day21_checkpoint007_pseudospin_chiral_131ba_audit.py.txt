@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 007: Pseudospin-Chiral Quartet Bands in 131Ba Inference Ladder Audit.
+
+Audits:
+1. Energy dispersion Delta E_quartet(I) = max(E_k(I)) - min(E_k(I)) across D3-D6 (spin 23/2 to 39/2).
+2. Level crossing sequence of D4, D5, D6 and failure of clean two-pair partition.
+3. Staggering parameter S(I) = [E(I) - E(I-1)] / 2I and comparison with Coriolis-induced staggering (Ding 2021).
+4. B(M1)/B(E2) branching sensitivity to assumed mixing ratio delta (-0.2(1) vs 0.0).
+5. Lifetime void (tau = undefined) and inability to separate Q_t from (g_K - g_R) scaling.
+6. RAT-PRM model dependency: beta_3 = 0.05 tentative assumption vs lack of experimental E3/Q3.
+"""
+
+import json
+import math
+from pathlib import Path
+
+# Level energies (in keV) reconstructed from Guo 2020 Fig. 1 & Fig. 4
+# D3: 21/2+ (2927), 23/2+ (3137), 25/2+ (3401), 27/2+ (3705), 29/2+ (4063), 31/2+ (4448), 33/2+ (4886), 35/2+ (5346), 37/2+ (5849)
+# D4: 21/2+ (3039), 23/2+ (3302), 25/2+ (3602), 27/2+ (3944), 29/2+ (4312), 31/2+ (4722), 33/2+ (5150), 35/2+ (5624)
+# D5: 23/2+ (3360), 25/2+ (3628), 27/2+ (3925), 29/2+ (4262), 31/2+ (4634), 33/2+ (5056), 35/2+ (5508)
+# D6: 23/2+ (3496), 25/2+ (3790), 27/2+ (4118), 29/2+ (4480), 31/2+ (4876), 33/2+ (5310), 35/2+ (5774)
+
+bands_data = {
+    "D3": {
+        10.5: 2927.0, 11.5: 3137.0, 12.5: 3401.0, 13.5: 3705.0,
+        14.5: 4063.0, 15.5: 4448.0, 16.5: 4886.0, 17.5: 5346.0, 18.5: 5849.0
+    },
+    "D4": {
+        10.5: 3039.0, 11.5: 3302.0, 12.5: 3602.0, 13.5: 3944.0,
+        14.5: 4312.0, 15.5: 4722.0, 16.5: 5150.0, 17.5: 5624.0
+    },
+    "D5": {
+        11.5: 3360.0, 12.5: 3628.0, 13.5: 3925.0,
+        14.5: 4262.0, 15.5: 4634.0, 16.5: 5056.0, 17.5: 5508.0
+    },
+    "D6": {
+        11.5: 3496.0, 12.5: 3790.0, 13.5: 4118.0,
+        14.5: 4480.0, 15.5: 4876.0, 16.5: 5310.0, 17.5: 5774.0
+    }
+}
+
+def compute_quartet_dispersion():
+    spins = [11.5, 12.5, 13.5, 14.5, 15.5, 16.5, 17.5]
+    results = []
+    for I in spins:
+        spin_label = f"{int(2*I)}/2+"
+        e_vals = {}
+        for b in ["D3", "D4", "D5", "D6"]:
+            if I in bands_data[b]:
+                e_vals[b] = bands_data[b][I]
+        min_b = min(e_vals, key=e_vals.get)
+        max_b = max(e_vals, key=e_vals.get)
+        disp = e_vals[max_b] - e_vals[min_b]
+
+        # Sort bands by energy
+        sorted_order = sorted(e_vals.keys(), key=lambda k: e_vals[k])
+
+        results.append({
+            "spin": spin_label,
+            "I": I,
+            "energies_keV": e_vals,
+            "energy_ordering": sorted_order,
+            "lowest_band": min_b,
+            "highest_band": max_b,
+            "energy_dispersion_keV": round(disp, 1),
+            "d4_d5_gap_keV": round(e_vals["D5"] - e_vals["D4"], 1)
+        })
+    return results
+
+def compute_staggering():
+    results = {}
+    for b, levels in bands_data.items():
+        s_vals = []
+        sorted_spins = sorted(levels.keys())
+        for i in range(1, len(sorted_spins)):
+            I = sorted_spins[i]
+            I_prev = sorted_spins[i-1]
+            if abs(I - I_prev - 1.0) < 1e-4:
+                dE = levels[I] - levels[I_prev]
+                S = dE / (2.0 * I)
+                s_vals.append({
+                    "spin": f"{int(2*I)}/2+",
+                    "I": I,
+                    "delta_E_keV": round(dE, 1),
+                    "S_I_keV": round(S, 2)
+                })
+        results[b] = s_vals
+    return results
+
+def branching_sensitivity():
+    # Test formula: B(M1)/B(E2) = 0.697 * (E_gamma(E2)^5 / E_gamma(M1)^3) * (1 / lambda) * (1 / (1 + delta^2))
+    # Let E_M1 = 300 keV, E_E2 = 600 keV, branching ratio lambda = I_gamma(E2)/I_gamma(M1) = 0.1
+    # Vary delta from 0.0 to -0.2 and -0.3
+    E_M1 = 300.0 # keV
+    E_E2 = 600.0 # keV
+    lam = 0.1
+
+    deltas = [0.0, -0.1, -0.2, -0.3]
+    res = []
+    base_val = None
+    for d in deltas:
+        val = 0.697 * ((E_E2 / 1000.0) ** 5) / ((E_M1 / 1000.0) ** 3) * (1.0 / lam) * (1.0 / (1.0 + d**2))
+        if base_val is None:
+            base_val = val
+        shift_pct = (val - base_val) / base_val * 100.0
+        res.append({
+            "assumed_delta": d,
+            "bm1_be2_ratio_muN2_e2b2": round(val, 3),
+            "relative_shift_percent": round(shift_pct, 2)
+        })
+    return res
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "pseudospin-chiral-131ba-audit-007.json"
+
+    dispersion = compute_quartet_dispersion()
+    staggering = compute_staggering()
+    b_sens = branching_sensitivity()
+
+    # Compare with benchmarks
+    benchmarks = {
+        "135Nd_chiral_splitting_keV": 55.0, # Mukhopadhyay 2007 PRL
+        "134Pr_chiral_splitting_keV": 25.0, # Petrache 2006 PRL
+        "131Ba_quartet_dispersion_min_keV": min(d["energy_dispersion_keV"] for d in dispersion),
+        "131Ba_quartet_dispersion_max_keV": max(d["energy_dispersion_keV"] for d in dispersion),
+        "dispersion_ratio_to_135Nd": round(max(d["energy_dispersion_keV"] for d in dispersion) / 55.0, 1)
+    }
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 007: 131Ba Pseudospin-Chiral Quartet Audit",
+        "nucleus": "131Ba",
+        "sources": [
+            "Guo et al. 2020 PLB 807, 135572",
+            "Ding et al. 2021 PRC 104, 064304",
+            "Petrache et al. 2006 PRL 96, 112502",
+            "Mukhopadhyay et al. 2007 PRL 99, 172501"
+        ],
+        "energy_dispersion_analysis": dispersion,
+        "dispersion_benchmarks": benchmarks,
+        "band_crossing_audit": {
+            "d4_d5_crossing_spin": "27/2+ (between 25/2+ and 27/2+)",
+            "d4_d5_gap_evolution": [
+                {"spin": "23/2+", "gap_keV": +58.0, "ordering": "D4 below D5"},
+                {"spin": "25/2+", "gap_keV": +26.0, "ordering": "D4 below D5"},
+                {"spin": "27/2+", "gap_keV": -19.0, "ordering": "D5 below D4 (CROSSING)"},
+                {"spin": "29/2+", "gap_keV": -50.0, "ordering": "D5 below D4"},
+                {"spin": "31/2+", "gap_keV": -88.0, "ordering": "D5 below D4"}
+            ],
+            "physical_implication": "The energy ordering of D4 and D5 flips at spin 27/2, and D6 links to both. The four bands cannot be uniquely partitioned into two chiral partner pairs, contradicting rigid discrete symmetry doubling."
+        },
+        "staggering_analysis": staggering,
+        "branching_ratio_sensitivity": b_sens,
+        "lifetime_void_diagnosis": {
+            "lifetimes_measured": 0,
+            "absolute_BE2_known": False,
+            "absolute_BM1_known": False,
+            "evidence_gap": "No DSAM or RDDS lifetimes exist for 131Ba. B(M1)/B(E2) ratios are degenerate with simultaneous scaling of Qt and (g_K - g_R). Just as in 134Pr where energy degeneracy masked a 2x Qt divergence, 131Ba quartet cannot establish equal core deformation without absolute lifetimes."
+        },
+        "octupole_correlation_boundary": {
+            "E1_links": "D7/D8 -> D3-D6 observed with relative branching",
+            "beta_3_status": "beta_3 = 0.05 is an unmeasured tentative input to RAT-PRM, NOT an experimental observable",
+            "collectivity_status": "Relative B(E1)/B(E2) ~ 10^-4 fm^-2 is typical of single-particle transitions in A~130 and does not prove stable octupole deformation or chiral-parity composite symmetry."
+        },
+        "evidence_gate_rule": "严禁在缺乏绝对能级寿命 tau、带内/带间绝对电磁跃迁几率 B(E2)/B(M1) 及独立微观占据测量的条件下，仅凭四条同宇称能带的能量相近和交叉连接，断言其为‘赝自旋—手征四重带’。"
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 007 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

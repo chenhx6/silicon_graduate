@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Qi 2009 PRM chiral geometry, irrotational inertia ratios and interband E2 underestimation scope."""
+import json
+import math
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+RUN = ROOT / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+
+def audit():
+    gamma_deg = 22.4
+    gamma_rad = math.radians(gamma_deg)
+
+    # Irrotational moments of inertia (hydrodynamic model)
+    # k=1: short (s), k=2: intermediate (i), k=3: long (l)
+    sin_s = math.sin(gamma_rad - 2.0 * math.pi * 1.0 / 3.0) # gamma - 120 deg = -97.6 deg
+    sin_i = math.sin(gamma_rad - 2.0 * math.pi * 2.0 / 3.0) # gamma - 240 deg = -217.6 deg
+    sin_l = math.sin(gamma_rad - 2.0 * math.pi * 3.0 / 3.0) # gamma - 360 deg = 22.4 deg
+
+    J_s_rel = sin_s**2 # ~ 0.9825
+    J_i_rel = sin_i**2 # ~ 0.3723 wait, check assignment
+    # In standard convention: k=1: s-axis or i-axis? Let's check which has largest inertia
+    # For gamma in (0, 60 deg):
+    # k=1 (x / intermediate): gamma - 120 -> sin^2(22.4 - 120) = sin^2(-97.6) = 0.9825 (LARGEST -> intermediate axis!)
+    # k=2 (y / short): gamma - 240 -> sin^2(-217.6) = sin^2(37.6) = 0.3723 (intermediate value -> short axis)
+    # k=3 (z / long): gamma -> sin^2(22.4) = 0.1452 (SMALLEST -> long axis)
+    J_intermediate = sin_s**2
+    J_short = sin_i**2
+    J_long = sin_l**2
+
+    ratio_i_over_l = J_intermediate / J_long
+    ratio_s_over_l = J_short / J_long
+
+    return {
+        "scope": "Qi 2009 PRM hydrodynamic moments of inertia and chiral geometry bounds",
+        "source": {
+            "doi": "10.1016/j.physletb.2009.02.061",
+            "arxiv": "0812.4597v1",
+            "locators": ["p.4 Eqs.(2)-(3)", "p.6 Discussion", "Fig. 2", "Figs. 3-4"]
+        },
+        "irrotational_moments_of_inertia": {
+            "gamma_deg": gamma_deg,
+            "sin2_k1_intermediate": J_intermediate,
+            "sin2_k2_short": J_short,
+            "sin2_k3_long": J_long,
+            "ratio_intermediate_over_long": ratio_i_over_l,
+            "ratio_short_over_long": ratio_s_over_l,
+            "reported_ratio": "6.8 : 2.6 : 1.0",
+            "calculated_ratio_rounded": f"{ratio_i_over_l:.2f} : {ratio_s_over_l:.2f} : 1.00"
+        },
+        "triaxial_orthogonal_geometry": {
+            "core_angular_momentum_R": "intermediate-axis (i-axis) due to maximum moment of inertia (6.77x of long axis)",
+            "valence_proton_Jp": "short-axis (s-axis) driven by particle-type h11/2 configuration at shell bottom",
+            "valence_neutron_Jn": "long-axis (l-axis) driven by hole-type h11/2 configuration at shell top"
+        },
+        "systematic_model_limitations": {
+            "interband_E2_underestimation": "Author explicitly reports that observed interband B(E2) values are underestimated in both PRM and TAC calculations (p.6).",
+            "root_mean_square_quantifiers": "Figs. 3-4 show root-mean-square angular momentum components sqrt(<J_k^2>), which are positive-definite and cannot establish signed classical orientation or exclusivity.",
+            "rigid_core_assumption": "Fixed deformation (beta=0.235, gamma=22.4 deg) neglects gamma-softness and dynamic fluctuations."
+        },
+        "raw_events_acquired": False,
+        "prm_code_replayed": False,
+        "new_CI": None,
+        "actual_joint_covariance": None,
+        "scientific_certification": False
+    }
+
+if __name__ == "__main__":
+    d = audit()
+    out = RUN / "prm-geometry-scope-112.json"
+    out.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps({
+        "output": str(out.relative_to(ROOT)),
+        "inertia_ratios": d["irrotational_moments_of_inertia"]["calculated_ratio_rounded"],
+        "reported": d["irrotational_moments_of_inertia"]["reported_ratio"]
+    }, ensure_ascii=False))

@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 030 Audit Script:
+DSAM Stopping Power Sensitivity, Side-Feeding Delays, and RDDS Plunger Zero-Point Uncertainties
+Based on Nolan & Sharpey-Schafer 1979 Rep. Prog. Phys. 42, 1-87
+"""
+
+import json
+import math
+import numpy as np
+
+def run_audit():
+    # 1. Benchmark setup: A ~ 130 nucleus (134Nd) in Au backing
+    # Initial recoil velocity beta_0 = v0 / c = 0.020 (v0 = 6.0 um/ps)
+    # LSS electronic slowing down characteristic time alpha_0:
+    # v(t) = v0 * exp(-t / alpha_0), typical alpha_0 in Au backing ~ 1.0 ps
+    alpha_0 = 1.0 # ps
+
+    # In simple exponential stopping model:
+    # F(tau) = 1 / (1 + tau / alpha_0)
+    # If stopping power is scaled by k_stop = 1 + delta_S:
+    # effective slowing down time becomes alpha_new = alpha_0 / k_stop
+    # F_meas = 1 / (1 + tau_true / alpha_new) = 1 / (1 + k_stop * tau_true / alpha_0)
+    # If analyst assumes standard alpha_0, extracted apparent lifetime is:
+    # tau_app = k_stop * tau_true
+
+    true_tau_dsam = 0.200 # ps (200 fs)
+    stopping_shifts = [-0.15, -0.10, 0.0, 0.10, 0.15]
+    stopping_audit = []
+
+    for dS in stopping_shifts:
+        k_stop = 1.0 + dS
+        alpha_eff = alpha_0 / k_stop
+        # Measured F(tau) under actual stopping
+        F_meas = 1.0 / (1.0 + true_tau_dsam / alpha_eff)
+        # Inverted tau assuming standard alpha_0:
+        # F_meas = 1 / (1 + tau_app / alpha_0) => tau_app = alpha_0 * (1/F_meas - 1)
+        tau_app = alpha_0 * (1.0 / F_meas - 1.0)
+
+        # B(E2) is inversely proportional to tau
+        b_e2_ratio = true_tau_dsam / tau_app
+        # Qt is proportional to sqrt(B(E2)) => sqrt(tau_true / tau_app)
+        qt_ratio = math.sqrt(b_e2_ratio)
+
+        stopping_audit.append({
+            "stopping_power_scale_shift_pct": round(dS * 100.0, 1),
+            "effective_stopping_factor_k": round(k_stop, 3),
+            "apparent_extracted_lifetime_ps": round(tau_app, 4),
+            "lifetime_error_pct": round((tau_app - true_tau_dsam) / true_tau_dsam * 100.0, 2),
+            "apparent_BE2_relative_ratio": round(b_e2_ratio, 4),
+            "apparent_Qt_relative_ratio": round(qt_ratio, 4)
+        })
+
+    # 2. Side-Feeding Delay Audit
+    # Suppose true lifetime of discrete state is tau_true, but fed by unobserved side-feeding cascade with delay tau_feed = 0.10 ps
+    tau_feed = 0.10 # ps (100 fs)
+    test_lifetimes = [0.05, 0.10, 0.20, 0.50, 1.00]
+    feeding_audit = []
+
+    for t_true in test_lifetimes:
+        # In centroid shift, F_meas approx 1 / (1 + (tau_true + tau_feed)/alpha_0)
+        # If feeding is neglected (assumed prompt, tau_feed = 0):
+        t_app = t_true + tau_feed
+        be2_suppression = t_true / t_app
+        qt_suppression = math.sqrt(be2_suppression)
+
+        feeding_audit.append({
+            "true_discrete_lifetime_ps": t_true,
+            "unobserved_side_feeding_delay_ps": tau_feed,
+            "apparent_extracted_lifetime_ps": round(t_app, 3),
+            "lifetime_overestimation_pct": round((t_app - t_true) / t_true * 100.0, 1),
+            "apparent_BE2_suppression_pct": round((1.0 - be2_suppression) * 100.0, 1),
+            "apparent_Qt_suppression_pct": round((1.0 - qt_suppression) * 100.0, 1)
+        })
+
+    # 3. RDDS / Plunger Mechanical Zero-Point Offset Audit
+    # Recoil velocity v = 6.0 um/ps
+    # Distance zero offset delta_x0 in [-5, -2, 0, 2, 5] um
+    v_recoil = 6.0 # um/ps
+    true_tau_rdds = 2.0 # ps (2000 fs)
+    dx0_values = [-5.0, -2.0, 0.0, 2.0, 5.0]
+    rdds_audit = []
+
+    for dx in dx0_values:
+        dt_zero = dx / v_recoil
+        # If apparent distance is x_meas = x_true + dx, extracted decay time is shifted by dt_zero
+        apparent_tau_near_zero = true_tau_rdds + dt_zero
+
+        rdds_audit.append({
+            "mechanical_zero_point_offset_um": dx,
+            "equivalent_time_zero_shift_ps": round(dt_zero, 3),
+            "apparent_initial_lifetime_ps": round(apparent_tau_near_zero, 3),
+            "distortion_percentage": round((apparent_tau_near_zero - true_tau_rdds) / true_tau_rdds * 100.0, 1)
+        })
+
+    audit_data = {
+        "audit_name": "Day 21 Checkpoint 030: Nuclear Lifetime Measurements (DSAM and RDDS) Inference Ladder Audit",
+        "reference_source": "Nolan & Sharpey-Schafer 1979 Rep. Prog. Phys. 42, 1-87 (The measurement of the lifetimes of excited nuclear states)",
+        "stopping_power_scale_uncertainty_audit": {
+            "benchmark_nucleus": "134Nd (Z=60), v0 = 0.020c, Au backing",
+            "true_discrete_lifetime_ps": true_tau_dsam,
+            "data": stopping_audit,
+            "physical_conclusion": "A 15% systematic uncertainty in electronic stopping power dE/dx maps directly to a 15% scale shift in extracted lifetimes tau, inducing a 15% scale error on B(E2) and 7.5% on transition quadrupole moment Qt."
+        },
+        "unobserved_side_feeding_delay_audit": {
+            "data": feeding_audit,
+            "physical_conclusion": "Unobserved side-feeding delays (tau_feed ~ 0.1 ps) severely distort short-lived states (tau < 0.1 ps), overestimating lifetimes by up to 200% and falsely mimicking a 67% loss of B(E2) collectivity."
+        },
+        "rdds_plunger_zero_point_audit": {
+            "recoil_velocity_um_per_ps": v_recoil,
+            "true_lifetime_ps": true_tau_rdds,
+            "data": rdds_audit,
+            "physical_conclusion": "A 2-5 um mechanical zero-point error in RDDS introduces 0.33 - 0.83 ps systematic time shifts, corrupting picosecond lifetime extraction unless differential decay curve method (DDCM) slope analysis is performed."
+        },
+        "evidence_gate_rules": [
+            "严禁在未指明所采用电子/核阻止本领表（dE/dx，如 SRIM/Northcliffe-Schilling）及其理论不确定度包络（通常 10%–15%）的前提下，将 DSAM 寿命用于高精度宏观四极形变定量裁决；阻止本领系统误差直接线性传递为 B(E2) 与 Qt 的全局标度漂移。",
+            "在重离子熔合蒸发反应中提取超短皮秒能级寿命时（tau < 0.2 ps），严禁使用未经前序态符合门（Gate-from-above）排除的包络时间谱；未识别的侧馈延迟（tau_feed ~ 0.1 ps）可将表观寿命虚假放大 2–4 倍，人为伪造出“高自旋四极集体性塌缩”的假象。",
+            "在反冲距离活塞法（RDDS）寿命提取中，必须采用微分衰变曲线法（DDCM）消除对总衰变曲线端点归一化与活塞绝对接触零点（delta_x0）的依赖，严禁在未扣除前序喂居分支前直接按单指数斜率解算能级寿命。"
+        ]
+    }
+
+    out_path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/dsam-stopping-feeding-audit-030.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(audit_data, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 030 audit artifact: {out_path}")
+
+if __name__ == "__main__":
+    run_audit()

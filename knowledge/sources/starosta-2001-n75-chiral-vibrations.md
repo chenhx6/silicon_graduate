@@ -183,3 +183,20 @@ P0: none identified.
 ## Non-source Notes and Follow-up
 
 Next corpus source: Hecht 2003 `140Eu`. Preserve the distinction between Starosta's N=75 island/systematics and later single-nucleus evidence, and continue checking whether “chiral vibration” is calculated or only inferred from partner displacement.
+
+## Day21 checkpoint054：134Pr原始手征主张与数据血缘审计
+
+在冻结前置回忆后，重新核对Starosta等2001年PRL 86, 971全文4页及Table I、Fig. 2、Fig. 3。原文BibTeX为`starosta_2001_ChiralDoublet`，本地raw文件SHA-256匹配为`9082C1E8CED3FBFEB2248F5B18C1B646F4DC1ADC77AF5C27C6A988855583CBF4`。原ST01-1至12、review_status与needs_review保持。以下为本检查点补充的定向审计声明：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST01-D21-R54-1 | Table I给出的134Pr (Z=59) 3D TAC计算结果为：ε=0.175, γ=27°, ℏω=350 keV, θ=65°, ψ=41°, 鞍点势垒Eb=30 keV, J=11.9, B(M1, 1→1)=0.80 μN², B(M1, 1→2)=0.41 μN², 10B(E2, 1→1)=2.11 (eb)², 10B(E2, 1→2)=0.13 (eb)²。该计算仅为微观均场基态与势垒，未计算量子隧穿劈裂。 | model-result | direct-original | PRL 86, 971 p. 974 Table I | true |
+| ST01-D21-R54-2 | 134Pr实验能级数据并非本文测量，而是直接引用Petrache 1996 (Ref. 3)。本文将低自旋约0.19 MeV在I=14处降为近简并（约0.04 MeV）的特征解释为手征转动岛中心，未在此核测定任何能级寿命或跃迁几率。 | source-lineage-and-data-scope | direct-original | PRL 86, 971 p. 972右栏、p. 973左栏、Fig. 3、Ref. 3 | true |
+| ST01-D21-R54-3 | 作者在结论中对稳定三轴形变证据作了明确的有条件陈述：“If the chiral doublet interpretation is correct, this would be the first direct evidence for stable triaxial shapes in nuclei”。作者保留了该解释的前提条件。 | author-hedging-and-limitation | direct-original | PRL 86, 971 p. 974 Summary | true |
+| ST01-D21-R54-4 | 本文确立了134Pr作为手征候选核的历史基准，但由于缺乏寿命与绝对矩阵元，其对手征转动的指认完全依赖能谱近简并与TAC计算，直接构成了Petrache 2006（四极矩比2.0(4)与多带交叉）反驳的历史对象。 | historical-evidence-chain | direct-and-derived | PRL 86, 971 pp. 971–974 | true |
+
+### 科学判定与学习决策
+
+- 既有理解：Starosta 2001是N=75同中子素手征振动与手征转动岛假说的提出文献。
+- 影响：limits。核定134Pr数据完全依赖Petrache 1996输入，未测定寿命；其将能级近简并等同于手征转动岛的推断，在缺乏跃迁矩阵元下是不充分的，随后被Tonev 2006与Petrache 2006严格否定。
+- 持久化：更新本source页与方法页推断阶梯Case Study 1。

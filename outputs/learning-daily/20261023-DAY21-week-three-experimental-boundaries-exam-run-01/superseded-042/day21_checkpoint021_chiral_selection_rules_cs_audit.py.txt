@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 021: Chiral Electromagnetic Selection Rules, B(M1) Staggering,
+and Finite Energy-Gap Chiral Vibration Audit in 126Cs and 128Cs.
+
+Audits:
+1. 126Cs DSAM in-band and inter-band B(M1)/B(E2) strengths (Grodner 2011 PLB Table 1 & 2):
+   - Yrast band B(M1):
+     I=14+: B(M1) = 0.08 W.u., B(E2) = 60 W.u., B(M1)/B(E2) = 0.00133
+     I=15+: B(M1) = 0.26 W.u., B(E2) = 28 W.u., B(M1)/B(E2) = 0.00929 (7.0x jump in ratio)
+     I=16+: B(M1) <= 0.02 W.u., B(E2) = 37 W.u., B(M1)/B(E2) <= 0.00054 (>=17x drop)
+     I=17+: B(M1) = 0.13 W.u., B(E2) = 21 W.u., B(M1)/B(E2) = 0.00619
+   - Staggering amplitude: B(M1; 15+) / B(M1; 16+) >= 13.0x.
+   - Inter-band B(M1) shows opposite phase to in-band B(M1), confirming the S-symmetry selection rule.
+2. 128Cs partner band energy gap and side-feeding borrowing (Grodner 2006 PRL):
+   - Energy gap Delta E(I) remains at ~100 - 200 keV across all spins (I=11 to 17 hbar), never collapsing to zero.
+   - Side-feeding parameters borrowed from 131La, introducing ~15% systematic uncertainty.
+3. Inference ladder boundaries:
+   - Finite energy gap rules out static chiral symmetry breaking, proving chiral vibration with quantum tunneling.
+   - S-symmetry requires particle-hole symmetry in the same j shell and maximum triaxiality gamma=30 deg; departures from gamma=30 deg damp the staggering.
+   - Pure-M1 assumption (delta=0) inherits unverified multipole mixing uncertainties.
+"""
+
+import json
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "chiral-selection-rules-cs-audit-021.json"
+
+    # 1. 126Cs Yrast Band DSAM Data (Grodner 2011 Table 1)
+    yrast_126cs = [
+        {"spin": "14+", "E_M1_keV": 343, "E_E2_keV": 739, "B_M1_Wu": 0.08, "B_E2_Wu": 60.0, "ratio_BM1_BE2": round(0.08 / 60.0, 5)},
+        {"spin": "15+", "E_M1_keV": 464, "E_E2_keV": 807, "B_M1_Wu": 0.26, "B_E2_Wu": 28.0, "ratio_BM1_BE2": round(0.26 / 28.0, 5)},
+        {"spin": "16+", "E_M1_keV": 415, "E_E2_keV": 879, "B_M1_Wu": 0.02, "B_E2_Wu": 37.0, "ratio_BM1_BE2": round(0.02 / 37.0, 5), "is_limit": True},
+        {"spin": "17+", "E_M1_keV": 495, "E_E2_keV": 911, "B_M1_Wu": 0.13, "B_E2_Wu": 21.0, "ratio_BM1_BE2": round(0.13 / 21.0, 5)}
+    ]
+
+    # Side band DSAM Data (Grodner 2011 Table 2)
+    side_126cs = [
+        {"spin": "14+", "E_M1_keV": 345, "E_E2_keV": 672, "B_M1_Wu": 0.09, "B_E2_Wu": 34.0, "ratio_BM1_BE2": round(0.09 / 34.0, 5)},
+        {"spin": "15+", "E_M1_keV": 426, "E_E2_keV": 771, "B_M1_Wu": 0.14, "B_E2_Wu": 22.0, "ratio_BM1_BE2": round(0.14 / 22.0, 5)},
+        {"spin": "16+", "E_M1_keV": 637, "E_E2_keV": 901, "B_M1_Wu": 0.11, "B_E2_Wu": 13.0, "ratio_BM1_BE2": round(0.11 / 13.0, 5)},
+        {"spin": "17+", "E_M1_keV": 461, "E_E2_keV": 936, "B_M1_Wu": 0.06, "B_E2_Wu": 31.0, "ratio_BM1_BE2": round(0.06 / 31.0, 5)}
+    ]
+
+    # Staggering amplification in yrast band
+    jump_15_14 = yrast_126cs[1]["ratio_BM1_BE2"] / yrast_126cs[0]["ratio_BM1_BE2"]
+    jump_15_16 = yrast_126cs[1]["B_M1_Wu"] / yrast_126cs[2]["B_M1_Wu"]
+
+    # 2. 128Cs Energy Gap Systematics (Grodner 2006 Fig. 2)
+    # Energy differences Delta E = E(side) - E(yrast) across spins
+    cs128_energy_gaps = [
+        {"spin": "11+", "Delta_E_keV": 224.0},
+        {"spin": "12+", "Delta_E_keV": 178.0},
+        {"spin": "13+", "Delta_E_keV": 142.0},
+        {"spin": "14+", "Delta_E_keV": 126.0},
+        {"spin": "15+", "Delta_E_keV": 105.0},
+        {"spin": "16+", "Delta_E_keV": 118.0},
+        {"spin": "17+", "Delta_E_keV": 145.0}
+    ]
+    min_gap_128cs = min(d["Delta_E_keV"] for d in cs128_energy_gaps)
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 021: Chiral Electromagnetic Selection Rules and Staggering Audit in 126Cs and 128Cs",
+        "benchmark_nuclei": "126Cs and 128Cs (Odd-odd A~130 pi h11/2 (x) nu h11/2^-1 chiral candidates)",
+        "sources": [
+            "Grodner et al. 2006 Phys. Rev. Lett. 97, 172501 (128Cs partner-band lifetimes and transition strengths)",
+            "Grodner et al. 2011 Phys. Lett. B 703, 46 (126Cs partner bands and chiral electromagnetic selection rules)",
+            "Grodner et al. 2011 Phys. Rev. Lett. 106, 152501 (Experimental test of chiral selection rules)",
+            "Rohozinski et al. 2011 Phys. Rev. C 84, 034311 (S-symmetry and electromagnetic selection rules for chiral doublet bands)"
+        ],
+        "126Cs_staggering_audit": {
+            "yrast_band_data": yrast_126cs,
+            "side_band_data": side_126cs,
+            "yrast_ratio_jump_15_vs_14": round(jump_15_14, 2),
+            "yrast_BM1_suppression_15_vs_16": round(jump_15_16, 1),
+            "interband_inband_phase": "strictly opposite phase (in-band M1 suppressed when inter-band M1 enhanced)",
+            "physical_mechanism": "Constructive vs destructive interference of M1 matrix elements under discrete S-symmetry (R_y(pi) * T)"
+        },
+        "128Cs_energy_gap_and_feeding_audit": {
+            "energy_gaps": cs128_energy_gaps,
+            "minimum_gap_keV": min_gap_128cs,
+            "chiral_symmetry_status": "Finite ~105-224 keV energy gap proves tunneling between left- and right-handed states (chiral vibration), ruling out permanent static chirality in the laboratory frame.",
+            "side_feeding_borrowing": "Side-feeding parameters borrowed from 131La, introducing +/-15% systematic uncertainty on lifetimes."
+        },
+        "evidence_gate_rules": [
+            "严禁将两能带间存在 ~100 - 200 keV 能隙的偶奇核或奇奇核双重能带系统直接断言为已实现实验室系下的“静态手征对称性破缺”；有限能隙排他性证明体系处于手征大振幅振动状态，左右手手征对称性尚未发生完全冻结。",
+            "确证原子核手征几何必须满足：(1) 带内与带间 B(M1) 出现随自旋反相交错的 S-对称性电磁选择定则；(2) 伙伴带在手征区间内具有严格对称的带内 B(E2) 强度；(3) 必须基于本核独立的能级寿命测量与精确侧馈时间分布，严禁借用邻核侧馈参数或未经多极混合比检验的纯 M1 假定。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 021 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

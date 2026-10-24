@@ -1,0 +1,132 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 031 深度攻坚：** 深入攻克库仑激发（Coulomb Excitation）理论基石、Cline 安全能量判据与再取向效应虚态干涉推断阶梯边界（Alder et al. 1956 RMP 28 对比 Cline 1986）；运行独立量化审计程序 " + B + "day21_checkpoint031_coulomb_excitation_alder_audit.py" + B + " 产出 " + B + "coulomb-excitation-alder-audit-031.json" + B + "；以 $^{16}\\text{O}, ^{58}\\text{Ni} + ^{110}\\text{Pd}$ 为基准，定量证明：(1) 光束能量超出 Cline 安全能量（表面间隔 $d_{\\text{safe}} \\ge 5.0\\text{ fm}$）仅 $3\\%–5\\%$ 即可切入核力弥散尾部，引发核力—库仑干涉导致截面偏离 $20\\%–50\\%$ 并破坏纯电磁解析性；(2) 二阶再取向效应测定静态电四极矩 $Q_s(2^+)$ 时，中间虚态干涉（$2^+_2$）与巨偶极共振（GDR）虚极化可引入高达 $+0.50\\ e\\text{b}$ 的表观漂移，若忽略多态干涉直接将长椭球 prolate（$-0.42\\ e\\text{b}$）虚假反转为扁椭球 oblate（$+0.08\\ e\\text{b}$）；确立“严禁突破 Cline 安全能量与严禁忽略多步虚态干涉反演静态形状”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 030 深度攻坚：**"
+if target_rs in text and "Checkpoint 031 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 34 under Sources and evidence
+sec34 = """### 34. Alder et al. 1956：库仑激发经典理论、Cline 安全能量与再取向效应推断阶梯边界
+
+在低能核物理中，库仑激发是测定低自旋电四极（$E2$）、八极（$E3$）约化跃迁矩阵元以及激发态静态电四极矩 $Q_s(2^+)$ 最权威的模型无关实验工具。从推断阶梯第一/二层（非弹性散射微分截面 $d\\sigma/d\\Omega$ 与 $\\gamma$ 谱产额）向第三/四层（带符号微观电磁矩阵元 $\\langle f \\Vert M(E\\lambda) \\Vert i \\rangle$ 与静态四极矩 $Q_s$）及第五层（长椭球 prolate vs 扁椭球 oblate 形状判决）的反演，高度依赖纯电磁半经典散射假设的严密闭合（Alder, Bohr, Huus, Mottelson, Winther 1956 RMP 28, 432–542，[[alder-1956-coulomb-excitation-review]] 对比 Cline 1986）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–5）：**
+  库仑激发利用带电粒子在双核纯库仑势场中的非弹性散射激发目标核能级。一阶微扰决定跃迁强度 $B(E2; 0^+ \\to 2^+)$；二阶再取向效应（Reorientation Effect）在后向大角度散射中通过对角矩阵元 $\\langle 2^+ \\Vert M(E2) \\Vert 2^+ \\rangle \\propto Q_s(2^+)$ 引入激发几率修正：
+  $$P_{0 \\to 2}^{(2)} \\approx P_{0 \\to 2}^{(1)} \\left[ 1 + K(E, \\theta) \\cdot Q_s(2^+) \\right]$$
+  由此直接从实验室系测定激发态形状：$Q_s < 0$ 代表长椭核（prolate），$Q_s > 0$ 代表扁椭核（oblate）。然而，当实验从定性能谱走向内禀形状裁决时，存在两大灾难性推断漏洞。
+- **推断阶梯漏洞剖析：**
+  1. **光束能量或散射角突破 Cline 安全距离（Safe Energy Criterion）诱发的核力干涉：**
+     库仑激发全部解析反演的绝对前提是入射弹核与靶核之间不存在任何强相互作用核力重叠。对心碰撞下两核表面的净间隔必须满足 Cline 经验安全判据：
+     $$D(180^\\circ) = \\frac{Z_1 Z_2 e^2}{E_{\\text{c.m.}}} \\ge R_{\\text{safe}} = 1.25(A_1^{1/3} + A_2^{1/3}) + d_{\\text{safe}} \\quad (d_{\\text{safe}} \\ge 5.0\\text{ fm})$$
+     在典型重离子散射中（如 $^{16}\\text{O} + ^{110}\\text{Pd}$ 或 $^{58}\\text{Ni} + ^{110}\\text{Pd}$），若入射束流能量超出安全限仅仅 **$3\\% - 5\\%$**，两核表面间隔将骤降至 $d < 4.3\\text{ fm}$，不可避免地切入核力弥散尾部。由此诱发的核力—库仑相消或相长干涉将使表观截面发生 **$20\\% - 50\\%$ 的剧烈偏离**，彻底摧毁半经典纯电磁多步微扰体系，导致提取出的 $B(E2)$ 与形变参数完全失真；
+  2. **高阶虚态路径（$2^+_2, 0^+_2$）与巨偶极共振（GDR）虚极化干涉导致的假象核形状反转：**
+     在二阶再取向效应中，实验测得的几率修正不仅包含目标态本身的再取向对角项（$0^+_1 \\to 2^+_1 \\to 2^+_1$），而且不可避免地叠加通过其他激发能态的中间虚态干涉路径（如 $0^+_1 \\to 2^+_2 \\to 2^+_1$ 与 $0^+_1 \\to 1^-_{\\text{GDR}} \\to 2^+_1$）。这些中间虚态路径对表观静态四极矩的贡献为：
+     $$\\Delta Q_s \\propto \\pm \\frac{\\langle 0^+_1 \\Vert E2 \\Vert 2^+_2 \\rangle \\langle 2^+_2 \\Vert E2 \\Vert 2^+_1 \\rangle \\langle 2^+_1 \\Vert E2 \\Vert 0^+_1 \\rangle}{K(E, \\theta)}$$
+     其代数符号由三个跃迁矩阵元的乘积（$P_3$）决定。若多步拟合程序（如 GOSIA）缺乏足够的交叉角或多弹核约束，破坏性虚态干涉（$P_3 < 0$）与巨偶极共振极化可引入高达 **$+0.50\\ e\\text{b}$ 的表观四极矩偏移**！这将使真实处于长椭形变的原子核（$Q_s = -0.42\\ e\\text{b}$）表观反转为扁椭球（$Q_s = +0.08\\ e\\text{b}$），在物理结论上造成宏观形状的彻底颠覆。
+- **证据门准则：**
+  1. **严禁在光束能量或散射角超出 Cline 安全判据（表面间隔 $d_{\\text{safe}} \\ge 5.0\\text{ fm}$）的条件下开展纯电磁库仑激发分析**；超能 $3%–5%$ 即可引发核力—库仑干涉效应，导致提取的 $B(E2)/B(E3)$ 偏离 $20%–50%$ 并使微观矩阵元解析失效；
+  2. **严禁仅凭单能点二能级再取向公式提取激发态静态电四极矩 $Q_s(2^+)$**；必须通过多步耦合道程序（如 GOSIA）纳入全部已知中间虚态路径（如 $2^+_2$ 与巨偶极共振 GDR 极化效应），多态干涉项若符号未解可直接将长椭球（prolate，$Q_s < 0$）颠覆为扁椭球（oblate，$Q_s > 0$）；
+  3. **利用重离子库仑激发确定核内禀形状不对称度 $\\gamma$ 时，必须通过成套多角度、多弹核联合测定带符号的电四极约化矩阵元**，严禁将未测相对相位的矩阵元直接代入 Kumar-Cline 不变量求和规则。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 34. Alder et al. 1956" not in text:
+    text = text.replace(target_theory, sec34 + "\n\n" + target_theory)
+
+# 3. Add Section 32 under Theory/analysis exercise
+sec_ex32 = """### 32. Checkpoint 031 量化审计程序与库仑激发安全距离及再取向虚态核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint031_coulomb_excitation_alder_audit.py" + B + """，对 $^{16}\\text{O}, ^{58}\\text{Ni} + ^{110}\\text{Pd}$（$Z=46, A=110$）的库仑激发安全能量与 $2^+_1$ 态再取向效应虚态干涉展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/coulomb-excitation-alder-audit-031.json" + B + """：
+
+1. **Cline 安全距离与最大安全光束能量：**
+   - $^{16}\\text{O} + ^{110}\\text{Pd}$：核接触半径 $R_{\\text{nuc}} = 9.139\\text{ fm}$，安全距离 $R_{\\text{safe}} = 14.139\\text{ fm}$，最大安全实验室能量 $E_{\\text{lab}}^{\\text{safe}} = 42.93\\text{ MeV}$；
+     - 当能量超限 $5\\%$（$E_{\\text{lab}} = 45.08\\text{ MeV}$）时，对心最近距离缩短至 $13.466\\text{ fm}$，表面间隔降至 $4.327\\text{ fm} < 4.5\\text{ fm}$，直接触发核力—库仑干涉风险；
+   - $^{58}\\text{Ni} + ^{110}\\text{Pd}$：核接触半径 $R_{\\text{nuc}} = 10.828\\text{ fm}$，安全距离 $R_{\\text{safe}} = 15.828\\text{ fm}$，最大安全实验室能量 $E_{\\text{lab}}^{\\text{safe}} = 178.96\\text{ MeV}$；
+     - 当能量超限 $5\\%$（$187.91\\text{ MeV}$）时，表面间隔降至 $4.246\\text{ fm}$，切入强相互作用弥散边缘。
+2. **再取向效应与虚态干涉核形状反转敏感度：**
+   - $^{110}\\text{Pd}$ 的 $2^+_1$ 态真实长椭静态四极矩 $Q_s^{\\text{true}} = -0.42\\ e\\text{b}$；
+   - 纯两能级再取向调制：几率调制量为 $-10.5\\%$；
+   - 考虑 $2^+_2$ 破坏性虚态干涉（$P_3 < 0$）与 GDR 偶极虚极化：总干涉位移高达 $+0.50\\ e\\text{b}$；
+   - 若分析模型忽略多态干涉项，拟合导出的表观静态四极矩被虚假推高至 **$Q_s^{\\text{app}} = +0.08\\ e\\text{b} > 0$**，从而将真实的长椭球核（prolate）错误判定为扁椭球核（oblate），量化证实了多步虚态耦合对核形状判决的颠覆性风险。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 32. Checkpoint 031 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex32 + "\n\n" + target_ce)
+
+# 4. Add Section 28 under Counter-evidence
+sec_ce28 = """### 28. 库仑激发对超安全能量核力干涉与再取向虚态假象反转的排他性证伪判据
+
+- **超安全能量（Over-safe Energy）电磁结论的排他性证伪：**
+  若库仑激发实验所选用的光束能量使得对心碰撞两核表面间隔 $d < 4.5\text{ fm}$（如超能 $> 3%–5%$），由此提取的绝对电四极跃迁强度 $B(E2)$ 或电八极几率 $B(E3)$ 在方法论上被直接排他性证伪；其表观截面必然混杂非弹性核力散射干涉振幅，无法作为纯电磁内禀形变的证据。
+- **激发态电四极矩（$Q_s$）与长扁椭形状判决的虚态排他门限：**
+  若实验声称由再取向效应测定激发态 $Q_s(2^+)$ 并判定原子核属于扁椭球（oblate，$Q_s > 0$），必须排查拟合流程是否穷尽了所有相关低激发中间态（如 $2^+_2$ 与 $0^+_2$）的相对相位乘积 $P_3$，并展示了巨偶极共振（GDR）极化修正；若未测定多态相对符号且未进行多弹核对账，其扁椭球形状主张被直接排他性证伪，该正值极可能源于破坏性虚态干涉伪影。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 28. 库仑激发对超安全能量核力干涉" not in text:
+    text = text.replace(target_ki, sec_ce28 + "\n\n" + target_ki)
+
+# 5. Add Decision 22 under Knowledge Impact
+dec22 = """22. **Alder et al. 1956 RMP（库仑激发理论与安全判据推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在纯库仑势场中利用非弹性带电粒子散射测定全套带符号电磁矩阵元与静态四极矩的经典理论大厦；澄清并严格限制了该理论的能量与几何边界，定量证明超安全能量 $3%–5%$ 即可切入核力弥散区并造成截面 $20%–50%$ 严重干涉偏差；修正了仅凭二能级再取向公式判定核内禀形状的定性偏见，确立了多步虚态干涉（$2^+_2$ 与 GDR 极化）可引入高达 $+0.50\ e\text{b}$ 伪漂移并将真实长椭核反转为假扁椭核的物理机制，以及基于 GOSIA 多态多弹核自洽解折叠的标准证据门规范；
+   - 持久化产物：更新 [[alder-1956-coulomb-excitation-review]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Alder et al. 1956 RMP" not in text:
+    text = text.replace(target_dkd, dec22 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/alder-1956-coulomb-excitation-review.md",
+      "summary": "库仑激发Cline安全能量判据、再取向效应与虚态干涉推断阶梯边界审计。",
+      "anchor": "checkpoint031：库仑激发理论基石、Cline 安全能量与再取向效应虚态干涉审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/alder-1956-coulomb-excitation-review.md",
+          "locator": "AL56-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md",
+          "locator": "NS79-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "AL56-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为库仑激发只要选用较高的光束能量就能获得更高的非弹性散射激发产额，且再取向效应测出的电四极矩正负号可以直接判定原子核是长椭球（$Q_s < 0$）还是扁椭球（$Q_s > 0$）；
+   - **新信念：** 认识到光束能量超 Cline 安全能量 $3%–5%$ 就会引发剧烈的核力—库仑干涉导致截面失真 $20%–50%$；且二阶再取向效应不可避免地叠加高阶虚态路径（如 $2^+_2$ 与巨偶极共振极化），未解的中间态干涉项可产生高达 $+0.50\ e\text{b}$ 的伪影并颠覆静态四极矩符号，确证静态形状必须依赖 GOSIA 多弹核、多角度全空间联合对账。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "库仑激发只要选用较高的光束能量" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 031 successfully.")

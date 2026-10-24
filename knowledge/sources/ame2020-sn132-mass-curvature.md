@@ -39,6 +39,8 @@ tags: [ame2020, tin, barium, n82, n75, shell-closure, mass-curvature, odd-even-s
 
 # AME2020: Sn shell curvature and Ba odd-even mass staggering
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 The official AME2020 files `mass_1.mas20.txt` and `rct1.mas20.txt` are served at the [IAEA Atomic Mass Data Center](https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt) and [reaction/separation-energy table](https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt). Their headers date the unrounded files to 3 March 2021; `mass_1` contains atomic masses and `rct1` contains separation energies. Both headers state that `#` marks estimated (non-experimental) values and cite Wang et al., *Chinese Physics C* **45**, 030003 (2021), DOI `10.1088/1674-1137/abddaf`.
@@ -76,6 +78,7 @@ The AME2020 `mass_1` mass-excess rows and matching `rct1` two-neutron separation
 | AME20-131BA-1 | `131Ba` (`Z=56`, `N=75`) mass excess is `−86678.958 ± 0.415 keV`; the AME `O` field is `-n` and its meaning is not assigned here. | evaluated-mass | direct | `mass_1.mas20.txt`, line 1674, `131Ba` mass-excess, uncertainty and `O` columns | true |
 | AME20-132BA-1 | `132Ba` (`Z=56`, `N=76`) mass excess is `−88434.903 ± 1.053 keV`. | evaluated-mass | direct | `mass_1.mas20.txt`, line 1691, `132Ba` mass-excess and uncertainty columns | true |
 | AME20-ODD3-BA-1 | Defining the positive odd-neutron three-point indicator as `δ₃,n^odd(56,75)=[2ME(131Ba)−ME(130Ba)−ME(132Ba)]/2` gives `1166.8815 keV`; propagating the three tabulated errors as uncorrelated gives `0.6856 keV`. | derived-mass-indicator | derived | Derived here from `AME20-130BA-1`, `AME20-131BA-1` and `AME20-132BA-1` | true |
+| AME20-D21-1 | **superseded（checkpoint042）**：脚本的 0.65 MeV 重排修正与 140 keV 平滑曲率均为任设输入，无来源支持；5.60 MeV 真能隙、12%污染及净化对隙撤回。差分算术和其零协方差误差须另核，不能由两个不同差分之差唯一分解配对与曲率，也无普适25%–35%偏差。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
 
 The `131Ba` qualifier is retained without interpretation. These three masses are entries in one least-squares evaluation, not three measurements performed by the AME authors. The propagated `0.6856 keV` is conditional on zero covariance; the published table does not provide the fitted-mass covariance. This ground-state mass-staggering indicator contains smooth mass-surface contributions and is not a direct measurement of the high-spin pairing gap or a band-crossing energy.
 
@@ -96,3 +99,7 @@ The derived `δ₂n` is a mass-curvature indicator across the neutron shell clos
 - [[a130-shell-gap-orbital-observable]]
 - [[131ba]]
 - [[shell-effects-and-deformation]]
+
+## Day 21 checkpoint037 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/ame2020-sn132-mass-curvature.txt。其科学认证撤回：脚本的 0.65 MeV 重排修正与 140 keV 平滑曲率均为任设输入，无来源支持；5.60 MeV 真能隙、12%污染及净化对隙撤回。差分算术和其零协方差误差须另核，不能由两个不同差分之差唯一分解配对与曲率，也无普适25%–35%偏差。

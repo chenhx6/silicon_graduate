@@ -1,0 +1,134 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 029 深度攻坚：** 深入攻克康普顿散射线偏振（Linear Polarimetry）分析能力 $Q(E)$ 有限几何衰减与坐标轴符号反转推断阶梯边界（Bizzeti et al. 2015 EPJ A 51）；运行独立量化审计程序 " + B + "day21_checkpoint029_polarization_analyzing_power_audit.py" + B + " 产出 " + B + "polarization-analyzing-power-audit-029.json" + B + "；精确核定 AGATA 三叶草阵列实测 $Q_{\\text{exp}}$（$^{108}\\text{Pd}$ 433.9 keV 为 $0.451(34)$，$^{104}\\text{Pd}$ 555.8 keV 为 $0.484(24)$）相比点状理想 Klein-Nishina 预测发生 $24.2\\%–37.3\\%$ 的几何立体角衰减；揭示参考轴定义反转（束流—反应平面内 vs 法向轴）将直接导致实测不对称度 $A$ 改变符号，将磁偶极（$M1, P < 0$）误判为电四极（$E2, P > 0$）并挑选角分布大模解（重现 $^{135}\\text{Pr}$ 横向摇摆误判机制）；定量证实 $2\\%–5\\%$ 的仪器效率不对称度足以彻底逆转弱偏振（$|P| < 0.15$）符号；确立“严禁使用点状 Klein-Nishina 公式替代真实探测器几何校准与严禁忽略非偏振源效率归一化”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 028 深度攻坚：**"
+if target_rs in text and "Checkpoint 029 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 32 under Sources and evidence
+sec32 = """### 32. Bizzeti et al. 2015：AGATA 康普顿偏振仪分析能力 Q(E)、参考系符号反转与仪器不对称度推断阶梯边界
+
+在现代多分段锗阵列（如 AGATA、GRETA、EUROBALL Clover）的在束 $\\gamma$ 谱学中，康普顿散射线偏振测量是打破角分布与 DCO 比值中电偶极/磁偶极（$E1/M1$）及电四极/磁四极（$E2/M2$）宇称简并的最高判决性手段。从推断阶梯第一/二层（垂直与平行散射计数 $N_\\perp, N_\\parallel$ 与方位角不对称度 $A_{\\text{raw}}$）向第三层（线偏振度 $P$ 与多极混合比大/小模解锁定）的反演，是高自旋物理中极易受仪器分析能力衰减与坐标轴符号定义颠覆的关键技术边界（Bizzeti et al. 2015 EPJ A 51, 49，[[bizzeti-2015-agata-triple-cluster-polarimetry]]）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3）：**
+  实验通过散射计数不对称度提取辐射偏振度：
+  $$A_{\\text{raw}} = \\frac{N_\\perp - a_{\\text{inst}} N_\\parallel}{N_\\perp + a_{\\text{inst}} N_\\parallel} = Q(E_\\gamma) \\cdot P$$
+  其中 $Q(E_\\gamma)$ 为探测器的分析能力（Polarization Sensitivity），$a_{\\text{inst}}$ 为探测器垂直与水平散射通道的固有仪器效率比。当成功测定带符号的 $P$ 时，正值（$P > 0$）标志着电性跃迁（$E1$ 或 $E2$ 主导），负值（$P < 0$）标志着磁性跃迁（$M1$ 或 $M2$ 主导）。然而，从原始方位计数到确定物理偏振度之间存在三大系统性推断陷阱。
+- **推断阶梯漏洞剖析：**
+  1. **点状 Klein-Nishina 公式直接套用诱发的分析能力高估（有限几何衰减）：**
+     点状理想散射元在 $90^\\circ$ 康普顿散射角下的理论 Klein-Nishina 分析能力为：
+     $$Q_0 = \\frac{1}{\\frac{1}{1+\\alpha} + (1+\\alpha) - 1} \\quad (\\alpha = E_\\gamma / m_e c^2)$$
+     在 $400 - 600\\text{ keV}$ 能量区间，$Q_0$ 高达 $0.64 - 0.72$。然而，在真实分段探测器（如 AGATA 三叶草晶体）中，分段晶体的有限体积、近距离立体角张角以及多重散射导致散射角宽展（$\\theta_c \\in [60^\\circ, 120^\\circ]$）和方位角积分衰减（$\\text{sinc}(\\Delta \\phi)$）。Bizzeti 等实测表明，在 $^{108}\\text{Pd}$（$433.9\\text{ keV}$）与 $^{104}\\text{Pd}$（$555.8\\text{ keV}$）库仑激发中，真实有效分析能力仅为 $Q_{\\text{exp}} = 0.451(34)$ 与 $0.484(24)$，几何衰减因子达 **$24\\% - 37\\%$**！若脱离真实探测器蒙特卡洛与库仑激发基准校准，盲目套用点状理论 $Q_0$，将系统性低估辐射偏振度 $30\\% - 40\\%$；
+  2. **坐标系参考轴定义混乱诱发的宇称彻底反转（Sign Flipping Disaster）：**
+     偏振度的定义强烈依赖于电矢量参考轴的选择：是在束流—光子反应平面内，还是在垂直于反应平面的法向轴上（如 Suffert 1959 与 Bizzeti 2015 之间的定义差异）。参考轴定义的置换或数据处理中 $N_\\perp$ 与 $N_\\parallel$ 的顺序对调，将直接导致不对称度 $A$ 的代数符号发生**完全反转（$A \\to -A$）**！这将使真实的磁偶极跃迁（$M1$，$P < 0$）被虚假误判为电性跃迁（$E2$，$P > 0$），进而错误挑选角分布大模解——这正是 $^{135}\\text{Pr}$ 横向摇摆假说统治十余年后被 Lv 2022 证伪的历史核心教训之一；
+  3. **未校准仪器效率不对称度（$a_{\\text{inst}}$）湮灭弱偏振信号：**
+     由于晶体几何形状、接触电极封装或电子学阈值微小差异，探测器垂直与水平散射通道的固有探测效率常存在 $2\\% - 5\\%$ 的不平衡（$a_{\\text{inst}} = 0.95 - 1.05$）。对于弱偏振跃迁（如 $|P| \\le 0.10$），未校准的 $a_{\\text{inst}}$ 将在表观不对称度中引入高达 $\\Delta A \\approx \\pm 0.025$ 的伪影，足以将微弱的真实负不对称度推为正值，制造完全虚假的宇称翻转。必须通过非偏振基准放射源（如 $^{137}\\text{Cs}$ $661.7\\text{ keV}$）进行精确的逐道效率归一化。
+- **证据门准则：**
+  1. **严禁在未经过实验刻度的点状 Klein-Nishina 公式直接作为复合锗探测器阵列的分析能力（$Q(E)$）**；探测器有限几何立体角沉积将导致真实分析能力发生 $20\\%–40\\%$ 的严重几何衰减（$f_{\\text{geom}} \\sim 0.6–0.8$）；
+  2. **严禁在未严格标定坐标系几何零点（束流—反冲反应平面 vs 法向参考轴）的前提下报告偏振度符号**；参考轴定义反转直接导致不对称度 $A$ 改变符号，将磁偶极（$M1$）跃迁人为误判为电四极（$E2$）集体跃迁；
+  3. **确证弱偏振辐射多极性（$|P| < 0.15$）必须通过非偏振基准源（如 $^{137}\\text{Cs}$ 或长寿命中间态级联）消除探测器晶面固有方位角几何不对称度 $a_{\\text{inst}}$**；未校准的 $2\\%–5\\%$ 探测器效率不对称足以完全逆转弱偏振不对称度符号，造成宇称指认的彻底颠覆。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 32. Bizzeti et al. 2015" not in text:
+    text = text.replace(target_theory, sec32 + "\n\n" + target_theory)
+
+# 3. Add Section 30 under Theory/analysis exercise
+sec_ex30 = """### 30. Checkpoint 029 量化审计程序与偏振分析能力有限几何衰减核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint029_polarization_analyzing_power_audit.py" + B + """，对 AGATA 三叶草阵列在 $^{104,108}\\text{Pd}$ 与 $^{137}\\text{Cs}$ 偏振基准中的分析能力与仪器不对称度展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/polarization-analyzing-power-audit-029.json" + B + """：
+
+1. **理想点状 Klein-Nishina 与真实 AGATA 分析能力衰减：**
+   - $^{108}\\text{Pd}$（$433.9\\text{ keV}$）：点状理想 $Q_0 = 0.7195$，实测 $Q_{\\text{exp}} = 0.451(34)$，几何立体角衰减达 **$37.3\\%$（$f_{\\text{geom}} = 0.627$）**；
+   - $^{104}\\text{Pd}$（$555.8\\text{ keV}$）：点状理想 $Q_0 = 0.6383$，实测 $Q_{\\text{exp}} = 0.484(24)$，几何立体角衰减达 **$24.2\\%$（$f_{\\text{geom}} = 0.758$）**；
+   - $^{137}\\text{Cs}$（$661.7\\text{ keV}$）：点状理想 $Q_0 = 0.5778$，实测 $Q_{\\text{exp}} = 0.465(20)$，衰减达 $19.5\\%$；
+   - 证明脱离真实探测器几何蒙特卡洛与实验库仑激发标定，直接使用理论点状公式会导致偏振度被系统性高估或混合比产生严重偏差。
+2. **坐标系参考轴置换与宇称伪反转模拟：**
+   - 真实物理态（如 $^{135}\\text{Pr}$ 的 $\\delta = -0.37$，$M1$ 主导，真实偏振度 $P = -0.12$）；
+   - 在法向与平面坐标轴置换下，表观不对称度从负值 $A = -0.0581$ 严格翻转为正值 $A_{\\text{flipped}} = +0.0581$；
+   - 若直接以此选解，将反推得出 $P = +0.12 > 0$（电性跃迁），从而错误挑选大模解 $\\delta = -1.54$（$E2$ 占比 $70\\%$），在数学上完美复现了横向摇摆争议的历史推断漏洞。
+3. **仪器不对称度 $a_{\\text{inst}}$ 影响阈值：**
+   - 当探测器存在 $5\\%$ 固有几何不平衡（$a_{\\text{inst}} = 0.95$ 或 $1.05$）时，诱导的偏振度偏差达 $\\Delta P = \\pm 0.053$；
+   - 对于弱偏振跃迁（$|P| \\le 0.10$），该未校准偏差足以彻底湮灭真实物理不对称度。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 30. Checkpoint 029 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex30 + "\n\n" + target_ce)
+
+# 4. Add Section 26 under Counter-evidence
+sec_ce26 = """### 26. 康普顿散射偏振度对参考轴符号颠倒与仪器效率不平衡的排他性证伪判据
+
+- **线偏振度符号与电磁性质判定的排他性排查：**
+  若实验声称由线偏振测量排他锁定了电四极（$E2$）或磁偶极（$M1$）多极性质，必须排查分析流程中对坐标系方位角零点（反应平面 vs 法向参考轴）的数学定义；若未展示与已知纯极性参考跃迁（如 $2^+ \\to 0^+$ 纯 $E2$ 库仑激发线）的符号一致性校验，其偏振度符号主张被直接排他性证伪。
+- **探测器固有几何方位不对称度校准的必要检验：**
+  在弱偏振跃迁测量中（表观不对称度 $|A| \\le 0.05$），若未展示利用非偏振同质异能素或放射源（如 $^{137}\\text{Cs}$ $661.7\\text{ keV}$）进行两正交晶面效率平衡比 $a_{\\text{inst}}$ 的独立刻度，其偏振主张缺乏排他性，存在因 $2\\% - 5\\%$ 仪器效率畸变导致的伪宇称翻转。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 26. 康普顿散射偏振度对参考轴符号颠倒" not in text:
+    text = text.replace(target_ki, sec_ce26 + "\n\n" + target_ki)
+
+# 5. Add Decision 20 under Knowledge Impact
+dec20 = """20. **Bizzeti et al. 2015 EPJ A（康普顿散射线偏振与分析能力校准边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在多分段锗阵列中利用康普顿散射方位不对称度直接测量 $\\gamma$ 跃迁线偏振度的实验方法；澄清并严格限制了点状 Klein-Nishina 公式的有效性，定量证明 AGATA 复合晶体有限几何效应导致分析能力 $Q(E)$ 发生 $24\\% - 37\\%$ 的严重几何衰减；修正了脱离坐标轴合同直接讨论偏振度符号的模糊做法，揭示了参考轴置换或正交通道颠倒可导致表观不对称度改变符号、将真实 $M1$ 跃迁误判为 $E2$ 集体跃迁的物理漏洞；
+   - 持久化产物：更新 [[bizzeti-2015-agata-triple-cluster-polarimetry]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Bizzeti et al. 2015 EPJ A" not in text:
+    text = text.replace(target_dkd, dec20 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+      "summary": "AGATA线偏振分析能力有限几何衰减、坐标轴符号反转与仪器不对称度审计。",
+      "anchor": "checkpoint029：AGATA 线偏振分析能力 Q(E) 有限几何衰减与坐标轴符号反转审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
+          "locator": "BIZ15-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "BIZ15-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要康普顿偏振仪测出不对称度 $A > 0$，就必然对应电性跃迁（$E1$ 或 $E2$），测出 $A < 0$ 必然对应磁性跃迁（$M1$）；
+   - **新信念：** 认识到不对称度的符号严格取决于参考轴定义（反应平面 vs 法向轴）与探测器方位取向；定义颠倒会使实测不对称度直接反号，将真实 $M1$ 跃迁伪造为 $E2$ 跃迁；且复合分段阵列有限几何立体角使分析能力发生 $25% - 37%$ 衰减，必须通过非偏振基准源（如 $^{137}\\text{Cs}$）严格归一化。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "康普顿偏振仪测出不对称度" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 029 successfully.")

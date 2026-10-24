@@ -29,6 +29,8 @@ tags: [lifetime, DSAM, RDM, Doppler-shift, review, nuclear-structure-method]
 
 # The measurement of the lifetimes of excited nuclear states
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - P. J. Nolan and J. F. Sharpey-Schafer, *Reports on Progress in Physics* **42**, 1–87 (1979).
@@ -254,3 +256,9 @@ Knowledge Impact and Learning Decision：limits将55°当成消除全部角分�
 | NS79-D19-29 | 用signed dE/dx<0时yield从E0积分到Emin；用S=−dE/dx>0时反向积分，两者均正。自设sigma=.002E² barn、E0/Emin=10/5MeV、S=2MeV/(mg/cm²)给scaled积分.2916667 barn·mg/cm²；混用正S与下降积分限会误出负yield。未含N/rho、branch、角与eff，非原实验yield。 | signed-stopping-convention | task-derived | PDF65 Eq6.2–6.3; indirect-observable-result-093.json | true |
 | NS79-D19-30 | 在已除spin/flux/geometry/source-line等响应的理想NRF合同下，scattering q=Gamma0²/Gamma=b0²Gamma；仅q不能定总tau。自设q1meV、b0=.2/.5/1给tau26.3285/164.5530/658.2120fs而q相同。若另有selfabsorption r=Gamma0=4meV，则Gamma=r²/q=16meV、b0=q/r=.25、tau41.13825fs。数字均合成，不是某核测量。 | width-identifiability-and-companion | direct-review-and-task-derived | PDF70–71 Eqs6.14–6.15; indirect-observable-result-093.json | true |
 | NS79-D19-31 | 上述组合ln tau=ln hbar+ln q−2ln r，一阶variance包含−4Cov(lnq,lnr)。自设10%/5%边际误差且rho=−1/0/+1给相对sigma20%/14.142%/0；零是同源误差精确抵消的极端控制，不是实际precision。缺fullCov不能把两个observable自动当独立。 | companion-covariance-boundary | task-derived | NS79-D19-30; indirect-observable-result-093.json | true |
+
+## checkpoint030：DSAM 阻止本领系统尺度、侧馈延迟与 RDDS 活塞零点推断阶梯边界审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| NS79-D21-1 | 依据 Nolan & Sharpey-Schafer 1979 综述对 DSAM 与 RDDS 寿命推断阶梯展开系统性量化审计证明：(1) 宏观电子/核阻止本领 dE/dx 的 10%–15% 理论模型不确定度（如 LSS 对比 Northcliffe-Schilling/SRIM）直接线性映射为提取寿命 tau 的 10%–15% 全局标度漂移，进而诱导 B(E2) 与内禀四极矩 Qt 的 7.5%–15% 系统性尺度误差；(2) 重离子熔合蒸发反应中未识别的侧馈延迟（tau_feed ~ 0.1 ps）可使短寿命高自旋态（tau < 0.1 ps）表观寿命虚假膨胀达 200%，人为伪造出 66.7% 的 B(E2) 假象塌缩；确证微观寿命必须使用上方符合门（Gate-from-above）；(3) RDDS 中 2–5 um 的活塞机械接触零点误差引入 0.33–0.83 ps 初始失真，必须依靠微分衰变曲线法（DDCM）消除对端点与零点的绝对依赖。 | lifetime-dsam-rdds-inference-boundary | direct-original-and-quantitative-audit | pp.1–87 Sec.2, Sec.3, Table 1, Table 7; dsam-stopping-feeding-audit-030.json | true |

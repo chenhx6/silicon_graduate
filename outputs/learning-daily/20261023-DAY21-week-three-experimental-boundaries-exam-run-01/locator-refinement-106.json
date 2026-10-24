@@ -1,0 +1,6 @@
+{
+  "claim": "BU14-D21-R106-5",
+  "change": "restrict this atomic row to the printed5 Conclusions; the below5% author estimate remains explicitly on printed2 in the source body",
+  "next_full_tree_check": "107 (or next checkpoint) must cover this one-line refinement",
+  "previous_check": "required-checks-106-recheck.json"
+}

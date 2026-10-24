@@ -1,0 +1,51 @@
+{
+  "at_utc": "2026-10-24T04:08:19.996460+00:00",
+  "record": {
+    "url": "https://scholar.sun.ac.za/handle/10019.1/12355",
+    "purpose": "institutional landing-page metadata only",
+    "status": 200,
+    "final_url": "https://scholar.sun.ac.za/handle/10019.1/12355",
+    "title": "Chirality in odd-A nucleus 135Nd in particle rotor model",
+    "bytes": 407397,
+    "sha256": "2e51267cc772db9ad13780901eea4c871c8695b0399943ce8fd04f2bbc1e1d3a",
+    "metadata": [
+      {
+        "name": "citation_title",
+        "content": "Chirality in odd-A nucleus 135Nd in particle rotor model"
+      },
+      {
+        "name": "citation_author",
+        "content": "Qi B."
+      },
+      {
+        "name": "citation_author",
+        "content": "Zhang S.Q."
+      },
+      {
+        "name": "citation_author",
+        "content": "Meng J."
+      },
+      {
+        "name": "citation_author",
+        "content": "Wang S.Y."
+      },
+      {
+        "name": "citation_author",
+        "content": "Frauendorf S."
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2009"
+      },
+      {
+        "name": "citation_issn",
+        "content": "3702693"
+      },
+      {
+        "name": "citation_abstract_html_url",
+        "content": "http://hdl.handle.net/10019.1/12355"
+      }
+    ],
+    "public_links": []
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "observed_at_utc": "2026-10-24T05:56:27.958546+00:00",
+  "reason": "Normalized trailing whitespace in run-owned text artifacts to ensure git diff --cached --check cleanliness; no token stream or JSON data altered.",
+  "repaired_files_count": 196,
+  "repaired_files": {
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ame2020-mass-curvature-audit-037.json": {
+      "sha256_before": "58a4d58b09bbdab05a85df5cdd09bff7103c642f83970e37493cfc2c5d9108ca",
+      "sha256_after": "3725b8b94b1f72d1037d4170c61e22eb564f6f64eae47f8f261c5b10bb2cc16c"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/antimagnetic-rotation-audit-012.json": {
+      "sha256_before": "2e5e82a863e19fca28b888aa913629e5382766d1c9832d863e815cf2ae3e445a",
+      "sha256_after": "bdefb7ef93f607f1f7a83c5f5f0109afeb6a336e1e9421c0b7c815b393657b64"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ba129-wobbling-reanalysis-audit-038.json": {
+      "sha256_before": "96da8b977a4a108926dc991782f8c6a08fe7e0507b73e8a0b51c189f803d847c",
+      "sha256_after": "bfae82947b8bf50fdbb323b8250bf3f41c805e93f4b70f565ffb7bb6ff27cffc"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/baker-cousins-poisson-audit-027.json": {
+      "sha256_before": "693d3e474232594ea9dcd3133729fc1a83f27d92cadb9d40fd4f9bdd39973398",
+      "sha256_after": "a29e605af33b58e92d520cc93e52cdad976e2bfc154c1d47422329b3538fcfa5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/band-termination-audit-017.json": {
+      "sha256_before": "99bc69bc9b034e4a04f3a887c941476cffe59fc2287a3f7d2417074d1b8f92ad",
+      "sha256_after": "d84ac2ebd5b211e3ddb170fc4ecf8729a024c5a3faa69f4543b77454833ba05c"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-077.json": {
+      "sha256_before": "fcd3b73e9a6125d132284bd94e303b6175be64c7bd509e61b35e79e401246dc1",
+      "sha256_after": "8c462be54d6a593718f8619efa53bb68ea54a82e06d76e4e4626c5296e739e2b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-078.json": {
+      "sha256_before": "9339f6212d98ed8f63f365e0f443594aed402390af30b51b8fd6b9c0d2f1376d",
+      "sha256_after": "63d4c97807ed83fee45f4ca2a2947325c19af544950cbe192127d1d38b0210ae"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-079.json": {
+      "sha256_before": "353c86460760526e6c4e89e867987ed9cab005bf1627afc3e23a8633fee6c1a1",
+      "sha256_after": "5f2080b9e8fd05d279d1a85ff4e995c7cd45365f252cefa93ae4bfad8328abfe"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-080.json": {
+      "sha256_before": "0072efaa9e88b8201cdf31062d85cac67a28101b2f6b1fcfe28c9e3281c227df",
+      "sha256_after": "e50cd2a6d0ac7c3086be5776b5e29f7da17f681b01b15bdd54e517ffbf453d90"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-081.json": {
+      "sha256_before": "301ffcf5c21555f57c75c9e93d08571c84d1750a8237bf53724053636486fb80",
+      "sha256_after": "e42d7bfc2d7484124ed0a1748fb07feb46555e50338403f4cbfabb983429bd4c"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-082.json": {
+      "sha256_before": "dce00cf18cec503551accc8a075c8c63be3e8bcafb287b90996cc8e7fa54a6c0",
+      "sha256_after": "4a822b5a03d072d7fa2a7c4cc029042fe39841068d91000202f813a58121a669"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-083.json": {
+      "sha256_before": "7dc282f49ec92d3bf0f4d92ad6b3ba8d7552ce449ebe201eaf9a4c5e633d0052",
+      "sha256_after": "0b17155e76d57fcb29bb4cf5343fbe9b153672bba6b51343daee70d9cabc543e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-084.json": {
+      "sha256_before": "a007f63944d336ece35fb93128b2b943ef7a06fa66c5da4292c6e4771eafc39e",
+      "sha256_after": "ef40e6d5baf3c3a38e32aead08f269870bc4b999102bfaaedde6c305934a76d4"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-085.json": {
+      "sha256_before": "59e60f2b7409d2aeca4a7219240c3b6e6eabea8b5d843669a18ccd6f7d6d1be1",
+      "sha256_after": "49c53e6f4f0084f65eaf80694163f4880e828a992152f7ff1f7e9a3e72c99602"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-086.json": {
+      "sha256_before": "ca8bc5cd95792f51a4c9835e1ad85df04232e8f57d284415c06c681433d6293f",
+      "sha256_after": "b45c7e1a5dfd5b72b7d3818658d94ba9424d722e017eaa31cca3589ffee0cbca"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-087.json": {
+      "sha256_before": "b805d6e4a3d01a018c8f237cfa68a2e8a6670b392744d5891482636414eebc87",
+      "sha256_after": "1cc8f53aeb0d67fc3e0f7839210579c07a702e4b3be4037cabe4c7feab430484"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-088.json": {
+      "sha256_before": "00d95a5ce75e5ee475658fe2556cdb14be452e8eabe89f6142ce85d6521caf01",
+      "sha256_after": "5e386aebdf87c0e8489c29071e06a9a41e4f06e29cb6730c6f49d3fb0c266b92"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-089.json": {
+      "sha256_before": "99a70b5f2e29c837173f96867b8484f5288766a6387174b20f1647317770f8e9",
+      "sha256_after": "3246db01bb8b4a9409dcc2f4a1c9784cb1c334318a59c6af232e5f08ed71257f"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-090.json": {
+      "sha256_before": "f8f17b88216bb7c829bcbe2fc5d1881bf8c09507be053c16c07c4ade16e91595",
+      "sha256_after": "e8bbec68a53bb99bb8bbf4e2e858eec286db9c74a9328ed692bcb11ef6076534"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-091.json": {
+      "sha256_before": "01c7aca6920264a27ac524edac13bc4961db69fab58f9f529ba7e18ada888082",
+      "sha256_after": "9c9c5cc264aacb80c8bb588f0e244f8391cfdffdd0ec7c80c7b7a023b8b6c4c5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-092.json": {
+      "sha256_before": "f2bd6763e129b90044bab8537bb46c3d1380836e3b9919cb916f09357d1151e5",
+      "sha256_after": "8fe37011979ab9c19ed9c22018459750922f2abadea0ed581a4ea555cfd6180e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-093.json": {
+      "sha256_before": "4726a2b4aff2632baf24dc1e9338f999159557828c95bd41414f52ae43e654cd",
+      "sha256_after": "b5936194ba0276633955e0ef43c58fe470ac4d8570a3e396eec3ac1ccfac8617"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-094.json": {
+      "sha256_before": "e78ece263b387683474d54e6953ded251467b0da6cbbcc26909ff5910d6b0891",
+      "sha256_after": "7f59fc88cd68eda87fc4d23ebc936d211c078be29e778db90c23546e4d8f4f41"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-095.json": {
+      "sha256_before": "c667415756835670594af92cb9d2ccb9ac3c6bc72793360c1ec01868ba4031ef",
+      "sha256_after": "a152e5a4afe962be6120271f1984e2d7b4d41d6a6238782c36d86e179ddfc702"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-096.json": {
+      "sha256_before": "380231d08053f5950c7b4e28fb31dee1ca864842e7cbb2d0e1d99d91dbc6fc6f",
+      "sha256_after": "dcb27964bbb35fe2e372b1097697894289c3ff5db5d2fc916192f0fe24c3816f"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-097.json": {
+      "sha256_before": "60824c280d76e5a03229e0f96101c6f2eb2e8ba8def53494753f07a13fe0fe8d",
+      "sha256_after": "cbd8e5acd0860a6622c5950648e65612667eb1f578a49e628054c695df7e5ce6"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-098.json": {
+      "sha256_before": "7ccdceedc4da86984b97196caa4196bbe87353f6e7a998231c7a3059bddc516c",
+      "sha256_after": "ad80ebb893652cf8e0dcdde95b32f9bf764afc2fea4a3da29d47b1ed69de8fd9"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-100.json": {
+      "sha256_before": "8987d2739810949322873cd5d956562a2e2dc495c0560217e315d19e1e8a6265",
+      "sha256_after": "06b8bcb3aef94e2438583dd0edac6068a5cc4564496140660243931e8abd62b6"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/checkpoint-101.json": {
+      "sha256_before": "78a09ecd76d32d6fb64ffbf079390cbf2c3c041617b26d7b9cc15f91ddb0de6b",
+      "sha256_after": "c64c7f5fc48aaf91d38baa327437a569a605e3d00467fd21764892bce55f7bcc"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/chiral-parity-quartet-audit-018.json": {
+      "sha256_before": "6bac640184dbd23ae85ad8d2ffd60f130b87b483a0abbc41009a7a4813dea40a",
+      "sha256_after": "b2c6de11e58087a8e80b963034473d477ff7d48d839d715a1a4a0fdb70a1dac8"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/chiral-selection-rules-cs-audit-021.json": {
+      "sha256_before": "331ddb042ce5903301fe6bcb23649c869570d04258114167c6fac23e1b96dffd",
+      "sha256_after": "6635dd99b7eb79db991eadfbc8c4d558b848cb66771a3e4da5f0168e6ffdc6e2"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/clock-checkpoint-004-observation.json": {
+      "sha256_before": "f3c8055c509aa64acfa0eab7b499ac9f14300b32815b4341a573e19e16d11a21",
+      "sha256_after": "90767b05fbdb5a96a50cc1b9f2f34085d93443dc7be2d138052f896f5ed54248"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/clock-checkpoint-005-observation.json": {
+      "sha256_before": "60f6211a6ba186ad81c4d3b1ec90d66792e952eaf028dfbef7b2bbf294d85d7a",
+      "sha256_after": "9e34b5e79e32f8ac255cbc37ae102e0dada44ce6413db66b2e98eab5befcc851"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/clock-checkpoint-007-observation.json": {
+      "sha256_before": "49c94f8d246d2cd0c97888a9d2cdcd48e9a2be37359ec286a65cd51cf6aa2834",
+      "sha256_after": "e4ab9a7c0841a3add0be6e26050081ebe72c79c9d5f6d6db338c903f055f35df"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/clock-checkpoint-008-observation.json": {
+      "sha256_before": "89a043fdbc10d41771325ee3f946f5518691f4e8ffe5a485e7c20aba33c0c289",
+      "sha256_after": "dc656f0683009299b34d00d33ae832958397473ce37f963694a299ebcd51c8aa"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/coulex-invariants-audit-005.json": {
+      "sha256_before": "29e492ee4ca60733695102275e6184fb47b5cf72b62fa5e2394bd6ee0627193e",
+      "sha256_after": "a064a849c282ebbd1cfeaa8c3c68324b366d79157dc25a41f1c0a45fd7fd1e90"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/coulomb-excitation-alder-audit-031.json": {
+      "sha256_before": "9e76473826f40e1345039c658233fa454d336f99c5266eb0f060cd5f51db09f4",
+      "sha256_after": "ee7d84cd98ca359fa4ff23d180e1636d1ebdf60906f4d9431d3c937c1e0ecb65"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/cross-pillar-synthesis-081.json": {
+      "sha256_before": "3bddbbbc6fa97489765546de16aa76cff60da236c4e58217129eb195ed17cf58",
+      "sha256_after": "6decd0c0c43655f746890a7f062316123b806417644d51f5cc73a432c1384d9b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/drip-line-radioactivity-audit-025.json": {
+      "sha256_before": "76383a524de33a9c96b006f2542dec578c4b34a5573f5e9739e47604bf7718f6",
+      "sha256_after": "146f483d84b33ffe6da568b3806c9be9d2b26c7cadb3d1bb47571e51f8198ee3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/dsam-stopping-feeding-audit-030.json": {
+      "sha256_before": "f943880689a75728334f1b0ebbce1c619e48d802749bbeaa1ca0ae3da6d77b7b",
+      "sha256_after": "db3c9004421bcf8525c7f8917c43aa678c89c71c1ec35e279582f06fe99bc10a"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ensdf-format-semantics-audit-033.json": {
+      "sha256_before": "eeb1e036a783b314299d89ab1d17341d378118a6b6afd3498a0c6ae9238a407e",
+      "sha256_after": "13a6fe6094d9d09fcc1733c522ab32d221da792b0c1049f878f016170e20939c"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/fast-timing-gcd-audit-026.json": {
+      "sha256_before": "7ffde5d4a633e14b06c86c319e6fd2ac4f18bbf63eca51bc4d752ce7a2b6057b",
+      "sha256_after": "33a0e8cae1273604de238b118f21d0e930d81f05f9f5d05fbdf52299f4dbdfbd"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/fe58-stopping-coulex-audit-040.json": {
+      "sha256_before": "47ec5aa7413960b92c8d7a53f259a2954ffd25586d3494a8f62fe91712fcb72a",
+      "sha256_after": "9481fcce8a10cbc790039cb91270f563ea1c6e3ef9885d0636aeaf63cfe471c1"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/gamma-staggering-s4-audit-020.json": {
+      "sha256_before": "a2e90a9470650aac8a2d843cadb3b5238f170f304f5d5612723cca82181ddaf7",
+      "sha256_after": "47da440ae0e1713f1b2f3126bf950b5f72634d7ca8eee1ff4d48a04527b523d3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ibfm-low-spin-wobbling-audit-024.json": {
+      "sha256_before": "7f460f41e38895ae3a9d18cc43926600e6322bfba9de71533e554374f337c23f",
+      "sha256_after": "dd4b3f3e3e969b323db9fdf684de8a7145b2d4ae9968e00cb5e4b0b8dfd728b6"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/internal-conversion-bricc-audit-028.json": {
+      "sha256_before": "1f85a60b7459bc785c4c79d80b1d771a69e7719ede8c09d8de6336a883fcce1b",
+      "sha256_after": "91fad185bbd102bc08cbfb88700204b259145d0e30c546cc095924ccd5cc4dac"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/k-isomer-hindrance-audit-016.json": {
+      "sha256_before": "8cd4013e89e76d453c87a7762ec3de3ed9bdfa953142a8862d7a4dcefaec220d",
+      "sha256_after": "9d6b23664c011609dea399ec37ee15316b289fa007a5dc6e7a4686dc0017d44d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/la133-longitudinal-wobbling-audit-041.json": {
+      "sha256_before": "99fd3cf04cdf32130945a14dd00358302e3f312112c97605e9365108289e8696",
+      "sha256_after": "e9031aeb20214ce13ecc31d84b8da0682cea13cd92b75f5259a1a6d3251829d5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/longitudinal-wobbling-187au-audit-019.json": {
+      "sha256_before": "72010ff1afcac51bbcd835dfc8582e07e8225537453cb2ba5f28b751375eec88",
+      "sha256_after": "3499fcb04da315175bddd1eada9babd704ea1c43a06d5ecaa6f115093fb95e27"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lu163-wobbling-phonon-audit-023.json": {
+      "sha256_before": "df2d6f4910b58193e0e4c23b6967a73a61ae3f679e846e767437fa83ceb59968",
+      "sha256_after": "d89f11e49b97235ccf1c947540195ca4969a7afb56da7daac44bfef118f1a8ed"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/magnetic-rotation-shears-audit-008.json": {
+      "sha256_before": "1e0e324fabdce59be9a72ec9245a5da433381e5ef49bd16b4910f289a1b1b2b2",
+      "sha256_after": "807c61253a01f45cc1ea7f99fdf43cca38e94d577f705be9d663da3732aae945"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/mchd-ce133-audit-004.json": {
+      "sha256_before": "60b8e2e445408c76fc0f97b26105e470cc0e8256fa7c856731339df9a974c88c",
+      "sha256_after": "3816a57d8026c1abb5fe285439a6f98ea2c1994c9db3f23df8f4212074f36a64"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-128.md": {
+      "sha256_before": "687222826186d0c8ed7b1bb5191e0650633444c2dc2729eb1c5d62a3a5222d9e",
+      "sha256_after": "36a3f46a012831382863abb6dff2534920ae48e6c3d62740dce3066ad5fc4fac"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-129.md": {
+      "sha256_before": "be7616fbedc768d3e6daff02f840d716370cabcbb141caa2014617afa917ed10",
+      "sha256_after": "45f010273a96aa00968f966ffa942e3b84c13c8e4a9ca33de5b86d0f84841332"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-130.md": {
+      "sha256_before": "a82f2cbda3096e181bb6124eb4f58b59234fef5c356ad35016cb95b165eb65f6",
+      "sha256_after": "875f88d945e8944aae6d7ab5db3390f223107ad9e129da1d0a638c5f150b1003"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-131.md": {
+      "sha256_before": "ceb8afb7d946145db13628bfcd5eeb3d251ea1c01ac303dc4db98231d2bd9e48",
+      "sha256_after": "d979526a33b7a3af491f4462c2419f8031ca6c07098b1bc6976bb41a136d993c"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-132.md": {
+      "sha256_before": "85dfe02e1e1eca947837d6f424f89282f0641e3c0754564e920f058ba872a721",
+      "sha256_after": "3dd6fec5b1133198d40f5300bc0d369212f92709d88f9bd70a2d89269d3f6a7d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-133.md": {
+      "sha256_before": "54eab60ee436ddaeea07382d89e8780a560fb49c844bd0830ab8e23a7e373d61",
+      "sha256_after": "9f1fb68870ca68296f1e6795512106cc29ad6d3ac41b8e57e7366af5da002b7d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-134.md": {
+      "sha256_before": "b6ed81662871e0ade661102b4492d0e6d7335c3b1d11b63cd446fec9a48f1a3b",
+      "sha256_after": "3a29a4ec456969f9027374e50ae298df3469ebb72303a10469a80a63e4268a42"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-135.md": {
+      "sha256_before": "ef77b0917577ad464d129b9d87d6d176433c6d263bc886cd3ee29c151f7c835e",
+      "sha256_after": "b705374119a25fd31efe036055d10fe9089a89573f630c095e44eed46d0daae4"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-136.md": {
+      "sha256_before": "b6e0197968b0b5ab9ca0a05b4e15b8fca034b268531cf7b1be0e708d82c03c10",
+      "sha256_after": "b75340e85588b8fd1d751a37c9cc65fa926869e5286b8eb7d200bc1f2573ed6e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-137.md": {
+      "sha256_before": "bf33047dafc74bf9f01c50bbe6795fab0590d0d952d71a741ba2b7e2face1791",
+      "sha256_after": "570cd49212ef5627a5769fb115fb5a81e87096b94645a5720d56cf64ac896327"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-138.md": {
+      "sha256_before": "a2fd9893ab7ab60cbaa5d5656e6cf793b09036435bd2b44b4d5960a7e38ea3db",
+      "sha256_after": "570fb8a80ef9cf70f3d6506badbebabdcd73b0eca8f5589b80e2aebb6acc0c68"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-139.md": {
+      "sha256_before": "6811726c4dc08b41ea6db15220b9d8b55db8178619a61f39dfa07325e6a651c9",
+      "sha256_after": "3c0ec4356ab497762219534837776c5e5a3e03636cc9b95ee730362c6dc23086"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-140.md": {
+      "sha256_before": "cdca5d74675d94bb38d69cd6df6f34d6eec355fec7f14c5bb0f586ab9ffc382a",
+      "sha256_after": "10c97a52c72e9ef8f71a00d822085945d401ed0c1b2ebd43f7430a4f4090cbbc"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-141.md": {
+      "sha256_before": "9e5c0ed600d2817bdb86df97a939cd40c9d49cef8c80597f3502a41cd24199aa",
+      "sha256_after": "3b5c02a6bc28ee6a59f4079e20f76726ff553620f93fe242e0eb8943183935ce"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-142.md": {
+      "sha256_before": "c0ec1007aa571d82dce3dcf3283cd6dc0bf78644a8338c3d0a3373d396e6a9d0",
+      "sha256_after": "a64196302f254d6d9f2b33436781aecbb0dcc8c551692a36ce67e931a1ddce28"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-143.md": {
+      "sha256_before": "33f4fb1843aa41810236263c4c8766d816993e4b93ef05e42391c172a81c79aa",
+      "sha256_after": "f375cd492e061d021930a35327eb6bb8b8fa022b6caecac46b48bdd468bbedce"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-144.md": {
+      "sha256_before": "7b5943cdc883bcacd27cc6f9171d9e6211d28440309860c6cf5efe39f1e84c5c",
+      "sha256_after": "07fade6509dd764e31f6429fb11500d58d7dcc088af46ec7c2952f7c8775943d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-145.md": {
+      "sha256_before": "983790fb7fc9f8f1b472e466276626f31bab73b63f28387ad856fdf9c424303d",
+      "sha256_after": "fcc1e9243fef4b4e7c4235d85945fec75275b591a5428ef2b85546b141dcef20"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-146.md": {
+      "sha256_before": "98e029316cae8038b36829b7ab7556484d31bdecd19deafba82cf7a6b34d7c63",
+      "sha256_after": "b8033a33f3ad44eefe92bb2e5df64499f5e133caf557b80b0b593f62e232556b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-147.md": {
+      "sha256_before": "24fb4825d4750e2f3c9e84105fe92953abf02f3da8140167d37470760d01ea8d",
+      "sha256_after": "d12b8632de2fcfc128c766cda612b1f08ada5bc23616b3c2a2ba99a1e0b1c915"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-148.md": {
+      "sha256_before": "96836f3370907846dd71f093cb8e102659d870db3b8391c7e401105e295fb919",
+      "sha256_after": "d8240179728128cdf2776669ed98a20393256638d765b7fc5822d72483ef2177"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-149.md": {
+      "sha256_before": "d950390e20977e18751c90e9cfb8bf2ee45f0bb19ec66c09784ef236bc436f76",
+      "sha256_after": "b94bab93590a709a9691983d01e6716bd35a2f30ad34f2f4cafc9c845e6ed3cc"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/next-continuation-150.md": {
+      "sha256_before": "2b6bf8d470dca39f8a11b811ff6dd22a4f45b490c671d4267fd341a02e5ddd02",
+      "sha256_after": "309b67ac04ce412677bc272de20fc3a1475ff64ba011899c6179c1d8bc884682"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/nist-constants-046.txt": {
+      "sha256_before": "77fb90e66c40db3e6eb16630bc9c88e4c7c8beddbe5e71be406f2f26e3f67e67",
+      "sha256_after": "6640cea703261eb691fd9c61d421791c6ed585fd5b1b4eb15dc9380e69804889"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/octupole-ba-audit-006.json": {
+      "sha256_before": "c50c217656345454fb3eed97a3e5e68cecf85ef677d13fc1baa51ee70692ddd0",
+      "sha256_after": "b888d59f46a6592b3510b501ae6e61b8d8a075659b367ff0c8890550abff78af"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/octupole-reflection-asymmetry-audit-036.json": {
+      "sha256_before": "5941f5fb3cd5fed3413383147082e467c8eea61faaaa4bdd7d4744ea5151c1f0",
+      "sha256_after": "6ec2e781ab0bc4b517fad6e11bb0d5a97822b593c36c9627a6ff43ebed221f36"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/phase-conventions-deorientation-audit-032.json": {
+      "sha256_before": "9347e84c97c9cba970b96abddaa29f3ffec4631544cd8d44b1cf3470cd462995",
+      "sha256_after": "ae2fa9cd5fcd25bbcc87ed370ccce2fdd18b63a9dcf480b254059cfc2a0f12e9"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/polarization-analyzing-power-audit-029.json": {
+      "sha256_before": "7f3e534a3564467990069a2241c53d5b999d3ff3b011846807c6037709c8fd9b",
+      "sha256_after": "545f90930ab6d6e509f0399dfe66187e2e26bb7b93850166a7726d170269f09d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/primed-recall-frozen-044.md": {
+      "sha256_before": "f14c755166c0fff8c5f2845851ce61be363683f6fb687c66e2ecae382d5c3552",
+      "sha256_after": "4b03bd21ace310cf79e5800322f790fed560221f003702024b278d32f7dafeba"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/pseudospin-chiral-131ba-audit-007.json": {
+      "sha256_before": "3ee90c83375a31aed748160376dc7f5b94158d94bdba553715faf109d81540ac",
+      "sha256_after": "380fd633a335902d5cced1fe8dd49f6142db8306472943a6c8c700bdf8b12f71"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/radioactive-sn-coulex-audit-039.json": {
+      "sha256_before": "d574ef2cf3b0a9d7f4b643e9a31306e939ef718f97ca9cf9da3bb540e92c0000",
+      "sha256_after": "3f2f9a01d7831453e9f4aaa65c58ecfb0345c3c3dd3b39006799a3f20b39cf1e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-077.json": {
+      "sha256_before": "2d36770cb7f4be0abf35a216d138faae20d05817ed5fb0d2b6a34e751aa471b9",
+      "sha256_after": "9264eb96699457b4d331bc1a2198064b2e0af52f2306e4a23113a65323a8ad32"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-078.json": {
+      "sha256_before": "9ff4c469528abd7954572f7ebd35c1486078387bc1957e3cde3856d47b49a8bc",
+      "sha256_after": "32863cf63180fc2ad3f05a63871119467e89b7a4796922652f52fd6fcfeba677"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-079.json": {
+      "sha256_before": "aadbf6da29f1dc5d6697349389eb71a2dcc646e4d36b5cd3a76221ed3bf66a7c",
+      "sha256_after": "0cda0ff89a2b8da1a5f7a036071b16f410288d094d885febc11b8718878d1c4a"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-080.json": {
+      "sha256_before": "f9275f06fb71f12a7ff094a9cc66161c2364ab82d3aabdb293373900d876ad51",
+      "sha256_after": "8a68a93b3a91987f201fe4f9910786b427d81d6165a6de5cdc10a1fa6bc2ee21"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-081.json": {
+      "sha256_before": "3e096d686b07ebf940739e5e56b29965f581ff5bc7105d1582c14675063f54b9",
+      "sha256_after": "fc3e1c5b2f2d29ecab703680339d4dc913d6f40ed4f55a17d8cadaad5819525a"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-082.json": {
+      "sha256_before": "0119da03db7c4449d6d00fbdee2c172d86b697f5800dbdef3137f9497b3b56c5",
+      "sha256_after": "da0699849cf2f00e415abd962ba36f92b6a4490cfd0b04d03d9f174a77da7be3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-083.json": {
+      "sha256_before": "3ff80204075a22a712c38b6820c7898d785899e22fb6e35e749e024d25f47fe3",
+      "sha256_after": "bdd236d0e474a45727d0c54e537528914ce3ab8322731702b86d27c3dac996f3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-084.json": {
+      "sha256_before": "92a600818910be49bb7746ade97b88412027237831b96943a219d26aed33e7e5",
+      "sha256_after": "1be1e0d4210660c99bea5b3edf1a38e07776a93c9ba07b7b31d0cd1914bc3f22"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-085.json": {
+      "sha256_before": "c0a27b80ee2080925b8a19f4ca6d74f22e87b5a4089cc53299fade7a3b6ef08c",
+      "sha256_after": "94cc974e76d8b8c02d205085e7393a3b10729e0bc2d57476eedae456bc5bcec0"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-086.json": {
+      "sha256_before": "e3799ff5f7e69b6d508be4a6337736a629a7b231fb2811dd47c27b46c386ea6c",
+      "sha256_after": "e60d95f4703c12adfc3586b5a44ac149a862d98aa531649e7b3a2370eea71818"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-087.json": {
+      "sha256_before": "651fdbe94b3f7b91434563663c356f1de41bf7eb63a6aa9b34586bedb056ee87",
+      "sha256_after": "d20d38e9df039177ca4f0a88c73f3fc0594287bd08d1600138c51fcd0d1d9482"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-088.json": {
+      "sha256_before": "69b66784d3e6efc46235e0e6b4e9501883467057cf330c333eac2bf58ebafbb0",
+      "sha256_after": "2befb49bcb9e5c961a9e7ef482b0a553cdec72f1e0231373856ad0258be9b8d5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-089.json": {
+      "sha256_before": "4a7d9caeab09120b815e7ea16ea8b7f30064518a1dd22f08cfd8f8111b695bea",
+      "sha256_after": "f3d9476cb45534532f5b28ab4c8c51413b069c1454a40f7688b0c04ff169b6ba"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-090.json": {
+      "sha256_before": "77671387c3a36b8050d55a838a5a1395858440d846c4765f0f8f9f7dc082ffda",
+      "sha256_after": "0ff00ffb7c4c94efc922adcaa7538651849355c10a99ab3962c9238855345cf3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-091.json": {
+      "sha256_before": "a9944209261bf77abee9350937af6faa6f31081e61c4a08dcb6af42d5891bc39",
+      "sha256_after": "1fabf1899c0b953c1a8e8be38c6b3383c5cb999b08dba1f74f315398ac96dbac"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-092.json": {
+      "sha256_before": "39cc92d977d076b9380298f1bd4789a678bca5fe3d814abee0330487b975cf66",
+      "sha256_after": "d66d2223c6b0e0c90772f57aa6edd945a511b4a80693df0644ddf32fbad967f6"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-093.json": {
+      "sha256_before": "270d136e815ebcbb11ff5ca727f8834ce4824964fda9234e0ac92e734ddded0e",
+      "sha256_after": "1ec5d662494427b05a747aed23290a96d959209645566a53730696d5a7d2b79b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-094.json": {
+      "sha256_before": "38b5a5cc705b7a2db3826292b11a4eabcd6313d9f403b986173fa8d9fe1e8b3f",
+      "sha256_after": "04237e791f1e8f1f1373cfdeabf05cd6878ff356571d31b8e658afc56bb34b5e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-095.json": {
+      "sha256_before": "029eaa64597b69d67b3e5b024a36a5c8284e7d535cdbf02eddf1bbd4fb1efc0b",
+      "sha256_after": "5837a99e15b0b7d5db23e68c9332a40749c743c672e5f6e9042c8a872ac17682"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-096.json": {
+      "sha256_before": "5890faffa14b2b55020001c70524429362611c6f31128fdc922bc33817c4a60e",
+      "sha256_after": "62773562733996feea8960e9b8e4656158d9b3b10d5dddf407c6d18b1835d0f3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-097.json": {
+      "sha256_before": "51a1183f4d68e973dadad0843d9f70efed49471598b4bc1494e21d227b6f634e",
+      "sha256_after": "f793a59695055d632284c5c8d4465137a5df53d709c8c5e6bdac19b66f940fec"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-098.json": {
+      "sha256_before": "f6c424798160c5db1aee302f5e758c089cfdf830ed465616090b9463a2a5af38",
+      "sha256_after": "bc2fa4d366f978a55747acc6cd792e72ec09c9a50e7d954a65d0e2e8bfe940c7"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-100.json": {
+      "sha256_before": "8be2f6cdf404060056a60de1fdf54e1ff0a2680e6904df10f508ff74d9e1bce9",
+      "sha256_after": "82144f8b9e762bf47d52aa52f7210d1504863a0703de08d93a89ee4c299e4704"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/required-checks-101.json": {
+      "sha256_before": "35413aba5c82bf18dae87f0b7186c70c39c88406dc3a7aaf180e2806a94e09bd",
+      "sha256_after": "b8e7f113f77c617ed17f6b3668926d9dc81c62e72acb50d678de9b9dbd97ec47"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/rn220-ra224-octupole-audit-022.json": {
+      "sha256_before": "fb6c15c546bae70572b33d42b9d4361c90e5decf50ece2b3b28e0a8c6c145c31",
+      "sha256_after": "6d5d0165c8e011e2c886cf11166a14fae920f1ff816dc2b6b972cfb1e0f8d76a"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/shape-coexistence-e0-audit-009.json": {
+      "sha256_before": "ebfd1dabcedd6d5d48b6c10decde028dfcc50aae87d37074a3ddbae53d1ae6c0",
+      "sha256_after": "fe4d9ef27f8da4001a1a7c7260f327d3f8245aeb039b6358b8378df75acab30b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/signature-inversion-audit-013.json": {
+      "sha256_before": "3762f0abc377ef54b6173e206866c9fe139ba949ffb977865f645df2ab10fba5",
+      "sha256_after": "5b4213af88669475da1dc9c75f8f6ca04796c6a757853a98c629bb072a8e4f4f"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn100-gamow-teller-audit-011.json": {
+      "sha256_before": "d492dc4798ef36e54cd9f715cf4d46998a70b2b6ad252a54eeeba3fdb3b4a3e2",
+      "sha256_after": "5a38cc53c8ba41262974a5d2873c628c59fa0a904f06e44e89b89fa2494ea572"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn100-gt-phase-space-audit-078.json": {
+      "sha256_before": "3ac473806b146d24799aad113fe791d44c5e6b791635479fd999a85f0c5600b5",
+      "sha256_after": "f70c2836167e7e909f755fdf4534fe2e66178cfe431d7080bee53272eecc133d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn131-hole-transfer-audit-035.json": {
+      "sha256_before": "8e00daaf118ad647bd09ac11a8c503257150f9e542b98ceb58461bac0a334d42",
+      "sha256_after": "6a383134c5b87602542b911c3ad6bb8e9feab3185b13916f4f255dcab7bb29ce"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/spin-orbit-chiral-audit-002.json": {
+      "sha256_before": "10d55153f5a7becff71425315ea6768479a0e1f31dd868573ec9b6ea5f568cb5",
+      "sha256_after": "bdfaee29a616c33c9470887d868d6005ec5bbb90dda9949a81916cd877bf3173"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/stderr.log": {
+      "sha256_before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256_after": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superdeformation-tsd-audit-010.json": {
+      "sha256_before": "ec898e7369019824242fb1723fec803459cc5427e111bb2aadf23f87eb06d483",
+      "sha256_after": "b738859cb9e9e8e131cf71814430c9635b9f86ceb502695880cf2c71f762c5c9"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/tidal-wave-audit-014.json": {
+      "sha256_before": "20d750b2cd557e31e05c883dc77ee7958b155c98ee87c19c49456acad09e2a38",
+      "sha256_after": "1e1b735d5588024c3a309f66463fff0e0d177c9e7f863fd3108ec20649b2b033"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/transfer-reaction-sn133-audit-034.json": {
+      "sha256_before": "100852c9c7f29c79bb561e44dc8e749f19b10a67fa86726dce1ddd86f3c76c51",
+      "sha256_after": "b6a38b18f255764b3b4017347ab40f8c399ea943295bb59c2aa473e87eb2491e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/two-photon-decay-audit-015.json": {
+      "sha256_before": "da7bd37a93cd828055679773b356f568fdea2c53817abd17ebacb147b3b65469",
+      "sha256_after": "92fa588a52a27a63397b8538d62d8290cf9ba7ba763cb25d3d38fa902a2c743d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/wobbling-multipolarity-audit-003.json": {
+      "sha256_before": "59b8d76b720ae88f2d2b70c3c544c5e7db519d8d357d4d23743d80081a19fd2f",
+      "sha256_after": "cd9a8797e5fb4708db43081f23f06cb5585ccf30b3a2c148761bb76af9ca51dd"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint002_spin_orbit_chiral_audit.py.txt": {
+      "sha256_before": "8a5f8eb490e9b7d6aeca718fc74dc34fc3095437c5ee0d2ae8b062aa1dbc9282",
+      "sha256_after": "8ebcf5b373c58d6eaec05c86b2ed52c3df405e9b0a6b5567cf0cd993188bf194"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint003_wobbling_multipolarity_audit.py.txt": {
+      "sha256_before": "ae858e38929eddc5bb69115d8a98925f21ce5539d73a92518351d3b26b5ee618",
+      "sha256_after": "9072e7a5fcaf4bb345f72ef4c68b3c9faa8cb18b5cbee1e7458d4779496acdac"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint004_mchd_ce133_audit.py.txt": {
+      "sha256_before": "6cd8efa75e99d1f17e75536805541ef1ec6fe8eb5b4e4a543997e42e651ce375",
+      "sha256_after": "3a63a11f2072a82cf391d16141b283407d0655749485481e914262467aa34602"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint005_coulex_invariants_audit.py.txt": {
+      "sha256_before": "20e448ff3fb4cdbad24e60f1b93075dc16155d946d0bde91ac7f29b2a7a1331d",
+      "sha256_after": "cc7a25b34e133622a91cdc257b45eae7fc728067473ffbda3e5c185627ee55e8"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint006_octupole_ba_audit.py.txt": {
+      "sha256_before": "c131722b921f1e6b8705c71e4cd51d9a6f9208c472a56737ac787857fbbf2c7d",
+      "sha256_after": "dcab7cb5147f3e42d708c27b28a955d1e732eb9e580e163a4a4b778c485a7375"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint007_pseudospin_chiral_131ba_audit.py.txt": {
+      "sha256_before": "158f26c97a7902ca7696a0484340921f19136aa8bebf7a8d03cbeed2b745f68b",
+      "sha256_after": "9665655545c5aaba957772b734032f2a29eea6bb285fb528ce2f54808c932d34"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint008_magnetic_rotation_shears_audit.py.txt": {
+      "sha256_before": "722d401f25bcb9770947d11cca722ccb4680a89eea7ebb6a7130bc2807d84577",
+      "sha256_after": "9813fcc5609c4c1ec00dbddb63e22301e8e9319c7a72102be992e873d82ece89"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint009_shape_coexistence_e0_audit.py.txt": {
+      "sha256_before": "5c7639df9a2eb8f59c9335d01080266888f84c2b6b902b7e17be7221f15c3fae",
+      "sha256_after": "4b7fbb97b25038011d3ae6c58559ffdb9c01a14795c096402ef88aeea76410c7"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint010_superdeformation_tsd_audit.py.txt": {
+      "sha256_before": "c7ce53811f1218975de88f92a5cdda1ef185948b6412a9d70993a40b5b01b24a",
+      "sha256_after": "17d2555dd042422ca1432733c34c932514c6a510ec6e2de8d35d735c5a5a261e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint011_sn100_gamow_teller_audit.py.txt": {
+      "sha256_before": "4b509bbb348de9345e93dfc0e5a53b031d645ce51a06253ddaa538fa65a5b625",
+      "sha256_after": "6fb6f4720c158b011041c50daaa9dbac5be8560de2c19853fa9e7ef270bad551"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint012_antimagnetic_rotation_audit.py.txt": {
+      "sha256_before": "9dcf2c62d98f757a1c01bb7ce5c193c1b9026a21ffbfd2f5ed16587dff24de6a",
+      "sha256_after": "e4b73a6df4cdc58503e7a8ad66312d8241a8dbedaa14d4df0a269d4ec6e10bf7"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint013_signature_inversion_audit.py.txt": {
+      "sha256_before": "55ccabbf284e014c42d3d25720ae7018366a3126b03e57bbfd7d9f32258633bf",
+      "sha256_after": "d395f10c1d67f19e5f73fce6ab81a833451bfe3a118426c5ac35eb8e4ccd1bb4"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint014_tidal_wave_audit.py.txt": {
+      "sha256_before": "a39a7772476bb201717a82076c9093e86a7c9c459b29bc1fe8320ee55e14e429",
+      "sha256_after": "9df478a3a26a4adc6a30edef620a4deff48543ab361405a436b07a1d9c2df0a9"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint015_two_photon_decay_audit.py.txt": {
+      "sha256_before": "e55b3a2f01227bcfd0e8784827b6600ba4f80b99a197956df5d50b42499c99e9",
+      "sha256_after": "35038ca13cbde228d5d2e9e5d85fd1cd2fdc3bfcaf5d5543abf1ee06713bc1e5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint016_k_isomer_hindrance_audit.py.txt": {
+      "sha256_before": "937819d502201acf405f6f7c643fbc60d23036178ef44a6b59ec45d2bb844229",
+      "sha256_after": "cda2404c0074ac202cfc4f2b758e07e329b70c42f7067455f3aa9963e01e5651"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint017_band_termination_audit.py.txt": {
+      "sha256_before": "776a5fd890cd7c760e0fe57401e202b3576281087ef86114e1a5537cc842e807",
+      "sha256_after": "705491aba7e73384255c89e49861f46d53b0af28fd205f2329f849c1268d5ab0"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint018_chiral_parity_quartet_audit.py.txt": {
+      "sha256_before": "5720794c45656dafbb87c9ec73a636e86f3c5a34ecb23e687c6a1a37e047ffa9",
+      "sha256_after": "98b932dc694dc5c10f64c391b8b69b48602818b13daa9105b902e67e18794eef"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint019_longitudinal_wobbling_187au_audit.py.txt": {
+      "sha256_before": "19902ae36f4d2a53e153b07dcbc0b31f2590f4793f960428630179701b74e0d2",
+      "sha256_after": "aaa1c96efaa74425de8c6dd793fead5e835d93266124f15b061dea84a587bd7e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint020_gamma_staggering_s4_audit.py.txt": {
+      "sha256_before": "be91a989a1894892bf9bec4eec273fd35b71cc6907d46dc34aafbc057cb0592e",
+      "sha256_after": "a5f2722100dabe30c46c116a7c368471d83f7856d656e3950d4a5eebce4d72b7"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint021_chiral_selection_rules_cs_audit.py.txt": {
+      "sha256_before": "c8681b530eca583f3cb8569ff7d652c736ac40e6fb79abb8db54837a4e6d0d99",
+      "sha256_after": "65be938696fa3664ff0e7aa916352c29ed9e5ce3a2e5e4d2b6de72e2572aa0bd"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint022_rn220_ra224_octupole_audit.py.txt": {
+      "sha256_before": "f71dcf6229b459930673c03503b9801f3381a8785e62b2377d9dfc34a572272f",
+      "sha256_after": "fc016ead6912c5403dffc5cda18c3a5ef19c00030c95b9cfe6e571df0a7e9e47"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint023_lu163_wobbling_phonon_audit.py.txt": {
+      "sha256_before": "56721a1162429a1e2bd55c84873592b8a40e05284362417580cb916e7fa0d9f7",
+      "sha256_after": "d09af1d85ae6bf7cabf69c1fb901bbaa13618d9037c4bc9d26c0188ef75a1910"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint024_ibfm_low_spin_wobbling_audit.py.txt": {
+      "sha256_before": "4b55eab3f8417529440bf16a2f07cb09d75577d827f89890d24fdf17add10b09",
+      "sha256_after": "90a3c3c9b67ad9eb6d3b2adc934d37c94902697c952145d9a460964a51126e71"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint025_drip_line_radioactivity_audit.py.txt": {
+      "sha256_before": "be2269456558e9412779f559c8a8efa034524fe2fd029a0d80fff76bfdc7c535",
+      "sha256_after": "936bd00de9f37d34d650ae65efd1fa6fa5db2689b708758b4f22f66dcf505ba9"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint026_fast_timing_gcd_audit.py.txt": {
+      "sha256_before": "6628a352dde8018423a7e071f6d81c40d19ab724d12c0a187741791b7b09ab2b",
+      "sha256_after": "f831b6ff8af93c6a4b41134693715959dbc6a04ca72e346cbec8c4a5e86bc1de"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint027_baker_cousins_poisson_audit.py.txt": {
+      "sha256_before": "cd27f4a3971b20790e24e50f1a8660c74909c4d98b6e4c06d424c80bbbf1f6b6",
+      "sha256_after": "a1e74efc23ec119db9fb416c47fc3ae6f79419fe9e650cd5d8f47e195dd51fe8"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint028_internal_conversion_bricc_audit.py.txt": {
+      "sha256_before": "4f1bb49630e039bf8b2f508e31022006098eb8cc11bcd019913cb06e9ce6ac1c",
+      "sha256_after": "a23e312055f7022e1142206a0cb6667ef00ef4e3545ffceb90d1a65d0fb75ef9"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint029_polarization_analyzing_power_audit.py.txt": {
+      "sha256_before": "b916cb7bcd2980f7e60cfb7400f03ed19f08a61ba82e2ebaef4c1ac5a18d87bb",
+      "sha256_after": "365fb20402795c163e1389c9cae2777bf3d0b0d36e03374779e71db57d65d1f3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint030_dsam_stopping_feeding_audit.py.txt": {
+      "sha256_before": "3b51d053964619fb74055add5400c8629d3413c0caaee986bb6d63f08707699d",
+      "sha256_after": "cf3f85ecc07d3d836d5d60931f086b1469efd5ce790dc3471b1ebfedc603c549"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint031_coulomb_excitation_alder_audit.py.txt": {
+      "sha256_before": "b0eefcd57514f1ec6143d7289ec8ac503e49a497011f79b0107f417d79a18cf5",
+      "sha256_after": "30ea6594e78408135dedc19aa0cc076f8ef1cf04c76daf9ddc1337e8c7afae7d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint032_phase_conventions_deorientation_audit.py.txt": {
+      "sha256_before": "a2865f295d58d42f832b07dddb6ff632a96f7b5e1929dfe62456083558549fd4",
+      "sha256_after": "1bc9b4173e5272983421e159c37bd78d8b3e76d65d77e9a5b1a0d342ec07c077"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint033_ensdf_format_semantics_audit.py.txt": {
+      "sha256_before": "a9fa0d3cfae0ac316e43e81d05f161d9fddd77e7a098657b7cfcf917aea024c4",
+      "sha256_after": "43e7ff542580456a13d9243bf35eac2e0af5fa7513ab97c9990248c3b3222e96"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint034_transfer_reaction_sn133_audit.py.txt": {
+      "sha256_before": "3346fbd2119c2623e8cf1105f2545f843e6db2c9943c61150d7ea7bfdc4cf78b",
+      "sha256_after": "be413fff937451a905487691a5a21a9d5dd6203ca505a78bb114d5a0fc034551"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint035_sn131_hole_transfer_audit.py.txt": {
+      "sha256_before": "9d5e2295bf45cbfd68280fdab109b518aedccb287906db053bdc9969c0f2c9b5",
+      "sha256_after": "7e23caf1f5ee9ab8ede3d3ed1207a7ad0b9f07e737e407ae126649b0f5acb72e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint036_octupole_reflection_asymmetry_audit.py.txt": {
+      "sha256_before": "1a03494d0574d1b6ffa5bdd7267c72c2aadeb9b11b89088eed7dd1352c7d6cda",
+      "sha256_after": "75a445fdb8892f955ceaef516c2c6fa10241a84ac14592c5a3c63757412dbb30"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint037_ame2020_mass_curvature_audit.py.txt": {
+      "sha256_before": "fba8e47514b717f80e7cf2002ff60a9838be9ddcdcb7a5a82e40a4ade6c3f390",
+      "sha256_after": "6ae194de6070c3f65db250a0dccb307307295da911bca5306b6f8d2f0baa0b34"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint038_ba129_wobbling_reanalysis_audit.py.txt": {
+      "sha256_before": "9fc557e4132a2465e10f970b2369277bf34fe3ce39446229e3b92390f2228250",
+      "sha256_after": "c6f5d65ee8f211f59760593d611b1052a49a5a1e76f234668dab7acd629d2c06"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint039_radioactive_sn_coulex_audit.py.txt": {
+      "sha256_before": "6c14f20c232e4e44745c059958927d615dad6cf4a5708bb06231af38560bfda1",
+      "sha256_after": "a8a945eb8d49cdf8d2bd1a38d67f40debf9f5524b396b960fb5099cac0a9ba3e"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint040_fe58_stopping_coulex_audit.py.txt": {
+      "sha256_before": "219ed8037288a686d63c74e9b4025f0e925563fd166eacb0b32f1b08b1884d35",
+      "sha256_after": "10bc3855788a4b54ad4a96a7951da3e179cbf1e84372384ed917f20eb201df14"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_checkpoint041_la133_longitudinal_wobbling_audit.py.txt": {
+      "sha256_before": "909fec89209a9ed1af042257bbb4664ec95b68d83adeb47249c501a2d792f3f3",
+      "sha256_after": "bf67869df7e4aba379fd759c02b4ed8625dafca75c044d93100bef3a6c9ef848"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_handoff_035.py.txt": {
+      "sha256_before": "935efc26576932dab67e504b730b2fba8065d51aac458652f28a72313f538bae",
+      "sha256_after": "9a6104abf5477f8362d728ea0b39355333f197ca00525b782ead5a3a8f2b15d1"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_handoff_036.py.txt": {
+      "sha256_before": "1e36f1fb0028e4c52ea748e26827538bdb0aa982d0c5e049cdf2fe261528e595",
+      "sha256_after": "d030cf9f766e5eae4eab113cf3d6fcb13ea3ac9a6298e085db5e59a09ab23a21"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_handoff_037.py.txt": {
+      "sha256_before": "15f9ce3840a60ee3679b387f00ccc79b33cfc8c6bf67cba7fa74e01610bf511a",
+      "sha256_after": "d5dbfdc909cfd7576b8520ad98f0d3780586b1784a73010e043dd25bc4a052fb"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_handoff_038.py.txt": {
+      "sha256_before": "1d42945ed649ae9c2262e6cc31b5dd936b46c673b94946ea6362c74af01bbbf8",
+      "sha256_after": "1a42553fba9e41b6633defbe0aeb5c3f960bac407cbc56de320b2151b5de62c3"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_handoff_039.py.txt": {
+      "sha256_before": "cb9ba075011d180f1257ac3c0dd71f09553b62f75fb83d17046ce0d553af4ca8",
+      "sha256_after": "4657e5676a054f70bfc4b779587d0f257834020338f138decb277cc7a3513c98"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_handoff_040.py.txt": {
+      "sha256_before": "f176ef65ac4786df4db4fe947cfea6544e4f4f334ab55f772d4c4ec4d0050094",
+      "sha256_after": "f7030db8aa07f133b87eb145712ce3e2c4ec01d64b5314329a80d0478415f870"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_035.py.txt": {
+      "sha256_before": "12495051c9564beb92036430a1feddc4395a9036acc5d24ba99b3403f184be1d",
+      "sha256_after": "1f38b740a5e9505c96c470f5e19fbb7ee90b11ab4d18ffb6b0a93d55747f71b2"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_036.py.txt": {
+      "sha256_before": "97a2448c45ea88d61e1e7efd4ac88a6fa4bb1ddc59fe4b19787532375aef1e0d",
+      "sha256_after": "9ce206a139935794a30ce4ae6d9e582343317d10f8db61be2049c273d68b6702"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_037.py.txt": {
+      "sha256_before": "538007d7bb3f33263bf090c12ed6ddfba1212ebc58fc624e47031cf4ce97b044",
+      "sha256_after": "c9deca00319344fb41176cfdf268a6488973c039a8c02cc1dd6414e74821abfc"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_038.py.txt": {
+      "sha256_before": "3a1dacc2f926a273351dfc37b9c6a9e3022ab93f6d570b79ed1bbbcbd7bf2f17",
+      "sha256_after": "2dc2e032133c4c8fa11c2ff4179cd73d43896c7d4515e734dbf0ac81e0bfdecd"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_039.py.txt": {
+      "sha256_before": "42b6092b87b3d71d90f94198e464a2c9404e0f8187f89fb6b4fd9783aca4bd5a",
+      "sha256_after": "bbf956304299f624e3b374dd7d365dc02fb4726320d039354692d66d5fcea339"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_040.py.txt": {
+      "sha256_before": "ed111a896728a6cf3b373a2025efa0be1aef3c24a7090a2da6f427c88768d649",
+      "sha256_after": "3d1c747ef068079489406fd4168397aa74ef8cd6581360d9f2cf6b2dbde2f3de"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_report_041.py.txt": {
+      "sha256_before": "47f3912e10cde8846fefe53828a5e37a6bea1fc5ed2e47150a7c27d3a8594155",
+      "sha256_after": "319a48ccfa6e381c76721bf9db02dd1b7400cf393a33fb63bc61d2f39253756c"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_035.py.txt": {
+      "sha256_before": "aee5f46346e01f43d5e61f176e3599a9eea58ae7241d1dcb717d681fa055b929",
+      "sha256_after": "90481e07ab7cfd0963b7c233cac0c2c5dbc757175f9e6b5ef678d4bc07f58f01"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_036.py.txt": {
+      "sha256_before": "d8ac0c7223879d73780683038294dba5dd47a8943d30dce526e0bc78c4a3d961",
+      "sha256_after": "950646614407b1ba6b2312e92a48187ef065e86234851249257c7c60ccadf9c5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_037.py.txt": {
+      "sha256_before": "043bbd2aefdf1b41effdaddf21bb4519030a587796228034a4da5fd15716d5b6",
+      "sha256_after": "88e3bd9fe8b44585ef2359206c034ecd39e7a737aea691bcc8c3a48d3f4774ca"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_038.py.txt": {
+      "sha256_before": "0b5bdef26fcdaad5c66c86fd6981e6665c3ad4c9e1a4ddc60ef7f081ec916da6",
+      "sha256_after": "e8b6f28aab8d7c6847cfff5c8ae609f8dce951c38c0d967ec143ed661ace2a55"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_039.py.txt": {
+      "sha256_before": "1fc76ea7cddf7912116c0adc5394e4c2cc32dfa9de6c59dfa6e634ebf1ae4629",
+      "sha256_after": "d56a0720b20c89a49b1c399700e912c7f622462a4c07c49494614c3243ebcac1"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_040.py.txt": {
+      "sha256_before": "183637ff0d9326f1e918cc5544a29f1d2b7929b45aa05855ad931538dc078c7e",
+      "sha256_after": "7d412f0639010daa416c2e688219f8c9e30790ff55e7755dc05f8ce4bf924bf1"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/day21_update_sources_041.py.txt": {
+      "sha256_before": "bdf2d8aa32d167b2d5e0da7a6ea720d705ea77b11eb982ef35406f004e505fb6",
+      "sha256_after": "f7430913946a5eee4c5c21ff739b73afdf1e8c2c053e8b5a678524c19e5915af"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-035.txt": {
+      "sha256_before": "cc485366c6fc3789397ec14d20bdf09e65e74a027f06e8eb89820c4e079cfc8a",
+      "sha256_after": "f464de3abfe7ceda7b6c49bf5e1eae3104ab32aa79c0a0b6555df30ae5219b54"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-036.txt": {
+      "sha256_before": "431237bccf7f98d8b44ad9018f8ffc89c933c87572613abb1ea68d7d34fa9445",
+      "sha256_after": "05bf646009875c8ad1841e6613e726e9dbbbda160fe1a31f6da2e3ad92a1c73f"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-037.txt": {
+      "sha256_before": "ba8e24010eeb4d3f8ce84b7a241518f5d3f11ef025018d37c53c330d1a74d7df",
+      "sha256_after": "01f5b1c8535e16ae8cda6335c931890cc5a5e125d9c96fe0a66ed4633e709eb2"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-038.txt": {
+      "sha256_before": "c54c3bb6da16816575fdc9a6fa089a0c1371c540c3f500b9f2be0090ca3df5c3",
+      "sha256_after": "0ea2c8eab2c5f42bdb727d8a8b9c0cfc335db0ff0f37ab6645f0492606983c05"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-039.txt": {
+      "sha256_before": "6c31327003ea2d4bfee093f8920111f720147ebc69f1c9189c84b6287ed1cd53",
+      "sha256_after": "9d5a5af9f0b69278d583e21911c493c0ef23063631801aea89a34ec778d2491b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-040.txt": {
+      "sha256_before": "ff0be25424f21291b0856be7130b39aa7e26fb2d80d7cba153b5c4627cb82dbe",
+      "sha256_after": "c6f7e27f2496ee604e5d312ea07e49df3174d843adecf28fe1c3823262a14a79"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/method-case-041.txt": {
+      "sha256_before": "f0755a9a021e127ffe1a3be97147a12d19a48897594352594d9e0c7ab028d913",
+      "sha256_after": "05cce2394101851098f71b3b570765553472d23fe89c1893aa297ff204cd9b19"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-042/report-before-042.txt": {
+      "sha256_before": "d3cf67c1c5203caafde6d44aadaa47305e191893402af22ad7a79f16f9f49754",
+      "sha256_after": "9d026f09d3af79d923a161cd088904e91c48a56dc027799afff3c5575d81afb5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-047/method-case1-before-047.txt": {
+      "sha256_before": "bc7c8f40c1632564609316f93193172eab124e4e8f2e2042e1112776796788e9",
+      "sha256_after": "54714c718040586a0a03f1c6ab4bba251b1ac5b73bc47ed4a8140d39ce50d43b"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-047/method-case5-before-047.txt": {
+      "sha256_before": "ad9fdce3b5871014c9c5a984e417827f9152064069c0586a90fda0890d118d4f",
+      "sha256_after": "7120cd1bb87bc7d1f136007144b11cc983dc35a8357f6ce90243679b58ec0586"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-099/knowledge__methods__experimental-claim-boundaries.md.txt": {
+      "sha256_before": "5880d70b24e013b18d84282cd2b868e2803c42b2faaceba03316996d0746d2f1",
+      "sha256_after": "fb4cdec6591f0509c2abdd8434bc1f29aa074ca967cdf2d8ca0f275b0580f17f"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-102/knowledge__methods__experimental-claim-boundaries.md.txt": {
+      "sha256_before": "1be4ebca46dd3ab5dcbe45df83cc0bc976ee5776797fea407127288d1658cbe3",
+      "sha256_after": "95bf0bdb4fcb2715b9b39d25859350cec9f39eff9a7b9fe22c13e19a1efa7be5"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-103/knowledge__methods__experimental-claim-boundaries.md.txt": {
+      "sha256_before": "78e1bc137e1ea0b320d3deb2909b8a462a986f9ad2a55c2c5cc48a74d0d59eaf",
+      "sha256_after": "3c433bcb5e7c0c92957fdb95ac43c8ce9ef087a76369f8f49905bf47b5ce6bcf"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-104/knowledge__methods__experimental-claim-boundaries.md.txt": {
+      "sha256_before": "58a1c7be9e6acec657e40f28d548ba4817e774ea165a41d67c6e799d9943bfb4",
+      "sha256_after": "3f50491ac3d1c97e57342e2dbc859376c1e092d511843744aa2b100d1201487d"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-105/knowledge__methods__experimental-claim-boundaries.md.txt": {
+      "sha256_before": "b24075b8b51eada9316d0a071a2131c064dbbb33c4b15a07b60dda09814f86ef",
+      "sha256_after": "048b1dfdba32dd5bcf1c4245e5c4d82f376ab132ea49e29b9e45654d7c469125"
+    },
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superseded-106/knowledge__sources__burgunder-2014-35si-two-body-spin-orbit.md.txt": {
+      "sha256_before": "7c15f5c0030bc05b70f21184eeb34b2032e4e82a8ef298207b2ce2d43878078e",
+      "sha256_after": "1f09ce5959dfefcf2a41910a640ed2708e7ef31307efbd19f7ad8b31227fd8c4"
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "at_utc": "2026-10-24T04:07:31.648648+00:00",
+  "records": [
+    {
+      "route": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.physletb.2009.02.061",
+      "status": 200,
+      "sha256": "51582d31ed31f92c0c99cef6bbf568c69b5f8321dd481b3826a22707ba8c107c",
+      "path": "tmp/day21-checkpoint126/openalex.json",
+      "discovery_only": true,
+      "selected": {
+        "title": "Chirality in odd-A nucleus 135Nd in particle rotor model",
+        "doi": "https://doi.org/10.1016/j.physletb.2009.02.061",
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/0812.4597",
+          "any_repository_has_fulltext": true
+        },
+        "best_oa_location": {
+          "id": "pmh:oai:arXiv.org:0812.4597",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/0812.4597",
+          "pdf_url": "https://arxiv.org/pdf/0812.4597",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.physletb.2009.02.061",
+            "doi": "https://doi.org/10.1016/j.physletb.2009.02.061",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.physletb.2009.02.061",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S173952182",
+              "display_name": "Physics Letters B",
+              "issn_l": "0370-2693",
+              "issn": [
+                "0370-2693",
+                "1873-2445"
+              ],
+              "is_oa": false,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-b",
+                "jufo-3",
+                "ki-jl-1",
+                "norway-2",
+                "poland-140",
+                "russia-white-list-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Physics Letters B",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:arXiv.org:0812.4597",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://arxiv.org/abs/0812.4597",
+            "pdf_url": "https://arxiv.org/pdf/0812.4597",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:CiteSeerX.psu:10.1.1.248.4194",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.248.4194",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "http://arxiv.org/pdf/0812.4597v1.pdf",
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:scholar.sun.ac.za:10019.1/12355",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://hdl.handle.net/10019.1/12355",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400300",
+              "display_name": "SUNScholar (Stellenbosch University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I26092322",
+              "host_organization_name": "Stellenbosch University",
+              "host_organization_lineage": [
+                "https://openalex.org/I26092322"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          },
+          {
+            "id": "doi:10.48550/arxiv.0812.4597",
+            "doi": "https://doi.org/10.48550/arxiv.0812.4597",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.48550/arxiv.0812.4597",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": null,
+            "raw_source_name": null,
+            "raw_type": "article-journal"
+          }
+        ]
+      }
+    },
+    {
+      "route": "semantic-scholar",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.physletb.2009.02.061?fields=title,year,externalIds,openAccessPdf,url",
+      "status": 200,
+      "sha256": "01d5abc80830c27964b4b97e9b60963135e363bd843651e566556988d0a777fe",
+      "path": "tmp/day21-checkpoint126/semantic-scholar.json",
+      "discovery_only": true,
+      "selected": {
+        "title": "Chirality in odd-A nucleus 135Nd in particle rotor model",
+        "year": 2008,
+        "openAccessPdf": {
+          "url": "https://arxiv.org/pdf/0812.4597",
+          "status": "GREEN",
+          "license": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "at_utc": "2026-10-24T05:03:20.230958+00:00",
+  "scope": "actual command executions; structural checks do not certify source truth",
+  "verification_scope": "Fresh structural commands after checkpoint136 oral scorecard upgrade and reflect audit; no all-science certification",
+  "lint": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json",
+      "--output",
+      "/workspace/wiki/outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lint-136.json"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "counts": {
+      "warning": 218,
+      "info": 4269
+    },
+    "warning_categories": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 180,
+      "RAW_MISSING": 34
+    },
+    "errors": []
+  },
+  "boundary": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n"
+  },
+  "diff": {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "writeback": {
+    "argv": [
+      "python3",
+      "system/scripts/validate_writeback_items.py",
+      "--report",
+      "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"valid\": true,\n  \"items\": 104,\n  \"status\": \"updated\",\n  \"scope\": \"structure, atomic references and changed-page presence only; not source truth or experimental CI\",\n  \"errors\": []\n}\n"
+  },
+  "native_writeback": {
+    "valid": true,
+    "mode": "updated",
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "coverage": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      21
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 21,
+    "error": null
+  },
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/run.json": true
+  }
+}

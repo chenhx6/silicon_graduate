@@ -1,0 +1,235 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 006: Octupole Collectivity vs Octupole Softness in 144Ba and 146Ba.
+
+Audits:
+1. GOSIA reduced matrix elements <3-||M(E3)||0+> to B(E3; 3- -> 0+) in e^2 fm^6 and W.u.
+2. Intrinsic octupole moment Q3 and shape parameter beta3 via Leander & Chen (1988) formulation.
+3. Rigid rotor Clebsch-Gordan predictions for excited-state E3 transitions (2+ -> 5-, 4+ -> 7-, 6+ -> 9-)
+   vs experimental GOSIA values and error boundaries in 144Ba and 146Ba.
+4. Parity doublet splitting Delta E(I) = E(I-) - 0.5 * [E((I-1)+) + E((I+1)+)] across 144Ba, 146Ba, 224Ra.
+5. Intrinsic electric dipole moment |D_0| drop (>13x) from 144Ba to 146Ba while B(E3) remains invariant.
+6. PES barrier vs zero-point energy (ZPE) evaluation for static pear shape vs octupole softness.
+"""
+
+import json
+import math
+import sys
+from pathlib import Path
+
+def factorial(n):
+    return math.factorial(n)
+
+def clebsch_gordan(j1, j2, j3, m1, m2, m3):
+    if m1 + m2 != m3:
+        return 0.0
+    if not (abs(j1 - j2) <= j3 <= j1 + j2):
+        return 0.0
+    f = math.factorial
+    factor = math.sqrt((2 * j3 + 1) * f(j1 + j2 - j3) * f(j1 - j2 + j3) * f(-j1 + j2 + j3) / f(j1 + j2 + j3 + 1))
+    factor *= math.sqrt(f(j1 + m1) * f(j1 - m1) * f(j2 + m2) * f(j2 - m2) * f(j3 + m3) * f(j3 - m3))
+    s_min = max(0, j2 - m1 - j3, j1 + m2 - j3)
+    s_max = min(j1 + j2 - j3, j1 - m1, j2 + m2)
+    total = 0.0
+    for s in range(s_min, s_max + 1):
+        num = ((-1) ** s)
+        den = f(s) * f(j1 + j2 - j3 - s) * f(j1 - m1 - s) * f(j2 + m2 - s) * f(j3 - j2 + m1 + s) * f(j3 - j1 - m2 + s)
+        total += num / den
+    return factor * total
+
+def compute_be3_wu(A, me_val):
+    # me_val in e * b^(3/2)
+    # B(E3; 0+ -> 3-) = |me|^2 (in e^2 b^3)
+    # B(E3; 3- -> 0+) = 1/7 * B(E3; 0+ -> 3-)
+    # 1 b = 100 fm^2, 1 b^3 = 10^6 fm^6
+    R0 = 1.2 * (A ** (1.0 / 3.0))
+    b_wu_fm6 = (1.0 / (4.0 * math.pi)) * ((3.0 / 6.0) ** 2) * (R0 ** 6)
+
+    be3_0_to_3_fm6 = (me_val ** 2) * 1e6
+    be3_3_to_0_fm6 = be3_0_to_3_fm6 / 7.0
+    be3_wu = be3_3_to_0_fm6 / b_wu_fm6
+    return {
+        "A": A,
+        "R0_fm": round(R0, 4),
+        "B_Wu_fm6": round(b_wu_fm6, 2),
+        "me_eb3_2": me_val,
+        "be3_3_to_0_fm6": round(be3_3_to_0_fm6, 1),
+        "be3_wu": round(be3_wu, 2)
+    }
+
+def compute_q3_beta3(A, Z, me_val, beta2=0.18):
+    # Leander & Chen 1988 formulation:
+    # Q3 = sqrt(16 pi / 7) * me (in e fm^3)
+    # Q3 = 3 / sqrt(7 pi) * Z * e * R0^3 * [ beta3 + (9 / (7 sqrt(pi))) * beta2 * beta3 ]
+    R0 = 1.2 * (A ** (1.0 / 3.0))
+    factor_q3 = math.sqrt(16.0 * math.pi / 7.0)
+    me_efm3 = me_val * 1000.0 # 1 b^(3/2) = 1000 fm^3
+    Q3 = factor_q3 * me_efm3
+
+    geom_factor = (3.0 / math.sqrt(7.0 * math.pi)) * Z * (R0 ** 3)
+    corr_factor = 1.0 + (9.0 / (7.0 * math.sqrt(math.pi))) * beta2
+    beta3 = Q3 / (geom_factor * corr_factor)
+    return {
+        "A": A,
+        "Z": Z,
+        "me_eb3_2": me_val,
+        "Q3_efm3": round(Q3, 1),
+        "geom_factor": round(geom_factor, 1),
+        "beta2": beta2,
+        "corr_factor": round(corr_factor, 4),
+        "beta3": round(beta3, 4)
+    }
+
+def audit_rotor_predictions(me_0_to_3):
+    transitions = [
+        ("0+ -> 3-", 0, 3),
+        ("2+ -> 5-", 2, 5),
+        ("4+ -> 7-", 4, 7),
+        ("6+ -> 9-", 6, 9),
+    ]
+    results = []
+    for label, Ii, If in transitions:
+        cg = clebsch_gordan(Ii, 3, If, 0, 0, 0)
+        ratio = math.sqrt(2 * Ii + 1) * cg
+        m_pred = me_0_to_3 * ratio
+        results.append({
+            "transition": label,
+            "Ii": Ii,
+            "If": If,
+            "cg_coeff": round(cg, 4),
+            "rotor_ratio": round(ratio, 4),
+            "predicted_me_eb3_2": round(m_pred, 3)
+        })
+    return results
+
+def compute_parity_splitting(bands):
+    pos = dict(bands["pos"])
+    results = []
+    for I, E_neg in bands["neg"]:
+        if (I - 1) in pos and (I + 1) in pos:
+            E_pos_avg = 0.5 * (pos[I - 1] + pos[I + 1])
+            delta_E = E_neg - E_pos_avg
+            results.append({
+                "I_minus": I,
+                "E_neg_keV": E_neg,
+                "E_pos_interpolated_keV": round(E_pos_avg, 1),
+                "delta_E_keV": round(delta_E, 1)
+            })
+        elif (I - 1) in pos:
+            delta_E = E_neg - pos[I - 1]
+            results.append({
+                "I_minus": I,
+                "E_neg_keV": E_neg,
+                "E_pos_interpolated_keV": round(pos[I - 1], 1),
+                "delta_E_keV": round(delta_E, 1)
+            })
+    return results
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "octupole-ba-audit-006.json"
+
+    # 1. B(E3) conversions
+    be3_144 = compute_be3_wu(144, 0.65)
+    be3_146 = compute_be3_wu(146, 0.65)
+
+    # 2. Q3 and beta3 shape parameters
+    q3_144 = compute_q3_beta3(144, 56, 0.65, beta2=0.18)
+    q3_146 = compute_q3_beta3(146, 56, 0.65, beta2=0.21)
+
+    # 3. Rigid rotor E3 predictions
+    rotor_preds = audit_rotor_predictions(0.65)
+
+    # 4. Parity doublet splittings
+    levels_144 = {
+        "pos": [(0, 0.0), (2, 199.3), (4, 530.6), (6, 992.4), (8, 1545.9), (10, 2163.6), (12, 2818.8), (14, 3483.5)],
+        "neg": [(1, 758.8), (3, 838.4), (5, 1128.4), (7, 1563.8), (9, 2104.5), (11, 2703.1), (13, 3319.6), (15, 3928.7)]
+    }
+    levels_146 = {
+        "pos": [(0, 0.0), (2, 181.0), (4, 513.5), (6, 984.7), (8, 1557.0), (10, 2189.7), (12, 2841.0)],
+        "neg": [(1, 737.9), (3, 821.1), (5, 1084.7), (7, 1492.2), (9, 2012.3), (11, 2593.4)]
+    }
+    levels_224ra = {
+        "pos": [(0, 0.0), (2, 84.4), (4, 250.8), (6, 479.3), (8, 762.6), (10, 1095.3), (12, 1472.0)],
+        "neg": [(1, 216.0), (3, 290.4), (5, 433.4), (7, 641.1), (9, 906.4), (11, 1225.4), (13, 1592.5)]
+    }
+    split_144 = compute_parity_splitting(levels_144)
+    split_146 = compute_parity_splitting(levels_146)
+    split_224ra = compute_parity_splitting(levels_224ra)
+
+    # 5. Dipole moment decoupling audit
+    # In 144Ba: |D0| ~ 0.13 e fm
+    # In 146Ba: Bucher 2017 reports |<1-||M(E1)||0+>| = 0.000223 e b^(1/2) = 0.00223 e fm
+    # B(E1; 1- -> 0+) = 1/3 * (0.00223)^2 = 1.658e-6 e^2 fm^2
+    # B_Wu(E1) for A=146:
+    R0_146 = 1.2 * (146 ** (1.0 / 3.0))
+    b_wu_e1_146 = (1.0 / (4.0 * math.pi)) * ((3.0 / 4.0) ** 2) * (R0_146 ** 2)
+    be1_146_wu = (1.658e-6) / b_wu_e1_146
+    d0_146_bound = 0.01 # e fm (upper bound cited in Bucher 2017)
+    dipole_drop_ratio = 0.13 / d0_146_bound
+
+    audit_payload = {
+        "audit_name": "Day 21 Checkpoint 006: Octupole Collectivity vs Octupole Softness",
+        "nuclei_studied": ["144Ba", "146Ba", "224Ra"],
+        "sources": [
+            "Bucher et al. 2016 PRL 116, 112503 (144Ba)",
+            "Bucher et al. 2017 PRL 118, 152504 (146Ba)",
+            "Gaffney et al. 2013 Nature 497, 199 (224Ra, 220Rn)",
+            "Butler et al. 2019 Nat. Commun. 10, 2473 (226Ra)",
+            "Leander & Chen 1988 PRC 37, 2744 (Q3-beta3 conversion)",
+            "Li et al. 2024 PRC 109, 014316 (144Ba 3D-lattice CDFT)"
+        ],
+        "be3_conversions": {
+            "144Ba": be3_144,
+            "146Ba": be3_146
+        },
+        "intrinsic_moments_and_shape": {
+            "144Ba": q3_144,
+            "146Ba": q3_146
+        },
+        "rigid_rotor_e3_coupling_test": {
+            "model_predictions": rotor_preds,
+            "comparison_144Ba": {
+                "0+ -> 3-": "0.65(+17/-23) e b^(3/2) [Exp]",
+                "2+ -> 5-": "< 1.2 e b^(3/2) [Upper limit; rotor pred = 1.003]",
+                "4+ -> 7-": "< 1.6 e b^(3/2) [Upper limit; rotor pred = 1.245]"
+            },
+            "comparison_146Ba": {
+                "0+ -> 3-": "0.65(+14/-20) e b^(3/2) [Exp; rotor ref = 0.650]",
+                "2+ -> 5-": "1.01(+61/-20) e b^(3/2) [Exp; rotor pred = 1.003]",
+                "4+ -> 7-": "1.25(+85/-34) e b^(3/2) [Exp; rotor pred = 1.245]",
+                "6+ -> 9-": "1.5(+8/-12) e b^(3/2) [Exp; rotor pred = 1.445]"
+            },
+            "assessment": "Central values in 146Ba match rigid rotor predictions to <1% because GOSIA minimization imposed rigid-rotor constraints. When released, uncertainties expand up to +68%/-80%, proving unconstrained data lack statistical independence for rigid shape confirmation."
+        },
+        "parity_splitting_comparison": {
+            "144Ba": split_144,
+            "146Ba": split_146,
+            "224Ra": split_224ra,
+            "physical_implication": "In 224Ra (rigid octupole rotor), delta_E is small (+174 keV at 1-) and vanishes by spin 7-8. In 144,146Ba, delta_E is very large (+659 keV at 1- in 144Ba, +647 keV at 1- in 146Ba) reflecting an octupole phonon vibrational offset. Parity convergence only begins at high spin (I >= 9-11), disproving rigid ground-state pear shape."
+        },
+        "dipole_decoupling": {
+            "144Ba_D0_efm": 0.13,
+            "146Ba_D0_upper_bound_efm": d0_146_bound,
+            "d0_drop_ratio": round(dipole_drop_ratio, 1),
+            "146Ba_me_e1_eb1_2": 0.000223,
+            "146Ba_be1_wu": round(be1_146_wu, 8),
+            "b_e3_invariance": "B(E3) remains 48 W.u. in both 144Ba and 146Ba despite >13x drop in |D0|",
+            "physical_mechanism": "Microscopic shell correction cancellation: filling high-j low-K neutron orbitals (nu f7/2, nu h9/2) generates an internal dipole contribution of opposite sign that cancels the macroscopic proton droplet dipole shift."
+        },
+        "pes_and_softness_diagnosis": {
+            "pes_barrier_MeV": "< 0.5 - 1.0 MeV (Gogny D1S, relativistic CDFT PC-PK1)",
+            "zero_point_energy_MeV": "~ 1.0 - 1.5 MeV (0.5 * hbar * omega_3)",
+            "quantum_state": "Ground state wave function tunnels through beta3 = 0; dynamic RMS amplitude sqrt(<beta3^2>) ~ 0.17 produces large B(E3), while static expectation value <beta3> is soft/spread.",
+            "evidence_gate_rule": "Large B(E3) confirms octupole collectivity, NOT static pear shape. Claiming static octupole deformation requires companion verification: small ground-state parity splitting (delta_E -> 0), unconstrained excited-state E3 matrix elements, and deep PES minimum exceeding ZPE."
+        }
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(audit_payload, f, indent=2, ensure_ascii=False)
+    print(f"Successfully generated Checkpoint 006 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

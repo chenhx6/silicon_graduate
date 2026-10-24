@@ -35,6 +35,8 @@ tags: [non-a130, high-spin, superdeformation, triaxiality, band-mixing, euroball
 
 # Domscheit 等（1999）：`163Lu` 三轴超形变
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 J. Domscheit et al., *Nuclear Physics A* **660**, 381-392 (1999)，DOI `10.1016/S0375-9474(99)00392-9`。题名、作者年份和 DOI 与只读 BibTeX 条目唯一匹配，使用给定 citation key `domscheit_1999_Triaxialsuperdeformation`。
@@ -153,3 +155,10 @@ J. Domscheit et al., *Nuclear Physics A* **660**, 381-392 (1999)，DOI `10.1016/
 对后续研究最可复用的不是把 `Q≈10.7 b` 或 `J^(2)` 直接等同于三轴性，而是分层使用证据：谱学连接与多极性建立带结构；寿命/四极矩约束形变尺度；转动惯量检验共同转动响应；γ 的大小、符号和组态仍依赖模型，并应由连接跃迁、电磁强度和更多独立测量检验。
 
 用户已完成人工页面级审阅，确认 citation key、主要表述和科学内容无明显问题，并补充确认 `139La(29Si,5n)163Lu` 与 `139La(29Si,4n)164Lu` 道关系；DO99-1 至 DO99-13 据此完成 claim-level 复核。`164Lu` 结果不属于本文正文讨论范围。
+## Day21周考推断阶梯审计：超形变与三轴性（TSD）证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint010_superdeformation_tsd_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/superdeformation-tsd-audit-010.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| DO99-D21-1 | Domscheit 1999 测定 $^{163}\text{Lu}$ 的超形变带 SD1 跃迁四极矩 $Q_t \approx 10.7(7)\ e\text{b}$ 确证了大四极形变（超形变，$\beta_2 \sim 0.38 - 0.51$），但因 $Q_t \propto \beta_2 \cos(\gamma+30^\circ)/\cos 30^\circ$ 存在内禀简并，单个 $Q_t$ 数值无法独立区分轴对称超形变（$\gamma = 0^\circ$）与三轴超形变（$\gamma \approx 20^\circ$）；论文题名中的“三轴性”完全来源于 UC/PES 模型计算而非直接实验测量；确证三轴性必须依赖后续观测到的摇摆声子集体带间跃迁（$B(E2)_{\text{out}} \gg 10\text{ W.u.}$）。此外，$21/2^+$ 态的脱带衰变可由与正常形变态的小矩阵元微扰（$V_{\text{mix}} = 22\text{ keV}$）自洽阐明。 | claim-boundary-audit | direct-and-derived | NPA 660, 381 pp.381-392; superdeformation-tsd-audit-010.json | true |

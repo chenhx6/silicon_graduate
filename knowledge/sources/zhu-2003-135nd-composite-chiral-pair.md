@@ -3,7 +3,7 @@ type: source
 title: "Zhu et al. 2003 - A Composite Chiral Pair of Rotational Bands in 135Nd"
 aliases: ["Zhu 2003 135Nd Band A/B"]
 created: 2026-10-09
-updated: 2026-10-09
+updated: 2026-10-23
 status: ai-draft
 review_status: unreviewed
 source_type: original-experiment-and-3D-TAC
@@ -57,7 +57,7 @@ Checked 2026-10-09 after the user authorized obtaining relevant supplementary ma
 
 - Completed reading_depth: deep-read.
 - Covered scope: PDF pp.1–8 main article, including title/abstract, motivation, reaction and detector setup, Fig.2 partial level scheme and linking transitions, DCO/angular-distribution and conversion-intensity discussion, 3D-TAC configuration/table, spin-frequency and energy-splitting figures, and the conclusion. Fig.2 was visually checked at readable resolution.
-- Not covered: raw event tapes, detector calibrations, the full gated spectra, original event-level transition-intensity extraction, or a review of all cited references. PDF pp.9–10 contain references and were not independently audited.
+- Not covered: raw event tapes, detector calibrations, the full gated spectra, original event-level transition-intensity extraction, or a review of all cited references. PDF pp.9–10 contain references; their text was read at Day21 checkpoint044, but the cited papers were not independently audited.
 - Coverage caveat: the relative thickness of arrows in Fig.2 denotes transition intensity only. It is not an absolute or reduced transition probability.
 
 ## Paper Question and Scientific Motivation
@@ -66,7 +66,7 @@ The paper asks whether the near-degenerate same-parity Band A and Band B sequenc
 
 ## Method and Design Logic
 
-- High-spin states were populated with 133-MeV 30Si on 110Pd through the 5n channel. Gammasphere recorded about 1.3×10^9 fivefold-and-higher coincidence events. The paper describes cube/hypercube sorting, RADWARE background subtraction, and double-/triple-gated spectra (PDF pp.2–3).
+- High-spin states were populated with 133-MeV 30Si on 110Pd through the 5n channel. Gammasphere recorded about 1.3×10^9 quadruple-and-higher coincidence events. The paper describes cube/hypercube sorting, RADWARE background subtraction, and double-/triple-gated spectra (PDF pp.2–3).
 - Spins and parities were taken from prior work for Band A and extracted for Band B using the same procedure. Multipolarity assignments used DCO ratios and angular-distribution analysis (PDF pp.3–4).
 - The structural argument combines the level scheme and linking transitions with three-dimensional TAC calculations. Experimental level/transition observations and calculated intrinsic geometry are separate evidence layers.
 
@@ -172,3 +172,30 @@ P0: none identified.
 ## Non-source Notes and Follow-up
 
 The local public OA PDF was fetched from arXiv via Unpaywall; the manifest for this run is in tmp/day9-zhu-2003/manifest.json. The PDF is stored under raw/papers/gpt/high-spin-20261009 and remains immutable.
+
+
+## Day21 checkpoint044：逐线能级回路与跨来源身份边界
+
+在`primed-recall-frozen-044.md`冻结已primed回忆后，新读本PDF全部10页文字，视觉核PDF pp.3–8 Fig.1–5/Table I与放大的Fig.2；raw SHA256仍为`8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542`。本次是局部claim自审，不改变原review/needs_review，不把整页标记为人工认证。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH03-D21-R44-1 | 原p.3明确为quadruple-and-higher-fold（四重及以上），103台有效Ge探测器、约1.3×10^9事件、两片约0.5 mg/cm²自支撑靶。此前本页fivefold文字已纠正；不能把2007厚靶/背衬DSAM装置反写到2003采集中。 | experimental-setup | direct-original | PDF p.3 experiment paragraph | true |
+| ZH03-D21-R44-2 | Fig.2 B31/2、33/2、35/2、37/2→A的ΔI1线分别为648、639、591、(556) keV；对应ΔI2跨带线通往A27/2、29/2、31/2、33/2，分别896、930、949、(963) keV。括号保留。它们不是B带内ΔI2线；顶部512 keV为B(41/2)→39/2的ΔI1线。 | level-scheme-identity | direct-original | PDF p.4 Fig.2 | true |
+| ZH03-D21-R44-3 | p.5 Fig.3展示背景扣除三重门谱，底图以170/282/309 keV作门显示648/670/896跨带线。正文仅为896给出forward/90°比1.7(3)与E2判定；其余弱线未全部提取AD比。箭头宽度是强度展示，不能数字化成绝对branch、B或寿命。 | criterion-and-scope | direct-original | PDF p.5 Fig.3 | true |
+| ZH03-D21-R44-4 | p.6 Table I是3D-TAC输出：ω=.45时φ=0，.50时φ=±28°、I=22；邻近正文约.45的onset措辞与离散表格不完全同点。pp.7–8的I≈19短暂静态手征及高频近共面回归是作者模型解释，不是本次测得的硬相界。 | model-and-author-interpretation | direct-original | PDF p.6 Table I | true |
+
+### 两条路径的能量闭合练习
+
+由同图A侧相邻线247.7/291.3/358.2/406 keV与B侧226/282/309/372 keV构造两个回路：跨带ΔI2能量应等于同母态ΔI1跨带线+A侧下一步，亦等于B侧下一步+低一自旋跨带ΔI1线。计算脚本`system/scripts/day21_checkpoint044_level_loops.py`仅做印刷能量账目检查，结果见本run `level-loop-scope-044.json`。
+
+| B母态 | 跨带ΔI2标签 keV | 经A路径残差 keV | 经B路径残差 keV |
+|---|---|---|---|
+| 31/2− | 896 | −0.3 | 0 |
+| 33/2− | 930 | +0.3 | 0 |
+| 35/2− | 949 | +0.2 | −1 |
+| 37/2− | (963) | −1 | 0 |
+
+残差保留，±1 keV只是本次印刷整数/小数的账目容差，不是实验误差、CI或拟合优度。B带相邻能级差相加可得31/2–39/2的带内ΔI2运动学候选399/508/591/681/812 keV；Fig.2没有画出这些B带内ΔI2箭头，能量差存在不等于观察到该光子线。它们更不能直接绑定MU07 Table I的B(E2)。2007强度表不逐行写Eγ/终态，因此本轮只补全图上候选拓扑，未恢复唯一逐线branch、强度成分或寿命补偿机制。见[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的MU07-D21-R43-3。
+
+版本边界：此raw边栏印`nucl-ex/0302029v2 10 Jun 2003`，标题页正文却印`Dated: November 13, 2018`；保留此PDF日期不一致，不改PRL 91,132501 (2003)的书目年份。未重新联网认证版本来源。

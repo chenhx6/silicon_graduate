@@ -13,6 +13,8 @@ tags: [two-photon-decay, electromagnetic-decay, gamma-gamma]
 
 # 核双光子衰变（Two-Photon Nuclear Decay）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 核双光子衰变是一个激发态通过同时发射两个连续能量分配的 γ 光子到达低能态的二阶电磁过程；它不同于普通级联衰变的两个顺序单 γ 事件。
@@ -74,3 +76,15 @@ Treat double-gamma decay as a rare electromagnetic process requiring a joint tim
 ## L3/L4 Route
 
 An L3 method comparison can test which combination of timing, PAF sidebands, angular correlation and polarization is minimally sufficient. L4 requires raw event matrices, response/efficiency files, units, gates and a reproducible analysis; the current sources do not supply those inputs.
+
+## Day 21 Checkpoint 015 证据门量化审计
+
+依据独立审计程序 `system/scripts/day21_checkpoint015_two_photon_decay_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/two-photon-decay-audit-015.json`（对标 [[walz-2015-competitive-double-gamma-137ba]] 之 `W15-D21-1` 与 [[soderstrom-2020-137ba-competitive-gamma]] 之 `SO20-D21-1`），确立核双光子衰变在推断阶梯上的实证判据：
+1. **总分支比符合与路径解耦鸿沟：**
+   Walz 2015（$(2.05 \pm 0.37) 	imes 10^{-6}$）与 Söderström 2020（$(2.62 \pm 0.30) 	imes 10^{-6}$）在总分支比上仅相差 $1.20\sigma$（加权均值 $2.39(23) 	imes 10^{-6}$），确立了竞争双光子分支的存在性；但两实验在微观虚态多极路径比值上发生了高达 $13.88$ 倍的剧烈反转（四极主导 $lpha_{E2M2}/lpha_{M1E3} = 3.356$ 反转为八极主导 $lpha_{M2E2}/lpha_{E3M1} = 0.2418$）；
+2. **两角简并与能量截断假象机制：**
+   Walz 2015 的两角探测几何（$72^\circ, 144^\circ$）在数学上不足以解耦勒让德多项式多解简并，且施加的对称能窗截断（$|E_1 - E_2| < 250	ext{ keV}$ 裁剪了逾 $35\%$ 相空间）人为滤除了在非对称能量端占统治地位的 $E3M1$ 分量；
+3. **微观壳模型与选择定则物理自洽：**
+   单粒子 $M2$ 跃迁受 $\Delta \ell = 3$ 禁戒导致矩阵元深度受抑，而 $E3$ 算符与核芯 $3^-$ 集体八极声子强耦合，赋予 $E3M1$ 路径压倒性的物理主导地位；
+4. **证据门准则：**
+   严禁仅凭有限离散角度下的能量求和峰断言虚态极化率路径；确证双光子多极机制必须依赖连续能量分配谱与微观壳模型选择定则的全局对账。

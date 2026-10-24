@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint108_yao_density_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "yao-density-scope-108.json",
+  "scope": "literal table verification, definition checks and collective transition bounds in Yao 2012; not GCM code replay or experimental CI"
+}

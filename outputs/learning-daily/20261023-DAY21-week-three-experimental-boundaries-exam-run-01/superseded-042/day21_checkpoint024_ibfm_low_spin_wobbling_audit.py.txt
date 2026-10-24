@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 024: IBFM Cross-examination of Low-spin Wobbling Candidates,
+Gamma-soft Core Coupling, and Multipolarity Divergence Audit in 135Pr, 133La, 127Xe, and 105Pd.
+
+Audits:
+1. The 4 benchmark nuclei audited by Nomura & Petrache 2022 (PRC 105, 024320 Table II):
+   - 135Pr (134Ce core + pi h11/2):
+     Matta 2015 wobbling claim: |delta| = 1.54 (E2 = 70.3%)
+     Lv 2022 linear polarization experiment: delta = -0.37 (M1 = 88.0%)
+     IBFM prediction: |delta| ~ 0.15 - 0.35 (M1 dominated, in harmony with Lv 2022, contradicts Matta 2015)
+   - 133La (132Ba core + pi h11/2):
+     Biswas 2019 wobbling claim: |delta| ~ 1.2 - 2.5
+     IBFM prediction: |delta| < 1.0 (typically 0.2 - 0.6), M1 dominated
+   - 105Pd (106Pd core + nu h11/2^-1):
+     Timar 2019 wobbling claim: |delta| ~ 1.5 - 2.5
+     Rickey 1970s older measurement: |delta| ~ 0.3 - 0.5
+     IBFM prediction: |delta| ~ 0.2 - 0.5 (matches older Rickey measurement, refutes Timar 2019)
+   - 127Xe (128Xe core + nu h11/2^-1):
+     Chakraborty 2020 two-phonon wobbling claim
+     IBFM prediction: shows low-spin instability due to M1 cancellation at half-filling v^2 ~ 0.5, returning to M1 dominance at higher spin
+2. Microscopic core potential energy surfaces:
+   All 4 cores (134Ce, 132Ba, 128Xe, 106Pd) exhibit flat gamma-soft PES (Delta V_gamma < 0.5 MeV), invalidating rigid triaxial rotor assumptions.
+3. Theoretical paradigm divergence:
+   Rigid PRM and gamma-soft IBFM both fit energy spectra, but PRM predicts E2 dominance (|delta| > 1), while IBFM predicts M1 dominance (|delta| < 1).
+   Polarization data in 135Pr uniquely validated IBFM and refuted wobbling.
+4. Evidence gate rules for assigning low-spin wobbling in gamma-soft nuclei.
+"""
+
+import json
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "ibfm-low-spin-wobbling-audit-024.json"
+
+    # 1. Four nuclei audited in Nomura 2022 Table II & text
+    cases = [
+        {
+            "nucleus": "135Pr",
+            "core": "134Ce",
+            "odd_quasiparticle": "pi h11/2 particle",
+            "core_pes_character": "gamma-soft (DD-PC1 relativistic HFB)",
+            "wobbling_claim_source": "Matta et al. 2015 PRL 114, 082501 (|delta| = 1.54, E2 = 70.3%)",
+            "counter_experiment": "Lv et al. 2022 PLB 824, 136840 (delta = -0.37, M1 = 88.0%)",
+            "ibfm_calculated_delta": "0.15 - 0.35 (M1 dominated)",
+            "ibfm_agreement": "Agrees with Lv 2022 M1-dominated data; decisively contradicts Matta 2015 wobbling claim"
+        },
+        {
+            "nucleus": "133La",
+            "core": "132Ba",
+            "odd_quasiparticle": "pi h11/2 particle",
+            "core_pes_character": "gamma-soft (Gogny D1M HFB)",
+            "wobbling_claim_source": "Biswas et al. 2019 EPJ A 55, 159 (|delta| = 1.2 - 2.5, E2 dominated)",
+            "counter_experiment": "Unconstrained DCO/polarization ambiguity; QTR also yields small-delta solution",
+            "ibfm_calculated_delta": "< 1.0 (typically 0.2 - 0.6, M1 dominated)",
+            "ibfm_agreement": "Contradicts Biswas large-delta claim; shows band is quasiparticle coupled to gamma-vibrational core"
+        },
+        {
+            "nucleus": "105Pd",
+            "core": "106Pd",
+            "odd_quasiparticle": "nu h11/2 hole",
+            "core_pes_character": "gamma-soft (DD-PC1 relativistic HFB)",
+            "wobbling_claim_source": "Timar et al. 2019 PRL 122, 062501 (|delta| ~ 1.5 - 2.5)",
+            "counter_experiment": "Rickey et al. earlier measurements (|delta| ~ 0.3 - 0.5)",
+            "ibfm_calculated_delta": "0.2 - 0.5 (M1 dominated)",
+            "ibfm_agreement": "Decisively agrees with older Rickey data; refutes Timar wobbling claim"
+        },
+        {
+            "nucleus": "127Xe",
+            "core": "128Xe",
+            "odd_quasiparticle": "nu h11/2 hole",
+            "core_pes_character": "gamma-soft (Gogny D1M HFB)",
+            "wobbling_claim_source": "Chakraborty et al. 2020 PLB 811, 135854 (Multiphonon longitudinal wobbling)",
+            "counter_experiment": "Missing absolute lifetimes; assumed sigma/I = 0.3",
+            "ibfm_calculated_delta": "Anomalous large delta at low spin due to accidental M1 cancellation at v^2 ~ 0.5, returning to M1 dominance at higher spin",
+            "ibfm_agreement": "Reflects sensitivity to configuration mixing rather than genuine collective wobbling"
+        }
+    ]
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 024: IBFM Cross-examination of Low-spin Wobbling Candidates Audit",
+        "theoretical_anchor": "Nomura & Petrache 2022 Phys. Rev. C 105, 024320 (Questioning the wobbling interpretation in gamma-soft nuclei)",
+        "framework": "EDF-constrained Interacting Boson-Fermion Model (IBFM-2) in laboratory frame",
+        "audited_cases": cases,
+        "physical_mechanism": {
+            "core_dynamics": "Quasiparticle coupled to a gamma-soft core (Wilets-Jean / O(6) type)",
+            "interband_transition_nature": "Inherently M1-dominated because fermion spin/orbital currents dominate, while core E2 matrix elements lack rigid triaxial rotor enhancement.",
+            "model_degeneracy_resolution": "PRM (rigid rotor) and IBFM (gamma-soft core) both fit energy spectra equally well; the multipole mixing ratio delta and linear polarization P are the sole discriminators."
+        },
+        "evidence_gate_rules": [
+            "严禁仅凭单核粒子—转子模型（PRM）对能级谱的拟合良好，断言原子核处于低自旋摆动运动；能量再现不具物理排他性，实验室系 gamma-软核芯耦合模型（IBFM）在完全相同的能量尺度下给出 M1 主导的带间跃迁。",
+            "确证摆动模式必须依赖实验测定的带间跃迁混合比 |delta| >> 1 与线偏振排他确立 E2 主导（B(E2_out) >= 20 - 30 W.u.）；若带间跃迁实测为 M1 主导（|delta| < 1，如 135Pr 的 M1 88% 与 105Pd 的 M1 85%），则摆动假说被直接证伪，体系排他性归属于准粒子与 gamma-软核芯的振动/旋称耦合态。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 024 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-24T04:41:47.718531+08:00",
+  "hashes": {
+    "knowledge/methods/experimental-claim-boundaries.md": "5880d70b24e013b18d84282cd2b868e2803c42b2faaceba03316996d0746d2f1",
+    "knowledge/projects/100sn-gamow-teller-independent-evidence.md": "ca05ca9094ce298c76d1664c98cd21cc3fd3e876cb756fbb2899238ccc7e7bfb",
+    "knowledge/concepts/gamow-teller-strength.md": "6a8c2c288728680784493d2ca897e889479305b064704339e90b52ab247b2894",
+    "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md": "600b7b591adbcc3e5915dddbccda22b501b5da604f36b009a342150af85e8b9f",
+    "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md": "24619df7bb5054903553729cfd6891443ea960a7aaed18c31af8d2d30c63889e",
+    "knowledge/synthesis/high-spin-lifetime-strength-deformation.md": "ad6066edd7f4be054e631661347cd5b0a6d7b6df6f9147185097180f441facde",
+    "knowledge/research-notes/day21-135nd-same-input-falsification-design.md": "e1fd971311a6341b1ac2acfdf8cc4f444a1dcb3488de2de89ccc793c038d69de",
+    "knowledge/observables/lifetime.md": "a8c147bd6aa774f5ecf65d9e34ea0a062acdcdee4274015a1f5c9034506e7aa8",
+    "knowledge/observables/transition-quadrupole-moment.md": "42587558d20178ca70e6a50d1ee63faa6a47bc0d33796fdc41d73949b865f3b2",
+    "knowledge/observables/multipole-mixing-ratio.md": "242692f8f6dde22ce233f5b0c491dc4551ed51468243268fcbb500de874eaf2b",
+    "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md": "14469b5ac8b1c70a06f19f216e2250b9f1eeb9d6ae0d9c459a65ff10d7015047",
+    "system/handoff.md": "6c99b743a5a5db609e83e70dec7d6fc2e0412a30f061011e6f2d9ac615f8746b"
+  }
+}

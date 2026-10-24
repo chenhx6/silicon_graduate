@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint110_chiral_comparison_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "chiral-comparison-scope-110.json",
+  "scope": "literal unmixing arithmetic in 134Pr and in-band B(E2)/lifetime systematics in 135Nd; not new experimental spectroscopy or CI"
+}

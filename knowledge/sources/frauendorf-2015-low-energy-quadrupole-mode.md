@@ -34,6 +34,8 @@ tags: [quadrupole, triaxiality, gamma-soft, tidal-wave, TPSM, review]
 
 # The low-energy quadrupole mode of nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - S. Frauendorf, *International Journal of Modern Physics E* **24**, 1541001 (2015), DOI `10.1142/S0218301315410013`。
@@ -92,3 +94,11 @@ Energy ratios and `B(E2)` patterns are not unique shape classifiers; model param
 
 - Concepts: [[triaxial-deformation]], [[gamma-soft-deformation]], [[tidal-wave]]。
 - Models: [[triaxial-projected-shell-model]]。
+
+## Day21周考推断阶梯审计：四极潮汐波（Tidal Wave）转动与B(E2)离心拉伸证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint014_tidal_wave_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/tidal-wave-audit-014.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| FR15-D21-1 | Frauendorf 2015 综述确立低能四极潮汐波（Tidal Wave）转动推断阶梯边界：微观上弱形变 $\gamma$-软核（如 $^{102}	ext{Pd}$）的 yrast 角动量增长并非源于刚性经典旋转或多声子简谐激发，而是由四极形变振幅 $eta_2(I)$ 的离心拉伸主导；在 $^{102}	ext{Pd}$ 中，转动频率由 $2^+$ 的 $278.2	ext{ keV}$ 仅迟缓升至 $10^+$ 的 $490.0	ext{ keV}$（仅增 $1.76$ 倍，远低于刚性转子的 $5.0$ 倍），而实测带内 $B(E2)$ 由 $32(3)	ext{ W.u.}$ 激增至 $105(18)	ext{ W.u.}$（激增 $3.28$ 倍），大幅突破刚性转子的几何饱和极限（$1.69$ 倍），展现出与 $eta_2^2(I) \propto I$ 潮汐波行波模型的高度自洽。推断阶梯确立：严禁仅凭能级比值 $R_{4/2} pprox 2.0 - 2.4$ 断言简谐多声子态或刚性转子，确证潮汐波必须依赖绝对能级寿命测定 $B(E2) \propto I$ 线性伸展轨迹及转动频率迟滞。 | claim-boundary-audit | direct-and-derived | PDF Sec.6 pp.24-28 Figs.17-18; tidal-wave-audit-014.json | true |

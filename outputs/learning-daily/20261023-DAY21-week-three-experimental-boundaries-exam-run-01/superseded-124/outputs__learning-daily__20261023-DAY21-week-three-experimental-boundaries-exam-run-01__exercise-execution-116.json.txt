@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint055_wobbling_multipolarity_audit.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "wobbling-multipolarity-audit-055.json",
+  "scope": "deep synchronization of wobbling motion concept layer with multipole mixing ambiguity resolution and low-spin harmonic approximation breakdown; not new experimental CI"
+}

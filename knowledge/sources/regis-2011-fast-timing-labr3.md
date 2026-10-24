@@ -36,6 +36,8 @@ tags: [fast-timing, labr3, lifetime, ms-cd, detector-method, phd-thesis]
 
 # Régis 2011：LaBr₃(Ce) 快速定时与 MSCD 方法
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Jean-Marc Régis，*Fast Timing with LaBr3(Ce) Scintillators and the Mirror Symmetric Centroid Difference Method*，University of Cologne，博士学位论文，2011，111 页。原始 PDF SHA-256 为 `54EF3C5B70D7EF4ED694AD9089FA40533D39E2BB060228EB3D1A304B03555F52`。
@@ -255,5 +257,11 @@ checkpoint010在继续实际读取Ch2、Ch4其余方法/测试、Ch5实验与结
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | RG11-D19-28 | Ref18原文写NIMA622,81(2010)；Crossref/OpenAlex核精确方法题名对应DOI10.1016/j.nima.2010.07.047、83–92页，2015GCD稿Ref3也写83。2010原body未得，不按元数据标已读；2015公开稿的阵列/pair/PRD/Compton定义另读，依赖性单列，不作为2011同data独立复测。 | bibliographic-and-companion-boundary | metadata-and-direct-companion | PDF100 Ref18; 2015 PDF5 Ref3; focused-metadata112 | true |
+
+## checkpoint026：快速定时质心差法推断阶梯边界审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| REG11-D21-1 | 快速定时镜像对称质心差（MSCD/GCD）方法将能级寿命提取转化为时间谱一阶矩位移 Delta C(E_feeder, E_decay) = PRD(E_feeder, E_decay) + 2*tau。当目标能级寿命进入皮秒区（tau < 20 ps）时，该方法对探测器瞬发响应差（PRD）校准曲线的能量依赖性与前序喂居延迟（feeding delay）极度敏感；未校准的 PMT 时间游走或几步中间能级级联延迟会直接淹没内禀微观跃迁寿命，严禁将未经实验 PRD 校准的外推能区质心差直接作为短寿命确证。 | fast-timing-mscd-inference-boundary | direct-original-and-quantitative-audit | PDF27–30 Eqs3.8–3.16, PDF75–78; fast-timing-gcd-audit-026.json | true |
 
 [[regis-2015-generalized-centroid-difference]] RG15-1–8保存公开出版物实际scope、6PDF页含空白末页、4图/12式、pair筛选/alignment/100Zr背景示例。其raw槽未填、publiccache已核，不写raw/Bib；不沿简化平均式给所有sorter背书。

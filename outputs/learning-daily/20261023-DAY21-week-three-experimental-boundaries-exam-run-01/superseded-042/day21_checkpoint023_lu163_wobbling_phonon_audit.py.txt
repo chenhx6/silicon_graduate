@@ -1,0 +1,111 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 023: Triaxial Superdeformed (TSD) Wobbling in 163Lu,
+One-Phonon Confirmation vs Two-Phonon Harmonic Scaling Breakdown and Double-Root Ambiguity Audit.
+
+Audits:
+1. One-phonon wobbling n_w=1 (Odegard 2001 PRL 86, 5866):
+   - Delta I = 1 connecting transitions: delta = -3.10(+0.36/-0.44), E2% = 90.6(13)%
+   - Linear polarization measurement confirmed P > 0 (electric type), uniquely rejecting the small-delta root.
+   - B(E2_out)/B(E2_in) = 0.22(3) -> B(E2_out) ~ 25 - 35 W.u., confirming true collective wobbling collectivity.
+2. Two-phonon wobbling candidate n_w=2 (Jensen 2002 PRL 89, 142503):
+   - Decisive 476-keV TSD3 -> TSD2 link:
+     Large-root: delta_1 = -3.60(+0.97/-1.93), E2% = 92.8% -> B(E2_out)/B(E2_in) = 0.51(13)
+     Small-root: delta_2 = -0.19(+0.08/-0.12), E2% = 3.48% -> B(E2_out)/B(E2_in) = 0.019(+0.024/-0.017)
+     Ratio between roots = 26.84x in derived E2 strength.
+   - Polarization failed experimentally due to statistics; small root was rejected solely based on theory consistency (circular confirmation).
+3. Breakdown of harmonic phonon scaling:
+   - Bohr-Mottelson harmonic rule predicts B(E2; 2 -> 1) = 2 * B(E2; 1 -> 0) and B(E2; 2 -> 0) == 0 (strict Delta n_w = 2 forbiddenness).
+   - Experiment established 8 direct Delta I = 2 transitions connecting TSD3 -> TSD1, proving substantial anharmonic mixing.
+   - Microscopic alignment of pi i_13/2 quasiproton breaks simple rotor harmonicity (Hamamoto 2002).
+4. Evidence gate rules for two-phonon and high-phonon wobbling assignments.
+"""
+
+import json
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "lu163-wobbling-phonon-audit-023.json"
+
+    # 1. One-phonon data (Odegard 2001)
+    delta_nw1 = -3.10
+    e2_pct_nw1 = round((delta_nw1**2 / (1 + delta_nw1**2)) * 100, 2)
+    b_ratio_nw1 = 0.22
+    b_ratio_err_nw1 = 0.03
+    assumed_b_in_wu = 120.0
+    b_out_nw1_wu = round(b_ratio_nw1 * assumed_b_in_wu, 1)
+
+    # 2. Two-phonon data (Jensen 2002 Table II, 476 keV transition)
+    delta_nw2_large = -3.60
+    e2_pct_nw2_large = round((delta_nw2_large**2 / (1 + delta_nw2_large**2)) * 100, 2)
+    b_ratio_nw2_large = 0.51
+    b_ratio_err_nw2_large = 0.13
+
+    delta_nw2_small = -0.19
+    e2_pct_nw2_small = round((delta_nw2_small**2 / (1 + delta_nw2_small**2)) * 100, 2)
+    b_ratio_nw2_small = 0.019
+
+    ratio_large_over_small = round(b_ratio_nw2_large / b_ratio_nw2_small, 2)
+    harmonic_ratio_expected = 2.0
+    harmonic_ratio_observed_large = round(b_ratio_nw2_large / b_ratio_nw1, 2)
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 023: 163Lu TSD Wobbling Phonon Scaling and Selection-Root Audit",
+        "benchmark_nucleus": "163Lu (Z=71, N=92, TSD pi i13/2 benchmark wobbler)",
+        "sources": [
+            "Odegard et al. 2001 Phys. Rev. Lett. 86, 5866 (Evidence for the wobbling mode in nuclei)",
+            "Jensen et al. 2002 Phys. Rev. Lett. 89, 142503 (Evidence for second-phonon nuclear wobbling)",
+            "Hamamoto 2002 Phys. Rev. C 65, 044305 (Wobbling excitations in odd-A nuclei with high-j aligned particles)"
+        ],
+        "one_phonon_nw1_audit": {
+            "band_pair": "TSD2 -> TSD1 (nw=1 -> nw=0)",
+            "adopted_mixing_ratio": delta_nw1,
+            "E2_fraction_pct": e2_pct_nw1,
+            "polarization_status": "Measured P > 0, electric character confirmed, uniquely eliminating small-delta root",
+            "B_E2_out_over_in_ratio": b_ratio_nw1,
+            "estimated_B_E2_out_Wu": b_out_nw1_wu,
+            "collective_verdict": "Genuine collective wobbling confirmed (B(E2_out) > 25 W.u., ~500x larger than in 135Pr)"
+        },
+        "two_phonon_nw2_audit": {
+            "band_pair": "TSD3 -> TSD2 (nw=2 -> nw=1)",
+            "decisive_transition_keV": 476.0,
+            "large_root": {
+                "delta": delta_nw2_large,
+                "E2_fraction_pct": e2_pct_nw2_large,
+                "B_E2_out_over_in": b_ratio_nw2_large,
+                "error": b_ratio_err_nw2_large
+            },
+            "small_root": {
+                "delta": delta_nw2_small,
+                "E2_fraction_pct": e2_pct_nw2_small,
+                "B_E2_out_over_in": b_ratio_nw2_small
+            },
+            "divergence_between_roots": f"{ratio_large_over_small}x",
+            "polarization_status": "Failed due to counting statistics; small root rejected on theoretical consistency (circular logic)",
+            "harmonic_scaling_comparison": {
+                "harmonic_predicted_ratio": harmonic_ratio_expected,
+                "observed_ratio_with_large_root": harmonic_ratio_observed_large,
+                "status": "Numerically consistent only when large root is assumed a priori"
+            }
+        },
+        "anharmonicity_and_quasiparticle_coupling": {
+            "cross_phonon_transitions": "8 Delta I = 2 transitions established connecting TSD3 directly to TSD1 (Delta nw = 2)",
+            "harmonic_model_prediction": "B(E2; Delta nw = 2) == 0 (strictly forbidden)",
+            "microscopic_origin": "Strong Coriolis coupling with aligned pi i13/2 quasiproton breaks simple triaxial rotor harmonicity (Hamamoto 2002)"
+        },
+        "evidence_gate_rules": [
+            "严禁在未测定康普顿散射线偏振不对称度或内转换系数前，仅凭“大模解数值逼近简谐双声子模型预测（2x）”挑选大模解；模型倾向性挑选不构成独立的实验确证，属于循环论证谬误。",
+            "确证多声子摆动激发（nw >= 2）必须满足：(1) 带间跃迁线偏振排他性确立 E2 主导（|delta| >> 1）；(2) 排除或微观自洽重现向零声子带的 Delta nw >= 2 跨声子非谐性跃迁分支；(3) 必须测量绝对能级寿命，严禁将相对分支比直接视为内禀几何证明。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 023 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

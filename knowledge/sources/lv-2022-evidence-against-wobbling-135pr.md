@@ -35,6 +35,8 @@ tags: [a130, 135pr, wobbling-counter-evidence, jurogam-ii, qtr, tilted-precessio
 
 # Lv 等（2022）：反对 `135Pr` 低自旋带 wobbling 指认的证据
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.physletb.2021.136840`。题名、作者、年份与 DOI 和只读 BibTeX 条目唯一匹配，使用 citation key `lv_2022_Evidencewobbling`。
@@ -177,3 +179,16 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | L22-D20-R146-1 | 新实验联合P-Rac分析给小模δ，作者据此反对所述低spin带wobbling并提出TiP。三线P误差端点跨0，不能仅用中心符号声称唯一排除。0.12与.843之比是派生输出中央比，不是恢复真实共同likelihood。旧124等生成分析的726keV、δ−3.20/−.18、P−.16(4)与34→1.17W.u.链未受此原表支持，继续隔离；不推广到La/Xe无偏振或全区排除。 | prior-primary-audit-and-transfer-boundary | source-and-bounded-self-audit | L22-D20-R41-1至R41-3; Table1/Fig2/SI Table1 | true |
+
+## Day 21周考对比：135Pr多极双解简并与摇摆模式证伪（Checkpoint 003）
+
+## Day21 checkpoint055：135Pr带间相对几率与绝对强度边界审计
+
+124纠正：R55不证明所有候选被唯一排除或普适禁戒；保作者联合分析/小模解与TiP解释。旧全文见superseded-124，不声称本轮新读这些原件全文。原review与原始claims/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV22-D21-1 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| L22-D21-R55-1 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| L22-D21-R55-2 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| L22-D21-R55-3 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |

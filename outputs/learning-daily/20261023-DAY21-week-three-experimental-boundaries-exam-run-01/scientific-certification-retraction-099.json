@@ -1,0 +1,51 @@
+{
+  "scope": "explicit retraction of task certification, not withdrawal of original experiments",
+  "superseded": [
+    {
+      "artifact": "sn100-gt-phase-space-audit-078.json",
+      "reason": "nonrelativistic Sommerfeld beta+ integral mislabeled relativistic/original f; no EC; 105.5% is ratio of ratios, not explained fraction"
+    },
+    {
+      "claims": [
+        "HK10-D21-R84-1",
+        "LB16-D21-R84-1"
+      ],
+      "reason": "compound original-source claims mixed own calculations with author results and misidentified sample/components",
+      "replacement": [
+        "HK10-D21-R99-1",
+        "HK10-D21-R99-2",
+        "HK10-D21-R99-3",
+        "LB16-D21-R99-1",
+        "LB16-D21-R99-2",
+        "LB16-D21-R99-3",
+        "LB16-D21-R99-4"
+      ]
+    },
+    {
+      "artifacts": [
+        "cross-pillar-synthesis-062.json",
+        "cross-pillar-synthesis-081.json"
+      ],
+      "reason": "consistency computed from hard-coded verified labels rather than source checks"
+    },
+    {
+      "sections": [
+        "Day21 Checkpoint093",
+        "Day21 Checkpoint094",
+        "Day21 Checkpoint095"
+      ],
+      "reason": "causal compensation, universal truncation bias, and polarization unique-root assertions exceed already verified scopes",
+      "replacement": "targeted 099 corrections; 043/047/167 remain in force"
+    },
+    {
+      "score": "22/24",
+      "reason": "source attribution and classification errors; provisional 16/24 open-book self-audit replaces it"
+    }
+  ],
+  "warnings": [
+    "84 composite rows now explicitly superseded; original review/flags retained",
+    "earlier check files lacking actual command returns do not certify lint/native execution",
+    "historical checkpoint metadata and old JSON preserved; do not use their passed fields as evidence"
+  ],
+  "raw_unchanged_by_this_script": true
+}

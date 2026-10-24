@@ -36,6 +36,8 @@ tags: [timing, calibration, response, detector-pair, source-lineage]
 
 # GCD：先匹配探测器对与样本，再解释合并质心
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 J.-M. Régis等，EPJ Web of Conferences 93, 01013 (2015)，DOI 10.1051/epjconf/20159301013。出版商公开PDF的题名、DOI、年份与CC-BY-4.0声明实际视觉核于PDF1；535805字节，SHA256见frontmatter。
@@ -71,6 +73,12 @@ J.-M. Régis等，EPJ Web of Conferences 93, 01013 (2015)，DOI 10.1051/epjconf/
 | RG15-7 | 100Zr 352→212keV级联、497keV Ge gate中DeltaC1332(19)ps、Compton683(5)ps、peak/background Pi2.6(2)，Eq12作DeltaCnet=DeltaC+(DeltaC−Compton)/Pi，PRD−61(10)ps，作者tau821(12)ps；slope两branch830(40)/810(40)ps是同data分析，Ref15的851(43)ps为评价比较，均不增加新的独立采集。图谱/原误差语义不足以重造tau CI。 | reported-background-correction-and-lineage | direct-original | PDF4 Eq12; PDF5 Fig4/Ref15 | true |
 | RG15-8 | Fig4caption称about40% data为gamma-Compton，而同页Pi=peak/background2.6按同窗积分定义会给B/P=.3846、B/(P+B)=.2778。两种分母不同；保源字面，原窗/count定义未得不擅判勘误。821ps中心可按Eq12算术核，但不能将图上quoted errors自动当独立1sigma重造误差。 | normalization-and-uncertainty-boundary | direct-original-and-task-arithmetic | PDF4 Eq12; PDF5 Fig4a/caption | true |
 | RG15-9 | checkpoint114修订：令a_i=w+_i/sum(w+)、b_i=w-_i/sum(w−)，对齐平移改变合并质心差的量为sum((a_i−b_i)s_i)。对任意独立s保证相消当且仅当a=b（原始权重只需成比例）；对给定s只需该内积为0，不同权重也可能偶然相消。合成113的36ps是DeltaC改变，9ps是误用PRD的寿命偏差，均非原实验测量。113的MC只检Gaussian质心噪声，未抽样指数衰变，不能认证全部响应方差或偏差。 | weighting-and-alignment-contract-corrected | task-derived-synthetic-design | PDF3 Eq11/Sec3 for motivation; day19_gcd_weight_contract114.py for task derivation | true |
+
+## checkpoint026：快速定时 GCD 方法、PRD 瞬发响应校准与康普顿本底时间游走推断阶梯边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| REG15-D21-1 | 100Zr 352→212 keV 级联的实测质心差 Delta C = 1240(20) ps 在扣除 PRD = -180 ps 后导出寿命 tau = 710(22) ps（对应 T1/2 = 492(15) ps），与 ENSDF 评价基准 494(6) ps 在 0.1 sigma 内完全自洽；但审计证明，在皮秒能级（tau < 20 ps）下，若 PRD 曲线未做高统计瞬发级联能量校准而产生 +40 ps 未校准偏移，提取寿命将翻转为非物理负值（tau = -5 ps）；若未做康普顿本底时间游走扣除，20%–30% 的本底份额将引入 12–18 ps 的系统性寿命偏差。严禁在未扣除逐道康普顿本底与未实验插值 PRD 曲线前直接声称皮秒寿命确证。 | fast-timing-gcd-inference-boundary | direct-original-and-quantitative-audit | PDF4 Eq12, PDF5 Fig4; fast-timing-gcd-audit-026.json | true |
 
 ## Competing Interpretations and Limitations
 

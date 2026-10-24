@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint113_almehed_rpa_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "almehed-rpa-scope-113.json",
+  "scope": "literal audit of small-amplitude linear expansion vs finite rotation and coordinate inversion Jacobian in Almehed 2011; not TAC+RPA code replay or experimental CI"
+}

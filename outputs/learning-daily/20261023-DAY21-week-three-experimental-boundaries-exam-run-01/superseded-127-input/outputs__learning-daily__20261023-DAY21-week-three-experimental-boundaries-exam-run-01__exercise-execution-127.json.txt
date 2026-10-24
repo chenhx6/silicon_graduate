@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-24T04:12:25.285868+00:00",
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint127_same_parent_covariance.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"output\": \"outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/same-parent-covariance-scope-127.json\", \"conditional_SD_envelope\": [0.015454356336241627, 0.19507195945323205], \"diagonal_case\": 0.13030346702799983, \"offset_derivative_per_keV\": 0.016568110688214132, \"new_CI\": null}\n",
+  "stderr": "",
+  "scope": "conditional local covariance and nuisance invariance; no actual fitted Cov or CI"
+}

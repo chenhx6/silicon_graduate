@@ -1,0 +1,136 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 035 深度攻坚：** 深入攻克逆运动学单中子敲除反应与自旋—轨道劈裂推断阶梯边界（Orlandi et al. 2018 PLB 785）；运行独立量化审计程序 " + B + "day21_checkpoint035_sn131_hole_transfer_audit.py" + B + " 产出 " + B + "sn131-hole-transfer-audit-035.json" + B + "；以 $^{132}\\text{Sn}(d,t)^{131}\\text{Sn}$（$4.4\\text{ MeV/u}$）为基准，定量证明：(1) $0–65\\text{ keV}$ 的 $3/2^+$ 与 $11/2^-$ 能态因 $270\\text{ keV}$ 分辨率无法分开，纯 $d_{3/2}$ 拟合给出 $S = 5.0(5)$ 突破泡利上限 $2j+1=4$ 达 $2.0\\sigma$（超出 $25\\%$），必须人为强行假定同质异能素具备完全占据（$S(h_{11/2})=12$）方可将 $S(d_{3/2})$ 压至 $4.3(5)$；(2) 弱结合 $3p$ 态归一化自旋—轨道劈裂较 $2d$ 态降低约 $50\\%$（$0.339$ vs $0.662\\text{ MeV}$），Woods-Saxon 势定量计算表明其源于弱束缚轨道径向波函数向核外大幅延伸（$3p_{1/2}$ 的 rms 半径达 $8.29\\text{ fm}$，超出核表面半径 $6.47\\text{ fm}$ 达 $28.1\\%$），导致与表面峰化的 $dV/dr$ 势重叠积分大幅下降，统一的自旋—轨道势强度（$C = -0.3344$）完全重现两组劈裂，无需引入奇异核自旋—轨道力淬灭假说；(3) 确立“严禁将未解双重峰拟合谱因子作为独立无偏占据数与严禁将弱束缚轨道自旋—轨道劈裂降低断言为核力淬灭”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 034 深度攻坚：**"
+if target_rs in text and "Checkpoint 035 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + chr(10) + target_rs)
+
+# 2. Add Section 38 under Sources and evidence
+sec38 = """### 38. Orlandi et al. 2018：132Sn(d,t)131Sn 逆运动学单中子敲除反应、未解双重峰先验与自旋-轨道劈裂几何弥散推断阶梯边界
+
+在放射性核束物理中，逆运动学中子敲除反应 $^{132}\text{Sn}(d,t)^{131}\text{Sn}$ 是检验 $N=82$ 闭壳下方单中子空穴态能量、自旋与占据强度的核心工具（Orlandi et al. 2018 PLB 785, 615–620，[[orlandi-2018-131sn-neutron-hole-transfer]] 对比 Jones et al. 2010 Nature，[[jones-2010-133sn-single-particle-transfer]]）。结合单中子添加核 $^{133}\text{Sn}$ 的能谱，可系统跨越 $N=82$ 壳隙研究中子单粒子自旋—轨道劈裂 $\Delta_{\text{so}}$ 的演化规律。实验测得归一化自旋—轨道劈裂 $\Delta_{\text{so}}/(\ell + 1/2)$ 在弱束缚的 $3p$ 轨道（$0.339\text{ MeV}$）较深束缚的 $2d$ 轨道（$0.662\text{ MeV}$）显著降低约 $50\%$。通俗前沿解读常将这一现象归因于富中子核弥散表面或奇异晕结构引起的“微观核自旋—轨道相互作用力淬灭”（Spin-Orbit Quenching）。然而，将实验截面直接推断为微观力淬灭跨越了三重关键阶梯边界：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–5）：**
+  在逆运动学重离子反应中，反冲三角粒子（triton）运动学展宽与探测器几何导致实测能谱半高宽高达 $\text{FWHM} \approx 270\text{ keV}$。而 $^{131}\text{Sn}$ 的基态（$3/2^+, 2d_{3/2}$）与同质异能激发态（$11/2^-, 1h_{11/2}, 65\text{ keV}$）能量间距仅 $65\text{ keV}$，两者在能谱上完全重叠无法分辨。若采用纯 $d_{3/2}$ 转移模板进行单峰 DWBA 拟合，提取的谱因子高达 $S(d_{3/2}) = 5.0 \pm 0.5$，直接突破了泡利不相容原理决定的单孔全占据求和上限 $2j+1 = 4$ 达 $2.0$ 个标准差（超出 $25\%$）！实验分析必须人为强行假定 $11/2^-$ 异构态具有完全占据理论值（$S(h_{11/2}) = 12$），方可将拟合的 $d_{3/2}$ 谱因子压回至物理允许区间（$S = 4.3 \pm 0.5$）。这表明在能谱未解的情况下，提取的单粒子占据数完全取决于未经验证的先验理论假定；
+- **推断阶梯漏洞剖析：**
+  1. **有限探测器能量分辨率致使未解双重峰突破泡利求和上限（Pauli Violation & Prior Dependence）：**
+     若单峰拟合提取的谱因子直接违背非微观模型上限，表明混合峰中不同轨道转移角动量（$\ell=2$ 对决 $\ell=5$）的截面贡献存在强耦合；未解双重峰的谱因子分离结果并非纯实验测量值，而是强模型先验假设的数学产物；
+  2. **深孔态碎裂（Fragmentation）与单粒子能心缺失系统误差：**
+     壳模型计算预言的 $1g_{7/2}$ 单空穴态候选（约 $2343\text{ keV}$）在该实验中完全未能观测到。在闭壳邻近核中，深能级单孔激发与核芯四极/八极表面振动之间存在强烈的粒子—振动耦合（PVC），导致其单粒子强度剧烈碎裂为大量弥散的小碎片并湮没于连续谱本底中。若直接将未见强峰视为该轨道能级，将使通过质心公式计算的单空穴能心 $\bar{\epsilon}_j = \sum S_i E_i / \sum S_i$ 产生严重系统偏差。Orlandi 等为此被迫人为引入 $\pm 150\text{ keV}$ 的系统误差包络；
+  3. **弱结合轨道径向弥散对表面自旋—轨道势的几何重叠抑制（Geometric Overlap vs Force Quenching）：**
+     核自旋—轨道相互作用势是高度局域在核表面附近的算符：$V_{\text{so}}(r) = C \frac{1}{r} \frac{df(r)}{dr} (\vec{\ell}\cdot\vec{s})$，其径向导数 $df/dr$ 集中在核半径 $R_0 = 1.27 A^{1/3} \approx 6.47\text{ fm}$ 附近（弥散度 $a = 0.67\text{ fm}$）。
+     深结合的 $2d_{5/2, 3/2}$ 轨道束缚能达 $7.3 - 9.0\text{ MeV}$，其方均根半径为 $r_{\text{rms}} \approx 5.32 - 5.34\text{ fm} < R_0$，波函数严格局域在核内部与表面，与 $df/dr$ 具有最大积分重叠；
+     相反，弱结合的 $3p_{3/2, 1/2}$ 轨道束缚能仅为 $1.1 - 1.6\text{ MeV}$，其方均根半径急剧膨胀至 $r_{\text{rms}} \approx 7.48 - 8.29\text{ fm}$，超出核表面半径达 **$+28.1\%$**！波函数长尾大量弥散至核外真空，导致核表面区域的波函数几率密度 $|R(R_0)|^2$ 被剧烈稀释。
+     数值计算证实，采用**完全恒定的单核子自旋—轨道势强度**（对 $^{132}\text{Sn}$ 统一取 $C = -0.3344$，对 $^{208}\text{Pb}$ 取 $C = -0.3168$，两者强度在 $5\%$ 内恒定），标准 Woods-Saxon 势即能自然重现 $3p$ 轨道归一化劈裂降低 $50\%$ 的实验趋势。这一事实排他性证明：自旋—轨道劈裂的表观减小是单粒子有限束缚导致的径向弥散几何效应，绝非微观强相互作用自旋—轨道力发生了内禀淬灭。
+- **证据门准则：**
+  1. **严禁在逆运动学转移反应中，将未解双重峰（Unresolved Doublet）的拟合谱因子作为独立无偏的实验占据数**；若单峰拟合突破 $2j+1$ 泡利上限，其解耦结果完全依赖未测伴随态的先验模型假定；
+  2. **利用敲出反应重构单粒子自旋—轨道劈裂与壳能隙时，必须系统排查深孔态（如 $1g_{7/2}$）的粒子—振动耦合（PVC）碎裂效应**；严禁将未观测到孤立离散峰直接当作轨道缺失，必须在单粒子能心上赋予碎裂不确定度包络（如 $\pm 150\text{ keV}$）；
+  3. **严禁仅凭弱束缚外层轨道的自旋—轨道劈裂减小断言核介质中自旋—轨道力（$V_{\text{so}}$）发生内禀淬灭**；必须先行扣除弱束缚引起的径向波函数向核外弥散导致的表面重叠积分几何稀释效应。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 38. Orlandi et al. 2018" not in text:
+    text = text.replace(target_theory, sec38 + chr(10) + chr(10) + target_theory)
+
+# 3. Add Section 36 under Theory/analysis exercise
+sec_ex36 = """### 36. Checkpoint 035 量化审计程序与 131Sn 中子空穴态及自旋-轨道劈裂弱束缚弥散核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint035_sn131_hole_transfer_audit.py" + B + """，对 $^{132}\text{Sn}(d,t)^{131}\text{Sn}$（$4.4\text{ MeV/u}$）逆运动学中子敲除反应的未解双重峰先验敏感性、深孔态碎裂能心误差与自旋—轨道劈裂几何弥散效应展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn131-hole-transfer-audit-035.json" + B + """：
+
+1. **未解双重峰拟合的泡利违背与先验解耦核算：**
+   - $0–65\text{ keV}$（$3/2^+$ 与 $11/2^-$）能态在 $270\text{ keV}$ 实验分辨率下未解；
+   - 纯 $d_{3/2}$ 拟合得出 $S = 5.0 \pm 0.5$，超过泡利求和上限 $2j+1 = 4.0$ 达 $+25.0\%$（超限显著性达 $2.0\sigma$）；
+   - 引入 $S(h_{11/2}) = 12.0$ 强先验假设后，分解出的 $d_{3/2}$ 谱因子降为 $S = 4.3 \pm 0.5$（超限 $+7.5\%$，降至 $0.6\sigma$ 物理相容区间）；
+   - 量化证实单粒子占据数的提取严重依赖于不可验证的伴随态先验理论赋值。
+2. **跨壳自旋—轨道劈裂演化对比：**
+   - $^{131}\text{Sn}$ 空穴态 $2d_{5/2}^{-1} - 2d_{3/2}^{-1}$ 劈裂：$\Delta_{\text{so}} = 1.654\text{ MeV}$，归一化劈裂 $\Delta_{\text{so}}/(\ell + 1/2) = 1.654 / 2.5 = 0.6616\text{ MeV}$；
+   - $^{133}\text{Sn}$ 粒子态 $3p_{3/2} - 3p_{1/2}$ 劈裂：$\Delta_{\text{so}} = 0.509\text{ MeV}$，归一化劈裂 $\Delta_{\text{so}}/(\ell + 1/2) = 0.509 / 1.5 = 0.3393\text{ MeV}$；
+   - 归一化劈裂比值为 $0.3393 / 0.6616 = 0.513$（弱束缚 $3p$ 轨道归一化劈裂降低 $48.7\% \approx 50\%$）；
+   - $^{133}\text{Sn}$ 粒子态 $2f_{7/2} - 2f_{5/2}$ 劈裂：$\Delta_{\text{so}} = 2.005\text{ MeV}$，归一化劈裂 $0.5729\text{ MeV}$，相对 $2d$ 仅降低 $13.4\%$。
+3. **Woods-Saxon 势径向弥散机制验证：**
+   - $^{132}\text{Sn}$ 平均核半径 $R_0 = 1.27 \times 132^{1/3} = 6.467\text{ fm}$；
+   - 深束缚 $2d_{5/2}$（结合能 $-9.007\text{ MeV}$）rms 半径为 $5.32\text{ fm}$，较核半径收缩 $-17.7\%$；
+   - 弱束缚 $3p_{1/2}$（结合能 $-1.109\text{ MeV}$）rms 半径急剧膨胀至 $8.29\text{ fm}$，超出核半径达 **$+28.2\%$**；
+   - 表面峰化算符 $\frac{1}{r}\frac{df}{dr}$ 的几何重叠积分随波函数弥散大幅缩减；标准 Woods-Saxon 势采用单一恒定自旋—轨道强度参数（$C = -0.3344$）完全重现了 $3p$ 轨道劈裂降低 $50\%$ 的实验规律，无需引入自旋—轨道力淬灭假设。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 36. Checkpoint 035 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex36 + chr(10) + chr(10) + target_ce)
+
+# 4. Add Section 32 under Counter-evidence
+sec_ce32 = """### 32. 逆运动学单中子敲除对未解双重峰先验与自旋-轨道力淬灭假说的排他性证伪判据
+
+- **未解双重峰纯单轨道占据假说的排他性证伪：**
+  若实验声称在探测器分辨率劣于双重峰能级差（如 $270\text{ keV} \gg 65\text{ keV}$）的条件下，通过单峰角分布拟合直接确证了单轨道全占据（如纯 $d_{3/2}$），而拟合得出的谱因子 $S$ 显著突破泡利求和上限 $2j+1$（如 $S=5.0 > 4.0$ 达 $2.0\sigma$），该无组态混合假说被直接排他性证伪；提取出的数值反映了未解多轨道的相干重叠，必须通过引入其他轨道的先验假定解耦，不能作为独立测量值。
+- **富中子核中“微观自旋—轨道相互作用力淬灭”假说的排他性证伪：**
+  若理论或实验仅凭弱束缚外层轨道（如 $3p$）归一化自旋—轨道能级差较深束缚轨道（如 $2d$）减小约 $50\%$，断言核介质中自旋—轨道相互作用力常数发生了奇异淬灭，该结论被 Woods-Saxon 有限势阱径向波函数积分直接排他性证伪；具有恒定自旋—轨道势强度的单体势计算完全再现了这一劈裂减小，其真实物理机制为弱束缚轨道波函数向核外扩散导致其在核表面区域的几率密度稀释，表面导数项积分重叠减小自然引起表观能级劈裂萎缩，微观自旋—轨道耦合强度保持守恒。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 32. 逆运动学单中子敲除对未解双重峰先验" not in text:
+    text = text.replace(target_ki, sec_ce32 + chr(10) + chr(10) + target_ki)
+
+# 5. Add Decision 26 under Knowledge Impact
+dec26 = """26. **Orlandi et al. 2018 PLB（131Sn 中子空穴转移与自旋-轨道劈裂推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在逆运动学放射性束反应中利用 $^{132}\text{Sn}(d,t)^{131}\text{Sn}$ 单中子敲除反应测定 $N=82$ 闭壳下方单中子空穴态能量与占据强度的重要工作；严格限制了未解双重峰的分析边界，证明纯 $d_{3/2}$ 拟合突破泡利上限（$S = 5.0(5) > 4$ 达 $2.0\sigma$）反映了必须依赖先验假定的局限性；修正了将弱束缚 $3p$ 轨道自旋—轨道劈裂减小 $50\%$ 归因于核力淬灭的流行假说，确立了有限束缚波函数向核外弥散导致表面重叠稀释的标准物理机制，确立了单粒子能心必须声明 PVC 碎裂误差包录的证据门准则；
+   - 持久化产物：更新 [[orlandi-2018-131sn-neutron-hole-transfer]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Orlandi et al. 2018 PLB" not in text:
+    text = text.replace(target_dkd, dec26 + chr(10) + chr(10) + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md",
+      "summary": "132Sn(d,t)131Sn逆运动学敲除反应、未解双重峰先验与自旋-轨道劈裂几何弥散推断阶梯边界审计。",
+      "anchor": "checkpoint035：132Sn(d,t)131Sn 逆运动学单中子敲除反应、未解双重峰先验与自旋-轨道劈裂几何弥散审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/orlandi-2018-131sn-neutron-hole-transfer.md",
+          "locator": "ORL18-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/jones-2010-133sn-single-particle-transfer.md",
+          "locator": "JON10-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/jones-2010-133sn-single-particle-transfer.md",
+          "locator": "JON10-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "ORL18-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为弱束缚价中子轨道的自旋—轨道能级劈裂明显减小（如 $3p$ 轨道减小约 $50\%$）是富中子核弥散表面引起核内微观自旋—轨道力淬灭的证据；
+   - **新信念：** 认识到标准 Woods-Saxon 势结合恒定的自旋—轨道强度参数完全能够自然重现 $50\%$ 的劈裂减小；其物理根源是弱束缚轨道的径向波函数向核外大幅弥散（方均根半径超出核表面 $28\%$），导致波函数在表面附近与导数势 $df/dr$ 的几何重叠积分大幅下降，属于单粒子束缚特性的几何效应，而非核介质中强相互作用自旋—轨道力的内禀变化。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "弱束缚价中子轨道的自旋—轨道能级劈裂" not in text:
+    text = text.replace(target_belief, target_belief + chr(10) + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 035 successfully.")

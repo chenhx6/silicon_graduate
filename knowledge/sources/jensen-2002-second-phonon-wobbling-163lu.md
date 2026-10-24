@@ -35,6 +35,8 @@ tags: [experiment-ingest, wobbling, two-phonon, triaxial-superdeformation, lutet
 
 # Evidence for Second-Phonon Nuclear Wobbling
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 PRL 89, 142503 (2002), DOI `10.1103/PhysRevLett.89.142503`; first-page title/DOI and BibTeX key `jensen_2002_EvidenceSecondPhonon` match.
@@ -185,3 +187,11 @@ Keep the 476-keV/Table II branch issue in source-local P0 until user review.
 | JE02-D18-1 | 本文声称实验确立核内首例二声子wobbling模式（TSD3），其核心电磁证据是唯一测得的TSD3->TSD2 476 keV连接线B(E2_out)/B(E2_in) = 0.51(13)，约为一声子比值0.21(1)的两倍（2.43倍），符合谐振子声子强度标度2B(E2_1)。定量审计揭示关键模型依赖：(1) 正文p.3明确承认476 keV线因统计不足‘不可能完成线偏振测量’，实验本身无法在两个DCO解间做出排他性裁决；(2) 若采纳实验同样允许的小解delta = -0.19(+8-12)，B(E2_out)/B(E2_in)遭遇26.8倍断崖式塌缩至仅0.019(+24-17)（由411.8 W.u.暴跌至15.3 W.u.），谐振子标度彻底瓦解为0.09倍；(3) Table I中6条TSD3->TSD1（Delta n = 2）跨带线平均B(E2_out)/B(E2_in)约为0.020（16.1 W.u.），均为纯伸展E2（Delta I = 2），且完全无Delta I = 0跃迁，这确立了多声子wobbling谐振弱退激的选择定则黄金基准，与低自旋反常候选核形成鲜明对照。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2-3 Tables I-II；新jensen02-163lu-wobbling-result-026 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen02-163lu-wobbling-contract-026.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen02-163lu-wobbling-result-026.json)4项检查全过。
+
+## Day 21 Checkpoint 023 证据门量化审计：163Lu 双声子候选带角分布选解漏洞与非谐性破缺
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint023_lu163_wobbling_phonon_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lu163-wobbling-phonon-audit-023.json），对 Jensen 2002 的双声子摇摆主张完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JE02-D21-1 | 依据推断阶梯审计，Jensen 2002 双声子摇摆主张存在重大推断阶梯漏洞：(1) 关键跃迁偏振缺失与循环论证：476-keV TSD3->TSD2 跃迁未测得线偏振，大解（delta=-3.60, B(E2_out)/B_in=0.51）与小解（delta=-0.19, B_out/B_in=0.019）相差 27 倍；作者排除小解完全基于“大解接近双声子 2x 预测”的模型偏好；(2) 简谐近似破缺：实验测得 8 条直接连接 TSD3 到 TSD1 的 Delta nw=2 跨声子跃迁（简谐模型严格禁戒），证明强非谐性与 pi i13/2 准核子非线性耦合（Hamamoto 2002）；(3) 确立“严禁依据理论预期挑选分支”的核心证据门准则。 | source-result-and-boundary | derived-and-boundary | pp.142503-1-4, Table II, Figs.4-5; lu163-wobbling-phonon-audit-023.json | true |

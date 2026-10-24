@@ -1,0 +1,116 @@
+---
+type: concept
+title: 摇摆运动
+aliases: [wobbling motion, nuclear wobbling, wobbling excitation, wobbling band]
+created: 2026-07-01
+updated: 2026-07-16
+status: active
+review_status: unreviewed
+concept_type: rotational-collective-mode
+confidence: medium
+high_confirmed_by:
+high_confirmed_date:
+tags: [triaxiality, collective-motion, high-spin]
+---
+
+# 摇摆运动（Wobbling Motion）
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Definition
+
+三轴转动体系中角动量相对本征主轴的进动型集体激发。存在准粒子时可按进动锥拓扑进一步分为 [[transverse-wobbling]]、[[longitudinal-wobbling]]，并可能经过 [[flip-mode]]。
+
+## Necessary Assumptions
+
+必须明确三轴形状、转动惯量排序、准粒子取向和 wobbling-phonon 带的对应关系。
+
+[[guo-2022-low-spin-wobbling-187au]] 强调 wobbling phonon 是高自旋、小进动角下的 harmonic approximation。总角动量按 `J=j+R` 耦合；当最低态约为 `J=j+1`、即 collective angular momentum `R≈1ħ` 时，集体转动极慢，难以形成该近似所要求的高自旋小角进动。必须定量检验近似是否仍有效，不能把一般低自旋 precession 自动等同于 wobbling phonon。
+
+[[lawrie-2020-tilted-precession-wobbling]] 进一步把一般 3D rotational/precessional bands 记为 [[tilted-precession-bands]]，并将 wobbling 限定为 `f(n,I)<<1` 时的 harmonic-phonon approximation。除小角条件外，wobbling bands 还应显示 excitation energies 和 interband transition probabilities 对 phonon number `n` 的量子化；一般 TiP bands 不要求这些特征。
+
+## Discriminating Observables
+
+- 相邻 n+1/n 候选带之间集体增强的 E2；
+- wobbling energy 及其随自旋演化；
+- 带内/带间 B(E2)、B(M1)；
+- 与普通 [[signature-partner-bands]] 的比较；
+- 模型中的角动量取向和进动锥。
+- approximation-condition function 与 phonon-number quantization。
+
+The 2026-07-16 experimental batch adds two important boundaries:
+
+- `E_wob` rising or falling is model/configuration/spin-interval dependent and cannot be used alone; [[nandi-2020-multiple-transverse-wobbling-183au]] reports an increasing initial transverse branch.
+- Predominant interband E2 is characteristic of many one-quasiparticle cases, but [[lv-2022-transverse-wobbling-136nd]] explicitly treats a two-quasiparticle candidate with an M1-dominated 751-keV link.
+
+## Supporting Evidence
+
+[[frauendorf-2024-wobbling-review]] 把集体增强 interband E2 作为核心实验标志。
+
+[[frauendorf-2018-beyond-unified-model]] gives the rotating-mean-field distinction between simple harmonic wobbling and transverse wobbling: the former is precession about the largest-moment axis, while a high-`j` aligned quasiparticle can drive a symmetry change and tilted `ΔI=1` sequence. The review-level equations do not replace nucleus-specific lifetimes and transition data.
+
+[[matta-2015-transverse-wobbling-135pr]] 报告 `135Pr` 候选带间 ΔI=1 transitions 的较大 E2 fractions 与正 polarization asymmetry，并由此提出 zero-/one-phonon wobbling pair。
+
+[[odegard-2001-evidence-wobbling-163lu]] provides the high-spin benchmark with polarization-selected E2-dominated links. [[timar-2019-transverse-wobbling-105pd]], [[biswas-2019-longitudinal-wobbling-133la]] and [[mukherjee-2023-transverse-wobbling-151eu]] extend the link-character paradigm to normal-deformed cases with different model interpretations.
+
+## Counter-evidence and Competing Interpretations
+
+[[chakraborty-2023-131xe-wobbling-origin]] 中，新序列的 ΔI=1 连接跃迁几乎为 M1，因而支持 signature partner 而非 wobbling。
+
+[[domscheit-1999-triaxial-superdeformation-163lu]] 曾把 `163Lu` SD2 提为 wobbling 的可能解释，但 SD1-SD2 linking transitions 及其多极性未能建立。该文因此是“相近转动惯量与模型三轴形变仍不足以识别 wobbling”的非 A≈130 限制案例。
+
+[[guo-2022-low-spin-wobbling-187au]] 对 Sensharma 2020 的 `187Au` Band 2 links 得到 M1-dominated 小 `abs(δ)` 解，并用 QTR 提出 single-particle excitation；作者同时把 β/γ vibration 与 tilted precession 列为低自旋替代机制。该反方解释与支持方并列保留。
+
+Lawrie 2020 的 QTR/TiP comparison 显示 TiP bands 也可有 large mixing ratios 与增强 unstretched E2 links，因此 E2-dominated connecting transitions 是必要判据之一，但不单独证明 wobbling phonon nature。
+
+## Related Nuclei and Bands
+
+当前已建立 `135Pr` 双方证据、`131Xe` 反例链、`187Au` LW/single-particle 争议，并加入 [[163lu]] SD2 的未决原始实验案例。
+
+## Our Current Position
+
+三轴形变是 wobbling 的背景条件，不是充分证据；能量系统学必须与电磁跃迁共同使用。低自旋下还必须说明 wobbling approximation 的有效区间，并排除可产生类似 E2 links 的其他集体或单粒子机制。
+
+## Sources
+
+- [[odegard-2001-evidence-wobbling-163lu]]
+- [[jensen-2002-second-phonon-wobbling-163lu]]
+- [[chakraborty-2023-131xe-wobbling-origin]]
+- [[frauendorf-2024-wobbling-review]]
+- [[domscheit-1999-triaxial-superdeformation-163lu]]
+- [[matta-2015-transverse-wobbling-135pr]]
+- [[guo-2022-low-spin-wobbling-187au]]
+- [[lawrie-2020-tilted-precession-wobbling]]
+- [[experimental-wobbling-evidence-strength-map]]
+- [[frauendorf-2018-beyond-unified-model]]
+
+## Evolution Log
+
+- 2026-07-01（2 sources）：建立综述判据，并加入 `131Xe` 的反证案例。
+- 2026-07-03（3 sources）：加入 `163Lu` SD2；缺少 linking-transition 多极性时保留 wobbling 为推测。
+- 2026-07-03（4 sources）：加入 Matta 2015 的 `135Pr` 原始支持证据，不裁决后续争议。
+- 2026-07-04：加入 Guo 2022 对低自旋 wobbling approximation、mixing-ratio 范式与替代机制的批评。
+- 2026-07-04：加入 Lawrie 2020 的 TiP/3D rotation、`f(n,I)<<1` 与 phonon-quantization 边界。
+- 2026-09-20：加入 Frauendorf 2018 的 harmonic/transverse wobbling framework、symmetry-change and semiclassical limits。
+
+## Day 21 Checkpoint 023 证据门量化审计：多声子摆动激发判定准则与双解排他性门限
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint023_lu163_wobbling_phonon_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lu163-wobbling-phonon-audit-023.json），对原子核摆动运动（Wobbling Motion）的推断阶梯确立核心证据门规则：
+
+1. **单声子确证的绝对基准：**
+   单声子摆动模式（nw=1）的确证必须满足带间 Delta I = 1 跃迁由线偏振测量排他性锁定大模解（|delta| >> 1），且具有巨大的集体增强电四极跃迁强度 B(E2_out) >= 20–30 W.u.（如 163Lu TSD2 实测 25–35 W.u.，比 135Pr 大数百倍）。
+2. **多声子指认中禁止循环论证：**
+   严禁在未测定线偏振或内转换系数前，仅凭“大模解数值逼近简谐双声子模型预测（2x）”作为挑选大模解的依据；这种模型倾向性挑选属于典型的循环证实谬误。
+3. **简谐近似破缺与非谐性伴随检验：**
+   多声子摆动必须核查向零声子带的 Delta nw >= 2 跨声子跃迁。若观测到显著的跨声子直接退激（如 163Lu TSD3->TSD1 观测到 8 条跃迁），排他性证明简单玻色子谐振子模型破缺，必须由包含奇核子非线性对齐耦合的微观模型展开自洽解算。
+
+## Day 21 Checkpoint 116 证据门升级：角分布多极双解排他性、极化确证与低自旋摇摆模式证伪
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及成对实证审计（[[matta-2015-transverse-wobbling-135pr]], [[lv-2022-evidence-against-wobbling-135pr]]），对摆动运动概念的实验判决标准确立严格的推断阶梯：
+
+1. **多极混合比双解严禁由模型预期裁决：**
+   单粒子方向未被绝对约束时，角分布与方向关联（DCO）拟合天然具有两个极小解（通常为一个 $|\delta| < 1$ 的 M1 主导解与一个 $|\delta| > 1$ 的 E2 主导解）。Matta 2015 在 135Pr 中在偏振不确定度较大时受模型偏好引导选择了大模 E2 解（$\delta = -1.24, -1.54$），使表观跃迁符合横向摇摆理论。确立“严禁在未测定确定偏振或转换系数前，仅凭大模解符合理论模型预期而挑选该解”的证据门准则。
+2. **联合偏振排他确证与摇摆模式证伪：**
+   Lv 2022 联合高精度线偏振与两点角关联比值（P-Rac），唯一排他性地锁定了小模解（$\delta \approx -0.47, -0.37, -0.31$），确立三条带间连接跃迁具有 82%–91% 的 M1 成分；结合测得的 $B(E2; 747)/B(E2; 526) = 0.7(+0.7/-0.5)$ 违背了摇摆声子禁戒退激至旋称伙伴带的选择定则，彻底否定了 135Pr 的横向摇摆指认。
+3. **低自旋集体转动与简谐近似破缺：**
+   摇摆声子概念严格建立在高自旋、小进动角下的简谐近似（$f(n, I) \ll 1$）基础之上。在低自旋区（$R \approx 1–2\ \hbar$），核芯集体转动极其缓慢，三维进动容易表现为非简谐的倾斜进动（TiP）甚至单粒子激发，不能将一般的三维进动带自动等同于量子化的摇摆声子激发。

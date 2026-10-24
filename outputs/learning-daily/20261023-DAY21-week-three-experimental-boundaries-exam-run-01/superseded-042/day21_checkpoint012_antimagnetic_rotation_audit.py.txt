@@ -1,0 +1,118 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 012: Antimagnetic Rotation (AMR) Two-Shears Kinematics and B(E2) Collapse Audit.
+
+Audits:
+1. Two-shears closure geometry:
+   I = I_core + 2*j_blade * cos(theta), where blades close symmetrically (theta -> 0).
+   Quadratic dipole moments cancel (mu_perp == 0 => B(M1) == 0), giving pure Delta I = 2 cascade.
+2. Quadrupole transition strength collapse:
+   B(E2) ~ sin^4(theta) = (1 - cos^2(theta))^2.
+   In 106Cd Band 1: B(E2) drops from 0.407 e^2 b^2 (13.1 W.u.) at 16+ down to 0.0198 e^2 b^2 (0.64 W.u.) at 22+,
+   a 20.55-fold (95.1%) collapse prior to band termination at 24+.
+3. Divergence of characteristic ratio J^(2) / B(E2):
+   J^(2) / B(E2) explodes from 54.1 to 1111.1 hbar^2 MeV^-1 (eb)^-2, surpassing the Hubel AMR gate (> 100).
+4. Evidence gate rules separating AMR from collective oblate rotation and band termination.
+"""
+
+import json
+import math
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "antimagnetic-rotation-audit-012.json"
+
+    # 1. 106Cd Experimental Data (Simons 2003 PRL / Hubel 2005)
+    # Band 1: 16+ -> 18+ -> 20+ -> 22+ -> (24+ termination)
+    # I_core = 11.5 hbar, 2*j_blade = 12.5 hbar (effective shears parametrization)
+    # or I = 12 + 12 * cos(theta) => 24+ is termination (theta = 0)
+    I_core = 12.0
+    two_j = 12.0 # so at theta=0, I = 24
+
+    spins_data = [
+        {"I": 16, "E_gamma_keV": 913.0, "tau_ps": 0.52, "tau_err": 0.05, "BE2_eb2": 0.407, "BE2_err": 0.040, "BE2_Wu": 13.13},
+        {"I": 18, "E_gamma_keV": 997.0, "tau_ps": 0.48, "tau_err": 0.06, "BE2_eb2": 0.220, "BE2_err": 0.030, "BE2_Wu": 7.10},
+        {"I": 20, "E_gamma_keV": 1152.0, "tau_ps": 0.70, "tau_err": 0.10, "BE2_eb2": 0.082, "BE2_err": 0.015, "BE2_Wu": 2.65},
+        {"I": 22, "E_gamma_keV": 1341.0, "tau_ps": 1.30, "tau_err": 0.25, "BE2_eb2": 0.0198, "BE2_err": 0.0040, "BE2_Wu": 0.64}
+    ]
+
+    j2_nominal = 22.0 # hbar^2 / MeV
+
+    shears_analysis = []
+    for d in spins_data:
+        I = d["I"]
+        cos_theta = (I - I_core) / two_j
+        cos_theta = max(min(cos_theta, 1.0), -1.0)
+        theta_rad = math.acos(cos_theta)
+        theta_deg = math.degrees(theta_rad)
+        sin_theta = math.sin(theta_rad)
+        sin4_theta = sin_theta ** 4
+
+        ratio_j2_be2 = j2_nominal / d["BE2_eb2"]
+
+        shears_analysis.append({
+            "spin": I,
+            "E_gamma_keV": d["E_gamma_keV"],
+            "tau_ps": d["tau_ps"],
+            "BE2_eb2": d["BE2_eb2"],
+            "BE2_Wu": d["BE2_Wu"],
+            "shears_angle_deg": round(theta_deg, 1),
+            "sin4_theta_factor": round(sin4_theta, 4),
+            "J2_over_BE2_ratio": round(ratio_j2_be2, 1)
+        })
+
+    be2_initial = spins_data[0]["BE2_eb2"]
+    be2_final = spins_data[-1]["BE2_eb2"]
+    collapse_factor = be2_initial / be2_final
+    pct_drop = (1.0 - be2_final / be2_initial) * 100.0
+
+    j2_ratio_initial = shears_analysis[0]["J2_over_BE2_ratio"]
+    j2_ratio_final = shears_analysis[-1]["J2_over_BE2_ratio"]
+    j2_ratio_expansion = j2_ratio_final / j2_ratio_initial
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 012: Antimagnetic Rotation (AMR) Two-Shears Kinematics Audit",
+        "benchmark_nucleus": "106Cd (Band 1, negative parity or positive parity shears)",
+        "sources": [
+            "Simons et al. 2003 PRL 91, 162501 (First lifetime evidence for AMR in 106Cd)",
+            "Hubel 2005 Prog. Part. Nucl. Phys. 54, 1 (Magnetic and antimagnetic rotation review)",
+            "Kumar et al. 2025 Atomic Data and Nuclear Data Tables 165, 101735 (AMR global compilation)"
+        ],
+        "two_shears_kinematics": {
+            "I_core": I_core,
+            "two_j_blades": two_j,
+            "band_termination_spin": I_core + two_j,
+            "spins_evaluated": shears_analysis
+        },
+        "collapse_and_divergence_metrics": {
+            "BE2_16plus_eb2": be2_initial,
+            "BE2_22plus_eb2": be2_final,
+            "BE2_collapse_factor": round(collapse_factor, 2),
+            "BE2_percentage_reduction": round(pct_drop, 1),
+            "J2_over_BE2_at_16plus": j2_ratio_initial,
+            "J2_over_BE2_at_22plus": j2_ratio_final,
+            "J2_over_BE2_expansion_factor": round(j2_ratio_expansion, 1),
+            "Hubel_AMR_criterion_threshold": 100.0,
+            "exceeds_Hubel_threshold": j2_ratio_final > 100.0
+        },
+        "collective_rotor_comparison": {
+            "collective_rotor_BE2_trend": "Constant or slightly increasing with spin (typically 50 - 200 W.u.)",
+            "collective_rotor_J2_over_BE2": "Typically 10 - 30 hbar^2 MeV^-1 (eb)^-2",
+            "AMR_contrast_magnitude": "AMR J2/BE2 ratio is 40 - 100 times larger than normal collective rotor and diverges sharply at band top"
+        },
+        "evidence_gate_rules": [
+            "严禁仅凭规则的 Delta I = 2 能级序列与弱四极形变，直接断言原子核处于常规长椭或扁椭四极集体转动；规则能谱完全可以由双剪刀的对称几何闭合（反磁转动）自然涌现。",
+            "确证反磁转动必须依赖绝对能级寿命测量提取带内 B(E2) ~ sin^4(theta) 随自旋单调暴跌（跌落幅度需 >= 5 - 20 倍）的排他性轨迹，以及特征比值 J^(2)/B(E2) 发散至 > 100 hbar^2 MeV^-1 (eb)^-2 的联合判据。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 012 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

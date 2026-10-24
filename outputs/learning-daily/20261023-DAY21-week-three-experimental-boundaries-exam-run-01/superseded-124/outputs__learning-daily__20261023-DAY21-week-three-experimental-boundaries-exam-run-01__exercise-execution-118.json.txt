@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint104_same_parent_identifiability.py",
+    "system/scripts/day21_checkpoint055_wobbling_multipolarity_audit.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "same-parent-identifiability-104.json, wobbling-multipolarity-audit-055.json",
+  "scope": "deep synchronization of multipole-mixing-ratio observable layer with same-parent identifiability algebra and angular distribution ambiguity resolution; not new experimental CI"
+}

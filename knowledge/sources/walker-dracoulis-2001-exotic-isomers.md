@@ -29,6 +29,8 @@ tags: [isomer, K-trap, spin-trap, deformed-nuclei, review]
 
 # Exotic Isomers in Deformed Atomic Nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - P. M. Walker and G. D. Dracoulis, *Hyperfine Interactions* **135**, 83–107 (2001).
@@ -86,3 +88,14 @@ Small energy differences, configuration mixing, K mixing, decay-path availabilit
 ## Extracted Pages
 
 - Concepts: high-spin isomerism, K traps (source-level).
+
+## Day21周考推断阶梯审计：长寿命高 K 异构态与归一化阻退度证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint016_k_isomer_hindrance_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/k-isomer-hindrance-audit-016.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| WD01-D21-1 | Walker & Dracoulis 2001 综述确立长寿命高 $K$ 异构态推断阶梯边界：在理想轴对称长椭核中，近似 $K$ 守恒导致电磁跃迁受阻，经验归一化阻退度遵循 $f_
+u \sim 100$；但在实际核谱学中，超低阻退（$f_
+u \sim 1 - 5$）既可源于局域能级近简并诱发的小矩阵元共振混合（如 $^{178}	ext{Hf}$ 与 $^{174}	ext{Hf}$），亦可由科里奥利力随角动量驱动的动态准粒子混杂所致，绝非静态非轴三轴形变（$\gamma > 0$）的独占指纹。推断阶梯确立：严禁用单一 $f_
+u$ 数值裁决核的三轴不对称性，确证三轴性必须依赖多步库仑激发四极不变量或横向集体激发模式的直接测量。 | claim-boundary-audit | direct-and-derived | Hyp. Int. 135, 83 pp.83-91; k-isomer-hindrance-audit-016.json | true |

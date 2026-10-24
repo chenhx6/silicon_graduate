@@ -831,3 +831,13 @@ RG11-D19-12说明Table5.1多个模型全在2→0得到7.03eb来自共同B归一�
 160把−.24eb的E2 RME误作Qs再除转换因子，又用了.580而非TableIII的.535eb跨带RME，旧61.98%与2.63倍撤回；旧角度数字取自早期账本，不能由160的错误输入推得；按[[ayangeakaa-2023-ge76-coulomb-excitation-full]] AY23-D20-R147-2的同相位输入重算，仍只是截断中心值变换。161的176.89为声明前三2态模型中未测d33的导数比；小系数不等基态免疫，穿零不证明该d33已物理可达或完成形状归属。
 
 167实际重算：按同相位TableIII打印输入D11=−.24eb、D12=.535eb，首对角回路−.06640224eb³、两跨带回路+.05009098eb³、D22回路+.00205946eb³；跨带/首对角绝对比75.4357%，含D22的二态净aDa为−.01425180eb³，首对角相对灵敏度系数4.65922。逐一加入前三2态的有效角22.5194°、28.4985°、28.0246°重现147，但并非真实gamma或收敛证明。官方FINT在幅度Q∈{1,2}、等权时4.445793<真M3=4.5；同两幅度权重.9/.1时1.722840>真M3=1.7，故偏差符号不普适。结果与输入hash见evidence-scope-repair-result-167.json；第一版候选反例未过断言，修正后才得到这组反例，不把失败当通过。
+## Day21 Checkpoint094 推断阶梯边界：跃迁四极矩反演与推断阶梯七大支柱规范
+
+099修订：本节不能覆盖上方canonical167。由B换Qt需明确转轴/K/CG与混合；候选K的几何差不能识别真实producer或把中心残差归零。交叉处强度变化可以包含波函数混合，也可能有形变变化；单凭下降不识别主因。见[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1/4。
+
+[[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/4给四阶幅度方差与六阶角度量的区别；内部路径截断可让方差增加或减小。[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2保作者低自旋rigid解释。未取得本核遗漏强度/联合输入时，不称已证明Ge伪刚性，亦不宣布刚软充要判据。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+canonical167及上方094/099的限定继续有效。[[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-4允许内部截断方差双向改变。[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1的Q比仅在该模型内提取；不能拿135Nd的平方根B比反认形变。

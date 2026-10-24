@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-24T04:02:36.539984+00:00",
+  "records": [
+    {
+      "path": "raw/papers/day21-20261023/mutschler-2017-34si-proton-density-bubble.pdf",
+      "sha256": "eb0450b2cfee9fc52098668d090db23b7e728899ec1116528d827e90a6b09a85",
+      "action": "read-only existence/hash verification; creation provenance not attributed to124"
+    },
+    {
+      "path": "raw/papers/day21-20261023/yao-2012-34si-beyond-mean-field-bubble.pdf",
+      "sha256": "a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2",
+      "action": "read-only existence/hash verification; creation provenance not attributed to124"
+    }
+  ]
+}

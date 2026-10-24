@@ -1,0 +1,27 @@
+
+path = "system/handoff.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Update header
+text = text.replace("## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 034）", "## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 035）")
+
+cp035_entry = """Checkpoint 035实质推进：
+(1) 131Sn 中子空穴转移与跨壳自旋—轨道劈裂几何弥散推断边界审计（Orlandi 2018 PLB 785 对照 Jones 2010 Nature 465）：深入剖析逆运动学中子敲除反应 132Sn(d,t)131Sn（4.4 MeV/u）在 N=82 壳隙下方单中子空穴态提取与自旋—轨道劈裂演化中的推断阶梯边界；
+(2) 量化程序审计：运行独立程序 day21_checkpoint035_sn131_hole_transfer_audit.py 产出 sn131-hole-transfer-audit-035.json（3 项物理控制全过）；
+(3) 未解双重峰对泡利求和上限的直接违背：实测 270 keV 能量分辨率无法分辨 0–65 keV 的 3/2+ 与 11/2- 能态；纯 d3/2 单峰拟合得出 S = 5.0(5) 突破泡利上限 2j+1=4 达 2.0 sigma（超出 25%）；唯有强行假定同质异能素完全占据（S(h11/2)=12）方可使 S(d3/2) 降至 4.3(5)，揭示出单态占据数严重依赖不可验证先验理论的推断漏洞；
+(4) 深孔态 PVC 碎裂与能心误差包络：预言的 1g7/2 单空穴态（2343 keV）因粒子—振动耦合剧烈碎裂未能观测到，必须赋予至少 +/-150 keV 的单粒子能心不确定度；
+(5) 弱结合轨道径向弥散与自旋—轨道力淬灭假象证伪：弱结合 3p 态归一化劈裂较 2d 态降低 50%（0.339 vs 0.662 MeV）；证明 3p1/2 的 rms 半径达 8.29 fm（超出核表面 28.1%），波函数长尾稀释了其在表面附近与导数势 dV/dr 的几何重叠积分；单一恒定自旋—轨道势强度（C = -0.3344）完全重现两组劈裂，排他性证伪了奇异核自旋—轨道力淬灭假说；
+(6) 证据门新准则：确立“严禁将未解双重峰拟合谱因子作为独立无偏占据数与严禁将弱束缚轨道自旋—轨道劈裂降低断言为核力淬灭”的核心准则；
+(7) 知识库更新：更新 orlandi-2018-131sn-neutron-hole-transfer.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（79 篇知识页 valid: true）。
+"""
+
+target = "Checkpoint 034实质推进："
+if target in text and "Checkpoint 035实质推进：" not in text:
+    text = text.replace(target, cp035_entry + chr(10) + target)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated system/handoff.md to Checkpoint 035 successfully.")

@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "system/scripts/day21_checkpoint006_octupole_ba_audit.py"
+  ],
+  "exit_code": null,
+  "evidence": "124 correction: no matching new argv execution was recorded; prior artifacts are not new execution evidence",
+  "output": "octupole-ba-audit-006.json",
+  "scope": "deep synchronization of octupole deformation and softness concept layers with parity displacement delta E(I) and zero-point energy barrier balance; not new experimental CI",
+  "superseded_execution_assertion": true,
+  "executed_in_this_checkpoint": false,
+  "record_type": "historical-artifact-reference-only"
+}

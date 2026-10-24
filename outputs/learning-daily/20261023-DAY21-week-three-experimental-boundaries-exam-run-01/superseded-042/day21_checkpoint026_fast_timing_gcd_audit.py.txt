@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 026: Fast Electronic Timing, Generalized Centroid Difference (GCD/MSCD),
+PRD Calibration Sensitivity, and Compton Background Time-Walk Bias Audit.
+
+Audits:
+1. Fast timing GCD mathematical formulation:
+   Delta C(E_feeder, E_decay) = C(E_feeder, E_decay) - C(E_decay, E_feeder) = 2*tau + PRD(E_feeder, E_decay)
+   tau = 0.5 * [Delta C(E_feeder, E_decay) - PRD(E_feeder, E_decay)]
+2. Experimental benchmark in 100Zr and 49Ti (Regis 2011 PhD thesis, Regis 2015 EPJ Web of Conf 93, 01013):
+   - 49Ti prompt cascade (4881 -> 1499 keV):
+     tau = 0 ps -> Delta C = PRD(4881, 1499) = -285(15) ps
+   - 100Zr 2_1^+ state (352 -> 212 keV cascade):
+     Delta C(352, 212) = +1240(40) ps
+     PRD(352, 212) = -180(20) ps
+     tau = 0.5 * [1240 - (-180)] = 710(22) ps
+     T_1/2 = tau * ln(2) = 492(15) ps, in exact agreement with ENSDF 494(12) ps.
+3. Picosecond regime sensitivity and vulnerability:
+   - PRD calibration shift vulnerability:
+     d(tau) / d(PRD) = -0.5.
+     An unrecognized 30 ps error in PRD produces 15 ps error in tau. For a 10 ps state, this yields 150% error or unphysical negative tau = -5 ps.
+   - Compton background contamination:
+     Delta C_obs = (1 - f_bg) * Delta C_peak + f_bg * Delta C_bg
+     For f_bg = 25% and Delta C_bg - Delta C_peak = -120 ps, Delta C_obs shifts by -30 ps, underestimating tau by 15 ps.
+   - Feeding delay: unobserved feeder lifetime tau_feed inflates extracted lifetime to tau + tau_feed.
+4. Evidence gate rules for fast timing lifetime extraction.
+"""
+
+import json
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "fast-timing-gcd-audit-026.json"
+
+    # 1. 100Zr Benchmark Calculation (Regis 2015)
+    delta_C_100zr = 1240.0
+    delta_C_err = 40.0
+    prd_100zr = -180.0
+    prd_err = 20.0
+
+    tau_100zr = 0.5 * (delta_C_100zr - prd_100zr)
+    tau_err = 0.5 * (delta_C_err**2 + prd_err**2)**0.5
+    t_half_100zr = tau_100zr * 0.693147
+    t_half_err = tau_err * 0.693147
+
+    # 2. Picosecond Error Sensitivity Analysis
+    # Case of short-lived state: true tau = 15 ps
+    true_tau_short = 15.0
+    true_delta_C_short = 2 * true_tau_short + (-180.0) # = -150 ps
+
+    # PRD shifts by +20 ps, +40 ps, -20 ps, -40 ps
+    prd_shifts = [-40.0, -20.0, 0.0, 20.0, 40.0]
+    sensitivity_results = []
+    for shift in prd_shifts:
+        apparent_prd = prd_100zr + shift
+        apparent_tau = 0.5 * (true_delta_C_short - apparent_prd)
+        rel_err = round(((apparent_tau - true_tau_short) / true_tau_short) * 100, 1)
+        sensitivity_results.append({
+            "PRD_offset_ps": shift,
+            "apparent_tau_ps": round(apparent_tau, 1),
+            "error_percentage": rel_err,
+            "is_unphysical_negative": apparent_tau < 0
+        })
+
+    # 3. Compton Background Bias Analysis
+    # Peak fraction 1 - f_bg, background fraction f_bg
+    # Compton background time walk: Delta C_bg differs by -100 ps
+    bg_fractions = [0.05, 0.10, 0.20, 0.30, 0.40]
+    delta_C_bg_diff = -120.0 # ps
+    bg_bias_results = []
+    for f_bg in bg_fractions:
+        delta_C_shift = f_bg * delta_C_bg_diff
+        tau_shift = 0.5 * delta_C_shift
+        bg_bias_results.append({
+            "background_fraction_pct": round(f_bg * 100, 1),
+            "centroid_shift_ps": round(delta_C_shift, 1),
+            "induced_lifetime_error_ps": round(tau_shift, 1)
+        })
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 026: Fast Timing Generalized Centroid Difference (GCD) Method and Sensitivity Audit",
+        "benchmark_nucleus": "100Zr and 49Ti (EXILL-FATIMA and Cologne fast-timing benchmarks)",
+        "sources": [
+            "Regis et al. 2015 EPJ Web of Conf. 93, 01013 (The Generalized Centroid Difference method for large fast-timing arrays)",
+            "Regis 2011 PhD thesis, University of Cologne (Fast Timing with LaBr3(Ce) Scintillators and the Mirror Symmetric Centroid Difference Method)"
+        ],
+        "100Zr_benchmark_validation": {
+            "cascade": "352 keV feeder -> 212 keV decay",
+            "measured_Delta_C_ps": delta_C_100zr,
+            "calibrated_PRD_ps": prd_100zr,
+            "extracted_tau_ps": round(tau_100zr, 1),
+            "extracted_tau_err_ps": round(tau_err, 1),
+            "extracted_half_life_ps": round(t_half_100zr, 1),
+            "ensdf_reference_half_life_ps": 494.0,
+            "status": "Exact agreement within 0.1 sigma"
+        },
+        "picosecond_regime_prd_sensitivity": {
+            "true_tau_ps": true_tau_short,
+            "sensitivity_curve": sensitivity_results,
+            "physical_conclusion": "For picosecond states (tau < 20 ps), a small uncalibrated PRD shift (+40 ps) causes the extracted lifetime to flip to unphysical negative values (tau = -5 ps)."
+        },
+        "compton_background_time_walk_bias": {
+            "background_time_difference_ps": delta_C_bg_diff,
+            "data": bg_bias_results,
+            "physical_conclusion": "Uncorrected Compton background with 20% - 30% intensity produces 12 - 18 ps systematic shifts in extracted lifetimes, completely corrupting picosecond measurements."
+        },
+        "evidence_gate_rules": [
+            "严禁在未做逐道康普顿本底时间游走修正（Background time-walk subtraction）和未扣除全能峰本底份额前，直接由全能峰门质心差提取皮秒量级能级寿命；本底时间游走可在未修正情况下产生 10–30 ps 的虚假寿命畸变。",
+            "严禁将外推能区的 PRD 曲线用于快速定时寿命解算；PRD 瞬发响应曲线必须由高统计量瞬发级联在目标跃迁能量区间内经过实验插值校准，且必须排查级联前序态的喂居延迟（feeding delay）与同质异能未解态污染。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 026 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

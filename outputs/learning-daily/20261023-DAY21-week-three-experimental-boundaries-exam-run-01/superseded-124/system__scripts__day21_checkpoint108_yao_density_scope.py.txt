@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+"""Yao 2012 beyond-mean-field GCM point-proton vs charge density scope audit."""
+from fractions import Fraction as F
+import hashlib
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+RUN = ROOT / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+
+def audit():
+    pdf = ROOT / "raw/papers/day21-20261023/yao-2012-34si-beyond-mean-field-bubble.pdf"
+    sha = hashlib.sha256(pdf.read_bytes()).hexdigest()
+    assert sha == "a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2"
+
+    # Table I: Point proton density parameters
+    table_1_point_proton = {
+        "HF": {"rho_cent": 0.044, "rho_max": 0.074, "F_max_reported": 0.41, "F_sat_reported": 0.34},
+        "HFB_LN": {"rho_cent": 0.050, "rho_max": 0.074, "F_max_reported": 0.32, "F_sat_reported": 0.24},
+        "NZ": {"rho_cent": 0.047, "rho_max": 0.074, "F_max_reported": 0.36, "F_sat_reported": 0.28},
+        "NZ_J0": {"rho_cent": 0.051, "rho_max": 0.073, "F_max_reported": 0.30, "F_sat_reported": 0.22},
+        "GCM_gs": {"rho_cent": 0.057, "rho_max": 0.073, "F_max_reported": 0.21, "F_sat_reported": 0.13},
+    }
+
+    # Table II: Folded charge density parameters (convoluted with Gaussian a=0.65 fm)
+    table_2_charge = {
+        "HF": {"rho_cent": 0.056, "rho_max": 0.071, "F_max_reported": 0.21, "F_sat_reported": 0.15},
+        "HFB_LN": {"rho_cent": 0.060, "rho_max": 0.071, "F_max_reported": 0.16, "F_sat_reported": 0.09},
+        "NZ": {"rho_cent": 0.058, "rho_max": 0.071, "F_max_reported": 0.18, "F_sat_reported": 0.12},
+        "NZ_J0": {"rho_cent": 0.060, "rho_max": 0.070, "F_max_reported": 0.14, "F_sat_reported": 0.09},
+        "GCM_gs": {"rho_cent": 0.064, "rho_max": 0.070, "F_max_reported": 0.09, "F_sat_reported": 0.04},
+    }
+
+    # Overestimation of low-energy collective transitions
+    e0_theory = 58.1  # 10^-3
+    e0_exp = 13.0     # 10^-3 (0.9)
+    e0_overest_factor = e0_theory / e0_exp
+
+    be2_theory = 60.5 # e^2 fm^4
+    be2_exp = 16.6    # e^2 fm^4
+    be2_overest_factor = be2_theory / be2_exp
+
+    # Physical consistency checks
+    rho_sat_p = (14.0 / 34.0) * 0.16
+    calc_f_max_hf_p = (0.074 - 0.044) / 0.074
+    calc_f_max_gcm_p = (0.073 - 0.057) / 0.073
+    calc_f_max_gcm_ch = (0.070 - 0.064) / 0.070
+
+    return {
+        "scope": "literal table verification, definition checks and collective transition bounds in Yao 2012",
+        "source": {
+            "doi": "10.1103/PhysRevC.86.014310",
+            "arxiv": "1205.2262v1",
+            "raw_sha256": sha,
+            "locators": ["Table I", "Table II", "Eq.(9)", "Eq.(10)", "PDF p.5 Section III"]
+        },
+        "density_depletion_factors": {
+            "point_proton_HF_Fmax": table_1_point_proton["HF"]["F_max_reported"],
+            "point_proton_GCM_Fmax": table_1_point_proton["GCM_gs"]["F_max_reported"],
+            "charge_HF_Fmax": table_2_charge["HF"]["F_max_reported"],
+            "charge_GCM_Fmax": table_2_charge["GCM_gs"]["F_max_reported"],
+            "point_proton_depletion_ratio_GCM_vs_HF": table_1_point_proton["GCM_gs"]["F_max_reported"] / table_1_point_proton["HF"]["F_max_reported"],
+            "charge_depletion_ratio_GCM_vs_HF": table_2_charge["GCM_gs"]["F_max_reported"] / table_2_charge["HF"]["F_max_reported"],
+            "fold_reduction_GCM_charge_vs_point_proton": table_2_charge["GCM_gs"]["F_max_reported"] / table_1_point_proton["GCM_gs"]["F_max_reported"],
+            "net_ratio_charge_GCM_to_point_HF": table_2_charge["GCM_gs"]["F_max_reported"] / table_1_point_proton["HF"]["F_max_reported"]
+        },
+        "collective_transition_overestimation": {
+            "rho2_E0_theory": e0_theory,
+            "rho2_E0_exp": e0_exp,
+            "rho2_E0_overestimation_ratio": float(e0_overest_factor),
+            "B_E2_theory_e2fm4": be2_theory,
+            "B_E2_exp_e2fm4": be2_exp,
+            "B_E2_overestimation_ratio": float(be2_overest_factor),
+            "author_stated_implication": "The discrepancy might indicate that the two lowest 0+ GCM states are too strongly mixed in our calculation, leading to an overestimation of quadrupole fluctuations that artificially flattens the density."
+        },
+        "inference_boundary": [
+            "Point-proton density (Fmax=0.21 in GCM) and folded charge density (Fmax=0.09 in GCM) are physically distinct observables.",
+            "Knockout experiments (Mutschler 2017) extract single-particle occupancy (2s1/2 occupancy 0.17) sensitive to point-proton structure, not folded charge density.",
+            "The GCM calculation overestimates E0 by 4.47x and B(E2) by 3.64x, indicating excessive configuration mixing and excessive flattening of the ground-state central depletion.",
+            "Theoretical model calculation (Yao 2012) cannot be cited as experimental refutation of knockout occupancy measurements.",
+            "Total nucleon density Fsat,t is negative (-0.08 to -0.07) due to central neutron bump; 34Si is not a total matter bubble nucleus."
+        ],
+        "raw_events_acquired": False,
+        "gcm_code_replayed": False,
+        "new_CI": None,
+        "actual_joint_covariance": None,
+        "scientific_certification": False
+    }
+
+if __name__ == "__main__":
+    d = audit()
+    out = RUN / "yao-density-scope-108.json"
+    out.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps({
+        "output": str(out.relative_to(ROOT)),
+        "e0_overest": d["collective_transition_overestimation"]["rho2_E0_overestimation_ratio"],
+        "be2_overest": d["collective_transition_overestimation"]["B_E2_overestimation_ratio"],
+        "gcm_point_Fmax": d["density_depletion_factors"]["point_proton_GCM_Fmax"],
+        "gcm_charge_Fmax": d["density_depletion_factors"]["charge_GCM_Fmax"]
+    }, ensure_ascii=False))

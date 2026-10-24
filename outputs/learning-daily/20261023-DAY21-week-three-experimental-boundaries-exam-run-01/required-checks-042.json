@@ -1,0 +1,137 @@
+{
+  "lint": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json",
+      "--output",
+      "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lint-042-fresh.json"
+    ],
+    "started_at": "2026-10-23T20:07:38.352548+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "counts": {
+      "warning": 212,
+      "info": 4139
+    },
+    "warning_categories": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 177,
+      "RAW_MISSING": 31
+    },
+    "full_output": "lint-042-fresh.json",
+    "warning_scope": "remaining recorded warnings; not automatically compliant and not scientific certification"
+  },
+  "boundary": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "started_at": "2026-10-23T20:07:56.432438+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n"
+  },
+  "git_diff_check": {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "started_at": "2026-10-23T20:07:59.258021+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "writeback_structural": {
+    "argv": [
+      "python3",
+      "system/scripts/validate_writeback_items.py"
+    ],
+    "started_at": "2026-10-23T20:08:03.246442+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"valid\": true,\n  \"items\": 85,\n  \"status\": \"updated\",\n  \"scope\": \"structure, atomic references and changed-page presence only; not source truth or experimental CI\",\n  \"errors\": []\n}\n"
+  },
+  "central_arithmetic": {
+    "argv": [
+      "python3",
+      "system/scripts/day21_checkpoint042_literal_scope_audit.py"
+    ],
+    "started_at": "2026-10-23T20:08:04.597434+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\"checks\": {\"all_three_printed_central_fractions_round_to_one_decimal\": true, \"medium_largest_in_declared_irrotational_convention\": true, \"counterfactual_is_not_fitted\": true}, \"scientific_certification\": false}\n"
+  },
+  "native_writeback": {
+    "exit_code": 0,
+    "result": "writeback-validation-042.json",
+    "scope": "mapping and original/externally-owned baseline accounting only",
+    "previous_failures": [
+      "writeback-validation-042-initial-failed.json",
+      "writeback-validation-042-second-failed.json",
+      "writeback-validation-042-third-failed.json"
+    ]
+  },
+  "identity_preservation": {
+    "review_pages_compared_to_original_head": 137,
+    "review_and_flags_mismatches": [],
+    "protected": {
+      "PLAN.md": true,
+      "raw/zotero/wiki-inbox.bib": true,
+      "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true,
+      "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/run.json": true
+    },
+    "raw_files_checked": 661,
+    "raw_mismatches": [],
+    "index_diff": ""
+  },
+  "validator_negative_controls": {
+    "scope": "validator failure detection only",
+    "cases": {
+      "missing_block": {
+        "valid": false,
+        "scope": "structure only",
+        "errors": [
+          "exactly one knowledge-writeback block required; found 0"
+        ]
+      },
+      "missing_anchor": {
+        "valid": false,
+        "items": 2,
+        "status": "updated",
+        "scope": "structure, atomic references and changed-page presence only; not source truth or experimental CI",
+        "errors": [
+          "item 0: missing exact anchor"
+        ]
+      },
+      "superseded_ref": {
+        "valid": false,
+        "items": 2,
+        "status": "updated",
+        "scope": "structure, atomic references and changed-page presence only; not source truth or experimental CI",
+        "errors": [
+          "item 0: superseded reference: BI19-D21-1",
+          "item 1: superseded reference: BI19-D21-1"
+        ]
+      },
+      "multiple_blocks": {
+        "valid": false,
+        "scope": "structure only",
+        "errors": [
+          "exactly one knowledge-writeback block required; found 2"
+        ]
+      }
+    },
+    "all_rejected": true
+  },
+  "scientific_certification": false,
+  "h3": "not executed: interim publication prohibited",
+  "credit": "not applied",
+  "checked_at": "2026-10-23T20:08:04.681150+08:00"
+}

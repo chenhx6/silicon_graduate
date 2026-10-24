@@ -35,6 +35,8 @@ tags: [a190, 187au, wobbling-counter-evidence, hirfl, qtr, low-spin-precession]
 
 # Guo 等（2022）：`187Au` 低自旋 wobbling 反方实验与重解释
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physletb.2022.137010`，arXiv `2011.14354v3`。题名、作者、年份、DOI 和 arXiv 版本身份一致，使用 citation key `guo_2022_Probingnature`。
@@ -156,3 +158,11 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | GU22-D19-1 | 对 Guo 2022 及六大低自旋摆动候选执行跨核素量化审计：(1) 二次各向异性方程根简并性：证明定向态各向异性方程必然产生大模解（$|\delta| > 1$）与小模解（$|\delta| < 0.6$）；(2) 内转换系数排他性：实测 $\alpha_K = 0.15(2)$ 在 $> 3.5\sigma$ 精度下排他性排除大模解（$\delta = 1.34$ 预测 $\alpha_K = 0.077$），完全确立小模解（$\delta = -0.26$ 预测 $\alpha_K = 0.152$），引发带间 $B(E2)$ 发生 $10.14$ 倍断崖塌缩；(3) 跨核素普遍 $M1$ 主导性：采纳物理小模解使 $^{135}\text{Pr}$（$81.9\% M1$，$3.35\times$ 塌缩）、$^{133}\text{La}$（$89.1\% M1$，$7.47\times$ 塌缩）、$^{105}\text{Pd}$（$82.5\% M1$，$4.88\times$ 塌缩）带间跃迁普遍呈现 $>80\%$ 磁偶极特征；(4) 相空间运动学伪放大：五次方能比因子 $(E_{\text{in}}/E_{\text{out}})^5$ 达 $3.5\text{--}7.5\times$（$^{133}\text{Ba}$ 达 $5.46\times$），制造了表观集体增强假象；(5) 偏振判据失效：证明在 $\delta < 0$ 时大、小两根在 $90^\circ$ 均给出正偏振不对称度 $A > 0$，排除了仅凭 $A > 0$ 排除小模解的做法；(6) 物理本质归属：彻底推翻低自旋集体摆动声子假说，确立其物理本质为奇准粒子与 $\gamma$-软核芯的倾斜进动（TiP）或准 $\gamma$ 振动耦合。 | task-wobbling-systematics-audit | derived-and-boundary | PDF pp.1-5, Table I, Figs.3-4; low-spin-wobbling-systematics-result-076.json | true |
+
+## Day 21 Checkpoint 019 证据门量化审计：联合偏振排他解算与纵向摇摆证伪
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint019_longitudinal_wobbling_187au_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/longitudinal-wobbling-187au-audit-019.json），对 Guo 2022 的反方测量与单粒子重解释完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D21-1 | 依据推断阶梯审计，Guo 2022 确立了低自旋摇摆假说的关键反例与证据门标杆：(1) 联合 P-Rac 测量在 (delta, sigma/I) 空间排他性锁定 376 与 462 keV 带间跃迁的小模解（delta = -0.26 与 -0.28），确立其为 93%–94% M1 跃迁，带间 B(E2_out) 降至 ~6.5 W.u.；(2) QTR 波函数分解证明 Bands 1/2 为 pi h9/2 子壳层底部 Nilsson 轨道 [541]1/2 与 [532]3/2 的单粒子激发，递增的表观摆动能量源于科里奥利旋称劈裂；(3) 证伪 Sensharma 2020 的 Band 3 并确认其为 188Pt 反应道杂质；(4) 确立“严禁在未测线偏振前仅凭角分布大模解宣称纵向摇摆”的证据门准则。 | source-result-and-method | direct-and-boundary | pp.2-5, Figs.2-4; longitudinal-wobbling-187au-audit-019.json | true |

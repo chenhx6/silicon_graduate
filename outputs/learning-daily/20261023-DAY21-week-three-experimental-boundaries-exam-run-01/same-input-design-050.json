@@ -1,0 +1,53 @@
+{
+  "source_locator": "MU07 printed172501-2 TableI; LKH82 printed121 Eq2.2",
+  "contrasts": [
+    {
+      "spin": "31/2-",
+      "reported_BE2_A": 0.32,
+      "reported_BE2_B": 0.28,
+      "log_ratio_B_over_A": -0.1335313926245225,
+      "scope": "deterministic contrast of MU07 Table I already extracted strengths, not new experiment or significance"
+    },
+    {
+      "spin": "33/2-",
+      "reported_BE2_A": 0.32,
+      "reported_BE2_B": 0.28,
+      "log_ratio_B_over_A": -0.1335313926245225,
+      "scope": "deterministic contrast of MU07 Table I already extracted strengths, not new experiment or significance"
+    },
+    {
+      "spin": "35/2-",
+      "reported_BE2_A": 0.32,
+      "reported_BE2_B": 0.28,
+      "log_ratio_B_over_A": -0.1335313926245225,
+      "scope": "deterministic contrast of MU07 Table I already extracted strengths, not new experiment or significance"
+    },
+    {
+      "spin": "37/2-",
+      "reported_BE2_A": 0.32,
+      "reported_BE2_B": 0.29,
+      "log_ratio_B_over_A": -0.09844007281325265,
+      "scope": "deterministic contrast of MU07 Table I already extracted strengths, not new experiment or significance"
+    },
+    {
+      "spin": "39/2-",
+      "reported_BE2_A": 0.13,
+      "reported_BE2_B": 0.11,
+      "log_ratio_B_over_A": -0.1670540846631662,
+      "scope": "deterministic contrast of MU07 Table I already extracted strengths, not new experiment or significance"
+    }
+  ],
+  "design_identity": "for same-parent/same-L strengths, R_out_in=(q_out*fL_out)/(q_in*fL_in)*(E_in/E_out)^(2L+1); common mean tau cancels only with matched parent/component and extraction conventions",
+  "unknown_inputs": [
+    "row-to-transition/component binding",
+    "same-gate efficiency/branch corrections",
+    "signed delta and phase conventions",
+    "feeding response and actual joint covariance",
+    "registered model prediction domain and tolerance"
+  ],
+  "common_scale_contract": "If B_i -> g B_i for both bands, log(B_B/B_A) unchanged; DSAM stopping/feeding are not assumed to be exactly such a scale.",
+  "apparatus_evidence": "MU07 actually obtained both-band angle-gated DSAM lifetimes; this supports method feasibility, not power/exposure or polarization performance of a new setup.",
+  "new_experimental_CI": false,
+  "rejected_chirality": false,
+  "search_scope": "bounded discovery only; Scholar timeout, Curate202empty, Figshare403; other metadata yielded no verified experimental producer"
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint110_chiral_comparison_scope.py",
+    "system/scripts/day21_checkpoint047_invariant_scope.py"
+  ],
+  "exit_code": null,
+  "evidence": "124 correction: no matching new argv execution was recorded; prior artifacts are not new execution evidence",
+  "output": "chiral-comparison-scope-110.json, invariant-scope-047.json",
+  "scope": "deep synchronization of transition quadrupole moment and level lifetime observable layers with deformation/lifetime decoupling and cross-nucleus transfer boundaries; not new experimental CI",
+  "superseded_execution_assertion": true,
+  "executed_in_this_checkpoint": false,
+  "record_type": "historical-artifact-reference-only"
+}

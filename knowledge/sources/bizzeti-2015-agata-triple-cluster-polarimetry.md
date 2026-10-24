@@ -34,6 +34,8 @@ tags: [finite-geometry, calibration, shared-reference, covariance, literal-formu
 
 # 先核同一角度零点和参考权重，再比较分析能力
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 P.G. Bizzeti等，*European Physical Journal A* **51**,49(2015)，DOI[10.1140/epja/i2015-15049-4](https://doi.org/10.1140/epja/i2015-15049-4)。Crossref核题名/作者/article49；[出版商实际PDF](https://link.springer.com/content/pdf/10.1140/epja/i2015-15049-4.pdf)HTTP200取得，11页，SHA256见frontmatter。当前文件`tmp/day16-bizzeti2015/publisher.pdf`，未改raw/Bib，raw槽未归档。
@@ -140,6 +142,12 @@ Fig5标r12单位µm，同正文15mm cut/2mm voxel不同；不要从图轴刻度�
 
 [source原表/符号/有限几何脚本](../../system/scripts/day16_bizzeti2015_reference_audit.py)最终实际exit0；[结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/bizzeti2015-reference-audit-result.json)、初exit1源码/失败与冻结contract均保留。只使用实际printedinputs及明确pure/axis probes，无fakeeventhist、未重跑实际GOSIA/实验拟合。PDF/原render与第三方软件只tmp不stage。
 
+
+## checkpoint029：AGATA 线偏振分析能力 Q(E) 有限几何衰减与坐标轴符号反转审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BIZ15-D21-1 | 依据 AGATA 三叶草阵列库仑激发与 137Cs 偏振测量原件对账审计证明：(1) 在 433.9 keV（108Pd）与 555.8 keV（104Pd）能点，实测分析能力 Q_exp 为 0.451(34) 与 0.484(24)，相比点状理想 Klein-Nishina 预测 Q0 发生 24.2%–37.3% 的几何立体角衰减；(2) 束流—反应平面与法向参考轴定义的置换直接导致实测不对称度 A 改变符号，可将负偏振 M1 跃迁人为伪造为正偏振 E2 跃迁；(3) 探测器固有方位角效率不平衡 a_inst 在 2%–5% 时足以完全抹平或逆转弱偏振（|P| < 0.15）的不对称度符号。必须通过非偏振基准源（137Cs 661.7 keV）严格标定 a_inst 并排查坐标轴符号约定。 | polarimetry-analyzing-power-boundary | direct-original-and-quantitative-audit | pp.143–154 Sec.3, Table 3, Table 5; polarization-analyzing-power-audit-029.json | true |
 
 ### 上游原件补核：Suffert的normal轴
 

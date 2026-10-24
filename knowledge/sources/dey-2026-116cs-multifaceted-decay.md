@@ -33,6 +33,8 @@ tags: [116Cs, proton-drip-line, two-proton-decay, cluster-emission, octupole-res
 
 # Multifaceted decay of `116Cs`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - J. Dey *et al.* (ISOLDE Collaboration), *Phys. Rev. Lett.* **137**, 012501 (2026), published 29 June 2026; the PDF records a 17 July 2026 correction adding the collaboration name.
@@ -92,3 +94,11 @@ Dey *et al.* combine particle and γ spectroscopy to expose several drip-line de
 ## Extracted Pages
 
 - Nuclei/methods: `116Cs`, `116Xe`, [[drip-line-radioactivity]], [[octupole-correlation]]。
+
+## Day 21 Checkpoint 025 证据门量化审计：116Cs 复合多道衰变与双质子发射推断边界
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint025_drip_line_radioactivity_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/drip-line-radioactivity-audit-025.json），对 Dey 2026 的 116Cs 多道衰变实验完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DEY26-D21-1 | 依据推断阶梯审计，Dey 2026 确立了质子滴线区奇异衰变判据的关键边界：(1) 离心势垒压制效应：116Cs 质子发射受高 ell 离心势垒强烈压制（g9/2 压制 2.4x10^-6，h11/2 压制 1.1x10^-9），解释了为何 S_p < 0 仍以 beta 衰变（T1/2=0.86 s）主导；(2) beta-2p 关联机制边界：测得开角峰 theta_pp = 39(3)° 虽支持直接双质子成分（27(11)%），但低统计量与宽共振态重叠使直接发射对决顺序发射仍具非排他性；(3) 确立“分离能符号不等于衰变模式，双质子机制必须经三体连续谱检验”的证据门准则。 | source-result-and-boundary | direct-and-boundary | pp.1-5, Tables I-II, Figs.2-4; drip-line-radioactivity-audit-025.json | true |

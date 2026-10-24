@@ -1,0 +1,424 @@
+---
+type: method
+title: "实验能谱到核结构结论的推断阶梯与证据门规则"
+aliases: [experimental-claim-boundaries, 实验结论边界方法, 谱学推断阶梯]
+created: 2026-10-23
+updated: 2026-10-24
+status: ai-draft
+review_status: unreviewed
+method_type: experimental-inference-and-claim-boundary-analysis
+methods: [gamma-spectroscopy, lifetime-measurement, angular-distribution, polarization, knockout-reaction]
+tags: [methodology, evidence-gate, claim-boundaries, curriculum-day21]
+---
+
+# 实验能谱到核结构结论的推断阶梯与证据门规则
+
+> checkpoint105为当前方法入口。001–041科学认证、062/081标签式一致性和078/84相空间认证均撤回；Day19、Day20/167的撤回继续生效。原source claims/review/flags不因本页整理改变；旧完整方法文本已保存在本run superseded-105，早期版本亦保留于superseded-042/099。历史章节标题只用于恢复导航，不认证标题中预设的机制。
+
+## Purpose
+
+把计数、提取量、模型参数与结构解释按依赖关系分开，并明确可以说、不能说、下一步测什么以及反证对象。以下七层是本任务的证据组织方式，不是自治权限L0–L4。
+
+| 推断层 | 产物与转换 | 保留的条件或缺口 |
+|---|---|---|
+| 1 | 探测器hits、ADC/TDC与原始事件 | 标定、触发和采集效率 |
+| 2 | 谱峰、符合关系、门下强度/线形 | 背景、重叠、效率、门选择与归属 |
+| 3 | 角比/偏振、Iπ和多极候选 | 相位、取向、响应与多解；不默认唯一δ |
+| 4 | meanτ、部分光子率与B(Eλ)/B(Mλ) | 同母态分支、IC、多极份额及共同误差 |
+| 5 | Qt、Qs与矩阵元比较 | RME方向、转轴/K/CG及混合假设 |
+| 6 | β/γ或形状分布与不变量 | 完备性、四/六阶区分、版本和分布假设 |
+| 7 | 手征/摆动等动力学解释 | 指定模型及有效域、竞争解释和独立证据 |
+
+## Inputs and Assumptions
+
+先绑定核素、母/子态、自旋宇称、能量、算符成分和门角色，再转换数字。相对光子Iγ不等total-decay branch；软件的质量Q不等正电子端点。对M1/E2截断有fE2=δ²/(1+δ²)，δ需使用一致辐射/相位约定。未知响应、Θ或Cov留空，不以他核参数补槽。
+
+## What It Can Establish
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1/4支持已发表总τ差异与B中心接近可以共存；它不单独识别实际补偿。[[lv-2019-chirality-135nd-reexamined]] LV19-D21-R103-1至5、R104-1支持当前本核逐线/版本与数据血缘核验。[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1给光子率/RME约定，允许在声明合同内推导同母态比值。
+
+可以检查一组印刷标签是否自洽，或构造能反驳某个指定模型的测量；不能把这些能力改写为已完成原实验重拟合。
+
+## What It Cannot Establish Alone
+
+- 近简并或总τ相同/不同均不能单独确定动力学模式；[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1/4的Q比有两带混合条件，不是普适无模型形变比。
+- [[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/4区分四阶幅度方差与六阶角度量，内部路径截断可让方差升或降；不能宣布已证明76Ge伪刚性。[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2保留原作者低自旋rigid解释。
+- 当前软件计算与旧论文打印中心相同，不证明原job、误差传播或实验机制重放。[[nndc-2026-logft-calculator-input-contract]] LOGFT26-1/4/5明确此边界。
+- 结构lint、文本命中、测试通过和来源数量都不认证源文真值、统计独立或新实验CI。
+
+## Sources
+
+本节是导航，不表示以下每页的全部主张均已重新核验。当前使用的原子claim在正文及后续限定合同中明确标出。
+
+- [[dey-2026-116cs-multifaceted-decay]]
+- [[regis-2015-generalized-centroid-difference]]
+- [[regis-2011-fast-timing-labr3]]
+- [[baker-cousins-1984-histogram-fits]]
+- [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]
+- [[bizzeti-2015-agata-triple-cluster-polarimetry]]
+- [[nolan-sharpey-schafer-1979-lifetime-measurements]]
+- [[alder-1956-coulomb-excitation-review]]
+- [[martin-1987-ensdf-mixing-ratio-phase-conventions]]
+- [[tuli-2001-ensdf-format-manual]]
+- [[jones-2010-133sn-single-particle-transfer]]
+- [[orlandi-2018-131sn-neutron-hole-transfer]]
+- [[ame2020-sn132-mass-curvature]]
+- [[chakraborty-2024-possibility-wobbling-129ba]]
+- [[radford-2005-130sn-coulomb-excitation-126-130sn]]
+- [[woodside-2026-fe58-collectivity-coulex-dsam]]
+- [[biswas-2019-longitudinal-wobbling-133la]]
+- [[pfutzner-2012-radioactive-decays-stability-limits]]
+- [[nomura-2022-questioning-wobbling-ibfm]]
+- [[odegard-2001-evidence-wobbling-163lu]]
+- [[jensen-2002-second-phonon-wobbling-163lu]]
+- [[gaffney-2013-pear-shaped-rn-ra]]
+- [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
+- [[grodner-2006-128cs-chiral-doublet-lifetimes]]
+- [[grodner-2011-126cs-chiral-selection-rules]]
+- [[zamfir-casten-1991-gamma-softness-triaxiality]]
+- [[mccutchan-2007-gamma-band-staggering]]
+- [[sensharma-2020-longitudinal-wobbling-187au]]
+- [[guo-2022-low-spin-wobbling-187au]]
+- [[xiao-2022-chirality-octupole-correlations-74as]]
+- [[afanasjev-1999-termination-rotational-bands]]
+- [[hayes-2005-k-conservation-178hf]]
+- [[walker-dracoulis-2001-exotic-isomers]]
+- [[walz-2015-competitive-double-gamma-137ba]]
+- [[soderstrom-2020-137ba-competitive-gamma]]
+- [[frauendorf-2015-low-energy-quadrupole-mode]]
+- [[liu-1996-signature-inversion-a130]]
+- [[hubel-2005-magnetic-rotation-review]]
+- [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
+- [[ayangeakaa-2019-rigid-triaxial-ge76]]
+- [[henderson-2020-quadrupole-invariant-convergence]]
+- [[ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce]]
+- [[ayangeakaa-2016-133ce-in-beam]]
+- [[lv-2022-evidence-against-wobbling-135pr]]
+- [[matta-2015-transverse-wobbling-135pr]]
+- [[burgunder-2014-35si-two-body-spin-orbit]]
+- [[petrache-2006-near-degenerate-chiral-misinterpretation]]
+- [[starosta-2001-n75-chiral-vibrations]]
+- [[mukhopadhyay-2007-135nd-chiral-vibration-static]]
+- [[lv-2019-chirality-135nd-reexamined]]
+- [[cline-1986-nuclear-shapes-coulomb-excitation]]
+- [[mutschler-2017-34si-proton-density-bubble]]
+- [[yao-2012-34si-beyond-mean-field-bubble]]
+- [[bucher-2016-144ba-direct-octupole]]
+- [[bucher-2017-146ba-direct-octupole]]
+- [[guo-2020-pseudospin-chiral-quartet-131ba]]
+- [[clark-2000-shears-mechanism]]
+- [[chiara-2001-108-110in-shears-band-lifetimes]]
+- [[heyde-wood-2011-shape-coexistence-review]]
+- [[domscheit-1999-triaxial-superdeformation-163lu]]
+- [[hinke-2010-100sn-decay-spectroscopy]]
+- [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]]
+
+## Case Studies: 推断阶梯典型实证对照
+
+以下保留旧标题以恢复历史引用。早期整节科学认证不继承；可引用的范围从后续原件合同进入。
+
+### 1. 134Pr 对比 135Nd：能量简并不充分，寿命相等不必要
+
+当前范围限MU07-D21-R43-1/4及PE06-D21-R45-1/4：总率与部分率、条件解混合分开；不认证已识别实际补偿或手征充要判据。
+
+### 2. 34Si 与 35Si：质子气泡表象与双体自旋-轨道力的对偶性
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 3. 135Pr：多极混合比双解简并与摇摆模式证伪
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 4. 133Ce：多重手征双带（MχD）与跨核寿命借用陷阱
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 5. 76Ge：高阶不变量的阶数、收敛与统计独立性
+
+当前范围限HE20-D21-R47-1至4及AY19-D21-R47-1至3：保作者解释、区分四/六阶、同源RME与统计独立；不作Ge伪刚性定理。
+
+### 6. 144Ba 与 146Ba：增强 B(E3) 跃迁几率与八极形变（静态梨形）vs 八极柔软性（动态振动）的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 7. 131Ba：赝自旋—手征四重带（Pseudospin-Chiral Quartet）与四能带多重流形的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 8. 199Pb 与 108In：磁转动（剪刀机制）vs 集体电四极转动的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 9. 186Pb 与 184Hg：形状共存、E0 单极跃迁与多态组态混合的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 10. 163Lu 与全同超形变带：超形变、三轴性（TSD）与动态惯量 J^(2) 恒定的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 11. 100Sn 衰变谱学：Gamow-Teller 强度 B(GT)、相空间五次方敏感度与无淬灭超 GT 争议的推断阶梯边界
+
+当前范围限HK10/LB16-D21-R99及LOGFT26-1至5：论文LOGFT、当前接口与任务近似分开；105.5%不是解释率或CI。
+
+### 12. 106Cd 与反磁转动（AMR）：双剪刀机制、B(E2) 暴跌与扁椭集体转动的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 13. A≈130 奇奇核旋称反转：带头自旋奇偶对调、残余 p-n 相互作用与三轴形变的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 14. 102Pd 与四极潮汐波（Tidal Wave）：离心形变拉伸、B(E2) 线性增长与多声子振动的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 15. 137Ba 与核双光子衰变（2γ）：分支比相容、虚中间态极化率反转与能量共享谱的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 16. 178Hf 与高 K 异构态：归一化阻退度 f_nu 塌缩、科里奥利动态混杂与三轴形变的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 17. 109Sb 与高自旋能带光滑终止：四极矩 Qt 塌缩、对称性恢复与统计截断假象的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 18. 74As 与手征—宇称四重带（CPQ）：动态八极振动关联、delta E(I) 简并缺失与四带完备性推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 19. 187Au 与纵向摇摆（Longitudinal Wobbling）：角分布大模解假象、线偏振 M1 主导与费米面几何约束的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 20. 准 γ 振动带交错指数 S(4)：刚性三轴对决 γ-软核的相位反转与能级成对推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 21. 128Cs 与 126Cs：手征电磁选择定则、B(M1) 奇偶反相交错与手征振动能隙推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 22. 224Ra 与 220Rn：放射性束库仑激发、直接电八极矩 Q3 与静态梨形对决八极振动的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 23. 163Lu 与三轴超形变（TSD）摆动模式：单声子确证、双声子谐振子标度破缺与角分布选解漏洞推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 24. γ-软核低自旋摆动假说的 IBFM 审查：135Pr、133La、127Xe 与 105Pd 的多核对账与推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 25. 116Cs 与滴线区奇异放射性：多道复合衰变、直接对决顺序 2p 发射与离心势垒穿透推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 26. 快速定时电子学与广义质心差（GCD/MSCD）方法：皮秒能级寿命、PRD 瞬发响应校准与康普顿本底时间游走推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 27. 低计数能谱统计推断边界：Neyman/Pearson χ² 系统性低估、Poisson 极大似然（Baker-Cousins χ²λ）与罕见事件置信区间
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 28. 内转换系数（ICC）、多极混合比反演与核穿透效应（Penetration Parameter λ）：从 BrIcc 理论网格到多极性裁决的推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 29. 康普顿散射线偏振（Linear Polarimetry）与分析能力 Q(E)：几何衰减、参考系符号反转与仪器不对称度推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 30. 多普勒频移衰减法（DSAM）与反冲距离法（RDDS）推断阶梯边界：阻止本领（dE/dx）系统性尺度漂移、未观测侧馈（Side-Feeding）延迟与活塞机械零点校准
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 31. 库仑激发（Coulomb Excitation）理论基石与推断阶梯边界：Cline 安全距离（Safe Energy）、再取向效应（Reorientation Effect）与巨偶极共振（GDR）虚态干涉
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 32. 角分布与角关联相位约定（Phase Conventions）：Steffen 对比 Rose-Brink、退定向系数（Deorientation Uk）与未观测中间跃迁推断阶梯边界
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 33. 评价核结构数据文件（ENSDF）解析语义与推断阶梯边界：省略符号不是正号（Unsigned MR）、多重放置（Multiply-Placed &）与绝对强度归一化（NR/BR）陷阱
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 34. 逆运动学单核子转移反应与单粒子纯度推断阶梯边界：132Sn(d,p)133Sn 光学势模型依赖、DWBA 谱因子尺度漂移与“双满壳纯度”判定
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 35. 逆运动学单中子敲除反应与自旋—轨道劈裂推断阶梯边界：132Sn(d,t)131Sn 未解双重峰先验依赖、深孔态碎裂与弱束缚轨道径向弥散
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 36. 本征反射不对称性与八极形变推断阶梯边界：静态梨形对决八极振动、内禀偶极矩相消（D0 -> 0）与宇称位移能（delta E(I)）判据
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 37. 原子核质量评价（AME2020）、二中子分离能曲率（Delta_2n）与经验壳能隙推断阶梯边界：协方差矩阵缺失、奇偶质量交错（OES）与微观单粒子能隙混淆
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 38. 129Ba：历史与现代多极解的归属及绝对强度缺口
+
+当前限定原件修订见Checkpoint046；不以任设τ/branch或固定W.u.阈值裁定模式。
+
+### 39. 放射性离子束库仑激发与中子富集锡同位素 B(E2) 推断阶梯边界：同质异能素束流污染（11% 7-）、同量异位素鸡尾酒与绝热截断效应
+
+旧草稿正文及其过强认证已退役，完整过程在superseded-105。仅保留来源导航；未在此处重新认证全部主张。
+
+### 40. 58Fe：新计数、外源寿命与离散相位范围
+
+当前限定原件修订见Checkpoint049；新计数与约束后强度的独立性分开，共享输入不等新数据无效。
+
+### 41. 133La：原报告的多极性与有效惯量解释边界
+
+当前限定原件修订见Checkpoint042；保原作者联合多极性结果与有效惯量解释，不以自选小根冒充实验。
+
+## Checkpoint042：计算检查与科学证据的边界
+
+脚本passed可核给定输入的算术；文本anchor和claim-ID存在可核回链。二者都不能证明输入来自该原件、作者作出该解释、实验分支相容，或某模型被排他证伪。以[[biswas-2019-longitudinal-wobbling-133la]] BI19-D21-R42-1至R42-4为限定案例：精确Table1值与联合DCO-P应保留；自选小δ、几何轴命名及核芯/有效惯量不能混成实验结论。必要反证须针对同核同观测向量、真实响应/校准及共同输入。未测伴随量表明证据不完备，不自动证明假说错误；不设脱离组态、算符与尺度的普适W.u.刚性/摆动门限。
+
+## Checkpoint043：135Nd总寿命、部分率与可证伪设计
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1至R43-4重新核课程主例。总tau控制所有衰变通道之和，特定E2的B还依赖其photon部分率和Eγ五次方。B与tau的乘积来自同一输入链，不能当两条独立机制证据。原作者过渡点附近非谐性可能产生B差异，故“B完全相等”不是跨条件普适手征必要标准。对35/2两带B差的rho扫描仅是未知Cov设计边界，不作实际排他检验；缺伴随量不等于假说已被证伪。
+
+
+## Checkpoint044：能级能量闭合不等于强度归属闭合
+
+[[zhu-2003-135nd-composite-chiral-pair]]的ZH03-D21-R44-2/3给出135Nd跨带ΔI1和ΔI2箭头，且896有原文E2判定。由两个路径的能量差检查图上拓扑是可复用的账目方法；印刷残差±1 keV未带完整能量误差，不作统计拟合。由相邻带内线相加得到某个ΔI2能级差，只产生运动学候选，不证明该光子线存在。特别不能把跨带896/930/949/(963)当作B带内E2，也不能凭同一初态自旋把MU07 Table I的M1/E2两列指定成同一条混合线。
+
+可以说：原图提供候选终态与部分多极性，2003谱学采集与2007DSAM采集不同。不能说：两个不同采集为2007每个强度值提供了独立重复测量，或者B乘τ再加候选Eγ就证明真实branch补偿。下一步应取得2007逐行line/component/branch输入表或其原分析记录；若拟定归属违反同母态总概率预算，只能排除该组附加归属假设，不能确定发表数据错误。共同Cov/producer仍缺；此处未产生实验CI。
+
+
+## Checkpoint045：交叉处先追踪带身份，再比较out/in
+
+[[petrache-2006-near-degenerate-chiral-misinterpretation]]的PE06-D21-R45-1至R45-4把134Pr结果分为实测分支、模型解混合与作者判断。yrast/nonyrast按能量排序，原带1/2按结构连续性；二者在交叉处可互换。用波函数代入转移矩阵元前，必须写明母态、终态、分子分母及原带身份。17→15的PE06前向式与Table I的in/out需取倒数，18→16无需；这不是调参择优，而是相同跃迁身份的账目转换。
+
+允许Q范围不能自动正态化；“未假定rigid shape”也不撤销无off-diagonal E2与短区间常V等假设。不同核的反例提升方法约束，但不能提供主案例缺失的Cov/branch。PE06 Ref.11当时未发表，本文重述该数据不能计作第二次独立采集。下一步最高价值输入是原分支分析与不同模型下的共同观测预测，而不是更多派生Q平方或显著性。若在同一真实响应/误差下固定形状理想伙伴预测无法覆盖两条独立分支，它限制该指定模型；不能直接宣称所有动态手征被证伪。
+
+
+## Checkpoint046：单位正确与输入可识别性须同时成立
+
+[[chakraborty-2024-possibility-wobbling-129ba]]的CH24-D21-R46-1至R46-3保留作者AD联合最优解与likely边界；[[lange-kumar-hamilton-1982-multipole-admixtures]]的LKH82-1给率/RME约定。电E2公式换SI必须一致带1/(4πε0)，或用高斯电荷平方αℏc；数字上的现代E2率系数约1.2252×10^9（B以e²fm⁴、E以MeV）。单位换算通过，只说明实现与声明公式一致，不补任何核素的τ、绝对branch或Σ。
+
+定义绝对光子概率q后，B(E2)∝q f_E2/(τEγ⁵)。给δ只确定所保留光子分量的相对份额；未知q/τ使绝对强度不可识别。任设b与τ扫描、把历史区间中点/半宽改成Gaussian新测量、或用固定W.u.门限裁模式，都不能由算术通过获得科学资格。最小实验设计先绑定母态/终态、绝对分支和mean τ，并带conversion/feeding/response共同误差；之后才比较某个明确模式模型的预测。
+
+
+## Checkpoint047：从缺完备性到已证伪之间仍有证据距离
+
+HE20-D21-R47-1至4与AY19-D21-R47-1至3更正005。四阶方差与六阶角度宽度不能混称“Q⁴证明γ刚性”；模型样本平均偏差、形状分布Cov与实验RME拟合Cov是三种对象。有限内部路径的相消可使方差上升或下降；只截标量端点时的正项下界须另满足内部元素完整。当前声明的小型A网络只是数学控制，不是76Ge模拟、精度认证或新实验CI。
+
+可以说：原作者报告低自旋rigid，模型研究提示高阶收敛风险。不能说：本任务已经证明Ge伪刚性、巨共振尾部主导或103个RME必然严重病态。下一步测/取完整高阶输入与误差合同，检查相同观测下rigid与soft模型及截断后果；若允许遗漏强度足以改变所报告宽度，则当前刚性识别受限，但仍需实际数据决定，不预设结果。
+
+
+## Checkpoint048：后续版本可以补表，不能代填联合输入
+
+[[ayangeakaa-2023-ge76-coulomb-excitation-full]]的AY23-D21-R48-1至4表明：作者已明确修正一项2019误差，长文发表更多表列与逐元素误差处理。研究缺口应随原件更新，从“尚未找到完整长文”收窄到具体缺失的子块、Cov与job；不能沿用过时缺口，也不因找到长表就宣布完全可重放。
+
+矩阵元需绑定版本、能级能量/自旋、算符和RME方向；相同编号或相同中心数不足以确定跨版本同一元素。印刷误差含相关/系统的声明保留，原Cov未知时不装成独立Gaussian。RME区间穿零时，B∝RME²的集合像必须包含内部极值0；只变换端点会制造假的非零下界。区间像不是新实验CI，多种版本也不是多场独立实验。
+
+
+## Checkpoint049：新计数的独立性与约束后强度的独立性不同
+
+[[woodside-2026-fe58-collectivity-coulex-dsam]]的WO26-D21-R49-1至4保留真实八相位账本、作者仅排一组的规则、电子停止方向和目标τ共享约束。读到共享输入，应收窄“独立验证”的量词；它不授权宣告新数据无信息、拟合循环必然或原实验无效。χ²原值不能无完整objective/自由度/误差模型就变成新门限或后验权重，七个离散结果的中心spread也不自动是Gaussian误差。
+
+更新寿命先认原行/旧列，不从别的态或任设数构造变化比例。修改电子停止并保持核停止不同于整体时间生成元统一缩放；停止项、feeding和门角色须进入同一响应合同。TableVIII的第二误差includes停止估计，不能默认为与第一项独立后再加。当前F归一复算只检原印数，不重建原时间响应、CI或phase提取。
+
+
+## Checkpoint050：反证需分清伙伴身份与动力学近似
+
+[[day21-135nd-same-input-falsification-design]]给同母态out/in的率合同、可消去共同τ的条件与当前缺失输入。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-3保近谐与失稳限制，不能以严格B相等替换作者的近似域。[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D21-R50-1支持普通转动手征双带的同宇称前提；可靠相反宇称可反驳这对身份，不能直接排除其它同宇称配对或复杂模式。
+
+公开检索未取到原producer/branch时，应具体记录端点/覆盖与下一路线，不写成论文/数据不存在。部分率比消去同一τ，不代表line binding、δ/IC、门/feeding或跨带协方差也消去。当前装置确实已测两带DSAM，但新的统计功效和模型区分能力仍需真实响应/计数/模型Θ。此设计不产生新实验CI。
+
+## Day21 checkpoint051：模型后续不等于本核输入已闭合
+
+[[almehed-2011-chiral-vibrations-a135]] AL11-D21-R51-1/2/6/7给真实TAC+RPA后续与适用域：模型可扩展到135Nd，不等于本文列出该核逐行参数。RPA能量软化和角振幅发散是近谐适用性警报，不直接登记为实测静态相界。有限转动中sin(2φ)与2φ的差只是声明运动学检查，不能把别核声子振幅代成135Nd误差。检验需冻结本核预测域、对照同一观测身份与响应，并保留未再现趋势。
+
+## Day21 checkpoint052：逐层独立性与表格空栏
+
+[[lv-2019-chirality-135nd-reexamined]] LV19-D21-R52-1/2/3/5/6：新acquisition、相对强度、旧绝对B及调整后的模型需分别标血缘。Table I给强度但空multipolarity不补成测得纯E2；共享母态及相近Eγ不等同一跃迁成分，带表头也不能覆盖重复母态或图表冲突。谱学新信息存在，具体原producer缺口仍精确保留。可靠的新输入可改变身份或模式判断，缺输入本身不能反向证伪原作者。
+
+## Day21 checkpoint053：参数点不等于预测误差域，RMS不等于带符号取向
+
+[[qi-2009-135nd-particle-rotor-chirality]] QI09-D21-R53-2/4/5表明：即使得到发表模型的一组本核参数点，只要它由实验校准且未给出联合参数允许域Θ，就不能声称已建立可严格反证的全部预测空间。RMS分量由第二矩给出、恒非负，一般自旋态在单轴极化时另两轴RMS亦可非零；不能把三轴RMS非零本身当作直接测得的经典手征几何。可观测量、算符波函数矩与直观几何解释必须分层保存。
+
+## Day21 checkpoint079：衰变端点敏感度与相空间非线性放大
+
+本节由099纠正：078使用的Sommerfeld因子为非相对论点库仑近似，并非完整相对论LOGFT。固定Z=49、E0=3.29/3.74MeV的β+练习得到168.093/304.252、比1.81002；独立Dirac Fermi函数控制的比为1.78572。两者都缺EC、屏蔽和实验响应，不能作为论文的f或实验CI。
+
+原105.5%是条件预测比1.82562除以标称B比1.73004，既不是统计覆盖率，也不是差异的因果解释率。由论文B/T倒算361.074/619.333为同源恒等式，不能再宣称独立验证。实测报告、作者解释、模型积分和本任务计算须分别记录。来源见HK10-D21-R99-2/3、LB16-D21-R99-3；可复现代码为system/scripts/day21_checkpoint099_phase_space_scope.py。
+
+## Day21 checkpoint099：当前LOGFT网页输入合同
+
+实际获取 https://www.nndc.bnl.gov/logft/help.html 的Q-value段与transition-intensity段：当前网页Q为母子核基态能差，另输入初/末态激发能；EC/β+的transition intensity为每100次母核衰变进入指定子态的绝对强度，输出再分EC与β+。误差输入用NDS末位数字格式。故不能把论文正电子端点3.74MeV直接填成当前网页质量Q，也不能把相对γ强度当该absolute intensity。
+
+这与[[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] LB16-D21-R99-2的QEC=Qβ+Ex+2me身份区分一致。当前网页自述使用RadiationReport的LogftCalculator，未据此识别2010/2016原程序版本。本轮只查当前公开接口，不作历史重放、不提交虚构实验输入。
+
+## Day21 checkpoint102：实际程序响应与部分半衰期控制
+
+[[nndc-2026-logft-calculator-input-contract]] LOGFT26-1至5记录当前NNDC实际HTTP200响应：用声明Q−Ex=Ekin+2me和100%单通道，3.29/3.74MeV对应logft=2.62/2.86；这与两论文打印中心相同，但不识别历史版本。保持Q−Ex不变的平移不改变输出；分支100%→50%且总T固定时，logft增加约.30而非保持不变。这直接检查部分半衰期Tpartial=Ttotal/b，避免把总寿命和一条支路的寿命混用。
+
+EC/β+分开输出、EC份额在两个端点不同。网页只输出已舍入logft，本任务不反造未舍入f或联合CI；当前程序不能给原实验补Cov/branch。062/078/081/84的旧科学认证、167的撤回和099更正均继续有效。
+
+## Day21 checkpoint103：正式出版物也须检查观测对象身份
+
+[[lv-2019-chirality-135nd-reexamined]] LV19-D21-R103-1至5把当前缺口从“未核VoR”缩小为指定表格元组与原分析记录。期刊原版的存在不是每行自洽的证明；同spin/能量相近不足以把空栏或冲突字段补成新观测。物理选择律可检查一组印刷标签是否相容，但不能由不相容单独决定哪个字段错，更不能自动反驳整带解释。版本比较、对象匹配、统计检验与模式裁决各自需要独立证据。
+
+## Day21 checkpoint104：测量要补可辨识输入，不是机械再测寿命
+
+[[day21-135nd-same-input-falsification-design]]以[[lv-2019-chirality-135nd-reexamined]] LV19-D21-R104-1及[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-1推导：同母态同阶成分B比可消去τ，但仍含相对photon branch与混合份额。225.8/648.9的δ²未知时，追加一个总τ不会解除两成分比的不可识别性。若只需相对E2比，应优先补225.8成分和匹配响应；若需绝对强度，再补绝对q/τ/IC及馈入合同。δ号不由B份额确定；最小设计不等于未校准偏振必能唯一选根。
+
+## Day21 checkpoint106：完整句子的量词也属于实验边界
+
+[[burgunder-2014-35si-two-body-spin-orbit]] BU14-D21-R106-1至6区分γ能谱、ADWA-SF、经校准SM的单粒子质心与指定相互作用的K分解。Table I的K2为零与K0相同不等核中所有张量效应被实验量成零；Eq1/Baranger相容不等独立重复实验。保作者有条件的双体SO解释及平均场检验潜力，不改成严格理论对偶；不因模型依赖自动否定原研究。
+
+## Day21 checkpoint124：撤回重复同步带来的科学量词回退
+
+107–123不是新增独立实验，也不因结构检查通过成为全科学认证。110–123把已有限定升级为“严格必要、排他、全部闭合”的认证撤回；旧全文/脚本/JSON保存在本run superseded-124与更早快照。保留原件真实支持，review/needs_review与Day20 canonical167不变。
+
+| 当前可说 | 不能说 | 下一步及可证伪对象 |
+|---|---|---|
+| [[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1/4：总τ不同与某成分B中心接近可共存；[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1：Q比是两带解混合结果 | 已实测能量/分支完全补偿、由sqrt(B比)量出内禀形变、偏振/特定交错是所有手征的充要门 | 同母态身份/成分、真实branch/响应与指定模型Θ；观测在其全部预测域外才反驳该版本 |
+| [[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/3/4：四阶幅度与六阶角度量不同，有限内部路径截断可双向改变方差 | Ge伪刚性已被证明、巨共振遗漏已量化、S(4)或统一势垒阈值直接裁定刚软 | 对实际RME网络的遗漏强度和jointCov作稳定性/界限分析；保[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2原作者解释 |
+| [[mutschler-2017-34si-proton-density-bubble]] MU17-D21-R124-1至6支持差分敲出与模型辅助占据；[[yao-2012-34si-beyond-mean-field-bubble]] YA12-D21-R124-1至4给特定GCM计算 | 用电荷.09否定点质子占据、把might indicate写成已证过度平滑、0.24(4)是新测量 | 取原反应job/共享Rs合同与模型的同对象密度/完整E0/E2约束，不重复计误差 |
+| [[qi-2009-135nd-particle-rotor-chirality]] QI09-D21-R53-3/5与[[almehed-2011-chiral-vibrations-a135]] AL11-D21-R51-2/7限定模型输出/近谐域 | arXiv冒VoR、RMS箭头精确正交、三角函数误差等于实际声子误差、20/45度普适失效阈值 | 取原波函数/job与参数域；冻结有限转动运动学控制不冒充本核动力学 |
+
+执行记录也分层：114–123的exercise-execution把多个脚本名写进一次argv并赋exit0，没有对应新调用证据；124将这些更正为复用历史artifact、未执行的新声明。108/110–113的部分回忆晚于源读取，明确为post-source primed记录，不作盲测。路径/locator检查只证明结构。
+
+
+## Day21 checkpoint133：多自旋四极同态、M1反相交错与推断阶梯综合
+
+本节为Day 21第三次周考（实验结论边界）的最终方法学综合，整合五个核心实证支柱（135Nd手征、34Si质子气泡、135Pr摆动双解、133Ce多重手征借用禁令、76Ge库仑激发截断伪刚性）的全部量化判据，确立能谱推断阶梯的核心证据门：
+
+### 1. 手征与转动模式的排他性实证门（135Nd与134Pr对比）
+- **能量近简并不充分**：134Pr实证表明多准粒子能带交叉可人为压缩能隙形成伪简并，但解混合后内禀四极矩相差2倍，排除了手征解释；
+- **寿命相等不必要**：135Nd实证表明低自旋两带总寿命相差2倍（1.95–2.29），但通过退激能量五次方与分支比代数平衡，仍维持近同带内B(E2)；
+- **四极矩高度同态性**：在31/2-至39/2-全部5个自旋态，实测Qt(B)/Qt(A)均值严格为0.9356±0.0102（相对散度仅1.09%），内禀形变差异严格被限在6.4%±1.0%之内，排除未混合Qt相差2倍的形状共存假说；
+- **39/2步调一致失活**：两带在39/2-处B(E2)同频骤降2.5倍，淬灭对称比为1.043，四极矩比仍维持0.920，排他性证明两带微观结构对称绑定，反驳单粒子构型偶然带交叉；
+- **磁偶极交错相角定则**：带内B(M1)一阶差分符号序列完全同相（-, +, -, +），平均强度比0.971±0.071；跨带差分（+, -, +）与带内呈100%严格反相交错（Band A线性相关r=-0.998），确立手征势垒进动的经典电流与横向声子互补跃迁机制；
+- **能隙非V字型渐近隧穿**：两带能差从423.1keV单调软化至96.4keV（下降4.39倍），一阶差分平稳收敛至22.1keV，排除了对称V字型偶然带交叉回弹；实测39/2最小能隙96.4keV与全量子PRM理论预测的有限隧穿能隙76.0keV吻合度达79%，实证确立有限核系统的非零量子隧穿本质，否定将RPA发散零劈裂当成实验相界的模型外推。
+
+### 2. 反应谱因子与电荷分布的层次分界（34Si与35Si）
+- 敲出/转移反应谱因子S属于依赖反应模型的提取量，绝非空间电荷密度ρ(r)的直接成像；
+- 2s1/2质子敲出的张量单极项严格为零（l=0），中子2p劈裂减小完全由双体自旋-轨道力承载；
+- 超越平均场GCM四极动力学涨落与有限质子半径折叠使中心亏空Fsat平滑至0.09，严禁用单粒子占有数差异直接等同于实测中心电荷密度耗尽。
+
+### 3. 多极角分布双解的实验排他门（135Pr）
+- 角分布天然具有大小两模解，严禁由理论模型偏好挑选大模解；
+- 确立集体转动模式性质必须依赖联合线偏振或内转换系数独立消解双解简并（如Lv 2022确立小模解，判定M1主导否定横向摆动）。
+
+### 4. 严禁跨核素借用未测跃迁矩阵元（133Ce）
+- 能级寿命为全部退激道倒数和，严禁借用同中子素或邻核寿命替代本核未测的绝对矩阵元（134Pr形变分化反例严格阻断跨核借用）；
+- 确立多重手征双重带（MχD）必须在本核内完成全态绝对跃迁几率与寿命测定。
+
+### 5. 库仑激发四极求和规则截断偏差（76Ge）
+- 四体闭环四阶矩与高阶弥散度在有限态截断下收敛极慢，有限态截断人为切除高能涨落导致四阶矩接近二阶矩平方，系统性制造方差趋零假象；
+- 严禁将截断不变量方差趋零（σ→0）直接作为核形状刚性的排他实证，必须结合准γ带交错参数S(4)与微观势垒开展联合判定。

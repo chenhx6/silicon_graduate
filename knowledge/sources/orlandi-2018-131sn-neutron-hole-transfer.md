@@ -33,6 +33,8 @@ tags: [sn131, sn132, sn133, n82, neutron-hole, spin-orbit, transfer-reaction]
 
 # Neutron-hole states in 131Sn and spin-orbit splitting
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 R. Orlandi et al., Physics Letters B 785, 615–620 (2018), DOI 10.1016/j.physletb.2018.08.005. OpenAIRE resolved the DOI to a University of Surrey repository delivery URL. The saved PDF has a repository cover labelled “Document Version: Text”, identifies the published-version DOI, and states the article is open access under CC BY. It is a Surrey-hosted article copy; the ScienceDirect endpoint was not used to retrieve the file. The PDF is seven pages including the repository cover and six journal pages (615–620).
@@ -69,6 +71,7 @@ The article combines these hole-state results with 133Sn particle-state energies
 | ORL18-16 | The authors interpret the large extracted low-lying hole strengths as corroboration of the robust N=82 closure in 132Sn. | author-interpretation | direct | Journal p.618, Fig. 3 discussion and p.620 conclusion | true |
 | ORL18-17 | The retrieved Surrey PDF has a repository cover labelled “Document Version: Text” and gives the published-version DOI; the copy is CC BY and contains six journal pages after its cover. | evidence-boundary | direct | Repository PDF p.1 cover and journal pp.615–620 | true |
 | ORL18-18 | The 133Sn particle-side energies used in the spin-orbit comparison are cited to prior 132Sn(d,p) work, including Jones et al.; they are not a second measurement in this 131Sn neutron-removal experiment. | source-lineage | direct | Journal pp.616, 619–620; Refs. [17]–[19] | true |
+| ORL18-D21-1 | **superseded（checkpoint042）**：未解峰拟合的 S 不是直接占据数；假设 h11/2=12 是文中一个分析方案，不是唯一数学可能。未观察 g7/2 不证明 PVC 严重碎裂；±150 keV 是作者比较所用估计，不是已测能心误差下限。Woods–Saxon 可解释趋势不排他证伪微观力变化。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
 
 ## Source Lineage and Independence
 
@@ -95,3 +98,8 @@ The measured transfer strengths support substantial single-hole character below 
 - [[jones-2010-133sn-single-particle-transfer]]
 - [[ame2020-sn132-mass-curvature]]
 - [[a130-shell-gap-orbital-observable]]
+
+
+## Day 21 checkpoint035 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/orlandi-2018-131sn-neutron-hole-transfer.txt。其科学认证撤回：未解峰拟合的 S 不是直接占据数；假设 h11/2=12 是文中一个分析方案，不是唯一数学可能。未观察 g7/2 不证明 PVC 严重碎裂；±150 keV 是作者比较所用估计，不是已测能心误差下限。Woods–Saxon 可解释趋势不排他证伪微观力变化。

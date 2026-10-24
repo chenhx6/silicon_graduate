@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint106_monopole_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "monopole-scope-result-106.json",
+  "scope": "literal arithmetic and conditional printing-rounding; not experimental CI"
+}

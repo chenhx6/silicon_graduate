@@ -34,6 +34,8 @@ tags: [sn132, sn133, n82, transfer-reaction, single-particle-orbitals]
 
 # `132Sn(d,p)133Sn` single-particle transfer evidence
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 K. L. Jones et al., *Nature* **465**, 454–457 (2010), DOI `10.1038/nature09048`. Crossref and the Nature publisher page agree on article identity. The Nature landing page identifies the article as subscription content and exposes its abstract and figure legends; the direct `.pdf` endpoint returned HTML, not a PDF. The publisher's Supplementary Information is openly accessible and contains the transfer cross-section tables and DWBA sensitivity plots used below.
@@ -57,6 +59,12 @@ The article reports a `132Sn(d,p)133Sn` one-neutron-addition experiment and inte
 | JON10-5 | The Nature Fig.3 preview shows alternative local/global orbital fits with distinct `l` and spectroscopic-factor labels: e.g. ground-state `2f7/2 (0.86)` vs `3p3/2 (0.55)`, and the 854-keV state `2f7/2 (1.22)` vs `3p3/2 (0.92)`. | model-result | direct | Nature HTML preview, Fig.3 image and caption | true |
 | JON10-6 | The SI says that for the `132Sn(d,p)` reaction local and global potential calculations have similar angular-distribution shapes and agree in magnitude to better than 15%; a `208Pb(d,p)` control shows larger global-potential disagreement at high angular momentum transfer. | model-boundary | direct | Supplementary PDF p.1 and p.3, Fig.5 | true |
 | JON10-7 | The Nature publisher page provided abstract and figure captions, while the article PDF request returned `text/html`; only the Supplementary Information was available as a verified PDF. | evidence-boundary | direct | Nature article page and attempted `.pdf` endpoint; SI PDF metadata | true |
+
+## checkpoint034：132Sn(d,p)133Sn 转移反应光学势依赖、DWBA 谱因子尺度与单粒子纯度审计
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JON10-D21-1 | 依据 Jones 2010 Nature 原件对 132Sn(d,p)133Sn 逆运动学转移反应展开代数对账与推断阶梯审计证明：(1) 局域对决全局光学势在 854 keV（3p3/2）态引发 S 从 0.92 降至 0.80（13% 模型差量），束缚态势阱半径 r0 的 +/-4% 浮动导致 S 产生 -14.5% 至 +17.7% 的系统性尺度漂移；(2) 1363 keV（3p1/2）与 2005 keV（2f5/2）态提取的谱因子 S = 1.10 直接越过物理上限（S <= 1.0），实证了未淬灭 DWBA 模板的反应模型尺度偏置；(3) 非极化角分布形状仅能锁定转移轨道角动量 l，严禁在未测矢量极化分析本领 iT11 下断言 j = l +/- 1/2。确证单粒子纯度必须声明光学势模型误差并排查短程关联淬灭。 | transfer-reaction-spectroscopic-factor-boundary | direct-original-and-quantitative-audit | Nature 465, 454–457 Figs.3–4, SI pp.1–5; transfer-reaction-sn133-audit-034.json | true |
 
 ## Competing Interpretations and Limitations
 

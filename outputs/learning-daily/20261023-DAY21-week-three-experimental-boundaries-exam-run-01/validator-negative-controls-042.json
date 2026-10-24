@@ -1,0 +1,39 @@
+{
+  "scope": "validator failure detection only",
+  "cases": {
+    "missing_block": {
+      "valid": false,
+      "scope": "structure only",
+      "errors": [
+        "exactly one knowledge-writeback block required; found 0"
+      ]
+    },
+    "missing_anchor": {
+      "valid": false,
+      "items": 2,
+      "status": "updated",
+      "scope": "structure, atomic references and changed-page presence only; not source truth or experimental CI",
+      "errors": [
+        "item 0: missing exact anchor"
+      ]
+    },
+    "superseded_ref": {
+      "valid": false,
+      "items": 2,
+      "status": "updated",
+      "scope": "structure, atomic references and changed-page presence only; not source truth or experimental CI",
+      "errors": [
+        "item 0: superseded reference: BI19-D21-1",
+        "item 1: superseded reference: BI19-D21-1"
+      ]
+    },
+    "multiple_blocks": {
+      "valid": false,
+      "scope": "structure only",
+      "errors": [
+        "exactly one knowledge-writeback block required; found 2"
+      ]
+    }
+  },
+  "all_rejected": true
+}

@@ -7,6 +7,8 @@ updated: 2026-10-23
 
 # Wiki Index
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Day17新增研究合同
 
 - [[cl35-1763-polarization-population-replay]] — actualT71 Table5的中央δ/正布居筛选、ratio/Σ与92系数核，非完整实验CI。
@@ -871,3 +873,18 @@ updated: 2026-10-23
 ### ROOT统计API入口
 
 [[root-2026-chi2test-option-contract]]记录固定双版本/actualnative的接口与readiness，不冒原实验CI。
+
+## Day21第三次周考新增来源与方法
+
+- [[nndc-2026-logft-calculator-input-contract]] — 当前NNDC实际程序输入/响应、Q/Ex平移与绝对分支控制；非历史实验/CI重放。
+
+- [[mutschler-2017-34si-proton-density-bubble]] — 34Si质子敲出截面、p∥动量分布与2s1/2占据实验；区分谱因子与直接质子密度。
+- [[yao-2012-34si-beyond-mean-field-bubble]] — 34Si投影GCM超越平均场模型；配对、四极形变涨落与点质子/电荷密度折叠边界。
+- [[experimental-claim-boundaries]] — 从原始探测器信号到动态集体模式的七层推断阶梯、Say/Cannot Say/Next Step与证伪判据规范。
+- [[burgunder-2014-35si-two-body-spin-orbit]] — 35Si (d,p)转移反应、单粒子自旋-轨道劈裂关联解折叠与单极双体力自旋-张量分解。
+
+- [[day21-135nd-same-input-falsification-design]] — 暂定同输入反证设计；母态/成分绑定、共同寿命消去条件及模型失效域。
+
+- [[almehed-2011-chiral-vibrations-a135]] — 实际v2全文；近谐失效与同源135Nd入口，邻核参数不可移植。
+
+- [[qi-2009-135nd-particle-rotor-chirality]] — 实际v1全文；135Nd全量子PRM参数点与固定形变/RMS边界。

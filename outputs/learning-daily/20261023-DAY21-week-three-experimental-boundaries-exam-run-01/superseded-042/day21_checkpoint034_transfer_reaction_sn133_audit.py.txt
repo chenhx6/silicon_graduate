@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 034 Audit Script:
+Inverse-Kinematics (d,p) Transfer Reactions and Single-Particle Purity Limits in 133Sn
+Based on Jones et al. 2010 Nature 465, 454-457 and Orlandi et al. 2018
+"""
+
+import json
+import math
+import numpy as np
+
+def run_audit():
+    # 1. 133Sn Single-Neutron States from Jones et al. 2010 Table 2 & Fig 4
+    states_data = [
+        {"energy_keV": 0, "nlj": "2f7/2", "l": 3, "j": 3.5, "S_local": 0.86, "S_global": 0.85},
+        {"energy_keV": 854, "nlj": "3p3/2", "l": 1, "j": 1.5, "S_local": 0.92, "S_global": 0.80},
+        {"energy_keV": 1363, "nlj": "3p1/2", "l": 1, "j": 0.5, "S_local": 1.10, "S_global": 1.00},
+        {"energy_keV": 2005, "nlj": "2f5/2", "l": 3, "j": 2.5, "S_local": 1.10, "S_global": 1.10}
+    ]
+
+    states_audit = []
+    sum_S_local = 0.0
+    sum_S_global = 0.0
+
+    for s in states_data:
+        disc_pct = (s["S_global"] - s["S_local"]) / s["S_local"] * 100.0
+        exceeds_unity = s["S_local"] > 1.00 or s["S_global"] > 1.00
+        sum_S_local += s["S_local"]
+        sum_S_global += s["S_global"]
+
+        states_audit.append({
+            "excitation_energy_keV": s["energy_keV"],
+            "orbital_assignment": s["nlj"],
+            "transferred_l": s["l"],
+            "S_local_potential": s["S_local"],
+            "S_global_potential": s["S_global"],
+            "OMP_discrepancy_pct": round(disc_pct, 1),
+            "violates_single_particle_upper_limit": exceeds_unity
+        })
+
+    # 2. Bound-state potential geometry sensitivity (r0 radius scaling)
+    # The single-particle cross section sigma_sp in DWBA scales strongly with bound-state radius r0:
+    # sigma_sp approx sigma_0 * (r0 / r0_nom)^alpha, where alpha ~ 3.5 - 4.5 for surface-dominated transfer
+    r0_nominal = 1.25 # fm
+    r0_sweep = [1.15, 1.20, 1.25, 1.30, 1.35]
+    alpha_scaling = 4.0
+
+    geometry_sensitivity = []
+    base_S = 0.86 # ground state 2f7/2
+
+    for r0 in r0_sweep:
+        ratio_sigma_sp = (r0 / r0_nominal)**alpha_scaling
+        # Since S = sigma_exp / sigma_sp, S scales as 1 / ratio_sigma_sp
+        S_extracted = base_S / ratio_sigma_sp
+        delta_S_pct = (S_extracted - base_S) / base_S * 100.0
+
+        geometry_sensitivity.append({
+            "bound_state_radius_r0_fm": r0,
+            "relative_r0_ratio": round(r0 / r0_nominal, 3),
+            "single_particle_DWBA_scale": round(ratio_sigma_sp, 4),
+            "apparent_extracted_S": round(S_extracted, 3),
+            "scale_error_percentage": round(delta_S_pct, 1)
+        })
+
+    # 3. Sum rule and Quenching Analysis
+    # In independent-particle shell model, S_single_particle <= 1.0
+    # In actual nuclei with short-range correlations (Lapikas / Pandharipande), S_true ~ 0.65 - 0.70
+    audit_data = {
+        "audit_name": "Day 21 Checkpoint 034: Inverse-Kinematics 132Sn(d,p)133Sn Transfer Reaction and Spectroscopic Factor Audit",
+        "benchmark_reaction": "132Sn(d,p)133Sn at 4.8 MeV/u (HRIBF)",
+        "reference_sources": [
+            "Jones et al. 2010 Nature 465, 454-457 (The magic nature of 132Sn explored through single-particle states)",
+            "Orlandi et al. 2018 Phys. Rev. Lett. 120, 182501 (Neutron-hole states in 131Sn via (p,d))"
+        ],
+        "single_particle_states_audit": states_audit,
+        "sum_of_spectroscopic_factors": {
+            "sum_S_local": round(sum_S_local, 2),
+            "sum_S_global": round(sum_S_global, 2),
+            "unphysical_S_greater_than_1_states": ["3p1/2 (S=1.1)", "2f5/2 (S=1.1)"],
+            "physical_implication": "Values of S > 1.0 (S=1.10) directly violate the Pauli single-particle sum rule upper limit (S <= 1.0), proving that DWBA model templates carry unquenched reaction-model normalizations."
+        },
+        "bound_state_geometry_sensitivity": {
+            "nominal_r0_fm": r0_nominal,
+            "scaling_exponent": alpha_scaling,
+            "data": geometry_sensitivity,
+            "physical_conclusion": "A modest +/- 4% shift in bound-state radius r0 (1.20 vs 1.30 fm) introduces a -14% to +18% systematic drift in extracted spectroscopic factor S, demonstrating that S cannot serve as an absolute single-particle occupancy without bound-state constraint."
+        },
+        "evidence_gate_rules": [
+            "严禁将单核子转移反应提取的谱因子 S 直接等同于原子核单粒子轨道的绝对占据数（Occupancy）；谱因子是依赖于光学势（OMP）与束缚态几何半径（r0）的模型提取量，不同光学势可引起 15%–25% 的固有尺度漂移。",
+            "严禁在转移反应谱学中将 S ~ 1.0（甚至 S = 1.1）作为排他性“完全纯单粒子态”或“零组态混合”的绝对确证；短程张量关联（SRC）在微观上普遍导致约 30% 的强度淬灭，未淬灭模型提取的 S >= 1.0 反映了反应模型本身的尺度偏置。",
+            "在非极化 (d,p) 反应中，微分截面角分布形状仅能严格约束转移轨道角动量 l，严禁在缺乏极化矢量分析本领 iT11 或微观壳序约束的前提下仅凭角分布形状断言全角动量 j = l +/- 1/2。"
+        ]
+    }
+
+    out_path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/transfer-reaction-sn133-audit-034.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(audit_data, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 034 audit artifact: {out_path}")
+
+if __name__ == "__main__":
+    run_audit()

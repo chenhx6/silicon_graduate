@@ -15,6 +15,8 @@ tags: [triaxiality, collective-motion]
 
 # γ 软形变（Gamma-soft Deformation）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 势能面沿三轴参数 γ 方向较平坦，核波函数可在较宽 γ 区间涨落。γ 软不等同于“平均 γ=0”，也不等同于固定非零 γ 的刚性三轴形变。
@@ -63,6 +65,7 @@ A≈130 的 Xe、Ba、Ce、Nd 是当前重点区域；`136Sm` 提供跨带交叉
 
 ## Sources
 
+- [[mccutchan-2007-gamma-band-staggering]]
 - [[zamfir-casten-1991-gamma-softness-triaxiality]]
 - [[nomura-2017-odd-mass-gamma-soft-shape-transitions]]
 - [[nomura-2021-pairing-triaxial-vibrations-gamma-soft]]
@@ -75,3 +78,13 @@ A≈130 的 Xe、Ba、Ce、Nd 是当前重点区域；`136Sm` 提供跨带交叉
 - 2026-07-01（2 sources）：建立定义并加入低能 staggering 与 TPSM 视角。
 - 2026-07-05（6 sources）：加入 A≈130 奇 A 形状相变、配对-三轴耦合、`136Sm` 跨带交叉 `Q_t` 案例与 IBFM low-spin alternative，并明确模型势面、寿命和 band-identity 证据边界。
 - 2026-07-05：接入 gamma-soft evidence-map project 与阶段性 synthesis。
+
+## Day 21 Checkpoint 020 证据门量化审计：准 γ 带 S(4) 负交错与 γ-软势能判定准则
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/4：有限高阶网络不足需要报告，但不预设截断总把真实软核伪装成刚性核。[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2的原解释保留。平坦势本身不规定概率测度；S(4)负号也不单独证明γ软。

@@ -1,0 +1,135 @@
+---
+type: source
+title: "Almehed2011：TAC+RPA手征振动的近谐适用域"
+aliases: [Almehed 2011 chiral vibrations, A135 TAC RPA]
+created: 2026-10-23
+updated: 2026-10-23
+status: ai-draft
+review_status: unreviewed
+source_type: theoretical-paper
+reading_depth: deep-read
+title_original: "Chiral vibrations in the A=135 region"
+authors: [Daniel Almehed, Friedrich Dönau, Stefan Frauendorf]
+journal: Physical Review C
+year: 2011
+volume: 83
+pages: "054308"
+doi: 10.1103/PhysRevC.83.054308
+arxiv: 0709.0969v2
+language: en
+canonical_source: https://doi.org/10.1103/PhysRevC.83.054308
+citation_key: ""
+raw_file: raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf
+raw_sha256: becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b
+raw_storage_status: public-staging-not-archived
+nuclei: [135Nd, 134Pr]
+models: [tilted-axis-cranking, random-phase-approximation]
+observables: [transition-probability, band-energy-splitting]
+methods: [small-amplitude-expansion, quadrupole-tensor]
+tags: [chirality, RPA, model-validity, source-lineage]
+---
+
+# 近谐手征振动：模型的软化点不是实测相界
+
+## Bibliographic Record
+
+D. Almehed、F. Dönau、S. Frauendorf，*Physical Review C* **83**, 054308 (2011)，DOI [10.1103/PhysRevC.83.054308](https://doi.org/10.1103/PhysRevC.83.054308)。Crossref元数据已核；实际正文为公开[arXiv:0709.0969v2](https://arxiv.org/abs/0709.0969v2)，并未核对VoR正文。PDF边栏31 Jan 2011，题头却印Dated December 1, 2018，保留此版本日期差异，不把期刊年份改成2018。
+
+公开暂存：`tmp/day21-checkpoint051/almehed-2011-arxiv07090969v2.pdf`，18页、487253 bytes，SHA256 `becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b`。frontmatter的raw_file是尚未写入的归档槽，hash对应实际公开暂存；raw未写入，暂存可能丢失，复核时按URL/版本/hash重新取得。获取记录在Day21 run的`source-retrieval-051.json`。
+
+## Scope and Reading Depth
+
+- 实际阅读18页全文文字，包括Appendix A与refs；视觉核PDF pp.3–18的全部14图、两表及关键公式。p.1–2为文字读取，未宣称逐页视觉核。
+- source前回忆为已受MU07等priming的回忆，已冻结，不作盲测。
+- 无原TAC/RPA代码或实际job，未重跑本征问题，未核VoR与预印本逐字一致。
+
+## Paper Question and Scientific Motivation
+
+作者要在微观TAC均场之上描述手征左右运动及带劈裂，避免仅依赖刚性转子/无旋惯量等核心假设。作者明确大振幅从振动到隧穿的完整过渡超出本文范围（PDF p.2）。
+
+## Method and Design Logic
+
+TAC自洽均场加残余QQ相互作用的RPA。n=4、5振子壳，BK修正B=.5；κ在SCTAC势能面极小值满足自洽条件，配对隙取邻核奇偶质量差80%（pp.2–3、Table I、Eqs.1–5）。这些是模型选择/校准，不是实验测得的形状刚性。
+
+RPA给带间率，带内率取TAC（p.7）。p.10 Eqs.15–16采用有效电荷ep=1+Z/A、en=Z/A及自由spin g的.7；排印公式已视觉核，但未据此重算实际B。p.11 Eq.18在本文半经典/声子约定下连接跃迁振幅与率，不用它替换实验约化矩阵元定义。
+
+## Key Evidence and Reasoning Chain
+
+均场平面解 → 小振幅RPA声子 → 能量/跃迁率与实验比较 → 再以四极张量分量分析形状和取向振幅。作者明确能量与率本身不直接给出声子性质（p.11 Sec.IV），因此“拟合率”不是排他身份判据。
+
+## Summary
+
+本文为135Nd原解释提供了真实方法后续及近谐失效条件，但没有补出该核逐行参数、原实验分支或联合Cov。主要计算表图属于奇奇邻核；不能将这些数值移植到135Nd。作者支持部分区域以取向为主的手征振动，同时承认大振幅非谐性、某些spin趋势失败及不存在通用onset跃迁模式。
+
+## Experimental or Theoretical Setup
+
+理论研究复用公开实验作比较，不新增采集。Table I/II的八核参数与Figs.1–14需按各自核素阅读。135Nd在p.2明确交由Ref.13，p.8写“not shown here”；Ref.13仅印Mukhopadhyay et al., PRL (2007)，未给卷页。此引用关系不是第二套独立135Nd电磁测量。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AL11-D21-R51-1 | 本文方法已用于Ref.13的135Nd，但135Nd结果不在本文图表展示；Table I/II主要列奇奇邻核，不能补本核逐行参数/branch。 | source-lineage-and-scope | direct-original | PDF p.2 Introduction；p.8 Sec.III；p.18 Ref.13 | true |
+| AL11-D21-R51-2 | 近谐RPA仅在劈裂足够大时合理；声子能量到零表征方法/均场转变，需大振幅非谐处理；静态左右TAC解在当前方法下零劈裂，隧穿高阶项未完整求解。 | author-model-limitation | direct-original | PDF p.2；p.4 Fig.1前后；p.15 Conclusions | true |
+| AL11-D21-R51-3 | QQ/BK模型的壳空间、B=.5、κ自洽校准和80%配对隙为计算输入；两转动spurious modes的稳定解耦由作者报告，本文任务未复现。 | model-input-and-numerical-claim | direct-original | PDF pp.2–3 Eqs.1–5/Table I；p.7 | true |
+| AL11-D21-R51-4 | 带间率取RPA，带内率取TAC；某些向更高spin的分量因过低或负Eγ不可观测。二者不是两套独立实验验证。 | model-observable-contract | direct-original-and-scope | PDF p.7；pp.10–11 Eqs.15–18 | true |
+| AL11-D21-R51-5 | 声子性质需形状/取向振幅分析；多数所算案例取向振幅主导，角振幅约30–40度起步并在失稳附近发散；134La有较强混合，未给135Nd的本核同类数值。 | author-model-result | direct-original | PDF pp.11–16 Sec.IV/Figs.11–14 | true |
+| AL11-D21-R51-6 | 作者承认部分角动量趋势未再现；不同ΔI带间率比随N/Z快变，未发现通用的手征onset模式。 | author-limitation | direct-original | PDF p.16 Conclusions | true |
+| AL11-D21-R51-7 | Eqs.21–26及Appendix A是线性振幅分解；角坐标反演含取向/形状相关分母，退化轴或形变消失时不能无条件反演。 | model-formula-and-derived-domain | direct-original-and-algebra | PDF p.13 Eqs.19–22；p.14 Eqs.23–26；pp.17–18 A3–A17 | true |
+
+## Nuclear Structure Information
+
+普通手征伙伴为同宇称；有限系统的精确本征态不是固定的左/右经典构型（p.1）。这里讨论的均场静态构型与有限核实验伙伴态之间仍有量子涨落和隧穿，不能把均场临界频率直接登记为实验相变点。
+
+## Authors' Interpretation
+
+N=75附近部分模型解以取向振动为主；接近壳闭合或非谐区时性质改变。作者提出需超越谐近似，不以一个固定B比模式覆盖所有核（pp.15–16）。
+
+## Model Results
+
+两类转动spurious modes分别为E=0和E=ℏω（p.7）；模型自洽/解耦是本征解的必要数值检查。我们没有程序和实际输出，故只能记录作者报告，不认证重现。Table II横线与RPA失效域保留，不能作为缺失的实验误差条。
+
+## Competing Interpretations and Limitations
+
+原文p.2保留134Pr形状与取向耦合和非手征解释。本文近谐假设并未排除这些竞争解释，也没有用邻核成功拟合排除135Nd其它组态/混合可能。未得135Nd预测参数域Θ、原branch/job/response/jointCov，不能计算真实排他检验或新CI。
+
+## Analytical Reconstruction
+
+本任务仅作两个有限运动学练习：由A3–A6验证形状微分反演；冻结其它自由度，选R3=e^(−iφJ3)约定，将Eq.A10的线性2φ与精确sin(2φ)比较。它们不运行TAC/RPA，不给135Nd改正因子，不把文中的声子角振幅直接当经典摆幅误差。计算记录`small-amplitude-domain-051.json`，长期公式边界同时见[[day21-135nd-same-input-falsification-design]]。
+
+## Knowledge Impact and Learning Decision
+
+- Existing Wiki understanding: [[mukhopadhyay-2007-135nd-chiral-vibration-static]]已有近临界失效声明，但详细方法/本核参数尚缺。
+- Effect: limits；真实后续核实了模型域，未补实验输入。
+- Persistence: 本source与现有暂定设计页；不新增邻核实体/案例，不扩展课程卡。
+- Review state: unreviewed，全部新claim保持needs_review true。
+
+## Related Knowledge and Project Relations
+
+| Relation type | Target | Specific relation |
+|---|---|---|
+| methodological-bridge | [[mukhopadhyay-2007-135nd-chiral-vibration-static]] | 原135Nd解释的方法后续；共享实验，不计独立复测。 |
+| limits | [[day21-135nd-same-input-falsification-design]] | 要检验近谐预测，须先取得本核参数和有效域；不能填邻核表值。 |
+| foundational-background | [[frauendorf-meng-1997-tilted-rotation-chirality]] | 有限系统、TAC与左右运动的关系。 |
+
+## Human Review Triage
+
+### P0
+
+P0: none identified。版本日期不一致、未核VoR和缺本核producer已显式隔离，不以它们作排他科学认证。
+
+### P1
+
+AL11-D21-R51-1/2/5/7：重要风险是将方法普适性当135Nd实证，或将大振幅运动学示例当实际RPA误差。后续写作应核各自精确locator与本核预测；目前保留未审。原件读到的理论结果、Agent代数域与未得实际job分别记录。
+
+### P2/P3
+
+书目、版本/hash和索引导航已核；raw归档deferred，citation key未取得，不改本地Bib。
+
+## Extracted Pages
+
+沿用既有方法与主案例页面；不创建邻核实体页，理由是当前任务只需主案例推断边界。
+
+## Non-source Notes and Follow-up
+
+最高信息输入仍是135Nd本核branch/成分与原模型job；若只取得其它核参数或文稿图，不将“可运行”说成原结果可复现。

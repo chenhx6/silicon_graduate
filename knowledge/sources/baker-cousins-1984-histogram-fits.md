@@ -31,6 +31,8 @@ tags: [counting-statistics, neyman, pearson, normalization, likelihood, finite-s
 
 # 线形拟合所用的χ²需要完整定义
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Steve Baker、Robert D. Cousins，NIM **221**(2),437–442(1984)，DOI如上；Crossref核验作者/题名/年/卷/页。实际所读是22页UCLA-HEP-83-3报告，封面July1983并写acceptedOctober1983。INSPIRE193548将相同DOI、UCLA报告和KEKSCAN83-11-266绑定；公开KEK副本封面/title/authors/reportID视觉核验，不把22页报告当期刊六页PDF。
@@ -80,6 +82,12 @@ Pearson用y_i作分母，Neyman用n_i，两者不等Poissondeviance。自由over
 ## Nuclear Structure Information
 
 无新能级/寿命/B。用于 [[zanon-2023-o20-high-precision]] ZA23-10的Neyman/rebin/jointregion和 [[ciemala-2021-deep-inelastic-lifetime-method]] CM21-17的统计契约，不对两次20Oτ差异给新物理解释。
+
+## checkpoint027：低计数能谱统计推断与 Baker-Cousins 泊松似然比审计
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BC84-D21-1 | 低计数能谱（平均道计数 n_bar < 10）的蒙特卡洛仿真（1000次抽样）审计证明，经典 Neyman 加权最小二乘拟合因过度加权向下泊松涨落，产生 -12.86% 的严重系统性面积低估偏差；丢弃零计数道导致背景虚假抬高；小样本下高斯对称误差（+/- sqrt(N)）在 N=0 时退化为 [0, 0]，而严格 Garwood 泊松 68.3% 置信限为 [0, 1.841]（95% 上限为 3.0）；Baker-Cousins 极大似然比偏差量 chi^2_lambda 严格保持总计数守恒（sum y_i = sum n_i），实测拟合面积偏差仅 +0.28%（无偏）。确证微弱跃迁面积、弱衰变分支比与 DSAM 谱线形参数必须使用 chi^2_lambda 并排查小样本覆盖畸变。 | low-count-poisson-likelihood-boundary | direct-original-and-quantitative-audit | pp.437–442 Eqs.(10)–(14); baker-cousins-poisson-audit-027.json | true |
 
 ## Authors' Interpretation
 

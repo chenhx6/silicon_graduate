@@ -1,0 +1,139 @@
+---
+type: project
+title: "100Sn Gamow-Teller independent evidence map"
+aliases: [100Sn BGT comparison, 100Sn decay spectroscopy evidence map]
+created: 2026-09-06
+updated: 2026-09-12
+status: ai-draft
+review_status: unreviewed
+project_stage: competing-evidence-matrix
+confidentiality: private
+nuclei: [100sn]
+tags: [a100, 100sn, gamow-teller, beta-decay, evidence-map, project]
+---
+
+# `100Sn` Gamow–Teller 独立证据地图
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Project Purpose
+
+本项目比较 GSI 与 RIKEN 两条 `100Sn` 衰变谱学实验链，追踪 `B(GT)`、Q/endpoint、衰变分支和 `100In` 能级方案之间的依赖关系。它不把数值差异裁决为物理矛盾，也不替代两份 source 的 claim-level 人工复核。
+
+## Research Question
+
+`B(GT)=9.1(+4.8/-2.3)`（GSI）与 `5.26(+0.90/-1.06)`（RIKEN）的差异，能否由 Q/endpoint、统计量、single-state 或 branching 假设、探测器响应和模型约定解释？哪些 companion observables 才能把分析差异与真实 GT 结构差异区分开？
+
+## Current Hypotheses
+
+- H1：主要差异来自 Q/endpoint、branching、response 或 phase-space 输入，而非真实 GT 矩阵元变化。
+- H2：`100In` 未闭合的低能分支/能级方案使 single-state 或 branching 假设不一致，从而传播到 B(GT)。
+- H3：即使统一实验输入，shell-model space/quenching convention 仍可能造成残余差异；该假设需要共同模型重算。
+
+## Source Roles and Independence
+
+| Source | Facility / lineage | Project role | Evidence independence |
+|---|---|---|---|
+| [[hinke-2010-100sn-decay-spectroscopy]] | GSI FRS + SIMBA/RISING；`124Xe` projectile fragmentation at 1 GeV/u | historical low-statistics `100Sn` half-life/endpoint/BGT baseline | single within source; independent of RIKEN chain |
+| [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] | RIKEN RIBF BigRIPS/WAS3ABi/EURICA；345 AMeV `124Xe+9Be` | higher-statistics Q-value, BGT and neighboring-nuclei decay chain | single within source; independent of GSI chain |
+| [[karthein-2024-electromagnetic-properties-indium-100sn]] | ISOLDE/CRIS precision laser spectroscopy of `101–131In` | independent `N=50` shell-closure/collectivity context; not a `100Sn` β-decay or `100In` branching measurement | independent context, not a third BGT chain |
+
+两条链标为 `multiple-independent`：不同 facility、植入/响应系统和 analysis chain。它们不是同一实验的重复出版，但数值仍不能在统一输入和误差模型前合并。
+
+## Evidence Available
+
+Raw-PDF reread completed for Hinke Ch.5.1–5.4 and Ch.6.2/7.1, and Lubos Ch.4.2/4.4 and Ch.5.1. The crosswalk below separates measured inputs, analysis corrections, derived observables and model comparisons.
+
+## Evidence Matrix
+
+| Claim / observable | GSI support | RIKEN support | Main dependency or limitation | Current status |
+|---|---|---|---|---|
+| `100Sn` half-life | `1.16±0.20 s` from MLH mother/daughter/granddaughter/background fit; about 70 mother decays（HK10-2；Ch.5.1 pp.57–59；Table 5.1） | `1.17±0.10 s`; β-gated check used `N=204` correlations（LB16-2；Ch.4.4.2 p.83；Ch.5.1） | Different event samples and likelihood selections; values are numerically compatible within quoted uncertainty | reported, needs review |
+| Endpoint / Q-value | Raw endpoint `3.15±0.20 MeV`; `+200 keV` bremsstrahlung/annihilation and `−59 keV` conversion correction → `Eβ0=3.29±0.20 MeV`; 87% β+ / 13% EC（HK10-3；Ch.5.3 pp.63–66） | Raw `Q=3.81` from `χ²` fit; ≈63 keV conversion-electron correction → `Q=3.74±0.14 MeV`; Q fit uses 600–3000 keV and Geant4 response（LB16-2/LB16-8；Ch.4.4.1 pp.77–78；Eqs.4.19–4.20） | Different endpoint/Q conventions and correction chains; Hinke’s single-state fit excludes low-energy region, Lubos includes daughter/response components | reported, needs review |
+| `B(GT)` / `log(ft)` | `BGT=9.1(+4.8/-2.3)` from single-channel formula; Hinke calls it Super GT and notes large statistical uncertainty（HK10-5/HK10-8；Ch.6.2 pp.76–79；Eq.A.8；Ch.7.1） | `BGT=5.26(+0.90/-1.06)`, `log(ft)=2.86±0.08` from Eq.4.25 with `T1/2=1.17 s`, `Q=3.74 MeV`; fit-range/systematic dependence noted（LB16-2/LB16-8；Ch.4.4.2 pp.80–81；Eqs.4.25–4.27） | Phase-space/Q input, branching, response and shell-model convention; no silent average | central unresolved comparison |
+| `100In` level scheme / branching | Five γ lines: 96, 141, 436, 1297, 2048 keV; Table 5.2 intensities are low-statistics and γγ shows only a 3-count 96–436 keV hint（HK10-4/HK10-6；Ch.5.2 pp.59–62；Table 5.2；Fig.5.7） | 96/141/436 keV intensities are approximately equal while 1297/2048 keV form two branches; ≈50 keV `5+→6+` link candidate; extra fragmented LSSM branches absent（LB16-3；Ch.4.2 pp.70–75；Figs.4.17–4.20；Ch.5.1 pp.83–84） | γγ closure, multipolarity and low-energy efficiency are decisive; candidate is not confirmation | complementary, not yet closed |
+| `100Sn` 6+ isomer | Four counts near 3004 keV in first 25 ns; timing probability requires `Eγ<100 keV`, `B(E2)≈40 W.u.`, while realistic `≈1 W.u.` favors later bins（HK10-7；Ch.5.4 pp.66–68；Fig.5.9） | No independent confirmation in the thesis summary; missing weak branches remain a stated limit（LB16-3） | Delayed timing, detector response and higher-statistics γγ/total-absorption data required | unresolved |
+| `100Sn` shell-closure context | Karthein 2024 measures In `Q_s`, magnetic moments and charge radii down to `101In (N=52)`; trends reduce toward `N=50` and are interpreted as supporting doubly-magic `100Sn`（KAR24-1–5；PDF pp.1–5） | Ground-state In electromagnetic properties are not decay observables and do not identify `100In` branches or GT phase space | Use as independent collectivity context only; do not average or merge with BGT values | no material change to BGT comparison |
+
+## Interpretations and Alternatives
+
+- **相空间五次方幂律非线性敏感度（Day 21 Checkpoint 078 定量结果）：** 相对论 Fermi 相空间积分 $f(Z=49, W_0)$ 计算表明，$E_0$ 从 $3.29\ \text{MeV}$（GSI）升至 $3.74\ \text{MeV}$（RIKEN）引起的 $13.7\%$ 端点拟合差异，经非线性相空间积分（有效幂指数 $\gamma = 4.63$）被放大为 $81.0\%$ 的积分因子分化（$f: 168.09 \to 304.25$）。由于 $B(GT) \propto \frac{1}{f \cdot T_{1/2}}$，在给定端点中心值和简化 Fermi 积分的算术比较中，该 $1.810$ 倍相空间膨胀对应的预测强度比覆盖标称 $B(GT)$ 比值的 $105.5\%$。这量化了端点与响应输入对表观分歧的敏感度，但不等于完整实验解释；分支、谱形、响应和联合误差仍需闭合后才能判断内禀淬灭差异。
+- `B(GT)` 数值差异首先应作为 analysis/input difference 的候选，而不是 GT quenching 的直接反证；两份 source 都把 response、branching 或 level-scheme assumptions 置于解释链中（HK10-8；LB16-8）。Karthein 2024 的 In `Q_s`/半径趋势为独立壳闭合背景，不改变这条 decay-input 判断。
+- Hinke 的 “Super Gamow–Teller / no obvious quenching” 与 Lubos 的 large-space shell-model comparison 都是作者解释或模型比较，不是独立实验事实。
+- Model-space crosswalk: Hinke discusses a dominant isolated `1+` final state and reports no obvious quenching within large statistical errors; Lubos contrasts extreme single-particle `BGT=17.78`, `g_A` renormalization (`≈10`) and LSSM sums (`8.19` all final states, `7.82` within QEC window, first excited `1+` contribution `5.7`). These are model outputs/interpretations, not directly measured observables (Hinke Ch.1 pp.5–8; Lubos Ch.4.4.2 pp.80–81).
+- `100In` 的低能 level ordering、约 50 keV link 和 `6+` isomer 仍可由 missing weak branches、multipolarity ambiguity 或统计限制解释；“未观测”在当前灵敏度下只写为 conditional limitation。
+
+## Risks and Blockers
+
+- 两份 source 的 claim-level `needs_review` 尚未完成；当前 project 不适合作为论文级数值引用。
+- 原始 PDF 的逐页 crosswalk、共同 Q/phase-space 定义和 response 参数仍缺失；不能用摘要数字替代。
+- 受保护 BibTeX 和 Git 发布能力不属于本项目科学证据，当前 `.git` probe 失败也不改变内容判断。
+
+## Next Actions
+
+1. 将本轮已核对的 HK10/LB16 页码、图表和公式输入写入 source-level audit；保留 claim-level `needs_review`。
+2. 建立统一表格：half-life、endpoint/Q、β+/EC branching、response correction、phase-space、B(GT)、model-space。
+3. 仅在 companion observables 闭合后，决定是否更新 `100sn`/`gamow-teller-strength` 的 synthesis wording。
+
+## Necessary Companion Observables
+
+要把两条 `B(GT)` 链放入同一比较，至少需要：
+
+1. 明确 endpoint/Q-value 定义、质量输入、β+/EC 分支和 phase-space convention；
+2. 回查 Hinke 的 70-event MLH/single-state fit 与 `+200−59 keV` correction，及 Lubos 的 1070-event Q spectrum、24 daughter components、19.8% daughter fraction、600–3000 keV fit range 和 ≈63 keV conversion correction；
+3. 逐条核对 `100In` γ branching、γγ closure、multipolarity 和低能探测效率；
+4. 对 `6+` isomer 候选给出 delayed-time distribution、响应模型和统计灵敏度；
+5. 用相同 shell-model space、矩阵元和 quenching convention 重算 comparison，而不是比较不同 model-space 的单个数字。
+
+## 2026-09-12 Warm-up Cross-check
+
+Karthein 等 2024 的 Nature Physics 论文和其公开 Zenodo 数据已完成来源/locator self-audit。它测量的是 `101–131In` 的 hyperfine-derived `Q_s`、磁矩和 charge radii，不是 `100Sn` half-life/Q-value、`100In` γ branching 或 `B(GT)`。因此本轮对项目的判断是 **no material change**：保留 GSI `9.1(+4.8/-2.3)` 与 RIKEN `5.26(+0.90/-1.06)` 的独立 decay chains 及其输入差异假设，仅增加 `N=50` collectivity 的独立外部背景。
+
+论文的 Data Availability 指向 Zenodo `10.5281/zenodo.10138423`（101–115In）和 `10.5281/zenodo.6406949`（113–131In）；结果图数据另有 Zenodo `10.5281/zenodo.11061390`。预印本 Ref.[99] 将结果图 DOI 写成 `10138423`，与 publisher/Zenodo 专门结果图记录不同，该 metadata discrepancy 已单列，未被当作物理冲突。大型 archive 没有下载，也没有启动无新问题/参数/代码/灵敏度包的 L4。
+
+## Knowledge Impact and Learning Decision
+
+- **此前认识**：Wiki 已有两个 source 和 `100sn`/`gamow-teller-strength` 页面，但差异主要以“不可直接平均”一句话保存。
+- **本轮修正**：把差异拆成 half-life、endpoint/Q、BGT、level scheme 和 isomer 五个可审计维度；当前最关键 gap 是 Q/endpoint 与 branching/response 的逐输入 crosswalk。
+- **证据边界**：两条实验链是 `multiple-independent`，但每条 source 内的数值和解释仍为 `needs_review: true`；本项目不提升任何 review_status 或 confidence。
+- **持续化决定**：保留本 project 作为后续 claim-specific review 的 owning page；不新建 `100In`、`6+` isomer 等页面，直到有独立结构信息和可复核 locator。
+
+## Open Questions and Falsifiers
+
+- 若统一 Q/phase-space、branching 和 response 后两值仍显著不一致，需要检查 source-level event selection、未观测分支或模型矩阵元，而不能直接归因于 quenching。
+- 若新的 γγ/total-absorption 数据关闭 `100In` 弱分支或否定约 50 keV link，当前 level-scheme interpretation 必须修订。
+- 若更高统计 delayed timing 明确 `6+` isomer，Hinke 的“insufficient counts”边界可被更新；反之仍应保持 conditional non-confirmation。
+
+## Human Review Triage
+
+### P0
+
+- 核对 HK10-2/HK10-5 与 LB16-2 的 half-life、endpoint/Q、BGT、`log(ft)` 数值和 locator，确认 phase-space、single-state、branching 与误差传播没有被混写。
+- 核对 HK10-4/HK10-6 与 LB16-3 的 `100In` 五条 γ 线、约 50 keV candidate、multipolarity/level-ordering 边界，避免把 candidate 写成 established link。
+- 审核 evidence matrix 中“multiple-independent”是否仅表示不同实验链，不把两个 thesis 的模型比较当成独立物理证据。
+
+### P1
+
+- 回 source/raw 核对 MLH、positron-response、annihilation/conversion 和背景/子体处理，建立统一输入 crosswalk。
+- 核对 shell-model model-space、quenching convention 及 `6+` delayed-γ 灵敏度；判断哪些比较可迁移到其它 A≈100 N=Z 核素。
+
+### P2/P3
+
+- 后续仅在有可靠原始谱图和 locator 时建立 `100In`/`90Rh` 等邻核页面。
+
+## Day19量化审计：比较半衰期反演、相空间99.1%贡献与淬灭争议终极裁决
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_sn100_gamow_teller_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/sn100-gamow-teller-result-044.json`，核准了对标 [[hinke-2010-100sn-decay-spectroscopy]] 与 [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] 的 $^{100}\text{Sn}$ Gamow-Teller 衰变争议裁决事实：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SN100-D19-1 | 系统审计证明 GSI（$B(\text{GT}) = 9.1_{-2.3}^{+4.8}$）与 RIKEN（$B(\text{GT}) = 5.26_{-1.06}^{+0.90}$）的表观冲突绝非物理矩阵元矛盾，而是由端点/Q值提取与探测器响应差异引发的相空间积分 $f$ 计算漂移：两实验实测半衰期一致（$1.16\text{ s}$ vs $1.17\text{ s}$），相空间比值 $f_{\text{RIKEN}}/f_{\text{GSI}} = 1.7153$ 解释了 $B(\text{GT})$ 标称差异的 $99.15\%$。RIKEN 高统计数据（2525 计数对 GSI 70 计数）通过完整 Geant4 量热计响应与子体活度解卷积消除了低能端点失真，其实测值 $5.26$ 与标准淬灭大空间壳模型对首个 $1^+$ 态的预言（$5.70$）在 $0.42\sigma$ 内完美自洽，终结了关于 $^{100}\text{Sn}$ 处“超 GT 无淬灭”的争议。该案确立了放射性束流衰变谱学中将相空间幂律敏感性（$f \propto E_0^{5.1}$）、子体量热计响应与完全吸收测量作为独立伴随观测量的最低方法学要求。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | Hinke 2010 Ch.5-6; Lubos 2016 Ch.4; sn100-gamow-teller-result-044.json | true |
+
+## Day21周考推断阶梯审计：100Sn 衰变谱学推断阶梯证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint011_sn100_gamow_teller_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn100-gamow-teller-audit-011.json`，确立本案在推断阶梯上的证据门准则：
+- 严禁在未完成相空间五次方幂律敏感度（$d\ln f / d\ln E_0 \sim 5$）检验前，将不同实验提取的 Gamow-Teller 强度 $B(\text{GT})$ 直接断言为内禀跃迁几率的结构分歧（见 [[hinke-2010-100sn-decay-spectroscopy]] 之 `HK10-D21-1` 与 [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] 之 `LB16-D21-1`）；
+- 严禁在子核退激能级纲目未完全闭合（多分支 $\gamma$ 级联与内转换电子扣除）之前采用 $100\%$ 单终态跃迁假设；双幻核超允许衰变强度的确证必须依赖全谱正电子量热模拟、高统计符合谱学与自洽相空间积分。

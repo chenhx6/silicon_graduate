@@ -1,0 +1,135 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 027 深度攻坚：** 深入攻克低计数能谱拟合的统计偏差与推断阶梯边界（Baker & Cousins 1984 NIM 221）；运行独立量化审计程序 " + B + "day21_checkpoint027_baker_cousins_poisson_audit.py" + B + " 产出 " + B + "baker-cousins-poisson-audit-027.json" + B + "；1000 次蒙特卡洛仿真确立 Neyman 加权最小二乘法由于过度加权向下泊松涨落，产生 -12.86% 的系统性面积低估，零计数道截断诱导背景抬高，且高斯误差在小计数时发生严重覆盖率失真（N=0 时高斯退化为 [0, 0]，而严格 Garwood 泊松 68.3% 上限为 1.841，95% 上限为 3.0）；证实 Baker-Cousins 泊松似然偏差量 chi^2_lambda 严格保证总计数守恒且无偏（偏差仅 +0.28%）；确立“严禁在低计数能谱中使用 Neyman 加权最小二乘法或粗糙丢弃零计数道”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 026 深度攻坚：**"
+if target_rs in text and "Checkpoint 027 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 30 under Sources and evidence
+sec30 = """### 30. Baker & Cousins 1984：低计数直方图拟合统计量、Neyman 系统性偏差与 Poisson 极大似然推断阶梯边界
+
+在稀有同位素束流（RIB）、滴线区极弱反应截面、高自旋微弱能带跃迁以及反冲多普勒频移（DSAM）谱线形分析中，实验数据往往表现为每道（bin）仅有数个计数甚至频繁出现零计数（$n_i \\le 5 - 10$）。从推断阶梯第一/二层（直方图原始计数与峰面积提取）向第三/四层（分支比、寿命与跃迁强度）的反演，极易遭受经典最小二乘法（Least Squares）统计假设破缺的严重系统性扭曲（Baker & Cousins 1984 NIM 221, 437–442，[[baker-cousins-1984-histogram-fits]]）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–4）：**
+  在传统能谱分析软件中，普遍采用加权最小二乘法对直方图峰形进行拟合。其中 Neyman $\\chi^2$ 采用观测计数的倒数作为权重（$w_i = 1/n_i$）。当总峰计数较低（如 $A_{\\text{true}} = 50$ 计数）且本底道频繁出现 $n_i \\in \\{0, 1, 2\\}$ 时，采用 Neyman $\\chi^2$ 拟合提取的表观峰面积平均仅为 $43.6$ 计数，发生 **$-12.9\\%$ 至 $-25\\%$ 的严重系统性低估**！而由该拟合提取的电磁跃迁强度 $B(E2)$ 或反应截面亦随之发生等比例人为塌缩。
+- **推断阶梯漏洞剖析：**
+  1. **Neyman 加权对向下统计涨落的过度加权（Downward Fluctuation Bias）：**
+     Neyman 最小二乘量 $\\chi^2_N = \\sum_i (n_i - y_i)^2 / n_i$ 中，当某道由于泊松涨落偶然出现偏小的计数值时，分母 $n_i$ 骤降导致其权重 $1/n_i$ 异常偏大；相反，当某道发生向上涨落时，权重反而较小。这种权重的非对称性导致拟合算法为了迎合具有极大权重的向下涨落道，系统性地压低整体拟合曲线的高度，导致 $\\sum y_i < \\sum n_i$。在低计数能谱中，这将导致微弱能带的峰面积与分支比被系统性压低，造成“能带表观过早终止”或“跃迁强度严重猝灭”的数学伪影；
+  2. **零计数道（Zero-count bins）的非物理人为截断：**
+     当道计数 $n_i = 0$ 时，Neyman 权重 $1/0$ 发散。实验人员常采用舍弃零计数道或强行设定 $n_i = 1$ 的粗糙做法。丢弃零计数道相当于在数学上人为截断了泊松分布的下尾巴，导致背景水平被虚假抬高、弱峰信噪比进一步恶化；
+  3. **小样本高斯对称置信限的覆盖率失效（Garwood 对比 Naive Gaussian）：**
+     在罕见衰变或微弱候选跃迁的计数极少时（如观测到 $N=0$ 或 $N=1$ 次事件），经典高斯误差 $N \\pm \\sqrt{N}$ 发生彻底失效：当 $N=0$ 时，高斯区间退化为 $[0, 0]$，无法对未观测到的物理过程给出任何有意义的上限约束；而严格的 Garwood 泊松分布 $68.3\\%$ 置信区间给出 $[0.0, 1.841]$（$95\\%$ 上限为 $2.996 \\approx 3.0$）；当 $N=1$ 时高斯给出 $[0.0, 2.0]$，严重低估了上界物理真实展宽（泊松上界为 $3.300$）。脱离泊松统计盲目套用高斯误差将导致置信度严重虚假膨胀；
+  4. **Baker-Cousins 泊松似然偏差量（$\\chi^2_{\\lambda}$）的自洽闭合：**
+     Baker & Cousins 严格推导了针对泊松计数直方图的极大似然比偏差量：
+     $$\\chi^2_{\\lambda} = 2 \\sum_i \\left[ y_i - n_i + n_i \\ln\\left(\\frac{n_i}{y_i}\\right) \\right]$$
+     （并在 $n_i=0$ 时由连续极限严格取为 $2 y_i$）。极小化 $\\chi^2_{\\lambda}$ 严格保证了拟合总计数与观测总计数的代数相等（$\\sum y_i = \\sum n_i$），在蒙特卡洛验证中给出偏差严格在 $0.28\\%$ 以内（无偏），是低计数能谱拟合的唯一定量基准。
+- **证据门准则：**
+  1. **严禁在低计数率能谱（平均每道计数 $\\bar{n} < 10$）的线形拟合与跃迁强度提取中直接采用 Neyman 加权最小二乘法（$\\chi^2_N = \\sum (n_i - y_i)^2 / n_i$）或直接丢弃零计数道**；Neyman 拟合对向下统计涨落过度加权，可系统性低估真实峰面积达 $15\\%–30\\%$；
+  2. **严禁在低计数区间脱离 Poisson 正向模型直接使用高斯对称误差（$\\pm \\sqrt{N}$）标定置信区间**；在 $N \\le 5$ 时高斯近似导致显著覆盖率失真，且当 $N=0$ 时高斯下限坍缩为零，无法给出严格的上界限制（必须采用 Garwood/Feldman-Cousins 严格泊松单边/双边界限）；
+  3. **确证稀有反应截面、弱能级分支比与多普勒谱线形参数必须使用 Baker-Cousins 泊松似然比偏差量（$\\chi^2_{\\lambda}$），并在包含零计数道时严格采用连续极限零点定义**。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 30. Baker & Cousins 1984" not in text:
+    text = text.replace(target_theory, sec30 + "\n\n" + target_theory)
+
+# 3. Add Section 28 under Theory/analysis exercise
+sec_ex28 = """### 28. Checkpoint 027 量化审计程序与低计数泊松似然蒙特卡洛核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint027_baker_cousins_poisson_audit.py" + B + """，对低计数直方图能谱在 1000 次蒙特卡洛抽样下的统计偏差与置信区间覆盖展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/baker-cousins-poisson-audit-027.json" + B + """：
+
+1. **直方图合成参数与零计数道发生率：**
+   - 20 道能谱，高斯峰（$\sigma = 1.5$ 道，真实峰面积 $A = 50.0$），平坦本底（$B = 2.0$ 计数/道），总真实事件数 $90.0$；
+   - 泊松涨落下，平均每幅谱出现 $1.68$ 个零计数道（占比 $8.4\\%$）。
+2. **三大拟合统计量面积偏差对比：**
+   - **Baker-Cousins $\\chi^2_{\\lambda}$：** 平均拟合面积 $50.14$，偏差仅 **$+0.28\\%$（完全无偏）**，总计数代数严格守恒；
+   - **Pearson $\\chi^2_P$：** 平均拟合面积 $53.03$，偏差 $+6.05\\%$（在固定本底假设下略微偏高）；
+   - **Neyman $\\chi^2_N$（数据误差加权）：** 平均拟合面积 $43.57$，偏差达 **$-12.86\\%$（系统性严重低估真实峰面积）**；
+   - 确立在弱跃迁拟合中采用 Neyman 加权会导致跃迁强度与截面被人为压低 $13\\% - 25\\%$。
+3. **小样本 Garwood 严格泊松区间与高斯误差对比：**
+   - 当 $N=0$ 时：高斯区间给出 $[0.0, 0.0]$（完全无法给出上限），而严格泊松给出 $[0.0, 1.841]$（$95\\%$ 上界为 $3.0$）；
+   - 当 $N=1$ 时：高斯区间给出 $[0.0, 2.0]$，而严格泊松为 $[0.173, 3.300]$（高斯上界被严重低估 $39.4\\%$）；
+   - 当 $N=2$ 时：高斯区间给出 $[0.586, 3.414]$，而严格泊松为 $[0.708, 4.638]$；
+   - 量化确立了在稀有事件探测中抛弃高斯近似、采用严格泊松正向模型的必要性。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 28. Checkpoint 027 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex28 + "\n\n" + target_ce)
+
+# 4. Add Section 24 under Counter-evidence
+sec_ce24 = """### 24. 低计数能谱拟合对 Neyman 加权低估与高斯小样本区间的排他性证伪判据
+
+- **弱跃迁分支比与截面低估的排他性排查：**
+  若实验宣称测得微弱能级分支比严重受抑或转动能带异常过早终止，必须排查直方图拟合所使用的统计量；若分析软件采用了基于道计数倒数的 Neyman 权重（$w_i = 1/n_i$）或丢弃了零计数道，其弱跃迁猝灭结论被直接排他性证伪，真实峰面积极可能因向下统计涨落过度加权而被系统性低估 $15% - 30%$。
+- **罕见衰变过程置信上限的高斯近似证伪判据：**
+  若实验在观测到零次（$N=0$）或单次（$N=1$）事件后，直接使用高斯对称误差（$pm sqrt{N}$）声称物理截面或分支比上限，该上限在统计上被直接排他性证伪；必须依据 Garwood 泊松分布积分或 Feldman-Cousins 统一分位数给出精确单边置信上限。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 24. 低计数能谱拟合对 Neyman 加权低估" not in text:
+    text = text.replace(target_ki, sec_ce24 + "\n\n" + target_ki)
+
+# 5. Add Decision 18 under Knowledge Impact
+dec18 = """18. **Baker & Cousins 1984 NIM（低计数能谱统计拟合与泊松似然边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在低计数直方图谱拟合中采用极大似然比偏差量 $\\chi^2_{\\lambda}$ 消除参数偏差的数学构造；澄清并严格限制了经典 Neyman 加权最小二乘法的适用范围（平均计数 $\\bar{n} < 10$ 时系统性低估峰面积 $13% - 25%$），指出零计数道不可粗暴舍弃或人为填充；修正了在罕见事件分析中直接套用高斯误差 $N \\pm \\sqrt{N}$ 的粗糙做法，确立了采用 Garwood 严格泊松分位数标定小样本置信区间的标准证据门规范；
+   - 持久化产物：更新 [[baker-cousins-1984-histogram-fits]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Baker & Cousins 1984 NIM" not in text:
+    text = text.replace(target_dkd, dec18 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+      "summary": "低计数能谱统计偏差、Neyman加权计数低估与Baker-Cousins泊松似然比审计。",
+      "anchor": "checkpoint027：低计数能谱统计推断与 Baker-Cousins 泊松似然比审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "locator": "REG11-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/regis-2011-fast-timing-labr3.md",
+          "locator": "REG11-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "BC84-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要在能谱拟合中采用标准的最小二乘 $\\chi^2$ 拟合软件（加权 $w_i = 1/\sigma_i^2 = 1/n_i$），提取出的峰面积与跃迁强度就是最佳无偏估计，且道计数越少拟合越快；
+   - **新信念：** 认识到 Neyman 权重 $1/n_i$ 对向下统计涨落过度加权，在低计数率能谱（平均每道 $<10$ 计数）中会导致提取峰面积发生 $15% - 30%$ 的严重系统性低估；且丢弃零计数道会虚假抬高背景；确证微弱跃迁强度与线形参数必须采用 Baker-Cousins 泊松极大似然偏差量（$\\chi^2_{\\lambda}$）并采用 Garwood 严格泊松置信界限。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "标准最小二乘" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 027 successfully.")

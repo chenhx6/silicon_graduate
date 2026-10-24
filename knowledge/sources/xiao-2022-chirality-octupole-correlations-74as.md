@@ -32,6 +32,8 @@ tags: [experiment-ingest, project-ingest, a80, nuclear-chirality, chiral-doublet
 
 # Chirality and Octupole Correlations in `74As`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Physical Review C 106, 064302 (2022), DOI `10.1103/PhysRevC.106.064302`. The protected BibTeX key is `xiao_2022_Chiralityoctupole`.
@@ -179,3 +181,11 @@ P0: none identified.
 
 - Protected BibTeX record: `xiao_2022_Chiralityoctupole` in `raw/zotero/wiki-inbox.bib` (read-only).
 - Raw PDF: `raw/papers/2022_Xiao et al_Chirality and octupole correlations in As 74.pdf`.
+
+## Day21周考推断阶梯审计：74As手征与八极振动关联证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint018_chiral_parity_quartet_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/chiral-parity-quartet-audit-018.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| XA22-D21-1 | Xiao 2022 实验确立 $^{74}	ext{As}$ 手征与八极关联推断阶梯边界：(1) 动态八极振动本质：相反宇称带之间的能量位移参数 $\delta E(I)$ 保持在 $615 - 712	ext{ keV}$（平均 $664	ext{ keV}$，比刚性八极核 $^{224}	ext{Th}$ 大 62 倍），实证其为单声子八极软振动，排除了静态八极梨形形变；(2) 手征振动特征：Bands 1/2 能量间距稳定在 $\sim 394	ext{ keV}$，结合 TPRM 中价中子在三轴上的剧烈混合，反映了大振幅非共面手征涨落而非简并静态手征；(3) 结构不完备性：仅建立 3 条带（缺失第 4 条手征—宇称伙伴带），且绝对寿命完全缺失。推断阶梯确立：严禁将三带体系与交错 $E1$ 连接断言为确证的手征—宇称四重带（CPQ），确证必须依赖完整四带闭合、$\delta E 	o 0$ 简并与绝对寿命测量。 | claim-boundary-audit | direct-and-derived | PRC 106, 064302 pp.5-7; Table I; chiral-parity-quartet-audit-018.json | true |

@@ -1,0 +1,56 @@
+{
+  "retrieved_at": "2026-10-23T13:21:10.574729+00:00",
+  "results": [
+    {
+      "route": "aps",
+      "requested": "https://link.aps.org/pdf/10.1103/PhysRevC.83.054308",
+      "params": null,
+      "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.83.054308",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5525,
+      "pdf_magic": false,
+      "sha256": "be5bfc20f6194ef8c2e65f3295327a8d6ccae21aa98324f874c7e8381d61c08c",
+      "local": "tmp/day21-checkpoint051/aps.html"
+    },
+    {
+      "route": "arxiv-doi",
+      "requested": "https://export.arxiv.org/api/query",
+      "params": {
+        "search_query": "doi:\"10.1103/PhysRevC.83.054308\"",
+        "max_results": 3
+      },
+      "final_url": "https://export.arxiv.org/api/query?search_query=doi%3A%2210.1103%2FPhysRevC.83.054308%22&max_results=3",
+      "status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 2121,
+      "pdf_magic": false,
+      "sha256": "045297d493b87ba4a8536eb4bd99fe15c4de771db3cdbcac3646dc79e2b776ca",
+      "local": "tmp/day21-checkpoint051/arxiv-doi.xml",
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/0709.0969v2",
+          "title": "Chiral vibrations in the A=135 region",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/0709.0969v2",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/0709.0969v2",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/PhysRevC.83.054308",
+              "title": "doi"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

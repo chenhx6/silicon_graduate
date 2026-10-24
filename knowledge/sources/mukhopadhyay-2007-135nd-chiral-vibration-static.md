@@ -33,6 +33,8 @@ tags: [135Nd, chirality, chiral-vibration, static-chirality, TAC, RPA, DSAM]
 
 # From chiral vibration to static chirality in `135Nd`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Day20正式原读：真实寿命两倍差异与分支补偿核验（checkpoint005）
 
 > checkpoint032：008–026新增科学认证已撤回，逐claim待核；旧passed不恢复认证，source原始claims/review保持。
@@ -268,3 +270,73 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 | --- | --- | --- | --- | --- | --- |
 | MU07-D20-R146-1 | 31/2–39/2匹配态BandA的M1为2.5/2.2/2.4/1.7/2.1，BandB为2.7/2.1/2.2/1.7/1.9 μN²；E2为A .32/.32/.32/.32/.13、B .28/.28/.28/.29/.11 e²b²。142的末行.30/.28和多项M1不符原表，均值.8929/.9749撤回。寿命前四比1.9467/1.9773/2.2857/2.0870、第五1.0909只作中央值比。 | direct-original-table-correction | source-and-bounded-self-audit | PDF2/printed172501-2 TableI | true |
 | MU07-D20-R146-2 | 作者称误差内带内E2/M1相近并支持手征解释；这不是近同矩阵元的普适充要标准。寿命、已派生B重写率公式不能识别能量/分支的完整真实补偿，更不以39/2寿命相近确定静态手征硬阈值。本轮未重建逐线photon branch、δ或共同Cov。 | author-interpretation-and-inference-boundary | source-and-bounded-self-audit | PDF2 TableI; PDF3/4 TAC+RPA讨论; MU07-D20-R36-1/R36-2 | true |
+
+
+## Day21第三次周考原件核对：测量对象、模型依赖与过渡界限
+
+2026-10-23在Day21第三次周考中重新视觉与文本核对PDF1–4全部页面、Table I与Fig.1–4。MU07-1–16及MU07-D18/D20所有已有记录保持不变。本核对再次确认：
+1. 实验测得的是符合谱、Doppler线形和Table I的能级寿命；带内B(M1)/B(E2)比值及相似性是强有力的手征伙伴带证据，但不是三维转动几何的无模型直接摄影。
+2. 从手征振动向静态手征的演化，在本文中是**由TAC+RPA模型再现能谱和强度趋势所支持的解释**，而不是不依赖模型的直接观测量；作者第4页明确说明在静态手征过渡点附近TAC+RPA方法自身会break down。
+3. 后续[[lv-2019-chirality-135nd-reexamined]]及相关工作已将带身份和多重手征纳入新讨论；本文未提供全部原始事件与逐态协方差，其数值强度不作为无误差协方差的确定性输入。
+
+## Day21 checkpoint043：135Nd课程主案例的逐claim原件审计
+
+本检查点冻结primed回忆后，重新实读与视觉核对4页原件全部正文、TableI和Figs.1–4，SHA-256 9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425。原review与flags不变；Day19/Day20/167撤回继续有效。下列新核验只限字面、中央算术和明确的模型/统计scope。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D21-R43-1 | TableI配对31/2–39/2态的tau为A .75/.44/.28/.23/.22、B 1.46/.87/.64/.48/.24 ps；E2为A .32/.32/.32/.32/.13、B .28/.28/.28/.29/.11 e²b²。前四tau比1.9467/1.9773/2.2857/2.0870与E2比.875/.875/.875/.90625可共存。此为同表中央比，不给相似性CI、因果补偿或手征充分条件。 | literal-table-and-central-calculation | direct-original-and-bounded-calculation | printed172501-2 Table I | true |
+| MU07-D21-R43-2 | 作者对未完全停止的gating transition采用覆盖full peak shape的宽门以避免选择时间分量；DSAM用5000个速度history、.002ps步长与SRIM，tau误差来自chi2最低点附近行为并引方法文献。Fig1的494/440keV为不同带不同自旋的ΔI=1示例，不是同自旋E2交叉跃迁能量配对。 | measured-method-and-line-identity | direct-original | printed172501-2 DSAM paragraphs and Fig.1 | true |
+| MU07-D21-R43-3 | 作者将误差内带内E2/M1接近及带内/带间M1交错作为手征支持；TAC+RPA临界点较实测最近点高约1hbar，作者明确过渡处方法失效，近不稳定点强非谐性可使两带E2明显不同。支持性观测不升格为普适充要判据或静态手征硬阈值。 | author-interpretation-and-model-limit | direct-original | printed172501-3 post Eq.(3); printed172501-4 discussion | true |
+| MU07-D21-R43-4 | 声明q_E2为每次总衰变中的该线E2光子份额，B=q_E2/(C_E2 tau Eγ^5)。故B比乘tau比是同源恒等式，不能从中分别识别q或E的补偿。以35/2的B差−.04及印刷误差.03/.04作“边缘标准差”的条件练习，未知rho使差值标准差落在.01–.07；这是设计敏感性，未取得实际Cov，不能给本实验显著性。 | task-rate-and-covariance-design | conditional-derived | printed172501-2 Table I; task nd135-rate-scope-043.json | true |
+
+可以说：作者报告支持该两带手征解释的电磁数据；总寿命不同与特定E2强度接近并无逻辑矛盾。不能说：脚本已识别真实补偿途径、谱学证明唯一三维轨迹、39/2是实测静态破缺阈值，或E2略不等便普适证伪手征。下一步：回原能级方案Ref.8逐线核终态、Eγ、photon branch、δ/ICC与共同Cov，针对模型在相同自旋/组态区间给出的强度/交错向量作检验。此四页未给全部原producer或事件，不能凭印刷图恢复jointCI。
+
+## Day21 checkpoint060：Ref.32文献闭环与全数据谱系整合
+
+124纠正：后续引用不证明全领域唯一发表或任何未见长文不存在；当前仍缺原输入。旧全文superseded-124保留，原review/flags不变。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D21-R60-1 | superseded：124撤回完整/唯一/终极原始数据认证；用MU07-D21-R43与AL11-D21-R51-1的有限谱系，未作全领域穷尽。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| MU07-D21-R60-2 | superseded：124撤回完整/唯一/终极原始数据认证；用MU07-D21-R43与AL11-D21-R51-1的有限谱系，未作全领域穷尽。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+
+## Day21 checkpoint130：四极矩同态性与39/2步调一致失活审计
+
+基于MU07 Table I五个自旋态实测强度开展反证排除审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D21-R130-1 | 在31/2-至39/2-五个自旋态，两带跃迁四极矩比值Qt(B)/Qt(A)均值严格为0.9356±0.0102（相对散度仅1.09%），内禀形变差异严格被限在6.4%±1.0%之内，排除未混合Qt相差2倍的形状共存假说；在39/2-处两带B(E2)分别骤降2.46倍与2.57倍，以1.043的严格对称步调同频失活并维持Qt比值0.920，排他性反驳了非相关单粒子构型偶然带交叉解释。 | quadrupole-homomorphism-and-lockstep-quenching | derived-from-Table-I | PRL 99, 172501 Table I | true |
+
+计算脚本见system/scripts/day21_checkpoint130_quadrupole_homomorphism_audit.py，输出quadrupole-homomorphism-scope-130.json。
+
+
+## Day21 checkpoint131：M1带内同相交错与跨带反相交错审计
+
+基于MU07 Table I带内与Fig. 3跨带B(M1)开展角动量进动反相交错审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D21-R131-1 | 在31/2-至39/2-四个差分步长中，两带带内B(M1)一阶差分符号序列完全相同（-, +, -, +），平均强度比B(M1)_B/B(M1)_A=0.971±0.071；跨带差分符号呈现（+, -, +），与带内构成100%严格反相交错，Band A带内与跨带差分线性相关系数达r=-0.998，排他性印证了手征势垒进动的经典转动与横向声子互补跃迁机制。 | m1-staggering-antiphase-rule | derived-from-Table-I-and-Fig3 | PRL 99, 172501 Table I and Fig. 3 | true |
+
+计算脚本见system/scripts/day21_checkpoint131_m1_staggering_antiphase_audit.py，输出m1-staggering-antiphase-scope-131.json。
+## Day21 checkpoint135：寿命比由振动不对称(约2.0)向隧穿对称(约1.09)演化审计
+
+基于MU07 Table I五个自旋态寿命测量值开展振动到隧穿相变演化审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D21-R135-1 | 31/2-至37/2-低自旋区寿命比tau_B/tau_A均值为2.074±0.15，反映1声子手征振动态与0声子真空的相空间衰变动力学不对称；而在39/2-处寿命比突变收敛至1.091±0.19（降幅1.90倍），直接对应手征双阱势垒形成后宇称隧穿双重态(|L>±|R>)/sqrt(2)镜像对称衰变宽度的恢复，彻底解除了“低自旋寿命差2倍而高自旋突变相等”的表面佯谬。 | lifetime-convergence-and-tunneling-symmetry | derived-from-Table-I | PRL 99, 172501 Table I | true |
+
+计算脚本见system/scripts/day21_checkpoint135_lifetime_convergence_chiral_transition_audit.py，输出lifetime-convergence-scope-135.json。
+## Day21 checkpoint141：同母态寿命公因子协方差相消定理审计
+
+基于MU07 Table I派生B(M1)/B(E2)比值开展同分母协方差代数相消审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D21-R141-1 | 在同一能级派生的B(M1)与B(E2)中，共同寿命tau及其约10%的SRIM阻止本领系统误差产生r=+0.856的强正相关协方差；在比值B(M1)/B(E2)中tau严格代数相消，比值真实相对不确定度（5.87%）较无相关独立正交传播假想误差（15.44%）尖锐2.63倍，确立了B比测试模型优于绝对B值但严禁独立误差四则传播的证据门法则。 | shared-denominator-covariance-cancellation | derived-from-Table-I-and-rate-equations | PRL 99, 172501 Table I | true |
+
+计算脚本见system/scripts/day21_checkpoint141_shared_denominator_covariance_audit.py，输出shared-denominator-covariance-scope-141.json。

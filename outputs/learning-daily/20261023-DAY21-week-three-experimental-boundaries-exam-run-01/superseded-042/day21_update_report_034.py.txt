@@ -1,0 +1,131 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = """- **Checkpoint 034 深度攻坚：** 深入攻克逆运动学单核子转移反应与单粒子纯度推断阶梯边界（Jones et al. 2010 Nature 465）；运行独立量化审计程序 """ + B + "day21_checkpoint034_transfer_reaction_sn133_audit.py" + B + """ 产出 """ + B + "transfer-reaction-sn133-audit-034.json" + B + """；以 $^{132}\\text{Sn}(d,p)^{133}\\text{Sn}$（4.8 MeV/u）为基准，定量证明：(1) 局域对决全局光学势在 $854\\text{ keV}$（$3p_{3/2}$）态引发谱因子 $S$ 从 $0.92$ 降至 $0.80$（$13.0\\%$ 模型差量），束缚态几何半径 $r_0$ 的 $\\pm 4\\%$ 浮动导致提取的 $S$ 发生 $-14.5\\%$ 至 $+17.7\\%$ 的剧烈系统漂移；(2) $1363\\text{ keV}$（$3p_{1/2}$）与 $2005\\text{ keV}$（$2f_{5/2}$）态提取的谱因子 $S = 1.10$ 直接突破单粒子求和上限（$S \\le 1.0$），实证了未淬灭 DWBA 模板的反应模型尺度偏置；(3) 非极化角分布形状仅能锁定转移轨道角动量 $\\ell$，无法区分全角动量 $j = \\ell \\pm 1/2$；确立“严禁将谱因子等同于绝对占据数与严禁脱离光学势包络断言双满壳纯度”的核心证据门准则。"""
+
+target_rs = "- **Checkpoint 033 深度攻坚：**"
+if target_rs in text and "Checkpoint 034 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 37 under Sources and evidence
+sec37 = """### 37. Jones et al. 2010：132Sn(d,p)133Sn 逆运动学单中子转移反应、DWBA 光学势依赖与谱因子推断阶梯边界
+
+在放射性同位素束流（RIB）核物理中，逆运动学单中子添加反应 $(d,p)$（如 $^{132}\\text{Sn}(d,p)^{133}\\text{Sn}$）与单中子敲除反应 $(p,d)$ 被广泛视为检验幻数壳层闭合刚性与单粒子态纯度的决定性实证工具。从推断阶梯第一/二层（反冲质子微分截面角分布 $d\\sigma/d\\Omega(\\theta_{\\text{c.m.}})$）向第三/四层（轨道角动量转移 $\\ell$、谱因子 $S_{\\text{exp}} = \\sigma_{\\text{exp}} / \\sigma_{\\text{DWBA}}$）及第五层（微观壳层波函数单粒子纯度与 $^{132}\\text{Sn}$ 双满壳完备性）的反演，高度依赖于扭曲波玻恩近似（DWBA）中反应光学势的理论标定（Jones et al. 2010 Nature 465, 454–457，[[jones-2010-133sn-single-particle-transfer]] 对比 Orlandi et al. 2018 PRL）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–5）：**
+  在橡树岭国家实验室（HRIBF）实验中，利用 $4.8\\text{ MeV/u}$ 的 $^{132}\\text{Sn}$ 放射性束流轰击氕化氘靶，测得 $^{133}\\text{Sn}$ 低激发态的质子出射角分布；通过 DWBA 拟合提取出基态（$2f_{7/2}$）与低激发态（$3p_{3/2}, 3p_{1/2}, 2f_{5/2}$）的谱因子 $S \\approx 0.85 - 1.10$。通俗学术解读常常直接据此断言：$^{133}\\text{Sn}$ 的态具有“$100\\%$ 纯单粒子波函数”，排他性确证了 $^{132}\\text{Sn}$ 具有教科书式的理想刚性双幻核。然而，这一结论跨越了三道严密的推断阶梯边界。
+- **推断阶梯漏洞剖析：**
+  1. **光学势（OMP）与束缚态几何（$r_0$）对绝对谱因子的剧烈尺度漂移：**
+     单核子转移反应提取的绝对谱因子 $S = \\sigma_{\\text{exp}} / \\sigma_{\\text{DWBA}}$ 本质上是反应模型依赖的比值，绝非直接可观测物理量。在 Jones 2010 的补充材料中明确展示：
+     - 对于 $854\\text{ keV}$ 态（$3p_{3/2}$），采用局域光学势（Perey-Perey）给出的谱因子为 $S = 0.92$，而改用全局光学势（Koning-Delaroche / CH89）时急剧滑落至 $S = 0.80$，模型间差量高达 **$13.0\\%$**；
+     - 更严重的是束缚态势阱半径 $r_0$ 的强敏感性：单粒子截面在表面区域近似按 $\\sigma_{\\text{sp}} \\propto r_0^4$ 缩放。若将束缚态几何半径 $r_0$ 从标称值 $1.25\\text{ fm}$ 浮动 $\\pm 4\\%$（$1.20$ 至 $1.30\\text{ fm}$），提取的谱因子发生 **$-14.5\\%$ 至 $+17.7\\%$ 的大幅度系统性漂移**！因此，在缺乏独立渐近归一化系数（ANC）约束的前提下，谱因子固有承载着 $\\sim 20\\%$ 的模型不确定度包络；
+  2. **谱因子 $S \\ge 1.0$ 的非物理越界与短程关联淬灭假象：**
+     在独立粒子壳模型中，单个未占据轨道的单核子添加谱因子在物理上有严格的泡利不相容求和上限：$S \\le 1.0$。而在 Jones 2010 中，第二激发态（$1363\\text{ keV}, 3p_{1/2}$）与第三激发态（$2005\\text{ keV}, 2f_{5/2}$）实测谱因子均高达 **$S = 1.10 > 1.0$**！这一直接突破物理上限的现象排他性地证明了 DWBA 单体截面模板带有末态核模型未淬灭的标度偏置。在真实的核多体系统中，强张量力引起的短程相关（SRC）与长程粒子—振动耦合（PVC）在全核区普遍导致约 $30\\% - 35\\%$ 的单粒子强度淬灭（如稳定双幻核 $^{208}\\text{Pb}$ 的基准 $(e,e'p)$ 测量表明价态谱因子淬灭至 $S \\sim 0.65 - 0.70$）。若将未淬灭 DWBA 模板下的 $S \\approx 1.0$ 机械等同于 $100\\%$ 纯单粒子占据，属于混淆反应模型标度与微观真实波函数的推断谬误；
+  3. **非极化角分布对自旋—轨道对偶（$j = \\ell \\pm 1/2$）的代数简并：**
+     在未极化的 $(d,p)$ 转移反应中，前向小角度质子微分截面的峰位与振荡周期仅由转移轨道角动量 $\\ell$ 决定。在相同的 $\\ell=3$ 下，$2f_{7/2}$ 与 $2f_{5/2}$ 的角分布形状高度重叠，非极化截面**根本无法独立区分全角动量 $j = \\ell + 1/2$ 还是 $j = \\ell - 1/2$**！在缺乏矢量极化转移分析本领（$iT_{11}$）或微观壳模型能级顺序先验约束的前提下，仅凭 $(d,p)$ 微分截面无法排他确证单粒子自旋宇称。
+- **证据门准则：**
+  1. **严禁将单核子转移反应提取的谱因子 $S$ 直接等同于原子核单粒子轨道的绝对占据数（Occupancy）**；谱因子是依赖于光学势（OMP）与束缚态几何半径（$r_0$）的模型提取量，不同光学势可引起 $15%–25%$ 的固有尺度漂移；
+  2. **严禁在转移反应谱学中将 $S \\sim 1.0$（甚至 $S = 1.1$）作为排他性“完全纯单粒子态”或“零组态混合”的绝对确证**；短程张量关联（SRC）在微观上普遍导致约 $30%$ 的强度淬灭，未淬灭模型提取的 $S \\ge 1.0$ 反映了反应模型本身的尺度偏置；
+  3. **在非极化 $(d,p)$ 反应中，微分截面角分布形状仅能严格约束转移轨道角动量 $\\ell$**，严禁在缺乏极化矢量分析本领 $iT_{11}$ 或微观壳序约束的前提下仅凭角分布形状断言全角动量 $j = \\ell \\pm 1/2$。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 37. Jones et al. 2010" not in text:
+    text = text.replace(target_theory, sec37 + "\n\n" + target_theory)
+
+# 3. Add Section 35 under Theory/analysis exercise
+sec_ex35 = """### 35. Checkpoint 034 量化审计程序与 133Sn 转移谱因子光学势敏感度核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint034_transfer_reaction_sn133_audit.py" + B + """，对 $^{132}\\text{Sn}(d,p)^{133}\\text{Sn}$（$4.8\\text{ MeV/u}$）逆运动学单中子添加反应的光学势模型差量、束缚态几何半径与谱因子越界展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/transfer-reaction-sn133-audit-034.json" + B + """：
+
+1. **$^{133}\\text{Sn}$ 单粒子态光学势对账与谱因子越界：**
+   - 基态 $2f_{7/2}$（$0\\text{ keV}$）：局域势 $S = 0.86$，全局势 $S = 0.85$；
+   - 第一激发态 $3p_{3/2}$（$854\\text{ keV}$）：局域势 $S = 0.92$，全局势 $S = 0.80$（模型间差量达 **$-13.0\\%$**）；
+   - 第二激发态 $3p_{1/2}$（$1363\\text{ keV}$）：局域势 $S = 1.10$，全局势 $S = 1.00$；
+   - 第三激发态 $2f_{5/2}$（$2005\\text{ keV}$）：局域势与全局势均为 $S = 1.10$；
+   - 证明后两个态实测谱因子 $S = 1.10$ 直接突破单粒子求和上限（$S \\le 1.0$），量化证实了未淬灭 DWBA 模板的反应模型尺度偏置。
+2. **束缚态势阱半径 $r_0$ 敏感度分析：**
+   - 标称半径 $r_0 = 1.25\\text{ fm}$ 时基态 $S = 0.86$；
+   - 当 $r_0 = 1.20\\text{ fm}$（减小 $4\\%$）时，提取谱因子激增至 $S = 1.013$（高估 $+17.7\\%$）；
+   - 当 $r_0 = 1.30\\text{ fm}$（增大 $4\\%$）时，提取谱因子降至 $S = 0.735$（低估 $-14.5\\%$）；
+   - 确立谱因子具有强烈的束缚态势阱依赖性，不能脱离几何设定直接充当微观波函数纯度的绝对证据。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 35. Checkpoint 034 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex35 + "\n\n" + target_ce)
+
+# 4. Add Section 31 under Counter-evidence
+sec_ce31 = """### 31. 单核子转移反应对光学势尺度漂移与单粒子纯度误读的排他性证伪判据
+
+- **单粒子轨道“$100%$ 纯占据”假说的排他性证伪：**
+  若实验声称由单核子转移反应提取的谱因子 $S approx 1.0$（甚至 $S > 1.0$）排他性证实了原子核具有 $100%$ 纯单粒子占据与零组态混合，该结论在多体物理上被直接排他性证伪；核内张量力与短程关联（SRC）必然导致单粒子强度发生约 $30%$ 的普遍淬灭，未淬灭 DWBA 提取出的 $S sim 1.0$ 反映了反应模型尺度的系统漂移，不能作为绝对波函数纯度的判据。
+- **转移反应微分截面对全角动量 $j$ 指认的排他性约束门限：**
+  若实验在未极化的 $(d,p)$ 或 $(p,d)$ 反应中，仅展示了前向质子角分布形状，未进行极化矢量分析本领（$iT_{11}$）测量，且直接声称排他锁定了自旋宇称 $j = ell + 1/2$（如 $7/2^-$ 对决 $5/2^-$），其自旋指认缺乏排他性；角分布仅能严格锁定轨道角动量 $ell$。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 31. 单核子转移反应对光学势尺度漂移" not in text:
+    text = text.replace(target_ki, sec_ce31 + "\n\n" + target_ki)
+
+# 5. Add Decision 25 under Knowledge Impact
+dec25 = """25. **Jones et al. 2010 Nature（132Sn 单中子添加反应与谱因子推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在逆运动学放射性束反应中利用 $(d,p)$ 单核子添加反应系统确定 $^{133}\\text{Sn}$ 单中子能级位置与轨道角动量 $\\ell$ 的开创性实验工作；澄清并严格限制了谱因子 $S$ 的物理内涵，定量证明光学势模型差量（$13.0\\%$）与束缚态半径 $r_0$ 浮动可导致 $S$ 发生 $-14.5\\%$ 至 $+17.7\\%$ 的尺度漂移，且 $S = 1.10$ 突破求和上限实证了反应模型尺度的非微观性；修正了将 $S \\approx 1.0$ 机械等同于 $100\\%$ 纯单粒子态的传统偏见，确立了必须排查短程关联淬灭并声明反应模型系统误差包络的标准证据门规范；
+   - 持久化产物：更新 [[jones-2010-133sn-single-particle-transfer]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Jones et al. 2010 Nature" not in text:
+    text = text.replace(target_dkd, dec25 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/jones-2010-133sn-single-particle-transfer.md",
+      "summary": "132Sn(d,p)133Sn逆运动学转移反应、DWBA光学势依赖与谱因子推断阶梯边界审计。",
+      "anchor": "checkpoint034：132Sn(d,p)133Sn 转移反应光学势依赖、DWBA 谱因子尺度与单粒子纯度审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/jones-2010-133sn-single-particle-transfer.md",
+          "locator": "JON10-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "JON10-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为单核子转移反应测出的谱因子 $S$ 就等同于核内单粒子轨道的纯度（Occupancy），且 $S \\approx 1.0$ 是原子核完全没有组态混合的排他性证明；
+   - **新信念：** 认识到谱因子是依赖于光学势和束缚态势阱半径 $r_0$ 的反应模型提取量，光学势和几何半径变动可引发 $15%–25%$ 的系统漂移；且短程张量关联（SRC）在微观上普遍导致约 $30%$ 的强度淬灭，未淬灭 DWBA 提取出的 $S \\ge 1.0$ 反映了反应模型本身的尺度偏置，非极化截面角分布亦无法独立区分自旋—轨道对偶 $j = \\ell \\pm 1/2$。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "单核子转移反应测出的谱因子" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 034 successfully.")

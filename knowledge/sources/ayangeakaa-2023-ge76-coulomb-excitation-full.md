@@ -150,3 +150,23 @@ PDF1：CHORUS accepted cover；2/正文1：引言与0νββ背景；3/正文2：
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | AY23-D20-R167-1 | TableIII的−.24(2)eb是D11约化E2矩阵元，不能当Qs后再除sqrt(32pi/175)；D12打印为.535(+.003/−.007)eb而非旧160用的.580。旧61.98%相消、2.63放大及相应角跃变数值撤回。有限投影可算中心值路径贡献，未列项和原Cov保持未知，不认证真实刚性或原CI。 | input-identity-correction | direct-table-plus-bounded-task-audit | PDF7 TableIII; invariant-network-input-147.json D11/D12 rows | true |
+
+
+## Day21 checkpoint048：后续长文、版本行与误差合同
+
+在受既有AY23/167知识priming后冻结本次回忆，本轮只定向读accepted cover/正文首页、PDF5–8的Fig3/4、TableI–III/误差段、PDF12/13 Fig10–12及讨论、末两页参考。未把这次定向阅读改称重新完成全文16页/全部图。实际raw存在，SHA256 `4907cd6d64d74fe7aea247d9be1c3e056fb026d9b76e4385c69c3b8784917a96`匹配；不是新采集，也没有新jointCov或GOSIA job。Day20 R146/R147/R167及原review/flags持续有效。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AY23-D21-R48-1 | TableIII footnote2明确更正Ref27（2019 PRL）2₁→4₂的E2 RME误差：旧−.22(+.05/−.03) eb改为−.220(+.005/−.003) eb。中心不变；误差端点不能从旧表继承。这里更正归属于作者脚注，不是本任务自行缩小误差。 | explicit-author-correction | direct-original | PDF p.7 Table III footnote2 | true |
+| AY23-D21-R48-2 | 长文TableIII中0₁→2₅=.010(+.009/−.021)、0₁→2₆=.023(6) eb；2₁→2₅=.016(+.011/−.021)、2₁→2₆=−.048(+.002/−.007) eb。2019表把.023与−.048写在2₅相关行，不能按相同下标直接拼成六态网络；相同数值也不能单独证明态绑定，仍需能级/原输入身份。 | version-row-identity | direct-table-and-explicit-task-comparison | PDF p.7 Table III | true |
+| AY23-D21-R48-3 | 正文说81个E1/E2/E3/M1 RME，χ²按实验数据点数归一为.98；逐元素误差以参数空间概率积分到68.3%给出，并包含统计、系统和cross-correlation。未知jointCov不等于原误差忽略相关或系统，也不能将各非对称边缘误差擅作独立Gaussian。 | reported-fit-error-contract | direct-original | PDF p.6 paragraph before Table III | true |
+| AY23-D21-R48-4 | Fig10(a)为实验矩阵元导出的形状图，(b)/(c)为jj44b/JUN45；caption明示其宽度以normal分布标准差表示形状统计涨落。它不是本任务可直接读取为全部拟合参数jointCI的图；文中约29°/2°与模型27°/4°为作者提取/解释，未由本任务重拟合。 | figure-role-and-uncertainty-boundary | direct-original-and-task-scope | PDF p.12 Fig.10 | true |
+
+### 非线性区间像：不能丢掉穿零的内部点
+
+`system/scripts/day21_checkpoint048_version_intervals.py`仅核TableIII向下B的spin归一与印刷振幅区间的数学像。2₁→4₂行的向下4₂→2₁强度中心为.220²/9≈.0053778 e²b²，与印刷.0054舍入一致；并不是将其再除初态2的spin因子。两种印刷误差经平方得到的集合不同，不能共用误差列。
+
+弱0₁→2₅振幅区间[−.011,.019] eb包含0；向下2₅→0₁的B区间像为[0,.0000722] e²b²。只平方两端点会错误制造非零下界.0000242。此处仅是集合像/定义核验，不重新建立68.3%覆盖、不恢复jointCI、不改原拟合强度。完整网络仍缺七个6×6 E2子块的表列项及实际jointCov/producer；未列项不当0，亦不据表缺项宣称它们在原GOSIA里自由或未约束。参见本页R147/R167。
+
+因此[[ayangeakaa-2019-rigid-triaxial-ge76]]的Ref37不再是“尚无后续论文”，但“存在长表”仍不能兑换成当前已有完备可重放高阶输入。2019与2023同谱系，不重复计独立实验。

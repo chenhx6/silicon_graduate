@@ -34,6 +34,8 @@ tags: [magnetic-rotation, antimagnetic-rotation, shears, review, high-spin]
 
 # Kumar 等（2025）：磁转动与反磁转动结构综述
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Atomic Data and Nuclear Data Tables 165 (2025) 101735. DOI `10.1016/j.adt.2025.101735`; BibTeX key `kumar_2025_Reviewmagnetic`。
@@ -130,3 +132,11 @@ Page and all KU25 claims remain unreviewed with `needs_review: true`. Human revi
 [计算输入](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-contract.json)与[结果](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/amr-review-energy-result.json)；script `system/scripts/day17_amr_review_energy_audit.py`。10个Elevel差与印刷Eg残差小于7e−13keV只核抄录算术，不是实验能量精度。局部J2=4/ΔEg的负值处于回弯离散差分，不是负质量或新rotor fit；不把中点J2任意配端点B作精确阈值判定。
 
 本次Crossref/arXiv/APS/OSTI/York/UNT/SemanticScholar多数TLS失败，OpenAlex一次取得Simons2005身份但无OA全文URL；没有新Cd正文。metadata/综述不能冒称新独立实验。见run内`amr-primary-discovery-access.json`/`amr-primary-discovery-secondary.json`，保持input-readiness，不调TLS/凭据。
+
+## Day21周考推断阶梯审计：反磁转动全球汇编与寿命判据证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint012_antimagnetic_rotation_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/antimagnetic-rotation-audit-012.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| KU25-D21-1 | Kumar 2025 全球汇编确立反磁转动（AMR）推断阶梯边界：汇编的 28 个核中 40 个 AMR 结构仅少数具有绝对能级寿命测量与微观模型支持，多数仅具 $\Delta I = 2$ 能级特征；推断阶梯审计强调，无寿命支持的规则偶极/四极带极易与扁椭集体转动或常规能带终止发生假象重叠；确证反磁转动必须联合微观组态、带内 $B(E2)$ 随自旋单调暴跌以及特征比值 $\mathcal{J}^{(2)}/B(E2) > 100\ \hbar^2	ext{MeV}^{-1}(e	ext{b})^{-2}$，严禁将未测寿命的表观 $\Delta I = 2$ 序列轻率升格为确定 AMR 模式。 | claim-boundary-audit | direct-and-derived | PDF pp.4-6 Table 3; antimagnetic-rotation-audit-012.json | true |

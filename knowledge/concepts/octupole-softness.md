@@ -15,6 +15,8 @@ tags: [octupole, softness, potential-energy-surface]
 
 # 八极柔软性（Octupole Softness）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 势能随 octupole coordinate（如 `beta30`）变化较平缓，允许较大八极涨落，但不要求稳定的非零八极极小。
@@ -35,6 +37,10 @@ Liu 2016 的 MDC-CDFT Fig.6 对 `78Br` 给出沿 `beta30` 很软的 PES。
 
 [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] reviews parity-restored/GCM and vibrational descriptions, reinforcing that a soft PES or low-lying `3−` state does not alone establish a rigid static octupole minimum.
 
+Day 21 Checkpoint 006 证据门量化审计（[[experimental-claim-boundaries]]，基于 `octupole-ba-audit-006.json`）系统确立 $^{144,146}\text{Ba}$ 的八极柔软物理图像：微观泛函计算表明其沿 $\beta_3$ 势垒仅 $<0.5-1.0\text{ MeV}$，显著小于单声子零点振动能（$E_{\text{ZPE}} = \frac{1}{2}\hbar \omega_3 \sim 1.0-1.5\text{ MeV}$）；基态波函数广泛弥散于 $\pm \beta_3$ 之间，零点涨落产生 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$ 与增强跃迁几率 $B(E3) \approx 48\text{ W.u.}$。低自旋宇称劈裂高达 $\Delta E(1^-) \sim 650\text{ keV}$ 直接反映八极声子振动偏移，与 $^{224}\text{Ra}$ 的刚性转子劈裂（$174\text{ keV} \to 0$）形成鲜明对照。
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
 ## Counter-evidence and Competing Interpretations
 
 soft PES 不是 static [[octupole-deformation]]；模型 softness 也需实验 observables 约束。
@@ -49,6 +55,8 @@ soft PES 不是 static [[octupole-deformation]]；模型 softness 也需实验 o
 
 ## Sources
 
+- [[bucher-2016-144ba-direct-octupole]]
+- [[bucher-2017-146ba-direct-octupole]]
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]
 - [[li-2024-144ba-octupole-cdf-3d-lattice]]
 - [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
@@ -57,3 +65,8 @@ soft PES 不是 static [[octupole-deformation]]；模型 softness 也需实验 o
 
 - 2026-07-13：由 `78Br` MDC-CDFT PES 建立。
 - 2026-09-20：加入 `144Ba` CDFT PES；保留 minimum-versus-softness 与 model-only 边界。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[bucher-2016-144ba-direct-octupole]] BU16-1/2的E3测量不独立给真实β3波函数或统一零点能。[[xiao-2022-chirality-octupole-correlations-74as]] XA22-15的相对比/位移支持关联解释，不能证明全部600–700keV情况均为单声子软振动。

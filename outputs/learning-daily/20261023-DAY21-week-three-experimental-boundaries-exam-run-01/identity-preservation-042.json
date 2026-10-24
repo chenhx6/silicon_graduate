@@ -1,0 +1,13 @@
+{
+  "review_pages_compared_to_original_head": 137,
+  "review_and_flags_mismatches": [],
+  "protected": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true,
+    "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-02/run.json": true
+  },
+  "raw_files_checked": 661,
+  "raw_mismatches": [],
+  "index_diff": ""
+}

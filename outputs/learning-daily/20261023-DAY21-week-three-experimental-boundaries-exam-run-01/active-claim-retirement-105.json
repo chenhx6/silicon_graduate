@@ -1,0 +1,13 @@
+{
+  "scope": "active method/report claim retirement; original source facts/review flags are not globally withdrawn",
+  "method_before_sha256": "b24075b8b51eada9316d0a071a2131c064dbbb33c4b15a07b60dda09814f86ef",
+  "report_before_sha256": "ab9eba332dbe876a05737a2e80bfbe2f2fa2966e6e5efca71723d027ea090129",
+  "preserved_historical_case_headings": 41,
+  "retired_scope": "old overstrong case narratives and checkpoint restatements; use explicit43\u201353/99\u2013104 source contracts",
+  "not_claimed": [
+    "full science audit of every source page",
+    "new experimental CI",
+    "new course credit",
+    "publication"
+  ]
+}

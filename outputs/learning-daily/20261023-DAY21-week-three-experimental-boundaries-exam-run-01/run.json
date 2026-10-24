@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-23-day-21-01",
+  "run_date": "2026-10-23",
+  "day_index": 21,
+  "phase": "experimental-evidence-exam",
+  "cycle": "2026-09-30-day-substantive",
+  "schedule_id": "wiki-daily-learning",
+  "schedule_name": "Wiki 30-day substantive daily learning",
+  "project_root": "/workspace/wiki",
+  "run_kind": "substantive",
+  "acceptance_only": false,
+  "overnight_until": "2026-10-24T15:00:00+08:00",
+  "max_continuations": 96,
+  "continuation_count": 0,
+  "continuation_batch_count": 0,
+  "continuation_batches": 1,
+  "counted_in_substantive_test": false,
+  "session_mode": "new-session-per-run",
+  "session_reuse": false,
+  "session_scope": "one-new-session-for-each-schedule-run",
+  "codex_home": "/root/.codex",
+  "status": "completed",
+  "started_at": "2026-10-23T16:40:25.021186+08:00",
+  "report": "/workspace/wiki/outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md",
+  "completed_day_indices": [
+    21
+  ],
+  "partial_day_indices": [],
+  "curriculum_cards_completed": 1,
+  "closeout_window_ends_at": "2026-10-24T16:00:00+08:00",
+  "last_closeout_snapshot": {
+    "now_local": "2026-10-24T15:05:36.487179+08:00",
+    "hard_deadline": "2026-10-24T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-24T16:00:00+08:00",
+    "minutes_to_deadline": -5,
+    "decision": "closeout-only",
+    "day22_opened": false,
+    "forward_card_prohibited_by_user": true
+  },
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/prompt.md",
+  "session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "identity_verification": "session-identity-001.json",
+  "original_receipt": "runner-original-receipt.json",
+  "observed_clock_executions": [
+    {
+      "clock_event_id": "checkpoint-001",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-23T19:50:50.041967+08:00",
+      "queued_snapshot_at": "2026-10-23T18:40:25.757569+08:00",
+      "action": "continue-day21-source-audit-no-credit-no-publication",
+      "checkpoint": "042"
+    },
+    {
+      "clock_event_id": "checkpoint-002",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-23T21:03:07.149598+08:00",
+      "queued_snapshot_at": "2026-10-23T20:40:26.846140+08:00",
+      "action": "continue-day21-main-case-design-no-credit-no-publication",
+      "checkpoint": "050"
+    },
+    {
+      "clock_event_id": "checkpoint-003",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-23T22:44:53.243982+08:00",
+      "queued_snapshot_at": "2026-10-23T22:40:25.021300+08:00",
+      "action": "acknowledge-clock-checkpoint-003-continue-day21",
+      "checkpoint": "061"
+    },
+    {
+      "clock_event_id": "checkpoint-004",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T00:42:26.448418+08:00",
+      "queued_snapshot_at": "2026-10-24T00:40:25.208397+08:00",
+      "action": "acknowledge-clock-checkpoint-004-continue-day21",
+      "checkpoint": "097"
+    },
+    {
+      "clock_event_id": "checkpoint-005",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T02:40:48.942427+08:00",
+      "queued_snapshot_at": "2026-10-24T02:40:25.184745+08:00",
+      "action": "acknowledge-clock-checkpoint-005-continue-day21",
+      "checkpoint": "098"
+    },
+    {
+      "clock_event_id": "checkpoint-006",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T04:41:47.718531+08:00",
+      "queued_snapshot_at": "2026-10-24T04:40:25.113823+08:00",
+      "action": "continue-day21-evidence-repair-no-credit-no-publication",
+      "checkpoint": "099"
+    },
+    {
+      "clock_event_id": "checkpoint-007",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T06:40:59.326079+08:00",
+      "queued_snapshot_at": "2026-10-24T06:40:25.153646+08:00",
+      "action": "acknowledge-clock-checkpoint-007-continue-day21",
+      "checkpoint": "100"
+    },
+    {
+      "clock_event_id": "checkpoint-008",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T08:41:07.094419+08:00",
+      "queued_snapshot_at": "2026-10-24T08:40:25.234106+08:00",
+      "action": "acknowledge-clock-checkpoint-008-continue-day21",
+      "checkpoint": "101"
+    },
+    {
+      "clock_event_id": "checkpoint-009",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T10:57:32.826773+08:00",
+      "queued_snapshot_at": "2026-10-24T10:40:25.068369+08:00",
+      "action": "acknowledge-clock-checkpoint-009-continue-day21",
+      "checkpoint": "109"
+    },
+    {
+      "clock_event_id": "checkpoint-010",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T12:44:26.677015+08:00",
+      "queued_snapshot_at": "2026-10-24T12:40:25.111715+08:00",
+      "action": "acknowledge-clock-checkpoint-010-continue-day21",
+      "checkpoint": "131"
+    },
+    {
+      "clock_event_id": "checkpoint-011",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T14:41:40.591715+08:00",
+      "queued_snapshot_at": "2026-10-24T14:40:25.087923+08:00",
+      "action": "acknowledge-clock-checkpoint-011-await-closeout-at-1500",
+      "checkpoint": "151"
+    },
+    {
+      "clock_event_id": "closeout",
+      "same_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+      "observed_at": "2026-10-24T15:00:27.439131+08:00",
+      "queued_snapshot_at": "2026-10-24T15:00:00.068459+08:00",
+      "action": "acknowledge-clock-closeout-enter-formal-closeout-hour",
+      "checkpoint": "152"
+    }
+  ],
+  "next_day_index": 22,
+  "finished_at": "2026-10-24T15:05:36.487179+08:00"
+}

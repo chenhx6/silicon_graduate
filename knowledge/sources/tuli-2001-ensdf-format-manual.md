@@ -32,6 +32,8 @@ tags: [ensdf, format, phase-sign, data-identity]
 
 # Tuli 2001：不能把MR省略符号读成已知正号
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 NNDC首页独立链接的Format Manual是JagdishK.Tuli February2001、BNL-NCS-51655-01/02-Rev，实际112PDF页/686034bytes；与M.R.Bhat1987 procedures manual是不同文档。书目/日期由PDF1原图核准，不以PDFcreationdate或2026下载日当版本年。新原件在tmp，raw槽未填，Bib无唯一命中，不造DOI/ISBN。
@@ -79,3 +81,9 @@ MR的**显式signmarker、统计误差范围、operatorconvention和sourceproven
 ### 223Ra多重放置的实际应用
 
 2026-10-19再次视觉核PDF34/printed28的col77 C；既有图片/hash保持。[[nndc-2001-223ra-reference-and-2026-intensity-records]]的113.1/314.9各重复两条& RI，是同一未分区观测在不同母态的placement；旧113.11两@ RI则已有分区。`float(RI)`列表若丢掉C/parent/版本，既可能多加一次总量，也可能凭空确定偏振weight。规则本身不恢复primarygate、分区Cov或具体响应。
+
+## checkpoint033：ENSDF 格式语义审计、无符号 MR 未知性与绝对归一化（NR/BR）边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| TU01-D21-1 | 依据 Tuli 2001 ENSDF 格式手册对数据库摄入语义展开系统性量化审计证明：(1) MR 栏中无显式正负号的前缀字符（如 " 0.35"）严格表示模量已知但符号未知（sign is unknown），通用浮点解析器将其直接赋为正号可在角分布干涉项 2*delta*F_2 中引入 Delta A2 = 0.596 的剧烈伪漂移；(2) Gamma 记录第 77 列标志为 "&" 的跃迁代表同一观测强度未分割并重复记录，直接累加将造成退激强度 100% 虚假放大；(3) 相对光子强度 RI 绝非绝对分支百分比，必须完整乘以 Normalization 记录乘积 NR*BR（如 NR*BR=0.03825 时），脱离归一化直接使用 RI 会导致 B(E2)/B(M1) 发生高达 26 倍的虚假放大。 | ensdf-format-semantics-boundary | direct-original-and-quantitative-audit | pp.1–112 Sec.V, printed pp.24, 28, 43–44; ensdf-format-semantics-audit-033.json | true |

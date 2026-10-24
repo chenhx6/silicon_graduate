@@ -1,0 +1,136 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 032 深度攻坚：** 深入攻克角分布与角关联相位约定（Phase Conventions）及未观测中间跃迁退定向因子（$U_k$）推断阶梯边界（Martin 1987 BNL-NCS-40503）；运行独立量化审计程序 " + B + "day21_checkpoint032_phase_conventions_deorientation_audit.py" + B + " 产出 " + B + "phase-conventions-deorientation-audit-032.json" + B + "；精确核定：(1) 对相邻多极（$L'=L+1$），Steffen 体系与 Rose-Brink 体系严格满足 $\\delta_{\\text{RB}} = - \\delta_S$；混淆两体系将直接反转角分布干涉项 $2\\delta F_k$ 符号，在 $\\delta = 0.5$ 时致使 $A_2$ 发生 $0.765$ 的巨大虚假漂移（从 $-0.1937$ 变为 $+0.5713$）；(2) 始发跃迁 $B_k(\\gamma_1)$ 与后续跃迁 $A_k(\\gamma_2)$ 在 Steffen 展开中干涉项符号严格相反（前者为负，后者为正）；(3) 经由未观测中间混合级联退激时，必须通过考虑总内转换系数比值的全衰变参数 $\\Delta^2 = \\delta_\\gamma^2 \\frac{1+\\alpha(L')}{1+\\alpha(L)}$ 计算退定向衰减因子 $U_k$；确立“严禁未标明相位体系跨文献借用混合比与严禁忽略未观测内转换权重”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 031 深度攻坚：**"
+if target_rs in text and "Checkpoint 032 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 35 under Sources and evidence
+sec35 = """### 35. Martin 1987：ENSDF 多极混合比相位约定、Steffen 对比 Rose-Brink 与退定向推断阶梯边界
+
+在实验核谱学中，定向态角分布（$A_2/A_4$）与两光子方向关联（$\\gamma - \\gamma$ DCO/ADO）是精确确定核能级自旋、宇称与多极混合比 $\\delta(L+1/L)$ 的通用手段。从推断阶梯第一/二层（实验拟合得到的勒让德展开系数 $A_k$ 或 $A_{kk} = B_k A_k$）向第三层（混合比 $\\delta$ 的数值与代数符号）的反演，是整个核物理中因相互冲突的相位定义而导致文献间符号混乱的最常见技术重灾区（Martin 1987 BNL-NCS-40503，[[martin-1987-ensdf-mixing-ratio-phase-conventions]] 对比 Krane & Steffen 1970 与 Rose & Brink 1967）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3）：**
+  在角分布中，各向异性由多极展开系数决定：
+  $$A_k(\\gamma) = \\frac{F_k(L, L) + 2 \\delta F_k(L, L') + \\delta^2 F_k(L', L')}{1 + \\delta^2}$$
+  其中交叉干涉项 $2\\delta F_k$ 的符号决定了角分布是增强还是减弱。然而，当跨文献比较或将实验结果汇编至 ENSDF 数据库时，不同学术学派采纳的符号约定截然不同。
+- **推断阶梯漏洞剖析：**
+  1. **Steffen 与 Rose-Brink 体系的负号鸿沟（Phase Convention Clash）：**
+     - **Steffen 体系（ENSDF 官方标准与 Krane-Steffen 1970）：** 采用出射矩阵元，初始态在右；
+     - **Rose-Brink 体系（广泛用于重离子在束 $\\gamma$ 谱学原始文献）：** 采用不同电磁多极相位定义；对于相邻多极（$L' = L+1$），两者严格满足：
+       $$\\delta_{\\text{RB}} = (-1)^{L - L'} \\delta_S = - \\delta_S$$
+     如果实验人员将文献中以 Rose-Brink 体系发表的 $\\delta_{\\text{RB}} = +0.50$ 直接作为 Steffen 体系的 $\\delta_S = +0.50$ 输入到模型或拟合软件中，干涉项 $2\\delta F_2$ 将发生**彻底的反号**！在典型 $I=4 \\to 3$ 跃迁中，实测系数将从 $A_2 = +0.5713$ 剧烈跳变为 $A_2 = -0.1937$（差量高达 $\\Delta A_2 = 0.765$），导致原本优良的拟合被完全推翻，甚至误导对电四极或磁偶极性质的完全误判；
+  2. **始发跃迁（first transition）与后续跃迁（second transition）公式混淆：**
+     在 $\\gamma_1 - \\gamma_2$ 级联衰变中，始发跃迁 $\\gamma_1$ 的定向系数 $B_k(\\gamma_1)$ 携带额外相位 $(-1)^{L-L'+k}$，导致其干涉项前面带有**显式负号（$-2\\delta_S F_k$）**；而后续跃迁 $A_k(\\gamma_2)$ 前面为**正号（$+2\\delta_S F_k$）**。混淆两者的展开式会直接造成 $\\delta$ 符号的人为颠倒；
+  3. **未观测中间跃迁退定向因子（$U_k$）忽略内转换权重的系统失真：**
+     当观测跃迁之前存在未被探测到的混合中间级联跃迁（$I_1 \\to I_2$）时，核排列度受到退定向衰减因子 $U_k$ 的调制。Aničin & Martin 证明，未观测混合跃迁的全衰变权重必须同时包含内转换电子通道：
+     $$U_k^{\\text{mixed}} = \\frac{U_k(L) + \\Delta^2 U_k(L')}{1 + \\Delta^2}, \\quad \\Delta^2 = \\delta_\\gamma^2 \\frac{1 + \\alpha_{\\text{tot}}(L')}{1 + \\alpha_{\\text{tot}}(L)}$$
+     在低能跃迁中（例如重核区 $\\alpha(E2) \\ll \\alpha(M1)$），内转换比值可使全衰变比 $\\Delta^2$ 相对辐射比 $\\delta_\\gamma^2$ 发生 $25\\% - 40\\%$ 的偏移。若粗糙地以 $\\delta_\\gamma^2$ 代替 $\\Delta^2$，导出的退定向因子 $U_k$ 产生几百分点的系统偏差，直接传递给下游能态并篡改其自旋指认。
+- **证据门准则：**
+  1. **严禁在未指明相位体系（Steffen vs Rose-Brink vs Biedenharn-Rose）的前提下跨文献直接借用或比较多极混合比 $\\delta$**；相邻多极（$L'=L+1$）在 Steffen 与 Rose-Brink 体系下严格相差一个负号（$\\delta_{\\text{RB}} = - \\delta_S$），混淆相位直接反转角分布干涉项符号；
+  2. **在级联角关联衰变分析中，严禁混淆始发跃迁（first transition，干涉项前为负号）与后续跃迁（second transition，干涉项前为正号）的 Steffen 定向展开公式**；
+  3. **在经由未观测中间能级退激的角分布分析中，必须采用 Aničin-Martin 考虑总内转换系数加权的全衰变参数 $\\Delta^2$ 计算退定向衰减因子 $U_k$**；严禁直接以纯辐射混合比 $\\delta_\\gamma^2$ 替代总衰变权重。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 35. Martin 1987" not in text:
+    text = text.replace(target_theory, sec35 + "\n\n" + target_theory)
+
+# 3. Add Section 33 under Theory/analysis exercise
+sec_ex33 = """### 33. Checkpoint 032 量化审计程序与相位约定跨网对账及退定向核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint032_phase_conventions_deorientation_audit.py" + B + """，对 $I_i = 4 \\to I_f = 3$（混合 $M1/E2$）跃迁的 Steffen 与 Rose-Brink 相位体系对账以及未观测退定向因子 $U_k$ 展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/phase-conventions-deorientation-audit-032.json" + B + """：
+
+1. **Steffen 与 Rose-Brink 体系符号混淆的角分布畸变：**
+   - 设定 $F_2(1,1) = 0.2828, F_2(1,2) = -0.4781, F_2(2,2) = -0.1873$；
+   - 当真实 $\\delta_S = 0.50$（Rose-Brink 对应 $\\delta_{\\text{RB}} = -0.50$）时，正确角分布系数为 $A_2 = -0.1937$；
+   - 若将 Rose-Brink 符号混淆为 $\\delta_S = -0.50$（反号），导出的表观系数跃升为 **$A_2 = +0.5713$**，偏差高达 $\\Delta A_2 = +0.765$；
+   - 当 $\\delta = \\pm 1.0$ 时，偏差进一步放大至 $\\Delta A_2 = 0.9562$；
+   - 量化确立了相位约定混淆足以将一个完全符合的物理模型直接误判为统计被否决。
+2. **未观测中间跃迁退定向因子 $U_2$ 内转换加权效应：**
+   - 级联 $I_1 = 4 \\to I_2 = 3$：纯分量 $U_2(L=1) = 0.8819, U_2(L=2) = 0.6124$；
+   - 考虑低能重核转换系数 $\\alpha_{\\text{tot}}(M1) = 1.073, \\alpha_{\\text{tot}}(E2) = 0.553$（转换因子比值 $0.749$）；
+   - 当辐射混合比 $\\delta_\\gamma = 1.0$ 时，全衰变权重从幼稚的 $\\Delta^2 = 1.0$ 降至严谨的 $\\Delta^2 = 0.7492$；
+   - 严谨退定向因子为 $U_2 = 0.7665$，而忽略内转换将给出 $U_2 = 0.7471$（系统偏差 $-2.52\\%$），量化确立了全衰变通道加权的必要性。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 33. Checkpoint 032 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex33 + "\n\n" + target_ce)
+
+# 4. Add Section 29 under Counter-evidence
+sec_ce29 = """### 29. 角分布对相位体系混淆与未观测内转换忽略的排他性证伪判据
+
+- **多极混合比跨文献符号借用的排他性排查：**
+  若实验分析从外部文献直接借用多极混合比 $\\delta$ 的符号，未明确核定原作者采用的是 Rose-Brink 还是 Steffen 约定，且用于拟合角分布干涉项，其角分布 $\\chi^2$ 优度检验被直接排他性证伪；两体系在相邻多极下严格相差一个负号，符号混淆可在 $A_2$ 中人为引入高达 $0.7 - 0.9$ 的虚假阶跃。
+- **未观测中间级联退定向因子计算的完备性判据：**
+  在复杂的跨能带定向态拟合中，若存在低能未观测退激中间线（$E_\\gamma < 300\\text{ keV}$），且退定向计算仅采用了纯辐射混合比 $\\delta_\\gamma^2$ 而未引入总内转换系数（$\\alpha_{\\text{tot}}$）修正，其导出的下游能态排列度与自旋指认缺乏排他性。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 29. 角分布对相位体系混淆" not in text:
+    text = text.replace(target_ki, sec_ce29 + "\n\n" + target_ki)
+
+# 5. Add Decision 23 under Knowledge Impact
+dec23 = """23. **Martin 1987 BNL-NCS-40503（ENSDF 相位约定与退定向推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在定向态角分布与级联角关联中利用统一的 Steffen 相位体系严谨展开多极干涉项的标准评价流程；澄清并严格限制了多极混合比符号的跨文献可移植性，定量证明 Steffen 与 Rose-Brink 约定的负号差别（$\\delta_{\\text{RB}} = -\\delta_S$）可导致 $A_2$ 产生高达 $0.765$ 的剧烈反号漂移；修正了在未观测退定向因子 $U_k$ 计算中忽略内转换通道的偏见，确立了采用全衰变权重 $\\Delta^2 = \\delta_\\gamma^2 \\frac{1+\\alpha(L')}{1+\\alpha(L)}$ 消除 $2%–5%$ 系统偏差的标准证据门规范；
+   - 持久化产物：更新 [[martin-1987-ensdf-mixing-ratio-phase-conventions]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Martin 1987 BNL-NCS-40503" not in text:
+    text = text.replace(target_dkd, dec23 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+      "summary": "ENSDF混合比相位约定、Steffen对决Rose-Brink与未观测退定向推断阶梯边界审计。",
+      "anchor": "checkpoint032：Steffen 与 Rose-Brink 相位跨网对账与未观测退定向 U_k 审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/alder-1956-coulomb-excitation-review.md",
+          "locator": "AL56-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/alder-1956-coulomb-excitation-review.md",
+          "locator": "AL56-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "MA87-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为文献中发表的多极混合比 $\\delta(E2/M1)$ 的数值和代数符号是普适通用的，可以直接带入任意角分布公式计算；
+   - **新信念：** 认识到 Steffen 约定与 Rose-Brink 约定严格相差一个负号（$\\delta_{\\text{RB}} = -\\delta_S$），混淆两体系会直接颠倒角分布干涉项符号并在 $A_2$ 中制造高达 $0.76$ 的巨大偏差；且未观测中间跃迁退定向因子必须纳入总内转换系数全衰变加权。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "文献中发表的多极混合比" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 032 successfully.")

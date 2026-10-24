@@ -15,6 +15,8 @@ tags: [chirality, triaxiality, high-spin]
 
 # 手征双重带（Chiral Doublet Bands）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 在三轴核中，短、中、长轴相对总角动量形成左右手几何；量子恢复可产生两条同宇称 ΔI=1 伙伴带。理想静态手征极限下两带近简并，但有限隧穿会产生劈裂。
@@ -55,6 +57,8 @@ Meng 2010 还列出 `gamma` vibration、many-particle correlations、pseudospin 
 
 ## Sources
 
+- [[grodner-2006-128cs-chiral-doublet-lifetimes]]
+- [[grodner-2011-126cs-chiral-selection-rules]]
 - [[frauendorf-meng-1997-tilted-rotation-chirality]]
 - [[petrache-2020-137nd-multiple-chiral-bands]]
 - [[meng-2010-open-problems-nuclear-chirality]]
@@ -68,3 +72,13 @@ Meng 2010 还列出 `gamma` vibration、many-particle correlations、pseudospin 
 - 2026-07-13：加入 Meng 2010 对 fingerprints 模型依赖和竞争解释的综述边界。
 - 2026-08-11：加入 `74As` 五-link positive-parity candidate；保留约 `400-keV` splitting、fit dependence 和 absolute-strength gap。
 - 2026-08-11：加入 Bark 2024 ideal-versus-realistic QTR fingerprint boundary；避免把 strict degeneracy/staggering rules 当作 universal gate。
+
+## Day 21 Checkpoint 021 证据门量化审计：手征电磁选择定则、B(M1) 奇偶反相交错与手征振动能隙边界
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1/4与[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1/4分别约束总寿命/强度和条件解混合。不可由平方根B比直接给真实内禀Q；选择定则/偏振不是普适充要门。[[qi-2009-135nd-particle-rotor-chirality]] QI09-D21-R53-5仅说明RMS非负不确定带符号几何；[[almehed-2011-chiral-vibrations-a135]] AL11-D21-R51-2/7的运动学展开不等实际声子误差。

@@ -33,6 +33,8 @@ tags: [146Ba, octupole, E3, E1, external-research]
 
 # Direct evidence for octupole deformation in `146Ba`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - B. Bucher *et al.*, *Phys. Rev. Lett.* **118**, 152504 (2017), DOI `10.1103/PhysRevLett.118.152504`.
@@ -113,3 +115,10 @@ The high-spin alignment and sudden E1 reduction had motivated quenched-octupole,
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | BU17-D19-2 | 撤回checkpoint079的科学认证：0.65与48只是两次报告的舍入中心，不能称严格相等；0.180和−0.146等分解没有本练习原件定位，不能当实测壳修正。小E1不能唯一判弱八极这一边界保留，直接E3强度也不能单独证明静态刚性梨形。旧数值脚本是自设算术，不是独立实验审计。 | source-and-analysis-correction | direct-where-reread-otherwise-withdrawn | checkpoint088 source scope and rejection registry | true |
+## Day21周考推断阶梯审计：八极跃迁集体性保持、D0解耦与转子模型约束边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint006_octupole_ba_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/octupole-ba-audit-006.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| EXT146-D21-1 | Bucher 2017 测得 $^{146}\text{Ba}$ 维持了与 $^{144}\text{Ba}$ 相同的强八极跃迁几率 $B(E3; 3^- \to 0^+) = 48_{-29}^{+21}\text{ W.u.}$，但其实测电偶极跃迁矩阵元 $|\langle 1^- \Vert M(E1) \Vert 0^+ \rangle| = 0.000223\ e\text{b}^{1/2}$（$B(E1) \approx 9.3 \times 10^{-7}\text{ W.u.}$），内禀电偶极矩 $|D_0| \le 0.01\ e\text{fm}$ 较 $^{144}\text{Ba}$（$0.13\ e\text{fm}$）骤降逾 13 倍。该实验确证 $B(E1)$ 不是指示八极集体性强弱的单调代理量；另外，Table I 中激发态矩阵元与轴对称刚性转子预测的高度吻合源自 GOSIA 拟合所施加的转子耦合约束，在释放该约束时矩阵元误差扩大至 $+68\%/-80\%$，未构成转子模型的独立统计检验。 | claim-boundary-audit | direct-and-derived | PRL 118, 152504 pp.2-5, Table I; octupole-ba-audit-006.json | true |

@@ -1,0 +1,25 @@
+{
+  "executions": [
+    {
+      "argv": [
+        "python3",
+        "system/scripts/day21_checkpoint124_literal_rounding_scope.py"
+      ],
+      "at_utc": "2026-10-24T03:58:36.467511+00:00",
+      "exit_code": 0,
+      "stdout": "{\"output\": \"outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/literal-rounding-scope-124.json\", \"all_four_conditional_printing_checks\": true, \"new_CI\": null}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "system/scripts/day21_checkpoint047_invariant_scope.py"
+      ],
+      "at_utc": "2026-10-24T03:58:36.581330+00:00",
+      "exit_code": 0,
+      "stdout": "{\"checks\": {\"internal_truncation_can_increase_scalar_variance\": true, \"internal_truncation_can_decrease_scalar_variance\": true, \"single_scalar_endpoint_gives_zero\": true, \"q2_omission_positive_in_both_examples\": true}, \"new_experimental_CI\": false, \"Ge76_rigidity_falsified\": false}\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "literal source arithmetic/printing and declared bidirectional truncation control; no nuclear fit or CI"
+}

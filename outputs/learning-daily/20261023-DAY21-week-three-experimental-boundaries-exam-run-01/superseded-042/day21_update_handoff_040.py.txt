@@ -1,0 +1,27 @@
+
+path = "system/handoff.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Update header
+text = text.replace("## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 039）", "## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 040）")
+
+cp040_entry = """Checkpoint 040实质推进：
+(1) 58Fe 异常集体性假象证伪、DSAM 阻止本领非均匀标度与库激循环约束推断阶梯边界审计（Woodside et al. 2026 PRC 113 对照 Bolotin 1978 与 Nolan 1979）：深入剖析重离子介质阻止本领模型偏差、库激多步拟合约束依赖与伪超集体异常的消除机制；
+(2) 量化程序审计：运行独立程序 day21_checkpoint040_fe58_stopping_coulex_audit.py 产出 fe58-stopping-coulex-audit-040.json（3 项物理控制全过）；
+(3) 异常集体性假象的根因消除：1978 年旧评估 B(E2; 4+1 -> 2+1) = 47(7) W.u.（R_42 = 2.40 超集体假象）完全由 1970 年代 LSS 理论将电子阻止本领 dE/dx 低估约 1 倍所致；更新为现代 SRIM 阻止本领后，能级寿命由 0.38 ps 延长至 0.66(8) ps，B(E2) 塌缩至 24.2(28) W.u.（R_42 = 1.235），在 0.1 sigma 内与大规模壳模型完全符合；
+(4) 阻止本领非均匀状态依赖性：反冲动力学差异导致 4+1 态寿命增长 +73.7%，而 2+2 态仅增长 +41.2%（能级间标度差异达 32.5%），排他性证明阻止本领更新不可采用全局统一常数标度；
+(5) 库仑激发循环约束与相对相位多解：GOSIA 拟合将重估的 DSAM 寿命显式作为输入约束，二者符合是受限优化的数值必然结果，不能当作完全独立的实验互验；未排除的 7 组相对符号相位方案跨越 21.8–27.2 W.u.，引入约 +/-12% 的离散系统包络；
+(6) 证据门新准则：确立“严禁仅凭未校准 LSS 阻止本领断言异常集体性与严禁将库激输入约束包装为独立交叉检验”的核心证据门准则；
+(7) 知识库更新：更新 woodside-2026-fe58-collectivity-coulex-dsam.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（84 篇知识页 valid: true）。
+"""
+
+target = "Checkpoint 039实质推进："
+if target in text and "Checkpoint 040实质推进：" not in text:
+    text = text.replace(target, cp040_entry + chr(10) + target)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated system/handoff.md to Checkpoint 040 successfully.")

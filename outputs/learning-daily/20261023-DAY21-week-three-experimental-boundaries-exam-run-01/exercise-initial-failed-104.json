@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint104_same_parent_identifiability.py"
+  ],
+  "exit_code": 1,
+  "error": "ModuleNotFoundError: No module named sympy",
+  "effect": "No numerical result produced; rewrite with standard-library exact Fraction controls, no dependency install"
+}

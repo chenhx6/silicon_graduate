@@ -14,6 +14,8 @@ tags: [high-spin, lifetime, transition-strength, deformation, evidence-map]
 
 # High-spin lifetimes, transition strengths and deformation
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 > checkpoint101优先：Day20 046–100的科学认证已撤回；旧JSON的passed、旧报告/日志的“确立/全闭环/排他”均不构成科学验证。实际已读scope保留，不能据此认证新增数值或原producer。当前综合见[[day20-quadrupole-collectivity-systematics-synthesis]]。
 
 
@@ -708,3 +710,12 @@ checkpoint008取代此前过强比较；保留“观测→响应→寿命→光�
 3. **侵入轨道加和性饱和**：$^{134}\text{Nd}$ 占据单根 $\nu i_{13/2}$（yrast HD）实测 $Q_0 = 6.8(3)\text{ eb}$，占据双根 $\nu i_{13/2}$（excited HD）实测 $Q_0 = 6.4(4)\text{ eb}$，实验四极矩无增加（$\Delta Q_0 \le 0$），证实核芯离心收缩与科里奥利反配对抵消多侵入轨道极化（[[petrache-1998-highly-deformed-lifetimes-131ce-nd]] PE98-D20-R34-2）；
 4. **能带交叉波函数混合**：$^{136}\text{Nd}$ Band 2 在 $17^- \to 18^-$ 发生 $11.0$ 倍 $B(E2)$ 塌缩（$0.44 \to 0.04\text{ e}^2\text{b}^2$）与 $3.34$ 倍 $Q_t$ 剧降，伴随 Band 1 互补上升（$0.08 \to 0.14\text{ e}^2\text{b}^2$），确立准粒子对齐引起的波函数混合是造成电四极跃迁强度剧降的微观根源，不能混同为核芯几何收缩（[[mukhopadhyay-2008-136nd-transition-rates]] MU08-D20-R39-1）；
 5. **弱混合台阶形变**：$^{136}\text{Sm}$ 交叉前后 $10.38\%$ $Q_t$ 台阶（$5.68 \to 5.09\text{ eb}$，$z = -2.45\sigma$）可完全由两带交叉混合模型重现（[[babra-2019-deformation-change-136sm]] B19-D20-R39-1）。
+
+
+## Day21第三次周考综合：推断阶梯与实验边界在寿命形变中的统一
+
+当前以[[experimental-claim-boundaries]] checkpoint124为纠错入口。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1/4的B与τ关系是条件恒等式；[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1/4保留模型依赖和非排他范围。[[henderson-2020-quadrupole-invariant-convergence]] HE20-D21-R47-1/4允许内部路径方差双向改变，未证明76Ge伪刚性。[[ayangeakaa-2019-rigid-triaxial-ge76]] AY19-D21-R47-2的作者解释保留。
+
+[[mutschler-2017-34si-proton-density-bubble]] MU17-D21-R124-1至6与[[yao-2012-34si-beyond-mean-field-bubble]] YA12-D21-R124-1至4分别记录差分敲出支持和模型密度对象；Yao的might indicate不可升格为实际平滑偏差已量出。[[hinke-2010-100sn-decay-spectroscopy]] HK10-D21-R99-3与[[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] LB16-D21-R99-1/3的论文LOGFT/样本边界保持。
+
+114–123五支柱“完全闭合”及刚软/手征/八极的普适阈值认证撤回。不得将多个层次的支持性观察压成一条绝对排他规则，也不能用结构验收补缺原Cov、producer、混合比或实际模型Θ。

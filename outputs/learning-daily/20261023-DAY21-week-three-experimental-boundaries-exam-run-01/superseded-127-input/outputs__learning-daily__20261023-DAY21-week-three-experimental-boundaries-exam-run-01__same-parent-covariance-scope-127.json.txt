@@ -1,0 +1,93 @@
+{
+  "source": {
+    "doi": "10.1103/PhysRevC.100.024314",
+    "sha256": "450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066",
+    "locator": "024314-5 Table I D6 and footnotes a,b"
+  },
+  "assumptions": [
+    "Same parent and matching corrected photon rates/response",
+    "896.8 pure E2 and 225.8 restricted M1/E2 as in104",
+    "For local covariance geometry only: printed errors interpreted as marginal SD",
+    "Energies in keV; intensity normalization arbitrary but common"
+  ],
+  "variable_order": [
+    "I225",
+    "I896",
+    "E225_keV",
+    "E896_keV"
+  ],
+  "printed_centers": [
+    3.8,
+    0.79,
+    225.8,
+    896.8
+  ],
+  "printed_error_magnitudes": [
+    0.4,
+    0.06,
+    0.5,
+    0.5
+  ],
+  "C_center": 0.00021037066736895573,
+  "gradient_logC_wrt_absolute_variables": [
+    -0.2631578947368421,
+    1.2658227848101267,
+    0.022143489813994686,
+    -0.005575379125780553
+  ],
+  "local_logC_SD_envelope_over_all_PSD_with_declared_diagonal": [
+    0.015454356336241627,
+    0.19507195945323205
+  ],
+  "local_logC_SD_if_diagonal": 0.13030346702799983,
+  "rank_one_endpoint_witnesses": {
+    "maximum": {
+      "rank_one_vector": [
+        -0.4,
+        0.06,
+        0.5,
+        -0.5
+      ],
+      "g_Sigma_g": 0.03805306936492341,
+      "PSD_reason": "Sigma=v*v^T",
+      "is_actual_experimental_covariance": false
+    },
+    "minimum": {
+      "rank_one_vector": [
+        -0.4,
+        -0.06,
+        -0.5,
+        0.5
+      ],
+      "g_Sigma_g": 0.00023883712976753175,
+      "PSD_reason": "Sigma=v*v^T",
+      "is_actual_experimental_covariance": false
+    }
+  },
+  "common_intensity_normalization_cancels_exactly": true,
+  "common_multiplicative_energy_gain_cancels_exactly": true,
+  "common_additive_energy_offset_logC_derivative_per_keV": 0.016568110688214132,
+  "conditional_rectangle_C_image": [
+    0.00017345674388278496,
+    0.00025650497707538974
+  ],
+  "radiative_fraction_contract": {
+    "f": "delta225^2/(1+delta225^2)",
+    "R_E2": "C/f",
+    "dlogR": "dlogC-dlogf",
+    "example_f_interval_not_experimental": [
+      0.1,
+      0.2
+    ],
+    "conditional_R_image_for_example_f_interval": [
+      0.0008672837194139248,
+      0.0025650497707538976
+    ],
+    "R_unbounded_if_f_can_approach_zero": true
+  },
+  "actual_f": null,
+  "actual_Cov": null,
+  "new_CI": null,
+  "power_or_exposure": null,
+  "scientific_boundary": "Declared covariance/rectangle design, not original count analysis, reported CI, or chiral verdict"
+}

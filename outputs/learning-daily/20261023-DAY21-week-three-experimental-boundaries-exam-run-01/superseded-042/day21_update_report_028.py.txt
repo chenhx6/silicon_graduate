@@ -1,0 +1,131 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 028 深度攻坚：** 深入攻克内转换系数（ICC）、多极混合比反演与核动态穿透效应（Penetration Parameter $\\lambda$）推断阶梯边界（Kibédi et al. 2008 NIM A 589）；运行独立量化审计程序 " + B + "day21_checkpoint028_internal_conversion_bricc_audit.py" + B + " 产出 " + B + "internal-conversion-bricc-audit-028.json" + B + "；以 $^{178}\\text{W}$ 920.8 keV 跃迁（$\\alpha_K(M1)=0.00995, \\alpha_K(E2)=0.00435$）为基准，定量证明：(1) 内转换系数仅取决于 $\\delta^2$，对混合比正负代数符号完全不敏感，无法单独消除角分布干涉项中的符号简并；(2) 在强阻退 $M1$ 跃迁中，核动态穿透效应（$\\lambda \\in [-10, 20]$）可使表观 $\\alpha_K$ 偏离标准 BrIcc 网格达 $0.73$ 至 $2.17$ 倍，忽略穿透效应而强行反演将误判高达 $48\\%$ 的假 $E2$ 混合或产生非物理负平方 $\\delta^2 < 0$；(3) 反演导数在纯极性端点（$\\delta \\to 0$）发生奇点发散，必须自洽传播 BrIcc $1.4\\%$ 理论系统误差；确立“严禁仅凭内转换系数确定 $\\delta$ 符号与忽略强阻退核穿透效应”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 027 深度攻坚：**"
+if target_rs in text and "Checkpoint 028 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 31 under Sources and evidence
+sec31 = """### 31. Kibédi et al. 2008：内转换系数评估理论（BrIcc）、核穿透效应与多极混合比推断阶梯边界
+
+在低能核结构谱学中，内转换电子能谱测量（如利用微通道板或硅探测器测定转换电子强度 $I_{ce}$）是独立于 $\\gamma$ 射线各向异性（DCO/ADO）确定辐射多极性与自旋宇称的关键基石。从推断阶梯第一/二层（电子谱峰强度与表观转换系数 $\\alpha_K^{\\text{exp}} = I_{ce}/I_\\gamma$）向第三/四层（多极混合比 $\\delta(E2/M1)$ 与微观跃迁几率 $B(M1)/B(E2)$）的反演，是高自旋与核衰变物理中极易受符号简并与原子核有限尺寸穿透效应干扰的技术边界（Kibédi et al. 2008 NIM A 589, 202–229，[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]]）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–4）：**
+  实验测得内转换系数后，通常依据二元混合公式反演多极混合比：
+  $$\\alpha^{\\text{exp}} = \\frac{\\alpha(M1) + \\delta^2 \\alpha(E2)}{1 + \\delta^2} \\implies \\delta^2 = \\frac{\\alpha(M1) - \\alpha^{\\text{exp}}}{\\alpha^{\\text{exp}} - \\alpha(E2)}$$
+  在基准核（如 $^{178}\\text{W}$ 的 $920.8\\text{ keV}$ 跃迁，BrIcc 理论值 $\\alpha_K(M1) = 0.00995(14)$，$\\alpha_K(E2) = 0.00435(6)$）中，内转换系数灵敏反映了辐射场多极性。然而，当直接由 $\\alpha^{\\text{exp}}$ 提取物理结论时，存在三大易被忽视的推断盲区。
+- **推断阶梯漏洞剖析：**
+  1. **混合比代数符号的完全盲区（Sign Blindness）：**
+     内转换系数对混合比 $\\delta$ 的依赖完全是偶数次幂（$\\delta^2$），**对 $\\delta$ 的正负代数符号完全不敏感**！因此，内转换系数永远无法单独确定混合比符号（产生 $\\pm |\\delta|$ 绝对简并）。而在角分布与角关联（DCO）中，干涉项 $2\\delta F_2$ 强烈依赖于带符号的 $\\delta$。脱离带符号偏振与角分布测量，严禁声称唯一确定了多极混合比；
+  2. **强阻退跃迁中的核动态穿透效应（Church-Weneser Anomalous Conversion）：**
+     标准 BrIcc 表格假设原子核为无内禀穿透的表面流或点电荷。然而，在受宇称、旋称或高 $K$ 强阻退的电磁跃迁中（例如 $\\ell$-禁戒或 $K$-禁戒 $M1$ 跃迁，其 $B(M1) \\ll 10^{-3}\\text{ W.u.}$），辐射场矩阵元极其微弱，而转换电子深入核体积内部直接与跃迁流耦合的核穿透矩阵元反而占据主导，引入穿透参数 $\\lambda = M_{\\text{penetration}} / M_\\gamma$：
+     $$\\alpha_K(M1, \\lambda) = \\alpha_K^{\\text{standard}}(M1) \\left[ 1 + B_1(K) \\lambda + B_2(K) \\lambda^2 \\right]$$
+     当 $\\lambda$ 在 $[-10, 20]$ 区间变动时，表观 $\\alpha_K$ 可发生 $0.73$ 至 $2.17$ 倍的巨大漂移！若实验人员忽略穿透效应而强行套用标准 BrIcc 网格反演，当 $\\lambda = 10$ 时会将纯 $M1$ 跃迁虚假解读为高达 **$48\\%$ 的 $E2$ 混合**；当 $\\lambda = -10$ 时因表观 $\\alpha_K > \\alpha_K(M1)$ 导致逆解出现非物理的 $\\delta^2 < 0$，甚至常被误判为存在“$E0$ 单极穿透跃迁”；
+  3. **BrIcc 理论不确定度（$1.4\\%$）与极性端点误差发散：**
+     在由 $\\alpha^{\\text{exp}}$ 反演 $\\delta$ 时，误差传递导数 $d\\delta / d\\alpha \\propto (1+\\delta^2)/(2\\delta)$ 在纯极性端点（$\\delta \\to 0$ 或 $\\delta \\to \\infty$）发生非线性奇点发散。即使实验测定 $\\alpha^{\\text{exp}}$ 具有高精度的 $5\\%$ 误差，在 $\\delta = 0.2$ 处导出的 $\\sigma_\\delta$ 高达 $0.235 > \\delta$。必须严格联合传播 BrIcc 的 $1.4\\%$ 理论系统误差，严禁在端点报告虚假的对称高斯误差。
+- **证据门准则：**
+  1. **严禁仅凭单一内转换系数（如 $\\alpha_K$）确定多极混合比 $\\delta$ 的代数符号**；内转换系数仅取决于 $\\delta^2$，必须结合带符号的角分布（$A_2/A_4$）或角关联（DCO）反演真实跃迁干涉相位；
+  2. **在强阻退电偶极（$E1$）或磁偶极（$M1$）跃迁中（$B(M1) \\ll 10^{-3}\\text{ W.u.}$），严禁假设标准点核 BrIcc 表格有效**；必须评估原子核动态穿透效应（Penetration Parameter $\\lambda$），穿透可使表观 $\\alpha_K$ 偏离标准值 $2–5$ 倍，若忽略 $\\lambda$ 会误判产生虚假 $E2$ 混合或伪 $E0$ 单极成分；
+  3. **由内转换系数反演混合比 $\\delta$ 时，必须自洽传播 BrIcc 理论网格的 $1.4\\%$ 系统不确定度与实验谱峰效率误差**；当 $\\alpha_{\\text{exp}}$ 逼近纯极性端点时，逆映射导数发散，严禁报告非物理的高斯对称 $\\delta$ 误差。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 31. Kibédi et al. 2008" not in text:
+    text = text.replace(target_theory, sec31 + "\n\n" + target_theory)
+
+# 3. Add Section 29 under Theory/analysis exercise
+sec_ex29 = """### 29. Checkpoint 028 量化审计程序与内转换系数核穿透灵敏度核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint028_internal_conversion_bricc_audit.py" + B + """，对 $^{178}\\text{W}$（$Z=74, E_\\gamma = 920.8\\text{ keV}$）基准跃迁的内转换系数逆解敏感度与动态穿透效应展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/internal-conversion-bricc-audit-028.json" + B + """：
+
+1. **多极混合比 $\\delta$ 逆解与误差奇点：**
+   - BrIcc 基准：$\\alpha_K(M1) = 0.00995(14)$，$\\alpha_K(E2) = 0.00435(6)$，理论网格误差 $1.4\\%$；
+   - 当真实 $\\delta = 0.2$（$E2$ 占比 $3.8\\%$）时，在 $5\\%$ 实验误差下导出的联合误差为 $\\sigma_\\delta = 0.235 > \\delta$（相对误差达 $117.5\\%$）；
+   - 当 $\\delta = 1.0$（$E2$ 占比 $50.0\\%$）时，导出的 $\\sigma_\\delta = 0.066$ 达到最灵敏区间；
+   - 确立内转换系数对混合比符号绝对盲目（$\\delta = +1.0$ 与 $\\delta = -1.0$ 给出完全相同的 $\\alpha_K = 0.007150$）。
+2. **核穿透参数 $\\lambda$ 导致的表观反常转换：**
+   - 设定 Church-Weneser 电子穿透因子 $B_1 = -0.045, B_2 = 0.0018$；
+   - 当 $\\lambda = 10.0$ 时，穿透因子使表观 $\\alpha_K$ 降至 $0.007263$（仅为标准值的 $73\\%$）；若忽略穿透效应强行反演，将误判存在高达 **$48.0\\%$ 的虚假 $E2$ 混合成分**；
+   - 当 $\\lambda = -10.0$ 时，穿透因子使表观 $\\alpha_K$ 升至 $0.016219$（达到标准值的 $1.63$ 倍，超出纯 $M1$ 上界），若强行反演将出现非物理负平方 $\\delta^2 < 0$，常被误认为存在非物理 $E0$ 单极成分。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 29. Checkpoint 028 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex29 + "\n\n" + target_ce)
+
+# 4. Add Section 25 under Counter-evidence
+sec_ce25 = """### 25. 内转换系数对多极混合比符号盲区与核穿透效应伪 E2/E0 的排他性证伪判据
+
+- **多极混合比符号确定的排他性排查：**
+  若实验分析仅凭内转换系数（如 $\\alpha_K$ 或 $\\alpha_L$）报告了带有确定正负代数符号的混合比 $\\delta$（例如宣称 $\\delta = +0.5$ 而非 $\\delta = -0.5$），该符号指认在方法论上被直接排他性证伪；内转换反演仅依赖 $\\delta^2$，确定符号必须依赖带符号的定向态角分布（$A_2$ 与干涉项 $2\\delta F_2$）或康普顿散射线偏振不对称度。
+- **强阻退电磁跃迁中标准 BrIcc 网格有效性的证伪判据：**
+  若研究的目标态属于重度阻退的电磁跃迁（如 $B(M1) < 10^{-3}\\text{ W.u.}$ 或伴随同质异能态阻退），且实测 $\\alpha_K$ 显著偏离纯极性范围（甚至出现 $\\alpha_K > \\alpha_K(M1)$），在未拟合动态核穿透参数 $\\lambda$ 前，严禁直接声称发现了强 $E2$ 混合或 $E0$ 跃迁；若未评估穿透矩阵元，其虚假 $E2/E0$ 主张被直接排他性证伪。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 25. 内转换系数对多极混合比符号盲区" not in text:
+    text = text.replace(target_ki, sec_ce25 + "\n\n" + target_ki)
+
+# 5. Add Decision 19 under Knowledge Impact
+dec19 = """19. **Kibédi et al. 2008 NIM A（内转换系数 BrIcc 评估与穿透效应推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在低能核结构谱学中利用 BrIcc 理论网格结合实测内转换系数提取辐射多极性的标准实验方法；澄清并严格限制了单一内转换系数的反演能力，定量证明其对混合比符号完全盲目（$\\pm |\\delta|$ 简并）以及端点误差奇点发散特性；修正了在强阻退跃迁中盲目套用标准点核 BrIcc 网格的偏见，确立了核动态穿透参数 $\\lambda$ 可使表观 $\\alpha_K$ 漂移 $0.73 - 2.17$ 倍并人为伪造高达 $48\\%$ $E2$ 混合或负平方 $\\delta^2 < 0$ 的物理机制；
+   - 持久化产物：更新 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Kibédi et al. 2008 NIM A" not in text:
+    text = text.replace(target_dkd, dec19 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "summary": "内转换系数多极混合比反演、核穿透效应与误差传递推断阶梯边界审计。",
+      "anchor": "checkpoint028：内转换系数多极混合比反演、核穿透效应（lambda）与误差传递审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+          "locator": "KB08-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
+          "locator": "BC84-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "KB08-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要实验测准了内转换系数（如 $\\alpha_K$），就可以直接在 BrIcc 表格中查出唯一的带符号多极混合比 $\\delta(E2/M1)$，且标准 BrIcc 表格对所有电磁跃迁均通用；
+   - **新信念：** 认识到内转换系数仅取决于 $\\delta^2$，对代数符号完全不敏感，确定符号必须依赖带符号的角分布干涉项；且在强阻退电磁跃迁中（$B(M1) < 10^{-3}\\text{ W.u.}$），核动态穿透效应（$\\lambda$）会使表观 $\\alpha_K$ 偏离数倍，盲目套用标准表会导致虚假判决多达 $48\\%$ 的假 $E2$ 混合或非物理的负平方 $\\delta^2$。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "内转换系数仅取决于" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 028 successfully.")

@@ -1,0 +1,122 @@
+---
+type: source
+title: "Burgunder2014：35Si (d,p) 反应、双体自旋-轨道力与中心气泡效应争论"
+title_original: "Experimental Study of the Two-Body Spin-Orbit Force in Nuclei"
+aliases: [Burgunder 2014 35Si spin-orbit, 35Si自旋轨道劈裂实验]
+created: 2026-10-23
+updated: 2026-10-23
+status: ai-draft
+review_status: unreviewed
+source_type: experiment-and-model
+reading_depth: deep-read
+authors: [G. Burgunder, O. Sorlin, F. Nowacki, S. Giron, F. Hammache, M. Moukaddam, N. de Séréville, D. Beaumel, L. Càceres, E. Clément, G. Duchêne, J. P. Ebran, B. Fernandez-Dominguez, F. Flavigny, S. Franchoo, J. Gibelin, A. Gillibert, S. Grévy, J. Guillot, A. Lepailleur, I. Matea, A. Matta, L. Nalpas, A. Obertelli, T. Otsuka, J. Pancin, A. Poves, R. Raabe, J. A. Scarpaci, I. Stefan, C. Stodel, T. Suzuki, J. C. Thomas]
+journal: Physical Review Letters
+year: 2014
+volume: "112"
+pages: "042502"
+doi: "10.1103/PhysRevLett.112.042502"
+arxiv: "1401.1593v1"
+citation_key: Burgunder_2014
+citation_key_origin: locally-assigned-from-verified-DOI
+canonical_source: "https://doi.org/10.1103/PhysRevLett.112.042502"
+source_url: "https://arxiv.org/abs/1401.1593v1"
+raw_file: "raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf"
+raw_sha256: "c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef"
+raw_storage_status: verified-raw-archive
+raw_archive_verified_at: 2026-10-23
+raw_version: publisher-final-PRL-2014
+public_staging_file: "tmp/burgunder2014/spin-orbit_SM_last.tex"
+source_independence: GANIL-MUST2-EXOGAM-transfer-experiment-with-reused-37S-reference
+nuclei: [34Si, 35Si, 36S, 37S, 40Ca, 41Ca]
+reactions: ["34Si(d,p)35Si"]
+experiments: [GANIL-MUST2-EXOGAM]
+models: [ADWA, TWOFNR, SDPF-U-shell-model, M3Y, N3LO, KLS]
+observables: [proton-angular-distribution, spectroscopic-factor, single-particle-splitting, monopole-matrix-elements]
+methods: [transfer-reaction, inverse-kinematics, particle-gamma-coincidence, spin-tensor-decomposition]
+tags: [a34, a35, spin-orbit, two-body-force, bubble-nucleus, monopole-interaction, evidence-boundary]
+---
+
+# 从 (d,p) 转移反应到双体自旋-轨道力与气泡核争论
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Bibliographic Record
+
+Burgunder 等，*Physical Review Letters* **112**, 042502 (2014)，DOI: 10.1103/PhysRevLett.112.042502。本篇为法国 GANIL 开展的放射性束反演运动学 (d,p) 转移反应实验，结合 MUST2 硅探测器阵列与 EXOGAM 锗探测器阵列，首次测定中子富余核 ³⁵Si 中中子单粒子态能量与谱因子。arXiv 预印本版本为 1401.1593v1（TeX 源文件为 `spin-orbit_SM_last.tex`）。本次采用用户提供并核验的 Physical Review Letters 正式版 PDF，已归档至 `raw/papers/burgunder-2014-35si-two-body-spin-orbit.pdf`；SHA-256 与正文题名页/DOI一致。`tmp/burgunder2014/` 中的 arXiv TeX 仍作为阅读来源记录保留。
+
+## Scope and Reading Depth
+
+Day 21 本轮深度精读了 arXiv 预印本文本全部 22 个段落、全部 3 幅图与 Table 1。重点审计了：
+1. GANIL 逆运动学 (d,p) 实验测得的 ³⁵Si 各低激发态角分布与 ADWA 拟合提取的谱因子（SF）；
+2. 实验直接测得的主碎片能级间距（1.134 MeV）与 ³⁷S（1.992 MeV）的表观对比；
+3. 基于 SDPF-U 大空间壳模型与 Baranger 能量加权求和规则展开的关联解折叠（correlation unfolding），证明真实单粒子自旋-轨道劈裂减小量为 378 keV（约 25%）；
+4. 基于单极矩阵元的自旋-张量分解（spin-tensor decomposition），审计张量项（K=2）严格为零的原因，以及双体自旋-轨道项（K=1）在角动量求和迹定理下的数学自洽性与预印本表格印刷笔误。
+
+## Summary
+
+本源文献提供了 ³⁴Si 区域中子单粒子态能级演化的最关键实验判据：
+- **实验直接事实：** 在 ³⁵Si 中观测到基态 7/2⁻（SF=0.56(6)）、910 keV 态（3/2⁻，SF=0.69(10)）、2044 keV 态（1/2⁻，SF=0.73(10)）与 5.5 MeV 连续谱共振（5/2⁻，SF=0.32(2)）。在 ³⁵Si 中，3/2⁻ 与 1/2⁻ 主碎片之间的表观能量劈裂从 ³⁷S 的 1.992 MeV 急剧骤降至 1.134 MeV（表观减小 858 keV，降幅达 43%）。
+- **关联解折叠（Unfolding Correlations）：** 作者明确指出，主碎片间距并不等同于纯单粒子轨道能；大空间壳模型计算表明多体关联与组态碎裂放大了表观间距变化。采用 Baranger 单粒子质心能量加权求和，扣除关联后的真实单粒子自旋-轨道劈裂变动为 ΔSO(p) ≈ 378–380 keV（降幅约 25%），且 f 轨道的自旋-轨道劈裂在实验误差内保持恒定。
+- **微观机制剖析：** 从 ³⁶S 到 ³⁴Si，移走的两个质子完全位于 2s₁/₂ 轨道（Δn(2s₁/₂) = 1.47）。因 s 轨道 ℓ=0，质子-中子单极矩阵元的张量力分量（K=2）**严格恒等于零**，排除了张量力解释；中心力分量（K=0）对 2p₃/₂ 与 2p₁/₂ 产生等量平移，无差分效应；因此，劈裂减小的全部微观根源只能由**双体自旋-轨道力（K=1）**承载。
+- **两套表象的统一与推断边界：** 密度泛函的“中心气泡减弱单体自旋-轨道势阱斜率 dV/dr”与微观壳模型的“2s₁/₂ 质子敲出移除双体自旋-轨道单极吸引/排斥”是同一物理相互作用在不同平均场与有效基底下的对偶表象。实验直接测定的是反应截面与能级；将 25% 劈裂减小直接等同于“证明了经典中心质子气泡”属于跨越了多体涨落阶梯的模型解释。
+
+## Experimental Setup and Method
+
+- **束流与靶：** GANIL 提供 15.4 A·MeV 的 ³⁴Si 放射性束（强度约 10⁵ pps），轰击 0.5 mg/cm² 的 CD₂ 聚乙烯靶。
+- **带电粒子探测器（MUST2）：** 4 套 MUST2 望远镜（128×128 双面硅微条 300 μm + 4.5 mm Si(Li)），置于靶后 10 cm，覆盖实验室极角 105°–150°，以高能量与角度分辨率测量反冲质子。
+- **余核辨识与 γ 阵列：** 靶后 40 cm 的电离室与塑闪探测器用于精确辨识 Si 同位素并测量飞行时间；4 台 EXOGAM 分段高纯锗探测器（中心移至靶后 9 cm）测量符合 γ 射线（总效率 3.8% at 1.33 MeV）。
+- **反应动力学分析：** 采用 TWOFNR 程序展开绝热绝热扭曲波近似（ADWA，Johnson-Tandy 处方），结合 Wales 与 Varner 全局光学势拟合质子角分布，提取转移轨道角动量 ℓ 与谱因子 SF。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BU14-1 | GANIL 反演运动学 ³⁴Si(d,p) 反应测得 ³⁵Si 基态 7/2⁻ (SF=0.56(6))、910 keV 态 (3/2⁻, SF=0.69(10)) 与 2044 keV 态 (1/2⁻, SF=0.73(10))。 | experimental-fact | direct | PDF p.2, Fig.1-2 | true |
+| BU14-2 | 5.5 MeV 附近的连续谱宽结构拟合为 ℓ=3 态，提取 SF=0.32(2)，归属于部分 f₅/₂ 单粒子强度，与 ³⁷S 中 5.6 MeV 处 f₅/₂ 强度 (SF=0.36) 幅度相当。 | experimental-fact | direct | PDF p.2, right col | true |
+| BU14-3 | ³⁵Si 中 3/2⁻ 与 1/2⁻ 主碎片能量间距为 1.134 MeV，显著低于 ³⁷S (1.992 MeV) 与 ⁴¹Ca (~2.0 MeV) 中的劈裂，表观减小 858 keV (43%)。 | derived-observable | direct | PDF p.2-3, Fig.3 | true |
+| BU14-4 | 大空间 sd-pf 壳模型计算表明，扣除组态混合与多体关联后，真实中子 2p 自旋-轨道单粒子劈裂减小量 ΔSO(p) 为 378 keV (Baranger 质心为 380 keV)，降幅约为 25%。 | model-result | direct | PDF p.3, Eq.(1) | true |
+| BU14-5 | 从 ³⁷S 到 ³⁵Si，移走质子主要来自于 2s₁/₂ 轨道 (Δn(2s₁/₂) = 1.47)；因 ℓ=0，质子-中子单极矩阵元的张量力分量 (K=2) 严格为零，排除了张量力主导劈裂减小的假设。 | model-result | direct | PDF p.3-4, Table 1 | true |
+| BU14-6 | 单极矩阵元差值完全由双体自旋-轨道分量 (K=1) 承载：实验拟合的单极差 V(2s₁/₂, 2p₁/₂) - V(2s₁/₂, 2p₃/₂) = +0.257 MeV，与现实 M3Y (+0.267 MeV) 及 N3LO/KLS (~0.300 MeV) 微观两体自旋-轨道力计算优良吻合。 | model-result | direct | PDF p.3-4, Table 1 | true |
+| BU14-7 | 双体自旋-轨道单极矩阵元严格遵循角动量迹定理 (2j>+1)V_SO(j>) + (2j<+1)V_SO(j<) = 0；预印本 Table 1 第一行 N3LO^a 之 V(2s₁/₂, 2p₃/₂) 的 K=1 分量误印为 +0.193，理论自洽值为 -0.0965 MeV。 | scientific-audit | direct | PDF p.4, Table 1; audit-002 | true |
+| BU14-8 | 实验直接证实了 2p 轨道自旋-轨道劈裂的局部显著减小，但无法独立区分该减小是源于几何平均场中心“质子密度气泡”引起的单体场势阱斜率变缓，还是壳模型价核子双体自旋-轨道力的有效矩阵元作用。 | evidence-boundary | direct | PDF p.4, Conclusions | true |
+
+## Competing Interpretations and Limitations
+
+1. **单体气泡势阱斜率 vs 价核子双体自旋-轨道相互作用：**
+   - 传统自洽平均场（如 RHFB 或 Skyrme-Hartree-Fock）将自旋-轨道势写为密度梯度的单体局域泛函：$V_{SO}(r) propto
+rac{1}{r}
+rac{d
+ho}{dr}
+ec{ell} cdot
+ec{s}$。在这一图景下，中心质子密度下凹（气泡）导致核内部 $d
+ho/dr 	o 0$ 甚至为负，使得贯穿核中心的 $p$ 轨道波函数（$ell=1$）感受到的有效势阱梯度大幅下降，从而减弱了单体自旋-轨道相互作用。
+   - 壳模型与微观核力图景（Burgunder 2014，Otsuka 派系）则指出，这是自由两体自旋-轨道相互作用在特定轨道耦合下的直接表现。从 ³⁷S 到 ³⁵Si，敲出的是两个 $2s_{1/2}$ 质子；因为 $s$ 轨道 $ell=0$，张量相互作用严格不起作用；而两体自旋-轨道力具有正负相反的单极矩阵元（$V_{SO}(2p_{1/2}) = -2 V_{SO}(2p_{3/2})$），自然直接驱动了 $2p$ 劈裂的缩小。
+   - **局限性：** 两种模型对于同一个实验数据（能谱与截面）均能给出合理的定性解释。转移反应实验本身只测出了能级和谱因子，**并不能直接证明空间径向密度的中心下凹**。
+2. **多体关联与碎片化不确定性：**
+   - 实验仅测得了主要碎片（主峰）的能量。未观测到的弱碎片（截面小于灵敏度阈值）可能系统性改变 Baranger 能量加权求和规则的质心能量。
+   - 谱因子的绝对值系统误差受 ADWA 模型光学势参数选取的强烈制约（光学势深度与弥散度的变动可带来 15%–25% 的 SF 变动）。
+3. **印刷笔误与角动量迹定理：**
+   - 审计发现 arXiv:1401.1593v1 Table 1 第一行存在排版复制笔误，将 $K=1(3/2)$ 打印成 $+0.193$，该错误被角动量迹定理严格纠正为 $-0.0965	ext{ MeV}$。
+
+## Extracted Pages
+
+- Nuclei: [[mutschler-2017-34si-proton-density-bubble]], [[yao-2012-34si-beyond-mean-field-bubble]]
+- Methods: [[experimental-claim-boundaries]]
+- Synthesis: [[high-spin-lifetime-strength-deformation]]
+
+
+## Day21 checkpoint056：双体自旋-轨道单极矩阵元与质心展开原件审计
+
+在冻结前置回忆后，重新精读Burgunder等2014年PRL 112, 042502原件全文5页及Table I、Fig. 3。原文BibTeX为`Burgunder_2014`，本地raw文件SHA-256匹配为`c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef`。原BU14-1至8、review_status与needs_review保持。以下为本检查点补充的定向审计声明：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BU14-D21-R56-1 | Table I证实2s1/2质子与2p中子单极矩阵元分解中：K=0标量中心力对p1/2与p3/2相同（N3LO bare为-1.317 MeV），K=2张量力因2s1/2之l=0严格为零；K=1双体自旋-轨道力完全承载全部单极差（N3LO bare差值+0.289 MeV，M3Y为+0.267 MeV，实验提取+0.257 MeV），且严格满足角动量迹定理2*V_SO(1/2) + 4*V_SO(3/2) = 0。 | model-decomposition-and-symmetry-theorem | direct-original | PRL 112, 042502 Table I | true |
+| BU14-D21-R56-2 | 34Si(d,p)35Si实验测得2p主碎片劈裂从37S的1.992 MeV降至1.134 MeV（表观减小858 keV，43%）；经大空间壳模型Baranger质心展开并扣除组态混合后，真实单粒子自旋-轨道劈裂减小量为378 keV（25%），完全符合Δn(2s1/2) * 257 keV = 1.47 * 257 = 377.8 keV。 | derived-observable-and-unfolding | direct-original | PRL 112, 042502 p. 4 Eq.(1)及前段 | true |
+| BU14-D21-R56-3 | 结论明确指出：实验证实的25%自旋-轨道劈裂减小完全可由壳模型价核子双体自旋-轨道相互作用解释；(d,p)反应截面与能谱不能独立证明宏观平均场中存在静态空间质子气泡。 | evidence-boundary | direct-original | PRL 112, 042502 p. 5 Conclusions | true |
+
+### 科学判定与学习决策
+
+- 既有理解：Burgunder 2014确立了35Si自旋-轨道劈裂减小由双体自旋-轨道力承载。
+- 影响：limits。核准张量力严格为零与单极差100%由K=1承载的定理证明；明确转移反应无法区分几何气泡单体斜率平缓与双体价核子自旋-轨道力，二者在微观与平均场下互为对偶表象。
+- 持久化：更新本source页与方法页推断阶梯Case Study 2。

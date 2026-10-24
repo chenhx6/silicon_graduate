@@ -1,0 +1,133 @@
+
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 039 深度攻坚：** 深入攻克放射性离子束库仑激发与中子富集锡同位素 $B(E2)$ 推断阶梯边界（Radford et al. 2005 EPJ A 25 与 Varner et al. 2005）；运行独立量化审计程序 " + B + "day21_checkpoint039_radioactive_sn_coulex_audit.py" + B + " 产出 " + B + "radioactive-sn-coulex-audit-039.json" + B + "；定量证明：(1) $^{130}\text{Sn}$ 束流中含有 $11\%$ 的长寿命 $7^-$ 同质异能素（$1947\text{ keV}$），若按纯基态束流归一将导致有效通量被高估 $11\%$，使得提取出的 $B(E2)$ 产生 $-11.0\%$ 的系统性压低（校正后真值应从 $0.023$ 升至 $0.0258\ e^2\text{b}^2$）；(2) $A=134$ 鸡尾酒束中 $^{134}\text{Te}$ 的 $B(E2) = 0.290\ e^2\text{b}^2$ 为 $^{134}\text{Sn}$（$0.029\ e^2\text{b}^2$）的整整 $10.0$ 倍，仅 $2\%$ 的微量粒子泄漏即可引发表观 $B(E2)$ 虚高 $20\%$；(3) 双幻核 $^{132}\text{Sn}$ 的 $2^+$ 激发能高达 $4041\text{ keV}$，绝热参数 $\\xi \approx 1.49$ 导致库仑激发截面被指数绝热压制近 $700$ 倍，使得初步报告值（$0.11\ e^2\text{b}^2$）较现代值（$0.072\ e^2\text{b}^2$）漂移达 $+52.8\%$；(4) 确立“严禁脱离异构态扣除与同量异位素纯化直接使用会议论文初步库仑激发数据”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 038 深度攻坚：**"
+if target_rs in text and "Checkpoint 039 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + chr(10) + target_rs)
+
+# 2. Add Section 42 under Sources and evidence
+sec42 = """### 42. Radford et al. 2005 EPJ A：126-130Sn 放射性束库仑激发、11% 异构态污染与绝热截断推断阶梯边界
+
+在放射性核束物理（RIB）中，逆运动学次临界库仑激发是测定远离稳定线中子富集核第一激发态 $B(E2; 0^+ \to 2^+)$ 与探索壳层演化集体性的核心实验工具（Radford et al. 2005 EPJ A 25, 383，[[radford-2005-130sn-coulomb-excitation-126-130sn]] 与 Varner et al. 2005 EPJ A 25, 391 对照 Alder 1956 RMP）。从推断阶梯第一/二层（碳靶反冲核符合 $\gamma$ 计数与卢瑟福归一化截面）向第四/五层（基态带约化电四极跃迁几率 $B(E2)$、中子有效电荷 $e_\nu^{\text{eff}}$ 与粒子—空穴对称性）的反演，存在着放射性束流特有的三重系统性物理陷阱：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 4–5）：**
+  在橡树岭 HRIBF 实验中，通过铀裂变靶制备放射性锡同位素束流，测得 $^{130}\text{Sn}$ 的初步 $B(E2) = 0.023(5)\ e^2\text{b}^2$（$E(2^+) = 1221\text{ keV}$），并与 $^{132}\text{Sn}$（初步报告 $0.11(3)\ e^2\text{b}^2, E(2^+)=4041\text{ keV}$）及 $^{134}\text{Sn}$（$0.029(5)\ e^2\text{b}^2, E(2^+)=726\text{ keV}$）构成跨越 $N=82$ 闭壳的系统学。通俗理论解读常直接据此断言：$^{130}\text{Sn}$ 与 $^{134}\text{Sn}$ 表现出完美的两空穴—两粒子对称性，且 $^{130}\text{Sn}$ 的集体性发生强烈淬灭。然而，这一推断掩盖了放射性束实验中由于束流成分纯度与运动学截断导致的重大偏差。
+- **推断阶梯漏洞剖析：**
+  1. **束流同质异能素污染（Isomeric Contamination）诱发的通量低估偏差：**
+     在放射性重离子束流制备中，同位素分离器即便能够通过分子离子（如 $^{130}\text{Sn}^{32}\text{S}^+$）完全消除相邻化学元素，也**根本无法分离同核异能素**。Radford 2005 明确报告：实验采用的 $^{130}\text{Sn}$ 束流中含有高达 **$11\%$ 的长寿命亚稳态 $7^-$ 成分**（$T_{1/2} = 1.7\text{ min}, E_x = 1947\text{ keV}$）。若实验在卢瑟福散射归一化中未扣除异构态粒子比例，将导致参与 $0^+ \to 2^+$ 激发的基态离子真实通量被高估 $11\%$，从而使提取出的 $B(E2)$ 产生 **$-11.0\%$ 的系统性压低**！经同质异能态真实通量校正后，$^{130}\text{Sn}$ 的真值应上浮至 $0.0258\ e^2\text{b}^2$；类似地，$^{128}\text{Sn}$ 含有 $8.5\%$ 的 $7^-$ 污染；
+  2. **同量异位素鸡尾酒束（Isobaric Cocktail）巨幅集体性串扰放大：**
+     在次级束实验中（如 $A=134$），束流常为包含 $^{134}\text{Sn}, ^{134}\text{Sb}, ^{134}\text{Te}$ 的混合鸡尾酒束。伴随核 $^{134}\text{Te}$（$Z=52$）含有两个价质子，其微观质子跃迁使 $B(E2; 0^+ \to 2^+) = 0.290\ e^2\text{b}^2$，**整整是 $^{134}\text{Sn}$（$0.029\ e^2\text{b}^2$）的 $10.0$ 倍**！在粒子鉴别（PID）或飞行时间测定中，哪怕仅有 **$2\%$ 的微量 $^{134}\text{Te}$ 离子泄漏进入 $^{134}\text{Sn}$ 的粒子门**，其巨幅 $E2$ 截面即可引发 $^{134}\text{Sn}$ 表观提取 $B(E2)$ 产生高达 **$+20\%$ 的虚假暴增**！若缺乏零污染离子纯化验证，提取出的微弱中子集体性极易被伴随质子杂质严重污染；
+  3. **超高激发能态的指数绝热截断（Adiabaticity Cutoff）：**
+     在双幻核 $^{132}\text{Sn}$ 中，第一激发态能量高达 $E(2^+) = 4041\text{ keV}$。次垒库仑激发绝热参数 $\\xi = \\frac{\\Delta E}{\\hbar} \\frac{a}{v}$ 激增至 $\\xi \\approx 1.49$。在半经典散射理论中，高阶激发几率随绝热参数呈强烈的指数截断：$\\sigma \\propto \\exp(-2\\pi\\xi)$。相比于 $^{130}\text{Sn}$（$1221\text{ keV}, \\xi \\approx 0.45$），$^{132}\text{Sn}$ 的库仑激发截面被**绝热效应剧烈压制达近 $700$ 倍**！在极度微弱的计数率下，探测器光电峰效率标定误差与本底涨落将引发灾难性放大，这正是 Varner 2005 初步会议报告的 $B(E2) = 0.11(3)\ e^2\text{b}^2$ 较现代高统计量公认值（$0.072(7)\ e^2\text{b}^2$）漂移达 **$+52.8\%$** 的根源所在。
+- **证据门准则：**
+  1. **严禁在未扣除束流同质异能素比例（Isomer Fraction）的前提下，直接由卢瑟福散射归一化提取放射性束库仑激发 $B(E2)$**；异构态未扣除将直接成比例压低表观跃迁几率（如 $11\%$ 污染导致 $-11\%$ 尺度漂移）；
+  2. **在混合同量异位素鸡尾酒束（Isobaric Cocktail）测量中，若邻近伴随核具有较强电荷集体性（如 Te 对决 Sn 高达 10 倍），必须提供严格纯度抑制证明**；哪怕仅 $1%–2\%$ 的杂质泄漏即可引发待测弱集体核 $B(E2)$ 产生数十个百分点的假象虚高；
+  3. **严禁将学术会议论文（Conference Proceedings / Supplement）中的“初步结果（Preliminary Results）”直接当作定论基准用于排他性微观核力或有效电荷理论检验**。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 42. Radford et al. 2005 EPJ A" not in text:
+    text = text.replace(target_theory, sec42 + chr(10) + chr(10) + target_theory)
+
+# 3. Add Section 40 under Theory/analysis exercise
+sec_ex40 = """### 40. Checkpoint 039 量化审计程序与放射性锡同位素束流异构态偏差及绝热截断核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint039_radioactive_sn_coulex_audit.py" + B + """，对 Radford et al. 2005 与 Varner et al. 2005 放射性锡同位素逆运动学库仑激发中的束流异构态纯度、鸡尾酒串扰与绝热截断开展代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/radioactive-sn-coulex-audit-039.json" + B + """：
+
+1. **$^{130}\text{Sn}$ 束流 $11\%$ 异构态通量偏置定量核算：**
+   - 实验报告初步值：$B(E2) = 0.023(5)\ e^2\text{b}^2$；
+   - 束流长寿命 $7^-$ 异构态（$1947\text{ keV}$）份额：$f_{\text{iso}} = 11.0\%$；
+   - 若未扣除异构态，基态有效通量高估引起测量值产生 **$-11.0\%$** 的系统性低估；
+   - 真实基态通量校正后的跃迁强度为 $B(E2) = 0.0258\ e^2\text{b}^2$（上浮 $+12.4\%$）；$^{128}\text{Sn}$ 同理受 $8.5\%$ 异构态偏置影响。
+2. **$A=134$ 鸡尾酒束流 $^{134}\text{Te}$ 串扰灵敏度核算：**
+   - $^{134}\text{Te}$ 基态带 $B(E2) = 0.290\ e^2\text{b}^2$，$^{134}\text{Sn}$ 的 $B(E2) = 0.029\ e^2\text{b}^2$；
+   - 二者电四极集体性比值高达 **$10.0$ 倍**；
+   - 微量粒子门泄漏核算：若仅 $0.5\%$ 的 Te 泄漏，Sn 表观 $B(E2)$ 虚高 $+5.0\%$；若 $2.0\%$ 泄漏，表观 $B(E2)$ 虚高达 **$+20.0\%$**。
+3. **$^{132}\text{Sn}$ 超高激发能（$4041\text{ keV}$）绝热截断压制：**
+   - $^{130}\text{Sn}$（$1221\text{ keV}$）：绝热参数 $\\xi = 0.45$，绝热几率因子 $f(\\xi) \\approx 0.0592$；
+   - $^{132}\text{Sn}$（$4041\text{ keV}$）：绝热参数 $\\xi = 1.489$，绝热几率因子 $f(\\xi) \\approx 8.59 \\times 10^{-5}$；
+   - 截面压制比：绝热效应使 $^{132}\text{Sn}$ 库仑激发几率剧烈萎缩 **$689$ 倍**；
+   - 统计量极度受限导致初步会议报告值（$0.11\ e^2\text{b}^2$）较现代高统计量公认值（$0.072\ e^2\text{b}^2$）高估达 **$+52.8\%$**。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 40. Checkpoint 039 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex40 + chr(10) + chr(10) + target_ce)
+
+# 4. Add Section 36 under Counter-evidence
+sec_ce36 = """### 36. 放射性离子束库仑激发对未扣除异构态份额与鸡尾酒串扰的排他性证伪
+
+- **未扣除束流异构态比例直接断言“极弱基态集体性”的排他性证伪：**
+  若实验宣称测得的放射性束库仑激发 $B(E2)$ 展现出前所未有的微弱集体性（如早期报告 $^{130}\text{Sn}$ 仅 $1.4$ 单粒子单位），而在束流诊断中已知存在显著长寿命同质异能素成分（如 $11\% 7^-$）却未在截面归一化中作显式退卷积，该超弱集体性结论被通量守恒定理直接排他性证伪；未扣除的异构态必然人为稀释基态通量并造成 $B(E2)$ 的假象低估。
+- **脱离同量异位素绝对净化直接断言奇异核中子集体性的排他性证伪：**
+  若在混合放射性次级束（如裂变产物鸡尾酒束）中，待测核为弱中子激发态（如 $^{134}\text{Sn}$），而伴随同量异位素为质子强集体态（如 $^{134}\text{Te}, B(E2)$ 高出 10 倍），在缺乏百分之一以内离子纯度鉴别与反符合验证的前提下，直接由未净化粒子门提取 $B(E2)$，该集体性数值在实验可靠性上被直接排他性证伪；微量杂质串扰即可造成数十个百分点的表观虚高。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 36. 放射性离子束库仑激发对未扣除异构态" not in text:
+    text = text.replace(target_ki, sec_ce36 + chr(10) + chr(10) + target_ki)
+
+# 5. Add Decision 30 under Knowledge Impact
+dec30 = """30. **Radford et al. 2005 EPJ A 25（放射性锡同位素库仑激发推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了 HRIBF 早期利用逆运动学放射性重离子束开展中子富集锡同位素库仑激发测量的开拓性实验；严格限制了该会议论文初步数据的推断层级，定量证实 $^{130}\text{Sn}$ 中 $11\%$ 的 $7^-$ 异构态污染诱发 $-11.0\%$ 的截面通量低估，$^{134}\text{Te}$ 强电荷集体性（10 倍）对 $^{134}\text{Sn}$ 的串扰敏感度达 $2\% \to +20\%$，且 $^{132}\text{Sn}$ 在 $4041\text{ keV}$ 的 689 倍指数绝热截断导致初步报告值虚高 $+52.8\%$；修正了将会议论文初步数据作为微观有效电荷定论基准的普遍做法，确立了必须扣除异构态份额、排查鸡尾酒串扰并评估绝热截断的放射性束证据门标准；
+   - 持久化产物：更新 [[radford-2005-130sn-coulomb-excitation-126-130sn]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Radford et al. 2005 EPJ A 25" not in text:
+    text = text.replace(target_dkd, dec30 + chr(10) + chr(10) + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+      "summary": "126-130Sn放射性束库仑激发、11%异构态束流污染与绝热截断推断阶梯边界审计。",
+      "anchor": "checkpoint039：放射性锡同位素束流异构态污染、同量异位素串扰与库仑激发推断阶梯审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+          "locator": "RAD05-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "RAD05-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为放射性束库仑激发测出的截面和 $B(E2)$ 就像稳定核一样直接反映纯基态跃迁强度，会议论文发表的放射性束 $B(E2)$ 初步数值可以直接充当微观有效电荷的精确理论基准；
+   - **新信念：** 认识到放射性离子束极易受到同核异能素污染（如 $^{130}\text{Sn}$ 的 $11\% 7^-$ 异构态导致 $-11\%$ 通量低估偏差）与同量异位素鸡尾酒串扰（伴随核 $^{134}\text{Te}$ 的 $10$ 倍 $B(E2)$ 仅 $2\%$ 泄漏即引起 $+20\%$ 虚高）；且超高激发能态（如 $^{132}\text{Sn}$ 的 $4041\text{ keV}$）受指数绝热截断压制近 $700$ 倍，导致初步会议数据发生 $+53\%$ 的巨幅漂移，必须严格执行束流纯度与绝热动力学校正。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "放射性离子束极易受到同核异能素污染" not in text:
+    text = text.replace(target_belief, target_belief + chr(10) + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 039 successfully.")

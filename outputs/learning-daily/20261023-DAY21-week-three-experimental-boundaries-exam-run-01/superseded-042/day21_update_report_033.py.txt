@@ -1,0 +1,134 @@
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = """- **Checkpoint 033 深度攻坚：** 深入攻克评价核结构数据文件（ENSDF）解析语义与推断阶梯边界（Tuli 2001 BNL-NCS-51655）；运行独立量化审计程序 """ + B + "day21_checkpoint033_ensdf_format_semantics_audit.py" + B + """ 产出 """ + B + "ensdf-format-semantics-audit-033.json" + B + """；精确核定：(1) MR 栏中无显式符号的字符串（如 ' 0.35'）表示模量已知但符号未知（sign is unknown），通用浮点解析器将其直接赋为正号可在角分布干涉项中造成 $\\Delta A_2 = 0.596$ 的剧烈反号漂移；(2) Gamma 记录第 77 列标志为 '&' 的跃迁代表同一观测强度未分割并重复记录，直接累加将造成退激强度 $100\\%$ 虚假放大；(3) 相对光子强度 RI 绝非绝对分支百分比，必须完整乘以 Normalization 记录乘积 $NR \\times BR$（如 $NR \\times BR=0.03825$ 时），脱离归一化直接使用 RI 会导致 $B(E2)/B(M1)$ 发生高达 $26$ 倍的虚假放大；确立“严禁将无符号 MR 自动赋予正号、严禁累加多重放置 & 强度、严禁脱离 NR/BR 提取绝对跃迁强度”的核心证据门准则。"""
+
+target_rs = "- **Checkpoint 032 深度攻坚：**"
+if target_rs in text and "Checkpoint 033 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + "\n" + target_rs)
+
+# 2. Add Section 36 under Sources and evidence
+sec36 = """### 36. Tuli 2001：ENSDF 数据格式手册、字段语义陷阱与推断阶梯边界
+
+在原子核物理研究与数据驱动建模中，研究人员和自动化工具广泛依赖从美国布鲁克海文国家实验室（NNDC）维护的评价核结构数据文件（ENSDF）数据库直接提取能级图、分支比与跃迁强度。从推断阶梯底层（80 字节固定格式 ASCII 数据流解析）向第三/四层（多极混合比 $\\delta$ 赋值、分支比 $b_\\gamma$ 与绝对跃迁几率 $B(E2)/B(M1)$ 计算）的反演，存在着由于对数据库内部评价语义产生严重误读而导致的推断阶梯失真（Tuli 2001 BNL-NCS-51655，[[tuli-2001-ensdf-format-manual]]）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–4）：**
+  在 ENSDF 的 Gamma 记录中，混合比（MR，42–49 列）、相对光子强度（RI，22–29 列）以及多重放置标志（C，77 列）承载着高度紧凑的评价契约。通俗的数据读取脚本通常直接将字符字段转为浮点数（如 `float(record[41:49])`）。这种机械的数据摄入引发了三项极具破坏性的假象。
+- **推断阶梯漏洞剖析：**
+  1. **省略符号不等于已知正号的语义误读（The Unsigned MR Fallacy）：**
+     Tuli 在手册中明文立下不可妥协的格式铁律：
+     *“Sign must be shown explicitly if known. If no sign is given, it will be assumed to be unknown.”（若符号已知必须显式给出正负号；若无号，则视为符号未知）*
+     当实验仅通过无偏振实验或内转换系数测定了混合比的绝对模量时，评价人员在 MR 栏中写入无符号字符（如 `' 0.35'`）。通用浮点解析器将其直接读为正浮点数 $+0.35$！在角分布干涉项 $2\\delta F_2$ 中，这强制赋予了一个虚假的正相位干涉项，使计算出的各向异性系数 $A_2$ 产生高达 $\\Delta A_2 = 0.596$ 的巨幅偏移（真实负相位为 $A_2 = +0.5296$，强加正号后跌落至 $A_2 = -0.0666$），从而彻底篡改辐射多极性的定性裁决；
+  2. **多重放置标志（'&'）未分割强度的双重甚至多重重复计数：**
+     当核反应能谱中存在能量简并的未解双重峰时，评价人员将同一测得的未分割总相对强度写入多个不同能态的 Gamma 记录，并在 77 列标记 `'&'`（*Multiply-placed transition and intensity is not divided*）。若自动化程序直接对能级退激强度求和，该跃迁强度将被重复累加 $2$ 次至多次，导致能态退激强度被虚假膨胀 $100\\%$，严重破坏能级强度平衡方程并虚假制造“粒子喂居严重缺失”的假象；相反，只有标记为 `'@'` 的跃迁才代表强度已按物理分支被合理切分；
+  3. **相对光子强度（RI）直接视为绝对分支比的定标灾难：**
+     在放射性衰变数据集（如 $\\beta^-$ 或 EC 衰变）中，Gamma 记录中的 RI 仅仅是相对于最强 $\\gamma$ 跃迁的相对比例（通常最强峰归一为 $100$）。要获得每 100 次母核衰变的绝对光子产额，必须严格乘以 Normalization 记录中的乘数因子乘积（$NR \\times BR$）。若脱离 $NR \\times BR$（如 $NR = 0.045, BR = 0.85$ 时乘积为 $0.03825$），直接将 $RI = 100$ 视为 $100\\%$ 绝对跃迁几率，导出的绝对跃迁几率 $B(E2)$ 和偏衰变宽度将被虚假放大达 **$26$ 倍之巨**！
+- **证据门准则：**
+  1. **严禁将 ENSDF 格式中无显式正负号的前缀字段（如 MR 栏中的 unsigned 字符串）自动解析为已知正号（$+ \\delta$）**；无号在 ENSDF 语义中代表符号未知（sign is unknown），自动赋值正号会强加虚假干涉项符号；
+  2. **在解析 ENSDF Gamma 记录时，必须显式检查列 77 的多重放置标志（C 栏）**；标志为 `'&'` 的跃迁代表同一观测强度未被分割并重复记录，严禁直接求和，否则导致跃迁强度成倍虚假放大；
+  3. **严禁直接将相对光子强度 RI 等同于能级绝对分支比**；提取绝对跃迁几率与偏衰变宽度必须完整乘以 Normalization 记录的系数乘积（$NR \\times BR$ 或 $NT$），脱离归一化记录将导致跃迁强度 $B(E2)/B(M1)$ 发生数倍至数十倍的灾难性放大。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 36. Tuli 2001" not in text:
+    text = text.replace(target_theory, sec36 + "\n\n" + target_theory)
+
+# 3. Add Section 34 under Theory/analysis exercise
+sec_ex34 = """### 34. Checkpoint 033 量化审计程序与 ENSDF 字段语义解析偏差核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint033_ensdf_format_semantics_audit.py" + B + """，对 ENSDF 数据库格式在无符号混合比、多重放置标志及绝对归一化中的解析语义偏差展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ensdf-format-semantics-audit-033.json" + B + """：
+
+1. **无符号混合比强制赋予正号的各向异性偏差：**
+   - 输入字段为 `' 0.35'`（模量已知为 $0.35$，符号未知）；
+   - 幼稚解析器赋值 $\\delta = +0.35$，计算出的角分布各向异性系数为 $A_2 = -0.0666$；
+   - 实际负符号解（$\\delta = -0.35$）对应的真实各向异性为 $A_2 = +0.5296$；
+   - 两者差量高达 $\\Delta A_2 = -0.5963$，量化证实了省略符号绝非正号，强制赋值正号会引发各向异性符号的反转。
+2. **多重放置标志（'&'）未分割强度的双重重复计数：**
+   - 单一实测 $240\\text{ keV}$ 跃迁相对强度 $RI = 50.0$ 同时放置于两处（C 栏标记 `'&'`）；
+   - 幼稚求和得出总强度 $100.0$，过计数因子达 **$2.0\\times$（虚假放大 $100\\%$）**，严重破坏能级强度平衡方程。
+3. **归一化系数（$NR \\times BR$）缺失导致的绝对跃迁强度放大：**
+   - 相对光子强度 $RI = 100.0$，衰变归一化参数 $NR = 0.045, BR = 0.85$（每 100 次母核衰变实际产额为 $3.825$）；
+   - 若直接将相对强度当成绝对百分比，导出的绝对跃迁几率 $B(E2)$ 被虚假放大达 **$26.14$ 倍**。
+4. **非对称误差 DMR 代数区间解释：**
+   - 对记录 `MR = -3.0, DMR = '+1-4'`，代数真实区间为 $[-7.0, -2.0]$（区间跨度 $5.0$）；
+   - 幼稚解析器误判为 $[-4.0, -2.0]$（跨度 $2.0$），将真实实验置信区间压缩了 $60\\%$。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 34. Checkpoint 033 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex34 + "\n\n" + target_ce)
+
+# 4. Add Section 30 under Counter-evidence
+sec_ce30 = """### 30. 能谱与衰变强度对 ENSDF 符号误读与归一化缺失的排他性证伪判据
+
+- **多极混合比无符号记录的排他性排查：**
+  若从 ENSDF 提取混合比 $\\delta$ 用于角分布或偏振计算，且数据库原始卡片中 MR 栏无显式 `+` 或 `-` 符号（如仅为数值字符串 `'0.35'`），若分析中直接假设其为正值（$\\delta = +0.35$），其计算结果在方法论上被直接排他性证伪；该记录仅表示模量为 $0.35$，必须将正负双解均纳入假设检验。
+- **绝对跃迁几率归一化因子完整性的证伪判据：**
+  若实验声称由放射性衰变提取的绝对电磁跃迁强度 $B(E2)/B(M1)$ 出现反常的超强集体性（如数百至上千 W.u.），必须排查是否直接使用了 Gamma 记录的相对光子强度 $RI$；若未展示 Normalization 记录中的乘积 $NR \\times BR$（或 $NT$）转化链，其超强集体性主张缺乏排他性，极可能是归一化因子缺失导致的 $10 - 30$ 倍计算伪影。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 30. 能谱与衰变强度对 ENSDF 符号误读" not in text:
+    text = text.replace(target_ki, sec_ce30 + "\n\n" + target_ki)
+
+# 5. Add Decision 24 under Knowledge Impact
+dec24 = """24. **Tuli 2001 BNL-NCS-51655（ENSDF 格式语义与数据摄入推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了在国际核物理评估中利用严格规范的 80 字节固定栏记录核能级图与跃迁强度的数据库大厦；澄清并严格限制了自动化脚本摄入 ENSDF 时的格式假设，定量证明将无符号 MR 自动读为正号可导致角分布产生 $\\Delta A_2 = 0.596$ 的剧烈反相漂移，且多重放置 '&' 会导致强度双重重复计算；修正了直接将相对强度 RI 视为绝对百分比的严重定标偏见，确立了必须完整乘以 Normalization 记录乘积（$NR \\times BR$）以消除高达 $26$ 倍虚假强度膨胀的标准证据门规范；
+   - 持久化产物：更新 [[tuli-2001-ensdf-format-manual]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Tuli 2001 BNL-NCS-51655" not in text:
+    text = text.replace(target_dkd, dec24 + "\n\n" + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "summary": "ENSDF格式语义手册、无符号MR未知性、多重放置与绝对归一化推断阶梯边界审计。",
+      "anchor": "checkpoint033：ENSDF 格式语义审计、无符号 MR 未知性与绝对归一化（NR/BR）边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+          "locator": "TU01-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
+          "locator": "MA87-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "TU01-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为只要从官方 ENSDF 数据库中下载了能级数据，解析器直接读取的 MR 数值就是确定正负的物理混合比，且 Gamma 记录的 RI 强度可以直接拿来做分支比和跃迁几率计算；
+   - **新信念：** 认识到 ENSDF 中无符号 MR 严格代表符号未知（无号不等于正号），直接赋正号会造成角分布 $A_2$ 出现 $0.6$ 的反号偏差；多重放置标志 '&' 代表未分割强度不可盲目累加；相对强度 RI 必须严格乘以 Normalization 记录系数（$NR \\times BR$）才能转换绝对强度，脱离归一化会导致跃迁几率发生高达数十倍的虚假放大。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "解析器直接读取的 MR 数值" not in text:
+    text = text.replace(target_belief, target_belief + "\n" + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 033 successfully.")

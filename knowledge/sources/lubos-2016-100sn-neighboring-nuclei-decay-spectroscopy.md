@@ -36,6 +36,8 @@ tags: [a100, 100sn, decay-spectroscopy, riken, gamow-teller, proton-dripline, ph
 
 # Lubos 2016：`100Sn` 及邻近核素衰变谱学
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Daniel Georg Lubos，*Decay Spectroscopy of 100Sn and Neighboring Nuclei*，Technical University of Munich，博士学位论文，2016，111 页。原始 PDF SHA-256 为 `C9AA0494F29BACC00EC8FB0055A5D6AC201237E3BAD943EA34D350DEEB8550D9`。
@@ -175,3 +177,30 @@ Daniel Georg Lubos，*Decay Spectroscopy of 100Sn and Neighboring Nuclei*，Tech
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | LB16-D19-1 | Lubos 2016 利用 RIKEN BigRIPS 采集的 2525 个 $^{100}\text{Sn}$ 高统计样本，在正电子量热谱学中通过包含 24 个 $^{100}\text{In}$ 子体成分、19.8% 子体活度贡献及 Geant4 探测器响应的 600–3000 keV 区间拟合，扣除 $-63\text{ keV}$ 内转换电子沉积后提取出精确 $Q_{\text{corr}} = 3.74 \pm 0.14\text{ MeV}$，并导出相空间积分 $f = 619.33$，最终测定 $B(\text{GT}) = 5.26_{-1.06}^{+0.90}$（$\log(ft) = 2.86 \pm 0.08$）。该值与大空间壳模型（LSSM）预言的第一激发 $1_1^+$ 态强度（$B(\text{GT})_{\text{LSSM}} = 5.70$）在 $0.42\sigma$ 内高度吻合，断然排除了极值单粒子模型无淬灭值（$B(\text{GT})_{\text{ESPM}} = 17.78$），证实了在双幻核 $^{100}\text{Sn}$ 处 Gamow-Teller 跃迁依然遵循标准的轴矢量重整化淬灭因子（$g_A/g_V \approx 0.75$，强度淬灭达 $56\%$）。同时，高统计 $\gamma$ 谱揭示的 96、141、436、1297、2048 keV 多分支退激否定了单终态假设，确立了精细探测器量热响应对相空间反演的决定性影响。 | quantitative-benchmark-and-criterion | derived-and-source-boundary | Ch.4.4.1-4.4.2 pp.77-81; Eqs.(4.19)-(4.27); sn100-gamow-teller-result-044.json | true |
+
+## Day21周考推断阶梯审计：100Sn Gamow-Teller 强度与相空间膨胀证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint011_sn100_gamow_teller_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/sn100-gamow-teller-audit-011.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| LB16-D21-1 | Lubos 2016 利用 RIKEN BigRIPS 采集的 2525 个 $^{100}\text{Sn}$ 样本，通过精细量热谱学与 Geant4 响应拟合，测得精确 $Q_{\text{corr}} = 3.74 \pm 0.14\text{ MeV}$ 并揭示多分支退激，导出相空间因子 $f = 619.33$ 与 $B(\text{GT}) = 5.26_{-1.06}^{+0.90}$。推断阶梯审计表明：相空间膨胀因子（$619.33 / 361.07 = 1.715$）精准解释了两实验标称强度比值（$9.1 / 5.26 = 1.730$）的 $99.15\%$；实测 $B(\text{GT}) = 5.26$ 与大空间壳模型（LSSM）及包含两体弱流（2BC）的从头算核力计算高度自洽，确立了双幻核 $^{100}\text{Sn}$ 依然遵循普适的轴矢量淬灭规律（$q^2 \approx 0.56$），终结了无淬灭“超 Gamow-Teller”争议。 | claim-boundary-audit | direct-and-derived | PRL 122, 222502; Ch.4.4.1-4.4.2 pp.77-81; sn100-gamow-teller-audit-011.json | true |
+
+## Day21 Checkpoint084 原件核验：高统计量热拟合、子体分支与相空间膨胀
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LB16-D21-R84-1 | superseded：撤回2525端点谱事件、304.25原件f及q²普适性认证；改用LB16-D21-R99-1至4；旧全文保存在本run superseded-099。 | withdrawn-task-certification | rejected-and-replaced | Ch.4.4.1 pp.77-78; Ch.4.4.2 pp.80-81; Eqs.(4.19)-(4.27) | true |
+
+## Day21 checkpoint099：谱样本、子核成分与LOGFT边界
+
+本次实际读取并视觉核对PDF88/89/91/92（printed77/78/80/81）。只作这些页的定向核验，不声称重读全111页。raw哈希与原frontmatter一致。2016学位论文数值不自动标成2019期刊数值。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LB16-D21-R99-1 | printed77说明3s窗及像素选择下，扣除子核/本底后端点谱剩1070事件；2525识别库存不能称此次端点拟合事件数。24个β+成分属于100In子核到100Cd的衰变，子核份额19.8%；它们不证明母核100Sn有24个GT终态。 | sample-and-component-identity | direct-original | printed77 Fig.4.22 and adjacent text | true |
+| LB16-D21-R99-2 | Eq4.19为3.81±.14stat(+.10/−.28sys)MeV；fit-range系统量作者称与统计非独立，随后不另加。96/141keV转换电子平均沉积约63keV，Eq4.20给Qβcorr=3.74±.14MeV；Eq4.21的QEC还需加终态激发能和2me，不能把3.74当总质量QEC。 | fitted-endpoint-and-error-convention | direct-original | printed78 Eq.4.20 | true |
+| LB16-D21-R99-3 | Eq4.25为BGT=3811.5/(fT1/2)，作者用NNDC LOGFT与1.17±.10s、3.74±.14MeV得到Eq4.26/27的logft=2.86±.08及BGT=5.26(+.90/−1.06)。由该B/T倒算f≈619.333仅是恒等式；304.25是旧078简化β+算术，不是本文结果。 | extraction-provenance-and-task-boundary | direct-original-and-bounded-calculation | printed80 Eq.4.25 | true |
+| LB16-D21-R99-4 | printed81分别列LSSM总强度8.19、QEC窗7.82和首1+态5.7，均是模型数；作者保留与旧实验区间相容及较小重叠。不能以本次单个比值宣布普适q²=.56或终结争议。 | model-comparison-and-interpretation | direct-original | printed81 LSSM comparison | true |
+
+必要伴随观测是母核分支、匹配β+/EC定义、谱形与探测器响应及联合误差。不同实验可独立采集，但共享常数/程序和派生量的统计相关仍须另核。原review/flags保持。

@@ -1,0 +1,56 @@
+{
+  "case": "endpoint374_branch50",
+  "at_utc": "2026-10-24T01:54:54.215584+00:00",
+  "url": "https://www.nndc.bnl.gov/logft/LogFTDataServlet",
+  "payload": {
+    "nuclide": "100SN",
+    "decay_mode": "B+",
+    "parent_energy_value": "0",
+    "parent_energy_error": null,
+    "parent_half_life_value": "1.17",
+    "parent_half_life_unit": "s",
+    "parent_half_life_error": null,
+    "parent_q_value": "4761.9979",
+    "parent_q_error": null,
+    "daughter_energy_value": "0",
+    "daughter_energy_error": null,
+    "transition_intensity_value": "50",
+    "transition_intensity_error": null,
+    "uniqueness": null
+  },
+  "scope": "constructed central-only single-channel control",
+  "mass_Q_measured": false,
+  "intensity_measured": false,
+  "historical_replay": false,
+  "http_status": 200,
+  "response_sha256": "bf287f94f53a881c94439b4d1406fe0ef0a4078cb4909c8b9cb452595ccd10a0",
+  "response": {
+    "success": true,
+    "messages": [],
+    "input_lines": [
+      "100IN    100SN B+ DECAY                                                         ",
+      "100SN  P 0                             1.17 S                   4761.9979       ",
+      "100IN  N                       1                                                ",
+      "100IN  L 0                                                                      ",
+      "100IN  E                                                        50              "
+    ],
+    "report_lines": [],
+    "values": {
+      "logft_value": 3.16,
+      "logft_value_nds": "3.16",
+      "e_avg_value": 1708,
+      "e_avg_value_nds": "1708",
+      "iec_value": 4.74,
+      "iec_value_nds": "4.74",
+      "ibp_value": 45.3,
+      "ibp_value_nds": "45.3",
+      "ck_value": 0.0818,
+      "ck_value_nds": "0.0818",
+      "cl_value": 0.0104,
+      "cl_value_nds": "0.0104",
+      "cm_value": 0.00265,
+      "cm_value_nds": "0.00265"
+    }
+  },
+  "raw_response_utf8": "{\"success\":true,\"messages\":[],\"input_lines\":[\"100IN    100SN B+ DECAY                                                         \",\"100SN  P 0                             1.17 S                   4761.9979       \",\"100IN  N                       1                                                \",\"100IN  L 0                                                                      \",\"100IN  E                                                        50              \"],\"report_lines\":[],\"values\":{\"logft_value\":3.16,\"logft_value_nds\":\"3.16\",\"e_avg_value\":1708,\"e_avg_value_nds\":\"1708\",\"iec_value\":4.74,\"iec_value_nds\":\"4.74\",\"ibp_value\":45.3,\"ibp_value_nds\":\"45.3\",\"ck_value\":0.0818,\"ck_value_nds\":\"0.0818\",\"cl_value\":0.0104,\"cl_value_nds\":\"0.0104\",\"cm_value\":0.00265,\"cm_value_nds\":\"0.00265\"}}"
+}

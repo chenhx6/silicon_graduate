@@ -62,3 +62,11 @@ units: ps, ns, ms, s
 - [[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]]
 - [[qiang-2019-high-spin-130-131ba-87zr]]
 - [[morgan-2008-237pu-nilsson-orbitals]]
+## Day21 Checkpoint093 推断阶梯边界：寿命发散与电磁对称性的解耦
+
+099修订：1/τ为全部部分率之和。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1/4的总τ差约两倍与B(E2)中心接近可以共存，但未绑定全部线成分/分支时，不声称已实验证明由哪一项补偿。[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1给条件解混合Q比1.6–2.4，不是本任务直接测得的普适形变比。寿命相等或不同均不单独决定模式；绝对强度也要与模型条件及其它观测合用。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D21-R43-1/4：1/τ为全部部分率和；寿命与已派生B的恒等式不识别真实分支或能量补偿机制。[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D21-R45-1给条件矩比，不是无模型形变测量。

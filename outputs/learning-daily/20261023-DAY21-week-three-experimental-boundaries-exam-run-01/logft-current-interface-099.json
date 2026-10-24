@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-23T20:56:11.943636+00:00",
+  "scope": "current official interface only, not 2010/2016 implementation",
+  "url": "https://www.nndc.bnl.gov/logft/help.html",
+  "locator": [
+    "Q-value paragraph",
+    "transition intensity paragraph",
+    "NDS uncertainties paragraph"
+  ],
+  "files": {
+    "nndc-help.html": "cc466141f516a8c126818294e751c81afe64b572104b4851a413689ca9e4d7ec",
+    "nndc-logft-index.js": "02853c1b2588a799e11bebfbe16c2191fdd4c81e5a331ebaff907bad9e888ac8"
+  },
+  "data_calculation_submitted": false,
+  "historical_replay": false,
+  "failed_discovery": "Guessed js/index.js returned404; actual linked js/logft-index.js returned200"
+}

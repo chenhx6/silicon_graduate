@@ -1,0 +1,12 @@
+{
+  "valid": false,
+  "mode": "updated",
+  "knowledge_paths": [
+    "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+    "knowledge/methods/experimental-claim-boundaries.md",
+    "knowledge/index.md"
+  ],
+  "changed_paths": [],
+  "change_check": "run-snapshot",
+  "error": "knowledge page does not link to source biswas-2019-longitudinal-wobbling-133la"
+}

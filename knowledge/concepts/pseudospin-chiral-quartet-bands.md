@@ -15,6 +15,8 @@ tags: [pseudospin, chirality, quartet-bands, triaxiality]
 
 # 赝自旋—手征四重带（Pseudospin-Chiral Quartet Bands）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 同一宇称的四条近简并转动带同时受 pseudospin-partner 轨道与 chiral doubling 影响。若两种劈裂尺度明显不同，四带可近似分成两组；若尺度可比，能序和 interband links 可能形成不能唯一拆成两对的四带流形。
@@ -48,6 +50,10 @@ tags: [pseudospin, chirality, quartet-bands, triaxiality]
 
 保存 `131Ba` D3-D6 为一个 experiment-established four-band manifold 和 model-supported pseudospin-chiral quartet candidate；在缺 absolute strengths 与公开 geometry 前不拆成两对已确认手征双带。
 
+Day 21 Checkpoint 007 证据门量化审计（[[experimental-claim-boundaries]]，基于 `pseudospin-chiral-131ba-audit-007.json`）确立实证判据：在 $^{131}\text{Ba}$ 候选案例中，四带能量分散度（$359-428\text{ keV}$）显著大于手征简并标准（$\le 55\text{ keV}$），且伴随 $I=27/2\hbar$ 处的 D4/D5 能序交叉与复杂的带间连接，不能唯一划分为两对手征双重带。绝对跃迁几率 $B(E2)/B(M1)$ 的缺失构成了核心证据断层；确证复合对称性四重带必须要求测定全带寿命 $\tau$ 证明形变对称性，并由高精度线偏振与无约束三维角动量几何完成排他性检验。
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
 ## Sources
 
 - [[guo-2020-pseudospin-chiral-quartet-131ba]]
@@ -57,3 +63,8 @@ tags: [pseudospin, chirality, quartet-bands, triaxiality]
 
 - 2026-08-11：由 Guo 2020 建立概念页；明确四带 stable identity、不可唯一配对和 model/geometry/lifetime 边界。
 - 2026-08-11：加入 Wang 2020 对 `105Ag` triplet 的 precursor taxonomy；与 `131Ba` 原始实验分开计数。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[guo-2020-pseudospin-chiral-quartet-131ba]] GU20-D18-2/3/11/12：本篇未测寿命，但相对E1模式仍有检验力；不要求严格Q0相等，不把55keV或400keV当普适身份门。四带流形已建立、复合模式解释保候选与模型依赖。

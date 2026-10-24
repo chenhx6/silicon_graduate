@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-24T04:06:41.629149+00:00",
+  "argv": [
+    "ps",
+    "-p",
+    "3340,2698",
+    "-o",
+    "pid,etime,args"
+  ],
+  "exit_code": 0,
+  "stdout": "    PID     ELAPSED COMMAND\n   2698    19:06:41 /opt/venv/bin/python3 /workspace/wiki/system/scripts/wiki_farmer.py watch --root /workspace/wiki --codex-home /root/.codex --poll 2.0\n   3340    19:04:16 python3 system/scripts/run_learning_session_clock.py --root . --receipt outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/run.json --thread 01a167eb-3c9c-74c0-a0a0-12720a4e1f4d\n",
+  "action": "read only; no restart"
+}

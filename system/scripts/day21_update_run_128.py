@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+import json
+import datetime
+from pathlib import Path
+
+run_file = Path("outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/run.json")
+data = json.loads(run_file.read_text())
+
+# Update snapshot
+now_dt = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
+hard_deadline = datetime.datetime.fromisoformat("2026-10-24T15:00:00+08:00")
+next_start = datetime.datetime.fromisoformat("2026-10-24T16:00:00+08:00")
+mins_to_deadline = int((hard_deadline - now_dt).total_seconds() / 60)
+mins_to_next_start = int((next_start - now_dt).total_seconds() / 60)
+
+data["last_closeout_snapshot"] = {
+    "now_local": now_dt.isoformat(),
+    "hard_deadline": "2026-10-24T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-24T16:00:00+08:00",
+    "minutes_to_deadline": mins_to_deadline,
+    "minutes_to_next_start": mins_to_next_start,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": mins_to_deadline >= 90,
+    "can_complete_forward_card": False,
+    "decision": "continue-or-advance" if mins_to_deadline >= 120 else ("continue-current-or-partial" if mins_to_deadline >= 90 else "finish-current-no-new-unit"),
+    "day22_opened": False,
+    "forward_card_prohibited_by_user": True
+}
+
+run_file.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+print(f"Updated run.json: now={now_dt.isoformat()}, mins_to_deadline={mins_to_deadline}")

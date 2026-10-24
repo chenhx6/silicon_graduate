@@ -15,6 +15,8 @@ tags: [chirality, parity, octupole]
 
 # 手征—宇称四重带（Chirality-Parity Quartet Bands）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 在同时具有稳定三轴与八极形变的理想情形中，chiral 与 reflection symmetry breaking 可能组合产生四条相关 `Delta I=1` rotational bands。
@@ -49,6 +51,7 @@ Liu 2016 将 `78Br` 中 MχD 与 octupole correlations 的联合解释视为 nuc
 
 ## Sources
 
+- [[xiao-2022-chirality-octupole-correlations-74as]]
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]
 - [[wang-2020-recent-progress-multiple-chiral-doublets]]
 
@@ -58,3 +61,13 @@ Liu 2016 将 `78Br` 中 MχD 与 octupole correlations 的联合解释视为 nuc
 - 2026-07-13：按用户审核澄清 `78Br` 展示的是 MχD+octupole correlations 共存及单核 quartet 的未来观测可能性，而非当前 quartet assignment。
 - 2026-08-11：加入与 `131Ba` pseudospin-chiral quartet 的术语区分；不把六带体系机械压成 chirality-parity quartet。
 - 2026-08-11：加入 Wang 2020 “CPQ not yet observed” cutoff 与 PES candidate-core perspective。
+
+## Day 21 Checkpoint 018 证据门量化审计
+
+124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[xiao-2022-chirality-octupole-correlations-74as]] XA22-2/15/17与[[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]提供具体网络和关联解释，不由有限宇称位移唯一确定声子数；不能自造B(E1)≥10⁻³W.u.或严格δE=0的普适门。四带身份与各机制须分别核。

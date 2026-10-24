@@ -33,6 +33,8 @@ tags: [137Ba, competitive-double-gamma, two-photon-decay, polarizability, E3M1]
 
 # Electromagnetic character of the competitive γγ/γ decay from `137mBa`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - P.-A. Söderström *et al.*, *Nature Communications* **11**, 3242 (2020), DOI `10.1038/s41467-020-16787-4`.
@@ -106,3 +108,11 @@ Söderström *et al.* provide an independent total-branch confirmation and the s
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | SO20-D19-1 | Söderström 2020 利用 ELI-NP 的 11 个 $\text{CeBr}_3$ 探测器在五个关联角（$32.7^\circ$ 至 $163.6^\circ$）下测定连续能量共享谱，以 $8.7\sigma$ 显著性测定总分支比 $(2.62 \pm 0.30) \times 10^{-6}$，并在拟合中测定极化率比值 $\alpha_{M2E2} / \alpha_{E3M1} = 8.8 / 36.4 = 0.242$，相比 Walz 2015 实现了 $13.9$ 倍的路径反转。大空间蒙特卡洛壳模型（MCSM）揭示了该反转的坚实微观根源：在 $^{137}\text{Ba}$（$11/2^-$ 异构态到 $3/2^+$ 基态）中，$M2$ 单粒子跃迁受到 $\Delta l = 3$ 的角动量禁戒（$B(M2)$ 仅为 $1.35 \times 10^{-2}\ \mu_N^2\text{fm}^2$，受压制近 3 个数量级）；相反，虚跃迁 $E3$ 算符与 $^{138}\text{Ba}$ 核芯的集体 $3^-$ 八极声子（$B(E3) \sim 25\text{ W.u.}$）发生极强的集体耦合，从而赋予 $E3M1$ 路径压倒性的物理主导地位。这一测量确立了完整能量共享谱形与微观核结构计算在解耦虚态路径中的决定性作用。 | quantitative-benchmark-and-criterion | direct-and-derived | Nat. Commun. 11, 3242 pp.3-6; Table 1, Fig.5; ba137-double-gamma-result-045.json | true |
+
+## Day21周考推断阶梯审计：核双光子衰变E3M1八极主导与连续能量共享证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint015_two_photon_decay_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/two-photon-decay-audit-015.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| SO20-D21-1 | Söderström 2020 利用 11 台 $	ext{CeBr}_3$ 探测器在五个角度下测定连续能量共享谱，以 $8.7\sigma$ 显著性测定总分支比 $(2.62 \pm 0.30) 	imes 10^{-6}$，并在多维自洽拟合中反转测定 $lpha_{M2E2} / lpha_{E3M1} = 0.2418$，确立了 $E3M1$ 八极—偶极路径的绝对物理统治地位（反转 Walz 2015 达 $13.88$ 倍）。蒙特卡洛壳模型（MCSM）揭示其微观机制为单粒子 $M2$ 矩阵元受 $\Delta \ell = 3$ 禁戒压低近 3 个数量级，而 $E3$ 算符与 $^{138}	ext{Ba}$ 核芯 $3^-$ 八极声子发生强集体耦合。由此确立证据门准则：确证双光子虚态多极路径必须依赖多角度连续能量分配谱的全局展开。 | claim-boundary-audit | direct-and-derived | Nat. Commun. 11, 3242 pp.3-6; Table 1; two-photon-decay-audit-015.json | true |

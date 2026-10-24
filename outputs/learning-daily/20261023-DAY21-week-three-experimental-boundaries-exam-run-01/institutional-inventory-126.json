@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-24T04:09:33.658899+00:00",
+  "record": {
+    "url": "https://scholar.sun.ac.za/server/api/core/items/bed0e4c3-0a22-429e-a3e6-5c2fe95a4922/bundles",
+    "purpose": "public metadata inventory; no content download",
+    "status": 200,
+    "sha256": "6cc43fda82a289c8c3989e0a94eaed1910cda99dccd8327aba1d64d230aedfcd",
+    "path": "tmp/day21-checkpoint126/sunscholar-bundles.json",
+    "page": {
+      "number": 0,
+      "size": 20,
+      "totalPages": 0,
+      "totalElements": 0
+    },
+    "embedded_bundles": []
+  }
+}

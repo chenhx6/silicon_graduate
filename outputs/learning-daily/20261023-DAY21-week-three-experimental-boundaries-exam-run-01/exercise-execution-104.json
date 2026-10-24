@@ -1,0 +1,12 @@
+{
+  "observed_receipt_recorded_at": "2026-10-24T02:14:19.475837+00:00",
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint104_same_parent_identifiability.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command result after standard-library Fraction rewrite, preceding knowledge writeback",
+  "result": "same-parent-identifiability-104.json",
+  "earlier_failure": "exercise-initial-failed-104.json",
+  "scope": "declared rational algebra controls, not experimental CI or CAS proof"
+}

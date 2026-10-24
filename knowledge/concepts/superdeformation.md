@@ -15,6 +15,8 @@ tags: [deformation, high-spin, rotational-bands]
 
 # 超形变（Superdeformation）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 相对于正常形变具有更大四极形变、常形成独立势能极小值和高自旋转动带的核形状/结构类别。具体 `β2`、`ε2` 或轴比阈值依质量区、参数化和模型约定而变，不能仅凭“规则 γ 级联”定义。
@@ -51,6 +53,8 @@ tags: [deformation, high-spin, rotational-bands]
 ## Our Current Position
 
 把“建立超形变带”和“证明三轴性”分成两层：前者依赖谱学连接、E2 集体性和形变尺度；后者还需 γ 敏感的独立观测与模型非唯一性检查。
+
+Day 21 Checkpoint 010 证据门量化审计（[[experimental-claim-boundaries]]，基于 `superdeformation-tsd-audit-010.json`）确立超形变与三轴形变实证判据：过渡四极矩 $Q_t$ 约束四极形变尺度，但无法独立确定三轴角 $\gamma$（$^{163}\text{Lu}$ 中相同 $Q_t=10.7\ e\text{b}$ 对应 $\gamma=0^\circ$ 时 $\beta=0.38$ 或 $\gamma=20^\circ$ 时 $\beta=0.51$）；确证三轴性必须依靠摇摆模式带间集体 $E2$ 跃迁（$B(E2)_{\text{out}} \gg 10\text{ W.u.}$）。此外，动态转动惯量 $\mathcal{J}^{(2)}$ 的精确相等（全同带）极易受对齐与配对抵消的掩盖，在 $^{151}\text{Tb}$ 与 $^{152}\text{Dy}$ 中 $\mathcal{J}^{(2)}$ 误差小于 $0.2\%$ 但实测 $Q_t$ 分化达 $11\%$，证明微分惯量不能替代绝对寿命形变测量。
 
 ## Sources
 

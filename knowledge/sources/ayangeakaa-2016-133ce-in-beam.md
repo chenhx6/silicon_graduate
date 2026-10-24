@@ -35,6 +35,8 @@ tags: [a130, high-spin, triaxiality, in-beam-spectroscopy, gammasphere]
 
 # Ayangeakaa 等（2016）：`133Ce` 中高自旋谱学
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Physical Review C 93, 054317 (2016)，DOI `10.1103/PhysRevC.93.054317`。Zotero `Wiki Inbox` 的 Better BibTeX 导出给出 citation key `ayangeakaa_2016_Inbeamspectroscopy`。
@@ -105,3 +107,14 @@ Physical Review C 93, 054317 (2016)，DOI `10.1103/PhysRevC.93.054317`。Zotero 
 ## Personal Notes
 
 这篇论文适合作为 `133Ce` 的“谱学地图”，但不宜把其所有模型组态一次性固化成确定知识。后续应按具体研究问题回到 Table I 和 Figs.1-2 建立单带页。
+
+## Day 21周考对比：133Ce高自旋谱学演化与手征模式措辞弱化（Checkpoint 004）
+
+## Day21 checkpoint057：2016全谱拓扑演化与模式确定性收缩审计
+
+124纠正：Q5/Q7的旧解释和D3等手征讨论不是同一对带；不得用一句措辞改变声明原2013全部MChD被撤回。旧全文见superseded-124，不声称本轮新读这些原件全文。原review与原始claims/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A16-D21-1 | superseded：124撤回本条新科学认证；改用本页A16-4的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| A16-D21-R57-1 | superseded：124撤回本条新科学认证；改用本页A16-4的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |

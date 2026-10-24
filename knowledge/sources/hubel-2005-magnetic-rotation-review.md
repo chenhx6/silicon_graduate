@@ -33,6 +33,8 @@ tags: [magnetic-rotation, shears, antimagnetic-rotation, TAC, high-spin, review]
 
 # Magnetic rotation in nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - H. Hübel, *Prog. Part. Nucl. Phys.* **54**, 1–69 (2005), DOI `10.1016/j.ppnp.2004.06.002`.
@@ -111,3 +113,11 @@ Hübel's review consolidates the detector, lifetime, static-moment and TAC evide
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | HU05-D19-1 | 对 Hübel 2005 综述中反磁转动（AMR）的微观物理机制与实验判据进行系统学审计：(1) 双剪刀微观几何与对称性：两对质子空穴叶片（如 $^{106}\text{Cd}$ 的 $g_{9/2}^{-2}$）相对中子核芯角动量矢量对称闭合，其横向磁矩严格反平行相消（$\mu_\perp \equiv 0 \implies B(M1) \equiv 0$），维持了关于转轴的 $\mathcal{R}_z(\pi)$ 反演对称性，表现为纯 $\Delta I = 2$ 电四极级联；(2) $\sin^4\theta$ 四极塌缩：电四极跃迁强度遵循 $B(E2) \propto \sin^4\theta = (1 - \cos^2\theta)^2$ 规律，在 $^{106}\text{Cd}$ 中随着自旋从 $16^+$ 闭合至 $22^+$，剪刀角由 $77.2^\circ$ 收缩至 $27.3^\circ$，$B(E2)$ 发生高达 $20.54$ 倍（$95.1\%$）的深幅塌缩（从 $0.407\text{ e}^2\text{b}^2$ 降至 $0.0198\text{ e}^2\text{b}^2$），并在终止态 $24^+$ 严格归零；(3) 惯量与强度比值发散：由于微观有效四极矩随叶片闭合急剧减小而动态转动惯量保持有限，特征比值 $\mathcal{J}^{(2)} / B(E2)$ 从 $16^+$ 态的 $54.1\text{ \hbar}^2\text{MeV}^{-1}(e\text{b})^{-2}$ 暴增至 $22^+$ 态的 $1110\text{ \hbar}^2\text{MeV}^{-1}(e\text{b})^{-2}$（激增 $20.5$ 倍），完美满足并实证了 Hübel 提出的 AMR 判据门限（$>100$）；(4) 五支柱 MR 与 AMR 区分协议：确立了从对称性、净磁矩、跃迁多极序列、跃迁率演化与特征比值五个维度彻底解耦磁转动与反磁转动的理论判决体系。 | task-amr-review-audit | derived-and-boundary | PDF pp.30-32 55-57 Figs.28-30; hubel05-amr-cd106-result-062.json | true |
+
+## Day21周考推断阶梯审计：反磁转动（AMR）双剪刀机制与B(E2)塌缩证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint012_antimagnetic_rotation_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/antimagnetic-rotation-audit-012.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| HU05-D21-1 | Hübel 2005 综述确立反磁转动（AMR）双剪刀机制推断阶梯边界：微观上两对叶片关于转轴对称闭合导致横向磁矩严格相消（$\mu_\perp \equiv 0 \implies B(M1) \equiv 0$），表现为纯 $\Delta I = 2$ 电四极级联；四极强度遵循 $B(E2) \propto \sin^4	heta$，在 $^{106}	ext{Cd}$ 中自旋由 $16^+$ 闭合至 $22^+$ 时剪刀角由 $70.5^\circ$ 收缩至 $33.6^\circ$，$B(E2)$ 发生高达 $20.56$ 倍（$95.1\%$）的剧烈单调暴跌（由 $0.407$ 跌至 $0.0198\ e^2	ext{b}^2$），特征比值 $\mathcal{J}^{(2)}/B(E2)$ 由 $54.1$ 激增至 $1111.1\ \hbar^2	ext{MeV}^{-1}(e	ext{b})^{-2}$，彻底突破并实证了 AMR 判据门限（$>100$）。推断阶梯确立：严禁仅凭规则 $\Delta I = 2$ 能级序列断言常规集体转动，判定反磁转动必须依赖绝对寿命提取 $B(E2) \propto \sin^4	heta$ 单调暴跌轨迹。 | claim-boundary-audit | direct-and-derived | PDF pp.55-57 Fig.30; antimagnetic-rotation-audit-012.json | true |

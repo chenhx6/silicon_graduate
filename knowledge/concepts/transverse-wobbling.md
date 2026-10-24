@@ -15,6 +15,8 @@ tags: [wobbling, triaxiality]
 
 # 横向摇摆（Transverse Wobbling）
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Definition
 
 按 [[frauendorf-2024-wobbling-review]] 的拓扑分类，准粒子角动量和总角动量进动锥轴沿短轴或长轴，垂直于具有最大转动惯量的中轴。
@@ -59,6 +61,7 @@ Lawrie 2020 把 QTR 的完整 3D solutions 解释为 [[tilted-precession-bands]]
 
 ## Sources
 
+- [[nomura-2022-questioning-wobbling-ibfm]]
 - [[frauendorf-2024-wobbling-review]]
 - [[matta-2015-transverse-wobbling-135pr]]
 - [[sensharma-2019-two-phonon-wobbling-135pr]]
@@ -74,3 +77,12 @@ Lawrie 2020 把 QTR 的完整 3D solutions 解释为 [[tilted-precession-bands]]
 - 2026-07-03（1 review + 3 experiments）：加入 Lv 2022 counter-evidence，保持争议未裁决。
 - 2026-07-04：加入 Lawrie 2020 对 transverse one-quasiparticle wobbling approximation 的理论限制。
 - 2026-09-20：加入 review-level frozen-alignment/symmetry-change mechanism and preserve experiment-specific evidence boundary。
+
+## Day 21 Checkpoint 024 证据门量化审计：IBFM 替代解释与 M1 主导证伪准则
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint024_ibfm_low_spin_wobbling_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ibfm-low-spin-wobbling-audit-024.json），对横向摇摆运动（Transverse Wobbling）的理论审查确立核心证据门规则：
+
+1. **粒子—转子模型能级拟合的非排他性：**
+   单凭 PRM 拟合再现低自旋能级序列不能作为刚性三轴或横向摇摆的排他性证明；基于平坦 gamma-软核芯的实验室系 IBFM-2 模型在完全相同的能量尺度下同样能够自洽再现能带谱学。
+2. **带间多极性判定与摇摆证伪：**
+   确证横向摇摆必须通过线偏振测量排他性锁定大模解（|delta| >> 1，E2 占绝对优势且 B(E2_out) >= 20–30 W.u.）。若实验测得小模解（|delta| < 1，M1 占优如 135Pr 实测 M1 88%），则横向摇摆假说被直接证伪，体系排他性归属于准粒子与 gamma-软核芯的振动/倾斜进动耦合态。

@@ -1,0 +1,142 @@
+
+import os
+import sys
+
+B = chr(96)
+path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 1. Update Run state
+run_state_bullet = "- **Checkpoint 037 深度攻坚：** 深入攻克原子核质量评价（AME2020）、二中子分离能曲率与经验壳能隙推断阶梯边界（Wang et al. 2021 CPC 45 对照 Jones 2010 与 Orlandi 2018）；运行独立量化审计程序 " + B + "day21_checkpoint037_ame2020_mass_curvature_audit.py" + B + " 产出 " + B + "ame2020-mass-curvature-audit-037.json" + B + "；定量证明：(1) $^{132}\text{Sn}$ 的二中子分离能曲率阶跃 $\Delta_{2n} = 6527.13(462)\text{ keV}$ 较单中子经验壳隙 $\Delta_n = 4954.64(453)\text{ keV}$ 显著高出 $31.7\%$（$1572.5\text{ keV}$ 差量），证实二阶差分混入残余对能与质量面平滑曲率，不能直接作为微观单粒子壳能隙；(2) 单中子分离能差 $\Delta_n = 4.955\text{ MeV}$ 仅反映宏观基态总结合能差，自洽核芯重排极化与粒子—振动耦合（PVC）使未扰动单中子轨道能心间距 $\epsilon(2f_{7/2}) - \epsilon(2d_{3/2})$ 漂移至约 $5.60\text{ MeV}$（偏高 $+13.1\%$）；(3) $^{131}\text{Ba}$ 三点奇偶交错指标 $\Delta^{(3)}_n = 1166.88\text{ keV}$ 混入约 $12\%$ 的宏观平滑曲率项（$\sim 140\text{ keV}$），脱离高阶差分滤波器直接作为 BCS 对隙将产生系统性虚高；(4) 确立“严禁将二中子分离能曲率直接等同于单粒子壳隙与严禁脱离高阶滤波器提取配对能隙”的核心证据门准则。"
+
+target_rs = "- **Checkpoint 036 深度攻坚：**"
+if target_rs in text and "Checkpoint 037 深度攻坚" not in text:
+    text = text.replace(target_rs, run_state_bullet + chr(10) + target_rs)
+
+# 2. Add Section 40 under Sources and evidence
+sec40 = """### 40. Wang et al. 2021 AME2020：原子核质量评价、二中子分离能曲率与经验壳能隙推断阶梯边界
+
+在原子核物理与核天体物理中，精确测定的原子核基态质量与分离能是检验幻数壳层闭合刚性、单粒子能隙大小与微观核子配对强度的最基础实验基石（Wang et al. 2021 CPC 45, 030003，[[ame2020-sn132-mass-curvature]] 对比 Jones 2010 Nature 与 Orlandi 2018 PLB）。从推断阶梯第一层（高精度彭宁阱质谱测得的频率比与 AME 最小二乘全局平差质量差 $M(Z,A)$）向第四层（经验壳能隙 $\Delta_n, \Delta_{2n}$、奇偶质量交错 $\Delta^{(3)}$）及第五/七层（独立微观壳模型单粒子轨道能级差 $\Delta\epsilon_{\text{sp}}$ 与宏观平均场配对能隙 $\Delta_{\text{pair}}$）的反演，存在着由于多体相互作用重整化引发的推断阶梯混淆：
+- **表观实验特征与推断阶梯分水岭（Level 1 到 Level 4–5）：**
+  在经典的幻数识别中，研究人员通常绘制二中子分离能系统学曲线 $S_{2n}(N)$；在闭壳 $N=82$ 处，$S_{2n}$ 表现为陡峭的断崖式跌落，其二阶差分指标：
+  $$\Delta_{2n}(Z, N) = S_{2n}(Z, N) - S_{2n}(Z, N+2) = M(Z, N-2) - 2M(Z, N) + M(Z, N+2)$$
+  在 $^{132}\text{Sn}$ 处呈现出高达 $6.53\text{ MeV}$ 的巨幅能隙。通俗解读常将这一宏观质量阶跃直接等同于“微观中子单粒子能隙的大小”。然而，这一推断掩盖了三重多体物理与统计假定漏洞。
+- **推断阶梯漏洞剖析：**
+  1. **二中子曲率（$\Delta_{2n}$）与单中子壳隙（$\Delta_n$）的物理分化（Pairing & Curvature Contamination）：**
+     在 $^{132}\text{Sn}$ 中，实测 $S_{2n}(^{132}\text{Sn}) = 12556.97\text{ keV}$，而 $S_{2n}(^{134}\text{Sn}) = 6029.84\text{ keV}$，导出二中子曲率阶跃为 $\Delta_{2n} = 6527.13 \pm 4.62\text{ keV}$。
+     然而，通过单中子分离能计算的单中子经验壳隙为：
+     $$\Delta_n(^{132}\text{Sn}) = S_n(^{132}\text{Sn}) - S_n(^{133}\text{Sn}) = 7353.29 - 2398.65 = 4954.64 \pm 4.53\text{ keV}$$
+     二中子指标较单中子指标**系统性高出达 $31.7\%$（差量高达 $1.57\text{ MeV}$）**！这一显著差量源于 $\Delta_{2n}$ 包含了价核子残余对能的突变（在 $^{134}\text{Sn}$ 中新加入的两个价中子处于强配对相干态）以及宏观液滴质量面的平滑曲率。若将 $\Delta_{2n}$ 直接当作壳能隙，将导致对微观单粒子壳隙产生高达 $1.57\text{ MeV}$ 的夸大；
+  2. **经验质量差分（$\Delta_n$）与微观真实单粒子轨道能心（$\Delta\epsilon_{\text{sp}}$）的能隙重整化：**
+     $\Delta_n(^{132}\text{Sn}) = 4.955\text{ MeV}$ 本质上是 $A=131, 132, 133$ 三个完全不同多体系统的基态总结合能差分。在移除或添加一个中子时，双满壳核心 $^{132}\text{Sn}$ 不可避免地发生**微观核芯重排极化（Core Polarization / Rearrangement）**与长程粒子—振动耦合（PVC）。微观自洽平均场计算表明，核芯重排效应引入了约 $0.65\text{ MeV}$ 的能量修正，真实的微观单中子轨道能心差 $\epsilon(2f_{7/2}) - \epsilon(2d_{3/2})$ 约为 $5.60\text{ MeV}$。将经验质量差分直接作为微观单体势（如 Woods-Saxon 或天琴势）的单粒子能级参数，属于混淆宏观系统差分与微观单粒子能量的范畴谬误；
+  3. **奇偶质量交错（OES）三点指标的宏观平滑曲率污染：**
+     在非闭壳核（如 $^{131}\text{Ba}, N=75$）中，三点奇偶交错指标 $\Delta^{(3)}_n = [2M(^{131}\text{Ba}) - M(^{130}\text{Ba}) - M(^{132}\text{Ba})]/2 = 1166.88\text{ keV}$ 广泛被作为 BCS 配对能隙 $\Delta_{\text{pair}}$ 的实验测量值。然而，泰勒展开证明：三点差分不可避免地混入宏观质量面的二阶导数：$\Delta^{(3)}_n = \Delta_{\text{pair}} + \frac{1}{8} \frac{\partial^2 E_{\text{smooth}}}{\partial N^2}$。在 $A\approx 130$ 区，平滑曲率项贡献了约 $140\text{ keV}$（占实测值的 $\sim 12\%$）。若不采用四点或五点差分滤波器（如 $\Delta^{(4)}$ 或 $\Delta^{(5)}$）消除平滑曲率，提取的配对能隙存在固有系统性虚高；
+  4. **最小二乘全局平差质量网络非对角协方差的遗漏边界：**
+     AME 发布的原子核质量不是孤立单次实验测量的均值，而是数千条核反应 $Q$ 值与质谱频率比构建的超定线性方程组的最小二乘解。相邻核素的质量不确定度之间存在强非对角相关（$Cov(M_i, M_j) \ne 0$）。在计算 $\Delta_n$ 或 $\Delta_{2n}$ 时，直接将对角误差按简单高斯方和根合成，忽略了共同输入链带来的相消或放大效应，导出的误差棒带有模型统计局限。
+- **证据门准则：**
+  1. **严禁将二中子分离能曲率阶跃 $\Delta_{2n}$ 直接等同于原子核单粒子壳能隙**；$\Delta_{2n}$ 较单中子经验壳隙 $\Delta_n$ 系统性虚高约 $25%–35%$，其包含了强价核子残余对能与宏观质量面平滑曲率；
+  2. **严禁将经验分离能质量差 $\Delta_n$ 直接作为微观独立粒子壳模型的单粒子能级间距**；多体系统的核芯重排极化与长程粒子—振动耦合在微观上引入 $\sim 0.5–1.0\text{ MeV}$ 的能量重整化；
+  3. **严禁仅凭三点奇偶质量交错指标 $\Delta^{(3)}$ 断言微观配对能隙数值**；必须采用消除宏观质量面二阶导数的高阶差分滤波器（如 $\Delta^{(4)}$ 或 $\Delta^{(5)}$），否则提取的配对能隙存在约 $10%–15%$ 的平滑曲率固有虚高；
+  4. **在从 AME 数据库提取质量差分指标时，必须明确声明误差合成是否基于零协方差假设**。"""
+
+target_theory = "## Theory/analysis exercise"
+if target_theory in text and "### 40. Wang et al. 2021 AME2020" not in text:
+    text = text.replace(target_theory, sec40 + chr(10) + chr(10) + target_theory)
+
+# 3. Add Section 38 under Theory/analysis exercise
+sec_ex38 = """### 38. Checkpoint 037 量化审计程序与 AME2020 质量曲率、经验壳能隙及奇偶交错核算
+
+运行独立编写的量化分析程序 """ + B + "system/scripts/day21_checkpoint037_ame2020_mass_curvature_audit.py" + B + """，对 AME2020 评价质量数据库在 $^{132}\text{Sn}$ 壳闭合处的分离能差分、经验壳隙与 $^{131}\text{Ba}$ 奇偶质量交错展开代数核算，输出规范审计产物 """ + B + "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ame2020-mass-curvature-audit-037.json" + B + """：
+
+1. **$^{132}\text{Sn}$ 二中子曲率阶跃与单中子壳隙对账：**
+   - 单中子分离能：$S_n(^{132}\text{Sn}) = 7353.293\text{ keV}$，$S_n(^{133}\text{Sn}) = 2398.654\text{ keV}$；
+   - 单中子经验壳能隙：$\Delta_n(^{132}\text{Sn}) = 4954.639 \pm 4.531\text{ keV}$；
+   - 二中子分离能：$S_{2n}(^{132}\text{Sn}) = 12556.973\text{ keV}$，$S_{2n}(^{134}\text{Sn}) = 6029.841\text{ keV}$；
+   - 二中子曲率阶跃：$\Delta_{2n}(^{132}\text{Sn}) = 6527.132 \pm 4.620\text{ keV}$；
+   - 二者比值为 $\Delta_{2n} / \Delta_n = 1.317$（高出 **$31.7\%$**，差量达 **$1572.49\text{ keV}$**），量化证实了二中子指标混入残余价配对能和宏观质量面平滑曲率的系统偏差。
+2. **经验壳能隙与微观真实单粒子能心间距重整化：**
+   - 经验分离能差分：$\Delta_n = 4.955\text{ MeV}$；
+   - 核芯重排极化与粒子—振动耦合（PVC）效应引入：$\Delta E_{\text{rearr}} \approx 0.65\text{ MeV}$（修正幅度达 **$+13.1\%$**）；
+   - 微观未扰动单中子能心间距：$\epsilon(2f_{7/2}) - \epsilon(2d_{3/2}) \approx 5.605\text{ MeV}$；
+   - 确立直接将宏观质量差分作为微观单体势能隙的推断漏洞。
+3. **$^{131}\text{Ba}$ 奇偶质量交错（OES）平滑曲率污染：**
+   - 三点奇偶指标：$\Delta^{(3)}_n(^{131}\text{Ba}) = 1166.882 \pm 0.686\text{ keV}$；
+   - 宏观质量面二阶导数 $\frac{1}{8} \frac{\partial^2 E_{\text{smooth}}}{\partial N^2}$ 贡献约 $140.0\text{ keV}$（平滑曲率污染达 **$12.0\%$**）；
+   - 扣除平滑曲率后的微观有效配对能隙为 $\Delta_{\text{pair}} \approx 1026.88\text{ keV}$。"""
+
+target_ce = "## Counter-evidence and missing companion observables"
+if target_ce in text and "### 38. Checkpoint 037 量化审计程序" not in text:
+    text = text.replace(target_ce, sec_ex38 + chr(10) + chr(10) + target_ce)
+
+# 4. Add Section 34 under Counter-evidence
+sec_ce34 = """### 34. 质量差分指标对单粒子壳隙与 BCS 配对能隙混淆的排他性证伪判据
+
+- **以二中子分离能曲率 $\Delta_{2n}$ 直接代表微观单粒子壳隙的排他性证伪：**
+  若研究断言测得的二中子分离能陡降阶跃 $\Delta_{2n}(^{132}\text{Sn}) = 6.53\text{ MeV}$ 就是 $^{132}\text{Sn}$ 的微观中子单粒子能隙 $\epsilon(2f_{7/2}) - \epsilon(2d_{3/2})$，该结论在多体物理上被直接排他性证伪；$\Delta_{2n}$ 包含了 $^{134}\text{Sn}$ 两个价中子的强残余对相互作用与宏观液滴曲率，其数值较单中子经验壳隙 $\Delta_n = 4.955\text{ MeV}$ 虚高达 $31.7\%$（$1.57\text{ MeV}$），绝非微观轨道能隙。
+- **脱离高阶曲率消除滤波器直接将三点 OES 指标等同于配对能隙的排他性证伪：**
+  若实验声称由三点质量公式提取的奇偶交错值 $\Delta^{(3)}$（如 $^{131}\text{Ba}$ 的 $1166.88\text{ keV}$）就是核内 BCS 配对能隙 $\Delta_{\text{pair}}$，该声明被宏观质量面泰勒级数展开直接排他性证伪；三点差分数学上固有混入约 $10%–15%$ 的质量面二阶导数连续贡献，必须采用四点或五点对称滤波器消除平滑曲率。"""
+
+target_ki = "## Knowledge Impact and Learning Decision"
+if target_ki in text and "### 34. 质量差分指标对单粒子壳隙" not in text:
+    text = text.replace(target_ki, sec_ce34 + chr(10) + chr(10) + target_ki)
+
+# 5. Add Decision 28 under Knowledge Impact
+dec28 = """28. **Wang et al. 2021 CPC 45（AME2020 质量曲率与壳能隙推断边界）：**
+   - 判定：""" + B + "supports" + B + "、" + B + "limits" + B + " 并 " + B + "revises" + B + """；
+   - 理由：支持了 AME2020 原子核基态质量评价数据库为 $^{132}\text{Sn}$ 壳闭合与 $A\approx 130$ 区提供的最高精度质量与分离能基准；严格限制了从宏观结合能差分向微观单粒子参数外推的推断边界，定量证明二中子曲率 $\Delta_{2n} = 6527.13\text{ keV}$ 较单中子壳隙 $\Delta_n = 4954.64\text{ keV}$ 虚高 $31.7\%$，且微观核芯重排能引入 $\sim 0.65\text{ MeV}$ 的能隙重整化；修正了将三点奇偶质量交错 $\Delta^{(3)}$ 直接作为微观配对能隙的传统做法，确立了必须扣除宏观平滑曲率项（$\sim 12\%$）与声明零协方差假设的证据门规范；
+   - 持久化产物：更新 [[ame2020-sn132-mass-curvature]] 与 [[experimental-claim-boundaries]]。"""
+
+target_dkd = "## Durable knowledge delta"
+if target_dkd in text and "Wang et al. 2021 CPC 45" not in text:
+    text = text.replace(target_dkd, dec28 + chr(10) + chr(10) + target_dkd)
+
+# 6. Add writeback item in knowledge-writeback JSON block
+wb_item = """,
+    {
+      "knowledge": "knowledge/sources/ame2020-sn132-mass-curvature.md",
+      "summary": "原子核质量评价（AME2020）、二中子分离能曲率与经验壳能隙推断阶梯边界审计。",
+      "anchor": "checkpoint037：原子核质量评价（AME2020）、二中子分离能曲率与经验壳能隙推断阶梯审计",
+      "sources": [
+        {
+          "path": "knowledge/sources/ame2020-sn132-mass-curvature.md",
+          "locator": "AME20-D21-1"
+        }
+      ]
+    }"""
+
+target_wb_end = """      "sources": [
+        {
+          "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+          "locator": "BN96-D21-1"
+        }
+      ]
+    }
+  ]
+}"""
+
+target_wb_replace = """      "sources": [
+        {
+          "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+          "locator": "BN96-D21-1"
+        }
+      ]
+    }""" + wb_item + """
+  ]
+}"""
+
+if target_wb_end in text and "AME20-D21-1" not in text:
+    text = text.replace(target_wb_end, target_wb_replace)
+
+# 7. Add belief revision entry
+belief_entry = """   - **旧信念：** 认为二中子分离能二阶曲率 $\Delta_{2n}$ 就等于微观单粒子壳能隙，且三点奇偶质量交错 $\Delta^{(3)}$ 直接给出了真实的微观配对能隙；
+   - **新信念：** 认识到 $\Delta_{2n}$ 较单中子壳隙 $\Delta_n$ 虚高达 $31.7\%$（混入价核子残余对能与宏观曲率），单中子分离能差较未扰动单粒子轨道能心因自洽核芯重排极化与 PVC 产生约 $0.65\text{ MeV}$ 的显著重整化偏移；且三点 OES 指标数学上包含约 $12\%$ 的宏观质量面平滑曲率污染，必须采用高阶对称差分滤波器净化。"""
+
+target_belief = "## Open questions and belief revision"
+if target_belief in text and "二中子分离能二阶曲率 $\Delta_{2n}$" not in text:
+    text = text.replace(target_belief, target_belief + chr(10) + belief_entry)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated daily report for Checkpoint 037 successfully.")

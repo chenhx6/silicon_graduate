@@ -1,0 +1,26 @@
+
+path = "system/handoff.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Update header
+text = text.replace("## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 035）", "## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 036）")
+
+cp036_entry = """Checkpoint 036实质推进：
+(1) 本征反射不对称性、静态梨形对决八极振动与偶极相消推断阶梯边界审计（Butler & Nazarewicz 1996 RMP 68 对照 Bucher 2016/2017 PRL 与 Gaffney 2013 Nature）：深入剖析从低能 1- 态、交替宇称带到静态八极形变与八极声子振动的推断阶梯分水岭；
+(2) 量化程序审计：运行独立程序 day21_checkpoint036_octupole_reflection_asymmetry_audit.py 产出 octupole-reflection-asymmetry-audit-036.json（3 项物理控制全过）；
+(3) 内禀电偶极矩 D0 相消机制与 B(E1) 代理量失效：揭示宏观液滴电荷偏置项与微观单粒子壳修正项的强相消机制；在 146Ba 中微观壳修正几乎完全抵消宏观项（净 D0 降至液滴预言的 7.5%），引发 B(E1) 暴跌 81 倍，而库仑激发 B(E3) 保持 48 W.u. 恒定；确立严禁以 B(E1) 强弱判定八极形变大小；
+(4) 交替宇称能级位移 delta E(I) 渐近收敛标尺：静态八极刚性核（224Ra）宇称位移从 1- 的 215.9 keV 单调指数塌缩至 13- 的 1.0 keV（>95% 塌缩），证明单重单纯形带（s = +1）的几何刚性；而八极振动核（220Rn）高自旋位移维持在 378 keV 持续不塌缩；
+(5) 证据门新准则：确立“确证核静态八极形变必须满足增强 B(E3) > 30 W.u.、高自旋宇称位移塌缩 delta E(I) -> 0 与转动惯量趋同的三位一体综合证据门”；
+(6) 知识库更新：更新 butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md 与 experimental-claim-boundaries.md；
+(7) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（80 篇知识页 valid: true）。
+"""
+
+target = "Checkpoint 035实质推进："
+if target in text and "Checkpoint 036实质推进：" not in text:
+    text = text.replace(target, cp036_entry + chr(10) + target)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated system/handoff.md to Checkpoint 036 successfully.")

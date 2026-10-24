@@ -1,0 +1,18 @@
+{
+  "now_local": "2026-10-24T04:57:16.706979+08:00",
+  "hard_deadline": "2026-10-24T15:00:00+08:00",
+  "next_scheduled_start": "2026-10-24T16:00:00+08:00",
+  "minutes_to_deadline": 602,
+  "minutes_to_next_start": 662,
+  "minimum_current_block_minutes": 90,
+  "minimum_forward_card_block_minutes": 120,
+  "can_continue_current": true,
+  "can_complete_forward_card": true,
+  "decision": "continue-or-advance",
+  "day_index": 21,
+  "day22_opened": false,
+  "formal_credit_applied": false,
+  "new_session_created": false,
+  "daemon_restarted": false,
+  "user_next_card_constraint": "Do not open Day22 in this phase; continue current Day21 issues"
+}

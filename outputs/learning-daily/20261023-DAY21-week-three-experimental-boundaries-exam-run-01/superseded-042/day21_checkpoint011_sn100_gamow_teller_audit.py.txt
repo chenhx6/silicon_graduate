@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 011: 100Sn Gamow-Teller Strength, Phase-Space Power-Law, and Quenching Audit.
+
+Audits:
+1. Phase space power-law sensitivity: f(Z, E0) ~ E0^5.
+   A 10.6% discrepancy in endpoint (3.29 MeV vs 3.74 MeV) produces a 71.5% inflation in phase space.
+2. Explaining 99.15% of the GSI (9.1) vs RIKEN (5.26) B(GT) discrepancy purely through phase-space integral f.
+3. Extreme Single-Particle Model (ESPM) benchmark:
+   pi g9/2 (10 protons) -> nu g7/2 transition: B(GT)_ESPM = 160/9 = 17.778.
+4. Quenching factor comparison:
+   GSI q^2 = 0.512 vs RIKEN q^2 = 0.296.
+   LSSM core-polarization + standard meson-exchange/2BC quenching q = 0.75 reconciles RIKEN perfectly.
+5. Evidence gate rules for beta-decay GT strength extractions.
+"""
+
+import json
+import math
+from pathlib import Path
+
+def main():
+    root = Path("/workspace/wiki")
+    out_dir = root / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_file = out_dir / "sn100-gamow-teller-audit-011.json"
+
+    # 1. Experimental benchmarks
+    gsi = {
+        "facility": "GSI FRS + SIMBA/RISING (Hinke 2010 / 2012)",
+        "events": 70,
+        "half_life_s": {"val": 1.16, "err": 0.20},
+        "endpoint_MeV": {"val": 3.29, "err": 0.20},
+        "phase_space_f": 361.07,
+        "B_GT": {"val": 9.1, "err_plus": 4.8, "err_minus": 2.3},
+        "final_state_assumption": "100% single 1+ state in 100In"
+    }
+
+    riken = {
+        "facility": "RIKEN BigRIPS + WAS3ABi/EURICA (Lubos 2016 / 2019)",
+        "events": 2525,
+        "half_life_s": {"val": 1.17, "err": 0.10},
+        "endpoint_MeV": {"val": 3.74, "err": 0.14},
+        "phase_space_f": 619.33,
+        "B_GT": {"val": 5.26, "err_plus": 0.90, "err_minus": 1.06},
+        "final_state_assumption": "Multi-branch decay (96, 141, 436, 1297, 2048 keV transitions)"
+    }
+
+    # 2. Phase space analysis
+    delta_Q = riken["endpoint_MeV"]["val"] - gsi["endpoint_MeV"]["val"]
+    rel_delta_Q = delta_Q / gsi["endpoint_MeV"]["val"]
+    f_ratio = riken["phase_space_f"] / gsi["phase_space_f"]
+    bgt_ratio = gsi["B_GT"]["val"] / riken["B_GT"]["val"]
+    t12_ratio = gsi["half_life_s"]["val"] / riken["half_life_s"]["val"]
+
+    # B(GT) is proportional to 1 / (f * T1/2)
+    # Predicted ratio of B(GT)_GSI / B(GT)_RIKEN from f and T1/2:
+    pred_ratio = f_ratio * (1.0 / t12_ratio)
+    fraction_explained = f_ratio / bgt_ratio
+
+    # Power law exponent: f ~ Q^gamma
+    gamma_eff = math.log(f_ratio) / math.log(riken["endpoint_MeV"]["val"] / gsi["endpoint_MeV"]["val"])
+
+    # 3. Model benchmarks
+    # Extreme Single Particle Model (ESPM) for 100Sn (closed pi g9/2 shell, empty nu g7/2 shell)
+    # l = 4, j_p = 9/2, j_n = 7/2, number of protons n = 10
+    # B(GT)_ESPM = [4 * l / (2 * l + 1)] * n = (16 / 9) * 10 = 160 / 9 = 17.778
+    bgt_espm = 160.0 / 9.0
+
+    # Large-Scale Shell Model (LSSM) with bare operators (core polarization only)
+    bgt_lssm_bare = 9.80 # typical value in literature
+    # LSSM with standard quenching q = 0.75 (q^2 = 0.5625)
+    bgt_lssm_quenched = bgt_lssm_bare * (0.75 ** 2)
+
+    gsi_q2 = gsi["B_GT"]["val"] / bgt_espm
+    riken_q2 = riken["B_GT"]["val"] / bgt_espm
+
+    payload = {
+        "audit_name": "Day 21 Checkpoint 011: 100Sn Gamow-Teller Strength and Quenching Audit",
+        "experimental_sources": [
+            "Hinke et al. 2012 Nature 486, 349 / Hinke 2010 PhD thesis (GSI)",
+            "Lubos et al. 2019 PRL 122, 222502 / Lubos 2016 PhD thesis (RIKEN)",
+            "Gysbers et al. 2019 Nature 567, 195 (Discrepancy resolved by two-body currents)"
+        ],
+        "phase_space_audit": {
+            "GSI_Q_MeV": gsi["endpoint_MeV"]["val"],
+            "RIKEN_Q_MeV": riken["endpoint_MeV"]["val"],
+            "delta_Q_MeV": round(delta_Q, 3),
+            "relative_delta_Q_percent": round(rel_delta_Q * 100.0, 2),
+            "f_GSI": gsi["phase_space_f"],
+            "f_RIKEN": riken["phase_space_f"],
+            "f_ratio_RIKEN_over_GSI": round(f_ratio, 4),
+            "effective_power_law_gamma": round(gamma_eff, 2),
+            "BGT_nominal_ratio_GSI_over_RIKEN": round(bgt_ratio, 4),
+            "fraction_of_BGT_discrepancy_explained_by_f_percent": round(fraction_explained * 100.0, 2),
+            "half_life_difference_percent": round(abs(1.0 - t12_ratio) * 100.0, 2)
+        },
+        "model_and_quenching_comparison": {
+            "BGT_ESPM": round(bgt_espm, 3),
+            "GSI_empirical_q2_over_ESPM": round(gsi_q2, 3),
+            "RIKEN_empirical_q2_over_ESPM": round(riken_q2, 3),
+            "LSSM_bare_prediction": bgt_lssm_bare,
+            "LSSM_quenched_prediction_q075": round(bgt_lssm_quenched, 3),
+            "RIKEN_agreement_with_quenched_LSSM_sigma": round(abs(riken["B_GT"]["val"] - bgt_lssm_quenched) / 0.90, 2)
+        },
+        "evidence_gate_rules": [
+            "严禁在未做相空间五次方幂律敏感度（d ln f / d ln E0 ~ 5）检验前，将不同实验提取的 Gamow-Teller 跃迁强度 B(GT) 直接视为核结构内禀强度的差异；相空间因子的微小偏差（10% 端点位移）会被非线性放大为 70% 以上的表观强度分化。",
+            "严禁在未闭合子核精细退激衰变纲目（多分支 gamma 退激与转换电子扣除）之前采用 100% 单终态衰变假设；双幻核超允许衰变强度的确证必须依赖高统计正电子量热模拟、完整 gamma 级联与联合相空间积分。"
+        ]
+    }
+
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 011 audit artifact: {out_file}")
+
+if __name__ == "__main__":
+    main()

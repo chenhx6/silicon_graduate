@@ -35,6 +35,8 @@ tags: [137Ba, competitive-double-gamma, two-photon-decay, LaBr3, QPM]
 
 # Observation of the competitive double-gamma nuclear decay
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - C. Walz *et al.*, *Nature* **526**, 406–409 (2015), DOI `10.1038/nature15543`。
@@ -156,3 +158,11 @@ The SI audit closes the prior attached-material gap. It does not clear `needs_re
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | W15-D19-1 | Walz 2015 测得 $^{137}\text{Ba}$ 异构态竞争双光子衰变总分支比 $\Gamma_{\gamma\gamma}/\Gamma_\gamma = (2.05 \pm 0.37) \times 10^{-6}$，与后续 Söderström 2020 测得的 $(2.62 \pm 0.30) \times 10^{-6}$ 在独立高斯误差下仅相差 $1.20\sigma$（差值 $0.57 \times 10^{-6}$，加权均值 $2.39(23) \times 10^{-6}$），在总分支比量级与存在性上达成完全自洽。但其推导的虚态极化率比值 $\alpha_{E2M2} / \alpha_{M1E3} = 33.9 / 10.1 = 3.36$（四极—四极路径主导）在后续实验中被证实发生了高达 $13.9$ 倍的剧烈反转。微积分审计揭示，该反转由探测几何与能窗截断系统性导致：Walz 2015 仅设置了 $72^\circ$ 与 $144^\circ$ 两个探测对角，并在分析中施加了对称能量差截断 $|E_1 - E_2| < 250\text{ keV}$（裁掉了超过 $35\%$ 的相空间），人为滤除了在不对称能量共享端（$E_1 \sim 200\text{ keV}$）占绝对优势的八极—偶极 $E3M1$ 分量，从而导致双角拟合极小值假性偏向四极—四极对称解。 | quantitative-audit-and-criterion | derived-and-source-boundary | Nature 526, 406 pp.406-409; Table 1, Fig.4; ba137-double-gamma-result-045.json | true |
+
+## Day21周考推断阶梯审计：核双光子衰变（2γ）两角拟合简并与对称能窗假象证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint015_two_photon_decay_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/two-photon-decay-audit-015.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| W15-D21-1 | Walz 2015 实验测得 $^{137}	ext{Ba}$ 竞争双光子衰变总分支比 $(2.05 \pm 0.37) 	imes 10^{-6}$，与 Söderström 2020（$2.62(30) 	imes 10^{-6}$）在 $1.20\sigma$ 内高度吻合，确立了总分支比的存在性；但推断阶梯审计揭示，其推导的虚态极化率比值 $lpha_{E2M2} / lpha_{M1E3} = 3.356$（四极主导）在后续实验中发生了高达 $13.88$ 倍的剧烈反转。反转机制源于两角几何（$72^\circ, 144^\circ$）拟合简并与对称能窗截断（$|E_1 - E_2| < 250	ext{ keV}$ 裁掉了超过 $35\%$ 相空间），人为滤除了在不对称能量共享端占优的八极分量。推断阶梯确立：严禁仅凭有限离散角度下的能量求和峰断言虚态极化率路径，确证多极路径必须依赖连续能量分配谱与微观选择定则。 | claim-boundary-audit | direct-and-derived | Nature 526, 406 pp.406-409; Table 1; two-photon-decay-audit-015.json | true |

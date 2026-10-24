@@ -1,0 +1,77 @@
+
+import os
+
+# 1. Update knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md
+src_path = "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md"
+with open(src_path, "r", encoding="utf-8") as f:
+    src_text = f.read()
+
+claim_d21 = "| BI19-D21-1 | 依据 Biswas et al. 2019 EPJ A 55, 159 原件对 133La 纵向摆动假说（LW）、流体转动惯量层级反转悖论与角分布双解开展推断阶梯对账证明：(1) Table 1 报告的 758, 874, 982 keV 连接跃迁虽在大根下给出 81.5%–92.0% 的高 E2 份额，但 DCO 计算严重依赖人工设定的 sigma/I = 0.30 取向假设；若取反事实小解 delta ~ -0.40，E2 份额剧烈塌缩至 13.8%（M1 支配达 86.2%），与 IBFM 预言的 gamma-软核核芯耦合完全吻合；(2) 在理论转动动力学上，经典无旋流体转动惯量在三轴参数 gamma ~ 22° 下严格满足 J_s (0.98) > J_m (0.38) > J_l (0.14)；作者为获得随自旋递增的纵向摆动频率，人为假设正宇称 (dg) 质子对提前沿短轴对齐导致有效惯量反转为 J_m > J_s，该假说直接违背流体与微观推转转动惯量层级且无独立观测证据；(3) 候选摆动带各能态绝对寿命处于完全未测状态，绝对 B(E2_out) 空白，不能排除常规准粒子旋称伙伴带解释；确立“严禁在转动惯量层级违背物理规律且缺乏绝对寿命测量的前提下确证纵向摆动模式”的核心证据门准则。 | longitudinal-wobbling-moi-paradox-boundary | direct-original-and-quantitative-audit | EPJ A 55, 159 Table 1, Figs.2–8; la133-longitudinal-wobbling-audit-041.json | true |"
+
+if "BI19-D21-1" not in src_text:
+    target_row = "| BI19-D20-R42-2 |"
+    lines = src_text.splitlines()
+    new_lines = []
+    for line in lines:
+        new_lines.append(line)
+        if line.startswith(target_row):
+            new_lines.append(claim_d21)
+    src_text = "\n".join(new_lines)
+
+section_d21 = """
+
+## Day 21 证据门与推断阶梯审计（Checkpoint 041）
+
+### checkpoint041：133La 纵向摆动假说、转动惯量层级反转悖论与角分布双解推断阶梯审计
+
+在 Day 21 第三周专业周考核查中，以 Biswas et al. 2019 EPJ A 55 为基准，系统审计了低自旋纵向摆动假说中的理论与实验推断边界：
+1. **流体转动惯量层级反转悖论：** 三轴流体惯量在 $\gamma \approx 22^\circ$ 严格满足 $\mathcal{J}_s (0.98) > \mathcal{J}_m (0.38) > \mathcal{J}_l (0.14)$；作者为解释纵向摆动能随自旋递增的现象，被迫引入未观测的正宇称质子对提前对齐导致惯量人为反转（$\mathcal{J}_m > \mathcal{J}_s$）的唯象假设，缺乏微观排他性；
+2. **DCO 拟合的 $\sigma/I = 0.30$ 强假设与双解简并：** 提取的强 $E2$ 份额（$81.5\%–92.0\%$）高度依赖取向参数假设；若取替代小解 $\delta \approx -0.40$，$E2$ 份额跌至 $13.8\%$（$M1$ 占 $86.2\%$），与 Nomura 2022 IBFM $\gamma$-软核模型给出的准粒子旋称伙伴跃迁完全吻合；
+3. **第四层绝对跃迁几率空白：** 候选带能级绝对寿命完全未测，无法提取绝对 $B(E2_{\text{out}})$，缺乏区分集体摆动声子与常规单粒子交叉跃迁的决定性判据。
+"""
+
+if "checkpoint041：" not in src_text:
+    src_text += section_d21
+
+with open(src_path, "w", encoding="utf-8") as f:
+    f.write(src_text)
+print("Updated knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md")
+
+# 2. Update knowledge/methods/experimental-claim-boundaries.md
+mth_path = "knowledge/methods/experimental-claim-boundaries.md"
+with open(mth_path, "r", encoding="utf-8") as f:
+    mth_text = f.read()
+
+src_entry = "- [[biswas-2019-longitudinal-wobbling-133la]] — 133La纵向摆动假说、流体转动惯量层级反转悖论、sigma/I设定敏感性与IBFM gamma-软核推断边界。"
+if "[[biswas-2019-longitudinal-wobbling-133la]]" not in mth_text:
+    target_s = "- [[woodside-2026-fe58-collectivity-coulex-dsam]] — 58Fe库仑激发与DSAM重分析、阻止本领非均匀标度、循环约束陷阱与异常集体性证伪。"
+    mth_text = mth_text.replace(target_s, target_s + "\n" + src_entry)
+
+case_41 = """
+### 41. 纵向摆动假说与转动惯量排序悖论推断阶梯边界：133La 流体转动惯量冲突、sigma/I 设定敏感性与 IBFM gamma 软核替代机制
+
+在三轴形变原子核集体激发研究中，纵向摆动（Longitudinal Wobbling，LW）被定义为奇核子角动量平行于转动惯量最大轴排列时发生的特征三维进动，其唯象特征被预期为摆动能量 $E_{\text{wob}}(I) = E(I, \text{yrare}) - \frac{1}{2}[E(I-1, \text{yrast}) + E(I+1, \text{yrast})]$ 随自旋单调上升。Biswas et al. 2019 EPJ A 55, 159（[[biswas-2019-longitudinal-wobbling-133la]] 对比 Nomura 2022 PRC 105，[[nomura-2022-questioning-wobbling-ibfm]] 与 Lv 2022 PLB）宣称在 $^{133}\text{La}$ 中首次观测到纵向摆动运动。然而，从推断阶梯第二/三层（DCO 比值与偏振不对称度）向第四/五层（绝对电磁跃迁几率与三维转动惯量张量轴向）的反演，存在着严重的理论动力学悖论与实验解算漏洞：
+- **表观实验特征与推断阶梯分水岭（Level 2–3 到 Level 4–5）：**
+  实验利用 INGA 阵列测量了 $^{133}\text{La}$ 负宇称 yrast 与 yrare 带之间的 $758, 874, 982\text{ keV}$ 连接跃迁，通过假定核取向参数 $\sigma/I = 0.30$ 拟合 DCO 比值与偏振，提取出大模数多极混合比 $\delta = -2.1, -2.7, -3.4$，对应 $E2$ 份额高达 $81.5\% - 92.0\%$。由于表观能量差 $E_{\text{wob}}$ 随自旋从 $500\text{ keV}$ 递增至 $700\text{ keV}$，作者据此断言确证了“首例纵向摆动”。然而，这一结论在理论模型自洽性与实验证据链上面临三重致命漏洞。
+- **推断阶梯漏洞剖析：**
+  1. **经典流体与微观转动惯量排序悖论（The MoI Ordering Paradox）：**
+     在三轴核转子模型中，三轴参数 $\gamma \approx 22^\circ$ 处的经典无旋流体转动惯量满足严格代数层级：
+     $$\mathcal{J}_s \approx 0.98 > \mathcal{J}_m \approx 0.38 > \mathcal{J}_l \approx 0.14$$
+     对于侵入轨道 $\pi h_{11/2}$ 上的奇质子，由于其波函数具有扁椭驱动特征，奇质子角动量在能量上严格沿着短轴（$s$-轴）对齐。当奇核子沿短轴对齐时，经典简谐冷冻对齐近似（HFA）给出的唯一物理实数摆动模式只能是**横向摆动（Transverse Wobbling）**，其摆动能必然随自旋递减！
+     为强行使纵向摆动频率为实数并重现递增的能量趋势，Biswas 等被迫引入极端人为假说：假设核内正宇称 $(dg)$ 质子对在低自旋下提前沿短轴对齐，产生了高达 $+40\%$ 的额外有效惯量修正，从而迫使有效中轴惯量反常超越短轴惯量（$\mathcal{J}_m > \mathcal{J}_s$）。这种为了迎合实验现象而任意倒置三维转动惯量张量排序的做法，直接违背了核多体流体力学与微观推转壳模型计算，属于严重的模型拟合伪影；
+  2. **DCO 拟合强取向假设（$\sigma/I = 0.30$）与多极双解简并（The Dual-Root Degeneracy Trap）：**
+     在 INGA 实验分析中，混合比 $\delta$ 的提取高度依赖于理论计算 DCO 比值时输入的自旋取向高斯分布宽度 $\sigma/I$。作者固定采纳了经验常数 $\sigma/I = 0.30$。然而，若核排列度略微退化（如 $\sigma/I = 0.35 - 0.40$），实验 DCO 与微弱偏振数据存在等价相容的**小模数替代解 $\delta \approx -0.40$**。在小模解下，电四极跃迁份额急剧塌缩至仅 **$13.8\%$**，磁偶极 $M1$ 支配性激增至 **$86.2\%$**！在缺乏高精度康普顿散射线偏振排他排除小解的前提下，单凭 DCO 选定大解具有不可靠性；
+  3. **第四层绝对跃迁几率空白与 IBFM $\gamma$-软核完备替代解释：**
+     在整个 $^{133}\text{La}$ 谱系中，带头能级寿命完全未测，绝对 $B(E2_{\text{out}})$ 处于彻底空白。Nomura 2022（PRC 105, 054314）基于微观自洽能量密度泛函（EDF）与相互作用玻色子—费米子模型（IBFM）严格证明：过渡区 $A\approx 130$ 核普遍具有平坦的 $\gamma$-软势能面，当 $\pi h_{11/2}$ 质子耦合至 $\gamma$-软振动核芯时，系统自然产生表观能级差随自旋递增的 yrast-yrare 序列，完美再现能谱，但在物理机制上严格为**准粒子旋称伙伴带（Signature Partners）**，且带间跃迁具有极强且主导的 $M1$ 成分（$M1 > 80\%$）。因此，在没有绝对跃迁几率 $B(E2_{\text{out}}) > 20\text{ W.u.}$ 证实集体增强之前，能谱递增绝不能充当纵向摆动的排他证据。
+- **证据门准则：**
+  1. **严禁在转动惯量张量排序违背流体力学与微观推转壳模型（如无独立证据假定 $\mathcal{J}_m > \mathcal{J}_s$ 倒置）的前提下，通过任意调节未观测准粒子对对齐参数断言纵向摆动模式**；
+  2. **严禁仅凭固定取向参数（如假定 $\sigma/I = 0.30$）的 DCO 拟合大解断言带间跃迁由 $E2$ 辐射主导**；必须开展不依赖取向模型假设的高显著性线偏振或内转换系数测量以排他排除 $M1$ 主导的小解分支；
+  3. **严禁在激发能级绝对寿命未知、绝对 $B(E2_{\text{out}})$ 空白的条件下确证纵向摆动假说**；能谱能量递增必须先行排查 IBFM $\gamma$-软核准粒子旋称耦合替代机制。
+"""
+
+if "### 41. 纵向摆动假说与转动惯量排序悖论" not in mth_text:
+    mth_text += case_41
+
+with open(mth_path, "w", encoding="utf-8") as f:
+    f.write(mth_text)
+print("Updated knowledge/methods/experimental-claim-boundaries.md")

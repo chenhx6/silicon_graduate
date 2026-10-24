@@ -33,6 +33,8 @@ raw_sha256: "dfc649e43493debee93c4d9e76694360972f82382ce0b25a04945b7a766b728c"
 
 # Partner bands of 126Cs and chiral electromagnetic selection rules
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - E. Grodner, I. Sankowska, T. Morek, S. G. Rohoziński, Ch. Droste, J. Srebrny, A. A. Pasternak, M. Kisieliński, M. Kowalczyk, J. Kownacki, J. Mierzejewski, A. Król, and K. Wrzosek, “Partner bands of 126Cs – first observation of chiral electromagnetic selection rules,” *Phys. Lett. B* **703**, 46–50 (2011), DOI 10.1016/j.physletb.2011.07.062.
@@ -169,3 +171,11 @@ The DSA dataset is a different reaction and detector array from Wang05/Wang06, b
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | GR126-D19-1 | Grodner 2011 在华沙重离子实验室通过 $^{120}\text{Sn}(^{10}\text{B}, 4n)^{126}\text{Cs}$ 反应测定了 13 个激发态寿命与 26 项绝对跃迁几率：在 $14^+ \le I \le 17^+$ 范围内，双带寿命比值在 $1.04\text{--}1.42$ 之间（平均比值 $1.17$），带内 $B(E2)$ 维持在 $13\text{--}60\text{ W.u.}$ 之间，具有中等形变手征对称性；带内 $B(M1)$ 呈现极强奇偶交错：yrast 带在 $15^+$ 态跃升至 $0.26\text{ W.u.}$，比 $14^+$ 态增强 $3.25$ 倍，比 $16^+$ 上限（$\le 0.02\text{ W.u.}$）增强超 $13.0$ 倍，导致 Weisskopf 比值 $R_{\text{WU}}$ 呈现高达 $17.2$ 倍的振荡；实验首次证实带间 $B(M1)_{\text{out}}$ 与带内 $B(M1)_{\text{in}}$ 在自旋上呈严格的反相交错，完全符合 Koike-Hamamoto $\mathcal{A}$ 量子数选择定则。理论 CPHC 计算将绝对跃迁率系统高估约 3 倍，表明真实形变参数（$\beta_2 \approx 0.20$）明显小于模型预设的 $\beta_2 = 0.30$。 | quantitative-benchmark-and-criterion | direct-and-derived | PLB 703, 46 pp.46-50; Tables 1-2, Fig.3; cs126-chiral-staggering-result-043.json | true |
+
+## Day 21 Checkpoint 021 证据门量化审计：126Cs 手征电磁选择定则、B(M1) 奇偶交错与 S-对称性验证
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint021_chiral_selection_rules_cs_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/chiral-selection-rules-cs-audit-021.json），对 Grodner 2011 的 126Cs 手征电磁选择定则完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR126-D21-1 | 依据推断阶梯审计，Grodner 2011 确立了手征对称性的核心实证指纹与边界：(1) B(M1) 强烈反相交错：在 yrast 带中 B(M1) 在 I=15+ (0.26 W.u.) 与 16+ (<=0.02 W.u.) 呈现 >=13 倍暴跌，且带间 B(M1) 呈现严格反相交错，排他性证实了离散 S-对称性（R_y(pi)*T）的选择定则；(2) 适用条件约束：S-对称性交错要求同一 j 壳层粒子-空穴组态及最大三轴度（gamma=30°），偏离该条件交错显著衰减；(3) 确立“带内/带间 B(M1) 反相交错作为手征几何排他性指纹”的证据门准则。 | source-result-and-criterion | direct-and-boundary | pp.46-50, Tables 1-2, Fig.3; chiral-selection-rules-cs-audit-021.json | true |

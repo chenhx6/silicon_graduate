@@ -34,6 +34,8 @@ tags: [shears, magnetic-rotation, tilted-axis-cranking, review, high-spin]
 
 # Clark 与 Macchiavelli（2000）：The Shears Mechanism in Nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Annual Review of Nuclear and Particle Science 50 (2000) 1–36. DOI `10.1146/annurev.nucl.50.1.1`; BibTeX key `clark_2000_ShearsMechanism`。
@@ -125,3 +127,10 @@ Page and all CL00 claims remain unreviewed with `needs_review: true`. Human revi
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | CL00-D19-1 | 对 Clark & Macchiavelli 2000 剪刀机制综述进行系统学审计：(1) 四分之一刚体转动惯量标度律：Table 1 跨越 $A=105, 110, 140, 200$ 四大质量区，剪刀带转动惯量与刚体球惯量之比严格恒定为 $\mathcal{J}_{\text{shears}} / \mathcal{J}_0 = 0.252 \pm 0.018$（全区偏离小于 $7\%$）；微观机制严格推导为单粒子角动量 $j^2 \propto A^{2/3}$ 与四极剩余力 $V_2 \propto A^{-1}$ 产生 $\mathcal{J}_{\text{shears}} \propto A^{5/3} \propto \mathcal{J}_0$ 的严格质量数同幂次依赖；(2) $P_2(\cos\theta)$ 相互作用势：粒子—空穴叶片有效力 $V(\theta) = V_2 P_2(\cos\theta)$ 在 $\theta = 90^\circ$ 形成能量极小，沿剪刀闭合方向产生正比于 $\cos^2\theta$ 的抛物线能谱，无需核芯形变电荷转动即可自然涌现转动样 $\Delta I = 1$ 能级序列；(3) 剪刀角闭合与 $B(M1)$ 塌缩：随着自旋上升，夹角 $\theta$ 从带头 $84.6^\circ$ 闭合至终止态 $27.0^\circ$，$B(M1) \propto \sin^2\theta$ 发生 $79.3\%$ 的单调滑落；(4) 四支柱磁转动判据矩阵：确立了以惯量比 $\approx 0.25$、弱电四极 $B(E2) \le 0.1\text{ e}^2\text{b}^2$、巨跃迁比 $B(M1)/B(E2) \sim 10\text{--}50\text{ \mu}_N^2/(e^2\text{b}^2)$ 及 $B(M1)$ 随自旋单调下降构成的四支柱判决协议。 | task-shears-review-audit | derived-and-boundary | PDF pp.13-22 Table 1 Figs.8-12; clark00-shears-scaling-result-061.json | true |
+## Day21周考推断阶梯审计：磁转动判据与转动样偶极带推断边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint008_magnetic_rotation_shears_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/magnetic-rotation-shears-audit-008.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CL00-D21-1 | Clark 2000 剪刀机制综述阐明了推断阶梯上极易混淆的“转动样能级向集体形变过度反演”的陷阱：近球形核（$|\beta_2| \le 0.1$）中由于高 $j$ 质子粒子与中子空穴叶片的有效排斥力 $V(\theta) \approx \frac{1}{2} C \theta^2$，沿自旋上升方向通过剪刀闭合（$\theta \to 0$）自然产生转动样规则抛物线能谱 $E(I) \propto (I-I_0)^2$。区分磁转动与集体电转动的核心判据并非能级间距，而是必须依赖绝对寿命 $\tau$ 测定其带内 $B(M1) \propto \sin^2\theta$ 随自旋剧烈单调滑落（$^{199}\text{Pb}$ 中下降达 10 倍以上）、电四极极度压制（$B(E2) \le 0.1\text{ W.u.}$）及超高比值 $B(M1)/B(E2) \gg 10\ \mu_N^2/(e\text{b})^2$。 | claim-boundary-audit | derived-and-boundary | Annual Rev. Nucl. Part. Sci. 50, 1 pp.5-22, Fig.2; magnetic-rotation-shears-audit-008.json | true |

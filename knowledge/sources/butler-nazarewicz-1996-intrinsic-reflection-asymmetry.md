@@ -33,6 +33,8 @@ tags: [review, octupole, reflection-asymmetry, E1, E3, parity-doublet, fission]
 
 # Intrinsic reflection asymmetry in atomic nuclei
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - P. A. Butler and W. Nazarewicz, *Reviews of Modern Physics* **68**, 349–421 (1996), DOI `10.1103/RevModPhys.68.349`。
@@ -73,6 +75,7 @@ The review asks what constitutes evidence for intrinsic reflection-asymmetric nu
 | BN96-3 | Static octupole deformation, octupole vibration/softness and parity-restored doublets require different theoretical treatments and cannot be merged. | model-framework | direct | PDF Secs.III.C/F, IV–VI | false |
 | BN96-4 | Opposite-parity orbital pairs with `Δl=Δj=3` explain microscopic octupole instability near specific proton/neutron numbers. | model-result | direct-to-review | PDF Sec.III.A, Figs.4–8 | true |
 | BN96-5 | High-spin and large-deformation applications extend reflection-asymmetry ideas to fission, superdeformation and hyperdeformation but retain model-dependent evidence. | review-synthesis | contextual | PDF Secs.VI, IX | true |
+| BN96-D21-1 | **superseded（checkpoint042）**：旧脚本任设壳修正 -0.040/-0.135 e fm，不能称实测相消比例；将 E(1-)=215.9 keV 写成位移错误，按脚本自身定义应减去 E(2+)/2=42.2 keV。高自旋输入及普适 B(E3)>30 W.u. 门限未获原件支持，均撤回。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
 
 ## Summary
 
@@ -135,3 +138,8 @@ Near-degenerate parity bands, E1 enhancement or a nonzero mean-field β3 can als
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | BN96-D19-1 | 对 Butler & Nazarewicz 1996（Rev. Mod. Phys. 68, 349）综述的核心物理机制进行定量审计：(1) 微观配对条件：$\Delta l = \Delta j = 3$ 轨道对严格主导了核内八极关联，系统划定了 $A\approx 70$（$Z, N \approx 34$，$p_{3/2} \leftrightarrow g_{9/2}$）、$A\approx 144$（$Z \approx 56, N \approx 88$，$d_{5/2} \leftrightarrow h_{11/2}, f_{7/2} \leftrightarrow i_{13/2}$）与 $A\approx 224$（$Z \approx 88, N \approx 134$，$f_{7/2} \leftrightarrow i_{13/2}, g_{9/2} \leftrightarrow j_{15/2}$）三大八极形变岛；(2) 交替宇称能级位移塌缩：在 $^{224}\text{Ra}$ 中，宇称位移函数 $\delta E(I) = E(I^-) - 0.5[E((I-1)^+) + E((I+1)^+)]$ 从 $I=1^-$ 的 $173.8\text{ keV}$ 急剧塌缩 $87.9\%$ 至 $I=7^-$ 的 $21.0\text{ keV}$，实证了静态反射不对称（单重单单纯形 $s=+1$ 带）的几何刚性；(3) 偶极矩相消定理：宏观液滴模型预言 $^{224}\text{Ra}$ 的 $D_0^{\text{macro}} = 0.202\text{ e}\text{fm}$，而实测 $|D_0| \approx 0.030\text{ e}\text{fm}$，证明微观单粒子壳修正抵消了 $85.1\%$ 的宏观偶极矩；确立了 $E1$ 跃迁不可作为八极形变充要判据的物理边界。 | task-bn96-review-audit | derived-and-boundary | PDF pp.349-421 Secs.II.B III.A IV.C; bn96-octupole-microscopic-result-060.json | true |
+
+
+## Day 21 checkpoint036 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.txt。其科学认证撤回：旧脚本任设壳修正 -0.040/-0.135 e fm，不能称实测相消比例；将 E(1-)=215.9 keV 写成位移错误，按脚本自身定义应减去 E(2+)/2=42.2 keV。高自旋输入及普适 B(E3)>30 W.u. 门限未获原件支持，均撤回。

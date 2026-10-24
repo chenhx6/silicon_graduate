@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Comparative quantitative scope: 134Pr unmixing vs 135Nd lifetime divergence and B(E2) symmetry."""
+from fractions import Fraction as F
+import json
+import math
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+RUN = ROOT / "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01"
+
+def audit():
+    # 1. 134Pr data from Petrache 2006 (PRL 96, 112502)
+    pr134 = {
+        "I15": {"delta_E_keV": 36.0, "V_max_keV": 18.0, "V_adopted_keV": 14.0, "alpha_yrast": 0.894},
+        "I16": {"delta_E_keV": 44.0, "V_max_keV": 22.0, "V_adopted_keV": 17.0, "alpha_yrast": 0.427},
+        "Q0_ratio_reported": 2.0,
+        "Q0_ratio_uncertainty": 0.4,
+        "Q0_ratio_allowed_range": [1.6, 2.4],
+        "unmixed_B_E2_ratio_allowed_range": [1.6**2, 2.4**2],
+        "conclusion": "Near-degeneracy is reproduced by band-crossing of states with 2-fold different intrinsic quadrupole moments; ideal chiral interpretation rejected."
+    }
+
+    # 2. 135Nd data from Mukhopadhyay 2007 (PRL 99, 172501 Table I)
+    spins = ["31/2-", "33/2-", "35/2-", "37/2-", "39/2-"]
+    tau_A = [0.75, 0.44, 0.28, 0.23, 0.22] # ps
+    tau_B = [1.46, 0.87, 0.64, 0.48, 0.24] # ps
+    be2_A = [0.32, 0.32, 0.32, 0.32, 0.13] # e^2 b^2
+    be2_B = [0.28, 0.28, 0.28, 0.29, 0.11] # e^2 b^2
+
+    nd135_rows = []
+    for s, ta, tb, ea, eb in zip(spins, tau_A, tau_B, be2_A, be2_B):
+        tau_ratio = tb / ta
+        be2_ratio = eb / ea
+        q0_ratio_est = math.sqrt(ea / eb)
+        nd135_rows.append({
+            "spin": s,
+            "tau_A_ps": ta,
+            "tau_B_ps": tb,
+            "tau_B_over_tau_A": tau_ratio,
+            "be2_inband_A": ea,
+            "be2_inband_B": eb,
+            "be2_B_over_be2_A": be2_ratio,
+            "q0_A_over_q0_B_est": q0_ratio_est
+        })
+
+    return {
+        "scope": "Comparative quantitative scope between 134Pr band unmixing and 135Nd lifetime divergence",
+        "sources": {
+            "134Pr": "Petrache 2006, PRL 96, 112502",
+            "135Nd": "Mukhopadhyay 2007, PRL 99, 172501"
+        },
+        "pr134_unmixing": pr134,
+        "nd135_inband_systematics": nd135_rows,
+        "methodological_invariants": [
+            "Energy near-degeneracy is not a sufficient condition for nuclear chirality (134Pr counterexample: crossings produce small gap but Q0 differs by 2x).",
+            "Level lifetime equality is not a necessary condition for nuclear chirality (135Nd empirical fact: tau differs by ~2x while in-band B(E2) is symmetric to ~10%).",
+            "In-band B(E2) symmetry is not a sufficient condition for chiral geometry (chiral identification strictly requires interband M1/E2 selection rules and polarization-confirmed multipolarities).",
+            "Neither 134Pr nor 135Nd datasets can be transferred to each other; distinct mass, quasiparticle configurations and core responses must be preserved."
+        ],
+        "raw_events_acquired": False,
+        "new_CI": None,
+        "actual_joint_covariance": None,
+        "scientific_certification": False
+    }
+
+if __name__ == "__main__":
+    d = audit()
+    out = RUN / "chiral-comparison-scope-110.json"
+    out.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps({
+        "output": str(out.relative_to(ROOT)),
+        "pr134_q0_ratio": d["pr134_unmixing"]["Q0_ratio_reported"],
+        "nd135_tau_ratio_mean_lowspin": sum(r["tau_B_over_tau_A"] for r in d["nd135_inband_systematics"][:4]) / 4.0,
+        "nd135_be2_ratio_mean_lowspin": sum(r["be2_B_over_be2_A"] for r in d["nd135_inband_systematics"][:4]) / 4.0,
+        "nd135_q0_ratio_est_lowspin": sum(r["q0_A_over_q0_B_est"] for r in d["nd135_inband_systematics"][:4]) / 4.0
+    }, ensure_ascii=False))

@@ -34,6 +34,8 @@ tags: [gamma-band, staggering, triaxiality, gamma-soft, phase-transition]
 
 # Staggering in γ-band energies and structural symmetries
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - E. A. McCutchan *et al.*, *Physical Review C* **76**, 024306 (2007), DOI `10.1103/PhysRevC.76.024306`.
@@ -105,3 +107,11 @@ Energy-only staggering is affected by band assignments, crossings, γ softness, 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | MC07-D20-R135-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## Day 21 Checkpoint 020 证据门量化审计：准 γ 带交错 S(J) 全局基准与三轴刚度判定
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint020_gamma_staggering_s4_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/gamma-staggering-s4-audit-020.json），对 McCutchan 2007 的全局交错系统学完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MC07-D21-1 | 依据推断阶梯审计，McCutchan 2007 确立了四维结构对称性在准 gamma 振动带上的严格代数基准：(1) S(4) 打印基准严格为：振动极限 -1.00、轴对称转子 +0.33、gamma-软极限 -2.00、刚性三轴（gamma=30°）+1.67；(2) 全局同位素链审计表明，绝大多数被宣传为“三轴形变”的核素实测 S(4) 严格为负（如 130Ba S4=-0.941，128Xe S4=-0.647，76Ge S4=-1.240），在符号上直接证伪刚性三轴假设；(3) 确立 S(4) 符号与微观零点振动势垒的一致性对账作为核形状刚软度裁决的标准证据门规范。 | source-result-and-systematics | direct-and-boundary | pp.1-5, Sec.II, Fig.1; gamma-staggering-s4-audit-020.json | true |

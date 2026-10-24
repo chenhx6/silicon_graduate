@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+"""
+Day 21 Checkpoint 033 Audit Script:
+ENSDF Database Semantics and Parsing Inference Boundaries
+Based on Tuli 2001 BNL-NCS-51655 (Evaluated Nuclear Structure Data File format manual)
+"""
+
+import json
+import math
+import numpy as np
+
+def run_audit():
+    # 1. Unsigned Mixing Ratio Audit
+    # Case: MR field = " 0.35" (no sign prefix)
+    # Tuli 2001 rule: "Sign must be shown explicitly if known. If no sign is given, it will be assumed to be unknown."
+    # Transition: 4 -> 3 (M1/E2), F2(1,1)=0.2828, F2(1,2)=-0.4781, F2(2,2)=-0.1873
+    F2_11 = 0.2828
+    F2_12 = -0.4781
+    F2_22 = -0.1873
+
+    mag_delta = 0.35
+    d2 = mag_delta**2
+
+    # If parser naively treats unsigned as positive:
+    A2_naive_pos = (F2_11 + 2.0 * (+mag_delta) * F2_12 + d2 * F2_22) / (1.0 + d2)
+    # If actual true phase is negative:
+    A2_true_neg = (F2_11 + 2.0 * (-mag_delta) * F2_12 + d2 * F2_22) / (1.0 + d2)
+
+    mr_sign_audit = {
+        "ensdf_record_string": " 0.35",
+        "magnitude_abs_delta": mag_delta,
+        "naive_parser_interpretation": "+0.35 (assumed positive by float parser)",
+        "rigorous_ensdf_meaning": "Magnitude |delta| = 0.35, sign is UNKNOWN (+ or -)",
+        "apparent_A2_if_positive": round(A2_naive_pos, 4),
+        "apparent_A2_if_negative": round(A2_true_neg, 4),
+        "discrepancy_delta_A2": round(A2_naive_pos - A2_true_neg, 4),
+        "physical_consequence": "Naive parser converts sign-unknown measurement into a false positive phase, shifting A2 by 0.596 and completely altering directional correlation fitting."
+    }
+
+    # 2. Multiply-Placed Transition Intensity Double-Counting Audit
+    # Case: 240 keV gamma placed in two different level schemes with flag '&' (intensity not divided)
+    # Reported RI = 50.0 on each card
+    single_true_RI = 50.0
+    placements_count = 2
+    naive_summed_RI = single_true_RI * placements_count
+
+    # Branching ratio distortion: suppose total feeding into level is 100.0
+    # True branching ratio:
+    true_branch = single_true_RI / 100.0
+    # Naive branching ratio summing both records:
+    naive_branch = naive_summed_RI / 100.0
+
+    multiply_placed_audit = {
+        "placement_flag": "& (multiply placed, intensity not divided)",
+        "individual_record_RI": single_true_RI,
+        "number_of_placements": placements_count,
+        "naive_summed_intensity": naive_summed_RI,
+        "true_physical_intensity": single_true_RI,
+        "overcounting_factor": round(naive_summed_RI / single_true_RI, 2),
+        "apparent_branching_ratio_error_pct": 100.0,
+        "physical_consequence": "Blindly summing records with '&' double-counts intensity, artificially inflating transition strength and violating level intensity balance."
+    }
+
+    # 3. Normalization Record Scaling Audit
+    # Case: Decay dataset with NR = 0.045 (multiplier to per 100 decays of branch), BR = 0.85 (branching ratio of decay mode)
+    # Gamma record RI = 100.0 (relative to strongest gamma)
+    NR = 0.045
+    BR = 0.85
+    RI_rel = 100.0
+
+    # Absolute gamma intensity per 100 parent decays:
+    I_gamma_abs = RI_rel * NR * BR
+    # Naive interpretation ignoring NR/BR:
+    I_gamma_naive = RI_rel # 100%
+
+    scaling_inflation_factor = I_gamma_naive / I_gamma_abs
+
+    # Transition strength B(E2) is proportional to absolute transition rate:
+    # Overestimation by 26.14x!
+    normalization_audit = {
+        "relative_photon_intensity_RI": RI_rel,
+        "normalization_factor_NR": NR,
+        "branching_ratio_BR": BR,
+        "true_absolute_intensity_per_100_parent_decays": round(I_gamma_abs, 4),
+        "naive_interpretation_as_absolute_pct": I_gamma_naive,
+        "false_strength_inflation_factor": round(scaling_inflation_factor, 2),
+        "physical_consequence": "Treating relative RI as absolute branching percentage inflates transition probability B(E2) and B(M1) by a factor of 26.14x."
+    }
+
+    # 4. Asymmetric Uncertainty Parsing Audit
+    # Case: MR = -3, DMR = "+1-4"
+    # Upper bound = -3 + 1 = -2
+    # Lower bound = -3 - 4 = -7
+    # Naive parser might take [-4, -2] or flip signs
+    asymmetric_audit = {
+        "MR_central": -3.0,
+        "DMR_string": "+1-4",
+        "true_confidence_interval": [-7.0, -2.0],
+        "naive_symmetric_interpretation": [-4.0, -2.0],
+        "interval_width_true": 5.0,
+        "interval_width_naive": 2.0,
+        "coverage_distortion": "Naive parsing understates confidence interval width by 60%."
+    }
+
+    audit_data = {
+        "audit_name": "Day 21 Checkpoint 033: ENSDF Format Semantics, Unsigned Mixing Ratios, and Normalization Audit",
+        "reference_source": "Tuli 2001 BNL-NCS-51655 (Evaluated Nuclear Structure Data File format manual)",
+        "unsigned_mixing_ratio_audit": mr_sign_audit,
+        "multiply_placed_transition_audit": multiply_placed_audit,
+        "normalization_scaling_audit": normalization_audit,
+        "asymmetric_uncertainty_audit": asymmetric_audit,
+        "evidence_gate_rules": [
+            "严禁将 ENSDF 格式中无显式正负号的前缀字段（如 MR 栏中的 unsigned 字符串）自动解析为已知正号（+delta）；无号在 ENSDF 语义中代表符号未知（sign is unknown），自动赋值正号会强加虚假干涉项符号。",
+            "在解析 ENSDF Gamma 记录时，必须显式检查列 77 的多重放置标志（C 栏）；标志为 '&' 的跃迁代表同一观测强度未被分割并重复记录，严禁直接求和，否则导致跃迁强度成倍虚假放大。",
+            "严禁直接将相对光子强度 RI 等同于能级绝对分支比；提取绝对跃迁几率与偏衰变宽度必须完整乘以 Normalization 记录的系数乘积（NR * BR 或 NT），脱离归一化记录将导致跃迁强度 B(E2)/B(M1) 发生数倍至数十倍的灾难性放大。"
+        ]
+    }
+
+    out_path = "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/ensdf-format-semantics-audit-033.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(audit_data, f, indent=2, ensure_ascii=False)
+
+    print(f"Successfully generated Checkpoint 033 audit artifact: {out_path}")
+
+if __name__ == "__main__":
+    run_audit()

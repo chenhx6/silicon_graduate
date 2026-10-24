@@ -30,6 +30,8 @@ tags: [band-termination, high-spin, CNS, alignment, collectivity]
 
 # Termination of rotational bands
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - A. V. Afanasjev *et al.*, *Phys. Rep.* **322**, 1–124 (1999), PII `S0370-1573(99)00035-6`.
@@ -87,3 +89,11 @@ Afanasjev *et al.* establish the theory and experimental evidence map for rotati
 ## Extracted Pages
 
 - Concepts/models: [[band-termination]], [[rotating-mean-field]], [[cranked-shell-model]]。
+
+## Day21周考推断阶梯审计：能带光滑终止与四极矩Qt塌缩证据门边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint017_band_termination_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/band-termination-audit-017.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AF99-D21-1 | Afanasjev 1999 综述系统确立能带光滑终止推断阶梯边界：(1) 微观角动量耗尽机制：在固定价核子组态下，角动量增加完全由各核子向转轴对齐承载，体系沿 $(arepsilon_2, \gamma)$ 轨迹由长椭集体转动（$\gamma = 0^\circ$）光滑演化至非集体扁椭态（$\gamma = 60^\circ$）；(2) 过渡四极矩 $Q_t 	o 0$ 塌缩判据：在 $^{109}	ext{Sb}$ 中，DSAM 实测证明 $Q_t$ 从 $29/2^+$ 态的 $2.85(25)\ e	ext{b}$ 经 5 个跃迁平滑暴跌至 $49/2^+$ 态的 $\le 0.35\ e	ext{b}$（跌落达 $87.7\%$），证实集体四极形变的内禀消失；(3) 终止自旋代数闭合：终止态自旋 $I_{	ext{max}} = 83/2^+$ 与价核子在对称轴上投影最大值严格吻合。推断阶梯确立：严禁将谱线计数不足或常规带交叉回弯断言为能带终止，确证终止必须依赖 $Q_t 	o 0$ 平滑塌缩与价角动量代数闭合。 | claim-boundary-audit | direct-and-derived | Phys. Rep. 322, 1 pp.33-40, 54-95; band-termination-audit-017.json | true |

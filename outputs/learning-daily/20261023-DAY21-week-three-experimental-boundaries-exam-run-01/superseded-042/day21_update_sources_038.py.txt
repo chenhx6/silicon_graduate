@@ -1,0 +1,80 @@
+
+import os
+
+# 1. Update knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md
+src_path = "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md"
+with open(src_path, "r", encoding="utf-8") as f:
+    src_text = f.read()
+
+claim_d21 = "| CH24-D21-1 | 依据 Chakraborty et al. 2024 PRC 110, 024324 对 129Ba 365-keV 跃迁混合比双解重分析与低自旋纵向摆动可能性主张开展推断阶梯对账证明：(1) 该重分析完全依赖 Gizon 1978 与 Mueller 1992 历史旧数据，无新实验测量；(2) 365-keV 跃迁角分布与弱偏振数据存在两个卡方解：历史小解 delta_1 = -0.815(25)（E2 占 39.9%，M1 占 60.1%，M1 主导常规准粒子跃迁）与大解 delta_2 = -2.00(20)（E2 占 80.0%，M1 占 20.0%）；作者依据三轴粒子转子模型（TPRM）的理论预期挑选大解，重演了 135Pr 与 187Au 中依据理论模型偏好挑选多极根的推断漏洞；(3) 13/2- 能级绝对寿命 tau 处于完全未测空白，跨越微观皮秒合理区间（tau = 1–500 ps），外推的绝对跃迁几率 B(E2_out) 漂移跨度达 500 倍（2436 降至 4.87 W.u.）；若 tau > 100 ps，B(E2_out) < 25 W.u.，集体摆动模式完全不成立；(4) 原文标题与摘要严格限定为“探索可能性（possibility）”并明确指出确证必须依赖未来寿命测量，严禁在下游综述与文献中将其虚假升级为“已确证的摆动运动”。 | legacy-reanalysis-wobbling-boundary | legacy-reanalysis-and-quantitative-audit | Phys. Rev. C 110, 024324 Figs.2–7; ba129-wobbling-reanalysis-audit-038.json | true |"
+
+if "CH24-D21-1" not in src_text:
+    target_row = "| CH24-D18-15 |"
+    lines = src_text.splitlines()
+    new_lines = []
+    for line in lines:
+        new_lines.append(line)
+        if line.startswith(target_row):
+            new_lines.append(claim_d21)
+    src_text = "\n".join(new_lines)
+
+section_d21 = """
+
+## Day 21 证据门与推断阶梯审计（Checkpoint 038）
+
+### checkpoint038：129Ba 历史数据重分析、多极混合比双解挑选与摆动可能性推断阶梯审计
+
+在 Day 21 第三周专业周考核查中，以 Chakraborty et al. 2024 PRC 110, 024324 为基准，系统审计了历史旧数据重分析中的推断阶梯边界：
+1. **数据源依赖性：** 该工作基于 Gizon 1978 与 Mueller 1992 的历史核反应数据，未开展任何新的在束核谱学或寿命测量；
+2. **多极混合比双解挑选陷阱：** $365\text{ keV}$ 跃迁（$13/2^- \to 11/2^-$）角分布与早期单探头偏振存在两个局部极小：历史小解 $\delta_1 = -0.815(25)$（$E2$ 占 $39.9\%$，$M1$ 占 $60.1\%$）与大解 $\delta_2 = -2.00(20)$（$E2$ 占 $80.0\%$）。挑选大解完全取决于三轴粒子转子模型（TPRM）对强 $E2$ 摆动跃迁的理论先验偏好，缺乏统计排他性（与 $^{135}\text{Pr}$ 和 $^{187}\text{Au}$ 被证伪的大解挑选机制完全重合）；
+3. **第四层绝对跃迁几率空白：** $13/2^-$ 态寿命未测，在合理皮秒区间（$1–500\text{ ps}$）内，$B(E2_{\text{out}})$ 具有高达 $500$ 倍的不确定度跨度（$2436$ 至 $4.87\text{ W.u.}$）。高 $E2$ 分支比绝不等于强集体性；
+4. **语域滑移防范：** 原文明确标为“探索可能性（possibility）”，严禁下游文献在无寿命测量的情况下冒充已确证集体摆动。
+"""
+
+if "checkpoint038：" not in src_text:
+    src_text += section_d21
+
+with open(src_path, "w", encoding="utf-8") as f:
+    f.write(src_text)
+print("Updated knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md")
+
+# 2. Update knowledge/methods/experimental-claim-boundaries.md
+mth_path = "knowledge/methods/experimental-claim-boundaries.md"
+with open(mth_path, "r", encoding="utf-8") as f:
+    mth_text = f.read()
+
+src_entry = "- [[chakraborty-2024-possibility-wobbling-129ba]] — 129Ba历史数据重分析、365-keV混合比双解挑选、绝对寿命缺失与摆动可能性推断边界。"
+if "[[chakraborty-2024-possibility-wobbling-129ba]]" not in mth_text:
+    target_s = "- [[ame2020-sn132-mass-curvature]] — AME2020原子核质量评价、132Sn二中子分离能曲率、经验壳能隙与奇偶质量交错推断边界。"
+    mth_text = mth_text.replace(target_s, target_s + "\n" + src_entry)
+
+case_38 = """
+### 38. 历史旧数据重分析与低自旋摇摆假说推断阶梯边界：129Ba 365-keV 跃迁混合比双解挑选陷阱、绝对寿命缺失与可能性（Possibility）向事实（Fact）的过度推广
+
+在奇 $A$ 过渡区原子核（$A\approx 130$）低自旋集体激发模式探索中，历史谱学实验数据的重新拟合与理论唯象重解释是近年来文献中的多发模式（Chakraborty et al. 2024 PRC 110, 024324，[[chakraborty-2024-possibility-wobbling-129ba]] 对比 Chakraborty 2024 arXiv:2108.05313v3，[[chakraborty-2024-ba129-365-mixing-ratio-arxiv-v3]] 及 Gizon 1978 PRC 17，对比 Lv 2022 PLB 与 Guo 2022 PLB）：
+- **表观实验特征与推断阶梯分水岭（Level 1–2 到 Level 3–5）：**
+  Chakraborty 等利用 Gizon 1978 与 Mueller 1992 年发表的 $^{129}\text{Ba}$ 历史带间跃迁数据，重新提取了连接候选摆动带（Band 3，$13/2^-$）至基态推转带（Band 1，$11/2^-$）的关键 $365\text{ keV}$ 跃迁的多极混合比 $\delta$。作者提出 $\delta = -2.00 \pm 0.20$ 的大模数解，对应 $E2$ 份额高达 $80 \pm 4\%$（$M1$ 仅占 $20\%$）；结合三轴粒子转子模型（TPRM）与拟摆动能 $E_{\text{wob}}$ 的自旋趋势，提出 Band 3 可能是基于 $\nu h_{11/2}$ 组态的纵向摆动（Longitudinal Wobbling）声子带。然而，这一推断跨越了三重严重的实验阶梯边界。
+- **推断阶梯漏洞剖析：**
+  1. **历史数据角分布与弱偏振双解简并下的“理论偏好挑选”陷阱（Model-Biased Root Selection）：**
+     在 $\Delta I = 1$（$13/2 \to 11/2$）退激跃迁中，角分布各向异性系数 $A_2(\delta)$ 是多极混合比 $\delta$ 的非线性代数二次函数。实验数据在 $\chi^2(\delta)$ 曲面上不可避免地存在两个极小值：
+     - **历史小解（Root 1）：** $\delta_1 = -0.815 \pm 0.025$，导出 $E2$ 份额为 $39.9\%$，$M1$ 份额为 $60.1\%$（$M1$ 占绝对优势，处于常规单准粒子转动带间特征区间）；
+     - **重分析大解（Root 2）：** $\delta_2 = -2.00 \pm 0.20$，导出 $E2$ 份额激增为 $80.0\%$，$M1$ 仅占 $20.0\%$（$E2$ 占绝对优势）。
+     四十余年前测得的早期偏振数据误差极大（$P = 0.072 \pm 0.068$，显著性仅 $1.06\sigma$），根本无法在统计上以 $3\sigma$ 显著性排除 Root 1。作者明确基于 TPRM 理论计算预言强 $E2$ 跃迁的期待，主观挑选了大模解 Root 2。这一做法完全重演了 $^{135}\text{Pr}$（Matta 2015 依据理论挑选大解 $\delta=-1.54$，后被 Lv 2022 现代偏振证伪为小解 $\delta=-0.37$，$M1$ 达 $88\%$）与 $^{187}\text{Au}$（Sensharma 2020 挑选大解 $\delta=-1.5$，后被 Guo 2022 证伪为小解 $\delta=-0.27$）的历史覆辙；
+  2. **第四层绝对跃迁几率（$B(E2_{\text{out}})$）的绝对空白与寿命盲区：**
+     在整个 $^{129}\text{Ba}$ 谱系中，带头能级 $13/2^-$ 的绝对寿命 $\tau$ 处于完全未测状态。在缺乏绝对寿命的情况下，即使跃迁辐射百分比达到 $80\% E2$，推断阶梯第四层（绝对约化跃迁几率）仍然完全开放：
+     $$B(E2; 13/2^- \to 11/2^-) \propto \frac{b_\gamma \cdot (E2\%)}{\tau \cdot E_\gamma^5}$$
+     在过渡核单准粒子激发态的典型皮秒寿命区间（$\tau = 1.0 - 500\text{ ps}$）内，$B(E2_{\text{out}})$ 的数值横跨 **$2436\text{ W.u.}$ 到 $4.87\text{ W.u.}$，相差达 $500$ 倍之巨**！若实际寿命 $\tau \ge 100\text{ ps}$，$B(E2_{\text{out}})$ 将跌破 $20\text{ W.u.}$，彻底丧失三轴集体摆动运动所必须的巨幅电四极增强特征。没有绝对寿命，单凭辐射百分比绝不可能确立集体声子激发；
+  3. **学术传播中从“探索可能性（Possibility）”向“确证事实（Fact）”的非法语域滑移：**
+     Chakraborty 等在 PRC 110 原文标题中使用 *“Exploring the possibility of wobbling motion in $^{129}\text{Ba}$”*，正文中明确将结论限定为“可能（likely）”，并在结论最后郑重强调：*“进一步的高统计量实验测量，特别是绝对寿命测量，对于无可争辩地确立摆动性质是必不可少的（essential）”*。然而，在后续文献综述、跨核区比较或理论引用中，该核常被不加限制地列入“已发现纵向摆动的原子核清单”。这种将作者审慎的“可能性假说”人为升格为“实验确证”的做法，严重违反了学术诚信与推断阶梯的严密性。
+- **证据门准则：**
+  1. **严禁仅凭历史旧数据的重分析，在缺乏高精度现代偏振去污染的前提下，通过理论模型偏好挑选多极混合比大模数解（如挑选 $|\delta| > 1.5$）并据此断言集体摆动模式**；
+  2. **严禁在激发能级绝对寿命 $\tau$（或绝对衰变宽度）未测的条件下确证任何原子核集体摆动假说**；无寿命约束时提取的表观 $B(E2_{\text{out}})$ 具有数个数量级的发散度，高 $E2$ 分支比绝不等于强集体增强；
+  3. **在文献引用与知识综合中，严禁将原作者明确标定为“探索可能性（possibility）”或“推测（likely）”且声明“寿命缺失”的暂定假说直接作为确定事实引证**。
+"""
+
+if "### 38. 历史旧数据重分析与低自旋摇摆假说推断阶梯边界" not in mth_text:
+    mth_text += case_38
+
+with open(mth_path, "w", encoding="utf-8") as f:
+    f.write(mth_text)
+print("Updated knowledge/methods/experimental-claim-boundaries.md")

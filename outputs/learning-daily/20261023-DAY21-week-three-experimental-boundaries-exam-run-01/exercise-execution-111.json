@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint111_lv19_mchd_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "lv19-mchd-scope-111.json",
+  "scope": "literal audit of CDFT vs tuned PRM parameters and positive-parity evidence boundaries in Lv 2019; not PRM code replay or experimental CI"
+}

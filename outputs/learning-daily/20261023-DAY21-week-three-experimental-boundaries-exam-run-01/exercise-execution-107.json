@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "system/scripts/day21_checkpoint107_knockout_scope.py"
+  ],
+  "exit_code": 0,
+  "evidence": "actual exec_command output preceding writeback",
+  "output": "knockout-scope-result-107.json",
+  "scope": "literal central bookkeeping and declared normalization identity; not knockout analysis replay or experimental CI"
+}

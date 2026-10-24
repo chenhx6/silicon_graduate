@@ -1,0 +1,189 @@
+---
+type: source
+title: "Evidence for Multiple Chiral Doublet Bands in 133Ce"
+aliases: [Ayangeakaa 2013 133Ce MχD]
+created: 2026-07-13
+updated: 2026-09-20
+status: active
+review_status: human-reviewed
+source_type: journal-article-experiment
+reading_depth: deep-read
+title_original: "Evidence for Multiple Chiral Doublet Bands in 133Ce"
+authors: [A. D. Ayangeakaa, U. Garg, M. D. Anthony, S. Frauendorf, J. T. Matta, B. K. Nayak, D. Patel, Q. B. Chen, S. Q. Zhang, P. W. Zhao, B. Qi, J. Meng, R. V. F. Janssens, M. P. Carpenter, C. J. Chiara, F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S. Ghugre, R. Palit]
+journal: Physical Review Letters
+year: 2013
+volume: 110
+pages: 172504
+doi: 10.1103/PhysRevLett.110.172504
+arxiv:
+language: en
+canonical_source: doi:10.1103/PhysRevLett.110.172504
+zotero_item_key:
+citation_key: ayangeakaa_2013_EvidenceMultiple
+zotero_uri:
+library_file:
+raw_file: "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf"
+raw_sha256: 91EC60DFA43E7D8748276E18327028D8EABDF6C5047682726B0DA4A656D5E837
+alternate_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf"
+alternate_version_sha256: 3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f
+alternate_version_identity: "PRL 110, 172504 electronic reprint; same title/DOI and five-page article"
+nuclei: [133ce]
+reactions: [116Cd(22Ne,5n)133Ce]
+experiments: [atlas-133ce-ne22-112mev]
+models: [covariant-density-functional-theory, triaxial-particle-rotor-model]
+observables: [dco-ratio, angular-distribution, energy-staggering-parameter, bm1-be2-ratio]
+methods: [gamma-gamma-coincidence, dco-ratio, angular-distribution]
+tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectroscopy]
+---
+
+# Ayangeakaa 等（2013）：`133Ce` 中多个手征双带证据
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Bibliographic Record
+
+*Physical Review Letters* 110 (2013) 172504，DOI `10.1103/PhysRevLett.110.172504`。BibTeX key 由题名与 DOI 唯一匹配为 `ayangeakaa_2013_EvidenceMultiple`。
+
+## Scope and Reading Depth
+
+规范期刊版已全文 deep-read；本批提供的五页电子 reprint was reread end-to-end to audit experiment, Fig.1 level scheme/linking transitions, DCO/angular-distribution assignments, Fig.2 fingerprints, Fig.3/Table I RMF, TPRM input, Coriolis attenuation, lifetime gap and MχD/shape-coexistence attribution. No material claim change was found.
+
+## Summary
+
+论文在同一 `133Ce` 数据集中建立两组候选伙伴带：正宇称 Bands 2–3 与负宇称 Bands 5–6。观测到的带内、crossover 和 linking transitions 以及 DCO/角分布结果用于限定同宇称与多极性；close energies、`S(I)` 和实验 `B(M1)/B(E2)` 趋势构成作者的 chirality fingerprints。constrained triaxial RMF 给出两套三准粒子组态及不同三轴极小，TPRM 以这些形变为输入比较能量和跃迁比。MχD 和 triaxial shape coexistence 是作者结合实验结构与模型得到的解释，不是由某个单一 observable 直接测得。
+
+## Experimental or Theoretical Setup
+
+- 两次 ATLAS 测量均用 112 MeV `22Ne` 束流，通过 `116Cd(22Ne,5n)133Ce` 布居高自旋态。
+- Gammasphere 记录四重及以上 prompt gamma coincidences，合计约 `4.1 x 10^9` events；RADWARE 分析。
+- DCO ratios 为主要多极性判据；可行处用 angular-distribution analyses 复核。
+- constrained triaxial RMF（PK1）提供组态/形变，TPRM 比较能谱和电磁跃迁比。
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A13-1 | 两次实验均通过 112 MeV `116Cd(22Ne,5n)133Ce` 反应，用 Gammasphere 收集四重及以上 prompt coincidences；合并数据约 `4.1 x 10^9` events，并用 RADWARE 分析。 | observed-fact | direct | PDF p.1, experimental paragraph | false |
+| A13-2 | 本文显著扩展既有能级纲图；新能级的 spin/parity 主要依据 DCO ratios，并在可行处用 angular-distribution analyses 复核。 | experimental-assignment | direct | PDF p.1, final experimental paragraph; Fig.1 | false |
+| A13-3 | 正宇称候选对 Bands 2–3 被延伸至 `33/2+`，新增 crossover 与 linking transitions；带内 `Delta I=1` 和 328/338/391 keV links 被指认为 mixed `M1/E2`，544/615 keV links 为 `E2`，共同支持两带同宇称。 | experimental-assignment | direct | PDF pp.1-2, Fig.1 and paragraph below | false |
+| A13-4 | 作者根据相互连接/共同退激结构及 RMF 计算，把 Bands 2–3 指认为 `pi(g7/2)^-1(h11/2)^1 x nu(h11/2)^-1`；这是实验结构与模型联合的 configuration assignment，不是直接测量。 | author-interpretation | direct | PDF p.2, paragraph below Fig.1 | false |
+| A13-5 | 负宇称候选对 Bands 5–6 中 Band 6 为新带；其 363/367/442/423/468/491 keV 带内线被指认为 `M1/E2`，711/779 keV links 的 `A2/A0` 分别为 `-0.622(13)`、`-0.7312(32)`，1074/1146 keV links 的 DCO ratios 与 stretched `E2` 相容，从而支持 Band 6 与 Band 5 同为负宇称。 | experimental-assignment | direct | PDF pp.2-3, Fig.1 inset and first paragraph on p.3 | false |
+| A13-6 | Fig.2 给出两对带的实验 excitation energies、`S(I)` 与 `B(M1)/B(E2)` ratios；论文明确说明这些带未能进行 lifetime measurements，因此没有获得作者所称的重要 transition-probability 独立确认。 | observed-fact | direct | PDF p.3, Fig.2 caption and paragraph above Fig.2 | false |
+| A13-7 | Bands 5–6 的能量间隔约 400 keV 并在较宽自旋区近似恒定；Bands 2–3 约 100 keV。作者结合近恒定 `S(I)` 和相似 `B(M1)/B(E2)` 趋势，将两组解释为 chiral partners。 | author-interpretation | direct | PDF pp.4-5, discussion of Fig.2 | false |
+| A13-8 | constrained RMF（PK1）给出 ground-state 三轴且 gamma-soft 的 `(beta2,gamma)=(0.20,11.1 deg)`；states a/b 被分别视为 Bands 2/5 的 bandhead states，计算形变为 `(0.22,17.5 deg)`、`(0.23,15.2 deg)`。这些 bandhead 对应、形变与组态是模型结果。 | model-result | direct | PDF pp.3-4, Fig.3 and Table I | false |
+| A13-9 | TPRM 使用 RMF 的 `beta/gamma` 作为输入，转子 moment of inertia 调整到实验能量；Bands 2–3 另用 Coriolis attenuation `xi=0.7`，作者把它联系到低 `j` `g7/2` 轨道混合。 | model-result | direct | PDF pp.4-5, paragraphs below Table I and below Fig.2 | false |
+| A13-10 | TPRM 较好再现两对带的能量和总体 `B(M1)/B(E2)` 趋势，但计算没有明显 odd-even staggering，而实验显示小幅 staggering；作者将偏差联系到 vibrational-to-tunneling 演化的细节。 | model-result | direct | PDF pp.4-5, Fig.2 discussion | false |
+| A13-11 | 作者把 Bands 5–6 的约 400 keV 间隔和跃迁趋势解释为 chiral vibration，其中 Band 5/6 分别对应 zero-/one-phonon states；该 phonon 标签属于作者/模型解释。 | author-interpretation | direct | PDF p.4, lower half | false |
+| A13-12 | 论文将结果称为首个 MχD strong experimental evidence，并认为 RMF+TPRM 支持 `133Ce` 中 triaxial shape coexistence；“first/confirm”均应归于作者结论，不能改写为无条件实验事实。 | author-interpretation | direct | PDF p.1, introduction; p.5, Summary | false |
+| A13-13 | 作者指出 transition-probability measurements 曾为同中子素 `135Nd` 的手征带提供重要确认；虽然本实验无法测量寿命，但 `135Nd` 手征带对与 `133Ce` Bands 5–6 具有相同的建议组态，作者以此系统学相似性为手征解释增加可信度。该邻核比较可适当弥补本实验信息缺口，但不替代 `133Ce` 自身的寿命或绝对跃迁强度测量。 | author-interpretation | direct | PDF p.3, paragraph above Fig.2; p.4, discussion of Bands 5–6 | false |
+
+## Nuclear Structure Information
+
+- [[133ce-positive-parity-mchd-pair]]：论文标签 Bands 2–3，候选三准粒子正宇称组态。
+- [[133ce-negative-parity-mchd-pair]]：论文标签 Bands 5–6，候选三准粒子负宇称组态。
+- 这些 pair-page 名称避免与当前 Wiki 中来源不同、标签语境不同的 `133ce-band-2` 混同。
+
+## Authors' Interpretation
+
+作者综合 linking structures、同宇称指认、close energies、`S(I)`、`B(M1)/B(E2)` 及 RMF+TPRM 比较，将两组带解释为 MχD，并把不同三轴组态联系到 triaxial shape coexistence。
+
+## Model Results
+
+- RMF：组态、势能曲线和 `beta/gamma` 极小。
+- TPRM：以 RMF 形变为输入，调整 moment of inertia，并对正宇称对使用 `xi=0.7`；比较能量、`S(I)` 与 `B(M1)/B(E2)`。
+
+## Competing Interpretations and Limitations
+
+- 没有 lifetime measurements；实验 `B(M1)/B(E2)` ratios 不等同于绝对 transition probabilities。
+- 作者以同中子素 `135Nd` 中相同建议组态的手征带系统学为补充支持；这是邻核比较，不是 `133Ce` 自身 transition probabilities 的替代。
+- 模型未完全再现实验 staggering；moment of inertia 与 Coriolis attenuation 含拟合/现象学输入。
+- close energies、`S(I)` 或相似 transition ratios 任一项都不是独立充分判据。
+- configuration 和 triaxial shape coexistence 依赖 RMF/TPRM 联合解释。
+
+## Project Relation
+
+作为 [[nuclear-chirality-and-multiple-chiral-doublet-bands]] 中 `133Ce` 支持 MχD 的原始实验 source；与 Meng 2010 理论背景形成联系，但不构成简单“预言已完全证实”的线性关系。
+
+## Human Review Record
+
+- 2026-07-13：用户审核 `A13-1..12` 完毕；明确 states a/b 分别是 Bands 2/5 的 bandhead states，并补入 `135Nd` 同中子素系统学对寿命缺口的有限补充作用（`A13-13`）。
+
+## Extracted Pages
+
+- Nuclei: [[133ce]]
+- Bands: [[133ce-positive-parity-mchd-pair]], [[133ce-negative-parity-mchd-pair]]
+- Concepts: [[multiple-chiral-doublet-bands]], [[triaxial-shape-coexistence]]
+- Methods: [[dco-ratio]], [[angular-distribution]]
+- Models: [[covariant-density-functional-theory]], [[triaxial-particle-rotor-model]]
+- Project: [[nuclear-chirality-and-multiple-chiral-doublet-bands]]
+
+## Personal Notes
+
+该文是支持方原始实验来源，但其 MχD 与 shape-coexistence 结论必须保留 author/model attribution 和 lifetime gap。
+
+## Alternate-version self-audit (2026-09-20)
+
+- The alternate reprint has the same PRL title, authors, DOI, five-page structure and reported values as the canonical source. It confirms the two candidate pairs (Bands 2–3 and 5–6), the `4.1×10^9` event total, the DCO/angular-distribution assignments, RMF/TPRM parameters and the absence of direct lifetimes.
+- It is an exact same-paper version audit, not an independent experiment; the existing human-review record remains limited to the prior page-level scope, while this alternate-version check is Codex self-audit.
+
+## Day19量化审计：MchiD模型依赖、Coriolis衰减与寿命缺失证据边界
+
+> checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
+
+
+依据独立审计程序 `system/scripts/day19_signature_splitting_coriolis_audit.py` 的 11 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/signature-splitting-coriolis-result-039.json`，系统核准了 Ayangeakaa 2013（PRL 110, 172504）关于 $^{133}\text{Ce}$ 多重手征双重带（M$\chi$D）的模型依赖与证据边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D19-1 | Ayangeakaa 2013 在 $^{133}\text{Ce}$ 报告的两对候选手征双重带呈现显著的组态与动力学分化：正宇称对（Bands 2-3，能级差 $\Delta E \sim 100\text{ keV}$）在 TPRM 中必须人为引入科里奥利衰减因子 $\xi = 0.7$，以压制低-$j$ $g_{7/2}$ 轨道的混合；而负宇称对（Bands 5-6，能级差 $\Delta E \approx 400\text{ keV}$，达正宇称对的 4 倍）在全耦合（$\xi = 1.0$）下被解释为手征振动模式（0-声子与 1-声子）。定量审计表明，由于实验未测定两对带的激发态寿命，仅凭相对 $\gamma$ 射线强度推导的 $B(M1)/B(E2)$ 比值无法解耦三轴形变 $\gamma$ 与现象学衰减 $\xi$ 的连续简并山谷（在 $\gamma = 17.5^\circ$ 处对应 $\xi \approx 0.53\text{--}0.70$）；缺少绝对 $B(E2)$ 跃迁几率使 $400\text{ keV}$ 的大能隙振动态无法严格排除非手征单粒子激发机制。实验寿命测量是闭合 M$\chi$D 证据链不可替代的核心判据。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRL 110, 172504 pp.3-5; Figs.2-3; signature-splitting-coriolis-result-039.json | true |
+## Day20量化审计：MchiD三轴形状共存模型依赖、Coriolis衰减与电磁解卷积（checkpoint028）
+
+> checkpoint032：本节旧认证已撤回；程序通过只曾检自设输入。以下R32为本次定向原读纠正。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D20-1 | checkpoint032：旧科学认证撤回，原因：No solved Hamiltonian/barrier/action or parameter refit; invented q/Q0 and xi/beta proportionalities; WKB trend inverted; unsupported model-independent full-closure hierarchy.；当前可用陈述见下方R32原读纠正。 | withdrawn-task-certification | rejected-and-replaced | checkpoint032; A13-D20-R32-1 | true |
+
+## checkpoint032：原件定位与科学认证纠正
+
+本次Codex self-audit，原review状态与全部已有claim flags保持；不是新增独立实验或全文阅读认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A13-D20-R32-1 | 本地canonical是8页作者稿；PDF4寿命段明确这些带未测寿命，PDF5 TableI的β/γ为RMF，PDF6使用ξ=.7解释正宇称对低j混合。旧56.8%势垒、q比例反演、ξ/β响应及无模型依赖闭环均无此处原文推导，撤回。原A13-1..13人工review不扩展到本新增self-audit。 | source-reading-and-model-boundary | direct-original-and-correction | local author PDF4 lifetime paragraph; PDF5 TableI; PDF6 Coriolis paragraph | true |
+
+
+## Day20量化审计：MchiD多重手征双带势垒比、寿命缺口与伪简并判据审计（checkpoint137）
+
+> checkpoint146：本节科学认证撤回。旧文本与指纹保存在history-before-repair-146.json。先前原件纠错与原review/flags保留；passed不认证实际实验/结构结论。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D20-R137-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## Day 21周考对比：133Ce多重手征双带与跨核寿命外推假说审计（Checkpoint 004）
+
+在第三次周考（[[experimental-claim-boundaries]]）中，将 133Ce 多重手征双带候选作为推断阶梯跨核证据外推的典型边界：
+1. **本核寿命缺失：** 论文未测定能级寿命（tau 缺失），仅测得相对分支比与 B(M1)/B(E2) 实验比值趋势；
+2. **跨核外推假说：** 作者借助同中子素 135Nd（[[mukhopadhyay-2007-135nd-chiral-vibration-static]]）测得的对称 B(E2) 来推断 133Ce 负宇称带的手征性；然而 134Pr（[[petrache-2006-near-degenerate-chiral-misinterpretation]]）反例已证明同中子素准粒子交叉可导致 2 倍的 Qt 非对称；
+3. **能隙尺度非排他：** 负宇称 Bands 5-6 的 400 keV 能隙与常规准粒子或伽马振动尺度相当，“单声子手征振动”不具备排他性；确立严禁用邻核寿命替代本核测量的证据门准则。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| A13-D21-1 | 133Ce MChD 指认缺乏本核能级寿命测量，其借助 135Nd 对称 B(E2) 外推的手征假说受限于 134Pr 证明的同中子素形变分化反例；400 keV 能隙不排除非手征激发，确立跨核外推不能替代本核绝对跃迁几率测量。 | wiki-synthesis | indirect | PRL 110, 172504 p.3; [[experimental-claim-boundaries]] | true |
+
+## Day21 checkpoint057：133Ce跨核寿命借用与能级间距非排他性审计
+
+在冻结前置回忆后，重新精读Ayangeakaa等2013年PRL 110, 172504原件全文5页及Fig. 1/2。原文BibTeX为`ayangeakaa_2013_EvidenceMultiple`，本地raw文件SHA-256匹配为`91EC60DFA43E7D8748276E18327028D8EABDF6C5047682726B0DA4A656D5E837`。原A13-1至13、review_status与needs_review保持。以下为本检查点补充的定向审计声明：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A13-D21-R57-1 | 论文在p. 3明确承认本实验未能测定能级寿命（"lifetime measurements were not feasible for bands reported here"），未能测得绝对B(E2)或B(M1)几率；对手征性质的确认系借助同中子素135Nd具有相同组态πh11/2^2 ⊗ νh11/2^-1且已测得对称B(E2)的系统学类比外推。 | observable-absence-and-borrowing | direct-original | PRL 110, 172504 p. 3左栏 | true |
+| A13-D21-R57-2 | 负宇称Bands 5–6的能级劈裂高达约400 keV，完全落在常规单粒子轨道重排列与γ-振动能量尺度之内；在未测定能级寿命前提下，将其归为0-和1-声子“手征振动”高度依赖TPRM模型拟合，非排他性实验事实。 | interpretation-and-energy-scale-boundary | direct-and-derived | PRL 110, 172504 p. 3 Fig. 2及p. 4 | true |
+| A13-D21-R57-3 | 跨核借用推理受到134Pr（N=75, Z=59）反例的直接限制：同中子素且仅差一个质子的体系中，准粒子交叉导致两带内禀四极矩比值高达2.0(4)；严禁用135Nd的对称性担保133Ce的对称性，推断阶梯要求必须基于本核实测寿命。 | methodological-transfer-boundary | direct-and-synthesized | PRL 110, 172504 p. 3; [[petrache-2006-near-degenerate-chiral-misinterpretation]] | true |
+
+### 科学判定与学习决策
+
+- 既有理解：Ayangeakaa 2013是提出首个多重手征双带（MχD）候选的实验文献。
+- 影响：limits。核准其未测寿命的事实，确立其手征论证核心依赖对135Nd的跨核借用；明确400 keV大能隙的非排他性与禁止跨核借用寿命的证据门准则。
+- 持久化：更新本source页与方法页推断阶梯Case Study 4。

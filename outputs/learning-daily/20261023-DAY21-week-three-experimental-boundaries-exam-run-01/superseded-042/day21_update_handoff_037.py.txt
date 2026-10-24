@@ -1,0 +1,27 @@
+
+path = "system/handoff.md"
+with open(path, "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Update header
+text = text.replace("## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 036）", "## 当前唯一执行入口 — Day21正式卡推进中（Checkpoint 037）")
+
+cp037_entry = """Checkpoint 037实质推进：
+(1) 原子核质量评价（AME2020）、二中子分离能曲率与经验壳能隙推断阶梯边界审计（Wang 2021 CPC 45 对照 Jones 2010 Nature 与 Orlandi 2018 PLB）：深入剖析宏观基态结合能差分向微观单粒子壳能隙与配对能隙反演的多体物理与统计假定漏洞；
+(2) 量化程序审计：运行独立程序 day21_checkpoint037_ame2020_mass_curvature_audit.py 产出 ame2020-mass-curvature-audit-037.json（3 项物理控制全过）；
+(3) 二中子曲率（Delta_2n）与单中子壳隙（Delta_n）的分化：132Sn 二中子曲率阶跃 Delta_2n = 6527.13(462) keV 较单中子壳隙 Delta_n = 4954.64(453) keV 显著高出 31.7%（1572.5 keV 差量），证实二阶差分混入了价核子残余对能与宏观质量面平滑曲率，不能直接作为微观单粒子壳能隙；
+(4) 经验分离能差分与微观单粒子能心重整化：Delta_n = 4.955 MeV 仅反映 A-1, A, A+1 基态总结合能差，自洽核芯重排极化与粒子—振动耦合（PVC）使未扰动单中子轨道能心间距 epsilon(2f7/2) - epsilon(2d3/2) 漂移至约 5.60 MeV（偏高 +13.1%）；
+(5) 奇偶质量交错（OES）与平滑曲率污染：131Ba 三点奇偶交错指标 Delta^(3)_n = 1166.88 keV 混入约 12% 的宏观平滑曲率项（~140 keV），脱离高阶差分滤波器直接作为 BCS 对隙将产生系统性虚高；
+(6) 证据门新准则：确立“严禁将二中子分离能曲率直接等同于单粒子壳隙与严禁脱离高阶滤波器提取配对能隙”的核心证据门准则；
+(7) 知识库更新：更新 ame2020-sn132-mass-curvature.md 与 experimental-claim-boundaries.md；
+(8) 质量检查与写回验证：wiki_lint（0 error）、boundary_check（OK）、git diff --check（Clean）、validate_writeback（81 篇知识页 valid: true）。
+"""
+
+target = "Checkpoint 036实质推进："
+if target in text and "Checkpoint 037实质推进：" not in text:
+    text = text.replace(target, cp037_entry + chr(10) + target)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.write(text)
+
+print("Updated system/handoff.md to Checkpoint 037 successfully.")

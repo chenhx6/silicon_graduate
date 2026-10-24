@@ -30,6 +30,8 @@ tags: [experiment-ingest, longitudinal-wobbling, low-spin, a130]
 
 # Longitudinal wobbling in `133La`
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 EPJ A 55, 159 (2019), DOI `10.1140/epja/i2019-12856-5`; PDF/BibTeX identity checked.
@@ -188,3 +190,23 @@ P0: inspect Fig.4/5 branch selection and Table 1 before using transition ratios.
 |---|---|---|---|---|---|
 | BI19-D20-R42-1 | 758/874/982keV的spin17/2→15/2、21/2→19/2、25/2→23/2，旧022各低1ℏ。Table1联合DCO-P δ−2.05(+.39/−.30)、−2.60(+.46/−.47)、−3.07(+.47/−.65)与E2out/in1.127/.716/.545；旧小δ仅chosen敏感性，未在Table1作为实验分支，不认证概率/单粒子化。 | literal-spin-and-root-scope | original-selected-and-conditional | PDF2 Fig1; PDF3–4 Figs2–5; PDF5 Table1 | true |
 | BI19-D20-R42-2 | 作者以正宇称pair提前沿short对齐增加有效Js，使其大于Jm来解释LW；LW/TW相对于粒子与最大惯量轴判断，不能固定LW必j_medium。QTR/HFA有不同层与参数，模型解释非实验直接轨迹。 | author-inertia-geometry | original-selected-and-conditional | PDF4–6 discussion/Figs6–8 | true |
+| BI19-D21-1 | **superseded（checkpoint042）**：原件p.5 Table1为delta -2.05/-2.60/-3.07及80.8/87.1/90.4%，旧-2.1/-2.7/-3.4不符。-0.40是自选反事实，非相容实验分支；旧脚本把无旋流体中/短轴交换。作者p.6解释是有效Js增大超过Jm，旧文写反；不能判为违背物理或IBFM排他证伪。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
+
+## Day 21 checkpoint041 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/biswas-2019-longitudinal-wobbling-133la.txt。其科学认证撤回：原件p.5 Table1为delta -2.05/-2.60/-3.07及80.8/87.1/90.4%，旧-2.1/-2.7/-3.4不符。-0.40是自选反事实，非相容实验分支；旧脚本把无旋流体中/短轴交换。作者p.6解释是有效Js增大超过Jm，旧文写反；不能判为违背物理或IBFM排他证伪。
+
+## Day21 checkpoint042：133La 原件主线与量词纠正
+
+本检查点在 primed 回忆冻结后重新读取7页 VoR（SHA-256 579ecff6daa4cd8505c25966d15b998037930770e45382ccba90bae809707e03），实际视觉核 p.4 Figs.4–5、p.5 Table1 与 p.6 Figs.6–8；其余图经全文抽取阅读，未将未视觉复核的图宣称全部新视觉核。Crossref在线核验 DOI 10.1140/epja/i2019-12856-5。原human-reviewed页面状态保留，不覆盖为本次审阅结果。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BI19-D21-R42-1 | Table1三条758/874/982 keV线分别为17/2→15/2、21/2→19/2、25/2→23/2；joint DCO-P报告δ=-2.05(+.39/−.30)、−2.60(+.46/−.47)、−3.07(+.47/−.65)，印出E2份额80.8/87.1/90.4%。本任务只核中央值的δ²/(1+δ²)舍入，未把端点变换当新CI或替换作者印刷误差。 | literal-result-and-central-arithmetic | original-and-bounded-calculation | PDF p.5 Table 1 | true |
+| BI19-D21-R42-2 | 作者p.3明确σ/I=.3用于DCO，并比较angular distribution与DCO-P；Table1采用后者。δ=-.40不是本文报告的相容分支，改变σ/I至.35–.40即保留小根的旧说法未经重fit证实。Fig4原联合观测保留，不能用其它核的小根推翻本核结果。 | source-method-and-reproduction-boundary | original | PDF p.3 analysis paragraph; PDF p.4 Figs.4–5 | true |
+| BI19-D21-R42-3 | 作者解释是(dg)质子对逐渐沿short轴对齐使有效Js增大，并在summary描述超过Jm；LW定义为粒子平行最大有效惯量轴，不固定等于medium。QTR/TAC为模型解释，不能将流体核心惯量排序当实际有效惯量的物理禁令。 | author-interpretation-boundary | original | PDF p.6 Summary | true |
+| BI19-D21-R42-4 | 本文给出由强度得到的相对B(E2out)/B(E2in)=1.127/.716/.545及M1/E2比，并非绝对寿命测量；相对强度仍提供信息。不据此宣称全核或全部文献没有寿命，更不设普适20 W.u.摆动确证阈值。 | measured-relative-strength-and-scope | original | PDF p.5 Table 1 caption | true |
+
+可以说：作者报告的联合多极性结果支持强E2混合，其LW及pair解释有明确模型前提。不能说：本任务已测得M1小根、已证伪LW、惯量增长违反定理，或此核无任何寿命。下一步：取得matching取向/几何/Σ与完整likelihood，比较共同输入下多极分支、模型强度比与寿命。若在实际响应与校准不确定度内联合数据支持小δ且排除报告大δ，才构成对本实验E2链的针对性反证；此条件本次未实现。
+
+声明形状轴约定Rk=R0[1+cβ cos(γ−2πk/3)]且cβ>0，再按长度命名s/m/l；对应无旋惯量正比同角度sin²。在γ=22°时Jm/Js/Jl约.9806/.3790/.1403；此为声明转子控制，不能代替实际核的惯量提取。脚本literal-scope-audit-042.json只认证该算术范围。

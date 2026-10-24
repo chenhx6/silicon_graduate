@@ -1,0 +1,74 @@
+---
+type: concept
+title: 八极柔软性
+aliases: [octupole softness, octupole-soft nucleus]
+created: 2026-07-13
+updated: 2026-09-20
+status: active
+review_status: unreviewed
+concept_type: nuclear-shape-softness
+confidence: low
+high_confirmed_by:
+high_confirmed_date:
+tags: [octupole, softness, potential-energy-surface]
+---
+
+# 八极柔软性（Octupole Softness）
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Definition
+
+势能随 octupole coordinate（如 `beta30`）变化较平缓，允许较大八极涨落，但不要求稳定的非零八极极小。
+
+## Necessary Assumptions
+
+结论依赖所用 energy-density functional、组态约束和势能面坐标。
+
+## Discriminating Observables
+
+`beta20-beta30` PES、E1/branching systematics、`delta E` 及与 stable-octupole benchmark 的比较。
+
+## Supporting Evidence
+
+Liu 2016 的 MDC-CDFT Fig.6 对 `78Br` 给出沿 `beta30` 很软的 PES。
+
+[[li-2024-144ba-octupole-cdf-3d-lattice]] shows that the `144Ba` PC-PK1 PES around `(β20,β30)=(0.22,0.13)` is relatively soft and lies within `<1 MeV` of a reflection-symmetric point. The nonzero minimum and the softness must be reported separately.
+
+[[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]] reviews parity-restored/GCM and vibrational descriptions, reinforcing that a soft PES or low-lying `3−` state does not alone establish a rigid static octupole minimum.
+
+Day 21 Checkpoint 006 证据门量化审计（[[experimental-claim-boundaries]]，基于 `octupole-ba-audit-006.json`）系统确立 $^{144,146}\text{Ba}$ 的八极柔软物理图像：微观泛函计算表明其沿 $\beta_3$ 势垒仅 $<0.5-1.0\text{ MeV}$，显著小于单声子零点振动能（$E_{\text{ZPE}} = \frac{1}{2}\hbar \omega_3 \sim 1.0-1.5\text{ MeV}$）；基态波函数广泛弥散于 $\pm \beta_3$ 之间，零点涨落产生 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$ 与增强跃迁几率 $B(E3) \approx 48\text{ W.u.}$。低自旋宇称劈裂高达 $\Delta E(1^-) \sim 650\text{ keV}$ 直接反映八极声子振动偏移，与 $^{224}\text{Ra}$ 的刚性转子劈裂（$174\text{ keV} \to 0$）形成鲜明对照。
+
+## Counter-evidence and Competing Interpretations
+
+soft PES 不是 static [[octupole-deformation]]；模型 softness 也需实验 observables 约束。
+
+## Related Nuclei and Bands
+
+- [[78br]]。
+
+## Our Current Position
+
+用来描述 Liu 2016 的模型边界，不写成实验直接测得的稳定形状。
+
+## Sources
+
+- [[bucher-2016-144ba-direct-octupole]]
+- [[bucher-2017-146ba-direct-octupole]]
+- [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]]
+- [[li-2024-144ba-octupole-cdf-3d-lattice]]
+- [[butler-nazarewicz-1996-intrinsic-reflection-asymmetry]]
+
+## Evolution Log
+
+- 2026-07-13：由 `78Br` MDC-CDFT PES 建立。
+- 2026-09-20：加入 `144Ba` CDFT PES；保留 minimum-versus-softness 与 model-only 边界。
+
+## Day 21 Checkpoint 123 证据门升级：八极势垒深度与零点能对账、动态软振动与表观增强推断阶梯
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及成对实证审计（[[bucher-2016-144ba-direct-octupole]], [[bucher-2017-146ba-direct-octupole]], [[xiao-2022-chirality-octupole-correlations-74as]]），对八极软性（Octupole Softness）的判定确立严格的推断阶梯准则：
+
+1. **八极浅势能与零点涨落弥散机制：**
+   在八极软核（如 144,146Ba）中，微观势能面沿 $\beta_3$ 势垒仅 $<0.5–1.0\ \text{MeV}$，显著低于单声子零点振动能（$E_{\text{ZPE}} \sim 1.0–1.5\ \text{MeV}$）；基态波函数广泛弥散于 $\pm\beta_3$ 之间，零点涨落产生了有限的方差 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$ 与集体增强跃迁 $B(E3) \approx 48\ \text{W.u.}$。这种增强是动态零点振动涨落的反映，而非静态极小值。
+2. **宇称位移参数的大尺度表征：**
+   八极软核低自旋相反宇称位移保持在 $\delta E(I) \sim 600–700\ \text{keV}$，直接对应于八极奇宇称声子的振动激发能，与刚性核 $\delta E(I) \to 0$ 形成鲜明对照；确立八极软振动与静态形变的实验区分标准。

@@ -31,6 +31,8 @@ tags: [experiment-ingest, project-ingest, a130, nuclear-chirality, pseudospin, o
 
 # Evidence for Pseudospin-Chiral Quartet Bands in the Presence of Octupole Correlations
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 Physics Letters B 807, 135572 (2020), DOI `10.1016/j.physletb.2020.135572`. The protected BibTeX key is `guo_2020_Evidencepseudospinchiral`.
@@ -168,3 +170,10 @@ P0: none identified.
 | GU20-D18-12 | 作者称D3–D6难以仅按能量和连接容易地分为两对；这不构成“无寿命必不可能区分任一四带机制”的定理，也不意味着取得寿命便能唯一分类。绝对矩阵元应结合具体配置、波函数混合、几何与竞争模型检验。 | synthesis-boundary | source-and-inference | PDF pp.4–5, §3.1–3.2与Summary | true |
 
 必要companion [[kuti-2014-multiple-chiral-doublets-103rh]]仅在模型Q0输入与同组态不同耦合的pp.3–4定向重核，不宣称新完整原读或独立绝对率测量。旧分析合同与结果仅作历史运行记录，固定`passed`不验证物理适用性。本节不授课程学分，不升级review状态。
+## Day21周考推断阶梯审计：四带流形、寿命缺失与对称性破缺边界
+
+依据独立审计程序 `system/scripts/day21_checkpoint007_pseudospin_chiral_131ba_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/pseudospin-chiral-131ba-audit-007.json`，确立本源在推断阶梯上的边界：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GU20-D21-1 | Guo 2020 在 $^{131}\text{Ba}$ 中建立的 D3–D6 正宇称四带流形具有密集的相互连接跃迁，但其实验测定仅限于能级与相对分支比，**绝对能级寿命 $\tau$ 完全缺失**；在同一自旋下四带能量分散度高达 $359 - 428\text{ keV}$（约为 $^{135}\text{Nd}$ 手征近简并间距的 8 倍），且 D4 与 D5 在 $I=27/2\hbar$ 处发生明显的能序交叉，无法唯一划分为两对双带。将该流形解释为“赝自旋—手征四重带”高度依赖 RAT-PRM 组态投影，未排除准粒子对齐交叉与 Coriolis 混合；试探性引入的 $\beta_3=0.05$ 亦非测得的八极形变量。 | claim-boundary-audit | direct-and-derived | PLB 807, 135572 pp.1-5, Figs.1,4; pseudospin-chiral-131ba-audit-007.json | true |

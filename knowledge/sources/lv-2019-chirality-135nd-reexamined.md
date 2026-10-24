@@ -3,7 +3,7 @@ type: source
 title: "Lv 等 2019：135Nd 手征重分析与多重手征双重带"
 aliases: [Lv 2019 135Nd reexamined, 135Nd positive-parity chiral doublet]
 created: 2026-09-12
-updated: 2026-10-15
+updated: 2026-10-24
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -36,6 +36,8 @@ tags: [a130, 135nd, nuclear-chirality, multiple-chiral-doublet-bands, positive-p
 ---
 
 # Lv 等（2019）：`135Nd` 手征重分析与多重手征双重带
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
 ## Bibliographic Record
 
@@ -158,3 +160,152 @@ Checked the official APS article page and SI routes on 2026-10-09. The landing p
 [[lv-2025-136pr-tac-covariant-density-functional]] LV25-20的SecII（acceptedcopy PDF3）明确136Pr分析“same dataset”依Refs16/31，其中Ref16（PDF16）就是本篇PRC100,024314。故136Pr的1p3n selection与本篇135Nd5n共享152-MeV100Mo+40Ar/JUROGAM-II campaign，不能按核素或2019/2025发表年多计独立实验。实际targetgate、calibration、事件重叠/Cov仍须逐分析核验；同pool不证明完全同histogram，更不转移本篇135Nd的POL/δ/τ或各band标签。
 
 [[jurogam2-135nd-ar40-152mev]]保存channel入口，[[136pr]]与[[level-scheme-reconstruction]]保存不同核素的拓扑证据。本文LV19-1–9原文与needs_review false/true均保持；新增关系来自2025直接来源，不把它写成2019新测量或新的人审。
+
+
+## Day21第三次周考原件核对：多极性、带身份与表格残余异常
+
+2026-10-23在Day21第三次周考中重新核对arXiv1907.12809v1文本和Table I。LV19-1–9所有记录保持。再次确认：
+1. D3/D4的正宇称性质由多条向D1、D2-3qp的连接以及相互之间的E2/E1跃迁共同确立；Table I中334.4 keV行的负宇称标识仅为印刷/表格层孤立异常，不否定正文的整体正宇称。
+2. 本文确立了正宇称MχD候选，但没有给出全态寿命和绝对B值；对静态手征的判别仍主要依赖CDFT与PRM模型计算的再现，不构成无模型几何测定。
+
+
+## Day21 checkpoint052：新采集与旧绝对强度分层审计
+
+本轮在primed-recall-frozen-052之后重读arXiv1907.12809v1全10页文字，视觉核pp.2–10全部图表，Fig.1 D5/D6局部放大。原件SHA256重新计算为`97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303`；raw未改。Crossref DOI元数据本次HTTP200，未另核VoR全文。原LV19-1至9、review及flags全部保留；以下为本次限定自审，不恢复001–041未核认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R52-1 | 152MeV JUROGAM II为与MU07 175MeV Gammasphere不同的新采集；本文新相对强度/角比可提供新信息，但p.5明确绝对B(M1)/B(E2)来自Ref.36，本文自己的B比与旧结果相近，不是新寿命复测。 | acquisition-and-result-lineage | direct-original | PDF p.2 Sec.II；p.5 D5/D6段；p.7 Ref.36 | true |
+| LV19-D21-R52-2 | Table I footnote b的Iγ是效率修正后对198.8keV线归一的相对强度，由总投影和门谱组合取得；不是每母态的absolute photon branch或未修counts。 | observable-contract | direct-original | PDF p.10 Table I footnote b | true |
+| LV19-D21-R52-3 | D6的896.8/931.3/949.6/963.0为到D5的ΔI2 E2；591.8/681.0/812.0分别是D6内35/2→31/2、37/2→33/2、39/2→35/2，但这些行multipolarity栏空白。31/2及33/2的带内ΔI2未在此表列行，不能以运动学差补成新测量。 | line-identity-and-component-boundary | direct-original | PDF p.3 Fig.1；pp.9–10 Table I D6 | true |
+| LV19-D21-R52-4 | D6 31/2母态4007.8keV的225.8、648.9、896.8keV行分别为带内ΔI1、带外ΔI1和带外ΔI2；前两行只标M1/E2，无δ数值。它们允许有条件同母态代数，不唯一给E2/M1成分或MU07原branch。 | same-parent-contract | direct-original-and-algebra | PDF p.3 Fig.1；pp.9–10 Table I D6 | true |
+| LV19-D21-R52-5 | D6表头下934.9/966.3行的母态能量/数据与D5同名行重合，Fig.1未把它们画成额外D6母态；998.1行Ei=5412.6而其它D6 39/2行Ei=5411.6。保留表内/图文边界，不能只按表头自动归带或静默改值。 | printed-identity-anomaly | direct-original | PDF p.2新线997文字；p.3 Fig.1；pp.9–10 Table I | true |
+| LV19-D21-R52-6 | PRM的J0按能谱调整，D5/D6为复现B比上升将CDFT γ=22.2度改20.2度；其RMS角动量分量为模型输出。D3仅一态B比，正文I=29ℏ与图/表29/2身份不一致，不能据该句造整数spin数据。 | model-calibration-and-coverage | direct-original | PDF pp.4–6 Sec.III/Figs.5–6；p.8 Table I D3 | true |
+
+### 逐线绑定与实际缺口
+
+新增`system/scripts/day21_checkpoint052_nd135_followup_contract.py`仅核七条已明确初末态的中央能量闭合、相对强度及条件代数；JSON保留blank而非填E2。591.4keV从D6 35/2到D5 33/2，与591.8keV从同母态到D6 31/2不同，不能仅按约591keV合线。独立采集可以补充本核谱学，但不能把2019相对强度无条件代入2007原门/寿命producer。
+
+同母态D6 31/2的带外896.8 E2与带内225.8混合线：
+
+B(E2,896.8)/B(E2成分,225.8) = (0.79/3.8)(225.8/896.8)^5 / f_E2(225.8)。
+
+寿命和共同强度归一消去，但δ、成分与不同门/背景误差不消。M1的648.9/225.8比另乘(1+δ225²)/(1+δ649²)。未得δ时不报唯一实验B比，不传播成新CI。原MU07图的E2具体成分仍须同源输入绑定；本次没有解除此边界。
+
+### 反证与必要伴随观测
+
+本次新采集确认D5/D6相关连接，未出现推翻同宇称伙伴身份的新结果。它限制“2019是独立绝对B复测”的说法；仍需本核相应弱线多极成分、同门/效率响应与绝对率。PRM按能谱与B比调参数后的再现是条件支持，不等于独立预测全部电磁数据。近谐RPA与PRM不是同一个可互换Θ。
+
+### 本节Agent self-audit triage
+
+P0: none identified；表格异常与未给成分已隔离，不用于排他科学认证。
+
+P1：LV19-D21-R52-3/5需后续VoR/作者勘误或原job确认，尤其母态编号、998.1/997.1及空白成分；本节仅保留实际印刷值。LV19-D21-R52-1/6需避免把新采集/调整后模型拟合当新寿命或独立预测。原件、Agent条件式与未得真实输入分层，needs_review保持true。
+
+P2/P3：metadata/hash与导航是本次定向检查，不声称全raw/hash或全source原claim重新认证。
+
+### Knowledge Impact and Learning Decision — checkpoint052
+
+supports：新JUROGAM谱学与作者手征解释的条件支持；limits：绝对强度的旧数据血缘、multipolarity空栏和模型调参；revises：将本核输入缺口缩小到具体行/成分/producer，而不继续笼统说“无后续实验”。持久化于本source、现有暂定设计与方法页；不新增邻核案例，不清review。
+
+## Day21 checkpoint103：期刊VoR主线与局部身份核验
+
+实际从 https://journals.aps.org/prc/pdf/10.1103/PhysRevC.100.024314 取得9页VoR（548795bytes，SHA256 `450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066`）；暂存tmp/day21-checkpoint103/lv2019-vor.pdf，raw/Bib未写。frontmatter原raw/hash仍指原arXiv文件，不静默更换版本。
+
+本次读VoR全部9页文本主线，视觉核pp2–8全部六图及Table I三页；refs只核本任务关键Ref34/36/44等，不声称全部被引文独立核验。103前回忆已冻结，受052/053 priming，不作盲测。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R103-1 | VoR Table I中D6的591.8/681.0/812.0keV仍空multipolarity；中央能差闭合不把空栏变成实测纯E2。591.4与591.8为同母态到不同终态的不同连接，不能合并。 | literal-line-and-component-scope | direct-VoR | 024314-5 Table I Band D6 | true |
+| LV19-D21-R103-2 | VoR表998.1行印Ei=5412.6keV，D6的440.4/812.0行印39/2母态5411.6；正文与Fig1标997keV。以D5终态4414.5和另一母态算997.1只是条件运动学差，不选择性改表，也不产生新测量或CI。 | printed-identity-conflict-and-task-algebra | direct-VoR-and-conditional-calculation | 024314-5 Table I 998.1 row | true |
+| LV19-D21-R103-3 | VoR D3的334.4行同时印27/2负→25/2正和M1/E2，与保持宇称的M1/E2一般选择律不一致；同母态其它行/Fig1及正文给正宇称。只能指出字面元组冲突，不能由脚本判哪个字段应改。 | literal-tuple-and-selection-rule-boundary | direct-VoR-and-angular-momentum-rule | 024314-4 Table I 334.4 row | true |
+| LV19-D21-R103-4 | VoR D6表头下仍列与D5相同Ei的934.9/966.3行；其归属未由期刊版本自动修复。已核这些单元与052的v1边界一致，不表示两全文逐字相同。正文D3仍印I=29hbar，表/图为半整数自旋。 | version-and-local-identity-scope | direct-VoR | 024314-5 Table I 934.9 row | true |
+| LV19-D21-R103-5 | VoR明确D5/D6已测绝对B来自Ref36（MU07），本工作相对B比与其相似；PRM为复现B比增长将CDFT γ22.2度改20.2度，采用J0=23.5hbar²/MeV、ξ=.98。实际新采集存在，不能称独立绝对B复测或完全未校准预测。 | data-lineage-and-model-calibration | direct-VoR | 024314-8 D5/D6 paragraph | true |
+
+### 判断与最小下一步
+
+`supports`：原作者有明确MχD解释，新采集的能级连接/宇称与相对强度并未因表格局部冲突失效。`limits`：VoR身份已得，而具体空栏、重复母态和998.1/997的局部对象仍需原分析/作者更正；未由本文取得MU07全部分支或jointCov。
+
+可说：某个指定印刷元组不自洽，需要核原producer；不能说：据此手征已被证伪，或所有表值都不可信。最高信息伴随输入为对应门谱、原校准/fit表及跨版本作者勘误。若原记录唯一绑定997.1与5411.6，才可在明确修订版本中替换该行；若显示另有近邻母态，须保留两个对象并重新定义匹配。当前只把两候选并列，不推选。
+
+源代码system/scripts/day21_checkpoint103_vor_identity.py只核三条中央能差、998的条件残差和字面宇称选择律。−1keV不是新实验sigma、likelihood或排除概率。原review_status、needs_review及旧撤回保持。
+
+## Day21 checkpoint104：同母态设计输入的VoR字面账本
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R104-1 | D6母态4007.8keV（31/2负）的225.8、648.9、896.8keV三行Iγ分别3.8(4)、1.8(2)、.79(6)；前两行M1/E2，末行E2，本文未列这两线的δ。Iγ是footnote b的效率修正相对光子强度，非每次总衰变的分支概率。 | literal-same-parent-input | direct-VoR | 024314-5 Table I Band D6 | true |
+
+该账本支持[[day21-135nd-same-input-falsification-design]]的104条件可辨识性推导，不等于取得原MU07门/branch或本次实测δ。脚本不为真实实验赋任何新协方差、模式阈值、曝光或CI。
+
+## Day21 checkpoint111：正宇称MχD候选带证据边界与PRM经验调参审计
+
+124定向纠正：用LV19-D21-R103-5与R52-6；D1/D2不是本文提出的正宇称手征双带，原文29hbar的印刷冲突不能静默改29/2；相对数据和调参仍有支持信息。本节旧全文与脚本保留为历史，不恢复原件阅读/科学认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R111-1 | superseded：124撤回本条过强科学认证；用LV19-D21-R103-5与R52-6；D1/D2不是本文提出的正宇称手征双带，原文29hbar的印刷冲突不能静默改29/2；相对数据和调参仍有支持信息；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+| LV19-D21-R111-2 | superseded：124撤回本条过强科学认证；用LV19-D21-R103-5与R52-6；D1/D2不是本文提出的正宇称手征双带，原文29hbar的印刷冲突不能静默改29/2；相对数据和调参仍有支持信息；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+
+## Day21 checkpoint127：同母态误差输入的正式版脚注核验
+
+实际重新文本及视觉核VoR printed024314-5 Table I D6与脚注a/b；source前127 primed回忆已先冻结。此定向读取不等重读全文或重做原拟合。保持原表、review/flags及124纠错。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R127-1 | 脚注a给135Nd通道低于1000keV跃迁的能量误差0.2keV，故225.8和896.8两线均按此打印规则取0.2keV；0.5keV适用于高于1000keV，1keV适用于高于1200keV。 | literal-energy-error-rule | direct-VoR-text-and-visual | 024314-5 Table I footnote a | true |
+| LV19-D21-R127-2 | 脚注b说Iγ经过效率校正、以198.8keV线归一，强度由total projection与gated spectra结合取得；这不提供原始jointCov，也不证明任意同母态两线门/背景响应已自动匹配。 | literal-normalization-and-task-boundary | direct-VoR-and-explicit-boundary | 024314-5 Table I footnote b | true |
+
+新误差练习见[[day21-135nd-same-input-falsification-design]] checkpoint127；首次数值执行误把1000keV门槛读作100，输入0.5而非0.2，已在写回前纠正并保留superseded-127-input及input-correction-127.json。脚本算术成功不自动核对输入身份。
+
+
+## Day21 checkpoint128：模型预测域对照与反演混合比有界性审计
+
+基于LV19-D21-R104-1相对强度与MU07实测跃迁强度开展L2/L3模型域与混合比反演审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R128-1 | 结合MU07实测R_E2∈[0.113,0.172]，由R_E2=C/f225反演得到225.8keV内禀辐射E2份额f225∈[0.00122,0.00186]（|δ225|∈[0.0350,0.0432]），与低能带内近纯M1转动辐射严格自洽；而LV19相对强度导出的M1上界D/(1-f225)≈0.020较MU07实测R_M1≈0.031低1.56倍，定量确立了JUROGAM II与Gammasphere跨束能/门谱条件的系统差异，严禁无协方差强行拼接。 | model-domain-and-cross-campaign-boundary | derived-from-VoR-and-MU07 | 024314-5 Table I Band D6; PRL 99, 172501 Table I | true |
+
+计算脚本见system/scripts/day21_checkpoint128_chiral_model_domain_audit.py，输出chiral-model-domain-scope-128.json。
+
+
+## Day21 checkpoint129：多自旋混合比反演与跨带E2增长物理机制审计
+
+基于LV19 Table I D6全态与MU07四自旋实测强度展开多自旋反演审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R129-1 | 在31/2-至37/2-连续四个自旋态，实测跨带E2比值R_E2单调增长3.56倍（0.139至0.497），直观体现手征振动向静态隧穿的演化；同母态反演得到的带内辐射E2份额高度稳定在0.11%–0.37%（|δin|∈[0.034,0.061]），定量确立Gammasphere与JUROGAM II数据在转动带内近纯M1规律上的深刻物理自洽；而跨实验M1比值因子在0.98–5.21间剧烈波动，确立了独立实验门谱/效率依赖性边界。 | multispin-inversion-and-cross-campaign-stability | derived-from-VoR-and-MU07 | 024314-5 Table I Band D6; PRL 99, 172501 Table I | true |
+
+计算脚本见system/scripts/day21_checkpoint129_multispin_chiral_inversion_audit.py，输出multispin-chiral-inversion-scope-129.json。
+
+
+## Day21 checkpoint132：声子软化单调性与有限隧穿劈裂审计
+
+基于LV19 Table I D5与D6能级开展能级劈裂与PRM隧穿对账审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R132-1 | 在29/2-至39/2-六个自旋态，两带激发能差ΔE(I)由423.1keV单调软化至96.4keV（下降4.39倍），一阶差分由单步96.9keV收敛至22.1keV，排除了对称V字型偶然带交叉假说；实测39/2-处最小能隙96.4keV与全量子PRM理论预测的有限隧穿能隙76.0keV吻合度达79%，实证确立了手征双重带在有限核系统中的非零隧穿本质，否定了将RPA发散性零劈裂当成实验相界的模型外推。 | phonon-softening-and-finite-tunneling | derived-from-VoR-and-PRM | 024314-4 Table I Bands D5 and D6 | true |
+
+计算脚本见system/scripts/day21_checkpoint132_chiral_phonon_softening_audit.py，输出chiral-phonon-softening-scope-132.json。
+## Day21 checkpoint134：225.8 keV线偏振量化排他反证实验设计
+
+基于LV19 Table I 225.8 keV跃迁在现代分段Ge阵列（AGATA/JUROGAM III）上的量化排他反证设计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R134-1 | 225.8 keV带内跃迁若为手征转动M1主导（|δ|≈0.0389），理论线偏振度为P≈-0.40（康普顿不对称度A≈-0.088）；若为横向摆动或大E2混合（|δ|≈1.2），偏振度反号为P≈+0.13（A≈+0.029）；在现有JYFL装置（100Mo+40Ar）上仅需16.3小时机时即可获得663个康普顿事件实现3σ判定（45.3小时达5σ），若测得P>0且达>3σ将排他性证伪Band D6低自旋手征振动解释。 | polarimetry-falsification-design | derived-design-and-facility-sensitivity | 024314-5 Table I Band D6 | true |
+
+计算脚本见system/scripts/day21_checkpoint134_polarization_falsification_design.py，输出polarization-falsification-scope-134.json。
+## Day21 checkpoint139：排版印刷异常与物理证伪边界审计
+
+基于LV19 Table I三项局部异常（998.1 vs 997 keV、334.4 keV宇称元组、934.9/966.3 keV重复母态）开展排版印刷与物理反证界限审计。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D21-R139-1 | 998.1 keV行按其打印Ei=5412.6 keV与D5终态闭合残差严格<1e-6，与5411.6的1.0 keV残差系不同门谱拟合中心微小漂移；334.4 keV的“27/2- -> 25/2+ M1/E2”100%违反电磁选择律，正文、Fig.1与IPDCO一致确证为正宇称，证明该'-'为孤立印刷脱漏；934.9/966.3 keV系LaTeX换页续表排版归入D6列，属D5带内跃迁。三项异常均属印刷排版与拟合舍入范畴，绝不能当作推翻手征对称性的实验反证，严禁擅自修改原表，实证证伪必须依靠物理可观测量（如Checkpoint 134偏振P>0）。 | typographical-anomaly-and-falsification-boundary | derived-from-VoR-and-selection-rules | 024314-4 Table I Bands D3, D5, D6 | true |
+
+计算脚本见system/scripts/day21_checkpoint139_typographical_anomaly_audit.py，输出typographical-anomaly-scope-139.json。

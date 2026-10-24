@@ -1,0 +1,98 @@
+---
+type: concept
+title: γ 软形变
+aliases: [gamma-soft deformation, γ-softness, gamma softness, γ 软, gamma-unstable]
+created: 2026-07-01
+updated: 2026-07-05
+status: active
+review_status: unreviewed
+concept_type: deformation-dynamics
+confidence: medium
+high_confirmed_by:
+high_confirmed_date:
+tags: [triaxiality, collective-motion]
+---
+
+# γ 软形变（Gamma-soft Deformation）
+
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Definition
+
+势能面沿三轴参数 γ 方向较平坦，核波函数可在较宽 γ 区间涨落。γ 软不等同于“平均 γ=0”，也不等同于固定非零 γ 的刚性三轴形变。
+
+## Necessary Assumptions
+
+判定依赖所用集体模型、γ 约定和观测能区。低自旋偶偶核的 γ-band staggering 判据不能直接无条件移植到奇 A 高自旋带。
+
+## Discriminating Observables
+
+- γ 带能量 staggering 的相位；
+- `S(4,3,2)`、`S(6,5,4)` 等归一化指标；
+- 偶偶核低能 γ 带比值：固定 `γ=30°` 的 D-F 刚性三轴参考给出 `E(2+_γ)/E(2+_g)=2.00`、`R3γ=1.78`，γ-independent 的 W-J/O(6) 参考给出 `2.50`、`1.19`；这些是模型极限参考线，不是奇 A 核的无条件阈值；
+- E2 矩阵元及其随自旋的系统性；
+- 微观模型中不同 γ 基态成分的混合。
+- 自洽平均场或映射模型中的 `(β,γ)` 势能面曲率；该曲率是模型结果，不是直接观测量；
+- 跨带交叉的寿命与 `Q_t` 系统学；`Q_t` 下降只直接约束集体性，γ 刚性仍需模型与其他观测量。
+
+## Supporting Evidence
+
+[[zamfir-casten-1991-gamma-softness-triaxiality]] 指出 Xe、Ba、Pt 的当时低能数据更接近 γ 软势，并强调很弱的 γ 势依赖即可显著改变 staggering。
+
+[[nomura-2017-odd-mass-gamma-soft-shape-transitions]] 在 DD-PC1 RHB+IBFM 中把 A≈130 Ba/Xe 芯的势能面、奇 A 能级变化与 E2 四极形状不变量并列，用 N≈76-78 的态依赖变化讨论近球形到 γ-soft 的相变。Fig.13 的 `γ_eff` 峰值只对应偶偶 `0+_1`；奇 A 不同低能态在 Figs.14-15 中呈现不同位置和方向的变化。
+
+[[nomura-2021-pairing-triaxial-vibrations-gamma-soft]] 显示 `128,130Xe` 的 γ 软度可与配对软度同时出现；`E2γ` 靠近 W-J/O(6) 参考，而 `R3γ` 位于 W-J 与 D-F 之间并趋向 D-F，提示不能依赖单一指标分类。
+
+[[babra-2019-deformation-change-136sm]] 测得 `136Sm` yrast 带交叉后 `Q_t` 下降；由 γ-soft 低自旋形状到较稳定三轴形状的变化是 TRS/TPSM 支持的作者解释，而非寿命数据单独给出的事实。
+
+[[nomura-2022-questioning-wobbling-ibfm]] 以四个偶偶芯的 EDF 势能面作为 γ-soft 模型输入，再用 IBFM 计算奇 A 低能 bands 与 E2/M1 links。该文说明 γ-soft particle-core background 可以支持非 wobbling 的替代理论描述；它不把 γ-softness 本身当作任一能带身份的实验判据。
+
+## Counter-evidence and Competing Interpretations
+
+- 带混合可产生或改变 staggering；
+- 某些微观模型可用固定内禀基底的组态混合再现 γ-soft 特征；
+- 非零平均 γ 或三轴相关信号不自动意味着 γ-rigid。
+- 配对振动、准粒子对齐和带交叉会共同改变低能谱与 E2 集体性；
+- 同一核在不同自旋区可对应不同势能极小，因此低自旋 γ-soft 判断不能自动外推到高自旋。
+
+## Related Nuclei and Bands
+
+A≈130 的 Xe、Ba、Ce、Nd 是当前重点区域；`136Sm` 提供跨带交叉形变演化的比较案例。
+
+## Our Current Position
+
+将 γ 软视为势能面/波函数涨落性质，不用单个拟合 γ 值替代。跨来源证据与未来 `131Ce/133Ce` 数据入口见 [[gamma-soft-deformation-evidence-map]]；阶段性综合见 [[gamma-soft-vs-gamma-rigid-diagnostics]]。
+
+## Sources
+
+- [[mccutchan-2007-gamma-band-staggering]]
+- [[zamfir-casten-1991-gamma-softness-triaxiality]]
+- [[nomura-2017-odd-mass-gamma-soft-shape-transitions]]
+- [[nomura-2021-pairing-triaxial-vibrations-gamma-soft]]
+- [[babra-2019-deformation-change-136sm]]
+- [[nomura-2022-questioning-wobbling-ibfm]]
+- [[frauendorf-2024-wobbling-review]]
+
+## Evolution Log
+
+- 2026-07-01（2 sources）：建立定义并加入低能 staggering 与 TPSM 视角。
+- 2026-07-05（6 sources）：加入 A≈130 奇 A 形状相变、配对-三轴耦合、`136Sm` 跨带交叉 `Q_t` 案例与 IBFM low-spin alternative，并明确模型势面、寿命和 band-identity 证据边界。
+- 2026-07-05：接入 gamma-soft evidence-map project 与阶段性 synthesis。
+
+## Day 21 Checkpoint 020 证据门量化审计：准 γ 带 S(4) 负交错与 γ-软势能判定准则
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint020_gamma_staggering_s4_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/gamma-staggering-s4-audit-020.json），对 γ-软形变的实验判定确立核心证据门规则：
+
+1. **准 γ 振动带能级交错 S(4) 负交错准则：**
+   在 Wilets-Jean 与 O(6) γ-软平坦势能极限下，准 γ 带能级形成 (2+, 3+), (4+, 5+), (6+, 7+) 的玻色子 Seniority 成对结构，离散导数交错参数严格满足 S(4) -> -2.00 < 0。A≈130 区域典型核（130Ba S4=-0.941，128Xe S4=-0.647）与 A≈76 区域（76Ge S4=-1.240）普遍呈现压倒性的负交错，排他性地证明体系处于 γ-软动态涨落之中。
+2. **四极转动不变量方差对账准则：**
+   在完全平坦的 γ-软核中，四阶四极不变量方差严格满足 sigma^2(cos 3gamma) = 1/3 ~ 0.3333。实测非零弥散度（sigma^2 ~ 0.20 - 0.35）与 S(4) < 0 联立，构成了排他性确证 γ-软动态涨落的双重实验支柱。
+
+## Day 21 Checkpoint 117 证据门升级：四极求和规则截断对 γ-软核弥散度的表观压制审计
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及库仑激发不变量收敛性审计（[[henderson-2020-quadrupole-invariant-convergence]], [[ayangeakaa-2019-rigid-triaxial-ge76]]），对 γ-软形变的判决标准确立严格的推断阶梯：
+
+1. **γ-软核高阶弥散度对中间态完备性的极端敏感性：**
+   在理想 γ-软平坦势能下，四极转动不变量理论方差满足 $\sigma^2(\cos 3\delta) = 1/3 \approx 0.3333$。然而，在大规模壳模型收敛性检验中，若对中间态求和进行有限截断（$n_I \le 4$），真实的 γ-软核计算出的弥散度会被截断人为压低至接近零。
+2. **区分表观伪刚性与真实动态涨落：**
+   不能仅凭有限低激发态实验测得的“较小不变量方差”就排除 γ-软性。确证 γ-软动态涨落必须依托准 γ 振动带离散导数交错参数 $S(4) < 0$（如 $^{130}\text{Ba}$ $S(4)=-0.941$, $^{76}\text{Ge}$ $S(4)=-1.240$）与电磁跃迁几率的综合约束。

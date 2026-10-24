@@ -1,0 +1,6 @@
+{
+  "status": "first arithmetic execution superseded before knowledge writeback",
+  "correction": "VoR footnote a threshold is1000keV, not100keV;225.8 and896.8 errors both0.2keV, not0.5",
+  "old_records": "superseded-127-input",
+  "scope": "input identity correction; numerical assertions alone did not validate transcription"
+}

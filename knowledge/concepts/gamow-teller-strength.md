@@ -67,3 +67,13 @@ Gamow-Teller（GT）跃迁是允许 β 衰变中的自旋-同位旋算符跃迁�
 ### P2/P3
 
 - 需要论文写作时，再针对具体 `BGT` claim 回到两个原始 source。
+## Day21 Checkpoint090 推断阶梯边界：相空间五次方幂律非线性敏感度
+
+099修订：端点敏感度取决于能区、库仑函数、EC/β+及分支定义，“约五次方”不作全能区定理。旧078的168.09/304.25是非相对论Sommerfeld β+积分，非原论文LOGFT结果；105.5%不是解释率或统计覆盖率。
+
+[[hinke-2010-100sn-decay-spectroscopy]] HK10-D21-R99-2/3与[[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] LB16-D21-R99-1/3分别给原计算入口和样本身份。多条子核γ级联可以来自同一个母核GT终态；Super GT不等于无淬灭。必须统一端点、部分半衰期、EC约定、模型空间与误差后才能判断quenching差异。
+
+
+## Day21 checkpoint124：条件证据与量词纠正
+
+[[lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy]] LB16-D21-R99-1/2/3区分库存、端点谱样本与子核成分；24个子核谱成分不能改成24个母核GT终态，也不能无原表把它们全部叫γ级联。[[nndc-2026-logft-calculator-input-contract]] LOGFT26-4/5只验证当前程序声明通道及部分半衰期，不重放历史job。Super GT不等无淬灭；新增基态/1+终态归属与介子交换流解释没有在120独立核实，不沿用。

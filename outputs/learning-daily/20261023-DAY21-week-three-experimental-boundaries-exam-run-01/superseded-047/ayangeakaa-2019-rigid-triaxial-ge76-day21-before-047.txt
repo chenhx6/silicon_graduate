@@ -1,0 +1,10 @@
+## Day 21周考对比：76Ge库仑激发不变量与刚性三轴截断偏差（Checkpoint 005）
+
+在第三次周考（[[experimental-claim-boundaries]]）中，将 76Ge 库仑激发不变量作为推断阶梯高阶矩截断偏差的典型范例：
+1. **实验直接测量：** GRETINA+CHICO2 测定成套带符号 E2 矩阵元，低阶不变量给出 beta≈0.28 与 gamma≈27 deg 的显著三轴电荷分布；
+2. **高阶刚性推断漏洞：** 依赖有限态截断下的 sigma(cos 3delta) ~ 0 宣称刚性三轴；Henderson 2020（[[henderson-2020-quadrupole-invariant-convergence]]）证明有限态截断会人为压缩 Q^4 并使 sigma 趋近于零，从而系统性制造出刚性假象；
+3. **协方差边界：** 缺乏 103 个矩阵元的完整联合协方差矩阵，不同耦合方案的数值相容性不代表统计独立的收敛确证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| AY19-D21-1 | 76Ge 多步库仑激发提取的低自旋刚性三轴主张受限于有限态截断偏差；Henderson 2020 证明截断会人为压低高阶方差 sigma，不能把有限截断下的 sigma~0 独立作为刚性三轴的排他性确证。 | wiki-synthesis | indirect | PRL 123, 102501 Fig. 5; [[experimental-claim-boundaries]] | true |

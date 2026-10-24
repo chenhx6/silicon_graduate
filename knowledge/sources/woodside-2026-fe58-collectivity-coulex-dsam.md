@@ -31,6 +31,8 @@ tags: [58Fe, Coulomb-excitation, DSAM, stopping-power, matrix-elements, source-d
 
 # 58Fe：新采集与约束后B值要分别审计独立性
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 J. A. Woodside等，*Phys. Rev. C* **113**(4),044306(2026)，DOI[10.1103/16y4-bggw](https://doi.org/10.1103/16y4-bggw)。Crossref DOI/article-number已核。实际全文为[arxiv2603.17414v1](https://arxiv.org/abs/2603.17414v1)，上传2026-03-18、PDF dated19Mar2026。abs comments写14页，实际PDF15页，保留差异；VoR正文未读。
@@ -71,6 +73,7 @@ Gosia用SRIM能量损失及BrIcc、2+1→0+1作归一reference；有fixedbuffer�
 | WO26-12 | Fig13b/模型Eq4的三yrast点成簇而不定charge比斜率，作者仅称更靠近standardcharges；非唯一拟合universal有效电荷。Prose1.33与Fig13caption1.3保原，basis/interactions及64Fe等原文未读不外推。 | model-identifiability-and-transfer-boundary | direct-report | PDF12 Eq4；PDF13 Fig13/TableX/讨论 | true |
 | WO26-13 | 对Fig8/9印出的实E2子图，新枚举得56Fe V7/E8/cycle-rank2有4个statephase类、每类64符号配置；58Fe V8/E10/rank3有8类、每类128配置，P3与same-pair E2/M1比都不受state rephasing影响。只核印图subset，不认证完整Gosia输入、未见弱支或新measuredδ/phase。 | task-exact-phase-graph-audit | derived-and-boundary | PDF7 Figs8–9/Eq3；新fe58phasecontract/result | true |
 | WO26-14 | 新按Eq1/声明常规Weisskopfradius将TableVII八个4→2RME中心转W.u.，都在整数打印约.51W.u.内；TableII裸counts到yield的combinedrelativefactor约1.394/1.630/1.449/1.789，不能拆成单eff校准。Eq2静态Q给diagRME约−.250682/−.356232eb，statephase也不能翻该diag符号；非新Qt或CI。 | task-published-unit-and-normalization-audit | derived-and-boundary | PDF4 TableII；PDF5 Eq1；PDF6 Eq2；PDF8 TableVII；新20checks结果 | true |
+| WO26-D21-1 | **superseded（checkpoint042）**：旧脚本八组逐phase B/chi2为无逐行原件支持的赋值，21.8–27.2及±12%新系统包络撤回。电子停止项乘.608/.515为减小，旧文却称LSS低估近倍，符号和DSAM论证冲突。24.2(28)及全部异常只由停止造成未核。WO26-5的共享寿命约束可限制独立性，不证明新计数无信息或吻合必然。 原review/needs_review保持；旧passed不认证来源、实验或CI。 | task-correction | superseded-scientific-certification | checkpoint042撤回记录 | true |
 
 ## Analytical Reconstruction and Self-Audit
 
@@ -114,3 +117,25 @@ P0自审：WO26-5只记录明确constraint及其依赖，不据摘要或未知�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | WO26-D19-1 | 对 Woodside 2026 库仑激发与 DSAM 联合分析进行定量审计：(1) 异常集体性证伪：旧 1978 评估采纳的 $B(E2; 4_1^+ \to 2_1^+) = 47(7)\text{ W.u.}$ 给出异常比值 $B_4/B_2 = 2.40(37)$，超出刚性转子极限（$1.43$）达 $2.62\sigma$；Woodside 2026 在 $220\text{ MeV}$ 库仑激发中测得 $B_4 = 24.2(28)\text{ W.u.}$，导出比值 $B_4/B_2 = 1.235(152)$，在 $0.10\sigma$ 内与 GXPF1A（$1.22$）和 KB3G（$1.24$）壳模型严格相符，彻底消解了所谓超集体异常假象；(2) 阻止本领非均匀标度：从 LSS 更新至 SRIM 电子阻止功率（缩减因子 $\approx 0.608$），$4_1^+$ 态（$2077\text{ keV}$）寿命增长 $+73.7\%$（$0.38 \to 0.66\text{ ps}$），而 $2_2^+$ 态（$1675\text{ keV}$）寿命仅增长 $+41.2\%$（$1.70 \to 2.40\text{ ps}$），标度因子相差 $23.0\%$，实证阻止本领改变不能简化为全局统一寿命乘子；(3) GOSIA 相位多解：8 组相位组合中仅 1 组被 $95\%$ CL 排除，剩余 7 组相位跨越 $B(E2) = 21\text{--}27\text{ W.u.}$，证明多步库激产额本身存在离散简并，必须引入独立的 DSAM 寿命（$\tau = 0.66(8)\text{ ps}$）作为约束以解耦相对符号。 | task-anomalous-collectivity-and-stopping-audit | derived-and-boundary | PDF pp.4-12 Tables II VI-VIII Figs.8-13; fe58-woodside-stopping-coulex-result-063.json | true |
+
+## Day 21 checkpoint040 修订状态
+
+旧段落的逐字快照保存在本run的 superseded-042/woodside-2026-fe58-collectivity-coulex-dsam.txt。其科学认证撤回：旧脚本八组逐phase B/chi2为无逐行原件支持的赋值，21.8–27.2及±12%新系统包络撤回。电子停止项乘.608/.515为减小，旧文却称LSS低估近倍，符号和DSAM论证冲突。24.2(28)及全部异常只由停止造成未核。WO26-5的共享寿命约束可限制独立性，不证明新计数无信息或吻合必然。
+
+
+## Day21 checkpoint049：逐相位原值、停止方向与共享寿命
+
+本次冻结primed回忆后定向读实际arXiv v1 PDF5–12文字，视觉核PDF6的constraints、PDF8 TableVII、PDF9/10 Fig10/11与停止段、PDF11/12 TableVIII/IX。没有宣称新读全15页、运行原DSAM/Gosia或核VoR一致性。raw SHA256 `fddbd3b0de35b1b723c2bcb9959af4cf6c489a0d8e00f87e9126218acfec8d5a`匹配；原review/flags与Day19/Day20撤回保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WO26-D21-R49-1 | TableVII八方案的χ²依+++、++−、+−+、+−−、−++、−+−、−−+、−−−为46.78/38.56/41.75/42.74/70.57/46.69/53.24/51.94；相应4₁→2₁ B为22(2)/27(3)/25(2)/25(3)/19(2)/24(2)/21(2)/21(2) W.u.。作者按其95%规则仅排−++，其余七方案中心范围21–27。不能给原自造八相位数值/平均24.2(28)恢复资格，也不将这些χ²自行变成posterior。 | literal-phase-result-ledger | direct-original | PDF p.8 Table VII | true |
+| WO26-D21-R49-2 | 原LSS电子停止约为SRIM两倍；初步以Mn .608、Ta .515缩小电子项，核项不变，后改用完整SRIM表。不是LSS低估或全生成元统一比例缩放；作者称精确替表相对近似通常仅末位一单位变化，非本任务重放。 | stopping-direction-and-scope | direct-original | PDF p.10 Fig.11 and first paragraph | true |
+| WO26-D21-R49-3 | TableVI把目标4₁ τ=.66(.08)ps和2₂ τ=2.4(.5)ps纳入Gosia constraints。故最终B与该DSAM约束的吻合不是无条件独立验证；这不抹去新Coulomb计数信息，也不证明吻合必然或论文无效。需同响应去掉目标τ后的原fit，当前未得。 | explicit-dependence-and-task-boundary | source-plus-explicit-inference | PDF p.6 Table VI | true |
+| WO26-D21-R49-4 | TableVIII目标2077keV行为ΔEγ=3.55(.14)keV、Eγ=1266keV、Δ⟨βcosϕ⟩=.01226、F=.229(.009)、τ=.66(.03)(.08)ps；Ref16旧τ=.54(+.09/−.07)。1675keV旧τ2.30(+.64/−.57)，新2.4(.3)(.5)。旧.38→.66或1.70→2.40不是这些行的旧值；第二误差includes停止估计，不能擅当与首项独立的pure-systematic再相加。 | literal-lifetime-and-error-budget | direct-original | PDF p.11 Table VIII | true |
+
+### 实际观测归一与中心变化练习
+
+脚本`system/scripts/day21_checkpoint049_fe58_literal.py`保存八相位原值账本，并由TableVIII给F=3.55/(1266×.01226)=.228720，核印刷.229。这里只核归一/舍入，不独立复现F(τ)响应或误差Cov。真实中心更新比4₁为.66/.54≈1.2222，2₂为2.4/2.30≈1.0435；这些中心不支持旧任设73.7%/41.2%的数据声称，也不单独给一个统计显著的“统一比例拒绝”检验。
+
+原本文p10 prose另写.66(6)、TableVI/IX为.66(8)，与TableVIII双误差均保字面口径，不擅选一个版本认证CI。七phase中心的spread也不是新的Gaussian系统项。新counts、带外约束、旧logbook重分析和派生强度的独立性须逐层记录；本次缺actualjob/权重/yieldΣ及原DSAM listing/logbook，旧040脚本仍退役。

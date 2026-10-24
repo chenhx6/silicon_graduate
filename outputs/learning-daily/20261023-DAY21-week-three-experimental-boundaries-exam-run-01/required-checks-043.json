@@ -1,0 +1,91 @@
+{
+  "lint": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error",
+      "--format",
+      "json",
+      "--output",
+      "outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/lint-043.json"
+    ],
+    "started_at": "2026-10-23T20:13:23.788967+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "counts": {
+      "warning": 212,
+      "info": 4143
+    },
+    "warning_categories": {
+      "REACTION_PARSE": 4,
+      "CITATION_KEY_MISSING": 177,
+      "RAW_MISSING": 31
+    },
+    "full_output": "lint-043.json"
+  },
+  "boundary": {
+    "argv": [
+      "python3",
+      "system/scripts/wiki_boundary_check.py",
+      "--root",
+      "."
+    ],
+    "started_at": "2026-10-23T20:13:39.765856+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n"
+  },
+  "diff": {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "started_at": "2026-10-23T20:13:42.832404+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": ""
+  },
+  "writeback": {
+    "argv": [
+      "python3",
+      "system/scripts/validate_writeback_items.py"
+    ],
+    "started_at": "2026-10-23T20:13:46.165910+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\n  \"valid\": true,\n  \"items\": 85,\n  \"status\": \"updated\",\n  \"scope\": \"structure, atomic references and changed-page presence only; not source truth or experimental CI\",\n  \"errors\": []\n}\n"
+  },
+  "arithmetic": {
+    "argv": [
+      "python3",
+      "system/scripts/day21_checkpoint043_nd135_rate_scope.py"
+    ],
+    "started_at": "2026-10-23T20:13:47.441621+08:00",
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "{\"checks\": {\"five_matched_rows\": true, \"first_four_lifetime_ratios_between_1_9_and_2_3\": true, \"last_E2_pair_preserved\": true, \"correlation_changes_conditional_significance\": true}, \"experimental_CI_recovered\": false}\n"
+  },
+  "native_writeback": {
+    "valid": true,
+    "exit_code": 0,
+    "mapped_count": 85,
+    "changed_count": 85,
+    "error": null,
+    "artifact": "writeback-validation-043.json"
+  },
+  "identity_reuse": {
+    "artifact": "identity-preservation-042.json",
+    "scope": "prior actual 661 raw hashes and protected/review flags; since then only task-owned text/script/output edits, no raw write commands",
+    "fresh_raw_rehash": false
+  },
+  "processes": {
+    "exit_code": 0,
+    "stdout": "    PID    PPID     ELAPSED COMMAND\n   2698       1    03:23:55 /opt/venv/bin/python3 /workspace/wiki/system/scripts/wiki_farmer.py watch --root /workspace/wiki --codex-home /root/.codex --poll 2.0\n   3340       1    03:21:31 python3 system/scripts/run_learning_session_clock.py --root . --receipt outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/run.json --thread 01a167eb-3c9c-74c0-a0a0-12720a4e1f4d\n"
+  },
+  "finished_at": "2026-10-23T20:13:51.284478+08:00",
+  "scientific_certification": false,
+  "publication": "not executed by user interim restriction",
+  "credit_applied": false
+}

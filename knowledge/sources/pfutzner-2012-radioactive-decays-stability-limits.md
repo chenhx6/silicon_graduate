@@ -33,6 +33,8 @@ tags: [drip-lines, radioactive-decay, proton-radioactivity, two-proton-radioacti
 
 # Radioactive decays at limits of nuclear stability
 
+> Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
 ## Bibliographic Record
 
 - M. Pfützner *et al.*, *Rev. Mod. Phys.* **84**, 567–613 (2012), DOI `10.1103/RevModPhys.84.567`.
@@ -98,3 +100,11 @@ Pfützner *et al.* provide a unified review of how decay modes emerge at the lim
 ## Extracted Pages
 
 - Concept: [[drip-line-radioactivity]]。
+
+## Day 21 Checkpoint 025 证据门量化审计：滴线区放射性势垒穿透与微观机制分离准则
+
+依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint025_drip_line_radioactivity_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/drip-line-radioactivity-audit-025.json），对 Pfützner 2012 的滴线区放射性综述完成推断阶梯边界核定：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PF12-D21-1 | 依据推断阶梯审计，Pfützner 2012 确立了滴线区奇异衰变物理的全局证据门准则：(1) 分离能符号与观测衰变道解耦：库仑与离心势垒指数级调控衰变半衰期，使得负分离能（S_p<0, S_2p<0）核素在很宽能区仍以 beta 衰变为主导；(2) 真双质子与顺序发射区分：必须基于 Jacobi 坐标三体连续谱模型、能量分配谱平称度与开角关联联合检验；(3) 谱因子唯象提取依赖性：WKB 宽度对势阱半径 r_0 呈指数敏感，必须声明几何不确定度。 | source-result-and-criterion | direct-and-boundary | pp.567-613, Secs.II, V, VII; drip-line-radioactivity-audit-025.json | true |
