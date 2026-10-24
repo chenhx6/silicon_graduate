@@ -9,6 +9,8 @@ graph-excluded: true
 
 ## Nature Skills
 
+Paper Search MCP 的 WoS 凭据接入使用 `run_paper_search_mcp.py <existing-launcher.py>`，只读取仓库内 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY` 并映射为 `WOS_API_KEY`；不执行 dotenv 内容，也不输出密钥。配置及检索路由见 [文献检索与访问配置](../workflows/literature-access.md)。
+
 ```bash
 python3 system/scripts/update_nature_skills.py --check-only
 python3 system/scripts/update_nature_skills.py --no-pull

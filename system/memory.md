@@ -10,6 +10,7 @@ updated: 2026-09-10
 
 ## 已确认规则
 
+- 2026-10-24 用户授权文献检索接入 Web of Science；凭据仅保存在 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY`。本地 Paper Search MCP 经 `system/scripts/run_paper_search_mcp.py` 映射为 `WOS_API_KEY`，新进程加载。检索/权限/全文获取边界见 `system/workflows/literature-access.md`；配置存在不代表已验证 API 或开通 Expanded。
 - 知识库主要服务于基于熔合蒸发反应的低能原子核结构研究。
 - 当前主线质量区可以作为研究锚点，但不是知识库收录边界；文献摄入优先级应由实验核结构价值、证据密度、方法复用价值、跨质量区比较意义和用户明确优先级共同决定。
 - 在扩充资料前，先建立检查、证据、术语和跨会话写回机制。

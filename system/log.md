@@ -4258,3 +4258,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-24T10:35:36.153077+08:00 Day21 checkpoint106：Burgunder VoR5页/三图/TableI重核，修设置/模型提取与作者量词；旧R56认证替代，打印舍入非CI，无授分/发布。
 
 - 2026-10-24T15:05:36.487179+08:00 Day21 checkpoint152/closeout：Day 21卡审计完成（18/24评分、5项交付、weekly REFLECT），完成104项知识写回并经H3协议验证，完成card-credit-21（completed[21]/partial[]/next22/count21），签发final-session-receipt-21，生成Day 22准备入口，已发布至Gitee main.
+
+- 2026-10-24：按用户要求接入 Web of Science 文献检索，私有 dotenv 的 WEB_OF_SCIENCE_API_KEY 经仓库启动包装器映射为 WOS_API_KEY；更新本地 MCP 启动参数、长期记忆、查询路由及使用指南。新进程生效，未进行联网 API 测试，未将凭据写入 Git。

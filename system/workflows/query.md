@@ -40,6 +40,8 @@ L0-L4 路由由 `autonomous-research.md` 维护。普通问答保持只读；授
 ## 3. 检索顺序
 ### 3.0 工具使用卫生
 
+需要外部文献检索时，按 [文献检索与访问配置](literature-access.md) 使用 Nature-first 路由及 Web of Science。WoS 凭据从本地私有环境文件加载，检索结果与引用计数不能替代原文核验。
+
 查询不得用无过滤递归扫描替代定界检索。禁止 `Get-ChildItem -Recurse` 扫全仓库、`tree`、`ls -R`、`rg "关键词" .`，也不得无目的扫描 `.git/`、`.qmd/`、`.obsidian/`、`tmp/`、`raw/`、`outputs/`、`share_message/`、`__pycache__/` 或 `.pytest_cache/`。默认限定 `knowledge/`、`system/`、`AGENTS.md`、`check.md`、`USER_GUIDE_DETAIL.md`；查 raw PDF 时只查目标文件名或已知候选。
 
 ### 3.1 QMD 状态与范围

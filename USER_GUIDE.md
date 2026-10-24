@@ -114,6 +114,8 @@ SORT file.name ASC
 
 需要 Agent 查找新文献时采用 Nature-first 路由：先以结构化学术检索核对 DOI、作者、年份和期刊，再补查 Google Scholar（不通时用学术镜像），最后由下载技能写入 Wiki 内的隔离区。候选 PDF 通过首页、DOI、页数、文件签名、SHA-256 与重复检查后，才从 `raw/papers/gpt/_incoming/<run-id>/` 晋升到 `raw/papers/gpt/`；书目只追加到 `raw/zotero/gpt.bib`。允许下载文件，但 Agent 必须显式指定 Wiki 目标路径；无法控制目标路径、会默认落入外部 Downloads 的浏览器下载交给用户处理。APS/PRC 或 Scholar 出现验证码或真人验证时，由你在原标签页完成后再让 Codex 继续。
 
+Web of Science 已接入检索启动配置：从 `raw/personal/.env` 读取 `WEB_OF_SCIENCE_API_KEY`，在新会话中加载。用途是文献检索、书目信息及权限范围内的引用信息；全文继续走出版商或公开版本。API 权限尚未联网验证，配置与调用说明见 [文献检索与访问配置](system/workflows/literature-access.md)。
+
 日常摄入按以下闭环执行：
 
 1. 你提供一篇新论文或指定 `raw/papers/` 中的新文件；
