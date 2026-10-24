@@ -4260,3 +4260,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-24T15:05:36.487179+08:00 Day21 checkpoint152/closeout：Day 21卡审计完成（18/24评分、5项交付、weekly REFLECT），完成104项知识写回并经H3协议验证，完成card-credit-21（completed[21]/partial[]/next22/count21），签发final-session-receipt-21，生成Day 22准备入口，已发布至Gitee main.
 
 - 2026-10-24：按用户要求接入 Web of Science 文献检索，私有 dotenv 的 WEB_OF_SCIENCE_API_KEY 经仓库启动包装器映射为 WOS_API_KEY；更新本地 MCP 启动参数、长期记忆、查询路由及使用指南。新进程生效，未进行联网 API 测试，未将凭据写入 Git。
+
+- 2026-10-24：按用户要求实测 WoS 两个官方 API，各请求一次精确 DOI。Starter HTTP 200，返回 1 条记录；额度 50/日、1/秒，本次后剩余 49。Expanded HTTP 403：You cannot consume this service。去凭据记录：outputs/literature-acquisition/20261024-webofscience-api-permissions-072448.json；未改密钥或启用 Expanded。

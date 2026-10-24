@@ -20,7 +20,7 @@ command = "/usr/bin/python3"
 args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>/launch_mcp.py"]
 ```
 
-已运行的 MCP 进程不会热加载；新会话或重启该 MCP 后生效。此轮仅完成配置接线，未发起联网检索，API 有效性、订阅权限和额度尚未验证。
+已运行的 MCP 进程不会热加载；新会话或重启该 MCP 后生效。2026-10-24 实测 Starter 返回 HTTP 200，精确 DOI 查询取得 1 条记录；响应头限额为每日 50 次、每秒 1 次，本次请求后当天剩余 49 次。相同密钥请求 Expanded 返回 HTTP 403（`You cannot consume this service`），当前无该产品访问权限。去凭据回执见 [权限测试](../../outputs/literature-acquisition/20261024-webofscience-api-permissions-072448.json)。剩余额度只是查询时快照；测试为直接调用官方 API，未覆盖既有会话 MCP 的热加载。
 
 ## 检索路由
 

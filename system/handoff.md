@@ -5,7 +5,7 @@ updated: 2026-10-23
 
 ## 文献访问配置补充（2026-10-24）
 
-用户授权接入 Web of Science。已添加 `system/scripts/run_paper_search_mcp.py`，本地 `paper-search-nodejs` 启动配置经该脚本读取 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY` 并映射到 `WOS_API_KEY`。现有进程不热加载，新会话生效；未执行联网认证/检索测试。使用说明在 `system/workflows/literature-access.md`，密钥未进入版本库。提交指针：`main` + `Configure Web of Science literature access`。本项不改变下方每日学习状态。
+用户授权接入 Web of Science。已添加 `system/scripts/run_paper_search_mcp.py`，本地 `paper-search-nodejs` 启动配置经该脚本读取 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY` 并映射到 `WOS_API_KEY`。现有进程不热加载，新会话生效。2026-10-24 已直接测试官方 API：Starter 200、取得 1 条记录（50 次/日、1 次/秒，当时剩余 49）；Expanded 403，无该产品访问权限。回执 `outputs/literature-acquisition/20261024-webofscience-api-permissions-072448.json`。使用说明在 `system/workflows/literature-access.md`，密钥未进入版本库。最新提交指针：`main` + `Record Web of Science API permissions`。本项不改变下方每日学习状态。
 
 ## 当前唯一执行入口 — Day21完成与Day22准备入口（Checkpoint152：收束与发布完成）
 

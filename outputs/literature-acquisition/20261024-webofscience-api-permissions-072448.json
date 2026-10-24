@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-10-24T07:24:43.669512+00:00",
+  "credential_source": "raw/personal/.env:WEB_OF_SCIENCE_API_KEY",
+  "scope": "One search request per product; same supplied key; no retries, downloads or citation traversal",
+  "query": "DO=10.1103/PhysRevC.100.024314",
+  "results": [
+    {
+      "product": "starter",
+      "endpoint": "https://api.clarivate.com/apis/wos-starter/v2/documents",
+      "parameters": {
+        "q": "DO=10.1103/PhysRevC.100.024314",
+        "db": "WOS",
+        "limit": 1,
+        "page": 1
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "quota_headers": {
+        "x-ratelimit-remaining-second": "0",
+        "ratelimit-limit": "1",
+        "x-ratelimit-remaining-day": "49",
+        "ratelimit-reset": "1",
+        "x-ratelimit-limit-second": "1",
+        "ratelimit-remaining": "0",
+        "x-ratelimit-limit-day": "50"
+      },
+      "outcome": "authorized",
+      "total_records": 1,
+      "returned_records": 1
+    },
+    {
+      "product": "expanded",
+      "endpoint": "https://api.clarivate.com/api/wos",
+      "parameters": {
+        "databaseId": "WOS",
+        "usrQuery": "DO=10.1103/PhysRevC.100.024314",
+        "count": 1,
+        "firstRecord": 1,
+        "optionView": "SR"
+      },
+      "http_status": 403,
+      "content_type": "application/json; charset=utf-8",
+      "quota_headers": {},
+      "outcome": "access_denied",
+      "error_response": {
+        "message": "You cannot consume this service"
+      }
+    }
+  ]
+}
