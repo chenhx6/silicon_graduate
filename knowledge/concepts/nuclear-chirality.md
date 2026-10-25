@@ -149,3 +149,9 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 [[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-009/010将同parent、同多极、同核素的WU比保在一个明确范围内：WU/共同τ可相消，Iγ-E³/E⁵比也可作中央算术核对；这些量来自同一adopted评价链，不因此构成独立复测或原分析认证。第一mixed648缺B_M1不填0/δ。
 
 与作者图点/TableI构成的conditional ratio不相同，优先追parent/Jf/component/absolute-vs-selected normalizer及参考版本；不先归因paper错、也不把derived比值当新实测强度。actualmissingEMblock、relativephase和Cov缺口保持。这个检验只提高输入readiness，不给静态手征阈值或g/Qt CI；仍同一个Day24无学分preview。
+
+## Day23内的Day24无学分预习：配对与模型fingerprint的范围
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-001–004现在接入其Ref26的实际2007 qpPRM原文。M1的uu′+vv′矩阵因子、coreE2取法和单j/BCS模拟多空穴的近似均已按原公式列出；它支持量子PRM对γ/费米面敏感性的模型研究，不等新135Nd/Au实验或原producer复现。
+
+该模型的B(M1)/B(E2)staggering并非跨参数不变，ratio接近也可能掩盖分子/分母各自差异。因而本Day24预习的partner-resolved evidence map仍分开直接能谱/绝对强度、采用的Q0/g/配对、以及模型几何；不能仅按staggering打勾或以derivedratio代两个绝对观测。[[signature-tip-shears-discrimination-contract]]保算符/定标/数据谱系，Day24仍无正式学分、不打开Day25。新增needs_review:true。

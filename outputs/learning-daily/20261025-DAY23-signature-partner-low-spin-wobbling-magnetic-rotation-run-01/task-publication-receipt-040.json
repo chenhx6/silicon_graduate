@@ -1,0 +1,203 @@
+{
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "scope": "active checkpoint040; no formal card credit",
+  "git_executable": "/usr/bin/git",
+  "recorded_at": "2026-10-25T23:02:28.121785+00:00",
+  "commands": {
+    "head": {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "7517aa1c6fe137688d0d44f976b67efb6da9fda8\n",
+      "stderr_tail": ""
+    },
+    "branch": {
+      "argv": [
+        "git",
+        "branch",
+        "--show-current"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "main\n",
+      "stderr_tail": ""
+    },
+    "subject": {
+      "argv": [
+        "git",
+        "log",
+        "-1",
+        "--format=%s"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "Day23: separate the displayed Au fit from reduced observations\n",
+      "stderr_tail": ""
+    },
+    "commit-files": {
+      "argv": [
+        "git",
+        "diff-tree",
+        "--no-commit-id",
+        "--name-only",
+        "-r",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "knowledge/methods/signature-tip-shears-discrimination-contract.md\nknowledge/projects/187au-longitudinal-wobbling-controversy.md\nknowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/au187-displayed-curve-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/candidate-pool-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-040.md\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-040.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-039.json\noutputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md\nsystem/handoff.md\nsystem/log.md\nsystem/scripts/day23_au187_displayed_curve.py\n",
+      "stderr_tail": ""
+    },
+    "git-version": {
+      "argv": [
+        "git",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "git version 2.43.0\n",
+      "stderr_tail": ""
+    },
+    "git-common-dir": {
+      "argv": [
+        "git",
+        "rev-parse",
+        "--git-common-dir"
+      ],
+      "exit_code": 0,
+      "stdout_tail": ".git\n",
+      "stderr_tail": ""
+    },
+    "postcommit-eol": {
+      "argv": [
+        "python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "25-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-034.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-034.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-035.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-035.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-036.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-036.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-037.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-037.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-038.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-038.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-039.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-039.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-040.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-040.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mixing_convention_bridge-025.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mixing_convention_bridge-025.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_inventory_hypothesis-020.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_inventory_hypothesis-020.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_vector_plot-019.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_vector_plot-019.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-multij_angular-012.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-multij_angular-012.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-nd135_export_identity-018.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-nd135_export_identity-018.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr135_export_identity-028.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr135_export_identity-028.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr_angle_groups-026.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr_angle_groups-026.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pt188_official_identity-037.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pt188_official_identity-037.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-rank4_positive_population-039.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-rank4_positive_population-039.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sameunit_ratios-024.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sameunit_ratios-024.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sensitivity_Eq3-009.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sensitivity_Eq3-009.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-signature_cranking-023.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-signature_cranking-023.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-strength_dependency-001.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-strength_dependency-001.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-upstream_gate-014.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-upstream_gate-014.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-030.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-031.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-032.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-033.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-034.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-035.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-036.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-037.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-038.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-039.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-040.json\n",
+      "stderr_tail": ""
+    },
+    "status-sb": {
+      "argv": [
+        "git",
+        "status",
+        "-sb"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "25-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-034.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-034.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-035.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-035.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-036.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-036.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-037.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-037.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-038.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-038.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-039.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-039.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-040.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-040.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mixing_convention_bridge-025.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mixing_convention_bridge-025.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_inventory_hypothesis-020.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_inventory_hypothesis-020.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_vector_plot-019.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_vector_plot-019.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-multij_angular-012.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-multij_angular-012.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-nd135_export_identity-018.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-nd135_export_identity-018.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr135_export_identity-028.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr135_export_identity-028.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr_angle_groups-026.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr_angle_groups-026.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pt188_official_identity-037.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pt188_official_identity-037.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-rank4_positive_population-039.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-rank4_positive_population-039.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sameunit_ratios-024.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sameunit_ratios-024.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sensitivity_Eq3-009.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sensitivity_Eq3-009.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-signature_cranking-023.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-signature_cranking-023.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-strength_dependency-001.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-strength_dependency-001.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-upstream_gate-014.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-upstream_gate-014.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-030.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-031.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-032.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-033.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-034.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-035.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-036.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-037.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-038.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-039.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-040.json\n",
+      "stderr_tail": ""
+    },
+    "status-short": {
+      "argv": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "25-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-034.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-034.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-035.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-035.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-036.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-036.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-037.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-037.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-038.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-038.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-039.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-039.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-040.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-lint-040.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mixing_convention_bridge-025.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mixing_convention_bridge-025.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_inventory_hypothesis-020.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_inventory_hypothesis-020.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_vector_plot-019.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-mu07_vector_plot-019.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-multij_angular-012.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-multij_angular-012.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-nd135_export_identity-018.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-nd135_export_identity-018.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr135_export_identity-028.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr135_export_identity-028.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr_angle_groups-026.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pr_angle_groups-026.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pt188_official_identity-037.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-pt188_official_identity-037.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-rank4_positive_population-039.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-rank4_positive_population-039.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sameunit_ratios-024.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sameunit_ratios-024.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sensitivity_Eq3-009.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-sensitivity_Eq3-009.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-signature_cranking-023.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-signature_cranking-023.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-strength_dependency-001.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-strength_dependency-001.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-upstream_gate-014.stderr\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/check-upstream_gate-014.stdout\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-030.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-031.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-032.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-033.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-034.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-035.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-036.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-037.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-038.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-039.json\n?? outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/metadata-pending-040.json\n",
+      "stderr_tail": ""
+    },
+    "unstaged-stat": {
+      "argv": [
+        "git",
+        "diff",
+        "--stat"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "index-names": {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--name-only"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "cached-check": {
+      "argv": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "fresh-fetch": {
+      "argv": [
+        "git",
+        "fetch",
+        "origin",
+        "main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "From gitee.com:chx6/silicon_graduate\n * branch              main       -> FETCH_HEAD\n"
+    },
+    "remote-ancestor": {
+      "argv": [
+        "git",
+        "merge-base",
+        "--is-ancestor",
+        "origin/main",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "dry-run": {
+      "argv": [
+        "git",
+        "push",
+        "--dry-run",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "To gitee.com:chx6/silicon_graduate.git\n   25ef0d55..7517aa1c  HEAD -> main\n"
+    },
+    "nonforce-push": {
+      "argv": [
+        "git",
+        "push",
+        "origin",
+        "HEAD:main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "remote: Powered by \u001b[01;33mGITEE.COM \u001b[0m[1.1.23]        \nremote: Set trace flag cb40fbb7        \nTo gitee.com:chx6/silicon_graduate.git\n   25ef0d55..7517aa1c  HEAD -> main\n"
+    },
+    "origin-tracking": {
+      "argv": [
+        "git",
+        "rev-parse",
+        "origin/main"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "7517aa1c6fe137688d0d44f976b67efb6da9fda8\n",
+      "stderr_tail": ""
+    }
+  },
+  "publication_status": "published",
+  "commit_hash": "7517aa1c6fe137688d0d44f976b67efb6da9fda8",
+  "branch": "main",
+  "subject": "Day23: separate the displayed Au fit from reduced observations",
+  "protected_unchanged": {
+    "PLAN.md": true,
+    "raw/zotero/wiki-inbox.bib": true
+  },
+  "manifest_exact": true,
+  "postcommit_reconciliation": "passed",
+  "origin_main_after_push": "7517aa1c6fe137688d0d44f976b67efb6da9fda8",
+  "postpush_tracked_clean": true,
+  "handoff_report_pointer_reconciled": true,
+  "finished_at": "2026-10-25T23:03:00.197767+00:00"
+}

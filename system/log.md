@@ -4455,3 +4455,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T06:49:17.120937+08:00 Day23检查点039：idealM1E2 rank4关系/正population凸包七控制，sourceA4坐标仅条件示例不作实验f/δ界；继续读取原PRL嵌入AD拟合曲线图像，先图像校准/分辨率合同再提拟合曲线A2/A4以核图表阶段；不digitize原计数似然。原15:00/partial[23,24]/next23保持。Git指针main · Day23: preserve conditional rank-four information in angular data；actualhash/H3仅task-publication-receipt-039.json。
 
 2026-10-26T06:58:01.664374+08:00 Day23检查点040：原Fig3a红fit图形提取六控制，A2约−.672/A4.389及声明像素敏感性；非netcounts/δ重拟合；继续核同一source的freefit→约束curve→table映射，若无新实际链则重建候选池/接续已允许Day24预习，不反复微调像素。原15:00/partial[23,24]/next23保持。Git指针main · Day23: separate the displayed Au fit from reduced observations；actualhash/H3仅task-publication-receipt-040.json。
+
+2026-10-26T07:10:39.099383+08:00 Day23检查点041：新读Zhang2007qpPRM25页v1，M1plus配对/coreE2与模拟多空穴限制实际核；仅24无学分；继续源参数单jBCS矩阵组件：逐轨道uu+vv是否可用共同因子，保Fermi零gap与原核多粒子输入缺口。原15:00/partial[23,24]/next23保持。Git指针main · Day23: trace quasiparticle operator assumptions to the original source；actualhash/H3仅task-publication-receipt-041.json。

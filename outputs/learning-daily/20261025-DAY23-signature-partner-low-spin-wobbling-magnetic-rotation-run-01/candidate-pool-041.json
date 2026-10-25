@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T23:10:39.099383+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "新读Zhang2007qpPRM25页v1，M1plus配对/coreE2与模拟多空穴限制实际核；仅24无学分",
+  "next_route": "源参数单jBCS矩阵组件：逐轨道uu+vv是否可用共同因子，保Fermi零gap与原核多粒子输入缺口",
+  "missing_inputs": [
+    "actual Au/Nd radial/BCS/coherent rotor matrices",
+    "sourcejob/globalresponse and phase/convention interface",
+    "experimental completebranch/normalization/covariance"
+  ],
+  "Day25_opened": false
+}

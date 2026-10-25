@@ -1,0 +1,78 @@
+{
+  "metadata": [
+    {
+      "url": "https://inspirehep.net/api/literature?q=doi:10.1103/PhysRevC.75.044307",
+      "status": 200,
+      "path": "tmp/day23-originals/zhang07-discovery041-6606e7ff.txt",
+      "sha256": "46fda8990a8cd7142b01eaca440aa3b663c419e725ad992229907b1b2a5088b1",
+      "hits": [
+        {
+          "titles": [
+            {
+              "title": "Chiral bands for quasi-proton and quasi-neutron coupling with a triaxial rotor"
+            },
+            {
+              "source": "arXiv",
+              "title": "Chiral bands for quasi-proton and quasi-neutron coupling with a triaxial rotor"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "nucl-th"
+              ],
+              "value": "nucl-th/0703047"
+            }
+          ],
+          "documents": null
+        }
+      ]
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=ti:%22Chiral%22+AND+ti:%22quasi-proton%22&max_results=5",
+      "status": 200,
+      "path": "tmp/day23-originals/zhang07-discovery041-24c6f556.txt",
+      "sha256": "7eca4eef7b94a9f12eef2f4e523fc6050f8f47cef5d6d492d5a53dbdd6cc6f23",
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/nucl-th/0703047v1",
+          "title": "Chiral bands for quasi-proton and quasi-neutron coupling with a triaxial rotor"
+        }
+      ]
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.75.044307",
+      "status": 200,
+      "path": "tmp/day23-originals/zhang07-discovery041-875f72ab.txt",
+      "sha256": "1fa0c3e914fd28774ae4a3bcc2eec670b323b4ec048ed3509be81ce60a1ad0fa",
+      "locations": [
+        {
+          "landing": "https://doi.org/10.1103/physrevc.75.044307",
+          "pdf": null
+        },
+        {
+          "landing": "http://arxiv.org/abs/nucl-th/0703047",
+          "pdf": "https://arxiv.org/pdf/nucl-th/0703047"
+        },
+        {
+          "landing": "http://cds.cern.ch/record/1024065",
+          "pdf": null
+        },
+        {
+          "landing": "https://doi.org/10.48550/arxiv.nucl-th/0703047",
+          "pdf": null
+        }
+      ]
+    }
+  ],
+  "actual_body": {
+    "url": "https://arxiv.org/pdf/nucl-th/0703047v1",
+    "status": 200,
+    "bytes": 738205,
+    "pdf": true,
+    "path": "tmp/day23-originals/zhang2007-qpprm-041.pdf",
+    "sha256": "601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8",
+    "pdf_pages": 25
+  },
+  "previous_QIarxiv_onlyv1": "officialarxiv API0812.4597stillv1, existingRMS/K0alreadycanonical no repeatednewclaim"
+}

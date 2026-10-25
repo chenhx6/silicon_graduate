@@ -163,3 +163,18 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | QI09-D21-R126-1 | 2026-10-24实际SUNScholar公开item的bundles清单返回HTTP200和totalElements=0；该同题同作者书目页不能当正式版PDF或独立模型复现。 | source-access-and-repository-identity | direct-public-metadata-response | https://scholar.sun.ac.za/server/api/core/items/bed0e4c3-0a22-429e-a3e6-5c2fe95a4922/bundles | true |
+
+## Day23内的Day24无学分预习：Ref26准粒子PRM算符原件
+
+本节独立标识本页Ref26的2007方法文，不将其当Qi2009的新数据或改本页元数据。S.Q. Zhang, B. Qi, S.Y. Wang, J. Meng，*Chiral bands for quasi-proton and quasi-neutron coupling with a triaxial rotor*，arXiv[nucl-th/0703047v1](https://arxiv.org/abs/nucl-th/0703047v1)，对应PRC75,044307(2007)、DOI[10.1103/PhysRevC.75.044307](https://doi.org/10.1103/PhysRevC.75.044307)。v1实际PDF200、738205bytes、25页、SHA256 601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8；tmp/day23-originals/zhang2007-qpprm-041.pdf，正式raw归档deferred。arXiv上传2007-03-15与文头June29,2018编译日期分开，不称已核VoR或改年份。
+
+本次读完v1主线正文1–16页及公式、refs16–18与全部图注；视觉核pp6–8的BCS/EM公式、p19Fig1、p22Figs4/5、p23Figs6/7，其余图仅按文本/图注读，不宣全部数值点已精确核。属于Day23内已打开的唯一Day24无学分预习，completed仍[]、partial[23,24]、next23，未开Day25。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-001 | 原Eq8给BCS变换u²+v²=1，Eq10/11给准粒子能量sqrt[(ε−λ)²+Δ²]与v²=[1−(ε−λ)/ε′]/2。Hamiltonian单粒子矩阵及M1 Eq18明确采用f=uu′+vv′，M1算符在Eq16/18按(gp−gR)jp+(gn−gR)jn与各自pairing factor组合。只给常数g而没有逐轨道ε/λ/Δ/幅与相位，不能复现完整准粒子磁矩。 | original-BCS-and-M1-operator | direct-new-method-primary | v1PDF6 Eqs8/10/11; PDF7Eq16/17; PDF8Eq18 | true |
+| ZH07-D24P-002 | Eq14/15的E2采用lab旋转intrinsicQ与Q0、γ及相同内禀标签的波函数重叠，另加时间反演sector的Term2；它没有列出粒子跨轨道r²C2矩阵或给这一E2式普遍乘uu′−vv′。不能把一般粒子E2的其它约定擅补到本文core tensor，也不能把单j qpPRM自动当Guo实际h/f多轨道QTR producer。 | original-E2-truncation-and-transfer-boundary | direct-new-method-primary-plus-bounded-synthesis | v1PDF7 Eqs13–15 and Term2 explanation | true |
+| ZH07-D24P-003 | 本文固定纯h11/2质子、以BCS neutronλ从ε6到ε1模拟费米面/多空穴变化，例采用C=.3MeV、J=30MeV−1、Δn=1MeV、Q0=3.5eb和gp−gR=.7/gn−gR=−.6；Fig1另用固定λ1.227MeV。它是模型参数扫描，不是135Nd三准粒子实际谱的同H重跑或新实验。结论明确BCS真空中其它粒子对惯量贡献的近似，要求未来显式多proton/neutron和更真实single-particle potential。 | model-design-and-author-stated-limit | direct-new-method-primary | v1PDF8–9 SecIII A/B; PDF15–16 Conclusion; Fig1captionPDF19 | true |
+| ZH07-D24P-004 | 作者模型中B(M1)/B(E2)两带接近可伴随两种绝对B各自差异；staggering随γ与Fermiλ强变，结论说它可能不是所有手征带的一般特征。λn=ε1的M1变小归于质子/中子取向和相反g贡献抵消，是本参数模型解释，不给任意核统一staggering/δ/B硬门，也不把ratio近合当两份独立absolute-strength观测。 | model-electromagnetic-pattern-and-limitation | direct-new-method-primary | v1PDF11–12 SecIIIC; PDF15Conclusion4/5; PDF22Figs4/5; PDF23Fig6 | true |
+
+文中定义的RMS几何仍属模型波函数；不新增此前QI09已记录的RMS/半整数K反例充进度。本次新增信息是实际算符/pairing层与作者适用条件。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]接续这些条件，[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021的实际h/f含量仍需完整多轨道/径向/占据，未由本单j方法文自动补齐。新claims均needs_review:true，原QI09范围/其它人审flags不变。

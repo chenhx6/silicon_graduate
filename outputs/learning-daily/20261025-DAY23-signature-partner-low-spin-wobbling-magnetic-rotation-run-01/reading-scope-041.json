@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-25T23:09:11.673696+00:00",
+  "actual_new_primary": "arxivnucl-th0703047v1",
+  "DOI": "10.1103/PhysRevC.75.044307",
+  "path": "tmp/day23-originals/zhang2007-qpprm-041.pdf",
+  "sha256": "601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8",
+  "scope": "body1–16allmainline,refs16–18andallcaptions; freshvisual6/7/8/19/22/23; not allfigurepoints orVoR",
+  "not_new_card": true,
+  "partial": [
+    23,
+    24
+  ],
+  "not_opened_day25": true,
+  "oldflags_preserved": true,
+  "newclaims_needs_review": true,
+  "rawarchive": "deferred,tmp only",
+  "specific_operator_boundary": "M1pluspairfactor explicit; no universalparticleE2minusfactor added tocoreE2"
+}

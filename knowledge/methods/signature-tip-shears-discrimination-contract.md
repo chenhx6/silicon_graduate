@@ -625,3 +625,9 @@ spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、
 这条显示曲线与033声明Gaussian .2/源大δ前向形状接近；[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10的初始freefit与Table4.4又是其它阶段。因此后续共同向量至少区分：净峰与校正后的逐角输入、无δ约束的A2/A4 fit、选根及约束模型下的显示曲线、所列table系数。曲线形状相合可以支持处理阶段解释的可行性，却不能单独证明table去衰减、恢复原counts/Cov或给globalroot权重。
 
 六项imagehash/分辨率、红线选择、亚像素RMS、单位相消、先像素后轴变换等价及90个敏感性variant检查通过；它们只核图形提取，曲线与δ仍同一source链，不增加独立证据票。此次还修复035/038新增两处公式的Python转义显示字符，计算输入/数值结果未改。新needs_review:true，无新δ/Q/τ/设施率或机时。
+
+## Day23桥接Day24预习：BCS因子不是未注明的共同磁尺度
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-001/002的实际2007方法文给M1的轨道对因子fμν=uμuν+vμvν；coreE2则采用Q0/γ旋转张量和内禀旁观重叠。u、v随ε、λ、Δ及约定变化，不能拿一个未注明的常数取代全矩阵，也不能在未加particleE2的源式上补uu′−vv′。038的h/f角块与此BCS层是不同输入，实际Au/Nd仍需两层同时绑定和rotor/相干波函数。
+
+源模型还明确用BCS真空近似模拟多空穴，未显式包含所有价粒子对惯量的贡献；多quasiparticle PRM与这一1qp+1qp模型不能只因都称PRM便视作同H。γ/λ扫描中的ratio/staggering规律是条件模型结果，不新增独立采集，也不恢复硬fingerprint门。[[nuclear-chirality]]承接唯一Day24无学分预习；本run正式credit仍只Day23。新needs_review:true，无physicalδ/g/Q/τ/CI或机时。

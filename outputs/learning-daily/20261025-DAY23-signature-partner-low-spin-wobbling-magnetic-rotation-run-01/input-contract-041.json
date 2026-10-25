@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-25T23:03:10.530577+00:00",
+  "original_day": 23,
+  "preview_day_uncredited": 24,
+  "scope": "actualnewmethodsource for qpPRM electromagneticoperator/BCStransfer, no new formalcard oractualNd135/Auconfigurationfit",
+  "identified_target": {
+    "doi": "10.1103/PhysRevC.75.044307",
+    "title": "Chiral bands for a quasi-proton and quasi-neutron coupled with a triaxial rotor",
+    "role": "QI09Ref26 EMoperators; bibliographicidentityCrossref200, body notyetread"
+  },
+  "source_before_recall": "primed by existingH02M1and038hfboundary,notblind recall; BCSsigns notassumeduntilactualsource",
+  "goals": [
+    "get actualoperator/BCS occupation definitions and multipole-dependent factors",
+    "distinguish1proton1neutron method transfer vsNd135two-proton+hole model",
+    "retainfit/calibrations andlimits/sourceindependence",
+    "avoid redoing existingQI09RMS/K0counterexample"
+  ],
+  "prohibited": [
+    "Day24credit or Day25+",
+    "paper title/snippet as evidenceforoperator signs",
+    "newphysicalg/B/delta/Q/tau/CI/rates/time",
+    "actualproducerreplay withoutbasis/radial/occupation/response",
+    "rawwrite/protectedBib/PLAN/oldflagschange",
+    "run114producer"
+  ]
+}
