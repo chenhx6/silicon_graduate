@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T23:26:58.447889+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "四mode16D Fock25设计点十controls，plus/minus与1qp+3qp范数闭合明确，非gamma分支",
+  "next_route": "源无配对1proton+1hole PRM有限I实现，先D2基与自由转子极限验证，再固定参数少量spin谱；不调实验或重放配对producer",
+  "missing_inputs": [
+    "actual paired/multiquasiparticle sourcejob and coherent wavefunctions",
+    "original experimental completebranch/normalizer/response/Cov",
+    "finitearray/AD processing and globalroot likelihood"
+  ],
+  "Day25_opened": false
+}

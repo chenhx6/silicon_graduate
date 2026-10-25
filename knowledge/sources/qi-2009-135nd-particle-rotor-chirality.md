@@ -189,3 +189,13 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-006 | 对对称ξ=±x，plusfactor为Δ/sqrt(x²+Δ²)；Δ→0且ξ≠0时，同occupancy类factor1、异类0。若Δ=0且ε=λ，Eq11出现0/0，需要另给blocking/占据约定，程序保未定义而不填.5。源pureproton是另明确的配置条件，不能把这个数学边界当作者实验/模型错误。 | analytic-limit-and-occupation-boundary | source-definition-plus-task-algebra | ZH07v1PDF6Eq10/11; PDF9pure-proton conditions; task input-contract042 | true |
 
 `system/scripts/day23_qp_pairing_factor.py`十二项源SHA、bareH解析/对称、BCS canonical/gap、Gram与极限控制通过，最大谱Kramers差1.8e−15MeV、Gram小负特征值浮点幅≤4.7e−15。bareH的Casimir检查只用于裸j；没有要求截断1qp算符在遗漏pair-changing sectors时独自实现完整生成元代数。未算rotor耦合核态、actualg/B/E2/δ、实验CI或机时。[[signature-tip-shears-discrimination-contract]]与[[nuclear-chirality]]保仅下一卡无学分预习及算符迁移边界。
+
+## Day23内的Day24无学分预习：1qp因子与遗漏扇区的Fock检查
+
+本节沿ZH07-D24P-001的Bogoliubov约定另作声明四mode数学例，不是该文核态或原PRMproducer；needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-007 | 在两Kramers对(A,barA,B,barB)的16维Fock空间、实u/v与源Eq8约定下，时间奇hopping的1qp A↔B块为uu′+vv′，时间偶同体hopping为uu′−vv′。完整odd sector由4个1qp和4个3qp态组成，算符作用的范数包含两者；plus²+(uAvB−vAuB)²=1、minus²+(uAvB+vAuB)²=1在声明例中成立。投影到1qp丢失的范数不代表实测γ强度丢失，也不能用它强判源模型生成元错误。 | declared-exact-Fock-projection-identity | source-convention-plus-task-algebra | ZH07v1PDF6Eq8/PDF8Eq18; task input-contract043 | true |
+
+25个声明u/v设计点、十项CAR/BCS真空/时间宇称/投影/完整odd扇区检查通过，最大误差4.5e−16。所选θA=.2、θB=1的数学例中，时间奇1qp/3qp范数约.4854/.5146，时间偶约.1313/.8687；未赋核态能量、multipole、physicalg/B。toy T²=(−1)^N只校准此fermion约定，不将其误作手征C²或真实Kramers双带证据。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保Day24无学分与coreE2适用边界。

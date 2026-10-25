@@ -161,3 +161,9 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-005/006以实际方法文参数作单j/BCS组件，显示M1的uu′+vv′是轨道对矩阵而非普遍共同尺度。Δ0/ε=λ还需blocking/占据约定；源pureparticle条件须另保留，不任意填半占据。
 
 这不提供新核带或实际g/B，不能用组件factor范围推partner强度比。partner-resolved map需要完整EM算符、占据、相干/rotor波函数及定标/实验账本，见[[signature-tip-shears-discrimination-contract]]。本节仍Day24无学分预习，新增needs_review:true。
+
+## Day23内的Day24无学分预习：投影闭合与手征证据分层
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-007用精确四mode Fock例核源BCS的时间奇plus因子；在同约定的时间偶单体算符则得到minus因子。遗漏3qp扇区可携带剩余范数，完整Fock闭合与截断1qp闭合不同，但均不是实验γ分支库存。
+
+这个toy不指定实际核Hamiltonian/EM多极或真实态，不给手征/Kramers双带新认证；T²与C²的既有区别保持。[[signature-tip-shears-discrimination-contract]]承接算符/截断审计，源coreE2不因toy时间偶单体例而自动添加minusfactor。Day24仍无学分，新增needs_review:true。

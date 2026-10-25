@@ -1,0 +1,147 @@
+{
+  "scope": "declared16-dimensionalFock toy with2Kramerspairs, direct CAR/Bogoliubov/onebodyprojection identity, not actual nucleus or multipole fit",
+  "formal_day_index": 23,
+  "only_uncredited_preview": 24,
+  "conditions": {
+    "recorded_at": "2026-10-25T23:17:10.218992+00:00",
+    "scope": "declared16-dimensionalFock toy with2Kramerspairs, direct CAR/Bogoliubov/onebodyprojection identity, not actual nucleus or multipole fit",
+    "formal_day": 23,
+    "uncreditedpreview": 24,
+    "basis_modes": [
+      "A",
+      "barA",
+      "B",
+      "barB"
+    ],
+    "time_convention": "T antiunitary, T a†A T^-1=a†barA,T a†barA T^-1=-a†A andsameB; Tvac=vac; no actualHamiltonian or degeneracyassertion",
+    "BCS": "vac=(uA+vA a†A a†barA)(uB+vB a†B a†barB)|0>;realnonnegativeu/v; Eq8 sourceα†A=uA a†A−vA abarA,α†barA=uA a†barA+vA aA",
+    "onebody_operators": "Oodd=hoppingA_B minusbarA_barB hopping;Oeven=unbar+barhopping. Theyaretimeodd/even bystatedT,notactualM1/E2nuclearoperator",
+    "test_points": "u=cosθ,v=sinθ anglesA/B in[0,.2,.5,1.0,pi/2]radians productdesign andanalyticξ±1Δ1 example; no actualnuclearoccupancy",
+    "identities": [
+      "oneqp projected Oodd offAB=uAuB+vAvB",
+      "oneqp projected Oeven offAB=uAuB−vAvB",
+      "plusfactor²+(uAvB−vAuB)²=1,minusfactor²+(uAvB+vAuB)²=1",
+      "fulloddFockspace1qp+3qpclosure, projectednormleakagenonnegative",
+      "fullT²=(-1)^N onlytoyfermioncalibration,notchiralC²/degeneracytheorem"
+    ],
+    "prohibited": [
+      "assignnuclearphysicalg/B/delta/Q/tau orrate/time",
+      "appendminusfactor toZH07coreE2",
+      "fullFockclosure interpretedcompletegammaoutlets",
+      "sourcefullproducer orproofallqpPRMcorrect",
+      "newDay24credit/Day25 or raw/oldreviewmutation",
+      "run114producer"
+    ]
+  },
+  "contract_sha256": "a8e449f1ce92ea215f9c98ac1f455532e072934bfaa37183c4e55a320bb825e7",
+  "implementation_sha256": "8cb9c69fc35cb99a95e755fcaef5d8742054fdef8750d57cca326d7ae59855f7",
+  "design_count": 25,
+  "selected_design_rows": [
+    {
+      "thetaA_design": 0.0,
+      "thetaB_design": 0.0,
+      "operators": {
+        "odd": {
+          "one_qp_matrix_AB": 1.0,
+          "one_qp_projected_norm": 1.0,
+          "three_qp_norm": 0.0,
+          "full_odd_norm": 1.0
+        },
+        "even": {
+          "one_qp_matrix_AB": 1.0,
+          "one_qp_projected_norm": 1.0,
+          "three_qp_norm": 0.0,
+          "full_odd_norm": 1.0
+        }
+      }
+    },
+    {
+      "thetaA_design": 0.0,
+      "thetaB_design": 1.5707963267948966,
+      "operators": {
+        "odd": {
+          "one_qp_matrix_AB": 6.123233995736766e-17,
+          "one_qp_projected_norm": 3.749399456654644e-33,
+          "three_qp_norm": 1.0,
+          "full_odd_norm": 1.0
+        },
+        "even": {
+          "one_qp_matrix_AB": 6.123233995736766e-17,
+          "one_qp_projected_norm": 3.749399456654644e-33,
+          "three_qp_norm": 1.0,
+          "full_odd_norm": 1.0
+        }
+      }
+    },
+    {
+      "thetaA_design": 0.2,
+      "thetaB_design": 1.0,
+      "operators": {
+        "odd": {
+          "one_qp_matrix_AB": 0.6967067093471655,
+          "one_qp_projected_norm": 0.48540023884935574,
+          "three_qp_norm": 0.5145997611506444,
+          "full_odd_norm": 1.0
+        },
+        "even": {
+          "one_qp_matrix_AB": 0.3623577544766736,
+          "one_qp_projected_norm": 0.13130314222937728,
+          "three_qp_norm": 0.8686968577706229,
+          "full_odd_norm": 1.0
+        }
+      }
+    },
+    {
+      "thetaA_design": 0.5,
+      "thetaB_design": 0.5,
+      "operators": {
+        "odd": {
+          "one_qp_matrix_AB": 1.0,
+          "one_qp_projected_norm": 1.0,
+          "three_qp_norm": 3.0814879110195774e-33,
+          "full_odd_norm": 1.0
+        },
+        "even": {
+          "one_qp_matrix_AB": 0.5403023058681398,
+          "one_qp_projected_norm": 0.2919265817264289,
+          "three_qp_norm": 0.7080734182735712,
+          "full_odd_norm": 1.0
+        }
+      }
+    }
+  ],
+  "controls": {
+    "physical_fermion_CAR": true,
+    "antiunitary_Tsquare_is_fermion_parity_and_U_unitary": true,
+    "declared_onebody_time_parities": true,
+    "Bogoliubov_qp_CAR": true,
+    "normalized_BCS_vacuum_annihilated_by_qp": true,
+    "oneqp_threeqp_basis_orthonormal": true,
+    "oneqp_plus_threeqp_complete_odd_Fock_sector": true,
+    "exact_oneqp_plus_and_minus_factors": true,
+    "full_odd_norm_closure": true,
+    "analytic_pairchanging_complement": true
+  },
+  "all_controls_pass": true,
+  "errors": {
+    "CAR": 0.0,
+    "T_square": 0.0,
+    "T_unitarity": 0.0,
+    "time_parities": 0.0,
+    "qp_CAR": 0.0,
+    "BCS_vacuum": 2.220446049250313e-16,
+    "qp_basis": 4.440892098500626e-16,
+    "odd_sector_complete": 4.440892098500626e-16,
+    "projected_factors": 2.220446049250313e-16,
+    "closure": 4.440892098500626e-16,
+    "total_norm_one": 4.440892098500626e-16,
+    "analytic_complement": 4.440892098500626e-16
+  },
+  "limitations": [
+    "Declared four-mode algebra only; no nuclear Hamiltonian, physical M1/E2 operator or eigenstate is assigned.",
+    "A time-even single-particle operator has a minus factor in this gauge; this does not modify the source core E2 tensor.",
+    "Oneqp/threeqp norm closure is Fock-space bookkeeping, not a complete gamma branch or experimental width inventory.",
+    "T-square identity is a calibration of this fermion convention, not proof of chiral degeneracy or actual Kramers bands.",
+    "No physical g/B/delta/Q/lifetime/CI, facilities count rate or beamtime."
+  ]
+}

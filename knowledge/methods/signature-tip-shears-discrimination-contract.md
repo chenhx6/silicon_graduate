@@ -639,3 +639,15 @@ spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、
 该任务只计算源single-j Hsp/占据组件，γ0/30/60下非零barej支持的F范围不同，不映射成实际核带抑制。对ξ=±x，fplus=Δ/√(x²+Δ²)；Δ0/ξ非零极限与exactFermi/Δ0未定义分开。sourcepureproton须使用其明示配置/blocking，而非凭0/0设置.5。
 
 Barej闭合/BCS canonical检查并不认证截断qp空间的完整J代数：丢失pair-changing sectors时，不能拿裸j的Casimir要求强判源模型错误。源coreE2与粒子EM矩阵另有截断，真实Au/Nd仍需实际多轨道/radial/occupation/coherent/rotor输入。十二组件controls过仅解除公式实现层缺口，无新physicalg/B/δ/Q/τ/CI/设施率或机时；Day24保持无学分，新增needs_review:true。
+
+## Day23桥接Day24预习：配对矩阵与投影闭合的独立检查
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-007采用两Kramers对、16维Fock基独立核Bogoliubov/CAR。声明时间反演把a†A变a†barA、a†barA变−a†A；由源Eq8的α†作用在BCS真空建立1qp/3qp正交基。时间奇与时间偶单体hopping的1qp A/B矩阵分别为uu′+vv′、uu′−vv′。
+
+在此小模型里，两类算符对一个normalized1qp初态的总范数1分到1qp与3qp，其中
+
+$$f_+^2+(u_Av_B-v_Au_B)^2=1,qquad f_-^2+(u_Av_B+v_Au_B)^2=1.$$
+
+该完整odd扇区的identity解释了为何不能对遗漏pair-changing扇区的有效1qp算符强施裸生成元闭合或Casimir。它没有证明所有qp截断都正确，更不是实际γ出口完整性；physicaltransition仍需原核态/算符/径向/BCS/rotor与响应账。
+
+十项独立CAR/反幺正约定/BCS真空/1qp+3qp闭合控制在25个设计点过，最大误差约4.5e−16；未给核态、g/B/δ/Q/τ/CI或机时。时间偶单体minus因子也不修改ZH07采用的coreE2张量，不能由一般toy补原文未包含的particleE2项。[[nuclear-chirality]]保同一Day24无学分预习范围，新增needs_review:true。

@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-25T23:24:51.695989+00:00",
+  "source_scope": "reuseZH07actualEq8/18; no newfullsource",
+  "Fock_design": "declared4mode16Donly",
+  "ten_controls_pass": true,
+  "not_physical_nucleus_or_multipole": true,
+  "not_gamma_inventory": true,
+  "coreE2unchanged": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "originalday": 23,
+  "uncreditedpreview": 24
+}

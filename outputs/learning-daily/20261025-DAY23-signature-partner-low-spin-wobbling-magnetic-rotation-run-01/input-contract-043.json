@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-25T23:17:10.218992+00:00",
+  "scope": "declared16-dimensionalFock toy with2Kramerspairs, direct CAR/Bogoliubov/onebodyprojection identity, not actual nucleus or multipole fit",
+  "formal_day": 23,
+  "uncreditedpreview": 24,
+  "basis_modes": [
+    "A",
+    "barA",
+    "B",
+    "barB"
+  ],
+  "time_convention": "T antiunitary, T a†A T^-1=a†barA,T a†barA T^-1=-a†A andsameB; Tvac=vac; no actualHamiltonian or degeneracyassertion",
+  "BCS": "vac=(uA+vA a†A a†barA)(uB+vB a†B a†barB)|0>;realnonnegativeu/v; Eq8 sourceα†A=uA a†A−vA abarA,α†barA=uA a†barA+vA aA",
+  "onebody_operators": "Oodd=hoppingA_B minusbarA_barB hopping;Oeven=unbar+barhopping. Theyaretimeodd/even bystatedT,notactualM1/E2nuclearoperator",
+  "test_points": "u=cosθ,v=sinθ anglesA/B in[0,.2,.5,1.0,pi/2]radians productdesign andanalyticξ±1Δ1 example; no actualnuclearoccupancy",
+  "identities": [
+    "oneqp projected Oodd offAB=uAuB+vAvB",
+    "oneqp projected Oeven offAB=uAuB−vAvB",
+    "plusfactor²+(uAvB−vAuB)²=1,minusfactor²+(uAvB+vAuB)²=1",
+    "fulloddFockspace1qp+3qpclosure, projectednormleakagenonnegative",
+    "fullT²=(-1)^N onlytoyfermioncalibration,notchiralC²/degeneracytheorem"
+  ],
+  "prohibited": [
+    "assignnuclearphysicalg/B/delta/Q/tau orrate/time",
+    "appendminusfactor toZH07coreE2",
+    "fullFockclosure interpretedcompletegammaoutlets",
+    "sourcefullproducer orproofallqpPRMcorrect",
+    "newDay24credit/Day25 or raw/oldreviewmutation",
+    "run114producer"
+  ]
+}
