@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T22:49:17.120937+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "idealM1E2 rank4关系/正population凸包七控制，sourceA4坐标仅条件示例不作实验f/δ界",
+  "next_route": "读取原PRL嵌入AD拟合曲线图像，先图像校准/分辨率合同再提拟合曲线A2/A4以核图表阶段；不digitize原计数似然",
+  "missing_inputs": [
+    "actual finitearray/gate response linking fitted A4 tophysicalC4",
+    "original freefit/table correction outputs and covariance",
+    "actual netcounts and rawproducer/globalbranchprofile"
+  ],
+  "Day25_opened": false
+}

@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-25T22:47:40.164245+00:00",
+  "scope": "existing sourcekernel/formula and separate sourceA4coordinate examples only",
+  "seven_controls_pass": true,
+  "not_new_observed_fraction_or_delta": true,
+  "ideal_physical_layer_not_certified_for_actual_table": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true
+}

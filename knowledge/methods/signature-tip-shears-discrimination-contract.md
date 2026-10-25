@@ -604,8 +604,19 @@ configuration槽亦有校准提醒：Pt2014 Table3的所谓实验g组合实际�
 
 电四极角张量不同。声明C2q=√(4π/5)Y2q，有
 
-$$\langle l'm'|C^2_q|lmangle=\sqrt{rac{2l+1}{2l'+1}}\langle l0,20|l'0angle\langle lm,2q|l'm'angle.$$
+$$\langle l'm'|C^2_q|lm
+angle=\sqrt{rac{2l+1}{2l'+1}}\langle l0,20|l'0
+angle\langle lm,2q|l'm'
+angle.$$
 
 spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、反向.021645，为dimensionless C2的平均平方和。physicalE2仍乘相应的未知⟨n'l'|r²|nl⟩及电荷；hh、ff、hf不预设同一径向尺度。九项CG/独立球面积分/投影/对称控制过，只证角块与归一。
 
 因此实际混合核态的M1可来自各保l分量和core耦合，不能把bare cross-l零写成全band M1禁戒；E2的跨l相干项又依赖真实幅/phase/radial。换configuration assignment时，必须预先固定这些operators和radial/BCS/rotor条件，再对未用于定标的跨线相对量评分。只知图中dominant标签无法恢复完整幅，更不能挑某角因子判原QTR已失效或两解释同等可信。新增needs_review:true，无新g/δ/B/Q/τ/CI、率或机时。
+
+## Day23：A4可提供取向条件信息，但必须先绑定物理层
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-005给ideal M1/E2 singles下C4=fE2 a4E2(P)，因为1⊗1与1⊗2不能产生rank4，2⊗2可以。完整方位平均后任意正density只留下非负M布居；a4E2的范围因此是所有逐M系数的凸包。I11/2→9/2上界.703297，I15/2→13/2上界.806723；不需要预设Gaussian宽度。
+
+若某个正A4**已被验证属于该ideal物理层**，则fE2≥A4/a4,max是必要条件。用[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8的三个不同阶段坐标作示意，376 Fig4.12的.3194给条件数.454147，376 Table4.4的.523给.743641，461.8 Table4.4的.502给.622271。它们是“若坐标层次满足前提”的算术示例，**不是本任务重建的实测E2份额、δ下限或置信限**；源图表/校正映射尚未给实际应用授权。
+
+这个数学范围表明取向自由并不使任意多极混合与任意A4自动相容，AD在已明确响应下可以有选根信息；同时actualarray有限acceptance、门、feeding及拟合处理能改变从净峰到所报系数的映射。不能从此表直接宣布Au某根已排除，也不能把缺实际输入反写成两谷必等深。新七控件只验证条件rank/正布居，不恢复原likelihood。共同Cov/校正阶段、完整phase/interface和响应仍是下一实际输入，无新Q/τ/机时。

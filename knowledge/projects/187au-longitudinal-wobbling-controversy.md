@@ -371,3 +371,9 @@ kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] 
 [[guo-2022-low-spin-wobbling-187au]] GU22-D23-021及[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-005给不同l角块检查：裸h/f直接M1零而E2允许、两j的磁投影不同。[[signature-tip-shears-discrimination-contract]]明确这只限制common-scale迁移，混合核带仍可有M1；actualradial/BCS/相干幅与rotor耦合缺失，未预测原QTR物理δ/B。
 
 B槽下一检验仍须保持实测核素/计数/能级不变，固定完整operator后比较组态映射的未定标量；角代数可写不代表两归属等可信。新needs_review:true，所有实际Pr/Au分支及其它核支持校准保持。
+
+## Day23：A4条件约束与源图表阶段需同时保留
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-005和[[signature-tip-shears-discrimination-contract]]给理想M1/E2 polar singles的rank4正布居凸包。它限制“取向可以任意补偿所有多极混合”的推断，也保留AD在明确响应下的条件信息；未将[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10不同处理阶段的表/图A4自动提升为该物理量。
+
+因此当前仍不从conditionalfraction算术给新实测δ或排除度，不预判谷深，也不抹支持方实际选低χ²分支信息。净峰→校正→freefit→选根表与共同response/Cov的绑定仍是最高信息输入。新needs_review:true，LW/SP及Au/Pt最终归属不变。

@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint038）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint039）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23, 24]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T06:43:55.554908+08:00
+- checked_at: 2026-10-26T06:49:17.120937+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -50,6 +50,8 @@ checkpoint016重建后选择同卡AMR原件路线（非Day24）：Simons2003/200
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+检查点039复用已核RB振幅/SE21公式，新增RB67-D23-005为条件rank4与正布居推导，无新source或原fit。实际图表阶段由SE21-D23-8/9/10继续保持。
 
 检查点038复用Guo实际h/f模型来源与H02完整l/s算符；新H02-D23-005/GU22-D23-021是任务角代数层，非新QTR producer或全文阅读。
 
@@ -140,6 +142,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+检查点039在idealM1/E2 polar singles，C4=fE2 C4pureE2，逐M凸包I11/2范围[−.703297,.703297]、I15/2[−.653061,.806723]，七控制过。三个源坐标只产生“若属于此层”的fraction必要条件算术，不报实验f/δ/CI。
 
 检查点038完整l3⊕l5×spin1/2共36维：bare h/f直接M1块0，dimensionless C2角块允许；h9/2→f7/2均值.017316、反向.021645。九物理归一/独立积分控制过，Gaunt差≤1.7e−14，无radial/电荷/占据赋值。
 
@@ -235,6 +239,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+检查点039任意正取向也有rank4界，不能宣称AD永不选根或两谷必等深；actualfinitearray/gate与图表阶段未绑定，不能拿条件界直接排某根。共同response/Cov/原producer仍缺，无新δ或功效机时。
+
 检查点038直接cross-l M1零非混合核带M1禁戒，不同barej不充好I核态。physicalE2须hh/ff/hf各径向量和相干幅，BCS/core/rotor缺口不由dominant标签补；不据角因子排模型或造δ/Q/τ。
 
 检查点037共同实验谱系有实际评价描述，逐eventledger仍缺。POL字面未辨P/asymmetry，XUNDL空强度/多极/δ不0；partial scheme不提供Au双门Pt泄漏上限，原2017全文和共同净峰/response/time仍缺。
@@ -320,6 +326,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+检查点039 supports/limits：保留AD条件信息，同时具体化响应层迁移门。source/方法/Au新needs_review，科学归属与原课程credit保持开放；原Day23继续。
 
 检查点038 supports/limits：将B槽common-scale迁移条件具体到Au actualh/f内容，canonical方法/project/source同步needs_review。原完整配置映射/response仍待输入，不给等可信/终审；原Day23继续。
 
@@ -556,7 +564,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。 补实际旧评价母态clock/endpoint/版本合同，末态半衰期不移作母τ。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。 补实际旧评价母态clock/endpoint/版本合同，末态半衰期不移作母τ。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -982,6 +990,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
           "locator": "GU22-D23-021"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-005"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+          "locator": "SE21-D23-8"
         }
       ]
     },
@@ -1155,7 +1171,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
-      "summary": "隔离Guo引用母核文字疑点，明确Rupnik仅元数据/摘要可访问，历史αK仍非本次直接核阅。 保留支持方非刚性j几何及reference尺度/不同带对边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 最小同步当前active summary导航，不增加新实验认证。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。",
+      "summary": "隔离Guo引用母核文字疑点，明确Rupnik仅元数据/摘要可访问，历史αK仍非本次直接核阅。 保留支持方非刚性j几何及reference尺度/不同带对边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 最小同步当前active summary导航，不增加新实验认证。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。",
       "anchor": "Day23：历史conversion的直接证据缺口与母核文字",
       "sources": [
         {
@@ -1341,6 +1357,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
           "locator": "GU22-D23-021"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-005"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+          "locator": "SE21-D23-8"
         }
       ]
     },
@@ -1837,7 +1861,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
-      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
+      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。",
       "anchor": "Day23：半整数spin的single-photon响应组件",
       "sources": [
         {
@@ -1871,6 +1895,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-004"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-005"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+          "locator": "SE21-D23-8"
         }
       ]
     },
@@ -2369,6 +2401,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+检查点039以required-checks-039.json为实际退出码/原runner门记录，续接见next-continuation-039.md。七个rank/正population/源F与投影控制过；conditionalfraction无实测/CI含义，不预判谷深。 Git指针main · Day23: preserve conditional rank-four information in angular data；actualhash/H3仅task-publication-receipt-039.json。 原15:00截止、Day24无学分边界保持。
 
 检查点038以required-checks-038.json为实际退出码/原runner门记录，续接见next-continuation-038.md。九物理归一/独立积分/投影控制过；pureangular非physicalB，直接h/f零非混合核带M1禁戒。 Git指针main · Day23: bind h-f configuration comparisons to operator inputs；actualhash/H3仅task-publication-receipt-038.json。 原15:00截止、Day24无学分边界保持。
 

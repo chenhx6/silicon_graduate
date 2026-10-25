@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-25T22:44:43.107868+00:00",
+  "scope": "ideal M1/E2 singles angularrank4 and arbitrary positive Mpopulation conditional feasibility only, not new experimental E2fraction/delta or CI",
+  "kernel": "existing halfspin singles and sourceF bridge; sourceEq2.42–51/SE21-D23-8/9/10 supplylayer roles",
+  "spins": [
+    {
+      "two_I": 11,
+      "two_If": 9
+    },
+    {
+      "two_I": 15,
+      "two_If": 13
+    }
+  ],
+  "source_coordinate_examples": [
+    {
+      "line": "376Fig4.12",
+      "two_I": 11,
+      "A4": 0.3194,
+      "source_role": "actualfreefitFig4.12 layer notyetboundphysicalarraykernel"
+    },
+    {
+      "line": "376Table4.4",
+      "two_I": 11,
+      "A4": 0.523,
+      "source_role": "differenttable stage,notcertifiedrawA4"
+    },
+    {
+      "line": "461.8Table4.4",
+      "two_I": 15,
+      "A4": 0.502,
+      "source_role": "table stage,notcertifiedrawA4"
+    }
+  ],
+  "design_mixing_coordinates": [
+    -2.98,
+    -2.67,
+    -0.28,
+    -0.26,
+    0,
+    0.5,
+    2.0
+  ],
+  "claim_to_test": "C4fullmixed=f_E2*C4pureE2 atallpositiveMpops; directsumrho foraxisymfullazimuthmean,notactualfinitearraygates",
+  "feasibility": "C4pureE2 convex hull overallM (reflectionsame); ifactualA4atthislayerpositive, necessaryfE2>=A4/maxC4pure; coordinateexamples illustrateconditiononly, no new physicaldeltabound orconfidence",
+  "prohibited": [
+    "callsourcecoordinateexamplereconstructedmeasuredE2fraction/delta",
+    "actual rejection fromtableormissingfinitearraytransfer",
+    "assign jointCov/CI/gaussianerrors or equalminima",
+    "inventpop/radial/actualQ/g/tau/rates/time",
+    "sourceA4/deriveddelta countedindependently",
+    "run114producer"
+  ]
+}

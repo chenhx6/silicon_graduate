@@ -1,0 +1,252 @@
+{
+  "scope": "ideal M1/E2 singles angularrank4 and arbitrary positive Mpopulation conditional feasibility only, not new experimental E2fraction/delta or CI",
+  "formal_day_index": 23,
+  "conditions": {
+    "recorded_at": "2026-10-25T22:44:43.107868+00:00",
+    "scope": "ideal M1/E2 singles angularrank4 and arbitrary positive Mpopulation conditional feasibility only, not new experimental E2fraction/delta or CI",
+    "kernel": "existing halfspin singles and sourceF bridge; sourceEq2.42–51/SE21-D23-8/9/10 supplylayer roles",
+    "spins": [
+      {
+        "two_I": 11,
+        "two_If": 9
+      },
+      {
+        "two_I": 15,
+        "two_If": 13
+      }
+    ],
+    "source_coordinate_examples": [
+      {
+        "line": "376Fig4.12",
+        "two_I": 11,
+        "A4": 0.3194,
+        "source_role": "actualfreefitFig4.12 layer notyetboundphysicalarraykernel"
+      },
+      {
+        "line": "376Table4.4",
+        "two_I": 11,
+        "A4": 0.523,
+        "source_role": "differenttable stage,notcertifiedrawA4"
+      },
+      {
+        "line": "461.8Table4.4",
+        "two_I": 15,
+        "A4": 0.502,
+        "source_role": "table stage,notcertifiedrawA4"
+      }
+    ],
+    "design_mixing_coordinates": [
+      -2.98,
+      -2.67,
+      -0.28,
+      -0.26,
+      0,
+      0.5,
+      2.0
+    ],
+    "claim_to_test": "C4fullmixed=f_E2*C4pureE2 atallpositiveMpops; directsumrho foraxisymfullazimuthmean,notactualfinitearraygates",
+    "feasibility": "C4pureE2 convex hull overallM (reflectionsame); ifactualA4atthislayerpositive, necessaryfE2>=A4/maxC4pure; coordinateexamples illustrateconditiononly, no new physicaldeltabound orconfidence",
+    "prohibited": [
+      "callsourcecoordinateexamplereconstructedmeasuredE2fraction/delta",
+      "actual rejection fromtableormissingfinitearraytransfer",
+      "assign jointCov/CI/gaussianerrors or equalminima",
+      "inventpop/radial/actualQ/g/tau/rates/time",
+      "sourceA4/deriveddelta countedindependently",
+      "run114producer"
+    ]
+  },
+  "contract_sha256": "0a81673c03452e7223e02826608965e11fb90ce529fed3957066a9f57cfd0c80",
+  "implementation_sha256": "d1fd0c5cd8063e0e7339613345e977f6921f45944f6c6d08a30d3c3e8397eacc",
+  "spin_rows": {
+    "11": {
+      "two_I": 11,
+      "two_If": 9,
+      "pure_E2_C4_for_each_M": [
+        {
+          "M": -5.5,
+          "C4": 0.7032967032967209
+        },
+        {
+          "M": -4.5,
+          "C4": -0.5754245754245705
+        },
+        {
+          "M": -3.5,
+          "C4": -0.7032967032967002
+        },
+        {
+          "M": -2.5,
+          "C4": -0.2770562770562698
+        },
+        {
+          "M": -1.5,
+          "C4": 0.25574425574426773
+        },
+        {
+          "M": -0.5,
+          "C4": 0.5967365967366118
+        },
+        {
+          "M": 0.5,
+          "C4": 0.5967365967366118
+        },
+        {
+          "M": 1.5,
+          "C4": 0.2557442557442682
+        },
+        {
+          "M": 2.5,
+          "C4": -0.2770562770562694
+        },
+        {
+          "M": 3.5,
+          "C4": -0.7032967032967
+        },
+        {
+          "M": 4.5,
+          "C4": -0.5754245754245705
+        },
+        {
+          "M": 5.5,
+          "C4": 0.7032967032967198
+        }
+      ],
+      "pure_E2_positive_population_C4_range": [
+        -0.7032967032967002,
+        0.7032967032967209
+      ]
+    },
+    "15": {
+      "two_I": 15,
+      "two_If": 13,
+      "pure_E2_C4_for_each_M": [
+        {
+          "M": -7.5,
+          "C4": 0.8067226890756493
+        },
+        {
+          "M": -6.5,
+          "C4": -0.26890756302520197
+        },
+        {
+          "M": -5.5,
+          "C4": -0.6530612244897919
+        },
+        {
+          "M": -4.5,
+          "C4": -0.5939606611875475
+        },
+        {
+          "M": -3.5,
+          "C4": -0.2984578446763257
+        },
+        {
+          "M": -2.5,
+          "C4": 0.06796564779759036
+        },
+        {
+          "M": -1.5,
+          "C4": 0.3811986332994862
+        },
+        {
+          "M": -0.5,
+          "C4": 0.5585003232062199
+        },
+        {
+          "M": 0.5,
+          "C4": 0.5585003232062202
+        },
+        {
+          "M": 1.5,
+          "C4": 0.38119863329948667
+        },
+        {
+          "M": 2.5,
+          "C4": 0.06796564779759086
+        },
+        {
+          "M": 3.5,
+          "C4": -0.2984578446763253
+        },
+        {
+          "M": 4.5,
+          "C4": -0.5939606611875471
+        },
+        {
+          "M": 5.5,
+          "C4": -0.6530612244897919
+        },
+        {
+          "M": 6.5,
+          "C4": -0.26890756302520225
+        },
+        {
+          "M": 7.5,
+          "C4": 0.8067226890756479
+        }
+      ],
+      "pure_E2_positive_population_C4_range": [
+        -0.6530612244897919,
+        0.8067226890756493
+      ]
+    }
+  },
+  "coordinate_examples_only": [
+    {
+      "source_coordinate": {
+        "line": "376Fig4.12",
+        "two_I": 11,
+        "A4": 0.3194,
+        "source_role": "actualfreefitFig4.12 layer notyetboundphysicalarraykernel"
+      },
+      "conditional_necessary_fraction_floor": 0.4541468749999887,
+      "meaning": "necessary mathematical condition IF source coordinate is the physical ideal C4 layer; not an experimental fraction/CI/delta"
+    },
+    {
+      "source_coordinate": {
+        "line": "376Table4.4",
+        "two_I": 11,
+        "A4": 0.523,
+        "source_role": "differenttable stage,notcertifiedrawA4"
+      },
+      "conditional_necessary_fraction_floor": 0.7436406249999814,
+      "meaning": "necessary mathematical condition IF source coordinate is the physical ideal C4 layer; not an experimental fraction/CI/delta"
+    },
+    {
+      "source_coordinate": {
+        "line": "461.8Table4.4",
+        "two_I": 15,
+        "A4": 0.502,
+        "source_role": "table stage,notcertifiedrawA4"
+      },
+      "conditional_necessary_fraction_floor": 0.6222708333333187,
+      "meaning": "necessary mathematical condition IF source coordinate is the physical ideal C4 layer; not an experimental fraction/CI/delta"
+    }
+  ],
+  "controls": {
+    "pure_each_M_angular_normalization": true,
+    "12_vs24_projection_converged": true,
+    "rank4_M1square_and_interference_zero": true,
+    "rank4_E2_direct_source_F_matches_photon_projection": true,
+    "Mreflection_same_C4": true,
+    "mixed_C4_equals_fE2_times_pure_E2": true,
+    "positive_population_convex_hull_controls": true
+  },
+  "all_controls_pass": true,
+  "errors": {
+    "norm": 1.5543122344752192e-15,
+    "projection": 4.363176486776865e-14,
+    "forbidden_rank4": 3.733124920302089e-14,
+    "source_F": 1.887379141862766e-14,
+    "reflection": 1.3322676295501878e-15,
+    "fraction_relation": 1.2007755900711459e-14,
+    "convex_hull": 0.0
+  },
+  "limitations": [
+    "Scalar polar-angle distribution after complete azimuth mean, positive populations and only M1/E2 multipoles.",
+    "No actual finitearray/gate/acceptance or fitted P4 coefficient transfer is supplied.",
+    "Source Fig4.12 and Table4.4 stages remain unbound; examples do not reconstruct measured E2 fractions or delta bounds.",
+    "No source covariance, confidence coverage, likelihood, actual root selection or equal-minimum assertion.",
+    "No physical operator scale, lifetime, count rate or beamtime."
+  ]
+}
