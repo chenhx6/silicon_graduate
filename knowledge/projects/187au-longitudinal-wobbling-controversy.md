@@ -359,3 +359,9 @@ kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] 
 | 组态/g/时钟 | 2014Table3磁组合派生、Table2旧寿命依赖明确 | 不能移作Au母态τ/直接g或独立holdout |
 
 [[signature-tip-shears-discrimination-contract]]将可证伪问题收紧为具体同门事件及伴随量：若Pt身份解释要取代AuSP归属，是否在相同净谱/门窗/效率/时间处理下重现全部门与伴随，而同时避免未观测的必要强级联？当前无真实效率/曝光上限，未将后半句写成已发生反证。新needs_review:true，最终Au/Pt与Band2模式均保持开放。
+
+## Day23：Pt编译不新增一票，自旋字段差已定位
+
+[[guo-2022-low-spin-wobbling-187au]] PT18-D23-001/002补2018HI评价所引用2017Mu12的实际端点，GU22-D23-019/020补2022Guo XUNDL的来源和一处自旋差：简表1636=8+，原Guo绿色图与评价为6+。原snapshot保留，不能据编译失配否决原核态或填高多极性。
+
+四线Pt265.6/405.1/414.4/550.9中414.4是跨4+态的ΔI0，不能把该向量与Au SP四ΔI2线仅按能量一一等同；退激路径和同门伙伴须整体比较。2018评价不代2017全文，XUNDL不独立于Guo新实验。[[signature-tip-shears-discrimination-contract]]的同门/netpeak/response/时间与eventledger缺口保持；newneeds_review:true，无最终Au/Pt或LW/SP裁决。

@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-25T22:32:45.962115+00:00",
+  "source_inputs": {
+    "tmp/day23-originals/pt188-adopted-037.html": "f89dc018e7dd6683477ecb7d2cdb95aefcd7651fb7759b73ec0ece3fd8705d2c",
+    "tmp/day23-originals/pt188-hi-037.html": "c12ecc1b74df6c7be62423c53ab3dcc11034433e4303dccae2022d4eaac6df10",
+    "tmp/day23-originals/pt188-xundl5-037.html": "0e872908ba5de28dd88694265ee216e6c8e3f87ea61782810295fdaae439e77b"
+  },
+  "scope": "actual2018 adopted/HI reaction evaluated records plus2022Gu04XUNDL5 compiled newGuo dataset; targetedheaders/lines andschema/identity only, not primary2017fulltext",
+  "header_facts": "adopted/HI NDS1501(2018),cut1Feb2018Kondev/Juutinen/Hartley; HIexplicit2014Mu12+2017Mu12one85MeV18cloverexperimentparagraph,E/RI from2017Mu12. XUNDL2022Gu04sameGuoHIRFL dataset notnewdecayexperiment",
+  "frozen_targets": {
+    "HI": [
+      "265.59/265.6",
+      "670.80/405.1",
+      "1085.16/414.4",
+      "1636.12/550.9"
+    ],
+    "XUNDL": [
+      "265/265",
+      "670/405",
+      "1085/414",
+      "1636/551"
+    ]
+  },
+  "identity_discrepancy": "XUNDL1636label8+ literal, GuoactualmainFig2green top6+ and2018HI1636.12label6+; retain versions reportneedsreview, do notsilentlycorrectcompiler orinfernewphysicalΔI4transition. XUNDLcoarseenergiesclosure1keVnotnewenergyfailure",
+  "observables": "HI comments DCO/POL attributed2017Mu12; keepPOL literal untilprimaryconventionread, cannotcallitP/asymmetryornewindependentmeasurement",
+  "raw_pdf_freshcheck": "GuorawSHAde541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206 actualfreshPDF2visual; green6+ verified, rawunchanged",
+  "prohibited": [
+    "adopted/Egamma/currentclock newmeasurementvote",
+    "XUNDL8+ usedtoassignE4ornewdelta",
+    "absenceofothergatesinpartialschememeanszeroPtleakage",
+    "correctionofraw orcompiler snapshot",
+    "primary2017readclaim",
+    "newCI/rate/tau/Q/beamtime",
+    "run114producer"
+  ]
+}

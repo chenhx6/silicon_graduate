@@ -590,3 +590,7 @@ Band3改核素与Band2改configuration不是同一假说；只改configuration�
 ## Day23：Pt引用原件与两类重指派边界
 
 [[guo-2022-low-spin-wobbling-187au]] MU14-D23-001–005已取得并读2014Pt primary，2017Pt/PublisherNote仍仅metadata/access boundary；二者不混作同一篇或自动独立采集。[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003的Au门谱须与Pt同门对象比较，近能量/不同门谱不直接给局部纯度。configuration-only与isotope-identity两类问题继续分开，详[[signature-tip-shears-discrimination-contract]]；新needs_review:true，无模式终审变化。
+
+## Day23：官方Pt来源节点的独立性
+
+[[guo-2022-low-spin-wobbling-187au]] PT18-D23-001/002显示2018评价归2014/2017共同装置描述、γE/RI主要引2017Mu12；GU22-D23-019/020的2022XUNDL则同源Guo实验并有可定位spin字段差。评价/编译不添独立采集票，原2017全文缺口不被引用替代。近能量退激含跨带ΔI0，须按[[signature-tip-shears-discrimination-contract]]整体network/同门比较，新增needs_review:true。

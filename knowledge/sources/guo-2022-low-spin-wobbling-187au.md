@@ -299,3 +299,16 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 另一路Guo Ref23：PRC96,014315(2017)，DOI10.1103/PhysRevC.96.014315与此2014不同。当前Crossref/INSPIRE身份已核，publisher PDF403、harvest401、OSTI连接失败，INSPIRE无body/arXiv信息；发现metadata附Publisher's Note DOI10.1103/PhysRevC.96.019901但note正文未得，不臆测更正内容。publisher Markdown工具provider unavailable且未真正发起代理获取；不把discovery候选当PDF成功。SCOAP3旧API q返回无关最新条目，已核DOI剔除；猜测文件路径403也不作target evidence。下一仍需2017原级联与真实门/净峰匹配，不由检索困难认证Au/Pt身份。
 
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003/004的实际支持门谱与此Pt primary并列，[[signature-tip-shears-discrimination-contract]]保存gate/endpoint合同。新claims均needs_review:true，原G22审核保持。
+
+## Day23：188Pt官方评价与2022编译的端点/自旋差
+
+本节为外部ENSDF记录的定向读取，不代替Pt2017原文。实际POST[DatasetFetchServlet](https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet) nuc188PT后按真实表单取得[EnsdfDispatcherServlet](https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet)的datasetcheck188078001,188PT(adopted)、188078004,188PT(HI)及xunpostcheck188078009,188PT(XUNDL5)。三份200对象含pre，提取后866/371/36行。这里只读headers及目标四线/相关comments，不称全文NDS已读；原快照仅tmp，raw归档deferred。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PT18-D23-001 | adopted/HI header为Kondev/Juutinen/Hartley，NDS150,1(2018)，CUT1-Feb-2018。HI将2014Mu12/2017Mu12合写在85MeV18O、1.14mg/cm²174Yb/约750μgAl、18clover的实验段，说明scheme based on二者，E/RI from2017Mu12。该实际评价支持两报告的共同实验谱系候选，仍无逐event/选择ledger，不能依论文数作两独立采集或认证每个点完全复用。 | evaluated-campaign-and-primary-lineage | actual-official-evaluation | 188078004 pre header/experimental paragraphs and cG E,RI | true |
+| PT18-D23-002 | HI目标母态/γ为265.59(2+)/265.6、670.80(4+)/405.1、1085.16(4+)/414.4、1636.12(6+)/550.9keV；目标γ的comments有2017Mu12的DCO/POL，literal POL未在本任务由primary方法辨定P或asymmetry，不作新偏振点。414.4连接两个4+态，属于跨带ΔI0，而550.9连接6+→4+，不能只按近能量把这些读成AuSP的半整数ΔI2级联。 | evaluated-endpoint-and-observable-semantics | actual-official-evaluation | 188078004 L265.59/G265.6; L670.80/G405.1; L1085.16/G414.4; L1636.12/G550.9 | true |
+| GU22-D23-019 | XUNDL5明确compiled unevaluated from2022Gu04，Dec1/16,2022编校，列同一HIRFL108MeV/8clover+16HPGe实验，并直接转述本源将旧549/412/405/265的Au归属换为Pt551/414/405/265。它是本文的编译副本，不增一次独立non-observation/identity验证；该简表目标强度/多极/δ栏空，不补0。 | compilation-lineage-and-empty-fields | actual-official-compiled-record | 188078009 pre identification/experiment/cG comments and four target rows | true |
+| GU22-D23-020 | XUNDL5的L1636字面Jπ=8+、G551，而本源主文Fig2(a)绿色顶态实际6+，2018HI的L1636.12也是6+。本次fresh原PDF2图核与SHA相符；这是一处明确编译/源图版本失配，保持原snapshot并needs_review，不擅改raw或由8+→4+制造新的E4推断。XUNDL整数能量的约1keV闭合差也不认证新能量错误或同事件。 | source-figure-versus-compiled-spin-discrepancy | actual-source-visual-and-official-record-comparison | mainPDF2 Fig2(a) greenPt top6+; 188078009 L1636/G551; 188078004 L1636.12/G550.9 | true |
+
+三原response SHA：adopted f89dc018e7dd6683477ecb7d2cdb95aefcd7651fb7759b73ec0ece3fd8705d2c；HI c12ecc1b74df6c7be62423c53ab3dcc11034433e4303dccae2022d4eaac6df10；XUNDL5 0e872908ba5de28dd88694265ee216e6c8e3f87ea61782810295fdaae439e77b。`system/scripts/day23_pt188_official_identity.py`十一项hash/提取/目标/空值/版本控制通过，只核字段合同。2017primary及PublisherNote正文仍未得，不能以官方评价已引用它就宣称原全文已读。[[signature-tip-shears-discrimination-contract]]和[[187au-longitudinal-wobbling-controversy]]保同门响应/归属仍未闭合；新needs_review:true，旧G22人审范围不改。

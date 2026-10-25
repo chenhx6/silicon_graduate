@@ -589,3 +589,11 @@ $$c=rac{r\,\kappa_{Pt}}{\kappa_{Au}+r\,\kappa_{Pt}}.$$
 支持Au的[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003给232.5+436.5门及伴随412.3/548.6/333.8/413.7/567.0；Pt2014实际Fig2却用689.9与{202.6,583.7,894.5,405.1,265.6}之一双门sum。两图不共享同一门/响应/计数对象。当前只能列出“若Pt假说要解释该Au门谱，必须同时解释门内事件与全部伴随峰”的可证伪问题，不能由近能量或一份partial图未列门能量就填零泄漏/上限。
 
 configuration槽亦有校准提醒：Pt2014 Table3的所谓实验g组合实际是由分支/δ相关式提取的|gK−gR|/Q0，而Q0、gR有采用输入。它提供组态偏好的条件支持，不能拿同源派生磁量当独立未定标检验。真正B槽仍须冻结Au核素、计数、能级/response和H/operator，改映射后预报未用于定标的observable；Pt换核素另属identity审计。新增needs_review:true，不新增physicalg/δ/τ/CI或机时。
+
+## Day23：Pt近能量向量包含跨带出口，不能只当单一signature序列
+
+[[guo-2022-low-spin-wobbling-187au]] PT18-D23-001/002及GU22-D23-019/020补实际官方端点：265.6为2+→0+、405.1为4+→2+，414.4为另一个4+→基带4+的跨带ΔI0，550.9为6+→4+。它们可以处于一条实际退激路径，但不构成四条相同ΔI/同一band的直观signature阶梯。AuSP候选的半整数端点与此Pt整数端点是不同isotope假说，须保持各自完整network和实测门。
+
+评价的2017Mu12能量/强度及DCO/POL是其引用层，不是新采集；2022Gu04 XUNDL又是Guo的同数据编译。尤其编译1636标8+而实际Guo图/2018评价为6+，应标source-layer失配而不是物理新ΔI4或实验自相矛盾终审。缺原2017全文与POL定义时只留literal字段，不填新P/δ/CI。
+
+这让identity合同更具体，仍不能从partial记录缺某个门能量推Pt在Au门窗内贡献为0。需要原事件/γ分辨率、每个门的background/time/效率和全部必要伴随；当前不赋纯度/上限/机时。配置B槽另检H/operator/未定标量，核素重指派不混入。新needs_review:true。

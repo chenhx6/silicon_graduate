@@ -1,0 +1,798 @@
+{
+  "scope": "actual2018 adopted/HI reaction evaluated records plus2022Gu04XUNDL5 compiled newGuo dataset; targetedheaders/lines andschema/identity only, not primary2017fulltext",
+  "formal_day_index": 23,
+  "contract_sha256": "1c3ce6b7afc8de7b05eede5a87d23de8cfa891405b0a0c2ffa552da309c23513",
+  "implementation_sha256": "75a0e92aa0c750b87e03a2bded2b2b55e50f4d9a8ca1aa4b03c20d908465ad4f",
+  "datasets": {
+    "adopted": {
+      "path": "tmp/day23-originals/pt188-adopted-037.html",
+      "response_sha256": "f89dc018e7dd6683477ecb7d2cdb95aefcd7651fb7759b73ec0ece3fd8705d2c",
+      "pre_sha256": "3c3e6cf73688ebaf1d12172a0a671f9126b23f295ffc01662acc511d322ca055",
+      "line_count": 866,
+      "header_records": [
+        {
+          "line": 1,
+          "raw": ""
+        },
+        {
+          "line": 2,
+          "raw": "188PT    ADOPTED LEVELS, GAMMAS                                  18NDS    201806"
+        },
+        {
+          "line": 3,
+          "raw": "188PT  H TYP=FUL$AUT=F.G. KONDEV, S. JUUTINEN, D.J. HARTLEY$                    "
+        },
+        {
+          "line": 4,
+          "raw": "188PT2 H CIT=NDS 150, 1 (2018)$CUT=1-Feb-2018$                                  "
+        },
+        {
+          "line": 5,
+          "raw": "188PT  Q -5450     6  9207   25 5561   28 4007   5     2017Wa10                 "
+        },
+        {
+          "line": 6,
+          "raw": "188PT  XA188AU EC DECAY (8.84 M)                                                "
+        },
+        {
+          "line": 7,
+          "raw": "188PT  XC190PT(P,T)                                                             "
+        },
+        {
+          "line": 8,
+          "raw": "188PT  XB(HI,XNG)                                                               "
+        },
+        {
+          "line": 9,
+          "raw": "188PT D  Nuclear structure calculations (selected references): 1997Ha33,        "
+        },
+        {
+          "line": 10,
+          "raw": "188PT2D  1997Es01, 1996He02, 1992Sh18, 1991Li08, 1990Ha27, 1989Bo24, 1989Ch23,  "
+        },
+        {
+          "line": 11,
+          "raw": "188PT3D  1989Gi02, 1988An09, 1988Ch40, 1987Hs01, 1987Ch25, 1987Be06, 1986An02,  "
+        },
+        {
+          "line": 12,
+          "raw": "188PT4D  1985Ch05, 1984Ra16, 1981Sa31, 1981He11, 1980We08, 1980Bi06, 1979Sa07,  "
+        },
+        {
+          "line": 13,
+          "raw": "188PT5D  1977To06, 1976To01, 1976Fa06, 1972Ka62, 1969Dz04                       "
+        },
+        {
+          "line": 14,
+          "raw": "188PT D  THEORETICAL REFERENCES (OTHERS): 2001Th11, 2001St09, 2001Sa44,         "
+        },
+        {
+          "line": 15,
+          "raw": "188PT2D  2001Ga33, 2000Ar21, 1998He07, 1997De28, 1996Ba11, 1995Ch37, 1993Th06,  "
+        },
+        {
+          "line": 16,
+          "raw": "188PT3D  1993Ko05, 1993Fu11, 1992Zh36, 1990Su09, 1990Bu30, 1990Ab13, 1989Gi02,  "
+        },
+        {
+          "line": 17,
+          "raw": "188PT4D  1989Gu01, 1988Sa37, 1988Zg01, 1988Ab06, 1988Bh07, 1987Bo05, 1986Dr05,  "
+        },
+        {
+          "line": 18,
+          "raw": "188PT5D  1986Be10, 1986Ap01, 1985Sc07, 1985Ro21, 1985Ch33,                      "
+        },
+        {
+          "line": 19,
+          "raw": "188PT6D  1984Ra16, 1984Ra05, 1983Ga13, 1983Be23, 1982Va24, 1982Ku08, 1981Su13,  "
+        },
+        {
+          "line": 20,
+          "raw": "188PT7D  1981Ci01, 1980Mo30, 1980Gi08, 1979Ne08,                                "
+        },
+        {
+          "line": 21,
+          "raw": "188PT8D  1978Ko33, 1977Ne09, 1977Ma14, 1977Go06, 1977Fl11,                      "
+        },
+        {
+          "line": 22,
+          "raw": "188PT9D  1976Ar09, 1975De38, 1972Bu14, 1971La09, 1971Ca43, 1971Bo54, 1970Mo27   "
+        },
+        {
+          "line": 23,
+          "raw": "188PT cL E$From least-squares fit to E|g's                                      "
+        },
+        {
+          "line": 24,
+          "raw": "188PT cL J$From deduced transition multipolarities and band structures          "
+        },
+        {
+          "line": 25,
+          "raw": "188PT cL T$From 2017Ro07 in (HI,xn|g), using the recoil distance doppler shift  "
+        },
+        {
+          "line": 26,
+          "raw": "188PT2cL method, unless otherwise stated                                        "
+        },
+        {
+          "line": 27,
+          "raw": "188PT CL BAND(A)$K|p=0+, ground-state band                                      "
+        },
+        {
+          "line": 28,
+          "raw": "188PT CL BAND(B)$Band based on the 2810.13-keV level, associated with a pair of "
+        },
+        {
+          "line": 29,
+          "raw": "188PT2cL i{-13/2} neutrons (|a=0)                                               "
+        },
+        {
+          "line": 30,
+          "raw": "188PT CL BAND(C)$Band based on the 2875.1-keV level, associated witha pair of   "
+        },
+        {
+          "line": 31,
+          "raw": "188PT2cL i{-13/2} neutrons (|a=1)                                               "
+        },
+        {
+          "line": 32,
+          "raw": "188PT CL BAND(D)$K|p=2+, gamma-vibrational band                                 "
+        },
+        {
+          "line": 33,
+          "raw": "188PT CL BAND(E)$Band based on the 2179.75-keV level (|a=0). Probably a mixture "
+        },
+        {
+          "line": 34,
+          "raw": "188PT2cL of several bands within the |n{+2}(9/2[624],1/2[510]) and              "
+        },
+        {
+          "line": 35,
+          "raw": "188PT3cL |n{+2}(9/2[624],3/2[512]) configurations (by the evaluators).          "
+        },
+        {
+          "line": 36,
+          "raw": "188PT CL BAND(F)$Band based on the 1768.15-keV level (|a=1). Probably a mixture "
+        },
+        {
+          "line": 37,
+          "raw": "188PT2cL of several bands within the |n{+2}(9/2[624],1/2[510]) and              "
+        },
+        {
+          "line": 38,
+          "raw": "188PT3cL |n{+2}(9/2[624],3/2[512]) configurations (by the evaluators).          "
+        },
+        {
+          "line": 39,
+          "raw": "188PT CL BAND(G)$K|p=9-, |n{+2}(9/2[624],9/2[505]) band                         "
+        },
+        {
+          "line": 40,
+          "raw": "188PT CL BAND(H)$Band based on the 4280.5-keV level                             "
+        },
+        {
+          "line": 41,
+          "raw": "188PT CL BAND(I)$Band based on the 5201.3-keV level                             "
+        },
+        {
+          "line": 42,
+          "raw": "188PT cG E,RI$From (HI,xn|g), unless otherwise stated                           "
+        },
+        {
+          "line": 43,
+          "raw": "188PT cG E(a),RI(a)$From {+188}Au |e decay                                      "
+        },
+        {
+          "line": 44,
+          "raw": "188PT cG M$From ce data in {+188}Ae |e decay,  |g|g(|q)(DCO), |g(|q), ce ratios,"
+        },
+        {
+          "line": 45,
+          "raw": "188PT2cG |g-ray polarization and the apparent band structure                    "
+        },
+        {
+          "line": 46,
+          "raw": "188PT DG CC$FROM BrIcc v2.3b (16-Dec-2014) 2008Ki07, \"Frozen Orbitals\" appr.    "
+        }
+      ]
+    },
+    "hi": {
+      "path": "tmp/day23-originals/pt188-hi-037.html",
+      "response_sha256": "c12ecc1b74df6c7be62423c53ab3dcc11034433e4303dccae2022d4eaac6df10",
+      "pre_sha256": "ed53b76979ea8f1c6cd4f75b52bc1a4371cd73724edc24c7d0ab6b9f78410ef7",
+      "line_count": 371,
+      "header_records": [
+        {
+          "line": 1,
+          "raw": ""
+        },
+        {
+          "line": 2,
+          "raw": "188PT    (HI,XNG)                      1988KAZW,2014MU12,2017MU1218NDS    201806"
+        },
+        {
+          "line": 3,
+          "raw": "188PT  H TYP=FUL$AUT=F.G. KONDEV, S. JUUTINEN, D.J. HARTLEY$                    "
+        },
+        {
+          "line": 4,
+          "raw": "188PT2 H CIT=NDS 150, 1 (2018)$CUT=1-Feb-2018$                                  "
+        },
+        {
+          "line": 5,
+          "raw": "188PT c  1988KaZW: {+174}Yb({+18}O,4n|g) E=85 MeV. Measured |g, |g|g, |g(|q)    "
+        },
+        {
+          "line": 6,
+          "raw": "188PT c  2014Mu12,2017Mu12: {+18}O beam at 85 MeV from Pelletron Linac Facility "
+        },
+        {
+          "line": 7,
+          "raw": "188PT2c  at TIFR. Target=1.14 mg/cm{+2} {+174}Yb  with |?750 |mg/cm{+2} Al      "
+        },
+        {
+          "line": 8,
+          "raw": "188PT3c  backing. Detector: INGA array of 18 Clover Compton-suppressed HPGe     "
+        },
+        {
+          "line": 9,
+          "raw": "188PT4c  detectors. Measured: E|g, I|g, |g|g-coin, |g|g(|q)(DCO) and            "
+        },
+        {
+          "line": 10,
+          "raw": "188PT5c  |g-ray polarization. Deduced: levels, J|p, Mult. bands.                "
+        },
+        {
+          "line": 11,
+          "raw": "188PT c  2017Ro07: {+176}Yb({+16}O,4n|g) E=79 MeV. Measured level lifetimes     "
+        },
+        {
+          "line": 12,
+          "raw": "188PT2c  using the recoil distance doppler shift method                         "
+        },
+        {
+          "line": 13,
+          "raw": "188PT c  1979DaZN, 1975Pi02: {+188}Os(|a,4n|g) E=48.6 MeV. Measured |g, |g|g,   "
+        },
+        {
+          "line": 14,
+          "raw": "188PTxc  |g(|q)                                                                 "
+        },
+        {
+          "line": 15,
+          "raw": "188PT c  1979Ri08: {+176}Yb({+16}O,4n|g) E=77-88 MeV. Measured ce, ce |g coin   "
+        },
+        {
+          "line": 16,
+          "raw": "188PT c  Others: 1967Bu02, 1967Bu18, 1967Ne02, 1969Dz04, 1977Nu03, 1978Ti02,    "
+        },
+        {
+          "line": 17,
+          "raw": "188PT2c  1988Ne03, 1996St12, 2008Li18                                           "
+        },
+        {
+          "line": 18,
+          "raw": "188PT c                                                                         "
+        },
+        {
+          "line": 19,
+          "raw": "188PT c  The level scheme is based on that of 2017Mu12 and 2014Mu12             "
+        },
+        {
+          "line": 20,
+          "raw": "188PT cL E$From least-squares fit to E|g's                                      "
+        },
+        {
+          "line": 21,
+          "raw": "188PT cL J$From deduced |g-ray transition multipolarities, based on the measured"
+        },
+        {
+          "line": 22,
+          "raw": "188PT2cL |g|g(|q)(DCO), |g(|q), ce ratios, |g-ray polarization and the          "
+        },
+        {
+          "line": 23,
+          "raw": "188PT3cL apparent band structure                                                "
+        },
+        {
+          "line": 24,
+          "raw": "188PT cL T$From 2017Ro07, using the recoil distance doppler shift method, unless"
+        },
+        {
+          "line": 25,
+          "raw": "188PT2cL otherwise stated                                                       "
+        },
+        {
+          "line": 26,
+          "raw": "188PT CL BAND(A)$K|p=0+, ground-state band                                      "
+        },
+        {
+          "line": 27,
+          "raw": "188PT CL BAND(B)$Band based on the 2809.8-keV level, associated with a pair of  "
+        },
+        {
+          "line": 28,
+          "raw": "188PT2cL i{-13/2} neutrons (|a=0)                                               "
+        },
+        {
+          "line": 29,
+          "raw": "188PT CL BAND(C)$Band based on the 2874.8-keV level, associated with a pair of  "
+        },
+        {
+          "line": 30,
+          "raw": "188PT2cL i{-13/2} neutrons (|a=1)                                               "
+        },
+        {
+          "line": 31,
+          "raw": "188PT CL BAND(D)$K|p=2+, gamma-vibrational band                                 "
+        },
+        {
+          "line": 32,
+          "raw": "188PT CL BAND(E)$Band based on the 2179.4-keV level (|a=0). Probably a mixture  "
+        },
+        {
+          "line": 33,
+          "raw": "188PT2cL of several bands within the |n{+2}(9/2[624],1/2[510]) and              "
+        },
+        {
+          "line": 34,
+          "raw": "188PT3cL |n{+2}(9/2[624],3/2[512]) configurations (by the evaluators).          "
+        },
+        {
+          "line": 35,
+          "raw": "188PT CL BAND(F)$Band based on the 1767.8-keV level (|a=1). Probably a mixture  "
+        },
+        {
+          "line": 36,
+          "raw": "188PT2cL of several bands within the |n{+2}(9/2[624],1/2[510]) and              "
+        },
+        {
+          "line": 37,
+          "raw": "188PT3cL |n{+2}(9/2[624],3/2[512]) configurations (by the evaluators).          "
+        },
+        {
+          "line": 38,
+          "raw": "188PT CL BAND(G)$K|p=9-, |n{+2}(9/2[624],9/2[505]) band                         "
+        },
+        {
+          "line": 39,
+          "raw": "188PT CL BAND(H)$Band based on the 4280.1-keV level                             "
+        },
+        {
+          "line": 40,
+          "raw": "188PT CL BAND(I)$Band based on the 5200.9-keV level                             "
+        },
+        {
+          "line": 41,
+          "raw": "188PT cG E,RI$From 2017Mu12, unless otherwise stated                            "
+        },
+        {
+          "line": 42,
+          "raw": "188PT cG M$From |g|g(|q)(DCO), |g(|q), ce ratios, |g-ray polarization and the   "
+        },
+        {
+          "line": 43,
+          "raw": "188PT3cG apparent band structure                                                "
+        },
+        {
+          "line": 44,
+          "raw": "188PT cG E(a),RI(a)$From 1988KaZW                                               "
+        },
+        {
+          "line": 45,
+          "raw": "188PT cL E(P)$Seen only in (p,4n|g) (1977Nu03)                                  "
+        },
+        {
+          "line": 46,
+          "raw": "188PT PN                                                                     5  "
+        }
+      ]
+    },
+    "xundl5": {
+      "path": "tmp/day23-originals/pt188-xundl5-037.html",
+      "response_sha256": "0e872908ba5de28dd88694265ee216e6c8e3f87ea61782810295fdaae439e77b",
+      "pre_sha256": "34e2724039bec9ca4ff2be5cefdbf0f3ea00c8bcff2c8882f4a13c9f6d3592ea",
+      "line_count": 36,
+      "header_records": [
+        {
+          "line": 1,
+          "raw": ""
+        },
+        {
+          "line": 2,
+          "raw": "188PT    175LU(18O,XG):XUNDL-5         2022GU04                           202212"
+        },
+        {
+          "line": 3,
+          "raw": "188PT c  Compiled (unevaluated) dataset from 2022Gu04:                          "
+        },
+        {
+          "line": 4,
+          "raw": "188PT2c  Phys Lett B 828, 137010 (2022)                                         "
+        },
+        {
+          "line": 5,
+          "raw": "188PT c  Compiled by L. Hixson (FRIB, MSU), December 1, 2022                    "
+        },
+        {
+          "line": 6,
+          "raw": "188PT c  Edited by J. Chen (FRIB, MSU), December 16, 2022                       "
+        },
+        {
+          "line": 7,
+          "raw": "188PT c  2022Gu04: E=108 MeV {+18}O beam was produced from the Heavy Ion        "
+        },
+        {
+          "line": 8,
+          "raw": "188PT2c  research Facility in Lanzhou (HIRFL). Target was a stack of two        "
+        },
+        {
+          "line": 9,
+          "raw": "188PT3c  self-supported natural Lu with a thickness of 0.7 mg/cm{+2} thickness. "
+        },
+        {
+          "line": 10,
+          "raw": "188PT4c  |g rays were detected with an array of 8 segmented clover detectors and"
+        },
+        {
+          "line": 11,
+          "raw": "188PT5c  16 coaxial HPGe detectors. Measured E|g, |g|g-coin. Deduced levels     "
+        },
+        {
+          "line": 12,
+          "raw": "188PT cG $2022Gu04 report that the assignments of 549|g, 412|g, 405|g, 265|g to "
+        },
+        {
+          "line": 13,
+          "raw": "188PT2cG {+187}Au in a previous work by 2020Se02 are not confirmed in their     "
+        },
+        {
+          "line": 14,
+          "raw": "188PT3cG work, instead, they observe and assign a similar sequence of           "
+        },
+        {
+          "line": 15,
+          "raw": "188PT4cG 551|g-414|g-405|g-265|g to {+188}Pt.                                   "
+        },
+        {
+          "line": 16,
+          "raw": "188PT cG E$As given in 2022Gu04                                                 "
+        },
+        {
+          "line": 17,
+          "raw": "188PT cL E$From E|g data                                                        "
+        },
+        {
+          "line": 18,
+          "raw": "188PT cL J$As given in 2022Gu04                                                 "
+        },
+        {
+          "line": 19,
+          "raw": "188PT  L 0            0+                                                        "
+        },
+        {
+          "line": 20,
+          "raw": "188PT  L 265          2+                                                        "
+        },
+        {
+          "line": 21,
+          "raw": "188PT  G 265                                                                    "
+        },
+        {
+          "line": 22,
+          "raw": "188PT  L 606          2+                                                        "
+        },
+        {
+          "line": 23,
+          "raw": "188PT  G 341                                                                    "
+        },
+        {
+          "line": 24,
+          "raw": "188PT  L 670          4+                                                        "
+        },
+        {
+          "line": 25,
+          "raw": "188PT  G 405                                                                    "
+        },
+        {
+          "line": 26,
+          "raw": "188PT  L 1085         4+                                                        "
+        },
+        {
+          "line": 27,
+          "raw": "188PT  G 414                                                                    "
+        },
+        {
+          "line": 28,
+          "raw": "188PT  G 479                                                                    "
+        },
+        {
+          "line": 29,
+          "raw": "188PT  L 1183         6+                                                        "
+        },
+        {
+          "line": 30,
+          "raw": "188PT  G 513                                                                    "
+        },
+        {
+          "line": 31,
+          "raw": "188PT  L 1636         8+                                                        "
+        },
+        {
+          "line": 32,
+          "raw": "188PT  G 551                                                                    "
+        },
+        {
+          "line": 33,
+          "raw": "188PT  L 1781         6+                                                        "
+        },
+        {
+          "line": 34,
+          "raw": "188PT  G 598                                                                    "
+        },
+        {
+          "line": 35,
+          "raw": ""
+        },
+        {
+          "line": 36,
+          "raw": ""
+        }
+      ]
+    }
+  },
+  "selected_targets": {
+    "hi": [
+      {
+        "parent": {
+          "energy": "265.59",
+          "Jp": "2+",
+          "half_life": "66 PS",
+          "line": 48,
+          "raw": "188PT  L 265.59    16 2+               66 PS     3                          A   "
+        },
+        "Egamma": "265.6",
+        "intensity": "119.7",
+        "multipolarity": "E2",
+        "MR": "",
+        "line": 55,
+        "records": [
+          {
+            "line": 55,
+            "raw": "188PT  G 265.6     2 119.7   GTE2                                               "
+          },
+          {
+            "line": 56,
+            "raw": "188PT cG M$DCO=1.13 {I3} and POL=0.11 {I3} (2017Mu12);                          "
+          },
+          {
+            "line": 57,
+            "raw": "188PT2cG K/L|?2 (1979Ri08); A{-2}=0.216 {I9}, A{-4}=-0.030 {I11} (1967Ne02);    "
+          },
+          {
+            "line": 58,
+            "raw": "188PT3cG A{-2}=0.16 {I4}, A{-4}=-0.08 {I5} (1988KaZW); A{-2}=0.21 {I2},         "
+          },
+          {
+            "line": 59,
+            "raw": "188PTxcG A{-4}=-0.05 {I3} (1979DaZN)                                            "
+          }
+        ]
+      },
+      {
+        "parent": {
+          "energy": "670.80",
+          "Jp": "4+",
+          "half_life": "5.1 PS",
+          "line": 67,
+          "raw": "188PT  L 670.80    20 4+               5.1 PS    +15-11                     A   "
+        },
+        "Egamma": "405.1",
+        "intensity": "100",
+        "multipolarity": "E2",
+        "MR": "",
+        "line": 68,
+        "records": [
+          {
+            "line": 68,
+            "raw": "188PT  G 405.1     2 100       E2                                               "
+          },
+          {
+            "line": 69,
+            "raw": "188PT cG M$DCO=1.02 {I2} and POL=0.12 {I2} (2017Mu12);                          "
+          },
+          {
+            "line": 70,
+            "raw": "188PT2cG A{-2}=0.270 {I13}, A{-4}=-0.044 {I14} (1967Ne02); A{-2}=0.23 {I4},     "
+          },
+          {
+            "line": 71,
+            "raw": "188PT3cG A{-4}=-0.07 {I5} (1988KaZW); A{-2}=0.26 {I2}, A{-4}=-0.07 {I3}         "
+          },
+          {
+            "line": 72,
+            "raw": "188PTxcG (1979DaZN)                                                             "
+          }
+        ]
+      },
+      {
+        "parent": {
+          "energy": "1085.16",
+          "Jp": "4+",
+          "half_life": "",
+          "line": 78,
+          "raw": "188PT  L 1085.16   19 4+                                                    D   "
+        },
+        "Egamma": "414.4",
+        "intensity": "6.6",
+        "multipolarity": "M1(+E2)",
+        "MR": "",
+        "line": 79,
+        "records": [
+          {
+            "line": 79,
+            "raw": "188PT  G 414.4     2 6.6     4 M1(+E2)                                          "
+          },
+          {
+            "line": 80,
+            "raw": "188PT cG M$A{-2}=-0.06 {I5}, A{-4}=-0.07 {I5} (1988KaZW); A{-2}=-0.22 {I12},    "
+          },
+          {
+            "line": 81,
+            "raw": "188PT2cG A{-4}=-0.03 {I16} (1979DaZN)                                           "
+          }
+        ]
+      },
+      {
+        "parent": {
+          "energy": "1636.12",
+          "Jp": "6+",
+          "half_life": "",
+          "line": 122,
+          "raw": "188PT  L 1636.12   22 6+                                                    D   "
+        },
+        "Egamma": "550.9",
+        "intensity": "12.1",
+        "multipolarity": "E2",
+        "MR": "",
+        "line": 124,
+        "records": [
+          {
+            "line": 124,
+            "raw": "188PT  G 550.9     2 12.1    10E2                                               "
+          },
+          {
+            "line": 125,
+            "raw": "188PT cG M$DCO=1.12 {I3} and POL=0.10 {I6} (2017Mu12);                          "
+          },
+          {
+            "line": 126,
+            "raw": "188PT2cG A{-2}=0.27 {I5}, A{-4}=-0.08 {I5} (1988KaZW); A{-2}=0.26 {I4},         "
+          },
+          {
+            "line": 127,
+            "raw": "188PTxcG A{-4}=-0.12 {I5} (1979DaZN)                                            "
+          }
+        ]
+      }
+    ],
+    "xundl5": [
+      {
+        "parent": {
+          "energy": "265",
+          "Jp": "2+",
+          "half_life": "",
+          "line": 20,
+          "raw": "188PT  L 265          2+                                                        "
+        },
+        "Egamma": "265",
+        "intensity": "",
+        "multipolarity": "",
+        "MR": "",
+        "line": 21,
+        "records": [
+          {
+            "line": 21,
+            "raw": "188PT  G 265                                                                    "
+          }
+        ]
+      },
+      {
+        "parent": {
+          "energy": "670",
+          "Jp": "4+",
+          "half_life": "",
+          "line": 24,
+          "raw": "188PT  L 670          4+                                                        "
+        },
+        "Egamma": "405",
+        "intensity": "",
+        "multipolarity": "",
+        "MR": "",
+        "line": 25,
+        "records": [
+          {
+            "line": 25,
+            "raw": "188PT  G 405                                                                    "
+          }
+        ]
+      },
+      {
+        "parent": {
+          "energy": "1085",
+          "Jp": "4+",
+          "half_life": "",
+          "line": 26,
+          "raw": "188PT  L 1085         4+                                                        "
+        },
+        "Egamma": "414",
+        "intensity": "",
+        "multipolarity": "",
+        "MR": "",
+        "line": 27,
+        "records": [
+          {
+            "line": 27,
+            "raw": "188PT  G 414                                                                    "
+          }
+        ]
+      },
+      {
+        "parent": {
+          "energy": "1636",
+          "Jp": "8+",
+          "half_life": "",
+          "line": 31,
+          "raw": "188PT  L 1636         8+                                                        "
+        },
+        "Egamma": "551",
+        "intensity": "",
+        "multipolarity": "",
+        "MR": "",
+        "line": 32,
+        "records": [
+          {
+            "line": 32,
+            "raw": "188PT  G 551                                                                    "
+          }
+        ]
+      }
+    ]
+  },
+  "selected_comments_literal": [
+    {
+      "line": 56,
+      "raw": "188PT cG M$DCO=1.13 {I3} and POL=0.11 {I3} (2017Mu12);                          "
+    },
+    {
+      "line": 69,
+      "raw": "188PT cG M$DCO=1.02 {I2} and POL=0.12 {I2} (2017Mu12);                          "
+    },
+    {
+      "line": 125,
+      "raw": "188PT cG M$DCO=1.12 {I3} and POL=0.10 {I6} (2017Mu12);                          "
+    }
+  ],
+  "source_figure_check_as_supplied": "GuorawSHAde541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206 actualfreshPDF2visual; green6+ verified, rawunchanged",
+  "controls": {
+    "all_frozen_response_hashes_match": true,
+    "HTML_pre_not_mistaken_for_plain_ENSDF": true,
+    "all_record_nuclide_prefixes_checked": true,
+    "evaluated2018_cutoff2018_identity": true,
+    "HI_explicitly_groups2014_and2017_in_one_setup_description": true,
+    "HI_energy_intensity_source2017_preserved": true,
+    "XUNDL_is2022Guo_compilation_not_new_acquisition": true,
+    "four_target_parent_gamma_pairs_bound_in_each_snapshot": true,
+    "coarseXUNDL1636spin8_not_silently_replaced": true,
+    "POL_literal_kept_not_promoted_to_P_or_asymmetry": true,
+    "XUNDLtarget_intensity_multipole_and_MR_fields_not_filled": true
+  },
+  "all_controls_pass": true,
+  "limitations": [
+    "2018 evaluation quotes2017 measurements; original2017 paper and PublisherNote remain unread.",
+    "Compiled2022Guo records are not independent from Guo2022 experiment.",
+    "XUNDL1636 spin8 differs from actual Guo Fig2 green6 and evaluated6; preserve source version and needs_review, do not infer a new transition order.",
+    "Finite resolution/coincidence time and actual detector gates are unknown; no isotope identity verdict or local purity/upperlimit.",
+    "POL field convention and exact covariance require primary method; no new delta, P, lifetime, rate or beamtime."
+  ]
+}

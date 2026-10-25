@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点036（Day24仅无学分预习）
+## Active handoff — Day23检查点037（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-035已published。036实际Pt2014全文6页 DOI10.1016/j.physletb.2014.10.069/SHA6d6d56de993b0d962757a5ffcbbb457e206a82333718010b39ce02d570a627e8，tmp/rawdeferred；GuoRef23Pt2017 DOI10.1103/PhysRevC.96.014315 body仍缺，PublisherNote019901仅metadata。Ptgband265.6/405.1及各SeqII414/551、SeqV412/549分开；Pt实际689.9+列表双门不等Au232.5+436.5门，无纯度/identity终审。MU14-D23-001–005/方法/Au/谱系新needs_review。下一官方188Pt记录找2017端点，编译不增采集。
+036已published。037官方Pt2018HI/adopted与2022GuoXUNDL各866/371/36行，十一控制过。HI引2017E/RI，2014/2017合一装置段；目标265.6(2→0)、405.1(4→2)、414.4(4→4)、550.9(6→4)。XUNDL1636标8+而Guo原图/评价6+，保失配needsreview不改snapshot；POLliteral不当P/asymmetry新点。下一Guo实际h/f混合算符readiness， no primaryfit或identity终审。
 
-详next-continuation-036.md/candidate-pool-036.json；检查以required-checks-036.json为准。Git指针main · Day23: require common gates for the Au and Pt assignments；actualhash/H3仅task-publication-receipt-036.json。
+详next-continuation-037.md/candidate-pool-037.json；检查以required-checks-037.json为准。Git指针main · Day23: preserve Pt endpoint and compilation boundaries；actualhash/H3仅task-publication-receipt-037.json。
 
 ## Previous handoff — Day22 closeout
 

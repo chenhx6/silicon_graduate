@@ -1,0 +1,63 @@
+{
+  "list": {
+    "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+    "method": "POST",
+    "form": {
+      "nuc": "188PT",
+      "searchType": "quick",
+      "datasource": "ensdf",
+      "nsrch": "Search"
+    },
+    "status": 200,
+    "path": "tmp/day23-originals/pt188-official-list037.html",
+    "bytes": 7726,
+    "sha256": "b562647c611f8337991b0bd0c874abe1c45b8cd9e852525ea307fefdaabb1427"
+  },
+  "datasets": [
+    {
+      "name": "adopted",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "method": "POST",
+      "form": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "188078001,188PT",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "path": "tmp/day23-originals/pt188-adopted-037.html",
+      "bytes": 70637,
+      "sha256": "f89dc018e7dd6683477ecb7d2cdb95aefcd7651fb7759b73ec0ece3fd8705d2c"
+    },
+    {
+      "name": "hi",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "method": "POST",
+      "form": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "188078004,188PT",
+        "chooseit": "ENSDF text format"
+      },
+      "status": 200,
+      "path": "tmp/day23-originals/pt188-hi-037.html",
+      "bytes": 30512,
+      "sha256": "c12ecc1b74df6c7be62423c53ab3dcc11034433e4303dccae2022d4eaac6df10"
+    },
+    {
+      "name": "xundl5",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "method": "POST",
+      "form": {
+        "dbclass": "xundl",
+        "page-source": "coupled-xun",
+        "xunpostcheck": "188078009,188PT",
+        "postButton": "ENSDF text format"
+      },
+      "status": 200,
+      "path": "tmp/day23-originals/pt188-xundl5-037.html",
+      "bytes": 3377,
+      "sha256": "0e872908ba5de28dd88694265ee216e6c8e3f87ea61782810295fdaae439e77b"
+    }
+  ]
+}
