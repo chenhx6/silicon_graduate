@@ -465,3 +465,13 @@ Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** li
 | LKH82-D23-001 | 本页定义的发射cascade中δKS(γ1)=−δRB(γ1)、δKS(γ2)=−δRB(γ2)，BR关系才随first/second不同；不能把它裸搬到吸收/其它算符或未知producer。任务将013 RB amplitude D_M1+dRBQ_E2与含(−1)^L基底的−D_M1+dnativeQ_E2按dnative=−dRB映射，二者只差global−，300声明角/布居/halfspin点的full photonρ/IQUV逐项一致；pure limits本身看不出相对sign错。只认证该坐标桥，不认证Lv/SH26/Matta实际分析producer的δ定义。 | original-convention-and-declared-photon-basis-control | direct-original-plus-task-math | printed122 Eqs.2.8–2.11 and final KS/BR/RB sign relations; task model-contract-025 | true |
 
 核态整体phase、multipole operator/初末态约定和光子basis phase分别处理；坐标换号不是测得δ物理改变。原[[starosta-1999-pdco-experimental-test]] ST99-D23-001进一步锁Efield/Compton轴，actual detector/gate/校准与Cov仍要另接，不能以此宣布真实两根等深或任一旧分析被复现。
+
+## Day23：derived B向量的逆、局部秩与丢失的相位
+
+沿已核Eqs2.1–2.3/2.6，以下为任务变换代数，不新增全文阅读或实验参数。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LKH82-D23-002 | 在M1/E2out与den E2 photon fraction h的截断下，y=(Iout/Iden)/h、K=(Eden/Eout)^5、L=(cE2/cM1)Eden^5/Eout^3，e=Kyδ²/(1+δ²)、m=Ly/(1+δ²)。逆为y=e/K+m/L、δ²=(e/K)/(m/L)；δ非零时local Jacobian rank2，而δ=0降rank1，global ±δ给同一Bpair。Σderived=JΣinputJᵀ需实际输入Cov，未知Cov不能由marginal或源中央值补出。 | declared-conditional-transformation-and-information | source-rate-definition-plus-task-math | printed121 Eqs.2.1–2.3 and2.6; task derived-strength-vector-027 | true |
+
+12项inverse/J/finite-difference/δsign/共同den purity控制通过，逆误差≤9e−16、Jac finite-difference差≤3.3e−9。固定y只变δ的局部differential误差方向使e/m反相关，固定δ只变y使同向；单位coordinate variance只是rank-direction控制，不是actualρ或CI。[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-006的实际ratio角色需要source covariance/den多极假设，不能把变换后的same-data向量加作新独立验证。

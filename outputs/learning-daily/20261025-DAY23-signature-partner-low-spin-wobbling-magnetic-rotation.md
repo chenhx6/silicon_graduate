@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint026）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint027）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23, 24]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T04:55:49.482358+08:00
+- checked_at: 2026-10-26T05:09:48.677213+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -50,6 +50,8 @@ checkpoint016重建后选择同卡AMR原件路线（非Day24）：Simons2003/200
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint027进度号仍originalDay23。L22actual813/726源E/Iγ/quotedδ与pureE2 den采用角色保留，LKH82率/定义原件前提复用，未新全读source或以旧输出当facts。新L22-D23-006/LKH82-D23-002和方法/Pr模型入口同步needs_review，不改旧人审范围。
 
 checkpoint026进度号仍originalDay23。定向回核LvSI PDF1Eq1/2、freshvisual/hash，sourceangles157.6/133.6vs75.5/104.5真实绑定，L22-D23-005/DR96-D23-005保source/conditional边界。未新全读源或复制hardwarecounts作等权actualarray，旧人审flags不动。
 
@@ -116,6 +118,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint027先contract后e=Kyδ²/(1+δ²)、m=Ly/(1+δ²)，y=(Iout/Iden)/h_E2den，exactinverse y=e/K+m/L、δ²=(e/K)/(m/L)。12inverse/J/detsign/rank/denpurity控制过；source中心e.118129/m.397594（声明率系数），与旧.697近似m.397722只是unit-roundingbranch差非physics/producerproof。nonzeroδlocalrank2不回globalδsign；Σout=JΣinputJᵀ实际Σ不填。
 
 checkpoint026先contract后normalizedpositivegroup response R=ηWfar/Wnear；axisym singles near镜角H相同，在η1条件只约束R/η。width.4例747 envelope.413899–.682381、equalmean.548140，813 .472193–.717138、equalmean.594665，均非actualfit/CI。11density/convex/eta/finitegate联合反射控制过；pointgate45的镜差8.65e−5、naiveP均值差1.9e−9仅数学design，无实测偏差/新精度。
 
@@ -187,6 +191,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint027两个derivedB共享δ/Iγ/denpurity，不能当两新独立选根票再加δ。fixed-input differential directions corr±1只是数学方向，不估actualrho/CI；δ0附近inverse需原likelihood。747/526是另一个crossband outlet，mult/Rac空、h1原采用不升级实测、不补denδ或未报rM1。P/AD原干涉信息、SH26fixedsigma支持继续，不预判谷深或新机时。
+
 checkpoint026unknownactualη不等originalauthors未校准/先验无界；实际Rac不能由η1包络bound。finitegate/sourceaQ/selectedpairθφ/eff/live/feeding/Cov仍缺，single镜角关系不自动到actualgate。首未有依据的最小effect阈值改数值分辨检查/完整记录值，科学输入不改。保SH26固定sigma支持，不新拟delta/σ/CI或root等深。
 
 checkpoint025nominal154/90与local90不同于actualPr角环/upstream796/450/finiteacceptance/effweights/feeding/attenuation，某central数值近不叫复现实验。EfieldP和ComptonA须matching a/Q，sourceconventionbridge不认证historicalproducer。SH26fixedsigmaAD大根条件支持保、共同likelihood未重现，不预判两谷等深或新δ/CI/机时。
@@ -248,6 +254,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint027 supports/limits：从“同源”文字标记推进到实际二维变换/逆/J/未知Cov与phase-loss合同，强化Pr/Au同一观测向量比较。实际完整response/producer/Cov输入仍缺，原Day23持续、onlyDay24无学分/noDay25+、不早收束。
 
 checkpoint026 supports/limits：实际名义角与已恢复actualarray不是同层，明确groupnormalizer与未归一photonρ合并是可比性必要输入；source前向组件小结不裁真实模式。原Day23窗口与onlyDay24无学分继续，不早收束/不Day25卡。
 
@@ -368,7 +376,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -610,6 +618,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-005"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-006"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-D23-002"
         }
       ]
     },
@@ -832,7 +848,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
-      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 最小同步当前active summary导航，不增加新实验认证。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。",
+      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 最小同步当前active summary导航，不增加新实验认证。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。",
       "anchor": "Day23：run重叠与observable继承分开",
       "sources": [
         {
@@ -930,6 +946,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-005"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-006"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-D23-002"
         }
       ]
     },
@@ -1036,7 +1060,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-      "summary": "同I Band2/Band3的17/2和21/2能级44.0/44.5keV中央差，原SI表fresh视觉/哈希核验，无新CI。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。",
+      "summary": "同I Band2/Band3的17/2和21/2能级44.0/44.5keV中央差，原SI表fresh视觉/哈希核验，无新CI。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。",
       "anchor": "Day23：同I两序列的能级中央值",
       "sources": [
         {
@@ -1074,6 +1098,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-005"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-006"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-D23-002"
         }
       ]
     },
@@ -1492,7 +1524,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
-      "summary": "定向源公式与m/normalization定义，系数为任务声明单位换算；不以邻核或近unit inventory认证135Nd原producer。 补完整goodI/WE tensor的对称限制与额外EMkernel界；不认证实核operator/CI。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。",
+      "summary": "定向源公式与m/normalization定义，系数为任务声明单位换算；不以邻核或近unit inventory认证135Nd原producer。 补完整goodI/WE tensor的对称限制与额外EMkernel界；不认证实核operator/CI。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。",
       "anchor": "Day23内的Day24无学分预习：率系数与同母态库存",
       "sources": [
         {
@@ -1542,6 +1574,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
           "locator": "ST99-D23-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-006"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-D23-002"
         }
       ]
     },
@@ -1595,6 +1635,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint027 progress/originalDay23：boundary/lint/diff/derived_strength_vector实际0，12jointtransform/逆/J/sign/purity控制过，true runner报告/32changed知识writebackvalid；首Lv→LKH82 explicitlink缺口补后fresh过。lint0error220warning/182citation债务，actualΣ/CI不填。next-continuation027/candidate-pool027继续刚取得的Pr135legacyexport母态clock/endpointreadiness，保原15:00/partial[23,24]/next23/onlyDay24无学分/noDay25+。Git指针main · Day23: preserve dependence in derived strength vectors；actualhash/H3见task-publication-receipt-027.json。
 
 checkpoint026进度号/原Day23：boundary/lint/diff/pr_angle_groups实际0，11conditionalgroup/density/reflection控制过，true runner报告/32changed知识writebackvalid；lint0error220warning/182旧citation债务。actualη/finitegates未补，groupR/η不当actualRacbound；小point效应不认证原bias。next-continuation026/candidate-pool026继续同raw派生B向量的依赖/协方差合同，保原15:00/partial[23,24]/next23/onlyDay24无学分/noDay25。Git指针main · Day23: preserve angle-group normalization and gate conditions；actualhash/H3见task-publication-receipt-026.json。
 

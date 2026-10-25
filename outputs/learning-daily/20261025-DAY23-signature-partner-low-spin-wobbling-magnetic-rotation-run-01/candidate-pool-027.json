@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-25T21:09:48.677213+00:00",
+  "formal_day_index": 23,
+  "checkpoint027_not_newcard": true,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue originalwindow/currentDay23 A, noearlycloseout",
+  "bounded_result": "derivedE2/M1vector12controls inverse/J/signloss/covarianceformula unknownΣ anddenh; not newexperimentalinfo",
+  "next_actual_input": "IAEA135Prgammas/levelsactual200 snapshots justretrieved:174/105nonempty,cutoff22Jan2008/extractionOct25. TargetoldIDs(33,13,0)527,(33,10,1)747.1,(54,33,0)726,(54,29,1)814; targetmothers33/54clockblank,lowerlevels10/29have22.9/2.4pshalf_lifenotusableastargetτ.",
+  "inflight_none": "discoverycompleted: tmp/day23-originals/pr135-api-discovery028.json,rawCSVstagingiaea-pr135-gammas-028.csv &levels-028.csv",
+  "next_contract": "strictID/join/emptyclock/legacyvsnewcrosswalk andcomparisonquantities only. SourceLvactualnewcentres526.2/747.3/726.0/813.2,energy-onlyselectioninitiallymissedlegacy814 sofixidentitynotlabelsourceabsent; no delta or τ filled fromoldDlabel/endclock.",
+  "comparison_scope": [
+    "legacyrelativeIratio100/6vsnew9.4/.4 and100/72vsnew6.4/3.7 aredifferentadopted/newmeasurements andversions; notindependentrootvotes ornewCI/significance",
+    "legacycutoffbefore2015/2022doesnotadjudicatenewP/Rac/δ",
+    "rebuildsource-levelparent/endpointandclockcontract, actualnotes/EMcomponentstillmissing"
+  ]
+}

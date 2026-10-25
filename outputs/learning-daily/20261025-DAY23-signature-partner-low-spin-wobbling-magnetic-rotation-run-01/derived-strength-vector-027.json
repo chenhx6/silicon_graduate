@@ -1,0 +1,83 @@
+{
+  "status": "source-bound-derived-vector-dependency-control",
+  "formal_day_index": 23,
+  "source_input_role": {
+    "source": "L22 mainTable1/SITable1, sourcealreadyread/hashpreserved",
+    "E_out_MeV": 0.8132,
+    "E_den_MeV": 0.726,
+    "I_gamma_out": 6.4,
+    "I_gamma_den": 3.7,
+    "quoted_delta_centre": -0.37,
+    "denominator_E2_photon_fraction_assumption": 1.0,
+    "source_reported_rE2_centre": 0.12,
+    "source_reported_rM1_centre": 0.4,
+    "new_experimental_information": false
+  },
+  "model": "M1/E2 photon truncation, y=(Iout/Iden)/h_E2den; e=K*y*d2/(1+d2),m=L*y/(1+d2). Same-parent scale/tau cancelled only within this quantity contract.",
+  "coefficients": {
+    "K_dimensionless": 0.567147802485228,
+    "L_muN2_over_e2b2": 0.26132680166926603,
+    "C_E2_over_C_M1_declared_formula_units": 0.6967756412189653
+  },
+  "conditional_central_arithmetic": {
+    "y": 1.7297297297297298,
+    "rE2": 0.11812877089322016,
+    "rM1_muN2_over_e2b2": 0.3975941050422326,
+    "inverse_y_same_input_control": 1.7297297297297296,
+    "inverse_delta_squared_same_input_control": 0.13690000000000002,
+    "not_new_delta_extraction_or_original_producer_verification": true
+  },
+  "local_J_rows_e_m_columns_y_delta": [
+    [
+      0.0682931956726429,
+      -0.5616447327998143
+    ],
+    [
+      0.2298590919775407,
+      0.2587911317892973
+    ]
+  ],
+  "local_determinant": 0.14677282169696496,
+  "covariance_formula": "Sigma_derived=J Sigma_(y,delta) J^T locally; actual Sigma is not supplied/assigned.",
+  "actual_joint_covariance": null,
+  "actual_ratio_confidence_interval": null,
+  "differential_coordinate_designs_not_experimental_errors": {
+    "unit_y_variance_delta_fixed_output_correlation": 1.0,
+    "unit_delta_variance_y_fixed_output_correlation": -0.9999999999999998,
+    "scope": "Unit coordinate variances are rank/direction controls of a differential map only, not nuclear error magnitudes, distribution assumptions or real correlations."
+  },
+  "control_errors": {
+    "max_inverse_error": 8.881784197001252e-16,
+    "max_delta_sign_invariance_error": 0.0,
+    "max_determinant_error": 5.551115123125783e-17,
+    "max_J_finite_difference_error": 3.253143865400432e-09,
+    "max_J_step_halving_difference": 9.756223606771641e-09
+  },
+  "controls": {
+    "exact_photon_fraction_inverse_recovers_same_inputs": true,
+    "derived_B_vector_is_even_in_delta": true,
+    "analytic_J_determinant_matches": true,
+    "analytic_J_matches_finite_difference": true,
+    "finite_difference_step_halving_converges": true,
+    "nonzero_delta_map_has_local_rank2": true,
+    "delta_zero_map_loses_a_local_dimension": true,
+    "common_denominator_purity_rescales_both": true,
+    "inverse_with_unknown_purity_recovers_y_not_count_ratio": true,
+    "y_only_differential_covariance_rank1_positive_corr": true,
+    "delta_only_differential_covariance_rank1_negative_corr": true,
+    "phase_sign_not_recovered_from_B_inverse": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_derived_strength_vector.py": "f7ad0801bbbd179bb396576a3fff450c6c2c127bb03e59812222ad68ede08b40",
+    "/workspace/wiki/system/scripts/day24_preview_mu07_inventory_hypothesis.py": "eafdbe411b5f9dffed4320b71bfd50fd292d7543aaf26d703a21ec09f5e1f4bc"
+  },
+  "limitations": [
+    "The two derived strengths are a transformation of the same intensity/mixing inputs. Adding their separate printed errors/fit agreement as new independent evidence would ignore their common genealogy/covariance.",
+    "The B-ratio vector loses delta sign even when locally invertible within one nonzero-sign branch. It cannot recover relative multipole phase without interference-sensitive inputs.",
+    "Unknown denominator E2 purity h introduces a common scale. The inverse gives y=x/h, not an independently measured photon-count ratio or h/delta_den estimate.",
+    "The source central arithmetic is not a fit, a reconstruction of the actual published covariance/likelihood or an extra experimental validation; no marginal errors are silently made Gaussian.",
+    "747/526 is a pair of different cross-band outlets, not the sameband denominator;526 multipolarity/Rac is blank in SI, so its pureE2 adoption remains conditional. No unreported747 rM1 is filled as a measurement.",
+    "No new physicaldelta/g/Q/tau/CI/rate/beamtime and no universalM1/E2 cutoff or equal-valley claim. OnlyoriginalDay23 andalreadyopenedDay24uncreditedpreview, noDay25+."
+  ]
+}

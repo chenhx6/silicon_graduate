@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-25T20:59:06.791816+00:00",
+  "source_inputs": "actualL22 mainTable1/SITable1:813.2->yrast withδcentre−.37,Iγ6.4;726.0E2inIγ3.7/same21/2parent. publishedrE2.12(8),rM1.4(3). Existingfullread/table/hashretained, targetedformula rolesonly.",
+  "photonformula": "x=Iout/Iden,h=denE2photonfraction,y=x/h; K=(Eden/Eout)^5,L=(cE2/cM1)*Eden^5/Eout^3. e=K*y*d²/(1+d²), m=L*y/(1+d²). M1/E2out only, denominatorcomponentpureE2ifh1. Noactualdenδassigned.",
+  "source_rate_coefficients": "derivefromLKH82Eq2.2/2.3 declaration020constants, notclaimedexactoriginalproducer; nonewabsoluteB orτneededforratio",
+  "inverse": "y=e/K+m/L, d²=(e/K)/(m/L), notnewmeasuredδ; signlostglobally d↔−d. At d0 rank1, nonzero d localrank2, no extraindependentinformation beyond2inputs.",
+  "Jacobian": "J_(e,m),(y,d)=[K*d²/(1+d²),2Kyd/(1+d²)^2;L/(1+d²),−2Lyd/(1+d²)^2], det=−2KLy d/(1+d²)^2. Cov_out=J Cov_input J^T (unknown actualΣ).",
+  "validation": [
+    "analyticJ vscentredfinite differences/stepconvergence",
+    "exactinverse/normalizeridentity overdesignδgrid including±sameB",
+    "det/rank atnonzero/zeroδ",
+    "sourcecentral813ratios comparedasroundedarithmeticnoactualproducer/CI validation",
+    "knowny-onlydirectionrank1correlation+1, d-onlydirection−1 usingunitcoordinatevariances aslocaldifferentialcontrolsnotactualerrors",
+    "unknowncommonh rescalesbothBderived; inversey=x/hnotx",
+    "δ² fractions sum1 photontruncationonly; notcompleteIC/othermultipole decay certification"
+  ],
+  "boundary": "747/526aretwocrossbandoutlets,526SI mult/Rac blank, h1onlyadoptedextractionassumption. Do not computeunreportedrM1asnewmeasurementorfitδden; actualΣuncertainty/branch/Cov staysmissing.",
+  "prohibited": [
+    "countδ anditsderivede/m as3independentvotes",
+    "useactualmarginalasGaussianΣwithoutCov/coverage",
+    "claimBpairfixessignedδ",
+    "inventδ/Q/g/τCI/rates/beamtime",
+    "nominalresponsefit/realvalleysequal inference",
+    "Day25+cardorformalDay24credit",
+    "114quarantinedproducers"
+  ]
+}

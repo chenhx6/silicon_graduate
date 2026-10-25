@@ -263,3 +263,13 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 | L22-D23-005 | Eq1的far角组为157.6/133.6，near为75.5/104.5，并用all-detector轴相同gates。任务在声明每组为positive weighted mean后写R=ηWfar/Wnear，η为实际relative group calibration/normalizer未获值；轴对称singles中near镜角W/P相同可取消组内权重，但不取消η。用本文nominal角替代013的154/90改变conditional响应；这不等于原作者没校准、unknownη无界或actualRac已被新包络限定。 | source-angle-identity-and-declared-normalizer-boundary | direct-original-plus-task-conditional-response | SI PDF1 Eq.1–2 and preceding angle-group paragraph; task model-contract-026 | true |
 
 任务KS应用假设、Gaussian宽度、有限门/acceptance未齐的边界仍见[[signature-tip-shears-discrimination-contract]]；不能用conditional η=1数字与本文点比较后宣布原δ/σ或jointlikelihood已复现。
+
+## Day23：两条derived strength ratios共用原输入
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D23-006 | 对813/726同21/2母态，以本文Eγ813.2/726.0、Iγ6.4/3.7、δcentre−.37及den pureE2采用，任务由photon率式计算rE2=.118129、rM1=.397594 μN²/(e²b²)，后者用声明Gaussian率系数而非旧近似.697。它们与quoted.12/.4只作印刷中心算术比较：δ及Iγ变换成两ratio不新增独立实验。实际联合Cov/误差coverage未得，不能把δ、rE2、rM1作为三份独立root/mode证据；Bpair保δ²而丢sign，实际P/Rac的干涉信息另保留。 | source-bound-derived-vector-and-dependency | actual-source-input-plus-explicit-task-algebra | main PDF3 Table1; SI PDF5 Table1 rows726.0/813.2; LKH82 Eq2.2/2.3; task input-contract027 | true |
+
+denominator E2 fraction若为未知h，则两derivedB共同含1/h，不能由二者逆变换就把h或denδ测出来。747/526是另一带间出口，526多极/Rac空的源边界保持，不补未报告的rM1作为新观测。新needs_review:true，旧L22人审范围与actualP/Rac/SH26条件支持不改。
+
+本次derived-vector率/相位前提直接回链[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-002；不把公式中心回代当新实验。

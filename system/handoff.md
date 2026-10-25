@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint026（仅进度号；Day24仅无学分预习）
+## Active handoff — Day23 checkpoint027（进度号；Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25+，formalcredit只23。还有10h持续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25+，formalcredit只23。还有约10h继续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
 
-026LvSI1actualangle/visual/hash核，11controls过的positive-normalizedgroupresponse R=ηWfar/Wnear只boundR/η，actualη/eff/pairweights未给不当actualRacbound/fit。axisymsingles near镜角可等、finiteupstream45设计未必（H差8.65e-5，combinedreflection6.4e-16）；naiveP均值差1.9e-9仅数学，不实测精度/bias。newL22-D23-005/DR96-D23-005/方法/Pr+active-summary，新needs_review，旧SH26fixedsigma支持保；actualCov/rawfeeding/normalizer缺。
+027actual813/726 sourceδ/Iγ到derivede/m二维变换12controls过，逆只y=x/h和δ²，globalsign丢、d0localrank1；Σout=JΣinJᵀ actualΣnull。δ/e/m同primitive不是三独立票，方向corr±1仅数学非actualρ/CI。central e.118129/m.397594（声明系数），旧.697系数m.397722保近似variant非新calibration。新L22-D23-006/LKH82-D23-002/方法/Practive-summaryneeds_review；freshchecks0/true32changedwritebackvalid/lint0error220warning，firstmissingexplicitLKHlink已补。
 
-freshchecks0/true32changedwritebackvalid/lint0error220warning。下一L22actual813/726：sourceδ/Iγ变换到rE2/rM1的Jac/inverse/signloss/Σ propagation，先合同，不赋actualCov/CI；hden未知时共享purity、747/526crossband/blankmultipolarity条件保。详next-continuation026/candidate-pool026，027也仅progress非新课程。Git指针main · Day23: preserve angle-group normalization and gate conditions；actualH3/hash仅task-publication-receipt-026.json。
+下一已取IAEA135Prgammas/levels174/105行200、cutoffJan2008/extractionOct25，tmpcsv028/sha详next-continuation027。按ID找527/747.1、726/814（不能energyfilter漏814就当缺）；母33/54τ与B空，lower10/29的22.9/2.4ps半衰期不可移作争议母态τ。D/rank≠M1/δ/P，空值不0、legacy比不同新Lv不作显著性/独立票。先newcontract/strictjoin/clock/versions核actualCSV再externalreadiness写回；raw仍deferred。详candidate-pool027/next-continuation027。Git指针main · Day23: preserve dependence in derived strength vectors；actualH3/hash仅task-publication-receipt-027.json。
 
 ## Previous handoff — Day22 closeout
 

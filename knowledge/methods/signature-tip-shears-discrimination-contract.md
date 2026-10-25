@@ -468,3 +468,24 @@ $$R=\eta\frac{fW_{157.6}+(1-f)W_{133.6}}{nW_{75.5}+(1-n)W_{104.5}},\qquad f,n\in
 [[droste-1996-pdco-formalism]] DR96-D23-005给finitegate条件对称的原source边界。task pureE2上游point45°设计的近镜角ρ差8.65e−5，而联合gate/target反射恢复到浮点误差；实际full-array可能去相干，不能从point例推bias。求groupP须先Σwρ而不是等权平均P；该小例的两种P差只有1.9e−9，同样不代表新可测精度。`system/scripts/day23_pr_angle_group_response.py`的11controls只核所声明组件、convex group algebra/PSDs与对称，不认证actualresponse或原producer。
 
 下一输入合同因此具体为：按line/run/gate/target-detector pair的φ/θ acceptance和效率/live time/η校准、conditional feeding/去取向密度与a/Q、共同Cov/likelihood。不能因本任务没拿到这些值就把它们放开无界后宣判两谷等深；SH26 fixedσ/I=.2 AD大根条件支持继续保留。新needs_review:true，未造新δ/g/Q/τ/机时。
+
+## Day23：same-data向量不能增加独立票数
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-006与[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-002把813/726的derivedB写成一个联合变换。令y=(Iout/Iden)/h_E2den，K=(Eden/Eout)^5，L=(cE2/cM1)Eden⁵/Eout³，则
+
+$$e=r_{E2}=Ky\frac{\delta^2}{1+\delta^2},\qquad
+m=r_{M1}=Ly\frac{1}{1+\delta^2}.$$
+
+e无量纲、m按μN²/(e²b²)记。直接逆变换给y=e/K+m/L和δ²=(e/K)/(m/L)；它只是回到输入的共同组合，不是由两derivedB新增测得δ/h。两个输出在非零δ的一支上可local rank2，不代表global sign可恢复：±δ的两个B完全相同，P/AD的干涉量另有信息。
+
+$$J=\begin{pmatrix}
+K\delta^2/(1+\delta^2)&2Ky\delta/(1+\delta^2)^2\\
+L/(1+\delta^2)&-2Ly\delta/(1+\delta^2)^2
+\end{pmatrix},\qquad
+\Sigma_{e,m}=J\Sigma_{y,\delta}J^T.$$
+
+实际Σ未给，本文不赋ρ或ratio CI。只在differential设计中，y固定/δ变化给反相关方向，δ固定/y变化给同向方向；这说明忽略原Cov不能默认两个输出独立，不是对原实验真实相关系数的估计。δ=0的局部rank降为1，near-zero时的反演/误差还需原likelihood，而不能照搬Gaussian线性传播。
+
+813/726的source中心代入得e=.118129、m=.397594；旧本页使用声明近似系数.697给m=.397722，差来自率系数约定/舍入，是两次条件中央算术，不是新calibration/物理效应或producer已经复现。它们均与原printed.12/.4的角色相容，但不能拿“δ符合、rE2符合、rM1符合”当三次独立采集/选根支持。若有真正不同采集的absolute强度当然可另检验，必须明确那份独立source/normalizer，当前derivedpair没有自动获得它。
+
+747/526的den不是同band in-branch，且SI多极/Rac空，纯E2 den只是原提取条件；未知h会共同缩放两个B，不能由公式逆得actualdenδ。`system/scripts/day23_derived_strength_vector.py`的12控件仅核变换/单位/输入角色，不填任何新δ/Q/g/τ/CI/探测率/机时，也不抹SH26 fixedσ/I条件支持或宣布真实两谷等深。新needs_review:true。

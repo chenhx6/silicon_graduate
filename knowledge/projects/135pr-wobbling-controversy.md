@@ -24,7 +24,7 @@ tags: [135pr, wobbling, controversy, evidence-map, project]
 
 - [[lv-2022-evidence-against-wobbling-135pr]] L22-D22-R095-1：747与813的P/δ必须逐线配对；两线不能拼成排他显著性。
 - [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D22-R095-1：固定σ/I=.2的AD曲线保留大δ条件偏好；共同response/Cov尚未复现。
-- 相对B、模型取向和实测P分层；当前不作TW/TiP唯一裁决。新增内容needs_review: true，下一步仍是共同输入检验。
+- 相对B、模型取向和实测P分层；当前不作TW/TiP唯一裁决。新增内容needs_review: true，下一步仍是共同输入检验。 813/726的δ/rE2/rM1同源变换及Cov边界见L22-D23-006，不能新增独立票。
 - Day23固定单j H的ordinal mapping、normalized E2/M1及原多轨道operator边界见[[signature-tip-shears-discrimination-contract]]与ST18-D23-006–012；指定variant能量不闭合不排除原QTR。
 - halfspin singles/upstream gate/azimuth components见RB67-D23-001–004、DR96-D23-001–004及L22-D23-004；实际selectedpair response、feeding、phase与jointCov仍not-ready，未拟合新δ/CI。
 
@@ -338,3 +338,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 [[lv-2022-evidence-against-wobbling-135pr]] L22-D23-005及[[droste-1996-pdco-formalism]] DR96-D23-005把两个actualpolar-angle groups和finite-upstream条件分开。[[signature-tip-shears-discrimination-contract]]给positive normalized group-response公式与未知relativeη；它只限制声明模型下R/η，不是实际Rac包络或δ/σ fit。用nominal154/90替代两组真实角仍比较了不同响应。
 
 source013的axisym singles近镜角可以等，实际selected finitegate/perpair权重未恢复时不能默用；source026point反例很小且array方位平均可改，未声称实测bias/漏修。原L22点、747/813逐线符号与SH26fixedsigma条件支持均保持，无root等深/唯一模式判断。新needs_review:true。
+
+## Day23：δ与其两条derived B不是三份独立证据
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-006及[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-002把813/726同parent强度ratio写成来自Iγratio与δ的二维变换。[[signature-tip-shears-discrimination-contract]]列出inverse/J/Σ与den E2 purity假设；quotedδ/rE2/rM1共享输入，不按三个独立观察计票，未知Cov不作0相关或新CI。
+
+Bpair只能保存δ²，P/AD干涉的sign/branch信息另检验；这项信息分层不等于真实P/Rac无法选根，更不推SH26两谷等深。747/526的crossband denominator/blank multipolarity条件保持，新needs_review:true。

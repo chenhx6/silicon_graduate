@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-25T21:02:46.637796+00:00",
+  "formal_day_index": 23,
+  "checkpoint027_progress_not_newcard": true,
+  "only_existing_uncredited_preview_day": 24,
+  "source_inputs": "actualL22mainTable1/SITable1centre/rolealreadyread; target813.2/726.0,I6.4/3.7,delta-.37,hden1adopted",
+  "rate_formula": "LKH82actualEq2.2/2.3and020declaredconstants, notauthorproducerunitcalibration",
+  "new_full_paper_reading": false,
+  "covariance_not_assigned": true,
+  "direction_controls_not_actual_errors": true,
+  "legacy_m_point397722_uses_point697_coefficient": "retainedasdeclaredapproxvariant notcalledwrongmeasurement",
+  "oldflags_preserved": true,
+  "newclaims_needs_review": true,
+  "acceptance_fix": "Truewriteback firstmissingexplicitLKH82wikilink onLvsource (atomicIDtextwaspresent); addedexactsourcewikilink andrerun, no scienceinputchange."
+}
