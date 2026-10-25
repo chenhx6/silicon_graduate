@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-25T21:59:04.509142+00:00",
+  "scope": "independent source-F/racah formula vs existing RB photon amplitude coordinate; verifies mathematical convention only, not sourceproducer or actual data fit",
+  "actual_source": "SE21 Eq2.43/2.45/2.46/2.48/2.50/2.51 printed40–42, freshvisual033 and unchangedraw",
+  "frozen_input": {
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/au187-ad-vector-forward-033.json": "fb8f28a7321f7ea7ca45ac869b49926f137b70c2301a4ca8d882cbeb84a91c3b"
+  },
+  "design_spins": [
+    11,
+    15,
+    17,
+    21
+  ],
+  "design_deltas": [
+    -2.98,
+    -2.67,
+    -0.47,
+    -0.28,
+    -0.26,
+    0,
+    0.5,
+    2.0,
+    -2.6637
+  ],
+  "formula": "Wigner racah(I,I,L1,L2,k,If) and exact rational halfspin; source Eq2.43 F using CG(L1,1;L2,-1|k0), complete tensorB Eq2.45; physical Gaussian rho Eq2.50/51",
+  "comparison": "source Ak(delta) vs RB amplitude Ak(dRB=-delta); 12/24 quadrature controls already033, now independent algebra inactualsource equation",
+  "prohibited": [
+    "equate formula agreement with original producer convention/interface certified",
+    "actualrootfit/globalweights or equalvalleys",
+    "treat table source vs plotted source as resolved",
+    "new observed delta/tau/Q/rate/time",
+    "rerun114producer"
+  ],
+  "implementation_note": "Sympy unavailable in system Python; use explicit Racah factorial sum with exact Fraction factors and shared existing CG primitive, separate contraction from photon matrix route. No dependency installation; label algebraic route independence, not independent all libraries.",
+  "recorded_implementation_choice_at": "2026-10-25T22:00:59.730817+00:00",
+  "exact_reported_corner_mean_scope": "Use exact Fig4.13 source-reported mean -2.6637 alongside PRL rounded -2.67, no refit or source replacement."
+}

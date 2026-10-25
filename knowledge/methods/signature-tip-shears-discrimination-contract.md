@@ -561,3 +561,11 @@ readiness新增具体项：1978两母态合并的选择/归一、1998报告族19
 complete一列接近Table4.4，Gaussian的376 A2又接近Fig4.12，但A4仍有差。它们不能反推原作者用了哪种response或哪里有错：实际finiteangle/gate、参考α的定义/迁移、phase与修正顺序均未完整恢复。尤其参考333.8属于不同J，经验α移用只是另一个声明模型，不是已核原recipe或完整physicaldensity。
 
 这把A槽缺口定位为**原逐环净峰→效率/门/取向校正→自由A2/A4 fit→选根及其系数表**各阶段的映射和共同Cov。不同阶段同名A2/A4不得直接拼jointfit；derived table接近某理论也不能当新的独立支持。小δ中心在同任务条件下的A4约.028–.041，但未据此对原数据给排除数或预判谷深。`system/scripts/day23_au187_ad_vector_forward.py`八项hash/归一/rank/12–24节点控制通过，最大projection差约2e−14；这些只验证组件，未复现作者likelihood。新增needs_review:true，无新δ/Q/τ/CI/率或机时。
+
+## Day23：AD公式坐标已核，实际处理链仍待输入
+
+沿[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-10，直接实现源Eq2.43的F系数和Eq2.45/2.50的B/ρ，以明确Racah相位与exact Fraction阶乘和核查；再与[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002的photon矩阵路径比较。打印公式的δEq与任务kernel满足dRB=−δEq：36个设计点在complete/Gaussian各自一致至约5e−15。两路共享CG primitive，独立性只限收缩路径；这些是数学检查，不是新增实验票。
+
+因此可以在源AD公式层使用这个坐标桥，033未认证的producer/finitearray/gate/实际P轴并未随之自动得到。Fig4.13打印均值−2.6637的源式结果为complete(−.729393,.523023)、Gaussian .2(−.669375,.390079)；Table4.4与Fig4.12的数据阶段映射仍需原逐步输出。部分分量接近不能决定table已做哪项校正，不能把残差作原校准错误或globalroot判断。
+
+下一研究输入优先级据此转为：支持方详细后续发表/版本是否公开净峰、衰减/几何校正顺序、链样本与两分支全局曲线。对2020 Ref26的未具名待刊文做有界发现；2022学位论文书版是版本候选，先核身份/实际body，不预设其与2021逐字相同，也不新增一次实验。新needs_review:true，无新δ/Q/τ/CI/机时。

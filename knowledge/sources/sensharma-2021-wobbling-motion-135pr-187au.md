@@ -239,3 +239,13 @@ Knowledge Impact and Learning Decision：supports更具体的科学run账本和�
 Eq3.6把角分布fit写为A0(1+A2P2+A4P4)，并称由峰面积拟合得experimental A2/A4后用Eq2.46解δ；§4.4.1则同时提Eqs2.46/2.48和选定σ。究竟Table4.4列值处于哪一步、是否已校正衰减/几何以及不同图表的映射，现有文字未在本任务完成闭合。输入合同保留最初版本及发现Fig4.12后定向修订，不用后发现的层次差去改源数值。
 
 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002与[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001给任务kernel/phase前提；源producer接口尚未认证。[[signature-tip-shears-discrimination-contract]]将complete、Gaussian及移用参考α三种声明模型分别记录；原数据/δ/globalroot均未重拟，新needs_review:true。
+
+## Day23：源F公式与photon振幅的AD坐标桥
+
+本次复用033实际核过的Eqs2.43/2.45–2.51，不新增全文阅读。按原公式另作Racah/6j收缩，与photon振幅的角投影比较；两个算法共享既有CG primitive，因此只称不同收缩路径，不称所有库独立。
+
+| ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| SE21-D23-10 | 对本源打印F公式的δEq，以dRB=−δEq，complete absMhalf和Gaussian两类A0/A2/A4在4个halfspin×9个设计δ上分别一致至5.2e−15/4.5e−15；3个解析6j、Bhalf=ρhalf及C0控制通过。由此033的符号桥在这份打印AD公式层得到独立收缩检查，但实际producer接口、P轴及finitearray/gate响应仍未认证，不能称原analysis已复现。 | mathematical-source-equation-coordinate-bridge | source-formula-plus-task-algebra | same-formula-no-new-experiment | printed40–42 Eqs2.43/2.45–2.51; task input-contract034 | true |
+
+用Fig4.13实际报出的δEq=−2.6637再代源式，complete A2/A4=−.729393/.523023，Gaussianσ/I=.2为−.669375/.390079。它们接近Table4.4或Fig4.12的某些分量，仍没有给出两图/表的原校正映射；本任务没有调整σ、α或δ来强配全部分量。[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002是另一路photon基底前提，[[signature-tip-shears-discrimination-contract]]保留AD数学桥与实际analysis readiness的区别。新needs_review:true。

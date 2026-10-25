@@ -328,3 +328,7 @@ source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9实际新核376的Fig4.12 A2/A4=−.6704/.3194，与Table4.4的−.730/.523不同。[[signature-tip-shears-discrimination-contract]]的条件kernel中，complete系数近Table4.4，Gaussian后376 A2近Fig4.12而A4仍有差；现有结果不认证table去衰减或原程序实现，只要求先恢复图表/校正/拟合阶段。
 
 kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002及[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001，KS应用和实际array/gate迁移仍有条件。下一共同向量必须绑定净峰、校正顺序、自由fit系数、选根输出与共同Cov；当前不将表系数与δ重复当独立证据，也不凭条件残差改判LW/SP。新needs_review:true，原支持链与反方测量各自保持。
+
+## Day23：从公式桥转向原处理链缺口
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-10已在打印AD公式层核dRB=−δEq，36设计点两种取向与[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002的photon收缩一致。该结果支持[[signature-tip-shears-discrimination-contract]]的坐标比较，不认证实际producer或解释Fig4.12/Table4.4的全部差别。原净峰→校正→自由fit→选根输出及共同Cov仍缺，下一有界路线查详细后续文/2022书版的实际内容；版本重印不新增独立实验。新needs_review:true，当前LW/SP判断无终审变化。

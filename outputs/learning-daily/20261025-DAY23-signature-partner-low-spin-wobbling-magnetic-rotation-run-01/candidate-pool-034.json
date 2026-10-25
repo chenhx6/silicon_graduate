@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T22:09:22.019029+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "源F/Racah与photon AD各36设计点收缩相合、七控制过，原处理链仍缺",
+  "next_route": "读取新取得2022Analysis章实际body，对照2021图/表/校准及采样步骤的版本差",
+  "missing_inputs": [
+    "original event/ring netpeak and corrections/chain samples",
+    "full actual response and covariance",
+    "version-specific mapping of Fig4.12 and Table4.4"
+  ],
+  "Day25_opened": false
+}

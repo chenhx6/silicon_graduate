@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-25T22:07:18.634986+00:00",
+  "scope": "reuse actual033sourceformula reading; no new fullpaper",
+  "initial_environment_probe": "sympy import unavailable; explicit Fraction factorial Racah instead, no dependencies installed",
+  "route_independence": "different contractions share existing CG primitive, not independent all libraries",
+  "seven_controls_pass": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true
+}
