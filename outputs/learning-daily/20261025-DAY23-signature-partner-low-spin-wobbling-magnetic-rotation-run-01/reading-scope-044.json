@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-25T23:33:58.324722+00:00",
+  "scope": "reuseactualZH07H/formula/unpairedlimit; no newfullsource",
+  "variant": "fixed1proton1hole no pairing,noactualnucleusmapping",
+  "eight_controls_pass": true,
+  "not_source_Delta1curve_reproduction": true,
+  "RMS_not_handedness_measurement": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "formalday": 23,
+  "onlyuncreditedpreview": 24
+}

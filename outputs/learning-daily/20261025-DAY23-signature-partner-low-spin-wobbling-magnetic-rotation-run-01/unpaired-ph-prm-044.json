@@ -1,0 +1,425 @@
+{
+  "scope": "explicit unpaired particle-hole limit of actualZH07finiteI PRM, source-definedvariant no fullpaired/multiqp authorproducer or fit toactualPr/Au/Nd",
+  "formal_day_index": 23,
+  "only_uncredited_preview": 24,
+  "conditions": {
+    "recorded_at": "2026-10-25T23:28:06.901421+00:00",
+    "scope": "explicit unpaired particle-hole limit of actualZH07finiteI PRM, source-definedvariant no fullpaired/multiqp authorproducer or fit toactualPr/Au/Nd",
+    "formal_day": 23,
+    "uncredited_preview": 24,
+    "source_pdf": "tmp/day23-originals/zhang2007-qpprm-041.pdf",
+    "source_sha256": "601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8",
+    "source_locator": "ZH07v1Eq1/2/4/6/7, p9unpairedlimit; sourceatomicclaimsZH07-D24P-001/003",
+    "units": "hbar=1; energiesMeV;J0hbar²/MeV; noactualexperimentalenergyzero",
+    "fixed_input": {
+      "two_jp": 11,
+      "two_jn": 11,
+      "C_MeV": 0.3,
+      "gamma_deg": 30.0,
+      "J0_hbar2_per_MeV": 30.0,
+      "I": [
+        9,
+        14,
+        18
+      ],
+      "pairing": "none; pureprotonhsp+ andpureholehsp−;Fermishiftsconstantdropped",
+      "axes": [
+        "1=i",
+        "2=s",
+        "3=l"
+      ],
+      "inertia_formula": "Ji=J0sin²(gamma−2pi i/3),i1,2,3"
+    },
+    "basis": "full|K,Ωp,Ωn>,bodyI=(Jx,-Jy,Jz),ordinaryparticlejp/jn;D2K−Ωp−Ωneven,reversepairsymphase(-1)^(I−jp−jn),KpositiveorK0Ωppositivecanonical;expectedD=(2I+1)(2jp+1)(2jn+1)/4",
+    "solver": "sparsefullH thenexactembedD2,lowest6eigsh deterministicseeds/tol1e−11and3e−12/ncv48/72; residual/orthogonality/seedstability no statisticaluncertainty",
+    "free_limits": [
+      {
+        "I": 1,
+        "two_jp": 1,
+        "two_jn": 1,
+        "C_MeV": 0,
+        "inertias": [
+          30,
+          30,
+          30
+        ],
+        "expected_spectrum_MeV": [
+          0,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "I": 2,
+        "two_jp": 1,
+        "two_jn": 1,
+        "C_MeV": 0,
+        "inertias": [
+          30,
+          30,
+          30
+        ],
+        "expected_spectrum_MeV": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      }
+    ],
+    "observables": "lowestmodelenergies/gap,fullO Epsi normsforRMS I/jp/jn/R components;do notuse(E†O E)² forO² asOcanchangeD2irrep",
+    "acceptance": "dimension/exactembeddingorthonormality/Hhermiticity/sectorleak<1e−10;freeanalytic/dense-sparseeigenmatch1e−10;targeteigresidual<1e−8MeV/seedgapstability<1e−8MeV; I²/particleCasimir andHcoll energyreconstruction1e−8",
+    "prohibited": [
+      "fitparameters toactualexperimentalcounts/energies",
+      "claimexactsourcepairedΔ1curve reproduction",
+      "RMSnonzero proofchirality or newphysicalnuclearstate",
+      "M1/E2/delta/g/Q/tau/CI/rates/beamtime assignment",
+      "fullsourceproducercertification orDay24credit/Day25+",
+      "run114producer/rawmutation"
+    ]
+  },
+  "inertias_hbar2_per_MeV": [
+    30.0,
+    7.499999999999992,
+    7.500000000000013
+  ],
+  "contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+  "implementation_sha256": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+  "free_limits": [
+    {
+      "case": {
+        "I": 1,
+        "two_jp": 1,
+        "two_jn": 1,
+        "C_MeV": 0,
+        "inertias": [
+          30,
+          30,
+          30
+        ],
+        "expected_spectrum_MeV": [
+          0,
+          0.1,
+          0.1
+        ]
+      },
+      "calculated_MeV": [
+        -2.431486554788886e-33,
+        0.09999999999999998,
+        0.09999999999999998
+      ],
+      "max_error_MeV": 2.7755575615628914e-17,
+      "basis_checks": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "H_Hermiticity": 0.0,
+        "D2_sector_leakage_MeV": 1.3877787807814457e-17,
+        "H_imaginary_part": 0.0
+      }
+    },
+    {
+      "case": {
+        "I": 2,
+        "two_jp": 1,
+        "two_jn": 1,
+        "C_MeV": 0,
+        "inertias": [
+          30,
+          30,
+          30
+        ],
+        "expected_spectrum_MeV": [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      },
+      "calculated_MeV": [
+        0.0999999999999999,
+        0.09999999999999996,
+        0.09999999999999999,
+        0.09999999999999999,
+        0.19999999999999998
+      ],
+      "max_error_MeV": 1.1102230246251565e-16,
+      "basis_checks": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "H_Hermiticity": 0.0,
+        "D2_sector_leakage_MeV": 1.3877787807814457e-17,
+        "H_imaginary_part": 0.0
+      }
+    }
+  ],
+  "spin_rows": [
+    {
+      "I": 9,
+      "full_product_dimension": 2736,
+      "D2_dimension": 684,
+      "basis_checks": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "H_Hermiticity": 0.0,
+        "D2_sector_leakage_MeV": 3.552713678800501e-15,
+        "H_imaginary_part": 0.0
+      },
+      "lowest_model_energies_MeV": [
+        -4.248489901661234,
+        -3.867228900681869,
+        -3.404394561081386,
+        -2.871576821606134,
+        -2.781787231811616,
+        -2.6444697800220225
+      ],
+      "ordinal0_1_gap_keV": 381.2610009793649,
+      "eigen_residual_MeV": 1.5004235696251798e-11,
+      "orthogonality_error": 2.886579864025407e-15,
+      "different_seed_tolerance_ncv_max_shift_MeV": 1.2878587085651816e-14,
+      "states": [
+        {
+          "ordinal": 0,
+          "model_energy_MeV": -4.248489901661234,
+          "RMS_components_hbar": {
+            "I": [
+              3.210500185415862,
+              6.312396080706783,
+              6.312396080706784
+            ],
+            "jp": [
+              2.105440979501558,
+              5.414397821614637,
+              1.4147135791849172
+            ],
+            "jn": [
+              2.1054409795015596,
+              1.4147135791849164,
+              5.414397821614637
+            ],
+            "R": [
+              3.085223234466272,
+              1.5584617462075023,
+              1.5584617462075034
+            ]
+          },
+          "Hcoll_MeV": 0.48248377536046055,
+          "Hintr_MeV": -4.730973677021705
+        },
+        {
+          "ordinal": 1,
+          "model_energy_MeV": -3.867228900681869,
+          "RMS_components_hbar": {
+            "I": [
+              4.938468653776579,
+              5.727631594108776,
+              5.727631594108799
+            ],
+            "jp": [
+              2.1833774975114193,
+              5.381245562891868,
+              1.4230456405953495
+            ],
+            "jn": [
+              2.1833774975114175,
+              1.4230456405953507,
+              5.381245562891869
+            ],
+            "R": [
+              4.190721086591618,
+              1.946067129891842,
+              1.9460671298918444
+            ]
+          },
+          "Hcoll_MeV": 0.7976593569661239,
+          "Hintr_MeV": -4.664888257648005
+        }
+      ]
+    },
+    {
+      "I": 14,
+      "full_product_dimension": 4176,
+      "D2_dimension": 1044,
+      "basis_checks": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "H_Hermiticity": 0.0,
+        "D2_sector_leakage_MeV": 7.105427357601002e-15,
+        "H_imaginary_part": 0.0
+      },
+      "lowest_model_energies_MeV": [
+        -2.6579467541795383,
+        -2.620288062553859,
+        -2.190578811455096,
+        -1.9104238542790437,
+        -1.516638601933764,
+        -1.3001253426087334
+      ],
+      "ordinal0_1_gap_keV": 37.65869162567937,
+      "eigen_residual_MeV": 2.6891621170984826e-14,
+      "orthogonality_error": 3.552713678800501e-15,
+      "different_seed_tolerance_ncv_max_shift_MeV": 1.6653345369377348e-14,
+      "states": [
+        {
+          "ordinal": 0,
+          "model_energy_MeV": -2.6579467541795383,
+          "RMS_components_hbar": {
+            "I": [
+              9.185226764841632,
+              7.92564222250909,
+              7.92564222250906
+            ],
+            "jp": [
+              2.40759163715951,
+              5.237383476837434,
+              1.588495144855609
+            ],
+            "jn": [
+              2.407591637159506,
+              1.588495144855615,
+              5.237383476837435
+            ],
+            "R": [
+              6.76439312881448,
+              2.588579588003511,
+              2.588579588003491
+            ]
+          },
+          "Hcoll_MeV": 1.6560494778096588,
+          "Hintr_MeV": -4.3139962319891945
+        },
+        {
+          "ordinal": 1,
+          "model_energy_MeV": -2.620288062553859,
+          "RMS_components_hbar": {
+            "I": [
+              9.508430616048813,
+              7.732714504615612,
+              7.732714504615624
+            ],
+            "jp": [
+              2.384212707547056,
+              5.251353840706299,
+              1.5775970983969008
+            ],
+            "jn": [
+              2.38421270754705,
+              1.5775970983968952,
+              5.2513538407063045
+            ],
+            "R": [
+              7.106180687626639,
+              2.5740547865730457,
+              2.5740547865730665
+            ]
+          },
+          "Hcoll_MeV": 1.7250644719905848,
+          "Hintr_MeV": -4.3453525345444355
+        }
+      ]
+    },
+    {
+      "I": 18,
+      "full_product_dimension": 5328,
+      "D2_dimension": 1332,
+      "basis_checks": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "H_Hermiticity": 0.0,
+        "D2_sector_leakage_MeV": 1.0658141036401503e-14,
+        "H_imaginary_part": 0.0
+      },
+      "lowest_model_energies_MeV": [
+        -0.8860141434185408,
+        -0.798672029110064,
+        0.1710677062251819,
+        0.19434450772556414,
+        0.23761548577932082,
+        0.4596052546661917
+      ],
+      "ordinal0_1_gap_keV": 87.34211430847682,
+      "eigen_residual_MeV": 3.5513961812705455e-14,
+      "orthogonality_error": 3.4416913763379853e-15,
+      "different_seed_tolerance_ncv_max_shift_MeV": 1.9567680809018384e-14,
+      "states": [
+        {
+          "ordinal": 0,
+          "model_energy_MeV": -0.8860141434185408,
+          "RMS_components_hbar": {
+            "I": [
+              15.238137124452159,
+              7.4094256517084895,
+              7.409425651708504
+            ],
+            "jp": [
+              3.053282278320358,
+              4.919733160857749,
+              1.4912052021272295
+            ],
+            "jn": [
+              3.053282278320361,
+              1.4912052021272304,
+              4.919733160857751
+            ],
+            "R": [
+              10.795381890215301,
+              2.7093031362913957,
+              2.7093031362914064
+            ]
+          },
+          "Hcoll_MeV": 2.921047633835597,
+          "Hintr_MeV": -3.807061777254133
+        },
+        {
+          "ordinal": 1,
+          "model_energy_MeV": -0.798672029110064,
+          "RMS_components_hbar": {
+            "I": [
+              14.973621490531858,
+              7.674329269007234,
+              7.6743292690072495
+            ],
+            "jp": [
+              2.743137452359987,
+              5.054801118149904,
+              1.6352928096859056
+            ],
+            "jn": [
+              2.743137452359986,
+              1.635292809685904,
+              5.054801118149906
+            ],
+            "R": [
+              11.104807772635963,
+              2.8832692434959255,
+              2.883269243495937
+            ]
+          },
+          "Hcoll_MeV": 3.1637114651852145,
+          "Hintr_MeV": -3.962383494295284
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "source_hash_and_fixed_unpaired_scope": true,
+    "D2_dimension_orthogonal_and_H_invariant": true,
+    "two_free_rotor_spectra_analytic": true,
+    "low_eigenvectors_residual": true,
+    "low_eigenvectors_orthonormal": true,
+    "different_seed_tolerance_ncv_low_spectrum_stable": true,
+    "full_operator_squared_norm_Casimirs": true,
+    "Hcoll_plus_Hintr_reconstructs_energy": true
+  },
+  "all_controls_pass": true,
+  "max_errors": {
+    "free_MeV": 1.1102230246251565e-16,
+    "eigen_residual_MeV": 1.5004235696251798e-11,
+    "orthogonality": 3.552713678800501e-15,
+    "repeat_spectrum_MeV": 1.9567680809018384e-14,
+    "Casimir_hbar2": 1.1368683772161603e-12,
+    "energy_reconstruction_MeV": 1.199040866595169e-14
+  },
+  "limitations": [
+    "Explicit unpaired source-H variant only; not the source Delta1 curves, actual author code or a fit to Pr/Au/Nd data.",
+    "Model energy offset is arbitrary; no experimental level or nuclear band mapping is assigned.",
+    "RMS components lose signs and do not prove handedness or static chirality.",
+    "No actual electromagnetic strength, delta, g/Q, lifetime, covariance, confidence or facilities rate/time calculated."
+  ]
+}

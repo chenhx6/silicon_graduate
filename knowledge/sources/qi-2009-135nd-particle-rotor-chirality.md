@@ -199,3 +199,14 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-007 | 在两Kramers对(A,barA,B,barB)的16维Fock空间、实u/v与源Eq8约定下，时间奇hopping的1qp A↔B块为uu′+vv′，时间偶同体hopping为uu′−vv′。完整odd sector由4个1qp和4个3qp态组成，算符作用的范数包含两者；plus²+(uAvB−vAuB)²=1、minus²+(uAvB+vAuB)²=1在声明例中成立。投影到1qp丢失的范数不代表实测γ强度丢失，也不能用它强判源模型生成元错误。 | declared-exact-Fock-projection-identity | source-convention-plus-task-algebra | ZH07v1PDF6Eq8/PDF8Eq18; task input-contract043 | true |
 
 25个声明u/v设计点、十项CAR/BCS真空/时间宇称/投影/完整odd扇区检查通过，最大误差4.5e−16。所选θA=.2、θB=1的数学例中，时间奇1qp/3qp范数约.4854/.5146，时间偶约.1313/.8687；未赋核态能量、multipole、physicalg/B。toy T²=(−1)^N只校准此fermion约定，不将其误作手征C²或真实Kramers双带证据。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保Day24无学分与coreE2适用边界。
+
+## Day23内的Day24无学分预习：明确无配对PRM的有限I闭环
+
+本节求解ZH07源H的声明无配对p+hole极限：jproton=jneutron=11/2、C=.3MeV、γ30°、J0=30ħ²/MeV，惯量(1i,2s,3l)=(30,7.5,7.5)，Hintr=hsp,p−hsp,n。纯粒子/空穴的费米常量只移能量零点，在这里丢去；未重现源Δn=1的配对曲线，也未将整数I态映射为135Nd实际三准粒子/Pr/Au能级。原producer/实际EM和实验参数域仍缺。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-008 | 按源Eq6/7构D2强耦合基，K−Ωp−Ωn为偶数，反号对称phase=(−1)^(I−jp−jn)，维数D=(2I+1)(2jp+1)(2jn+1)/4；bodyI用anomalous分量(Jx,−Jy,Jz)，particle j正常。完整product H投影无扇区泄漏，两个小j自由转子解析谱与数值一致，有限I9/14/18的D为684/1044/1332。 | declared-finiteI-Hamiltonian-and-basis-implementation | source-formula-plus-task-quantum-model | ZH07v1PDF4–6 Eqs1/2/4/6/7; PDF9unpairedlimit; task input-contract044 | true |
+| ZH07-D24P-009 | 上述固定无配对H的最低两个ordinal态在I9/14/18间隔约381.261/37.659/87.342keV；八项basis/自由极限/残差/不同seed-tol-ncv/Casimir/能量重建控制过，最大eigen残差1.6e−11MeV、重复谱差2e−14MeV。这些为任务模型能谱，不是实测level、全sourcepairedcurve重现或chirality终审。RMS用完整O Eψ范数，未将(E†O E)²当E†O²E；RMS非零仍不保符号或证明handedness。 | declared-model-spectrum-and-numerical-boundary | exactfinitebasis-plus-controlled-eigensolve | task input-contract044/unpaired-ph-prm044; sourceHlocators asZH07-D24P-008 | true |
+
+`system/scripts/day23_unpaired_ph_prm.py`给固定H/embedding/solver/diagnostics分层。小j1/2+1/2、C0、各惯量30的I1谱[0,.1,.1]MeV和I2谱[.1,.1,.1,.1,.2]MeV对应允许自由coreR，最大差1.2e−16MeV；未通过调参匹配这些极限。目标I的Hcoll与Hintr重建、总I/裸jp/jn平方和从full-space作用核对，数值误差不是实验CI或modelerror预算。[[nuclear-chirality]]与[[signature-tip-shears-discrimination-contract]]承接有限体系的模式解释边界；仍只Day24无学分预习，新needs_review:true。

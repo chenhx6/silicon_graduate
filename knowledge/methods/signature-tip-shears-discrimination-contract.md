@@ -651,3 +651,11 @@ $$f_+^2+(u_Av_B-v_Au_B)^2=1,qquad f_-^2+(u_Av_B+v_Au_B)^2=1.$$
 该完整odd扇区的identity解释了为何不能对遗漏pair-changing扇区的有效1qp算符强施裸生成元闭合或Casimir。它没有证明所有qp截断都正确，更不是实际γ出口完整性；physicaltransition仍需原核态/算符/径向/BCS/rotor与响应账。
 
 十项独立CAR/反幺正约定/BCS真空/1qp+3qp闭合控制在25个设计点过，最大误差约4.5e−16；未给核态、g/B/δ/Q/τ/CI或机时。时间偶单体minus因子也不修改ZH07采用的coreE2张量，不能由一般toy补原文未包含的particleE2项。[[nuclear-chirality]]保同一Day24无学分预习范围，新增needs_review:true。
+
+## Day23桥接Day24预习：完整D2扇区内的固定模型检验
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-008/009将已核源无配对极限落到有限I：Hcoll=Σ(Ibody−jp−jn)²/(2Jk)，Hintr=hsp,p−hsp,n，参数/轴/能量零点和basis在input-contract044先冻结。full product到D2对称扇区的embedding维数与H泄漏检查通过，所得gap只为该variant的最低ordinal态差，不拟任何实验计数/能级，也不将源paired或真实多轨道模型合并成同输入。
+
+此处出现另一个投影层警示：向量分量O能把D2对称态送到别的irrep，因此投影后的(E†O E)²一般不同于E†O²E；计算RMS必须保full O作用。与043的1qp/3qp例同理，省略扇区后闭合差不能自动当原模型故障。对I/jp/jn平方和与Hcoll分解的检查只是数值/角动量实现门，不是实验核内矢量测量。
+
+八项自由极限/维度/对称/求解和能量控制过，固定I9/14/18模型gap约381.3/37.66/87.34keV；未用单一gap或RMS定手征，未计算新的physicalδ/g/B/Q/τ、置信度或机时。[[nuclear-chirality]]保唯一下一卡无学分预习与model/experimental分层，新增needs_review:true。

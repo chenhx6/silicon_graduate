@@ -4461,3 +4461,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T07:17:09.223429+08:00 Day23检查点042：源singlej/BCS组件十二controls，Fplus非共同标量/Gram性质与zeroFermi guard，不产核带强度；继续小Fock空间独立核M1plus因子及1qp/3qp投影闭合，区分coreE2与粒子time-even算符。原15:00/partial[23,24]/next23保持。Git指针main · Day23: keep pairing factors tied to orbital occupations；actualhash/H3仅task-publication-receipt-042.json。
 
 2026-10-26T07:26:58.447889+08:00 Day23检查点043：四mode16D Fock25设计点十controls，plus/minus与1qp+3qp范数闭合明确，非gamma分支；继续源无配对1proton+1hole PRM有限I实现，先D2基与自由转子极限验证，再固定参数少量spin谱；不调实验或重放配对producer。原15:00/partial[23,24]/next23保持。Git指针main · Day23: distinguish quasiparticle projection from full closure；actualhash/H3仅task-publication-receipt-043.json。
+
+2026-10-26T07:35:53.213585+08:00 Day23检查点044：源无配对p-hole PRM684/1044/1332维，八物理数值门过；modelgap非实验/模式认证；继续同固定H的总I三轴概率边缘分布，核RMS/概率区分及partner描述，不赋jointorientation/静态手征。原15:00/partial[23,24]/next23保持。Git指针main · Day23: verify a finite-spin particle-hole rotor variant；actualhash/H3仅task-publication-receipt-044.json。

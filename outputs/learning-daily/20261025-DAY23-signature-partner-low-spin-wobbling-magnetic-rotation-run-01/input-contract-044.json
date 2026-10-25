@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-10-25T23:28:06.901421+00:00",
+  "scope": "explicit unpaired particle-hole limit of actualZH07finiteI PRM, source-definedvariant no fullpaired/multiqp authorproducer or fit toactualPr/Au/Nd",
+  "formal_day": 23,
+  "uncredited_preview": 24,
+  "source_pdf": "tmp/day23-originals/zhang2007-qpprm-041.pdf",
+  "source_sha256": "601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8",
+  "source_locator": "ZH07v1Eq1/2/4/6/7, p9unpairedlimit; sourceatomicclaimsZH07-D24P-001/003",
+  "units": "hbar=1; energiesMeV;J0hbar²/MeV; noactualexperimentalenergyzero",
+  "fixed_input": {
+    "two_jp": 11,
+    "two_jn": 11,
+    "C_MeV": 0.3,
+    "gamma_deg": 30.0,
+    "J0_hbar2_per_MeV": 30.0,
+    "I": [
+      9,
+      14,
+      18
+    ],
+    "pairing": "none; pureprotonhsp+ andpureholehsp−;Fermishiftsconstantdropped",
+    "axes": [
+      "1=i",
+      "2=s",
+      "3=l"
+    ],
+    "inertia_formula": "Ji=J0sin²(gamma−2pi i/3),i1,2,3"
+  },
+  "basis": "full|K,Ωp,Ωn>,bodyI=(Jx,-Jy,Jz),ordinaryparticlejp/jn;D2K−Ωp−Ωneven,reversepairsymphase(-1)^(I−jp−jn),KpositiveorK0Ωppositivecanonical;expectedD=(2I+1)(2jp+1)(2jn+1)/4",
+  "solver": "sparsefullH thenexactembedD2,lowest6eigsh deterministicseeds/tol1e−11and3e−12/ncv48/72; residual/orthogonality/seedstability no statisticaluncertainty",
+  "free_limits": [
+    {
+      "I": 1,
+      "two_jp": 1,
+      "two_jn": 1,
+      "C_MeV": 0,
+      "inertias": [
+        30,
+        30,
+        30
+      ],
+      "expected_spectrum_MeV": [
+        0,
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "I": 2,
+      "two_jp": 1,
+      "two_jn": 1,
+      "C_MeV": 0,
+      "inertias": [
+        30,
+        30,
+        30
+      ],
+      "expected_spectrum_MeV": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.2
+      ]
+    }
+  ],
+  "observables": "lowestmodelenergies/gap,fullO Epsi normsforRMS I/jp/jn/R components;do notuse(E†O E)² forO² asOcanchangeD2irrep",
+  "acceptance": "dimension/exactembeddingorthonormality/Hhermiticity/sectorleak<1e−10;freeanalytic/dense-sparseeigenmatch1e−10;targeteigresidual<1e−8MeV/seedgapstability<1e−8MeV; I²/particleCasimir andHcoll energyreconstruction1e−8",
+  "prohibited": [
+    "fitparameters toactualexperimentalcounts/energies",
+    "claimexactsourcepairedΔ1curve reproduction",
+    "RMSnonzero proofchirality or newphysicalnuclearstate",
+    "M1/E2/delta/g/Q/tau/CI/rates/beamtime assignment",
+    "fullsourceproducercertification orDay24credit/Day25+",
+    "run114producer/rawmutation"
+  ]
+}

@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点043（Day24仅无学分预习）
+## Active handoff — Day23检查点044（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-042已published。043 sourceBogoliubov约定下16D Fock直接核时间奇plus/时间偶minus，25设计点十controls，1qp/3qp补全oddsector范数；无physical核态/gamma库存认证，不给sourcecoreE2添minusfactor。ZH07-D24P-007/方法/概念needs_review。下一明确source无配对p+hole PRM有限I/D2基，自由转子/维度/泄漏/求解器门先过，不拟实验。
+043已published。044明确sourceZH07无配对p+holeH j11/2 C.3 γ30 J0=30，D2维I9/14/18=684/1044/1332；gap381.261/37.659/87.342keV为最低ordinal模型差，八门过resid≤1.6e−11MeV/repeat2e−14。fullO²取RMS防投影平方失配，不据RMS/gap定chirality。ZH07-D24P-008/009/概念/方法needs_review。下一固定H的轴概率边缘，非实测/jointorientation。
 
-详next-continuation-043.md/candidate-pool-043.json；检查以required-checks-043.json为准。Git指针main · Day23: distinguish quasiparticle projection from full closure；actualhash/H3仅task-publication-receipt-043.json。
+详next-continuation-044.md/candidate-pool-044.json；检查以required-checks-044.json为准。Git指针main · Day23: verify a finite-spin particle-hole rotor variant；actualhash/H3仅task-publication-receipt-044.json。
 
 ## Previous handoff — Day22 closeout
 

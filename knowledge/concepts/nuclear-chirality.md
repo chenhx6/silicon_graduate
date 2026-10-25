@@ -167,3 +167,9 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-007用精确四mode Fock例核源BCS的时间奇plus因子；在同约定的时间偶单体算符则得到minus因子。遗漏3qp扇区可携带剩余范数，完整Fock闭合与截断1qp闭合不同，但均不是实验γ分支库存。
 
 这个toy不指定实际核Hamiltonian/EM多极或真实态，不给手征/Kramers双带新认证；T²与C²的既有区别保持。[[signature-tip-shears-discrimination-contract]]承接算符/截断审计，源coreE2不因toy时间偶单体例而自动添加minusfactor。Day24仍无学分，新增needs_review:true。
+
+## Day23内的Day24无学分预习：固定H的有限I谱与几何分层
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-008/009给一个实际源公式定义的无配对1p+1hole有限I解，D2基/自由转子与solver闭环均已检查。固定参数下最低ordinal gap由I9的约381keV降到I14约37.7再到I18约87.3；它是模型随I变化的谱，不直接对应实际核/模式名。
+
+full-space平方范数给RMS而非带符号平均矢量，低gap/RMS相近也不单独认证左右手局域化、隧穿机制或实验静态手征。后续需同H的概率/EM与其适用条件，见[[signature-tip-shears-discrimination-contract]]；不以某个gap或g阈值建立普遍硬门。Day24仍不授分，新增needs_review:true。
