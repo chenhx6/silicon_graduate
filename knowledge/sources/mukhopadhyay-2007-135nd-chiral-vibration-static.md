@@ -3,7 +3,7 @@ type: source
 title: "Mukhopadhyay et al. 2007 - From chiral vibration to static chirality in 135Nd"
 aliases: [Mukhopadhyay 2007 135Nd chirality]
 created: 2026-09-21
-updated: 2026-10-23
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model
@@ -350,3 +350,17 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 | MU07-D22-R102-1 | TableI五配对spin的sqrt[B(E2)B/B(E2)A]均值.935616、跨spin总体标准差.010156，解释了旧.9356±.0102的数值来源；后者不是由各点误差/Cov传播的Qt置信区间。sqrt比只有共同E2几何下才作Qt代理，不能独立限内禀形变差到1%。37/2→39/2的E2中央降幅A .32/.13=2.46154、B .29/.11=2.63636，商1.07102，不是旧2.57/1.043。作者称误差内强度相近支持手征，而非排他排除一切形状共存/带交叉。 | literal-table-and-statistic-identity | direct-original-and-task-arithmetic | 172501-2TableI;172501-4tilt/anharmonicitydiscussion | true |
 | MU07-D22-R102-2 | M1在Fig2，E2在Fig3，不能互错。作者报告带内与带间M1交错反相；有限图点的差分符号/相关r不是原文新报的全spin反相检验或机制唯一性。本文第1页明确核chirality由time reversal互换左右手、space inversion不变；两带同宇称，不是宇称双重态。RPA临界spin比实测最近点高约1ℏ且过渡处方法失效，寿命比趋近1不能单独标定静态手征硬阈值。 | observable-phase-and-symmetry-boundary | direct-original | 172501-1chiralitydefinition;172501-2strengthparagraph;172501-3Figs2/3;172501-4criticaldiscussion | true |
 | MU07-D22-R102-3 | 同一母态派生B若有共同1/τ因子，其比值代数可消τ；但原文不给完整branch/energy/δ/Cov，不能据此指定ρ=.856或统一5.87%比值误差。该实验175MeV thick-targetGammasphere测的是三准粒子chiralpair；Lv2021的152MeV thin-targetJUROGAM研究低spinD1/TiP1/TiP2单νh11/2家族，是不同带/组态和采集，不能用同核名称互为模式否证。 | covariance-and-band-family-identity | direct-original-and-cross-source-boundary | 172501-1setup/configuration;172501-2TableI;LV21printed044308-4setup/044308-11Summary | true |
+
+## Day23内的Day24无学分预习：135Nd导出端点与clock合同
+
+本节是外部IAEA export的field/身份核验，**不是MU07的新测量或原producer复现**。本次定向回核本原件PDF1 setup、PDF2 TableI/方法和PDF3图/角色，fresh视觉PDF2/3，raw SHA9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425相符；[[zhu-2003-135nd-composite-chiral-pair]]的原Fig2亦fresh视觉。旧flags/撤回范围保持，不新称重读全部4页。
+
+官方请求为`https://www-nds.iaea.org/relnsd/v0/data?fields=gammas&nuclides=135nd`和`fields=levels`，本次均HTTP200；CSV分别168条非空γ/94条非空level，各有1条全空终止record。Extraction_date2026-10-25，ENSDF_publication_cut-off22-Jan-2008，评价作者为B.Singh/A.A.Rodionov/Y.L.Khazov；当前可访问不等当前实验/新评价。完整CSV仅tmp staging，正式raw归档deferred，sha分别153f5735282b2ce8cc7932f38d0a9aa14d604704fa82177123922c25c4af65b4与accf66c5f5fb5d5d6dbdaeaf57336b9f2141b57de819cc07d836050ca70aca93。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D24P-001 | 本snapshot的γ三元ID(59,52,2)为648keV、31/2−→29/2−，(60,52,1)为649.2keV、33/2−→29/2−；(66,60,1)为590keV、35/2−→33/2−，(66,59,2)为591keV、35/2−→31/2−。近能量而端点/ΔI不同，不能按Eγ单键合并或把后者591的E2 crossover当interband ΔI1；它不自动认证旧Fig2/3 plotted components的实际line binding。 | external-snapshot-line-identity | actual-official-export-not-new-experiment | IAEA gammas135nd snapshot, IDs(59,52,2)/(60,52,1)/(66,60,1)/(66,59,2); levels135nd matching idx | true |
+| MU07-D24P-002 | 导出level半衰期与本TableI mean lifetime需分开：例如B31/2 idx59为T1/2=1.012ps，除ln2得约1.4600ps；A31/2 idx55为.52ps，得到约.7502ps。十个声明同I/family配对的转换中心与MU07表中心最大差约.0044ps，只有算术/舍入相容，不构成独立复测或误差/CI验证。idx/归属仍绑定本snapshot和历史family，不能用排序或近能量代替。 | external-clock-identity-and-bounded-comparison | official-fields-plus-centre-arithmetic | IAEA levels135nd idx55/59 and declared pairedidx60/61/63/66/68/69/72/73; MU07 PDF2 TableI | true |
+| MU07-D24P-003 | 官方guide把γ的RTPW定义为Weisskopf Units；b_e2/b_m1导出字符串不能直接与本表e²b²/μN²数值相比。226条目(59,56,0)的mixing_ratio为正字符串.14、unc_mr空且缺原adopted notes/phase，这里不认证其为实测signed δ。relative_intensity100只为该parent的相对归一；现代字段不能恢复225.8keV偏振正号/16.3h排他方案、原branch完整性或实验jointCov。 | external-unit-and-missing-note-boundary | actual-guide-and-export-with-limits | IAEA official APIguide gammas/RTPW paragraph; gammas135nd ID(59,56,0) | true |
+
+`system/scripts/day24_preview_nd135_export_identity.py`对真实CSV做strict-width/核素/duplicate-unc_hl列位置/uniqueID/全部端点energy与Jπ join/clock单位和near-line identity共14检查通过。level的两个unc_hl按column12/15保留，不用DictReader覆盖；没有将全部过关扩为原实验或原level scheme认证。半衰期/评价B字段与原DSAM/强度链可能共源，原adopted notes及2007图marker的组件/branch对应仍缺，不给新δ、τ CI、Q/g、机时或最终手征静态阈值。

@@ -1,0 +1,30 @@
+{
+  "scope": "activeDay23, Day24uncreditedpreview only: actual135Ndexport field/identity/clock/WU boundaries, not newexperiment or originalproducer proof",
+  "subject": "Day23: bind preview observables to135Nd endpoints and clocks",
+  "paths": [
+    "knowledge/concepts/nuclear-chirality.md",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+    "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day24_preview_nd135_export_identity.py",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/nd135-export-identity-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/external-access-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/candidate-pool-018.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-018.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-017.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-018.json"
+  ],
+  "H2_EOL": {
+    "exit_code": 1,
+    "unsafe_mixed": 0,
+    "scope": "three task-owned knowledge deltas with explicit externalfield boundaries; raw unchanged"
+  }
+}

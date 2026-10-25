@@ -3,7 +3,7 @@ type: source
 title: "Zhu et al. 2003 - A Composite Chiral Pair of Rotational Bands in 135Nd"
 aliases: ["Zhu 2003 135Nd Band A/B"]
 created: 2026-10-09
-updated: 2026-10-23
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: original-experiment-and-3D-TAC
@@ -199,3 +199,13 @@ The local public OA PDF was fetched from arXiv via Unpaywall; the manifest for t
 残差保留，±1 keV只是本次印刷整数/小数的账目容差，不是实验误差、CI或拟合优度。B带相邻能级差相加可得31/2–39/2的带内ΔI2运动学候选399/508/591/681/812 keV；Fig.2没有画出这些B带内ΔI2箭头，能量差存在不等于观察到该光子线。它们更不能直接绑定MU07 Table I的B(E2)。2007强度表不逐行写Eγ/终态，因此本轮只补全图上候选拓扑，未恢复唯一逐线branch、强度成分或寿命补偿机制。见[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的MU07-D21-R43-3。
 
 版本边界：此raw边栏印`nucl-ex/0302029v2 10 Jun 2003`，标题页正文却印`Dated: November 13, 2018`；保留此PDF日期不一致，不改PRL 91,132501 (2003)的书目年份。未重新联网认证版本来源。
+
+## Day23内的Day24无学分预习：历史纲图与评价端点分列
+
+本次只定向回核原arXivv2 PDF4 Fig2/caption及相邻ΔI/转换文字，fresh视觉图、原SHA8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542相符；不称重新全文摄入。图箭头宽度是relative intensity，不是B。旧claims/flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH03-D24P-001 | 原Fig2中BandA与BandB及648、591等打印标签应按原版本保留；外部cutoff2008的135Nd export另把590与591条目绑定不同end-level/spin。不能仅按一keV近邻便判原文错误、无差别合并两条线，或认定某条就是MU07 Fig2/3 marker所用component。原2003反应采集、2007 DSAM和adopted export的采集/assignment/派生层次须分开，取得原notes/branch inputs前保持候选crosswalk。 | historical-versus-evaluation-identity-boundary | original-figure-plus-external-readiness | arXivnucl-ex/0302029v2 PDF4 Fig.2 and caption; MU07-D24P-001 | true |
+
+外部导出的实际字段/clock/单位及边界见[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-001–003。不把API当第三次独立γ采集，也不以导出half_life替换2007的平均寿命定义。

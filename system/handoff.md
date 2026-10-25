@@ -3,15 +3,15 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint017（持续研究，Day24仅无学分预习）
+## Active handoff — Day23 checkpoint018（持续研究，Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698。completed=[] partial=[23,24] next23；新原receipt不变，Day24恰好一张无学分preview/不开Day25，本run正式信用只Day23。仍约12.5h继续，不提前收束。保护raw/PLAN/Bib/人审/旧credit/114隔离producer。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08，run_date仍25、goalactive/Farmer2698。completed=[] partial=[23,24] next23；Day24恰好preview无信用/不开Day25，正式credit只Day23。还有12h+继续，raw/PLAN/Bib/旧review/credit/114producer边界保持。
 
-017候选池重建后Day23数学components有界完成、actualresponse/原body缺；Garg/Lawrie已有原读不机械重复，Garg2019当前PDF403。按>=120min门preview-entry017冻结primedrecall后targetFM97printed138–142与F01printed474/476/visual/hash。新增FM97-D24P-001、F01-D24P-001/002与概念nuclear-chirality，无人审升级。
+018取得官方135Ndgammas/levels168/94条，cutoffJan2008/extractionOct25分列，tmpstaging不入raw。新script14checks过（strictrows/全endpointjoin/重复unc列/clock/nearline身份），同源T1/2/ln2对MU07meanτ中心差<=.0044ps非独立verification。648 vs649.2、590 vs591有不同Jπ/endpoint/ΔI，4006.7/4008.1亦不同I，不近能量合并。API RTPW是WU不裸比μN²/e²b²；226+.14字符串无notes/unc/phase不认证physicalδ，不复活225.8P/机时方案。
 
-新antiunitary脚本59controls过/max2e-14：T²=(−1)2I，C=RyπT的C²=+1不强制Kramersdoubleband；反幺正λ随phase变不作parity/signature±。twoleveltoy meanχ0/fluct1可共存、C-even O不必两eigenstate相等；t/g全dimensionless或symbolic，不是核态/χ/g/CI。actualQtproxyCI和225.8P/机时撤回保持。
+Mu07原PDF1–3 target/visual2–3、Zh03Fig2 target/visual/hash核，MU07-D24P-001–003/ZH03-D24P-001与conceptpartnerresolved map新needs_review；原paper图component/branch身份仍缺，不以API/parentbudget判错。freshchecks0/true28changed知识writebackvalid/lint0error220warning。
 
-fresh checks0、true26changed知识writebackvalid、0error/220warning。下一同一个Day24preview聚焦MU07 partner-resolved观测与TAC/RPA：TableI无lineenergy/finalspin、out/in/parentbudget映射缺；可用IAEA135Nd公开gammas/levels做endpoint/fieldreadiness，不当新采集/2007producer或改旧数据，raw仍tmpstaging。详candidate-pool017/next-continuation017。Git指针main · Day23: preview chiral antiunitary partner boundaries；actualH3/hash仅task-publication-receipt-017.json。
+下一原adoptednotes或作者arxivsource试解graphcomponent：现exec64415 pending NuDat3 getdataset135ND+OpenAlex MU07 DOI99.172501，请poll同handle，JSONtmp/day23-originals/nd135-primary-input-discovery019.json。若publicsourcearchive只tmp先安全list/extract不run内容；typedfailure不绕过/无限retry，不用默认branch/δ补。详candidate-pool018/next-continuation018。Git指针main · Day23: bind preview observables to135Nd endpoints and clocks，actualH3/hash仅task-publication-receipt-018.json。
 
 ## Previous handoff — Day22 closeout
 

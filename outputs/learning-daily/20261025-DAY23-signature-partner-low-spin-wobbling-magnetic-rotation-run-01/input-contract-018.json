@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-25T18:26:39.608057+00:00",
+  "object": "two actualIAEA v0CSV135Nd snapshots, sourceNUCLEARobservations notinferred; fields/units/clock/endpoints audit only",
+  "snapshots": {
+    "tmp/day23-originals/iaea-nd135-gammas-018.csv": "153f5735282b2ce8cc7932f38d0a9aa14d604704fa82177123922c25c4af65b4",
+    "tmp/day23-originals/iaea-nd135-levels-018.csv": "accf66c5f5fb5d5d6dbdaeaf57336b9f2141b57de819cc07d836050ca70aca93"
+  },
+  "external_guide": "tmp/day23-originals/iaea-api-guide.html actualgammaRTPW inWeisskopfUnits, energieskeV; originalGuidealreadyread004/005/007",
+  "comparison": "MU07meanlifetimesactualTableI matchedbyspin+candidatesourcefamily; APIhalf_life/unit+seconds converted tau=T1/2/ln2 onlyconditionaladoptedvaluechain; no newmeasurementorfullCov",
+  "nearenergyprobes": [
+    [
+      "59",
+      "52",
+      "2"
+    ],
+    [
+      "60",
+      "52",
+      "1"
+    ],
+    [
+      "66",
+      "60",
+      "1"
+    ],
+    [
+      "66",
+      "59",
+      "2"
+    ]
+  ],
+  "line_identity": "(z,n,symbol,start_level_idx,end_level_idx,gamma_idx) insame snapshot; noenergy-onlymatches, noforcedgraphbinding",
+  "validation": [
+    "nonempty rowsstrictcolumns, onlyfullyblankrecordignored",
+    "duplicatedlevelunc_hlcolumns retained aspositions12and15 notDictReaderoverwrite",
+    "allz60n75/IDsjoin toactuallevel rows",
+    "start/endenergyandjp matchingwithinexportstrings; gammaenergyroundedclosurediagnostic only",
+    "648/649.2 and590/591 endpoints distinct/spindifference differs, preventaliasmerge",
+    "clockunit seconds/pscentralconsistency",
+    "T1/2 vsMU07tau central arithmeticclarity, notindependentvalidation",
+    "gammaRTPWnotmuN²/e²b², noWeisskopfnormalization invented",
+    "missingdelta/error notes/sourceproducer remainunfilled"
+  ],
+  "outputs": "hashes/cutoffauthors/extractiondate/targetrowrawstrings/joins/half-to-mean diagnostics only; noactualg/delta/newQ/tauCI/ratebeamtime",
+  "prohibited": [
+    "APIasnewmeasurement/thirdindependentvote",
+    "currentcutoffprovesactual2007graphassignment",
+    "positiveexportmixing_ratio0.14=measuredsignedphysicalδ",
+    "samephotonenergymergeΔI1/2outlets",
+    "restore225.8Psign/16.3h exclusion",
+    "relativeintensitynormalized100provesnobranchmissing",
+    "APIrawWUvaluescomparednumericallywithMU07muN²withoutconversion",
+    "Day24formalcreditorDay25"
+  ]
+}

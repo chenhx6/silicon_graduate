@@ -1,0 +1,3589 @@
+{
+  "status": "official-export-identity-and-readiness-only",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "source_snapshots": {
+    "tmp/day23-originals/iaea-nd135-gammas-018.csv": {
+      "sha256": "153f5735282b2ce8cc7932f38d0a9aa14d604704fa82177123922c25c4af65b4",
+      "bytes": 28614
+    },
+    "tmp/day23-originals/iaea-nd135-levels-018.csv": {
+      "sha256": "accf66c5f5fb5d5d6dbdaeaf57336b9f2141b57de819cc07d836050ca70aca93",
+      "bytes": 13948
+    },
+    "tmp/day23-originals/iaea-api-guide.html": {
+      "sha256": "3565cc66e5c83b30e6207fc4d219c591c0f5aa84176eb667b7659702662aff23",
+      "bytes": 46420
+    }
+  },
+  "row_counts": {
+    "gammas_nonempty": 168,
+    "levels_nonempty": 94,
+    "gammas_ignored_fully_blank": 1,
+    "levels_ignored_fully_blank": 1
+  },
+  "gamma_headers": [
+    "z",
+    "n",
+    "symbol",
+    "start_level_idx",
+    "start_level_energy",
+    "unc_sle",
+    "start_level_jp",
+    "end_level_idx",
+    "end_level_energy",
+    "unc_ele",
+    "end_level_jp",
+    "gamma_idx",
+    "energy",
+    "unc_en",
+    "relative_intensity",
+    "unc_ri",
+    "multipolarity",
+    "mixing_ratio",
+    "unc_mr",
+    "b_e1",
+    "unc_be1",
+    "b_e2",
+    "unc_be2",
+    "b_m1",
+    "unc_bm1",
+    "b_m2",
+    "unc_bm2",
+    "tot_conv_coeff",
+    "tce_unc",
+    "ensdf_publication_cut-off",
+    "ensdf_authors",
+    "Extraction_date"
+  ],
+  "level_headers_with_duplicate_positions": [
+    [
+      0,
+      "z"
+    ],
+    [
+      1,
+      "n"
+    ],
+    [
+      2,
+      "symbol"
+    ],
+    [
+      3,
+      "idx"
+    ],
+    [
+      4,
+      "energy_shift"
+    ],
+    [
+      5,
+      "energy"
+    ],
+    [
+      6,
+      "unc_e"
+    ],
+    [
+      7,
+      "ripl_shift"
+    ],
+    [
+      8,
+      "jp"
+    ],
+    [
+      9,
+      "jp_order"
+    ],
+    [
+      10,
+      "half_life"
+    ],
+    [
+      11,
+      "operator_hl"
+    ],
+    [
+      12,
+      "unc_hl"
+    ],
+    [
+      13,
+      "unit_hl"
+    ],
+    [
+      14,
+      "half_life_sec"
+    ],
+    [
+      15,
+      "unc_hl"
+    ],
+    [
+      16,
+      "decay_1"
+    ],
+    [
+      17,
+      "decay_1_%"
+    ],
+    [
+      18,
+      "unc_1"
+    ],
+    [
+      19,
+      "decay_2"
+    ],
+    [
+      20,
+      "decay_2_%"
+    ],
+    [
+      21,
+      "unc_2"
+    ],
+    [
+      22,
+      "decay_3"
+    ],
+    [
+      23,
+      "decay_3_%"
+    ],
+    [
+      24,
+      "unc_3"
+    ],
+    [
+      25,
+      "isospin"
+    ],
+    [
+      26,
+      "magnetic_dipole"
+    ],
+    [
+      27,
+      "unc_mn"
+    ],
+    [
+      28,
+      "electric_quadrupole"
+    ],
+    [
+      29,
+      "unc_eq"
+    ],
+    [
+      30,
+      "ENSDF_publication_cut-off"
+    ],
+    [
+      31,
+      "ENSDF_authors"
+    ],
+    [
+      32,
+      "Extraction_date"
+    ]
+  ],
+  "evaluation_cutoffs": [
+    "22-Jan-2008"
+  ],
+  "extraction_dates": [
+    "2026-10-25"
+  ],
+  "evaluation_authors": [
+    "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV"
+  ],
+  "close_energy_outlets_raw": [
+    {
+      "csv_line": 113,
+      "fields": {
+        "z": "60",
+        "n": "75",
+        "symbol": "Nd",
+        "start_level_idx": "59",
+        "start_level_energy": "4006.7",
+        "unc_sle": "0.7",
+        "start_level_jp": "(31/2-)",
+        "end_level_idx": "52",
+        "end_level_energy": "3358.6",
+        "unc_ele": "0.5",
+        "end_level_jp": "(29/2-)",
+        "gamma_idx": "2",
+        "energy": "648",
+        "unc_en": "",
+        "relative_intensity": "3.3",
+        "unc_ri": "0.3",
+        "multipolarity": "(M1+E2)",
+        "mixing_ratio": "",
+        "unc_mr": "",
+        "b_e1": "",
+        "unc_be1": "",
+        "b_e2": "",
+        "unc_be2": "",
+        "b_m1": "",
+        "unc_bm1": "",
+        "b_m2": "",
+        "unc_bm2": "",
+        "tot_conv_coeff": "0.0078",
+        "tce_unc": "0.0018",
+        "ensdf_publication_cut-off": "22-Jan-2008",
+        "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "60",
+        "75",
+        "Nd",
+        "59",
+        "4006.7",
+        "0.7",
+        "(31/2-)",
+        "52",
+        "3358.6",
+        "0.5",
+        "(29/2-)",
+        "2",
+        "648",
+        "",
+        "3.3",
+        "0.3",
+        "(M1+E2)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "0.0078",
+        "0.0018",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    },
+    {
+      "csv_line": 116,
+      "fields": {
+        "z": "60",
+        "n": "75",
+        "symbol": "Nd",
+        "start_level_idx": "60",
+        "start_level_energy": "4008.1",
+        "unc_sle": "0.5",
+        "start_level_jp": "(33/2-)",
+        "end_level_idx": "52",
+        "end_level_energy": "3358.6",
+        "unc_ele": "0.5",
+        "end_level_jp": "(29/2-)",
+        "gamma_idx": "1",
+        "energy": "649.2",
+        "unc_en": "0.3",
+        "relative_intensity": "25",
+        "unc_ri": "3",
+        "multipolarity": "[E2]",
+        "mixing_ratio": "",
+        "unc_mr": "",
+        "b_e1": "",
+        "unc_be1": "",
+        "b_e2": "76",
+        "unc_be2": "",
+        "b_m1": "",
+        "unc_bm1": "",
+        "b_m2": "",
+        "unc_bm2": "",
+        "tot_conv_coeff": "0.00601",
+        "tce_unc": "",
+        "ensdf_publication_cut-off": "22-Jan-2008",
+        "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "60",
+        "75",
+        "Nd",
+        "60",
+        "4008.1",
+        "0.5",
+        "(33/2-)",
+        "52",
+        "3358.6",
+        "0.5",
+        "(29/2-)",
+        "1",
+        "649.2",
+        "0.3",
+        "25",
+        "3",
+        "[E2]",
+        "",
+        "",
+        "",
+        "",
+        "76",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "0.00601",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    },
+    {
+      "csv_line": 129,
+      "fields": {
+        "z": "60",
+        "n": "75",
+        "symbol": "Nd",
+        "start_level_idx": "66",
+        "start_level_energy": "4598.6",
+        "unc_sle": "0.7",
+        "start_level_jp": "(35/2-)",
+        "end_level_idx": "60",
+        "end_level_energy": "4008.1",
+        "unc_ele": "0.5",
+        "end_level_jp": "(33/2-)",
+        "gamma_idx": "1",
+        "energy": "590",
+        "unc_en": "",
+        "relative_intensity": "2.1",
+        "unc_ri": "0.4",
+        "multipolarity": "[M1]",
+        "mixing_ratio": "",
+        "unc_mr": "",
+        "b_e1": "",
+        "unc_be1": "",
+        "b_e2": "",
+        "unc_be2": "",
+        "b_m1": "0.0036",
+        "unc_bm1": "",
+        "b_m2": "",
+        "unc_bm2": "",
+        "tot_conv_coeff": "0.01211",
+        "tce_unc": "",
+        "ensdf_publication_cut-off": "22-Jan-2008",
+        "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "60",
+        "75",
+        "Nd",
+        "66",
+        "4598.6",
+        "0.7",
+        "(35/2-)",
+        "60",
+        "4008.1",
+        "0.5",
+        "(33/2-)",
+        "1",
+        "590",
+        "",
+        "2.1",
+        "0.4",
+        "[M1]",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "0.0036",
+        "",
+        "",
+        "",
+        "0.01211",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    },
+    {
+      "csv_line": 130,
+      "fields": {
+        "z": "60",
+        "n": "75",
+        "symbol": "Nd",
+        "start_level_idx": "66",
+        "start_level_energy": "4598.6",
+        "unc_sle": "0.7",
+        "start_level_jp": "(35/2-)",
+        "end_level_idx": "59",
+        "end_level_energy": "4006.7",
+        "unc_ele": "0.7",
+        "end_level_jp": "(31/2-)",
+        "gamma_idx": "2",
+        "energy": "591",
+        "unc_en": "",
+        "relative_intensity": "25",
+        "unc_ri": "4",
+        "multipolarity": "[E2]",
+        "mixing_ratio": "",
+        "unc_mr": "",
+        "b_e1": "",
+        "unc_be1": "",
+        "b_e2": "75",
+        "unc_be2": "",
+        "b_m1": "",
+        "unc_bm1": "",
+        "b_m2": "",
+        "unc_bm2": "",
+        "tot_conv_coeff": "0.0076",
+        "tce_unc": "",
+        "ensdf_publication_cut-off": "22-Jan-2008",
+        "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "60",
+        "75",
+        "Nd",
+        "66",
+        "4598.6",
+        "0.7",
+        "(35/2-)",
+        "59",
+        "4006.7",
+        "0.7",
+        "(31/2-)",
+        "2",
+        "591",
+        "",
+        "25",
+        "4",
+        "[E2]",
+        "",
+        "",
+        "",
+        "",
+        "75",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "0.0076",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    }
+  ],
+  "candidate_parent_clocks": [
+    {
+      "declared_candidate_band": "A",
+      "two_I": 31,
+      "level_snapshot_idx": "55",
+      "level_energy_keV_string": "3649.9",
+      "jp_string": "(31/2-)",
+      "half_life_ps_string": "0.52",
+      "half_life_seconds_string": "0.00000000000052",
+      "raw_unc_hl_column12": "6",
+      "raw_unc_hl_seconds_column15": "0.00000000000006",
+      "derived_mean_tau_ps": 0.750201421262261,
+      "MU07_printed_mean_tau_ps_centre": 0.75,
+      "central_arithmetic_difference_ps": 0.00020142126226097012,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "A",
+      "two_I": 33,
+      "level_snapshot_idx": "60",
+      "level_energy_keV_string": "4008.1",
+      "jp_string": "(33/2-)",
+      "half_life_ps_string": "0.305",
+      "half_life_seconds_string": "0.000000000000305",
+      "raw_unc_hl_column12": "14",
+      "raw_unc_hl_seconds_column15": "0.000000000000014",
+      "derived_mean_tau_ps": 0.44002198747113386,
+      "MU07_printed_mean_tau_ps_centre": 0.44,
+      "central_arithmetic_difference_ps": 2.198747113385524e-05,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "A",
+      "two_I": 35,
+      "level_snapshot_idx": "63",
+      "level_energy_keV_string": "4414.5",
+      "jp_string": "(35/2-)",
+      "half_life_ps_string": "0.194",
+      "half_life_seconds_string": "0.000000000000194",
+      "raw_unc_hl_column12": "14",
+      "raw_unc_hl_seconds_column15": "0.000000000000014",
+      "derived_mean_tau_ps": 0.27988283793245894,
+      "MU07_printed_mean_tau_ps_centre": 0.28,
+      "central_arithmetic_difference_ps": -0.00011716206754108782,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "A",
+      "two_I": 37,
+      "level_snapshot_idx": "68",
+      "level_energy_keV_string": "4852.6",
+      "jp_string": "(37/2-)",
+      "half_life_ps_string": "0.159",
+      "half_life_seconds_string": "0.000000000000159",
+      "raw_unc_hl_column12": "14",
+      "raw_unc_hl_seconds_column15": "0.000000000000014",
+      "derived_mean_tau_ps": 0.2293885115013452,
+      "MU07_printed_mean_tau_ps_centre": 0.23,
+      "central_arithmetic_difference_ps": -0.0006114884986548053,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "A",
+      "two_I": 39,
+      "level_snapshot_idx": "72",
+      "level_energy_keV_string": "5315.5",
+      "jp_string": "(39/2-)",
+      "half_life_ps_string": "0.152",
+      "half_life_seconds_string": "0.000000000000152",
+      "raw_unc_hl_column12": "14",
+      "raw_unc_hl_seconds_column15": "0.000000000000014",
+      "derived_mean_tau_ps": 0.21928964621512245,
+      "MU07_printed_mean_tau_ps_centre": 0.22,
+      "central_arithmetic_difference_ps": -0.0007103537848775487,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "B",
+      "two_I": 31,
+      "level_snapshot_idx": "59",
+      "level_energy_keV_string": "4006.7",
+      "jp_string": "(31/2-)",
+      "half_life_ps_string": "1.012",
+      "half_life_seconds_string": "0.000000000001012",
+      "raw_unc_hl_column12": "14",
+      "raw_unc_hl_seconds_column15": "0.000000000000014",
+      "derived_mean_tau_ps": 1.460007381379631,
+      "MU07_printed_mean_tau_ps_centre": 1.46,
+      "central_arithmetic_difference_ps": 7.381379631077323e-06,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "B",
+      "two_I": 33,
+      "level_snapshot_idx": "61",
+      "level_energy_keV_string": "4288.9",
+      "jp_string": "(33/2-)",
+      "half_life_ps_string": "0.60",
+      "half_life_seconds_string": "0.0000000000006",
+      "raw_unc_hl_column12": "4",
+      "raw_unc_hl_seconds_column15": "0.00000000000004",
+      "derived_mean_tau_ps": 0.8656170245333781,
+      "MU07_printed_mean_tau_ps_centre": 0.87,
+      "central_arithmetic_difference_ps": -0.004382975466621919,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "B",
+      "two_I": 35,
+      "level_snapshot_idx": "66",
+      "level_energy_keV_string": "4598.6",
+      "jp_string": "(35/2-)",
+      "half_life_ps_string": "0.444",
+      "half_life_seconds_string": "0.000000000000444",
+      "raw_unc_hl_column12": "35",
+      "raw_unc_hl_seconds_column15": "0.000000000000035",
+      "derived_mean_tau_ps": 0.6405565981546998,
+      "MU07_printed_mean_tau_ps_centre": 0.64,
+      "central_arithmetic_difference_ps": 0.0005565981546997723,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "B",
+      "two_I": 37,
+      "level_snapshot_idx": "69",
+      "level_energy_keV_string": "4970.7",
+      "jp_string": "(37/2-)",
+      "half_life_ps_string": "0.333",
+      "half_life_seconds_string": "0.000000000000333",
+      "raw_unc_hl_column12": "21",
+      "raw_unc_hl_seconds_column15": "0.000000000000021",
+      "derived_mean_tau_ps": 0.48041744861602487,
+      "MU07_printed_mean_tau_ps_centre": 0.48,
+      "central_arithmetic_difference_ps": 0.0004174486160248847,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    },
+    {
+      "declared_candidate_band": "B",
+      "two_I": 39,
+      "level_snapshot_idx": "73",
+      "level_energy_keV_string": "5410.7",
+      "jp_string": "(39/2-)",
+      "half_life_ps_string": "0.166",
+      "half_life_seconds_string": "0.000000000000166",
+      "raw_unc_hl_column12": "28",
+      "raw_unc_hl_seconds_column15": "0.000000000000028",
+      "derived_mean_tau_ps": 0.23948737678756796,
+      "MU07_printed_mean_tau_ps_centre": 0.24,
+      "central_arithmetic_difference_ps": -0.000512623212432034,
+      "boundary": "Half-to-mean arithmetic on an adopted evaluation chain, not a new measurement, CI or independent validation. Candidate family identity follows the earlier scheme and must not bind MU07 graph components automatically."
+    }
+  ],
+  "declared_candidate_same_spin_level_pairs": [
+    {
+      "two_I": 31,
+      "A_idx": "55",
+      "B_idx": "59",
+      "A_E_keV_string": "3649.9",
+      "B_E_keV_string": "4006.7",
+      "central_B_minus_A_keV": 356.7999999999997,
+      "boundary": "Declared historical family and same-spin pairing, export centre arithmetic only, no new measured splitting/CI or static-chirality threshold."
+    },
+    {
+      "two_I": 33,
+      "A_idx": "60",
+      "B_idx": "61",
+      "A_E_keV_string": "4008.1",
+      "B_E_keV_string": "4288.9",
+      "central_B_minus_A_keV": 280.7999999999997,
+      "boundary": "Declared historical family and same-spin pairing, export centre arithmetic only, no new measured splitting/CI or static-chirality threshold."
+    },
+    {
+      "two_I": 35,
+      "A_idx": "63",
+      "B_idx": "66",
+      "A_E_keV_string": "4414.5",
+      "B_E_keV_string": "4598.6",
+      "central_B_minus_A_keV": 184.10000000000036,
+      "boundary": "Declared historical family and same-spin pairing, export centre arithmetic only, no new measured splitting/CI or static-chirality threshold."
+    },
+    {
+      "two_I": 37,
+      "A_idx": "68",
+      "B_idx": "69",
+      "A_E_keV_string": "4852.6",
+      "B_E_keV_string": "4970.7",
+      "central_B_minus_A_keV": 118.09999999999945,
+      "boundary": "Declared historical family and same-spin pairing, export centre arithmetic only, no new measured splitting/CI or static-chirality threshold."
+    },
+    {
+      "two_I": 39,
+      "A_idx": "72",
+      "B_idx": "73",
+      "A_E_keV_string": "5315.5",
+      "B_E_keV_string": "5410.7",
+      "central_B_minus_A_keV": 95.19999999999982,
+      "boundary": "Declared historical family and same-spin pairing, export centre arithmetic only, no new measured splitting/CI or static-chirality threshold."
+    }
+  ],
+  "specific_226_snapshot_outlet_raw": {
+    "csv_line": 111,
+    "fields": {
+      "z": "60",
+      "n": "75",
+      "symbol": "Nd",
+      "start_level_idx": "59",
+      "start_level_energy": "4006.7",
+      "unc_sle": "0.7",
+      "start_level_jp": "(31/2-)",
+      "end_level_idx": "56",
+      "end_level_energy": "3780.6",
+      "unc_ele": "0.7",
+      "end_level_jp": "(29/2-)",
+      "gamma_idx": "0",
+      "energy": "226",
+      "unc_en": "",
+      "relative_intensity": "100",
+      "unc_ri": "6",
+      "multipolarity": "(M1(+E2))",
+      "mixing_ratio": "0.14",
+      "unc_mr": "",
+      "b_e1": "",
+      "unc_be1": "",
+      "b_e2": "",
+      "unc_be2": "",
+      "b_m1": "1.5",
+      "unc_bm1": "",
+      "b_m2": "",
+      "unc_bm2": "",
+      "tot_conv_coeff": "0.146",
+      "tce_unc": "",
+      "ensdf_publication_cut-off": "22-Jan-2008",
+      "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+      "Extraction_date": "2026-10-25"
+    },
+    "raw_values": [
+      "60",
+      "75",
+      "Nd",
+      "59",
+      "4006.7",
+      "0.7",
+      "(31/2-)",
+      "56",
+      "3780.6",
+      "0.7",
+      "(29/2-)",
+      "0",
+      "226",
+      "",
+      "100",
+      "6",
+      "(M1(+E2))",
+      "0.14",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "1.5",
+      "",
+      "",
+      "",
+      "0.146",
+      "",
+      "22-Jan-2008",
+      "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+      "2026-10-25"
+    ]
+  },
+  "selected_parent_all_outlets_raw": {
+    "59": [
+      {
+        "csv_line": 111,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "59",
+          "start_level_energy": "4006.7",
+          "unc_sle": "0.7",
+          "start_level_jp": "(31/2-)",
+          "end_level_idx": "56",
+          "end_level_energy": "3780.6",
+          "unc_ele": "0.7",
+          "end_level_jp": "(29/2-)",
+          "gamma_idx": "0",
+          "energy": "226",
+          "unc_en": "",
+          "relative_intensity": "100",
+          "unc_ri": "6",
+          "multipolarity": "(M1(+E2))",
+          "mixing_ratio": "0.14",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "1.5",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.146",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "59",
+          "4006.7",
+          "0.7",
+          "(31/2-)",
+          "56",
+          "3780.6",
+          "0.7",
+          "(29/2-)",
+          "0",
+          "226",
+          "",
+          "100",
+          "6",
+          "(M1(+E2))",
+          "0.14",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1.5",
+          "",
+          "",
+          "",
+          "0.146",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 112,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "59",
+          "start_level_energy": "4006.7",
+          "unc_sle": "0.7",
+          "start_level_jp": "(31/2-)",
+          "end_level_idx": "54",
+          "end_level_energy": "3607.6",
+          "unc_ele": "0.9",
+          "end_level_jp": "(27/2-)",
+          "gamma_idx": "1",
+          "energy": "399",
+          "unc_en": "",
+          "relative_intensity": "5.6",
+          "unc_ri": "1.1",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "60",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0221",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "59",
+          "4006.7",
+          "0.7",
+          "(31/2-)",
+          "54",
+          "3607.6",
+          "0.9",
+          "(27/2-)",
+          "1",
+          "399",
+          "",
+          "5.6",
+          "1.1",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "60",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.0221",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 113,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "59",
+          "start_level_energy": "4006.7",
+          "unc_sle": "0.7",
+          "start_level_jp": "(31/2-)",
+          "end_level_idx": "52",
+          "end_level_energy": "3358.6",
+          "unc_ele": "0.5",
+          "end_level_jp": "(29/2-)",
+          "gamma_idx": "2",
+          "energy": "648",
+          "unc_en": "",
+          "relative_intensity": "3.3",
+          "unc_ri": "0.3",
+          "multipolarity": "(M1+E2)",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0078",
+          "tce_unc": "0.0018",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "59",
+          "4006.7",
+          "0.7",
+          "(31/2-)",
+          "52",
+          "3358.6",
+          "0.5",
+          "(29/2-)",
+          "2",
+          "648",
+          "",
+          "3.3",
+          "0.3",
+          "(M1+E2)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.0078",
+          "0.0018",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 114,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "59",
+          "start_level_energy": "4006.7",
+          "unc_sle": "0.7",
+          "start_level_jp": "(31/2-)",
+          "end_level_idx": "48",
+          "end_level_energy": "3110.6",
+          "unc_ele": "0.4",
+          "end_level_jp": "(27/2-)",
+          "gamma_idx": "3",
+          "energy": "896",
+          "unc_en": "",
+          "relative_intensity": "2.2",
+          "unc_ri": "0.3",
+          "multipolarity": "(E2)",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "0.41",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00284",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "59",
+          "4006.7",
+          "0.7",
+          "(31/2-)",
+          "48",
+          "3110.6",
+          "0.4",
+          "(27/2-)",
+          "3",
+          "896",
+          "",
+          "2.2",
+          "0.3",
+          "(E2)",
+          "",
+          "",
+          "",
+          "",
+          "0.41",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.00284",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      }
+    ],
+    "61": [
+      {
+        "csv_line": 117,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "61",
+          "start_level_energy": "4288.9",
+          "unc_sle": "0.7",
+          "start_level_jp": "(33/2-)",
+          "end_level_idx": "59",
+          "end_level_energy": "4006.7",
+          "unc_ele": "0.7",
+          "end_level_jp": "(31/2-)",
+          "gamma_idx": "0",
+          "energy": "282.1",
+          "unc_en": "",
+          "relative_intensity": "100",
+          "unc_ri": "5",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "1.22",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0804",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "61",
+          "4288.9",
+          "0.7",
+          "(33/2-)",
+          "59",
+          "4006.7",
+          "0.7",
+          "(31/2-)",
+          "0",
+          "282.1",
+          "",
+          "100",
+          "5",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1.22",
+          "",
+          "",
+          "",
+          "0.0804",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 118,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "61",
+          "start_level_energy": "4288.9",
+          "unc_sle": "0.7",
+          "start_level_jp": "(33/2-)",
+          "end_level_idx": "56",
+          "end_level_energy": "3780.6",
+          "unc_ele": "0.7",
+          "end_level_jp": "(29/2-)",
+          "gamma_idx": "1",
+          "energy": "508",
+          "unc_en": "",
+          "relative_intensity": "11",
+          "unc_ri": "1.8",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "55",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.01128",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "61",
+          "4288.9",
+          "0.7",
+          "(33/2-)",
+          "56",
+          "3780.6",
+          "0.7",
+          "(29/2-)",
+          "1",
+          "508",
+          "",
+          "11",
+          "1.8",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "55",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.01128",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 119,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "61",
+          "start_level_energy": "4288.9",
+          "unc_sle": "0.7",
+          "start_level_jp": "(33/2-)",
+          "end_level_idx": "55",
+          "end_level_energy": "3649.9",
+          "unc_ele": "0.5",
+          "end_level_jp": "(31/2-)",
+          "gamma_idx": "2",
+          "energy": "639",
+          "unc_en": "",
+          "relative_intensity": "7.3",
+          "unc_ri": "1",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "0.0076",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00995",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "61",
+          "4288.9",
+          "0.7",
+          "(33/2-)",
+          "55",
+          "3649.9",
+          "0.5",
+          "(31/2-)",
+          "2",
+          "639",
+          "",
+          "7.3",
+          "1",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.0076",
+          "",
+          "",
+          "",
+          "0.00995",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 120,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "61",
+          "start_level_energy": "4288.9",
+          "unc_sle": "0.7",
+          "start_level_jp": "(33/2-)",
+          "end_level_idx": "52",
+          "end_level_energy": "3358.6",
+          "unc_ele": "0.5",
+          "end_level_jp": "(29/2-)",
+          "gamma_idx": "3",
+          "energy": "930",
+          "unc_en": "",
+          "relative_intensity": "8",
+          "unc_ri": "1",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "2",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00262",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "61",
+          "4288.9",
+          "0.7",
+          "(33/2-)",
+          "52",
+          "3358.6",
+          "0.5",
+          "(29/2-)",
+          "3",
+          "930",
+          "",
+          "8",
+          "1",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "2",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.00262",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      }
+    ],
+    "66": [
+      {
+        "csv_line": 128,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "66",
+          "start_level_energy": "4598.6",
+          "unc_sle": "0.7",
+          "start_level_jp": "(35/2-)",
+          "end_level_idx": "61",
+          "end_level_energy": "4288.9",
+          "unc_ele": "0.7",
+          "end_level_jp": "(33/2-)",
+          "gamma_idx": "0",
+          "energy": "309",
+          "unc_en": "",
+          "relative_intensity": "100",
+          "unc_ri": "6",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "1.18",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0632",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "66",
+          "4598.6",
+          "0.7",
+          "(35/2-)",
+          "61",
+          "4288.9",
+          "0.7",
+          "(33/2-)",
+          "0",
+          "309",
+          "",
+          "100",
+          "6",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1.18",
+          "",
+          "",
+          "",
+          "0.0632",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 129,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "66",
+          "start_level_energy": "4598.6",
+          "unc_sle": "0.7",
+          "start_level_jp": "(35/2-)",
+          "end_level_idx": "60",
+          "end_level_energy": "4008.1",
+          "unc_ele": "0.5",
+          "end_level_jp": "(33/2-)",
+          "gamma_idx": "1",
+          "energy": "590",
+          "unc_en": "",
+          "relative_intensity": "2.1",
+          "unc_ri": "0.4",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "0.0036",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.01211",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "66",
+          "4598.6",
+          "0.7",
+          "(35/2-)",
+          "60",
+          "4008.1",
+          "0.5",
+          "(33/2-)",
+          "1",
+          "590",
+          "",
+          "2.1",
+          "0.4",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.0036",
+          "",
+          "",
+          "",
+          "0.01211",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 130,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "66",
+          "start_level_energy": "4598.6",
+          "unc_sle": "0.7",
+          "start_level_jp": "(35/2-)",
+          "end_level_idx": "59",
+          "end_level_energy": "4006.7",
+          "unc_ele": "0.7",
+          "end_level_jp": "(31/2-)",
+          "gamma_idx": "2",
+          "energy": "591",
+          "unc_en": "",
+          "relative_intensity": "25",
+          "unc_ri": "4",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "75",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0076",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "66",
+          "4598.6",
+          "0.7",
+          "(35/2-)",
+          "59",
+          "4006.7",
+          "0.7",
+          "(31/2-)",
+          "2",
+          "591",
+          "",
+          "25",
+          "4",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "75",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.0076",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 131,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "66",
+          "start_level_energy": "4598.6",
+          "unc_sle": "0.7",
+          "start_level_jp": "(35/2-)",
+          "end_level_idx": "55",
+          "end_level_energy": "3649.9",
+          "unc_ele": "0.5",
+          "end_level_jp": "(31/2-)",
+          "gamma_idx": "3",
+          "energy": "949",
+          "unc_en": "",
+          "relative_intensity": "9.2",
+          "unc_ri": "1.4",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "2.6",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00251",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "66",
+          "4598.6",
+          "0.7",
+          "(35/2-)",
+          "55",
+          "3649.9",
+          "0.5",
+          "(31/2-)",
+          "3",
+          "949",
+          "",
+          "9.2",
+          "1.4",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "2.6",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.00251",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      }
+    ],
+    "69": [
+      {
+        "csv_line": 136,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "69",
+          "start_level_energy": "4970.7",
+          "unc_sle": "0.8",
+          "start_level_jp": "(37/2-)",
+          "end_level_idx": "66",
+          "end_level_energy": "4598.6",
+          "unc_ele": "0.7",
+          "end_level_jp": "(35/2-)",
+          "gamma_idx": "0",
+          "energy": "371.2",
+          "unc_en": "",
+          "relative_intensity": "100",
+          "unc_ri": "6",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "0.83",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0392",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "69",
+          "4970.7",
+          "0.8",
+          "(37/2-)",
+          "66",
+          "4598.6",
+          "0.7",
+          "(35/2-)",
+          "0",
+          "371.2",
+          "",
+          "100",
+          "6",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.83",
+          "",
+          "",
+          "",
+          "0.0392",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 137,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "69",
+          "start_level_energy": "4970.7",
+          "unc_sle": "0.8",
+          "start_level_jp": "(37/2-)",
+          "end_level_idx": "63",
+          "end_level_energy": "4414.5",
+          "unc_ele": "0.6",
+          "end_level_jp": "(35/2-)",
+          "gamma_idx": "1",
+          "energy": "556",
+          "unc_en": "",
+          "relative_intensity": "5.2",
+          "unc_ri": "0.9",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "0.0129",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.01403",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "69",
+          "4970.7",
+          "0.8",
+          "(37/2-)",
+          "63",
+          "4414.5",
+          "0.6",
+          "(35/2-)",
+          "1",
+          "556",
+          "",
+          "5.2",
+          "0.9",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.0129",
+          "",
+          "",
+          "",
+          "0.01403",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 138,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "69",
+          "start_level_energy": "4970.7",
+          "unc_sle": "0.8",
+          "start_level_jp": "(37/2-)",
+          "end_level_idx": "61",
+          "end_level_energy": "4288.9",
+          "unc_ele": "0.7",
+          "end_level_jp": "(33/2-)",
+          "gamma_idx": "2",
+          "energy": "682",
+          "unc_en": "",
+          "relative_intensity": "33",
+          "unc_ri": "6",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "59",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00533",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "69",
+          "4970.7",
+          "0.8",
+          "(37/2-)",
+          "61",
+          "4288.9",
+          "0.7",
+          "(33/2-)",
+          "2",
+          "682",
+          "",
+          "33",
+          "6",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "59",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.00533",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 139,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "69",
+          "start_level_energy": "4970.7",
+          "unc_sle": "0.8",
+          "start_level_jp": "(37/2-)",
+          "end_level_idx": "60",
+          "end_level_energy": "4008.1",
+          "unc_ele": "0.5",
+          "end_level_jp": "(33/2-)",
+          "gamma_idx": "3",
+          "energy": "963",
+          "unc_en": "",
+          "relative_intensity": "13",
+          "unc_ri": "2",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "4.2",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00243",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "69",
+          "4970.7",
+          "0.8",
+          "(37/2-)",
+          "60",
+          "4008.1",
+          "0.5",
+          "(33/2-)",
+          "3",
+          "963",
+          "",
+          "13",
+          "2",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "4.2",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.00243",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      }
+    ],
+    "73": [
+      {
+        "csv_line": 145,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "73",
+          "start_level_energy": "5410.7",
+          "unc_sle": "1.3",
+          "start_level_jp": "(39/2-)",
+          "end_level_idx": "69",
+          "end_level_energy": "4970.7",
+          "unc_ele": "0.8",
+          "end_level_jp": "(37/2-)",
+          "gamma_idx": "0",
+          "energy": "440",
+          "unc_en": "",
+          "relative_intensity": "100",
+          "unc_ri": "10",
+          "multipolarity": "[M1]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "1.3",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.0253",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "73",
+          "5410.7",
+          "1.3",
+          "(39/2-)",
+          "69",
+          "4970.7",
+          "0.8",
+          "(37/2-)",
+          "0",
+          "440",
+          "",
+          "100",
+          "10",
+          "[M1]",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1.3",
+          "",
+          "",
+          "",
+          "0.0253",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      {
+        "csv_line": 146,
+        "fields": {
+          "z": "60",
+          "n": "75",
+          "symbol": "Nd",
+          "start_level_idx": "73",
+          "start_level_energy": "5410.7",
+          "unc_sle": "1.3",
+          "start_level_jp": "(39/2-)",
+          "end_level_idx": "66",
+          "end_level_energy": "4598.6",
+          "unc_ele": "0.7",
+          "end_level_jp": "(35/2-)",
+          "gamma_idx": "1",
+          "energy": "812",
+          "unc_en": "",
+          "relative_intensity": "14",
+          "unc_ri": "5",
+          "multipolarity": "[E2]",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "28",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "0.00354",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "60",
+          "75",
+          "Nd",
+          "73",
+          "5410.7",
+          "1.3",
+          "(39/2-)",
+          "66",
+          "4598.6",
+          "0.7",
+          "(35/2-)",
+          "1",
+          "812",
+          "",
+          "14",
+          "5",
+          "[E2]",
+          "",
+          "",
+          "",
+          "",
+          "28",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0.00354",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      }
+    ]
+  },
+  "all_endpoint_joins": [
+    {
+      "snapshot_id": [
+        "2",
+        "1",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.05000000000001137
+    },
+    {
+      "snapshot_id": [
+        "3",
+        "0",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.07999999999998408
+    },
+    {
+      "snapshot_id": [
+        "4",
+        "1",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.020000000000010232
+    },
+    {
+      "snapshot_id": [
+        "5",
+        "2",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -1.099999999999966
+    },
+    {
+      "snapshot_id": [
+        "5",
+        "1",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.25000000000005684
+    },
+    {
+      "snapshot_id": [
+        "6",
+        "1",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.05000000000001137
+    },
+    {
+      "snapshot_id": [
+        "7",
+        "4",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.009999999999962483
+    },
+    {
+      "snapshot_id": [
+        "7",
+        "2",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.020000000000010232
+    },
+    {
+      "snapshot_id": [
+        "7",
+        "1",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "snapshot_id": [
+        "8",
+        "5",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.060000000000002274
+    },
+    {
+      "snapshot_id": [
+        "8",
+        "4",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.03000000000005798
+    },
+    {
+      "snapshot_id": [
+        "8",
+        "2",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03999999999996362
+    },
+    {
+      "snapshot_id": [
+        "8",
+        "1",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.010000000000047748
+    },
+    {
+      "snapshot_id": [
+        "9",
+        "0",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "snapshot_id": [
+        "10",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.10000000000002274
+    },
+    {
+      "snapshot_id": [
+        "10",
+        "0",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.16999999999995907
+    },
+    {
+      "snapshot_id": [
+        "11",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.03999999999996362
+    },
+    {
+      "snapshot_id": [
+        "11",
+        "0",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.7999999999999545
+    },
+    {
+      "snapshot_id": [
+        "12",
+        "2",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.20000000000004547
+    },
+    {
+      "snapshot_id": [
+        "12",
+        "1",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.14999999999997726
+    },
+    {
+      "snapshot_id": [
+        "13",
+        "2",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "14",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03999999999996362
+    },
+    {
+      "snapshot_id": [
+        "15",
+        "6",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "15",
+        "4",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.029999999999915872
+    },
+    {
+      "snapshot_id": [
+        "16",
+        "9",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.0800000000000125
+    },
+    {
+      "snapshot_id": [
+        "16",
+        "8",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.029999999999972715
+    },
+    {
+      "snapshot_id": [
+        "16",
+        "7",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "snapshot_id": [
+        "16",
+        "4",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.06000000000005912
+    },
+    {
+      "snapshot_id": [
+        "16",
+        "3",
+        "4"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.25
+    },
+    {
+      "snapshot_id": [
+        "16",
+        "0",
+        "5"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.009999999999990905
+    },
+    {
+      "snapshot_id": [
+        "17",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03999999999996362
+    },
+    {
+      "snapshot_id": [
+        "18",
+        "4",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.029999999999915872
+    },
+    {
+      "snapshot_id": [
+        "19",
+        "10",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.049999999999954525
+    },
+    {
+      "snapshot_id": [
+        "19",
+        "3",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.030000000000086402
+    },
+    {
+      "snapshot_id": [
+        "20",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03999999999996362
+    },
+    {
+      "snapshot_id": [
+        "21",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03999999999996362
+    },
+    {
+      "snapshot_id": [
+        "22",
+        "16",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03000000000002956
+    },
+    {
+      "snapshot_id": [
+        "22",
+        "3",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "snapshot_id": [
+        "22",
+        "0",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.05999999999994543
+    },
+    {
+      "snapshot_id": [
+        "23",
+        "14",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.05999999999994543
+    },
+    {
+      "snapshot_id": [
+        "24",
+        "3",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.009999999999990905
+    },
+    {
+      "snapshot_id": [
+        "25",
+        "19",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.1099999999999568
+    },
+    {
+      "snapshot_id": [
+        "25",
+        "10",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.05000000000006821
+    },
+    {
+      "snapshot_id": [
+        "26",
+        "16",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.009999999999990905
+    },
+    {
+      "snapshot_id": [
+        "26",
+        "3",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.05999999999994543
+    },
+    {
+      "snapshot_id": [
+        "27",
+        "19",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.019999999999868123
+    },
+    {
+      "snapshot_id": [
+        "28",
+        "19",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "snapshot_id": [
+        "29",
+        "25",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.029999999999972715
+    },
+    {
+      "snapshot_id": [
+        "29",
+        "19",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.12000000000000455
+    },
+    {
+      "snapshot_id": [
+        "30",
+        "10",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.7200000000000273
+    },
+    {
+      "snapshot_id": [
+        "31",
+        "30",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.5
+    },
+    {
+      "snapshot_id": [
+        "31",
+        "19",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.11999999999989086
+    },
+    {
+      "snapshot_id": [
+        "32",
+        "29",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.08000000000004093
+    },
+    {
+      "snapshot_id": [
+        "32",
+        "25",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.17000000000007276
+    },
+    {
+      "snapshot_id": [
+        "33",
+        "29",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 1.1368683772161603e-13
+    },
+    {
+      "snapshot_id": [
+        "34",
+        "31",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.05000000000003979
+    },
+    {
+      "snapshot_id": [
+        "34",
+        "30",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.2999999999999545
+    },
+    {
+      "snapshot_id": [
+        "34",
+        "25",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.02999999999985903
+    },
+    {
+      "snapshot_id": [
+        "35",
+        "25",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.02999999999974534
+    },
+    {
+      "snapshot_id": [
+        "36",
+        "30",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.3999999999998636
+    },
+    {
+      "snapshot_id": [
+        "36",
+        "29",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.20000000000004547
+    },
+    {
+      "snapshot_id": [
+        "36",
+        "19",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.3200000000001637
+    },
+    {
+      "snapshot_id": [
+        "37",
+        "34",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.060000000000172804
+    },
+    {
+      "snapshot_id": [
+        "37",
+        "31",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.10000000000013642
+    },
+    {
+      "snapshot_id": [
+        "37",
+        "29",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.20000000000004547
+    },
+    {
+      "snapshot_id": [
+        "38",
+        "32",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.1999999999998181
+    },
+    {
+      "snapshot_id": [
+        "38",
+        "29",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.40000000000009095
+    },
+    {
+      "snapshot_id": [
+        "39",
+        "29",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -2.2737367544323206e-13
+    },
+    {
+      "snapshot_id": [
+        "40",
+        "37",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.04999999999989768
+    },
+    {
+      "snapshot_id": [
+        "40",
+        "34",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.29999999999972715
+    },
+    {
+      "snapshot_id": [
+        "41",
+        "29",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.20000000000027285
+    },
+    {
+      "snapshot_id": [
+        "42",
+        "36",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 1.2999999999997272
+    },
+    {
+      "snapshot_id": [
+        "42",
+        "35",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 1.0
+    },
+    {
+      "snapshot_id": [
+        "42",
+        "34",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.40000000000009095
+    },
+    {
+      "snapshot_id": [
+        "43",
+        "29",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.20000000000004547
+    },
+    {
+      "snapshot_id": [
+        "44",
+        "40",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -1.7053025658242404e-13
+    },
+    {
+      "snapshot_id": [
+        "44",
+        "37",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.599999999999909
+    },
+    {
+      "snapshot_id": [
+        "45",
+        "38",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999973852
+    },
+    {
+      "snapshot_id": [
+        "45",
+        "32",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.40000000000009095
+    },
+    {
+      "snapshot_id": [
+        "46",
+        "45",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.2600000000000051
+    },
+    {
+      "snapshot_id": [
+        "46",
+        "38",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.009999999999763531
+    },
+    {
+      "snapshot_id": [
+        "46",
+        "32",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.10000000000013642
+    },
+    {
+      "snapshot_id": [
+        "47",
+        "44",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.030000000000086402
+    },
+    {
+      "snapshot_id": [
+        "47",
+        "40",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.29999999999972715
+    },
+    {
+      "snapshot_id": [
+        "48",
+        "46",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.05000000000001137
+    },
+    {
+      "snapshot_id": [
+        "48",
+        "38",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.19999999999970441
+    },
+    {
+      "snapshot_id": [
+        "49",
+        "44",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "49",
+        "43",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "snapshot_id": [
+        "49",
+        "42",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.09999999999979536
+    },
+    {
+      "snapshot_id": [
+        "49",
+        "41",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.1999999999998181
+    },
+    {
+      "snapshot_id": [
+        "49",
+        "40",
+        "4"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.1999999999998181
+    },
+    {
+      "snapshot_id": [
+        "49",
+        "38",
+        "5"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.3000000000001819
+    },
+    {
+      "snapshot_id": [
+        "50",
+        "39",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.40000000000009095
+    },
+    {
+      "snapshot_id": [
+        "50",
+        "38",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.19999999999970441
+    },
+    {
+      "snapshot_id": [
+        "51",
+        "48",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -8.526512829121202e-14
+    },
+    {
+      "snapshot_id": [
+        "52",
+        "48",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.2599999999999909
+    },
+    {
+      "snapshot_id": [
+        "52",
+        "46",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "53",
+        "47",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.12000000000000455
+    },
+    {
+      "snapshot_id": [
+        "53",
+        "44",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 1.099999999999909
+    },
+    {
+      "snapshot_id": [
+        "54",
+        "46",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "55",
+        "52",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.03999999999979309
+    },
+    {
+      "snapshot_id": [
+        "55",
+        "48",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.1999999999998181
+    },
+    {
+      "snapshot_id": [
+        "56",
+        "54",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "56",
+        "48",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "56",
+        "46",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "57",
+        "53",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.06999999999999318
+    },
+    {
+      "snapshot_id": [
+        "57",
+        "47",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "58",
+        "50",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.20000000000027285
+    },
+    {
+      "snapshot_id": [
+        "58",
+        "49",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.09999999999979536
+    },
+    {
+      "snapshot_id": [
+        "59",
+        "56",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "snapshot_id": [
+        "59",
+        "54",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "snapshot_id": [
+        "59",
+        "52",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "snapshot_id": [
+        "59",
+        "48",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "snapshot_id": [
+        "60",
+        "55",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.020000000000209184
+    },
+    {
+      "snapshot_id": [
+        "60",
+        "52",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.2999999999999545
+    },
+    {
+      "snapshot_id": [
+        "61",
+        "59",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999979536
+    },
+    {
+      "snapshot_id": [
+        "61",
+        "56",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.29999999999972715
+    },
+    {
+      "snapshot_id": [
+        "61",
+        "55",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -4.547473508864641e-13
+    },
+    {
+      "snapshot_id": [
+        "61",
+        "52",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.29999999999972715
+    },
+    {
+      "snapshot_id": [
+        "62",
+        "57",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 4.547473508864641e-13
+    },
+    {
+      "snapshot_id": [
+        "62",
+        "53",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 4.547473508864641e-13
+    },
+    {
+      "snapshot_id": [
+        "63",
+        "60",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.09999999999990905
+    },
+    {
+      "snapshot_id": [
+        "63",
+        "55",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.3000000000000682
+    },
+    {
+      "snapshot_id": [
+        "64",
+        "60",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.5000000000004547
+    },
+    {
+      "snapshot_id": [
+        "64",
+        "55",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.19999999999970441
+    },
+    {
+      "snapshot_id": [
+        "65",
+        "58",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -3.410605131648481e-13
+    },
+    {
+      "snapshot_id": [
+        "66",
+        "61",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.7000000000007276
+    },
+    {
+      "snapshot_id": [
+        "66",
+        "60",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.5000000000004547
+    },
+    {
+      "snapshot_id": [
+        "66",
+        "59",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.9000000000005457
+    },
+    {
+      "snapshot_id": [
+        "66",
+        "55",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.29999999999972715
+    },
+    {
+      "snapshot_id": [
+        "67",
+        "62",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "67",
+        "57",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 4.547473508864641e-13
+    },
+    {
+      "snapshot_id": [
+        "68",
+        "63",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.49999999999965894
+    },
+    {
+      "snapshot_id": [
+        "68",
+        "60",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.3000000000004093
+    },
+    {
+      "snapshot_id": [
+        "69",
+        "66",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.8999999999994657
+    },
+    {
+      "snapshot_id": [
+        "69",
+        "63",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.1999999999998181
+    },
+    {
+      "snapshot_id": [
+        "69",
+        "61",
+        "2"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.1999999999998181
+    },
+    {
+      "snapshot_id": [
+        "69",
+        "60",
+        "3"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.40000000000009095
+    },
+    {
+      "snapshot_id": [
+        "70",
+        "65",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 5.684341886080801e-13
+    },
+    {
+      "snapshot_id": [
+        "71",
+        "67",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "71",
+        "62",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "72",
+        "68",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.49999999999965894
+    },
+    {
+      "snapshot_id": [
+        "72",
+        "63",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "73",
+        "69",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "73",
+        "66",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0999999999994543
+    },
+    {
+      "snapshot_id": [
+        "74",
+        "67",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "75",
+        "72",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.6000000000000227
+    },
+    {
+      "snapshot_id": [
+        "75",
+        "68",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -0.1000000000003638
+    },
+    {
+      "snapshot_id": [
+        "76",
+        "70",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -6.821210263296962e-13
+    },
+    {
+      "snapshot_id": [
+        "77",
+        "73",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "78",
+        "75",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.10000000000002274
+    },
+    {
+      "snapshot_id": [
+        "78",
+        "72",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "79",
+        "76",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 6.821210263296962e-13
+    },
+    {
+      "snapshot_id": [
+        "80",
+        "78",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "80",
+        "75",
+        "1"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "81",
+        "78",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "82",
+        "79",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -3.410605131648481e-13
+    },
+    {
+      "snapshot_id": [
+        "83",
+        "82",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "84",
+        "83",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 6.821210263296962e-13
+    },
+    {
+      "snapshot_id": [
+        "85",
+        "84",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": -6.821210263296962e-13
+    },
+    {
+      "snapshot_id": [
+        "86",
+        "85",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "87",
+        "86",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.09999999999922693
+    },
+    {
+      "snapshot_id": [
+        "88",
+        "87",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 1.3642420526593924e-12
+    },
+    {
+      "snapshot_id": [
+        "89",
+        "88",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "90",
+        "89",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 6.821210263296962e-13
+    },
+    {
+      "snapshot_id": [
+        "91",
+        "90",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "92",
+        "91",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    },
+    {
+      "snapshot_id": [
+        "93",
+        "92",
+        "0"
+      ],
+      "field_join_exact": true,
+      "printed_energy_centre_closure_keV": 0.0
+    }
+  ],
+  "clock_unit_error_ps": 5.551115123125783e-17,
+  "controls": {
+    "all_nonempty_csv_rows_strict_width": true,
+    "duplicate_level_unc_hl_positions_preserved": true,
+    "unique_level_and_gamma_snapshot_identifiers": true,
+    "all_rows_target_nuclide": true,
+    "all_snapshot_endpoint_energy_spin_joins_match": true,
+    "648_and_649_are_distinct_snapshot_outlets": true,
+    "590_and_591_are_distinct_final_spins": true,
+    "nearenergy_identity_cannot_merge_deltaI1_deltaI2": true,
+    "half_life_ps_and_seconds_units_consistent": true,
+    "half_life_not_used_as_mean_tau": true,
+    "near_4007_levels_are_not_same_spin_partners": true,
+    "official_guide_identifies_RTPW_as_Weisskopf_units": true,
+    "API_mixing_ratio_uncertainty_not_filled": true,
+    "evaluation_cutoff_and_extraction_date_retained_separately": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": "2795feecfda69ac17561d8f8b80728a28670daa81e2dc07714ecbb6ff627d3e5",
+  "limitations": [
+    "Snapshot idx is local to these exact files. Near energy is not a line identity, and latest adopted endpoints do not independently establish the 2007 plotted component mapping.",
+    "API b_e2/b_m1 are Weisskopf-unit fields per guide, not raw e2b2/muN2. No unverified numerical conversion is applied.",
+    "The positive literal mixing_ratio0.14 lacks uncertainty and original adopted notes/phase convention here; it is not a newly measured signed delta or a restored225.8 polarization/exclusion result.",
+    "Relative intensity100 is a parent normalization, not an absolute photon rate or proof no omitted branch. No complete gamma/IC budget is certified.",
+    "Original adopted reference notes and full experimental response/covariance remain absent; export-derived tau and strength fields reuse evaluations, not independent acquisitions.",
+    "No real joint confidence interval, Q, g, polarization prediction, count rate or beamtime calculated. Raw archive deferred; public snapshots remain tmp staging."
+  ]
+}

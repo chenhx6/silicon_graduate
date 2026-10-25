@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint017）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint018）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23, 24]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T02:20:58.809933+08:00
+- checked_at: 2026-10-26T02:35:41.570670+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -50,6 +50,8 @@ checkpoint016重建后选择同卡AMR原件路线（非Day24）：Simons2003/200
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint018仅Day24无学分preview：实际IAEA官方135Nd gammas/levels各HTTP200，168/94非空条目，cutoff22Jan2008、extraction2026-10-25；只tmpstaging，hash/units/原notes缺口记MU07-D24P-001–003。定向回核MU07PDF1–3/visual2–3及ZH03PDF4Fig2、原hash均合；不称重新全文，旧sourceflags/撤回保持。
 
 checkpoint017定向读FM97期刊printed138–142/PDF8–12的signature/planar/aplanar与finitePRM tunnelling，核原SHA；F01printed474/476/PDF12/14对称操作，fresh视觉476、原SHA匹配。F01-D24P-001/002、FM97-D24P-001是无学分preview新needs_review条目，旧人审flags保持；未重读全17/52页或增新实验。
 
@@ -98,6 +100,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint018对实际CSV做14项核素/严格宽度/duplicateunc列/ID/端点Jπ与energyjoin/clock/nearlineidentity控制通过。648ΔI1与649.2ΔI2、590ΔI1与591ΔI2不可近能量合并；T1/2除ln2才与MU07meanτ作中心算术比较，十点最大差.0044ps，不是独立复测/CI。APIγRTPW为WU、不裸比原表μN²/e²b²；.14 mixing字符串无unc/notes/phase不升级physicalδ。
 
 checkpoint017先modelcontract再普通spin表示与两态toy：T=RyπK，T²=(−1)2I，但C=RyπT满足C²=+1，故不单靠该手征操作强制Kramers双带。两态C=σxK/H=E0I+tσx/χ=σz有gap2|t|且meanχ0/fluctuation1，C-even O0I+O1σx可给不同eigenstate均值O0±O1。59数学控制过，maxspinerr2e−14；toy/nonrotational counterexample不当核态、能量或physicalg。
 
@@ -151,6 +155,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint018提供新端点旁证却不认证2007图marker的component；原ZH03打印标签与评价590/591候选分列，不判paper错误。relativeintensity100不证明分支完整，APIcutoff不同于extractiondate，adoptednote/原branch/jointCov仍缺。4006.7与4008.1keV对应不同I，不配sameI双态；不恢复QtCI/225.8P/机时排他结论。
+
 checkpoint017反幺正λ随整体phase变，不是parity/signature式±量子数；intrinsic左右meanfield对与finitegood-spin partner split有不同层次。signedmean0不排intrinsicchirality，fluctuation非0不证明实验；g equality也须实际operator，当前toy不填g。旧QtproxyCI/225.8P正号与机时认证保持撤回。Day24只预习，无formalcredit/Day25。
 
 checkpoint016原2010DSAM正文/τ/feeding系统误差与2013Comment/Reply仍缺；2011理论Fig3/4复用2010点，不增加独立采集票。“polarization”是密度重排非γP；无inertcore/lowj混合限制固定blades图像，pairing忽略不认证可忽略。支持链保留而不恢复所有M1禁止/固定Cd曲线/J2-B硬门。
@@ -194,6 +200,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint018 supports：partner-resolved矩阵锁parent/daughter/Jπ/单位/clock和采集谱系；limits：现代评价不构成独立新实验或原producer重现，API能提高readiness而不能强补linecomponent。当前Day24仍只是唯一无学分preview，原Day23窗口持续。
 
 checkpoint017 supports/limits：将signature伙伴、intrinsic handedness与量子恢复双带分别说明；新增Kramers/反幺正phase及C-even operator边界提升partner检验合同，但不是新实验或实际核模式裁决。Day23学习持续，下一仅同一个Day24无学分preview的partner-resolved真实观测/模型输入。
 
@@ -1080,7 +1088,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/concepts/nuclear-chirality.md",
-      "summary": "Day24 uncredited preview only：定向原件与有界反幺正/两态数学控制，区分Kramers、signature、intrinsic与量子伙伴，不给核态/g认证。",
+      "summary": "Day24 uncredited preview only：定向原件与有界反幺正/两态数学控制，区分Kramers、signature、intrinsic与量子伙伴，不给核态/g认证。 补135Nd逐伙伴矩阵/官方export端点及clock/单位边界。",
       "anchor": "Day23内的Day24无学分预习：反幺正手征操作不等于Kramers双带",
       "sources": [
         {
@@ -1094,6 +1102,68 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
           "locator": "FM97-D24P-001"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-001"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-002"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-003"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D24P-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "summary": "定向原件与外部officialexport identity/readiness；采集/派生/评价分层，不认定旧图绑定或新实测δ/τ/CI。",
+      "anchor": "Day23内的Day24无学分预习：135Nd导出端点与clock合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-001"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-002"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-003"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D24P-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+      "summary": "定向原件与外部officialexport identity/readiness；采集/派生/评价分层，不认定旧图绑定或新实测δ/τ/CI。",
+      "anchor": "Day23内的Day24无学分预习：历史纲图与评价端点分列",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-001"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-002"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D24P-003"
+        },
+        {
+          "path": "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+          "locator": "ZH03-D24P-001"
         }
       ]
     }
@@ -1113,6 +1183,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint018 boundary/lint/diff/nd135_export_identity实际0，14身份/单位/clock控制通过，true runner报告/28changed知识writebackvalid；lint0error/220warning、182旧citation债务。input-contract-018.json/external-access018/next-continuation018保持onlyDay24无学分preview，partial[23,24]/next23/不Day25。原adoptednotes/作者source路线继续，未重拟δ/τCI或提前收束。Git指针main · Day23: bind preview observables to135Nd endpoints and clocks；actualhash/H3见task-publication-receipt-018.json。
 
 checkpoint017 boundary/lint/diff/chiral_antiunitary_preview实际0，59数学控制通过，true runner报告/26changed知识页writebackvalid；lint0error/220warning与182旧citation债务保留。preview-entry-017.json/candidate-pool-017.json与next-continuation-017.md记录恰好Day24无学分预习：completed[]/partial[23,24]/next23、不打开Day25、不提前收束。Git指针main · Day23: preview chiral antiunitary partner boundaries；actualhash/H3仅task-publication-receipt-017.json。
 

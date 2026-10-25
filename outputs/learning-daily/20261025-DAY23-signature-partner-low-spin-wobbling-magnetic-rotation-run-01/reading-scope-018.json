@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T18:31:40.616175+00:00",
+  "formal_day_index": 23,
+  "uncredited_preview": 24,
+  "MU07": {
+    "scope": "PDF1setup/2methodTableI/3figrole, targeted notfullnew4pageread",
+    "fresh_visual": [
+      2,
+      3
+    ],
+    "sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+    "hash_matches": true
+  },
+  "ZH03": {
+    "scope": "PDF4Fig2/caption andΔI/conversionparagraph",
+    "fresh_visual": 4,
+    "sha256": "8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542",
+    "hash_matches": true
+  },
+  "APIguide": "actualgammaRTPW paragraphread:WeisskopfUnits,energykeV; previouslyacquiredsameofficialguide",
+  "new_csv_archival": "tmpstagingonly/rawnotmodified",
+  "source_status": "newclaimsneeds_reviewtrue, previousflagsunchanged; externalfieldsnotMU07newmeasurement"
+}

@@ -87,3 +87,17 @@ C=R_y(\pi)T,\quad C^2=+1.$$
 同模型的C-even算符O=O0I+O1σx，对localized左右态均有对角O0，对两个stationary eigenstates却为O0±O1。**同一反幺正对称性不强制不同能级的任意标量相等**。若讨论physical g，必须先有实际电磁算符、组态与matrix elements；该toy不填任何g0/g1，更不把g相同/不同做成手征充分/普适排除判据。
 
 新脚本`system/scripts/day24_preview_chiral_antiunitary.py`在I1/2、1、3/2、5/2、4表示及两态toy共59项控制通过，spin矩阵最大误差约2.0e−14。选定Csymmetry非简并spin矩阵只是对“该反幺正代数必强制双重简并”的数学反例，**不是rotationally invariant实验室核Hamiltonian**。验证到这里为止，不给真实核态、三维χ/g数据、Qt CI或机时，也未运行隔离的Day22 producer。
+
+## Day23内的Day24无学分预习：135Nd逐伙伴观测矩阵
+
+本矩阵只作当前Day24知识预习、不计正式信用。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-001–003及[[zhu-2003-135nd-composite-chiral-pair]] ZH03-D24P-001区分原实验、评价端点和模型；新推断needs_review:true。
+
+| 量/层 | Band A与Band B实际可用证据 | 依赖/当前输入边界 |
+|---|---|---|
+| same-I能量 | 声明historical family对应下，snapshot在31/2…39/2的E_B−E_A中心为356.8/280.8/184.1/118.1/95.2keV | 外部cutoff2008 adopted中心，不是额外测量/CI或静态手征阈值；4006.7与4008.1keV虽近却分别31/2与33/2，不能配作same-I伙伴 |
+| 寿命 | MU07 TableI meanτ两band分列，前四配对B约2倍A，39/2接近 | APIhalf_life须除ln2，不与meanτ裸比；相近derivedB不等τ相同，branch/Eγ/IC和Cov仍需原输入 |
+| B(M1)、B(E2) | MU07表/图报告的inband强度在误差内相近；interband图点另有源身份 | 这是一条DSAM/branch/derivation链，TableI无逐行Eγ/finalspin；APIRTPW为W.u.而非μN²/e²b²，不能混单位或重复计票 |
+| 角动量几何 | 原PQTAC/RPA解释低spin振动、随spin趋静态的model演化 | 实测τ/B不直接测三轴分量；RPA零频、TAC破缺和实测最小split分别检验，不指定一条model-independent临界spin |
+| g因子 | 当前此对135Nd未获得可绑定的双partner g观测向量 | 128Cs bandhead的g属于另一核/态，不能迁入135Nd；017 C-even算符数学也不提供physicalg |
+
+snapshot的648/649.2和590/591为实际不同endpoints/ΔI例，说明partner-resolved evidence map必须同时锁定parent、daughter、Jπ和component。所有字段为原文/导出已有量或声明中央算术，不新增核态/机时、不给Qt代理置信区间，也不恢复225.8 P正号排他方案。原2003建纲图与2007新DSAM各自有采集贡献，evaluation整理与重复引述不加独立实验票；真正共享哪些branch/assignment输入仍须reference notes与event/analysis ledger。
