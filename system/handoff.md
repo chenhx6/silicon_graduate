@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint024（进度号；Day24仍仅无学分预习）
+## Active handoff — Day23 checkpoint025（仅进度号；Day25课程未打开）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25，formalcredit只23。还有10h+持续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24无学分preview/noDay25，formalcredit只23。还有10h+持续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
 
-024actualNdCSV/authorTeXPS同WUratio，45源输入/Fraction取消/空值控制过；同parent/sameXL的WU/τ相消，IγE³/E⁵中央比近不算两独立verification。七paircentralresidual−.82%..+2.82%无Cov/CI，firstmixed648 B_M1空不补δ/0；原采用[]/()/blankunc保，graph/评价normalizer身份仍缺不判paper错。新MU07-D24P-009/10、concept/Day23方法桥needs_review，freshchecks0/true31changedwritebackvalid/lint0error220warning。
+025targetLKH82p122/PDF4KS/RB关系、ST99p17/PDF2EfieldP/A=QP原页/visual/hash核。newconventionbridge300点/11controls过：native(-1)^L基底dnative=−dRB使fullρ/IQUV只global−不变；purelimits不足以找mixedphase错。quotedLvδ当KS只是额外application未认证producer；747/813小negativeKS可分别P正/负的singlesforward设计不actualfit、width/likelihoodnull。actualPr角组/upstream796/450/eff/feeding/aQ/Cov缺，数值近不叫复现，SH26fixedsigma支持保。
 
-下一回Day23Pr符号桥：实际targetLKH82printed122/PDF4Eqs2.8–2.11 emissionKS=-RB（bothγ），sourceEfield/comptonaxis后新合同，再013fullStokesbasis mapping/native(-1)^L比对。已exploratoryforward在附加KS定义下dRB+.47/+ .37可分别给不同Psign，数字详next-continuation024，**不是actualPrgeometry/gate/width/likelihoodfit**；SH26条件支持不抹。progress025绝非Day25card。详candidate-pool024/next-continuation024。Git指针main · Day23: audit same-unit ratios without adding evidence votes；actualH3/hash仅task-publication-receipt-024.json。
+新LKH82-D23-001/ST99-D23-001/方法/Prproject+active-summary，freshchecks0/true32changedwritebackvalid/lint0error220warning。下一actualPr角组正权重/relative-normalizerη合同：axisym singles镜near角可等，finiteupstreamgate未必；unknownactualη/eff不默填、不借以宣布根等深，详next-continuation025/candidate-pool025。checkpoint026也只是进度非开新课程卡。Git指针main · Day23: bind photon conventions before comparing line responses；actualH3/hash仅task-publication-receipt-025.json。
 
 ## Previous handoff — Day22 closeout
 

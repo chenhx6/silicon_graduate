@@ -1,0 +1,132 @@
+{
+  "status": "conditional-photon-convention-and-axis-bridge",
+  "formal_day_index": 23,
+  "only_existing_uncredited_preview_day": 24,
+  "source_premises": [
+    "LKH82 printed122 Eqs2.8-2.11 and finalemissionKS/RB/BR relations",
+    "ST99 printed17Eq1/2 Efieldparallel/perp P andA=QP",
+    "L22Table1 actual747/813 sourcecentres"
+  ],
+  "amplitude_identity": "d_native=-d_RB; native(-1)^L basis gives A_native=-A_RB forM1/E2. Fullrho/IQUV identical. In the defined LKH82 emission convention deltaKS=-deltaRB for both cascade photons.",
+  "checked_design_points": 300,
+  "pure_stretched_axis_controls": [
+    {
+      "kind_design": "stretched_E2",
+      "two_I": 17,
+      "two_If": 13,
+      "sigma_over_I_design": 0.2,
+      "theta_design_deg": 90,
+      "local_Efield_P_parallel_minus_perp": 0.6384674593918547
+    },
+    {
+      "kind_design": "stretched_M1",
+      "two_I": 17,
+      "two_If": 15,
+      "sigma_over_I_design": 0.2,
+      "theta_design_deg": 90,
+      "local_Efield_P_parallel_minus_perp": -0.3509934684981982
+    }
+  ],
+  "source_bound_conditional_forward_examples": [
+    {
+      "source_line_energy_keV": 747.3,
+      "two_I_source": 17,
+      "source_reported_delta_centre": -0.47,
+      "source_reported_P_centre": 0.04,
+      "source_reported_Rac_centre": 0.37,
+      "extra_unverified_application_assumption": "Use this exact LKH82 KS emission convention for the quoted source delta; original analysis producer convention not reconstructed.",
+      "conditional_d_RB_equals_minus_delta_KS": 0.47,
+      "declared_width_forward_examples": [
+        {
+          "declared_Gaussian_input_sigma_over_I": 0.2,
+          "ideal_point_W154_over_W90": 0.23509674226928176,
+          "ideal_local_Efield_P90": 0.03350100550229688,
+          "not_actual_Rac_or_P_refit": true
+        },
+        {
+          "declared_Gaussian_input_sigma_over_I": 0.4,
+          "ideal_point_W154_over_W90": 0.42448677253222966,
+          "ideal_local_Efield_P90": 0.013840311759684863,
+          "not_actual_Rac_or_P_refit": true
+        },
+        {
+          "declared_Gaussian_input_sigma_over_I": 0.8,
+          "ideal_point_W154_over_W90": 0.7598734147130666,
+          "ideal_local_Efield_P90": 0.0026391259991850476,
+          "not_actual_Rac_or_P_refit": true
+        }
+      ],
+      "fitted_width": null,
+      "real_joint_likelihood_or_confidence_interval": null,
+      "boundary": "Single-photon point-angle examples, not the original Pr angle-ring groups/upstream gates/finite-array efficiency/feeding/attenuation response. Central numerical proximity is not experimental reproduction or root selection."
+    },
+    {
+      "source_line_energy_keV": 813.2,
+      "two_I_source": 21,
+      "source_reported_delta_centre": -0.37,
+      "source_reported_P_centre": -0.03,
+      "source_reported_Rac_centre": 0.48,
+      "extra_unverified_application_assumption": "Use this exact LKH82 KS emission convention for the quoted source delta; original analysis producer convention not reconstructed.",
+      "conditional_d_RB_equals_minus_delta_KS": 0.37,
+      "declared_width_forward_examples": [
+        {
+          "declared_Gaussian_input_sigma_over_I": 0.2,
+          "ideal_point_W154_over_W90": 0.2966963555390868,
+          "ideal_local_Efield_P90": -0.023058872041312583,
+          "not_actual_Rac_or_P_refit": true
+        },
+        {
+          "declared_Gaussian_input_sigma_over_I": 0.4,
+          "ideal_point_W154_over_W90": 0.48041031278191787,
+          "ideal_local_Efield_P90": -0.024559906200697694,
+          "not_actual_Rac_or_P_refit": true
+        },
+        {
+          "declared_Gaussian_input_sigma_over_I": 0.8,
+          "ideal_point_W154_over_W90": 0.7883059956744289,
+          "ideal_local_Efield_P90": -0.012010363784648545,
+          "not_actual_Rac_or_P_refit": true
+        }
+      ],
+      "fitted_width": null,
+      "real_joint_likelihood_or_confidence_interval": null,
+      "boundary": "Single-photon point-angle examples, not the original Pr angle-ring groups/upstream gates/finite-array efficiency/feeding/attenuation response. Central numerical proximity is not experimental reproduction or root selection."
+    }
+  ],
+  "control_errors": {
+    "max_global_phase_error": 0.0,
+    "max_full_photon_density_error": 0.0,
+    "max_IQUV_error": 0.0,
+    "max_pure_global_phase_error": 0.0,
+    "max_linear_axis_swap_error": 0.0,
+    "max_PSD_defect": 0.0,
+    "unmapped_coordinate_max_density_difference_design": 0.7527800102442666
+  },
+  "controls": {
+    "proper_coordinate_map_is_one_global_phase": true,
+    "full_complex_photon_density_basis_invariant": true,
+    "all_IQUV_basis_invariant": true,
+    "pure_limits_blind_to_relative_multipole_phase_change": true,
+    "unmapped_coordinate_changes_mixed_interference": true,
+    "linear_axis_label_swap_flips_P_preserves_W": true,
+    "all_checked_photon_densities_positive": true,
+    "chosen_lowM_stretched_E2_Efield_positive": true,
+    "chosen_lowM_stretched_M1_Efield_negative": true,
+    "chosen_small_negative_KS747_can_have_positive_local_P": true,
+    "chosen_small_negative_KS813_can_have_negative_local_P": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_mixing_convention_bridge.py": "70a7159edd049fac2d3debbc0b51246a5c65270f8405358bc21020d4c9079cce",
+    "/workspace/wiki/system/scripts/day23_halfspin_singles_response.py": "a6c93f9f32cb1425a5ddf2aeaebc935f346e838dedd322cee98b3fe9811829ec",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "This certifies a declared photon-coordinate/axis mapping, not the historical Pr/Au analysis producer, exact experimental delta convention or actual gated response.",
+    "Efieldparallel/perp and Compton-scatteringparallel/perp refer to different physical axes. Their count-asymmetry bridge needs the same calibrated a/Q and actual selected acceptance, not a sign relabel alone.",
+    "Pure stretched chosen examples are axis controls, not a universal statement that all E orM transitions must have one polarization sign at every spin/angle/population.",
+    "No published central point is fitted and no width/branch/attenuation/efficiency/covariance is estimated. Actual Pr uses different ring groups and upstream796/450 gates.",
+    "The small-delta forward examples show the positiveP branch heuristic is conditional; they do not erase SH26 fixedsigma/I=.2 AD large-root support or prove real likelihood valleys equal.",
+    "No physical g/Q/newdelta/tau/CI/facility rate or beamtime generated. Checkpoint025 is not aDay25card; formalDay23 identity and deadline remain."
+  ]
+}

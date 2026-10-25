@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-25T20:32:14.137349+00:00",
+  "object": "same source013halfspin photonamplitudes/Stokes, explicitKS/RB/nativebasis conventionbridge, no actualPr/Au fit or completePDCO response",
+  "source_premises": [
+    "actualLKH82printed122/PDF4 Eqs2.8–2.11 andfinalemissionrelations:deltaKSgamma1=-deltaRBgamma1,deltaKSgamma2=-deltaRBgamma2,BRmappingdiffersfirst/second",
+    "actualST99printed17/PDF2 Eq1/2Efieldparallel-minus-perp toemissionplane, A=QP, notComptonscattercountaxisidentity; publishedD96Eq4Tprimeerratum intact",
+    "Lv2022actualTable1linepairs747P+.04/delta-.47 and813P-.03/delta-.37, originalnewmeasurement chain notfitted here"
+  ],
+  "phase_identity": "RBamp=D_M1+dRB Q_E2; nativebasisfactor(-1)^L givesnativeamp=-D_M1+dnative Q_E2; dnative=-dRB yieldsglobalminusandidenticalfullphotonρ. No physicaldelta sign change inferred.",
+  "KS_application_assumption": "For forwardillustrationONLY assume quotedLvdelta usesthispreciseKSdefinition. SetdRB=-deltaKS. We do notverifyoriginalanalysisproducer sign/basis fromthisidentityalone.",
+  "axes": "local xprime inbeam-targetγemissionplane andyprimeperp;Stokes P=(Ix-Iy)/(Ix+Iy) matchesST99idealEfield definition. Compton scatteringperp/parallel reverseswhichEfieldcontributes; unknownactualQ/a/finitearray projectionnotfilled.",
+  "declarative_grid": "twoI17/21;deltaKS centres -.47/-.37 fromsourceTable1, plus predeclaredbasiscoordinate probes0,+- .5,+-2; widthdesign.2/.4/.8. Angleslocal90 andnominal154/90pointR. No width inference/χ²/likelihood confidence claims.",
+  "validation": [
+    "fullcomplexhelicityρandIQUV invariant undercorrectnative/RBcoordinate/globalphase transformation acrosshalfspins/angles/populations",
+    "wrongunmappedcoordinate changesmixedinterference whilepurelimitscannotfindsignerror",
+    "stretchedpureE2 lowMgeometryPpositive andM1negativeforchosencontrol, notallunstretchedE/Muniversal",
+    "swappinglinearaxesflipsPbutnotW, andswappingComptonlabelsrequirescalibrationtransform—notphysicalmodechange",
+    "isotropicP0/positiveρ inheritedcontrols source013 actualmatchedoutputs verifiedsamekernel",
+    "conditional747smallnegativeKSgivespositiveP and813smallnegativeKSgivesnegativeP atdeclaredwidths, no universalpositivePbranch rule",
+    "PintheoryandmeasuredA=P*Q samecoordinateonlyifmatchingresponse, Q/a not numericallysupplied"
+  ],
+  "prohibited": [
+    "forwardpointcentralnumericalnearnesscalledactualexperimentreproduced",
+    "nominal154/90orlocal90/equalringweights calledactualPrgeometry",
+    "sourceKS-RBidentityprovesLv/SH26/Mattaactualproducer convention",
+    "conditionalsignsexperimentCI/or two likelihoodvalleysequal",
+    "fitactualsigma/Cov/delta/g/Q/tau/rate/beamtime",
+    "Day25cardorformalDay24credit",
+    "114quarantinedproducers"
+  ]
+}

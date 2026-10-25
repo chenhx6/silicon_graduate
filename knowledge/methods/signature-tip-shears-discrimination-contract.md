@@ -434,3 +434,18 @@ Day24无学分preview的135Nd诊断（[[mukhopadhyay-2007-135nd-chiral-vibration
 Day24无学分preview的实际135Nd例（[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-009/010）提供一项可迁移原则：同parent/sameXL/sameisotope时，WU和共同τ可在B比中消去；但如果B字段与Iγ-Epower本由同一评价链派生，它们相近不能当两次独立验证。缺parent/line/component/normalizer时，消共同单位并没有消掉这些身份条件。
 
 对本卡Pr/Au支持—反证—依赖矩阵，relativeB、δ、分支强度或评价重复引述也须标同源；跨核不能以数值比接近替代共同响应/算符定标。数学相消有效域和实际数据独立性分别检验；保持source条件、空值和needs_review，不造δ/τ/Q/机时或统一hardgate。
+
+## Day23：从约定可比到逐线前向响应的条件边界
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001明确该发射约定下KS=−RB；[[starosta-1999-pdco-experimental-test]] ST99-D23-001明确Efield相对发射平面的P与Compton计数A不是同一个parallel/perp标签。source013的RB basis若改用含(−1)^L的native basis，必须同步d_native=−d_RB；完整amplitude仅差global−，ρ/IQUV不变。300点/11项basis/axis/pure/mixed/positive控制通过；未映射mixed coordinate可改干涉，pure limits却不能发现此错。
+
+现在只在**额外假定Lv的quotedδ采用这里精确KS定义**时，把[[lv-2022-evidence-against-wobbling-135pr]] L22-4的两个中心映为d_RB+.47/+.37。原producer的实际δ/轴约定仍未由本练习核定，未拟任何width或实验点。declaredGaussian target σ/I=.2/.4/.8与nominal154/90 singles及local90 EfieldP给：
+
+| 源线/中心δ | width design | ideal point W154/W90 | ideal local P90 |
+|---|---|---|---|
+| 747.3，quoted−.47→conditionaldRB+.47 | .2 / .4 / .8 | .235097 / .424487 / .759873 | +.033501 / +.013840 / +.002639 |
+| 813.2，quoted−.37→conditionaldRB+.37 | .2 / .4 / .8 | .296696 / .480410 / .788306 | −.023059 / −.024560 / −.012010 |
+
+这说明在所声明响应中small negative KSδ并不要求同一个P号；747 P+.04/δ−.47与813 P−.03/δ−.37须逐线保留，不能把两个偏振号混用。**数值接近也不是复现实验**：实际Pr的Rac使用157.6+133.6与75.5+104.5角组，还包含upstream796/450、有限角/效率/合并权重/feeding/attenuation与jointCov；这些仍缺。局部Efield矩阵已算对只解除一个component/convention问题，不代替全响应、独立多极证据或共同likelihood。
+
+源码`system/scripts/day23_mixing_convention_bridge.py`保source参数角色、extra KS-assumption和null fitted_width/likelihood。没有将模型forward例改成新measuredδ、P/Rac CI或σ/I估计，更不预判两谷等深；SH26固定σ/I=.2的AD大根条件支持照保。Q/a/g/Q(E)/τ、真实rate与机时未填造，新增推断needs_review:true。

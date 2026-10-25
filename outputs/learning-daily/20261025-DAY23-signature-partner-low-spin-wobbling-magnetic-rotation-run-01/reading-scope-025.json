@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-25T20:36:00.259589+00:00",
+  "formal_day_index": 23,
+  "checkpoint025_not_Day25card": true,
+  "only_existing_uncredited_preview": 24,
+  "LKH82": {
+    "actual_target": "printed122/PDF4Eqs2.8–2.11+finalKS/RB/BRrelations",
+    "fresh_visual": 4,
+    "raw_sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "not_full76reread": true
+  },
+  "ST99": {
+    "actual_target": "printed17/PDF2Eqs1/2Efield/axisparagraph",
+    "fresh_visual": 2,
+    "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
+    "not_full11reread": true
+  },
+  "model": "300declaredbasispoints/noactualfit; sourceLvdeltaKSapplicationassumption explicit/notproducerproof",
+  "oldflags_preserved": true,
+  "newclaims_needs_review": true
+}

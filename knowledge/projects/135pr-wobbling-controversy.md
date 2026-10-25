@@ -28,6 +28,8 @@ tags: [135pr, wobbling, controversy, evidence-map, project]
 - Day23固定单j H的ordinal mapping、normalized E2/M1及原多轨道operator边界见[[signature-tip-shears-discrimination-contract]]与ST18-D23-006–012；指定variant能量不闭合不排除原QTR。
 - halfspin singles/upstream gate/azimuth components见RB67-D23-001–004、DR96-D23-001–004及L22-D23-004；实际selectedpair response、feeding、phase与jointCov仍not-ready，未拟合新δ/CI。
 
+- KS/RB与Efield/Compton坐标桥已按LKH82-D23-001/ST99-D23-001核；前向toy不代真实Pr角组/upstream门/联合似然，详下方“符号约定桥不能替代原响应重放”。
+
 ## Research Question
 
 Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Sensharma 2019 的 second side band 是否构成稳健的 two-phonon extension？Lv 2022 的联合 polarization/angular-correlation 反证和 TiP 模型是否改变这些指认的证据强度？
@@ -322,3 +324,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 [[signature-tip-shears-discrimination-contract]]的方位角合同（[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-004、[[droste-1996-pdco-formalism]] DR96-D23-004）进一步限定014：axisymmetric低阶gate设计若按uniform C5/C12合并，可完全消去offdiagonal；C4或非均匀有效weights则可能保留部分。固定θ方位平均仍不等上游完整4π去取向。
 
 本结果没有核定JUROGAM实际φ/efficiency/selected detector-pair权重，不能按24clover自动认为等权，也不能用coplanarpoint的P变化声称Lv漏修正。actualresponse缺口具体为各run/能量/target-gate pair的φ/θ权重或足够低阶acceptance moments、feeding与jointCov。真实P/Rac分支比较仍未重拟，SH26固定sigma条件支持保留。新needs_review:true。
+
+## Day23：符号约定桥不能替代原响应重放
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001与[[starosta-1999-pdco-experimental-test]] ST99-D23-001定向原件将KS/RB发射符号和Efield/Compton轴分清。[[signature-tip-shears-discrimination-contract]]的300点full-photon-basis控制及两个source-bound smallδ前向例只支持可比性合同：两个小模negativeδ可有不同localP号，不提供actualwidth/finitegate/array jointfit。
+
+特别是source013的nominal154/90点与local90不可当本Pr实际157.6/133.6/75.5/104.5组的Rac/P；数值偶近不叫复现。actualproducerδ/轴、rawcounts/eff/feeding/共同Cov仍缺。747+.04/−.47和813−.03/−.37逐线校准、SH26 fixedsigma大根条件支持及未复现jointlikelihood继续保留，无唯一TiP/TW终审或根等深预判。新needs_review:true。

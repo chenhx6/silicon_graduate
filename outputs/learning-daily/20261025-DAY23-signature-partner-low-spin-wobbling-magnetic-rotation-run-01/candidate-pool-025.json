@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-25T20:40:39.988633+00:00",
+  "checkpoint025_not_Day25card": true,
+  "formal_day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue originalwindow/Day23A, no actualfit",
+  "bounded_result": "LKHKS/RB/nativefullphotonbridge300points11controls andlocalEfield/Comptonaxisdefinition, quotedδKSapplicationassumption explicit",
+  "next_actualgeometry_route": "SourceLvactualRacangles157.6/133.6 vs75.5/104.5; formulateconditionalnormalizedpositiveweight groupresponse beforecomparingwithnominal154/90. Source013axisym singles mirrornearanglesequal soinsideidealmodelnearweightscancel, farweightunknown yieldsconvexWratio envelope ifrelativegroupnormalization known. Ifunknownηgroupnormalization it scalesenvelope; noabsoluteactualRacbound.",
+  "possible_bounded_test": "Compare014pointupstreamgate45 daughterdensity atnearmirrorrings; finiteconditionalcoherence maybreaksinglesreflection, notactualbias. Muststateφ0designandsinglefieldvsgate response distinctions; noarrayeff/feeding fit.",
+  "actual_input_boundaries": [
+    "relativegroupnormalizerη/calibration/efficiency knowninrealanalysisnotavailablehere, absencehereisnotfreeparameterunboundedproof",
+    "unknownperpairθ/φ weights afterselectedgates/Compton/liveeff",
+    "originalδproducer convention notautomaticallycertifiedbytheoreticalbridge",
+    "Lvσvariance wording not silently D96std",
+    "SH26fixedsigmaADlarge-rootconditionalsupportretained, no equal-valleyguess"
+  ]
+}

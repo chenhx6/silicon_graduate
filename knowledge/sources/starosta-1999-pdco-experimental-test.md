@@ -3,7 +3,7 @@ type: source
 title: "Starosta et al. 1999 - Experimental test of the polarization direction correlation method"
 aliases: [Starosta 1999 PDCO]
 created: 2026-09-20
-updated: 2026-10-19
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: method-paper-and-application
@@ -121,3 +121,13 @@ Starosta *et al.* provide a practical validation of PDCO for modern CLOVER array
 本轮新设计保存于[[polarimetry-shared-calibration-count-design]]：在matching energy/geometry/gate且同一Q的明确条件下，从六primitive counts和独立P_ref传播P_t=P_ref A_t/A_ref，用另一条件binomial Fisher及新MC核验共同校准cross-Cov；不是原164Yb或NORDBALL数据重分析。无unrounded producer、原始峰/门/Σ时不补实验CI，不能用设计count errors取代Table2–4。
 
 判断`supports`P/A/Q与共享校准分层，`limits`从单clover代理、符号或同参考回代取得独立验证；旧10⁻5指数、D96脚注更正及490双候选均保留，不算本session新科学发现。
+
+## Day23：E-field偏振与Compton散射计数的轴身份
+
+本次定向回读printed17/PDF2 Eq1/2与其解释段、fresh视觉/原SHA883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b核相符；不新称重读11页，旧flags与D96 Eq4勘误边界保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST99-D23-001 | Eq1的P=(W∥−W⊥)/(W∥+W⊥)明确针对电矢量相对发射平面，Eq2为A=QP；散射计数中的Nperp/Nparallel是另一物理方向标签。任务local x′在发射平面、y′垂直时Stokes(Ix′−Iy′)/W可接这个ideal Efield定义，但数值A/P映射仍需实际同选样a/Q/eff/acceptance；不能交换parallel字样就当新观测或替某target校准。 | direct-polarization-axis-and-response-boundary | direct-original-plus-declared-coordinate-map | printed17 Eqs.1–2 and following E-field explanation | true |
+
+符号约定与光子basis桥见[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001。任务purestretched E2/M1的选定low-M/90°例只作轴检查，不证明所有unstretched E/M跃迁在全部角度/取向都有固定偏振号；actualPr与EUROGAM硬件/门/校准不能因角值相近而自动共用。

@@ -455,3 +455,13 @@ Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** li
 | LKH82-D24P-005 | 任务实矩阵R+=((1,2),(3,4))和R−=((1,2),(3,−4))的四个entry模平方相同、Frobenius²均30，但det模平方4/100，singular values不同。loop R11R22R12*R21*在row/column核态rephasing下不变且两例符号相反，故即使完整四B也不必定出全部相干不变量。该例无核素或onebodyEM实现，不给实际环路phase或物理mixing angle。 | declared-phase-information-counterexample | exact-task-matrix-and-unitary-controls | LKH82-D24P-004 premises; task em-block-mixing-022 | true |
 
 本任务17项unitary、fullbasis eigen-amplitude、isospectral-H distinction、exactsign/loop、projector leakage及actualsnapshot missingcell控制通过。[[bark-2024-investigations-nuclear-chirality-ithembalabs]] BK24-D24P-001给多带projector不可默闭合的模型背景；[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-008给实际输入缺口。两个数学R不是赋等可信的竞争核模型；B模中的核态loop phase也不等于同一γ的E2/M1 δ符号。
+
+## Day23：KS/RB的发射符号映射与完整光子矩阵
+
+本次只定向回核printed122/PDF4 Eqs2.8–2.11、末段KS/RB/BR关系，fresh视觉该页，原raw SHA匹配；不新称全文76页重读，旧flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LKH82-D23-001 | 本页定义的发射cascade中δKS(γ1)=−δRB(γ1)、δKS(γ2)=−δRB(γ2)，BR关系才随first/second不同；不能把它裸搬到吸收/其它算符或未知producer。任务将013 RB amplitude D_M1+dRBQ_E2与含(−1)^L基底的−D_M1+dnativeQ_E2按dnative=−dRB映射，二者只差global−，300声明角/布居/halfspin点的full photonρ/IQUV逐项一致；pure limits本身看不出相对sign错。只认证该坐标桥，不认证Lv/SH26/Matta实际分析producer的δ定义。 | original-convention-and-declared-photon-basis-control | direct-original-plus-task-math | printed122 Eqs.2.8–2.11 and final KS/BR/RB sign relations; task model-contract-025 | true |
+
+核态整体phase、multipole operator/初末态约定和光子basis phase分别处理；坐标换号不是测得δ物理改变。原[[starosta-1999-pdco-experimental-test]] ST99-D23-001进一步锁Efield/Compton轴，actual detector/gate/校准与Cov仍要另接，不能以此宣布真实两根等深或任一旧分析被复现。
