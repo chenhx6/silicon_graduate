@@ -577,3 +577,13 @@ Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1�
 | RB67-D23-002 | 同一理想kernel的选定I17/2→15/2、d_RB=.5、Gaussian σ/I=.2、θ154°中，相干W与只按两个pure项加权的差−.519249；d反号使该干涉项反号。另选d_RB−.5、σ/I.2的(Rpoint154/90,P_stokes90)对(d_RB,σ/I) Jacobian determinant−1.397913，step折半差1.4e−8。二者是chosen数学控制，非真实Pr/Au响应或分支CI；局部rank2不证明全局唯一、两谷等深或真实P/Rac选根。 | conditional-interference-and-local-response-check | task-design-numerics | RB67-D23-001; task model-contract-013 and halfspin-singles-response-013 | true |
 
 该响应采用[[droste-1996-pdco-formalism]] DR96-D23-001的明示Gaussian输入；它不等于实际取向分布已经测定，也不替代有限门cascade。源码`system/scripts/day23_halfspin_singles_response.py`只依赖本任务已核CG/角动量基础，不执行隔离的旧Day22 producer或原作者FORTRAN。
+
+## Day23：gamma门条件下的halfspin daughter-density练习
+
+本次定向回读并fresh视觉printed325–326 Eqs3.65–73的布居/γ级联及first/second phase区别，原SHA相符，未新称重读全部42页。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RB67-D23-003 | Eq3.65/66从γ振幅平方/初态权重建立后续态布居；本任务延伸到声明aligned半整数初态的完整ρ：ρdaughter=Σh G_hρ0G_h†，归一后再发target photon，并与直接two-photon contraction互核。选(25/2→21/2 E2)→19/2与(19/2→17/2 M1/E2)→15/2的纯设计输入，full4π用CG通道与24/40节点Wigner积分相符；finitecoplanar门可有coherence，downstream完整trace不改earlier photon。19项控制只是数学实现，未给真实母态/门响应或δ。 | declared-halfspin-cascade-density-extension | source-premise-and-task-numerics | printed325 Eqs.3.65–3.66; printed326 Eqs.3.71–3.73; task halfspin-upstream-gate-014 | true |
+
+源gamma-gate身份与实验缺口见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004；上下游4π区别见[[droste-1996-pdco-formalism]] DR96-D23-003。多极间干涉与sourcefirst/second phase不能用两次独立singles代替，当前只对coplanarphi0或fullazimuth-integrated通道给范围，不认证有向azimuth或原作者PDCO实现。

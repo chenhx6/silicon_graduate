@@ -127,3 +127,13 @@ DR96-6是**作者计算**。Fig7图注的state parities unchanged对应M1/E2曲�
 | DR96-D23-002 | printed523说明singles/完整4π积分PDCO与有限条件PDCO不同：后者即使σ→∞也可非零polarization，最佳polarimeter角不普遍固定90°。本任务halfspin kernel只构singles，名义154/90的point比及local90 Stokes不能直接当实际Pr/Au Rac/P；全角gate字面不等于完整4π或无feeding/效率条件。 | response-transfer-and-conditional-gate-boundary | direct-original-and-task-scope | printed522 detector-integrated discussion; printed523 points5/6 and singles/4π-integrated paragraph | true |
 
 halfspin振幅源与本任务控制见[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002，实验a/Q与散射计数仍须另接实际响应。共同取向参数和校准不能因同名sigma或同一formalism而在两个实验间自动共享。
+
+## Day23：上游4π与下游迹的有界halfspin核验
+
+本次回读并fresh视觉printed521 Eq13–15/U及上下游区别，原hash相符；旧勘误与flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DR96-D23-003 | Eq13–15明确：不观测上游γ1时，γ2母态已有U描述的取向变化；完整4π积分下游γ2才回到先发γ1的singles。任务halfspin两级联通过19项trace-preserving/CGchannel-vs-Wigner积分/正定/直接joint-vs-sequential/futuretrace及1/2→3/2→1/2 M1解析控制，最大两路差≤7.8e−16。以源自Lv的spin/gate身份构造，但布居与d_RB均design，非原数据/原producer认证。 | original-cascade-order-and-declared-component | direct-original-plus-task-check | printed521 Eqs.13–15 and preceding two paragraphs; task model-contract-014 | true |
+
+具体门身份见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004；矩阵元source结构另见[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003。本练习只说明所需响应层次；实际array有方位角/效率合并，不能把一个coplanar pointgate的相干效应直接叫实测偏差。

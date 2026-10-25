@@ -358,3 +358,20 @@ l=1和l=5的22项unitarity、Casimir、j directsum、跨j l+s相消、diagonal�
 Gaussian严格定义为DR96 Eq19的exp[−M²/(2σ²)]，但Lv对sigma的variance文字歧义仍保留，未以本任务习惯认证原producer。对称Mi布居是模型假设，未从计数或所有门选样中反推为已知事实。
 
 **singles≠任意all-detector-gate观测**：实际gated all-angle spectra仍包含有限acceptance/效率/门级联与feeding条件；完整4π积分的数学边缘不同。实际比较仍需每条线的gate、角环固体角/效率/合并权重、散射几何与a/Q、deorientation、相位/状态顺序和联合Cov。两个实验不能只凭同名P/Rac或sigma/I就共用响应；当前未用新kernel给Pr/Au拟合、报physicalδ/CI、改SH26固定σ/I条件支持或预判两谷等深。新needs_review:true。
+
+## Day23：Pr上游门与母态取向的独立输入
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004绑定实际顺序：796.4 E2的25/2→21/2先于813.2的21/2→19/2，450.2的19/2→17/2先于747.3的17/2→15/2。因此两条偏振选门均在上游，不能把积分**下游**光子恢复先发γ边缘的恒等式，倒用于认为目标母态已独立Gaussian取向。源公式边界来自[[droste-1996-pdco-formalism]] DR96-D23-003和[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003。
+
+本任务`system/scripts/day23_halfspin_upstream_gate.py`将ρdaughter=Σh G_hρ0G_h†（保未归一的gate yield）再接target振幅，和直接two-photon contraction独立收缩互核。上游4π通道另用CG的photon磁子态求和，交叉multipole积分消去；axisymmetric初态的Wigner角积分24/40节点给同一结果。对后续γ完整trace保先发photon密度、isotropic limit、positive/归一、halfspin M1/M1解析式等共19控制通过，最大joint/两路差≤7.8e−16。它们不认证实际Pr的条件响应。
+
+以下**只是design**：初态Gaussian输入σ/I=.2；target d_RB=−.5，450-shaped门也只取d_RB−.5的设计probe，未把已发表δ−.31映射到RB。796 gate的E2类别取原表，其余初态/响应没有从数据估计。
+
+| 设计序列 | 上游完整4π后的target局部P90 | 独立重设target Gaussian .2的P90 | 共面point门90°条件P90 |
+|---|---|---|---|
+| 25/2→21/2 E2，再21/2→19/2 mixed | −.813104 | −.833536 | −.882194 |
+| 19/2→17/2 mixed，再17/2→15/2 mixed | −.815883 | −.843860 | −.902633 |
+
+第一例4π后daughter rms/I=.218217，第二例.225081，都不是简单重新设置的.2。对于90°共面point门，若把daughter非对角元人为删掉，P90分别变成−.812605/−.819218；这说明coherence在这种设计中可影响target响应，**不是测得偏差或原分析漏项**。actualall-detector gate的方位角合并可能消去这些offdiagonal项，必须带实际acceptance/效率/weights再核，不能用pointgate效果替阵列估误差。
+
+“谱峰clean”与“条件密度响应正确”是不同检验；本练习不质疑原污染排除，也未认定原作者没处理取向。两实验要比较同一逐线观测向量，仍需initial/feeding密度或可追溯的nuisance模型、gate次序/placement、角环φ/θ及效率合并、散射响应a/Q、sidefeeding/去取向与jointCov。没有这些输入就保持original-response not-ready，不拟新的Prδ/CI或恢复根等深认证。新needs_review:true。

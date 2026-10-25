@@ -1,0 +1,53 @@
+{
+  "observed_at": "2026-10-25T17:35:06.784294+00:00",
+  "source_premises": [
+    "LvSI PDF3Figs3/4/PDF4 gate selection/PDF5 Table1:796.4 25/2->21/2 E2 precedes813.2 21/2->19/2;450.2 19/2->17/2 precedes747.3 17/2->15/2",
+    "RB67 printed325 Eqs3.65/66 gamma-conditioned substate population,326Eqs3.71-73 including first/second interference distinction",
+    "DR96 printed521 Eqs13-15 upstream4pi changesdaughter orientation vs downstream trace returning firstsingles"
+  ],
+  "object": "two gamma cascade with halfinteger spins, diagonal aligned initialdensity, complete Mf trace; point coplanar upstream gate at phi0 compared with unconditional4pi gate, no detectors/response fitting",
+  "amplitude": "same explicit RBcoordinate/h^pi/CG/d source013; gatepureE2 for796 mathematical branch; gate M1/E2 d_RB=-.5 for450-shaped spinsequence only declared design not measured450delta; target d_RB=-.5 design only",
+  "design_cases": [
+    {
+      "spins_twice": [
+        25,
+        21,
+        19
+      ],
+      "upstream_gate": "pureE2",
+      "source_sequence": "796->813",
+      "source_parameters_not_used": "noactualparentpopulation/efficiency/ratefit"
+    },
+    {
+      "spins_twice": [
+        19,
+        17,
+        15
+      ],
+      "upstream_gate": "M1/E2 d_RB=-.5 design",
+      "source_sequence": "450->747"
+    }
+  ],
+  "initial_population": "declared DR96Gaussianinput sigma/I=.2 (andisotropiccontrol), no assertion actualsourceconditionalpopulation matches",
+  "finite_gate": "pointtheta0,45,90,135,180, coplanarphi0, ideal direction unpolarized helicitysum. Not finitearray response. rho_d_un=Σh G_h rho0 G_h†; normalize by trace only for conditional outputs.",
+  "fourpi_channel": "ΣL |aL|²/S Σmu C_Lmu rho0 C_Lmu†; C=CG(Ifmf,Lmu|IiMi), sumoverwhole4pi removescrossmultipoleinterference; nochosenazimuth convention required. Alternative quadrature: foraxisymrho, dephase diagonal ofpointgate0 then integratecostheta,24/40nodes.",
+  "validation": [
+    "completeangularCGchanneltracepreserving and isotropic->isotropic",
+    "positive Hermitian daughter matrix and targetphoton density",
+    "4pi exact CGchannel vs independent Wignerdθ quadrature24/40 and analyticazimuthdephase",
+    "finitegateconditional firsttargetjoint equal directcascade contraction",
+    "1/2->3/2->1/2 pureM1/M1 analytic W=1+.25P2, not physicalsource",
+    "fullfuturegamma trace leaves earlierphoton marginal unchanged",
+    "finitecoplanargate cancreateoffdiagonal coherence; effectofdephasing onlylabelleddesign",
+    "compareconditionaltargetdistributionwithindependenttargetGaussian onlyasdistinctdeclaredmodel,notactualbias",
+    "normalizefourgamma allangle probability separately; do not confuseconditionalwithjointweights"
+  ],
+  "limitations": [
+    "actual finitegate acceptance/efficiency/weights missing",
+    "actual feeding initialdensity/sidefeeding/deorientation extrafields unknown",
+    "no originalPr/Au delta/P-Rac fit",
+    "localphase/d_RB experimentalmappingnotcertified",
+    "noactualrate/CI/Q/tau/beamtime",
+    "SH26fixedsigma support andsinglej/multijboundariespreserved"
+  ]
+}

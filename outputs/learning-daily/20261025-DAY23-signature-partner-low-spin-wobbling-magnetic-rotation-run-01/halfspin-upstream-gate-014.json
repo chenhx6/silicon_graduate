@@ -1,0 +1,274 @@
+{
+  "status": "conditional-halfspin-upstream-gate-component",
+  "scope": "Declared cascade design with source spin/gate identities only, no original experimental response refit.",
+  "source_premises": [
+    "L22-14 and SI Table1: upstream796/450 gate identities",
+    "RB67 printed325 Eqs3.65/66 and326Eqs3.71-73",
+    "DR96 printed521Eqs13-15"
+  ],
+  "convention": "source013 RB interaction coordinates, coplanarphi0; full-azimuth integration handled as a diagonal-density channel, no directed-azimuth convention claim",
+  "results": [
+    {
+      "case": "796_to_813_spins_only",
+      "spins_twice": [
+        25,
+        21,
+        19
+      ],
+      "gate_kind": "E2",
+      "gate_d_RB_design": 0.0,
+      "initial_Gaussian_input_sigma_over_I": 0.2,
+      "target_d_RB_design": -0.5,
+      "fourpi_upstream_daughter": {
+        "actual_rms_M_over_I": 0.21821745749074775,
+        "point_W154_over_W90": 1.7398204831536157,
+        "local_P_stokes90": -0.8131037464225638,
+        "normalized_daughter_trace": 1.0
+      },
+      "independently_reset_target_Gaussian_is_another_model": {
+        "point_W154_over_W90": 1.7603844154137476,
+        "local_P_stokes90": -0.8335364218279513,
+        "normalized_daughter_trace": 0.9999999999999999
+      },
+      "point_coplanar_gates": [
+        {
+          "theta_gate_deg": 0.0,
+          "relative_gate_directional_yield": 1.2497944434123422,
+          "daughter_offdiagonal_Frobenius_norm": 1.9912650081485385e-16,
+          "target_conditional": {
+            "point_W154_over_W90": 1.739853475254202,
+            "local_P_stokes90": -0.8131383397111045,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7398534752542025,
+            "local_P_stokes90": -0.8131383397111047,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "theta_gate_deg": 45.0,
+          "relative_gate_directional_yield": 1.1328961467994605,
+          "daughter_offdiagonal_Frobenius_norm": 0.03158471050932357,
+          "target_conditional": {
+            "point_W154_over_W90": 1.6617256503644207,
+            "local_P_stokes90": -0.8283592457406473,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7400712455487983,
+            "local_P_stokes90": -0.8133568362216346,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "theta_gate_deg": 90.0,
+          "relative_gate_directional_yield": 0.781172730365327,
+          "daughter_offdiagonal_Frobenius_norm": 0.18412309878909305,
+          "target_conditional": {
+            "point_W154_over_W90": 1.3779740147906705,
+            "local_P_stokes90": -0.8821938319741607,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.739326884429751,
+            "local_P_stokes90": -0.8126052211952423,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "theta_gate_deg": 135.0,
+          "relative_gate_directional_yield": 1.13289614679946,
+          "daughter_offdiagonal_Frobenius_norm": 0.031584710509323724,
+          "target_conditional": {
+            "point_W154_over_W90": 1.661436301495558,
+            "local_P_stokes90": -0.8283592457406477,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7400712455487977,
+            "local_P_stokes90": -0.8133568362216347,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "theta_gate_deg": 180.0,
+          "relative_gate_directional_yield": 1.2497944434123422,
+          "daughter_offdiagonal_Frobenius_norm": 1.9912759577253073e-16,
+          "target_conditional": {
+            "point_W154_over_W90": 1.739853475254202,
+            "local_P_stokes90": -0.8131383397111047,
+            "normalized_daughter_trace": 0.9999999999999998
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7398534752542023,
+            "local_P_stokes90": -0.8131383397111047,
+            "normalized_daughter_trace": 0.9999999999999998
+          }
+        }
+      ]
+    },
+    {
+      "case": "450_to_747_spins_only",
+      "spins_twice": [
+        19,
+        17,
+        15
+      ],
+      "gate_kind": "M1/E2",
+      "gate_d_RB_design": -0.5,
+      "initial_Gaussian_input_sigma_over_I": 0.2,
+      "target_d_RB_design": -0.5,
+      "fourpi_upstream_daughter": {
+        "actual_rms_M_over_I": 0.22508059360443267,
+        "point_W154_over_W90": 1.7398908936047566,
+        "local_P_stokes90": -0.8158827948736251,
+        "normalized_daughter_trace": 0.9999999999999999
+      },
+      "independently_reset_target_Gaussian_is_another_model": {
+        "point_W154_over_W90": 1.768129625870748,
+        "local_P_stokes90": -0.8438595765210574,
+        "normalized_daughter_trace": 0.9999999999999998
+      },
+      "point_coplanar_gates": [
+        {
+          "theta_gate_deg": 0.0,
+          "relative_gate_directional_yield": 1.5754280899418638,
+          "daughter_offdiagonal_Frobenius_norm": 1.3534700139872586e-16,
+          "target_conditional": {
+            "point_W154_over_W90": 1.7365912778472414,
+            "local_P_stokes90": -0.8126343580694648,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7365912778472412,
+            "local_P_stokes90": -0.8126343580694648,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "theta_gate_deg": 45.0,
+          "relative_gate_directional_yield": 1.0949421585808217,
+          "daughter_offdiagonal_Frobenius_norm": 0.11938577583428392,
+          "target_conditional": {
+            "point_W154_over_W90": 1.4629112726234665,
+            "local_P_stokes90": -0.8614904596421019,
+            "normalized_daughter_trace": 0.9999999999999998
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7386860085723024,
+            "local_P_stokes90": -0.8146928225496937,
+            "normalized_daughter_trace": 0.9999999999999998
+          }
+        },
+        {
+          "theta_gate_deg": 90.0,
+          "relative_gate_directional_yield": 0.7775057735685942,
+          "daughter_offdiagonal_Frobenius_norm": 0.24517635270535587,
+          "target_conditional": {
+            "point_W154_over_W90": 1.296934371217629,
+            "local_P_stokes90": -0.9026329721118136,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7432717097090078,
+            "local_P_stokes90": -0.8192182697716135,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "theta_gate_deg": 135.0,
+          "relative_gate_directional_yield": 1.0949421585808206,
+          "daughter_offdiagonal_Frobenius_norm": 0.11938577583428427,
+          "target_conditional": {
+            "point_W154_over_W90": 1.5293838536249573,
+            "local_P_stokes90": -0.861490459642102,
+            "normalized_daughter_trace": 1.0000000000000002
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7386860085723028,
+            "local_P_stokes90": -0.8146928225496937,
+            "normalized_daughter_trace": 1.0000000000000002
+          }
+        },
+        {
+          "theta_gate_deg": 180.0,
+          "relative_gate_directional_yield": 1.5754280899418633,
+          "daughter_offdiagonal_Frobenius_norm": 1.4602901065350113e-16,
+          "target_conditional": {
+            "point_W154_over_W90": 1.7365912778472414,
+            "local_P_stokes90": -0.8126343580694648,
+            "normalized_daughter_trace": 1.0
+          },
+          "target_after_discarding_coherence_is_another_model": {
+            "point_W154_over_W90": 1.7365912778472412,
+            "local_P_stokes90": -0.8126343580694648,
+            "normalized_daughter_trace": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "796_to_813_spins_only_fourpi_channel_trace_preserving": true,
+    "796_to_813_spins_only_fourpi_CG_vs_Wigner_integral": true,
+    "796_to_813_spins_only_quadrature_node_convergence": true,
+    "796_to_813_spins_only_isotropic_channel_limit": true,
+    "796_to_813_spins_only_normalized_positive_daughter": true,
+    "796_to_813_spins_only_direct_joint_equals_sequential_density": true,
+    "796_to_813_spins_only_finite_coplanar_gate_creates_coherence": true,
+    "796_to_813_spins_only_discarded_coherence_can_change_target_P": true,
+    "796_to_813_spins_only_future_fourpi_trace_preserves_earlier_photon": true,
+    "450_to_747_spins_only_fourpi_channel_trace_preserving": true,
+    "450_to_747_spins_only_fourpi_CG_vs_Wigner_integral": true,
+    "450_to_747_spins_only_quadrature_node_convergence": true,
+    "450_to_747_spins_only_isotropic_channel_limit": true,
+    "450_to_747_spins_only_normalized_positive_daughter": true,
+    "450_to_747_spins_only_direct_joint_equals_sequential_density": true,
+    "450_to_747_spins_only_finite_coplanar_gate_creates_coherence": true,
+    "450_to_747_spins_only_discarded_coherence_can_change_target_P": true,
+    "450_to_747_spins_only_future_fourpi_trace_preserves_earlier_photon": true,
+    "halfspin_onehalf_threehalf_onehalf_M1_cascade_analytic": true
+  },
+  "control_details": {
+    "796_to_813_spins_only": {
+      "channel_effect_identity_error": 3.3306690738754696e-16,
+      "CG_quadrature_error": 5.551115123125783e-17,
+      "quadrature_24_40_error": 1.3877787807814457e-16,
+      "isotropic_channel_error": 1.3877787807814457e-17,
+      "min_daughter_eigenvalue": 0.0,
+      "max_trace_error": 2.220446049250313e-16,
+      "direct_joint_vs_sequential_error": 3.3306690738754696e-16,
+      "max_coherence": 0.18412309878909305,
+      "max_dephasing_P_shift_design": 0.06958861077891842,
+      "future_trace_error": 1.1102230246251565e-16
+    },
+    "450_to_747_spins_only": {
+      "channel_effect_identity_error": 3.3306690738754696e-16,
+      "CG_quadrature_error": 3.608224830031759e-16,
+      "quadrature_24_40_error": 2.498001805406602e-16,
+      "isotropic_channel_error": 2.0816681711721685e-17,
+      "min_daughter_eigenvalue": 0.0,
+      "max_trace_error": 2.220446049250313e-16,
+      "direct_joint_vs_sequential_error": 7.771561172376096e-16,
+      "max_coherence": 0.24517635270535587,
+      "max_dephasing_P_shift_design": 0.0834147023402001,
+      "future_trace_error": 3.3306690738754696e-16
+    },
+    "halfspin_M1_M1_analytic_error": 5.551115123125783e-16
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_halfspin_upstream_gate.py": "f74b7451e1453c1fc63f94b9364d0583acb7883fb418f6e678d51ed8d2b76342",
+    "/workspace/wiki/system/scripts/day23_halfspin_singles_response.py": "a6c93f9f32cb1425a5ddf2aeaebc935f346e838dedd322cee98b3fe9811829ec",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "The selected initial sigma/I and target/gate d_RB are mathematical design inputs, not measured Lv feeding or delta values.",
+    "Only the upstream796 pureE2 identity is source given;450-shaped gate d_RB=-.5 is a declared probe, not the published -.31 mapped to RB.",
+    "A point coplanar directional gate is not the actual all-detector array. Azimuth-averaged ring results/weights are not silently substituted.",
+    "Finite gate effects can exist mathematically; their actual size or residual correction in the published analysis is not inferred.",
+    "Source-clean spectra and detector/gating conditional-density response are separate issues; no contamination or experimental error is established here.",
+    "No physical P/Rac fit, delta/Q/a/tau/CI/count rate or beamtime generated. Published conditional SH26 support and unresolved joint likelihood remain."
+  ]
+}

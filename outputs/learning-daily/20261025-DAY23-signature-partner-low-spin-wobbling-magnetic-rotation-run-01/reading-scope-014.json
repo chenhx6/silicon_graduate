@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-10-25T17:39:22.531800+00:00",
+  "scope": "targeted actual gate identity and quantum cascade formulas, no full source rereads",
+  "Lv": {
+    "read": "SI3Figs3/4,SI4gateparagraph,SI5Table1endpoints",
+    "fresh_visual": "tmp/day23-originals/lv-si-p3-014.png",
+    "hash_matches": true,
+    "sha256": "c25cf17ce10efb2d62fc27a665082df7bffeb30f0044726b2730754b035bf225"
+  },
+  "RB67": {
+    "read": "printed325–326Eqs3.65–73 gamma preparation and first-secondphase",
+    "fresh_visual": [
+      "PDF20",
+      "PDF21"
+    ],
+    "hash_matches": true,
+    "sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
+  },
+  "DR96": {
+    "read": "printed521Eqs13–15/U and upstream/downstream4pi",
+    "fresh_visual": "PDF4",
+    "hash_matches": true,
+    "sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247"
+  },
+  "inputs_not_measured": [
+    "initialGaussianwidth",
+    "targetd_RB",
+    "450gated_RB",
+    "pointcoplanargate"
+  ],
+  "scope_limits": "no actualarray weight/feeding fit or error/contamination assertion",
+  "review": "newneeds_reviewtrue, originalflagsunchanged"
+}

@@ -243,3 +243,13 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 | L22-D23-003 | 主文称标准QTR对bands1/3/4能量符合较好，但bands2/5偏高且高spin更明显；作者提出1qp/3qp相互作用或所有bands共用MoI等可能因素。这些是模型适用限制与可能解释，不是已测混合矩阵元，也不允许本任务用任意off-diagonal项为固定009最低两态补齐44keV。 | author-model-limitation-and-candidate-explanations | direct-original | main PDF5 paragraph beginning Five rotational bands | true |
 
 [[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004和[[signature-tip-shears-discrimination-contract]]给出单j与完整l/s算符的迁移合同，不把当前ST18单jvariant的gap失败扩大成对本QTR的数值排除。没有依据standard一词补造κ/μ/Δ或原producer。
+
+## Day23：逐线门的上游身份
+
+本次回读SI PDF3 Figs3–5、PDF4门选择段与PDF5 Table1端点，fresh视觉PDF3、原SI SHA相符。原L22-14等人审claims保持，新条目needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D23-004 | 747偏振用450门，813偏振用796门。与SI Table1端点合读，796.4为25/2−→21/2− E2，先于813.2的21/2−→19/2−；450.2的19/2−→17/2−先于747.3的17/2−→15/2−。二者是上游门；不能把“对后续光子作4π迹而恢复先发光子singles”的恒等式反过来认证目标母态取向已知。当前只是source身份与响应readiness，不证明作者忽略该效应、原P/δ有错或污染存在。 | line-bound-upstream-gate-and-response-boundary | direct-original-plus-cascade-order-inference | SI PDF3 Figs.3–4; SI PDF4 gate-selection paragraphs; SI PDF5 Table1 rows450.2/747.3/796.4/813.2 | true |
+
+上游门的量子响应练习见[[signature-tip-shears-discrimination-contract]]，前提为[[droste-1996-pdco-formalism]] DR96-D23-003与[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003；它未拟合本实验实际角环/权重或计数，不能代替原条件响应核。

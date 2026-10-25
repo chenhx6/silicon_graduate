@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T17:41:13.059105+00:00",
+  "decision": "continue current A, no local-saturation closeout",
+  "A": {
+    "completed": "upstream796/450 lineidentity plus halfspin daughterdensity/4pi trace controls, only design",
+    "next": "azimuthal merging: idealuniform Cn ring can erase lowrankoffdiagonal coherence, while unequal angle weights retain Fourier harmonics. Prove max gateharmonics from L<=2, show Cn sufficient n>4 and compare originalpoint design; do not assume actualarray satisfies. Then actualangle/live/efficiency/source runledger inventory if informative."
+  },
+  "B": "fixed modelenergy/multiorbitoperator/sourcecalibration boundaries still open; originalproducer/actualEM matrix unavailable",
+  "missing": [
+    "perdetector phi/theta and gammaenergy gate/efficiency/live weighting",
+    "full originalnetcounts/background/jointcovariance",
+    "actualfeeding density and state/phase conventions",
+    "independenttau/operatorcalibration"
+  ],
+  "Day24": {
+    "opened": false,
+    "preview": "only one uncredited after usefulcurrentroutes saturate; noDay25"
+  }
+}

@@ -308,3 +308,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 [[signature-tip-shears-discrimination-contract]]建立halfspin singles RB振幅组件，完整Mi/Mf、混合干涉与偏振密度均受控制；前提为[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002和[[droste-1996-pdco-formalism]] DR96-D23-001/002。这解除“仅integer kernel可用”的组件缺口，尚未解除实际Pr角环157.6/133.6与75.5/104.5的效率/acceptance/门权重、feeding/取向及δ坐标映射缺口。
 
 本kernel的Gaussian是明确std输入，不能据此改写L22-18的variance措辞为已核；nominal154/90只是另一个idealpoint设计，不代Pr实际Rac。未拟合747/813或宣布两根等深，原SH26固定σ/I=.2大根条件支持继续保留。新综合needs_review:true。
+
+## Day23：813与747的上游选门响应
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004核实际796→813及450→747门顺序。[[signature-tip-shears-discrimination-contract]]的新halfspin级联练习与[[droste-1996-pdco-formalism]] DR96-D23-003、[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003，把上游4π去取向、finite方向门条件密度和下游trace分开。两条观测用不同upstream multipoles/gates，不能只因同阵列便共享未经证实的目标母态布居。
+
+19项数学控制通过，纯设计点门可有非对角相干；全array方位角合并可能消去，实际效应大小仍需weights/acceptance/feeding和sourceproducer，不能写成原Lv偏差或污染。既有P/Rac、SH26条件AD偏好和两实验分支冲突保持；未重拟原δ/似然，新needs_review:true。

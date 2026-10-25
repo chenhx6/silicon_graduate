@@ -3,15 +3,15 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint013（持续研究）
+## Active handoff — Day23 checkpoint014（持续研究）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。原credit/raw/PLAN/Bib/flags与114隔离producer边界保持。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。raw/PLAN/Bib/旧flags/credit及114隔离producer边界保持。
 
-013从RB67实际Eq3.24/WE/linear与D96Eq19，先合同后halfMi/Mf完整singles kernel（newday23_halfspin_singles_response.py），d_RBinteractioncoordinate/线分析轴/std明确，不默当发表δ/P/Rac。14controls过（3/2解析、I1/2、isotropic、positive、角norm、dual、rank、干涉、局部Jacobian）；maxerr2.3e-15、highmoment5e-14，chosen干涉W差−.519249。仅理想局部rank2非global/真实fit，Gaussian输入width不等离散rms（I17/2输入.8实际.5423），Lvvariance歧义保留。
+014实际L22SI核796→813与450→747均UPSTREAM（L22-D23-004），RB67p325–326、DR96p521原件/visual/hash核。新halfspin upstream script先合同，19checks过：daughterdensity vs directjoint、4piCG vs24/40Wigner积分、norm/positive/isotropic/futuretrace及halfspin解析。maxerr7.8e-16。布居/targetd_RB−.5与450gated_RB均DESIGN，非actualfeeding/δ；only796E2身份取source。
 
-新增RB67-D23-001/002、DR96-D23-001/002；fresh checks0，true22changed知识writebackvalid，0error/220warning。下一A：Lv813的796 E2和747的450 mixed gates均UPSTREAM；回SI身份/新contract，fullhalfspin gate-conditioned daughterdensity/4pi deorientation与target photontrace，不用singleparentGaussian或pointgate冒称actualresponse。finiteangle/eff/weights/feeding/phase/Cov仍缺，SH26固定σ/I支持不抹，根不预判。
+上游4pi有deorientation，重设targetGaussian不同；pointcoplanargate会有coherence，但不能当actualarraybias或作者漏项/污染。下游trace保earlierphoton的恒等式不倒用于upstream。fresh checks0、true22changed页writebackvalid、lint0error/220warning，新needs_review保SH26条件支持与energy/phase/Cov边界。
 
-原15:00前继续，有当前有用路线；009/010energygap/526上跃、011scale、012多j边界保持。详model-contract013/candidate-pool013/next-continuation013。Git指针main · Day23: establish half-spin singles response component；actualhash/H3仅task-publication-receipt-013.json。
+下一A：核ideal azimuthring twirl/acceptance低rank Fourier moments，避免照搬pointcoherence。先contract，gateL<=2+axisymρ给|ΔMf|<=4；uniform Cn>4足够消offdiag，但实际detectorφ/live/efficiency未恢复不假定equalweights。详candidate-pool014/model-contract014/next-continuation014；还有13h+窗口，继续未收束。Git指针main · Day23: track upstream gates through half-spin cascades；actualH3/hash仅task-publication-receipt-014.json。
 
 ## Previous handoff — Day22 closeout
 
