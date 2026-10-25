@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T22:43:55.554908+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "36维h/f角块/九控制：directM1cross-l0、E2角块允许，未知radial/BCS/相干核幅不补",
+  "next_route": "当前Au A4的取向无关条件界：先核rank4仅E2及正density可行域，区分源处理阶段，不作实测δ/排除",
+  "missing_inputs": [
+    "actual radial/BCS/coherent/rotor QTR matrices",
+    "binding actual A4 freefit vs correctedtable tophysicalresponse",
+    "finitearray/gate/efficiency and jointcovariance/sourceproducer"
+  ],
+  "Day25_opened": false
+}

@@ -149,3 +149,13 @@ Page and all H02 claims remain unreviewed with `needs_review: true`. Human revie
 | H02-D23-004 | 由Eq9的完整l/s磁算符出发，本任务在固定l、s=1/2的j=l±1/2完整角空间作CG变换。总j=l+s在两不可约j之间无矩阵元，但l、s各自非零且相反，因此跨j磁矩正比(gs−gl)s，而非某个常数(gj−gR)j；同一j block中才有s=±j/(2l+1)。l1/l5两域22项角代数控制通过；l5的B_s(11/2→9/2)=5/11、反向6/11，均为ℏ=1的纯角分量，不是实际核态、physical B(M1)或新观测。 | declared-exact-angular-operator-boundary | task-derivation-from-source-full-operator | PDF2 Eq.9; task model-contract-012 and multij-m1-operator-012 | true |
 
 该结果界定单j因子化可迁移的条件；不会因为某个QTR包含多个Nilsson轨道，就自动证明其actual matrix element不能近似单j。完整模型还须轨道振幅、相位、占据/配对与effective operator，不能用本代数练习代替。
+
+## Day23：不同l的h/f角块与M1/E2迁移条件
+
+本节沿H02-D23-003的完整l/s算符作声明角空间推导，非本文新模型/全文重读。[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012实际QTR的h9/2/f7/2成分是应用动机，未据图补相干幅/径向量。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| H02-D23-005 | 在完整l3⊕l5、s1/2角空间，l与s保l，故bare h9/2↔f7/2的直接M1角块为0；各j内gj分别gl−(gs−gl)/11与gl+(gs−gl)/7。dimensionless C2q=√(4π/5)Y2q允许Δl2，其h9/2→f7/2角强度均值约.017316、反向.021645，尚须未知r²径向积分/effectivecharge及rotor/BCS波函数才能成physicalB。不同裸j叠加不自行构成好totalI核态；直接h/f M1为0不等混合核带M1=0。 | declared-angular-block-and-operator-boundary | task-derivation-from-source-operator | PDF2 Eq9; task input-contract038 and declared C2 angular integral | true |
+
+36维完整CG基变换与Gaunt-CG/球面积分、Landé、tensorHermiticity、detailedbalance等九控制过：Gaunt两路差≤1.7e−14、quadrature增阶差≤3e−14。这里的0是明示单体算符的代数零，不是实测未见/upperlimit；E2非零也只为角因子，不认证本核真实跃迁大小。[[signature-tip-shears-discrimination-contract]]承接不同l与旧同l双j组件的区别，所有新条目needs_review:true。

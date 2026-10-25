@@ -365,3 +365,9 @@ kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] 
 [[guo-2022-low-spin-wobbling-187au]] PT18-D23-001/002补2018HI评价所引用2017Mu12的实际端点，GU22-D23-019/020补2022Guo XUNDL的来源和一处自旋差：简表1636=8+，原Guo绿色图与评价为6+。原snapshot保留，不能据编译失配否决原核态或填高多极性。
 
 四线Pt265.6/405.1/414.4/550.9中414.4是跨4+态的ΔI0，不能把该向量与Au SP四ΔI2线仅按能量一一等同；退激路径和同门伙伴须整体比较。2018评价不代2017全文，XUNDL不独立于Guo新实验。[[signature-tip-shears-discrimination-contract]]的同门/netpeak/response/时间与eventledger缺口保持；newneeds_review:true，无最终Au/Pt或LW/SP裁决。
+
+## Day23：配置重指派的h/f算符输入缺口更具体
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-021及[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-005给不同l角块检查：裸h/f直接M1零而E2允许、两j的磁投影不同。[[signature-tip-shears-discrimination-contract]]明确这只限制common-scale迁移，混合核带仍可有M1；actualradial/BCS/相干幅与rotor耦合缺失，未预测原QTR物理δ/B。
+
+B槽下一检验仍须保持实测核素/计数/能级不变，固定完整operator后比较组态映射的未定标量；角代数可写不代表两归属等可信。新needs_review:true，所有实际Pr/Au分支及其它核支持校准保持。

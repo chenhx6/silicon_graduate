@@ -312,3 +312,11 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 | GU22-D23-020 | XUNDL5的L1636字面Jπ=8+、G551，而本源主文Fig2(a)绿色顶态实际6+，2018HI的L1636.12也是6+。本次fresh原PDF2图核与SHA相符；这是一处明确编译/源图版本失配，保持原snapshot并needs_review，不擅改raw或由8+→4+制造新的E4推断。XUNDL整数能量的约1keV闭合差也不认证新能量错误或同事件。 | source-figure-versus-compiled-spin-discrepancy | actual-source-visual-and-official-record-comparison | mainPDF2 Fig2(a) greenPt top6+; 188078009 L1636/G551; 188078004 L1636.12/G550.9 | true |
 
 三原response SHA：adopted f89dc018e7dd6683477ecb7d2cdb95aefcd7651fb7759b73ec0ece3fd8705d2c；HI c12ecc1b74df6c7be62423c53ab3dcc11034433e4303dccae2022d4eaac6df10；XUNDL5 0e872908ba5de28dd88694265ee216e6c8e3f87ea61782810295fdaae439e77b。`system/scripts/day23_pt188_official_identity.py`十一项hash/提取/目标/空值/版本控制通过，只核字段合同。2017primary及PublisherNote正文仍未得，不能以官方评价已引用它就宣称原全文已读。[[signature-tip-shears-discrimination-contract]]和[[187au-longitudinal-wobbling-controversy]]保同门响应/归属仍未闭合；新needs_review:true，旧G22人审范围不改。
+
+## Day23：h/f内容的具体算符边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-021 | 沿本页GU22-D23-012实际#21/#22的h9/2/f7/2来源，任务补不同l角算符组件：标准l/s M1保l，bare h/f直接块0，而r²C2有允许的h/f角块；各l,j对角磁投影不同。它解释为何不能仅凭dominant h9/2把完整QTR的M1/E2共同因子/径向量全部消去，但未计算作者实际矩阵元、混合核态B/δ或证明偏差显著。 | source-motivated-conditional-operator-transfer | actual-model-space-plus-declared-task-algebra | SI PDF4 Table1/PDF5Fig3; H02-D23-005; task input-contract038 | true |
+
+源模型内容来自原件既有定向核查，本轮只复用该输入、非新全文阅读。完整推导回链[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-003/005；[[signature-tip-shears-discrimination-contract]]把不同l的径向/相干/BCS条件具体化，不补physicalg/Q/δ或核态。新增needs_review:true，原G22审核保持。

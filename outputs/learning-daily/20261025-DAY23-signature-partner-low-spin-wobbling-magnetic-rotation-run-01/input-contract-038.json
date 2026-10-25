@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-25T22:37:40.586307+00:00",
+  "scope": "angular-only M1/E2 operator blocks for source Guo #21/#22 h9/2-f7/2 content, no original nuclear QTR producer/response or actual amplitudes",
+  "source": "GU22-D23-012 actualSI Table1/Fig3; H02-D23-003 full l/s operator",
+  "basis": "complete l=3 andl=5 uncoupled|l ml,1/2 ms>, transform bothjpartners byCG, select h9/2 andf7/2 blocks onlyfornormalizedangularcomparisons. Neverassertsuperpositionofbare differentj isgoodtotalnuclearI.",
+  "M1": "l ands blockdiagonal inl; j=l+s; diagonal selected gjh=gl-(gs-gl)/11,gjf=gl+(gs-gl)/7; no numericalgl/gs or gR",
+  "E2": "dimensionless C2q=sqrt(4pi/5)Y2q angular only, independent radialR_lprime_l ofr² unknown; use GauntCG sqrt((2l+1)/(2lprime+1))*CG(l0,20|lprime0)*CG(lm,2q|lprime,mprime), spinunchanged",
+  "controls": [
+    "fullCGunitarity eachl",
+    "M1cross-lzero via explicituncoupledbasis",
+    "same-lLandéprojection",
+    "C2tensorHermiticity",
+    "Gauntformula versus independent spherequadrature",
+    "sumqspinormatrixforwardreverse detailedbalance",
+    "lparity/triangle restrictions",
+    "no radial/charge/BCS/ampinvented"
+  ],
+  "prohibited": [
+    "actualnuclearBM1/B E2/g/delta fromangularblocks",
+    "M1cross-lzero meansmixedbandM1zero",
+    "phasefractionsreadfromsourcebars",
+    "commonradialscale assumedactual",
+    "kernelcontrols asmodelcertification or equalvalleys",
+    "newtau/Q/CI/counts/rate/time",
+    "run114producer"
+  ]
+}

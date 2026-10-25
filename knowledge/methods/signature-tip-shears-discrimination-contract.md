@@ -597,3 +597,15 @@ configuration槽亦有校准提醒：Pt2014 Table3的所谓实验g组合实际�
 评价的2017Mu12能量/强度及DCO/POL是其引用层，不是新采集；2022Gu04 XUNDL又是Guo的同数据编译。尤其编译1636标8+而实际Guo图/2018评价为6+，应标source-layer失配而不是物理新ΔI4或实验自相矛盾终审。缺原2017全文与POL定义时只留literal字段，不填新P/δ/CI。
 
 这让identity合同更具体，仍不能从partial记录缺某个门能量推Pt在Au门窗内贡献为0。需要原事件/γ分辨率、每个门的background/time/效率和全部必要伴随；当前不赋纯度/上限/机时。配置B槽另检H/operator/未定标量，核素重指派不混入。新needs_review:true。
+
+## Day23：实际h9/2–f7/2成分需要不同的磁与电输入
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021与[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-005把012同l spin-orbit例推进到本Au模型实际出现的不同l内容。对标准单体μ=gl l+gs s，l3/f和l5/h之间没有直接矩阵；每个选定j block内则分别为gj,f=gl+(gs−gl)/7、gj,h=gl−(gs−gl)/11。这里不给gl/gs实际数值，也不把这些裸j态当已耦合转子的好I核态。
+
+电四极角张量不同。声明C2q=√(4π/5)Y2q，有
+
+$$\langle l'm'|C^2_q|lmangle=\sqrt{rac{2l+1}{2l'+1}}\langle l0,20|l'0angle\langle lm,2q|l'm'angle.$$
+
+spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、反向.021645，为dimensionless C2的平均平方和。physicalE2仍乘相应的未知⟨n'l'|r²|nl⟩及电荷；hh、ff、hf不预设同一径向尺度。九项CG/独立球面积分/投影/对称控制过，只证角块与归一。
+
+因此实际混合核态的M1可来自各保l分量和core耦合，不能把bare cross-l零写成全band M1禁戒；E2的跨l相干项又依赖真实幅/phase/radial。换configuration assignment时，必须预先固定这些operators和radial/BCS/rotor条件，再对未用于定标的跨线相对量评分。只知图中dominant标签无法恢复完整幅，更不能挑某角因子判原QTR已失效或两解释同等可信。新增needs_review:true，无新g/δ/B/Q/τ/CI、率或机时。
