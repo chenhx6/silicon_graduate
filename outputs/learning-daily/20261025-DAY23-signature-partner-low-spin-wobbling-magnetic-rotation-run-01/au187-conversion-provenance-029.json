@@ -1,0 +1,802 @@
+{
+  "scope": "actual official ENSDF adopted and Hg1.9/2.4m annotated records, returned XML/HTML pre not rawENSDF bytes; read targeted headers and target transitions only; not full NDS or Rupnik/Bourgeois fulltext",
+  "formal_day_index": 23,
+  "records": {
+    "adopted": {
+      "input": "tmp/day23-originals/au187-adopted-029.ens",
+      "input_sha256": "663bbcedab538fcd87b882a4d82757fda2cc637218e166cdaeb0f946213d8096",
+      "pre_text_sha256": "d83279f73ac2bca0b0d89f6e96221376b9799ce43a4037d724e0687c4d0ed37e",
+      "pre_text_lines": 1678,
+      "headers": [
+        {
+          "line": 1,
+          "raw": ""
+        },
+        {
+          "line": 2,
+          "raw": "187AU    ADOPTED LEVELS, GAMMAS                                  09NDS    200905"
+        },
+        {
+          "line": 3,
+          "raw": "187AU  H TYP=ERR$AUT=M. S. Basunia$DAT=7-Nov-2013$COM=Interchanged XREF         "
+        },
+        {
+          "line": 4,
+          "raw": "187AU2 H B and C$                                                               "
+        },
+        {
+          "line": 5,
+          "raw": "187AU  H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      "
+        },
+        {
+          "line": 6,
+          "raw": "187AU  Q -4.91E3   3 9.38E3  3 2.45E3  4 4.75E3  3     2012WA38                 "
+        },
+        {
+          "line": 7,
+          "raw": "187AU cQ $Note: Current evaluation has used the following Q record              "
+        },
+        {
+          "line": 8,
+          "raw": "187AU2cQ $   -4890  {I30}   9360 {I30}   2430 {I30}   4770 {I30}    2003Au03    "
+        },
+        {
+          "line": 9,
+          "raw": "187AU c                                                                         "
+        },
+        {
+          "line": 10,
+          "raw": "187AU c  Transition quadrupole moment Q{-t} is related to the level lifetime by "
+        },
+        {
+          "line": 11,
+          "raw": "187AU2c  Q{-t}(J|)J-2)=0.906|%(p{-|g}(J|)J-2)/(|%(|t|*E{+5}{-|g}(J|)J-2))       "
+        },
+        {
+          "line": 12,
+          "raw": "187AU3c  |*<JK20 I J-2K>) [eb] and is reported by 1995Wa18 for some levels.     "
+        },
+        {
+          "line": 13,
+          "raw": "187AU c                                                                         "
+        },
+        {
+          "line": 14,
+          "raw": "187AU c  1968Si01 searched for the |a decay in gold isotopes and tentatively    "
+        },
+        {
+          "line": 15,
+          "raw": "187AU2c  assigned a 4.69 MeV 2 |a line to {+187}Au. The measurement shows       "
+        },
+        {
+          "line": 16,
+          "raw": "187AU3c  either very weak or no |a branch.                                      "
+        },
+        {
+          "line": 17,
+          "raw": "187AU c                                                                         "
+        },
+        {
+          "line": 18,
+          "raw": "187AU cG E,RI      From {+187}Hg |e decay (2.4 min), except otherwise noted.    "
+        },
+        {
+          "line": 19,
+          "raw": "187AU cG E(Z),RI(Z)$From {+187}Hg |e decay (1.9 min)                            "
+        },
+        {
+          "line": 20,
+          "raw": "187AU cG E(X)      From {+172}Yb({+19}F,4n|g)                                   "
+        },
+        {
+          "line": 21,
+          "raw": "187AU cG M         Assignment from ce measurements in {+187}Hg |e decay (2.4    "
+        },
+        {
+          "line": 22,
+          "raw": "187AU2cG min and 1.9 min), except otherwise noted.                              "
+        },
+        {
+          "line": 23,
+          "raw": "187AU cL E$From a least-squares adjustment to the |g-ray energies. |DE=0.5 keV  "
+        },
+        {
+          "line": 24,
+          "raw": "187AU2cL assumed for missing |g-ray uncertainty. The 1857.8|g from 2184.9 keV   "
+        },
+        {
+          "line": 25,
+          "raw": "187AU3cL level is ignored during the least-squares adjustment (|s>3).           "
+        },
+        {
+          "line": 26,
+          "raw": "187AU cL J$Levels with J|p|>11/2- populated in {+172}Yb({+19}F,4n|g) reaction,  "
+        },
+        {
+          "line": 27,
+          "raw": "187AU2cL assigned by 1989Jo02 from angular distribution data and rotational     "
+        },
+        {
+          "line": 28,
+          "raw": "187AU3cL band relationships.                                                    "
+        },
+        {
+          "line": 29,
+          "raw": "187AU cL J(K)      From E3 and M1+E2 cascade to 1/2(+) from 2.3-s isomer gives  "
+        },
+        {
+          "line": 30,
+          "raw": "187AU2cL 9/2(-) and 3/2(+) for 120.3 and 19.5 keV levels, respectively.         "
+        },
+        {
+          "line": 31,
+          "raw": "187AU cL T         From reported lifetime in 1995Wa18, except otherwise noted.  "
+        },
+        {
+          "line": 32,
+          "raw": "187AU2cL Lifetime in 1995Wa18 is measured using the Recoil Distance Method.     "
+        },
+        {
+          "line": 33,
+          "raw": "187AU CL BAND(A)$1/2-[541], ALPHA=+1/2                                          "
+        },
+        {
+          "line": 34,
+          "raw": "187AU CL BAND(B)$1/2-[541], ALPHA=-1/2                                          "
+        },
+        {
+          "line": 35,
+          "raw": "187AU CL BAND(C)$1/2+[660]                                                      "
+        },
+        {
+          "line": 36,
+          "raw": "187AU CL BAND(D)$ISOMERIC BAND                                                  "
+        },
+        {
+          "line": 37,
+          "raw": "187AU CL BAND(E)$|p f{-7/2}                                                     "
+        },
+        {
+          "line": 38,
+          "raw": "187AU CL BAND(F)$Band 5                                                         "
+        },
+        {
+          "line": 39,
+          "raw": "187AU CL BAND(G)$|p h{-11/2}                                                    "
+        },
+        {
+          "line": 40,
+          "raw": "187AU CL BAND(H)$Band 7                                                         "
+        },
+        {
+          "line": 41,
+          "raw": "187AU CL BAND(I)$Band 9                                                         "
+        },
+        {
+          "line": 42,
+          "raw": "187AU  XA187AU IT DECAY (2.3 S)                                                 "
+        },
+        {
+          "line": 43,
+          "raw": "187AU  XB187HG EC DECAY (1.9 M)                                                 "
+        },
+        {
+          "line": 44,
+          "raw": "187AU  XC187HG EC DECAY (2.4 M)                                                 "
+        },
+        {
+          "line": 45,
+          "raw": "187AU  XD172YB(19F,4NG)                                                         "
+        },
+        {
+          "line": 46,
+          "raw": "187AU PN                                                                     6  "
+        },
+        {
+          "line": 47,
+          "raw": "187AU  L        0.0   1/2(+)               8.3 M 2                          I   "
+        },
+        {
+          "line": 48,
+          "raw": "187AUX L XREF=ABCD                                                              "
+        },
+        {
+          "line": 49,
+          "raw": "187AU2 L %EC+%B+=100$%A=0.003 SY                                                "
+        },
+        {
+          "line": 50,
+          "raw": "187AUM L MOMM1=+0.531 12                                                        "
+        },
+        {
+          "line": 51,
+          "raw": "187AU cL J$spin from atomic beam (1976Ek01), parity from |m and                 "
+        },
+        {
+          "line": 52,
+          "raw": "187AU2cL configuration=|p 1/2+[431] - main component of the oblate orbital      "
+        }
+      ],
+      "targets": [
+        {
+          "parent": {
+            "energy_string": "496.73",
+            "jp_string": "(11/2-)",
+            "half_life_string": "",
+            "line": 162,
+            "raw": "187AU  L 496.73    15  (11/2-)                                              B   "
+          },
+          "gamma_energy_string": "376.3",
+          "MR_string": "0.6",
+          "DMR_string": "3",
+          "total_CC_string": "0.147",
+          "DCC_string": "24",
+          "line": 167,
+          "records": [
+            {
+              "line": 167,
+              "raw": "187AU  G 376.3     2   100.0 22M1+E2     0.6     3     0.147  24            Z   "
+            }
+          ]
+        },
+        {
+          "parent": {
+            "energy_string": "815.81",
+            "jp_string": "(15/2-)",
+            "half_life_string": "",
+            "line": 319,
+            "raw": "187AU  L 815.81    17 (15/2-)                                               B   "
+          },
+          "gamma_energy_string": "462.1",
+          "MR_string": "1.1",
+          "DMR_string": "3",
+          "total_CC_string": "0.064",
+          "DCC_string": "12",
+          "line": 325,
+          "records": [
+            {
+              "line": 325,
+              "raw": "187AU  G 462.1     2    100  5 M1+E2     1.1     3     0.064  12            Z   "
+            }
+          ]
+        }
+      ]
+    },
+    "hg24": {
+      "input": "tmp/day23-originals/au187-hg24-029.ens",
+      "input_sha256": "1b1ae7cdf23afe312655285ebcc0b4f4d0526ac6167eff24dd47283c0457d7d8",
+      "pre_text_sha256": "09729aaf2f66419e2f6e98811ece238d5e7ad07ea47ea103b7e6083bb1b2da1d",
+      "pre_text_lines": 1522,
+      "headers": [
+        {
+          "line": 1,
+          "raw": ""
+        },
+        {
+          "line": 2,
+          "raw": "187AU    187HG EC DECAY (2.4 M)        1998RU04,1994RUZX,1978BO0509NDS    200905"
+        },
+        {
+          "line": 3,
+          "raw": "187AU  H TYP=ERR$AUT=M. S. Basunia$DAT=7-Nov-2013$COM=Corrected parent          "
+        },
+        {
+          "line": 4,
+          "raw": "187AU2 H half-life$                                                             "
+        },
+        {
+          "line": 5,
+          "raw": "187AU  H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      "
+        },
+        {
+          "line": 6,
+          "raw": "187AU c  Other references: 1995Ru07, 1988Pa15, 1988Ko22, 1986Be07, 1983Be48,    "
+        },
+        {
+          "line": 7,
+          "raw": "187AU2c  1975Ho03, and 1970Du09.                                                "
+        },
+        {
+          "line": 8,
+          "raw": "187AU c  1998Ru04,1994RuZX,1995Ru07: Mass separated {+187}Hg{+g} were obtained  "
+        },
+        {
+          "line": 9,
+          "raw": "187AU2c  from the {+187}Tl{+m,g} decay produced through {+176}Hf({+19}F,8n);    "
+        },
+        {
+          "line": 10,
+          "raw": "187AU3c  Detector: Ge(Li), Se(Li); Measured: E|g, I|g, |a(K)exp, |g|g t,        "
+        },
+        {
+          "line": 11,
+          "raw": "187AUxc  ce-|g-t, |g-x-t, and ce-x-t.                                           "
+        },
+        {
+          "line": 12,
+          "raw": "187AU c  1978Bo05: On line mass separated {+187}Hg from Au(p,xn)Hg; Detector:   "
+        },
+        {
+          "line": 13,
+          "raw": "187AU2c  Ge(Li), Si(Li); Measured E|g, I|g, |a, |g|g coin, ce-|g coin, |g-ce-t, "
+        },
+        {
+          "line": 14,
+          "raw": "187AU3c  deduced levels, J, |p, mult.                                           "
+        },
+        {
+          "line": 15,
+          "raw": "187AU c  1988Pa15,1988Ko22: Mass-separated {+187}Hg{+g} produced from           "
+        },
+        {
+          "line": 16,
+          "raw": "187AU2c  {+180}W({+14}N,7n), E=160 MeV, 187Tl |b{++} decay; {+187}Hg{+m} from   "
+        },
+        {
+          "line": 17,
+          "raw": "187AU3c  {+180}W({+12}C,5n), E=120 MeV; Measured: |g|g(t), |g-x-t, |g-ce-t,     "
+        },
+        {
+          "line": 18,
+          "raw": "187AUxc  ce-x-t.                                                                "
+        },
+        {
+          "line": 19,
+          "raw": "187AU c  1986Be07,1983Be48: {+187}Hg produced from Au(p,xn), measured level     "
+        },
+        {
+          "line": 20,
+          "raw": "187AU2c  T{-1/2} by ce-ce(t), |g-ce(t).                                         "
+        },
+        {
+          "line": 21,
+          "raw": "187AU c  1975Ho03, 1970Du09: Measured total absorption spectrum of {+187}Hg |e  "
+        },
+        {
+          "line": 22,
+          "raw": "187AU2c  decay. The spectrum (Fig. 3 of 1975Ho03) indicates level population    "
+        },
+        {
+          "line": 23,
+          "raw": "187AU3c  in the {+187}Hg |e Decay upto |?4500 keV. 1970Du09 shows the total     "
+        },
+        {
+          "line": 24,
+          "raw": "187AU4c  absorption of the {+187}Hg decay upto |?3000 keV (Fig. 8e - 1970Du09). "
+        },
+        {
+          "line": 25,
+          "raw": "187HG  P 0.0+X            13/2(+)      2.4 M     3                   4890 30    "
+        },
+        {
+          "line": 26,
+          "raw": "187HG cP T$2.2 min in 1998Ru04, not measured (e-mail communication with         "
+        },
+        {
+          "line": 27,
+          "raw": "187HG2cP Dr. Dubravka Rupnik)                                                   "
+        },
+        {
+          "line": 28,
+          "raw": "187AU  N                        1.0                                             "
+        },
+        {
+          "line": 29,
+          "raw": "187AU PN                                                                     5  "
+        },
+        {
+          "line": 30,
+          "raw": "187AU c  The {+187}Hg decay scheme is presented as constructed by 1998Ru04.     "
+        },
+        {
+          "line": 31,
+          "raw": "187AU cG E,RI,TI   From 1998Ru04, except otherwise noted. All E|g are seen      "
+        },
+        {
+          "line": 32,
+          "raw": "187AU2cG only in the {+187}Hg{+m} decay, except otherwise noted. |DE=0.2 for    "
+        },
+        {
+          "line": 33,
+          "raw": "187AU3cG I|g|> 2 and |DE=0.4 for I|g<2 are assigned based on a private          "
+        },
+        {
+          "line": 34,
+          "raw": "187AU4cG communication with J. L. Wood, a 1998Ru04 co-author.                   "
+        },
+        {
+          "line": 35,
+          "raw": "187AU cG E(P)      In Table II (1998Ru04), 129.7|g is shown from 633-keV        "
+        },
+        {
+          "line": 36,
+          "raw": "187AU2cG (J|p=7/2+) to 503.8-keV (3/2+) level, but not presented in the decay   "
+        },
+        {
+          "line": 37,
+          "raw": "187AU3cG scheme.                                                                "
+        },
+        {
+          "line": 38,
+          "raw": "187AU cG E(X)      Decimal place number of the |g-ray is not reported, the      "
+        },
+        {
+          "line": 39,
+          "raw": "187AU2cG evaluator added a zero.                                                "
+        },
+        {
+          "line": 40,
+          "raw": "187AU cG E(Y)      Also seen in the {+187}Hg{+g} decay                          "
+        },
+        {
+          "line": 41,
+          "raw": "187AU cG E(W),RI(W)$From 1978Bo05                                               "
+        },
+        {
+          "line": 42,
+          "raw": "187AU cG E(V)      From 1994RuZX                                                "
+        },
+        {
+          "line": 43,
+          "raw": "187AU cG M$Assigned by 1998Ru04 based on |a(K)exp or |a(L)exp value, except     "
+        },
+        {
+          "line": 44,
+          "raw": "187AU2cG where noted. The |a(K)exp and |a(L)exp values (1998Ru04) are listed in "
+        },
+        {
+          "line": 45,
+          "raw": "187AUxcG the comment section.                                                   "
+        },
+        {
+          "line": 46,
+          "raw": "187AU cG MR$Calculated by the evaluator from the |a(K)exp or |a(L)exp value     "
+        },
+        {
+          "line": 47,
+          "raw": "187AU2cG (1998Ru04), except otherwise noted.                                    "
+        },
+        {
+          "line": 48,
+          "raw": "187AU cL E         From a least-squares fit to the |g-ray energies.             "
+        },
+        {
+          "line": 49,
+          "raw": "187AU cL J         From adopted levels                                          "
+        },
+        {
+          "line": 50,
+          "raw": "187AU cL E(A)      s{-1/2}~#d{-3/2}~#d{-5/2} bands                              "
+        },
+        {
+          "line": 51,
+          "raw": "187AU cL E(B)      h{-11/2} bands                                               "
+        },
+        {
+          "line": 52,
+          "raw": "187AU cL E(C)      h{-9/2}~#f{-7/2} bands                                       "
+        }
+      ],
+      "targets": [
+        {
+          "parent": {
+            "energy_string": "496.79",
+            "jp_string": "(11/2-)",
+            "half_life_string": "",
+            "line": 193,
+            "raw": "187AU  L 496.79    23 (11/2-)                                               C   "
+          },
+          "gamma_energy_string": "376.3",
+          "MR_string": "0.6",
+          "DMR_string": "3",
+          "total_CC_string": "0.147",
+          "DCC_string": "24",
+          "line": 200,
+          "records": [
+            {
+              "line": 200,
+              "raw": "187AU  G 376.3     2    41.0  9M1+E2     0.6     3     0.147  24                "
+            },
+            {
+              "line": 201,
+              "raw": "187AUS G KC=0.119 21$LC=0.0214 21$MC=0.0050 5$NC+=0.00149 14                    "
+            },
+            {
+              "line": 202,
+              "raw": "187AUS G NC=0.00125 11$OC=0.000227 22$PC=1.39E-5 25                             "
+            },
+            {
+              "line": 203,
+              "raw": "187AU cG           |a(K)exp=0.119 {I15} (1998Ru04), and 0.11 {I3} (1978Bo05)    "
+            }
+          ]
+        },
+        {
+          "parent": {
+            "energy_string": "815.89",
+            "jp_string": "(15/2-)",
+            "half_life_string": "",
+            "line": 405,
+            "raw": "187AU  L 815.89    24  (15/2-)                                              C   "
+          },
+          "gamma_energy_string": "462.1",
+          "MR_string": "1.1",
+          "DMR_string": "3",
+          "total_CC_string": "0.064",
+          "DCC_string": "12",
+          "line": 418,
+          "records": [
+            {
+              "line": 418,
+              "raw": "187AU  G 462.1     2    11.8 6 M1+E2     1.1     3     0.064  12                "
+            },
+            {
+              "line": 419,
+              "raw": "187AUS G KC=0.051 10$LC=0.0100 12$MC=0.0024 3$NC+=0.00070 8                     "
+            },
+            {
+              "line": 420,
+              "raw": "187AUS G NC=0.00059 7$OC=0.000106 13$PC=5.9E-6 12                               "
+            },
+            {
+              "line": 421,
+              "raw": "187AU cG           |a(K)exp=0.050 {I9} (1998Ru04), |a(K)exp=0.08 {I2} (1978Bo05)"
+            }
+          ]
+        }
+      ]
+    },
+    "hg19": {
+      "input": "tmp/day23-originals/au187-hg19-029.ens",
+      "input_sha256": "ab682db5108decfd1ec01d8451585bf6b91533f2b3be3656795421d9b3a1c454",
+      "pre_text_sha256": "1a9666583087fbca62da72fc397328a0a76f776cd9dd8e0d5efb9d9ef76e44c5",
+      "pre_text_lines": 679,
+      "headers": [
+        {
+          "line": 1,
+          "raw": ""
+        },
+        {
+          "line": 2,
+          "raw": "187AU    187HG EC DECAY (1.9 M)        1998RU04,1994RUZX,1978BO0509NDS    200905"
+        },
+        {
+          "line": 3,
+          "raw": "187AU  H TYP=ERR$AUT=M. S. Basunia$DAT=7-Nov-2013$COM=Corrected parent          "
+        },
+        {
+          "line": 4,
+          "raw": "187AU2 H half-life$                                                             "
+        },
+        {
+          "line": 5,
+          "raw": "187AU  H TYP=FUL$AUT=M. S. Basunia$CIT=NDS 110, 999 (2009)$CUT=1-Nov-2008$      "
+        },
+        {
+          "line": 6,
+          "raw": "187AU c  Other references: 1995Ru07, 1988Pa15, 1988Ko22, 1986Be07, 1983Be48,    "
+        },
+        {
+          "line": 7,
+          "raw": "187AU2c  1975Ho03, and 1970Du09.                                                "
+        },
+        {
+          "line": 8,
+          "raw": "187AU c  1998Ru04,1994RuZX,1995Ru07: Mass separated {+187}Hg{+g} were obtained  "
+        },
+        {
+          "line": 9,
+          "raw": "187AU2c  from the {+187}Tl{+m,g} decay produced through {+176}Hf({+19}F,8n);    "
+        },
+        {
+          "line": 10,
+          "raw": "187AU3c  Detector: Ge(Li), Se(Li); Measured: E|g, I|g, |a(K)exp, |g|g t,        "
+        },
+        {
+          "line": 11,
+          "raw": "187AUxc  ce-|g-t, |g-x-t, and ce-x-t.                                           "
+        },
+        {
+          "line": 12,
+          "raw": "187AU c  1978Bo05: On line mass separated {+187}Hg from Au(p,xn)Hg; Detector:   "
+        },
+        {
+          "line": 13,
+          "raw": "187AU2c  Ge(Li), Si(Li); Measured E|g, I|g, |a, |g|g coin, ce-|g coin, |g-ce-t, "
+        },
+        {
+          "line": 14,
+          "raw": "187AU3c  deduced levels, J, |p, mult. Decay scheme includes both the metastable "
+        },
+        {
+          "line": 15,
+          "raw": "187AU4c  (1.9 min) and ground (2.4 min) states decay data together.             "
+        },
+        {
+          "line": 16,
+          "raw": "187AU c  1988Pa15,1988Ko22: Mass-separated {+187}Hg{+g} produced from           "
+        },
+        {
+          "line": 17,
+          "raw": "187AU2c  {+180}W({+14}N,7n), E=160 MeV, 187Tl |b{++} decay; {+187}Hg{+m} from   "
+        },
+        {
+          "line": 18,
+          "raw": "187AU3c  {+180}W({+12}C,5n), E=120 MeV; Measured: |g|g(t), |g-x-t, |g-ce-t,     "
+        },
+        {
+          "line": 19,
+          "raw": "187AUxc  ce-x-t.                                                                "
+        },
+        {
+          "line": 20,
+          "raw": "187AU c  1986Be07,1983Be48: {+187}Hg produced from Au(p,xn), measured level     "
+        },
+        {
+          "line": 21,
+          "raw": "187AU2c  T{-1/2} by ce-ce(t), |g-ce(t).                                         "
+        },
+        {
+          "line": 22,
+          "raw": "187AU c  1975Ho03, 1970Du09: Measured total absorption spectrum of {+187}Hg |e  "
+        },
+        {
+          "line": 23,
+          "raw": "187AU2c  decay. The spectrum (Fig. 3 of 1975Ho03) indicates level population    "
+        },
+        {
+          "line": 24,
+          "raw": "187AU3c  in the {+187}Hg |e Decay upto |?4500 keV. 1970Du09 shows the total     "
+        },
+        {
+          "line": 25,
+          "raw": "187AU4c  absorption of the {+187}Hg decay upto |?3000 keV (Fig. 8e - 1970Du09). "
+        },
+        {
+          "line": 26,
+          "raw": "187HG  P 0.0             3/2(-)        1.9 M     3               4890     30    "
+        },
+        {
+          "line": 27,
+          "raw": "187HG cP T$2.4 min in 1998Ru04, not measured (e-mail communication with         "
+        },
+        {
+          "line": 28,
+          "raw": "187HG2cP Dr. Dubravka Rupnik)                                                   "
+        },
+        {
+          "line": 29,
+          "raw": "187AU  N                         1.0                                            "
+        },
+        {
+          "line": 30,
+          "raw": "187AU PN                                                                     5  "
+        },
+        {
+          "line": 31,
+          "raw": "187AU c  The {+187}Hg decay scheme is presented as constructed by 1998Ru04.     "
+        },
+        {
+          "line": 32,
+          "raw": "187AU cG E,RI,TI   From 1998Ru04, except otherwise noted. |DE=0.2 for I|g|>2 and"
+        },
+        {
+          "line": 33,
+          "raw": "187AU2cG |DE=0.4 for I|g<2 are assigned based on a private communication with   "
+        },
+        {
+          "line": 34,
+          "raw": "187AU3cG J. L. Wood, a 1998Ru04 co-author.                                      "
+        },
+        {
+          "line": 35,
+          "raw": "187AU cG E(Y)      Only seen in the {+187}Hg{+g} decay.                         "
+        },
+        {
+          "line": 36,
+          "raw": "187AU cG E(W),RI(W)$From 1978Bo05                                               "
+        },
+        {
+          "line": 37,
+          "raw": "187AU cG E(V)      From 1994RuZX                                                "
+        },
+        {
+          "line": 38,
+          "raw": "187AU cG M$Assigned by 1998Ru04 based on |a(K)exp or |a(L)exp value, except     "
+        },
+        {
+          "line": 39,
+          "raw": "187AU2cG where noted. The |a(K)exp and |a(L)exp values (1998Ru04) are listed in "
+        },
+        {
+          "line": 40,
+          "raw": "187AUxcG the comment section.                                                   "
+        },
+        {
+          "line": 41,
+          "raw": "187AU cG M(X)      Assigned from an estimated M/N subshell ratio, observing     "
+        },
+        {
+          "line": 42,
+          "raw": "187AU2cG a conversion electron spectrum (fig 5-1978Bo05) by the evaluator.      "
+        },
+        {
+          "line": 43,
+          "raw": "187AU cG MR$Calculated by the evaluator using |a(K)exp value, except otherwise  "
+        },
+        {
+          "line": 44,
+          "raw": "187AUxcG noted.                                                                 "
+        },
+        {
+          "line": 45,
+          "raw": "187AU cL E$From a least-squares fit to the |g-ray energies ignoring 1857.8|g    "
+        },
+        {
+          "line": 46,
+          "raw": "187AU2cL from the 2184.9 keV level.                                             "
+        },
+        {
+          "line": 47,
+          "raw": "187AU cL J         From adopted levels                                          "
+        },
+        {
+          "line": 48,
+          "raw": "187AU cL E(A)      s{-1/2}~#d{-3/2}~#d{-5/2} bands                              "
+        },
+        {
+          "line": 49,
+          "raw": "187AU cL E(B)      h{-11/2} bands                                               "
+        },
+        {
+          "line": 50,
+          "raw": "187AU cL E(C)      h{-9/2}~#f{-7/2} bands                                       "
+        },
+        {
+          "line": 51,
+          "raw": "187AU  G     1647.3 5     4.7 9                                             W   "
+        },
+        {
+          "line": 52,
+          "raw": "187AU  G     1998.1 8    10.822                                             W   "
+        }
+      ],
+      "targets": []
+    }
+  },
+  "experimental_quotes_as_evaluation_reports": [
+    {
+      "line": 203,
+      "raw": "187AU cG           |a(K)exp=0.119 {I15} (1998Ru04), and 0.11 {I3} (1978Bo05)    "
+    },
+    {
+      "line": 421,
+      "raw": "187AU cG           |a(K)exp=0.050 {I9} (1998Ru04), |a(K)exp=0.08 {I2} (1978Bo05)"
+    }
+  ],
+  "controls": {
+    "all_frozen_response_hashes_match": true,
+    "HTML_pre_extracted_instead_of_treating_HTTP200_as_plain_ENSDF": true,
+    "all_extracted_nonblank_lines_have_nuclide_prefix": true,
+    "full2009_cutoff2008_and2013_errata_preserved": true,
+    "target_parent_and_gamma_identity_frozen": true,
+    "adopted_energies_kept_separate": true,
+    "disputed_parent_half_lives_not_filled": true,
+    "four_experimental_alpha_quotes_keep_attributions": true,
+    "376_exp_comment_not_SG_KC_or_total": true,
+    "462_exp_comment_not_SG_KC_or_total": true,
+    "MR_evaluator_derived_not_new_experiment": true,
+    "historical_report_versions_grouped_not_independent_runs": true,
+    "1978_combined_parent_warning_preserved": true,
+    "parent_clocks_shift_and_private_correction_not_gamma_tau": true,
+    "low_parent_dataset_not_new_negative_observation": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": "5879948951fd15fc5d8acb8883152a0e3b72cb3708df9b677eeba1e64a9c21d2",
+  "limitations": [
+    "Primary Rupnik1998/Bourgeois1978 full texts remain unread/unavailable in this route.",
+    "Adopted/API/evaluator MR and quoted experimental alpha are not independent new acquisitions.",
+    "No new delta, sign, CI, theoretical ICC, count rate, lifetime or beamtime was inferred.",
+    "No raw archival mutation; public HTML/text snapshots remain tmp staging."
+  ]
+}

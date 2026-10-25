@@ -4431,3 +4431,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T05:09:48.677213+08:00 Day23 checkpoint027：derivedB向量joint信息/phase-loss/denpurity12controls，未知Cov不造CI、同源不增独立票。truewriteback/checks过，继续actualPr135legacyendpoint/母τ缺口核验，partial[23,24]/next23/noDay25+不早收束。Git指针main · Day23: preserve dependence in derived strength vectors；actualH3/hash仅任务receipt。
 
 2026-10-26T05:21:39.702567+08:00 Day23检查点028：官方旧评价CSV核母态寿命/端点身份，15控制通过；末态时钟不移用，不增实验票。继续Au观测/定标可比性，原15:00截止，partial[23,24]/next23。Git指针main · Day23: bind lifetime gaps to the disputed parent states；actualH3/hash仅任务回执。
+
+2026-10-26T05:29:59.821211+08:00 Day23检查点029：实际官方ENSDF转述旧αK数值、MR派生与报告族/2013更正依赖，15解析控制通过；primary全文未获、不报新δ/CI。继续理论ICC输入合同，原15:00/partial[23,24]/next23保持。Git指针main · Day23: trace historical conversion values through ENSDF annotations；actualH3/hash仅任务receipt。

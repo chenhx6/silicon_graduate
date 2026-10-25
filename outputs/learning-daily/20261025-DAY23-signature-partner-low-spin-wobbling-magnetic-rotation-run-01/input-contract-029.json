@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-25T21:26:00.458550+00:00",
+  "inputs": {
+    "tmp/day23-originals/au187-adopted-029.ens": "663bbcedab538fcd87b882a4d82757fda2cc637218e166cdaeb0f946213d8096",
+    "tmp/day23-originals/au187-hg19-029.ens": "ab682db5108decfd1ec01d8451585bf6b91533f2b3be3656795421d9b3a1c454",
+    "tmp/day23-originals/au187-hg24-029.ens": "1b1ae7cdf23afe312655285ebcc0b4f4d0526ac6167eff24dd47283c0457d7d8"
+  },
+  "scope": "actual official ENSDF adopted and Hg1.9/2.4m annotated records, returned XML/HTML pre not rawENSDF bytes; read targeted headers and target transitions only; not full NDS or Rupnik/Bourgeois fulltext",
+  "record_identity": "datasetcheck187079001/003/004; full2009cutoff2008 plus2013ERR; preserve distinctions",
+  "targets": {
+    "adopted": [
+      [
+        "496.73",
+        "376.3"
+      ],
+      [
+        "815.81",
+        "462.1"
+      ]
+    ],
+    "hg24": [
+      [
+        "496.79",
+        "376.3"
+      ],
+      [
+        "815.89",
+        "462.1"
+      ]
+    ],
+    "hg19": []
+  },
+  "measurement_comments": "376 .119(I15)1998Ru04/.11(I3)1978Bo05;462 .050(I9)1998Ru04/.08(I2)1978Bo05, according to evaluation annotation, primaryfulltext still missing",
+  "source_dependence": "adopted and API import same decay lineage; MR evaluator derived from alphaK/L so no extra independent delta vote; 1994RuZX/1995Ru07/1998Ru04 grouped source not automatically separate acquisitions;1978Bo05 combined parent data warning",
+  "prohibited": [
+    "claim primary bodies read",
+    "promote total CC to alphaK or SG KC to separate measured observation",
+    "calculate new delta/CI without theoretical coefficients, normalization/cov",
+    "resolve mixing sign by scalar conversion",
+    "raw write or oldreview change",
+    "coursecredit or newrun"
+  ]
+}

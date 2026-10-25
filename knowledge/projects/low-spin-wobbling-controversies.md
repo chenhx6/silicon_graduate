@@ -552,3 +552,21 @@ Day23官方API旁证仍只作字段/身份核验：[[guo-2022-low-spin-wobbling-
 
 
 Day23版本缺口：学位论文的科学run1/4由[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-1直接定位，run4指纹已于2021出现；其合并总量1.52e10与SH26 2.5e10尚未闭合。新图的虚线是摘要/样本身份问题，不把它画成新增独立实验。Au同一理论家族对186Pt reference B(E2)的.84/1.44版本也分别保存（SE21-D23-3），不隐式统一模型定标。
+
+## Day23：Au转换分支的谱系增补
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013–016的实际ENSDF注释补出历史αK数值和评价派生关系。下面节点只表示source/derived依赖，不宣称原实验两篇全文已取得，也不将1994/1995/1998同研究报告自动拆成三次独立采集。该增补为needs_review:true。
+
+```mermaid
+flowchart LR
+    R98["1998Ru04报告族: 原paper未获"] --> EK["ENSDF注释转述实验αK"]
+    B78["1978Bo05: 原paper未获; 两母态合并警告"] --> EK
+    EK --> MR["评价者据αK或αL计算MR"]
+    MR --> API["adopted/API转录MR及totalCC"]
+    R98 --> Gcmp["Guo引用旧conversion作比较"]
+    B78 --> Gcmp
+    GN["Guo新HIRFL P/Rac"] --> GD["本次δ; 换算αK"]
+    Gcmp -. "共同旧数据; 不新增一次采集" .-> GD
+```
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2给α仅含δ²的标准式；sign需干涉量另约束。旧αK与评价MR共享输入，API不提供额外独立δ票；支持方新AD和反方新P/Rac的真实冲突保持，当前不作最终LW/SP归属。

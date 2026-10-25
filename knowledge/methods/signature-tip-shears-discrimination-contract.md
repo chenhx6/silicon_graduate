@@ -502,3 +502,11 @@ L/(1+\delta^2)&-2Ly\delta/(1+\delta^2)^2
 | 新旧观测比较 | [[lv-2022-evidence-against-wobbling-135pr]]原新线与中心另保留 | 旧评价提取年月不成为额外实验或分支裁决 |
 
 实际输入缺口因此具体到争议母态τ、完整光子分支及转换/多极性、feeding和响应/Σ；当前没有absoluteQ/B/新设施率或机时。`system/scripts/day23_pr135_export_identity.py`的15项CSV/端点/单位/空值控制不等于原实验likelihood验证。新增needs_review:true，保持其它核正支持链与SH26条件AD信息。
+
+## Day23：转换系数的实验节点与评价派生节点
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013–016补实际官方评价annotation层。比较用的旧观测向量应冻结为376/462两线的实验αK转述及各自研究来源，不能直接拿API的MR/totalCC替代：评价明确MR由αK/L计算，SG KC与G total亦各有角色。
+
+依[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2，标准两多极截断下αK(δ)=[αK(M1)+δ²αK(E2)]/(1+δ²)。因此旧αK可以向前比较|δ|分支，但不单独恢复干涉符号；由该αK反演的δ又不是新的独立约束。当前没有本两能量的明确理论表/原测归一与共同Cov，不能把中央值或一倍误差盒直接变成联合置信限。
+
+readiness新增具体项：1978两母态合并的选择/归一、1998报告族1994/1995/1998的采集与编译对应、2013 parent-clock/XREF更正后逐记录的端点映射。完整NDS/原paper正文仍未读，官方注释的可读数值不填补所有实验方法。没有用Hg分钟clock或Au末态秒clock补争议母ps寿命；没有新测δ/Q/τ/ICC/设施率/机时。新needs_review:true。

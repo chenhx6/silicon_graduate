@@ -28,6 +28,7 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 - [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1：band(3)是作者SP指认，并非二声子带。独立反方的核素归属挑战保留，物理终审仍开放。新增内容needs_review: true。
 
 - Day23实际376 δ上误差+.11、API时间窗/clock/total-vs-K及原conversion正文缺口见GU22-D23-001–012；现代导出不新增独立conversion票。
+- 实际官方ENSDF注释现已补出旧αK数值及其评价MR依赖，见GU22-D23-013–016；原paper全文仍缺。
 - source模型β/参考core与多轨道算符迁移仍需冻结实际producer；[[signature-tip-shears-discrimination-contract]]保raw/相位/response输入边界，不作最终LW/SP终审。
 
 ## Research Question
@@ -287,3 +288,18 @@ source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；
 [[guo-2022-low-spin-wobbling-187au]] GU22-D23-012定向核SI Table1：#21和#22明确包含h9/2与f7/2来源，完整9轨道空间另含h11/2；仍保Band1/#19与Band2/#21的作者主要归属。标签/柱形图不等于带符号完整Nilsson/BCS系数，不能仅从dominant h9/2把实际EM振幅认证为某个公共gj j。
 
 [[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004的h双伙伴角代数只是算符迁移边界，**不是本核新跃迁/混合含量预报**。当前source模型比single-j任务空间更广，亦不自动消除参数/response/Cov缺口。common-scale双比若要用于实际376/462，须先原EM矩阵/phase与occupation/定标输入，不从Pr单j数值跨核搬值。详[[signature-tip-shears-discrimination-contract]]；新needs_review:true，LW支持与独立P–Rac反证继续并存。
+
+## Day23：旧转换证据不再只有Guo图的二手入口
+
+新增[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013–016记录实际官方ENSDF注释：376的旧实验αK转述为.119(15)/.11(3)，462为.050(9)/.08(2)，分别指向1998Ru04/1978Bo05。此次增加可核数值和来源路径；两篇原论文全文/谱与归一仍未取得，不能声称直接读过原实验。评价对象不是一份新增采集，也不与Guo对同一旧测量的引用重复计票。
+
+| 证据节点 | 当前身份与依赖 | 剩余检验 |
+|---|---|---|
+| 1998Ru04与1978Bo05实验αK | 实际读到官方评价转述，数值逐线可查 | 原paper电子/光子归一、效率、混峰、共享系统和选择条件 |
+| evaluator MR=.6/1.1与SG KC | 评价说明MR由实验αK/L计算；不是新的独立δ测量 | 原理论系数/版本/不确定度及采用过程 |
+| adopted与IAEA API | 同一评价族的转录，totalCC不是实验αK | 旧Z flag、2013 XREF/母clock更正与逐母态ledger |
+| Guo新P/Rac | 独立HIRFL实验，旧转换只作伴随约束 | 实际联合response/Cov，不能将转换单独选符号 |
+
+[[signature-tip-shears-discrimination-contract]]据此收紧下一route：将真实旧αK向量与AD/P预测分别前向比较，保留理论ICC、校准和共同系统，而不是将换算δ和旧αK同时当独立票。本轮尚未作这项联合fit、δ显著性或模式终审。新增needs_review:true，不扩原人审范围；Au旧−.10是P、band3为SP和数W.u.外标边界保持。
+
+标准ICC的sign边界直接回链[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2；转述αK不单独选δ符号。

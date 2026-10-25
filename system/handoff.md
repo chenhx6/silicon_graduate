@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点028（Day24仅无学分预习）
+## Active handoff — Day23检查点029（Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08；active，completed=[]、partial=[23,24]、next23，未开Day25。Farmer2698；保护raw/PLAN/Bib/旧flags/学分/继承文件，不运行114 producer。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，截止2026-10-26 15:00+08；active，completed=[]、partial=[23,24]、next23，不开Day25。Farmer2698保持；raw/PLAN/Bib/旧flags/credit/114producer与继承文件保护。
 
-027已published。028实际官方Pr135 CSV：174 gamma/105 level、2008截止；15控制保全端点/重复列/空值。母33/54寿命空，末10/29的22.9/2.4ps不能代母τ。legacy527/747.1/726/814按端点与新Lv建立候选crosswalk，不合并事件；D不填δ/P、空B/ICC不0。新增N135-D23-001/002/003和Pr/方法均needs_review；CSV仅tmp，raw归档deferred。
+028已published。029实际官方ENSDF adopted/两Hgdecay的XML/HTML pre，15控制通过。376旧αKexp转述.119(15)/.11(3)，462为.050(9)/.08(2)，分别1998Ru04/1978Bo05；原paper全文仍未得。MR评价者据αK/L算，SG KC与totalCC/API非新独立票；2009full/cut2008与2013ERR及parentclock/XREF混合版本保持，不自行重写events。新GU22-D23-013–016/Au/方法/umbrella图needs_review:true，raw归档deferred。
 
-继续Au逐线向量、外借电磁标尺、模型定标点与留出检验量；不将冻结数据误当两模型同H。详情next-continuation-028.md/candidate-pool-028.json。原窗口不早收束；Day24始终无学分，正式credit只23。检查以required-checks-028为准；Git指针main · Day23: bind lifetime gaps to the disputed parent states，actualhash/H3仅task-publication-receipt-028.json。
+下一有界官方BrIcc exactE K系数输入/前向条件比较，先核既有KB08lookup form，不反推pure表/不造CI或sign/机时。详情next-continuation-029.md和candidate-pool029；先验证发布当前checkpoint，原窗口继续不早收束。Git指针main · Day23: trace historical conversion values through ENSDF annotations；actualhash/H3仅task-publication-receipt-029.json。
 
 ## Previous handoff — Day22 closeout
 

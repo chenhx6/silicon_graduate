@@ -1,0 +1,161 @@
+[
+  {
+    "discovery_file": "au187-eval-discovery029.json",
+    "result": [
+      {
+        "url": "https://www.nndc.bnl.gov/ensdf/Datasets/187Au.pdf",
+        "final_url": "https://www.nndc.bnl.gov/ensdf/Datasets/187Au.pdf",
+        "status": 404,
+        "type": "text/html",
+        "bytes": 771,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-eval-discovery029-676af20f4d.txt",
+        "sha256": "af515593f0b65b527b274fcf1466453ff7444d2e0643e6d00e8b54d872b4f778"
+      },
+      {
+        "url": "https://www-nds.iaea.org/public/ensdf_pdfs/187.pdf",
+        "final_url": "https://www-nds.iaea.org/public/ensdf_pdfs/187.pdf/",
+        "status": 403,
+        "type": "text/html; charset=UTF-8",
+        "bytes": 5517,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-eval-discovery029-7dd71321b2.txt",
+        "sha256": "508637c27199eeb30bc145a8ef0b5fc977b2e60e8a86929c5c77eb95c36d5154"
+      },
+      {
+        "url": "https://api.crossref.org/works?query.bibliographic=Nuclear%20Data%20Sheets%20A%20187%20Basunia&rows=3",
+        "final_url": "https://api.crossref.org/works?query.bibliographic=Nuclear%20Data%20Sheets%20A%20187%20Basunia&rows=3",
+        "status": 200,
+        "type": "application/json",
+        "bytes": 297153,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-eval-discovery029-109d2218fc.txt",
+        "sha256": "38b914254a1a5e0ad6ef2332a6b6007ec335e8a55d6ceb1f0553a5426fe854fd"
+      }
+    ]
+  },
+  {
+    "discovery_file": "au187-notes-discovery029.json",
+    "result": [
+      {
+        "url": "https://www.nndc.bnl.gov/ensdf/ensdf/ensdf.187",
+        "final_url": "https://www.nndc.bnl.gov/ensdf/ensdf/ensdf.187",
+        "status": 404,
+        "type": "text/html",
+        "bytes": 771,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-notes029-829dc048.txt",
+        "sha256": "af515593f0b65b527b274fcf1466453ff7444d2e0643e6d00e8b54d872b4f778"
+      },
+      {
+        "url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=187AU&unc=nds",
+        "final_url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=187AU&unc=nds",
+        "status": 429,
+        "type": "text/html;charset=UTF-8",
+        "bytes": 3,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-notes029-ecc98331.txt",
+        "sha256": "6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167"
+      },
+      {
+        "url": "https://www.nndc.bnl.gov/ensnds/187/Au/187au.pdf",
+        "final_url": "https://www.nndc.bnl.gov/ensnds/187/Au/187au.pdf",
+        "status": 404,
+        "type": null,
+        "bytes": 0,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-notes029-2e122de7.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet?db=ensdf&dsid=187AU%20ADOPTED%20LEVELS%2C%20GAMMAS",
+        "final_url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet?db=ensdf&dsid=187AU%20ADOPTED%20LEVELS%2C%20GAMMAS",
+        "status": 400,
+        "type": "text/html",
+        "bytes": 780,
+        "pdf": false,
+        "path": "tmp/day23-originals/au187-notes029-f55433c9.txt",
+        "sha256": "aa04ed9fc22b31cd3ba3f220aa6b19a29c8fd19e5194a4d6e11b2c5c546760a5"
+      }
+    ]
+  },
+  {
+    "discovery_file": "au187-form-discovery029.json",
+    "result": {
+      "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+      "method": "POST",
+      "data": {
+        "nuc": "187AU",
+        "searchType": "quick",
+        "datasource": "ensdf",
+        "nsrch": "Search"
+      },
+      "status": 200,
+      "bytes": 9020,
+      "path": "tmp/day23-originals/au187-dataset-list029.html",
+      "sha256": "2b696de7cfc5f0d06580b244c8a6741f951326fabfdf1f9d94d9a7052ae70693"
+    }
+  },
+  {
+    "discovery_file": "au187-ensdf-access029.json",
+    "result": [
+      {
+        "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+        "method": "POST",
+        "form": {
+          "dbclass": "ensdf",
+          "page-source": "singular",
+          "datasetcheck": "187079001,187AU",
+          "chooseit": "ENSDF text format"
+        },
+        "status": 200,
+        "bytes": 136406,
+        "path": "tmp/day23-originals/au187-adopted-029.ens",
+        "sha256": "663bbcedab538fcd87b882a4d82757fda2cc637218e166cdaeb0f946213d8096",
+        "first_lines": [
+          "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>",
+          "",
+          ""
+        ]
+      },
+      {
+        "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+        "method": "POST",
+        "form": {
+          "dbclass": "ensdf",
+          "page-source": "singular",
+          "datasetcheck": "187079003,187AU",
+          "chooseit": "ENSDF text format"
+        },
+        "status": 200,
+        "bytes": 123770,
+        "path": "tmp/day23-originals/au187-hg24-029.ens",
+        "sha256": "1b1ae7cdf23afe312655285ebcc0b4f4d0526ac6167eff24dd47283c0457d7d8",
+        "first_lines": [
+          "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>",
+          "",
+          ""
+        ]
+      },
+      {
+        "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+        "method": "POST",
+        "form": {
+          "dbclass": "ensdf",
+          "page-source": "singular",
+          "datasetcheck": "187079004,187AU",
+          "chooseit": "ENSDF text format"
+        },
+        "status": 200,
+        "bytes": 55472,
+        "path": "tmp/day23-originals/au187-hg19-029.ens",
+        "sha256": "ab682db5108decfd1ec01d8451585bf6b91533f2b3be3656795421d9b3a1c454",
+        "first_lines": [
+          "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "scope": "original Day23 checkpoint029: actual official evaluated historical conversion annotations and dependency, no new experimental data/primary fulltext or credit",
+  "subject": "Day23: trace historical conversion values through ENSDF annotations",
+  "paths": [
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "knowledge/projects/low-spin-wobbling-controversies.md",
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day23_au187_conversion_provenance.py",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/au187-conversion-provenance-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/external-access-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-029-initial.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/candidate-pool-029.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-029.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-028.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-029.json"
+  ],
+  "H2_EOL": {
+    "exit_code": 1,
+    "unsafe_mixed": 0
+  }
+}

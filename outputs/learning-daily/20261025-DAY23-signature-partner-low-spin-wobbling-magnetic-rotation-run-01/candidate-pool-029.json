@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T21:29:59.821211+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "old Au alphaK quoted by actual official annotation, dependency/source family/version preserved; no primary paper or new fit",
+  "next_route": "bounded actual theoretical K ICC input for Au376/462 and declared forward comparison, no CI or sign selection",
+  "missing": [
+    "historical primary electron/photon normalization and spectra",
+    "theoretical coefficients/version for exact energies",
+    "actual response and shared covariance/event ledger"
+  ],
+  "Day25_opened": false
+}
