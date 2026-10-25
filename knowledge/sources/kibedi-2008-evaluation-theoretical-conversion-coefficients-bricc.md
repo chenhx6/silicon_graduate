@@ -478,3 +478,14 @@ HTTP SHA256 M1=`04e1dcc22d60fa663faadfca5f575a60d2f78fa0f246c0b84c6323df6a137494
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | KB08-D21-1 | 依据 BrIcc 评估理论对 178W（920.8 keV，Z=74）内转换系数与多极混合比 delta 反演展开代数审计证明：(1) 内转换系数仅依赖 delta^2，对混合比正负代数符号完全不敏感，无法单独消除角分布干涉项中的符号简并；(2) 在强阻退 M1 跃迁中，核动态穿透效应（穿透参数 lambda 在 [-10, 20]）可使表观 alpha_K 偏离标准 BrIcc 网格达 0.73 至 2.17 倍；忽略穿透效应而强行套用标准表反演，将误判高达 48% 的假 E2 混合或产生非物理负平方 delta^2 < 0；(3) 反演导数在纯极性端点（delta -> 0）发生奇点发散，必须传播 BrIcc 1.4% 理论系统误差并排查非高斯置信限。 | internal-conversion-penetration-boundary | direct-original-and-quantitative-audit | pp.202–229 Sec.3.4, Sec.4.1.2; internal-conversion-bricc-audit-028.json | true |
+
+## Day23：Au两能量的实际FO理论K系数输入
+
+本节是官方[BrIcc calculator](https://bricc.anu.edu.au/)的本次外部理论查询，不是2008论文本身新增数据，不扩原paper人审范围。先核当前form再固定Z79、E376.3/462.1keV、pureM1/E2、FO，各一POST、零retry，四个HTTP200均核数值table；名义能量取历史ENSDF线，不更改支持方461.8等新源能量。原.2keV误差未发送/传播，接口无同核素A输入，不称重新计算187Au核尺寸。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KB08-D23-001 | 实际回显BrIccS v2.3(9-Dec-2011)、Z79 Au、BrIccFO。376.3的K pureM1=.1483(21)、pureE2=.0360(5)，462.1为.0859(12)/.0225(4)；相应Tot=.180(3)/.0537(8)及.1041(15)/.0314(5)，不与K互换。打印quoted errors已留存，但pure分量共同理论Cov未给，本任务不赋jointprior或新置信限。 | versioned-external-theory-input | actual-official-theory-query | four nominal POST responses, Z79/E376.3 or462.1/M1 orE2/FO, K andTot table rows | true |
+| KB08-D23-002 | 用KB08-2两多极式与上述K中央系数，在声明的历史标称能量上，Guoδcentre−.26/−.28前向αK=.141189/.081291；Sensharma−2.67/−2.98给.049815/.028917。它们是固定点条件预报，未传播源δ非对称范围、能量/理论Cov或历史归一，不是本任务新αK测量、反演δ、整族分支比较或显著性。正负δ给同一结果。 | bounded-forward-point-comparison | actual-theory-input-plus-source-bound-task-algebra | KB08 Eq5; task input-contract030 and actual theory K rows; GU22-D23-013 historical quotes | true |
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013/017把历史αK评价转述与本条件前向量分开；[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1提供大δ源中央。程序`system/scripts/day23_au187_icc_forward.py`离线核hash、Z/E/多极/FO、实验comment与K/total角色及sign/convex性，共9项控制，未作原联合likelihood。四响应SHA分别376M1 10b8f68505fee04eaa67a733d72b3e8549ea0bd4a7787830e9f500a38edafd75，376E2 6b3cf6205dde235bbfbbf4394b44794479e5958245f17bf836c48628ef206599，462M1 023f040aa5af6e25de5551418b04f218ffe9c883caa57a80767cda2b724a3b27，462E2 bdbae1f3ac71dd58bc6be683f84f65e1bf8c4f8c35abb4e23d651c5d9456f7ac。响应仅tmp，raw正式归档deferred；原KB08已审核claims不变。

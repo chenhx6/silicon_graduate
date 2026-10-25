@@ -303,3 +303,9 @@ source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；
 [[signature-tip-shears-discrimination-contract]]据此收紧下一route：将真实旧αK向量与AD/P预测分别前向比较，保留理论ICC、校准和共同系统，而不是将换算δ和旧αK同时当独立票。本轮尚未作这项联合fit、δ显著性或模式终审。新增needs_review:true，不扩原人审范围；Au旧−.10是P、band3为SP和数W.u.外标边界保持。
 
 标准ICC的sign边界直接回链[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2；转述αK不单独选δ符号。
+
+## Day23：历史转换的条件前向表与剩余边界
+
+[[signature-tip-shears-discrimination-contract]]的新表用实际官方FO理论K分量（[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001/002）连接376/462旧αK与两来源δ中央。Guo中心给.1412/.0813，Sensharma中心给.0498/.0289；旧αK四点逐一并列见[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013/017，不能把作者整体一致性描述扩张成每点中央相同。大δ来源仍为[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1。
+
+本次解除两个标称能量pure理论K输入缺口，尚未解除历史归一/efficiency/共同Cov和新δ分支全域的比较；未反演新δ、统计排除或认证LW/SP。9项离线输入/角色控制不是科学归属认证，新增needs_review:true，保留原支持链及反方实测。

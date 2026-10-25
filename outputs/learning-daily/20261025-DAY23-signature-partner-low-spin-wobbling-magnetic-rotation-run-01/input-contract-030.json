@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-10-25T21:31:54.198979+00:00",
+  "endpoint": "https://bricc.anu.edu.au/",
+  "actual_form_sha256": "c8e0672382bc1bfceb4d8af2c93c224f0fca523f42a5ff2c34d57c5c27136c35",
+  "max_queries": 4,
+  "requests": [
+    {
+      "atomic": "79",
+      "energy": "376.3",
+      "eerror": "",
+      "multipole": "M1",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    {
+      "atomic": "79",
+      "energy": "376.3",
+      "eerror": "",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    {
+      "atomic": "79",
+      "energy": "462.1",
+      "eerror": "",
+      "multipole": "M1",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    },
+    {
+      "atomic": "79",
+      "energy": "462.1",
+      "eerror": "",
+      "multipole": "E2",
+      "delta": "",
+      "derror": "",
+      "subshells": "on",
+      "dataset": "BrIccFO",
+      "calculate": "Calculate"
+    }
+  ],
+  "scope": "nominal Z79/legacyE exactenergy K theoretical components only, FO, one POST per pair/no retries; no isotope mass input or nuclear radius refit",
+  "energies": "historical ENSDF376.3/462.1keV, quoted .2keV uncertainties retained as source metadata but not sent/propagated; do not replace new461.8 byold462.1 insource",
+  "comparison_points": {
+    "376.3": {
+      "Guo_central_delta": -0.26,
+      "Sensharma_central_delta": -2.67
+    },
+    "462.1": {
+      "Guo_central_delta": -0.28,
+      "Sensharma_central_delta": -2.98
+    }
+  },
+  "points_scope": "central point forward illustrations at frozen historical energy; not full delta families or original fit/phase recreation",
+  "historical_observations": "GU22-D23-013 official evaluation secondary alphaK .119(15)/.11(3)376 and .050(9)/.08(2)462, primary normalizer/cov missing",
+  "theory_error": "record printed component uncertainty/version; common theory covariance unknown, no independenttable-error model assigned",
+  "prohibited": [
+    "new experimental delta or confidence limits",
+    "sum historical MR and alpha as independent votes",
+    "from evaluator MR reverse-engineer component theory",
+    "sign discrimination from ICC",
+    "new alpha/rate/beamtime measurement",
+    "raw write or old humanreview flag changes",
+    "repeatfailed query automatically"
+  ]
+}

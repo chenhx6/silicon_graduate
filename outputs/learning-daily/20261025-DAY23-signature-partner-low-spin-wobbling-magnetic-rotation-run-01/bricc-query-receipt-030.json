@@ -1,0 +1,94 @@
+{
+  "contract_sha256": "d7e9c96faf31a17a533c61dc1cc28b2261432bfe6850970f9ecd071beeb6f3da",
+  "requests": [
+    {
+      "parameters": {
+        "atomic": "79",
+        "energy": "376.3",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempted_at": "2026-10-25T21:31:54.497772+00:00",
+      "automatic_retries": 0,
+      "status": "http-response",
+      "http_status": 200,
+      "bytes": 21315,
+      "path": "tmp/day23-originals/bricc-au-376p3-M1-030.html",
+      "sha256": "10b8f68505fee04eaa67a733d72b3e8549ea0bd4a7787830e9f500a38edafd75",
+      "content_type": "text/html; charset=utf-8",
+      "finished_at": "2026-10-25T21:31:55.777109+00:00"
+    },
+    {
+      "parameters": {
+        "atomic": "79",
+        "energy": "376.3",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempted_at": "2026-10-25T21:31:55.783652+00:00",
+      "automatic_retries": 0,
+      "status": "http-response",
+      "http_status": 200,
+      "bytes": 21312,
+      "path": "tmp/day23-originals/bricc-au-376p3-E2-030.html",
+      "sha256": "6b3cf6205dde235bbfbbf4394b44794479e5958245f17bf836c48628ef206599",
+      "content_type": "text/html; charset=utf-8",
+      "finished_at": "2026-10-25T21:31:57.011737+00:00"
+    },
+    {
+      "parameters": {
+        "atomic": "79",
+        "energy": "462.1",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempted_at": "2026-10-25T21:31:57.021739+00:00",
+      "automatic_retries": 0,
+      "status": "http-response",
+      "http_status": 200,
+      "bytes": 21323,
+      "path": "tmp/day23-originals/bricc-au-462p1-M1-030.html",
+      "sha256": "023f040aa5af6e25de5551418b04f218ffe9c883caa57a80767cda2b724a3b27",
+      "content_type": "text/html; charset=utf-8",
+      "finished_at": "2026-10-25T21:31:58.566923+00:00"
+    },
+    {
+      "parameters": {
+        "atomic": "79",
+        "energy": "462.1",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "attempted_at": "2026-10-25T21:31:58.590741+00:00",
+      "automatic_retries": 0,
+      "status": "http-response",
+      "http_status": 200,
+      "bytes": 21314,
+      "path": "tmp/day23-originals/bricc-au-462p1-E2-030.html",
+      "sha256": "bdbae1f3ac71dd58bc6be683f84f65e1bf8c4f8c35abb4e23d651c5d9456f7ac",
+      "content_type": "text/html; charset=utf-8",
+      "finished_at": "2026-10-25T21:31:59.862330+00:00"
+    }
+  ],
+  "scope": "four nominal pure theory queries only; no experimental fit"
+}

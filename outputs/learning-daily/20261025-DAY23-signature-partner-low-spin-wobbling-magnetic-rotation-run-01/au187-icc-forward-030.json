@@ -1,0 +1,268 @@
+{
+  "scope": "nominal Z79/legacyE exactenergy K theoretical components only, FO, one POST per pair/no retries; no isotope mass input or nuclear radius refit",
+  "formal_day_index": 23,
+  "contract_sha256": "d7e9c96faf31a17a533c61dc1cc28b2261432bfe6850970f9ecd071beeb6f3da",
+  "receipt_sha256": "5125a5ab0907600987463db61a5cc1670e69937eb0eecf89d4f183f369d90bb2",
+  "observation_record_sha256": "a432f826df382c27887b75c4774b0b3722dcf869bf7c63230f06e388d40786ed",
+  "implementation_sha256": "3ce746fe39f3652417fa21e6a9a1cb9c715dca08fe37088e13470cffaec0a78a",
+  "theory_components": {
+    "376.3/M1": {
+      "parameters": {
+        "atomic": "79",
+        "energy": "376.3",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "program_version": "BrIccS v2.3 (9-Dec-2011)",
+      "response_sha256": "10b8f68505fee04eaa67a733d72b3e8549ea0bd4a7787830e9f500a38edafd75",
+      "rows": {
+        "K": {
+          "value": 0.1483,
+          "quoted_error": 0.0021,
+          "printed": "0.1483",
+          "error_digits": "21",
+          "electron_energy_string": "295.58"
+        },
+        "Tot": {
+          "value": 0.18,
+          "quoted_error": 0.003,
+          "printed": "0.180",
+          "error_digits": "3",
+          "electron_energy_string": ""
+        }
+      }
+    },
+    "376.3/E2": {
+      "parameters": {
+        "atomic": "79",
+        "energy": "376.3",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "program_version": "BrIccS v2.3 (9-Dec-2011)",
+      "response_sha256": "6b3cf6205dde235bbfbbf4394b44794479e5958245f17bf836c48628ef206599",
+      "rows": {
+        "K": {
+          "value": 0.036,
+          "quoted_error": 0.0005,
+          "printed": "0.0360",
+          "error_digits": "5",
+          "electron_energy_string": "295.58"
+        },
+        "Tot": {
+          "value": 0.0537,
+          "quoted_error": 0.0008,
+          "printed": "0.0537",
+          "error_digits": "8",
+          "electron_energy_string": ""
+        }
+      }
+    },
+    "462.1/M1": {
+      "parameters": {
+        "atomic": "79",
+        "energy": "462.1",
+        "eerror": "",
+        "multipole": "M1",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "program_version": "BrIccS v2.3 (9-Dec-2011)",
+      "response_sha256": "023f040aa5af6e25de5551418b04f218ffe9c883caa57a80767cda2b724a3b27",
+      "rows": {
+        "K": {
+          "value": 0.0859,
+          "quoted_error": 0.0012,
+          "printed": "0.0859",
+          "error_digits": "12",
+          "electron_energy_string": "381.38"
+        },
+        "Tot": {
+          "value": 0.1041,
+          "quoted_error": 0.0015,
+          "printed": "0.1041",
+          "error_digits": "15",
+          "electron_energy_string": ""
+        }
+      }
+    },
+    "462.1/E2": {
+      "parameters": {
+        "atomic": "79",
+        "energy": "462.1",
+        "eerror": "",
+        "multipole": "E2",
+        "delta": "",
+        "derror": "",
+        "subshells": "on",
+        "dataset": "BrIccFO",
+        "calculate": "Calculate"
+      },
+      "program_version": "BrIccS v2.3 (9-Dec-2011)",
+      "response_sha256": "bdbae1f3ac71dd58bc6be683f84f65e1bf8c4f8c35abb4e23d651c5d9456f7ac",
+      "rows": {
+        "K": {
+          "value": 0.0225,
+          "quoted_error": 0.0004,
+          "printed": "0.0225",
+          "error_digits": "4",
+          "electron_energy_string": "381.38"
+        },
+        "Tot": {
+          "value": 0.0314,
+          "quoted_error": 0.0005,
+          "printed": "0.0314",
+          "error_digits": "5",
+          "electron_energy_string": ""
+        }
+      }
+    }
+  },
+  "forward_points": {
+    "376.3": {
+      "nominal_energy_keV": 376.3,
+      "observations_as_secondary_quotes": [
+        {
+          "value": 0.119,
+          "quoted_error": 0.015,
+          "printed": "0.119",
+          "error_digits": "15",
+          "reference": "1998Ru04",
+          "source_role": "ENSDF quotation of experiment, primary method not verified",
+          "record_line": 203
+        },
+        {
+          "value": 0.11,
+          "quoted_error": 0.03,
+          "printed": "0.11",
+          "error_digits": "3",
+          "reference": "1978Bo05",
+          "source_role": "ENSDF quotation of experiment, primary method not verified",
+          "record_line": 203
+        }
+      ],
+      "predictions": {
+        "Guo_central_delta": {
+          "source_delta_centre": -0.26,
+          "nominal_alphaK": 0.1411892094417385,
+          "point_only_not_branch_family": true,
+          "central_differences_prediction_minus_reported": [
+            {
+              "reference": "1998Ru04",
+              "difference": 0.022189209441738494
+            },
+            {
+              "reference": "1978Bo05",
+              "difference": 0.03118920944173849
+            }
+          ]
+        },
+        "Sensharma_central_delta": {
+          "source_delta_centre": -2.67,
+          "nominal_alphaK": 0.04981490730603155,
+          "point_only_not_branch_family": true,
+          "central_differences_prediction_minus_reported": [
+            {
+              "reference": "1998Ru04",
+              "difference": -0.06918509269396844
+            },
+            {
+              "reference": "1978Bo05",
+              "difference": -0.06018509269396845
+            }
+          ]
+        }
+      },
+      "sign_invariance_error": 0.0
+    },
+    "462.1": {
+      "nominal_energy_keV": 462.1,
+      "observations_as_secondary_quotes": [
+        {
+          "value": 0.05,
+          "quoted_error": 0.009,
+          "printed": "0.050",
+          "error_digits": "9",
+          "reference": "1998Ru04",
+          "source_role": "ENSDF quotation of experiment, primary method not verified",
+          "record_line": 421
+        },
+        {
+          "value": 0.08,
+          "quoted_error": 0.02,
+          "printed": "0.08",
+          "error_digits": "2",
+          "reference": "1978Bo05",
+          "source_role": "ENSDF quotation of experiment, primary method not verified",
+          "record_line": 421
+        }
+      ],
+      "predictions": {
+        "Guo_central_delta": {
+          "source_delta_centre": -0.28,
+          "nominal_alphaK": 0.08129080118694362,
+          "point_only_not_branch_family": true,
+          "central_differences_prediction_minus_reported": [
+            {
+              "reference": "1998Ru04",
+              "difference": 0.03129080118694362
+            },
+            {
+              "reference": "1978Bo05",
+              "difference": 0.0012908011869436214
+            }
+          ]
+        },
+        "Sensharma_central_delta": {
+          "source_delta_centre": -2.98,
+          "nominal_alphaK": 0.028916744261365937,
+          "point_only_not_branch_family": true,
+          "central_differences_prediction_minus_reported": [
+            {
+              "reference": "1998Ru04",
+              "difference": -0.021083255738634066
+            },
+            {
+              "reference": "1978Bo05",
+              "difference": -0.051083255738634065
+            }
+          ]
+        }
+      },
+      "sign_invariance_error": 0.0
+    }
+  },
+  "controls": {
+    "four_frozen_requests_hashes_and_actual_response_roles_checked": true,
+    "Z_energy_multipolarity_FO_and_program_version_echo_checked": true,
+    "all_four_K_central_and_error_fields_read_not_total": true,
+    "historical_alpha_quotes_parsed_from_actual029_records": true,
+    "primary_methods_not_promoted_from_annotation": true,
+    "two_historical_energies_remain_distinct_from_new461point8_source": true,
+    "mixing_sign_unobservable_in_standard_scalar_ICC": true,
+    "each_point_is_in_declared_pure_component_envelope": true,
+    "no_energy_error_or_covariance_silently_propagated": true
+  },
+  "all_controls_pass": true,
+  "limitations": [
+    "Pure theoretical input is not an experimental conversion measurement.",
+    "Printed marginal theory errors are captured; their joint covariance is unknown and no likelihood or interval is assigned.",
+    "Legacy .2keV uncertainty is not propagated; source delta central values are not full allowed families.",
+    "No delta inversion or sign selection, fitted normalization, exclusion significance or nuclear assignment.",
+    "Historical normalizers, shell efficiency, angular response and shared calibration remain unverified.",
+    "Public responses are tmp staging; formal raw archive is deferred."
+  ]
+}

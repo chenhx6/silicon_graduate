@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点029（Day24仅无学分预习）
+## Active handoff — Day23检查点030（Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，截止2026-10-26 15:00+08；active，completed=[]、partial=[23,24]、next23，不开Day25。Farmer2698保持；raw/PLAN/Bib/旧flags/credit/114producer与继承文件保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-028已published。029实际官方ENSDF adopted/两Hgdecay的XML/HTML pre，15控制通过。376旧αKexp转述.119(15)/.11(3)，462为.050(9)/.08(2)，分别1998Ru04/1978Bo05；原paper全文仍未得。MR评价者据αK/L算，SG KC与totalCC/API非新独立票；2009full/cut2008与2013ERR及parentclock/XREF混合版本保持，不自行重写events。新GU22-D23-013–016/Au/方法/umbrella图needs_review:true，raw归档deferred。
+029已published。030官方BrIccS v2.3/FO/Z79两E×M1/E2四HTTP200，K376 .1483(21)/.0360(5)、462 .0859(12)/.0225(4)，nominalE .2误差未传。Guoδcentre给αK .141189/.081291，大δcentre给.049815/.028917；旧376 .119(15)/.11(3)、462 .050(9)/.08(2)分别保留，不称每点中央完全一致或新排除。新KB08-D23-001/002、GU22-D23-017/方法/Au needs_review；raw归档deferred。下一当前bounded分析为quotedδ范围映射，不新增delta/CI。
 
-下一有界官方BrIcc exactE K系数输入/前向条件比较，先核既有KB08lookup form，不反推pure表/不造CI或sign/机时。详情next-continuation-029.md和candidate-pool029；先验证发布当前checkpoint，原窗口继续不早收束。Git指针main · Day23: trace historical conversion values through ENSDF annotations；actualhash/H3仅task-publication-receipt-029.json。
+详next-continuation-030.md/candidate-pool-030.json；检查以required-checks-030.json为准。Git指针main · Day23: compare historical conversion with explicit theory inputs；actualhash/H3仅task-publication-receipt-030.json。
 
 ## Previous handoff — Day22 closeout
 

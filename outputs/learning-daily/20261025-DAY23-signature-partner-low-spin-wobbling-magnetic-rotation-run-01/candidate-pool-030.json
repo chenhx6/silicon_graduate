@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T21:37:37.125563+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "四个实际FO理论K输入/9控制通过，旧αK与两δ源中心逐点前向，不反演或赋CI",
+  "next_route": "检查原quotedδ范围在同理论下的像，区分中央差与范围相交；无需新source或网络重试",
+  "missing_inputs": [
+    "historical primary spectra/electron-photon normalization",
+    "actual joint covariance and original delta likelihood",
+    "isotope-specific response/operators and holdout ledger"
+  ],
+  "Day25_opened": false
+}

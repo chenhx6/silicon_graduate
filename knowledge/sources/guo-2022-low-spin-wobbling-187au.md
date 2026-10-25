@@ -267,3 +267,11 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 | GU22-D23-016 | 评价将1998Ru04/1994RuZX/1995Ru07合列于一段实验描述，而不是声明三次独立采集；1978Bo05另有Au(p,xn) mass-separation描述，187079004还提醒原1978 decay scheme合并两母态数据。adopted旧376/462带Z flag，header定义其E/RI来自1.9m dataset，但当前003中亦列两线，且2013有XREF/clock更正；此处冻结每个记录的文字/端点，不由标签自行重写哪批events属于哪个母态。 | source-family-and-assignment-boundary | direct-official-annotation-and-unresolved-ledger | 187079003/004 experiment headers; 187079004 1978Bo05 combined-parent comment; 187079001 cG E(Z)/RI(Z) and target G flags | true |
 
 三响应SHA256：adopted663bbcedab538fcd87b882a4d82757fda2cc637218e166cdaeb0f946213d8096；2.4m 1b1ae7cdf23afe312655285ebcc0b4f4d0526ac6167eff24dd47283c0457d7d8；1.9m ab682db5108decfd1ec01d8451585bf6b91533f2b3be3656795421d9b3a1c454。抽取文本1678/1522/679行，定向实际读headers、目标母态/γ及其comments，未逐行精读全评价。`system/scripts/day23_au187_conversion_provenance.py`的15控制仅核hash/解析/字段/来源角色，无新δ/理论ICC/似然。[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2的标准混合式只含δ²；旧转换可约束幅度而不单独选择符号。本节没有实际运行BrIcc、量化大根排除度或终审LW/SP。新增needs_review:true，原G22人审范围不改。
+
+## Day23：旧转换与新δ中心并非逐点完全重合
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-017 | 在本任务实际FO查询的历史E376.3/462.1标称能量和标准M1/E2截断下，本文δ中央−.26/−.28前向αK约.1412/.0813，支持方大δ中央给.0498/.0289。旧评价转述376的.119(15)/.11(3)与462的.050(9)/.08(2)须各自并列；不能把“旧转换与新结果一致”的概述改写为四个旧点均与本文δ中央完全相同。尤其462的1998与1978中心不同。未传播各自δ/归一/理论/能量及共同Cov，不据这些中心差报排除度、原paper错误或最终归属。 | conditional-cross-source-centre-comparison | actual-theory-query-plus-secondary-experiment-and-task-forward-model | main PDF3 Fig.3(c,d); GU22-D23-013; KB08-D23-001/002 and task input-contract030 | true |
+
+实际理论输入与条件计算直接回链[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001/002；大δ源中央为[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1。没有反演或补造本核新δ，没有把quoted误差盒当CI；理论表输入缺口已部分解除，历史电子/光子谱归一与全response/Cov仍缺。新增needs_review:true，旧人审及P/δ身份不变。
