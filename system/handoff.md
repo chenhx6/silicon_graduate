@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint025（仅进度号；Day25课程未打开）
+## Active handoff — Day23 checkpoint026（仅进度号；Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24无学分preview/noDay25，formalcredit只23。还有10h+持续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25+，formalcredit只23。还有10h持续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
 
-025targetLKH82p122/PDF4KS/RB关系、ST99p17/PDF2EfieldP/A=QP原页/visual/hash核。newconventionbridge300点/11controls过：native(-1)^L基底dnative=−dRB使fullρ/IQUV只global−不变；purelimits不足以找mixedphase错。quotedLvδ当KS只是额外application未认证producer；747/813小negativeKS可分别P正/负的singlesforward设计不actualfit、width/likelihoodnull。actualPr角组/upstream796/450/eff/feeding/aQ/Cov缺，数值近不叫复现，SH26fixedsigma支持保。
+026LvSI1actualangle/visual/hash核，11controls过的positive-normalizedgroupresponse R=ηWfar/Wnear只boundR/η，actualη/eff/pairweights未给不当actualRacbound/fit。axisymsingles near镜角可等、finiteupstream45设计未必（H差8.65e-5，combinedreflection6.4e-16）；naiveP均值差1.9e-9仅数学，不实测精度/bias。newL22-D23-005/DR96-D23-005/方法/Pr+active-summary，新needs_review，旧SH26fixedsigma支持保；actualCov/rawfeeding/normalizer缺。
 
-新LKH82-D23-001/ST99-D23-001/方法/Prproject+active-summary，freshchecks0/true32changedwritebackvalid/lint0error220warning。下一actualPr角组正权重/relative-normalizerη合同：axisym singles镜near角可等，finiteupstreamgate未必；unknownactualη/eff不默填、不借以宣布根等深，详next-continuation025/candidate-pool025。checkpoint026也只是进度非开新课程卡。Git指针main · Day23: bind photon conventions before comparing line responses；actualH3/hash仅task-publication-receipt-025.json。
+freshchecks0/true32changedwritebackvalid/lint0error220warning。下一L22actual813/726：sourceδ/Iγ变换到rE2/rM1的Jac/inverse/signloss/Σ propagation，先合同，不赋actualCov/CI；hden未知时共享purity、747/526crossband/blankmultipolarity条件保。详next-continuation026/candidate-pool026，027也仅progress非新课程。Git指针main · Day23: preserve angle-group normalization and gate conditions；actualH3/hash仅task-publication-receipt-026.json。
 
 ## Previous handoff — Day22 closeout
 

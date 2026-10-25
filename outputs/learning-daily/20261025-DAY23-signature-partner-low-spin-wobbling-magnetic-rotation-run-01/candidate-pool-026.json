@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-25T20:55:49.482358+00:00",
+  "formal_day_index": 23,
+  "checkpoint026_not_newcard": true,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue originalwindow/currentDay23A, onlyalreadyopenedDay24preview",
+  "bounded_result": "actualsourcepolarangles vsconditionalpositivegroups/unknowneta/finitegate reflections,11controls; notactualRacfit/bound",
+  "next_useful_same_vector_question": "ForL22actual813/726 sameparentstrengthratios rE2/rM1 derivedfromsameIγratio andδ, showexacttransform/inverse/localJac andΣ propagation: theyaretransformedinputsnotnewindependentvotes; Bpairlosesδsign. IncludeunknownE2denfraction h commonnuisance ifdennotpure; do notfitrealCov orinventmeasurement.",
+  "source_inputs": "Eout813.2/Eden726.0,Iout6.4/Iden3.7,δ-.37 andquotedrE2.12/rM1.4 sourcealreadyread. DerivepositivecE2/cM1 fromactualLKH82unitformula020, sourcehomogeneity only. 747/526isothercrossbandoutandhdennotconfirmed; no new747rM1observationfilled.",
+  "contract_requirement": "preregisterformula e=K*y*δ²/(1+δ²),m=L*y/(1+δ²),y=x/hE2den; inversey=e/K+m/L,d²=(e/K)/(m/L). Localrank2forδ!=0butglobal±signambiguity. JΣJ†unknownΣ, nodataCI."
+}

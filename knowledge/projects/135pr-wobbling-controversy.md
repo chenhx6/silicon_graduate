@@ -30,6 +30,8 @@ tags: [135pr, wobbling, controversy, evidence-map, project]
 
 - KS/RB与Efield/Compton坐标桥已按LKH82-D23-001/ST99-D23-001核；前向toy不代真实Pr角组/upstream门/联合似然，详下方“符号约定桥不能替代原响应重放”。
 
+- actual名义角组157.6/133.6与75.5/104.5已源绑定（L22-D23-005），但conditionalη/权重/finitegate尚未恢复；point或normalized-group数学不能当actualRac fit。
+
 ## Research Question
 
 Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Sensharma 2019 的 second side band 是否构成稳健的 two-phonon extension？Lv 2022 的联合 polarization/angular-correlation 反证和 TiP 模型是否改变这些指认的证据强度？
@@ -330,3 +332,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 [[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001与[[starosta-1999-pdco-experimental-test]] ST99-D23-001定向原件将KS/RB发射符号和Efield/Compton轴分清。[[signature-tip-shears-discrimination-contract]]的300点full-photon-basis控制及两个source-bound smallδ前向例只支持可比性合同：两个小模negativeδ可有不同localP号，不提供actualwidth/finitegate/array jointfit。
 
 特别是source013的nominal154/90点与local90不可当本Pr实际157.6/133.6/75.5/104.5组的Rac/P；数值偶近不叫复现。actualproducerδ/轴、rawcounts/eff/feeding/共同Cov仍缺。747+.04/−.47和813−.03/−.37逐线校准、SH26 fixedsigma大根条件支持及未复现jointlikelihood继续保留，无唯一TiP/TW终审或根等深预判。新needs_review:true。
+
+## Day23：actual名义角组的条件响应readiness
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-005及[[droste-1996-pdco-formalism]] DR96-D23-005把两个actualpolar-angle groups和finite-upstream条件分开。[[signature-tip-shears-discrimination-contract]]给positive normalized group-response公式与未知relativeη；它只限制声明模型下R/η，不是实际Rac包络或δ/σ fit。用nominal154/90替代两组真实角仍比较了不同响应。
+
+source013的axisym singles近镜角可以等，实际selected finitegate/perpair权重未恢复时不能默用；source026point反例很小且array方位平均可改，未声称实测bias/漏修。原L22点、747/813逐线符号与SH26fixedsigma条件支持均保持，无root等深/唯一模式判断。新needs_review:true。

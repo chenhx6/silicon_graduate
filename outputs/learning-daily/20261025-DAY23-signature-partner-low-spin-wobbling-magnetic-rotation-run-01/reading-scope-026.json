@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-25T20:50:37.734083+00:00",
+  "formal_day_index": 23,
+  "checkpoint026_not_newcoursecard": true,
+  "only_existing_uncredited_preview_day": 24,
+  "LvSI": {
+    "actual_target": "PDF1Eq1/2/sourceangleparagraph",
+    "fresh_visual": 1,
+    "raw_sha256": "c25cf17ce10efb2d62fc27a665082df7bffeb30f0044726b2730754b035bf225",
+    "hash_matches": true,
+    "not_newfullread": true
+  },
+  "DR96": "sourceprinted522/523 conditionalreflection alreadytargeted013/014, no newfullread",
+  "initial_failure": "chosenfinitepointmirrorHdiff8.65e-5/naivePdiff1.9e-9 belowarbitrary1e-4/1e-6min-effects; no inputtuning, correctchecksasnonzeroabove1e-12numericresolution andreportfullvalues, combinedreflection6.4e-16 controladded. Noactualprecision/effectclaim.",
+  "actual_eta_or_eff_weights_not_supplied": true,
+  "originalcalibrationnotclaimedabsent": true,
+  "oldflags_preserved": true,
+  "newclaims_needs_review": true
+}

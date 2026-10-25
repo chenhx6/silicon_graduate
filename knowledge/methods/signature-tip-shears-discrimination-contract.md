@@ -449,3 +449,22 @@ Day24无学分preview的实际135Nd例（[[mukhopadhyay-2007-135nd-chiral-vibrat
 这说明在所声明响应中small negative KSδ并不要求同一个P号；747 P+.04/δ−.47与813 P−.03/δ−.37须逐线保留，不能把两个偏振号混用。**数值接近也不是复现实验**：实际Pr的Rac使用157.6+133.6与75.5+104.5角组，还包含upstream796/450、有限角/效率/合并权重/feeding/attenuation与jointCov；这些仍缺。局部Efield矩阵已算对只解除一个component/convention问题，不代替全响应、独立多极证据或共同likelihood。
 
 源码`system/scripts/day23_mixing_convention_bridge.py`保source参数角色、extra KS-assumption和null fitted_width/likelihood。没有将模型forward例改成新measuredδ、P/Rac CI或σ/I估计，更不预判两谷等深；SH26固定σ/I=.2的AD大根条件支持照保。Q/a/g/Q(E)/τ、真实rate与机时未填造，新增推断needs_review:true。
+
+## Day23：真实名义角组不等于已恢复真实array响应
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-005把157.6/133.6和75.5/104.5的名义极角锁到原Eq1。即使polar angles实际可核，实际每个selected target/gate pair的有限acceptance、效率/live time、相对组归一和feeding仍须数据。任务只在**每组已独立归一为positive weighted mean**的声明下，写
+
+$$R=\eta\frac{fW_{157.6}+(1-f)W_{133.6}}{nW_{75.5}+(1-n)W_{104.5}},\qquad f,n\in[0,1].$$
+
+η是实际relative group normalizer/calibration的占位符，**未赋本实验数值**。在source013的axisymmetric singles模型里，两near镜角W/P相同，所以n相消；在η=1的额外条件下，R落在min(Wfar)/max(Wnear)与max(Wfar)/min(Wnear)之间。若η未获，则这里只限制R/η，不能称actualRac绝对bound，也不能说原实验没校准或nuisance先验可任意自由。
+
+| 025同样source-bound KS假设、width .4设计 | conditional R/η的positive-weight envelope | 等权示例R/η | near组ideal P | 旧nominal154/90 idealR |
+|---|---|---|---|---|
+| 747.3，dRB+.47 | .413899–.682381 | .548140 | +.009083 | .424487 |
+| 813.2，dRB+.37 | .472193–.717138 | .594665 | −.026947 | .480410 |
+
+这些都不是实际fit/CI或对原点的排除。只看旧点角数值偶近而忽略角组/归一/门，会比较不同对象。KS映射与width均保原conditional角色，不能据表恢复actualσ或δ；原L22、SH26的真实分支支持/反证没有因此被改写。
+
+[[droste-1996-pdco-formalism]] DR96-D23-005给finitegate条件对称的原source边界。task pureE2上游point45°设计的近镜角ρ差8.65e−5，而联合gate/target反射恢复到浮点误差；实际full-array可能去相干，不能从point例推bias。求groupP须先Σwρ而不是等权平均P；该小例的两种P差只有1.9e−9，同样不代表新可测精度。`system/scripts/day23_pr_angle_group_response.py`的11controls只核所声明组件、convex group algebra/PSDs与对称，不认证actualresponse或原producer。
+
+下一输入合同因此具体为：按line/run/gate/target-detector pair的φ/θ acceptance和效率/live time/η校准、conditional feeding/去取向密度与a/Q、共同Cov/likelihood。不能因本任务没拿到这些值就把它们放开无界后宣判两谷等深；SH26 fixedσ/I=.2 AD大根条件支持继续保留。新needs_review:true，未造新δ/g/Q/τ/机时。

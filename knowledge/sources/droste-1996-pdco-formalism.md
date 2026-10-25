@@ -145,3 +145,11 @@ halfspin振幅源与本任务控制见[[rose-brink-1967-phase-defined-angular-di
 | DR96-D23-004 | 从本篇finite detector/gate积分前提出发，本任务将M1/E2上游gate的axisymmetric设计压成固定θ的ηq(q0…4)。uniform方位角可去offdiagonal，但实际effective gate权重须针对target-detector/gate pair、效率/live time/selection；名义array方位对称不保证选定Compton/符合条件仍同权。跨θ应先合未归一density/yield，再求P，不能平均P；没有actualpair response时不将pointgate的coherence差写成实验偏差。 | declared-response-averaging-contract | source-geometry-premise-and-task-inference | printed522 detector-integrated paragraph; printed523 finite PDCO discussion; RB67-D23-004 | true |
 
 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-004给数学moment恒等式；source实际796/450身份仍见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004。本任务未恢复actualpair权重或原P/Rac likelihood。
+
+## Day23：镜角关系需保留门条件
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DR96-D23-005 | printed522–523说明finitePDCO off90°的反射关系需连同directional-detector角/φ处理，不普遍等于singles的单角反射。任务取pureE2上游pointgate45°/φ0、对角Gaussian初态，再发mixed目标，75.5与104.5的photonρ差约8.65e−5；同时把gate45→135、target镜角交换则P残差6.4e−16。只是声明point-design的旋转/条件性控制，不是实际Pr的门偏差；实际array方位合并可改变它。 | original-conditional-symmetry-and-task-control | source-geometry-premise-plus-task-numerics | printed522 symmetry points2–3; printed523 singles/finite-PDCO discussion; task pr-angle-group-response-026 | true |
+
+实际角组源见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-005。组响应应先合未归一photon density再求P；任务所选例中naive均值与正确P仅差约1.9e−9，非实测效应/精度。首次检查用了未有依据的最小effect阈值，后改为相对数值噪声的非零检查并完整保留值，没有调整科学输入或声称大的实验影响。

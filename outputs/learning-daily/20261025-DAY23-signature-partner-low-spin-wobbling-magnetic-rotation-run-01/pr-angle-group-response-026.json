@@ -1,0 +1,327 @@
+{
+  "status": "conditional-source-angle-group-component",
+  "formal_day_index": 23,
+  "only_existing_uncredited_preview_day": 24,
+  "source_premises": [
+    "L22SI PDF1Eq1/2 source angle groups157.6+133.6 vs75.5+104.5",
+    "DR96 printed522/523 finitePDCO reflection boundary",
+    "source025 explicit conditional KS/RB application andideal013kernel"
+  ],
+  "group_definition": "R=eta*[fW157.6+(1-f)W133.6]/[nW75.5+(1-n)W104.5], normalized positive group means only. Eta actual calibration and group/pair weights not provided.",
+  "results": [
+    {
+      "source_line_energy_keV": 747.3,
+      "two_I_source": 17,
+      "quoted_source_delta_centre": -0.47,
+      "conditional_KS_application_d_RB": 0.47,
+      "declared_Gaussian_input_sigma_over_I": 0.2,
+      "actual_source_nominal_angle_points_in_ideal_model": [
+        {
+          "theta_nominal_source_deg": 157.6,
+          "ideal_W": 0.29662334625092535,
+          "local_P_stokes": -0.10275060392305937
+        },
+        {
+          "theta_nominal_source_deg": 133.6,
+          "ideal_W": 0.7720825297041076,
+          "local_P_stokes": -0.06425498472001458
+        },
+        {
+          "theta_nominal_source_deg": 75.5,
+          "ideal_W": 1.3891892392528327,
+          "local_P_stokes": 0.020864442753799024
+        },
+        {
+          "theta_nominal_source_deg": 104.5,
+          "ideal_W": 1.3891892392528327,
+          "local_P_stokes": 0.020864442753799582
+        }
+      ],
+      "conditional_R_divided_by_unknown_eta_envelope_positive_group_weights": [
+        0.21352263454794862,
+        0.5557792328706547
+      ],
+      "equal_weights_illustration_only_R_divided_by_eta": 0.38465093370930153,
+      "equal_near_weights_ideal_Efield_P": 0.020864442753799343,
+      "nominal154_over90_old_ideal_ratio": 0.23509674226928176,
+      "old_ideal_local90_P": 0.03350100550229688,
+      "actual_relative_group_normalizer_eta": null,
+      "actual_group_efficiency_or_pair_weights": null,
+      "real_fit_width_delta_or_likelihood": null,
+      "boundary": "Only after normalized positive group-mean convention. Eta and actual finite detector/pair/gate/feeding/Compton response are not supplied; this is not an absolute bound or fit for measured Rac."
+    },
+    {
+      "source_line_energy_keV": 747.3,
+      "two_I_source": 17,
+      "quoted_source_delta_centre": -0.47,
+      "conditional_KS_application_d_RB": 0.47,
+      "declared_Gaussian_input_sigma_over_I": 0.4,
+      "actual_source_nominal_angle_points_in_ideal_model": [
+        {
+          "theta_nominal_source_deg": 157.6,
+          "ideal_W": 0.5201697753346243,
+          "local_P_stokes": -0.018094733280069854
+        },
+        {
+          "theta_nominal_source_deg": 133.6,
+          "ideal_W": 0.8575851144874149,
+          "local_P_stokes": -0.01709518191421329
+        },
+        {
+          "theta_nominal_source_deg": 75.5,
+          "ideal_W": 1.256754056499489,
+          "local_P_stokes": 0.009083320349217175
+        },
+        {
+          "theta_nominal_source_deg": 104.5,
+          "ideal_W": 1.2567540564994895,
+          "local_P_stokes": 0.009083320349217614
+        }
+      ],
+      "conditional_R_divided_by_unknown_eta_envelope_positive_group_weights": [
+        0.41389942021232345,
+        0.6823810196213707
+      ],
+      "equal_weights_illustration_only_R_divided_by_eta": 0.5481402199168469,
+      "equal_near_weights_ideal_Efield_P": 0.009083320349217437,
+      "nominal154_over90_old_ideal_ratio": 0.42448677253222966,
+      "old_ideal_local90_P": 0.013840311759684863,
+      "actual_relative_group_normalizer_eta": null,
+      "actual_group_efficiency_or_pair_weights": null,
+      "real_fit_width_delta_or_likelihood": null,
+      "boundary": "Only after normalized positive group-mean convention. Eta and actual finite detector/pair/gate/feeding/Compton response are not supplied; this is not an absolute bound or fit for measured Rac."
+    },
+    {
+      "source_line_energy_keV": 747.3,
+      "two_I_source": 17,
+      "quoted_source_delta_centre": -0.47,
+      "conditional_KS_application_d_RB": 0.47,
+      "declared_Gaussian_input_sigma_over_I": 0.8,
+      "actual_source_nominal_angle_points_in_ideal_model": [
+        {
+          "theta_nominal_source_deg": 157.6,
+          "ideal_W": 0.8288979784329362,
+          "local_P_stokes": -0.0009393292007316055
+        },
+        {
+          "theta_nominal_source_deg": 133.6,
+          "ideal_W": 0.9521762843753309,
+          "local_P_stokes": -0.0009267601996606145
+        },
+        {
+          "theta_nominal_source_deg": 75.5,
+          "ideal_W": 1.0895749587162449,
+          "local_P_stokes": 0.0019984761822199014
+        },
+        {
+          "theta_nominal_source_deg": 104.5,
+          "ideal_W": 1.0895749587162449,
+          "local_P_stokes": 0.0019984761822201052
+        }
+      ],
+      "conditional_R_divided_by_unknown_eta_envelope_positive_group_weights": [
+        0.7607535138376872,
+        0.8738969969511786
+      ],
+      "equal_weights_illustration_only_R_divided_by_eta": 0.8173252553944329,
+      "equal_near_weights_ideal_Efield_P": 0.0019984761822201052,
+      "nominal154_over90_old_ideal_ratio": 0.7598734147130666,
+      "old_ideal_local90_P": 0.0026391259991850476,
+      "actual_relative_group_normalizer_eta": null,
+      "actual_group_efficiency_or_pair_weights": null,
+      "real_fit_width_delta_or_likelihood": null,
+      "boundary": "Only after normalized positive group-mean convention. Eta and actual finite detector/pair/gate/feeding/Compton response are not supplied; this is not an absolute bound or fit for measured Rac."
+    },
+    {
+      "source_line_energy_keV": 813.2,
+      "two_I_source": 21,
+      "quoted_source_delta_centre": -0.37,
+      "conditional_KS_application_d_RB": 0.37,
+      "declared_Gaussian_input_sigma_over_I": 0.2,
+      "actual_source_nominal_angle_points_in_ideal_model": [
+        {
+          "theta_nominal_source_deg": 157.6,
+          "ideal_W": 0.3728785791271072,
+          "local_P_stokes": -0.07657941606928009
+        },
+        {
+          "theta_nominal_source_deg": 133.6,
+          "ideal_W": 0.8062212586233837,
+          "local_P_stokes": -0.08066302948910989
+        },
+        {
+          "theta_nominal_source_deg": 75.5,
+          "ideal_W": 1.340686078097462,
+          "local_P_stokes": -0.03140825240018386
+        },
+        {
+          "theta_nominal_source_deg": 104.5,
+          "ideal_W": 1.340686078097462,
+          "local_P_stokes": -0.03140825240018329
+        }
+      ],
+      "conditional_R_divided_by_unknown_eta_envelope_positive_group_weights": [
+        0.27812519665770746,
+        0.6013497654629743
+      ],
+      "equal_weights_illustration_only_R_divided_by_eta": 0.43973748106034094,
+      "equal_near_weights_ideal_Efield_P": -0.03140825240018361,
+      "nominal154_over90_old_ideal_ratio": 0.2966963555390868,
+      "old_ideal_local90_P": -0.023058872041312583,
+      "actual_relative_group_normalizer_eta": null,
+      "actual_group_efficiency_or_pair_weights": null,
+      "real_fit_width_delta_or_likelihood": null,
+      "boundary": "Only after normalized positive group-mean convention. Eta and actual finite detector/pair/gate/feeding/Compton response are not supplied; this is not an absolute bound or fit for measured Rac."
+    },
+    {
+      "source_line_energy_keV": 813.2,
+      "two_I_source": 21,
+      "quoted_source_delta_centre": -0.37,
+      "conditional_KS_application_d_RB": 0.37,
+      "declared_Gaussian_input_sigma_over_I": 0.4,
+      "actual_source_nominal_angle_points_in_ideal_model": [
+        {
+          "theta_nominal_source_deg": 157.6,
+          "ideal_W": 0.5779048535127692,
+          "local_P_stokes": -0.020882024776888528
+        },
+        {
+          "theta_nominal_source_deg": 133.6,
+          "ideal_W": 0.8776872872658805,
+          "local_P_stokes": -0.03594797837143516
+        },
+        {
+          "theta_nominal_source_deg": 75.5,
+          "ideal_W": 1.2238754577539026,
+          "local_P_stokes": -0.026947277919021025
+        },
+        {
+          "theta_nominal_source_deg": 104.5,
+          "ideal_W": 1.2238754577539024,
+          "local_P_stokes": -0.026947277919020577
+        }
+      ],
+      "conditional_R_divided_by_unknown_eta_envelope_positive_group_weights": [
+        0.47219253384928533,
+        0.7171377460878592
+      ],
+      "equal_weights_illustration_only_R_divided_by_eta": 0.5946651399685723,
+      "equal_near_weights_ideal_Efield_P": -0.026947277919020844,
+      "nominal154_over90_old_ideal_ratio": 0.48041031278191787,
+      "old_ideal_local90_P": -0.024559906200697694,
+      "actual_relative_group_normalizer_eta": null,
+      "actual_group_efficiency_or_pair_weights": null,
+      "real_fit_width_delta_or_likelihood": null,
+      "boundary": "Only after normalized positive group-mean convention. Eta and actual finite detector/pair/gate/feeding/Compton response are not supplied; this is not an absolute bound or fit for measured Rac."
+    },
+    {
+      "source_line_energy_keV": 813.2,
+      "two_I_source": 21,
+      "quoted_source_delta_centre": -0.37,
+      "conditional_KS_application_d_RB": 0.37,
+      "declared_Gaussian_input_sigma_over_I": 0.8,
+      "actual_source_nominal_angle_points_in_ideal_model": [
+        {
+          "theta_nominal_source_deg": 157.6,
+          "ideal_W": 0.8508691332598752,
+          "local_P_stokes": -0.003124233341106156
+        },
+        {
+          "theta_nominal_source_deg": 133.6,
+          "ideal_W": 0.9586069001852635,
+          "local_P_stokes": -0.00876707212553015
+        },
+        {
+          "theta_nominal_source_deg": 75.5,
+          "ideal_W": 1.0778788831531072,
+          "local_P_stokes": -0.01177629625426659
+        },
+        {
+          "theta_nominal_source_deg": 104.5,
+          "ideal_W": 1.0778788831531072,
+          "local_P_stokes": -0.011776296254266384
+        }
+      ],
+      "conditional_R_divided_by_unknown_eta_envelope_positive_group_weights": [
+        0.7893921539411155,
+        0.8893456539208388
+      ],
+      "equal_weights_illustration_only_R_divided_by_eta": 0.8393689039309772,
+      "equal_near_weights_ideal_Efield_P": -0.011776296254266488,
+      "nominal154_over90_old_ideal_ratio": 0.7883059956744289,
+      "old_ideal_local90_P": -0.012010363784648545,
+      "actual_relative_group_normalizer_eta": null,
+      "actual_group_efficiency_or_pair_weights": null,
+      "real_fit_width_delta_or_likelihood": null,
+      "boundary": "Only after normalized positive group-mean convention. Eta and actual finite detector/pair/gate/feeding/Compton response are not supplied; this is not an absolute bound or fit for measured Rac."
+    }
+  ],
+  "finite_upstream_coplanar_countercontrol": {
+    "spins_twice": [
+      25,
+      21,
+      19
+    ],
+    "initial_Gaussian_sigma_over_I_design": 0.2,
+    "upstream_gate": "pureE2 pointtheta45 phi0, unpolarized helicity sum",
+    "target_d_RB_design": 0.37,
+    "near_angle_observables": [
+      {
+        "theta": 75.5,
+        "intensity": 1.252676098207294,
+        "P_stokes": -0.03723842034391175,
+        "min_helicity_eigenvalue": 0.6030142095537399
+      },
+      {
+        "theta": 104.5,
+        "intensity": 1.2525030504183055,
+        "P_stokes": -0.03729334936368121,
+        "min_helicity_eigenvalue": 0.6028965082899896
+      }
+    ],
+    "photon_density_mirror_difference_design": 8.652389449459452e-05,
+    "summed_unnormalized_photon_P": -0.03726588295665757,
+    "intensity_weighted_P_same_quantity": -0.03726588295665762,
+    "naive_arithmetic_mean_P_other_quantity": -0.03726588485379648,
+    "P_mean_difference_design_only": 1.8971389043054288e-09,
+    "numeric_resolution_for_nonzero_checks": 1e-12,
+    "combined_gate_target_reflection_error": 6.38378239159465e-16,
+    "scope": "Finite coplanar point-gate design only. Uniform azimuth or other actual acceptances can change/remove the coherence. No experimental bias or correction is inferred."
+  },
+  "control_errors": {
+    "max_axisymmetric_mirror_density_error": 5.551115123125783e-16,
+    "max_convex_envelope_defect": 1.1102230246251565e-16,
+    "max_group_formula_error": 2.220446049250313e-16,
+    "max_eta_scaling_error": 0.0,
+    "min_photon_eigenvalue": 0.0
+  },
+  "controls": {
+    "axisymmetric_singles_mirror_near_ring_photon_density_equal": true,
+    "positive_group_ratio_inside_conditional_convex_envelope": true,
+    "group_formula_matches_unnormalized_density_combination": true,
+    "conditional_eta_scaling_is_explicit": true,
+    "all_declared_photon_densities_positive": true,
+    "nominal154_over90_not_equal_to_equal_actual_angle_means": true,
+    "finite_upstream_example_positive_density": true,
+    "finite_upstream_mirror_difference_resolved_above_numeric_error": true,
+    "polarization_of_sum_equals_intensity_weighted_P": true,
+    "naive_mean_P_difference_resolved_not_size_claim": true,
+    "combined_gate_target_reflection_restores_symmetry": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_pr_angle_group_response.py": "03dd4d3fd607760cbb83b5aca0b46e31363e77607f493e9eef629380aba072ef",
+    "/workspace/wiki/system/scripts/day23_halfspin_singles_response.py": "a6c93f9f32cb1425a5ddf2aeaebc935f346e838dedd322cee98b3fe9811829ec",
+    "/workspace/wiki/system/scripts/day23_halfspin_upstream_gate.py": "f74b7451e1453c1fc63f94b9364d0583acb7883fb418f6e678d51ed8d2b76342",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "Actual nominal polar angles are source inputs, but the declared normalized group-mean weights/eta, angular acceptance, efficiencies/live time and selected gate-detector pairs are not reconstructed.",
+    "The envelope bounds R/eta under the stated model, not actual Rac when eta is unknown. It does not assert original authors lacked calibration or that its nuisance range is unbounded.",
+    "Mirror cancellation of near-ring weights requires axisymmetric singles response. A selected finite upstream gate may break that condition; the point-gate example is not a measured effect.",
+    "Quoted source delta centres are used only under the extra KS definition application assumption. No actual width, delta, net count, Q/a, feeding density, covariance or likelihood is fitted.",
+    "Positive-group-weight averaging of a photon density preserves intensities; an arithmetic average of normalized P values is a different object unless weights are adjusted.",
+    "No actual Pr/Au response/experiment is certified, SH26 fixedsigma/I AD support is preserved and real likelihood valleys are not declared equal.",
+    "No g/Q/new tau/CI/facility rate/beamtime generated; checkpoint026 is a progress number, not a newDay26card."
+  ]
+}

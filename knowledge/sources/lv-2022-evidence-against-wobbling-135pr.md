@@ -253,3 +253,13 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 | L22-D23-004 | 747偏振用450门，813偏振用796门。与SI Table1端点合读，796.4为25/2−→21/2− E2，先于813.2的21/2−→19/2−；450.2的19/2−→17/2−先于747.3的17/2−→15/2−。二者是上游门；不能把“对后续光子作4π迹而恢复先发光子singles”的恒等式反过来认证目标母态取向已知。当前只是source身份与响应readiness，不证明作者忽略该效应、原P/δ有错或污染存在。 | line-bound-upstream-gate-and-response-boundary | direct-original-plus-cascade-order-inference | SI PDF3 Figs.3–4; SI PDF4 gate-selection paragraphs; SI PDF5 Table1 rows450.2/747.3/796.4/813.2 | true |
 
 上游门的量子响应练习见[[signature-tip-shears-discrimination-contract]]，前提为[[droste-1996-pdco-formalism]] DR96-D23-003与[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003；它未拟合本实验实际角环/权重或计数，不能代替原条件响应核。
+
+## Day23：实际角组与conditional group-response的区分
+
+本次只定向回核SI PDF1 Eq1/2与角组段，fresh视觉/原SI SHA相符；不是全文重读，旧page/claim人审范围保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D23-005 | Eq1的far角组为157.6/133.6，near为75.5/104.5，并用all-detector轴相同gates。任务在声明每组为positive weighted mean后写R=ηWfar/Wnear，η为实际relative group calibration/normalizer未获值；轴对称singles中near镜角W/P相同可取消组内权重，但不取消η。用本文nominal角替代013的154/90改变conditional响应；这不等于原作者没校准、unknownη无界或actualRac已被新包络限定。 | source-angle-identity-and-declared-normalizer-boundary | direct-original-plus-task-conditional-response | SI PDF1 Eq.1–2 and preceding angle-group paragraph; task model-contract-026 | true |
+
+任务KS应用假设、Gaussian宽度、有限门/acceptance未齐的边界仍见[[signature-tip-shears-discrimination-contract]]；不能用conditional η=1数字与本文点比较后宣布原δ/σ或jointlikelihood已复现。

@@ -1,0 +1,30 @@
+{
+  "scope": "checkpoint026 progressnumber/originalDay23 A:actualsourceangles/conditionalgroupη/finitegate response only, not actualPrRacbound/fit/bias ornewcard",
+  "subject": "Day23: preserve angle-group normalization and gate conditions",
+  "paths": [
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/projects/135pr-wobbling-controversy.md",
+    "knowledge/sources/droste-1996-pdco-formalism.md",
+    "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day23_pr_angle_group_response.py",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/model-contract-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/pr-angle-group-response-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/candidate-pool-026.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-026.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-025.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-026.json"
+  ],
+  "H2_EOL": {
+    "exit_code": 1,
+    "unsafe_mixed": 0,
+    "scope": "four taskownedknowledge deltas, allsourceflags/protectedbaselineunchanged"
+  }
+}

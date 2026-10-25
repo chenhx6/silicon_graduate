@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-25T20:44:45.923436+00:00",
+  "source": "actualLvSI PDF1Eq1/2 ringgroups157.6/133.6 and75.5/104.5, freshvisual/hash; DR96printed522off90finitePDCOreflection caveat, priororiginal013–015kernelcontracts",
+  "object": "Source025conditionalKS-RB mapping +source-bound δcentres anddeclarativeGaussianσ/I=.2/.4/.8 singlephoton response atactualnominalringpolarangles. Anglesareactualsourceinputs,but unknownfinitearray/selectedgate/relativeeffnormalizers are NOT supplied.",
+  "group_formula": "Aftereachgroupnormalized topositiveweightedmean, R=eta*[f W157.6+(1-f)W133.6]/[n W75.5+(1-n)W104.5], f,n in[0,1]. eta is actualrelativegroupnormalizer/correctionnotprovided here; eta=1only declaredillustration, not historicalcalibrationproof.",
+  "polarization_formula": "H_group=ΣwH_photon (unnormalized intensities), P=Qstokes_group/Wgroup. Not arithmeticaveragePunlessintensityweightsaccounted. Alllocalaxesphi0 onlydesign, actualComptonacceptance/aQnotincluded.",
+  "source_angle_identity": "initialMi diagonal+axisym singles: W75.5=W104.5 andP75.5=P104.5 reflection. It cancelswithin-groupunknownnearweights inthatidealmodelonly, notunknownoverallgroupeta.",
+  "bounded_ratio_envelope": "conditionaleta=1 minfarW/maxnearW<=R<=maxfarW/minnearW frompositiveweights;ifetaundefined,noabsoluteboundonactualRac. Do notinferactualcalibrationunbounded/missing inoriginalstudy.",
+  "comparison": "showactualanglemodelenvelope vsnominal154/90forward025, nofit/reject/pvalue/Cov. Noeffectiveaverageangle assumed.",
+  "finitegate_countercontrol": "25/2->21/2 pureE2 upstream pointgate45phi0 initialGaussian.2 followedtarget21/2->19/2dRB+.37 declaredconditional; compare75.5/104.5. Canbreaksinglesreflection, notobservedPrbias. Source014/015pointtofullarraylimitsretained.",
+  "controls": [
+    "positivephotonstates/intensities andfullH weightedmixtures",
+    "axisymmirrorringdensityresponse equality",
+    "convexratioenvelopescontainallpredeclaredf/n grid andextremaattainable",
+    "conditionalpositiveeta scalingRnotEfieldP, noactualetaassigned",
+    "nominal154/90notuniversalequalgroupresponse",
+    "finiteupstreamdesign candiffernearringresponses; ifnumericallyequalrecordboundarynotforcecounterexample",
+    "weightedH computesintensityweightedP notnaivemeanP in chosenfinitegatedesign",
+    "sourceKSapplication/widthdesignroleandno fittedwidthunchanged"
+  ],
+  "prohibited": [
+    "actualRacboundedwithunknowneta/perpairresponse",
+    "equalweightsfromhardwaredetectorcounts",
+    "modelgroupnearactualpoint=realmeasurementreproduced",
+    "Lvσvariance interpretedasstdcertified",
+    "freecalibration=>realχ²minimaequal",
+    "infernewδ/Q/a/g/tau/CI/beamtime",
+    "Day25/26cardorformalDay24credit",
+    "114quarantinedproducers"
+  ]
+}
