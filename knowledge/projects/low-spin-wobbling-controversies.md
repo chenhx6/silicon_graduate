@@ -570,3 +570,19 @@ flowchart LR
 ```
 
 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2给α仅含δ²的标准式；sign需干涉量另约束。旧αK与评价MR共享输入，API不提供额外独立δ票；支持方新AD和反方新P/Rac的真实冲突保持，当前不作最终LW/SP归属。
+
+## Day23：Au同研究版本与Band3身份节点
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-001–005把实际可读2022书章接入谱系：图表/校准/局部选根仍沿同研究，具体Band3门谱补可比较输入，未增加独立采集。[[guo-2022-low-spin-wobbling-187au]]的Pt身份反证仍待逐门共同对象。总体产额与局部污染份额的条件记账见[[signature-tip-shears-discrimination-contract]]，新needs_review:true。
+
+```mermaid
+flowchart LR
+    Campaign["Au支持方run2/3采集"] --> PRL["2020 PRL: LW/SP解释"]
+    Campaign --> Thesis["2021 thesis与2022 Analysis: 同研究详细谱/AD"]
+    Thesis --> Gate["232.5+436.5门: 412.3/548.6等伴随"]
+    Guo["Guo独立HIRFL采集"] --> Pt["Band3近线的188Pt身份重指派"]
+    Gate -. "共同门/净峰/event ledger待核" .-> Pt
+    Guo --> B2["Band2小delta/轨道解释"]
+```
+
+Band3改核素与Band2改configuration不是同一假说；只改configuration的练习须冻结核素身份。PACE4总体Pt比例不能替selected weakpeak纯度，不由书章重印或近能量吻合终审任一归属。

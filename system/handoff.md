@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点034（Day24仅无学分预习）
+## Active handoff — Day23检查点035（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-033已published。034直接源Eq2.43/2.45–2.51 Racah与photon在36设计δ点两取向相合，max5.2e−15/4.5e−15，七控制过；数学dRB=−δEq已核，实际producer/P轴/array/gate仍缺。SE21-D23-10/方法/Au新needs_review。下一新取得2022Analysis章PDF实际200约1.95MB，DOI10.1007/978-3-031-17150-5_4，SHA cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470，tmp/au2022-analysis035.pdf；先核版本与相关章图表，不当新实验。
+034已published。035实际Springer2022Analysis33页pp63–95，DOI10.1007/978-3-031-17150-5_4、SHA cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470，仅tmp/rawdeferred。所核α/A2A4/采样与2021相同；实际232.5+436.5双门有412.3/548.6及yrast，429.2称<最强线1%、无higherlink数值上限。作者PACE4总体Pt<约10%不等target弱峰纯度。SE22-D23-001–005/方法/Au/谱系needs_review；下一核Pt188原级联，identityreassign≠configurationonly。
 
-详next-continuation-034.md/candidate-pool-034.json；检查以required-checks-034.json为准。Git指针main · Day23: verify the source angular convention algebraically；actualhash/H3仅task-publication-receipt-034.json。
+详next-continuation-035.md/candidate-pool-035.json；检查以required-checks-035.json为准。Git指针main · Day23: bind the Au support spectra to their shared campaign；actualhash/H3仅task-publication-receipt-035.json。
 
 ## Previous handoff — Day22 closeout
 

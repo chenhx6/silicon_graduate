@@ -31,11 +31,11 @@
   "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-26T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-26T06:09:22.019029+08:00",
+    "now_local": "2026-10-26T06:20:31.390964+08:00",
     "hard_deadline": "2026-10-26T15:00:00+08:00",
     "next_scheduled_start": "2026-10-26T16:00:00+08:00",
-    "minutes_to_deadline": 530,
-    "minutes_to_next_start": 590,
+    "minutes_to_deadline": 519,
+    "minutes_to_next_start": 579,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -65,8 +65,8 @@
     "-a",
     "never"
   ],
-  "checkpoint_receipt": "runtime-snapshot-034.json",
-  "latest_continuation": "next-continuation-034.md",
+  "checkpoint_receipt": "runtime-snapshot-035.json",
+  "latest_continuation": "next-continuation-035.md",
   "uncredited_preview_day_index": 24,
   "preview_entry": "preview-entry-017.json"
 }

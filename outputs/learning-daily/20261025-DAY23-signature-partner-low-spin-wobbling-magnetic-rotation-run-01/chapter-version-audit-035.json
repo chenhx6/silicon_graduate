@@ -1,0 +1,98 @@
+{
+  "observed_at": "2026-10-25T22:16:52.169388+00:00",
+  "actual_pdf": "tmp/day23-originals/au2022-analysis035.pdf",
+  "sha256": "cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470",
+  "DOI": "10.1007/978-3-031-17150-5_4",
+  "page_count": 33,
+  "printed_pages": [
+    63,
+    95
+  ],
+  "reading_scope": "allchaptermainline text, tables inspected selectively; detailedvisualp73/79/80/81/86/91; not alltablesentrybyentry, not wholebook",
+  "version_mapping": [
+    {
+      "item": "Au333.8alpha2/alpha4,sigma/J",
+      "2021": "printed97 Table4.1",
+      "2022": "printed79 Table4.1",
+      "values": ".84(1),.81(1),.2",
+      "change": "none in compared row"
+    },
+    {
+      "item": "376initialA2/A4",
+      "2021": "printed98 Fig4.12",
+      "2022": "printed80 Fig4.12",
+      "values": "-.6704(+.0136/-.0134),.3194(+.0178/-.0172)",
+      "change": "none in comparedlabels"
+    },
+    {
+      "item": "376deltafitcentre",
+      "2021": "printed99 Fig4.13",
+      "2022": "printed81 Fig4.13",
+      "values": "-2.6637(+.0695/-.0713)",
+      "change": "none in comparedlabel"
+    },
+    {
+      "item": "Au376/461.8A2A4/r",
+      "2021": "printed117–118 Table4.4",
+      "2022": "printed91 Table4.4",
+      "values": "376-.730(2)/.523(1)/.48(3);461.8-.699(1)/.502(1)/.38(1)",
+      "change": "none in comparedrows"
+    },
+    {
+      "item": "twoχ²roots thenlocalMCMC",
+      "2021": "printed98–99 steps1–5",
+      "2022": "printed79steps1–5",
+      "change": "same comparedprocedure; no new globalprofiles/actualchain"
+    }
+  ],
+  "newly_bound_gate_evidence": [
+    {
+      "locator": "2022printed71Sec4.3.2/printed73Fig4.7",
+      "gate": "sumdoublegatesyrastE2",
+      "author_peaks": [
+        "265.3",
+        "436.5"
+      ]
+    },
+    {
+      "locator": "2022printed73Fig4.8",
+      "gate": "232.5+436.5",
+      "author_peaks": [
+        "412.3",
+        "548.6",
+        "333.8",
+        "413.7",
+        "567.0"
+      ]
+    },
+    {
+      "locator": "2022printed71Sec4.3.2",
+      "line": "429.2",
+      "source_limit": "authorreportsbelow1percent of strongestline, higherB2B3linksnotobserved presumedstats, no numericalupperlimits"
+    }
+  ],
+  "higher_band2_delta_as_reported": [
+    {
+      "energy_keV": 763.7,
+      "delta": -4.51,
+      "plus": 0.24,
+      "minus": 0.26,
+      "locator": "2022printed86Fig4.20e"
+    },
+    {
+      "energy_keV": 855.2,
+      "delta": -5.54,
+      "plus": 1.45,
+      "minus": 2.52,
+      "locator": "2022printed86Fig4.20f"
+    }
+  ],
+  "source_limits": [
+    "readable publisherPDF has exclusive-license copyright line, no OAlicenseinference",
+    "no newindependentexperiment for2022version",
+    "globalPtpopulationestimatedbelow10percent not local weakpeakpurity",
+    "cov/stepwiseprocessing/actualprimarymatrix stillmissing",
+    "actualP/preciseδnotdeducedfromDCO-like r forweaklines",
+    "oldflags unchanged/newclaimsneeds_review"
+  ]
+}

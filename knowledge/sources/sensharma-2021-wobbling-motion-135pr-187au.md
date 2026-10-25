@@ -249,3 +249,19 @@ Eq3.6把角分布fit写为A0(1+A2P2+A4P4)，并称由峰面积拟合得experimen
 | SE21-D23-10 | 对本源打印F公式的δEq，以dRB=−δEq，complete absMhalf和Gaussian两类A0/A2/A4在4个halfspin×9个设计δ上分别一致至5.2e−15/4.5e−15；3个解析6j、Bhalf=ρhalf及C0控制通过。由此033的符号桥在这份打印AD公式层得到独立收缩检查，但实际producer接口、P轴及finitearray/gate响应仍未认证，不能称原analysis已复现。 | mathematical-source-equation-coordinate-bridge | source-formula-plus-task-algebra | same-formula-no-new-experiment | printed40–42 Eqs2.43/2.45–2.51; task input-contract034 | true |
 
 用Fig4.13实际报出的δEq=−2.6637再代源式，complete A2/A4=−.729393/.523023，Gaussianσ/I=.2为−.669375/.390079。它们接近Table4.4或Fig4.12的某些分量，仍没有给出两图/表的原校正映射；本任务没有调整σ、α或δ来强配全部分量。[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002是另一路photon基底前提，[[signature-tip-shears-discrimination-contract]]保留AD数学桥与实际analysis readiness的区别。新needs_review:true。
+
+## Day23：外部2022书版Analysis章的实际对照
+
+本节单独标识2022版文档，不更改本页2021博士论文的元数据/raw或旧review范围。N. Sensharma，*Analysis*，载*Wobbling Motion in Nuclei: Transverse, Longitudinal, and Chiral*，Springer Theses(2022)，pp.63–95，DOI[10.1007/978-3-031-17150-5_4](https://doi.org/10.1007/978-3-031-17150-5_4)。实际publisher页面与[chapter PDF](https://link.springer.com/content/pdf/10.1007/978-3-031-17150-5_4.pdf)均HTTP200，33页、1,951,994bytes、SHA256 cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470。PDF仅tmp/day23-originals/au2022-analysis035.pdf，正式raw归档deferred。首版权行为作者独家许可Springer2022，可读取不自行认证OA许可或机构身份。
+
+本次读完该章主线文本，定向视觉核printed73/79/80/81/86/91的谱、校准、corner plots、AD和表；其它表未逐条核所有数值，不称整本2022书已读。2021与2022只对下列明确项目作版本比较，不断言全文逐字相同。
+
+| ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| SE22-D23-001 | 2022 Table4.1的Au333.8 α2/α4=.84(1)/.81(1)、σ/J=.2，Fig4.12的376 A2/A4=−.6704/.3194、Fig4.13 δ=−2.6637，及Table4.4的376/461.8 A2/A4/r，与本页SE21-D23-6/8所核2021相应项目相同；图/表阶段差仍在，没有由新版日期自动解决。 | external-edition-targeted-comparison | actual2022-original-text-and-visual | same-study-version-not-new-acquisition | 2022printed79 Table4.1;80Fig4.12;81Fig4.13;91Table4.4 | true |
+| SE22-D23-002 | 2022的方法仍先A2解δ候选、逐根算χ²、选较低根再邻域MCMC，并在后续使用A2/A4；七组对称环各作效率校准。DCO-like r由forward/backward与middle峰面积比得到，本源pureD/Q约.8/1.2，作者明说不能由它提精确混合比。这些是该研究的定义/条件，不是跨阵列Rac硬门或新公布全局双根权重。 | external-edition-method-and-calibration | actual2022-text-and-visual | same-method-chain | 2022printed78–79 Sec4.4.1 steps1–5;84Eq4.7;86Table4.2 | true |
+| SE22-D23-003 | 支持方对Band3明确给巧合谱：合并yrast E2双门的Fig4.7标265.3/436.5；232.5+436.5双门Fig4.8标Band3的412.3/548.6及yrast333.8/413.7/567.0。正文另报告Band2→3的429.2低于最强线1%，高spin B2–3 links未见而归因统计。它提供支持方实际门/伴随峰证据，不能从图标识直接认证所有峰已排188Pt或为未见高spin线补数值上限。 | source-coincidence-support-and-companion-observables | actual2022-text-and-spectrum | same-Au-run2plus3-supporting-campaign | 2022printed71 Sec4.3.2;73Figs4.7/4.8;74Fig4.9 | true |
+| SE22-D23-004 | 正文明知Band3近能量线也见于188Pt，引用其Ref11；作者报告PACE4预期188Pt相对187Au布居<约10%，并称用低能线强度估计检验，同时以巧合关系支持Band3归187Au。本任务尚未取得PACE4完整输入、逐门效率/分支与event ledger；总布居比不是目标弱峰或selected doublegate的污染比例上限。 | source-contamination-argument-and-transfer-boundary | actual2022-author-report-plus-bounded-inference | populationestimate-and-spectra-not-independent-acquisitions | 2022printed71 Sec4.3.2 Pt discussion;94Ref11 | true |
+| SE22-D23-005 | Fig4.20(e,f)实际打印763.7 δ=−4.51(+.24/−.26)、855.2 δ=−5.54(+1.45/−2.52)，均为Band2→yrast高spin links的同分析AD结果；不是Guo对这两线新增P或新采集。未因最低376/462的分支冲突便自动把所有高spin测量重指为小根，也不把这些源条件δ当独立模式终审。 | source-highspin-companion-and-coverage | actual2022-figure-visual | sameAD-pipeline-and-campaign | 2022printed86 Fig4.20(e,f) | true |
+
+当前比较关系见[[187au-longitudinal-wobbling-controversy]]及[[signature-tip-shears-discrimination-contract]]。[[guo-2022-low-spin-wobbling-187au]]的独立non-observation/188Pt重归属与本支持巧合谱并列，未获同一门/净峰/response/event对象的联合重放。原PRL待刊Ref26尚未由有界检索唯一识别为某篇期刊后续文；此次得到的是确切书章版本，不据搜索空结果宣称后续文不存在。新增claims均needs_review:true。

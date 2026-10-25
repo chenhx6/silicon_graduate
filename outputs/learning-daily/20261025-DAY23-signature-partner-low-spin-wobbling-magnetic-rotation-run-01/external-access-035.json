@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-25T22:16:52.169388+00:00",
+  "publisher_access": [
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-17150-5_4",
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-031-17150-5_4",
+      "status": 200,
+      "bytes": 412677,
+      "type": "text/html; charset=utf-8",
+      "path": "tmp/day23-originals/au2022-analysis035-45cc136.html",
+      "sha256": "7cf7fa864cf7097192e1b4f004922b28e93dcbaa257621c828d52f46b7cf76d0",
+      "pdf": false
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-17150-5_4.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-17150-5_4.pdf",
+      "status": 200,
+      "bytes": 1951994,
+      "type": "application/pdf",
+      "path": "tmp/day23-originals/au2022-analysis035.pdf",
+      "sha256": "cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470",
+      "pdf": true
+    }
+  ],
+  "metadata_discovery": [
+    {
+      "name": "crossref-author-title",
+      "url": "https://api.crossref.org/works?query.author=Sensharma&query.title=187Au&rows=15",
+      "status": 200,
+      "path": "tmp/day23-originals/au-followup035-crossref-author-title.txt",
+      "bytes": 187,
+      "sha256": "09106de974da9d8943aaf91fd20a6ced65cadfbaa82304d917ec5efc089984ec",
+      "items": []
+    },
+    {
+      "name": "openalex",
+      "url": "https://api.openalex.org/works?search=187Au+Sensharma&per-page=10",
+      "status": 200,
+      "path": "tmp/day23-originals/au-followup035-openalex.txt",
+      "bytes": 89693,
+      "sha256": "64e060fa361f7b3a61c6233eb637bf3b581f636944d20beabdfbbcf1f4e32148",
+      "items": [
+        {
+          "title": "A wobbly nucleus",
+          "doi": "https://doi.org/10.1126/science.367.6481.996-g",
+          "year": 2020,
+          "OA": {
+            "is_oa": false,
+            "oa_status": "closed",
+            "oa_url": null,
+            "any_repository_has_fulltext": false
+          }
+        },
+        {
+          "title": "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei",
+          "doi": "https://doi.org/10.1016/j.physletb.2022.137010",
+          "year": 2022,
+          "OA": {
+            "is_oa": true,
+            "oa_status": "diamond",
+            "oa_url": "https://www.sciencedirect.com/science/article/pii/S0370269322001447/pdf",
+            "any_repository_has_fulltext": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "arxiv",
+      "url": "https://export.arxiv.org/api/query?search_query=au%3ASensharma+AND+%28all%3A187Au+OR+all%3AAu-187%29&max_results=10",
+      "status": 200,
+      "path": "tmp/day23-originals/au-followup035-arxiv.txt",
+      "bytes": 3607,
+      "sha256": "c79359737b1381dfd2bff80fb0983cf3f52d772204678171e99b63370eecfc35",
+      "preview": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns=\"http://www.w3.org/2005/Atom\">\n  <id>https://arxiv.org/api/zSPfL20rZ6zijD0zVY8Quru0QEU</id>\n  <title>arXiv Query: search_query=au:Sensharma AND (all:187Au OR all:Au-187)&amp;id_list=&amp;start=0&amp;max_results=10</title>\n  <updated>2026-10-25T22:06:08Z</updated>\n  <link href=\"https://arxiv.org/api/query?search_query=au:Sensharma+AND+(all:187Au+OR+all:Au-187)&amp;start=0&amp;max_results=10&amp;id_list=\" type=\"application/atom+xml\"/>\n  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>\n  <opensearch:totalResults>1</opensearch:totalResults>\n  <opensearch:startIndex>0</opensearch:startIndex>\n  <entry>\n    <id>http://arxiv.org/abs/1906.04408v"
+    }
+  ],
+  "Crossref_initial": "longquery gave unrelatedreferences; chapterDOI found insecondquery; nevertreated asnegativephysicalevidence",
+  "Scholar": "oneboundedtoolcall failed/time-out, no result, noautomaticretry",
+  "formal_raw_archive": "deferred,tmp only"
+}

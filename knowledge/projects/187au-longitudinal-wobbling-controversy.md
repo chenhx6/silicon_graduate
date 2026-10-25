@@ -30,6 +30,7 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 - Day23实际376 δ上误差+.11、API时间窗/clock/total-vs-K及原conversion正文缺口见GU22-D23-001–012；现代导出不新增独立conversion票。
 - 实际官方ENSDF注释现已补出旧αK数值及其评价MR依赖，见GU22-D23-013–016；原paper全文仍缺。
 - 支持方同线Fig4.12与Table4.4系数阶段尚待绑定，见SE21-D23-8/9；不能直接当同一原始AD向量。
+- 实际2022 Analysis书章的Band3门谱/版本对照见SE22-D23-001–005；总体Pt比不当峰纯度界，具体原Pt级联待核。
 - source模型β/参考core与多轨道算符迁移仍需冻结实际producer；[[signature-tip-shears-discrimination-contract]]保raw/相位/response输入边界，不作最终LW/SP终审。
 
 ## Research Question
@@ -332,3 +333,16 @@ kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] 
 ## Day23：从公式桥转向原处理链缺口
 
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-10已在打印AD公式层核dRB=−δEq，36设计点两种取向与[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002的photon收缩一致。该结果支持[[signature-tip-shears-discrimination-contract]]的坐标比较，不认证实际producer或解释Fig4.12/Table4.4的全部差别。原净峰→校正→自由fit→选根输出及共同Cov仍缺，下一有界路线查详细后续文/2022书版的实际内容；版本重印不新增独立实验。新needs_review:true，当前LW/SP判断无终审变化。
+
+## Day23：2022详细门谱及与Pt重归属的比较输入
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-001–005来自实际新读2022 *Analysis*章，而非新实验。其Au校准、Fig4.12/4.13与Table4.4已核项目保留2021数值及阶段缺口；同时可直接读到Band3的具体支持门谱，补足此前仅泛称full-coincidence follow-up的部分边界。
+
+| 争议输入 | 支持方实际提供 | 仍需匹配的反证/输入 |
+|---|---|---|
+| Band3巧合网络 | 232.5+436.5双门见412.3/548.6与yrast333.8/413.7/567.0，yrast双门sum见265.3/436.5 | [[guo-2022-low-spin-wobbling-187au]]实际188Pt候选级联的同门投影、峰分离/背景/逐run ledger |
+| 429.2 B2→B3 link | 作者称<最强线1%，Table4.4 r=1.32(20)、采用E2，higherlinks无数值上限 | 弱线净计数/误差、门条件、同核素identity及源multipolarity采用条件 |
+| Pt污染论据 | 作者明确近能量重叠，PACE4总体布居与低能线估计<约10% | 总体yield不能给目标弱峰纯度；需每峰/每门贡献κ，见[[signature-tip-shears-discrimination-contract]] |
+| 更高Band2 links | 763.7/855.2有同AD pipeline的大δ结果 | Guo新增P直接争议只覆盖最低两条，不补造高spin P/新小δ |
+
+本次有界检索未唯一识别PRL待刊Ref26的期刊后续身份，但取得书章实际body；不把书章、thesis、PRL按三次采集计票。未直接原读188Pt候选文，下一高信息路线为其原级联/端点与具体门比较，不能按近能量单列定核素。Band3身份问题与Band2机制问题分别保留；新needs_review:true，原支持与反方均未最终裁决。

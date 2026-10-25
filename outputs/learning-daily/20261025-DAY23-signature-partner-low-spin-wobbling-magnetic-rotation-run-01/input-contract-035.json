@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-25T22:10:28.881332+00:00",
+  "actual_document": {
+    "title": "Chapter4 Analysis",
+    "author": "N.Sensharma",
+    "book": "Wobbling Motion in Nuclei: Transverse, Longitudinal,andChiral",
+    "publisher": "Springer Theses",
+    "year": 2022,
+    "DOI": "10.1007/978-3-031-17150-5_4",
+    "pdf_pages": 33,
+    "first_printed_page": 63,
+    "sha256": "cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470",
+    "path": "tmp/day23-originals/au2022-analysis035.pdf"
+  },
+  "scope": "Read actual chapter mainline, inspect tables/plots/steps relevant to AuAD coefficient stages and band3 identity; compare to2021raw only at mapped atomic claims; not whole2022book",
+  "license_observation": "firstpage ©Author(s),under exclusive license toSpringerNatureSwitzerlandAG2022; readablePDF not alone OA license or institutional identity proof",
+  "questions": [
+    "Do published2022 AD figure/table values or calibration/method stages change from2021?",
+    "Does original detailed coincidence/gating evidence for band3 identify companion observations and isotope boundaries?",
+    "What run/data/derived/calibration dependencies remain rather than a new acquisition?"
+  ],
+  "source_handling": "actualPDF onlytmp, formalrawarchive deferred; append explicit2022version evidence toexistingcanonicalmethods/project/source, leave2021metadata/raw/oldreviewflags intact",
+  "prohibited": [
+    "newindependentexperiment count forbook/chapters",
+    "claim fullbook read or identical2021withoutcomparison",
+    "resolve band3Au/Pt identity fromempty/summary only",
+    "sourcekeyword orCrossrefempty result asphysicalnegative evidence",
+    "unreportednetcounts/delta/Q/tau/beamtime",
+    "run114producers"
+  ]
+}
