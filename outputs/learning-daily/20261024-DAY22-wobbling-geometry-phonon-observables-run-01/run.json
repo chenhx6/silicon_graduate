@@ -89,6 +89,15 @@
       "queued_snapshot_at": "2026-10-24T21:23:31.011955+08:00",
       "action": "acknowledge-clock-checkpoint-003-continue-day22",
       "checkpoint": "060"
+    },
+    {
+      "clock_event_id": "closeout",
+      "same_session_id": "01a16ccb-2ecb-7501-ae47-fb2d58c270da",
+      "observed_at": "2026-10-25T15:27:02.535631+08:00",
+      "queued_snapshot_at": "2026-10-25T15:00:50.268677+08:00",
+      "action": "record-delivery-only-already-completed",
+      "run_status_at_delivery": "completed",
+      "research_reopened": false
     }
   ],
   "solved": [
@@ -573,5 +582,6 @@
   "deliverables_passed": true,
   "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
   "next_prompt_error": null,
-  "interactive_closeout_attestation": "/workspace/wiki/outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/interactive-closeout-attestation.json"
+  "interactive_closeout_attestation": "/workspace/wiki/outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/interactive-closeout-attestation.json",
+  "last_clock_delivery_at": "2026-10-25T15:27:02.535631+08:00"
 }
