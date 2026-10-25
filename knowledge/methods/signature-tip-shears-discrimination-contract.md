@@ -395,3 +395,18 @@ uniform Cn、n>4使ηq=0 (q=1…4)，足够消去所有offdiagonal；这不是n>
 均匀方位角确实消除了014相应offdiagonal影响；固定θ的diagonal布居仍不同于4π，两个设计的density最大差约.000268/.003201。所以上游4π、uniform ring和单pointgate是不同response，不能互相代替，也不由表中接近数字给actualexperiment误差上限。
 
 最小输入合同见[[droste-1996-pdco-formalism]] DR96-D23-004：ηq及θ权重必须是**选定target/gate detector pairs的有效响应**。即使nominal detector positions均匀，逐台efficiency/live time、同探测器veto、散射选样或coincidence构造都可使target条件下的weights不同。应按能量、run、gate与target类别保留接受度或它在当前假设下的低阶moments，而不是从clover数量默造等权。跨θ合并先加未归一density/yield，再求P；新needs_review:true，未给实际ηq、δ/CI/Q/τ/率或机时。
+
+## Day23：AMR原模型的正支持与受控对照边界
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] KU25-D23-001/002/003明确外部核阅的原Zhao2011 PC-PK1 TAC结果，而非2025新实验：双剪刀闭合、neutron mixing、selfconsistent形变共同给出105Cd的能谱/E2支持，pairing被忽略；2010实验点是重用。没有inert core的微观模型不能直接塞回固定core+刚性三blades图像，作者“corelike3ℏ”也只是所定义分解下的模型量。
+
+**polarization有量身份**：本模型Fig3/4指两质子空穴诱发的密度/形变重排，非Compton测量的γ线偏振P。其ablation先算107Sn再冻结势移去两质子，改变H/自洽场，不是只换configuration assignment；因此不能拿这两条曲线充当本卡“保持H/算符只换标签”的受控比较。数据层D仍可保持不变，但model-layer所改输入必须列明。该区分也适用于Pr/Au两个不同H的发表模型。
+
+| 层次 | 这个正支持案例提供什么 | 仍不能推出什么 |
+|---|---|---|
+| 几何 | Fig1/2模型双剪刀闭合与neutron alignment/mixing | 新测j/R方向或唯一核态模式 |
+| 电磁 | 同源2010 B(E2)点与模型/形变相符，selfcons vs frozen-field不同 | 独立新增寿命、所有跨带M1禁止、固定β统一门 |
+| 参数 | PC-PK1、2D/N10/无pairing明确 | 无任何历史定标、完整pairing/数值误差已验证 |
+| 替代/反证 | 冻势约17ℏ终止及E2压制给有条件可检验趋势 | 只改标签的same-H实验、全核区排他结论 |
+
+可证伪问题：在明确fixed configuration/算符与配对适用范围下，**能量之外的寿命/完整分支B(E2)及J2，能否共同支持同一随spin的形变与alignment轨迹？** 必要输入是原τ、sidefeeding/branch/ICC与系统误差，以及对应model density/occupation，而非从图读一个下降趋势再赋新机时。当前原2010实验与2013Comment/Reply仍未核，外部原模型正式归档deferred，故保needs_review:true。Pr/Au争议不否决这个AMR模型支持，反过来也不拿105Cd替代Pr/Au的逐线证据。

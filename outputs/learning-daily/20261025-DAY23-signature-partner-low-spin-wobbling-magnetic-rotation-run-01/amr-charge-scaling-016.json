@@ -1,0 +1,15 @@
+{
+  "status": "declared-arithmetic-not-full-model",
+  "premise_source": "Zhao2011 arXiv1105.3622v2 PDF7/8 Fig4 and deformation paragraph",
+  "model_beta_from_to": [
+    0.2,
+    0.14
+  ],
+  "calculation": "if a common E2 amplitude is proportional to beta with fixed angular geometry/effective charge/radial normalization, Bfinal/Binitial=(.14/.2)^2",
+  "conditional_ratio": 0.4900000000000001,
+  "not_fitted": true,
+  "not_actual_B_ratio": true,
+  "scope": "Conditional charge-amplitude scaling only. Full selfconsistent calculation changes geometry/mixing; no actual Q,delta,tau,rate or new experimental B generated.",
+  "source_readiness": "PublicPDF actually acquired and read, formalrawarchival deferred; original2010 DSAM body not retrieved.",
+  "independence": "2011 Fig3/4 reuse2010 data, newmicroscopicmodel notnewacquisition"
+}

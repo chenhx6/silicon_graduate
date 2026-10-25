@@ -3,7 +3,7 @@ type: concept
 title: "Antimagnetic Rotation"
 aliases: [antimagnetic rotation, antimagnetic rotor]
 created: 2026-07-13
-updated: 2026-10-25
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 concept_type: high-spin-collective-mode
@@ -73,3 +73,11 @@ New concept page; review pending.
 原定位ID `AMR-CONC-081-1` 仅保留纠错索引；不作为已证实科学结论。
 
 本撤回不新增Cd实验事实。实际寿命/分支/ICC到B的来源边界可对照[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-D22-R098-1；该行属于108In，不能替代本页未核的Cd/110In轨迹。
+
+## Day23：自洽形变与中子混合的伴随检验
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] KU25-D23-001/002/003保存外部原Zhao2011的明确范围（arXiv1105.3622v2已读，正式独立source/raw归档deferred）。105Cd的PC-PK1 TAC模型支持双剪刀闭合，同时有β约.2→.14和低j中子混合；其“without polarization”是107Sn势冻结对照，改变的是密度/形变自洽重排，**不是光子偏振P**。模型忽略配对，Fig3/4实验点重用2010原寿命来源，不构成第二份独立采集。
+
+该例说明AMR几何不排斥随spin变化的电荷形状与其它粒子alignment；能量、J2与B(E2)须联合检查。若仅在固定角几何/charge normalization下令E2振幅∝β，则(.14/.2)²=.49只是条件尺度算术，不是原文实测B比或新Q/τ。fullmodel的角度/混合也在变，不能由这一个比例宣布shears/shape机制各占多少。
+
+模型所谓“no M1”保在该理想对称带内图像；不据此删所有跨带M1或称静态μ=0。原Simons2003/2005正文当前未得，105Cd2010 DSAM及2013Comment/Reply尚待核，不从2025混合来源表恢复旧未经原件认证的Cd数列/统一J2-B阈值。新内容needs_review:true，不新增humanreview。

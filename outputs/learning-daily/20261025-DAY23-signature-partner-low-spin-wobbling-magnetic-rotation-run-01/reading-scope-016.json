@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-25T18:00:06.635946+00:00",
+  "Kumar": {
+    "actual_scope": "canonicalhead/refindex/AMR background and Cd table text identification only",
+    "fulltext_extracted_not_fullread": true,
+    "raw_sha256": "3e7eecf9cb084aa24174a41886a0b2372b00322c3343ab2825d1f142bd76567e"
+  },
+  "external_original_Zhao2011": {
+    "url": "https://arxiv.org/pdf/1105.3622v2",
+    "DOI": "10.1103/PhysRevLett.107.122501",
+    "status": 200,
+    "pdf_magic": true,
+    "pages": 10,
+    "sha256": "a7f534e796f899f65f5dfb9d8b465caf7f1c52932d5c1f5c1b9e99dde0bf35ae",
+    "actual_read": "all10pages mainline/refs",
+    "fresh_visual": [
+      "PDF3Fig1",
+      "PDF5Eq1/inputs",
+      "PDF6Fig2",
+      "PDF7Fig3",
+      "PDF8Fig4/ablation"
+    ],
+    "arxiv_version_date": "2011-09-14 v2",
+    "internal_Dated": "2022-04-25",
+    "archival": "tmp only, noformalnewsource/raw ingestion; explicitexternalreview/provisionalnotes"
+  },
+  "primary_experiment_bodies_missing": [
+    "Simons2003",
+    "Simons2005",
+    "Choudhury2010",
+    "Roy2013Comment/Reply"
+  ],
+  "failures_not_negative_evidence": true,
+  "raw_Bib_PLAN_unchanged": true,
+  "review": "newclaims true; originalflags preserved"
+}

@@ -25,6 +25,8 @@ tags: [135pr, wobbling, controversy, evidence-map, project]
 - [[lv-2022-evidence-against-wobbling-135pr]] L22-D22-R095-1：747与813的P/δ必须逐线配对；两线不能拼成排他显著性。
 - [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D22-R095-1：固定σ/I=.2的AD曲线保留大δ条件偏好；共同response/Cov尚未复现。
 - 相对B、模型取向和实测P分层；当前不作TW/TiP唯一裁决。新增内容needs_review: true，下一步仍是共同输入检验。
+- Day23固定单j H的ordinal mapping、normalized E2/M1及原多轨道operator边界见[[signature-tip-shears-discrimination-contract]]与ST18-D23-006–012；指定variant能量不闭合不排除原QTR。
+- halfspin singles/upstream gate/azimuth components见RB67-D23-001–004、DR96-D23-001–004及L22-D23-004；实际selectedpair response、feeding、phase与jointCov仍not-ready，未拟合新δ/CI。
 
 ## Research Question
 

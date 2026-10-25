@@ -3,13 +3,15 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint015（持续研究）
+## Active handoff — Day23 checkpoint016（持续研究）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。raw/PLAN/Bib/flags/既有credit/114隔离producer边界保持。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25、goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。raw/PLAN/Bib/旧flags/credit/114隔离producer边界保持。
 
-015先合同后azimuthacceptance矩：axisymρ0、Lgate<=2使|ΔMf|<=4，ρbarff′=ρ0ff′ηq。uniformCn>4足够消offdiag、C4保q4、positivecos2weightsη2=.1；24checks过/差<=7e-17。三路explicitphase/densityrotation/Fourier核，同014design，不当实际arraybias。uniformphi非4pi，actualselectedpair eff/live/veto/Compton权重缺；不按clover数默造等权，先合density/yield再求P。新RB67-D23-004/DR96-D23-004，fresh checks0/true22changedwritebackvalid，lint0error/220warning。
+016取得Zhao2011 AMR105Cd arxiv1105.3622v2完整10页并读/核Fig1–4/Eq1/限制（tmp公开staging，正式raw/source摄入deferred）；外部原模型/provisional条目KU25-D23-001–003明示存Kumar源/AMR概念/方法，不冒充综述实验。PC-PK1/2DTAC/N10/无pairing，双剪刀闭合与neutronmixing/β.2→.14共同，polarization为density重排不是gammaP；冻结107Sn势ablation改H/selfcons，不是只改configuration。2011图点复用2010寿命，非新增采集。Simons2003/2005/Choudhury2010/2013Comment原body未得，401/403/timeout/metadata证据不当负实验；external-access016保实际结果，无凭据/绕过。
 
-A数学组件有界完成，实际phase/feeding/acceptance/jointlikelihood仍缺；保SH26条件支持、009/010energy与011/012operator边界。重建pool继续本卡MR/AMR novelty原寿命实验Simons2003 PRL91,162501（Crossref实际核title/16authors/DOI），publicharvest fulltext在请求、tmpstaging不动raw；需poll现有handle，不假称body已到。Kumar2025fullPDF仅hash/文本extraction作refindex、不称全文读。详next-continuation015/candidate-pool015；还有13h+当前路线，Day24未开/未授分，不收束。Git指针main · Day23: bound gate averaging with azimuth moments；actualH3/hash仅task-publication-receipt-015.json。
+fresh checks0、true23changed知识writebackvalid，lint0error/220warning；49/100仅条件β²算术不是actualB/Q/τ。Pr/Auactive summary已最小同步。A response实际phase/perpairacceptance/feeding/jointCov与B modelenergy/operator边界仍保、SH26固定sigma支持保；不造新δ/CI/机时。
+
+候选复核发现Garg原2015已在10-19完整核阅，GA15-4明确82MeVIUAC≠Matta80MeVTIFR，不机械重读；仅2019erratum真实body缺口保持。下一主route转Lawrie2020TiP sharedtheory原件，canonical/raw已找到但本轮未读body，先已有scope/gaps/hash再具体模型/figures/heldout边界。还有约13h有用窗口继续不收束。详next-continuation016/candidate-pool016；Git指针main · Day23: separate AMR model support from reused lifetime data，actualH3/hash仅task-publication-receipt-016.json。
 
 ## Previous handoff — Day22 closeout
 

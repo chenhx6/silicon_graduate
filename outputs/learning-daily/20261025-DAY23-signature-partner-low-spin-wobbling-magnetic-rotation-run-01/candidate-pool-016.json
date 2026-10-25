@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-25T18:03:48.384635+00:00",
+  "decision": "continue same Day23, no closeout",
+  "completed_bounded_novelty": "Zhao2011 AMR105Cd originalmodel fullpublicbody/figures; supportedmodelwith no pairing, neutronmixing, densitypolarization ablation. Formalraw/sourceingestdeferred, actual2010/2003/2005tauproducer notavailable",
+  "A": "Pr/Au source-bound response/operator components complete at given scope; originalperpairacceptance/phase/feeding/jointCov andcrosscampaignledger notclosed; do not inventrefit",
+  "B": "sameHconfigurationonly mapping/energy failure andcompleteoperatorreadiness maintained",
+  "next_current_card_routes": [
+    {
+      "candidate": "Garg2019 erratum actualbody only; existing Garg2015 fullread/sourceGA15-4 proves82MeVIUAC distinctfromMatta80MeVTIFR, do not mechanicallyrepeat",
+      "gap": "GA15-9 erratummetadata only, no newbody so preserve limitation"
+    },
+    {
+      "candidate": "Lawrie2020 TiP original PRC101,034306, canonical/raw exists",
+      "why": "direct sharedtheory anchor ofLv/Guo; inspect actualmodeldefinition and heldoutcompanion, preservegeometry/harmonic/globaltopology distinctions",
+      "firststep": "read source currentknownscope/gaps, then targetedoriginal source/figures/contracts rather than summaryrepeat"
+    },
+    {
+      "candidate": "continuedprimaryAMRexperimentalaccess only if newlawfulroute, existingclosedfails not relooped",
+      "why": "Simons/Choudhury/Comment body/DSAMinput gap remains, not fillfromreviewpoints"
+    }
+  ],
+  "Day24": {
+    "opened": false,
+    "rule": "only oneuncreditedpreview after highvaluecurrentcardroutes exhausted; noDay25"
+  }
+}

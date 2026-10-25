@@ -4405,3 +4405,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T01:41:13.059105+08:00 Day23 checkpoint014：actualupstream gate身份与halfspin级联density/4pi顺序边界写回，19controls与truewriteback通过；不认定实际偏差。未授分/Day24未开，继续方位角合并。Git指针main · Day23: track upstream gates through half-spin cascades；actualH3/hash仅任务回执。
 
 2026-10-26T01:49:12.740572+08:00 Day23 checkpoint015：idealazimuth低阶moments与selectedpair权重合同，24数学控制/truewriteback通过；限制pointgate外推，实际response仍缺。继续本卡AMR原件，不收束/授分/Day24。Git指针main · Day23: bound gate averaging with azimuth moments；actualH3/hash仅receipt。
+
+2026-10-26T02:03:48.384635+08:00 Day23 checkpoint016：外部Zhao2011 AMR原模型/图/限制核阅，densitypolarization/changedH/同源寿命边界写回，正式raw归档deferred；原实验body缺不造数。true23changedwriteback与检查通过，继续同卡MR/Pr、未授分/Day24。Git指针main · Day23: separate AMR model support from reused lifetime data；actualH3/hash仅任务receipt。

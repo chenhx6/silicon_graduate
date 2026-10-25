@@ -3,7 +3,7 @@ type: source
 title: "Review of Magnetic- and Antimagnetic-Rotational Structures in Nuclei"
 aliases: [Kumar 2025 magnetic antimagnetic rotation review]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-review
@@ -140,3 +140,17 @@ Page and all KU25 claims remain unreviewed with `needs_review: true`. Human revi
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | KU25-D21-1 | Kumar 2025 全球汇编确立反磁转动（AMR）推断阶梯边界：汇编的 28 个核中 40 个 AMR 结构仅少数具有绝对能级寿命测量与微观模型支持，多数仅具 $\Delta I = 2$ 能级特征；推断阶梯审计强调，无寿命支持的规则偶极/四极带极易与扁椭集体转动或常规能带终止发生假象重叠；确证反磁转动必须联合微观组态、带内 $B(E2)$ 随自旋单调暴跌以及特征比值 $\mathcal{J}^{(2)}/B(E2) > 100\ \hbar^2	ext{MeV}^{-1}(e	ext{b})^{-2}$，严禁将未测寿命的表观 $\Delta I = 2$ 序列轻率升格为确定 AMR 模式。 | claim-boundary-audit | direct-and-derived | PDF pp.4-6 Table 3; antimagnetic-rotation-audit-012.json | true |
+
+## Day23：原AMR模型的外部核阅与独立性边界
+
+本次本综述只作定向ref-index/AMR背景与Cd表的输入定位；60页raw SHA相符，全文文本提取不是新全文阅读声明。Simons2003 DOI10.1103/PhysRevLett.91.162501与Simons2005 DOI10.1103/PhysRevC.72.024318已实际Crossref核身份；前者APS Harvest401、普通PDF403，ANU公开馆藏页有摘要而无下载正文，OpenAlex两篇均无可用OA正文。访问失败不是原实验无效、未测寿命或不存在反证。
+
+随后实际从`https://arxiv.org/pdf/1105.3622v2`取得Zhao/Peng/Liang/Ring/Meng, “Antimagnetic Rotation Band in Nuclei: A Microscopic Description”, PRL107,122501(2011), DOI10.1103/PhysRevLett.107.122501的公开10页版本。SHA256为a7f534e796f899f65f5dfb9d8b465caf7f1c52932d5c1f5c1b9e99dde0bf35ae，暂存`tmp/day23-originals/zhao2011-amr105cd.pdf`，完整读主线/refs并视觉核PDF3/5/6/7/8的Fig1–4、Eq1、限制。raw/本地Bib保护不改，**正式raw归档与独立source摄入deferred**；这里仅保存清楚标明原出处的外部核阅/provisional研究增量，不把该模型或图点冒称为本2025综述的新测量。arXiv标v2/2011-09-14而PDF内Dated2022-04-25分列，不据排版日期改论文年或认定新实验。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KU25-D23-001 | 外部原Zhao2011采用PC-PK1、x-z平面2D TAC、N=10 oscillator shells并忽略pairing；“no additional parameters”针对本模型使用已定functional，不是从未定标的第一性原理或忽略配对已获数据证明。其Fig3/4的观测点复用Choudhury2010 PRC82,061308(Ref11)，不是2011新增寿命采集。 | external-original-model-input-and-data-lineage | directly-read-external-original-with-archival-boundary | Zhao2011 arXiv1105.3622v2 PDF5 Eq.1 and implementation paragraphs; PDF7 Fig.3; PDF8 Fig.4; PDF10 Ref.11 | true |
+| KU25-D23-002 | 外部原Zhao2011 Fig1/2支持其模型内双剪刀闭合，但所有粒子均参与而无inert core；除三价中子后作者给“corelike”增量约3ℏ，并指出低j中子混合使现象学固定core划分仅部分适用。这里的j/R/3ℏ为模型量，不是实测角动量分解；AMR横向磁矩相消图像也不推广为所有跨带M1禁戒或静态磁矩为0。 | external-microscopic-mechanism-and-core-partition-limit | directly-read-model-and-bounded-inference | Zhao2011 arXiv1105.3622v2 PDF3 Fig.1; PDF5–7 Fig.2 and neutron-mixing paragraphs | true |
+| KU25-D23-003 | 外部原Zhao2011的“without polarization”是先求每频率107Sn势，再移去两个g9/2质子而冻结该势、放弃105Cd自洽重排；与selfconsistent情形相比，非自洽对照约17ℏ达最大I，Ω≥.5MeV处E2受压制。selfconsistent结果β约.2→.14、γ≤9°。polarization指密度/形变重排，非γ线偏振P；该ablation改变势/自洽性，不是固定H只换configuration标签，也不是第二次实验。 | external-model-ablation-and-observable-identity | directly-read-external-model | Zhao2011 arXiv1105.3622v2 PDF7–9 Fig.3/4 and107Sn frozen-potential paragraphs | true |
+
+Knowledge Impact and Learning Decision：supports本卡AMR有具体微观支持链及形变/混合/自洽性伴随检验；limits把理想双剪刀闭合、M1抵消或decreasingB(E2)升级为唯一模式/硬门。原DSAM论文正文、2013Comment/Reply及原τ/feeding/branch系统误差未取得，不重造Cd逐点曲线或物理终审。Simons closed路线保为P1 retrieval/readiness，非技术性全局硬停。新claims仅Codex self-audit needs_review:true。

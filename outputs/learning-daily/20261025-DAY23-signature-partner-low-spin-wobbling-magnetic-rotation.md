@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint015）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint016）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T01:49:12.740572+08:00
+- checked_at: 2026-10-26T02:03:48.384635+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -36,6 +36,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 
 ## Candidate pool and selection
 
+checkpoint016重建后选择同卡AMR原件路线（非Day24）：Simons2003/2005元数据核定但正文未获，105Cd2010原实验亦暂缺；成功取得并完整核阅Zhao2011原微观模型arXiv1105.3622v2。回忆受concept/Clark/Chiara强priming，不称blind：AMR横向抵消不等静态μ0/全M1禁，τ/feeding/config/termination需联合检验。
+
 | 槽/候选 | 信息增益与可得性 | 决策 |
 |---|---|---|
 | A：Pr/Au逐线P、A、Rac、δ与共享响应 | 已有raw可核；同源量和校准谱系可能改变比较的权重 | active；本轮找到Au376上误差误记及同源强度约束 |
@@ -46,6 +48,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint016Crossref实核Simons2003/2005及Choudhury2010；APS401/403、ANU只有摘要无正文，OpenAlex无可用OA，失败保留不当负实验。Kumar60页rawhash核、仅refindex/Cd定位非新全文阅读。新取得Zhao2011 arXiv1105.3622v2 publicPDF200/%PDF/10页/SHA a7f534e796f899f65f5dfb9d8b465caf7f1c52932d5c1f5c1b9e99dde0bf35ae，完整主线/refs并视觉Fig1–4/Eq1/限制。只tmpstaging、raw保护，正式独立source摄入deferred；外部原件/模型增量明示存Kumar源页KU25-D23-001–003，不冒充综述实验。
 
 checkpoint015沿已核RB67 printed312fn7/316Eq3.24和DR96finitegate前提做新代数延伸，无新全文阅读声明/独立实验。RB67-D23-004、DR96-D23-004记录selectedpair方位角acceptance条件，原sourceflags保留。刚读Lv/Herzan硬件数量段只作缺口inventory，未从24clover默造φ/等权。
 
@@ -90,6 +94,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint016原model PC-PK1/2D TAC/N10/无pairing，双剪刀闭合伴随neutron mixing/β.2→.14。固定其它charge/geometry下B∝β²的条件比(.14/.2)²=.49，仅算术不是实际B比/Q/τ。withoutpolarization为冻结107Sn势移去两质子的非自洽ablation，约17ℏ终止/E2压制是该对照模型结果，不是只换configuration或新实验。
 
 checkpoint015先contract后gateazimuthmoments：Mi-diagonal、L≤2使daughter|ΔMf|≤4，ρbarff′=ρff′(φ0)η_(mf−mf′)，ηq=Σw exp(iqφ)。uniformCn n>4足够消offdiag，C4留q4；12点正权1+.2cos2φ给η2=.1。24项显式phase/densityrotation/Fourier/PSD控制过，max差≤7e−17。两个design的uniformC12 P90−.812605/−.819218，point为−.882194/−.902633，full4π又不同；无actualarraybias认证。
 
@@ -139,6 +145,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint016原2010DSAM正文/τ/feeding系统误差与2013Comment/Reply仍缺；2011理论Fig3/4复用2010点，不增加独立采集票。“polarization”是密度重排非γP；无inertcore/lowj混合限制固定blades图像，pairing忽略不认证可忽略。支持链保留而不恢复所有M1禁止/固定Cd曲线/J2-B硬门。
+
 checkpoint015将014pointcoherence效应限定在实际合并前；uniformazimuth可全消，但只在effective selectedtarget/gate pair同权条件成立。nominalarraypositions不保证eff/live/veto/Compton选择同权；uniformring也不等4π。当前需按run/line/gate/pair的低阶ηq和θ权重/feeding/Cov，跨θ先合未归一density再算P。未拟合actualP/Rac或认定原分析漏项，SH26条件支持不抹。
 
 checkpoint014上游门完整4π也须传播去取向；下游完整trace则保先发γ边缘，不能颠倒。finitepointgate的coherence是design，actualarray方位角合并可能消去，不由此认定原作者漏项/污染。实际weights/φ/θ/效率/feeding/去取向/Cov仍缺；sourceclean谱与response两个检查分开，σ/d_RB未据数据校准，SH26条件支持不抹。
@@ -178,6 +186,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint016 supports：具体AMR微观正支持与电荷形变/混合/自洽伴随量；limits/revises：术语polarization身份、同源experimentalpoints与changedH对照不能当configuration-only控制。原实验/评论及source归档readiness仍开放，不作终审/提前收束。Pr/Auactive summary按已完成canonical增量最小同步。
 
 checkpoint015 limits/revises：不把pointgate数学效应扩大成整阵列实验偏差；supports：把A槽实际响应缺口压成假设明确的perpair acceptance moments与取向/feeding输入。当前组件路线有界完成一段，重建候选池继续实际input/source或同卡MR/AMR主线，不提前收束/授分。
 
@@ -276,7 +286,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -442,6 +452,18 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-004"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-001"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-002"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-003"
         }
       ]
     },
@@ -519,7 +541,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
-      "summary": "隔离Guo引用母核文字疑点，明确Rupnik仅元数据/摘要可访问，历史αK仍非本次直接核阅。 保留支持方非刚性j几何及reference尺度/不同带对边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
+      "summary": "隔离Guo引用母核文字疑点，明确Rupnik仅元数据/摘要可访问，历史αK仍非本次直接核阅。 保留支持方非刚性j几何及reference尺度/不同带对边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 最小同步当前active summary导航，不增加新实验认证。",
       "anchor": "Day23：历史conversion的直接证据缺口与母核文字",
       "sources": [
         {
@@ -595,7 +617,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/concepts/antimagnetic-rotation.md",
-      "summary": "把旧固定Cd/J2硬门文本移历史，保理想横向抵消条件和110In寿命/slowfeeding实际边界。",
+      "summary": "把旧固定Cd/J2硬门文本移历史，保理想横向抵消条件和110In寿命/slowfeeding实际边界。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。",
       "anchor": "Day23 当前判据与历史认证撤回",
       "sources": [
         {
@@ -605,6 +627,18 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
           "locator": "CHI01-19"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-001"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-002"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-003"
         }
       ]
     },
@@ -652,7 +686,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
-      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
+      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 最小同步当前active summary导航，不增加新实验认证。",
       "anchor": "Day23：run重叠与observable继承分开",
       "sources": [
         {
@@ -976,6 +1010,25 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
           "locator": "DR96-D23-004"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "summary": "只定向review refindex并明示外部Zhao2011原模型核阅/provisional增量，raw正式归档/独立source摄入deferred；不将图中复用点计新实验。",
+      "anchor": "Day23：原AMR模型的外部核阅与独立性边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-001"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-002"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D23-003"
+        }
+      ]
     }
   ]
 }
@@ -993,6 +1046,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint016 boundary/lint/diff/conditional_arithmetic实际0，true runner报告及累计23changed知识页writebackvalid；49/100只核条件算术，非模型或实验再计算。lint0error/220warning、182旧citation债务。next-continuation-016.md/candidate-pool-016.json继续同卡MR/Pr原件与dataset依赖，原goal/15:00截止/未授分且Day24未打开不变。Git指针main · Day23: separate AMR model support from reused lifetime data；actualhash/H3见task-publication-receipt-016.json。
 
 checkpoint015 boundary/lint/diff/gate_azimuth实际0，24有界acceptance控制通过，true runner报告/22changed页writebackvalid；lint0error/220warning与182旧citation债务保持。candidate-pool-015.json重建后继续同卡AMR原寿命实验路线，actualresponse不据设计补造；next-continuation-015.md保原goal/截止，Day24未打开。Git指针main · Day23: bound gate averaging with azimuth moments；actualhash/H3见task-publication-receipt-015.json。
 

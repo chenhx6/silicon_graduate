@@ -18,14 +18,17 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 
 本页是 `187Au` low-spin longitudinal-wobbling 争议的 project-level evidence matrix。它并列整理 Sensharma 2020 的支持链与 Guo 2022 的反证/重解释链，区分实验事实、实验判据、作者解释和模型结果；不裁决哪一方最终正确，也不作为论文草稿或原始来源替代品。
 
-## Agent active summary — Day22 current evidence
+## Agent active summary — Day23 current evidence
 
-本段为2026-10-25 Codex self-audit导航，不扩张既有human-reviewed范围。当前逐量对照见“Day22 checkpoint094”。
+本段为2026-10-25 Codex self-audit导航，不扩张既有human-reviewed范围。当前逐量对照见“Day22 checkpoint094”及下方Day23追加条目。
 
 - [[guo-2022-low-spin-wobbling-187au]] GU22-D22-R094-1：旧−.10(5)属于P，不能当δ制造88倍E2变化；新δ从实际Fig.3读取。
 - [[guo-2022-low-spin-wobbling-187au]] GU22-D22-R094-2：数W.u.为外部带内尺度的估计，非新增绝对寿命。
 - [[guo-2022-low-spin-wobbling-187au]] GU22-D22-R094-3：Q借自同型探测器外部曲线；P–Rac误差矩形给出的δ域不等于公开完整joint-likelihood。
 - [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1：band(3)是作者SP指认，并非二声子带。独立反方的核素归属挑战保留，物理终审仍开放。新增内容needs_review: true。
+
+- Day23实际376 δ上误差+.11、API时间窗/clock/total-vs-K及原conversion正文缺口见GU22-D23-001–012；现代导出不新增独立conversion票。
+- source模型β/参考core与多轨道算符迁移仍需冻结实际producer；[[signature-tip-shears-discrimination-contract]]保raw/相位/response输入边界，不作最终LW/SP终审。
 
 ## Research Question
 
