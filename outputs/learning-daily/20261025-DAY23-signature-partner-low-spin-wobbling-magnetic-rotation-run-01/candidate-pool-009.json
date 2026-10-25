@@ -1,0 +1,32 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-26T00:12:33.993326+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 887.4334445666666,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "slot_B": {
+    "delta": "declared no-pairing single-j fixedH variant14I, two source-basedC prescriptions,87controls each; observed sameI44/44.5keV and ordinal0/1 gaps do not match by relabeling; a coefficient near is not equal bodygeometry",
+    "high_information_next": "read source-defined quadrupole operator and lab/strongbasis convention; only then build normalized core-only E2 connection ratios under explicit operator assumptions, without inventing a measured Q or M1 parameters",
+    "prerequisites": [
+      "freeze new physical operator contract and source locators",
+      "verify pure axial rotor CG limit, reduced-matrix normalization/detailedbalance, parity/phase and tensor norm",
+      "all scalar/global E2 scales cancel only for correctly matched same operator/band ratios",
+      "do not implicitly labelenergyordinal as SP/phonon or assume sameordinal acrossspin is adiabaticband; test and state mapping",
+      "sameI energy mapping diagnostic remains a failure of thisvariant/thesetwo mappings, not globalexclusion"
+    ]
+  },
+  "slot_A": {
+    "status": "actual response/Cov/rawcounts and historicalalphaK still absent; no new failedendpoint retries without lead",
+    "next": "retain ownrawP/A/Rac identities and dependence; original source EMoperator conventions may improve comparability but do not restore countlikelihood"
+  },
+  "preview": "Day24 remains unopened; one uncredited preview only after current useful routes locally saturate",
+  "stop_reason": null
+}

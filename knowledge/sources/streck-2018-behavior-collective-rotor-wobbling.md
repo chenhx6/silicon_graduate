@@ -3,7 +3,7 @@ type: source
 title: "Behavior of the collective rotor in wobbling motion"
 aliases: [Streck et al. 2018, collective rotor in wobbling]
 created: 2026-07-15
-updated: 2026-10-25
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -144,3 +144,16 @@ Knowledge Impact and Learning Decision：supports可追溯的K↔R及转子Hcoll
 这份Ref33完整PDF目前仅tmp公开staging、正式raw归档deferred，不新增/覆盖原ST18 raw。IOP DOI入口的HTTP200实际是verification页面，不能当取得全文；真正body来自期刊自身公开PDF，未读取凭据或绕过挑战。实际公开可读不等于已核开放许可证。
 
 若明确采用Wang Eq11、N5、A135、j11/2、ST18 β.17，条件C=.233738451MeV；若采用旧Eq3则.180757460MeV，二者比1.29310542。这里只是定义/输入敏感性，没拟合实测谱，也不把处方差认证为ST18实际曾算错。该正文解除C处方的一个readiness缺口，pairing/完整EMoperators/原producer及实际response缺口仍独立保留。
+
+
+## Day23：固定H任务variant的数值范围
+
+以下是本任务基于已读source定义的模型实验，**不是ST18作者新报告或实际核态命名**。新claims needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST18-D23-006 | 本任务指定无pairing单j particle+ H，A135/N5/j11/2/β.17/γ−26、MoI13/21/4，显式选Wang2009 Eq11得C=.233738451MeV，对14个I=11/2至37/2的完整D2空间求解。87项有限矩阵Hermitian/D2closure、两basis谱、零C rotor、Casimir与归一控制通过，max eigen residual约7.2e−14MeV。只对源定义及实现做控制，不给原authorproducer、完整E2/M1或实验模式认证。 | declared-task-model-and-validation-scope | source-defined-conditional-numerics | source premises PDF2 Eqs.2–6, PDF4 Sec.III; ST18-D23-005; task model-contract-009 | true |
+| ST18-D23-007 | 上述固定variant最低两态在I17/2、21/2的间隔841.203/839.717keV；仅交换ordinal0/1与两实测序列的mapping会翻E3−E2的号，不改变幅度，因而两mapping都不能重现L22-D23-001的44.0/44.5keV中央差。只诊断这一H/这两候选mapping，不据此排除其它本征态、参数、模型或原实验；未给modelerror/Cov或p值，不叫统计证伪。 | fixed-model-mapping-diagnostic | task-numerics-and-primary-level-input | ST18-D23-006 premises; L22-D23-001; fixed-state-mapping-009 | true |
+| ST18-D23-008 | 在单j/core磁矩μ=gR R+gj j假设下，本任务由R²和Casimir计算a=〈I·j〉/[I(I+1)]，所以g=gR+(gj−gR)a。I17/2两ordinal的a=.565133/.504198，差.060935；I27/2为.387731/.383045，差.004686，同时其j(s,i,l)RMS分别约(4.985,2.958,1.465)/(4.588,3.519,1.522)。a是条件几何系数，非实测或已校准物理g；gj/gR未给，近a不独立证明相同body图像。 | conditional-companion-observable-coefficient | task-Casimir-derivation-and-model | ST18-D23-006/007; source Eq.4 and R representation; task static-g derivation | true |
+
+`system/scripts/day23_prm_fixed_state_mapping.py`强制CLI显式选择C处方。旧Wang Eq3作为另一个固定variant给C=.180757460MeV，同两个I的最低态间隔715.129/723.189keV，同样未闭合44keV中央差；这是两种有来源的处方敏感性，不是任意调参或作者旧模型已证错误。原parameter可能早已用能谱定标，当前能量对照不是独立盲测；将来physicalg/电磁holdout还需确定mapping和算符。

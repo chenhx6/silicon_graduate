@@ -3,7 +3,7 @@ type: method
 title: 旋称伙伴、低自旋进动与磁转动剪刀态判别操作规范（Signature, TiP, and Shears Discrimination Contract）
 aliases: [signature-tip-shears-contract, signature partner vs tip vs magnetic rotation protocol]
 created: 2026-10-24
-updated: 2026-10-25
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 method_type: experimental-and-theoretical-criteria-protocol
@@ -227,3 +227,39 @@ I=13/2、j=11/2的合法两基底均42维，其中15个weakbasis分量属于oddR
 
 
 下一有界模型路线可以在明确标注“ST18无配对H + Wang2009 Eq11处方”的任务variant下实现H_intr与有限D2空间对角化，保留原数据D和全部输入，不用拟合/调参取得某标签。预先比较的是不同候选本征态的R分布、j²分量和〈I·j〉/I(I+1)这一静态g的几何系数；真实g还需gj/gR与多轨道/算符校准，不承诺该量一定可分。完整E2/M1强度/模式判决仍不能从组件检查推出。该路线是本任务模型实验，不冒充author producer或新核态/新实验CI。
+
+
+## Day23：固定Hamiltonian与不改计数的候选态mapping
+
+沿[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-006，指定无pairing single-j particle+、A135/N5/j11/2/β.17/γ−26、(s,i,l)惯量13/21/4、Wang Eq11的C=.233738451MeV；所有参数冻结，不为某一标签fit。完整D2有限空间（I11/2–37/2）对角化，先按能量ordinal0/1/2记录，**不自动称SP、TiP或wobbling**。这是本任务近似模型variant，不是Lv多轨道QTR/Au模型或原作者code复现，亦不实现所有多qp组态重指派。
+
+两路basis谱及矩阵残差、零C/Hcoll R²守恒、intrinsic D2闭合、Hermiticity、norm、energy decomposition和j²/Casimir共87项控制通过（max eigen residual7.2e−14MeV，D2leak2.3e−16MeV，Casimir矩阵误差1.3e−13ℏ²）。它们证实有限矩阵算对到给定精度，不能证实核模型充分、真实Jπ或模式。
+
+| 同I比较 | 原Lv Band2/Band3 Ei keV | 实测中央E3−E2 keV | 固定Eq11最低两态gap keV | 对ordinal0/1只交换mapping |
+|---|---|---|---|---|
+| 17/2 | 1433.9 / 1477.9 | +44.0 | 841.203 | 预测−841.203或+841.203，幅度不变 |
+| 21/2 | 2159.4 / 2203.9 | +44.5 | 839.717 | 预测−839.717或+839.717，幅度不变 |
+
+实测输入[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-001本轮fresh原表视觉核实。此诊断保持计数/能级/响应D不变，任何共同能量offset也不能改两态gap。改变文字标签可使次序相符，却不能让这两候选态的幅度匹配；形式可写不等同数据支持，若要改H/组态空间那是另一假说。这里只检验所列两种mapping，不排除其它本征态/参数/模型，不给modelerror/Cov/p值或宣称原实验被推翻。来源参数本身可能使用旧能谱定标，因此也不是前瞻blind holdout。
+
+同H下可计算未在本任务定标的伴随量几何系数。定义单j/core常数磁矩μ=gR R+gj j，则
+
+$$g=g_R+(g_j-g_R)a,\qquad
+a=\frac{\langle\mathbf I\cdot\mathbf j\rangle}{I(I+1)}
+=\frac{I(I+1)+j(j+1)-\langle R^2\rangle}{2I(I+1)}.$$
+
+算符是量子标量，〈R²〉由完整R概率或独立body-I·j矩阵求得并互核；这不重建全部body几何。
+
+| I | ordinal0的a | ordinal1的a | 差a0−a1 |
+|---|---|---|---|
+| 17/2 | .565133 | .504198 | .060935 |
+| 21/2 | .468548 | .423580 | .044968 |
+| 27/2 | .387731 | .383045 | .004686 |
+| 31/2 | .335762 | .342471 | −.006709 |
+
+这些**不是physicalg测量/预报数值**，physical差仍为(gj−gR)Δa；gj/gR、operator校准及single-j有效性均须证据。gj=gR时所有差都消失，a近也不意味着每轴RMS/概率相同，不能建统一g排他阈值。I27/2两态的体轴RMS不同但a很近，是当前固定H本征态的模型例；它比任意选择的态更具体，也仍不证明真实Pr归属。能量mapping若未先闭合，不可据此直接规划目标态g精度或机时。
+
+使用旧Wang Eq3的明确处方敏感性C=.180757460MeV，两个gap变为715.129/723.189keV，也没仅由换标签闭合44keV。两个输出文件只保存各自variant，不混均值/误差，不把C差当实际作者调参史。源码`system/scripts/day23_prm_fixed_state_mapping.py`与model-contract-009保输入/单位/验证范围；新推断needs_review:true。下一优先补source-grounded相对E2算符/连接预测及actual model mapping，而不是捏造完整M1、δ、Q、τ或机时。
+
+
+这一中央gap问题也不能仅靠给**这两个固定eigenstates**追加任意Hermitian非对角V来缩小：在固定对角能量E0/E1的2×2子空间，gap=sqrt[(E1−E0)²+4|V|²]，总不小于原gap。该代数只限定“固定两对角+off-diagonal-only”的补救，不排除改变单粒子能量/惯量、加入其它态/组态空间或其它自洽模型的影响。这里没有新增实际nuclear V、混合强度或置信界，不借旧任意100–200keV相互作用故事恢复模式认证。

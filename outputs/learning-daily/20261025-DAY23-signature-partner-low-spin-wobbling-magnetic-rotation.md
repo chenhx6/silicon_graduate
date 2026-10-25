@@ -2,10 +2,10 @@
 type: learning-daily
 graph-excluded: true
 created: 2026-10-25
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint008）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint009）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-25
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-25T23:45:53.437442+08:00
+- checked_at: 2026-10-26T00:06:00.749333+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -46,6 +46,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint009：沿已核ST18 H/basis与WangEq11建立显式无配对任务variant，先冻结model-contract-009；本轮fresh读取/视觉核Lv SI PDF5 Table1及SHA（未新称全主文重读），新增L22-D23-001绑定17/2、21/2两序列的能级44.0/44.5keV中央差。来源参数可能已有能谱定标历史，当前对照不称blind holdout或新的独立实验。ST18-D23-006–008为本任务有界模型计算，不写成原作者新结果。
 
 checkpoint008：Streck2018原10页完整主线/refs重读，SHA匹配，视觉核PDF2/3/4/5的H、D2基底、Eq11变换和numerical/SP限制。新ST18-D23-001–004区分数学变换、源模型输入和实验模式；pairing后的M1仍高估3–10以及SP gap900/500keV限制保留。IOP Ref33 DOI入口200实际是verification页；正常查到期刊自身CPL公开入口，成功取得Wang2009四页PDF（公网页面可访问，不宣称开放许可证），全文/原Eq3/11与Table1已核，SHA/URL在ST18-D23-005。只tmp公开staging、raw正式归档deferred，不覆盖原证据。
 checkpoint007更正：checkpoint006将现代API导出的条件一致性夸写为对Baglin2003/Guo旧引用“完全证实”，该认证撤回。旧文本/源码存pre-correction-006.json。现代Pt cutoff2022-03-01、Au cutoff2008-11-01的表列102/188 W.u.都落在100–200范围内，但不构成完整旧引用核验；半衰期/α/b_e2同评价链，非独立证据。条件rate中央值为Pt.645283、Au1.191357e²b²，后者须与188W.u.换算的约1.19426区分。两个作者引用数字.84/1.44之比确为1.714，但两文β均.23，不认证实际模型输入/误差变化1.71倍。
@@ -77,6 +79,12 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 
 ## Theory/analysis exercise
 
+checkpoint009：指定particle+、j11/2、A135/N5、β.17/γ−26、(s,i,l)MoI13/21/4、WangEq11 C=.233738451MeV，完整D2有限空间无pairing对角化14个I=11/2–37/2，所有态先按能量ordinal命名。87项H Hermitian/D2closure、两basis谱、零C/Hcoll守恒、Casimir、norm及energy decomposition控制实际通过，max eigen residual7.2e−14MeV；它们只核实现，不认证物理模型充分。
+
+固定H的ordinal0/1间隔在17/2、21/2约841.203/839.717keV；仅交换与两个实测序列的mapping，预测E3−E2为相同幅度的正/负值，都无法闭合44.0/44.5keV中央差。所有实测D、count/能级/响应和模型输入保持不变，没有靠fit“拯救”命名，也不据此统计排除其它态/模型。单j耦合态重映射不等于已实现全部多qp/多轨道configuration重指派。
+
+同variant可算a=〈I·j〉/[I(I+1)]并由Casimir互核；g=gR+(gj−gR)a，但未给真实gj/gR，故输出不是物理g。17/2两态a差.060935，27/2差.004686、31/2为−.006709；a近而每轴RMS仍异，不能用g接近独立证明body图像同。旧WangEq3作为另一个明确C处方，两个gap为715.129/723.189keV，同样不由标签交换闭合44keV；这是任务处方敏感性而非作者调参史或modelerrorCI。
+
 checkpoint008按phys-model先写model-contract-008，再实现source组件`day23_prm_basis_rotor.py`。在j11/2、四个source相关I及两个j1/2小域，K↔R变换正交误差≤6.7e−16；分别从R-block与独立body-fixed I×j空间构造Hcoll，两路最大矩阵差9.1e−15MeV，球形极限回R(R+1)/(2J)。22项CG/归一/两路/极限/概率控制通过，范围是基底/转子项，未对角化完整H_intr、拟合实验或给核态命名。
 
 D2基底I13/2 j11/2共42维，包含15个oddR≥3分量（R1没有）。若把轴对称evenR限制误迁入三轴域，对chosen强耦合基底态会丢1/2范数；chosen相干R2两分量另检验Eq20先振幅求和后平方，不能以概率非相干混合代替。两项chosenstate都不是已识别真实135Pr原H本征态，不能用于宣布模式。
@@ -103,6 +111,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint009最直接的反证是对这两种mapping在指定H下的能量中央值诊断，不扩张到任意SP/TiP/wobbling解释。若能量/态身份不先闭合，不能拿该条件a差直接为实际核态规划g精度或机时；无physicaloperator校准、完整E2/M1强度、配对/多轨道、实际response/Cov也不生成新δ、τ、Q或显著性。能谱参数可能非独立，当前模型练习不等同前瞻盲测。
+
 checkpoint008：SP与wobbling的R/KR/方位及j分量是原PRM内部diagnostics；成功描述一组energy不独立测得这些波函数。原文SP能量仍偏高，M1问题指向缺失proton-neutron current coupling为其作者解释，不能由缩g/小δ单项认证。Ref33 C公式已实际取得，pairing/EMoperator effective constants与原response/Cov仍缺；当前只完成basis/Hcoll组件门。
 
 checkpoint005：支持方完整PRM并非严格rigid-j图像。thesis描述φJ趋m而φj不近90°，Fermi不远离h9/2底部、short分量重要，仍按total I/RMS/azimuthal解释LW；这些均模型量，不能因其不符严格冻结图景就抹掉支持，也不能由同λ/.38MeV唯一认证middle-shell。thesis与Letter的reference core B(E2)=1.44/.84、相关parity文字未由底层评价统一，不能默选或平均；独立后验预测必须先冻结实际operator/占据和这些定标输入。
@@ -128,6 +138,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint009 limits：把“只改组态标签”落实为固定H/固定D的两种具体mapping，发现原能量间隔诊断不能被换标签修复；supports：使用同输入多量向量检验以及physicalg与模型几何系数分层。小残差不是模式验证，选定模型不覆盖所有替代解释；继续补source-grounded电磁连接/相对强度，而非给标签同等可信度。
 
 checkpoint008 supports：建立源公式可追溯的PRM基底/转子组件和两路一致性、明确oddR/相干概率；revises：C来源从metadata变为已读公开原件；limits：22数学组件控制不等于完整模型、真实核态或实验识别，后续数值必须预先固定variant/算符及未定标检验量。
 
@@ -204,7 +216,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -274,6 +286,22 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
           "locator": "ST18-D23-005"
+        },
+        {
+          "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "locator": "ST18-D23-006"
+        },
+        {
+          "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "locator": "ST18-D23-007"
+        },
+        {
+          "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "locator": "ST18-D23-008"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-001"
         }
       ]
     },
@@ -533,7 +561,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
-      "summary": "新全文/原图核D2强弱基底、相干R概率、MoI/配对/SP/M1限制；实际读Ref33四页C公式，明确组件与完整producer边界。",
+      "summary": "新全文/原图核D2强弱基底、相干R概率、MoI/配对/SP/M1限制；实际读Ref33四页C公式，明确组件与完整producer边界。 新增本任务完整有限H variant/87controls、mapping能量诊断及a系数，明确非authorproducer/物理g。",
       "anchor": "Day23：实际基底、转子项与整模型readiness",
       "sources": [
         {
@@ -555,6 +583,29 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
           "locator": "ST18-D23-005"
+        },
+        {
+          "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "locator": "ST18-D23-006"
+        },
+        {
+          "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "locator": "ST18-D23-007"
+        },
+        {
+          "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+          "locator": "ST18-D23-008"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "summary": "同I Band2/Band3的17/2和21/2能级44.0/44.5keV中央差，原SI表fresh视觉/哈希核验，无新CI。",
+      "anchor": "Day23：同I两序列的能级中央值",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-001"
         }
       ]
     }
@@ -575,10 +626,12 @@ L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖�
 
 ## Verification and continuation
 
+checkpoint009实际boundary/lint/diff与Eq11/Eq3固定variant执行均0，每个variant87项有限矩阵控制通过；true runner报告/累计18页writeback valid。lint0error/220warning、claim_missing_locator/kind0。required-checks-009.json保存真实返回；smallresidual只认证这一定义/实现，非完整核模型/实验/历史来源。
+
 checkpoint008实际boundary/lint/diff/basis_rotor均0，22项source组件控制通过；true runner报告/累计17页writeback valid。lint0error/220warning、claim_missing_locator/kind0，旧182项citation_key债务保持。required-checks-008.json记录真实返回，范围仅source数学组件，不认证完整原模型或实验。
 
 checkpoint007实际boundary=0、lint=0、git diff --check=0、conditional_core=0；true runner报告与累计16页writeback valid。lint为0error/220warning、claim_missing_locator/kind为0；182个旧citation_key覆盖债务保留。实际返回见required-checks-007.json；脚本输出computed-conditional与independent_validation:false，表示有界计算完成，绝不认证历史源、原实验或唯一模式。
 
 checkpoint006强认证已撤回，历史文字/程序在pre-correction-006.json。001–005的结构/限定控制及其scope保存在各自required-checks文件，不因其green扩大科学结论；114隔离producer未运行。现代导出与被引旧评价不是同一时间版本，完整原notes/branch/Cov和producer仍缺。
 
-next-continuation-008.md保持原session与原2026-10-26 15:00+08截止；native goal active/Farmer2698 fresh running。completed=[] partial=[23]，Day24未打开，不提前授分或收束。候选池007给出原历史来源和Streck2018实际Hamiltonian/算符输入核查路线；若输入齐备才开展有界物理数值练习，不填造缺参数。Git稳定指针main · Day23: verify PRM basis and rotor components；精确hash/实际H3仅在task-publication-receipt-008.json，正式Day23门留到截止收束。
+next-continuation-009.md保持原session与原2026-10-26 15:00+08截止；native goal active/Farmer2698 fresh running。completed=[] partial=[23]，Day24未打开，不提前授分或收束。候选池007给出原历史来源和Streck2018实际Hamiltonian/算符输入核查路线；若输入齐备才开展有界物理数值练习，不填造缺参数。Git稳定指针main · Day23: test fixed Hamiltonian state mappings；精确hash/实际H3仅在task-publication-receipt-009.json，正式Day23门留到截止收束。

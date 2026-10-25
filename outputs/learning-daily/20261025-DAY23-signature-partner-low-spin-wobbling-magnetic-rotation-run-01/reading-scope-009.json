@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-10-26T00:06:00.749333+08:00",
+  "reading": "ST18/Wang physical premises inherited from actual008 reading; no new fullpaper reading claim",
+  "new_primary_scope": "Lv2022 SI PDF5 Table1 Band2/3 same-I levels, fresh visual and SHA c25cf17ce10efb2d62fc27a665082df7bffeb30f0044726b2730754b035bf225",
+  "model_scope": "explicit no-pairing single-j variant, fixed source values plus selected C prescription, no rawdata fitting or originalproducer certification",
+  "inputs_and_boundaries": "model-contract-009.json; geometric a not calibratedphysicalg; energy central diagnostic not blind holdout/statistical rejection",
+  "review": "new source claims needs_review:true, original flags/page human-review scope not promoted"
+}

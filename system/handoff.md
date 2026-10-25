@@ -1,19 +1,19 @@
 ---
 graph-excluded: true
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint008（持续研究）
+## Active handoff — Day23 checkpoint009（持续研究）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08。nativegoal active/Farmer2698fresh running；completed=[] partial=[23] next23，Day24未打开；原Day21/22学分/raw/PLAN/Bib及人审flags保持，114隔离producer不跑。用户要求原截止后才收束，checkpoint不是完成。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08。上海已跨日，原run_date仍25；nativegoal active/Farmer2698fresh running；completed=[] partial=[23] next23，Day24未打开。保原Day21/22信用/raw/PLAN/Bib/人审flags，114隔离producer不跑，checkpoint非日终。
 
-008：ST18十页全文主线/refs和PDF2–5关键visual；D2 K/R正交、coherentP与Hcoll两路独立构造22controls过，maxHdiff9.1e−15MeV，仅组件，不是fullPRM核态/实验。I13/2j11/2共42维含15oddR>=3，R1无；chosenbasis/truncation/coherent例只代数，无nuclearlabel。
+009按physmodel先合同，固定ST18无配对singlej + WangEq11 C=.233738451MeV，不fit；14I完整D2有限H对角化87checks过，maxres7.2e−14MeV，ordinal只是能量号非模式。Eq3旧C另variant也87checks过。LvSIp5鲜读/图核sameI Band2/3差44/44.5keV（L22-D23-001），两候选最低态gap841/840（旧C715/723），换标签翻号不改幅度；只诊断所列variant/mappings，不排其它态/模型/参数或给新pvalue。
 
-Wang2009 Ref33实际期刊公开PDF4页读/visualEq11，DOI10.1088/0256-307X/26/5/052102，SHA dbdb64a8c116287015a062b80a4cf18f98fa190c4e2210f3dae7765bf856db96。N5/A135/j11/2/beta.17的Eq3/11给.180757460/.233738451MeV；ST18-D23-005为外部source定向核验，PDF仅tmp staging/raw归档deferred，开放许可未推定。IOP200是verification而非body，正常CPL原期刊路线成功。C公式缺口补一项，原producer/pairing/EMoperator/response边界保持。
+g几何系数a由Casimir/矩阵/分布互核，17/2差.060935、27/2差.004686但bodyRMS不同，31/2差翻号；物理g仍需gj/gR与operator，不能由近g认证bodygeometry。ST18-D23-006–008是任务计算非原作者新report。保007撤回006过强历史引用认证，不能复活。
 
-下一B先physmodel合同，显式无配对ST18+WangEq11variant，固定H不fit：H_intr有限D2对角化，核零C/两basis/Hermiticity/residual等，再比较同I候选R/j²及I·j/[I(I+1)]几何g系数。别默认SP/phonon或补physicalg/EM参数；继续原15:00研究窗，不提前授分，Day24仅局部饱和后无学分预习。详next-continuation-008/candidate-pool-008/model-contract-008。
+下一source-grounded E2operator/phase路线：先读F14/F01原件lab↔strongbasis算符/归一与新physmodel合同；齐备才做normalizedcore-onlyE2连接vector，比值不造实测Q/τ/M1g，核axialCG/detailedbalance/tensor极限。能量ordinal不自动band/phonon；缺前提记边界。尚有高价值路线，继续原15:00前研究，局部饱和才一张Day24无学分预习，不开Day25。
 
-fresh boundary/lint/diff/22组件控制及true runner17页writeback通过，0error/220warning，新claims needs_review:true。保007更正：现代Pt/Au条件算术不完全证实历史Baglin2003，.84/1.44引用差也不证明β改变（同.23），006过强认证撤回。发布指针main · Day23: verify PRM basis and rotor components；实际H3/精确hash看task-publication-receipt-008.json。
+当前boundary/lint/diff及两Cvariant执行均0，true runner18页writeback valid，0error/220warning，新needs_review:true。详model-contract-009/candidate-pool-009/next-continuation-009。发布指针main · Day23: test fixed Hamiltonian state mappings；实际H3/hash只见task-publication-receipt-009.json。
 
 ## Previous handoff — Day22 closeout
 

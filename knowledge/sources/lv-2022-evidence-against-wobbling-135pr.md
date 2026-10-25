@@ -3,7 +3,7 @@ type: source
 title: "Evidence against the wobbling nature of low-spin bands in 135Pr"
 aliases: [Lv 2022 135Pr, evidence against 135Pr wobbling]
 created: 2026-07-03
-updated: 2026-10-24
+updated: 2026-10-26
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -221,3 +221,14 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 | L22-D22-R095-1 | Table1逐线配对：747.3的P=.04(+.08/−.13)、δ=−.47(+.09/−.22)；813.2的P=−.03(+.05/−.12)、δ=−.37(+.10/−.14)；450.2的P=−.07(+.09/−.10)、δ=−.31(+.10/−.13)。不能把747的+.04绑给813的−.37。747中央P为正而δ小限制正号独立选根，但不证明任意负δ必正P，也不据此推出未经联合响应验证的3σ。 | line-resolved-experimental-fact | direct-original | main p.3 Table1 and Fig.2 | true |
 | L22-D22-R095-2 | 813.2/726同母态退激：SI光子强度6.4(.3)/3.7(.3)、δ=−.37，按纯E2分母和MeV惯例重建rE2=.11813、rM1=.39785，与打印.12(.08)/.4(.3)近合。这只是打印中心算术；Matta .843/.12=7.025为独立测量中央比，不是同一计数只改δ后的物理塌缩。相同分支/能量假设下δ−1.54到−.37只给E2份额因子5.8415。 | relative-strength-reconstruction-boundary | original-input-and-task-arithmetic | main p.3 Table1; main p.5 Fig.4(d); SI p.5 Table1 | true |
 | L22-D22-R095-3 | SI的a(E)=.9844(.0021)+2(1)×10−5E，Q(E)借Ref6既有JUROGAM-II标定。作者用P–Rac和σ/I曲线映射界限，无公开完整joint Cov。作者重组旧TW2网络并由QTR提出TiP，但bands2/5高spin能量仍过估；完整模型图像是解释。不能把全部可能的TW2结构绝对不存在或TiP唯一成立写成实验直接事实。 | response-and-interpretation-boundary | direct-original | SI p.1 Eq2, p.4 extraction paragraph; main p.2 Fig1 and final paragraph; main p.5 model comparison | true |
+
+
+## Day23：同I两序列的能级中央值
+
+本次fresh视觉核SI PDF5 Table1并重核SI SHA，原L22既有claims/人审flags不变，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D23-001 | SI Table1给Band2/Band3在17/2−的Ei分别1433.9/1477.9keV，在21/2−分别2159.4/2203.9keV；同I中央差E3−E2为44.0/44.5keV。它们是不同序列的能级，不是跨实验测量差或两δ分支；完整能级Cov未在本任务恢复，未据此计算新显著性。 | line-bound-same-spin-level-identity | direct-original-and-centre-arithmetic | SI PDF5 Table1, Band2/Band3 rows482.1/747.3 and725.5/813.2 | true |
+
+这些已发表中央值可检验指定模型下的mapping，但原源/旧模型参数的能谱定标谱系须保留；本任务对照不自动成为blind holdout。实际固定H练习见[[signature-tip-shears-discrimination-contract]]，未修改原实测计数、δ或能级。
