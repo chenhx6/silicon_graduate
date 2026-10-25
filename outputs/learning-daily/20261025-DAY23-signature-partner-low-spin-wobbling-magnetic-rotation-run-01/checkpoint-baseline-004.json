@@ -1,0 +1,15 @@
+{
+  "head": "a7ea4d619f2d9cb17716115b9eae336a15584abe",
+  "pre_edit_tracked_tree": "clean at checkpoint004 start; captured status in tool output",
+  "raw_scope": "no raw writes; official CSV temporary staged read only",
+  "owned_paths_so_far": [
+    "knowledge/concepts/signature-partner-bands.md",
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/projects/135pr-wobbling-controversy.md",
+    "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "knowledge/projects/low-spin-wobbling-controversies.md",
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md"
+  ]
+}

@@ -3,15 +3,17 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint003（持续研究）
+## Active handoff — Day23 checkpoint004（持续研究）
 
-run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。nativegoal active，Farmer原2698；completed=[] partial=[23] next23，Day24未打开。Day22正式[22]/H3已核，不重加学分。用户要求正常持续至原次日15:00收束，checkpoint不是完成。
+run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08；nativegoal active/Farmer原2698 fresh verified running。completed=[] partial=[23] next23，Day24未打开；Day22只授[22]/实际H3已核。保持用户“至原次日15:00再收束”要求。
 
-003：Clark原Eq6用单blade对I角，不是两blade全夹角；经典R0磁矩crossproduct/半角推导和6个Fraction控制，首版sympy缺包已改标准库。CL00-D19/21与shears/AMR概念旧普适硬门认证移历史，不复活114隔离producer。Chiara原TableIV/27–28核B8/9交换组态方案、原preferred理由与748.4连接的parity可证伪预测；无新δ/P/τ/机时。新增CL00-D23-001–3、CHI01-D23-1/2均needs_review:true。
+004：IAEA官方Au187gammas/levels/guide三200，640/312行；cutoff2008-11-01≠Extraction_date2026。逐ID绑定376/462，total CC≠alphaK，MR字面不定phase；436.6为13/2→13/2非SP ΔI1；parentτ空不迁终态2.3s。重复unc_hl列12/15按位置保留，空尾record修后6identitycontrols过；CSV仅tmp公开staging，原raw归档deferred，GU22-D23-006–008为外部field边界非新实验。
 
-A路线Bourgeois1978 DOI已核（GU22-D23-005），原conversion正文仍缺；访问失败逐项在conversion-discovery-003/tool-access-003，未写仓库外或改工具安全目录。Rupnik母核Ag/Hg文字疑点仍按002隔离。下一A可查IAEA/official187Au评价的ref/身份crosswalk，仍不能计新采集；B继续Pr/Au固定输入/未定标预测。候选池已刷新，还有路线，Day24仅后续无学分预习、不开Day25。
+S19主线5页/图回读：新83Ge DGS与Fig3继承MattaTW1并存；SH26新63Ge+S19合并，不能按三paper独立亦不能抹新run。S19-D23-1–3/SH26-D23-1/2、Pr项目与Mermaid图已细分采集/observable/解释依赖，Fig12逐图ledger缺口和σ/I=.2条件大根支持保留。signature概念补相反α不唯一选普通SP。
 
-当前报告唯一writeback累计11页，原人审/Day21/22学分/raw/PLAN/Bib保持。检查/reading/recall/下轮提示见本run003文件；最新复检在required-checks-003.json。发布稳定指针main · Day23: distinguish shears angles and test configuration swaps；精确hash/实际H3只见task-publication-receipt-003.json。沿next-continuation-003.md继续至原截止。
+累计15知识页映射；boundary/lint/diff/API控制及true runner报告/writeback均通过（0error/220warning）。新增needs_review:true，无人审升级，Day21/22信用、raw/PLAN/Bib及114隔离producer保持。下一A沿187Hg decay_rads(g/e)女核Au与原adopted refs，B沿Sensharma2021 Ch3/5.2实际run/model/operator缺口；不重做854.3方法，不因checkpoint提前收束。详next-continuation-004/candidate-pool-004，Day24仅局部饱和后无学分预习、不开Day25。
+
+发布稳定指针main · Day23: bind evaluated rows and separate acquisition overlap；精确hash/实际H3只看本run task-publication-receipt-004.json。
 
 ## Previous handoff — Day22 closeout
 

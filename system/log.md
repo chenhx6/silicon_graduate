@@ -4381,3 +4381,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-25T20:54:49.208164+08:00 Day23 checkpoint002：原Q校准选择/共同能量误差及Au模型定标边界写回，8限定控制通过；Guo印187Ag与Rupnik馆藏Hg摘要疑点隔离，全文/原αK仍缺。7页累计writeback和结构门通过，继续原15:00窗口，不授分。
 
 - 2026-10-25T21:23:17.985765+08:00 Day23 checkpoint003：原Eq6角定义与crossing条件纠正shears/AMR旧硬门；6限定向量控制通过，In110实际B8/9交换方案与748.4连接parity预测写回，累计11页。Bourgeois1978 DOI核定但conversion正文仍缺，候选池重建，继续原15:00窗口，无学分推进。
+
+- 2026-10-25T22:00:08.999715+08:00 Day23 checkpoint004：IAEA公开Au187字段/端点/寿命空值与重复列核验，6identitycontrols通过；S19新增采集/复用点与SH26合并run谱系更正，15页累计writeback，原始快照归档deferred，继续原15:00窗口，不授分。

@@ -209,3 +209,18 @@ Rupnik访问：Crossref200题名/作者/DOI匹配，publisher直PDF403、harvest
 | GU22-D23-005 | 本文Ref25的Bourgeois/Kilcher/Letessier/Berg/Desthuilliers、NPA295(1978)424–444，经Crossref题名/作者/卷页核定DOI10.1016/0375-9474(78)90184-7。OpenAlex无OA位置、HAL精确DOI无记录，publisher discovery无PDF候选，ADS该文端点403；尚未获得正文或376/462的原αK表。因此当前只完成追溯身份，不新增一份直接核阅的实验或δ约束。 | original-reference-metadata-and-access-boundary | direct-reference-and-external-metadata | main p.5 Ref.25; https://doi.org/10.1016/0375-9474(78)90184-7 | true |
 
 本次Elsevier metadata工具缺pybliometrics配置，NNDC入口域名解析失败；这些是路线限制，不是文献不存在。Rupnik的另一路publisher下载工具拒绝仓库内输出路径，未改其安全目录或下载到仓库外；公开ADS端点超时后没有自动当作成功/永久不可访问。继续以原子claim、实际转换系数与谱系为目标，不以访问次数替代科学信息。
+
+
+## Day23 外部官方API字段核验（非本文新测量）
+
+以下是外部IAEA接口的本次field自审，不归属Guo2022实测，也不冒称已取得Rupnik/Bourgeois全文。请求URL为`https://www-nds.iaea.org/relnsd/v0/data?fields=gammas&nuclides=187au`与`fields=levels`；官方guide为`https://www-nds.iaea.org/relnsd/vcharthtml/api_v0_guide.html`。CSV只在tmp公开staging读取，按raw保护边界未新增/覆盖raw；正式原始快照归档仍deferred，不能把本节用作新实验paper-level数据。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-006 | 实际gammas/levels响应有640/312行，Extraction_date=2026-10-25，但Au187条目publication cut-off=1-Nov-2008、authors=M.S.Basunia；guide Data sources称ENSDF April2022 snapshot。gammas row(16,2,2)列496.73→120.33keV、376.3、(11/2−)→9/2(−)、mixing_ratio=.6、unc_mr=.3、tot_conv_coeff=.147、tce_unc=.024；row(38,10,3)列815.81→353.66keV、462.1、(15/2−)→(13/2−)、mixing_ratio=1.1、unc_mr=.3、tot_conv_coeff=.064、tce_unc=.012。这些是export字面字段；完整adopted notes/符号约定未得，不将正数字串认证为正物理δ，也不把total系数冒充独立测得的αK或2020/2022之后裁决。 | evaluated-export-field-readout | direct-public-api-with-archival-boundary | IAEA gammas187au; snapshot row keys(start_level_idx,end_level_idx,gamma_idx)=(16,2,2),(38,10,3); guide Data sources | true |
+| GU22-D23-007 | API近能量436.6keV row(92,48,0)是1393.34→956.44、(13/2−)→(13/2−)，与支持方436.5的SP→yrast ΔI1不是同一endpoint identity。不能仅按接近能量合并/否定两线；旧2008评价无2020新序列也不构成其非观察实验。 | transition-identity-and-cutoff-boundary | direct-export-and-cross-source-boundary | IAEA gammas187au row(92,48,0); AU20-5 | true |
+| GU22-D23-008 | 实际levels CSV的unc_hl列名出现两次（0-based列12与15），分别邻half_life及half_life_sec；普通DictReader会覆盖第一列。以snapshot idx相连时，376/462母态16/38的half_life均空白，不能用end-level idx2的2.3s异构态寿命填入。空白不是零。guide给idx同核素连接但未为本export的全部重复/新增字段提供完整解释。 | CSV-identity-and-lifetime-readiness | direct-api-schema-self-audit | IAEA levels187au header positions12/15; levels idx16,38,2; guide General notes | true |
+
+两CSV SHA256依次为8c38df9d5634f6255bc57d8c26e3231042cb78f95a02c4235191c81bac01155b与ffa9e79ea076ca7d857e0eb01d681295c05212eda1316da78de89c6232fbb279；字段/target rows重放程序`system/scripts/day23_au187_api_identity.py`，不是原实验producer。首次严格CSV宽度检查发现末尾空record，改为仅跳过全空record后重跑6项identity controls通过，没有丢弃非空不等宽行。
+
+Knowledge Impact and Learning Decision：supports对376/462近能量/端点和来源时间窗的逐量核验，limits用total/αK、magnitude/sign、daughter/parent lifetime或evaluation/new acquisition互换；本次没有恢复独立历史αK表、共同Cov、δ显著性或模式最终归属。

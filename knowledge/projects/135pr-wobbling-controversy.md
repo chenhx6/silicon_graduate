@@ -18,9 +18,9 @@ tags: [135pr, wobbling, controversy, evidence-map, project]
 
 这是争议型研究工作台，用于整理 `135Pr` low-spin bands 的 wobbling 支持链、反证链、模型解释和证据缺口。它不是论文草稿，不裁决 Matta 2015、Sensharma 2019/2026、Guo 2021 与 Lv 2022 谁最终正确，也不声称已覆盖全部相关文献。
 
-## Agent active summary — Day22 current evidence
+## Agent active summary — Day23 current evidence
 
-本段为2026-10-25 Codex self-audit导航，不扩张既有human-reviewed范围。当前结论与逐线表见“Day22 checkpoint095”。
+本段为2026-10-25 Codex self-audit导航，不扩张既有human-reviewed范围。当前逐线校准沿“Day22 checkpoint095”，采集/观测依赖继续按Day23下节细分。
 
 - [[lv-2022-evidence-against-wobbling-135pr]] L22-D22-R095-1：747与813的P/δ必须逐线配对；两线不能拼成排他显著性。
 - [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D22-R095-1：固定σ/I=.2的AD曲线保留大δ条件偏好；共同response/Cov尚未复现。
@@ -42,10 +42,10 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 | Source | Project role | Evidence independence |
 |---|---|---|
 | [[matta-2015-transverse-wobbling-135pr]] | supporting source for transverse-wobbling interpretation | ATLAS/Gammasphere 与 TIFR/INGA 原始数据 |
-| [[sensharma-2019-two-phonon-wobbling-135pr]] | supporting source for two-phonon extension | 独立高统计 DGS 数据，但 `n_w=2` hierarchy 继承 Matta 的 `n_w=0/1` assignment |
+| [[sensharma-2019-two-phonon-wobbling-135pr]] | supporting source for two-phonon extension | 相对Matta的新增高统计DGS；Fig3 TW1点引用Matta，n_w层级继承旧assignment，后续SH26又合并本DGS样本；见S19-D23-1/2 |
 | [[lv-2022-evidence-against-wobbling-135pr]] | counter-source against low-spin wobbling interpretation | 独立 JUROGAM II 数据与重新分析；对 Matta/Garg/erratum 的比较仍需回到各原始来源 |
 | [[guo-2021-comment-transverse-wobbling-135pr]] | methodological counter-comment on Matta 2015 | 依赖既有 Matta angular-distribution/polarization report；不计为新实验 |
-| [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] | later supporting source and response to Lv 2022 | `123Sb(16O,4n)` Gammasphere continuation/merged data；新增 DB1/DB2 links 与旧数据 χ² response，不是 independent campaign |
+| [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] | later supporting source and response to Lv 2022 | S19 DGS样本与新63Ge run合并；新DB观测/旧连接χ²回应须逐量核eventledger，不是整篇独立第三次重复；见SH26-D23-1/2 |
 | [[nomura-2022-questioning-wobbling-ibfm]] | IBFM-based theoretical alternative/challenge | 复用既有实验能级与 mixing ratios；不是新实验，也不与 Lv 2022 算作独立 experimental counter-evidence |
 
 ## Evidence Available
@@ -79,7 +79,7 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 | Controversy | Supporting use | Counter-evidence / limitation | Current project status |
 |---|---|---|---|
 | Connecting transitions 是否 E2 dominated | Matta M15-4/M15-5；Sensharma S19-3/S19-4 | Lv L22-4/L22-5 给出相同 747/813/450 keV links 的小 `abs(δ)` 与 M1 dominance | 核心未决；必须比较拟合、偏振响应和误差处理 |
-| Mixing ratio 是否存在双解 | Matta/Sensharma 采用 angular-distribution 的大 `abs(δ)` 解 | Lv L22-3；pp.2-3, Fig.2：`χ²` 拟合可给出大/小 `abs(δ)` 两解 | 不能只由 angular distribution 选择 |
+| Mixing ratio 是否存在双解 | Matta/Sensharma 采用 angular-distribution 的大 `abs(δ)` 解 | Lv L22-3；pp.2-3, Fig.2：`χ²` 拟合可给出大/小 `abs(δ)` 两解 | 多角AD可有条件分支偏好；需给取向/response/Cov与两极小排除，不能预判等深 |
 | Polarization sign 与 magnitude 如何使用 | Matta M15-5 用正 asymmetry 支持 electric character | Lv L22-8；pp.2-3：正号本身不唯一选择大 `abs(δ)`，应联合 polarization magnitude 与 `R_ac` | 需要方法级复核与相同响应约定下重算 |
 | 是否所有关键 links 都有 polarization | Matta 有 747、813 keV；Sensharma 主要用 angular distribution/DCO-like ratios | Matta 754.6/710.2、Sensharma 450/551/519/571.7 并非都有 polarization；Lv 的 755 keV 仍太弱 | 覆盖不完整，不能把已测两三条外推到全部 links |
 | Wobbling-energy trend | Matta M15-9；Sensharma S19-6 报告低自旋下降 | 趋势依赖 `n_w=0/1/2` band assignment；Lv 重组 TW2 level scheme | 可作条件性判据，不能独立裁决 |
@@ -263,3 +263,12 @@ P1 self-audit：这些是source identity/版本/可复现条件推导；原2019b
 | TW2网络 | Lv重组827/764/1009旧序列，450线小δ | 作者数据/解释对原指认的具体挑战，不由此穷尽所有多声子可能 |
 
 下一步：联合两套实验的原角环/gate/背景与a/Q数据，保留双分支和所有取向参数；模型用同一逐线观测向量评分。谐小角与非谐topological wobbling定义争议另列，不把它替代实验多极性冲突。needs_review: true。
+
+
+## Day23：run重叠与observable继承分开
+
+本轮source self-audit不扩张原project人审范围，新增/定向修订均needs_review:true。[[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-1/2确认新增83Ge DGS事件，同时明确Fig3 TW1数据来自Matta；[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-1/2明确S19与新63Ge run合并，以及Fig12逐图ledger缺口。新采集成分是真实信息，不能因框架继承而抹掉；复用点和重叠合并样本也不能重复乘似然或按三篇文章计独立实验。
+
+旧表“AD不能选择”按多角A2/A4的条件信息修正：固定σ/I=.2的SH26大根偏好保留，尚不能等同完整nuisance-profile或对Lv新P–Rac的共同响应复现。原S19的非谐phonon标签定义允许same-topology量子态偏离harmonic比例（S19-D23-3），但相同标签也不替代实际拓扑/电磁量检验。
+
+具体观测分层与新谱系图在[[low-spin-wobbling-controversies]]及[[signature-tip-shears-discrimination-contract]]；最终TW/TiP/SP归属仍未裁决。

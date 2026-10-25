@@ -30,7 +30,8 @@ The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129
 | Matta AD/INGA asymmetry | 大δ与A支持原解释；两装置observable不同 | 原AD与偏振各有测量来源；A不是未经校准的P | [[matta-2015-transverse-wobbling-135pr]] M15-D22-R095-1 |
 | Guo comment及Lv Fig2左列 | 对旧AD/选根的方法反证 | 重分析旧数据；不新增独立事件 | [[guo-2021-comment-transverse-wobbling-135pr]] GU21-6；[[lv-2022-evidence-against-wobbling-135pr]] L22-19 |
 | Lv2022 Pr P–Rac | 新JUROGAM-II小δ测量；QTR支持TiP但能量仍有偏差 | 新于Matta的数据；主P、SI Ap、δ和rE2/rM1为同一分析链 | [[lv-2022-evidence-against-wobbling-135pr]] L22-D22-R095-1、L22-D22-R095-2、L22-D22-R095-3 |
-| SH26旧AD Fig12/新DB | 固定σ/I=.2时旧AD真实偏好大根；另有新DB观测 | Fig12不算新采集；DB新结果不等于新测低带偏振 | [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D22-R095-1、SH26-11、SH26-15 |
+| S19 DGS新run及复用TW1点 | 新83Ge DGS支持TW2；Fig3 TW1点取Ref10 | 新增事件与继承observable并存；后续SH26复用本run | [[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-1、S19-D23-2 |
+| SH26 combined样本/Fig12/DB | 新63Ge run加S19；固定σ/I=.2大根条件偏好保留 | 部分重叠而非完全独立；Fig12逐图ledger仍缺，不断言完全没有新事件 | [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-1、SH26-D23-2、SH26-D22-R095-1 |
 | Sensharma2020 Au | 两run合并17环AD支持LW，band(3)为SP | 独立于HIRFL；四δ及E2份额/相对强度不各算一次采集 | [[sensharma-2020-longitudinal-wobbling-187au]] AU20-1、AU20-4、AU20-5 |
 | Guo2022 Au P–Rac | 376/462小δ反证；伴随SP身份另有冲突 | 新HIRFL采集；多门上/下界同源，αK图的本次点是δ换算 | [[guo-2022-low-spin-wobbling-187au]] GU22-D23-001、GU22-D23-003、GU22-D22-R094-2 |
 | Lv2021 Nd / Lv2022 Pr | 相同152MeV反应/setup/总events的跨核campaign候选 | 不按独立校准确认；event/run ledger未核，亦不宣布逐event完全相同 | [[lv-2021-tilted-precession-135nd]] LV21-D22-R102-2 |
@@ -39,22 +40,26 @@ The original experiments for `105Pd`, `133La` and `127Xe`, plus comparative `129
 
 ```mermaid
 flowchart TD
-    F14["F14: Matta私信暂定数据"] --> M15["Matta2015: 原AD与INGA A"]
+    F14["F14: Matta私信暂定值"] --> M15["Matta2015: 原AD与INGA A"]
     M15 --> GU21["Guo评论: 旧AD/偏振方法反证"]
     M15 --> LVFig["Lv2022 Fig2左列: 旧AD再分析"]
-    M15 --> SHFig["SH26 Fig12: 旧AD条件χ²支持大根"]
-    LVnew["Lv2022: 新JUROGAM-II P与Rac"] --> LVout["同源δ、rE2、rM1与TiP解释"]
+    M15 --> TW1reuse["S19 Fig3: TW1值取Ref10"]
+    S19["S19: 新83Ge DGS采集"] --> S19Obs["TW2新增观测/同源派生量"]
+    S19 --> Merge["SH26: 两run合并及逐run效率"]
+    SHrun["SH26: 新63Ge run"] --> Merge
+    Merge --> SHDB["新增DB连接; 非新低带P"]
+    Merge -. "全局AD程序; 逐图ledger缺" .-> SHFig["Fig12: 固定sigma大根偏好"]
+    M15 -. "Refs15/16观测谱系" .-> SHFig
+    LVnew["Lv2022: 新JUROGAM-II P与Rac"] --> LVout["同源delta与相对强度; TiP解释"]
     LVnew -. "campaign候选; event ledger缺" .-> ND21["Lv2021: 135Nd参考"]
-    M15 --> SHnew["SH26: 同谱系新报告DB观测"]
-    SHnew --> SHDB["DB手征解释; 不等于新低带P"]
-    AU20["Sensharma2020: 两run合并AD"] --> LW["大δ、LW与伴随SP"]
-    GU22["Guo2022: 新HIRFL P与Rac"] --> SPexc["小δ、QTR轨道重指派"]
-    GU22 --> Conv["本δ换算αK; 非新转换谱"]
-    LW -. "同线实测结果冲突" .-> SPexc
-    GU21 -. "方法相关; 不新增采集" .-> SHFig
+    AU20["Au支持方: 两run合并AD"] --> LW["大delta; LW与伴随SP"]
+    GU22["Au反方: 新HIRFL P与Rac"] --> SPexc["小delta; QTR轨道重指派"]
+    GU22 --> Conv["本delta换算alphaK; 非新转换谱"]
+    LW -. "同线测量/解释冲突" .-> SPexc
+    GU21 -. "方法回应; 不新增采集" .-> SHFig
 ```
 
-实线表示数据/分析依赖；虚线表示争议或待核campaign关系，不代表额外独立实验。原件/原子出处由上表给出。几何、harmonic近似和完整非谐定义仍分层；图不预判最终模式。
+实线表示明确的采集/数据/分析依赖；虚线表示方法/争议或待核具体event组成。S19与SH26新run的信息须保留，合并和继承也须保留，不能简化成每篇独立或每篇完全重复。原件/原子出处由上表给出。几何、harmonic近似和完整非谐定义仍分层；图不预判最终模式。
 
 本项目把 `135Pr` 与 `187Au` 两个已建立的核素级争议页放入同一证据框架，追踪 reported low-spin wobbling bands 的观测基础、识别判据、竞争解释与证据缺口。目标不是把两个案例合并成同一个物理结论，而是检验一套低自旋 wobbling identification paradigm 在不同质量区、组态和实验分析中是否保持一致、可审计且可反驳。
 
@@ -540,3 +545,6 @@ This reflection is a research-map update, not a final physical judgment. The 202
 - [[gamma-soft-deformation-evidence-map]]
 - [[low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations]]
 - [[experimental-wobbling-evidence-strength-map]]
+
+
+Day23官方API旁证仍只作字段/身份核验：[[guo-2022-low-spin-wobbling-187au]] GU22-D23-006–008区分Extraction_date、2008出版物截止、total与K-shell、端点和母态τ。它不补一个独立conversion实验，也不因旧评价未含2020序列而将之排除；原始快照正式归档仍deferred。

@@ -257,3 +257,10 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 
 
 Day23后续追溯：Bourgeois1978精确DOI已核为10.1016/0375-9474(78)90184-7（[[guo-2022-low-spin-wobbling-187au]] GU22-D23-005），但有限公开来源路线未取得原文；1979关于187Au→187Pt衰变的相似题名论文不是该source，不能混入376/462的输入。当前不增加历史conversion的独立直接证据权重。NNDC暂时无法访问亦不改变这一点。
+
+
+## Day23：官方评价export不等于独立转换测量
+
+本次IAEA公开API成功返回Au187 gammas/levels，数据cutoff为2008-11-01而Extraction_date为2026-10-25。逐snapshot ID绑定376.3/462.1的母末态，total转换系数不能与Guo Fig3的αK混用，mixing_ratio字面正数字也不能缺adopted notes就改成有符号δ。近能量436.6实际是13/2→13/2，并非支持方SP的ΔI1连接；旧截止更不能检验2020新增band的非观察。出处[[guo-2022-low-spin-wobbling-187au]] GU22-D23-006/007/008为明确外部API field自审，非Guo原测量。
+
+两个Band2母态的τ在export为空；9/2−异构态2.3s属于另一个end level，不迁入Band2求绝对B。CSV的重复unc_hl列还要求按列位置保留误差含义。完整adopted notes、原αK表/其引用及正式raw快照仍缺，保持readiness boundary和needs_review:true，不提高独立证据票数或最终归属。

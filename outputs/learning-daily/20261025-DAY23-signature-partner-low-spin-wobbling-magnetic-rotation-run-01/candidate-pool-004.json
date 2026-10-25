@@ -1,0 +1,33 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-25T22:00:08.999715+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 1019.85000475,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "slot_A": {
+    "delta": "official Au187 CSV/guide field readout and source chronology; still no primary historical K-shell table",
+    "next": [
+      "query187Hg decay_rads gamma/electron exports, respecting mother/daughter/gamma-versus-radiation and evaluator dependencies",
+      "find original adopted notes/reference mapping through accessible official paths; do not promote total CC to alphaK"
+    ],
+    "boundary": "full API snapshots only temporary; no new raw writes; no novel experiment or joint likelihood"
+  },
+  "slot_B": {
+    "delta": "S19 new DGS versus inherited Fig3 TW1; SH26 new-run/merged-sample component graph; signature alone not a mode selector",
+    "next": [
+      "Sensharma2021 thesis Ch3/5.2 targeted run identity/model/EM operator information, without redoing earlier854.3 alignment exercises",
+      "current Pr/Au common-operator/configuration predictions using actual available inputs"
+    ],
+    "boundary": "S19/SH26 individual plot event ledger missing; retain conditional large-root evidence and new-run information"
+  },
+  "preview": "Day24 remains unopened; only one uncredited next-card preview if current useful routes saturate",
+  "stop_reason": null
+}

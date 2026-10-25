@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-25
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint003）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint004）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-25
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-25T21:18:48.402752+08:00
+- checked_at: 2026-10-25T21:52:11.478961+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -47,6 +47,10 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 
 ## Sources and evidence
 
+checkpoint004：IAEA官方gammas/levels/APIguide三请求均200，实际读取640/312行。条目的publication cutoff2008-11-01，guide称ENSDF April2022 snapshot，Extraction_date2026-10-25；不是2026新实验/新评价。输入CSV只在tmp公开staging，按raw保护边界未新增raw；正式快照归档deferred，当前只用作field/身份/缺口核验。外部API原子记录GU22-D23-006–008含URL/hash/row IDs，不冒充Guo原测量。
+
+另完整回读S19五页主线，视觉核171实验/Table1、172 Fig1–3；SH26实际回读/视觉核PDF2及PDF3–4合并效率段。S19-D23-1/2表明新DGS采集与复用TW1点并存；SH26-D23-1/2表明S19+新63Ge run合并。已据此修订Pr项目/跨案例矩阵及谱系图，保留所有新增采集信息与逐图event ledger缺口。
+
 checkpoint003：Bourgeois1978精确DOI10.1016/0375-9474(78)90184-7已核，全文仍未获得。HAL精确DOI0、OpenAlex无OA、publisher无候选、ADS403；NNDC域名解析失败，Elsevier metadata工具缺配置。Rupnik新publisher下载工具拒绝仓库内输出路径，未去仓库外下载，ADS本次超时；不把这些失败当“无原文/无反证”。去凭据route记录见conversion-discovery-003.json/tool-access-003.json；GU22-D23-005仅metadata追溯，不增conversion独立证据。
 
 本轮真正的新阅读沿既有原件继续：Chiara2001 PDF18–20、23–28/TableIV p11，fresh视觉p19/23与748.4表行；Clark2000 PDF14–18、fresh视觉p15 Eq5–7。哈希均匹配。新增CHI01-D23-1/2、CL00-D23-001–003；旧CL00-D19/21与概念页普适硬门认证隔离至superseded-geometry-003.json，原primary claims/人审状态不动。
@@ -65,6 +69,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 
 ## Theory/analysis exercise
 
+checkpoint004逐行读取练习：以同snapshot z/n/symbol/start-end idx连接gammas与levels，376.3的row(16,2,2)为496.73→120.33，462.1的row(38,10,3)为815.81→353.66；能量闭合打印残差.10/.05keV，仅中央算术，不给χ²/CI。API列total conversion而非αK；mixing_ratio .6/1.1仅按字面字段、不认证物理正号。近能量436.6实际13/2→13/2，不能与SP ΔI1的436.5合并。母态16/38 half_life空，不用终态9/2异构态2.3s替代；重复unc_hl两列按0-based12/15保留，避免DictReader覆盖。六项identity/空值/错线控制通过。首次严格CSV检查因末尾全空record失败，识别后仅忽略全空record，非空不等宽仍拒绝；未改科学输入。程序day23_au187_api_identity.py与au187-api-identity-004.json保留hash/原字符串。
+
 checkpoint003：根据CL00原Eq6，sin²θπ中的θπ是单blade对I角，χ才是两blade全夹角；TAC对密度主轴的tilt又不同。在声明的经典R=0模型中m=μ/μN、m×I=(gπ−gν)jπ×jν，故mperp²=(gπ−gν)²jπ²jν²sin²χ/I²；等长时正比sin²(χ/2)。这不是核态角度反演或全量子禁戒。标准库Fraction的6个exact有理数向量控制通过，chosen vectors无核素对应；初版因缺sympy失败，已改标准库并实际重跑，失败不当验证。代码day23_shears_geometry.py与结果shears-geometry-003.json，条件/推导唯一持久副本在shears-mechanism。primed-recall-003.md冻结六项暴露后主动复述，不是独立盲测/口试分。
 
 checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=.314472/.292257，在Pr450.2/747.3/813.2给.236763/.148787/.134271。共同参数导致跨线Cov；若只知道两参数marginal σ，未知ρ下可给一阶σQ范围，不能指定成真实target CI。Q376/Q462=1.076013、Q747.3/Q813.2=1.108109，其校准形状误差与绝对归一不同；未知transfer κ(E)仍未覆盖。8项全两参数有限差分/PSD/rank/共同尺度控制实际通过，来源与公式均在canonical方法页“Day23 外借Q的能量共同误差与迁移边界”；代码day23_polarization_calibration_transfer.py、结果calibration-transfer-002.json。没有由印刷Q误差恢复原共同likelihood或排除分支。
@@ -76,6 +82,10 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 首次JSON导出因numpy布尔类型失败，改成builtin bool后重跑成功；失败及修正记入reading ledger，不把失败的首轮当通过。脚本`system/scripts/day23_strength_dependency_rank.py`，结果`strength-dependency-001.json`。
 
 ## Counter-evidence and missing companion observables
+
+checkpoint004：不能把S19/Fig3的Matta继承点、S19本次derived ratio和SH26合并样本当三个独立量乘likelihood；同时S19 DGS及SH26的新run确有新增采集信息。若获取分run likelihood，需从真正不重叠的run出发并统一共享calibration，而非按paper二元计票。SH26 Fig12的具体样本组成尚无逐图ledger，故不宣称完全没有新增事件，也不宣称其逐点等同2015；固定σ/I=.2大根偏好照保留。
+
+官方Au export未给原adopted notes/历史K-shell转换测量、目标母态τ或joint Cov，且旧cutoff不能检验2020新增带。空白/近能量/total字段都不能自动补成新的δ/αK/寿命证据；本轮没有据旧数字宣布哪一方实验被排除。
 
 checkpoint003提供已发表的计数不变反例练习：110In bands8/9交换BEF/EFG组态（CHI01-D23-1），alignment更相符，却不合Routhian顺序/crosstalk，故作者仍偏好原方案。parity仅tentative，改变解释不改实测counts/energies。TableIV的748.4(1)keV、8→3、(18+)→(17+)、thin/backed相对强度1.0(.1)/.2(.1)、两个RDCO栏空白（CHI01-D23-2）给一条具体candidate：固定placement/spin与Band3 parity后，交换前后对该连接允许的同/异parity多极族不同。需要联合AD/偏振/可能转换及matching响应，不能以表内M1/E2标记或P正号单项认证；实际净计数/背景/门/Q/Σ缺，不造功效或机时。方法只迁移回Pr/Au，实验事实不跨核迁移。
 
@@ -93,6 +103,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 
 ## Knowledge Impact and Learning Decision
 
+checkpoint004 revises/limits：将文献独立性细分为采集、observable复用和模型/assignment继承；更新谱系图保留新run贡献。官方export只提高端点/字段和时间窗识别，不增加独立转换观测权重。旋称相反可同时对应ordinary SP和wobbling候选，不能仅靠α选模式；S19非谐定义仍属作者模型框架。
+
 checkpoint003 revises：旧MR/AMR普适硬门和角度混用；supports：带身份/组态分段、原数据与作者替代mapping的实际对照；limits：形式可行不等可信，metadata核定不增加直接转换实验权重。该增量提高机制辨别能力，未最终裁决Pr/Au。
 
 checkpoint002 supports/limits：明确源曲线与target transfer分层、共同校准误差及P的取向依赖；进一步把Au观测层不变的重解释与同Hamiltonian的configuration数值对照区分开。模型/实验排序尚无充分共同输入裁决，继续当前A/B问题。
@@ -109,7 +121,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
   "items": [
     {
       "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-      "summary": "原图修正376keV上误差为+.11；分开自有a/外部Q及462选门依赖。 补Rupnik母核原文Ag字面与馆藏Hg摘要的身份边界。 核定Bourgeois1978 DOI且原conversion表仍缺。",
+      "summary": "原图修正376keV上误差为+.11；分开自有a/外部Q及462选门依赖。 补Rupnik母核原文Ag字面与馆藏Hg摘要的身份边界。 核定Bourgeois1978 DOI且原conversion表仍缺。 补外部官方API时间窗/端点/total-vs-K/重复unc_hl与母态τ边界，raw正式归档deferred。",
       "anchor": "Day23 原件复核：误差上标与新增观测的依赖",
       "sources": [
         {
@@ -131,6 +143,18 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
           "locator": "GU22-D23-005"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-006"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-007"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-008"
         }
       ]
     },
@@ -166,12 +190,20 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
           "locator": "CHI01-D23-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D23-1"
         }
       ]
     },
     {
       "knowledge": "knowledge/projects/low-spin-wobbling-controversies.md",
-      "summary": "支持/反证/采集依赖矩阵与争议Mermaid图；新报告DB观测不自动算新采集，跨核campaign仍缺ledger。",
+      "summary": "支持/反证/采集依赖矩阵与争议Mermaid图；新报告DB观测不自动算新采集，跨核campaign仍缺ledger。 采集/合并图修订，不能抹掉新增DGS/63Ge run贡献。",
       "anchor": "Day23 活跃比较入口",
       "sources": [
         {
@@ -185,6 +217,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
           "locator": "LV21-D22-R102-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D23-2"
         }
       ]
     },
@@ -295,6 +335,66 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
           "locator": "CHI01-19"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "summary": "新DGS采集与Matta TW1点复用、非谐phonon定义及各自in-band分母分别记录。",
+      "anchor": "Day23：新增采集、复用观测与非谐定义分别记录",
+      "sources": [
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "summary": "明确S19与新63Ge run合并、合并AD效率及Fig12逐图样本缺口，保留新增事件信息。",
+      "anchor": "Day23：两run合并与旧连接图的证据权重",
+      "sources": [
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D23-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
+      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。",
+      "anchor": "Day23：run重叠与observable继承分开",
+      "sources": [
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/signature-partner-bands.md",
+      "summary": "相反signature不唯一识别ordinary SP，保持pseudospin区别及非谐定义边界。",
+      "anchor": "Day23：相反signature不等于已识别普通SP",
+      "sources": [
+        {
+          "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+          "locator": "S19-D23-3"
+        }
+      ]
     }
   ]
 }
@@ -313,8 +413,10 @@ L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖�
 
 ## Verification and continuation
 
+checkpoint004实际boundary/lint/diff/api_identity均0，6项字段/连接控制通过；true runner报告与累计15页writeback valid。lint为0error/220warning、claim_missing_locator/kind为0，182个旧citation_key债务保持。实际返回见required-checks-004.json。
+
 checkpoint003实际boundary=0、lint=0、diff=0、geometry=0，6项exact向量控制通过；量纲符号改为m=μ/μN后已重新核验。真实runner报告及累计11页writeback均valid。lint0error/220warning、claim_missing_locator/kind均0，原有182个缺citation_key债务保留；不把这些结构检查当实验模式认证。updated日期维护后的末次检查同样通过，均保存在required-checks-003.json。
 
 checkpoint002实际boundary=0、lint=0、diff=0、calibration=0，8项限定控制通过；真实runner报告/累计7个已改知识页writeback均valid。lint0error/220warning，新增claims仍needs_review:true。required-checks-002.json保存退出码/尾部与映射；原始baseline-001保持不变。
 
-checkpoint001实际boundary=0、lint=0、git diff --check=0、strength_dependency=0；6项限定数值控制通过。真实runner validate_report和validate_durable_knowledge均valid，首批4个已改知识页均在唯一writeback区块映射。lint为0 errors、220 warnings，source_missing_citation_key=182为继承覆盖债务，新claim_missing_locator/kind均0；needs_review信息不冒称人审。详细退出码见`required-checks-001.json`与`runner-contract-check-001.json`。下一提示`next-continuation-003.md`保持本session和原15:00截止；本报告是checkpoint，不是当天完成或提前收束。checkpoint003发布稳定指针为main · Day23: distinguish shears angles and test configuration swaps；实际H3结果/精确hash只记本run `task-publication-receipt-003.json`，正式授分仅到截止收束门处理。原生goal active持续推进，Farmer仅负责allowlisted瞬时失败。
+checkpoint001实际boundary=0、lint=0、git diff --check=0、strength_dependency=0；6项限定数值控制通过。真实runner validate_report和validate_durable_knowledge均valid，首批4个已改知识页均在唯一writeback区块映射。lint为0 errors、220 warnings，source_missing_citation_key=182为继承覆盖债务，新claim_missing_locator/kind均0；needs_review信息不冒称人审。详细退出码见`required-checks-001.json`与`runner-contract-check-001.json`。下一提示`next-continuation-004.md`保持本session和原15:00截止；本报告是checkpoint，不是当天完成或提前收束。checkpoint004发布稳定指针为main · Day23: bind evaluated rows and separate acquisition overlap；实际H3结果/精确hash只记本run `task-publication-receipt-004.json`，正式授分仅到截止收束门处理。原生goal active持续推进，Farmer仅负责allowlisted瞬时失败。

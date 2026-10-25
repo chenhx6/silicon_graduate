@@ -3,7 +3,7 @@ type: source
 title: "Two-phonon wobbling in 135Pr"
 aliases: [Sensharma 2019 135Pr, two-phonon wobbling in 135Pr]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-10-25
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -121,3 +121,16 @@ N. Sensharma et al., *Physics Letters B* **792**, 170-174 (2019)，DOI `10.1016/
 ## Personal Notes
 
 本页只建立 Sensharma 2019 的支持方证据链。用户已完成 source 页面和 S19-1 至 S19-13 的原文核对，未发现问题；这不构成对 `135Pr` wobbling 争议的裁决。
+
+
+## Day23：新增采集、复用观测与非谐定义分别记录
+
+本次完整回读5页主线、关键图注/输入/局限，视觉核printed171实验段及Table1、printed172 Fig1–3；raw SHA保持。原S19-1–13/人审flags不动，新条目全needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| S19-D23-1 | 本文83探测器DGS、634μg/cm²靶及1.45×10^10事件，正文明确digital升级使相近beam time取得近4倍Ref10(Matta2015)数据。这支持相对旧Matta采集的新增DGS数据，不能因共享反应/靶厚/解释链就称逐事件同一采集；具体run IDs/重叠仍缺event ledger。SH26 SecII另明确把本文数据与其新run合并，故不能将S19和SH26两整份样本当完全独立。 | acquisition-and-partial-overlap-boundary | direct-original-and-cross-source | printed171, experiment paragraph; SH26 PDF2 Sec.II | true |
+| S19-D23-2 | Fig3图注明确TW1→Yrast实验值取自Ref10(Matta2015)，而本文新增TW2等比值由本次intensity/AD δ派生；新DGS acquisition并不让图上每一量都成为新测。主文还明确无absolute transition probability。须逐observable区分继承点、同源派生和新增观测，不按paper篇数或图中点数增加独立性。 | observable-reuse-and-derived-strengths | direct-original | printed172, Fig.3 caption and adjacent text | true |
+| S19-D23-3 | printed171称QTR解只要保留与harmonic limit相同topology，即使定量非谐仍可用phonon标签；printed173把TW2→TW1比值小于TW1→Y的现象与strong anharmonicity联系，两个分母分别是各自band origin的in-band E2。此作者定义不等于要求exact factor2，也不凭relative ratio自动证明完整拓扑/实测声子。 | author-definition-and-normalizer-boundary | direct-original | printed171, topology paragraph; printed173, Fig.3 discussion | true |
+
+Knowledge Impact and Learning Decision：supports保留真实新增DGS支持链，limits对全部观测独立性的二元计票和把harmonic比例当唯一模式定义。[[low-spin-wobbling-controversies]]与[[135pr-wobbling-controversy]]按run/observable/模型依赖分别组织，不作最终归属。

@@ -74,7 +74,7 @@ tags: [signature-partner, tilted-precession, magnetic-rotation, shears, discrimi
 |---|---|---|---|
 | Pr747.3/813.2/450.2，Lv2022 | P分别+.04/−.03/−.07，δ分别−.47/−.37/−.31；SI另报Ap，同采集 | 本文a、外借Herzan Q；四角组合Rac、逐线gates，完整Cov/原峰面积缺 | 先对齐同一母末态和A/P定义；不能把主文P与SI Ap当两个偏振测量 |
 | Pr747.0/812.8，Matta2015 | A=.047(.012)/.054(.034)，δ−1.24(.13)/−1.54(.09)；AD与polarization来自不同装置 | 未在本任务取得原INGA完整Q/Σ；原角分布response/Σ缺 | A不能未经Q校正与Lv P逐值相减；旧AD被重分析不产生新事件 |
-| Pr746.3/811.6/754.2，SH26 Fig12 | 延续旧AD谱系的σ/I=.2条件χ²偏好大模解 | 旧计数/完整likelihood未重放；新报告DB观测仍在共享/合并数据谱系内 | 保留条件支持，不能声称自由σ/I时两谷必等深；新DB观测不自动等于新测三条低带P |
+| Pr746.3/811.6/754.2，SH26 Fig12 | 延续旧AD谱系的σ/I=.2条件χ²偏好大模解 | S19与新63Ge run合并；Fig12具体事件组成仍缺ledger；共同likelihood未重放 | 保留条件支持，不能声称自由σ/I时两谷必等深；新DB观测不自动等于新测三条低带P |
 | Au376/462，Guo2022 | 新P–Rac联合δ−.26(+.11/−.15)/−.28(+.23/−.69) | 自有a、外借Zheng Q；154°/90°、all-angle gates；462有选门上/下界 | 和Sensharma同线比较前须对齐模型/响应；Fig3(c,d)的αK由本δ换算，不是新转换谱 |
 | Au376.3/461.8，Sensharma2020 | 17环AD给δ−2.67/−2.98；未报告这两条P | 两次采集合并；共同效率/取向/完整Cov缺 | 这是独立于HIRFL的实验链；E2 fraction与相对强度复用所选δ |
 
@@ -162,3 +162,25 @@ c\,r_{E2}-\delta^2r_{M1}=0.$$
 | antimagnetic rotation | 理想双剪刀横向磁矩抵消的机制图像 | 同spin窗口的寿命/E2/J2与组态；弱E2/无shift不是单独证明 |
 
 这些不是一套互斥且穷尽的标签：旋称是分类关系，动力学近似和角动量生成机制是不同层次。原框架/本任务比较依据[[clark-2000-shears-mechanism]] CL00-D23-001/002、[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-17/19与CHI01-D23-1、[[lv-2022-evidence-against-wobbling-135pr]] L22-13/15及[[signature-partner-bands]]的定义。新综合均needs_review:true，无跨核最终模式认证。
+
+
+## Day23：采集、观测与解释的三层依赖
+
+“独立/同源”须说明是哪一层。[[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-1/2提供一个实物例：新增DGS采集既有自身TW2观测，也在Fig3继承Matta2015 TW1点；[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-1/2又把该DGS样本和新63Ge run合并。不能把同一旧点加三次权重，也不能把真正新增run说成完全没有信息。n_w层级和模型参数还继承旧解释；这项逻辑依赖不同于events是否重叠。
+
+SH26 Fig12是固定σ/I=.2的条件支持；其caption旧refs与SecII combined-data程序之间，仍缺逐图event/run ledger。当前不宣布该图逐event等于2015，也不宣布它没有新run贡献。若将来获得分run独立likelihood，可先以独立run数据项相乘，再对共享calibration、取向/feeding与模型参数统一处理；不能把合并后再发表的δ或强度点当作第三个独立因子。
+
+## Day23：Au187官方export的逐线身份合同
+
+外部field原子记录见[[guo-2022-low-spin-wobbling-187au]] GU22-D23-006/007/008；CSV暂存读取，正式raw归档deferred。本节仅为可复用的读取/比较规范，needs_review:true。
+
+| 检查对象 | 本次实际输入 | 能/不能作为何种证据 |
+|---|---|---|
+| 时间版本 | Extraction_date2026-10-25；publication cut-off2008-11-01；guide指ENSDF April2022 snapshot | 读到文件不等于评价已覆盖2020/2022争议 |
+| 376/462绑定 | 同snapshot gammas(16,2,2)/(38,10,3)，按z/n/symbol和start/end idx连levels | 相同能量还须有相同母末态；idx只有本snapshot内意义 |
+| conversion字段 | tot_conv_coeff .147/.064；无αK栏、无逐条原reference notes | 不替代Guo Fig3 αK测量、不新增独立conversion采集；未认证字段是直接测量还是采用值计算 |
+| mixing_ratio字段 | .6/1.1及unc_mr .3/.3为export字符串 | 缺原adopted notes/phase convention，不认证正物理δ、不补本任务δ，也不拟合两实验谁对 |
+| 近能量436.6 | (13/2−)→(13/2−)，不是SP的ΔI1支路 | 不能仅以ΔE小把它与436.5合并或据旧库缺条目否定新序列 |
+| parentτ/不确定度 | 母态16/38 half_life空；unc_hl标题重复两次 | 不填0、不用end-level9/2异构态2.3s代母态；按字段位置/单位保留两个unc_hl |
+
+`system/scripts/day23_au187_api_identity.py`保留原字符串、重复列位置及snapshot SHA，6项join/空值/错线控制通过。一个全空终止record被识别为CSV格式尾行，非零counts或数据缺失。它不重放原spectroscopy producer、alphaK拟合、τ或实验Cov。

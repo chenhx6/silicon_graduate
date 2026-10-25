@@ -3,7 +3,7 @@ type: source
 title: "Sensharma 等 2026：135Pr 中从横向摇摆到手征的演化"
 aliases: [Sensharma 2026 135Pr chirality, evolution of chirality from transverse wobbling 135Pr]
 created: 2026-09-13
-updated: 2026-10-17
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -149,3 +149,15 @@ SH26-8/9/11的作者偏好与shared-lineage判断仍保留；新SH26-13/15把固
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | SH26-D22-R095-1 | Fig.12在σ/I=.2下的三条角分布χ²曲线偏好大δ，正文认为多角度能分开A2/A4而区分局部极小；这是真实的条件支持证据，不应因其为切片而抹掉，也不自动等于对全部nuisance已profile。旧任务声称σ/I自由后两谷必等深无本轮重拟合依据；仍不能从log10χ²图擅报排除σ数。p.15明确完整QTR允许j重取向，差别主要归于MoI比（约4对调定约2），这与Matta p.5相符；不把旧冻结批评当实现事实。作者以正A作补充确认的理由保留为观点，新实验未测polarization，不构成推翻Lv新P–Rac的共同响应重分析。 | conditional-evidence-and-model-reply | direct-original-and-cross-source-boundary | arXivv2 PDF14 Fig12/III.B; PDF15 continued response | true |
+
+
+## Day23：两run合并与旧连接图的证据权重
+
+本次定向回读/视觉核PDF2 SecII，并读PDF3–4逐run效率及angular distributions段；原review/SH26既有flags保持，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SH26-D23-1 | SecII明说本次63Ge、697μg/cm²靶的run与Ref16（Sensharma2019的83Ge DGS）数据相加，合计2.5×10^10 events；PDF3–4又明说angular distributions用combined dataset，并按各run detector configuration/live time构造合并效率。这既包含新增采集成分，也与S19部分重叠；不把整篇当第三次完全独立重复，亦不抹掉新增run的信息。 | merged-acquisition-and-response | direct-original | arXivv2 PDF2 Sec.II; PDF3–4 angular-distribution paragraph | true |
+| SH26-D23-2 | Fig12仍引Refs15/16且固定σ/I=.2，SecII则给combined-data的全局分析程序；未有逐图event/run ledger，不能确认该图每个角度究竟用哪一组事件或声明它逐点等于2015计数。原SH26-D22-R095-1的条件大根偏好保留；“旧AD谱系回应”表示研究/观测继承，不是已证明排除了新增事件贡献。 | per-observable-sample-identity-boundary | direct-and-bounded-inference | arXivv2 PDF14 Fig.12; PDF2–4 Sec.II | true |
+
+Knowledge Impact and Learning Decision：revises“论文整体独立/重复”的二元标签；本任务不重建raw joint likelihood，source/readiness与新增run和复用点的图见[[low-spin-wobbling-controversies]]。

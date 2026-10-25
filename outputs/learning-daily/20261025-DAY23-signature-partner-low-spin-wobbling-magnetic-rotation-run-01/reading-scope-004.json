@@ -1,0 +1,38 @@
+{
+  "observed_at": "2026-10-25T13:49:30.308215+00:00",
+  "scope": "checkpoint004 primary reading plus official external field verification; no raw evidence archive modified",
+  "entries": [
+    {
+      "source": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "actual_text": "all five pages mainline and references; new-run paragraph, Fig3 inherited TW1 caption, topology/anharmonicity/normalizers",
+      "fresh_visual": [
+        "printed171 setup/Table1",
+        "printed172 Fig1–3"
+      ]
+    },
+    {
+      "source": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "actual_text": "PDF2–4 SecII: merge Ref16 dataset with new run, detector/live-time weighted ring efficiencies; PDF14 Fig12 per-observable ledger boundary inherited from earlier actual read",
+      "fresh_visual": [
+        "PDF2 SecII"
+      ]
+    }
+  ],
+  "official_API": {
+    "input_manifest": "iaea-access-004.json",
+    "identity_result": "au187-api-identity-004.json",
+    "scope": "target rows(16,2,2),(38,10,3), near-energy row(92,48,0); parent/end-level joins and duplicate headers; guide Notes/Data sources/gamma fields",
+    "full_evaluation_notes_read": false,
+    "raw_snapshot_archival": "deferred; only tmp public staging",
+    "new_independent_acquisition": false
+  },
+  "failed_attempts": [
+    {
+      "step": "CSV strict width check",
+      "observed": "ValueError CSV width mismatch, exit1",
+      "cause": "both inputs contain a final all-empty record",
+      "resolution": "skip wholly empty records only; keep rejection for every nonempty width mismatch; rerun six controls allpass"
+    }
+  ],
+  "review": "new claims needs_review:true; no human review promoted"
+}

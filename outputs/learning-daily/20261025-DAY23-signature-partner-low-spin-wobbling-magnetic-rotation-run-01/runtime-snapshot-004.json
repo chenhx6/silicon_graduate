@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-25T22:00:08.999715+08:00",
+  "hard_deadline": "2026-10-26T15:00:00+08:00",
+  "minutes_to_deadline": 1019.85000475,
+  "decision": "continue-current-A-and-B",
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    23
+  ],
+  "next_day_index": 23,
+  "Day24_opened": false,
+  "farmer_verified_running_pid": 2698
+}
