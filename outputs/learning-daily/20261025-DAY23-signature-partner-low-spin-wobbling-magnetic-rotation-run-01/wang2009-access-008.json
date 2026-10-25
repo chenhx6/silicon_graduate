@@ -1,0 +1,110 @@
+{
+  "url": "https://doi.org/10.1088/0256-307X/26/5/052102",
+  "final_url": "https://validate.perfdrive.com/ (publisher verification page; query omitted)",
+  "status": 200,
+  "mime": "text/html; charset=UTF-8",
+  "bytes": 14371,
+  "candidates": [],
+  "metas": [],
+  "observed_at": "2026-10-25T15:37:24.977184+00:00",
+  "access_status": "verification-page-not-article",
+  "metadata_verified": {
+    "doi": "10.1088/0256-307X/26/5/052102",
+    "title": "Coupling Parameter in the Single-j Shell Model",
+    "authors": [
+      "S.Y.Wang",
+      "B.Qi",
+      "S.Q.Zhang"
+    ],
+    "journal": "Chinese Physics Letters26,052102(2009)",
+    "source": "Crossref exact search; body not yet received"
+  },
+  "alternative_routes": [
+    {
+      "url": "https://cpl.iphy.ac.cn/article/doi/10.1088/0256-307X/26/5/052102",
+      "status": 200,
+      "final_url": "https://cpl.iphy.ac.cn/article/doi/10.1088/0256-307X/26/5/052102",
+      "mime": "text/html;charset=UTF-8",
+      "bytes": 173132,
+      "title": "Coupling Parameter in the Single-j Shell Model ",
+      "pdf_candidates": [
+        {
+          "name": "citation_pdf_url",
+          "content": "http://cpl.iphy.ac.cn/en/article/pdf/preview/10.1088/0256-307X/26/5/052102.pdf"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://dx.doi.org/10.1088/0256-307X/26/5/052102",
+          "text": "10.1088/0256-307X/26/5/052102"
+        }
+      ]
+    },
+    {
+      "url": "https://cpl.iphy.ac.cn/EN/10.1088/0256-307X/26/5/052102",
+      "status": 404,
+      "final_url": "https://cpl.iphy.ac.cn/EN/10.1088/0256-307X/26/5/052102",
+      "mime": "application/json",
+      "bytes": 121
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1088/0256-307X/26/5/052102",
+      "status": 200,
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1088/0256-307X/26/5/052102",
+      "mime": "application/json",
+      "bytes": 13820,
+      "metadata": {
+        "title": "Coupling Parameter in the Single- j Shell Model",
+        "doi": "https://doi.org/10.1088/0256-307x/26/5/052102",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1088/0256-307x/26/5/052102",
+            "doi": "https://doi.org/10.1088/0256-307x/26/5/052102",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1088/0256-307x/26/5/052102",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S110033974",
+              "display_name": "Chinese Physics Letters",
+              "issn_l": "0256-307X",
+              "issn": [
+                "0256-307X",
+                "1741-3540"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310311669",
+              "host_organization_name": "Institute of Physics",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311669"
+              ],
+              "host_organization_lineage_names": [
+                "Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Chinese Physics Letters",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    }
+  ]
+}

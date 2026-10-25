@@ -213,3 +213,17 @@ checkpoint006把现代评价一致性写成“完全证实旧引用”的认证�
 [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-2和[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-3确实记录两来源引用数字.84/1.44，比例1.714；**两文β输入却同为.23**，不能把引用文字差称作实际β/producer输入改变1.71倍或其已证实误差。Thesis正parity字面亦不用于重指派实际h9/2分支。
 
 当前程序`system/scripts/day23_core_reference_b_e2_audit.py`改为从实际CSV读取四份输入、保留重复列/数据hash并检查目标身份与时钟单位；输出status=computed-conditional，不再用硬编码结果的passed认证旧文献或原实验。输出core-reference-conditional-007.json保存假设与误差边界。
+
+
+## Day23：同输入模型比较前的基底与转子组件门
+
+依据[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-001/002/003，先限定对象为固定I/j的D2 PRM基底和Hcoll=ΣRk²/(2Jk)，不是完整H_intr或E2/M1拟合。角动量用ℏ、惯量用ℏ²/MeV、Hcoll为MeV；输入s/i/l惯量13/21/4取原SecIII，C/配对/算符不设默认假值。
+
+本任务`system/scripts/day23_prm_basis_rotor.py`独立构造两路Hcoll：一路用Eq11的K↔R变换及各R的D2转子block，另一路在body-fixed total I（反常commutator）×单粒子j空间构造(I−j)²再投影Eq6基底。I=11/2、13/2、17/2、25/2以及两个j1/2小极限共6域，矩阵两路最大差约9.1e−15MeV；正交误差≤6.7e−16，球形惯量相等极限R(R+1)/(2J)回到解析值，合计22项CG/正交/两路/极限/概率控制通过。它们只验证原source的数学组件和本实现的范围，不证明完整PRM核态或实验归属。
+
+I=13/2、j=11/2的合法两基底均42维，其中15个weakbasis分量属于oddR≥3，R1没有。若未经轴对称条件擅去全部oddR，仅剩27维；对明示的strong基底态K=−7/2、Ω=−11/2会丢掉1/2归一。这个chosen基底态不是某个135Pr实测/原H本征态。另chosen两个R2分量的相干叠加只给两处各1/2概率，若误用概率非相干乘积则向其它分量分散，L1差约1.642；只是Eq20的相干控制，不作核素模式判据。
+
+因此组态重指派需同时冻结物理空间、归一/phase、轴和operators。把K/R/RMS、signature、phonon数或图形标签直接互换会改变模型问题；在C数值/配对/EMoperators未齐时，正确的基底门也不能让完整same-H benchmark变成ready。Ref33最初只有metadata，随后期刊公开PDF成功取得并实际读4页；ST18-D23-005记录旧Eq3/新Eq11、N与MeV定义。公式可读解除一个输入缺口，但原作者实际处方/实现、pairing与完整EMoperator还须分开确认，不用熟悉公式默补。新增needs_review:true；模型谱/几何解释与真实电磁数据保留分层。
+
+
+下一有界模型路线可以在明确标注“ST18无配对H + Wang2009 Eq11处方”的任务variant下实现H_intr与有限D2空间对角化，保留原数据D和全部输入，不用拟合/调参取得某标签。预先比较的是不同候选本征态的R分布、j²分量和〈I·j〉/I(I+1)这一静态g的几何系数；真实g还需gj/gR与多轨道/算符校准，不承诺该量一定可分。完整E2/M1强度/模式判决仍不能从组件检查推出。该路线是本任务模型实验，不冒充author producer或新核态/新实验CI。

@@ -3,7 +3,7 @@ type: source
 title: "Behavior of the collective rotor in wobbling motion"
 aliases: [Streck et al. 2018, collective rotor in wobbling]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -119,3 +119,28 @@ P1:
 ## Review Status
 
 Page and all ST18 claims remain unreviewed with `needs_review: true`. Human review is deferred until use: perform targeted claim review when this content is used for paper writing, a key project decision, synthesis finalization or a paper-level evidence pool.
+
+
+## Day23：实际基底、转子项与整模型readiness
+
+本轮回读原PDF1–10完整主线/10页references，视觉核PDF2 Eq2–6、PDF3 Eq9–24与PDF4 numerical details；原SHA匹配，旧ST18-1–10及review状态不变。以下为Codex self-audit，needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST18-D23-001 | Eq6的D2 strong基底保K−Ω非负偶数，差0时K=Ω>0；Eq9 weak基底取|I−j|≤R≤I+j、KR=0,2,…≤R，但oddR无KR0。因此R1完全不出现，R3等奇数R仍有允许分量；只有额外轴对称KR0限制时才仅evenR。Eq11带sqrt[(2R+1)/(2I+1)]、CG与sqrt(1+δKR0)，Eq12/13为正交，不能漏KR0因子或把R/KR标签混作声子数。 | basis-symmetry-and-normalization | direct-original | PDF2 Eq.6 and D2 paragraph; PDF3 Eqs.9–14 | true |
+| ST18-D23-002 | Eq20的P_R,KR是先将d_KΩ与A相干求和后平方，不是K概率与|A|²的非相干乘积；Eq21全R/KR归一、Eq22/23分布是不同边缘化。Eq24只给R3²一个矩，不能据单一RMS反演全部P；这些是模型波函数分布，不是新实测j/R方向。 | probability-amplitude-and-observable-boundary | direct-original | PDF3 Eqs.20–23; PDF4 Eq.24 | true |
+| ST18-D23-003 | SecIII用j=11/2、β.17/γ−26°，(s,i,l)惯量13/21/4；J1被改变至14/11以比较TW结束spin16.5/12.5，说明其临界spin是该参数模型的条件输出。无配对主讨论与Δ=12/sqrt(A)的PRM*分列，Eq5的C数值形式指Ref33 Wang/Qi/Zhang2009，本文没有完整列出它及电磁effective operators/参数，不能只见H形式就称原全文producer和B(M1/E2)都已复现。 | model-input-and-readiness-contract | direct-original | PDF2 Eq.5; PDF4 Sec.III and pairing discussion; PDF10 Ref.33 and B(M1) paragraph | true |
+| ST18-D23-004 | 本文Fig3/R/KR/azimuthal图提供模型内SP与wobbling的不同耦合图像，但SP带头能量无/有pairing仍高估约900/500keV；p10称pairing可使M1小2–3倍而仍高估3–10，scissors-current缺失为其引用的解释。能谱拟合不能独立验证全部wavefunctions/模式，不能把缩g或单条小δ当唯一SP/TiP/剪刀识别。 | supporting-model-and-material-limitations | direct-author-model-and-attribution | PDF5 Fig.3/discussion; PDF10 final discussion | true |
+
+Knowledge Impact and Learning Decision：supports可追溯的K↔R及转子Hcoll组件实现，limits将组件控制扩张为完整模型/真实核态/实验验证。按[[signature-tip-shears-discrimination-contract]]分开C、pairing和EMoperator缺口；新变换/转子代码`system/scripts/day23_prm_basis_rotor.py`为本任务独立实现，非原作者producer，未生成实验δ/Q/τ或最终模式。
+
+
+### Day23：Ref33的正文追溯与C处方
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST18-D23-005 | Ref33为Wang/Qi/Zhang, “Coupling Parameter in the Single-j Shell Model”, CPL26,052102(2009), DOI10.1088/0256-307X/26/5/052102；journal自身公开页面的PDF入口成功取得4页%PDF，SHA dbdb64a8c116287015a062b80a4cf18f98fa190c4e2210f3dae7765bf856db96。实际读完整4页并视觉核p2 Eq11/Table1。其旧Eq3为C=195 A^(−1/3)β/[j(j+1)]，新Eq11为C=(123/8)sqrt(5/π)(2N+3)A^(−1/3)β/[j(j+1)]，MeV；N是HO主壳层量子数。ST18只说采用Ref33的form，具体实现/数值仍应明确，不把已取得该文公式称原作者code复现。 | external-direct-source-formula-and-implementation-boundary | directly-read-cited-paper-with-archival-boundary | ST18 PDF10 Ref.33; https://cpl.iphy.ac.cn/en/article/pdf/preview/10.1088/0256-307X/26/5/052102.pdf pp1–2 Eqs.3/11 | true |
+
+这份Ref33完整PDF目前仅tmp公开staging、正式raw归档deferred，不新增/覆盖原ST18 raw。IOP DOI入口的HTTP200实际是verification页面，不能当取得全文；真正body来自期刊自身公开PDF，未读取凭据或绕过挑战。实际公开可读不等于已核开放许可证。
+
+若明确采用Wang Eq11、N5、A135、j11/2、ST18 β.17，条件C=.233738451MeV；若采用旧Eq3则.180757460MeV，二者比1.29310542。这里只是定义/输入敏感性，没拟合实测谱，也不把处方差认证为ST18实际曾算错。该正文解除C处方的一个readiness缺口，pairing/完整EMoperators/原producer及实际response缺口仍独立保留。

@@ -3,15 +3,17 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint007纠正完成（持续研究）
+## Active handoff — Day23 checkpoint008（持续研究）
 
-run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。nativegoal active；completed=[] partial=[23] next23，Day24未打开，原Day21/22学分不变。checkpoint006已实际发布，但其“完全证实Baglin2003/Guo旧引用”的科学认证过强，当前撤回；旧文字/源码快照存pre-correction-006.json，仅为历史，不作事实源。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08。nativegoal active/Farmer2698fresh running；completed=[] partial=[23] next23，Day24未打开；原Day21/22学分/raw/PLAN/Bib及人审flags保持，114隔离producer不跑。用户要求原截止后才收束，checkpoint不是完成。
 
-007已将core脚本改为读实际CSV、目标/单位guards和computed-conditional，不以硬编码预期数的7个passed认证历史来源。假定唯一列明E2+CE耗尽退激时，Pt rate中央.645283、Au1.191357；表列102/188WU换单位则约.64333/1.19426，同评价链非独立测量，差为数千分之一。无完整branch/原notes/Cov不报新完整CI。Pt现代cutoff2022不能证明2003原采用值；作者两引用.84/1.44确比1.714，但两文β仍同.23，不能称实际β/producer输入改1.71倍。
+008：ST18十页全文主线/refs和PDF2–5关键visual；D2 K/R正交、coherentP与Hcoll两路独立构造22controls过，maxHdiff9.1e−15MeV，仅组件，不是fullPRM核态/实验。I13/2j11/2共42维含15oddR>=3，R1无；chosenbasis/truncation/coherent例只代数，无nuclearlabel。
 
-source AU20-D23-2与方法/报告当前强措辞已修订，读源范围与freshchecks已完成：boundary/lint/diff/条件程序均0，true runner报告/16页writeback valid，0error/220warning；后续显式manifest/H3发布该有界纠正。007另查Baglin2003精确OpenAlex与Walpe2012 publisher；2013 arxiv1309.6517只做相关文献线索/定向正文，未当新实验。raw/PLAN/Bib保护，新增needs_review:true，114隔离producer不运行；继续至原15:00，不以此checkpoint收束。
+Wang2009 Ref33实际期刊公开PDF4页读/visualEq11，DOI10.1088/0256-307X/26/5/052102，SHA dbdb64a8c116287015a062b80a4cf18f98fa190c4e2210f3dae7765bf856db96。N5/A135/j11/2/beta.17的Eq3/11给.180757460/.233738451MeV；ST18-D23-005为外部source定向核验，PDF仅tmp staging/raw归档deferred，开放许可未推定。IOP200是verification而非body，正常CPL原期刊路线成功。C公式缺口补一项，原producer/pairing/EMoperator/response边界保持。
 
-下一B优先完整读现有Streck2018 PRM原文，核Hamiltonian/basis/EM operators及参数是否齐备；只有完整输入才建same-H mapping/未定标伴随预测练习，先按phys-model合同，绝不填参或称原producer复现。A需历史全文新lead，现代导出不能替它关闭。候选池007/next-continuation-007已存；发布稳定指针main · Day23: bound reference arithmetic and withdraw overclaims，实际H3/精确hash只看task-publication-receipt-007.json。
+下一B先physmodel合同，显式无配对ST18+WangEq11variant，固定H不fit：H_intr有限D2对角化，核零C/两basis/Hermiticity/residual等，再比较同I候选R/j²及I·j/[I(I+1)]几何g系数。别默认SP/phonon或补physicalg/EM参数；继续原15:00研究窗，不提前授分，Day24仅局部饱和后无学分预习。详next-continuation-008/candidate-pool-008/model-contract-008。
+
+fresh boundary/lint/diff/22组件控制及true runner17页writeback通过，0error/220warning，新claims needs_review:true。保007更正：现代Pt/Au条件算术不完全证实历史Baglin2003，.84/1.44引用差也不证明β改变（同.23），006过强认证撤回。发布指针main · Day23: verify PRM basis and rotor components；实际H3/精确hash看task-publication-receipt-008.json。
 
 ## Previous handoff — Day22 closeout
 

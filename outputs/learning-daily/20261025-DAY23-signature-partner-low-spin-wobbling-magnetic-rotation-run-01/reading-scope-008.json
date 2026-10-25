@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-10-25T15:44:16.364959+00:00",
+  "priming": "existing source summary and Day22/Day23 preparation seen; no independent blind recall score",
+  "main_source": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+  "main_hash": "e6816f64f08afebb4e0230ec418a5ccf13e19b30c38e5b6964dccc7b564a2f9d",
+  "new_reading": "actual entire 10-page main line, Eqs1–26, Figures1–10 captions, numerical inputs/limitations/refs",
+  "fresh_visual": [
+    "PDF2 Eqs2–6/D2 restrictions",
+    "PDF3 Eqs9–24/normalization",
+    "PDF4 source inertia/pairing/criticalspin text",
+    "PDF5 Figures2–3 and SP gap discussion"
+  ],
+  "external_reference": {
+    "doi": "10.1088/0256-307X/26/5/052102",
+    "scope": "all four pages text and PDF2 Eq11/Table1 visual",
+    "path": "tmp/day23-originals/wang2009.pdf",
+    "sha256": "dbdb64a8c116287015a062b80a4cf18f98fa190c4e2210f3dae7765bf856db96",
+    "source": "journal-owned public PDF endpoint",
+    "license": "not inferred from public access",
+    "raw_archival": "deferred; no raw added/overwritten"
+  },
+  "model_contract": "model-contract-008.json",
+  "numeric_scope": "K/R basis and Hcoll component only, independent direct body-axis and R-block routes, no Hintr/EM/eigenstate or nuclear fit",
+  "failures_and_changes": [
+    "IOP DOI HTTP200 was a verification page, not the article; alternate journal-owned route found via normal bibliographic resolution.",
+    "No challenge solved or credentials read; publisher verification query omitted from manifest."
+  ],
+  "human_review_promoted": false
+}

@@ -1,0 +1,131 @@
+{
+  "status": "source_component_controls",
+  "source": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+  "locators": [
+    "ST18-D23-001",
+    "ST18-D23-002"
+  ],
+  "scope": "Source K/R representation and Hcoll only. No intrinsic C, pairing, EM operators, full PRM eigenstates or experimental fit/mode assignment.",
+  "units": {
+    "angular_momentum": "hbar",
+    "inertia": "hbar2/MeV",
+    "Hcoll": "MeV"
+  },
+  "source_inertias_s_i_l": [
+    13.0,
+    21.0,
+    4.0
+  ],
+  "results": [
+    {
+      "two_I": 1,
+      "two_j": 1,
+      "dimension": 1,
+      "orthogonality_error": 4.440892098500626e-16,
+      "Hcoll_two_route_error_MeV": 0.0,
+      "spherical_limit_error_MeV": 0.0
+    },
+    {
+      "two_I": 3,
+      "two_j": 1,
+      "dimension": 2,
+      "orthogonality_error": 4.440892098500626e-16,
+      "Hcoll_two_route_error_MeV": 5.551115123125783e-17,
+      "spherical_limit_error_MeV": 0.0
+    },
+    {
+      "two_I": 11,
+      "two_j": 11,
+      "dimension": 36,
+      "orthogonality_error": 6.661338147750939e-16,
+      "Hcoll_two_route_error_MeV": 3.552713678800501e-15,
+      "spherical_limit_error_MeV": 8.881784197001252e-16
+    },
+    {
+      "two_I": 13,
+      "two_j": 11,
+      "dimension": 42,
+      "orthogonality_error": 4.440892098500626e-16,
+      "Hcoll_two_route_error_MeV": 3.552713678800501e-15,
+      "spherical_limit_error_MeV": 8.881784197001252e-16
+    },
+    {
+      "two_I": 17,
+      "two_j": 11,
+      "dimension": 54,
+      "orthogonality_error": 6.661338147750939e-16,
+      "Hcoll_two_route_error_MeV": 7.105427357601002e-15,
+      "spherical_limit_error_MeV": 1.7763568394002505e-15
+    },
+    {
+      "two_I": 25,
+      "two_j": 11,
+      "dimension": 78,
+      "orthogonality_error": 6.661338147750939e-16,
+      "Hcoll_two_route_error_MeV": 9.103828801926284e-15,
+      "spherical_limit_error_MeV": 7.105427357601002e-15
+    }
+  ],
+  "chosen_state_controls": {
+    "label": "declared basis/algebra controls, no nuclear eigenstate identity",
+    "I": 6.5,
+    "j": 5.5,
+    "strong_dimension": 42,
+    "oddR_components": 15,
+    "first_strong_basis_K_Omega": [
+      -3.5,
+      -5.5
+    ],
+    "evenR_only_discarded_norm": 0.5000000000000001,
+    "coherent_weak_components": [
+      [
+        2,
+        0,
+        0.5
+      ],
+      [
+        2,
+        2,
+        0.5
+      ]
+    ],
+    "incoherent_probability_L1_difference": 1.641596498739355
+  },
+  "controls": {
+    "CG_half_spin_singlet_phase": true,
+    "CG_stretched_state": true,
+    "I2_1_j2_1_orthogonal_complete_bases": true,
+    "I2_1_j2_1_two_route_rotor_H": true,
+    "I2_1_j2_1_spherical_rotor_limit": true,
+    "I2_3_j2_1_orthogonal_complete_bases": true,
+    "I2_3_j2_1_two_route_rotor_H": true,
+    "I2_3_j2_1_spherical_rotor_limit": true,
+    "I2_11_j2_11_orthogonal_complete_bases": true,
+    "I2_11_j2_11_two_route_rotor_H": true,
+    "I2_11_j2_11_spherical_rotor_limit": true,
+    "I2_13_j2_11_orthogonal_complete_bases": true,
+    "I2_13_j2_11_two_route_rotor_H": true,
+    "I2_13_j2_11_spherical_rotor_limit": true,
+    "I2_17_j2_11_orthogonal_complete_bases": true,
+    "I2_17_j2_11_two_route_rotor_H": true,
+    "I2_17_j2_11_spherical_rotor_limit": true,
+    "I2_25_j2_11_orthogonal_complete_bases": true,
+    "I2_25_j2_11_two_route_rotor_H": true,
+    "I2_25_j2_11_spherical_rotor_limit": true,
+    "D2_excludes_R1_but_permits_higher_oddR": true,
+    "amplitudes_preserve_coherent_probability": true
+  },
+  "all_controls_pass": true,
+  "readiness": {
+    "complete_for": [
+      "basis transformation",
+      "rotor Hamiltonian component"
+    ],
+    "missing_for_original_model_replay": [
+      "explicit selection and verification of cited C(beta) prescription/value",
+      "pairing implementation/occupation",
+      "complete E2/M1 operator inputs",
+      "original code and data response/Cov"
+    ]
+  }
+}

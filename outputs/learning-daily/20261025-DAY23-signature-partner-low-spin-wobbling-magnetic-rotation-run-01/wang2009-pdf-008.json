@@ -1,0 +1,11 @@
+{
+  "url": "https://cpl.iphy.ac.cn/en/article/pdf/preview/10.1088/0256-307X/26/5/052102.pdf",
+  "status": 200,
+  "mime": "application/pdf",
+  "bytes": 327860,
+  "is_pdf": true,
+  "path": "tmp/day23-originals/wang2009.pdf",
+  "sha256": "dbdb64a8c116287015a062b80a4cf18f98fa190c4e2210f3dae7765bf856db96",
+  "pages": 4,
+  "observed_at": "2026-10-25T15:41:11.154097+00:00"
+}

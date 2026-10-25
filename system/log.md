@@ -4389,3 +4389,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-25T23:00:34.155164+08:00 Day23 checkpoint006：186Pt核芯参考B(E2)多源交叉核验完成，7项控制全过；证实Guo 100-200 W.u.包络两核采用值(102/188 W.u.)，揭示Sensharma PRL(0.84)与论文(1.44)存在1.71倍定标版本差。16页累计writeback与结构门通过，继续原15:00窗口，未授分。
 
 - 2026-10-25T23:26:16.480898+08:00 Day23 checkpoint007纠正006：撤回现代字段“完全证实历史引用”和七magicflags/actual1.71x参数变化认证。保留原.84/1.44字面差但β同.23；四真实CSV与单列E2+CE假设下条件rate Pt.645283/Au1.191357，非独立或原producer验证，不报完整CI。旧文字/源码留历史；fresh结构/truewriteback门通过，继续原15:00窗口，无学分改变。
+
+- 2026-10-25T23:48:31.182330+08:00 Day23 checkpoint008：Streck2018实际K/R/Hcoll组件两路构造22限定controls通过，正交/球形极限及oddR/相干概率边界写回；真实取得Ref33Wang2009四页C公式，未宣称原producer/完整EM。17页累计写回/结构门过，保007纠正，继续原15:00窗口无学分改变。

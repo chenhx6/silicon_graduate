@@ -54,6 +54,6 @@
     "-a",
     "never"
   ],
-  "checkpoint_receipt": "runtime-snapshot-007.json",
-  "latest_continuation": "next-continuation-007.md"
+  "checkpoint_receipt": "runtime-snapshot-008.json",
+  "latest_continuation": "next-continuation-008.md"
 }

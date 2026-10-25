@@ -1,0 +1,37 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-25T23:48:31.182330+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 911.4802944999999,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "slot_A": {
+    "status": "calibration/history boundary retained after007 correction",
+    "next": "new lawful historical/fulltext lead only; do not retry old403 or inflate modern evaluation into originalsource",
+    "unsolved": "Baglin2003 original adoptednotes; true historicalalphaK/response/Cov"
+  },
+  "slot_B": {
+    "delta": "ST18 10-page mainline reread; K/R/Hcoll actual component verified through two independent routes22controls. Wang2009 citedRef33 full4pagePDF acquired from journal-owned public route and Eq3/11 identified",
+    "high_information_next": "Implement explicitly declared unpaired ST18 Hamiltonian plus WangEq11 variant, no fitting or mode labels; use fixed H and compare several candidate eigenstates at sameI via R distributions/jcomponents/I dot j geometric g coefficient. Source C choice/effectiveoperators still distinct from authorproducer.",
+    "prerequisites": [
+      "write new physmodel contract before totalH implementation",
+      "use C=.233738451MeV for explicit N5/A135/j11/2/beta.17 Eq11; contrast oldEq3 only as declared sensitivity, no arbitrary tuning",
+      "zeroC -> Hcoll spectrum, Hermiticity/eigen residuals, norm/D2 and weak-strong route checks",
+      "actual physicalg needs gj/gR and EMcalibration; never infer measuredg/Q/tau/counts/CI from geometric coefficient"
+    ],
+    "boundaries": [
+      "no original author code replay claimed",
+      "no pairing or fullEMoperators fabricated",
+      "chosen algebraic basis states from008 have no nuclear eigenstate identity"
+    ]
+  },
+  "preview": "Day24 still unopened; only one uncredited nextcard after local useful routes saturate",
+  "stop_reason": null
+}

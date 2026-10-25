@@ -1,0 +1,49 @@
+{
+  "problem": "ST18 fixed-I D2 PRM representation and rotor Hamiltonian component verification; not a full nuclear fit",
+  "source": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+  "source_locators": [
+    "Eq.6",
+    "Eqs.9–15",
+    "Eqs.20–24",
+    "Sec.III"
+  ],
+  "dof": "j=11/2 particle, total I half-integer; D2 strong(K,Omega) and weak(R,KR) bases",
+  "units": "angular momenta in hbar; MoI in hbar2/MeV; Hcoll MeV; basis coefficients dimensionless",
+  "inputs_complete_for": [
+    "basis transformation, j/I and axes",
+    "Hcoll only: Js/Ji/Jl=13/21/4"
+  ],
+  "inputs_not_complete_for": [
+    "C(beta) actual numerical form refers Ref33 Wang2009",
+    "pairing occupation/chemical potential details",
+    "complete E2/M1 operator coefficients, phase conventions and effective quantities",
+    "original experimental response/Cov and counts"
+  ],
+  "allowed_outputs": [
+    "two-route Hcoll check, orthogonality/norm/projection and explicit odd-R completeness",
+    "source model readiness boundaries"
+  ],
+  "prohibited_claims": [
+    "full original PRM producer reproduced",
+    "new mode verdict or measured angle/strength/lifetime",
+    "chosen algebraic state is an actual135Pr eigenstate"
+  ],
+  "verification_plan": [
+    "U orthogonality and dimension",
+    "independent direct-body-axis Hcoll equals transformed rotor R-block",
+    "spherical-rotor spectrum R(R+1)/(2J)",
+    "D2 excludes R1 and KR0 for oddR, permits higher oddR",
+    "coherent probability normalization",
+    "deliberate evenR-only truncation loses dimension/probability for a declared basis state"
+  ],
+  "observed_at": "2026-10-25T15:36:25.624503+00:00",
+  "later_source_update": {
+    "scope": "Ref33 realbody obtained after component contract/implementation",
+    "formulae": "oldEq3 and newEq11 both located; no original numerical implementation certified",
+    "conditional_N5_A135_j11p2_beta017_MeV": {
+      "Eq3": 0.18075746018043173,
+      "Eq11": 0.23373845101924337
+    },
+    "remaining": "pairing,EMoperators and authorcode/response/Cov not filled"
+  }
+}
