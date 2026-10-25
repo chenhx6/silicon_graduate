@@ -1,0 +1,51 @@
+{
+  "observed_at": "2026-10-25T21:41:31.694178+00:00",
+  "next_bounded_source_check": "original Sensharma2020 Fig3 printing uncertainty vs actual fit profile, both-source endpoint comparison only",
+  "raw_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+  "actual_targeted_reading": "fresh raw p4 four-times rendering clip45,35,310,165; p3 combinedruns/17rings/controlE2 and deferredmethoddetails paragraphs",
+  "visually_read_labels": {
+    "376.3": {
+      "delta": -2.67,
+      "plus": 0.07,
+      "minus": 0.07
+    },
+    "461.8": {
+      "delta": -2.98,
+      "plus": 0.02,
+      "minus": 0.02
+    },
+    "544.3": {
+      "delta": -3.44,
+      "plus": 0.03,
+      "minus": 0.03
+    },
+    "639.3": {
+      "delta": -3.72,
+      "plus": 0.11,
+      "minus": 0.12
+    },
+    "265.3_SP": {
+      "delta": -0.06,
+      "plus": 0.01,
+      "minus": 0.01
+    },
+    "436.5_SP": {
+      "delta": -0.1,
+      "plus": 0.01,
+      "minus": 0.01
+    }
+  },
+  "boundary": "All quoted labels only, no claim full nuisance-profile or confidence coverage; SP436.5delta-.10 is distinct from old376P-.10(5); raw unchanged, no final mode decision",
+  "image": "tmp/day23-originals/au20-fig3ab-crop032.png",
+  "thesis_raw_sha256": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74",
+  "thesis_targeted_text": "printed96–100 methods,117–118Table4.4",
+  "thesis_fresh_visual": [
+    "PDF119Table4.1",
+    "PDF139Table4.4",
+    "PDF140Table4.4"
+  ],
+  "new_fullpaper_read": false,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "no_original_globalprofile_reproduced": true
+}

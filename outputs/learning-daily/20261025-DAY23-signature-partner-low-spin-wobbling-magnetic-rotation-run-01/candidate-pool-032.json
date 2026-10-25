@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T21:50:20.762488+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "原Fig3/论文表实读、两rawSHA保持，五项输入/固定表端点控制过；支持方AD向量与局部采样条件明确",
+  "next_route": "在声明相位/point/sigma条件下检验Au已报AD系数向量，不重建未知真实likelihood",
+  "missing_inputs": [
+    "actual ring/gate net peaks/acceptance and shared covariance",
+    "full global two-root/nuisance likelihood and producer",
+    "empirical attenuation vs nuclear density/finitegeometry calibration mapping"
+  ],
+  "Day25_opened": false
+}

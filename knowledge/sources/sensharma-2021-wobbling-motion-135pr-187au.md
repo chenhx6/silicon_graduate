@@ -215,3 +215,14 @@ Ref26 Cieplicka2012目前仅核DOI/title及OpenAlex/OSTI metadata；publisher/ac
 | SE21-D23-5 | h11/2 pair在printed132把CDFT γ27.8°调到40°以延缓TW失稳，并列MoI(m,s,l)=12.61/4.52/9.37；作者称比值/能量较合，但仍要求更高统计才firmly establish该hole-like TW。它与h9/2的376/462争议对象不同；25/2等临界spin和经典图是该参数模型输出，不是跨核硬门或本篇新偏振/寿命。 | separate-candidate-and-parameter-calibration | direct-model-and-author-limit | same-Au-dataset-distinct-band-pair | printed132–135 §5.2.2 Figs5.9–5.12 | true |
 
 Knowledge Impact and Learning Decision：supports更具体的科学run账本和支持方非刚性j几何，limits把论文/学位论文合并总数、参考B(E2)或φj描述直接当共同输入；版本差异保持开放而不撤销原实验或原Day21/22学分。[[135pr-wobbling-controversy]]、[[187au-longitudinal-wobbling-controversy]]及[[signature-tip-shears-discrimination-contract]]承接当前边界。
+
+## Day23：Au逐线AD向量、参考定标和分支附近采样
+
+本次定向实际读printed96–100、117–118，fresh视觉核PDF119 Table4.1与PDF139/140 Table4.4，原raw SHA不变；未新读全205页。旧SE21 claims保留，以下needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| SE21-D23-6 | Table4.1对Au科学runs2+3的333.8参考给α2exp=.84(1)、α4exp=.81(1)、adoptedσ/J=.2；Table4.4的376.3(11/2−→9/2−)给r=.48(3)、A2exp=−.730(2)、A4exp=.523(1)，461.8(15/2−→13/2−)给r=.38(1)、A2exp=−.699(1)、A4exp=.502(1)。r是本文DCO-like量，不是Guo的Rac；αexp校准层不等于逐线A2/A4层，未获共同Cov不能将这些当独立采集或直接拼新jointfit。 | original-reduced-observation-and-calibration-vector | direct-original-visual | same-Au-runs-as-PRL2020 | printed97 Table4.1; printed117–118 Table4.4 | true |
+| SE21-D23-7 | printed98–99的五步方法先由A2二次式求允许δ，再计算每根χ²、选择较低χ²的根，随后只在所选δ附近作MCMC并同时算A2/A4和χ²likelihood；376为具体图例。A4未单独解二次式仍参与后续计算，初始A2/A4独立假设不等于最终Cov为0。该文字给真实选根/局部采样条件，不提供另根相对权重、完整nuisance-profile或全球posterior；不能由局部窄printed误差认全局唯一，也不能反推两根等深。 | original-fit-recipe-and-global-inference-boundary | direct-original-method | same-analysis-not-new-experiment | printed98–99 Figs4.12/4.13 and numbered steps1–5; printed97 sigma choice | true |
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-4的printedδ误差与此具体方法谱系连读，但本任务未获得原producer/逐环净峰/原全局曲线，不能认证PRL/学位论文每行实际实现逐字相同。samefraction σ/J=.2也不意味着不同spin/gate共享同一密度矩阵。[[signature-tip-shears-discrimination-contract]]保留这些逐线输入与迁移条件，SH26固定sigma的真实条件支持仍另列。

@@ -178,3 +178,14 @@ Knowledge Impact and Learning Decision：limits样本内能量/尺度符合度�
 | AU20-D23-3 | 公开IAEA gammas/levels(186pt)本次返回cutoff1-Mar-2022、Batchelder/Hurst/Basunia，row(start,end,gamma)=(1,0,0)列191.53keV、2+→0+、b_e2=102 W.u.、total CC=.417，初level1半衰期字段240ps；Au187旧cutoff1-Nov-2008的row(10,2,0)列233.4keV、(13/2−)→9/2(−)、188W.u.、total CC=.224、level10半衰期56ps。当前导出每个parent仅列这一条E2，不由RI=100证明全branch闭合。它们来自各自评价，同源τ/α/strength不增加独立证据数，未获得历史Baglin2003正文/完整uncertainty。 | external-evaluated-reference-field-contract | direct-public-api-with-archival-and-model-boundaries | https://www-nds.iaea.org/relnsd/v0/data?fields=gammas&nuclides=186pt row(1,0,0); levels186pt idx1; gammas187au row(10,2,0); levels187au idx10 | true |
 
 guide定义b_e2为W.u.，half_life及half_life_sec为半衰期。本次Pt gammas/levels SHA分别d47db63ca140e07c9a1b435c34d70754b78d3104b9bc33ac31bd1108a3273a75、06cd14997ee06c7315d7f2a82f86cc366893d2e4522014438e1fa5294a8acf2f。条件换算见[[signature-tip-shears-discrimination-contract]]，不能用这些现代字段给旧源“完全证实”或原实验错误认证。
+
+## Day23：原图误差与支持方拟合输入
+
+本次定向实际读原p3方法段、p4 Fig3并fresh四倍局部渲染，原PDF SHA相符；未重读全文。新增Codex self-audit，旧AU20人审范围不扩。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D23-4 | Fig3(a,b)打印δ分别−2.67(+.07/−.07)、−2.98(+.02/−.02)，对应376.3/461.8keV；不是由中心或E2百分比猜误差。SP的265.3/436.5则为−.06±.01/−.10±.01，后一个436.5的δ与Guo提到旧376的P=−.10(5)是不同线、不同量。333.8/413.7的近纯E2控线δ−.04(1)/−.03(1)亦不能按目标M1/E2坐标读成近纯M1。 | line-resolved-printed-fit-values-and-convention | direct-original-visual | printed052501-4 Fig.3(a,b,e–h); printed052501-3 control-line paragraph | true |
+| AU20-D23-5 | 在本任务已声明的历史标称376.3/462.1能量、名义FO K中央固定下，以上两条printedδ端点给αK像[.049200,.050472]/[.028840,.028995]，与四项历史αK各自printed值±误差范围均不相交。这个确定性比较与Guo的旧转换反证方向相同，但没有传播实际响应、共同理论/归一Cov或globalδ域，不能赋排除置信度或最终LW/SP裁决；第二个比较能量不修改本源461.8。 | conditional-endpoint-image-and-countercomparison | original-printed-endpoints-plus-actual-theory-and-task-math | Fig.3(a,b); KB08-D23-001; GU22-D23-013; task input-contract032 | true |
+
+p3确实用17角环和两run合并高统计作AD，并说效率、alignment、attenuation等更多细节待Ref26；Ref26字面为Sensharma et al.(to be published)，不是已明确题名/DOI的公开supplement。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-6/7给同支持链可读的实际A2/A4、校准选择和分支附近采样步骤，不作为第二次实验。计算前提直接回链[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001及[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013；本轮没有反演或补造新δ。

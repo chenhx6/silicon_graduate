@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-10-25T21:46:12.015264+00:00",
+  "scope": "actual supporting PRL printed asymmetric endpoints and thesis Au calibration/A2A4/selectedmode method; optional deterministic interval image using existing nominal theory; no new fit",
+  "original_raw_sha256": {
+    "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+    "raw/papers/degree dissertation/Wobbling_Motion_in_Nuclei.pdf": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74"
+  },
+  "source_visual_scope": {
+    "observed_at": "2026-10-25T21:41:31.694178+00:00",
+    "next_bounded_source_check": "original Sensharma2020 Fig3 printing uncertainty vs actual fit profile, both-source endpoint comparison only",
+    "raw_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+    "actual_targeted_reading": "fresh raw p4 four-times rendering clip45,35,310,165; p3 combinedruns/17rings/controlE2 and deferredmethoddetails paragraphs",
+    "visually_read_labels": {
+      "376.3": {
+        "delta": -2.67,
+        "plus": 0.07,
+        "minus": 0.07
+      },
+      "461.8": {
+        "delta": -2.98,
+        "plus": 0.02,
+        "minus": 0.02
+      },
+      "544.3": {
+        "delta": -3.44,
+        "plus": 0.03,
+        "minus": 0.03
+      },
+      "639.3": {
+        "delta": -3.72,
+        "plus": 0.11,
+        "minus": 0.12
+      },
+      "265.3_SP": {
+        "delta": -0.06,
+        "plus": 0.01,
+        "minus": 0.01
+      },
+      "436.5_SP": {
+        "delta": -0.1,
+        "plus": 0.01,
+        "minus": 0.01
+      }
+    },
+    "boundary": "All quoted labels only, no claim full nuisance-profile or confidence coverage; SP436.5delta-.10 is distinct from old376P-.10(5); raw unchanged, no final mode decision",
+    "image": "tmp/day23-originals/au20-fig3ab-crop032.png"
+  },
+  "supported_target_bounds": {
+    "376.3": {
+      "centre": -2.67,
+      "plus": 0.07,
+      "minus": 0.07,
+      "actual_source_energy": 376.3
+    },
+    "462.1": {
+      "centre": -2.98,
+      "plus": 0.02,
+      "minus": 0.02,
+      "actual_source_energy": 461.8,
+      "energy_scope": "comparison frozen historical462.1, do not change supportsource461.8"
+    }
+  },
+  "existing_theory_file": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/au187-icc-forward-030.json",
+  "method_scope": "SE21 Table4.1 Au alpha2=.84(1),alpha4=.81(1),sigma/J=.2; 376 A2-.730(2),A4.523(1),r.48(3);461.8 A2-.699(1),A4.502(1),r.38(1); sampling chooses lowerchi2 root then local neighborhood, no published actual common full covariance/profile inthisroute",
+  "prohibited": [
+    "original fullpaper/thesis new fullread claim",
+    "printed narrowerrors interpreted as allnuisanceprofile or unique root",
+    "equalvalley assertion",
+    "SP436.5delta-.10 conflated with old376P-.10(5)",
+    "newdelta/CI/counts/tau/Q/time",
+    "run114producers or rawwrite"
+  ]
+}

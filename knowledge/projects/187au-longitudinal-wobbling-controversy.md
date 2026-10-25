@@ -315,3 +315,9 @@ source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；
 [[guo-2022-low-spin-wobbling-187au]] GU22-D23-018和[[signature-tip-shears-discrimination-contract]]补印刷δ端点的确定性映射：376 αK像[.132139,.145829]、462[.055165,.085742]，均与对应两项旧αK各自quoted范围有交集。由此，前一表中央值不同不能直接称新旧实验冲突；四个交集也不认证共同拟合或排除大根。
 
 前提是[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001的名义FO中央固定，实际理论/历史归一/δ响应Cov未传播，原primary全文仍缺。新needs_review:true，原LW/SP支持—反证矩阵、旧数据依赖与最终归属开放状态保持。
+
+## Day23：支持方AD向量与局部分支误差的实际条件
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-6/7现明确Au376/461.8的A2/A4/r、333.8参考αexp和σ/J=.2；原方法先选较低χ²根再邻域采样。它提供条件信息，窄printed误差不等全球双分支权重，也不能据未公开另一谷声称等深。该thesis与PRL保持同实验谱系。
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-4/5 fresh原图给δ−2.67±.07/−2.98±.02；在[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001名义表和历史能量上，其端点αK像与[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013四个旧quoted范围不相交。这使旧转换反证的条件更具体，仍缺primary归一、完整response/theoryCov和globalδ域，不报新显著性或最终归属。新needs_review:true，原LW/SP支持链及band3身份争议保留。
