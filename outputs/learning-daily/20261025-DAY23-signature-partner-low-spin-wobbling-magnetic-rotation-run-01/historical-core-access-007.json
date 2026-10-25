@@ -1,0 +1,75 @@
+{
+  "observed_at": "2026-10-25T15:10:38.039068+00:00",
+  "scope": "direct historical source discovery after conditional reconstruction correction",
+  "attempts": [
+    {
+      "name": "Baglin2003 exact OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1006/ndsh.2003.0007",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1006/ndsh.2003.0007",
+      "status": 200,
+      "mime": "application/json",
+      "bytes": 8721,
+      "metadata": {
+        "title": "Nuclear Data Sheets for A = 186",
+        "doi": "https://doi.org/10.1006/ndsh.2003.0007",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "best_oa_location": null,
+        "locations": [
+          {
+            "id": "doi:10.1006/ndsh.2003.0007",
+            "doi": "https://doi.org/10.1006/ndsh.2003.0007",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1006/ndsh.2003.0007",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S123665906",
+              "display_name": "Nuclear Data Sheets",
+              "issn_l": "0090-3752",
+              "issn": [
+                "0090-3752",
+                "1095-9904"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nuclear Data Sheets",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Walpe2012 publisher",
+      "url": "https://link.aps.org/pdf/10.1103/PhysRevC.85.057302",
+      "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.85.057302",
+      "status": 403,
+      "mime": "text/html; charset=UTF-8",
+      "bytes": 5525
+    }
+  ]
+}

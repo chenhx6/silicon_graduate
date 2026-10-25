@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-25
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint006）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint007）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-25
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-25T22:59:10.657545+08:00
+- checked_at: 2026-10-25T23:15:31.604263+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -46,7 +46,7 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
-checkpoint006：对 186Pt 核芯参考 B(E2) 开展系统性多源交叉核验（程序 `day23_core_reference_b_e2_audit.py`，产物 `core-reference-be2-006.json`）。IAEA ENSDF 2022/2026 导出数据表明 186Pt 191.53 keV (2+→0+) 从 T1/2=240(20) ps 严格导出的 B(E2) 为 0.645 e²b² (102 W.u.)，而 187Au 233.4 keV (13/2-→9/2-) 从 T1/2=56(5) ps 导出的 B(E2) 为 1.194 e²b² (188 W.u.)。这从原件层面完全解释了 Guo 2022 PLB p.3 所述“100–200 W.u.”是对两核评估采用值的客观包络。同时，Sensharma 2020 PRL 采用 0.84 e²b² (133 W.u.)，而 2021 学位论文 p.128 采用 1.44 e²b² (228 W.u.)，两者相差 1.714 倍，且学位论文存在正宇称笔误（13/2+→9/2+）。核芯 B(E2) 输入在支持方出版物间存在 1.71 倍未闭合偏差，不能作为无先验条件的普适定标尺度。
+checkpoint007更正：checkpoint006将现代API导出的条件一致性夸写为对Baglin2003/Guo旧引用“完全证实”，该认证撤回。旧文本/源码存pre-correction-006.json。现代Pt cutoff2022-03-01、Au cutoff2008-11-01的表列102/188 W.u.都落在100–200范围内，但不构成完整旧引用核验；半衰期/α/b_e2同评价链，非独立证据。条件rate中央值为Pt.645283、Au1.191357e²b²，后者须与188W.u.换算的约1.19426区分。两个作者引用数字.84/1.44之比确为1.714，但两文β均.23，不认证实际模型输入/误差变化1.71倍。
 
 
 checkpoint005：官方187Hg decay_rads γ/e请求均200；γ595行均为Hg→Au的EC+B+，两组母态需按p_energy_shift/jp分开，不能仅用p_energy=0。γ intensity全部空，electron body为0（官方Error codes：valid request/no matching data），不是实测零转换电子。376/462 γ初态τ空，Hg母态144s和Au终态2.3s属于别的clock。v1重复查询γ row-multiset完全一致但同能量条目顺序不同，电子字节相同；当前无历史αK/原adoptednotes或分支可恢复。GU22-D23-009–011是外部field/readiness，不是Guo新测量，raw正式归档仍deferred。
@@ -74,7 +74,7 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
-checkpoint006：完成 186Pt 核芯参考 B(E2) 与 187Au 参考跃迁的能量-寿命-转换系数定量重构（7 项精确控制全部通过）。核验证实：(1) IAEA 表列 102 W.u. 与 188 W.u. 严格符合各自能级半衰期与转换系数；(2) Guo 2022 的 100–200 W.u. 范围严格包络了两核的评估值；(3) 支持方 PRM 模型选择 β=0.23 的依据是使理论 B(E2) 与核芯实验值相符，但其在 PRL 与论文中分别使用 0.84 与 1.44 e²b²，相差 1.714 倍，且均未直接对应 ENSDF 采用值 0.645 e²b²。这表明模型参数定标对特定文献选取具有较强依赖性。
+checkpoint007定量程序改为读取真实CSV/保存hash并检查核素/母末态/clock单位，在单一列明E2+CE分支耗尽退激的假设下计算打印中央值；relative intensity100不证明branch完整。输出computed-conditional，不以硬编码预期数字的七个flag认证科学结论，不报新的完整CI/误差。方法与源码见day23_core_reference_b_e2_audit.py及core-reference-conditional-007.json。
 
 
 checkpoint005：既有Au field脚本扩展optional187Hg输入，原6+新6共12项控制通过，覆盖核电荷/质量、shift/jp身份、空γ初态τ、空intensity、service-code与unc_mr不同编码的保留。不是decay fit或conversion重分析。独立v0/v1比较用完整行字符串Counter（保重复）而非zip/能量单键，595行multiset相同而row order不同。结果hg187-parent-identity-005.json/hg187-version-comparison-005.json保完整target字段及hash；完整CSV仍仅tmp。
@@ -118,6 +118,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint007 revises：撤回006“完全证实旧来源”及以引用比例推断实际参数变化的措辞，明确现代评价chain与历史引用的区别。来源可访问、算术相容、hard-coded checks passed分别只认证自己的范围；程序已改为实际输入/声明假设的条件计算。未撤回可直接定位的作者引用差，也不据此宣布原模型或实验无效。
 
 checkpoint005 supports/limits：官方母核字段支持Hg→Au身份，但服务空值不是负实验；同rows不同顺序不叫新评价。thesis提供科学run/非刚性j模型的实际前提，并暴露样本摘要/定标版本边界。结论是改进可比性合同，尚未决定TW/TiP/SP唯一归属或提高历史conversion独立权重。
 
@@ -190,7 +192,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 补充 186Pt 核芯 B(E2) 从半衰期严格推导及 1.71 倍定标版本差异。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -240,6 +242,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
           "locator": "AU20-D23-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "AU20-D23-3"
         }
       ]
     },
@@ -298,7 +304,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
-      "summary": "确认PRM输入shape已参考旧绝对E2；和QTR的模型空间/shape差异不是纯重标带名。 补充 186Pt 核芯参考 B(E2) 0.84 与学位论文 1.44 的 1.71 倍版本差异对账。",
+      "summary": "保留PRM reference先验角色、两来源.84/1.44字面差；更正006强认证，实际β同.23未证明改变。补现代API字段及条件计算边界，不证明历史引用或实验CI。",
       "anchor": "Day23：绝对尺度定标与模型空间的条件",
       "sources": [
         {
@@ -308,6 +314,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
           "locator": "AU20-D23-2"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "AU20-D23-3"
         }
       ]
     },
@@ -510,12 +520,8 @@ L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖�
 
 ## Verification and continuation
 
-checkpoint006实际boundary/lint/diff/core_be2均0，7项定量控制通过，原6+新6共12项字段控制通过；true runner报告/累计16页writeback valid。lint0error/220warning、claim_missing_locator/kind0，182个旧citation_key覆盖债务保持；实际输出见required-checks-005.json，字段控制不认证实验CI或模式。
+checkpoint007实际boundary=0、lint=0、git diff --check=0、conditional_core=0；true runner报告与累计16页writeback valid。lint为0error/220warning、claim_missing_locator/kind为0；182个旧citation_key覆盖债务保留。实际返回见required-checks-007.json；脚本输出computed-conditional与independent_validation:false，表示有界计算完成，绝不认证历史源、原实验或唯一模式。
 
-checkpoint004实际boundary/lint/diff/api_identity均0，6项字段/连接控制通过；true runner报告与累计15页writeback valid。lint为0error/220warning、claim_missing_locator/kind为0，182个旧citation_key债务保持。实际返回见required-checks-004.json。
+checkpoint006强认证已撤回，历史文字/程序在pre-correction-006.json。001–005的结构/限定控制及其scope保存在各自required-checks文件，不因其green扩大科学结论；114隔离producer未运行。现代导出与被引旧评价不是同一时间版本，完整原notes/branch/Cov和producer仍缺。
 
-checkpoint003实际boundary=0、lint=0、diff=0、geometry=0，6项exact向量控制通过；量纲符号改为m=μ/μN后已重新核验。真实runner报告及累计11页writeback均valid。lint0error/220warning、claim_missing_locator/kind均0，原有182个缺citation_key债务保留；不把这些结构检查当实验模式认证。updated日期维护后的末次检查同样通过，均保存在required-checks-003.json。
-
-checkpoint002实际boundary=0、lint=0、diff=0、calibration=0，8项限定控制通过；真实runner报告/累计7个已改知识页writeback均valid。lint0error/220warning，新增claims仍needs_review:true。required-checks-002.json保存退出码/尾部与映射；原始baseline-001保持不变。
-
-checkpoint001实际boundary=0、lint=0、git diff --check=0、strength_dependency=0；6项限定数值控制通过。真实runner validate_report和validate_durable_knowledge均valid，首批4个已改知识页均在唯一writeback区块映射。lint为0 errors、220 warnings，source_missing_citation_key=182为继承覆盖债务，新claim_missing_locator/kind均0；needs_review信息不冒称人审。详细退出码见`required-checks-001.json`与`runner-contract-check-001.json`。下一提示`next-continuation-006.md`保持本session和原15:00截止；本报告是checkpoint，不是当天完成或提前收束。checkpoint006发布稳定指针为main · Day23: cross-audit core reference B(E2) and parameter scaling；实际H3结果/精确hash只记本run `task-publication-receipt-006.json`，正式授分仅到截止收束门处理。原生goal active持续推进，Farmer仅负责allowlisted瞬时失败。
+next-continuation-007.md保持原session与原2026-10-26 15:00+08截止；native goal active/Farmer2698 fresh running。completed=[] partial=[23]，Day24未打开，不提前授分或收束。候选池007给出原历史来源和Streck2018实际Hamiltonian/算符输入核查路线；若输入齐备才开展有界物理数值练习，不填造缺参数。Git稳定指针main · Day23: bound reference arithmetic and withdraw overclaims；精确hash/实际H3仅在task-publication-receipt-007.json，正式Day23门留到截止收束。

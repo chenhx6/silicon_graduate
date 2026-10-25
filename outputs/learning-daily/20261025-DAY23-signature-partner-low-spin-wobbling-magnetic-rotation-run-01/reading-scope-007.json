@@ -1,0 +1,14 @@
+{
+  "scope": "explicit correction audit of checkpoint006; not new full reading of all cited nuclear evaluations",
+  "source_reading": [
+    "S20 printed052501-4 reference paragraph, previously actual visual verified",
+    "SE21 printed128 reference paragraph, previously actual visual verified",
+    "IAEA Pt186/Au187 original temporary CSVs, selected parent/outgoing rows and half-life/strength fields",
+    "IAEA guide units/half-life field roles"
+  ],
+  "secondary_lead": "arxiv1309.6517 publicPDF retrieved in006; this turn actually targetedreadPDF2–4 and6–8 ref16=Walpe2012; not counted as new experiment or as Baglin2003 body",
+  "access": "Baglin2003 exact DOI OpenAlex200 closed/no repository location; Walpe2012 direct publisher403, no fulltext received",
+  "withdrawn_scientific_certification": "old7 numericflags and complete historical confirmation/actual1.71xmodelparameter implication",
+  "retained_arithmetic": "conditional on sole listed E2+CE branch; actualCSV identity/units guards and central values only",
+  "review": "needs_review:true; original human-review flags not promoted"
+}

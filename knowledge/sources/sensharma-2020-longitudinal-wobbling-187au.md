@@ -166,4 +166,15 @@ Knowledge Impact and Learning Decision：limits样本内能量/尺度符合度�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| AU20-D23-2 | 本文 p.4 报告 186Pt 2+→0+ 实验值为 0.84 (eb)²，并据此采用 HFB-D1S 的 β=0.23。独立量化核验（`day23_core_reference_b_e2_audit.py`）表明 0.84 e²b² 对应 133.2 W.u.，而 ENSDF April 2022 从 T1/2=240(20) ps 导出的采用值为 0.645 e²b² (102 W.u.)。此外，同作者 2021 学位论文 p.128 将该引用值印为 1.44 (eb)² (228.3 W.u.)，两者相差 1.714 倍。核芯参考强度的 1.71 倍版本差异说明模型形变输入依赖于特定的文献选取，不作为无先验条件的纯净预测。 | model-calibration-crosswalk | direct-and-task-arithmetic | printed 052501-4; SE21 p.128; core-reference-be2-006.json | true |
+| AU20-D23-2 | 本文p4引用186Pt2+→0+的.84(eb)²，thesis printed128引用1.44(eb)²，两个字面数比例1.714且同引Baglin2003；两文实际写出的β输入均.23，不能据引用差断言producer参数改变。现代Pt API cutoff2022-03-01列102W.u.，在单列E2退激/采用αtot/半衰期定义等假设下rate中央重算.645283e²b²；它与表列WU同源、非独立验证，也不证明历史Baglin2003采用值。checkpoint006“严格/完全证实”及七项flag的科学认证撤回；原原子事实/人审flags保持，继续核原评价。 | quoted-reference-version-and-conditional-arithmetic | direct-quotation-and-bounded-task-calculation | printed052501-4; SE21 printed128; currentPtAPI cutoff2022; checkpoint007 correction | true |
+
+
+### Day23 现代reference导出的读取范围
+
+以下为外部官方字段读数，不归为本文原始实验；完整API快照仍tmp staging/正式raw归档deferred。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D23-3 | 公开IAEA gammas/levels(186pt)本次返回cutoff1-Mar-2022、Batchelder/Hurst/Basunia，row(start,end,gamma)=(1,0,0)列191.53keV、2+→0+、b_e2=102 W.u.、total CC=.417，初level1半衰期字段240ps；Au187旧cutoff1-Nov-2008的row(10,2,0)列233.4keV、(13/2−)→9/2(−)、188W.u.、total CC=.224、level10半衰期56ps。当前导出每个parent仅列这一条E2，不由RI=100证明全branch闭合。它们来自各自评价，同源τ/α/strength不增加独立证据数，未获得历史Baglin2003正文/完整uncertainty。 | external-evaluated-reference-field-contract | direct-public-api-with-archival-and-model-boundaries | https://www-nds.iaea.org/relnsd/v0/data?fields=gammas&nuclides=186pt row(1,0,0); levels186pt idx1; gammas187au row(10,2,0); levels187au idx10 | true |
+
+guide定义b_e2为W.u.，half_life及half_life_sec为半衰期。本次Pt gammas/levels SHA分别d47db63ca140e07c9a1b435c34d70754b78d3104b9bc33ac31bd1108a3273a75、06cd14997ee06c7315d7f2a82f86cc366893d2e4522014438e1fa5294a8acf2f。条件换算见[[signature-tip-shears-discrimination-contract]]，不能用这些现代字段给旧源“完全证实”或原实验错误认证。

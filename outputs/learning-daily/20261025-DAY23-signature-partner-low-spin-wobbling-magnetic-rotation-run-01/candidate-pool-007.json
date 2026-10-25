@@ -1,0 +1,33 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-25T23:26:16.480898+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 933.7253183666667,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "correction": "006 complete historical-source/independent-validation/actual1.71xparameter implications withdrawn; only literal quotations and conditional arithmetic retained",
+  "slot_A": {
+    "problem": "historical calibration reference and common observable inputs",
+    "status": "modern field and conditional arithmetic ready, historical source still unverified",
+    "next": [
+      "original Baglin2003 if new lawful route appears, not repeat same failed endpoint",
+      "Walpe2012 exact DOI/arxiv or institutional fulltext lead; 2013 model paper remains secondary"
+    ],
+    "boundary": "modern export does not close historical2003 source; no original branch/unc/Cov restored"
+  },
+  "slot_B": {
+    "problem": "same-H configuration mapping and untuned companion prediction",
+    "next": "read full existing Streck2018 PRM original Hamiltonian/basis/operators; establish input-completeness before attempting any numerical implementation",
+    "possible_design": "only if complete: held-H mapping and g/transition prediction with explicit source parameters, symmetry/units/limit tests; never claim original producer or experimental verdict",
+    "boundary": "do not invent coupling, pairing, operator or data; do not run114 quarantined producers"
+  },
+  "preview": "Day24 remains unopened, only permitted one-card uncredited preview after local useful routes saturate",
+  "stop_reason": null
+}

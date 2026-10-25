@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-25T15:11:56.172395+00:00",
+  "status": "active-correction-checkpoint",
+  "withdrawn": "Checkpoint006 complete historical-source confirmation, independent validation and actual parameter-change implications",
+  "retained": "literal .84/1.44 quotation difference and conditionally reconstructed modern centres, with assumptions",
+  "new_code": "reads real CSV snapshots, status computed-conditional; no historical-source or experiment certification",
+  "required_before_publication": [
+    "fresh boundary/lint/diff",
+    "true report/writeback contract",
+    "source reading scope",
+    "explicit manifest/H3"
+  ],
+  "native_goal": "active; original deadline unchanged"
+}

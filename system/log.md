@@ -4387,3 +4387,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-25T22:47:39.527173+08:00 Day23 checkpoint005：Hg187母态/女核γclock、空强度和servicecode0核验；v0/v1完整rowmultiset同而排序异，12身份控制通过。SE21科学run账本/合并事件版本、Au coreBE2/parity和非刚性j模型边界写回，累计16页。继续原15:00窗口，下一186Pt reference，未授分。
 
 - 2026-10-25T23:00:34.155164+08:00 Day23 checkpoint006：186Pt核芯参考B(E2)多源交叉核验完成，7项控制全过；证实Guo 100-200 W.u.包络两核采用值(102/188 W.u.)，揭示Sensharma PRL(0.84)与论文(1.44)存在1.71倍定标版本差。16页累计writeback与结构门通过，继续原15:00窗口，未授分。
+
+- 2026-10-25T23:26:16.480898+08:00 Day23 checkpoint007纠正006：撤回现代字段“完全证实历史引用”和七magicflags/actual1.71x参数变化认证。保留原.84/1.44字面差但β同.23；四真实CSV与单列E2+CE假设下条件rate Pt.645283/Au1.191357，非独立或原producer验证，不报完整CI。旧文字/源码留历史；fresh结构/truewriteback门通过，继续原15:00窗口，无学分改变。

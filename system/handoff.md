@@ -3,18 +3,15 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint006（持续研究）
+## Active handoff — Day23 checkpoint007纠正完成（持续研究）
 
-run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08；nativegoal active/Farmer2698 fresh verified running；completed=[] partial=[23] next23，Day24未打开。Day22只授[22]/H3已核。保持用户“至原次日15:00再收束”要求。
+run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。nativegoal active；completed=[] partial=[23] next23，Day24未打开，原Day21/22学分不变。checkpoint006已实际发布，但其“完全证实Baglin2003/Guo旧引用”的科学认证过强，当前撤回；旧文字/源码快照存pre-correction-006.json，仅为历史，不作事实源。
 
-006：完成 186Pt 核芯参考 B(E2) 与 187Au 参考跃迁定量交叉核验（`day23_core_reference_b_e2_audit.py`，7项控制全过）。核验证实：
-1. IAEA ENSDF 2022 评估给出 186Pt 191.53 keV (2+→0+) 从 T1/2=240 ps 导出的 B(E2)=0.645 e²b² (102 W.u.)，187Au 233.4 keV 从 T1/2=56 ps 导出的 B(E2)=1.194 e²b² (188 W.u.)；
-2. Guo 2022 PLB 所述“100–200 W.u.”是对两核评估采用值的客观包络，与 IAEA ENSDF 数据严格吻合；
-3. Sensharma 2020 PRL 采用 0.84 e²b² (133 W.u.)，而 2021 学位论文采用 1.44 e²b² (228 W.u.)，相差 1.714 倍，且论文存在正宇称笔误（13/2+→9/2+）。核芯定标输入存在 1.71 倍版本偏差，不能作为无先验条件的普适尺度。
+007已将core脚本改为读实际CSV、目标/单位guards和computed-conditional，不以硬编码预期数的7个passed认证历史来源。假定唯一列明E2+CE耗尽退激时，Pt rate中央.645283、Au1.191357；表列102/188WU换单位则约.64333/1.19426，同评价链非独立测量，差为数千分之一。无完整branch/原notes/Cov不报新完整CI。Pt现代cutoff2022不能证明2003原采用值；作者两引用.84/1.44确比1.714，但两文β仍同.23，不能称实际β/producer输入改1.71倍。
 
-累计 16 页 writeback，boundary/lint/diff/core_be2 及 true runner 报告/写回门均通过（0error/220warning）。新增 AU20-D23-2 均 needs_review:true。下一路线继续深入检验模型算符与共同输入，不因 checkpoint 收束。详 next-continuation-006 / candidate-pool-006。
+source AU20-D23-2与方法/报告当前强措辞已修订，读源范围与freshchecks已完成：boundary/lint/diff/条件程序均0，true runner报告/16页writeback valid，0error/220warning；后续显式manifest/H3发布该有界纠正。007另查Baglin2003精确OpenAlex与Walpe2012 publisher；2013 arxiv1309.6517只做相关文献线索/定向正文，未当新实验。raw/PLAN/Bib保护，新增needs_review:true，114隔离producer不运行；继续至原15:00，不以此checkpoint收束。
 
-发布稳定指针 main · Day23: cross-audit core reference B(E2) and parameter scaling；精确hash/实际H3只看本run task-publication-receipt-006.json。raw/PLAN/Bib及继承dirty保护，114隔离producer不运行。
+下一B优先完整读现有Streck2018 PRM原文，核Hamiltonian/basis/EM operators及参数是否齐备；只有完整输入才建same-H mapping/未定标伴随预测练习，先按phys-model合同，绝不填参或称原producer复现。A需历史全文新lead，现代导出不能替它关闭。候选池007/next-continuation-007已存；发布稳定指针main · Day23: bound reference arithmetic and withdraw overclaims，实际H3/精确hash只看task-publication-receipt-007.json。
 
 ## Previous handoff — Day22 closeout
 

@@ -197,19 +197,19 @@ SH26 Fig12是固定σ/I=.2的条件支持；其caption旧refs与SecII combined-d
 模型输入也按来源版本冻结：SE21-D23-3/4给Au reference-core B(E2)文字/数值与j几何边界。1.44/.84尚未核同一评价和采用约定前不平均、不默选、不改变负parity；λ同值也不替代完整sp谱/occupancy/EM operators。下一步优先核186Pt原evaluation或两模型实际operator，而不是靠增减任意参数制造匹配。
 
 
-## Day23：186Pt核芯参考B(E2)与定标输入交叉核验
+## Day23：186Pt参考尺度的条件重算与历史边界
 
-本节为可复现的任务量化核验（程序`system/scripts/day23_core_reference_b_e2_audit.py`，产物`core-reference-be2-006.json`），needs_review: true。
+checkpoint006把现代评价一致性写成“完全证实旧引用”的认证，范围过强，已撤回；旧文字/程序快照见本run pre-correction-006.json，旧七项数值flag不是独立物理验证。本节为Codex self-audit，needs_review:true。
 
-| 量 / 来源 | 能量与寿命输入 | 导出 B(E2) [e²b²] | 导出 W.u. | 来源与对账结论 |
-|---|---|---|---|---|
-| 186Pt 2+→0+ (IAEA 2022/2026) | 191.53 keV, T1/2=240(20) ps, α_tot=0.417 | 0.645(+0.059/-0.050) | 102.3 W.u. (表列 102) | ENSDF 采用值，源自 Batchelder 2022 评估 |
-| 187Au 13/2-→9/2- (IAEA 2008/2026) | 233.4 keV, T1/2=56(5) ps, α_tot=0.224 | 1.194(+0.119/-0.098) | 187.6 W.u. (表列 188) | ENSDF 采用值，源自 Basunia 2009 评估 |
-| Guo 2022 PLB p.3 引用范围 | 引用 Baglin 2003 与 Basunia 2009 | 0.63–1.27 e²b² | 100–200 W.u. | 明确包络了 186Pt (102 W.u.) 与 187Au (188 W.u.) 的采用值 |
-| Sensharma 2020 PRL p.4 | 引用 Baglin 2003 | 0.84 e²b² | 133.2 W.u. | PRM 形变定标所用数值，比 0.645 高出 1.30 倍 |
-| Sensharma 2021 thesis p.128 | 同引 Baglin 2003，伴随 13/2+ 正宇称笔误 | 1.44 e²b² | 228.3 W.u. | 比 2020 PRL 数值高出 1.714 倍，两者文字差未闭合 |
+| 对象 | 公开API字段/时间窗 | 条件rate重算 e²b² | 表列WU换算 e²b² |
+|---|---|---|---|
+| 186Pt191.53keV，2+→0+ | T1/2=240ps，αtot=.417；cutoff2022-03-01；b_e2=102 W.u. | .645283 | 约.64333 |
+| 187Au233.4keV，(13/2−)→9/2(−) | T1/2=56ps，αtot=.224；cutoff2008-11-01；b_e2=188 W.u. | 1.191357 | 约1.19426 |
 
-核验证明：
-1. Guo 2022 所称“100–200 W.u.”是对 186Pt (102 W.u.) 和 187Au (188 W.u.) 评价寿命强度的客观包络，与 IAEA ENSDF 数据严格相符；
-2. Sensharma 支持方 PRM 模型选择 β=0.23 的依据是使计算 B(E2) 符合核芯参考值，但作者在 2020 PRL 中写 0.84 e²b²，在 2021 学位论文中写 1.44 e²b²，相差 1.71 倍，且学位论文将 h9/2 跃迁印为 13/2+→9/2+ 正宇称；
-3. 无论是 0.84 还是 1.44 e²b²，均不等于从 T1/2=240 ps 严格导出的 0.645 e²b²，表明存在未说明的寿命修正、转换截断或上/下跃迁约定差异。在统一模型比较前，禁止在不同计算间混用核芯 B(E2) 尺度。
+使用声明的公式B(E2)=.0816 ln2/[E(MeV)^5 T1/2(ps)(1+αtot)]，并假定唯一列明的E2/CE分支耗尽该level退激；relative intensity100本身不证明无漏枝。Weisskopf定义使用r0=1.2fm与B_W(E2)=(1/4π)(3/5)²R⁴，以1b²=10^4fm⁴换单位。差约千分之几，只是舍入/公式约定下的中央算术相容，不是原producer精确重放；b_e2与τ/α本就来自同一评价链，不能当两份独立测量。
+
+没有恢复原始不确定度/完整Cov及转换系数误差，不将只变半衰期得到的区间称原实验CI或完整误差。现代Pt cutoff2022导出不能证明Baglin2003的实际采用值，也不能单凭两个中央值“完全核实”Guo2022宽泛100–200W.u.引述；当前只能说现代表列102/188在该数字范围内，原引用链仍需核。
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-2和[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-3确实记录两来源引用数字.84/1.44，比例1.714；**两文β输入却同为.23**，不能把引用文字差称作实际β/producer输入改变1.71倍或其已证实误差。Thesis正parity字面亦不用于重指派实际h9/2分支。
+
+当前程序`system/scripts/day23_core_reference_b_e2_audit.py`改为从实际CSV读取四份输入、保留重复列/数据hash并检查目标身份与时钟单位；输出status=computed-conditional，不再用硬编码结果的passed认证旧文献或原实验。输出core-reference-conditional-007.json保存假设与误差边界。
