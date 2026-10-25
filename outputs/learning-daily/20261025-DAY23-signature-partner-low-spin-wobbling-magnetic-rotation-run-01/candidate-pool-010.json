@@ -1,0 +1,41 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-26T00:51:05.373564+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 848.9104406,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "delta": "normalized coreE2 onH009 has exactfiniteI operatorcontrols/independentWignerintegration; denominatorsandenergyadmissibilityseparated, mappingA526upwardcannotcountasgammaoutlet",
+  "slot_B_next": {
+    "problem": "single-j normalized M1 operator and E2/M1 mixing-scale readiness",
+    "source_premises": [
+      "H02 Eq9 general M1 decomposition, source009single-j approximation",
+      "ST18 Eq7 j+R weakcoupling basis and current U transformation",
+      "source007/008/009scope remains conditional, no originalproducer certification"
+    ],
+    "plan": [
+      "first explicitphysmodelcontract; project l/s toconstantg_j only as single-j assumption, no numerical g chosen",
+      "compute lab j rank1 matrix via coupled labm CG sums inweakR/KR representation, conservingR andKR, transform tostrong",
+      "validate freeR0 limit, detailedbalance, rank1 closure j(j+1), Hermitianreverse and statica Casimir relation",
+      "factor unknown S_M=sqrt(3/(4pi))*(gj-gR)*muN from DeltaI1 transitions; totalI generator preserves I so itscrossI termzero, not frozenj zeroM1",
+      "unknown S_E/S_M prevents unique predictedphysicaldelta fromspectrum alone; actualP/Rac data/priorcalibration still constrainbranches, do not claimvalleysequallylikely",
+      "check prospective newinformation; after normalizedoperator route saturates, rebuild pool andinspectDay24 only uncredited"
+    ],
+    "forbidden": [
+      "fabricate gj/gR/effectivecharges/physicaldelta or actualrate",
+      "call sameH energyfailure fixed by matchingB",
+      "transfer special H02 rH symmetry toarbitrarygamma",
+      "M1dominance uniqueSP/TiP/shears modeclaim"
+    ]
+  },
+  "slot_A": "true counts/response/Cov and historicalprimaryalphaK still notready; sourceEMconventions improve comparison but are not new acquisition",
+  "preview": "Day24 notopened; exactlyone uncredited nextcard if currentusefulroutes saturate",
+  "stop_reason": null
+}

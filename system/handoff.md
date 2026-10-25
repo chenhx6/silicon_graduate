@@ -3,17 +3,17 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint009（持续研究）
+## Active handoff — Day23 checkpoint010（持续研究）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08。上海已跨日，原run_date仍25；nativegoal active/Farmer2698fresh running；completed=[] partial=[23] next23，Day24未打开。保原Day21/22信用/raw/PLAN/Bib/人审flags，114隔离producer不跑，checkpoint非日终。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08。上海跨日run_date仍25，nativegoal active/Farmer2698fresh运行；completed=[] partial=[23] next23，Day24未打开。checkpoint非日终，原Day21/22信用/raw/PLAN/Bib/人审flags保持，114隔离producer不跑。
 
-009按physmodel先合同，固定ST18无配对singlej + WangEq11 C=.233738451MeV，不fit；14I完整D2有限H对角化87checks过，maxres7.2e−14MeV，ordinal只是能量号非模式。Eq3旧C另variant也87checks过。LvSIp5鲜读/图核sameI Band2/3差44/44.5keV（L22-D23-001），两候选最低态gap841/840（旧C715/723），换标签翻号不改幅度；只诊断所列variant/mappings，不排其它态/模型/参数或给新pvalue。
+010明示core-only normalized rank2 E2、gammaE=-26共轴同H是额外假设，未知S因子化，不造实测Q。H02p3Eq11与F14p6HFA/轴/脚注定向source核验。新script day23_prm_core_e2.py精确CG与独立Wignerd角积分、axial/reverse/closure等两C处方各25controls过，H谱与009一致；只认证实现，closure含up/elastic不当γbranch。
 
-g几何系数a由Casimir/矩阵/分布互核，17/2差.060935、27/2差.004686但bodyRMS不同，31/2差翻号；物理g仍需gj/gR与operator，不能由近g认证bodygeometry。ST18-D23-006–008是任务计算非原作者新report。保007撤回006过强历史引用认证，不能复活。
+分母关键：747/526两crossbandout，不把model747/同ordinalI−2=.708当实测.7。mappingA形式r747/526137.32（旧22.27），同H却526candidate ΔE−.5064MeV（旧−.3565）上跃，gamma比输出null不是观测zero；B比.02992（旧.01659），其ΔE+1.1516也不符实测526。813/726 out/in A/B .5054/.003497（旧.50077/.001133）。009energygap不闭仍在，不由单ratio判模式/统计排除。
 
-下一source-grounded E2operator/phase路线：先读F14/F01原件lab↔strongbasis算符/归一与新physmodel合同；齐备才做normalizedcore-onlyE2连接vector，比值不造实测Q/τ/M1g，核axialCG/detailedbalance/tensor极限。能量ordinal不自动band/phonon；缺前提记边界。尚有高价值路线，继续原15:00前研究，局部饱和才一张Day24无学分预习，不开Day25。
+下一M1：先新physmodel合同，H02Eq9在singlej下μ=gR R+gj j，DeltaI1的totalI项不改I，需j_lab rank1耦合CG/weakR基底（R/KR保持）再strong变换；验证freeR0/closurejj+1/reverse/detailedbalance及对角a对009Casimir。只normalizedB/S_M²未知gj/gR，不造physicalδ/g/Q/τ/机时；modelscale未知不等真实P/Rac两谷必等深，固定σ/I条件支持保留。route饱和再检查Day24且仅无学分预习，不开Day25。
 
-当前boundary/lint/diff及两Cvariant执行均0，true runner18页writeback valid，0error/220warning，新needs_review:true。详model-contract-009/candidate-pool-009/next-continuation-009。发布指针main · Day23: test fixed Hamiltonian state mappings；实际H3/hash只见task-publication-receipt-009.json。
+fresh边界/lint/diff/两E2执行0，true runner20页写回valid，0error/220warning，新needs_review:true，保007撤回006强认证。详model-contract010/candidate-pool010/next-continuation010。发布指针main · Day23: constrain normalized E2 connection vectors；实际H3/hash看task-publication-receipt-010.json。
 
 ## Previous handoff — Day22 closeout
 

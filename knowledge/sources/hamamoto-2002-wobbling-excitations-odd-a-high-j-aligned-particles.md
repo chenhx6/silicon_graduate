@@ -3,7 +3,7 @@ type: source
 title: "Wobbling excitations in odd-A nuclei with high-j aligned particles"
 aliases: [Hamamoto 2002 wobbling excitations, high-j aligned-particle wobbling]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -119,3 +119,15 @@ P1:
 ## Review Status
 
 Page and all H02 claims remain unreviewed with `needs_review: true`. Human review is deferred until use: perform targeted claim review when this content is used for paper writing, a key project decision, synthesis finalization or a paper-level evidence pool.
+
+
+## Day23：四极张量旋转、轴约定与特殊选择条件
+
+本次定向回读原PDF1–4的机制/算符段，视觉核p3 Eq11与周边γ/量子化轴说明；SHA匹配，未新称重读全部8页。原source flags不变，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| H02-D23-001 | Eq11写Qμ=D²μ0Q0+(D²μ2+D²μ,−2)Q2，并给intrinsic Cartesian moments与其γ参数化；同段将BM的0°–60°与Lund角、选x为量子化轴联系，得到不同的角依赖形式。lab旋转张量的rank2结构可以复用，但不能忽略轴/角变换而把本文数值γ直接当另一PRM的同一charge tensor。有限I的矩阵元还需basis/归一与CG，不能套高spin HFA作为精确低spin值。 | tensor-rotation-and-coordinate-boundary | direct-original-and-bounded-inference | PDF3 Eq.11 and preceding/following definitions | true |
+| H02-D23-002 | 本文λ=0/γ−30°及hydrodynamical MoI的特殊rH对称性带来指定M1/E2选择条件；它不是任意γ/占据/模型空间的普遍禁戒。Eq9含单粒子磁矩，不能把无core-only-M1计算或固定内禀j误解为所有带间M1=0。 | special-symmetry-and-M1-boundary | direct-original | PDF2 Eq.9; PDF3 Eq.10–11 and symmetry paragraph | true |
+
+本任务normalized core-only E2练习见[[signature-tip-shears-discrimination-contract]]：电荷轴/γ与H相同是明示假设，未知charge scale单独因子化；不宣称本文已独立验证Pr/Au或本任务operator等于原作者全部EM实现。

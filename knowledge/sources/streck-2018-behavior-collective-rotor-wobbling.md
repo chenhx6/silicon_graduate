@@ -157,3 +157,13 @@ Knowledge Impact and Learning Decision：supports可追溯的K↔R及转子Hcoll
 | ST18-D23-008 | 在单j/core磁矩μ=gR R+gj j假设下，本任务由R²和Casimir计算a=〈I·j〉/[I(I+1)]，所以g=gR+(gj−gR)a。I17/2两ordinal的a=.565133/.504198，差.060935；I27/2为.387731/.383045，差.004686，同时其j(s,i,l)RMS分别约(4.985,2.958,1.465)/(4.588,3.519,1.522)。a是条件几何系数，非实测或已校准物理g；gj/gR未给，近a不独立证明相同body图像。 | conditional-companion-observable-coefficient | task-Casimir-derivation-and-model | ST18-D23-006/007; source Eq.4 and R representation; task static-g derivation | true |
 
 `system/scripts/day23_prm_fixed_state_mapping.py`强制CLI显式选择C处方。旧Wang Eq3作为另一个固定variant给C=.180757460MeV，同两个I的最低态间隔715.129/723.189keV，同样未闭合44keV中央差；这是两种有来源的处方敏感性，不是任意调参或作者旧模型已证错误。原parameter可能早已用能谱定标，当前能量对照不是独立盲测；将来physicalg/电磁holdout还需确定mapping和算符。
+
+
+## Day23：固定H上的条件core-E2连接向量
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST18-D23-009 | 本任务在009的同H本征态上声明normalized core-only E2，电荷轴1s/2i/3l、γE=γH=−26°、q0=cosγE、q±2=sinγE/sqrt2；未知S因子化。精确finite-I CG投影与独立Wigner-d积分核对、轴对称CG/closure/reverse等每处方25项控制通过；它们只验证该明示operator实现，电荷γ与H相同/省略单粒子E2不是实测或本文给出的完整EM定标。 | declared-task-electromagnetic-operator | conditional-numerical-implementation | ST18-D23-006 premises; H02-D23-001; task model-contract-010 | true |
+| ST18-D23-010 | 指定跨spin恒定ordinal映射A(B3=0/B2=1)或B(B3=1/B2=0)，Eq11处方下形式矩阵元r747/526为137.3196或.0299216，r813/726为.505399或.00349706；但A的526候选ΔE=−.506395MeV为上跃，不能作为自发γ出口比（输出null）。旧Eq3的形式对应22.2669/.0165857与.500773/.00113266，A的526也为上跃ΔE−.356500MeV。两分母分别是另一band outlet和同band I−2，不互换；非零upward B不等于退激存在。均不报显著性/实际Q/δ/τ或唯一模式，009能量mapping问题保留。 | conditional-fixed-operator-vector-and-energy-direction | task-predictions-with-identity-boundaries | ST18-D23-009; L22-D22-001/002; task core-e2-010 | true |
+
+这里operator closure包括upward及diagonal/elastic矩阵元，不是实际γ分支或计数总和。模型B/S²只有相对scale意义，不给绝对W.u.；physicalM1算符/混合相位未提供，所以不从E2比值补造δ。原source作者的PRM与scissors解释范围亦不由本数值练习改写。

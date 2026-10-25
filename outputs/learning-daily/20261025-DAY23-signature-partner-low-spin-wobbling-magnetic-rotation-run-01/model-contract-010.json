@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-10-25T16:23:09.766033+00:00",
+  "model": "fixed unpaired H009 plus declared core-only quadrupole charge operator",
+  "sources": [
+    "Hamamoto2002 Eq11 rotation law and explicit convention qualifications",
+    "ST18 Eq6 strongbasis/axes, source H009",
+    "F14 Eqs16–18 only highspin HFA comparison, not used as exact finiteI operator"
+  ],
+  "H": "unchanged source task variant WangEq11 or explicit Eq3 sensitivity",
+  "operator_definition": "T_2mu = S sum_nu D^2_mu,nu q_nu, nu=0,+-2; in axes(1s,2i,3l), q0=cos(gammaE), q+-2=sin(gammaE)/sqrt2, gammaE=-26 explicitly chosen to coincide withH shape",
+  "operator_assumptions": [
+    "charge and potential/massgamma same/coaxial, not a measured fact",
+    "core only; singleparticle E2 omitted, not asserted physically zero",
+    "S unknown charge*area; only B/S² or ratios output, no measured absoluteQ",
+    "same q tensor and phase for every state in comparison",
+    "energyordinal sequences conditional mapping not automaticallyadiabatic bands"
+  ],
+  "reduced_matrix_convention": "<IfMf|T_lammu|IiMi> = CG(IiMi,lam mu|IfMf)/sqrt(2If+1) <If||T_lam||Ii>; B=abs(reduced)^2/(2Ii+1)",
+  "validation_plan": [
+    "pure axial fixedK CG limit",
+    "Hermitian reducedreverse/detailedbalance",
+    "rank2 triangle zero",
+    "common S scaling ofB and cancellation ofratios",
+    "unit tensor norm q0²+2q2²=1 and full finalspace closure sumB/S²=1",
+    "independent numerical Wigner-d integral via exp(-i beta Jy) and GaussLegendre convergence",
+    "H eigenvalues fromsame inputs align with009 without retuning"
+  ],
+  "inputs_for_comparison": "same-I observed sequenceidentity retained; ratiosnotlabelledbestfit; energyfailure009remains",
+  "prohibited": [
+    "chargegamma calibrated by fitting targetratio",
+    "newphysicalQ/τ/δ/g or actualexperimentCI fabricated",
+    "HFA formulas called exact lowspinCG",
+    "sameordinal called verifiedSP/phonon",
+    "energyfailure offixedmodel hidden by matchingone ratio"
+  ]
+}

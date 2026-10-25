@@ -263,3 +263,29 @@ a=\frac{\langle\mathbf I\cdot\mathbf j\rangle}{I(I+1)}
 
 
 这一中央gap问题也不能仅靠给**这两个固定eigenstates**追加任意Hermitian非对角V来缩小：在固定对角能量E0/E1的2×2子空间，gap=sqrt[(E1−E0)²+4|V|²]，总不小于原gap。该代数只限定“固定两对角+off-diagonal-only”的补救，不排除改变单粒子能量/惯量、加入其它态/组态空间或其它自洽模型的影响。这里没有新增实际nuclear V、混合强度或置信界，不借旧任意100–200keV相互作用故事恢复模式认证。
+
+
+## Day23：固定H的normalized core-only E2连接
+
+本任务显式采用T2μ=SΣνD²μνqν，ν=0,±2，在1s/2i/3l轴上定义q0=cosγE、q±2=sinγE/sqrt2，并选γE=−26°与009 H同角。未知S有电荷×面积单位，始终不拟成某个实测Q；同一S在同operator的B比值中才相消。电荷与mass/potential同γ、共轴以及仅保core E2是额外假设，未认证粒子E2物理上不存在。原旋转形式/约定边界见[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-001；不能直接把另一轴系的Lund角/Q0换入本定义。[[frauendorf-2014-transverse-wobbling]] F14-D23-001的HFA式也未当低spin精确矩阵元。
+
+约定lab矩阵元=CG(IiMi,2μ|IfMf)/sqrt(2If+1)×reduced，B=|reduced|²/(2Ii+1)。本实现先用ST18强耦合±K/±Ω对称基底投影，逐Ω取core spectator，再以CG对Ki/Kf和ν相干求和；physicalS被整体因子化。算法检验包括pure-axial fixedK CG、rank2 triangle、Hermitian reverse与详细平衡、tensor norm/完整final-space closure，以及三条matrix element用exp(−iβJy)生成Wigner-d并作24/40 Gauss-Legendre节点积分的独立核对。两处方各25检查通过，CG与独立积分最大差约1.9e−15、closure误差≤7.8e−16、reverse≤1.4e−15；与冻结009相同H的最低3态能量相同（数值差0）。这只证明finite-I operator实现，不验证实际nuclear mapping。
+
+**closure不是实验branch sum**：其中包含向上、同I与diagonal/elastic矩阵元；不能用ΣB/S²=1给未测γ线强度或判全部退激完整。省掉这些项检验实验sum也不是该算符恒等式的含义。
+
+| 条件mapping | rE2(747→yrast /526→另一band) | rE2(813→yrast /726同band) | 009同H能量诊断 |
+|---|---|---|---|
+| A：B3=ordinal0、B2=ordinal1；WangEq11 | 137.3196仅形式矩阵比，526为上跃 | .505399 | gap约841/840keV不等观测44/44.5；526候选ΔE=−.506395MeV |
+| B：B3=ordinal1、B2=ordinal0；WangEq11 | .0299216 | .00349706 | 换mapping翻gap号但幅度不改 |
+| A；旧WangEq3另variant | 22.2669仅形式矩阵比，526为上跃 | .500773 | 同两gap约715/723keV；526候选ΔE=−.356500MeV |
+| B；旧WangEq3另variant | .0165857 | .00113266 | 同前限制，非原作者调参史 |
+| Lv原作者联合提取/已报中央值 | .7(+.7/−.5) | .12(.08) | 原始能级与新测δ链保留 |
+
+实测ratio出处[[lv-2022-evidence-against-wobbling-135pr]] L22-D22-001/002和L22-D22-R095-2：747/526为同母态两个带间出口，526在SI Table1多极性/Rac空白，按pureE2分母是原提取条件；813/726才是同母态out/in E2。不能把model r747/“假定存在的B3低spin in-band”=.708336当作实测747/526的比值来宣布相符。不同分母选择可让看似相近的数字代表完全不同问题。
+
+两映射的相对向量不同，却都未同时闭合这个指定variant的能量/ratio中央值；未给实验jointCov/完整operator/modelerror，不做χ²或领域范围模式排除，也不赋两形式同等可信度。来源参数和ratio链并非独立：E2实验ratio来自原δ/强度输入，模型数值均来自同H/operator；不能按这些列再加独立“票”。小分母的r747对C处方敏感也提醒不按单一大ratio命名模式。
+
+源码`system/scripts/day23_prm_core_e2.py`强制显式C处方、γE和冻结009参考模型文件，记录code/input hash与physical缺项。sameordinal acrossspin只是当前mapping假设，不等同证明adiabatic band/phonon。后续须检验wavefunction tracking/其它候选态，或补真实电磁operator，而不是拟chargeγ到某个ratio、从E2结果造M1/δ/Q/τ/机时。所有新推断needs_review:true，原Pr/Au争议支持与反证并列。
+
+
+**必须用同H检验退激方向**：在mapping A，模型I17/2母态ordinal0与I13/2末态ordinal1间ΔE=−.506395MeV（旧C也为−.356500），所以“137.3/22.3”只是两个量子矩阵强度的形式比，不能称理论预测的526自发γ退激比；非零吸收/上跃矩阵元不意味着放光通道开放。程序为这种γ比输出null并保留形式矩阵量，而非将原实测526计数改为零。mapping B的对应ΔE=+1.151563MeV虽为向下，也与实测526keV能量不等，原模型差别仍须检验。这比只比较B大小更清楚地暴露特定mapping的适用边界，但不排除其它H/态/模型。

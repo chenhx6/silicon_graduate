@@ -3,7 +3,7 @@ type: source
 title: "Transverse wobbling: A collective mode in odd-A triaxial nuclei"
 aliases: [Frauendorf and Donau 2014, transverse wobbling QTR]
 created: 2026-07-15
-updated: 2026-10-22
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theory-article
@@ -215,3 +215,12 @@ Supports：以最大惯量轴和准粒子取向定义横纵几何；limits：保
 ## Day22 checkpoint121：既有核心来源主线回读
 
 2026-10-25T14:11:06.327994+08:00回读现有同SHA原件：014322-1–12 all mainline, appendix and references；本次重新视觉核014322-6 Eqs11–24。问题、方法、拟合输入、结果、局限和结论与当前原子条目核对，未发现需要新增科学结论的差额。原实现/完整Cov及外部引用缺口保持；没有新增实验、下载或human review。阅读记录见source-mainline-recheck-121.json。
+
+
+### Day23：HFA电磁表达式的轴/极限范围
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F14-D23-001 | 本文Eqs16–18为HFA下的E2表达式，Q0/Q2相对所用3轴，脚注明确接用BM公式时惯量排序不同须重标轴。它们不是任意finite-I strongbasis精确CG矩阵元；相同符号Q也不能跨轴或从potential coupling直接裸搬成charge tensor。旧AppendixA的cos文字异读仍按此前记录保留，本任务没有借此默改原文或判定勘误。 | approximation-normalization-and-axis-boundary | direct-original | PDF6 Eqs.16–18 and footnote1; F14-D20-R45-1 | true |
+
+本轮只定向回核p6相关表达式/visual，原raw SHA/旧flags保持。source所述冻结j仍有M1及Lu/Pr支持/限制链不变，新增needs_review:true。有限I normalized E2方法另见[[signature-tip-shears-discrimination-contract]]。

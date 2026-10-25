@@ -1,0 +1,173 @@
+{
+  "status": "conditional-core-E2-computed",
+  "C_prescription": "Wang2009-Eq3",
+  "C_MeV": 0.18075746018043176,
+  "gamma_E_deg": -26.0,
+  "gamma_H_deg": -26,
+  "operator": "T2mu=S sum D2_mu,nu qnu; q0=cos(gammaE),q+-2=sin(gammaE)/sqrt2 in axes1s/2i/3l; core only",
+  "reduced_convention": "labM=CG(IiMi,2mu|IfMf)/sqrt(2If+1)*reduced; B=abs(reduced)^2/(2Ii+1)",
+  "scope": "Unknown common S factored out. No actual charge moment, absolute experimental strength, M1, delta, lifetime or response fit supplied.",
+  "results": [
+    {
+      "I": 8.5,
+      "parent_ordinal": 0,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_out_MeV": 0.576373577683648,
+      "delta_E_sameordinal_Iminus2_MeV": 0.3053586330828673,
+      "delta_E_otherordinal_Iminus2_MeV": -0.35649982631390675,
+      "B_out_over_unknown_S_squared": 0.1297903181375995,
+      "B_Iminus2_sameordinal_over_unknown_S_squared": 0.1795916646992578,
+      "B_Iminus2_otherordinal_over_unknown_S_squared": 0.005828852480800565,
+      "out_over_sameordinal_Iminus2": 0.7226967819188319,
+      "out_over_otherordinal_Iminus2": 22.26687303634993
+    },
+    {
+      "I": 8.5,
+      "parent_ordinal": 1,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_out_MeV": 1.291502177005688,
+      "delta_E_sameordinal_Iminus2_MeV": 0.35862877300813323,
+      "delta_E_otherordinal_Iminus2_MeV": 1.0204872324049072,
+      "B_out_over_unknown_S_squared": 0.0003744051272313836,
+      "B_Iminus2_sameordinal_over_unknown_S_squared": 0.16583628725445645,
+      "B_Iminus2_otherordinal_over_unknown_S_squared": 0.022573969849117213,
+      "out_over_sameordinal_Iminus2": 0.0022576791450769915,
+      "out_over_otherordinal_Iminus2": 0.016585701572823942
+    },
+    {
+      "I": 10.5,
+      "parent_ordinal": 0,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_out_MeV": 0.6648899450386797,
+      "delta_E_sameordinal_Iminus2_MeV": 0.567442534430646,
+      "delta_E_otherordinal_Iminus2_MeV": -0.14768606489139402,
+      "B_out_over_unknown_S_squared": 0.10608560389457376,
+      "B_Iminus2_sameordinal_over_unknown_S_squared": 0.21184367261666345,
+      "B_Iminus2_otherordinal_over_unknown_S_squared": 0.00033867980886438784,
+      "out_over_sameordinal_Iminus2": 0.5007730586626412,
+      "out_over_otherordinal_Iminus2": 313.2327381732164
+    },
+    {
+      "I": 10.5,
+      "parent_ordinal": 1,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_out_MeV": 1.3880786883763998,
+      "delta_E_sameordinal_Iminus2_MeV": 0.575502678446326,
+      "delta_E_otherordinal_Iminus2_MeV": 1.290631277768366,
+      "B_out_over_unknown_S_squared": 0.00025995552039217713,
+      "B_Iminus2_sameordinal_over_unknown_S_squared": 0.22950861468485995,
+      "B_Iminus2_otherordinal_over_unknown_S_squared": 0.014429451399263587,
+      "out_over_sameordinal_Iminus2": 0.001132661276131722,
+      "out_over_otherordinal_Iminus2": 0.018015620497217524
+    },
+    {
+      "I": 12.5,
+      "parent_ordinal": 0,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_out_MeV": 0.730621483756842,
+      "delta_E_sameordinal_Iminus2_MeV": 0.8153706969612802,
+      "delta_E_otherordinal_Iminus2_MeV": 0.09218195362356019,
+      "B_out_over_unknown_S_squared": 0.08737165465704878,
+      "B_Iminus2_sameordinal_over_unknown_S_squared": 0.24011078148370077,
+      "B_Iminus2_otherordinal_over_unknown_S_squared": 0.0006972489914376348,
+      "out_over_sameordinal_Iminus2": 0.36388059760231867,
+      "out_over_otherordinal_Iminus2": 125.30911586820662
+    },
+    {
+      "I": 12.5,
+      "parent_ordinal": 1,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_out_MeV": 1.4368177145406902,
+      "delta_E_sameordinal_Iminus2_MeV": 0.7983781844074085,
+      "delta_E_otherordinal_Iminus2_MeV": 1.5215669277451285,
+      "B_out_over_unknown_S_squared": 8.777072617950162e-06,
+      "B_Iminus2_sameordinal_over_unknown_S_squared": 0.2759136003030559,
+      "B_Iminus2_otherordinal_over_unknown_S_squared": 0.007238197226947416,
+      "out_over_sameordinal_Iminus2": 3.181094592042461e-05,
+      "out_over_otherordinal_Iminus2": 0.0012126047885616597
+    }
+  ],
+  "conditional_mappings": [
+    {
+      "hypothesis": "B3_to_ordinal0_B2_to_ordinal1",
+      "same_ordinal_mapping_across_spins_is_assumed": true,
+      "formal_B_matrix_747_over_526": 22.26687303634993,
+      "gamma_decay_B_ratio_747_over_526": null,
+      "model_delta_E_526_candidate_MeV": -0.35649982631390675,
+      "formal_B_matrix_813_out_over_726_in": 0.5007730586626412,
+      "gamma_decay_B_ratio_813_over_726": 0.5007730586626412,
+      "boundary": "Conditional mapping/operator diagnostic; same-H energy mismatch from009 remains, no likelihood or best-model claim."
+    },
+    {
+      "hypothesis": "B3_to_ordinal1_B2_to_ordinal0",
+      "same_ordinal_mapping_across_spins_is_assumed": true,
+      "formal_B_matrix_747_over_526": 0.016585701572823942,
+      "gamma_decay_B_ratio_747_over_526": 0.016585701572823942,
+      "model_delta_E_526_candidate_MeV": 1.0204872324049072,
+      "formal_B_matrix_813_out_over_726_in": 0.001132661276131722,
+      "gamma_decay_B_ratio_813_over_726": 0.001132661276131722,
+      "boundary": "Conditional mapping/operator diagnostic; same-H energy mismatch from009 remains, no likelihood or best-model claim."
+    }
+  ],
+  "controls": {
+    "unit_intrinsic_rank2_tensor_norm": true,
+    "I2_7_operator_closure_all_final_states": true,
+    "I2_7_Hermitian_reduced_reverse": true,
+    "I2_11_operator_closure_all_final_states": true,
+    "I2_11_Hermitian_reduced_reverse": true,
+    "I2_17_operator_closure_all_final_states": true,
+    "I2_17_Hermitian_reduced_reverse": true,
+    "I2_21_operator_closure_all_final_states": true,
+    "I2_21_Hermitian_reduced_reverse": true,
+    "rank2_triangle_forbidden_zero": true,
+    "pure_axial_fixedK_CG_limit": true,
+    "common_tensor_scale_multiplies_amplitude": true,
+    "I2_17_to_15_independent_Wigner_integral": true,
+    "I2_17_to_15_quadrature_convergence": true,
+    "I2_21_to_19_independent_Wigner_integral": true,
+    "I2_21_to_19_quadrature_convergence": true,
+    "I2_17_to_13_independent_Wigner_integral": true,
+    "I2_17_to_13_quadrature_convergence": true,
+    "same_H_as_frozen_stage009": true,
+    "I2_17_ordinal_0_detailed_balance": true,
+    "I2_17_ordinal_1_detailed_balance": true,
+    "I2_21_ordinal_0_detailed_balance": true,
+    "I2_21_ordinal_1_detailed_balance": true,
+    "I2_25_ordinal_0_detailed_balance": true,
+    "I2_25_ordinal_1_detailed_balance": true
+  },
+  "frozen_H_reference": {
+    "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-fixed-state-oldC-009.json",
+    "sha256": "cae908ff0811aed1376c805407958c5ac5c66588891ce4f57883d32ca8fb548c"
+  },
+  "control_details": {
+    "I2_7_closure_error": 5.551115123125783e-16,
+    "I2_7_reverse_error": 2.220446049250313e-16,
+    "I2_11_closure_error": 6.661338147750939e-16,
+    "I2_11_reverse_error": 4.440892098500626e-16,
+    "I2_17_closure_error": 7.771561172376096e-16,
+    "I2_17_reverse_error": 8.881784197001252e-16,
+    "I2_21_closure_error": 3.3306690738754696e-16,
+    "I2_21_reverse_error": 1.3322676295501878e-15,
+    "I2_17_to_15_quadrature_error": 1.3919746830549652e-15,
+    "I2_21_to_19_quadrature_error": 1.0440120273584689e-15,
+    "I2_17_to_13_quadrature_error": 8.969715221037388e-16,
+    "same_H_as_frozen_stage009_error_MeV": 0.0
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "day23_prm_core_e2.py": "38276c976953c92e6063c40323f0fd965d00d299b0c3299705d3b8363370179b",
+    "day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe",
+    "day23_prm_fixed_state_mapping.py": "590f877dc7a52d41b597f436a16a1072237cc2c2d76a7ef17b74540f8e26aaf8"
+  },
+  "limitations": [
+    "Coaxial charge/potential gamma equality is a declared assumption, not measured.",
+    "Single-particle E2 is omitted from this operator; it is not asserted physically absent.",
+    "The operator closure test includes upward and elastic/diagonal matrix elements; it is not a gamma branching/count sum.",
+    "A nonzero upward B matrix element cannot be used as a spontaneous gamma-decay outlet; deltaE must be positive under the same H.",
+    "Energy ordinals across spin are only the proposed mapping; adiabatic band identity is not proven.",
+    "The 526-keV experimental denominator is a separate interband outlet, assumed E2 in the published extraction; its SI multipolarity/Rac fields are blank.",
+    "Both007 historical-source boundaries and009 fixed-H energy-mapping inadequacy remain in force.",
+    "Numerical controls validate this tensor implementation, not model adequacy or a nuclear mode."
+  ]
+}

@@ -3,7 +3,7 @@ type: project
 title: "135Pr low-spin wobbling controversy"
 aliases: [135Pr wobbling controversy, 135Pr low-spin bands evidence map]
 created: 2026-07-03
-updated: 2026-10-25
+updated: 2026-10-26
 status: active
 review_status: human-reviewed
 project_stage: competing-evidence-matrix
@@ -279,3 +279,10 @@ P1 self-audit：这些是source identity/版本/可复现条件推导；原2019b
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-1提供Table3.3的run1/4与完整采集指纹；63Ge/697靶组成在2021来源已被描述。其合并事件数1.52×10^10与[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-3的2.5×10^10并存，现有source不足以确定选择/扩充版本和各条AD的真实event组成。不能以摘要相减给新run精确count或按总events给某条γ选择效率定权。
 
 两个版本不影响“有新增run且与S19部分合并”的定性谱系；逐event、逐line、逐ring weights仍须原ledger/校准文件。固定σ/I=.2的大根条件支持保持，当前不由总量差给新显著性或判哪份source错误。新增self-audit needs_review:true，原人审/课程学分保持。
+
+
+## Day23：同H候选映射的电磁向量与分母
+
+新增为Codex自审，needs_review:true，不扩张原project人审范围。[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-009/010与[[signature-tip-shears-discrimination-contract]]补了明确operator假设的normalized core-E2，而非补一个新实验或直接重拟Lv P–Rac。ordinal映射不同会改变相对E2向量，但009的同H能量间隔不匹配仍未修复；不能挑一项ratio接近就忽略整组能谱/分支。
+
+尤其model r747/同ordinal I−2约.708不等于Lv的.7：后者526到另一band，并非B3 in-band。正确冻结该末态后模型A给形式矩阵比约137，但同H的526候选为上跃、不是开放γ出口；模型B形式/向下比为.030，但其预测γ能量亦非实测526；这些只诊断此variant与mapping，省略particleE2/chargeγ同H的假设和原分母pureE2条件都须保留。原实验完整jointCov/原producer未知，不由这些中央值报排除σ数，或将δ大/小根问题改成已裁决。

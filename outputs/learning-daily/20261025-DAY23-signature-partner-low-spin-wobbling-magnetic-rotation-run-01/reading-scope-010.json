@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-26T00:45:27.964573+08:00",
+  "new_targeted_primary_reading": [
+    {
+      "source": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "scope": "PDF1–4 physical context and Eq9–11, coordinate/γ domain, knownfullbodyreadingnotrepeated",
+      "fresh_visual": "PDF3 Eq11 and nearby axis/symmetry text",
+      "raw_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "scope": "PDF6 HFA E2 Eq16–18/footnote1 and M1 scope",
+      "fresh_visual": "PDF6 full relevant equation page",
+      "raw_hash_matches": true
+    }
+  ],
+  "model_premises": "009 already physically scoped; this turn coreonlycharge/phase contract written before implementation",
+  "independent_numeric_route": "CG projectedstrongmatrix vsWignerd fromJyexponential andGauss24/40; operatorclosure includesnonradiativeelastic/upwardmatrixelements",
+  "initial_failure": "numpy.bool notserializable atfirstJSONexport; builtinbool fix andactualrerun, nottreatedaspaper/physicsfailure",
+  "new_readiness_boundary": "mappingA526 isupward in sameH, formalBnotradiativebranch",
+  "review": "all new claims needs_review:true, no promotion"
+}
