@@ -308,7 +308,7 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MU07-D21-R130-1 | 在31/2-至39/2-五个自旋态，两带跃迁四极矩比值Qt(B)/Qt(A)均值严格为0.9356±0.0102（相对散度仅1.09%），内禀形变差异严格被限在6.4%±1.0%之内，排除未混合Qt相差2倍的形状共存假说；在39/2-处两带B(E2)分别骤降2.46倍与2.57倍，以1.043的严格对称步调同频失活并维持Qt比值0.920，排他性反驳了非相关单粒子构型偶然带交叉解释。 | quadrupole-homomorphism-and-lockstep-quenching | derived-from-Table-I | PRL 99, 172501 Table I | true |
+| MU07-D21-R130-1 | **superseded at checkpoint102**：旧Qt误差、排他形状/交叉、严格反相、隧穿阈值或自设Cov数字不保留为实验认证；见MU07-D22-R102-1至3。 | task-correction | rejected-and-replaced | printed172501-1–4;checkpoint102 | true |
 
 计算脚本见system/scripts/day21_checkpoint130_quadrupole_homomorphism_audit.py，输出quadrupole-homomorphism-scope-130.json。
 
@@ -319,7 +319,7 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MU07-D21-R131-1 | 在31/2-至39/2-四个差分步长中，两带带内B(M1)一阶差分符号序列完全相同（-, +, -, +），平均强度比B(M1)_B/B(M1)_A=0.971±0.071；跨带差分符号呈现（+, -, +），与带内构成100%严格反相交错，Band A带内与跨带差分线性相关系数达r=-0.998，排他性印证了手征势垒进动的经典转动与横向声子互补跃迁机制。 | m1-staggering-antiphase-rule | derived-from-Table-I-and-Fig3 | PRL 99, 172501 Table I and Fig. 3 | true |
+| MU07-D21-R131-1 | **superseded at checkpoint102**：旧Qt误差、排他形状/交叉、严格反相、隧穿阈值或自设Cov数字不保留为实验认证；见MU07-D22-R102-1至3。 | task-correction | rejected-and-replaced | printed172501-1–4;checkpoint102 | true |
 
 计算脚本见system/scripts/day21_checkpoint131_m1_staggering_antiphase_audit.py，输出m1-staggering-antiphase-scope-131.json。
 ## Day21 checkpoint135：寿命比由振动不对称(约2.0)向隧穿对称(约1.09)演化审计
@@ -328,7 +328,7 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MU07-D21-R135-1 | 31/2-至37/2-低自旋区寿命比tau_B/tau_A均值为2.074±0.15，反映1声子手征振动态与0声子真空的相空间衰变动力学不对称；而在39/2-处寿命比突变收敛至1.091±0.19（降幅1.90倍），直接对应手征双阱势垒形成后宇称隧穿双重态(|L>±|R>)/sqrt(2)镜像对称衰变宽度的恢复，彻底解除了“低自旋寿命差2倍而高自旋突变相等”的表面佯谬。 | lifetime-convergence-and-tunneling-symmetry | derived-from-Table-I | PRL 99, 172501 Table I | true |
+| MU07-D21-R135-1 | **superseded at checkpoint102**：旧Qt误差、排他形状/交叉、严格反相、隧穿阈值或自设Cov数字不保留为实验认证；见MU07-D22-R102-1至3。 | task-correction | rejected-and-replaced | printed172501-1–4;checkpoint102 | true |
 
 计算脚本见system/scripts/day21_checkpoint135_lifetime_convergence_chiral_transition_audit.py，输出lifetime-convergence-scope-135.json。
 ## Day21 checkpoint141：同母态寿命公因子协方差相消定理审计
@@ -337,6 +337,16 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| MU07-D21-R141-1 | 在同一能级派生的B(M1)与B(E2)中，共同寿命tau及其约10%的SRIM阻止本领系统误差产生r=+0.856的强正相关协方差；在比值B(M1)/B(E2)中tau严格代数相消，比值真实相对不确定度（5.87%）较无相关独立正交传播假想误差（15.44%）尖锐2.63倍，确立了B比测试模型优于绝对B值但严禁独立误差四则传播的证据门法则。 | shared-denominator-covariance-cancellation | derived-from-Table-I-and-rate-equations | PRL 99, 172501 Table I | true |
+| MU07-D21-R141-1 | **superseded at checkpoint102**：旧Qt误差、排他形状/交叉、严格反相、隧穿阈值或自设Cov数字不保留为实验认证；见MU07-D22-R102-1至3。 | task-correction | rejected-and-replaced | printed172501-1–4;checkpoint102 | true |
 
 计算脚本见system/scripts/day21_checkpoint141_shared_denominator_covariance_audit.py，输出shared-denominator-covariance-scope-141.json。
+
+## Day22 checkpoint102：继承数字、手征与TiP对象边界
+
+本轮四页正文与TableI/Figs2–4实际回读，视觉核p3三图；原source及Day21课程学分/评分不因此改动，新增仅Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D22-R102-1 | TableI五配对spin的sqrt[B(E2)B/B(E2)A]均值.935616、跨spin总体标准差.010156，解释了旧.9356±.0102的数值来源；后者不是由各点误差/Cov传播的Qt置信区间。sqrt比只有共同E2几何下才作Qt代理，不能独立限内禀形变差到1%。37/2→39/2的E2中央降幅A .32/.13=2.46154、B .29/.11=2.63636，商1.07102，不是旧2.57/1.043。作者称误差内强度相近支持手征，而非排他排除一切形状共存/带交叉。 | literal-table-and-statistic-identity | direct-original-and-task-arithmetic | 172501-2TableI;172501-4tilt/anharmonicitydiscussion | true |
+| MU07-D22-R102-2 | M1在Fig2，E2在Fig3，不能互错。作者报告带内与带间M1交错反相；有限图点的差分符号/相关r不是原文新报的全spin反相检验或机制唯一性。本文第1页明确核chirality由time reversal互换左右手、space inversion不变；两带同宇称，不是宇称双重态。RPA临界spin比实测最近点高约1ℏ且过渡处方法失效，寿命比趋近1不能单独标定静态手征硬阈值。 | observable-phase-and-symmetry-boundary | direct-original | 172501-1chiralitydefinition;172501-2strengthparagraph;172501-3Figs2/3;172501-4criticaldiscussion | true |
+| MU07-D22-R102-3 | 同一母态派生B若有共同1/τ因子，其比值代数可消τ；但原文不给完整branch/energy/δ/Cov，不能据此指定ρ=.856或统一5.87%比值误差。该实验175MeV thick-targetGammasphere测的是三准粒子chiralpair；Lv2021的152MeV thin-targetJUROGAM研究低spinD1/TiP1/TiP2单νh11/2家族，是不同带/组态和采集，不能用同核名称互为模式否证。 | covariance-and-band-family-identity | direct-original-and-cross-source-boundary | 172501-1setup/configuration;172501-2TableI;LV21printed044308-4setup/044308-11Summary | true |

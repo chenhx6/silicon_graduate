@@ -1,0 +1,316 @@
+{
+  "scope": "Metadata/access discovery only; no primary numerical lifetime inference",
+  "existing_raw_identity": "NPA695-Jensen-2001-3.pdf is 165Tm, not a new download",
+  "schmitz_1993_primary_fulltext_obtained": false,
+  "records": [
+    {
+      "filename": "schmitz-discovery-092.json",
+      "content": [
+        {
+          "query": "Schmitz Nucl Phys A 539 112 1992 Lu",
+          "http": 200,
+          "results": [
+            {
+              "title": [
+                "High-spin states in 163Lu"
+              ],
+              "doi": "10.1016/0375-9474(92)90238-f",
+              "year": {
+                "date-parts": [
+                  [
+                    1992,
+                    3
+                  ]
+                ]
+              },
+              "author": "Schmitz"
+            },
+            {
+              "title": [
+                "Gravitation und Relativitätstheorie"
+              ],
+              "doi": "10.1002/phbl.19920480711",
+              "year": {
+                "date-parts": [
+                  [
+                    1992,
+                    7
+                  ]
+                ]
+              },
+              "author": "Schäfer"
+            },
+            {
+              "title": [
+                "Reduced Instruction Set Computer"
+              ],
+              "doi": "10.1007/978-3-662-22465-6_5",
+              "year": {
+                "date-parts": [
+                  [
+                    1992
+                  ]
+                ]
+              },
+              "author": "Schiffmann"
+            }
+          ]
+        },
+        {
+          "query": "Schmitz Physics Letters B 303 230 1993 Lu",
+          "error": "Expecting value: line 1 column 1 (char 0)"
+        }
+      ]
+    },
+    {
+      "filename": "schmitz-discovery-retry-092.json",
+      "content": {
+        "params": {
+          "query.bibliographic": "Schmitz Physics Letters B 303 230 1993",
+          "filter": "from-pub-date:1993-01-01,until-pub-date:1993-12-31",
+          "rows": 3
+        },
+        "http": 200,
+        "results": [
+          {
+            "title": [
+              "Transition quadrupole moments of a large-deformation intruder band in 163Lu"
+            ],
+            "DOI": "10.1016/0370-2693(93)91425-m",
+            "volume": "303",
+            "page": "230-235",
+            "journal": [
+              "Physics Letters B"
+            ]
+          },
+          {
+            "title": [
+              "Cumulative author index to volumes 291–303"
+            ],
+            "DOI": "10.1016/0370-2693(93)91451-r",
+            "volume": "303",
+            "page": "400-437",
+            "journal": [
+              "Physics Letters B"
+            ]
+          },
+          {
+            "title": [
+              "Editorial Board"
+            ],
+            "DOI": "10.1016/0370-2693(93)90032-d",
+            "volume": "303",
+            "page": "v",
+            "journal": [
+              "Physics Letters B"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "filename": "lifetime-discovery-092.json",
+      "content": [
+        {
+          "label": "schmitz_openalex",
+          "url": "https://api.openalex.org/works/https://doi.org/10.1016/0370-2693(93)91425-m",
+          "params": null,
+          "http": 200,
+          "data": {
+            "id": "https://openalex.org/W1985871305",
+            "doi": "https://doi.org/10.1016/0370-2693(93)91425-m",
+            "title": "Transition quadrupole moments of a large-deformation intruder band in 163Lu",
+            "open_access": {
+              "is_oa": false,
+              "oa_status": "closed",
+              "oa_url": null,
+              "any_repository_has_fulltext": false
+            },
+            "best_oa_location": null,
+            "locations": [
+              {
+                "id": "doi:10.1016/0370-2693(93)91425-m",
+                "doi": "https://doi.org/10.1016/0370-2693(93)91425-m",
+                "is_oa": false,
+                "landing_page_url": "https://doi.org/10.1016/0370-2693(93)91425-m",
+                "pdf_url": null,
+                "source": {
+                  "id": "https://openalex.org/S173952182",
+                  "display_name": "Physics Letters B",
+                  "issn_l": "0370-2693",
+                  "issn": [
+                    "0370-2693",
+                    "1873-2445"
+                  ],
+                  "is_oa": false,
+                  "is_in_doaj": true,
+                  "is_core": true,
+                  "listed_in": [
+                    "anvur-scientific",
+                    "cwts-core",
+                    "doaj",
+                    "dongbi-b",
+                    "jufo-3",
+                    "ki-jl-1",
+                    "norway-2",
+                    "poland-140",
+                    "russia-white-list-1"
+                  ],
+                  "host_organization": "https://openalex.org/P4310320990",
+                  "host_organization_name": "Elsevier BV",
+                  "host_organization_lineage": [
+                    "https://openalex.org/P4310320990"
+                  ],
+                  "host_organization_lineage_names": [
+                    "Elsevier BV"
+                  ],
+                  "type": "journal"
+                },
+                "license": null,
+                "license_id": null,
+                "version": "publishedVersion",
+                "is_accepted": true,
+                "is_published": true,
+                "raw_source_name": "Physics Letters B",
+                "raw_type": "journal-article"
+              }
+            ]
+          }
+        },
+        {
+          "label": "wobbling_lifetimes_crossref",
+          "url": "https://api.crossref.org/works",
+          "params": {
+            "query.bibliographic": "163Lu wobbling lifetimes transition quadrupole",
+            "rows": 5
+          },
+          "http": 200,
+          "data": [
+            {
+              "title": [
+                "Quadrupole Moments And Gamma Deformation Of Wobbling Excitations In 163Ln"
+              ],
+              "DOI": "10.1063/1.1905284",
+              "year": {
+                "date-parts": [
+                  [
+                    2005
+                  ]
+                ]
+              },
+              "link": null
+            },
+            {
+              "title": [
+                "Transition quadrupole moments of a large-deformation intruder band in 163Lu"
+              ],
+              "DOI": "10.1016/0370-2693(93)91425-m",
+              "year": {
+                "date-parts": [
+                  [
+                    1993,
+                    4
+                  ]
+                ]
+              },
+              "link": [
+                {
+                  "URL": "https://api.elsevier.com/content/article/PII:037026939391425M?httpAccept=text/xml",
+                  "content-type": "text/xml",
+                  "content-version": "vor",
+                  "intended-application": "text-mining"
+                },
+                {
+                  "URL": "https://api.elsevier.com/content/article/PII:037026939391425M?httpAccept=text/plain",
+                  "content-type": "text/plain",
+                  "content-version": "vor",
+                  "intended-application": "text-mining"
+                }
+              ]
+            },
+            {
+              "title": [
+                "Branching Ratios, Radiative Lifetimes, and Transition Dipole Moments for YbOH"
+              ],
+              "DOI": "10.1021/acs.jpca.0c00850.s001",
+              "year": null,
+              "link": null
+            },
+            {
+              "title": [
+                "g-factor and static quadrupole moment for the wobbling mode in 133La"
+              ],
+              "DOI": "10.1016/j.physletb.2020.135596",
+              "year": {
+                "date-parts": [
+                  [
+                    2020,
+                    8
+                  ]
+                ]
+              },
+              "link": [
+                {
+                  "URL": "https://api.elsevier.com/content/article/PII:S0370269320304007?httpAccept=text/xml",
+                  "content-type": "text/xml",
+                  "content-version": "vor",
+                  "intended-application": "text-mining"
+                },
+                {
+                  "URL": "https://api.elsevier.com/content/article/PII:S0370269320304007?httpAccept=text/plain",
+                  "content-type": "text/plain",
+                  "content-version": "vor",
+                  "intended-application": "text-mining"
+                }
+              ]
+            },
+            {
+              "title": [
+                "Experimental search for non-chiral to chiral configuration transition in 126,128Cs isotopes"
+              ],
+              "DOI": "10.1201/9781032691633-7",
+              "year": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    4
+                  ]
+                ]
+              },
+              "link": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "f14-ref25-discovery-092.json",
+      "content": {
+        "query": {
+          "query.bibliographic": "H J Jensen Nucl Phys A 695 3 2001",
+          "rows": 2
+        },
+        "http": 200,
+        "results": [
+          {
+            "title": [
+              "Suppression of quarkonium production in heavy-ion collisions at RHIC and LHC"
+            ],
+            "doi": "10.1088/0954-3899/27/3/356",
+            "volume": "27",
+            "page": "695-701"
+          },
+          {
+            "title": [
+              "Comprehensive calculations of three-body breakup cross sections"
+            ],
+            "doi": "10.1016/s0375-9474(01)01099-5",
+            "volume": "695",
+            "page": "109-142"
+          }
+        ]
+      }
+    }
+  ]
+}

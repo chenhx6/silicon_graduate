@@ -640,3 +640,50 @@ SeGA核reference的currentcompanion见[[nndc-2023-cm245-cf249-polarization-refer
 N245-16/17、MI07-D17-17的sameparentpureE1必要a2关系为−16/11；原summarycentral有小残差，但actualΣ/共同门与接受未核，独立误差下约1.73σ不能当实验reject。[[polarimetry-shared-calibration-count-design]]“Cm245同母态：先检验共同P标尺的必要关系”保存exactrank与marginalbox边界，不据其重标Q或给混合号。
 
 MI07-D17-19/20的最后选择检查区分inclusive未观测α与strictantiα。matchedresponse可给小a偏置量级，headlinecounts本身则不能认证该匹配；actualsorter未取不重标Q。见[[polarimetry-shared-calibration-count-design]]“SeGA singles：未观测α与严格反α不是同一选择”，保commoncalibration/小类接受/normalizer边界。
+
+## Day22 checkpoint111：同一计数预算先区分样本与校准
+
+[[miller-2007-sega-polarization]] MI07-D22-R111-1/2以实际原式限定a约定、photopeak与selectedcounts；一般不能把Npeak、Ngatedsignal和Npolarimetry写成同一个N。该文3%/25%与5000全峰的roundedcontrol给σP≈.309，不是225.8keV/别的器件效率或新SeGA误差。
+
+令x=Nperp、y=Nparallel、D=x+ay，采用Miller的`A=(x−ay)/D,P=A/Q`。梯度为
+
+`g=(2ay/(QD²), −2ax/(QD²), −2xy/(QD²), −A/Q²)`，
+
+相对于`(x,y,a,Q)`。全部误差用`VarP=gᵀΣg`；若Q和a由同一reference得到，不能删去其相关项。仅在两raw计数独立Poisson、a/Q已知、无背景且bins独占时，`VarA=4a²xy(x+y)/D⁴`。当a=1时才回到`(1−A²)/N`；a不平衡改变相同N的有效信息。净峰拟合、sideband与事件重用需实际likelihood/Cov，不自动继承此式。
+
+已知Q、a未知的两bin目标样本只能定`μperp/μparallel=a(1+QP)/(1−QP)`；增加相同target计数不能补掉缺失的独立a约束。chosenwitness用Q=.2、P±.3、a=.9/1.14445配相应正yield给同(954,940)均值，五项解析/有限差分/Fisher/正性控制通过；它不声称actuala误差允许该区间，也不构成核模式歧义的实测证明。
+
+对当前225.8设计，应先由匹配null/reference/pilot确定a/Q、接受/效率、背景与lineyield，再固定检验目标和Θ。只有这些输入支持的计数/曝光区间才可给proposal预算；两模型均值分离、P正号与δ分支排除是不同目标。参见[[lv-2019-chirality-135nd-reexamined]] LV19-D22-R110-1–3；needs_review: true。
+
+## Day22 checkpoint113：效应分离度不等检验功效
+
+以下只用旧134未验证的A0=−.08770、A1=.02885作统计目标诊断，不认可其核/探测器预测。额外假设a=1已知、无背景、exclusiveselectedcounts且N固定，则Nperp∼Binomial(N,(1+A)/2)。对预先指定的单侧α=erfc(z/√2)/2，选择最小整数k使PrH0(Nperp≥k)≤α，再在H1下计算检验功效；z只指定假阳性率，不是检验功效或模型为真的概率。
+
+| 条件目标 | selectedN | z对应单侧阈值 | exact H1拒绝概率 |
+|---|---|---|---|
+| 旧A0与A1分离 | 663 | z3，Nperp≥342 | .48666 |
+| 旧A0与A1分离 | 1841 | z5，Nperp≥948 | .49188 |
+| A1相对零正号 | 663 | z3，Nperp≥371 | .01101 |
+| A1相对零正号 | 10803 | z3，Nperp≥5558 | .49886 |
+
+另选1500/23000counts可在各自指定目标下给约.934/.916功效；它们不是最小设计解，也不转换成真实小时。五项概率质量/最小整数阈值/功效控制通过。原P混合模型、a/Q/背景、selectedrate和机制参数域未验证，故本表不提供D6真实预算或chirality反证。
+
+该练习沿[[lv-2019-chirality-135nd-reexamined]] LV19-D22-R110-3区分旧均值分离与正号目标，并在[[miller-2007-sega-polarization]] MI07-D22-R111-2计数合同下说明功效定义。实际设计还需calibration/背景likelihood和指定Θ；若a/Q自由且无独立约束，增加targetN不能修复结构性不可识别。needs_review: true。
+
+## Day22 checkpoint115：独立matched-null四计数的条件检验
+
+[[miller-2007-sega-polarization]] MI07-D22-R115-1/2为当前225.8方案提供统计组成部分，所有数值是任务控制，不是该线实测或proposal预算。假设四rawcells独立Poisson、events独占、无背景、calibration已知physicalP0，并且energy/gates/acceptance/arrayweights使两sample共享有效a。令target(x_t,y_t)、null(x_c,y_c)，则
+
+`odds=(x_t/y_t)/(x_c/y_c)`，`Ahat=tanh[log(odds)/2]`，`Phat=Ahat/Q`。
+
+在行/列margin条件下，`X_t | margins ~ Hypergeom(Ntotal,Kperp,Ntarget)`；fullPoisson因子中的a与未知yield尺度消去。非零A的conditionaldistribution另乘`[(1+A)/(1−A)]^x`再归一。无需把a当精确已知常数，但null校准的计数不确定性已包含于四格联合对象，不等于“无校准”。绝对P仍需Q，sign解释须已知Q符号。
+
+局部Poisson方差为`[(1−A²)/(2Q)]² (1/x_t+1/y_t+1/x_c+1/y_c)`，与完整四参数Fisher逆矩阵吻合；有限样本不宣称无偏或新CI。chosen整数table(954,940;900,1000)、Q=.2给P=.3、σlocal≈.16188、单侧p≈.03463；四倍chosen表p≈.00011565，不称检验功效或真实曝光。六项条件概率/直接Poisson/Fisher/失配控制通过。
+
+若target有效a与null不同，P0也可精确给同四均值；因此conditional统计消nuisance不验证物理shareda。净峰减背景、reusedevents、非独立reference、energy插值/γ角分布造成权重不同、或未验证的“无偏振”制备，均需实际jointlikelihood/response，不能直接套表。尤其不把MI07实际single/alpha选样视为本任务独立rows已验证。更少的统计假设不替代核模型的phase/alignment/Θ；P正号或小p值不单独裁决chirality/wobbling。needs_review: true。
+
+## Day22 checkpoint118：检验方向与区间尾部一致
+
+[[miller-2007-sega-polarization]] MI07-D22-R118-1延续115的相同四计数条件模型。对给定margins，以alternative odds加权hypergeometric，反演包含观测x的两尾：下限满足Prω(X≥x)=.025，上限满足Prω(X≤x)=.025；边界表保留0/∞ odds极限。chosen表的central95 P区间为[−.023264,.620768]，单侧95 lower=.027894。前者含零而单侧p=.034634，不构成冲突；单侧和中央双侧的α分配不同。
+
+这里的cross-product odds是unconditional四Poisson模型的估计，不能直接称conditional MLE；exact interval来自条件分布的尾部反演。五项尾值/极端表/小margin精确枚举检查通过，只覆盖所声明模型。真实Q、shared a、null制备、背景及事件独立性不由区间反演验证；不得把chosen控制区间作为225.8keV、SeGA或核模型的实验置信区间。needs_review: true。

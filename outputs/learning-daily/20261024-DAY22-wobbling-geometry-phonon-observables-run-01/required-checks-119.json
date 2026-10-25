@@ -1,0 +1,98 @@
+{
+  "observed_at": "2026-10-25T05:53:01.581262+00:00",
+  "scope": "Fresh structural/lint/diff validation after117–119 and project summaries; scoped numerical receipts; not whole-library scientific certification. Boundary passed116 with no directory/QMD-contract changes since.",
+  "checks": {
+    "writeback": {
+      "command": [
+        "python3",
+        "system/scripts/validate_writeback_items.py",
+        "--report",
+        "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables.md"
+      ],
+      "exit_code": 0,
+      "result": {
+        "valid": true,
+        "items": 107,
+        "status": "updated",
+        "scope": "structure, atomic references and changed-page presence only; not source truth or experimental CI",
+        "errors": []
+      }
+    },
+    "lint": {
+      "command": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error",
+        "--format",
+        "json",
+        "--output",
+        "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/lint-119.json"
+      ],
+      "exit_code": 0,
+      "counts": {
+        "warning": 220,
+        "info": 4401
+      },
+      "governance": {
+        "page_unreviewed": 636,
+        "source_unreviewed": 324,
+        "claims_total": 5110,
+        "claim_needs_review": 4401,
+        "claim_missing_locator": 0,
+        "claim_missing_kind": 0,
+        "source_missing_raw_file": 0,
+        "source_missing_citation_key": 182
+      },
+      "full_receipt": "lint-119.json",
+      "sha256": "51973eaa8423c37f27c7e715387345c34584a57ae1b4114b35ba0aeda846215b"
+    },
+    "diff": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "counts": {
+      "artifact": "matched-null-conditional-interval-118.json",
+      "controls": {
+        "conditional_null_independent_of_a_and_exposure_parameters": true,
+        "conditional_alt_equals_noncentral_hypergeometric_odds": true,
+        "four_count_local_variance_equals_full_Poisson_Fisher_inverse": true,
+        "calibrator_restores_full_rank_but_target_alone_does_not": true,
+        "increased_chosen_exposure_retains_estimate_and_reduces_pvalue": true,
+        "unmatched_a_zeroP_can_mimic_entire_four_count_means": true
+      },
+      "interval_controls": {
+        "inverted_central_tails_match_alpha_over_two": true,
+        "one_sided_lower_tail_matches_alpha": true,
+        "central95_contains_zero_but_one_sided95_lower_positive": true,
+        "small_margin_exact_enumeration_coverage_not_below95_at_chosen_parameters": true,
+        "boundary_tables_retain_infinite_odds_limits": true
+      },
+      "passed": true,
+      "scope": "saved actual scoped numerical controls; not source truth"
+    },
+    "orientation": {
+      "artifact": "three-vector-orientation-controls-119.json",
+      "controls": {
+        "coupled_states_normalized_and_good_jpn_I": true,
+        "signed_chi_Hermitian_and_zero_in_fixed_jpn_state": true,
+        "RMS_positive_and_not_Gram_proxy": true,
+        "chi_squared_exact_symmetrized_pair_identity": true,
+        "independent_Cartesian_triple_matches_commutator": true,
+        "stretched_Gram_matches_independent_analytic_formula": true,
+        "stretched_state_zero_signed_RMS_but_nonzero_Gram_proxy": true,
+        "chosen_conjugate_packets_same_g_opposite_nonzero_signed_chi": true
+      },
+      "interval_controls": {},
+      "passed": true,
+      "scope": "saved actual scoped numerical controls; not source truth"
+    }
+  },
+  "status": "passed"
+}

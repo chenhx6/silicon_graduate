@@ -116,3 +116,12 @@ Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | ZC91-D21-1 | 依据推断阶梯审计，准 gamma 带交错指标 S(4) 构成分水岭检验：(1) Davydov 刚性三轴极限（gamma=30°）导出 S(4) = +1.67（成对序列 2+, (3+,4+), (5+,6+)），Wilets-Jean / O(6) gamma-软势极限导出 S(4) = -2.00（成对序列 (2+,3+), (4+,5+)）；(2) A≈130 区域三轴候选核（130Ba S4=-0.941，128Xe S4=-0.647，76Ge S4=-1.240）普遍呈现压倒性的负交错，与刚性三轴预测符号严格相反；(3) 结合四阶不变量方差 sigma^2(cos 3gamma) ~ 0.33，排他性证实这些原子核属于动态 gamma-软涨落核，彻底排除静态刚性三轴主张；(4) 确立“严禁仅凭低能态能量拟合断言刚性三轴”的核心证据门准则。 | source-result-and-criterion | derived-and-boundary | pp.1-4, Eqs.2-5; gamma-staggering-s4-audit-020.json | true |
+
+
+## Day22 checkpoint091 直接原件纠错
+
+本次定向读本地6页PDF的pp.267–268定义/限制；未核旧086表内八核能级，旧数值不可称NuDat实测表。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZC91-D22-R091-1 | S(4,3,2)在Wilets–Jean和γ=30° Davydov理想极限为−2和+1.67；但很弱γ依赖已会使S迅速变化，接近零的值不意味着势面处于中间刚度。此低能偶偶核判据不提供奇A高自旋wobbling可行性的正负号充要门。 | model-limit-and-inference-boundary | direct-original | printed pp.267–268, Eq.(2), Fig.2 and paragraph beginning “pendence on the potential” | true |

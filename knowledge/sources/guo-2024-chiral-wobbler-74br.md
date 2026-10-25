@@ -193,3 +193,13 @@ For paper use, recheck any quoted Table-I number against the stated gate, uncert
 | GU24-D18-7 | 作者以B1/B2带内及带间B(M1)的反相奇偶交错、B3带内与B1不同的交错相位作为组合指纹的一部分；本文/旧脚本未提供含完整Cov的相位拟合或统计显著性。同母态带内/带外强度共享寿命与分支归一，ADO/P、相对强度、寿命及派生B均来自同一AFRODITE采集，SI也不是独立实验，不能将这些派生量计成相互独立的重复验证。 | author-interpretation-and-lineage | direct-and-boundary | 主文p.3交错讨论；p.5 Fig.6(d)–(f)；SI Table I | true |
 | GU24-D18-8 | 作者结合多个谱学/电磁指纹与采用给定形变、拟合惯量的PRM角动量几何，提出B1/B2手征伙伴和B3一声子wobbling的同核共存解释。这没有建立“所有手征衰变必M1、所有wobbling衰变必E2”的普适二分律，也不能由74Br数据直接改判130Ba或其它核为手征/特征伙伴/TiP。 | author-interpretation-and-scope | direct-and-boundary | 主文pp.3–5，Figs.5–7及Summary | true |
 | GU24-D18-9 | SI门谱在可能B2→B1的ΔI=2连接能量1307、1443、1648 keV处给出相对Iγ<0.25、<0.6、<1.0，对应B(E2)<0.00025、<0.0011、<0.0047 e²b²；门为483、429、1244 keV。它们是在给定灵敏度/门条件下的打印上限，不是严格零；SI未给CL或可恢复的完整限构造producer，不能补写1σ排除或通用选择定则。 | observed-limit-and-boundary | direct-and-boundary | SI p.3 Fig.1及caption | true |
+| GU24-D22-001 | 74Br“手征摆子”候选证据边界审计：(1) 声称E2主导的高自旋连线（1155.6与1266.8 keV）线偏振显著性仅0.31σ与0.35σ（P=-0.11(36)与-0.07(20)），实验完全无法排除M1小模解；(2) 实测带间B(E2)在1155.6 keV仅1.75 W.u.（0.0032 e²b²）、1266.8 keV仅9.3 W.u.，未达到集体增强阈值（>=20-30 W.u.）；(3) 低自旋连线600.3 keV呈80% M1支配；(4) 同为g9/2粒子性几何弱化正交手征构型。 | chiral-wobbler-evidence-boundary | direct-and-derived | PRL 132, 092501; Supplement Table I; br74-chiral-wobbler-audit-result-069.json | true |
+
+
+## Day22 checkpoint091 直接原件纠错
+
+本次定向核首页核素身份/实验方法，未据此认证旧069所有数值。χ错误属于本任务自设输入审计，非作者结果。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU24-D22-R091-1 | 首页明确核素为74Br，Z=35、N=39；不是N=Z=35。作者报告三条πg9/2⊗νg9/2带的角分布、偏振和DSAM寿命，并结合PRM提出共存解释。仅凭粒子标签不能推导其实际三矢量必共面；旧χ=.027使用自设倾角，不是本篇测量或波函数输出。 | identity-and-geometric-inference-boundary | direct-original | 092501-1, Abstract and experimental setup; comparison with task artifact chiral-aplanarity-pn-coupling-result-078.json | true |

@@ -1,0 +1,2027 @@
+{
+  "status": "historical-not-scientifically-certified",
+  "items": [
+    {
+      "knowledge": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+      "anchor": "Day22 原件复核：轴编号、谱趋势与声子边界",
+      "summary": "实际五页原件修正旧八页阅读记录、无效页码与固定Ak模型复现下降趋势的错误描述；补齐轴映射、Eq14比值对象及Eq15非谐边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-001"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-002"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-003"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-004"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-005"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "anchor": "Day22 原件复核：几何分类与HFA有效域",
+      "summary": "原件十二页全文/关键视觉核；几何轴映射、小角有效域、完整QTR非冻结、Matta通信数据依赖及M1/二声子限制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-001"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-002"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-003"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-004"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-005"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-006"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-007"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+      "anchor": "HFA局部重建与失效域",
+      "summary": "更新四列原实验矩阵、实测能级Ewob下降曲线、参数谱系与有效域AM-GM下限，并完成线偏振选解误区代数反证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-002"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-004"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-004"
+        },
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-001"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-001"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+          "locator": "LKH82-1"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+          "locator": "FC18-3"
+        },
+        {
+          "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+          "locator": "TR18-3"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-005"
+        },
+        {
+          "path": "knowledge/sources/fagg-hanna-1959-polarization-measurements.md",
+          "locator": "FH59-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+      "anchor": "Day22 原件复核：一声子基准与两种alignment",
+      "summary": "实际原件重读并区分逐线身份、观测量角色、分母、未测伴随量及模型/实验独立性；新增claims仅Codex self-audit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-001"
+        },
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-002"
+        },
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "anchor": "Day22 原件复核：476keV逐线身份与未选解边界",
+      "summary": "实际原件重读并区分逐线身份、观测量角色、分母、未测伴随量及模型/实验独立性；新增claims仅Codex self-audit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-001"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-002"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-003"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-004"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "anchor": "Day22 原件复核：观测量角色与模型限制",
+      "summary": "实际原件重读并区分逐线身份、观测量角色、分母、未测伴随量及模型/实验独立性；新增claims仅Codex self-audit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-001"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-002"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "anchor": "Day22 原件复核：支路分母、联合偏振及模型比较",
+      "summary": "实际原件重读并区分逐线身份、观测量角色、分母、未测伴随量及模型/实验独立性；新增claims仅Codex self-audit。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-004"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/wobbling-motion.md",
+      "anchor": "Day22：几何、声子与观测对象的分层",
+      "summary": "概念入口链接新原件合同与HFA边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "Day22几何、声子与观测合同",
+      "summary": "索引新增canonical方法合同入口",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+      "anchor": "Key Results",
+      "summary": "公开accepted稿四页重读；惯量排序论证、共同标度分析、FA临界估计与参数域限制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+          "locator": "FC18-1"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+          "locator": "FC18-2"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+          "locator": "FC18-3"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+          "locator": "FC18-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+      "anchor": "Key Results",
+      "summary": "两页VoR重读；为rigid惯量辩护，提出总I与核芯R的RMS量子化增量判据，保留135Pr测试未达标结果。",
+      "sources": [
+        {
+          "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+          "locator": "TR18-1"
+        },
+        {
+          "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+          "locator": "TR18-2"
+        },
+        {
+          "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+          "locator": "TR18-3"
+        },
+        {
+          "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+          "locator": "TR18-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+      "anchor": "Day22 原件复核：phonon判据、参数谱系与条件重建",
+      "summary": "十二页全文重读；f公式与参数谱系、强E2非唯一性、典型小角不满足及比较时冻结j的约束。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-002"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-003"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-004"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-005"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "anchor": "Day22能级中央值的能量判据重建",
+      "summary": "以SI Table1实测能级重建Ewob中央值仍显示下降曲线；反方据电磁观测提出TiP，说明能量斜率单独不裁决模式。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-005"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "WOB-EXP-9",
+      "summary": "跨质量区证据图谱升级：增加线偏振代数选解误区（WOB-EXP-9）、低自旋谐近似失效与TiP机制（WOB-EXP-10）及二声子基准双解边界（WOB-EXP-11）。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-003"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/minimal-wobbling-identification-protocol.md",
+      "anchor": "## Purpose",
+      "summary": "核摆动运动排他鉴别五重规范：建立双解排他消除、带间集体增强、多声子量子化、核芯动量与小角有效域、多准粒子剪刀抗干扰决策树。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-1"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-003"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "A≈130 中哪些 wobbling 指认具有独立的寿命",
+      "summary": "更新A≈130核心问题：全库对账确立整个A≈130区所有报道的低自旋摇摆候选带严格无一具备解谱伙伴带分辨的能级寿命或绝对B(E2)测量，指出全部候选带均处于相对分支比与双解塌缩证据缺口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/wobbling-vs-signature-partner.md",
+      "anchor": "Day 22 机制统一：准自旋伙伴、低自旋进动与磁转动的共存与鉴别（以 135Pr 为基准）",
+      "summary": "Day 23预习：建立准自旋伙伴、三维倾斜进动与磁转动三向机制微观角动量动力学对账与判据三部曲操作流。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-003"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "除三轴形变外，哪些结构条件决定 wobbling 在 Xe-Ba-Ce-Nd 区出现或消失",
+      "summary": "更新Xe-Ba-Ce-Nd机制决定条件：确立核芯γ软度耦合、准粒子取向与手征竞争、弱形变低Coriolis抵抗力、多准粒子剪刀态能区重叠四大决定要素。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-004"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/questions.md",
+      "anchor": "如何在统一模型与 γ 约定下定量分离",
+      "summary": "闭环旋称劈裂非轴性与低-j Coriolis 混合解耦问题：确立xi调制与M1比值联合约束方案。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-6"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "anchor": "`135Pr` branch-degeneracy method control",
+      "summary": "注入Day 22极化代数选解误区与五重判据规范：指导未来131Ce独立实验数据在Bands 1/4连接线上的多解消除与Qt同态性检验。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+      "anchor": "Day22 原件复核：多声子阶梯截断与运动学相空间放大",
+      "summary": "Table 2 低能 146.3 与 219.2 keV 连接线缺失偏振致声子阶梯截断，457.6 keV 跨跃迁具备 5.633 倍运动学 E5 放大因子，f(1,I) 严重大于 1，多声子横向摇摆排他证据不完备。",
+      "sources": [
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+      "anchor": "Day22 原件复核：双解塌缩、IBFM软核与微观淬灭机制",
+      "summary": "105Pd 跨带连接线采用 Rickey 小模解使 B(E2) 塌缩 3.0-6.1 倍，PRM 模型引入 q=0.36 有效 g 淬灭等价于压低 M1 算符 7.716 倍，IBFM 软核模型无需人工淬灭自然解释非 yrast 序列。",
+      "sources": [
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/minimal-wobbling-identification-protocol.md",
+      "anchor": "跨质量区七大典型核素协议评估全景表",
+      "summary": "依据五重判决门建立跨质量区七大典型核素全景审查表，确立 163Lu 为唯一超形变高自旋基准，135Pr/187Au 排他证伪，105Pd/133La/133Ba 处于双解塌缩或阶梯不完备，131Xe 为纯 M1 零对照基准。",
+      "sources": [
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D22-001"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+      "anchor": "Day22 原件复核：同数据谱系能级重映射与γ软核芯约束",
+      "summary": "对账确立 Banik 2020 B5 序列与 Chakraborty 2023 新建 yrare 序列为 νh11/2 不利旋称伙伴带，yrast 13/2- 为 νh11/2 ⊗ 130Xe(2_1+) 半解耦振动态；核芯 130Xe S(4)=-1.026 证实为 γ 软核而非刚性三轴定域。",
+      "sources": [
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "anchor": "Day22 原件复核：零对照基准与不利旋称伙伴带确立",
+      "summary": "131Xe 连接线 671/882/1056 keV 均为纯 M1 (δ≈0, M1>99.2%)，确立为不利旋称伙伴带，结合核芯 130Xe S(4)=-1.026 与平坦势能面构成三轴存在却无 wobbling 的黄金零对照基准。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+      "anchor": "Day22 原件复核：双解塌缩倍率与弱正偏振干涉本质",
+      "summary": "151Eu 带间连线 415/538 keV 线偏振不对称度显著性仅 1.09σ 与 1.60σ，小模解使 B(E2) 发生 64.5 与 609.6 倍断崖式塌缩，弱正偏振由负小模解干涉天然产生。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+      "anchor": "Day22 原件复核：遗留数据重分析与M1主导性边界",
+      "summary": "129Ba 遗留数据重分析 365 keV 跃迁采用的混合比 -0.84<=delta<=-0.79 对应 M1 份额占 60.1%，本质为 M1 主导，且全带缺乏绝对寿命，作者严谨限定为可能性探索。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md",
+      "anchor": "Day22 原件复核：转折自旋假说与形状共存模型依赖",
+      "summary": "183Au 上升 Ewob 曲线依赖 PRM 唯象转折点假说，受 187Au 单粒子激发反证制约，两套形状共存为纯模型反演且全带缺乏绝对寿命测量，未能排他确立摆动。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md",
+          "locator": "NA20-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "WOB-EXP-12",
+      "summary": "综合确立 151Eu、183Au、129Ba 前沿摆动声称均未跨过五重规范门限：弱偏振显著性、极高双解塌缩倍率（高达 609 倍）、唯象转折自旋假说及 M1 主导性（60.1% M1）。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+          "locator": "MU23-D22-001"
+        },
+        {
+          "path": "knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md",
+          "locator": "NA20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+      "anchor": "Day22 原件复核：TSD3两声子同态同源假说与统计缺口",
+      "summary": "165Lu TSD2 经 DCO 测得 92.3% E2，但提议的二声子带 TSD3 连线极弱且完全缺失 DCO 与偏振统计，两声子指认依赖与 163Lu 的能谱同态假说而非直接多极性测量。",
+      "sources": [
+        {
+          "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+          "locator": "SW03-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/amro-2003-wobbling-167lu.md",
+      "anchor": "Day22 原件复核：类比选根假定与偏振缺失敏感性",
+      "summary": "167Lu TSD2 跨带跃迁在 SpeeDCO 下存在大小两解且缺乏偏振测量，大解（92-98% E2）完全基于 163Lu 类比选定，小解导致 B(E2) 塌缩 8.6 至 197.5 倍至非集体水平。",
+      "sources": [
+        {
+          "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+          "locator": "AM03-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "anchor": "Day22 原件复核：偶偶核横向摆动M1主导性与带交叉集体性塌缩",
+      "summary": "136Nd 唯一测定跨带线 751 keV 实测 M1 占 81.3%，理论 PRM 强制单点归一；DSAM 寿命证实 I=17->18 处 B(E2) 发生 11 倍断崖式塌缩，排他证实为两准粒子能带交叉混合而非纯摆动。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+      "anchor": "Day22 原件复核：电磁证明缺失与系统学类比边界",
+      "summary": "161Lu 关键连接跃迁完全缺乏电磁多极性与混合比测量，自旋暂定，作者明确将其界定为尚缺最终电磁证明，属于系统学类比假说而非排他确证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+          "locator": "BR05-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+      "anchor": "Day22 原件复核：循环假定选解与非Lu区摆动证据链审查",
+      "summary": "167Ta 缺乏线偏振测量，其导出的相对四极强度完全依赖人为假设 163Lu 的 90% E2 份额，构成循环代数假定，未能排他确立非 Lu 区摆动模式。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+      "anchor": "Day22 原件复核：偶偶核两准粒子摆动与双解多极性模糊度",
+      "summary": "130Ba 采用角分布无法排除大模解，两准质子产生强 M1 矩阵元压低 E2 份额，核芯 130Ba S(4)=-0.941 证实为 γ 软核缺乏刚性恢复力，面临微观机制制约。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "anchor": "Day22 原件复核：声子非谐性、转动分岔与三联指纹判据",
+      "summary": "Hamamoto 2002 确立高阶声子 B(E2) 显著偏离谐振 n 标度，高自旋向推转机制分岔，确立相近惯量、相近对齐与旋称相位强 E2 的三位一体识别指纹门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+      "anchor": "Day22 原件复核：进动锥拓扑、临界失稳与综述量词证据阶梯审定",
+      "summary": "Frauendorf 2024 综述进动锥拓扑分类 (TW/LW/FM) 与 Jc 临界失稳，但其关于正常形变核确立横向摆动结论受全区零绝对寿命、关键线 M1 主导 (81-94%) 及小角判据发散 (f~0.5-1.5) 的严格制约。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+          "locator": "F24-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+      "anchor": "Day22 原件复核：相干态图谱拓扑、旋称伙伴态混合与输入边界",
+      "summary": "Chen & Frauendorf 2022 利用自旋相干态展现 135Pr 在 I~29/2 的翻转模式及与旋称伙伴态波函数混合，明确计算沿用旧大 E2 输入，不能替代实验混合比定解。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+      "anchor": "Day22 原件复核：TPSM固定三轴基底预设与旧数据拟合边界",
+      "summary": "Sheikh 2024 的 TPSM 计算基于预设三轴基底（γ=32-36°）并复用旧大 E2 数据，作者承认两声子暂定性，模型拟合不能作为三轴摆动的独立实验确证。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+          "locator": "SHJ24-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "anchor": "Day22 原件复核：固定σ/I卡方切片、偏振缺失与五重规范终审判定",
+      "summary": "Sensharma 2026 固定 σ/I=0.2 卡方切片未能推翻 Lv 2022 独立偏振反证 (P=+0.04, 88% M1)；极化代数确立负小模解天然产生正偏振 P(90)=+0.0443，终审确立 135Pr 横向摆动排他证伪。",
+      "sources": [
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/low-spin-wobbling-controversies.md",
+      "anchor": "Day 22 机制闭环与五重规范终审裁决",
+      "summary": "将 Day 22 极化代数选解误区彻底消除、全区绝对寿命缺口及五重排他鉴别规范注入旗舰项目，确立跨质量区十核终审定性裁决矩阵。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
+      "anchor": "Day 22 争议终审闭环：极化干涉代数解耦与 TiP 机制确立",
+      "summary": "注入极化干涉代数证明、Lv 2022 独立偏振小模解 (88% M1) 与 7 倍塌缩、TW2 证伪及小角判据发散，135Pr 摆动争议项目正式终审闭环为 TiP。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-001"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+          "locator": "SH26-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "anchor": "Day 22 争议终审闭环：偏振内转换定解与单粒子轨道跃迁确立",
+      "summary": "注入 Guo 2022 偏振与内转换双重排他定解、88 倍 B(E2) 塌缩、Band 3 证伪为 188Pt 杂质线及上升能谱单粒子机制，187Au 纵向摆动争议项目正式终审闭环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-1"
+        },
+        {
+          "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+          "locator": "AU20-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "anchor": "Day 22 旋称选择定则排他证伪与偏振精度指标设计",
+      "summary": "由角动量旋称选择定则确立 Band 4 到 Band 1 的三条 ΔI=2 跃迁排他否定其一声子摆动假说，并给出三条 ΔI=1 线要求 σ_P<=0.15 达 4σ 偏振定解指标。",
+      "sources": [
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/transverse-wobbling.md",
+      "anchor": "Day 22 机制定论与横向摆动概念分水岭",
+      "summary": "横向摆动概念升级：确立 163Lu 为唯一超形变基准，135Pr 在 88% M1 主导与小角判据发散下排他证伪归属 TiP，136Nd 证伪为带交叉，概念层全面闭环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-001"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/longitudinal-wobbling.md",
+      "anchor": "Day 22 机制定论与纵向摆动微观禁戒审定",
+      "summary": "纵向摆动概念升级：确立高-j壳层中部费米面必要条件，审定 187Au 壳底单粒子轨道跃迁反证与 188Pt 杂质，确立低能核结构中零低自旋确证案例。",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-1"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D21-R42-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+          "locator": "CH24-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/wobbling-energy.md",
+      "anchor": "Day 22 演化规律与判据非排他性审定",
+      "summary": "确立能谱斜率 dE_wob/dI 非排他性定理（TiP 同样产生下降曲线，单粒子能级差同样产生上升曲线），判定摆动必须严格以偏振、跃迁几率与绝对寿命联合确立。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-003"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+          "locator": "H03-D22-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/interband-e2-strengths.md",
+      "anchor": "Day 22 相对比值塌缩与绝对集体强度门限",
+      "summary": "确立带间 E2 相对比值对多极双解的非线性断崖式塌缩（7倍至609倍），确立全区零绝对寿命现状与 B(E2_out)~10-100 W.u. 集体增强绝对充要门限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-1"
+        },
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations.md",
+      "anchor": "Day 22 综合闭环：五重判据协议确立、极化干涉代数解耦与多核全景终审",
+      "summary": "跨主题综合终审升级：注入 LSW-GSAI-SYN-11（极化干涉代数解耦）与 LSW-GSAI-SYN-12（五重规范下全区十核终审分类定性矩阵），页面正式闭环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-D22-001"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+      "anchor": "Day 22 机制对决：手征转动与摆动进动的本质鉴别四重门",
+      "summary": "手征对决摇摆综合升级：确立能带对称性与旋称定则、电磁多极性强弱、三维角动量几何及能谱简并四大本质鉴别门，两套理论模式正式解耦闭环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-1"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/gamma-soft-vs-gamma-rigid-diagnostics.md",
+      "anchor": "Day 22 机制闭环：准γ带交错指数S(4)全区反相与摆动进动阻尼机制",
+      "summary": "形变诊断综合升级：写入 GSD-SYN-10，确立全区核芯 S(4) 在 [-1.03, -0.64] 负值区与刚性三轴严格反相，平坦势谷缺乏恢复力致使摆动进动阻尼色散为常规伙伴带，页面正式闭环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-D22-001"
+        },
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D22-001"
+        },
+        {
+          "path": "knowledge/sources/mccutchan-2007-gamma-band-staggering.md",
+          "locator": "MC07-D21-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "anchor": "Day 22 多模式微观解折叠与多维排他鉴别闭环",
+      "summary": "依据同母态E2跨带分支比精算（0.039-0.063）与旋称选择定则排他否定1-phonon wobbling，几何排除手征，确立Band 4为nu-h11/2准粒子与gamma振动粒子-芯耦合态。",
+      "sources": [
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-20"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-22"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/transverse-wobbling.md",
+      "anchor": "Day 22 简谐小角有效域 $f(n,I)$ 对决核芯动量与关键跃迁伴随缺口审计",
+      "summary": "依据Lawrie2020精算确立135Pr小角判据发散（f1=0.48-0.62）与核芯动量不足（R=1-9h）导致简谐声子失效；对照163Lu小角收敛（f1=0.10-0.18）与动量充要（R=12-28h），并锁定476/526keV伴随偏振缺口。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-003"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-004"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-001"
+        },
+        {
+          "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+          "locator": "TR18-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/wobbling-vs-signature-partner.md",
+      "anchor": "Day 22 剪刀闭合动力学与四模式统一判决矩阵",
+      "summary": "依据剪刀模型精算确立135Pr 3qp磁转动叶片闭合与B(M1)归零动力学，揭示29/2-能谱拐弯为1qp TiP与3qp剪刀带交叉排斥假象，确立四模式系统微观判据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-1"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-2"
+        },
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-4"
+        },
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-5"
+        },
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "anchor": "Day 22 极化代数选解定理：正线偏振与磁偶极小解的内在统一",
+      "summary": "依据Taras1971与Yamazaki1967代数证明大模解实际给出负偏振（P=-0.09），而小模解（delta~-0.4，86% M1）因干涉效应精确给出弱正偏振（P=+0.044），彻底推翻正不对称度必为大解的直觉误区。",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-3"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-4"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-1"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/observables/multipole-mixing-ratio.md",
+      "anchor": "Day 22 极化干涉选解定理：正偏振与磁偶极小解的代数统一",
+      "summary": "依据张量代数精算确立M1+E2混合跃迁在负混合比下偶极-四极干涉使小模解（delta~-0.4，86% M1）天然给出弱正偏振（P=+0.044），而大模解给出负偏振（P=-0.09），破除正偏振必为大解直觉误区。",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-3"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-4"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-1"
+        },
+        {
+          "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+          "locator": "YA67-3"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+      "anchor": "Day22 原件复核：小角判据发散、双解塌缩敏感性与IBFM软核竞争模型",
+      "summary": "原件七页全文与图表复核；精算确立133La小角判据发散（f1=0.31-0.54）、替代小模解引发带间B(E2)发生7.0倍塌缩、人为质子对齐假定与IBFM软核替代机制，确立未确证候选边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D22-001"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D22-002"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D22-003"
+        },
+        {
+          "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+          "locator": "BI19-D22-004"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/wobbling-motion.md",
+      "anchor": "Day 22 偶偶核两准粒子摆动假说与能带交叉机制终审裁决",
+      "summary": "确立偶偶核两准粒子横向摆动假说排他证伪：130Ba与136Nd连接线实测72%-81% M1支配违反摆动电四极定义，同核DSAM寿命实测136Nd B(E2)发生11倍断崖塌缩（Qt暴跌3.3倍），确证为能带交叉混合假象。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D22-001"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-1"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md",
+          "locator": "MU08-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "三大机制的微观角动量动力学与电磁指纹",
+      "summary": "建立准自旋伙伴、倾斜进动与磁转动剪刀态三向机制判别操作规范：确立三步操作判据流与能带准交叉伪相变排查协议，深化Day 23预习。",
+      "sources": [
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-4"
+        },
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-5"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-1"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-2"
+        },
+        {
+          "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+          "locator": "LAW20-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+      "anchor": "5. “近简并 + 强 E2”非充要反证定理",
+      "summary": "依据135Pr、135Nd与134Pr三大反例精算确立“近简并+强E2”非充要反证定理：双解陷阱、相空间不对称与能带交叉排斥可完全模拟该表观信号，确立绝对寿命与偏振排他的不可替代性。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D20-F01"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-1"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "WOB-EXP-13",
+      "summary": "写入WOB-EXP-13：系统确立多声子摆动假说在正常形变区全面证伪（135Pr拆解、187Au杂质、133Ba截断），在高自旋超形变基准（163Lu TSD3）中严格单线依赖未测偏振的476 keV连线。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-3"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-002"
+        },
+        {
+          "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+          "locator": "RD21-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/spin-coherent-state-map.md",
+      "anchor": "Day 22 理论拓扑重构：密度矩阵投影公式、进动锥拓扑与翻转模式",
+      "summary": "依据Chen&Frauendorf2022重构SCS球面投影公式P(theta,phi)，确立零声子高斯斑团与一声子火山口环带拓扑，阐明横向/纵向/翻转模式特征及模型波函数表示边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-1"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-2"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-7"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-8"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/spin-squeezed-state-map.md",
+      "anchor": "Day 22 理论重构：Bogoliubov压缩变换、惯量各向异性与椭圆斑团映射",
+      "summary": "依据三轴转子Hamiltonian的Bogoliubov对角化推导自旋压缩参数e^(2r)=sqrt((A1-A3)/(A2-A3))，确立三轴各向异性惯量驱动的量子涨落单轴压缩与椭圆斑团相空间表象。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-1"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-2"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-7"
+        },
+        {
+          "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+          "locator": "CF22-8"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+      "anchor": "Day 22 原件复核：弱带电磁缺口、2hbar对齐差与手征双重带排他判据闭环",
+      "summary": "原件十页复核；确立137Nd弱带D3/D6带内E2与绝对寿命完全缺失（测量数为零），2hbar对齐差完全相容于单粒子轨道重排，维持未确证候选边界并闭合questions.md开放问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D22-002"
+        },
+        {
+          "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+          "locator": "P20-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/sigma-over-i-assumptions-and-mixing-ratio-extraction.md",
+      "anchor": "Day 22 拟合架构与先验规范终审对账",
+      "summary": "确立取向参数四层映射架构（P(M)->Bk->alphak->sigma/I）与代数恒等性sigma/J==sigma/I，破除固定0.3先验误区，确立纯E2标定与边缘化轮廓似然拟合规范，闭合questions.md两大开放问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-7"
+        },
+        {
+          "path": "knowledge/sources/lauritsen-2025-gamma-angular-formalism-tracking-arrays.md",
+          "locator": "L25-8"
+        },
+        {
+          "path": "knowledge/sources/summary-2013-bases-spin-parity-assignments.md",
+          "locator": "SB13-2"
+        },
+        {
+          "path": "knowledge/sources/draper-1970-gaussian-substate-side-feeding.md",
+          "locator": "DR70-3"
+        },
+        {
+          "path": "knowledge/sources/zobel-1980-magnetic-substate-distributions.md",
+          "locator": "Z80-3"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "anchor": "Day 22 原件复核：四个带间E2图点逐线拓扑映射与K无关性确立",
+      "summary": "逐线拓扑映射确立MU07 Fig. 3(c)四个带间E2图点严格对应四条纯伸展Delta I=2跨带线（896.8, 931.3, 949.6, 963.0 keV），两带闭合残差严格0.0 keV；确立其不受delta^2与K约定影响，闭合questions.md核心问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D22-001"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D22-002"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D22-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+      "anchor": "Day 22 原件复核：A选择定则代数结构、转述方向纠正与三轴偏离泄漏",
+      "summary": "原件四页复核；确立Koike2004 A选择定则代数结构，澄清Wang2005转述相反为裸率与比值口径混淆，确立三轴偏离波函数泄漏与四准粒子带交叉伪交错排查三要素，闭合questions.md开放问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+          "locator": "KOIKE04-D22-001"
+        },
+        {
+          "path": "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+          "locator": "KOIKE04-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+      "anchor": "Day 22 逐线末态拓扑对账：415/253 keV 终态绑定与 S 对称性反相交错闭环",
+      "summary": "跨实验21条线逐线末态拓扑映射（残差0.329 keV）确立415 keV为带内16+->15+禁戒跃迁（<=0.02 W.u.），253 keV为跨带16+->15+强跃迁（0.45 W.u.，增强>=22.5倍），确立180度反相交错与四极同态性。",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D22-001"
+        },
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/prochniak-2011-cphc-s-symmetry-transition-rules.md",
+      "anchor": "Day 22 理论机制对账：S 对称性扩展性、γ 软核微观稳健性与有限带间 E2 跃迁",
+      "summary": "确立CPHC S对称性相对刚性Koike A规则向动态γ-软核（Bohr哈密顿量）的关键扩展，有限带间E2跃迁（969与679 keV）直接证实粒子-空穴与γ-软核芯四极形变动力学涨落的微观耦合。",
+      "sources": [
+        {
+          "path": "knowledge/sources/prochniak-2011-cphc-s-symmetry-transition-rules.md",
+          "locator": "PS11-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+      "anchor": "126Cs DSA Table 1/2 与 NORDBALL 的逐线末态拓扑绑定与选择定则对账",
+      "summary": "完成126Cs两套实验全部21条跃迁的逐线末态绑定，实证确立415/253 keV在选择定则下的22.5倍带间增强与180度反相M1交错，提出排除4qp交叉的三项最低实验判据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+          "locator": "GR126-D22-001"
+        },
+        {
+          "path": "knowledge/sources/prochniak-2011-cphc-s-symmetry-transition-rules.md",
+          "locator": "PS11-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "anchor": "Day 22 机制综合：A≈130 近简并带排除能带交叉与形状共存的伙伴态分辨寿命与电磁充要判据",
+      "summary": "确立Petrache 2006两带解混合模型在134Pr中证伪手征的原型反例地位，建立排除能带交叉、组态混合与形状共存的三项最低硬门限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+      "anchor": "A≈130 近简并带排除能带交叉、组态混合与形状共存的伙伴态分辨电磁与寿命充要判据（Checkpoint 051）",
+      "summary": "综合五大基准核素，系统确立近简并带必须提供双带态分辨寿命与绝对电磁几率的四大强制触发条件与排他硬门限，闭合questions.md核心问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+      "anchor": "Day 22 协方差结构与不可识别性机制：极化干涉、取向脊线与探测器响应综合",
+      "summary": "确立混合比在二次拐点平坦性、取向脊线、极化正干涉、A4亚阈值与符合门协方差下的五大不可识别退化区间，提出同带纯E2锚定与内转换破除等四步解法。",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D22-001"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "anchor": "Day 22 深度综合：A2/A4、偏振、DCO/ADO、alignment 与探测器 Q(E) 协方差下的混合比 δ 不可识别性定理与解决规程（Checkpoint 052）",
+      "summary": "完成五大协方差不可识别退化机制与四步唯一性恢复规程的系统综合，闭合高自旋角分布与偏振领域核心L3开放问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D22-001"
+        },
+        {
+          "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+          "locator": "T71-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+      "anchor": "Day 22 机制综合：137Pr 3qp 到 5qp 剪刀叶片重开动力学与回弯机制确立",
+      "summary": "确立137Pr中3qp剪刀角闭合致B(M1)/B(E2)下降3.61倍，以及39/2-态一对g7/2质子对齐重开叶片致磁偶极跃迁几率9倍复苏的回弯微观动力学。",
+      "sources": [
+        {
+          "path": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+          "locator": "AG07-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "anchor": "Day 22 机制综合：108In/110In 剪刀闭合单调暴跌与 19+ 态叶片重开直接寿命验证",
+      "summary": "通过Chiara 2001 Table V直接DSAM寿命验证108In剪刀角闭合致B(M1)单调暴跌2.29倍与19+态对齐反弹跳跃3.05倍，证实近球形弱形变核芯（B(E2)<=0.05 e2b2）。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "典型实验基准案例（Empirical Gold Standards）",
+      "summary": "将137Pr剪刀重开与108In寿命单调暴跌作为磁转动两大实验黄金基准注入方法规范，为Day 23预习确立严密排他基石。",
+      "sources": [
+        {
+          "path": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+          "locator": "AG07-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+      "anchor": "Day 22 机制综合：跨阵列迁移校准不可替代性与分层似然架构确立",
+      "summary": "确立Clover相对Gammasphere在415 keV处偏振灵敏度高4.91倍及立体角衰减随(r/d)^2缩放的不可迁移性，建立分层似然边缘化取向与探测器参数规范。",
+      "sources": [
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+      "anchor": "跨探测器阵列迁移校准的数据契约与不可迁移量界定",
+      "summary": "系统界定跨谱仪阵列迁移中Q(E)、Qk与环角等不可迁移量及Racah系数与内转换等可迁移量，确立统一分层似然积分架构，全面闭合高自旋角分布与偏振综合页全部开放L3问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+          "locator": "JO95-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+      "anchor": "Day 22 机制综合：127Xe 五线双解敏感性审计、偏振显著性缺失与二声子拓扑反常",
+      "summary": "确立127Xe中5条跨带线偏振平均显著性仅1.01σ，小解下E2强度遭遇6.5至11.0倍断崖式塌缩，以及声称的二声子带因ΔI=0跃迁主导严重违背谐振子选择定则而证伪为准γ振动耦合（γ (x) νh11/2）。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/minimal-wobbling-identification-protocol.md",
+      "anchor": "十一核全景定性裁决矩阵（Ten-Nuclei + One-Null-Control Protocol Verdict Matrix）",
+      "summary": "将127Xe正式纳入五重排他鉴别规范，扩展形成十一核（十候选核加一黄金零对照）全区全景终审定性裁决矩阵，确立127Xe为高塌缩敏感与二声子拓扑反常候选。",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+          "locator": "CH20-D22-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/wobbling-vs-signature-partner.md",
+      "anchor": "Day 22 机制综合：磁转动剪刀叶片重开与 DSAM 寿命单调暴跌两大实验黄金基准（Checkpoint 057）",
+      "summary": "在综合页确立137Pr中3qp到5qp剪刀叶片重开致B(M1)复苏与108In寿命验证B(M1)暴跌2.29倍及19+态反弹3.05倍两大实验黄金基准，深化Day 23预习。",
+      "sources": [
+        {
+          "path": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+          "locator": "AG07-D22-001"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "anchor": "Day 22 机制综合：六大旋转/进动模式全景分类与磁转动寿命覆盖率硬约束",
+      "summary": "结合Kumar 2025全球汇编确立过渡区六大旋转进动模式全景解耦、30%寿命覆盖率硬约束及AMR双剪刀抵消纯E2四次方塌缩机制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "六大旋转与进动模式排他判别硬规则（Six-Mode Identification Rules）",
+      "summary": "建立涵盖摆动、TiP、单剪刀MR、双剪刀AMR、手征双重带及旋称伙伴带的五条实验排他判别硬规则，完成过渡区旋转进动现象学大一统规范。",
+      "sources": [
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "Synthesis",
+      "summary": "确立四维高自旋主题（摆动、手征、剪刀、偏振）中能够颠覆或确证当前证据排序的五大关键实验路径（WOB-EXP-14），闭合questions.md核心前沿问题。",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-002"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/minimal-wobbling-identification-protocol.md",
+      "anchor": "未来实验判决与谱仪设施指标（Future Facility and Measurement Roadmap）",
+      "summary": "将163Lu 476 keV偏振、133La/127Xe寿命测量、135Nd 225.8 keV偏振反证及110In高频寿命作为后续实验指标写入排他协议。",
+      "sources": [
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-002"
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "locator": "MU07-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "Evolution and transfer boundaries",
+      "summary": "确立TSD超形变摆动单锚点定理（WOB-EXP-15）：全核区摆动运动的实验大厦严格建立在163Lu TSD1/2单一支柱上，其余TSD及正常形变候选均面临电磁缺失、循环假定或双解塌缩。",
+      "sources": [
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-001"
+        },
+        {
+          "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+          "locator": "BR05-D22-001"
+        },
+        {
+          "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+          "locator": "HA09-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/136pr.md",
+      "anchor": "## Day 22 机制综合：Q1 活性组态旁观者费米子宇称恢复与 263/405 keV 拓扑定序终审（checkpoint062）",
+      "summary": "通过条件审计分析Q1/Q1*中ν(sd)⁻¹旁观中子对费米子数模2与整数自旋扇区的自洽性假说，并梳理2025 JUROGAM II中3678.4 keV三路分支汇聚与Iγ相对流向，保留历史门谱未取的记录边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-D22-002"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/configuration-occupation-audit.md",
+      "anchor": "## 奇奇核活性准粒子标签与旁观者费米子数模2守恒恢复定理",
+      "summary": "分析奇奇核TAC-CDFT未配对列作为活性转动标签而非封闭Fock库存的解释假说，说明旁观中子未列不必然等同于程序粒子数错误，保留代码实际输入未核边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/level-scheme-reconstruction.md",
+      "anchor": "## 136Pr D5：263/405 keV 拓扑多环闭合与级联光子流终审",
+      "summary": "梳理1996与2025跃迁次序与各自Iγ相对强度的内部自洽性，记录17⁺态三路分支对3678.4 keV母态的拓扑支持，同时保留未得1996原门谱的历史边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+          "locator": "LV25-D22-002"
+        },
+        {
+          "path": "knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md",
+          "locator": "N136-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/signature-partner-bands.md",
+      "anchor": "## Day 23 预习综合：低自旋进动、旋称伙伴与磁转动解耦规范及争议谱系（checkpoint063）",
+      "summary": "Day 23无学分预习：对照五大转动进动微观指纹，梳理187Au与135Pr支持反证关系及共享数据集，讨论保持实验计数不变的纯组态重指派反证逻辑与态分辨寿命检验设计。",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-7"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+          "locator": "KU25-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/100sn-gamow-teller-independent-evidence.md",
+      "anchor": "## Day21 checkpoint138：电子俘获分额与全相空间ft精确对账（残差消除至0.27%）",
+      "summary": "梳理相空间五次方幂律放大与电子俘获阻尼对Hinke端点平移的敏感性，表明端点位移是解释GSI与RIKEN标称差异的主要候选，保留原实验Cov与子体活度模型边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+          "locator": "HK10-D21-R138-1"
+        },
+        {
+          "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+          "locator": "LB16-D21-R138-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-shell-gap-orbital-observable.md",
+      "anchor": "## Day 22 机制综合：N=82 球形壳隙多物理层解耦与数据库终审（checkpoint065）",
+      "summary": "区分质量曲率delta_2n(6.53 MeV)、单中子分离能间断Delta_n(4.95 MeV)、核芯激发E(2+)(4.04 MeV)与转移反应谱因子(S~0.8-1.1)四层观测量，对账NuDat 132Sn与Radford 130Sn数据库条目。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ame2020-sn132-mass-curvature.md",
+          "locator": "AME20-132SN-1"
+        },
+        {
+          "path": "knowledge/sources/radford-2005-130sn-coulomb-excitation-126-130sn.md",
+          "locator": "RAD05-2"
+        },
+        {
+          "path": "knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md",
+          "locator": "VAR05-1"
+        },
+        {
+          "path": "knowledge/sources/jones-2010-133sn-single-particle-transfer.md",
+          "locator": "JON10-4"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/shape-observable-matrix.md",
+      "anchor": "## Day 22 机制综合：可迁移八极证据阶梯与 144Ba/146Ba 电偶极矩微观相消终审（checkpoint066）",
+      "summary": "梳理直接B(E3)、相反宇称带、E1网络与PES计算的四层八极证据阶梯，对账144Ba与146Ba相近B(E3)对决迥异E1的实验事实及SCCM微观轨道占据相消解释，保留模型依赖边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+          "locator": "BU16-1"
+        },
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "EXT146-1"
+        },
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "EXT146-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+      "anchor": "### 跨质量区主要候选核四列证据全景扩展总表（Master Four-Column Evidence Matrix）",
+      "summary": "响应Day 22矩阵练习，将四列证据（band energy、in/out strengths、alignment、polarization）系统扩展至九大跨质量区候选核与基准带，严格标注每案的偏振选解、寿命缺失与双解塌缩敏感性。",
+      "sources": [
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-001"
+        },
+        {
+          "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+          "locator": "JE02-D22-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D22-003"
+        },
+        {
+          "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+          "locator": "TI19-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "Synthesis",
+      "summary": "确立74Br手征摆子共存候选的电磁判据与偏振显著性边界（WOB-EXP-16）：1155与1266 keV线偏振显著性低于0.35σ无法排小解，且跨带B(E2_out)在1155 keV仅1.75 W.u.，低自旋600 keV线呈80% M1主导，同组态共存假说仍受微观偏振与集体性门限约束。",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+          "locator": "GU24-D22-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/two-photon-nuclear-decay.md",
+      "anchor": "## Day 22 机制综合：竞争双光子总分支比自洽与虚态多极路径相消反转终审（checkpoint070）",
+      "summary": "对账Walz 2015与Söderström 2020竞争双光子总分支比在1.20σ内自洽，阐明对称能窗截断(|E1-E2|<250 keV)与两角几何造成E3M1路径滤除及13.9倍极化率反转机制，揭示M2的Δl=3单粒子禁戒与核芯3⁻八极相干增强物理本质。",
+      "sources": [
+        {
+          "path": "knowledge/sources/walz-2015-competitive-double-gamma-137ba.md",
+          "locator": "W15-1"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+          "locator": "SO20-1"
+        },
+        {
+          "path": "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+          "locator": "SO20-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-17 |",
+      "summary": "checkpoint091更正旧072：未取得逐核Cγ/Bγ出处或PES拟合。105/14.5/8.5/6等为自设输入；谐振子零点宽度公式也不能使0.5成为普适门限。保守闭合Hamiltonian本身不给耗散率。撤回四核刚度判决。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-18 |",
+      "summary": "checkpoint091更正旧073：未核四核绝对寿命/全部多声子文献，不能声称全核区零确证；非谐性可产生有限Δn≈2强度（H03-D22-R091-1）。保留163Lu关键线偏振缺口，撤回38/1.42 W.u.及未来源化间距表。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-19 |",
+      "summary": "checkpoint091更正旧074：冻结内禀j仍可在实验室系产生M1；F14 Eqs.(21)–(22)明确非零（F14-D22-R091-1）。撤回M1恒零、0.0035绝对基准及δ通用下限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-20 |",
+      "summary": "checkpoint091更正旧075：18核是任务自选样本，不是穷尽核图谱；分类依赖已撤回门限，且把候选/未测直接判失败。撤回5.6%等普遍率和136Nd/127Xe终审证伪。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-21 |",
+      "summary": "checkpoint091更正旧076：未输入实际PTR本征态或过渡密度，不能计算核素TDM或证明电荷流局域；135Pr 2.1 W.u.没有直接寿命出处。撤回25.4倍微观解耦证明。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-22 |",
+      "summary": "checkpoint091更正旧077：150 keV是任意分区阈值；经典极小条件不定义量子FM边界。两对称倾斜极小为±θ且cosθ相同，不是cosθ=±Jc/J。惯量参数变化非已测配对效应，撤回全自旋稳定和剪刀交叉终审。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-23 |",
+      "summary": "checkpoint091更正旧078：74Br实际N=39非35；自设倾角和额外0.4因子不能测非共面度。经典非共面只需三重积非零，不要求归一值必须趋1；量子态还须对称恢复处理。撤回粒子–粒子必共面及共存证伪。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-24 |",
+      "summary": "checkpoint091更正旧079：Pauli原理不唯一决定经典剪刀角或M1矩阵元；相同g因子双粒子的磁矩与总j关系也不能由差矢量公式替代。两原文保留M1占优的TW解释，未报告所列绝对B值或11倍塌缩。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-25 |",
+      "summary": "checkpoint091更正旧080：原判据卡拼接未证门限；已重写为定义/必要检验、支持与反证边界，不设85%、15–30 W.u.、0.015 μN²、f<.35或Cγ数值硬门。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-26 |",
+      "summary": "checkpoint091更正旧081：理想双剪刀磁矩相消是特定模型性质，不能推广为所有跨带M1/E1/E2都禁戒。0.407/.002为203.5倍而非10–20倍，且旧Cd逐点数无原表出处；撤回该曲线与J2/B普适阈值。110In须回原CHI01表。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-27 |",
+      "summary": "checkpoint091更正旧082：旧ρ、Vres、壳隙均自设；黄金律需连续/稠密背景、弱耦合和时间尺度前提，不给这些有限核的实测宽度。撤回正常形变声子必融化结论。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-28 |",
+      "summary": "checkpoint091更正旧083：AW13-20的871.2是Band1→4，非4→1；不同母态/表归一的强度不可合成46.6%退激分支。纯signature单声子两支的spin序列约束不等于所有混合多支带严格算符禁戒，更不唯一确证γ振动。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-29 |",
+      "summary": "checkpoint091更正旧084：Matev可加性适用无配对选定组态集，不证明配对阻塞的任意低spin核。旧Qt=10.5/10.3、3.85/1.15等未绑定原寿命来源；撤回10%/20%及Δix=0绝对门限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-30 |",
+      "summary": "checkpoint091更正旧085：未测B(E3)必须记缺失而非0.0。GU20有直接E1连接和相对分支证据，不能降为只有模型输入。撤回95.4%相消、跨核统一数值阈值和唯一充要证据措辞。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-31 |",
+      "summary": "checkpoint091更正旧086：八核能级表没有逐值ENSDF出处；低spin邻核谱不能直接测高spin TSD刚度。S符号非wobbling存在定理（ZC91-D22-R091-1），撤回全部失效分类。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-32 |",
+      "summary": "checkpoint091更正旧087：单带Harris灵敏度代数正确，但σJ0/σJ1/ρ是自设输入；共同参考在相同ω两带差中严格抵消。未核137Nd频差，不存在已证明伪造1–1.4ℏ的结论。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-33 |",
+      "summary": "checkpoint091更正旧088：自设A(I)逐spin反号会使带内ΔA总非零，旧脚本再强加奇偶比与自身标签矛盾。15–25%泄漏与10:1→2:1未经求解。保留特殊同j/γ极限的原文规则，撤回定量鲁棒性。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-34 |",
+      "summary": "checkpoint091更正旧089：未做穷尽检索、未核各核寿命原文，不能由缺偏振推断唯一经验锚点或自然界只能TSD存在。167Ta是明确带假设的相对比推断，条件推断不自动构成逻辑循环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+      "anchor": "| WOB-EXP-35 |",
+      "summary": "checkpoint091更正旧090：320 keV与磁解耦系数等为自设，3.6%/2.4%及65%/35%分解为直接写入而非拟合结果。Ding只支持模型内机制竞争，撤回模型无关唯一反演γ和问题闭环。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/wobbling-criteria-card.md",
+      "anchor": "## 必要检验、支持条件与反证",
+      "summary": "纠正普适电磁硬门限，建立按组态/有效域分层的Day22判据卡。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+          "locator": "CH19-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "anchor": "| LV22-D22-R091-1 |",
+      "summary": "直接原件核751 keV δ和相对B比，撤回无出处DSAM与11倍塌缩。",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+          "locator": "LV22-D22-R091-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+      "anchor": "## checkpoint091 可复核的算符与参考抵消",
+      "summary": "F14冻结对齐的实验室系M1非零；任务代数明确公共Harris参数在等频带差中严格抵消，不虚报137Nd定量漂移。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+          "locator": "F14-D22-R091-1"
+        },
+        {
+          "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+          "locator": "OD01-D22-002"
+        }
+      ]
+    }
+  ],
+  "boundary": "119 structural entries are not 119 independently solved scientific questions; active writeback replaced by source-grounded checkpoint092."
+}

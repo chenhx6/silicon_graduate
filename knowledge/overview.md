@@ -2,10 +2,18 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-22
+updated: 2026-10-25
 ---
 
 # Knowledge Base Health Dashboard
+
+## Current Snapshot: 2026-10-25 Day22 evidence audit
+
+本次为Day22的来源纠错、跨来源比较与治理统计对账，不是全库科学终审。实际目录共717篇Markdown，其中lint扫描714篇类型页，另3篇为根层导航/治理页；source为384篇；page/source unreviewed为636/324。5112项claim中4403保留needs_review，缺locator/kind为0/0；source缺citation_key为182。自动lint零error，220 warning；警告和旧缺文件不是新科学结论。
+
+本轮科学入口为[[wobbling-criteria-card]]和[[wobbling-geometry-phonon-observable-contract]]。[[frauendorf-2014-transverse-wobbling]] F14-D22-R091-1的冻结j非零M1是直接原件校准的例子；该source只支持此科学使用边界，治理数字来自本次lint，不由源论文提供。旧未核认证已隔离，新增内容不扩张human review；缺原event/Cov/producer仍保持开放。
+
+QMD refresh/embed/cleanup deferred：安装wrapper固定到项目外的旧wiki缓存，实际状态562documents/2459vectors、38pending/349orphan。未改该外部缓存或全局配置，本轮使用rg和canonical/source直接读取；collection路径/pattern检查通过不等于全库已刷新。历史快照按原日期保留。
 
 ## Current Snapshot: 2026-10-23 Day20 correction audit
 

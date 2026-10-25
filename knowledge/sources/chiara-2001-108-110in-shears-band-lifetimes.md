@@ -159,4 +159,13 @@ Chiara *et al.* provide a directly readable precedent for extracting partial M1/
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| CHI01-D21-1 | Chiara 2001 在 $^{108,110}\text{In}$ 中通过 DSAM 实验精确测定剪刀带能级寿命（$\tau \sim 300 - 600\text{ fs}$），直接反演出磁偶极强度 $B(M1)$ 随自旋从 $1.75\ \mu_N^2$（$7^+$）单调骤降至 $0.28\ \mu_N^2$（$10^+$），跌落达 6.25 倍；同时带内电四极跃迁强度极度微弱（$B(E2) \le 0.04\ e^2\text{b}^2 \approx 1 - 2\text{ W.u.}$），导致比值 $B(M1)/B(E2)$ 达到 $20 - 45\ \mu_N^2/(e\text{b})^2$（超常规集体转子 100 倍以上）。该实验提供了通过绝对寿命 $\tau$ 与 $B(M1)$ 随自旋单调暴跌来确证磁转动剪刀机制的经典基准，证明单凭转动样偶极能级序列绝不能断言集体电四极形变。 | claim-boundary-audit | direct-and-derived | PRC 64, 054314 Tables V-VI; magnetic-rotation-shears-audit-008.json | true |
+| CHI01-D21-1 | **superseded at checkpoint098**：旧7+→10+及1.75→.28轨迹不在TableV，旧绝对寿命/强度认证撤回；使用CHI01-D22-R098-1/2的实际态和范围。 | task-correction | rejected-and-replaced | 054314-19 TableV; checkpoint098 | true |
+
+## Day22 checkpoint098：真实寿命窗口和对齐上扬
+
+本次只回读054314-18–19和21–23相关正文，并视觉核p.19 TableV与Fig12；不重称全文30页新读。原source已有的完整阅读范围保持。
+
+| ID | Statement | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| CHI01-D22-R098-1 | TableV的108In Band2实测寿命态为14−/15−/16−，B(M1)=.911/.600/.398 μN²；Band3的16+/17+/18+/19+给2.48/2.38/1.71/5.22 μN²，18+→19+的中央商约3.05。旧CHI01-D21-1中7+→10+、1.75→.28的轨迹不在该表，不应引用。表给τ经branch/ICC后导出B，误差未含最高约20%的stopping系统量；不是裸τ直接等B。 | measured-strength-and-identity-correction | direct-original | same-DSAM-dataset | 054314-19 TableV; 054314-18 uncertainty paragraph | true |
+| CHI01-D22-R098-2 | 作者明确B(M1)在各组态随spin降低、在alignment附近可升高，并以新对齐粒子形成更长剪刀后再闭合作解释；TAC在对齐后spin高估约1–2ℏ、pairing/低j混合问题保留。因此MR不要求跨组态全段单调B(M1)，比值或固定阈值不能单独认证叶片机制。 | author-interpretation-and-model-limit | direct-original | same-data-model-comparison | 054314-21–23 SecVA/Figs12–14 | true |

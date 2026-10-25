@@ -170,7 +170,7 @@ Navigation only: cross-source ownership remains in [[low-spin-wobbling-controver
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| NOM22-D19-1 | 综合分析 $^{135}\text{Pr}, ^{133}\text{La}, ^{127}\text{Xe}, ^{105}\text{Pd}$ 的 EDF-IBFM 计算结果，微观矩阵元分解严格证明：偶偶玻色子芯（具有平坦 $\gamma$-软势能面）压倒性贡献了电四极 $E2$ 矩阵元，而单个未配对费米子（$1h_{11/2}$）支配了磁偶极 $M1$ 矩阵元。在实验室系中通过微观耦合对角化，非 yrast 带到 yrast 带的跨带跃迁天然表现出强烈受限的混合比（$|\delta| < 1$）与普遍的 $M1$ 主导性（$f_{M1} > 80\%$），直接再现了采用真实小模解或最新偏振实测的实验事实，排除了必须引入几何摆动声子的排他性假定。 | task-ibfm-mechanism-audit | derived-and-boundary | PDF pp.6-10 Figs.7-13 Table II; wobbling-ibfm-root-degeneracy-result-050.json | true |
+| NOM22-D19-1 | **superseded at checkpoint104**：旧四核普遍M1、完美/排他模型判定及固定softness数值门未获本文支持；见NOM22-D22-R104-1至3。 | task-correction | rejected-and-replaced | 024320-6–10Figs7–13/TableII | true |
 
 ## Day 21 Checkpoint 024 证据门量化审计：IBFM 多核审查与 M1 主导证伪准则
 
@@ -178,4 +178,23 @@ Navigation only: cross-source ownership remains in [[low-spin-wobbling-controver
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| NOM22-D21-1 | 依据推断阶梯审计，Nomura 2022 确立了低自旋摆动假说的模型排他性审查分水岭：(1) gamma-软核芯对决刚性转子：四个候选核芯（134Ce, 132Ba, 128Xe, 106Pd）微观势能面均表现为平坦 gamma-软势（Delta V_gamma < 0.5 MeV），IBFM 耦合模型在实验室系重现了与 PRM 完全相同的能带能量尺度；(2) 电磁跃迁多极性分化：IBFM 证明带间 Delta I = 1 跃迁由费米子流主导，必然呈现 M1 主导（|delta| < 1），直接在物理机制上与 PRM 的 E2 主导（|delta| > 1）互斥；(3) 实验符合性：在 135Pr 中完美契合 Lv 2022 实测的 M1 88% 小解，在 105Pd 中符合早期 Rickey 小解；(4) 确立“能级拟合不具排他性，判定摆动模式必须依赖实测带间线偏振确立 E2 主导”的核心证据门准则。 | model-result-and-criterion | derived-and-boundary | pp.1-10, Tables I-II, Figs.1, 7-11; ibfm-low-spin-wobbling-audit-024.json | true |
+| NOM22-D21-1 | **superseded at checkpoint104**：旧四核普遍M1、完美/排他模型判定及固定softness数值门未获本文支持；见NOM22-D22-R104-1至3。 | task-correction | rejected-and-replaced | 024320-6–10Figs7–13/TableII | true |
+
+## Day22 checkpoint104：IBFM反例、原实验误差与整向量比较
+
+本轮定向回读024320-3–4模型限制、-6–8电磁与分解、-9图及-10TableII/结论，视觉核TableII及Fig12/13；未重称11页全部新通读或原模型producer重跑。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| NOM22-D22-R104-1 | TableII的127Xe483/639给IBFM δ=−5.699/−4.901，作者将其联系到低spinM1矩阵元近零、v²近.5时interaction/组态混合敏感，不符合“全四核所有links必小δ”。E2多由boson贡献，但M1并非每核都由同一fermion部分支配。本文105Pd算δ=.727/.817/.851与Timár大δ冲突、与旧数据较近，作者明确称问题open；不是理论已裁决原偏振或TiP几何。 | model-exceptions-and-author-boundary | direct-original | 024320-6–8Figs7/12/13anddiscussion;024320-10TableII | true |
+| NOM22-D22-R104-2 | TableII转引105Pd994keV的实验rM1为.029±.057，而原Timár2019TableI为.029±.016，两个原件的印刷误差不一致。需保留来源版本并回原实验表；不将此二手误差直接用于跨模型统计。未核原计数/勘误，不能推断哪一拟合程序用了何数。 | secondary-primary-transcription-boundary | direct-two-original-comparison | 024320-10TableII105Pd[11]994row;TI19printed062501-5TableI994row | true |
+| NOM22-D22-R104-3 | 对固定IBFM状态与E2算符的任务假设T(M1)total→ηT(M1)total，η=.817/2.3≈.3552可把1034δ调至2.3，并使991/994δ约2.047/2.396，但rE2仍为.389/.236/.182，rM1整体乘η²≈.1262。它只是全部boson+fermionM1算符共同标度的条件代数，不是作者IBFM新拟合或只改某个单粒子g；说明δ变大不自动使整套E2/M1向量吻合。模型自身的couplings/charges/g校准和缺Majorana/单j截断也须保留。 | operator-sensitivity-and-calibration-boundary | source-input-and-task-algebra | 024320-3/4modelspace;024320-6Eqs8–13;024320-10TableII | true |
+
+## Day22 checkpoint108：占据因子、交换项与PES不能定标的磁性
+
+本次定向核PDF3Eq5/6与PES/Majorana段、PDF4TableI与解释、PDF6E2/M1算符；不新称全文11页重读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| NOM22-D22-R108-1 | TableI的127Xe v²=.4317是零形变平均场输入，不是精确半占或实验量。Eq6a的归一动力学系数u²−v²=.1366，而Eq6b的归一exchange权重4u²v²=.98134044；(1−2v²)²+4v²(1−v²)=1。Eq10费米子E2带同一u²−v²因子，Eq13M1不带该显式因子，故半填充本身不证明全部M1矩阵元零；127Xe实际小M1仍是所选波函数/耦合结果。 | occupation-prefactor-and-operator-boundary | direct-original-and-task-arithmetic | PDF3Eqs6a/6b;PDF4TableI;PDF6Eqs10/13 | true |
+| NOM22-D22-R108-2 | Eq5已有exchange term，作者说明它考虑bosons由核子对构成；不能把该IBFM笼统写为完全无费米交换。另一方面，本文假设质子/中子玻色子同β/γ，所删Majorana项在该受限PES上不给独立贡献，因此仅PES映射不能定其强度，而它可能影响M1性质。谱/PES再现不等于所有磁性残余耦合已由数据确定；也不能据某exchange项存在就声称模型所有Pauli/截断误差已解决。 | exchange-and-parameter-identifiability-boundary | direct-original | PDF3MajoranaandEq5paragraph;PDF4exchange/couplingexplanation | true |

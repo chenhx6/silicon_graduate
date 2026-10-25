@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-25T14:11:06.327994+08:00",
+  "command": "qmd status",
+  "index": "/var/lib/qmd/cache/qmd/wiki.sqlite",
+  "documents": 562,
+  "vectors": 2459,
+  "pending": 38,
+  "orphan_chunks": 349,
+  "wrapper": "/opt/qmd/bin/qmd changes cwd to /tmp and pins --index wiki; existing .qmd/index.yml contains Windows path",
+  "decision": "refresh/embed/cleanup deferred: no mutation of external-volume index or global tool/config; current run uses rg and direct canonical/source reads",
+  "scope": "This is a retrieval-cache boundary, not a missing-science or publication blocker; boundary tool verifies collection path/pattern only."
+}

@@ -102,3 +102,24 @@ Lawrie 2020 的 QTR/TiP comparison 显示 TiP bands 也可有 large mixing ratio
 ## Day21 checkpoint124：条件证据与量词纠正
 
 [[matta-2015-transverse-wobbling-135pr]] M15-D20-R146-1保原支持方真实INGA偏振；[[lv-2022-evidence-against-wobbling-135pr]] L22-D20-R146-1保新联合分析与TiP解释。两次采集不是同一次拟合的大小两根；偏振也不保证所有实验唯一选根，不设置20–30W.u.普适门。
+
+## Day22：几何、声子与观测对象的分层
+
+[[wobbling-geometry-phonon-observable-contract]]给出可复用的轴映射、HFA有效域、有限自旋模型控制和四列观测检查。[[frauendorf-2014-transverse-wobbling]] F14-D22-001/003以j相对最大惯量轴定义横纵，横向曲线可以先升后降；F14-D22-002/004保留小角近似临界失效与完整QTR重定向边界。[[hamamoto-2003-quantized-wobbling-excitations-alignments]] H03-D22-002更正旧页对固定Ak模型复现能量趋势的过强描述。以上是本次Codex self-audit，未改原human-review/needs_review状态。
+
+## Day22偶偶核追加裁决撤回（checkpoint092）
+
+旧040把751 keV的M1占优当所有wobbling的排他否证，并把未匹配的寿命表映射至L1/L3，结论撤回。[[lv-2022-transverse-wobbling-136nd]] LV22-D22-R091-1/2与[[chen-2019-transverse-wobbling-even-even]] CH19-D22-R091-1/2均保留两准粒子TW支持解释及其单点/模型边界。不能据这些模型已被支持就反向称模式无争议确证。
+
+
+## Day22 模式与谐近似的定义分歧（checkpoint093）
+
+[[lawrie-2020-tilted-precession-wobbling]] LAW20-D22-R093-1以谐声子近似定义wobbling，并把一般完整转动解称TiP；[[chen-2022-study-wobbling-spin-coherent-state-maps]] CF22-D22-R093-1则用wobbling表述完整PTR进动拓扑，容许非谐性。判断需写清讨论哪一种意义，避免用前者的近似有效域直接否定后者的术语。两种叫法本身不能代替实验δ、寿命和竞争模型检验。
+
+## Day22 checkpoint109：声子代数是局部近似，基占据不等声子标签
+
+以通常spin约定`[J1,J2]=iJ3`作任务代数练习，定义`nK=I−m`、`b=J+/√(2I)`。精确有`[b,b†]=J3/I=1−nK/I`及`abs(⟨nK−1|b|nK⟩)²=nK[1−(nK−1)/(2I)]`。有限矩阵任意commutator的trace为0，故不能在整个有限spin空间精确等于单位阵；低占据局部仍可近似boson。这一全局事实并不否定核内有效phonon。
+
+I=13/2时，b的2→1/1→0平方矩阵元比为1.84615；I=45/2时为1.95556。四组矩阵控制验证对易式、trace和有限ladder修正，最大误差约浮点舍入。这是单一I表示内的scaledJ矩阵元，**不是**跨I核E2跃迁或实测二声子B的修正公式。
+
+nK不是自动等于Bogoliubov对角化后的wobblingphonon数nw；映射还受挤压/非谐项和算符影响。体固总J的对易号须按[[frauendorf-2014-transverse-wobbling]]的约定映射；本练习不直接迁移相位或电磁算符。[[hamamoto-2003-quantized-wobbling-excitations-alignments]] H03-D22-002/004的有限I非谐性和F14-D22-R106-1/2的临界四次项说明应分别核能量阶梯、局部代数与真实跃迁强度，不设统一数值有效门。needs_review: true。

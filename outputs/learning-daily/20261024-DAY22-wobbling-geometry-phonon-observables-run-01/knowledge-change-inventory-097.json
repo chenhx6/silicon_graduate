@@ -1,0 +1,595 @@
+[
+  {
+    "path": "knowledge/concepts/antimagnetic-rotation.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## checkpoint081追加认证撤回（checkpoint091）"
+    ]
+  },
+  {
+    "path": "knowledge/concepts/flip-mode.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## checkpoint077追加认证撤回（checkpoint091）"
+    ]
+  },
+  {
+    "path": "knowledge/concepts/longitudinal-wobbling.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint094：分类与可迁移边界"
+    ]
+  },
+  {
+    "path": "knowledge/concepts/signature-partner-bands.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 23 预习综合：低自旋进动、旋称伙伴与磁转动解耦规范及争议谱系（checkpoint063）",
+      "### 1. 五大微观机制的指纹对照（预习整理）",
+      "### 2. 187Au 与 135Pr 数据集与模型重指派讨论（预习）",
+      "## checkpoint090追加认证撤回（checkpoint091）"
+    ]
+  },
+  {
+    "path": "knowledge/concepts/transverse-wobbling.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22横向几何与声子有效域校准（checkpoint092）",
+      "### Day 22 简谐小角有效域 $f(n,I)$ 对决核芯动量与关键跃迁伴随缺口审计（Checkpoint 034）"
+    ]
+  },
+  {
+    "path": "knowledge/concepts/two-photon-nuclear-decay.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：竞争双光子总分支比自洽与虚态多极路径相消反转终审（checkpoint070）"
+    ]
+  },
+  {
+    "path": "knowledge/concepts/wobbling-motion.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22：几何、声子与观测对象的分层",
+      "## Day22偶偶核追加裁决撤回（checkpoint092）",
+      "## Day22 模式与谐近似的定义分歧（checkpoint093）"
+    ]
+  },
+  {
+    "path": "knowledge/index.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22几何、声子与观测合同"
+    ]
+  },
+  {
+    "path": "knowledge/methods/angular-distribution.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint096：A4能否选根取决于取向和响应"
+    ]
+  },
+  {
+    "path": "knowledge/methods/configuration-occupation-audit.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## 奇奇核活性准粒子标签与旁观者费米子数模2守恒恢复定理"
+    ]
+  },
+  {
+    "path": "knowledge/methods/level-scheme-reconstruction.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## 136Pr D5：263/405 keV 拓扑多环闭合与级联光子流终审",
+      "### 1. 光子流强度反转",
+      "### 2. 上游三路分支汇聚"
+    ]
+  },
+  {
+    "path": "knowledge/methods/spin-coherent-state-map.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 SCS相位、测度与模式边界（checkpoint093）"
+    ]
+  },
+  {
+    "path": "knowledge/methods/spin-squeezed-state-map.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 SSS定义纠错（checkpoint093）",
+      "### 局域生成态的有限Fourier核"
+    ]
+  },
+  {
+    "path": "knowledge/nuclei/136pr.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：Q1 活性组态旁观者费米子宇称恢复与 263/405 keV 拓扑定序终审（checkpoint062）"
+    ]
+  },
+  {
+    "path": "knowledge/observables/interband-e2-strengths.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22相对比值、绝对强度与声子归一（checkpoint092）",
+      "### 两倍玻色子规则与双重归一"
+    ]
+  },
+  {
+    "path": "knowledge/observables/multipole-mixing-ratio.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint096：A4能否选根取决于取向和响应"
+    ]
+  },
+  {
+    "path": "knowledge/observables/wobbling-energy.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22能量解释边界校准（checkpoint092）"
+    ]
+  },
+  {
+    "path": "knowledge/projects/131ce-collective-mode-discrimination.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "#### Day 22 极化代数选解误区与判据规范注入（2026-10-24）",
+      "#### Day 22 旋称选择定则排他证伪与偏振精度指标设计（2026-10-24 Checkpoint 027）",
+      "### Day 22 多模式微观解折叠与多维排他鉴别闭环（2026-10-24 Checkpoint 033）"
+    ]
+  },
+  {
+    "path": "knowledge/projects/135pr-wobbling-controversy.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint095：撤回最终TiP裁决，恢复逐线争议"
+    ]
+  },
+  {
+    "path": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint094：恢复开放争议与逐量对照"
+    ]
+  },
+  {
+    "path": "knowledge/projects/a130-shell-gap-orbital-observable.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：N=82 球形壳隙多物理层解耦与数据库终审（checkpoint065）"
+    ]
+  },
+  {
+    "path": "knowledge/projects/low-spin-wobbling-controversies.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制闭环与五重规范终审裁决",
+      "### 1. 极化选解历史误区彻底排除",
+      "### 2. A≈130 质量区绝对寿命证据缺口全库对账",
+      "### 3. 五重排他鉴别规范与全区十核终审定性"
+    ]
+  },
+  {
+    "path": "knowledge/questions.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": []
+  },
+  {
+    "path": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：137Pr 3qp 到 5qp 剪刀叶片重开动力学与回弯机制确立"
+    ]
+  },
+  {
+    "path": "knowledge/sources/amro-2003-wobbling-167lu.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：类比选根假定与偏振缺失敏感性"
+    ]
+  },
+  {
+    "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：同数据谱系能级重映射与γ软核芯约束"
+    ]
+  },
+  {
+    "path": "knowledge/sources/biswas-2019-longitudinal-wobbling-133la.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：小角判据发散、双解塌缩敏感性与IBFM软核竞争模型",
+      "### Knowledge Impact and Learning Decision"
+    ]
+  },
+  {
+    "path": "knowledge/sources/bringel-2005-wobbling-161lu.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：电磁证明缺失与系统学类比边界"
+    ]
+  },
+  {
+    "path": "knowledge/sources/chakraborty-2020-multiphonon-longitudinal-wobbling-127xe.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：127Xe 五线双解敏感性审计、偏振显著性缺失与二声子拓扑反常"
+    ]
+  },
+  {
+    "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：零对照基准与不利旋称伙伴带确立"
+    ]
+  },
+  {
+    "path": "knowledge/sources/chakraborty-2024-possibility-wobbling-129ba.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：遗留数据重分析与M1主导性边界"
+    ]
+  },
+  {
+    "path": "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：偶偶核两准粒子摆动与双解多极性模糊度",
+      "## Day22 checkpoint091 直接原件纠错"
+    ]
+  },
+  {
+    "path": "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：相干态图谱拓扑、旋称伙伴态混合与输入边界",
+      "## Day22 checkpoint093：定义、有效域与表示的定向原件比较"
+    ]
+  },
+  {
+    "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：108In/110In 剪刀闭合单调暴跌与 19+ 态叶片重开直接寿命验证"
+    ]
+  },
+  {
+    "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：几何分类与HFA有效域",
+      "### Knowledge Impact and Learning Decision",
+      "### Day22历史争论回链",
+      "## Day22 checkpoint091 直接原件纠错",
+      "## Day22 checkpoint092：Fig.19绝对强度的字面参考链疑点"
+    ]
+  },
+  {
+    "path": "knowledge/sources/frauendorf-2024-wobbling-review.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：进动锥拓扑、临界失稳与综述量词证据阶梯审定",
+      "## Day22 checkpoint093：定义、有效域与表示的定向原件比较"
+    ]
+  },
+  {
+    "path": "knowledge/sources/grodner-2011-126cs-chiral-selection-rules.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 逐线末态拓扑对账：415/253 keV 终态绑定与 S 对称性反相交错闭环"
+    ]
+  },
+  {
+    "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint094：偏振量身份、相对强度和伴随带边界"
+    ]
+  },
+  {
+    "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint091 直接原件纠错"
+    ]
+  },
+  {
+    "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：声子非谐性、转动分岔与三联指纹判据"
+    ]
+  },
+  {
+    "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：轴编号、谱趋势与声子边界",
+      "### Knowledge Impact and Learning Decision",
+      "## Day22 checkpoint091 直接原件纠错"
+    ]
+  },
+  {
+    "path": "knowledge/sources/hartley-2009-wobbling-167ta.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：循环假定选解与非Lu区摆动证据链审查"
+    ]
+  },
+  {
+    "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint092：F14 Ref.25的定向身份核验"
+    ]
+  },
+  {
+    "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：476keV逐线身份与未选解边界",
+      "### Knowledge Impact and Learning Decision",
+      "## Day22 checkpoint092：163Lu原始观测与强度对象复核"
+    ]
+  },
+  {
+    "path": "knowledge/sources/jones-1995-clover-compton-calibration.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：跨阵列迁移校准不可替代性与分层似然架构确立"
+    ]
+  },
+  {
+    "path": "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 原件复核：A选择定则代数结构、转述方向纠正与三轴偏离泄漏",
+      "### Knowledge Impact and Learning Decision"
+    ]
+  },
+  {
+    "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：六大旋转/进动模式全景分类与磁转动寿命覆盖率硬约束"
+    ]
+  },
+  {
+    "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：phonon判据、参数谱系与条件重建",
+      "### Knowledge Impact and Learning Decision",
+      "## Day22 checkpoint093：定义、有效域与表示的定向原件比较"
+    ]
+  },
+  {
+    "path": "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": []
+  },
+  {
+    "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：支路分母、联合偏振及模型比较",
+      "### Knowledge Impact and Learning Decision",
+      "### Day22能级中央值的能量判据重建",
+      "## Day22 checkpoint095：逐线P/δ、比值对账和模型归属"
+    ]
+  },
+  {
+    "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：偶偶核横向摆动M1主导性与带交叉集体性塌缩",
+      "## Day22 checkpoint091 直接原件纠错"
+    ]
+  },
+  {
+    "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22量化审计：Q1活性组态旁观中子守恒与D5拓扑定序终审（checkpoint062）"
+    ]
+  },
+  {
+    "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：观测量角色与模型限制",
+      "### Knowledge Impact and Learning Decision",
+      "## Day22 checkpoint095：原始AD与偏振、QTR分层"
+    ]
+  },
+  {
+    "path": "knowledge/sources/mukherjee-2023-transverse-wobbling-151eu.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：双解塌缩倍率与弱正偏振干涉本质"
+    ]
+  },
+  {
+    "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 原件复核：四个带间E2图点逐线拓扑映射与K无关性确立",
+      "### Knowledge Impact and Learning Decision"
+    ]
+  },
+  {
+    "path": "knowledge/sources/nandi-2020-multiple-transverse-wobbling-183au.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：转折自旋假说与形状共存模型依赖"
+    ]
+  },
+  {
+    "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：一声子基准与两种alignment",
+      "### Knowledge Impact and Learning Decision",
+      "## Day22 checkpoint092：163Lu原始观测与强度对象复核"
+    ]
+  },
+  {
+    "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：A≈130 近简并带排除能带交叉与形状共存的伙伴态分辨寿命与电磁充要判据"
+    ]
+  },
+  {
+    "path": "knowledge/sources/petrache-2020-137nd-multiple-chiral-bands.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 原件复核：弱带电磁缺口、2hbar对齐差与手征双重带排他判据闭环",
+      "### Knowledge Impact and Learning Decision"
+    ]
+  },
+  {
+    "path": "knowledge/sources/prochniak-2011-cphc-s-symmetry-transition-rules.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 理论机制对账：S 对称性扩展性、γ 软核微观稳健性与有限带间 E2 跃迁"
+    ]
+  },
+  {
+    "path": "knowledge/sources/rojeeta-devi-2021-multiphonon-transverse-wobbling-133ba.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：多声子阶梯截断与运动学相空间放大"
+    ]
+  },
+  {
+    "path": "knowledge/sources/schonwasser-2003-wobbling-165lu.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：TSD3两声子同态同源假说与统计缺口"
+    ]
+  },
+  {
+    "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint094：支持证据与分母、带身份"
+    ]
+  },
+  {
+    "path": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：固定σ/I卡方切片、偏振缺失与五重规范终审判定",
+      "## Day22 checkpoint095：保留条件卡方证据和双方模型差异"
+    ]
+  },
+  {
+    "path": "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：TPSM固定三轴基底预设与旧数据拟合边界"
+    ]
+  },
+  {
+    "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 协方差结构与不可识别性机制：极化干涉、取向脊线与探测器响应综合"
+    ]
+  },
+  {
+    "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 原件复核：双解塌缩、IBFM软核与微观淬灭机制"
+    ]
+  },
+  {
+    "path": "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint096：A4的信息与取向自由度"
+    ]
+  },
+  {
+    "path": "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint091 直接原件纠错"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "### 126Cs DSA Table 1/2 与 NORDBALL 的逐线末态拓扑绑定与选择定则对账",
+      "## Day 22 机制对决：手征转动与摆动进动的本质鉴别四重门",
+      "### 1. 能带对称性与旋称选择定则门",
+      "### 2. 电磁退激多极性与 M1/E2 强弱门",
+      "### 3. 三维角动量微观几何门",
+      "### 4. 能谱间隔与能量简并门",
+      "### 5. “近简并 + 强 E2”非充要反证定理（以 135Pr、135Nd 与 134Pr 为实证，Checkpoint 042）",
+      "### 6. A≈130 近简并带排除能带交叉、组态混合与形状共存的伙伴态分辨电磁与寿命充要判据（Checkpoint 051）",
+      "### checkpoint078/088认证撤回（checkpoint091）"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Checkpoint094：187Au独立性与强度纠错"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/gamma-soft-vs-gamma-rigid-diagnostics.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制闭环：准γ带交错指数S(4)全区反相与摆动进动阻尼机制",
+      "### 1. 准 $\\gamma$ 带交错指数 $S(4)$ 的全区反相定理",
+      "### 2. 摆动进动阻尼与旋称伙伴带色散机制",
+      "## checkpoint086追加认证撤回（checkpoint091）"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint096：A4能否选根取决于取向和响应"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 thematic REFLECT：争议定义与观测合同校准（checkpoint093）"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/shape-observable-matrix.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 机制综合：可迁移八极证据阶梯与 144Ba/146Ba 电偶极矩微观相消终审（checkpoint066）",
+      "### 1. 四层可迁移八极证据阶梯",
+      "### 2. 144Ba 与 146Ba 的 E3/E1 实验对比与模型解释",
+      "## checkpoint085追加认证撤回（checkpoint091）"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/sigma-over-i-assumptions-and-mixing-ratio-extraction.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day 22 拟合架构与先验规范终审对账（Checkpoint 047）",
+      "### 1. 符号映射与代数等价性确立",
+      "### 2. 四层取向表象映射架构",
+      "### 3. P-ADO / NST 混合比拟合操作规范"
+    ]
+  },
+  {
+    "path": "knowledge/synthesis/wobbling-vs-signature-partner.md",
+    "HEAD_matches_start_baseline": true,
+    "added_headings": [
+      "## Day22 checkpoint095：机制比较的适用边界"
+    ]
+  }
+]

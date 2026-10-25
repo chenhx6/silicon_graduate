@@ -1,0 +1,24 @@
+{
+  "status": "closeout-turn-completed",
+  "run_id": "2026-10-24-day-22-01",
+  "session_id": "01a16ccb-2ecb-7501-ae47-fb2d58c270da",
+  "closeout_event_id": "closeout",
+  "hard_deadline": "2026-10-25T15:00:00+08:00",
+  "closeout_at": "2026-10-25T15:04:41.187632+08:00",
+  "report_sha256": "9ff112fcb514354265da88d39578f1f591b3233a03f23168fd40d65f3a0f214d",
+  "window_missed": false,
+  "time_snapshot": {
+    "now_local": "2026-10-25T15:04:41.187632+08:00",
+    "hard_deadline": "2026-10-25T15:00:00+08:00",
+    "next_scheduled_start": "2026-10-25T16:00:00+08:00",
+    "minutes_to_deadline": -5,
+    "minutes_to_next_start": 55,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": false,
+    "can_complete_forward_card": false,
+    "decision": "closeout-only"
+  },
+  "scope": "Actual same-session after-deadline report, canonical writeback, card audit and local checks completed; original runner state gate and H3 follow.",
+  "clock_queue_evidence": "closeout-one-shot-queue.json"
+}

@@ -1,7 +1,160 @@
 ---
 graph-excluded: true
-updated: 2026-10-23
+updated: 2026-10-25
 ---
+
+## Active handoff — Day22 closeout
+
+2026-10-25T15:06:28.946546+08:00，run 2026-10-24-day-22-01，session 01a16ccb-2ecb-7501-ae47-fb2d58c270da。按原15:00截止完成同session收束，原runner正式门通过，Day22五项交付完整；只授[22]，Day23仅partial[23]，累计22，next23。card-credit-22与final-session-receipt-22保持单次转移；本回执对账不再次加分。
+
+核心变化：几何/谐声子/完整拓扑与逐线实验分层；冻结j非零M1，Lu双根/归一/缺测边界，Pr/Au实际支持与反证并存；继承Qt代理CI及225.8P正号/机时排他认证撤回。新增claims保持needs_review，无human-review升级；原Day21[21]/18分保留。
+
+当前开放：真实response/Cov、Lu逐带τ谱系、137Pr打印不闭合、GR18 Ref14/算符约定。QMD外部缓存refresh deferred，rg/directread使用；治理overview已按实际lint同步。
+
+发布稳定指针：main · Day22: calibrate wobbling evidence and close learning card。实际远端结果/精确hash只看本run task-publication-receipt-22.json。按显式manifest/H3非force，raw/Bib/PLAN与继承Day20文件未纳入。下一文件为Day23准备入口，不创建新session或启动daemon；新身份/截止只认新runner原始receipt。
+
+以下checkpoint是过程历史；其旧active/未授分语句不覆盖以上最终run/card receipt。
+
+
+## Day22 checkpoint123优先续接：收束草稿与未授分状态
+
+2026-10-25T14:42:02.057236+08:00，余18.0分钟。115items/59changed页true runner122通过；F14/H03/Lu既有原文主线＋关键visual已回核，9题读源后理解校核非盲测评分。5交付ready未授分。preflight0；EOL1=53owned实质修改保留、0unsafe；不是科学/安全失败。发布草稿约9MB未stage，53tracked baseline匹配、6new/15scripts flags/AST正常。actual15:00后tmp one-shot真实queue（不start/run）→apply报告/Day23prep→overview/writeback/checks/attestation/原finalizer→receipt/H3。当前completed=[] partial=[22,23] next22，不新来源/卡/Day24。
+
+## Day22 checkpoint122优先续接：Lu缺测与条件上限回核
+
+2026-10-25T14:17:01.778308+08:00，余43.0分钟。同SHA OD01/JE02各4页全文文本＋4freshvisual，母态/双根/谱系保持；新增OD01无有效upperlimits不补零、JE02 .012为选大根rM1比较而非独立选根/绝对B。115writeback/59changed页，122delta待freshcheck；under90仅既有分析，不新source/card。原15:00后one-shot真实queue（tmp helper有guard、不start/run）→原runnerfinalizer→formalDay22/H3。当前completed=[] partial=[22,23] next22，不开Day24。
+
+## Day22 checkpoint121优先续接：原文主线回读与正式门准备
+
+2026-10-25T14:11:06.327994+08:00，余48.9分钟。同SHA F14全部12页、H03全部5页主线文本回读，F14p6/H03p3/4freshvisual，无新增scientificdelta。112writeback/59changed页的true runner门120修补后通过。QMD外部cache固定wrapper，refresh明确deferred，rg/directread使用。under90不新来源/卡。15:00单次existing Supervisor.attempt可真实queuecloseout，不调用start/run、不restartdaemon；tmp脚本有actualdeadline guard。然后originalfinalizer、formalDay22、receipt/Day23prep/H3。当前completed=[] partial=[22,23] next22，不开Day24。
+
+## Day22 checkpoint120优先续接：真正runner合同与时钟缺口
+
+2026-10-25T13:57:17.444105+08:00，余62.7分钟。runner truevalidator发现3标题/2source回链/5未映射已改知识页缺口，已最小修补并112writeback待复检；此前helper green不等runner门通过。clock历史停，closeout仍pending未queued，不伪造或restartdaemon。15:00实际同session收束可调用existingrunner纯checks/state函数并如实记manualpath；勿冒称interactive-finalizer已通过。原身份/截止，completed=[] partial=[22,23] next22；不开新source/card/Day24。
+
+## Day22 checkpoint119优先续接：当前算符精确关联式
+
+2026-10-25T13:41:05.529040+08:00，余78.9分钟。χ²精确pairdot/SymABC/反对易修正，ħ=1，与independentCartesian平方误差≤1.9e−12；八限定controls通过，非原GR18producer识别。118同四cell区间五＋模型六controls通过。107writeback待最终fresh suite。under90不新source/card，仅当前综合回证，completed=[] partial=[22,23] next22；原15:00后formalDay22/H3。
+
+## Day22 checkpoint118优先续接：同一计数模型的区间完成
+
+2026-10-25T13:38:47.845042+08:00，余81.2分钟，原session/15:00截止。chosen表单侧p.0346，central95 P区间[−.0233,.6208]而one-sided lower.0279，尾部标准相容；五interval＋六modelcontrols通过，非真实CI/机时。117orientation七controls通过。105writeback；under90仅既有两个问题的综合/回证，不新source/card。completed=[] partial=[22,23] next22；15:00后formalDay22/H3。
+
+## Day22 checkpoint117优先续接：当前算符独立回证
+
+2026-10-25T13:37:37.918733+08:00，余82.4分钟。116结构/102写回/限定controls实际全过，117Cartesian六项对commutator误差≤5.0e−14、伸展Gram解析式独立相符，共七controls。candidate-pool-117列当前两槽source IDs/缺口。under90不新source/card，只既有分析综合回证。原session/15:00截止，completed=[] partial=[22,23] next22；15:00后formalDay22/H3。
+
+## Day22 checkpoint116优先续接：90分钟门后只完成既有分析
+
+2026-10-25T13:35:32.420936+08:00，余84.5分钟，原run/session/15:00截止。115 shareda独立raw四cells条件检验，chosen counts非机时/功效；response不匹配的P0反例保留。116完全伸展态signed/RMS0而Gram.33235，非GR18实际态或作者算法。报告102writeback，fresh检查待运行。completed=[]、partial=[22,23]、next22，不新source/card。15:00后formalDay22/H3；不开Day24。114原checkpoint列required-checks-114但该文件不存在，以116实际fresh suite为准。
+
+## Day22 checkpoint114优先续接：operator定义保留开放
+
+2026-10-25T13:22:12.099918+08:00，原run/session/15:00截止，余97.8分钟，modecontinue-current-or-partial。GR18Eq3literal signedχ与fixedk近1须核operator，条件labj给signed0、RMS.679/.708、Gram.958/.9996；不暗换定义/判paper错误/改g。packet同g反χ非实际band，4controls。Ref14仅metadata、body未得；旧LV19R139的Psign复活指针已撤。97writeback、14限定脚本。
+
+下一完成已开的counts槽matchednull四原始计数条件检验/假设，及g/operator收口；under90不新source/card，15:00后formalDay22/H3。completed=[]、partial=[22,23]、next22，不开Day24。
+
+## Day22 checkpoint113优先续接：当前统计/g问题继续
+
+2026-10-25T13:07:24.690010+08:00，原run/session/15:00截止，剩余112.6分钟，mode=continue-current-or-partial。112一jstaticg精确CG/标量边界，GR18三组分/ns到ps迁移条件已读；113exactbinomial旧toy两均值N663/N1841仅约.487/.492功效，positiveA目标N663功效.011，不作真实预算。94writeback、13限定脚本。
+
+下一existingGR18Eq3signedχ/RMS/Gramproxy定义歧义：条件independentlabfixedkstate给signed0，RMS不同于Gram近1；不判paper错误、不暗换算符。Ref14metadataquery43590待poll，现有Starosta2001PRL不是NPA682375。completed=[]、partial=[22,23]、next22，under90不新source/card，15:00后formalDay22/H3。
+
+## Day22 checkpoint111优先续接：计数/倒数a/校准识别性
+
+2026-10-25T12:48:53.303141+08:00，原run/session/15:00截止。MI07targeted714/716/718：a与另一Clover为倒数；5000photopeak的150/1250selectedcontrol得σP.3086，非actualtargetCI。fullJac/Poisson/Fisher、unknowna可配oppositeP同means，5限定控制通过，不说真实窄校准域也退化。90writeback、11限定脚本。
+
+下一当前exactbinomial检验功效或single-j静态g标量/几何伴随（已有F14/TI19来源）；completed=[]、partial=[22,23]、next22。under90不新source/card，15:00后formalDay22/H3，不开Day24。
+
+## Day22 checkpoint110优先续接：225.8方案核心假设更正
+
+2026-10-25T12:37:02.793298+08:00，原run/session/15:00截止。225.8/648.9TableI无δ，相对Iγ不定绝对rate；旧P线性pure项加权漏干涉/分母，Q=.22/rate40.6未校准；663count两均值分离不等positiveP3sigma，旧toy正号仅.743sigma。16.3/45.3h及全部D6chirality排他认证撤回，source/综合/provisionalnote已同步，原Day21正式[21]/18分不变。
+
+下一当前count/calibration/功效有界设计；Miller2007source需核actuala约定/selectedvsphotopeak，不跨阵列迁Q。87writeback、10限定脚本；completed=[]、partial=[22,23]、next22。under90不新source/card，15:00后Day22formal/H3，不开Day24。
+
+## Day22 checkpoint109优先续接：局部phonon代数/偏振设计
+
+2026-10-25T12:27:49.377752+08:00，原run/session/15:00截止。scaledJ有限矩阵comm=1−nK/I，低占据近似boson而非全局代数；nK不等nw、同I矩阵元不当跨I E2修正，4控制通过。107R矩阵双中括号lint2error已改圆括号并重跑，108–109最新检查合并。83writeback、10限定脚本。
+
+下一核继承225.8keV偏振排他方案的source线身份/计数/Q假设与Psign；16.3/45.3h非实际runtime，不改Day21正式[21]/18分。completed=[]、partial=[22,23]、next22，under90不新source/card，15:00后Day22formal/H3，不开Day24。
+
+## Day22 checkpoint108优先续接：exchange/PES磁性盲区
+
+2026-10-25T12:21:45.026902+08:00，原run/session/15:00截止。NOM22已有exchange，半填充prefactor不证全M1zero；v²=.4317为模型非实测。equalp/nPES不能独立定Majorana强度，M1仍可受其影响；F24softcore/TPSM为作者比较，不普适模式禁戒，privateenergies未replay。81writeback、10限定脚本。
+
+下一existingraw磁矩/staticQcompanion或当前观测向量/SP预习；completed=[]、partial=[22,23]、next22。under90不新source/card；15:00后formalDay22/H3，不开Day24。
+
+## Day22 checkpoint107优先续接：TPSM K/轴与强度归一
+
+2026-10-25T12:18:35.715168+08:00，原run/session/15:00截止。SHJ24现有raw实际25页，选读7–9/13–18并核Fig8absoluteB/Fig9ratio；F24Fig37非零绿色TSD3→TSD2，suppressed不读0。K基标签与finalmix、shapeγ与Eulerγ分开；γ′=−120−γ仅轴置换，需所有张量一致变换，4控制通过。77writeback、10限定脚本。
+
+下一softcore/TPSM实际假设或已有g/Qs伴随；completed=[]、partial=[22,23]、next22，15:00后formal/H3，不开Day24。under90不新source/card；Gorgenbody未得/FD15公开只读未formalarchive边界保持。
+
+## Day22 checkpoint106优先续接：有限临界隙与候选池
+
+2026-10-25T12:13:57.439175+08:00，原run/session/15:00截止，剩余166.0分钟。人工冻结j临界族局部HFA曲率0，但有限spin隙按四次势标度趋2.73931，五控制通过，非核素拟合或实际声子判决。74writeback、10active限定脚本。candidate-pool-106已刷新，继续现有rawTPSMLu/Ta原文/图8–9的band标签和归一。
+
+Gorgen2004body未得：APS403/401、CDN403、canonical202empty、OSTIconnectionrefused；不导Qt/τ。FD15CHORUSAM已读但只publicstaging、raw正式source归档deferred。下步sourceSHAa7fa...0d22实际25页，当前PDF13–17visual15/17，不误读F24“suppressed”为transition0，也不假设spin轴2I。completed=[]、partial=[22,23]、next22，15:00后formal/H3，不开Day24。
+
+## Day22 checkpoint105优先续接：QRPA/图量与真实Lu原稿路线
+
+2026-10-25T12:02:44.730669+08:00，原run/session/15:00截止。F24p21Fig35轴为绝对BM1，captionratio误配；Ref67公开CHORUSaccepted13p实际读，LL模型改善M1/频率仍低E2；原162Yb仅系统学对应，与review164转述不同。原稿只publicstaging只读，未写raw/正式新增source，现有F24targetedreview与方法同步。
+
+下一Gorgen2004Luquadrupolemoments原稿：SS查到LBNLeScholarshipqt5fv6f0xv，downloadsession61609需poll；OSTIquery94038需poll。APS403/401和OA未得均已留，不是全局阻塞。71writeback、9限定脚本；completed=[]、partial=[22,23]、next22，15:00后formalDay22/H3，不开Day24。
+
+## Day22 checkpoint104优先续接：IBFM例外/原实验误差/整向量
+
+2026-10-25T11:47:08.162795+08:00，原run/session/15:00截止。NOM22targeted原读保留105Pd冲突/127Xe大δ例外，不作全四核普适M1认证。994rM1二手±.057对TI19原±.016有文字差；模型算符标度η=.3552只为任务敏感性（整个M1），不等真实IBFM拟合，E2向量仍不同。68writeback、9active限定脚本。
+
+下一scissors/wobbling原耦合模型或观测响应设计；completed=[]、partial=[22,23]、next22，仍需持续研究至15:00，不开Day24。
+
+## Day22 checkpoint103优先续接：105Pd独立支持/定标边界
+
+2026-10-25T11:43:07.528594+08:00，原run/session/15:00截止。TI19六页原读+Fig2/TableI实核，三线DCO/P支持δ+1.8/+2.3/+2.7且P负；正常形变独立支持保留，不因Pr争议全盘否决。rE2为相对、C带合并P未解、geff.36按1034δ定标；高spin两带组态不同，升Ewob不自动LW。
+
+65writeback、9限定脚本，completed=[]、partial=[22,23]、next22。下一IBFM竞争实际观测或scissors/quenching原模型，15:00后才formalDay22/H3；不开Day24。required-checks-103.json为结构/限定算术。
+
+## Day22 checkpoint102优先续接：135Nd带族与继承统计量
+
+2026-10-25T11:39:56.062661+08:00，原run/session/15:00截止，剩余200.1分钟。MU07原件支持手征pair，但Qt代理均值.9356/跨spinSD.0102不是CI；37→39halfE2drop2.46/2.64，phase图号M1Fig2/E2Fig3；chirality由time reversal、非paritydoublet。LV21单qp低spinTiP与MU07三qp高spinpair不同。LV21/Lv2022Pr共享campaign强候选，eventledger未知；不按独立复测计票。原Day21正式[21]/18分不变。
+
+当前62writeback、9限定脚本，completed=[]、partial=[22,23]、next22。下一campaign谱系或可分实验设计，15:00后才Day22formal/H3，不开Day24。required-checks-102.json只认证其结构与限定算术范围。
+
+## Day22 checkpoint101优先续接：实际勘误与RMS/SCS信息
+
+2026-10-25T11:35:11.876782+08:00，原run/session/15:00截止。CF22一页erratumFig15实核，Iν下标不作声子数；D2允许I4两个人工mixedstates三RMS相同但SCS不同，六条件控制通过，非真实Pr/同H本征态。9个限定active脚本，59writeback。
+
+下一135Nd chiral/TiP直接源及继承排他语句边界，或模型可分预测。completed=[]、partial=[22,23]、next22，不因本卡覆盖终止窗口，不开Day24。末次required-checks-101.json仅结构/条件控制。
+
+## Day22 checkpoint100优先续接：TSD3同母态双出口
+
+2026-10-25T11:28:23.049585+08:00，同run/session/15:00截止，剩余211.6分钟。JE02原图将TSD3 45/2+的1119/476/627共母态绑定；out/out E2≈.035或.94消τ/in，复用原δ不作独立选根。原件与observable已同步，57项writeback；8个限定脚本，旧114历史隔离。
+
+保持completed=[]、partial=[22,23]、next22，checkpoint/batch上限不是收束信号。下一模型可判别预测或Lu原τ来源，15:00后正式Day22收束/H3；不开Day24。检查required-checks-100.json只限结构/指定控制。
+
+## Day22 checkpoint099优先续接：Lu寿命对象与SD–ND控制
+
+2026-10-25T11:25:10.392250+08:00，原run/session/15:00截止，距截止214.8分钟。DO99的10.7(.7)b为Schmitz1993旧SD1τ引用，不是新SD2测量；ND/SD1同21/2+两态111keV混合，打印强度重建V21.41keV、p.0387、Q比.48675。697.1有未分辨SD邻线脚注，未复原deblend/Cov。OD01明确其新152MeV采集将1999候选连九条links，数据独立与重复Qt引用分开。
+
+当前55项writeback、8个限定脚本；下一模型族与可分观测量或Lu原τ获取，原Schmitz全文仍缺。completed=[]、partial=[22,23]、next22，不提前收束/开Day24。
+
+## Day22 checkpoint098优先续接（研究继续）
+
+2026-10-25T11:20:06.142364+08:00，原run/session/15:00截止，剩余219.9分钟。Day23独立预习：137Pr原件pp1–7核相对比先升后降；43/2打印强度给24.03、表比18.5未闭合，未调输入/报新CI；108In指定pp18–19/21–23寿命/branch/ICC给B(M1)并有alignment处上扬，旧7+→10+假轨迹源条目撤回。新sourceR098及两canonical比较页同步，控制保留首次失败和真实缺口。现在7个限定Day22脚本active，114旧脚本仍JSON历史隔离。
+
+下一Lu绝对τ真实来源或当前模型可判别预测；本轮52项writeback，completed=[]、partial=[22,23]、next=22，不提前收束/授Day23/开Day24。末次检查required-checks-098.json，不代表全库科学认证。
+
+## Day22 checkpoint097当前续接（原session，未收束）
+
+run `2026-10-24-day-22-01`，session `01a16ccb-2ecb-7501-ae47-fb2d58c270da`；实际2026-10-25T11:15:13.236597+08:00，研究截止2026-10-25 15:00+08，15–16才正式逐卡审计/receipt/H3发布。completed=[]、partial=[22,23]、next=22；只允许Day23无学分预习，不开Day24。
+
+091–096已核直接原件并修复过强认证：F14冻结j仍非零M1；130Ba/136Nd M1占优不自动剪刀；OD01不打印P符号/不新增TSD2τ；JE02有四ΔI1和八ΔI2支路，476无P；Lawrie谐声子和CF22非谐拓扑定义分开；SSS为有限Fourier角表示。094纠正187Au旧P−.10误作δ的88倍假结果；095纠正Pr跨线+.04/−.37并保留SH26固定σ/I=.2的真实AD偏好；096给A4已知取向条件识别与未知张量正布居歧义，六条件控制通过，非真实Pr重拟。
+
+097核baseline SHA，48项未核run-owned知识追加恢复/定向修订，114旧producer精确JSON归档后逐文件移出活跃链，保留6限定控制脚本及原source/review。run内quarantined-knowledge-additions-097.json和retired-producer-scripts-097.json可恢复历史；旧green/终审不能复活。日报当前48项原子writeback，检查以required-checks-097.json为准，不代表全库科学认证。
+
+下一独立原文路线：137Pr/108In作为Day23预习对照或Lu实际绝对τ谱系。后者Schmitz1993/Hagemann2004仅书目，F14 Ref25字面为165Tm存在引用疑点，不擅补Lu数据。run.json/open/next-continuation-097.md保存断点。保留Day20未跟踪文件与HEAD已有Web-of-Science提交。raw/PLAN/Bib未修改；未创建session或重启daemon。run-local monitor历史已停，不拿旧PID当活跃证明；当前同thread native goal continuation实际运行。
+
+以下为本轮之前的交接，仅保留历史背景；不得据此覆盖上面的当前状态。
 
 ## 文献访问配置补充（2026-10-24）
 

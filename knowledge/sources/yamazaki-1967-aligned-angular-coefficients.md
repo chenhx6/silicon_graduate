@@ -171,3 +171,12 @@ YA67-11补p18两条pure-mode：Ji15/2→Jf13/2的L1为(.97321,.91069)，L2为(.8
 2026-10-16 DAY14内Day15无信用预习，视觉回核printed p2 Eq11，分母为2σ²；Eq1/6/10给精确张量及integer/half-integer参考。[[lauritsen-2025-gamma-angular-formalism-tracking-arrays]] L25-24–28的publisher字面2σ及finite-J多项式须与本定义分开，不能按同符号直接替代。该刊Ref39是1976专著，本轮未读其对应书段，不把本表当作那本书或宣称作者代码错误。
 
 [[angular-distribution]]“Finite-J张量权重与Gaussian参数：先做极限再转移”用本任务CG有限和核精确权重、uniform/reference/feeding与large-J控制。YA67-13 true，旧1–12及review状态保持，未新增独立实验或重新认证全23页/全部表。
+
+## Day22 checkpoint096：A4的信息与取向自由度
+
+本次定向回读原扫描pp.1–3，视觉核p.2 Eqs.3–4与p.19的17/2→15/2三行；未重读全部23页或计算原CDC6600程序。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| YA67-D22-R096-1 | Eq3/4的CG三角条件使M1/E2模型的rank4中F4(1,1)=F4(1,2)=0；因此A4=ρ4 F4(2,2)δ²/(1+δ²)。ρ4/F4及响应已知且乘积非零时，可反演abs(δ)；A2还可约束其符号（需非零干涉项）。这只是已知取向、实数两成分、单γ轴对称模型的条件结论，非实验总能唯一选根。 | source-equation-and-conditional-derivation | direct-original-and-task-algebra | printed p.1 Eq1/2; p.2 Eqs3/4/10 | true |
+| YA67-D22-R096-2 | p.19的Ji17/2→Jf15/2三行给F2(11,12,22)=(.26430,−.90951,.06955)、F4(22)=.49211。按五位表值，任务选择δa=−1.4可构造A2等根δb=−.5640849；固定ρ4时A4不同。另选择两组非负、对称、归一的人工m布居，ρ2均−.02，ρ4=.02/.05486356，可使这两δ的全部A2/A4角多项式相同。这是未知独立张量的条件反例，不是Pr实测取向、Gaussian族简并或实验同χ²证明。 | printed-table-and-constructive-counterexample | direct-original-and-task-arithmetic | printed p.19 TableIIb 17/2→15/2 rows11/12/22; printed p.1 Eq1 | true |

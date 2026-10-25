@@ -1,0 +1,8 @@
+{
+  "scope": "Exact arithmetic controls for task algebra only, not validation of any nucleus or fitted uncertainty",
+  "common_frequency_reference_cancels": true,
+  "unequal_frequency_reference_difference_identity": true,
+  "f14_model_nonzero_m1_condition": "n>0, J>0, c1,c2>0 and j*(gj-gR)!=0 imply Eq.21>0",
+  "numerical_inputs": "Arbitrary rational control values, not measured nucleus parameters",
+  "no_137Nd_drift_estimate": true
+}

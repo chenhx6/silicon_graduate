@@ -1,0 +1,76 @@
+{
+  "raw_sha256": {
+    "guo2022": "de541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206",
+    "sensharma2020": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+    "lv2022": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b"
+  },
+  "au187": [
+    {
+      "energy_keV": 376,
+      "sensharma_delta_center": -2.67,
+      "guo_delta_center": -0.26,
+      "guo_delta_printed_interval": [
+        -0.41,
+        -0.1
+      ],
+      "guo_e2_fraction_center": 0.0633195953540652,
+      "guo_e2_fraction_mapped_interval": [
+        0.009900990099009903,
+        0.14390891190822702
+      ],
+      "e2_fraction_ratio_old_over_new": 13.850090490929396,
+      "ratio_scope": "conditional same photon branching, energies and normalizer; different experiments are not jointly refitted"
+    },
+    {
+      "energy_keV": 462,
+      "sensharma_delta_center": -2.98,
+      "guo_delta_center": -0.28,
+      "guo_delta_printed_interval": [
+        -0.97,
+        -0.05
+      ],
+      "guo_e2_fraction_center": 0.07270029673590506,
+      "guo_e2_fraction_mapped_interval": [
+        0.0024937655860349135,
+        0.48477510433304133
+      ],
+      "e2_fraction_ratio_old_over_new": 12.362941597836654,
+      "ratio_scope": "conditional same photon branching, energies and normalizer; different experiments are not jointly refitted"
+    }
+  ],
+  "pr135_813_same_parent": {
+    "locator": "Lv main p3 Table1, p5 Fig4(d); SI p5 Table1",
+    "photon_intensities_out_in": [
+      6.4,
+      3.7
+    ],
+    "Eout_Ein_MeV": [
+      0.8132,
+      0.726
+    ],
+    "delta": -0.37,
+    "rE2": 0.11812877089322014,
+    "rM1_muN2_per_e2b2": 0.3978505181425467,
+    "printed_rE2_error": [
+      0.12,
+      0.08
+    ],
+    "printed_rM1_error": [
+      0.4,
+      0.3
+    ]
+  },
+  "controls": {
+    "printed_guo_376_interval_stays_below_half_E2": true,
+    "printed_guo_462_interval_stays_below_half_E2": true,
+    "813_reconstruction_inside_printed_marginal_error_bands": true,
+    "wrong_P_as_delta_reproduces_spurious_88_sensitivity": true
+  },
+  "boundaries": [
+    "No absolute B, lifetime, Weisskopf-unit or physical strength collapse is inferred.",
+    "Mapped delta intervals retain the source graphical construction; no confidence level or joint covariance invented.",
+    "Marginal interval agreement is a coarse arithmetic check, not a reproduction of source error analysis.",
+    "For Au, conversion measurements are historical comparisons; external detector sensitivity is shared input lineage.",
+    "The last control diagnoses the earlier P/delta identity error; it is not a physical alternative delta."
+  ]
+}

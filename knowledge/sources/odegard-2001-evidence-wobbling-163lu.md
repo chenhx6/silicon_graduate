@@ -3,7 +3,7 @@ type: source
 title: "Ødegård et al. 2001 - Evidence for the Wobbling Mode in Nuclei"
 aliases: [Odegard 2001 163Lu wobbling, Evidence for the Wobbling Mode in Nuclei]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-10-24
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -60,7 +60,7 @@ PRL 86, 5866-5869 (2001), DOI `10.1103/PhysRevLett.86.5866`. The PDF title, DOI 
 ## Key Evidence and Reasoning Chain
 
 - Nine links + stable level placement → TSD2 is experimentally connected to TSD1 (PDF p.2, Figs.1-2).
-- DCO/angular distributions allow two `δ` branches; positive electric polarization rejects the small-magnitude branch → links are about `90.6(13)%` E2 (PDF p.3).
+- DCO/angular distributions allow two `δ` branches; electric-character polarization rejects the small-magnitude branch → links are about `90.6(13)%` E2 (PDF p.3).
 - Relative transition strengths and similar alignments/moments of inertia agree with the schematic wobbling calculation and disagree strongly with the cranking-like E2 prediction → authors assign TSD2 as `n_w=1` wobbling (PDF pp.3-4, Figs.3-5, Table I).
 
 ## Summary
@@ -179,4 +179,36 @@ Retain Fig. 5 and Table I as the first user-review targets; do not transfer this
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| OD01-D21-1 | 依据推断阶梯审计，Ødegård 2001 确立了核物理中唯一通过偏振检验的真正集体单声子摇摆基准：(1) 线偏振排他选解：DCO 与实测正偏振 P>0 唯一排除了小模解，锁定了大模解 delta = -3.10(+0.36/-0.44)，确立 90.6(13)% E2 跃迁优势；(2) 巨大带间电四极跃迁几率：B(E2_out)/B(E2_in) = 0.22(3)，对应 B(E2_out) ~ 25–35 W.u.，超单粒子跃迁数十倍；(3) 确立“带间 E2 优势必须依赖线偏振独立排除小模解”的核心证据门准则。 | source-result-and-criterion | direct-and-boundary | pp.5866-5869, Table I, Figs.2, 5; lu163-wobbling-phonon-audit-023.json | true |
+| OD01-D21-1 | superseded by checkpoint092：旧P>0、全核区唯一及25–35 W.u.直接测量认证撤回。原文仅报告电性质偏振选解、相对B及带模型比较；见OD01-D22-R092-1/2。 | task-correction | direct-original-audit | 本页R092原件条目；旧任务数值不认证 | true |
+
+## Day22 原件复核：一声子基准与两种alignment
+
+全文正文与图表实际重读；关键数据/图表视觉核验，raw哈希保持。以下仅Codex self-audit，原page review/既有claim flags不改；新增claims均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| OD01-D22-001 | 152MeV Euroball IV采集的DCO/角分布/偏振共同用于TSD2→TSD1混合比；作者将多个连接线在无可见spin依赖前提下平均为δ=−3.10(+.36/−.44)，以electric偏振排除另一−.22(+.05/−.03)解。该平均不是九条线各自独立测得同一个δ。 | experimental-analysis-and-dependence | direct-original | 5867, multipolarity paragraph; 5868, first paragraph | true |
+| OD01-D22-002 | 文中的σ/I=.25(.02)是磁子态布居宽度校准；Fig3另用Iref=25ω+45ω³（对应ℏ/MeV单位）定义实验i_x并比较J(2)。两种alignment概念必须分开；相近i_x/J(2)支持共同结构，但不是j沿主轴分量的直接测量。 | observable-identity-and-inference-boundary | direct-original-and-bounded-inference | 5867, final paragraph; 5868, Fig.3 caption | true |
+| OD01-D22-003 | 5869 Table I在43/2→41/2给λ=.36(.04)和平均δ，并将模型计算矩阵元配实测Eγ生成δ/λ；实验与schematic PRM比较支持作者一声子指认，模型列不是另一份实验。 | data-and-model-lineage | direct-original | 5869, Table I and notes | true |
+
+### Knowledge Impact and Learning Decision
+
+Supports/limits：保留作者的支持或反对解释，并将逐线测量、选解前提、模型结果和依赖链分开。四列比较与条件强度重建见[[wobbling-geometry-phonon-observable-contract]]；不以模型或跨采集中心值差替代新实验置信区间。
+
+
+## Day22 checkpoint092：163Lu原始观测与强度对象复核
+
+本次完整重读4页、视觉核5868的选解/参考与5869表；SHA256 0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379。未取得Ref.7全文/寿命producer。Crossref另核Ref.7两条书目身份：NPA539,112 DOI10.1016/0375-9474(92)90238-f；PLB303,230 DOI10.1016/0370-2693(93)91425-m。书目不是本轮直接寿命证据。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| OD01-D22-R092-1 | 作者用偏振判定definite electric character并排除−.22混合比解，采纳平均δ=−3.10(+.36/−.44)。本文没有给出P或A的数值/正负号，不能改写成实测P<0或P>0。本文由分支和δ给相对B，不新增TSD2寿命或25–35 W.u.绝对强度测量；p.5866的Qt≈10.7 b引自Ref.7早期实验。 | experimental-analysis-and-measurement-scope | direct-original-and-bounded-reconstruction | 5866, paragraph citing Ref.7; 5867–5868, multipolarity and first paragraph | true |
+| OD01-D22-R092-2 | 九条连接线、相近i_x/J(2)、电磁相对比与schematic PRM共同支持作者一声子解释；作者比较并排除其指定UC signature-partner/三准粒子方案。该局部模型比较不能扩张为全核区唯一、自然界只容TSD摆动，或独立测得j主轴矢量。 | author-interpretation-and-comparison-domain | direct-original-and-bounded-reconstruction | 5868, alternative-configuration paragraphs and Fig.3; 5869, Fig.5, Table I and Summary | true |
+
+## Day22 checkpoint122：既有原实验回读与缺测边界
+
+本次同SHA原件四页全文文本回读，fresh visual核5869 Fig5/TableI及其限制段；不是新增数据/寿命或重新测量偏振。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| OD01-D22-R122-1 | Fig5邻文明确交替自旋的一组连接因跃迁能量很低而受抑，数据不能给有意义的upper limits。缺少这些实验点不表示强度严格为零，也不能将模型zigzag图当作全部交替支路已独立测得。TableI所称E2/M1 approximately forbidden属于其crankinglike模型列，非普适守恒禁戒。 | missing-observable-and-model-zero-boundary | direct-original-and-bounded-inference | 5869Fig5paragraph/TableIfootnoteb | true |

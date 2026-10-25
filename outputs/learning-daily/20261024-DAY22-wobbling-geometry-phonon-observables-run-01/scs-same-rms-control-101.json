@@ -1,0 +1,80 @@
+{
+  "source_hashes": {
+    "raw/papers/2022_Chen_Frauendorf_Study of wobbling modes by means of spin coherent state maps.pdf": "ebe826198cf89f720478f0e525dd0b457b2c6eb227ae055de601b3cdd7c57a6b",
+    "raw/papers/2022_Chen_Frauendorf_Publisher Erratum.pdf": "d0bb7ad17dcac5be0442a0d37b58602b7e4eac01d321fc7bed88bfdec5b5ff82"
+  },
+  "source_formula": "CF22p4Eq17/19D2basis;p7Eq31–32map andmeasure;erratumFig15identity only",
+  "chosen_spin": 4,
+  "D2_basis_K": [
+    0,
+    2,
+    4
+  ],
+  "mixture_a": [
+    "23/60",
+    "4/15",
+    "7/20"
+  ],
+  "mixture_b": [
+    "17/60",
+    "2/5",
+    "19/60"
+  ],
+  "moments_a": {
+    "Jx2": "20/3",
+    "Jy2": "20/3",
+    "Jz2": "20/3",
+    "Jz4": "1408/15"
+  },
+  "moments_b": {
+    "Jx2": "20/3",
+    "Jy2": "20/3",
+    "Jz2": "20/3",
+    "Jz4": "1312/15"
+  },
+  "map_integrals": [
+    0.9999999999999998,
+    0.9999999999999998
+  ],
+  "point_comparison": [
+    {
+      "theta": 0,
+      "phi": 0,
+      "Qa_per_steradian": 0.12533451768486756,
+      "Qb_per_steradian": 0.1133978969529754
+    },
+    {
+      "theta": 1.5707963267948966,
+      "phi": 0,
+      "Qa_per_steradian": 0.11880667822211405,
+      "Qb_per_steradian": 0.11992573641572893
+    },
+    {
+      "theta": 1.5707963267948966,
+      "phi": 0.7853981633974483,
+      "Qa_per_steradian": 0.0770285056604915,
+      "Qb_per_steradian": 0.057258477573295136
+    },
+    {
+      "theta": 1.5707963267948966,
+      "phi": 1.5707963267948966,
+      "Qa_per_steradian": 0.11880667822211405,
+      "Qb_per_steradian": 0.11992573641572893
+    }
+  ],
+  "controls": {
+    "two_positive_normalized_mixtures": true,
+    "all_three_exact_second_moments_identical": true,
+    "different_exact_fourth_moments": true,
+    "two_SCS_maps_solid_angle_normalized": true,
+    "sampled_map_nonnegative": true,
+    "maps_differ_at_verified_point": true
+  },
+  "boundaries": [
+    "Arbitrary chosen mixed states inallowedD2subspace, not eigenstates ofthe sameHamiltonian or measurednuclearstates.",
+    "NoTW/LW/flip labels assigned; distinctmap aloneisnotanexperimental mode identification.",
+    "Thiscalculationuses densityperdOmega;CF22cylindricalP equalsQsin(theta).",
+    "Body-fixedphi signdoesnotchangethisrealD2-symmetricexample;generalphaseconventions stillmatter.",
+    "NoSCS tomography fromspectroscopicdata,transitiondensity orabsoluteB inferred."
+  ]
+}

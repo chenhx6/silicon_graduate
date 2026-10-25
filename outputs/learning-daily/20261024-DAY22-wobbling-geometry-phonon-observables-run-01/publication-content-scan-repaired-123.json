@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-25T06:32:04.732027+00:00",
+  "candidate_files": 217,
+  "scope": "Lexical-boundary-aware high-confidence pattern scan; no matching values printed. Not an exhaustive privacy certification.",
+  "hits": [],
+  "prior_diagnostic": "publication-content-scan-123.json retained; substring false positives resolved."
+}

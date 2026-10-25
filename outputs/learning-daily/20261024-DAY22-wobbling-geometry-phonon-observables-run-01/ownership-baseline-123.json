@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-25T06:28:02.941460+00:00",
+  "tracked_knowledge_baseline_matches_HEAD": true,
+  "mismatches": [],
+  "run_new_knowledge": [
+    "knowledge/methods/minimal-wobbling-identification-protocol.md",
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/methods/wobbling-criteria-card.md",
+    "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+    "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+    "knowledge/sources/tanabe-2018-reply-wobbling-stability.md"
+  ],
+  "scope": "Ownership/overlap only; does not certify scientific content."
+}

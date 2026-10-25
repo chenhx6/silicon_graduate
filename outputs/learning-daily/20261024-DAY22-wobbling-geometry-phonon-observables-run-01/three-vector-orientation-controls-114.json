@@ -1,0 +1,102 @@
+{
+  "raw_sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
+  "scope": "conditionalindependentlaboratoryspinoperatorprobe;notGR18produceridentification",
+  "commutator_identity": "chi=(i/4)[(jp+jn)^2,(jn+R)^2]",
+  "fixed_k_proof": "AnA-eigenstatehassameleft/rightAeigenvalue,soexpectationcommutatoriszero.",
+  "rows": [
+    {
+      "R": 2,
+      "jpn": 9,
+      "I": 9,
+      "jp_jn": 5.5,
+      "D_M9": 15,
+      "norm": 1.0,
+      "A_eigen_error": 7.993605777301127e-15,
+      "J2_eigen_error": 5.533323041707444e-15,
+      "chi_hermitian_error": 0.0,
+      "signed_chi_normalized": 0.0,
+      "signed_imaginary_rounding": 1.0142582418726478e-17,
+      "RMS_chi_normalized": 0.6791752497675932,
+      "Gram_of_pair_means_proxy": 0.9578632879180826,
+      "Gram_pair_mean_matrix": [
+        [
+          35.75,
+          9.25,
+          -1.5000000000000004
+        ],
+        [
+          9.25,
+          35.75,
+          -1.5
+        ],
+        [
+          -1.5000000000000004,
+          -1.5,
+          6.0
+        ]
+      ],
+      "conjugate_packet_witness": [
+        {
+          "chosen_relative_phase": 1,
+          "norm": 0.9999999999999998,
+          "g_for_chosen_source_like_operator": 0.5019999999999998,
+          "signed_chi_normalized": 0.4490964830416328,
+          "J2_error": 4.546495453326587e-15
+        },
+        {
+          "chosen_relative_phase": -1,
+          "norm": 0.9999999999999998,
+          "g_for_chosen_source_like_operator": 0.5019999999999998,
+          "signed_chi_normalized": -0.4490964830416328,
+          "J2_error": 4.546495453326587e-15
+        }
+      ]
+    },
+    {
+      "R": 4,
+      "jpn": 8,
+      "I": 9,
+      "jp_jn": 5.5,
+      "D_M9": 28,
+      "norm": 1.0000000000000002,
+      "A_eigen_error": 5.420799638382024e-15,
+      "J2_eigen_error": 7.442938238969287e-15,
+      "chi_hermitian_error": 0.0,
+      "signed_chi_normalized": 0.0,
+      "signed_imaginary_rounding": 1.66659635462754e-17,
+      "RMS_chi_normalized": 0.7081741040004296,
+      "Gram_of_pair_means_proxy": 0.9996282745943992,
+      "Gram_pair_mean_matrix": [
+        [
+          35.75,
+          0.25,
+          -0.49999999999999967
+        ],
+        [
+          0.25,
+          35.75,
+          -0.5000000000000009
+        ],
+        [
+          -0.49999999999999967,
+          -0.5000000000000009,
+          20.0
+        ]
+      ]
+    }
+  ],
+  "controls": {
+    "coupled_states_normalized_and_good_jpn_I": true,
+    "signed_chi_Hermitian_and_zero_in_fixed_jpn_state": true,
+    "RMS_positive_and_not_Gram_proxy": true,
+    "chosen_conjugate_packets_same_g_opposite_nonzero_signed_chi": true
+  },
+  "boundaries": [
+    "GR18Eq3literalformneedsRef14/authoroperatorconventionbeforeanypublication-errorclaim.",
+    "DoNOTsilentlyreplaceauthorssignednotationwithRMSorGramofmeans.",
+    "Gramproxycanapproach1inchosencouplingsbutdoesnotprovethatistheauthorsactualalgorithm.",
+    "Conjugatepacketsarechosencomplexsuperpositions,notstationarynuclearbandstatesorameasuredchiraldoublet.",
+    "Experimental g=.59(1)isnotrevised;paper PRMgeometryremainsauthor/modelclaim.",
+    "InitialCGprobeomittedabs(M)>Jguardandfailedbeforewriting;guardcorrectedwithsamephysicsinputs."
+  ]
+}

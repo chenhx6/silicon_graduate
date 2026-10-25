@@ -1,0 +1,146 @@
+{
+  "observed_at": "2026-10-25T06:31:22.677172+00:00",
+  "candidate_files": 217,
+  "scope": "High-confidence credential/signature pattern scan; no matched contents printed. Does not certify absence of every possible sensitive item.",
+  "hits": [
+    {
+      "path": "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/miller-2007-sega-polarization.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-092.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-093.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-094.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-095.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-098.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-100.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-102.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-103.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-110.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/pre-correction-114.json",
+      "pattern_indices": [
+        0
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/quarantined-knowledge-additions-097.json",
+      "pattern_indices": [
+        0
+      ]
+    }
+  ],
+  "diagnostic": "Unbounded sk- regex also matched the suffix within task-/risk- words; no matched values were printed. Superseded by lexical-boundary recheck."
+}

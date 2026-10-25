@@ -1,0 +1,75 @@
+{
+  "observed_at": "2026-10-25T03:57:52.970429+00:00",
+  "scope": "boundedofficialpublicendpointcheck,noinstitutionallogin/cookies/challengebypass",
+  "attempts": [
+    {
+      "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.69.031301",
+      "http": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5562,
+      "final_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.69.031301",
+      "valid_pdf": false
+    },
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.69.031301/fulltext",
+      "http": 401,
+      "content_type": "application/json",
+      "bytes": 66,
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.69.031301/fulltext",
+      "valid_pdf": false
+    }
+  ],
+  "prior_downloader_manifest": {
+    "version": 2,
+    "generated_at": "2026-10-25T03:56:16.824Z",
+    "request": {
+      "topic": "",
+      "title": "",
+      "dois": [
+        "10.1103/PhysRevC.69.031301"
+      ],
+      "pdf_url": "",
+      "si_requested": false,
+      "language_override": "",
+      "route_override": "open_access",
+      "source_url": "",
+      "api_fallback_web": null,
+      "api_fallback_web_for": [],
+      "no_api_fallback_web_for": []
+    },
+    "summary": {
+      "total": 1,
+      "downloaded": 0,
+      "seconds": 5
+    },
+    "results": [
+      {
+        "doi": "10.1103/physrevc.69.031301",
+        "title": "Quadrupole moments of wobbling excitations in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mi mathvariant=\"normal\">Lu</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>163</mml:mn></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math>",
+        "language": "en",
+        "publisher": "American Physical Society (APS)",
+        "route": "open_access",
+        "route_reason": "explicit_override",
+        "si_requested": false,
+        "status": "oa_not_found",
+        "provider": "open_access",
+        "oaAssessment": "confirmed_oa",
+        "oaChecks": {
+          "pmc": {
+            "checked": true,
+            "pmcid": "",
+            "error": ""
+          },
+          "unpaywall": {
+            "checked": true,
+            "error": "",
+            "is_oa": false
+          },
+          "crossref_license": "http://link.aps.org/licenses/aps-default-license"
+        },
+        "oaAttempts": []
+      }
+    ]
+  },
+  "raw_modified": false
+}

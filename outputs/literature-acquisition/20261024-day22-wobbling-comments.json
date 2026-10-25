@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-10-24T16:08:16.522509+08:00",
+  "papers": [
+    {
+      "doi": "10.1103/PhysRevC.97.069801",
+      "version_verified_from_first_page": "accepted manuscript with CHORUS cover",
+      "source_url": "https://link.aps.org/accepted/10.1103/PhysRevC.97.069801",
+      "file": "raw/papers/gpt/_incoming/20261024-day22-wobbling-comments/frauendorf-2018-comment-stability-accepted.pdf",
+      "sha256": "06179c2ab9d669651d1da3bd5aadf91e2e9ce2c3ae38babdf80b90c428408191",
+      "bytes": 769114,
+      "pages": 4,
+      "identity_verified": true,
+      "archive_scope": "new public external input in daily-learning ingress; no pre-existing raw overwritten",
+      "bib_key": "not matched; left empty"
+    },
+    {
+      "doi": "10.1103/PhysRevC.97.069802",
+      "version_verified_from_first_page": "publisher version of record",
+      "source_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.97.069802",
+      "file": "raw/papers/gpt/_incoming/20261024-day22-wobbling-comments/tanabe-2018-reply-stability-publisher.pdf",
+      "sha256": "76185615c6d990f923926f21ca75b503fbe687b55625cb26eb9a228ee78dc3a8",
+      "bytes": 172883,
+      "pages": 2,
+      "identity_verified": true,
+      "archive_scope": "new public external input in daily-learning ingress; no pre-existing raw overwritten",
+      "bib_key": "not matched; left empty"
+    }
+  ],
+  "attempts": {
+    "comment_downloader": "tmp/day22-comment-downloads/manifest.json",
+    "reply_accepted_404": "tmp/day22/reply-retrieval-004.json",
+    "reply_publisher_200": "tmp/day22/reply-publisher-retrieval-004.json"
+  },
+  "supporting_information": "attempted by downloader; CDP unavailable, no SI retrieved; no GUI started",
+  "oa_boundary": "accepted public endpoint and publisher public PDF; copyright/license retained; no claim of open redistribution license",
+  "publication_boundary": "PDFs excluded from ordinary Git stage; source URL/hash/locators provide reproducibility"
+}

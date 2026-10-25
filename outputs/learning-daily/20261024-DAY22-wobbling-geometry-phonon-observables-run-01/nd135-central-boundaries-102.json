@@ -1,0 +1,44 @@
+{
+  "scope": "printedcentralarithmetic,notexperimentalQtintervalorjointCI",
+  "raw_sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
+  "locator": "MU07printed172501-2TableI",
+  "spins": [
+    15.5,
+    16.5,
+    17.5,
+    18.5,
+    19.5
+  ],
+  "B_E2_A": [
+    0.32,
+    0.32,
+    0.32,
+    0.32,
+    0.13
+  ],
+  "B_E2_B": [
+    0.28,
+    0.28,
+    0.28,
+    0.29,
+    0.11
+  ],
+  "sqrt_Bratio_proxy": [
+    0.9354143466934854,
+    0.9354143466934854,
+    0.9354143466934854,
+    0.9519716382329885,
+    0.9198662110077999
+  ],
+  "mean_proxy": 0.9356161778642489,
+  "population_std_over_five_centers": 0.010155636339660152,
+  "E2_center_drop_37to39_A": 2.4615384615384617,
+  "E2_center_drop_37to39_B": 2.6363636363636362,
+  "ratio_of_drop_centers": 1.071022727272727,
+  "boundaries": [
+    "sqrt(BB/BA)equalsQtproxyonlyundercommonmatrixelementgeometry;notmeasuredoverallintrinsicshape.",
+    "Across-spincenterdispersionisnotpropagatedexperimentaluncertainty.",
+    "Fullcross-state/cross-bandCovandactualgammaidentitieswerenotreconstructed.",
+    "Authorchiralinterpretationretained;noall-alternativeexclusioninferred."
+  ]
+}

@@ -130,3 +130,12 @@ Page and all CH19 claims remain unreviewed with `needs_review: true`. Human revi
 | CH19-D18-1 | **superseded**：旧关于“无法确立横向wobbling”的断言降格，由CH19-D18-2/3分层记录作者对130Ba带间跃迁72%-75% M1主导的承认与两准粒子/剪刀振动物理机制解释。 | task-correction | superseded-interpretation | 本段D18-2/3；旧chen19-130ba-wobbling-result-029 | true |
 | CH19-D18-2 | 本文Table I报告130Ba两准粒子带S1_prime向S1连接线混合比为delta = -0.58至-0.62，对应E2份额25.2%-27.8%、M1份额72.2%-74.8%；作者明确指出该跃迁以磁偶极为主，并将其解释为两准粒子构型中大内禀磁矩与剪刀振动模式耦合带来的M1增强。 | source-result-and-method | direct | PDF pp.2-3 Table I；Sec. III | true |
 | CH19-D18-3 | PRM理论计算在I=13至21范围内预测B(M1_out)/B(E2_in)为0.63至1.11，系统高出实验测量（0.23至0.43）1.47至3.30倍；作者指出这反映了模型对集体声子与粒子自由度耦合强度的过高估计，但能量与角动量取向仍支持两准粒子横向摆动图像。 | author-interpretation-boundary | direct-and-boundary | PDF pp.2-3 Table I；Sec. IV | true |
+
+## Day22 checkpoint091 直接原件纠错
+
+本次读本地5页全文，视觉核061301-2 Table I/参数与061301-3说明；未复跑CDFT/PRM或原实验。SHA256 26e305b496b2fdff4596670f772e3b030540b3c24d0830b8e4b4176c8070c768。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CH19-D22-R091-1 | Table I在I=13/15/17给实验输入δ=−.58(.13)/−.62(.10)/−.62(.10)，rE2=.32(+.18/−.15)/.36(+.70/−.19)/.22(+.27/−.10)。它们是复用早期谱学的相对值。作者明确约25% E2仍可与集体E2增强及两准粒子TW模型相容，不能由M1份额较大直接改判为磁转动剪刀带。 | source-reported-ratios-and-interpretation | direct-original | 061301-2, Table I; 061301-3, electromagnetic discussion | true |
+| CH19-D22-R091-2 | 角分布选小模δ因χ²较低，但作者说明大模解不能仅由角分布完全排除。惯量参数按两带能量调整；Fig.2–3给模型取向分布/RMS而非实验测量。支持解释与选解、定标边界须同时保留。 | model-dependency-and-experimental-limit | direct-original | 061301-2, paragraphs below Table I and PRM parameters; 061301-3, Figs.2–3 | true |

@@ -1,0 +1,16 @@
+{
+  "status": "primary-metadata-identified-fulltext-not-obtained",
+  "doi": "10.1103/PhysRevC.69.031301",
+  "title": "Quadrupolemoments ofwobblingexcitationsin163Lu",
+  "routes": {
+    "generic_OA": "notfound",
+    "APS_pdf": 403,
+    "APS_harvest": 401,
+    "eScholarship_cloudfront": 403,
+    "eScholarship_canonical_landing": "202empty",
+    "OSTI_API": "connectionrefused"
+  },
+  "next_step": "authorizedaccessiblebodyornewpublicrepositoryroutewhenstatechanges;donotretrysamebarriersblindly",
+  "no_experimental_Qt_or_lifetime_imported": true,
+  "global_research_blocker": false
+}

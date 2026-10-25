@@ -1,0 +1,57 @@
+{
+  "observed_at": "2026-10-25T14:35:37.455686+08:00",
+  "day_index": 22,
+  "status": "readiness-only-not-credit",
+  "earliest_formal_closeout": "2026-10-25T15:00:00+08:00",
+  "scope": "Agent assessment of matrix deliverables and evidence presence, not an automated science certification or human review.",
+  "deliverables": [
+    {
+      "deliverable": "回忆",
+      "evidence": "knowledge/methods/wobbling-criteria-card.md",
+      "assessment": "TW/LW geometric convention, harmonic phonon versus full topology, E2 photon fraction versus relative/absolute reduced strength, two alignment meanings explicitly separated.",
+      "status": "ready-uncredited",
+      "existence_checked": true
+    },
+    {
+      "deliverable": "主线",
+      "evidence": "source-mainline-recheck-121.json",
+      "assessment": "F14 all12/H03 all5 mainline reread plus specified critical visual checks; wobbling-motion concept integrated; no original producer claim.",
+      "status": "ready-uncredited",
+      "existence_checked": true
+    },
+    {
+      "deliverable": "练习",
+      "evidence": "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+      "assessment": "Four observables provided for several explicit band pairs, with source identity, fit points, missing lines and units.",
+      "status": "ready-uncredited",
+      "existence_checked": true
+    },
+    {
+      "deliverable": "反证",
+      "evidence": "knowledge/projects/135pr-wobbling-controversy.md",
+      "assessment": "135Pr actual support/counterdata shows near bands/E2 alone do not uniquely assign phonon; no claim TiP uniquely established.",
+      "status": "ready-uncredited",
+      "existence_checked": true
+    },
+    {
+      "deliverable": "判据卡",
+      "evidence": "knowledge/methods/wobbling-criteria-card.md",
+      "assessment": "Necessary model-domain tests, supporting observations, counterexamples, companion observables and source dependence recorded without universal numerical thresholds.",
+      "status": "ready-uncredited",
+      "existence_checked": true
+    }
+  ],
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    22,
+    23
+  ],
+  "next_day_index": 22,
+  "remaining_gates": [
+    "actual hard-deadline closeout event",
+    "final report and latest required checks",
+    "same-session original runner finalization",
+    "next prompt and receipts",
+    "explicit staged review and H3 non-force publication"
+  ]
+}

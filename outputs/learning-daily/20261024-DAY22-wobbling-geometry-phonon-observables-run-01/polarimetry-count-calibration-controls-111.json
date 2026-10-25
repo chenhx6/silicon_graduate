@@ -1,0 +1,73 @@
+{
+  "raw_sha256": "a334ee35a84ded50f6a7937c037ee13d2d06b2f8406b0c68fac1a4245999acf3",
+  "source": "printed714Eqs5/6,716selectionfractions,718Outlook",
+  "convention": "A=(Nperp-a*Nparallel)/(Nperp+a*Nparallel),a=Uperp/Uparallel;otherCloverconventionusesreciprocala",
+  "Jacobian_P_wrt_x_y_a_Q": [
+    0.01967729240456513,
+    -0.0028335301062573782,
+    -29.515938606847694,
+    -4.638218923933209
+  ],
+  "finite_difference_Jacobian": [
+    0.01967729240474429,
+    -0.0028335301063719953,
+    -29.515938607282965,
+    -4.638218924213344
+  ],
+  "chosen_nonzero_A_case": {
+    "x": 180.0,
+    "y": 1250.0,
+    "a": 0.12,
+    "Q": 0.14,
+    "A": 0.09090909090909091,
+    "Poisson_varA": 0.0015627347858752818,
+    "conditional_Fisher_varA": 0.0015627347858752818
+  },
+  "photopeak_example": {
+    "Npeak": 5000,
+    "rounded_perp_fraction": 0.03,
+    "rounded_parallel_fraction": 0.25,
+    "selected_counts": [
+      150.0,
+      1250.0
+    ],
+    "selected_sum": 1400.0,
+    "chosen_known_a_from_rounded_fractions": 0.12,
+    "Q_chosen_from_source_table": 0.14,
+    "conditional_sigmaP": 0.30860669992418377,
+    "naive_using_photopeak_as_balancedselected_sigmaP": 0.10101525445522105
+  },
+  "calibration_degeneracy_witness": {
+    "mean_counts": [
+      954.0,
+      940.0
+    ],
+    "case0": {
+      "Q": 0.2,
+      "P": 0.3,
+      "a": 0.9,
+      "c": 1000.0
+    },
+    "case1": {
+      "Q": 0.2,
+      "P": -0.3,
+      "a": 1.1444545043005885,
+      "c": 886.7924528301886
+    },
+    "model": "mu_perp=a*c*(1+Q*P),mu_parallel=c*(1-Q*P)"
+  },
+  "controls": {
+    "reciprocal_a_conventions_agree_for_nonzero_A": true,
+    "analytic_jacobian_matches_finite_difference": true,
+    "Poisson_variance_matches_conditional_binomial_Fisher": true,
+    "source_rounded_photopeak_example_has_sigmaP_near_point31": true,
+    "opposite_physical_P_same_positive_target_means_without_a_calibration": true
+  },
+  "boundaries": [
+    "AllstatisticsconditionalonindependentPoisson,exclusivebins,knownbackground-freepositivecounts;realnetpeakfitsneedtheiractualCov/likelihood.",
+    "Rounded3%/25%andQ.14exampleisnotnewSeGAcalibrationoritsactualconfidenceinterval.",
+    "UnknownaunconstrainedwitnessdoesnotshowambiguitywithinactualmeasuredCloverauncertainties.",
+    "FullVarP=g^T Sigma g;ifcalibrationisuncertaincorrelationsmustbekept;nosourceunitspreadtreatedastargetsigma.",
+    "NoQ,selectedefficiency,rate,CLorpowerisassignedto225.8keV/JYFL/AGATA."
+  ]
+}

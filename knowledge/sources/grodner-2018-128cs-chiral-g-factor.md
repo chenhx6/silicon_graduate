@@ -146,3 +146,32 @@ Knowledge Impact and Learning Decision：limits把R(t)振幅衰减当人口寿�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | GR18-D19-9 | Fig4的A/B/C为不同configuration-fixedCDFT输入后PRM扫gamma0–60deg所得g–orientation曲线，固定beta.23、gR.41（来自128Xe2+）和Jcore12hbar²/MeV，gs取.6free。作者配置A取gamma23.8deg得g约.58、orientation约.15；图上实验g为单一黑线，orientation是模型输出。高spinps态没有在本文用同一TDPAD技术新测g，结论明确需新技术。 | actual-visual-and-model-domain | direct-original-model | PDF4 Eq3/Fig4 and parameters; PDF5 conclusion | true |
+
+## Day22 checkpoint114：signed orientation、RMS和半经典代理的未决定义
+
+本轮定向读PDF3–5，视觉核p4 Eq3/Fig4。实测g保持作者结果；以下只标记理论orientation的解释域，不宣判论文/PRM错误或静默修公式。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR18-D22-R114-1 | Eq3字面给⟨(jp×jn)·jR⟩除以Casimir范数，未在该式写absolute或平方根二次矩；邻文又称指定单耦合k9/R2及k8/R4/J9有近1orientation。若采用usual independent laboratory spin operator，令A=(jp+jn)²、B=(jn+R)²，有χ=(i/4)[A,B]，固定k态必⟨χ⟩=0。此条件解释与字面近1如何兼容需Ref14/producer约定；本文不把signed式自行改成RMS/Gram，也不由该问题更改实验g=.59(1)。 | literal-definition-and-conditional-operator-question | direct-original-and-task-proof | 022502-4Eq3andfixedcouplingsparagraph;Ref14NPA682,375(2001) | true |
+| GR18-D22-R114-2 | 任务对jp=jn=11/2、I9的上述两fixedk/R态独立CG构造，得到normalized signedχ均0、RMS为.67918/.70817、Gram(pairmean)代理为.95786/.99963。三量不同；代理近1不能证明它就是作者算法。另选k9±i k10共轭packet可给同chosen g=.502、相反signedχ≈±.4491，但不是实际核band本征态/双重带。四项归一/好量子数/Hermitian/信息边界控制通过；原实验、原PRM工作和body-fixed/lab算符约定未重跑。 | conditional-angular-momentum-control | task-mathematics-not-experimental-data | 022502-3Eq2/4Eq3context;three-vector-orientation-controls-114.json | true |
+
+Ref14元数据已核为Starosta等“Chirality in odd–odd triaxial nuclei”, NPA682,375–386(2001), DOI10.1016/S0375-9474(00)00663-1；正文未取得，OAroute未命中，不把metadata当operator定义。现有raw StarostaPRL86,971是另一篇，不能替代。后续需要该原定义/计算约定，暂不将⟨o⟩数值作可直接测得的手征order parameter。
+
+## Day22 checkpoint116：完全伸展态区分RMS与Gram代理
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR18-D22-R116-1 | 延续R114的usual independent lab spin条件控制，另取jp=jn=11/2、R=2、I=M=13的完全伸展乘积态。固定M空间一维，实际三重积算符χ作用为零，signed期望和RMS均0；由⟨ji·jj⟩及Casimir构成的Gram代理却为.33234568。一般完全伸展态的该代理为sqrt[(I+1)/((jp+1)(jn+1)(R+1))]，非零来自Casimir横向量子涨落，不是观测到非共面几何。 | conditional-operator-counterexample | task-mathematics-not-experimental-data | 022502-4Eq3context;three-vector-orientation-controls-116.json | true |
+
+此伸展态不是本文9+异能态，也不是原文给出的两组固定耦合。它只完成已开的定义检查：不能把Gram-of-means、signedχ和RMS互相替换；仍须Ref14正文或原producer确认作者约定，不由此宣判原论文错误或更改实验g。五项限定控制通过。
+
+117补独立算符回证：直接以三个Cartesian自旋分量的六项Levi-Civita和构造χ，再与commutator比较，三个chosen态误差≤5.0e−14；伸展Gram解析式亦与CG矩阵独立一致。七项限定控制通过，仍非作者producer或实验几何重放。
+
+## Day22 checkpoint119：平方三重积的精确关联项
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR18-D22-R119-1 | 对三个通常独立lab自旋、ħ=1，定义A=jp·jn、B=jn·R、C=R·jp，Si=ji(ji+1)，Sym(ABC)是六种次序的平均。精确χ²=S1S2S3−S1B²−S2C²−S3A²+2Sym(ABC)−[S3A+S2C+S1B+{A,B}+{B,C}+{C,A}]/3。直接Cartesian矩阵对该式在当前三个chosen耦合控制误差≤1.9e−12；非将原Eq3改为此式或辨认其producer。 | conditional-exact-operator-identity | task-derivation-and-independent-matrix-check | 022502-4Eq3context;three-vector-orientation-controls-119.json | true |
+
+推导使用各自旋分量积ji,a ji,b={ji,a,ji,b}/2+i εabc ji,c/2，再收缩两个Levi-Civita张量。恢复有量纲角动量时最后方括号乘ħ²；这里全部j为无量纲。取期望后仍有二阶方差、对称三乘积及反对易关联项，不能把它们分别替换成各平均值乘积。小spin全空间算术probe亦相符，仅为同一算符推导的控制；初选SymPy不可用后改以NumPy显式epsilon求和，无新增依赖。八项当前限定控制通过，不改变GR18实测g/作者PRM解释和Ref14缺口。

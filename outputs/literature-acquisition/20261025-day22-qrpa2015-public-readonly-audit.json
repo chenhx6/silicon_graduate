@@ -1,0 +1,76 @@
+{
+  "observed_at": "2026-10-25T03:56:12.980306+00:00",
+  "tool_manifest": {
+    "version": 2,
+    "generated_at": "2026-10-25T03:49:28.002Z",
+    "request": {
+      "topic": "",
+      "title": "",
+      "dois": [
+        "10.1103/PhysRevC.92.064306"
+      ],
+      "pdf_url": "",
+      "si_requested": false,
+      "language_override": "",
+      "route_override": "open_access",
+      "source_url": "",
+      "api_fallback_web": null,
+      "api_fallback_web_for": [],
+      "no_api_fallback_web_for": []
+    },
+    "summary": {
+      "total": 1,
+      "downloaded": 1,
+      "seconds": 7.9
+    },
+    "results": [
+      {
+        "doi": "10.1103/physrevc.92.064306",
+        "title": "Quasiparticle-random-phase approximation treatment of the transverse wobbling mode reconsidered",
+        "language": "en",
+        "publisher": "American Physical Society (APS)",
+        "route": "open_access",
+        "route_reason": "article_level_oa",
+        "si_requested": false,
+        "status": "open_access_downloaded",
+        "provider": "open_access",
+        "accessMode": "open_access",
+        "oaEvidence": {
+          "source": "publisher_oa",
+          "url": "http://link.aps.org/accepted/10.1103/PhysRevC.92.064306",
+          "format": "pdf",
+          "version": "publishedVersion",
+          "license": "http://link.aps.org/licenses/aps-default-license"
+        },
+        "ok": true,
+        "file": "/workspace/wiki/tmp/day22-evidence-correction/qrpa2015-acquisition/PDFs/Quasiparticle-random-phase_approximation_treatment_of_the_transverse_wobbling_mode_reconsidered.pdf",
+        "bytes": 1055382,
+        "sha256": "7204f8de785469c3e7475fffaae6f1abd82c4d40c7274098bf0252465296f5bc",
+        "contentType": "application/pdf",
+        "format": "pdf",
+        "source": "http://link.aps.org/accepted/10.1103/PhysRevC.92.064306",
+        "oaAttempts": []
+      }
+    ]
+  },
+  "manual_verification": {
+    "actual_version": "accepted manuscript;CHORUScoverPDFp1explicit",
+    "doi": "10.1103/PhysRevC.92.064306",
+    "pdf_pages": 13,
+    "bytes": 1055382,
+    "sha256": "7204f8de785469c3e7475fffaae6f1abd82c4d40c7274098bf0252465296f5bc",
+    "reading_scope": "mainphysicaltextPDF2–13read;visualPDF11/12,cover1;originalcodeandfullinputnotobtained",
+    "license_boundary": "defaultAPSlicense;publiclyaccessibleAMnotCCreusepermission",
+    "machine_metadata_correction": "toolpublishedVersion/OAlabelnotadoptedasVoR/openreusecertification",
+    "SI_choice": "mainonly/no-siunderexistingautoautonomy;SIavailabilitynotverified",
+    "raw_archive_status": "deferred;stagingonly,noexistingrawwritten",
+    "formal_new_source_ingest": false,
+    "primary_readonly_vs_existing_review": "sourceF24existingreviewmaybetargetedreviewedusingpubliccompanion;newpaperisnotclaimedraw-archived"
+  },
+  "candidate_info_gain": [
+    "LLinteractionincreaseswobblingenergyandquenchesM1whileE2remainslow",
+    "ReviewF24Fig35captioncallsratio,butordinateandAMFig13showabsoluteBM1",
+    "Reviewcallsneighbor164Yb;AMcalculates162Ybandcomparestosystematicsnotmeasuredspectrum",
+    "AMRef17identifiesGorgen2004quadrupolemomentsprimaryroute"
+  ]
+}

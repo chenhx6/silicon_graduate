@@ -1,0 +1,248 @@
+{
+  "raw_sha256": {
+    "AG07": "83ccf538913d777f60832ee7ff304ffa8ca0678399b893f827236a6ab33c6a55",
+    "CHI01": "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e"
+  },
+  "AG07_locator": "024321-4 TableI and024321-5/6 ratio equation",
+  "AG07_rows": [
+    {
+      "spin": 14.5,
+      "EM1_keV": 321,
+      "IM1": 50.9,
+      "EE2_keV": 432.6,
+      "IE2": 1.6,
+      "R_computed_muN2_per_e2b2": 10.156593152980303,
+      "R_printed": 10.4,
+      "fractional_central_residual": -0.023404504521124737
+    },
+    {
+      "spin": 15.5,
+      "EM1_keV": 341.5,
+      "IM1": 34,
+      "EE2_keV": 662.5,
+      "IE2": 7.1,
+      "R_computed_muN2_per_e2b2": 10.695735029698714,
+      "R_printed": 10.5,
+      "fractional_central_residual": 0.018641431399877496
+    },
+    {
+      "spin": 16.5,
+      "EM1_keV": 483.4,
+      "IM1": 26.8,
+      "EE2_keV": 824.1,
+      "IE2": 3.6,
+      "R_computed_muN2_per_e2b2": 17.460018673409188,
+      "R_printed": 17.2,
+      "fractional_central_residual": 0.015117364733092355
+    },
+    {
+      "spin": 17.5,
+      "EM1_keV": 478,
+      "IM1": 17.9,
+      "EE2_keV": 961.7,
+      "IE2": 2.3,
+      "R_computed_muN2_per_e2b2": 40.857554007867506,
+      "R_printed": 41.2,
+      "fractional_central_residual": -0.008311795925546036
+    },
+    {
+      "spin": 18.5,
+      "EM1_keV": 341.4,
+      "IM1": 14.7,
+      "EE2_keV": 819.4,
+      "IE2": 1.4,
+      "R_computed_muN2_per_e2b2": 67.93777586614559,
+      "R_printed": 62.1,
+      "fractional_central_residual": 0.09400605259493694
+    },
+    {
+      "spin": 19.5,
+      "EM1_keV": 408.4,
+      "IM1": 14.6,
+      "EE2_keV": 749.2,
+      "IE2": 1,
+      "R_computed_muN2_per_e2b2": 35.26283923317346,
+      "R_printed": 33.3,
+      "fractional_central_residual": 0.05894412111632018
+    },
+    {
+      "spin": 20.5,
+      "EM1_keV": 465.5,
+      "IM1": 8.9,
+      "EE2_keV": 872.3,
+      "IE2": 1.9,
+      "R_computed_muN2_per_e2b2": 16.34705373521502,
+      "R_printed": 17.2,
+      "fractional_central_residual": -0.04958989911540576
+    },
+    {
+      "spin": 21.5,
+      "EM1_keV": 507.2,
+      "IM1": 5.7,
+      "EE2_keV": 972.1,
+      "IE2": 1.1,
+      "R_computed_muN2_per_e2b2": 24.02879153448544,
+      "R_printed": 18.5,
+      "fractional_central_residual": 0.2988535964586724
+    },
+    {
+      "spin": 22.5,
+      "EM1_keV": 576.7,
+      "IM1": 2.4,
+      "EE2_keV": 1083.6,
+      "IE2": 1,
+      "R_computed_muN2_per_e2b2": 13.029841936919523,
+      "R_printed": 12.8,
+      "fractional_central_residual": 0.01795640132183765
+    },
+    {
+      "spin": 23.5,
+      "EM1_keV": 657.4,
+      "IM1": 2.6,
+      "EE2_keV": 1233.7,
+      "IE2": 1,
+      "R_computed_muN2_per_e2b2": 18.229084181488552,
+      "R_printed": 18.9,
+      "fractional_central_residual": -0.03549819145563207
+    }
+  ],
+  "constructed_absolute_witness_A": [
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.20800000000000002
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.21
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.344
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.8240000000000001
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 1.242
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.6659999999999999
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.344
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.37
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.256
+    },
+    {
+      "B_E2_e2b2": 0.02,
+      "B_M1_muN2": 0.378
+    }
+  ],
+  "constructed_absolute_witness_B": [
+    {
+      "B_E2_e2b2": 0.09615384615384615,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.09523809523809523,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.05813953488372093,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.024271844660194174,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.01610305958132045,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.030030030030030033,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.05813953488372093,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.05405405405405406,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.078125,
+      "B_M1_muN2": 1.0
+    },
+    {
+      "B_E2_e2b2": 0.052910052910052914,
+      "B_M1_muN2": 1.0
+    }
+  ],
+  "CHI01_locator": "054314-19 TableV;054314-21–23 discussion andFig12",
+  "In108_reported": {
+    "Band2": {
+      "spin_parity": [
+        "14-",
+        "15-",
+        "16-"
+      ],
+      "B_M1_muN2": [
+        0.911,
+        0.6,
+        0.398
+      ]
+    },
+    "Band3": {
+      "spin_parity": [
+        "16+",
+        "17+",
+        "18+",
+        "19+"
+      ],
+      "B_M1_muN2": [
+        2.48,
+        2.38,
+        1.71,
+        5.22
+      ],
+      "B_E2_e2b2_at18_19": [
+        0.059,
+        0.169
+      ],
+      "tau_ps_at18_19": [
+        0.158,
+        0.055
+      ]
+    }
+  },
+  "central_ratios_no_new_CI": {
+    "137Pr_R37over41": 3.61046511627907,
+    "108In_BM1_band2_14over16": 2.28894472361809,
+    "108In_BM1_band3_19over18": 3.052631578947368
+  },
+  "controls": {
+    "all_ten_rounded_ratio_centers_within_3percent_of_print": false,
+    "ratio_not_monotone_across_observed_sequence": true,
+    "two_positive_absolute_witnesses_same_ratios": true,
+    "actual_108In_band3_has_alignment_upturn": true
+  },
+  "boundaries": [
+    "AG07 assumes negligible M1/E2 mixing in dipole branch; no absolute lifetime measured there.",
+    "No uncertainties, covariance, confidence interval or experimental significance reconstructed.",
+    "Chosen positive absolute witnesses are arbitrary scale examples, not measurements or claims of physical model feasibility.",
+    "CHI01 rates are author-derived fromDSAM/branching/ICC; quoted errors exclude stopping systematics up to20percent.",
+    "No universal shears angle, deformation threshold or cross-nucleus M1 magnitude gate follows."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "scope": "taskdefinedmatchednullcalibrationmodel;notactualtargetdataorproposalpower",
+  "source_context": "Miller2007Eqs5/6andcurrentconditionalcountcontract",
+  "convention": "MillerA=(x-a*y)/(x+a*y),a=Uperp/Uparallel",
+  "chosen_integer_table_target_perp_parallel_cal_perp_parallel": [
+    954,
+    940,
+    900,
+    1000
+  ],
+  "declared_known_Q": 0.2,
+  "declared_true_A": 0.06,
+  "estimate": {
+    "A": 0.05999999999999998,
+    "P": 0.2999999999999999,
+    "Jacobian": [
+      0.002611111111111111,
+      -0.0026499999999999996,
+      -0.0027677777777777774,
+      0.0024909999999999997
+    ],
+    "local_varP": 0.026205043222222217
+  },
+  "conditional_null": "Xtargetperp|row/columnmargins ~ Hypergeom(Ntotal,Kperp,Ntarget)",
+  "conditional_alternative_odds": "omega=(1+A)/(1-A)",
+  "exact_one_sided_null_pvalue_for_chosen_table": 0.034633981366088244,
+  "four_times_chosen_table_pvalue": 0.00011564966800106975,
+  "full_Fisher_local_varP": 0.02620504322222221,
+  "target_only_Fisher_rank": 2,
+  "unmatched_calibration_counter_witness": {
+    "target_A": 0.0,
+    "target_a": 1.0148936170212766,
+    "target_ct": 940.0,
+    "calibration_a": 0.9,
+    "calibration_cc": 1000.0
+  },
+  "central95_conditional_interval": {
+    "log_odds_lower": -0.009305576669738393,
+    "log_odds_upper": 0.24959483193506055,
+    "A_lower": -0.004652754759958003,
+    "A_upper": 0.1241535454095967,
+    "one_sided_log_odds_lower": 0.011157690717066057,
+    "one_sided_A_lower": 0.005578787481493503,
+    "P_interval_with_chosen_knownQ": [
+      -0.023263773799790013,
+      0.6207677270479834
+    ],
+    "P_one_sided_lower_with_chosen_knownQ": 0.027893937407467515
+  },
+  "small_margin_coverage_enumeration": [
+    {
+      "logodds": -2.0,
+      "conditional_coverage": 0.9987539739924106
+    },
+    {
+      "logodds": -0.12,
+      "conditional_coverage": 0.9842519748334162
+    },
+    {
+      "logodds": 0.0,
+      "conditional_coverage": 0.9848484848484849
+    },
+    {
+      "logodds": 0.12,
+      "conditional_coverage": 0.9842519748334163
+    },
+    {
+      "logodds": 2.0,
+      "conditional_coverage": 0.9987539739924104
+    }
+  ],
+  "interval_controls": {
+    "inverted_central_tails_match_alpha_over_two": true,
+    "one_sided_lower_tail_matches_alpha": true,
+    "central95_contains_zero_but_one_sided95_lower_positive": true,
+    "small_margin_exact_enumeration_coverage_not_below95_at_chosen_parameters": true,
+    "boundary_tables_retain_infinite_odds_limits": true
+  },
+  "controls": {
+    "conditional_null_independent_of_a_and_exposure_parameters": true,
+    "conditional_alt_equals_noncentral_hypergeometric_odds": true,
+    "four_count_local_variance_equals_full_Poisson_Fisher_inverse": true,
+    "calibrator_restores_full_rank_but_target_alone_does_not": true,
+    "increased_chosen_exposure_retains_estimate_and_reduces_pvalue": true,
+    "unmatched_a_zeroP_can_mimic_entire_four_count_means": true
+  },
+  "boundaries": [
+    "IndependentrawpositivePoissoncells,exclusiveevents,no background,knownphysicalnullcalibration,shareda/matchedenergy/geometry/gates/weightsareassumptions.",
+    "Realnetpeakfitcountsandsharedreference/eventsubsetsneedactualjointlikelihood/Cov,notthisfourindependentcellmodel.",
+    "Qisknownonlybychoice;signtestrequiresknownpositiveQsign,absoluteP/amplituderequiresQcalibration.",
+    "Thechosenfourcountsarenotactualobservations,expectedfacilityratesorbeamtimeallocation.",
+    "Exactconditionalpvaluerejectsthedeclaredshared-aP0null,notallnonchiral/chiral/wobblingmodels.",
+    "Unmatchedaresponsecanmimiccontrast,soalowstatisticalpvaluealonecannotvalidatephysicalcalibration.",
+    "Localvarianceisnotafinite-sampleCIorunbiasednessclaim.",
+    "Exactconditionalintervals118applyonlytothisdeclaredfourcellmodelandknownQ,notactualtarget/calibrationuncertainty."
+  ]
+}

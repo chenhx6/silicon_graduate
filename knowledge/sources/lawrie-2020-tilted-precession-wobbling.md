@@ -3,7 +3,7 @@ type: source
 title: "Tilted precession and wobbling in triaxial nuclei"
 aliases: [Lawrie 2020 TiP, tilted precession theory, TiP and wobbling approximation]
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-10-24
 status: ai-draft
 review_status: human-reviewed
 source_type: theory-article
@@ -122,3 +122,29 @@ E. A. Lawrie, O. Shirinda, and C. M. Petrache, *Physical Review C* **101**, 0343
 ## Personal Notes
 
 本页是 low-spin wobbling umbrella 的 theoretical framework / alternative interpretation source。用户已审核 LAW20-1 至 LAW20-15，并校准 Fig.4 自旋趋势的适用范围与 Eq.34 中 1 轴的 intermediate-axis convention；页面为 `human-reviewed`，全部 claims 均为 `needs_review: false`。
+
+## Day22 原件复核：phonon判据、参数谱系与条件重建
+
+实际重读034306-1–12全文主线、公式和图表caption；视觉核p4/p7/p8的近似条件与Table I。原raw/hash保持，既有human-reviewed及旧claims flags不变；以下仅新增Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LAW20-D22-001 | Eq.(34)用A′2=A2(1−j/I)、A1/A3为横向两轴，以I写f(n,I)=(2n+1)(A1+A3−2A′2)/[2I√((A1−A′2)(A3−A′2))]。重建时不得默默把F14的J=√I(I+1)与这里的I当同一数值输入。 | formalism-and-notation | direct-original | 034306-6, Eqs.(23)-(25); 034306-7, Eqs.(27)-(34) | true |
+| LAW20-D22-002 | 作者明确说大mixing ratio/强unstretched E2也可见于一般TiP带及K=2 γ带退激，因此单项强E2不能识别phonon性质；其phonon/TiP比较要求能量和矩阵元相对量子数的阶梯结构。 | author-criterion-and-alternative | direct-original | 034306-10, discussion below Fig.11 | true |
+| LAW20-D22-003 | 对本文Table I/Fig9所讨论的典型j=11/2、合理惯量与实测spin区间，作者认为f≪1不满足；p9将范围明确限制为typical j、reasonable MoI和observed spin range。原作者的普遍化措辞不能替代对其它参数/核素的独立有效域核验。 | model-domain-and-inference-boundary | direct-original-and-bounded-inference | 034306-7–9, Table I and paragraph following Fig.10 | true |
+| LAW20-D22-004 | TableI(v)打印A1/A2/A3=.068/.093/.278，Imax=45/2；其A2不等于Matta2015基惯量5.6对应的1/(2×5.6)=.089286。本任务按打印值与Eq32/34重建的正曲率边界I=20.46、半整数网格f1最小.48391；以Matta原基参数则边界22.611、最小.46357。两输入分支保留，不用表列Imax覆盖公式稳定域，也不据此断言原producer错误。 | input-version-and-conditional-reconstruction | literal-original-and-our-calculation | 034306-8, Table I(v); 034306-7, Eqs.(24),(32),(34); M15-D22-003 | true |
+| LAW20-D22-005 | 为比较“核芯倾斜”与phonon近似，本文p6明确在其后续讨论中冻结valence j；其TiP/QTR与wobbling对照有这一本身的约束。不可将该比较当成所有完整QTR程序全spin冻结或所有三维转动普遍不能近似量子化的实现证明。 | model-assumption-and-generalization-boundary | direct-original-and-bounded-inference | 034306-6, paragraph preceding Eq.(23) | true |
+
+### Knowledge Impact and Learning Decision
+
+Supports/limits：强E2与能量拟合不独立建立phonon阶梯，低spin近似域须检验；保持作者TiP替代与支持方[[frauendorf-2014-transverse-wobbling]]的完整QTR解释并列。新增[[frauendorf-2018-comment-wobbling-stability]]与[[tanabe-2018-reply-wobbling-stability]]作为此前争论原件，不误称两篇2018文在回复本2020论文。计算/参数支路在[[wobbling-geometry-phonon-observable-contract]]保留，尚未恢复Fig9的原程序输入，不认证其数值曲线。
+
+
+## Day22 checkpoint093：定义、有效域与表示的定向原件比较
+
+本轮定向读本地12页原件034306-6–11，视觉核p.7 Eq.(34)与p.8 Table I；不称重新全文摄入或重跑原QTR。SHA256 777f935b0266fed8a9d9f2e1cc1f72995c84dd83e27ca1f5377ab2785b2ec405。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LAW20-D22-R093-1 | 作者后续比较采用冻结j，wobbling approximation要求f(n,I)≪1及相邻阶能量/矩阵元对n线性，TiP/QTR一般不需这些规律。p.9将参数结论限于typical j、reasonable MoI及所观测spin范围；这不等同于穷尽全部参数/定义的实验否证。 | model-domain-and-author-classification | direct-original-and-bounded-comparison | 034306-6, paragraph before Eq.(23); 034306-7, Eqs.(28)–(34); 034306-9–11, comparison and Summary | true |
+| LAW20-D22-R093-2 | Table I(vii)的Lu输入(.0078,.0089,.0385)、j=13/2按Eq.(34)在I=13/2至85/2的半整数网格重建，任务得f1最小约.31599（I=57/2），f2约.52665；不是旧任务所称横向Lu f≈.10–.18。共同正比例缩放全部Ak不会改变f，但会缩放频率；此是条件代数控制，不是新核素拟合或误差界。 | task-parameter-reconstruction-and-scope | direct-original-and-bounded-comparison | 034306-7 Eq.(34); 034306-8 Table I(vii); hfa-sss-controls-093.json | true |

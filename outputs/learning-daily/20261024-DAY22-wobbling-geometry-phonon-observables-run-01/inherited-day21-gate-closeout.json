@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T07:11:35.252716+00:00",
+  "inherited_day": 21,
+  "formal_credit": [
+    21
+  ],
+  "score": "18/24",
+  "prior_Day21_credit_commit": "57bc9a2805ae6c3d74ef77bd5cfe4c0736396134",
+  "fresh_origin_main_contains_prior_credit_commit": true,
+  "fresh_origin_course_state": {
+    "completed_day_count": 21,
+    "next_day_index": 22
+  },
+  "local_final_receipt_tracked": false,
+  "diagnostic": "Initial lookup of the untracked final-session-receipt21 gave no commit; actual tracked card-credit/report/state establish Day21 publication ancestry. No prior receipt was changed.",
+  "scope": "Credit/publication-state verification only; original Day21 H3 preflight is not itself final-push proof, and no scientific claim is certified by card credit.",
+  "origin_canonical_repository": "https://gitee.com/chx6/silicon_graduate",
+  "transport": "existing SSH origin"
+}

@@ -1,0 +1,47 @@
+{
+  "raw_sha256": "edde41a90870cba7451da6d93579017eeb046d060513aa69b24661ba5a72b7c8",
+  "locator": "printed385Table1;387Eq1;388Eq2;391Ref2",
+  "input_roles": {
+    "mixed_states_keV": [
+      2087,
+      2198
+    ],
+    "state_spin_parity": "both21/2+ SD1 andND411; notSD1/SD2",
+    "same_parent25half_photon_intensity_out_in": [
+      12.5,
+      68.1
+    ],
+    "same_parent21half_photon_intensity_out_in": [
+      23.3,
+      18.7
+    ]
+  },
+  "central_results": {
+    "rE2_426over315": 0.04027458061651878,
+    "mixing_probability": 0.03871533666875725,
+    "rE2_697over263": 0.009542081931482893,
+    "Q_ND_over_Q_SD": 0.48675010876703184,
+    "V_keV": 21.413640418296044,
+    "bare_detuning_keV": 102.40519525953589,
+    "level_repulsion_shift_each_keV": 4.297402370232055,
+    "two_state_eigenvalues_relative_keV": [
+      -7.105427357601002e-15,
+      111.0
+    ]
+  },
+  "controls": {
+    "mixing_probability_matches_printed_point04_to_print_precision": true,
+    "coupling_matches_source22plusminus3_interval_no_newCI": true,
+    "quadrupole_ratio_matches_printed_point48plusminus07_interval": true,
+    "two_state_eigenvalue_gap_reconstructed": true,
+    "unperturbed_detuning_plus_repulsions_restores_observed_gap": true
+  },
+  "boundaries": [
+    "The paper interprets two-state mixing and assumes its branch/operator model; no alternative mechanism is newly fitted.",
+    "Source22(3)keV and.48(.07)intervals are comparison intervals only; no new uncertainty/covariance propagated.",
+    "QuotedQ_ND6.0(.5)b andQ_SD10.7(.7)b originate fromSchmitz1993Ref2; this is not a new lifetime experiment orQ_SD2.",
+    "DO99Table1 notes697.1keV unresolved from a similarSD line; printed intensity reconstruction does not certify decontamination.",
+    "Output has no absoluteB(M1),B(E2),gamma rigidity measurement or universal wobbling criterion.",
+    "Central shift4.30keV vs authorsabout5keV is rounding/model-description compatibility, not an independent energy measurement."
+  ]
+}

@@ -61,13 +61,6 @@ collective interband E2、wobbling energy、SCS/SSS 角动量几何和微观模�
 - 2026-07-03（1 review + 1 experiment）：加入 Sensharma 2020 `187Au` LW 支持链，保持争议未裁决。
 - 2026-07-04：加入 Guo 2022 的 M1-dominated links、j-shell 几何批评与 single-particle counter-interpretation。
 
-## Day 21 Checkpoint 019 证据门量化审计：纵向摇摆（LW）推断阶梯与大模解排他性证伪准则
+## Day22 checkpoint094：分类与可迁移边界
 
-依据推断阶梯方法论（[[experimental-claim-boundaries]]）及独立量化程序 day21_checkpoint019_longitudinal_wobbling_187au_audit.py（产物 outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/longitudinal-wobbling-187au-audit-019.json），对纵向摇摆（LW）的推断阶梯与实验判据确立核心证据门规则：
-
-1. **角分布混合比双解简并与偏振排他准则：**
-   Delta I = 1 带间跃迁的角分布对混合比 delta 存在天然双解（|delta| > 1 与 |delta| < 1）。在未测定康普顿散射线偏振不对称度（P）或内转换系数前，严禁仅凭模型偏好挑选大模解并据此计算出虚假的集体增强 B(E2_out)。187Au 案例表明，线偏振测量排他性锁定了小模解（delta approx -0.26），带间跃迁由 M1 主导（93%–94%），使 B(E2_out) 塌缩至 ~6.5 W.u.，彻底证伪低自旋纵向摇摆假说。
-2. **费米面微观动力学禁戒准则：**
-   纵向摇摆物理图景要求未配对准核子角动量沿中等转动惯量轴对齐，这仅在费米面位于高 j 子壳层中部（Omega approx 5/2 - 7/2）时在动力学上可能成立。若费米面位于子壳层底部（如 187Au 的 Omega = 1/2），单粒子角动量必然沿对称轴对齐，在几何上严格禁戒纵向摇摆运动。严禁将子壳层底部的单粒子科里奥利旋称劈裂误定为纵向摇摆声子。
-3. **杂质反应道排查准则：**
-   确证伴随旋称伙伴带必须经过独立的衰变谱学与反应道交叉检验，严禁将伴随反应产物（如 188Pt）的杂质能带指认为多带摇摆体系的组成部分。
+[[frauendorf-2014-transverse-wobbling]] F14-D22-001的LW按准粒子j沿最大惯量轴分类；完整模型中的进动拓扑需说明采用哪一定义。费米面位置可能影响特定模型下的j取向，但不能由某个Ω标签宣布所有LW几何严格禁戒。[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1与[[guo-2022-low-spin-wobbling-187au]] GU22-D22-R094-1–3展示实际的观测和模型冲突：新P–Rac支持小δ，强度是相对比与外部尺度估计，伴随SP身份另受挑战。旧固定4σ/88倍/全区无LW认证撤回，不将187Au反例外推所有低spin核。needs_review: true。

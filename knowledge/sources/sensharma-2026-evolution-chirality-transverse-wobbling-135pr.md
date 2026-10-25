@@ -141,3 +141,11 @@ N. Sensharma 等，*Evolution of chirality from transverse wobbling in `135Pr`*�
 公开arXivv2 landing200，submission history定v2为2026-01-15；其TeX Source链接合法取得归档，5825886bytes，SHA-256 cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278。本地仅新增raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar，不覆盖main raw、不执行其中内容、不stage archive。29项inventory与26PDF零embedded files保留，TeX实际164/435行和三张原始chi2 PDF已定向检查。作者文件名V3与arXivv2分开；原件中的注释不是独立正式科学结论。
 
 SH26-8/9/11的作者偏好与shared-lineage判断仍保留；新SH26-13/15把固定sigma切片、不同数据summary、未知event-level overlap说清。[[135pr-mixing-branch-input-contract]]保存三方delta/input角色表和后续profile设计，未从log10图估计Delta chi²、dof、reject significance或证明任意geometry/feeding下唯一解。当前public package没有足够input独立重放本分支选择，但并不声称作者从未提供过其它渠道。
+
+## Day22 checkpoint095：保留条件卡方证据和双方模型差异
+
+本轮只定向回读既有arXivv2原件PDF14–15，并视觉核Fig.12；未重称新通读或已取得正式VoR。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SH26-D22-R095-1 | Fig.12在σ/I=.2下的三条角分布χ²曲线偏好大δ，正文认为多角度能分开A2/A4而区分局部极小；这是真实的条件支持证据，不应因其为切片而抹掉，也不自动等于对全部nuisance已profile。旧任务声称σ/I自由后两谷必等深无本轮重拟合依据；仍不能从log10χ²图擅报排除σ数。p.15明确完整QTR允许j重取向，差别主要归于MoI比（约4对调定约2），这与Matta p.5相符；不把旧冻结批评当实现事实。作者以正A作补充确认的理由保留为观点，新实验未测polarization，不构成推翻Lv新P–Rac的共同响应重分析。 | conditional-evidence-and-model-reply | direct-original-and-cross-source-boundary | arXivv2 PDF14 Fig12/III.B; PDF15 continued response | true |

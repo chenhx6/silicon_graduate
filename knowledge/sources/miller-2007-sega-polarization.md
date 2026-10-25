@@ -137,3 +137,25 @@ Miller *et al.* establish a practical side-irradiated SeGA polarization calibrat
 ### 本session末段：singles的未观测与反门样本
 
 [[polarimetry-shared-calibration-count-design]]“SeGA singles：未观测α与严格反α不是同一选择”保存13:28前已冻的最后bounded分析。原Eq11与文字可能只是“未要求α”的描述，不能由任务猜actualsorter；matchedresponse的小偏置和headlinecount-only弱范围须分层。未造新Q校正/实际CI，13:30后不打开新source/课。
+
+## Day22 checkpoint111：计数层、a约定与识别性
+
+本次定向回读/视觉核printed714 Eq5/6、716选择/校准段、718Outlook；不重称六页新通读。原MI07/历史校准结果不重标。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MI07-D22-R111-1 | 本文a=Uperp/Uparallel、A=(Nperp−aNparallel)/(Nperp+aNparallel)，与a乘Nperp的另一Clover约定使用倒数a才等价。3%/25%选择率对应5000photopeak约150/1250selectedcounts；采用roundeda=.12、knownQ=.14与独立无背景Poisson控制得σP=.308607，近Outlook .3，非新的SeGA实测CI或可迁225.8keV的效率。原a333=.126(.007)/a388=.128(.007)的误差含unit差异，不将它自动当target独立σa。 | count-identity-and-convention | direct-original-and-conditional-reconstruction | printed714Eqs5/6;printed716Sec4.2;printed718Outlook | true |
+| MI07-D22-R111-2 | 在本文a约定、独立raw Poisson两bin及knowna/Q下，VarA=4a²xy(x+y)/(x+ay)^4；P=A/Q的(x,y,a,Q)Jacobian应与完整Σ相乘。任务条件binomialFisher与此count方差一致。若a完全无独立约束，μperp=a c(1+QP)、μparallel=c(1−QP)只给a(1+QP)/(1−QP)，可有正a/正yield但相反P的相同均值；这不是actualClover校准域内歧义，也不是source实验失败。 | response-identifiability-and-statistical-control | source-count-model-and-task-derivation | printed714Eqs3/5/6;polarimetry-count-calibration-controls-111.json | true |
+
+## Day22 checkpoint115：matched独立null的条件计数检验
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MI07-D22-R115-1 | 基于Eq5/6定义的任务新模型：独立无背景raw四cells，目标均值(a ct(1+A),ct(1−A))、已知无偏振calibration均值(a cc,cc)。给定两rowtotals和总perp列数后，null A0=0的目标perp数为hypergeometric，a及两个yield尺度条件消去；alternative odds为(1+A)/(1−A)。这是新统计推导，不是重放SeGA数据或证明其实际rows独立/接受已匹配。 | source-defined-count-model-and-task-derivation | conditional-mathematics | printed714Eqs5/6context;matched-null-conditional-test-115.json | true |
+| MI07-D22-R115-2 | chosen table(954,940;900,1000)、knownQ=.2给P=.3、localσP=.16188和单侧conditionalp=.03463；四count方差与fullPoissonFisher相同。若允许targeta≠calibrationa，即使targetP0也能给同四均值，故条件检验只在shareda物理假设下解释偏振。六控制通过，所有counts/参数为任务设定，不是actualdetectorrate、功效/CI或D6新beamtime。 | count-identification-and-calibration-failure-boundary | task-control | matched-null-conditional-test-115.json;MI07Eqs3/5/6 | true |
+
+## Day22 checkpoint118：同一四计数模型的精确区间
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MI07-D22-R118-1 | 在R115完全相同的任务四cell/knownQ模型中，反演noncentral hypergeometric的包含观测表的两尾，各α/2=.025得central95 P区间[−.023264,.620768]；单侧95 lower为.027894，与单侧p=.034634<.05相符。中央双侧区间仍含0不与单侧检验矛盾。五项尾值/边界/小margin枚举控制通过；不是原实验CI、校准Q不确定度或机制置信度。 | conditional-finite-sample-interval | task-mathematics-not-experimental-data | printed714Eqs5/6context;matched-null-conditional-interval-118.json | true |

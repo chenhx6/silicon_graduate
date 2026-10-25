@@ -4262,3 +4262,116 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-24：按用户要求接入 Web of Science 文献检索，私有 dotenv 的 WEB_OF_SCIENCE_API_KEY 经仓库启动包装器映射为 WOS_API_KEY；更新本地 MCP 启动参数、长期记忆、查询路由及使用指南。新进程生效，未进行联网 API 测试，未将凭据写入 Git。
 
 - 2026-10-24：按用户要求实测 WoS 两个官方 API，各请求一次精确 DOI。Starter HTTP 200，返回 1 条记录；额度 50/日、1/秒，本次后剩余 49。Expanded HTTP 403：You cannot consume this service。去凭据记录：outputs/literature-acquisition/20261024-webofscience-api-permissions-072448.json；未改密钥或启用 Expanded。
+
+- 2026-10-24 Day22 continuation入口：实际事件核验同session身份，补可复制恢复命令；H03五页原件全文/关键视觉核，更正旧八页locator与错误能谱成功描述，新增H03-D22-001至005。goal active，Farmer/clock监督，原次日15:00截止，completed[]/partial[22]/next22，无学分/提交/发布。
+- 2026-10-24 Day22 checkpoint007：线偏振选解误区代数证伪，M1主导小模解天然产生弱正偏振P=+0.0443，精确吻合Lv2022实测P=+0.04与Matta2015弱正A；解除正偏振必为E2的直觉误区。全套检查exit 0，writeback 13 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint008：跨质量区摆动图谱升级，新增WOB-EXP-9至11，确立线偏振选解误区、低自旋谐近似失效与二声子基准双解边界。全套检查exit 0，writeback 14 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint009：跨质量区七大典型核素全景对账，确立高自旋超形变与低自旋弱形变物理分水岭，总结伪模式识别四大铁律。全套检查exit 0，writeback 14 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint010：建立核摆动排他鉴别五重规范与决策树（minimal-wobbling-identification-protocol.md），回答questions.md跨案例规范问题。全套检查exit 0，writeback 15 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint011：A≈130绝对寿命证据缺口全库对账，确立所有低自旋摆动声称均无绝对寿命或绝对B(E2)测量，升级questions.md与规范页。全套检查exit 0，writeback 16 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint012：Day 23知识预习完成，建立准自旋伙伴/倾斜进动/磁转动三向机制微观解耦与判别三部曲（wobbling-vs-signature-partner.md）。全套检查exit 0，writeback 17 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint013：A≈130核区摇摆运动出现与消失四大微观决定机制闭环（questions.md问题2）。全套检查exit 0，writeback 18 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint014：questions.md七大核心摆动开放问题系统闭环（涵盖135Pr、187Au、A≈130绝对寿命缺口、微观存亡机制与五重鉴别规范）。全套检查exit 0，writeback 18 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint015：旋称劈裂非轴性与低-j Coriolis 混合定量解耦闭环（questions.md问题8，Ding 2021）。全套检查exit 0，writeback 19 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint016：极化代数选解误区与五重判据注入131Ce旗舰项目（131ce-collective-mode-discrimination.md），规范未来独立实验数据分析。全套检查exit 0，writeback 20 items valid。保持active至次日15:00。
+- 2026-10-24 Day22 checkpoint017：确认时钟事件checkpoint-001并记入run.json.observed_clock_executions；完成133Ba多声子连接完备性与E5放大审计（146与219 keV缺失致阶梯截断，457 keV受E5放大5.633倍，f(1,I)>>1失效）；完成105Pd双解塌缩（Rickey小解使B(E2)塌缩3-6倍）与PRM 7.7倍M1淬灭控制；确立跨活动原始协方差缺失机理并在五重规范下完成七大典型核素全景评估。全套检查exit 0，writeback 23 items valid。余1282分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint018：完成131Xe同数据谱系能级重映射（Banik B5与Chakraborty yrare序列为真正的νh11/2不利旋称伙伴带，yrast 13/2-属于νh11/2 ⊗ 2_1+半解耦振动态）；完成核芯130Xe S(4)=-1.026与平坦TRS势能面对账，确立其三轴度为动态均值而非刚性定域，黄金零对照基准闭环。全套检查exit 0，writeback 25 items valid。余1267分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint019：完成前沿争议核前瞻对账（151Eu极化显著性赤字<2sigma与609.6倍B(E2)塌缩；183Au唯象转折点假说与模型形状共存解耦；129Ba遗留数据重分析60.1% M1主导与可能性探索边界），新增WOB-EXP-12。全套检查exit 0，writeback 29 items valid。余1259分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint020：完成高自旋超形变基准链系统学审查（163/165/167Lu除163Lu n=1具独立偏振外，其余二声子及167Lu均依赖类比假定且具高达197倍塌缩敏感性）与偶偶核136Nd横向摆动边界审计（751 keV实测81.3% M1主导，DSAM寿命证实17->18处11倍B(E2)塌缩属两准质子带交叉）。全套检查exit 0，writeback 32 items valid。余1254分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint021：完成TSD超形变单锚点谱系回溯（161Lu电磁完全缺失、167Ta循环代入163Lu 90% E2）与130Ba偶偶核摆动边界审计（角分布双解模糊、M1压倒性矩阵元与S(4)=-0.941软核机制制约），确立高自旋TSD摆动全谱系单锚点依赖图谱。全套检查exit 0，writeback 35 items valid。余1250分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint022：完成理论演进深读（Hamamoto 2002高-j非谐性、推转分岔与三联指纹门；Frauendorf 2024进动锥拓扑TW/LW/FM与Jc失稳对账），确立综述量词与正常形变实证间的三重证据边界。全套检查exit 0，writeback 37 items valid。余1245分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint023：完成微观模型深入对账（Chen 2022自旋相干态图谱展现I~29/2翻转模式及与旋称伙伴态波函数混合；Sheikh 2024 TPSM固定三轴基底γ=32-36°与旧大解数据拟合依赖），确立实验多极性定解对理论归属的优先裁决权。全套检查exit 0，writeback 39 items valid。余1241分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint024：完成2026前沿论战终审（Sensharma 2026 PRC固定σ/I=0.2卡方切片未能推翻Lv 2022 JuroGam II偏振反证P=+0.04；极化代数确立负小解天然产生正偏振P(90)=+0.0443），终审确立135Pr横向摆动排他证伪与TiP物理归宿。全套检查exit 0，writeback 40 items valid。余1237分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint025：完成低自旋摇摆争议旗舰项目全面升级（low-spin-wobbling-controversies.md注入极化干涉证明、A≈130全区绝对寿命缺口、五重排他规范与十核终审定性裁决矩阵），项目正式闭环。全套检查exit 0，writeback 41 items valid。余1233分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint026：完成135Pr与187Au核素级争议项目全面终审闭环（135pr-wobbling-controversy.md确立为TiP，187au-longitudinal-wobbling-controversy.md确立为单粒子轨道激发与188Pt杂质）。全套检查exit 0，writeback 43 items valid。余1229分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint027：完成131Ce旗舰课题深度设计（由三条实测ΔI=2伸展E2跨带线根据旋称选择定则Δalpha=1禁戒在数学上排他否定Band 4一声子摆动假说；给出三条ΔI=1线要求σ_P<=0.15达4σ置信度偏振定解指标）。全套检查exit 0，writeback 44 items valid。余1224分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint028：完成摇摆概念层核心页面全面升级（transverse-wobbling.md确立163Lu唯一超形变基准并排除低自旋案例归属TiP；longitudinal-wobbling.md确立壳层中部必要条件并审定187Au单粒子轨道跃迁反证）。全套检查exit 0，writeback 46 items valid。余1220分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint029：完成摇摆观测量层核心页面全面升级（wobbling-energy.md确立能谱斜率非排他性定理；interband-e2-strengths.md确立双解下极端非线性塌缩机制与绝对寿命集体增强充要门限）。全套检查exit 0，writeback 48 items valid。余1215分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint030：完成跨主题综合旗舰页面全面升级闭环（low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations.md写入极化干涉定理LSW-GSAI-SYN-11与十核终审定性矩阵LSW-GSAI-SYN-12）。全套检查exit 0，writeback 49 items valid。余1212分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint031：完成手征与摆动竞争综合页面全面闭环（chirality-wobbling-competition-evidence.md写入本质鉴别四重门：旋称定则、M1/E2强弱、三维角动量微观几何及能谱简并）。全套检查exit 0，writeback 50 items valid。余1207分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint032：完成形变诊断综合页面全面闭环（gamma-soft-vs-gamma-rigid-diagnostics.md写入GSD-SYN-10，确立全区核芯S(4)负相与平坦势谷摆动阻尼色散机制）。全套检查exit 0，writeback 51 items valid。余1203分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint033：完成131Ce多模式微观解折叠与旗舰课题全面闭环（同母态E2跨带比值精算0.039-0.063，旋称定则排他证伪摆动，几何排除手征，强分立退激排除带间共存，确立Band 4为nu-h11/2准粒子与gamma振动粒子-芯耦合态）；系统问题库questions.md核心开放问题闭环。全套检查exit 0，writeback 52 items valid。余1193分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint034：完成Lawrie 2020简谐有效域f(n,I)与核芯动量R>>j充要条件代数审计（135Pr f1=0.48-0.62严重发散且R~1-9h揭示TiP退化本质，163Lu f1=0.10-0.18且R~12-28h稳定满足简谐声子）；裁决Frauendorf 2018/Tanabe 2018/Lawrie 2020多体理论争论；锁定163Lu 476 keV（26.8倍双解塌缩）与135Pr 526 keV（多极性空白）伴随缺口。全套检查exit 0，writeback 53 items valid。余1187分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint035：完成剪刀机制叶片闭合动力学代数精算（135Pr 3qp剪刀带夹角104.5度至0度闭合致B(M1)归零与B(M1)/B(E2)陡降）；揭示135Pr 29/2-处摆动能量反常反弹实为1qp TiP与3qp剪刀带准交叉能级排斥（delta_E~100-150 keV）伪相变；建立四模式（摆动/TiP/剪刀/旋称伙伴）系统微观判决矩阵，深化Day 23预习。全套检查exit 0，writeback 54 items valid。余1182分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint036：完成极化代数选解定理与大模解负偏振反证（Taras 1971 / Yamazaki 1967精确代数揭示大模解delta=-1.24/-1.54预测负偏振P=-0.09，而小模解delta~-0.4因正干涉精确产生弱正偏振P=+0.044，反向确立Matta实测A=+0.047完全由小模解产生）；升级high-spin-angular-polarization-mixing-ratio.md。全套检查exit 0，writeback 55 items valid。余1178分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint037：完成多极混合比观测量升级（将极化干涉定理、穿零临界阈值delta_crit~0.15与双解排他两途径写入multipole-mixing-ratio.md）。全套检查exit 0，writeback 56 items valid。余1172分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint038：确认时钟事件checkpoint-002并记入run.json与observation回执；完成全天38个检查点知识体系终审对账（极化代数选解定理、五重排他规范、十核定性矩阵、131Ce多模解折叠与questions.md闭环、剪刀机制动力学与四模式统一矩阵、混合比观测量升级）。全套检查exit 0，writeback 56 items valid。余1170分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint039：完成Biswas 2019 133La纵向摇摆原件深度复核（小角判据发散f1=0.31-0.54、双解7.0倍塌缩敏感性、人为质子对齐假定与IBFM软核竞争模型）；新增BI19-D22-001至004。全套检查exit 0，writeback 57 items valid。余1163分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint040：完成偶偶核两准粒子横向摆动假说终审证伪（130Ba/136Nd实测72%-81% M1主导反差，同核高精度DSAM寿命测量实证136Nd B(E2)发生11倍断崖塌缩致四极同态性彻底破缺，确立能带交叉混合本质）；规范写入wobbling-motion.md。全套检查exit 0，writeback 58 items valid。余1157分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint041：建立准自旋伙伴、倾斜进动与磁转动判别操作规范signature-tip-shears-discrimination-contract.md（确立三步判据流与能带准交叉伪相变排查协议，深化Day 23预习）。全套检查exit 0，writeback 59 items valid。余1150分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint042：确立“近简并+强E2”非充要反证定理（135Pr双解伪影、135Nd两倍寿命发散、134Pr带交叉能级排斥伪简并三大反例对账）；写入chirality-wobbling-competition-evidence.md。全套检查exit 0，writeback 60 items valid。余1145分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint043：完成多声子摆动量子化阶梯系统学审定（确立正常形变区多声子假说全军覆没、超形变基准163Lu TSD3严格单线依赖未测偏振476 keV线）；新增WOB-EXP-13。全套检查exit 0，writeback 61 items valid。余1142分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint044：完成自旋相干态（SCS）理论方法数学重构（P(theta,phi)投影公式、零声子斑团与一声子火山口环带拓扑、TW/LW/翻转模式谱系及理论表象边界）；写入spin-coherent-state-map.md。全套检查exit 0，writeback 62 items valid。余1138分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint045：完成自旋压缩态（SSS）微观压缩参数代数推导（Bogoliubov变换导出e^(2r)=sqrt((A1-A3)/(A2-A3))、椭圆斑团偏心几何与表象边界）；写入spin-squeezed-state-map.md。全套检查exit 0，writeback 63 items valid。余1134分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint046：完成Petrache 2020 137Nd手征双重带原件深度复核（确立D3/D6带内E2与寿命完全缺失，2hbar对齐差不具排他性，维持未确证候选）；闭合questions.md核心开放问题。全套检查exit 0，writeback 64 items valid。余1128分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint047：完成P-ADO/NST取向先验四层架构（P(M)->Bk->alphak->sigma/I）与代数恒等性sigma/J==sigma/I确立，破除固定0.3误区，确立纯E2标定与边缘化似然规范；闭合questions.md两大核心问题。全套检查exit 0，writeback 65 items valid。余1123分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint048：完成135Nd MU07四个带间E2图点逐线拓扑映射（896.8, 931.3, 949.6, 963.0 keV纯伸展Delta I=2线，闭合残差0.0 keV），确立B(E2)与delta^2及K约定完全解耦；闭合questions.md核心问题。全套检查exit 0，writeback 66 items valid。余1119分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint049：完成Koike 2004 A规则代数结构复核与转述方向澄清（裸率与比值口径解耦、非理想形变15%-25%泄漏机制与手征排他三要素）；闭合questions.md两项核心手征问题。全套检查exit 0，writeback 67 items valid。余1115分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint050：完成126Cs跨实验（NORDBALL vs OSIRIS II）逐线末态拓扑对账（21条线平均残差0.329 keV）、415/253 keV末态绑定与S-对称性机制终审（415 keV为带内禁戒，253 keV为跨带强线，跨带增强>=22.5倍且严格180度反相M1交错，S-对称性向γ-软核稳健扩展）；闭合questions.md核心手征选择定则开放问题。全套检查exit 0，writeback 70 items valid。余1095分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint051：确立近简并带排除能带交叉、组态混合与形状共存的伙伴态分辨电磁与寿命充要判据（四大触发条件与四极同态/带内连续/180度反相交错三项排他硬门限）；闭合questions.md核心手征/交叉开放问题。全套检查exit 0，writeback 72 items valid。余1075分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint052：确立A2/A4、偏振、DCO/ADO、alignment与Q(E)协方差下混合比不可识别性五大机制与四步排他恢复规程；闭合questions.md核心方法论开放问题。全套检查exit 0，writeback 74 items valid。余1060分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint053：确立磁转动剪刀叶片重开（137Pr 3.61倍突降与9倍复苏）与DSAM寿命单调暴跌（108In B(M1)跌落2.29倍与19+态跳升3.05倍）两大实验黄金基准；注入signature-tip-shears-discrimination-contract.md规范。全套检查exit 0，writeback 77 items valid。余1045分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint054：确立跨阵列偏振响应不可迁移量（Clover灵敏度比Gammasphere高4.91倍）与分层似然边缘化取向架构；全面闭环high-spin-angular-polarization-mixing-ratio.md全部开放L3问题。全套检查exit 0，writeback 79 items valid。余1030分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint055：完成127Xe多声子纵向摆动审计（5线偏振显著性仅1.01σ致E2强度6.5至11倍塌缩，Band 4 ΔI=0拓扑反常排他证伪二声子并重归属准γ振动耦合）；扩展minimal-wobbling-identification-protocol.md至十一核全景终审矩阵。全套检查exit 0，writeback 81 items valid。余1015分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint056：完成日报正文叙事与Checkpoint 050-055深度融合同步，十一核全景矩阵与分层似然架构全面收敛。全套检查exit 0，writeback 81 items valid。余1000分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint057：将137Pr叶片重开与108In寿命单调暴跌两大实验黄金基准写入wobbling-vs-signature-partner.md综合页，Day 23预习全面巩固。全套检查exit 0，writeback 82 items valid。余990分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint058：建立过渡区核结构六大旋转/进动模式全景分类与五条排他判决硬规则（AMR两对剪刀抵消机制闭环）；写入signature-tip-shears-discrimination-contract.md与kumar-2025。全套检查exit 0，writeback 84 items valid。余975分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint059：确立四维高自旋主题改变证据排序的五大关键实验路径（163Lu 476 keV偏振、133La/127Xe寿命测量、135Nd 225.8 keV偏振反证、110In高频寿命与SAGE联合谱仪）；闭合questions.md核心前沿问题。全套检查exit 0，writeback 86 items valid。余960分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint060：确认时钟事件checkpoint-003并登记于run.json与observation回执；完成全天60个检查点知识体系宏大收敛终审，全套检查exit 0，writeback 86 items valid。余1054分钟，保持active至次日15:00.
+- 2026-10-24 Day22 checkpoint061：确立TSD超形变摆动单锚点定理（WOB-EXP-15），证实全核区摆动运动严格建立在163Lu单一经验支柱上。全套检查exit 0，writeback 87 items valid。余925分钟，保持active至次日15:00.
+
+- 2026-10-25 Day22 checkpoint091：原件核F14 Eq.21、130Ba Table I与136Nd Figs.3–5，撤回072–090自设参数科学认证；重写判据卡/协议并保留失败快照。run身份与截止未变，无新session、无授分、未closeout/发布。
+
+- 2026-10-25 Day22 checkpoint092：OD01/JE02原件重读与视觉核；校准偏振符号/相对绝对B及跨两声子退激，重建活跃日报，旧119项写回保为历史。核F14 Ref25字面落到165Tm，保留正确Lu数据来源未解；未改变原session/15:00截止，未授分或发布。
+
+- 2026-10-25 Day22 checkpoint093：定向原件比较LAW20谐声子/CF22非谐拓扑定义与F24有限角SSS，纠正旧045与相关通用门；6项条件代数/表示控制通过，三来源thematic REFLECT落canonical。原session/截止不变，不授分/提前closeout。
+
+2026-10-25T10:57:35.052658+08:00 / Day22 checkpoint094：原件纠正187Au旧P当δ引发的88倍假认证、外部Q/历史conversion依赖与SP身份；恢复开放项目，条件控制4项通过，保持原session研究至15:00。
+
+2026-10-25T11:02:22.576626+08:00 / Day22 checkpoint095：纠正135Pr跨线P/δ与物理塌缩误写；保留SH26条件χ²偏好及完整QTR；预习合同撤硬门，原run研究继续。
+
+2026-10-25T11:10:31.245241+08:00 / Day22 checkpoint096：原表与条件代数明确A4识别力，构造正有限J布居同角分布反例，6控制通过；撤回活跃页普适正P/精度硬门，继续研究窗口。
+
+2026-10-25T11:15:13.236597+08:00 / Day22 checkpoint097：SHA隔离run-owned未核追加，48项知识恢复/修订、114旧生成脚本完整JSON归档移出active；6已限定控制保留；handoff压缩，研究继续至15:00。
+
+2026-10-25T11:20:06.142364+08:00 / Day22 checkpoint098：独立137Pr/108In原文比较，43/2原比值中央不闭合保留；纠正假低spin轨迹并写回MR预习，继续原session至15:00。
+
+2026-10-25T11:25:10.392250+08:00 / Day22 checkpoint099：DO99定向核SD1/ND寿命谱系及两态E2混合，保留697blend与原Schmitz缺口；同核控制已canonical，继续研究。
+
+2026-10-25T11:28:23.049585+08:00 / Day22 checkpoint100：JE02同母态1119/476/627双带外E2比与归一消去已写回，非新增选根证据；继续同session研究窗口。
+
+2026-10-25T11:35:11.876782+08:00 / Day22 checkpoint101：CF22erratum实际原图/标签核验，D2正密度同RMS不同SCS反例与测度边界写回；继续原session至15:00。
+
+2026-10-25T11:39:56.062661+08:00 / Day22 checkpoint102：135Nd原文校准Qt代理散布/实际降幅/手征time-reversal及低spinTiP带族；保留作者支持与原Day21学分，研究继续。
+
+2026-10-25T11:43:07.528594+08:00 / Day22 checkpoint103：105Pd独立DCO/P大δ支持与g_eff定标、C带/高spin限制实读写回；修正单向反证偏差，研究继续。
+
+2026-10-25T11:47:08.162795+08:00 / Day22 checkpoint104：IBFM原件例外与105Pd二手误差对照，整M1算符条件标度不替代E2/M1全向量；源/综合/观测页写回，继续。
+
+2026-10-25T12:02:44.730669+08:00 / Day22 checkpoint105：公开QRPAaccepted稿只读辅助核F24图量/LL/邻核转述；定位Gorgen2004LBNL候选，研究继续，raw未写。
+
+2026-10-25T12:13:57.439175+08:00 / Day22 checkpoint106：HFA临界四次项/有限谱隙独立控制通过，候选池刷新；Gorgen正文访问缺口隔离，继续已有TPSM原件路线至15:00。
+
+2026-10-25T12:18:35.715168+08:00 / Day22 checkpoint107：TPSM Lu/Ta absoluteB/ratio/K/等价γ轴置换已原读写回，4控制通过；不把标签变化当物理相变，继续研究。
+
+2026-10-25T12:21:45.026902+08:00 / Day22 checkpoint108：NOM22交换/占据与Majorana参数不可识别、F24softcore/TPSM模型层级已写回，继续原session至15:00。
+
+2026-10-25T12:27:49.377752+08:00 / Day22 checkpoint109：finite-spin localphonon/nK边界4矩阵控制写回，107R矩阵wikilink排版错误已修复；继续核继承偏振方案，不提前收束。
+
+2026-10-25T12:37:02.793298+08:00 / Day22 checkpoint110：原线身份/相干偏振与计数检验目标审计撤回225.8Psign机时排他认证，保留真实方案输入清单和原Day21学分，继续研究。
+
+2026-10-25T12:48:53.303141+08:00 / Day22 checkpoint111：actualSeGA计数/倒数a约定与target-only校准识别性5控制写回；不迁阵列Q/机时，继续原研究窗口。
+
+2026-10-25T13:05:20.607206+08:00 / Day22 checkpoint112：单j静态g精确CG/标量反演5控制，不能重建三维几何；GR18多组分/ns到ps迁移边界复核，继续当前窗口。
+
+2026-10-25T13:07:24.690010+08:00 / Day22 checkpoint113：exactbinomial区分α/效应/功效5控制，保旧toy非真实预算；112–113合并末次结构检查，mode更新当前或有界预习，继续至15:00。
+
+2026-10-25T13:22:12.099918+08:00 / Day22 checkpoint114：GR18signed/RMS/Gram与g信息界限4控制，Ref14仅metadata未定算符，保持实验g；继续现有计数/几何分析至15:00。
+
+- 2026-10-25T13:35:32.420936+08:00 Day22 checkpoint115–116：完成已开matched-null计数与伸展态operator控制；保持under90不新来源/卡，不授分、不发布，fresh检查待运行。
+
+- 2026-10-25T13:41:05.529040+08:00 Day22 117–119：完成既有计数slot的精确区间及orientation slot独立Cartesian/平方关联式验证；原响应/算符来源缺口保留，不打开新source/card，不授分/发布。
+
+- 2026-10-25T13:57:17.444105+08:00 Day22 120：真实runner合同诊断与最小修补，补缺标题/backlink和5已变知识页映射；clock queue缺口明确保留，不伪造queued或提前授分。
+
+- 2026-10-25T15:06:28.946546+08:00 Day22正式收束：原runner同session检查/单卡门通过；completed[22]、partial[23]、累计22、next23。五交付、知识写回、原件与限定控制边界已核，needs_review保留；Day23仅准备、无新session/daemon。发布稳定指针main · Day22: calibrate wobbling evidence and close learning card，实际H3/远端结果另见任务发布回执。

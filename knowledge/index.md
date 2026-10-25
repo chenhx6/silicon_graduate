@@ -9,6 +9,15 @@ updated: 2026-10-23
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
+## Day22几何、声子与观测合同
+
+- [[signature-tip-shears-discrimination-contract]] — 旋称伙伴、TiP与剪刀候选的逐量比较；旧硬门已撤回、Day23仅无学分预习；非单核素实测。
+- [[minimal-wobbling-identification-protocol]] — checkpoint091更正的分层鉴别规范（逐线选解、相对/绝对强度、模型几何与声子有效域）；非单篇论文事实。
+- [[wobbling-geometry-phonon-observable-contract]] — [[frauendorf-2014-transverse-wobbling]]与H03原件驱动的轴映射、小角有效域、有限自旋条件对照与四列证据；非完整QTR或实验模式认证。
+- [[wobbling-criteria-card]] — 课程 Day 22 核心交付件：摇摆运动判据卡，分开必要检验、支持证据与反证边界；旧数值硬门限已撤回；非单篇论文事实。
+
+- [[frauendorf-2018-comment-wobbling-stability]] · [[tanabe-2018-reply-wobbling-stability]] — 新取得的2018评论/回复原件，惯量与稳定性/量子化判据的理论分歧；不是新增实验。
+
 ## Day17新增研究合同
 
 - [[cl35-1763-polarization-population-replay]] — actualT71 Table5的中央δ/正布居筛选、ratio/Σ与92系数核，非完整实验CI。
@@ -888,3 +897,11 @@ updated: 2026-10-23
 - [[almehed-2011-chiral-vibrations-a135]] — 实际v2全文；近谐失效与同源135Nd入口，邻核参数不可移植。
 
 - [[qi-2009-135nd-particle-rotor-chirality]] — 实际v1全文；135Nd全量子PRM参数点与固定形变/RMS边界。
+
+## Day22直接核验增量
+
+- [[guo-2022-low-spin-wobbling-187au]] GU22-D22-R094-1–3：P/δ身份、历史conversion及外部尺度分层。
+- [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D22-R095-1：固定取向AD证据与完整QTR回应。
+- [[yamazaki-1967-aligned-angular-coefficients]] YA67-D22-R096-1/2：A4条件反演和正布居歧义见证。
+
+其它Day22未完成原件逐claim核验的新增认证已移run历史，不作为本索引科学事实。

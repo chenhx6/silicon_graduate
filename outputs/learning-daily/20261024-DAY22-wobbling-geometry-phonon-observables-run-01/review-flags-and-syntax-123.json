@@ -1,0 +1,56 @@
+{
+  "observed_at": "2026-10-25T06:21:32.313917+00:00",
+  "scope": "Diff/new-file review-flag and Python syntax audit only; inherited human review preserved, not expanded; no scientific validity certification.",
+  "tracked_human_review_promotions": [],
+  "new_false_claim_rows": [],
+  "new_knowledge_pages": [
+    {
+      "path": "knowledge/methods/minimal-wobbling-identification-protocol.md",
+      "review_status": "unreviewed",
+      "new_false_claim_rows": 0
+    },
+    {
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "review_status": "unreviewed",
+      "new_false_claim_rows": 0
+    },
+    {
+      "path": "knowledge/methods/wobbling-criteria-card.md",
+      "review_status": "unreviewed",
+      "new_false_claim_rows": 0
+    },
+    {
+      "path": "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+      "review_status": "unreviewed",
+      "new_false_claim_rows": 0
+    },
+    {
+      "path": "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+      "review_status": "unreviewed",
+      "new_false_claim_rows": 0
+    },
+    {
+      "path": "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+      "review_status": "unreviewed",
+      "new_false_claim_rows": 0
+    }
+  ],
+  "scripts_ast_parsed": [
+    "system/scripts/day22_binomial_test_objectives.py",
+    "system/scripts/day22_frozen_alignment_domain.py",
+    "system/scripts/day22_frozen_critical_quartic.py",
+    "system/scripts/day22_hfa_sss_representation_controls.py",
+    "system/scripts/day22_lu163_relative_strength_audit.py",
+    "system/scripts/day22_lu163_sd_nd_mixing.py",
+    "system/scripts/day22_matched_null_conditional_test.py",
+    "system/scripts/day22_mr_ratio_absolute_comparison.py",
+    "system/scripts/day22_polarimetry_count_calibration_controls.py",
+    "system/scripts/day22_pr_au_branch_sensitivity.py",
+    "system/scripts/day22_rank4_alignment_identifiability.py",
+    "system/scripts/day22_scs_same_rms_control.py",
+    "system/scripts/day22_single_j_gfactor_control.py",
+    "system/scripts/day22_strength_ratio_reconstruction.py",
+    "system/scripts/day22_three_vector_orientation_controls.py"
+  ],
+  "passed": true
+}

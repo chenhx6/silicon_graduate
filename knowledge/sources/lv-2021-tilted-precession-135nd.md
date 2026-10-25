@@ -150,3 +150,12 @@ tags: [a130, tilted-precession, tip, low-spin, jurogam, in-beam-spectroscopy, qt
 | LV21-D18-6 | 作者以所测M1主导连接线、ΔI=1带结构及QTR能量/波函数/相对强度的一致性解释135Nd为TiP；QTR包含配对、Coriolis attenuation及给定形变/惯量/g因子，TiP1较高自旋存在能量高估与混合。该解释不是直接观测进动轨迹或仅靠小δ唯一确定的身份。 | author-interpretation | direct-and-boundary | PDF pp.8–11 Secs.III–IV；pp.11–14 Appendices A–B | true |
 | LV21-D18-7 | AD、DCO/Rac与AP来自同一JUROGAM采集；Fig.6给出不同目标线的门，AP还依赖采用的a(Eγ)响应校正。它们增加互补约束，但不构成多次独立采集；δ、E2份额及强度比亦有共享输入。AP是偏振不对称度，不能脱离分析能力/响应约定直接与其它来源的线偏振P数值等同。 | response-and-lineage-boundary | direct-and-boundary | PDF p.5 Eqs.(1)–(3)；p.8 Fig.6 caption；p.7 Table II | true |
 | LV21-D18-8 | 本文直接研究135Nd；其它候选核在可选小δ分支下出现部分相似的相对量，仅能作条件比较，不能由此认定其真实态均为TiP/单粒子、认定大解为人为假象或否定全区域wobbling。不同核的组态、参考跃迁、响应和候选分支需各自核验，本次也不建立“首个/全部覆盖”的优先权或穷尽结论。 | cross-source-inference-boundary | inference-and-boundary | PDF p.2争议与本工作范围；p.11 Summary；Appendices A–B | true |
+
+## Day22 checkpoint102：同核不同组态与数据谱系
+
+本次仅定向回读044308-4setup、-7TableII/-8图、-11Summary/AppendixA；未重称14页新全文。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV21-D22-R102-1 | 本篇D1/TiP1/TiP2为低spin单νh11/2家族，五条TiP1→D1已测δ的小模值和一条TiP2→TiP1不得合成全线独立偏振；QTR/配对/给定MoI把它们解释为TiP。它不对应MU07三准粒子高spinA/B手征带，也不直接推翻该核的另一组态手征解释。 | family-and-interpretation-boundary | direct-original | 044308-7TableII;044308-11Summary/AppendixA | true |
+| LV21-D22-R102-2 | 本篇152MeV40Ar+100Mo、.5mg/cm²自支撑靶、39GeJUROGAMII与5.1×10^10fold≥3事件，与Lv2022的135Pr报告setup和总事件数相同；终产物为同复合核的5n和1p4n道。它们是明显共享campaign候选，不应直接计成两次全独立装置校准确认；但未核event/runledger，不能声称逐event完全相同。相对于MU07的175MeV/Pbbacking/Gammasphere则有直接不同采集条件。 | acquisition-lineage-boundary | direct-metadata-and-bounded-inference | 044308-4experimentalsetup;Lv2022PLB824p2experimentalsetup;MU07p1setup | true |

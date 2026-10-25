@@ -1,0 +1,375 @@
+{
+  "observed_at": "2026-10-25T15:02:50.901078+08:00",
+  "scope": "Actual local closeout checks, exact atomic references and specified conditional controls only; no whole-library science/experimental-CI certification. Original runner finalizer and H3 still run separately.",
+  "results": {
+    "counts": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/day22_matched_null_conditional_test.py",
+        "--output",
+        "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/count-controls-closeout.json"
+      ],
+      "exit_code": 0,
+      "artifact": "count-controls-closeout.json",
+      "controls": {
+        "conditional_null_independent_of_a_and_exposure_parameters": true,
+        "conditional_alt_equals_noncentral_hypergeometric_odds": true,
+        "four_count_local_variance_equals_full_Poisson_Fisher_inverse": true,
+        "calibrator_restores_full_rank_but_target_alone_does_not": true,
+        "increased_chosen_exposure_retains_estimate_and_reduces_pvalue": true,
+        "unmatched_a_zeroP_can_mimic_entire_four_count_means": true
+      },
+      "interval_controls": {
+        "inverted_central_tails_match_alpha_over_two": true,
+        "one_sided_lower_tail_matches_alpha": true,
+        "central95_contains_zero_but_one_sided95_lower_positive": true,
+        "small_margin_exact_enumeration_coverage_not_below95_at_chosen_parameters": true,
+        "boundary_tables_retain_infinite_odds_limits": true
+      },
+      "scope": "taskdefinedmatchednullcalibrationmodel;notactualtargetdataorproposalpower"
+    },
+    "orientation": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/day22_three_vector_orientation_controls.py",
+        "--output",
+        "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/orientation-controls-closeout.json"
+      ],
+      "exit_code": 0,
+      "artifact": "orientation-controls-closeout.json",
+      "controls": {
+        "coupled_states_normalized_and_good_jpn_I": true,
+        "signed_chi_Hermitian_and_zero_in_fixed_jpn_state": true,
+        "RMS_positive_and_not_Gram_proxy": true,
+        "chi_squared_exact_symmetrized_pair_identity": true,
+        "independent_Cartesian_triple_matches_commutator": true,
+        "stretched_Gram_matches_independent_analytic_formula": true,
+        "stretched_state_zero_signed_RMS_but_nonzero_Gram_proxy": true,
+        "chosen_conjugate_packets_same_g_opposite_nonzero_signed_chi": true
+      },
+      "interval_controls": {},
+      "scope": "conditionalindependentlaboratoryspinoperatorprobe;notGR18produceridentification"
+    },
+    "stats-before-overview": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0
+    },
+    "lint": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error",
+        "--format",
+        "json",
+        "--output",
+        "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/lint-closeout.json"
+      ],
+      "exit_code": 0,
+      "artifact": "lint-closeout.json",
+      "counts": {
+        "warning": 220,
+        "info": 4403
+      },
+      "governance": {
+        "page_unreviewed": 636,
+        "source_unreviewed": 324,
+        "claims_total": 5112,
+        "claim_needs_review": 4403,
+        "claim_missing_locator": 0,
+        "claim_missing_kind": 0,
+        "source_missing_raw_file": 0,
+        "source_missing_citation_key": 182
+      }
+    },
+    "atomic-helper": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/validate_writeback_items.py",
+        "--report",
+        "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables.md"
+      ],
+      "exit_code": 0,
+      "result": {
+        "valid": true,
+        "items": 116,
+        "status": "updated",
+        "scope": "structure, atomic references and changed-page presence only; not source truth or experimental CI",
+        "errors": []
+      }
+    },
+    "boundary": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "result": {
+        "schema_version": 1,
+        "root": "/workspace/wiki",
+        "ok": true,
+        "errors": [],
+        "warnings": [],
+        "checks": {
+          "required_dirs": {
+            "expected": [
+              "raw",
+              "knowledge",
+              "outputs",
+              "system",
+              "tools",
+              "tmp"
+            ],
+            "missing": []
+          },
+          "forbidden_dirs": {
+            "expected_absent": [
+              "docs/plans"
+            ],
+            "present": []
+          },
+          "moved_knowledge": {
+            "outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md": {
+              "old_exists": false,
+              "canonical": "knowledge/projects/a130-thesis-evidence-matrix.md",
+              "canonical_exists": true
+            }
+          },
+          "outputs": {
+            "allowed_roots": [
+              "degree-dissertation",
+              "high-spin",
+              "l3",
+              "l4",
+              "learning-daily",
+              "learning-milestones",
+              "learning-weekly",
+              "literature-acquisition",
+              "paper-cards",
+              "plans",
+              "self-tests"
+            ],
+            "unknown_roots": [],
+            "knowledge_page_types_in_outputs": []
+          },
+          "qmd": {
+            "checked": true,
+            "available": true,
+            "command": [
+              "/opt/qmd/bin/qmd",
+              "collection",
+              "show",
+              "nuclear-knowledge"
+            ],
+            "exit": 0,
+            "path": "/workspace/wiki/knowledge",
+            "pattern": "**/*.md"
+          }
+        }
+      }
+    },
+    "diff": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": ""
+    },
+    "preflight": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        ".",
+        "--baseline-bib-hash",
+        "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be"
+      ],
+      "exit_code": 0
+    },
+    "eol": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/clean_knowledge_eol_dirty.py"
+      ],
+      "exit_code": 1
+    }
+  },
+  "runner_contracts": {
+    "headings": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+        "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+        "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+        "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+        "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+        "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+        "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md",
+        "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+        "knowledge/methods/wobbling-criteria-card.md",
+        "knowledge/methods/minimal-wobbling-identification-protocol.md",
+        "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+        "knowledge/observables/interband-e2-strengths.md",
+        "knowledge/concepts/wobbling-motion.md",
+        "knowledge/concepts/transverse-wobbling.md",
+        "knowledge/concepts/longitudinal-wobbling.md",
+        "knowledge/observables/wobbling-energy.md",
+        "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+        "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+        "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+        "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+        "knowledge/sources/frauendorf-2024-wobbling-review.md",
+        "knowledge/methods/spin-squeezed-state-map.md",
+        "knowledge/methods/spin-coherent-state-map.md",
+        "knowledge/synthesis/low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations.md",
+        "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+        "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+        "knowledge/questions.md",
+        "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+        "knowledge/projects/135pr-wobbling-controversy.md",
+        "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+        "knowledge/synthesis/wobbling-vs-signature-partner.md",
+        "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+        "knowledge/observables/multipole-mixing-ratio.md",
+        "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+        "knowledge/methods/angular-distribution.md",
+        "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/domscheit-1999-triaxial-superdeformation-163lu.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+        "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+        "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+        "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+        "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+        "knowledge/synthesis/gamma-soft-vs-gamma-rigid-diagnostics.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+        "knowledge/research-notes/day21-135nd-same-input-falsification-design.md",
+        "knowledge/sources/miller-2007-sega-polarization.md",
+        "knowledge/methods/compton-polarimetry.md",
+        "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "knowledge/concepts/antimagnetic-rotation.md",
+        "knowledge/concepts/flip-mode.md",
+        "knowledge/index.md",
+        "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+        "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+        "knowledge/overview.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/antimagnetic-rotation.md",
+        "knowledge/concepts/flip-mode.md",
+        "knowledge/concepts/longitudinal-wobbling.md",
+        "knowledge/concepts/transverse-wobbling.md",
+        "knowledge/concepts/wobbling-motion.md",
+        "knowledge/index.md",
+        "knowledge/methods/angular-distribution.md",
+        "knowledge/methods/compton-polarimetry.md",
+        "knowledge/methods/minimal-wobbling-identification-protocol.md",
+        "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+        "knowledge/methods/spin-coherent-state-map.md",
+        "knowledge/methods/spin-squeezed-state-map.md",
+        "knowledge/methods/wobbling-criteria-card.md",
+        "knowledge/methods/wobbling-geometry-phonon-observable-contract.md",
+        "knowledge/observables/interband-e2-strengths.md",
+        "knowledge/observables/multipole-mixing-ratio.md",
+        "knowledge/observables/wobbling-energy.md",
+        "knowledge/overview.md",
+        "knowledge/projects/135pr-wobbling-controversy.md",
+        "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+        "knowledge/questions.md",
+        "knowledge/research-notes/day21-135nd-same-input-falsification-design.md",
+        "knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md",
+        "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+        "knowledge/sources/chen-2022-study-wobbling-spin-coherent-state-maps.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/domscheit-1999-triaxial-superdeformation-163lu.md",
+        "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+        "knowledge/sources/frauendorf-2018-comment-wobbling-stability.md",
+        "knowledge/sources/frauendorf-2024-wobbling-review.md",
+        "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+        "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+        "knowledge/sources/jensen-2001-165tm-h9-2-configuration.md",
+        "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+        "knowledge/sources/lawrie-2020-tilted-precession-wobbling.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/lv-2022-transverse-wobbling-136nd.md",
+        "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+        "knowledge/sources/miller-2007-sega-polarization.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md",
+        "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+        "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+        "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+        "knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md",
+        "knowledge/sources/tanabe-2018-reply-wobbling-stability.md",
+        "knowledge/sources/taras-1971-phase-defined-polarization-formulas.md",
+        "knowledge/sources/timar-2019-transverse-wobbling-105pd.md",
+        "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+        "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md",
+        "knowledge/synthesis/chirality-wobbling-competition-evidence.md",
+        "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md",
+        "knowledge/synthesis/gamma-soft-vs-gamma-rigid-diagnostics.md",
+        "knowledge/synthesis/high-spin-angular-polarization-mixing-ratio.md",
+        "knowledge/synthesis/low-spin-wobbling-gamma-soft-deformation-and-alternative-interpretations.md",
+        "knowledge/synthesis/wobbling-vs-signature-partner.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        22
+      ],
+      "partial_day_indices": [
+        23
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 23,
+      "error": null
+    }
+  },
+  "protected": {
+    "raw/zotero/wiki-inbox.bib": {
+      "sha256": "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be",
+      "unchanged": true
+    },
+    "PLAN.md": {
+      "sha256": "7122f62bd951a9c30cddff25fece14a1282748489e2feef1154bb7b7c75aa2f8",
+      "unchanged": true
+    }
+  },
+  "writeback_items": 116,
+  "overview_counts": {
+    "knowledge": 717,
+    "sources": 384,
+    "lint_scanned_type_pages": 714,
+    "root_navigation_governance_pages": 3
+  },
+  "status": "passed",
+  "overview_note": "Directory totals and lint-scanned typed pages explicitly distinguished; no governance metric changed."
+}

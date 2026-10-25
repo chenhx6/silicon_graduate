@@ -3,7 +3,7 @@ type: source
 title: "Jensen et al. 2002 - Evidence for Second-Phonon Nuclear Wobbling"
 aliases: [Jensen 2002 163Lu second phonon wobbling, Evidence for Second-Phonon Nuclear Wobbling]
 created: 2026-07-16
-updated: 2026-07-25
+updated: 2026-10-24
 status: active
 review_status: human-reviewed
 source_type: journal-article
@@ -184,7 +184,7 @@ Keep the 476-keV/Table II branch issue in source-local P0 until user review.
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| JE02-D18-1 | 本文声称实验确立核内首例二声子wobbling模式（TSD3），其核心电磁证据是唯一测得的TSD3->TSD2 476 keV连接线B(E2_out)/B(E2_in) = 0.51(13)，约为一声子比值0.21(1)的两倍（2.43倍），符合谐振子声子强度标度2B(E2_1)。定量审计揭示关键模型依赖：(1) 正文p.3明确承认476 keV线因统计不足‘不可能完成线偏振测量’，实验本身无法在两个DCO解间做出排他性裁决；(2) 若采纳实验同样允许的小解delta = -0.19(+8-12)，B(E2_out)/B(E2_in)遭遇26.8倍断崖式塌缩至仅0.019(+24-17)（由411.8 W.u.暴跌至15.3 W.u.），谐振子标度彻底瓦解为0.09倍；(3) Table I中6条TSD3->TSD1（Delta n = 2）跨带线平均B(E2_out)/B(E2_in)约为0.020（16.1 W.u.），均为纯伸展E2（Delta I = 2），且完全无Delta I = 0跃迁，这确立了多声子wobbling谐振弱退激的选择定则黄金基准，与低自旋反常候选核形成鲜明对照。 | task-rate-decomposition-audit | derived-and-boundary | PDF pp.2-3 Tables I-II；新jensen02-163lu-wobbling-result-026 | true |
+| JE02-D18-1 | superseded by checkpoint092：旧411.8/15.3/16.1 W.u.由额外绝对尺度换算，未由本文寿命测定；26.84是两个相对根中心值之商，不是物理动态塌缩。原文八条ΔI=2线与六行Table I均保留；见JE02-D22-R092-1/3/4。 | task-correction | direct-original-audit | 本页R092原件条目；旧任务数值不认证 | true |
 
 新[分析合同](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen02-163lu-wobbling-contract-026.json)及[实际结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/jensen02-163lu-wobbling-result-026.json)4项检查全过。
 
@@ -194,4 +194,48 @@ Keep the 476-keV/Table II branch issue in source-local P0 until user review.
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| JE02-D21-1 | 依据推断阶梯审计，Jensen 2002 双声子摇摆主张存在重大推断阶梯漏洞：(1) 关键跃迁偏振缺失与循环论证：476-keV TSD3->TSD2 跃迁未测得线偏振，大解（delta=-3.60, B(E2_out)/B_in=0.51）与小解（delta=-0.19, B_out/B_in=0.019）相差 27 倍；作者排除小解完全基于“大解接近双声子 2x 预测”的模型偏好；(2) 简谐近似破缺：实验测得 8 条直接连接 TSD3 到 TSD1 的 Delta nw=2 跨声子跃迁（简谐模型严格禁戒），证明强非谐性与 pi i13/2 准核子非线性耦合（Hamamoto 2002）；(3) 确立“严禁依据理论预期挑选分支”的核心证据门准则。 | source-result-and-boundary | derived-and-boundary | pp.142503-1-4, Table II, Figs.4-5; lu163-wobbling-phonon-audit-023.json | true |
+| JE02-D21-1 | superseded by checkpoint092：原认证撤回：476未测偏振是实际缺口，但作者选根还比较J(2)/i_x与PRM整套电磁性质；八条直接ΔI=2线是原文报告的非谐退激，不证明所有wobbling解释失败。见JE02-D22-R092-1/2。 | task-correction | direct-original-audit | 本页R092原件条目；旧任务数值不认证 | true |
+
+## Day22 原件复核：476keV逐线身份与未选解边界
+
+全文正文与图表实际重读；关键数据/图表视觉核验，raw哈希保持。以下仅Codex self-audit，原page review/既有claim flags不改；新增claims均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JE02-D22-001 | Fig1将476keV绑定TSD3 45/2+→TSD2 43/2+，其同母态带内E2为627keV至TSD3 41/2+。TableII λ=.14(.04)指该带外/带内光子分支；不能用任意spin的TSD2带内线作其分母。 | transition-identity | direct-original | 142503-2, Fig.1; 142503-3, Table II | true |
+| JE02-D22-002 | 476keV因统计不足无法测偏振，作者明确说不能在实验上选两个δ分支；大解−3.60(+.97/−1.93)与小解−.19(+.08/−.12)对应rE2=.51(.13)与.019(+.024/−.017)。采用大解依赖band-family和PRM一致性，不能称偏振排他选解。 | experimental-limitation-and-author-choice | direct-original | 142503-3, post-Table-I discussion and Table II; 142503-4, small-root paragraph | true |
+| JE02-D22-003 | TableII的.51/.21中央商约2.43支持作者的近二倍阶梯讨论，但分子为45/2的TSD3退激、基准为TSD2多线平均，未提供此商的jointCov或严格同I实验检验。相近i_x/J(2)并不消除476未测偏振。 | comparison-and-uncertainty-boundary | direct-original-and-bounded-inference | 142503-3, Table II; 142503-4, Figs.4-5 | true |
+| JE02-D22-004 | 本文新采集为157MeV、约6×10^9事件，与OD01所述152MeV、2.4×10^9的采集条件不同；一声子指认/δ背景仍回指旧文，H03/F14再次引用这些点不增加采集数。旧基准的逐量来源与Cov应逐项确认。 | source-lineage | direct-original-and-cross-source-comparison | 142503-1–2, introduction and experiment; 142503-3, previous-value paragraph | true |
+
+### Knowledge Impact and Learning Decision
+
+Supports/limits：保留作者的支持或反对解释，并将逐线测量、选解前提、模型结果和依赖链分开。四列比较与条件强度重建见[[wobbling-geometry-phonon-observable-contract]]；不以模型或跨采集中心值差替代新实验置信区间。
+
+
+## Day22 checkpoint092：163Lu原始观测与强度对象复核
+
+本次完整重读4页，视觉核142503-2 Fig.1/Table I及142503-3 Table II；SHA256 c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a。表重建是任务算术，不重放原计数/响应/联合CI，未新增绝对B测量。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JE02-D22-R092-1 | 新采集确立四条TSD3→TSD2 ΔI=1及八条TSD3→TSD1 ΔI=2线，后者由AD/DCO判伸展E2（文中说明disregarding M2）；Table I六条打印rE2=.021/.022/.018/.017/.022/.020。作者将这些约.02的有限强度解释为非谐性并与PRM比较，不是未观测跨两声子衰变。 | experimental-topology-and-author-interpretation | direct-original-and-bounded-reconstruction | 142503-2, observation paragraphs, Table I and Fig.1; 142503-4, first paragraph and Fig.5 | true |
+| JE02-D22-R092-2 | 476 keV因统计不足不能测偏振；作者明确实验本身不能选δ根，大根选择还使用相近J(2)/相对i_x、band-family和PRM电磁性质比较，而非只有两倍强度预期。该解释有模型条件，但将其简化为代数循环或排他证伪均过强。 | branch-selection-and-support-boundary | direct-original-and-bounded-reconstruction | 142503-3, paragraphs on polarization and band similarities; 142503-4, small-root comparison and Conclusion | true |
+| JE02-D22-R092-3 | 476/627同45/2母态的λ=.14及δ中心−3.60/−.19按γ率关系重建rE2≈.5154/.01934、rM1≈.00628/.08465，分别与打印.51/.019和.006/.083在输入末位舍入范围相容。这里全为相对B；没有τ不能换W.u.。打印.51/.019≈26.84是替代根的中央值敏感性，不是实测强度动态暴跌。 | task-rate-identity-and-input-boundary | direct-original-and-bounded-reconstruction | 142503-2, Fig.1; 142503-3, Table II; 142503-4, small-root paragraph; lu163-relative-strength-audit-092.json | true |
+| JE02-D22-R092-4 | Table II的.51/.21≈2.43比较两个带各自归一的相对强度；要解释为绝对B(2→1)/B(1→0)，还须指定相应带内B尺度与spin匹配。本文以PRM及相近转动性质支持声子解释；该商不是独立寿命或精确同I两倍玻色子规则检验。 | normalized-ratio-and-phonon-test-boundary | direct-original-and-bounded-reconstruction | 142503-3, Table II; 142503-4, Fig.5 and comparison text | true |
+
+## Day22 checkpoint100：同母态双带外E2比与归一消去
+
+本次视觉回核142503-2 Fig1局部及TableI，和p3 TableII；不重称整篇新通读。45/2+ TSD3同母态的1119.2→TSD1(41/2+)、476→TSD2(43/2+)与627→TSD3(41/2+)已逐线映射。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JE02-D22-R100-1 | 1119.2keV在TableI给λ=.33(.05)、rE2=.018(.003)，与TableII476的λ=.14(.04)及rE2=.51/.019共用627keV带内分母和TSD3 45/2+母态。故B(E2;1119)/B(E2;476)的打印中央商为.03529或.94737；直接光子式(λ1119/λ476)(476/1119.2)^5/fE2(δ476)给.03533/.94141，末位输入不同造成小偏差。此比不需τ或带内绝对B，但仍依赖476的未选δ及原E2赋值。 | same-parent-exit-ratio-and-normalizer-cancellation | direct-original-and-task-arithmetic | 142503-2 Fig1/TableI1119.2row;142503-3 TableII476row | true |
+| JE02-D22-R100-2 | 两个out/in相对比相除因共母态/分母可消去带内尺度；不同母态的.51/.21则不能同样消去。新out/out重表达共享原γ计数/δ，不能作为第三个独立实验为大根投票，也不能在缺Cov时将两表误差当独立传播。大小根分别意味着直接TSD3→TSD1的E2约为邻带出口的3.5%或可比量级；与作者的非谐退激解释比较仍需明确模型，不能据有限Δn≈2排除所有wobbling。 | dependence-and-phonon-interpretation-boundary | source-conditioned-algebra | 142503-2 Fig1/TableI;142503-3 TableII;142503-4 anharmonicityparagraph | true |
+
+## Day22 checkpoint122：已选δ条件下的M1上限
+
+本次同SHA原件四页全文文本回读，fresh visual核142503-2 Fig1/TableI、142503-3 Fig2/3/TableII和142503-4 Fig4/5/模型比较。1119.2/476/627母态绑定及原双根/偏振缺口与现有条目一致。
+
+| ID | Statement | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JE02-D22-R122-1 | 采用476大根后，作者报rM1=.006(+.006/−.004)，并将模型rM1=.026与称为experimental upper limit的.012比较，单位均μN²/(e²b²)；同文小根给.083(.024)。因此该.012属于既定大根解释下的比较，不能独立反过来选δ或被改写为绝对B(M1)上限。本文未提供可供本任务重报新σ排除度的完整likelihood。 | source-chosen-branch-and-statistical-boundary | direct-original-and-bounded-inference | 142503-3large-rootrM1paragraph;142503-4M1comparisonandsmall-rootparagraphs | true |

@@ -266,7 +266,7 @@ supports：新JUROGAM谱学与作者手征解释的条件支持；limits：绝�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| LV19-D21-R128-1 | 结合MU07实测R_E2∈[0.113,0.172]，由R_E2=C/f225反演得到225.8keV内禀辐射E2份额f225∈[0.00122,0.00186]（|δ225|∈[0.0350,0.0432]），与低能带内近纯M1转动辐射严格自洽；而LV19相对强度导出的M1上界D/(1-f225)≈0.020较MU07实测R_M1≈0.031低1.56倍，定量确立了JUROGAM II与Gammasphere跨束能/门谱条件的系统差异，严禁无协方差强行拼接。 | model-domain-and-cross-campaign-boundary | derived-from-VoR-and-MU07 | 024314-5 Table I Band D6; PRL 99, 172501 Table I | true |
+| LV19-D21-R128-1 | **superseded at checkpoint110**：旧跨campaignδ反演、线性偏振加权、指定机时与P>0模式排他认证撤回；使用LV19-D22-R110-1至3的线身份/输入边界。 | task-correction | rejected-and-replaced | TableID6andcheckpoint110script-audit | true |
 
 计算脚本见system/scripts/day21_checkpoint128_chiral_model_domain_audit.py，输出chiral-model-domain-scope-128.json。
 
@@ -277,7 +277,7 @@ supports：新JUROGAM谱学与作者手征解释的条件支持；limits：绝�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| LV19-D21-R129-1 | 在31/2-至37/2-连续四个自旋态，实测跨带E2比值R_E2单调增长3.56倍（0.139至0.497），直观体现手征振动向静态隧穿的演化；同母态反演得到的带内辐射E2份额高度稳定在0.11%–0.37%（|δin|∈[0.034,0.061]），定量确立Gammasphere与JUROGAM II数据在转动带内近纯M1规律上的深刻物理自洽；而跨实验M1比值因子在0.98–5.21间剧烈波动，确立了独立实验门谱/效率依赖性边界。 | multispin-inversion-and-cross-campaign-stability | derived-from-VoR-and-MU07 | 024314-5 Table I Band D6; PRL 99, 172501 Table I | true |
+| LV19-D21-R129-1 | **superseded at checkpoint110**：旧跨campaignδ反演、线性偏振加权、指定机时与P>0模式排他认证撤回；使用LV19-D22-R110-1至3的线身份/输入边界。 | task-correction | rejected-and-replaced | TableID6andcheckpoint110script-audit | true |
 
 计算脚本见system/scripts/day21_checkpoint129_multispin_chiral_inversion_audit.py，输出multispin-chiral-inversion-scope-129.json。
 
@@ -297,7 +297,7 @@ supports：新JUROGAM谱学与作者手征解释的条件支持；limits：绝�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| LV19-D21-R134-1 | 225.8 keV带内跃迁若为手征转动M1主导（|δ|≈0.0389），理论线偏振度为P≈-0.40（康普顿不对称度A≈-0.088）；若为横向摆动或大E2混合（|δ|≈1.2），偏振度反号为P≈+0.13（A≈+0.029）；在现有JYFL装置（100Mo+40Ar）上仅需16.3小时机时即可获得663个康普顿事件实现3σ判定（45.3小时达5σ），若测得P>0且达>3σ将排他性证伪Band D6低自旋手征振动解释。 | polarimetry-falsification-design | derived-design-and-facility-sensitivity | 024314-5 Table I Band D6 | true |
+| LV19-D21-R134-1 | **superseded at checkpoint110**：旧跨campaignδ反演、线性偏振加权、指定机时与P>0模式排他认证撤回；使用LV19-D22-R110-1至3的线身份/输入边界。 | task-correction | rejected-and-replaced | TableID6andcheckpoint110script-audit | true |
 
 计算脚本见system/scripts/day21_checkpoint134_polarization_falsification_design.py，输出polarization-falsification-scope-134.json。
 ## Day21 checkpoint139：排版印刷异常与物理证伪边界审计
@@ -306,6 +306,16 @@ supports：新JUROGAM谱学与作者手征解释的条件支持；limits：绝�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| LV19-D21-R139-1 | 998.1 keV行按其打印Ei=5412.6 keV与D5终态闭合残差严格<1e-6，与5411.6的1.0 keV残差系不同门谱拟合中心微小漂移；334.4 keV的“27/2- -> 25/2+ M1/E2”100%违反电磁选择律，正文、Fig.1与IPDCO一致确证为正宇称，证明该'-'为孤立印刷脱漏；934.9/966.3 keV系LaTeX换页续表排版归入D6列，属D5带内跃迁。三项异常均属印刷排版与拟合舍入范畴，绝不能当作推翻手征对称性的实验反证，严禁擅自修改原表，实证证伪必须依靠物理可观测量（如Checkpoint 134偏振P>0）。 | typographical-anomaly-and-falsification-boundary | derived-from-VoR-and-selection-rules | 024314-4 Table I Bands D3, D5, D6 | true |
+| LV19-D21-R139-1 | **superseded at checkpoint114**：旧将全部异常核准为印刷/拟合漂移及P>0排他准则的认证撤回；字面元组/版本冲突使用R103-2/3/4，偏振设计使用LV19-D22-R110-1至3，不擅改原表。 | task-correction | rejected-and-replaced | 024314-4/5TableI;checkpoint110/114 | true |
 
 计算脚本见system/scripts/day21_checkpoint139_typographical_anomaly_audit.py，输出typographical-anomaly-scope-139.json。
+
+## Day22 checkpoint110：225.8keV偏振方案的响应与统计更正
+
+本次实际视觉核已存在VoR缓存024314-5 TableI（SHA450a3032…2066），并与raw arXivPDF9表对应；只定向读该三线/脚注，不重称全文重分析。旧Day21脚本仅作为只读历史核验，未执行或覆盖旧run回执；正式[21]/18分不改。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D22-R110-1 | D6 4007.8keV 31/2−母态的225.8→29/2−、648.9→29/2−为M1/E2，896.8→27/2−为E2；表不列前两线δ或225.8偏振。Iγ3.8/1.8/.79为以198.8线归一的效率修正相对强度，不是每次衰变的绝对branch或阵列总谱2%。不能由跨campaign未定成分的MU07图比直接宣布δ225=.0389为实测值。 | literal-line-and-missing-input | direct-existing-VoR-and-raw-crosscheck | 024314-5TableID6rows225.8/648.9/896.8andfootnoteb;rawarXivPDF9TableI | true |
+| LV19-D22-R110-2 | checkpoint134脚本自设pureP=−.4/+.5、Q=.22、selectedComptonrate40.6/h，未给本线spin/alignment/混合相位/finitegate的有效响应或校准率来源。P按fE2线性加权还遗漏相干M1/E2干涉与强度分母，因此P≈−.40/+.13不是本文或已重放模型预测，16.3/45.3h不是可认证的设施机时，更不是已执行runtime。 | historical-design-input-audit | task-audit-not-paper-result | day21_checkpoint134_polarization_falsification_design.pyread-only;sourceTableIinputboundary | true |
+| LV19-D22-R110-3 | 即便暂沿旧假设A0=−.08770、A1=.02885，N663只使两固定均值相距约3个1/sqrtN；已知a=1、无背景的条件binomial方差下，正均值A1距0仅.743σ，不能同时宣称正号3σ。条件正号3σ的正态近似需求约10803selectedcounts，仅诊断旧检验目标不一致，不是新真实计数/小时预算。只有指定模型Θ及全部nuisance预测域被同一实测观测排除，才能反驳该版本；P>0本身不排除全部D6手征机制。 | conditional-statistical-design-boundary | old-input-task-arithmetic | polarization-design-boundary-110.json;oldscope134;Tarasprinted333Eq19/339Eq39 | true |

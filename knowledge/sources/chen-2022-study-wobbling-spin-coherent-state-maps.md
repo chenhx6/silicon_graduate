@@ -124,3 +124,22 @@ P1:
 ## Review Status
 
 Page and all CF22 claims remain unreviewed with `needs_review: true`; human review is deferred until use. The associated publisher erratum has been read and recorded as CF22-14, but it remains part of the targeted review scope when the corrected figure is used; no independent citation key or complete source page is created for it.
+
+## Day22 checkpoint093：定义、有效域与表示的定向原件比较
+
+本轮定向核27页原件p.3–4的SCS定义、p.14/19–20的Sec.4.4/4.6及p.26 Summary；视觉核p.26，不使用有勘误问题的Fig.15作新n=2/3图像判断。原全文/勘误历史记录不扩张为本轮重读。SHA256 ebe826198cf89f720478f0e525dd0b457b2c6eb227ae055de601b3cdd7c57a6b。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CF22-D22-R093-1 | Sec.4.6直接讨论Lawrie2020（Ref.12）：作者认为对方将wobbling限定为谐极限，而其TiP states在本文术语下是非谐wobbling；本文按完整PTR经典轨道/SCS拓扑分类，不要求刚性j或严格等间隔。这是作者定义与模型解释的分歧，不是独立实验已裁决某一方。 | author-definition-and-counterargument | direct-original-and-bounded-comparison | PDF pp.19–20, Sec.4.6; p.26, paragraph beginning “Wobbling is a phenomenological interpretation” | true |
+| CF22-D22-R093-2 | 本文特定135Pr计算的TW–LW过渡区中，第三带→第一带的I→I E2变强，而第三→第二的I→I−1可受干涉抑制；作者仍在其完整PTR模式框架内讨论。故观察ΔI=0支路不构成所有非谐/过渡模型的普适否证，也不能单凭它唯一改判其他核为γ振动。 | model-result-and-transfer-boundary | direct-original-and-bounded-comparison | PDF p.26, transition-region and transition-density paragraphs | true |
+| CF22-D22-R093-3 | SCS由R†旋转最大投影态构造；体固总J分量与通常j分量的对易符号不同，作者通过角变量反号/升降算符互换处理。跨表示移植相位展开须先写明角度、体固/实验室约定及概率积分测度，不能直接拼接两套旋转公式。 | representation-convention | direct-original-and-bounded-comparison | PDF p.3 Eq.(8) and identity Eq.(11); p.4, discussion preceding Eq.(17) | true |
+
+## Day22 checkpoint101：勘误原图、RMS信息与SCS测度
+
+本轮回读mainPDF4 Eq17/19、PDF7 Eq31/32、PDF15–16及19–20相关段；一页Publisher Erratum全文与原图实际视觉核验，SHA d0bb7ad17dcac5be0442a0d37b58602b7e4eac01d321fc7bed88bfdec5b5ff82。未把原PDF27页重称新通读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CF22-D22-R101-1 | 勘误明确wrongFig15并给替换图，四行标Iν为11/2₂、13/2₂、19/2₂、21/2₂，三列J/R/j；下标2为同spin第二态，不可当n=2每行或实验带标签。主文Fig15图注为selected n=2/3，并在p16说明近等间隔能量可伴随非谐B(E2)不按n成比例。不能把此图当原计数、实测角动量或因近等距恢复严格harmonic矩阵元。 | corrected-figure-and-phonon-boundary | direct-original | Publisher Erratump1replacementFig15;mainPDF15Fig15caption;PDF16discussion before4.5 | true |
+| CF22-D22-R101-2 | Eq19的even-I、D2完全对称K基底与Eq31/32的SCS密度支持一个任务构造：I=4，K=0/±2对称/±4对称三基态混合权重取(23,16,21)/60或(17,24,19)/60，三轴二阶矩均20/3，但J3四阶矩1408/15与1312/15不同、SCS图也不同。六项正性/归一/矩与图控制通过。这说明三RMS一般不重建完整密度图；是人工混合态，不是同Hamiltonian本征态、135Pr重拟或TW/LW唯一判决。 | representation-counterexample | source-defined-basis-and-task-calculation | mainPDF4Eq19andD2paragraph;PDF7Eqs31/32 | true |

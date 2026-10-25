@@ -159,3 +159,59 @@ Page and all F14 claims remain unreviewed with `needs_review: true`. Human revie
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | F14-D20-R146-1 | HFA的Jc=14.4375绑定固定fit惯量与假定j，J=√I(I+1)不等I；解到I约13.946，并非实测29/2普适阈值。横向频率可先升后降，近不稳定处HFA失效，完整QTR允许粒子重定向。141的低spin简谐趋势不是所有TW/LW唯一分类器，也不能设10W.u.普适硬阈值。 | model-domain-correction | source-and-bounded-self-audit | F14-D20-R44-1/R44-2; PDF6 Eq24 | true |
+
+## Day22 原件复核：几何分类与HFA有效域
+
+实际重读014322-1–12正文、公式、全部图表caption及附录；视觉核014322-6的Eqs. (11)–(24)和014322-9的Figs.17–19/Table II。原件SHA-256与frontmatter一致。以下为Codex self-audit，原human review/flags不变；不把F14复引实验当作新采集。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F14-D22-001 | 横/纵定义是准粒子j相对最大惯量轴的垂直/平行取向。本文simple/longitudinal的最大惯量为3轴；transverse particle讨论改为2=m、3=s、1=l，必须重映射轴号，不能把能量下降本身当几何定义。 | model-definition | direct-original | 014322-4, geometry paragraphs and Table I | true |
+| F14-D22-002 | Eq. (11)将沿3轴的j固定为数；Eq. (12)以J=√I(I+1)作小角展开，Eq. (15)为2J√[(A1−Ā3)(A2−Ā3)]、Ā3=A3(1−j/J)。Eq. (23)对第一激发要求3(A1+A2−2Ā3)/[2√((A1−Ā3)(A2−Ā3))]≪J；近临界点分母软化，作者明确指出HFA失效。 | formalism-and-validity | direct-original | 014322-6, Eqs. (11)-(15), (23)-(24) | true |
+| F14-D22-003 | transverse particle模式的频率可先升后降；文中明确163Lu初始上升由Eq. (24)的另一因子增加导致。transverse hole在本文典型惯量排序下两因子均随J下降。这些均受FA/HFA假设限制，不能把任意上升曲线排除为非横向。 | model-domain | direct-original | 014322-6, post-Eq. (24) discussion | true |
+| F14-D22-004 | 完整QTR以CQM/KKDF对角化Eq. (25)，不冻结准粒子方向；014322-8明确HFA预测的临界后两带合并并未发生在完整QTR中，而是质子向m轴重定向。HFA软化不能外推为实测零带差或手征/形状相变。 | model-implementation-and-inference-boundary | direct-original-and-bounded-inference | 014322-7, Sec. IV A and Eq. (25); 014322-8, Sec. IV B | true |
+| F14-D22-005 | Table II上半部Pr的B值是QTR计算；下半部实验相对比是Matta发表前private communication的tentative数据，Ref.26并非本篇新采集。其值与2015最终表存在版本差，不能当另一独立实验或新增绝对寿命。 | data-identity-and-independence | direct-original | 014322-9, Table II caption; 014322-12, Ref.26 | true |
+| F14-D22-006 | 在163Lu中QTR/HFA对带间M1明显过估（作者称超过10倍），n=2相对n=1的E2增强约1.3也不足以形成清晰二声子结构；E2趋势与能量曲率仍有差别。作者保留transverse解释，但明确这些未解决限制，不能称全观测量闭合。 | model-limitations | direct-original | 014322-10, Sec. IV C | true |
+| F14-D22-007 | 本文将H03等旧Lu的“j沿最大惯量轴”安排归为longitudinal，并提出与微观排序相符的transverse安排来解释下降趋势。该文献间比较是理论假设修订，不是独立实验否证或形状直接测量。 | cross-source-model-comparison | direct-original | 014322-7, paragraphs preceding Sec. IV; 014322-12, Ref.12 | true |
+
+### Knowledge Impact and Learning Decision
+
+Supports：以最大惯量轴和准粒子取向定义横纵几何；limits：保留HFA小角域、固定core参数与M1/二声子偏差。跨H03比较需先映射轴与惯量排序，不能将完整QTR的非刚性准粒子耦合写成全spin冻结。有限自旋条件重建与四列证据合同见[[wobbling-geometry-phonon-observable-contract]]；其中数值是本任务模型控制，不冒论文原producer或实验数据。
+
+### Day22历史争论回链
+
+[[frauendorf-2018-comment-wobbling-stability]]支持参数/近似域需分开讨论，[[tanabe-2018-reply-wobbling-stability]]以RMS量子化提出另一判据；两者是理论争论，不增加163Lu或135Pr独立实验。与[[lawrie-2020-tilted-precession-wobbling]]的后续批评并列，不将任何一方自动升为本库最终裁决。
+
+
+## Day22 checkpoint091 直接原件纠错
+
+本次定向文本核Sec.III及p.10的M1讨论；视觉核014322-6的Eqs.(11)–(24)。不声称本次重跑完整QTR。原文PDF哈希36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3。新增条目不继承页面历史审核资格。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F14-D22-R091-1 | HFA保持准粒子沿体固3轴冻结，仍由磁矩分量μ3=(gj−gR)j导出非零带间B(M1)=3n[j(gj−gR)x]²/(4πJ)。作者说明磁矩随转子晃动发射M1，HFA/QTR还高估实测M1。因此冻结内禀j不意味着实验室系磁偶极算符为常数或带间M1恒零。 | model-formalism-and-correction | direct-original | 014322-6, Eqs.(21)–(22); 014322-10, Fig.19 discussion | true |
+| F14-D22-R091-2 | Eq.(23)是HFA小振幅条件，依赖两条局部曲率、J和j；不是f=(2n+1)j/R，也未给0.35的通用截断。文中横向粒子例子频率可先升后降，几何定义不能被能量斜率单独替代。 | model-domain-and-correction | direct-original | 014322-6, Eqs.(23)–(24) and following paragraphs | true |
+
+
+## Day22 checkpoint092：Fig.19绝对强度的字面参考链疑点
+
+本次定向核014322-10文字及014322-12书目，并核所指Jensen2001原件首页/摘要，未把后一篇48页重新标为本轮全文阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F14-D22-R092-1 | p.10将163Lu的弱M1测量指向Ref.25，p.12该条印H.J.Jensen等NPA695,3(2001)；本地相符原件首页题名为165Tm的πh9/2组态与能级图。该字面参考链未给出可直接认证163Lu绝对B(M1)的原始寿命出处，保留可能引用错配/正确数据来源未解；不能因此判Fig.19数据虚假，也不能擅自替换成OD01/JE02或Schmitz。 | literal-reference-identity-and-lineage-boundary | direct-original-and-cross-source | 014322-10, Fig.19 discussion citing Ref.25; 014322-12, Ref.25; Jensen2001 NPA695 p.3 title/abstract | true |
+
+对应身份核验见[[jensen-2001-165tm-h9-2-configuration]] JT01-D22-R092-1；此链接不增加163Lu独立实验数。
+
+## Day22 checkpoint106：临界曲率与有限量子能隙的条件控制
+
+以下为对本页原式的任务数学扩展，不是F14新结果或任何核素拟合。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F14-D22-R106-1 | 对Eq11冻结j形式取人工参数族A=(3A0,A0,2A0)、A0=.01MeV、J=sqrt[I(I+1)]、j=J/2，HFA的c2恰0而c1=2A0。保留正J3分支的四次项后，q=J2/sqrtJ、p=J1/sqrtJ的领先算符为2A0J p²+(A0/4)q⁴，能隙尺度A0J^(2/3)。I10/20/40/80/160完整矩阵最低隙除该尺度为2.7120/2.7280/2.7347/2.7375/2.7386，趋近独立p²+q⁴ Galerkin结果2.73931；HFA零曲率不意味着这些有限矩阵的最低隙零。 | conditional-quartic-model-derivation | source-Hamiltonian-and-task-control | 014322-6Eq11/HFAexpansion;frozen-critical-quartic-106.jsonchosenfamily | true |
+| F14-D22-R106-2 | 本参数族j随I变以检验渐近极限，不代表固定真实准粒子；只量子化冻结j有限spin，不含完整QTR重取向或真实电磁算符。五项有限谱/矩阵signature/独立quartic极限控制通过，不认证某核临界spin、声子指认、跃迁B或相变。四次展开的算符排序/高阶项仅在领先极限处理，所选网格收敛不作所有参数定理。 | model-domain-and-observable-boundary | task-self-audit | F14Eq11/17domain;frozen-critical-quartic-106.jsonboundaries | true |
+
+## Day22 checkpoint121：既有核心来源主线回读
+
+2026-10-25T14:11:06.327994+08:00回读现有同SHA原件：014322-1–12 all mainline, appendix and references；本次重新视觉核014322-6 Eqs11–24。问题、方法、拟合输入、结果、局限和结论与当前原子条目核对，未发现需要新增科学结论的差额。原实现/完整Cov及外部引用缺口保持；没有新增实验、下载或human review。阅读记录见source-mainline-recheck-121.json。

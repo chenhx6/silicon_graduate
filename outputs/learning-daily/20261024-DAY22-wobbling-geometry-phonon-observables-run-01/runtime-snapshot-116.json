@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-25T13:35:32.420936+08:00",
+  "hard_deadline": "2026-10-25T15:00:00+08:00",
+  "next_scheduled_start": "2026-10-25T16:00:00+08:00",
+  "minutes_to_deadline": 84.45965106666667,
+  "minutes_to_next_start": 144.45965106666665,
+  "minimum_current_block_minutes": 90,
+  "minimum_forward_card_block_minutes": 120,
+  "can_continue_current": true,
+  "can_complete_forward_card": false,
+  "decision": "finish-current-no-new-unit",
+  "day23_preview_uncredited": true,
+  "forward_card_prohibited_by_user": false,
+  "day_index": 22,
+  "next_card_preview": 23,
+  "next_card_credit": false,
+  "can_credit_next_card": false,
+  "can_preview_next_card": false,
+  "can_open_new_source": false,
+  "forward_card_credit_prohibited_by_user": true,
+  "closeout_decision": "finish-current-no-new-unit"
+}

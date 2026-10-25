@@ -3,7 +3,7 @@ type: synthesis
 title: "γ-soft deformation: diagnostics, coupling, and deformation evolution"
 aliases: [γ-soft 与 γ-rigid 的低能谱判别, gamma-soft deformation synthesis]
 created: 2026-07-01
-updated: 2026-08-04
+updated: 2026-10-25
 status: ai-draft
 review_status: human-reviewed
 scope: gamma-soft-deformation-a130-and-nearby-evidence
@@ -15,6 +15,10 @@ tags: [gamma-softness, gamma-rigidity, shape-phase-transition, pairing-vibration
 ---
 
 # γ-soft Deformation：判据、耦合与形变演化的阶段性综合
+
+## Agent active summary — Day22
+
+当前Day22增量保留“邻芯softness不是奇A高spin模式普适禁戒”和模型PES/磁性算符的不同约束。[[frauendorf-2024-wobbling-review]] F24-D22-R108-1属于作者模型比较；[[nomura-2022-questioning-wobbling-ibfm]] NOM22-D22-R108-2说明受限PES不独立确定所有影响M1的参数，不能由此认证任一模式。 本段是Codex self-audit导航，新增内容needs_review: true，不扩张原有human-reviewed范围，也不替代source locator。
 
 ## Question and Scope
 
@@ -165,3 +169,9 @@ W-J/D-F 相位差和 `136Sm` 寿命/`Q_t` 数值为可定位证据；GSD-SYN-1 �
 **checkpoint108撤回旧普适形状裁决。** [[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-22/23保存作者weakvibrator解释和有限IBM charge/input谱系，B4/2=1.86(16)不等独立证明O6/gamma softness；vibrator2和finiteIBM U5 1.5属于不同参照。[[regis-2011-fast-timing-labr3]] RG11-D19-15/21的B4/2约1.335与X5比较是作者结合模型/多点解释，不由任意.20差阈值排他裁定shape。
 
 旧Sm斜率−2.18/两分段均值及S432/2/11未在本checkpoint从原Hamiltonian或原表新核，不能被硬填常数通过认证；停止尺度不变要[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-D19-19所述条件，不普适电子-only。[[suzuki-2008-lifetimes-103rh-104rh]] SU08-D19-8只给实验门合同，不支持上述shape公式。原human-reviewed metadata/既有早期审核条目保持；本新增修订为Codex自审。
+
+## Day22 checkpoint108：γ-soft不是模式禁止条件，PES不定标全部M1
+
+[[frauendorf-2024-wobbling-review]] F24-D22-R108-1讨论同一TPSM输入同时出现core的softness交错特征与odd核的wobbling支持预测；这是作者模型解释，不能将fixedbasisγ独立当实验刚度，也不能从邻芯softness普适否定wobbling。其对IBFM能谱趋势的反驳与实际混合比冲突是不同层级，原privateenergy/producer未取得。
+
+[[nomura-2022-questioning-wobbling-ibfm]] NOM22-D22-R108-1/2补充为什么整磁性向量重要：受限同质子/中子变形PES不能独立定Majorana强度，M1仍可受未确定项影响；该模型已有exchange term，不能称完全没有费米交换处理。127Xe的平均场v²=.4317使动力学/E2费米子prefactor较小、exchange权重接近最大，但这些不是实际B或普适M1零条件。额外磁性/混合对称响应能约束模型中静态PES不识别的方向；需实际数据/完整模型计算，不用固定γ宽度或M1百分比作跨核充要门。needs_review: true。

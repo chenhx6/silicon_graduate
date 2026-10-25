@@ -157,3 +157,13 @@ P0: none identified.
 ## Non-source Notes and Follow-up
 
 Search next for direct calculations of Hara Table 5's remaining starred nuclei (`134La`, `135Ce`, `136Pr`, `137Pr`, `137Nd`) and for lawful full text of the DOI-only 2026 TPSM follow-up. Do not repeat the 2026 publisher or exact-title arXiv requests already recorded in the Day 3 report.
+
+## Day22 checkpoint107：Lu/Ta电磁、投影K与等价γ扇区
+
+本轮扩展实际reading scope到既有25页raw的PDF7–9模型、13–18 Lu/Ta能谱/电磁/轴约定；视觉核PDF15 Figs8/9及PDF17/18相关段。此前targeted133La/Pr范围保持历史，不宣称本轮已重读全部25页/原producer。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SHJ24-D22-R107-1 | Fig8分别绘绝对B(E2)in/out，Fig9另绘out/in，二者不能混同；TSD3→TSD2在绝对B图增强、TSD3→TSD1较弱，但相对比仍含各带内分母，不能从绿/黑曲线之商直接认证绝对两倍谐声子。图与文字是TPSM对已有实验的比较，本文无新τ。两低带ix/J2相近、高带可偏离且高spin能量有数百keV偏差，原多声子标签不由能量近等距独立确证。 | model-observable-and-phonon-normalizer-boundary | direct-original | PDF13energyparagraph;PDF15Figs8/9;PDF16–17transitiondiscussion | true |
+| SHJ24-D22-R107-2 | Eq8投影恢复I/M，K用于标记投影基分量；之后Eq10–12的配置/不同K混合不保证K为最终本征态的守恒量。源文用shortaxis作量子化轴并把γ换到−120°−γ的等价扇区，意图只重标轴而不改观测；因此同一K数字不能脱离量子化轴跨文献比准粒子alignment或模式。 | basis-label-and-coordinate-boundary | direct-original-and-task-interpretation | PDF7Eq8/9;PDF8Eqs10–12;PDF16Fig10;PDF18quantizationaxisparagraph | true |
+| SHJ24-D22-R107-3 | 用qk=cos(γ−2πk/3)的任务检验，γ′=−120°−γ使(q1,q2,q3)→(q1,q3,q2)，可由properR=((-1,0,0),(0,0,1),(0,1,0))实现；Σq²=3/2、Σq³=(3/4)cos3γ不变。四项指定角度控制通过，纯轴变换不将TW物理变LW。需惯量、j和E2/M1算符一起变换；没有重跑有限TPSM截断/实际代码，也不把potentialγ与densityγ自动等同。 | conditional-axis-identity | source-convention-and-task-algebra | PDF18γsectorparagraph;axis-permutation-contract-107.json | true |

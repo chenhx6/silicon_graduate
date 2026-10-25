@@ -1,0 +1,69 @@
+{
+  "queried_at": "2026-10-25T03:48:09.489230+00:00",
+  "doi": "10.1103/PhysRevC.92.064306",
+  "http": 200,
+  "scope": "metadataonly,nofulltextdownload",
+  "record": {
+    "title": [
+      "Quasiparticle-random-phase approximation treatment of the transverse wobbling mode reconsidered"
+    ],
+    "author": [
+      {
+        "given": "S.",
+        "family": "Frauendorf",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Dönau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12,
+          10
+        ]
+      ]
+    },
+    "publisher": "American Physical Society (APS)",
+    "link": [
+      {
+        "URL": "http://link.aps.org/accepted/10.1103/PhysRevC.92.064306",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.92.064306",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.92.064306/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1103/physrevc.92.064306",
+    "abstract": null
+  }
+}

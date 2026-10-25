@@ -1,0 +1,87 @@
+{
+  "scope": "same-parent, line-bound central-value reconstructions; not experimental CI",
+  "formulas": {
+    "fE2": "delta^2/(1+delta^2)",
+    "BE2a_over_BE2b": "I_gamma(a)/I_gamma(b)*(Eb/Ea)^5*fE2(a), b assumed E2",
+    "BM1a_over_BE2b": "(0.835*Ea_MeV)^2*BE2a/BE2b/delta_a^2"
+  },
+  "JE02": {
+    "locator": "142503-2 Fig1; 142503-3 TableII; 142503-4 discussion",
+    "parent": "TSD3 45/2+",
+    "numerator": "476 keV -> TSD2 43/2+",
+    "denominator": "627 keV -> TSD3 41/2+",
+    "photon_ratio_printed": "0.14 +/-0.04",
+    "branches": [
+      {
+        "delta": -3.6,
+        "fE2": 0.9283667621776505,
+        "BE2_476_over_627": 0.5154072929556422,
+        "BM1_476_over_BE2_627_muN2_per_e2b2": 0.006282498800563897
+      },
+      {
+        "delta": -0.19,
+        "fE2": 0.03484219669916031,
+        "BE2_476_over_627": 0.019343564432680364,
+        "BM1_476_over_BE2_627_muN2_per_e2b2": 0.08464789427263006
+      }
+    ],
+    "published_BE2_ratios": [
+      "0.51 +/-0.13",
+      "0.019 +0.024/-0.017"
+    ],
+    "large_branch_over_small_central": 26.644897570422817,
+    "polarization": "not obtained for 476 keV; model/band similarity selected large branch",
+    "phonon_factor_from_published_ratios": 2.428571428571429,
+    "phonon_factor_boundary": "different parent spins/denominators; benchmark dependence and Cov not reconstructed"
+  },
+  "L22_813": {
+    "locator": "main p3 Table1 and p5 Fig4(d); SI p5 Table1",
+    "parent": "band3 21/2- at 2203.9 keV",
+    "numerator": "813.2 keV -> band1 19/2-",
+    "denominator": "726.0 keV -> band3 17/2-",
+    "input_photon_intensities": [
+      "6.4(3)",
+      "3.7(3)"
+    ],
+    "delta": "-0.37 +0.10/-0.14",
+    "reconstructed_BE2out_over_BE2in": 0.11812877089322014,
+    "reconstructed_BM1out_over_BE2in": 0.3978505181425467,
+    "published": {
+      "rE2": "0.12(8)",
+      "rM1": "0.4(3)"
+    }
+  },
+  "L22_747_vs_526": {
+    "locator": "main p3 final left-column paragraph; SI p2 Fig1 and p5 Table1",
+    "parent": "band3 17/2- at 1477.9 keV",
+    "numerator": "747.3 keV -> band1 15/2-",
+    "denominator": "526.2 keV -> band2 13/2-",
+    "input_photon_intensities": [
+      "9.4(5)",
+      "0.4(2)"
+    ],
+    "delta747": "-0.47 +0.09/-0.22",
+    "reconstructed_BE2_747_over_526": 0.7359745418355287,
+    "published": "0.7 +0.7/-0.5",
+    "boundary": "both are interband branches; 526 multipolarity/Rac blank in SI table, E2 denominator assumed"
+  },
+  "M15_vs_L22": {
+    "Matta_813_input": {
+      "delta": -1.54,
+      "rE2": 0.843,
+      "E_keV": 812.8
+    },
+    "Matta_BM1out_over_BE2in_reconstructed": 0.1637293259120391,
+    "Matta_BM1out_over_BE2in_printed": "0.164(14)",
+    "conditional_fixed_input_rE2_at_Lv_delta": 0.14431230378370868,
+    "fE2_old_over_new_central": 5.8414977648992785,
+    "actual_published_rE2_ratio_central": 7.025,
+    "boundary": "5.84 is a fixed-other-input fraction sensitivity, not measured absolute B collapse; datasets differ"
+  },
+  "M15_asymmetry_descriptive_ratios": {
+    "747_A_over_printed_sigma": 3.9166666666666665,
+    "813_A_over_printed_sigma": 1.588235294117647,
+    "boundary": "descriptive ratios of reported marginal values, not new joint significance or calibrated P"
+  },
+  "uncertainty_boundary": "No joint photon-yield/mixing-ratio/calibration Cov; published intervals retained as source results only"
+}

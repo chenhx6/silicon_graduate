@@ -3,7 +3,7 @@ type: source
 title: "Transverse wobbling in 135Pr"
 aliases: [Matta 2015 135Pr, transverse wobbling in 135Pr]
 created: 2026-07-03
-updated: 2026-10-17
+updated: 2026-10-24
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -194,3 +194,24 @@ J. T. Matta et al., *Physical Review Letters* **114**, 082501 (2015)，DOI `10.1
 | MA15-D21-1 | superseded：124撤回本条新科学认证；改用本页M15-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | M15-D21-R55-1 | superseded：124撤回本条新科学认证；改用本页M15-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | M15-D21-R55-2 | superseded：124撤回本条新科学认证；改用本页M15-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+## Day22 原件复核：观测量角色与模型限制
+
+全文正文与图表实际重读；关键数据/图表视觉核验，raw哈希保持。以下仅Codex self-audit，原page review/既有claim flags不改；新增claims均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| M15-D22-001 | TableI747与813的.047(.012)、.054(.034)是INGA计数不对称A；A/表列误差约3.92和1.59，只是描述性比值，不能将两线均称独立高显著正P。角分布来自另一次Gammasphere实验；无逐线Q/Cov重放，不能与Lv的P直接相减。 | observable-and-uncertainty-boundary | direct-original-and-bounded-inference | 082501-2, experiment; 082501-4, Table I and Fig.3 | true |
+| M15-D22-002 | TableI的813keV(21/2→19/2)给rE2=.843(.032)、rM1=.164(.014)，755keV给.500(.025)、.035(.009)；747keV行仅列δ/E2份额，实验rE2/rM1为空，不能补成已测绝对B或从模型列取值。 | table-column-identity | direct-original | 082501-4, Table I | true |
+| M15-D22-003 | QTR采用𝒥i(I)=Θi(1+cI)、基参数7.4/5.6/1.8及c=.116拟合能量，正文明确Coriolis使j从short转向medium；模型低估E2、高估M1且signature partner能量约高500keV。旧全spin冻结/全观测闭合描述不作为本轮结论。 | model-implementation-and-limitation | direct-original | 082501-4, QTR paragraph; 082501-5, model discussion | true |
+
+### Knowledge Impact and Learning Decision
+
+Supports/limits：保留作者的支持或反对解释，并将逐线测量、选解前提、模型结果和依赖链分开。四列比较与条件强度重建见[[wobbling-geometry-phonon-observable-contract]]；不以模型或跨采集中心值差替代新实验置信区间。
+
+## Day22 checkpoint095：原始AD与偏振、QTR分层
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| M15-D22-R095-1 | Table I对747.0/812.8给δ=−1.24(.13)/−1.54(.09)，偏振不对称度A=.047(.012)/.054(.034)；A不是P，不能未给本实验Q就与另一次实验P逐值比较。754.6有δ但无偏振；747的实验rE2/rM1栏空白，不是模型列的.908/.213实测。812.8的rE2=.843(.032)、rM1=.164(.014)，以纯E2带内分母提取；未在本篇给新绝对τ/B。 | original-observable-and-table-identity | direct-original | 082501-3 Fig.2 and polarization text; 082501-4 Table I/Fig.3 | true |
+| M15-D22-R095-2 | 完整QTR采用Jm/Js/Jl=7.4/5.6/1.8乘(1+cI)、c=.116以调能谱，区别于TAC的19/8/3；p.5明确Coriolis使j从short向medium重定向。故不能把HFA冻结j的推导或反方对旧冻结的批评直接当本文全spin QTR实现。作者将高spin能量最低点更多联系到yrast的5qp起始，不支持旧任务单一1qp/3qp残余相互作用100–200keV导致全部反弹的认证。 | model-implementation-and-attribution-boundary | direct-original | 082501-4 QTR paragraph; 082501-5 discussion before summary | true |

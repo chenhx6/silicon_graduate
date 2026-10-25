@@ -1,0 +1,63 @@
+{
+  "scope": "Metadata/discovery only; no new primary full text or numerical lifetime inference",
+  "Hagemann2004": {
+    "params": {
+      "query.bibliographic": "Hagemann Eur Phys J A 20 183 2004 wobbling",
+      "rows": 2
+    },
+    "http": 200,
+    "results": [
+      {
+        "title": [
+          "Wobbling phonon excitations in strongly deformed triaxial nuclei"
+        ],
+        "DOI": "10.1140/epja/i2002-10349-4",
+        "page": "183-188",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1140/epja/i2002-10349-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1140/epja/i2002-10349-4/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1140/epja/i2002-10349-4",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "title": [
+          "Quantized wobbling excitations with alignments"
+        ],
+        "DOI": "10.1103/physrevc.67.014319",
+        "page": null,
+        "link": [
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRevC.67.014319",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.67.014319/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    ]
+  },
+  "candidate_Doi_conference": "10.1063/1.1905284",
+  "source_boundary": "Conference title found as metadata; paper not downloaded or read",
+  "new_downloads": []
+}

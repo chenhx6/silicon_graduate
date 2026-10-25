@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-25T05:53:01.651328+00:00",
+  "files": {
+    "raw/zotero/wiki-inbox.bib": {
+      "baseline_sha256": "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be",
+      "actual_sha256": "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be",
+      "unchanged": true
+    },
+    "PLAN.md": {
+      "baseline_sha256": "7122f62bd951a9c30cddff25fece14a1282748489e2feef1154bb7b7c75aa2f8",
+      "actual_sha256": "7122f62bd951a9c30cddff25fece14a1282748489e2feef1154bb7b7c75aa2f8",
+      "unchanged": true
+    }
+  }
+}

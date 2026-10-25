@@ -1,0 +1,48 @@
+{
+  "scope": "Source-parameter HFA reconstruction and arbitrary finite-basis representation controls only",
+  "HFA": {
+    "source": "LAW20 034306-7 Eq.34; 034306-8 Table I(vii)",
+    "A_LAW_axes123": [
+      0.0078,
+      0.0089,
+      0.0385
+    ],
+    "j": 6.5,
+    "reported_grid_max_I": 42.5,
+    "notation": "I is used literally as in LAW20, not F14 sqrt(I(I+1))",
+    "minimum_on_restricted_grid": {
+      "I_used_in_LAW_equations": 28.5,
+      "f1": 0.315992821434617,
+      "f2": 0.5266547023910283,
+      "AMGM_floor_n1": 0.10526315789473684,
+      "common_scale_f_difference": 0.0
+    },
+    "analytic_bound": "f(n,I)>=(2n+1)/I only for both local curvatures positive",
+    "no_numerical_validity_threshold_assumed": true
+  },
+  "SSS": {
+    "source": "F24 PDF p14 Eqs.26-27, finite-angle probability density",
+    "arbitrary_control_I": 5.5,
+    "dimension": 12,
+    "integral": 0.9999999999999999,
+    "peak_at_zero": 1.9098593171027467,
+    "peak_formula_D_over_2pi": 1.909859317102744,
+    "first_zero_phi_radians": 0.5235987755982988,
+    "kernel": "sin(D*phi/2)^2 / (2*pi*D*sin(phi/2)^2), with its continuous limit at phi=0",
+    "representation_not_measured_nuclear_squeezing": true
+  },
+  "controls": {
+    "positive_curvature_f_obeys_AMGM_bound": true,
+    "common_spin_scale_preserves_f": true,
+    "SSS_phase_density_unit_integral": true,
+    "SSS_phase_density_nonnegative": true,
+    "diagonal_density_uniform_phase": true,
+    "uniform_superposition_first_zero": true
+  },
+  "boundaries": [
+    "No full PTR/QTR eigenstates, physical transition operators or experimental likelihood were computed.",
+    "A large HFA diagnostic challenges a specified harmonic approximation, not all topological wobbling definitions.",
+    "SSS basis localization differs from Bogoliubov squeezing of a Hamiltonian eigenstate.",
+    "No new data or independence is created by changing the representation of a given density matrix."
+  ]
+}

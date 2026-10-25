@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-25T14:17:01.778308+08:00",
+  "sources": [
+    {
+      "path": "knowledge/sources/odegard-2001-evidence-wobbling-163lu.md",
+      "sha256": "0ff38adfcbe031fb21c43b3bba290ca44a21898564bb78cf335fbb47b05ba379",
+      "text_scope": "all4pages",
+      "fresh_visual": [
+        "5869Fig5/TableI/upper-limitparagraph"
+      ],
+      "atomic_addition": "OD01-D22-R122-1"
+    },
+    {
+      "path": "knowledge/sources/jensen-2002-second-phonon-wobbling-163lu.md",
+      "sha256": "c6fd99c17c09763f742cbe36443f7039f21b3e28a5caa548748bdf0718630a8a",
+      "text_scope": "all4pages",
+      "fresh_visual": [
+        "142503-2Fig1/TableI",
+        "142503-3Fig2/3/TableII",
+        "142503-4Fig4/5/M1comparison"
+      ],
+      "atomic_addition": "JE02-D22-R122-1"
+    }
+  ],
+  "scope": "Already-open experimental-source analysis completion; no new source/card/raw writes or experimental refit."
+}

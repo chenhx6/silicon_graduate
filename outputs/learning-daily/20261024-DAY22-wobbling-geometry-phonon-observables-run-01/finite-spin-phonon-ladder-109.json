@@ -1,0 +1,98 @@
+{
+  "scope": "finite-spinalgebraworksheet,notnuclearE2phonon-strengthreconstruction",
+  "convention": "usualspin[Jx,Jy]=iJz;F14body-fixedsignmappingmustbedonebeforeoperatorsaretransferred",
+  "definitions": [
+    "m=I-n",
+    "b=Jplus/sqrt(2I),bdagger=Jminus/sqrt(2I)",
+    "[b,bdagger]=Jz/I=1-n/I",
+    "abs(<n-1|b|n>)^2=n*(1-(n-1)/(2I))"
+  ],
+  "trace_fact": "Trcommutator=0forfinitematrices;cannotbeidentityglobally",
+  "rows": [
+    {
+      "I": 6.5,
+      "D": 14,
+      "n_values": [
+        0,
+        1,
+        2
+      ],
+      "commutator_expectations": [
+        1.0,
+        0.8461538461538461,
+        0.6923076923076923
+      ],
+      "scaled_Jplus_transition_squared_n1_to0": 1,
+      "scaled_Jplus_transition_squared_n2_to1": 1.8461538461538463,
+      "trace_commutator": 0.0,
+      "matrix_commutator_identity_error": 6.661338147750939e-16
+    },
+    {
+      "I": 10.5,
+      "D": 22,
+      "n_values": [
+        0,
+        1,
+        2
+      ],
+      "commutator_expectations": [
+        1.0,
+        0.9047619047619048,
+        0.8095238095238095
+      ],
+      "scaled_Jplus_transition_squared_n1_to0": 1,
+      "scaled_Jplus_transition_squared_n2_to1": 1.9047619047619047,
+      "trace_commutator": 8.881784197001252e-16,
+      "matrix_commutator_identity_error": 2.6645352591003757e-15
+    },
+    {
+      "I": 22.5,
+      "D": 46,
+      "n_values": [
+        0,
+        1,
+        2
+      ],
+      "commutator_expectations": [
+        1.0,
+        0.9555555555555556,
+        0.9111111111111111
+      ],
+      "scaled_Jplus_transition_squared_n1_to0": 1,
+      "scaled_Jplus_transition_squared_n2_to1": 1.9555555555555555,
+      "trace_commutator": 0.0,
+      "matrix_commutator_identity_error": 5.551115123125783e-15
+    },
+    {
+      "I": 40.5,
+      "D": 82,
+      "n_values": [
+        0,
+        1,
+        2
+      ],
+      "commutator_expectations": [
+        1.0,
+        0.9753086419753086,
+        0.9506172839506173
+      ],
+      "scaled_Jplus_transition_squared_n1_to0": 1,
+      "scaled_Jplus_transition_squared_n2_to1": 1.9753086419753085,
+      "trace_commutator": -4.440892098500626e-16,
+      "matrix_commutator_identity_error": 1.176836406102666e-14
+    }
+  ],
+  "boundaries": [
+    "n=I-minthechosenprojectionbasis,notautomaticallytheBogoliubovwobblingphononnumber.",
+    "MatrixelementswithinoneIrepresentationareNOTphysicalE2betweendifferentIbands.",
+    "Finiteglobalbosonalgebrafailuredoesnotdisprovelocalphononapproximation.",
+    "Noactualmixingratio,E2photonfraction,B(E2),lifetimeoruniversalvaliditycutoffinferred."
+  ],
+  "controls": {
+    "all_matrix_commutators_match_exact_spin_identity": true,
+    "all_finite_traces_zero": true,
+    "first_lowering_strength_exactly_one": true,
+    "two_to_one_finite_corrections_below_boson_two": true
+  },
+  "replay_recipe": "Use n=0..2I;b[n−1,n]=sqrt[n(1−(n−1)/(2I))];formb@b.T−b.T@b andcomparewithdiag(1−n/I)."
+}

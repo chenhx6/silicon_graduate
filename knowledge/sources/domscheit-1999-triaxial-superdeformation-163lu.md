@@ -161,4 +161,15 @@ J. Domscheit et al., *Nuclear Physics A* **660**, 381-392 (1999)，DOI `10.1016/
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| DO99-D21-1 | Domscheit 1999 测定 $^{163}\text{Lu}$ 的超形变带 SD1 跃迁四极矩 $Q_t \approx 10.7(7)\ e\text{b}$ 确证了大四极形变（超形变，$\beta_2 \sim 0.38 - 0.51$），但因 $Q_t \propto \beta_2 \cos(\gamma+30^\circ)/\cos 30^\circ$ 存在内禀简并，单个 $Q_t$ 数值无法独立区分轴对称超形变（$\gamma = 0^\circ$）与三轴超形变（$\gamma \approx 20^\circ$）；论文题名中的“三轴性”完全来源于 UC/PES 模型计算而非直接实验测量；确证三轴性必须依赖后续观测到的摇摆声子集体带间跃迁（$B(E2)_{\text{out}} \gg 10\text{ W.u.}$）。此外，$21/2^+$ 态的脱带衰变可由与正常形变态的小矩阵元微扰（$V_{\text{mix}} = 22\text{ keV}$）自洽阐明。 | claim-boundary-audit | direct-and-derived | NPA 660, 381 pp.381-392; superdeformation-tsd-audit-010.json | true |
+| DO99-D21-1 | **superseded at checkpoint099**：本篇未新测Qt，10.7(.7)b引自Schmitz1993；未证实通用Qt几何式或10W.u.摇摆必要门。见DO99-D22-R099-1/2。 | task-correction | rejected-and-replaced | printed388Eq2;390quadrupole paragraph;391Ref2 | true |
+
+## Day22 checkpoint099：SD1寿命谱系与SD–ND混合对象
+
+本轮实际定向读printed381–382、387–391，视觉核387 Eq1、388 Eq2；Table1四条分支从385逐项核对。不是重称全部12页新读或原Schmitz1993全文已取得；原DO99-1–13人审范围保持，新条目为Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DO99-D22-R099-1 | quoted Q_ND=6.0(.5)b、Q_SD=10.7(.7)b明确来自Ref2 SchmitzPLB303(1993)230，本文没有新寿命采集。引用对象为ND和原SD1，不是新SD2；p390说明单Q不足区分正/负γ计算（9.9/11.0b）。SD2连接尚未找到，wobbling仅替代猜测；不能将本篇/OD01的相同Q数当独立寿命重复测量或TSD2绝对强度。 | lifetime-lineage-and-object-identity | direct-original-with-secondary-number | printed388belowEq2;390Q/SD2discussion;391Ref2 | true |
+| DO99-D22-R099-2 | Eq1/2混合的是2087和2198keV两个21/2+ ND/SD1态，不是SD1/SD2两超形变带。用Table1的I426/I315=12.5/68.1及I697/I263=23.3/18.7与E^5修正，任务中心重建p=.0387153、QND/QSD=.486750；假设实对称两态H后由111keV观测间隙给V=21.4136keV、每态排斥4.2974keV，近作者.04(.01)、22(3)keV与约5keV。这是已采用混合/算符模型的条件重建，不是新τ、绝对E2或唯一机制证明。 | branch-model-and-central-reconstruction | direct-original-and-task-arithmetic | printed385Table1;387Eq1;388Eq2andtext | true |
+
+| DO99-D22-R099-3 | Table1的697.1keV行带footnote3：与相近能量SD线未分辨；因此Eq2用的23.3(4.7)强度不能擅称独立干净门谱量，具体分离/误差需原输入核。后续OD01明确把本篇SD2识别为其TSD2的先前候选并在另一次152MeV EuroballIV采集中建九条links，不能将1999没有连接线的状态误归为2001也没连接。两篇新增采集与重复采用同一Schmitz1993Qt应分别计谱系。 | contamination-and-campaign-lineage | direct-original-and-cross-source | printed385Table1footnote3; OD01 printed5867setup andRef12 | true |

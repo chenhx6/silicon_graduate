@@ -104,7 +104,7 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 
 ## Competing Interpretations and Limitations
 
-- 本文是 longitudinal-wobbling 支持方原始实验，后续 counter-source 尚未在 `187Au` project 中摄入；
+- 本文是 longitudinal-wobbling 支持方原始实验；后续独立反方[[guo-2022-low-spin-wobbling-187au]]已摄入，见project中的两方对照；
 - 完整 coincidence、spin/parity 与系统误差细节被留给 forthcoming publication；
 - angular distributions 的效率修正、spin alignment、attenuation coefficients 等完整讨论未在本 PRL 展开；
 - 未识别 `n_w≥2` bands；
@@ -134,7 +134,7 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 |---|---|---|---|---|---|
 | SE20-D18-1 | **superseded**：旧关于“盲目采纳制造虚假集体假象”等断言降格，由D18-2/3分别记录作者报告的大根与后续小根对比条件。 | task-correction | superseded-interpretation | 本段D18-2/3；旧guo22-sensharma20-187au-result-022 | true |
 | SE20-D18-2 | 本文基于Gammasphere角分布测量（未包含线偏振），在双解中选用大混合比解（delta ~ 2.6-3.0），由此提取出B(E2_out)/B(E2_in)高达~0.70并提出纵向wobbling解释；这是未测偏振条件下的作者派生结果，不是确定性唯一解。 | source-result-and-boundary | direct-and-boundary | PDF pp.3-5 Figs. 3, 5；Table I | true |
-| SE20-D18-3 | 结合引用的带内B(E2)=1.49 e^2b^2（Ref 39），大解对应带间~164 W.u.；后续Guo 2022重测线偏振及早期内转换系数支持小解delta = -0.10(5)（E2份额仅0.99%），使该线在相同分母下条件塌缩88倍至1.87 W.u.（单粒子水平）。这证明角分布双解不经偏振或内转换检验时存在显著模型依赖。 | later-companion-and-sensitivity | derived-and-boundary | [[guo-2022-low-spin-wobbling-187au]] PDF p.3；新au-xe-wobbling-boundary-result-052 | true |
+| SE20-D18-3 | **superseded at checkpoint094**：旧偏振/δ身份、跨数据强度或排他认证不得沿用；见AU20-D22-R094-1及GU22-D22-R094-1/2。 | task-correction | superseded-interpretation | checkpoint094原件核验 | true |
 
 ## Day 21 Checkpoint 019 证据门量化审计：纵向摇摆（LW）大模解偏置与费米面几何约束
 
@@ -142,4 +142,10 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| AU20-D21-1 | 依据推断阶梯审计，Sensharma 2020 关于 187Au 纵向摇摆（LW）的排他性确证被严格限制并证伪：(1) 混合比双解偏置：角分布拟合挑选的大模解（delta = -2.67 至 -3.72，E2 占比 88%–93%）被后续 HIRFL 联合线偏振与角关联测量唯一证伪；实际带间跃迁由 M1 主导（93%–94%），带间 B(E2_out) 发生 12–14 倍暴跌至 ~6.5 W.u.，丧失集体摆动特征；(2) 费米面几何禁戒：187Au 奇质子位于 pi h9/2 侵入轨道最底部（Omega = 1/2），单粒子角动量沿对称轴对齐，在量子力学上无法形成围绕中轴进动的纵向摇摆几何；(3) 杂质通道污染：所宣称的旋称伙伴带（Band 3）被证实来自 188Pt 伴随反应道污染。 | source-result-and-boundary | derived-and-boundary | pp.3-5, Figs.3-5; longitudinal-wobbling-187au-audit-019.json | true |
+| AU20-D21-1 | **superseded at checkpoint094**：旧偏振/δ身份、跨数据强度或排他认证不得沿用；见AU20-D22-R094-1及GU22-D22-R094-1/2。 | task-correction | superseded-interpretation | checkpoint094原件核验 | true |
+
+## Day22 checkpoint094：支持证据与分母、带身份
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D22-R094-1 | 两次ATLAS/Gammasphere采集合并后作17环角分布；376.3/461.8/544.3/639.3 keV的打印δ=−2.67/−2.98/−3.44/−3.72，E2约87.7–93.3%；无connecting-line polarization。Fig.5给相对B ratios而非新寿命；p.4的1.49 e²b²为Ref39既有187Au 13/2−→9/2−强度，用于PRM形变选择，不能直接给任意out branch绝对定标。作者明确未识别n≥2带；band(3)是signature partner。PRM化学势置h9/2中部，而Guo的多轨道QTR置近底部，属模型输入/结构解释冲突。 | experiment-and-model-input-boundary | direct-original | 052501-3 setup and band paragraph; 052501-4 Fig.3 and PRM paragraph; 052501-5 Fig.5 | true |

@@ -1,0 +1,381 @@
+{
+  "model": "finite-spin frozen-j Hamiltonian, F14 Eq11; NOT full QTR/CQM",
+  "provenance": {
+    "source": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+    "locator": "014322-4 Table I; 014322-6 Eqs11-15,23-24",
+    "raw_modified": false,
+    "empirical_fit": false
+  },
+  "inputs": {
+    "moi_axes123_hbar2_per_MeV": [
+      4.0,
+      21.0,
+      13.0
+    ],
+    "A_axes123_MeV": [
+      0.125,
+      0.023809523809523808,
+      0.038461538461538464
+    ],
+    "assumed_j_hbar": 5.5
+  },
+  "critical": {
+    "Jc_hbar": 14.437499999999998,
+    "Ic_from_sqrtI_Iplus1": 13.946155414157774
+  },
+  "analytic_controls": {
+    "axial_spectrum_max_error_MeV": 0.0,
+    "independent_operator_max_error_MeV": 8.881784197001252e-16,
+    "casimir_max_error": 7.105427357601002e-15,
+    "commutator_max_error": 4.440892098500626e-15,
+    "H03_eq15_error_MeV": 2.706168622523819e-16
+  },
+  "spin_grid": [
+    {
+      "I": 5.5,
+      "dimension": 12,
+      "finite_gap01_MeV": 0.622070039262798,
+      "finite_gap12_MeV": 0.6296964282715629,
+      "finite_transverse_fraction_states012": [
+        0.19307067931341926,
+        0.5090542609875035,
+        0.7073253062443468
+      ],
+      "eigensystem_max_residual_MeV": 4.440892098500626e-15,
+      "J": 5.979130371550699,
+      "c1_MeV": 0.12191793119260769,
+      "c2_MeV": 0.020727455002131495,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.6011388574056138,
+      "eq23_lhs_over_J": 0.7118757227424926
+    },
+    {
+      "I": 6.5,
+      "dimension": 14,
+      "finite_gap01_MeV": 0.632452518622693,
+      "finite_gap12_MeV": 0.6518905915856101,
+      "finite_transverse_fraction_states012": [
+        0.17887885851564755,
+        0.4720668106927034,
+        0.6597048268849135
+      ],
+      "eigensystem_max_residual_MeV": 2.6645352591003757e-15,
+      "J": 6.98212002188447,
+      "c1_MeV": 0.1168356292862837,
+      "c2_MeV": 0.015645153095807506,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.5970282279001884,
+      "eq23_lhs_over_J": 0.6657010984959967
+    },
+    {
+      "I": 7.5,
+      "dimension": 16,
+      "finite_gap01_MeV": 0.636177916105301,
+      "finite_gap12_MeV": 0.6679879183958142,
+      "finite_transverse_fraction_states012": [
+        0.169289277810299,
+        0.44551474289073667,
+        0.6229185498737042
+      ],
+      "eigensystem_max_residual_MeV": 3.552713678800501e-15,
+      "J": 7.984359711335656,
+      "c1_MeV": 0.11303256616129478,
+      "c2_MeV": 0.011842089970818594,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.5842329703287998,
+      "eq23_lhs_over_J": 0.6412235998689118
+    },
+    {
+      "I": 8.5,
+      "dimension": 18,
+      "finite_gap01_MeV": 0.6336555287009124,
+      "finite_gap12_MeV": 0.6788162180459081,
+      "finite_transverse_fraction_states012": [
+        0.16303190237572707,
+        0.4264786125698997,
+        0.5942233638943856
+      ],
+      "eigensystem_max_residual_MeV": 7.105427357601002e-15,
+      "J": 8.986100377805714,
+      "c1_MeV": 0.11007909124931242,
+      "c2_MeV": 0.00888861505883623,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.5621739640091415,
+      "eq23_lhs_over_J": 0.6348624123023995
+    },
+    {
+      "I": 9.5,
+      "dimension": 20,
+      "finite_gap01_MeV": 0.6251443814612436,
+      "finite_gap12_MeV": 0.6850326642630948,
+      "finite_transverse_fraction_states012": [
+        0.1593931684636537,
+        0.4131548185370022,
+        0.5716541555804052
+      ],
+      "eigensystem_max_residual_MeV": 1.2434497875801753e-14,
+      "J": 9.987492177719089,
+      "c1_MeV": 0.10771879968284365,
+      "c2_MeV": 0.006528323492367455,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.5297037332746615,
+      "eq23_lhs_over_J": 0.6470435226249677
+    },
+    {
+      "I": 10.5,
+      "dimension": 22,
+      "finite_gap01_MeV": 0.6107993387241109,
+      "finite_gap12_MeV": 0.68721265383234,
+      "finite_transverse_fraction_states012": [
+        0.1579898798154784,
+        0.4043989694864242,
+        0.5537795037228088
+      ],
+      "eigensystem_max_residual_MeV": 7.549516567451064e-15,
+      "J": 10.988630487917955,
+      "c1_MeV": 0.1057891281043315,
+      "c2_MeV": 0.00459865191385531,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.484740552060439,
+      "eq23_lhs_over_J": 0.6831764717165026
+    },
+    {
+      "I": 11.5,
+      "dimension": 24,
+      "finite_gap01_MeV": 0.5907039261523348,
+      "finite_gap12_MeV": 0.685913557321725,
+      "finite_transverse_fraction_states012": [
+        0.15866239127200055,
+        0.399477905805283,
+        0.5395107153844718
+      ],
+      "eigensystem_max_residual_MeV": 1.2434497875801753e-14,
+      "J": 11.989578808281799,
+      "c1_MeV": 0.10418198888175248,
+      "c2_MeV": 0.0029915126912762845,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.42332670789444193,
+      "eq23_lhs_over_J": 0.759509142048412
+    },
+    {
+      "I": 12.5,
+      "dimension": 26,
+      "finite_gap01_MeV": 0.5648991779987536,
+      "finite_gap12_MeV": 0.681730484861303,
+      "finite_transverse_fraction_states012": [
+        0.16142831777212185,
+        0.39792792121655673,
+        0.5279625715718648
+      ],
+      "eigensystem_max_residual_MeV": 7.460698725481052e-14,
+      "J": 12.99038105676658,
+      "c1_MeV": 0.10282269990022021,
+      "c2_MeV": 0.0016322237097440191,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.3365783903595083,
+      "eq23_lhs_over_J": 0.9310305706054968
+    },
+    {
+      "I": 13.5,
+      "dimension": 28,
+      "finite_gap01_MeV": 0.5334157879872787,
+      "finite_gap12_MeV": 0.6753545778941508,
+      "finite_transverse_fraction_states012": [
+        0.166472645435911,
+        0.39946902808799634,
+        0.5183462459606347
+      ],
+      "eigensystem_max_residual_MeV": 1.2273515537231106e-13,
+      "J": 13.991068579633222,
+      "c1_MeV": 0.10165799728617403,
+      "c2_MeV": 0.00046752109569784053,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.19290889878754575,
+      "eq23_lhs_over_J": 1.5881929608806378
+    },
+    {
+      "I": 14.5,
+      "dimension": 30,
+      "finite_gap01_MeV": 0.4963172783889629,
+      "finite_gap12_MeV": 0.6676423157543878,
+      "finite_transverse_fraction_states012": [
+        0.1741646621945795,
+        0.4039490357703114,
+        0.5098774564364299
+      ],
+      "eigensystem_max_residual_MeV": 1.1755892244967016e-13,
+      "J": 14.99166435056495,
+      "c1_MeV": 0.10064886693387648,
+      "c2_MeV": -0.0005416092565997087,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 15.5,
+      "dimension": 32,
+      "finite_gap01_MeV": 0.45376393320707553,
+      "finite_gap12_MeV": 0.6597042596407103,
+      "finite_transverse_fraction_states012": [
+        0.18509768778696478,
+        0.41130247396223163,
+        0.5016884668249812
+      ],
+      "eigensystem_max_residual_MeV": 1.5767942507238786e-13,
+      "J": 15.992185591719476,
+      "c1_MeV": 0.09976607575824605,
+      "c2_MeV": -0.0014244004322301433,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 16.5,
+      "dimension": 34,
+      "finite_gap01_MeV": 0.4061099264378685,
+      "finite_gap12_MeV": 0.6530217839879571,
+      "finite_transverse_fraction_states012": [
+        0.20014534338840007,
+        0.42151488310058505,
+        0.49274158605057317
+      ],
+      "eigensystem_max_residual_MeV": 1.7246258553784507e-13,
+      "J": 16.99264546796643,
+      "c1_MeV": 0.09898728605711826,
+      "c2_MeV": -0.0022031901333579296,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 17.5,
+      "dimension": 36,
+      "finite_gap01_MeV": 0.3540465685833549,
+      "finite_gap12_MeV": 0.6495973799124908,
+      "finite_transverse_fraction_states012": [
+        0.22051143033168463,
+        0.43458603517511396,
+        0.48176280896848944
+      ],
+      "eigensystem_max_residual_MeV": 2.0094697681143443e-13,
+      "J": 17.99305421544658,
+      "c1_MeV": 0.09829513491950771,
+      "c2_MeV": -0.0028953412709684795,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 18.5,
+      "dimension": 38,
+      "finite_gap01_MeV": 0.2987945113906392,
+      "finite_gap12_MeV": 0.6521296373748466,
+      "finite_transverse_fraction_states012": [
+        0.24770337198274195,
+        0.45048823745092914,
+        0.46726442561777315
+      ],
+      "eigensystem_max_residual_MeV": 1.9477354882271228e-13,
+      "J": 18.993419913222578,
+      "c1_MeV": 0.09767592190657542,
+      "c2_MeV": -0.003514554283900767,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 19.5,
+      "dimension": 40,
+      "finite_gap01_MeV": 0.24230809688658717,
+      "finite_gap12_MeV": 0.6641597064075864,
+      "finite_transverse_fraction_states012": [
+        0.28326709050462684,
+        0.46911950163440563,
+        0.4478199684194669
+      ],
+      "eigensystem_max_residual_MeV": 1.6146107575985714e-13,
+      "J": 19.993749023132207,
+      "c1_MeV": 0.09711869145400752,
+      "c2_MeV": -0.004071784736468676,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 20.5,
+      "dimension": 42,
+      "finite_gap01_MeV": 0.18736175108406705,
+      "finite_gap12_MeV": 0.6900396127746014,
+      "finite_transverse_fraction_states012": [
+        0.32804470829321786,
+        0.4902568889508492,
+        0.42283333752725805
+      ],
+      "eigensystem_max_residual_MeV": 2.2000803956423454e-13,
+      "J": 20.994046775217015,
+      "c1_MeV": 0.09661457805870183,
+      "c2_MeV": -0.004575898131774364,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    },
+    {
+      "I": 21.5,
+      "dimension": 44,
+      "finite_gap01_MeV": 0.13727069526413338,
+      "finite_gap12_MeV": 0.7344563539946343,
+      "finite_transverse_fraction_states012": [
+        0.38095422028794135,
+        0.5135219952794763,
+        0.39380698295858996
+      ],
+      "eigensystem_max_residual_MeV": 2.0888204096171575e-13,
+      "J": 21.99431744792277,
+      "c1_MeV": 0.09615633042842975,
+      "c2_MeV": -0.005034145762046437,
+      "stable_yrast_expansion": false,
+      "hfa_quantum_MeV": null,
+      "eq23_lhs_over_J": null
+    }
+  ],
+  "approach_to_instability": [
+    {
+      "J": 12.993749999999999,
+      "c1_MeV": 0.10281847781847782,
+      "c2_MeV": 0.0016280016280016234,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.3362230664957219,
+      "eq23_lhs_over_J": 0.9319391486289512
+    },
+    {
+      "J": 14.293124999999998,
+      "c1_MeV": 0.10133847633847634,
+      "c2_MeV": 0.00014800014800014916,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.1107070931150142,
+      "eq23_lhs_over_J": 2.7501348006954256
+    },
+    {
+      "J": 14.423062499999999,
+      "c1_MeV": 0.10120514287180954,
+      "c2_MeV": 1.4666681333347364e-05,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.03514428404184037,
+      "eq23_lhs_over_J": 8.640364626518286
+    },
+    {
+      "J": 14.436056249999998,
+      "c1_MeV": 0.10119194153847619,
+      "c2_MeV": 1.46534799999945e-06,
+      "stable_yrast_expansion": true,
+      "hfa_quantum_MeV": 0.011117878242873084,
+      "eq23_lhs_over_J": 27.30558961230154
+    }
+  ],
+  "boundaries": [
+    "HFA smallness must be much less than 1; no universal numerical cutoff imposed",
+    "Finite gap01 is an eigenvalue difference at fixed I, not an observed band-spacing estimator",
+    "No quasiparticle reorientation, intrinsic Hamiltonian, transition operator or detector response",
+    "Nonzero finite gap does not certify wobbling or a phase transition"
+  ]
+}

@@ -3,7 +3,7 @@ type: source
 title: "Evidence against the wobbling nature of low-spin bands in 135Pr"
 aliases: [Lv 2022 135Pr, evidence against 135Pr wobbling]
 created: 2026-07-03
-updated: 2026-10-17
+updated: 2026-10-24
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -192,3 +192,32 @@ B. F. Lv et al., *Physics Letters B* **824**, 136840 (2022)，DOI `10.1016/j.phy
 | L22-D21-R55-1 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | L22-D21-R55-2 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | L22-D21-R55-3 | superseded：124撤回本条新科学认证；改用本页L22-D20-R146-1的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+## Day22 原件复核：支路分母、联合偏振及模型比较
+
+主文6页与SI7页实际重读，视觉核主文p3及SI p5的表/分母，raw/SI哈希保持。以下仅Codex self-audit，原page review/既有claim flags不改；新增claims均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D22-001 | 主文的B(E2;747)/B(E2;526)=.7(+.7/−.5)来自同母态band3 17/2−(1477.9keV)，747.3到band1 15/2−、526.2到band2 13/2−，两者均为带间退激。SI Table1的526.2多极性/Rac空白；按E2分母使用是提取前提，不能误记成band3的in-band E2测量。 | transition-and-denominator-identity | direct-original-and-extraction-boundary | main p.3, 747/526 paragraph; SI p.2 Fig.1; SI p.5 Table 1 | true |
+| L22-D22-002 | Fig4(d)将Table1的rE2=.12(.08)、rM1=.4(.3)绑定813.2与726.0同母态退激，SI表分别给6.4(.3)、3.7(.3)光子强度及2203.9keV 21/2−母态。755.1仅有Rac、未测P，不能因Rac接近813而填入实测δ。 | transition-strength-and-missing-data | direct-original | main p.3 Table 1; main p.5 Fig.4(d); SI p.5 Table 1 | true |
+| L22-D22-003 | 联合P-Rac新结果的747.3keV中央P为+.04，仍给|δ|=.47<1；这直接限制仅靠正号选大模解的推断。主文P与SI Ap来自同一次采集和同一Q校正，不是独立偏振证据；完整jointCov未提供。 | joint-observable-and-dependence | direct-original-and-bounded-inference | main p.3 Fig.2(b) and Table 1; SI p.1 Eq.2; SI p.4 error paragraph; SI p.5 Table 1 | true |
+| L22-D22-004 | 作者对旧QTR冻结方向的批评保留为其观点，但F14及Matta原文实际描述完整QTR中的j重定向；未获得旧producer前不能把该批评升格为旧全spin实现已核冻结。Lv本模型也对bands2/5能量过估；“standard”是其输入方案称谓，不是无参数实验认证。 | competing-model-interpretations | cross-source-self-audit | main p.4–5 model discussion; SI p.4 and p.6 calculations; F14-D22-004; M15-D22-003 | true |
+
+### Knowledge Impact and Learning Decision
+
+Supports/limits：保留作者的支持或反对解释，并将逐线测量、选解前提、模型结果和依赖链分开。四列比较与条件强度重建见[[wobbling-geometry-phonon-observable-contract]]；不以模型或跨采集中心值差替代新实验置信区间。
+
+### Day22能级中央值的能量判据重建
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D22-005 | 按Matta Eq1的相邻yrast平均定义，以本SI Table1的bands1/3能级重建Ewob：17/2为417.2、21/2为386.0、25/2为255.3、29/2为172.4、(33/2)为324.55keV。最后spin原表带括号，完整能级Cov未提供。这组能量仍先降后升，而作者据联合电磁数据解释为TiP，说明下降曲线单独不裁决模式。以上是本任务对实测能级中央值的派生，不是作者新列的Ewob表或新CI。 | derived-energy-criterion | original-input-and-our-calculation | SI p.5 Table1 bands1/3; M15 printed082501-3 Eq1 | true |
+
+## Day22 checkpoint095：逐线P/δ、比值对账和模型归属
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D22-R095-1 | Table1逐线配对：747.3的P=.04(+.08/−.13)、δ=−.47(+.09/−.22)；813.2的P=−.03(+.05/−.12)、δ=−.37(+.10/−.14)；450.2的P=−.07(+.09/−.10)、δ=−.31(+.10/−.13)。不能把747的+.04绑给813的−.37。747中央P为正而δ小限制正号独立选根，但不证明任意负δ必正P，也不据此推出未经联合响应验证的3σ。 | line-resolved-experimental-fact | direct-original | main p.3 Table1 and Fig.2 | true |
+| L22-D22-R095-2 | 813.2/726同母态退激：SI光子强度6.4(.3)/3.7(.3)、δ=−.37，按纯E2分母和MeV惯例重建rE2=.11813、rM1=.39785，与打印.12(.08)/.4(.3)近合。这只是打印中心算术；Matta .843/.12=7.025为独立测量中央比，不是同一计数只改δ后的物理塌缩。相同分支/能量假设下δ−1.54到−.37只给E2份额因子5.8415。 | relative-strength-reconstruction-boundary | original-input-and-task-arithmetic | main p.3 Table1; main p.5 Fig.4(d); SI p.5 Table1 | true |
+| L22-D22-R095-3 | SI的a(E)=.9844(.0021)+2(1)×10−5E，Q(E)借Ref6既有JUROGAM-II标定。作者用P–Rac和σ/I曲线映射界限，无公开完整joint Cov。作者重组旧TW2网络并由QTR提出TiP，但bands2/5高spin能量仍过估；完整模型图像是解释。不能把全部可能的TW2结构绝对不存在或TiP唯一成立写成实验直接事实。 | response-and-interpretation-boundary | direct-original | SI p.1 Eq2, p.4 extraction paragraph; main p.2 Fig1 and final paragraph; main p.5 model comparison | true |

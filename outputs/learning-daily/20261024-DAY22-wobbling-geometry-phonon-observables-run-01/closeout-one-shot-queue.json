@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-10-25T15:00:50.865721+08:00",
+  "run_id": "2026-10-24-day-22-01",
+  "session_id": "01a16ccb-2ecb-7501-ae47-fb2d58c270da",
+  "mode": "one-shot existing Supervisor.attempt only; no loop/start/restart",
+  "event": {
+    "status": "queued",
+    "attempts": 1,
+    "attempted_at": "2026-10-25T15:00:50.268677+08:00",
+    "attempt_history": [
+      {
+        "attempt": 1,
+        "finished_at": "2026-10-25T15:00:50.809823+08:00",
+        "returncode": 0,
+        "timed_out": false,
+        "stdout": "Queued message 01a171dc-afe7-74a1-b768-38883ba4d59d for thread 01a16ccb-2ecb-7501-ae47-fb2d58c270da.\n",
+        "stderr": ""
+      }
+    ],
+    "queued_at": "2026-10-25T15:00:50.809823+08:00",
+    "delivery_observed": false
+  },
+  "old_monitor_status_preserved": "manual-attention-required"
+}

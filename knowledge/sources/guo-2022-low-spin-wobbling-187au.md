@@ -145,7 +145,7 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | GU22-D18-1 | **superseded**：旧关于“彻底瓦解全区wobbling”的断言降格，由GU22-D18-2/3分层记录作者对187Au的测量与QTR单粒子解释。 | task-correction | superseded-interpretation | 本段D18-2/3；旧guo22-sensharma20-187au-result-022 | true |
-| GU22-D18-2 | 本文通过HIRFL角关联Rac与线偏振P测量（不约束sigma/I参数），结合Bourgeois/Rupnik内转换系数，确立376.5 keV跃迁小解delta = -0.10(5)（E2份额~0.99%），表明带间B(E2_out)仅几个W.u.，不支持集体wobbling增强。 | source-result-and-method | direct | PDF p.3 Figs. 3-4；Table I | true |
+| GU22-D18-2 | **superseded at checkpoint094**：旧偏振/δ身份、跨数据强度或排他认证不得沿用；见GU22-D22-R094-1至3。 | task-correction | superseded-interpretation | checkpoint094原件核验 | true |
 | GU22-D18-3 | QTR模型波函数计算表明Band 1与Band 2主要基于h9/2亚壳的最低与次低轨道，表现为单粒子性质；作者据此提出低自旋带由单粒子激发主导的解释。这构成本核及该能带的具体结构结论，不作为排除所有低自旋集体效应的普适定理。 | author-interpretation-boundary | direct-and-boundary | PDF pp.3-5 Fig. 4；Sec. III | true |
 
 ## Day19量化审计：低自旋摆动声子普遍证伪、内转换系数排他性与M1支配定理
@@ -157,7 +157,7 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| GU22-D19-1 | 对 Guo 2022 及六大低自旋摆动候选执行跨核素量化审计：(1) 二次各向异性方程根简并性：证明定向态各向异性方程必然产生大模解（$|\delta| > 1$）与小模解（$|\delta| < 0.6$）；(2) 内转换系数排他性：实测 $\alpha_K = 0.15(2)$ 在 $> 3.5\sigma$ 精度下排他性排除大模解（$\delta = 1.34$ 预测 $\alpha_K = 0.077$），完全确立小模解（$\delta = -0.26$ 预测 $\alpha_K = 0.152$），引发带间 $B(E2)$ 发生 $10.14$ 倍断崖塌缩；(3) 跨核素普遍 $M1$ 主导性：采纳物理小模解使 $^{135}\text{Pr}$（$81.9\% M1$，$3.35\times$ 塌缩）、$^{133}\text{La}$（$89.1\% M1$，$7.47\times$ 塌缩）、$^{105}\text{Pd}$（$82.5\% M1$，$4.88\times$ 塌缩）带间跃迁普遍呈现 $>80\%$ 磁偶极特征；(4) 相空间运动学伪放大：五次方能比因子 $(E_{\text{in}}/E_{\text{out}})^5$ 达 $3.5\text{--}7.5\times$（$^{133}\text{Ba}$ 达 $5.46\times$），制造了表观集体增强假象；(5) 偏振判据失效：证明在 $\delta < 0$ 时大、小两根在 $90^\circ$ 均给出正偏振不对称度 $A > 0$，排除了仅凭 $A > 0$ 排除小模解的做法；(6) 物理本质归属：彻底推翻低自旋集体摆动声子假说，确立其物理本质为奇准粒子与 $\gamma$-软核芯的倾斜进动（TiP）或准 $\gamma$ 振动耦合。 | task-wobbling-systematics-audit | derived-and-boundary | PDF pp.1-5, Table I, Figs.3-4; low-spin-wobbling-systematics-result-076.json | true |
+| GU22-D19-1 | **superseded at checkpoint094**：旧偏振/δ身份、跨数据强度或排他认证不得沿用；见GU22-D22-R094-1至3。 | task-correction | superseded-interpretation | checkpoint094原件核验 | true |
 
 ## Day 21 Checkpoint 019 证据门量化审计：联合偏振排他解算与纵向摇摆证伪
 
@@ -165,4 +165,16 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GU22-D21-1 | 依据推断阶梯审计，Guo 2022 确立了低自旋摇摆假说的关键反例与证据门标杆：(1) 联合 P-Rac 测量在 (delta, sigma/I) 空间排他性锁定 376 与 462 keV 带间跃迁的小模解（delta = -0.26 与 -0.28），确立其为 93%–94% M1 跃迁，带间 B(E2_out) 降至 ~6.5 W.u.；(2) QTR 波函数分解证明 Bands 1/2 为 pi h9/2 子壳层底部 Nilsson 轨道 [541]1/2 与 [532]3/2 的单粒子激发，递增的表观摆动能量源于科里奥利旋称劈裂；(3) 证伪 Sensharma 2020 的 Band 3 并确认其为 188Pt 反应道杂质；(4) 确立“严禁在未测线偏振前仅凭角分布大模解宣称纵向摇摆”的证据门准则。 | source-result-and-method | direct-and-boundary | pp.2-5, Figs.2-4; longitudinal-wobbling-187au-audit-019.json | true |
+| GU22-D21-1 | **superseded at checkpoint094**：旧偏振/δ身份、跨数据强度或排他认证不得沿用；见GU22-D22-R094-1至3。 | task-correction | superseded-interpretation | checkpoint094原件核验 | true |
+
+## Day22 checkpoint094：偏振量身份、相对强度和伴随带边界
+
+定向复读主文pp.1–5物理正文、SI六页及其方法图；视觉核主文p.3 Fig.3/4、SI p.3 Fig.2。原G22-1–20及既有review范围不变；以下均为新增Codex self-audit，needs_review: true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D22-R094-1 | Fig.3(a,b)打印376/462 keV的δ分别为−.26(+.16/−.15)、−.28(+.23/−.69)。正文的−.10(5)是376 keV线的旧测量polarization P，不是新δ。作者在不固定σ/I下以P–Rac联合约束得到小模解；误差大，不能从图的区间直接报新3σ/4σ显著性。 | experimental-result-and-quantity-identity | direct-original | main p.3 Fig.3(a,b) and first paragraph | true |
+| GU22-D22-R094-2 | p.3的数W.u.是采用外部187Au/186Pt带内B(E2)=100–200 W.u.的估计，非本实验寿命。Fig.3(c,d)把本次δ换算为αK与旧Rupnik/Bourgeois测量比较，不是新取得独立conversion谱。旧88倍和1.1e−4 e²b²没有本文依据；该绝对数值也不能与数W.u.互换。 | absolute-relative-and-source-lineage-boundary | direct-original | main p.3 Fig.3(c,d), caption and paragraph before QTR | true |
+| GU22-D22-R094-3 | 本实验未见Sensharma伴随signature-partner序列及429/437 links，相似265/405/414/551线归188Pt；这是本数据的non-observation/reassignment，不能把Sensharma全数据逐事件重归属或称二声子带证伪。QTR的Band1/2轨道#19/#21、低spin进动成分小是模型解释，未直接测主轴j。SI承认Q由同型探测器的外部Zheng2013曲线迁移，δ区间取可穿过P–Rac误差矩形的全部σ/I曲线，非公开完整joint-likelihood。 | experiment-model-and-response-boundary | direct-original | main p.2 Fig.2; main p.3 Fig.4; SI pp.3–5 Fig.2/3 and Table1 | true |
+
+按打印中央δ计算，376/462的E2光子份额约6.33%/7.27%；若强行保持同一光子分支、能量和分母，则相对Sensharma δ=−2.67/−2.98的E2份额变化因子约13.85/12.36。此为条件敏感性，不是两个独立实验的实测绝对B变化，更不是物理随spin塌缩。完整错误旧文本存于Day22 run的pre-correction-094.json。

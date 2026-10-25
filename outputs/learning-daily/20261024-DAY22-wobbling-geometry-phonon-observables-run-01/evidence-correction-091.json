@@ -1,0 +1,187 @@
+{
+  "checkpoint": "091",
+  "observed_at": "2026-10-25T10:15:17.405355+08:00",
+  "run_id": "2026-10-24-day-22-01",
+  "session_id": "01a16ccb-2ecb-7501-ae47-fb2d58c270da",
+  "status": "active",
+  "scientific_status": "corrective-progress",
+  "corrections": {
+    "17": [
+      "072",
+      "未取得逐核Cγ/Bγ出处或PES拟合。105/14.5/8.5/6等为自设输入；谐振子零点宽度公式也不能使0.5成为普适门限。保守闭合Hamiltonian本身不给耗散率。撤回四核刚度判决。"
+    ],
+    "18": [
+      "073",
+      "未核四核绝对寿命/全部多声子文献，不能声称全核区零确证；非谐性可产生有限Δn≈2强度（H03-D22-R091-1）。保留163Lu关键线偏振缺口，撤回38/1.42 W.u.及未来源化间距表。"
+    ],
+    "19": [
+      "074",
+      "冻结内禀j仍可在实验室系产生M1；F14 Eqs.(21)–(22)明确非零（F14-D22-R091-1）。撤回M1恒零、0.0035绝对基准及δ通用下限。"
+    ],
+    "20": [
+      "075",
+      "18核是任务自选样本，不是穷尽核图谱；分类依赖已撤回门限，且把候选/未测直接判失败。撤回5.6%等普遍率和136Nd/127Xe终审证伪。"
+    ],
+    "21": [
+      "076",
+      "未输入实际PTR本征态或过渡密度，不能计算核素TDM或证明电荷流局域；135Pr 2.1 W.u.没有直接寿命出处。撤回25.4倍微观解耦证明。"
+    ],
+    "22": [
+      "077",
+      "150 keV是任意分区阈值；经典极小条件不定义量子FM边界。两对称倾斜极小为±θ且cosθ相同，不是cosθ=±Jc/J。惯量参数变化非已测配对效应，撤回全自旋稳定和剪刀交叉终审。"
+    ],
+    "23": [
+      "078",
+      "74Br实际N=39非35；自设倾角和额外0.4因子不能测非共面度。经典非共面只需三重积非零，不要求归一值必须趋1；量子态还须对称恢复处理。撤回粒子–粒子必共面及共存证伪。"
+    ],
+    "24": [
+      "079",
+      "Pauli原理不唯一决定经典剪刀角或M1矩阵元；相同g因子双粒子的磁矩与总j关系也不能由差矢量公式替代。两原文保留M1占优的TW解释，未报告所列绝对B值或11倍塌缩。"
+    ],
+    "25": [
+      "080",
+      "原判据卡拼接未证门限；已重写为定义/必要检验、支持与反证边界，不设85%、15–30 W.u.、0.015 μN²、f<.35或Cγ数值硬门。"
+    ],
+    "26": [
+      "081",
+      "理想双剪刀磁矩相消是特定模型性质，不能推广为所有跨带M1/E1/E2都禁戒。0.407/.002为203.5倍而非10–20倍，且旧Cd逐点数无原表出处；撤回该曲线与J2/B普适阈值。110In须回原CHI01表。"
+    ],
+    "27": [
+      "082",
+      "旧ρ、Vres、壳隙均自设；黄金律需连续/稠密背景、弱耦合和时间尺度前提，不给这些有限核的实测宽度。撤回正常形变声子必融化结论。"
+    ],
+    "28": [
+      "083",
+      "AW13-20的871.2是Band1→4，非4→1；不同母态/表归一的强度不可合成46.6%退激分支。纯signature单声子两支的spin序列约束不等于所有混合多支带严格算符禁戒，更不唯一确证γ振动。"
+    ],
+    "29": [
+      "084",
+      "Matev可加性适用无配对选定组态集，不证明配对阻塞的任意低spin核。旧Qt=10.5/10.3、3.85/1.15等未绑定原寿命来源；撤回10%/20%及Δix=0绝对门限。"
+    ],
+    "30": [
+      "085",
+      "未测B(E3)必须记缺失而非0.0。GU20有直接E1连接和相对分支证据，不能降为只有模型输入。撤回95.4%相消、跨核统一数值阈值和唯一充要证据措辞。"
+    ],
+    "31": [
+      "086",
+      "八核能级表没有逐值ENSDF出处；低spin邻核谱不能直接测高spin TSD刚度。S符号非wobbling存在定理（ZC91-D22-R091-1），撤回全部失效分类。"
+    ],
+    "32": [
+      "087",
+      "单带Harris灵敏度代数正确，但σJ0/σJ1/ρ是自设输入；共同参考在相同ω两带差中严格抵消。未核137Nd频差，不存在已证明伪造1–1.4ℏ的结论。"
+    ],
+    "33": [
+      "088",
+      "自设A(I)逐spin反号会使带内ΔA总非零，旧脚本再强加奇偶比与自身标签矛盾。15–25%泄漏与10:1→2:1未经求解。保留特殊同j/γ极限的原文规则，撤回定量鲁棒性。"
+    ],
+    "34": [
+      "089",
+      "未做穷尽检索、未核各核寿命原文，不能由缺偏振推断唯一经验锚点或自然界只能TSD存在。167Ta是明确带假设的相对比推断，条件推断不自动构成逻辑循环。"
+    ],
+    "35": [
+      "090",
+      "320 keV与磁解耦系数等为自设，3.6%/2.4%及65%/35%分解为直接写入而非拟合结果。Ding只支持模型内机制竞争，撤回模型无关唯一反演γ和问题闭环。"
+    ]
+  },
+  "affected_results": [
+    "amr-two-shears-wobbling-discrimination-result-081.json",
+    "chiral-aplanarity-pn-coupling-result-078.json",
+    "frozen-alignment-m1-vanishing-result-074.json",
+    "gamma-staggering-phase-inversion-result-086.json",
+    "hamamoto-chiral-selection-rule-robustness-result-088.json",
+    "harris-reference-alignment-drift-result-087.json",
+    "master-wobbling-18-nuclei-verdict-result-075.json",
+    "octupole-evidence-ladder-discrimination-result-085.json",
+    "quadrupole-homomorphy-blocking-additivity-result-084.json",
+    "quasiparticle-decoherence-wobbling-damping-result-082.json",
+    "signature-selection-rule-wobbling-exclusion-result-083.json",
+    "signature-splitting-decoupling-result-090.json",
+    "transition-density-scs-radiation-result-076.json",
+    "tsd-superdeformed-island-genealogy-result-089.json",
+    "tw-fm-lw-bifurcation-systematics-result-077.json",
+    "two-phonon-wobbling-systematics-result-073.json",
+    "two-quasiparticle-wobbling-shears-result-079.json",
+    "wobbling-gamma-stiffness-restoring-force-result-072.json"
+  ],
+  "pre_edit_sha256": {
+    "knowledge/sources/frauendorf-2014-transverse-wobbling.md": "57d8c286a38a70aedb0a02f4337c4078dceb67d56bebb2c22ba6ac1e3a79cdaf",
+    "knowledge/sources/lv-2022-transverse-wobbling-136nd.md": "03bc57042163033a3989fad101109a9dc0ce523c43b0e26699e85f45b3feb93c",
+    "knowledge/sources/chen-2019-transverse-wobbling-even-even.md": "562fe14b7c40c59b16fa4a3e6329485fbd4d90d64f486ba4fbac957ecc08fd1c",
+    "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md": "f03e70402d17f94b9e41b4a8571a1cf152f81bc5deb42c3e9395afab666b74b8",
+    "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md": "4d954222b627e80168d05473f72439797d8e4b088ea0b8b579e230bb9ab4dae4",
+    "knowledge/sources/guo-2024-chiral-wobbler-74br.md": "f782faf96338c6112dfbbc1247e1b3cb1c7b44065565b599c5a51b41d7c1dd33",
+    "knowledge/synthesis/experimental-wobbling-evidence-strength-map.md": "22f4703521ad3ed4bdbc4856a8d728c9b6fccb12fb954224adcb2c52a979a6ee",
+    "knowledge/methods/wobbling-geometry-phonon-observable-contract.md": "ad1dbb1e0d41ffcb0244ba919ed012ee03d81f3a796d42839b89ace6d5e64558",
+    "knowledge/methods/spin-coherent-state-map.md": "1c451d73caf7e54913355b50bece2c4944fdcd94e6878fdf45620b8a8795df3e",
+    "knowledge/concepts/flip-mode.md": "9fc52e719b854ec3e51347cfa72dad674e620975dfe12c2f7fc673ad08764a93",
+    "knowledge/concepts/antimagnetic-rotation.md": "7cd092a8b31855742525dc541b7b39c0028db95c44266d3d97e97f552ae0ddf8",
+    "knowledge/synthesis/shape-observable-matrix.md": "e99184b8bd1fc95a477c198bd6ca4f0c3d2eb08b65d29d77d3bb2272eb31489b",
+    "knowledge/synthesis/gamma-soft-vs-gamma-rigid-diagnostics.md": "9614845d61469a6a7c6523846db1e0169fec5bcdd847c5c63d74efffec8cc214",
+    "knowledge/concepts/signature-partner-bands.md": "c0bf965cb667b639aa82e4731fcadf7d58cc17799226bade7c5460ed2d642a6a",
+    "knowledge/synthesis/chirality-wobbling-competition-evidence.md": "85a034fe9ca68c73c2df15f38b08016505b6c10a1bb27f137acc10da6cbcbb5c",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables.md": "0f3faba70905fe29971be2cf758c7b2eac3960f4b4f5c464473298390b8ca124",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/amr-two-shears-wobbling-discrimination-result-081.json": "f6f9b5253d245a9a3acd565da99f1dafdb46fc6f1480c9d9262cd26ec2b1ea6d",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/chiral-aplanarity-pn-coupling-result-078.json": "e67514e04f731e6979d8f4c8b198eb3c8c1ef7acbb4e91f05f48b89257ffecf5",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/frozen-alignment-m1-vanishing-result-074.json": "0cadc8e029ecceb65f2613849ea3e6d77bf9b7ddb3bb7588eea6a05c01f5d0a6",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/gamma-staggering-phase-inversion-result-086.json": "7d62a3cc212b6948cc712618b680ac32c2efe61038d910c7323f0be6d1256efe",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/hamamoto-chiral-selection-rule-robustness-result-088.json": "5f7802e6ca8ab111215e504fb85fa5f45d162c587c99652326c74807ab16d714",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/harris-reference-alignment-drift-result-087.json": "ac2dacae7292b157dce73ac346e7398d7f0860255bb8f3b649faeff716a4ac01",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/master-wobbling-18-nuclei-verdict-result-075.json": "9a5c5f4b12a33754ad0a9d0122baa90beec68988c8099c64ee1ed239376aab87",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/octupole-evidence-ladder-discrimination-result-085.json": "ed5ea0b36391ef21ff66e017d80f0622cfea167bc21e6f283d07656b785c1887",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/quadrupole-homomorphy-blocking-additivity-result-084.json": "f55cc9e4dcdfafbd9a46d7520f268d3ffd202dc05d670591e5adbed6c4f5f0c8",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/quasiparticle-decoherence-wobbling-damping-result-082.json": "79c4297682898d2c0f2907bfacbe10bf93bfd1f241061ce0a20cb57c3c440951",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/signature-selection-rule-wobbling-exclusion-result-083.json": "56c92eabd1b792e978f7a8d0b10f811520742fe86a77cca9bc09a50b66f3885f",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/signature-splitting-decoupling-result-090.json": "e944a69a667d20d44c15c7538540e02d9d206cdc0e7ece4f480a1160a310398a",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/transition-density-scs-radiation-result-076.json": "5d7023f45b68c389791afae47df53b5a76df4f896305dc195c4279be35b96354",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/tsd-superdeformed-island-genealogy-result-089.json": "1806fb2c6baff9774679275f6c317111c0c5e7bf9d7fcfa00b258745fd7b9135",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/tw-fm-lw-bifurcation-systematics-result-077.json": "7ab72e7cc0669bbaab47b32b88ad0c9cc43b507133d0d86c5c4dc713ce3e6925",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/two-phonon-wobbling-systematics-result-073.json": "3d5c113e03f82f3beebfb97c03518455e27eecef7eb3ae3fd35c7a45bfb790b8",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/two-quasiparticle-wobbling-shears-result-079.json": "78b7ef83b321f854e8f88054dde56a5d4556fb75e56816b78fda7ee6c6442b93",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/wobbling-gamma-stiffness-restoring-force-result-072.json": "2ad22f897686c7325a5938094b966706f82a31abdf0b7220255a87c653ca42ae",
+    "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/run.json": "e74bf5ff858a210d79dd635e2d44e9ca9878c0bfdaf60e46f9708dd0f73c0104"
+  },
+  "snapshot": {
+    "now_local": "2026-10-25T10:15:17.405355+08:00",
+    "hard_deadline": "2026-10-25T15:00:00+08:00",
+    "minutes_to_deadline": 284.70991075,
+    "decision": "continue-or-advance",
+    "day_index": 22,
+    "next_card_preview": 23,
+    "next_card_credit": false
+  },
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    22,
+    23
+  ],
+  "next_day_index": 22,
+  "publication": "not-closeout",
+  "next_actions": [
+    "Audit earlier Day22 source additions and update overstrong summaries.",
+    "Recheck original multi-phonon strength/transition locators and missing absolute lifetime evidence.",
+    "Complete formal Day22 audit and H3 publication at closeout, not now."
+  ],
+  "additional_corrections": [
+    "Rewrote minimal protocol and criteria card; replaced overstrong 136Nd/130Ba source additions.",
+    "Old Markdown snapshots packaged into pre-correction-091/markdown-snapshots.json to preserve output boundary."
+  ],
+  "source_truth_audit": "Direct targeted raw reading and selected figure/formula visual checks support only the new R091 rows; other early Day22 additions remain unverified.",
+  "verification": "required-checks-091.json",
+  "algebra_controls": "algebra-controls-091.json",
+  "day21_audit": {
+    "credit_receipt": "card-credit-21.json",
+    "formal_completed": [
+      21
+    ],
+    "original_session_id": "01a167eb-3c9c-74c0-a0a0-12720a4e1f4d",
+    "h3_file": "h3-preflight-scope-146.json",
+    "h3_scope": "Recorded fetch/ancestry/dry-run passed before closeout; file is preflight, not final push proof",
+    "published_commit_subject": "Finalize Day 21 card audit, knowledge writeback, and receipt",
+    "commit_in_cached_origin_main": true,
+    "remaining_inconsistency": "Committed Day21 report footer still says research active/no credit despite final receipt; retain explicit [21] credit and do not infer source truth from it.",
+    "cached_origin_ancestry_exit_code": 0,
+    "formal_audit_section_present": true
+  },
+  "timestamp": "2026-10-25T10:20:47.809580+08:00",
+  "minutes_to_deadline": 279.20317366666666
+}

@@ -1,0 +1,17 @@
+{
+  "now_local": "2026-10-25T15:01:36.140286+08:00",
+  "hard_deadline": "2026-10-25T15:00:00+08:00",
+  "next_scheduled_start": "2026-10-25T16:00:00+08:00",
+  "minutes_to_deadline": -2,
+  "minutes_to_next_start": 58,
+  "minimum_current_block_minutes": 90,
+  "minimum_forward_card_block_minutes": 120,
+  "can_continue_current": false,
+  "can_complete_forward_card": false,
+  "decision": "closeout-only",
+  "day_index": 22,
+  "can_open_new_source": false,
+  "can_preview_next_card": false,
+  "can_credit_next_card": false,
+  "closeout_decision": "closeout-only"
+}

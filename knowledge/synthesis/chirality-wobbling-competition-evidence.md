@@ -3,7 +3,7 @@ type: synthesis
 title: "Chirality, wobbling and competing explanations in high-spin bands"
 aliases: [手征与 wobbling 竞争解释证据综合]
 created: 2026-09-21
-updated: 2026-10-10
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 scope: high-spin-chirality-wobbling-competition
@@ -13,6 +13,10 @@ tags: [chirality, wobbling, gamma-softness, shape-coexistence, evidence-map]
 ---
 
 # Chirality, wobbling and competing explanations in high-spin bands
+
+## Agent active summary — Day22
+
+当前使用“Day22 checkpoint102/114/116/119”：先区分135Nd低spin单qp与高spin三qp带族，再区分静态g、signedχ、RMS及Gram代理。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D22-R102-1保留原实验支持及统计边界；[[grodner-2018-128cs-chiral-g-factor]] GR18-D22-R114-1保留算符约定问题，不能从任务代数裁决原论文。 本段是Codex self-audit导航，新增内容needs_review: true，不扩张原有human-reviewed范围，也不替代source locator。
 
 ## Question and Scope
 
@@ -323,3 +327,31 @@ For each pair, preserve the sequence:
 **checkpoint108撤回固定15%相等、20W.u.、DeltaE<100keV、ratio .2–.5和所有核统一排他阶梯。** 相近tau不保证相同B；能量、branch、mixing和算符几何均有关。Koike/Hamamoto的A规则有特殊Hamiltonian/组态/算符条件，不能把反相M1交错当所有手征必要条件；无交错也不独自排除。g=.59→近planar是[[grodner-2018-128cs-chiral-g-factor]] GR18-D19-5/8的模型依赖解释，不是无条件g-threshold。
 
 [[suzuki-2008-lifetimes-103rh-104rh]] SU08-D19-5/11仅测部分候选成员，缺partner矩阵。[[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-20、[[regis-2011-fast-timing-labr3]] RG11-D19-19/20和[[nolan-sharpey-schafer-1979-lifetime-measurements]] NS79-D19-22/23提供time-response合同，不能单独支持本文对135Nd/136Nd/106Ag/135Pr/187Au/131Xe全部模式裁决。源matchedδ/偏振/逐线绝对B和替代解释按各source保留，104脚本算术未重核这些原件。
+
+## Day22 checkpoint102：135Nd模式判别先绑定带族与统计量
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D22-R102-1–3是三准粒子手征pair的DSAM/TAC+RPA支持链；[[lv-2021-tilted-precession-135nd]] LV21-D22-R102-1/2是另一低spin单νh11/2TiP家族。相同核素名不能消去组态/带身份，也不能将后一家族小δ作为前者三维chirality的否证。
+
+MU07的强度近同和M1交错为作者支持证据；.9356±.0102只是五个sqrtB中央比的均值/散布，不是精密测得的Qt同态性区间。两带37/2→39/2中心降幅约2.46/2.64，不给未报Cov下的“严格同频排他”结论。nearharmonic振动下强度相近、近不稳定点倾角/非谐性可使强度不同均在原模型讨论中；不按普适充要门裁决。
+
+chirality左右手由time reversal关联、两带同宇称；勿写为paritydoublet。wobbling/TiP术语的定义争论与实际逐线δ/强度冲突另分层。needs_review: true。
+
+## Day22 checkpoint114：g与三矢量几何需说明order parameter
+
+[[grodner-2018-128cs-chiral-g-factor]] GR18-D22-R114-1/2保留实验g与作者PRM/CDFT解释，并追踪Eq3的signed/RMS/半经典代理约定。通常独立labspin中χ=(i/4)[(jp+jn)²,(jn+R)²]，故fixedjpn态的signed期望零不证明planar；RMS与由平均pairdot组成Gram的代理也不同。两个源文指定耦合态的任务控制分别给RMS约.679/.708和Gram约.958/1.000，不能混称同一量或以近1恢复未核的算法认证。
+
+静态g是标量耦合约束；chosen共轭packet可同g而signedχ反号。这只说明信息边界，不是新核doublet或实测手征证明。SourceRef14元数据身份已得、body/producer缺失，作为本任务开放问题保留needs_review: true；不静默改作者式、不把其模型曲线叫实验三维轨迹。
+
+## Day22 checkpoint116：伸展态中的算符与代理差别
+
+[[grodner-2018-128cs-chiral-g-factor]] GR18-D22-R116-1给出已开算符分析的极限控制：jp=jn=11/2、R=2、I=M=13乘积态的signedχ与RMS均0，Gram(pair means)代理却为.33234568。把平均内积组成的矩阵行列式再开方，不等于先构造χ²再取期望开方。其有限值来自Casimir涨落；不能将这类代理直接解释成实测三维手征体积，也不以signed期望零单独排除核中的手征关联。
+
+这是一项条件数学反例，不是GR18实际核态或论文算法重放。实验g=.59(1)、PRM/CDFT的作者解释保留；Ref14/算符约定问题继续开放，needs_review: true。
+
+117补独立算符回证：直接以三个Cartesian自旋分量的六项Levi-Civita和构造χ，再与commutator比较，三个chosen态误差≤5.0e−14；伸展Gram解析式亦与CG矩阵独立一致。七项限定控制通过，仍非作者producer或实验几何重放。
+
+## Day22 checkpoint119：平均几何量遗漏哪些关联
+
+[[grodner-2018-128cs-chiral-g-factor]] GR18-D22-R119-1保存了通常独立lab自旋的精确平方三重积恒等式（ħ=1）。与平均pairdot的Gram行列式相比，实际⟨χ²⟩包含pairdot的方差、对称三乘积，以及非对易量子修正；只知道三个平均内积和自旋Casimir不足以替换这些高阶量。当前三个chosen态的独立Cartesian矩阵核验误差≤1.9e−12，不能由此认定原论文实际算法或核态波函数。
+
+signedχ是奇于时间反演的量，RMS不带左右手符号；它们与Gram代理所保留的信息不同。原任务同M复packet仅为信息边界例，不能当实际时间反演双态、核本征态或实测chirality。GR18实验g与模型曲线的证据层继续分别保留，needs_review: true。

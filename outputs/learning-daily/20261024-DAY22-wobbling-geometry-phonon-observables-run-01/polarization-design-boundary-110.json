@@ -1,0 +1,33 @@
+{
+  "scope": "diagnosticofold134toyassumptions,notnewfacilitybudgetorvalidpolarizationmodel",
+  "old_artifact_sha256": "d0371c0ce7b0f9a5951b9a6f9c04139918c853114077f8274994dfe05b07d7ad",
+  "old_script_sha256": "5bcc7cc5d75647ca613d0cd2e5d1f5e0bdc091c10a4e4eecf3d68af13eae531e",
+  "old_inputs": {
+    "pureP_M1": -0.4,
+    "pureP_E2": 0.5,
+    "delta_assumed0": 0.0389,
+    "delta_assumed1": 1.2,
+    "Q_assumed": 0.22,
+    "selected_rate_assumed_per_hour": 40.6
+  },
+  "old_weighted_P_centers": [
+    -0.39864016871030594,
+    0.13114754098360654
+  ],
+  "old_asymmetry_centers": [
+    -0.0877008371162673,
+    0.02885245901639344
+  ],
+  "old_N3": 663,
+  "old_distance_over_unit_binomial_sd": 3.001105923907727,
+  "positive_sign_standardized_distance_under_old_H1": 0.7432252224013931,
+  "old_H1_conditional_3sigma_positive_N_approx": 10803,
+  "positive_sign_scope": "distanceofmeanA1fromzero,notformalpower/rejectionCL;parametersareoldunverifiedtoyinputs",
+  "failures": [
+    "PlinearweightingomitsM1/E2interferenceandangularintensitydenominator.",
+    "delta225sign/magnitudeabsentinLV19TableI;cross-campaigninferenceassumptionsnotactualmeasurement.",
+    "Q=.22andr40.6/hhave no sourcecalibration/countvalidation inoldscript.",
+    "N663addressesmeanseparationunderunverifiedinputs;itdoesnotyieldpositiveAat3sigmaunderoldH1.",
+    "Ifexplicitmodelpredictionsetandnuisanceresponsewerevalidated,polarizationcouldtestthatversion;noneedforall-chiralityexclusion."
+  ]
+}

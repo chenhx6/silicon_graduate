@@ -1,0 +1,118 @@
+{
+  "scope": "mathematicalchosenfamilyonly;notfullQTR/PTRoractualnuclearcriticalspin",
+  "source_formula": "F14Eq11frozenalignedHamiltonian andlocalHFAexpansion;newquarticderivationisourconditionalmodelanalysis",
+  "Hamiltonian": "H=3A0J1²+A0J2²+2A0(J3-j)²",
+  "units": "hbar=1,A0=.01MeV;Iintegerchosenmodelrepresentations",
+  "critical_family": "J=sqrt[I(I+1)],j=J/2,soAbar3=A0;c2=0,c1=2A0",
+  "expansion": "J3=J-(J1²+J2²)/(2J)-(J1²+J2²)²/(8J³)+...;classicalquarticcoefficientA3*j/(4J³)",
+  "leading_critical_operator": "q=J2/sqrtJ,p=J1/sqrtJ;Hleading=2A0J*p²+(A0/4)*q⁴;leadinggaps scaleA0*J^(2/3)",
+  "independent_quartic_oscillator": {
+    "H": "p²+q⁴",
+    "Fock_basis64_levels": [
+      1.0603620904841842,
+      3.799673029801942
+    ],
+    "Fock_basis96_levels": [
+      1.0603620904841828,
+      3.7996730297997674
+    ],
+    "gap_limit": 2.7393109393155846,
+    "padding": 4
+  },
+  "finite_spin_results": [
+    {
+      "I": 10,
+      "J_classical_sqrtI_Iplus1": 10.488088481701515,
+      "chosen_j": 5.244044240850758,
+      "curvature_c1": 0.02,
+      "curvature_c2": 0.0,
+      "HFA_frequency_at_critical": 0.0,
+      "finite_gap_MeV": 0.12994288475233373,
+      "quartic_scale_MeV": 0.04791419857062784,
+      "gap_over_quartic_scale": 2.7119911973648407,
+      "gap_over_A0J": 1.2389567935000172,
+      "two_lowest_signature_eigenvalues": [
+        1.000000000000001,
+        -1.0
+      ]
+    },
+    {
+      "I": 20,
+      "J_classical_sqrtI_Iplus1": 20.493901531919196,
+      "chosen_j": 10.246950765959598,
+      "curvature_c1": 0.02,
+      "curvature_c2": 0.0,
+      "HFA_frequency_at_critical": 0.0,
+      "finite_gap_MeV": 0.20429616735890743,
+      "quartic_scale_MeV": 0.07488872387218506,
+      "gap_over_quartic_scale": 2.727996376431599,
+      "gap_over_A0J": 0.9968632231433177,
+      "two_lowest_signature_eigenvalues": [
+        0.9999999999999989,
+        -1.000000000000001
+      ]
+    },
+    {
+      "I": 40,
+      "J_classical_sqrtI_Iplus1": 40.496913462633174,
+      "chosen_j": 20.248456731316587,
+      "curvature_c1": 0.02,
+      "curvature_c2": 0.0,
+      "HFA_frequency_at_critical": 0.0,
+      "finite_gap_MeV": 0.32249737303690473,
+      "quartic_scale_MeV": 0.11792737079940732,
+      "gap_over_quartic_scale": 2.734711804823224,
+      "gap_over_A0J": 0.7963505004757353,
+      "two_lowest_signature_eigenvalues": [
+        1.0000000000000002,
+        -0.9999999999999998
+      ]
+    },
+    {
+      "I": 80,
+      "J_classical_sqrtI_Iplus1": 80.49844718999243,
+      "chosen_j": 40.24922359499622,
+      "curvature_c1": 0.02,
+      "curvature_c2": 0.0,
+      "HFA_frequency_at_critical": 0.0,
+      "finite_gap_MeV": 0.5103557008873736,
+      "quartic_scale_MeV": 0.18643395035723154,
+      "gap_over_quartic_scale": 2.7374611754429177,
+      "gap_over_A0J": 0.6339944666048427,
+      "two_lowest_signature_eigenvalues": [
+        1.0000000000000009,
+        -1.0
+      ]
+    },
+    {
+      "I": 160,
+      "J_classical_sqrtI_Iplus1": 160.49922118191103,
+      "chosen_j": 80.24961059095551,
+      "curvature_c1": 0.02,
+      "curvature_c2": 0.0,
+      "HFA_frequency_at_critical": 0.0,
+      "finite_gap_MeV": 0.8087966516464746,
+      "quartic_scale_MeV": 0.29533525038656727,
+      "gap_over_quartic_scale": 2.7385713374472997,
+      "gap_over_A0J": 0.5039255927166016,
+      "two_lowest_signature_eigenvalues": [
+        1.0000000000000018,
+        -1.0
+      ]
+    }
+  ],
+  "controls": {
+    "quartic_Galerkin64to96_low_gap_converged": true,
+    "critical_family_HFA_curvature_zero_but_finite_gaps_positive": true,
+    "lowest_pair_have_opposite_signature": true,
+    "scaled_gaps_approach_independent_quartic_limit_on_chosen_grid": true,
+    "gap_relative_to_A0J_decreases_on_chosen_grid": true
+  },
+  "boundaries": [
+    "jischangedwithIonlytodefineasymptoticmodelsequence;notafixedphysicalquasiparticleorparameterfit.",
+    "Classicalnorth-polequarticexpansionhasoperator-orderingsubleadingterms;onlyleadinglimitistested.",
+    "Finitepositivegapdoesnotbyitselfidentifyawobblingphonon,nuclearmodestabilityortransitionB.",
+    "NoRPAfullquasiparticledegreesofreorientation,experimentalenergies,responseorCIreplayed.",
+    "GridmonotonicityisobservedonlyforchosenIvalues,notaproof forall spins orotherHamiltonians."
+  ]
+}

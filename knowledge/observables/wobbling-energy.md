@@ -61,3 +61,12 @@ tags: [wobbling, rotational-band]
 - 2026-07-03：加入 Matta 2015 的 Eq.1/Fig.5 原始实验案例。
 - 2026-07-03：加入 Sensharma 2019 的 TW2 自旋演化与 assignment-dependence。
 - 2026-07-03：加入 Sensharma 2020 的 `187Au` increasing-`E_wobb` LW 支持案例。
+
+
+## Day22能量解释边界校准（checkpoint092）
+
+Ewob是绑定band/spin指认的派生量。F14横向粒子例子可以先升后降，故不能仅由斜率唯一分类TW/LW。旧以135Pr某拐点“已证实剪刀交叉”替代所有模型解释、并把寿命/偏振组合称充要前提的认证撤回。具体反证必须比较实际能级身份、竞争模型和相应电磁量。来源：[[frauendorf-2014-transverse-wobbling]] F14-D22-003/004。
+
+## Day22 checkpoint106：谐频零不等于有限谱隙零
+
+[[frauendorf-2014-transverse-wobbling]] F14-D22-R106-1/2的人工冻结j族在HFA曲率c2=0时仍有四次回复项；完整有限spin最低隙为正，按A0J^(2/3)标度趋近quartic算符极限。此为近似/完整有限矩阵的条件反例，不是核实验软模或零能相变测量。比较实际Ewob时还要匹配不同spin能量定义，不能将固定I模型最低两级差直接当所有实验Ewob。needs_review: true。

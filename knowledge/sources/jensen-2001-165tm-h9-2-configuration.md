@@ -207,3 +207,14 @@ Jensen 等人的 `165Tm` 工作把高统计 γγ/γγγ 谱学、DCO、DSAM 寿�
 | J01-D18-4 | Jensen 2001 Sec 3.2 明确报告采用 Currie (1969) 蒙特卡罗算法与 Bacelar (1987) 代码按 5 fs 时间步长求解 Bateman 方程合成谱形；电子阻停采用 Northcliffe-Schilling (1970) 附带 Ziegler-Chu (1974) 与 Sie (1977) 壳修正，核阻停采用微商 Lindhard 截面；侧馈模型为 3 步级联（固定惯性矩 J(2)=65.0 hbar^2/MeV 与同 Qs）；Table 2 寿命与 Qt 误差明确已直接计入额外 +5% 电子阻停系统误差；全部门控均位于感兴趣能级下方。这与 Mukhopadhyay 2008 的 2 fs / SRIM / 5 步可变 Qs 级联及表外排除 15% 误差形成严格方法学分层。 | task-methodology-contrast-audit | direct-and-boundary | PDF pp.23-25 Sec 3.2 & Table 2；dsam-systematics-contrast-result-059 | true |
 
 Knowledge impact：`limits`把共同绝对停止标尺当作带间形变差的任意解释，也`limits`把共用backing当作所有系统误差必然抵消。两方向均须检查actual速度场、位置响应、feeding和branch。此处不修正原Qt、β2、误差或结构指认。
+
+
+## Day22 checkpoint092：F14 Ref.25的定向身份核验
+
+本轮只核本地48页原件的首页/摘要与书目PII，SHA256 0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770；没有重新阅读全文、表格或DSAM拟合。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JT01-D22-R092-1 | NPA695(2001)3–50、H.J.Jensen等原件首页研究165Tm，摘要中的DSAM/Qt对应165Tm的[541]1/2−与[411]1/2+等带；不是163Lu TSD1/2寿命报告。F14 Ref.25字面书目落到本篇时，不能将该身份替代为163Lu直接绝对B测量；仍须查F14实际数据原始来源。 | source-identity-and-transfer-boundary | direct-original-targeted | printed p.3, title/authors/abstract and PII S0375-9474(01)01111-3 | true |
+
+见[[frauendorf-2014-transverse-wobbling]] F14-D22-R092-1的引用链待解记录。

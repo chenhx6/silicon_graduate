@@ -1,0 +1,119 @@
+{
+  "scope": "test-targetdiagnosticofoldunvalidatedAmeans;notactualPprediction,apparatusfeasibilityorproposal",
+  "assumptions": [
+    "a=1known,exclusiveindependentBernoulliselectedsignalbins,Nfixed,no background orcalibrationuncertainty",
+    "one-sidedtestswithpredeclarednull/alternative",
+    "old134polarizationmodelisinvalid;meansusedonlytoaudittestsemantics"
+  ],
+  "rows": [
+    {
+      "objective": "old_two_mean_separation",
+      "N_selected": 663,
+      "null_A": -0.0877008371162673,
+      "alternative_A": 0.02885245901639344,
+      "one_sided_normal_equivalent_z": 3,
+      "alpha_target": 0.0013498980316300957,
+      "reject_if_Nperp_at_least": 342,
+      "exact_null_tail_at_critical": 0.001181206639956115,
+      "exact_null_tail_one_count_lower": 0.0015246098107850631,
+      "exact_alternative_rejection_power": 0.4866554111891412,
+      "raw_pmf_masses": [
+        1.00000000000016,
+        1.000000000000129
+      ]
+    },
+    {
+      "objective": "old_two_mean_separation",
+      "N_selected": 1841,
+      "null_A": -0.0877008371162673,
+      "alternative_A": 0.02885245901639344,
+      "one_sided_normal_equivalent_z": 5,
+      "alpha_target": 2.866515718791946e-07,
+      "reject_if_Nperp_at_least": 948,
+      "exact_null_tail_at_critical": 2.454197808061701e-07,
+      "exact_null_tail_one_count_lower": 3.1265940890374256e-07,
+      "exact_alternative_rejection_power": 0.4918804503607575,
+      "raw_pmf_masses": [
+        1.0000000000003568,
+        1.0000000000001663
+      ]
+    },
+    {
+      "objective": "positive_asymmetry_against_zero",
+      "N_selected": 663,
+      "null_A": 0,
+      "alternative_A": 0.02885245901639344,
+      "one_sided_normal_equivalent_z": 3,
+      "alpha_target": 0.0013498980316300957,
+      "reject_if_Nperp_at_least": 371,
+      "exact_null_tail_at_critical": 0.0012130970582425915,
+      "exact_null_tail_one_count_lower": 0.0015660338633233825,
+      "exact_alternative_rejection_power": 0.011007259002159594,
+      "raw_pmf_masses": [
+        1.0000000000001494,
+        1.000000000000129
+      ]
+    },
+    {
+      "objective": "positive_asymmetry_against_zero",
+      "N_selected": 10803,
+      "null_A": 0,
+      "alternative_A": 0.02885245901639344,
+      "one_sided_normal_equivalent_z": 3,
+      "alpha_target": 0.0013498980316300957,
+      "reject_if_Nperp_at_least": 5558,
+      "exact_null_tail_at_critical": 0.0013411046587454623,
+      "exact_null_tail_one_count_lower": 0.001428384706829455,
+      "exact_alternative_rejection_power": 0.498858536544728,
+      "raw_pmf_masses": [
+        1.0000000000022427,
+        1.0000000000010099
+      ]
+    },
+    {
+      "objective": "chosen_larger_sample_two_mean_separation",
+      "N_selected": 1500,
+      "null_A": -0.0877008371162673,
+      "alternative_A": 0.02885245901639344,
+      "one_sided_normal_equivalent_z": 3,
+      "alpha_target": 0.0013498980316300957,
+      "reject_if_Nperp_at_least": 743,
+      "exact_null_tail_at_critical": 0.0012797903444367205,
+      "exact_null_tail_one_count_lower": 0.0015157393167247123,
+      "exact_alternative_rejection_power": 0.9338594895916656,
+      "raw_pmf_masses": [
+        0.9999999999994434,
+        0.9999999999992661
+      ]
+    },
+    {
+      "objective": "chosen_larger_sample_positive_asymmetry",
+      "N_selected": 23000,
+      "null_A": 0,
+      "alternative_A": 0.02885245901639344,
+      "one_sided_normal_equivalent_z": 3,
+      "alpha_target": 0.0013498980316300957,
+      "reject_if_Nperp_at_least": 11728,
+      "exact_null_tail_at_critical": 0.0013487101554391174,
+      "exact_null_tail_one_count_lower": 0.0014082832957277168,
+      "exact_alternative_rejection_power": 0.9155940712336856,
+      "raw_pmf_masses": [
+        1.0000000000015394,
+        1.0000000000020988
+      ]
+    }
+  ],
+  "controls": {
+    "all_numerical_binomial_masses_close_to_one": true,
+    "critical_integer_controls_one_sided_alpha_and_is_smallest": true,
+    "old_mean_separation_samples_give_near_half_not_high_power": true,
+    "old_N663_positive_sign_power_is_small": true,
+    "chosen_larger_samples_have_above90percent_power_only_in_declared_toy": true
+  },
+  "boundaries": [
+    "Chosen1500/23000samplesarenotminimaldesignsolutionsandarenotconvertedtohours.",
+    "No composite nuclear-model/nuisanceprediction setwasdefinedor tested.",
+    "Normal-equivalentzspecifiesalphaonly;powerisreportedseparately.",
+    "More targetcounts cannotresolve completelyfreea/Q nuisances established in111."
+  ]
+}

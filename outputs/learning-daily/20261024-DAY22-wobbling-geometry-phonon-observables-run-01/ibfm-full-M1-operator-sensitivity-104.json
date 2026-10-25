@@ -1,0 +1,43 @@
+{
+  "scope": "taskhypothesiseta_times_totalM1operator;notauthorsIBFMrefit",
+  "source": "NOM22TableII/Eq11,TI19TableI",
+  "eta_chosen_to_match_1034_delta": 0.3552173913043478,
+  "eta_squared": 0.12617939508506615,
+  "rows": [
+    {
+      "E_keV": 991,
+      "IBFM_original_delta": 0.727,
+      "hypothetical_scaled_delta": 2.0466340269277845,
+      "IBFM_original_rM1": 0.316,
+      "hypothetical_scaled_rM1": 0.0398726888468809,
+      "IBFM_rE2_unchanged": 0.389
+    },
+    {
+      "E_keV": 1034,
+      "IBFM_original_delta": 0.817,
+      "hypothetical_scaled_delta": 2.3,
+      "IBFM_original_rM1": 0.166,
+      "hypothetical_scaled_rM1": 0.020945779584120982,
+      "IBFM_rE2_unchanged": 0.236
+    },
+    {
+      "E_keV": 994,
+      "IBFM_original_delta": 0.851,
+      "hypothetical_scaled_delta": 2.3957160342717256,
+      "IBFM_original_rM1": 0.101,
+      "hypothetical_scaled_rM1": 0.012744118903591681,
+      "IBFM_rE2_unchanged": 0.182
+    }
+  ],
+  "formulas": [
+    "delta_new=delta_old/eta",
+    "rM1_new=eta^2*rM1_old",
+    "rE2_new=rE2_old"
+  ],
+  "boundaries": [
+    "BothbosonandfermionM1partsaretogetherrescaled;thisisnotachangeonlyoddparticlegfactororclaimedphysicallypreferredHamiltonian.",
+    "States/energies/E2operatorheldfixed;noglobalfit,Cov,modelerrorornewsignificance.",
+    "ScalingdeltadoesnotrepairE2strengths;notafalsificationoftheIBFMframework.",
+    "Secondarytable994rM1error.057differsfromprimaryTI19.016;originalprintnumbersretainedseparately."
+  ]
+}

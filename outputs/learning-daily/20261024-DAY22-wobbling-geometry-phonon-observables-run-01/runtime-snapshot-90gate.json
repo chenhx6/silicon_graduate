@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-25T13:31:30.366852+08:00",
+  "hard_deadline": "2026-10-25T15:00:00+08:00",
+  "minutes_to_deadline": 88.4938858,
+  "closeout_decision": "finish-current-no-new-unit",
+  "day_index": 22,
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    22,
+    23
+  ],
+  "next_day_index": 22,
+  "can_open_new_source": false,
+  "can_open_new_card": false,
+  "next_card_preview_only": 23,
+  "next_card_credit": false,
+  "selected_current_analyses": [
+    "matched-independent-nullfour-countstatisticsalreadyopened",
+    "signed/RMS/Gramorientationandstaticgdefinitionsalreadyopened"
+  ],
+  "decision_note": "Finishthesetwoboundedanalysesandtheircanonicalrecord/verification;nonewresearchrouteorcardunder90;15:00closeout-only"
+}

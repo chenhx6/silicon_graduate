@@ -1,0 +1,93 @@
+{
+  "raw_sha256": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70",
+  "locator": "printed p1 Eq1; p2 Eqs3/4; p19 TableIIb Ji17/2 Jf15/2 rows11,12,22",
+  "inputs": {
+    "printed_F2_11_12_22": [
+      0.2643,
+      -0.90951,
+      0.06955
+    ],
+    "printed_F4_22": 0.49211,
+    "chosen_rho2_rho4": [
+      -0.02,
+      0.02
+    ],
+    "population_basis": "Yamazaki t_k(m), using exact day14 tensor helper"
+  },
+  "results": {
+    "chosen_delta_large": -1.4,
+    "derived_other_A2_root": -0.5640849237135485,
+    "root_rational_in_printed_model": "-773185/1370689",
+    "A2_A4_first": [
+      -0.019913824324324324,
+      0.006517132432432432
+    ],
+    "A2_A4_same_rho_other_root": [
+      -0.019913824324324324,
+      0.002375759993824827
+    ],
+    "A2_A4_other_rho_other_root": [
+      -0.019913824324324324,
+      0.006517132432432432
+    ],
+    "other_rho4": 0.05486355902424513,
+    "min_probability_first": 0.05353041868271012,
+    "min_probability_second": 0.05123959993921465,
+    "population_first": [
+      0.055354884969465064,
+      0.0538598994836922,
+      0.05353041868271012,
+      0.05397498996689116,
+      0.05485808253655445,
+      0.05590008739196595,
+      0.0568773173333384,
+      0.05762200696083138,
+      0.05802231267455128,
+      0.05802231267455128,
+      0.05762200696083138,
+      0.0568773173333384,
+      0.05590008739196595,
+      0.05485808253655445,
+      0.05397498996689116,
+      0.05353041868271012,
+      0.0538598994836922,
+      0.055354884969465064
+    ],
+    "population_second": [
+      0.05866926102388406,
+      0.05327500959173591,
+      0.05123959993921465,
+      0.05148920792607692,
+      0.05310341286068557,
+      0.055315197500009655,
+      0.05751094804962439,
+      0.059230454163711185,
+      0.06016690894505769,
+      0.06016690894505769,
+      0.059230454163711185,
+      0.05751094804962439,
+      0.055315197500009655,
+      0.05310341286068557,
+      0.05148920792607692,
+      0.05123959993921465,
+      0.05327500959173591,
+      0.05866926102388406
+    ],
+    "max_W_difference_201_sample_control": 0.0
+  },
+  "controls": {
+    "exact_same_A2_in_printed_coefficient_model": true,
+    "fixed_alignment_A4_breaks_two_magnitudes": true,
+    "both_constructed_populations_positive_normalized": true,
+    "moments_match_constructed_rho": true,
+    "different_populations_same_full_angular_polynomial": true,
+    "known_nonzero_C4_recovers_delta_magnitude": true
+  },
+  "boundaries": [
+    "Chosen rho and mixing ratios are a mathematical witness, not measured 135Pr alignment or a fit to SH26/Lv/Matta.",
+    "The two-root equality is exact only for the five-place printed coefficient model; table rounding is not an experimental CI.",
+    "Nonnegative symmetric distributions need not be Gaussian; this does not show a degeneracy within a fixed Gaussian family.",
+    "Single-photon axial angular distribution only; no polarization, directional gate, detector convolution, confidence level or experimental significance inferred.",
+    "No universal required A4 or Q sensitivity precision follows from this witness."
+  ]
+}

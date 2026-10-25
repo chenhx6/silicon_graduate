@@ -192,3 +192,11 @@ Taras 1971 是 γ 角分布、线偏振和混合比符号一致性的基础方�
 ### 本session后续：AD边际误差箱的完整条件投影
 
 T71-D17-18–20及[[cl35-1763-polarization-population-replay]]“AD边际误差箱：精确分区与原口径边界”保存同source输入的新问题。初open-only结果/脚本/合同与boundary前冻结保留，后以QQ不可约因子根域的精确sign分类补完31点和∞，不由grid称完整。原GoogleScholar新primaryquery失败且无records/body，未将snippet/metadata充原件。此步没有给实验jointCI或归因作者recipe。
+
+## Day22 checkpoint110：混合线P不是纯多极偏振的简单加权
+
+本次只回读/视觉核printed333的两成分AD、338–339的polarization定义与Eq39；原24页完整阅读范围不扩张为本轮新通读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| T71-D22-R110-1 | 相干两multipole的方向强度和偏振分子均为幅度的双线性组合，含线性δ干涉与δ²项；现代boundedP应取相应Stokes分子/强度分母。一般不等于(1−fE2)PpureM1+fE2PpureE2；即使人为去coherence，角向两pure强度不同仍需强度加权分母。源文p=J0/J90不是现代P，需按分析轴约定转换。 | mixed-polarization-and-observable-identity | direct-original-and-task-algebra | printed333Eqs16–19;printed338Eqs33–35;printed339Eq39 | true |

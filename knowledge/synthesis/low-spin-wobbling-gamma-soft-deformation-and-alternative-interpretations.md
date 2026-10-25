@@ -3,7 +3,7 @@ type: synthesis
 title: "Low-spin wobbling, gamma-soft deformation, and alternative interpretations"
 aliases: [低自旋 wobbling 与 gamma-soft 替代解释综合, wobbling gamma-soft TiP IBFM research map]
 created: 2026-07-06
-updated: 2026-07-16
+updated: 2026-10-25
 status: active
 review_status: human-reviewed
 scope: low-spin-wobbling-gamma-soft-tip-ibfm-cross-project
@@ -16,6 +16,10 @@ tags: [low-spin-wobbling, gamma-softness, tilted-precession, ibfm, evidence-map,
 ---
 
 # Low-Spin Wobbling、γ-Soft Deformation 与替代解释
+
+## Agent active summary — Day22
+
+当前复用Day22纠错段及各project逐线表；135Pr/187Au的观测冲突、理论定义和模型输入分开。[[guo-2022-low-spin-wobbling-187au]] GU22-D22-R094-1定位P/δ身份；[[nomura-2022-questioning-wobbling-ibfm]] NOM22-D22-R104-1保留IBFM例外和作者open边界，不作全核区TiP/M1改判。 本段是Codex self-audit导航，新增内容needs_review: true，不扩张原有human-reviewed范围，也不替代source locator。
 
 ## Question and Scope
 
@@ -222,3 +226,43 @@ Deferred targeted review items for the 2026-07-15 batch reflection; these are no
 - TiP：[[lawrie-2020-tilted-precession-wobbling]]、[[lv-2021-tilted-precession-135nd]]
 - γ-soft background：[[zamfir-casten-1991-gamma-softness-triaxiality]]、[[nomura-2017-odd-mass-gamma-soft-shape-transitions]]、[[nomura-2021-pairing-triaxial-vibrations-gamma-soft]]、[[babra-2019-deformation-change-136sm]]
 - IBFM alternative：[[nomura-2022-questioning-wobbling-ibfm]]
+
+
+## Day22 thematic REFLECT：争议定义与观测合同校准（checkpoint093）
+
+对Lawrie2020、Chen–Frauendorf2022及Frauendorf2024的定向原件比较，修订旧Day22“五重硬门/全区终审”。三篇共享既有实验与部分模型谱系，不增加独立实验份数。旧LSW-GSAI-SYN-11/12的通用偏振数值、唯一基准、11倍寿命塌缩和全正常形变失败结论不再使用。
+
+| 比较层 | 可共同确认的内容 | 实际分歧与限制 | 下一项区分性检验 |
+|---|---|---|---|
+| 模式定义 | 三轴旋转可用进动几何理解 | Lawrie以受限谐声子近似使用wobbling，CF22将其用于可非谐的完整PTR拓扑 | 先声明要检验的含义，不能以术语替代观测 |
+| 近似有效域 | 正曲率、小角域与有限spin均要核 | 指定HFA参数的f不小不自动否定完整量子拓扑；共同比例改惯量不改变f | 对固定Hamiltonian比较有限空间/截断效应与未定标的能量、矩阵元 |
+| 电磁观测 | 相对B、绝对B、δ份额及响应是不同对象 | M1占优的两准粒子原文仍支持TW；大E2也不是谐声子唯一指纹 | 用另一干净支路或寿命检验独立预测，不共用单点定标冒充验证 |
+| 图像与来源 | SCS/SSS是同一密度矩阵的表示 | 模型图不直接测真实进动锥；换图像不新增实验 | 保留轴、相位、归一测度和原始模型输入 |
+
+| ID | Claim | Source basis | Boundary | needs_review |
+|---|---|---|---|---|
+| LSW-GSAI-SYN-11 | checkpoint093校准：偏振符号/某个P中心值不作跨核通用选解门；需要实际响应和联合观测。OD01只报告electric性质而没有打印P正负，不能补写其符号。 | [[odegard-2001-evidence-wobbling-163lu]] OD01-D22-R092-1 | 不恢复旧0.0443通用数值或统一3σ硬门。 | true |
+| LSW-GSAI-SYN-12 | checkpoint093撤回旧全图谱终审：两准粒子136Nd的原文相对B和单点模型定标仍支持作者TW解释，本篇未报告旧任务所称DSAM11倍塌缩；本批没有证明全核区唯一或所有正常形变失败。 | [[lv-2022-transverse-wobbling-136nd]] LV22-D22-R091-1；LV22-D22-R091-2 | 候选及限制同时保留，不据原作者解释反向称无争议确证。 | true |
+| LSW-GSAI-SYN-13 | Lawrie的谐声子近似与CF22的完整非谐拓扑是不同检验对象；源文有明确相互回应，应并列定义和参数域后比较物理预测。 | [[lawrie-2020-tilted-precession-wobbling]] LAW20-D22-R093-1；[[chen-2022-study-wobbling-spin-coherent-state-maps]] CF22-D22-R093-1 | 这不能消除独立实验δ冲突，也不唯一识别TiP/γ振动/交叉机制。 | true |
+
+下一可证伪问题：在同一实验逐线身份及响应/误差输入下，两种具体模型在未用来定标的相邻带退激矩阵元上能否给出可区分预测？定义层重命名不改变相同Hamiltonian/算符的数值输出；参数、空间或近似不同才需要数据裁决。
+
+## Day22 checkpoint104：竞争模型比较需保留完整观测向量
+
+[[nomura-2022-questioning-wobbling-ibfm]] NOM22-D22-R104-1–3保留反方模型的可检验输出与失败域：127Xe低spinM1接近零可给大δ；105Pd模型δ偏小与Timár联合DCO/P相冲突，作者没有用新实验统一它。E2大份额可因M1弱而产生，不能单凭δ大小证明绝对集体性；这不等于没有实质E2支持。
+
+固定状态/E2的条件敏感性若将整个M1算符（boson与fermion一起）乘η，δ→δ/η、rM1→η²rM1、rE2不动。以1034δ校准η≈.3552会让IBFM三个δ接近Timár值，但保留原rE2差异，故只拟合一个比值不证明整个矩阵元向量。该假设不是作者的新IBFM计算，不给实际modelerror或统计显著性。
+
+原实验数值也须逐项回链：NomuraTableII的105Pd994rM1误差±.057与TimárTableI的±.016不一致。先锁定数据版本、带匹配、算符和校准角色，再比较额外观测，不把二手表或近能量拟合当最终裁决。needs_review: true。
+
+## Day22 checkpoint105：wobbling–scissors耦合不同于磁转动分类
+
+[[frauendorf-2024-wobbling-review]] F24-D22-R105-1–3核review的QRPA说明及图量：Fig35纵轴为绝对B(M1)out，图注称比值，引用前须先锁定量。LL模型改善频率/M1而不同时解决全部E2；不能据一项M1淬火宣布模型已完整复现实验。
+
+| 对象 | 被讨论的自由度 | 本轮可用出处与边界 |
+|---|---|---|
+| wobbling的集体取向 | 核密度/总角动量相对进动 | F24的模型/表征，实际识别仍看多观测向量 |
+| scissors耦合 | 质子/中子轨道角动量的isovector相对振动，可重新分配低能M1强度 | F24-R105的QRPA解释，不是单一geff数值证明 |
+| 磁转动shears | 高j价质子/中子叶片随spin闭合，alignment可重开 | [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] AG07-D22-R098-1的实验/模型分层，不能从wobbling中M1受抑直接归为shears |
+
+105Pd的geff=.36是TI19明确的算符定标；不能因为数值能压低M1就称本核已独立探测scissors，亦不把IBFM缺项和QRPA的LL自动当同一实现。Ref67公开accepted稿已只读核，尚未正式raw/source摄入；F24转述的164Yb与原稿162Yb/系统学条件差异保持needs_review: true。

@@ -205,3 +205,12 @@ P0: do not describe the 751-keV link as E2-dominant.
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | LV22-D20-R140-1 | checkpoint146撤回旧认证；不据此恢复错误表值、跨态强度阶梯、硬阈值或完全闭合。请使用本页较早原件纠错与checkpoint146。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## Day22 checkpoint091 直接原件纠错
+
+本次读本地8页PDF（含自归档封面），核主文034302-1–7；视觉核034302-4的δ/比值和034302-5的模型定标。SHA256 c5c8a30fe8450372d97dd09fd004a4ff9c1e4427bc837ee7aa157c3da07d9d69。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV22-D22-R091-1 | 唯一可作联合P–Rac的751 keV 17+→16+线给δ=−0.48(+.13/−.14)，约19% E2；同母态相对比rM1=.61(.29)、rE2=.36(.17)。本篇没有报告这对L1/L3带的DSAM寿命或17→18处B(E2)从.44降至.04 e²b²；不能归给本篇11倍绝对强度塌缩。 | experimental-result-and-report-scope | direct-original | 034302-3–5, Secs.II–IV, Figs.3–5 | true |
+| LV22-D22-R091-2 | 作者把M1占优解释为两高j准粒子使M1矩阵元较大，仍支持两准粒子横向wobbling；E2二阶算符参数由唯一rE2点固定，geff/Q由该线δ拟合。模型符合支持其解释，但共享单点定标不能计作独立实验或无参验证。 | author-interpretation-and-model-dependency | direct-original | 034302-4, text following Fig.3; 034302-5, Fig.5 discussion and Summary | true |

@@ -106,3 +106,34 @@ arXiv:2405.02747v1，dated 2024-05-07，共 26 页。Zotero 记录日期与 arXi
 ## Personal Notes
 
 此文适合作为索引和术语地图；任何具体核素结论都应继续回到原始实验论文。
+
+## Day22 checkpoint093：定义、有效域与表示的定向原件比较
+
+本轮只定向查26页review的Fig.35/39引用背景、PDF p.14 Eqs.(26)–(27)与p.26结论；视觉核p.14的SSS公式。不将review的再引用算新实验，未读取其全部参考。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F24-D22-R093-1 | 本文SSS表示按P(φ)=ΣKK′exp[−i(K−K′)φ]ρKK′/(2π)定义，由均匀K振幅的局域态(2I+1)^−1/2ΣK|IIK⟩绕3轴旋转生成。它是有限密度矩阵的一维角表示，不是以某个Bogoliubov r替代定义的惯量压缩本征态。较窄基底宽度不能直接当成测得的核γ刚度。 | method-definition-and-inference-boundary | direct-original-and-bounded-comparison | PDF p.14, Eqs.(26)–(27), Fig.24 and adjacent text | true |
+| F24-D22-R093-2 | 结论将TPSM中高j准粒子情况下的wobbling与无该准粒子的γ-soft偶偶邻核性质并存视为可解释现象。这是模型/review判断，但已足以要求保留“邻核低spin γ-soft不自动排除奇A某spin模式”的迁移边界，不能由单个S(4)符号推出零恢复力。 | review-interpretation-and-transfer-boundary | direct-original-and-bounded-comparison | PDF p.26, first two paragraphs | true |
+
+## Day22 checkpoint105：QRPA/scissors的量身份与公开伴随核验
+
+本轮定向核现有raw PDF20–22，视觉核p21Figs34/35；另在公开CHORUS accepted manuscript中只读核Ref67（DOI10.1103/PhysRevC.92.064306），身份/版本/范围见outputs/literature-acquisition/20261025-day22-qrpa2015-public-readonly-audit.json。该新文件仅public staging，未正式建立新source摄入或写raw；不得称已归档VoR。现有本review原reading/review不升级。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F24-D22-R105-1 | Fig35的纵轴标B(M1)out、单位μN²，而图注/邻文写B(M1)out/B(E2)in比值，量身份有不一致；不能直接把该图点当μN²/(e²b²)比值。公开Ref67acceptedPDF12Fig13图注也标绝对B(M1)out，支持先按原图量读取；本文不据此推全书绘图错误或重算原实验。 | plotted-observable-identity | direct-review-and-public-readonly-crosscheck | reviewPDF21Fig35ordinate/caption;Ref67acceptedPDF12Fig13 | true |
+| F24-D22-R105-2 | Review讨论在QRPA加LL current-current interaction将wobbling与isovector scissors耦合：质子/中子系统反相进动，wobbling能量上移、M1低能出口受抑，E2比变化较小。这是作者引用的模型结果，不是新实验发现、所有核通用g淬火或弱M1即可确证wobbling。scissors集体相对振动与磁转动shears高j叶片随spin闭合不是相同物理对象。 | model-mechanism-and-transfer-boundary | direct-review | reviewPDF21Figs34/35andLLparagraph;PDF22scissorsdiscussion | true |
+| F24-D22-R105-3 | Review的LL段把邻核写164Yb；Ref67公开acceptedPDF11/13却写162Yb，并说明无该核1+谱直接数据、以总M1系统学比较。此为转述对象/独立性需保留的差异，不把review叙述改报成已测该邻核scissors验证。原论文目前仅公开只读伴随，raw归档/正式新source摄入deferred；模型参数/原QRPA代码未重跑。 | citation-lineage-and-independence-audit | direct-review-and-provisional-public-crosscheck | reviewPDF21LLparagraph;Ref67acceptedPDF11neighborparagraph/PDF13conclusion | true |
+
+## Day22 checkpoint107：TPSM图的“suppressed”须指定比较量
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F24-D22-R107-1 | Fig37绿线标TSD3→TSD2、蓝线标TSD3→TSD1；前者非零且与TSD2→TSD1相对比可比，后者较弱。邻文的“n=2→1 suppressed”不能误读成该通道为零/严格禁戒；它可能是相对谐标度的语句，需先指定分母/比较量。Chapter12原稿Fig8/9与正文强调绝对TSD3→TSD2增强，不据一句话宣布TPSM已排除多声子。两图复用同一模型/资料谱系不增加独立实验，原spin轴/逐点输入未重建。 | figure-text-and-normalizer-boundary | direct-two-existing-originals | ReviewPDF22Fig37/text;SHJ24PDF15Figs8/9andPDF16–17discussion | true |
+
+## Day22 checkpoint108：γ-soft与TPSM比较的真实层级
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F24-D22-R108-1 | Review以TPSM同一输入再现134Ce的even-I-down交错和135Pr的wobbling趋势，主张配置混合可包含γ涨落；并比较phenomenologicalsoftcore/IBFM所得Ewob上升而与所采实验下降不同。后者精确IBFM能量由Nomura私人通信提供，非本任务公开producer重算。此为作者的模型比较/解释，不能将固定basisγ当绝对刚性或把γ-soft芯普适排除wobbling；也不是独立实验已裁决冲突δ。关于core–particle Pauli“not ensured”的批评须与NOM22实际exchange处理一起读，不改报所有模型完全无Pauli。 | competing-model-and-softness-boundary | direct-review-and-cross-sourcecomparison | ReviewPDF24–25Figs44/45andTPSMparagraph;NOM22PDF3–4Eq5/exchangeparagraph | true |

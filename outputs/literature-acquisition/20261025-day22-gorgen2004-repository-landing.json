@@ -1,0 +1,14 @@
+{
+  "queried_at": "2026-10-25T04:03:53.471478+00:00",
+  "scope": "canonicalpublicrepositorylandingmetadata,nologin/challengehandling",
+  "url": "https://escholarship.org/uc/item/5fv6f0xv",
+  "prior_cloudfront_status": 403,
+  "OSTI_prior_query": "connectionrefused;scriptterminatedbeforewritingitsrecord",
+  "http": 202,
+  "final_url": "https://escholarship.org/uc/item/5fv6f0xv",
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 0,
+  "pdf_metadata": [],
+  "pdf_links": [],
+  "title": []
+}

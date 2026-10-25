@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-10-25T14:11:06.327994+08:00",
+  "scope": "Same already-open mandatory Day22 sources; original PDFs SHA-verified, full mainline text reread and specified visual rechecks; no new source/card/download/raw edit.",
+  "sources": [
+    {
+      "path": "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "sha256": "36794ee1308adc1b34206ccdbf62353d6e79b3b485979e78709fd31efe5f57e3",
+      "text_pages": "014322-1–12 all mainline, appendix and references",
+      "fresh_visual_pages": [
+        "014322-6 Eqs11–24"
+      ],
+      "atomic_locators": [
+        "F14-D22-R091-1",
+        "F14-D22-R091-2",
+        "F14-D22-R092-1"
+      ],
+      "decision": "verified-no-new-scientific-delta; current corrections and literal ambiguities retained; no producer or external reference acquisition"
+    },
+    {
+      "path": "knowledge/sources/hamamoto-2003-quantized-wobbling-excitations-alignments.md",
+      "sha256": "47e9858d2cd772b8383179a14fc8df196f93e08f557e8fdb856a98ef5e1170b9",
+      "text_pages": "014319-1–5 all mainline and references",
+      "fresh_visual_pages": [
+        "014319-3 Eq14/parameter route",
+        "014319-4 Figs2–4/Delta-n≈2 paragraph"
+      ],
+      "atomic_locators": [
+        "H03-D22-002",
+        "H03-D22-003",
+        "H03-D22-R091-1"
+      ],
+      "decision": "verified-no-new-scientific-delta; gamma/model inference and nonharmonic boundaries retained"
+    }
+  ]
+}

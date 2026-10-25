@@ -3,7 +3,7 @@ type: synthesis
 title: "High-spin angular distributions, polarization and mixing-ratio evidence"
 aliases: [高自旋角分布偏振混合比证据综合]
 created: 2026-09-21
-updated: 2026-10-20
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 scope: high-spin-angular-polarization-mixing-ratio
@@ -16,6 +16,8 @@ tags: [high-spin, angular-distribution, polarization, mixing-ratio, evidence-map
 
 
 ## Agent active summary
+
+Day22补核见checkpoint096及110–118：已知取向的A4条件识别力与未知响应的歧义须并列；[[yamazaki-1967-aligned-angular-coefficients]] YA67-D22-R096-1与[[miller-2007-sega-polarization]] MI07-D22-R115-1分别绑定该数学/计数前提。选解、正号检验、功效和真实机时不是同一结论，新增内容保持needs_review: true。
 
 Day16把DCO/δ判断落实为同一个跃迁、门、相位、取向、响应和联合误差对象。178W实际双候选与本run条件反演分层；两条件根的偏振同号，符号不足以选根。Rh99实际AD/P在允许任意非负对称布居的模型域内仍有两种EM族条件解，独立取向条件才改变可识别性。199Tl的粗网格漏解及完整混合比域的偏振重叠，又限制了局部扫描和固定点companion的排除能力。
 
@@ -224,3 +226,24 @@ p(a,G)=\operatorname{Tr}(E_GK_a\rho K_a^\dagger).
 [[taras-1971-phase-defined-polarization-formulas]] T71-D17-9–15与[[cl35-1763-polarization-population-replay]]给出35Cl1763的具体反向检验：指定J5/2→3/2、sourcephase/two-multipole和centralAD/P后，M1E2正根+2.6833的foldedq全非负，另三中央候选各失败。它与Rh99/D66多解witness并不冲突，后者有各自观测、J/布居域/门和response。不能把“保多解”误写成任何实际数据都不能选根，也不能把本例成功外推成Psign总能判EM/δ/Jπ。
 
 此处支持的是原source的中央代数链，源1969/T71同data不独立；printed误差bands/actualΣ/finitecounter和全7/2族缺口保留，未晋升本任务新实验结论。
+
+## Day22 checkpoint096：A4能否选根取决于取向和响应
+
+[[yamazaki-1967-aligned-angular-coefficients]] YA67-D22-R096-1/2给出本节的原式、表值与任务条件推导。实数M1/E2、已知Iπ和轴对称单γ模型下：
+
+`A2=ρ2 [F2(11)+2δ F2(12)+δ²F2(22)]/(1+δ²)`；
+`A4=C4 δ²/(1+δ²)`，`C4=ρ4 F4(22)`。
+
+对已知非零C4，令x=A4/C4。若0≤x<1，则`|δ|=sqrt[x/(1−x)]`；x=1是纯E2极限。已知ρ2且ρ2F2(12)非零时，A2的干涉项可再区别±δ。有限角响应/有方向门须放入相应观测模型，不能直接用本理想式。低A4精度、C4近零和取向未知会削弱该信息，但不存在跨实验固定的A4=.015、σA4=.04或σQ/Q=5%普适门限。
+
+只有一个A2约束时，清分母一般为二次方程；它可以有零/一/二个实根、重复或退化形式，并不保证恰有大模/小模各一个。已知取向时可靠A4能打破该歧义，这与[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D22-R095-1的条件AD论证相容。是否在真实实验成立还需完整误差与取向检验。
+
+当ρ2/ρ4独立未知时，单γ完整角分布也可能有精确歧义。令`G2(δ)`为上式括号的归一辐射因子、`f(δ)=δ²/(1+δ²)`；对非零G2/f，改变`ρ2b=ρ2a G2a/G2b`、`ρ4b=ρ4a fa/fb`即可保持A2/A4。物理布居不能任意指定，但由Eq1正交张量t2/t4构造`P_m=[1+ρ2 t2(m)+ρ4 t4(m)]/(2I+1)`，足够小的非零张量保证所有概率为正，提供存在性证明。
+
+数值控制用原表17/2→15/2的五位系数、人工ρ2=−.02/ρ4=.02：δa=−1.4与δb=−.5640849有相同A2=−.0199138；固定取向时A4=.00651713/.00237576而不同。第二组ρ4=.05486356则使两套全部角分布一致，最小布居均大于.05，六项正性/归一/张量与多项式控制通过。这不是拟合Matta、Lv或SH26，也不证明Gaussian取向族内的两谷等深，不含偏振测量或χ²置信度。
+
+撤回旧“任意负δ都正P”“只有偏振可选根”“固定σ精度/相关阈值即认证”的Day22追加；135Pr实测逐线P/δ回到[[lv-2022-evidence-against-wobbling-135pr]] L22-D22-R095-1，A与P需a/Q和同一线身份。needs_review: true。
+
+## Day22 checkpoint110：225.8keV设计不能由P正号直接裁模式
+
+[[lv-2019-chirality-135nd-reexamined]] LV19-D22-R110-1–3与[[taras-1971-phase-defined-polarization-formulas]] T71-D22-R110-1撤回继承的16.3/45.3h和positiveP排他认证：δ/率/响应未实测，纯P简单加权遗漏相干项与角强度分母，663selectedcounts的“两均值分离”也不等“正号3σ”。[[day21-135nd-same-input-falsification-design]]已收缩为共母态/校准/Θ/功效输入清单，仍provisional。不同数组合、Q值、背景和门接受须在具体实验中验证；不以源页校准设计冒充实测结果或新的beamtime承诺。needs_review: true。

@@ -1,0 +1,170 @@
+{
+  "queried_at": "2026-10-25T03:55:40.206113+00:00",
+  "doi": "10.1103/PhysRevC.69.031301",
+  "http": 200,
+  "scope": "metadataonly,noexperimentalclaimyet",
+  "record": {
+    "title": [
+      "Quadrupole moments of wobbling excitations in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mmultiscripts><mml:mi mathvariant=\"normal\">Lu</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>163</mml:mn></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math>"
+    ],
+    "author": [
+      {
+        "given": "A.",
+        "family": "Görgen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "R. M.",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Cromaz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Fallon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "G. B.",
+        "family": "Hagemann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Hübel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "I. Y.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A. O.",
+        "family": "Macchiavelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Sletten",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Ward",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Bengtsson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          3,
+          4
+        ]
+      ]
+    },
+    "publisher": "American Physical Society (APS)",
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.69.031301",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.69.031301/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "URL": "https://doi.org/10.1103/physrevc.69.031301"
+  }
+}

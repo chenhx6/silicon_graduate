@@ -1,0 +1,141 @@
+{
+  "scope": "taskdefinedsingle-j+coremagneticoperatorcontrol,notF14newdata",
+  "operator": "mu/muN=gR*R+gj*j=gR*I+(gj−gR)*j;hbar=1",
+  "identity": "gI=gR+(gj−gR)<I dotj>/[I(I+1)]",
+  "inverse": "<R²>=I(I+1)+j(j+1)−2I(I+1)(gI−gR)/(gj−gR),ifgj!=gR",
+  "rows": [
+    {
+      "R": 0,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "6/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "6/5",
+      "g_from_scalar_identity": "6/5",
+      "R_Rplus1_from_inverse": "0"
+    },
+    {
+      "R": 2,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "6/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "162/143",
+      "g_from_scalar_identity": "162/143",
+      "R_Rplus1_from_inverse": "6"
+    },
+    {
+      "R": 4,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "6/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "698/715",
+      "g_from_scalar_identity": "698/715",
+      "R_Rplus1_from_inverse": "20"
+    },
+    {
+      "R": 0,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "-2/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "-2/5",
+      "g_from_scalar_identity": "-2/5",
+      "R_Rplus1_from_inverse": "0"
+    },
+    {
+      "R": 2,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "-2/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "-238/715",
+      "g_from_scalar_identity": "-238/715",
+      "R_Rplus1_from_inverse": "6"
+    },
+    {
+      "R": 4,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "-2/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "-126/715",
+      "g_from_scalar_identity": "-126/715",
+      "R_Rplus1_from_inverse": "20"
+    },
+    {
+      "R": 0,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "2/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "2/5",
+      "g_from_scalar_identity": "2/5",
+      "R_Rplus1_from_inverse": null
+    },
+    {
+      "R": 2,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "2/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "2/5",
+      "g_from_scalar_identity": "2/5",
+      "R_Rplus1_from_inverse": null
+    },
+    {
+      "R": 4,
+      "j": "11/2",
+      "I": "11/2",
+      "gj": "2/5",
+      "gR": "2/5",
+      "sumCGsquared": "1",
+      "g_from_CG_squared": "2/5",
+      "g_from_scalar_identity": "2/5",
+      "R_Rplus1_from_inverse": null
+    }
+  ],
+  "mixture_witness": {
+    "R_basis": [
+      0,
+      2,
+      4
+    ],
+    "weights_a": [
+      "1/2",
+      "1/2",
+      "0"
+    ],
+    "weights_b": [
+      "17/20",
+      "0",
+      "3/20"
+    ],
+    "same_g": "834/715",
+    "mean_Rsquared": "3",
+    "R_effective_moment_proxy": 1.3027756377319946
+  },
+  "controls": {
+    "all_exact_CG_probabilities_normalized": true,
+    "CG_magnetic_expectation_equals_scalar_identity_exactly": true,
+    "inverse_recovers_exact_R_Rplus1_when_gcontrast_nonzero": true,
+    "equal_gj_gR_gives_no_R_inversion": true,
+    "different_R_distributions_same_g_and_mean_Rsquared": true
+  },
+  "boundaries": [
+    "I=j=11/2andgvaluesarechosenrationalmodelinputs,notmeasurednuclearvalues.",
+    "AscalarmeanR²doesnotidentifyitsdistributionorbody-frameangularmomentumgeometry.",
+    "One-jspaceandgR/gjmustbejustified;orbitalmixing/corepolarizationoreffectiveoperatorsmayinvalidatethisinversion.",
+    "DynamicalinterbandM1quenchingcalibrationisnotautomaticallyastatic-goperatorcalibration.",
+    "NoTW/LW/chiralitymodeoractualfield/lifetime/CIinferred."
+  ]
+}
