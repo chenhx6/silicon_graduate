@@ -3,7 +3,7 @@ type: concept
 title: 核手征性
 aliases: [nuclear chirality, nuclear rotational chirality, 核转动手征性]
 created: 2026-07-13
-updated: 2026-08-11
+updated: 2026-10-26
 status: active
 review_status: unreviewed
 concept_type: rotational-symmetry
@@ -68,3 +68,22 @@ Frauendorf 2001 adds a broader symmetry map: principal-axis, planar TAC and apla
 - 2026-08-11：加入 Xiao 2022 `74As` 五-link candidate 与 fitted-TPRM aplanar/nonideal-neutron geometry 边界。
 - 2026-08-11：加入 Wang 2023 三质量区二级证据地图与 `106Ag` lifetime counterexample；不把 23-nucleus census 计为独立证据。
 - 2026-08-11：加入 Bark 2024 realistic-mixing/planar-component 与 multiple-band mapping boundaries。
+
+## Day23内的Day24无学分预习：反幺正手征操作不等于Kramers双带
+
+本节是Day23原run中的恰好一张下一卡知识预习，**Day24未计正式学分、不开Day25**。来源为[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24P-001与[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D24P-001/002；新增推断needs_review:true，不改变原source人审历史。
+
+在声明的普通spin表示中，K是|I,mz〉基底的复共轭，Ry(π)=exp(−iπJy)，T=Ry(π)K。由于时间反演与普通物理旋转相容，
+
+$$T^2=(-1)^{2I},\quad R_y(\pi)^2=(-1)^{2I},\quad
+C=R_y(\pi)T,\quad C^2=+1.$$
+
+所以C不具半整数T²=−1导致Kramers正交伙伴的前提。这里选y为坐标平面的法向，只定义数学表示，不新指派某个核的中/短/长轴。C保Jx/Jz而反Jy，表达左右反射；真实同I磁子态的简并，也不等于两条不同intrinsic构型的partner bands。
+
+反幺正标签还有phase边界：若Cψ=λψ，ψ→exp(iα)ψ会令λ→exp(−2iα)λ。因此不能把“C=±1”直接当成parity/signature那样的相位不变量子数。源文所说左右构型的对称/反对称组合是选定phase的构造，不能由此把所有实际split bands赋一个额外可测C奇偶。
+
+两态数学模型令|L〉和|R〉由C=σxK互换，H=E0I+tσx，χ=σz。任何实t均保持C，能隙2|t|，非简并本征态有〈χ〉=0但〈χ²〉=1；这说明有限体系对称恢复后signed mean为0，不单独排除intrinsic手征图像。反过来，一个模型非零fluctuation也不证明实际手征。toy中t=.01/1只是dimensionless设计，不是核隧穿matrixelement、能量或误差上限。
+
+同模型的C-even算符O=O0I+O1σx，对localized左右态均有对角O0，对两个stationary eigenstates却为O0±O1。**同一反幺正对称性不强制不同能级的任意标量相等**。若讨论physical g，必须先有实际电磁算符、组态与matrix elements；该toy不填任何g0/g1，更不把g相同/不同做成手征充分/普适排除判据。
+
+新脚本`system/scripts/day24_preview_chiral_antiunitary.py`在I1/2、1、3/2、5/2、4表示及两态toy共59项控制通过，spin矩阵最大误差约2.0e−14。选定Csymmetry非简并spin矩阵只是对“该反幺正代数必强制双重简并”的数学反例，**不是rotationally invariant实验室核Hamiltonian**。验证到这里为止，不给真实核态、三维χ/g数据、Qt CI或机时，也未运行隔离的Day22 producer。

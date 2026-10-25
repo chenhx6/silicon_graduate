@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-10-25T18:20:58.809933+00:00",
+  "decision": "continue original Day23 researchwindow, only Day24 uncredited preview opened",
+  "formal_day_index": 23,
+  "formal_completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "course_next": 23,
+  "Day25_opened": false,
+  "preview_completed_bounded_unit": "FM97/F01 antiunitary/symmetryrestoration 59 mathcontrols, no actualnuclearstates/g/CI",
+  "next_preview_route": {
+    "card24": "partner-resolved experimental vsTAC/RPA map, actualMU07strength/energy/modeldependencies",
+    "known_scope": "MU07 alreadyfullyread inearlierruns withTableI/Qtproxy/225.8exclusioncorrections; no mechanicalrepetition or revival. FM97 sourceconditional vsrealdata remain distinct.",
+    "specific_gap": "MU07TableI lackslineenergy/finalspin, Fig2/3out/inpointidentity/parentbudget remainsunresolved; consider currentIAEA135Ndgammas/levels for endpoint/fieldreadiness, NOT newmeasurement or2007producerproof",
+    "sources": [
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md"
+    ],
+    "boundaries": [
+      "adoptedevaluationtime/notes maynotrecover2007branchassignment",
+      "do notusetheAPI asindependentgammaacquisition",
+      "no actualdelta/tau/CI/g/ratebeamtime fabricated",
+      "onlyDay24 preview, no fullDay25card/credit"
+    ]
+  },
+  "other_current_routes": "originalPr/Au response/EMoperator/erratuminputs stillmissing, notinvented; originalGarg2019 currentPDF403 kept"
+}

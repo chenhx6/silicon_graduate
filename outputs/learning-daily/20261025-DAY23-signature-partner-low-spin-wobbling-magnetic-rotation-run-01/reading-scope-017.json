@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-25T18:17:02.717546+00:00",
+  "formal_day_index": 23,
+  "uncredited_preview": 24,
+  "Day25_opened": false,
+  "FM97": {
+    "actual_read": "journalprinted138–142/PDF8–12, Sec3.1signature/planar/aplanar/Figs5–6+finitePRM tunnelling",
+    "sha256": "9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2",
+    "hash_matches": true,
+    "fresh_rendered": [
+      8,
+      9,
+      11,
+      12
+    ],
+    "not_full17page_reread": true
+  },
+  "F01": {
+    "actual_read": "printed474/476/PDF12/14 symmetry/T Ry(pi) targeted",
+    "fresh_visual": "printed476/PDF14",
+    "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+    "hash_matches": true,
+    "not_full52page_reread": true
+  },
+  "mathematical_scope": "ordinaryspinrepresentationandtwoleveltoy, notactualnuclearH/g/chi",
+  "review": "newneeds_reviewtrue; oldhumanreviewflagsunchanged"
+}

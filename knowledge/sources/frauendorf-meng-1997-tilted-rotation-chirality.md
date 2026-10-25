@@ -3,7 +3,7 @@ type: source
 title: "Tilted rotation of triaxial nuclei"
 aliases: []
 created: 2026-07-01
-updated: 2026-09-20
+updated: 2026-10-26
 status: active
 review_status: human-reviewed
 source_type: journal-article-theory
@@ -116,3 +116,13 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 | FM97-D21-R50-1 | 摘要明确aplanar解对应same-parity双带；正文第141页强调该手征对称性破缺中parity仍为好量子数，并与相反宇称的parity doubling区分。因此对本文这一普通转动手征双带构造，可靠确定候选两带相反宇称会否定这对具体伙伴的身份前提，而非仅产生一个强度偏差。它不排除其它同宇称配对或更复杂模式。 | model-symmetry-and-bounded-identity-test | direct-original-and-explicit-task-inference | printed p.141 parity-doubling paragraph | true |
 
 本结论用于[[day21-135nd-same-input-falsification-design]]的身份层反证，不把本理论模型当135Nd新实验或重新给其它核的模式认证。实际raw SHA256 `9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2`匹配原记录；本轮没有改变source的原人工审核状态。
+
+## Day23内的Day24无学分预习：intrinsic对称性与量子双带
+
+本次定向读期刊printed138–142（PDF8–12）Sec3.1/Figs5–6与PRM splitting，已核17页raw SHA9dc81b3147a786189dd0c2f31d79a56e9bb5d83e16fd0c8137bccaf2a43d81e2；fresh渲染PDF8/9/11/12供本轮关键段核对。不是重读全部17页，原人审FM97-1–6及page flags保持。新增仅needs_review:true的无学分预习。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| FM97-D24P-001 | Sec3.1把PAC的I=α+2n序列、planar TAC的相反signature组合成一条ΔI1，以及aplanar的两组intrinsic handedness分别组织；printed141–142明确finitePRM同I态仍有splitting，归因左右态之间tunnelling。因此普通signature序列、intrinsic meanfield双解和量子partner bands不是同一个“伙伴”定义，TAC的理想degeneracy不能直接认证实测两带精确简并。 | direct-model-symmetry-and-quantum-restoration-boundary | direct-original-and-bounded-inference | printed138–142 Sec.3.1, Figs.5–6 and finalPRM paragraph | true |
+
+与[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D24P-001/002配合：C²=+1及两态toy仅检查逻辑，不代本文原PRM。未增加新实验、MχD/shape-coexistence卡内容或Day24课程信用；不恢复旧Qt代理CI/225.8偏振符号/机时排他认证。

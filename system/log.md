@@ -4407,3 +4407,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T01:49:12.740572+08:00 Day23 checkpoint015：idealazimuth低阶moments与selectedpair权重合同，24数学控制/truewriteback通过；限制pointgate外推，实际response仍缺。继续本卡AMR原件，不收束/授分/Day24。Git指针main · Day23: bound gate averaging with azimuth moments；actualH3/hash仅receipt。
 
 2026-10-26T02:03:48.384635+08:00 Day23 checkpoint016：外部Zhao2011 AMR原模型/图/限制核阅，densitypolarization/changedH/同源寿命边界写回，正式raw归档deferred；原实验body缺不造数。true23changedwriteback与检查通过，继续同卡MR/Pr、未授分/Day24。Git指针main · Day23: separate AMR model support from reused lifetime data；actualH3/hash仅任务receipt。
+
+2026-10-26T02:20:58.809933+08:00 Day23 checkpoint017：按原窗口门打开恰好Day24无学分preview，partial[23,24]/next23；FM97/F01对称性原件与59antiunitary/twolevel数学控制通过。仅逻辑边界无新核态/g/CI，继续原15:00研究窗口、不开Day25。Git指针main · Day23: preview chiral antiunitary partner boundaries；actualH3/hash仅任务回执。

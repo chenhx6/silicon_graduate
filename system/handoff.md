@@ -3,15 +3,15 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint016（持续研究）
+## Active handoff — Day23 checkpoint017（持续研究，Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25、goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。raw/PLAN/Bib/旧flags/credit/114隔离producer边界保持。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698。completed=[] partial=[23,24] next23；新原receipt不变，Day24恰好一张无学分preview/不开Day25，本run正式信用只Day23。仍约12.5h继续，不提前收束。保护raw/PLAN/Bib/人审/旧credit/114隔离producer。
 
-016取得Zhao2011 AMR105Cd arxiv1105.3622v2完整10页并读/核Fig1–4/Eq1/限制（tmp公开staging，正式raw/source摄入deferred）；外部原模型/provisional条目KU25-D23-001–003明示存Kumar源/AMR概念/方法，不冒充综述实验。PC-PK1/2DTAC/N10/无pairing，双剪刀闭合与neutronmixing/β.2→.14共同，polarization为density重排不是gammaP；冻结107Sn势ablation改H/selfcons，不是只改configuration。2011图点复用2010寿命，非新增采集。Simons2003/2005/Choudhury2010/2013Comment原body未得，401/403/timeout/metadata证据不当负实验；external-access016保实际结果，无凭据/绕过。
+017候选池重建后Day23数学components有界完成、actualresponse/原body缺；Garg/Lawrie已有原读不机械重复，Garg2019当前PDF403。按>=120min门preview-entry017冻结primedrecall后targetFM97printed138–142与F01printed474/476/visual/hash。新增FM97-D24P-001、F01-D24P-001/002与概念nuclear-chirality，无人审升级。
 
-fresh checks0、true23changed知识writebackvalid，lint0error/220warning；49/100仅条件β²算术不是actualB/Q/τ。Pr/Auactive summary已最小同步。A response实际phase/perpairacceptance/feeding/jointCov与B modelenergy/operator边界仍保、SH26固定sigma支持保；不造新δ/CI/机时。
+新antiunitary脚本59controls过/max2e-14：T²=(−1)2I，C=RyπT的C²=+1不强制Kramersdoubleband；反幺正λ随phase变不作parity/signature±。twoleveltoy meanχ0/fluct1可共存、C-even O不必两eigenstate相等；t/g全dimensionless或symbolic，不是核态/χ/g/CI。actualQtproxyCI和225.8P/机时撤回保持。
 
-候选复核发现Garg原2015已在10-19完整核阅，GA15-4明确82MeVIUAC≠Matta80MeVTIFR，不机械重读；仅2019erratum真实body缺口保持。下一主route转Lawrie2020TiP sharedtheory原件，canonical/raw已找到但本轮未读body，先已有scope/gaps/hash再具体模型/figures/heldout边界。还有约13h有用窗口继续不收束。详next-continuation016/candidate-pool016；Git指针main · Day23: separate AMR model support from reused lifetime data，actualH3/hash仅task-publication-receipt-016.json。
+fresh checks0、true26changed知识writebackvalid、0error/220warning。下一同一个Day24preview聚焦MU07 partner-resolved观测与TAC/RPA：TableI无lineenergy/finalspin、out/in/parentbudget映射缺；可用IAEA135Nd公开gammas/levels做endpoint/fieldreadiness，不当新采集/2007producer或改旧数据，raw仍tmpstaging。详candidate-pool017/next-continuation017。Git指针main · Day23: preview chiral antiunitary partner boundaries；actualH3/hash仅task-publication-receipt-017.json。
 
 ## Previous handoff — Day22 closeout
 

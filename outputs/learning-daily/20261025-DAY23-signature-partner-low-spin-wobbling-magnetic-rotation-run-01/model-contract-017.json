@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-25T18:13:44.316157+00:00",
+  "scope": "Day24 uncredited preview within original Day23 run; pure antiunitary algebra and a declared two-state tunnelling model only",
+  "source_premises": [
+    "Frauendorf2001printed476/PDF14:time-reversal T Ry(pi) reverseschirality, laboratory restoration combinesintrinsicsolutions",
+    "FM97printed138–142/PDF8–12:signatureplanar/aplanar intrinsicmultiplicity and finitePRM tunnelling splitting, not newexperiment"
+  ],
+  "conventions": "ordinary spin J matrices [Jx,Jy]=iJz, |j,mz> ascending; Kcomplexconjugation, R=exp(-i pi Jy), T=R K, C=R T=(R R) K. Coordinatey is selected plane-normal, not a new physicalprincipal-axis assignment.",
+  "predictions": [
+    "T²=(-1)^(2j), R²=(-1)^(2j), C²=+1 for integer/halfinteger, sochiralityoperation alonehasnoKramersguarantee",
+    "CreflectsJy and preservesJx/Jz in thiscoordinate; antiunitaryeigenphase not stable± quantumlabel",
+    "realHermitiancounterexample withCsymmetrymaybenondegenerate, mathematicalnotrotationallynuclearlabH",
+    "two-state |L>,|R>, C=sigmaxK, H=E0I+t sigmax with realt:split2|t|, eigenchi_z0 butchi²1; no nuclear t chosen",
+    "C-even O=g0I+g1sigmax allowsstationaryexpectationsg0±g1 whilelocalizedleft/rightdiagonalbothg0; thisisnotphysicalgmeasurement/prediction"
+  ],
+  "controls": [
+    "spinrotationunitarity andπaction",
+    "T/Cantiunitarysquares usingUU*",
+    "J transformsigns",
+    "coordinateC=phaseK up to(-1)^2j",
+    "twolevelCsym H,chiCodd anddimensionlessOeven",
+    "nonzerooffsett notforced0 andgenericeigenstateCtunnellingreflection zeroorderparameter",
+    "rephasingψ changesC eigenphase byexp(-2i alpha), so ± antiunitarylabel not parity/signature",
+    "Kramersspinhalf Torthogonal vsCsamevectoroverlap",
+    "fixedg/operatorcontrolconditional, no actualphysicalg/tau/delta/rate/time"
+  ],
+  "prohibited": [
+    "C²+1 means realnucleibandsnotchirality",
+    "toy splitting actualenergy",
+    "classicalmeanfieldexactdegenerate guaranteedquantumdoublet",
+    "antiunitary± label treatedparity/signature",
+    "setphysicalgfromdimensionlessO",
+    "restoreQtproxyCI/225.8Psign/beamtime certification",
+    "formalDay24audit/credit orDay25"
+  ]
+}

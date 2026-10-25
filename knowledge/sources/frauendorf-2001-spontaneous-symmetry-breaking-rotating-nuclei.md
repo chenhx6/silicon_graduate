@@ -3,7 +3,7 @@ type: source
 title: "Spontaneous Symmetry Breaking in Rotating Nuclei"
 aliases: [Frauendorf 2001 rotating nuclei review, spontaneous symmetry breaking rotating nuclei]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-10-26
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-review
@@ -137,3 +137,14 @@ All F01 claims were reviewed by the user on 2026-07-13; `needs_review` is cleare
 固定K的exact quantumCG与J=I+.5角桥的semiclassicalcontrol各有合同，未通过“两个Qt数值近”决定真实轴。`supports`operator/axis分层，`limits`同B/同字母Q/渐近式识别形变；原needs_review/人审flags不改，所有新推导未裁核素β/γ/模式或实验CI。
 
 [companion推导前冻结](../../outputs/learning-daily/20261019-DAY17-linear-polarization-paq-compton-run-01/frauendorf2001-e2-companion-before.md)。此处axialtensor自由取向是数学witness，不能作为Chiara实际PAC带的额外自由拟合参数；要检验具体核必须施加其configuration/rotationaxis/branch与response合同。
+
+## Day23内的Day24无学分预习：手征操作与Kramers边界
+
+本次仅定向回核printed474/476（PDF12/14）的对称表与TRy(π)操作，fresh视觉476；52页raw SHA d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172相符，不新称全文重读。原page/旧F01人审flags保持，以下新条目needs_review:true，**不授Day24学分**。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F01-D24P-001 | printed476以TRy(π)含时间反演的操作反转intrinsic handedness，平均场破缺与左右构型的量子恢复分别讨论。本任务以普通spin表示、T=exp(−iπJy)K推得C=Ry(π)T，C²=+1，而T²=(−1)^(2I)。因此该反幺正手征操作本身不强制Kramers简并；真实双带劈裂仍需量子动力学/隧穿、组态与响应证据，不由本推导否定作者的intrinsic双解图像。 | source-symmetry-and-declared-algebra | direct-original-plus-task-derivation | printed476 right-column Sec.II.F.5; task model-contract-017 | true |
+| F01-D24P-002 | 本任务的L/R两态设计取C=σxK、H=E0I+tσx、χ=σz，Csymmetry允许任意实t，劈裂2abs(t)；非简并本征态〈χ〉=0而〈χ²〉=1。C-even维数无关算符O=O0I+O1σx可在两本征态给O0±O1；对称性不自动强制不同本征态的标量相等。这是数学控制，非作者原核态、真实g/隧穿能量或实验判据认证。 | declared-two-state-restoration-and-operator-boundary | conditional-task-math | F01-D24P-001 premises; task chiral-antiunitary-preview-017 | true |
+
+原[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24P-001提供signature/planar/aplanar与finitePRM splitting的具体模型边界。反幺正C的“± eigenvalue”会随核态整体phase改变，不能直接当parity或signature那样的相位不变标签；两态toy额外存在的unitary交换σx也不是所有真实核哈密顿量自动具有的新对称性。

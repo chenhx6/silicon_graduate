@@ -1,0 +1,208 @@
+{
+  "status": "uncredited-Day24-antiunitary-math-preview",
+  "execution_day_index": 23,
+  "formal_credit": false,
+  "source_premises": [
+    "F01 printed476/PDF14 T*Ry(pi) chirality operation",
+    "FM97 printed138–142 intrinsicplanar/aplanar/signature and quantum tunnelling boundary"
+  ],
+  "conventions": "Ordinary spin algebra, |j,mz> basis, K=complex conjugation, R=exp(-i*pi*Jy), T=R*K, C=R*T. Coordinate y selected by convention.",
+  "conclusion": "T^2=(-1)^(2j), but [R_y(pi)T]^2=+1. This chiral antiunitary symmetry alone does not impose Kramers degeneracy or fixed +/- symmetry labels.",
+  "representation_results": [
+    {
+      "two_j": 1,
+      "T_square_phase": -1,
+      "C_square": 1,
+      "matrix_errors": {
+        "R_unitarity": 4.440892098500626e-16,
+        "R_square": 4.440892098500626e-16,
+        "T_antiunitary_square": 4.440892098500626e-16,
+        "C_antiunitary_square": 8.881784197001252e-16,
+        "C_is_phase_times_K": 4.440892098500626e-16,
+        "T_reverses_all_J": 2.220446049250313e-16,
+        "C_reflects_only_Jy": 4.440892098500626e-16
+      },
+      "counterexample_minimum_eigenvalue_gap_dimensionless": 1.0662551289442879,
+      "C_partner_overlap_abs": 0.9999999999999993,
+      "scope": "Representation/algebra counterexample only; no nuclear level, splitting, rotation domain or band assignment."
+    },
+    {
+      "two_j": 2,
+      "T_square_phase": 1,
+      "C_square": 1,
+      "matrix_errors": {
+        "R_unitarity": 4.440892098500626e-16,
+        "R_square": 1.4345124081337613e-15,
+        "T_antiunitary_square": 1.399499491125824e-15,
+        "C_antiunitary_square": 2.7938024948733556e-15,
+        "C_is_phase_times_K": 1.4345124081337613e-15,
+        "T_reverses_all_J": 1.0006645995483232e-15,
+        "C_reflects_only_Jy": 1.975516689420844e-15
+      },
+      "counterexample_minimum_eigenvalue_gap_dimensionless": 1.0662551289442876,
+      "C_partner_overlap_abs": 1.0000000000000004,
+      "scope": "Representation/algebra counterexample only; no nuclear level, splitting, rotation domain or band assignment."
+    },
+    {
+      "two_j": 3,
+      "T_square_phase": -1,
+      "C_square": 1,
+      "matrix_errors": {
+        "R_unitarity": 4.440892098500626e-16,
+        "R_square": 1.2680436447546685e-15,
+        "T_antiunitary_square": 1.4439195171220032e-15,
+        "C_antiunitary_square": 2.5077434468289832e-15,
+        "C_is_phase_times_K": 1.2680436447546685e-15,
+        "T_reverses_all_J": 1.4489243963530997e-15,
+        "C_reflects_only_Jy": 2.8310687127941515e-15
+      },
+      "counterexample_minimum_eigenvalue_gap_dimensionless": 1.0662551289442879,
+      "C_partner_overlap_abs": 1.0000000000000004,
+      "scope": "Representation/algebra counterexample only; no nuclear level, splitting, rotation domain or band assignment."
+    },
+    {
+      "two_j": 5,
+      "T_square_phase": -1,
+      "C_square": 1,
+      "matrix_errors": {
+        "R_unitarity": 1.7763568394002505e-15,
+        "R_square": 3.2063987584346014e-15,
+        "T_antiunitary_square": 3.170203923230974e-15,
+        "C_antiunitary_square": 6.2859032026142204e-15,
+        "C_is_phase_times_K": 3.2063987584346014e-15,
+        "T_reverses_all_J": 4.0249762949727425e-15,
+        "C_reflects_only_Jy": 8.049116928532391e-15
+      },
+      "counterexample_minimum_eigenvalue_gap_dimensionless": 1.0662551289442872,
+      "C_partner_overlap_abs": 1.0000000000000007,
+      "scope": "Representation/algebra counterexample only; no nuclear level, splitting, rotation domain or band assignment."
+    },
+    {
+      "two_j": 8,
+      "T_square_phase": 1,
+      "C_square": 1,
+      "matrix_errors": {
+        "R_unitarity": 1.3322676295501878e-15,
+        "R_square": 4.635156404211837e-15,
+        "T_antiunitary_square": 3.1106442247283428e-15,
+        "C_antiunitary_square": 6.0604257030229415e-15,
+        "C_is_phase_times_K": 4.635156404211837e-15,
+        "T_reverses_all_J": 9.977405287444451e-15,
+        "C_reflects_only_Jy": 1.973421426271218e-14
+      },
+      "counterexample_minimum_eigenvalue_gap_dimensionless": 1.0662551289442863,
+      "C_partner_overlap_abs": 1.0,
+      "scope": "Representation/algebra counterexample only; no nuclear level, splitting, rotation domain or band assignment."
+    }
+  ],
+  "twolevel_design_results": [
+    {
+      "dimensionless_t_design": 0.01,
+      "dimensionless_gap": 0.02,
+      "order_parameter_means": [
+        0.0,
+        0.0
+      ],
+      "order_parameter_squared_means": [
+        0.9999999999999998,
+        0.9999999999999998
+      ],
+      "dimensionless_C_even_operator_means": [
+        -0.9999999999999998,
+        0.9999999999999998
+      ],
+      "physical_g_formula_only": "If a g-like C-even scalar were g0*I+g1*sigma_x, its two means would be g0-g1 and g0+g1; no physical coefficients assigned."
+    },
+    {
+      "dimensionless_t_design": 1.0,
+      "dimensionless_gap": 2.0,
+      "order_parameter_means": [
+        0.0,
+        0.0
+      ],
+      "order_parameter_squared_means": [
+        0.9999999999999998,
+        0.9999999999999998
+      ],
+      "dimensionless_C_even_operator_means": [
+        -0.9999999999999998,
+        0.9999999999999998
+      ],
+      "physical_g_formula_only": "If a g-like C-even scalar were g0*I+g1*sigma_x, its two means would be g0-g1 and g0+g1; no physical coefficients assigned."
+    }
+  ],
+  "controls": {
+    "j2_1_R_unitarity": true,
+    "j2_1_R_square": true,
+    "j2_1_T_antiunitary_square": true,
+    "j2_1_C_antiunitary_square": true,
+    "j2_1_C_is_phase_times_K": true,
+    "j2_1_T_reverses_all_J": true,
+    "j2_1_C_reflects_only_Jy": true,
+    "j2_1_C_symmetric_can_be_nondegenerate": true,
+    "j2_1_antiunitary_eigenphase_is_not_fixed_sign": true,
+    "j2_2_R_unitarity": true,
+    "j2_2_R_square": true,
+    "j2_2_T_antiunitary_square": true,
+    "j2_2_C_antiunitary_square": true,
+    "j2_2_C_is_phase_times_K": true,
+    "j2_2_T_reverses_all_J": true,
+    "j2_2_C_reflects_only_Jy": true,
+    "j2_2_C_symmetric_can_be_nondegenerate": true,
+    "j2_2_antiunitary_eigenphase_is_not_fixed_sign": true,
+    "j2_3_R_unitarity": true,
+    "j2_3_R_square": true,
+    "j2_3_T_antiunitary_square": true,
+    "j2_3_C_antiunitary_square": true,
+    "j2_3_C_is_phase_times_K": true,
+    "j2_3_T_reverses_all_J": true,
+    "j2_3_C_reflects_only_Jy": true,
+    "j2_3_C_symmetric_can_be_nondegenerate": true,
+    "j2_3_antiunitary_eigenphase_is_not_fixed_sign": true,
+    "j2_5_R_unitarity": true,
+    "j2_5_R_square": true,
+    "j2_5_T_antiunitary_square": true,
+    "j2_5_C_antiunitary_square": true,
+    "j2_5_C_is_phase_times_K": true,
+    "j2_5_T_reverses_all_J": true,
+    "j2_5_C_reflects_only_Jy": true,
+    "j2_5_C_symmetric_can_be_nondegenerate": true,
+    "j2_5_antiunitary_eigenphase_is_not_fixed_sign": true,
+    "j2_8_R_unitarity": true,
+    "j2_8_R_square": true,
+    "j2_8_T_antiunitary_square": true,
+    "j2_8_C_antiunitary_square": true,
+    "j2_8_C_is_phase_times_K": true,
+    "j2_8_T_reverses_all_J": true,
+    "j2_8_C_reflects_only_Jy": true,
+    "j2_8_C_symmetric_can_be_nondegenerate": true,
+    "j2_8_antiunitary_eigenphase_is_not_fixed_sign": true,
+    "localized_C_exchanges_L_R": true,
+    "twolevel_C_square_plus1": true,
+    "twolevel_order_parameter_C_odd": true,
+    "twolevel_dimensionless_operator_C_even": true,
+    "t_0.01_Csymmetry_with_nonzero_tunnelling": true,
+    "t_0.01_splitting_twice_abs_t": true,
+    "t_0.01_restored_mean0_fluctuation1": true,
+    "t_0.01_C_even_stationary_values_need_not_equal": true,
+    "t_1.0_Csymmetry_with_nonzero_tunnelling": true,
+    "t_1.0_splitting_twice_abs_t": true,
+    "t_1.0_restored_mean0_fluctuation1": true,
+    "t_1.0_C_even_stationary_values_need_not_equal": true,
+    "spinhalf_Kramers_T_partner_orthogonal": true,
+    "same_vector_chiral_C_partner_not_forced_orthogonal": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day24_preview_chiral_antiunitary.py": "3346df823372a66657537dfe3d048465d1002a8e007ef985ace242ca8d510377",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "No actual nuclear state, spectrum, physical tunnelling strength, g factor, chirality parameter or experimental confidence bound is calculated.",
+    "The C-symmetric spin matrix counterexample is not a rotationally invariant lab nuclear Hamiltonian; it only checks that the antiunitary algebra does not force degeneracy.",
+    "Intrinsic mean-field solutions and laboratory good-spin bands are distinct; ordinary magnetic-substate/Kramers degeneracy is not two distinct partner bands.",
+    "Zero signed order parameter in a finite symmetry-restored eigenstate does not alone disprove intrinsic chirality; a nonzero model fluctuation does not establish it experimentally.",
+    "C-even operator equality is not automatic for different eigenstates. The dimensionless example does not prove an actual measured g difference or establish a universal chirality test.",
+    "Existing Qt-proxy CI and225.8keV P-sign/beamtime exclusions remain withdrawn; no Day24 credit or Day25 preview."
+  ]
+}
