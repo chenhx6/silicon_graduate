@@ -3,17 +3,18 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint005（持续研究）
+## Active handoff — Day23 checkpoint006（持续研究）
 
-run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。nativegoal active/Farmer2698 fresh verified running；completed=[] partial=[23] next23，Day24未打开。Day22只授[22]/H3已核。用户要求原次日15:00后再收束，checkpoint不是日终。
+run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08；nativegoal active/Farmer2698 fresh verified running；completed=[] partial=[23] next23，Day24未打开。Day22只授[22]/H3已核。保持用户“至原次日15:00再收束”要求。
 
-005：Hg187γ595行核parent/daughter/shift/jp/clocks，intensity全空、γ初态τ空；electroncode0是valid/no-data，非观测零/upperlimit。v0/v1γmultiset同、排序不同；12identitycontrols过，GU22-D23-009–011为外部field边界，CSV仅tmp staging，raw归档deferred。
+006：完成 186Pt 核芯参考 B(E2) 与 187Au 参考跃迁定量交叉核验（`day23_core_reference_b_e2_audit.py`，7项控制全过）。核验证实：
+1. IAEA ENSDF 2022 评估给出 186Pt 191.53 keV (2+→0+) 从 T1/2=240 ps 导出的 B(E2)=0.645 e²b² (102 W.u.)，187Au 233.4 keV 从 T1/2=56 ps 导出的 B(E2)=1.194 e²b² (188 W.u.)；
+2. Guo 2022 PLB 所述“100–200 W.u.”是对两核评估采用值的客观包络，与 IAEA ENSDF 数据严格吻合；
+3. Sensharma 2020 PRL 采用 0.84 e²b² (133 W.u.)，而 2021 学位论文采用 1.44 e²b² (228 W.u.)，相差 1.714 倍，且论文存在正宇称笔误（13/2+→9/2+）。核芯定标输入存在 1.71 倍版本偏差，不能作为无先验条件的普适尺度。
 
-SE21定向run/model原文：科学run1/4与S19/SH26指纹，thesisPr合并1.52e10≠SH262.5e10，事件版本/逐图ledger未闭；Au分run舍入总数不倒推peakexposure。thesiscoreBE2 1.44对Letter.84、referenceparity文字不同，同引用须核原评价。完整支持方PRM φj不rigidm/nearbottom仍由作者解释LW；h11/2 γ调40的TW候选不是h9/2争议同pair。SE21-D23-1–5与SH26-D23-3、新S19-D23-4定位，新增全needs_review:true，原review/Day21/22信用不变。
+累计 16 页 writeback，boundary/lint/diff/core_be2 及 true runner 报告/写回门均通过（0error/220warning）。新增 AU20-D23-2 均 needs_review:true。下一路线继续深入检验模型算符与共同输入，不因 checkpoint 收束。详 next-continuation-006 / candidate-pool-006。
 
-累计16页writeback/真实runner门和boundary/lint/diff/12identitychecks通过，0error/220warning。下一优先186Pt原reference评价及算符合同：官方levels/gammas核W.u./up-down/half-mean，Baglin2003若可访问再核，仍不算新实验。Hg字段局部饱和，不重复空electron/失败alphaK访问；继续当前问题，不因checkpoint收束，Day24仅局部饱和后无学分预习，不开Day25。详next-continuation-005/candidate-pool-005。
-
-发布稳定指针main · Day23: audit decay clocks and source-version inputs；精确hash/实际H3只看本run task-publication-receipt-005.json。raw/PLAN/Bib及继承dirty保护，114隔离producer不运行。
+发布稳定指针 main · Day23: cross-audit core reference B(E2) and parameter scaling；精确hash/实际H3只看本run task-publication-receipt-006.json。raw/PLAN/Bib及继承dirty保护，114隔离producer不运行。
 
 ## Previous handoff — Day22 closeout
 

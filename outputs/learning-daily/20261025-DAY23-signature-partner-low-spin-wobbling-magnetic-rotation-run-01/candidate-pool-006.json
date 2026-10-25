@@ -1,0 +1,33 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-25T23:00:34.155164+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 959.4307472666666,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "slot_A": {
+    "delta": "186Pt core reference B(E2) evaluation crosswalk solved: 102 W.u. (0.645 eb2) from T1/2=240 ps confirms Guo 100-200 W.u. bracket; Sensharma 2020 PRL quotes 0.84 eb2 while 2021 thesis quotes 1.44 eb2 (1.714x ratio) for same citation.",
+    "next": [
+      "investigate whether Baglin 2003 or earlier NDS editions reported 0.84 or 1.44 eb2 or if Coulomb excitation up-down conversion was responsible",
+      "audit 187Au adopted level scheme conversion lines if primary tables become available"
+    ],
+    "boundary": "no new conversion experiment asserted; core deformation scaling dependency made explicit"
+  },
+  "slot_B": {
+    "delta": "PRM deformation calibration beta=0.23 is not an independent unconstrained prediction, but was fixed to match core B(E2) references that vary by 1.71x across author publications",
+    "next": [
+      "continue testing configuration holdout observables in 135Pr/187Au with explicit common Hamiltonian contracts",
+      "investigate MR shears closing models vs empirical B(M1) trends across alignments"
+    ],
+    "boundary": "retain needs_review; no fabricated models or artificial parameter fits"
+  },
+  "preview": "Day24 unopened; only one uncredited next-card preview after current useful routes saturate",
+  "stop_reason": null
+}

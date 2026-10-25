@@ -195,3 +195,21 @@ SH26 Fig12是固定σ/I=.2的条件支持；其caption旧refs与SecII combined-d
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-1/2还提示：论文说“合并events”须配科学run号、版本、event selection、ring/eff/live-time weights。thesis Pr1.52e10与SH26 2.5e10无法仅从正文闭合，不能倒减得新增run精确exposure；即使总events一致，也不等目标peak、P散射选样或同一likelihood。Au4.4e8/6.3e8与Letter1.08e9为舍入报告，不据小差判未记录采集。
 
 模型输入也按来源版本冻结：SE21-D23-3/4给Au reference-core B(E2)文字/数值与j几何边界。1.44/.84尚未核同一评价和采用约定前不平均、不默选、不改变负parity；λ同值也不替代完整sp谱/occupancy/EM operators。下一步优先核186Pt原evaluation或两模型实际operator，而不是靠增减任意参数制造匹配。
+
+
+## Day23：186Pt核芯参考B(E2)与定标输入交叉核验
+
+本节为可复现的任务量化核验（程序`system/scripts/day23_core_reference_b_e2_audit.py`，产物`core-reference-be2-006.json`），needs_review: true。
+
+| 量 / 来源 | 能量与寿命输入 | 导出 B(E2) [e²b²] | 导出 W.u. | 来源与对账结论 |
+|---|---|---|---|---|
+| 186Pt 2+→0+ (IAEA 2022/2026) | 191.53 keV, T1/2=240(20) ps, α_tot=0.417 | 0.645(+0.059/-0.050) | 102.3 W.u. (表列 102) | ENSDF 采用值，源自 Batchelder 2022 评估 |
+| 187Au 13/2-→9/2- (IAEA 2008/2026) | 233.4 keV, T1/2=56(5) ps, α_tot=0.224 | 1.194(+0.119/-0.098) | 187.6 W.u. (表列 188) | ENSDF 采用值，源自 Basunia 2009 评估 |
+| Guo 2022 PLB p.3 引用范围 | 引用 Baglin 2003 与 Basunia 2009 | 0.63–1.27 e²b² | 100–200 W.u. | 明确包络了 186Pt (102 W.u.) 与 187Au (188 W.u.) 的采用值 |
+| Sensharma 2020 PRL p.4 | 引用 Baglin 2003 | 0.84 e²b² | 133.2 W.u. | PRM 形变定标所用数值，比 0.645 高出 1.30 倍 |
+| Sensharma 2021 thesis p.128 | 同引 Baglin 2003，伴随 13/2+ 正宇称笔误 | 1.44 e²b² | 228.3 W.u. | 比 2020 PRL 数值高出 1.714 倍，两者文字差未闭合 |
+
+核验证明：
+1. Guo 2022 所称“100–200 W.u.”是对 186Pt (102 W.u.) 和 187Au (188 W.u.) 评价寿命强度的客观包络，与 IAEA ENSDF 数据严格相符；
+2. Sensharma 支持方 PRM 模型选择 β=0.23 的依据是使计算 B(E2) 符合核芯参考值，但作者在 2020 PRL 中写 0.84 e²b²，在 2021 学位论文中写 1.44 e²b²，相差 1.71 倍，且学位论文将 h9/2 跃迁印为 13/2+→9/2+ 正宇称；
+3. 无论是 0.84 还是 1.44 e²b²，均不等于从 T1/2=240 ps 严格导出的 0.645 e²b²，表明存在未说明的寿命修正、转换截断或上/下跃迁约定差异。在统一模型比较前，禁止在不同计算间混用核芯 B(E2) 尺度。

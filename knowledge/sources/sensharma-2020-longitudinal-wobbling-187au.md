@@ -160,3 +160,10 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 | AU20-D23-1 | p.4先给configuration-fixed CDFT的β=.28、γ由22°到25°，实际PRM改采用HFB-D1S core值β=.23、γ23°，并明说其解释既有187Au13/2→9/2的B(E2)=1.49(eb)²及186Pt2→0的.84(eb)²；这两绝对尺度是引用并参与输入选择，不是本文新增τ测量或独立holdout。PRM single-j h9/2、额外f7/2 admixture<5%，与Guo2022九个负宇称轨道、ε2=.21/γ12°的QTR不是只换带标签的同输入比较。 | model-input-calibration-and-comparison | direct-original-and-cross-source-boundary | printed052501-4, PRM/CDFT input paragraphs | true |
 
 Knowledge Impact and Learning Decision：limits样本内能量/尺度符合度的独立计票；保留原LW/SP支持链和作者PRM比较，并要求[[signature-tip-shears-discrimination-contract]]的configuration-only练习明确哪部分D冻结、哪部分Hamiltonian/算符仍待统一。
+
+
+## Day23：核芯定标数值与 2021 学位论文对账
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D23-2 | 本文 p.4 报告 186Pt 2+→0+ 实验值为 0.84 (eb)²，并据此采用 HFB-D1S 的 β=0.23。独立量化核验（`day23_core_reference_b_e2_audit.py`）表明 0.84 e²b² 对应 133.2 W.u.，而 ENSDF April 2022 从 T1/2=240(20) ps 导出的采用值为 0.645 e²b² (102 W.u.)。此外，同作者 2021 学位论文 p.128 将该引用值印为 1.44 (eb)² (228.3 W.u.)，两者相差 1.714 倍。核芯参考强度的 1.71 倍版本差异说明模型形变输入依赖于特定的文献选取，不作为无先验条件的纯净预测。 | model-calibration-crosswalk | direct-and-task-arithmetic | printed 052501-4; SE21 p.128; core-reference-be2-006.json | true |
