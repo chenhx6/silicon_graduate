@@ -289,3 +289,33 @@ a=\frac{\langle\mathbf I\cdot\mathbf j\rangle}{I(I+1)}
 
 
 **必须用同H检验退激方向**：在mapping A，模型I17/2母态ordinal0与I13/2末态ordinal1间ΔE=−.506395MeV（旧C也为−.356500），所以“137.3/22.3”只是两个量子矩阵强度的形式比，不能称理论预测的526自发γ退激比；非零吸收/上跃矩阵元不意味着放光通道开放。程序为这种γ比输出null并保留形式矩阵量，而非将原实测526计数改为零。mapping B的对应ΔE=+1.151563MeV虽为向下，也与实测526keV能量不等，原模型差别仍须检验。这比只比较B大小更清楚地暴露特定mapping的适用边界，但不排除其它H/态/模型。
+
+## Day23：同一固定H的M1、静态矩与尺度消去检验
+
+从[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-003的算符，在本任务固定单j投影下写
+
+$$\boldsymbol\mu=g_R\mathbf I+(g_j-g_R)\mathbf j.$$
+
+总I生成元不连接不同I，也不改变同I空间的正交multiplicity态；它对对角静态磁矩仍有贡献。因此跨I的M1可以因子化为未知 $S_M=\sqrt{3/(4\pi)}(g_j-g_R)\mu_N$ 乘 $j_{\rm lab}$，对角静态量则仍用完整的g公式。单j投影、常数gj/gR和core磁矩近似必须明示，不能把另一核素的effectiveg默放进来；gj=gR时跃迁磁算符消失，也不能由非零j矩阵元保证实际M1必非零。
+
+本任务用ST18 Eq7的lab耦合态逐m/MR求rank1矩阵元，保持R/KR，再用已核U变换；没有从body-j RMS猜测跃迁强度。源码`system/scripts/day23_prm_particle_m1.py`强制冻结009和010输入以及显式C处方。每处方32项控制通过：freeR0解析极限、两个labM提取、triangle、Hermitian reverse/详细平衡、完整j closure、j+R生成元和对角Casimir。最大closure误差3.6e−14ℏ²、生成元误差2.8e−14、对角a与009独立body-Casimir差≤4.5e−16；009能谱和010 E2差0。**closure仅对particle-j，不是完整磁矩，也不是γ分支总和**。这里的有限PRM允许内禀j动力学变化，不能称又算了一次冻结j；F14的冻结j非零M1论证独立保留。
+
+| 映射与处方 | B(M1)/未知SM²：747 /813候选 | normalized E2/j振幅：747 /813候选 | 跨线振幅双比 |
+|---|---|---|---|
+| A，Wang Eq11 | 1.661094 /1.311946 | −.279323 /−.285530 | .978261 |
+| B，Wang Eq11 | .00839147 /.00987035 | +.317974 /+.285737 | 1.112823 |
+| A，旧Wang Eq3 | 1.419514 /1.089001 | −.302379 /−.312115 | .968807 |
+| B，旧Wang Eq3 | .02748968 /.02484233 | +.116704 /+.102295 | 1.140861 |
+
+这些均为源定义下的本任务模型量，见[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-011/012，不是原作者新报告或实际δ。Eq11在I21/2的两mapping下，E2与M1强度都相差约两数量级，normalized E2/M1比却几乎相同（.081527/.081645）；同一混合比能掩盖相当不同的绝对强度。实际绝对尺度仍未知，且能量mapping已经不闭合，不据此为目标态给机时或排他精度。
+
+若两条同型M1+E2线共用算符、scale与phase/radiative约定，写 $\delta_t/E_{\gamma,t}=K(S_E/S_M)(e_t/m_t)$，则
+
+$$D=\frac{\delta_{747}/E_{747}}{\delta_{813}/E_{813}}
+=\frac{e_{747}/m_{747}}{e_{813}/m_{813}}.$$
+
+共同scale与常数K消去，得到上表末列。这个量仍依赖charge tensor形状、single-j模型和mapping；若effective磁算符随spin改变，就不能声称已消去全部物理输入。表中振幅比对核态的任意整体rephasing不变；跨multipole物理约定与全局operator符号须统一，双比又消去了相同的全局符号。
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-4的已报中心值与747.3/813.2keV给D中央1.382288。它只重用原δ提取，不是新增独立实验；两条不对称marginal误差及共用校准不构成joint likelihood，当前不造CI、显著性或宣布哪一mapping获胜。unknown model scale也不意味着真实P/Rac不能选根，SH26固定σ/I=.2的大根条件支持仍须保留。
+
+另一个伴随量是跨母态的M1强度比，Eq11下A/B为1.266129/.850170，旧C为1.303501/1.106566，scale在相同算符下消去。实测它仍需**两母态寿命、全部退激分支及转换修正**，不能用两线计数或relative intensity直接代替。必要输入还包括正确Jπ/placement、净谱与响应/feeding的共同Cov、未用于本任务定标的EM输入，以及首先可接受的same-H能量mapping。不存在的τ/Q/δ、实验率和机时保持空缺。新推断needs_review:true。

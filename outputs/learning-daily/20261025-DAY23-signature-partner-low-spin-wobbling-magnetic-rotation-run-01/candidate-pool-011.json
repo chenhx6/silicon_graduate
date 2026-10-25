@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-10-25T17:11:05.885187+00:00",
+  "selection": "Continue current A/B; useful routes remain and >120min to original deadline, no early closeout",
+  "slot_A": {
+    "completed_bounded_result": "Common-scale crossline mixing invariant derived, but actual joint calibration/response missing; no new experimental independent vote",
+    "next": "Inspect source-specific multiorbit operator and spin-dependent effective-current limitations before transfer of scale cancellation",
+    "source_ids": [
+      "L22-4",
+      "L22-15",
+      "L22-18",
+      "H02-D23-003",
+      "ST18-D23-004",
+      "ST18-D23-011/012"
+    ]
+  },
+  "slot_B": {
+    "completed_bounded_result": "same H E2/M1 connection vectors for two ordinal mappings, static Casimir and energy-outlet failures retained",
+    "next": "Read original model-state configuration mapping and electromagnetic operator scope; do not conflate ST18 singlej model variant with actual Lv multiorbit QTR. If useful, quantify entire fixed-H candidate spectrum with predeclared energy admissibility, no label-only repair."
+  },
+  "novelty_current_card": "MR/AMR lifetime/formation-mechanism source route remains available; revisit actual unresolved137Pr printed ratio only if yields new information",
+  "next_card": {
+    "index": 24,
+    "opened": false,
+    "permission": "only one uncredited preview after current useful routes saturate; no Day25"
+  },
+  "prohibited": [
+    "114 quarantined producers",
+    "invent g/Q/delta/tau/rates/time",
+    "equal likelihood valleys by assumption",
+    "formal credit at checkpoint"
+  ]
+}

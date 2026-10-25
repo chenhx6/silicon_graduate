@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-25T17:00:55.658359+00:00",
+  "head": "4f86dd915651f8c4d30ce00c7b9288dd4b35da3a",
+  "tracked_status": "",
+  "prewrite_sha256": {
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md": "811545e3d46708a6a1823f0c99cf795f179bf7c2deefe61b6a8c56bb45024a90",
+    "knowledge/projects/135pr-wobbling-controversy.md": "a582df74680fda4c191968293d82fdf0b95033d8c4e5c71f0b4e00244ec42b38",
+    "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md": "1d7ad8fbf5328771c1db93927936c106ef5a65b51749537e3470570f56152c55",
+    "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md": "4efc1bda2d5ba01d647defa5327da5564f2dcbd9cc6b0e83f32dbb712f274a71",
+    "system/handoff.md": "0e53967ded7124961af989622ee83e4dd2aac623389cf117f141544a76b4efa3",
+    "system/log.md": "6cf5933830dfb5c45447fd50da3725d6bdb2f42ac9c6eb7c1993b65a2ae42884",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md": "9864e13b203ffbd9a1fe6c0d77503e02f3326ddb5e111fe9fea698e78dec99e3",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json": "694ee5b9f3dab218b504fd215536fd9abc3a1c34c10fe9db6fa9bf14804f9dcf"
+  },
+  "scope": "checkpoint011 only; inherited untracked files preserved; protected original baseline001 remains"
+}

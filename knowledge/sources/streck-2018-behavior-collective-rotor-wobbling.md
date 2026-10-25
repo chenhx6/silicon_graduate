@@ -167,3 +167,14 @@ Knowledge Impact and Learning Decision：supports可追溯的K↔R及转子Hcoll
 | ST18-D23-010 | 指定跨spin恒定ordinal映射A(B3=0/B2=1)或B(B3=1/B2=0)，Eq11处方下形式矩阵元r747/526为137.3196或.0299216，r813/726为.505399或.00349706；但A的526候选ΔE=−.506395MeV为上跃，不能作为自发γ出口比（输出null）。旧Eq3的形式对应22.2669/.0165857与.500773/.00113266，A的526也为上跃ΔE−.356500MeV。两分母分别是另一band outlet和同band I−2，不互换；非零upward B不等于退激存在。均不报显著性/实际Q/δ/τ或唯一模式，009能量mapping问题保留。 | conditional-fixed-operator-vector-and-energy-direction | task-predictions-with-identity-boundaries | ST18-D23-009; L22-D22-001/002; task core-e2-010 | true |
 
 这里operator closure包括upward及diagonal/elastic矩阵元，不是实际γ分支或计数总和。模型B/S²只有相对scale意义，不给绝对W.u.；physicalM1算符/混合相位未提供，所以不从E2比值补造δ。原source作者的PRM与scissors解释范围亦不由本数值练习改写。
+
+## Day23：同H的particle-j张量与相对磁强度
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ST18-D23-011 | 在ST18 Eq7的lab耦合基底，j的rank1算符保持R/KR，通过m/MR的CG相干和求矩阵元，再用Eq11转回强基底。本任务同009 H的single-j投影中，跨I M1可写SM j_lab，未知SM=sqrt(3/4π)(gj−gR)μN。每处方32检查通过：freeR0、rank1 triangle、两个labM、Hermitian reverse/详细平衡、完整j closure=j(j+1)、j+R生成元及对角Casimir。最大closure误差3.6e−14ℏ²；与009能量、010 E2差0。控制仅核本实现，j-only closure含elastic/upward，不是full μ或实验γbranch sum。 | declared-task-normalized-M1-operator | conditional-source-defined-numerics | PDF3 Eq.7 and Eq.11; H02-D23-003; task model-contract-011 | true |
+| ST18-D23-012 | 同010两mapping的747/813候选线，Eq11下A的B(M1)/SM²为1.661094/1.311946，B为.00839147/.00987035；相应normalized E2/j振幅比A为−.279323/−.285530，B为+.317974/+.285737。未知SE/SM未校准，均非physicalδ。共同scale与辐射常数在跨线(δ747/E747)/(δ813/E813)中消去时，A/B条件值为.978261/1.112823，旧C为.968807/1.140861；这个消去要求相同operator与spin-independent尺度，不能修复009/010能量问题。 | conditional-operator-mapping-and-scale-cancellation | task-derivation-and-frozen-H-numerics | ST18-D23-011; task particle-m1-011 and mixing-readiness-011 | true |
+
+μ的对角gR项不能遗漏；SM在gj=gR时为0，非零j矩阵元并不保证物理M1非零。没有借用Lu或另一模型的effectiveg给Pr补数。不同态rephasing会同改E2/M1振幅，其比不变；改变物理operator/约定或使尺度随spin变动则是另一假设。旧C仅显式处方敏感性，不代表作者实际调参史。
+
+算符投影前提另见[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-003。

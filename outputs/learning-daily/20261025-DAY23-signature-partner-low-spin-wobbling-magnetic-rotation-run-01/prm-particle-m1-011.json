@@ -1,0 +1,181 @@
+{
+  "status": "conditional-particle-j-M1-computed",
+  "C_prescription": "Wang2009-Eq11",
+  "operator": "For Ii!=If, T1=SM*j_lab, SM=sqrt(3/(4pi))*(gj-gR)*muN, unknown; fixed single-j projection. Full mu=gR*I+(gj-gR)*j.",
+  "reduced_convention": "labM=CG(IiMi,1mu|IfMf)/sqrt(2If+1)*reduced; B=abs(reduced)^2/(2Ii+1)",
+  "scope": "Normalized tensor diagnostic, same H and assumed ordinal mapping; no original author producer, physical effective g or mixing scale calibration.",
+  "results": [
+    {
+      "I": 8.5,
+      "parent_ordinal": 0,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_model_MeV": 0.6023801315387318,
+      "reduced_j_amplitude_hbar": -5.468060819986068,
+      "reduced_core_E2_amplitude_over_SE": 1.5273550273678331,
+      "B_j_hbar2_or_B_M1_over_unknown_SM_squared": 1.661093840614817,
+      "B_E2_over_unknown_SE_squared": 0.12960074331254412,
+      "normalized_core_E2_over_particle_j_strength_ratio": 0.07802132555291114,
+      "normalized_core_E2_over_particle_j_signed_amplitude_ratio": -0.2793229771302589,
+      "physical_delta": null,
+      "boundary": "Single fixed-j projection and core-only charge; unknown SE/SM and convention/radiative conversion required. No physical g, Q, delta or mode identity."
+    },
+    {
+      "I": 8.5,
+      "parent_ordinal": 1,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_model_MeV": 1.4435833845481334,
+      "reduced_j_amplitude_hbar": 0.38864697144061716,
+      "reduced_core_E2_amplitude_over_SE": 0.12357979348729908,
+      "B_j_hbar2_or_B_M1_over_unknown_SM_squared": 0.008391470467220215,
+      "B_E2_over_unknown_SE_squared": 0.0008484425199090827,
+      "normalized_core_E2_over_particle_j_strength_ratio": 0.10110772876140985,
+      "normalized_core_E2_over_particle_j_signed_amplitude_ratio": 0.31797441526231296,
+      "physical_delta": null,
+      "boundary": "Single fixed-j projection and core-only charge; unknown SE/SM and convention/radiative conversion required. No physical g, Q, delta or mode identity."
+    },
+    {
+      "I": 10.5,
+      "parent_ordinal": 0,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_model_MeV": 0.6907435486648279,
+      "reduced_j_amplitude_hbar": -5.372413059922132,
+      "reduced_core_E2_amplitude_over_SE": 1.5339852011263766,
+      "B_j_hbar2_or_B_M1_over_unknown_SM_squared": 1.3119464584737222,
+      "B_E2_over_unknown_SE_squared": 0.10695957260339682,
+      "normalized_core_E2_over_particle_j_strength_ratio": 0.08152739154296759,
+      "normalized_core_E2_over_particle_j_signed_amplitude_ratio": -0.2855300186372137,
+      "physical_delta": null,
+      "boundary": "Single fixed-j projection and core-only charge; unknown SE/SM and convention/radiative conversion required. No physical g, Q, delta or mode identity."
+    },
+    {
+      "I": 10.5,
+      "parent_ordinal": 1,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_model_MeV": 1.5304608668951336,
+      "reduced_j_amplitude_hbar": 0.465991083329309,
+      "reduced_core_E2_amplitude_over_SE": 0.1331507837134031,
+      "B_j_hbar2_or_B_M1_over_unknown_SM_squared": 0.009870349533746499,
+      "B_E2_over_unknown_SE_squared": 0.0008058696001587933,
+      "normalized_core_E2_over_particle_j_strength_ratio": 0.08164549770031382,
+      "normalized_core_E2_over_particle_j_signed_amplitude_ratio": 0.28573676294854644,
+      "physical_delta": null,
+      "boundary": "Single fixed-j projection and core-only charge; unknown SE/SM and convention/radiative conversion required. No physical g, Q, delta or mode identity."
+    },
+    {
+      "I": 12.5,
+      "parent_ordinal": 0,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_model_MeV": 0.7523248692213855,
+      "reduced_j_amplitude_hbar": -5.551571161658442,
+      "reduced_core_E2_amplitude_over_SE": 1.5310294386738588,
+      "B_j_hbar2_or_B_M1_over_unknown_SM_squared": 1.1853823985752947,
+      "B_E2_over_unknown_SE_squared": 0.0901558131571535,
+      "normalized_core_E2_over_particle_j_strength_ratio": 0.07605631167251288,
+      "normalized_core_E2_over_particle_j_signed_amplitude_ratio": -0.27578308808284974,
+      "physical_delta": null,
+      "boundary": "Single fixed-j projection and core-only charge; unknown SE/SM and convention/radiative conversion required. No physical g, Q, delta or mode identity."
+    },
+    {
+      "I": 12.5,
+      "parent_ordinal": 1,
+      "target_Iminus1_ordinal": 0,
+      "delta_E_model_MeV": 1.5741759704143523,
+      "reduced_j_amplitude_hbar": 0.7604828748214147,
+      "reduced_core_E2_amplitude_over_SE": 0.10030083236198784,
+      "B_j_hbar2_or_B_M1_over_unknown_SM_squared": 0.022243623188332447,
+      "B_E2_over_unknown_SE_squared": 0.00038693296048106105,
+      "normalized_core_E2_over_particle_j_strength_ratio": 0.017395230858074453,
+      "normalized_core_E2_over_particle_j_signed_amplitude_ratio": 0.13189098095804144,
+      "physical_delta": null,
+      "boundary": "Single fixed-j projection and core-only charge; unknown SE/SM and convention/radiative conversion required. No physical g, Q, delta or mode identity."
+    }
+  ],
+  "controls": {
+    "j2_1_free_R0_reduced_limit": true,
+    "j2_11_free_R0_reduced_limit": true,
+    "I2_7_particle_j_complete_operator_closure": true,
+    "I2_7_Hermitian_reduced_reverse": true,
+    "I2_7_two_lab_M_choices": true,
+    "I2_7_j_plus_R_equals_total_I_generator": true,
+    "I2_7_same_I_Casimir_full_matrix": true,
+    "I2_11_particle_j_complete_operator_closure": true,
+    "I2_11_Hermitian_reduced_reverse": true,
+    "I2_11_two_lab_M_choices": true,
+    "I2_11_j_plus_R_equals_total_I_generator": true,
+    "I2_11_same_I_Casimir_full_matrix": true,
+    "I2_17_particle_j_complete_operator_closure": true,
+    "I2_17_Hermitian_reduced_reverse": true,
+    "I2_17_two_lab_M_choices": true,
+    "I2_17_j_plus_R_equals_total_I_generator": true,
+    "I2_17_same_I_Casimir_full_matrix": true,
+    "I2_21_particle_j_complete_operator_closure": true,
+    "I2_21_Hermitian_reduced_reverse": true,
+    "I2_21_two_lab_M_choices": true,
+    "I2_21_j_plus_R_equals_total_I_generator": true,
+    "I2_21_same_I_Casimir_full_matrix": true,
+    "rank1_triangle_forbidden_zero": true,
+    "same_H_as_frozen009": true,
+    "static_j_coefficient_matches_independent009_body_Casimir": true,
+    "I2_17_ordinal_0_detailed_balance": true,
+    "I2_17_ordinal_1_detailed_balance": true,
+    "I2_21_ordinal_0_detailed_balance": true,
+    "I2_21_ordinal_1_detailed_balance": true,
+    "I2_25_ordinal_0_detailed_balance": true,
+    "I2_25_ordinal_1_detailed_balance": true,
+    "same_core_E2_as_frozen010": true
+  },
+  "control_details": {
+    "I2_7": {
+      "closure_error_hbar2": 2.842170943040401e-14,
+      "reverse_error": 3.552713678800501e-15,
+      "labM_choice_error": 4.6629367034256575e-15,
+      "total_generator_error": 7.105427357601002e-15,
+      "Casimir_coefficient_error": 4.440892098500626e-16
+    },
+    "I2_11": {
+      "closure_error_hbar2": 2.842170943040401e-14,
+      "reverse_error": 3.552713678800501e-15,
+      "labM_choice_error": 8.881784197001252e-15,
+      "total_generator_error": 7.177355007418936e-15,
+      "Casimir_coefficient_error": 1.2767054699147956e-16
+    },
+    "I2_17": {
+      "closure_error_hbar2": 2.842170943040401e-14,
+      "reverse_error": 7.105427357601002e-15,
+      "labM_choice_error": 8.881784197001252e-15,
+      "total_generator_error": 2.1316282072803006e-14,
+      "Casimir_coefficient_error": 2.220446049250313e-16
+    },
+    "I2_21": {
+      "closure_error_hbar2": 3.552713678800501e-14,
+      "reverse_error": 7.105427357601002e-15,
+      "labM_choice_error": 1.4210854715202004e-14,
+      "total_generator_error": 2.7533531010703882e-14,
+      "Casimir_coefficient_error": 1.6653345369377348e-16
+    },
+    "frozen009_energy_error_MeV": 0.0,
+    "frozen009_static_a_error": 4.440892098500626e-16,
+    "frozen010_E2_strength_error": 0.0
+  },
+  "all_controls_pass": true,
+  "frozen_inputs": {
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-fixed-state-mapping-009.json": "9f7bdd66c7519a45c6b148acdab9d6aeecae910380f5ba87dbbe9544968638fc",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-core-e2-010.json": "a1d5e3e95b386f8db8ba3f1fac79b9363ec1a191a3fb9507dd05f25b108a1ffb"
+  },
+  "implementation_sha256": {
+    "day23_prm_particle_m1.py": "1accd186c3440ab91218f77a81de4c0592e036245e08b7d078470ec541d96c72",
+    "day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe",
+    "day23_prm_fixed_state_mapping.py": "590f877dc7a52d41b597f436a16a1072237cc2c2d76a7ef17b74540f8e26aaf8",
+    "day23_prm_core_e2.py": "38276c976953c92e6063c40323f0fd965d00d299b0c3299705d3b8363370179b"
+  },
+  "limitations": [
+    "j closure includes same-I diagonal/elastic and upward transitions, not measured gamma branch/count completeness or full magnetic-moment closure.",
+    "The total-I generator contributes to static moments; it cannot connect different I or distinct orthogonal multiplicity states. A j-only diagonal is not the full magnetic moment.",
+    "This finite PRM allows dynamical intrinsic j; a nonzero result alone is not a new frozen-alignment approximation calculation.",
+    "Single-j effective gj is an operator projection, not arbitrary adoption of a calibrated multi-orbit gl/gs from another nucleus.",
+    "SM=0 if gj=gR; conditional nonzero j matrix elements do not guarantee an actual nonzero physical M1.",
+    "Normalized E2/j signed ratios use the declared common tensor/phase conventions and are not physical delta values.",
+    "Unknown relative operator scale does not imply real P/Rac likelihoods have equal roots; SH26 fixed sigma/I=.2 conditional AD support remains.",
+    "The same-H energy and 526 outlet-direction failures009/010 remain; no likelihood, model-error covariance or actual nuclear assignment supplied."
+  ]
+}

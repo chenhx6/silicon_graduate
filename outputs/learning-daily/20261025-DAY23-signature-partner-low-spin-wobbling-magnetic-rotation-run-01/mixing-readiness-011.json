@@ -1,0 +1,93 @@
+{
+  "status": "conditional-scale-free-mixing-readiness",
+  "equation": "delta_t/Egamma_t = K*(SE/SM)*(E2_reduced_normalized_t/j_reduced_t). For two M1+E2 lines with common operator/scales/convention, [delta747/E747]/[delta813/E813] = amplitude_ratio747/amplitude_ratio813. K and SE/SM cancel.",
+  "not_physical_delta_prediction": true,
+  "premises": [
+    "common single-j gj-gR across spins",
+    "same core charge tensor/SE across spins",
+    "same multipole phase and radiative convention",
+    "correct physical state mapping; fixed H energy mismatch remains",
+    "neither SM nor the M1 denominator zero"
+  ],
+  "model_results": [
+    {
+      "C_prescription": "Wang2009-Eq11",
+      "B3_ordinal": 0,
+      "amplitude_ratio_747_candidate": -0.2793229771302589,
+      "amplitude_ratio_813_candidate": -0.2855300186372137,
+      "scale_free_double_ratio": 0.978261334704561,
+      "input": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-particle-m1-011.json",
+      "B_M1_747_over_813_common_SM_cancels": 1.26612929200425,
+      "B_E2_747_over_813_common_SE_cancels": 1.2116797043785894
+    },
+    {
+      "C_prescription": "Wang2009-Eq11",
+      "B3_ordinal": 1,
+      "amplitude_ratio_747_candidate": 0.31797441526231296,
+      "amplitude_ratio_813_candidate": 0.28573676294854644,
+      "scale_free_double_ratio": 1.1128229072839733,
+      "input": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-particle-m1-011.json",
+      "B_M1_747_over_813_common_SM_cancels": 0.8501695343746409,
+      "B_E2_747_over_813_common_SE_cancels": 1.052828546630746
+    },
+    {
+      "C_prescription": "Wang2009-Eq3",
+      "B3_ordinal": 0,
+      "amplitude_ratio_747_candidate": -0.3023788049374916,
+      "amplitude_ratio_813_candidate": -0.3121146380790023,
+      "scale_free_double_ratio": 0.9688068678821581,
+      "input": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-particle-m1-oldC-011.json",
+      "B_M1_747_over_813_common_SM_cancels": 1.3035011728761012,
+      "B_E2_747_over_813_common_SE_cancels": 1.2234489258936878
+    },
+    {
+      "C_prescription": "Wang2009-Eq3",
+      "B3_ordinal": 1,
+      "amplitude_ratio_747_candidate": 0.11670407318609528,
+      "amplitude_ratio_813_candidate": 0.10229475824789269,
+      "scale_free_double_ratio": 1.1408607360240712,
+      "input": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prm-particle-m1-oldC-011.json",
+      "B_M1_747_over_813_common_SM_cancels": 1.106566391257212,
+      "B_E2_747_over_813_common_SE_cancels": 1.4402661142434836
+    }
+  ],
+  "observation": {
+    "source": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+    "locator": "Table1,747.3/813.2keV rows",
+    "E_keV": [
+      747.3,
+      813.2
+    ],
+    "published_delta_centres": [
+      -0.47,
+      -0.37
+    ],
+    "published_delta_asymmetric_plus_minus": [
+      [
+        0.09,
+        0.22
+      ],
+      [
+        0.1,
+        0.14
+      ]
+    ],
+    "derived_scale_free_central": 1.3822879483256842,
+    "independent_measurement": false,
+    "uncertainty": null,
+    "boundary": "Reuses published extracted delta; missing joint likelihood/covariance. No Gaussian CI or new independent constraint counted."
+  },
+  "limitations": [
+    "same-H energy mismatch and gamma outlet issue009/010 are not repaired",
+    "normalized signed ratio is phase-invariant under nuclear-state rephasing, but physical operator/radiative convention still required",
+    "global operator sign cancels in this double ratio; arbitrary spin-dependent operator scale does not",
+    "two published marginal errors do not supply a joint response likelihood",
+    "conditional SH26 large-root support at sigma/I=.2 preserved; no equal-valley inference"
+  ],
+  "needed_companion_observations": [
+    "lifetimes for both actual parents plus relative gamma branching and total conversion/internal pair correction where relevant, to infer cross-parent B_M1 ratio",
+    "same state identity/spin/parity and complete branch accounting",
+    "full line-specific P/Rac response and joint calibration/feeding covariance to derive a legitimate uncertainty for the delta/E double ratio",
+    "model state mapping with acceptable same-H energies and independent effective operator calibration"
+  ]
+}

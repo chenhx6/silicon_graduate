@@ -1,0 +1,14 @@
+{
+  "scope": "targeted H02 Eq9/ST18 Eq7 and already-read Lv Table1 reuse, not full-paper repeated reading",
+  "H02": {
+    "page": 2,
+    "fresh_visual": "tmp/day23-originals/h02-M1-p2-011.png",
+    "raw_hash_matches": true,
+    "sha256": "e9e5acd9cf3c05b58a1d0ba160d10089607a884a69c143990323d7499acc273f"
+  },
+  "ST18": "PDF3 Eq7 CG coupling text read; existing complete source/hash008 retained",
+  "Lv": "mainPDF3 Table1 source text inspected for -0.47(+.09/-.22), -0.37(+.10/-.14) and747.3/813.2; not a new measurement",
+  "initial_non_scientific_failure": "first oldC CLI used nonexistent reference path prm-fixed-state-mapping-oldC-009.json; corrected to existing prm-fixed-state-oldC-009.json, rerun passed. No input fabricated.",
+  "contract": "model-contract-011 persisted before implementation",
+  "review": "new claims needs_review:true; original human review flags unchanged"
+}

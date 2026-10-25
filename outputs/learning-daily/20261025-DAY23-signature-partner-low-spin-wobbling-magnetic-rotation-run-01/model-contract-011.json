@@ -1,0 +1,31 @@
+{
+  "observed_at": "2026-10-25T17:00:55.658359+00:00",
+  "physical_object": "single-j particle+ fixed H009/010, lab-frame particle angular momentum tensor j; no new pairing/g/charge fit",
+  "source_premises": [
+    "H02 PDF2 Eq9, gl l + gs s projected onto declared fixed j as gj j; total I term does not connect different I",
+    "ST18 PDF3 Eq7 weak j+R lab coupling and Eq11 U"
+  ],
+  "operator": "mu = gR I + (gj-gR) j; for different I, T1 = SM j_lab, SM=sqrt(3/(4pi))*(gj-gR)*muN, unknown",
+  "units": "angular momentum hbar=1; normalized B/SM^2 dimensionless; no physical g, muN^2 or delta value",
+  "algorithm": "explicit lab m/MR CG sum of spherical j0,j+-; preserve R,KR; weak->strong using existing real U; same H/eigenvectors without retuning",
+  "WE_convention": "labM=CG(IiMi,1mu|IfMf)/sqrt(2If+1)*reduced; B=abs(reduced)^2/(2Ii+1)",
+  "validation_plan": [
+    "free R0 I=j reduced sqrt(j(j+1)(2j+1))",
+    "complete-final-space particle-j closure sum B=j(j+1), includes elastic/absorption; not full magnetic operator/decay sum",
+    "rank1 triangle forbidden",
+    "Hermitian reverse/detailed balance",
+    "two independent lab M choices yield same reduced",
+    "same-I j diagonal/complete matrix obey Casimir geometrical coefficient a from009",
+    "sameH energies/reference unchanged",
+    "unknown scale factored, no invention of physical g or delta"
+  ],
+  "sameI_boundary": "total-I term contributes to diagonal static moments; j-only closure not complete-mu closure. Between distinct same-I eigenstates generator is identity in multiplicity and vanishes; keep explicit scope.",
+  "comparison": "same ordinal mappings and energy-outlet failures010 retained; compute normalized interspin M1 strengths and normalized E2/j ratio, not physical mixing ratio",
+  "forbidden": [
+    "default effectiveg from another nucleus",
+    "closure used as observed gamma count sum",
+    "unknown relative electromagnetic scale implies real P/Rac cannot discriminate branches",
+    "unresolved response ignored or two likelihood valleys declared equal",
+    "ordinal names treated as measured SP/phonon or original producer replay"
+  ]
+}

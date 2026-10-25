@@ -286,3 +286,13 @@ P1 self-audit：这些是source identity/版本/可复现条件推导；原2019b
 新增为Codex自审，needs_review:true，不扩张原project人审范围。[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-009/010与[[signature-tip-shears-discrimination-contract]]补了明确operator假设的normalized core-E2，而非补一个新实验或直接重拟Lv P–Rac。ordinal映射不同会改变相对E2向量，但009的同H能量间隔不匹配仍未修复；不能挑一项ratio接近就忽略整组能谱/分支。
 
 尤其model r747/同ordinal I−2约.708不等于Lv的.7：后者526到另一band，并非B3 in-band。正确冻结该末态后模型A给形式矩阵比约137，但同H的526候选为上跃、不是开放γ出口；模型B形式/向下比为.030，但其预测γ能量亦非实测526；这些只诊断此variant与mapping，省略particleE2/chargeγ同H的假设和原分母pureE2条件都须保留。原实验完整jointCov/原producer未知，不由这些中央值报排除σ数，或将δ大/小根问题改成已裁决。
+
+## Day23：固定模型的M1与不可由混合比单独恢复的强度
+
+[[signature-tip-shears-discrimination-contract]]“Day23：同一固定H的M1、静态矩与尺度消去检验”将normalized M1接到009/010同H。源前提H02-D23-003、ST18-D23-011/012；本任务32项rank1/生成元/Casimir控制只验证有限矩阵，未校准gj/gR/绝对Q，也不是原author producer。
+
+Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.311946/.00987035，强度都相差约两数量级，E2/M1归一比却为.081527/.081645。故单一δ未必能恢复绝对集体强度或唯一configuration；真实尺度和相位仍须校准，不将二者当同等可信的实际解释。先前约840keV模型gap对44keV观测、526方向/分母失败全部保留。
+
+共同算符/scale前提下，跨线D=(δ747/E747)/(δ813/E813)的模型A/B为.978261/1.112823；L22-4已报δ与线能量只给派生中央1.382288，不给jointCI或新独立票。两母态τ与完整branch/转换修正可提供跨母态M1比这一伴随检验，但当前输入缺失，不造τ/功效/机时。模型scale未知不抹掉SH26固定σ/I条件支持，也不能预判真实response两谷等深。新增综合needs_review:true。
+
+直接前提回链：[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-003；[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-011/012。

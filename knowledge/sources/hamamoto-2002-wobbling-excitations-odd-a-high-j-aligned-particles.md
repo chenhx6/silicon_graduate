@@ -131,3 +131,13 @@ Page and all H02 claims remain unreviewed with `needs_review: true`. Human revie
 | H02-D23-002 | 本文λ=0/γ−30°及hydrodynamical MoI的特殊rH对称性带来指定M1/E2选择条件；它不是任意γ/占据/模型空间的普遍禁戒。Eq9含单粒子磁矩，不能把无core-only-M1计算或固定内禀j误解为所有带间M1=0。 | special-symmetry-and-M1-boundary | direct-original | PDF2 Eq.9; PDF3 Eq.10–11 and symmetry paragraph | true |
 
 本任务normalized core-only E2练习见[[signature-tip-shears-discrimination-contract]]：电荷轴/γ与H相同是明示假设，未知charge scale单独因子化；不宣称本文已独立验证Pr/Au或本任务operator等于原作者全部EM实现。
+
+## Day23：M1的单j投影与总角动量项
+
+本次只定向回核PDF2 Eq9及紧接文字，重新渲染该页视觉核式；原raw SHA相符，不新称全文重读。原page/旧claims的review状态保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| H02-D23-003 | Eq9将磁矩分成gR I、(gl−gR)l与(gs−gR)s；常数gR下，正文明确M1跃迁来自后两项。本任务进一步在固定单j不可约空间投影gl l+gs s=gj j，得到μ=gR I+(gj−gR)j。I生成元不连接不同I，在同I的multiplicity上为单位，所以不同本征态间也不能由该项产生跃迁；对角静态矩则保留gR项。这是声明投影下的推导，不是本文完整多轨道/BCS算符复现，也不由此规定实际gj。 | source-operator-and-declared-projection | direct-original-plus-explicit-task-derivation | PDF2 Eq.9 and following paragraph | true |
+
+本任务finite-I PRM的j可随波函数变化；其normalized M1数值不冒充另一次frozen-alignment计算。F14已有冻结j仍有M1的结论保留；这里核实的是lab算符/生成元与静态、跃迁量之间的边界。
