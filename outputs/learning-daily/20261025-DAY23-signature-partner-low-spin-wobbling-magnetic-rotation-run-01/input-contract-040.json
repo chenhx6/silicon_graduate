@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-25T22:51:04.743136+00:00",
+  "scope": "digitize only published red fitted curve in PRL2020Fig3a raster, reconstruct displayed curve shape coefficients with image/axis uncertainty; not original experimental netcounts, data likelihood or delta refit",
+  "image": "tmp/day23-originals/au20-p4-embedded0-040.png",
+  "sha256": "b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd",
+  "native_size": [
+    1334,
+    1129
+  ],
+  "source": "AU20originalPDFp4Fig3a SHA f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a, imagexref88",
+  "manual_axis_calibration": {
+    "panel": "a only376.3keV",
+    "theta0_x": 121.0,
+    "theta90_x": 662.0,
+    "y_tick_hi": 15.0,
+    "intensity_hi_display_units": 6.4,
+    "y_tick_lo": 257.0,
+    "intensity_lo_display_units": 2.2,
+    "display_intensity_unit": "printed Iγx10^3; curveplotordinate not exposed netcounts",
+    "axis_pixel_uncertainty_design": 1.0
+  },
+  "ROI": {
+    "x": [
+      123,
+      660
+    ],
+    "y": [
+      4,
+      256
+    ]
+  },
+  "segmentation": "redhighR/lowG,B withthresholds declared; percolumn median redpixels, ignoreblackpoints/bluecurve/text; threshold/axis sensitivity preserved",
+  "fit_shape": "Iplot=A0+b2P2+b4P4, A2=b2/A0,A4=b4/A0; fit redpath coordinates only, no sourceobservationalerrors assigned",
+  "planned_comparison": "sourceFig4.12freefit A2/A4-.6704/.3194,Table4.4-.730/.523, declaredkernelGaussian-.668133/.390306 andcomplete-.728040/.523327; comparisons geometricnotoriginalproducer certification",
+  "prohibited": [
+    "extract sourceexperimentalcounts from Iplot ordinate",
+    "assign pointPoisson/sigma/statisticalCI fromcurveimage",
+    "fitnewphysicaldelta or claimglobalχ²/rootrejection",
+    "curve-derivedcoeff thirdindependentmeasurement",
+    "silentlyreplaceprintedtable/fig values",
+    "inventQ/tau/rate/time",
+    "run114producer"
+  ]
+}

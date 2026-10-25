@@ -189,3 +189,13 @@ guide定义b_e2为W.u.，half_life及half_life_sec为半衰期。本次Pt gammas
 | AU20-D23-5 | 在本任务已声明的历史标称376.3/462.1能量、名义FO K中央固定下，以上两条printedδ端点给αK像[.049200,.050472]/[.028840,.028995]，与四项历史αK各自printed值±误差范围均不相交。这个确定性比较与Guo的旧转换反证方向相同，但没有传播实际响应、共同理论/归一Cov或globalδ域，不能赋排除置信度或最终LW/SP裁决；第二个比较能量不修改本源461.8。 | conditional-endpoint-image-and-countercomparison | original-printed-endpoints-plus-actual-theory-and-task-math | Fig.3(a,b); KB08-D23-001; GU22-D23-013; task input-contract032 | true |
 
 p3确实用17角环和两run合并高统计作AD，并说效率、alignment、attenuation等更多细节待Ref26；Ref26字面为Sensharma et al.(to be published)，不是已明确题名/DOI的公开supplement。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-6/7给同支持链可读的实际A2/A4、校准选择和分支附近采样步骤，不作为第二次实验。计算前提直接回链[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001及[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013；本轮没有反演或补造新δ。
+
+## Day23：显示拟合曲线的图像形状核验
+
+本次从原PDF p4提取Fig3嵌入raster(xref88、1334×1129)，实际image SHA256 b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd，原PDF SHA保持。只取panel(a)红色已拟合曲线，不取黑色实验点/误差棒，不视为原净计数。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D23-6 | 在明确原图像素轴标定下，对376.3红色显示fit路径以A0(1+A2P2+A4P4)提取形状，约A2=−.672、A4=.389，508个有红线列的纵向RMS残差.44px。3种红色阈值、stride1/2/4与四轴锚点各±1px的声明敏感性给A2约[−.679,−.665]、A4[.383,.395]；这是图像/标定设计范围而非CI，不是原A2/A4实测误差或新实验。 | displayed-fit-curve-geometric-reconstruction | original-raster-plus-explicit-image-analysis | printed052501-4 Fig3(a), imagexref88; task input-contract040 and displayed-curve040 | true |
+
+显示曲线形状与本任务声明Gaussian .2大δ的A2/A4约−.668/.390接近，而不等Table4.4约−.730/.523或Fig4.12初始自由fit的−.6704/.3194；后两量来自[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10。这里只把三个实际显示/处理阶段继续分开，不能据形状接近认证原producer完整实现、原nuisance参数/globalχ²或认定其它图表有错。显示强度A0也不能重写成原净峰产额。实际谱/校正链/共同Cov仍缺，新增needs_review:true，旧人审范围不扩。

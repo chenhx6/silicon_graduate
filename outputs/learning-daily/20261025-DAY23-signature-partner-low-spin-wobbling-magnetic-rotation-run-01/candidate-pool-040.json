@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T22:58:01.664374+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "原Fig3a红fit图形提取六控制，A2约−.672/A4.389及声明像素敏感性；非netcounts/δ重拟合",
+  "next_route": "核同一source的freefit→约束curve→table映射，若无新实际链则重建候选池/接续已允许Day24预习，不反复微调像素",
+  "missing_inputs": [
+    "original fit-chain/free-vs-constrained likelihood and tablecorrection",
+    "actual counts/acceptance/gate/covariance",
+    "nuclear model operators and independent holdout observables"
+  ],
+  "Day25_opened": false
+}

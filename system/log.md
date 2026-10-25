@@ -4453,3 +4453,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T06:43:55.554908+08:00 Day23检查点038：36维h/f角块/九控制：directM1cross-l0、E2角块允许，未知radial/BCS/相干核幅不补；继续当前Au A4的取向无关条件界：先核rank4仅E2及正density可行域，区分源处理阶段，不作实测δ/排除。原15:00/partial[23,24]/next23保持。Git指针main · Day23: bind h-f configuration comparisons to operator inputs；actualhash/H3仅task-publication-receipt-038.json。
 
 2026-10-26T06:49:17.120937+08:00 Day23检查点039：idealM1E2 rank4关系/正population凸包七控制，sourceA4坐标仅条件示例不作实验f/δ界；继续读取原PRL嵌入AD拟合曲线图像，先图像校准/分辨率合同再提拟合曲线A2/A4以核图表阶段；不digitize原计数似然。原15:00/partial[23,24]/next23保持。Git指针main · Day23: preserve conditional rank-four information in angular data；actualhash/H3仅task-publication-receipt-039.json。
+
+2026-10-26T06:58:01.664374+08:00 Day23检查点040：原Fig3a红fit图形提取六控制，A2约−.672/A4.389及声明像素敏感性；非netcounts/δ重拟合；继续核同一source的freefit→约束curve→table映射，若无新实际链则重建候选池/接续已允许Day24预习，不反复微调像素。原15:00/partial[23,24]/next23保持。Git指针main · Day23: separate the displayed Au fit from reduced observations；actualhash/H3仅task-publication-receipt-040.json。

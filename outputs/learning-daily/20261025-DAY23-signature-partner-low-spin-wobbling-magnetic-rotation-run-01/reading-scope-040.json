@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-25T22:56:48.895224+00:00",
+  "scope": "actualPRLrawp4imagexref88/plotaxesvisual, onlyredpathgeometry",
+  "raw_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+  "image_sha256": "b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd",
+  "image_native_size": [
+    1334,
+    1129
+  ],
+  "six_controls_pass": true,
+  "not_original_count_or_delta_fit": true,
+  "formula_display_repair": "two taskownedmethodformula strings Python formfeed/carriagereturn from035/038 repaired using literalbackslashes; numericalinputs/results unchanged",
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "rawarchive": "unchanged; extractedimage tmp"
+}

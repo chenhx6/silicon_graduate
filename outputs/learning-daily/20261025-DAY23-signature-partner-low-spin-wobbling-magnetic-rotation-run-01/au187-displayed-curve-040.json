@@ -1,0 +1,150 @@
+{
+  "scope": "digitize only published red fitted curve in PRL2020Fig3a raster, reconstruct displayed curve shape coefficients with image/axis uncertainty; not original experimental netcounts, data likelihood or delta refit",
+  "formal_day_index": 23,
+  "conditions": {
+    "recorded_at": "2026-10-25T22:51:04.743136+00:00",
+    "scope": "digitize only published red fitted curve in PRL2020Fig3a raster, reconstruct displayed curve shape coefficients with image/axis uncertainty; not original experimental netcounts, data likelihood or delta refit",
+    "image": "tmp/day23-originals/au20-p4-embedded0-040.png",
+    "sha256": "b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd",
+    "native_size": [
+      1334,
+      1129
+    ],
+    "source": "AU20originalPDFp4Fig3a SHA f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a, imagexref88",
+    "manual_axis_calibration": {
+      "panel": "a only376.3keV",
+      "theta0_x": 121.0,
+      "theta90_x": 662.0,
+      "y_tick_hi": 15.0,
+      "intensity_hi_display_units": 6.4,
+      "y_tick_lo": 257.0,
+      "intensity_lo_display_units": 2.2,
+      "display_intensity_unit": "printed Iγx10^3; curveplotordinate not exposed netcounts",
+      "axis_pixel_uncertainty_design": 1.0
+    },
+    "ROI": {
+      "x": [
+        123,
+        660
+      ],
+      "y": [
+        4,
+        256
+      ]
+    },
+    "segmentation": "redhighR/lowG,B withthresholds declared; percolumn median redpixels, ignoreblackpoints/bluecurve/text; threshold/axis sensitivity preserved",
+    "fit_shape": "Iplot=A0+b2P2+b4P4, A2=b2/A0,A4=b4/A0; fit redpath coordinates only, no sourceobservationalerrors assigned",
+    "planned_comparison": "sourceFig4.12freefit A2/A4-.6704/.3194,Table4.4-.730/.523, declaredkernelGaussian-.668133/.390306 andcomplete-.728040/.523327; comparisons geometricnotoriginalproducer certification",
+    "prohibited": [
+      "extract sourceexperimentalcounts from Iplot ordinate",
+      "assign pointPoisson/sigma/statisticalCI fromcurveimage",
+      "fitnewphysicaldelta or claimglobalχ²/rootrejection",
+      "curve-derivedcoeff thirdindependentmeasurement",
+      "silentlyreplaceprintedtable/fig values",
+      "inventQ/tau/rate/time",
+      "run114producer"
+    ]
+  },
+  "contract_sha256": "88e3664c0f4d84bcb3290eb151132f2a89584935bc8216570e4d5a9d87d65e5a",
+  "implementation_sha256": "632a4932a6bc59235b2650108041cf76ccf439728cd1a5ba570b7d40e96a6a1a",
+  "selected_curve_columns": 508,
+  "central_displayed_curve_fit": {
+    "A0_display_units": 4.046370778178679,
+    "A2_displayed_curve": -0.6719925680040654,
+    "A4_displayed_curve": 0.3886622499679152,
+    "RMS_vertical_pixel": 0.4411734869163918,
+    "max_abs_vertical_pixel": 1.5195086384442407
+  },
+  "axis_threshold_stride_sensitivity_envelope_not_CI": {
+    "A0_display_units": [
+      4.020087889809146,
+      4.072710265661557
+    ],
+    "A2_displayed_curve": [
+      -0.6786890360918322,
+      -0.6653682022823252
+    ],
+    "A4_displayed_curve": [
+      0.38278636586347037,
+      0.39466736641959016
+    ]
+  },
+  "sensitivity_variant_count": 90,
+  "sample_native_red_coordinates": [
+    [
+      123.0,
+      216.5,
+      2.0
+    ],
+    [
+      184.0,
+      223.0,
+      3.0
+    ],
+    [
+      234.0,
+      235.0,
+      3.0
+    ],
+    [
+      284.0,
+      245.0,
+      3.0
+    ],
+    [
+      334.0,
+      245.5,
+      2.0
+    ],
+    [
+      384.0,
+      230.5,
+      2.0
+    ],
+    [
+      441.0,
+      193.0,
+      3.0
+    ],
+    [
+      491.0,
+      148.0,
+      3.0
+    ],
+    [
+      544.0,
+      98.0,
+      3.0
+    ],
+    [
+      594.0,
+      60.0,
+      3.0
+    ],
+    [
+      647.0,
+      40.5,
+      2.0
+    ]
+  ],
+  "controls": {
+    "frozen_native_image_hash_and_size_checked": true,
+    "only_red_published_fit_path_selected": true,
+    "P2P4_reconstruction_residual_subpixel_RMS": true,
+    "display_ordinate_unit_rescale_invariance": true,
+    "pixel_fit_affine_axis_conversion_matches": true,
+    "axis_threshold_and_stride_sensitivity_recorded": true
+  },
+  "all_controls_pass": true,
+  "numeric_control_errors": {
+    "unit_rescale": 3.3306690738754696e-16,
+    "affine_axis_conversion": 7.771561172376096e-16
+  },
+  "limitations": [
+    "This is only a geometric reconstruction of a published fitted curve, not the experimental peak counts or original likelihood.",
+    "Sensitivity envelope is a declared image/axis exercise, not statistical uncertainty or a confidence interval.",
+    "Black points/error bars were not digitized or assigned Poisson errors; no delta was fitted.",
+    "Near-agreement with a model shape does not certify original normalization/calibration, producer or a global root weight.",
+    "Source Fig4.12/Table4.4 processing stages remain distinct; no new independent measurement, lifetime, physical scale, count rate or time."
+  ]
+}

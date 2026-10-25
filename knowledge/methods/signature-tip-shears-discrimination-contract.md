@@ -576,7 +576,7 @@ complete一列接近Table4.4，Gaussian的376 A2又接近Fig4.12，但A4仍有�
 
 若r=Y_Pt/Y_Au是总体布居比，κ_Pt、κ_Au分别为每个核在指定峰/门/trigger/效率/窗口下的有效贡献，则选定峰的Pt份额为
 
-$$c=rac{r\,\kappa_{Pt}}{\kappa_{Au}+r\,\kappa_{Pt}}.$$
+$$c=\frac{r\,\kappa_{Pt}}{\kappa_{Au}+r\,\kappa_{Pt}}.$$
 
 即使r<约.1，κ比未知时也不能推出c<.1；弱Au出口和强Pt出口、不同门效率会改变局部份额。此式为条件计数记账，不给实际r、κ或c新估计，不是设施率/机时。本源PACE4与低能线总体强度论据须保留其条件，target peak purity仍需逐门净谱/效率/分支/背景和isotope-specific companions。
 
@@ -604,10 +604,7 @@ configuration槽亦有校准提醒：Pt2014 Table3的所谓实验g组合实际�
 
 电四极角张量不同。声明C2q=√(4π/5)Y2q，有
 
-$$\langle l'm'|C^2_q|lm
-angle=\sqrt{rac{2l+1}{2l'+1}}\langle l0,20|l'0
-angle\langle lm,2q|l'm'
-angle.$$
+$$\langle l'm'|C^2_q|lm\rangle=\sqrt{\frac{2l+1}{2l'+1}}\langle l0,20|l'0\rangle\langle lm,2q|l'm'\rangle.$$
 
 spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、反向.021645，为dimensionless C2的平均平方和。physicalE2仍乘相应的未知⟨n'l'|r²|nl⟩及电荷；hh、ff、hf不预设同一径向尺度。九项CG/独立球面积分/投影/对称控制过，只证角块与归一。
 
@@ -620,3 +617,11 @@ spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、
 若某个正A4**已被验证属于该ideal物理层**，则fE2≥A4/a4,max是必要条件。用[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8的三个不同阶段坐标作示意，376 Fig4.12的.3194给条件数.454147，376 Table4.4的.523给.743641，461.8 Table4.4的.502给.622271。它们是“若坐标层次满足前提”的算术示例，**不是本任务重建的实测E2份额、δ下限或置信限**；源图表/校正映射尚未给实际应用授权。
 
 这个数学范围表明取向自由并不使任意多极混合与任意A4自动相容，AD在已明确响应下可以有选根信息；同时actualarray有限acceptance、门、feeding及拟合处理能改变从净峰到所报系数的映射。不能从此表直接宣布Au某根已排除，也不能把缺实际输入反写成两谷必等深。新七控件只验证条件rank/正布居，不恢复原likelihood。共同Cov/校正阶段、完整phase/interface和响应仍是下一实际输入，无新Q/τ/机时。
+
+## Day23：显示曲线提供处理阶段的另一条可核线索
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-6的原Fig3(a)是raster而非vector路径。本任务固定像素轴后只提取红色published fit，不数字化黑点/误差棒或假定Poisson计数；508列的几何重建给A2≈−.672、A4≈.389。声明±1px轴标定/颜色/stride敏感性约[−.679,−.665]/[.383,.395]，不是统计CI或实际sourceparameter置信限。
+
+这条显示曲线与033声明Gaussian .2/源大δ前向形状接近；[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10的初始freefit与Table4.4又是其它阶段。因此后续共同向量至少区分：净峰与校正后的逐角输入、无δ约束的A2/A4 fit、选根及约束模型下的显示曲线、所列table系数。曲线形状相合可以支持处理阶段解释的可行性，却不能单独证明table去衰减、恢复原counts/Cov或给globalroot权重。
+
+六项imagehash/分辨率、红线选择、亚像素RMS、单位相消、先像素后轴变换等价及90个敏感性variant检查通过；它们只核图形提取，曲线与δ仍同一source链，不增加独立证据票。此次还修复035/038新增两处公式的Python转义显示字符，计算输入/数值结果未改。新needs_review:true，无新δ/Q/τ/设施率或机时。

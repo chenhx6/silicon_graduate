@@ -377,3 +377,9 @@ B槽下一检验仍须保持实测核素/计数/能级不变，固定完整opera
 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-005和[[signature-tip-shears-discrimination-contract]]给理想M1/E2 polar singles的rank4正布居凸包。它限制“取向可以任意补偿所有多极混合”的推断，也保留AD在明确响应下的条件信息；未将[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10不同处理阶段的表/图A4自动提升为该物理量。
 
 因此当前仍不从conditionalfraction算术给新实测δ或排除度，不预判谷深，也不抹支持方实际选低χ²分支信息。净峰→校正→freefit→选根表与共同response/Cov的绑定仍是最高信息输入。新needs_review:true，LW/SP及Au/Pt最终归属不变。
+
+## Day23：红色显示fit与其它AD阶段已能数值区分
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-6只对原376红色显示fit作图像形状提取，A2≈−.672、A4≈.389，声明图像敏感性范围含条件Gaussian前向值约−.668/.390；不是原实验计数的重拟合或新δ提取。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10的Fig4.12初始freefit与Table4.4值仍各自保留。
+
+[[signature-tip-shears-discrimination-contract]]将该结果用于阶段绑定线索，不据此认证原producer/全response、table去衰减或两根全球权重。完整净峰、校正输出、似然链与共同Cov仍是缺口，新needs_review:true，LW/SP及Band3身份争议保持。
