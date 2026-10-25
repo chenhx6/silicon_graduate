@@ -29,6 +29,7 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 
 - Day23实际376 δ上误差+.11、API时间窗/clock/total-vs-K及原conversion正文缺口见GU22-D23-001–012；现代导出不新增独立conversion票。
 - 实际官方ENSDF注释现已补出旧αK数值及其评价MR依赖，见GU22-D23-013–016；原paper全文仍缺。
+- 支持方同线Fig4.12与Table4.4系数阶段尚待绑定，见SE21-D23-8/9；不能直接当同一原始AD向量。
 - source模型β/参考core与多轨道算符迁移仍需冻结实际producer；[[signature-tip-shears-discrimination-contract]]保raw/相位/response输入边界，不作最终LW/SP终审。
 
 ## Research Question
@@ -321,3 +322,9 @@ source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；
 [[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-6/7现明确Au376/461.8的A2/A4/r、333.8参考αexp和σ/J=.2；原方法先选较低χ²根再邻域采样。它提供条件信息，窄printed误差不等全球双分支权重，也不能据未公开另一谷声称等深。该thesis与PRL保持同实验谱系。
 
 [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-4/5 fresh原图给δ−2.67±.07/−2.98±.02；在[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001名义表和历史能量上，其端点αK像与[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013四个旧quoted范围不相交。这使旧转换反证的条件更具体，仍缺primary归一、完整response/theoryCov和globalδ域，不报新显著性或最终归属。新needs_review:true，原LW/SP支持链及band3身份争议保留。
+
+## Day23：同名A2/A4在图表中有不同阶段
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9实际新核376的Fig4.12 A2/A4=−.6704/.3194，与Table4.4的−.730/.523不同。[[signature-tip-shears-discrimination-contract]]的条件kernel中，complete系数近Table4.4，Gaussian后376 A2近Fig4.12而A4仍有差；现有结果不认证table去衰减或原程序实现，只要求先恢复图表/校正/拟合阶段。
+
+kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002及[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001，KS应用和实际array/gate迁移仍有条件。下一共同向量必须绑定净峰、校正顺序、自由fit系数、选根输出与共同Cov；当前不将表系数与δ重复当独立证据，也不凭条件残差改判LW/SP。新needs_review:true，原支持链与反方测量各自保持。

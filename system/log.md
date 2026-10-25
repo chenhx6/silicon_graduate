@@ -4439,3 +4439,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T05:42:44.525705+08:00 Day23检查点031：真实quotedδ端点映射/五控制通过，旧αK四个逐点交集存在，无CI或jointfit认证；继续核支持方原Fig3误差与未公开fit条件，作两方对称的端点/模型输入审计。原15:00/partial[23,24]/next23保持。Git指针main · Day23: keep endpoint overlap separate from joint evidence；actualhash/H3仅task-publication-receipt-031.json。
 
 2026-10-26T05:50:20.762488+08:00 Day23检查点032：原Fig3/论文表实读、两rawSHA保持，五项输入/固定表端点控制过；支持方AD向量与局部采样条件明确；继续在声明相位/point/sigma条件下检验Au已报AD系数向量，不重建未知真实likelihood。原15:00/partial[23,24]/next23保持。Git指针main · Day23: recover Au angular vectors and branch sampling conditions；actualhash/H3仅task-publication-receipt-032.json。
+
+2026-10-26T05:58:21.203766+08:00 Day23检查点033：实际Fig4.12/Table4.4阶段差与八项条件AD组件控制；未认证去衰减/原producer或CI；继续直接用thesis Eq2.43/2.46的F系数核相位/完整取向参考，继续绑定Fig4.12与表的原处理步骤。原15:00/partial[23,24]/next23保持。Git指针main · Day23: separate Au coefficient stages before response comparison；actualhash/H3仅task-publication-receipt-033.json。

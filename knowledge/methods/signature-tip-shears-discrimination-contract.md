@@ -546,3 +546,18 @@ readiness新增具体项：1978两母态合并的选择/归一、1998报告族19
 源方法实际先比较二次式候选的χ²并选较低根，之后只在该根邻域采样；所以printed局部误差与全局双分支/所有nuisance的概率比较要分别记录。不能抹掉源χ²条件信息，也不能在未获另一谷曲线时假定其等深。PRL Ref26仍为未具名待刊；学位论文可读步骤是同支持链的补充说明，不新增实验。
 
 为对称检查两边印刷端点，[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-4/5的源376 δ−2.67±.07、461.8−2.98±.02在固定历史E和[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001名义FO下映为[.049200,.050472]/[.028840,.028995]。与[[guo-2022-low-spin-wobbling-187au]] GU22-D23-013旧αK各自printed范围不相交；这和031小δ端点像的四个交集构成明确的条件反证比较，仍无共同coverage/排除度。它检验的是所列printed端点与名义表的组合，不是原全允许大根族/校准系统的完整检验。新needs_review:true，不造δ/CI/绝对Q/τ或机时。
+
+## Day23：先绑定AD系数所处阶段，再作共同向量比较
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9收紧032的reduced-vector用法：Table4.4的列名是A2exp/A4exp，376字面(−.730,.523)；Fig4.12却给同线初始fit参数(−.6704,.3194)，图4.13的局部δ为−2.6637。这些字段与图的关系还需逐步校正/拟合输出，不能只据“experimental”列名当作未经衰减的净峰观测向量。A0在两个fit图的不同均值也不代表新的实测产额变化。
+
+在[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002和[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001的任务kernel下，额外假设quotedδ使用该KS发射坐标，得到：
+
+| 实际source centre | complete absM=1/2 A2/A4 | Gaussianσ/I=.2 A2/A4 | 假定参考α=.84/.81直接移用后的A2/A4 |
+|---|---|---|---|
+| 376.3 δ−2.67 | −.728040 / .523327 | −.668133 / .390306 | −.611553 / .423895 |
+| 461.8 δ−2.98 | −.699904 / .501974 | −.633247 / .358304 | −.587920 / .406599 |
+
+complete一列接近Table4.4，Gaussian的376 A2又接近Fig4.12，但A4仍有差。它们不能反推原作者用了哪种response或哪里有错：实际finiteangle/gate、参考α的定义/迁移、phase与修正顺序均未完整恢复。尤其参考333.8属于不同J，经验α移用只是另一个声明模型，不是已核原recipe或完整physicaldensity。
+
+这把A槽缺口定位为**原逐环净峰→效率/门/取向校正→自由A2/A4 fit→选根及其系数表**各阶段的映射和共同Cov。不同阶段同名A2/A4不得直接拼jointfit；derived table接近某理论也不能当新的独立支持。小δ中心在同任务条件下的A4约.028–.041，但未据此对原数据给排除数或预判谷深。`system/scripts/day23_au187_ad_vector_forward.py`八项hash/归一/rank/12–24节点控制通过，最大projection差约2e−14；这些只验证组件，未复现作者likelihood。新增needs_review:true，无新δ/Q/τ/CI/率或机时。

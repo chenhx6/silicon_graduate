@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T21:58:21.203766+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "实际Fig4.12/Table4.4阶段差与八项条件AD组件控制；未认证去衰减/原producer或CI",
+  "next_route": "直接用thesis Eq2.43/2.46的F系数核相位/完整取向参考，继续绑定Fig4.12与表的原处理步骤",
+  "missing_inputs": [
+    "original stepwise netpeak/efficiency/attenuation outputs and chains",
+    "full global response/covariance/producer",
+    "source equation phase vs actual interface mapping"
+  ],
+  "Day25_opened": false
+}

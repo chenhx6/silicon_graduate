@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-25T21:57:27.853940+00:00",
+  "raw_sha256": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74",
+  "actual_targeted_text": "printed40–42 formulas/59 Eq3.6/98–99 plots and method",
+  "fresh_visual": [
+    "PDF63",
+    "PDF64",
+    "PDF81",
+    "PDF120",
+    "PDF121"
+  ],
+  "extra_render_not_cited_as_Eq3point6": "PDF83, actualformulaPDF81 corrected",
+  "initial_contract_retained": "input-contract-033-initial.json; fresh Fig4.12 then refined033 role inputs before updatedmodel run",
+  "initial_implementation_failure": "numpy bool not JSON serializable, controls explicitly castbool before successful execution; no scientific result persisted by failed invocation",
+  "actual_fullpaper_newread": false,
+  "sourceproducer_phase_application_certified": false,
+  "eight_component_controls_pass": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true
+}

@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-25T21:51:16.518169+00:00",
+  "scope": "conditional ideal singles forward to actual reduced Au A2/A4 source vector, no original fit or calibration certification",
+  "kernel_files": {
+    "system/scripts/day23_halfspin_singles_response.py": "a6c93f9f32cb1425a5ddf2aeaebc935f346e838dedd322cee98b3fe9811829ec",
+    "system/scripts/day23_mixing_convention_bridge.py": "70a7159edd049fac2d3debbc0b51246a5c65270f8405358bc21020d4c9079cce"
+  },
+  "source_records": {
+    "SE21-D23-6": "Au376 A2-.730(2),A4.523(1);461.8A2-.699(1),A4.502(1);333.8ref alpha2=.84(1),alpha4=.81(1),sigma/J=.2",
+    "AU20-D23-4": "delta centres376-2.67/461.8-2.98",
+    "GU22-D23-001": "counter centres376-.26/462-.28, separate acquisition not same A2/A4 extraction"
+  },
+  "design_points": [
+    {
+      "two_I": 11,
+      "two_If": 9,
+      "source_energy_keV": 376.3,
+      "support_delta": -2.67,
+      "counter_delta": -0.26,
+      "reported_A2": -0.73,
+      "reported_A4": 0.523
+    },
+    {
+      "two_I": 15,
+      "two_If": 13,
+      "source_energy_keV": 461.8,
+      "support_delta": -2.98,
+      "counter_delta": -0.28,
+      "reported_A2": -0.699,
+      "reported_A4": 0.502
+    }
+  ],
+  "application_phase_assumption": "treat each quoted delta as precise emission KS coordinate, dRB=-delta; sourceproducer convention not certified. At most report this condition, not original model reproduction.",
+  "orientation_designs": {
+    "Gaussian": "normalized exp[-M²/(2sigma²)] with input sigma/I=.2, not assumed discreteRMS",
+    "empirical_transfer": "use complete absM=.5 angular coeff times alpha2=.84,alpha4=.81 fromdifferentJ333.8reference as extra target tensortransfer assumption, not certified original recipe or full density",
+    "complete": "equalpop absM=.5 reference; coefficientratio usedonlywhere nonzero"
+  },
+  "normalization": "W(theta)=1+A2P2+A4P4 fromintegrated singles normalized photon count; no actualacceptance/ringpointweights",
+  "controls": [
+    "12/24node angular projection agreement",
+    "C0 norm1/forbiddenmoments",
+    "complete/gaussian tensor independence fromdelta",
+    "declaredphase bridge fullamplitude invariance inherited no rerun",
+    "empiricalalpha transfer separate fromGaussian andsourceoutput"
+  ],
+  "prohibited": [
+    "using A2/A4 marginal errors as independentGaussian actualΣ",
+    "fitting sigma/delta/alpha orrescaling toforce source match",
+    "claim originalproducer fault/bias",
+    "predict equalminima or globaluniquebranch",
+    "new physicaldelta/tau/Q/beamtime",
+    "114producer"
+  ],
+  "revision_at": "2026-10-25T21:55:09.797278+00:00",
+  "revision_reason": "Fresh Fig4.12 shows raw-fit A2/A4 differ from Table4.4; preserve both layers and do not treat table as known unattenuated counts coefficients.",
+  "source_Fig4point12_376": {
+    "A2": -0.6704,
+    "A2_plus": 0.0136,
+    "A2_minus": 0.0134,
+    "A4": 0.3194,
+    "A4_plus": 0.0178,
+    "A4_minus": 0.0172,
+    "A0": 4027.8136,
+    "A0_plus": 20.3049,
+    "A0_minus": 20.7535,
+    "source": "printed98/PDF120Fig4.12 actualfreshvisual"
+  },
+  "source_Fig4point13_376": {
+    "delta": -2.6637,
+    "delta_plus": 0.0695,
+    "delta_minus": 0.0713,
+    "A0": 3977.5106,
+    "A0_plus": 16.6762,
+    "A0_minus": 16.5704,
+    "source": "printed99/PDF121Fig4.13actualfreshvisual"
+  },
+  "equation_scope": "actualreadEq2.42–2.51 printed40–42/PDF62–64 andEq3.6 printed59/PDF81; after fit Eq3.6 calls experimentalcoeff and then says Eq2.46solve, methods invokes2.46/2.48, tablemappingnotexplicit",
+  "new_boundary": "Fig4.12coeff/table4.4diff is actual source-layer difference, not new independent data or a proven paper error; source table aligns near complete-Mref prediction but that numerical coincidence alone does not prove deattenuation or producer implementation"
+}

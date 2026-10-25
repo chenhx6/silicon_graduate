@@ -226,3 +226,16 @@ Knowledge Impact and Learning Decision：supports更具体的科学run账本和�
 | SE21-D23-7 | printed98–99的五步方法先由A2二次式求允许δ，再计算每根χ²、选择较低χ²的根，随后只在所选δ附近作MCMC并同时算A2/A4和χ²likelihood；376为具体图例。A4未单独解二次式仍参与后续计算，初始A2/A4独立假设不等于最终Cov为0。该文字给真实选根/局部采样条件，不提供另根相对权重、完整nuisance-profile或全球posterior；不能由局部窄printed误差认全局唯一，也不能反推两根等深。 | original-fit-recipe-and-global-inference-boundary | direct-original-method | same-analysis-not-new-experiment | printed98–99 Figs4.12/4.13 and numbered steps1–5; printed97 sigma choice | true |
 
 [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-4的printedδ误差与此具体方法谱系连读，但本任务未获得原producer/逐环净峰/原全局曲线，不能认证PRL/学位论文每行实际实现逐字相同。samefraction σ/J=.2也不意味着不同spin/gate共享同一密度矩阵。[[signature-tip-shears-discrimination-contract]]保留这些逐线输入与迁移条件，SH26固定sigma的真实条件支持仍另列。
+
+## Day23：Fig4.12与Table4.4的系数层次需继续绑定
+
+本次定向读printed40–42 Eqs2.42–2.51、printed59 Eq3.6和printed98–99两corner plots，fresh视觉核PDF63/64/81/120/121；另定位PDF62文字。PDF83初次额外渲染不作为Eq3.6 locator，实际Eq3.6在PDF81。raw SHA保持，非全文重读。
+
+| ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| SE21-D23-8 | Fig4.12针对376.3标A2=−.6704(+.0136/−.0134)、A4=.3194(+.0178/−.0172)、A0=4027.8136(+20.3049/−20.7535)，与Table4.4同线A2exp=−.730(2)、A4exp=.523(1)的字面值不同。Fig4.13又标δ=−2.6637(+.0695/−.0713)、A0=3977.5106(+16.6762/−16.5704)。这些是同分析不同图表/参数阶段，未取得逐步输出与校正说明前不能直接合成一组独立原始观测或由A0差宣称真实产额改变；图中联合分布也不能补一个精确Cov。 | original-coefficient-layer-and-fit-stage-identity | direct-original-visual | same376-analysis-no-new-acquisition | printed98 Fig4.12; printed99 Fig4.13; printed117 Table4.4 | true |
+| SE21-D23-9 | 本任务在声明quotedδ为KS发射坐标、dRB=−δ的额外应用条件下，由halfspin singles计算support centres376/461.8的complete-absMhalf A2/A4为(−.728040,.523327)/(−.699904,.501974)，接近Table4.4字面；Gaussianσ/I=.2则为(−.668133,.390306)/(−.633247,.358304)。这只是条件前向诊断，不能由数值接近证明table已去衰减/原producer采用completealignment，也不能把乘α后的残差当原实验偏差。Fig4.12的376向量另保留，不能将其与Table4.4混作同一直接拟合输出。 | conditional-response-layer-diagnostic | source-input-plus-declared-task-model | no-new-data-or-original-fit | premises Eqs2.42–2.51; Fig4.12; Table4.4; task input-contract033 | true |
+
+Eq3.6把角分布fit写为A0(1+A2P2+A4P4)，并称由峰面积拟合得experimental A2/A4后用Eq2.46解δ；§4.4.1则同时提Eqs2.46/2.48和选定σ。究竟Table4.4列值处于哪一步、是否已校正衰减/几何以及不同图表的映射，现有文字未在本任务完成闭合。输入合同保留最初版本及发现Fig4.12后定向修订，不用后发现的层次差去改源数值。
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002与[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-001给任务kernel/phase前提；源producer接口尚未认证。[[signature-tip-shears-discrimination-contract]]将complete、Gaussian及移用参考α三种声明模型分别记录；原数据/δ/globalroot均未重拟，新needs_review:true。

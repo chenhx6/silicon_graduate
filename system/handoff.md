@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点032（Day24仅无学分预习）
+## Active handoff — Day23检查点033（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-031已published。032fresh原PRL376 δ−2.67±.07、461.8−2.98±.02；thesis Au333.8参考α2=.84(1)/α4=.81(1)、σ/J=.2，376 A2/A4=−.730(2)/.523(1)，461.8=−.699(1)/.502(1)，r=.48(3)/.38(1)非GuoRac。五步先选低χ²根再该邻域MCMC，A4仍参与、不假等谷。名义FO下supportprinted端点像[.049200,.050472]/[.028840,.028995]与四旧quoted范围不交，无新置信排除。AU20-D23-4/5、SE21-D23-6/7/方法/Au needs_review。下一用声明response检验实际AD向量，保原producer/共Cov缺口。
+032已published。033 freshEq2.42–2.51/3.6/Fig4.12/13：376初始fit A2−.6704(+.0136/−.0134)、A4 .3194(+.0178/−.0172)，表4.4−.730/.523属于待绑定阶段；Fig4.13δ−2.6637(+.0695/−.0713)。声明KS应用时completeMhalf系数近table，Gaussian .2另有差，不能反推去衰减或paper错误。新SE21-D23-8/9/方法/Au needs_review；八组件控制过。下一sourceF独立相位/系数核验，未原jointfit，noequalvalleys。
 
-详next-continuation-032.md/candidate-pool-032.json；检查以required-checks-032.json为准。Git指针main · Day23: recover Au angular vectors and branch sampling conditions；actualhash/H3仅task-publication-receipt-032.json。
+详next-continuation-033.md/candidate-pool-033.json；检查以required-checks-033.json为准。Git指针main · Day23: separate Au coefficient stages before response comparison；actualhash/H3仅task-publication-receipt-033.json。
 
 ## Previous handoff — Day22 closeout
 
