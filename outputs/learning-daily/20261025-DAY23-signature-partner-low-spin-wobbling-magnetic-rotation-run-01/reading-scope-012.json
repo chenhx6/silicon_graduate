@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-25T17:19:33.069489+00:00",
+  "scope": "targeted original-model/EM input and limitations, not new full rereads",
+  "Lv": {
+    "text": "mainPDF4–5 and SI4/6 Calculations, orbitalmap and authorenergy limitation",
+    "fresh_visual": "tmp/day23-originals/lv-si-p6-012.png",
+    "SI_sha256": "c25cf17ce10efb2d62fc27a665082df7bffeb30f0044726b2730754b035bf225",
+    "hash_matches": true
+  },
+  "Guo": {
+    "text": "mainPDF3 and SI4/5 QTR/Table1/Fig3 text",
+    "fresh_visual": "tmp/day23-originals/guo-si-p4-012.png",
+    "SI_sha256": "8525caa69d98e808253e3c790430982451f621a01ce4e7f438ab3fe1d836bcd6",
+    "hash_matches": true
+  },
+  "H02": "Eq9 already fresh011; task angular derivation scope explicit",
+  "new_observations": false,
+  "review": "new claims true; inherited human-reviewed untouched"
+}

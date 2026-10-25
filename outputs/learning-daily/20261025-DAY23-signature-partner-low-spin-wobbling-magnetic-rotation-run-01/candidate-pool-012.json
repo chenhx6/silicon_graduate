@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-25T17:22:24.315456+00:00",
+  "decision": "continue active current-card research, useful routes remain, no closeout",
+  "slot_A": {
+    "next": "half-integer spin single-photon direction/Stokes kernel using original RB67 amplitudes and DR96 explicit Gaussian width; actual full gate/geometry/likelihood still missing",
+    "already_read_this_checkpoint": "canonical DR96/RB67/ST99 actual scope/phase/erratum/feeding boundaries, and oldday16/17 mathematical helper read only; no old producers run",
+    "required_before_implementation": "read targeted RB67 printed316–320/312footnote and DR96 Eq19 originals/visual/hash; define lab polarizations and delta-coordinate mapping, then model contract",
+    "forbidden": "do not carry integer-only kernel to Pr; no real P/Rac fit with point-ring equalweights; no root equality without likelihood"
+  },
+  "slot_B": {
+    "result": "full l/s exact operator shows single-j transfer conditional; source QTR original space/parameters retained",
+    "next": "fixed-state mapping/actual operator readiness stays open; no arbitrary wavefunction coefficients"
+  },
+  "current_card_novelty": "MR/AMR original scientific routes remain if gain; not all routes saturated",
+  "Day24": {
+    "opened": false,
+    "credit": "none",
+    "preview_rule": "exactly one after current useful route saturation, never Day25"
+  }
+}

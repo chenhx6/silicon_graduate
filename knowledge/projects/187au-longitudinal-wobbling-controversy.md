@@ -278,3 +278,9 @@ Day23后续追溯：Bourgeois1978精确DOI已核为10.1016/0375-9474(78)90184-7�
 | 支持方模型范围 | h9/2 LW/SP | 另有h11/2 hole-like TW候选 | thesis γ调40°及25/2等失稳仅该参数模型；不是Guo376/462直接测试的同一带对 |
 
 source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；无统一operator/producer前不发布同输入拟合胜负。外部187Hg导出还只提供字段身份：GU22-D23-009/010/011确认母核Hg→Au、jp属于母核、强度全空及electron service-code0的非测量含义。它不补历史αK或实验上限。
+
+## Day23：h9/2主导不等于完整单j磁算符
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012定向核SI Table1：#21和#22明确包含h9/2与f7/2来源，完整9轨道空间另含h11/2；仍保Band1/#19与Band2/#21的作者主要归属。标签/柱形图不等于带符号完整Nilsson/BCS系数，不能仅从dominant h9/2把实际EM振幅认证为某个公共gj j。
+
+[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004的h双伙伴角代数只是算符迁移边界，**不是本核新跃迁/混合含量预报**。当前source模型比single-j任务空间更广，亦不自动消除参数/response/Cov缺口。common-scale双比若要用于实际376/462，须先原EM矩阵/phase与occupation/定标输入，不从Pr单j数值跨核搬值。详[[signature-tip-shears-discrimination-contract]]；新needs_review:true，LW支持与独立P–Rac反证继续并存。

@@ -232,3 +232,14 @@ Supports/limits：保留作者的支持或反对解释，并将逐线测量、�
 | L22-D23-001 | SI Table1给Band2/Band3在17/2−的Ei分别1433.9/1477.9keV，在21/2−分别2159.4/2203.9keV；同I中央差E3−E2为44.0/44.5keV。它们是不同序列的能级，不是跨实验测量差或两δ分支；完整能级Cov未在本任务恢复，未据此计算新显著性。 | line-bound-same-spin-level-identity | direct-original-and-centre-arithmetic | SI PDF5 Table1, Band2/Band3 rows482.1/747.3 and725.5/813.2 | true |
 
 这些已发表中央值可检验指定模型下的mapping，但原源/旧模型参数的能谱定标谱系须保留；本任务对照不自动成为blind holdout。实际固定H练习见[[signature-tip-shears-discrimination-contract]]，未修改原实测计数、δ或能级。
+
+## Day23：QTR输入与共同磁尺度的适用条件
+
+本次针对SI PDF4/6 calculations、主文PDF4–5比较限制回读，SI PDF6重新视觉核并校验原SHA；未新称重读全主文/SI。原L22-1–15及page人审历史保留，以下仅Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| L22-D23-002 | SI采用10个费米面附近负宇称轨道，proton Fermi44MeV，gs,eff=.6gs,free及gcore=Z/A；#14/#15/#16为h11/2来源、波函数主分量随band/spin变化。Nilsson/配对使用standard参数的文字及上述g值，不等于已公开每一轨道相干振幅/占据和完整EM矩阵；本任务single-j commonSM因子化不能只凭这句标准参数便认证为完整QTR。若多个Nilsson分量严格同一l,j且无其它operator/coherence影响，单j投影仍可成立；轨道数多本身不是反例。 | original-QTR-input-and-singlej-transfer-boundary | direct-original-plus-bounded-operator-inference | SI PDF4 Calculations; SI PDF6 first two paragraphs and band-by-band wavefunctions | true |
+| L22-D23-003 | 主文称标准QTR对bands1/3/4能量符合较好，但bands2/5偏高且高spin更明显；作者提出1qp/3qp相互作用或所有bands共用MoI等可能因素。这些是模型适用限制与可能解释，不是已测混合矩阵元，也不允许本任务用任意off-diagonal项为固定009最低两态补齐44keV。 | author-model-limitation-and-candidate-explanations | direct-original | main PDF5 paragraph beginning Five rotational bands | true |
+
+[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004和[[signature-tip-shears-discrimination-contract]]给出单j与完整l/s算符的迁移合同，不把当前ST18单jvariant的gap失败扩大成对本QTR的数值排除。没有依据standard一词补造κ/μ/Δ或原producer。

@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-25T17:15:35.311921+00:00",
+  "physical_object": "fixed l and spin1/2 angular space containing j=l+-1/2; exact angular-algebra component, not a nuclear wavefunction or new configuration assignment",
+  "source_premises": [
+    "H02 PDF2 Eq9 full gl*l+gs*s magnetic operator",
+    "Lv2022 SI4/6 10 negative parity orbitals and pairing, constant gs,eff=.6gs,free and gcore=Z/A only do not prove single-j operator projection",
+    "Guo2022 PDF3 nine negative-parity orbitals, proton Fermi near highest h11/2 and lowest h9/2, h9/2-dominant states"
+  ],
+  "operator": "mu=gR*I+(gl-gR)*l+(gs-gR)*s. Between distinct j irreps, j=l+s has zero matrix element, so l=-s and intrinsic M1 is proportional to (gs-gl)*s, not (gj-gR)*j. No numerical g supplied.",
+  "input_spaces": [
+    "l=1,s=.5 analytic control",
+    "l=5,s=.5 h-shell angular component only; not physical Au/Pr state"
+  ],
+  "algorithm": "explicit uncoupled l*m_l x s*m_s spin matrices, CG transform into full jminus/jplus direct sum; inspect blocks and spherical matrix norms",
+  "validation": [
+    "unitary complete CG transform",
+    "j total generator equals direct sum spin matrices for each Cartesian axis",
+    "l and s Casimir closures",
+    "offdiagonal l+s zero but l,s each nonzero",
+    "spinflip B(jplus->jminus)/unit coefficient²=l/(2l+1), reverse detailed balance",
+    "diagonal s=+-j/(2l+1) in each j block",
+    "sum over all final j/m/q gives s(s+1), includes elastic/upward",
+    "equal gl=gs makes spin-orbit offdiagonal intrinsic magnetic tensor vanish symbolically, no physical coefficient chosen"
+  ],
+  "dimension": "hbar=1; normalized angular strengths only, no actual BM1/muN²/delta/tau/Q",
+  "limitations": [
+    "pure angular basis is not source QTR eigenstate",
+    "actual mixing phases/occupations/BCS coefficients/radial integrals and effective operators remain unavailable",
+    "do not claim gs-gl chosen or actual h partner transition measured",
+    "no direct use to refit counts, assign modes, or disprove single-j approximation globally",
+    "original fixed-H mapping failures009/010 and SH26 conditional response support retained"
+  ]
+}

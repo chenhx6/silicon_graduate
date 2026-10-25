@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint011）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint012）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T01:11:05.885187+08:00
+- checked_at: 2026-10-26T01:22:24.315456+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -46,6 +46,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint012定向回读Lv主文4–5/SI4/6与Guo主文3/SI4–5；fresh视觉Lv SI6、Guo SI4且原SHA相符。新增L22-D23-002/003、GU22-D23-012核actual modelspace、source参数与bands2/5限制；H02-D23-004是由完整l/s算符作的本任务纯角代数，不归属作者新结果。未机械全文重读/不增独立实验票。
 
 checkpoint011定向回核H02 PDF2 Eq9并fresh visual/hash、ST18 PDF3 Eq7 labCG；不新称全文重读。H02-D23-003明确single-j投影与总I生成元、静态/跃迁边界；ST18-D23-011/012为本任务normalized M1及尺度消去推导，非原作者新结果。Lv Table1原δ/线能量仅重用，不增加独立观测。
 
@@ -82,6 +84,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint012在model-contract先行后实现完整l×s1/2 CG空间。l1/l5两域22项unitarity/Casimir、j直和生成元、跨j l+s相消、Landé对角投影、spinclosure/详细平衡通过。l5归一角B_s(11/2→9/2)=5/11，反向6/11；跨j磁系数为gs−gl而非一个乘j的gj。未选实际g/混合权重/radial/BCS，不是Au/Pr physical BM1或新核态。
 
 checkpoint011先写model-contract-011再实现rank1 particle-j lab tensor：weak j+R基底逐m/MR CG求和，R/KR保持，再用已核U变换。未知SM=sqrt(3/4π)(gj−gR)μN整体因子化，不默填g。两C处方各32项freeR0/triangle/reverse/详细平衡/两个labM/jclosure/j+R生成元/对角Casimir控制通过，closure误差≤3.6e−14ℏ²；与009能谱、010 E2差0。closure只对j，含up/elastic，不当完整磁矩/γsum。Eq11两mapping在813候选normalized E2/M1强度比.081527/.081645接近，绝对强度却差约两数量级；单个ratio不可恢复绝对强度。共同scale下跨线(δ747/E747)/(δ813/E813) A/B=.978261/1.112823（旧C .968807/1.140861）。Lv已有提取中心重用为1.382288，缺jointCov不做CI/拟合判决。
 
@@ -123,6 +127,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint012原模型有多轨道/配对，但轨道多不自动破坏single-j投影：严格同l,j的Ω混合仍可因子化。Au #21/#22有h/f来源，说明不能只凭h9/2主导文字认证整个operator。原Lv QTR对bands2/5偏高的限制来自作者；当前single-j失败不排除原QTR，也不靠任意mixing修复。011跨线D须原完整EM矩阵/phase与occupation决定可否common-scale消去，缺项不填。
+
 checkpoint011的μ=gR I+(gj−gR)j在静态量必须保留gR项；j+R跨I相消检查不能误说M1全为0。当前PRM的j可动力学变化，非新frozen-alignment计算。未知SE/SM使physicalδ保持null；跨线双比只在同operator、spin-independent尺度与共同phase下消去scale，不修复009/010能量/退激方向。跨母态M1比需要两τ/完整branch/转换/响应，不用relative counts代替；真实P/Rac仍可选择分支，不宣称两谷等深。
 
 checkpoint010强调两道门：量子矩阵元非零不代表同H允许该γ退激；某个ratio接近也不修复009的energy/state-mapping问题。chargeγ/Hγ相同共轴、core-only、跨spinconstantordinal和pureE2分母均须明示；526在原SI多极性/Rac空白，不能虚构独立E2确认。物理M1算符/effg、particleE2、多轨道/配对、actualresponse/Cov仍缺，不由normalizedE2补造δ、τ、Q或机时。原conditional大根AD支持与反方P–Rac链继续并列。
@@ -155,6 +161,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 
 ## Knowledge Impact and Learning Decision
 
+checkpoint012 limits：把单j数学练习迁移原QTR的条件具体到完整l/s算符和真实模型空间；supports：原源存在明确多轨道/配对和公开的参数/归属链，不抹掉作者支持；revises：不以轨道数量或h主导文字认证共同g尺度。纯角22checks只核这一数学对象。
+
 checkpoint011 supports：同H的rank1/2连接及静态a互核，能将“configuration重指派”转成相对强度和尺度消去检验；limits：混合比接近可掩盖不同绝对强度，未知算符/response/Cov与不闭能谱阻止模型或核态认证。新needs_review:true。
 
 checkpoint010 supports：将源旋转tensor与精确CG/独立积分连接，取得同H相对E2向量；limits：闭合/强度/能量方向/分母身份要各自检验，不能把上跃B当放光或把cross-band526当inband。对同一E2operator的数学控制仍不是模式或实验认证，未给两形式解释同等可信度。
@@ -185,7 +193,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
   "items": [
     {
       "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-      "summary": "原图修正376keV上误差为+.11；分开自有a/外部Q及462选门依赖。 补Rupnik母核原文Ag字面与馆藏Hg摘要的身份边界。 核定Bourgeois1978 DOI且原conversion表仍缺。 补外部官方API时间窗/端点/total-vs-K/重复unc_hl与母态τ边界，raw正式归档deferred。 补187Hg母核/γ初态clock及空强度/service-code0，v0/v1记录同集不同顺序。",
+      "summary": "原图修正376keV上误差为+.11；分开自有a/外部Q及462选门依赖。 补Rupnik母核原文Ag字面与馆藏Hg摘要的身份边界。 核定Bourgeois1978 DOI且原conversion表仍缺。 补外部官方API时间窗/端点/total-vs-K/重复unc_hl与母态τ边界，raw正式归档deferred。 补187Hg母核/γ初态clock及空强度/service-code0，v0/v1记录同集不同顺序。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
       "anchor": "Day23 原件复核：误差上标与新增观测的依赖",
       "sources": [
         {
@@ -231,12 +239,20 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
           "locator": "GU22-D23-011"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-012"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D23-004"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -350,6 +366,22 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
           "locator": "ST18-D23-012"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D23-004"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-003"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-012"
         }
       ]
     },
@@ -427,7 +459,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
-      "summary": "隔离Guo引用母核文字疑点，明确Rupnik仅元数据/摘要可访问，历史αK仍非本次直接核阅。 保留支持方非刚性j几何及reference尺度/不同带对边界。",
+      "summary": "隔离Guo引用母核文字疑点，明确Rupnik仅元数据/摘要可访问，历史αK仍非本次直接核阅。 保留支持方非刚性j几何及reference尺度/不同带对边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
       "anchor": "Day23：历史conversion的直接证据缺口与母核文字",
       "sources": [
         {
@@ -441,6 +473,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
           "locator": "SE21-D23-4"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D23-004"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-012"
         }
       ]
     },
@@ -552,7 +592,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
-      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。",
+      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
       "anchor": "Day23：run重叠与observable继承分开",
       "sources": [
         {
@@ -582,6 +622,18 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
           "locator": "ST18-D23-012"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D23-004"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-003"
         }
       ]
     },
@@ -684,18 +736,30 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
-      "summary": "同I Band2/Band3的17/2和21/2能级44.0/44.5keV中央差，原SI表fresh视觉/哈希核验，无新CI。",
+      "summary": "同I Band2/Band3的17/2和21/2能级44.0/44.5keV中央差，原SI表fresh视觉/哈希核验，无新CI。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
       "anchor": "Day23：同I两序列的能级中央值",
       "sources": [
         {
           "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
           "locator": "L22-D23-001"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-002"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-D23-003"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D23-004"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
-      "summary": "定向原Eq11旋转张量与特殊γ/rH/M1条件，复用general形式但不迁轴/角或特殊禁戒。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。",
+      "summary": "定向原Eq11旋转张量与特殊γ/rH/M1条件，复用general形式但不迁轴/角或特殊禁戒。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
       "anchor": "Day23：四极张量旋转、轴约定与特殊选择条件",
       "sources": [
         {
@@ -709,6 +773,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
           "locator": "H02-D23-003"
+        },
+        {
+          "path": "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+          "locator": "H02-D23-004"
         }
       ]
     },
@@ -739,6 +807,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint012实际boundary/lint/diff/multij_angular均0，两个l域共22项控制通过；true runner报告及累计20页changed知识写回valid。lint0error/220warning与182旧citation债务保持；canonical方法、Pr/Au和原source新条目均needs_review:true。next-continuation-012.md/candidate-pool-012.json保持原goal/截止，当前A槽半整数响应有用路线继续、Day24未打开。Git稳定指针main · Day23: delimit single-j operator transfer to QTR；actualhash/H3看task-publication-receipt-012.json。
 
 checkpoint011实际boundary/lint/diff/M1_Eq11/M1_Eq3均0，两处方各32项finiteI/rank1控制通过；true runner报告/累计20页changed知识写回valid。首次缺显式source回链的writeback门已补链接并复检。lint0error/220warning、182旧citation key缺项，未新开Day24。next-continuation-011.md/candidate-pool-011.json保持原goal/截止；Git稳定指针main · Day23: verify particle M1 and mixing-scale boundaries，实际hash/H3只见task-publication-receipt-011.json。
 

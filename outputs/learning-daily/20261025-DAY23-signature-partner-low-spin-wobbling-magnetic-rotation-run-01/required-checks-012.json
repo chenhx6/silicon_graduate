@@ -1,0 +1,106 @@
+{
+  "observed_at": "2026-10-25T17:22:51.724918+00:00",
+  "scope": "checkpoint012 exact multij angular component and original QTR input readiness only; no experimental or mode certification",
+  "commands": {
+    "boundary": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    "lint": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "n review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-1 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-2 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-3 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-4 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-5 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-6 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-7 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-8 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-9 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-10 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-15 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-16 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-17 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-18 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-19 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-20 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-12 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-13 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-15 awaits human review\nGOVERNANCE page_unreviewed=636 source_unreviewed=324 claims=5165 claim_needs_review=4455 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=182\nSUMMARY pages=714 wikilinks=9196 hashes=350 errors=0 warnings=220 info=4455\n",
+      "stderr_tail": ""
+    },
+    "diff": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "multij_angular": {
+      "argv": [
+        "python3",
+        "system/scripts/day23_multij_m1_operator.py",
+        "--output",
+        "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/multij-m1-operator-012.json"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"all_controls_pass\": true, \"checks\": 22, \"results\": [{\"l\": 1, \"s\": 0.5, \"j_minus\": 0.5, \"j_plus\": 1.5, \"dimension\": 6, \"normalized_spin_tensor_B_hbar2\": {\"plus_to_plus\": 0.4166666666666663, \"plus_to_minus\": 0.3333333333333332, \"minus_to_plus\": 0.6666666666666664, \"minus_to_minus\": 0.08333333333333331}, \"control_details\": {\"CG_unitarity_error\": 2.220446049250313e-16, \"total_j_directsum_error\": 4.440892098500626e-16, \"spin_complete_closure_error_hbar2\": 4.440892098500626e-16, \"orbital_Casimir_error_hbar2\": 4.440892098500626e-16, \"offdiagonal_total_j_error\": 5.551115123125783e-17, \"diagonal_spin_projection_error\": 5.551115123125783e-17}, \"controls\": {\"complete_CG_basis_unitary\": true, \"l_plus_s_directsum_j_generator\": true, \"total_j_has_no_cross_irrep_matrix\": true, \"spin_Casimir_closure\": true, \"orbital_Casimir_closure\": true, \"diagonal_Lande_projection\": true, \"spinflip_plus_minus_analytic\": true, \"spinflip_minus_plus_analytic\": true, \"reverse_detailed_balance\": true, \"spin_tensor_nonzero_between_partners\": true, \"each_initial_irrep_spin_sum_three_quarters\": true}, \"all_controls_pass\": true}, {\"l\": 5, \"s\": 0.5, \"j_minus\": 4.5, \"j_plus\": 5.5, \"dimension\": 22, \"normalized_spin_tensor_B_hbar2\": {\"plus_to_plus\": 0.29545454545454547, \"plus_to_minus\": 0.45454545454545464, \"minus_to_plus\": 0.5454545454545456, \"minus_to_minus\": 0.20454545454545453}, \"control_details\": {\"CG_unitarity_error\": 4.440892098500626e-16, \"total_j_directsum_error\": 1.7763568394002505e-15, \"spin_complete_closure_error_hbar2\": 3.3306690738754696e-16, \"orbital_Casimir_error_hbar2\": 2.1316282072803006e-14, \"offdiagonal_total_j_error\": 6.938893903907228e-16, \"diagonal_spin_projection_error\": 1.3183898417423734e-16}, \"controls\": {\"complete_CG_basis_unitary\": true, \"l_plus_s_directsum_j_generator\": true, \"total_j_has_no_cross_irrep_matrix\": true, \"spin_Casimir_closure\": true, \"orbital_Casimir_closure\": true, \"diagonal_Lande_projection\": true, \"spinflip_plus_minus_analytic\": true, \"spinflip_minus_plus_analytic\": true, \"reverse_detailed_balance\": true, \"spin_tensor_nonzero_between_partners\": true, \"each_initial_irrep_spin_sum_three_quarters\": true}, \"all_controls_pass\": true}]}\n",
+      "stderr_tail": ""
+    }
+  },
+  "runner_report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "runner_writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "knowledge/questions.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/sources/clark-2000-shears-mechanism.md",
+      "knowledge/concepts/shears-mechanism.md",
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/concepts/signature-partner-bands.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/concepts/shears-mechanism.md",
+      "knowledge/concepts/signature-partner-bands.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/questions.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/clark-2000-shears-mechanism.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "all_pass": true
+}

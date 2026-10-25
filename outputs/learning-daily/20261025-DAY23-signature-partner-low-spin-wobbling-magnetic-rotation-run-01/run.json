@@ -30,11 +30,11 @@
   "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-26T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-26T01:11:05.885187+08:00",
+    "now_local": "2026-10-26T01:22:24.315456+08:00",
     "hard_deadline": "2026-10-26T15:00:00+08:00",
     "next_scheduled_start": "2026-10-26T16:00:00+08:00",
-    "minutes_to_deadline": 828,
-    "minutes_to_next_start": 888,
+    "minutes_to_deadline": 817,
+    "minutes_to_next_start": 877,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -47,8 +47,7 @@
       23
     ],
     "next_day_index": 23,
-    "Day24_opened": false,
-    "scope": "active checkpoint011; original goal and deadline; formal credit deferred"
+    "Day24_opened": false
   },
   "prompt_file": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/prompt.md",
   "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
@@ -63,6 +62,6 @@
     "-a",
     "never"
   ],
-  "checkpoint_receipt": "runtime-snapshot-011.json",
-  "latest_continuation": "next-continuation-011.md"
+  "checkpoint_receipt": "runtime-snapshot-012.json",
+  "latest_continuation": "next-continuation-012.md"
 }

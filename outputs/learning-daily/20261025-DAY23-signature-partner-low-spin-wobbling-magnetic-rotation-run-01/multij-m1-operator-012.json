@@ -1,0 +1,92 @@
+{
+  "status": "exact-angular-operator-component",
+  "hbar": 1,
+  "source_premise": "H02-D23-003 Eq9; full orbital/spin magnetic tensor before single-j projection",
+  "symbolic_cross_j_operator": "<jminus|mu_intr|jplus> = (gs-gl)<jminus|s|jplus>; <jminus|j|jplus>=0",
+  "symbolic_diagonal_g": "gj_plus=gl+(gs-gl)/(2l+1); gj_minus=gl-(gs-gl)/(2l+1). No numerical gl/gs/gR chosen.",
+  "normalized_cross_strength": "B_M1(jplus->jminus) / [(3/(4pi))*(gs-gl)^2*muN^2] = l/(2l+1) for this pure angular component only",
+  "results": [
+    {
+      "l": 1,
+      "s": 0.5,
+      "j_minus": 0.5,
+      "j_plus": 1.5,
+      "dimension": 6,
+      "normalized_spin_tensor_B_hbar2": {
+        "plus_to_plus": 0.4166666666666663,
+        "plus_to_minus": 0.3333333333333332,
+        "minus_to_plus": 0.6666666666666664,
+        "minus_to_minus": 0.08333333333333331
+      },
+      "control_details": {
+        "CG_unitarity_error": 2.220446049250313e-16,
+        "total_j_directsum_error": 4.440892098500626e-16,
+        "spin_complete_closure_error_hbar2": 4.440892098500626e-16,
+        "orbital_Casimir_error_hbar2": 4.440892098500626e-16,
+        "offdiagonal_total_j_error": 5.551115123125783e-17,
+        "diagonal_spin_projection_error": 5.551115123125783e-17
+      },
+      "controls": {
+        "complete_CG_basis_unitary": true,
+        "l_plus_s_directsum_j_generator": true,
+        "total_j_has_no_cross_irrep_matrix": true,
+        "spin_Casimir_closure": true,
+        "orbital_Casimir_closure": true,
+        "diagonal_Lande_projection": true,
+        "spinflip_plus_minus_analytic": true,
+        "spinflip_minus_plus_analytic": true,
+        "reverse_detailed_balance": true,
+        "spin_tensor_nonzero_between_partners": true,
+        "each_initial_irrep_spin_sum_three_quarters": true
+      },
+      "all_controls_pass": true
+    },
+    {
+      "l": 5,
+      "s": 0.5,
+      "j_minus": 4.5,
+      "j_plus": 5.5,
+      "dimension": 22,
+      "normalized_spin_tensor_B_hbar2": {
+        "plus_to_plus": 0.29545454545454547,
+        "plus_to_minus": 0.45454545454545464,
+        "minus_to_plus": 0.5454545454545456,
+        "minus_to_minus": 0.20454545454545453
+      },
+      "control_details": {
+        "CG_unitarity_error": 4.440892098500626e-16,
+        "total_j_directsum_error": 1.7763568394002505e-15,
+        "spin_complete_closure_error_hbar2": 3.3306690738754696e-16,
+        "orbital_Casimir_error_hbar2": 2.1316282072803006e-14,
+        "offdiagonal_total_j_error": 6.938893903907228e-16,
+        "diagonal_spin_projection_error": 1.3183898417423734e-16
+      },
+      "controls": {
+        "complete_CG_basis_unitary": true,
+        "l_plus_s_directsum_j_generator": true,
+        "total_j_has_no_cross_irrep_matrix": true,
+        "spin_Casimir_closure": true,
+        "orbital_Casimir_closure": true,
+        "diagonal_Lande_projection": true,
+        "spinflip_plus_minus_analytic": true,
+        "spinflip_minus_plus_analytic": true,
+        "reverse_detailed_balance": true,
+        "spin_tensor_nonzero_between_partners": true,
+        "each_initial_irrep_spin_sum_three_quarters": true
+      },
+      "all_controls_pass": true
+    }
+  ],
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_multij_m1_operator.py": "63f732d31d25335e17bccf7c6101c13b2711d74609e2fd502131ab45d65a02f1",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "No nuclear rotor coupling, radial/BCS amplitudes, state configuration weights, response, actual BM1, delta or lifetime calculated.",
+    "l=5 h11/2/h9/2 basis is an angular component, not an observed Pr/Au state or transition.",
+    "Spin closure includes all diagonal and reverse/upward matrix elements, not gamma branch completeness.",
+    "This proves common single-j scale cancellation is conditional, not that it necessarily fails numerically in an h-dominant actual QTR state.",
+    "No original QTR producer or new experiment is certified; missing mixing amplitudes prevent transfer of this component to a nuclear prediction."
+  ]
+}

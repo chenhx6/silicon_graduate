@@ -3,15 +3,15 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint011（持续研究）
+## Active handoff — Day23 checkpoint012（持续研究）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，nativegoal active/Farmer2698 running，completed=[] partial=[23] next23，Day24未打开。原Day21/22信用、raw/PLAN/Bib/旧reviewflags保持；114隔离producer不跑。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25、goal active/Farmer2698，completed=[] partial=[23] next23，Day24未打开。原Day21/22credit/raw/PLAN/Bib/旧reviewflags与114隔离producer边界保持。
 
-011完成同H normalized particle-j/M1，SM未知不造g/δ。H02Eq9原件p2freshvisual/hash、ST18Eq7labCG；跨I totalI项不连接，静态gR项保留。两C各32controls通过，jclosure含up/elastic非γ/fullmu总和；与009H/010E2差0。本脚本是独立任务实现，非原作者producer/新frozenj核态认证。
+012实际定向核Lv/Guo原QTR模型空间/波函数文字：Pr10轨道/配对，Au9轨道且#21/#22含h/f；新增L22-D23-002/003、GU22-D23-012。先合同后exact l×s1/2 CG算符，新script day23_multij_m1_operator.py两个l域22controls过；跨j总j=0而l=-s非0，磁项∝gs-gl，不普遍缩gj*j；纯角B_s5/11、6/11不当实际核态/BM1。多个严格同l,j的Ω混合仍可投影，不能按轨道数自动否决commonSM。完整相干/BCS/EM输入仍缺，009/010能谱/退激问题保留，不排除原QTR或借任意mixing修复。
 
-两mapping的813 normalized E2/M1比.081527/.081645接近而绝对强度约两数量级差；共同scale跨线D A/B=.978261/1.112823，Lv已报中心重用1.382288无jointCI。M1跨母态比需两tau/完整branch/转换。009gap与010的526上跃/分母问题保持，physicaldelta null；SH26固定σ/I大根条件支持保留，不推两谷等深。
+fresh boundary/lint/diff/angular0、true报告/20changed知识写回valid，0error/220warning。下一A槽半整数singles direction/Stokes响应，已读canonical RB67/D96/ST99和旧helper只读；先原公式/visual/hash和新合同，不把integer-only结果迁Pr或point/equalweights当实际finitegate。σ明确D96std，Lvvariance文字歧义保留；phase/delta坐标须核，真实两谷不预判。
 
-fresh boundary/lint/diff/两M1退出0，true runner20changed页写回valid，0error/220warning。第一次writeback缺source链接已补复检过，非科学源失败。下一原Lv多轨道QTR配置/EMoperator与定标谱系，不把单jvariant排除所有模型；route饱和才Day24一张无学分预习，原15:00前持续。详model-contract011/mixing-readiness011/candidate-pool011/next-continuation011；Git指针main · Day23: verify particle M1 and mixing-scale boundaries，实际H3/hash见task-publication-receipt-011.json。
+详candidate-pool012/model-contract012/next-continuation012；原15:00前持续，还有有用路线，未授分/未开Day24。Git指针main · Day23: delimit single-j operator transfer to QTR；实际H3/hash见task-publication-receipt-012.json。
 
 ## Previous handoff — Day22 closeout
 

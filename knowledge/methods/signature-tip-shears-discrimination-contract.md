@@ -319,3 +319,23 @@ $$D=\frac{\delta_{747}/E_{747}}{\delta_{813}/E_{813}}
 [[lv-2022-evidence-against-wobbling-135pr]] L22-4的已报中心值与747.3/813.2keV给D中央1.382288。它只重用原δ提取，不是新增独立实验；两条不对称marginal误差及共用校准不构成joint likelihood，当前不造CI、显著性或宣布哪一mapping获胜。unknown model scale也不意味着真实P/Rac不能选根，SH26固定σ/I=.2的大根条件支持仍须保留。
 
 另一个伴随量是跨母态的M1强度比，Eq11下A/B为1.266129/.850170，旧C为1.303501/1.106566，scale在相同算符下消去。实测它仍需**两母态寿命、全部退激分支及转换修正**，不能用两线计数或relative intensity直接代替。必要输入还包括正确Jπ/placement、净谱与响应/feeding的共同Cov、未用于本任务定标的EM输入，以及首先可接受的same-H能量mapping。不存在的τ/Q/δ、实验率和机时保持空缺。新推断needs_review:true。
+
+## Day23：从单j练习迁移到原多轨道QTR的算符门
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-002/003与[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012将原模型与当前ST18单j任务variant分开：Pr的10轨道/配对、Au的9轨道含h11/2/h9/2/f7/2，都有实际source前提。Au #21/#22还明确列混合来源；Pr #14/15/16虽均为h11/2来源，也不由“standard parameters”给出完整相干幅/occupation/EM矩阵。**不同Nilsson轨道不自动意味着不同spherical j**；若严格限制同一l,j且同一常数单体算符，任意Ω混合仍保留single-j投影。因此既不能默搬共同SM，也不能只数轨道就断言SM必失败。
+
+完整磁矩在跨I时为 $(g_l-g_R)\mathbf l+(g_s-g_R)\mathbf s$。在同l、s1/2的两个j不可约子空间间，总j=l+s的矩阵元为0，所以 $\langle j_-|\mathbf l|j_+\rangle=-\langle j_-|\mathbf s|j_+\rangle$，而两项各自一般非零；相应M1系数是 $g_s-g_l$，不是可乘零跨j生成元的一个gj。对角block则有 $\mathbf s=\pm\mathbf j/(2l+1)$，恢复两种Landé投影。该exact角代数见[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004，源码`system/scripts/day23_multij_m1_operator.py`保完整l×s空间与CG变换。
+
+l=1和l=5的22项unitarity、Casimir、j directsum、跨j l+s相消、diagonal投影、closure与detailed-balance检查通过。l5纯角分量的 $B_s(11/2\to9/2)=5/11$、反向6/11，角矩用ℏ=1；不是实际Au/Pr的γ强度，未选gl/gs/gR、radial/BCS或混合权重。gs=gl时该跨伙伴磁算符消失只是符号极限，不代表核内实际系数相等。closure包括elastic/upward，依旧不是实验branch sum。
+
+由此，011跨线D尺度消去只有在实际EM振幅能共同因子化时才适用。完整模型中须先核l/s与core、particle E2各项的相干组合、轨道/占据与配对约定、参数定标集和共同phase；不能把实际多轨道矩阵写成一个未经证明的g_eff，再把缺项当已消去。当前exact分量只证明迁移有条件，不证明它在某个h-dominant具体态必然给显著偏差；实际大小仍缺输入。
+
+| 输入层 | 原件目前可核 | 仍缺/不能默补 |
+|---|---|---|
+| Pr QTR H | ε2.16/γ26、Harris12.5/12.5、10负宇称、Fermi44MeV、standard Nilsson/pairing | 完整数值轨道系数/占据与原实现，不按standard造κ/μ/Δ |
+| Pr QTR EM | gs,eff=.6gs,free、gcore=Z/A文字 | 全相干EM矩阵/phase及逐量定标史，不能只用这两常数重放模型 |
+| Au QTR H/space | ε2.21/γ12、Harris25/8、9轨道与Table1来源、bands主要#19/#21 | 表标签与柱图不是完整波函数/BCS矩阵；不臆填h/f权重 |
+| task单j variant | 009–011完整H、两C与normalized operator均已固定/可重算 | 只限定此variant与mapping；energy失败不排除原多轨道QTR |
+| 实验response | 两篇原P/Rac/gates/误差及外部校准链 | 原net spectra/feeding/共同Cov/likelihood与独立τ仍缺 |
+
+可证伪问题修订为：**固定一个足以描述实际能级的明确组态空间、算符与定标集后，候选configuration能否同时预报未用于定标的跨线δ/E形状和跨母态强度比？** 必要伴随量仍是两τ、完整branch/转换及逐线response；先确认common-scale条件或直接用完整EM振幅，不因代数可写或source模型较完整就给等可信度/最终模式认证。新needs_review:true，SH26条件AD支持与Pr/Au实际反证并列保留。

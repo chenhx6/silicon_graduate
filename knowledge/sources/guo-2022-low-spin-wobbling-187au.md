@@ -244,3 +244,13 @@ Knowledge Impact and Learning Decision：supports对376/462近能量/端点和�
 同查询另取guide所列v1服务后，187Hgγ返回同样595行，文件SHA不同，但按全部字段字符串及重复行计数作multiset比较完全相同（0个v0-only、0个v1-only）；区别是若干同能量条目的顺序。电子v1同样返回0，字节/hash相同。不能把逐行zip的母态/能量差当新评价变化，也不能以能量单列去重而丢掉不同母态数据。该核验仅比较本次两个响应，不断言接口在所有核素/所有版本恒等。
 
 v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；URL仅将上述v0换v1。本次原始快照仍未正式raw归档，不能把字段一致当多源独立确认。
+
+## Day23：原QTR多轨道内容与磁算符readiness
+
+本次定向回读主文PDF3参数段与SI PDF4/5 QTR/Table1/Fig3说明，SI PDF4 fresh视觉核，原SI SHA相符；不新称全文重读。旧G22人审claims保持，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-012 | SI Table1的9轨道包含h11/2、h9/2与f7/2来源；#21列(h9/2;3/2)、(f7/2;1/2)，#22列(f7/2;1/2)、(h9/2;3/2)、(h9/2;1/2)。Band1主要#19、Band2主要#21，另有#19/#21/#22/#23分量。故dominant h9/2不是严格纯单j声明；这些标签/图中柱不能替代完整带符号振幅、BCS occupation、radial及磁/电矩阵元。单jnormalized SM/SE消去结果只能作为条件练习，不能直接认证本QTR双比或从图补造physicalδ。 | original-QTR-model-space-and-operator-readiness | direct-original-and-bounded-inference | SI PDF4 Table1 and QTR calculations; SI PDF5 Fig.3 and text | true |
+
+跨j的完整磁算符边界见[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004。其l5角代数只是h双伙伴分量，不是本论文实际波函数含量，更不计算h/f混合或观测到的新M1。主文给J0=25/J1=8、ε2=.21/γ12°，这些输入与支持方PRM不同；冻结实验D进行替代解释可行，但不能称二者是只换configuration的同H受控实验。

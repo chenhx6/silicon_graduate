@@ -141,3 +141,11 @@ Page and all H02 claims remain unreviewed with `needs_review: true`. Human revie
 | H02-D23-003 | Eq9将磁矩分成gR I、(gl−gR)l与(gs−gR)s；常数gR下，正文明确M1跃迁来自后两项。本任务进一步在固定单j不可约空间投影gl l+gs s=gj j，得到μ=gR I+(gj−gR)j。I生成元不连接不同I，在同I的multiplicity上为单位，所以不同本征态间也不能由该项产生跃迁；对角静态矩则保留gR项。这是声明投影下的推导，不是本文完整多轨道/BCS算符复现，也不由此规定实际gj。 | source-operator-and-declared-projection | direct-original-plus-explicit-task-derivation | PDF2 Eq.9 and following paragraph | true |
 
 本任务finite-I PRM的j可随波函数变化；其normalized M1数值不冒充另一次frozen-alignment计算。F14已有冻结j仍有M1的结论保留；这里核实的是lab算符/生成元与静态、跃迁量之间的边界。
+
+## Day23：single-j投影的完整空间边界
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| H02-D23-004 | 由Eq9的完整l/s磁算符出发，本任务在固定l、s=1/2的j=l±1/2完整角空间作CG变换。总j=l+s在两不可约j之间无矩阵元，但l、s各自非零且相反，因此跨j磁矩正比(gs−gl)s，而非某个常数(gj−gR)j；同一j block中才有s=±j/(2l+1)。l1/l5两域22项角代数控制通过；l5的B_s(11/2→9/2)=5/11、反向6/11，均为ℏ=1的纯角分量，不是实际核态、physical B(M1)或新观测。 | declared-exact-angular-operator-boundary | task-derivation-from-source-full-operator | PDF2 Eq.9; task model-contract-012 and multij-m1-operator-012 | true |
+
+该结果界定单j因子化可迁移的条件；不会因为某个QTR包含多个Nilsson轨道，就自动证明其actual matrix element不能近似单j。完整模型还须轨道振幅、相位、占据/配对与effective operator，不能用本代数练习代替。

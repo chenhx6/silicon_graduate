@@ -296,3 +296,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 共同算符/scale前提下，跨线D=(δ747/E747)/(δ813/E813)的模型A/B为.978261/1.112823；L22-4已报δ与线能量只给派生中央1.382288，不给jointCI或新独立票。两母态τ与完整branch/转换修正可提供跨母态M1比这一伴随检验，但当前输入缺失，不造τ/功效/机时。模型scale未知不抹掉SH26固定σ/I条件支持，也不能预判真实response两谷等深。新增综合needs_review:true。
 
 直接前提回链：[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-003；[[streck-2018-behavior-collective-rotor-wobbling]] ST18-D23-011/012。
+
+## Day23：原QTR与单j任务variant的比较边界
+
+[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-002/003回核原QTR10轨道/配对/费米44MeV和bands2/5能量偏高的作者限制；旧L22-15人审范围不扩张。当前009–011单jvariant的energygap失败不能当原QTR已被数值排除；也不能为原模型默造完整effective operator和Nilsson/BCS系数。
+
+[[signature-tip-shears-discrimination-contract]]的新算符门与[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004表明：多个同j Ω/Nilsson分量本身不会破坏single-j投影，跨不同j的l/s项却不能普遍缩成一个gj j。011的scale-free双比适用性需要原EM矩阵/phase和occupation核实，尚未认证该原QTR的实际D预报或差异显著性。source主导轨道文字不是完整相干幅，缺项不补。新综合needs_review:true。
