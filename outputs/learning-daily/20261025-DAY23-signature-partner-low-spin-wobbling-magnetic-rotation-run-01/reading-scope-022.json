@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-25T19:52:23.334528+00:00",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "BK24": {
+    "actual_scope": "PDF7/8Sec2.4/Fig8 andtext",
+    "fresh_visual": 8,
+    "sha256": "46e19f9654d4e966638757c7e71fdb6fd0ff8800a039e356eb0f6ee60b552f3d",
+    "not_new_full32_read": true,
+    "role": "secondarymodelbackgroundnotnewexperiment"
+  },
+  "actualCSV": "018fullsnapshotquery4candidatecells forward/inverse absent, notzeroB/upperlimit",
+  "math": "dimensionlessfixedprojector/unitary/phase/leakage onlynotnuclearoperator",
+  "initial_failure": "weightedfunctionalchosendifference.02909 didnotexceedarbitrary1test; unchangedinputs, correctnonzerotolerance1e-3 plusreportfullvalues;notactualnuclearprecisioneffect",
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "acceptance_failure": "Initiallint interpreted nestedmatrixbrackets aswikilink1,2; changedprosematrixnotationtoparentheses. TruewritebackextraBKrefonMu07withoutdirectlink removed, actualdependenciesretained; freshsuite rerun."
+}

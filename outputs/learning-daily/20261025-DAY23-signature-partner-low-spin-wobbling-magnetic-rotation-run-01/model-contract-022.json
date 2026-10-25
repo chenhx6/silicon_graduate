@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-25T19:47:19.174575+00:00",
+  "sources": [
+    "LKH82Eq2.3a andreverseRME/detailedbalance, actualformulaalreadyread",
+    "FM97signature/intrinsic/quantum distinctions andF01-C algebra, task021WE convention",
+    "Bark2024actualtargetreadPDF7/8/Fig8 manybandpairing caveat, reviewsecondary notnewexperiment",
+    "actual135Ndgammas/levels snapshots018 andmissingA->Bcell identityliteralquery"
+  ],
+  "object": "fixedinitial/finalI sameparityclosed2D multiplicityprojectors, abstractcommonoperatorRMEblock R. No actualchargedensity/magneticonebodyoperator or nucleus realization asserted.",
+  "basis_change": "Rprime=Uf†RUi,Hprime_i=Ui†HiUi,Hprime_f=Uf†HfUf, Ueachunitary oncompleteprojector. Singularvalues/Frobenius invariant but labelledentries redistribute becausebasisnotgenerallyenergyeigenbasis.",
+  "physical_mixing": "with fixed T andchangedH=UHU†, newenergy eigenstateRMEsU†T U mayredistribute; it is a changedHamiltonian evenifisospectral. NondegeneratefixedH allows onlyphases/permutation asenergy-eigenbasis relabel, notarbitrarymixing.",
+  "intensity_limit": "ΣB overcompleteblock=TrR†R/(2Ii+1). Not photonwidthsum acrossdifferentEγ/parents. Physical γ observation may omitupward/out-ofwindowbutmatrixelementsnotzero.",
+  "phase_counterexample": "Rplus=[[1,2],[3,4]],Rminus=[[1,2],[3,-4]], dimensionless. Sameallentry|R|² andFrob30 but|det|²4vs100, singularvaluesdifferent. Gauge-invariant loop R11R22R12*R21* flips; no actualphase setmeasured.",
+  "design_unitaries": "realorthogonalangles.31,-.47 andcomplexunitaryphasecoordinate.23 tocheckgeneralcase; notstateconfigurationweightsfromdata",
+  "leakage_control": "embed2×2blockinlarger3Dspace; mixselectedsubspacewiththirdstate, pairblockstrengthsumneednotinvariant; full3Dsumstillinvariant. Showmissingprojectorsinvalidatesclosedpairtest, notnewnuclearstate.",
+  "actual_block_missing": "forcandidateA/B M1I->I-1 missingAinitial55/60/63/68->Bfinal56/59/61/66 ΔEcentres−130.7/1.4/125.6/254.0keV. Noeitherdirection row inactualsnapshot; missing≠measuredzero/limit. idx56inverseparentτblank,wholeobservedblocknotready. Needµcomponentandphase/branchresponse plusactualenergy/CI at1.4.",
+  "validation": [
+    "unitarity andSVD/Frob preservation",
+    "basisH/transformedoperator reproducesoriginalphysmatrixelements whenactualstatecoordinatesalsotransformed",
+    "sameHnondegeneratearbitraryU doesnotcommute, changedHisospectral distinct",
+    "exactintegerphaseexample allintensitiesequalanddetdifferent",
+    "row/colphasegauge invariantloop",
+    "leakageinvalidatesselected2stateblock butnotfullsum",
+    "sumBnotwidthsum fordeclaredpositiveenergiesE1MeV/E2MeV illustrativeonlynotnucleargamma",
+    "actualsnapjoin/time/currentversion/missingrows notfakeabsence"
+  ],
+  "prohibited": [
+    "fourBmoduli determinesingularvalueswithoutloopphase",
+    "closed2statebecauseonly2bandsobserved",
+    "energygapgivessmalloffdiagonalEMkernel",
+    "abstractphaseexamplephysicalpartner orconfigurationfit",
+    "fillingunobservedM1_ABas0",
+    "physicalg/delta/Q/tauCI/rate/beamtime/Day24credit/Day25",
+    "run114producer"
+  ]
+}

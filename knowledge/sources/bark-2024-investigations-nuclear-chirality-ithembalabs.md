@@ -3,7 +3,7 @@ type: source
 title: "Bark et al. 2024 - Investigations of nuclear chirality at iThemba LABS"
 aliases: [Bark 2024 iThemba nuclear-chirality review, iThemba LABS chirality programme]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-10-26
 status: active
 review_status: unreviewed
 source_type: journal-review
@@ -176,3 +176,13 @@ P0: none identified.
 ## Evolution Log
 
 - 2026-08-11: deep-read ingest completed; persisted realistic-fingerprint limits, the `193,194Tl` multiple-band ambiguity, the `106Ag` counterexample, `82Se` reconciliation and Eq.(5) conflict.
+
+## Day23内的Day24无学分预习：完整band manifold与配对边界
+
+本次定向回读PDF7/8的多粒子同组态多带段，fresh视觉PDF8 Fig8/正文，32页raw SHA46e19f9654d4e966638757c7e71fdb6fd0ff8800a039e356eb0f6ee60b552f3d相符，未新称全文重读；旧flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BK24-D24P-001 | 本综述Fig8和正文比较同组态六条模型带，指出真实角动量可重排/能带cross，单靠能量排序不必给正确partner；作者建议尽量找到同组态的多条带，并结合qp角动量和decay patterns。这里是二手模型/方法线索，不是135Nd新数据，也不证明实验已观察的两个bands就是封闭完整2state子空间。 | secondary-model-and-projector-readiness | directly-read-review-not-independent-experiment | PDF7 Sec2.4; PDF8 Fig8 and following paragraphs | true |
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004的封闭EM块不变量需要额外完整projector/固定算符条件；它不是本综述直接提出的已核实实验判据，也不由本节给实际nuclear singular values或mixing angle。

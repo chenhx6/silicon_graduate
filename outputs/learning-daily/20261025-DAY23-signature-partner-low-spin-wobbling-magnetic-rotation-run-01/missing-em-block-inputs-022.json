@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-25T19:44:41.496847+00:00",
+  "query": "actual135Nd018CSV forward/inverse matchingcandidateM1A->Bcell",
+  "pairs": [
+    {
+      "A_initial_idx": "55",
+      "B_final_idx": "56",
+      "central_A_minus_B_keV": -130.7,
+      "two_I_initial": 31,
+      "forward_or_inverse_rows_seen": false
+    },
+    {
+      "A_initial_idx": "60",
+      "B_final_idx": "59",
+      "central_A_minus_B_keV": 1.4,
+      "two_I_initial": 33,
+      "forward_or_inverse_rows_seen": false
+    },
+    {
+      "A_initial_idx": "63",
+      "B_final_idx": "61",
+      "central_A_minus_B_keV": 125.6,
+      "two_I_initial": 35,
+      "forward_or_inverse_rows_seen": false
+    },
+    {
+      "A_initial_idx": "68",
+      "B_final_idx": "66",
+      "central_A_minus_B_keV": 254.0,
+      "two_I_initial": 37,
+      "forward_or_inverse_rows_seen": false
+    }
+  ],
+  "scope": "literal snapshot omission/readiness, not experimentalabsence, zeroB, limit or nuclearstateaddition",
+  "candidate_family": "historicalA/B mapping per018, notproofallcomponents",
+  "missing_inverse_parent": "B29/2 idx56 clockblank andMU07TableBstarts31/2",
+  "noCI": true
+}

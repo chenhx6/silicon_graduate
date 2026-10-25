@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint021（持续研究，Day24仅无学分预习）
+## Active handoff — Day23 checkpoint022（持续研究，Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25，goalactive/Farmer2698；completed=[] partial=[23,24] next23，Day24恰好preview无学分/不Day25，正式credit仅23。仍11h+持续不收束，raw/PLAN/Bib/旧review/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25，formalcredit只23。还有11h持续不日终，raw/PLAN/Bib/旧flags/credit/114producer保护。
 
-021先合同后40DgoodI×2multiplicity rotational/T/C invariant H和完整WE rank1/2 tensors；47controls过、max3.4e-15。alpha能量/B可以不同，Kramers/M只在irrep内；abstracttensor非实际onebody核EM/handednucleus，两case改tensor不是只改configuration。specialrealEMkernel界2eps/(1+eps²)需额外未知eps，不从小gap/旧QtCI取值。新增F01-D24P-003/LKH82-D24P-002/3/concept，仅needs_review，新核态/g/CI未造；Mu07特定支持不抹。
+022新fixedEMblock/mixing script17checks过：封闭sameI/If+fixedT才保ΣB/Frob/SVD，physicalmix改H；same4Bmoduli可有loopphase/det不同（abstractR±、非实际onebodyEM）。pairprojectorleakage与Eγweightedwidth非不变量。actual135Nd四A->B缺格中心ΔE−130.7/+1.4/+125.6/+254，无snapshot行不是0B/上限，inverseB29/2τ空，不造δ。BarkreviewPDF7/8target+visual8只secondary多带配对背景，新BK24-D24P-001/LKH82-D24P-004/5/MU07-D24P-008与概念/Day23方法桥needreview。
 
-fresh checks0/true30changedwritebackvalid/lint0error220warning。下一sameDay24preview bandmix vsbasischange与完整同I/If EM block invariants：ΣB/Frobenius需要固定operator+完整projectors，4B模仍缺loopphase，非Γsum；已target读Bark2024p7/8文本强调多带配对不唯一，secondary非新实验。实际Nd018missingA->B四cell中心ΔE−130.7/1.4/125.6/254keV，snapshot均无正逆行、首逆B29/2 τ空；不当absence/0B/新delta，upward矩阵仍可存在。详next-continuation021/candidate-pool021。Git指针main · Day23: distinguish rotation symmetry from partner-strength dynamics；actualH3/hash仅task-publication-receipt-021.json。
+freshchecks0/true31changed知识writebackvalid/lint0error220warning；首3brokenlinks矩阵brackets及extraBKref已修重跑。下一原decaypatternsource E.A.Lawrie2017PhysScr92,094006 DOI10.1088/1402-4896/aa80ee Crossref真实核title/abstract，body当前publisherrestricted/OpenAlexclosed/noOA/raw无；可有界合法作者机构仓储，不凭题名modelindependent认证判据。详next-continuation022/candidate-pool022。Git指针main · Day23: separate fixed EM blocks from physical band mixing；actualH3/hash仅task-publication-receipt-022.json。
 
 ## Previous handoff — Day22 closeout
 

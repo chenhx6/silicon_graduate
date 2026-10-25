@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-25T19:57:11.997807+00:00",
+  "formal_day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue originalwindow/sameDay24uncreditedpreview, no earlycloseout",
+  "bounded_result": "fixedclosedEMblock invariants/loopphase/physicalmixing scope +actual135NdmissingA->Bcells,17math/inputcontrols",
+  "next_highvalue": "Lawrie2017 originaldecaypatternstest PhysScr92,094006 DOI10.1088/1402-4896/aa80ee (BarkreviewRef15) title/abstractCrossrefverified, bodycurrentlyrestricted/closed; seekboundedlawfulauthorrepositoryroute, no externalmessage orcredentialchanges. It directlytargetscurrentconfig-only/decaypatternquestion; do not use model-independent title asproof.",
+  "discovery_so_far": {
+    "crossref": "actual2results,exacttitle/ELawrie/year2017/92(9)094006/DOI andabstract",
+    "publisher_discovery": "restricted_target",
+    "openalex": "closed/noOA/norepositorylocation; JSONtmp/day23-originals/lawrie2017-discovery023.json",
+    "raw_exists": false
+  },
+  "fallback_samecard": "originaltwo-partner135NdemstrengthTAC/RPA/geometry andactual128Csg-factorcomparison onlyifsource-specificunresolvedoperatorinputgain, notduplicatealreadycorrectedcalculations",
+  "boundaries": [
+    "noDay25orformalDay24credit",
+    "missingAPIrow!=measuredzeroB",
+    "4moduli!=fullRMEphase; noactualloopphasecomputed",
+    "closedprojector/physicalonebodyoperator assumptionsremainconditional",
+    "do notturnnewmathcomplianceintoactualnuclearmodecertification"
+  ]
+}

@@ -135,3 +135,11 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 \left|\frac{B_+-B_-}{B_++B_-}\right|\le\frac{2\epsilon}{1+\epsilon^2}.$$
 
 等强在这里依赖小EM cross-kernel这一额外条件，不能只由能谱小gap为ε赋数。没有真实operator/局域化/混合及Cov，就不把该界转成Qt形变1% CI、physicalg equality gate或模式排他认证。[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的特定强度图样与具体TAC/RPA一致仍是支持链；这个数学边界既不抹掉它，也不验证其原γ/normalizer ledger。仍只有Day24无学分预习。
+
+## Day23内的Day24无学分预习：只换标签、物理混合与矩阵完整性
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004/005将三种动作分开：普通基底变换同时变H、T和态坐标，不改物理矩阵元；固定非简并H的energy-eigenstate relabel只容phases/permutation，不能任意旋混；固定T的真实态混合则要给改变的H，即使能谱被构造为isospectral。不能把一个矩阵旋转自动当成只改configuration assignment已解释同一数据。
+
+固定完整Ii/If子空间时，R→Uf†RUi保Frobenius和singular values、保ΣB的unweighted trace；但只观察两带不证明封闭projector，混入第三态会改变选定块。[[bark-2024-investigations-nuclear-chirality-ithembalabs]] BK24-D24P-001的多带模型只是相关背景，不能当实际135Nd封闭性证据。不同Eγ/parent的率要分别加权，不能把B trace当总光子宽度恒等式。
+
+即使四个B模齐备，相对loop phase仍可能使det/singular values不同；R=((1,2),(3,±4))是确切dimensionless例。它只是数据类型需求，不给实核operator或测得phase。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-008还发现候选完整M1块的反向跨带单元缺数据，其中首个direct transition为上跃；不能设B0凑块。下一检验须同时有正确projector、endpoint/component/normalizer与足够相干信息。特定135Nd手征支持与竞争解释继续并列，不形成统一排他gate；Day24仍无正式信用。

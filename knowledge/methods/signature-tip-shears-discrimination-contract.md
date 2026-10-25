@@ -416,3 +416,9 @@ uniform Cn、n>4使ηq=0 (q=1…4)，足够消去所有offdiagonal；这不是n>
 Day24无学分preview的135Nd诊断（[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-006/007）对本卡A槽提供一个方法桥：相近图点/同spin/相同B标签仍不足以证明可相加、相除或用于δ。需同时绑定γ的parent/daughter、multipole component、能量幂与absolute/conditional normalizer；同parent的M1_in与E2_in也可能属于ΔI1/2不同支路，不能直接当混合γ两成分。
 
 模型component标签m对应I→I−m见[[almehed-2011-chiral-vibrations-a135]] AL11-D24P-001，B到光子率见[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-001。多量联合比较应先核这个quantity identity再比较数值；未闭合时不由形式可行的normalization重解释赋同等可信度、不把legacy budget控制当paper-error认证。此方法迁移不把135Nd物理结果迁到Pr/Au，也不授Day24学分。
+
+## Day23：configuration relabel的可检验范围
+
+从Day24无学分preview迁回本卡的方法合同：[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004/005区分basis change、energy-eigenstate relabel与fixed-operator physical mixing。保持原实验counts/level scheme的替代解释可以换mapping，却不能把改变H/算符/截断空间的数值变换称作“仅换configuration”。本卡009–011的ordinal交换保H与operator，能量gap不被换标签修复；它不是对任意多轨道alternative的否证。
+
+完整EM块的不变量或phase反例只有在同Ii/If、固定operator、封闭projectors及所需RME信息齐备才可用；[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-008的实际缺单元说明，未测/上跃/逆向不应填零来制造完整性。该方法仅迁移逻辑，不迁移核素数值、actualδ或新机时，所有新推断needs_review:true。

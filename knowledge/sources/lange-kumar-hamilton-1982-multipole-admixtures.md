@@ -444,3 +444,14 @@ Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** li
 | LKH82-D24P-003 | 特殊实L/R transition kernel aI+bσx给归一partner差商2ab/(a²+b²)。额外假设a非零且abs(b/a)≤ε≤1时，其绝对值≤2ε/(1+ε²)，b=0恢复相等。ε是EM cross-kernel约束，不是由小谱劈裂直接测得的重叠/隧穿强度，当前没有本核ε或实际g/B界。 | declared-additional-dynamical-bound | conditional-algebra-not-nuclear-inference | task model-contract-021; F01-D24P-002 two-state premises; printed121 Eq.2.3a | true |
 
 [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]的C与量子恢复前提不能替代具体电磁kernel。该构造只证明列出的抽象对称性不足，实际固定核EM算符/组态/局域化可能加入很强限制；不以它否定[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的具体数据与TAC+RPA支持，也不从数学可行赋竞争解释同等物理可信度。
+
+## Day23内的Day24无学分预习：固定EM块、基底与物理混合
+
+沿Eq2.3a及LKH82-13的RME/方向关系，本节为任务矩阵代数延伸，不新增全文阅读或核模型实现。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LKH82-D24P-004 | 固定同Ii/If、同parity且封闭的initial/final二态projectors和同一operator，R′=Uf†RUi保TrR†R与singular values，ΣB=TrR†R/(2Ii+1)。同时改变H/态坐标只是basis change，physical eigenstate矩阵元不变；固定非简并H不能任意混合为另一个energy eigenbasis，固定T作真实isospectral混合也改变H。子空间漏到第三态时，选定pair块的ΣB可变；unweightedB sum也不等不同Eγ的width sum。 | fixed-projector-operator-invariant-and-scope | declared-matrix-algebra-from-RME-definition | printed121 Eq2.3a; task model-contract-022 | true |
+| LKH82-D24P-005 | 任务实矩阵R+=((1,2),(3,4))和R−=((1,2),(3,−4))的四个entry模平方相同、Frobenius²均30，但det模平方4/100，singular values不同。loop R11R22R12*R21*在row/column核态rephasing下不变且两例符号相反，故即使完整四B也不必定出全部相干不变量。该例无核素或onebodyEM实现，不给实际环路phase或物理mixing angle。 | declared-phase-information-counterexample | exact-task-matrix-and-unitary-controls | LKH82-D24P-004 premises; task em-block-mixing-022 | true |
+
+本任务17项unitary、fullbasis eigen-amplitude、isospectral-H distinction、exactsign/loop、projector leakage及actualsnapshot missingcell控制通过。[[bark-2024-investigations-nuclear-chirality-ithembalabs]] BK24-D24P-001给多带projector不可默闭合的模型背景；[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-008给实际输入缺口。两个数学R不是赋等可信的竞争核模型；B模中的核态loop phase也不等于同一γ的E2/M1 δ符号。

@@ -1,0 +1,216 @@
+{
+  "status": "closed-block-mixing-and-readiness-design",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "scope": "Abstract fixed-projector/operator RME identities and official135Nd missing-cell inventory; no nuclear mixing fit or physical loop-phase observation.",
+  "design_base_RME": [
+    [
+      1.0,
+      2.0
+    ],
+    [
+      3.0,
+      4.0
+    ]
+  ],
+  "design_transformed_entry_strengths": [
+    [
+      0.3411293572726662,
+      0.11177636424915383
+    ],
+    [
+      18.723970606936934,
+      10.82312367154125
+    ]
+  ],
+  "invariants_base": {
+    "Frobenius_squared": 30.0,
+    "singular_values": [
+      5.464985704219043,
+      0.36596619062625746
+    ],
+    "absolute_determinant_squared": 4.000000000000002,
+    "loop_product_real_imag": [
+      24.0,
+      0.0
+    ]
+  },
+  "invariants_after_unitary_basis": {
+    "Frobenius_squared": 30.0,
+    "singular_values": [
+      5.464985704219042,
+      0.3659661906262573
+    ],
+    "absolute_determinant_squared": 4.0,
+    "loop_product_real_imag": [
+      0.8924912902534384,
+      2.6326060673254776
+    ]
+  },
+  "equal_intensity_different_loop_case": {
+    "plus_R": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "minus_R": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        -4
+      ]
+    ],
+    "plus_invariants": {
+      "Frobenius_squared": 30.0,
+      "singular_values": [
+        5.464985704219043,
+        0.36596619062625746
+      ],
+      "absolute_determinant_squared": 4.000000000000002,
+      "loop_product_real_imag": [
+        24.0,
+        0.0
+      ]
+    },
+    "minus_invariants": {
+      "Frobenius_squared": 30.0,
+      "singular_values": [
+        5.116672736016927,
+        1.9543950758485487
+      ],
+      "absolute_determinant_squared": 100.00000000000004,
+      "loop_product_real_imag": [
+        -24.0,
+        0.0
+      ]
+    }
+  },
+  "basis_change_eigen_amplitude_error": 4.163336342344337e-17,
+  "declared_higher_space_leakage": {
+    "full_Frob2": 55.0,
+    "selected_pair_before": 30.0,
+    "selected_pair_after": 28.41110603643807
+  },
+  "chosen_dimensionless_weighted_sum": {
+    "weights": [
+      [
+        1.0,
+        2.0
+      ],
+      [
+        3.0,
+        4.0
+      ]
+    ],
+    "before": 100.0,
+    "after": 100.02908859274677,
+    "scope": "Arbitrary positive entry weights illustrate a non-invariant weighted functional, not actual photon energies/rates or a fitted nuclear effect."
+  },
+  "actual_snapshot_missing_cells": [
+    {
+      "candidate_two_I_initial": 31,
+      "A_initial_idx": "55",
+      "B_final_idx": "56",
+      "A_energy_keV_string": "3649.9",
+      "B_energy_keV_string": "3780.6",
+      "A_jp": "(31/2-)",
+      "B_jp": "(29/2-)",
+      "central_A_to_B_deltaE_keV": -130.69999999999982,
+      "forward_or_reverse_row_present_in_snapshot": false,
+      "B_final_level_half_life_string": "",
+      "B_final_level_clock_unit": "",
+      "matrix_element_or_B_assigned": null,
+      "boundary": "No snapshot row is not an experimental absence/upperlimit/zeroB. A negative central decay energy does not zero the reverse/absorption matrix element; near1.4keV lacks energy covariance/IC/measurement readiness."
+    },
+    {
+      "candidate_two_I_initial": 33,
+      "A_initial_idx": "60",
+      "B_final_idx": "59",
+      "A_energy_keV_string": "4008.1",
+      "B_energy_keV_string": "4006.7",
+      "A_jp": "(33/2-)",
+      "B_jp": "(31/2-)",
+      "central_A_to_B_deltaE_keV": 1.400000000000091,
+      "forward_or_reverse_row_present_in_snapshot": false,
+      "B_final_level_half_life_string": "1.012",
+      "B_final_level_clock_unit": "ps",
+      "matrix_element_or_B_assigned": null,
+      "boundary": "No snapshot row is not an experimental absence/upperlimit/zeroB. A negative central decay energy does not zero the reverse/absorption matrix element; near1.4keV lacks energy covariance/IC/measurement readiness."
+    },
+    {
+      "candidate_two_I_initial": 35,
+      "A_initial_idx": "63",
+      "B_final_idx": "61",
+      "A_energy_keV_string": "4414.5",
+      "B_energy_keV_string": "4288.9",
+      "A_jp": "(35/2-)",
+      "B_jp": "(33/2-)",
+      "central_A_to_B_deltaE_keV": 125.60000000000036,
+      "forward_or_reverse_row_present_in_snapshot": false,
+      "B_final_level_half_life_string": "0.60",
+      "B_final_level_clock_unit": "ps",
+      "matrix_element_or_B_assigned": null,
+      "boundary": "No snapshot row is not an experimental absence/upperlimit/zeroB. A negative central decay energy does not zero the reverse/absorption matrix element; near1.4keV lacks energy covariance/IC/measurement readiness."
+    },
+    {
+      "candidate_two_I_initial": 37,
+      "A_initial_idx": "68",
+      "B_final_idx": "66",
+      "A_energy_keV_string": "4852.6",
+      "B_energy_keV_string": "4598.6",
+      "A_jp": "(37/2-)",
+      "B_jp": "(35/2-)",
+      "central_A_to_B_deltaE_keV": 254.0,
+      "forward_or_reverse_row_present_in_snapshot": false,
+      "B_final_level_half_life_string": "0.444",
+      "B_final_level_clock_unit": "ps",
+      "matrix_element_or_B_assigned": null,
+      "boundary": "No snapshot row is not an experimental absence/upperlimit/zeroB. A negative central decay energy does not zero the reverse/absorption matrix element; near1.4keV lacks energy covariance/IC/measurement readiness."
+    }
+  ],
+  "controls": {
+    "chosen_unitaries_are_unitary": true,
+    "closed_projector_Frobenius_invariant": true,
+    "closed_projector_singular_values_invariant": true,
+    "labelled_entry_strengths_can_redistribute": true,
+    "consistent_basis_change_preserves_physical_eigenstate_matrix_elements": true,
+    "arbitrary_mixing_not_nondegenerate_fixedH_relabel": true,
+    "physical_isospectral_mixing_changesH": true,
+    "changedH_fixedoperator_can_change_eigenstate_matrix_entries": true,
+    "exact_all_four_entry_intensities_equal": true,
+    "exact_same_sum_not_same_determinant": true,
+    "same_B_moduli_need_not_fix_complete_block_singular_values": true,
+    "closed_loop_phase_is_invariant_under_state_rephasings": true,
+    "full_three_state_Frobenius_is_invariant": true,
+    "selected_pair_not_invariant_when_projector_leaks": true,
+    "energy_weighted_width_sum_not_the_unweighted_B_sum": true,
+    "all_four_candidate_missing_cells_not_silently_filled": true,
+    "first_candidate_upward_not_set_zeroB": true
+  },
+  "all_controls_pass": true,
+  "input_sha256": {
+    "tmp/day23-originals/iaea-nd135-gammas-018.csv": "153f5735282b2ce8cc7932f38d0a9aa14d604704fa82177123922c25c4af65b4",
+    "tmp/day23-originals/iaea-nd135-levels-018.csv": "accf66c5f5fb5d5d6dbdaeaf57336b9f2141b57de819cc07d836050ca70aca93"
+  },
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day24_preview_em_block_mixing.py": "2c1d6e61578ac43f6f01aa3d78d3d6a47fec8cb8dd5e445a113013e31291f1a4",
+    "/workspace/wiki/system/scripts/day24_preview_nd135_export_identity.py": "2795feecfda69ac17561d8f8b80728a28670daa81e2dc07714ecbb6ff627d3e5"
+  },
+  "limitations": [
+    "Unitary mixing inside a fixed closed projector preserves Frobenius/singular values. A pure coordinate change also transforms H and eigenstate coordinates; labelled entry redistribution alone is not a changed experiment.",
+    "At fixed nondegenerateH, arbitrary multiplicity mixing does not preserve the energy eigenbasis. Physical isospectral mixing at fixed operator still changes H and is not configuration-only relabelling.",
+    "Four measured strength moduli can determine the unweighted block sum if complete, but not necessarily determinant/singular values without a relative loop phase. No measured nuclear phase is supplied here.",
+    "Unobserved/off-window/upward matrix elements, incomplete pair projectors or additional configurations block the closed-pair invariant test. Absence of an API row is not zero intensity or B.",
+    "A sum of B at one initial spin is not a photon-width or total-decay sum across entries with different energies/parents. No actual branching completeness is certified.",
+    "Dimensionless RME/sign/unitary designs are not actual nuclear one-body EM operators, mixing angles, partner assignments or new g/delta/Q/tau/CI/countingrate/beamtime.",
+    "Real135Nd dataset/model support and all previous quantity/normalization boundaries remain. Only the already openedDay24 uncredited preview, noDay25/formalcredit."
+  ]
+}

@@ -392,3 +392,11 @@ NuDat3 `getdataset.jsp?nucleus=135ND&unc=nds`本次HTTP429，未自动循环重�
 `system/scripts/day24_preview_mu07_inventory_hypothesis.py`实际读取author TeX/PS与CSV，不用历史outputs认证为事实源；22项单位/能量幂/源端点spin/非负/homogeneity检查通过。这里的derivedλ是**条件核光子部分宽度**，不是设施探测率/新机时。代码没有用IC补齐库存、没有给normalizer实测值，也没有修改任何published B/τ。
 
 若选H_cond为解释，需要原normalizer和absolute radiative branching说明，才能把selected-outlet quantities与真正的同parent绝对B/width对应；数学上给某个未知scale留可行域不代表这个解释与原模型同等可信。若选H_other，必须明确到底改变哪个parent/Jf/component/plot-I含义。最高信息输入是作者原branch/normalization ledger，而不是增加小数位或从数据域内任意缩放。本节不能恢复旧MU07父预算“paper-error”式强结论、Qt代理CI或225.8偏振/机时排他认证；新needs_review:true。
+
+## Day23内的Day24无学分预习：完整同自旋EM块尚缺哪一格
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D24P-008 | 依018的candidate A/B family与M1 Ii→Ii−1构块，还需A31/2idx55→B29/2idx56、A33/2idx60→B31/2idx59、A35/2idx63→B33/2idx61、A37/2idx68→B35/2idx66这四个outlets。API中央ΔE分别−130.7/+1.4/+125.6/+254.0keV，当前snapshot均无forward或inverseγ行；缺行不等实测absence/upperlimit/zeroB。第一条为上跃而reverseRME仍可存在，逆向B29/2 parentτ空且MU07 TableB从31/2开始；+1.4中心还缺完整energyCov/IC/可测性输入，不能据中央正号认证开放退激。 | actual-export-missing-cell-and-readiness-boundary | snapshot-query-and-declared-family-inference | IAEA135Nd levelsidx55/56,60/59,63/61,68/66 andgammas forward/inverse search; MU07 TableI | true |
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004/005需要完整同Ii/If的相干RME块，不是只给两band in-strengths和一个方向的跨带图点就能算不变量。原graph/normalizer/component账未闭合，反向matrix element不能填0、带外未观测也不能证明projector封闭。必要伴随输入为这些特定outlet的可追溯强度或有效界、正确spin简并反向关系、各τ/branch/IC/response和可获得的relativephase约束；当前不拟新δ、g/Q、寿命CI或机时。新needs_review:true，仅Day24无学分preview。
