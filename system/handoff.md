@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint022（持续研究，Day24仅无学分预习）
+## Active handoff — Day23 checkpoint023（持续研究，Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25，formalcredit只23。还有11h持续不日终，raw/PLAN/Bib/旧flags/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25，formalcredit只23。还有10h+持续不日终，raw/PLAN/Bib/旧flags/credit/114producer保护。
 
-022新fixedEMblock/mixing script17checks过：封闭sameI/If+fixedT才保ΣB/Frob/SVD，physicalmix改H；same4Bmoduli可有loopphase/det不同（abstractR±、非实际onebodyEM）。pairprojectorleakage与Eγweightedwidth非不变量。actual135Nd四A->B缺格中心ΔE−130.7/+1.4/+125.6/+254，无snapshot行不是0B/上限，inverseB29/2τ空，不造δ。BarkreviewPDF7/8target+visual8只secondary多带配对背景，新BK24-D24P-001/LKH82-D24P-004/5/MU07-D24P-008与概念/Day23方法桥needreview。
+023targetF01p474–476TableII/Eq51–54与pseudospin另列，newF01-D23-001/signatureconcept/方法桥。86fixed-jintrinsicRouthian toy controls过：unitarysignaturephase、T映ω->−ω、C²1，零ωKramers不强制fixednonzeroω两signaturebranches等能；I=α+2n是sourceprojection不是toy谱当band。无actualnuclearenergy/g/B/δ/τ。Lawrie2017Ref15+Starosta2001NPAmetadata实际核、body仍缺，IOP200captcha非PDF、不绕过/SSL关闭/loop；newBK24-D23-001 metadataonly，GR18operatorgap保，sanitizedexternalaccess023。
 
-freshchecks0/true31changed知识writebackvalid/lint0error220warning；首3brokenlinks矩阵brackets及extraBKref已修重跑。下一原decaypatternsource E.A.Lawrie2017PhysScr92,094006 DOI10.1088/1402-4896/aa80ee Crossref真实核title/abstract，body当前publisherrestricted/OpenAlexclosed/noOA/raw无；可有界合法作者机构仓储，不凭题名modelindependent认证判据。详next-continuation022/candidate-pool022。Git指针main · Day23: separate fixed EM blocks from physical band mixing；actualH3/hash仅task-publication-receipt-022.json。
+freshchecks0/true31changed知识writebackvalid/lint0error220warning。下一018真实NdCSVsameparent/samemultipole sameWUratio vsrelativeI*Epower，WU/τ相消不造absoluteunits；I33/35/37的M1/E2central候选具体值/IDs见next-continuation023，first648mixedoutB空不补。比较019drawnratio仍normalizer/quantitydiagnostic非paper错/新measurement。详candidate-pool023/next-continuation023。Git指针main · Day23: clarify signature labels in a rotating frame；actualH3/hash仅task-publication-receipt-023.json。
 
 ## Previous handoff — Day22 closeout
 

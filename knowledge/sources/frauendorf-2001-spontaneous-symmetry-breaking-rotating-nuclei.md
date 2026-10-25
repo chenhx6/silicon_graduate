@@ -158,3 +158,13 @@ All F01 claims were reviewed by the user on 2026-07-13; `needs_review` is cleare
 | F01-D24P-003 | 本任务把good-I=1/2,3/2,5/2,7/2的SU2 irreps各取两重multiplicity，构造40维rotationally invariant且T/C对称的抽象H；每个I的两个multiplicity能量仍可不同，而M/Kramers简并留在各自irrep内。这比017的非rotational spin-matrix例更完整地说明C²=+1本身不强制两条不同序列简并；但未定义intrinsic handed geometry或实际核，因此不是某个真实手征体系反例。 | declared-good-spin-symmetry-counterconstruction | conditional-task-math-with-source-premise | F01-D24P-001; printed476 Sec.II.F.5; task model-contract-021 | true |
 
 [[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-002进一步检查full-rank tensor/Hermiticity/time parity。任意数学multiplicity不能只按名字认成signature、pseudospin或手征伙伴；真实geometry、configuration与operator约束仍必需。
+
+## Day23：signature的unitary标签与推转时间反演
+
+本次定向回读printed474–476（PDF12–14）TableII、Eqs51–54及pseudo-spin另属非空间近似对称的段落；raw SHA相符。476关键图此前017已视觉核，本次不新称重读52页；原review/旧flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F01-D23-001 | Eqs51–53的unitary signature r=exp(−iπα)及I=α+2n给ΔI2子序列；α不同的qp配置可有不同能量。该unitary eigenphase对核态整体phase不变，而017的antiunitary C eigenphase不是同类标签。Time reversal把固定频率Routhian hω=h0−ωjz映到h−ω，所以零频Kramers关系不要求同一非零ω的两signature branches简并；本任务在声明fixed-j intrinsic toy中作86项Rz/T/C/投影phase控制通过，不作为核能谱/实际signature splitting预报。 | source-symmetry-and-declared-cranking-control | direct-original-plus-task-math | printed475 Eq.51 and footnote4; printed476 Eqs.52–54; printed474 symmetry discussion | true |
+
+任务toy hω=.3jz²+.07(jx²−jy²)−ωjz的j只是一个固定表示，不是实验整条rotational band的各I。它说明unitary signature、ordinary T/Kramers和C=RyπT如何有不同作用域；不能由toy两block能量直接给某核α伙伴、wobbling或pseudospin归属。源文pseudo-spin段与signature空间π转动分开，本文任务没有实现hidden-SU2/pseudospin模型。

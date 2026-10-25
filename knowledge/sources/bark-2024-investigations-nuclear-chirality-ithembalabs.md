@@ -186,3 +186,11 @@ P0: none identified.
 | BK24-D24P-001 | 本综述Fig8和正文比较同组态六条模型带，指出真实角动量可重排/能带cross，单靠能量排序不必给正确partner；作者建议尽量找到同组态的多条带，并结合qp角动量和decay patterns。这里是二手模型/方法线索，不是135Nd新数据，也不证明实验已观察的两个bands就是封闭完整2state子空间。 | secondary-model-and-projector-readiness | directly-read-review-not-independent-experiment | PDF7 Sec2.4; PDF8 Fig8 and following paragraphs | true |
 
 [[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004的封闭EM块不变量需要额外完整projector/固定算符条件；它不是本综述直接提出的已核实实验判据，也不由本节给实际nuclear singular values或mixing angle。
+
+## Day23：decay-pattern原文的身份与访问缺口
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BK24-D23-001 | PDF29 Ref15的E.A.Lawrie, “Decay patterns of multi-quasiparticle bands—a model independent test of chiral symmetry”, PhysScr92(9),094006(2017)，由本轮Crossref精确核DOI10.1088/1402-4896/aa80ee/作者/年份/题名与abstract。checked publisherdiscovery为restricted，OpenAlex/SemanticScholar为closed/无可用正文；普通IOP/stacks PDF请求虽200却为validation HTML、非%PDF。本轮未读原正文，不能据题名/abstract把decay-pattern差异推广成通用已验证手征排除判据或独立实验。 | original-reference-identity-and-access-boundary | verified-metadata-only | PDF29 Ref.15; Crossref DOI10.1088/1402-4896/aa80ee; actualpublicaccess023 ledger | true |
+
+这些访问结果仅界定本次publicroute，不宣称世界上没有author copy或其它合法获取路径；未执行challenge、改SSL/凭据或循环retry。另一GR18 Ref14的NPA682,375–386(2001)本次仍只metadata/noPDF，其operator定义缺口按[[grodner-2018-128cs-chiral-g-factor]] GR18-D22-R114-1保留，不能用现有另一篇Starosta PRL替代。新metadata条目不增加独立物理证据票。

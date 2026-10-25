@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint022）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint023）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23, 24]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T03:57:11.997807+08:00
+- checked_at: 2026-10-26T04:14:46.248058+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -50,6 +50,8 @@ checkpoint016重建后选择同卡AMR原件路线（非Day24）：Simons2003/200
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint023回当前Day23伙伴分类，实际targeted F01 printed474–476/TableII/Eqs51–54与pseudospin另列段、rawhash匹配，未新称全文。Lawrie2017 Ref15 DOIaa80ee/Crossref题名abstract核，IOP普通PDF200为captchaHTML非正文；Starosta2001NPARef14 metadata核而body未得，旧GR18operator缺口保，不用另一PRL替代。newF01-D23-001/BK24-D23-001 needs_review，原flags不动。
 
 checkpoint022定向回读Bark2024原PDF7/8/Fig8并freshvisual8、rawhash相符，secondary多带配对背景不当Nd新实验。LKH82源定义前提与actual135NdCSV018用于封闭EM块/缺cell readiness；BK24-D24P-001、LKH82-D24P-004/005、MU07-D24P-008新needs_review，原flags保留。
 
@@ -108,6 +110,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint023先合同后dimensionless intrinsicfixed-j Routhian hω=.3jz²+.07(jx²−jy²)−ωjz，六j/Rz/T/C/alpha projection共86controls过。Rzunitaryphase稳定、T映ω到−ω、C²1保；零ω半整数Kramers的signatureblock谱同不强制fixednonzeroω等能。toy固定j不是一条核带各I，不出实际splitting/Jπ/g/B。
 
 checkpoint022先contract后固定projector/operator R→Uf†RUi的Frobenius/SVD、fullbasis amplitude、isospectralH vsrelabel、leakage与phase等17controls通过。R=[[1,2],[3,±4]]同四B模/Σ=30而det²4/100；loopphase相位规范不变。ΣB trace只对封闭同Ii/If块，非Eγ加权Γsum。初次任意weighted-difference阈值1过强，实际差.02909；改以非零容差检查并记录原设计，不拟actual核量。
 
@@ -171,6 +175,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint023强调unitarysignature r与antiunitaryCeigenphase/ordinaryT三者不同，I=α+2n是源投影关系不是toy谱当真实band。SP/wobbling都可反signature，M1启发式不硬选标签；pseudospin不是Rzπ。decaypattern原文尚metadata，不借model-independent题名填通用判据；publicaccess failure不当负实验，不造δ/Q/τ/机时。
+
 checkpoint022 actualNd candidateM1块A→B缺四cell，中心ΔE−130.7/+1.4/+125.6/+254.0keV，snapshot无正逆行不等0B/upperlimit。首direct上跃、inverseB29/2τ空，near1.4无Cov/IC可测性不能认证。完整B模亦缺loopphase，closedpair/原normalizer/component仍未建，不能用invariants排实核模式或造δ/g/τCI/机时。
 
 checkpoint021构造没有intrinsic handed geometry、核素或实际onebody EM，故不能作为真实chirality反例；只说明抽象对称不固定全部strengths。smallenergygap不自动给EMkernel小b，未知ε不能变成Qt/g CI或通用排除gate。具体Mu07数据+TAC/RPA支持、原γ/normalizer缺口与旧撤回都保留。
@@ -224,6 +230,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint023 supports/limits：将原卡五机制回忆的relationship层与Day24C/Kramers预习接合，保分类与动力学/电磁量分检；原data/response/operator缺口继续。研究仍按Day23原窗口，onlyDay24无学分preview/noDay25，不因数学/检索小段结束收束。
 
 checkpoint022 supports/limits：把只换标签与真实mixing及完整projector/相干信息需求写成可核合同，方法回接Day23configuration练习；generic矩阵不是物理同等可信alternative，source正支持与缺项保持。原Day23窗口持续、onlyDay24无学分preview/noDay25。
 
@@ -336,7 +344,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -546,6 +554,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
           "locator": "MU07-D24P-008"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D23-001"
         }
       ]
     },
@@ -851,12 +863,16 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/concepts/signature-partner-bands.md",
-      "summary": "相反signature不唯一识别ordinary SP，保持pseudospin区别及非谐定义边界。",
+      "summary": "相反signature不唯一识别ordinary SP，保持pseudospin区别及非谐定义边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。",
       "anchor": "Day23：相反signature不等于已识别普通SP",
       "sources": [
         {
           "path": "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
           "locator": "S19-D23-4"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D23-001"
         }
       ]
     },
@@ -1114,7 +1130,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
-      "summary": "Day24 uncredited preview only：定向原件与有界反幺正/两态数学控制，区分Kramers、signature、intrinsic与量子伙伴，不给核态/g认证。 补完整goodI/WE tensor的对称限制与额外EMkernel界；不认证实核operator/CI。",
+      "summary": "Day24 uncredited preview only：定向原件与有界反幺正/两态数学控制，区分Kramers、signature、intrinsic与量子伙伴，不给核态/g认证。 补完整goodI/WE tensor的对称限制与额外EMkernel界；不认证实核operator/CI。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。",
       "anchor": "Day23内的Day24无学分预习：手征操作与Kramers边界",
       "sources": [
         {
@@ -1140,6 +1156,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-D24P-003"
+        },
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-D23-001"
         }
       ]
     },
@@ -1415,7 +1435,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md",
-      "summary": "定向原review多带模型配对边界、未新实验，不默闭合135Nd两态projector。",
+      "summary": "定向原review多带模型配对边界、未新实验，不默闭合135Nd两态projector。 核Lawrie2017原Ref15 DOI但正文未取得，metadata不做通用物理判据。",
       "anchor": "Day23内的Day24无学分预习：完整band manifold与配对边界",
       "sources": [
         {
@@ -1425,6 +1445,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
           "locator": "LKH82-D24P-004"
+        },
+        {
+          "path": "knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md",
+          "locator": "BK24-D23-001"
         }
       ]
     }
@@ -1444,6 +1468,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint023 boundary/lint/diff/signature_cranking实际0，86intrinsictoy/phase控制通过，true runner报告/31changed知识writebackvalid；lint0error220warning/182旧citation债务。metadataonly原decaypattern/GR18定义来源不升级正文证据，sanitizedaccessledger保边界。next-continuation023/candidate-pool023继续原window与onlyDay24无学分partial[23,24]/next23/noDay25，不早closeout。Git指针main · Day23: clarify signature labels in a rotating frame；actualhash/H3见task-publication-receipt-023.json。
 
 checkpoint022 boundary/lint/diff/em_block_mixing实际0，17数学/actualmissingcell控制过，true runner报告/31changed知识writebackvalid；首doublebracket图式导致3brokenlink错误、extraBKref合同错误已修并fresh重跑。lint0error220warning/182旧citation债务。next-continuation022/candidate-pool022继续原窗口/onlyDay24无学分partial[23,24]/next23/noDay25；查Lawrie2017原decaypattern source，尚仅metadata不认证正文。Git指针main · Day23: separate fixed EM blocks from physical band mixing；actualhash/H3见task-publication-receipt-022.json。
 

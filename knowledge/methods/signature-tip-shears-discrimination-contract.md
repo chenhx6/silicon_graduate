@@ -422,3 +422,9 @@ Day24无学分preview的135Nd诊断（[[mukhopadhyay-2007-135nd-chiral-vibration
 从Day24无学分preview迁回本卡的方法合同：[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004/005区分basis change、energy-eigenstate relabel与fixed-operator physical mixing。保持原实验counts/level scheme的替代解释可以换mapping，却不能把改变H/算符/截断空间的数值变换称作“仅换configuration”。本卡009–011的ordinal交换保H与operator，能量gap不被换标签修复；它不是对任意多轨道alternative的否证。
 
 完整EM块的不变量或phase反例只有在同Ii/If、固定operator、封闭projectors及所需RME信息齐备才可用；[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-008的实际缺单元说明，未测/上跃/逆向不应填零来制造完整性。该方法仅迁移逻辑，不迁移核素数值、actualδ或新机时，所有新推断needs_review:true。
+
+## Day23：伙伴关系还需标明所用对称操作
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D23-001与[[signature-partner-bands]]分清unitary signature、ordinaryT/Kramers和手征antiunitaryC；非零ω的Routhian T变换改变ω，不能用零频Kramers要求同一ω的两signature分支简并。式I=α+2n的自旋子序列不是当前fixed-j数学toy的eigenstate枚举，也不是自动的phonon标签。
+
+`system/scripts/day23_signature_cranking_symmetry.py`以声明dimensionless intrinsic hω、六个j表示、Rz/T/C与projection phase共86检查通过，零频半整数Kramers与非零频分支可分相容。它不计算真实nucleus/rotor spectra，归一unitary phase不变也不认证任何实验mode。Pr/Au的same-count重指派必须保留这个relationship层：共享signature或类似能量不足以把SP/TiP/wobbling互换，也不等于pseudospin。新needs_review:true，不赋统一δ/W.u.或g门。

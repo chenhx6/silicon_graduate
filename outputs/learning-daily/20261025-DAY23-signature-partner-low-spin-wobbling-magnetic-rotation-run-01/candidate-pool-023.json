@@ -1,0 +1,43 @@
+{
+  "observed_at": "2026-10-25T20:14:46.248058+00:00",
+  "formal_day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue currentwindow, originaldeadline,no earlycloseout",
+  "bounded_result": "signatureunitary/Kramers/C/crankingfrequencycontract86controls;metadataonlyLawrie2017/Starosta2001bodygapsretained",
+  "next_specific_input_route": "Compareactual135Ndevaluation same-multipole same-W.u. ratios acrossselectedout/in withrelativeI*(Ein/Eout)^(2L+1); commonWUandmeanτcancels, no absolutecoefficientneeded. This isoneadoptedchaininternalarithmetic, notindependentmeasurement/producerverification. Comparewith019drawnratioonlyasquantity/normalizerdiagnostic, notpaperwrong.",
+  "already_explored_actual_csv_numbers": {
+    "M1_33_35_37_export_Bout_Bin": [
+      0.006229508196721312,
+      0.0030508474576271187,
+      0.015542168674698795
+    ],
+    "M1_IgammaEcentres": [
+      0.0062810108571411906,
+      0.003016745670199971,
+      0.015474009941097374
+    ],
+    "E2_export_Bout_Bin": [
+      0.03636363636363636,
+      0.034666666666666665,
+      0.0711864406779661
+    ],
+    "E2_IgammaEcentres": [
+      0.035367236006242773,
+      0.034471022106529664,
+      0.07018104814955237
+    ],
+    "conditions": "adopted[M1]/[E2]pure component assumption, sourcebrackets preserved; blankuncB/δnotes notcertainty; first648mixedrowB_M1blankcannotfill"
+  },
+  "boundaries": [
+    "do not assignnewWUabsoluteconversion or δ fromagreement",
+    "originalNotes/normalizer/branch/Covnotrecovered",
+    "allcompoundsurfacepartialwidthsnotfacilityrates",
+    "onlysameDay24uncredited/noDay25"
+  ]
+}

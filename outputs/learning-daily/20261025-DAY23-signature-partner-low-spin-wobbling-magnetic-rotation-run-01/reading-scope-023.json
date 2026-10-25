@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-25T20:10:28.492421+00:00",
+  "formal_day_index": 23,
+  "only_existing_uncredited_preview": 24,
+  "F01": {
+    "actual_scope": "printed474–476/PDF12–14 TableII/Eqs51–54/pseudospin separateparagraph",
+    "raw_sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+    "hash_matches": true,
+    "visual": "476alreadyfresh017;thischeckpointtargetedtextnotfull52reread"
+  },
+  "access": "Lawrie2017/S tarosta2001NPAmetadataonly, sanitisedredirectpaths/queryremoved inexternal-access023, nochallengeexecution/SSL/configchange",
+  "mathscope": "fixed-j intrinsic toy dimensionless, notrotationalnuclearbandenergy orphysicalg/B",
+  "newclaims_needs_review": true,
+  "oldhumanreviewflags_preserved": true
+}

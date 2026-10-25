@@ -3,7 +3,7 @@ type: concept
 title: 旋称伙伴带
 aliases: [signature partner bands, favored signature, unfavored signature, signature partners, 旋称劈裂伙伴]
 created: 2026-07-01
-updated: 2026-10-25
+updated: 2026-10-26
 status: active
 review_status: unreviewed
 concept_type: rotational-band-relationship
@@ -69,3 +69,11 @@ tags: [signature, rotational-band, odd-a]
 [[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-4及printed171明确讨论：在三轴核中，ordinary unfavoured SP与one-phonon wobbling candidate都可具有相对yrast相反的signature，后者在SP之外出现。因而α或交错spin序列不能单独在两者中选带；必须匹配同组态/各自激发方式及可靠的电磁矩阵元，不能把所有反signature序列都自动称作同一个伙伴。本文是支持方定义与本任务适用边界，不是对135Pr最终模式的裁决。
 
 wobbling在非谐情形的phonon标签还依作者所用topology定义，不能把harmonic factor2当全部定义；反过来相同标签也不证明实测拓扑。它们均不同于pseudospin单粒子伙伴关系。新增Codex self-audit，needs_review:true，原review_status保持。
+
+## Day23：旋称序列为何不是Kramers或pseudospin伙伴
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D23-001的定义是unitary π转动r=exp(−iπα)。半整数奇A常用α=±1/2、r=∓i，I=α+2n使同一支ΔI2，I增1时r反号；这是一种谱组织/对称分类，未识别哪一激发是ordinarySP、wobbling或TiP。
+
+unitary r不会因态整体phase改变；C=RyπT为antiunitary，其eigenphase有不同的gauge边界，不能把C的±写成额外signature/parity。普通T的Kramers关系也不把实际非零频qp signature branches锁成等能：推转Routhian在T下同时改变ω符号，fixedω本身不是零场T对称问题。任务finite-j toy的86控制只核这个代数关系，不给实际转动band的能量/Jπ或新核态。
+
+pseudospin是另一类近似intrinsic对称，不能由Rzπ或相同α推得；更不能把“signature partner”翻译或计票为“pseudospin partner”。普通SP连接M1经验/典型E2启发式都不是充分模式判据；原[[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-4已说明ordinarySP和one-phonon候选都可有相反signature，仍需逐线矩阵元/组态/模型有效域。新needs_review:true，原flags保持。

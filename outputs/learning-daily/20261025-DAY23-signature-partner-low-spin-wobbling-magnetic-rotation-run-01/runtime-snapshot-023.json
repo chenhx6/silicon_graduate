@@ -1,0 +1,22 @@
+{
+  "now_local": "2026-10-26T04:14:46.248058+08:00",
+  "hard_deadline": "2026-10-26T15:00:00+08:00",
+  "next_scheduled_start": "2026-10-26T16:00:00+08:00",
+  "minutes_to_deadline": 645,
+  "minutes_to_next_start": 705,
+  "minimum_current_block_minutes": 90,
+  "minimum_forward_card_block_minutes": 120,
+  "can_continue_current": true,
+  "can_complete_forward_card": true,
+  "decision": "continue-or-advance",
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    23,
+    24
+  ],
+  "next_day_index": 23,
+  "Day24_opened_uncredited": true,
+  "Day25_opened": false
+}

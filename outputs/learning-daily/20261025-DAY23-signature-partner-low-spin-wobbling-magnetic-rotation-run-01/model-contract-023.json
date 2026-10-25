@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T20:06:39.431376+00:00",
+  "source": "F01 actualtargetedprinted474–476/PDF12–14 TableII/Eqs51–54, pseudospin paragraphseparatefromspatialsymmetries; originalrawhashverified",
+  "physical_object": "declared finite spinj single-particle-like intrinsicRouthian hω=.3jz²+.07(jx²−jy²)−ωjz, arbitrarydimensionlesscoefficients/ω0,.2; not actualrotorHamiltonian/newnucleus/observedbandenergy. j fixedrepresentation notactualsetofrotationalIlevels.",
+  "definitions": "Rzπ=exp(−iπjz) unitary signature, r=exp(−iπα); T=RyπK, C=RyπT. j integerandhalfinteger; alpha intrinsiclabelsneedrotationalprojectionI=alpha+2n perF01, notthetoyjlabeigenspectrumasbands.",
+  "predictions": [
+    "Rzcommuteshω;T maps hωtoh−ω andbreaks fixedωwhenωnonzero;C remainssymmetricandC²1",
+    "halfj atω0 T²−1 Kramersmapsoppositesignature eigenphases±i; atfixedωnonzeroitdoesnotforceequalRouthianbranches",
+    "unitaryRzeigenphase unchangedbyoverallstatephase; antiunitaryCeigenphase gaugevariant as017",
+    "I->I+2 sameunitarysignaturephase, I->I+1 flips, yieldingΔI2 subbranches butnotmodeidentity",
+    "pseudospinnotderivedbyRzπ orC; no hiddenSU2 pseudospinmodel implemented"
+  ],
+  "controls": [
+    "spinrepresentations j=.5,1,1.5,2,2.5,5.5;Rz²phase(-1)2j/T²same/C²1",
+    "hωHermitian/Rz commutation/T±ωbridge/Csymmetry",
+    "halfjω0 signatureblock spectraequal (Kramers) butω.2lowestsplitallowed",
+    "unitarystatephase invariancer",
+    "phase/subsequence period2fortrialIhalf/int",
+    "nonzeroωtimebreakingnotlabelledviolatingoriginalrotationallyinvariantlabH"
+  ],
+  "inference_limit": "Showsunitarysignaturevsantiunitarychiral/timeoperation andcrankingframe, notactualsignaturepartnerassignment/physicalg/B/δ/Q/tau/rate/beamtime. NuclearbandsandKramersMstatesexplicitlydifferent.",
+  "other_discovery_boundary": "Lawrie2017PhysScrDOIaa80ee andStarosta2001NPA682375metadataonly;restricted/closed/noPDF. PublicIOP HTTP200 captcha notPDF, noexecution/bypass/retryloop orscientificcriteriafromtitle. Sanitizeallredirect queryparameters beforepersistentledger."
+}

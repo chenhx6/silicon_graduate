@@ -1,0 +1,438 @@
+{
+  "status": "declared-signature-cranking-symmetry-controls",
+  "execution_day_index": 23,
+  "source_premise": "F01 printed474-476 TableII/Eqs51-54, FM97 PAC/planar/aplanar classification",
+  "representation_results": [
+    {
+      "two_j_representation": 1,
+      "design_Routhian": "0.3*jz^2+0.07*(jx^2-jy^2)-omega*jz",
+      "results": [
+        {
+          "omega_dimensionless_design": 0.0,
+          "errors_and_time_change": {
+            "signature_commutator": 0.0,
+            "T_links_opposite_frequency": 2.7755575615628914e-17,
+            "fixed_frequency_C_symmetry": 5.551115123125783e-17,
+            "fixed_frequency_T_change_norm": 2.7755575615628914e-17
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              0.075
+            ],
+            "r_minus_i_energies_design": [
+              0.075
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.0,
+            "spectrum_difference_design": 0.0
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        },
+        {
+          "omega_dimensionless_design": 0.2,
+          "errors_and_time_change": {
+            "signature_commutator": 0.0,
+            "T_links_opposite_frequency": 5.551115123125783e-17,
+            "fixed_frequency_C_symmetry": 1.6653345369377348e-16,
+            "fixed_frequency_T_change_norm": 0.19999999999999998
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              0.175
+            ],
+            "r_minus_i_energies_design": [
+              -0.02500000000000001
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.2,
+            "spectrum_difference_design": 0.2
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        }
+      ]
+    },
+    {
+      "two_j_representation": 2,
+      "design_Routhian": "0.3*jz^2+0.07*(jx^2-jy^2)-omega*jz",
+      "results": [
+        {
+          "omega_dimensionless_design": 0.0,
+          "errors_and_time_change": {
+            "signature_commutator": 1.714505518806295e-17,
+            "T_links_opposite_frequency": 1.6925424927907975e-16,
+            "fixed_frequency_C_symmetry": 3.2993785387076527e-16,
+            "fixed_frequency_T_change_norm": 1.6925424927907975e-16
+          },
+          "halfspin_signature_blocks": null,
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        },
+        {
+          "omega_dimensionless_design": 0.2,
+          "errors_and_time_change": {
+            "signature_commutator": 1.714505518806295e-17,
+            "T_links_opposite_frequency": 3.0381617604037375e-16,
+            "fixed_frequency_C_symmetry": 6.168403354975176e-16,
+            "fixed_frequency_T_change_norm": 0.40000000000000024
+          },
+          "halfspin_signature_blocks": null,
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        }
+      ]
+    },
+    {
+      "two_j_representation": 3,
+      "design_Routhian": "0.3*jz^2+0.07*(jx^2-jy^2)-omega*jz",
+      "results": [
+        {
+          "omega_dimensionless_design": 0.0,
+          "errors_and_time_change": {
+            "signature_commutator": 2.969610668429739e-17,
+            "T_links_opposite_frequency": 2.220446049250313e-16,
+            "fixed_frequency_C_symmetry": 6.661338147750939e-16,
+            "fixed_frequency_T_change_norm": 2.220446049250313e-16
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              0.05142620625273127,
+              0.6985737937472687
+            ],
+            "r_minus_i_energies_design": [
+              0.05142620625273127,
+              0.6985737937472687
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.0,
+            "spectrum_difference_design": 0.0
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        },
+        {
+          "omega_dimensionless_design": 0.2,
+          "errors_and_time_change": {
+            "signature_commutator": 2.969610668429739e-17,
+            "T_links_opposite_frequency": 4.440892098500626e-16,
+            "fixed_frequency_C_symmetry": 8.881784197001252e-16,
+            "fixed_frequency_T_change_norm": 0.6000000000000005
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              0.11783766354498287,
+              0.432162336455017
+            ],
+            "r_minus_i_energies_design": [
+              -0.03949003877626242,
+              0.9894900387762624
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.1573277023212453,
+            "spectrum_difference_design": 0.5573277023212454
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        }
+      ]
+    },
+    {
+      "two_j_representation": 4,
+      "design_Routhian": "0.3*jz^2+0.07*(jx^2-jy^2)-omega*jz",
+      "results": [
+        {
+          "omega_dimensionless_design": 0.0,
+          "errors_and_time_change": {
+            "signature_commutator": 5.143516556418883e-17,
+            "T_links_opposite_frequency": 8.15203280565242e-16,
+            "fixed_frequency_C_symmetry": 1.59740676100817e-15,
+            "fixed_frequency_T_change_norm": 8.15203280565242e-16
+          },
+          "halfspin_signature_blocks": null,
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        },
+        {
+          "omega_dimensionless_design": 0.2,
+          "errors_and_time_change": {
+            "signature_commutator": 5.143516556418883e-17,
+            "T_links_opposite_frequency": 1.0197123823354654e-15,
+            "fixed_frequency_C_symmetry": 2.0761909861334923e-15,
+            "fixed_frequency_T_change_norm": 0.8000000000000004
+          },
+          "halfspin_signature_blocks": null,
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        }
+      ]
+    },
+    {
+      "two_j_representation": 5,
+      "design_Routhian": "0.3*jz^2+0.07*(jx^2-jy^2)-omega*jz",
+      "results": [
+        {
+          "omega_dimensionless_design": 0.0,
+          "errors_and_time_change": {
+            "signature_commutator": 7.274030872378145e-17,
+            "T_links_opposite_frequency": 1.3322676295501878e-15,
+            "fixed_frequency_C_symmetry": 2.220446049250313e-15,
+            "fixed_frequency_T_change_norm": 1.3322676295501878e-15
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              -0.0687902919128989,
+              0.7908871301255405,
+              1.902903161787358
+            ],
+            "r_minus_i_energies_design": [
+              -0.0687902919128989,
+              0.7908871301255405,
+              1.902903161787358
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.0,
+            "spectrum_difference_design": 0.0
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        },
+        {
+          "omega_dimensionless_design": 0.2,
+          "errors_and_time_change": {
+            "signature_commutator": 7.274030872378145e-17,
+            "T_links_opposite_frequency": 1.9984014443252818e-15,
+            "fixed_frequency_C_symmetry": 3.3306690738754696e-15,
+            "fixed_frequency_T_change_norm": 1.0000000000000009
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              -0.05183039830375389,
+              0.5793417698627373,
+              2.397488628441016
+            ],
+            "r_minus_i_energies_design": [
+              -0.13674739146490694,
+              1.0471959327405687,
+              1.4145514587243382
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.08491699316115306,
+            "spectrum_difference_design": 0.982937169716678
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        }
+      ]
+    },
+    {
+      "two_j_representation": 11,
+      "design_Routhian": "0.3*jz^2+0.07*(jx^2-jy^2)-omega*jz",
+      "results": [
+        {
+          "omega_dimensionless_design": 0.0,
+          "errors_and_time_change": {
+            "signature_commutator": 1.049318175690036e-15,
+            "T_links_opposite_frequency": 7.833213407406418e-15,
+            "fixed_frequency_C_symmetry": 1.5666426814812843e-14,
+            "fixed_frequency_T_change_norm": 7.833213407406418e-15
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              -1.267862633564151,
+              0.9107342573028675,
+              2.453773451662758,
+              3.9924076414970435,
+              6.235315551598911,
+              9.125631731502576
+            ],
+            "r_minus_i_energies_design": [
+              -1.267862633564151,
+              0.9107342573028675,
+              2.453773451662758,
+              3.9924076414970435,
+              6.235315551598911,
+              9.125631731502576
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.0,
+            "spectrum_difference_design": 0.0
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        },
+        {
+          "omega_dimensionless_design": 0.2,
+          "errors_and_time_change": {
+            "signature_commutator": 1.049318175690036e-15,
+            "T_links_opposite_frequency": 8.115091724000408e-15,
+            "fixed_frequency_C_symmetry": 1.5676096304667284e-14,
+            "fixed_frequency_T_change_norm": 2.200000000000003
+          },
+          "halfspin_signature_blocks": {
+            "r_plus_i_energies_design": [
+              -1.294380980375031,
+              0.8307664994271565,
+              2.7785532192604796,
+              3.384536820964597,
+              7.12066789468432,
+              8.029856546038477
+            ],
+            "r_minus_i_energies_design": [
+              -1.2984688340705945,
+              0.9330593222596819,
+              2.194234650971453,
+              4.64535660526635,
+              5.353790382824237,
+              10.222027872748868
+            ],
+            "lowest_branch_gap_dimensionless_design": 0.004087853695563526,
+            "spectrum_difference_design": 2.1921713267103904
+          },
+          "scope": "Intrinsic fixed-j matrix only, not a sequence of nuclear total-spin levels or measured signature splitting."
+        }
+      ]
+    }
+  ],
+  "projection_phase_design": [
+    {
+      "signature_exponent_alpha": 0.5,
+      "r_real_imag": [
+        6.123233995736766e-17,
+        -1.0
+      ],
+      "trial_I_values_alpha_plus_even_integers": [
+        6.5,
+        8.5,
+        10.5,
+        12.5
+      ],
+      "source_projection_rule_not_toy_spectrum": true
+    },
+    {
+      "signature_exponent_alpha": -0.5,
+      "r_real_imag": [
+        6.123233995736766e-17,
+        1.0
+      ],
+      "trial_I_values_alpha_plus_even_integers": [
+        5.5,
+        7.5,
+        9.5,
+        11.5
+      ],
+      "source_projection_rule_not_toy_spectrum": true
+    },
+    {
+      "signature_exponent_alpha": 0.0,
+      "r_real_imag": [
+        1.0,
+        0.0
+      ],
+      "trial_I_values_alpha_plus_even_integers": [
+        6.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "source_projection_rule_not_toy_spectrum": true
+    },
+    {
+      "signature_exponent_alpha": 1.0,
+      "r_real_imag": [
+        -1.0,
+        -1.2246467991473532e-16
+      ],
+      "trial_I_values_alpha_plus_even_integers": [
+        7.0,
+        9.0,
+        11.0,
+        13.0
+      ],
+      "source_projection_rule_not_toy_spectrum": true
+    }
+  ],
+  "controls": {
+    "j2_1_signature_unitary_and_twofold_phase": true,
+    "j2_1_time_and_chiral_squares": true,
+    "j2_1_omega_0.0_h_Hermitian": true,
+    "j2_1_omega_0.0_Rz_Tbridge_C": true,
+    "j2_1_omega_0.0_unitary_signature_phase_independent": true,
+    "j2_1_omega_0.0_halfspin_Kramers_scope": true,
+    "j2_1_omega_0.0_T_conjugates_signature_0": true,
+    "j2_1_omega_0.0_T_conjugates_signature_1": true,
+    "j2_1_omega_0.2_h_Hermitian": true,
+    "j2_1_omega_0.2_Rz_Tbridge_C": true,
+    "j2_1_nonzero_frequency_breaks_T": true,
+    "j2_1_omega_0.2_unitary_signature_phase_independent": true,
+    "j2_1_omega_0.2_halfspin_Kramers_scope": true,
+    "j2_1_omega_0.2_T_conjugates_signature_0": true,
+    "j2_1_omega_0.2_T_conjugates_signature_1": true,
+    "j2_2_signature_unitary_and_twofold_phase": true,
+    "j2_2_time_and_chiral_squares": true,
+    "j2_2_omega_0.0_h_Hermitian": true,
+    "j2_2_omega_0.0_Rz_Tbridge_C": true,
+    "j2_2_omega_0.0_unitary_signature_phase_independent": true,
+    "j2_2_omega_0.2_h_Hermitian": true,
+    "j2_2_omega_0.2_Rz_Tbridge_C": true,
+    "j2_2_nonzero_frequency_breaks_T": true,
+    "j2_2_omega_0.2_unitary_signature_phase_independent": true,
+    "j2_3_signature_unitary_and_twofold_phase": true,
+    "j2_3_time_and_chiral_squares": true,
+    "j2_3_omega_0.0_h_Hermitian": true,
+    "j2_3_omega_0.0_Rz_Tbridge_C": true,
+    "j2_3_omega_0.0_unitary_signature_phase_independent": true,
+    "j2_3_omega_0.0_halfspin_Kramers_scope": true,
+    "j2_3_omega_0.0_T_conjugates_signature_1": true,
+    "j2_3_omega_0.0_T_conjugates_signature_0": true,
+    "j2_3_omega_0.2_h_Hermitian": true,
+    "j2_3_omega_0.2_Rz_Tbridge_C": true,
+    "j2_3_nonzero_frequency_breaks_T": true,
+    "j2_3_omega_0.2_unitary_signature_phase_independent": true,
+    "j2_3_omega_0.2_halfspin_Kramers_scope": true,
+    "j2_3_omega_0.2_T_conjugates_signature_1": true,
+    "j2_3_omega_0.2_T_conjugates_signature_0": true,
+    "j2_4_signature_unitary_and_twofold_phase": true,
+    "j2_4_time_and_chiral_squares": true,
+    "j2_4_omega_0.0_h_Hermitian": true,
+    "j2_4_omega_0.0_Rz_Tbridge_C": true,
+    "j2_4_omega_0.0_unitary_signature_phase_independent": true,
+    "j2_4_omega_0.2_h_Hermitian": true,
+    "j2_4_omega_0.2_Rz_Tbridge_C": true,
+    "j2_4_nonzero_frequency_breaks_T": true,
+    "j2_4_omega_0.2_unitary_signature_phase_independent": true,
+    "j2_5_signature_unitary_and_twofold_phase": true,
+    "j2_5_time_and_chiral_squares": true,
+    "j2_5_omega_0.0_h_Hermitian": true,
+    "j2_5_omega_0.0_Rz_Tbridge_C": true,
+    "j2_5_omega_0.0_unitary_signature_phase_independent": true,
+    "j2_5_omega_0.0_halfspin_Kramers_scope": true,
+    "j2_5_omega_0.0_T_conjugates_signature_0": true,
+    "j2_5_omega_0.0_T_conjugates_signature_1": true,
+    "j2_5_omega_0.2_h_Hermitian": true,
+    "j2_5_omega_0.2_Rz_Tbridge_C": true,
+    "j2_5_nonzero_frequency_breaks_T": true,
+    "j2_5_omega_0.2_unitary_signature_phase_independent": true,
+    "j2_5_omega_0.2_halfspin_Kramers_scope": true,
+    "j2_5_omega_0.2_T_conjugates_signature_0": true,
+    "j2_5_omega_0.2_T_conjugates_signature_1": true,
+    "j2_11_signature_unitary_and_twofold_phase": true,
+    "j2_11_time_and_chiral_squares": true,
+    "j2_11_omega_0.0_h_Hermitian": true,
+    "j2_11_omega_0.0_Rz_Tbridge_C": true,
+    "j2_11_omega_0.0_unitary_signature_phase_independent": true,
+    "j2_11_omega_0.0_halfspin_Kramers_scope": true,
+    "j2_11_omega_0.0_T_conjugates_signature_1": true,
+    "j2_11_omega_0.0_T_conjugates_signature_0": true,
+    "j2_11_omega_0.2_h_Hermitian": true,
+    "j2_11_omega_0.2_Rz_Tbridge_C": true,
+    "j2_11_nonzero_frequency_breaks_T": true,
+    "j2_11_omega_0.2_unitary_signature_phase_independent": true,
+    "j2_11_omega_0.2_halfspin_Kramers_scope": true,
+    "j2_11_omega_0.2_T_conjugates_signature_1": true,
+    "j2_11_omega_0.2_T_conjugates_signature_0": true,
+    "alpha_0.5_rotational_projection_step2_same_phase": true,
+    "alpha_0.5_step1_opposite_phase": true,
+    "alpha_-0.5_rotational_projection_step2_same_phase": true,
+    "alpha_-0.5_step1_opposite_phase": true,
+    "alpha_0.0_rotational_projection_step2_same_phase": true,
+    "alpha_0.0_step1_opposite_phase": true,
+    "alpha_1.0_rotational_projection_step2_same_phase": true,
+    "alpha_1.0_step1_opposite_phase": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_signature_cranking_symmetry.py": "cfcd6d207fcf8d57c42ea864a09b7e4f596c1259427b6ea371751fa450136ade",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "The fixed-j Routhian is an arbitrary dimensionless single-particle-like intrinsic algebra example, not a rotationally invariant laboratory nuclear Hamiltonian or an actual band spectrum.",
+    "Routhian time reversal changes omega. Kramers pairing at zero omega does not demand equal signature branches at one nonzero cranking frequency.",
+    "The projection I=alpha+2n is the source band-organization condition, not identification of this fixed-j matrix eigenvalues with different total-I nuclear levels.",
+    "A unitary signature phase is invariant under a global state phase, unlike the antiunitary eigenphase discussed in preview017. No new parity/signature/chiral assignment is measured here.",
+    "Pseudospin is a different approximate intrinsic symmetry; it is not generated or modeled by this pi rotation or C=Ry(pi)T.",
+    "Opposite signature alone does not select ordinarySP/wobbling/TiP/MR or physical configuration. No nuclear energy, g,delta,Q,tau,CI orbeamtime predicted; noDay24credit/Day25."
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "recorded_at": "2026-10-25T20:08:27.646562+00:00",
+  "scope": "bounded public metadata/access boundary only, no fullbody forLawrie2017orStarosta2001NPA acquired; no accesschallengeinteraction",
+  "entries": {
+    "lawrie2017-discovery023.json": {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1088/1402-4896/aa80ee",
+      "status": 200,
+      "title": "Decay patterns of multi-quasiparticle bands—a model independent test of chiral symmetry",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "locations": [
+        {
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1088/1402-4896/aa80ee",
+          "pdf_url": null,
+          "version": "publishedVersion"
+        }
+      ]
+    },
+    "lawrie2017-public-metadata023.json": {
+      "crossref_exact": {
+        "url": "https://api.crossref.org/works/10.1088/1402-4896/aa80ee",
+        "status": 200,
+        "bytes": 7971,
+        "metadata": {
+          "title": [
+            "Decay patterns of multi-quasiparticle bands—a model independent test of chiral symmetry"
+          ],
+          "author": [
+            {
+              "given": "E A",
+              "family": "Lawrie",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "iThemba LABS, National Research Foundation"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "DOI": "10.1088/1402-4896/aa80ee",
+          "URL": "https://doi.org/10.1088/1402-4896/aa80ee",
+          "link": [
+            {
+              "URL": "http://stacks.iop.org/1402-4896/92/i=9/a=094006/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "http://stacks.iop.org/1402-4896/92/i=9/a=094006",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/1402-4896/aa80ee",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/1402-4896/aa80ee/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/1402-4896/aa80ee/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://stacks.iop.org/1402-4896/92/i=9/a=094006/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            },
+            {
+              "URL": "http://stacks.iop.org/1402-4896/92/i=9/a=094006",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            },
+            {
+              "URL": "https://iopscience.iop.org/article/10.1088/1402-4896/aa80ee/pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "resource": {
+            "primary": {
+              "URL": "https://iopscience.iop.org/article/10.1088/1402-4896/aa80ee"
+            }
+          }
+        }
+      },
+      "semanticscholar": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1088/1402-4896/aa80ee",
+        "status": 200,
+        "bytes": 413,
+        "metadata": {
+          "paperId": "bdff789fbbd6ad97711cd565028e03647fa1d7f3",
+          "externalIds": {
+            "MAG": "2750300702",
+            "DOI": "10.1088/1402-4896/aa80ee",
+            "CorpusId": 126003741
+          },
+          "url": "https://www.semanticscholar.org/paper/bdff789fbbd6ad97711cd565028e03647fa1d7f3",
+          "title": "Decay patterns of multi-quasiparticle bands—a model independent test of chiral symmetry",
+          "openAccessPdf": {
+            "url": "",
+            "status": "CLOSED",
+            "license": null
+          }
+        }
+      },
+      "ithemba_search": {
+        "url": "https://api.openalex.org/works",
+        "status": 200,
+        "bytes": 171890,
+        "results": [
+          {
+            "title": "Two-band superconductor magnesium diboride",
+            "doi": "https://doi.org/10.1088/0034-4885/71/11/116501",
+            "open_access": {
+              "is_oa": true,
+              "oa_status": "bronze",
+              "oa_url": "https://iopscience.iop.org/article/10.1088/0034-4885/71/11/116501/pdf",
+              "any_repository_has_fulltext": false
+            },
+            "best_oa_location": {
+              "id": "doi:10.1088/0034-4885/71/11/116501",
+              "doi": "https://doi.org/10.1088/0034-4885/71/11/116501",
+              "is_oa": true,
+              "landing_page_url": "https://doi.org/10.1088/0034-4885/71/11/116501",
+              "pdf_url": "https://iopscience.iop.org/article/10.1088/0034-4885/71/11/116501/pdf",
+              "source": {
+                "id": "https://openalex.org/S105282323",
+                "display_name": "Reports on Progress in Physics",
+                "issn_l": "0034-4885",
+                "issn": [
+                  "0034-4885",
+                  "1361-6633"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "anvur-scientific",
+                  "cwts-core",
+                  "dongbi-b",
+                  "jufo-3",
+                  "medline",
+                  "norway-2",
+                  "poland-200",
+                  "russia-white-list-1"
+                ],
+                "host_organization": "https://openalex.org/P4310320083",
+                "host_organization_name": "IOP Publishing",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310320083",
+                  "https://openalex.org/P4310311669"
+                ],
+                "host_organization_lineage_names": [
+                  "IOP Publishing",
+                  "Institute of Physics"
+                ],
+                "type": "journal"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "Reports on Progress in Physics",
+              "raw_type": "journal-article"
+            }
+          },
+          {
+            "title": "β - and α -decay spectroscopy of Au 182",
+            "doi": "https://doi.org/10.1103/rf8d-v286",
+            "open_access": {
+              "is_oa": true,
+              "oa_status": "hybrid",
+              "oa_url": "https://doi.org/10.1103/rf8d-v286",
+              "any_repository_has_fulltext": true
+            },
+            "best_oa_location": {
+              "id": "doi:10.1103/rf8d-v286",
+              "doi": "https://doi.org/10.1103/rf8d-v286",
+              "is_oa": true,
+              "landing_page_url": "https://doi.org/10.1103/rf8d-v286",
+              "pdf_url": null,
+              "source": {
+                "id": "https://openalex.org/S4210168441",
+                "display_name": "Physical Review C",
+                "issn_l": "0556-2813",
+                "issn": [
+                  "0556-2813",
+                  "1089-490X",
+                  "1538-4497",
+                  "2469-9985",
+                  "2469-9993",
+                  "2470-0002"
+                ],
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": true,
+                "listed_in": [
+                  "anvur-scientific",
+                  "cwts-core",
+                  "dongbi-a",
+                  "jufo-2",
+                  "ki-jl-1",
+                  "norway-1",
+                  "poland-140",
+                  "russia-white-list-1",
+                  "vabb-shw"
+                ],
+                "host_organization": "https://openalex.org/P4310320261",
+                "host_organization_name": "American Physical Society",
+                "host_organization_lineage": [
+                  "https://openalex.org/P4310320261"
+                ],
+                "host_organization_lineage_names": [
+                  "American Physical Society"
+                ],
+                "type": "journal"
+              },
+              "license": "cc-by",
+              "license_id": "https://openalex.org/licenses/cc-by",
+              "version": "publishedVersion",
+              "is_accepted": true,
+              "is_published": true,
+              "raw_source_name": "Physical Review C",
+              "raw_type": "journal-article"
+            }
+          },
+          {
+            "title": "Triaxial-band structures, chirality, and magnetic rotation in La133",
+            "doi": "https://doi.org/10.1103/physrevc.94.064309",
+            "open_access": {
+              "is_oa": true,
+              "oa_status": "green",
+              "oa_url": "https://www.osti.gov/servlets/purl/1334327",
+              "any_repository_has_fulltext": true
+            },
+            "best_oa_location": {
+              "id": "pmh:oai:osti.gov:1334327",
+              "doi": null,
+              "is_oa": true,
+              "landing_page_url": "https://www.osti.gov/biblio/1334327",
+              "pdf_url": "https://www.osti.gov/servlets/purl/1334327",
+              "source": {
+                "id": "https://openalex.org/S4306402487",
+                "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+                "issn_l": null,
+                "issn": null,
+                "is_oa": false,
+                "is_in_doaj": false,
+                "is_core": false,
+                "listed_in": [],
+                "host_organization": "https://openalex.org/I139351228",
+                "host_organization_name": "Office of Scientific and Technical Information",
+                "host_organization_lineage": [
+                  "https://openalex.org/I139351228"
+                ],
+                "host_organization_lineage_names": [],
+                "type": "repository"
+              },
+              "license": null,
+              "license_id": null,
+              "version": "submittedVersion",
+              "is_accepted": false,
+              "is_published": false,
+              "raw_source_name": null,
+              "raw_type": null
+            }
+          }
+        ]
+      }
+    },
+    "lawrie2017-bounded-access023.json": {
+      "iop_pdf": {
+        "url": "https://iopscience.iop.org/article/10.1088/1402-4896/aa80ee/pdf",
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/",
+        "status": 200,
+        "type": "text/html; charset=UTF-8",
+        "bytes": 14371,
+        "pdf_magic": false
+      },
+      "stacks_pdf": {
+        "url": "https://stacks.iop.org/1402-4896/92/i=9/a=094006/pdf",
+        "final_url": "https://validate.perfdrive.com/fb803c746e9148689b3984a31fccd902/",
+        "status": 200,
+        "type": "text/html; charset=UTF-8",
+        "bytes": 14371,
+        "pdf_magic": false
+      },
+      "public_search": {
+        "url": "https://www.google.com/search",
+        "exception": "SSLError",
+        "message": "HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=%22aa80ee%22+pdf (Caused "
+      }
+    },
+    "starosta2001-npa-openalex023.json": {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/S0375-9474(00)00663-1",
+      "status": 200,
+      "title": "Chirality in odd–odd triaxial nuclei",
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "locations": [
+        {
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/s0375-9474(00)00663-1",
+          "pdf_url": null,
+          "version": "publishedVersion"
+        }
+      ]
+    }
+  },
+  "tool_outcomes": {
+    "lawrie2017_publisher_discovery": "restricted_target",
+    "lawrie2017_scholar_exactDOI": "timeout; not evidencepaperabsent",
+    "lawrie2017_crossref": "exactDOI/title/authorEA Lawrie/PhysScr92(9)094006(2017)/abstractverified",
+    "starosta2001_crossref": "DOI10.1016/S0375-9474(00)00663-1, Starosta/Koike/Chiara/Fossan/LaFosse, NPA682375–386(2001)",
+    "starosta2001_publisher_discovery": "HTTP200 landingbutnoPDFcandidate",
+    "starosta2001_OA": "closed/norepositorybody incheckedmetadata"
+  },
+  "IOP200notPDF": "ordinaryPDF/stackroutes redirectedtoa validationcaptchaHTML, %PDFfalse; queryparametersremovedfrompersistedledger, noSSL/config/credentialsaltered andnoexecution/bypass/retryloop",
+  "no_global_fulltext_absence_claim": true
+}
