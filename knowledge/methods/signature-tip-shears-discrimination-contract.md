@@ -339,3 +339,22 @@ l=1和l=5的22项unitarity、Casimir、j directsum、跨j l+s相消、diagonal�
 | 实验response | 两篇原P/Rac/gates/误差及外部校准链 | 原net spectra/feeding/共同Cov/likelihood与独立τ仍缺 |
 
 可证伪问题修订为：**固定一个足以描述实际能级的明确组态空间、算符与定标集后，候选configuration能否同时预报未用于定标的跨线δ/E形状和跨母态强度比？** 必要伴随量仍是两τ、完整branch/转换及逐线response；先确认common-scale条件或直接用完整EM振幅，不因代数可写或source模型较完整就给等可信度/最终模式认证。新needs_review:true，SH26条件AD支持与Pr/Au实际反证并列保留。
+
+## Day23：半整数spin的单光子响应组件门
+
+依据[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002与[[droste-1996-pdco-formalism]] DR96-D23-001/002，本任务新增`system/scripts/day23_halfspin_singles_response.py`，完整保留半整数Mi/Mf，不把旧integer-only kernel直接移用于Pr。参数d_RB是RB interaction amplitude的aE2/aM1，初态在左并含原source的能量/相位规范；未默认为Lv、Guo或SH26的已发表δ。
+
+取h=±1，磁项π=1、电项π=0，振幅逐项包含h^π、sqrt(2L+1)、CG(IfMf,L(Mi−Mf)|IiMi)与d^L_(Mi−Mf,h)(θ)，d=exp(−iθJy)。角强度W归一为角平均1；线分析轴x′在发射平面内、y′垂直平面，用A−−A+和A−+A+相干叠加求Ix′/Iy′，P_stokes=(Ix′−Iy′)/W。它不是Compton计数A，也未认证实际核物理δ/实验偏振约定的映射。
+
+14项控制通过：RB67的3/2→1/2 R2解析表、I1/2 singles约束、isotropic W1/Stokes0、positive密度/Stokes球、full角归一、反射、M/E dual、方向rank0/2/4以及混合/有界局部Jacobian。解析与归一误差≤2.3e−15、禁戒高rank数值矩≤5.0e−14。控制只核所定义halfspin singles数学组件，不是原PDCO程序/array或实际实验认证。
+
+| 条件设计量 | 本任务结果 | 适用边界 |
+|---|---|---|
+| I17/2→15/2、d_RB+.5、σ/I.2、θ154°的相干W减纯项非相干加权 | −.519249 | 实际M1/E2响应不能忽略干涉；数值不是Pr观测 |
+| I17/2、d_RB−.5、σ/I.2的Rpoint154/90与local90 P | 1.768130 /−.843860 | 名义角点、singles、无actualgate；不与Lv/Guo点直接比fit |
+| 同点两参数Jacobian determinant | −1.397913，step折半差1.4e−8 | 仅说明此理想局部可逆，不证global唯一/真实likelihood |
+| I17/2、Gaussian输入σ/I.8的实际离散rms/I | .542317 | 截断分布rms与输入width不同，不能混名 |
+
+Gaussian严格定义为DR96 Eq19的exp[−M²/(2σ²)]，但Lv对sigma的variance文字歧义仍保留，未以本任务习惯认证原producer。对称Mi布居是模型假设，未从计数或所有门选样中反推为已知事实。
+
+**singles≠任意all-detector-gate观测**：实际gated all-angle spectra仍包含有限acceptance/效率/门级联与feeding条件；完整4π积分的数学边缘不同。实际比较仍需每条线的gate、角环固体角/效率/合并权重、散射几何与a/Q、deorientation、相位/状态顺序和联合Cov。两个实验不能只凭同名P/Rac或sigma/I就共用响应；当前未用新kernel给Pr/Au拟合、报physicalδ/CI、改SH26固定σ/I条件支持或预判两谷等深。新needs_review:true。

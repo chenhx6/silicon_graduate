@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-10-25T17:24:54.307381+00:00",
+  "physical_object": "single photon Ii->If between definite same-parity nuclear states, Mi-diagonal axially aligned initial density, unobserved final Mf, only M1/E2 real interaction amplitudes; no conditioned cascade or detector",
+  "source": "RB67 printed312fn7/316Eq3.24+WE+linear coherent superposition/319Eq3.39; DR96 printed522Eq19 Gaussian and523 singles vs PDCO boundary",
+  "coordinate": "a_M1=1,a_E2=d_RB, in original RB67 interaction RME/sqrt(2L+1) convention (initial on left), not an assumed translation of Pr/Au delta. No native(-1)^L factor.",
+  "amplitude": "A_h=sum_L h^pi sqrt((2L+1)/(2*(1+d_RB^2))) a_L CG(IfMf,L(Mi-Mf)|IiMi) d^L_(Mi-Mf,h)(theta), h=+-1, pi=M1/E0; d=exp(-i theta Jy)",
+  "normalization": "H_hhprime=sum_MiMf w(Mi) A_h A_hprime*, traceH=W with 4pi mean1; linear x=(A_- - A_+)/sqrt2,y=-i(A_- + A_+)/sqrt2; P_stokes=(Ix-Iy)/W, dimensionless, not ComptonA or uncalibrated experimentP",
+  "population": "w(M)=normalized exp[-M²/(2 sigma²)] with declared std sigma=(sigma_over_I)*I; truncated discrete ensemble rms need not equal inputwidth; isotropic limit uniform; preserve Lv variance wording as unresolved external convention",
+  "initial_spins_twice": [
+    3,
+    11,
+    15,
+    17,
+    21
+  ],
+  "design_grid": "d_RB chosen -2,-.5,0,.5,2; sigma/I .2,.4,.8. Points 154/90 ratio and local90 P only ideal illustration, not actual Pr ring-weighted or Au finite array Rac",
+  "validation": [
+    "3/2->1/2 RB67 tabulated R2 analytic high/lowM W coefficient(.5+sqrt3*d-.5*d²)/(1+d²)",
+    "CG free stretched/pure limits and Ji1/2 isotropic/linear0 singlephoton",
+    "positive photon density and |Stokes|<=1",
+    "isotropic Mi gives W1/P0 for anyd",
+    "full angular normalization Gauss quadrature",
+    "reflection about90 for symmetrically aligned Mi",
+    "M1/E2 dual E1/M2 identicalW/opposite linearStokes",
+    "rank2multipoles yield direction ranks0,2,4 only, higher moments vanish",
+    "Wigner d generator/analyticd1 and two ways integral norm",
+    "explicit mixed interference nonadditivity and coordinate sign reverses odd term only",
+    "finite difference Jacobian convergence for ideal Rpoint,P_stokes vs d,width; no real identifiability/globalroots proof"
+  ],
+  "prohibited": [
+    "integer-only truncation",
+    "actual P-Rac refit or claim matching actual measured point without response/gate",
+    "d_RB silently called published Lv/SH26/Guo delta",
+    "finite gate replaced by singles without boundary",
+    "point angles or equal detectorweights called actualresponse",
+    "Gaussianstd certified as Lvvariance definition",
+    "P>0 branch chosen or equalvalleys inferred",
+    "new experimental Q/tau/counts/time"
+  ]
+}

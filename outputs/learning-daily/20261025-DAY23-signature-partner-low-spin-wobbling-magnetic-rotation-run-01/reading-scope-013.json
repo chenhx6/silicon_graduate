@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-25T17:28:45.531198+00:00",
+  "RB67": {
+    "actual_targeted_read": "printed312fn7,316Eq3.24/linear/WE,318–319rate/mixing definition",
+    "extracted_pages": [
+      7,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "not_all_extracted_pages_claimed_as_full_new_reading": true,
+    "fresh_visual": [
+      "printed316/PDF11",
+      "printed319/PDF14"
+    ],
+    "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
+    "hash_matches": true
+  },
+  "DR96": {
+    "read": "printed522–523 Eq19–21 and singles vs PDCO discussion",
+    "fresh_visual": "printed522/PDF5",
+    "raw_sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
+    "hash_matches": true
+  },
+  "code": "new independent Day23 kernel uses verified task CG/spin matrices; oldday16/17 helpers read only, no114 quarantined producers run",
+  "scope": "mathematical singles only; no actual response or fitting",
+  "new_claims_needs_review": true
+}

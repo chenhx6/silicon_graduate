@@ -3,7 +3,7 @@ type: source
 title: "Rose and Brink 1967 - Angular distributions in phase-defined reduced matrix elements"
 aliases: [Rose-Brink 1967 angular distributions]
 created: 2026-09-21
-updated: 2026-10-15
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -566,3 +566,14 @@ Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1�
 - Methods/observables: [[angular-distribution]], [[angular-correlation]], [[multipole-mixing-ratio]]。
 
 - Day8 方法依赖回链：[[spin-parity-assignment]] 保存 spin/parity/multipolarity 的观测与共享输入审计；[[multipole-mixing-ratio]] 保存三例全候选及 convention 边界。
+
+## Day23：半整数spin的single-photon响应组件
+
+本次定向读printed312 footnote7、316 Eq3.24/线偏振/WE与318–319率及δ定义，fresh视觉316/319；原raw SHA相符。其余提取页不新称完整重读42页，旧flags保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RB67-D23-001 | 本任务依Eq3.24、WE和线偏振叠加建立半整数Mi/Mf全和的M1/E2 singles kernel，d_RB为初态在左的interaction振幅比，不默认为Pr/Au发表δ。两helicity用h^π、d=exp(−iθJy)，线偏振由A−∓A+相干求和。14项角代数/解析/正定/全角归一/偶rank/dual/干涉和有界Jacobian控制通过；3/2→1/2的R2表解析差≤2.3e−15。只是单光子理想响应，未给实际finitegate/array/covariance或fit。 | declared-halfspin-response-component | source-formula-and-task-numerics | printed316 Eq.3.24 and following linear-polarization/WE paragraph; printed318 Eq.3.29; printed319 Eq.3.39 | true |
+| RB67-D23-002 | 同一理想kernel的选定I17/2→15/2、d_RB=.5、Gaussian σ/I=.2、θ154°中，相干W与只按两个pure项加权的差−.519249；d反号使该干涉项反号。另选d_RB−.5、σ/I.2的(Rpoint154/90,P_stokes90)对(d_RB,σ/I) Jacobian determinant−1.397913，step折半差1.4e−8。二者是chosen数学控制，非真实Pr/Au响应或分支CI；局部rank2不证明全局唯一、两谷等深或真实P/Rac选根。 | conditional-interference-and-local-response-check | task-design-numerics | RB67-D23-001; task model-contract-013 and halfspin-singles-response-013 | true |
+
+该响应采用[[droste-1996-pdco-formalism]] DR96-D23-001的明示Gaussian输入；它不等于实际取向分布已经测定，也不替代有限门cascade。源码`system/scripts/day23_halfspin_singles_response.py`只依赖本任务已核CG/角动量基础，不执行隔离的旧Day22 producer或原作者FORTRAN。

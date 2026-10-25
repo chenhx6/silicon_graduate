@@ -1,0 +1,617 @@
+{
+  "status": "conditional-halfspin-singles-kernel",
+  "scope": "Ideal single-photon rest-frame response only. No original PDCO/cascade/finite-detector/data fit.",
+  "source_premises": [
+    "RB67 printed312fn7/316Eq3.24 and linear paragraph/319Eq3.39",
+    "DR96 printed522Eq19,523 singles versus finite coincidence boundaries"
+  ],
+  "coordinate": "d_RB=a_E2/a_M1, RB67 interaction amplitude with initial state on left; not an assumed mapping of actual Pr/Au published delta",
+  "population": "normalized exp[-M^2/(2sigma^2)], sigma input width; not equal to truncated discrete RMS in general",
+  "linear_axes": "xprime=(cos(theta),0,-sin(theta)) in emission plane; yprime=(0,1,0); P_stokes=(Ix-Iy)/(Ix+Iy). Experiment axes and phase convention not certified.",
+  "controls": {
+    "spin1_d_rotation_sign": true,
+    "halfspin_RB67_appendix_R2_analytic": true,
+    "spinhalf_singles_intensity_isotropic_linear_zero": true,
+    "isotropic_population_W1_all_Stokes0": true,
+    "aligned_reflection_about90": true,
+    "electromagnetic_dual_same_W_opposite_linear": true,
+    "full_angular_normalization": true,
+    "direction_angular_rank_0_2_4_only": true,
+    "positive_photon_density": true,
+    "physical_Stokes_ball": true,
+    "mixed_sign_average_restores_incoherent_terms": true,
+    "mixed_interference_cannot_be_omitted": true,
+    "ideal_response_jacobian_step_converged": true,
+    "chosen_ideal_pair_local_rank2": true
+  },
+  "control_details": {
+    "halfspin_analytic_W_error": 2.220446049250313e-15,
+    "spinhalf_intensity_linear_error": 1.1102230246251565e-15,
+    "max_isotropic_W_Stokes_error": 1.2212453270876722e-15,
+    "max_reflection_error": 2.3584068794678985e-15,
+    "max_dual_error": 7.395570986446986e-32,
+    "max_angular_normalization_error": 1.887379141862766e-15,
+    "max_forbidden_Legendre_moment": 4.9779624866630456e-14,
+    "max_photon_PSD_defect": 0.0,
+    "max_positive_Stokes_ball_defect": 0.0,
+    "chosen_coherent_minus_incoherent_W": -0.5192488545006253,
+    "odd_interference_reversal_error": 2.220446049250313e-16,
+    "chosen_ideal_jacobian": {
+      "two_I": 17,
+      "d_RB": -0.5,
+      "sigma_over_I": 0.2,
+      "coordinates": [
+        "point_W154_over_W90",
+        "P_stokes90"
+      ],
+      "matrix": [
+        [
+          -1.9083995170610102,
+          -1.0624345458265516
+        ],
+        [
+          0.5675281504535779,
+          1.048456845583745
+        ]
+      ],
+      "determinant": -1.3979130250003995,
+      "step_halving_error": 1.4048762153606731e-08,
+      "boundary": "Local noiseless ideal-map diagnostic only; no Fisher/likelihood/CI, global unique root or actual experiment."
+    }
+  },
+  "all_controls_pass": true,
+  "results": [
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999993575741595,
+      "ideal_point_W154_over_W90": 1.9634975042312313,
+      "ideal_local_P_stokes90": -0.3288763116427168
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.389653502952135,
+      "ideal_point_W154_over_W90": 1.6716871250752559,
+      "ideal_local_P_stokes90": -0.31763171053749184
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5544252512415982,
+      "ideal_point_W154_over_W90": 1.2170506380203394,
+      "ideal_local_P_stokes90": -0.12036065159747969
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999993575741595,
+      "ideal_point_W154_over_W90": 1.7863271955216535,
+      "ideal_local_P_stokes90": -0.8717782122336549
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.389653502952135,
+      "ideal_point_W154_over_W90": 1.5064074166225314,
+      "ideal_local_P_stokes90": -0.5778253335456253
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5544252512415982,
+      "ideal_point_W154_over_W90": 1.1624530016172883,
+      "ideal_local_P_stokes90": -0.18877997021626775
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999993575741595,
+      "ideal_point_W154_over_W90": 0.691247918400858,
+      "ideal_local_P_stokes90": -0.3821989770931551
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.389653502952135,
+      "ideal_point_W154_over_W90": 0.7799425596385191,
+      "ideal_local_P_stokes90": -0.2724053816002823
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5544252512415982,
+      "ideal_point_W154_over_W90": 0.9164574457995227,
+      "ideal_local_P_stokes90": -0.10341591413342126
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999993575741595,
+      "ideal_point_W154_over_W90": 0.20516659319786357,
+      "ideal_local_P_stokes90": 0.05026181208211259
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.389653502952135,
+      "ideal_point_W154_over_W90": 0.38836695219942646,
+      "ideal_local_P_stokes90": 0.024267840864616922
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5544252512415982,
+      "ideal_point_W154_over_W90": 0.7382178133404931,
+      "ideal_local_P_stokes90": 0.006244383600626522
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999993575741595,
+      "ideal_point_W154_over_W90": 0.31379320792082444,
+      "ideal_local_P_stokes90": 0.3183807347653465
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.389653502952135,
+      "ideal_point_W154_over_W90": 0.46940829704187886,
+      "ideal_local_P_stokes90": 0.19418377273451662
+    },
+    {
+      "two_I_initial": 11,
+      "two_I_final": 9,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5544252512415982,
+      "ideal_point_W154_over_W90": 0.7772129330559656,
+      "ideal_local_P_stokes90": 0.06625887534667085
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.1999998197173597,
+      "ideal_point_W154_over_W90": 1.8910913368839077,
+      "ideal_local_P_stokes90": -0.3968931086575741
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38780194022712694,
+      "ideal_point_W154_over_W90": 1.606953998063208,
+      "ideal_local_P_stokes90": -0.34464345628693127
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5453092759411159,
+      "ideal_point_W154_over_W90": 1.1955891631229865,
+      "ideal_local_P_stokes90": -0.12583116180116788
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.1999998197173597,
+      "ideal_point_W154_over_W90": 1.7731390015279498,
+      "ideal_local_P_stokes90": -0.850916093757721
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38780194022712694,
+      "ideal_point_W154_over_W90": 1.4874712569478297,
+      "ideal_local_P_stokes90": -0.5509591953023343
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5453092759411159,
+      "ideal_point_W154_over_W90": 1.1549797320586401,
+      "ideal_local_P_stokes90": -0.1781291350727243
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.1999998197173597,
+      "ideal_point_W154_over_W90": 0.7104002471533827,
+      "ideal_local_P_stokes90": -0.3584906334270853
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38780194022712694,
+      "ideal_point_W154_over_W90": 0.7971223808788193,
+      "ideal_local_P_stokes90": -0.2511387716047239
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5453092759411159,
+      "ideal_point_W154_over_W90": 0.9241481443766087,
+      "ideal_local_P_stokes90": -0.09389572850723894
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.1999998197173597,
+      "ideal_point_W154_over_W90": 0.21820410768698517,
+      "ideal_local_P_stokes90": 0.04942361596105056
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38780194022712694,
+      "ideal_point_W154_over_W90": 0.40722624521104756,
+      "ideal_local_P_stokes90": 0.024594552257848443
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5453092759411159,
+      "ideal_point_W154_over_W90": 0.7503496165558231,
+      "ideal_local_P_stokes90": 0.006750335466947418
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.1999998197173597,
+      "ideal_point_W154_over_W90": 0.3053946729387114,
+      "ideal_local_P_stokes90": 0.27138050971949906
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38780194022712694,
+      "ideal_point_W154_over_W90": 0.47009727345393904,
+      "ideal_local_P_stokes90": 0.15979280458672226
+    },
+    {
+      "two_I_initial": 15,
+      "two_I_final": 13,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5453092759411159,
+      "ideal_point_W154_over_W90": 0.7799583333415744,
+      "ideal_local_P_stokes90": 0.05283077067682285
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999975585544089,
+      "ideal_point_W154_over_W90": 1.868055484426045,
+      "ideal_local_P_stokes90": -0.41738114014594563
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.3871671477598189,
+      "ideal_point_W154_over_W90": 1.586819277045164,
+      "ideal_local_P_stokes90": -0.3523144706894439
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5423168588760966,
+      "ideal_point_W154_over_W90": 1.1888498318325886,
+      "ideal_local_P_stokes90": -0.127254001916021
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999975585544089,
+      "ideal_point_W154_over_W90": 1.768129625870748,
+      "ideal_local_P_stokes90": -0.8438595765210574
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.3871671477598189,
+      "ideal_point_W154_over_W90": 1.480933374091793,
+      "ideal_local_P_stokes90": -0.5422051697717646
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5423168588760966,
+      "ideal_point_W154_over_W90": 1.1524262230384468,
+      "ideal_local_P_stokes90": -0.1746679899311146
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999975585544089,
+      "ideal_point_W154_over_W90": 0.7164566874282653,
+      "ideal_local_P_stokes90": -0.3509934684981982
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.3871671477598189,
+      "ideal_point_W154_over_W90": 0.8025247871364102,
+      "ideal_local_P_stokes90": -0.24445122431824579
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5423168588760966,
+      "ideal_point_W154_over_W90": 0.9265516972706553,
+      "ideal_local_P_stokes90": -0.0909204110527425
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999975585544089,
+      "ideal_point_W154_over_W90": 0.22259575653720362,
+      "ideal_local_P_stokes90": 0.04902422039733605
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.3871671477598189,
+      "ideal_point_W154_over_W90": 0.413526566740657,
+      "ideal_local_P_stokes90": 0.02457137422684556
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5423168588760966,
+      "ideal_point_W154_over_W90": 0.7543745357624649,
+      "ideal_local_P_stokes90": 0.006851179636363583
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999975585544089,
+      "ideal_point_W154_over_W90": 0.30304727902336615,
+      "ideal_local_P_stokes90": 0.2565307452123577
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.3871671477598189,
+      "ideal_point_W154_over_W90": 0.4707655728784584,
+      "ideal_local_P_stokes90": 0.14904745787108506
+    },
+    {
+      "two_I_initial": 17,
+      "two_I_final": 15,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5423168588760966,
+      "ideal_point_W154_over_W90": 0.7811202960493572,
+      "ideal_local_P_stokes90": 0.04868572688870728
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999963296908566,
+      "ideal_point_W154_over_W90": 1.835483280152407,
+      "ideal_local_P_stokes90": -0.4454081373592142
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38622979626132115,
+      "ideal_point_W154_over_W90": 1.5587048161215233,
+      "ideal_local_P_stokes90": -0.362390916042962
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": -2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5380029847451135,
+      "ideal_point_W154_over_W90": 1.1793955673464513,
+      "ideal_local_P_stokes90": -0.12899854313746953
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999963296908566,
+      "ideal_point_W154_over_W90": 1.7603844154137478,
+      "ideal_local_P_stokes90": -0.833536421827951
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38622979626132115,
+      "ideal_point_W154_over_W90": 1.4712727150176204,
+      "ideal_local_P_stokes90": -0.529648702974074
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": -0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5380029847451135,
+      "ideal_point_W154_over_W90": 1.148673780774385,
+      "ideal_local_P_stokes90": -0.16971229280241712
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999963296908566,
+      "ideal_point_W154_over_W90": 0.7249936813291407,
+      "ideal_local_P_stokes90": -0.34042566821175
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38622979626132115,
+      "ideal_point_W154_over_W90": 0.8101144999721811,
+      "ideal_local_P_stokes90": -0.23505604723235057
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 0.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5380029847451135,
+      "ideal_point_W154_over_W90": 0.929915151128609,
+      "ideal_local_P_stokes90": -0.08675684843851894
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999963296908566,
+      "ideal_point_W154_over_W90": 0.22901621263398808,
+      "ideal_local_P_stokes90": 0.04835056775523131
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38622979626132115,
+      "ideal_point_W154_over_W90": 0.4226983037457639,
+      "ideal_local_P_stokes90": 0.02443790787849949
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 0.5,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5380029847451135,
+      "ideal_point_W154_over_W90": 0.7602059404005402,
+      "ideal_local_P_stokes90": 0.006946449030550452
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.2,
+      "actual_discrete_rms_M_over_I": 0.19999963296908566,
+      "ideal_point_W154_over_W90": 0.2999967162886484,
+      "ideal_local_P_stokes90": 0.23560489231393159
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.4,
+      "actual_discrete_rms_M_over_I": 0.38622979626132115,
+      "ideal_point_W154_over_W90": 0.47209225173821356,
+      "ideal_local_P_stokes90": 0.13401863454121557
+    },
+    {
+      "two_I_initial": 21,
+      "two_I_final": 19,
+      "d_RB_design_coordinate": 2.0,
+      "Gaussian_input_sigma_over_I": 0.8,
+      "actual_discrete_rms_M_over_I": 0.5380029847451135,
+      "ideal_point_W154_over_W90": 0.7830058103397778,
+      "ideal_local_P_stokes90": 0.04293490000066015
+    }
+  ],
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_halfspin_singles_response.py": "a6c93f9f32cb1425a5ddf2aeaebc935f346e838dedd322cee98b3fe9811829ec",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "No actual finite detector solid angles, efficiencies, selected all-angle gate/cascade, sidefeeding or deorientation response supplied.",
+    "Nominal154/90 point ratio and local90 Stokes are not measured Rac/P or a reconstruction of Pr angle groups/Au array.",
+    "Physical experiment delta phase/normalization and P analysis-axis mapping must be established from original analysis conventions before numerical fitting.",
+    "D96 explicitly defines Gaussian width; Lv variance wording is not silently certified to use this same parameter.",
+    "Local rank2 in a chosen ideal map does not prove global injectivity or actual likelihood root selection/equal minima.",
+    "No Q, a, count rates, covariance, actual delta/CI, lifetime or beamtime generated; SH26 fixed sigma/I conditional support retained."
+  ]
+}

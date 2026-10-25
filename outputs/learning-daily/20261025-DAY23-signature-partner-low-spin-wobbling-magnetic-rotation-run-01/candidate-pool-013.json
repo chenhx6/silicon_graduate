@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-10-25T17:31:02.334810+00:00",
+  "selection": "continue current A route, no evidence-saturation closeout",
+  "A": {
+    "completed_component": "source RB67 halfspin singles 14 controls; explicit dRB/axes/std coordinate and no actualfit",
+    "next": "Halfspin cascade/conditional gate: upstream 796 (25/2->21/2 E2) for813 (21/2->19/2) is not a downstream4pi trace;450 gate for747 is upstream mixed19/2->17/2. First freeze design, actual branch/gates fromLv; complete4pi vs declared finitecoplanargate and daughter-density controls. No actualfinitearray fit or unprovidedsource populations."
+  },
+  "B": {
+    "status": "sameH ordinal/energy/operator boundaries preserved; actual multiorbit matrix/readiness unresolved",
+    "possible_followup": "source-model state tracking and heldout connection vector without retuning"
+  },
+  "actual_missing": [
+    "netcounts/background/gate weights/array solidangles/live time/efficiency",
+    "width and published delta-coordinate mapping",
+    "daughter feeding/deorientation density and completejointCov/likelihood",
+    "actualoperator mixing/BCS coefficients and independenttau"
+  ],
+  "novelty_current_card": "MR/AMR source routes still available",
+  "Day24": {
+    "opened": false,
+    "formalcredit": false,
+    "rule": "only uncredited exactly next-card preview after useful current route saturation; noDay25"
+  }
+}

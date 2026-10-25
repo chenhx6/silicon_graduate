@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint012）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint013）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T01:22:24.315456+08:00
+- checked_at: 2026-10-26T01:31:02.334810+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -46,6 +46,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint013针对RB67 printed312fn7/316振幅、线偏振、WE及318–319宽度/δ定义，DR96 printed522–523 Gaussian与singles/PDCO边界实际回读；fresh视觉RB316/319、DR522、原hash匹配。新RB67-D23-001/002、DR96-D23-001/002为源公式/本任务组件，旧人审flags不变，不新称42页或8页全文重读。
 
 checkpoint012定向回读Lv主文4–5/SI4/6与Guo主文3/SI4–5；fresh视觉Lv SI6、Guo SI4且原SHA相符。新增L22-D23-002/003、GU22-D23-012核actual modelspace、source参数与bands2/5限制；H02-D23-004是由完整l/s算符作的本任务纯角代数，不归属作者新结果。未机械全文重读/不增独立实验票。
 
@@ -84,6 +86,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint013先modelcontract再实现完整halfspin Mi/Mf的single-photon RB kernel；14项解析/归一/positive/rank/dual/干涉/有界Jacobian控制通过，解析≤2.3e−15。chosen I17/2、d_RB+.5、σ/I.2的154°相干W与非相干pure加权差−.519249。选定idealRpoint154/90、local90Stokes的局部det−1.397913不等全局唯一或实验根选择。d_RB/局部P/pointR均非直接发表δ/P/Rac映射。
 
 checkpoint012在model-contract先行后实现完整l×s1/2 CG空间。l1/l5两域22项unitarity/Casimir、j直和生成元、跨j l+s相消、Landé对角投影、spinclosure/详细平衡通过。l5归一角B_s(11/2→9/2)=5/11，反向6/11；跨j磁系数为gs−gl而非一个乘j的gj。未选实际g/混合权重/radial/BCS，不是Au/Pr physical BM1或新核态。
 
@@ -127,6 +131,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint013填补halfspin singles组件，不等于实际门响应重放。actualPr角环与Au名义154/90的finiteacceptance/效率/权重、conditional gate/feeding/去取向、phase和jointCov仍缺；D96明确Gaussian std不能替Lvvariance原实现背书。σ/I输入与离散rms不同（I17/2输入.8实际rms/I.5423）。不由P正号、理想局部rank或unknownscale判根/等深，不新造δ/Q/τ/机时。
+
 checkpoint012原模型有多轨道/配对，但轨道多不自动破坏single-j投影：严格同l,j的Ω混合仍可因子化。Au #21/#22有h/f来源，说明不能只凭h9/2主导文字认证整个operator。原Lv QTR对bands2/5偏高的限制来自作者；当前single-j失败不排除原QTR，也不靠任意mixing修复。011跨线D须原完整EM矩阵/phase与occupation决定可否common-scale消去，缺项不填。
 
 checkpoint011的μ=gR I+(gj−gR)j在静态量必须保留gR项；j+R跨I相消检查不能误说M1全为0。当前PRM的j可动力学变化，非新frozen-alignment计算。未知SE/SM使physicalδ保持null；跨线双比只在同operator、spin-independent尺度与共同phase下消去scale，不修复009/010能量/退激方向。跨母态M1比需要两τ/完整branch/转换/响应，不用relative counts代替；真实P/Rac仍可选择分支，不宣称两谷等深。
@@ -160,6 +166,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint013 supports：source-defined halfspin singles direction/Stokes响应及干涉检验；limits：从singlephoton到actualfinitegate必须补primitive response与约定，不把组件数值认证实验或模型。A槽继续核相位映射与selected gate响应，尚有高价值路线，不收束。
 
 checkpoint012 limits：把单j数学练习迁移原QTR的条件具体到完整l/s算符和真实模型空间；supports：原源存在明确多轨道/配对和公开的参数/归属链，不抹掉作者支持；revises：不以轨道数量或h主导文字认证共同g尺度。纯角22checks只核这一数学对象。
 
@@ -252,7 +260,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -382,6 +390,22 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
           "locator": "GU22-D23-012"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-001"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-002"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-001"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-002"
         }
       ]
     },
@@ -592,7 +616,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
-      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。",
+      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。",
       "anchor": "Day23：run重叠与observable继承分开",
       "sources": [
         {
@@ -634,6 +658,22 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
           "locator": "L22-D23-003"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-001"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-002"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-001"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-002"
         }
       ]
     },
@@ -790,6 +830,44 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
           "locator": "F14-D23-001"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。",
+      "anchor": "Day23：半整数spin的single-photon响应组件",
+      "sources": [
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-001"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-002"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/droste-1996-pdco-formalism.md",
+      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。",
+      "anchor": "Day23：Gaussian宽度与有限门single-photon边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-001"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-002"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-001"
+        }
+      ]
     }
   ]
 }
@@ -807,6 +885,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint013 boundary/lint/diff/halfspin_singles实际退出0，14组件控制过，true runner报告/累计22changed知识页写回valid；lint0error/220warning、182旧citation债务。next-continuation-013.md/candidate-pool-013.json保原goal与15:00截止，下一当前A槽upstreamgate/feeding而非提前收束；Day24未打开。Git指针main · Day23: establish half-spin singles response component；actualhash/H3看task-publication-receipt-013.json。
 
 checkpoint012实际boundary/lint/diff/multij_angular均0，两个l域共22项控制通过；true runner报告及累计20页changed知识写回valid。lint0error/220warning与182旧citation债务保持；canonical方法、Pr/Au和原source新条目均needs_review:true。next-continuation-012.md/candidate-pool-012.json保持原goal/截止，当前A槽半整数响应有用路线继续、Day24未打开。Git稳定指针main · Day23: delimit single-j operator transfer to QTR；actualhash/H3看task-publication-receipt-012.json。
 

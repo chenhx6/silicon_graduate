@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-25T17:24:54.307381+00:00",
+  "head": "2cfbc19534362917d9bde4214b30f75d2af6a117",
+  "scope": "checkpoint013 half-integer singles RB67 response kernel, current A route, not original experimental response reconstruction",
+  "original_baseline": "baseline-001.json",
+  "file_entry_additions_013": {
+    "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md": "cdb724b5e27d2ba984df9f53f1b2fa91e76875ce6809551013bee8b3f203ce0e",
+    "knowledge/sources/droste-1996-pdco-formalism.md": "12e0bc0237b53ceff729741cce4676a22e6d26b6e165783575b95d4c492b88af"
+  },
+  "note": "These two exact source files were clean at parent checkpoint012, covered by original baseline001; stored hashes here are postdelta audit, not prewrite baseline."
+}

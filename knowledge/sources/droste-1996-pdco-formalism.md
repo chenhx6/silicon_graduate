@@ -3,7 +3,7 @@ type: source
 title: "Droste et al. 1996 - PDCO polarizational-directional correlation formalism"
 aliases: [Droste 1996 PDCO]
 created: 2026-09-21
-updated: 2026-10-17
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method
@@ -116,3 +116,14 @@ DR96-6是**作者计算**。Fig7图注的state parities unchanged对应M1/E2曲�
 本run早前的phase worksheet用Eq3/7的directional F和独立RB/Jones photon amplitudes核对，未将原印Eq4逐字作为PDCO kernel，因此不能把该勘误事后当作早前内部坐标换号的原因，也不据此宣称重放了作者PDCO程序。当前使用者须同时保存正确公式和自己的operator/basis定义。
 
 随后按新冻结输入执行DR96-9的有界literal-formula核验，结果与失败路径保存在[[dco-pdco-ambiguity-worksheet]]的“勘误公式与有向分析轴的独立核验”。共享CG/Wigner基础函数，但tensor contraction与photon trace是不同代数路径，不是独立实验/独立原作者实现。总归一、互补分析轴之和、反射对称与两种积分阶数通过；早期斜向psi不一致被定位为固定Jones probe的有向坐标映射，未调物理角度、布居或delta。
+
+## Day23：Gaussian宽度与有限门single-photon边界
+
+本次定向读printed522–523 Eq19–21及singles/finite PDCO区别，fresh视觉522；原SHA相符。未新称重读整篇或运行原FORTRAN，旧flags及1999 Eq4勘误保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DR96-D23-001 | Eq19明确w(M)∝exp[−M²/(2σ²)]并在合法离散M上归一，σ是该Gaussian输入宽度；有限spin截断后的实际sqrt〈M²〉不必等于σ。按这个明确条件，本任务I17/2在输入σ/I=.8时离散rms/I=.542317，而.2时约.1999998；这些是分布数学量，不认证Lv2022使用variance一词时的原实现。 | source-width-and-discrete-population-boundary | direct-original-plus-declared-arithmetic | printed522 Eq.19; task halfspin-singles-response-013 | true |
+| DR96-D23-002 | printed523说明singles/完整4π积分PDCO与有限条件PDCO不同：后者即使σ→∞也可非零polarization，最佳polarimeter角不普遍固定90°。本任务halfspin kernel只构singles，名义154/90的point比及local90 Stokes不能直接当实际Pr/Au Rac/P；全角gate字面不等于完整4π或无feeding/效率条件。 | response-transfer-and-conditional-gate-boundary | direct-original-and-task-scope | printed522 detector-integrated discussion; printed523 points5/6 and singles/4π-integrated paragraph | true |
+
+halfspin振幅源与本任务控制见[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002，实验a/Q与散射计数仍须另接实际响应。共同取向参数和校准不能因同名sigma或同一formalism而在两个实验间自动共享。

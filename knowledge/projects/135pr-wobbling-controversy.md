@@ -302,3 +302,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 [[lv-2022-evidence-against-wobbling-135pr]] L22-D23-002/003回核原QTR10轨道/配对/费米44MeV和bands2/5能量偏高的作者限制；旧L22-15人审范围不扩张。当前009–011单jvariant的energygap失败不能当原QTR已被数值排除；也不能为原模型默造完整effective operator和Nilsson/BCS系数。
 
 [[signature-tip-shears-discrimination-contract]]的新算符门与[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-004表明：多个同j Ω/Nilsson分量本身不会破坏single-j投影，跨不同j的l/s项却不能普遍缩成一个gj j。011的scale-free双比适用性需要原EM矩阵/phase和occupation核实，尚未认证该原QTR的实际D预报或差异显著性。source主导轨道文字不是完整相干幅，缺项不补。新综合needs_review:true。
+
+## Day23：半整数响应ready到哪一层
+
+[[signature-tip-shears-discrimination-contract]]建立halfspin singles RB振幅组件，完整Mi/Mf、混合干涉与偏振密度均受控制；前提为[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-001/002和[[droste-1996-pdco-formalism]] DR96-D23-001/002。这解除“仅integer kernel可用”的组件缺口，尚未解除实际Pr角环157.6/133.6与75.5/104.5的效率/acceptance/门权重、feeding/取向及δ坐标映射缺口。
+
+本kernel的Gaussian是明确std输入，不能据此改写L22-18的variance措辞为已核；nominal154/90只是另一个idealpoint设计，不代Pr实际Rac。未拟合747/813或宣布两根等深，原SH26固定σ/I=.2大根条件支持继续保留。新综合needs_review:true。
