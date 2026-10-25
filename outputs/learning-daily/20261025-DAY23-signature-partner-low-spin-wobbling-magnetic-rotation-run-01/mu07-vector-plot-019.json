@@ -1,0 +1,398 @@
+{
+  "status": "author-vector-representation-audit-only",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "source_identity": "arXiv0708.1493 currentv2 officialarchive, DOI99.172501; same paper, no independent acquisition",
+  "archive_content_executed": false,
+  "source_member_hashes": {
+    "fig1.ps": "9e5733478dad4345427ea5a8bc01ba488b2e2d0cbdd096529f037e26098c63eb",
+    "fig2.ps": "da4f4fa93cd03b705ff768a96ece28686b152ae9a01d5a0aba5bcb84eeb9c1fd",
+    "fig3.ps": "47718e87ba4b800dbe83ef727e03d5c280199526fb2c66c7e6c653bfb33a52f8",
+    "fig4.ps": "3f123e0c2a17b324b09ad569359a6fcd3c6a26b5fe6725553dab5f76a099488e",
+    "ndchiralrev4.bbl": "c25b41f693f95a824536af8de4575235c2ad97149f33b3f36bec00983509e818",
+    "ndchiralrev4.tex": "be2e5d49a2a42aaa293121fb154e74c639dfaad2c700835b82e37b6dcaeab60b"
+  },
+  "TableI_rows_raw": [
+    {
+      "band": "A",
+      "two_I": 29,
+      "tex_line": 211,
+      "mean_tau_ps_raw": "1.00(5)",
+      "B_M1_muN2_raw": "3.2(2)",
+      "B_E2_e2b2_raw": "0.32(2)"
+    },
+    {
+      "band": "A",
+      "two_I": 31,
+      "tex_line": 212,
+      "mean_tau_ps_raw": "0.75(8)",
+      "B_M1_muN2_raw": "2.5(3)",
+      "B_E2_e2b2_raw": "0.32(3)"
+    },
+    {
+      "band": "A",
+      "two_I": 33,
+      "tex_line": 213,
+      "mean_tau_ps_raw": "0.44(2)",
+      "B_M1_muN2_raw": "2.2(2)",
+      "B_E2_e2b2_raw": "0.32(3)"
+    },
+    {
+      "band": "A",
+      "two_I": 35,
+      "tex_line": 214,
+      "mean_tau_ps_raw": "0.28(2)",
+      "B_M1_muN2_raw": "2.4(3)",
+      "B_E2_e2b2_raw": "0.32(3)"
+    },
+    {
+      "band": "A",
+      "two_I": 37,
+      "tex_line": 215,
+      "mean_tau_ps_raw": "0.23(2)",
+      "B_M1_muN2_raw": "1.7(3)",
+      "B_E2_e2b2_raw": "0.32(4)"
+    },
+    {
+      "band": "A",
+      "two_I": 39,
+      "tex_line": 216,
+      "mean_tau_ps_raw": "0.22(2)",
+      "B_M1_muN2_raw": "2.1(3)",
+      "B_E2_e2b2_raw": "0.13(3)"
+    },
+    {
+      "band": "A",
+      "two_I": 41,
+      "tex_line": 217,
+      "mean_tau_ps_raw": "0.18(2)",
+      "B_M1_muN2_raw": "2.1(3)",
+      "B_E2_e2b2_raw": "0.19(3)"
+    },
+    {
+      "band": "A",
+      "two_I": 43,
+      "tex_line": 218,
+      "mean_tau_ps_raw": "0.16(2)",
+      "B_M1_muN2_raw": "2.0(3)",
+      "B_E2_e2b2_raw": "0.21(4)"
+    },
+    {
+      "band": "B",
+      "two_I": 31,
+      "tex_line": 222,
+      "mean_tau_ps_raw": "1.46(2)",
+      "B_M1_muN2_raw": "2.7(3)",
+      "B_E2_e2b2_raw": "0.28(3)"
+    },
+    {
+      "band": "B",
+      "two_I": 33,
+      "tex_line": 223,
+      "mean_tau_ps_raw": "0.87(6)",
+      "B_M1_muN2_raw": "2.1(2)",
+      "B_E2_e2b2_raw": "0.28(3)"
+    },
+    {
+      "band": "B",
+      "two_I": 35,
+      "tex_line": 224,
+      "mean_tau_ps_raw": "0.64(5)",
+      "B_M1_muN2_raw": "2.2(2)",
+      "B_E2_e2b2_raw": "0.28(4)"
+    },
+    {
+      "band": "B",
+      "two_I": 37,
+      "tex_line": 225,
+      "mean_tau_ps_raw": "0.48(3)",
+      "B_M1_muN2_raw": "1.7(2)",
+      "B_E2_e2b2_raw": "0.29(4)"
+    },
+    {
+      "band": "B",
+      "two_I": 39,
+      "tex_line": 226,
+      "mean_tau_ps_raw": "0.24(4)",
+      "B_M1_muN2_raw": "1.9(3)",
+      "B_E2_e2b2_raw": "0.11(3)"
+    }
+  ],
+  "plots": [
+    {
+      "kind": "M1",
+      "units": "muN2",
+      "calibration": {
+        "x_I13": "0.1500",
+        "x_I23": "1.2500",
+        "y_B0": "0.1000",
+        "y_Breference": "0.2889",
+        "B_reference": "1"
+      },
+      "rows": [
+        {
+          "plotted_I_coordinate": 15.5,
+          "nearest_two_I": 31,
+          "source_coordinate_strings": {
+            "x": "0.4250",
+            "y": "0.1158",
+            "radius_x": "0.0065",
+            "radius_y": "0.0065",
+            "error_y_low": "0.1142",
+            "error_y_high": "0.1175"
+          },
+          "drawn_B_centre": 0.08364213869772366,
+          "drawn_errorbar_endpoints": [
+            0.07517204870301747,
+            0.092641609317099
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.08311275807305453,
+            0.08417151932239281
+          ],
+          "conditional_TableI_B_denominator_raw": "2.7(3)",
+          "conditional_out_over_in_if_same_parent_component": 0.030978569888045798,
+          "source_line": 931,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        },
+        {
+          "plotted_I_coordinate": 16.5,
+          "nearest_two_I": 33,
+          "source_coordinate_strings": {
+            "x": "0.5350",
+            "y": "0.1224",
+            "radius_x": "0.0065",
+            "radius_y": "0.0065",
+            "error_y_low": "0.1208",
+            "error_y_high": "0.1240"
+          },
+          "drawn_B_centre": 0.11858125992588671,
+          "drawn_errorbar_endpoints": [
+            0.11011116993118052,
+            0.12705134992059292
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.11805187930121758,
+            0.11911064055055585
+          ],
+          "conditional_TableI_B_denominator_raw": "2.1(2)",
+          "conditional_out_over_in_if_same_parent_component": 0.05646726663137462,
+          "source_line": 932,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        },
+        {
+          "plotted_I_coordinate": 17.5,
+          "nearest_two_I": 35,
+          "source_coordinate_strings": {
+            "x": "0.6450",
+            "y": "0.1152",
+            "radius_x": "0.0065",
+            "radius_y": "0.0065",
+            "error_y_low": "0.1140",
+            "error_y_high": "0.1165"
+          },
+          "drawn_B_centre": 0.08046585494970884,
+          "drawn_errorbar_endpoints": [
+            0.07411328745367919,
+            0.08734780307040763
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.0799364743250397,
+            0.08099523557437797
+          ],
+          "conditional_TableI_B_denominator_raw": "2.2(2)",
+          "conditional_out_over_in_if_same_parent_component": 0.03657538861350402,
+          "source_line": 933,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        },
+        {
+          "plotted_I_coordinate": 18.5,
+          "nearest_two_I": 37,
+          "source_coordinate_strings": {
+            "x": "0.7550",
+            "y": "0.1357",
+            "radius_x": "0.0065",
+            "radius_y": "0.0065",
+            "error_y_low": "0.1336",
+            "error_y_high": "0.1378"
+          },
+          "drawn_B_centre": 0.18898888300688194,
+          "drawn_errorbar_endpoints": [
+            0.17787188988883007,
+            0.20010587612493383
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.18845950238221282,
+            0.18951826363155108
+          ],
+          "conditional_TableI_B_denominator_raw": "1.7(2)",
+          "conditional_out_over_in_if_same_parent_component": 0.1111699311805188,
+          "source_line": 934,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        }
+      ],
+      "controls": {
+        "four_data_one_legend_markers": true,
+        "frame_and_calibration_commands_present": true,
+        "major_axis_value_label_present": true,
+        "x_axis_13_and_23_labels_present": true,
+        "four_plotted_halfspins": true,
+        "positive_data_and_bracketing_drawn_bars": true,
+        "declared_rounding_envelopes_contain_literal_centres": true
+      }
+    },
+    {
+      "kind": "E2",
+      "units": "e2b2",
+      "calibration": {
+        "x_I13": "0.1600",
+        "x_I23": "1.2500",
+        "y_B0": "0.1000",
+        "y_Breference": "0.2545",
+        "B_reference": ".1"
+      },
+      "rows": [
+        {
+          "plotted_I_coordinate": 15.5,
+          "nearest_two_I": 31,
+          "source_coordinate_strings": {
+            "x": "0.4325",
+            "y": "0.1603",
+            "radius_x": "0.0081",
+            "radius_y": "0.0081",
+            "error_y_low": "0.1541",
+            "error_y_high": "0.1665"
+          },
+          "drawn_B_centre": 0.03902912621359223,
+          "drawn_errorbar_endpoints": [
+            0.035016181229773465,
+            0.043042071197411005
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.03896440129449838,
+            0.03909385113268608
+          ],
+          "conditional_TableI_B_denominator_raw": "0.28(3)",
+          "conditional_out_over_in_if_same_parent_component": 0.1393897364771151,
+          "source_line": 931,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        },
+        {
+          "plotted_I_coordinate": 16.5,
+          "nearest_two_I": 33,
+          "source_coordinate_strings": {
+            "x": "0.5415",
+            "y": "0.2051",
+            "radius_x": "0.0081",
+            "radius_y": "0.0081",
+            "error_y_low": "0.1974",
+            "error_y_high": "0.2128"
+          },
+          "drawn_B_centre": 0.06802588996763755,
+          "drawn_errorbar_endpoints": [
+            0.06304207119741101,
+            0.07300970873786408
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.06796116504854369,
+            0.06809061488673139
+          ],
+          "conditional_TableI_B_denominator_raw": "0.28(3)",
+          "conditional_out_over_in_if_same_parent_component": 0.24294960702727691,
+          "source_line": 932,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        },
+        {
+          "plotted_I_coordinate": 17.5,
+          "nearest_two_I": 35,
+          "source_coordinate_strings": {
+            "x": "0.6505",
+            "y": "0.3055",
+            "radius_x": "0.0081",
+            "radius_y": "0.0081",
+            "error_y_low": "0.2885",
+            "error_y_high": "0.3225"
+          },
+          "drawn_B_centre": 0.13300970873786408,
+          "drawn_errorbar_endpoints": [
+            0.12200647249190938,
+            0.14401294498381878
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.13292367399741267,
+            0.1330958549222798
+          ],
+          "conditional_TableI_B_denominator_raw": "0.28(4)",
+          "conditional_out_over_in_if_same_parent_component": 0.47503467406380023,
+          "source_line": 933,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        },
+        {
+          "plotted_I_coordinate": 18.5,
+          "nearest_two_I": 37,
+          "source_coordinate_strings": {
+            "x": "0.7595",
+            "y": "0.3229",
+            "radius_x": "0.0081",
+            "radius_y": "0.0081",
+            "error_y_low": "0.3096",
+            "error_y_high": "0.3361"
+          },
+          "drawn_B_centre": 0.1442718446601942,
+          "drawn_errorbar_endpoints": [
+            0.13566343042071197,
+            0.15281553398058254
+          ],
+          "declared_four_decimal_coordinate_sensitivity": [
+            0.14417852522639069,
+            0.14436528497409326
+          ],
+          "conditional_TableI_B_denominator_raw": "0.29(4)",
+          "conditional_out_over_in_if_same_parent_component": 0.497489119517911,
+          "source_line": 934,
+          "boundary": "Rounded author-vector plot coordinate, not original unrounded experimental data. Errorbar coverage/jointCov and gamma parent/daughter/component mapping are not supplied."
+        }
+      ],
+      "controls": {
+        "four_data_one_legend_markers": true,
+        "frame_and_calibration_commands_present": true,
+        "major_axis_value_label_present": true,
+        "x_axis_13_and_23_labels_present": true,
+        "four_plotted_halfspins": true,
+        "positive_data_and_bracketing_drawn_bars": true,
+        "declared_rounding_envelopes_contain_literal_centres": true
+      }
+    }
+  ],
+  "controls": {
+    "safe_extracted_expected_regular_files_only": true,
+    "thirteen_TableI_rows": true,
+    "TeX_TableI_matches_journal_literal_rows": true,
+    "TableI_header_has_lifetime_B_columns_not_gamma_energy": true,
+    "author_caption_links_fig2_M1_fig3_E2": true,
+    "M1_four_data_one_legend_markers": true,
+    "M1_frame_and_calibration_commands_present": true,
+    "M1_major_axis_value_label_present": true,
+    "M1_x_axis_13_and_23_labels_present": true,
+    "M1_four_plotted_halfspins": true,
+    "M1_positive_data_and_bracketing_drawn_bars": true,
+    "M1_declared_rounding_envelopes_contain_literal_centres": true,
+    "E2_four_data_one_legend_markers": true,
+    "E2_frame_and_calibration_commands_present": true,
+    "E2_major_axis_value_label_present": true,
+    "E2_x_axis_13_and_23_labels_present": true,
+    "E2_four_plotted_halfspins": true,
+    "E2_positive_data_and_bracketing_drawn_bars": true,
+    "E2_declared_rounding_envelopes_contain_literal_centres": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": "cf11d23e7fe9d98a942d4ac41e73cf03f7e3f6e83254ad54512f83c04e10e708",
+  "limitations": [
+    "Coordinates are rounded author graphics, not full precision input data or the experiment/fit producer. Exact literal extraction does not certify unrounded B accuracy.",
+    "The +/-0.00005 coordinate/axis corner envelope is a declared graphic-rounding sensitivity, not an experimental confidence interval; truncation or other rendering changes require a different design.",
+    "Drawn errorbar endpoints have no supplied joint covariance/coverage or source systematics here.",
+    "Neither archive TableI nor figure legends provide rowwise gamma energy/final spin or a component ledger. PlottedI-to-parent and out/in denominator bindings remain conditional.",
+    "The archive contains four drawings, TeX andbibliography; no raw coincidence spectra, branch tables or analysis producer is recovered.",
+    "No new data vote, physical delta/ICC/Q/g/lifetime CI, paper-error claim or beamtime generated. Original budget ambiguities and earlier withdrawals remain."
+  ]
+}

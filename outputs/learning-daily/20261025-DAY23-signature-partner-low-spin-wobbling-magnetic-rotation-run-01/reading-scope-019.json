@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-25T18:47:23.566557+00:00",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "actual_source_read": "TeXTableI/header/figurecaptions+relevantmethods, literalfig2/3PS prolog/axes/colour/EARC/errorbar/legendcommands; notexecutePS/TeX",
+  "version": "officialarXiv0708.1493 currentlyv2 perhistory; sameDOI99.172501",
+  "rawarchive": "tmponly, formalraw/sourceattachmentdeferred",
+  "source_plot_coordinates_not_unrounded_data": true,
+  "initial_failure": "framepresencecheck usedomittedleadingzero .1500 vs literal0.1500, fixedexactstring/reexecuted; scientificcoordinatesunchanged",
+  "all_previous_review_flags_preserved": true,
+  "missing": "gammaidentity/branch/component/rawspectra/AGRinput/analysisproducer/Cov"
+}

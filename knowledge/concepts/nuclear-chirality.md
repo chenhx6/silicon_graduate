@@ -101,3 +101,9 @@ C=R_y(\pi)T,\quad C^2=+1.$$
 | g因子 | 当前此对135Nd未获得可绑定的双partner g观测向量 | 128Cs bandhead的g属于另一核/态，不能迁入135Nd；017 C-even算符数学也不提供physicalg |
 
 snapshot的648/649.2和590/591为实际不同endpoints/ΔI例，说明partner-resolved evidence map必须同时锁定parent、daughter、Jπ和component。所有字段为原文/导出已有量或声明中央算术，不新增核态/机时、不给Qt代理置信区间，也不恢复225.8 P正号排他方案。原2003建纲图与2007新DSAM各自有采集贡献，evaluation整理与重复引述不加独立实验票；真正共享哪些branch/assignment输入仍须reference notes与event/analysis ledger。
+
+## Day23内的Day24无学分预习：表示精度不能补足物理量身份
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-004/005取得官方作者TeX/矢量图，原TableI版本相符，绘制坐标与误差棒可纯文本重建；这比仅从raster图手工读值更可复核，但仍是同一论文的表示层。
+
+当前135Nd partner map把三件事分开：**图点画在哪里**可由作者vector source缩小转录误差；**图点对应哪条γ/component/parent**仍缺逐线ledger；**由这些量支持哪种手征动力学**还需完整模型和独立伴随观测。19项解析控制不把后两项自动补齐。用TableI denominator构造out/in仍需同母态/组件条件，也不把rounding或errorbar端点包络称CI。无新实验、physicalg或核态/机时；仅同一Day24无学分预习。

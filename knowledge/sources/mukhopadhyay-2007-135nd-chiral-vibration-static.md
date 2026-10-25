@@ -364,3 +364,16 @@ The plotted-spin/line bindings are additional hypotheses. Using the existing Tab
 | MU07-D24P-003 | 官方guide把γ的RTPW定义为Weisskopf Units；b_e2/b_m1导出字符串不能直接与本表e²b²/μN²数值相比。226条目(59,56,0)的mixing_ratio为正字符串.14、unc_mr空且缺原adopted notes/phase，这里不认证其为实测signed δ。relative_intensity100只为该parent的相对归一；现代字段不能恢复225.8keV偏振正号/16.3h排他方案、原branch完整性或实验jointCov。 | external-unit-and-missing-note-boundary | actual-guide-and-export-with-limits | IAEA official APIguide gammas/RTPW paragraph; gammas135nd ID(59,56,0) | true |
 
 `system/scripts/day24_preview_nd135_export_identity.py`对真实CSV做strict-width/核素/duplicate-unc_hl列位置/uniqueID/全部端点energy与Jπ join/clock单位和near-line identity共14检查通过。level的两个unc_hl按column12/15保留，不用DictReader覆盖；没有将全部过关扩为原实验或原level scheme认证。半衰期/评价B字段与原DSAM/强度链可能共源，原adopted notes及2007图marker的组件/branch对应仍缺，不给新δ、τ CI、Q/g、机时或最终手征静态阈值。
+
+## Day23内的Day24无学分预习：作者矢量图可读性与未给的逐线ledger
+
+NuDat3 `getdataset.jsp?nucleus=135ND&unc=nds`本次HTTP429，未自动循环重试。OpenAlex DOI99.172501实际返回arXiv0708.1493；官方abs显示v1为2007-08-10、v2为2007-09-14。`https://arxiv.org/src/0708.1493`实际HTTP200/application-gzip/21003 bytes，SHA24bbe35114c39469835515e88113b9fc69f3cbfeffe655a11bd333620cf0a692。六个regular文件（fig1–4.ps、ndchiralrev4.tex/.bbl）先检查无absolute/../symlink/hardlink、累计111234 bytes后只解到tmp；**没有执行TeX、PostScript或其中脚本**。不是原实验producer/events，正式raw归档仍deferred。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D24P-004 | 作者source TeX TableI的13行meanτ/B(M1)/B(E2)字面值与已存期刊表相同；源表仍没有逐行Eγ/Jf。fig2.ps和fig3.ps各有4个data EARC加1个legend EARC，实际axes/tick/colour/marker命令可作为绘图坐标读取，不能当原未舍入data table或第二次采集。 | external-author-representation-and-table-version | official-author-source-read-as-data | arXiv0708.1493v2 source ndchiralrev4.tex TableI; fig2.ps/fig3.ps EARCs and axes/legends | true |
+| MU07-D24P-005 | 按声明linear axes从四位小数矢量坐标重建，图I=15.5/16.5/17.5/18.5的interband drawn B(M1)中心约.08364/.11858/.08047/.18899 μN²，drawn B(E2)约.03903/.06803/.13301/.14427 e²b²。只在I确属同TableI BandB parent及组件相同的附加条件下，out/in中心为M1 .03098/.05647/.03658/.11117，E2 .13939/.24295/.47503/.49749。原source未补组件/γ身份，所以该比仍conditional；绘图误差棒端点及所设±.00005坐标rounding包络均非实验CI或jointCov。 | rounded-vector-coordinate-and-conditional-ratio | author-drawing-data-plus-bounded-arithmetic | arXiv0708.1493v2 fig2.ps lines931–934; fig3.ps lines931–934; TeX TableI | true |
+
+`system/scripts/day24_preview_mu07_vector_plot.py`纯读文本命令，19项frame/tick/halfspin/data-vs-legend/bar/envelope/TableI控制通过；初次literal-frame检查因`.1500`与source的`0.1500`字符串不同失败，改为原literal写法后重跑，未调整任何科学点。Source图面四位小数本身限制精度，不能把输出浮点位数当更多实验有效数字；±.00005仅声明nearest-rounding模型，不自动涵盖truncation/其它图变换。MU07-8/13的旧手工读图可由此减少表示误差，MU07-9/10/16的parent/component/branch假设却**没有因此认证**，更不据旧条件budget判作者错误。
+
+关键残余缺口是：图例只给BandB→BandA，没有逐点γ能量、finalI、多极component及原branch/IC/响应ledger。归档有drawings/TeX/bibliography，未提供raw spectra、data/AGR输入或分析producer。新可读表示支持更可复核的图点转录，不增加独立物理证据票，不恢复Qt代理CI、225.8P正号/机时排他认证。新needs_review:true。

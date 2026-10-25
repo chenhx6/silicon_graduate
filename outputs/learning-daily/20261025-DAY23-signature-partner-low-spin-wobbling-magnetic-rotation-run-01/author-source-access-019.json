@@ -1,0 +1,139 @@
+{
+  "discovery": {
+    "nudat135nd": {
+      "url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=135ND&unc=nds",
+      "status": 429,
+      "type": "text/html;charset=UTF-8",
+      "bytes": 3
+    },
+    "mu07_openalex": {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.99.172501",
+      "status": 200,
+      "type": "application/json",
+      "bytes": 28342,
+      "title": "From Chiral Vibration to Static Chirality in Nd135",
+      "best_oa_location": {
+        "id": "pmh:oai:arXiv.org:0708.1493",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/0708.1493",
+        "pdf_url": "https://arxiv.org/pdf/0708.1493",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "locations": [
+        {
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1103/physrevlett.99.172501",
+          "pdf_url": null,
+          "version": "publishedVersion"
+        },
+        {
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17995322",
+          "pdf_url": null,
+          "version": "publishedVersion"
+        },
+        {
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/0708.1493",
+          "pdf_url": "https://arxiv.org/pdf/0708.1493",
+          "version": "submittedVersion"
+        },
+        {
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.0708.1493",
+          "pdf_url": null,
+          "version": null
+        }
+      ]
+    }
+  },
+  "access": {
+    "landing": {
+      "url": "https://arxiv.org/abs/0708.1493",
+      "final_url": "https://arxiv.org/abs/0708.1493",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 43567,
+      "sha256": "546be4e16532c09458475f47f94193842dbacf1247981091c1e2a170f07e3471",
+      "path": "tmp/day23-originals/mu07-arxiv-landing019.html",
+      "prefix_repr": "b'<!DOCTYPE html>\\n<html lang=\"en\">\\n\\n<head><script>do'"
+    },
+    "source": {
+      "url": "https://arxiv.org/src/0708.1493",
+      "final_url": "https://arxiv.org/src/0708.1493",
+      "status": 200,
+      "content_type": "application/gzip",
+      "bytes": 21003,
+      "sha256": "24bbe35114c39469835515e88113b9fc69f3cbfeffe655a11bd333620cf0a692",
+      "path": "tmp/day23-originals/mu07-arxiv-source019.bin",
+      "prefix_repr": "b'\\x1f\\x8b\\x08\\x08c\\xee\\xeaF\\x02\\x030708.1493.tar\\x00\\xec]\\xfbs\\xdbF\\x92\\xce\\xcf\\xfc+p?lU\\xb6nm\\xce\\xfb\\xe1\\xf2\\xa5J\\x96\\x1f'"
+    }
+  },
+  "safe_archive_manifest": {
+    "archive": "tmp/day23-originals/mu07-arxiv-source019.bin",
+    "archive_sha256": "24bbe35114c39469835515e88113b9fc69f3cbfeffe655a11bd333620cf0a692",
+    "safe_member_validation": true,
+    "aggregate_bytes": 111234,
+    "extracted_root": "tmp/day23-originals/mu07-arxiv-source019",
+    "members": [
+      {
+        "name": "fig1.ps",
+        "bytes": 25659,
+        "sha256": "9e5733478dad4345427ea5a8bc01ba488b2e2d0cbdd096529f037e26098c63eb"
+      },
+      {
+        "name": "fig2.ps",
+        "bytes": 19794,
+        "sha256": "da4f4fa93cd03b705ff768a96ece28686b152ae9a01d5a0aba5bcb84eeb9c1fd"
+      },
+      {
+        "name": "fig3.ps",
+        "bytes": 19967,
+        "sha256": "47718e87ba4b800dbe83ef727e03d5c280199526fb2c66c7e6c653bfb33a52f8"
+      },
+      {
+        "name": "fig4.ps",
+        "bytes": 17061,
+        "sha256": "3f123e0c2a17b324b09ad569359a6fcd3c6a26b5fe6725553dab5f76a099488e"
+      },
+      {
+        "name": "ndchiralrev4.bbl",
+        "bytes": 9253,
+        "sha256": "c25b41f693f95a824536af8de4575235c2ad97149f33b3f36bec00983509e818"
+      },
+      {
+        "name": "ndchiralrev4.tex",
+        "bytes": 19500,
+        "sha256": "be2e5d49a2a42aaa293121fb154e74c639dfaad2c700835b82e37b6dcaeab60b"
+      }
+    ],
+    "no_archive_content_executed": true
+  },
+  "scope": "authorrepresentation only; officialv2history identified, no executedarchivecontent/fullanalysisproducer or formalrawingest"
+}

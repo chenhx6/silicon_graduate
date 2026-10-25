@@ -3,15 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint018（持续研究，Day24仅无学分预习）
+## Active handoff — Day23 checkpoint019（持续研究，Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08，run_date仍25、goalactive/Farmer2698。completed=[] partial=[23,24] next23；Day24恰好preview无信用/不开Day25，正式credit只Day23。还有12h+继续，raw/PLAN/Bib/旧review/credit/114producer边界保持。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08，run_date仍25/goalactive/Farmer2698。completed=[] partial=[23,24] next23，Day24仅恰好preview无学分、不开Day25，正式信用只Day23。仍约12h继续，不早收束；raw/PLAN/Bib/旧flags/credit/114producer保护。
 
-018取得官方135Ndgammas/levels168/94条，cutoffJan2008/extractionOct25分列，tmpstaging不入raw。新script14checks过（strictrows/全endpointjoin/重复unc列/clock/nearline身份），同源T1/2/ln2对MU07meanτ中心差<=.0044ps非独立verification。648 vs649.2、590 vs591有不同Jπ/endpoint/ΔI，4006.7/4008.1亦不同I，不近能量合并。API RTPW是WU不裸比μN²/e²b²；226+.14字符串无notes/unc/phase不认证physicalδ，不复活225.8P/机时方案。
+019NuDat429不retry，officialMu07arxiv0708.1493source200gzip，safe解6regularmembers到tmp（4PS/TeX/bbl，未执行内容，formalraw附件归档deferred）。19纯textchecks过：TeX13rowTableI与期刊相符、literalEARCs/axis/bar可重建4point/排legend。四位小数vector只减少转录误差，不是unroundedexperiment，坐标±.00005敏感性非CI。新MU07-D24P-004/005与concept把图位置/γ身份/动力学分层；缺Eγ/Jf/branch/AGRdata/producer仍在，不用conditionalbudget判paper错。
 
-Mu07原PDF1–3 target/visual2–3、Zh03Fig2 target/visual/hash核，MU07-D24P-001–003/ZH03-D24P-001与conceptpartnerresolved map新needs_review；原paper图component/branch身份仍缺，不以API/parentbudget判错。freshchecks0/true28changed知识writebackvalid/lint0error220warning。
-
-下一原adoptednotes或作者arxivsource试解graphcomponent：现exec64415 pending NuDat3 getdataset135ND+OpenAlex MU07 DOI99.172501，请poll同handle，JSONtmp/day23-originals/nd135-primary-input-discovery019.json。若publicsourcearchive只tmp先安全list/extract不run内容；typedfailure不绕过/无限retry，不用默认branch/δ补。详candidate-pool018/next-continuation018。Git指针main · Day23: bind preview observables to135Nd endpoints and clocks，actualH3/hash仅task-publication-receipt-018.json。
+freshchecks0/true28changedwritebackvalid/lint0error220warning。下一sameDay24preview AL11 p10–11Eqs15–18实际transitionamplitude/rate/DeltaI定义targeted回核（原18pages已经Day21全读，不机械摘要，135Ndnotshownhere不能填邻核）；或先合同C-covariant dimensionless transitionprobe验证partner-equality/staggering非纯对称必然，不默当physicalM1/E2。详candidate-pool019/next-continuation019；保018clock/WU及所有旧QtCI/225.8撤回。Git指针main · Day23: audit author plot coordinates without inventing line identities，actualH3/hash仅task-publication-receipt-019.json。
 
 ## Previous handoff — Day22 closeout
 

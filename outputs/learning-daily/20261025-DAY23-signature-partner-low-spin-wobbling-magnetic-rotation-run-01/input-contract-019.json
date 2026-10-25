@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-25T18:42:36.558275+00:00",
+  "physical_object": "author-submitted arxiv0708.1493 latestv2 archive TeXandGracePostScript figures. Read literalvectorcommands asdata only, do notexecuteTeX/PostScript. Not experimentalproducer/event reconstruction.",
+  "source_identity": "officialabs metadataDOI99.172501/title matchesoriginal; versionhistoryv1Aug10/v2Sep14,2007; currentunversionedarchiveSHA24bbe35114c39469835515e88113b9fc69f3cbfeffe655a11bd333620cf0a692, sixregularmembers/pathchecks/111234bytes, noexecutedcontent",
+  "sources": {
+    "tmp/day23-originals/mu07-arxiv-source019/fig1.ps": "9e5733478dad4345427ea5a8bc01ba488b2e2d0cbdd096529f037e26098c63eb",
+    "tmp/day23-originals/mu07-arxiv-source019/fig2.ps": "da4f4fa93cd03b705ff768a96ece28686b152ae9a01d5a0aba5bcb84eeb9c1fd",
+    "tmp/day23-originals/mu07-arxiv-source019/fig3.ps": "47718e87ba4b800dbe83ef727e03d5c280199526fb2c66c7e6c653bfb33a52f8",
+    "tmp/day23-originals/mu07-arxiv-source019/fig4.ps": "3f123e0c2a17b324b09ad569359a6fcd3c6a26b5fe6725553dab5f76a099488e",
+    "tmp/day23-originals/mu07-arxiv-source019/ndchiralrev4.bbl": "c25b41f693f95a824536af8de4575235c2ad97149f33b3f36bec00983509e818",
+    "tmp/day23-originals/mu07-arxiv-source019/ndchiralrev4.tex": "be2e5d49a2a42aaa293121fb154e74c639dfaad2c700835b82e37b6dcaeab60b"
+  },
+  "declared_graph_calibration": {
+    "Fig2_M1": {
+      "x_I13": 0.15,
+      "x_I23": 1.25,
+      "y_B0": 0.1,
+      "y_B1": 0.2889,
+      "unit": "muN2"
+    },
+    "Fig3_E2": {
+      "x_I13": 0.16,
+      "x_I23": 1.25,
+      "y_B0": 0.1,
+      "y_Bpoint1": 0.2545,
+      "unit": "e2b2"
+    }
+  },
+  "calibration_premise": "actualsourceframe/tickcommands andprintedaxislabels, independentlycheckagainstTableIinbandmarkers whereavailable. FrameandPSnumbersrounded4decimals, notunderlyingunroundeddata.",
+  "algorithm": "select literal EARCs fromplot commandzone, excludelegendviafixedradius/yregion; exactly4dataand1legendperfigure; affineconvertcoordinates, findsamecolourverticalstrokeerrorendpoints; parseTableI13TeXrows only",
+  "precision": "literal coordinate estimates plus declared nearest-four-decimal +/-0.00005 corner sensitivity onpoint/axis anchors; not experimentalCI/coverage. Do not claim exact realB values fromroundedvectorpositions.",
+  "conditional_derived": "same-spin B_out/B_TableI_B centre onlyIFIlabelsparentandcomponentidentityalign; explicitlyunverified. Exactrepresentationdoesnotbindgammaenergy/Jf orsettleparentbudget.",
+  "validation": [
+    "safeallowedfilenames+archiveSHA/members noexec",
+    "fourdata/onelegendperfigure, excludelegendlayer",
+    "sourcexcoordinatesmapfourhalfspins15.5,16.5,17.5,18.5 withinrounding",
+    "ownframe/majoraxiscommands andlabels exist, notimagepixelguess",
+    "2upperlowerverticalbarsperdata centre, monotonic endpoints",
+    "13TeXTableIrows matchoriginalpublicationcentres, columnsstillnoEgamma/Jf",
+    "roundedcoordinateenvelopecontainsliteralcentraltransform",
+    "sourcevectorM1/E2featurescompatiblewithpublishedfigurelegend/caption, samepaper notindependentvote",
+    "preserveabsenceofgammaidentity fields, notinferfromsourcevariablefilenames"
+  ],
+  "prohibited": [
+    "runGhostscriptorLaTeXorarchivescripts",
+    "treatvectorcoordinatesasnewmeasurement/experimentalproducer output",
+    "unroundedBaccuracyorCIfromdecimalrounding",
+    "newgamma/δ/ICC/branch filling",
+    "paperincorrectfromconditionalbudget",
+    "restoreoldQtproxyCI/P225.8/time",
+    "Day24formalcreditorDay25"
+  ]
+}
