@@ -1,0 +1,62 @@
+{
+  "observed_at": "2026-10-25T12:28:20.962769+00:00",
+  "reading_exposure": "Primed by Day22 preparation and inherited source pages; this is not a blind recall or an independent examiner score.",
+  "entries": [
+    {
+      "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "raw_file": "raw/papers/2022_Guo et al_Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei3.pdf",
+      "sha256": "de541977e4c8402c905ef8268ebc5707303f4b92f244eb4f59405a70c3473206",
+      "hash_matches_source": true,
+      "new_reading_scope": "main PDF1–6 full main line; SI PDF1–6 full main line",
+      "fresh_visual": [
+        "main PDF3 Fig3/4",
+        "main PDF3 Fig3a 4x crop",
+        "main PDF3 Fig3b 4x crop"
+      ]
+    },
+    {
+      "source": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "raw_file": "raw/papers/2022_Lv et al_Evidence against the wobbling nature of low-spin bands in 135Pr.pdf",
+      "sha256": "4b87c540bf9da5141fa88ef8f00859162cb08918d56a5da74726c7537df5e26b",
+      "hash_matches_source": true,
+      "new_reading_scope": "main PDF1–5 physics text read this run; PDF6 reference list only extracted; SI PDF1–7 full text",
+      "fresh_visual": [
+        "main PDF3 Table1/Fig2"
+      ]
+    },
+    {
+      "source": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "raw_file": "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf",
+      "sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+      "hash_matches_source": true,
+      "new_reading_scope": "targeted PDF3–4 setup, band assignment, PRM and calibration; remaining historical mainline not newly reread",
+      "fresh_visual": []
+    },
+    {
+      "source": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "raw_file": "raw/papers/2015_Matta et al_Transverse Wobbling in Pr 135.pdf",
+      "sha256": "8db644705dccfd58016753b759d19314a65284c48efc1758f95f1b3ce23551d6",
+      "hash_matches_source": true,
+      "new_reading_scope": "existing source claims and direct PDF extracted; no new full-mainline reading claim",
+      "fresh_visual": []
+    },
+    {
+      "source": "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "raw_file": "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+      "sha256": "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3",
+      "hash_matches_source": true,
+      "new_reading_scope": "targeted PDF14–15 response; source SH26-11–16 read to constrain shared-event identity",
+      "fresh_visual": [
+        "PDF14 Fig12"
+      ]
+    }
+  ],
+  "failure_log": [
+    {
+      "step": "first numerical JSON export",
+      "result": "TypeError: numpy.bool_ is not JSON serializable",
+      "resolution": "convert the control boolean to builtin bool, rerun actual exercise; six controls pass",
+      "scientific_impact": "none; no failed output treated as evidence"
+    }
+  ]
+}

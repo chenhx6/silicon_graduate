@@ -3,7 +3,17 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day22 closeout
+## Active handoff — Day23 checkpoint001（持续研究）
+
+run 2026-10-25-day-23-01，session 01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始run.json截止2026-10-26 15:00+08；本次用户明确要求持续至该截止再收束。native goal active；Farmer原2698正常，无重启。Day22四回执/H3已核published、正式仅[22]，本次completed=[] partial=[23] next23，Day24未打开。此前准备阅读已暴露，回忆标primed，不假称盲测。
+
+本checkpoint：Guo原Fig3(a)4倍核376δ−.26上误差为+.11而非+.16，source/questions已改；方法页写同线response、同源rE2/rM1秩2、冻结计数的Au #21轨道替代/holdout；跨项目页依赖矩阵/Mermaid图。保留SH26固定σ/I=.2的大根条件支持和共享/合并谱系，新增DB观测不冒称独立采集；Pr/Nd仍缺event ledger。新claims needs_review:true，原人审范围/Day21/22学分不变，114隔离producer不运行。
+
+检查：boundary/lint/diff/限定算术均0，6controls通过；true runner报告与4页writeback valid，lint0error/220warning为当前实际。下一优先核Guo外借Zheng2013 Q与Lv外借Herzan2015 Q原件及response/参数Cov适用性，继而固定模型未定标检验；两源已找到且哈希核对，已选读其实际校准方法，尚未写第二checkpoint结论。沿本run next-continuation-001.md续接，不因这份报告提前收束。
+
+发布稳定指针：main · Day23: map observable dependencies and correct Au uncertainty；精确hash/实际H3只见本run task-publication-receipt-001.json。raw/PLAN/Bib及继承Day20/22未跟踪材料保护。
+
+## Previous handoff — Day22 closeout
 
 2026-10-25T15:06:28.946546+08:00，run 2026-10-24-day-22-01，session 01a16ccb-2ecb-7501-ae47-fb2d58c270da。按原15:00截止完成同session收束，原runner正式门通过，Day22五项交付完整；只授[22]，Day23仅partial[23]，累计22，next23。card-credit-22与final-session-receipt-22保持单次转移；本回执对账不再次加分。
 

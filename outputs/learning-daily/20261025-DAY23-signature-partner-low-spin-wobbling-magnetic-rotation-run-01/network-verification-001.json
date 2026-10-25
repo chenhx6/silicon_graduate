@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2011.14354",
+    "status": 200,
+    "bytes": 47342,
+    "observed_at": "2026-10-25T12:20:49.136952+00:00"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.physletb.2022.137010",
+    "status": 200,
+    "bytes": 18344,
+    "observed_at": "2026-10-25T12:20:50.329159+00:00",
+    "doi": "10.1016/j.physletb.2022.137010",
+    "title": [
+      "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.physletb.2021.136840",
+    "status": 200,
+    "bytes": 21928,
+    "observed_at": "2026-10-25T12:20:51.267702+00:00",
+    "doi": "10.1016/j.physletb.2021.136840",
+    "title": [
+      "Evidence against the wobbling nature of low-spin bands in 135Pr"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    }
+  }
+]

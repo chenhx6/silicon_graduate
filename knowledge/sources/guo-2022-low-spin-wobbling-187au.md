@@ -173,8 +173,21 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| GU22-D22-R094-1 | Fig.3(a,b)打印376/462 keV的δ分别为−.26(+.16/−.15)、−.28(+.23/−.69)。正文的−.10(5)是376 keV线的旧测量polarization P，不是新δ。作者在不固定σ/I下以P–Rac联合约束得到小模解；误差大，不能从图的区间直接报新3σ/4σ显著性。 | experimental-result-and-quantity-identity | direct-original | main p.3 Fig.3(a,b) and first paragraph | true |
+| GU22-D22-R094-1 | Fig.3(a,b)打印376/462 keV的δ分别为−.26(+.11/−.15)、−.28(+.23/−.69)。正文的−.10(5)是376 keV线的旧测量polarization P，不是新δ。作者在不固定σ/I下以P–Rac联合约束得到小模解；误差大，不能从图的区间直接报新3σ/4σ显著性。 | experimental-result-and-quantity-identity | direct-original | main p.3 Fig.3(a,b) and first paragraph | true |
 | GU22-D22-R094-2 | p.3的数W.u.是采用外部187Au/186Pt带内B(E2)=100–200 W.u.的估计，非本实验寿命。Fig.3(c,d)把本次δ换算为αK与旧Rupnik/Bourgeois测量比较，不是新取得独立conversion谱。旧88倍和1.1e−4 e²b²没有本文依据；该绝对数值也不能与数W.u.互换。 | absolute-relative-and-source-lineage-boundary | direct-original | main p.3 Fig.3(c,d), caption and paragraph before QTR | true |
 | GU22-D22-R094-3 | 本实验未见Sensharma伴随signature-partner序列及429/437 links，相似265/405/414/551线归188Pt；这是本数据的non-observation/reassignment，不能把Sensharma全数据逐事件重归属或称二声子带证伪。QTR的Band1/2轨道#19/#21、低spin进动成分小是模型解释，未直接测主轴j。SI承认Q由同型探测器的外部Zheng2013曲线迁移，δ区间取可穿过P–Rac误差矩形的全部σ/I曲线，非公开完整joint-likelihood。 | experiment-model-and-response-boundary | direct-original | main p.2 Fig.2; main p.3 Fig.4; SI pp.3–5 Fig.2/3 and Table1 | true |
 
 按打印中央δ计算，376/462的E2光子份额约6.33%/7.27%；若强行保持同一光子分支、能量和分母，则相对Sensharma δ=−2.67/−2.98的E2份额变化因子约13.85/12.36。此为条件敏感性，不是两个独立实验的实测绝对B变化，更不是物理随spin塌缩。完整错误旧文本存于Day22 run的pre-correction-094.json。
+
+
+## Day23 原件复核：误差上标与新增观测的依赖
+
+本次回读主文6页、SI6页的全文主线，视觉核主文p.3 Fig.3/4；对376/462两处图例另作4倍局部渲染。两份raw的SHA与原记录一致。原page review与既有claim flags保留，以下为Codex self-audit，needs_review: true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-001 | Fig.3(a)图例实际为δ=−.26(+.11/−.15)，并非继承GU22-D22-R094-1中的+.16；本轮定向更正该条和questions的上误差。Fig.3(b)仍为−.28(+.23/−.69)。文本抽取的上标易错，中央值不变，不据此新增显著性或最终模式裁决。 | printed-uncertainty-correction | direct-original-visual | main p.3 Fig.3(a) | true |
+| GU22-D23-002 | SI p.3说明本实验因强线主要由isomers布居而难以自身确定Q，故采用Zheng2013同型clover的曲线；本次标准源确定的是a(E)。SI的5%系统误差用于效率及有限张角对Rac的影响，不能把它当作所有偏振校准参数的完整joint prior。 | response-calibration-dependence | direct-original | SI p.3, polarization-sensitivity and systematic-error paragraphs | true |
+| GU22-D23-003 | 462keV分析使用316/400门得到Rac/A上界，313窄门得到中央/下界；463keV异构态以上线与465keV E1污染须分别处理。这些选门结果属于同一采集的选择敏感性，不能按独立重复实验相乘。作者未给这些门之间完整Cov。 | gate-selection-and-independence-boundary | direct-original-and-bounded-inference | SI p.2, first paragraph; SI p.3, first paragraph | true |
+
+Knowledge Impact and Learning Decision：revises一处印刷误差，limits同源多量计票及跨装置响应迁移；未判支持/反对任一模型已最终胜出。实际比较程序见[[signature-tip-shears-discrimination-contract]]，争议谱系见[[low-spin-wobbling-controversies]]。

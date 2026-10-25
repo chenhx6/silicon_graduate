@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "identity_source": "runner events.jsonl thread.started, cross-checked native goal threadId",
+  "original_run_receipt": "run.json",
+  "original_started_at": "2026-10-25T20:16:26.996821+08:00",
+  "original_overnight_until": "2026-10-26T15:00:00+08:00",
+  "observed_at": "2026-10-25T12:23:18.941231+00:00",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "status": "active-checkpoint",
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    23
+  ],
+  "day22_reconciliation": {
+    "formal_credit": [
+      22
+    ],
+    "uncredited_preview": [
+      23
+    ],
+    "next_day_index": 23,
+    "H3": "all 18 recorded command exits are zero; published; postcommit reconciliation passed",
+    "publication_receipt": "outputs/learning-daily/20261024-DAY22-wobbling-geometry-phonon-observables-run-01/task-publication-receipt-22.json"
+  },
+  "farmer": {
+    "running": true,
+    "pid": 2698,
+    "action": "existing monitor retained; ensure returned running=true"
+  },
+  "user_time_gate": "No ordinary closeout before original 2026-10-26 15:00+08; checkpoints continue same native goal."
+}

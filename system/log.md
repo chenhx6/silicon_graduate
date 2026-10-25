@@ -4375,3 +4375,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-25T13:57:17.444105+08:00 Day22 120：真实runner合同诊断与最小修补，补缺标题/backlink和5已变知识页映射；clock queue缺口明确保留，不伪造queued或提前授分。
 
 - 2026-10-25T15:06:28.946546+08:00 Day22正式收束：原runner同session检查/单卡门通过；completed[22]、partial[23]、累计22、next23。五交付、知识写回、原件与限定控制边界已核，needs_review保留；Day23仅准备、无新session/daemon。发布稳定指针main · Day22: calibrate wobbling evidence and close learning card，实际H3/远端结果另见任务发布回执。
+
+- 2026-10-25T12:32:46.583500+00:00 Day23 checkpoint001：核Day22正式信用/实际H3及本run身份截止，Farmer原进程保留；Guo376δ上误差原图修+.11，4页知识写回同源强度rank2/6controls、依赖图及configuration留出设计。报告/true runner/writeback门通过，继续原15:00研究窗口，不授分。

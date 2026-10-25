@@ -1,0 +1,62 @@
+{
+  "scope": "Conditional printed-centre algebra; pure E2 photon denominator; energies MeV. No raw counts, response, experimental Cov, CI, mode verdict or beam time inferred.",
+  "source": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+  "locators": [
+    "L22-D22-R095-2",
+    "L22-D22-002"
+  ],
+  "inputs": {
+    "delta": -0.37,
+    "photon_ratio": 1.7297297297297298,
+    "eout_MeV": 0.8132,
+    "ein_MeV": 0.726
+  },
+  "output_order": [
+    "delta",
+    "rE2",
+    "rM1_muN2_per_e2b2"
+  ],
+  "values": [
+    -0.37,
+    0.11812877089322016,
+    0.3977221286462118
+  ],
+  "K": 0.9810124151095836,
+  "c": 0.46092208528,
+  "jacobian_input_order": [
+    "delta",
+    "K"
+  ],
+  "jacobian": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      -0.5616447327998143,
+      0.1204151640425719
+    ],
+    [
+      0.25887446142861886,
+      0.4054200767701645
+    ]
+  ],
+  "rank": 2,
+  "constraint": "c*rE2-delta^2*rM1=0",
+  "constraint_residual": 6.938893903907228e-18,
+  "controls": {
+    "analytic_jacobian_matches_finite_difference": true,
+    "two_inputs_rank_two": true,
+    "constraint_normal_annihilates_jacobian": true,
+    "sign_flip_keeps_strength_ratios": true,
+    "pure_M1_zero_E2_component": true,
+    "doubling_photon_branch_doubles_both_strength_ratios": true
+  },
+  "all_controls_pass": true,
+  "limitations": [
+    "Printed values are rounded; no significance assigned to their differences.",
+    "The value 0.697 depends on electromagnetic units/conventions.",
+    "This analytic rank concerns transformed summaries, not the rank of unavailable experimental event data.",
+    "Covariance singularity is only first-order for the local propagated 3-vector, not a claim that every nonlinear sample covariance is singular."
+  ]
+}
