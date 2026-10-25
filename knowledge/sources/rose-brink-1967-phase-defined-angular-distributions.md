@@ -587,3 +587,13 @@ Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1�
 | RB67-D23-003 | Eq3.65/66从γ振幅平方/初态权重建立后续态布居；本任务延伸到声明aligned半整数初态的完整ρ：ρdaughter=Σh G_hρ0G_h†，归一后再发target photon，并与直接two-photon contraction互核。选(25/2→21/2 E2)→19/2与(19/2→17/2 M1/E2)→15/2的纯设计输入，full4π用CG通道与24/40节点Wigner积分相符；finitecoplanar门可有coherence，downstream完整trace不改earlier photon。19项控制只是数学实现，未给真实母态/门响应或δ。 | declared-halfspin-cascade-density-extension | source-premise-and-task-numerics | printed325 Eqs.3.65–3.66; printed326 Eqs.3.71–3.73; task halfspin-upstream-gate-014 | true |
 
 源gamma-gate身份与实验缺口见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004；上下游4π区别见[[droste-1996-pdco-formalism]] DR96-D23-003。多极间干涉与sourcefirst/second phase不能用两次独立singles代替，当前只对coplanarphi0或fullazimuth-integrated通道给范围，不认证有向azimuth或原作者PDCO实现。
+
+## Day23：门方位角的有限谐波合同
+
+本节为沿已核printed312 footnote7和316 Eq3.24、325条件振幅的本任务代数延伸，不新增全文阅读/作者结果。原flags保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RB67-D23-004 | 在axisymmetric Mi-diagonal初态与L≤2 gate下，声明Gfi(φ)=exp[−i(mi−mf)φ]Gfi(0)，daughterρff′(φ)=exp[i(mf−mf′)φ]ρff′(0)，且非对角差q=mf−mf′仅能|q|≤4。正权重方位角合并等于逐项乘ηq=Σw exp(iqφ)；uniform Cn、n>4足够消掉全部非零q，C4可保q4。两个014设计的24项显式photonphase/密度旋转/Fourier/PSD等控制通过，三路误差≤7e−17；不是实测array等权声明或bias认证。 | declared-gate-acceptance-harmonic-derivation | source-rotation-premise-and-task-numerics | printed312 footnote7; printed316 Eq.3.24; printed325 Eq.3.65; task model-contract-015 | true |
+
+本任务只在已声明对角初态/低阶multipoles下压缩η；不按“24 clovers”等硬件数量判断真实selected pair的效率/φ权重。固定θ均匀φ也不等完整4π，下一层输入仍是[[droste-1996-pdco-formalism]] DR96-D23-004的条件acceptance合同。

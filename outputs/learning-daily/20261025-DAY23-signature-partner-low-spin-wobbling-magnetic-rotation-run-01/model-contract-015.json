@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-25T17:43:07.051470+00:00",
+  "source_premises": [
+    "RB67printed312fn7 EulerD rotations and316Eq3.24 amplitude",
+    "RB67-D23-003/D96-D23-003 conditionaldaughterdensity and finitegate averaging",
+    "L22-D23-004 upstream796/450 identities, not fullarrayphiweights"
+  ],
+  "object": "foraxisymmetricinitialrho andupstreamLmax2, compare declared azimuthacceptance mixtures of pointgate daughterdensity atfixedtheta; symbolicrotation/Fouriercompression",
+  "rotation_definition": "G_h(fi;phi)=exp[-i(mi-mf)phi]G_h(fi;0), rho_f(phi)=Z(phi)rho_f(0)Z†, Z_ff=exp(+i mf phi). Coplanarorigin013/014 maintained; actualexperimentdirectedazimuth notcertified.",
+  "harmonic_identity": "rho_bar[f,fprime]=rho0[f,fprime]*eta_(mf-mfprime), eta_q=sum_detector w_d exp(iqphi_d), positiveweights normalized. For diagonal initialrho,L<=2 =>abs(q)<=4.",
+  "designdata": "reuse014initialsigma/I=.2, targetdRB=-.5, gate796pureE2 or450-shaped mixed-.5; exacthypotheticalringφ=2πk/N, N=4,5,12; nonuniform12ring weights1+.2cos2φ; phi0/targettheta90",
+  "validation": [
+    "explicitG(phi) trace vs Zdensityrotation and Fouriereta route",
+    "matrixhermiticity/trace/positiveweights/positive density",
+    "initialdiagonal rankbound |ΔMf|<=4",
+    "uniform C5/C12 exactly diagonal toprecision; C4 mayretainq4",
+    "nonuniformcos2φ yields eta2=.1, otherdesign lowmoments0",
+    "rotateallringdirections shifts eta_q byexp(iqalpha) withconsistentdensity",
+    "continuousuniformphi vs finiteexactN>4 sum",
+    "positivedesign weightsmaintainrho PSD",
+    "fullpolaranglemarginal still differentfromfixedthetauniformphi ring; do not equateto4pi",
+    "targetresponse differenceuniformringvs pointgate is design only; cannot actualbias"
+  ],
+  "actualinput_contract": [
+    "pergate-energy pertargetdetector-pair acceptance/efficiency/livetime/azimuthweights or lowq moments asfunctionofgatepolarangle",
+    "sidefeeding/initialdensity and actualfinitepolarcoverage",
+    "pairwise selectionveto/Comptonconditionscanmakeeffectivegateweights target-dependent evenifarraypositionsuniform",
+    "sourcephase andactualdelta/P mapping retained separate"
+  ],
+  "prohibited": [
+    "actualJUROGAMequalweights fromnumber24",
+    "unweightedrings calledactualresponse",
+    "pointcoherence calledexperimentalbias",
+    "uniformazimuthcalledfull4pi",
+    "datafit/actualdelta/Q/tau/CI/rate/beamtime",
+    "independentexperiment vote fromsameoperator matrix"
+  ]
+}

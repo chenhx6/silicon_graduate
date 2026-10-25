@@ -1,0 +1,385 @@
+{
+  "status": "conditional-gate-azimuth-moment-component",
+  "scope": "Positive ideal fixed-polar-angle gate acceptance mixtures, not actual JUROGAM/HIRFL response or experimental error.",
+  "rotation": "G(phi)[f,i]=exp[-i(mi-mf)phi]G(0)[f,i]; rho_f(phi)=Z(phi)rho_f(0)Zdagger, Z_ff=exp(i mf phi)",
+  "moment_identity": "rho_bar[f,fprime]=rho0[f,fprime]*eta_(mf-mfprime), eta_q=sum w exp(iqphi), |q|<=4 for diagonal initial density and M1/E2 gate.",
+  "controls": {
+    "796_to_813_design_gate_Lmax2_offdiagonal_rank_bound": true,
+    "796_to_813_design_uniform_C5_removes_all_nonzero_gate_harmonics": true,
+    "796_to_813_design_uniform_C12_removes_all_nonzero_gate_harmonics": true,
+    "796_to_813_design_cos2_acceptance_eta2_analytic": true,
+    "796_to_813_design_cos2_acceptance_other_lowharmonics_zero": true,
+    "796_to_813_design_C4_can_retain_rank4_coherence": true,
+    "796_to_813_design_Fourier_moment_route_matches_density_twirl": true,
+    "796_to_813_design_explicit_photon_phase_route_matches_twirl": true,
+    "796_to_813_design_global_azimuth_rotation_covariance": true,
+    "796_to_813_design_positive_acceptance_preserves_density_PSD": true,
+    "796_to_813_design_fine_uniform_phi_integral_is_diagonal": true,
+    "796_to_813_design_uniform_azimuth_is_not_full_fourpi": true,
+    "450_to_747_design_gate_Lmax2_offdiagonal_rank_bound": true,
+    "450_to_747_design_uniform_C5_removes_all_nonzero_gate_harmonics": true,
+    "450_to_747_design_uniform_C12_removes_all_nonzero_gate_harmonics": true,
+    "450_to_747_design_cos2_acceptance_eta2_analytic": true,
+    "450_to_747_design_cos2_acceptance_other_lowharmonics_zero": true,
+    "450_to_747_design_C4_can_retain_rank4_coherence": true,
+    "450_to_747_design_Fourier_moment_route_matches_density_twirl": true,
+    "450_to_747_design_explicit_photon_phase_route_matches_twirl": true,
+    "450_to_747_design_global_azimuth_rotation_covariance": true,
+    "450_to_747_design_positive_acceptance_preserves_density_PSD": true,
+    "450_to_747_design_fine_uniform_phi_integral_is_diagonal": true,
+    "450_to_747_design_uniform_azimuth_is_not_full_fourpi": true
+  },
+  "control_details": {
+    "796_to_813_design": {
+      "max_abs_q_above4_matrix_element": 0.0,
+      "max_density_twirl_vs_Fourier_error": 2.779104843172722e-17,
+      "max_density_twirl_vs_explicit_phase_error": 2.778120201376032e-17,
+      "max_global_azimuth_rotation_error": 2.9148320485360086e-17,
+      "min_density_eigenvalue": 0.0,
+      "uniform_fixedtheta_vs_fourpi_density_max_difference": 0.000268033062160139
+    },
+    "450_to_747_design": {
+      "max_abs_q_above4_matrix_element": 0.0,
+      "max_density_twirl_vs_Fourier_error": 2.7819550577860485e-17,
+      "max_density_twirl_vs_explicit_phase_error": 1.4016478726293334e-17,
+      "max_global_azimuth_rotation_error": 6.969716612166807e-17,
+      "min_density_eigenvalue": 0.0,
+      "uniform_fixedtheta_vs_fourpi_density_max_difference": 0.003201257498076454
+    }
+  },
+  "all_controls_pass": true,
+  "results": [
+    {
+      "case": "796_to_813_design",
+      "spins_twice": [
+        25,
+        21,
+        19
+      ],
+      "design_only": true,
+      "initial_sigma_over_I": 0.2,
+      "gate_kind": "E2",
+      "gate_d_RB": 0.0,
+      "gate_theta_deg": 90.0,
+      "target_d_RB": -0.5,
+      "target_phi_origin": 0,
+      "point_coplanar_gate_target": {
+        "point_W154_over_W90": 1.3779740147906705,
+        "local_P_stokes90": -0.8821938319741607,
+        "normalized_daughter_trace": 1.0
+      },
+      "full_fourpi_gate_target": {
+        "point_W154_over_W90": 1.7398204831536157,
+        "local_P_stokes90": -0.8131037464225638,
+        "normalized_daughter_trace": 1.0
+      },
+      "azimuth_acceptance_designs": [
+        {
+          "acceptance_design": "uniform_C4",
+          "n": 4,
+          "positive_weight_min": 0.25,
+          "eta_q_0_to_4": {
+            "0": [
+              1.0,
+              0.0
+            ],
+            "1": [
+              -4.592425496802574e-17,
+              5.551115123125783e-17
+            ],
+            "2": [
+              0.0,
+              6.123233995736765e-17
+            ],
+            "3": [
+              8.226161367281941e-17,
+              8.326672684688674e-17
+            ],
+            "4": [
+              1.0,
+              -3.6739403974420594e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 0.034153892309858824,
+          "target_design": {
+            "point_W154_over_W90": 1.7609208226801885,
+            "local_P_stokes90": -0.8102282261464822,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "acceptance_design": "uniform_C5",
+          "n": 5,
+          "positive_weight_min": 0.2,
+          "eta_q_0_to_4": {
+            "0": [
+              1.0,
+              0.0
+            ],
+            "1": [
+              -5.551115123125783e-17,
+              0.0
+            ],
+            "2": [
+              -2.7755575615628914e-17,
+              5.551115123125783e-17
+            ],
+            "3": [
+              2.7755575615628914e-17,
+              5.551115123125783e-17
+            ],
+            "4": [
+              1.5959455978986625e-16,
+              1.1102230246251565e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 1.4331675595508374e-17,
+          "target_design": {
+            "point_W154_over_W90": 1.7393268844297514,
+            "local_P_stokes90": -0.8126052211952425,
+            "normalized_daughter_trace": 0.9999999999999999
+          }
+        },
+        {
+          "acceptance_design": "uniform_C12",
+          "n": 12,
+          "positive_weight_min": 0.08333333333333333,
+          "eta_q_0_to_4": {
+            "0": [
+              1.0,
+              0.0
+            ],
+            "1": [
+              -4.163336342344337e-17,
+              0.0
+            ],
+            "2": [
+              6.245004513516506e-17,
+              4.163336342344337e-17
+            ],
+            "3": [
+              -1.7640380596197897e-16,
+              4.163336342344337e-17
+            ],
+            "4": [
+              -1.5959455978986625e-16,
+              1.6653345369377348e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 2.6823106704435046e-17,
+          "target_design": {
+            "point_W154_over_W90": 1.7393268844297516,
+            "local_P_stokes90": -0.8126052211952425,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "acceptance_design": "C12_positive_cos2_weights",
+          "n": 12,
+          "positive_weight_min": 0.06666666666666667,
+          "eta_q_0_to_4": {
+            "0": [
+              0.9999999999999999,
+              0.0
+            ],
+            "1": [
+              -8.326672684688674e-17,
+              2.7755575615628914e-17
+            ],
+            "2": [
+              0.09999999999999998,
+              4.163336342344337e-17
+            ],
+            "3": [
+              -2.1069753192755416e-16,
+              4.163336342344337e-17
+            ],
+            "4": [
+              -1.8041124150158794e-16,
+              1.5265566588595902e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 0.018092768485719554,
+          "target_design": {
+            "point_W154_over_W90": 1.6907158142811995,
+            "local_P_stokes90": -0.8217965930554915,
+            "normalized_daughter_trace": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "case": "450_to_747_design",
+      "spins_twice": [
+        19,
+        17,
+        15
+      ],
+      "design_only": true,
+      "initial_sigma_over_I": 0.2,
+      "gate_kind": "M1/E2",
+      "gate_d_RB": -0.5,
+      "gate_theta_deg": 90.0,
+      "target_d_RB": -0.5,
+      "target_phi_origin": 0,
+      "point_coplanar_gate_target": {
+        "point_W154_over_W90": 1.296934371217629,
+        "local_P_stokes90": -0.9026329721118136,
+        "normalized_daughter_trace": 1.0
+      },
+      "full_fourpi_gate_target": {
+        "point_W154_over_W90": 1.7398908936047566,
+        "local_P_stokes90": -0.8158827948736251,
+        "normalized_daughter_trace": 0.9999999999999999
+      },
+      "azimuth_acceptance_designs": [
+        {
+          "acceptance_design": "uniform_C4",
+          "n": 4,
+          "positive_weight_min": 0.25,
+          "eta_q_0_to_4": {
+            "0": [
+              1.0,
+              0.0
+            ],
+            "1": [
+              -4.592425496802574e-17,
+              5.551115123125783e-17
+            ],
+            "2": [
+              0.0,
+              6.123233995736765e-17
+            ],
+            "3": [
+              8.226161367281941e-17,
+              8.326672684688674e-17
+            ],
+            "4": [
+              1.0,
+              -3.6739403974420594e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 0.03492654466233284,
+          "target_design": {
+            "point_W154_over_W90": 1.7232029955999215,
+            "local_P_stokes90": -0.8213444879653177,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "acceptance_design": "uniform_C5",
+          "n": 5,
+          "positive_weight_min": 0.2,
+          "eta_q_0_to_4": {
+            "0": [
+              1.0,
+              0.0
+            ],
+            "1": [
+              -5.551115123125783e-17,
+              0.0
+            ],
+            "2": [
+              -2.7755575615628914e-17,
+              5.551115123125783e-17
+            ],
+            "3": [
+              2.7755575615628914e-17,
+              5.551115123125783e-17
+            ],
+            "4": [
+              1.5959455978986625e-16,
+              1.1102230246251565e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 2.2031664396285766e-17,
+          "target_design": {
+            "point_W154_over_W90": 1.7432717097090074,
+            "local_P_stokes90": -0.8192182697716133,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "acceptance_design": "uniform_C12",
+          "n": 12,
+          "positive_weight_min": 0.08333333333333333,
+          "eta_q_0_to_4": {
+            "0": [
+              1.0,
+              0.0
+            ],
+            "1": [
+              -4.163336342344337e-17,
+              0.0
+            ],
+            "2": [
+              6.245004513516506e-17,
+              4.163336342344337e-17
+            ],
+            "3": [
+              -1.7640380596197897e-16,
+              4.163336342344337e-17
+            ],
+            "4": [
+              -1.5959455978986625e-16,
+              1.6653345369377348e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 2.85051444419819e-17,
+          "target_design": {
+            "point_W154_over_W90": 1.7432717097090076,
+            "local_P_stokes90": -0.8192182697716133,
+            "normalized_daughter_trace": 1.0
+          }
+        },
+        {
+          "acceptance_design": "C12_positive_cos2_weights",
+          "n": 12,
+          "positive_weight_min": 0.06666666666666667,
+          "eta_q_0_to_4": {
+            "0": [
+              0.9999999999999999,
+              0.0
+            ],
+            "1": [
+              -8.326672684688674e-17,
+              2.7755575615628914e-17
+            ],
+            "2": [
+              0.09999999999999998,
+              4.163336342344337e-17
+            ],
+            "3": [
+              -2.1069753192755416e-16,
+              4.163336342344337e-17
+            ],
+            "4": [
+              -1.8041124150158794e-16,
+              1.5265566588595902e-16
+            ]
+          },
+          "daughter_offdiagonal_Frobenius_norm": 0.024267587519951603,
+          "target_design": {
+            "point_W154_over_W90": 1.683661050286944,
+            "local_P_stokes90": -0.8305163875796024,
+            "normalized_daughter_trace": 0.9999999999999998
+          }
+        }
+      ]
+    }
+  ],
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_gate_azimuth_moments.py": "a94578bff12df077c04cd761b0c649530bdf13460f46a5afe6c1aa4999a9beca",
+    "/workspace/wiki/system/scripts/day23_halfspin_upstream_gate.py": "f74b7451e1453c1fc63f94b9364d0583acb7883fb418f6e678d51ed8d2b76342",
+    "/workspace/wiki/system/scripts/day23_halfspin_singles_response.py": "a6c93f9f32cb1425a5ddf2aeaebc935f346e838dedd322cee98b3fe9811829ec",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "Exact cancellation requires the effective weights for the selected target/gate detector pairs, not only uniformly spaced nominal array positions.",
+    "Per-detector efficiencies/live time, target-dependent coincidence selection/vetoes and Compton conditions can break a marginal gate symmetry.",
+    "Uniform azimuth at one polar angle still changes diagonal population relative to full fourpi; it does not certify an independent Gaussian daughter.",
+    "At varying polar angles combine unnormalized conditional densities/yields before forming normalized polarization; do not average P values.",
+    "The width and d_RB are declared design inputs. Source014 actual gate identities do not provide full array weights or an actual delta/P mapping.",
+    "No measured acceptance Fourier moment, actual bias, data fit, physical delta/Q/tau/CI or beamtime computed."
+  ]
+}

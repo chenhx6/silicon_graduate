@@ -375,3 +375,23 @@ Gaussian严格定义为DR96 Eq19的exp[−M²/(2σ²)]，但Lv对sigma的varianc
 第一例4π后daughter rms/I=.218217，第二例.225081，都不是简单重新设置的.2。对于90°共面point门，若把daughter非对角元人为删掉，P90分别变成−.812605/−.819218；这说明coherence在这种设计中可影响target响应，**不是测得偏差或原分析漏项**。actualall-detector gate的方位角合并可能消去这些offdiagonal项，必须带实际acceptance/效率/weights再核，不能用pointgate效果替阵列估误差。
 
 “谱峰clean”与“条件密度响应正确”是不同检验；本练习不质疑原污染排除，也未认定原作者没处理取向。两实验要比较同一逐线观测向量，仍需initial/feeding密度或可追溯的nuisance模型、gate次序/placement、角环φ/θ及效率合并、散射响应a/Q、sidefeeding/去取向与jointCov。没有这些输入就保持original-response not-ready，不拟新的Prδ/CI或恢复根等深认证。新needs_review:true。
+
+## Day23：方位角合并会消去哪部分上游门相干
+
+014的coplanar pointgate只是一项条件设计，不能由它对实际all-detector gate给偏差估计。依[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-004，Mi对角初态下，gate两个振幅的差给q=mf−mf′，L≤2使|q|≤4；方向改变φ只给daughter矩阵元相位exp(iqφ)。因此在固定gate polar θ、声明正且归一权重下，
+
+$$\bar\rho_{ff'}(\theta)=\rho_{ff'}(\theta,0)\eta_{m_f-m_{f'}},\qquad
+\eta_q=\sum_d w_d e^{iq\phi_d}.$$
+
+uniform Cn、n>4使ηq=0 (q=1…4)，足够消去所有offdiagonal；这不是n>4为必要条件的分类，个别selection可让更小n也足够。C4仍有η4=1，不能只看“方位对称”就认为全消。若12点正权重取1+.2cos2φ这一**纯设计**，则η2=.1、其它q1/3/4为0，留一部分coherence。显式G(φ) photontrace、daughter旋转合并与ηq乘法三路、全体旋转/PSD/秩等24项控制通过，max差≤7e−17；源码`system/scripts/day23_gate_azimuth_moments.py`。
+
+| 同014设计、gateθ90 | 796/813-shaped target P90 | 450/747-shaped target P90 |
+|---|---|---|
+| 单coplanar pointgate | −.882194 | −.902633 |
+| uniform C5或C12 azimuth，fixedθ | −.812605 | −.819218 |
+| 12点的1+.2cos2φ正权重 | −.821797 | −.830516 |
+| 完整上游4π gate | −.813104 | −.815883 |
+
+均匀方位角确实消除了014相应offdiagonal影响；固定θ的diagonal布居仍不同于4π，两个设计的density最大差约.000268/.003201。所以上游4π、uniform ring和单pointgate是不同response，不能互相代替，也不由表中接近数字给actualexperiment误差上限。
+
+最小输入合同见[[droste-1996-pdco-formalism]] DR96-D23-004：ηq及θ权重必须是**选定target/gate detector pairs的有效响应**。即使nominal detector positions均匀，逐台efficiency/live time、同探测器veto、散射选样或coincidence构造都可使target条件下的weights不同。应按能量、run、gate与target类别保留接受度或它在当前假设下的低阶moments，而不是从clover数量默造等权。跨θ合并先加未归一density/yield，再求P；新needs_review:true，未给实际ηq、δ/CI/Q/τ/率或机时。

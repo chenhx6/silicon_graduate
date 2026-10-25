@@ -314,3 +314,9 @@ Eq11在I21/2的mappingA/B下，B(E2)/SE²为.106960/.00080587，B(M1)/SM²为1.3
 [[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004核实际796→813及450→747门顺序。[[signature-tip-shears-discrimination-contract]]的新halfspin级联练习与[[droste-1996-pdco-formalism]] DR96-D23-003、[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003，把上游4π去取向、finite方向门条件密度和下游trace分开。两条观测用不同upstream multipoles/gates，不能只因同阵列便共享未经证实的目标母态布居。
 
 19项数学控制通过，纯设计点门可有非对角相干；全array方位角合并可能消去，实际效应大小仍需weights/acceptance/feeding和sourceproducer，不能写成原Lv偏差或污染。既有P/Rac、SH26条件AD偏好和两实验分支冲突保持；未重拟原δ/似然，新needs_review:true。
+
+## Day23：不能由pointgate效果推全阵列偏差
+
+[[signature-tip-shears-discrimination-contract]]的方位角合同（[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-004、[[droste-1996-pdco-formalism]] DR96-D23-004）进一步限定014：axisymmetric低阶gate设计若按uniform C5/C12合并，可完全消去offdiagonal；C4或非均匀有效weights则可能保留部分。固定θ方位平均仍不等上游完整4π去取向。
+
+本结果没有核定JUROGAM实际φ/efficiency/selected detector-pair权重，不能按24clover自动认为等权，也不能用coplanarpoint的P变化声称Lv漏修正。actualresponse缺口具体为各run/能量/target-gate pair的φ/θ权重或足够低阶acceptance moments、feeding与jointCov。真实P/Rac分支比较仍未重拟，SH26固定sigma条件支持保留。新needs_review:true。

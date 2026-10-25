@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint014）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint015）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T01:41:13.059105+08:00
+- checked_at: 2026-10-26T01:49:12.740572+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -46,6 +46,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+checkpoint015沿已核RB67 printed312fn7/316Eq3.24和DR96finitegate前提做新代数延伸，无新全文阅读声明/独立实验。RB67-D23-004、DR96-D23-004记录selectedpair方位角acceptance条件，原sourceflags保留。刚读Lv/Herzan硬件数量段只作缺口inventory，未从24clover默造φ/等权。
 
 checkpoint014定向核Lv SI3/4选门与Table1端点、freshvisualSI3及hash；813门796、747门450均在上游。RB67 printed325–326 Eqs3.65–73及DR96printed521Eq13–15原件文本/图/hash均核，sourcefeeding/first-secondphase边界保留。新增L22-D23-004、RB67-D23-003、DR96-D23-003均needs_review:true，非新原实验/人审。
 
@@ -88,6 +90,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+checkpoint015先contract后gateazimuthmoments：Mi-diagonal、L≤2使daughter|ΔMf|≤4，ρbarff′=ρff′(φ0)η_(mf−mf′)，ηq=Σw exp(iqφ)。uniformCn n>4足够消offdiag，C4留q4；12点正权1+.2cos2φ给η2=.1。24项显式phase/densityrotation/Fourier/PSD控制过，max差≤7e−17。两个design的uniformC12 P90−.812605/−.819218，point为−.882194/−.902633，full4π又不同；无actualarraybias认证。
 
 checkpoint014先contract后two-photon halfspin trace：gate形成未归一daughterdensity，再target；和直接joint contraction、完整4π CGchannel及24/40 Wigner积分/正定/归一/isotropic/halfspin解析等19控制通过，max两路≤7.8e−16。宣告σ/I.2、d_RB−.5的design，796/813-shaped full4π P90−.81310，与重设targetGaussian−.83354不同，pointcoplanar90门为−.88219；450/747-shaped对应−.81588/−.84386/−.90263。不是actualPrP、偏差或拟合。
 
@@ -135,6 +139,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+checkpoint015将014pointcoherence效应限定在实际合并前；uniformazimuth可全消，但只在effective selectedtarget/gate pair同权条件成立。nominalarraypositions不保证eff/live/veto/Compton选择同权；uniformring也不等4π。当前需按run/line/gate/pair的低阶ηq和θ权重/feeding/Cov，跨θ先合未归一density再算P。未拟合actualP/Rac或认定原分析漏项，SH26条件支持不抹。
+
 checkpoint014上游门完整4π也须传播去取向；下游完整trace则保先发γ边缘，不能颠倒。finitepointgate的coherence是design，actualarray方位角合并可能消去，不由此认定原作者漏项/污染。实际weights/φ/θ/效率/feeding/去取向/Cov仍缺；sourceclean谱与response两个检查分开，σ/d_RB未据数据校准，SH26条件支持不抹。
 
 checkpoint013填补halfspin singles组件，不等于实际门响应重放。actualPr角环与Au名义154/90的finiteacceptance/效率/权重、conditional gate/feeding/去取向、phase和jointCov仍缺；D96明确Gaussian std不能替Lvvariance原实现背书。σ/I输入与离散rms不同（I17/2输入.8实际rms/I.5423）。不由P正号、理想局部rank或unknownscale判根/等深，不新造δ/Q/τ/机时。
@@ -172,6 +178,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint015 limits/revises：不把pointgate数学效应扩大成整阵列实验偏差；supports：把A槽实际响应缺口压成假设明确的perpair acceptance moments与取向/feeding输入。当前组件路线有界完成一段，重建候选池继续实际input/source或同卡MR/AMR主线，不提前收束/授分。
 
 checkpoint014 supports：以实际逐线gate顺序明确比较所需输入，将singlephoton组件推进到有控制的halfspin级联；limits：pointgate效应不能叫actualarray偏差。下一A槽方位角合并/acceptance谐波，避免把理想coherence迁移实际实验。研究继续。
 
@@ -268,7 +276,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -426,6 +434,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-003"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-004"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-004"
         }
       ]
     },
@@ -636,7 +652,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/projects/135pr-wobbling-controversy.md",
-      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。",
+      "summary": "分开run、observable和解释继承，纠正AD完全不能选根的过强文字。 定位2021run4指纹/合并总数版本差。 分开normalizedE2连接与放光能量方向，526跨带末态不改成same-band末态。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
       "anchor": "Day23：run重叠与observable继承分开",
       "sources": [
         {
@@ -706,6 +722,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-003"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-004"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-004"
         }
       ]
     },
@@ -877,7 +901,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
-      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。",
+      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
       "anchor": "Day23：半整数spin的single-photon响应组件",
       "sources": [
         {
@@ -903,12 +927,20 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-003"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-004"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-004"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/droste-1996-pdco-formalism.md",
-      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。",
+      "summary": "定向原件/数学组件核验，halfspin singles不替代实际finitegate/array与jointresponse；保旧flags与新needs_review。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。",
       "anchor": "Day23：Gaussian宽度与有限门single-photon边界",
       "sources": [
         {
@@ -934,6 +966,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/droste-1996-pdco-formalism.md",
           "locator": "DR96-D23-003"
+        },
+        {
+          "path": "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+          "locator": "RB67-D23-004"
+        },
+        {
+          "path": "knowledge/sources/droste-1996-pdco-formalism.md",
+          "locator": "DR96-D23-004"
         }
       ]
     }
@@ -953,6 +993,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+checkpoint015 boundary/lint/diff/gate_azimuth实际0，24有界acceptance控制通过，true runner报告/22changed页writebackvalid；lint0error/220warning与182旧citation债务保持。candidate-pool-015.json重建后继续同卡AMR原寿命实验路线，actualresponse不据设计补造；next-continuation-015.md保原goal/截止，Day24未打开。Git指针main · Day23: bound gate averaging with azimuth moments；actualhash/H3见task-publication-receipt-015.json。
 
 checkpoint014 boundary/lint/diff/upstream_gate实际退出0，19有界级联控制过，true runner报告/22changed知识页writebackvalid。lint0error/220warning、182旧citation债务保留；next-continuation-014.md/candidate-pool-014.json继续A槽方位角合并，原goal/截止与未授分/Day24未打开不变。Git指针main · Day23: track upstream gates through half-spin cascades；actualhash/H3仅task-publication-receipt-014.json。
 

@@ -137,3 +137,11 @@ halfspin振幅源与本任务控制见[[rose-brink-1967-phase-defined-angular-di
 | DR96-D23-003 | Eq13–15明确：不观测上游γ1时，γ2母态已有U描述的取向变化；完整4π积分下游γ2才回到先发γ1的singles。任务halfspin两级联通过19项trace-preserving/CGchannel-vs-Wigner积分/正定/直接joint-vs-sequential/futuretrace及1/2→3/2→1/2 M1解析控制，最大两路差≤7.8e−16。以源自Lv的spin/gate身份构造，但布居与d_RB均design，非原数据/原producer认证。 | original-cascade-order-and-declared-component | direct-original-plus-task-check | printed521 Eqs.13–15 and preceding two paragraphs; task model-contract-014 | true |
 
 具体门身份见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004；矩阵元source结构另见[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-003。本练习只说明所需响应层次；实际array有方位角/效率合并，不能把一个coplanar pointgate的相干效应直接叫实测偏差。
+
+## Day23：有限门合并的有效pair权重
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DR96-D23-004 | 从本篇finite detector/gate积分前提出发，本任务将M1/E2上游gate的axisymmetric设计压成固定θ的ηq(q0…4)。uniform方位角可去offdiagonal，但实际effective gate权重须针对target-detector/gate pair、效率/live time/selection；名义array方位对称不保证选定Compton/符合条件仍同权。跨θ应先合未归一density/yield，再求P，不能平均P；没有actualpair response时不将pointgate的coherence差写成实验偏差。 | declared-response-averaging-contract | source-geometry-premise-and-task-inference | printed522 detector-integrated paragraph; printed523 finite PDCO discussion; RB67-D23-004 | true |
+
+[[rose-brink-1967-phase-defined-angular-distributions]] RB67-D23-004给数学moment恒等式；source实际796/450身份仍见[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-004。本任务未恢复actualpair权重或原P/Rac likelihood。

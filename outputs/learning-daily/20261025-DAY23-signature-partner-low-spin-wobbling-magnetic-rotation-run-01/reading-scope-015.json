@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-25T17:46:37.628564+00:00",
+  "scope": "no new fullpaperreading; derive from originalRB67rotation/amplitude and DR96finitegate alreadyverified013/014",
+  "source_premises": [
+    "RB67printed312fn7/316Eq3.24/325Eq3.65",
+    "DR96printed522detectorintegrated/523finitePDCO"
+  ],
+  "additional_targeted_inventory": "Herzan2015 experiment24clover+15phase1/GASP paragraph andLvmainhardwareparagraph read only; actualphi/perpairweights not provided here",
+  "newexperiment": false,
+  "design": "014fixedtheta90gate, positivehypotheticalCn/effectiveweights",
+  "review": "newneeds_reviewtrue, previoussourceflagsunchanged"
+}

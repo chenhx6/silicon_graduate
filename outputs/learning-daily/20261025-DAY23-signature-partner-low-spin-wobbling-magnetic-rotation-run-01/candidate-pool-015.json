@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-25T17:49:12.740572+00:00",
+  "selection": "continue Day23, bounded mathematical A component completed; actualinput readiness remains. Open current-card MR/AMR original lifetime source route as novelty, no Day24",
+  "A": {
+    "bounded_result": "013 halfspin singles,014upstreamdensity and015azimuthmoment components verified; realarray/gate likelihood not ready",
+    "remaining_actual_inputs": [
+      "originalnetcounts/background/pairacceptance/liveefficiency",
+      "actualphase/widthproducer mapping and parentfeeding density",
+      "jointCov/response/overlapledger",
+      "Q/operator/tau for independentstrength"
+    ]
+  },
+  "B": "sameHordinalmapping/energyfailure and multijoperator inputs remain; no fittingmodeproof",
+  "current_card_novelty": {
+    "topic": "originalAMR106Cd lifetime experiment",
+    "candidate": "A.J.Simons2003 PRL91,162501 DOI10.1103/PhysRevLett.91.162501, Crossref title/author metadata actually verified",
+    "prior_recall": "Exposed to concept/Clark/Chiara, not blind: transverse cancellation not staticmu0 or allM1 forbidden; B(E2)/J2 trends only jointcriterion, lifetime/feeding/configuration needed, termination competes.",
+    "next": "Obtain primary body lawfulpublic fulltext, read fullmainline/figures/lifetimes/limitations then scoped canonical evidence; not use reviewtables as independentmeasurements",
+    "fallback": "Kumar2025 exactrefidx discovery; keep raw unchanged with tmp staging deferredarchive"
+  },
+  "Day24": {
+    "opened": false,
+    "formalcredit": false,
+    "rule": "exactly one uncredited preview only after usefulcurrentcardroutes saturate, noDay25"
+  }
+}

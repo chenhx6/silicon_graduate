@@ -3,15 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint014（持续研究）
+## Active handoff — Day23 checkpoint015（持续研究）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。raw/PLAN/Bib/旧flags/credit及114隔离producer边界保持。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08；run_date仍25，goalactive/Farmer2698，completed=[] partial=[23] next23，Day24未打开。raw/PLAN/Bib/flags/既有credit/114隔离producer边界保持。
 
-014实际L22SI核796→813与450→747均UPSTREAM（L22-D23-004），RB67p325–326、DR96p521原件/visual/hash核。新halfspin upstream script先合同，19checks过：daughterdensity vs directjoint、4piCG vs24/40Wigner积分、norm/positive/isotropic/futuretrace及halfspin解析。maxerr7.8e-16。布居/targetd_RB−.5与450gated_RB均DESIGN，非actualfeeding/δ；only796E2身份取source。
+015先合同后azimuthacceptance矩：axisymρ0、Lgate<=2使|ΔMf|<=4，ρbarff′=ρ0ff′ηq。uniformCn>4足够消offdiag、C4保q4、positivecos2weightsη2=.1；24checks过/差<=7e-17。三路explicitphase/densityrotation/Fourier核，同014design，不当实际arraybias。uniformphi非4pi，actualselectedpair eff/live/veto/Compton权重缺；不按clover数默造等权，先合density/yield再求P。新RB67-D23-004/DR96-D23-004，fresh checks0/true22changedwritebackvalid，lint0error/220warning。
 
-上游4pi有deorientation，重设targetGaussian不同；pointcoplanargate会有coherence，但不能当actualarraybias或作者漏项/污染。下游trace保earlierphoton的恒等式不倒用于upstream。fresh checks0、true22changed页writebackvalid、lint0error/220warning，新needs_review保SH26条件支持与energy/phase/Cov边界。
-
-下一A：核ideal azimuthring twirl/acceptance低rank Fourier moments，避免照搬pointcoherence。先contract，gateL<=2+axisymρ给|ΔMf|<=4；uniform Cn>4足够消offdiag，但实际detectorφ/live/efficiency未恢复不假定equalweights。详candidate-pool014/model-contract014/next-continuation014；还有13h+窗口，继续未收束。Git指针main · Day23: track upstream gates through half-spin cascades；actualH3/hash仅task-publication-receipt-014.json。
+A数学组件有界完成，实际phase/feeding/acceptance/jointlikelihood仍缺；保SH26条件支持、009/010energy与011/012operator边界。重建pool继续本卡MR/AMR novelty原寿命实验Simons2003 PRL91,162501（Crossref实际核title/16authors/DOI），publicharvest fulltext在请求、tmpstaging不动raw；需poll现有handle，不假称body已到。Kumar2025fullPDF仅hash/文本extraction作refindex、不称全文读。详next-continuation015/candidate-pool015；还有13h+当前路线，Day24未开/未授分，不收束。Git指针main · Day23: bound gate averaging with azimuth moments；actualH3/hash仅task-publication-receipt-015.json。
 
 ## Previous handoff — Day22 closeout
 

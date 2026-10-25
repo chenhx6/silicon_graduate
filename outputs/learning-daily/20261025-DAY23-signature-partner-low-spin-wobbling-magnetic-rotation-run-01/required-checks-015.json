@@ -1,0 +1,110 @@
+{
+  "observed_at": "2026-10-25T17:49:34.645794+00:00",
+  "scope": "checkpoint015 ideal gate azimuth/Fourier acceptance mathematical component; no actual array certification; no experimental or mode certification",
+  "commands": {
+    "boundary": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"schema_version\": 1,\n  \"root\": \"/workspace/wiki\",\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [],\n  \"checks\": {\n    \"required_dirs\": {\n      \"expected\": [\n        \"raw\",\n        \"knowledge\",\n        \"outputs\",\n        \"system\",\n        \"tools\",\n        \"tmp\"\n      ],\n      \"missing\": []\n    },\n    \"forbidden_dirs\": {\n      \"expected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    "lint": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "n review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-1 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-2 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-3 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-4 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-5 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-6 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-7 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-8 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-9 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-10 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-15 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-16 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-17 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-18 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-19 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-20 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-12 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-13 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-15 awaits human review\nGOVERNANCE page_unreviewed=636 source_unreviewed=324 claims=5174 claim_needs_review=4463 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=182\nSUMMARY pages=714 wikilinks=9225 hashes=350 errors=0 warnings=220 info=4463\n",
+      "stderr_tail": ""
+    },
+    "diff": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "gate_azimuth": {
+      "argv": [
+        "python3",
+        "system/scripts/day23_gate_azimuth_moments.py",
+        "--output",
+        "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/gate-azimuth-moments-015.json"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "163336342344337e-17], \"3\": [-2.1069753192755416e-16, 4.163336342344337e-17], \"4\": [-1.8041124150158794e-16, 1.5265566588595902e-16]}, \"daughter_offdiagonal_Frobenius_norm\": 0.018092768485719554, \"target_design\": {\"point_W154_over_W90\": 1.6907158142811995, \"local_P_stokes90\": -0.8217965930554915, \"normalized_daughter_trace\": 1.0}}]}, {\"case\": \"450_to_747_design\", \"spins_twice\": [19, 17, 15], \"design_only\": true, \"initial_sigma_over_I\": 0.2, \"gate_kind\": \"M1/E2\", \"gate_d_RB\": -0.5, \"gate_theta_deg\": 90.0, \"target_d_RB\": -0.5, \"target_phi_origin\": 0, \"point_coplanar_gate_target\": {\"point_W154_over_W90\": 1.296934371217629, \"local_P_stokes90\": -0.9026329721118136, \"normalized_daughter_trace\": 1.0}, \"full_fourpi_gate_target\": {\"point_W154_over_W90\": 1.7398908936047566, \"local_P_stokes90\": -0.8158827948736251, \"normalized_daughter_trace\": 0.9999999999999999}, \"azimuth_acceptance_designs\": [{\"acceptance_design\": \"uniform_C4\", \"n\": 4, \"positive_weight_min\": 0.25, \"eta_q_0_to_4\": {\"0\": [1.0, 0.0], \"1\": [-4.592425496802574e-17, 5.551115123125783e-17], \"2\": [0.0, 6.123233995736765e-17], \"3\": [8.226161367281941e-17, 8.326672684688674e-17], \"4\": [1.0, -3.6739403974420594e-16]}, \"daughter_offdiagonal_Frobenius_norm\": 0.03492654466233284, \"target_design\": {\"point_W154_over_W90\": 1.7232029955999215, \"local_P_stokes90\": -0.8213444879653177, \"normalized_daughter_trace\": 1.0}}, {\"acceptance_design\": \"uniform_C5\", \"n\": 5, \"positive_weight_min\": 0.2, \"eta_q_0_to_4\": {\"0\": [1.0, 0.0], \"1\": [-5.551115123125783e-17, 0.0], \"2\": [-2.7755575615628914e-17, 5.551115123125783e-17], \"3\": [2.7755575615628914e-17, 5.551115123125783e-17], \"4\": [1.5959455978986625e-16, 1.1102230246251565e-16]}, \"daughter_offdiagonal_Frobenius_norm\": 2.2031664396285766e-17, \"target_design\": {\"point_W154_over_W90\": 1.7432717097090074, \"local_P_stokes90\": -0.8192182697716133, \"normalized_daughter_trace\": 1.0}}, {\"acceptance_design\": \"uniform_C12\", \"n\": 12, \"positive_weight_min\": 0.08333333333333333, \"eta_q_0_to_4\": {\"0\": [1.0, 0.0], \"1\": [-4.163336342344337e-17, 0.0], \"2\": [6.245004513516506e-17, 4.163336342344337e-17], \"3\": [-1.7640380596197897e-16, 4.163336342344337e-17], \"4\": [-1.5959455978986625e-16, 1.6653345369377348e-16]}, \"daughter_offdiagonal_Frobenius_norm\": 2.85051444419819e-17, \"target_design\": {\"point_W154_over_W90\": 1.7432717097090076, \"local_P_stokes90\": -0.8192182697716133, \"normalized_daughter_trace\": 1.0}}, {\"acceptance_design\": \"C12_positive_cos2_weights\", \"n\": 12, \"positive_weight_min\": 0.06666666666666667, \"eta_q_0_to_4\": {\"0\": [0.9999999999999999, 0.0], \"1\": [-8.326672684688674e-17, 2.7755575615628914e-17], \"2\": [0.09999999999999998, 4.163336342344337e-17], \"3\": [-2.1069753192755416e-16, 4.163336342344337e-17], \"4\": [-1.8041124150158794e-16, 1.5265566588595902e-16]}, \"daughter_offdiagonal_Frobenius_norm\": 0.024267587519951603, \"target_design\": {\"point_W154_over_W90\": 1.683661050286944, \"local_P_stokes90\": -0.8305163875796024, \"normalized_daughter_trace\": 0.9999999999999998}}]}]}\n",
+      "stderr_tail": ""
+    }
+  },
+  "runner_report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "runner_writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "knowledge/questions.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/sources/clark-2000-shears-mechanism.md",
+      "knowledge/concepts/shears-mechanism.md",
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/concepts/signature-partner-bands.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/concepts/shears-mechanism.md",
+      "knowledge/concepts/signature-partner-bands.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/questions.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/clark-2000-shears-mechanism.md",
+      "knowledge/sources/droste-1996-pdco-formalism.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "all_pass": true
+}
