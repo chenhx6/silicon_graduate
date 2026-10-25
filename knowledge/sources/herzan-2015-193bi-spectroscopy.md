@@ -132,3 +132,14 @@ Ref7为Nieminen et al., “γ-ray spectroscopy of191,193Bi”, PRC69,064326(2004
 [[nndc-2017-193bi-level-scheme-evaluation]] N193-2/3/4采用本篇2015He27的Eγ/RI，进行level least-squares与quadrature处理；它支持source-to-evaluation crosswalk，但不是新独立采集。N193-5在393/394保留Q并明确negativePOL与placement-implied(E2)矛盾；N193-6对352.3保留无multipolarity赋值。本页保留作者原Table I标签与HE15-9/15的不确定性，不将Q强行覆盖为E2，也不凭数据库选择352.3的最终spin。
 
 N193-8记录compiler摘要From604.7γ(t)/2004Ni06及flight/intensity说明；这是公开评价的引用依赖，不替代Ni04原文方法核验。N193-7的BrIcc CC是有multipolarity前提的计算，未提供七条higher-parent τ、δ或unseenbranch闭合。全篇主线回读不等于认证所有弱线assignment，新的具体冲突已列P0科学边界且needs_review保留。
+
+
+## Day23：被Lv2022采用的Q曲线与实际选择对象
+
+本次定向回读原PDF p.2、p.7、p.10，视觉核p.10 Fig.3/4；SHA与既有记录一致。沿已有全文阅读只补实际响应缺口，未冒称本次重读20页结构正文；原flags与review_status保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HE15-D23-1 | 本文polarimetry以75.5°或104.5°同clover两晶体addback和all-detector single-crystal hit构造两矩阵；a由无偏振152Eu给出，Q用stretched M1/E2的计算P及A=QP确定。该选择对象不同于本p.2单独定义的157.6°/75.5°Rexp，也不同于Zheng2013在90°且只用pureE2的Q校准。本文Fig4给p0=.42(.04)、p1=−1.9(.7)×10−4/keV；未提供参考点完整数表/共同参数Cov，不能仅据图构造Lv目标实验的完整响应likelihood。 | calibration-selection-and-transfer-boundary | direct-original-and-cross-source-boundary | PDF p.2, IPDCO matrix construction; PDF p.7, sensitivity paragraph; PDF p.10, Fig.4 | true |
+
+Knowledge Impact and Learning Decision：limits按阵列名或a≈1迁移完整response；本曲线被[[lv-2022-evidence-against-wobbling-135pr]] L22-17采用的谱系保留，而target自身的a来自其SI。两曲线共同误差与迁移条件见[[signature-tip-shears-discrimination-contract]]，新增均为Codex self-audit而非人审。

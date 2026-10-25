@@ -1,0 +1,83 @@
+{
+  "observed_at": "2026-10-25T12:52:29.399865+00:00",
+  "scope": "checkpoint002 actual structural checks and conditional calibration-curve exercise; not experimental certification",
+  "commands": {
+    "boundary": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout_tail": "hesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    "lint": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-12 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-13 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-15 awaits human review\nGOVERNANCE page_unreviewed=636 source_unreviewed=324 claims=5118 claim_needs_review=4409 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=182\nSUMMARY pages=714 wikilinks=9122 hashes=350 errors=0 warnings=220 info=4409\n",
+      "stderr_tail": ""
+    },
+    "diff": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "calibration": {
+      "argv": [
+        "python3",
+        "system/scripts/day23_polarization_calibration_transfer.py",
+        "--output",
+        "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/calibration-transfer-002.json"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"all_controls_pass\": true, \"curves\": {\"Zheng2013_EXOGAM\": [{\"energy_keV\": 376.0, \"Q_printed_curve\": 0.3144724694391331, \"conditional_sigma_Q_bounds_unknown_rho\": [0.006646790608661142, 0.023843074568683544]}, {\"energy_keV\": 462.0, \"Q_printed_curve\": 0.2922571081845136, \"conditional_sigma_Q_bounds_unknown_rho\": [0.004295840860511619, 0.02369009308418948]}], \"Herzan2015_JUROGAM_II\": [{\"energy_keV\": 450.2, \"Q_printed_curve\": 0.23676299446032706, \"conditional_sigma_Q_bounds_unknown_rho\": [0.006007172028482569, 0.05062419284054939]}, {\"energy_keV\": 747.3, \"Q_printed_curve\": 0.1487870074298393, \"conditional_sigma_Q_bounds_unknown_rho\": [0.00658860142679929, 0.049403004330214405]}, {\"energy_keV\": 813.2, \"Q_printed_curve\": 0.13427113194049292, \"conditional_sigma_Q_bounds_unknown_rho\": [0.00855922075603371, 0.049018784717431554]}]}}\n",
+      "stderr_tail": ""
+    }
+  },
+  "runner_report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "runner_writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "knowledge/questions.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md"
+    ],
+    "changed_paths": [
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/questions.md",
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "all_pass": true
+}

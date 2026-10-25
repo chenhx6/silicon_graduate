@@ -3,15 +3,17 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint001（持续研究）
+## Active handoff — Day23 checkpoint002（持续研究）
 
-run 2026-10-25-day-23-01，session 01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始run.json截止2026-10-26 15:00+08；本次用户明确要求持续至该截止再收束。native goal active；Farmer原2698正常，无重启。Day22四回执/H3已核published、正式仅[22]，本次completed=[] partial=[23] next23，Day24未打开。此前准备阅读已暴露，回忆标primed，不假称盲测。
+run2026-10-25-day-23-01，session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。native goal active，Farmer原2698正常。Day22四回执/H3已核published，只授[22]；本run completed=[] partial=[23] next23，Day24未打开。用户明确要求正常持续至次日15:00后才收束，不因报告/局部饱和结束。
 
-本checkpoint：Guo原Fig3(a)4倍核376δ−.26上误差为+.11而非+.16，source/questions已改；方法页写同线response、同源rE2/rM1秩2、冻结计数的Au #21轨道替代/holdout；跨项目页依赖矩阵/Mermaid图。保留SH26固定σ/I=.2的大根条件支持和共享/合并谱系，新增DB观测不冒称独立采集；Pr/Nd仍缺event ledger。新claims needs_review:true，原人审范围/Day21/22学分不变，114隔离producer不运行。
+001已修Guo376δ上误差+.11及依赖秩/谱系。002核Zheng/Herzan原Q选择与共同p0/p1跨线Cov，8有限差分/PSD/rank/共尺度控制通过，仅源曲线算术，未知transfer κ(E)/原Cov不补。P依取向/门，不能跨实验直接相减。Au PRM β输入参考旧绝对E2，跟Guo QTR不同shape/MoI/空间，不是只改configuration的同H测试。
 
-检查：boundary/lint/diff/限定算术均0，6controls通过；true runner报告与4页writeback valid，lint0error/220warning为当前实际。下一优先核Guo外借Zheng2013 Q与Lv外借Herzan2015 Q原件及response/参数Cov适用性，继而固定模型未定标检验；两源已找到且哈希核对，已选读其实际校准方法，尚未写第二checkpoint结论。沿本run next-continuation-001.md续接，不因这份报告提前收束。
+新Guo p2原图确印187Ag，Rupnik LSU作者馆藏摘要写Hg，正文未提供、公式缺失；母核文字疑点隔离在GU22-D23-004和Au项目，不补αK/完整Jπ/非观察灵敏度。访问状态详rupnik-access-002.json，原raw/审阅flag与Day21/22学分不动，新增needs_review:true。114隔离producer不运行。
 
-发布稳定指针：main · Day23: map observable dependencies and correct Au uncertainty；精确hash/实际H3只见本run task-publication-receipt-001.json。raw/PLAN/Bib及继承Day20/22未跟踪材料保护。
+本次boundary/lint/diff/calibration退出均0，true runner报告/累计7页writeback valid，lint0error/220warning；报告和next-continuation-002.md已落地。下一A沿Bourgeois1978或原作者机构可访问原文核历史conversion；B沿固定H/算符/未定标量，必要时137Pr43/2非闭合与108In原DSAM对照，不复活硬阈值。时窗充足，继续当前问题；局部饱和再查Day24且只预习，不开Day25。
+
+发布稳定指针：main · Day23: trace polarization calibration and parent identity；精确hash/实际H3只看本run task-publication-receipt-002.json。raw/PLAN/Bib及继承Day20/22未跟踪材料保护。
 
 ## Previous handoff — Day22 closeout
 

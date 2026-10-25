@@ -1,0 +1,143 @@
+{
+  "scope": "Printed calibration curves only. Target response transfer, actual covariance, target confidence intervals and mixing-branch likelihoods are unavailable.",
+  "curves": {
+    "Zheng2013_EXOGAM": {
+      "p": [
+        0.39,
+        6e-05
+      ],
+      "sigma": [
+        0.02,
+        3e-05
+      ],
+      "energies_keV": [
+        376.0,
+        462.0
+      ],
+      "source": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "locator": "Z13-2",
+      "target": "Guo2022 Au, externally adopted curve",
+      "rows": [
+        {
+          "energy_keV": 376.0,
+          "Q_printed_curve": 0.3144724694391331,
+          "conditional_sigma_Q_bounds_unknown_rho": [
+            0.006646790608661142,
+            0.023843074568683544
+          ]
+        },
+        {
+          "energy_keV": 462.0,
+          "Q_printed_curve": 0.2922571081845136,
+          "conditional_sigma_Q_bounds_unknown_rho": [
+            0.004295840860511619,
+            0.02369009308418948
+          ]
+        }
+      ],
+      "pairs": [
+        {
+          "energies_keV": [
+            376.0,
+            462.0
+          ],
+          "Q_first_over_second": 1.076013074216125,
+          "conditional_sigma_log_ratio_bounds_unknown_rho": [
+            0.005239807866934027,
+            0.006437478236518954
+          ]
+        }
+      ],
+      "missing": [
+        "p0-p1 covariance",
+        "target-to-reference transfer function kappa(E)",
+        "target A/a/background and angular-response joint covariance"
+      ]
+    },
+    "Herzan2015_JUROGAM_II": {
+      "p": [
+        0.42,
+        -0.00019
+      ],
+      "sigma": [
+        0.04,
+        7e-05
+      ],
+      "energies_keV": [
+        450.2,
+        747.3,
+        813.2
+      ],
+      "source": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "locator": "HE15-10",
+      "target": "Lv2022 Pr, externally adopted curve",
+      "rows": [
+        {
+          "energy_keV": 450.2,
+          "Q_printed_curve": 0.23676299446032706,
+          "conditional_sigma_Q_bounds_unknown_rho": [
+            0.006007172028482569,
+            0.05062419284054939
+          ]
+        },
+        {
+          "energy_keV": 747.3,
+          "Q_printed_curve": 0.1487870074298393,
+          "conditional_sigma_Q_bounds_unknown_rho": [
+            0.00658860142679929,
+            0.049403004330214405
+          ]
+        },
+        {
+          "energy_keV": 813.2,
+          "Q_printed_curve": 0.13427113194049292,
+          "conditional_sigma_Q_bounds_unknown_rho": [
+            0.00855922075603371,
+            0.049018784717431554
+          ]
+        }
+      ],
+      "pairs": [
+        {
+          "energies_keV": [
+            450.2,
+            747.3
+          ],
+          "Q_first_over_second": 1.5912881006896582,
+          "conditional_sigma_log_ratio_bounds_unknown_rho": [
+            0.06965419201900898,
+            0.1182204176469419
+          ]
+        },
+        {
+          "energies_keV": [
+            747.3,
+            813.2
+          ],
+          "Q_first_over_second": 1.10810868486444,
+          "conditional_sigma_log_ratio_bounds_unknown_rho": [
+            0.01946369833400426,
+            0.03303471735587882
+          ]
+        }
+      ],
+      "missing": [
+        "p0-p1 covariance",
+        "target-to-reference transfer function kappa(E)",
+        "target A/a/background and angular-response joint covariance"
+      ]
+    }
+  },
+  "controls": {
+    "Zheng2013_EXOGAM_full_analytic_derivative": true,
+    "Zheng2013_EXOGAM_PSD_covariance_bounds": true,
+    "Zheng2013_EXOGAM_shared_curve_rank_at_most_two": true,
+    "Zheng2013_EXOGAM_common_transfer_cancels_in_ratio": true,
+    "Herzan2015_JUROGAM_II_full_analytic_derivative": true,
+    "Herzan2015_JUROGAM_II_PSD_covariance_bounds": true,
+    "Herzan2015_JUROGAM_II_shared_curve_rank_at_most_two": true,
+    "Herzan2015_JUROGAM_II_common_transfer_cancels_in_ratio": true
+  },
+  "all_controls_pass": true,
+  "bound_meaning": "If printed parameter errors are comparable marginal standard deviations, these are first-order bounds over unknown rho, not fitted target errors or confidence/credible intervals. Unknown transfer kappa(E) is not covered."
+}

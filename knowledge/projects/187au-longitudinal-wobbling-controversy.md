@@ -175,7 +175,7 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 
 1. Sensharma 2020 所指 forthcoming/full coincidence、spin/parity 与 angular-distribution analysis，或其 supplementary material。
 2. Guo 2022 supplementary material 已作为主文附属证据层挂接并完成 G22-18 至 G22-20 复核，不另建 source/BibTeX。
-3. D. Rupnik et al., *Phys. Rev. C* **58**, 771 (1998)：`187Ag` β decay/`187Au` level scheme 原始来源。
+3. D. Rupnik et al., *Phys. Rev. C* **58**, 771 (1998)，DOI10.1103/PhysRevC.58.771：Guo正文写`187Ag`，LSU馆藏摘要写Hg；母核文字疑点与全文缺口见GU22-D23-004，勿把Ag字面当真实母核认证。
 4. C. Bourgeois et al. 1978 与 C. Bourgeois et al. 1989：internal conversion、shape coexistence 与 Band 1/2 早期 assignment。
 5. `186Pt/187Au` 的 lifetime/`B(E2)_in` 原始测量，用于审计 G22-9 的 `B(E2)_out` estimate。
 6. E. A. Lawrie et al. 2020, *Tilted precession and wobbling in triaxial nuclei*：建立 wobbling approximation、precession 与 TiP 的理论边界。
@@ -247,3 +247,10 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 | 伴随带 | band(3)被指为SP，不是二声子带 | 未复现、相似序列归188Pt | independent challenge成立，原数据逐门归属仍需核 |
 
 下一步以相同逐线身份、gate/背景、a(E)/Q(E)、σ/I和双分支响应重分析；新寿命可独立定标。历史conversion资料是另一次测量谱系，当前只通过Guo比较，不伪称本次新测。needs_review: true；未给正式物理终审。
+
+
+## Day23：历史conversion的直接证据缺口与母核文字
+
+本轮以原Guo p.2局部图、Crossref DOI和LSU作者馆藏页交叉核验，发现Guo确实印187Ag而非OCR误识；馆藏摘要为Hg两态衰变且标明无正文可下载。[[guo-2022-low-spin-wobbling-187au]] GU22-D23-004记录原文文字、电荷守恒核查与摘要公式缺失，均needs_review:true，原project/page人审范围不扩张。不能把这处印刷疑点扩大成Rupnik实验失效，也不能据馆藏摘要恢复376/462的αK或SP non-observation灵敏度。
+
+因此当前历史conversion仍是Guo二手比较，尚未增加一个直接核阅的独立实验节点。公开全文获取本次尚未成功，下一路线为原作者/机构公开全文或可访问出版商正文；同时可沿Bourgeois1978原始转换资料调查。新的Q曲线/模型定标核验见[[signature-tip-shears-discrimination-contract]]；既有LW/SP支持与HIRFL反证均保留。

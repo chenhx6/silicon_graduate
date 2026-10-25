@@ -1,0 +1,273 @@
+{
+  "observed_at": "2026-10-25T12:46:10.361234+00:00",
+  "si_choice": "include any associated SI under existing unattended study authorization; none discovered yet",
+  "access_attempts": [
+    {
+      "url": "https://link.aps.org/pdf/10.1103/PhysRevC.58.771",
+      "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.58.771",
+      "status": 403,
+      "mime": "text/html; charset=UTF-8",
+      "bytes": 5516,
+      "is_pdf": false
+    },
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.58.771/fulltext",
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.58.771/fulltext",
+      "status": 401,
+      "mime": "application/json",
+      "bytes": 63,
+      "is_pdf": false
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.58.771",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.58.771",
+      "status": 200,
+      "mime": "application/json",
+      "bytes": 19308,
+      "is_pdf": false,
+      "metadata": {
+        "id": "https://openalex.org/W2062581183",
+        "title": "Levels of 187 Au: A detailed study of shape coexistence in an odd-mass nucleus",
+        "doi": "https://doi.org/10.1103/physrevc.58.771",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "best_oa_location": null,
+        "locations": [
+          {
+            "id": "doi:10.1103/physrevc.58.771",
+            "doi": "https://doi.org/10.1103/physrevc.58.771",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1103/physrevc.58.771",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210168441",
+              "display_name": "Physical Review C",
+              "issn_l": "0556-2813",
+              "issn": [
+                "0556-2813",
+                "1089-490X",
+                "1538-4497",
+                "2469-9985",
+                "2469-9993",
+                "2470-0002"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "ki-jl-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320261",
+              "host_organization_name": "American Physical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320261"
+              ],
+              "host_organization_lineage_names": [
+                "American Physical Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Physical Review C",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:digitalcommons.lsu.edu:physics_astronomy_pubs-5714",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://digitalcommons.lsu.edu/physics_astronomy_pubs/4634",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210169993",
+              "display_name": "Civil War Book Review",
+              "issn_l": "1528-6592",
+              "issn": [
+                "1528-6592"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/P4310315936",
+              "host_organization_name": "Louisiana State University",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310315936"
+              ],
+              "host_organization_lineage_names": [
+                "Louisiana State University"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Faculty Publications",
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:repository.lsu.edu:physics_astronomy_pubs-5714",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://repository.lsu.edu/physics_astronomy_pubs/4634",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210169993",
+              "display_name": "Civil War Book Review",
+              "issn_l": "1528-6592",
+              "issn": [
+                "1528-6592"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/P4310315936",
+              "host_organization_name": "Louisiana State University",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310315936"
+              ],
+              "host_organization_lineage_names": [
+                "Louisiana State University"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Faculty Publications",
+            "raw_type": "text"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://api.osti.gov/api/v1/records?search=10.1103%2FPhysRevC.58.771",
+      "error": "HTTPSConnectionPool(host='api.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=10.1103%2FPhysRevC.58.771 (Caused by NameResolutionError(\"HTTPSConnection(host='api.osti.gov', port=443): Failed to resolve 'api.osti.gov' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "url": "https://repository.lsu.edu/physics_astronomy_pubs/4634/",
+      "final_url": "https://repository.lsu.edu/physics_astronomy_pubs/4634/",
+      "status": 200,
+      "mime": "text/html; charset=UTF-8",
+      "bytes": 37093,
+      "pdf_candidates": [],
+      "page_text": "\"Levels of [Formula Presented] Au: A detailed study of shape coexistenc\" by D. Rupnik, E. F. Zganjar et al. Home Search Browse Collections My Account About Digital Commons Network™ Skip to main content Home About Policies FAQ My Account Search < Previous Next > Home > SCIENCE > PHYSICS_ASTRONOMY > PHYSICS_ASTRONOMY_PUBS > 4634 Faculty Publications Levels of [Formula Presented] Au: A detailed study of shape coexistence in an odd-mass nucleus Authors D. Rupnik , Louisiana State University E. F. Zganjar , Louisiana State University J. L. Wood , Georgia Institute of Technology P. B. Semmes , Tennessee Technological University P. F. Mantica , Oak Ridge Institute for Science and Education Document Type Article Publication Date 1-1-1998 Abstract The decays of [Formula Presented] Hg (2.2 min; [Formula Presented]=13/2[Formula Presented] and [Formula Presented] Hg (2.4 min; [Formula Presented]=3/2[Formula Presented] have been studied with mass-separated sources at the UNISOR facility. Multiscaled spectra of [Formula Presented] rays, x rays, and conversion electrons, as well as [Formula Presented], [Formula Presented], [Formula Presented], and [Formula Presented] coincidences were obtained. Decay schemes have been constructed incorporating [Formula Presented]99[Formula Presented] of the decay intensities assigned to the high-spin and low-spin decays. The [Formula Presented]-ray gated conversion-electron spectra permitted determination of 367 conversion coefficients. A variety of coexisting band structures are established in [Formula Presented] Au. Some of these have near-identical analogs in the heavier odd-mass Au isotopes. The remaining bands reveal new degrees of freedom at low excitation energy in [Formula Presented] Au. Nine electric monopole [Formula Presented]0) transitions are observed to deexcite members of these new bands. The work represents an undertaking to achieve a benchmark in complete spectroscopy following radioactive decay. The most notable band structure in [Formula Presented] Au has two bands with identical spins, nearly identical relative energies, and electric monopole transitions connecting the favored members. These bands can be understood as [Formula Presented] and [Formula Presented] intruder configurations coupled to coexisting prolate or near-prolate [Formula Presented] 20[Formula Presented] cores having diabatic configurations that differ only in the number of protons occupying the [Formula Presented]=5 intruder configurations. © 1998 The American Physical Society. Publication Source (Journal or Book title) Physical Review C - Nuclear Physics First Page 771 Last Page 795 Recommended Citation Rupnik, D., Zganjar, E., Wood, J., Semmes, P., & Mantica, P.\n(1998). Levels of [Formula Presented] Au: A detailed study of shape coexistence in an odd-mass nucleus. Physical Review C - Nuclear Physics , 58 (2), 771-795. https://doi.org/10.1103/PhysRevC.58.771 This document is currently not available here. DOWNLOADS Since January 27, 2022 Share COinS Search Enter search terms: Select context to search: in this series in this repository across all repositories Advanced Search Notify me via email or RSS Browse Collections Disciplines Authors Author Corner FAQ Submit Research SPONSORED BY LSU Libraries LSU Office of Research and Economic Development Elsevier - Digital Commons Home | About | FAQ | My Account | Accessibility Statement Privacy Copyright"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.58.771",
+      "status": 200,
+      "bytes": 10913,
+      "metadata": {
+        "title": [
+          "Levels of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:msup><mml:mrow/><mml:mrow><mml:mn>187</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math>Au: A detailed study of shape coexistence in an odd-mass nucleus"
+        ],
+        "author": [
+          {
+            "given": "D.",
+            "family": "Rupnik",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "E. F.",
+            "family": "Zganjar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J. L.",
+            "family": "Wood",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P. B.",
+            "family": "Semmes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P. F.",
+            "family": "Mantica",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": null,
+        "link": [
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRevC.58.771",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.58.771/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "resource": {
+          "primary": {
+            "URL": "https://link.aps.org/doi/10.1103/PhysRevC.58.771"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.58.771",
+      "status": 403,
+      "bytes": 5568
+    },
+    {
+      "url": "https://www.osti.gov/api/v1/records?doi=10.1103%2FPhysRevC.58.771",
+      "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?doi=10.1103%2FPhysRevC.58.771 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    }
+  ]
+}

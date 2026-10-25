@@ -1,0 +1,35 @@
+{
+  "scope": "continuation from checkpoint001, targeted original calibration and Au model input reading; no claim of new blind recall or full reread of 20-page Bi source",
+  "sources": [
+    {
+      "path": "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "raw_sha256": "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef",
+      "text": "PDF5–6, printed044328-4/5, Eqs2–9/TableI/Fig4/5; existing Z13-6–13 audit checked to avoid duplicating prior fit",
+      "visual": "fresh PDF6 TableI/Fig5"
+    },
+    {
+      "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "raw_sha256": "f727485ad0f52269a66b27272dac75d34d9e67aaf8b073631cfeac5fe81d3aea",
+      "text": "PDF2/7/10; calibration event selection, a and Q roles",
+      "visual": "fresh PDF10 Fig3/4"
+    },
+    {
+      "path": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "text": "printed052501-4/5; PRM/CDFT/HFB shape selection and E2 reference calibration; model results",
+      "visual": "inherited checkpoint001 PDF4 fresh visual; no new rendering claim"
+    },
+    {
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "text": "mainPDF3 and SI4/5 input/orbital paragraphs; explicit g/effectivecharge numerical values not located in these declared sections, original code/ref may supply them",
+      "visual": "mainPDF3 model-parameter crop rendered; not claimed as whole-source independent audit"
+    },
+    {
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "text": "mainPDF2 Rupnik citation parent text; LSU repository abstract is metadata-only, not original full text",
+      "visual": "fresh 3x crop confirms printed187Ag rather than OCR",
+      "external_url": "https://repository.lsu.edu/physics_astronomy_pubs/4634/",
+      "boundary": "Hg text available but mass/parity formula missing; no primary conversion table read"
+    }
+  ],
+  "all_new_claims_needs_review": true
+}

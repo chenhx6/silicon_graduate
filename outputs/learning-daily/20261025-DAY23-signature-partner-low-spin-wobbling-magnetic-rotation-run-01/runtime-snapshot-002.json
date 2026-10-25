@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-25T20:54:49.208164+08:00",
+  "hard_deadline": "2026-10-26T15:00:00+08:00",
+  "minutes_to_deadline": 1085.1798639333333,
+  "decision": "continue-current-A-and-B",
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    23
+  ],
+  "next_card_opened": false
+}

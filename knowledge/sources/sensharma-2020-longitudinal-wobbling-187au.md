@@ -149,3 +149,14 @@ N. Sensharma et al., *Physical Review Letters* **124**, 052501 (2020)，DOI `10.
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | AU20-D22-R094-1 | 两次ATLAS/Gammasphere采集合并后作17环角分布；376.3/461.8/544.3/639.3 keV的打印δ=−2.67/−2.98/−3.44/−3.72，E2约87.7–93.3%；无connecting-line polarization。Fig.5给相对B ratios而非新寿命；p.4的1.49 e²b²为Ref39既有187Au 13/2−→9/2−强度，用于PRM形变选择，不能直接给任意out branch绝对定标。作者明确未识别n≥2带；band(3)是signature partner。PRM化学势置h9/2中部，而Guo的多轨道QTR置近底部，属模型输入/结构解释冲突。 | experiment-and-model-input-boundary | direct-original | 052501-3 setup and band paragraph; 052501-4 Fig.3 and PRM paragraph; 052501-5 Fig.5 | true |
+
+
+## Day23：绝对尺度定标与模型空间的条件
+
+本次定向回读原PDF p.4–5模型输入与结果，原page review和AU20既有flags保持；以下新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D23-1 | p.4先给configuration-fixed CDFT的β=.28、γ由22°到25°，实际PRM改采用HFB-D1S core值β=.23、γ23°，并明说其解释既有187Au13/2→9/2的B(E2)=1.49(eb)²及186Pt2→0的.84(eb)²；这两绝对尺度是引用并参与输入选择，不是本文新增τ测量或独立holdout。PRM single-j h9/2、额外f7/2 admixture<5%，与Guo2022九个负宇称轨道、ε2=.21/γ12°的QTR不是只换带标签的同输入比较。 | model-input-calibration-and-comparison | direct-original-and-cross-source-boundary | printed052501-4, PRM/CDFT input paragraphs | true |
+
+Knowledge Impact and Learning Decision：limits样本内能量/尺度符合度的独立计票；保留原LW/SP支持链和作者PRM比较，并要求[[signature-tip-shears-discrimination-contract]]的configuration-only练习明确哪部分D冻结、哪部分Hamiltonian/算符仍待统一。

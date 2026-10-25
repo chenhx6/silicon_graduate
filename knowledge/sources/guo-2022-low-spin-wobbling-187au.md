@@ -191,3 +191,12 @@ S. Guo et al., *Physics Letters B* **828**, 137010 (2022)，DOI `10.1016/j.physl
 | GU22-D23-003 | 462keV分析使用316/400门得到Rac/A上界，313窄门得到中央/下界；463keV异构态以上线与465keV E1污染须分别处理。这些选门结果属于同一采集的选择敏感性，不能按独立重复实验相乘。作者未给这些门之间完整Cov。 | gate-selection-and-independence-boundary | direct-original-and-bounded-inference | SI p.2, first paragraph; SI p.3, first paragraph | true |
 
 Knowledge Impact and Learning Decision：revises一处印刷误差，limits同源多量计票及跨装置响应迁移；未判支持/反对任一模型已最终胜出。实际比较程序见[[signature-tip-shears-discrimination-contract]]，争议谱系见[[low-spin-wobbling-controversies]]。
+
+
+### Day23：Rupnik引用的母核文字疑点
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-004 | 本PDF p.2实际印作Rupnik等对187Ag的β-decay study，3倍局部图核实这不是OCR把Hg读成Ag。该Ag→Au归属不符合单步β衰变ΔZ=±1的电荷核查；LSU原作者馆藏页DOI10.1103/PhysRevC.58.771摘要则写Hg两态衰变，并明确正文当前不可下载。馆藏摘要的质量数/宇称公式显示为[Formula Presented]，不足以代替完整原文校定；本轮仅标出Guo母核印刷疑点，不从摘要补376/462的αK值、母核完整Jπ或SP非观察的灵敏度。G22-4原用户核阅flag保留，其Ag字面只按作者引用记录，不当真实母核已认证。 | source-identity-text-boundary | direct-original-visual-and-repository-abstract | main p.2, paragraph below Fig.2; https://repository.lsu.edu/physics_astronomy_pubs/4634/ Abstract and availability statement | true |
+
+Rupnik访问：Crossref200题名/作者/DOI匹配，publisher直PDF403、harvest401，LSU200但无正文；OpenAlex索引无OA正文位置，Google Scholar本次超时。这是本次有界检索结果，不声称全文永不可得，也不把搜索失败转成原核态不存在。下一条高信息路线仍为原文conversion表、母核/选择条件与独立性，而非重复引用Guo。

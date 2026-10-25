@@ -107,3 +107,34 @@ c\,r_{E2}-\delta^2r_{M1}=0.$$
 | 静态g、Qs或轨道选择敏感的转移强度 | 目标态身份、核反应/矩阵元模型及响应；两候选明确数值区间 | 单j极限g_j对同j各轨道未必不同，不能承诺一次g就排他；Qs也需模型可分预测 |
 
 这些是任务设计与缺口，不是新实验结果。Guo的QTR已有数据比较，而一个形式上可写的重指派未获得同等拟合与留出表现，不能按“都可解释”给相同可信度。目前真实计数、共同response/Cov与固定模型producer不齐，L4不ready；继续L2/L3原件和输入调查，不制造δ、Q(E)、τ或机时。
+
+
+## Day23 外借Q的能量共同误差与迁移边界
+
+本节是声明条件的任务推导，needs_review: true。Zheng2013的Q校准用90° EXOGAM、316–1264keV的pureE2参考（[[zheng-2013-linear-polarization-91ru]] Z13-1、Z13-2、Z13-7）；Herzáň2015用75.5°/104.5° JUROGAM-II及stretched M1/E2（[[herzan-2015-193bi-spectroscopy]] HE15-D23-1）。Guo2022承认自身因isomer布居而难以定Q，借前者同型detector曲线；Lv2022借后者，但各自测a。因此a≈1不等于Q≈1，也不认证所有target/reference acceptance相同。
+
+将来源印刷参数代入Q(E)=Qpoint(E)(p0+p1E)，m_ec²=511keV，得到以下**来源曲线中央值**。它们不是target重标定，且不能把两曲线当可互换的“高/低Q情景”。
+
+| 所采用曲线/目标能量keV | Q曲线值 | 仅p0/p1印刷marginals与未知ρ下的一阶σQ范围 |
+|---|---|---|
+| Zheng2013，Au376 | .314472 | .006647–.023843 |
+| Zheng2013，Au462 | .292257 | .004296–.023690 |
+| Herzáň2015，Pr450.2 | .236763 | .006007–.050624 |
+| Herzáň2015，Pr747.3 | .148787 | .006589–.049403 |
+| Herzáň2015，Pr813.2 | .134271 | .008559–.049019 |
+
+条件是印刷σ为可比较marginal标准差。固定能量时σQ=Qpoint sqrt(σ0²+E²σ1²+2Eρσ0σ1)，ρ∈[−1,1]，范围端点为Qpoint|σ0−Eσ1|与Qpoint(σ0+Eσ1)。这不是重拟合/CI，也没有覆盖从reference到target的transfer κ(E)、selection或取向不确定度；不将端点指定为真实Q误差。
+
+共同曲线给跨线Cov：X_i=(1,E_i)、J_i=Qpoint_i X_i时，C_Q=J C_p Jᵀ。忽略reference/target交叉项、且暂假定target A与外部参数独立时，P=A/Q的一阶C_P包含D_(1/Q) C_A D_(1/Q)以及H C_p Hᵀ，其中H_i=−P_i X_i/(p0+p1E_i)。每条线单独抽一个独立Q误差会丢失这项跨线结构；但真实C_p和target C_A仍缺，不能把该公式冒充已恢复Cov。
+
+同曲线的形状比中共同尺度可相消：本曲线Q376/Q462=1.076013，σ[ln(Q376/Q462)]在上述ρ自由合同下为.005240–.006437；Q747.3/Q813.2=1.108109，对应.019464–.033035。两者只说明相邻能量的源曲线形状与绝对归一误差不同；若κ(E)有未知能量依赖，或target两条线的选样权重不同，该抵消不再充分。没有计算P跨线比，因为其实验误差/分母零域与共同Cov尚未处理。
+
+最小transfer合同写Q_target(E)=κ(E)Q_reference(E)，κ必须由matching参考线、响应模拟或实际校准证据约束，不能自行设为精确1。正的共同κ改变P幅度而不翻A/Q符号；但a、背景和取向尚可影响实际符号/模型P，故不从这个代数事实判定哪条δ分支已排除。尤其**P不是脱离取向的跃迁本征属性**：即使两实验Q都正确，同核同线的P仍因初态布居/feeding/门而不同，应分别用各自response约束共同δ，不能直接P相减。
+
+可复现计算`system/scripts/day23_polarization_calibration_transfer.py`保留原参数、目标能量、完整两参数有限差分、PSD协方差范围、rank≤2与共同尺度抵消控制；不是实验producer。Z13-9/10/13已有原表误差/拟合/1368点边界继续有效，本节未用新的假独立拟合替代来源。
+
+### 组态重指派与换模型的区别
+
+只冻结实测D而改解释标签是可构造的替代解释；Guo与Sensharma两个发表模型还改变了形变、惯量与模型空间，不能称为只改configuration的受控数值实验。[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-1表明其PRM β输入已参考旧绝对E2，[[guo-2022-low-spin-wobbling-187au]] G22-10/G22-20则用不同γ、Harris惯量和多轨道QTR。若要隔离configuration作用，须预先固定H/算符/拟合集，再把同一实验带分别映射到候选本征态并检查能量残差与holdout；当前producer不足，尚未执行这一受控对比。
+
+同样，Band2在QTR中#21主导、Band1#19主导的“single-particle excitation”不自动等于“同一内禀轨道的两个signature partners”；两条带的交错自旋/旋称标签可兼容多种微观归属。保持它们作为竞争解释，不把SP、TiP和磁转动合成一个小δ类别。

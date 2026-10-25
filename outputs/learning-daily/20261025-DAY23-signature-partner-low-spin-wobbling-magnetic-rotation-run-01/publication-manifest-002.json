@@ -1,0 +1,25 @@
+{
+  "scope": "Day23 active checkpoint002; no card credit; includes prior checkpoint receipt as historical pointer",
+  "subject": "Day23: trace polarization calibration and parent identity",
+  "paths": [
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+    "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "system/scripts/day23_polarization_calibration_transfer.py",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-002.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/calibration-transfer-002.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-002.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-002.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-002.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/rupnik-access-002.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-002.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-001.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-002.json"
+  ]
+}

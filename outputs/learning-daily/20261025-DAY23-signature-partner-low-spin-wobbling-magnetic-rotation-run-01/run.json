@@ -54,5 +54,6 @@
     "-a",
     "never"
   ],
-  "checkpoint_receipt": "session-receipt-001.json"
+  "checkpoint_receipt": "runtime-snapshot-002.json",
+  "latest_continuation": "next-continuation-002.md"
 }
