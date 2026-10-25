@@ -1,0 +1,31 @@
+{
+  "scope": "Day23 active checkpoint005; no card credit, decay export archival deferred, source version boundaries",
+  "subject": "Day23: audit decay clocks and source-version inputs",
+  "paths": [
+    "knowledge/concepts/signature-partner-bands.md",
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/projects/135pr-wobbling-controversy.md",
+    "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "knowledge/projects/low-spin-wobbling-controversies.md",
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "system/handoff.md",
+    "system/log.md",
+    "system/scripts/day23_au187_api_identity.py",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/hg187-access-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/hg187-parent-identity-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/hg187-version-comparison-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/candidate-pool-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-005.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-005.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-004.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-005.json"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-25T22:45:04.435441+08:00",
+  "source": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+  "raw_sha256": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74",
+  "actual_text": "PDF89–95 printed67–73 run sections/Table3.3; PDF148–157 printed126–135 Au model/geometry/candidates; PDF195 bibliography8/10 and sourceRef83; this is targeted continuation not a new full205-page reading",
+  "fresh_visual": [
+    "PDF90 Table3.3 run4 footnote",
+    "PDF93 Pr run4 combined total",
+    "PDF150 printed128 referenceE2/parity/phiJ/phiJparticle",
+    "PDF151 Fig5.5 axes and caption"
+  ],
+  "external_reading": "187Hg gamma/electron v0/v1 exports + APIguide common/gamma fields/Error codes; full records only temporary; no primary conversion table",
+  "reusable_delta": "run/observable clock, code0 versus measuredzero, fullrecord-multiset versus file ordering, core/modelversion separation",
+  "review": "all new claims needs_review:true, no human-review promotion"
+}

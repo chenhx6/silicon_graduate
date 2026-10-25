@@ -1,0 +1,8 @@
+{
+  "same_header": true,
+  "same_row_multiset": true,
+  "row_order_matches": false,
+  "v0_only_rows": 0,
+  "v1_only_rows": 0,
+  "prefix": "Direct positional comparison invalid when equal-energy rows reordered."
+}

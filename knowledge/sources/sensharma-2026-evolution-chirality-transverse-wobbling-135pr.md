@@ -161,3 +161,10 @@ SH26-8/9/11的作者偏好与shared-lineage判断仍保留；新SH26-13/15把固
 | SH26-D23-2 | Fig12仍引Refs15/16且固定σ/I=.2，SecII则给combined-data的全局分析程序；未有逐图event/run ledger，不能确认该图每个角度究竟用哪一组事件或声明它逐点等于2015计数。原SH26-D22-R095-1的条件大根偏好保留；“旧AD谱系回应”表示研究/观测继承，不是已证明排除了新增事件贡献。 | per-observable-sample-identity-boundary | direct-and-bounded-inference | arXivv2 PDF14 Fig.12; PDF2–4 Sec.II | true |
 
 Knowledge Impact and Learning Decision：revises“论文整体独立/重复”的二元标签；本任务不重建raw joint likelihood，source/readiness与新增run和复用点的图见[[low-spin-wobbling-controversies]]。
+
+
+### Day23：与2021学位论文的合并样本摘要对账
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SH26-D23-3 | 本v2 SecII的63Ge/697μg靶、合并Ref16 DGS与[[sensharma-2021-wobbling-motion-135pr-187au]] printed71 Run4描述相匹配，但学位论文合并数1.52×10^10、本v2为2.5×10^10。该采集成分已在2021来源中出现，不能把“相对S19的新run”误说成确认于2026才采集；也不能缺event ledger便认定两版本完整事件集相同或哪版印错。固定σ/I=.2条件χ²支持保持，未由总数差重估显著性。 | cross-version-event-summary-boundary | direct-original-and-cross-source | PDF2 Sec.II; SE21-D23-1 | true |

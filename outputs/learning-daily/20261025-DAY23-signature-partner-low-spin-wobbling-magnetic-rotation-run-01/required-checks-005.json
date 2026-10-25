@@ -1,0 +1,108 @@
+{
+  "observed_at": "2026-10-25T14:45:36.924014+00:00",
+  "scope": "checkpoint005 source/field/schema and version audit; no experimental CI or independent alphaK reconstruction",
+  "commands": {
+    "boundary": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout_tail": "xpected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    "lint": {
+      "argv": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "O   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-20 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-12 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-13 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-15 awaits human review\nGOVERNANCE page_unreviewed=636 source_unreviewed=324 claims=5142 claim_needs_review=4434 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=182\nSUMMARY pages=714 wikilinks=9162 hashes=350 errors=0 warnings=220 info=4434\n",
+      "stderr_tail": ""
+    },
+    "diff": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    "hg_parent_identity": {
+      "argv": [
+        "python3",
+        "system/scripts/day23_au187_api_identity.py",
+        "--gammas",
+        "tmp/day23-originals/iaea-au187-gammas.csv",
+        "--levels",
+        "tmp/day23-originals/iaea-au187-levels.csv",
+        "--decay-gammas",
+        "tmp/day23-originals/hg187-g.csv",
+        "--decay-electrons",
+        "tmp/day23-originals/hg187-e.csv",
+        "--output",
+        "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/hg187-parent-identity-005.json"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"all_controls_pass\": true, \"rows\": [640, 312], \"duplicate_headers\": {\"unc_hl\": 2}}\n",
+      "stderr_tail": ""
+    }
+  },
+  "runner_report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "runner_writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+      "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+      "knowledge/questions.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/sources/clark-2000-shears-mechanism.md",
+      "knowledge/concepts/shears-mechanism.md",
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/concepts/signature-partner-bands.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/concepts/shears-mechanism.md",
+      "knowledge/concepts/signature-partner-bands.md",
+      "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "knowledge/projects/135pr-wobbling-controversy.md",
+      "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "knowledge/projects/low-spin-wobbling-controversies.md",
+      "knowledge/questions.md",
+      "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "knowledge/sources/clark-2000-shears-mechanism.md",
+      "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+      "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "all_pass": true
+}

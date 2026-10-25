@@ -1,0 +1,16 @@
+{
+  "head": "9af8976e48d34e7fe6b0398a3cfe10b4666514e0",
+  "scope": "original session continuation, tracked tree clean at checkpoint005 start; current owned changes inspected",
+  "initial_run_baseline": "baseline-001.json",
+  "knowledge_changed_now": [
+    "knowledge/concepts/signature-partner-bands.md",
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/projects/135pr-wobbling-controversy.md",
+    "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "knowledge/projects/low-spin-wobbling-controversies.md",
+    "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+    "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+    "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+    "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md"
+  ]
+}

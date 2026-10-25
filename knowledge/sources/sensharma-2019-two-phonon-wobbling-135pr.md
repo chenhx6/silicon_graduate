@@ -134,3 +134,10 @@ N. Sensharma et al., *Physics Letters B* **792**, 170-174 (2019)，DOI `10.1016/
 | S19-D23-3 | printed171称QTR解只要保留与harmonic limit相同topology，即使定量非谐仍可用phonon标签；printed173把TW2→TW1比值小于TW1→Y的现象与strong anharmonicity联系，两个分母分别是各自band origin的in-band E2。此作者定义不等于要求exact factor2，也不凭relative ratio自动证明完整拓扑/实测声子。 | author-definition-and-normalizer-boundary | direct-original | printed171, topology paragraph; printed173, Fig.3 discussion | true |
 
 Knowledge Impact and Learning Decision：supports保留真实新增DGS支持链，limits对全部观测独立性的二元计票和把harmonic比例当唯一模式定义。[[low-spin-wobbling-controversies]]与[[135pr-wobbling-controversy]]按run/observable/模型依赖分别组织，不作最终归属。
+
+
+### Day23：旋称分类与激发带身份
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| S19-D23-4 | printed171分别定义odd-n_w wobbling序列的opposite signature与另一个unfavoured SP；后者可存在于轴对称/三轴情形，wobbling候选在三轴时额外出现。两者可共享相对yrast相反的α，故α分类本身不唯一指定ordinary SP或wobbling，也不等于pseudospin。 | author-classification-and-identification-boundary | direct-original-and-bounded-inference | printed171, spin-sequence and unfavoured-signature paragraphs | true |

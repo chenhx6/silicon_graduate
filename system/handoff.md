@@ -3,17 +3,17 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint004（持续研究）
+## Active handoff — Day23 checkpoint005（持续研究）
 
-run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08；nativegoal active/Farmer原2698 fresh verified running。completed=[] partial=[23] next23，Day24未打开；Day22只授[22]/实际H3已核。保持用户“至原次日15:00再收束”要求。
+run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。nativegoal active/Farmer2698 fresh verified running；completed=[] partial=[23] next23，Day24未打开。Day22只授[22]/H3已核。用户要求原次日15:00后再收束，checkpoint不是日终。
 
-004：IAEA官方Au187gammas/levels/guide三200，640/312行；cutoff2008-11-01≠Extraction_date2026。逐ID绑定376/462，total CC≠alphaK，MR字面不定phase；436.6为13/2→13/2非SP ΔI1；parentτ空不迁终态2.3s。重复unc_hl列12/15按位置保留，空尾record修后6identitycontrols过；CSV仅tmp公开staging，原raw归档deferred，GU22-D23-006–008为外部field边界非新实验。
+005：Hg187γ595行核parent/daughter/shift/jp/clocks，intensity全空、γ初态τ空；electroncode0是valid/no-data，非观测零/upperlimit。v0/v1γmultiset同、排序不同；12identitycontrols过，GU22-D23-009–011为外部field边界，CSV仅tmp staging，raw归档deferred。
 
-S19主线5页/图回读：新83Ge DGS与Fig3继承MattaTW1并存；SH26新63Ge+S19合并，不能按三paper独立亦不能抹新run。S19-D23-1–3/SH26-D23-1/2、Pr项目与Mermaid图已细分采集/observable/解释依赖，Fig12逐图ledger缺口和σ/I=.2条件大根支持保留。signature概念补相反α不唯一选普通SP。
+SE21定向run/model原文：科学run1/4与S19/SH26指纹，thesisPr合并1.52e10≠SH262.5e10，事件版本/逐图ledger未闭；Au分run舍入总数不倒推peakexposure。thesiscoreBE2 1.44对Letter.84、referenceparity文字不同，同引用须核原评价。完整支持方PRM φj不rigidm/nearbottom仍由作者解释LW；h11/2 γ调40的TW候选不是h9/2争议同pair。SE21-D23-1–5与SH26-D23-3、新S19-D23-4定位，新增全needs_review:true，原review/Day21/22信用不变。
 
-累计15知识页映射；boundary/lint/diff/API控制及true runner报告/writeback均通过（0error/220warning）。新增needs_review:true，无人审升级，Day21/22信用、raw/PLAN/Bib及114隔离producer保持。下一A沿187Hg decay_rads(g/e)女核Au与原adopted refs，B沿Sensharma2021 Ch3/5.2实际run/model/operator缺口；不重做854.3方法，不因checkpoint提前收束。详next-continuation-004/candidate-pool-004，Day24仅局部饱和后无学分预习、不开Day25。
+累计16页writeback/真实runner门和boundary/lint/diff/12identitychecks通过，0error/220warning。下一优先186Pt原reference评价及算符合同：官方levels/gammas核W.u./up-down/half-mean，Baglin2003若可访问再核，仍不算新实验。Hg字段局部饱和，不重复空electron/失败alphaK访问；继续当前问题，不因checkpoint收束，Day24仅局部饱和后无学分预习，不开Day25。详next-continuation-005/candidate-pool-005。
 
-发布稳定指针main · Day23: bind evaluated rows and separate acquisition overlap；精确hash/实际H3只看本run task-publication-receipt-004.json。
+发布稳定指针main · Day23: audit decay clocks and source-version inputs；精确hash/实际H3只看本run task-publication-receipt-005.json。raw/PLAN/Bib及继承dirty保护，114隔离producer不运行。
 
 ## Previous handoff — Day22 closeout
 

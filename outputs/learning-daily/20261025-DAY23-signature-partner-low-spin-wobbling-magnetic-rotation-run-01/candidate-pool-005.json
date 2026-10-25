@@ -1,0 +1,31 @@
+{
+  "time_gate": {
+    "observed_at": "2026-10-25T22:47:39.527173+08:00",
+    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "minutes_to_deadline": 972.3412137833333,
+    "decision": "continue-current-A-and-B",
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23
+    ],
+    "next_day_index": 23,
+    "Day24_opened": false,
+    "farmer_verified_running_pid": 2698
+  },
+  "slot_A": {
+    "delta": "Hg187 evaluated radiation export confirms parent/daughter field roles, but gamma intensities all blank/electrons code0; v0/v1 row multiset same",
+    "route_status": "local field-readiness work saturated; primary historicalalphaK still inaccessible, do not retry same source endpoints without new lead",
+    "next": "new high-value direction within same problem: Pt186 core reference original evaluated B(E2) and its provenance, linked to S20 .84 versus thesis1.44",
+    "candidate_inputs": [
+      "IAEA186Pt levels/gammas at same official API, preserve W.u./up-down/half-vs-mean normalization",
+      "Baglin2003 original reference if accessible; evaluation summary never new independent acquisition"
+    ]
+  },
+  "slot_B": {
+    "delta": "thesis science run1–4, Pr merged1.52e10 vs SH262.5e10; Au completePRM j not rigidm; referenceparity/coreB(E2) differences; h11/2 candidate separate from h9/2 test",
+    "next": "verify operator/deformation/reference assumptions before a same-H configuration comparison or new holdout prediction",
+    "boundary": "λ alone not enough for shell occupancy; no new fitting or fabricatedg/Q/tau/beamtime"
+  },
+  "preview": "Day24 unopened; only one uncredited next-card preview after current useful routes saturate",
+  "stop_reason": null
+}

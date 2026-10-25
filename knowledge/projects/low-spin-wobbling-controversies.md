@@ -46,7 +46,8 @@ flowchart TD
     M15 --> TW1reuse["S19 Fig3: TW1值取Ref10"]
     S19["S19: 新83Ge DGS采集"] --> S19Obs["TW2新增观测/同源派生量"]
     S19 --> Merge["SH26: 两run合并及逐run效率"]
-    SHrun["SH26: 新63Ge run"] --> Merge
+    SHrun["SH26纳入63Ge run; 相对S19新增"] --> Merge
+    SE21["SE21科学run4: 匹配指纹; 合并1.52e10"] -. "与SH26的2.5e10摘要未闭合" .-> SHrun
     Merge --> SHDB["新增DB连接; 非新低带P"]
     Merge -. "全局AD程序; 逐图ledger缺" .-> SHFig["Fig12: 固定sigma大根偏好"]
     M15 -. "Refs15/16观测谱系" .-> SHFig
@@ -548,3 +549,6 @@ This reflection is a research-map update, not a final physical judgment. The 202
 
 
 Day23官方API旁证仍只作字段/身份核验：[[guo-2022-low-spin-wobbling-187au]] GU22-D23-006–008区分Extraction_date、2008出版物截止、total与K-shell、端点和母态τ。它不补一个独立conversion实验，也不因旧评价未含2020序列而将之排除；原始快照正式归档仍deferred。
+
+
+Day23版本缺口：学位论文的科学run1/4由[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-1直接定位，run4指纹已于2021出现；其合并总量1.52e10与SH26 2.5e10尚未闭合。新图的虚线是摘要/样本身份问题，不把它画成新增独立实验。Au同一理论家族对186Pt reference B(E2)的.84/1.44版本也分别保存（SE21-D23-3），不隐式统一模型定标。

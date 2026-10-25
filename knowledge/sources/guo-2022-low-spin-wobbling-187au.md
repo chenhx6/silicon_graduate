@@ -224,3 +224,23 @@ Rupnik访问：Crossref200题名/作者/DOI匹配，publisher直PDF403、harvest
 两CSV SHA256依次为8c38df9d5634f6255bc57d8c26e3231042cb78f95a02c4235191c81bac01155b与ffa9e79ea076ca7d857e0eb01d681295c05212eda1316da78de89c6232fbb279；字段/target rows重放程序`system/scripts/day23_au187_api_identity.py`，不是原实验producer。首次严格CSV宽度检查发现末尾空record，改为仅跳过全空record后重跑6项identity controls通过，没有丢弃非空不等宽行。
 
 Knowledge Impact and Learning Decision：supports对376/462近能量/端点和来源时间窗的逐量核验，limits用total/αK、magnitude/sign、daughter/parent lifetime或evaluation/new acquisition互换；本次没有恢复独立历史αK表、共同Cov、δ显著性或模式最终归属。
+
+
+## Day23 外部187Hg衰变导出：母核、空值与服务码
+
+以下继续为外部API field核验，原始完整CSV仍tmp staging/正式raw归档deferred，非Guo原测量；URL为`https://www-nds.iaea.org/relnsd/v0/data?fields=decay_rads&nuclides=187hg&rad_types=g`及`rad_types=e`。含义依据同一官方guide的decay_rads及Error codes。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-009 | γ导出595行均列母核(pZ,pN,symbol)=(80,107,Hg)、daughter=(79,108,Au)、EC+B+，从而支持母核Hg→Au的身份核查，不能把原PDF的187Ag当真实单步母核。两parent均p_energy=0，却分别带empty/X的p_energy_shift与jp3/2(−)/13/2(+)及1.9/2.4m；不能按0能量合并两state，也不把X+0认证为实际零激发。这里jp/half_life字段属于Hg母态，不是Auγ初态。它不替代Rupnik1998正文/具体选样。 | evaluated-parent-daughter-field-identity | direct-official-api-with-boundary | IAEA decay_rads187hg rad_types=g; guide common fields | true |
+| GU22-D23-010 | 本次595γ行intensity/unc_i全空；376.3/462.1只出现在X-shifted 13/2(+)母态组，Au初态half-life也空。13/2(+)母态144s、376末态2.3s和γ初态空值是不同clock。对应γ初末态能量496.79/120.40与815.89/353.78，与adopted export略不同，需保留dataset身份；两个导出unc_mr分别字面3和.3，未获统一说明/原notes前不合并误差。没有从这些空强度恢复photon branch或αK。 | missing-intensity-and-field-role-boundary | direct-export-and-self-audit | IAEA decay_rads187hg target energies376.3/462.1; GU22-D23-006 | true |
+| GU22-D23-011 | electron请求HTTP200但body仅0换行；官方guide Error codes定义0为请求有效、无满足条件的数据，非实测零电子强度/未观察转换线，故不提供αK、上限、排除置信度或机时。γ字段conversion_coeff在guide明确为total；接口可读不等于取得独立K-shell测量。 | service-status-versus-negative-evidence | direct-official-documentation-and-response | IAEA decay_rads187hg rad_types=e body0; guide Error codes and gamma fields | true |
+
+γ/e响应SHA256依次为61834a8d4ebfcb70431bd9540e0591ec85c8d6b0decf88c12a95c2a040c00200与9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa；既有Au identity脚本扩展optional parent inputs，原6项和新6项role/空值/service-code控制合计12项通过。此结果仍是reading/readiness，非原实验或BrIcc重放。
+
+
+### Day23 API版本对照的行顺序边界
+
+同查询另取guide所列v1服务后，187Hgγ返回同样595行，文件SHA不同，但按全部字段字符串及重复行计数作multiset比较完全相同（0个v0-only、0个v1-only）；区别是若干同能量条目的顺序。电子v1同样返回0，字节/hash相同。不能把逐行zip的母态/能量差当新评价变化，也不能以能量单列去重而丢掉不同母态数据。该核验仅比较本次两个响应，不断言接口在所有核素/所有版本恒等。
+
+v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；URL仅将上述v0换v1。本次原始快照仍未正式raw归档，不能把字段一致当多源独立确认。

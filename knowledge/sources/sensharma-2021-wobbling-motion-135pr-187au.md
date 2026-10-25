@@ -3,7 +3,7 @@ type: source
 title: "Sensharma 2021 博士论文：135Pr 与 187Au 的横向、纵向和手征 wobbling"
 aliases: [Sensharma 2021 wobbling thesis, Wobbling Motion in Nuclei dissertation]
 created: 2026-09-05
-updated: 2026-10-17
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment-and-model
@@ -200,3 +200,18 @@ Nirupama Sensharma，*Wobbling Motion in Nuclei: Transverse, Longitudinal and Ch
 结果说明small radiative fraction仍可线性干涉A4，但在声明的point/Gaussian .2条件内，源gated/singles两个ratio范围和七角equal-weight P6遗漏效应均不足以把模型系数移到Table4.3。正性scope反例只证明alpha_exp解释依赖reference纯性，并未复现Table4.1的实际操作或认定真实原因。原始逐角净峰/校准program、actualgeometry/gate/covariance仍缺，停止调参；理论/模型结果不冒充实验事实，新16/17 true，旧flags保持。
 
 Ref26 Cieplicka2012目前仅核DOI/title及OpenAlex/OSTI metadata；publisher/acceptedPDF403、OSTIAPI/record ConnectionError，未得到正文。下载工具拒绝Wiki绝对savePath后未绕过其目录限制。Ref57 Matta2017 public discovery restricted，亦未读body；这些是本run获取边界，不是“世界上不存在可访问版本”的结论。
+
+
+## Day23：run账本、版本总数与Au模型输入
+
+本次定向读PDF89–95（printed67–73）及PDF148–157（printed126–135），视觉核PDF90 Table3.3、PDF93/150原段和PDF151的角定义。原205页SHA不变；未重读全篇/旧854.3方法练习，新claims均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| SE21-D23-1 | Table3.3及§3.7列科学run1=Pr80MeV/83Ge/634μg、run2/3=Au105/115MeV且57/73Ge、run4=Pr80MeV/63Ge/697μg；表中4带脚注2，不是run42。run1的1.45×10^10与S19 DGS指纹相符，§3.7.3称run4+run1合计1.52×10^10，而SH26 v2同样63Ge/697靶并合Ref16后写2.5×10^10。两者均原图核实，无法由这些摘要恢复event/run selection或哪版扩充了哪些事件；不反减总数估算新run独立计数，也不将指纹相符认证为逐event相同。 | source-run-ledger-and-version-boundary | direct-original-and-cross-source | overlapping-lineage-not-new-repetition | printed68 Table3.3; printed69–71 §3.7.1–3; SH26 PDF2 Sec.II | true |
+| SE21-D23-2 | Au科学run2/3各报4.4×10^8与6.3×10^8 fold≥3 events，分run校准后合并；S20 Letter报1.08×10^9合并。论文中的十进位计数已舍入，不能据小差反推遗漏事件或精确target peak exposure。两run束流/Ge/靶组合与Letter支持链相符，不增加第三个独立Au实验。 | rounded-run-count-and-calibration-lineage | direct-original-and-boundary | same-supporting-campaign | printed70–71 §3.7.2; AU20-1 | true |
+| SE21-D23-3 | printed128在h9/2讨论中印B(E2;13/2+→9/2+)=1.49(eb)²和186Pt2+→0+为1.44(eb)²；S20 printed052501-4对相应h9/2支用负parity并列core .84(eb)²，两者同指Basunia2009/Baglin2003。此为源版本/文字边界：本任务不据thesis正号改核态parity，不把1.44/.84混作同一确定定标输入；需核原评价与采用约定，不能默选数值或报新形变。 | model-calibration-reference-version-boundary | direct-original-visual-and-cross-source | same-quoted-reference-lineage | printed128 first paragraph; printed173 Refs8/10; AU20-D23-1; Letter052501-6 Refs39/40 | true |
+| SE21-D23-4 | printed128/129明确经典最小化得φJ趋m轴而φj始终不靠近90°，并说Fermi不远离h9/2底部、short分量重要；支持方仍按total I的m分量/方位分布解释LW。Letter同λ=−1.32、距第二level .38MeV却在p4用middle-shell文字；不能用同一个λ数值自动判哪个几何成立，需实际sp谱/占据/算符及共同模型输入。这里是支持方完整PRM的适用性说明，不是本任务直接测角或冻结j模型。 | author-geometry-and-model-input-boundary | direct-model-discussion | same-PRM-not-independent-observation | printed128–129; Fig5.5; Letter052501-4 PRM paragraph | true |
+| SE21-D23-5 | h11/2 pair在printed132把CDFT γ27.8°调到40°以延缓TW失稳，并列MoI(m,s,l)=12.61/4.52/9.37；作者称比值/能量较合，但仍要求更高统计才firmly establish该hole-like TW。它与h9/2的376/462争议对象不同；25/2等临界spin和经典图是该参数模型输出，不是跨核硬门或本篇新偏振/寿命。 | separate-candidate-and-parameter-calibration | direct-model-and-author-limit | same-Au-dataset-distinct-band-pair | printed132–135 §5.2.2 Figs5.9–5.12 | true |
+
+Knowledge Impact and Learning Decision：supports更具体的科学run账本和支持方非刚性j几何，limits把论文/学位论文合并总数、参考B(E2)或φj描述直接当共同输入；版本差异保持开放而不撤销原实验或原Day21/22学分。[[135pr-wobbling-controversy]]、[[187au-longitudinal-wobbling-controversy]]及[[signature-tip-shears-discrimination-contract]]承接当前边界。

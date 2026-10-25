@@ -264,3 +264,17 @@ Day23后续追溯：Bourgeois1978精确DOI已核为10.1016/0375-9474(78)90184-7�
 本次IAEA公开API成功返回Au187 gammas/levels，数据cutoff为2008-11-01而Extraction_date为2026-10-25。逐snapshot ID绑定376.3/462.1的母末态，total转换系数不能与Guo Fig3的αK混用，mixing_ratio字面正数字也不能缺adopted notes就改成有符号δ。近能量436.6实际是13/2→13/2，并非支持方SP的ΔI1连接；旧截止更不能检验2020新增band的非观察。出处[[guo-2022-low-spin-wobbling-187au]] GU22-D23-006/007/008为明确外部API field自审，非Guo原测量。
 
 两个Band2母态的τ在export为空；9/2−异构态2.3s属于另一个end level，不迁入Band2求绝对B。CSV的重复unc_hl列还要求按列位置保留误差含义。完整adopted notes、原αK表/其引用及正式raw快照仍缺，保持readiness boundary和needs_review:true，不提高独立证据票数或最终归属。
+
+
+## Day23：支持方完整PRM、版本定标与字段旁证
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-3/4进一步限定支持方：其h9/2 classical j不严格沿m轴，φj不近90°且short分量重要；作者仍依据total I的m分量/方位分布称LW。这不是严格冻结j的HFA，也不是实验直接测角，不能把与严格rigid-j图像的不同自动当作作者完全没有LW支持。Letter用middle-shell文字而thesis称Fermi不远离底部，两者同λ/.38MeV需实际sp谱/占据与算符核验，不能从单个数字恢复全部物理图像。
+
+| 输入 | S20 Letter | SE21 thesis | 当前边界 |
+|---|---|---|---|
+| PRM形变/配对/λ | β=.23/γ23°/Δ.88/λ−1.32 | 同样数值 | 不等于Guo ε2=.21/γ12°的同一Hamiltonian；β/ε约定也须核 |
+| reference core B(E2) | 186Pt2+→0+为.84(eb)² | printed128为1.44(eb)² | 同引Baglin2003，未读原评价/输入版本前分列，不选择或平均 |
+| Au reference B(E2) | 13/2−→9/2−为1.49 | printed128字面正parity，1.49 | thesis文字不用于更改已识别h9/2负parity |
+| 支持方模型范围 | h9/2 LW/SP | 另有h11/2 hole-like TW候选 | thesis γ调40°及25/2等失稳仅该参数模型；不是Guo376/462直接测试的同一带对 |
+
+source原子出处为AU20-D23-1与SE21-D23-3/4/5。新内容needs_review:true；无统一operator/producer前不发布同输入拟合胜负。外部187Hg导出还只提供字段身份：GU22-D23-009/010/011确认母核Hg→Au、jp属于母核、强度全空及electron service-code0的非测量含义。它不补历史αK或实验上限。

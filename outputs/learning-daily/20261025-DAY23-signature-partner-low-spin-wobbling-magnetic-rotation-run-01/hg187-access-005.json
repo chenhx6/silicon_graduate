@@ -1,0 +1,47 @@
+{
+  "observed_at": "2026-10-25T14:08:32.742090+00:00",
+  "scope": "public official export, not an independent conversion experiment or raw archival",
+  "attempts": [
+    {
+      "name": "hg187-g",
+      "url": "https://www-nds.iaea.org/relnsd/v0/data?fields=decay_rads&nuclides=187hg&rad_types=g",
+      "status": 200,
+      "mime": "text/csv;charset=ISO-8859-1",
+      "bytes": 85933,
+      "sha256": "61834a8d4ebfcb70431bd9540e0591ec85c8d6b0decf88c12a95c2a040c00200",
+      "path": "tmp/day23-originals/hg187-g.csv",
+      "prefix": "energy,unc_en,intensity,unc_i,start_level_hl,start_level_energy,end_level_hl,end_level_energy,multipolarity,mixing_ratio,unc_mr,conversion_coeff,unc_cc,p_z,p_n,p_symbol,p_energy_shift,p_energy,unc_pe,jp,half_life,operator_hl,unc_hl,unit_hl,half_life_sec,unc_hls,decay,decay_%,unc_d,q,unc_q,d_z,d_n,d_symbol,ensdf_publication_cut-off,ensdf_authors,Extraction_date\n19.5,0.4,,,0.0000000065,19.53,498,0.0,(M1+E2),,,7.E3,,80,107,Hg,,0,,3/2(-),1.9,,3,m,114,18,EC+B+,100,,4910,26,79,108,"
+    },
+    {
+      "name": "hg187-e",
+      "url": "https://www-nds.iaea.org/relnsd/v0/data?fields=decay_rads&nuclides=187hg&rad_types=e",
+      "status": 200,
+      "mime": "text/csv;charset=ISO-8859-1",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "path": "tmp/day23-originals/hg187-e.csv",
+      "prefix": "0\n"
+    },
+    {
+      "name": "hg187-v1-g",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=decay_rads&nuclides=187hg&rad_types=g",
+      "status": 200,
+      "mime": "text/csv;charset=ISO-8859-1",
+      "bytes": 85933,
+      "sha256": "f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801",
+      "path": "tmp/day23-originals/hg187-v1-g.csv",
+      "matches_v0_bytes": false
+    },
+    {
+      "name": "hg187-v1-e",
+      "url": "https://www-nds.iaea.org/relnsd/v1/data?fields=decay_rads&nuclides=187hg&rad_types=e",
+      "status": 200,
+      "mime": "text/csv;charset=ISO-8859-1",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "path": "tmp/day23-originals/hg187-v1-e.csv",
+      "matches_v0_bytes": true
+    }
+  ],
+  "guide_service_version": "guide names v1; explicit same-query v1 comparison follows"
+}

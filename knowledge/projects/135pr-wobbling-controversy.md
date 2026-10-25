@@ -272,3 +272,10 @@ P1 self-audit：这些是source identity/版本/可复现条件推导；原2019b
 旧表“AD不能选择”按多角A2/A4的条件信息修正：固定σ/I=.2的SH26大根偏好保留，尚不能等同完整nuisance-profile或对Lv新P–Rac的共同响应复现。原S19的非谐phonon标签定义允许same-topology量子态偏离harmonic比例（S19-D23-3），但相同标签也不替代实际拓扑/电磁量检验。
 
 具体观测分层与新谱系图在[[low-spin-wobbling-controversies]]及[[signature-tip-shears-discrimination-contract]]；最终TW/TiP/SP归属仍未裁决。
+
+
+## Day23：学位论文的科学run编号与样本版本缺口
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-1提供Table3.3的run1/4与完整采集指纹；63Ge/697靶组成在2021来源已被描述。其合并事件数1.52×10^10与[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-3的2.5×10^10并存，现有source不足以确定选择/扩充版本和各条AD的真实event组成。不能以摘要相减给新run精确count或按总events给某条γ选择效率定权。
+
+两个版本不影响“有新增run且与S19部分合并”的定性谱系；逐event、逐line、逐ring weights仍须原ledger/校准文件。固定σ/I=.2的大根条件支持保持，当前不由总量差给新显著性或判哪份source错误。新增self-audit needs_review:true，原人审/课程学分保持。

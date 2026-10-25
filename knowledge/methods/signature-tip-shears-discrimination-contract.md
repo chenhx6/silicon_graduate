@@ -184,3 +184,14 @@ SH26 Fig12是固定σ/I=.2的条件支持；其caption旧refs与SecII combined-d
 | parentτ/不确定度 | 母态16/38 half_life空；unc_hl标题重复两次 | 不填0、不用end-level9/2异构态2.3s代母态；按字段位置/单位保留两个unc_hl |
 
 `system/scripts/day23_au187_api_identity.py`保留原字符串、重复列位置及snapshot SHA，6项join/空值/错线控制通过。一个全空终止record被识别为CSV格式尾行，非零counts或数据缺失。它不重放原spectroscopy producer、alphaK拟合、τ或实验Cov。
+
+
+## Day23：母核衰变导出与样本总数的边界
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-009–011确认187Hg→187Au export：parent shift/jp须和p_energy合读，两母态同为0字符串不代表同一state；γ初态τ与Hg母态144s及Au终态2.3s不能互换。γ列的intensity全部空白，electron body0是有效请求无数据的服务码，不能作为转换未观察/零强度、upperlimit或机时输入。v0/v1本次γ行multiset相同而等能条目顺序不同；需按完整身份和重复行比较，不用顺序zip或γ能量单键丢项。
+
+这条路线提供了可复核的母核/字段合同，却没有恢复历史αK测量或其uncertainty/原notes；API现在可读不等于L4全部输入ready。full CSV仍临时staging，raw保护不变。扩展identity脚本原6+新6项检查只覆盖给定snapshot对象/字段，不认证物理模式或原实验。
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-1/2还提示：论文说“合并events”须配科学run号、版本、event selection、ring/eff/live-time weights。thesis Pr1.52e10与SH26 2.5e10无法仅从正文闭合，不能倒减得新增run精确exposure；即使总events一致，也不等目标peak、P散射选样或同一likelihood。Au4.4e8/6.3e8与Letter1.08e9为舍入报告，不据小差判未记录采集。
+
+模型输入也按来源版本冻结：SE21-D23-3/4给Au reference-core B(E2)文字/数值与j几何边界。1.44/.84尚未核同一评价和采用约定前不平均、不默选、不改变负parity；λ同值也不替代完整sp谱/occupancy/EM operators。下一步优先核186Pt原evaluation或两模型实际operator，而不是靠增减任意参数制造匹配。

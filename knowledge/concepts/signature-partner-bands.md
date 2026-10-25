@@ -66,6 +66,6 @@ tags: [signature, rotational-band, odd-a]
 
 ## Day23：相反signature不等于已识别普通SP
 
-[[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-3及printed171明确讨论：在三轴核中，ordinary unfavoured SP与one-phonon wobbling candidate都可具有相对yrast相反的signature，后者在SP之外出现。因而α或交错spin序列不能单独在两者中选带；必须匹配同组态/各自激发方式及可靠的电磁矩阵元，不能把所有反signature序列都自动称作同一个伙伴。本文是支持方定义与本任务适用边界，不是对135Pr最终模式的裁决。
+[[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-4及printed171明确讨论：在三轴核中，ordinary unfavoured SP与one-phonon wobbling candidate都可具有相对yrast相反的signature，后者在SP之外出现。因而α或交错spin序列不能单独在两者中选带；必须匹配同组态/各自激发方式及可靠的电磁矩阵元，不能把所有反signature序列都自动称作同一个伙伴。本文是支持方定义与本任务适用边界，不是对135Pr最终模式的裁决。
 
 wobbling在非谐情形的phonon标签还依作者所用topology定义，不能把harmonic factor2当全部定义；反过来相同标签也不证明实测拓扑。它们均不同于pseudospin单粒子伙伴关系。新增Codex self-audit，needs_review:true，原review_status保持。
