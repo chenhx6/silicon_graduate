@@ -210,3 +210,13 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-009 | 上述固定无配对H的最低两个ordinal态在I9/14/18间隔约381.261/37.659/87.342keV；八项basis/自由极限/残差/不同seed-tol-ncv/Casimir/能量重建控制过，最大eigen残差1.6e−11MeV、重复谱差2e−14MeV。这些为任务模型能谱，不是实测level、全sourcepairedcurve重现或chirality终审。RMS用完整O Eψ范数，未将(E†O E)²当E†O²E；RMS非零仍不保符号或证明handedness。 | declared-model-spectrum-and-numerical-boundary | exactfinitebasis-plus-controlled-eigensolve | task input-contract044/unpaired-ph-prm044; sourceHlocators asZH07-D24P-008 | true |
 
 `system/scripts/day23_unpaired_ph_prm.py`给固定H/embedding/solver/diagnostics分层。小j1/2+1/2、C0、各惯量30的I1谱[0,.1,.1]MeV和I2谱[.1,.1,.1,.1,.2]MeV对应允许自由coreR，最大差1.2e−16MeV；未通过调参匹配这些极限。目标I的Hcoll与Hintr重建、总I/裸jp/jn平方和从full-space作用核对，数值误差不是实验CI或modelerror预算。[[nuclear-chirality]]与[[signature-tip-shears-discrimination-contract]]承接有限体系的模式解释边界；仍只Day24无学分预习，新needs_review:true。
+
+## Day23内的Day24无学分预习：同H的轴投影边缘分布
+
+沿044完全相同的源无配对H，直接重算状态、对intrinsic Ωp/Ωn求迹得总I的ρK，再分别作I1/I2/I3的谱投影。不是原135Nd波函数或直接实验几何；该variant的I为整数，m=0在谱中，未转用原奇A半整数K“0点”字面。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-010 | 同H最低两ordinal态的各轴marginal距离不同：I14的TV(axis1)=.07143，TV(axis2/3)=.39553；I18 gap更大，却有TV(axis1)=.05755、TV(axis2/3)=.19361。TV只是该模型两个概率分布的描述量；小能隙、某轴分布/RMS近合不强制所有轴分布同样接近，更不提供handedness/相对phase或静态chirality认证。 | declared-sameH-quantum-marginal-diagnostic | finiteI-model-wavefunction-and-spectral-projection | task input-contract045/sameH044; QI09v1PDF7Eq9 probability premise | true |
+
+`system/scripts/day23_prm_axis_marginals.py`七项ρHermiticity/trace/PSD、各轴P正归一、D2反射/一阶矩、二阶矩full-operator与直接K检查通过；最大二阶矩差1.2e−13ħ²。三个轴不对易，只能称各自边缘分布，不能把三个峰值拼成同时确定的经典矢量；概率接近也没有补足相干RME或完整几何。没有实验角度/概率、newδ/g/B/Q/τ/CI或机时。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保此范围，新增needs_review:true，Day24继续无学分。

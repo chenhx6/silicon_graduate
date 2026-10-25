@@ -173,3 +173,9 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-008/009给一个实际源公式定义的无配对1p+1hole有限I解，D2基/自由转子与solver闭环均已检查。固定参数下最低ordinal gap由I9的约381keV降到I14约37.7再到I18约87.3；它是模型随I变化的谱，不直接对应实际核/模式名。
 
 full-space平方范数给RMS而非带符号平均矢量，低gap/RMS相近也不单独认证左右手局域化、隧穿机制或实验静态手征。后续需同H的概率/EM与其适用条件，见[[signature-tip-shears-discrimination-contract]]；不以某个gap或g阈值建立普遍硬门。Day24仍不授分，新增needs_review:true。
+
+## Day23内的Day24无学分预习：三个边缘概率不是三轴联合取向
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-010在固定源variant中，将full wavefunction求迹后分别投影到三轴I分量。它比只看RMS多保留了分布形状，但三轴算符不对易，三个峰不能组成唯一经典三维矢量，单轴分布近合也不恢复左右手相干/phase。
+
+该模型I14的中轴分布比另两轴更近；I18能隙更大，部分边缘分布却更近。这里不据此选择实际核模式，只限制把“最小gap/RMS近合”直接当完整geometry结论。[[signature-tip-shears-discrimination-contract]]保model/data与概率/相干矩阵区别，Day24仍不正式计卡，新增needs_review:true。

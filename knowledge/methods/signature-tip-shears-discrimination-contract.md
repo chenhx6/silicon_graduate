@@ -659,3 +659,15 @@ $$f_+^2+(u_Av_B-v_Au_B)^2=1,qquad f_-^2+(u_Av_B+v_Au_B)^2=1.$$
 此处出现另一个投影层警示：向量分量O能把D2对称态送到别的irrep，因此投影后的(E†O E)²一般不同于E†O²E；计算RMS必须保full O作用。与043的1qp/3qp例同理，省略扇区后闭合差不能自动当原模型故障。对I/jp/jn平方和与Hcoll分解的检查只是数值/角动量实现门，不是实验核内矢量测量。
 
 八项自由极限/维度/对称/求解和能量控制过，固定I9/14/18模型gap约381.3/37.66/87.34keV；未用单一gap或RMS定手征，未计算新的physicalδ/g/B/Q/τ、置信度或机时。[[nuclear-chirality]]保唯一下一卡无学分预习与model/experimental分层，新增needs_review:true。
+
+## Day23桥接Day24预习：从RMS到轴分布仍需防止联合解释
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-010固定044的H与代码/参数，直接求full Eψ后对Ωp/Ωn求迹得ρI。分别对Ibody1/2/3作spectral projection，Paxis(m)正归一且反射对称；Σm²P与full-operatorRMS相合。该variant的I9/14/18为整数，所以m0是真实格点，不认证原135Nd半整数K的“0点”表述。
+
+| 固定variant I | ordinal gap keV | TV(axis1) | TV(axis2/3) |
+|---|---|---|---|
+| 9 | 381.261 | .41855 | .48225 |
+| 14 | 37.659 | .07143 | .39553 |
+| 18 | 87.342 | .05755 | .19361 |
+
+同一H内，小gap不是所有边缘分布距离的单调代理；RMS相近也可能丢掉显著形状差。TV/Bhattacharyya是模型概率描述，不是实验显著性或静态手征分数。更完整的EM块还依赖各态的相干幅和相位，marginals不能替代它们。七项概率/full-norm检查只核这份模型实现，不把三轴marginal peaks拼成jointorientation或给tunnelingrate。[[nuclear-chirality]]承接唯一无学分Day24预习，新增needs_review:true，无新physicalg/B/δ/τ/CI/机时。

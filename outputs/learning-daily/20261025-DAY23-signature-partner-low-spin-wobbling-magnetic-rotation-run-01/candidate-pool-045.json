@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T23:44:24.441208+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "同H三轴marginal七门，ρ/P/fullRMS一致；谱gap非所有分布距离单调代理",
+  "next_route": "同无配对H的EM约化张量组件，先scalar/freeR0/详细平衡/完整finalspace角闭合，再低ordinal转移矩阵；sourceQ0/g只模型输入",
+  "missing_inputs": [
+    "actual nucleus mapping and paired/multiqp originalproducer",
+    "experimental completebranches/covariance and relativephase",
+    "actual rawresponse/netcounts/AD correction chain"
+  ],
+  "Day25_opened": false
+}

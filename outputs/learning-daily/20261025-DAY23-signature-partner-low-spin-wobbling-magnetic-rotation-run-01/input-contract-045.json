@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-25T23:37:14.436775+00:00",
+  "scope": "same fixedunpairedH quantumspin-axis marginal probabilities, not experimental angularmomenta orjointorientation/chirality certification",
+  "formal_day": 23,
+  "only_uncredited_preview": 24,
+  "source_H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+  "source_H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+  "implementation_H_sha256": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+  "H_input_role": "recompute044declaredsourceH directly; prior outputonly numericalconsistency checknot originalphysics evidence",
+  "probability_definition": "fullstateEψ atfixedI reshape(K,ΩpΩn),traceintrinsicρI; spectralprojections ofIbody1/2/3 giveP_axis(m),m=-I..I; can include0 as Iintegerhere",
+  "references": "sourceZH07H; QI09v1Eq9 genericprojectionprob alreadyactualread, no authorwavefunction or actualnucleus claimed",
+  "diagnostics": [
+    "ρHermiticity/trace/PSD",
+    "nonnegativeP/norm/symmetricm probabilities/mean0",
+    "Σm²P equalsfulloperatornorm notprojectedO²",
+    "directKaxis3diag matches",
+    "partnerTVandBhattacharyya descriptiveonly",
+    "separate axesmarginals do notcommute ordefinejointclassicalorientation"
+  ],
+  "prohibited": [
+    "allaxesRMSnonzero orsmallTV provesstaticchirality",
+    "newmeasuredP/angle/relativephase/tunnelingrate",
+    "combine3axespeaksintouniqueclassicalvector",
+    "newphysicalg/B/delta/Q/tau/CI/ratetime",
+    "newsourcepairedfit orDay24credit/Day25+",
+    "run114producer/rawmutation"
+  ]
+}

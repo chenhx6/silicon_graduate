@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-25T23:42:03.475383+00:00",
+  "source_scope": "fixedsourceH044/reusedactualQI09probabilitydefinition,no newfullpaper",
+  "seven_probability_controls_pass": true,
+  "integer_I_grid_not_actual135Nd_halfspin": true,
+  "marginals_not_jointorientation": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "formalday": 23,
+  "onlyuncreditedpreview": 24
+}
