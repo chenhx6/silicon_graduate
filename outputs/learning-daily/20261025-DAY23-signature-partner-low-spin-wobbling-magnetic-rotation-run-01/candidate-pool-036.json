@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T22:28:58.991405+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "实际2014Pt全文与Au门谱分角色；2017body缺口/版本note保留，未近能量终审",
+  "next_route": "查官方188Pt对应2017XUNDL/评价记录，获取实际端点而非重试受限PDF；编译不添新实验",
+  "missing_inputs": [
+    "2017 primary complete body and PublisherNote content",
+    "same-gate net spectra/eff/time and event ledger",
+    "configuration-only actual model/operator/holdout inputs"
+  ],
+  "Day25_opened": false
+}

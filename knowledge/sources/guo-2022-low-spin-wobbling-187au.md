@@ -283,3 +283,19 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 | GU22-D23-018 | 仅将已报376 δ端点[−.41,−.15]、462[−.97,−.05]代入本任务固定FO K式，αK像分别[.132139,.145829]、[.055165,.085742]；与GU22-D23-013旧实验每项“quoted中央±quoted误差”坐标范围分别有交集。因此GU22-D23-017的中央不同不自动给出区间不相交。此处无任何置信水平、joint coverage或同时拟合含义，未传播理论/能量Cov、历史归一及原δ联合响应；不是新δ/αK测量或全分支认证。 | deterministic-endpoint-image-and-boundary | original-quoted-endpoints-plus-actual-theory-and-task-math | main PDF3 Fig.3(a,b); GU22-D23-001; GU22-D23-013; KB08-D23-001/002; task input-contract031 | true |
 
 [[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2及KB08-D23-001/002给标准式与实际标称理论输入。这里保留印刷不对称误差端点，只作确定性映射，不假定原δ为Gaussian或独立；四个逐点交集不能拼成存在共同nuisance参数的联合区域。新needs_review:true，旧source审核及实际分支争议保持。
+
+## Day23：外部188Pt原文的实际层次与候选端点
+
+本节是2014外部primary的只读分析，不归属Guo本文测量，也不把它冒作Guo Ref23的2017文。S. Mukhopadhyay et al.，*Coexisting shape- and high-K isomers in the shape transitional nucleus188Pt*，PLB739(2014)462–467，DOI[10.1016/j.physletb.2014.10.069](https://doi.org/10.1016/j.physletb.2014.10.069)。INSPIRE record1333158给[实际PDF](https://inspirehep.net/files/8138a35652bdbd80d9ea769239e24cfd)，200/513325bytes/SHA256 6d6d56de993b0d962757a5ffcbbb457e206a82333718010b39ce02d570a627e8。首版权CC BY3.0/SCOAP3已实际核。全文6页主线/公式/三表已读，视觉核Fig1/2、Table3/Eq1/2，未逐一摄入所有参考。PDF仅tmp/day23-originals/pt188-verifiedlink036-e219ce97.pdf，正式raw归档deferred；不改原Guo元数据/review范围。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU14-D23-001 | 2014 primary使用174Yb(18O,4n)、85MeV、TIFR/INGA18clover，四90°、两65°、40/115/140/157°各三，>10^9 fold≥2事件，DCO用90/157矩阵并按本array控线校准，另测偏振。它是Pt独立研究，不是支持Au的19F+174Yb或Guo新HIRFL数据；与2017是否同一采集尚无event ledger，不能只因作者/核素相同强认或重复计票。 | primary-campaign-and-method-identity | direct-external-primary | printed463 experimental paragraphs | true |
+| MU14-D23-002 | Fig1的188Pt基带低部为2+→0+约266(正文/表2为265.6)、4+→2+约405(Fig2门表为405.1)、6+→4+约513，再有598/655；SeqII另有约414和551，而SeqV有约412和549。必须按各自端点/序列标识，不能把图整数能量当精确γ或与Au SP的265.3/404.5/412.3/548.6逐条合并。Pt的整数spin端点与Au半整数端点亦是不同核素假说下的身份，不是同一level重标两名。 | primary-levelscheme-and-near-energy-boundary | direct-external-figure-and-text | printed464 Fig1; Fig2 caption; printed465 Table2 | true |
+| MU14-D23-003 | Pt Fig2的实际谱来自689.9与列表{202.6,583.7,894.5,405.1,265.6}之一的双门sum，标新high-K相关峰；这不是Au的232.5+436.5双门。本文局部谱图未提供同Au门窗/时间/效率对象，不能由Pt近能量网络或本篇未列某Au门能量便裁决该门的Pt泄漏为0或必然存在。 | primary-gate-and-companion-identity | direct-external-spectrum | printed464 Fig2 caption and spectrum | true |
+| MU14-D23-004 | Pt作者以alignment与分支强度分析，比较9−high-K的ν[615]11/2+⊗ν[503]7/2−和ν[624]9/2+⊗ν[505]9/2−候选；Table3给计算(gK−gR)/Q0=−.09/−.04，所谓实验项是绝对组合|gK−gR|/Q0=.02(1)，Q0=5.4eb、gR=.21为采用输入。它不是新独立直接g因子测量。作者偏好后一组态，SeqV的K5−仍不能排K3−；有限形式可行不赋两配置等可信，也不把磁尺度当独立holdout。 | primary-configuration-and-derived-operator-boundary | direct-external-model-and-extraction | printed466 Eqs1/2 and Table3; SeqV K discussion | true |
+| MU14-D23-005 | 两个已报isomer时钟的角色不同：12+1形状候选T1/2=.66(4)ns来自旧Richter1979，9−3 high-K也引用旧.66ns；Table2的B(E2)使用旧寿命和本次分支，且9−3的.06(1)W.u.脚注明确不含寿命/半衰期误差。它们不能移用为Au争议母态τ，也不能以两个同值时钟推同一态/同一CI。 | primary-reused-clock-and-uncertainty-lineage | direct-external-primary-and-footnote | printed463 isomer paragraphs; printed465 Table2 footnote | true |
+
+另一路Guo Ref23：PRC96,014315(2017)，DOI10.1103/PhysRevC.96.014315与此2014不同。当前Crossref/INSPIRE身份已核，publisher PDF403、harvest401、OSTI连接失败，INSPIRE无body/arXiv信息；发现metadata附Publisher's Note DOI10.1103/PhysRevC.96.019901但note正文未得，不臆测更正内容。publisher Markdown工具provider unavailable且未真正发起代理获取；不把discovery候选当PDF成功。SCOAP3旧API q返回无关最新条目，已核DOI剔除；猜测文件路径403也不作target evidence。下一仍需2017原级联与真实门/净峰匹配，不由检索困难认证Au/Pt身份。
+
+[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003/004的实际支持门谱与此Pt primary并列，[[signature-tip-shears-discrimination-contract]]保存gate/endpoint合同。新claims均needs_review:true，原G22审核保持。

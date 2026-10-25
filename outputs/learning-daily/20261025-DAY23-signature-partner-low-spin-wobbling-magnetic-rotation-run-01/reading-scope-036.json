@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-10-25T22:26:11.926605+00:00",
+  "actual_read_primary": {
+    "doi": "10.1016/j.physletb.2014.10.069",
+    "title": "Coexisting shape- and high-K isomers in the shape transitional nucleus188Pt",
+    "pages": "462–467",
+    "pdf_pages": 6,
+    "path": "tmp/day23-originals/pt188-verifiedlink036-e219ce97.pdf",
+    "sha256": "6d6d56de993b0d962757a5ffcbbb457e206a82333718010b39ce02d570a627e8",
+    "text_scope": "all6page mainline and tables/formula/limitations",
+    "freshvisual": [
+      "PDF3Fig1/2",
+      "PDF5Eq1/2Table3",
+      "PDF3Fig1fourtimescrop"
+    ],
+    "copyright": "primaryfirstpageCCBY3.0/SCOAP3"
+  },
+  "unread_primary": {
+    "doi": "10.1103/PhysRevC.96.014315",
+    "title": "Semi-decoupled band and other high-spin band structures in188Pt",
+    "access": "publisherpdf403/harvest401/OSTIConnectionError, noInspirefulltext/arxiv; markdownproviderunavailable (notattempted)",
+    "associated_note": "metadataidentifiesPublisherNoteDOI10.1103/PhysRevC.96.019901, bodyunread/noassertionofcontent"
+  },
+  "source_roles": "2014chapterRef11 vs2017GuoRef23 distinctpapers; do notclaim sameevents or2014iscomplete2017network",
+  "no_final_AuPt_verdict": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "rawarchive": "deferred"
+}

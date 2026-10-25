@@ -346,3 +346,16 @@ kernel来源直接回链[[rose-brink-1967-phase-defined-angular-distributions]] 
 | 更高Band2 links | 763.7/855.2有同AD pipeline的大δ结果 | Guo新增P直接争议只覆盖最低两条，不补造高spin P/新小δ |
 
 本次有界检索未唯一识别PRL待刊Ref26的期刊后续身份，但取得书章实际body；不把书章、thesis、PRL按三次采集计票。未直接原读188Pt候选文，下一高信息路线为其原级联/端点与具体门比较，不能按近能量单列定核素。Band3身份问题与Band2机制问题分别保留；新needs_review:true，原支持与反方均未最终裁决。
+
+## Day23：Pt2014原级联已读，Pt2017仍有body缺口
+
+[[guo-2022-low-spin-wobbling-187au]] MU14-D23-001–005给实际2014Pt全文/谱图，与2022支持章Ref11一致；Guo Ref23却是2017PRC96,014315，尚未得正文。两篇DOI/题名/年份分开，不把2014的partial scheme冒作2017完整候选网络，也不按两论文自动新增独立采集。
+
+| 同门身份问题 | 当前实际输入 | 尚缺 |
+|---|---|---|
+| Au支持SP网络 | [[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003的232.5+436.5双门和412.3/548.6等伴随 | 原事件/净峰/门窗、时间与效率response |
+| Pt基带与其它近线 | 2014primary的265.6/405.1基带，SeqII414/551和SeqV412/549须分序列 | 2017精确端点/完整cascade及同Au双门投影 |
+| Pt实际示例谱 | 689.9加{202.6,583.7,894.5,405.1,265.6}之一双门sum | 不同门对象不能直接给Au门的污染份额或统计排除 |
+| 组态/g/时钟 | 2014Table3磁组合派生、Table2旧寿命依赖明确 | 不能移作Au母态τ/直接g或独立holdout |
+
+[[signature-tip-shears-discrimination-contract]]将可证伪问题收紧为具体同门事件及伴随量：若Pt身份解释要取代AuSP归属，是否在相同净谱/门窗/效率/时间处理下重现全部门与伴随，而同时避免未观测的必要强级联？当前无真实效率/曝光上限，未将后半句写成已发生反证。新needs_review:true，最终Au/Pt与Band2模式均保持开放。

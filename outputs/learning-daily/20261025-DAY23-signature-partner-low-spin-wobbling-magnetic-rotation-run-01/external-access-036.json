@@ -1,0 +1,641 @@
+{
+  "observed_at": "2026-10-25T22:26:11.926605+00:00",
+  "route_ledger": [
+    {
+      "file": "pt188-meta036-ledger.json",
+      "result": [
+        {
+          "doi": "10.1103/PhysRevC.96.014315",
+          "status": 200,
+          "title": [
+            "Semi-decoupled band and other high-spin band structures in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi>Pt</mml:mi><mml:mprescripts/><mml:none/><mml:mn>188</mml:mn></mml:mmultiscripts></mml:math>"
+          ],
+          "authors": [
+            {
+              "given": "S.",
+              "family": "Mukhopadhyay",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "D. C.",
+              "family": "Biswas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "S. K.",
+              "family": "Tandel",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Frauendorf",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "L. S.",
+              "family": "Danu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "URL": "http://link.aps.org/article/10.1103/PhysRevC.96.014315",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.96.014315/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "path": "tmp/day23-originals/pt188-meta036-7ac9e317.json"
+        },
+        {
+          "doi": "10.1016/j.physletb.2014.10.069",
+          "status": 200,
+          "title": [
+            "Coexisting shape- and high- K isomers in the shape transitional nucleus 188 Pt"
+          ],
+          "authors": [
+            {
+              "given": "S.",
+              "family": "Mukhopadhyay",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "D.C.",
+              "family": "Biswas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "S.K.",
+              "family": "Tandel",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "L.S.",
+              "family": "Danu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "B.N.",
+              "family": "Joshi",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0370269314008028?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0370269314008028?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "path": "tmp/day23-originals/pt188-meta036-8dc5c0db.json"
+        }
+      ]
+    },
+    {
+      "file": "pt188-locations036-ledger.json",
+      "result": [
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.96.014315",
+          "status": 200,
+          "path": "tmp/day23-originals/pt188-locations036-27c08302.txt",
+          "sha256": "18aff3a50063a9045e0436749e79715f0e44d718a96da66dd5c358f18095eb44",
+          "title": "Semi-decoupled band and other high-spin band structures in Pt188",
+          "locations": [
+            {
+              "landing": "https://doi.org/10.1103/physrevc.96.014315",
+              "pdf": null,
+              "source": "Physical Review C"
+            }
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.physletb.2014.10.069",
+          "status": 200,
+          "path": "tmp/day23-originals/pt188-locations036-e0736da3.txt",
+          "sha256": "ec8afcabd3c865ee82ebed44ccbde70922ac194114ded6b43e6c5e0db3b48abe",
+          "title": "Coexisting shape- and high- K isomers in the shape transitional nucleus 188 Pt",
+          "locations": [
+            {
+              "landing": "https://doi.org/10.1016/j.physletb.2014.10.069",
+              "pdf": "https://www.sciencedirect.com/science/article/pii/S0370269314008028/pdf",
+              "source": "Physics Letters B"
+            },
+            {
+              "landing": "https://doaj.org/article/c38eb1b21ebb45f0a543ce26a608caa6",
+              "pdf": null,
+              "source": "DOAJ (DOAJ: Directory of Open Access Journals)"
+            }
+          ]
+        },
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=ti:%22Semi-decoupled%22&max_results=5",
+          "status": 200,
+          "path": "tmp/day23-originals/pt188-locations036-99f38477.txt",
+          "sha256": "7ca6ea3aefd60f70d736e24ee27d6f955862d0db353bc7febe5dab4aa0478401",
+          "entries": [
+            {
+              "title": "SDMTL: Semi-Decoupled Multi-grained Trajectory Learning for 3D human motion prediction",
+              "id": "http://arxiv.org/abs/2010.05133v1"
+            },
+            {
+              "title": "A Semi-Decoupled Approach to Fast and Optimal Hardware-Software Co-Design of Neural Accelerators",
+              "id": "http://arxiv.org/abs/2203.13921v1"
+            },
+            {
+              "title": "Some semi-decoupled algorithms with optimal convergence for a four-field linear thermo-poroelastic model",
+              "id": "http://arxiv.org/abs/2508.13109v2"
+            }
+          ]
+        },
+        {
+          "url": "https://export.arxiv.org/api/query?search_query=ti:%22Coexisting%22+AND+all:%22188%22+AND+au:Mukhopadhyay&max_results=5",
+          "status": 200,
+          "path": "tmp/day23-originals/pt188-locations036-203841d3.txt",
+          "sha256": "7bb5d8b00337b061d2b68203189fb7d5e2985cc53b33a859eabd557ee66756db",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "file": "pt188-body-access036.json",
+      "result": [
+        {
+          "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.96.014315",
+          "final_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.96.014315",
+          "status": 403,
+          "type": "text/html; charset=UTF-8",
+          "bytes": 5562,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-body036-5b146e64.html",
+          "sha256": "a5950180b17a37419767c344d68d035bdb485f7f5672ebf445eae753009b301a"
+        },
+        {
+          "url": "https://link.aps.org/pdf/10.1103/PhysRevC.96.014315",
+          "final_url": "https://link.aps.org/pdf/10.1103/PhysRevC.96.014315",
+          "status": 403,
+          "type": "text/html; charset=UTF-8",
+          "bytes": 5525,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-body036-37d427e2.html",
+          "sha256": "76cac5d168312bb7b1af2a900d58f6a3d60a0e3ee4ecc49984c26d719d181ad7"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0370269314008028/pdfft?isDTMRedir=true&download=true",
+          "final_url": "https://www.sciencedirect.com/science/article/pii/S0370269314008028/pdfft?isDTMRedir=true&download=true",
+          "status": 403,
+          "type": "text/html; charset=UTF-8",
+          "bytes": 832805,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-body036-cd9a1a11.html",
+          "sha256": "220e4aac539b27713dee1b062ccd86286c010211cbba00b5b845e7efdad6f0bf"
+        }
+      ]
+    },
+    {
+      "file": "pt188-public036-ledger.json",
+      "result": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0370269314008028/pdf",
+          "final_url": "https://www.sciencedirect.com/science/article/pii/S0370269314008028/pdf",
+          "status": 403,
+          "type": "text/html; charset=UTF-8",
+          "bytes": 832805,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-public036-a8fbd58b.txt",
+          "sha256": "596bafe99a686e9d7ef8f8acf1b91525cd0b30ead263b366812f5b93ff7de40f"
+        },
+        {
+          "url": "https://scoap3-prod-backend.s3.cern.ch/media/files/4529/10.1016_j.physletb.2014.10.069.pdf",
+          "final_url": "https://scoap3-prod-backend.s3.cern.ch/media/files/4529/10.1016_j.physletb.2014.10.069.pdf",
+          "status": 403,
+          "type": "application/xml",
+          "bytes": 237,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-public036-220e37cb.txt",
+          "sha256": "3b34beb01acb039e3b0f6ede60013777d31a649c55296574e88ffd198b906e13"
+        },
+        {
+          "url": "https://repo.scoap3.org/search/?q=10.1016%2Fj.physletb.2014.10.069",
+          "final_url": "https://repo.scoap3.org/search?q=10.1016%2Fj.physletb.2014.10.069",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "bytes": 475374,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-public036-b1d65566.txt",
+          "sha256": "d3a25323cbb4fc40787482461d37a72b57dc2a441335133749d7de5ee95868f3"
+        },
+        {
+          "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.96.014315/fulltext",
+          "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.96.014315/fulltext",
+          "status": 401,
+          "type": "application/json",
+          "bytes": 66,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-public036-e5e433a4.txt",
+          "sha256": "82f0cc8cce2bdf4ac73f77f197ce91b9af40a9fccb80a45add188157f78ced0e"
+        }
+      ]
+    },
+    {
+      "file": "pt188-repository036-ledger.json",
+      "result": [
+        {
+          "url": "https://repo.scoap3.org/api/records/?q=dois.value:%2210.1016/j.physletb.2014.10.069%22&size=3",
+          "status": 200,
+          "bytes": 38055,
+          "path": "tmp/day23-originals/pt188-repository036-a1351e2a.txt",
+          "sha256": "fa6bd21fa4877c8ac9f6bbb73db5552938313c4e370178cc2ce691b76b1da228",
+          "hits": [
+            {
+              "id": 112433,
+              "links": null,
+              "metadata": {
+                "title": null,
+                "titles": [
+                  {
+                    "source": "Elsevier",
+                    "title": "A gauge-theoretic formulation of Nambu non-equilibrium thermodynamics"
+                  }
+                ],
+                "arxiv_eprints": [
+                  {
+                    "categories": [],
+                    "value": [
+                      "10.1016/j.nuclphysb.2026.117698"
+                    ]
+                  }
+                ],
+                "documents": null,
+                "urls": null,
+                "_files": [
+                  {
+                    "file": "https://scoap3-prod-backend.s3.cern.ch/media/harvested_files/10.1016/j.nuclphysb.2026.117698/main.pdf",
+                    "key": "main",
+                    "filetype": "pdf"
+                  },
+                  {
+                    "file": "https://scoap3-prod-backend.s3.cern.ch/media/harvested_files/10.1016/j.nuclphysb.2026.117698/main.xml",
+                    "key": "main",
+                    "filetype": "xml"
+                  }
+                ],
+                "dois": [
+                  {
+                    "value": "10.1016/j.nuclphysb.2026.117698"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 112406,
+              "links": null,
+              "metadata": {
+                "title": null,
+                "titles": [
+                  {
+                    "source": "Springer",
+                    "title": "Is MOND an effect of cosmic frame-dragging à la Mach?"
+                  }
+                ],
+                "arxiv_eprints": [
+                  {
+                    "categories": [
+                      "physics.gen-ph"
+                    ],
+                    "value": [
+                      "10.1140/epjc/s10052-026-16501-6",
+                      "2610.09987"
+                    ]
+                  }
+                ],
+                "documents": null,
+                "urls": null,
+                "_files": [
+                  {
+                    "file": "https://scoap3-prod-backend.s3.cern.ch/media/harvested_files/10.1140/epjc/s10052-026-16501-6/10052_2026_Article_16501.xml.Meta.xml",
+                    "key": "10052_2026_Article_16501.xml.Meta",
+                    "filetype": "xml"
+                  },
+                  {
+                    "file": "https://scoap3-prod-backend.s3.cern.ch/media/harvested_files/10.1140/epjc/s10052-026-16501-6/10052_2026_Article_16501_a.pdf",
+                    "key": "10052_2026_Article_16501_a",
+                    "filetype": "pdf"
+                  }
+                ],
+                "dois": [
+                  {
+                    "value": "10.1140/epjc/s10052-026-16501-6"
+                  },
+                  {
+                    "value": "2610.09987"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 112405,
+              "links": null,
+              "metadata": {
+                "title": null,
+                "titles": [
+                  {
+                    "source": "Springer",
+                    "title": "Pulse shape discrimination for event rejection in BEGe-type high-purity germanium detectors"
+                  }
+                ],
+                "arxiv_eprints": [
+                  {
+                    "categories": [
+                      "physics.ins-det",
+                      "hep-ex"
+                    ],
+                    "value": [
+                      "10.1140/epjc/s10052-026-16463-9",
+                      "2605.13498"
+                    ]
+                  }
+                ],
+                "documents": null,
+                "urls": null,
+                "_files": [
+                  {
+                    "file": "https://scoap3-prod-backend.s3.cern.ch/media/harvested_files/10.1140/epjc/s10052-026-16463-9/10052_2026_Article_16463.xml.Meta.xml",
+                    "key": "10052_2026_Article_16463.xml.Meta",
+                    "filetype": "xml"
+                  },
+                  {
+                    "file": "https://scoap3-prod-backend.s3.cern.ch/media/harvested_files/10.1140/epjc/s10052-026-16463-9/10052_2026_Article_16463_a.pdf",
+                    "key": "10052_2026_Article_16463_a",
+                    "filetype": "pdf"
+                  }
+                ],
+                "dois": [
+                  {
+                    "value": "10.1140/epjc/s10052-026-16463-9"
+                  },
+                  {
+                    "value": "2605.13498"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://inspirehep.net/api/literature?q=doi:10.1103/PhysRevC.96.014315",
+          "status": 200,
+          "bytes": 27443,
+          "path": "tmp/day23-originals/pt188-repository036-84e921b5.txt",
+          "sha256": "5ff8af73f4f6191994bf87d6f23b487298f599e3605a3683468acf4303a34f91",
+          "hits": [
+            {
+              "id": "1611772",
+              "links": {
+                "bibtex": "https://inspirehep.net/api/literature/1611772?format=bibtex",
+                "latex-eu": "https://inspirehep.net/api/literature/1611772?format=latex-eu",
+                "latex-us": "https://inspirehep.net/api/literature/1611772?format=latex-us",
+                "json": "https://inspirehep.net/api/literature/1611772?format=json",
+                "json-expanded": "https://inspirehep.net/api/literature/1611772?format=json-expanded",
+                "cv": "https://inspirehep.net/api/literature/1611772?format=cv",
+                "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1611772"
+              },
+              "metadata": {
+                "title": null,
+                "titles": [
+                  {
+                    "source": "APS",
+                    "title": "Semi-decoupled band and other high-spin band structures in $^{188}Pt$"
+                  }
+                ],
+                "arxiv_eprints": null,
+                "documents": null,
+                "urls": null,
+                "_files": null,
+                "dois": [
+                  {
+                    "source": "APS",
+                    "value": "10.1103/PhysRevC.96.014315"
+                  },
+                  {
+                    "material": "addendum",
+                    "source": "bibmatch",
+                    "value": "10.1103/PhysRevC.96.019901"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "url": "https://inspirehep.net/api/literature?q=doi:10.1016/j.physletb.2014.10.069",
+          "status": 200,
+          "bytes": 19573,
+          "path": "tmp/day23-originals/pt188-repository036-988b628b.txt",
+          "sha256": "bfc4ab952defd271fca881403593a069ed8c914f1c499e6b5c64a31f1ee11c29",
+          "hits": [
+            {
+              "id": "1333158",
+              "links": {
+                "bibtex": "https://inspirehep.net/api/literature/1333158?format=bibtex",
+                "latex-eu": "https://inspirehep.net/api/literature/1333158?format=latex-eu",
+                "latex-us": "https://inspirehep.net/api/literature/1333158?format=latex-us",
+                "json": "https://inspirehep.net/api/literature/1333158?format=json",
+                "json-expanded": "https://inspirehep.net/api/literature/1333158?format=json-expanded",
+                "cv": "https://inspirehep.net/api/literature/1333158?format=cv",
+                "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1333158"
+              },
+              "metadata": {
+                "title": null,
+                "titles": [
+                  {
+                    "title": "Coexisting shape- and high- K isomers in the shape transitional nucleus 188 Pt"
+                  }
+                ],
+                "arxiv_eprints": null,
+                "documents": [
+                  {
+                    "filename": "scoap3-fulltext.pdf",
+                    "description": "Article from SCOAP3",
+                    "source": "SCOAP3",
+                    "key": "8138a35652bdbd80d9ea769239e24cfd",
+                    "url": "https://inspirehep.net/files/8138a35652bdbd80d9ea769239e24cfd"
+                  }
+                ],
+                "urls": null,
+                "_files": null,
+                "dois": [
+                  {
+                    "source": "Elsevier",
+                    "value": "10.1016/j.physletb.2014.10.069"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "pt188-verified036-ledger.json",
+      "result": [
+        {
+          "url": "https://inspirehep.net/files/8138a35652bdbd80d9ea769239e24cfd",
+          "status": 200,
+          "type": "application/pdf",
+          "bytes": 513325,
+          "pdf": true,
+          "path": "tmp/day23-originals/pt188-verifiedlink036-e219ce97.pdf",
+          "sha256": "6d6d56de993b0d962757a5ffcbbb457e206a82333718010b39ce02d570a627e8"
+        },
+        {
+          "url": "https://repo.scoap3.org/api/search/article/?q=10.1016%2Fj.physletb.2014.10.069&all=true",
+          "status": 200,
+          "type": "application/json",
+          "bytes": 445590,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-verifiedlink036-69869bb6.json",
+          "sha256": "9b9e739f395bacb7aadef67594e3045bf4b206ee9bb4abb38f1e8d02335536ef"
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1103/PhysRevC.96.019901",
+          "status": 200,
+          "type": "application/json",
+          "bytes": 4213,
+          "pdf": false,
+          "path": "tmp/day23-originals/pt188-verifiedlink036-abdabd27.json",
+          "sha256": "0fca35099d69a6fdeb810688b5ffd47a2c61e7008828ef0a8b4dd5efd67a5edc",
+          "title": [
+            "Publisher's Note: Semi-decoupled band and other high-spin band structures in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi>Pt</mml:mi><mml:mprescripts/><mml:none/><mml:mn>188</mml:mn></mml:mmultiscripts></mml:math>\n [Phys. Rev. C \n<b>96</b>\n, 014315 (2017)]"
+          ],
+          "links": [
+            {
+              "URL": "http://link.aps.org/article/10.1103/PhysRevC.96.019901",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.96.019901/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "relation": {}
+        }
+      ]
+    },
+    {
+      "file": "pt188-2017primary036-ledger.json",
+      "result": [
+        {
+          "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.014315",
+          "status": 403,
+          "bytes": 5577,
+          "path": "tmp/day23-originals/pt188-2017primary036-f29a3202.txt",
+          "sha256": "0a8864d1da82840c92bc3f98ec131d3bf5af77f9f46edd700b511a85cbf965e8"
+        },
+        {
+          "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.019901",
+          "status": 403,
+          "bytes": 5577,
+          "path": "tmp/day23-originals/pt188-2017primary036-6eb36fc4.txt",
+          "sha256": "cfac08a972163898b55bf008e2ef92d2cfd0bce6158cad7abbb70ef6d85a9e0c"
+        },
+        {
+          "url": "https://www.osti.gov/api/v1/records?search=10.1103%2FPhysRevC.96.014315",
+          "error": "ConnectionError"
+        }
+      ]
+    }
+  ],
+  "mistaken_discovery_boundaries": [
+    "SCOAP3 guessed file4529 notverified provenance returned403; never treatedas targetfile",
+    "SCOAP3 legacyrecords q returnedunrelated latesthits, DOIs checked and notusedasevidence",
+    "arxiv title queryreturnedunrelated engineering hits, no targetbody"
+  ],
+  "formalrawarchive": "deferred; allpublicsnapshots tmp only"
+}

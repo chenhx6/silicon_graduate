@@ -586,3 +586,7 @@ flowchart LR
 ```
 
 Band3改核素与Band2改configuration不是同一假说；只改configuration的练习须冻结核素身份。PACE4总体Pt比例不能替selected weakpeak纯度，不由书章重印或近能量吻合终审任一归属。
+
+## Day23：Pt引用原件与两类重指派边界
+
+[[guo-2022-low-spin-wobbling-187au]] MU14-D23-001–005已取得并读2014Pt primary，2017Pt/PublisherNote仍仅metadata/access boundary；二者不混作同一篇或自动独立采集。[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003的Au门谱须与Pt同门对象比较，近能量/不同门谱不直接给局部纯度。configuration-only与isotope-identity两类问题继续分开，详[[signature-tip-shears-discrimination-contract]]；新needs_review:true，无模式终审变化。

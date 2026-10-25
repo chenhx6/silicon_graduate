@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点035（Day24仅无学分预习）
+## Active handoff — Day23检查点036（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-034已published。035实际Springer2022Analysis33页pp63–95，DOI10.1007/978-3-031-17150-5_4、SHA cce7da287cb479fc6eccf61bc20289945f7b4199d3b55d3efc2db9db432aa470，仅tmp/rawdeferred。所核α/A2A4/采样与2021相同；实际232.5+436.5双门有412.3/548.6及yrast，429.2称<最强线1%、无higherlink数值上限。作者PACE4总体Pt<约10%不等target弱峰纯度。SE22-D23-001–005/方法/Au/谱系needs_review；下一核Pt188原级联，identityreassign≠configurationonly。
+035已published。036实际Pt2014全文6页 DOI10.1016/j.physletb.2014.10.069/SHA6d6d56de993b0d962757a5ffcbbb457e206a82333718010b39ce02d570a627e8，tmp/rawdeferred；GuoRef23Pt2017 DOI10.1103/PhysRevC.96.014315 body仍缺，PublisherNote019901仅metadata。Ptgband265.6/405.1及各SeqII414/551、SeqV412/549分开；Pt实际689.9+列表双门不等Au232.5+436.5门，无纯度/identity终审。MU14-D23-001–005/方法/Au/谱系新needs_review。下一官方188Pt记录找2017端点，编译不增采集。
 
-详next-continuation-035.md/candidate-pool-035.json；检查以required-checks-035.json为准。Git指针main · Day23: bind the Au support spectra to their shared campaign；actualhash/H3仅task-publication-receipt-035.json。
+详next-continuation-036.md/candidate-pool-036.json；检查以required-checks-036.json为准。Git指针main · Day23: require common gates for the Au and Pt assignments；actualhash/H3仅task-publication-receipt-036.json。
 
 ## Previous handoff — Day22 closeout
 

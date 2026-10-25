@@ -1,0 +1,43 @@
+{
+  "observed_at": "2026-10-25T22:22:04.956882+00:00",
+  "scope": "Pt188 primary identity/actualbody discovery and endpoint/gate comparison only, not Au/Pt verdict",
+  "reference_roles": [
+    {
+      "source": "Guo2022Ref23",
+      "doi": "10.1103/PhysRevC.96.014315",
+      "title": "Semi-decoupled band and other high-spin band structures in188Pt",
+      "year": 2017
+    },
+    {
+      "source": "SE22AnalysisRef11",
+      "doi": "10.1016/j.physletb.2014.10.069",
+      "title": "Coexisting shape- and high-K isomers in the shape transitional nucleus188Pt",
+      "year": 2014
+    }
+  ],
+  "actual_metadata": "both Crossref200 identities verified, are distinct papers; no sourcefamily eventledger inferred from authors",
+  "known_access": "2017publisherpdf403 and2014pdfft403, publicdiscovery2017 candidateonly/noMIME confirmation;locations/arxiv actual inprogress",
+  "target_lines": [
+    "265",
+    "405",
+    "414",
+    "551",
+    "232.5",
+    "436.5",
+    "412.3",
+    "548.6",
+    "429.2"
+  ],
+  "rules": [
+    "nearenergy alone does not establish identical transition/endpoints",
+    "record configurations and-isomerclock gates with exact source labels",
+    "do not transfer totalyield into localpurity",
+    "no absentline from missingbody or energyfilter",
+    "newbodyonlytmp/rawarchive deferred",
+    "no original primaryfullread untilactually read",
+    "no newdelta/Q/tau/rate/time or finalidentity"
+  ],
+  "formalday": 23,
+  "only_uncredited_preview": 24,
+  "noDay25": true
+}

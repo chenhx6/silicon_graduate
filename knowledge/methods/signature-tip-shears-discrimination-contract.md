@@ -581,3 +581,11 @@ $$c=rac{r\,\kappa_{Pt}}{\kappa_{Au}+r\,\kappa_{Pt}}.$$
 即使r<约.1，κ比未知时也不能推出c<.1；弱Au出口和强Pt出口、不同门效率会改变局部份额。此式为条件计数记账，不给实际r、κ或c新估计，不是设施率/机时。本源PACE4与低能线总体强度论据须保留其条件，target peak purity仍需逐门净谱/效率/分支/背景和isotope-specific companions。
 
 [[guo-2022-low-spin-wobbling-187au]]的188Pt候选与支持方门谱下一步要用同一端点/能量分辨率和具体cascade比较。把Band3改归另一核素是身份重指派，超出只改configuration的B槽；B槽必须继续冻结核素、计数、能级和response，另检验组态/算符对未用于定标量的预测。原Band3在支持方是SP，不是二声子；其身份争议与Band2的LW/SP/轨道解释分别记录。新增needs_review:true，不作最终Au/Pt认证或任何新δ/Q/τ/机时。
+
+## Day23：近能量匹配不能替代共同门谱
+
+[[guo-2022-low-spin-wobbling-187au]] MU14-D23-001–005是已实际读的Pt2014 primary，不是Guo Ref23的Pt2017全文。它把比较对象从四个近能量数推进到真实级联：Pt基带265.6(2+→0+)与405.1(4+→2+)及513/598/655，另有SeqII414/551和SeqV412/549；不能把不同序列按能量单键接成一条虚构带。
+
+支持Au的[[sensharma-2021-wobbling-motion-135pr-187au]] SE22-D23-003给232.5+436.5门及伴随412.3/548.6/333.8/413.7/567.0；Pt2014实际Fig2却用689.9与{202.6,583.7,894.5,405.1,265.6}之一双门sum。两图不共享同一门/响应/计数对象。当前只能列出“若Pt假说要解释该Au门谱，必须同时解释门内事件与全部伴随峰”的可证伪问题，不能由近能量或一份partial图未列门能量就填零泄漏/上限。
+
+configuration槽亦有校准提醒：Pt2014 Table3的所谓实验g组合实际是由分支/δ相关式提取的|gK−gR|/Q0，而Q0、gR有采用输入。它提供组态偏好的条件支持，不能拿同源派生磁量当独立未定标检验。真正B槽仍须冻结Au核素、计数、能级/response和H/operator，改映射后预报未用于定标的observable；Pt换核素另属identity审计。新增needs_review:true，不新增physicalg/δ/τ/CI或机时。
