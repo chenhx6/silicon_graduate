@@ -3,17 +3,15 @@ graph-excluded: true
 updated: 2026-10-25
 ---
 
-## Active handoff — Day23 checkpoint002（持续研究）
+## Active handoff — Day23 checkpoint003（持续研究）
 
-run2026-10-25-day-23-01，session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。native goal active，Farmer原2698正常。Day22四回执/H3已核published，只授[22]；本run completed=[] partial=[23] next23，Day24未打开。用户明确要求正常持续至次日15:00后才收束，不因报告/局部饱和结束。
+run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原始截止2026-10-26 15:00+08。nativegoal active，Farmer原2698；completed=[] partial=[23] next23，Day24未打开。Day22正式[22]/H3已核，不重加学分。用户要求正常持续至原次日15:00收束，checkpoint不是完成。
 
-001已修Guo376δ上误差+.11及依赖秩/谱系。002核Zheng/Herzan原Q选择与共同p0/p1跨线Cov，8有限差分/PSD/rank/共尺度控制通过，仅源曲线算术，未知transfer κ(E)/原Cov不补。P依取向/门，不能跨实验直接相减。Au PRM β输入参考旧绝对E2，跟Guo QTR不同shape/MoI/空间，不是只改configuration的同H测试。
+003：Clark原Eq6用单blade对I角，不是两blade全夹角；经典R0磁矩crossproduct/半角推导和6个Fraction控制，首版sympy缺包已改标准库。CL00-D19/21与shears/AMR概念旧普适硬门认证移历史，不复活114隔离producer。Chiara原TableIV/27–28核B8/9交换组态方案、原preferred理由与748.4连接的parity可证伪预测；无新δ/P/τ/机时。新增CL00-D23-001–3、CHI01-D23-1/2均needs_review:true。
 
-新Guo p2原图确印187Ag，Rupnik LSU作者馆藏摘要写Hg，正文未提供、公式缺失；母核文字疑点隔离在GU22-D23-004和Au项目，不补αK/完整Jπ/非观察灵敏度。访问状态详rupnik-access-002.json，原raw/审阅flag与Day21/22学分不动，新增needs_review:true。114隔离producer不运行。
+A路线Bourgeois1978 DOI已核（GU22-D23-005），原conversion正文仍缺；访问失败逐项在conversion-discovery-003/tool-access-003，未写仓库外或改工具安全目录。Rupnik母核Ag/Hg文字疑点仍按002隔离。下一A可查IAEA/official187Au评价的ref/身份crosswalk，仍不能计新采集；B继续Pr/Au固定输入/未定标预测。候选池已刷新，还有路线，Day24仅后续无学分预习、不开Day25。
 
-本次boundary/lint/diff/calibration退出均0，true runner报告/累计7页writeback valid，lint0error/220warning；报告和next-continuation-002.md已落地。下一A沿Bourgeois1978或原作者机构可访问原文核历史conversion；B沿固定H/算符/未定标量，必要时137Pr43/2非闭合与108In原DSAM对照，不复活硬阈值。时窗充足，继续当前问题；局部饱和再查Day24且只预习，不开Day25。
-
-发布稳定指针：main · Day23: trace polarization calibration and parent identity；精确hash/实际H3只看本run task-publication-receipt-002.json。raw/PLAN/Bib及继承Day20/22未跟踪材料保护。
+当前报告唯一writeback累计11页，原人审/Day21/22学分/raw/PLAN/Bib保持。检查/reading/recall/下轮提示见本run003文件；最新复检在required-checks-003.json。发布稳定指针main · Day23: distinguish shears angles and test configuration swaps；精确hash/实际H3只见task-publication-receipt-003.json。沿next-continuation-003.md继续至原截止。
 
 ## Previous handoff — Day22 closeout
 

@@ -254,3 +254,6 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 本轮以原Guo p.2局部图、Crossref DOI和LSU作者馆藏页交叉核验，发现Guo确实印187Ag而非OCR误识；馆藏摘要为Hg两态衰变且标明无正文可下载。[[guo-2022-low-spin-wobbling-187au]] GU22-D23-004记录原文文字、电荷守恒核查与摘要公式缺失，均needs_review:true，原project/page人审范围不扩张。不能把这处印刷疑点扩大成Rupnik实验失效，也不能据馆藏摘要恢复376/462的αK或SP non-observation灵敏度。
 
 因此当前历史conversion仍是Guo二手比较，尚未增加一个直接核阅的独立实验节点。公开全文获取本次尚未成功，下一路线为原作者/机构公开全文或可访问出版商正文；同时可沿Bourgeois1978原始转换资料调查。新的Q曲线/模型定标核验见[[signature-tip-shears-discrimination-contract]]；既有LW/SP支持与HIRFL反证均保留。
+
+
+Day23后续追溯：Bourgeois1978精确DOI已核为10.1016/0375-9474(78)90184-7（[[guo-2022-low-spin-wobbling-187au]] GU22-D23-005），但有限公开来源路线未取得原文；1979关于187Au→187Pt衰变的相似题名论文不是该source，不能混入376/462的输入。当前不增加历史conversion的独立直接证据权重。NNDC暂时无法访问亦不改变这一点。

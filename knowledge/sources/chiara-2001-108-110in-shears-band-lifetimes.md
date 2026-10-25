@@ -3,7 +3,7 @@ type: source
 title: "Chiara et al. 2001 - Spectroscopy and lifetime measurements in 108,110In"
 aliases: [Chiara 2001 108In 110In shears lifetimes, Chiara Ref. 16 for Mukhopadhyay 2008]
 created: 2026-10-09
-updated: 2026-10-20
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-method
@@ -169,3 +169,15 @@ Chiara *et al.* provide a directly readable precedent for extracting partial M1/
 |---|---|---|---|---|---|---|
 | CHI01-D22-R098-1 | TableV的108In Band2实测寿命态为14−/15−/16−，B(M1)=.911/.600/.398 μN²；Band3的16+/17+/18+/19+给2.48/2.38/1.71/5.22 μN²，18+→19+的中央商约3.05。旧CHI01-D21-1中7+→10+、1.75→.28的轨迹不在该表，不应引用。表给τ经branch/ICC后导出B，误差未含最高约20%的stopping系统量；不是裸τ直接等B。 | measured-strength-and-identity-correction | direct-original | same-DSAM-dataset | 054314-19 TableV; 054314-18 uncertainty paragraph | true |
 | CHI01-D22-R098-2 | 作者明确B(M1)在各组态随spin降低、在alignment附近可升高，并以新对齐粒子形成更长剪刀后再闭合作解释；TAC在对齐后spin高估约1–2ℏ、pairing/低j混合问题保留。因此MR不要求跨组态全段单调B(M1)，比值或固定阈值不能单独认证叶片机制。 | author-interpretation-and-model-limit | direct-original | same-data-model-comparison | 054314-21–23 SecVA/Figs12–14 | true |
+
+
+## Day23：不改计数的已发表组态交换与可检验连接
+
+本次沿既有全文阅读继续核PDF18–20、23–28及TableIV p.11；视觉核p.19 TableV、p.23 alignment文字、p.11的748.4行，未新称全30页重读。原hash/flags不变；以下均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | source_independence | locator | needs_review |
+|---|---|---|---|---|---|---|
+| CHI01-D23-1 | 作者原方案将110In bands8/9分别联系到BEF/EFG三准中子组态；p.28明确可交换两组态，因为两带parity只tentative。交换更合observed alignments，却不能重现Fig19的Routhian相对次序或解释bands3/8 crosstalk，故作者偏好原方案。这是不改实测计数/能级、只改解释层mapping的已发表竞争方案，未获得同等可信度；本节未测这些弱带τ。 | published-configuration-alternative | direct-original | same-dataset-model-comparison | printed054314-27–28 Sec.V.C and Figs.19–20 | true |
+| CHI01-D23-2 | TableIV列748.4(1)keV为8→3连接，印刷path为(18+)→(17+)，Iγ,thin=1.0(.1)、Iγ,backed=.2(.1)，Mλ标M1/E2，两个RDCO栏空白。这不是本篇对该线新增实测δ/P或独立确定parity。作为检验组态交换的候选须先确认该placement/spin及band3 parity，不能按表的假定M1/E2标签反过来认证原组态。 | transition-identity-and-unmeasured-companion | direct-original-and-boundary | same-event-samples-and-assignment | printed054314-11 TableIV, 748.4-keV row; printed054314-28 alternate-assignment paragraph | true |
+
+Knowledge Impact and Learning Decision：supports多观测共同判断组态，limits只用alignment排序或将tentative parity当独立测量；本task提出的连接性质补测见[[signature-tip-shears-discrimination-contract]]。本文的MR/AMR实测与TAC/PAC边界也校准[[shears-mechanism]]和[[antimagnetic-rotation]]，不移植其τ/Q/机时到Pr/Au。

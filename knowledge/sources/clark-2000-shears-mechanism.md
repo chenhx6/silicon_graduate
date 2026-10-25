@@ -3,7 +3,7 @@ type: source
 title: "The Shears Mechanism in Nuclei"
 aliases: [Clark Macchiavelli 2000 shears mechanism review]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-review
@@ -122,15 +122,28 @@ Page and all CL00 claims remain unreviewed with `needs_review: true`. Human revi
 > checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
 
 
-依据独立审计程序 `system/scripts/day19_clark00_shears_scaling_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/clark00-shears-scaling-result-061.json`，核准了 Clark & Macchiavelli 2000 剪刀机制综述的微观动力学与磁转动判别事实：
+依据独立审计程序 `system/scripts/day19_clark00_shears_scaling_audit.py` 的 10 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/clark00-shears-scaling-result-061.json`，曾给出下列任务认证；Day23已撤回普适硬门，旧producer的passed不作为科学证据：
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| CL00-D19-1 | 对 Clark & Macchiavelli 2000 剪刀机制综述进行系统学审计：(1) 四分之一刚体转动惯量标度律：Table 1 跨越 $A=105, 110, 140, 200$ 四大质量区，剪刀带转动惯量与刚体球惯量之比严格恒定为 $\mathcal{J}_{\text{shears}} / \mathcal{J}_0 = 0.252 \pm 0.018$（全区偏离小于 $7\%$）；微观机制严格推导为单粒子角动量 $j^2 \propto A^{2/3}$ 与四极剩余力 $V_2 \propto A^{-1}$ 产生 $\mathcal{J}_{\text{shears}} \propto A^{5/3} \propto \mathcal{J}_0$ 的严格质量数同幂次依赖；(2) $P_2(\cos\theta)$ 相互作用势：粒子—空穴叶片有效力 $V(\theta) = V_2 P_2(\cos\theta)$ 在 $\theta = 90^\circ$ 形成能量极小，沿剪刀闭合方向产生正比于 $\cos^2\theta$ 的抛物线能谱，无需核芯形变电荷转动即可自然涌现转动样 $\Delta I = 1$ 能级序列；(3) 剪刀角闭合与 $B(M1)$ 塌缩：随着自旋上升，夹角 $\theta$ 从带头 $84.6^\circ$ 闭合至终止态 $27.0^\circ$，$B(M1) \propto \sin^2\theta$ 发生 $79.3\%$ 的单调滑落；(4) 四支柱磁转动判据矩阵：确立了以惯量比 $\approx 0.25$、弱电四极 $B(E2) \le 0.1\text{ e}^2\text{b}^2$、巨跃迁比 $B(M1)/B(E2) \sim 10\text{--}50\text{ \mu}_N^2/(e^2\text{b}^2)$ 及 $B(M1)$ 随自旋单调下降构成的四支柱判决协议。 | task-shears-review-audit | derived-and-boundary | PDF pp.13-22 Table 1 Figs.8-12; clark00-shears-scaling-result-061.json | true |
+| CL00-D19-1 | superseded at Day23：旧普适单调/固定W.u./惯量比硬门及未核角度认证撤回；原特殊输入只留历史。请使用CL00-D23-001至003的原Eq6角定义、模型条件及crossing说明。 | withdrawn-task-certification | rejected-and-replaced | Day23 geometry correction; original Sec.4.4 Eqs.5–8 | true |
 ## Day21周考推断阶梯审计：磁转动判据与转动样偶极带推断边界
 
-依据独立审计程序 `system/scripts/day21_checkpoint008_magnetic_rotation_shears_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/magnetic-rotation-shears-audit-008.json`，确立本源在推断阶梯上的边界：
+依据独立审计程序 `system/scripts/day21_checkpoint008_magnetic_rotation_shears_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/magnetic-rotation-shears-audit-008.json`，曾给出下列任务认证；Day23按原Eq6/8与crossing段落修订：
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| CL00-D21-1 | Clark 2000 剪刀机制综述阐明了推断阶梯上极易混淆的“转动样能级向集体形变过度反演”的陷阱：近球形核（$|\beta_2| \le 0.1$）中由于高 $j$ 质子粒子与中子空穴叶片的有效排斥力 $V(\theta) \approx \frac{1}{2} C \theta^2$，沿自旋上升方向通过剪刀闭合（$\theta \to 0$）自然产生转动样规则抛物线能谱 $E(I) \propto (I-I_0)^2$。区分磁转动与集体电转动的核心判据并非能级间距，而是必须依赖绝对寿命 $\tau$ 测定其带内 $B(M1) \propto \sin^2\theta$ 随自旋剧烈单调滑落（$^{199}\text{Pb}$ 中下降达 10 倍以上）、电四极极度压制（$B(E2) \le 0.1\text{ W.u.}$）及超高比值 $B(M1)/B(E2) \gg 10\ \mu_N^2/(e\text{b})^2$。 | claim-boundary-audit | derived-and-boundary | Annual Rev. Nucl. Part. Sci. 50, 1 pp.5-22, Fig.2; magnetic-rotation-shears-audit-008.json | true |
+| CL00-D21-1 | superseded at Day23：旧普适单调/固定W.u./惯量比硬门及未核角度认证撤回；原特殊输入只留历史。请使用CL00-D23-001至003的原Eq6角定义、模型条件及crossing说明。 | withdrawn-task-certification | rejected-and-replaced | Day23 geometry correction; original Sec.4.4 Eqs.5–8 | true |
+
+
+## Day23：blade夹角、转轴倾角与crossing分段
+
+本次实际回读原PDF14–18，视觉核PDF15 Eq5–7；不是重新通读37页。raw SHA保持，旧CL00-1–11/review flags不变，新条目needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CL00-D23-001 | Sec4.4定义θ为两blade夹角，θπ/θν为各blade相对总I的角。Eq6为B(M1)=3/(8π) geff² jπ² sin²θπ，geff=gπ−gν；不是把两blade夹角θ无条件直接代sin²。Eq5的sqrt(j(j+1))有限j夹角处方与经典固定向量长度应分开；本文几何不直接测得任何核态角度。 | angle-and-operator-definition | direct-original | PDF15, Sec.4.4, Eqs.5–7 | true |
+| CL00-D23-002 | 原PDF15–16已说明configuration crossing后blade长度改变、可重新张开，并用197Pb(a) Fig10比较该过程。因此闭合引起B(M1)下降的简单图像以所选组态/模型为条件，不要求跨crossing全spin单调。该197Pb例是综述采用Ref60旧实验，不是本篇新测量。 | configuration-crossing-and-independence | direct-review-with-attribution | PDF15–16, paragraph after Eq.7; PDF18 Fig.10 | true |
+| CL00-D23-003 | Eq8的B(E2)随sin⁴θπ而变，带显式(eQ)eff；PDF17–18指出重现数据所需较大polarization charge可能反映未计入的额外粒子/core contribution。不能由这个特定模型导出跨核B(E2)≤.1W.u.、固定惯量比或完整独立的AMR判决门。 | model-scope-and-core-boundary | direct-original-and-bounded-inference | PDF16 Eq.8; PDF17–18 discussion of effective charge | true |
+
+Knowledge Impact and Learning Decision：revises旧CL00-D19/21认证及其下游概念页；supports以μperp、明确角定义和组态分段理解shears。计量角度/原子locators不作为真实核态几何观测，条件推导见[[shears-mechanism]]；与Pr/Au比较仍按[[signature-tip-shears-discrimination-contract]]。

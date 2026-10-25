@@ -1,0 +1,117 @@
+{
+  "scope": "bounded metadata/access checks; no new original conversion table obtained; publisher download path rejected and no out-of-workspace download attempted",
+  "crossref": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Found 5 Crossref papers.\n\n[\n  {\n    \"paper_id\": \"10.1016/0375-9474(78)90184-7\",\n    \"title\": \"Étude par spectroscopie “en ligne” des états d'énergie de 187Au: Interprétation en termes de déformations nucléaires triaxiales\",\n    \"authors\": \"C. Bourgeois; P. Kilcher; J. Letessier; V. Berg; M.G. Desthuilliers\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(78)90184-7\",\n    \"published_date\": \"1978-01-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(78)90184-7\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 42,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"295\",\n    \"issue\": \"3\",\n    \"pages\": \"424-444\",\n    \"year\": 1978,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1016/0375-9474(79)90010-1\",\n    \"title\": \"Étude de la désintégration radioactive de 187Au: Existence de transitions E0 dans 187Pt?\",\n    \"authors\": \"A. Ben Braham; V. Berg; C. Bourgeois; P. Kilcher; J. Letessier; M.G. Desthuilliers-Porquet; C. Schück; A. Huck; A. Knipper; C. Richard-Serre; A. Höglund\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(79)90010-1\",\n    \"published_date\": \"1979-11-30T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(79)90010-1\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 33,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"332\",\n    \"issue\": \"3-4\",\n    \"pages\": \"397-421\",\n    \"year\": 1979,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1016/0375-9474(79)90577-3\",\n    \"title\": \"Structure of the collective bands in the 185Au nucleus\",\n    \"authors\": \"M.G. Desthuilliers; C. Bourgeois; P. Kilcher; J. Letessier; F. Beck; T. Byrski; A. Knipper\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(79)90577-3\",\n    \"published_date\": \"1978-12-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(79)90577-3\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 34,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"313\",\n    \"issue\": \"1-2\",\n    \"pages\": \"221-235\",\n    \"year\": 1979,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1016/0375-9474(83)90508-0\",\n    \"title\": \"Shape coexistence in the odd-odd 186Au nucleus\",\n    \"authors\": \"M.G. Porquet; C. Bourgeois; P. Kilcher; J. Sauvage-Letessier\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(83)90508-0\",\n    \"published_date\": \"1983-11-30T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(83)90508-0\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 27,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"411\",\n    \"issue\": \"1\",\n    \"pages\": \"65-80\",\n    \"year\": 1983,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  },\n  {\n    \"paper_id\": \"10.1016/0375-9474(82)90115-4\",\n    \"title\": \"Decays of 185m + gHg: Low-spin levels of 185Au as a test of nuclear models\",\n    \"authors\": \"C. Bourgeois; P. Kilcher; B. Roussiere; J. Sauvage-Letessier; M.G. Porquet\",\n    \"abstract\": \"\",\n    \"doi\": \"10.1016/0375-9474(82)90115-4\",\n    \"published_date\": \"1982-08-31T16:00:00.000Z\",\n    \"pdf_url\": \"\",\n    \"url\": \"https://doi.org/10.1016/0375-9474(82)90115-4\",\n    \"source\": \"crossref\",\n    \"updated_date\": \"\",\n    \"categories\": \"\",\n    \"keywords\": \"\",\n    \"citation_count\": 47,\n    \"references\": \"\",\n    \"journal\": \"Nuclear Physics A\",\n    \"volume\": \"386\",\n    \"issue\": \"2\",\n    \"pages\": \"308-332\",\n    \"year\": 1982,\n    \"extra\": \"{\\\"publisher\\\":\\\"Elsevier BV\\\",\\\"type\\\":\\\"journal-article\\\",\\\"issn\\\":[\\\"0375-9474\\\"],\\\"isbn\\\":[],\\\"subjects\\\":[]}\"\n  }\n]"
+        }
+      ]
+    }
+  },
+  "publisherDownload": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Error executing tool 'download_public_paper': Path traversal detected: \"/workspace/wiki/tmp/day23-originals/rupnik-publisher\" escapes the download directory"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "publisherDiscovery": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"doi\": \"10.1016/0375-9474(78)90184-7\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0375947478901847\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-25T12:59:56.438Z\"\n  }\n}"
+        }
+      ]
+    }
+  },
+  "openalexSearch": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"source\": \"openalex\",\n  \"total\": 2,\n  \"results\": [\n    {\n      \"title\": \"Étude par spectroscopie “en ligne” des états d'énergie de 187Au: Interprétation en termes de déformations nucléaires triaxiales\",\n      \"doi\": \"https://doi.org/10.1016/0375-9474(78)90184-7\",\n      \"year\": 1978,\n      \"authors\": [\n        \"C. Bourgeois\",\n        \"Pierrette Kilcher\",\n        \"Jocelyne LETESSIER\",\n        \"V. Berg\",\n        \"M.G. Desthuilliers\"\n      ],\n      \"journal\": \"Nuclear Physics A\",\n      \"cited_by_count\": 41,\n      \"open_access_url\": null,\n      \"source\": \"openalex\"\n    },\n    {\n      \"title\": \"Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei\",\n      \"doi\": \"https://doi.org/10.1016/j.physletb.2022.137010\",\n      \"year\": 2022,\n      \"authors\": [\n        \"S. Guo\",\n        \"Xin‐Hui Zhou\",\n        \"Costel Marian Petrache\",\n        \"E. A. Lawrie\",\n        \"S.H. Mthembu\",\n        \"Y. D. Fang\",\n        \"H.Y. Wu\",\n        \"Hanyi Wang\",\n        \"H.Y. Meng\",\n        \"G. S. Li\",\n        \"Y. H. Qiang\",\n        \"J.G. Wang\",\n        \"M. L. Liu\",\n        \"Y. Zheng\",\n        \"B. Ding\",\n        \"W. Q. Zhang\",\n        \"Aman Rohilla\",\n        \"K.R. Muhki\",\n        \"Y. Y. Yang\",\n        \"HOOI JIN ONG\",\n        \"Jingchun Ma\",\n        \"Shutao Xu\",\n        \"Z. Bai\",\n        \"Haiyan Fan\",\n        \"Junyang Huang\",\n        \"Jingyang Li\",\n        \"Jian Xu\",\n        \"B. F. Lv\",\n        \"W. Hua\",\n        \"Z. G. Gan\",\n        \"Y. H. Zhang\"\n      ],\n      \"journal\": \"Physics Letters B\",\n      \"cited_by_count\": 19,\n      \"open_access_url\": \"https://www.sciencedirect.com/science/article/pii/S0370269322001447/pdf\",\n      \"source\": \"openalex\"\n    }\n  ]\n}"
+        }
+      ],
+      "structuredContent": {
+        "source": "openalex",
+        "total": 2,
+        "results": [
+          {
+            "title": "Étude par spectroscopie “en ligne” des états d'énergie de 187Au: Interprétation en termes de déformations nucléaires triaxiales",
+            "doi": "https://doi.org/10.1016/0375-9474(78)90184-7",
+            "year": 1978,
+            "authors": [
+              "C. Bourgeois",
+              "Pierrette Kilcher",
+              "Jocelyne LETESSIER",
+              "V. Berg",
+              "M.G. Desthuilliers"
+            ],
+            "journal": "Nuclear Physics A",
+            "cited_by_count": 41,
+            "open_access_url": null,
+            "source": "openalex"
+          },
+          {
+            "title": "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei",
+            "doi": "https://doi.org/10.1016/j.physletb.2022.137010",
+            "year": 2022,
+            "authors": [
+              "S. Guo",
+              "Xin‐Hui Zhou",
+              "Costel Marian Petrache",
+              "E. A. Lawrie",
+              "S.H. Mthembu",
+              "Y. D. Fang",
+              "H.Y. Wu",
+              "Hanyi Wang",
+              "H.Y. Meng",
+              "G. S. Li",
+              "Y. H. Qiang",
+              "J.G. Wang",
+              "M. L. Liu",
+              "Y. Zheng",
+              "B. Ding",
+              "W. Q. Zhang",
+              "Aman Rohilla",
+              "K.R. Muhki",
+              "Y. Y. Yang",
+              "HOOI JIN ONG",
+              "Jingchun Ma",
+              "Shutao Xu",
+              "Z. Bai",
+              "Haiyan Fan",
+              "Junyang Huang",
+              "Jingyang Li",
+              "Jian Xu",
+              "B. F. Lv",
+              "W. Hua",
+              "Z. G. Gan",
+              "Y. H. Zhang"
+            ],
+            "journal": "Physics Letters B",
+            "cited_by_count": 19,
+            "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0370269322001447/pdf",
+            "source": "openalex"
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "other_tool_outcomes": {
+    "elsevier_metadata": "pybliometrics config not found; no article-body entitlement tested",
+    "direct_download": "publisher wrapper rejects requested repo download directory; no out-of-repo write attempted"
+  }
+}

@@ -3,7 +3,7 @@ type: source
 title: "Probing the nature of the conjectured low-spin wobbling bands in atomic nuclei"
 aliases: [Guo 2022 187Au, low-spin wobbling counter-source, probing low-spin wobbling bands]
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-10-25
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -200,3 +200,12 @@ Knowledge Impact and Learning Decision：revises一处印刷误差，limits同�
 | GU22-D23-004 | 本PDF p.2实际印作Rupnik等对187Ag的β-decay study，3倍局部图核实这不是OCR把Hg读成Ag。该Ag→Au归属不符合单步β衰变ΔZ=±1的电荷核查；LSU原作者馆藏页DOI10.1103/PhysRevC.58.771摘要则写Hg两态衰变，并明确正文当前不可下载。馆藏摘要的质量数/宇称公式显示为[Formula Presented]，不足以代替完整原文校定；本轮仅标出Guo母核印刷疑点，不从摘要补376/462的αK值、母核完整Jπ或SP非观察的灵敏度。G22-4原用户核阅flag保留，其Ag字面只按作者引用记录，不当真实母核已认证。 | source-identity-text-boundary | direct-original-visual-and-repository-abstract | main p.2, paragraph below Fig.2; https://repository.lsu.edu/physics_astronomy_pubs/4634/ Abstract and availability statement | true |
 
 Rupnik访问：Crossref200题名/作者/DOI匹配，publisher直PDF403、harvest401，LSU200但无正文；OpenAlex索引无OA正文位置，Google Scholar本次超时。这是本次有界检索结果，不声称全文永不可得，也不把搜索失败转成原核态不存在。下一条高信息路线仍为原文conversion表、母核/选择条件与独立性，而非重复引用Guo。
+
+
+### Day23：Bourgeois1978原转换资料的身份与访问
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-005 | 本文Ref25的Bourgeois/Kilcher/Letessier/Berg/Desthuilliers、NPA295(1978)424–444，经Crossref题名/作者/卷页核定DOI10.1016/0375-9474(78)90184-7。OpenAlex无OA位置、HAL精确DOI无记录，publisher discovery无PDF候选，ADS该文端点403；尚未获得正文或376/462的原αK表。因此当前只完成追溯身份，不新增一份直接核阅的实验或δ约束。 | original-reference-metadata-and-access-boundary | direct-reference-and-external-metadata | main p.5 Ref.25; https://doi.org/10.1016/0375-9474(78)90184-7 | true |
+
+本次Elsevier metadata工具缺pybliometrics配置，NNDC入口域名解析失败；这些是路线限制，不是文献不存在。Rupnik的另一路publisher下载工具拒绝仓库内输出路径，未改其安全目录或下载到仓库外；公开ADS端点超时后没有自动当作成功/永久不可访问。继续以原子claim、实际转换系数与谱系为目标，不以访问次数替代科学信息。

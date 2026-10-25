@@ -3,7 +3,7 @@ type: concept
 title: "Antimagnetic Rotation"
 aliases: [antimagnetic rotation, antimagnetic rotor]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 concept_type: high-spin-collective-mode
@@ -60,15 +60,11 @@ Use the antimagnetic label only when the shears-cancellation interpretation is t
 
 New concept page; review pending.
 
-## Day 21 Checkpoint 012 证据门量化审计
+## Day23 当前判据与历史认证撤回
 
-依据独立审计程序 `system/scripts/day21_checkpoint012_antimagnetic_rotation_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/antimagnetic-rotation-audit-012.json`（对标 [[hubel-2005-magnetic-rotation-review]] 之 `HU05-D21-1` 与 [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] 之 `KU25-D21-1`），确立反磁转动在推断阶梯上的实证判据：
-1. **双剪刀对称相消与微观电四极塌缩：**
-   反磁转动由两对高 $j$ 准粒子叶片相对核芯对称闭合所驱动，其横向磁偶极矩严格反向相消（$\mu_\perp \equiv 0 \implies B(M1) \equiv 0$），表现为纯 $\Delta I = 2$ 的 $E2$ 四极序列；其带内四极跃迁强度遵循 $B(E2) \propto \sin^4	heta$，随着自旋增加、双剪刀闭合（$	heta 	o 0$），$B(E2)$ 必然发生剧烈单调暴跌（在 $^{106}	ext{Cd}$ 中由 $0.407\ e^2	ext{b}^2$ 降至 $0.0198\ e^2	ext{b}^2$，暴跌 $20.56$ 倍，降幅 $95.1\%$）；
-2. **特征比值发散与排他性判据：**
-   特征比值 $\mathcal{J}^{(2)} / B(E2)$ 随着剪刀闭合急剧发散（在 $^{106}	ext{Cd}$ 中由 $54.1$ 激增至 $1111.1\ \hbar^2	ext{MeV}^{-1}(e	ext{b})^{-2}$，比常规集体转动核高出 $40 - 100$ 倍），完全突破并满足了 Hübel 判据门限（$> 100$）；
-3. **证据门准则：**
-   严禁仅凭规则的 $\Delta I = 2$ 序列直接断言核处于常规集体转动；确证反磁转动必须依赖绝对能级寿命测定 $B(E2) \propto \sin^4	heta$ 随自旋单调暴跌轨迹与比值发散。
+原Day21“固定Cd曲线、J2/B普适阈值、所有态必单调暴跌及任意M1恒零”的任务认证撤回；旧内容保存于本run superseded-geometry-003.json，不作科学源。这里保留的是理想对称双剪刀**横向**磁矩相消的模型图像；不推出所有量子/跨带M1振幅严格为零，也不意味着静态总磁矩为零。
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-17/18直接提供有界反例：110In band5所测低频B(E2)未显示清晰下降，作者仍保留AMR候选，预测>.70MeV/ℏ域需新寿命。无shift的其它候选仅给依赖equal-Q/sidefeeding的粗界（CHI01-19），slowfeeding是明列替代解释；不能由无shift独立认定小形变。新内容为Codex self-audit，needs_review:true，不新增Cd数据或人审状态。
 
 ## checkpoint081追加认证撤回（checkpoint091）
 

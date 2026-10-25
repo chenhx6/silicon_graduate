@@ -3,7 +3,7 @@ type: concept
 title: "Shears Mechanism"
 aliases: [shears mechanism, shears bands]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 concept_type: angular-momentum-generation
@@ -51,7 +51,7 @@ Configuration crossing, quasiparticle alignment and ordinary collective rotation
 
 Keep shears-blade alignment distinct from reaction alignment and magnetic-substate population.
 
-Day 21 Checkpoint 008 证据门量化审计（[[experimental-claim-boundaries]]，基于 `magnetic-rotation-shears-audit-008.json`）确立磁转动实证判据：规则转动样 $\Delta I = 1$ 偶极能带序列绝不能直接等同于集体电四极形变；区分剪刀机制的核心判据在于绝对寿命 $\tau$ 测定的 $B(M1) \propto \sin^2\theta$ 随自旋单调剧烈骤降（在 $^{199}\text{Pb}$ 与 $^{108}\text{In}$ 中跌落达 6–10 倍），以及核芯电四极极度受抑引起的超大比值 $B(M1)/B(E2) \gg 10\ \mu_N^2/(e\text{b})^2$。
+Day23纠正：旧Day21的“跨组态全段单调骤降、6–10倍与固定大比值”认证撤回，不作为本页判据。[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-D22-R098-1/2的实际108In表既有组态内下降，也有alignment附近回升；[[clark-2000-shears-mechanism]] CL00-D23-001/002限定了角度和组态范围。新增为Codex self-audit，needs_review:true。
 
 ## Sources
 
@@ -64,3 +64,17 @@ Day 21 Checkpoint 008 证据门量化审计（[[experimental-claim-boundaries]]�
 ## Review Status
 
 New concept page; review pending.
+
+
+## Day23 两blade几何的适用域
+
+令经典无core模型I=jπ+jν、m=μ/μN=gπjπ+gνjν，jπ/jν/I均以ℏ为单位，χ为两blade夹角。以I方向为纵轴，在I²>0时
+
+$$m_\perp^2=(g_\pi-g_\nu)^2\frac{j_\pi^2 j_\nu^2\sin^2\chi}{I^2},\qquad
+I^2=j_\pi^2+j_\nu^2+2j_\pi j_\nu\cos\chi.$$
+
+这是由m×I=(gπ−gν)jπ×jν得到的条件代数；半经典跃迁估计B(M1)/μN²=3mperp²/(8π)。[[clark-2000-shears-mechanism]] CL00-D23-001的sin²θπ使用的是**单blade相对I角**。等长两blade时θπ=θν=χ/2，从而B(M1)∝sin²(χ/2)，不能仍把χ叫同一个θ。TAC相对密度主轴的倾角又是另一对象；137Pr的25°/26°平均tilt不是实测shears开角。有限j的sqrt(j(j+1))处方、core R、changing configuration及量子涨落另需给定，不能把此无core代数当全量子禁戒或核态角度反演。
+
+`system/scripts/day23_shears_geometry.py`以声明的整数/有理数向量检查投影恒等式、等长半角、平行极限、相同g抵消、互换与尺度平方；6项exact controls通过。chosen vectors无核素对应，不产生新角度、B、δ或τ。
+
+实际实验比较须保留[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-12/13/16的τ—branch—ICC与feeding/stopping边界；[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] AG07-D22-R098-1/2只有相对B(M1)/B(E2)且43/2打印输入未闭合，不能把比值下降叫已测绝对M1下降。以上均needs_review:true。

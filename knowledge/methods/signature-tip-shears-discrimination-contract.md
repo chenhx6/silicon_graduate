@@ -138,3 +138,27 @@ c\,r_{E2}-\delta^2r_{M1}=0.$$
 只冻结实测D而改解释标签是可构造的替代解释；Guo与Sensharma两个发表模型还改变了形变、惯量与模型空间，不能称为只改configuration的受控数值实验。[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-1表明其PRM β输入已参考旧绝对E2，[[guo-2022-low-spin-wobbling-187au]] G22-10/G22-20则用不同γ、Harris惯量和多轨道QTR。若要隔离configuration作用，须预先固定H/算符/拟合集，再把同一实验带分别映射到候选本征态并检查能量残差与holdout；当前producer不足，尚未执行这一受控对比。
 
 同样，Band2在QTR中#21主导、Band1#19主导的“single-particle excitation”不自动等于“同一内禀轨道的两个signature partners”；两条带的交错自旋/旋称标签可兼容多种微观归属。保持它们作为竞争解释，不把SP、TiP和磁转动合成一个小δ类别。
+
+
+## Day23 已发表的计数不变组态交换：110In的对照练习
+
+[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-D23-1提供比纯换标签更具体的例子：保持bands8/9全部γ计数、能量和符合网络，交换BEF/EFG组态。原parities只是tentative，因此这是解释层变化，不篡改已独立确定的Jπ。交换更合alignment，却不合Routhian相对次序与3↔8 crosstalk；同一组态假说必须一起面对这些量。它不是本任务已做的独立拟合/先验留出试验，更不能由形式可行给两方案等可信度。
+
+一个**新增可检验预测**来自两组态的相反parity：若原Band3 parity及748.4-keV连接/spin路径成立，BEF→原Band8与EFG→交换Band8对其相对parity不同，因而预期8→3允许的电磁多极族不同（同parity的M1/E2对异parity的E1/M2等）。原TableIV的748.4是(18+)→(17+)、M1/E2、两RDCO栏空白，薄/衬相对强度1.0(.1)/.2(.1)；不把标签当实测parity，也不把不同靶强度解释成两次独立测同一branch。
+
+必要伴随观测是该线干净gates/污染、独立spin路径、联合AD/角关联与偏振、匹配a/Q/取向和可用的转换约束。正偏振不能单独排除E2-rich M1/E2，DCO也不能单独分E1/M1；须按候选多极组合比较完整响应。实际强线门/效率、净计数、背景、Q/Σ与模型transition operators尚未齐备，当前不报可行性功效、δ、τ或机时。若最终发现parity与原指派相反，将针对性降低原组态解释；若相同，则限制交换方案。其它orbital mixing/shape alternatives仍须另检验。
+
+这是MR/弱带组态辨别的独立案例，只迁移“冻结实验D、列相反预测与检验已用量”的方法，不用110In结果代替135Pr/187Au逐线证据。实际剪刀角定义、configuration crossing前后的M1趋势见[[shears-mechanism]]及[[clark-2000-shears-mechanism]] CL00-D23-001/002；全部新增推断needs_review:true。
+
+
+### 五类术语的逻辑层级
+
+| 名称 | 首先是什么 | 需要的组合证据/条件 |
+|---|---|---|
+| signature partner | 同组态的旋称分支关系 | signature/self-consistent组态、spin对应、staggering与电磁连接；不同于pseudospin伙伴 |
+| wobbling | 进动/量子激发的动力学解释；harmonic与完整拓扑分层 | 明确模式定义、同态电磁矩阵元与模型几何；不以统一δ或W.u.硬门命名 |
+| TiP | 特定3D QTR/进动框架及重定向解释 | 共同输入下的角动量分布/能谱/电磁量；一条M1占优不足 |
+| magnetic rotation | 指定粒子/空穴叶片及磁矩产生spin的机制解释 | absolute M1与E2、组态演化和core贡献；crossing前后分段，开角不直接测得 |
+| antimagnetic rotation | 理想双剪刀横向磁矩抵消的机制图像 | 同spin窗口的寿命/E2/J2与组态；弱E2/无shift不是单独证明 |
+
+这些不是一套互斥且穷尽的标签：旋称是分类关系，动力学近似和角动量生成机制是不同层次。原框架/本任务比较依据[[clark-2000-shears-mechanism]] CL00-D23-001/002、[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-17/19与CHI01-D23-1、[[lv-2022-evidence-against-wobbling-135pr]] L22-13/15及[[signature-partner-bands]]的定义。新综合均needs_review:true，无跨核最终模式认证。

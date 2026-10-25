@@ -3,7 +3,7 @@ type: source
 title: "Longitudinal wobbling motion in 187Au"
 aliases: [Sensharma 2020 187Au, longitudinal wobbling in 187Au]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-10-25
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model

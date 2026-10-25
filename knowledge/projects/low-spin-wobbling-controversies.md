@@ -3,7 +3,7 @@ type: project
 title: "Low-spin wobbling controversies"
 aliases: [low-spin wobbling evidence map, low-spin wobbling identification controversies, 低自旋 wobbling 争议]
 created: 2026-07-04
-updated: 2026-09-13
+updated: 2026-10-25
 status: active
 review_status: human-reviewed
 project_stage: cross-case-evidence-map

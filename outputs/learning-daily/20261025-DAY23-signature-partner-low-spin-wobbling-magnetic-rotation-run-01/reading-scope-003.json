@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-10-25T21:18:48.402752+08:00",
+  "reading_exposure": "strongly primed; explicit active recall has no blind score",
+  "scope": [
+    {
+      "source": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "actual_text": "PDF18–20,23–28 and TableIV PDF11; 30-page PDF identity/hash matches source",
+      "fresh_visual": [
+        "PDF19 TableV",
+        "PDF23 Fig14/discussion",
+        "PDF11 TableIV 748.4 row"
+      ]
+    },
+    {
+      "source": "knowledge/sources/clark-2000-shears-mechanism.md",
+      "actual_text": "PDF14–18 Sec4.4 and Eq5–8/crossing; 37-page PDF hash matches",
+      "fresh_visual": [
+        "PDF15 Eq5–7"
+      ]
+    }
+  ],
+  "local_pdf_scope": "Agarwal137Pr 8-page text extracted and selected TableI/method paragraph reread; existing AG07-D22-R098 nonclosure retained, no new full-body claim",
+  "failure_log": [
+    "Sympy absent in initial model script; rewritten to standard-library Fraction, six controls actually pass.",
+    "Publisher tool refused requested workspace download directory; no download performed outside workspace.",
+    "Elsevier metadata wrapper lacks config; NNDC DNS failed; archive access failures recorded."
+  ],
+  "new_human_review": false
+}

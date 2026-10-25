@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-25
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint002）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint003）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-25
 - partial_day_indices: [23]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-25T20:48:53.170388+08:00
+- checked_at: 2026-10-25T21:18:48.402752+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分、未打开Day24。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -47,6 +47,10 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 
 ## Sources and evidence
 
+checkpoint003：Bourgeois1978精确DOI10.1016/0375-9474(78)90184-7已核，全文仍未获得。HAL精确DOI0、OpenAlex无OA、publisher无候选、ADS403；NNDC域名解析失败，Elsevier metadata工具缺配置。Rupnik新publisher下载工具拒绝仓库内输出路径，未去仓库外下载，ADS本次超时；不把这些失败当“无原文/无反证”。去凭据route记录见conversion-discovery-003.json/tool-access-003.json；GU22-D23-005仅metadata追溯，不增conversion独立证据。
+
+本轮真正的新阅读沿既有原件继续：Chiara2001 PDF18–20、23–28/TableIV p11，fresh视觉p19/23与748.4表行；Clark2000 PDF14–18、fresh视觉p15 Eq5–7。哈希均匹配。新增CHI01-D23-1/2、CL00-D23-001–003；旧CL00-D19/21与概念页普适硬门认证隔离至superseded-geometry-003.json，原primary claims/人审状态不动。
+
 checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并视觉核两篇校准图，哈希均匹配；未重算已在Z13-9/10/13记录的原表误差/1368问题。新增HE15-D23-1区分JUROGAM-II polarimeter的75.5°/104.5°和Rexp角组；AU20-D23-1核定Au PRM使用既有绝对E2选择β，故不把这两尺度再当独立holdout。精确阅读范围见reading-scope-002.json。
 
 阅读账本为本run `reading-scope-001.json`；五主PDF与两SI哈希均匹配来源记录。Guo主文6页和SI6页全文主线已回读，Lv主文物理正文pp1–5和SI7页已读，主文p6参考表只抽取；支持方另按实际选读范围记录，不冒称所有来源本次重新通读。新视觉：Guo p3 Fig3/4、两个4倍误差图例，Lv p3 Table1/Fig2、SH26 p14 Fig12。
@@ -61,6 +65,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 
 ## Theory/analysis exercise
 
+checkpoint003：根据CL00原Eq6，sin²θπ中的θπ是单blade对I角，χ才是两blade全夹角；TAC对密度主轴的tilt又不同。在声明的经典R=0模型中m=μ/μN、m×I=(gπ−gν)jπ×jν，故mperp²=(gπ−gν)²jπ²jν²sin²χ/I²；等长时正比sin²(χ/2)。这不是核态角度反演或全量子禁戒。标准库Fraction的6个exact有理数向量控制通过，chosen vectors无核素对应；初版因缺sympy失败，已改标准库并实际重跑，失败不当验证。代码day23_shears_geometry.py与结果shears-geometry-003.json，条件/推导唯一持久副本在shears-mechanism。primed-recall-003.md冻结六项暴露后主动复述，不是独立盲测/口试分。
+
 checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=.314472/.292257，在Pr450.2/747.3/813.2给.236763/.148787/.134271。共同参数导致跨线Cov；若只知道两参数marginal σ，未知ρ下可给一阶σQ范围，不能指定成真实target CI。Q376/Q462=1.076013、Q747.3/Q813.2=1.108109，其校准形状误差与绝对归一不同；未知transfer κ(E)仍未覆盖。8项全两参数有限差分/PSD/rank/共同尺度控制实际通过，来源与公式均在canonical方法页“Day23 外借Q的能量共同误差与迁移边界”；代码day23_polarization_calibration_transfer.py、结果calibration-transfer-002.json。没有由印刷Q误差恢复原共同likelihood或排除分支。
 
 暴露后回忆（primed，已见准备提示/继承页面，非盲测评分）：signature partner是同组态的旋称分支关系，不是pseudospin；wobbling要区分几何、局部harmonic声子与完整量子拓扑；TiP在相应QTR术语中是3D进动/重定向的模型解释；MR需粒子/空穴叶片几何及绝对M1随spin的证据；AMR的理想双剪刀横向磁矩相消需其对称条件，弱E2/无M1不是无条件唯一判据。基础校准见[[../../knowledge/concepts/signature-partner-bands|旋称伙伴]]、[[../../knowledge/concepts/magnetic-rotation|MR]]、[[../../knowledge/concepts/antimagnetic-rotation|AMR]]，本段未新认证这些页全部历史数值。
@@ -70,6 +76,10 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 首次JSON导出因numpy布尔类型失败，改成builtin bool后重跑成功；失败及修正记入reading ledger，不把失败的首轮当通过。脚本`system/scripts/day23_strength_dependency_rank.py`，结果`strength-dependency-001.json`。
 
 ## Counter-evidence and missing companion observables
+
+checkpoint003提供已发表的计数不变反例练习：110In bands8/9交换BEF/EFG组态（CHI01-D23-1），alignment更相符，却不合Routhian顺序/crosstalk，故作者仍偏好原方案。parity仅tentative，改变解释不改实测counts/energies。TableIV的748.4(1)keV、8→3、(18+)→(17+)、thin/backed相对强度1.0(.1)/.2(.1)、两个RDCO栏空白（CHI01-D23-2）给一条具体candidate：固定placement/spin与Band3 parity后，交换前后对该连接允许的同/异parity多极族不同。需要联合AD/偏振/可能转换及matching响应，不能以表内M1/E2标记或P正号单项认证；实际净计数/背景/门/Q/Σ缺，不造功效或机时。方法只迁移回Pr/Au，实验事实不跨核迁移。
+
+本轮同时修正shears/AMR概念页旧全段单调、固定W.u./J2比和全部M1禁戒硬门。Chiara实测BM1在alignment附近回升，AMR候选的无shift还允许slowfeeding替代；这些边界已有原子出处，不把旧producer passed当原实验认证。
 
 checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态属性；两实验还须各自population/feeding/gate响应才能比较同一δ。现有Au PRM与QTR的shape/MoI/model space也不同，作者之间的比较不是只改configuration的受控实验。严格隔离该作用仍需固定H、算符和拟合集合。
 
@@ -82,6 +92,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+checkpoint003 revises：旧MR/AMR普适硬门和角度混用；supports：带身份/组态分段、原数据与作者替代mapping的实际对照；limits：形式可行不等可信，metadata核定不增加直接转换实验权重。该增量提高机制辨别能力，未最终裁决Pr/Au。
 
 checkpoint002 supports/limits：明确源曲线与target transfer分层、共同校准误差及P的取向依赖；进一步把Au观测层不变的重解释与同Hamiltonian的configuration数值对照区分开。模型/实验排序尚无充分共同输入裁决，继续当前A/B问题。
 
@@ -97,7 +109,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
   "items": [
     {
       "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
-      "summary": "原图修正376keV上误差为+.11；分开自有a/外部Q及462选门依赖。 补Rupnik母核原文Ag字面与馆藏Hg摘要的身份边界。",
+      "summary": "原图修正376keV上误差为+.11；分开自有a/外部Q及462选门依赖。 补Rupnik母核原文Ag字面与馆藏Hg摘要的身份边界。 核定Bourgeois1978 DOI且原conversion表仍缺。",
       "anchor": "Day23 原件复核：误差上标与新增观测的依赖",
       "sources": [
         {
@@ -115,12 +127,16 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
           "locator": "GU22-D23-004"
+        },
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "GU22-D23-005"
         }
       ]
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -142,6 +158,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
           "locator": "HE15-D23-1"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D23-1"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D23-2"
         }
       ]
     },
@@ -207,6 +231,70 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
           "locator": "GU22-D23-004"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+      "summary": "直接核已发表BEF/EFG交换方案及748.4表行，保留tentative parity与无τ/偏振覆盖。",
+      "anchor": "Day23：不改计数的已发表组态交换与可检验连接",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D23-1"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/clark-2000-shears-mechanism.md",
+      "summary": "按原Eq6/8澄清单blade/全夹角与crossing条件，撤回旧任务普适硬门认证。",
+      "anchor": "Day23：blade夹角、转轴倾角与crossing分段",
+      "sources": [
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-D23-001"
+        },
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-D23-002"
+        },
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-D23-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/shears-mechanism.md",
+      "summary": "撤回全段单调/6–10倍硬门，补R0两blade磁矩投影推导及半角/有限j/core限制。",
+      "anchor": "Day23 两blade几何的适用域",
+      "sources": [
+        {
+          "path": "knowledge/sources/clark-2000-shears-mechanism.md",
+          "locator": "CL00-D23-001"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-D22-R098-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/concepts/antimagnetic-rotation.md",
+      "summary": "把旧固定Cd/J2硬门文本移历史，保理想横向抵消条件和110In寿命/slowfeeding实际边界。",
+      "anchor": "Day23 当前判据与历史认证撤回",
+      "sources": [
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-17"
+        },
+        {
+          "path": "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+          "locator": "CHI01-19"
+        }
+      ]
     }
   ]
 }
@@ -225,6 +313,8 @@ L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖�
 
 ## Verification and continuation
 
+checkpoint003实际boundary=0、lint=0、diff=0、geometry=0，6项exact向量控制通过；量纲符号改为m=μ/μN后已重新核验。真实runner报告及累计11页writeback均valid。lint0error/220warning、claim_missing_locator/kind均0，原有182个缺citation_key债务保留；不把这些结构检查当实验模式认证。updated日期维护后的末次检查同样通过，均保存在required-checks-003.json。
+
 checkpoint002实际boundary=0、lint=0、diff=0、calibration=0，8项限定控制通过；真实runner报告/累计7个已改知识页writeback均valid。lint0error/220warning，新增claims仍needs_review:true。required-checks-002.json保存退出码/尾部与映射；原始baseline-001保持不变。
 
-checkpoint001实际boundary=0、lint=0、git diff --check=0、strength_dependency=0；6项限定数值控制通过。真实runner validate_report和validate_durable_knowledge均valid，首批4个已改知识页均在唯一writeback区块映射。lint为0 errors、220 warnings，source_missing_citation_key=182为继承覆盖债务，新claim_missing_locator/kind均0；needs_review信息不冒称人审。详细退出码见`required-checks-001.json`与`runner-contract-check-001.json`。下一提示`next-continuation-002.md`保持本session和原15:00截止；本报告是checkpoint，不是当天完成或提前收束。checkpoint002发布稳定指针为main · Day23: trace polarization calibration and parent identity；实际H3结果/精确hash只记本run `task-publication-receipt-002.json`，正式授分仅到截止收束门处理。原生goal active持续推进，Farmer仅负责allowlisted瞬时失败。
+checkpoint001实际boundary=0、lint=0、git diff --check=0、strength_dependency=0；6项限定数值控制通过。真实runner validate_report和validate_durable_knowledge均valid，首批4个已改知识页均在唯一writeback区块映射。lint为0 errors、220 warnings，source_missing_citation_key=182为继承覆盖债务，新claim_missing_locator/kind均0；needs_review信息不冒称人审。详细退出码见`required-checks-001.json`与`runner-contract-check-001.json`。下一提示`next-continuation-003.md`保持本session和原15:00截止；本报告是checkpoint，不是当天完成或提前收束。checkpoint003发布稳定指针为main · Day23: distinguish shears angles and test configuration swaps；实际H3结果/精确hash只记本run `task-publication-receipt-003.json`，正式授分仅到截止收束门处理。原生goal active持续推进，Farmer仅负责allowlisted瞬时失败。

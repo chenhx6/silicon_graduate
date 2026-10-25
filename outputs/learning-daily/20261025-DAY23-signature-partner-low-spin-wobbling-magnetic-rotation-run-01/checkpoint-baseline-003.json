@@ -1,0 +1,14 @@
+{
+  "head": "d4dcc015ce527ff2bd6253e429cdbee29626d5bd",
+  "scope": "checkpoint003 edits inspected against original run baseline; pre-edit tracked tree was clean at 12:58 UTC",
+  "owned_tracked_files_now": [
+    "knowledge/concepts/antimagnetic-rotation.md",
+    "knowledge/concepts/shears-mechanism.md",
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+    "knowledge/sources/clark-2000-shears-mechanism.md"
+  ],
+  "failure_log": [
+    "Initial shears script needed absent sympy; replaced with standard-library Fraction exact vector controls, rerun passes six controls. No failure output used as scientific evidence."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-25T21:23:17.985765+08:00",
+  "hard_deadline": "2026-10-26T15:00:00+08:00",
+  "minutes_to_deadline": 1056.70023725,
+  "decision": "continue-current-issues; no early closeout",
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    23
+  ],
+  "next_day_index": 23,
+  "Day24_opened": false
+}

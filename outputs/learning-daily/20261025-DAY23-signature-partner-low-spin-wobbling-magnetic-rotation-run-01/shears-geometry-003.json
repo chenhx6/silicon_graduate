@@ -1,0 +1,40 @@
+{
+  "scope": "Classical fixed-length two blades, I=jp+jn, R=0, mu/mu_N=gp*jp+gn*jn, I^2>0. B(M1)=3/(8*pi)*mu_perp^2 is a semiclassical transition estimate.",
+  "source": "knowledge/sources/clark-2000-shears-mechanism.md",
+  "locator": "CL00-D23-001",
+  "formula": "mu_perp^2=(gp-gn)^2*jp^2*jn^2*sin(chi)^2/I^2",
+  "equal_blades_formula": "mu_perp^2=(gp-gn)^2*j^2*sin(chi/2)^2",
+  "chosen_control": {
+    "p": [
+      2,
+      3,
+      5
+    ],
+    "n": [
+      7,
+      -1,
+      4
+    ],
+    "gp": "3/2",
+    "gn": "-3/7",
+    "mu_perp_squared": "161109/4648"
+  },
+  "projection_identity_control_residual": "0",
+  "controls": {
+    "vector_projection_identity": true,
+    "equal_blades_half_angle_identity": true,
+    "parallel_blades_zero_transverse": true,
+    "identical_g_zero_transverse": true,
+    "blade_exchange_invariance": true,
+    "angular_momentum_scaling_square": true
+  },
+  "all_controls_pass": true,
+  "boundaries": [
+    "chi is the full blade angle; equal blades have theta_pi=theta_nu=chi/2.",
+    "Neither chi nor theta_pi is automatically the TAC angle to a density principal axis.",
+    "No measured nuclear angle, strength, lifetime, mixing ratio or confidence interval inferred.",
+    "Finite-j quantum prescription using sqrt(j(j+1)) is separate from these classical vectors.",
+    "The R=0 formula cannot infer blade closure when changing core rotation supplies the spin.",
+    "I=0 is outside the transverse-projection domain; no zero-over-zero limit assigned."
+  ]
+}

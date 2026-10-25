@@ -4379,3 +4379,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-25T12:32:46.583500+00:00 Day23 checkpoint001：核Day22正式信用/实际H3及本run身份截止，Farmer原进程保留；Guo376δ上误差原图修+.11，4页知识写回同源强度rank2/6controls、依赖图及configuration留出设计。报告/true runner/writeback门通过，继续原15:00研究窗口，不授分。
 
 - 2026-10-25T20:54:49.208164+08:00 Day23 checkpoint002：原Q校准选择/共同能量误差及Au模型定标边界写回，8限定控制通过；Guo印187Ag与Rupnik馆藏Hg摘要疑点隔离，全文/原αK仍缺。7页累计writeback和结构门通过，继续原15:00窗口，不授分。
+
+- 2026-10-25T21:23:17.985765+08:00 Day23 checkpoint003：原Eq6角定义与crossing条件纠正shears/AMR旧硬门；6限定向量控制通过，In110实际B8/9交换方案与748.4连接parity预测写回，累计11页。Bourgeois1978 DOI核定但conversion正文仍缺，候选池重建，继续原15:00窗口，无学分推进。

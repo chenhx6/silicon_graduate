@@ -1,0 +1,102 @@
+{
+  "observed_at": "2026-10-25T13:00:43.481460+00:00",
+  "attempts": [
+    {
+      "route": "HAL DOI",
+      "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s%3A%2210.1016%2F0375-9474%2878%2990184-7%22&fl=docid%2Ctitle_s%2Curi_s%2CfileMain_s&wt=json",
+      "status": 200,
+      "mime": "application/json; charset=utf-8",
+      "bytes": 116,
+      "metadata": {
+        "response": {
+          "numFound": 0,
+          "start": 0,
+          "maxScore": 0.0,
+          "numFoundExact": true,
+          "docs": []
+        }
+      }
+    },
+    {
+      "route": "OpenAlex DOI",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0375-9474(78)90184-7",
+      "status": 200,
+      "mime": "application/json",
+      "bytes": 10410,
+      "metadata": {
+        "title": "Étude par spectroscopie “en ligne” des états d'énergie de 187Au: Interprétation en termes de déformations nucléaires triaxiales",
+        "doi": "https://doi.org/10.1016/0375-9474(78)90184-7",
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/0375-9474(78)90184-7",
+            "doi": "https://doi.org/10.1016/0375-9474(78)90184-7",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/0375-9474(78)90184-7",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S62159105",
+              "display_name": "Nuclear Physics A",
+              "issn_l": "0375-9474",
+              "issn": [
+                "0375-9474",
+                "1873-1554"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "dongbi-c",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nuclear Physics A",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    },
+    {
+      "route": "NNDC ENSDF entry",
+      "url": "https://www.nndc.bnl.gov/ensdf/",
+      "error": "HTTPSConnectionPool(host='www.nndc.bnl.gov', port=443): Max retries exceeded with url: /ensdf/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.nndc.bnl.gov', port=443): Failed to resolve 'www.nndc.bnl.gov' ([Errno -5] No address associated with hostname)\"))"
+    },
+    {
+      "url": "https://articles.adsabs.harvard.edu/pdf/1978NuPhA.295..424B",
+      "final_url": "https://articles.adsabs.harvard.edu/pdf/1978NuPhA.295..424B",
+      "status": 403,
+      "mime": "application/xml",
+      "bytes": 243,
+      "is_pdf": false
+    },
+    {
+      "url": "https://articles.adsabs.harvard.edu/pdf/1998PhRvC..58..771R",
+      "error": "HTTPSConnectionPool(host='articles.adsabs.harvard.edu', port=443): Read timed out. (read timeout=30)"
+    }
+  ]
+}

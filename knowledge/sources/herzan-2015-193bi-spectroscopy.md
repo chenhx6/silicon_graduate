@@ -3,7 +3,7 @@ type: source
 title: "Herzáň et al. 2015 - Detailed spectroscopy of 193Bi"
 aliases: [Herzan 2015 193Bi spectroscopy]
 created: 2026-09-21
-updated: 2026-10-14
+updated: 2026-10-25
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
