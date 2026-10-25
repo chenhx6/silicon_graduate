@@ -143,3 +143,9 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 固定完整Ii/If子空间时，R→Uf†RUi保Frobenius和singular values、保ΣB的unweighted trace；但只观察两带不证明封闭projector，混入第三态会改变选定块。[[bark-2024-investigations-nuclear-chirality-ithembalabs]] BK24-D24P-001的多带模型只是相关背景，不能当实际135Nd封闭性证据。不同Eγ/parent的率要分别加权，不能把B trace当总光子宽度恒等式。
 
 即使四个B模齐备，相对loop phase仍可能使det/singular values不同；R=((1,2),(3,±4))是确切dimensionless例。它只是数据类型需求，不给实核operator或测得phase。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-008还发现候选完整M1块的反向跨带单元缺数据，其中首个direct transition为上跃；不能设B0凑块。下一检验须同时有正确projector、endpoint/component/normalizer与足够相干信息。特定135Nd手征支持与竞争解释继续并列，不形成统一排他gate；Day24仍无正式信用。
+
+## Day23内的Day24无学分预习：能消单位，不能消身份
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-009/010将同parent、同多极、同核素的WU比保在一个明确范围内：WU/共同τ可相消，Iγ-E³/E⁵比也可作中央算术核对；这些量来自同一adopted评价链，不因此构成独立复测或原分析认证。第一mixed648缺B_M1不填0/δ。
+
+与作者图点/TableI构成的conditional ratio不相同，优先追parent/Jf/component/absolute-vs-selected normalizer及参考版本；不先归因paper错、也不把derived比值当新实测强度。actualmissingEMblock、relativephase和Cov缺口保持。这个检验只提高输入readiness，不给静态手征阈值或g/Qt CI；仍同一个Day24无学分preview。

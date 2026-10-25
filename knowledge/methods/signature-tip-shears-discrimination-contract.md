@@ -428,3 +428,9 @@ Day24无学分preview的135Nd诊断（[[mukhopadhyay-2007-135nd-chiral-vibration
 [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D23-001与[[signature-partner-bands]]分清unitary signature、ordinaryT/Kramers和手征antiunitaryC；非零ω的Routhian T变换改变ω，不能用零频Kramers要求同一ω的两signature分支简并。式I=α+2n的自旋子序列不是当前fixed-j数学toy的eigenstate枚举，也不是自动的phonon标签。
 
 `system/scripts/day23_signature_cranking_symmetry.py`以声明dimensionless intrinsic hω、六个j表示、Rz/T/C与projection phase共86检查通过，零频半整数Kramers与非零频分支可分相容。它不计算真实nucleus/rotor spectra，归一unitary phase不变也不认证任何实验mode。Pr/Au的same-count重指派必须保留这个relationship层：共享signature或类似能量不足以把SP/TiP/wobbling互换，也不等于pseudospin。新needs_review:true，不赋统一δ/W.u.或g门。
+
+## Day23：共同因子相消不是独立验证
+
+Day24无学分preview的实际135Nd例（[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-009/010）提供一项可迁移原则：同parent/sameXL/sameisotope时，WU和共同τ可在B比中消去；但如果B字段与Iγ-Epower本由同一评价链派生，它们相近不能当两次独立验证。缺parent/line/component/normalizer时，消共同单位并没有消掉这些身份条件。
+
+对本卡Pr/Au支持—反证—依赖矩阵，relativeB、δ、分支强度或评价重复引述也须标同源；跨核不能以数值比接近替代共同响应/算符定标。数学相消有效域和实际数据独立性分别检验；保持source条件、空值和needs_review，不造δ/τ/Q/机时或统一hardgate。

@@ -400,3 +400,16 @@ NuDat3 `getdataset.jsp?nucleus=135ND&unc=nds`本次HTTP429，未自动循环重�
 | MU07-D24P-008 | 依018的candidate A/B family与M1 Ii→Ii−1构块，还需A31/2idx55→B29/2idx56、A33/2idx60→B31/2idx59、A35/2idx63→B33/2idx61、A37/2idx68→B35/2idx66这四个outlets。API中央ΔE分别−130.7/+1.4/+125.6/+254.0keV，当前snapshot均无forward或inverseγ行；缺行不等实测absence/upperlimit/zeroB。第一条为上跃而reverseRME仍可存在，逆向B29/2 parentτ空且MU07 TableB从31/2开始；+1.4中心还缺完整energyCov/IC/可测性输入，不能据中央正号认证开放退激。 | actual-export-missing-cell-and-readiness-boundary | snapshot-query-and-declared-family-inference | IAEA135Nd levelsidx55/56,60/59,63/61,68/66 andgammas forward/inverse search; MU07 TableI | true |
 
 [[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-004/005需要完整同Ii/If的相干RME块，不是只给两band in-strengths和一个方向的跨带图点就能算不变量。原graph/normalizer/component账未闭合，反向matrix element不能填0、带外未观测也不能证明projector封闭。必要伴随输入为这些特定outlet的可追溯强度或有效界、正确spin简并反向关系、各τ/branch/IC/response和可获得的relativephase约束；当前不拟新δ、g/Q、寿命CI或机时。新needs_review:true，仅Day24无学分preview。
+
+## Day23内的Day24无学分预习：同W.u.比值只核评价链中央算术
+
+本节使用018真实API135Nd CSV和019作者TeX/PS直接读取，不作新的实验采集或producer复现；原raw/flags保持，checkpoint024是进度号，**不是Day24正式执行/授分**。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D24P-009 | 对同parent、同核素、同XL的两支，WU转换常数及共同τ在Bout/Bin中可代数相消；在两线均作为该纯XL光子component的采用假设下，Bout/Bin=(Iγout/Iγin)(Ein/Eout)^(2L+1)。这是本任务的条件率恒等式；adopted B字段、Iγ及τ可能同源，近似相符不增加独立证据或认证历史producer。 | sameunit-ratio-and-provenance-boundary | task-algebra-and-actual-adopted-fields | LKH82 Eq.2.2/2.3; API135Nd sameparent rowpairs ininput-contract024 | true |
+| MU07-D24P-010 | 按该snapshot I33/2、35/2、37/2的选定pure-adopted候选，M1同WU Bout/Bin为.00622951/.00305085/.01554217，Iγ和E³式为.00628101/.00301675/.01547401；E2同WU比为.03636364/.03466667/.07118644，Iγ和E⁵式为.03536724/.03447102/.07018105。仅中央算术，相关Cov/notes缺，不给显著性、CI或证明两算法独立。最初I31/2的648 mixed行B_M1为空，保持unfilled，不作0或拟δ。 | adopted-central-ratio-comparison | actual-export-and-explicit-component-assumption | API135Nd parentidx61/66/69 M1/E2 pairs; mixed648ID(59,52,2) | true |
+
+`system/scripts/day24_preview_nd135_same_unit_ratios.py`直接读源CSV和原TeX/PS，45个源ID/同parent/正输入/同WU与τ相消的Fraction控制通过；控制没有把两组中央值的“接近”设为物理通过门。七个可算pair中，B比与Iγ-E式的中央相对残差约−.82%到+2.82%，仅是所印中心的派生比较，不能从中识别精确误差或原normalizer。原multipolarity的[]/()、blankunc_B/δ都按字面保留，不把空误差当0、不将括号采用值升级成独立多极测量。
+
+这些adopted同WU比与019图点/TableI构成的conditional ratio不同；两者可能有parent/component/normalizer/历史版本等差别，原notes和γ账未闭合前不称测得的真实B矛盾、不选某个作者错误，也不把API加作第二/第三次实验。恒等式能消去一个共同单位因子，**不能**消去物理量身份和分支选样条件。旧MU07-D24P-006/007仍只是compound H_abs/H_cond/H_other诊断，不恢复Qt代理CI、225.8P或机时排他结论。新needs_review:true。

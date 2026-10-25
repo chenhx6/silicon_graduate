@@ -1,0 +1,345 @@
+{
+  "status": "adopted-sameunit-ratio-and-quantity-readiness",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "scope": "Direct actualCSV/author-source central arithmetic, not independent measurement, historical analysis-producer validation or normalization fit.",
+  "formula": "Bout/Bin=(Iout/Iin)*(Ein/Eout)^(2L+1) only for same-parent photon components of the same pureXL; common WU andtau factors cancel. No absolute WU conversion performed.",
+  "results": [
+    {
+      "two_I_candidate_parent": 31,
+      "multipole": "E2",
+      "photon_energy_power": 5,
+      "in_snapshot_ID": [
+        "59",
+        "54",
+        "1"
+      ],
+      "out_snapshot_ID": [
+        "59",
+        "48",
+        "3"
+      ],
+      "input_raw": {
+        "in_energy_keV": "399",
+        "out_energy_keV": "896",
+        "in_relative_I_gamma": "5.6",
+        "out_relative_I_gamma": "2.2",
+        "in_B_Weisskopf_string": "60",
+        "out_B_Weisskopf_string": "0.41",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[E2]",
+        "out_multipolarity_as_exported": "(E2)",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.006833333333333334,
+      "conditional_pure_component_relativeI_times_energy_power": 0.006879534991250174,
+      "adoptedB_over_relativeI_formula_minus1_central_only": -0.0067158111668307085,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.1393897364771151,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 20.398498021041235,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    },
+    {
+      "two_I_candidate_parent": 33,
+      "multipole": "M1",
+      "photon_energy_power": 3,
+      "in_snapshot_ID": [
+        "61",
+        "59",
+        "0"
+      ],
+      "out_snapshot_ID": [
+        "61",
+        "55",
+        "2"
+      ],
+      "input_raw": {
+        "in_energy_keV": "282.1",
+        "out_energy_keV": "639",
+        "in_relative_I_gamma": "100",
+        "out_relative_I_gamma": "7.3",
+        "in_B_Weisskopf_string": "1.22",
+        "out_B_Weisskopf_string": "0.0076",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[M1]",
+        "out_multipolarity_as_exported": "[M1]",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.006229508196721312,
+      "conditional_pure_component_relativeI_times_energy_power": 0.0062810108571411906,
+      "adoptedB_over_relativeI_formula_minus1_central_only": -0.00819974070914447,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.05646726663137462,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 9.064482275036452,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    },
+    {
+      "two_I_candidate_parent": 33,
+      "multipole": "E2",
+      "photon_energy_power": 5,
+      "in_snapshot_ID": [
+        "61",
+        "56",
+        "1"
+      ],
+      "out_snapshot_ID": [
+        "61",
+        "52",
+        "3"
+      ],
+      "input_raw": {
+        "in_energy_keV": "508",
+        "out_energy_keV": "930",
+        "in_relative_I_gamma": "11",
+        "out_relative_I_gamma": "8",
+        "in_B_Weisskopf_string": "55",
+        "out_B_Weisskopf_string": "2",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[E2]",
+        "out_multipolarity_as_exported": "[E2]",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.03636363636363636,
+      "conditional_pure_component_relativeI_times_energy_power": 0.03536723600624277,
+      "adoptedB_over_relativeI_formula_minus1_central_only": 0.02817297787188467,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.24294960702727691,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 6.6811141932501155,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    },
+    {
+      "two_I_candidate_parent": 35,
+      "multipole": "M1",
+      "photon_energy_power": 3,
+      "in_snapshot_ID": [
+        "66",
+        "61",
+        "0"
+      ],
+      "out_snapshot_ID": [
+        "66",
+        "60",
+        "1"
+      ],
+      "input_raw": {
+        "in_energy_keV": "309",
+        "out_energy_keV": "590",
+        "in_relative_I_gamma": "100",
+        "out_relative_I_gamma": "2.1",
+        "in_B_Weisskopf_string": "1.18",
+        "out_B_Weisskopf_string": "0.0036",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[M1]",
+        "out_multipolarity_as_exported": "[M1]",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.0030508474576271187,
+      "conditional_pure_component_relativeI_times_energy_power": 0.003016745670199972,
+      "adoptedB_over_relativeI_formula_minus1_central_only": 0.011304163875666181,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.03657538861350402,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 11.988599601092984,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    },
+    {
+      "two_I_candidate_parent": 35,
+      "multipole": "E2",
+      "photon_energy_power": 5,
+      "in_snapshot_ID": [
+        "66",
+        "59",
+        "2"
+      ],
+      "out_snapshot_ID": [
+        "66",
+        "55",
+        "3"
+      ],
+      "input_raw": {
+        "in_energy_keV": "591",
+        "out_energy_keV": "949",
+        "in_relative_I_gamma": "25",
+        "out_relative_I_gamma": "9.2",
+        "in_B_Weisskopf_string": "75",
+        "out_B_Weisskopf_string": "2.6",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[E2]",
+        "out_multipolarity_as_exported": "[E2]",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.034666666666666665,
+      "conditional_pure_component_relativeI_times_energy_power": 0.03447102210652965,
+      "adoptedB_over_relativeI_formula_minus1_central_only": 0.005675623993173035,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.47503467406380023,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 13.70292329030193,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    },
+    {
+      "two_I_candidate_parent": 37,
+      "multipole": "M1",
+      "photon_energy_power": 3,
+      "in_snapshot_ID": [
+        "69",
+        "66",
+        "0"
+      ],
+      "out_snapshot_ID": [
+        "69",
+        "63",
+        "1"
+      ],
+      "input_raw": {
+        "in_energy_keV": "371.2",
+        "out_energy_keV": "556",
+        "in_relative_I_gamma": "100",
+        "out_relative_I_gamma": "5.2",
+        "in_B_Weisskopf_string": "0.83",
+        "out_B_Weisskopf_string": "0.0129",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[M1]",
+        "out_multipolarity_as_exported": "[M1]",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.015542168674698795,
+      "conditional_pure_component_relativeI_times_energy_power": 0.015474009941097377,
+      "adoptedB_over_relativeI_formula_minus1_central_only": 0.004404723394961399,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.1111699311805188,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 7.152794021692294,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    },
+    {
+      "two_I_candidate_parent": 37,
+      "multipole": "E2",
+      "photon_energy_power": 5,
+      "in_snapshot_ID": [
+        "69",
+        "61",
+        "2"
+      ],
+      "out_snapshot_ID": [
+        "69",
+        "60",
+        "3"
+      ],
+      "input_raw": {
+        "in_energy_keV": "682",
+        "out_energy_keV": "963",
+        "in_relative_I_gamma": "33",
+        "out_relative_I_gamma": "13",
+        "in_B_Weisskopf_string": "59",
+        "out_B_Weisskopf_string": "4.2",
+        "in_unc_B_string": "",
+        "out_unc_B_string": "",
+        "in_multipolarity_as_exported": "[E2]",
+        "out_multipolarity_as_exported": "[E2]",
+        "in_delta_as_exported": "",
+        "out_delta_as_exported": ""
+      },
+      "dimensionless_adopted_B_out_over_in_same_WU": 0.0711864406779661,
+      "conditional_pure_component_relativeI_times_energy_power": 0.07018104814955235,
+      "adoptedB_over_relativeI_formula_minus1_central_only": 0.014325698388991096,
+      "rounded_author_graph_over_TableI_conditional_ratio": 0.497489119517911,
+      "graph_ratio_over_adopted_sameunit_ratio_diagnostic_only": 6.988537631323036,
+      "boundary": "Same adopted chain. Pure-component formula is conditional on adopted multipolarity/component identities; blank errors/notes do not certify zero uncertainty or measured delta. Author graph binding/normalizer remains unresolved; no significance or paper-error inference."
+    }
+  ],
+  "skipped_unfilled_inputs": [
+    {
+      "two_I": 31,
+      "kind": "M1",
+      "in_ID": [
+        "59",
+        "56",
+        "0"
+      ],
+      "out_ID": [
+        "59",
+        "52",
+        "2"
+      ],
+      "raw_in_B_string": "1.5",
+      "raw_out_B_string": "",
+      "raw_in_multipolarity": "(M1(+E2))",
+      "raw_out_multipolarity": "(M1+E2)",
+      "raw_out_delta_string": "",
+      "value_assigned": null,
+      "reason": "Empty adopted B field and/or mixed component not established; no zeroB or new delta filled."
+    }
+  ],
+  "controls": {
+    "I2_31_M1_sameparent_bound_by_snapshotID": true,
+    "I2_31_E2_sameparent_bound_by_snapshotID": true,
+    "I2_31_E2_exact_common_WU_factor_cancels": true,
+    "I2_31_E2_exact_sameparent_tau_factor_cancels": true,
+    "I2_31_E2_exact_relativeI_energy_power_reversal": true,
+    "I2_31_E2_samefield_positive_centres_only": true,
+    "I2_31_E2_adopted_multipolarity_brackets_preserved": true,
+    "I2_33_M1_sameparent_bound_by_snapshotID": true,
+    "I2_33_M1_exact_common_WU_factor_cancels": true,
+    "I2_33_M1_exact_sameparent_tau_factor_cancels": true,
+    "I2_33_M1_exact_relativeI_energy_power_reversal": true,
+    "I2_33_M1_samefield_positive_centres_only": true,
+    "I2_33_M1_adopted_multipolarity_brackets_preserved": true,
+    "I2_33_E2_sameparent_bound_by_snapshotID": true,
+    "I2_33_E2_exact_common_WU_factor_cancels": true,
+    "I2_33_E2_exact_sameparent_tau_factor_cancels": true,
+    "I2_33_E2_exact_relativeI_energy_power_reversal": true,
+    "I2_33_E2_samefield_positive_centres_only": true,
+    "I2_33_E2_adopted_multipolarity_brackets_preserved": true,
+    "I2_35_M1_sameparent_bound_by_snapshotID": true,
+    "I2_35_M1_exact_common_WU_factor_cancels": true,
+    "I2_35_M1_exact_sameparent_tau_factor_cancels": true,
+    "I2_35_M1_exact_relativeI_energy_power_reversal": true,
+    "I2_35_M1_samefield_positive_centres_only": true,
+    "I2_35_M1_adopted_multipolarity_brackets_preserved": true,
+    "I2_35_E2_sameparent_bound_by_snapshotID": true,
+    "I2_35_E2_exact_common_WU_factor_cancels": true,
+    "I2_35_E2_exact_sameparent_tau_factor_cancels": true,
+    "I2_35_E2_exact_relativeI_energy_power_reversal": true,
+    "I2_35_E2_samefield_positive_centres_only": true,
+    "I2_35_E2_adopted_multipolarity_brackets_preserved": true,
+    "I2_37_M1_sameparent_bound_by_snapshotID": true,
+    "I2_37_M1_exact_common_WU_factor_cancels": true,
+    "I2_37_M1_exact_sameparent_tau_factor_cancels": true,
+    "I2_37_M1_exact_relativeI_energy_power_reversal": true,
+    "I2_37_M1_samefield_positive_centres_only": true,
+    "I2_37_M1_adopted_multipolarity_brackets_preserved": true,
+    "I2_37_E2_sameparent_bound_by_snapshotID": true,
+    "I2_37_E2_exact_common_WU_factor_cancels": true,
+    "I2_37_E2_exact_sameparent_tau_factor_cancels": true,
+    "I2_37_E2_exact_relativeI_energy_power_reversal": true,
+    "I2_37_E2_samefield_positive_centres_only": true,
+    "I2_37_E2_adopted_multipolarity_brackets_preserved": true,
+    "mixed_first648_empty_M1_not_filled": true,
+    "seven_nonempty_sameunit_pairs_and_one_explicit_gap": true
+  },
+  "all_controls_pass": true,
+  "actual_input_sha256": {
+    "tmp/day23-originals/iaea-nd135-gammas-018.csv": "153f5735282b2ce8cc7932f38d0a9aa14d604704fa82177123922c25c4af65b4",
+    "tmp/day23-originals/mu07-arxiv-source019/ndchiralrev4.tex": "be2e5d49a2a42aaa293121fb154e74c639dfaad2c700835b82e37b6dcaeab60b",
+    "tmp/day23-originals/mu07-arxiv-source019/fig2.ps": "da4f4fa93cd03b705ff768a96ece28686b152ae9a01d5a0aba5bcb84eeb9c1fd",
+    "tmp/day23-originals/mu07-arxiv-source019/fig3.ps": "47718e87ba4b800dbe83ef727e03d5c280199526fb2c66c7e6c653bfb33a52f8"
+  },
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day24_preview_nd135_same_unit_ratios.py": "60cd75b7d5d50834226e800ccc28557baeb3f4261ede392b37c61dffb46bd8e3",
+    "/workspace/wiki/system/scripts/day24_preview_nd135_export_identity.py": "2795feecfda69ac17561d8f8b80728a28670daa81e2dc07714ecbb6ff627d3e5",
+    "/workspace/wiki/system/scripts/day24_preview_mu07_vector_plot.py": "cf11d23e7fe9d98a942d4ac41e73cf03f7e3f6e83254ad54512f83c04e10e708",
+    "/workspace/wiki/system/scripts/day24_preview_mu07_inventory_hypothesis.py": "eafdbe411b5f9dffed4320b71bfd50fd292d7543aaf26d703a21ec09f5e1f4bc"
+  },
+  "limitations": [
+    "Adopted relative intensities, B fields, clocks and quoted authors can share the same experimental/evaluation provenance. Numerical near-agreement is not a new independent consistency vote or reconstruction of original adopted notes.",
+    "Parent/component/pure-multipole assumptions are explicitly conditional. Export square brackets/parentheses are retained; their full original ENSDF note meanings are not supplied here.",
+    "The reported residuals compare central strings only. No joint covariance, experimental coverage, missing branch or systematics is recovered, and blank errors are not zero errors.",
+    "Graph/TableI ratios have the additional same-parent/component and absolute-vs-selected-outlet normalization hypotheses from020. Their ratio to adopted same-unit values diagnoses unlike quantities, not a proven error or specific author normalizer.",
+    "Mixed648 lacking B_M1 is left unfilled. No signed delta, ICC, absolute WU coefficient, physical g/Q/new tau/CI or detector rate/beamtime inferred.",
+    "NoDay24formalcredit orDay25card; originalDay23 execution/deadline unchanged."
+  ]
+}

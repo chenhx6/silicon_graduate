@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-25T20:27:18.292546+00:00",
+  "checkpoint_number": 24,
+  "not_formalDay24": true,
+  "formal_day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue originalresearchwindow, no earlycloseout",
+  "bounded_result": "sameunitactualadopted135Ndratio/cancellation45controls, firstmixed648blankretained; samechainnotindependentverification",
+  "next_currentDay23_A": "ConditionalKS-RBsign/linearaxisbridge withsourceLKH82printed122Eqs2.8–2.11actualread/visual beforeimplementation; re-evaluate013halfspinsinglesforwardcentralδ coordinates only underexplicitKSassumption, not realarrayfit",
+  "specific_observation_link": "Lv747P+.04δKS−.47 and813P−.03δKS−.37 sourcebound; ifδKS=−dRB perdefinedemissionconvention, ideal013dRB+.47/+ .37 yieldsdifferentPsigns. Needno claimLvactualproducerphaseproved; do notfitwidth/counts orpromote nominal154/90 geometry toPractualgroups.",
+  "possible_source_controls": [
+    "LKH82KS=-RBforfirstandsecondgamma initsdefinedemissioncascade, actualoperator normalization matters",
+    "native(-1)^L photonbasis atδ_native=-dRB retainsfullStokesdensity, notphysicalδsignflip",
+    "stretchedE2/M1 purelimits anchorEfieldparallel/Comptonscatteropposite directions, Q/a remainseparate",
+    "showconditionalpairdifferences/not universalPsign selectslargeδ; SH26fixedsigmaADsupportnot erased"
+  ],
+  "notes": [
+    "OnlyalreadyopenedDay24preview allowed, noDay25despitecheckpoint025next",
+    "actualnetcounts/finitegate/effweights/feeding/jointCov stillmissing",
+    "allnewpublicattachments tmp/rawarchive deferred"
+  ]
+}

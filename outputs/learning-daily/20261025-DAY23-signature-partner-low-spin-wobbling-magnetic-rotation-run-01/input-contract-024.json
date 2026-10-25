@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-25T20:17:34.765435+00:00",
+  "object": "actualIAEA135Ndsnapshot018sameparentM1/E2selectedout/in ratios andauthorvector019conditionalratio, officialWUfieldsretained. No newexperiment orauthoranalysisproducer.",
+  "premises": [
+    "same isotope/sameXL common WUfactor cancels Bout/Bin",
+    "lambdaγout/lambdaγin=(Eout/Ein)^(2L+1)*(Bout/Bin) forpure sameXLphotoncomponents",
+    "ifAPIrelativeIisthatcomponentratewithinparent, Bout/Bin=(Iout/Iin)*(Ein/Eout)^(2L+1); adopted[M1]/[E2]notationretained, blankdeltauncnotpuremeasurementproof",
+    "sameparentcommonmeanτ cancels algebraically; two expressionsuseoneevaluationchain, not independentlikelihood factors"
+  ],
+  "actual_snapshot_pairs": "useinput-contract020 IDs, firstI31/2 M1out648Bblank skipwithreasonandno0/δfill; E2firstpair896/399maycomputeadoptedconditional. I33/35/37 pairsfullM1/E2as023exploratoryread",
+  "comparison_scope": "centraladoptedBfieldratio vsrelativeI_Epower androundedgraph/TableIratio. Differences/ratiofactorsarequantities/normalizer clues only, notsignificance oractualsourceerror; graphbindingstillcompound020.",
+  "validation": [
+    "alltargetrowsuniquenuclideIDs+sameparent/spinroles",
+    "samefieldnonemptypositivevsblankpreserved",
+    "WUcommonfactoralgebraexactcancellationandtaupositivecommoncancel",
+    "energiespositiveandcorrectcube/fifthpower, rawunitstringsnotconvertedabsolute",
+    "relativeIgammaformula numeric identity withratepowers, sourcecentrecomparison onlyreportresidualnot hard-codedgreenconsistencytest",
+    "adoptedmultipolaritybrackets kept, not strippedintomeasurement",
+    "sourcegraphfromactualTeX/PSpuretextre-read, notoldoutputcertification",
+    "firstmixed648missingM1fieldnottreatedasnullphysics/zero",
+    "sameWUratio-versusrelativeIratio arithmeticnot independentcalibration/test ofhistoricalnotes"
+  ],
+  "additional_useful_bound": "actualrelativeIerrorbands maygivepredefinedrectangularsensitivitybutjointCov/coverage notknown; do notGaussianCI orfitnormalization.",
+  "prohibited": [
+    "newabsoluteWUconversion orδ inference",
+    "APIandsamechainI_Epowercountedtwovotes",
+    "nearagreementcertifiesoriginalproducer orallnotes",
+    "graph/evaluationratiofactorpaper-errorassertion",
+    "restoreQtproxyCI/225.8P/time",
+    "actualbeamtime/detectorrates",
+    "formalDay24creditorDay25",
+    "run114quarantinedproducers"
+  ]
+}
