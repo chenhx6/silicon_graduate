@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-10-25T21:13:25.601649+00:00",
+  "head": "96c4867efd13f7f447a9b9ef5ffb2da83b88da8d",
+  "tracked_status": "",
+  "original_baseline": "baseline-001.json",
+  "scope": "checkpoint028 originalDay23 A actuallegacyPr135snapshot parentclock/endpoint contract; notnewexperiment/card"
+}

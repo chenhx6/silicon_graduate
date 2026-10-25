@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint027（进度号；Day24仅无学分预习）
+## Active handoff — Day23检查点028（Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25/goalactive/Farmer2698；completed=[] partial=[23,24] next23，onlyDay24uncredited/noDay25+，formalcredit只23。还有约10h继续不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08；active，completed=[]、partial=[23,24]、next23，未开Day25。Farmer2698；保护raw/PLAN/Bib/旧flags/学分/继承文件，不运行114 producer。
 
-027actual813/726 sourceδ/Iγ到derivede/m二维变换12controls过，逆只y=x/h和δ²，globalsign丢、d0localrank1；Σout=JΣinJᵀ actualΣnull。δ/e/m同primitive不是三独立票，方向corr±1仅数学非actualρ/CI。central e.118129/m.397594（声明系数），旧.697系数m.397722保近似variant非新calibration。新L22-D23-006/LKH82-D23-002/方法/Practive-summaryneeds_review；freshchecks0/true32changedwritebackvalid/lint0error220warning，firstmissingexplicitLKHlink已补。
+027已published。028实际官方Pr135 CSV：174 gamma/105 level、2008截止；15控制保全端点/重复列/空值。母33/54寿命空，末10/29的22.9/2.4ps不能代母τ。legacy527/747.1/726/814按端点与新Lv建立候选crosswalk，不合并事件；D不填δ/P、空B/ICC不0。新增N135-D23-001/002/003和Pr/方法均needs_review；CSV仅tmp，raw归档deferred。
 
-下一已取IAEA135Prgammas/levels174/105行200、cutoffJan2008/extractionOct25，tmpcsv028/sha详next-continuation027。按ID找527/747.1、726/814（不能energyfilter漏814就当缺）；母33/54τ与B空，lower10/29的22.9/2.4ps半衰期不可移作争议母态τ。D/rank≠M1/δ/P，空值不0、legacy比不同新Lv不作显著性/独立票。先newcontract/strictjoin/clock/versions核actualCSV再externalreadiness写回；raw仍deferred。详candidate-pool027/next-continuation027。Git指针main · Day23: preserve dependence in derived strength vectors；actualH3/hash仅task-publication-receipt-027.json。
+继续Au逐线向量、外借电磁标尺、模型定标点与留出检验量；不将冻结数据误当两模型同H。详情next-continuation-028.md/candidate-pool-028.json。原窗口不早收束；Day24始终无学分，正式credit只23。检查以required-checks-028为准；Git指针main · Day23: bind lifetime gaps to the disputed parent states，actualhash/H3仅task-publication-receipt-028.json。
 
 ## Previous handoff — Day22 closeout
 

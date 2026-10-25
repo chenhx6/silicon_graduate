@@ -91,3 +91,15 @@ tags: [XUNDL, shared-dataset, MR-uncertainty, calibration]
 ## Reproducibility
 
 [typed字段程序](../../system/scripts/day16_pr135_official_record_audit.py)actualexit0；[合同/八行结果](../../outputs/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention-run-01/pr135-official-record-audit-result.json)。原四对象hash/选择参数/方法错误与纠正保留，原件只tmp、raw槽未归档。
+
+## Day23：IAEA导出的旧评价端点与寿命字段
+
+本次读取官方[gamma CSV](https://nds.iaea.org/relnsd/v0/data?fields=gammas&nuclides=135pr)与[level CSV](https://nds.iaea.org/relnsd/v0/data?fields=levels&nuclides=135pr)，均HTTP200；174条gamma和105条level非空记录。两文件publication cutoff为22-Jan-2008，extraction为2026-10-25，authors为Singh/Rodionov/Khazov。沿用本页旧评价谱系，接口导出不等于独立新实验，也不认证所有历史注释已在API保留。新增仅Codex self-audit，needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| N135-D23-001 | 同一CSV快照内以(start_level_idx,end_level_idx,gamma_idx)标识：母33的527(1)到13、747.1(.5)到10；母54的726(1)到33、814(1)到29。其母能级1478.2/2204.7keV及原括号Jπ，与Lv新526.2/747.3/726.0/813.2只建立端点候选crosswalk，不合并事件或修改两源能量。现代中心±.7keV过滤会漏527/814，过滤漏选不等于源无该线。 | export-endpoint-and-version-identity | actual-official-export | gammas CSV rows (33,13,0), (33,10,1), (54,33,0), (54,29,1); levels idx33/54 | true |
+| N135-D23-002 | 争议母33/54的half_life为空；末态10(730.83keV,15/2−)与29(1390.9keV,19/2−)分别给half_life22.9ps/2.4ps，它们属于不同态，不能移作争议母态meanτ。选定gamma的mixing_ratio/B/total-conversion字段为空，接口无P/Rac观测列。D只rank注释，不是新M1/δ/P认证，空字段不是测得0。 | parent-clock-and-observable-readiness | actual-official-export | levels idx10/29/33/54 fields half_life/unit_hl/half_life_sec; selected gammas mixing_ratio/b_e2/b_m1 | true |
+| N135-D23-003 | 母33的旧relativeI100(15)/6(3)，母54为100(31)/72(22)。与Lv新9.4/.4和6.4/3.7比较只能记录版本/采用/测量中心不同；不能从旧归一强度补绝对branch或独立选根票。旧450与796的端点分别(44,33,0)/(65,54,1)，可核级联顺序，不能替新实验逐门响应。 | same-parent-intensity-and-gate-provenance | actual-export-plus-source-crosswalk | gammas CSV tuples (33,10,1)/(33,13,0)/(54,29,1)/(54,33,0)/(44,33,0)/(65,54,1) | true |
+
+输入暂存tmp/day23-originals/iaea-pr135-gammas-028.csv，SHA256 e010d2be49cfd34d9d27bec3f1953c4616436cdd5909dc2cfa3beb9edc4489b4；levels-028.csv，SHA256 764c6161fc5055cedf09848897c31726812a4f19fec619e88b81bf6d78359c26。正式raw归档仍deferred，未更改本页旧raw元数据。解析保留两个unc_hl表头的列位置12/15，严格核对全部gamma端点的能量/Jπ字段；15项控制通过仅验证字段合同。[[lv-2022-evidence-against-wobbling-135pr]]的较新原测量另保留，本2008截止接口不裁2015/2022分支。

@@ -489,3 +489,16 @@ L/(1+\delta^2)&-2Ly\delta/(1+\delta^2)^2
 813/726的source中心代入得e=.118129、m=.397594；旧本页使用声明近似系数.697给m=.397722，差来自率系数约定/舍入，是两次条件中央算术，不是新calibration/物理效应或producer已经复现。它们均与原printed.12/.4的角色相容，但不能拿“δ符合、rE2符合、rM1符合”当三次独立采集/选根支持。若有真正不同采集的absolute强度当然可另检验，必须明确那份独立source/normalizer，当前derivedpair没有自动获得它。
 
 747/526的den不是同band in-branch，且SI多极/Rac空，纯E2 den只是原提取条件；未知h会共同缩放两个B，不能由公式逆得actualdenδ。`system/scripts/day23_derived_strength_vector.py`的12控件仅核变换/单位/输入角色，不填任何新δ/Q/g/τ/CI/探测率/机时，也不抹SH26 fixedσ/I条件支持或宣布真实两谷等深。新needs_review:true。
+
+## Day23：先冻结母态身份，再寻找绝对强度伴随量
+
+[[nndc-2008-135pr-selected-mixing-records]] N135-D23-001/002/003的官方CSV示例说明：寿命检索须绑定核素、母态端点、Jπ及评价版本，不能只在同核附近找到ps数就代入。旧母33/54分别是1478.2/2204.7keV的争议候选，half_life空；lower10/29有22.9/2.4ps但属于退激末态，不提供这两母态absoluteB。接口cutoff2008亦不重放Lv的新P/Rac/δ。
+
+| 所需输入 | 已实际获得 | 尚不能做的推断 |
+|---|---|---|
+| gamma母末态身份 | 全部174条与105能级同快照连接；目标527/747.1/726/814 | 不能由跨版本接近端点证明同事件/同response |
+| 母态时钟 | 33/54为空；10/29半衰期属于其它态 | 不能移用末态T1/2，不能补争议母meanτ |
+| 混合/转换/branch | 目标δ/B/total转换空，relativeI是母态局部归一 | D不等M1/δ/P；空值不0，归一不保证出口完整 |
+| 新旧观测比较 | [[lv-2022-evidence-against-wobbling-135pr]]原新线与中心另保留 | 旧评价提取年月不成为额外实验或分支裁决 |
+
+实际输入缺口因此具体到争议母态τ、完整光子分支及转换/多极性、feeding和响应/Σ；当前没有absoluteQ/B/新设施率或机时。`system/scripts/day23_pr135_export_identity.py`的15项CSV/端点/单位/空值控制不等于原实验likelihood验证。新增needs_review:true，保持其它核正支持链与SH26条件AD信息。

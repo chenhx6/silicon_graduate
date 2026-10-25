@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-25T21:13:25.601649+00:00",
+  "source_inputs": {
+    "tmp/day23-originals/iaea-pr135-gammas-028.csv": "e010d2be49cfd34d9d27bec3f1953c4616436cdd5909dc2cfa3beb9edc4489b4",
+    "tmp/day23-originals/iaea-pr135-levels-028.csv": "764c6161fc5055cedf09848897c31726812a4f19fec619e88b81bf6d78359c26"
+  },
+  "provider": "actualofficialIAEAv0gammas/levels135prHTTP200, laterextractionnotnewexperiment; cutoff2008/prewobblingdebate",
+  "target_gamma_snapshot_ids": [
+    [
+      "33",
+      "13",
+      "0"
+    ],
+    [
+      "33",
+      "10",
+      "1"
+    ],
+    [
+      "54",
+      "33",
+      "0"
+    ],
+    [
+      "54",
+      "29",
+      "1"
+    ]
+  ],
+  "candidate_latest_source_crosswalk": "L22SI Table1 sameparent/endpoints/spins, new526.2/747.3/726/813.2 vslegacy527/747.1/726/814, not claimedidenticaleventsets orreplaceenergies",
+  "identity": "gammaIDtuplewithinexact snapshot plusz59n76/symbolPr; allgamma start/end levelidx energy/jpstringjoins. Do not use±.7keVfilter absence:itmisseslegacy814whichiscandidatefornew813.2.",
+  "clocks": "targetmothers33/54empty half_life andselectedB/mix fields blank; loweryrastend10/29 half_life22.9/2.4ps belongsdifferentI/parent andnottransferred asτ. Preserve duplicateunc_hl columns12/15 andseconds/unit.",
+  "observables": "API DlabelsangularranknotM1orδsign/P; legacyrelativeIcentralquotients100/6and100/72vsnew9.4/.4and6.4/3.7 onlyversion/quantitycomparison, noactualCov/significance/independence. 2008cutoffdoesnotadjudicate2015/2022rootdispute.",
+  "validation": [
+    "strictnonemptyCSVwidth/fullyblankterminatorretainedrecord",
+    "allnuclidez/n anduniqueIDs",
+    "allendpointE/Jπjoins exactstrings",
+    "targetmothersdistinctfromlowerτrows; selectedemptyclocks/δ/Bnotfilled",
+    "legacy814fromcandidateendpointnotlostbymoderntargetenergyfilter",
+    "originalnewlinecentre sourcevaluesremainunchanged, coarseoldEunc/closure onlydiagnostic",
+    "inputtwoangleP/Racnotexportfields, noPfromDlabel",
+    "upstreamold450/796lineIDs preserveflow butnotactualnewgateweights",
+    "publicationcutoff/extractiondifferentroles",
+    "relativeIratio normalizationwithinparent onlynotabsolutebranchcomplete"
+  ],
+  "prohibited": [
+    "endlevelτreusedasupperparentτ ornewphysicaltau",
+    "D=M1orzeroδ/positiveP",
+    "APInewindependentmeasurement/rootvote",
+    "legacycentral differencesnewCI/papererror",
+    "absoluteQ/B/ratebeamtime invented",
+    "rawarchivewrite/oldhumanreviewflagchange",
+    "Day24formalcredit/Day25+",
+    "114producer"
+  ]
+}

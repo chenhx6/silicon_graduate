@@ -1,0 +1,2573 @@
+{
+  "status": "actual-legacy-Pr135-endpoint-clock-readiness",
+  "formal_day_index": 23,
+  "scope": "Official export field identities/versions only; no independent gamma acquisition or2015/2022 analysis reconstruction.",
+  "actual_input_sha256": {
+    "tmp/day23-originals/iaea-pr135-gammas-028.csv": "e010d2be49cfd34d9d27bec3f1953c4616436cdd5909dc2cfa3beb9edc4489b4",
+    "tmp/day23-originals/iaea-pr135-levels-028.csv": "764c6161fc5055cedf09848897c31726812a4f19fec619e88b81bf6d78359c26"
+  },
+  "nonempty_row_counts": {
+    "gammas": 174,
+    "levels": 105
+  },
+  "fully_blank_tail_records": {
+    "gammas": 1,
+    "levels": 1
+  },
+  "gamma_headers": [
+    "z",
+    "n",
+    "symbol",
+    "start_level_idx",
+    "start_level_energy",
+    "unc_sle",
+    "start_level_jp",
+    "end_level_idx",
+    "end_level_energy",
+    "unc_ele",
+    "end_level_jp",
+    "gamma_idx",
+    "energy",
+    "unc_en",
+    "relative_intensity",
+    "unc_ri",
+    "multipolarity",
+    "mixing_ratio",
+    "unc_mr",
+    "b_e1",
+    "unc_be1",
+    "b_e2",
+    "unc_be2",
+    "b_m1",
+    "unc_bm1",
+    "b_m2",
+    "unc_bm2",
+    "tot_conv_coeff",
+    "tce_unc",
+    "ensdf_publication_cut-off",
+    "ensdf_authors",
+    "Extraction_date"
+  ],
+  "duplicate_level_headers_with_positions": [
+    [
+      0,
+      "z"
+    ],
+    [
+      1,
+      "n"
+    ],
+    [
+      2,
+      "symbol"
+    ],
+    [
+      3,
+      "idx"
+    ],
+    [
+      4,
+      "energy_shift"
+    ],
+    [
+      5,
+      "energy"
+    ],
+    [
+      6,
+      "unc_e"
+    ],
+    [
+      7,
+      "ripl_shift"
+    ],
+    [
+      8,
+      "jp"
+    ],
+    [
+      9,
+      "jp_order"
+    ],
+    [
+      10,
+      "half_life"
+    ],
+    [
+      11,
+      "operator_hl"
+    ],
+    [
+      12,
+      "unc_hl"
+    ],
+    [
+      13,
+      "unit_hl"
+    ],
+    [
+      14,
+      "half_life_sec"
+    ],
+    [
+      15,
+      "unc_hl"
+    ],
+    [
+      16,
+      "decay_1"
+    ],
+    [
+      17,
+      "decay_1_%"
+    ],
+    [
+      18,
+      "unc_1"
+    ],
+    [
+      19,
+      "decay_2"
+    ],
+    [
+      20,
+      "decay_2_%"
+    ],
+    [
+      21,
+      "unc_2"
+    ],
+    [
+      22,
+      "decay_3"
+    ],
+    [
+      23,
+      "decay_3_%"
+    ],
+    [
+      24,
+      "unc_3"
+    ],
+    [
+      25,
+      "isospin"
+    ],
+    [
+      26,
+      "magnetic_dipole"
+    ],
+    [
+      27,
+      "unc_mn"
+    ],
+    [
+      28,
+      "electric_quadrupole"
+    ],
+    [
+      29,
+      "unc_eq"
+    ],
+    [
+      30,
+      "ENSDF_publication_cut-off"
+    ],
+    [
+      31,
+      "ENSDF_authors"
+    ],
+    [
+      32,
+      "Extraction_date"
+    ]
+  ],
+  "evaluation_cutoffs": [
+    "22-Jan-2008"
+  ],
+  "extraction_dates": [
+    "2026-10-25"
+  ],
+  "evaluation_authors": [
+    "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV"
+  ],
+  "target_endpoint_crosswalks": [
+    {
+      "legacy_gamma_snapshot_raw": {
+        "csv_line": 72,
+        "fields": {
+          "z": "59",
+          "n": "76",
+          "symbol": "Pr",
+          "start_level_idx": "33",
+          "start_level_energy": "1478.2",
+          "unc_sle": "0.5",
+          "start_level_jp": "(17/2-)",
+          "end_level_idx": "13",
+          "end_level_energy": "951.68",
+          "unc_ele": "0.12",
+          "end_level_jp": "(13/2-)",
+          "gamma_idx": "0",
+          "energy": "527",
+          "unc_en": "1",
+          "relative_intensity": "6",
+          "unc_ri": "3",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "59",
+          "76",
+          "Pr",
+          "33",
+          "1478.2",
+          "0.5",
+          "(17/2-)",
+          "13",
+          "951.68",
+          "0.12",
+          "(13/2-)",
+          "0",
+          "527",
+          "1",
+          "6",
+          "3",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      "latest_L22_candidate_values": {
+        "gamma_energy_keV": 526.2,
+        "parent_energy_keV": 1477.9,
+        "daughter_energy_keV": 951.8
+      },
+      "legacy_minus_new_gamma_centre_keV": 0.7999999999999545,
+      "modern_energy_plus_minus_point7_filter_would_select": false,
+      "same_parent_endpoint_candidate_crosswalk_not_event_identity": true,
+      "boundary": "Legacy2008 evaluation and2022 published values remain separately frozen. No significance, energy correction or proof the two campaigns select identical events/components."
+    },
+    {
+      "legacy_gamma_snapshot_raw": {
+        "csv_line": 73,
+        "fields": {
+          "z": "59",
+          "n": "76",
+          "symbol": "Pr",
+          "start_level_idx": "33",
+          "start_level_energy": "1478.2",
+          "unc_sle": "0.5",
+          "start_level_jp": "(17/2-)",
+          "end_level_idx": "10",
+          "end_level_energy": "730.83",
+          "unc_ele": "0.11",
+          "end_level_jp": "(15/2-)",
+          "gamma_idx": "1",
+          "energy": "747.1",
+          "unc_en": "0.5",
+          "relative_intensity": "100",
+          "unc_ri": "15",
+          "multipolarity": "D",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "59",
+          "76",
+          "Pr",
+          "33",
+          "1478.2",
+          "0.5",
+          "(17/2-)",
+          "10",
+          "730.83",
+          "0.11",
+          "(15/2-)",
+          "1",
+          "747.1",
+          "0.5",
+          "100",
+          "15",
+          "D",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      "latest_L22_candidate_values": {
+        "gamma_energy_keV": 747.3,
+        "parent_energy_keV": 1477.9,
+        "daughter_energy_keV": 730.6
+      },
+      "legacy_minus_new_gamma_centre_keV": -0.1999999999999318,
+      "modern_energy_plus_minus_point7_filter_would_select": true,
+      "same_parent_endpoint_candidate_crosswalk_not_event_identity": true,
+      "boundary": "Legacy2008 evaluation and2022 published values remain separately frozen. No significance, energy correction or proof the two campaigns select identical events/components."
+    },
+    {
+      "legacy_gamma_snapshot_raw": {
+        "csv_line": 105,
+        "fields": {
+          "z": "59",
+          "n": "76",
+          "symbol": "Pr",
+          "start_level_idx": "54",
+          "start_level_energy": "2204.7",
+          "unc_sle": "0.7",
+          "start_level_jp": "(21/2-)",
+          "end_level_idx": "33",
+          "end_level_energy": "1478.2",
+          "unc_ele": "0.5",
+          "end_level_jp": "(17/2-)",
+          "gamma_idx": "0",
+          "energy": "726",
+          "unc_en": "1",
+          "relative_intensity": "72",
+          "unc_ri": "22",
+          "multipolarity": "",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "59",
+          "76",
+          "Pr",
+          "54",
+          "2204.7",
+          "0.7",
+          "(21/2-)",
+          "33",
+          "1478.2",
+          "0.5",
+          "(17/2-)",
+          "0",
+          "726",
+          "1",
+          "72",
+          "22",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      "latest_L22_candidate_values": {
+        "gamma_energy_keV": 726.0,
+        "parent_energy_keV": 2203.9,
+        "daughter_energy_keV": 1477.9
+      },
+      "legacy_minus_new_gamma_centre_keV": 0.0,
+      "modern_energy_plus_minus_point7_filter_would_select": true,
+      "same_parent_endpoint_candidate_crosswalk_not_event_identity": true,
+      "boundary": "Legacy2008 evaluation and2022 published values remain separately frozen. No significance, energy correction or proof the two campaigns select identical events/components."
+    },
+    {
+      "legacy_gamma_snapshot_raw": {
+        "csv_line": 106,
+        "fields": {
+          "z": "59",
+          "n": "76",
+          "symbol": "Pr",
+          "start_level_idx": "54",
+          "start_level_energy": "2204.7",
+          "unc_sle": "0.7",
+          "start_level_jp": "(21/2-)",
+          "end_level_idx": "29",
+          "end_level_energy": "1390.9",
+          "unc_ele": "0.4",
+          "end_level_jp": "(19/2-)",
+          "gamma_idx": "1",
+          "energy": "814",
+          "unc_en": "1",
+          "relative_intensity": "100",
+          "unc_ri": "31",
+          "multipolarity": "D",
+          "mixing_ratio": "",
+          "unc_mr": "",
+          "b_e1": "",
+          "unc_be1": "",
+          "b_e2": "",
+          "unc_be2": "",
+          "b_m1": "",
+          "unc_bm1": "",
+          "b_m2": "",
+          "unc_bm2": "",
+          "tot_conv_coeff": "",
+          "tce_unc": "",
+          "ensdf_publication_cut-off": "22-Jan-2008",
+          "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "Extraction_date": "2026-10-25"
+        },
+        "raw_values": [
+          "59",
+          "76",
+          "Pr",
+          "54",
+          "2204.7",
+          "0.7",
+          "(21/2-)",
+          "29",
+          "1390.9",
+          "0.4",
+          "(19/2-)",
+          "1",
+          "814",
+          "1",
+          "100",
+          "31",
+          "D",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "22-Jan-2008",
+          "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+          "2026-10-25"
+        ]
+      },
+      "latest_L22_candidate_values": {
+        "gamma_energy_keV": 813.2,
+        "parent_energy_keV": 2203.9,
+        "daughter_energy_keV": 1390.8
+      },
+      "legacy_minus_new_gamma_centre_keV": 0.7999999999999545,
+      "modern_energy_plus_minus_point7_filter_would_select": false,
+      "same_parent_endpoint_candidate_crosswalk_not_event_identity": true,
+      "boundary": "Legacy2008 evaluation and2022 published values remain separately frozen. No significance, energy correction or proof the two campaigns select identical events/components."
+    }
+  ],
+  "disputed_mothers_raw": {
+    "33": {
+      "csv_line": 35,
+      "fields": {
+        "z": "59",
+        "n": "76",
+        "symbol": "Pr",
+        "idx": "33",
+        "energy_shift": "",
+        "energy": "1478.2",
+        "unc_e": "0.5",
+        "ripl_shift": "",
+        "jp": "(17/2-)",
+        "jp_order": "2",
+        "half_life": "",
+        "operator_hl": "",
+        "unc_hl__column_12": "",
+        "unit_hl": "",
+        "half_life_sec": "",
+        "unc_hl__column_15": "",
+        "decay_1": "",
+        "decay_1_%": "",
+        "unc_1": "",
+        "decay_2": "",
+        "decay_2_%": "",
+        "unc_2": "",
+        "decay_3": "",
+        "decay_3_%": "",
+        "unc_3": "",
+        "isospin": "",
+        "magnetic_dipole": "",
+        "unc_mn": "",
+        "electric_quadrupole": "",
+        "unc_eq": "",
+        "ENSDF_publication_cut-off": "22-Jan-2008",
+        "ENSDF_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "59",
+        "76",
+        "Pr",
+        "33",
+        "",
+        "1478.2",
+        "0.5",
+        "",
+        "(17/2-)",
+        "2",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    },
+    "54": {
+      "csv_line": 56,
+      "fields": {
+        "z": "59",
+        "n": "76",
+        "symbol": "Pr",
+        "idx": "54",
+        "energy_shift": "",
+        "energy": "2204.7",
+        "unc_e": "0.7",
+        "ripl_shift": "",
+        "jp": "(21/2-)",
+        "jp_order": "2",
+        "half_life": "",
+        "operator_hl": "",
+        "unc_hl__column_12": "",
+        "unit_hl": "",
+        "half_life_sec": "",
+        "unc_hl__column_15": "",
+        "decay_1": "",
+        "decay_1_%": "",
+        "unc_1": "",
+        "decay_2": "",
+        "decay_2_%": "",
+        "unc_2": "",
+        "decay_3": "",
+        "decay_3_%": "",
+        "unc_3": "",
+        "isospin": "",
+        "magnetic_dipole": "",
+        "unc_mn": "",
+        "electric_quadrupole": "",
+        "unc_eq": "",
+        "ENSDF_publication_cut-off": "22-Jan-2008",
+        "ENSDF_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "59",
+        "76",
+        "Pr",
+        "54",
+        "",
+        "2204.7",
+        "0.7",
+        "",
+        "(21/2-)",
+        "2",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    }
+  },
+  "different_lower_yrast_clock_rows_raw": {
+    "10": {
+      "csv_line": 12,
+      "fields": {
+        "z": "59",
+        "n": "76",
+        "symbol": "Pr",
+        "idx": "10",
+        "energy_shift": "",
+        "energy": "730.83",
+        "unc_e": "0.11",
+        "ripl_shift": "",
+        "jp": "(15/2-)",
+        "jp_order": "1",
+        "half_life": "22.9",
+        "operator_hl": "",
+        "unc_hl__column_12": "14",
+        "unit_hl": "ps",
+        "half_life_sec": "0.0000000000229",
+        "unc_hl__column_15": "0.0000000000014",
+        "decay_1": "",
+        "decay_1_%": "",
+        "unc_1": "",
+        "decay_2": "",
+        "decay_2_%": "",
+        "unc_2": "",
+        "decay_3": "",
+        "decay_3_%": "",
+        "unc_3": "",
+        "isospin": "",
+        "magnetic_dipole": "",
+        "unc_mn": "",
+        "electric_quadrupole": "",
+        "unc_eq": "",
+        "ENSDF_publication_cut-off": "22-Jan-2008",
+        "ENSDF_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "59",
+        "76",
+        "Pr",
+        "10",
+        "",
+        "730.83",
+        "0.11",
+        "",
+        "(15/2-)",
+        "1",
+        "22.9",
+        "",
+        "14",
+        "ps",
+        "0.0000000000229",
+        "0.0000000000014",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    },
+    "29": {
+      "csv_line": 31,
+      "fields": {
+        "z": "59",
+        "n": "76",
+        "symbol": "Pr",
+        "idx": "29",
+        "energy_shift": "",
+        "energy": "1390.9",
+        "unc_e": "0.4",
+        "ripl_shift": "",
+        "jp": "(19/2-)",
+        "jp_order": "1",
+        "half_life": "2.4",
+        "operator_hl": "",
+        "unc_hl__column_12": "6",
+        "unit_hl": "ps",
+        "half_life_sec": "0.0000000000024",
+        "unc_hl__column_15": "0.0000000000006",
+        "decay_1": "",
+        "decay_1_%": "",
+        "unc_1": "",
+        "decay_2": "",
+        "decay_2_%": "",
+        "unc_2": "",
+        "decay_3": "",
+        "decay_3_%": "",
+        "unc_3": "",
+        "isospin": "",
+        "magnetic_dipole": "",
+        "unc_mn": "",
+        "electric_quadrupole": "",
+        "unc_eq": "",
+        "ENSDF_publication_cut-off": "22-Jan-2008",
+        "ENSDF_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "59",
+        "76",
+        "Pr",
+        "29",
+        "",
+        "1390.9",
+        "0.4",
+        "",
+        "(19/2-)",
+        "1",
+        "2.4",
+        "",
+        "6",
+        "ps",
+        "0.0000000000024",
+        "0.0000000000006",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    }
+  },
+  "target_mother_mean_tau_value_assigned": null,
+  "absolute_target_strength_assigned": null,
+  "legacy_upstream_gate_rows_raw": [
+    {
+      "csv_line": 91,
+      "fields": {
+        "z": "59",
+        "n": "76",
+        "symbol": "Pr",
+        "start_level_idx": "44",
+        "start_level_energy": "1928.6",
+        "unc_sle": "0.6",
+        "start_level_jp": "(19/2-)",
+        "end_level_idx": "33",
+        "end_level_energy": "1478.2",
+        "unc_ele": "0.5",
+        "end_level_jp": "(17/2-)",
+        "gamma_idx": "0",
+        "energy": "450",
+        "unc_en": "1",
+        "relative_intensity": "87",
+        "unc_ri": "26",
+        "multipolarity": "D",
+        "mixing_ratio": "",
+        "unc_mr": "",
+        "b_e1": "",
+        "unc_be1": "",
+        "b_e2": "",
+        "unc_be2": "",
+        "b_m1": "",
+        "unc_bm1": "",
+        "b_m2": "",
+        "unc_bm2": "",
+        "tot_conv_coeff": "",
+        "tce_unc": "",
+        "ensdf_publication_cut-off": "22-Jan-2008",
+        "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "59",
+        "76",
+        "Pr",
+        "44",
+        "1928.6",
+        "0.6",
+        "(19/2-)",
+        "33",
+        "1478.2",
+        "0.5",
+        "(17/2-)",
+        "0",
+        "450",
+        "1",
+        "87",
+        "26",
+        "D",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    },
+    {
+      "csv_line": 125,
+      "fields": {
+        "z": "59",
+        "n": "76",
+        "symbol": "Pr",
+        "start_level_idx": "65",
+        "start_level_energy": "3001",
+        "unc_sle": "0.7",
+        "start_level_jp": "(25/2-)",
+        "end_level_idx": "54",
+        "end_level_energy": "2204.7",
+        "unc_ele": "0.7",
+        "end_level_jp": "(21/2-)",
+        "gamma_idx": "1",
+        "energy": "796",
+        "unc_en": "1",
+        "relative_intensity": "100",
+        "unc_ri": "20",
+        "multipolarity": "(Q)",
+        "mixing_ratio": "",
+        "unc_mr": "",
+        "b_e1": "",
+        "unc_be1": "",
+        "b_e2": "",
+        "unc_be2": "",
+        "b_m1": "",
+        "unc_bm1": "",
+        "b_m2": "",
+        "unc_bm2": "",
+        "tot_conv_coeff": "",
+        "tce_unc": "",
+        "ensdf_publication_cut-off": "22-Jan-2008",
+        "ensdf_authors": "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "Extraction_date": "2026-10-25"
+      },
+      "raw_values": [
+        "59",
+        "76",
+        "Pr",
+        "65",
+        "3001",
+        "0.7",
+        "(25/2-)",
+        "54",
+        "2204.7",
+        "0.7",
+        "(21/2-)",
+        "1",
+        "796",
+        "1",
+        "100",
+        "20",
+        "(Q)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "22-Jan-2008",
+        "BALRAJ SINGH and  ALEXANDER A. RODIONOV and YURI L. KHAZOV",
+        "2026-10-25"
+      ]
+    }
+  ],
+  "parent_normalized_relative_I_quotient_centres": {
+    "legacy747p1_over527": 16.666666666666668,
+    "new_L22_747p3_over526p2": 23.5,
+    "legacy814_over726": 1.3888888888888888,
+    "new_L22_813p2_over726": 1.7297297297297298,
+    "boundary": "Different version/acquisition/adopted intensity chains and large marginal errors; no joint covariance, significance or independent root vote supplied."
+  },
+  "all_snapshot_endpoint_joins": [
+    {
+      "gamma_snapshot_id": [
+        "1",
+        "0",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.03999999999999915
+    },
+    {
+      "gamma_snapshot_id": [
+        "2",
+        "1",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "2",
+        "0",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.030000000000001137
+    },
+    {
+      "gamma_snapshot_id": [
+        "3",
+        "1",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.03000000000002956
+    },
+    {
+      "gamma_snapshot_id": [
+        "3",
+        "0",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.07999999999998408
+    },
+    {
+      "gamma_snapshot_id": [
+        "4",
+        "3",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "4",
+        "1",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "5",
+        "3",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 2.842170943040401e-14
+    },
+    {
+      "gamma_snapshot_id": [
+        "5",
+        "2",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "5",
+        "1",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.05000000000001137
+    },
+    {
+      "gamma_snapshot_id": [
+        "5",
+        "0",
+        "3"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.08000000000004093
+    },
+    {
+      "gamma_snapshot_id": [
+        "6",
+        "3",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "6",
+        "1",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.020000000000038654
+    },
+    {
+      "gamma_snapshot_id": [
+        "7",
+        "4",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.049999999999954525
+    },
+    {
+      "gamma_snapshot_id": [
+        "7",
+        "1",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.03999999999996362
+    },
+    {
+      "gamma_snapshot_id": [
+        "8",
+        "3",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.030000000000086402
+    },
+    {
+      "gamma_snapshot_id": [
+        "8",
+        "1",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.12000000000000455
+    },
+    {
+      "gamma_snapshot_id": [
+        "9",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.040000000000048885
+    },
+    {
+      "gamma_snapshot_id": [
+        "9",
+        "3",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.07999999999998408
+    },
+    {
+      "gamma_snapshot_id": [
+        "9",
+        "2",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.18000000000000682
+    },
+    {
+      "gamma_snapshot_id": [
+        "9",
+        "1",
+        "3"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "10",
+        "4",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "11",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "11",
+        "3",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "12",
+        "7",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.08000000000004093
+    },
+    {
+      "gamma_snapshot_id": [
+        "12",
+        "4",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.009999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "13",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.04000000000007731
+    },
+    {
+      "gamma_snapshot_id": [
+        "13",
+        "4",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.2800000000000864
+    },
+    {
+      "gamma_snapshot_id": [
+        "14",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "14",
+        "3",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "14",
+        "2",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "15",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.14999999999997726
+    },
+    {
+      "gamma_snapshot_id": [
+        "15",
+        "5",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.08000000000004093
+    },
+    {
+      "gamma_snapshot_id": [
+        "15",
+        "3",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.37999999999999545
+    },
+    {
+      "gamma_snapshot_id": [
+        "16",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.20000000000015916
+    },
+    {
+      "gamma_snapshot_id": [
+        "16",
+        "5",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.16999999999995907
+    },
+    {
+      "gamma_snapshot_id": [
+        "16",
+        "1",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.11999999999989086
+    },
+    {
+      "gamma_snapshot_id": [
+        "17",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.10999999999989996
+    },
+    {
+      "gamma_snapshot_id": [
+        "17",
+        "5",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.42000000000007276
+    },
+    {
+      "gamma_snapshot_id": [
+        "17",
+        "2",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.4799999999999045
+    },
+    {
+      "gamma_snapshot_id": [
+        "18",
+        "7",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.030000000000086402
+    },
+    {
+      "gamma_snapshot_id": [
+        "19",
+        "11",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.009999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "19",
+        "6",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.31999999999993634
+    },
+    {
+      "gamma_snapshot_id": [
+        "19",
+        "5",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.21000000000003638
+    },
+    {
+      "gamma_snapshot_id": [
+        "19",
+        "2",
+        "3"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.11000000000001364
+    },
+    {
+      "gamma_snapshot_id": [
+        "20",
+        "13",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.0899999999998613
+    },
+    {
+      "gamma_snapshot_id": [
+        "20",
+        "12",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.10000000000007958
+    },
+    {
+      "gamma_snapshot_id": [
+        "21",
+        "12",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.009999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "21",
+        "7",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.4700000000000273
+    },
+    {
+      "gamma_snapshot_id": [
+        "21",
+        "1",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.7100000000000364
+    },
+    {
+      "gamma_snapshot_id": [
+        "22",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.009999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "22",
+        "5",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "23",
+        "11",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.2799999999999727
+    },
+    {
+      "gamma_snapshot_id": [
+        "23",
+        "6",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.009999999999877218
+    },
+    {
+      "gamma_snapshot_id": [
+        "24",
+        "12",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.05000000000006821
+    },
+    {
+      "gamma_snapshot_id": [
+        "24",
+        "7",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.32999999999992724
+    },
+    {
+      "gamma_snapshot_id": [
+        "25",
+        "13",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.18000000000006366
+    },
+    {
+      "gamma_snapshot_id": [
+        "25",
+        "10",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.2699999999998681
+    },
+    {
+      "gamma_snapshot_id": [
+        "26",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 1.1368683772161603e-13
+    },
+    {
+      "gamma_snapshot_id": [
+        "27",
+        "9",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.20000000000004547
+    },
+    {
+      "gamma_snapshot_id": [
+        "27",
+        "6",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.4900000000000091
+    },
+    {
+      "gamma_snapshot_id": [
+        "27",
+        "3",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.22000000000002728
+    },
+    {
+      "gamma_snapshot_id": [
+        "28",
+        "2",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "29",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "30",
+        "11",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.07999999999992724
+    },
+    {
+      "gamma_snapshot_id": [
+        "30",
+        "9",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.20000000000004547
+    },
+    {
+      "gamma_snapshot_id": [
+        "31",
+        "13",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "31",
+        "10",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.030000000000086402
+    },
+    {
+      "gamma_snapshot_id": [
+        "32",
+        "11",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.18000000000006366
+    },
+    {
+      "gamma_snapshot_id": [
+        "32",
+        "6",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.38999999999998636
+    },
+    {
+      "gamma_snapshot_id": [
+        "33",
+        "13",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.4799999999999045
+    },
+    {
+      "gamma_snapshot_id": [
+        "33",
+        "10",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.2699999999999818
+    },
+    {
+      "gamma_snapshot_id": [
+        "34",
+        "23",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.20000000000004547
+    },
+    {
+      "gamma_snapshot_id": [
+        "34",
+        "11",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "35",
+        "12",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.14999999999997726
+    },
+    {
+      "gamma_snapshot_id": [
+        "35",
+        "6",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.2899999999999636
+    },
+    {
+      "gamma_snapshot_id": [
+        "35",
+        "5",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.2800000000000864
+    },
+    {
+      "gamma_snapshot_id": [
+        "35",
+        "2",
+        "3"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.2799999999999727
+    },
+    {
+      "gamma_snapshot_id": [
+        "36",
+        "9",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.10000000000002274
+    },
+    {
+      "gamma_snapshot_id": [
+        "36",
+        "5",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.1799999999998363
+    },
+    {
+      "gamma_snapshot_id": [
+        "37",
+        "5",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "37",
+        "3",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "38",
+        "14",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.020000000000095497
+    },
+    {
+      "gamma_snapshot_id": [
+        "38",
+        "11",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.12000000000011823
+    },
+    {
+      "gamma_snapshot_id": [
+        "39",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.009999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "40",
+        "12",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.049999999999954525
+    },
+    {
+      "gamma_snapshot_id": [
+        "41",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.03000000000020009
+    },
+    {
+      "gamma_snapshot_id": [
+        "42",
+        "29",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -1.1368683772161603e-13
+    },
+    {
+      "gamma_snapshot_id": [
+        "43",
+        "11",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.01999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "44",
+        "33",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.3999999999998636
+    },
+    {
+      "gamma_snapshot_id": [
+        "44",
+        "31",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.2999999999999545
+    },
+    {
+      "gamma_snapshot_id": [
+        "44",
+        "10",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.2300000000000182
+    },
+    {
+      "gamma_snapshot_id": [
+        "45",
+        "29",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "46",
+        "6",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.10999999999989996
+    },
+    {
+      "gamma_snapshot_id": [
+        "46",
+        "3",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.5199999999999818
+    },
+    {
+      "gamma_snapshot_id": [
+        "47",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.03000000000020009
+    },
+    {
+      "gamma_snapshot_id": [
+        "48",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.029999999999972715
+    },
+    {
+      "gamma_snapshot_id": [
+        "49",
+        "10",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.02999999999974534
+    },
+    {
+      "gamma_snapshot_id": [
+        "50",
+        "23",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "51",
+        "7",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.02999999999974534
+    },
+    {
+      "gamma_snapshot_id": [
+        "52",
+        "31",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 1.1368683772161603e-13
+    },
+    {
+      "gamma_snapshot_id": [
+        "53",
+        "31",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.20000000000004547
+    },
+    {
+      "gamma_snapshot_id": [
+        "53",
+        "29",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.40000000000009095
+    },
+    {
+      "gamma_snapshot_id": [
+        "54",
+        "33",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.4999999999997726
+    },
+    {
+      "gamma_snapshot_id": [
+        "54",
+        "29",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.20000000000027285
+    },
+    {
+      "gamma_snapshot_id": [
+        "55",
+        "29",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "56",
+        "29",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "57",
+        "29",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "58",
+        "34",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "59",
+        "34",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "60",
+        "59",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "60",
+        "58",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "60",
+        "29",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "61",
+        "44",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.20000000000027285
+    },
+    {
+      "gamma_snapshot_id": [
+        "61",
+        "29",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "62",
+        "53",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.1999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "62",
+        "44",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "62",
+        "29",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.20000000000027285
+    },
+    {
+      "gamma_snapshot_id": [
+        "63",
+        "60",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "63",
+        "59",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "64",
+        "56",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "64",
+        "55",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "65",
+        "55",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "65",
+        "54",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.3000000000001819
+    },
+    {
+      "gamma_snapshot_id": [
+        "65",
+        "53",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.5
+    },
+    {
+      "gamma_snapshot_id": [
+        "66",
+        "63",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "66",
+        "61",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "66",
+        "55",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "67",
+        "63",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "68",
+        "55",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "69",
+        "64",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "69",
+        "63",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "70",
+        "61",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "71",
+        "62",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "72",
+        "62",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.1000000000003638
+    },
+    {
+      "gamma_snapshot_id": [
+        "72",
+        "55",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.09999999999990905
+    },
+    {
+      "gamma_snapshot_id": [
+        "73",
+        "67",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "74",
+        "66",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "75",
+        "72",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "75",
+        "71",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.1000000000003638
+    },
+    {
+      "gamma_snapshot_id": [
+        "75",
+        "70",
+        "2"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "76",
+        "65",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "77",
+        "69",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -4.547473508864641e-13
+    },
+    {
+      "gamma_snapshot_id": [
+        "78",
+        "76",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -0.1000000000003638
+    },
+    {
+      "gamma_snapshot_id": [
+        "78",
+        "74",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -4.547473508864641e-13
+    },
+    {
+      "gamma_snapshot_id": [
+        "79",
+        "75",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "79",
+        "68",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "80",
+        "68",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "81",
+        "68",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "82",
+        "74",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": -4.547473508864641e-13
+    },
+    {
+      "gamma_snapshot_id": [
+        "83",
+        "80",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "83",
+        "79",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "84",
+        "77",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "85",
+        "83",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "86",
+        "76",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "87",
+        "80",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "87",
+        "79",
+        "1"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "88",
+        "79",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "89",
+        "82",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "90",
+        "85",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "91",
+        "90",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "92",
+        "84",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "93",
+        "87",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "94",
+        "89",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "95",
+        "91",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "96",
+        "93",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "97",
+        "92",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "98",
+        "94",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.1000000000003638
+    },
+    {
+      "gamma_snapshot_id": [
+        "99",
+        "96",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "100",
+        "97",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.1000000000003638
+    },
+    {
+      "gamma_snapshot_id": [
+        "101",
+        "99",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.1999999999998181
+    },
+    {
+      "gamma_snapshot_id": [
+        "102",
+        "100",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "103",
+        "101",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    },
+    {
+      "gamma_snapshot_id": [
+        "104",
+        "103",
+        "0"
+      ],
+      "same_snapshot_level_energy_Jp_join": true,
+      "reported_gamma_energy_centre_closure_keV": 0.0
+    }
+  ],
+  "lower_clock_unit_error_ps": 0.0,
+  "controls": {
+    "strict_nonempty_CSV_widths_and_blank_terminators_classified": true,
+    "all_rows_target_Pr135": true,
+    "unique_snapshot_ids": true,
+    "duplicate_level_unc_hl_columns_retained": true,
+    "all_gamma_endpoints_join_actual_level_rows": true,
+    "endpoint_crosswalk_keeps_legacy814_even_if_energy_filter_misses": true,
+    "legacy527_not_erased_by_modern526_energy_window": true,
+    "disputed_target_parent_clocks_really_empty": true,
+    "lower_yrast_clocks_not_transferred_to_target_parent": true,
+    "selected_delta_and_strength_gaps_not_filled": true,
+    "D_rank_labels_not_promoted_to_M1_or_delta": true,
+    "P_and_Rac_are_not_export_observation_columns": true,
+    "evaluation_cutoff_and_extraction_roles_distinct": true,
+    "upstream_old450_and796_flow_bound_by_ID": true,
+    "lower_clock_ps_seconds_field_units_consistent": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day23_pr135_export_identity.py": "b75a52be2f602ea21fcd16d24af7966ecd6bb156c648e038bee6e3010e361831",
+    "/workspace/wiki/system/scripts/day24_preview_nd135_export_identity.py": "2795feecfda69ac17561d8f8b80728a28670daa81e2dc07714ecbb6ff627d3e5"
+  },
+  "limitations": [
+    "The export publicationcutoff is2008, before the2015/2022 wobbling controversy. Current retrieval is not a new evaluation or evidence against later P/Rac/delta data.",
+    "Snapshot IDs are local. Cross-version endpoint/Jp/energy candidates do not establish identical events, original placement notes or a common error/response model.",
+    "Disputed parent33/54 clocks and B/mixing fields are empty. Lower15/2 and19/2 yrast half-lives are different states and cannot be substituted for target mean tau.",
+    "A D multipolarity label gives a dipole-rank annotation, not a newly certified M1, zero mixing ratio or polarization sign. Empty fields are unknown, not measured zeros.",
+    "The coarse legacy527/814 energies explain why an energy-only filter misses lines; no original/new gamma energy is silently corrected or merged.",
+    "RelativeI quotients cancel one parent normalization, not missing branches, absolute yields, component purity or cross-campaign covariance. No new delta/Q/g/tau CI/rate/beamtime produced.",
+    "Public snapshots remain tmp staging, formal raw archive deferred. ExistingDay23 andonlyDay24uncreditedpreview/noDay25+ boundaries remain."
+  ]
+}

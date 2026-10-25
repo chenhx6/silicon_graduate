@@ -344,3 +344,9 @@ source013的axisym singles近镜角可以等，实际selected finitegate/perpair
 [[lv-2022-evidence-against-wobbling-135pr]] L22-D23-006及[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D23-002把813/726同parent强度ratio写成来自Iγratio与δ的二维变换。[[signature-tip-shears-discrimination-contract]]列出inverse/J/Σ与den E2 purity假设；quotedδ/rE2/rM1共享输入，不按三个独立观察计票，未知Cov不作0相关或新CI。
 
 Bpair只能保存δ²，P/AD干涉的sign/branch信息另检验；这项信息分层不等于真实P/Rac无法选根，更不推SH26两谷等深。747/526的crossband denominator/blank multipolarity条件保持，新needs_review:true。
+
+## Day23：争议母态的寿命缺口有明确身份
+
+[[nndc-2008-135pr-selected-mixing-records]] N135-D23-001/002/003核官方IAEA旧评价导出：端点候选对应新Lv526/747、726/813，旧线为527/747.1、726/814；必须保留版本与原括号Jπ，不用窄能窗的漏选宣称不存在。争议母33/54寿命为空，较低yrast末态10/29的22.9/2.4ps半衰期不能移作母τ；新测量的缺口仍需母态寿命、完整branch/转换与共同响应。
+
+该接口publication cutoff2008，不是本轮新增采集或2026评价。旧relativeI比不同于Lv新中心，未知共同Cov不报显著性/新独立票；D标签不填δ/P，空B不当0。[[signature-tip-shears-discrimination-contract]]保留这个逐态readiness门。新增needs_review:true，不扩原人审范围，不改变747/813配对或SH26固定σ/I条件支持。

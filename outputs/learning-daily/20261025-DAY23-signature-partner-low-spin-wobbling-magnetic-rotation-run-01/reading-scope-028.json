@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-25T21:21:39.702567+00:00",
+  "scope": "actual IAEA135Pr CSV fields, old2008 cutoff; no new fullpaper read or experiment",
+  "inputs": {
+    "tmp/day23-originals/iaea-pr135-gammas-028.csv": "e010d2be49cfd34d9d27bec3f1953c4616436cdd5909dc2cfa3beb9edc4489b4",
+    "tmp/day23-originals/iaea-pr135-levels-028.csv": "764c6161fc5055cedf09848897c31726812a4f19fec619e88b81bf6d78359c26"
+  },
+  "formal_raw_archive": "deferred; tmp staging only",
+  "new_claims_needs_review": true,
+  "old_flags_preserved": true
+}

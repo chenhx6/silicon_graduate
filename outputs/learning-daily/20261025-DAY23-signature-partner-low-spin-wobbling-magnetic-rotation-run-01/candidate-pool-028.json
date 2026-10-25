@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T21:21:39.702567+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original window",
+  "bounded_result": "actual legacyPr135 endpoint/clock identity, 15 controls; not new data or absoluteB",
+  "next_route": "Au187 actual observable vector and model calibration/holdout ledger; only existing Day24 preview allowed",
+  "missing_inputs": [
+    "disputed mother mean tau and complete branch/ICC",
+    "actual shared response/Cov and detector pair weights",
+    "full original operators and calibration choices"
+  ],
+  "no_Day25": true
+}
