@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23 checkpoint020（持续研究，Day24仅无学分预习）
+## Active handoff — Day23 checkpoint021（持续研究，Day24仅无学分预习）
 
-原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25，goalactive/Farmer2698；completed=[] partial=[23,24] next23，Day24恰好preview无学分/不Day25，正式credit只23。仍11h+继续，不早收束，raw/PLAN/Bib/旧flags/credit/114producer保护。
+原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，deadline2026-10-26 15:00+08/run_date仍25，goalactive/Farmer2698；completed=[] partial=[23,24] next23，Day24恰好preview无学分/不Day25，正式credit仅23。仍11h+持续不收束，raw/PLAN/Bib/旧review/credit/114producer保护。
 
-020targetAL11PDF7/8/10/11actualm/rateEq15–18+Ndnotshown、LKH82p121Eq2.2/2.3visual/hash核。固定常数率系数cM1=17.58366/cE2=12.25187，22controls过。H_abs明示sameparent/absolutecomponent/候选m1/m2line/totalmeanτ，q_outpair≈.98、in+out1.80–1.96，只拒compound中央绑定不判paper错；out-shape近selectedAPIoutI份额仅H_cond归一线索，未证明作者做法/填branch/δ/CI。新增MU07-D24P-006/7、AL11-D24P-001/2、LKH82-D24P-001与概念/Day23方法桥，三种归一明确分开。
+021先合同后40DgoodI×2multiplicity rotational/T/C invariant H和完整WE rank1/2 tensors；47controls过、max3.4e-15。alpha能量/B可以不同，Kramers/M只在irrep内；abstracttensor非实际onebody核EM/handednucleus，两case改tensor不是只改configuration。specialrealEMkernel界2eps/(1+eps²)需额外未知eps，不从小gap/旧QtCI取值。新增F01-D24P-003/LKH82-D24P-002/3/concept，仅needs_review，新核态/g/CI未造；Mu07特定支持不抹。
 
-fresh checks0/true30changed知识writebackvalid/lint0error220warning；原producer/line-normalizer账缺，旧QtCI/225.8P/机时认证不复活。下一sameDay24preview先合同构造goodI multiplets×2multiplicity的rotationalinvariantH与WE tensor，检验C²1/T/rotation/Hermitian不单独强制bandenergy/strength相等；不得假称任意tensor是实际onebody核EM或physicalg/newstate。详candidate-pool020/next-continuation020。Git指针main · Day23: separate absolute widths from conditional outlet normalization；actualH3/hash仅task-publication-receipt-020.json。
+fresh checks0/true30changedwritebackvalid/lint0error220warning。下一sameDay24preview bandmix vsbasischange与完整同I/If EM block invariants：ΣB/Frobenius需要固定operator+完整projectors，4B模仍缺loopphase，非Γsum；已target读Bark2024p7/8文本强调多带配对不唯一，secondary非新实验。实际Nd018missingA->B四cell中心ΔE−130.7/1.4/125.6/254keV，snapshot均无正逆行、首逆B29/2 τ空；不当absence/0B/新delta，upward矩阵仍可存在。详next-continuation021/candidate-pool021。Git指针main · Day23: distinguish rotation symmetry from partner-strength dynamics；actualH3/hash仅task-publication-receipt-021.json。
 
 ## Previous handoff — Day22 closeout
 

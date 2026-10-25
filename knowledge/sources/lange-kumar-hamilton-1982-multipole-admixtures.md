@@ -433,3 +433,14 @@ Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** li
 | LKH82-D24P-001 | 本任务声明ℏ=6.582119569e−22MeV s、ℏc=197.3269804MeV fm、α=7.2973525693e−3、mpc²=938.27208816MeV，用Eq2.2及磁矩eℏ/(2mpc)的Gaussian单位得cM1=17.58366 ps⁻¹MeV⁻³μN⁻²、cE2=12.25187 ps⁻¹MeV⁻⁵(e²b²)⁻¹；两路单位化相符，sqrt(cE2/cM1)=.834731与印刷.835相容。固定同母态total meanτ时，各独立photon component须有τΣλγ≤1；这不是detector counting rate，也不从marginal误差恢复实际CI。 | task-unit-conversion-and-conditional-inventory | directly-read-formula-plus-declared-arithmetic | printed121 Eqs.2.2–2.3c and2.6; task input-contract-020 | true |
 
 若“B_out”实际使用的是selected-outlet条件归一或不同母态/组件，就不能在未映射前把它与另一组absoluteB相加。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-006/007只检验指定输入组合，不据此认定作者错误、补分支或计算新实验强度。
+
+## Day23内的Day24无学分预习：协变张量不固定multiplicity矩阵元
+
+沿已核Eq2.3a的B/RME定义及LKH82-13的反向Hermitian关系，以下为本任务构造，不冒充原作者核模型；新needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LKH82-D24P-002 | 在F01-D24P-003的good-I×2multiplicity空间，任意声明的实RME矩阵可经CG构造rank1/2 tensor，反向RME取相应Hermitian phase。任务47项full[Jz/J±,T]、spherical adjoint、time parity、C covariance、CG-summedB/detailed balance及界控制通过，max tensorerror3.4e−15；仍可给不等partner strengths和不同三步曲率符号。rank1/2只有M1/E2变换性质，不认证实际核one-body磁/电算符可实现任意RME；两case改变了抽象tensor，不是固定operator只改configuration对照。 | declared-covariant-tensor-and-operator-scope | conditional-task-math | printed121 Eq.2.3a; LKH82-13; F01-D24P-003; task covariant-partner-tensors-021 | true |
+| LKH82-D24P-003 | 特殊实L/R transition kernel aI+bσx给归一partner差商2ab/(a²+b²)。额外假设a非零且abs(b/a)≤ε≤1时，其绝对值≤2ε/(1+ε²)，b=0恢复相等。ε是EM cross-kernel约束，不是由小谱劈裂直接测得的重叠/隧穿强度，当前没有本核ε或实际g/B界。 | declared-additional-dynamical-bound | conditional-algebra-not-nuclear-inference | task model-contract-021; F01-D24P-002 two-state premises; printed121 Eq.2.3a | true |
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]的C与量子恢复前提不能替代具体电磁kernel。该构造只证明列出的抽象对称性不足，实际固定核EM算符/组态/局域化可能加入很强限制；不以它否定[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的具体数据与TAC+RPA支持，也不从数学可行赋竞争解释同等物理可信度。

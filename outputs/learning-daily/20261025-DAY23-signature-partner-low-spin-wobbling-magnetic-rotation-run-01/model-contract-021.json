@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-25T19:23:45.718531+00:00",
+  "question": "Do full rotationalcovariance/Hermiticity/timeparity andchiralC aloneforcebandenergy/partnertransitionstrength equality? What extraEMkernelbound wouldsuffice in a specialtwo-state model?",
+  "objects": "directsumI=1/2,3/2,5/2,7/2 ordinarySU2irreps, eachwith2multiplicityalpha. 40dim purelyabstractHilbertspace, no nucleus/charge/radius/configuration specified. All onecommonnuclearparity soM1/E2rankallowed, but labelsalpha notsignature/pseudospin/chiralityevidence.",
+  "H": "H_I,alpha=[I(I+1)+alpha*(.4+.03I)]*identity_(2I+1), dimensionless. HcommutesJ,T,C; alphaenergiesdifferent butordinaryM/Kramersdegeneracyretained. Not actualnuclearrotorfit.",
+  "antiunitary": "sameconvention017: T=RyπK, C=RyπT; allhalfI soT²=-1,C²=+1,C=-K inthisbasis. Nointrinsicleftrightgeometryestablished.",
+  "tensor": "lab<IfMf beta|T_lambda_mu|IiMi alpha>=CG(IiMi,lambda mu|IfMf)/sqrt(2If+1)*R_lambda[beta,alpha], real arbitraryR. OnlyneighborI pairsnonzero; reverseR=(-1)^(Ii-If)*R^T ensuresTmu†=(-1)^muT-mu. UnknowncommonS_lambda factored, onlynormalizedB.",
+  "timeparity": "ThetaT_lambda_muTheta^-1=(-1)^(lambda-mu)T_lambda_-mu:rank1hasmagnetictimeodd/ rank2electric timeeven in BM convention. These are abstract tensors with those transformations, not certified onebody EMoperators or microwavenuclearrealizability.",
+  "chosen_input_RME": "diagbase(1,1.7)forrank1,(.6,1.1)rank2 timesa_I=(1,1.4,.9); offdiagbase(.2,.4)rank1,(.3,.2)rank2 timesa_I forcaseA or(1.4,.5,1.2)forcaseB. Dimensionlessdesign only, no datafit.",
+  "controls": [
+    "SU2/Casimir/rotationunitarity;H[J]/T/C andmultipletdegeneracyalphainequality",
+    "fullranktensorJz/J±commutators forlambda1/2 andbothcases",
+    "sphericalHermiticity, fullTtimeparity, Ccovariance",
+    "fullCGsums vsRME B anddetailedbalance",
+    "crossIrank1matrixnonzero buttotalJcrossI zero",
+    "partnerBunequal/sameoroppositethreestepfinitecurvaturepossible underunchangedlisted constraints;notuniversalstaggeringprediction",
+    "specialL/RrealM=aI+bσx givesB±∝(a±b)^2. Fora!=0 and|b/a|<=eps<=1 normalizedcontrast<=2eps/(1+eps²);eps notmeasured/derivedfromenergygap. Checkb=0limit/bound, noactualg."
+  ],
+  "inference_limit": "No actualhandedmeanfield, actualmicroscopiconebodyEMrealization, staticchiralityorallpossiblepatterns proven. This shows listed abstractsymmetries alone insufficient; realconfiguration/shape/operator/localization dynamics mayaddconstraints andactualpositivecasesremain.",
+  "prohibited": [
+    "labelarbitraryRMEphysicalg/B/δ/Q",
+    "apriorisamecredibility competingnuclearmodel",
+    "energynear-degenerate implies smallEMkernelb",
+    "recoverQtproxyCI/universalM1staggering/225.8P/time",
+    "Day24formalcreditorDay25",
+    "runquarantined114producers"
+  ]
+}

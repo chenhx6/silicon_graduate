@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-10-25T19:43:28.510156+00:00",
+  "formal_day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "Day25_opened": false,
+  "decision": "continue originalwindow/sameDay24uncreditedpreview",
+  "bounded_result": "40DgoodIrotationalinvariantH+abstractWE tensors,47controls; symmetrynotalonephysicalpartnerconstraints",
+  "next_concrete_route": "Bandmixing vsrepresentationchange andwhichsameI/IfEMblockinvariants canbechecked withrealdata. ReadBark2024targetPDF7/8actualmulti-bandpairing caveatalreadydone; notnewexperiment/whole32reread.",
+  "planned_math": "Forfixedsame-I initial/finalcomplete2stateprojectors andfixedoperator, R->Uf†RUi preservesFrobenius/ΣB andsingularvalues. Magnitudesalone do notgiveallphaseinvariants:real sign choicescanretain4B whilechangingdet/singularvalues. Notallphysicalnuclearoperators realizable andnoactualfit.",
+  "planned_actual_input": "IAEA018samecandidatefamilies:forM1missingA(I)->B(I-1)centralE=-130.7/1.4/125.6/254keV atI31/2..37/2, noneof4forwardorinverserowsfoundinsnapshot; firstdirectgammaisupward, inverseB29/2parentclockblank. DoNOTcallmissingrowexperimentalabsence orB0; higherJpdfplotcomponentstillunresolved.",
+  "boundaries": [
+    "sumBnotΓ sum whenenergiesdifferent",
+    "basischange transformsH+T too, physicalstatemixingatfixedoperatorchangesH",
+    "projectorleakage/configurationspacegrowthinvalidatesclosed2stateinvariance",
+    "unknownloopphase notsameasPr/Audelta/P-Racwithinlineselectivity",
+    "noactualg/Q/delta/tauCI/ratebeamtime",
+    "onlyDay24uncredited/noDay25"
+  ]
+}

@@ -148,3 +148,13 @@ All F01 claims were reviewed by the user on 2026-07-13; `needs_review` is cleare
 | F01-D24P-002 | 本任务的L/R两态设计取C=σxK、H=E0I+tσx、χ=σz，Csymmetry允许任意实t，劈裂2abs(t)；非简并本征态〈χ〉=0而〈χ²〉=1。C-even维数无关算符O=O0I+O1σx可在两本征态给O0±O1；对称性不自动强制不同本征态的标量相等。这是数学控制，非作者原核态、真实g/隧穿能量或实验判据认证。 | declared-two-state-restoration-and-operator-boundary | conditional-task-math | F01-D24P-001 premises; task chiral-antiunitary-preview-017 | true |
 
 原[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24P-001提供signature/planar/aplanar与finitePRM splitting的具体模型边界。反幺正C的“± eigenvalue”会随核态整体phase改变，不能直接当parity或signature那样的相位不变标签；两态toy额外存在的unitary交换σx也不是所有真实核哈密顿量自动具有的新对称性。
+
+## Day23内的Day24无学分预习：good-I多重态中的C与谱学伙伴
+
+以下是沿F01-D24P-001的任务代数延伸，不新增全文阅读/作者模型结果；旧人审flags保持，新条目needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| F01-D24P-003 | 本任务把good-I=1/2,3/2,5/2,7/2的SU2 irreps各取两重multiplicity，构造40维rotationally invariant且T/C对称的抽象H；每个I的两个multiplicity能量仍可不同，而M/Kramers简并留在各自irrep内。这比017的非rotational spin-matrix例更完整地说明C²=+1本身不强制两条不同序列简并；但未定义intrinsic handed geometry或实际核，因此不是某个真实手征体系反例。 | declared-good-spin-symmetry-counterconstruction | conditional-task-math-with-source-premise | F01-D24P-001; printed476 Sec.II.F.5; task model-contract-021 | true |
+
+[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-002进一步检查full-rank tensor/Hermiticity/time parity。任意数学multiplicity不能只按名字认成signature、pseudospin或手征伙伴；真实geometry、configuration与operator约束仍必需。

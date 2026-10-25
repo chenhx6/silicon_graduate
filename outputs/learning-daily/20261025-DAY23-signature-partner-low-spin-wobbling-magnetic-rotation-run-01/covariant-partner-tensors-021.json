@@ -1,0 +1,511 @@
+{
+  "status": "uncredited-abstract-rotation-tensor-preview",
+  "formal_day_index": 23,
+  "preview_day_index": 24,
+  "scope": "40D direct-sum good-spin representations with two multiplicities. No intrinsic handed geometry, nucleus, local one-body EM realization or actual spectral fit.",
+  "levels_dimensionless_design_only": [
+    {
+      "two_I_representation": 1,
+      "multiplicity_alpha": 0,
+      "dimensionless_energy_design": 0.75,
+      "magnetic_multiplet_dimension": 2
+    },
+    {
+      "two_I_representation": 1,
+      "multiplicity_alpha": 1,
+      "dimensionless_energy_design": 1.165,
+      "magnetic_multiplet_dimension": 2
+    },
+    {
+      "two_I_representation": 3,
+      "multiplicity_alpha": 0,
+      "dimensionless_energy_design": 3.75,
+      "magnetic_multiplet_dimension": 4
+    },
+    {
+      "two_I_representation": 3,
+      "multiplicity_alpha": 1,
+      "dimensionless_energy_design": 4.195,
+      "magnetic_multiplet_dimension": 4
+    },
+    {
+      "two_I_representation": 5,
+      "multiplicity_alpha": 0,
+      "dimensionless_energy_design": 8.75,
+      "magnetic_multiplet_dimension": 6
+    },
+    {
+      "two_I_representation": 5,
+      "multiplicity_alpha": 1,
+      "dimensionless_energy_design": 9.225,
+      "magnetic_multiplet_dimension": 6
+    },
+    {
+      "two_I_representation": 7,
+      "multiplicity_alpha": 0,
+      "dimensionless_energy_design": 15.75,
+      "magnetic_multiplet_dimension": 8
+    },
+    {
+      "two_I_representation": 7,
+      "multiplicity_alpha": 1,
+      "dimensionless_energy_design": 16.255,
+      "magnetic_multiplet_dimension": 8
+    }
+  ],
+  "tensor_results": [
+    {
+      "case": "a",
+      "tensor_rank": 1,
+      "rows": [
+        {
+          "two_I_initial_representation": 3,
+          "two_I_final_representation": 1,
+          "dimensionless_RME_design": [
+            [
+              1.0,
+              0.2
+            ],
+            [
+              0.4,
+              1.7
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.25,
+              0.01
+            ],
+            [
+              0.04,
+              0.7224999999999998
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 5,
+          "two_I_final_representation": 3,
+          "dimensionless_RME_design": [
+            [
+              1.4,
+              0.27999999999999997
+            ],
+            [
+              0.5599999999999999,
+              2.38
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.3266666666666665,
+              0.013066666666666662
+            ],
+            [
+              0.05226666666666665,
+              0.9440666666666665
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 7,
+          "two_I_final_representation": 5,
+          "dimensionless_RME_design": [
+            [
+              0.9,
+              0.18000000000000002
+            ],
+            [
+              0.36000000000000004,
+              1.53
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.10125,
+              0.004050000000000001
+            ],
+            [
+              0.016200000000000003,
+              0.2926125
+            ]
+          ]
+        }
+      ],
+      "chosen_three_step_insequence_second_difference": -0.30208333333333304,
+      "chosen_three_step_crosssequence_second_difference": -0.04833333333333329
+    },
+    {
+      "case": "a",
+      "tensor_rank": 2,
+      "rows": [
+        {
+          "two_I_initial_representation": 3,
+          "two_I_final_representation": 1,
+          "dimensionless_RME_design": [
+            [
+              0.6,
+              0.3
+            ],
+            [
+              0.2,
+              1.1
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.08999999999999997,
+              0.022499999999999992
+            ],
+            [
+              0.01,
+              0.3025
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 5,
+          "two_I_final_representation": 3,
+          "dimensionless_RME_design": [
+            [
+              0.84,
+              0.42
+            ],
+            [
+              0.27999999999999997,
+              1.54
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.11759999999999998,
+              0.029399999999999996
+            ],
+            [
+              0.013066666666666666,
+              0.3952666666666667
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 7,
+          "two_I_final_representation": 5,
+          "dimensionless_RME_design": [
+            [
+              0.54,
+              0.27
+            ],
+            [
+              0.18000000000000002,
+              0.9900000000000001
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.036450000000000024,
+              0.009112500000000006
+            ],
+            [
+              0.0040500000000000015,
+              0.12251250000000007
+            ]
+          ]
+        }
+      ],
+      "chosen_three_step_insequence_second_difference": -0.10874999999999996,
+      "chosen_three_step_crosssequence_second_difference": -0.01208333333333333
+    },
+    {
+      "case": "b",
+      "tensor_rank": 1,
+      "rows": [
+        {
+          "two_I_initial_representation": 3,
+          "two_I_final_representation": 1,
+          "dimensionless_RME_design": [
+            [
+              1.0,
+              0.27999999999999997
+            ],
+            [
+              0.5599999999999999,
+              1.7
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.25,
+              0.019599999999999992
+            ],
+            [
+              0.07839999999999997,
+              0.7224999999999998
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 5,
+          "two_I_final_representation": 3,
+          "dimensionless_RME_design": [
+            [
+              1.4,
+              0.1
+            ],
+            [
+              0.2,
+              2.38
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.3266666666666665,
+              0.0016666666666666663
+            ],
+            [
+              0.006666666666666665,
+              0.9440666666666665
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 7,
+          "two_I_final_representation": 5,
+          "dimensionless_RME_design": [
+            [
+              0.9,
+              0.24
+            ],
+            [
+              0.48,
+              1.53
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.10125,
+              0.007199999999999996
+            ],
+            [
+              0.028799999999999985,
+              0.2926125
+            ]
+          ]
+        }
+      ],
+      "chosen_three_step_insequence_second_difference": -0.30208333333333304,
+      "chosen_three_step_crosssequence_second_difference": 0.09386666666666663
+    },
+    {
+      "case": "b",
+      "tensor_rank": 2,
+      "rows": [
+        {
+          "two_I_initial_representation": 3,
+          "two_I_final_representation": 1,
+          "dimensionless_RME_design": [
+            [
+              0.6,
+              0.42
+            ],
+            [
+              0.27999999999999997,
+              1.1
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.08999999999999997,
+              0.044099999999999986
+            ],
+            [
+              0.01959999999999999,
+              0.3025
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 5,
+          "two_I_final_representation": 3,
+          "dimensionless_RME_design": [
+            [
+              0.84,
+              0.15
+            ],
+            [
+              0.1,
+              1.54
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.11759999999999998,
+              0.0037500000000000003
+            ],
+            [
+              0.001666666666666667,
+              0.3952666666666667
+            ]
+          ]
+        },
+        {
+          "two_I_initial_representation": 7,
+          "two_I_final_representation": 5,
+          "dimensionless_RME_design": [
+            [
+              0.54,
+              0.36
+            ],
+            [
+              0.24,
+              0.9900000000000001
+            ]
+          ],
+          "B_over_unknown_scale_squared_rows_final_columns_initial": [
+            [
+              0.036450000000000024,
+              0.016200000000000006
+            ],
+            [
+              0.007200000000000002,
+              0.12251250000000007
+            ]
+          ]
+        }
+      ],
+      "chosen_three_step_insequence_second_difference": -0.10874999999999996,
+      "chosen_three_step_crosssequence_second_difference": 0.023466666666666657
+    }
+  ],
+  "special_EM_kernel_bounds": [
+    {
+      "dimensionless_EM_kernel_epsilon_design": 0.0,
+      "contrast": 0.0,
+      "bound": 0.0,
+      "scope": "Special real L/R transition kernel aI+b*sigma_x, a!=0; epsilon is not measured, not derived from a spectral gap or actual nuclear localization."
+    },
+    {
+      "dimensionless_EM_kernel_epsilon_design": 0.05,
+      "contrast": 0.09975062344139654,
+      "bound": 0.09975062344139651,
+      "scope": "Special real L/R transition kernel aI+b*sigma_x, a!=0; epsilon is not measured, not derived from a spectral gap or actual nuclear localization."
+    },
+    {
+      "dimensionless_EM_kernel_epsilon_design": 0.2,
+      "contrast": 0.3846153846153845,
+      "bound": 0.38461538461538464,
+      "scope": "Special real L/R transition kernel aI+b*sigma_x, a!=0; epsilon is not measured, not derived from a spectral gap or actual nuclear localization."
+    },
+    {
+      "dimensionless_EM_kernel_epsilon_design": 0.8,
+      "contrast": 0.975609756097561,
+      "bound": 0.975609756097561,
+      "scope": "Special real L/R transition kernel aI+b*sigma_x, a!=0; epsilon is not measured, not derived from a spectral gap or actual nuclear localization."
+    },
+    {
+      "dimensionless_EM_kernel_epsilon_design": 1.0,
+      "contrast": 1.0,
+      "bound": 1.0,
+      "scope": "Special real L/R transition kernel aI+b*sigma_x, a!=0; epsilon is not measured, not derived from a spectral gap or actual nuclear localization."
+    }
+  ],
+  "control_errors": {
+    "case_a_rank_1": {
+      "Jz_tensor": 1.1102230246251565e-16,
+      "Jplus_tensor": 4.440892098500626e-16,
+      "spherical_Hermiticity": 2.220446049250313e-16,
+      "time_parity": 1.7577122624107409e-15,
+      "chiral_covariance": 3.3261009663387786e-15,
+      "Wigner_Eckart_B": 1.1102230246251565e-16,
+      "reverse_detailed_balance": 1.7763568394002505e-15
+    },
+    "case_a_rank_2": {
+      "Jz_tensor": 1.1102230246251565e-16,
+      "Jplus_tensor": 4.440892098500626e-16,
+      "spherical_Hermiticity": 8.326672684688674e-17,
+      "time_parity": 6.697292826285267e-16,
+      "chiral_covariance": 1.3391191921535454e-15,
+      "Wigner_Eckart_B": 5.551115123125783e-17,
+      "reverse_detailed_balance": 4.440892098500626e-16
+    },
+    "case_b_rank_1": {
+      "Jz_tensor": 1.1102230246251565e-16,
+      "Jplus_tensor": 4.440892098500626e-16,
+      "spherical_Hermiticity": 2.220446049250313e-16,
+      "time_parity": 1.7577122624107409e-15,
+      "chiral_covariance": 3.3261009663387786e-15,
+      "Wigner_Eckart_B": 1.1102230246251565e-16,
+      "reverse_detailed_balance": 1.7763568394002505e-15
+    },
+    "case_b_rank_2": {
+      "Jz_tensor": 1.1102230246251565e-16,
+      "Jplus_tensor": 4.440892098500626e-16,
+      "spherical_Hermiticity": 8.326672684688674e-17,
+      "time_parity": 6.697292826285267e-16,
+      "chiral_covariance": 1.3391191921535454e-15,
+      "Wigner_Eckart_B": 5.551115123125783e-17,
+      "reverse_detailed_balance": 4.440892098500626e-16
+    }
+  },
+  "controls": {
+    "ordinary_SU2_commutator": true,
+    "rotation_unitarity": true,
+    "halfspin_time_reversal_square_minus1": true,
+    "chiral_antiunitary_square_plus1": true,
+    "chiral_representation_is_minusK": true,
+    "H_commutes_with_all_rotations": true,
+    "H_time_reversal_and_chiral_symmetric": true,
+    "two_multiplicity_sequences_not_forced_degenerate": true,
+    "case_a_rank_1_Jz_tensor": true,
+    "case_a_rank_1_Jplus_tensor": true,
+    "case_a_rank_1_spherical_Hermiticity": true,
+    "case_a_rank_1_time_parity": true,
+    "case_a_rank_1_chiral_covariance": true,
+    "case_a_rank_1_Wigner_Eckart_B": true,
+    "case_a_rank_1_reverse_detailed_balance": true,
+    "case_a_rank_1_partner_insequence_strengths_can_differ": true,
+    "case_a_rank_2_Jz_tensor": true,
+    "case_a_rank_2_Jplus_tensor": true,
+    "case_a_rank_2_spherical_Hermiticity": true,
+    "case_a_rank_2_time_parity": true,
+    "case_a_rank_2_chiral_covariance": true,
+    "case_a_rank_2_Wigner_Eckart_B": true,
+    "case_a_rank_2_reverse_detailed_balance": true,
+    "case_a_rank_2_partner_insequence_strengths_can_differ": true,
+    "case_b_rank_1_Jz_tensor": true,
+    "case_b_rank_1_Jplus_tensor": true,
+    "case_b_rank_1_spherical_Hermiticity": true,
+    "case_b_rank_1_time_parity": true,
+    "case_b_rank_1_chiral_covariance": true,
+    "case_b_rank_1_Wigner_Eckart_B": true,
+    "case_b_rank_1_reverse_detailed_balance": true,
+    "case_b_rank_1_partner_insequence_strengths_can_differ": true,
+    "case_b_rank_2_Jz_tensor": true,
+    "case_b_rank_2_Jplus_tensor": true,
+    "case_b_rank_2_spherical_Hermiticity": true,
+    "case_b_rank_2_time_parity": true,
+    "case_b_rank_2_chiral_covariance": true,
+    "case_b_rank_2_Wigner_Eckart_B": true,
+    "case_b_rank_2_reverse_detailed_balance": true,
+    "case_b_rank_2_partner_insequence_strengths_can_differ": true,
+    "same_listed_symmetries_allow_different_three_step_shape_signs": true,
+    "rank1_crossI_tensor_nonzero_totalJ_crossI_zero": true,
+    "epsilon_0.0_special_real_kernel_bound": true,
+    "epsilon_0.05_special_real_kernel_bound": true,
+    "epsilon_0.2_special_real_kernel_bound": true,
+    "epsilon_0.8_special_real_kernel_bound": true,
+    "epsilon_1.0_special_real_kernel_bound": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day24_preview_covariant_partner_tensors.py": "3ca5d4e6ef74e046feb9cfc310c4c8f2dddb7c970bbef76836a04e72611a1600",
+    "/workspace/wiki/system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "limitations": [
+    "Rank1/2 tensors have M1/E2 transformation/time-parity properties only; arbitrary RMEs are not certified realizable by the actual fixed nuclear one-body magnetic/charge operators.",
+    "Casesa/b change the abstract tensor RMEs under the same symmetry constraints. They are not a fixed-operator configuration-only comparison and have no assigned nuclear credibility.",
+    "The construction is rotationally invariant and T-invariant, unlike the earlier nonrotational spin-matrix example, but it establishes no intrinsic left/right configuration or actual chiral band.",
+    "Magnetic/Kramers degeneracy remains inside each good-I multiplet; it does not force distinct multiplicity energies to coincide.",
+    "Three-step second differences are only chosen mathematical shape examples, not a universal nuclear staggering theorem or measured anomaly.",
+    "Approximate partner equality in the special kernel needs an EM cross-kernel bound; a small energy splitting alone does not supply epsilon. No actual physical g, B, delta, Q, tau, CI or beamtime inferred.",
+    "Specific135Nd electromagnetic/TAC+RPA support is not erased; additional configuration, dynamics, operator and localization evidence still governs physical hypotheses. NoDay24credit/Day25."
+  ]
+}

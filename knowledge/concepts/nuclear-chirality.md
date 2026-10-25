@@ -113,3 +113,25 @@ snapshot的648/649.2和590/591为实际不同endpoints/ΔI例，说明partner-re
 当前135Nd partner map进一步区分：量子/准玻色波函数的归一、同一母态全部衰变的绝对branch归一、对某组已选γ出口的条件归一。后者即使加到1，也不表示那组出口耗尽真实total width。模型振幅/图中B若尚未与母态和normalizer绑定，不能直接充当同一inventory中的绝对分量。
 
 [[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-006/007在一组明确candidate binding中得到out-only q约.98，而in+out超过1；这是可证伪的输入组合诊断，**不是认定作者使用了某种归一或paper错误**。[[almehed-2011-chiral-vibrations-a135]] AL11-D24P-001/002与[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-001锁定m、B与γ率定义。必要伴随输入变成具体问题：每个图点的parent/Jf/γ、是absolute还是selected-channel quantity、所用total/partialτ及branch/IC normalization是什么？没有ledger就保留多种解释，不拟新δ/τ/CI/g或机时。仍仅同一个Day24无学分preview。
+
+## Day23内的Day24无学分预习：哪些强度关系来自额外动力学
+
+[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D24P-003与[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-002/003在完整good-I多重态中扩展017逻辑。这里H在每个I、multiplicity上为一个标量乘identity，所以与所有转动、T和C相容；不同multiplicity的能量仍可不等。真正半整数T/Kramers和M简并在各自irrep内，不因此强迫两条不同的谱学序列。
+
+构造遵守
+
+$$\langle I_fM_f,\beta|T_{\lambda\mu}|I_iM_i,\alpha\rangle=
+\frac{\langle I_iM_i,\lambda\mu|I_fM_f\rangle}{\sqrt{2I_f+1}}
+R_{\lambda;\beta\alpha},$$
+
+并以反向RME/Hermitian phase闭合全部μ分量。两套声明的real RME满足rank1磁time-odd、rank2电time-even变换及C covariance，仍可让两组in-sequence强度不等；所选三步in/cross强度的第二差分符号也可相同或相反。47个旋转/adjoint/time/C/CG与bound控制通过，最大tensor残差约3.4e−15。
+
+这个模型没有核素、intrinsic三角架或局域化波函数；real RME是抽象设计、未知tensor尺度已因子化，**不等于实际one-body M1/E2可以任意取值**。两case改变了数学tensor，因此不是本卡要求的固定H/operator只换configuration，也不是对135Nd的拟合或真实反例。它只阻止把“纯C对称”当成partner B相等/通用staggering的完整证明；实核dynamics仍可能给强而可检验的预报。
+
+在一个额外受限的实L/R kernel中，若M=aI+bσx，B±正比(a±b)²。于是
+
+$$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
+|b/a|\le\epsilon\le1\ \Longrightarrow\
+\left|\frac{B_+-B_-}{B_++B_-}\right|\le\frac{2\epsilon}{1+\epsilon^2}.$$
+
+等强在这里依赖小EM cross-kernel这一额外条件，不能只由能谱小gap为ε赋数。没有真实operator/局域化/混合及Cov，就不把该界转成Qt形变1% CI、physicalg equality gate或模式排他认证。[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的特定强度图样与具体TAC/RPA一致仍是支持链；这个数学边界既不抹掉它，也不验证其原γ/normalizer ledger。仍只有Day24无学分预习。
