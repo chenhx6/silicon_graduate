@@ -410,3 +410,9 @@ uniform Cn、n>4使ηq=0 (q=1…4)，足够消去所有offdiagonal；这不是n>
 | 替代/反证 | 冻势约17ℏ终止及E2压制给有条件可检验趋势 | 只改标签的same-H实验、全核区排他结论 |
 
 可证伪问题：在明确fixed configuration/算符与配对适用范围下，**能量之外的寿命/完整分支B(E2)及J2，能否共同支持同一随spin的形变与alignment轨迹？** 必要输入是原τ、sidefeeding/branch/ICC与系统误差，以及对应model density/occupation，而非从图读一个下降趋势再赋新机时。当前原2010实验与2013Comment/Reply仍未核，外部原模型正式归档deferred，故保needs_review:true。Pr/Au争议不否决这个AMR模型支持，反过来也不拿105Cd替代Pr/Au的逐线证据。
+
+## Day23：同母态、同分母还须同一绝对归一
+
+Day24无学分preview的135Nd诊断（[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-006/007）对本卡A槽提供一个方法桥：相近图点/同spin/相同B标签仍不足以证明可相加、相除或用于δ。需同时绑定γ的parent/daughter、multipole component、能量幂与absolute/conditional normalizer；同parent的M1_in与E2_in也可能属于ΔI1/2不同支路，不能直接当混合γ两成分。
+
+模型component标签m对应I→I−m见[[almehed-2011-chiral-vibrations-a135]] AL11-D24P-001，B到光子率见[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-001。多量联合比较应先核这个quantity identity再比较数值；未闭合时不由形式可行的normalization重解释赋同等可信度、不把legacy budget控制当paper-error认证。此方法迁移不把135Nd物理结果迁到Pr/Au，也不授Day24学分。

@@ -377,3 +377,18 @@ NuDat3 `getdataset.jsp?nucleus=135ND&unc=nds`本次HTTP429，未自动循环重�
 `system/scripts/day24_preview_mu07_vector_plot.py`纯读文本命令，19项frame/tick/halfspin/data-vs-legend/bar/envelope/TableI控制通过；初次literal-frame检查因`.1500`与source的`0.1500`字符串不同失败，改为原literal写法后重跑，未调整任何科学点。Source图面四位小数本身限制精度，不能把输出浮点位数当更多实验有效数字；±.00005仅声明nearest-rounding模型，不自动涵盖truncation/其它图变换。MU07-8/13的旧手工读图可由此减少表示误差，MU07-9/10/16的parent/component/branch假设却**没有因此认证**，更不据旧条件budget判作者错误。
 
 关键残余缺口是：图例只给BandB→BandA，没有逐点γ能量、finalI、多极component及原branch/IC/响应ledger。归档有drawings/TeX/bibliography，未提供raw spectra、data/AGR输入或分析producer。新可读表示支持更可复核的图点转录，不增加独立物理证据票，不恢复Qt代理CI、225.8P正号/机时排他认证。新needs_review:true。
+
+## Day23内的Day24无学分预习：检验绝对宽度与selected-outlet归一假说
+
+本节是**compound hypothesis诊断，不是论文错误判定或新实测分支**。使用实际source TeX/roundedPS与135Nd API候选端点，率定义来自[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-001。[[almehed-2011-chiral-vibrations-a135]] AL11-D24P-001/002表明不同m/归一不能自动互换，未提供本核missing line ledger。
+
+声明H_abs同时假定：(i)图I为TableI BandB同一initial parent；(ii)图中的M1_out/E2_out为绝对physical component B；(iii)M1_out走648/639/590/556keV的ΔI1候选，E2_out走896/930/949/963keV的ΔI2候选；(iv)表内M1_in/E2_in分别走226/282.1/309/371.2与399/508/591/682keV；(v)TableI的τ是这个parent的total mean lifetime。所有这些binding未由作者source逐点ledger共同认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D24P-006 | 在H_abs四个I=31/2…37/2中心输入中，qγ=τΣλγ的in-only为.85076/.82217/.88874/.98551，out-pair-only为.98743/.97775/.98876/.97684，合计1.83820/1.79993/1.87750/1.96235。它们与同一parent的photon库存≤1不相容；非负IC/漏枝不能减少该photon总和。只否定该compound中央绑定，不否定原实验、作者B定义或手征解释，也未用未知Cov报告显著性。 | compound-binding-centre-diagnostic | declared-hypothesis-and-source-data-arithmetic | MU07 TableI; arxiv0708.1493v2 fig2.ps/fig3.ps EARCs; API135Nd IDs asinput-contract020; LKH82-D24P-001 | true |
+| MU07-D24P-007 | 该候选out-pair中，从drawnB派生的M1 photon份额为.59170/.48408/.18809/.28066，API这两条totalγ relativeI的份额为.60000/.47712/.18584/.28571；out-only q接近1与该shape近似构成一个值得查ledger的selected-outlet归一候选。它不证明作者作了条件归一；648为mixed line，totalI不等其M1component，不据差值反演δ。不同parent/line/component或其它normalizer仍是竞争假说，未给各自可信度/fit胜负。 | alternative-normalization-readiness-hypothesis | bounded-diagnostic-not-author-attribution | MU07-D24P-006 inputs; officialAPI relativeI rows648/896,639/930,590/949,556/963 | true |
+
+`system/scripts/day24_preview_mu07_inventory_hypothesis.py`实际读取author TeX/PS与CSV，不用历史outputs认证为事实源；22项单位/能量幂/源端点spin/非负/homogeneity检查通过。这里的derivedλ是**条件核光子部分宽度**，不是设施探测率/新机时。代码没有用IC补齐库存、没有给normalizer实测值，也没有修改任何published B/τ。
+
+若选H_cond为解释，需要原normalizer和absolute radiative branching说明，才能把selected-outlet quantities与真正的同parent绝对B/width对应；数学上给某个未知scale留可行域不代表这个解释与原模型同等可信。若选H_other，必须明确到底改变哪个parent/Jf/component/plot-I含义。最高信息输入是作者原branch/normalization ledger，而不是增加小数位或从数据域内任意缩放。本节不能恢复旧MU07父预算“paper-error”式强结论、Qt代理CI或225.8偏振/机时排他认证；新needs_review:true。

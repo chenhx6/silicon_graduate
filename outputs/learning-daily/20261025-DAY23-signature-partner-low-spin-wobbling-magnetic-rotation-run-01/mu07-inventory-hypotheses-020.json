@@ -1,0 +1,368 @@
+{
+  "status": "compound-binding-and-normalization-diagnostic-only",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "source_premises": [
+    "LKH82 printed121Eq2.2/2.3 Gaussian photon rate and B definition",
+    "actualMU07 TeX/TableI+roundedauthorPS019",
+    "actualIAEA135Ndgamma snapshot018; binding is hypothetical"
+  ],
+  "declared_constants": {
+    "hbar_MeV_s": 6.582119569e-22,
+    "hbarc_MeV_fm": 197.3269804,
+    "fine_structure_alpha": 0.0072973525693,
+    "proton_mass_MeV": 938.27208816
+  },
+  "derived_rate_coefficients": {
+    "C_M1_ps_inverse_MeV_minus3_muN_minus2": 17.58366182661953,
+    "C_E2_ps_inverse_MeV_minus5_e2b2_inverse": 12.251867244220264,
+    "sqrt_CE2_over_CM1": 0.8347308795168448
+  },
+  "results": [
+    {
+      "two_I_plot_candidate_parent": 31,
+      "TableI_B_mean_tau_ps_centre": 1.46,
+      "components_under_declared_binding": {
+        "M1in": {
+          "snapshot_id": [
+            "59",
+            "56",
+            "0"
+          ],
+          "source_E_gamma_keV_string": "226",
+          "source_Ji_string": "(31/2-)",
+          "source_Jf_string": "(29/2-)",
+          "source_multipolarity_string": "(M1(+E2))",
+          "source_relative_I_gamma_string": "100",
+          "B_from_TableI_or_rounded_plot": 2.7,
+          "conditional_photon_partial_width_ps_inverse": 0.5480225186107069,
+          "conditional_tau_times_width": 0.8001128771716322
+        },
+        "E2in": {
+          "snapshot_id": [
+            "59",
+            "54",
+            "1"
+          ],
+          "source_E_gamma_keV_string": "399",
+          "source_Ji_string": "(31/2-)",
+          "source_Jf_string": "(27/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "5.6",
+          "B_from_TableI_or_rounded_plot": 0.28,
+          "conditional_photon_partial_width_ps_inverse": 0.034691636893226754,
+          "conditional_tau_times_width": 0.05064978986411106
+        },
+        "M1out": {
+          "snapshot_id": [
+            "59",
+            "52",
+            "2"
+          ],
+          "source_E_gamma_keV_string": "648",
+          "source_Ji_string": "(31/2-)",
+          "source_Jf_string": "(29/2-)",
+          "source_multipolarity_string": "(M1+E2)",
+          "source_relative_I_gamma_string": "3.3",
+          "B_from_TableI_or_rounded_plot": 0.08364213869772366,
+          "conditional_photon_partial_width_ps_inverse": 0.40018376824301854,
+          "conditional_tau_times_width": 0.584268301634807
+        },
+        "E2out": {
+          "snapshot_id": [
+            "59",
+            "48",
+            "3"
+          ],
+          "source_E_gamma_keV_string": "896",
+          "source_Ji_string": "(31/2-)",
+          "source_Jf_string": "(27/2-)",
+          "source_multipolarity_string": "(E2)",
+          "source_relative_I_gamma_string": "2.2",
+          "B_from_TableI_or_rounded_plot": 0.03902912621359223,
+          "conditional_photon_partial_width_ps_inverse": 0.27614116899525853,
+          "conditional_tau_times_width": 0.40316610673307746
+        }
+      },
+      "conditional_in_only_photon_inventory": 0.8507626670357432,
+      "conditional_out_pair_photon_inventory": 0.9874344083678845,
+      "compound_H_absolute_same_parent_total_photon_inventory": 1.8381970754036279,
+      "compound_H_absolute_central_assignment_feasible": false,
+      "out_pair_M1_component_fraction_from_drawn_B": 0.591703404989234,
+      "out_pair_total_gamma_fraction_from_export_relative_I": 0.6,
+      "difference_is_diagnostic_not_delta_fit": -0.008296595010765961,
+      "necessary_upper_scale_f_for_out_pair_if_in_components_held": 0.15113645189955344,
+      "bound_scope": "Only if graph I, B components, candidate lines and total mean lifetime are all bound as specified. Out-pair-only closure/shape suggests a testable selected-outlet normalization alternative, not evidence that authors used it. The scale domain is not a branch measurement or confidence interval; no source B is replaced."
+    },
+    {
+      "two_I_plot_candidate_parent": 33,
+      "TableI_B_mean_tau_ps_centre": 0.87,
+      "components_under_declared_binding": {
+        "M1in": {
+          "snapshot_id": [
+            "61",
+            "59",
+            "0"
+          ],
+          "source_E_gamma_keV_string": "282.1",
+          "source_Ji_string": "(33/2-)",
+          "source_Jf_string": "(31/2-)",
+          "source_multipolarity_string": "[M1]",
+          "source_relative_I_gamma_string": "100",
+          "B_from_TableI_or_rounded_plot": 2.1,
+          "conditional_photon_partial_width_ps_inverse": 0.8289682094956892,
+          "conditional_tau_times_width": 0.7212023422612496
+        },
+        "E2in": {
+          "snapshot_id": [
+            "61",
+            "56",
+            "1"
+          ],
+          "source_E_gamma_keV_string": "508",
+          "source_Ji_string": "(33/2-)",
+          "source_Jf_string": "(29/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "11",
+          "B_from_TableI_or_rounded_plot": 0.28,
+          "conditional_photon_partial_width_ps_inverse": 0.11605901359433751,
+          "conditional_tau_times_width": 0.10097134182707364
+        },
+        "M1out": {
+          "snapshot_id": [
+            "61",
+            "55",
+            "2"
+          ],
+          "source_E_gamma_keV_string": "639",
+          "source_Ji_string": "(33/2-)",
+          "source_Jf_string": "(31/2-)",
+          "source_multipolarity_string": "[M1]",
+          "source_relative_I_gamma_string": "7.3",
+          "B_from_TableI_or_rounded_plot": 0.11858125992588671,
+          "conditional_photon_partial_width_ps_inverse": 0.5440363993122781,
+          "conditional_tau_times_width": 0.47331166740168196
+        },
+        "E2out": {
+          "snapshot_id": [
+            "61",
+            "52",
+            "3"
+          ],
+          "source_E_gamma_keV_string": "930",
+          "source_Ji_string": "(33/2-)",
+          "source_Jf_string": "(29/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "8",
+          "B_from_TableI_or_rounded_plot": 0.06802588996763755,
+          "conditional_photon_partial_width_ps_inverse": 0.5798174176541282,
+          "conditional_tau_times_width": 0.5044411533590916
+        }
+      },
+      "conditional_in_only_photon_inventory": 0.8221736840883233,
+      "conditional_out_pair_photon_inventory": 0.9777528207607735,
+      "compound_H_absolute_same_parent_total_photon_inventory": 1.7999265048490969,
+      "compound_H_absolute_central_assignment_feasible": false,
+      "out_pair_M1_component_fraction_from_drawn_B": 0.4840811065453188,
+      "out_pair_total_gamma_fraction_from_export_relative_I": 0.4771241830065359,
+      "difference_is_diagnostic_not_delta_fit": 0.006956923538782855,
+      "necessary_upper_scale_f_for_out_pair_if_in_components_held": 0.18187246524465456,
+      "bound_scope": "Only if graph I, B components, candidate lines and total mean lifetime are all bound as specified. Out-pair-only closure/shape suggests a testable selected-outlet normalization alternative, not evidence that authors used it. The scale domain is not a branch measurement or confidence interval; no source B is replaced."
+    },
+    {
+      "two_I_plot_candidate_parent": 35,
+      "TableI_B_mean_tau_ps_centre": 0.64,
+      "components_under_declared_binding": {
+        "M1in": {
+          "snapshot_id": [
+            "66",
+            "61",
+            "0"
+          ],
+          "source_E_gamma_keV_string": "309",
+          "source_Ji_string": "(35/2-)",
+          "source_Jf_string": "(33/2-)",
+          "source_multipolarity_string": "[M1]",
+          "source_relative_I_gamma_string": "100",
+          "B_from_TableI_or_rounded_plot": 2.2,
+          "conditional_photon_partial_width_ps_inverse": 1.141320036986899,
+          "conditional_tau_times_width": 0.7304448236716153
+        },
+        "E2in": {
+          "snapshot_id": [
+            "66",
+            "59",
+            "2"
+          ],
+          "source_E_gamma_keV_string": "591",
+          "source_Ji_string": "(35/2-)",
+          "source_Jf_string": "(31/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "25",
+          "B_from_TableI_or_rounded_plot": 0.28,
+          "conditional_photon_partial_width_ps_inverse": 0.24734191453019178,
+          "conditional_tau_times_width": 0.15829882529932274
+        },
+        "M1out": {
+          "snapshot_id": [
+            "66",
+            "60",
+            "1"
+          ],
+          "source_E_gamma_keV_string": "590",
+          "source_Ji_string": "(35/2-)",
+          "source_Jf_string": "(33/2-)",
+          "source_multipolarity_string": "[M1]",
+          "source_relative_I_gamma_string": "2.1",
+          "B_from_TableI_or_rounded_plot": 0.08046585494970884,
+          "conditional_photon_partial_width_ps_inverse": 0.290587539496015,
+          "conditional_tau_times_width": 0.1859760252774496
+        },
+        "E2out": {
+          "snapshot_id": [
+            "66",
+            "55",
+            "3"
+          ],
+          "source_E_gamma_keV_string": "949",
+          "source_Ji_string": "(35/2-)",
+          "source_Jf_string": "(31/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "9.2",
+          "B_from_TableI_or_rounded_plot": 0.13300970873786408,
+          "conditional_photon_partial_width_ps_inverse": 1.2543440871235045,
+          "conditional_tau_times_width": 0.8027802157590429
+        }
+      },
+      "conditional_in_only_photon_inventory": 0.888743648970938,
+      "conditional_out_pair_photon_inventory": 0.9887562410364925,
+      "compound_H_absolute_same_parent_total_photon_inventory": 1.8774998900074307,
+      "compound_H_absolute_central_assignment_feasible": false,
+      "out_pair_M1_component_fraction_from_drawn_B": 0.1880908737248473,
+      "out_pair_total_gamma_fraction_from_export_relative_I": 0.1858407079646018,
+      "difference_is_diagnostic_not_delta_fit": 0.002250165760245504,
+      "necessary_upper_scale_f_for_out_pair_if_in_components_held": 0.11252151583127733,
+      "bound_scope": "Only if graph I, B components, candidate lines and total mean lifetime are all bound as specified. Out-pair-only closure/shape suggests a testable selected-outlet normalization alternative, not evidence that authors used it. The scale domain is not a branch measurement or confidence interval; no source B is replaced."
+    },
+    {
+      "two_I_plot_candidate_parent": 37,
+      "TableI_B_mean_tau_ps_centre": 0.48,
+      "components_under_declared_binding": {
+        "M1in": {
+          "snapshot_id": [
+            "69",
+            "66",
+            "0"
+          ],
+          "source_E_gamma_keV_string": "371.2",
+          "source_Ji_string": "(37/2-)",
+          "source_Jf_string": "(35/2-)",
+          "source_multipolarity_string": "[M1]",
+          "source_relative_I_gamma_string": "100",
+          "B_from_TableI_or_rounded_plot": 1.7,
+          "conditional_photon_partial_width_ps_inverse": 1.5289107938636362,
+          "conditional_tau_times_width": 0.7338771810545454
+        },
+        "E2in": {
+          "snapshot_id": [
+            "69",
+            "61",
+            "2"
+          ],
+          "source_E_gamma_keV_string": "682",
+          "source_Ji_string": "(37/2-)",
+          "source_Jf_string": "(33/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "33",
+          "B_from_TableI_or_rounded_plot": 0.29,
+          "conditional_photon_partial_width_ps_inverse": 0.5242303415070834,
+          "conditional_tau_times_width": 0.2516305639234
+        },
+        "M1out": {
+          "snapshot_id": [
+            "69",
+            "63",
+            "1"
+          ],
+          "source_E_gamma_keV_string": "556",
+          "source_Ji_string": "(37/2-)",
+          "source_Jf_string": "(35/2-)",
+          "source_multipolarity_string": "[M1]",
+          "source_relative_I_gamma_string": "5.2",
+          "B_from_TableI_or_rounded_plot": 0.18898888300688194,
+          "conditional_photon_partial_width_ps_inverse": 0.5711760064690634,
+          "conditional_tau_times_width": 0.2741644831051504
+        },
+        "E2out": {
+          "snapshot_id": [
+            "69",
+            "60",
+            "3"
+          ],
+          "source_E_gamma_keV_string": "963",
+          "source_Ji_string": "(37/2-)",
+          "source_Jf_string": "(33/2-)",
+          "source_multipolarity_string": "[E2]",
+          "source_relative_I_gamma_string": "13",
+          "B_from_TableI_or_rounded_plot": 0.1442718446601942,
+          "conditional_photon_partial_width_ps_inverse": 1.4639131186801395,
+          "conditional_tau_times_width": 0.7026782969664669
+        }
+      },
+      "conditional_in_only_photon_inventory": 0.9855077449779454,
+      "conditional_out_pair_photon_inventory": 0.9768427800716173,
+      "compound_H_absolute_same_parent_total_photon_inventory": 1.9623505250495628,
+      "compound_H_absolute_central_assignment_feasible": false,
+      "out_pair_M1_component_fraction_from_drawn_B": 0.28066387825996936,
+      "out_pair_total_gamma_fraction_from_export_relative_I": 0.28571428571428575,
+      "difference_is_diagnostic_not_delta_fit": -0.005050407454316397,
+      "necessary_upper_scale_f_for_out_pair_if_in_components_held": 0.014835811163995238,
+      "bound_scope": "Only if graph I, B components, candidate lines and total mean lifetime are all bound as specified. Out-pair-only closure/shape suggests a testable selected-outlet normalization alternative, not evidence that authors used it. The scale domain is not a branch measurement or confidence interval; no source B is replaced."
+    }
+  ],
+  "controls": {
+    "M1_rate_coefficient_two_unit_routes": true,
+    "E2_rate_coefficient_two_unit_routes": true,
+    "rate_ratio_matches_printed_rounded_point835_kinematic_coefficient": true,
+    "positive_fixed_rate_coefficients": true,
+    "M1_energy_cube_scaling": true,
+    "E2_energy_fifth_scaling": true,
+    "I2_31_all_declared_endpoint_spin_differences": true,
+    "I2_31_all_conditional_component_widths_nonnegative": true,
+    "I2_31_tau_width_inventory_homogeneity": true,
+    "I2_31_photon_shape_fractions_in_unit_interval": true,
+    "I2_33_all_declared_endpoint_spin_differences": true,
+    "I2_33_all_conditional_component_widths_nonnegative": true,
+    "I2_33_tau_width_inventory_homogeneity": true,
+    "I2_33_photon_shape_fractions_in_unit_interval": true,
+    "I2_35_all_declared_endpoint_spin_differences": true,
+    "I2_35_all_conditional_component_widths_nonnegative": true,
+    "I2_35_tau_width_inventory_homogeneity": true,
+    "I2_35_photon_shape_fractions_in_unit_interval": true,
+    "I2_37_all_declared_endpoint_spin_differences": true,
+    "I2_37_all_conditional_component_widths_nonnegative": true,
+    "I2_37_tau_width_inventory_homogeneity": true,
+    "I2_37_photon_shape_fractions_in_unit_interval": true
+  },
+  "all_controls_pass": true,
+  "frozen_actual_input_sha256": {
+    "tmp/day23-originals/mu07-arxiv-source019/ndchiralrev4.tex": "be2e5d49a2a42aaa293121fb154e74c639dfaad2c700835b82e37b6dcaeab60b",
+    "tmp/day23-originals/mu07-arxiv-source019/fig2.ps": "da4f4fa93cd03b705ff768a96ece28686b152ae9a01d5a0aba5bcb84eeb9c1fd",
+    "tmp/day23-originals/mu07-arxiv-source019/fig3.ps": "47718e87ba4b800dbe83ef727e03d5c280199526fb2c66c7e6c653bfb33a52f8",
+    "tmp/day23-originals/iaea-nd135-gammas-018.csv": "153f5735282b2ce8cc7932f38d0a9aa14d604704fa82177123922c25c4af65b4"
+  },
+  "implementation_sha256": {
+    "/workspace/wiki/system/scripts/day24_preview_mu07_inventory_hypothesis.py": "eafdbe411b5f9dffed4320b71bfd50fd292d7543aaf26d703a21ec09f5e1f4bc",
+    "/workspace/wiki/system/scripts/day24_preview_mu07_vector_plot.py": "cf11d23e7fe9d98a942d4ac41e73cf03f7e3f6e83254ad54512f83c04e10e708",
+    "/workspace/wiki/system/scripts/day24_preview_nd135_export_identity.py": "2795feecfda69ac17561d8f8b80728a28670daa81e2dc07714ecbb6ff627d3e5"
+  },
+  "limitations": [
+    "H_abs is a compound parent/line/component/absolute-normalization interpretation. A central over-budget outcome rejects that joint assignment only, not the paper, published observations or chirality.",
+    "An approximately unit out-pair inventory is a representation/normalization clue, not proof of a conditioned normalization or a choice of a more credible interpretation.",
+    "H_cond would need explicit original branch/normalizer documentation; H_other could change initial I, line or component. No likelihood or equal plausibility is assigned.",
+    "The first648 outlet is mixed in the export. Its total gamma relative intensity need not equal its M1 photon-component intensity; no delta is inferred from shape comparisons.",
+    "No internal conversion, unknown omitted branch or experimental covariance/uncertainty propagation is supplied. Nonnegative extra decay cannot reduce an already over-budget photon-only assignment.",
+    "The widths are conditional nuclear photon decay quantities, not new detector rates, facility yield or beamtime. No physical g/Q/delta/new tau/CI calculated.",
+    "AL11 multiple-m transition formalism does not supply135Nd line identities or original experimental normalizers; neighbouring-nucleus curves are not substituted."
+  ]
+}

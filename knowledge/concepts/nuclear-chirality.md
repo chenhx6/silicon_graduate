@@ -107,3 +107,9 @@ snapshot的648/649.2和590/591为实际不同endpoints/ΔI例，说明partner-re
 [[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-004/005取得官方作者TeX/矢量图，原TableI版本相符，绘制坐标与误差棒可纯文本重建；这比仅从raster图手工读值更可复核，但仍是同一论文的表示层。
 
 当前135Nd partner map把三件事分开：**图点画在哪里**可由作者vector source缩小转录误差；**图点对应哪条γ/component/parent**仍缺逐线ledger；**由这些量支持哪种手征动力学**还需完整模型和独立伴随观测。19项解析控制不把后两项自动补齐。用TableI denominator构造out/in仍需同母态/组件条件，也不把rounding或errorbar端点包络称CI。无新实验、physicalg或核态/机时；仅同一Day24无学分预习。
+
+## Day23内的Day24无学分预习：三种归一必须分开
+
+当前135Nd partner map进一步区分：量子/准玻色波函数的归一、同一母态全部衰变的绝对branch归一、对某组已选γ出口的条件归一。后者即使加到1，也不表示那组出口耗尽真实total width。模型振幅/图中B若尚未与母态和normalizer绑定，不能直接充当同一inventory中的绝对分量。
+
+[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-006/007在一组明确candidate binding中得到out-only q约.98，而in+out超过1；这是可证伪的输入组合诊断，**不是认定作者使用了某种归一或paper错误**。[[almehed-2011-chiral-vibrations-a135]] AL11-D24P-001/002与[[lange-kumar-hamilton-1982-multipole-admixtures]] LKH82-D24P-001锁定m、B与γ率定义。必要伴随输入变成具体问题：每个图点的parent/Jf/γ、是absolute还是selected-channel quantity、所用total/partialτ及branch/IC normalization是什么？没有ledger就保留多种解释，不拟新δ/τ/CI/g或机时。仍仅同一个Day24无学分preview。

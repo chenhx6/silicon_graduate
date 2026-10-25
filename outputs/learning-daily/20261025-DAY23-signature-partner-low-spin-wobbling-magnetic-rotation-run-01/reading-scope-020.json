@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-25T19:09:54.332249+00:00",
+  "formal_day_index": 23,
+  "uncredited_preview_day": 24,
+  "AL11": {
+    "actual_scope": "PDF7/8/10/11 targetedRPAroles/m/Eqs15-18/Ndnotshown",
+    "sha256": "becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b",
+    "actual_file": "tmp/day21-checkpoint051/almehed-2011-arxiv07090969v2.pdf",
+    "fresh_visual": [
+      11
+    ],
+    "not_full18_reread": true
+  },
+  "LKH82": {
+    "actual_scope": "printed121/PDF3Eq2.2/2.3andunits",
+    "sha256": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb",
+    "fresh_visual": 3,
+    "not_full76_reread": true
+  },
+  "math": "ratesderivedfromdeclaredconstants+sourceformula andactualTeX/vector/CSV, no modeljob orauthornormalizer recovered",
+  "newhypothesis_not_author_attribution": true,
+  "all_newclaims_needs_review": true
+}

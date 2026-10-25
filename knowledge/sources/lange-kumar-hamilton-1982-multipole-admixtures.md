@@ -3,7 +3,7 @@ type: source
 title: "Lange, Kumar & Hamilton 1982 - E0-E2-M1 multipole admixtures in even-even nuclei"
 aliases: [Lange Kumar Hamilton 1982 mixing-ratio review]
 created: 2026-09-21
-updated: 2026-10-08
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: review-and-data-compilation
@@ -423,3 +423,13 @@ Pmin>Uextra 且 Amax 有限才认证 positive G。在 Γγ=0 处，**直接** li
 
 - Day8 方法依赖回链：[[spin-parity-assignment]] 保存 spin/parity/multipolarity 的观测与共享输入审计；[[multipole-mixing-ratio]] 保存三例全候选及 convention 边界。
 - 寿命/强度回链：[[high-spin-lifetime-strength-deformation]] 和 [[mukhopadhyay-2008-136nd-transition-rates]] 保存 rate-to-B 约定、分支完整性与同一实验数据依赖；没有增加独立实验重复。
+
+## Day23内的Day24无学分预习：率系数与同母态库存
+
+本轮定向回读/fresh视觉printed121/PDF3 Eqs2.2–2.3及单位，原76页raw SHA ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb相符，不新称全文摄入。以下数值系数是任务由公式换算，不是作者直接印出的常数表。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LKH82-D24P-001 | 本任务声明ℏ=6.582119569e−22MeV s、ℏc=197.3269804MeV fm、α=7.2973525693e−3、mpc²=938.27208816MeV，用Eq2.2及磁矩eℏ/(2mpc)的Gaussian单位得cM1=17.58366 ps⁻¹MeV⁻³μN⁻²、cE2=12.25187 ps⁻¹MeV⁻⁵(e²b²)⁻¹；两路单位化相符，sqrt(cE2/cM1)=.834731与印刷.835相容。固定同母态total meanτ时，各独立photon component须有τΣλγ≤1；这不是detector counting rate，也不从marginal误差恢复实际CI。 | task-unit-conversion-and-conditional-inventory | directly-read-formula-plus-declared-arithmetic | printed121 Eqs.2.2–2.3c and2.6; task input-contract-020 | true |
+
+若“B_out”实际使用的是selected-outlet条件归一或不同母态/组件，就不能在未映射前把它与另一组absoluteB相加。[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24P-006/007只检验指定输入组合，不据此认定作者错误、补分支或计算新实验强度。

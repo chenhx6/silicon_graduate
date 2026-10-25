@@ -1,0 +1,125 @@
+{
+  "recorded_at": "2026-10-25T19:03:34.637873+00:00",
+  "sources": [
+    "MU07TableImeanlifetimes/Bunits,officialvectorcoordinates019",
+    "actualIAEA135Ndendpoint/relativeI snapshots018, sameparenthypothesis unverified",
+    "AL11actualtargetreadPDF7/8/10/11Eqs15-18:labcomponentm fixesI->I-m,135Ndnotshown; not source of missingNdlineledger",
+    "LKH82actualPDF3Eq2.2/2.3, qγ=E/(hbarc), nuclearM1 magneton consistentGaussianunits"
+  ],
+  "question": "If graphoutM1 is selectedDeltaI1 andgraphoutE2 selectedDeltaI2, bothfromtheTableIBparent, what photoninventory results? Does near-unitout-pair inventory suggest a testable selected-outlet normalization alternative, withoutclaiming author did this?",
+  "declared_hypothesis": "H_abs: publisheddrawnB absolutephysicalcomponentstrengths,plotI=initialTableBparent, candidateAPIlineIDs. H_cond: numbersrepresentout-pair-normalized effective strengths requiringunknownabsolutebranchscale. H_other: parent/line/component differs. These are hypotheses, not assignedcredibility or paper-errorproof.",
+  "line_ids_by_two_I": {
+    "31": {
+      "M1in": [
+        "59",
+        "56",
+        "0"
+      ],
+      "E2in": [
+        "59",
+        "54",
+        "1"
+      ],
+      "M1out": [
+        "59",
+        "52",
+        "2"
+      ],
+      "E2out": [
+        "59",
+        "48",
+        "3"
+      ]
+    },
+    "33": {
+      "M1in": [
+        "61",
+        "59",
+        "0"
+      ],
+      "E2in": [
+        "61",
+        "56",
+        "1"
+      ],
+      "M1out": [
+        "61",
+        "55",
+        "2"
+      ],
+      "E2out": [
+        "61",
+        "52",
+        "3"
+      ]
+    },
+    "35": {
+      "M1in": [
+        "66",
+        "61",
+        "0"
+      ],
+      "E2in": [
+        "66",
+        "59",
+        "2"
+      ],
+      "M1out": [
+        "66",
+        "60",
+        "1"
+      ],
+      "E2out": [
+        "66",
+        "55",
+        "3"
+      ]
+    },
+    "37": {
+      "M1in": [
+        "69",
+        "66",
+        "0"
+      ],
+      "E2in": [
+        "69",
+        "61",
+        "2"
+      ],
+      "M1out": [
+        "69",
+        "63",
+        "1"
+      ],
+      "E2out": [
+        "69",
+        "60",
+        "3"
+      ]
+    }
+  },
+  "photon_rate_formula": "lambdaγ(XL)=8π(L+1)/(L[(2L+1)!!]^2*hbar)*(E/(hbarc))^(2L+1)*B_Gaussian; convertB(M1)[muN²] via e²(hbarc/(2mp))² andB(E2)[e²b²] viae²1e4fm4. e²=alpha*hbarc. ratepsinverse; NOT facility countingrate.",
+  "constants": "declared conventional CODATA-style approximate hbar6.582119569e-22MeVs,hbarc197.3269804MeVfm,alpha7.2973525693e-3,mp938.27208816MeV. No constantfit or experimentalCI. Compare sqrt(cE2/cM1) to printedrounded.835 asunitcheck.",
+  "inventory": "q_i=meanτ*lambdaγ_i. UnderH_abs distinctsameparentcomponents haveq_in+q_out<=1; positiveIC/others cannotrescueoverbudget. q_outalone anditsnormalizedshape diagnostic, not measuredbranchfractionwithoutbinding.",
+  "comparisons": "relativeIoutM1/relativeIoutE2 is totalphotonratio inexport, first648mixed so notnecessarilyM1componentratio. Do notinferdeltaorfitphases fromnearshapeagreement. Conditional listedtotal/ICcompletion maybenotedonlyasunknownscale, notconfirmedactualbranch.",
+  "validation": [
+    "directEq2.2Gaussian coefficient vs algebraicallysimplifiedSIunit-equivalent expressions",
+    "sqrtcE2cM1 matchesroundedEq2.6.835withprintedprecision",
+    "energycube/fifthpower scaling andtimeunitconversion",
+    "actual fourpairs sourceIDs/spins/DeltaIroles preserved, no590/591alias",
+    "parenttau/b fieldsfrom019 actualTable/B plots, hashinputsfrozen",
+    "nonnegativecomponentrates andsum homogeneity",
+    "out-pair qgamma closeunit canbeexhibitedwithoutdeclaringconditionalnormalizationproved",
+    "sameparentbudgetonlyrejectscompoundH_abs centralassignment, not actualpaper orallchiralitymodels",
+    "noexperimentalCI/p-valuefromroundedcoordinates/marginalerrors",
+    "no newphysicalg/delta/Q/tau/ratebeamtime/Day24credit"
+  ],
+  "prohibited": [
+    "callingnewpartialwidthderivedvaluesdetectorrates",
+    "sourceauthorusedout-onlynormalizationassertion",
+    "choosingH_condasprovenorrevisingpublishedBdata",
+    "restoreQtCI/225.8P/time",
+    "neighborAL11nucleartablesusedfor135Nd",
+    "run114quarantinedproducers"
+  ]
+}

@@ -3,7 +3,7 @@ type: source
 title: "Almehed2011：TAC+RPA手征振动的近谐适用域"
 aliases: [Almehed 2011 chiral vibrations, A135 TAC RPA]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -142,3 +142,14 @@ AL11-D21-R51-1/2/5/7：重要风险是将方法普适性当135Nd实证，或将�
 |---|---|---|---|---|---|
 | AL11-D21-R113-1 | superseded：124撤回本条过强科学认证；用AL11-D21-R51-2/7；2phi与sin2phi是冻结自由度的运动学示例，不给实际声子非谐误差或20/45度普适阈值；软化可表征均场失稳，不能称纯伪影；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | AL11-D21-R113-2 | superseded：124撤回本条过强科学认证；用AL11-D21-R51-2/7；2phi与sin2phi是冻结自由度的运动学示例，不给实际声子非谐误差或20/45度普适阈值；软化可表征均场失稳，不能称纯伪影；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+## Day23内的Day24无学分预习：m分量与实际γ身份
+
+本轮只定向回读原arXivv2 PDF7/8/10/11的RPA/TAC角色、135Nd not-shown范围和Eqs15–18；fresh视觉PDF11及关键式，实际暂存PDF SHA becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b相符。未新称重读18页或重跑TAC/RPA，raw归档槽仍deferred、旧flags保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AL11-D24P-001 | Eq17把P-frame算符旋转到L-frame，m明确对应I→I−m；Eq18分别给这些component的B。E2可含m0/±1/±2，M1可含m0/±1；正B矩阵元不保证某I→I+1/+2支路能放光，作者说明低/负Eγ会使其不见。本文135Nd结果not shown here，不能由邻核不同m曲线给MU07某marker补Eγ/Jf，亦不能将同图M1/E2自动当同一混合γ的两个分量。 | original-RPA-component-and-identity-boundary | direct-original-and-bounded-inference | arXiv0709.0969v2 PDF10 Eqs.15–17; PDF11 Eq.18 and following paragraphs; PDF8 final paragraph | true |
+| AL11-D24P-002 | Eq18的振幅平方是该近谐模型约定的transition strength，不是对选中γ出口归一的photon branch。把B接到光子率仍需能量的Eγ^(2L+1)和相同母态/方向；RPA波函数/quasiboson归一、全衰变分支和选样条件概率是不同归一。这个区分是本任务结合率定义的推论，不认证135Nd实际producer。 | model-strength-versus-selection-normalization | source-formula-plus-task-inference | arXiv0709.0969v2 PDF7 RPA amplitudes; PDF11 Eq.18; LKH82 printed121 Eq.2.2 | true |
+
+实际率定义回链[[lange-kumar-hamilton-1982-multipole-admixtures]]；[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的新归一诊断仅是明确compound binding hypothesis，不能由本文“not shown”缺口填成原数据或完整模型重现。
