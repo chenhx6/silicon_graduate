@@ -4457,3 +4457,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T06:58:01.664374+08:00 Day23检查点040：原Fig3a红fit图形提取六控制，A2约−.672/A4.389及声明像素敏感性；非netcounts/δ重拟合；继续核同一source的freefit→约束curve→table映射，若无新实际链则重建候选池/接续已允许Day24预习，不反复微调像素。原15:00/partial[23,24]/next23保持。Git指针main · Day23: separate the displayed Au fit from reduced observations；actualhash/H3仅task-publication-receipt-040.json。
 
 2026-10-26T07:10:39.099383+08:00 Day23检查点041：新读Zhang2007qpPRM25页v1，M1plus配对/coreE2与模拟多空穴限制实际核；仅24无学分；继续源参数单jBCS矩阵组件：逐轨道uu+vv是否可用共同因子，保Fermi零gap与原核多粒子输入缺口。原15:00/partial[23,24]/next23保持。Git指针main · Day23: trace quasiparticle operator assumptions to the original source；actualhash/H3仅task-publication-receipt-041.json。
+
+2026-10-26T07:17:09.223429+08:00 Day23检查点042：源singlej/BCS组件十二controls，Fplus非共同标量/Gram性质与zeroFermi guard，不产核带强度；继续小Fock空间独立核M1plus因子及1qp/3qp投影闭合，区分coreE2与粒子time-even算符。原15:00/partial[23,24]/next23保持。Git指针main · Day23: keep pairing factors tied to orbital occupations；actualhash/H3仅task-publication-receipt-042.json。

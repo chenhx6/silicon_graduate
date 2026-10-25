@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T23:17:09.223429+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "源singlej/BCS组件十二controls，Fplus非共同标量/Gram性质与zeroFermi guard，不产核带强度",
+  "next_route": "小Fock空间独立核M1plus因子及1qp/3qp投影闭合，区分coreE2与粒子time-even算符",
+  "missing_inputs": [
+    "actual nuclear full EM/radial/occupation/coherent/rotor inputs",
+    "original globalresponse and correcteddata likelihood",
+    "experimental branch/normalizer/covariance"
+  ],
+  "Day25_opened": false
+}

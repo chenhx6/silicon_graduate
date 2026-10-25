@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-25T23:11:33.402198+00:00",
+  "scope": "declared single-j Hsp/BCS factor component from actualZH07v1, not fullPRM/nuclearstates or experimentalg/B/delta fit",
+  "original_day": 23,
+  "only_uncredited_preview": 24,
+  "source_pdf": "tmp/day23-originals/zhang2007-qpprm-041.pdf",
+  "source_sha256": "601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8",
+  "source_atomic_locator": "ZH07-D24P-001/003 (atomicreferences willbeseparate inwriteback)",
+  "component_inputs": {
+    "two_j": 11,
+    "C_MeV": 0.3,
+    "Hsp_particle_sign": 1,
+    "gamma_deg": [
+      0,
+      30,
+      60
+    ],
+    "lambda_MeV": 1.227,
+    "Delta_MeV": 1.0
+  },
+  "equations": "HspZH07Eq4; epsilonprime/v²Eq10/11; M1 factorplusEq18; realu,vnonnegativechosenBCSgauge",
+  "factor_scope": "Fμν=uμuν+vμvν; matrixGramof2columns,diag1/PSD/rank≤2; no universalcommonfactor onactualM1matrixsupport assumed",
+  "zero_gap_boundary": "only epsilon!=lambda analyticDelta0limit; exactepsilon=lambda/Delta0undefinedrequiresblockingoccupancyinput, no arbitraryfill. Sourcepureprotonseparateconfigurationnotconstructedby.5 atsingularity.",
+  "controls": [
+    "spinmatrixhermiticity/Casimir forbareHsp only",
+    "Kramerspairdegeneracy/tracezero",
+    "knownaxialHspdiagonalenergies",
+    "BCSunitu²v²/energygap/canonical2x2",
+    "Fplusdiagonal1/PSD/rank≤2/bounded",
+    "analyticoppositeenergyfactorDelta/sqrt(x²+Delta²)",
+    "Delta0same/oppositeoccupancyclass/undefinedFermiguard",
+    "factorvariationonselectednonzerobarejmatrixelements only"
+  ],
+  "prohibited": [
+    "fullqpangularmomentumcommutatorCasimir certification withoutpairchangingsectors",
+    "wholePRMsourceproducer/currentnucleusstatereconstruction",
+    "physicalg/B/delta/Q/tau/CI/rate/beamtime",
+    "particleE2minusfactor addedtocoreE2",
+    "change raw/PLAN/Bib/oldflags/formalcredit",
+    "run114producer"
+  ]
+}

@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点041（Day24仅无学分预习）
+## Active handoff — Day23检查点042（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-040已published。041选Qi09Ref26新body Zhang2007 DOI10.1103/PhysRevC.75.044307/arxivnucl-th0703047v1，25页/738205bytes/SHA601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8，tmp/rawdeferred；正文/关键公式/图实读。M1 uu′+vv′原Eq18，E2coreQ0/γ不能补particleminusfactor。BCS模拟多holes非显式multiqp、ratio/staggering参数敏感。ZH07-D24P-001–004于Qi页/概念/方法needs_review，Day24不授分。下一组件解析/Gram矩阵，不产physicalg/B/δ。
+041已published。042 sourcej11/2 C.3/λ1.227/Δ1 Hsp/BCS只组件，Fplus=u uT+v vT Gram PSD/diag1/rank≤2；非零barej支持的F随γ变化。zeroΔ exactFermi未定义不填.5，sourcepureproton另有配置。十二controls过，ZH07-D24P-005/006/Qi概念方法needs_review。下一16维Fock核plus/minus与遗漏pairchangingsector，非coreE2新改式/noactualB。
 
-详next-continuation-041.md/candidate-pool-041.json；检查以required-checks-041.json为准。Git指针main · Day23: trace quasiparticle operator assumptions to the original source；actualhash/H3仅task-publication-receipt-041.json。
+详next-continuation-042.md/candidate-pool-042.json；检查以required-checks-042.json为准。Git指针main · Day23: keep pairing factors tied to orbital occupations；actualhash/H3仅task-publication-receipt-042.json。
 
 ## Previous handoff — Day22 closeout
 

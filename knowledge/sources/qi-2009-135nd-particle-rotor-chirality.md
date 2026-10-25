@@ -178,3 +178,14 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-004 | 作者模型中B(M1)/B(E2)两带接近可伴随两种绝对B各自差异；staggering随γ与Fermiλ强变，结论说它可能不是所有手征带的一般特征。λn=ε1的M1变小归于质子/中子取向和相反g贡献抵消，是本参数模型解释，不给任意核统一staggering/δ/B硬门，也不把ratio近合当两份独立absolute-strength观测。 | model-electromagnetic-pattern-and-limitation | direct-new-method-primary | v1PDF11–12 SecIIIC; PDF15Conclusion4/5; PDF22Figs4/5; PDF23Fig6 | true |
 
 文中定义的RMS几何仍属模型波函数；不新增此前QI09已记录的RMS/半整数K反例充进度。本次新增信息是实际算符/pairing层与作者适用条件。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]接续这些条件，[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021的实际h/f含量仍需完整多轨道/径向/占据，未由本单j方法文自动补齐。新claims均needs_review:true，原QI09范围/其它人审flags不变。
+
+## Day23内的Day24无学分预习：源BCS因子的矩阵组件
+
+复用041实际读过的ZH07 Eq4/8/10/11/18，不新称完整PRM对角化或作者producer重放。以下均为任务数学/组件层，needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-005 | 在声明实非负u/v gauge下，Fμν=uμuν+vμvν是两列(u,v)的Gram矩阵，diag1、PSD、rank≤2，且0≤F≤1；不是所有轨道对同一常数。按原singlej j11/2/C=.3、fixedλ1.227/Δ1MeV，γ0/30/60三个组件点，在非零barej offdiagonal支持上的F范围分别约[.8854,1]/[.4626,1]/[.9583,1]，只说明配对因子矩阵非共同标量，不是核带M1抑制量或physicalB预报。 | source-parameter-BCS-matrix-component | original-equations-plus-declared-task-calculation | ZH07v1PDF5Eq4/PDF6Eq11/PDF8Eq18; Fig1PDF19; task input-contract042 | true |
+| ZH07-D24P-006 | 对对称ξ=±x，plusfactor为Δ/sqrt(x²+Δ²)；Δ→0且ξ≠0时，同occupancy类factor1、异类0。若Δ=0且ε=λ，Eq11出现0/0，需要另给blocking/占据约定，程序保未定义而不填.5。源pureproton是另明确的配置条件，不能把这个数学边界当作者实验/模型错误。 | analytic-limit-and-occupation-boundary | source-definition-plus-task-algebra | ZH07v1PDF6Eq10/11; PDF9pure-proton conditions; task input-contract042 | true |
+
+`system/scripts/day23_qp_pairing_factor.py`十二项源SHA、bareH解析/对称、BCS canonical/gap、Gram与极限控制通过，最大谱Kramers差1.8e−15MeV、Gram小负特征值浮点幅≤4.7e−15。bareH的Casimir检查只用于裸j；没有要求截断1qp算符在遗漏pair-changing sectors时独自实现完整生成元代数。未算rotor耦合核态、actualg/B/E2/δ、实验CI或机时。[[signature-tip-shears-discrimination-contract]]与[[nuclear-chirality]]保仅下一卡无学分预习及算符迁移边界。

@@ -631,3 +631,11 @@ spin不变，h/f的Δl2角块允许；本任务角强度h9/2→f7/2约.017316、
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-001/002的实际2007方法文给M1的轨道对因子fμν=uμuν+vμvν；coreE2则采用Q0/γ旋转张量和内禀旁观重叠。u、v随ε、λ、Δ及约定变化，不能拿一个未注明的常数取代全矩阵，也不能在未加particleE2的源式上补uu′−vv′。038的h/f角块与此BCS层是不同输入，实际Au/Nd仍需两层同时绑定和rotor/相干波函数。
 
 源模型还明确用BCS真空近似模拟多空穴，未显式包含所有价粒子对惯量的贡献；多quasiparticle PRM与这一1qp+1qp模型不能只因都称PRM便视作同H。γ/λ扫描中的ratio/staggering规律是条件模型结果，不新增独立采集，也不恢复硬fingerprint门。[[nuclear-chirality]]承接唯一Day24无学分预习；本run正式credit仍只Day23。新needs_review:true，无physicalδ/g/Q/τ/CI或机时。
+
+## Day23桥接Day24预习：轨道对BCS因子何时能消去
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-005/006的源式给Fμν=uμuν+vμvν。对实非负BCS gauge，令每轨道向量wν=(uν,vν)、|wν|=1，则Fμν=wμ·wν；因此F为Gram、diag1/PSD/rank≤2。只有实际参与矩阵元的轨道对满足相同F等额外条件，才可把它当共同scale消去，不能从一个pairgap/constantg推出这一点。
+
+该任务只计算源single-j Hsp/占据组件，γ0/30/60下非零barej支持的F范围不同，不映射成实际核带抑制。对ξ=±x，fplus=Δ/√(x²+Δ²)；Δ0/ξ非零极限与exactFermi/Δ0未定义分开。sourcepureproton须使用其明示配置/blocking，而非凭0/0设置.5。
+
+Barej闭合/BCS canonical检查并不认证截断qp空间的完整J代数：丢失pair-changing sectors时，不能拿裸j的Casimir要求强判源模型错误。源coreE2与粒子EM矩阵另有截断，真实Au/Nd仍需实际多轨道/radial/occupation/coherent/rotor输入。十二组件controls过仅解除公式实现层缺口，无新physicalg/B/δ/Q/τ/CI/设施率或机时；Day24保持无学分，新增needs_review:true。

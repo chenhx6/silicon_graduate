@@ -155,3 +155,9 @@ $$\frac{B_+-B_-}{B_++B_-}=\frac{2ab}{a^2+b^2},\qquad
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-001–004现在接入其Ref26的实际2007 qpPRM原文。M1的uu′+vv′矩阵因子、coreE2取法和单j/BCS模拟多空穴的近似均已按原公式列出；它支持量子PRM对γ/费米面敏感性的模型研究，不等新135Nd/Au实验或原producer复现。
 
 该模型的B(M1)/B(E2)staggering并非跨参数不变，ratio接近也可能掩盖分子/分母各自差异。因而本Day24预习的partner-resolved evidence map仍分开直接能谱/绝对强度、采用的Q0/g/配对、以及模型几何；不能仅按staggering打勾或以derivedratio代两个绝对观测。[[signature-tip-shears-discrimination-contract]]保算符/定标/数据谱系，Day24仍无正式学分、不打开Day25。新增needs_review:true。
+
+## Day23内的Day24无学分预习：配对占据与EM比较的必要输入
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-005/006以实际方法文参数作单j/BCS组件，显示M1的uu′+vv′是轨道对矩阵而非普遍共同尺度。Δ0/ε=λ还需blocking/占据约定；源pureparticle条件须另保留，不任意填半占据。
+
+这不提供新核带或实际g/B，不能用组件factor范围推partner强度比。partner-resolved map需要完整EM算符、占据、相干/rotor波函数及定标/实验账本，见[[signature-tip-shears-discrimination-contract]]。本节仍Day24无学分预习，新增needs_review:true。

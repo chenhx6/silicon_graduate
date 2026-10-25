@@ -1,0 +1,292 @@
+{
+  "scope": "declared single-j Hsp/BCS factor component from actualZH07v1, not fullPRM/nuclearstates or experimentalg/B/delta fit",
+  "formal_day_index": 23,
+  "only_uncredited_preview": 24,
+  "conditions": {
+    "recorded_at": "2026-10-25T23:11:33.402198+00:00",
+    "scope": "declared single-j Hsp/BCS factor component from actualZH07v1, not fullPRM/nuclearstates or experimentalg/B/delta fit",
+    "original_day": 23,
+    "only_uncredited_preview": 24,
+    "source_pdf": "tmp/day23-originals/zhang2007-qpprm-041.pdf",
+    "source_sha256": "601b90ca7163d90493d6288b5e031ed00ea7e350f06461f36b80b6551ce90aa8",
+    "source_atomic_locator": "ZH07-D24P-001/003 (atomicreferences willbeseparate inwriteback)",
+    "component_inputs": {
+      "two_j": 11,
+      "C_MeV": 0.3,
+      "Hsp_particle_sign": 1,
+      "gamma_deg": [
+        0,
+        30,
+        60
+      ],
+      "lambda_MeV": 1.227,
+      "Delta_MeV": 1.0
+    },
+    "equations": "HspZH07Eq4; epsilonprime/v²Eq10/11; M1 factorplusEq18; realu,vnonnegativechosenBCSgauge",
+    "factor_scope": "Fμν=uμuν+vμvν; matrixGramof2columns,diag1/PSD/rank≤2; no universalcommonfactor onactualM1matrixsupport assumed",
+    "zero_gap_boundary": "only epsilon!=lambda analyticDelta0limit; exactepsilon=lambda/Delta0undefinedrequiresblockingoccupancyinput, no arbitraryfill. Sourcepureprotonseparateconfigurationnotconstructedby.5 atsingularity.",
+    "controls": [
+      "spinmatrixhermiticity/Casimir forbareHsp only",
+      "Kramerspairdegeneracy/tracezero",
+      "knownaxialHspdiagonalenergies",
+      "BCSunitu²v²/energygap/canonical2x2",
+      "Fplusdiagonal1/PSD/rank≤2/bounded",
+      "analyticoppositeenergyfactorDelta/sqrt(x²+Delta²)",
+      "Delta0same/oppositeoccupancyclass/undefinedFermiguard",
+      "factorvariationonselectednonzerobarejmatrixelements only"
+    ],
+    "prohibited": [
+      "fullqpangularmomentumcommutatorCasimir certification withoutpairchangingsectors",
+      "wholePRMsourceproducer/currentnucleusstatereconstruction",
+      "physicalg/B/delta/Q/tau/CI/rate/beamtime",
+      "particleE2minusfactor addedtocoreE2",
+      "change raw/PLAN/Bib/oldflags/formalcredit",
+      "run114producer"
+    ]
+  },
+  "contract_sha256": "87e7143cd6af05e3722720d36922972ab90de02924b2e4c838df9d2856def19d",
+  "implementation_sha256": "854fe26b65a443fa6feed4fd9ccf303a9d46125b6a97ce254c1e7193d709a056",
+  "rows": [
+    {
+      "gamma_deg": 0,
+      "bare_single_particle_energies_MeV": [
+        -1.7499999999999998,
+        -1.7499999999999998,
+        -1.45,
+        -1.45,
+        -0.8499999999999999,
+        -0.8499999999999999,
+        0.050000000000000086,
+        0.050000000000000086,
+        1.25,
+        1.25,
+        2.7500000000000004,
+        2.7500000000000004
+      ],
+      "quasiparticle_energies_MeV": [
+        3.140466366640471,
+        3.140466366640471,
+        2.8576789532765923,
+        2.8576789532765923,
+        2.3051960871040884,
+        2.3051960871040884,
+        1.5444510351578,
+        1.5444510351578,
+        1.0002644650291241,
+        1.0002644650291241,
+        1.821957463828396,
+        1.821957463828396
+      ],
+      "v_squared": [
+        0.9739741892514934,
+        0.9739741892514934,
+        0.9683871148175293,
+        0.9683871148175293,
+        0.9505039748287182,
+        0.9505039748287182,
+        0.8810415394230169,
+        0.8810415394230169,
+        0.4885030405437175,
+        0.4885030405437175,
+        0.0820429317817909,
+        0.0820429317817909
+      ],
+      "Fplus_full_pair_range": [
+        0.43724526585224266,
+        1.0
+      ],
+      "Fplus_on_nonzero_bare_j_offdiagonal_support": [
+        0.8854196914308868,
+        1.0
+      ],
+      "factor_gram_eigenvalues": [
+        -2.3315428363966525e-15,
+        -2.3009947984771876e-16,
+        -3.1491402701275345e-32,
+        -8.21073318940323e-48,
+        4.498004455778354e-80,
+        2.5328426879236e-32,
+        1.275750380036309e-17,
+        1.1134651031659908e-16,
+        2.262793199465424e-16,
+        4.370095607533671e-16,
+        1.7445829500721786,
+        10.255417049927816
+      ],
+      "minimum_qp_energy_MeV": 1.0002644650291241
+    },
+    {
+      "gamma_deg": 30,
+      "bare_single_particle_energies_MeV": [
+        -2.427022247638373,
+        -2.427022247638372,
+        -1.2271188582740957,
+        -1.2271188582740953,
+        -0.33353008430495157,
+        -0.3335300843049514,
+        0.33353008430495157,
+        0.3335300843049516,
+        1.227118858274095,
+        1.2271188582740968,
+        2.42702224763837,
+        2.4270222476383707
+      ],
+      "quasiparticle_energies_MeV": [
+        3.7883873331849514,
+        3.788387333184951,
+        2.650037616815382,
+        2.650037616815382,
+        1.8534438604988335,
+        1.8534438604988333,
+        1.341002792783116,
+        1.341002792783116,
+        1.0000000070636446,
+        1.0000000070636446,
+        1.5620670263554777,
+        1.5620670263554783
+      ],
+      "v_squared": [
+        0.9822661895776089,
+        0.9822661895776089,
+        0.9630347212246885,
+        0.9630347212246885,
+        0.9209812116685726,
+        0.9209812116685726,
+        0.8331349943875739,
+        0.8331349943875739,
+        0.49994057086337224,
+        0.49994057086337146,
+        0.1158864416854792,
+        0.11588644168547908
+      ],
+      "Fplus_full_pair_range": [
+        0.4626036190196252,
+        1.0
+      ],
+      "Fplus_on_nonzero_bare_j_offdiagonal_support": [
+        0.4626036190196252,
+        1.0
+      ],
+      "factor_gram_eigenvalues": [
+        -4.614707313835726e-15,
+        -3.587945484241851e-16,
+        -2.813298675794155e-16,
+        -1.295833983357265e-16,
+        -2.1121987792706828e-17,
+        1.7616706724870145e-17,
+        4.2977072646159207e-17,
+        1.0634945562419736e-16,
+        1.689182599522509e-16,
+        4.583700848983186e-16,
+        1.5681701368584395,
+        10.431829863141552
+      ],
+      "minimum_qp_energy_MeV": 1.0000000070636446
+    },
+    {
+      "gamma_deg": 60,
+      "bare_single_particle_energies_MeV": [
+        -2.750000000000001,
+        -2.7499999999999996,
+        -1.2500000000000009,
+        -1.25,
+        -0.050000000000000475,
+        -0.04999999999999938,
+        0.8499999999999999,
+        0.8500000000000006,
+        1.449999999999999,
+        1.45,
+        1.75,
+        1.7500000000000002
+      ],
+      "quasiparticle_energies_MeV": [
+        4.10079614221434,
+        4.100796142214338,
+        2.6712410973178753,
+        2.6712410973178744,
+        1.6219522187783466,
+        1.6219522187783457,
+        1.0687043557504574,
+        1.0687043557504572,
+        1.0245628336027028,
+        1.0245628336027028,
+        1.1285074213313795,
+        1.1285074213313797
+      ],
+      "v_squared": [
+        0.984905840485466,
+        0.984905840485466,
+        0.9636421629045565,
+        0.9636421629045565,
+        0.8936614116049103,
+        0.8936614116049101,
+        0.6763818019321473,
+        0.6763818019321468,
+        0.3911730971072525,
+        0.3911730971072521,
+        0.26827799706315614,
+        0.26827799706315614
+      ],
+      "Fplus_full_pair_range": [
+        0.6191255820679107,
+        1.0
+      ],
+      "Fplus_on_nonzero_bare_j_offdiagonal_support": [
+        0.9582534627936918,
+        1.0
+      ],
+      "factor_gram_eigenvalues": [
+        -6.260831769069147e-16,
+        -2.748238889114632e-16,
+        -2.0288774715504167e-16,
+        -1.2696234536195208e-16,
+        -7.170442029417507e-17,
+        3.0814879110195774e-33,
+        2.9652922407978435e-17,
+        4.1497441981852875e-17,
+        6.377583217433819e-17,
+        4.275292489277777e-15,
+        1.3295452546059656,
+        10.670454745394041
+      ],
+      "minimum_qp_energy_MeV": 1.0245628336027028
+    }
+  ],
+  "controls": {
+    "original_source_hash_checked": true,
+    "bare_spin_Casimir_only": true,
+    "bareH_Hermiticity_zero_trace_Kramers": true,
+    "axial_Hsp_analytic_energies": true,
+    "BCS_norm_and_canonical_transform": true,
+    "quasiparticle_gap_lower_bound": true,
+    "Fplus_Gram_PSD_unit_diagonal_rank_atmost2": true,
+    "Fplus_nonnegative_and_atmost1_in_declared_gauge": true,
+    "opposite_xi_analytic_pairing_factor": true,
+    "Delta0_occupation_class_factors": true,
+    "zero_gap_exact_Fermi_guard": true,
+    "pairing_factor_varies_on_nonzero_bare_j_support": true
+  },
+  "all_controls_pass": true,
+  "errors": {
+    "Hermiticity": 0.0,
+    "trace": 1.8318679906315083e-15,
+    "Kramers_split_MeV": 1.7763568394002505e-15,
+    "axial_analytic_MeV": 0.0,
+    "BCS_norm": 2.220446049250313e-16,
+    "canonical_transform": 2.220446049250313e-16,
+    "factor_diag": 2.220446049250313e-16,
+    "factor_PSD_defect": 4.614707313835726e-15,
+    "factor_rank_tail": 4.614707313835726e-15
+  },
+  "additional_errors": {
+    "bare_Casimir": 7.105427357601002e-15,
+    "symmetric_pair_formula": 2.220446049250313e-16
+  },
+  "limitations": [
+    "Only the source single-j Hsp and declared BCS factor are calculated; no rotor-coupled nuclear state, band mapping or full PRM.",
+    "Eigenbasis rotations within Kramers-degenerate subspaces are arbitrary; pair ranges on tiny elements are not nuclear transition predictions.",
+    "No commutator/Casimir requirement is imposed on a truncated one-quasiparticle operator without pair-changing sectors.",
+    "Source pure proton at zero gap has a separate occupation/configuration statement; the exact Fermi singularity is not filled arbitrarily.",
+    "No actual physical g, B(M1), B(E2), delta, lifetime, covariance, confidence, rates or beamtime."
+  ]
+}

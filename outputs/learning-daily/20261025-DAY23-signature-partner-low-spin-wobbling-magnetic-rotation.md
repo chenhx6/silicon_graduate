@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint041）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint042）
 
 ## Run state
 
@@ -18,7 +18,7 @@ updated: 2026-10-26
 - partial_day_indices: [23, 24]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T07:10:39.099383+08:00
+- checked_at: 2026-10-26T07:17:09.223429+08:00
 
 当前仍在原始研究窗口，继续研究，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
@@ -52,6 +52,8 @@ checkpoint016重建后选择同卡AMR原件路线（非Day24）：Simons2003/200
 已有README/index/profile/memory/active handoff、PLAN、continuous-learning、三计划/matrix与近期Day22回执均已读取；PLAN中的旧审批/时钟文字不覆盖当前用户明确授权。当前路径门与H1预检通过，已有未跟踪Day20/Day22材料保留；不运行隔离的114个producer。
 
 ## Sources and evidence
+
+检查点042复用041实际qpPRM原式与参数，新增ZH07-D24P-005/006为任务单j/BCS组件，不称新全文或实际作者全PRM重放。唯一Day24预习无学分。
 
 检查点041实际新读Zhang2007 arXivnucl-th/0703047v1，25PDF页，正文1–16/refs/图注实读并视觉核关键公式/图；原文件/上传与编译日期、未核VoR、tmp/rawdeferred分开。ZH07-D24P-001–004在Qi页明确外部方法文，非Qi新数据。
 
@@ -148,6 +150,8 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+检查点042 Fplus=uuT+vvT为PSD/diag1/rank≤2Gram，轨道对非共同scalar；实际源C=.3/j11/2/λ1.227/Δ1三个γ组件点十二controls过。零gap exactFermi留未定义，未补.5或physicalB/δ。
 
 检查点041按原Eq8–18核BCS能量/占据及M1 uu′+vv′，E2为core Q0/γ与内禀旁观重叠；未擅补particleE2因子、未实现全PRM或赋新physical quantities。
 
@@ -249,6 +253,8 @@ checkpoint002：按照两原校准的印刷p0/p1，来源曲线在Au376/462给Q=
 
 ## Counter-evidence and missing companion observables
 
+检查点042不能以F矩阵极值预测核带抑制；barej支持/BCS组件还需实际rotor与相干幅。截断1qp漏pairchangingsectors时不强施bareCasimir认证，sourcepureparticle配置另保。原实验/response/共Cov仍缺。
+
 检查点041源用BCS Fermi扫描模拟多空穴并保惯量/显式多粒子局限；ratio/staggering对γ/λ敏感，不用统一硬门。实际Au/Nd多轨道/径向/占据/相干/rotor与response/Cov仍缺，模型不加新采集票。
 
 检查点040红curve近声明Gaussian形状只支持阶段线索，不认证table去衰减/原producer。净峰、freefit、选根curve和table须分阶段，缺原校正链/globalprofile/共Cov；图像A0不当净计数，derivedcurve不添独立票。
@@ -340,6 +346,8 @@ checkpoint002进一步限定：Q校准完成不使P成为不依取向的核态�
 同源派生rE2/rM1不会自动增加独立检验；模型拟合用过的能量/绝对尺度不再是holdout。形式上可写的轨道替代尚无同等拟合/预测证据，不能等同可信度。Lu、两qp Ba/Nd及105Pd原支持链保持独立，不能因Pr/Au冲突一概否决。
 
 ## Knowledge Impact and Learning Decision
+
+检查点042 supports/limits：具体化common-scale取消的占据条件与Fermi边界，新needs_review；formalDay23仍active、Day24仅partial/noDay25，原截止保持。
 
 检查点041 supports/limits：补实际EM/BCS原文层，避免靠一般背景猜因子或把所有PRM合并。唯一Day24仍partial无学分、completed[]/next23/noDay25；原Day23窗口继续。
 
@@ -582,7 +590,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。 补实际旧评价母态clock/endpoint/版本合同，末态半衰期不移作母τ。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。 补原显示fit曲线几何形状/像素敏感性以分AD阶段；不取原counts/CI。 补新读qpPRM原EM/BCS算符与模拟多空穴适用边界，仅Day24无学分。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。 补实际旧评价母态clock/endpoint/版本合同，末态半衰期不移作母τ。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。 补原显示fit曲线几何形状/像素敏感性以分AD阶段；不取原counts/CI。 补新读qpPRM原EM/BCS算符与模拟多空穴适用边界，仅Day24无学分。 补源BCS轨道对Gram矩阵/零gapFermi占据边界，非physical核带强度。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -1040,6 +1048,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
           "locator": "ZH07-D24P-004"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "ZH07-D24P-005"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "ZH07-D24P-006"
         }
       ]
     },
@@ -2086,7 +2102,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/concepts/nuclear-chirality.md",
-      "summary": "Day24 uncredited preview only：定向原件与有界反幺正/两态数学控制，区分Kramers、signature、intrinsic与量子伙伴，不给核态/g认证。 补135Nd逐伙伴矩阵/官方export端点及clock/单位边界。 补author-source TeX/vector表示审计，不把精确转录提升成已绑定的γ组件或新CI。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补完整goodI/WE tensor的对称限制与额外EMkernel界；不认证实核operator/CI。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补新读qpPRM原EM/BCS算符与模拟多空穴适用边界，仅Day24无学分。",
+      "summary": "Day24 uncredited preview only：定向原件与有界反幺正/两态数学控制，区分Kramers、signature、intrinsic与量子伙伴，不给核态/g认证。 补135Nd逐伙伴矩阵/官方export端点及clock/单位边界。 补author-source TeX/vector表示审计，不把精确转录提升成已绑定的γ组件或新CI。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补完整goodI/WE tensor的对称限制与额外EMkernel界；不认证实核operator/CI。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补新读qpPRM原EM/BCS算符与模拟多空穴适用边界，仅Day24无学分。 补源BCS轨道对Gram矩阵/零gapFermi占据边界，非physical核带强度。",
       "anchor": "Day23内的Day24无学分预习：反幺正手征操作不等于Kramers双带",
       "sources": [
         {
@@ -2196,6 +2212,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
           "locator": "ZH07-D24P-004"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "ZH07-D24P-005"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "ZH07-D24P-006"
         }
       ]
     },
@@ -2461,7 +2485,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
-      "summary": "实际读Ref26的2007qpPRM原件，单独标识版本/BCS与EM模型限制；无新实验或Day24credit。",
+      "summary": "实际读Ref26的2007qpPRM原件，单独标识版本/BCS与EM模型限制；无新实验或Day24credit。 补源BCS轨道对Gram矩阵/零gapFermi占据边界，非physical核带强度。",
       "anchor": "Day23内的Day24无学分预习：Ref26准粒子PRM算符原件",
       "sources": [
         {
@@ -2479,6 +2503,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
           "locator": "ZH07-D24P-004"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "ZH07-D24P-005"
+        },
+        {
+          "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+          "locator": "ZH07-D24P-006"
         }
       ]
     }
@@ -2498,6 +2530,8 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+检查点042以required-checks-042.json为实际退出码/原runner门记录，续接见next-continuation-042.md。十二组件/极限控制过，未计算全PRM或核态；仅Day24无学分预习，原时间门保持。 Git指针main · Day23: keep pairing factors tied to orbital occupations；actualhash/H3仅task-publication-receipt-042.json。 原15:00截止、Day24无学分边界保持。
 
 检查点041以required-checks-041.json为实际退出码/原runner门记录，续接见next-continuation-041.md。读源/公式/图核验，未为正文写入加镜像测试；保持原run与仅Day24无学分范围。 Git指针main · Day23: trace quasiparticle operator assumptions to the original source；actualhash/H3仅task-publication-receipt-041.json。 原15:00截止、Day24无学分边界保持。
 
