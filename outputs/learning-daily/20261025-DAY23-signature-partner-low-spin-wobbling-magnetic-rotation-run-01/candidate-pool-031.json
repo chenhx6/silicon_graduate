@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T21:42:44.525705+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "真实quotedδ端点映射/五控制通过，旧αK四个逐点交集存在，无CI或jointfit认证",
+  "next_route": "核支持方原Fig3误差与未公开fit条件，作两方对称的端点/模型输入审计",
+  "missing_inputs": [
+    "historical primary normalization and spectra",
+    "full joint delta/response likelihood and theory covariance",
+    "supporting fit attenuation and calibration/profile inputs"
+  ],
+  "Day25_opened": false
+}

@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-25T21:38:14.588043+00:00",
+  "scope": "Use existing real printed Guo delta endpoints only; deterministic images/intersections of quoted one-dimensional coordinates, no new source/query or confidence interpretation",
+  "inputs": {
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/au187-icc-forward-030.json": "739af3ce686412b72040cfb2069e59316cbe050cfeea5f2331d256a9d76beb1d"
+  },
+  "delta_bounds": {
+    "376.3": {
+      "centre": -0.26,
+      "minus": 0.15,
+      "plus": 0.11,
+      "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "locator": "GU22-D23-001"
+    },
+    "462.1": {
+      "centre": -0.28,
+      "minus": 0.69,
+      "plus": 0.23,
+      "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "locator": "GU22-D22-R094-1"
+    }
+  },
+  "theory": "freeze actual nominal K from030; capture but do not propagate theory/energy marginal errors or unknown covariance",
+  "historical_ranges": "old secondary quoted alphaK value±last-digit quoted errors, purelycoordinate comparison not assumed gaussian CI",
+  "meaning": "each individual intersection only, not simultaneous jointregion with sharednormalization/Cov or validated branchfamily",
+  "prohibited": [
+    "derive new physical delta",
+    "claim confidence/coverage/pvalue or exclusion",
+    "invent support source delta uncertainties",
+    "independently multiply common evaluation MR",
+    "new actual experiment, sign choice, rate or time"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "scope": "Use existing real printed Guo delta endpoints only; deterministic images/intersections of quoted one-dimensional coordinates, no new source/query or confidence interpretation",
+  "formal_day_index": 23,
+  "rows": {
+    "376.3": {
+      "source_bound": {
+        "centre": -0.26,
+        "minus": 0.15,
+        "plus": 0.11,
+        "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "locator": "GU22-D23-001"
+      },
+      "printed_delta_coordinate_range": [
+        -0.41000000000000003,
+        -0.15000000000000002
+      ],
+      "nominal_alphaK_image": [
+        0.1321390291927061,
+        0.1458288508557457
+      ],
+      "historical_comparisons": [
+        {
+          "reference": "1998Ru04",
+          "quoted_alphaK_coordinate_range": [
+            0.104,
+            0.134
+          ],
+          "intersection": [
+            0.1321390291927061,
+            0.134
+          ],
+          "meaning": "individual coordinate ranges only; no CI, joint feasibility or likelihood"
+        },
+        {
+          "reference": "1978Bo05",
+          "quoted_alphaK_coordinate_range": [
+            0.08,
+            0.14
+          ],
+          "intersection": [
+            0.1321390291927061,
+            0.14
+          ],
+          "meaning": "individual coordinate ranges only; no CI, joint feasibility or likelihood"
+        }
+      ],
+      "mirrored_delta_image": [
+        0.1321390291927061,
+        0.1458288508557457
+      ],
+      "centre_inside_image": true
+    },
+    "462.1": {
+      "source_bound": {
+        "centre": -0.28,
+        "minus": 0.69,
+        "plus": 0.23,
+        "source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "locator": "GU22-D22-R094-1"
+      },
+      "printed_delta_coordinate_range": [
+        -0.97,
+        -0.05000000000000002
+      ],
+      "nominal_alphaK_image": [
+        0.05516525838528518,
+        0.08574189526184539
+      ],
+      "historical_comparisons": [
+        {
+          "reference": "1998Ru04",
+          "quoted_alphaK_coordinate_range": [
+            0.041,
+            0.059000000000000004
+          ],
+          "intersection": [
+            0.05516525838528518,
+            0.059000000000000004
+          ],
+          "meaning": "individual coordinate ranges only; no CI, joint feasibility or likelihood"
+        },
+        {
+          "reference": "1978Bo05",
+          "quoted_alphaK_coordinate_range": [
+            0.06,
+            0.1
+          ],
+          "intersection": [
+            0.06,
+            0.08574189526184539
+          ],
+          "meaning": "individual coordinate ranges only; no CI, joint feasibility or likelihood"
+        }
+      ],
+      "mirrored_delta_image": [
+        0.05516525838528518,
+        0.08574189526184539
+      ],
+      "centre_inside_image": true
+    }
+  },
+  "controls": {
+    "frozen030_theory_and_secondary_quote_inputs_checked": true,
+    "actual_printed_delta_asymmetry_preserved": true,
+    "central_points_inside_images": true,
+    "scalar_ICC_sign_mirror_preserved": true,
+    "all_four_individual_intersections_nonempty": true
+  },
+  "all_controls_pass": true,
+  "implementation_sha256": "de1df9e130c3772c941c9ee2bcfc279f58cbd32f35463c8aa19ed7f4bff7d38c",
+  "contract_sha256": "7c1122f61cb5b40e7d656d8b0042094676cf82826d2202c5f599fd2b2792f0a3",
+  "limitations": [
+    "No intervals are assigned a confidence level or joint probability.",
+    "Nonempty individual intersections are not a shared multivariate fit or experimental certification.",
+    "The nominal theory components are fixed; theoretical and energy errors and their covariance are not propagated.",
+    "No delta was inferred; source endpoints were supplied, including their printed asymmetry.",
+    "No supporting-source delta uncertainties, new counts, lifetime, ICC measurement, rate or time were invented."
+  ]
+}

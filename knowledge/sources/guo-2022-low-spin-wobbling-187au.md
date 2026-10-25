@@ -275,3 +275,11 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 | GU22-D23-017 | 在本任务实际FO查询的历史E376.3/462.1标称能量和标准M1/E2截断下，本文δ中央−.26/−.28前向αK约.1412/.0813，支持方大δ中央给.0498/.0289。旧评价转述376的.119(15)/.11(3)与462的.050(9)/.08(2)须各自并列；不能把“旧转换与新结果一致”的概述改写为四个旧点均与本文δ中央完全相同。尤其462的1998与1978中心不同。未传播各自δ/归一/理论/能量及共同Cov，不据这些中心差报排除度、原paper错误或最终归属。 | conditional-cross-source-centre-comparison | actual-theory-query-plus-secondary-experiment-and-task-forward-model | main PDF3 Fig.3(c,d); GU22-D23-013; KB08-D23-001/002 and task input-contract030 | true |
 
 实际理论输入与条件计算直接回链[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-D23-001/002；大δ源中央为[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D22-R094-1。没有反演或补造本核新δ，没有把quoted误差盒当CI；理论表输入缺口已部分解除，历史电子/光子谱归一与全response/Cov仍缺。新增needs_review:true，旧人审及P/δ身份不变。
+
+## Day23：印刷δ端点的前向区间
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-018 | 仅将已报376 δ端点[−.41,−.15]、462[−.97,−.05]代入本任务固定FO K式，αK像分别[.132139,.145829]、[.055165,.085742]；与GU22-D23-013旧实验每项“quoted中央±quoted误差”坐标范围分别有交集。因此GU22-D23-017的中央不同不自动给出区间不相交。此处无任何置信水平、joint coverage或同时拟合含义，未传播理论/能量Cov、历史归一及原δ联合响应；不是新δ/αK测量或全分支认证。 | deterministic-endpoint-image-and-boundary | original-quoted-endpoints-plus-actual-theory-and-task-math | main PDF3 Fig.3(a,b); GU22-D23-001; GU22-D23-013; KB08-D23-001/002; task input-contract031 | true |
+
+[[kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc]] KB08-2及KB08-D23-001/002给标准式与实际标称理论输入。这里保留印刷不对称误差端点，只作确定性映射，不假定原δ为Gaussian或独立；四个逐点交集不能拼成存在共同nuisance参数的联合区域。新needs_review:true，旧source审核及实际分支争议保持。

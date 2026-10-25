@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点030（Day24仅无学分预习）
+## Active handoff — Day23检查点031（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-029已published。030官方BrIccS v2.3/FO/Z79两E×M1/E2四HTTP200，K376 .1483(21)/.0360(5)、462 .0859(12)/.0225(4)，nominalE .2误差未传。Guoδcentre给αK .141189/.081291，大δcentre给.049815/.028917；旧376 .119(15)/.11(3)、462 .050(9)/.08(2)分别保留，不称每点中央完全一致或新排除。新KB08-D23-001/002、GU22-D23-017/方法/Au needs_review；raw归档deferred。下一当前bounded分析为quotedδ范围映射，不新增delta/CI。
+030已published。031用已核Guoδ端点与名义FO K，376像[.132139,.145829]、462[.055165,.085742]，与四旧αK各自printed范围有交集，五控制过。中央不同非自动冲突；逐点交集也非共同拟合/CI。新GU22-D23-018/方法/Au needs_review，旧flags保持。下一已fresh视觉原Sensharma2020Fig3：376 δ−2.67±.07、461.8−2.98±.02；原方法细节说明须另核，勿补source误差。
 
-详next-continuation-030.md/candidate-pool-030.json；检查以required-checks-030.json为准。Git指针main · Day23: compare historical conversion with explicit theory inputs；actualhash/H3仅task-publication-receipt-030.json。
+详next-continuation-031.md/candidate-pool-031.json；检查以required-checks-031.json为准。Git指针main · Day23: keep endpoint overlap separate from joint evidence；actualhash/H3仅task-publication-receipt-031.json。
 
 ## Previous handoff — Day22 closeout
 
