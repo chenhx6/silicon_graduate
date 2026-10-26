@@ -332,3 +332,15 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 | GU22-D23-024 | LSU单篇landing提供公开Download与OAI精确PDF地址，但本次对cgi/viewcontent.cgi?article=6752&context=gradschool_disstheses及context/gradschool_disstheses/article/6752/viewcontent/9502140.pdf的正常单篇请求均403，未获得PDF。没有绕过challenge、批量采正文或把application/pdf元数据当已读body；原1998/1978conversion谱/校准/误差仍缺。此为本次access边界，不是世界范围全文不存在或旧观测无效。 | external-access-and-reading-scope | actual-single-item-access | LSU5753 Download; OAI dc:identifier PDF URL; 1994 thesis landing availability | true |
 
 OAI metadata允许正常索引；本次只读元数据定位目标，未下载库中其它正文。精确原件路线比旧模糊检索更可恢复，然而GU22-D23-013的αK当前仍是官方评价转述。摘要所称h9/2–f7/2混合是作者解释线索，未据此填完整wavefunction/operator/δ，亦不重复计算采集票。新needs_review:true，原G22人审范围不变。
+
+
+## 2026-10-26 用户补充原件：获取状态更新
+
+以下文件已由用户提供，核对 PDF 签名、可解析页数和首页身份，按原路径登记。此前未取得正文的记录保留为历史访问结果；本次仅解除文件获取缺口，尚未核查原表、公式或科学结论，不改变已有 review 状态。
+
+- Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187.；DOI `10.31390/gradschool_disstheses.5753`；PDF 264 页；原件 [PDF](<../../raw/papers/degree dissertation/Complete Spectroscopy in the Mercury-187mg Decay_ The Structure.pdf>)。SHA-256：`c6067cc8efb4677552d51bb59e0b120f8801a71d67fdbd61c716bd2b938eecea`。
+- Étude par spectroscopie en ligne des états d’énergie de 187Au；DOI `10.1016/0375-9474(78)90184-7`；PDF 21 页；原件 [PDF](<../../raw/papers/1-s2.0-0375947478901847-main.pdf>)。SHA-256：`4d0f586b6493553f95899b244280f6e07a6836b6c8f715f977d3afd04a878223`。
+
+Rupnik 为 1994 学位论文，不能据此把 1998 期刊论文也标为已取得或视为独立实验。264 为本地 PDF 总页数，与机构书目所列正文页数分开。
+
+接收回执：[20261026 user PDFs](../../outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json)。

@@ -83,3 +83,12 @@ OpenAlex/发现工具的closed/restricted只说明其索引/端点状态，本�
 |---|---|---|---|---|---|
 | RS88-17 | Eq10相位动机下，任务构造4模式16维精确Fock控制：T-odd一体散射给uu′+vv′，T-even prototype给uu′−vv′，对角电算符须分开BCS真空/core贡献。它不替Ref1完整M1/E2公式，不意味着整个particle+core E2统一乘minus，也不恢复actual λ/Δ。 | task-derived-BCS-control | conditional-Fock-algebra-not-author-code | printed427 Eq10 and paragraph afterEq13; printed429 Eqs26–28 | true |
 | RS88-18 | 按声明Wigner–Eckart约定，固定Mi对所有Mf/q求和已为B=R²/(2Ji+1)，不可再除一次；反向详细平衡依初态spin权重。精确3j²控制为数学归一，非本核矩阵元或g/τ。 | task-derived-tensor-normalization | conditional-exact-angular-algebra | printed429 Eq26; printed430 Eqs29–31 | true |
+
+
+## 2026-10-26 用户补充原件：获取状态更新
+
+以下文件已由用户提供，核对 PDF 签名、可解析页数和首页身份，按原路径登记。此前未取得正文的记录保留为历史访问结果；本次仅解除文件获取缺口，尚未核查原表、公式或科学结论，不改变已有 review 状态。
+
+- Nuclear core-quasiparticle coupling；DOI `10.1016/0375-9474(78)90613-9`；PDF 35 页；原件 [PDF](<../../raw/papers/1-s2.0-0375947478906139-main.pdf>)。SHA-256：`108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb`。
+
+接收回执：[20261026 user PDFs](../../outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json)。

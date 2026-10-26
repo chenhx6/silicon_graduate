@@ -1,0 +1,38 @@
+{
+  "cwd": "/workspace/wiki/raw/papers/gpt/_incoming",
+  "default_path": "/workspace/wiki/raw/papers/gpt/_incoming/downloads",
+  "checks": [
+    {
+      "path": "/workspace/wiki/raw/papers/gpt/_incoming/downloads/20261026-check",
+      "expected": true,
+      "valid": true,
+      "passed": true
+    },
+    {
+      "path": "20261026-check",
+      "expected": true,
+      "valid": true,
+      "passed": true
+    },
+    {
+      "path": "/workspace/wiki/tmp/day23-originals/rupnik-publisher",
+      "expected": false,
+      "valid": false,
+      "passed": true
+    },
+    {
+      "path": "/tmp/outside-wiki",
+      "expected": false,
+      "valid": false,
+      "passed": true
+    },
+    {
+      "path": "../../../../../../etc",
+      "expected": false,
+      "valid": false,
+      "passed": true
+    }
+  ],
+  "network_requests": 0,
+  "files_downloaded": 0
+}

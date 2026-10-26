@@ -184,3 +184,12 @@ Knowledge Impact and Learning Decision：supports本卡AMR有具体微观支持�
 | KU25-D23-005 | 仅在其余自由度J=0且该占据冻结时，显式子集不能给I>39/2。若保持占据且接受源中较高自旋指派，(43/2−)/(47/2−)在该分解至少需另有2/4ℏ角动量。该必要下界既不测出唯一core R，也不否定AMR；最高自旋括号仍保留。Zhao自洽模型含全部核子、低j混合和corelike贡献，未假设这个inert remainder，不能被此条件界排除。 | Codex-conditional-bound-and-model-domain | derived-and-source-limited | Zhao2011 PDF5–7 all-nucleon and neutron-mixing paragraphs; Raju2015 PDF1 tentative47/2 abstract | true |
 
 八项限定控制实际通过：wedge正交/总J扇区封闭、Hermiticity/对易代数、Casimir与每个J的2J+1维数、Pauli最大Mz和耦合维度。最大矩阵残差约6×10⁻14，只说明所述角代数实现；不认证实际占据、spin或实验模式。高spin Jπ、其它中子混合/参与和组态连续性是必要伴随检验；未生成新δ/g/B/Q/τ、CI、设施率或机时。见[[antimagnetic-rotation]]与[[signature-tip-shears-discrimination-contract]]；新needs_review:true，旧review不变。
+
+
+## 2026-10-26 用户补充原件：获取状态更新
+
+以下文件已由用户提供，核对 PDF 签名、可解析页数和首页身份，按原路径登记。此前未取得正文的记录保留为历史访问结果；本次仅解除文件获取缺口，尚未核查原表、公式或科学结论，不改变已有 review 状态。
+
+- Evidence of antimagnetic rotation in odd-A 105Cd；DOI `10.1103/PhysRevC.82.061308`；PDF 5 页；原件 [PDF](<../../raw/papers/PhysRevC.82.061308.pdf>)。SHA-256：`9a8e4a6b07af381efcd7478ca0a0fcdfad09d13c31b8cd279742407e62e20d80`。
+
+接收回执：[20261026 user PDFs](../../outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json)。

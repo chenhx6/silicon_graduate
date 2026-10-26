@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-10-26T15:09:30.918387+00:00",
+  "credential_source": "raw/personal/.env:ELSEVIER_API_KEY",
+  "local_keys_match": {
+    "nature_downloader": true,
+    "academic_search": true
+  },
+  "tests": [
+    {
+      "name": "article_metadata",
+      "url": "https://api.elsevier.com/content/article/doi/10.1016/0375-9474(78)90613-9?view=META",
+      "accept": "application/json",
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "quota_headers": {},
+      "outcome": "metadata_available",
+      "title": "Nuclear core-quasiparticle coupling ",
+      "doi": "10.1016/0375-9474(78)90613-9"
+    },
+    {
+      "name": "article_pdf",
+      "url": "https://api.elsevier.com/content/article/doi/10.1016/0375-9474(78)90613-9?httpAccept=application/pdf",
+      "accept": "application/pdf",
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "quota_headers": {},
+      "outcome": "pdf_response_available",
+      "scope": "PDF signature only; stream closed without full download"
+    },
+    {
+      "name": "scopus_search",
+      "url": "https://api.elsevier.com/content/search/scopus?query=DOI%2810.1016%2F0375-9474%2878%2990613-9%29&count=1&view=STANDARD",
+      "accept": "application/json",
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "quota_headers": {
+        "X-RateLimit-Limit": "20000",
+        "X-RateLimit-Remaining": "20000",
+        "X-RateLimit-Reset": "1793588970"
+      },
+      "outcome": "search_available",
+      "total_results": "1"
+    }
+  ],
+  "limitations": "One target DOI; no full download; successful metadata does not establish PDF subscription"
+}

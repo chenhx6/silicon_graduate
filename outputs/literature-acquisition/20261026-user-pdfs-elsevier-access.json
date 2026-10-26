@@ -1,0 +1,82 @@
+{
+  "recorded_at_utc": "2026-10-26T15:07:29.213366+00:00",
+  "papers": [
+    {
+      "id": "rupnik-1994-187au-thesis",
+      "title": "Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187.",
+      "doi": "10.31390/gradschool_disstheses.5753",
+      "raw_file": "raw/papers/degree dissertation/Complete Spectroscopy in the Mercury-187mg Decay_ The Structure.pdf",
+      "sha256": "c6067cc8efb4677552d51bb59e0b120f8801a71d67fdbd61c716bd2b938eecea",
+      "bytes": 9898785,
+      "pdf_pages": 264,
+      "received_from": "user",
+      "related_source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "identity_check": "opening-page title/author/year/journal or repository imprint",
+      "reading_scope": "opening identity pages only; full scientific review pending",
+      "raw_action": "registered in place; no move, overwrite or duplicate PDF"
+    },
+    {
+      "id": "bourgeois-1978-187au-spectroscopy",
+      "title": "Étude par spectroscopie en ligne des états d’énergie de 187Au",
+      "doi": "10.1016/0375-9474(78)90184-7",
+      "raw_file": "raw/papers/1-s2.0-0375947478901847-main.pdf",
+      "sha256": "4d0f586b6493553f95899b244280f6e07a6836b6c8f715f977d3afd04a878223",
+      "bytes": 898604,
+      "pdf_pages": 21,
+      "received_from": "user",
+      "related_source": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "identity_check": "opening-page title/author/year/journal or repository imprint",
+      "reading_scope": "opening identity pages only; full scientific review pending",
+      "raw_action": "registered in place; no move, overwrite or duplicate PDF"
+    },
+    {
+      "id": "choudhury-2010-antimagnetic-105cd",
+      "title": "Evidence of antimagnetic rotation in odd-A 105Cd",
+      "doi": "10.1103/PhysRevC.82.061308",
+      "raw_file": "raw/papers/PhysRevC.82.061308.pdf",
+      "sha256": "9a8e4a6b07af381efcd7478ca0a0fcdfad09d13c31b8cd279742407e62e20d80",
+      "bytes": 329636,
+      "pdf_pages": 5,
+      "received_from": "user",
+      "related_source": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "identity_check": "opening-page title/author/year/journal or repository imprint",
+      "reading_scope": "opening identity pages only; full scientific review pending",
+      "raw_action": "registered in place; no move, overwrite or duplicate PDF"
+    },
+    {
+      "id": "larsson-1978-core-quasiparticle",
+      "title": "Nuclear core-quasiparticle coupling",
+      "doi": "10.1016/0375-9474(78)90613-9",
+      "raw_file": "raw/papers/1-s2.0-0375947478906139-main.pdf",
+      "sha256": "108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb",
+      "bytes": 1772577,
+      "pdf_pages": 35,
+      "received_from": "user",
+      "related_source": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+      "identity_check": "opening-page title/author/year/journal or repository imprint",
+      "reading_scope": "opening identity pages only; full scientific review pending",
+      "raw_action": "registered in place; no move, overwrite or duplicate PDF"
+    }
+  ],
+  "configuration": {
+    "credential_source": "raw/personal/.env:ELSEVIER_API_KEY",
+    "consumers": [
+      "paper-search-nodejs via repository wrapper",
+      "nature-downloader via private credentials.json",
+      "academic-search via private pybliometrics.cfg"
+    ],
+    "permission_status": "verified: article META 200; target PDF 200 with valid signature; Scopus DOI search 200 with 1 result; target-specific scope",
+    "download_workdir": "raw/papers/gpt/_incoming",
+    "allowed_download_root": "raw/papers/gpt/_incoming/downloads",
+    "activation": "new MCP processes; existing Day24 processes not restarted",
+    "permission_receipt": "outputs/literature-acquisition/20261026-elsevier-api-permissions.json",
+    "fresh_mcp": "initialized successfully; webofscience/sciencedirect/scopus configured",
+    "download_path_check": "outputs/literature-acquisition/20261026-download-path-check.json"
+  },
+  "boundary_repair": {
+    "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day25-matrix-review-023/project-reviewed-snapshot.md",
+    "change": "review snapshot type project -> report; original type retained as snapshot_source_type; scientific body unchanged",
+    "publication": "existing runner artifact excluded from this commit"
+  },
+  "git_pointer": "main · Configure Elsevier access and register supplied PDFs"
+}

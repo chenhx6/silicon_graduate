@@ -1,7 +1,7 @@
 ---
 type: system-workflow
 graph-excluded: true
-updated: 2026-10-24
+updated: 2026-10-26
 ---
 
 # 文献检索与访问配置
@@ -10,9 +10,9 @@ updated: 2026-10-24
 
 用户于 2026-10-24 授权接入 Web of Science。凭据保存在仓库内 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY`，该文件由 Git 忽略。文档、回执和命令行参数只记录变量名，不记录值。
 
-`system/scripts/run_paper_search_mcp.py` 在现有 Paper Search MCP 启动器之前运行，将该变量映射为插件读取的 `WOS_API_KEY`。优先使用已有非空 `WOS_API_KEY`，其次使用进程环境中的 `WEB_OF_SCIENCE_API_KEY`，最后读取上述文件。只解析这一项，不执行 `.env`，不加载其它凭据。
+`system/scripts/run_paper_search_mcp.py` 在现有 Paper Search MCP 启动器之前运行，将该变量映射为插件读取的 `WOS_API_KEY`。优先使用已有非空 `WOS_API_KEY`，其次使用进程环境中的 `WEB_OF_SCIENCE_API_KEY`，最后读取上述文件。只解析下述白名单，不执行 `.env`。
 
-本地 MCP 配置的 `paper-search-nodejs` 使用以下结构（路径替换为实际安装位置）：
+同一包装器还按白名单读取 `ELSEVIER_API_KEY`，其它 dotenv 项不会加载。本地 MCP 配置的 `paper-search-nodejs` 使用以下结构（路径替换为实际安装位置）：
 
 ```toml
 [mcp_servers.paper-search-nodejs]
@@ -29,6 +29,24 @@ args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>
 - 引用计数记录数据库、查询时间和论文 DOI/UID；不同库计数不直接合并。Starter 的检索及计数不代表拥有完整引文关系权限。
 - Expanded 必须另有明确的订阅授权与 `WOS_EXPANDED_API_KEY` 配置，才调用 Expanded 或 `get_webofscience_related_records`；不能由通用密钥存在推定已开通。
 - 遇到 401/403，记录认证或权限失败并换用 Crossref、arXiv、OpenAlex 等可用入口；429 按服务限流退避，不反复消耗额度。
+
+## Elsevier（2026-10-26）
+
+用户提供的 `ELSEVIER_API_KEY` 位于仓库内 `raw/personal/.env`（不是根目录 `personal/.env`）。已接入三处：
+
+- Paper Search MCP：由 `run_paper_search_mcp.py` 在启动时读取并传给 ScienceDirect/Scopus 适配器。
+- `nature-downloader`：通过自带 `configure_credentials.py set elsevier --stdin` 写入本机 `~/.config/lit-dl/credentials.json`，权限 `0600`。
+- Academic Search MCP：本机 `~/.config/pybliometrics.cfg` 已配置，权限 `0600`，补齐此前缺配置的 ScienceDirect/Scopus 路线。
+
+后两者为私有配置副本，更换 dotenv 中的 key 后应同步更新；不得把密钥放入命令参数、Wiki 文档或 Git。2026-10-26 应用户要求实测：Larsson1978 的文章 META 返回 200，PDF 接口返回 200/application/pdf 且 `%PDF-` 文件头有效（仅探测开头，未重复下载全文）；Scopus DOI 检索返回 200、1 条结果。结果仅覆盖该论文和所测接口，不代表全部全文或其它 Scopus 产品权限；配额头当时报告 limit/remaining 均为 20000，不能解读成每日限额。详见 [权限回执](../../outputs/literature-acquisition/20261026-elsevier-api-permissions.json)。新启动 MCP 已实测识别密钥，pybliometrics 本地初始化通过；正在运行的每日学习进程未重启。
+
+## Paper Search 下载目录（2026-10-26 修正）
+
+该插件的路径校验使用相对当前工作目录的 `./downloads`，仅设置 `DEFAULT_DOWNLOAD_PATH` 不生效。原启动器切换到安装目录，导致 Wiki 内的 `savePath` 被判越界。
+
+本机 `launch_mcp.py` 现从包装器的 `WIKI_PAPER_SEARCH_WORKDIR` 读取工作目录（本项目为 `raw/papers/gpt/_incoming`），创建其 `downloads` 子目录，并将 `DEFAULT_DOWNLOAD_PATH` 同步为该绝对路径；Node 入口仍用安装目录的绝对路径。恢复安装时须同时保留这项启动器配置。
+
+调用时使用 `savePath: "/workspace/wiki/raw/papers/gpt/_incoming/downloads/<run-id>"`，或相对于该 downloads 根的 run 子目录。`tmp/day23-originals/...` 和仓库外路径仍不属于允许目录，需改用上述入口；路径及符号链接越界检查保留。每次使用独立 run 子目录，核验后再归档，避免覆盖已有原件。当前会话的旧 MCP 不热加载，下一会话生效；本轮未发起实际下载。已用插件实际路径校验函数核对：绝对/相对隔离区子路径允许，旧 tmp 路径、仓库外路径和目录穿越拒绝，详见 [路径回执](../../outputs/literature-acquisition/20261026-download-path-check.json)。
 
 ## 全文访问与归档
 

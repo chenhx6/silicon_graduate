@@ -116,6 +116,8 @@ SORT file.name ASC
 
 Web of Science 已接入检索启动配置：从 `raw/personal/.env` 读取 `WEB_OF_SCIENCE_API_KEY`，在新会话中加载。用途是文献检索、书目信息及权限范围内的引用信息；全文继续走出版商或公开版本。2026-10-24 已验证 Starter 检索可用（50 次/日、1 次/秒），Expanded 返回 403；配置与调用说明见 [文献检索与访问配置](system/workflows/literature-access.md)。
 
+2026-10-26 已补配 Elsevier：密钥从 `raw/personal/.env` 接入检索插件，并同步到本机下载器及 pybliometrics 私有配置；已实测文章元数据、目标论文 PDF 接口及 Scopus 检索均返回 200，权限范围以目标及接口为限。Paper Search 下载目录已调整为 `raw/papers/gpt/_incoming/downloads/<run-id>/`，新会话加载。具体参数与更新凭据的方法见上述文献访问说明。
+
 日常摄入按以下闭环执行：
 
 1. 你提供一篇新论文或指定 `raw/papers/` 中的新文件；
