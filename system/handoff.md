@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点045（Day24仅无学分预习）
+## Active handoff — Day23检查点046（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-044已published。045同Hfullstate trace得ρK、三轴各谱P，七门过；I14 TV1.07143/TV2,3.39553，I18 gap更大但TV1.05755/TV2,3.19361，均描述模型。三轴不对易、integergridm0不移actualNdhalfspin，marginals/RMS不补phase/geometry终审。ZH07-D24P-010/概念/方法needs_review。下一sameH EM张量先free/scalar/平衡归一门，未actualphysicalnucleusfit。
+045已published。046 fixedunpairedH sourceEM Afi=Ef†CG⊗tEi，B=|A|²pref，sourceQ0=3.5/gdiff.7,−.6为modelinputs；十门过。I14M1大diagonal/E2off，I18反向pattern，非actualband/普适禁戒。I9formalE2向If7ordinal1 B.01449但Eγ−.41645MeV非出口；M1IfI−1/E2IfI−2不能反演δ。ZH07-D24P-011–013/方法/概念needs_review。下一已实现S特殊symmetry047通过，待canonical写回，不给signature/pseudospin/chiralC归属。
 
-详next-continuation-045.md/candidate-pool-045.json；检查以required-checks-045.json为准。Git指针main · Day23: keep spin marginals distinct from classical orientation；actualhash/H3仅task-publication-receipt-045.json。
+详next-continuation-046.md/candidate-pool-046.json；检查以required-checks-046.json为准。Git指针main · Day23: keep model transition matrices and open outlets separate；actualhash/H3仅task-publication-receipt-046.json。
 
 ## Previous handoff — Day22 closeout
 

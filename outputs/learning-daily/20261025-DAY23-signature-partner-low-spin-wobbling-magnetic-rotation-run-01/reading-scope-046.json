@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-25T23:55:17.721606+00:00",
+  "source_scope": "reuseactualZH07Eq15–18/parameters, no newfullpaper",
+  "ten_controls_pass": true,
+  "sourceQ0g_adopted_model_only": true,
+  "not_sourcepaired_or_actualnuclearproducer": true,
+  "formalclosure_not_gamma_inventory": true,
+  "different_finalI_not_a_mixingratio": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "formalday": 23,
+  "onlyuncreditedpreview": 24,
+  "initial_lint_failure": "2 matrix double-bracket notations were parsed as broken wikilinks; changed notation to parentheses, no numerical values changed; fresh checks required"
+}

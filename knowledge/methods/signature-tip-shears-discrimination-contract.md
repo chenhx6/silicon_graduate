@@ -671,3 +671,11 @@ $$f_+^2+(u_Av_B-v_Au_B)^2=1,qquad f_-^2+(u_Av_B+v_Au_B)^2=1.$$
 | 18 | 87.342 | .05755 | .19361 |
 
 同一H内，小gap不是所有边缘分布距离的单调代理；RMS相近也可能丢掉显著形状差。TV/Bhattacharyya是模型概率描述，不是实验显著性或静态手征分数。更完整的EM块还依赖各态的相干幅和相位，marginals不能替代它们。七项概率/full-norm检查只核这份模型实现，不把三轴marginal peaks拼成jointorientation或给tunnelingrate。[[nuclear-chirality]]承接唯一无学分Day24预习，新增needs_review:true，无新physicalg/B/δ/τ/CI/机时。
+
+## Day23桥接Day24预习：完整EM张量与开放出口分别检验
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-011–013固定044的无配对H，再按实际源coreE2/M1定义约化矩阵Afi，RME=√(2Ii+1)Afi。张量归一通过scalar/freeR0、Hermitian reverse与D2 source-target mapping核验；采用源Q0/g仅为该variant赋模型单位，不填写任何实际核g/Q或detector sensitivity。
+
+得到的低ordinal矩阵可随I改变dominant channel，特殊γ30下还出现数值近零项。这不把能量排序当稳定configuration/band标签，也不把该参数点的零当实测absence、全局δ/W.u.门或chirality认证。完整张量还要先检查目标出口：例如modelI9 ordinal0到If7 ordinal1为上跃，虽有非零formalE2 RME也不能产生该方向γ。与Pr早前526候选相同，形式强度与开放退激必须分开。
+
+固定If的全部formal终态之和可包含upward/sameI benchmark，低2final states也没有自动封闭EM projector；它们都不是实验total lifetime/branch库存。当前M1是I→I−1、coreE2是I→I−2，分母/末态不同，不能从这两表恢复某条混合δ。十数值/角动量门只核该variant的EM，不代原paired/multiqp producer或actualresponse/Cov。[[nuclear-chirality]]保唯一Day24无学分预习，新增needs_review:true，无新measuredB/δ/τ/CI/设施率或机时。

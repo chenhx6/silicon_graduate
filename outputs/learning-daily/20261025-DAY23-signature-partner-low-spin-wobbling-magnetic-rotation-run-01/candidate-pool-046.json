@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-25T23:57:17.402772+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "sourcecoreE2/M1同H约化tensor十门，specialnearzeros/ordinal通道变化只模型；formalupward不能当γ",
+  "next_route": "特殊γ30 p-holeH的额外unitary S与E2/M1分量选择，核条件性及非signature/chiralC范围",
+  "missing_inputs": [
+    "actual paired/multiqp producer/bandmapping",
+    "source-to-experiment response/branch/normalizer and covariance",
+    "physical configuration amplitudes and relativephase constraints"
+  ],
+  "Day25_opened": false
+}

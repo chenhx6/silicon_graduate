@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-25T23:46:26.803984+00:00",
+  "scope": "sameexplicitunpairedH model EM reducedtensor kernel andsource-adoptedscale only, not actual nucleus/experiment/sourcepairedproducer",
+  "formalday": 23,
+  "onlyuncreditedpreview": 24,
+  "H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+  "H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+  "H_implementation_sha256": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+  "source": "ZH07actualv1PDF7Eq15/16/17,PDF8Eq18; no pairingfactors hereunpairedlimit",
+  "reduced_kernel": "A_fi=Ef†Σν[CG(IiKi,λν|IfKf)⊗tν]Ei; RME=√(2Ii+1)A; B=|A|² timesdeclaredphysicalmodelprefactor",
+  "M1": "tν=.7jpν−.6jnν fromsourceadoptedgp−gR/.7,gn−gR/−.6; prefactor3/(4pi) inmuN²; no g or δ inferred",
+  "E2": "coreonlyt0=cosγ,t±2=sinγ/√2 timesintrinsicidentity;prefactor5Q0²/(16pi),Q0=3.5eb sourceadopted; no particleE2/radial added, notdetectorQ(E)",
+  "angular_components": "spherical−1=(Jx−iJy)/√2,0=Jz,+1=−(Jx+iJy)/√2, ν changesK andΩ bysameν",
+  "benchmarks": [
+    "scalar rank0 identity A=I",
+    "tensor mapping D2source toD2target no sectorleak",
+    "Hermitianreverse A_reverse=(-1)^(Ii−If)√[(2Ii+1)/(2If+1)] A†,weighted detailedbalance",
+    "freejhalfR0 I1triplet→I0singlet normalizedproton-onlyrank1B=.25,sumj generatorB0",
+    "completefinalIf0/1/2 normalizedprotonvectorclosure.75",
+    "completeIf1/2/3 coreC2closure1 fromI1R0"
+  ],
+  "target_initial_I": [
+    9,
+    14,
+    18
+  ],
+  "targets": "M1If=Ii−1,E2If=Ii−2, lowesttwoordinal states each; completefinalspace totalnorm vs low2subset onlydescriptive, includesformallyupwardcomponents inbenchmark",
+  "prohibited": [
+    "fullEMclosure isgammaexitinventory",
+    "ordinalmapping isobservedband or chiralitycertification",
+    "computedmodelB isnewexperimentalB/actualnuclear g/Q",
+    "δ/tau/CI/rates/time ororiginalrawcountfit",
+    "addparticleE2minusfactor orpairingwhenunpaired",
+    "sourcepairedproducerreplay/Day24credit/Day25+",
+    "run114producer/rawmutation"
+  ]
+}

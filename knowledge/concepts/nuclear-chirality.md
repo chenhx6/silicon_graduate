@@ -179,3 +179,9 @@ full-space平方范数给RMS而非带符号平均矢量，低gap/RMS相近也不
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-010在固定源variant中，将full wavefunction求迹后分别投影到三轴I分量。它比只看RMS多保留了分布形状，但三轴算符不对易，三个峰不能组成唯一经典三维矢量，单轴分布近合也不恢复左右手相干/phase。
 
 该模型I14的中轴分布比另两轴更近；I18能隙更大，部分边缘分布却更近。这里不据此选择实际核模式，只限制把“最小gap/RMS近合”直接当完整geometry结论。[[signature-tip-shears-discrimination-contract]]保model/data与概率/相干矩阵区别，Day24仍不正式计卡，新增needs_review:true。
+
+## Day23内的Day24无学分预习：EM矩阵还需出口与配置标签
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-011–013在已固定H上补source采用尺度的EM矩阵和独立自由/张量检查；它比marginals多保留了相干算符信息，仍不是实测partner强度或作者pairedproducer。
+
+特殊参数下某些E2近0、强M1在ordinal通道之间变化，不能直接称普遍手征/旋称判据。形式矩阵元可对应向上连接，固定If完整角空间也不等完整γ出口；不同If的M1与E2不能合成某条δ。[[signature-tip-shears-discrimination-contract]]保这些输入身份，新增needs_review:true，Day24无学分。

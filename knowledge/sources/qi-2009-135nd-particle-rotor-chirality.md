@@ -220,3 +220,15 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-010 | 同H最低两ordinal态的各轴marginal距离不同：I14的TV(axis1)=.07143，TV(axis2/3)=.39553；I18 gap更大，却有TV(axis1)=.05755、TV(axis2/3)=.19361。TV只是该模型两个概率分布的描述量；小能隙、某轴分布/RMS近合不强制所有轴分布同样接近，更不提供handedness/相对phase或静态chirality认证。 | declared-sameH-quantum-marginal-diagnostic | finiteI-model-wavefunction-and-spectral-projection | task input-contract045/sameH044; QI09v1PDF7Eq9 probability premise | true |
 
 `system/scripts/day23_prm_axis_marginals.py`七项ρHermiticity/trace/PSD、各轴P正归一、D2反射/一阶矩、二阶矩full-operator与直接K检查通过；最大二阶矩差1.2e−13ħ²。三个轴不对易，只能称各自边缘分布，不能把三个峰值拼成同时确定的经典矢量；概率接近也没有补足相干RME或完整几何。没有实验角度/概率、newδ/g/B/Q/τ/CI或机时。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保此范围，新增needs_review:true，Day24继续无学分。
+
+## Day23内的Day24无学分预习：同H的EM约化矩阵
+
+本节沿044无配对H和实际源ZH07 Eq15–18的coreE2/particleM1，先核张量归一/自由极限，再计算低ordinal态的模型矩阵。Q0=3.5eb、gp−gR=.7/gn−gR=−.6为原方法文采用的模型输入，不是新实验或实际135Nd/Au参数；它们不是detector Q(E)。未加particleE2、配对或未知径向量，未重现作者paired/multiqp producer。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-011 | 任务以Afi=Ef†Σν[CG(IiKi,λν;IfKf)⊗tν]Ei构约化角矩阵，RME=√(2Ii+1)A、B=|A|²乘源prefactor。coreE2 t0=cosγ、t±2=sinγ/√2；M1 tν=.7jpν−.6jnν。scalar identity、freeR0 proton-vector triplet→singlet normalizedB=.25、total-j interI0、complete vector .75/coreC2 1等十门通过，并核Hermitian reverse/D2映射。角闭合含formal upward/sameI，并非γ出口完整性；同I benchmark为声明向量而非包含gR I的完整静态磁矩。 | declared-source-operator-and-reduced-matrix-implementation | source-formula-plus-task-angular-model | ZH07v1PDF7Eq15–17/PDF8Eq18; task input-contract046 | true |
+| ZH07-D24P-012 | 固定variant中，M1 Ii14→13的低2×2模型B约((2.01683,.002904),(.003114,2.21550))μN²，E2 Ii14→12约((数值近0,.140290),(.177171,数值近0))e²b²，行final/列initial均为ordinal0/1。I18时强M1转到offdiagonal而coreE2以diagonal为主。这些矩阵只描述特殊γ30无配对模型和能量排序；未赋实际band归属，不把近0当实测禁戒或普遍selectionrule。 | declared-fixedH-model-EM-matrix | finiteI-wavefunction-plus-fixed-source-operator | task prm-em-tensors046 rowsIi14/Ii18; sourceparams/operators asZH07-D24P-011 | true |
+| ZH07-D24P-013 | 形式RME与开放γ出口须分：I9 ordinal0→If7 ordinal1的模型E2 B约.014488e²b²，但该fixedH中Einitial−Efinal≈−.416448MeV，是向上连接。所有固定If终态的形式强度范数也可含这种项，不能乘它作开放γ宽度/缺失branch或新机时。这里M1计算If=Ii−1、E2计算If=Ii−2，不是同一混合跃迁的两分量，未由二者反演δ。 | model-kinematic-outlet-and-mixing-identity-boundary | declared-H-energies-and-formal-RME | task prm-em-tensors046 Ii9/If7 rowfinal1/columninitial0; input-contract046 | true |
+
+`system/scripts/day23_prm_em_tensors.py`十项门通过，最大矩阵reverse差1.8e−15、eigen残差2.6e−12MeV；两低final态只占固定If形式总强度的一部分，不能据低2×2表宣称projector封闭。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]分别保model/probability/EM/experimental层次与唯一Day24无学分范围；新needs_review:true，无新measuredB/g/Q/δ/τ/CI或设施率/机时。
