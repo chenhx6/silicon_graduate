@@ -4495,3 +4495,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T10:44:25.570543+08:00 Day23检查点059：Liang原PDF1–8/生成元核，formalh/f κ配对与actualAu#19/#21分列；旧物理域措辞收窄，未认证AuPSS；继续重建候选，优先历史186Pt评价archive的原尺度或actual共同response/未定标EM；不打开Day25。原15:00/partial[23,24]/next23保持。Git指针main · Day23: distinguish signature branches from pseudospin orbital pairs；actualhash/H3仅task-publication-receipt-059.json。
 
 2026-10-26T11:03:13.551329+08:00 Day23检查点060：官方2004/2009archive补Baglin2003Pt94WU/260ps及BasuniaAu188WU/56ps；引用.84/1.44/1.49仍未闭合；继续核Pt独立g-reference原primary或继续actualH/operator/holdout输入；不以部分历史缺口收束。原15:00/partial[23,24]/next23保持。Git指针main · Day23: recover the historical Pt and Au reference evaluation fields；actualhash/H3仅task-publication-receipt-060.json。
+
+2026-10-26T12:02:04.636957+08:00 Day23检查点061：130Ba三出版物同实验谱系；纠scissor方向，goodK大rE2非唯一机制；继续133Ce重要补充深入学习实验分析与QTR检验并保持Day23主线。原15:00/partial[23,24]/next23保持。Git指针main · Day23: distinguish130Ba model support from shared spectroscopy；actualhash/H3仅task-publication-receipt-061.json。

@@ -442,7 +442,7 @@ Suzuki真实正宇称25/2+/27/2+/29/2+的BM1=2.3/1.8/1.2、BE2=.077/.14/.11可�
 
 ## 130Ba两准粒子M1主导与129Ba多极根敏感性边界（checkpoint053）
 
-[[chen-2019-transverse-wobbling-even-even]] CH19-D18-2/3 表明：130Ba Table I带间跃迁delta = -0.58至-0.62对应72.2%-74.8% M1主导，作者明确承认此现象并归因于两准粒子磁矩与剪刀振动耦合，PRM高估BM1约1.5-3.3倍，属于集体与单粒子混合效应。
+[[chen-2019-transverse-wobbling-even-even]] CH19-D18-2/3 表明：130Ba Table I带间跃迁delta = -0.58至-0.62对应72.2%-74.8% M1主导，作者将M1矩阵元较大归因于多一个高j准粒子；scissor耦合从TW抽走M1，PRM未含这一耦合（Day23按061301-3纠正），PRM高估BM1约1.5-3.3倍，属于集体与单粒子混合效应。
 
 [[chakraborty-2024-possibility-wobbling-129ba]] CH24-D18-14/15 表明：129Ba 365 keV重分析中大根delta ~ -2.0（80% E2）与历史采用根（~40% E2）和反事实小根（~9.8% E2）对应不同多极分布，历史偏振P = 0.072(68)距零1.06sigma具边际统计性质。新 [ba129-ba130-wobbling-boundary-result-053](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/ba129-ba130-wobbling-boundary-result-053.json) 包含15项检验，不制造实验置信区间。
 

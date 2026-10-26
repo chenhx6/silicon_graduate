@@ -34,6 +34,11 @@ updated: 2026-10-23
 
 ## Sources
 
+### Day23原实验与模型复用控制
+
+- [[petrache-2019-diversity-shapes-rotations-130ba]] — 原实验与4页补充的scope/符号边界。
+- [[wang-2020-two-quasiparticle-wobbling-130ba]] — 复用实验的PSM，非新采集。
+
 - [[gosia-2012-manual-sigma-invariants]] — 指定手册章节/全部公开SIGMA源码实际读；插值归一、crude误差与原producer分开。
 
 - [[cline-1986-nuclear-shapes-coulomb-excitation]] — 本session新读1986原件683–716与13图；高阶缺失强度/对易/低高频条件、非线性误差与Fig4归一字面边界。

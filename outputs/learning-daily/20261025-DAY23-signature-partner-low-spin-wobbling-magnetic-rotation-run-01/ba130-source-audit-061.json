@@ -1,0 +1,246 @@
+{
+  "scope": "Day23 comparator checkpoint061 only; no Day25, no new card credit",
+  "source_manifest": [
+    {
+      "key": "petrache2019",
+      "path": "tmp/day23-originals/ba130-primary061-2019.pdf",
+      "sha256": "98c3128b3d88528b56aa075748065dc2b1f13778a45ad3efedd3058a21a18340",
+      "pages": 7,
+      "rendered_pdf_pages": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "key": "wang2020",
+      "path": "tmp/day23-originals/ba130-primary061-2020.pdf",
+      "sha256": "09a05657de5b186c3f07ae313836f0cda302f5645305636a62ab6bac981e4bdc",
+      "pages": 5,
+      "rendered_pdf_pages": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "supp2019",
+      "path": "tmp/day23-originals/ba130-supp061-cdn-candidate.pdf",
+      "sha256": "d12be86b119f5d5212dac23b49fa7e4ab3ff855510fb6fd5eea6310a076b7cb7",
+      "pages": 4,
+      "rendered_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "key": "chen2019",
+      "path": "raw/papers/2019_Chen et al_Transverse wobbling in an even-even nucleus.pdf",
+      "sha256": "26e305b496b2fdff4596670f772e3b030540b3c24d0830b8e4b4176c8070c768",
+      "pages": 5,
+      "rendered_pdf_pages": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "BA130-D23-061-01",
+      "statement": "Petrache2019是原实验；Chen2019 PRM与Wang2020 PSM复用S1/S1prime实验输入，不能计为独立实验重复。",
+      "claim_kind": "source-dependency-synthesis",
+      "evidence_level": "direct-original-plus-labeled-synthesis-or-inference",
+      "locators": [
+        {
+          "source": "petrache2019",
+          "locator": "printed p242, Sec2 Experimental results"
+        },
+        {
+          "source": "chen2019",
+          "locator": "061301-1 final two paragraphs; 061301-5 Ref16"
+        },
+        {
+          "source": "wang2020",
+          "locator": "PDF pp1–3; PDF p5 Refs19–20"
+        }
+      ],
+      "boundary": "Different model frameworks provide model comparison, not repeated experimental acquisition.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-02",
+      "statement": "GALILEO25个Ge位于90度10个、119/129/152度各5个四环；Chen四角强度角分布选小模delta因chi2较低，仍明确角分布不能完全排除大模delta。",
+      "claim_kind": "experimental-method-and-ambiguity",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "petrache2019",
+          "locator": "printed p242, Sec2 first paragraph"
+        },
+        {
+          "source": "chen2019",
+          "locator": "061301-2 first paragraph below TableI"
+        }
+      ],
+      "boundary": "No unique-root, polarization or lifetime inference is supplied by this apparatus description.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-03",
+      "statement": "2019supp TableI只列D1/t-band而非S1prime完整delta向量；TableII D1 literal为nu h^2 tensor pi h^-2，与main Table1/正文的nu h^-2 tensor pi h^2不同，须保留冲突。",
+      "claim_kind": "source-scope-and-literal-conflict",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "supp2019",
+          "locator": "PDF p1, introductory paragraphs, TablesI–II D1 row"
+        },
+        {
+          "source": "petrache2019",
+          "locator": "printed p244 D1 assignment paragraph; p245 Table1"
+        },
+        {
+          "source": "chen2019",
+          "locator": "061301-2 TableI, S1prime→S1 rows"
+        }
+      ],
+      "boundary": "Do not silently repair signs. Chen TableI I19/21 display delta without uncertainties; do not invent uncertainties.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-04",
+      "statement": "原文将t与K=8minus低自旋的大E2out/in部分归于同一good-K带内CG投影系数；此机制不能作为S1prime→S1声子定义。",
+      "claim_kind": "source-mechanism-and-derived-control",
+      "evidence_level": "direct-original-plus-labeled-synthesis-or-inference",
+      "locators": [
+        {
+          "source": "petrache2019",
+          "locator": "printed p245, final left paragraph continuing in right column below Fig5; Fig5(c)"
+        }
+      ],
+      "boundary": "GoodK fixedQ benchmark is a model exercise, not an actual t-band fit or new B/Q/lifetime measurement.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-05",
+      "statement": "Petrache Table1中各组态PRM的Coriolis attenuation xi和CDFT形变合同，与Chen S1/S1prime按能量拟合的自旋相关三轴惯量合同分开；不得移用D1的xi到S1prime。",
+      "claim_kind": "model-contract-boundary",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "petrache2019",
+          "locator": "printed p245 Sec3.3 and Table1"
+        },
+        {
+          "source": "chen2019",
+          "locator": "061301-2 right column, PRM parameters and Ji fitting paragraph"
+        }
+      ],
+      "boundary": "No new attenuation value, fit or parameter uncertainty is inferred.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-06",
+      "statement": "t与K=8minus相似磁强度在原文中有偶然g因子成分；PRM有效g与PSM/TAC直接多体磁算符的说明不同，不是独立测得转动g。",
+      "claim_kind": "author-model-comparison",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "petrache2019",
+          "locator": "printed p244 final note paragraph; p245 effectiveg paragraph; p246 magneticoperator paragraph"
+        },
+        {
+          "source": "chen2019",
+          "locator": "061301-3 first paragraph, gR and gpi"
+        }
+      ],
+      "boundary": "Model operator prescriptions must be preserved; no magnetic-moment measurement is fabricated.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-07",
+      "statement": "Chen从s轴起算phi而Wang从i轴起算phi，短轴峰分别在0和90度；两者取向概率图须先作轴定义映射。",
+      "claim_kind": "model-coordinate-convention",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "chen2019",
+          "locator": "061301-3 Fig2 caption and angulargeometry paragraphs"
+        },
+        {
+          "source": "wang2020",
+          "locator": "PDF p2 text after Eqs8–9; p3 Fig3 and description"
+        }
+      ],
+      "boundary": "Nonnegative probability densities do not change sign; odd wavefunction parity must not be called antisymmetry of P itself.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-08",
+      "statement": "Chen和Wang形变/配对/配置空间不同，Chen计算范围未达失稳点而Wang对I23称可能接近临界自旋；这是有条件模型差异。",
+      "claim_kind": "model-dependent-stability",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "chen2019",
+          "locator": "061301-2 CDFT/PRM parameter paragraphs; 061301-4 opening paragraph"
+        },
+        {
+          "source": "wang2020",
+          "locator": "PDF p2 final modelparameters paragraph; p4 paragraph before Sec4"
+        }
+      ],
+      "boundary": "No experimentally established critical spin or shared shape measurement is inferred.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-09",
+      "statement": "Chen把M1矩阵元增大归于多一个高j准粒子；所援引scissor coupling从TW抽走M1强度且未进PRM，用以解释其M1高估。",
+      "claim_kind": "author-interpretation-correction",
+      "evidence_level": "direct-original",
+      "locators": [
+        {
+          "source": "chen2019",
+          "locator": "061301-3 left column paragraphs starting Note that and The overestimation"
+        }
+      ],
+      "boundary": "Correct canonical D18-2/3 direction. QRPA Ref29 is cited by Chen but not independently read in this batch.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "BA130-D23-061-10",
+      "statement": "同能谱用于惯量拟合后不构成独立holdout；应冻结配置/形变/惯量/Coriolis/磁算符合同后测试未用于拟合或模型选择的观测，现有原件未给统一预注册分割。",
+      "claim_kind": "task-method-inference",
+      "evidence_level": "direct-original-plus-labeled-synthesis-or-inference",
+      "locators": [
+        {
+          "source": "chen2019",
+          "locator": "061301-2 explicit Ji fit paragraph; 061301-4 AC modelcomparison and Fig4"
+        },
+        {
+          "source": "wang2020",
+          "locator": "PDF p2 modelparameters; p3 Figs1–3; p4 Fig4"
+        }
+      ],
+      "boundary": "Proposed evaluation design only; no completed holdout test, new statistics or new measurement is claimed.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    }
+  ],
+  "new_claim_count": 10,
+  "canonical_written": false,
+  "external_search_expansion": false
+}

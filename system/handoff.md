@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点060（Day24仅无学分预习）
+## Active handoff — Day23检查点061（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-059已H3published。060officialensdfnav→ensdfarchivals/ui.js/files.json列真archive，04March/09Oct两zip200/tmp，PtAdopted逐行相同Baglin2003/CUT4Apr2003，191.53 2+ T1/2 260(12)ps/BE2W94(5)/α.422；EC明clock1972Fi12，g.27(3)relative192Pt.30(1)/1996St12TF。Au09Basunia2009/56ps/188WU/Qt6.08→1995RDM；04Au是1991旧评。WU定义中央.59287/1.19426非新τ/CI，未闭合.84/1.44/1.49或改β。四canonical页+Auactive补新PT03/AU09needs_review。下一gprimary或原inputs，原15:00保持。
+060H3已完成；061核130Ba原实验和两模型依赖，纠Chen/DSAM scissor方向。133Ce重点补充需深入实验分析/模型合同，当前父读Ch1/3/6/7，余Ch2/4/5。原15:00保持。
 
-详next-continuation-060.md/candidate-pool-060.json；检查以required-checks-060.json为准。Git指针main · Day23: recover the historical Pt and Au reference evaluation fields；actualhash/H3仅task-publication-receipt-060.json。
+详next-continuation-061.md/candidate-pool-061.json；检查以required-checks-061.json为准。Git指针main · Day23: distinguish130Ba model support from shared spectroscopy；actualhash/H3仅task-publication-receipt-061.json。
 
 ## Previous handoff — Day22 closeout
 

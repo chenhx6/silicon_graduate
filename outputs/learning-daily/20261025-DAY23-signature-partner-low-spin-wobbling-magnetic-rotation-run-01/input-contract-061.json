@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-26T03:05:18.942913+00:00",
+  "scope": "Day23 original Pt core magnetic observable and operator-companion readiness, not new nuclear mode/card",
+  "active_recall": [
+    "g2+ follows staticmoment/precession and fieldcalibration, not sameobjectasoddAu rotationalgR orM1transition",
+    "relative192Pt .30(1) sharedcalibration maydominate covariance",
+    "no coreg automaticallyselectsdelta ormode"
+  ],
+  "anchor": "Stuchberyetal1996 PRL76,2246 DOI10.1103/PhysRevLett.76.2246, NSR1996St12 actuallyverified",
+  "question": "Can originalmethod and actualreference/error roles sharpen an unusedoperatorcompanion without transferringg by fiat?",
+  "prohibited": [
+    "newAu orPr g/δ/Q/tau/rates/beamtime",
+    "publishermetadata asbody",
+    "newcardcredit/Day25/114producer/rawmutation"
+  ],
+  "adaptive_extension": {
+    "scope": "one nonoverlapping Day23 comparator from existingChen2019reference16 originalexperimentalinput130Ba, no newcoursecard",
+    "reason": "Ptgprimary body accessnotobtained; ANUlandingmetadata/emptybitstreams notbody. Retain evaluatedcalibration boundary. Original130Baexperiment is missingbehindexistingtheorysupport and may improve five-mechanism discriminator.",
+    "constraints": [
+      "newprimaryreport not counted as independentofChen borroweddata",
+      "actualsourceobservations vs modelgeometry/fit inputs separately",
+      "no universalE2photonfraction gate or Pr/Au reassignment",
+      "no arxiv repeatwhile429; use publicpublisher/INSPIRE normalroute"
+    ]
+  },
+  "actual_primary_candidates": {
+    "primary2020": "10.1016/j.physletb.2020.135246",
+    "scheme2019": "10.1016/j.physletb.2019.06.040"
+  },
+  "identity_boundary": "2019Diversityscheme isChen2019Ref16; 2020Twoquasiparticlewobbling distinctpublication, shared acquisition must be tested not assumed independent",
+  "resolved_identity": "2020Wang/FQChen/ZhaoPLB802135246 is a PSM theory paper, not newexperimentalacquisition; 2019PetrachePLB795241 is actualexperiment source, Chen2019PRC100061301anotherPRM theory",
+  "bounded_exercise": {
+    "scope": "source-motivated goodK fixedintrinsicQ CGbenchmark only, not actualtbandfit",
+    "K": 8,
+    "I": [
+      10,
+      12,
+      16,
+      20
+    ],
+    "R_definition": "B(E2;I→I−1)/B(E2;I→I−2) inside samegoodKband; not sameasS1prime→S1 wobblingoutratio",
+    "formula": "2 K²(2I−1)/[(I+1)((I−1)²−K²)]",
+    "validation": "independentCGsum implementation compared withanalyticratio",
+    "additional": "quote E2photonfractionsfromactualChenTableI δ as derivedsamevariable, not newindependentmeasurement",
+    "prohibited": "no actualQ0/lifetime/B fit, no hard threshold, no newfacilitytime"
+  }
+}

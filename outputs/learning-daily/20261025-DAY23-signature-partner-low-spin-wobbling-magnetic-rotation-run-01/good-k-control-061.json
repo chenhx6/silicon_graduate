@@ -1,0 +1,45 @@
+{
+  "scope": "goodK fixed intrinsic Q analytic control; not t-band fit, not S1prime to S1 definition",
+  "method": "independent standard-library factorial Wigner3j sum, exact Fraction arithmetic",
+  "rows": [
+    {
+      "I": 10,
+      "K": 8,
+      "cg1_squared_exact": "128/385",
+      "cg2_squared_exact": "17/665",
+      "ratio_exact": "2432/187",
+      "ratio": 13.005347593582888,
+      "analytic_agrees_exactly": true
+    },
+    {
+      "I": 12,
+      "K": 8,
+      "cg1_squared_exact": "256/715",
+      "cg2_squared_exact": "114/1265",
+      "ratio_exact": "2944/741",
+      "ratio": 3.9730094466936574,
+      "analytic_agrees_exactly": true
+    },
+    {
+      "I": 16,
+      "K": 8,
+      "cg1_squared_exact": "256/935",
+      "cg2_squared_exact": "322/1705",
+      "ratio_exact": "3968/2737",
+      "ratio": 1.4497625137011327,
+      "analytic_agrees_exactly": true
+    },
+    {
+      "I": 20,
+      "K": 8,
+      "cg1_squared_exact": "768/3895",
+      "cg2_squared_exact": "12474/50635",
+      "ratio_exact": "1664/2079",
+      "ratio": 0.8003848003848004,
+      "analytic_agrees_exactly": true
+    }
+  ],
+  "source_motivation": "Petrache2019 p245 paragraphs around Fig5; model exercise only",
+  "new_measurement": false,
+  "failed_optional_route": "sympy unavailable; no installation attempted"
+}

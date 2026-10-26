@@ -787,3 +787,11 @@ Markov不是iid：声明ρ=.9的stationary AR1给τint19，数学N19000的mean-E
 在声明的WU定义下只作乘法换单位，得到历史中央.59287与1.19426e²b²；不需要假装已闭合所有branch，也不由此新反演τ或生成CI。S20/thesis引用.84/1.44和1.49的映射仍缺，保持原字和actualβ不动。若以后更换EM尺度，那是operator/calibration改变，不应冒作B槽纯configuration重指派。
 
 Pt g2+=.27(3)另有相对192Pt .30(1)的TF参考链，适合作为进一步operator companion的原件入口，未获原primary前不移作oddAu gR或第三份选根证据。[[187au-longitudinal-wobbling-controversy]]保逐量来源及历史尺度边界，newneeds_review:true，不新增δ/Q/τ或机时。
+
+## Day23：130Ba的good-K反例与模型复用
+
+130Ba作为Day23控制保留三条边界：(i) 大rE2的good-K投影机制是对“单一大比值”的反例，而非S1′定义；(ii) 两质子带M1占优与TW模型可相容，M1份额不能自动选磁转动；(iii) 三篇出版记录仅一组复用实验输入，不把PRM与PSM波函数取向当新观测。冻结模型合同后，只有未用于调参或选择模型的观测才可作为holdout；现有四份原件不提供统一预注册holdout分割。该句属于本任务方法推断，不冒称原文结论。保留当前两槽/五机制主线，不推进Day25。
+
+来源：[[petrache-2019-diversity-shapes-rotations-130ba]] BA130-D23-061-01/03/04，[[wang-2020-two-quasiparticle-wobbling-130ba]] BA130-D23-061-07/08/10，[[chen-2019-transverse-wobbling-even-even]] BA130-D23-061-09。新needs_review:true。
+
+在明确固定Q、同一good-K带的控制中，CG比为2K²(2I−1)/((I+1)((I−1)²−K²))。K8、I10/12/16/20得到13.00535/3.97301/1.44976/.800385；标准库精确阶乘Wigner求和独立复核。它不是S1′→S1拟合、实际E2/τ或新rate。
