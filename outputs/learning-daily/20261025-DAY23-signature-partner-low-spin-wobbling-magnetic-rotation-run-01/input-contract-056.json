@@ -1,0 +1,143 @@
+{
+  "recorded_at": "2026-10-26T01:48:38.559830+00:00",
+  "scope": "digitize black plotted AD point centers for376/462 only; not event/peakcounts or original experimental likelihood",
+  "source": "actualPRL2020PDF4Fig3a/b embeddedimage xref88, sameoriginalhash as040",
+  "image": "tmp/day23-originals/au20-p4-embedded0-040.png",
+  "sha256": "b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd",
+  "native_size": [
+    1334,
+    1129
+  ],
+  "panels": [
+    {
+      "energy_keV": 376.3,
+      "frame": [
+        121,
+        3,
+        662,
+        258
+      ],
+      "seeds_xy": [
+        [
+          225,
+          243
+        ],
+        [
+          328,
+          242
+        ],
+        [
+          421,
+          206
+        ],
+        [
+          470,
+          148
+        ],
+        [
+          539,
+          96
+        ],
+        [
+          599,
+          62
+        ],
+        [
+          660,
+          42
+        ]
+      ],
+      "axis": {
+        "x0": 121,
+        "x90": 662,
+        "yhi": 15,
+        "ihi": 6.4,
+        "ylo": 257,
+        "ilo": 2.2,
+        "printed_scale": "10^3"
+      }
+    },
+    {
+      "energy_keV": 461.8,
+      "frame": [
+        679,
+        3,
+        1219,
+        258
+      ],
+      "seeds_xy": [
+        [
+          782,
+          235
+        ],
+        [
+          885,
+          234
+        ],
+        [
+          978,
+          185
+        ],
+        [
+          1027,
+          145
+        ],
+        [
+          1096,
+          90
+        ],
+        [
+          1156,
+          42
+        ],
+        [
+          1217,
+          24
+        ]
+      ],
+      "axis": {
+        "x0": 679,
+        "x90": 1219,
+        "yhi": 31,
+        "ihi": 1.9,
+        "ylo": 257,
+        "ilo": 0.8,
+        "printed_scale": "10^4",
+        "rounding_boundary": "one-decimal printed ticklabels; only nominal axis transform, not exact physical intensity"
+      }
+    }
+  ],
+  "segmentation": {
+    "local_window_halfwidth": 7,
+    "local_window_halfheight": 12,
+    "dark_thresholds": [
+      60,
+      100,
+      140
+    ],
+    "frame_guard_pixels": 1,
+    "component_selection": "connected darkcomponent containingnearestseed; blackpoints plusvisibleerrorstem, exclude red/blue curves and font by localwindows; visualoverlayinspectrequired"
+  },
+  "reported_outputs": [
+    "nativepointcentroids and nominal theta/plottedintensity",
+    "pixelthresholdsensitivity only, no experimentalsigma",
+    "visibleblackcomponent extent is not statistical errorbar length",
+    "optionalunweighteddescriptiveshape fit for376 only ifsourcezerointensitycalibrationclear; no chi²/delta/rootpreference"
+  ],
+  "prohibited": [
+    "treat plot Iγ as original peak/event counts",
+    "assign Poisson/statisticalerrorbars from pointdiameter or hiddenstems",
+    "call imageroundingsensitivity confidenceinterval",
+    "claim global/sharedresponse likelihood or originalproducer reproduction",
+    "newmeasurement or independentvote",
+    "inventQ/tau/beamtime",
+    "run114producer"
+  ],
+  "reconstruct_image_if_missing": {
+    "source_pdf": "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf",
+    "source_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+    "image_xref": 88,
+    "pdf_page_index": 3,
+    "write_only_derived_tmp_image": true
+  }
+}

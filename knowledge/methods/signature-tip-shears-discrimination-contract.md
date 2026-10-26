@@ -749,3 +749,9 @@ WA95-D23-002/004同时给真正clock的角色：τ81.3ps是原RDM的Au13/2−母
 DL10-D23-005给一个确定性反例：mean20/variance121、support0–60的三组正分布具有〈cos3γ〉=.419335/.389904/.515711，而cos(3mean)=.5。只在β固定的声明控制下比较这一非线性项；真实三阶charge信息还需β³与γ的联合分布及电磁矩阵元。不能把某个mean当唯一rigidγ，不能把modelwidth当CI，也不能把人工分布说成同H配置候选。
 
 A槽应记录每篇模型的shape quantity、单位/约定和actual输入版本；B槽冻结这些后才改变组态映射，并预先列未定标量。若换static为5D软芯、改inertia或更换functional，须记为H变化。[[187au-longitudinal-wobbling-controversy]]新增谱系图保共享理论来源和原时钟依赖，needs_review:true，无新物理δ/Q/τ或机时。
+
+## Day23：图中点中心、统计误差与raw计数是不同输入
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-7/8给376/462公开AD图的14个native黑点中心。可再现的图像定位提高了逐线观测合同的可读性，但source ordinate为图示Iγ、不是每个ring的net counts；右轴刻度rounding、edgeclipped centroid与未分辨errorbar均限制定量使用。
+
+不得从fillmarker直径或其black component extent赋实验σ，也不由高像素稳定性宣称统计精度或原likelihood已重现。这里没有拟合；红fit路径、黑点、自由A2/A4与经校准的Table4.4参数仍为不同处理对象。同源导出不能重复乘likelihood，真实A槽还需group净峰面积/efficiency/gate/归一/Cov。[[187au-longitudinal-wobbling-controversy]]保两模型/观测条件，新needs_review:true，无新δ/Q/τ或机时。

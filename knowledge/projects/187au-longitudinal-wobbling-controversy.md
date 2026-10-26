@@ -419,3 +419,9 @@ flowchart TD
 ```
 
 两个模型H/operator输入尚未一致，改变core的γ分布或惯量本身会改变H，不能冒充B槽只改configuration assignment的反证。仅mean20/宽11不能补完整EM：三组条件正分布同矩而〈cos3γ〉不同，既不构成actualPt替代态，也不赋解释同等可信。下一最直接输入仍是原PRM/QTR的取值版本、完整振幅/算符与未用于定标的母态/连接检验。新增needs_review:true，无新Auδ/τ/Q或机时。
+
+## Day23：A槽多了一份图示点向量，仍缺实验误差向量
+
+[[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-7/8从原Fig3的376/462黑点各提7个native中心，保独立于040红fit的图像对象；它们仍是同一Au支持采集的公开表达，不新增独立票。左右ordinate scale、tickrounding和90°marker裁切均声明，五提取控制与视觉叠图过。
+
+这使“实际点中心在哪里”可复核，但大部分errorbars仍被marker覆盖，不能把点径/黑bbox当σ或强行作Poisson fit。当前没有新的χ²/δ/root裁决；需要原峰面积/efficiency/归一/Cov才能把公开点向量与Table4.4/自由fit/红fit并入同一响应。与GuoP–Rac的同线对照、全局likelihood缺口及两配置的未定标预测继续保留。新增needs_review:true。

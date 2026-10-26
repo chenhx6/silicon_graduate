@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T01:55:33.532619+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "376/462各7native黑点中心恢复、5图像控制/叠图/原PDF重建过；σ和rawresponse仍未重现",
+  "next_route": "重建两槽候选，核Pr支持AD公开向量/逐run版本或Au未定标configuration输出；不将图中心当完整likelihood",
+  "missing_inputs": [
+    "fullpointuncertainty/Cov and originalgroup净峰/efficiency/normalization",
+    "publishedversusproducerADstage mapping",
+    "completecommonH/operator and heldoutconfigurationpredictions"
+  ],
+  "Day25_opened": false
+}

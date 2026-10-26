@@ -1,0 +1,620 @@
+{
+  "scope": "digitize black plotted AD point centers for376/462 only; not event/peakcounts or original experimental likelihood",
+  "formal_day_index": 23,
+  "conditions": {
+    "recorded_at": "2026-10-26T01:48:38.559830+00:00",
+    "scope": "digitize black plotted AD point centers for376/462 only; not event/peakcounts or original experimental likelihood",
+    "source": "actualPRL2020PDF4Fig3a/b embeddedimage xref88, sameoriginalhash as040",
+    "image": "tmp/day23-originals/au20-raw-reconstructed056.png",
+    "sha256": "b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd",
+    "native_size": [
+      1334,
+      1129
+    ],
+    "panels": [
+      {
+        "energy_keV": 376.3,
+        "frame": [
+          121,
+          3,
+          662,
+          258
+        ],
+        "seeds_xy": [
+          [
+            225,
+            243
+          ],
+          [
+            328,
+            242
+          ],
+          [
+            421,
+            206
+          ],
+          [
+            470,
+            148
+          ],
+          [
+            539,
+            96
+          ],
+          [
+            599,
+            62
+          ],
+          [
+            660,
+            42
+          ]
+        ],
+        "axis": {
+          "x0": 121,
+          "x90": 662,
+          "yhi": 15,
+          "ihi": 6.4,
+          "ylo": 257,
+          "ilo": 2.2,
+          "printed_scale": "10^3"
+        }
+      },
+      {
+        "energy_keV": 461.8,
+        "frame": [
+          679,
+          3,
+          1219,
+          258
+        ],
+        "seeds_xy": [
+          [
+            782,
+            235
+          ],
+          [
+            885,
+            234
+          ],
+          [
+            978,
+            185
+          ],
+          [
+            1027,
+            145
+          ],
+          [
+            1096,
+            90
+          ],
+          [
+            1156,
+            42
+          ],
+          [
+            1217,
+            24
+          ]
+        ],
+        "axis": {
+          "x0": 679,
+          "x90": 1219,
+          "yhi": 31,
+          "ihi": 1.9,
+          "ylo": 257,
+          "ilo": 0.8,
+          "printed_scale": "10^4",
+          "rounding_boundary": "one-decimal printed ticklabels; only nominal axis transform, not exact physical intensity"
+        }
+      }
+    ],
+    "segmentation": {
+      "local_window_halfwidth": 7,
+      "local_window_halfheight": 12,
+      "dark_thresholds": [
+        60,
+        100,
+        140
+      ],
+      "frame_guard_pixels": 1,
+      "component_selection": "connected darkcomponent containingnearestseed; blackpoints plusvisibleerrorstem, exclude red/blue curves and font by localwindows; visualoverlayinspectrequired"
+    },
+    "reported_outputs": [
+      "nativepointcentroids and nominal theta/plottedintensity",
+      "pixelthresholdsensitivity only, no experimentalsigma",
+      "visibleblackcomponent extent is not statistical errorbar length",
+      "optionalunweighteddescriptiveshape fit for376 only ifsourcezerointensitycalibrationclear; no chi²/delta/rootpreference"
+    ],
+    "prohibited": [
+      "treat plot Iγ as original peak/event counts",
+      "assign Poisson/statisticalerrorbars from pointdiameter or hiddenstems",
+      "call imageroundingsensitivity confidenceinterval",
+      "claim global/sharedresponse likelihood or originalproducer reproduction",
+      "newmeasurement or independentvote",
+      "inventQ/tau/beamtime",
+      "run114producer"
+    ],
+    "reconstruct_image_if_missing": {
+      "source_pdf": "raw/papers/2020_Sensharma et al_Longitudinal Wobbling Motion in Au 187.pdf",
+      "source_sha256": "f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a",
+      "image_xref": 88,
+      "pdf_page_index": 3,
+      "write_only_derived_tmp_image": true
+    }
+  },
+  "contract_sha256": "8ff80303600adddc4ae9a30530eb84e929f166086cc6f05541f6fdc15b75944e",
+  "implementation_sha256": "57a24652ea3089ff4397763fe64c5b90e55fb75772ba356de671889543abd1da",
+  "targets": [
+    {
+      "energy_keV": 376.3,
+      "points": [
+        {
+          "seed_xy": [
+            225,
+            243
+          ],
+          "center_xy": [
+            224.5857142857143,
+            242.9857142857143
+          ],
+          "nominal_theta_degrees": 17.232373910747295,
+          "nominal_display_ordinate": 2.443223140495868,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 70,
+          "visible_component_bbox_not_errorbar": [
+            220,
+            239,
+            229,
+            247
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            328,
+            242
+          ],
+          "center_xy": [
+            328.0,
+            241.80882352941177
+          ],
+          "nominal_theta_degrees": 34.4362292051756,
+          "nominal_display_ordinate": 2.463648517258143,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 68,
+          "visible_component_bbox_not_errorbar": [
+            324,
+            237,
+            332,
+            246
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            421,
+            206
+          ],
+          "center_xy": [
+            420.625,
+            205.375
+          ],
+          "nominal_theta_degrees": 49.84519408502773,
+          "nominal_display_ordinate": 3.0959710743801656,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 72,
+          "visible_component_bbox_not_errorbar": [
+            416,
+            201,
+            425,
+            210
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            470,
+            148
+          ],
+          "center_xy": [
+            469.6179775280899,
+            147.4494382022472
+          ],
+          "nominal_theta_degrees": 57.99559700097614,
+          "nominal_display_ordinate": 4.101290741944471,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 89,
+          "visible_component_bbox_not_errorbar": [
+            465,
+            139,
+            474,
+            156
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            539,
+            96
+          ],
+          "center_xy": [
+            538.625,
+            95.375
+          ],
+          "nominal_theta_degrees": 69.47550831792977,
+          "nominal_display_ordinate": 5.005061983471075,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 72,
+          "visible_component_bbox_not_errorbar": [
+            534,
+            91,
+            543,
+            100
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            599,
+            62
+          ],
+          "center_xy": [
+            599.375,
+            61.375
+          ],
+          "nominal_theta_degrees": 79.58179297597043,
+          "nominal_display_ordinate": 5.595144628099174,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 72,
+          "visible_component_bbox_not_errorbar": [
+            595,
+            57,
+            604,
+            66
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            660,
+            42
+          ],
+          "center_xy": [
+            657.7708333333334,
+            42.0
+          ],
+          "nominal_theta_degrees": 89.29644177449168,
+          "nominal_display_ordinate": 5.931404958677686,
+          "printed_ordinate_multiplier": "10^3",
+          "selected_dark_pixels": 48,
+          "visible_component_bbox_not_errorbar": [
+            655,
+            38,
+            660,
+            46
+          ],
+          "frame_clipped_window": true
+        }
+      ],
+      "threshold_pixel_envelope_not_CI": [
+        {
+          "x_pixel_range": [
+            224.5857142857143,
+            224.6290322580645
+          ],
+          "y_pixel_range": [
+            242.87179487179486,
+            242.9857142857143
+          ]
+        },
+        {
+          "x_pixel_range": [
+            328.0,
+            328.0
+          ],
+          "y_pixel_range": [
+            241.6184210526316,
+            241.80882352941177
+          ]
+        },
+        {
+          "x_pixel_range": [
+            420.5,
+            420.625
+          ],
+          "y_pixel_range": [
+            205.375,
+            205.5
+          ]
+        },
+        {
+          "x_pixel_range": [
+            469.5869565217391,
+            469.6179775280899
+          ],
+          "y_pixel_range": [
+            147.4494382022472,
+            147.5
+          ]
+        },
+        {
+          "x_pixel_range": [
+            538.5,
+            538.6307692307693
+          ],
+          "y_pixel_range": [
+            95.375,
+            95.5
+          ]
+        },
+        {
+          "x_pixel_range": [
+            599.3384615384615,
+            599.375
+          ],
+          "y_pixel_range": [
+            61.292307692307695,
+            61.375
+          ]
+        },
+        {
+          "x_pixel_range": [
+            657.7708333333334,
+            657.8478260869565
+          ],
+          "y_pixel_range": [
+            41.63461538461539,
+            42.0
+          ]
+        }
+      ],
+      "errorbar_readiness": "unresolved from this extraction; most bars are hidden by filled markers, component extent is not sigma"
+    },
+    {
+      "energy_keV": 461.8,
+      "points": [
+        {
+          "seed_xy": [
+            782,
+            235
+          ],
+          "center_xy": [
+            781.3521126760563,
+            235.56338028169014
+          ],
+          "nominal_theta_degrees": 17.058685446009385,
+          "nominal_display_ordinate": 0.9043375296023931,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 71,
+          "visible_component_bbox_not_errorbar": [
+            777,
+            231,
+            786,
+            240
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            885,
+            234
+          ],
+          "center_xy": [
+            885.0,
+            234.0
+          ],
+          "nominal_theta_degrees": 34.333333333333336,
+          "nominal_display_ordinate": 0.9119469026548672,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 69,
+          "visible_component_bbox_not_errorbar": [
+            881,
+            230,
+            889,
+            238
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            978,
+            185
+          ],
+          "center_xy": [
+            977.3188405797101,
+            184.84057971014494
+          ],
+          "nominal_theta_degrees": 49.71980676328502,
+          "nominal_display_ordinate": 1.1512184173400026,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 69,
+          "visible_component_bbox_not_errorbar": [
+            973,
+            181,
+            982,
+            189
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            1027,
+            145
+          ],
+          "center_xy": [
+            1026.4788732394366,
+            144.43661971830986
+          ],
+          "nominal_theta_degrees": 57.91314553990609,
+          "nominal_display_ordinate": 1.3478748597781378,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 71,
+          "visible_component_bbox_not_errorbar": [
+            1022,
+            140,
+            1031,
+            149
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            1096,
+            90
+          ],
+          "center_xy": [
+            1095.4366197183099,
+            89.35211267605634
+          ],
+          "nominal_theta_degrees": 69.40610328638499,
+          "nominal_display_ordinate": 1.6159852922846816,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 71,
+          "visible_component_bbox_not_errorbar": [
+            1091,
+            85,
+            1100,
+            94
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            1156,
+            42
+          ],
+          "center_xy": [
+            1156.1971830985915,
+            41.32394366197183
+          ],
+          "nominal_theta_degrees": 79.53286384976525,
+          "nominal_display_ordinate": 1.8497507166895175,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 71,
+          "visible_component_bbox_not_errorbar": [
+            1152,
+            37,
+            1160,
+            46
+          ],
+          "frame_clipped_window": false
+        },
+        {
+          "seed_xy": [
+            1217,
+            24
+          ],
+          "center_xy": [
+            1214.8431372549019,
+            24.294117647058822
+          ],
+          "nominal_theta_degrees": 89.30718954248364,
+          "nominal_display_ordinate": 1.9326392503904215,
+          "printed_ordinate_multiplier": "10^4",
+          "selected_dark_pixels": 51,
+          "visible_component_bbox_not_errorbar": [
+            1212,
+            20,
+            1217,
+            29
+          ],
+          "frame_clipped_window": true
+        }
+      ],
+      "threshold_pixel_envelope_not_CI": [
+        {
+          "x_pixel_range": [
+            781.3521126760563,
+            781.4545454545455
+          ],
+          "y_pixel_range": [
+            235.5,
+            235.56338028169014
+          ]
+        },
+        {
+          "x_pixel_range": [
+            884.8333333333334,
+            885.0
+          ],
+          "y_pixel_range": [
+            234.0,
+            234.12307692307692
+          ]
+        },
+        {
+          "x_pixel_range": [
+            977.3188405797101,
+            977.5
+          ],
+          "y_pixel_range": [
+            184.8181818181818,
+            185.0
+          ]
+        },
+        {
+          "x_pixel_range": [
+            1026.4788732394366,
+            1026.5
+          ],
+          "y_pixel_range": [
+            144.43661971830986,
+            144.5
+          ]
+        },
+        {
+          "x_pixel_range": [
+            1095.3384615384616,
+            1095.4366197183099
+          ],
+          "y_pixel_range": [
+            89.29230769230769,
+            89.39473684210526
+          ]
+        },
+        {
+          "x_pixel_range": [
+            1156.1818181818182,
+            1156.2153846153847
+          ],
+          "y_pixel_range": [
+            41.23076923076923,
+            41.35064935064935
+          ]
+        },
+        {
+          "x_pixel_range": [
+            1214.754716981132,
+            1214.8431372549019
+          ],
+          "y_pixel_range": [
+            24.285714285714285,
+            24.41509433962264
+          ]
+        }
+      ],
+      "errorbar_readiness": "unresolved from this extraction; most bars are hidden by filled markers, component extent is not sigma"
+    }
+  ],
+  "controls": {
+    "native_image_hash_and_dimensions": true,
+    "seven_dark_point_components_per_target": true,
+    "centers_near_predeclared_visual_seeds": true,
+    "threshold_stability_under_two_pixels": true,
+    "ordered_plot_angles": true
+  },
+  "all_controls_pass": true,
+  "max_threshold_pixel_span": 0.3653846153846132,
+  "max_center_seed_distance_pixels": 2.2291666666666288,
+  "overlay_for_visual_review": "tmp/day23-originals/au187-points-reconstructed-overlay056.png",
+  "limitations": [
+    "Published I_gamma plot ordinates are not original net peak counts or event totals.",
+    "Nominal intensity transforms inherit rounded printed axis labels, especially panel b.",
+    "The last plotted marker is clipped near the 90-degree frame; its centroid is not an exact detector-angle calibration.",
+    "No experimental sigma, Poisson assignment, covariance, weighted likelihood, chi-square or delta was reconstructed.",
+    "No fit was run; this is a reduced plotted-vector readiness artifact, not an additional independent measurement.",
+    "The image segmentation and threshold checks do not certify original gate/efficiency/normalization or response."
+  ]
+}

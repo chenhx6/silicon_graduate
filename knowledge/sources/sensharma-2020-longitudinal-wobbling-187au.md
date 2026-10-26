@@ -235,3 +235,26 @@ p3确实用17角环和两run合并高统计作AD，并说效率、alignment、at
 条件构造可直接复算：μ=20、σ=11，取x=μ−a、y=μ+b、ab=σ²，权重p_x=b/(a+b)、p_y=a/(a+b)。a=11给(9°,31°)、(.5,.5)；a=20给(0°,26.05°)、(.23224568,.76775432)；a=121/40给(16.975°,60°)、(.92969204,.07030796)。均落在同sextant、mean20/variance121；对称例的〈cos3γ〉=cos(3μ)cos(3σ)提供独立解析核对。这里未恢复实际P(β,γ)、β³–cos3γ相关或charge tensor，不能把结果填成有效实验γ/CI。
 
 本次supports将staticminimum与动态mean/宽度分别记账，limits“同名Gogny/γ即同输入”的快捷比较。作者原文对非yrast0+与部分跨带E2/E0失败、2qp缺失和inertia改进也明确，不能将全局平均模型符合度用于本Au具体δ的独立证明。新增needs_review:true，原S20 flags与LW/SP争议保留。
+
+## Day23：公开AD数据点中心与误差向量readiness
+
+在AU20-D23-6红色显示fit的几何提取之后，本次另取同一原Fig3(a,b)中的黑色点中心；不是新增采集、原峰计数或重做作者拟合。冻结的既有raw PDF SHA f348dce9976ad076fd9b1d5281a728e0923053aced33b0270f643d770729366a，PDF4 imagexref88实际1334×1129 PNG，SHA b8d48d938b3dc7a9ef58408a63bc11aeedea08a422bb312b9aac4c6e37a6dcdd。system/scripts/day23_au187_plotted_points.py可从原PDF只读重建tmp图像；该重建已实际运行exit0，无raw写入。预先标记局部窗口，取dark connected component，threshold60/100/140；14点叠图经Codex视觉自审，仍needs_review。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AU20-D23-7 | Fig3(a,b)各可提取7个黑色点中心，三个dark threshold的坐标跨度最大约.365px；它们是公开图示Iγ的像素位置，不是原始net counts或17环各自原记录。原图的左右纵轴分别带10³/10⁴，右轴打印label有rounding；由图标尺得到的nominal ordinate不应冒充精确原强度。 | published-observation-plot-digitization | original-raster-plus-declared-image-analysis | printed052501-4 Fig3(a,b), imagexref88 and nativecenters table below | true |
+| AU20-D23-8 | 多数点的完整误差条在原native图中与实心marker重叠；376约58°处有可见stem，但black component bbox并不自动等实验σ。两幅约90°的点被frame部分裁切，其dark centroid也不是精确90°探测器角标。因此本提取不生成pointσ、Poisson模型、Cov、weightedχ²、δ或root权重；sourceTable4.4、自由A2/A4、红fit与本黑点中心仍须分阶段比较。 | plotted-vector-error-response-readiness | actual-raster-scope-and-explicit-boundary | printed052501-4 Fig3(a,b) blackmarkers/errorstems and90degreeframe | true |
+
+下表为native像素(x,y)，只保留一位小数方便再定位；精确算法坐标及threshold区间在任务artifact。y向下，图框原点非物理强度0。最后一行frame裁切，不能用x质心偏左自行改真实探测器角度。
+
+| 点序 | 376.3keV native(x,y) | 461.8keV native(x,y) |
+|---|---|---|
+| 1 | (224.6,243.0) | (781.4,235.6) |
+| 2 | (328.0,241.8) | (885.0,234.0) |
+| 3 | (420.6,205.4) | (977.3,184.8) |
+| 4 | (469.6,147.4) | (1026.5,144.4) |
+| 5 | (538.6,95.4) | (1095.4,89.4) |
+| 6 | (599.4,61.4) | (1156.2,41.3) |
+| 7 | (657.8,42.0) | (1214.8,24.3) |
+
+五项hash/点数/局部定位/threshold稳定/角序控制通过，只核图像提取；没有对这些点做任何拟合。要进入共同实验likelihood仍需原角组净峰面积、误差/Cov、各组efficiency/归一及gate/response。像素敏感性不当实验CI，原条件大δ支持和新HIRFL小δ冲突均不因这一步被覆盖。新增needs_review:true，原审核flags不变。
